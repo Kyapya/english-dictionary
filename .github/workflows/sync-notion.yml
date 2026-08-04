@@ -1,0 +1,74 @@
+name: Sync merged entries to Notion
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "entries/**/*.md"
+
+permissions:
+  contents: read
+
+concurrency:
+  group: notion-sync-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  sync-notion:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    env:
+      NOTION_TOKEN: ${{ secrets.NOTION_TOKEN }}
+      NOTION_DATA_SOURCE_ID: ${{ vars.NOTION_DATA_SOURCE_ID }}
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Check required configuration
+        shell: bash
+        run: |
+          if [[ -z "$NOTION_TOKEN" ]]; then
+            echo "NOTION_TOKEN is not configured." >&2
+            exit 1
+          fi
+          if [[ -z "$NOTION_DATA_SOURCE_ID" ]]; then
+            echo "NOTION_DATA_SOURCE_ID repository variable is not configured." >&2
+            exit 1
+          fi
+
+      - name: Import changed checked entries
+        shell: bash
+        env:
+          BEFORE_SHA: ${{ github.event.before }}
+          CURRENT_SHA: ${{ github.sha }}
+        run: |
+          if [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
+            mapfile -t files < <(git diff-tree --root --no-commit-id --name-only --diff-filter=AM -r "$CURRENT_SHA" -- entries)
+          else
+            mapfile -t files < <(git diff --name-only --diff-filter=AM "$BEFORE_SHA" "$CURRENT_SHA" -- entries)
+          fi
+
+          if (( ${#files[@]} == 0 )); then
+            echo "No added or modified entry files to sync."
+            exit 0
+          fi
+
+          args=()
+          for file in "${files[@]}"; do
+            args+=(--entry "$file")
+          done
+          python scripts/import_to_notion.py \
+            "${args[@]}" \
+            --parent-id "$NOTION_DATA_SOURCE_ID" \
+            --status-value "未着手" \
+            --tag-value "英単語"
+

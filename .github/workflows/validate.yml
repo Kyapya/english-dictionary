@@ -1,0 +1,42 @@
+name: Validate dictionary changes
+
+on:
+  pull_request:
+    paths:
+      - "entries/**/*.md"
+      - "queue/words.csv"
+      - "prompts/**/*.md"
+      - "scripts/**/*.py"
+      - "tests/**/*.py"
+      - "AGENTS.md"
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Compile scripts and tests
+        run: python -m compileall -q scripts tests
+
+      - name: Run unit tests
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate entry formats
+        run: python scripts/validate_entry.py entries
+
+      - name: Validate queue and entry consistency
+        run: python scripts/validate_repository.py
+
