@@ -19,7 +19,7 @@
 9. `.github/workflows/sync-notion.yml` がマージされた完成記事をNotionへ同期する。
 10. エージェントがNotion同期ワークフローの成功を確認してから依頼完了を報告する。
 
-Notion上の新規ページは、添付元仕様どおり `ALL=見出し語`、`タグ=英単語`、`Status=未着手` とする。同じALL値の既存ページが1件ある場合は、ページIDと利用者管理プロパティを維持し、GitHub管理の本文だけを最新版へ置換する。同じALL値が複数件ある場合は誤更新を避けるため同期を失敗させる。NotionからGitHub Pagesへの既存反映処理は変更しない。
+Notion同期では毎回新規ページを作成し、添付元仕様どおり `ALL=見出し語`、`タグ=英単語`、`Status=未着手` とする。同じALL値の既存ページがあっても更新・削除せず、新しい解説を別ページとして保存する。GitHub上では同じ見出し語のMarkdownを最新版へ上書きし、GitHubを現行版の正本とする。NotionからGitHub Pagesへの既存反映処理は変更しない。
 
 Excelおよび索引エクスポートは標準フローでは実行しない。既存スクリプトは過去の手動運用との互換性のためだけに残している。
 
@@ -54,7 +54,7 @@ GitHubリポジトリでは次を設定する。
 - `queue/words.csv`: 作成予定語、進捗、出力先ファイルを管理するキュー。
 - `entries/`: 1語1Markdownの記事本文。
 - `scripts/`: slug作成、形式検査、索引出力、結合出力、進捗表示のスクリプト。
-- `scripts/import_to_notion.py`: 完成記事を添付仕様の階層・ブロック構造でNotionへupsertする。`--entry` で単一または複数記事を直接指定でき、同じ見出し語の既存ページでは本文だけを置換する。
+- `scripts/import_to_notion.py`: 完成記事を添付仕様の階層・ブロック構造でNotionの新規ページへ追加する。`--entry` で単一または複数記事を直接指定でき、同じ見出し語の既存ページは変更しない。
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `exports/`: CSV、Excel、結合Markdownなどの出力先。
 - `logs/`: 作業ログ。

@@ -69,6 +69,6 @@ jobs:
           python scripts/import_to_notion.py \
             "${args[@]}" \
             --parent-id "$NOTION_DATA_SOURCE_ID" \
-            --existing-policy update \
+            --existing-policy create \
             --status-value "未着手" \
             --tag-value "英単語"

@@ -15,7 +15,7 @@ from import_to_notion import NotionApiError, import_entry, markdown_to_blocks  #
 
 
 class ImportToNotionTests(unittest.TestCase):
-    def notion_args(self, policy: str = "update") -> SimpleNamespace:
+    def notion_args(self, policy: str = "create") -> SimpleNamespace:
         return SimpleNamespace(
             dry_run=False,
             existing_policy=policy,
@@ -105,7 +105,7 @@ class ImportToNotionTests(unittest.TestCase):
             patch.object(import_to_notion.time, "sleep"),
         ):
             result = import_entry(
-                self.notion_args(),
+                self.notion_args("update"),
                 "token",
                 {"headword": "approximately", "file": "unused.md"},
             )
@@ -138,12 +138,12 @@ class ImportToNotionTests(unittest.TestCase):
             self.assertRaises(NotionApiError),
         ):
             import_entry(
-                self.notion_args(),
+                self.notion_args("update"),
                 "token",
                 {"headword": "approximately", "file": "unused.md"},
             )
 
-    def test_creates_a_page_when_no_matching_title_exists(self) -> None:
+    def test_create_policy_always_creates_without_querying_existing_titles(self) -> None:
         calls: list[tuple[str, str, object]] = []
 
         def fake_request(
@@ -154,8 +154,6 @@ class ImportToNotionTests(unittest.TestCase):
             payload: object = None,
         ) -> dict[str, object]:
             calls.append((method, path, payload))
-            if method == "POST" and path.endswith("/query"):
-                return {"results": [], "has_more": False}
             if method == "POST" and path == "/pages":
                 return {"id": "new-page"}
             return {}
@@ -176,6 +174,7 @@ class ImportToNotionTests(unittest.TestCase):
         self.assertIn("CREATE approximately", result)
         create_payload = next(payload for method, path, payload in calls if path == "/pages")
         self.assertEqual(create_payload["properties"]["Status"], {"status": {"name": "未着手"}})
+        self.assertFalse(any(path.endswith("/query") for _, path, _ in calls))
         self.assertTrue(
             any(path == "/blocks/new-page/children" for _, path, _ in calls)
         )
