@@ -83,11 +83,11 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--note-value", default="")
     parser.add_argument(
         "--existing-policy",
-        choices=("update", "skip", "error"),
-        default="update",
+        choices=("create", "update", "skip", "error"),
+        default="create",
         help=(
             "How to handle a page with the same ALL/title value. "
-            "The default replaces its generated body while preserving page properties."
+            "The default always creates a new page and preserves all earlier pages."
         ),
     )
     parser.add_argument(
@@ -447,7 +447,7 @@ def existing_policy(args: argparse.Namespace) -> str:
     legacy = getattr(args, "skip_existing", None)
     if legacy is not None:
         return "skip" if legacy else "update"
-    return getattr(args, "existing_policy", "update")
+    return getattr(args, "existing_policy", "create")
 
 
 def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> str:
@@ -456,6 +456,12 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
     blocks = markdown_to_blocks(body)
     if args.dry_run:
         return f"DRY-RUN {headword}: {len(body)} chars, {len(blocks)} blocks"
+    policy = existing_policy(args)
+    if policy == "create":
+        page_id = create_page(args, token, headword)
+        time.sleep(args.sleep)
+        append_blocks(args, token, page_id, blocks)
+        return f"CREATE {headword}: {len(blocks)} blocks, page_id={page_id}"
     pages = find_pages(
         token,
         args.notion_version,
@@ -470,7 +476,6 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
             "refusing to choose one automatically."
         )
     if pages:
-        policy = existing_policy(args)
         if policy == "skip":
             return f"SKIP {headword}: page already exists"
         if policy == "error":

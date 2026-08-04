@@ -124,7 +124,7 @@ front matterの下に、`prompts/entry_spec_v3.md` と `prompts/entry_spec_v4.md
 
 - `scripts/slugify.py`: headwordから保存パス用slugを作る。
 - `scripts/validate_entry.py`: Markdown本文の形式を検査する。
-- `scripts/import_to_notion.py`: checked/final記事をNotionへupsertする。同じ見出し語のページが1件なら、ページIDと利用者管理プロパティを維持して本文だけを置換する。複数件なら誤更新防止のため失敗する。
+- `scripts/import_to_notion.py`: checked/final記事をNotionの新規ページへ追加する。同じ見出し語の既存ページがあっても更新・削除せず、同期ごとに別ページを作成する。GitHub上では既存のMarkdownを最新版へ上書きする。
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `scripts/export_index.py`: queueとentriesから索引CSV、可能ならExcelを出力する。Excelの `file` 列には、対応するMarkdownファイルをクリックして開けるハイパーリンクを付ける。
 - `scripts/export_all_markdown.py`: checkedまたはfinalの記事を1つのMarkdownに結合する。
