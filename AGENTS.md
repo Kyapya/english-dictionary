@@ -111,19 +111,20 @@ front matterの下に、`prompts/entry_spec_v3.md` と `prompts/entry_spec_v4.md
 ## CodexからGitHubへ追加する標準フロー
 
 - 辞書本文のAI生成にOpenAI API、GitHub Actions、外部の生成用APIキーを使用しない。生成主体は、ユーザーから依頼を受けてこのリポジトリを編集しているCodex等のエージェント自身とする。
-- ユーザーが「`<見出し語>`を辞書に追加してPRを作成して」のように依頼した場合、本文生成、独立チェック、形式検証、queue・logs更新、専用ブランチへのcommit・push、Pull Request作成までを一つの標準作業として扱う。
+- ユーザーが「`<見出し語>`を辞書に追加してPRを作成して」のように依頼した場合、本文生成、独立チェック、形式検証、queue・logs更新、専用ブランチへのcommit・push、Pull Request作成、検証成功後のマージ、Notion同期成功の確認までを一つの標準作業として扱う。
 - 本文はチャットへ分割出力してから連結せず、`entries/` の1ファイルへ直接完成版として作成する。長い場合も必要な説明が揃うまでファイル編集を継続し、`【続きあり】` を本文へ入れない。
 - 生成と独立チェックでは、同じ要約や内部棚卸しを再利用しない。チェック開始時にv3・v4の生成・チェック仕様を読み直し、見出し語からゼロベースで監査する。
 - PR作成前に `python -m unittest discover -s tests -v`、`python scripts/validate_entry.py entries`、`python scripts/validate_repository.py` をすべて成功させる。
 - GitHub Actionsは記事を生成・修正しない。PRの機械検証だけを行う。
-- Pull Requestのマージは自動化せず、人間の承認に委ねる。Notion同期は `main` へのマージ後だけ実行する。
+- Pull Requestの機械検証が成功したら、エージェントが `main` へマージする。ユーザーがレビュー待ちまたはマージ停止を明示した場合だけ、Pull Requestを未マージで残す。
+- Notion同期は `main` へのマージ後だけ実行し、エージェントは `.github/workflows/sync-notion.yml` の成功を確認してから依頼を完了する。
 - GitHubリポジトリまたはpush先が指定・接続されていない場合、ローカル生成と検証までは進め、外部書き込み前に公開先を確認する。
 
 ## スクリプト
 
 - `scripts/slugify.py`: headwordから保存パス用slugを作る。
 - `scripts/validate_entry.py`: Markdown本文の形式を検査する。
-- `scripts/import_to_notion.py`: checked/final記事をNotionへ新規追加する。同じ見出し語の既存ページは既定で上書きしない。
+- `scripts/import_to_notion.py`: checked/final記事をNotionへupsertする。同じ見出し語のページが1件なら、ページIDと利用者管理プロパティを維持して本文だけを置換する。複数件なら誤更新防止のため失敗する。
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `scripts/export_index.py`: queueとentriesから索引CSV、可能ならExcelを出力する。Excelの `file` 列には、対応するMarkdownファイルをクリックして開けるハイパーリンクを付ける。
 - `scripts/export_all_markdown.py`: checkedまたはfinalの記事を1つのMarkdownに結合する。

@@ -15,9 +15,11 @@
 5. `queue/words.csv` と日付ログを更新し、`scripts/validate_repository.py` と全単体テストを実行する。
 6. エージェントが専用ブランチへcommit・pushし、Pull Requestを作成する。
 7. GitHub ActionsはAI生成を行わず、PR内の記事形式、queueとの整合、単体テストだけを再検証する。
-8. 人がPRを承認・マージすると、`.github/workflows/sync-notion.yml` が完成記事をNotionへ同期する。
+8. 検証成功後、エージェントがPull Requestを `main` へマージする。利用者がレビュー待ちを明示した場合だけ、マージせず停止する。
+9. `.github/workflows/sync-notion.yml` がマージされた完成記事をNotionへ同期する。
+10. エージェントがNotion同期ワークフローの成功を確認してから依頼完了を報告する。
 
-Notion上の新規ページは、添付元仕様どおり `ALL=見出し語`、`タグ=英単語`、`Status=未着手` とする。同じALL値の既存ページは上書きせずスキップする。NotionからGitHub Pagesへの既存反映処理は変更しない。
+Notion上の新規ページは、添付元仕様どおり `ALL=見出し語`、`タグ=英単語`、`Status=未着手` とする。同じALL値の既存ページが1件ある場合は、ページIDと利用者管理プロパティを維持し、GitHub管理の本文だけを最新版へ置換する。同じALL値が複数件ある場合は誤更新を避けるため同期を失敗させる。NotionからGitHub Pagesへの既存反映処理は変更しない。
 
 Excelおよび索引エクスポートは標準フローでは実行しない。既存スクリプトは過去の手動運用との互換性のためだけに残している。
 
@@ -27,7 +29,7 @@ GitHubリポジトリでは次を設定する。
 
 - Secret `NOTION_TOKEN`: 対象データソースへ追加権限を持つNotion Integrationのトークン。
 - Variable `NOTION_DATA_SOURCE_ID`: NotionのデータソースID。現在のローカル既定値は `37783e96-dad5-4fd2-82c0-37c0147b625b`。
-- `main` ブランチへの直接pushを禁止し、Pull Requestと1名以上の承認を必須にする。
+- `main` ブランチへの直接pushを禁止し、Pull Request経由の変更を必須にする。標準フローを完全自動化する場合は、人の承認を必須にするブランチルールを設定しない。
 - `Validate dictionary changes` を必須チェックにする。
 
 既定ブランチ名が `main` 以外の場合は `sync-notion.yml` の対象ブランチも変更する。OpenAI APIキーは不要であり、GitHub Secretsにも登録しない。
@@ -52,7 +54,7 @@ GitHubリポジトリでは次を設定する。
 - `queue/words.csv`: 作成予定語、進捗、出力先ファイルを管理するキュー。
 - `entries/`: 1語1Markdownの記事本文。
 - `scripts/`: slug作成、形式検査、索引出力、結合出力、進捗表示のスクリプト。
-- `scripts/import_to_notion.py`: 完成記事を添付仕様の階層・ブロック構造でNotionへ追加する。`--entry` で単一または複数記事を直接指定できる。
+- `scripts/import_to_notion.py`: 完成記事を添付仕様の階層・ブロック構造でNotionへupsertする。`--entry` で単一または複数記事を直接指定でき、同じ見出し語の既存ページでは本文だけを置換する。
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `exports/`: CSV、Excel、結合Markdownなどの出力先。
 - `logs/`: 作業ログ。

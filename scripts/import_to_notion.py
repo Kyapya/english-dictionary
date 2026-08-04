@@ -8,6 +8,7 @@ import re
 import sys
 import time
 import urllib.error
+import urllib.parse
 import urllib.request
 from pathlib import Path
 from typing import Any
@@ -81,10 +82,22 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--note-value", default="")
     parser.add_argument(
+        "--existing-policy",
+        choices=("update", "skip", "error"),
+        default="update",
+        help=(
+            "How to handle a page with the same ALL/title value. "
+            "The default replaces its generated body while preserving page properties."
+        ),
+    )
+    parser.add_argument(
         "--skip-existing",
         action=argparse.BooleanOptionalAction,
-        default=True,
-        help="Skip pages with the same ALL/title value instead of overwriting them.",
+        default=None,
+        help=(
+            "Deprecated compatibility flag. --skip-existing selects the skip policy; "
+            "--no-skip-existing selects the update policy."
+        ),
     )
     parser.add_argument(
         "--include-unchecked",
@@ -318,22 +331,32 @@ def query_path(parent_type: str, parent_id: str) -> str:
     return f"/databases/{parent_id}/query"
 
 
-def page_exists(
+def find_pages(
     token: str,
     notion_version: str,
     parent_type: str,
     parent_id: str,
     title_property: str,
     headword: str,
-) -> bool:
-    payload = {
-        "filter": {"property": title_property, "title": {"equals": headword}},
-        "page_size": 1,
-    }
-    result = notion_request(
-        "POST", query_path(parent_type, parent_id), token, notion_version, payload
-    )
-    return bool(result.get("results"))
+) -> list[dict[str, Any]]:
+    pages: list[dict[str, Any]] = []
+    cursor: str | None = None
+    while True:
+        payload: dict[str, Any] = {
+            "filter": {"property": title_property, "title": {"equals": headword}},
+            "page_size": 100,
+        }
+        if cursor:
+            payload["start_cursor"] = cursor
+        result = notion_request(
+            "POST", query_path(parent_type, parent_id), token, notion_version, payload
+        )
+        pages.extend(result.get("results", []))
+        if not result.get("has_more"):
+            return pages
+        cursor = result.get("next_cursor")
+        if not cursor:
+            raise NotionApiError("Notion query indicated more pages without a cursor.")
 
 
 def page_parent(parent_type: str, parent_id: str) -> dict[str, Any]:
@@ -380,21 +403,89 @@ def append_blocks(
         time.sleep(args.sleep)
 
 
+def list_child_blocks(
+    args: argparse.Namespace,
+    token: str,
+    page_id: str,
+) -> list[dict[str, Any]]:
+    blocks: list[dict[str, Any]] = []
+    cursor: str | None = None
+    while True:
+        params: dict[str, Any] = {"page_size": 100}
+        if cursor:
+            params["start_cursor"] = cursor
+        path = f"/blocks/{page_id}/children?{urllib.parse.urlencode(params)}"
+        result = notion_request("GET", path, token, args.notion_version)
+        blocks.extend(result.get("results", []))
+        if not result.get("has_more"):
+            return blocks
+        cursor = result.get("next_cursor")
+        if not cursor:
+            raise NotionApiError("Notion block listing indicated more pages without a cursor.")
+
+
+def trash_blocks(
+    args: argparse.Namespace,
+    token: str,
+    blocks: list[dict[str, Any]],
+) -> None:
+    for block in blocks:
+        block_id = block.get("id")
+        if not block_id:
+            raise NotionApiError("Existing Notion block is missing its id.")
+        notion_request(
+            "PATCH",
+            f"/blocks/{block_id}",
+            token,
+            args.notion_version,
+            {"in_trash": True},
+        )
+        time.sleep(args.sleep)
+
+
+def existing_policy(args: argparse.Namespace) -> str:
+    legacy = getattr(args, "skip_existing", None)
+    if legacy is not None:
+        return "skip" if legacy else "update"
+    return getattr(args, "existing_policy", "update")
+
+
 def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> str:
     headword = row["headword"]
     body = read_entry_body(row)
     blocks = markdown_to_blocks(body)
     if args.dry_run:
         return f"DRY-RUN {headword}: {len(body)} chars, {len(blocks)} blocks"
-    if args.skip_existing and page_exists(
+    pages = find_pages(
         token,
         args.notion_version,
         args.parent_type,
         args.parent_id,
         args.title_property,
         headword,
-    ):
-        return f"SKIP {headword}: page already exists"
+    )
+    if len(pages) > 1:
+        raise NotionApiError(
+            f"Found {len(pages)} pages whose {args.title_property} equals {headword!r}; "
+            "refusing to choose one automatically."
+        )
+    if pages:
+        policy = existing_policy(args)
+        if policy == "skip":
+            return f"SKIP {headword}: page already exists"
+        if policy == "error":
+            raise NotionApiError(f"Page already exists for {headword!r}.")
+        page_id = pages[0].get("id")
+        if not page_id:
+            raise NotionApiError("Existing Notion page is missing its id.")
+        old_blocks = list_child_blocks(args, token, page_id)
+        # Append first so a failed upload leaves the previous complete body intact.
+        append_blocks(args, token, page_id, blocks)
+        trash_blocks(args, token, old_blocks)
+        return (
+            f"UPDATE {headword}: replaced {len(old_blocks)} blocks with "
+            f"{len(blocks)} blocks, page_id={page_id}"
+        )
     page_id = create_page(args, token, headword)
     time.sleep(args.sleep)
     append_blocks(args, token, page_id, blocks)
