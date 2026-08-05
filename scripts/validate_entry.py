@@ -43,6 +43,7 @@ SUPPORTED_PROMPT_VERSIONS = {
     "entry_spec_v2",
     "entry_spec_v3",
     "entry_spec_v4",
+    "entry_spec_v5",
 }
 SENSE_PATTERN = re.compile(r"^\d+\.\s*【.+】")
 RELATION_FREQUENCY_PATTERN = re.compile(r"^頻度: 〈(?:10|[1-9])/10〉$")
@@ -53,6 +54,18 @@ EMOJI_PATTERN = re.compile(
     "\U0001F300-\U0001FAFF"
     "\u2600-\u27BF"
     "]"
+)
+INLINE_SENSE_LABELS = (
+    "【日本語訳・定義】",
+    "【頻度】",
+    "【レジスター/領域】",
+    "【文法パターン】",
+    "【語法・注意】",
+)
+GROUPED_SENSE_LABELS = (
+    "【コロケーション】",
+    "【類義語】",
+    "【反意語】",
 )
 
 
@@ -376,6 +389,107 @@ def _check_modern_content(lines: list[str], headword: str) -> list[str]:
     return errors
 
 
+def _is_v5_structural_line(stripped: str) -> bool:
+    return (
+        stripped in ORDERED_HEADINGS
+        or stripped in GROUPED_SENSE_LABELS
+        or bool(SENSE_PATTERN.match(stripped))
+    )
+
+
+def _check_v5_line_endings(lines: list[str]) -> list[str]:
+    errors: list[str] = []
+    for index, raw in enumerate(lines):
+        stripped = raw.strip()
+        if not stripped:
+            continue
+        trailing_spaces = len(raw) - len(raw.rstrip(" "))
+        if _is_v5_structural_line(stripped):
+            if trailing_spaces:
+                errors.append(
+                    f"line {index + 1}: v5 structural headings must not have trailing spaces"
+                )
+        elif trailing_spaces != 2:
+            errors.append(
+                f"line {index + 1}: v5 content lines must end with exactly two spaces"
+            )
+    return errors
+
+
+def _check_v5_blank_lines(lines: list[str]) -> list[str]:
+    errors: list[str] = []
+    for index in range(1, len(lines)):
+        if not lines[index].strip() and not lines[index - 1].strip():
+            errors.append(f"line {index + 1}: v5 body must not contain consecutive blank lines")
+
+    for index, raw in enumerate(lines):
+        stripped = raw.strip()
+        is_independent = (
+            bool(SENSE_PATTERN.match(stripped))
+            or stripped in GROUPED_SENSE_LABELS
+            or any(stripped.startswith(label) for label in INLINE_SENSE_LABELS)
+        )
+        if not is_independent:
+            continue
+        if index == 0 or lines[index - 1].strip():
+            errors.append(
+                f"line {index + 1}: v5 independent blocks require one blank line before"
+            )
+        if index + 1 >= len(lines) or lines[index + 1].strip():
+            errors.append(
+                f"line {index + 1}: v5 independent blocks require one blank line after"
+            )
+    return errors
+
+
+def _check_v5_label_shapes(lines: list[str]) -> list[str]:
+    errors: list[str] = []
+    expected_sense_number = 1
+    for index, raw in enumerate(lines):
+        stripped = raw.strip()
+        if SENSE_PATTERN.match(stripped):
+            match = re.fullmatch(r"(\d+)\.\s+【[^】]+】\s*\S.*", stripped)
+            if match is None:
+                errors.append(
+                    f"line {index + 1}: v5 sense heading must include a translation after 【品詞・自他等】"
+                )
+            else:
+                actual_number = int(match.group(1))
+                if actual_number != expected_sense_number:
+                    errors.append(
+                        f"line {index + 1}: v5 sense numbers must be consecutive; "
+                        f"expected {expected_sense_number}, got {actual_number}"
+                    )
+                expected_sense_number += 1
+
+        for label in INLINE_SENSE_LABELS:
+            if stripped.startswith(label) and not stripped[len(label) :].strip():
+                errors.append(
+                    f"line {index + 1}: v5 {label} must keep its content on the same line"
+                )
+        for label in GROUPED_SENSE_LABELS:
+            if stripped.startswith(label) and stripped != label:
+                errors.append(
+                    f"line {index + 1}: v5 {label} must be a standalone heading"
+                )
+
+        if stripped.startswith("【頻度】") and not re.fullmatch(
+            r"【頻度】〈(?:10|[1-9])/10〉", stripped
+        ):
+            errors.append(
+                f"line {index + 1}: v5 sense frequency must be exactly 【頻度】〈n/10〉"
+            )
+    return errors
+
+
+def _check_v5_format(lines: list[str]) -> list[str]:
+    errors: list[str] = []
+    errors.extend(_check_v5_line_endings(lines))
+    errors.extend(_check_v5_blank_lines(lines))
+    errors.extend(_check_v5_label_shapes(lines))
+    return errors
+
+
 def validate_text(text: str) -> list[str]:
     errors: list[str] = []
     front_matter, body = _split_front_matter(text)
@@ -408,8 +522,14 @@ def validate_text(text: str) -> list[str]:
     errors.extend(_check_collocation_blocks(lines))
     errors.extend(_check_relation_blocks(lines, "【類義語】"))
     errors.extend(_check_relation_blocks(lines, "【反意語】"))
-    if front_values.get("prompt_version") in {"entry_spec_v3", "entry_spec_v4"}:
+    if front_values.get("prompt_version") in {
+        "entry_spec_v3",
+        "entry_spec_v4",
+        "entry_spec_v5",
+    }:
         errors.extend(_check_modern_content(lines, front_values.get("headword", "")))
+    if front_values.get("prompt_version") == "entry_spec_v5":
+        errors.extend(_check_v5_format(lines))
     return errors
 
 

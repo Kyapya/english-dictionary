@@ -40,11 +40,32 @@ class PromptContractTests(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, text)
 
-    def test_agents_routes_generation_and_checking_through_v4(self) -> None:
+    def test_v5_preserves_source_quality_and_exact_format_contract(self) -> None:
+        entry = (REPO_ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8")
+        check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(encoding="utf-8")
+        notion = (REPO_ROOT / "prompts" / "notion_spec_v1.md").read_text(encoding="utf-8")
+        for marker in (
+            "原指示と同等であること",
+            "行末に半角スペースをちょうど2個",
+            "コロケーションの固定書式",
+            "類義語・反意語の固定書式",
+            "語義棚卸しと構文棚卸しを別々に",
+            "prompt_version: entry_spec_v5",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, entry)
+        self.assertIn("二段階の独立チェック", check)
+        self.assertIn("1エントリを1つのNotionテキストブロック", notion)
+        self.assertIn("同一rich_textブロック内のネイティブ改行", notion)
+
+    def test_agents_routes_generation_and_checking_through_v5(self) -> None:
         text = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn("prompts/entry_spec_v4.md", text)
         self.assertIn("prompts/check_spec_v4.md", text)
-        self.assertIn("prompt_version: entry_spec_v4", text)
+        self.assertIn("prompts/entry_spec_v5.md", text)
+        self.assertIn("prompts/check_spec_v5.md", text)
+        self.assertIn("prompts/notion_spec_v1.md", text)
+        self.assertIn("prompt_version: entry_spec_v5", text)
 
     def test_github_flow_uses_codex_not_an_api_generator(self) -> None:
         agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
