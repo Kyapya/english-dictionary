@@ -2,7 +2,7 @@
 headword: embrace
 type: word
 status: checked
-prompt_version: entry_spec_v4
+prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-05
 updated_at: 2026-08-05
@@ -12,7 +12,7 @@ tags: []
 
 ＃発音記号
 
-米・英: /ɪmˈbreɪs/
+米・英: /ɪmˈbreɪs/  
 ・主強勢は第2音節 /breɪs/ にあり、語頭は通常 /ɪm/ と弱く発音する。綴りの *em-* を /em/ と強く読まない。  
 ・語末の *-ce* は /s/ で、名詞・動詞とも発音は同じである。  
 ・活用形は *embraces* /ɪmˈbreɪsɪz/、*embraced* /ɪmˈbreɪst/、*embracing* /ɪmˈbreɪsɪŋ/。*embracing* では語末の *e* を落として *-ing* を付ける。  
@@ -45,13 +45,13 @@ tags: []
 
 1. 【他動詞】（考え・変化・機会・価値観などを）進んで受け入れる、採用する、支持する
 
-【日本語訳・定義】単に仕方なく認めるのではなく、対象を価値あるものとして前向きに受け入れ、自分の考え方・行動・制度へ取り込むことを表す。目的語には *change, technology, an idea, an opportunity, a challenge, diversity, a faith, a cause, an identity* などが来る。対象自体が困難・不確実でも、それに向き合う姿勢を積極的に選ぶという意味で使える。
+【日本語訳・定義】単に仕方なく認めるのではなく、対象を価値あるものとして前向きに受け入れ、自分の考え方・行動・制度へ取り込むことを表す。目的語には *change, technology, an idea, an opportunity, a challenge, diversity, a faith, a cause, an identity* などが来る。対象自体が困難・不確実でも、それに向き合う姿勢を積極的に選ぶという意味で使える。  
 
-【頻度】〈9/10〉
+【頻度】〈9/10〉  
 
-【レジスター/領域】標準的だが、日常会話の単純な *accept* よりやや改まっている。報道、ビジネス、政治、教育、自己啓発、宗教・文化の説明で非常によく使う。
+【レジスター/領域】標準的だが、日常会話の単純な *accept* よりやや改まっている。報道、ビジネス、政治、教育、自己啓発、宗教・文化の説明で非常によく使う。  
 
-【文法パターン】*embrace + [idea/change/technology/value]*＝考え・変化などを積極的に採用する／*embrace + [opportunity/challenge/uncertainty]*＝機会・課題などを前向きに引き受ける／*embrace the opportunity/chance to do*＝～する機会を喜んで生かす／*[fully/readily/wholeheartedly] embrace + O*＝受容の強さを示す／*embrace + O + as + C*＝OをCとして受け入れる／*be embraced by + 人・組織*＝人・組織に広く受け入れられる
+【文法パターン】*embrace + [idea/change/technology/value]*＝考え・変化などを積極的に採用する／*embrace + [opportunity/challenge/uncertainty]*＝機会・課題などを前向きに引き受ける／*embrace the opportunity/chance to do*＝～する機会を喜んで生かす／*[fully/readily/wholeheartedly] embrace + O*＝受容の強さを示す／*embrace + O + as + C*＝OをCとして受け入れる／*be embraced by + 人・組織*＝人・組織に広く受け入れられる  
 
 【コロケーション】
 
@@ -95,7 +95,7 @@ tags: []
 例: The new payment system was quickly embraced by small retailers.  
 訳: その新しい決済システムは小規模小売業者にすぐ受け入れられた。  
 
-【語法・注意】基本的に他動詞であり、*embrace to do* とはしない。行為を続ける場合は *embrace the opportunity to do*、または *embrace doing something* のように動名詞を目的語とする実例もあるが、後者は「その活動・実践を受け入れる」という意味が明確な場合に限られ、一般的な意志表現として機械的に使わない。*accept* は中立的で、しぶしぶ受け入れる場合も含むが、*embrace* は通常、積極性・熱意・自発性を含む。*adopt* は方法・制度・方針を実際に取り入れる結果に焦点を置き、熱意は必須ではない。*welcome* は提案や出来事を好意的に迎えることに焦点を置き、自分の信念や行動へ深く取り込むとは限らない。*The company embraces diversity.* は通常「多様性を重視・支持する」だが、*The report embraces several topics.* では語義4の「含む」になる。目的語の種類と主語の意味役割で判断する。
+【語法・注意】基本的に他動詞であり、*embrace to do* とはしない。行為を続ける場合は *embrace the opportunity to do*、または *embrace doing something* のように動名詞を目的語とする実例もあるが、後者は「その活動・実践を受け入れる」という意味が明確な場合に限られ、一般的な意志表現として機械的に使わない。*accept* は中立的で、しぶしぶ受け入れる場合も含むが、*embrace* は通常、積極性・熱意・自発性を含む。*adopt* は方法・制度・方針を実際に取り入れる結果に焦点を置き、熱意は必須ではない。*welcome* は提案や出来事を好意的に迎えることに焦点を置き、自分の信念や行動へ深く取り込むとは限らない。*The company embraces diversity.* は通常「多様性を重視・支持する」だが、*The report embraces several topics.* では語義4の「含む」になる。目的語の種類と主語の意味役割で判断する。  
 
 【類義語】
 
@@ -166,13 +166,13 @@ tags: []
 
 2. 【他動詞・自動詞】（人を）抱きしめる；（二人が）抱き合う
 
-【日本語訳・定義】愛情、喜び、慰め、あいさつ、別れなどを示すため、腕を相手の体に回してしっかり抱くことを表す。他動詞では相手を直接目的語に取り、自動詞では二人以上が互いに抱き合う相互的な動作を表す。
+【日本語訳・定義】愛情、喜び、慰め、あいさつ、別れなどを示すため、腕を相手の体に回してしっかり抱くことを表す。他動詞では相手を直接目的語に取り、自動詞では二人以上が互いに抱き合う相互的な動作を表す。  
 
-【頻度】〈7/10〉
+【頻度】〈7/10〉  
 
-【レジスター/領域】標準的だが、日常会話の *hug* より文学的・改まった響きがある。小説、報道写真の描写、式典、感情的な再会・別れの場面でよく使う。恋愛的とは限らない。
+【レジスター/領域】標準的だが、日常会話の *hug* より文学的・改まった響きがある。小説、報道写真の描写、式典、感情的な再会・別れの場面でよく使う。恋愛的とは限らない。  
 
-【文法パターン】*embrace + someone*＝人を抱きしめる／*embrace each other*＝互いに抱き合う／*people embrace*＝複数の人が抱き合う／*embrace someone + [warmly/tightly/tenderly]*＝抱き方を示す／*be embraced by + someone*＝人に抱きしめられる
+【文法パターン】*embrace + someone*＝人を抱きしめる／*embrace each other*＝互いに抱き合う／*people embrace*＝複数の人が抱き合う／*embrace someone + [warmly/tightly/tenderly]*＝抱き方を示す／*be embraced by + someone*＝人に抱きしめられる  
 
 【コロケーション】
 
@@ -206,7 +206,7 @@ tags: []
 例: The child was embraced by both grandparents.  
 訳: その子は祖父母の二人に抱きしめられた。  
 
-【語法・注意】*embrace* は人を直接目的語に取るため、相互動作を *embrace with someone* とは通常言わない。*They embraced.* または *They embraced each other.* とする。他動詞 *They embraced.* ではなく、自動詞用法として主語が複数であることが重要である。日常の自然な会話では *hug* が最も普通で、*embrace* は文章的・感情的・儀礼的に響きやすい。*embrace oneself* は文字どおり「自分の体に腕を回す」なら可能だが一般的な定着表現ではなく、寒さや自己満足を表すなら *hug oneself* の方が普通である。受動態 *be embraced* は、主語が人なら物理的抱擁、考え・制度なら語義1の受容になり得る。
+【語法・注意】*embrace* は人を直接目的語に取るため、相互動作を *embrace with someone* とは通常言わない。*They embraced.* または *They embraced each other.* とする。他動詞 *They embraced.* ではなく、自動詞用法として主語が複数であることが重要である。日常の自然な会話では *hug* が最も普通で、*embrace* は文章的・感情的・儀礼的に響きやすい。*embrace oneself* は文字どおり「自分の体に腕を回す」なら可能だが一般的な定着表現ではなく、寒さや自己満足を表すなら *hug oneself* の方が普通である。受動態 *be embraced* は、主語が人なら物理的抱擁、考え・制度なら語義1の受容になり得る。  
 
 【類義語】
 
@@ -256,13 +256,13 @@ tags: []
 
 3. 【可算名詞】抱擁、抱きしめること；抱き合っている状態
 
-【日本語訳・定義】人が腕を相手に回して抱く一回の動作、または二人がその姿勢にある状態を表す。愛情、再会、慰め、祝福、別れ、恋愛感情などを示し得るが、語自体は性的関係を必ず意味しない。
+【日本語訳・定義】人が腕を相手に回して抱く一回の動作、または二人がその姿勢にある状態を表す。愛情、再会、慰め、祝福、別れ、恋愛感情などを示し得るが、語自体は性的関係を必ず意味しない。  
 
-【頻度】〈7/10〉
+【頻度】〈7/10〉  
 
-【レジスター/領域】標準的だが、名詞 *hug* よりやや文章的・改まった響きがある。物語、報道、式典、感情的場面の描写でよく使う。
+【レジスター/領域】標準的だが、名詞 *hug* よりやや文章的・改まった響きがある。物語、報道、式典、感情的場面の描写でよく使う。  
 
-【文法パターン】*a/an + [warm/tender/brief/tight] embrace*＝抱擁の性質を示す／*greet/welcome someone with an embrace*＝抱擁で迎える／*share an embrace*＝互いに抱き合う／*hold someone in an embrace*＝抱いた状態を保つ／*be locked in an embrace*＝しっかり抱き合っている／*break/pull away from an embrace*＝抱擁を解く
+【文法パターン】*a/an + [warm/tender/brief/tight] embrace*＝抱擁の性質を示す／*greet/welcome someone with an embrace*＝抱擁で迎える／*share an embrace*＝互いに抱き合う／*hold someone in an embrace*＝抱いた状態を保つ／*be locked in an embrace*＝しっかり抱き合っている／*break/pull away from an embrace*＝抱擁を解く  
 
 【コロケーション】
 
@@ -296,7 +296,7 @@ tags: []
 例: She pulled away from the embrace and wiped her eyes.  
 訳: 彼女は抱擁を解き、目元を拭った。  
 
-【語法・注意】可算名詞なので通常は *an embrace*、複数なら *embraces* とする。状態は *in an embrace*、迎え方は *with an embrace* と前置詞が異なる。日常会話では *give someone a hug* が普通で、*give someone an embrace* は文法的でも硬く不自然になりやすい。*share an embrace*、*greet someone with an embrace*、または動詞 *embrace someone* を使う方が自然である。古い文学や婉曲表現では複数形 *embraces* が性的関係を暗示することがあるが、現代の中立的な会話でこの意味を意図して使うのは不自然で、通常は文脈依存の古風な拡張として理解する。
+【語法・注意】可算名詞なので通常は *an embrace*、複数なら *embraces* とする。状態は *in an embrace*、迎え方は *with an embrace* と前置詞が異なる。日常会話では *give someone a hug* が普通で、*give someone an embrace* は文法的でも硬く不自然になりやすい。*share an embrace*、*greet someone with an embrace*、または動詞 *embrace someone* を使う方が自然である。古い文学や婉曲表現では複数形 *embraces* が性的関係を暗示することがあるが、現代の中立的な会話でこの意味を意図して使うのは不自然で、通常は文脈依存の古風な拡張として理解する。  
 
 【類義語】
 
@@ -323,13 +323,13 @@ tags: []
 
 4. 【他動詞】（分野・計画・概念・範囲などが複数の要素を）含む、包含する
 
-【日本語訳・定義】全体となる分野、体系、定義、計画、報告書などが、複数の項目・人・主題を自らの範囲の一部として含むことを表す。語義1のような感情的・積極的受容ではなく、構成範囲の広さを述べる。
+【日本語訳・定義】全体となる分野、体系、定義、計画、報告書などが、複数の項目・人・主題を自らの範囲の一部として含むことを表す。語義1のような感情的・積極的受容ではなく、構成範囲の広さを述べる。  
 
-【頻度】〈6/10〉
+【頻度】〈6/10〉  
 
-【レジスター/領域】硬い・形式的。学術、行政、法律、企画書、説明文で使われる。一般的な文章や会話では *include, cover, encompass* の方が自然なことが多い。
+【レジスター/領域】硬い・形式的。学術、行政、法律、企画書、説明文で使われる。一般的な文章や会話では *include, cover, encompass* の方が自然なことが多い。  
 
-【文法パターン】*embrace + a range/variety of + 複数名詞*＝広い範囲を含む／*embrace + [topics/fields/people/activities]*＝要素を包含する／*embrace both A and B*＝AとBの両方を含む／*[concept/definition/program] + embrace + O*＝概念・定義・計画がOを範囲内に入れる／*O + be embraced by/within + 全体*＝Oが全体に含まれる
+【文法パターン】*embrace + a range/variety of + 複数名詞*＝広い範囲を含む／*embrace + [topics/fields/people/activities]*＝要素を包含する／*embrace both A and B*＝AとBの両方を含む／*[concept/definition/program] + embrace + O*＝概念・定義・計画がOを範囲内に入れる／*O + be embraced by/within + 全体*＝Oが全体に含まれる  
 
 【コロケーション】
 
@@ -363,7 +363,7 @@ tags: []
 例: The broader framework embraces all these forms of community support.  
 訳: そのより広い枠組みは、これらすべての地域支援の形態を含む。  
 
-【語法・注意】この語義では、通常、全体を表す主語が部分を目的語に取る。*The discipline embraces several fields.* は「その学問分野が複数分野を含む」であり、*Several fields embrace the discipline.* と逆転させない。*comprise* も全体を主語にして部分を目的語に取るが、*be comprised of* の扱いには文体差があるため、単純な置換ではなく構文を確認する。*The company embraces diversity.* は「多様性を支持する」という語義1が自然だが、*The policy embraces several areas.* はこの語義の「含む」である。主語に意志を持つ人・組織が来ても、目的語が価値観なら語義1、列挙可能な構成要素なら語義4になりやすい。中立的な文章では *include* が最も無標である。
+【語法・注意】この語義では、通常、全体を表す主語が部分を目的語に取る。*The discipline embraces several fields.* は「その学問分野が複数分野を含む」であり、*Several fields embrace the discipline.* と逆転させない。*comprise* も全体を主語にして部分を目的語に取るが、*be comprised of* の扱いには文体差があるため、単純な置換ではなく構文を確認する。*The company embraces diversity.* は「多様性を支持する」という語義1が自然だが、*The policy embraces several areas.* はこの語義の「含む」である。主語に意志を持つ人・組織が来ても、目的語が価値観なら語義1、列挙可能な構成要素なら語義4になりやすい。中立的な文章では *include* が最も無標である。  
 
 【類義語】
 
@@ -420,13 +420,13 @@ tags: []
 
 5. 【可算名詞・通常単数】（考え・変化・制度などの）積極的な受容、採用、支持
 
-【日本語訳・定義】人、組織、社会などが、考え・技術・制度・文化・価値観を好意的かつ積極的に受け入れることを名詞で表す。多くの場合、単なる承認ではなく、実際に自分の立場・行動・制度へ取り込む含みがある。
+【日本語訳・定義】人、組織、社会などが、考え・技術・制度・文化・価値観を好意的かつ積極的に受け入れることを名詞で表す。多くの場合、単なる承認ではなく、実際に自分の立場・行動・制度へ取り込む含みがある。  
 
-【頻度】〈6/10〉
+【頻度】〈6/10〉  
 
-【レジスター/領域】硬い・抽象的。報道、評論、ビジネス、政治、学術で使われる。日常会話では *acceptance, adoption, support* の方が普通である。
+【レジスター/領域】硬い・抽象的。報道、評論、ビジネス、政治、学術で使われる。日常会話では *acceptance, adoption, support* の方が普通である。  
 
-【文法パターン】*the/one's embrace of + 名詞*＝～の受容・採用／*an + [enthusiastic/full/wholehearted] embrace of + 名詞*＝受容の強さを示す／*[signal/mark/reflect] an embrace of + 名詞*＝受容を示す／*a [broad/partial/qualified] embrace of + 名詞*＝受容の範囲・留保を示す／*move toward/away from an embrace of + 名詞*＝受容へ近づく・離れる
+【文法パターン】*the/one's embrace of + 名詞*＝～の受容・採用／*an + [enthusiastic/full/wholehearted] embrace of + 名詞*＝受容の強さを示す／*[signal/mark/reflect] an embrace of + 名詞*＝受容を示す／*a [broad/partial/qualified] embrace of + 名詞*＝受容の範囲・留保を示す／*move toward/away from an embrace of + 名詞*＝受容へ近づく・離れる  
 
 【コロケーション】
 
@@ -455,7 +455,7 @@ tags: []
 例: Public opinion has moved toward an embrace of flexible working.  
 訳: 世論は柔軟な働き方を受け入れる方向へ動いている。  
 
-【語法・注意】通常は単数で *an embrace of X* または *the/one's embrace of X* とする。前置詞は原則 *of* であり、*an embrace for the policy* より *an embrace of the policy* が自然である。語義3の物理的な名詞とは、後続する *of* の対象と周辺動詞で区別する。*the country's embrace of reform* は「改革の受容」だが、*the child in his mother's embrace* は「母親の抱擁」である。*acceptance* は中立的・受動的な承認にも使える一方、*embrace* は通常、積極的な同意・採用を示す。抽象名詞として多用すると修辞的に重くなるため、平易な文では *adoption of* や *support for* を選ぶ。
+【語法・注意】通常は単数で *an embrace of X* または *the/one's embrace of X* とする。前置詞は原則 *of* であり、*an embrace for the policy* より *an embrace of the policy* が自然である。語義3の物理的な名詞とは、後続する *of* の対象と周辺動詞で区別する。*the country's embrace of reform* は「改革の受容」だが、*the child in his mother's embrace* は「母親の抱擁」である。*acceptance* は中立的・受動的な承認にも使える一方、*embrace* は通常、積極的な同意・採用を示す。抽象名詞として多用すると修辞的に重くなるため、平易な文では *adoption of* や *support for* を選ぶ。  
 
 【類義語】
 
@@ -512,13 +512,13 @@ tags: []
 
 6. 【他動詞】（地形・物体・腕・雰囲気などが）～を取り囲む、包み込む
 
-【日本語訳・定義】山、森、壁、湾、暗闇、暖かさなどが、対象の周囲へ広がって内側に包むことを表す。物理的な囲みが中心だが、光・闇・静けさ・暖かさなどを擬人化して包み込む文学的表現にも使える。
+【日本語訳・定義】山、森、壁、湾、暗闇、暖かさなどが、対象の周囲へ広がって内側に包むことを表す。物理的な囲みが中心だが、光・闇・静けさ・暖かさなどを擬人化して包み込む文学的表現にも使える。  
 
-【頻度】〈4/10〉
+【頻度】〈4/10〉  
 
-【レジスター/領域】文学的・修辞的、または硬い描写。地理・建築・物語の文章で使われる。中立的な説明では *surround, encircle, enclose* の方が普通である。
+【レジスター/領域】文学的・修辞的、または硬い描写。地理・建築・物語の文章で使われる。中立的な説明では *surround, encircle, enclose* の方が普通である。  
 
-【文法パターン】*[mountains/forest/walls] + embrace + O*＝地形・構造物がOを囲む／*embrace + O + on all sides*＝四方から包む／*O + be embraced by + [nature/darkness/warmth]*＝Oが環境・雰囲気に包まれる／*[a curve/bay] + embrace + [space/coast/town]*＝曲線状のものが対象を囲む
+【文法パターン】*[mountains/forest/walls] + embrace + O*＝地形・構造物がOを囲む／*embrace + O + on all sides*＝四方から包む／*O + be embraced by + [nature/darkness/warmth]*＝Oが環境・雰囲気に包まれる／*[a curve/bay] + embrace + [space/coast/town]*＝曲線状のものが対象を囲む  
 
 【コロケーション】
 
@@ -547,7 +547,7 @@ tags: []
 例: Terraced gardens embrace the hotel on all sides.  
 訳: 段々状の庭園がホテルを四方から取り囲んでいる。  
 
-【語法・注意】この語義は他動詞なので、*embrace around the valley* のように *around* を必須の前置詞として付けない。*The hills embrace the valley.* または通常語なら *The hills surround the valley.* とする。人を目的語にすると、多くの場合は語義2の「抱きしめる」と解釈される。無生物主語や地形・雰囲気が目的語を囲むときにこの語義が明確になる。*be embraced by nature* は「自然に囲まれる」と「自然に温かく受け入れられる」という肯定的な比喩が重なり得る。正確な地理・技術説明では修辞性を避け、*surrounded by* や *enclosed by* を使う方が明確である。
+【語法・注意】この語義は他動詞なので、*embrace around the valley* のように *around* を必須の前置詞として付けない。*The hills embrace the valley.* または通常語なら *The hills surround the valley.* とする。人を目的語にすると、多くの場合は語義2の「抱きしめる」と解釈される。無生物主語や地形・雰囲気が目的語を囲むときにこの語義が明確になる。*be embraced by nature* は「自然に囲まれる」と「自然に温かく受け入れられる」という肯定的な比喩が重なり得る。正確な地理・技術説明では修辞性を避け、*surrounded by* や *enclosed by* を使う方が明確である。  
 
 【類義語】
 
@@ -581,13 +581,13 @@ tags: []
 
 7. 【可算名詞・通常単数／比喩】（自然・暗闇・眠り・感情などに）包まれた状態、支配・影響下
 
-【日本語訳・定義】人や場所が、自然、夜、冬、眠り、恐怖などの力に取り囲まれ、そこから強い影響を受けている状態を、抱擁になぞらえて表す。対象によって、安心・保護・親密さにも、拘束・危険・逃れにくさにもなり得る。
+【日本語訳・定義】人や場所が、自然、夜、冬、眠り、恐怖などの力に取り囲まれ、そこから強い影響を受けている状態を、抱擁になぞらえて表す。対象によって、安心・保護・親密さにも、拘束・危険・逃れにくさにもなり得る。  
 
-【頻度】〈4/10〉
+【頻度】〈4/10〉  
 
-【レジスター/領域】文学的・修辞的。小説、旅行記、評論、広告的表現で使われる。日常の事実説明では *surroundings, grip, influence, shelter* などの方が明確である。
+【レジスター/領域】文学的・修辞的。小説、旅行記、評論、広告的表現で使われる。日常の事実説明では *surroundings, grip, influence, shelter* などの方が明確である。  
 
-【文法パターン】*in/within the embrace of + 名詞*＝～に包まれて／*in the [warm/cold/gentle] embrace of + 名詞*＝包囲・影響の性質を示す／*sink/fall into the embrace of + sleep/night*＝眠り・夜へ包まれるように入る／*be held/caught in the embrace of + 名詞*＝強い影響下にある／*escape/break free from the embrace of + 名詞*＝その支配・包囲から離れる
+【文法パターン】*in/within the embrace of + 名詞*＝～に包まれて／*in the [warm/cold/gentle] embrace of + 名詞*＝包囲・影響の性質を示す／*sink/fall into the embrace of + sleep/night*＝眠り・夜へ包まれるように入る／*be held/caught in the embrace of + 名詞*＝強い影響下にある／*escape/break free from the embrace of + 名詞*＝その支配・包囲から離れる  
 
 【コロケーション】
 
@@ -616,7 +616,7 @@ tags: []
 例: The region struggled to break free from the embrace of poverty.  
 訳: その地域は貧困の支配から抜け出そうともがいた。  
 
-【語法・注意】*in the embrace of* は、後続名詞が人なら語義3の物理的抱擁、自然現象・状態・抽象的な力ならこの比喩義になりやすい。*the country's embrace of reform* は語義5の「改革の受容」だが、*the country in the embrace of winter* は「冬に包まれた状態」である。前者は受容する主体が *of* の前にあり、後者は影響を受ける対象が *in* の前にある。この比喩は肯定・否定の両方に使えるため、*warm, gentle, cold, deadly* などの修飾語と文脈を確認する。事務的・科学的な文章では曖昧さと擬人化を避け、*under the influence of, surrounded by, in the grip of* などに置き換える。
+【語法・注意】*in the embrace of* は、後続名詞が人なら語義3の物理的抱擁、自然現象・状態・抽象的な力ならこの比喩義になりやすい。*the country's embrace of reform* は語義5の「改革の受容」だが、*the country in the embrace of winter* は「冬に包まれた状態」である。前者は受容する主体が *of* の前にあり、後者は影響を受ける対象が *in* の前にある。この比喩は肯定・否定の両方に使えるため、*warm, gentle, cold, deadly* などの修飾語と文脈を確認する。事務的・科学的な文章では曖昧さと擬人化を避け、*under the influence of, surrounded by, in the grip of* などに置き換える。  
 
 【類義語】
 
