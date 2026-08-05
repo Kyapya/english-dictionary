@@ -13,6 +13,8 @@ import urllib.request
 from pathlib import Path
 from typing import Any
 
+from validate_entry import validate_file
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 DEFAULT_INDEX_PATH = REPO_ROOT / "exports" / "dictionary_index.csv"
@@ -34,6 +36,12 @@ SUBHEADING_LABELS = (
     "【反意語】",
 )
 GROUPED_ENTRY_SECTIONS = {"【コロケーション】", "【類義語】", "【反意語】"}
+GROUPED_ENTRY_SCHEMAS = {
+    "【コロケーション】": ("・", "用途:", "例:", "訳:"),
+    "【類義語】": ("・", "定義:", "頻度:", "違い:", "例:", "訳:"),
+    "【反意語】": ("・", "定義:", "頻度:", "違い:", "例:", "訳:"),
+}
+INLINE_MARKUP_PATTERN = re.compile(r"(<br>|\n|`[^`\n]+`|\*[^*\n]+\*)")
 
 
 class NotionApiError(RuntimeError):
@@ -196,6 +204,10 @@ def read_entry_body(row: dict[str, str]) -> str:
     path = Path(raw_path)
     if not path.is_absolute():
         path = REPO_ROOT / path
+    validation_errors = validate_file(path)
+    if validation_errors:
+        details = "; ".join(validation_errors)
+        raise ValueError(f"Entry failed validation before Notion import: {path}: {details}")
     _, body = _split_front_matter(path.read_text(encoding="utf-8"))
     return body
 
@@ -216,8 +228,40 @@ def chunk_text(text: str, limit: int = MAX_TEXT_CHARS) -> list[str]:
     return chunks
 
 
+def _rich_text_item(content: str, *, italic: bool = False, code: bool = False) -> dict[str, Any]:
+    item: dict[str, Any] = {"type": "text", "text": {"content": content}}
+    if italic or code:
+        item["annotations"] = {
+            "bold": False,
+            "italic": italic,
+            "strikethrough": False,
+            "underline": False,
+            "code": code,
+            "color": "default",
+        }
+    return item
+
+
 def rich_text(content: str) -> list[dict[str, Any]]:
-    return [{"type": "text", "text": {"content": content}}]
+    """Compile the repository's inline Markdown to Notion rich-text objects."""
+    items: list[dict[str, Any]] = []
+    cursor = 0
+    for match in INLINE_MARKUP_PATTERN.finditer(content):
+        if match.start() > cursor:
+            items.append(_rich_text_item(content[cursor : match.start()]))
+        token = match.group(0)
+        if token in {"<br>", "\n"}:
+            # <br> is the conversion contract; the API's native representation is a
+            # newline inside the same rich_text block, not the literal HTML string.
+            items.append(_rich_text_item("\n"))
+        elif token.startswith("`"):
+            items.append(_rich_text_item(token[1:-1], code=True))
+        else:
+            items.append(_rich_text_item(token[1:-1], italic=True))
+        cursor = match.end()
+    if cursor < len(content):
+        items.append(_rich_text_item(content[cursor:]))
+    return items or [_rich_text_item("")]
 
 
 def text_block(block_type: str, content: str) -> dict[str, Any]:
@@ -228,21 +272,24 @@ def text_block(block_type: str, content: str) -> dict[str, Any]:
     }
 
 
-def _heading_block(line: str) -> tuple[dict[str, Any] | None, str | None]:
+def _heading_block(
+    line: str,
+) -> tuple[dict[str, Any] | None, str | None, str | None]:
     stripped = line.strip()
     fullwidth = re.match(r"^＃\s*(.+)$", stripped)
     if fullwidth:
-        return text_block("heading_1", fullwidth.group(1)), None
+        return text_block("heading_1", fullwidth.group(1)), None, None
     markdown = re.match(r"^(#{1,3})\s*(.+)$", stripped)
     if markdown:
         level = min(len(markdown.group(1)), 3)
-        return text_block(f"heading_{level}", markdown.group(2)), None
+        return text_block(f"heading_{level}", markdown.group(2)), None, None
     if re.match(r"^\d+\.\s*【.+】", stripped):
-        return text_block("heading_2", stripped), None
+        return text_block("heading_2", stripped), None, None
     for label in SUBHEADING_LABELS:
         if stripped.startswith(label):
-            return text_block("heading_3", stripped), label
-    return None, None
+            remainder = stripped[len(label) :].strip()
+            return text_block("heading_3", label[1:-1]), label, remainder or None
+    return None, None, None
 
 
 def markdown_to_blocks(markdown: str) -> list[dict[str, Any]]:
@@ -257,10 +304,15 @@ def markdown_to_blocks(markdown: str) -> list[dict[str, Any]]:
             index += 1
             continue
 
-        heading, label = _heading_block(stripped)
+        heading, label, remainder = _heading_block(stripped)
         if heading is not None:
             blocks.append(heading)
             grouped_section = label if label in GROUPED_ENTRY_SECTIONS else None
+            if grouped_section and remainder:
+                raise ValueError(f"{grouped_section} must be a standalone source heading.")
+            if remainder:
+                for chunk in chunk_text(remainder):
+                    blocks.append(text_block("paragraph", chunk))
             index += 1
             continue
 
@@ -271,12 +323,21 @@ def markdown_to_blocks(markdown: str) -> list[dict[str, Any]]:
                 candidate = lines[index].strip()
                 if not candidate:
                     break
-                candidate_heading, _ = _heading_block(candidate)
+                candidate_heading, _, _ = _heading_block(candidate)
                 if candidate_heading is not None or candidate.startswith("・"):
                     break
                 entry_lines.append(candidate)
                 index += 1
-            entry_text = "\n".join(entry_lines)
+            expected_prefixes = GROUPED_ENTRY_SCHEMAS[grouped_section]
+            if len(entry_lines) != len(expected_prefixes) or any(
+                not line.startswith(prefix)
+                for line, prefix in zip(entry_lines, expected_prefixes)
+            ):
+                raise ValueError(
+                    f"Malformed {grouped_section} entry; expected "
+                    f"{len(expected_prefixes)} fixed lines in one block."
+                )
+            entry_text = "<br>".join(entry_lines)
             if len(entry_text) > MAX_TEXT_CHARS:
                 raise ValueError(
                     f"A {grouped_section} entry exceeds Notion's safe text size: "

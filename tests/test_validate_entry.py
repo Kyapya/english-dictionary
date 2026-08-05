@@ -121,6 +121,40 @@ VALID_V4_MARKDOWN = VALID_V3_MARKDOWN.replace(
 )
 
 
+def _make_v5_markdown() -> str:
+    lines = VALID_V4_MARKDOWN.replace(
+        "prompt_version: entry_spec_v4",
+        "prompt_version: entry_spec_v5",
+    ).replace(
+        "【頻度】〈頻度: 5/10〉",
+        "【頻度】〈5/10〉",
+    ).splitlines()
+    in_body = False
+    front_matter_delimiters = 0
+    grouped_markers = {"【コロケーション】", "【類義語】", "【反意語】"}
+    headings = {
+        "＃発音記号",
+        "＃語源",
+        "＃語形成",
+        "＃コアイメージ",
+        "＃意味や関連情報の出力（日本語訳）",
+    }
+    for index, line in enumerate(lines):
+        if line == "---":
+            front_matter_delimiters += 1
+            if front_matter_delimiters == 2:
+                in_body = True
+            continue
+        stripped = line.strip()
+        is_sense = bool(stripped and stripped[0].isdigit() and ". 【" in stripped)
+        if in_body and stripped and stripped not in headings | grouped_markers and not is_sense:
+            lines[index] = f"{line.rstrip(' ')}  "
+    return "\n".join(lines) + "\n"
+
+
+VALID_V5_MARKDOWN = _make_v5_markdown()
+
+
 class ValidateEntryTests(unittest.TestCase):
     def _write_temp_markdown(self, text: str) -> Path:
         temp_dir = tempfile.TemporaryDirectory()
@@ -141,6 +175,10 @@ class ValidateEntryTests(unittest.TestCase):
         path = self._write_temp_markdown(VALID_V4_MARKDOWN)
         self.assertEqual(validate_file(path), [])
 
+    def test_valid_v5_markdown_passes(self) -> None:
+        path = self._write_temp_markdown(VALID_V5_MARKDOWN)
+        self.assertEqual(validate_file(path), [])
+
     def test_v4_uses_current_format_checks(self) -> None:
         text = VALID_V4_MARKDOWN.replace(
             "・in immaculate condition  \n",
@@ -150,6 +188,36 @@ class ValidateEntryTests(unittest.TestCase):
         path = self._write_temp_markdown(text)
         errors = validate_file(path)
         self.assertTrue(any("must end with two spaces" in error for error in errors))
+
+    def test_v5_requires_two_spaces_on_narrative_lines(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "米: /ɪˈmækjələt/｜英: /ɪˈmækjʊlət/  \n",
+            "米: /ɪˈmækjələt/｜英: /ɪˈmækjʊlət/\n",
+            1,
+        )
+        path = self._write_temp_markdown(text)
+        errors = validate_file(path)
+        self.assertTrue(any("exactly two spaces" in error for error in errors))
+
+    def test_v5_rejects_consecutive_blank_lines(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "＃語源\n\n",
+            "＃語源\n\n\n",
+            1,
+        )
+        path = self._write_temp_markdown(text)
+        errors = validate_file(path)
+        self.assertTrue(any("consecutive blank lines" in error for error in errors))
+
+    def test_v5_requires_inline_subheading_content(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【日本語訳・定義】汚れや乱れがなく、隅々まで整っている。  ",
+            "【日本語訳・定義】  ",
+            1,
+        )
+        path = self._write_temp_markdown(text)
+        errors = validate_file(path)
+        self.assertTrue(any("must keep its content on the same line" in error for error in errors))
 
     def test_optional_headings_may_be_omitted(self) -> None:
         text = VALID_MARKDOWN.replace(

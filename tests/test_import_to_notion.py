@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 from types import SimpleNamespace
@@ -11,10 +12,21 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 import import_to_notion  # noqa: E402
-from import_to_notion import NotionApiError, import_entry, markdown_to_blocks  # noqa: E402
+from import_to_notion import (  # noqa: E402
+    NotionApiError,
+    import_entry,
+    markdown_to_blocks,
+    read_entry_body,
+)
 
 
 class ImportToNotionTests(unittest.TestCase):
+    @staticmethod
+    def plain_text(block: dict[str, object]) -> str:
+        block_type = block["type"]
+        rich_text = block[block_type]["rich_text"]
+        return "".join(item["text"]["content"] for item in rich_text)
+
     def notion_args(self, policy: str = "create") -> SimpleNamespace:
         return SimpleNamespace(
             dry_run=False,
@@ -60,16 +72,58 @@ class ImportToNotionTests(unittest.TestCase):
         self.assertEqual(block_types.count("heading_2"), 1)
         self.assertEqual(block_types.count("heading_3"), 2)
 
+        heading_3_texts = [
+            self.plain_text(block) for block in blocks if block["type"] == "heading_3"
+        ]
+        self.assertEqual(heading_3_texts, ["日本語訳・定義", "コロケーション"])
+        self.assertNotIn("能力などを確認するための試験。", heading_3_texts[0])
+        self.assertTrue(
+            any(
+                block["type"] == "paragraph"
+                and self.plain_text(block) == "能力などを確認するための試験。"
+                for block in blocks
+            )
+        )
+
         grouped = [
-            block["paragraph"]["rich_text"][0]["text"]["content"]
+            self.plain_text(block)
             for block in blocks
             if block["type"] == "paragraph"
-            and block["paragraph"]["rich_text"][0]["text"]["content"].startswith("・")
+            and self.plain_text(block).startswith("・")
         ]
         self.assertEqual(len(grouped), 2)
         self.assertIn("\n用途:", grouped[0])
         self.assertIn("\n例:", grouped[0])
         self.assertIn("\n訳:", grouped[0])
+        self.assertNotIn("<br>", grouped[0])
+
+    def test_compiles_inline_markdown_without_changing_visible_text(self) -> None:
+        blocks = markdown_to_blocks(
+            "【語法・注意】*embrace* と `accept` を区別する。"
+        )
+        self.assertEqual([block["type"] for block in blocks], ["heading_3", "paragraph"])
+        self.assertEqual(self.plain_text(blocks[0]), "語法・注意")
+        self.assertEqual(self.plain_text(blocks[1]), "embrace と accept を区別する。")
+        rich = blocks[1]["paragraph"]["rich_text"]
+        self.assertTrue(any(item.get("annotations", {}).get("italic") for item in rich))
+        self.assertTrue(any(item.get("annotations", {}).get("code") for item in rich))
+
+    def test_rejects_malformed_grouped_entry_before_upload(self) -> None:
+        markdown = """【コロケーション】
+
+・take a test
+用途: 試験を受ける。
+例: I took a test.
+"""
+        with self.assertRaisesRegex(ValueError, "expected 4 fixed lines"):
+            markdown_to_blocks(markdown)
+
+    def test_rejects_invalid_source_file_before_notion_conversion(self) -> None:
+        with tempfile.TemporaryDirectory() as temp_dir:
+            path = Path(temp_dir) / "invalid.md"
+            path.write_text("---\nheadword: invalid\n---\n\n＃発音記号\n", encoding="utf-8")
+            with self.assertRaisesRegex(ValueError, "failed validation"):
+                read_entry_body({"headword": "invalid", "file": str(path)})
 
     def test_does_not_add_ai_attribution(self) -> None:
         blocks = markdown_to_blocks("＃発音記号\n米・英: /test/")
