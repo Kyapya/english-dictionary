@@ -8,24 +8,27 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 
 
 class PromptContractTests(unittest.TestCase):
-    def test_entry_v4_keeps_required_quality_gates(self) -> None:
-        text = (REPO_ROOT / "prompts" / "entry_spec_v4.md").read_text(encoding="utf-8")
+    def test_entry_v5_complete_spec_keeps_all_quality_gates(self) -> None:
+        text = (REPO_ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8")
         required = (
-            "prompts/entry_spec_v3.md",
             "生成前の必須構文マトリクス",
             "分詞形容詞の必須監査",
             "再帰形・代名詞位置・語順交替の必須監査",
             "品詞境界とブロック整合",
             "最小対立の必須化",
             "コアイメージと歴史的語義",
-            "prompt_version` は `entry_spec_v4",
+            "語義棚卸しと構文棚卸しを別々",
+            "行末に半角スペースをちょうど2個",
+            "コロケーションエントリは次の4行固定",
+            "類義語・反意語の各エントリは次の6行固定",
+            "prompt_version: entry_spec_v5",
         )
         for marker in required:
             with self.subTest(marker=marker):
                 self.assertIn(marker, text)
 
-    def test_check_v4_keeps_independent_audit_gates(self) -> None:
-        text = (REPO_ROOT / "prompts" / "check_spec_v4.md").read_text(encoding="utf-8")
+    def test_check_v5_complete_spec_keeps_all_independent_audit_gates(self) -> None:
+        text = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(encoding="utf-8")
         required = (
             "旧本文の見出し、語義番号、語義名、コロケーション数をチェックの出発点にしない",
             "独立棚卸し台帳",
@@ -34,7 +37,9 @@ class PromptContractTests(unittest.TestCase):
             "必須の構文差監査",
             "最小対立監査",
             "コアイメージ監査",
-            "v4チェック完了条件",
+            "v5書式監査",
+            "チェック完了条件",
+            "prompt_version: entry_spec_v5",
         )
         for marker in required:
             with self.subTest(marker=marker):
@@ -45,11 +50,11 @@ class PromptContractTests(unittest.TestCase):
         check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(encoding="utf-8")
         notion = (REPO_ROOT / "prompts" / "notion_spec_v1.md").read_text(encoding="utf-8")
         for marker in (
-            "原指示と同等であること",
+            "現行完全版生成仕様",
             "行末に半角スペースをちょうど2個",
-            "コロケーションの固定書式",
-            "類義語・反意語の固定書式",
-            "語義棚卸しと構文棚卸しを別々に",
+            "各コロケーションエントリは次の4行固定",
+            "類義語・反意語の各エントリは次の6行固定",
+            "生成前の必須構文マトリクス",
             "prompt_version: entry_spec_v5",
         ):
             with self.subTest(marker=marker):
@@ -58,14 +63,30 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("1エントリを1つのNotionテキストブロック", notion)
         self.assertIn("同一rich_textブロック内のネイティブ改行", notion)
 
-    def test_agents_routes_generation_and_checking_through_v5(self) -> None:
+    def test_current_specs_are_standalone(self) -> None:
+        current_files = (
+            REPO_ROOT / "prompts" / "entry_spec_v5.md",
+            REPO_ROOT / "prompts" / "check_spec_v5.md",
+            REPO_ROOT / "AGENTS.md",
+        )
+        legacy_paths = tuple(
+            f"prompts/{kind}_spec_v{version}.md"
+            for kind in ("entry", "check")
+            for version in range(1, 5)
+        )
+        for path in current_files:
+            text = path.read_text(encoding="utf-8")
+            for legacy_path in legacy_paths:
+                with self.subTest(path=path.name, legacy_path=legacy_path):
+                    self.assertNotIn(legacy_path, text)
+
+    def test_agents_routes_generation_and_checking_through_complete_v5(self) -> None:
         text = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
-        self.assertIn("prompts/entry_spec_v4.md", text)
-        self.assertIn("prompts/check_spec_v4.md", text)
         self.assertIn("prompts/entry_spec_v5.md", text)
         self.assertIn("prompts/check_spec_v5.md", text)
         self.assertIn("prompts/notion_spec_v1.md", text)
         self.assertIn("prompt_version: entry_spec_v5", text)
+        self.assertNotIn("v3・v4・v5", text)
 
     def test_github_flow_uses_codex_not_an_api_generator(self) -> None:
         agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
