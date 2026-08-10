@@ -336,6 +336,7 @@ Codexはチェックを始める前に、このファイルだけを最初から
 16. 保存本文にチャット固有の前置き、締め、次回予告、`【続きあり】` がない。
 17. `scripts/validate_entry.py` が終了コード0で通る。
 18. front matter、queue、logsが同期している。
+19. 全例文について英文と訳の対応を語単位で確認した。
 
 完了時は front matter とqueueの `prompt_version` を `entry_spec_v5`、statusを `checked`、checkedを `true` にする。内容確認が残る場合は `needs_review`、`checked: false` とし、理由をqueueとlogsへ記録する。
 
