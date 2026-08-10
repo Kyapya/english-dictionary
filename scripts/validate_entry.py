@@ -53,6 +53,11 @@ SENSE_FREQUENCY_PATTERN = re.compile(r"〈(?:頻度:\s*)?(?:10|[1-9])/10〉")
 LEGACY_PLACEHOLDER_PATTERN = re.compile(
     r"\+\s+(?:O\b|[ぁ-んァ-ヶ一-龠々]+(?:[・/][ぁ-んァ-ヶ一-龠々]+)*)"
 )
+ADJACENT_PLACEHOLDER_PATTERN = re.compile(r"〉\s+〈")
+BRACKETED_GENERIC_SLOT_PATTERN = re.compile(
+    r"〈(?:someone|something|someone/something|team|organization|team/organization)〉",
+    re.IGNORECASE,
+)
 EMOJI_PATTERN = re.compile(
     "["
     "\U0001F1E6-\U0001F1FF"
@@ -535,10 +540,21 @@ def _check_v5_notation_warnings(lines: list[str]) -> list[str]:
         )
 
     for index in sorted(candidate_indexes):
-        if LEGACY_PLACEHOLDER_PATTERN.search(lines[index].strip()):
+        stripped = lines[index].strip()
+        if LEGACY_PLACEHOLDER_PATTERN.search(stripped):
             warnings.append(
                 f"line {index + 1}: legacy placeholder notation detected; "
                 "use 〈...〉 for placeholders and reserve + for syntactic slot boundaries"
+            )
+        if ADJACENT_PLACEHOLDER_PATTERN.search(stripped):
+            warnings.append(
+                f"line {index + 1}: adjacent placeholders detected; "
+                "separate syntactic slots with +"
+            )
+        if BRACKETED_GENERIC_SLOT_PATTERN.search(stripped):
+            warnings.append(
+                f"line {index + 1}: bracketed English generic slot detected; "
+                "leave someone, something, and team/organization unbracketed"
             )
     return warnings
 
