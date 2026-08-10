@@ -55,17 +55,17 @@ tags: []
 
 【コロケーション】
 
-・grief/joy/relief overwhelms someone  
-用途: 悲しみ・喜び・安堵などの強い感情が人を圧倒する。  
+・grief/joy/relief overwhelm someone  
+用途: 悲しみ・喜び・安堵などの強い感情が人を圧倒する。実際の用例では受動・状態の *be/feel/get overwhelmed* も非常に多いが、圧倒された人の状態として語義5で扱う。  
 例: Grief overwhelmed her after her father died.  
 訳: 父親が亡くなった後、悲しみが彼女を圧倒した。  
 
-・a surge/wave of emotion overwhelms someone  
+・a surge/wave of emotion overwhelm someone  
 用途: 特定の感情名を挙げず、感情そのものの強さを表す。  
 例: A wave of emotion overwhelmed him when he saw his daughter on stage.  
 訳: 彼は舞台上の娘を見て、感情の波に圧倒された。  
 
-・the beauty/power of + O overwhelms someone  
+・the beauty/power of + O overwhelm someone  
 用途: 景色・音楽・芸術などの強い印象が人に及ぼす影響を示す。  
 例: The beauty of the northern lights overwhelmed the visitors.  
 訳: オーロラの美しさは訪問者たちを圧倒した。  
@@ -75,9 +75,9 @@ tags: []
 例: The smoke was so intense that it overwhelmed my senses.  
 訳: 煙があまりにも強烈で、私の感覚が圧倒された。  
 
-・a sense of + 名詞 overwhelms someone  
+・a sense of + 名詞 overwhelm someone  
 用途: 感謝、無力感、責任感など、ひとまとまりの感覚が人を圧倒する。  
-例: A sense of gratitude overwhelmed me after their help.  
+例: A sense of gratitude overwhelmed me after they helped me.  
 訳: 彼らに助けてもらった後、感謝の念が私を圧倒した。  
 
 ・overwhelm someone with kindness/love  
@@ -85,7 +85,7 @@ tags: []
 例: Her friends overwhelmed her with kindness during her recovery.  
 訳: 彼女の友人たちは、療養中の彼女に惜しみない親切を寄せた。  
 
-・the response/support overwhelms someone  
+・the response/support overwhelm someone  
 用途: 予想以上の反応・支援が人を感動させ、言葉を失わせるほどになる。  
 例: The support from people we had never met overwhelmed us.  
 訳: 会ったこともない人々からの支援に、私たちは胸を打たれた。  
@@ -163,8 +163,8 @@ tags: []
 【コロケーション】
 
 ・work/tasks overwhelm someone  
-用途: 仕事や作業の量が多すぎて人を処理不能にする。  
-例: This week's workload overwhelms me, so I need help prioritizing it.  
+用途: 仕事や作業の量が多すぎて人を処理不能にする。実際の用例では *be overwhelmed with/by + 仕事・情報* のような受動・状態表現も非常に多いが、語義5で扱う。  
+例: This week's workload is overwhelming me, so I need help prioritizing it.  
 訳: 今週の仕事量は私を圧倒しているので、優先順位付けを手伝ってほしい。  
 
 ・requests/demand overwhelm + 組織・サービス  
@@ -187,12 +187,12 @@ tags: []
 例: A sudden surge in visitors overwhelmed the website's servers.  
 訳: 訪問者の急増がウェブサイトのサーバーを処理能力超過に追い込んだ。  
 
-・the amount/volume of + 名詞 overwhelms + team/organization  
+・the amount/volume of + 名詞 overwhelm + team/organization  
 用途: 情報、書類、作業などの総量が処理能力を超えることを示す。  
 例: The volume of data overwhelmed the review team.  
 訳: データ量の多さが確認チームの処理能力を超えた。  
 
-・the number of + 複数名詞 overwhelms + someone  
+・the number of + 複数名詞 overwhelm + someone  
 用途: 選択肢、応募、問い合わせなど、個数の多さが人の処理能力を超える。  
 例: The number of choices on the menu overwhelmed her.  
 訳: メニューの選択肢の多さが彼女を圧倒した。  
@@ -304,7 +304,7 @@ tags: []
 例: The visiting team was completely overwhelmed in the second half.  
 訳: 来訪チームは後半に完全に圧倒された。  
 
-【語法・注意】*defeat* は勝敗の事実を広く表す中立語、*overpower* はより強い力で制御・制圧すること、*overwhelm* は力・人数・勢いの差によって相手が抵抗できないほどの一方的な結果を強調する。*crush* はさらに強く、相手を完全に打ちのめす口語的・比喩的な響きがある。*overwhelm someone with numbers* のように手段を *with* で示せるが、受動態では *be overwhelmed by superior numbers* が自然である。スポーツでは必ずしも相手を物理的に傷つける意味ではなく、試合を圧倒するという比喩である。  
+【語法・注意】主語が部隊・チームなどの組織や、守備・抵抗などの物である受動表現は、人の心理状態を表す語義5には入らないため、この語義で扱う。*defeat* は勝敗の事実を広く表す中立語、*overpower* はより強い力で制御・制圧すること、*overwhelm* は力・人数・勢いの差によって相手が抵抗できないほどの一方的な結果を強調する。*crush* はさらに強く、相手を完全に打ちのめす口語的・比喩的な響きがある。*overwhelm someone with numbers* のように手段を *with* で示せるが、受動態では *be overwhelmed by superior numbers* が自然である。スポーツでは必ずしも相手を物理的に傷つける意味ではなく、試合を圧倒するという比喩である。  
 
 【類義語】
 
@@ -383,7 +383,7 @@ tags: []
 例: Several low-lying neighborhoods were overwhelmed by floodwater.  
 訳: いくつかの低地の地区が洪水にのみ込まれた。  
 
-・a wave overwhelms a boat  
+・a wave overwhelm a boat  
 用途: 大波が船を覆い、転覆・水没の危険にさらす。  
 例: A sudden wave overwhelmed the fishing boat.  
 訳: 突然の波が漁船をのみ込んだ。  
@@ -398,12 +398,12 @@ tags: []
 例: The abandoned road was gradually overwhelmed by the sea.  
 訳: 放棄された道路は徐々に海にのみ込まれていった。  
 
-・darkness/silence overwhelms + 場所  
+・darkness/silence overwhelm + 場所  
 用途: 暗闇や静けさが場所をすっかり包む比喩。  
 例: As the last lights disappeared, darkness overwhelmed the valley.  
 訳: 最後の明かりが消えると、暗闇が谷を包み込んだ。  
 
-【語法・注意】この物理義は他動詞で、*The wave overwhelmed the boat.* のように対象を直接目的語に取る。通常の地理説明で *The hills overwhelmed the town.* とすると「町を圧倒した」という比喩的な響きが出やすく、「取り囲んだ」なら *surrounded* が明確である。水が対象を覆う意味では *flood* が最も一般的、完全に水中へ入れる意味では *submerge*、周囲から包む意味では *engulf* が使いやすい。力・数で相手を制圧する語義3とは、目的語が建物・土地・船などで、覆う物理的な出来事である点が異なる。  
+【語法・注意】主語が船・町・土地・道路などの物理的対象である受動表現は、人の心理状態を表す語義5には入らないため、この語義で扱う。この物理義は他動詞で、*The wave overwhelmed the boat.* のように対象を直接目的語に取る。通常の地理説明で *The hills overwhelmed the town.* とすると「町を圧倒した」という比喩的な響きが出やすく、「取り囲んだ」なら *surrounded* が明確である。水が対象を覆う意味では *flood* が最も一般的、完全に水中へ入れる意味では *submerge*、周囲から包む意味では *engulf* が使いやすい。力・数で相手を制圧する語義3とは、目的語が建物・土地・船などで、覆う物理的な出来事である点が異なる。  
 
 【類義語】
 
