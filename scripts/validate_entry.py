@@ -8,17 +8,19 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+FINAL_HEADING = "＃意味・用法・関連表現"
+LEGACY_FINAL_HEADINGS = ("＃意味や関連情報の出力（日本語訳）",)
+FINAL_HEADING_ALIASES = (FINAL_HEADING, *LEGACY_FINAL_HEADINGS)
 REQUIRED_HEADINGS = [
     "＃発音記号",
     "＃語源",
-    "＃意味や関連情報の出力（日本語訳）",
 ]
 ORDERED_HEADINGS = [
     "＃発音記号",
     "＃語源",
     "＃語形成",
     "＃コアイメージ",
-    "＃意味や関連情報の出力（日本語訳）",
+    *FINAL_HEADING_ALIASES,
 ]
 REQUIRED_FRONT_MATTER_KEYS = (
     "headword",
@@ -124,8 +126,31 @@ def _check_headings(lines: list[str]) -> list[str]:
         if heading not in positions:
             errors.append(f"missing required heading: {heading}")
 
+    present_final_headings = [
+        heading for heading in FINAL_HEADING_ALIASES if heading in positions
+    ]
+    if not present_final_headings:
+        aliases = " / ".join(FINAL_HEADING_ALIASES)
+        errors.append(f"missing required heading: one of {aliases}")
+    elif len(present_final_headings) > 1:
+        errors.append(
+            "duplicate final heading: " + " / ".join(present_final_headings)
+        )
+
     present_in_document = sorted(positions, key=positions.get)
-    expected_present = [heading for heading in ORDERED_HEADINGS if heading in positions]
+    expected_present = [
+        heading
+        for heading in ORDERED_HEADINGS
+        if heading in positions
+        and not (
+            heading in FINAL_HEADING_ALIASES
+            and any(
+                other in positions
+                for other in FINAL_HEADING_ALIASES
+                if other != heading
+            )
+        )
+    ]
     if present_in_document != expected_present:
         expected = " -> ".join(expected_present)
         errors.append(f"heading order is wrong; expected {expected}")
