@@ -65,22 +65,22 @@ tags: []
 例: A wave of emotion overwhelmed him when he saw his daughter on stage.  
 訳: 彼は舞台上の娘を見て、感情の波に圧倒された。  
 
-・the beauty/power of + O + overwhelm + someone  
+・the beauty/power of 〈O〉 + overwhelm + someone  
 用途: 景色・音楽・芸術などの強い印象が人に及ぼす影響を示す。  
 例: The beauty of the northern lights overwhelmed the visitors.  
 訳: オーロラの美しさは訪問者たちを圧倒した。  
 
-・overwhelm + the senses  
+・overwhelm the senses  
 用途: 音、におい、味、光などの刺激が強すぎて感覚を圧倒する。  
 例: The smoke was so intense that it overwhelmed my senses.  
 訳: 煙があまりにも強烈で、私の感覚が圧倒された。  
 
-・a sense of + 名詞 + overwhelm + someone  
+・a sense of 〈名詞〉 + overwhelm + someone  
 用途: 感謝、無力感、責任感など、ひとまとまりの感覚が人を圧倒する。  
 例: A sense of gratitude overwhelmed me after they helped me.  
 訳: 彼らに助けてもらった後、感謝の念が私を圧倒した。  
 
-・overwhelm + someone + with + kindness/love  
+・overwhelm someone with kindness/love  
 用途: 親切・愛情などがあまりに強く、相手の心を強く動かす。  
 例: Her friends overwhelmed her with kindness during her recovery.  
 訳: 彼女の友人たちは、療養中の彼女に惜しみない親切を寄せた。  
@@ -90,7 +90,7 @@ tags: []
 例: The support from people we had never met overwhelmed us.  
 訳: 会ったこともない人々からの支援に、私たちは胸を打たれた。  
 
-・completely + overwhelm + someone  
+・completely overwhelm someone  
 用途: 感情または状況の強さが、人の平静な反応や判断を完全に奪う。  
 例: The unexpected news completely overwhelmed her.  
 訳: 予想外の知らせは彼女を完全に圧倒した。  
@@ -167,37 +167,37 @@ tags: []
 例: This week's workload is overwhelming me, so I need help prioritizing it.  
 訳: 今週の仕事量は私を圧倒しているので、優先順位付けを手伝ってほしい。  
 
-・requests/demand + overwhelm + 組織・サービス  
+・requests/demand + overwhelm + 〈組織・サービス〉  
 用途: 依頼や需要が予想以上に殺到し、組織・サービスを処理不能にする。  
 例: A surge in appointment requests overwhelmed the clinic.  
 訳: 予約依頼の急増がその診療所の対応能力を超えた。  
 
-・overwhelm + someone + with + information/details  
+・overwhelm someone with information/details  
 用途: 相手が整理できないほど大量の情報や詳細を一度に与える。  
 例: Do not overwhelm new users with technical details on the first page.  
 訳: 最初のページで新規利用者に技術的な詳細を詰め込みすぎてはいけない。  
 
-・overwhelm + someone + with + questions  
+・overwhelm someone with questions  
 用途: 相手が答えを整理できないほど質問を次々に浴びせる。  
 例: The reporters overwhelmed the witness with questions.  
 訳: 記者たちはその証人に質問を浴びせ、対応しきれない状態にした。  
 
-・overwhelm + a system/server + with + traffic  
+・overwhelm a system/server with traffic  
 用途: アクセスや通信量が処理能力を超え、システムを機能不全にする。  
 例: A sudden surge in visitors overwhelmed the website's servers.  
 訳: 訪問者の急増がウェブサイトのサーバーを処理能力超過に追い込んだ。  
 
-・the amount/volume of + 名詞 + overwhelm + team/organization  
+・the amount/volume of 〈名詞〉 + overwhelm + team/organization  
 用途: 情報、書類、作業などの総量が処理能力を超えることを示す。  
 例: The volume of data overwhelmed the review team.  
 訳: データ量の多さが確認チームの処理能力を超えた。  
 
-・the number of + 複数名詞 + overwhelm + someone  
+・the number of 〈複数名詞〉 + overwhelm + someone  
 用途: 選択肢、応募、問い合わせなど、個数の多さが人の処理能力を超える。  
 例: The number of choices on the menu overwhelmed her.  
 訳: メニューの選択肢の多さが彼女を圧倒した。  
 
-・overwhelm + resources/services  
+・overwhelm resources/services  
 用途: 需要や利用者が資源・公共サービスの供給能力を超える。  
 例: The influx of patients overwhelmed local medical services.  
 訳: 患者の流入が地域の医療サービスの対応能力を超えた。  
@@ -250,7 +250,7 @@ tags: []
 例: The workload is manageable if we divide it among three people.  
 訳: 3人で分担すれば、その仕事量は処理可能だ。  
 
-・keep up with + O  
+・keep up with 〈O〉  
 定義: 入ってくる仕事、情報、要求などに遅れず対応する。  
 頻度: 〈8/10〉  
 違い: *overwhelm* が処理を追いつかなくさせるのに対し、*keep up with* は流入に対応し続ける能力・状態を表す。  
@@ -269,37 +269,37 @@ tags: []
 
 【コロケーション】
 
-・overwhelm + an opponent/rival  
+・overwhelm an opponent/rival  
 用途: 試合・競争で相手を一方的に支配して勝つ。  
 例: The champion overwhelmed his opponent from the opening round.  
 訳: その王者は開始ラウンドから相手を圧倒した。  
 
-・overwhelm + the enemy/rebels  
+・overwhelm the enemy/rebels  
 用途: 軍事的な力や人数で敵を制圧する。  
 例: Government forces overwhelmed the rebels and regained control of the city.  
 訳: 政府軍は反乱軍を制圧し、都市の支配を取り戻した。  
 
-・overwhelm + a defense/defensive line  
+・overwhelm a defense/defensive line  
 用途: 攻撃の強さや多さで守備を崩す。  
 例: The attackers overwhelmed the defense with speed and constant pressure.  
 訳: 攻撃側はスピードと絶え間ない圧力で守備を圧倒した。  
 
-・overwhelm + someone + with + numbers/force  
+・overwhelm someone with numbers/force  
 用途: 人数や物理的な力を手段として明示する。  
 例: The smaller unit was overwhelmed by the enemy's superior numbers.  
 訳: 小規模な部隊は敵の圧倒的な人数に制圧された。  
 
-・overwhelm + resistance/opposition  
+・overwhelm resistance/opposition  
 用途: 反対勢力や抵抗を押し切り、機能させなくする。  
 例: The public campaign overwhelmed opposition to the reform.  
 訳: その世論運動は改革への反対を押し切った。  
 
-・overwhelm + a competitor + in + 分野・競争  
+・overwhelm a competitor in 〈分野・競争〉  
 用途: 市場や競技で競争相手を大差で上回る。  
 例: The new service overwhelmed its competitors in the first year.  
 訳: その新サービスは初年度に競合他社を圧倒した。  
 
-・be + completely/totally + overwhelmed  
+・be completely/totally overwhelmed  
 用途: 相手が完全に制圧された結果を強調する。  
 例: The visiting team was completely overwhelmed in the second half.  
 訳: 来訪チームは後半に完全に圧倒された。  
@@ -378,7 +378,7 @@ tags: []
 
 【コロケーション】
 
-・be + overwhelmed + by + floodwater/flooding  
+・be overwhelmed by floodwater/flooding  
 用途: 洪水によって土地・建物・地域が覆われる。  
 例: Several low-lying neighborhoods were overwhelmed by floodwater.  
 訳: いくつかの低地の地区が洪水にのみ込まれた。  
@@ -388,17 +388,17 @@ tags: []
 例: A sudden wave overwhelmed the fishing boat.  
 訳: 突然の波が漁船をのみ込んだ。  
 
-・overwhelm + a levee/barrier  
+・overwhelm a levee/barrier  
 用途: 水の量や勢いが堤防・防壁の能力を超える。  
 例: The river rose rapidly and overwhelmed the temporary levee.  
 訳: 川の水位が急上昇し、仮設の堤防を越えた。  
 
-・be + overwhelmed + by + the sea  
+・be overwhelmed by the sea  
 用途: 海水に覆われる、または海の力にのみ込まれることを文学的に表す。  
 例: The abandoned road was gradually overwhelmed by the sea.  
 訳: 放棄された道路は徐々に海にのみ込まれていった。  
 
-・darkness/silence + overwhelm + 場所  
+・darkness/silence + overwhelm + 〈場所〉  
 用途: 暗闇や静けさが場所をすっかり包む比喩。  
 例: As the last lights disappeared, darkness overwhelmed the valley.  
 訳: 最後の明かりが消えると、暗闇が谷を包み込んだ。  
@@ -447,42 +447,42 @@ tags: []
 
 【コロケーション】
 
-・feel/be + overwhelmed  
+・feel/be overwhelmed  
 用途: 原因を具体的に言わず、圧倒された現在の状態を述べる。  
 例: I felt overwhelmed when I first started the new job.  
 訳: 新しい仕事を始めたばかりの頃、私は圧倒されて手に負えないと感じた。  
 
-・get/become + overwhelmed + by + work  
+・get/become overwhelmed by work  
 用途: 仕事が増え、処理できない状態になる・なっている。  
 例: She gets overwhelmed by work when several deadlines coincide.  
 訳: 複数の締切が重なると、彼女は仕事に追われてしまう。  
 
-・be + overwhelmed + with + emotion  
+・be overwhelmed with emotion  
 用途: 強い感情が一気にこみ上げ、平静に反応できない。  
 例: He was overwhelmed with emotion during the farewell ceremony.  
 訳: 彼は送別式の間、感情がこみ上げて胸がいっぱいになった。  
 
-・be + overwhelmed + by + the response/support  
+・be overwhelmed by the response/support  
 用途: 予想以上の反応や支援に感動し、言葉を失う。  
 例: The author said she was overwhelmed by the readers' support.  
 訳: その作家は読者の支援に胸がいっぱいになったと語った。  
 
-・be + overwhelmed + by + the amount/number of + 名詞  
+・be overwhelmed by the amount/number of 〈名詞〉  
 用途: 量や選択肢の多さに対処できない。  
 例: New students can feel overwhelmed by the amount of information they receive.  
 訳: 新入生は受け取る情報量の多さに圧倒されることがある。  
 
-・an + overwhelmed + parent/employee/team  
+・an overwhelmed parent/employee/team  
 用途: 仕事・責任・状況に対応できない人や集団を名詞の前で修飾する。  
 例: The support program was designed for overwhelmed caregivers.  
 訳: その支援プログラムは負担に押しつぶされそうな介護者向けに設計された。  
 
-・be + emotionally + overwhelmed  
+・be emotionally overwhelmed  
 用途: 情報量や仕事量ではなく、感情の強さによる状態だと明示する。  
 例: She was emotionally overwhelmed but still tried to thank the volunteers.  
 訳: 彼女は感情に圧倒されていたが、それでもボランティアに感謝を伝えようとした。  
 
-・not let oneself + get + overwhelmed  
+・not let oneself get overwhelmed  
 用途: 圧倒された状態にならないよう、自分を管理する。  
 例: I write down the next small step so I do not get overwhelmed.  
 訳: 手に負えなくならないよう、次にする小さな一歩を書き出している。  
@@ -581,7 +581,7 @@ tags: []
 例: She felt an overwhelming desire to tell the truth.  
 訳: 彼女は真実を話したいという抑えがたい欲求を感じた。  
 
-・an overwhelming sense of + 感情  
+・an overwhelming sense of 〈感情〉  
 用途: 安堵、喪失、責任などの感覚が非常に強いことを示す。  
 例: He experienced an overwhelming sense of relief after the test.  
 訳: 彼は検査の後、圧倒的な安堵感を覚えた。  
@@ -591,7 +591,7 @@ tags: []
 例: The party won an overwhelming victory in the election.  
 訳: その政党は選挙で圧勝した。  
 
-・an overwhelming amount/number of + 名詞  
+・an overwhelming amount/number of 〈名詞〉  
 用途: 量や数が多すぎて処理・判断が難しいことを表す。  
 例: The archive contains an overwhelming amount of material.  
 訳: その資料館にはあまりにも大量の資料がある。  
@@ -682,32 +682,32 @@ tags: []
 
 【コロケーション】
 
-・vote + overwhelmingly + for/against + 案  
+・vote overwhelmingly for/against 〈案〉  
 用途: 投票結果が大差で賛成・反対に傾いたことを表す。  
 例: Residents voted overwhelmingly against the proposed highway.  
 訳: 住民は提案された高速道路に圧倒的多数で反対票を投じた。  
 
-・be + overwhelmingly + in favor of + O  
+・be overwhelmingly in favor of 〈O〉  
 用途: 世論や集団の大多数が強く賛成していることを示す。  
 例: The survey respondents were overwhelmingly in favor of the change.  
 訳: 調査回答者の圧倒的多数がその変更に賛成だった。  
 
-・win + overwhelmingly  
+・win overwhelmingly  
 用途: 選挙・試合・競争で圧倒的な差をつけて勝つ。  
 例: The incumbent won overwhelmingly in the final count.  
 訳: 現職候補は最終集計で圧倒的な差をつけて勝利した。  
 
-・be + overwhelmingly + positive/negative  
+・be overwhelmingly positive/negative  
 用途: 反応・評価の大部分が明確に肯定的・否定的である。  
 例: Early reviews of the book were overwhelmingly positive.  
 訳: その本の初期の書評は圧倒的に好意的だった。  
 
-・be + overwhelmingly + likely to do  
+・be overwhelmingly likely to do  
 用途: ある結果になる可能性が他の可能性を大きく上回ることを表す。  
 例: The evidence makes it overwhelmingly likely that the fire was accidental.  
 訳: その証拠から、火災が事故だった可能性が圧倒的に高い。  
 
-・support + O + overwhelmingly  
+・support 〈O〉 overwhelmingly  
 用途: 集団が対象を圧倒的な多数で支持することを表す。  
 例: Shareholders supported the merger overwhelmingly.  
 訳: 株主はその合併を圧倒的多数で支持した。  
@@ -799,7 +799,7 @@ tags: []
 例: Breathing exercises helped him move through overwhelm.  
 訳: 呼吸法は、彼が圧倒感を乗り越える助けになった。  
 
-・overwhelm can make + O + 形容詞  
+・overwhelm can make 〈O〉 〈形容詞〉  
 用途: 圧倒感が判断・行動に及ぼす一般的な影響を述べる。  
 例: Overwhelm can make simple decisions feel impossible.  
 訳: 圧倒感によって、簡単な決定さえ不可能に感じられることがある。  
