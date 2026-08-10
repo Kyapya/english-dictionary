@@ -206,6 +206,39 @@ class ValidateEntryTests(unittest.TestCase):
         warnings = validation_warnings(text)
         self.assertTrue(any("legacy placeholder notation" in warning for warning in warnings))
 
+    def test_v5_warns_about_square_bracket_placeholder_notation(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】immaculate + [room/uniform]／be immaculate。",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(
+            any("legacy square-bracket placeholder notation" in warning for warning in warnings)
+        )
+
+    def test_v5_warns_about_plus_between_preposition_and_placeholder(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】endorsement of + 〈a candidate/policy〉。",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(
+            any("redundant + before an angle-bracket placeholder" in warning for warning in warnings)
+        )
+
+    def test_v5_warns_about_prepositional_plus_in_collocation(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "・in immaculate condition",
+            "・endorsement by/from + 〈人・団体〉",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(
+            any("redundant + before an angle-bracket placeholder" in warning for warning in warnings)
+        )
+
     def test_v5_accepts_angle_bracket_placeholders_and_structural_slots(self) -> None:
         text = VALID_V5_MARKDOWN.replace(
             "【文法パターン】immaculate 〈名詞〉／be immaculate。",
@@ -213,6 +246,23 @@ class ValidateEntryTests(unittest.TestCase):
             1,
         )
         self.assertEqual(validation_warnings(text), [])
+
+    def test_v5_accepts_subject_slot_frame_before_placeholder(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】requests/demand + overwhelm + 〈組織・サービス〉。",
+            1,
+        )
+        self.assertEqual(validation_warnings(text), [])
+
+    def test_checked_in_entries_have_no_v5_notation_warnings(self) -> None:
+        failures: list[str] = []
+        for path in sorted((REPO_ROOT / "entries").rglob("*.md")):
+            warnings = validation_warnings(path.read_text(encoding="utf-8"))
+            failures.extend(
+                f"{path.relative_to(REPO_ROOT)}: {warning}" for warning in warnings
+            )
+        self.assertEqual(failures, [])
 
     def test_v5_warns_about_adjacent_placeholders_without_slot_separator(self) -> None:
         text = VALID_V5_MARKDOWN.replace(

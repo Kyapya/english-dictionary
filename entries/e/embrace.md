@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-05
-updated_at: 2026-08-05
+updated_at: 2026-08-11
 checked: true
 tags: []
 ---
@@ -41,7 +41,7 @@ tags: []
 ・核 → 地形・物体・雰囲気が対象を周囲から包む。  
 ・核 → 名詞として、抱擁、積極的受容、包囲・影響下の状態を表す。  
 
-＃意味や関連情報の出力（日本語訳）
+＃意味・用法・関連表現
 
 1. 【他動詞】（考え・変化・機会・価値観などを）進んで受け入れる、採用する、支持する
 
@@ -51,7 +51,7 @@ tags: []
 
 【レジスター/領域】標準的だが、日常会話の単純な *accept* よりやや改まっている。報道、ビジネス、政治、教育、自己啓発、宗教・文化の説明で非常によく使う。  
 
-【文法パターン】*embrace + [idea/change/technology/value]*＝考え・変化などを積極的に採用する／*embrace + [opportunity/challenge/uncertainty]*＝機会・課題などを前向きに引き受ける／*embrace the opportunity/chance to do*＝～する機会を喜んで生かす／*[fully/readily/wholeheartedly] embrace + O*＝受容の強さを示す／*embrace + O + as + C*＝OをCとして受け入れる／*be embraced by + 人・組織*＝人・組織に広く受け入れられる  
+【文法パターン】*embrace 〈idea/change/technology/value〉*＝考え・変化などを積極的に採用する／*embrace 〈opportunity/challenge/uncertainty〉*＝機会・課題などを前向きに引き受ける／*embrace the opportunity/chance to do*＝～する機会を喜んで生かす／*〈fully/readily/wholeheartedly〉 embrace 〈O〉*＝受容の強さを示す／*embrace 〈O〉 as 〈C〉*＝OをCとして受け入れる／*be embraced by 〈人・組織〉*＝人・組織に広く受け入れられる  
 
 【コロケーション】
 
@@ -70,7 +70,7 @@ tags: []
 例: He embraced the opportunity to study with an experienced architect.  
 訳: 彼は経験豊かな建築家のもとで学ぶ機会を喜んで生かした。  
 
-・fully/wholeheartedly embrace + O  
+・fully/wholeheartedly embrace 〈O〉  
 用途: 考え・制度・生き方などを部分的でなく強く支持・採用する。  
 例: The organization has fully embraced remote work.  
 訳: その組織はリモートワークを全面的に採用している。  
@@ -85,12 +85,12 @@ tags: []
 例: After years of uncertainty, he embraced the faith of his family.  
 訳: 何年もの迷いの末、彼は家族の信仰を受け入れた。  
 
-・embrace + O + as + C  
+・embrace 〈O〉 as 〈C〉  
 用途: 対象を新しい役割・価値・解釈として肯定的に位置づける。  
 例: The team embraced the setback as a chance to improve.  
 訳: チームはその挫折を改善の機会として受け止めた。  
 
-・be widely/readily embraced by + 人・組織  
+・be widely/readily embraced by 〈人・組織〉  
 用途: 提案・技術・考えなどが、多くの人や組織に積極的に受容される。  
 例: The new payment system was quickly embraced by small retailers.  
 訳: その新しい決済システムは小規模小売業者にすぐ受け入れられた。  
@@ -172,7 +172,7 @@ tags: []
 
 【レジスター/領域】標準的だが、日常会話の *hug* より文学的・改まった響きがある。小説、報道写真の描写、式典、感情的な再会・別れの場面でよく使う。恋愛的とは限らない。  
 
-【文法パターン】*embrace + someone*＝人を抱きしめる／*embrace each other*＝互いに抱き合う／*people embrace*＝複数の人が抱き合う／*embrace someone + [warmly/tightly/tenderly]*＝抱き方を示す／*be embraced by + someone*＝人に抱きしめられる  
+【文法パターン】*embrace someone*＝人を抱きしめる／*embrace each other*＝互いに抱き合う／*people embrace*＝複数の人が抱き合う／*embrace someone 〈warmly/tightly/tenderly〉*＝抱き方を示す／*be embraced by someone*＝人に抱きしめられる  
 
 【コロケーション】
 
@@ -186,7 +186,7 @@ tags: []
 例: The players embraced each other after the final whistle.  
 訳: 試合終了の笛の後、選手たちは互いに抱き合った。  
 
-・[two people] embrace  
+・〈two people〉 embrace  
 用途: 自動詞として、主語となる人々が互いに抱き合う。  
 例: The old friends laughed and embraced.  
 訳: 旧友たちは笑い、抱き合った。  
@@ -262,7 +262,7 @@ tags: []
 
 【レジスター/領域】標準的だが、名詞 *hug* よりやや文章的・改まった響きがある。物語、報道、式典、感情的場面の描写でよく使う。  
 
-【文法パターン】*a/an + [warm/tender/brief/tight] embrace*＝抱擁の性質を示す／*greet/welcome someone with an embrace*＝抱擁で迎える／*share an embrace*＝互いに抱き合う／*hold someone in an embrace*＝抱いた状態を保つ／*be locked in an embrace*＝しっかり抱き合っている／*break/pull away from an embrace*＝抱擁を解く  
+【文法パターン】*a 〈warm/tender/brief/tight〉 embrace*＝抱擁の性質を示す／*greet/welcome someone with an embrace*＝抱擁で迎える／*share an embrace*＝互いに抱き合う／*hold someone in an embrace*＝抱いた状態を保つ／*be locked in an embrace*＝しっかり抱き合っている／*break/pull away from an embrace*＝抱擁を解く  
 
 【コロケーション】
 
@@ -329,11 +329,11 @@ tags: []
 
 【レジスター/領域】硬い・形式的。学術、行政、法律、企画書、説明文で使われる。一般的な文章や会話では *include, cover, encompass* の方が自然なことが多い。  
 
-【文法パターン】*embrace + a range/variety of + 複数名詞*＝広い範囲を含む／*embrace + [topics/fields/people/activities]*＝要素を包含する／*embrace both A and B*＝AとBの両方を含む／*[concept/definition/program] + embrace + O*＝概念・定義・計画がOを範囲内に入れる／*O + be embraced by/within + 全体*＝Oが全体に含まれる  
+【文法パターン】*embrace a range/variety of 〈複数名詞〉*＝広い範囲を含む／*embrace 〈topics/fields/people/activities〉*＝要素を包含する／*embrace both A and B*＝AとBの両方を含む／*〈concept/definition/program〉 embraces 〈O〉*＝概念・定義・計画がOを範囲内に入れる／*〈O〉 + be embraced by/within 〈全体〉*＝Oが全体に含まれる  
 
 【コロケーション】
 
-・embrace a wide/broad range of + 複数名詞  
+・embrace a wide/broad range of 〈複数名詞〉  
 用途: 分野・意見・活動などを幅広く含むことを表す。  
 例: The course embraces a wide range of historical periods.  
 訳: その講座は幅広い歴史時代を扱っている。  
@@ -348,17 +348,17 @@ tags: []
 例: The revised definition embraces both paid and unpaid work.  
 訳: 改訂された定義は有償労働と無償労働の両方を含む。  
 
-・[a concept/definition] embraces + O  
+・〈a concept/definition〉 embraces 〈O〉  
 用途: 概念・定義の意味範囲に具体的要素が含まれる。  
 例: The term embraces several forms of informal cooperation.  
 訳: その用語は複数の形態の非公式な協力を包含する。  
 
-・[a plan/program/report] embraces + O  
+・〈a plan/program/report〉 embraces 〈O〉  
 用途: 計画・制度・報告書が複数の課題や活動を対象にする。  
 例: The regional plan embraces transport, housing, and public health.  
 訳: その地域計画は交通、住宅、公衆衛生を対象に含む。  
 
-・[a category/framework] embraces + O  
+・〈a category/framework〉 embraces 〈O〉  
 用途: 分類・枠組みを主語にし、そこに含まれる要素を目的語として示す。  
 例: The broader framework embraces all these forms of community support.  
 訳: そのより広い枠組みは、これらすべての地域支援の形態を含む。  
@@ -426,31 +426,31 @@ tags: []
 
 【レジスター/領域】硬い・抽象的。報道、評論、ビジネス、政治、学術で使われる。日常会話では *acceptance, adoption, support* の方が普通である。  
 
-【文法パターン】*the/one's embrace of + 名詞*＝～の受容・採用／*an + [enthusiastic/full/wholehearted] embrace of + 名詞*＝受容の強さを示す／*[signal/mark/reflect] an embrace of + 名詞*＝受容を示す／*a [broad/partial/qualified] embrace of + 名詞*＝受容の範囲・留保を示す／*move toward/away from an embrace of + 名詞*＝受容へ近づく・離れる  
+【文法パターン】*the/one's embrace of 〈名詞〉*＝～の受容・採用／*an enthusiastic/a full/a wholehearted embrace of 〈名詞〉*＝受容の強さを示す／*signal/mark/reflect an embrace of 〈名詞〉*＝受容を示す／*a 〈broad/partial/qualified〉 embrace of 〈名詞〉*＝受容の範囲・留保を示す／*move toward/away from an embrace of 〈名詞〉*＝受容へ近づく・離れる  
 
 【コロケーション】
 
-・the/one's embrace of + [technology/change/ideas]  
+・the/one's embrace of 〈technology/change/ideas〉  
 用途: 誰が何を積極的に受け入れたかを *of* で示す。  
 例: The company's embrace of automation transformed its production line.  
 訳: その会社による自動化の採用は、生産ラインを一変させた。  
 
-・an enthusiastic/wholehearted embrace of + O  
+・an enthusiastic/a wholehearted embrace of 〈O〉  
 用途: 強い熱意を伴う全面的な受容を表す。  
 例: The movement's enthusiastic embrace of local culture attracted new members.  
 訳: その運動が地域文化を熱心に受け入れたことで、新しい参加者が集まった。  
 
-・signal/mark an embrace of + O  
+・signal/mark an embrace of 〈O〉  
 用途: 行動・決定が、特定の考えや方針を受け入れた証拠であることを示す。  
 例: The appointment marked an embrace of a more collaborative style.  
 訳: その任命は、より協調的な方式を採用したことを示した。  
 
-・a broad/partial/qualified embrace of + O  
+・a broad/partial/qualified embrace of 〈O〉  
 用途: 受容が全面的か、限定や留保を伴うかを表す。  
 例: The report offers a qualified embrace of the proposed reforms.  
 訳: その報告書は、提案された改革を留保付きで支持している。  
 
-・move toward/away from an embrace of + O  
+・move toward/away from an embrace of 〈O〉  
 用途: 方針・世論が受容する方向へ進む、またはそこから離れる変化を表す。  
 例: Public opinion has moved toward an embrace of flexible working.  
 訳: 世論は柔軟な働き方を受け入れる方向へ動いている。  
@@ -518,16 +518,16 @@ tags: []
 
 【レジスター/領域】文学的・修辞的、または硬い描写。地理・建築・物語の文章で使われる。中立的な説明では *surround, encircle, enclose* の方が普通である。  
 
-【文法パターン】*[mountains/forest/walls] + embrace + O*＝地形・構造物がOを囲む／*embrace + O + on all sides*＝四方から包む／*O + be embraced by + [nature/darkness/warmth]*＝Oが環境・雰囲気に包まれる／*[a curve/bay] + embrace + [space/coast/town]*＝曲線状のものが対象を囲む  
+【文法パターン】*〈mountains/walls〉 embrace 〈O〉; a forest embraces 〈O〉*＝地形・構造物がOを囲む／*embrace 〈O〉 on all sides*＝四方から包む／*〈O〉 + be embraced by 〈nature/darkness/warmth〉*＝Oが環境・雰囲気に包まれる／*a curve/bay embraces 〈space/coast/town〉*＝曲線状のものが対象を囲む  
 
 【コロケーション】
 
-・[hills/mountains] embrace the valley/town  
+・〈hills/mountains〉 embrace the valley/town  
 用途: 地形が谷・町を周囲から囲む様子を描写する。  
 例: Low green hills embrace the village on three sides.  
 訳: 低い緑の丘が三方からその村を囲んでいる。  
 
-・[a forest/wall] embraces + O  
+・〈a forest/wall〉 embraces 〈O〉  
 用途: 森林や構造物が対象の周囲に広がる。  
 例: A dense forest embraces the old monastery.  
 訳: 深い森がその古い修道院を取り囲んでいる。  
@@ -537,12 +537,12 @@ tags: []
 例: At dusk, the garden was embraced by a deep silence.  
 訳: 夕暮れになると、庭は深い静けさに包まれた。  
 
-・[a bay/curve] embraces + [a town/space]  
+・〈a bay/curve〉 embraces 〈a town/space〉  
 用途: 湾や曲線状の構造が対象を抱くように囲む。  
 例: The crescent-shaped bay embraces a small fishing town.  
 訳: 三日月形の湾が小さな漁村を包むように囲んでいる。  
 
-・embrace + O + on all sides  
+・embrace 〈O〉 on all sides  
 用途: 対象がほぼ全面から囲まれていることを明示する。  
 例: Terraced gardens embrace the hotel on all sides.  
 訳: 段々状の庭園がホテルを四方から取り囲んでいる。  
@@ -587,7 +587,7 @@ tags: []
 
 【レジスター/領域】文学的・修辞的。小説、旅行記、評論、広告的表現で使われる。日常の事実説明では *surroundings, grip, influence, shelter* などの方が明確である。  
 
-【文法パターン】*in/within the embrace of + 名詞*＝～に包まれて／*in the [warm/cold/gentle] embrace of + 名詞*＝包囲・影響の性質を示す／*sink/fall into the embrace of + sleep/night*＝眠り・夜へ包まれるように入る／*be held/caught in the embrace of + 名詞*＝強い影響下にある／*escape/break free from the embrace of + 名詞*＝その支配・包囲から離れる  
+【文法パターン】*in/within the embrace of 〈名詞〉*＝～に包まれて／*in the 〈warm/cold/gentle〉 embrace of 〈名詞〉*＝包囲・影響の性質を示す／*sink/fall into the embrace of 〈sleep/night〉*＝眠り・夜へ包まれるように入る／*be held/caught in the embrace of 〈名詞〉*＝強い影響下にある／*escape/break free from the embrace of 〈名詞〉*＝その支配・包囲から離れる  
 
 【コロケーション】
 
@@ -596,7 +596,7 @@ tags: []
 例: The cabin stands in the embrace of untouched forest.  
 訳: その小屋は手つかずの森に抱かれるように建っている。  
 
-・in the warm/cold embrace of + O  
+・in the warm/cold embrace of 〈O〉  
 用途: 包み込む環境を温かい・冷たい抱擁として擬人化する。  
 例: The town lay in the cold embrace of winter.  
 訳: その町は冬の冷たい支配に包まれていた。  
@@ -606,12 +606,12 @@ tags: []
 例: Exhausted, she soon sank into the embrace of sleep.  
 訳: 疲れ果てた彼女は、まもなく眠りに包まれた。  
 
-・be held/caught in the embrace of + O  
+・be held/caught in the embrace of 〈O〉  
 用途: 感情・暗闇・環境などから逃れにくい状態を表す。  
 例: The valley was held in the embrace of darkness.  
 訳: 谷は暗闇に包まれていた。  
 
-・escape/break free from the embrace of + O  
+・escape/break free from the embrace of 〈O〉  
 用途: 比喩的な包囲・支配・影響から抜け出す。  
 例: The region struggled to break free from the embrace of poverty.  
 訳: その地域は貧困の支配から抜け出そうともがいた。  

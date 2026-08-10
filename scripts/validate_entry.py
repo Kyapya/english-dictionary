@@ -53,6 +53,14 @@ SENSE_FREQUENCY_PATTERN = re.compile(r"〈(?:頻度:\s*)?(?:10|[1-9])/10〉")
 LEGACY_PLACEHOLDER_PATTERN = re.compile(
     r"\+\s+(?:O\b|[ぁ-んァ-ヶ一-龠々]+(?:[・/][ぁ-んァ-ヶ一-龠々]+)*)"
 )
+LEGACY_SQUARE_PLACEHOLDER_PATTERN = re.compile(r"\[[^\]\n]+\]")
+REDUNDANT_PREPOSITIONAL_PLUS_PATTERN = re.compile(
+    r"\b(?:about|above|across|after|against|along|among|around|as|at|before|"
+    r"behind|below|beneath|beside|between|beyond|by|during|except|for|from|in|"
+    r"inside|into|near|of|off|on|onto|outside|over|past|since|through|throughout|"
+    r"to|toward|towards|under|until|up|upon|via|with|within|without)\s+\+\s+〈",
+    re.IGNORECASE,
+)
 ADJACENT_PLACEHOLDER_PATTERN = re.compile(r"〉\s+〈")
 BRACKETED_GENERIC_SLOT_PATTERN = re.compile(
     r"〈(?:someone|something|someone/something|team|organization|team/organization)〉",
@@ -545,6 +553,16 @@ def _check_v5_notation_warnings(lines: list[str]) -> list[str]:
             warnings.append(
                 f"line {index + 1}: legacy placeholder notation detected; "
                 "use 〈...〉 for placeholders and reserve + for syntactic slot boundaries"
+            )
+        if LEGACY_SQUARE_PLACEHOLDER_PATTERN.search(stripped):
+            warnings.append(
+                f"line {index + 1}: legacy square-bracket placeholder notation detected; "
+                "use 〈...〉 for placeholders"
+            )
+        if REDUNDANT_PREPOSITIONAL_PLUS_PATTERN.search(stripped):
+            warnings.append(
+                f"line {index + 1}: redundant + before an angle-bracket placeholder; "
+                "write the preposition directly before 〈...〉"
             )
         if ADJACENT_PLACEHOLDER_PATTERN.search(stripped):
             warnings.append(
