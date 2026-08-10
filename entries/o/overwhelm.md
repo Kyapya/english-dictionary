@@ -51,7 +51,7 @@ tags: []
 
 【レジスター/領域】標準的。会話、報道、物語、スピーチで広く使う。感情の強さを強調するため、やや文章的・感情的になることもある。圧倒された人の受動・状態表現は語義5で扱う。  
 
-【文法パターン】*emotion/event/stimulus + overwhelm + someone/something*＝感情・出来事・刺激が人や感覚を圧倒する／*overwhelm someone with + 感情・愛情*＝感情・愛情を相手に強く感じさせる／*the beauty/scale of + O overwhelms someone*＝美しさ・規模が人を圧倒する／*a sense/wave of + 感情 overwhelms someone*＝感情の波・感覚が人を圧倒する  
+【文法パターン】*emotion/event/stimulus + overwhelm + someone/something*＝感情・出来事・刺激が人や感覚を圧倒する／*overwhelm someone with 〈感情・愛情〉*＝感情・愛情を相手に強く感じさせる／*the beauty/scale of 〈O〉 + overwhelm + someone*＝美しさ・規模が人を圧倒する／*a sense/wave of 〈感情〉 + overwhelm + someone*＝感情の波・感覚が人を圧倒する  
 
 【コロケーション】
 
@@ -158,12 +158,12 @@ tags: []
 
 【レジスター/領域】標準的。仕事、教育、医療、IT、行政、顧客対応など幅広い領域で使う。この語義では、量や流入を主語にする能動文で構造を理解すると分かりやすい。受動・状態表現は語義5で扱う。  
 
-【文法パターン】*work/information/requests + overwhelm + someone*＝仕事・情報・要求が人を処理不能にする／*overwhelm someone with + 物*＝人に物を過剰に与える／*overwhelm a system/server/service with + traffic/data*＝通信量・データでシステムを過負荷にする／*the amount/volume/number of + O overwhelms + someone/organization*＝量・数・規模が人・組織を処理不能にする／*not overwhelm the reader with + 情報*＝読者に情報を詰め込みすぎない  
+【文法パターン】*work/information/requests + overwhelm + someone*＝仕事・情報・要求が人を処理不能にする／*overwhelm someone with 〈物〉*＝人に物を過剰に与える／*overwhelm a system/server/service with 〈traffic/data〉*＝通信量・データでシステムを過負荷にする／*the amount/volume/number of 〈O〉 + overwhelm + someone/organization*＝量・数・規模が人・組織を処理不能にする／*not overwhelm the reader with 〈情報〉*＝読者に情報を詰め込みすぎない  
 
 【コロケーション】
 
 ・work/tasks + overwhelm + someone  
-用途: 仕事や作業の量が多すぎて人を処理不能にする。実際の用例では *be overwhelmed with/by + 仕事・情報* のような受動・状態表現も非常に多いが、語義5で扱う。  
+用途: 仕事や作業の量が多すぎて人を処理不能にする。実際の用例では *be overwhelmed with/by 〈仕事・情報〉* のような受動・状態表現も非常に多いが、語義5で扱う。  
 例: This week's workload is overwhelming me, so I need help prioritizing it.  
 訳: 今週の仕事量は私を圧倒しているので、優先順位付けを手伝ってほしい。  
 
@@ -265,7 +265,7 @@ tags: []
 
 【レジスター/領域】標準的。軍事、スポーツ、政治、競争、報道でよく使う。勝敗の差や圧倒的な勢いを強調する表現で、単純な勝敗報告より強い。  
 
-【文法パターン】*army/team + overwhelm + opponent/enemy*＝軍隊・チームが相手を圧倒する／*overwhelm + someone/something + with/by + force/numbers*＝力・数で制圧する／*be overwhelmed by + superior force/numbers*＝優勢な力・数に制圧される／*overwhelm the defense/resistance*＝守備・抵抗を完全に崩す／*overwhelm a rival in + competition*＝競争でライバルを圧倒する  
+【文法パターン】*army/team + overwhelm + opponent/enemy*＝軍隊・チームが相手を圧倒する／*overwhelm someone/something with/by 〈force/numbers〉*＝力・数で制圧する／*be overwhelmed by 〈superior force/numbers〉*＝優勢な力・数に制圧される／*overwhelm the defense/resistance*＝守備・抵抗を完全に崩す／*overwhelm a rival in 〈competition〉*＝競争でライバルを圧倒する  
 
 【コロケーション】
 
@@ -374,7 +374,7 @@ tags: []
 
 【レジスター/領域】文語的・文学的、または報道・災害描写。一般会話では頻度が低い。物理的な被害を正確に説明する場合は、より具体的な *flood* や *submerge* を使うことが多い。  
 
-【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by + water/flooding*＝水に覆われる／*overwhelm + barrier/levee/defense*＝水の勢いで防壁・堤防を破る／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
+【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by 〈water/flooding〉*＝水に覆われる／*overwhelm barrier/levee/defense*＝水の勢いで防壁・堤防を破る／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
 
 【コロケーション】
 
@@ -443,7 +443,7 @@ tags: []
 
 【レジスター/領域】標準的で非常に一般的。日常会話、仕事、育児、医療、心理、報道で使う。特に自分の状態を説明する *I feel overwhelmed.* が頻出する。  
 
-【文法パターン】*feel/be/seem/become/get overwhelmed*＝圧倒された状態である・なる／*be overwhelmed by + 原因*＝原因に圧倒されている／*be overwhelmed with + 仕事・感情*＝仕事・感情でいっぱいである／*an overwhelmed + 人・チーム*＝圧倒されている人・チーム／*be emotionally overwhelmed*＝感情的に圧倒されている／*be completely/totally overwhelmed*＝完全に手に負えない状態である  
+【文法パターン】*feel/be/seem/become/get overwhelmed*＝圧倒された状態である・なる／*be overwhelmed by 〈原因〉*＝原因に圧倒されている／*be overwhelmed with 〈仕事・感情〉*＝仕事・感情でいっぱいである／*an overwhelmed 〈人・チーム〉*＝圧倒されている人・チーム／*be emotionally overwhelmed*＝感情的に圧倒されている／*be completely/totally overwhelmed*＝完全に手に負えない状態である  
 
 【コロケーション】
 
@@ -557,7 +557,7 @@ tags: []
 
 【レジスター/領域】標準的で高頻度。会話、報道、評論、ビジネス、選挙、学術、広告で使う。名詞の前に置く限定用法が特に多く、叙述用法では経験や状況の強烈さを表す。  
 
-【文法パターン】*an overwhelming + 名詞*＝圧倒的な・非常に強い～／*be/seem/become overwhelming*＝圧倒的である・なる／*overwhelming for + 人*＝人にとって手に負えないほど強い／*an overwhelming majority/amount/number*＝圧倒的多数・量・数／*almost/completely/quite overwhelming*＝程度を調整する／*overwhelmingly + 形容詞・過去分詞*＝圧倒的に～  
+【文法パターン】*an overwhelming 〈名詞〉*＝圧倒的な・非常に強い～／*be/seem/become overwhelming*＝圧倒的である・なる／*overwhelming for 〈人〉*＝人にとって手に負えないほど強い／*an overwhelming majority/amount/number*＝圧倒的多数・量・数／*almost/completely/quite overwhelming*＝程度を調整する／*overwhelmingly 〈形容詞・過去分詞〉*＝圧倒的に～  
 
 【コロケーション】
 
@@ -678,7 +678,7 @@ tags: []
 
 【レジスター/領域】標準的。報道、政治、選挙、スポーツ、調査、評論でよく使う。会話でも使えるが、結果を客観的・強調的に述べる響きがある。  
 
-【文法パターン】*vote/win/approve overwhelmingly*＝圧倒的な差で投票・勝利・承認する／*be overwhelmingly + 形容詞・過去分詞*＝圧倒的に～である／*overwhelmingly in favor of/against + 名詞*＝圧倒的に賛成・反対で／*overwhelmingly positive/negative*＝評価が圧倒的に肯定的・否定的／*overwhelmingly likely*＝圧倒的に可能性が高い  
+【文法パターン】*vote/win/approve overwhelmingly*＝圧倒的な差で投票・勝利・承認する／*be overwhelmingly 〈形容詞・過去分詞〉*＝圧倒的に～である／*overwhelmingly in favor of/against 〈名詞〉*＝圧倒的に賛成・反対で／*overwhelmingly positive/negative*＝評価が圧倒的に肯定的・否定的／*overwhelmingly likely*＝圧倒的に可能性が高い  
 
 【コロケーション】
 
@@ -775,7 +775,7 @@ tags: []
 
 【レジスター/領域】現代的・やや口語的。心理やセルフケアの文章、個人の体験談で増えている。一方、正式な報告書や一般的な文章では *being overwhelmed*、*a feeling of being overwhelmed*、*stress* などの方が無難である。  
 
-【文法パターン】*a sense/feeling of overwhelm*＝圧倒感／*cope with overwhelm*＝圧倒された状態に対処する／*in the midst of overwhelm*＝圧倒された状態のさなかに／*move through overwhelm*＝圧倒感を経験しながら乗り越える／*overwhelm can make + O + 形容詞*＝圧倒感がOを～にする  
+【文法パターン】*a sense/feeling of overwhelm*＝圧倒感／*cope with overwhelm*＝圧倒された状態に対処する／*in the midst of overwhelm*＝圧倒された状態のさなかに／*move through overwhelm*＝圧倒感を経験しながら乗り越える／*overwhelm can make 〈O〉 〈形容詞〉*＝圧倒感がOを～にする  
 
 【コロケーション】
 

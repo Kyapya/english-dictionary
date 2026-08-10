@@ -9,7 +9,7 @@ from pathlib import Path
 REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
-from validate_entry import validate_file  # noqa: E402
+from validate_entry import validate_file, validation_warnings  # noqa: E402
 
 
 VALID_MARKDOWN = """---
@@ -50,7 +50,7 @@ tags: []
 
 【レジスター/領域】一般、やや書き言葉寄り。
 
-【文法パターン】immaculate + 名詞／be + immaculate。
+【文法パターン】immaculate 〈名詞〉／be immaculate。
 
 【コロケーション】
 
@@ -187,6 +187,32 @@ class ValidateEntryTests(unittest.TestCase):
         )
         path = self._write_temp_markdown(text)
         self.assertEqual(validate_file(path), [])
+
+    def test_v5_warns_about_legacy_placeholder_notation_in_grammar_pattern(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】immaculate + 名詞／be immaculate。",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(any("legacy placeholder notation" in warning for warning in warnings))
+
+    def test_v5_warns_about_legacy_placeholder_notation_in_collocation(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "・in immaculate condition",
+            "・immaculate + 名詞",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(any("legacy placeholder notation" in warning for warning in warnings))
+
+    def test_v5_accepts_angle_bracket_placeholders_and_structural_slots(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】quality + make + something immaculate／immaculate 〈名詞〉。",
+            1,
+        )
+        self.assertEqual(validation_warnings(text), [])
 
     def test_v4_uses_current_format_checks(self) -> None:
         text = VALID_V4_MARKDOWN.replace(

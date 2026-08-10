@@ -50,6 +50,9 @@ SUPPORTED_PROMPT_VERSIONS = {
 SENSE_PATTERN = re.compile(r"^\d+\.\s*【.+】")
 RELATION_FREQUENCY_PATTERN = re.compile(r"^頻度: 〈(?:10|[1-9])/10〉$")
 SENSE_FREQUENCY_PATTERN = re.compile(r"〈(?:頻度:\s*)?(?:10|[1-9])/10〉")
+LEGACY_PLACEHOLDER_PATTERN = re.compile(
+    r"\+\s+(?:O\b|[ぁ-んァ-ヶ一-龠々]+(?:[・/][ぁ-んァ-ヶ一-龠々]+)*)"
+)
 EMOJI_PATTERN = re.compile(
     "["
     "\U0001F1E6-\U0001F1FF"
@@ -515,6 +518,31 @@ def _check_v5_format(lines: list[str]) -> list[str]:
     return errors
 
 
+def _check_v5_notation_warnings(lines: list[str]) -> list[str]:
+    warnings: list[str] = []
+    candidate_indexes = {
+        index
+        for index, line in enumerate(lines)
+        if line.strip().startswith("【文法パターン】")
+    }
+    for marker_index, line in enumerate(lines):
+        if not line.strip().startswith("【コロケーション】"):
+            continue
+        content = _section_lines(lines, marker_index)
+        complete_length = len(content) - (len(content) % 4)
+        candidate_indexes.update(
+            content[offset][0] for offset in range(0, complete_length, 4)
+        )
+
+    for index in sorted(candidate_indexes):
+        if LEGACY_PLACEHOLDER_PATTERN.search(lines[index].strip()):
+            warnings.append(
+                f"line {index + 1}: legacy placeholder notation detected; "
+                "use 〈...〉 for placeholders and reserve + for syntactic slot boundaries"
+            )
+    return warnings
+
+
 def validate_text(text: str) -> list[str]:
     errors: list[str] = []
     front_matter, body = _split_front_matter(text)
@@ -562,6 +590,20 @@ def validate_file(path: Path) -> list[str]:
     return validate_text(_read_text(path))
 
 
+def validation_warnings(text: str) -> list[str]:
+    front_matter, body = _split_front_matter(text)
+    if front_matter is None:
+        return []
+    front_values = _front_matter_values(front_matter)
+    if front_values.get("prompt_version") != "entry_spec_v5":
+        return []
+    return _check_v5_notation_warnings(body.splitlines())
+
+
+def validation_file_warnings(path: Path) -> list[str]:
+    return validation_warnings(_read_text(path))
+
+
 def _resolve_target(raw: str) -> Path:
     path = Path(raw)
     if path.is_absolute():
@@ -604,7 +646,12 @@ def main(argv: list[str] | None = None) -> int:
     failed = False
     for path in files:
         errors = validate_file(path)
+        warnings = validation_file_warnings(path)
         label = path.relative_to(REPO_ROOT) if path.is_relative_to(REPO_ROOT) else path
+        if warnings:
+            print(f"WARNING {label}")
+            for warning in warnings:
+                print(f"  - {warning}")
         if errors:
             failed = True
             print(f"ERROR {label}")
