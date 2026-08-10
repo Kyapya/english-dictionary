@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-10
-updated_at: 2026-08-10
+updated_at: 2026-08-11
 checked: true
 tags: []
 ---
@@ -41,7 +41,7 @@ tags: []
 ・核 → 保険契約に条項を追加して、補償内容を変更する。  
 ・核 → 免許・証明書・記録に認定や処分を追加する。  
 
-＃意味や関連情報の出力（日本語訳）
+＃意味・用法・関連表現
 
 1. 【可算名詞・不可算名詞】（人・候補者・政策・考えなどへの、公的・明確な）支持、承認、推薦
 
@@ -51,46 +51,51 @@ tags: []
 
 【レジスター/領域】中立～フォーマル。政治、報道、ビジネス、選挙、組織運営、書評、推薦状などで高頻度。日常会話でも使えるが、個人的な賛成なら *approval* や *support* の方が広く使える。米英で中心義に大きな差はない。  
 
-【文法パターン】*endorsement of/for + 人・物・方針*＝何を支持・承認するか／*endorsement by/from + 人・団体*＝誰による支持か／*someone's endorsement*＝所有格で支持者を示す／*endorsement as + 役職・後継者*＝どの立場に就く者として支持されるか／*give/provide/lend one's endorsement to + O*＝Oを支持する／*receive/win/secure/seek + endorsement*＝支持を受ける・獲得する・求める／*serve as/amount to/be seen as + an endorsement of + O*＝言動や結果がOへの支持と解釈される／*a letter of endorsement*＝支持・推薦を記した文書／*with/without the endorsement of + 人・団体*＝支持を得て／得ずに  
+【文法パターン】*endorsement of/for + 〈人・物・方針〉*＝何を支持・承認するか／*endorsement by/from + 〈人・団体〉*＝誰による支持か／*someone's endorsement*＝所有格で支持者を示す／*endorsement of + 〈人〉 + as + 〈役職・後継者〉*＝誰をどの立場に就く者として支持するか／*give/provide/lend one's endorsement to + 〈O〉*＝〈O〉を支持する／*receive/win/secure/seek + endorsement*＝支持を受ける・獲得する・求める／*serve as/amount to/be seen as + an endorsement of + 〈O〉*＝言動や結果が〈O〉への支持と解釈される／*a letter of endorsement*＝支持・推薦を記した文書／*with/without the endorsement of + 〈人・団体〉*＝支持を得て／得ずに  
 
 【コロケーション】
 
-・an endorsement of + [a candidate/policy/plan/idea]  
+・an endorsement of + 〈a candidate/policy/plan/idea〉  
 用途: 支持・承認の対象を *of* で示す最も基本的な名詞句。  
 例: The resolution was widely viewed as an endorsement of the new policy.  
 訳: その決議は、新しい政策への支持を示すものだと広く受け止められた。  
 
-・an endorsement by/from + 人・団体  
+・be seen as an endorsement of + 〈O〉  
+用途: 決議、任命、投票、行動などが、〈O〉への支持を示すものと解釈されることを表す。  
+例: The appointment was widely seen as an endorsement of the reform.  
+訳: その任命は、改革への支持を示すものだと広く受け止められた。  
+
+・an endorsement by/from + 〈人・団体〉  
 用途: 支持を表明した人物・組織を示す。*by* は行為者、*from* は支持を受け取る側から見た出所に焦点を置きやすい。  
 例: An endorsement from the medical association strengthened the proposal's credibility.  
 訳: 医師会からの支持によって、その提案の信頼性が高まった。  
 
-・give/provide one's endorsement to + O  
-用途: 人や団体がOを明示的に支持・承認することを述べる。  
+・give/provide one's endorsement to + 〈O〉  
+用途: 人や団体が〈O〉を明示的に支持・承認することを述べる。  
 例: The board gave its formal endorsement to the revised plan.  
 訳: 取締役会は改訂案を正式に承認した。  
 
-・receive/win/secure the endorsement of + 人・団体  
+・receive/win/secure the endorsement of + 〈人・団体〉  
 用途: 候補者や提案が、影響力のある人物・団体の支持を得る。  
 例: The candidate secured the endorsement of several labor unions.  
 訳: その候補者はいくつかの労働組合の支持を取り付けた。  
 
-・seek + endorsement from + 人・団体  
+・seek + endorsement from + 〈人・団体〉  
 用途: 選挙、企画、出版物などについて公式な支持・推薦を求める。  
 例: The organizers are seeking endorsement from local community leaders.  
 訳: 主催者たちは地域の指導者からの支持を求めている。  
 
-・a strong/clear/ringing endorsement of + O  
+・a strong/clear/ringing endorsement of + 〈O〉  
 用途: 支持が力強い、明白である、熱烈であることを評価的に示す。  
 例: The overwhelming vote was a clear endorsement of the reforms.  
 訳: 圧倒的多数の票は、その改革への明確な支持を示していた。  
 
-・a qualified/limited/tacit endorsement of + O  
+・a qualified/limited/tacit endorsement of + 〈O〉  
 用途: 条件付き・限定的・暗黙の支持であり、全面的支持ではないことを示す。  
 例: Her cautious remarks amounted to a qualified endorsement of the agreement.  
 訳: 彼女の慎重な発言は、その合意への条件付きの支持に相当した。  
 
-・with the endorsement of + 人・団体  
+・with the endorsement of + 〈人・団体〉  
 用途: 支持者・承認機関の後押しを受けて行動や計画が進むことを示す。  
 例: The campaign was launched with the endorsement of several national charities.  
 訳: その運動は複数の全国的慈善団体の支持を得て開始された。  
@@ -100,12 +105,12 @@ tags: []
 例: The application must include a letter of endorsement from the department chair.  
 訳: その申請には学科長からの推薦状を添えなければならない。  
 
-・an endorsement as + 役職・後継者  
-用途: 人がどの地位・役割に就く者として支持されるかを示す。  
-例: She received the committee's endorsement as the next chair.  
-訳: 彼女は次期委員長として委員会の支持を得た。  
+・an endorsement of + 〈人〉 + as + 〈役職・後継者〉  
+用途: 〈人〉を〈役職・後継者〉として支持・推薦することを示す。  
+例: The committee's endorsement of her as the next chair was announced on Monday.  
+訳: 彼女を次期委員長として支持する委員会の推薦が、月曜日に発表された。  
 
-【語法・注意】支持の対象には通常 *of*、支持者には *by* または *from* を使うため、*the union's endorsement of the candidate* は「労組による候補者への支持」である。*an endorsement for a candidate* も特に選挙文脈で見られるが、対象を明確に表す一般的な形は *endorsement of*、支持を求める・与える行為では *endorsement for* も自然である。*give one's endorsement to O* と *endorse O* はほぼ対応するが、名詞形の方が公式声明・制度的承認を強調しやすい。*a ringing endorsement* は「はっきりと熱烈な支持」であり、しばしば否定の *hardly/not exactly a ringing endorsement*「とても強い支持とは言えない」として皮肉に使う。*tacit endorsement* は明言せず、反対しない態度や行動から読み取られる支持である。結果や沈黙が *an endorsement* と呼ばれる場合、実際に支持声明が出たとは限らず、「支持と解釈できる」という比喩的評価である。  
+【語法・注意】支持の対象には通常 *of*、支持者には *by* または *from* を使うため、*the union's endorsement of the candidate* は「労組による候補者への支持」である。*an endorsement for a candidate* も特に選挙文脈で見られるが、対象を明確に表す一般的な形は *endorsement of*、支持を求める・与える行為では *endorsement for* も自然である。*give one's endorsement to 〈O〉* と *endorse 〈O〉* はほぼ対応するが、名詞形の方が公式声明・制度的承認を強調しやすい。*a ringing endorsement* は「はっきりと熱烈な支持」であり、しばしば否定の *hardly/not exactly a ringing endorsement*「とても強い支持とは言えない」として皮肉に使う。*tacit endorsement* は明言せず、反対しない態度や行動から読み取られる支持である。結果や沈黙が *an endorsement* と呼ばれる場合、実際に支持声明が出たとは限らず、「支持と解釈できる」という比喩的評価である。  
 
 【類義語】
 
@@ -175,7 +180,7 @@ tags: []
 
 【レジスター/領域】広告、マーケティング、スポーツ、芸能、SNS、消費者保護。*celebrity endorsement, product endorsement, endorsement deal* は特に一般的。米英ともに使う。  
 
-【文法パターン】*[celebrity/athlete/expert] endorsement*＝推薦者の種類／*[product/brand/book] endorsement*＝商品・ブランドの広告推薦または書籍の推薦文／*an endorsement of/for + a product/brand*＝推薦対象／*endorsement by/from + 人*＝推薦者／*sign/land/lose + an endorsement deal with + 企業*＝推薦契約を結ぶ・得る・失う／*earn/make money from endorsements*＝推薦案件から収入を得る  
+【文法パターン】*〈celebrity/athlete/expert〉 endorsement*＝推薦者の種類／*〈product/brand/book〉 endorsement*＝商品・ブランドの広告推薦または書籍の推薦文／*an endorsement of/for + 〈a product/brand〉*＝推薦対象／*endorsement by/from + 〈人〉*＝推薦者／*sign/land/lose + an endorsement deal with + 〈企業〉*＝推薦契約を結ぶ・得る・失う／*earn/make money from endorsements*＝推薦案件から収入を得る  
 
 【コロケーション】
 
@@ -189,12 +194,12 @@ tags: []
 例: The interview included what appeared to be a paid product endorsement.  
 訳: そのインタビューには、有料の商品推薦と思われる内容が含まれていた。  
 
-・an endorsement of/for + a product  
+・an endorsement of/for + 〈a product〉  
 用途: どの商品を広告上で推薦しているかを示す。  
 例: Her endorsement of the skin-care line reached millions of followers.  
 訳: 彼女によるそのスキンケア商品の推薦は、数百万人のフォロワーに届いた。  
 
-・sign an endorsement deal with + 企業  
+・sign an endorsement deal with + 〈企業〉  
 用途: 選手・著名人などが企業と広告推薦契約を結ぶ。  
 例: The rookie signed an endorsement deal with a sportswear company.  
 訳: その新人選手はスポーツ用品会社と推薦契約を結んだ。  
@@ -259,7 +264,7 @@ tags: []
 
 【レジスター/領域】銀行、商取引、手形法、法律文書。一般生活では小切手を使う地域で遭遇する。米国の法律文書では異綴り *indorsement* が残る場合がある。英国綴りの *cheque* と米国綴りの *check* の違いにも注意する。  
 
-【文法パターン】*an endorsement on the back of + a check/cheque/instrument*＝証券の裏面の署名・記載／*endorsement of + a check/note/instrument*＝証券を裏書する行為／*require/bear/lack + an endorsement*＝裏書を必要とする・有する・欠く／*a blank/special/restrictive endorsement*＝権利移転や使用を定める裏書の種類／*endorsement in blank*＝受取人を指定しない白地式裏書  
+【文法パターン】*an endorsement on the back of + 〈a check/cheque/instrument〉*＝証券の裏面の署名・記載／*endorsement of + 〈a check/note/instrument〉*＝証券を裏書する行為／*require/bear/lack + an endorsement*＝裏書を必要とする・有する・欠く／*a blank/special/restrictive endorsement*＝権利移転や使用を定める裏書の種類／*endorsement in blank*＝受取人を指定しない白地式裏書  
 
 【コロケーション】
 
@@ -326,7 +331,7 @@ tags: []
 
 【レジスター/領域】保険、契約、リスク管理。特に北米の保険実務で一般的だが、他地域の英語でも理解される。一般向け説明では *an amendment to an insurance policy* と言い換えられる。  
 
-【文法パターン】*an endorsement to/on + an insurance policy*＝保険契約に付された特約／*a policy/insurance endorsement*＝保険特約／*add/attach/issue/remove + an endorsement*＝特約を追加・添付・発行・削除する／*coverage provided/added/excluded by endorsement*＝特約により補償を付加・除外する／*an endorsement that changes/modifies/extends/excludes + coverage*＝特約の効果をthat節で示す  
+【文法パターン】*an endorsement to/on + 〈an insurance policy〉*＝保険契約に付された特約／*a policy/insurance endorsement*＝保険特約／*add/attach/issue/remove + an endorsement*＝特約を追加・添付・発行・削除する／*coverage provided/added/excluded by endorsement*＝特約により補償を付加・除外する／*an endorsement that changes/modifies/extends/excludes + coverage*＝特約の効果をthat節で示す  
 
 【コロケーション】
 
@@ -393,7 +398,7 @@ tags: []
 
 【レジスター/領域】商用運転免許、航空、教員資格、職業資格などの専門用法で、特に米国の制度名に多い。制度・地域ごとに要件、名称、効力が異なり、*qualification, authorization, category, rating* など別の専門語が採用される場合もある。  
 
-【文法パターン】*an endorsement on/to + a licence/license/certificate*＝免許・証明書への追加認定／*a [hazardous-materials/passenger/subject] endorsement*＝認められる車両・分野／*obtain/earn/hold/add + an endorsement*＝追加認定を取得・保有・追加する／*require + an endorsement to do*＝行為に追加認定を必要とする／*a logbook/instructor endorsement*＝訓練・能力を証明する記録上の署名  
+【文法パターン】*an endorsement on/to + 〈a licence/license/certificate〉*＝免許・証明書への追加認定／*a 〈hazardous-materials/passenger/subject〉 endorsement*＝認められる車両・分野／*obtain/earn/hold/add + an endorsement*＝追加認定を取得・保有・追加する／*require + an endorsement to do*＝行為に追加認定を必要とする／*a logbook/instructor endorsement*＝訓練・能力を証明する記録上の署名  
 
 【コロケーション】
 
@@ -407,12 +412,12 @@ tags: []
 例: Drivers must pass a separate test to obtain the endorsement.  
 訳: 運転者はその追加資格を取得するため、別の試験に合格しなければならない。  
 
-・hold a [passenger/tank/hazardous-materials] endorsement  
+・hold a 〈passenger/tank/hazardous-materials〉 endorsement  
 用途: 米国の商用運転免許で、特定の車両・貨物を扱う追加権限を保有する。  
 例: Applicants must hold a passenger endorsement to operate the bus.  
 訳: そのバスを運転するには、申請者は旅客輸送の追加資格を保有していなければならない。  
 
-・require an endorsement to + 動詞  
+・require an endorsement to + 〈動詞〉  
 用途: 基本免許だけでは足りず、特定行為に追加認定が必要だと示す。  
 例: The licence requires an additional endorsement to transport hazardous materials.  
 訳: その免許で危険物を輸送するには、追加認定が必要である。  
@@ -460,7 +465,7 @@ tags: []
 
 【レジスター/領域】主にイギリス英語の交通法・行政・自動車保険。米国で *license endorsement* と言えば、語義5の追加運転資格を指すことが多く、この処分義とは地域差が大きい。  
 
-【文法パターン】*an endorsement on + one's driving licence/record*＝免許・運転者記録上の違反付記／*receive/get + an endorsement for + an offence*＝違反により付記を受ける／*have/carry + endorsements/penalty points*＝違反記録・点数がある／*an endorsable/non-endorsable offence*＝違反点数付記の対象となる／ならない違反  
+【文法パターン】*an endorsement on + one's driving licence/record*＝免許・運転者記録上の違反付記／*receive/get + an endorsement for + 〈an offence〉*＝違反により付記を受ける／*have/carry + endorsements/penalty points*＝違反記録・点数がある／*an endorsable/non-endorsable offence*＝違反点数付記の対象となる／ならない違反  
 
 【コロケーション】
 
@@ -469,7 +474,7 @@ tags: []
 例: The endorsement will remain on his driving record for several years.  
 訳: その違反記録は数年間、彼の運転者記録に残る。  
 
-・receive/get an endorsement for + 違反  
+・receive/get an endorsement for + 〈違反〉  
 用途: 特定の交通違反により違反記録・点数付記を受ける。  
 例: She received an endorsement for speeding.  
 訳: 彼女は速度違反で違反点数の付記を受けた。  
