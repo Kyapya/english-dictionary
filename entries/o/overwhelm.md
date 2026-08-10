@@ -374,7 +374,7 @@ tags: []
 
 【レジスター/領域】文語的・文学的、または報道・災害描写。一般会話では頻度が低い。物理的な被害を正確に説明する場合は、より具体的な *flood* や *submerge* を使うことが多い。  
 
-【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by 〈water/flooding〉*＝水に覆われる／*overwhelm barrier/levee/defense*＝水の勢いで防壁・堤防を破る／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
+【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by 〈water/flooding〉*＝水に覆われる／*overwhelm a levee/barrier*＝水の勢いで堤防・防壁を破る／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
 
 【コロケーション】
 
@@ -775,7 +775,7 @@ tags: []
 
 【レジスター/領域】現代的・やや口語的。心理やセルフケアの文章、個人の体験談で増えている。一方、正式な報告書や一般的な文章では *being overwhelmed*、*a feeling of being overwhelmed*、*stress* などの方が無難である。  
 
-【文法パターン】*a sense/feeling of overwhelm*＝圧倒感／*cope with overwhelm*＝圧倒された状態に対処する／*in the midst of overwhelm*＝圧倒された状態のさなかに／*move through overwhelm*＝圧倒感を経験しながら乗り越える／*overwhelm can make 〈O〉 〈形容詞〉*＝圧倒感がOを～にする  
+【文法パターン】*a sense/feeling of overwhelm*＝圧倒感／*cope with overwhelm*＝圧倒された状態に対処する／*in the midst of overwhelm*＝圧倒された状態のさなかに／*move through overwhelm*＝圧倒感を経験しながら乗り越える／*overwhelm can make 〈O〉 feel 〈形容詞〉*＝圧倒感によってOが～に感じられる  
 
 【コロケーション】
 
@@ -799,7 +799,7 @@ tags: []
 例: Breathing exercises helped him move through overwhelm.  
 訳: 呼吸法は、彼が圧倒感を乗り越える助けになった。  
 
-・overwhelm can make 〈O〉 〈形容詞〉  
+・overwhelm can make 〈O〉 feel 〈形容詞〉  
 用途: 圧倒感が判断・行動に及ぼす一般的な影響を述べる。  
 例: Overwhelm can make simple decisions feel impossible.  
 訳: 圧倒感によって、簡単な決定さえ不可能に感じられることがある。  
