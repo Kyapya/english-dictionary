@@ -5,7 +5,7 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-06
-updated_at: 2026-08-06
+updated_at: 2026-08-11
 checked: true
 tags: []
 ---
@@ -38,7 +38,7 @@ tags: []
 ・核 → 他動詞として、人・人物像・伝統・制度・聖なる対象などへ深い敬意と畏敬を抱く。  
 ・核 → *revered* として、長年・広範に深く敬われる地位や評価を表す。  
 
-＃意味や関連情報の出力（日本語訳）
+＃意味・用法・関連表現
 
 1. 【他動詞・通常受動】（人・伝統・理想・聖なるものなどを）深く敬う、崇敬する、畏敬する
 
@@ -48,36 +48,36 @@ tags: []
 
 【レジスター/領域】フォーマル・文章語。歴史、宗教、文化、芸術、政治、追悼、人物評でよく使う。日常会話で身近な人への普通の尊敬を述べるなら *respect, admire, look up to* の方が自然である。米英で中心義・構文に大きな差はない。  
 
-【文法パターン】*revere + [person/tradition/institution/ideal]*＝対象を深く敬う／*be revered by + 人・集団*＝誰から敬われるかを示す／*be revered as + 身分・評価*＝どのような存在として敬われるかを示す／*be revered for + 功績・性質*＝何のために敬われるかを示す／*be revered in/among + 場所・集団*＝どこで、または誰の間で敬われるかを示す／*[deeply/widely/long] revere O; be [deeply/widely/long] revered*＝敬意の強さ・広がり・継続を示す  
+【文法パターン】*revere 〈person/tradition/institution/ideal〉*＝対象を深く敬う／*be revered by 〈人・集団〉*＝誰から敬われるかを示す／*be revered as 〈身分・評価〉*＝どのような存在として敬われるかを示す／*be revered for 〈功績・性質〉*＝何のために敬われるかを示す／*be revered in/among 〈場所・集団〉*＝どこで、または誰の間で敬われるかを示す／*〈deeply/widely/long〉 revere 〈O〉; be 〈deeply/widely/long〉 revered*＝敬意の強さ・広がり・継続を示す  
 
 【コロケーション】
 
-・revere + [a leader/teacher/artist/ancestor]  
+・revere 〈a leader/teacher/artist/ancestor〉  
 用途: 人を、その人格・功績・権威などのために深く敬う能動態。  
 例: Many young musicians revere her as a pioneer of modern jazz.  
 訳: 多くの若い音楽家が、彼女をモダンジャズの先駆者として崇敬している。  
 
-・revere + [a tradition/institution/ideal/text]  
+・revere 〈a tradition/institution/ideal/text〉  
 用途: 長く受け継がれた慣習、制度、理念、文書などを特別に尊ぶ。  
 例: The community reveres the tradition but allows each generation to reinterpret it.  
 訳: その共同体は伝統を深く尊重しつつ、各世代がそれを解釈し直すことを認めている。  
 
-・be revered by + 人・集団  
+・be revered by 〈人・集団〉  
 用途: 敬意を抱く側を *by* で示す、最も典型的な受動構文。  
 例: The physician was revered by generations of patients and colleagues.  
 訳: その医師は何世代にもわたる患者と同僚から深く敬われていた。  
 
-・be revered as + 身分・評価  
+・be revered as 〈身分・評価〉  
 用途: 対象がどのような人物・象徴として敬われているかを示す。  
 例: She is revered as one of the country's greatest poets.  
 訳: 彼女はその国で最も偉大な詩人の一人として敬われている。  
 
-・be revered for + 功績・性質  
+・be revered for 〈功績・性質〉  
 用途: 深い敬意の理由となる行為、功績、知恵、勇気などを示す。  
 例: He is revered for defending the rights of marginalized communities.  
 訳: 彼は社会から取り残された共同体の権利を守ったことで崇敬されている。  
 
-・be revered in/among + 場所・集団  
+・be revered in/among 〈場所・集団〉  
 用途: 敬意が共有されている文化圏、地域、職業集団などを示す。  
 例: The scholar remains revered among historians of the period.  
 訳: その学者は今も、その時代を研究する歴史家の間で深く敬われている。  
@@ -171,7 +171,7 @@ tags: []
 
 【レジスター/領域】フォーマル・文章語。人物紹介、追悼、歴史、文化、宗教、芸術、報道で多い。通常は肯定的だが、文脈によっては、過度な権威視や無批判な評価を距離を置いて述べることもある。  
 
-【文法パターン】*a/an + revered + [leader/teacher/artist/figure]*＝深く敬われる人物／*a revered + [tradition/institution/text/site]*＝崇敬・尊重される伝統や対象／*one of + 所有格/the + most revered + 複数名詞*＝最も敬われるものの一つ／*[long/highly/widely] revered + 名詞*＝敬意の継続・程度・広がりを示す／*[remain/become/seem] revered*＝敬われる状態を叙述するが、文脈上は動詞の受動態とも分析できる  
+【文法パターン】*a revered 〈leader/teacher/artist/figure〉*＝深く敬われる人物／*a revered 〈tradition/institution/text/site〉*＝崇敬・尊重される伝統や対象／*one of 〈所有格/the〉 most revered 〈複数名詞〉*＝最も敬われるものの一つ／*〈long/highly/widely〉 revered 〈名詞〉*＝敬意の継続・程度・広がりを示す／*〈remain/become/seem〉 revered*＝敬われる状態を叙述するが、文脈上は動詞の受動態とも分析できる  
 
 【コロケーション】
 
@@ -195,12 +195,12 @@ tags: []
 例: The manuscript is one of the community's most revered texts.  
 訳: その写本は共同体で最も崇敬される文書の一つである。  
 
-・one of the most revered + 複数名詞  
+・one of the most revered 〈複数名詞〉  
 用途: ある集団・分野で最高度の敬意を受ける対象の一つと位置づける。  
 例: She became one of the most revered judges in the court's history.  
 訳: 彼女はその裁判所の歴史上、最も敬われる裁判官の一人となった。  
 
-・a long/highly/widely revered + 名詞  
+・a long/highly/widely revered 〈名詞〉  
 用途: 敬意が長く続くこと、程度が高いこと、広く共有されることを名詞の前で示す。  
 例: The museum houses a long-revered icon from the twelfth century.  
 訳: その博物館は、12世紀の、長く崇敬されてきた聖像を所蔵している。  
