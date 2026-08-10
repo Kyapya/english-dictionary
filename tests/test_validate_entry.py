@@ -209,10 +209,28 @@ class ValidateEntryTests(unittest.TestCase):
     def test_v5_accepts_angle_bracket_placeholders_and_structural_slots(self) -> None:
         text = VALID_V5_MARKDOWN.replace(
             "【文法パターン】immaculate 〈名詞〉／be immaculate。",
-            "【文法パターン】quality + make + something immaculate／immaculate 〈名詞〉。",
+            "【文法パターン】make 〈O〉 + 〈形容詞〉／event + affect + someone/something。",
             1,
         )
         self.assertEqual(validation_warnings(text), [])
+
+    def test_v5_warns_about_adjacent_placeholders_without_slot_separator(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】make 〈O〉 〈形容詞〉。",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(any("adjacent placeholders" in warning for warning in warnings))
+
+    def test_v5_warns_about_bracketed_english_generic_slots(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【文法パターン】immaculate 〈名詞〉／be immaculate。",
+            "【文法パターン】event + affect + 〈someone〉。",
+            1,
+        )
+        warnings = validation_warnings(text)
+        self.assertTrue(any("bracketed English generic slot" in warning for warning in warnings))
 
     def test_v4_uses_current_format_checks(self) -> None:
         text = VALID_V4_MARKDOWN.replace(
