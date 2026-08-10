@@ -179,6 +179,15 @@ class ValidateEntryTests(unittest.TestCase):
         path = self._write_temp_markdown(VALID_V5_MARKDOWN)
         self.assertEqual(validate_file(path), [])
 
+    def test_v5_accepts_current_learner_facing_heading(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "＃意味や関連情報の出力（日本語訳）",
+            "＃意味・用法・関連表現",
+            1,
+        )
+        path = self._write_temp_markdown(text)
+        self.assertEqual(validate_file(path), [])
+
     def test_v4_uses_current_format_checks(self) -> None:
         text = VALID_V4_MARKDOWN.replace(
             "・in immaculate condition  \n",
