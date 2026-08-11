@@ -80,7 +80,16 @@ def parse_args() -> argparse.Namespace:
     )
     parser.add_argument("--title-property", default="ALL")
     parser.add_argument("--status-property", default="Status")
-    parser.add_argument("--status-value", default="未着手")
+    parser.add_argument(
+        "--status-value",
+        default="進行中",
+        help="Status applied before any Notion body mutation begins.",
+    )
+    parser.add_argument(
+        "--complete-status-value",
+        default="完了",
+        help="Status applied only after the complete body is verified.",
+    )
     parser.add_argument("--tag-property", default="タグ")
     parser.add_argument("--tag-value", default="英単語")
     parser.add_argument(
@@ -466,6 +475,25 @@ def create_page(args: argparse.Namespace, token: str, headword: str) -> str:
     return result["id"]
 
 
+def update_page_status(
+    args: argparse.Namespace,
+    token: str,
+    page_id: str,
+    status_value: str,
+) -> None:
+    notion_request(
+        "PATCH",
+        f"/pages/{page_id}",
+        token,
+        args.notion_version,
+        {
+            "properties": {
+                args.status_property: {"status": {"name": status_value}}
+            }
+        },
+    )
+
+
 def append_blocks(
     args: argparse.Namespace,
     token: str,
@@ -524,6 +552,20 @@ def trash_blocks(
         time.sleep(args.sleep)
 
 
+def verify_child_block_count(
+    args: argparse.Namespace,
+    token: str,
+    page_id: str,
+    expected_count: int,
+) -> None:
+    actual_count = len(list_child_blocks(args, token, page_id))
+    if actual_count != expected_count:
+        raise NotionApiError(
+            f"Notion body verification failed for page {page_id}: "
+            f"expected {expected_count} blocks, found {actual_count}."
+        )
+
+
 def existing_policy(args: argparse.Namespace) -> str:
     legacy = getattr(args, "skip_existing", None)
     if legacy is not None:
@@ -542,6 +584,8 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
         page_id = create_page(args, token, headword)
         time.sleep(args.sleep)
         append_blocks(args, token, page_id, blocks)
+        verify_child_block_count(args, token, page_id, len(blocks))
+        update_page_status(args, token, page_id, args.complete_status_value)
         return f"CREATE {headword}: {len(blocks)} blocks, page_id={page_id}"
     pages = find_pages(
         token,
@@ -568,10 +612,13 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
         page_id = selected_page.get("id")
         if not page_id:
             raise NotionApiError("Existing Notion page is missing its id.")
+        update_page_status(args, token, page_id, args.status_value)
         old_blocks = list_child_blocks(args, token, page_id)
         # Append first so a failed upload leaves the previous complete body intact.
         append_blocks(args, token, page_id, blocks)
         trash_blocks(args, token, old_blocks)
+        verify_child_block_count(args, token, page_id, len(blocks))
+        update_page_status(args, token, page_id, args.complete_status_value)
         return (
             f"UPDATE {headword}: replaced {len(old_blocks)} blocks with "
             f"{len(blocks)} blocks, page_id={page_id}{selection_details}"
@@ -579,6 +626,8 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
     page_id = create_page(args, token, headword)
     time.sleep(args.sleep)
     append_blocks(args, token, page_id, blocks)
+    verify_child_block_count(args, token, page_id, len(blocks))
+    update_page_status(args, token, page_id, args.complete_status_value)
     return f"CREATE {headword}: {len(blocks)} blocks, page_id={page_id}"
 
 
