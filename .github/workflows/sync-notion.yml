@@ -6,6 +6,12 @@ on:
       - main
     paths:
       - "entries/**/*.md"
+  workflow_dispatch:
+    inputs:
+      entry:
+        description: "Entry Markdown path to resync"
+        required: true
+        default: "entries/a/abandon.md"
 
 permissions:
   contents: read
@@ -50,8 +56,11 @@ jobs:
         env:
           BEFORE_SHA: ${{ github.event.before }}
           CURRENT_SHA: ${{ github.sha }}
+          MANUAL_ENTRY: ${{ inputs.entry }}
         run: |
-          if [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
+          if [[ "$GITHUB_EVENT_NAME" == "workflow_dispatch" ]]; then
+            files=("$MANUAL_ENTRY")
+          elif [[ "$BEFORE_SHA" =~ ^0+$ ]]; then
             mapfile -t files < <(git diff-tree --root --no-commit-id --name-only --diff-filter=AM -r "$CURRENT_SHA" -- entries)
           else
             mapfile -t files < <(git diff --name-only --diff-filter=AM "$BEFORE_SHA" "$CURRENT_SHA" -- entries)
@@ -64,11 +73,15 @@ jobs:
 
           args=()
           for file in "${files[@]}"; do
+            if [[ "$file" != entries/*.md || ! -f "$file" ]]; then
+              echo "Invalid entry path: $file" >&2
+              exit 1
+            fi
             args+=(--entry "$file")
           done
           python scripts/import_to_notion.py \
             "${args[@]}" \
             --parent-id "$NOTION_DATA_SOURCE_ID" \
-            --existing-policy create \
+            --existing-policy update \
             --status-value "未着手" \
             --tag-value "英単語"

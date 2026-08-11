@@ -19,7 +19,7 @@
 9. `.github/workflows/sync-notion.yml` がマージされた完成記事をNotionへ同期する。
 10. エージェントがNotion同期ワークフローの成功を確認してから依頼完了を報告する。
 
-Notion同期では `prompts/notion_spec_v1.md` に従い、毎回新規ページを作成して `ALL=見出し語`、`タグ=英単語`、`Status=未着手` とする。同じALL値の既存ページがあっても更新・削除せず、新しい解説を別ページとして保存する。見出しラベルと本文を分け、コロケーション・類義語・反意語は1エントリ1ブロックにする。GitHub上では同じ見出し語のMarkdownを最新版へ上書きし、GitHubを現行版の正本とする。NotionからGitHub Pagesへの既存反映処理は変更しない。
+Notion同期では `prompts/notion_spec_v1.md` に従い、同じ `ALL=見出し語` のページがあれば本文を更新し、なければ `タグ=英単語`、`Status=未着手` の新規ページを作成する。同じALL値が複数ある場合は、Notion APIの `last_edited_time` が最新のページだけを更新し、ほかの重複ページは変更しない。見出しラベルと本文を分け、コロケーション・類義語・反意語は1エントリ1ブロックにする。GitHub上では同じ見出し語のMarkdownを最新版へ上書きし、GitHubを現行版の正本とする。NotionからGitHub Pagesへの既存反映処理は変更しない。
 
 Excelおよび索引エクスポートは標準フローでは実行しない。既存スクリプトは過去の手動運用との互換性のためだけに残している。
 
@@ -53,7 +53,7 @@ GitHubリポジトリでは次を設定する。
 - `queue/words.csv`: 作成予定語、進捗、出力先ファイルを管理するキュー。
 - `entries/`: 1語1Markdownの記事本文。
 - `scripts/`: slug作成、形式検査、索引出力、結合出力、進捗表示のスクリプト。
-- `scripts/import_to_notion.py`: 完成記事を `prompts/notion_spec_v1.md` の階層・ブロック構造でNotionの新規ページへ追加する。`--entry` で単一または複数記事を直接指定でき、同じ見出し語の既存ページは変更しない。
+- `scripts/import_to_notion.py`: 完成記事を `prompts/notion_spec_v1.md` の階層・ブロック構造でNotionへ同期する。`--entry` で単一または複数記事を直接指定でき、同じ見出し語が複数ある場合は最終更新日時が最新のページだけを更新する。
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `exports/`: CSV、Excel、結合Markdownなどの出力先。
 - `logs/`: 作業ログ。

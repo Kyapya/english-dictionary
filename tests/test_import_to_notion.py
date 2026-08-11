@@ -172,7 +172,9 @@ class ImportToNotionTests(unittest.TestCase):
         self.assertEqual(mutations[1][2], {"in_trash": True})
         self.assertFalse(any(path.startswith("/pages/") for _, path, _ in calls))
 
-    def test_refuses_to_update_when_multiple_pages_have_the_same_title(self) -> None:
+    def test_updates_most_recently_edited_duplicate_page(self) -> None:
+        calls: list[tuple[str, str, object]] = []
+
         def fake_request(
             method: str,
             path: str,
@@ -180,21 +182,61 @@ class ImportToNotionTests(unittest.TestCase):
             notion_version: str,
             payload: object = None,
         ) -> dict[str, object]:
-            return {
-                "results": [{"id": "duplicate-1"}, {"id": "duplicate-2"}],
-                "has_more": False,
-            }
+            calls.append((method, path, payload))
+            if method == "POST" and path.endswith("/query"):
+                return {
+                    "results": [
+                        {
+                            "id": "duplicate-newest",
+                            "created_time": "2026-08-01T00:00:00.000Z",
+                            "last_edited_time": "2026-08-11T12:00:00.000Z",
+                        },
+                        {
+                            "id": "duplicate-old",
+                            "created_time": "2026-08-10T00:00:00.000Z",
+                            "last_edited_time": "2026-08-10T12:00:00.000Z",
+                        },
+                    ],
+                    "has_more": False,
+                }
+            if method == "GET":
+                return {"results": [{"id": "old-block"}], "has_more": False}
+            return {}
 
+        new_blocks = [{"object": "block", "type": "paragraph"}]
         with (
             patch.object(import_to_notion, "notion_request", side_effect=fake_request),
             patch.object(import_to_notion, "read_entry_body", return_value="new body"),
-            patch.object(import_to_notion, "markdown_to_blocks", return_value=[]),
-            self.assertRaises(NotionApiError),
+            patch.object(import_to_notion, "markdown_to_blocks", return_value=new_blocks),
+            patch.object(import_to_notion.time, "sleep"),
         ):
-            import_entry(
+            result = import_entry(
                 self.notion_args("update"),
                 "token",
                 {"headword": "approximately", "file": "unused.md"},
+            )
+
+        self.assertIn("page_id=duplicate-newest", result)
+        self.assertIn("matched_pages=2", result)
+        self.assertIn("selected_last_edited_time=2026-08-11T12:00:00.000Z", result)
+        self.assertTrue(
+            any(
+                method == "GET" and path.startswith("/blocks/duplicate-newest/children")
+                for method, path, _ in calls
+            )
+        )
+        self.assertFalse(any("duplicate-old" in path for _, path, _ in calls))
+
+    def test_duplicate_page_selection_requires_last_edited_time(self) -> None:
+        with self.assertRaisesRegex(NotionApiError, "missing last_edited_time"):
+            import_to_notion.select_latest_edited_page(
+                [
+                    {
+                        "id": "complete",
+                        "last_edited_time": "2026-08-11T12:00:00.000Z",
+                    },
+                    {"id": "incomplete"},
+                ]
             )
 
     def test_create_policy_always_creates_without_querying_existing_titles(self) -> None:

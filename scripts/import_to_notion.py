@@ -420,6 +420,26 @@ def find_pages(
             raise NotionApiError("Notion query indicated more pages without a cursor.")
 
 
+def select_latest_edited_page(pages: list[dict[str, Any]]) -> dict[str, Any]:
+    """Select the most recently edited page, with deterministic tie-breaking."""
+    candidates: list[tuple[str, str, str, dict[str, Any]]] = []
+    for page in pages:
+        page_id = page.get("id")
+        last_edited_time = page.get("last_edited_time")
+        if not isinstance(page_id, str) or not page_id:
+            raise NotionApiError("Existing Notion page is missing its id.")
+        if not isinstance(last_edited_time, str) or not last_edited_time:
+            raise NotionApiError(
+                f"Existing Notion page {page_id} is missing last_edited_time."
+            )
+        created_time = page.get("created_time")
+        created_key = created_time if isinstance(created_time, str) else ""
+        candidates.append((last_edited_time, created_key, page_id, page))
+    if not candidates:
+        raise NotionApiError("Cannot select the latest page from an empty result.")
+    return max(candidates, key=lambda candidate: candidate[:3])[3]
+
+
 def page_parent(parent_type: str, parent_id: str) -> dict[str, Any]:
     if parent_type == "data_source":
         return {"data_source_id": parent_id}
@@ -531,17 +551,21 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
         args.title_property,
         headword,
     )
-    if len(pages) > 1:
-        raise NotionApiError(
-            f"Found {len(pages)} pages whose {args.title_property} equals {headword!r}; "
-            "refusing to choose one automatically."
-        )
     if pages:
         if policy == "skip":
             return f"SKIP {headword}: page already exists"
         if policy == "error":
             raise NotionApiError(f"Page already exists for {headword!r}.")
-        page_id = pages[0].get("id")
+        selection_details = ""
+        if len(pages) > 1:
+            selected_page = select_latest_edited_page(pages)
+            selection_details = (
+                f", matched_pages={len(pages)}, "
+                f"selected_last_edited_time={selected_page['last_edited_time']}"
+            )
+        else:
+            selected_page = pages[0]
+        page_id = selected_page.get("id")
         if not page_id:
             raise NotionApiError("Existing Notion page is missing its id.")
         old_blocks = list_child_blocks(args, token, page_id)
@@ -550,7 +574,7 @@ def import_entry(args: argparse.Namespace, token: str, row: dict[str, str]) -> s
         trash_blocks(args, token, old_blocks)
         return (
             f"UPDATE {headword}: replaced {len(old_blocks)} blocks with "
-            f"{len(blocks)} blocks, page_id={page_id}"
+            f"{len(blocks)} blocks, page_id={page_id}{selection_details}"
         )
     page_id = create_page(args, token, headword)
     time.sleep(args.sleep)
