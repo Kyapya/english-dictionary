@@ -83,5 +83,6 @@ jobs:
             "${args[@]}" \
             --parent-id "$NOTION_DATA_SOURCE_ID" \
             --existing-policy update \
-            --status-value "未着手" \
+            --status-value "進行中" \
+            --complete-status-value "完了" \
             --tag-value "英単語"

@@ -37,7 +37,8 @@ class ImportToNotionTests(unittest.TestCase):
             parent_id="data-source-id",
             title_property="ALL",
             status_property="Status",
-            status_value="未着手",
+            status_value="進行中",
+            complete_status_value="完了",
             tag_property="タグ",
             tag_value="英単語",
             note_property="",
@@ -131,8 +132,9 @@ class ImportToNotionTests(unittest.TestCase):
         self.assertNotIn("AI", serialized)
         self.assertNotIn("OpenAI", serialized)
 
-    def test_updates_one_existing_page_body_without_touching_properties(self) -> None:
+    def test_updates_one_existing_page_between_in_progress_and_complete(self) -> None:
         calls: list[tuple[str, str, object]] = []
+        child_reads = 0
 
         def fake_request(
             method: str,
@@ -141,10 +143,14 @@ class ImportToNotionTests(unittest.TestCase):
             notion_version: str,
             payload: object = None,
         ) -> dict[str, object]:
+            nonlocal child_reads
             calls.append((method, path, payload))
             if method == "POST" and path.endswith("/query"):
                 return {"results": [{"id": "existing-page"}], "has_more": False}
             if method == "GET":
+                child_reads += 1
+                if child_reads > 1:
+                    return {"results": [{"id": "new-block"}], "has_more": False}
                 return {
                     "results": [{"id": "old-1"}, {"id": "old-2"}],
                     "has_more": False,
@@ -166,11 +172,64 @@ class ImportToNotionTests(unittest.TestCase):
 
         self.assertIn("UPDATE approximately", result)
         mutations = [(method, path, payload) for method, path, payload in calls if method == "PATCH"]
-        self.assertEqual(mutations[0][1], "/blocks/existing-page/children")
-        self.assertEqual(mutations[1][1], "/blocks/old-1")
-        self.assertEqual(mutations[2][1], "/blocks/old-2")
-        self.assertEqual(mutations[1][2], {"in_trash": True})
-        self.assertFalse(any(path.startswith("/pages/") for _, path, _ in calls))
+        self.assertEqual(mutations[0][1], "/pages/existing-page")
+        self.assertEqual(
+            mutations[0][2],
+            {"properties": {"Status": {"status": {"name": "進行中"}}}},
+        )
+        self.assertEqual(mutations[1][1], "/blocks/existing-page/children")
+        self.assertEqual(mutations[2][1], "/blocks/old-1")
+        self.assertEqual(mutations[3][1], "/blocks/old-2")
+        self.assertEqual(mutations[2][2], {"in_trash": True})
+        self.assertEqual(mutations[4][1], "/pages/existing-page")
+        self.assertEqual(
+            mutations[4][2],
+            {"properties": {"Status": {"status": {"name": "完了"}}}},
+        )
+        self.assertEqual(child_reads, 2)
+
+    def test_failed_update_never_marks_page_complete(self) -> None:
+        calls: list[tuple[str, str, object]] = []
+
+        def fake_request(
+            method: str,
+            path: str,
+            token: str,
+            notion_version: str,
+            payload: object = None,
+        ) -> dict[str, object]:
+            calls.append((method, path, payload))
+            if method == "POST" and path.endswith("/query"):
+                return {"results": [{"id": "existing-page"}], "has_more": False}
+            if method == "GET":
+                return {"results": [{"id": "old-block"}], "has_more": False}
+            if method == "PATCH" and path == "/blocks/old-block":
+                raise NotionApiError("simulated replacement failure")
+            return {}
+
+        with (
+            patch.object(import_to_notion, "notion_request", side_effect=fake_request),
+            patch.object(import_to_notion, "read_entry_body", return_value="new body"),
+            patch.object(
+                import_to_notion,
+                "markdown_to_blocks",
+                return_value=[{"object": "block", "type": "paragraph"}],
+            ),
+            patch.object(import_to_notion.time, "sleep"),
+            self.assertRaisesRegex(NotionApiError, "simulated replacement failure"),
+        ):
+            import_entry(
+                self.notion_args("update"),
+                "token",
+                {"headword": "approximately", "file": "unused.md"},
+            )
+
+        status_names = [
+            payload["properties"]["Status"]["status"]["name"]
+            for method, path, payload in calls
+            if method == "PATCH" and path == "/pages/existing-page"
+        ]
+        self.assertEqual(status_names, ["進行中"])
 
     def test_updates_most_recently_edited_duplicate_page(self) -> None:
         calls: list[tuple[str, str, object]] = []
@@ -252,6 +311,8 @@ class ImportToNotionTests(unittest.TestCase):
             calls.append((method, path, payload))
             if method == "POST" and path == "/pages":
                 return {"id": "new-page"}
+            if method == "GET":
+                return {"results": [{"id": "new-block"}], "has_more": False}
             return {}
 
         new_blocks = [{"object": "block", "type": "paragraph"}]
@@ -269,10 +330,19 @@ class ImportToNotionTests(unittest.TestCase):
 
         self.assertIn("CREATE approximately", result)
         create_payload = next(payload for method, path, payload in calls if path == "/pages")
-        self.assertEqual(create_payload["properties"]["Status"], {"status": {"name": "未着手"}})
+        self.assertEqual(create_payload["properties"]["Status"], {"status": {"name": "進行中"}})
         self.assertFalse(any(path.endswith("/query") for _, path, _ in calls))
         self.assertTrue(
             any(path == "/blocks/new-page/children" for _, path, _ in calls)
+        )
+        self.assertTrue(
+            any(
+                method == "PATCH"
+                and path == "/pages/new-page"
+                and payload
+                == {"properties": {"Status": {"status": {"name": "完了"}}}}
+                for method, path, payload in calls
+            )
         )
 
     def test_skip_policy_keeps_an_existing_page_unchanged(self) -> None:
