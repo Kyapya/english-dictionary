@@ -55,8 +55,11 @@ tags: []
 1. 【動詞・他動詞】人・動物を見捨てる、遺棄する
 
 【日本語訳・定義】本来保護・世話・責任を負う人や動物を、戻るつもりなく置き去りにし、必要な支援から切り離す。単なる一時的な別れより強く、責任放棄・冷酷さの含みが出やすい。  
+
 【頻度】〈8/10〉  
+
 【レジスター/領域】現代一般。児童、動物、家族、被扶養者の文脈では非難を伴いやすい。  
+
 【文法パターン】abandon 〈人・動物〉／be abandoned by 〈人・組織〉／abandon 〈人・動物〉 to 〈care・fate〉。最後の形は、保護者がいない状態に委ねる構文。  
 
 【コロケーション】
@@ -180,8 +183,11 @@ tags: []
 2. 【動詞・他動詞】場所・物・乗り物を離れて放棄する
 
 【日本語訳・定義】場所、建物、土地、物、乗り物などを、戻らないつもりで、または危険・不可能な状況のために離れる。人を保護なしに捨てる語義1より、出発・撤退という行為に焦点がある。  
+
 【頻度】〈8/10〉  
+
 【レジスター/領域】現代一般。災害、戦争、事故、都市・産業の衰退、軍事行動などで広く使う。  
+
 【文法パターン】abandon 〈場所・物・乗り物〉／be forced to abandon 〈O〉／abandon ship／abandon 〈post・position〉。abandon ship は緊急時に船を離れる定型句で、命令文にもなる。  
 
 【コロケーション】
@@ -305,8 +311,11 @@ tags: []
 3. 【動詞・他動詞】活動・計画・試みを途中で断念する
 
 【日本語訳・定義】始めた活動、計画、努力、試みなどを、完了前に続けるのをやめる。資金不足、失敗の見込み、危険、悪天候などが理由になりやすいが、必ずしも感情的な「諦め」を意味しない。  
+
 【頻度】〈8/10〉  
+
 【レジスター/領域】現代一般。ニュース、ビジネス、研究、行政、日常会話で広く使う。中立からやや正式。  
+
 【文法パターン】abandon 〈project・plan・activity〉／abandon an attempt to 〈do〉／abandon the search for 〈someone・something〉／abandon work on 〈project〉／be abandoned。後続の to は attempt・plan などを介して使うのが自然。  
 
 【コロケーション】
@@ -449,8 +458,11 @@ tags: []
 4. 【動詞・他動詞】支持・信念・方針・希望を捨てる
 
 【日本語訳・定義】人・組織への支持、考え・信念・原則、政策・方針、希望などを、もはや維持・信頼・支持しない。物理的に立ち去る語義1・2ではなく、精神的・政治的・社会的な関与を撤回する用法である。  
+
 【頻度】〈7/10〉  
+
 【レジスター/領域】現代一般。政治、評論、報道、学術、ビジネスで多く、日常語でも使う。  
+
 【文法パターン】abandon 〈person・cause〉／abandon 〈belief・principle・policy〉／abandon hope／abandon hope of 〈-ing〉／abandon support for 〈person・cause〉。  
 
 【コロケーション】
@@ -581,8 +593,11 @@ tags: []
 5. 【動詞・他動詞】対象を支配・保護のない状態に委ねる
 
 【日本語訳・定義】場所・財産・制度などを自分の支配や保護から外し、敵、自然、腐敗、運命などの力に任せる。単に立ち去る語義2と違い、to 以下の相手・状態へ対象を明示的に引き渡す、または放置する構文である。  
+
 【頻度】〈4/10〉  
+
 【レジスター/領域】中頻度。軍事、政治、文学、報道で見られる。日常会話では leave 〈O〉 to 〈someone・fate〉 の方が自然なことも多い。  
+
 【文法パターン】abandon 〈city・territory・property〉 to 〈enemy・invaders・decay・nature〉／be abandoned to 〈fate・decay〉／abandon 〈O〉 to 〈chance〉。  
 
 【コロケーション】
@@ -696,8 +711,11 @@ tags: []
 6. 【動詞・他動詞・正式／法律】権利・請求・所有・地位を放棄する
 
 【日本語訳・定義】権利、所有権、利益、請求、申請、地位などについて、今後それを主張・保持・行使する関与を正式に手放す。物理的に捨てる意味ではなく、法的・制度的な権利関係を終わらせる用法である。  
+
 【頻度】〈3/10〉  
+
 【レジスター/領域】正式・法律・ビジネス。一般会話では give up や withdraw が自然な場合もある。  
+
 【文法パターン】abandon 〈claim・right・interest〉／abandon all claims to 〈property・compensation〉／abandon 〈property〉／abandon a patent application／abandon office。  
 
 【コロケーション】
@@ -811,8 +829,11 @@ tags: []
 7. 【動詞・他動詞・保険】保険目的物を保険者に委付する
 
 【日本語訳・定義】一部損失・損傷を受けた保険目的物を保険者や引受人に委ね、その代わりに保険上の全損請求を行う専門用法。通常の「捨てる」ではなく、保険契約・海上保険などの制度と条件に基づく手続を表す。  
+
 【頻度】〈2/10〉  
+
 【レジスター/領域】保険・法律。特に海上保険・保険金請求の文脈で使う。  
+
 【文法パターン】abandon insured property to 〈the insurer・underwriter〉／abandon 〈a damaged vessel・cargo〉／abandon 〈property〉 and claim a total loss。  
 
 【コロケーション】
@@ -870,8 +891,11 @@ tags: []
 8. 【動詞・再帰表現・文学的】感情・欲望などに身を任せる
 
 【日本語訳・定義】主語が自分自身を感情、欲望、快楽、生活様式などの影響へ完全に委ね、他のことを考えられないほど深くふける。自制を失う否定的な場合だけでなく、音楽や喜びに没頭する肯定的な場合もある。  
+
 【頻度】〈3/10〉  
+
 【レジスター/領域】文学的・やや古風。ただし、abandon oneself to emotion・despair・pleasure などの定型構文は現代でも理解される。  
+
 【文法パターン】abandon oneself to 〈feeling・emotion・desire・pleasure〉／abandon oneself completely to 〈activity・way of life〉。oneself は主語に合わせて変化し、to は前置詞。  
 
 【コロケーション】
@@ -978,8 +1002,11 @@ tags: []
 9. 【名詞・不可算・主にwith abandon】抑制のない奔放さ、思い切り
 
 【日本語訳・定義】自制、慣習、心配などから自由に、行動や感情を強く表すこと。文脈により、喜び・熱中・活気という肯定的な意味にも、無謀さ・浪費・無責任という否定的な意味にもなる。多くは with abandon の形で使う。  
+
 【頻度】〈6/10〉  
+
 【レジスター/領域】文学的・書き言葉寄り。with wild abandon、with reckless abandon は現代の一般文でも比較的よく使う。  
+
 【文法パターン】with abandon／with wild・gay・reckless abandon／do something with abandon。通常は不可算で、一般的な固定句では a/an を付けない。  
 
 【コロケーション】
@@ -1091,8 +1118,11 @@ tags: []
 10. 【形容詞・過去分詞】見捨てられた、放棄された、使われていない
 
 【日本語訳・定義】abandon の過去分詞から発達した形容詞。人・動物なら保護や支援を失った状態、場所・物なら所有者や利用者が去り、使われず荒れた状態、計画・希望なら採用・継続されなくなった状態を表す。  
+
 【頻度】〈7/10〉  
+
 【レジスター/領域】現代一般。物理的な遺棄、施設の未使用、計画の撤回、支援を失った心理状態に使う。  
+
 【文法パターン】an abandoned 〈person・animal・place・vehicle・project〉／be found・left abandoned／remain abandoned／feel abandoned by 〈person・institution〉。限定用法と叙述用法の両方がある。  
 
 【コロケーション】
@@ -1223,8 +1253,11 @@ tags: []
 11. 【形容詞・文学的】奔放な、放埒な
 
 【日本語訳・定義】人やその行動が、社会的な規範・自制・節度に従わず、荒々しく自由に振る舞うさま。しばしば非難を含む文学的・古風な用法で、場所や物が「放棄された」という語義10とは別の形容詞義である。  
+
 【頻度】〈2/10〉  
+
 【レジスター/領域】文学的・古風。現代の一般文では wild、unrestrained、reckless などが普通である。  
+
 【文法パターン】an abandoned 〈person・life〉／abandoned 〈behavior・laughter・revelry〉／lead an abandoned life／become・grow abandoned。人や行動の性質に使い、廃屋・廃車には通常語義10を使う。  
 
 【コロケーション】
