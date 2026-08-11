@@ -495,7 +495,7 @@ tags: []
 例: The general abandoned his allegiance to the old regime.  
 訳: その将軍は旧体制への忠誠を捨てた。  
 
-【語法・注意】abandon hope of 〈-ing〉 の of は前置詞なので、後ろは名詞または動名詞になる。abandon belief in 〈something〉 の in も固定的な前置詞である。人を abandon する場合、保護・世話の放棄なら語義1、支持・援助の撤回ならこの語義4に近い。  
+【語法・注意】abandon hope of 〈-ing〉 の of は前置詞なので、後ろは名詞または動名詞になる。abandon belief in something の in も固定的な前置詞である。人を abandon する場合、保護・世話の放棄なら語義1、支持・援助の撤回ならこの語義4に近い。  
 
 【類義語】
 
@@ -980,7 +980,7 @@ tags: []
 【日本語訳・定義】自制、慣習、心配などから自由に、行動や感情を強く表すこと。文脈により、喜び・熱中・活気という肯定的な意味にも、無謀さ・浪費・無責任という否定的な意味にもなる。多くは with abandon の形で使う。  
 【頻度】〈6/10〉  
 【レジスター/領域】文学的・書き言葉寄り。with wild abandon、with reckless abandon は現代の一般文でも比較的よく使う。  
-【文法パターン】with abandon／with wild・gay・reckless abandon／do 〈something〉 with abandon。通常は不可算で、一般的な固定句では a/an を付けない。  
+【文法パターン】with abandon／with wild・gay・reckless abandon／do something with abandon。通常は不可算で、一般的な固定句では a/an を付けない。  
 
 【コロケーション】
 
