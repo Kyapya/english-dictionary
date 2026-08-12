@@ -83,7 +83,7 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("文脈を継承しない独立実行", agents)
         self.assertIn("front matterを除いた通常チェック後の最新版本文", check)
         self.assertIn("コールドレビュー担当には渡さない", readme)
-        self.assertIn("保留が0件", check)
+        self.assertIn("`保留`が0件", check)
 
     def test_current_specs_are_standalone(self) -> None:
         current_files = (
