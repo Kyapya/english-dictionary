@@ -12,149 +12,137 @@ tags: []
 
 ＃発音記号
 
-米: /əˈprɑːksəmətli/｜英: /əˈprɒksɪmətli/  
-・音節は米 ə-ˈprɑːk-sə-mət-li、英 ə-ˈprɒk-sɪ-mət-li と分けられる。主強勢はどちらも第2音節にあり、米英の差は第2音節の母音（米 /ɑː/・英 /ɒ/）と第3音節の母音（米 /ə/・英 /ɪ/）である。語頭の /ə/ と語末の /li/ は弱く発音される。  
-・語末の -ly は /li/ と発音される。approximate は、形容詞では /əˈprɑːksəmət/、動詞では /əˈprɑːksəmeɪt/ と語末が異なる。approximately は副詞であり、approximate（動詞）のように語末を /eɪt/ と発音しない。  
+米: /əˈprɑːksəmətli/｜英: /əˈprɒksɪmətli/。主強勢は第2音節にある。音節に分けると、米音は ə-ˈprɑːk-sə-mət-li、英音は ə-ˈprɒk-sɪ-mət-li となる。  
+米英で異なるのは、第2音節の母音が米 /ɑː/・英 /ɒ/ であることと、第3音節の母音が米 /ə/・英 /ɪ/ であることの2点である。第3音節の差を落として「主強勢の母音だけが違う」と説明しない。  
 
 ＃語源
 
-approximately は approximate「おおよその、近似の」に副詞接尾辞 -ly が付いた語である。approximate はラテン語 approximare「近づく」に由来し、ad-「〜へ」と proximus「最も近い」に関係する。厳密な値へ近づいているが一致していない、という意味核が現在の「およそ・近似的に」につながる。  
-・approximation（名詞）— 「概算、近似、近似値」。数値や計算結果だけでなく、完全な一致に近づける行為・結果にも使う。  
-・proximity（名詞）— 「近接、近いこと」。空間・時間・関係の近さを表す。  
-・proximate（形容詞）— 「最も近い、直接の」。proximate cause（近因）のような専門的な結合で使われる。  
+approximately は approximate に副詞語尾 -ly が付いた語で、approximate はラテン語 approximātus「近づけられた」に由来する。proximus「最も近い」に ad-「〜へ」に当たる要素が加わり、「近くへ寄せる」という発想を持つ。  
+approximate は「厳密には一致しないが近い」、approximately はその近さを数値・時刻・数量などについて示す。approximation「近似、概算」、proximity「近接」も同じ語源の学習語である。  
 
 ＃語形成
 
-・approximate（形容詞）— 「おおよその、近似の」。approximately と違い、名詞を修飾する。  
-・approximate（動詞）— 「〜に近い、〜を概算する・近似する」。形容詞用法とは発音と構文が異なる。  
-・approximation（名詞）— 「概算、近似、近似値」。approximate から派生した名詞である。  
-・approx.（略記）— approximate または approximately の書き言葉の略。表、図、注記などで使うが、本文では approximately と綴る方が明確である。  
+・approximate：形容詞「おおよその、近似した」と動詞「近似する、概算する」。形容詞は /əˈprɑːksəmət/（米）・/əˈprɒksɪmət/（英）、動詞は /əˈprɑːksəmeɪt/（米）・/əˈprɒksɪmeɪt/（英）で、動詞の語尾は /eɪt/ になる。  
+・approximation：名詞「近似、概算、近似値」。  
+・proximity：名詞「近接、近いこと」。綴りは異なるが、近さに関わる同語源語である。  
 
 ＃意味・用法・関連表現
 
 1. 【副詞】約、およそ、ほぼ、近似的に
 
-【日本語訳・定義】数、数量、金額、時刻、年代、期間、距離、寸法、割合、倍率、測定値、計算結果などが、示した値に近いものの厳密には一致しないことを表す。値は丸めたものや推定値であることが多く、示した値より大きい場合にも小さい場合にも使える。数値以外では、二つの値・大きさ・状態などが厳密には同じでないが近いことや、動作が対象を近似的に表すことも示す。  
+【日本語訳・定義】数値、数量、時刻、距離、割合、倍率などが正確な値ではなく、基準値の近くにあることを示す。厳密な測定・計算結果ではないことを明示する語で、基準値より必ず小さいことや大きいことは含まない。数値以外でも approximately equal、approximately the same のように、完全一致ではない近似的な対応を表せる。  
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】標準的な副詞だが、about や around よりやや文章語的である。報道、ビジネス、行政、学術、技術説明、統計・報告書で特によく使われる。日常会話では about や around の方が短く自然なことが多い。  
+【レジスター/領域】標準的で中立。説明文、ニュース、統計、技術・学術文書、ビジネスで特によく使う。会話では about、around、roughly のほうが自然なことが多い。  
 
-【文法パターン】approximately + 〈数値・数量〉＝示した数・量が概数である／V + approximately + 〈数値・数量〉＝費用・時間・重量などを概算で示す／at approximately 〈時刻・日付・年代〉＝時点をおおよそ示す／approximately + 〈分数・割合・倍率〉＝割合・比率・倍率を概算で示す／approximately equal/equivalent to 〈値・対象〉＝厳密ではないが近似的に等しい／approximately the same as 〈対象〉＝厳密には同じでないがほぼ同じである／approximately represent/describe/model/reproduce + 〈O〉＝対象・関係・結果を近似的に表現する  
+【文法パターン】approximately 〈数値・数量・時間〉／at approximately 〈時刻〉／approximately 〈倍数・割合〉／be approximately 〈数値〉／approximately equal to 〈値〉／approximately the same as 〈対象〉／approximately as many・much・long as 〈比較対象〉。通常は近似させる数値の直前に置く。  
 
 【コロケーション】
 
-・approximately + 〈数値・数量〉  
-用途: 人数、個数、金額、重量などを厳密値ではなく概数として示す。  
-例: Approximately 1,200 people attended the outdoor concert.  
-訳: その野外コンサートには約1,200人が参加した。  
+・approximately 100 people  
+用途: 人数を正確でない概数として示す。  
+例: Approximately 100 people attended the public meeting.  
+訳: 約100人がその公開会議に出席した。  
 
-・at approximately 〈時刻・年代〉  
-用途: 出来事の時刻や年代を、示した時点の前後を含む概算として示す。  
-例: The meeting began at approximately 9:00 a.m.  
-訳: 会議は午前9時ごろに始まった。  
+・at approximately 6 p.m.  
+用途: 出来事のおおよその時刻を示す。  
+例: The train arrived at approximately 6 p.m.  
+訳: その列車は午後6時ごろに到着した。  
 
-・approximately + 〈測定値〉 + long/wide/high  
-用途: 長さ、幅、高さなどの寸法を概数として示す。  
-例: The bridge is approximately two kilometers long.  
-訳: その橋は全長約2キロメートルである。  
+・approximately 20 percent  
+用途: 割合・比率のおおよその値を示す。  
+例: Approximately 20 percent of the budget is spent on training.  
+訳: 予算のおよそ20％が研修に使われている。  
 
-・approximately + 〈割合・分数〉  
-用途: 集団に占める割合や全体の一部を、丸めた値または推定値として示す。  
-例: Approximately one-third of the applicants were offered interviews.  
-訳: 応募者のおよそ3分の1に面接の案内が送られた。  
+・approximately twice as large/long  
+用途: 大きさ・長さなどが約2倍であることを示す。  
+例: The new battery is approximately twice as large as the old one.  
+訳: 新しいバッテリーは古いものの約2倍の大きさだ。  
 
-・approximately twice/three times as 〈形容詞・副詞〉  
-用途: 大きさ、長さ、頻度、時間などが何倍程度であるかを示す。  
-例: The new battery lasts approximately twice as long as the old one.  
-訳: 新しい電池は古いものの約2倍長く持つ。  
-
-・approximately equal/equivalent to 〈値・対象〉  
-用途: 数値、換算値、効果などが厳密には同一でないものの、実用上近いことを示す。  
-例: The two estimates are approximately equal in value.  
-訳: その二つの見積もりは金額的にほぼ等しい。  
+・be approximately equal to 〈値〉  
+用途: 数値が厳密には同じでないが、近似的に等しいことを示す。  
+例: One mile is approximately equal to 1.6 kilometers.  
+訳: 1マイルは約1.6キロメートルに等しい。  
 
 ・approximately the same as 〈対象〉  
-用途: 数量、程度、規模、状態などがほぼ同じであることを示す。  
-例: The total cost was approximately the same as last year's.  
-訳: 総費用は昨年のものとほぼ同じだった。  
+用途: 完全一致ではないが、ほぼ同じだと述べる。  
+例: The repair cost was approximately the same as the original estimate.  
+訳: 修理費は当初の見積もりとほぼ同じだった。  
 
-・approximately represent/describe/model + 〈O〉  
-用途: 科学・技術的な関係、形状、傾向、観測結果などを近似的に表現する。  
-例: This curve approximately represents the observed trend.  
-訳: この曲線は観測された傾向を近似的に表している。  
+・approximately as many/much as 〈比較対象〉  
+用途: 数量・量が比較対象とほぼ同じだと表す。  
+例: The second study included approximately as many participants as the first.  
+訳: 2つ目の研究には1つ目とほぼ同数の参加者が含まれていた。  
 
-【語法・注意】数値・数量を修飾する場合は通常その直前に置く。Approximately 200 guests attended. のように主語全体の前に置くことも、The trip takes approximately two hours. のように動詞の後ろの数量表現の前に置くこともできる。時刻を前置詞句で示す場合は at approximately 8:00 の語順が自然である。  
+・an approximately 〈数量〉-word statement  
+用途: 近似値を含む表現や記述を説明する。  
+例: The report gives an approximately 10 percent estimate of the reduction.  
+訳: その報告書は削減率をおよそ10％と見積もっている。  
 
-・approximately 100 は「100を中心とする近い値」であり、文脈によって100未満にも100超にもなり得る。nearly/almost 100 は、多くの文脈で「100にはまだ達していないが近い」という方向を含むため、完全な同義語ではない。  
-・許容されるずれの幅は語そのものでは決まらない。approximately 10 seconds と approximately 10 years では、場面、測定方法、求められる精度によって意味する範囲が変わる。科学・技術文書では、必要に応じて誤差範囲や有効数字も示す。  
-・approximately about 50、approximately around 50、roughly approximately 50 のように概算表現を重ねるのは通常避け、どれか一つを選ぶ。  
-・名詞を修飾する形容詞は approximate であり、副詞 approximately ではない。an approximate cost は正しいが、an approximately cost は誤りである。反対に「費用は約500ドルだ」は The cost is approximately $500. とする。  
-・approx. は主に表、図、注記、予定表などで使う略記で、通常は発音せず、正式な本文では approximately と綴る方が読み手に明確である。  
+・approximately 〈期間〉 later  
+用途: 経過時間をおおよそ示す。  
+例: The symptoms disappeared approximately two weeks later.  
+訳: 症状は約2週間後に消えた。  
+
+【語法・注意】approximately は通常、近似させる数値の前に置く。時刻では at approximately 7:30 のように前置詞句全体の中で使う。about・around より書き言葉・客観的な響きがあり、roughly は「大まかに」という粗さをやや強く示す。nearly・almost は「基準値に達していない」方向を含みやすいが、approximately は基準値の上下を中立に残す。approximately 100 は「100未満」とは限らず、100を中心とする概数である。  
 
 【類義語】
 
 ・about  
-定義: 数・量・時刻などが示した値の近くであることを表す。  
+定義: 数値・数量・時刻などのおよその値を示す。  
 頻度: 〈10/10〉  
-違い: approximately より会話的で短く、日常会話で最も自然な概算表現になりやすい。特別に厳密な文章語の響きを加えない。  
-例: The repair should take about an hour.  
-訳: 修理には1時間ほどかかるはずだ。  
+違い: 会話で最も普通で、approximately よりくだけている。approximately は報告・統計・説明で客観的に見せやすい。  
+例: About 50 students joined the workshop.  
+訳: 約50人の学生がその講習会に参加した。  
 
 ・around  
-定義: 数・量・時刻などがおおよそ示した値であることを表す。  
-頻度: 〈9/10〉  
-違い: 概数の意味では about に近く、approximately より会話的である。場所の「周囲に」など別の意味も多いため、数量以外では文脈に注意する。  
-例: We expect around thirty applications.  
-訳: 応募は30件ほどを見込んでいる。  
+定義: 数値・時刻・数量などの近くを示す。  
+頻度: 〈10/10〉  
+違い: about と同様に口語的で、時刻や概数に自然。approximately より柔らかい。  
+例: The package should arrive around noon.  
+訳: 荷物は正午ごろ届くはずだ。  
 
 ・roughly  
-定義: 細かな正確さを求めず、大まかに示すことを表す。  
+定義: 正確ではなく、大まかな数値・割合・対応を示す。  
 頻度: 〈8/10〉  
-違い: approximately より「粗い見積もり」や「大まかな近似」という含みが出やすい。数値以外にも形・位置・関係の大まかな一致に使える。  
-例: The renovation will cost roughly $20,000.  
-訳: 改修費は大まかに2万ドルほどになる。  
+違い: approximately より概算の粗さや細部を省いた感じが強い。  
+例: The project will cost roughly two million dollars.  
+訳: そのプロジェクトにはおよそ200万ドルかかる。  
 
 ・nearly  
-定義: ある数・量・状態に近いが、通常はまだその基準に達していないことを表す。  
+定義: 数値・程度が基準に非常に近いが、通常はまだ達していないことを示す。  
 頻度: 〈9/10〉  
-違い: approximately が基準値の上下どちらにも使えるのに対し、nearly は多くの文脈で基準値未満の方向を示す。  
-例: Nearly a hundred tickets had been sold by noon.  
-訳: 正午までに100枚近いチケットが売れていた。  
-
-・or so  
-定義: 直前の数・量に「そのくらい」を付け、多少の幅を持たせる表現である。  
-頻度: 〈8/10〉  
-違い: approximately と違って数量表現の後ろに置く口語的な表現であり、twenty minutes or so のような語順になる。  
-例: We waited for twenty minutes or so.  
-訳: 私たちは20分ほど待った。  
-
-・circa  
-定義: 特に日付・年代について「およそ、〜年ごろ」を表す。  
-頻度: 〈4/10〉  
-違い: 歴史、伝記、目録などの書き言葉で年代の前に置く。一般の数量や日常の時刻には通常 approximately や about を使う。  
-例: The building was completed circa 1750.  
-訳: その建物は1750年ごろに完成した。  
+違い: approximately と違い、「基準未満・未到達」の方向が出やすい。  
+例: The tank is nearly full.  
+訳: そのタンクはほぼ満杯だ。  
 
 ・more or less  
-定義: 厳密ではないが、数量・程度・状態などがだいたい当てはまることを表す。  
-頻度: 〈7/10〉  
-違い: 数値の概算だけでなく The work is more or less complete. のように状態の「ほぼ」を表せる。approximately は測定値や数量との結び付きがより強い。  
-例: The two routes are more or less the same length.  
-訳: その二つの経路はだいたい同じ長さである。  
+定義: ほぼ、だいたい、程度の差はあるが。  
+頻度: 〈8/10〉  
+違い: approximately より口語的で、数量だけでなく状態や評価にも使える。厳密な数値の報告には approximately が自然。  
+例: The two plans are more or less the same.  
+訳: その2つの計画はだいたい同じだ。  
 
 【反意語】
 
 ・exactly  
-定義: 数、時刻、量、位置などが示した値と完全に一致することを表す。  
+定義: 数値・時刻・内容などが完全に正確で、一致していることを示す。  
 頻度: 〈8/10〉  
-違い: 概算ではなく厳密な一致を示すため、正確さの軸で approximately と直接対立する。  
-例: The package weighs exactly two kilograms.  
-訳: その荷物の重さはちょうど2キログラムである。  
+違い: approximately が誤差や近似を残すのに対し、exactly は誤差のない一致を示す。  
+例: The result was exactly 25.  
+訳: 結果はちょうど25だった。  
 
 ・precisely  
-定義: 誤差や曖昧さなく、厳密かつ正確に行うことを表す。  
+定義: 厳密に、正確に、細部まで一致して。  
+頻度: 〈7/10〉  
+違い: exactly より硬く、測定・定義・説明の精密さを強調しやすい。  
+例: The device records precisely 60 seconds of data.  
+訳: その装置は正確に60秒分のデータを記録する。  
+
+・accurately  
+定義: 事実・数値・状態を誤りなく正確に。  
 頻度: 〈8/10〉  
-違い: exactly と同じく近似の反対側にあるが、正確さ・精密さをやや改まって強調する。  
-例: The sensor records precisely when the temperature changes.  
-訳: そのセンサーは温度が変化した時点を正確に記録する。  
+違い: approximately が近似値を示す副詞なのに対し、accurately は測定・記述が実際の値に忠実であることを示す。  
+例: The instrument measures temperature accurately.  
+訳: その機器は温度を正確に測定する。  
