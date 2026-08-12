@@ -495,9 +495,9 @@ ChatGPT固有の会話分類、チャットの分割応答、直前応答の参�
 - 修正後は `updated_at` を更新し、再度 `scripts/validate_entry.py` を実行する。
 - 通常チェックが完了し、主要項目の収録先と品詞整合を説明できる場合も、この時点では `status: checked`、`checked: true` にしない。
 - 通常チェック後は `prompts/check_spec_v5.md` の必須コールドレビューを文脈非継承の独立実行で行い、返された問題候補を判定して必要な修正を反映する。
-- コールドレビューが問題候補を1件以上返した場合は、採用が0件でも最新版全文を再検査する。問題候補が0件の場合は全文再検査を省略し、logsに「コールドレビューでは問題候補なし」と記録する。
+- コールドレビューの指摘について、採用が1件以上の場合は、修正版の最新版全文を再検査する。採用が0件の場合は全文再検査を省略する。問題候補も0件ならlogsに「コールドレビューでは問題候補なし」、問題候補はあるが採用0件なら「コールドレビューの採用0件につき全文再検査省略」と記録する。保留があれば従来どおり `needs_review` とする。
 - 内容確認または保留が残る場合は `status: needs_review`、`checked: false` とし、理由をqueueのnotesとlogsに記録する。
-- 必要な候補判定・修正・全文再検査を終えて保留が0件になった後、front matterとqueueをstatus `checked`、checked `true` に同期し、logsを更新する。その最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、全単体テストを実行し、すべて成功した場合だけchecked状態を確定する。失敗した場合は `needs_review`、`checked: false` に戻し、理由をqueueのnotesとlogsへ記録する。
+- 必要な候補判定・修正と、採用がある場合の全文再検査を終えて保留が0件になった後、front matterとqueueをstatus `checked`、checked `true` に同期し、logsを更新する。その最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、全単体テストを実行し、すべて成功した場合だけchecked状態を確定する。失敗した場合は `needs_review`、`checked: false` に戻し、理由をqueueのnotesとlogsへ記録する。
 - 通常チェックまたはコールドレビュー後の判定で本文修正を行った場合は修正概要をlogsに記録し、通常チェックで修正不要の場合も「通常チェックでは修正不要」と明記する。
 - `queue/words.csv`、日付付きの `logs/`、必要なエクスポートを更新する。
 
