@@ -30,7 +30,6 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 ・approximation（名詞）— 「概算、近似、近似値」。approximate から派生した名詞である。  
 ・approx.（略記）— approximate または approximately の書き言葉の略。表、図、注記などで使うが、本文では approximately と綴る方が明確である。  
 
-
 ＃意味・用法・関連表現
 
 1. 【副詞】約、およそ、ほぼ、近似的に
