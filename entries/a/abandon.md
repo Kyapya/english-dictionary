@@ -18,7 +18,7 @@ tags: []
 ＃語源
 
 中英語 abandonen、古フランス語 abandoner に由来する。古フランス語の a bandon は「誰かの支配・裁量の下へ」を表し、bandon は権限や支配を指した。そこから「自分の関与や支配を手放す」という意味が発達し、対象を見捨てる、場所や計画を放棄する、感情に身を任せるという現代の用法につながった。  
-語源上関連する学習語には abandonment（放棄・遺棄）と ban（禁止・命令）がある。bandon の「支配・裁量の下へ委ねる」という背景と、現代の「見捨てる」は意味の向きがそのまま一致するわけではない。  
+語源上関連する学習語には、派生語の abandonment（放棄・遺棄）と、同系統と説明されることがある ban（禁止・命令）がある。bandon の「支配・裁量の下へ委ねる」という背景と、現代の「見捨てる」は意味の向きがそのまま一致するわけではない。  
 
 ＃語形成
 
@@ -63,8 +63,8 @@ tags: []
 
 ・abandon a pet/animal  
 用途: ペット・動物を飼育責任から切り離して捨てる。  
-例: People who abandon a pet may face legal penalties.  
-訳: ペットを捨てる人は法的な罰を受けることがある。  
+例: In some jurisdictions, people who abandon a pet may face legal penalties.  
+訳: 法域によっては、ペットを捨てた人が法的な罰を受けることがある。  
 
 ・abandon one's family  
 用途: 家族を扶養・保護せずに見捨てる。  
@@ -225,7 +225,7 @@ tags: []
 
 3. 【動詞・他動詞】活動・計画・試みを途中で断念する
 
-【日本語訳・定義】始めた活動、計画、努力、試みなどを、完了前に続けるのをやめる。資金不足、失敗の見込み、危険、悪天候などが理由になりやすいが、本人の感情的な諦めを必ずしも意味しない。  
+【日本語訳・定義】活動、計画、努力、試み、キャリア、習慣などを、それ以上継続・実行するのをやめる。多くの場合、完了・実現前に見切りをつける含みがある。資金不足、失敗の見込み、危険、悪天候などが理由になりやすいが、本人の感情的な諦めを必ずしも意味しない。  
 
 【頻度】〈8/10〉  
 
@@ -343,7 +343,7 @@ tags: []
 訳: 彼女は成功はすぐに得なければならないという考えを捨てた。  
 
 ・abandon a policy/position  
-用途: 政策・立場を撤回して別の方針へ移る。  
+用途: 政策・立場を撤回・放棄する。  
 例: The government abandoned its earlier policy on fuel prices.  
 訳: 政府は燃料価格に関する以前の政策を撤回した。  
 
@@ -411,9 +411,9 @@ tags: []
 
 【日本語訳・定義】建物、土地、設備、制度などを積極的に管理・保護することをやめ、その対象を自然な劣化や混乱などに委ねる。単にその場を離れる語義2より、放置後の状態や成り行きへの委任に焦点がある。  
 
-【頻度】〈5/10〉  
+【頻度】〈4/10〉  
 
-【レジスター/領域】現代一般。土地管理、環境、都市、施設、組織の文脈で使う。比喩的に責任や問題を放置することにも使える。  
+【レジスター/領域】やや文語的・比喩的。土地管理、環境、都市、施設などの文脈で使う。責任や問題を成り行きに委ねる比喩にも使えるが、一般的な「放置」には neglect や leave がより自然なことが多い。  
 
 【文法パターン】abandon 〈property・land〉 to decay／abandon 〈property・land〉 to the elements／abandon 〈a building・field〉 to 〈nature・weeds〉。to 以下は放置後に委ねられる状態を表す。  
 
@@ -583,20 +583,20 @@ tags: []
 
 7. 【動詞・他動詞・保険／海事】保険目的物を保険者に委付する
 
-【日本語訳・定義】海上保険などで、全損に近い損害を受けた船舶・貨物などへの所有・関与を手放す意思を保険者に示し、保険金全額の支払いを求める。一般語義の「放棄」と語彙的な核は共有するが、保険者への通知・受諾や保険金請求という制度上の効果を伴う専門用法。  
+【日本語訳・定義】海上保険などで、推定全損（constructive total loss）など保険契約上の要件が満たされる場合に、船舶・貨物などを保険者に委付する意思を通知し、全損としての保険金請求につなげる。保険金の支払い、通知の要件、委付の受諾・効果は保険契約・法域によって異なる。一般語義の「放棄」と語彙的な核は共有するが、保険者への通知・受諾や保険金請求という制度上の効果を伴う専門用法。  
 
 【頻度】〈1/10〉  
 
 【レジスター/領域】保険・海事・法律。一般会話では使わず、保険契約や判例の文脈で現れる。  
 
-【文法パターン】abandon 〈ship・cargo・insured property〉 to the insurer／the insured abandons 〈O〉 after a constructive total loss。give notice of abandonment は関連する通知表現。  
+【文法パターン】abandon 〈ship・cargo・insured property〉 to the insurer／the insured abandons 〈O〉 after a constructive total loss／give notice of abandonment of 〈O〉 to the insurer。give notice of abandonment は関連する通知表現。  
 
 【コロケーション】
 
 ・abandon a vessel to the insurer  
 用途: 船舶を保険者に委付する。  
-例: The owner sought permission to abandon the vessel to the insurer.  
-訳: 所有者は船舶を保険者に委付する許可を求めた。  
+例: The insured abandoned the vessel to the insurer after it became a constructive total loss.  
+訳: 被保険者は、船舶が推定全損となった後、その船舶を保険者に委付した。  
 
 ・abandon cargo to the insurer  
 用途: 損傷貨物を保険者に委付する。  
@@ -613,7 +613,7 @@ tags: []
 例: The insurer refused to accept the abandonment.  
 訳: 保険者はその委付を受け入れることを拒んだ。  
 
-【語法・注意】この語義は保険制度に固有で、日常の「船を捨てる」意味では語義2を使う。保険契約・法域によって委付の要件や効果が異なるため、一般化して「abandon すれば全額補償される」と理解しない。  
+【語法・注意】この語義は保険制度に固有で、日常の「船を捨てる」意味では語義2を使う。委付通知を行っただけで、保険者の受諾や全額支払いが自動的に成立するわけではない。保険契約・法域によって委付の要件や効果が異なるため、一般化して「abandon すれば全額補償される」と理解しない。  
 
 【類義語】
 
@@ -857,8 +857,8 @@ tags: []
 
 ・an abandoned plan/project  
 用途: 採用・実行・継続をやめた計画・事業。  
-例: The report explains why the abandoned plan failed.  
-訳: その報告書は放棄された計画が失敗した理由を説明している。  
+例: The report explains why the plan was abandoned.  
+訳: その報告書はその計画が放棄された理由を説明している。  
 
 ・feel abandoned by 〈person・institution〉  
 用途: 人・組織から支援されず、見捨てられたと感じる。  
@@ -926,7 +926,7 @@ tags: []
 
 【頻度】〈2/10〉  
 
-【レジスター/領域】文学的・古風。現代の一般文では wild、unrestrained、reckless などが普通である。  
+【レジスター/領域】まれ・文学的・古風。現代の一般文では、この意味の abandoned 単独使用は少なく、wild、unrestrained、reckless などが普通である。  
 
 【文法パターン】an abandoned 〈person・life〉／abandoned 〈behavior・laughter・revelry〉／lead an abandoned life。人や行動の性質に使い、廃屋・廃車には通常語義10を使う。  
 
@@ -942,10 +942,10 @@ tags: []
 例: He was known for an abandoned life of gambling and excess.  
 訳: 彼は賭博と放縦に満ちた放埒な生活で知られていた。  
 
-・abandoned behavior  
-用途: 規範に従わない奔放な行動。  
-例: The memoir depicts the actor's abandoned behavior backstage.  
-訳: その回想録は俳優の舞台裏での放埒な行動を描いている。  
+・wild, abandoned dancing  
+用途: 抑制を外した奔放な踊り。  
+例: The party ended with wild, abandoned dancing.  
+訳: そのパーティーは抑制のない奔放な踊りのうちに終わった。  
 
 ・abandoned revelry  
 用途: 節度を失った大騒ぎ・享楽。  
