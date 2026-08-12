@@ -38,9 +38,9 @@ class PromptContractTests(unittest.TestCase):
             "最小対立監査",
             "コアイメージ監査",
             "v5書式監査",
-            "チェック後の必須コールドレビュー・判定修正・再検査",
+            "チェック後の必須コールドレビュー・判定修正・条件付き再検査",
             "front matterを除いた通常チェック後の最新版本文",
-            "問題候補がある場合の判定・修正後の全文再検査",
+            "採用修正がある場合の全文再検査",
             "チェック完了条件",
             "prompt_version: entry_spec_v5",
         )
@@ -83,7 +83,8 @@ class PromptContractTests(unittest.TestCase):
         for text in (agents, check, entry, readme):
             self.assertIn("コールドレビュー", text)
             self.assertIn("全文再検査", text)
-            self.assertIn("問題候補が0件", text)
+            self.assertIn("採用が1件以上", text)
+            self.assertIn("採用が0件", text)
             self.assertIn("最終状態", text)
 
         for text in (agents, check, readme):
@@ -102,6 +103,15 @@ class PromptContractTests(unittest.TestCase):
             "説明できる場合も、この時点では",
             entry,
         )
+        self.assertIn(
+            "問題候補はあるが採用0件なら"
+            "「コールドレビューの採用0件につき全文再検査省略」",
+            check,
+        )
+        self.assertNotIn("採用が0件でも", agents)
+        self.assertNotIn("採用が0件でも", check)
+        self.assertNotIn("採用が0件でも", entry)
+        self.assertNotIn("採用が0件でも", readme)
         self.assertNotIn(
             "内容監査まで完了し、主要項目の収録先と品詞整合を"
             "説明できる場合だけ `status: checked`",
