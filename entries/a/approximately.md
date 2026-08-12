@@ -36,7 +36,7 @@ approximate は「厳密には一致しないが近い」、approximately はそ
 
 【レジスター/領域】標準的で中立。説明文、ニュース、統計、技術・学術文書、ビジネスで特によく使う。会話では about、around、roughly のほうが自然なことが多い。  
 
-【文法パターン】approximately + 数値・数量・時間／at approximately + 時刻／approximately + 倍数・割合／be approximately + 数値／approximately equal to 〈値〉／approximately the same as 〈対象〉／approximately as many・much・long as 〈比較対象〉。通常は近似させる数値の直前に置く。  
+【文法パターン】approximately 〈数値・数量・時間〉／at approximately 〈時刻〉／approximately 〈倍数・割合〉／be approximately 〈数値〉／approximately equal to 〈値〉／approximately the same as 〈対象〉／approximately as many・much・long as 〈比較対象〉。通常は近似させる数値の直前に置く。  
 
 【コロケーション】
 
