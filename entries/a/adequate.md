@@ -12,29 +12,27 @@ tags: []
 
 ＃発音記号
 
-米: /ˈædɪkwət/（/ˈædɪkwɪt/ も）｜英: /ˈædɪkwət/  
-・第1音節に強勢がある。語末の -ate は /eɪt/ ではなく、通常は弱い /ət/（米音では /ɪt/）になる。「アデクエイト」のように語末を強く読まない。  
-・米英とも第2母音の /ɪ/ は共通し、米語の別発音では第3母音（語末の /ə/）が /ɪ/ に近くなることがある。  
+米: /ˈædɪkwət/（/ˈædɪkwɪt/ も）｜英: /ˈædɪkwət/。第1音節に主強勢がある。第2音節の /ɪ/ は米英で共通し、語末の -ate は通常 /ət/ と弱く発音する。米語では語末母音が /ɪ/ に近い /ɪt/ になる発音もある。「アデクエイト」のように -ate を /eɪt/ と強く読まない。  
+語尾の -ate は形容詞 adequate では弱い /ət/ または /ɪt/ であり、動詞の -ate に見られる /eɪt/ とは異なる。  
 
 ＃語源
 
-ラテン語 adaequātus「等しくされた、釣り合わされた」に由来する。adaequāre「等しくする、同じ水準にする」が、ad-「〜へ」と aequus「等しい、平らな」から成る。  
-必要な基準と量・質が釣り合うという語源上の発想が、現在の「要求を満たすだけの」「目的に足りる」という意味につながっている。  
-同語源・関連語には equal「等しい」、equate「同等とみなす、等式化する」、adequacy「十分性・適切さ」がある。adequate は「豊富な」ではなく、基準に届いていることを表す。  
+ラテン語 adaequātus「等しくされた、釣り合わされた」に由来する。adaequāre「等しくする、同じ水準にする」は ad-「〜へ」と aequus「等しい、平らな」から成る。必要な基準と量・質が釣り合うという発想が、現在の「要求を満たすだけの」「目的に足りる」という意味につながっている。  
+同語源・関連語には equal「等しい」、equate「同等とみなす、等式化する」、adequacy「十分性・適切さ」がある。adequate は「豊富な」ではなく、特定の目的や基準に届いていることを表す。  
 
 ＃語形成
 
-・adequacy：名詞「十分性、適切さ」。通常は不可算で、必要な水準を満たしている状態を表す。  
-・adequately：副詞「十分に、適切に」。adequately prepared「十分な準備ができた」のように、動詞や過去分詞を修飾する。  
+・adequacy：名詞「十分性、適切さ」。必要な水準を満たしている状態を表す。  
+・adequately：副詞「十分に、適切に」。adequately prepared「十分な準備ができた」のように使う。  
 ・inadequate：形容詞「不十分な、基準に達しない」。adequate の直接的な反対形成である。  
-・adequateness：名詞「十分性、適切さ」。意味は adequacy と重なるが、頻度が低く、通常は adequacy を使う。  
+・inadequately：副詞「不十分に、適切でない形で」。inadequately trained「訓練が不十分な」のように使う。  
 
 ＃コアイメージ
 
-必要な基準に量・質・法的な根拠が釣り合い、目的を果たせる状態が中心にある。褒め言葉としては「十分に良い」よりも「最低限は足りる」という含みが出ることがある。  
-・必要な目的・要求に釣り合う量や質 → 「必要なだけの、十分な、適切な」（語義1）  
-・評価基準に釣り合うが卓越まではしない水準 → 「まずまずの、合格点の、可もなく不可もない」（語義2）  
-・法的要件に釣り合う合理的な根拠・水準 → 「法律上十分な、合理的に足りる」（語義3）  
+必要な基準に量・質・法的な根拠が釣り合い、対象が目的を果たせる状態が中心にある。褒め言葉としては「十分に良い」よりも「最低限は足りる」という含みが出ることがある。  
+・目的を果たすのに必要な量・質との釣り合い → 「必要なだけの、十分な、適切な」（語義1）  
+・人の成果が評価基準に届く水準との釣り合い → 「まずまずの、合格点の、可もなく不可もない」（語義2）  
+・法的要件を満たす根拠・手続との釣り合い → 「法律上十分な、合理的に足りる」（語義3）  
 
 ＃意味・用法・関連表現
 
@@ -46,7 +44,7 @@ tags: []
 
 【レジスター/領域】標準的な一般語。会話よりも説明文、ビジネス、教育、行政、技術、学術でやや多く、必要量や基準を客観的に評価するときに使う。  
 
-【文法パターン】adequate 〈名詞〉＝必要量・質を満たす～／be・seem・prove・remain adequate＝十分である・十分だと分かる・十分であり続ける／be adequate for 〈目的・用途〉＝～に足りる／be adequate to 〈動詞原形〉＝～するのに足りる／be adequate to 〈課題・要求〉＝～に見合う（やや硬い）／程度副詞を伴う adequate for 〈目的・用途〉＝必要水準との距離を示す  
+【文法パターン】adequate 〈名詞〉＝必要量・質を満たす～／be・seem・prove・remain adequate＝十分である・十分だと分かる・十分であり続ける／be adequate for 〈目的・用途〉＝～に足りる／be adequate to 〈動詞原形〉＝～するのに足りる／be adequate to 〈課題・要求〉＝～に見合う／程度副詞＋adequate for 〈目的・用途〉＝必要水準との距離を示す。  
 
 【コロケーション】
 
@@ -66,22 +64,22 @@ tags: []
 訳: そのプロジェクトは十分な資金なしには成功できない。  
 
 ・adequate training for 〈職務〉  
-用途: 職務を安全・適切に行うための必要な訓練を表す。  
+用途: 職務を安全・適切に行うための訓練を表す。  
 例: All staff must receive adequate training for the new procedure.  
 訳: 全職員が新しい手順について十分な訓練を受けなければならない。  
-
-・adequate protection against 〈危険〉  
-用途: 危険や損害を防ぐのに足りる保護を表す。  
-例: This coating provides adequate protection against moisture.  
-訳: この塗装は湿気に対して十分な保護を与える。  
 
 ・be adequate for 〈目的〉  
 用途: 特定の目的には量・性能が足りることを述べる。  
 例: The room is adequate for a small meeting.  
 訳: その部屋は小規模な会議には十分だ。  
 
+・be adequate to 〈do〉  
+用途: ある行為を行うのに能力・条件が足りることを表す。  
+例: The battery is adequate to power the device overnight.  
+訳: そのバッテリーはその機器を一晩動かすのに十分だ。  
+
 ・be more than adequate for 〈用途〉  
-用途: 必要水準を十分に上回り、物・設備などが用途に余裕をもって足りることを表す。  
+用途: 必要水準を上回り、用途に余裕をもって足りることを表す。  
 例: This laptop is more than adequate for office work.  
 訳: このノートパソコンは事務作業には十分すぎるほどだ。  
 
@@ -91,7 +89,7 @@ tags: []
 訳: そのカメラは日常使いには十分だ。  
 
 ・be barely adequate for 〈用途〉  
-用途: 物・設備などが特定の用途に基準ぎりぎりで足りることを表す。  
+用途: 特定の用途に基準ぎりぎりで足りることを表す。  
 例: The battery is barely adequate for a full day's use.  
 訳: そのバッテリーは一日中使うにはぎりぎり足りる程度だ。  
 
@@ -100,17 +98,7 @@ tags: []
 例: The reservoir is adequate to meet demand through the summer.  
 訳: その貯水池は夏の間の需要を満たすのに十分だ。  
 
-・provide adequate support for 〈人・活動〉  
-用途: 人や活動に必要な支援を与えることを表す。  
-例: The grant provides adequate support for the research team.  
-訳: その助成金は研究チームに十分な支援を与える。  
-
-・an adequate explanation of 〈問題〉  
-用途: 問題や疑問に答えるだけの説明を表す。  
-例: The report did not give an adequate explanation of the discrepancy.  
-訳: その報告書はその食い違いについて十分な説明をしていなかった。  
-
-【語法・注意】adequate は enough より硬く、単に量があるというより、目的・基準に照らして足りるかを評価する。for は目的・用途・対象を示し、to do は満たせる行為や機能を示す。adequate to the task のように to の後ろに名詞を置く形もあるが、やや硬い。adequate enough は文法的に作れなくはないものの、十分性の重複で冗長になりやすく、通常は adequate だけで足りる。物・設備・資源などが特定の用途に足りるという客観的な判断は語義1で扱い、程度副詞を伴う具体的な型はこの語義のコロケーションで示す。  
+【語法・注意】adequate は enough より硬く、単に量があるというより、目的・基準に照らして足りるかを評価する。for は目的・用途・対象を示し、to do は満たせる行為や機能を示す。adequate to the task のように to の後ろに名詞を置く形もあるが、やや硬い。adequate enough は十分性の重複で冗長になりやすく、通常は adequate だけで足りる。  
 
 【類義語】
 
@@ -138,16 +126,9 @@ tags: []
 ・appropriate  
 定義: 状況、目的、規則、相手にふさわしい。  
 頻度: 〈8/10〉  
-違い: 社会的・状況的な「ふさわしさ」に焦点があり、adequate のような必要量・性能の充足を直接表さない。  
+違い: 社会的・状況的な「ふさわしさ」に焦点があり、必要量・性能の充足を直接表さない。  
 例: The response was appropriate to the situation.  
 訳: その対応は状況にふさわしかった。  
-
-・satisfactory  
-定義: 要求や基準を満たしていて、受け入れられる。  
-頻度: 〈7/10〉  
-違い: 評価・検査・業務結果について、adequate より肯定的または公式な合格判定として響くことがある。  
-例: The inspection found the equipment satisfactory.  
-訳: 検査ではその設備は満足できるものと判断された。  
 
 ・ample  
 定義: 必要量を十分に、しばしば余裕をもって備えている。  
@@ -194,7 +175,7 @@ tags: []
 
 【レジスター/領域】評価、レビュー、職場、教育、接客、日常会話。標準語だが、程度副詞と結びつくと低評価が明確になる。  
 
-【文法パターン】an adequate 〈仕事・成果物・演技〉＝合格点の～／be adequate（人の仕事・成果・演技について）＝合格点である／程度副詞を伴う adequate＝評価の強弱を示す／adequate but not exceptional＝合格点だが卓越しない／less than adequate＝十分とはいえない、基準未満  
+【文法パターン】an adequate 〈仕事・成果物・演技〉＝合格点の～／be adequate（人の仕事・成果・演技について）＝合格点である／merely・only・barely adequate＝合格点にとどまる／adequate but not exceptional＝合格点だが卓越しない／less than adequate＝十分とはいえない。  
 
 【コロケーション】
 
@@ -209,7 +190,7 @@ tags: []
 訳: そのチームの成績は可もなく不可もない程度だった。  
 
 ・a barely adequate performance  
-用途: 人の演技・成果が基準ぎりぎりで、特に優れてはいないと評価する。  
+用途: 人の演技・成果が基準ぎりぎりだと評価する。  
 例: Her performance was barely adequate.  
 訳: 彼女の演技はぎりぎり合格という程度だった。  
 
@@ -228,14 +209,14 @@ tags: []
 例: The explanation was less than adequate.  
 訳: その説明は十分とはいえなかった。  
 
-【語法・注意】人の仕事や演技に対して Your work is adequate. と言うと、「合格点だが、もっと良くできる」という冷たい響きになり得る。人の成果については、単独の adequate でも高い称賛にはならず、文脈や評価対象への期待が含意を決める。物・設備の用途適合は語義1で扱う。  
+【語法・注意】人の成果に対して Your work is adequate. と言うと、「合格点だが、もっと良くできる」という冷たい響きになり得る。物・設備が用途に足りるという客観的判断は語義1で、人の仕事・成果・演技への評価は語義2で扱う。  
 
 【類義語】
 
 ・satisfactory  
 定義: 要求された水準を満たしていて、受け入れられる。  
 頻度: 〈7/10〉  
-違い: adequate と重なるが、評価結果としては「満足できる」という肯定がやや強く、公式な検査・判定にも使いやすい。  
+違い: adequate と重なるが、「満足できる」という肯定がやや強く、公式な検査・判定にも使いやすい。  
 例: The work was satisfactory overall.  
 訳: その仕事は全体として満足できるものだった。  
 
@@ -280,8 +261,8 @@ tags: []
 定義: 通常または要求された標準より低い。  
 頻度: 〈5/10〉  
 違い: 客観的な規格・品質基準を下回ることを強く示し、adequate より明確に否定的である。  
-例: The building was condemned for substandard wiring.  
-訳: その建物は配線が基準未満だったため使用禁止になった。  
+例: The building had substandard wiring.  
+訳: その建物の配線は基準未満だった。  
 
 ・excellent  
 定義: 非常に優れていて、高い評価に値する。  
@@ -299,13 +280,13 @@ tags: []
 
 3. 【形容詞・法律／法務】法律上十分な、合理的に足りる
 
-【日本語訳・定義】法律や手続の文脈で、訴え・判断・逮捕・契約などを法的に進めたり有効にしたりするのに、法律上および合理性の基準から見て足りること。adequate grounds は、法的手続を始める根拠としては十分という意味であり、最終的に主張が認められることまで保証しない。  
+【日本語訳・定義】法律や手続の文脈で、訴え・判断・逮捕・契約などを法的に進めたり有効にしたりするのに、法律上および合理性の基準から見て足りること。adequate grounds は手続を始める根拠としては十分という意味であり、最終的に主張が認められることまで保証しない。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】法律、裁判、行政、契約の正式な文書。一般会話では通常、単に enough、sufficient、reasonable などを使う。法域や手続によって要求される基準は異なるため、一般的な法律判断として断定しない。  
+【レジスター/領域】法律、裁判、行政、契約の正式な文書。一般会話では通常、enough、sufficient、reasonable などを使う。法域や手続によって要求される基準は異なる。  
 
-【文法パターン】adequate grounds for 〈訴え・逮捕・判断〉＝法的に十分な根拠／adequate notice to 〈当事者〉＝手続上十分な通知／adequate consideration for 〈財産・契約〉＝法的に十分な対価／an adequate legal remedy for 〈損害〉＝十分な法的救済／be legally adequate under 〈法令・手続〉＝法令・手続上十分である  
+【文法パターン】adequate grounds for 〈訴え・逮捕・判断〉＝法的に十分な根拠／adequate notice to 〈当事者〉＝手続上十分な通知／adequate consideration for 〈財産・契約〉＝法的に十分な対価／an adequate legal remedy for 〈損害〉＝十分な法的救済／be legally adequate under 〈法令・手続〉＝法令・手続上十分である。  
 
 【コロケーション】
 
@@ -339,7 +320,7 @@ tags: []
 例: The disclosure was legally adequate under the applicable statute.  
 訳: その開示は適用される法令の下で法的に十分だった。  
 
-【語法・注意】法律義の adequate は、日常語の「まあ十分」ではなく、法令・判例・手続が要求する合理的な水準を満たすという専門的な評価である。adequate grounds、adequate notice、adequate consideration のように、何に対して十分なのかを後続の名詞や前置詞句で明示する。具体的な法的効果や必要基準は法域によって異なるため、adequate だけから「合法」「勝訴できる」と判断してはならない。  
+【語法・注意】法律義の adequate は、日常語の「まあ十分」ではなく、法令・判例・手続が要求する合理的な水準を満たすという専門的な評価である。adequate だけから「合法」「勝訴できる」と判断してはならない。  
 
 【類義語】
 
@@ -360,7 +341,7 @@ tags: []
 ・reasonable  
 定義: 道理にかない、合理的で、妥当な。  
 頻度: 〈10/10〉  
-違い: 根拠や判断の合理性に焦点があり、法的要件を量・手続の面で満たすという adequate の意味を必ずしも含まない。  
+違い: 根拠や判断の合理性に焦点があり、法的要件を量・手続の面で満たす意味を必ずしも含まない。  
 例: The court required a reasonable explanation for the delay.  
 訳: 裁判所はその遅延について合理的な説明を求めた。  
 
