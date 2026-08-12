@@ -40,7 +40,7 @@ class PromptContractTests(unittest.TestCase):
             "v5書式監査",
             "チェック後の必須コールドレビュー・判定修正・再検査",
             "front matterを除いた通常チェック後の最新版本文",
-            "採用修正後の全文再検査",
+            "問題候補がある場合の判定・修正後の全文再検査",
             "チェック完了条件",
             "prompt_version: entry_spec_v5",
         )
@@ -71,19 +71,42 @@ class PromptContractTests(unittest.TestCase):
         check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(
             encoding="utf-8"
         )
+        entry = (REPO_ROOT / "prompts" / "entry_spec_v5.md").read_text(
+            encoding="utf-8"
+        )
         readme = (REPO_ROOT / "README.md").read_text(encoding="utf-8")
+        review_prompt = (
+            "英単語解説として問題がないか、"
+            "内容上の問題を前提なしで指摘してください。"
+        )
+
+        for text in (agents, check, entry, readme):
+            self.assertIn("コールドレビュー", text)
+            self.assertIn("全文再検査", text)
+            self.assertIn("問題候補が0件", text)
+            self.assertIn("最終状態", text)
 
         for text in (agents, check, readme):
-            self.assertIn("コールドレビュー", text)
             self.assertIn("採用", text)
             self.assertIn("不採用", text)
             self.assertIn("保留", text)
-            self.assertIn("全文再検査", text)
+            self.assertIn(review_prompt, text)
+            self.assertNotIn("〈見出し語〉の英単語解説として", text)
 
         self.assertIn("文脈を継承しない独立実行", agents)
         self.assertIn("front matterを除いた通常チェック後の最新版本文", check)
         self.assertIn("コールドレビュー担当には渡さない", readme)
         self.assertIn("`保留`が0件", check)
+        self.assertIn(
+            "通常チェックが完了し、主要項目の収録先と品詞整合を"
+            "説明できる場合も、この時点では",
+            entry,
+        )
+        self.assertNotIn(
+            "内容監査まで完了し、主要項目の収録先と品詞整合を"
+            "説明できる場合だけ `status: checked`",
+            entry,
+        )
 
     def test_current_specs_are_standalone(self) -> None:
         current_files = (
