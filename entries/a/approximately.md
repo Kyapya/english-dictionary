@@ -13,8 +13,8 @@ tags: []
 ＃発音記号
 
 米: /əˈprɑːksəmətli/｜英: /əˈprɒksɪmətli/  
-・主強勢は第2音節の /ˈprɑːk/ にあり、語頭の /ə/ と語末の /li/ は弱く発音される。米英で記号が異なる部分は、主強勢を担う母音が米 /ɑː/、英 /ɒ/ となる点である。  
-・語末の -ly は /li/ と発音される。形容詞 approximate の形容詞用法と動詞用法では語末が異なるため、approximately を approximate（動詞）のように発音しない。  
+・音節は米 ə-ˈprɑːk-sə-mət-li、英 ə-ˈprɒk-sɪ-mət-li と分けられる。主強勢はどちらも第2音節にあり、米英の差は第2音節の母音（米 /ɑː/・英 /ɒ/）と第3音節の母音（米 /ə/・英 /ɪ/）である。語頭の /ə/ と語末の /li/ は弱く発音される。  
+・語末の -ly は /li/ と発音される。approximate は、形容詞では /əˈprɑːksəmət/、動詞では /əˈprɑːksəmeɪt/ と語末が異なる。approximately は副詞であり、approximate（動詞）のように語末を /eɪt/ と発音しない。  
 
 ＃語源
 
@@ -29,7 +29,7 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 ・approximate（動詞）— 「〜に近い、〜を概算する・近似する」。形容詞用法とは発音と構文が異なる。  
 ・approximation（名詞）— 「概算、近似、近似値」。approximate から派生した名詞である。  
 ・approx.（略記）— approximate または approximately の書き言葉の略。表、図、注記などで使うが、本文では approximately と綴る方が明確である。  
-・approximately（副詞）— approximate に -ly が付いた形で、数値・時間・程度などを文中で修飾する。  
+
 
 ＃意味・用法・関連表現
 
@@ -148,7 +148,7 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 
 ・exactly  
 定義: 数、時刻、量、位置などが示した値と完全に一致することを表す。  
-頻度: 〈10/10〉  
+頻度: 〈8/10〉  
 違い: 概算ではなく厳密な一致を示すため、正確さの軸で approximately と直接対立する。  
 例: The package weighs exactly two kilograms.  
 訳: その荷物の重さはちょうど2キログラムである。  
