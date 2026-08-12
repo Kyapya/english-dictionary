@@ -38,6 +38,9 @@ class PromptContractTests(unittest.TestCase):
             "最小対立監査",
             "コアイメージ監査",
             "v5書式監査",
+            "チェック後の必須コールドレビュー・判定修正・再検査",
+            "front matterを除いた通常チェック後の最新版本文",
+            "採用修正後の全文再検査",
             "チェック完了条件",
             "prompt_version: entry_spec_v5",
         )
@@ -62,6 +65,25 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("二段階の独立チェック", check)
         self.assertIn("1エントリを1つのNotionテキストブロック", notion)
         self.assertIn("同一rich_textブロック内のネイティブ改行", notion)
+
+    def test_cold_review_flow_is_required_before_checked(self) -> None:
+        agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(
+            encoding="utf-8"
+        )
+        readme = (REPO_ROOT / "README.md").read_text(encoding="utf-8")
+
+        for text in (agents, check, readme):
+            self.assertIn("コールドレビュー", text)
+            self.assertIn("採用", text)
+            self.assertIn("不採用", text)
+            self.assertIn("保留", text)
+            self.assertIn("全文再検査", text)
+
+        self.assertIn("文脈を継承しない独立実行", agents)
+        self.assertIn("front matterを除いた通常チェック後の最新版本文", check)
+        self.assertIn("コールドレビュー担当には渡さない", readme)
+        self.assertIn("`保留`が0件", check)
 
     def test_current_specs_are_standalone(self) -> None:
         current_files = (
