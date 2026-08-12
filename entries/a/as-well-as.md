@@ -47,7 +47,7 @@ as は古英語 alswā（そのように、同じように）に、well は古�
 
 【レジスター/領域】一般語。会話、文章、ビジネス、学術で広く使う。  
 
-【文法パターン】A as well as B（A＝中心要素、B＝追加要素）／as well as 〈名詞・代名詞〉／as well as 〈動名詞〉／as well as being 〈形容詞・過去分詞〉／A as well as B + 動詞（動詞は通常Aに一致）。  
+【文法パターン】A as well as B（A＝中心要素、B＝追加要素）／as well as 〈名詞・代名詞〉／as well as 〈動名詞〉／as well as being 〈形容詞・過去分詞〉／A as well as B + 〈動詞〉（動詞は通常Aに一致）。  
 
 【コロケーション】
 
@@ -56,7 +56,7 @@ as は古英語 alswā（そのように、同じように）に、well は古�
 例: The course covers speaking as well as writing.  
 訳: その講座ではライティングだけでなくスピーキングも扱う。  
 
-・verb A as well as B  
+・〈動詞〉 A as well as B  
 用途: 動詞の目的語を、Bに加えてAへ広げる。  
 例: The plan affects teachers as well as students.  
 訳: その計画は学生だけでなく教師にも影響する。  
@@ -81,7 +81,7 @@ as は古英語 alswā（そのように、同じように）に、well は古�
 例: As well as teaching, he writes textbooks.  
 訳: 彼は教えるだけでなく教科書も執筆している。  
 
-・A as well as B + be動詞  
+・A as well as B + 〈be動詞〉  
 用途: 主語の中心がAであることを保ったままBを付け加える。  
 例: The teacher as well as the students was tired.  
 訳: 生徒たちだけでなく教師も疲れていた。  
