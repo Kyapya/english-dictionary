@@ -41,15 +41,16 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 
 【レジスター/領域】標準的な副詞だが、about や around よりやや文章語的である。報道、ビジネス、行政、学術、技術説明、統計・報告書で特によく使われる。日常会話では about や around の方が短く自然なことが多い。  
 
-【文法パターン】approximately + 〈数値・数量〉＝示した数・量が概数である／V + approximately + 〈数値・数量〉＝費用・時間・重量などを概算で示す／at approximately + 〈時刻・日付・年代〉＝時点をおおよそ示す／approximately + 〈分数・割合・倍率〉＝割合・比率・倍率を概算で示す／approximately equal/equivalent to + 〈値・対象〉＝厳密ではないが近似的に等しい／approximately the same as + 〈対象〉＝厳密には同じでないがほぼ同じである／approximately represent/describe/model/reproduce + 〈O〉＝対象・関係・結果を近似的に表現する  
+【文法パターン】approximately + 〈数値・数量〉＝示した数・量が概数である／V + approximately + 〈数値・数量〉＝費用・時間・重量などを概算で示す／at approximately 〈時刻・日付・年代〉＝時点をおおよそ示す／approximately + 〈分数・割合・倍率〉＝割合・比率・倍率を概算で示す／approximately equal/equivalent to 〈値・対象〉＝厳密ではないが近似的に等しい／approximately the same as 〈対象〉＝厳密には同じでないがほぼ同じである／approximately represent/describe/model/reproduce + 〈O〉＝対象・関係・結果を近似的に表現する  
 
 【コロケーション】
+
 ・approximately + 〈数値・数量〉  
 用途: 人数、個数、金額、重量などを厳密値ではなく概数として示す。  
 例: Approximately 1,200 people attended the outdoor concert.  
 訳: その野外コンサートには約1,200人が参加した。  
 
-・at approximately + 〈時刻・年代〉  
+・at approximately 〈時刻・年代〉  
 用途: 出来事の時刻や年代を、示した時点の前後を含む概算として示す。  
 例: The meeting began at approximately 9:00 a.m.  
 訳: 会議は午前9時ごろに始まった。  
@@ -64,17 +65,17 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 例: Approximately one-third of the applicants were offered interviews.  
 訳: 応募者のおよそ3分の1に面接の案内が送られた。  
 
-・approximately twice/three times as + 〈形容詞・副詞〉  
+・approximately twice/three times as 〈形容詞・副詞〉  
 用途: 大きさ、長さ、頻度、時間などが何倍程度であるかを示す。  
 例: The new battery lasts approximately twice as long as the old one.  
 訳: 新しい電池は古いものの約2倍長く持つ。  
 
-・approximately equal/equivalent to + 〈値・対象〉  
+・approximately equal/equivalent to 〈値・対象〉  
 用途: 数値、換算値、効果などが厳密には同一でないものの、実用上近いことを示す。  
 例: The two estimates are approximately equal in value.  
 訳: その二つの見積もりは金額的にほぼ等しい。  
 
-・approximately the same as + 〈対象〉  
+・approximately the same as 〈対象〉  
 用途: 数量、程度、規模、状態などがほぼ同じであることを示す。  
 例: The total cost was approximately the same as last year's.  
 訳: 総費用は昨年のものとほぼ同じだった。  
@@ -85,6 +86,7 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 訳: この曲線は観測された傾向を近似的に表している。  
 
 【語法・注意】数値・数量を修飾する場合は通常その直前に置く。Approximately 200 guests attended. のように主語全体の前に置くことも、The trip takes approximately two hours. のように動詞の後ろの数量表現の前に置くこともできる。時刻を前置詞句で示す場合は at approximately 8:00 の語順が自然である。  
+
 ・approximately 100 は「100を中心とする近い値」であり、文脈によって100未満にも100超にもなり得る。nearly/almost 100 は、多くの文脈で「100にはまだ達していないが近い」という方向を含むため、完全な同義語ではない。  
 ・許容されるずれの幅は語そのものでは決まらない。approximately 10 seconds と approximately 10 years では、場面、測定方法、求められる精度によって意味する範囲が変わる。科学・技術文書では、必要に応じて誤差範囲や有効数字も示す。  
 ・approximately about 50、approximately around 50、roughly approximately 50 のように概算表現を重ねるのは通常避け、どれか一つを選ぶ。  
@@ -92,6 +94,7 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 ・approx. は主に表、図、注記、予定表などで使う略記で、通常は発音せず、正式な本文では approximately と綴る方が読み手に明確である。  
 
 【類義語】
+
 ・about  
 定義: 数・量・時刻などが示した値の近くであることを表す。  
 頻度: 〈10/10〉  
@@ -142,6 +145,7 @@ approximately は approximate「おおよその、近似の」に副詞接尾辞
 訳: その二つの経路はだいたい同じ長さである。  
 
 【反意語】
+
 ・exactly  
 定義: 数、時刻、量、位置などが示した値と完全に一致することを表す。  
 頻度: 〈10/10〉  
