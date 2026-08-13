@@ -120,7 +120,7 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("`保留`が0件", check)
         self.assertIn("通常チェック担当は `checked: true` を決定しない", check)
         self.assertIn("status `review_ready`、checked `false`", check)
-        self.assertIn("三者の担当識別子が相互に異なる", agents)
+        self.assertIn("相互に異なるrun IDとcontext ID", agents)
         self.assertIn("仕様が想定していない問題候補", readme)
         self.assertIn(
             "通常チェックが完了し、主要項目の収録先と品詞整合を"
@@ -140,6 +140,15 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("全finding", final)
         self.assertIn("根拠台帳", final)
         self.assertIn("body_sha256", final)
+        self.assertIn("seal-blind", final)
+        self.assertIn("blind_review.article_findings", final)
+        self.assertIn("final_review.independent_candidates", final)
+        self.assertIn("final_review.inventory_comparison", final)
+        self.assertIn("全relation", final)
+        self.assertIn("evidence_links", final)
+        self.assertIn("execution.run_id", final)
+        self.assertIn("正常な成果", final)
+        self.assertIn("文面の一致だけ", final)
         self.assertIn("`PASS`", final)
         self.assertIn("`REJECT`", final)
         self.assertNotIn(review_prompt, agents)
@@ -155,6 +164,29 @@ class PromptContractTests(unittest.TestCase):
             "説明できる場合だけ `status: checked`",
             entry,
         )
+
+    def test_v2_audit_contract_externalizes_strengthened_three_party_controls(self) -> None:
+        agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(
+            encoding="utf-8"
+        )
+        final = (REPO_ROOT / "prompts" / "final_review_spec_v1.md").read_text(
+            encoding="utf-8"
+        )
+        audits = (REPO_ROOT / "audits" / "README.md").read_text(encoding="utf-8")
+        combined = "\n".join((agents, check, final, audits))
+        for marker in (
+            "盲検出力",
+            "独立棚卸し",
+            "relation",
+            "構造化",
+            "evidence_links",
+            "context ID",
+            "`REJECT`",
+        ):
+            with self.subTest(marker=marker):
+                self.assertIn(marker, combined)
+        self.assertIn("文面の一致だけでは拒否しません", audits)
 
     def test_current_specs_are_standalone(self) -> None:
         current_files = (
