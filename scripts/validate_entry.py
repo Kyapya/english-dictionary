@@ -36,6 +36,7 @@ VALID_STATUSES = {
     "draft",
     "format_error",
     "needs_review",
+    "review_ready",
     "checked",
     "final",
     "skip",
@@ -599,7 +600,10 @@ def validate_text(text: str) -> list[str]:
             errors.append("front matter checked: must be true or false")
         if status in {"checked", "final"} and checked != "true":
             errors.append(f"front matter status {status} requires checked: true")
-        if status in {"draft", "format_error", "needs_review"} and checked == "true":
+        if (
+            status in {"draft", "format_error", "needs_review", "review_ready"}
+            and checked == "true"
+        ):
             errors.append(f"front matter status {status} is inconsistent with checked: true")
 
     lines = body.splitlines()

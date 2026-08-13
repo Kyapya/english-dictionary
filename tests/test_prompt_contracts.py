@@ -44,7 +44,11 @@ class PromptContractTests(unittest.TestCase):
             "語義の分け方・境界・重複",
             "学習者が説明から誤った一般化",
             "採用修正がある場合の全文再検査",
-            "チェック完了条件",
+            "通常チェック側の引き渡し条件",
+            "根拠台帳",
+            "audits/**/*.json",
+            "review_ready",
+            "prompts/final_review_spec_v1.md",
             "prompt_version: entry_spec_v5",
         )
         for marker in required:
@@ -66,10 +70,11 @@ class PromptContractTests(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, entry)
         self.assertIn("二段階の独立チェック", check)
+        self.assertIn("三者分離", check)
         self.assertIn("1エントリを1つのNotionテキストブロック", notion)
         self.assertIn("同一rich_textブロック内のネイティブ改行", notion)
 
-    def test_single_cold_review_flow_is_required_before_checked(self) -> None:
+    def test_three_party_review_flow_is_required_before_checked(self) -> None:
         agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(
             encoding="utf-8"
@@ -78,6 +83,9 @@ class PromptContractTests(unittest.TestCase):
             encoding="utf-8"
         )
         readme = (REPO_ROOT / "README.md").read_text(encoding="utf-8")
+        final = (REPO_ROOT / "prompts" / "final_review_spec_v1.md").read_text(
+            encoding="utf-8"
+        )
         review_prompt = (
             "英単語解説として問題がないか、記事全体を横断して徹底的に走査し、"
             "内容上の問題を前提なしで指摘してください。各文の正誤だけでなく、"
@@ -93,12 +101,10 @@ class PromptContractTests(unittest.TestCase):
         for text in (agents, check, entry, readme):
             self.assertIn("コールドレビュー", text)
             self.assertIn("1回", text)
-            self.assertIn("全文再検査", text)
-            self.assertIn("採用が1件以上", text)
-            self.assertIn("採用が0件", text)
-            self.assertIn("最終状態", text)
+            self.assertIn("最終審査", text)
+            self.assertIn("final_review_spec_v1.md", text)
 
-        for text in (agents, check, readme):
+        for text in (check,):
             self.assertIn("採用", text)
             self.assertIn("不採用", text)
             self.assertIn("保留", text)
@@ -108,11 +114,14 @@ class PromptContractTests(unittest.TestCase):
             self.assertIn("誤った一般化", text)
 
         self.assertIn("文脈を継承しない独立実行を1回", check)
+        self.assertIn("仕様があらかじめ想定していない問題候補", check)
         self.assertIn("本文中の語義名、語義番号、語義境界", check)
         self.assertIn("front matterを除いた通常チェック後の最新版本文", check)
         self.assertIn("`保留`が0件", check)
-        self.assertIn("コールドレビューが未実施", agents)
-        self.assertIn("生成仕様、チェック仕様、過去の指摘", readme)
+        self.assertIn("通常チェック担当は `checked: true` を決定しない", check)
+        self.assertIn("status `review_ready`、checked `false`", check)
+        self.assertIn("三者の担当識別子が相互に異なる", agents)
+        self.assertIn("仕様が想定していない問題候補", readme)
         self.assertIn(
             "通常チェックが完了し、主要項目の収録先と品詞整合を"
             "説明できる場合も、この時点では",
@@ -123,6 +132,18 @@ class PromptContractTests(unittest.TestCase):
             "「コールドレビューの採用0件につき全文再検査省略」",
             check,
         )
+        self.assertIn("normal_checker", final)
+        self.assertIn("cold_reviewer", final)
+        self.assertIn("final_adjudicator", final)
+        self.assertIn("本文を変更せず", final)
+        self.assertIn("全監査対象", final)
+        self.assertIn("全finding", final)
+        self.assertIn("根拠台帳", final)
+        self.assertIn("body_sha256", final)
+        self.assertIn("`PASS`", final)
+        self.assertIn("`REJECT`", final)
+        self.assertNotIn(review_prompt, agents)
+        self.assertNotIn(review_prompt, readme)
         for text in (agents, check, entry, readme):
             self.assertNotIn("2回のコールドレビュー", text)
             self.assertNotIn("相互に結果を見せない", text)
@@ -134,10 +155,12 @@ class PromptContractTests(unittest.TestCase):
             "説明できる場合だけ `status: checked`",
             entry,
         )
+
     def test_current_specs_are_standalone(self) -> None:
         current_files = (
             REPO_ROOT / "prompts" / "entry_spec_v5.md",
             REPO_ROOT / "prompts" / "check_spec_v5.md",
+            REPO_ROOT / "prompts" / "final_review_spec_v1.md",
             REPO_ROOT / "AGENTS.md",
         )
         legacy_paths = tuple(
@@ -155,6 +178,7 @@ class PromptContractTests(unittest.TestCase):
         text = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         self.assertIn("prompts/entry_spec_v5.md", text)
         self.assertIn("prompts/check_spec_v5.md", text)
+        self.assertIn("prompts/final_review_spec_v1.md", text)
         self.assertIn("prompts/notion_spec_v1.md", text)
         self.assertIn("prompt_version: entry_spec_v5", text)
         self.assertNotIn("v3・v4・v5", text)
@@ -170,6 +194,14 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("OpenAI APIキーは不要", readme)
         self.assertIn("pull_request:", validate_workflow)
         self.assertIn("scripts/validate_repository.py", validate_workflow)
+        self.assertIn("scripts/content_audit.py validate-changed", validate_workflow)
+        self.assertIn("github.event_name == 'pull_request'", validate_workflow)
+        self.assertIn("github.event_name != 'pull_request'", validate_workflow)
+        self.assertIn("scripts/content_audit.py validate-audited", validate_workflow)
+        self.assertNotIn("if [[", validate_workflow)
+        self.assertIn('"audits/**"', validate_workflow)
+        self.assertIn('"README.md"', validate_workflow)
+        self.assertIn("fetch-depth: 0", validate_workflow)
         self.assertFalse(
             (REPO_ROOT / ".github" / "workflows" / "generate-entry.yml").exists()
         )

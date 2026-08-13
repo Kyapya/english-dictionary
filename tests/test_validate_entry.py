@@ -179,6 +179,17 @@ class ValidateEntryTests(unittest.TestCase):
         path = self._write_temp_markdown(VALID_V5_MARKDOWN)
         self.assertEqual(validate_file(path), [])
 
+    def test_review_ready_cannot_claim_checked_true(self) -> None:
+        text = VALID_V5_MARKDOWN.replace("status: checked", "status: review_ready", 1)
+        path = self._write_temp_markdown(text)
+        errors = validate_file(path)
+        self.assertTrue(
+            any(
+                "review_ready is inconsistent with checked: true" in error
+                for error in errors
+            )
+        )
+
     def test_v5_accepts_current_learner_facing_heading(self) -> None:
         text = VALID_V5_MARKDOWN.replace(
             "＃意味や関連情報の出力（日本語訳）",

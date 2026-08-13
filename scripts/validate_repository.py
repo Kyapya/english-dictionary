@@ -25,6 +25,7 @@ STATUSES_REQUIRING_FILES = {
     "draft",
     "format_error",
     "needs_review",
+    "review_ready",
     "checked",
     "final",
 }
@@ -80,6 +81,13 @@ def validate_repository(repo_root: Path = REPO_ROOT) -> list[str]:
         if status in {"checked", "final"} and checked != "true":
             errors.append(
                 f"queue line {line_number}: status {status} requires checked=true"
+            )
+        if (
+            status in {"draft", "format_error", "needs_review", "review_ready"}
+            and checked == "true"
+        ):
+            errors.append(
+                f"queue line {line_number}: status {status} is inconsistent with checked=true"
             )
 
         if not file_value:
@@ -153,4 +161,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
