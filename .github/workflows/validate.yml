@@ -45,15 +45,16 @@ jobs:
       - name: Validate queue and entry consistency
         run: python scripts/validate_repository.py
 
-      - name: Validate complete independent content audits
-        shell: bash
+      - name: Validate changed independent content audits
+        if: github.event_name == 'pull_request'
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
-            python scripts/content_audit.py validate-changed \
-              --base "$BASE_SHA" \
-              --head "$HEAD_SHA"
-          else
-            python scripts/content_audit.py validate-audited
+          python scripts/content_audit.py validate-changed \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA"
+
+      - name: Validate all existing content audits
+        if: github.event_name != 'pull_request'
+        run: python scripts/content_audit.py validate-audited
