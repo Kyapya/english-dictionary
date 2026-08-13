@@ -69,7 +69,7 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 ・〈主語A〉, as well as 〈主語B〉, V  
 用途: Aを主語として、Bを付加的に示す。Bが複数でも、Aが単数なら動詞は通常単数形にする。  
 例: The manager, as well as her assistants, is attending the meeting.  
-訳: その部長は、補佐たちも同様に、その会議に出席している。  
+訳: その部長は、補佐たちと同様に、その会議に出席している。  
 
 ・S V 〈目的語A〉 as well as V-ing 〈目的語B〉  
 用途: 同じ主語について、AをVすることに加え、BをV-ingするという活動を並べる。  
@@ -81,6 +81,8 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 主語の A に as well as B を続ける形は、A と B を and で結ぶ複合主語とは異なる。「The manager, as well as her assistants, is attending.」のように、通常は動詞を A に一致させる。Bを主語に含めて両者を対等に扱うなら「The manager and her assistants are attending.」とする。主語に続く挿入的な用法では B の前後をコンマで囲むことが多いが、目的語を単純に並べる「The course covers grammar as well as vocabulary.」のような場合にコンマは置かない。  
 
 as well as は、文末で「～もまた」を表す as well とは異なり、通常は後ろに追加する要素を必要とする。「I like tea as well.」は「私も紅茶が好きだ」だが、「I like tea as well as coffee.」は「紅茶に加えてコーヒーも好きだ」である。「might as well + 動詞」の「～したほうがよい／～してもよい」は別の定着表現である。  
+
+as well as 自体は時制・人称・数に応じて変化しない。疑問・否定・受動でも、文全体の助動詞・主動詞や受動の be・過去分詞だけが通常どおり変化する。「Does the package include breakfast as well as dinner?」「Breakfast as well as dinner is included.」のように、追加要素をBの位置に置く。  
 
 否定文の not ... as well as ... は、添加と比較の両方に読めて曖昧になりやすい。「He doesn't teach French as well as Spanish.」を「スペイン語に加えてフランス語を教えない」と読むか「スペイン語ほど上手にはフランス語を教えない」と読むかが文脈に依存するため、必要なら「He teaches Spanish but not French.」や「He doesn't teach French as well as he teaches Spanish.」のように書き換える。  
 
