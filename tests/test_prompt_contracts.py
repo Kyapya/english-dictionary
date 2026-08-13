@@ -111,7 +111,7 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("相互に結果を見せない2回の独立実行", check)
         self.assertIn("第2レビュー担当には第1レビューの出力を渡さず", check)
         self.assertIn("両方のレビューで問題候補が0件", check)
-        self.assertIn("front matterを除いた同一の最新版本文", check)
+        self.assertIn("2回とも同一の本文", check)
         self.assertIn("`保留`が0件", check)
         self.assertIn("片方だけが挙げた候補", agents)
         self.assertIn("2回のうち一方でも未実施", agents)
