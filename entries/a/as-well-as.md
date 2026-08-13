@@ -24,7 +24,7 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 
 ＃意味・用法・関連表現
 
-1. 【添加表現（前置詞相当・接続）】～に加えて、～も／～だけでなく…も  
+1. 【添加表現（前置詞相当・接続）】～に加えて、～も／～だけでなく…も
 
 【日本語訳・定義】すでに示したAにBを追加して「Aに加えてBも」と述べる。文法書・辞書では、名詞句などを導く前置詞相当表現、語句や節を結ぶ接続表現など、分類が分かれる。通常は語順上Aを先に提示してBを追加するが、Bの重要度が必ず低い、またはAが常に主軸になるという意味ではない。肯定文ではAとBの両方が成立することを表す。  
 
@@ -76,7 +76,7 @@ as は古英語 alswā（「まったくそのように、同じように」）�
 例: The company designs software as well as manufactures hardware.  
 訳: その会社はソフトウェアを設計するだけでなく、ハードウェアも製造している。  
 
-【語法・注意】A と B は、名詞同士、形容詞同士、動名詞句同士のように同じ文法機能をそろえると読みやすいが、これは絶対規則ではない。前置詞相当用法の直後に動作を置くときは -ing 形が自然で、*as well as to work* と機械的にするのは避ける。ただし、共有された to の後の bare infinitive「want to swim as well as sunbathe」や、to を反復する形式、同じ主語の有限動詞を並べる文章語的な用法もあるため、「必ず -ing」と一般化しない。名詞句に as well as + being 節を続ける「She is a talented musician as well as being a photographer.」のように、表面上の形が完全に同じでなくても、追加される述語関係が明確なら成立する。    
+【語法・注意】A と B は、名詞同士、形容詞同士、動名詞句同士のように同じ文法機能をそろえると読みやすいが、これは絶対規則ではない。前置詞相当用法の直後に動作を置くときは -ing 形が自然で、*as well as to work* と機械的にするのは避ける。ただし、共有された to の後の bare infinitive「want to swim as well as sunbathe」や、to を反復する形式、同じ主語の有限動詞を並べる文章語的な用法もあるため、「必ず -ing」と一般化しない。名詞句に as well as + being 節を続ける「She is a talented musician as well as being a photographer.」のように、表面上の形が完全に同じでなくても、追加される述語関係が明確なら成立する。  
 
 主語の A に as well as B を続ける形は、A と B を and で結ぶ複合主語とは異なる。「The manager, as well as her assistants, is attending.」のように、通常は動詞を A に一致させる。Aが複数なら当然、動詞も複数になる。Bを主語に含めて両者を対等に扱うなら「The manager and her assistants are attending.」とする。主語に続く挿入的な用法では B の前後をコンマで囲むことが多いが、目的語を単純に並べる「The course covers grammar as well as vocabulary.」のような場合にコンマは置かない。  
 
