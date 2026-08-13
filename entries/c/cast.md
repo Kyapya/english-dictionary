@@ -24,12 +24,12 @@ casting「配役、鋳造、投げること」、caster「投げる人・器具�
 ＃語形成
 
 ・casting：名詞「投げること、釣り糸を投げること、配役、鋳造」。文脈により意味が変わる。  
-・caster：名詞「投げる人、鋳造する人、キャスター」。家具などの小車輪や、放送の caster を指すこともある。  
+・caster：名詞「投げる人、鋳造する人、キャスター」。家具などの小車輪を指すほか、放送業界の人を指す場合は newscaster・broadcaster・anchor などが一般的で、caster 単独は文脈依存である。  
 ・recast：動詞「配役し直す、形や表現を作り直す」。既存のものを別の形・役割へ置き直す。  
 ・typecast：動詞「俳優を特定の類型の役に固定して配役する」、形容詞「そのような役に固定された」。  
 ・castaway：名詞「難破などで陸地に取り残された人、見捨てられた人」。  
 ・cast iron：名詞「鋳鉄」、形容詞「鋳鉄製の」。cast は材料を型に流して形を作ることを表す。  
-・forecast：名詞「予測、予報」、動詞「予測する、予報する」。cast 単独の現代的な「予測する」用法とは分けて覚える。  
+・forecast：名詞「予測、予報」、動詞「予測する、予報する」。これは定着した複合語で、cast 単独を一般的な「予測する」として自由に使うわけではない。cast a horoscope・cast a fortune など限られた占いの表現は別に覚える。  
 
 ＃コアイメージ
 
@@ -92,12 +92,12 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 例: The crew cast anchor in a sheltered bay.  
 訳: 乗組員は風を避けられる湾にいかりを下ろした。  
 
-・cast stones at someone  
+・cast stones at 〈人・物〉  
 用途: 人に石を投げる。比喩的に、他人を非難するという聖書由来の表現へつながることもある。  
 例: The protesters cast stones at the gate before the police arrived.  
 訳: 警察が到着する前に、抗議者たちは門へ石を投げた。  
 
-【語法・注意】単にボールなどを投げる日常的な動作なら throw が自然である。cast 〈物〉 into 〈場所〉は、物を特定の方向・場所へ放り込む描写に向く。釣りの cast は投げる動作に焦点があり、魚を実際に釣り上げたことまでは意味しない。cast anchor は「いかりを投げる」と逐語訳せず、「いかりを下ろす」と覚える。  
+【語法・注意】単にボールなどを投げる日常的な動作なら throw が自然である。cast 〈物〉 into 〈場所〉は、物を特定の方向・場所へ放り込む描写に向く。釣りの cast は投げる動作に焦点があり、魚を実際に釣り上げたことまでは意味しない。cast anchor は「いかりを投げる」と逐語訳せず、「いかりを下ろす」と覚える。cast a wide net は「広く網を張る」、cast the first stone は「最初に人を非難する」という定着表現である。  
 
 【類義語】
 
@@ -353,7 +353,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 例: The small nation cast its lot with the regional alliance.  
 訳: その小国は地域同盟と運命を共にする道を選んだ。  
 
-【語法・注意】cast a vote・cast a ballot は vote と同じく「投票する」だが、投票という正式な行為に焦点がある。日常会話では vote がより簡潔である。cast lots は複数形 lots を使う定型表現で、cast a lot とは通常言わない。cast one's lot with は「〜と運命を共にする」で、単に一緒にいるという意味ではない。  
+【語法・注意】cast a vote・cast a ballot は vote と同じく「投票する」だが、投票という正式な行為に焦点がある。日常会話では vote がより簡潔である。cast lots は複数形 lots を使う定型表現で、cast a lot とは通常言わない。cast one's lot with は「〜と運命を共にする」で、単に一緒にいるという意味ではない。the die is cast は「賽は投げられた」、つまり決定が後戻りできない状態になったという定着表現である。  
 
 【類義語】
 
@@ -390,14 +390,14 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 ・abstain  
 定義: 投票を棄権し、賛否の票を投じない。  
 頻度: 〈6/10〉  
-違い: cast a vote が票を投じるのに対し、abstain は意図的に投票しないことを表す。  
+違い: これは厳密な反意語ではなく、cast a vote が票を投じるのに対して abstain は投票を控えるという対照表現である。  
 例: Three members abstained from the vote.  
 訳: 3人の会員が投票を棄権した。  
 
 ・withhold  
 定義: 与えるべきものを差し控える。  
 頻度: 〈8/10〉  
-違い: withhold a vote は票を差し控えることに焦点があり、abstain より広い「差し控える」語である。  
+違い: これは厳密な反意語ではなく、withhold a vote は票を差し控えるという対照表現で、abstain より広い「差し控える」語である。  
 例: The delegate withheld her vote until the terms were clarified.  
 訳: その代表は条件が明確になるまで投票を差し控えた。  
 
@@ -560,14 +560,14 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 ・replace  
 定義: 既に選ばれた人を別の人に交代させる。  
 頻度: 〈9/10〉  
-違い: cast が役に選ぶ方向なのに対し、replace はその人を役から外して別の人に替える。  
+違い: これは厳密な反意語ではなく、cast が役に選ぶのに対して replace は既に選ばれた人を交代させる対照表現である。  
 例: The studio replaced the actor after the first week of filming.  
 訳: その映画会社は撮影1週目の後にその俳優を交代させた。  
 
 ・remove from the cast  
 定義: 出演者から外す。  
 頻度: 〈5/10〉  
-違い: cast someone in 〈作品〉が出演者に加えるのに対し、remove someone from the cast は出演者の一覧から外す。  
+違い: これは厳密な反意語ではなく、cast someone in 〈作品〉が出演者に加えるのに対して remove someone from the cast は一覧から外す対照表現である。  
 例: The actor was removed from the cast after the dispute.  
 訳: その俳優はその争いの後、出演者から外された。  
 
@@ -645,7 +645,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 ・reframe  
 定義: 問題や出来事を別の枠組み・観点で提示し直す。  
 頻度: 〈6/10〉  
-違い: reframe はcastの反対というより、既存の位置づけを変える操作を表す。cast as で固定した見方を別の枠へ置き直す場合に対比できる。  
+違い: reframe は厳密な反意語ではなく、既存の位置づけを別の枠へ置き直す対照表現である。cast as が提示する見方を再構成する場合に使う。  
 例: The mediator reframed the dispute as a problem of communication.  
 訳: 仲介者はその争いを意思疎通の問題として捉え直した。  
 
@@ -657,7 +657,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 
 【レジスター/領域】製造、工学、金属加工、彫刻、工芸。日常語では make・form が広く、cast は製法を明示する専門寄りの語。  
 
-【文法パターン】cast 〈物〉 in 〈材料〉＝物を〜で鋳造する／cast 〈材料〉 into 〈形・部品〉＝材料を〜の形に鋳造する／be cast in 〈材料〉＝〜で鋳造される／be cast from 〈材料〉＝〜を材料として鋳造される／cast 〈物〉 into a mold＝物を型に流し込んで作る。  
+【文法パターン】cast 〈物〉 in 〈材料〉＝物を〜で鋳造する／cast 〈材料〉 into 〈形・部品〉＝材料を〜の形に鋳造する／be cast in 〈材料〉＝〜で鋳造される／be cast from 〈型・原型〉＝〜を使って鋳造される／cast 〈材料〉 into a mold＝材料を型に流し込んで作る。  
 
 【コロケーション】
 
@@ -676,13 +676,13 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 例: The factory casts molten metal into engine parts.  
 訳: その工場は溶けた金属をエンジン部品に鋳造している。  
 
-・be cast from 〈材料〉  
-用途: 何を材料として作られたかを示す。  
+・be cast from 〈型・原型〉  
+用途: どの型・原型を使って作られたかを示す。  
 例: The replica was cast from a mold of the original sculpture.  
-訳: その複製品は元の彫刻の型から鋳造された。  
+訳: その複製品は元の彫刻の型を使って鋳造された。  
 
-・cast 〈材料〉 in a mold  
-用途: 材料を鋳型へ入れて形を作る。  
+・cast 〈材料〉 into a mold  
+用途: 材料を鋳型へ流し込んで形を作る。  
 例: The workers cast the resin in a silicone mold.  
 訳: 作業員たちは樹脂をシリコーン製の型に流し込んだ。  
 
@@ -763,7 +763,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 
 ・slough  
 定義: 皮や不要な外層を脱ぎ捨てる。  
-頻度: 〈4/10〉  
+頻度: 〈8/10〉  
 違い: slough は動物の皮や、比喩的な習慣・状態を脱ぎ捨てる硬い語で、cast より使う範囲が広い比喩もある。  
 例: The snake sloughed off its old skin.  
 訳: その蛇は古い皮を脱ぎ捨てた。  
@@ -780,7 +780,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 ・retain  
 定義: 物を保持し、手元に残す。  
 頻度: 〈7/10〉  
-違い: cast・shed が外皮や付属物を外へ失うのに対し、retain はそれを保持する。  
+違い: これは語義9の cast・shed と対照的に、retain は外皮や付属物を保持する。  
 例: The tree retained its leaves through the winter.  
 訳: その木は冬の間も葉を保っていた。  
 
@@ -870,21 +870,21 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 ・keep  
 定義: 物や関係を手元に残す。  
 頻度: 〈10/10〉  
-違い: cast off・away が外へ捨てるのに対し、keep は保持する。  
+違い: これは厳密な反意語というより、cast off・away の排除と keep の保持を対比した表現である。  
 例: She kept the letter instead of casting it away.  
 訳: 彼女はその手紙を捨てずに取っておいた。  
 
 ・accept  
 定義: 提案、人、考えなどを受け入れる。  
 頻度: 〈10/10〉  
-違い: cast aside・out が拒否・排除の方向なのに対し、accept は受け入れる方向である。  
+違い: これは厳密な反意語というより、cast aside・out の拒否・排除と accept の受容を対比した表現である。  
 例: The group accepted the newcomer rather than casting him out.  
 訳: その集団は新参者を追い出さず受け入れた。  
 
 ・retain  
 定義: 人・物・権利などを保持する。  
 頻度: 〈7/10〉  
-違い: retain はcast offの反対方向を正式・意図的に表す。  
+違い: retain は cast off と反対方向の保持を正式・意図的に表す。  
 例: The company retained the equipment for future use.  
 訳: その会社は将来使うためにその設備を保持した。  
 
@@ -954,13 +954,13 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 
 12. 【動詞・他動詞・コンピューター】値を別のデータ型へ変換する、型変換する
 
-【日本語訳・定義】プログラミングやデータベースで、値・式・オブジェクトを明示的に別のデータ型として扱う、またはその型へ変換する。変換の書式、暗黙の変換との区別、情報の損失や実行時エラーの可能性は言語・処理系によって異なるため、cast 自体から安全性を判断してはならない。  
+【日本語訳・定義】プログラミングやデータベースで、値・式・オブジェクトを明示的に別のデータ型として扱う、またはその型へ変換する。暗黙の型強制（coercion）や型推論とは別に、cast は明示的な型操作や型アサーションを指すことが多いが、実際に値を変換するか、実行時に検査するかは言語・処理系によって異なる。なお、消費者向け技術の cast 〈動画・画面〉 to 〈テレビ・スピーカー〉は、ネットワーク経由で別の機器へ表示・再生させる別義である。  
 
 【頻度】〈5/10〉  
 
 【レジスター/領域】コンピューター、プログラミング、データベース。一般英語では専門用法で、説明書・技術文書・開発者の会話で使う。  
 
-【文法パターン】cast 〈値・式〉 to 〈データ型〉＝〜を〜型へ変換する／cast 〈値・オブジェクト〉 as 〈データ型〉＝〜を〜型として扱う／perform a type cast on 〈値・オブジェクト〉＝〜を型変換する／CAST(〈式〉 AS 〈データ型〉)＝SQLで〜を〜型へ変換する。  
+【文法パターン】cast 〈値・式〉 to 〈データ型〉（一部の言語）＝〜を〜型へ変換する／cast 〈値・オブジェクト〉 as 〈データ型〉（言語依存）＝〜を〜型として扱う／perform a type cast on 〈値・オブジェクト〉＝〜に明示的な型操作を行う／CAST(〈式〉 AS 〈データ型〉)＝SQLで〜を〜型へ変換する。  
 
 【コロケーション】
 
@@ -996,18 +996,18 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 訳: そのスクリプトは日付を標準形式に変換する。  
 
 ・coerce  
-定義: 値を、必要な型や形式として強制的に扱う。  
+定義: 処理系が値を別の型として扱えるよう、暗黙または強制的に変換する。  
 頻度: 〈5/10〉  
-違い: coerce は型検査を越えて変換・解釈を強制する含みがあり、cast より処理系・実装の説明に寄る。  
+違い: coerce は自動・暗黙の型変換を含む広い実装用語で、cast のような明示的な型指定と必ずしも同じではない。  
 例: The library coerces the number to a string.  
 訳: そのライブラリはその数値を文字列へ強制変換する。  
 
-・type-convert  
-定義: データ型を別の型へ変換する。  
+・type conversion  
+定義: データを別のデータ型へ変換する処理。  
 頻度: 〈4/10〉  
-違い: type-convert は型変換という処理を明示する説明的な語で、cast より一般の開発者向け動詞としての定着度が低い。  
-例: The tool type-converts the input before validation.  
-訳: そのツールは検証の前に入力を型変換する。  
+違い: type conversion は処理全般を指す名詞句で、cast はその操作や構文を指す動詞・専門用語である。  
+例: The type conversion occurred before the value was stored.  
+訳: 値が保存される前に型変換が行われた。  
 
 13. 【名詞・可算】一投、投げること；釣り糸・網の一投
 
@@ -1029,7 +1029,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 ・make a long cast  
 用途: 釣り糸やボールなどを遠くへ投げる。  
 例: The angler made a long cast beyond the rocks.  
-訳: その釣り人は岩の向こうへ長く投げた。  
+訳: その釣り人は岩の向こうへ遠く投げた。  
 
 ・a cast of the line  
 用途: 釣り糸を投げる一連の動作を指す。  
@@ -1108,7 +1108,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 例: The novel introduces a memorable cast of characters.  
 訳: その小説は印象に残る登場人物たちを登場させる。  
 
-【語法・注意】cast は集合名詞なので、集団を一つのまとまりとして見る米語では the cast is が自然で、構成員を意識する英語では the cast are も使われる。文体と地域によって揺れるため、常に複数扱い・常に単数扱いと決めつけない。cast と crew は「出演者」と「制作スタッフ」の対で、反意語ではない。cast of characters は俳優でなく登場人物を指すことがある。  
+【語法・注意】cast は集合名詞なので、集団を一つのまとまりとして見る米語では the cast is が自然で、構成員を意識するイギリス英語では the cast are も使われる。文体と地域によって揺れるため、常に複数扱い・常に単数扱いと決めつけない。cast と crew は「出演者」と「制作スタッフ」の対で、反意語ではない。cast of characters は俳優でなく登場人物を指すことがある。  
 
 【類義語】
 
@@ -1142,7 +1142,7 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 
 15. 【名詞・可算】形、外観、特徴的な性質・気質
 
-【日本語訳・定義】人や物に現れる形・見た目・様子、または言葉・作品・心の持ち方に感じられる特徴的な性質や傾向を表す。a cast of mind は「物事の考え方・気質」、a cast to someone's features は「顔立ちに帯びた表情・特徴」のように使う。文学的・説明的な用法で、単なる物理的な形だけに限らない。  
+【日本語訳・定義】人や物に現れる形・見た目・様子、または心の持ち方や作品の性格に感じられる特徴的な形・傾向を表す。a cast of mind は「物事の考え方・気質」、a cast to someone's features は「顔立ちに帯びた特徴」のように使う。文学的・説明的な用法で、色や感情のわずかな混じり気そのものは語義18で扱う。  
 
 【頻度】〈4/10〉  
 
@@ -1162,17 +1162,17 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 例: The portrait captures the delicate cast of her features.  
 訳: その肖像画は彼女の繊細な顔立ちを捉えている。  
 
-・a bitter cast to 〈言葉・表情〉  
-用途: 言葉や表情に帯びた苦々しい感じを表す。  
-例: There was a bitter cast to his final remarks.  
-訳: 彼の最後の発言には苦々しい調子があった。  
+・a distinctive cast to 〈顔立ち・表情〉  
+用途: 顔立ちや表情に現れる特徴的な形・印象を描写する。  
+例: There was a distinctive cast to her features.  
+訳: 彼女の顔立ちには特徴的な印象があった。  
 
 ・take on a different cast  
 用途: 物事が別の様相・印象を帯びる。  
 例: The incident took on a different cast after the witness came forward.  
 訳: 証人が名乗り出た後、その出来事は別の様相を帯びた。  
 
-【語法・注意】この cast は「出演者」でも「鋳造品」でもなく、物事に現れる形・性質・雰囲気を表す。a cast of mind は考え方を指す定着した組み合わせで、mind を鋳型と訳さない。色そのもののわずかな混じり気は語義18の cast、心や言葉の特徴的な性質は語義15として区別するが、比喩的な境界は文脈で重なることがある。  
+【語法・注意】この cast は「出演者」でも「鋳造品」でもなく、物事に現れる形・外観・特徴を表す。a cast of mind は考え方を指す定着した組み合わせで、mind を鋳型と訳さない。色や感情のわずかな混じり気は語義18へ分け、語義15は形・外観・性質の型に焦点を置く。  
 
 【類義語】
 
@@ -1357,17 +1357,17 @@ cast の中心には、何かを外へ投じ、特定の方向・位置・役割
 例: The cold light gave her skin a bluish cast.  
 訳: 冷たい光が彼女の肌に青みがかった色合いを与えた。  
 
-・a cast of bitterness  
-用途: 言葉や表情に苦々しさが混じっていることを表す。  
-例: His apology had a cast of bitterness.  
-訳: 彼の謝罪には苦々しさが混じっていた。  
+・a bitter cast to 〈言葉・表情〉  
+用途: 言葉や表情に苦々しい調子が帯びていることを表す。  
+例: There was a bitter cast to his final remarks.  
+訳: 彼の最後の発言には苦々しい調子があった。  
 
 ・give 〈写真・場面〉 a warm cast  
 用途: 写真や場面全体を暖色の印象にする。  
 例: The sunset gave the entire scene a warm cast.  
 訳: 夕日がその場面全体を暖かな色合いにした。  
 
-【語法・注意】色の cast は、全体に薄く加わった色合いを表し、完全な色そのものや色相の名称ではない。a cast of bitterness のように抽象名詞を続けると、感情や性質が全体に混じった印象を表す。語義15の cast of mind・cast to someone's features は、色ではなく考え方・外観・性質の形を表す。  
+【語法・注意】色の cast は、全体に薄く加わった色合いを表し、完全な色そのものや色相の名称ではない。a bitter cast to 〈言葉・表情〉のように感情を表す語が続くと、苦々しい調子が全体に混じった印象を表す。語義15の cast of mind・cast to someone's features は、色や感情ではなく考え方・外観・性質の形を表す。  
 
 【類義語】
 
