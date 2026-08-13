@@ -25,7 +25,7 @@ tags: []
 ・adequacy：名詞「十分性、適切さ」。必要な水準を満たしている状態を表す。  
 ・adequately：副詞「十分に、必要な水準まで、適切に」。adequately prepared「十分な準備ができた」のように使う。  
 ・inadequate：形容詞「不十分な、基準に達しない」。adequate の直接的な反対形成である。  
-・inadequately：副詞「不十分に、必要な水準に達しない形で」。inadequately trained「訓練が不十分な」のように使う。
+・inadequately：副詞「不十分に、必要な水準に達しない形で」。inadequately trained「訓練が不十分な」のように使う。  
 ・inadequacy：名詞「不十分さ、基準未達」。  
 
 ＃コアイメージ
