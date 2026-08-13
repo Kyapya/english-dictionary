@@ -1,12 +1,12 @@
 ---
 headword: as well as
 type: phrase
-status: draft
+status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-13
 updated_at: 2026-08-13
-checked: false
+checked: true
 tags: []
 ---
 
