@@ -40,10 +40,9 @@ class PromptContractTests(unittest.TestCase):
             "v5書式監査",
             "チェック後の必須コールドレビュー・判定修正・条件付き再検査",
             "front matterを除いた通常チェック後の最新版本文",
-            "相互に結果を見せない2回の独立実行",
+            "文脈を継承しない独立実行",
             "語義の分け方・境界・重複",
             "学習者が説明から誤った一般化",
-            "両方のレビューで問題候補が0件",
             "採用修正がある場合の全文再検査",
             "チェック完了条件",
             "prompt_version: entry_spec_v5",
@@ -70,7 +69,7 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("1エントリを1つのNotionテキストブロック", notion)
         self.assertIn("同一rich_textブロック内のネイティブ改行", notion)
 
-    def test_double_cold_review_flow_is_required_before_checked(self) -> None:
+    def test_single_cold_review_flow_is_required_before_checked(self) -> None:
         agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(
             encoding="utf-8"
@@ -92,7 +91,7 @@ class PromptContractTests(unittest.TestCase):
 
         for text in (agents, check, entry, readme):
             self.assertIn("コールドレビュー", text)
-            self.assertIn("2回", text)
+            self.assertIn("1回", text)
             self.assertIn("全文再検査", text)
             self.assertIn("採用が1件以上", text)
             self.assertIn("採用が0件", text)
@@ -104,18 +103,15 @@ class PromptContractTests(unittest.TestCase):
             self.assertIn("保留", text)
             self.assertIn(review_prompt, text)
             self.assertNotIn(old_review_prompt, text)
-            self.assertIn("相互に結果を見せない", text)
             self.assertIn("語義", text)
             self.assertIn("誤った一般化", text)
 
-        self.assertIn("相互に結果を見せない2回の独立実行", check)
-        self.assertIn("第2レビュー担当には第1レビューの出力を渡さず", check)
-        self.assertIn("両方のレビューで問題候補が0件", check)
-        self.assertIn("2回とも同一の本文", check)
+        self.assertIn("文脈を継承しない独立実行を1回", check)
+        self.assertIn("本文中の語義名、語義番号、語義境界", check)
+        self.assertIn("front matterを除いた通常チェック後の最新版本文", check)
         self.assertIn("`保留`が0件", check)
-        self.assertIn("片方だけが挙げた候補", agents)
-        self.assertIn("2回のうち一方でも未実施", agents)
-        self.assertIn("他方のレビュー結果は渡さない", readme)
+        self.assertIn("コールドレビューが未実施", agents)
+        self.assertIn("生成仕様、チェック仕様、過去の指摘", readme)
         self.assertIn(
             "通常チェックが完了し、主要項目の収録先と品詞整合を"
             "説明できる場合も、この時点では",
@@ -127,6 +123,10 @@ class PromptContractTests(unittest.TestCase):
             check,
         )
         for text in (agents, check, entry, readme):
+            self.assertNotIn("2回のコールドレビュー", text)
+            self.assertNotIn("相互に結果を見せない", text)
+            self.assertNotIn("第1レビュー", text)
+            self.assertNotIn("第2レビュー", text)
             self.assertNotIn("採用が0件でも", text)
         self.assertNotIn(
             "内容監査まで完了し、主要項目の収録先と品詞整合を"
