@@ -5,27 +5,27 @@ status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-13
-updated_at: 2026-08-12
+updated_at: 2026-08-13
 checked: true
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˈædɪkwət/（/ˈædɪkwɪt/ も）｜英: /ˈædɪkwət/。第1音節に主強勢がある。第2音節の /ɪ/ は米英で共通し、語末の -ate は通常 /ət/ と弱く発音する。米語では語末母音が /ɪ/ に近い /ɪt/ になる発音もある。「アデクエイト」のように -ate を /eɪt/ と強く読まない。  
-語尾の -ate は形容詞 adequate では弱い /ət/ または /ɪt/ であり、動詞の -ate に見られる /eɪt/ とは異なる。  
+米: /ˈædɪkwət/（/ˈædɪkwɪt/ も）｜英: /ˈædɪkwət/。辞書によって第2音節を /ə/ とする /ˈædəkwət/ の表記もある。第1音節に主強勢があり、第2音節の弱母音は /ɪ/ または /ə/ と表記される。語末第3音節の -ate は通常 /ət/ だが、/ɪt/ とする発音もある。「アデクエイト」のように -ate を /eɪt/ と強く読まない。  
+語尾の -ate は形容詞 adequate では弱い /ət/ または /ɪt/ であり、locate など一部の動詞で語末 -ate が /eɪt/ となる場合とは異なる。  
 
 ＃語源
 
-ラテン語 adaequātus「等しくされた、釣り合わされた」に由来する。adaequāre「等しくする、同じ水準にする」は ad-「〜へ」と aequus「等しい、平らな」から成る。必要な基準と量・質が釣り合うという発想が、現在の「要求を満たすだけの」「目的に足りる」という意味につながっている。  
+ラテン語 adaequātus「等しくされた、釣り合わされた」に由来する。adaequāre「等しくする、同じ水準にする」は ad-「〜へ」と aequāre「等しくする」から成り、aequāre は aequus「等しい、平らな」に関係する。必要な基準と量・質が釣り合うという発想が、現在の「要求を満たすだけの」「目的に足りる」という意味につながっている。  
 同語源・関連語には equal「等しい」、equate「同等とみなす、等式化する」、adequacy「十分性・適切さ」がある。adequate は「豊富な」ではなく、特定の目的や基準に届いていることを表す。  
 
 ＃語形成
 
 ・adequacy：名詞「十分性、適切さ」。必要な水準を満たしている状態を表す。  
-・adequately：副詞「十分に、適切に」。adequately prepared「十分な準備ができた」のように使う。  
+・adequately：副詞「十分に、必要な水準まで」。adequately prepared「十分な準備ができた」のように使う。  
 ・inadequate：形容詞「不十分な、基準に達しない」。adequate の直接的な反対形成である。  
-・inadequately：副詞「不十分に、適切でない形で」。inadequately trained「訓練が不十分な」のように使う。  
+・inadequately：副詞「不十分に、必要な水準に達しない形で」。inadequately trained「訓練が不十分な」のように使う。  
 
 ＃コアイメージ
 
@@ -38,7 +38,7 @@ tags: []
 
 1. 【形容詞・限定・叙述】必要なだけの、十分な、適切な
 
-【日本語訳・定義】特定の目的・要求・必要を満たすだけの量、質、能力、設備、情報などがあること。必ずしも余裕がある、理想的である、または高品質であることは含まず、「その目的には足りる」という基準適合を表す。  
+【日本語訳・定義】特定の目的・要求・必要を満たすだけの量・質・性能・設備・情報・時間などが、対象や計画に備わっていること。必ずしも余裕がある、理想的である、または高品質であることは含まず、「その目的には足りる」という基準適合を表す。  
 
 【頻度】〈8/10〉  
 
@@ -73,7 +73,7 @@ tags: []
 例: The room is adequate for a small meeting.  
 訳: その部屋は小規模な会議には十分だ。  
 
-・be adequate to 〈do〉  
+・be adequate to 〈動詞原形〉  
 用途: ある行為を行うのに能力・条件が足りることを表す。  
 例: The battery is adequate to power the device overnight.  
 訳: そのバッテリーはその機器を一晩動かすのに十分だ。  
@@ -92,6 +92,11 @@ tags: []
 用途: 特定の用途に基準ぎりぎりで足りることを表す。  
 例: The battery is barely adequate for a full day's use.  
 訳: そのバッテリーは一日中使うにはぎりぎり足りる程度だ。  
+
+・be adequate to the task  
+用途: 特定の課題をこなすのに必要な能力・条件が足りることを表す。  
+例: The backup system is adequate to the task of handling a short outage.  
+訳: その予備システムは短時間の停電に対処するには十分だ。  
 
 ・be adequate to meet 〈需要・要件〉  
 用途: 需要や要件を満たすのに足りることを表す。  
@@ -175,7 +180,7 @@ tags: []
 
 【レジスター/領域】評価、レビュー、職場、教育、接客、日常会話。標準語だが、程度副詞と結びつくと低評価が明確になる。  
 
-【文法パターン】an adequate 〈仕事・成果物・演技〉＝合格点の～／be adequate（人の仕事・成果・演技について）＝合格点である／merely・only・barely adequate＝合格点にとどまる／adequate but not exceptional＝合格点だが卓越しない／less than adequate＝十分とはいえない。  
+【文法パターン】adequate work＝合格点の仕事／an adequate 〈成果物・演技〉＝合格点の～／be adequate（人の仕事・成果・演技について）＝合格点である／merely・only・barely adequate＝合格点にとどまる／adequate but not exceptional＝合格点だが卓越しない／less than adequate＝十分とはいえない。  
 
 【コロケーション】
 
@@ -194,10 +199,10 @@ tags: []
 例: Her performance was barely adequate.  
 訳: 彼女の演技はぎりぎり合格という程度だった。  
 
-・an adequate but unremarkable 〈仕事・成果物・演技〉  
-用途: 問題はないが、目立った長所もない成果物を評価する。  
-例: It was an adequate but unremarkable meal.  
-訳: それはまずまずだが、特に印象に残らない食事だった。  
+・adequate but unremarkable work  
+用途: 人の仕事が問題のない合格点にとどまり、目立った長所を示さないと評価する。  
+例: The intern's work was adequate but unremarkable.  
+訳: そのインターンの仕事は合格点だったが、特に印象に残るものではなかった。  
 
 ・be only adequate  
 用途: 人の仕事・説明・成果などが合格点にとどまると評価する。  
@@ -267,26 +272,26 @@ tags: []
 ・excellent  
 定義: 非常に優れていて、高い評価に値する。  
 頻度: 〈9/10〉  
-違い: adequate の最低限の合格点とは反対に、高い品質・成果を明示的に称賛する。  
+違い: 厳密な反意語ではなく評価軸の上側にある対比語で、adequate の最低限の合格点に対して高い品質・成果を明示的に称賛する。  
 例: She received excellent feedback on her presentation.  
 訳: 彼女はプレゼンテーションについて非常に良い評価を受けた。  
 
 ・outstanding  
 定義: 他と比べても際立って優れている。  
 頻度: 〈7/10〉  
-違い: adequate が基準への到達を述べるのに対し、outstanding は基準を大きく超える卓越性を表す。  
+違い: 厳密な反意語ではなく評価軸の上側にある対比語で、adequate が基準への到達を述べるのに対し、outstanding は基準を大きく超える卓越性を表す。  
 例: The researcher made an outstanding contribution.  
 訳: その研究者は際立った貢献をした。  
 
 3. 【形容詞・法律／法務】法律上十分な、合理的に足りる
 
-【日本語訳・定義】法律や手続の文脈で、訴え・判断・逮捕・契約などを法的に進めたり有効にしたりするのに、法律上および合理性の基準から見て足りること。adequate grounds は手続を始める根拠としては十分という意味であり、最終的に主張が認められることまで保証しない。  
+【日本語訳・定義】法律や手続の文脈で、訴訟・判断・逮捕・通知・救済などを法的に進めるのに、法律上および合理性の基準から見て必要な水準を満たすこと。adequate grounds は手続を始める根拠としては十分という意味であり、最終的に主張が認められることまで保証しない。adequate consideration は交換対象に見合う対価という法的評価を表すが、要求される基準や効果は法域・制度によって異なる。  
 
 【頻度】〈3/10〉  
 
 【レジスター/領域】法律、裁判、行政、契約の正式な文書。一般会話では通常、enough、sufficient、reasonable などを使う。法域や手続によって要求される基準は異なる。  
 
-【文法パターン】adequate grounds for 〈訴え・逮捕・判断〉＝法的に十分な根拠／adequate notice to 〈当事者〉＝手続上十分な通知／adequate consideration for 〈財産・契約〉＝法的に十分な対価／an adequate legal remedy for 〈損害〉＝十分な法的救済／be legally adequate under 〈法令・手続〉＝法令・手続上十分である。  
+【文法パターン】adequate grounds for a lawsuit／adequate grounds for arrest＝法的に十分な根拠／adequate notice to 〈当事者〉＝手続上十分な通知／adequate consideration for 〈財産の譲渡・契約上の交換〉＝交換対象に見合う対価／an adequate remedy at law for 〈損害〉＝法的救済で十分なもの／be legally adequate under 〈法令・手続〉＝法令・手続上十分である。  
 
 【コロケーション】
 
@@ -297,30 +302,30 @@ tags: []
 
 ・adequate grounds for arrest  
 用途: 逮捕を法的に正当化する根拠が十分であることを表す。  
-例: The officers needed adequate grounds for arrest before detaining him.  
-訳: 警官は彼を拘束する前に、逮捕に十分な根拠を必要とした。  
+例: The court found adequate grounds for the arrest under the applicable law.  
+訳: 裁判所は、適用される法律の下でその逮捕に十分な根拠があると判断した。  
 
 ・provide adequate notice to the other party  
 用途: 手続上必要な内容と期間を満たす通知を相手方に行う。  
 例: The landlord failed to provide adequate notice to the tenant.  
 訳: 大家は借主に十分な通知を行わなかった。  
 
-・adequate consideration in a contract  
-用途: 契約上、対価として法的に十分な価値があることを表す。  
+・adequate consideration for a property transfer  
+用途: 財産の譲渡などで、交換対象に見合う対価があるという法的評価を表す。法域や制度によって要求される基準は異なる。  
 例: The transfer was challenged for lack of adequate consideration.  
-訳: その譲渡は十分な対価を欠いているとして争われた。  
+訳: その譲渡は、交換対象に見合う十分な対価を欠いているとして争われた。  
 
-・an adequate legal remedy  
-用途: 権利侵害や損害に対して、法律上利用できる十分な救済手段を表す。  
-例: The court considered whether damages were an adequate legal remedy.  
-訳: 裁判所は損害賠償が十分な法的救済になるかを検討した。  
+・an adequate remedy at law  
+用途: 権利侵害や損害に対して、金銭賠償などの法的救済だけで十分かを表す。  
+例: The court considered whether damages provided an adequate remedy at law.  
+訳: 裁判所は、損害賠償が法的救済として十分かを検討した。  
 
 ・be legally adequate under 〈法令〉  
 用途: 特定の法令や手続の基準を満たしていることを述べる。  
 例: The disclosure was legally adequate under the applicable statute.  
 訳: その開示は適用される法令の下で法的に十分だった。  
 
-【語法・注意】法律義の adequate は、日常語の「まあ十分」ではなく、法令・判例・手続が要求する合理的な水準を満たすという専門的な評価である。adequate だけから「合法」「勝訴できる」と判断してはならない。  
+【語法・注意】法律義の adequate は、日常語の「まあ十分」ではなく、法令・判例・手続が要求する合理的な水準を満たすという専門的な評価である。adequate だけから「合法」「勝訴できる」と判断してはならない。adequate grounds for arrest の名称や要件は法域によって異なり、米国法の probable cause と同義だと決めつけない。adequate consideration は契約法一般の consideration と同義ではなく、財産移転などで取引価値に照らして十分・公正な対価を指すことがあるが、基準・効果は法域や制度によって異なる。an adequate remedy at law の at law は、衡平法上の救済（in equity）と対比される法律上の救済を指す。  
 
 【類義語】
 
