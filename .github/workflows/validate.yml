@@ -4,11 +4,14 @@ on:
   pull_request:
     paths:
       - "entries/**/*.md"
+      - "audits/**"
       - "queue/words.csv"
       - "prompts/**/*.md"
       - "scripts/**/*.py"
       - "tests/**/*.py"
+      - ".github/workflows/validate.yml"
       - "AGENTS.md"
+      - "README.md"
   workflow_dispatch:
 
 permissions:
@@ -22,6 +25,8 @@ jobs:
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -40,3 +45,15 @@ jobs:
       - name: Validate queue and entry consistency
         run: python scripts/validate_repository.py
 
+      - name: Validate complete independent content audits
+        shell: bash
+        env:
+          BASE_SHA: ${{ github.event.pull_request.base.sha }}
+          HEAD_SHA: ${{ github.event.pull_request.head.sha }}
+        run: |
+          if [[ "$GITHUB_EVENT_NAME" == "pull_request" ]]; then
+            python scripts/content_audit.py validate-changed \
+              --base "$BASE_SHA" \
+              --head "$HEAD_SHA"
+          else
+            python scripts/content_audit.py validate-audited
