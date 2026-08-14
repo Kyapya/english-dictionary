@@ -79,6 +79,7 @@ jobs:
             fi
             args+=(--entry "$file")
           done
+          python scripts/content_audit.py validate-sync "${files[@]}"
           python scripts/import_to_notion.py \
             "${args[@]}" \
             --parent-id "$NOTION_DATA_SOURCE_ID" \

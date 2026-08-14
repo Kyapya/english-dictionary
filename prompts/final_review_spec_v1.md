@@ -65,14 +65,15 @@ python scripts/content_audit.py seal-blind audits/a/apple.json
 
 ## 関係監査の個別判定
 
-単一箇所の正誤だけでは検出できない問題を、`scripts/content_audit.py build` が `relations` として自動生成する。通常チェックと最終審査は全relationを同じIDで個別判定する。
+単一箇所の正誤だけでは検出できない問題を、`scripts/content_audit.py build` が `relations` として自動生成する。通常チェックと最終審査は、絞り込まれて生成された全relationを同じIDで個別判定する。件数を増やすこと自体を網羅性と見なさない。
 
 - 全語義対の最小差、境界、重複、統合可能性。
 - 各記述と所属語義の整合。
 - コロケーションの用途・英文・訳の意味関係。
 - 定義と語法注意の整合。
 - 文法パターンと用例群の対応。
-- コアイメージと各語義の対応。
+- コアイメージで語義番号が明示された枝と当該語義の対応。語義番号を限定しない総括文は、語義目録全体との整合を1件で確認する。
+- 記事内の語法・定義・相互参照が混同リスクを具体的に示す語義対の境界。全語義ペアの直積は作らない。
 - 記事全体から生じる学習者の誤った一般化。
 
 relationが一つでも未判定または `fail` なら `PASS` にしない。
@@ -89,7 +90,9 @@ relationが一つでも未判定または `fail` なら `PASS` にしない。
 
 ## 根拠台帳の検証
 
-`targets` で `requires_evidence: true` の項目、全relation、両者の独立棚卸し候補、findingとresolution、棚卸し比較には主張単位の `evidence_links` が必要である。各リンクには対象種別・対象ID、検証する主張、資料ID、資料内の該当箇所、どのように支持するか、支持種別、反例確認の有無と結果を記録する。最終審査担当は、単に資料名があることではなく、資料の該当箇所が実際に対象主張を支えることを確認し、各結果の `evidence_link_ids_checked` に確認済みリンクIDを記録する。
+`targets` で `requires_evidence: true` の項目、生成された全relation、両者の独立棚卸し候補、findingとresolution、棚卸し比較には主張単位の `evidence_links` が必要である。各リンクには対象種別・対象ID、検証する主張、資料ID、位置種別、資料内の具体的位置、どのように支持するか、当該語義・構文への適用範囲、支持種別、反例確認の方法と結果を記録する。最終審査担当は、単に資料名があることではなく、資料の該当箇所が実際に対象主張を支えることを確認し、各結果の `evidence_link_ids_checked` に確認済みリンクIDを記録する。
+
+`evidence_policy: two_sources_or_primary` の高リスク対象は、独立した2資料または当該主張へ直接適用できる一次資料がなければ `pass` にしない。特に地域差、専門・制度用法、語義境界、頻度、類義語・反意語、絶対表現では、一般的な辞書名や検索見出しだけで根拠要件を満たしたと扱わない。
 
 少なくとも次の主張は高リスクとして扱う。
 
@@ -123,6 +126,14 @@ relationが一つでも未判定または `fail` なら `PASS` にしない。
 コールドレビューの全findingと、通常チェック側による全resolutionを確認する。resolutionには `problem_confirmed`、理由、必要な変更、影響target・relation、実施した変更、残存リスク、根拠リンクを記録する。最終審査はfindingの妥当性とresolutionの完了性を分け、`finding_validity`、`resolution_status`、実際に確認した変更、未解決問題を `final_review.finding_results` に同じIDで記録する。採用修正が最新版へ反映されているか、不採用理由が資料と仕様に支えられているか、保留が残っていないかを確認する。
 
 コールドレビューの候補が0件の場合も、`summary` に「問題候補なし」があり、独立条件を満たした実行であることを確認する。コールドレビューの候補が少ないことや0件であることを、記事内容の合格根拠にはしない。
+
+## 履歴・原出力・回帰確認
+
+`content_audit_v3` の `review_history`、`current_cycle.body_revisions`、`current_cycle.raw_outputs` を確認する。各body revisionは本文スナップショットの実体とハッシュが一致しなければならない。通常、コールド、最終盲検、最終照合の各原出力は別ファイルで保存され、SHA-256、run ID、context ID、入力本文・promptハッシュが各executionと一致しなければならない。コールドレビュー原出力は同一cycleにつき1件だけとする。
+
+完了済み監査後の本文修正または再審査では、旧監査原文が `audits/history/` に不変のまま追記され、新しいcycle IDで審査されていることを確認する。過去の本文ハッシュや判定を現在値へ書き換えて履歴を整合させてはならない。
+
+`audits/escaped_defect_taxonomy.json` の全分類について `regression_checks` が `pass` または理由付き `not_applicable` であり、レビュー後に判明した不備があれば語固有ではない分類、影響target、再発防止策が `escaped_defects` に記録されていることを確認する。
 
 ## 本文ハッシュと再審査
 

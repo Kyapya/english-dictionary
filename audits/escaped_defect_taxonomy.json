@@ -1,0 +1,45 @@
+{
+  "schema_version": "escaped_defect_taxonomy_v1",
+  "categories": [
+    {
+      "id": "compound_component_generalization",
+      "description": "複合語の一要素の性質を、複合語全体または見出し語の一般則として広げる誤り。"
+    },
+    {
+      "id": "argument_slot_role_mismatch",
+      "description": "文法フレームの項スロットと、用例内で実現している意味役割が一致しない誤り。"
+    },
+    {
+      "id": "regional_qualification",
+      "description": "地域差・方言差・英米差の限定が不足、過剰、または根拠不十分である誤り。"
+    },
+    {
+      "id": "technical_terminology_conventionality",
+      "description": "専門領域・制度内で慣用される訳語、用法、範囲を一般語の直訳で置き換える誤り。"
+    },
+    {
+      "id": "sense_boundary_overlap",
+      "description": "語義間の最小差が示されず、重複・分割・統合の判断が不安定になる誤り。"
+    },
+    {
+      "id": "lexical_relation_mislabel",
+      "description": "対照表現・関連語を、同一軸上の反意語または十分近い類義語として誤表示する誤り。"
+    },
+    {
+      "id": "example_translation_alignment",
+      "description": "英文と訳文で意味役割、修飾範囲、程度、時制、レジスターが保存されない誤り。"
+    },
+    {
+      "id": "absolute_scope_counterexample",
+      "description": "必ず・のみ・不可などの絶対表現に対する反例探索が不足する誤り。"
+    },
+    {
+      "id": "pronunciation_symbol_explanation",
+      "description": "発音記号、地域変種、発音説明の対応が曖昧または矛盾する誤り。"
+    },
+    {
+      "id": "evidence_claim_mismatch",
+      "description": "出典位置や適用範囲が対象主張を直接支えず、一般的な出典名だけで根拠化する誤り。"
+    }
+  ]
+}

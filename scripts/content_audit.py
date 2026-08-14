@@ -2,7 +2,6 @@ from __future__ import annotations
 
 import argparse
 import hashlib
-import itertools
 import json
 import re
 import subprocess
@@ -13,7 +12,8 @@ from typing import Any
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-AUDIT_SCHEMA_VERSION = "content_audit_v2"
+AUDIT_SCHEMA_VERSION = "content_audit_v3"
+PREVIOUS_AUDIT_SCHEMA_VERSION = "content_audit_v2"
 LEGACY_AUDIT_SCHEMA_VERSION = "content_audit_v1"
 COLD_REVIEW_PROMPT_VERSION = "cold_review_prompt_v1"
 FINAL_STATUSES = {"checked", "final"}
@@ -41,6 +41,32 @@ EVIDENCE_REQUIRED_KINDS = {
     "synonym",
     "antonym",
 }
+TWO_SOURCES_OR_PRIMARY_KINDS = {
+    "sense_boundary",
+    "frequency",
+    "register",
+    "synonym",
+    "antonym",
+}
+PRIMARY_SOURCE_TYPES = {
+    "primary_source",
+    "official_primary",
+    "corpus",
+    "standard",
+    "research_paper",
+}
+ESCAPED_DEFECT_CATEGORIES = (
+    "compound_component_generalization",
+    "argument_slot_role_mismatch",
+    "regional_qualification",
+    "technical_terminology_conventionality",
+    "sense_boundary_overlap",
+    "lexical_relation_mislabel",
+    "example_translation_alignment",
+    "absolute_scope_counterexample",
+    "pronunciation_symbol_explanation",
+    "evidence_claim_mismatch",
+)
 INLINE_LABELS = {
     "【日本語訳・定義】": "definition",
     "【頻度】": "frequency",
@@ -77,6 +103,11 @@ def _digest(text: str) -> str:
 def body_sha256(entry_path: Path) -> str:
     _, body = _split_front_matter(entry_path.read_text(encoding="utf-8"))
     return _digest(body)
+
+
+def _entry_body(entry_path: Path) -> str:
+    _, body = _split_front_matter(entry_path.read_text(encoding="utf-8"))
+    return body
 
 
 def audit_path_for_entry(entry_path: Path, repo_root: Path = REPO_ROOT) -> Path:
@@ -119,6 +150,12 @@ def extract_targets(entry_path: Path) -> list[dict[str, Any]]:
                 "sense": sense,
                 "text_sha256": _digest(text),
                 "requires_evidence": requires_evidence,
+                "evidence_policy": (
+                    "two_sources_or_primary"
+                    if kind in TWO_SOURCES_OR_PRIMARY_KINDS
+                    or HIGH_RISK_MARKERS.search(text) is not None
+                    else "one_source"
+                ),
                 "text": text,
             }
         )
@@ -195,8 +232,10 @@ def extract_targets(entry_path: Path) -> list[dict[str, Any]]:
     return targets
 
 
-def extract_relations(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
-    """Build deterministic article-level and cross-target audit relationships."""
+def _extract_relations_v2(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Preserve the v2 relation inventory for unchanged legacy manifests."""
+    import itertools
+
     relations: list[dict[str, Any]] = []
     counters: dict[str, int] = {}
 
@@ -220,26 +259,71 @@ def extract_relations(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
 
     senses = [target for target in targets if target["kind"] == "sense_boundary"]
     sense_by_text = {target["text"]: target for target in senses}
-
     for left, right in itertools.combinations(senses, 2):
         add(
             "sense_pair",
             [left["id"], right["id"]],
             "両語義の最小差、境界、重複、統合可能性を比較し、対象種類や使用分野だけに依存しない独立差を確認する。",
         )
-
     for target in targets:
         if target["kind"] == "sense_boundary" or not target.get("sense"):
             continue
         boundary = sense_by_text.get(target["sense"])
-        if boundary is None:
-            continue
-        add(
-            "sense_membership",
-            [boundary["id"], target["id"]],
-            "対象記述が所属語義の定義・品詞・意味範囲に実際に属し、別語義へ移すべき内容ではないことを確認する。",
-        )
+        if boundary is not None:
+            add(
+                "sense_membership",
+                [boundary["id"], target["id"]],
+                "対象記述が所属語義の定義・品詞・意味範囲に実際に属し、別語義へ移すべき内容ではないことを確認する。",
+            )
+    _append_shared_relations(relations, counters, targets, senses, add, legacy=True)
+    return relations
 
+
+def _sense_number(target: dict[str, Any]) -> str:
+    match = re.match(r"^(\d+)\.", str(target.get("text", "")))
+    return match.group(1) if match else ""
+
+
+def _referenced_sense_numbers(text: str) -> set[str]:
+    return set(re.findall(r"語義\s*([0-9]+)", text))
+
+
+def _sense_risk_pairs(
+    targets: list[dict[str, Any]], senses: list[dict[str, Any]]
+) -> list[tuple[dict[str, Any], dict[str, Any], list[str]]]:
+    """Select only article-signalled overlap risks; never enumerate every pair."""
+    by_number = {_sense_number(sense): sense for sense in senses}
+    reasons: dict[tuple[str, str], set[str]] = {}
+    for target in targets:
+        owner = by_number.get(_sense_number({"text": target.get("sense", "")}))
+        if owner is None:
+            continue
+        owner_number = _sense_number(owner)
+        for referenced in _referenced_sense_numbers(str(target.get("text", ""))):
+            other = by_number.get(referenced)
+            if other is None or other["id"] == owner["id"]:
+                continue
+            pair = tuple(sorted((owner["id"], other["id"])))
+            reasons.setdefault(pair, set()).add(
+                f"{target['id']} explicitly contrasts sense {owner_number} with sense {referenced}"
+            )
+    indexed = {sense["id"]: sense for sense in senses}
+    return [
+        (indexed[left], indexed[right], sorted(pair_reasons))
+        for (left, right), pair_reasons in sorted(reasons.items())
+    ]
+
+
+def _append_shared_relations(
+    relations: list[dict[str, Any]],
+    counters: dict[str, int],
+    targets: list[dict[str, Any]],
+    senses: list[dict[str, Any]],
+    add: Any,
+    *,
+    legacy: bool,
+) -> None:
+    """Append non-cartesian relation families shared by v2 and v3."""
     for target in targets:
         if target["kind"] == "collocation":
             add(
@@ -247,7 +331,6 @@ def extract_relations(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 [target["id"]],
                 "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
             )
-
     for sense in senses:
         members = [target for target in targets if target.get("sense") == sense["text"]]
         definitions = [target for target in members if target["kind"] == "definition"]
@@ -270,22 +353,83 @@ def extract_relations(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
                 + [collocation["id"] for collocation in collocations],
                 "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
             )
-
     core_images = [target for target in targets if target["kind"] == "core_image"]
+    sense_by_number = {_sense_number(sense): sense for sense in senses}
     for core_image in core_images:
-        for sense in senses:
+        referenced = sorted(
+            _referenced_sense_numbers(core_image["text"]), key=lambda value: int(value)
+        )
+        mapped = [sense_by_number[number] for number in referenced if number in sense_by_number]
+        if legacy:
+            mapped = senses
+        if mapped:
+            for sense in mapped:
+                add(
+                    "core_sense_mapping",
+                    [core_image["id"], sense["id"]],
+                    (
+                        "コアイメージの説明が対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+                        if legacy
+                        else "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+                    ),
+                )
+        elif senses:
             add(
-                "core_sense_mapping",
-                [core_image["id"], sense["id"]],
-                "コアイメージの説明が対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+                "core_inventory_consistency",
+                [core_image["id"]] + [sense["id"] for sense in senses],
+                "語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。",
             )
-
     if senses:
         add(
             "article_learning_risk",
             [sense["id"] for sense in senses],
             "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
         )
+
+
+def extract_relations(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
+    """Build deterministic article-level and cross-target audit relationships."""
+    relations: list[dict[str, Any]] = []
+    counters: dict[str, int] = {}
+
+    def add(kind: str, target_ids: list[str], description: str) -> None:
+        counters[kind] = counters.get(kind, 0) + 1
+        canonical = json.dumps(
+            {"kind": kind, "target_ids": target_ids, "description": description},
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+        relations.append(
+            {
+                "id": f"{kind}:{counters[kind]:03d}",
+                "kind": kind,
+                "target_ids": target_ids,
+                "description": description,
+                "text_sha256": _digest(canonical),
+                "requires_evidence": True,
+                "evidence_policy": (
+                    "two_sources_or_primary"
+                    if kind
+                    in {
+                        "risk_sense_pair",
+                        "core_sense_mapping",
+                        "core_inventory_consistency",
+                        "article_learning_risk",
+                    }
+                    else "one_source"
+                ),
+            }
+        )
+
+    senses = [target for target in targets if target["kind"] == "sense_boundary"]
+    for left, right, reasons in _sense_risk_pairs(targets, senses):
+        add(
+            "risk_sense_pair",
+            [left["id"], right["id"]],
+            "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: "
+            + "; ".join(reasons),
+        )
+    _append_shared_relations(relations, counters, targets, senses, add, legacy=False)
     return relations
 
 
@@ -304,11 +448,46 @@ def _empty_execution() -> dict[str, Any]:
 
 def build_manifest(entry_path: Path, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
     relative = entry_path.resolve().relative_to(repo_root.resolve()).as_posix()
+    relative_entry = Path(relative)
+    revision_path = (
+        Path("audits/runs")
+        / Path(*relative_entry.parts[1:]).with_suffix("")
+        / "cycle-001"
+        / "revision-001.md"
+    )
     targets = extract_targets(entry_path)
+    current_body_hash = body_sha256(entry_path)
     return {
         "schema_version": AUDIT_SCHEMA_VERSION,
         "entry_path": relative,
-        "body_sha256": body_sha256(entry_path),
+        "body_sha256": current_body_hash,
+        "review_history": [],
+        "current_cycle": {
+            "cycle_id": "cycle-001",
+            "parent_cycle_id": None,
+            "started_at": "",
+            "change_reason": "",
+            "body_revisions": [
+                {
+                    "revision_id": "revision-001",
+                    "body_sha256": current_body_hash,
+                    "snapshot_path": revision_path.as_posix(),
+                    "created_at": "",
+                    "reason": "initial audited body",
+                }
+            ],
+            "raw_outputs": {
+                "normal_review": {},
+                "cold_review": {},
+                "final_blind": {},
+                "final_review": {},
+            },
+            "escaped_defects": [],
+            "regression_checks": [
+                {"category": category, "status": "pending", "notes": ""}
+                for category in ESCAPED_DEFECT_CATEGORIES
+            ],
+        },
         "targets": targets,
         "relations": extract_relations(targets),
         "evidence": [],
@@ -690,6 +869,254 @@ def _sha256_value(value: Any, label: str, errors: list[str]) -> None:
         errors.append(f"{label} must be a lowercase SHA-256 digest")
 
 
+def _is_primary_source(source_type: Any) -> bool:
+    normalized = str(source_type).strip().lower()
+    return normalized in PRIMARY_SOURCE_TYPES
+
+
+def _safe_repo_file(path_value: Any, repo_root: Path, prefix: str) -> Path | None:
+    if not _nonempty(path_value):
+        return None
+    relative = Path(str(path_value))
+    if relative.is_absolute() or ".." in relative.parts:
+        return None
+    candidate = (repo_root / relative).resolve()
+    try:
+        candidate.relative_to(repo_root.resolve())
+    except ValueError:
+        return None
+    if not relative.as_posix().startswith(prefix):
+        return None
+    return candidate
+
+
+def _validate_v3_cycle(
+    manifest: dict[str, Any],
+    repo_root: Path,
+    expected_body_hash: str,
+    errors: list[str],
+) -> set[str]:
+    history = manifest.get("review_history")
+    if not isinstance(history, list):
+        errors.append("review_history must be a list")
+        history = []
+    seen_history_cycles: set[str] = set()
+    for index, record in enumerate(history):
+        label = f"review_history[{index}]"
+        if not isinstance(record, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        for key in ("cycle_id", "body_sha256", "snapshot_path", "snapshot_sha256", "archived_at"):
+            if not _nonempty(record.get(key)):
+                errors.append(f"{label}.{key} is required")
+        cycle_id = str(record.get("cycle_id", ""))
+        if cycle_id in seen_history_cycles:
+            errors.append(f"review_history has duplicate cycle_id: {cycle_id}")
+        seen_history_cycles.add(cycle_id)
+        _sha256_value(record.get("body_sha256"), f"{label}.body_sha256", errors)
+        _sha256_value(record.get("snapshot_sha256"), f"{label}.snapshot_sha256", errors)
+        _timestamp(record.get("archived_at"), f"{label}.archived_at", errors)
+        snapshot = _safe_repo_file(record.get("snapshot_path"), repo_root, "audits/history/")
+        if snapshot is None:
+            errors.append(f"{label}.snapshot_path must be a safe path under audits/history/")
+        elif not snapshot.is_file():
+            errors.append(f"{label}.snapshot_path does not exist")
+        else:
+            actual = hashlib.sha256(snapshot.read_bytes()).hexdigest()
+            if actual != record.get("snapshot_sha256"):
+                errors.append(f"{label}.snapshot_sha256 does not match the archived bytes")
+            else:
+                try:
+                    archived_manifest = json.loads(snapshot.read_text(encoding="utf-8"))
+                except (UnicodeDecodeError, json.JSONDecodeError):
+                    errors.append(f"{label}.snapshot_path is not valid JSON")
+                else:
+                    if (
+                        isinstance(archived_manifest, dict)
+                        and archived_manifest.get("schema_version") == AUDIT_SCHEMA_VERSION
+                    ):
+                        _validate_v3_raw_outputs(archived_manifest, repo_root, errors)
+
+    cycle = manifest.get("current_cycle")
+    if not isinstance(cycle, dict):
+        errors.append("current_cycle must be an object")
+        return {expected_body_hash}
+    for key in ("cycle_id", "started_at", "change_reason"):
+        if not _nonempty(cycle.get(key)):
+            errors.append(f"current_cycle.{key} is required")
+    if cycle.get("cycle_id") in seen_history_cycles:
+        errors.append("current_cycle.cycle_id must not repeat a historical cycle_id")
+    expected_parent = history[-1].get("cycle_id") if history and isinstance(history[-1], dict) else None
+    if cycle.get("parent_cycle_id") != expected_parent:
+        errors.append("current_cycle.parent_cycle_id must identify the latest historical cycle")
+    _timestamp(cycle.get("started_at"), "current_cycle.started_at", errors)
+
+    revisions = cycle.get("body_revisions")
+    allowed_hashes: set[str] = set()
+    if not isinstance(revisions, list) or not revisions:
+        errors.append("current_cycle.body_revisions must be a non-empty list")
+        revisions = []
+    revision_ids: set[str] = set()
+    for index, revision in enumerate(revisions):
+        label = f"current_cycle.body_revisions[{index}]"
+        if not isinstance(revision, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        for key in (
+            "revision_id",
+            "body_sha256",
+            "snapshot_path",
+            "created_at",
+            "reason",
+        ):
+            if not _nonempty(revision.get(key)):
+                errors.append(f"{label}.{key} is required")
+        revision_id = str(revision.get("revision_id", ""))
+        if revision_id in revision_ids:
+            errors.append(f"current_cycle.body_revisions has duplicate revision_id: {revision_id}")
+        revision_ids.add(revision_id)
+        _sha256_value(revision.get("body_sha256"), f"{label}.body_sha256", errors)
+        if _nonempty(revision.get("body_sha256")):
+            allowed_hashes.add(str(revision["body_sha256"]))
+        revision_snapshot = _safe_repo_file(
+            revision.get("snapshot_path"), repo_root, "audits/runs/"
+        )
+        if revision_snapshot is None:
+            errors.append(f"{label}.snapshot_path must be a safe path under audits/runs/")
+        elif not revision_snapshot.is_file():
+            errors.append(f"{label}.snapshot_path does not exist")
+        else:
+            try:
+                snapshot_text = revision_snapshot.read_text(encoding="utf-8")
+            except UnicodeDecodeError:
+                errors.append(f"{label}.snapshot_path must be UTF-8 text")
+            else:
+                if _digest(snapshot_text) != revision.get("body_sha256"):
+                    errors.append(f"{label}.snapshot_path does not match body_sha256")
+        _timestamp(revision.get("created_at"), f"{label}.created_at", errors)
+    if revisions and isinstance(revisions[-1], dict) and revisions[-1].get("body_sha256") != expected_body_hash:
+        errors.append("the latest body revision must match the current entry body")
+
+    escaped = cycle.get("escaped_defects")
+    if not isinstance(escaped, list):
+        errors.append("current_cycle.escaped_defects must be a list")
+    else:
+        for index, defect in enumerate(escaped):
+            label = f"current_cycle.escaped_defects[{index}]"
+            if not isinstance(defect, dict):
+                errors.append(f"{label} must be an object")
+                continue
+            if defect.get("category") not in ESCAPED_DEFECT_CATEGORIES:
+                errors.append(f"{label}.category is not in the escaped-defect taxonomy")
+            for key in ("id", "detected_after_stage", "description", "prevention"):
+                if not _nonempty(defect.get(key)):
+                    errors.append(f"{label}.{key} is required")
+            if not isinstance(defect.get("target_ids"), list):
+                errors.append(f"{label}.target_ids must be a list")
+
+    raw_checks = cycle.get("regression_checks")
+    if not isinstance(raw_checks, list):
+        errors.append("current_cycle.regression_checks must be a list")
+        raw_checks = []
+    checks = _index_by_id(
+        [
+            {"id": item.get("category"), **item}
+            if isinstance(item, dict)
+            else item
+            for item in raw_checks
+        ],
+        "current_cycle.regression_checks",
+        errors,
+    )
+    if set(checks) != set(ESCAPED_DEFECT_CATEGORIES):
+        errors.append("current_cycle.regression_checks must cover every taxonomy category exactly once")
+    for category, check in checks.items():
+        if check.get("status") not in {"pending", "pass", "not_applicable"}:
+            errors.append(f"regression check {category} has invalid status")
+        if check.get("status") != "pending" and not _nonempty(check.get("notes")):
+            errors.append(f"regression check {category} requires notes")
+    return allowed_hashes or {expected_body_hash}
+
+
+def _validate_v3_raw_outputs(
+    manifest: dict[str, Any], repo_root: Path, errors: list[str]
+) -> None:
+    cycle = manifest.get("current_cycle")
+    if not isinstance(cycle, dict):
+        return
+    raw_outputs = cycle.get("raw_outputs")
+    if not isinstance(raw_outputs, dict):
+        errors.append("current_cycle.raw_outputs must be an object")
+        return
+    normal = manifest.get("normal_review")
+    cold = manifest.get("cold_review")
+    final = manifest.get("final_review")
+    required: dict[str, tuple[dict[str, Any], dict[str, Any]]] = {}
+    if isinstance(normal, dict) and normal.get("completed") is True:
+        execution = normal.get("execution")
+        required["normal_review"] = (
+            normal,
+            execution if isinstance(execution, dict) else {},
+        )
+    if isinstance(cold, dict) and cold.get("completed") is True:
+        execution = cold.get("execution")
+        required["cold_review"] = (
+            cold,
+            execution if isinstance(execution, dict) else {},
+        )
+    if (
+        isinstance(final, dict)
+        and final.get("completed") is True
+        and final.get("decision") in {"pass", "reject"}
+    ):
+        execution = final.get("execution")
+        final_execution = execution if isinstance(execution, dict) else {}
+        required["final_blind"] = (final, final_execution)
+        required["final_review"] = (final, final_execution)
+
+    seen_paths: set[str] = set()
+    for stage, (review, execution) in required.items():
+        reference = raw_outputs.get(stage)
+        label = f"current_cycle.raw_outputs.{stage}"
+        if not isinstance(reference, dict) or not reference:
+            errors.append(f"{label} is required for a completed stage")
+            continue
+        for key in (
+            "path",
+            "sha256",
+            "input_body_sha256",
+            "prompt_sha256",
+            "run_id",
+            "context_id",
+        ):
+            if not _nonempty(reference.get(key)):
+                errors.append(f"{label}.{key} is required")
+        _sha256_value(reference.get("sha256"), f"{label}.sha256", errors)
+        for key in ("input_body_sha256", "prompt_sha256", "run_id", "context_id"):
+            if reference.get(key) != execution.get(key):
+                errors.append(f"{label}.{key} must match the stage execution")
+        path_value = str(reference.get("path", ""))
+        if path_value in seen_paths:
+            errors.append("each review stage must reference a distinct raw output file")
+        seen_paths.add(path_value)
+        raw_path = _safe_repo_file(path_value, repo_root, "audits/runs/")
+        if raw_path is None:
+            errors.append(f"{label}.path must be a safe path under audits/runs/")
+        elif not raw_path.is_file():
+            errors.append(f"{label}.path does not exist")
+        else:
+            actual = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+            if actual != reference.get("sha256"):
+                errors.append(f"{label}.sha256 does not match the raw output bytes")
+        if stage == "final_blind":
+            blind = review.get("blind_review", {})
+            if reference.get("sealed_output_sha256") != blind.get("output_sha256"):
+                errors.append(
+                    "current_cycle.raw_outputs.final_blind.sealed_output_sha256 "
+                    "must match the sealed blind review"
+                )
+
+
 def _validate_v2_manifest(
     entry_path: Path,
     audit_path: Path,
@@ -708,9 +1135,18 @@ def _validate_v2_manifest(
     entry_status = front.get("status", "")
     entry_checked = front.get("checked", "").lower() == "true"
     expected_body_hash = body_sha256(entry_path)
+    schema_version = manifest.get("schema_version")
+    is_v3 = schema_version == AUDIT_SCHEMA_VERSION
+    allowed_body_hashes = (
+        _validate_v3_cycle(manifest, repo_root, expected_body_hash, errors)
+        if is_v3
+        else {expected_body_hash}
+    )
 
-    if manifest.get("schema_version") != AUDIT_SCHEMA_VERSION:
-        errors.append(f"schema_version must be {AUDIT_SCHEMA_VERSION}")
+    if schema_version not in {PREVIOUS_AUDIT_SCHEMA_VERSION, AUDIT_SCHEMA_VERSION}:
+        errors.append(
+            f"schema_version must be {PREVIOUS_AUDIT_SCHEMA_VERSION} or {AUDIT_SCHEMA_VERSION}"
+        )
     if manifest.get("entry_path") != expected_relative:
         errors.append(f"entry_path must be {expected_relative}")
     if manifest.get("body_sha256") != expected_body_hash:
@@ -726,20 +1162,21 @@ def _validate_v2_manifest(
         if extra:
             errors.append("targets contain stale ids: " + ", ".join(extra))
     for target_id in sorted(set(actual_targets) & set(expected_targets)):
-        for key in (
+        target_keys = (
             "kind",
             "location",
             "section",
             "sense",
             "text_sha256",
             "requires_evidence",
-            "text",
-        ):
+        ) + (("evidence_policy",) if is_v3 else ()) + ("text",)
+        for key in target_keys:
             if actual_targets[target_id].get(key) != expected_targets[target_id].get(key):
                 errors.append(f"target {target_id} has stale or invalid {key}")
 
+    relation_builder = extract_relations if is_v3 else _extract_relations_v2
     expected_relations = {
-        item["id"]: item for item in extract_relations(list(expected_targets.values()))
+        item["id"]: item for item in relation_builder(list(expected_targets.values()))
     }
     actual_relations = _index_by_id(manifest.get("relations"), "relations", errors)
     if set(actual_relations) != set(expected_relations):
@@ -750,13 +1187,14 @@ def _validate_v2_manifest(
         if extra:
             errors.append("relations contain stale ids: " + ", ".join(extra))
     for relation_id in sorted(set(actual_relations) & set(expected_relations)):
-        for key in (
+        relation_keys = (
             "kind",
             "target_ids",
             "description",
             "text_sha256",
             "requires_evidence",
-        ):
+        ) + (("evidence_policy",) if is_v3 else ())
+        for key in relation_keys:
             if actual_relations[relation_id].get(key) != expected_relations[relation_id].get(key):
                 errors.append(f"relation {relation_id} has stale or invalid {key}")
 
@@ -800,6 +1238,20 @@ def _validate_v2_manifest(
             errors.append(f"evidence link {link_id}.counterexample_checked must be boolean")
         if not _nonempty(link.get("counterexample_result")):
             errors.append(f"evidence link {link_id} requires counterexample_result")
+        if is_v3:
+            if link.get("locator_kind") not in {
+                "sense_number",
+                "section",
+                "example",
+                "paragraph",
+                "line",
+                "spec_clause",
+                "corpus_query",
+            }:
+                errors.append(f"evidence link {link_id} has invalid locator_kind")
+            for key in ("source_detail", "applicability", "counterexample_method"):
+                if not _nonempty(link.get(key)):
+                    errors.append(f"evidence link {link_id} requires non-empty {key}")
 
     def check_link_refs(
         refs: Any,
@@ -822,6 +1274,26 @@ def _validate_v2_manifest(
                 errors.append(f"{label} references evidence link for another subject type")
             if subject_id is not None and link.get("subject_id") != subject_id:
                 errors.append(f"{label} references evidence link for another subject id")
+
+    def check_evidence_policy(refs: Any, subject: dict[str, Any] | None, label: str) -> None:
+        if not is_v3 or not isinstance(subject, dict):
+            return
+        if subject.get("evidence_policy") != "two_sources_or_primary":
+            return
+        if not isinstance(refs, list):
+            return
+        evidence_ids = {
+            evidence_links[link_id].get("evidence_id")
+            for link_id in refs
+            if link_id in evidence_links
+        }
+        has_primary = any(
+            _is_primary_source(evidence[evidence_id].get("source_type"))
+            for evidence_id in evidence_ids
+            if evidence_id in evidence
+        )
+        if len(evidence_ids) < 2 and not has_primary:
+            errors.append(f"{label} requires two independent sources or one primary source")
 
     def validate_execution(
         review: dict[str, Any],
@@ -846,7 +1318,7 @@ def _validate_v2_manifest(
                 errors.append(f"{label}.execution.{key} is required")
         if review.get("reviewer_id") != execution.get("run_id"):
             errors.append(f"{label}.reviewer_id must equal execution.run_id")
-        if execution.get("input_body_sha256") != expected_body_hash:
+        if execution.get("input_body_sha256") not in allowed_body_hashes:
             errors.append(f"{label}.execution.input_body_sha256 is stale")
         _sha256_value(
             execution.get("prompt_sha256"),
@@ -978,6 +1450,9 @@ def _validate_v2_manifest(
                 "target",
                 target_id,
             )
+            check_evidence_policy(
+                result.get("evidence_link_ids"), target, f"normal target {target_id}"
+            )
 
         normal_relation_results = _index_by_id(
             normal.get("relation_results"), "normal_review.relation_results", errors
@@ -995,6 +1470,11 @@ def _validate_v2_manifest(
                 True,
                 "relation",
                 relation_id,
+            )
+            check_evidence_policy(
+                result.get("evidence_link_ids"),
+                expected_relations.get(relation_id),
+                f"normal relation {relation_id}",
             )
 
         normal_candidates = _index_by_id(
@@ -1274,6 +1754,11 @@ def _validate_v2_manifest(
                 "target",
                 target_id,
             )
+            check_evidence_policy(
+                result.get("evidence_link_ids_checked"),
+                target,
+                f"final target {target_id}",
+            )
 
         final_relation_results = _index_by_id(
             final.get("relation_results"), "final_review.relation_results", errors
@@ -1293,6 +1778,11 @@ def _validate_v2_manifest(
                 True,
                 "relation",
                 relation_id,
+            )
+            check_evidence_policy(
+                result.get("evidence_link_ids_checked"),
+                expected_relations.get(relation_id),
+                f"final relation {relation_id}",
             )
 
         candidate_results = _index_by_id(
@@ -1416,6 +1906,22 @@ def _validate_v2_manifest(
         if entry_status != "needs_review" or entry_checked:
             errors.append("rejected final review requires needs_review/checked false")
 
+    if is_v3 and decision in {"pass", "reject"}:
+        cycle = manifest.get("current_cycle", {})
+        checks = cycle.get("regression_checks", []) if isinstance(cycle, dict) else []
+        if any(
+            not isinstance(check, dict)
+            or check.get("status") not in {"pass", "not_applicable"}
+            for check in checks
+        ):
+            errors.append(
+                "completed v3 audit requires every escaped-defect regression check "
+                "to be pass or not_applicable"
+            )
+        _validate_v3_raw_outputs(manifest, repo_root, errors)
+    elif is_v3:
+        _validate_v3_raw_outputs(manifest, repo_root, errors)
+
     valid_subjects = {
         "target": set(expected_targets),
         "relation": set(expected_relations),
@@ -1460,6 +1966,12 @@ def validate_manifest(
                 f"changed audited content must use schema_version {AUDIT_SCHEMA_VERSION}"
             ]
         return _validate_legacy_manifest(entry_path, audit_path, repo_root)
+    if schema_version == PREVIOUS_AUDIT_SCHEMA_VERSION:
+        if require_current:
+            return [
+                f"changed audited content must use schema_version {AUDIT_SCHEMA_VERSION}"
+            ]
+        return _validate_v2_manifest(entry_path, audit_path, repo_root)
     if schema_version != AUDIT_SCHEMA_VERSION:
         return [f"schema_version must be {AUDIT_SCHEMA_VERSION}"]
     return _validate_v2_manifest(entry_path, audit_path, repo_root)
@@ -1476,6 +1988,117 @@ def _git_changed_paths(base: str, head: str, repo_root: Path) -> list[str]:
     return [line.strip() for line in result.stdout.splitlines() if line.strip()]
 
 
+def _git_file_at(ref: str, relative: str, repo_root: Path) -> bytes | None:
+    result = subprocess.run(
+        ["git", "show", f"{ref}:{relative}"],
+        cwd=repo_root,
+        check=False,
+        capture_output=True,
+    )
+    return result.stdout if result.returncode == 0 else None
+
+
+def _body_sha256_text(text: str) -> str:
+    _, body = _split_front_matter(text)
+    return _digest(body)
+
+
+def _entry_path_for_audit_relative(path: str) -> str | None:
+    if not path.startswith("audits/") or not path.endswith(".json"):
+        return None
+    relative = Path(path).relative_to("audits")
+    if len(relative.parts) != 2:
+        return None
+    return (Path("entries") / relative.with_suffix(".md")).as_posix()
+
+
+def _entry_path_for_audit_artifact(path: str) -> str | None:
+    parts = Path(path).parts
+    if len(parts) >= 6 and parts[:2] == ("audits", "runs"):
+        return (Path("entries") / parts[2] / f"{parts[3]}.md").as_posix()
+    if len(parts) >= 5 and parts[:2] == ("audits", "history"):
+        return (Path("entries") / parts[2] / f"{parts[3]}.md").as_posix()
+    return None
+
+
+def _completed_manifest(manifest: dict[str, Any]) -> bool:
+    final = manifest.get("final_review")
+    return (
+        isinstance(final, dict)
+        and final.get("completed") is True
+        and final.get("decision") in {"pass", "reject"}
+    )
+
+
+def _validate_append_only_transition(
+    relative: str,
+    entry_path: Path,
+    audit_path: Path,
+    base: str,
+    repo_root: Path,
+) -> list[str]:
+    errors: list[str] = []
+    audit_relative = audit_path.relative_to(repo_root).as_posix()
+    base_audit_bytes = _git_file_at(base, audit_relative, repo_root)
+    base_entry_bytes = _git_file_at(base, relative, repo_root)
+    if base_audit_bytes is None:
+        return errors
+    try:
+        base_manifest = json.loads(base_audit_bytes.decode("utf-8"))
+        head_manifest = json.loads(audit_path.read_text(encoding="utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError, OSError):
+        return errors
+    if not isinstance(base_manifest, dict) or not isinstance(head_manifest, dict):
+        return errors
+    body_changed = (
+        base_entry_bytes is not None
+        and _body_sha256_text(base_entry_bytes.decode("utf-8"))
+        != body_sha256(entry_path)
+    )
+    must_append = body_changed or _completed_manifest(base_manifest)
+    head_history = head_manifest.get("review_history")
+    if not isinstance(head_history, list):
+        head_history = []
+    base_history = base_manifest.get("review_history", [])
+    if not isinstance(base_history, list):
+        base_history = []
+    if head_history[: len(base_history)] != base_history:
+        errors.append("review_history must preserve the base revision as an immutable prefix")
+    if not must_append:
+        base_cycle = base_manifest.get("current_cycle")
+        head_cycle = head_manifest.get("current_cycle")
+        if (
+            isinstance(base_cycle, dict)
+            and isinstance(head_cycle, dict)
+            and base_cycle.get("cycle_id") != head_cycle.get("cycle_id")
+        ):
+            errors.append("an incomplete audit must continue in its existing current_cycle")
+        return errors
+    if head_manifest.get("schema_version") != AUDIT_SCHEMA_VERSION:
+        errors.append(f"a revised or previously completed audit must use {AUDIT_SCHEMA_VERSION}")
+        return errors
+    snapshot_sha = hashlib.sha256(base_audit_bytes).hexdigest()
+    new_records = head_history[len(base_history) :]
+    matching = [
+        record
+        for record in new_records
+        if isinstance(record, dict)
+        and record.get("snapshot_sha256") == snapshot_sha
+        and record.get("body_sha256") == base_manifest.get("body_sha256")
+    ]
+    if not matching:
+        errors.append(
+            "body changes and completed-audit revisions must append an exact snapshot "
+            "of the base audit"
+        )
+    base_cycle = base_manifest.get("current_cycle")
+    head_cycle = head_manifest.get("current_cycle")
+    if isinstance(base_cycle, dict) and isinstance(head_cycle, dict):
+        if base_cycle.get("cycle_id") == head_cycle.get("cycle_id"):
+            errors.append("a revised completed audit must start a new cycle_id")
+    return errors
+
+
 def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
     changed = _git_changed_paths(base, head, repo_root)
@@ -1484,9 +2107,10 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
     }
     audit_sources: dict[str, list[Path]] = {}
     for path in changed:
-        if path.startswith("audits/") and path.endswith(".json"):
-            relative = Path(path).relative_to("audits").with_suffix(".md")
-            candidate_entry = (Path("entries") / relative).as_posix()
+        candidate_entry = _entry_path_for_audit_relative(path)
+        if candidate_entry is None:
+            candidate_entry = _entry_path_for_audit_artifact(path)
+        if candidate_entry is not None:
             entry_paths.add(candidate_entry)
             audit_sources.setdefault(candidate_entry, []).append(repo_root / path)
 
@@ -1507,6 +2131,11 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
             entry_path, audit_path, repo_root, require_current=True
         ):
             errors.append(f"{relative}: {error}")
+        if audit_path.is_file():
+            for error in _validate_append_only_transition(
+                relative, entry_path, audit_path, base, repo_root
+            ):
+                errors.append(f"{relative}: {error}")
     return errors
 
 
@@ -1517,6 +2146,8 @@ def validate_all_audited(repo_root: Path = REPO_ROOT) -> list[str]:
         return []
     for audit_path in sorted(audits_dir.rglob("*.json")):
         relative = audit_path.relative_to(audits_dir).with_suffix(".md")
+        if len(relative.parts) != 2:
+            continue
         entry_path = repo_root / "entries" / relative
         if not entry_path.is_file():
             errors.append(f"audit has no entry: {audit_path.relative_to(repo_root)}")
@@ -1524,6 +2155,157 @@ def validate_all_audited(repo_root: Path = REPO_ROOT) -> list[str]:
         for error in validate_manifest(entry_path, audit_path, repo_root):
             errors.append(f"{entry_path.relative_to(repo_root)}: {error}")
     return errors
+
+
+def validate_sync(entry_paths: list[Path], repo_root: Path = REPO_ROOT) -> list[str]:
+    errors: list[str] = []
+    for entry_path in entry_paths:
+        resolved = entry_path.resolve()
+        try:
+            relative = resolved.relative_to(repo_root.resolve()).as_posix()
+        except ValueError:
+            errors.append(f"sync entry must be under the repository: {entry_path}")
+            continue
+        if not resolved.is_file() or not relative.startswith("entries/") or not relative.endswith(".md"):
+            errors.append(f"invalid sync entry: {relative}")
+            continue
+        front, _ = _split_front_matter(resolved.read_text(encoding="utf-8"))
+        if front.get("status") not in FINAL_STATUSES:
+            continue
+        audit_path = audit_path_for_entry(resolved, repo_root)
+        for error in validate_manifest(resolved, audit_path, repo_root):
+            errors.append(f"{relative}: {error}")
+    return errors
+
+
+def _write_latest_revision_snapshot(
+    manifest: dict[str, Any], entry_path: Path, repo_root: Path
+) -> None:
+    cycle = manifest["current_cycle"]
+    revision = cycle["body_revisions"][-1]
+    snapshot = _safe_repo_file(revision["snapshot_path"], repo_root, "audits/runs/")
+    if snapshot is None:
+        raise ValueError("generated revision snapshot path is not safe")
+    snapshot.parent.mkdir(parents=True, exist_ok=True)
+    snapshot.write_text(_entry_body(entry_path), encoding="utf-8")
+
+
+def start_review_cycle(
+    entry_path: Path,
+    audit_path: Path,
+    reason: str,
+    repo_root: Path = REPO_ROOT,
+) -> list[str]:
+    if not audit_path.is_file():
+        return ["cannot start a new cycle without an existing audit manifest"]
+    old_bytes = audit_path.read_bytes()
+    try:
+        old = json.loads(old_bytes.decode("utf-8"))
+    except (UnicodeDecodeError, json.JSONDecodeError) as exc:
+        return [f"cannot read existing audit manifest: {exc}"]
+    if not isinstance(old, dict):
+        return ["existing audit manifest must be a JSON object"]
+    history = old.get("review_history", [])
+    if not isinstance(history, list):
+        return ["existing review_history must be a list"]
+    old_cycle = old.get("current_cycle")
+    if isinstance(old_cycle, dict) and _nonempty(old_cycle.get("cycle_id")):
+        archived_cycle_id = str(old_cycle["cycle_id"])
+    else:
+        archived_cycle_id = "legacy-" + str(old.get("body_sha256", ""))[:12]
+    relative_entry = entry_path.resolve().relative_to(repo_root.resolve())
+    snapshot_relative = (
+        Path("audits/history")
+        / Path(*relative_entry.parts[1:]).with_suffix("")
+        / f"{archived_cycle_id}.json"
+    )
+    snapshot_path = repo_root / snapshot_relative
+    if snapshot_path.exists() and snapshot_path.read_bytes() != old_bytes:
+        return [f"archive snapshot already exists with different bytes: {snapshot_relative}"]
+    snapshot_path.parent.mkdir(parents=True, exist_ok=True)
+    snapshot_path.write_bytes(old_bytes)
+    now = datetime.now().astimezone().isoformat(timespec="seconds")
+    record = {
+        "cycle_id": archived_cycle_id,
+        "body_sha256": old.get("body_sha256"),
+        "snapshot_path": snapshot_relative.as_posix(),
+        "snapshot_sha256": hashlib.sha256(old_bytes).hexdigest(),
+        "archived_at": now,
+    }
+    new = build_manifest(entry_path, repo_root)
+    new["review_history"] = [*history, record]
+    cycle = new["current_cycle"]
+    cycle["cycle_id"] = f"cycle-{len(history) + 2:03d}"
+    cycle["parent_cycle_id"] = archived_cycle_id
+    cycle["started_at"] = now
+    cycle["change_reason"] = reason
+    cycle["body_revisions"][0]["created_at"] = now
+    new_revision_path = (
+        Path("audits/runs")
+        / Path(*relative_entry.parts[1:]).with_suffix("")
+        / cycle["cycle_id"]
+        / "revision-001.md"
+    )
+    cycle["body_revisions"][0]["snapshot_path"] = new_revision_path.as_posix()
+    _write_latest_revision_snapshot(new, entry_path, repo_root)
+    audit_path.write_text(
+        json.dumps(new, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return []
+
+
+def add_body_revision(
+    entry_path: Path,
+    audit_path: Path,
+    reason: str,
+    repo_root: Path = REPO_ROOT,
+) -> list[str]:
+    if not audit_path.is_file():
+        return ["cannot add a body revision without an existing audit manifest"]
+    try:
+        manifest = json.loads(audit_path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"cannot read existing audit manifest: {exc}"]
+    if not isinstance(manifest, dict) or manifest.get("schema_version") != AUDIT_SCHEMA_VERSION:
+        return [f"body revisions require schema_version {AUDIT_SCHEMA_VERSION}"]
+    if _completed_manifest(manifest):
+        return ["completed audits require start-cycle, not add-revision"]
+    cycle = manifest.get("current_cycle")
+    if not isinstance(cycle, dict) or not _nonempty(cycle.get("cycle_id")):
+        return ["current_cycle with a cycle_id is required"]
+    revisions = cycle.get("body_revisions")
+    if not isinstance(revisions, list) or not revisions:
+        return ["current_cycle.body_revisions must be a non-empty list"]
+    current_hash = body_sha256(entry_path)
+    latest = revisions[-1]
+    if isinstance(latest, dict) and latest.get("body_sha256") == current_hash:
+        return ["the current entry body is already the latest recorded revision"]
+    revision_id = f"revision-{len(revisions) + 1:03d}"
+    relative_entry = entry_path.resolve().relative_to(repo_root.resolve())
+    snapshot_relative = (
+        Path("audits/runs")
+        / Path(*relative_entry.parts[1:]).with_suffix("")
+        / str(cycle["cycle_id"])
+        / f"{revision_id}.md"
+    )
+    revisions.append(
+        {
+            "revision_id": revision_id,
+            "body_sha256": current_hash,
+            "snapshot_path": snapshot_relative.as_posix(),
+            "created_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+            "reason": reason,
+        }
+    )
+    targets = extract_targets(entry_path)
+    manifest["body_sha256"] = current_hash
+    manifest["targets"] = targets
+    manifest["relations"] = extract_relations(targets)
+    _write_latest_revision_snapshot(manifest, entry_path, repo_root)
+    audit_path.write_text(
+        json.dumps(manifest, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return []
 
 
 def seal_blind_review(audit_path: Path) -> list[str]:
@@ -1590,6 +2372,19 @@ def main() -> int:
     seal = subparsers.add_parser("seal-blind")
     seal.add_argument("audit", type=Path)
 
+    start_cycle = subparsers.add_parser("start-cycle")
+    start_cycle.add_argument("entry", type=Path)
+    start_cycle.add_argument("--audit", type=Path)
+    start_cycle.add_argument("--reason", required=True)
+
+    add_revision = subparsers.add_parser("add-revision")
+    add_revision.add_argument("entry", type=Path)
+    add_revision.add_argument("--audit", type=Path)
+    add_revision.add_argument("--reason", required=True)
+
+    sync = subparsers.add_parser("validate-sync")
+    sync.add_argument("entries", nargs="+", type=Path)
+
     subparsers.add_parser("validate-audited")
     args = parser.parse_args()
 
@@ -1597,8 +2392,10 @@ def main() -> int:
         entry_path = args.entry.resolve()
         output = args.output or audit_path_for_entry(entry_path)
         output.parent.mkdir(parents=True, exist_ok=True)
+        manifest = build_manifest(entry_path)
+        _write_latest_revision_snapshot(manifest, entry_path, REPO_ROOT)
         output.write_text(
-            json.dumps(build_manifest(entry_path), ensure_ascii=False, indent=2) + "\n",
+            json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
         try:
@@ -1624,6 +2421,20 @@ def main() -> int:
             display_path = audit_path
         print(f"Sealed blind review: {display_path}")
         return 0
+    if args.command == "start-cycle":
+        entry_path = args.entry.resolve()
+        audit_path = args.audit.resolve() if args.audit else audit_path_for_entry(entry_path)
+        return _print_errors(
+            start_review_cycle(entry_path, audit_path, args.reason, REPO_ROOT)
+        )
+    if args.command == "add-revision":
+        entry_path = args.entry.resolve()
+        audit_path = args.audit.resolve() if args.audit else audit_path_for_entry(entry_path)
+        return _print_errors(
+            add_body_revision(entry_path, audit_path, args.reason, REPO_ROOT)
+        )
+    if args.command == "validate-sync":
+        return _print_errors(validate_sync(args.entries, REPO_ROOT))
     return _print_errors(validate_all_audited())
 
 
