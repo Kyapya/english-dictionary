@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import copy
+import hashlib
 import json
 import sys
 import tempfile
@@ -92,6 +93,17 @@ class ContentAuditTests(unittest.TestCase):
 
     def _complete_manifest(self) -> dict[str, object]:
         manifest = build_manifest(self.entry, self.root)
+        cycle = manifest["current_cycle"]
+        assert isinstance(cycle, dict)
+        cycle["started_at"] = "2026-08-13T10:55:00Z"
+        cycle["change_reason"] = "Initial content audit."
+        cycle["body_revisions"][0]["created_at"] = "2026-08-13T10:55:00Z"  # type: ignore[index]
+        revision_snapshot = self.root / cycle["body_revisions"][0]["snapshot_path"]  # type: ignore[index]
+        revision_snapshot.parent.mkdir(parents=True, exist_ok=True)
+        revision_snapshot.write_text(content_audit._entry_body(self.entry), encoding="utf-8")
+        for check in cycle["regression_checks"]:  # type: ignore[union-attr]
+            check["status"] = "not_applicable"
+            check["notes"] = "Checked; this defect category does not apply to the fixture."
         targets = manifest["targets"]
         relations = manifest["relations"]
         assert isinstance(targets, list)
@@ -101,7 +113,7 @@ class ContentAuditTests(unittest.TestCase):
         manifest["evidence"] = [
             {
                 "id": "evidence:001",
-                "source_type": "dictionary",
+                "source_type": "official_primary",
                 "citation": "Example Dictionary, sample",
                 "locator": "sample entry",
                 "supports": "The recorded form, grammar, and sense inventory.",
@@ -120,9 +132,13 @@ class ContentAuditTests(unittest.TestCase):
                     "evidence_id": "evidence:001",
                     "claim": f"Claim checked for {subject_type} {subject_id}.",
                     "locator": "sample entry, relevant definition and example",
+                    "locator_kind": "sense_number",
+                    "source_detail": "Sense 1, definition and first example.",
                     "supports": f"Directly supports {subject_type} {subject_id}.",
+                    "applicability": "Applies to the same lemma, sense, and frame.",
                     "support_type": "direct",
                     "counterexample_checked": True,
+                    "counterexample_method": "Checked the neighbouring senses and frame restrictions.",
                     "counterexample_result": "No contradictory current example was found.",
                 }
             )
@@ -292,6 +308,35 @@ class ContentAuditTests(unittest.TestCase):
         manifest["final_review"]["blind_review"]["output_sha256"] = (  # type: ignore[index]
             blind_review_sha256(manifest["final_review"])  # type: ignore[arg-type,index]
         )
+
+        raw_dir = self.root / "audits" / "runs" / "s" / "sample" / "cycle-001"
+        raw_dir.mkdir(parents=True, exist_ok=True)
+
+        def add_raw(stage: str, review_key: str, *, blind: bool = False) -> None:
+            review = manifest[review_key]
+            execution = review["execution"]  # type: ignore[index]
+            relative = Path("audits/runs/s/sample/cycle-001") / f"{stage}.txt"
+            content = (
+                f"stage={stage}\nrun_id={execution['run_id']}\n"
+                f"input_body_sha256={execution['input_body_sha256']}\n"
+            ).encode()
+            (self.root / relative).write_bytes(content)
+            reference = {
+                "path": relative.as_posix(),
+                "sha256": hashlib.sha256(content).hexdigest(),
+                "input_body_sha256": execution["input_body_sha256"],
+                "prompt_sha256": execution["prompt_sha256"],
+                "run_id": execution["run_id"],
+                "context_id": execution["context_id"],
+            }
+            if blind:
+                reference["sealed_output_sha256"] = review["blind_review"]["output_sha256"]  # type: ignore[index]
+            cycle["raw_outputs"][stage] = reference  # type: ignore[index]
+
+        add_raw("normal_review", "normal_review")
+        add_raw("cold_review", "cold_review")
+        add_raw("final_blind", "final_review", blind=True)
+        add_raw("final_review", "final_review")
         return manifest
 
     def _write(self, manifest: dict[str, object]) -> None:
@@ -325,9 +370,23 @@ class ContentAuditTests(unittest.TestCase):
         )
         relations = extract_relations(targets)
         relation_kinds = {relation["kind"] for relation in relations}
-        self.assertIn("sense_membership", relation_kinds)
+        self.assertNotIn("sense_membership", relation_kinds)
         self.assertIn("example_translation", relation_kinds)
         self.assertIn("article_learning_risk", relation_kinds)
+
+    def test_cast_core_mappings_are_reduced_to_nineteen_explicit_checks(self) -> None:
+        cast_entry = REPO_ROOT / "entries" / "c" / "cast.md"
+        relations = extract_relations(extract_targets(cast_entry))
+        core_relations = [
+            relation
+            for relation in relations
+            if relation["kind"] in {"core_sense_mapping", "core_inventory_consistency"}
+        ]
+        self.assertEqual(len(core_relations), 19)
+        self.assertLess(
+            len([relation for relation in relations if relation["kind"] == "risk_sense_pair"]),
+            153,
+        )
 
     def test_complete_three_party_manifest_passes(self) -> None:
         self._write(self._complete_manifest())
@@ -377,6 +436,54 @@ class ContentAuditTests(unittest.TestCase):
         self._write(manifest)
         errors = validate_manifest(self.entry, self.audit, self.root)
         self.assertTrue(any("requires at least one evidence link id" in error for error in errors))
+
+    def test_completed_v3_stage_requires_raw_output(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["current_cycle"]["raw_outputs"]["cold_review"] = {}  # type: ignore[index]
+        self._write(manifest)
+        errors = validate_manifest(self.entry, self.audit, self.root)
+        self.assertTrue(any("raw_outputs.cold_review" in error for error in errors))
+
+    def test_v3_evidence_link_requires_claim_level_locator(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["evidence_links"][0]["source_detail"] = ""  # type: ignore[index]
+        self._write(manifest)
+        errors = validate_manifest(self.entry, self.audit, self.root)
+        self.assertTrue(any("source_detail" in error for error in errors))
+
+    def test_high_risk_claim_requires_two_sources_or_primary(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["evidence"][0]["source_type"] = "dictionary"  # type: ignore[index]
+        self._write(manifest)
+        errors = validate_manifest(self.entry, self.audit, self.root)
+        self.assertTrue(any("two independent sources or one primary source" in error for error in errors))
+
+    def test_normal_and_cold_may_reference_an_earlier_cycle_revision(self) -> None:
+        manifest = self._complete_manifest()
+        earlier_body = content_audit._entry_body(self.entry).replace(
+            "可算名詞として使う。", "通常は可算名詞として使う。"
+        )
+        earlier_hash = hashlib.sha256(earlier_body.encode()).hexdigest()
+        earlier_path = Path("audits/runs/s/sample/cycle-001/revision-000.md")
+        (self.root / earlier_path).write_text(earlier_body, encoding="utf-8")
+        revisions = manifest["current_cycle"]["body_revisions"]  # type: ignore[index]
+        revisions.insert(  # type: ignore[union-attr]
+            0,
+            {
+                "revision_id": "revision-000",
+                "body_sha256": earlier_hash,
+                "snapshot_path": earlier_path.as_posix(),
+                "created_at": "2026-08-13T10:50:00Z",
+                "reason": "Body read by the independent checks before correction.",
+            },
+        )
+        for stage in ("normal_review", "cold_review"):
+            manifest[stage]["execution"]["input_body_sha256"] = earlier_hash  # type: ignore[index]
+            manifest["current_cycle"]["raw_outputs"][stage][  # type: ignore[index]
+                "input_body_sha256"
+            ] = earlier_hash
+        self._write(manifest)
+        self.assertEqual(validate_manifest(self.entry, self.audit, self.root), [])
 
     def test_stale_body_approval_is_rejected(self) -> None:
         manifest = self._complete_manifest()
@@ -475,6 +582,9 @@ class ContentAuditTests(unittest.TestCase):
         manifest["final_review"]["blind_review"]["output_sha256"] = blind_review_sha256(  # type: ignore[index]
             manifest["final_review"]  # type: ignore[arg-type,index]
         )
+        manifest["current_cycle"]["raw_outputs"]["final_blind"][  # type: ignore[index]
+            "sealed_output_sha256"
+        ] = manifest["final_review"]["blind_review"]["output_sha256"]  # type: ignore[index]
         manifest["final_review"]["blockers"] = [  # type: ignore[index]
             {
                 "id": "blocker:001",
@@ -519,9 +629,13 @@ class ContentAuditTests(unittest.TestCase):
                 "evidence_id": "evidence:001",
                 "claim": "The available sources leave the scope unresolved.",
                 "locator": "sample entry, relevant definition",
+                "locator_kind": "sense_number",
+                "source_detail": "Sense 1 definition.",
                 "supports": "Supports keeping this finding on hold.",
+                "applicability": "Applies to the disputed sense boundary.",
                 "support_type": "context",
                 "counterexample_checked": True,
+                "counterexample_method": "Compared the conflicting source scopes.",
                 "counterexample_result": "The conflict remains unresolved.",
             }
         )
@@ -552,9 +666,13 @@ class ContentAuditTests(unittest.TestCase):
             "evidence_id": "evidence:001",
             "claim": "The cold finding identifies a real content issue.",
             "locator": "sample entry, relevant definition",
+            "locator_kind": "sense_number",
+            "source_detail": "Sense 1 definition.",
             "supports": "Supports the finding as stated.",
+            "applicability": "Applies to the reviewed definition.",
             "support_type": "direct",
             "counterexample_checked": True,
+            "counterexample_method": "Checked neighbouring senses.",
             "counterexample_result": "No counterexample defeats the finding.",
         }
         resolution_link = {
@@ -564,9 +682,13 @@ class ContentAuditTests(unittest.TestCase):
             "evidence_id": "evidence:001",
             "claim": "The required correction follows from the cited definition.",
             "locator": "sample entry, relevant definition",
+            "locator_kind": "sense_number",
+            "source_detail": "Sense 1 definition.",
             "supports": "Supports the recorded resolution.",
+            "applicability": "Applies to the corrected scope.",
             "support_type": "direct",
             "counterexample_checked": True,
+            "counterexample_method": "Checked neighbouring senses.",
             "counterexample_result": "No contradictory current evidence was found.",
         }
         manifest["evidence_links"].extend([finding_link, resolution_link])  # type: ignore[union-attr]
@@ -643,6 +765,90 @@ class ContentAuditTests(unittest.TestCase):
             errors = content_audit.validate_changed("base", "head", self.root)
         self.assertEqual(errors, [])
 
+    def test_changed_body_cannot_rewrite_a_completed_cycle_in_place(self) -> None:
+        base_manifest = self._complete_manifest()
+        base_audit = (
+            json.dumps(base_manifest, ensure_ascii=False, indent=2) + "\n"
+        ).encode()
+        base_entry = ENTRY_TEXT.encode()
+        self.entry.write_text(
+            ENTRY_TEXT.replace("全体の性質", "母集団の性質"), encoding="utf-8"
+        )
+        self._write(self._complete_manifest())
+
+        def git_file_at(_ref: str, relative: str, _root: Path) -> bytes | None:
+            if relative == "entries/s/sample.md":
+                return base_entry
+            if relative == "audits/s/sample.json":
+                return base_audit
+            return None
+
+        with (
+            patch.object(
+                content_audit,
+                "_git_changed_paths",
+                return_value=["entries/s/sample.md", "audits/s/sample.json"],
+            ),
+            patch.object(content_audit, "_git_file_at", side_effect=git_file_at),
+        ):
+            errors = content_audit.validate_changed("base", "head", self.root)
+        self.assertTrue(any("append an exact snapshot" in error for error in errors))
+        self.assertTrue(any("new cycle_id" in error for error in errors))
+
+    def test_start_cycle_archives_the_exact_previous_manifest(self) -> None:
+        manifest = self._complete_manifest()
+        self._write(manifest)
+        previous_bytes = self.audit.read_bytes()
+        self.entry.write_text(
+            ENTRY_TEXT.replace("全体の性質", "母集団の性質"), encoding="utf-8"
+        )
+        errors = content_audit.start_review_cycle(
+            self.entry,
+            self.audit,
+            "Correct the definition without rewriting prior evidence.",
+            self.root,
+        )
+        self.assertEqual(errors, [])
+        updated = json.loads(self.audit.read_text(encoding="utf-8"))
+        record = updated["review_history"][-1]
+        self.assertEqual(
+            (self.root / record["snapshot_path"]).read_bytes(), previous_bytes
+        )
+        self.assertEqual(
+            record["snapshot_sha256"], hashlib.sha256(previous_bytes).hexdigest()
+        )
+        self.assertEqual(updated["current_cycle"]["parent_cycle_id"], "cycle-001")
+        self.assertEqual(updated["current_cycle"]["cycle_id"], "cycle-002")
+        self.assertEqual(updated["body_sha256"], content_audit.body_sha256(self.entry))
+
+    def test_add_revision_captures_the_new_body_without_rewriting_prior_snapshot(self) -> None:
+        manifest = build_manifest(self.entry, self.root)
+        first_revision = manifest["current_cycle"]["body_revisions"][0]  # type: ignore[index]
+        first_snapshot = self.root / first_revision["snapshot_path"]
+        first_snapshot.parent.mkdir(parents=True, exist_ok=True)
+        first_snapshot.write_text(content_audit._entry_body(self.entry), encoding="utf-8")
+        self._write(manifest)
+        first_bytes = first_snapshot.read_bytes()
+        self.entry.write_text(
+            ENTRY_TEXT.replace("全体の性質", "母集団の性質"), encoding="utf-8"
+        )
+        errors = content_audit.add_body_revision(
+            self.entry,
+            self.audit,
+            "Apply an adopted cold-review correction.",
+            self.root,
+        )
+        self.assertEqual(errors, [])
+        updated = json.loads(self.audit.read_text(encoding="utf-8"))
+        revisions = updated["current_cycle"]["body_revisions"]
+        self.assertEqual(len(revisions), 2)
+        self.assertEqual(first_snapshot.read_bytes(), first_bytes)
+        second_snapshot = self.root / revisions[-1]["snapshot_path"]
+        self.assertEqual(
+            second_snapshot.read_text(encoding="utf-8"),
+            content_audit._entry_body(self.entry),
+        )
+
     def test_deleted_audit_is_rejected_for_a_checked_entry(self) -> None:
         with patch.object(
             content_audit,
@@ -650,6 +856,10 @@ class ContentAuditTests(unittest.TestCase):
             return_value=["audits/s/sample.json"],
         ):
             errors = content_audit.validate_changed("base", "head", self.root)
+        self.assertTrue(any("audit manifest not found" in error for error in errors))
+
+    def test_sync_gate_rejects_checked_entry_without_audit(self) -> None:
+        errors = content_audit.validate_sync([self.entry], self.root)
         self.assertTrue(any("audit manifest not found" in error for error in errors))
 
 

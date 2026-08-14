@@ -165,7 +165,7 @@ class PromptContractTests(unittest.TestCase):
             entry,
         )
 
-    def test_v2_audit_contract_externalizes_strengthened_three_party_controls(self) -> None:
+    def test_v3_audit_contract_externalizes_provenance_and_three_party_controls(self) -> None:
         agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
         check = (REPO_ROOT / "prompts" / "check_spec_v5.md").read_text(
             encoding="utf-8"
@@ -183,10 +183,18 @@ class PromptContractTests(unittest.TestCase):
             "evidence_links",
             "context ID",
             "`REJECT`",
+            "content_audit_v3",
+            "body_revisions",
+            "raw_outputs",
+            "two_sources_or_primary",
+            "escaped_defect_taxonomy.json",
+            "start-cycle",
         ):
             with self.subTest(marker=marker):
                 self.assertIn(marker, combined)
         self.assertIn("文面の一致だけでは拒否しません", audits)
+        self.assertIn("全語義ペアの直積は作らない", final)
+        self.assertIn("対照表現", (REPO_ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8"))
 
     def test_current_specs_are_standalone(self) -> None:
         current_files = (
@@ -221,6 +229,9 @@ class PromptContractTests(unittest.TestCase):
         validate_workflow = (
             REPO_ROOT / ".github" / "workflows" / "validate.yml"
         ).read_text(encoding="utf-8")
+        notion_workflow = (
+            REPO_ROOT / ".github" / "workflows" / "sync-notion.yml"
+        ).read_text(encoding="utf-8")
 
         self.assertIn("生成主体は、ユーザーから依頼を受けて", agents)
         self.assertIn("OpenAI APIキーは不要", readme)
@@ -234,6 +245,7 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn('"audits/**"', validate_workflow)
         self.assertIn('"README.md"', validate_workflow)
         self.assertIn("fetch-depth: 0", validate_workflow)
+        self.assertIn("scripts/content_audit.py validate-sync", notion_workflow)
         self.assertFalse(
             (REPO_ROOT / ".github" / "workflows" / "generate-entry.yml").exists()
         )
