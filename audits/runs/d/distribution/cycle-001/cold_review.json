@@ -1,0 +1,108 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold_reviewer_distribution_20260815_r1",
+  "context_id": "cold_context_distribution_20260815_r1",
+  "input_body_sha256": "85f013ebb46a6b33bf9cdc3dbc1495fb82c1f74683c021cbb6fa41cbfb5454a8",
+  "summary": "記事全体を前提なしで横断確認し、重大な誤りはなかったが、語義境界・可算性の一般化・発音・語形成・技術用法・流通費用・distroのレジスターに関する9件の問題候補を検出した。全9件を通常チェック側で採用し、本文へ反映した。",
+  "findings": [
+    {
+      "id": "F001",
+      "location": "語義5の定義・文法パターン・コロケーション・語法",
+      "description": "ソフトウェア・ディストリビューションを一般的な独立語義として扱いすぎると、a software distributionを常に配布版と誤解させる。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "Linuxなどの確立した専門用法に限定し、software distributionの行為・仕組みの読みも明記する。",
+      "evidence_link_ids": [
+        "evidence_link:0337",
+        "evidence_link:0338"
+      ]
+    },
+    {
+      "id": "F002",
+      "location": "語義1・2・4の品詞表示と語法・注意",
+      "description": "可算・不可算と行為・結果の対応を固定化すると、可算なら結果、不可算なら行為という誤一般化を招く。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "可算性は傾向にすぎず、文脈・修飾語・動詞で解釈が決まることを例示する。",
+      "evidence_link_ids": [
+        "evidence_link:0341",
+        "evidence_link:0342"
+      ]
+    },
+    {
+      "id": "F003",
+      "location": "語義1の定義・語法、コアイメージ",
+      "description": "複数の人・組織・地域への分配に限定すると、単一市場・組織・経路への供給過程を取りこぼす。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "複数の受け手を想定しやすいが必須ではないこと、仕組み全体なら語義3に近づくことを示す。",
+      "evidence_link_ids": [
+        "evidence_link:0345",
+        "evidence_link:0346"
+      ]
+    },
+    {
+      "id": "F004",
+      "location": "発音記号",
+      "description": "米・英を単一表記で示すと、米音の第1母音の弱化変異を落とす。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "米音の代表表記と弱化変異を併記する。",
+      "evidence_link_ids": [
+        "evidence_link:0349",
+        "evidence_link:0350"
+      ]
+    },
+    {
+      "id": "F005",
+      "location": "発音説明",
+      "description": "語末の/ʃən/自体を弱く発音するように読める。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "音素ではなく語末音節に強勢を置かないと説明する。",
+      "evidence_link_ids": [
+        "evidence_link:0353",
+        "evidence_link:0354"
+      ]
+    },
+    {
+      "id": "F006",
+      "location": "語形成",
+      "description": "distributionalとdistributiveの違いが薄く、同義語と誤認し得る。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "distributionalは分布上、distributiveは分配する性質・機能という差を明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0357",
+        "evidence_link:0358"
+      ]
+    },
+    {
+      "id": "F007",
+      "location": "語形成のdistributed説明",
+      "description": "distributed system/networkを機能が分かれた構成だけで説明している。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "処理・データ・構成要素が複数の機器・場所に分散して動作することを明記する。",
+      "evidence_link_ids": [
+        "evidence_link:0361",
+        "evidence_link:0362"
+      ]
+    },
+    {
+      "id": "F008",
+      "location": "語義3のdistribution costs",
+      "description": "distribution costsを保管・移動・供給だけに限定している。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "卸売・販売チャネル・流通段階の販売促進費も含み得ると補足する。",
+      "evidence_link_ids": [
+        "evidence_link:0365",
+        "evidence_link:0366"
+      ]
+    },
+    {
+      "id": "F009",
+      "location": "語義5のdistro説明",
+      "description": "distroを正式文書では完全形が多いと強く限定している。",
+      "reason": "独立コールドレビューで、既存の通常チェック結果や生成時の分類を参照せず、記事全体の学習者向け説明を横断確認した結果、誤一般化または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "口語的・コミュニティ寄りだが技術文脈で広く使われると修正する。",
+      "evidence_link_ids": [
+        "evidence_link:0369",
+        "evidence_link:0370"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,191 @@
+{
+  "stage": "final_blind",
+  "run_id": "01a00649-ea9e-7940-b747-02fd62281415",
+  "context_id": "final_context_distribution_cycle005_arendt_blind",
+  "input_body_sha256": "6fef4932f73e7c3fc5f0ab02c024a90688463fc9a6a747947599a688422a6177",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "provisional_decision": "PASS",
+  "independent_candidates": [
+    {
+      "id": "IC01",
+      "surface_form": "distribution",
+      "frame": "distribution of <物・資金・情報> to <受け手>",
+      "meaning": "分配・配布の行為",
+      "disposition": "included",
+      "rationale": "基本義で、完全な構文と例文がある"
+    },
+    {
+      "id": "IC02",
+      "surface_form": "distribution",
+      "frame": "the distribution of <物・量> across/over <範囲>",
+      "meaning": "空間・社会・数値の分布",
+      "disposition": "included",
+      "rationale": "主要な一般義・統計義"
+    },
+    {
+      "id": "IC03",
+      "surface_form": "distribution",
+      "frame": "distribution by/according to <分類>",
+      "meaning": "分類別の分布",
+      "disposition": "included",
+      "rationale": "統計上の独立した重要フレーム"
+    },
+    {
+      "id": "IC04",
+      "surface_form": "distribution",
+      "frame": "draw/sample <observations> from <a distribution>",
+      "meaning": "分布から観測値を抽出する",
+      "disposition": "included",
+      "rationale": "確率・統計で実用性が高い"
+    },
+    {
+      "id": "IC05",
+      "surface_form": "distribution",
+      "frame": "distribution of <products/content> through <a channel>",
+      "meaning": "商品・コンテンツの流通・供給網",
+      "disposition": "included",
+      "rationale": "一般義と異なる商業用法"
+    },
+    {
+      "id": "IC06",
+      "surface_form": "distribution",
+      "frame": "distribution of <electricity/gas/water> through <a network>",
+      "meaning": "配電・配水などの供給",
+      "disposition": "included",
+      "rationale": "インフラ分野の重要用法"
+    },
+    {
+      "id": "IC07",
+      "surface_form": "distribution rights",
+      "frame": "distribution rights for <a film/product>",
+      "meaning": "映画・製品などの流通・配給権",
+      "disposition": "included",
+      "rationale": "定着した専門コロケーション"
+    },
+    {
+      "id": "IC08",
+      "surface_form": "distribution",
+      "frame": "make/receive a distribution to/from <受取人・fund・trust>",
+      "meaning": "金融・法律上の分配金・分配",
+      "disposition": "included",
+      "rationale": "語義1と区別すべき専門義"
+    },
+    {
+      "id": "IC09",
+      "surface_form": "distribution",
+      "frame": "a <Linux/software> distribution",
+      "meaning": "ソフトウェア一式としての配布版",
+      "disposition": "included",
+      "rationale": "ITで独立した可算義"
+    },
+    {
+      "id": "IC10",
+      "surface_form": "distribution package",
+      "frame": "install/require <a distribution package>",
+      "meaning": "Pythonのインストール・依存指定単位",
+      "disposition": "included",
+      "rationale": "Python packagingの中核用法"
+    },
+    {
+      "id": "IC11",
+      "surface_form": "distribution package",
+      "frame": "a distribution package from <a project> / for <a release>",
+      "meaning": "project・releaseから作られる配布単位",
+      "disposition": "included",
+      "rationale": "project・releaseとの境界説明が必要"
+    },
+    {
+      "id": "IC12",
+      "surface_form": "distribution archive",
+      "frame": "upload a distribution archive to <a package index>",
+      "meaning": "配布用の物理アーカイブ",
+      "disposition": "included",
+      "rationale": "distribution packageとの区別に有用"
+    },
+    {
+      "id": "IC13",
+      "surface_form": "installed distribution",
+      "frame": "the name/version/metadata/files of <a distribution>",
+      "meaning": "インストール済みdistributionとそのメタデータ",
+      "disposition": "included",
+      "rationale": "Python標準的な実務用法"
+    },
+    {
+      "id": "IC14",
+      "surface_form": "distribution",
+      "frame": "build a source distribution or wheel from <a project>",
+      "meaning": "source/built distributionの生成",
+      "disposition": "included",
+      "rationale": "Python packagingの主要形式"
+    },
+    {
+      "id": "IC15",
+      "surface_form": "distribution",
+      "frame": "a distribution on <an open set>/<a space>",
+      "meaning": "試験関数空間上の連続線形汎関数としての超関数",
+      "disposition": "included",
+      "rationale": "数学解析の独立した専門義"
+    },
+    {
+      "id": "IC16",
+      "surface_form": "distribution",
+      "frame": "a distribution acts on <a test function>",
+      "meaning": "超関数が試験関数に作用する",
+      "disposition": "included",
+      "rationale": "数学義の基本説明フレーム"
+    },
+    {
+      "id": "IC17",
+      "surface_form": "distribution list",
+      "frame": "send/create/remove <a distribution list>",
+      "meaning": "一斉配信用宛先リスト",
+      "disposition": "included",
+      "rationale": "定着複合名詞として独立した学習価値がある"
+    },
+    {
+      "id": "IC18",
+      "surface_form": "distributional/distributive/redistribution",
+      "frame": "各語の通常の形容詞・派生語フレーム",
+      "meaning": "語形成上の関連語",
+      "disposition": "included",
+      "rationale": "本文の語形成欄で明示され、見出し語理解を補う"
+    },
+    {
+      "id": "IC19",
+      "surface_form": "distribution",
+      "frame": "単独のdistributionを全ての専門義に無条件適用",
+      "meaning": "文脈を無視した総称用法",
+      "disposition": "excluded",
+      "rationale": "本文が分野別の限定を明示しているため"
+    },
+    {
+      "id": "IC20",
+      "surface_form": "distribution",
+      "frame": "distribution of <単一の荷物>",
+      "meaning": "通常の個別配送",
+      "disposition": "excluded",
+      "rationale": "deliveryの方が自然で、distributionの中心義から外れる"
+    }
+  ],
+  "article_findings": [],
+  "review_scope": {
+    "stage": "blind_review_only",
+    "files_read": [
+      "/tmp/kyapya-distribution.NKOnYc/entries/d/distribution.md",
+      "/tmp/kyapya-distribution.NKOnYc/prompts/final_review_spec_v1.md"
+    ],
+    "project_material_not_read": [
+      "監査台帳",
+      "通常レビュー",
+      "コールドレビュー",
+      "ログ",
+      "queue",
+      "差分",
+      "既知の懸念"
+    ],
+    "article_modified": false,
+    "audit_comparison_performed": false,
+    "final_adjudication_performed": false
+  },
+  "sealed_output_sha256": "77a9e1001a2f5151f7fe3367da2796cba1bf414b05774862e9e905b22d7dacb0"
+}

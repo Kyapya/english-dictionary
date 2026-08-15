@@ -1,0 +1,77 @@
+{
+  "stage": "cold_review",
+  "run_id": "01a0061d-4fc1-7b00-991d-4fcd1749aded",
+  "context_id": "cold_context_distribution_cycle005_halley_revision002",
+  "input_body_sha256": "2afb5ff62ae7dd7d536f527c6943bc8d1a86c58f9b5a1ce34faf6f8f21039c05",
+  "prompt_sha256": "fca7dfdc8ac6682ba15520c9a00f0433f0477aa29886846daa0ce2db7e5889f6",
+  "summary": "現時点の独立coldレビューを完了。本文は変更していない。未解決の問題候補を6件記録する。",
+  "findings": [
+    {
+      "id": "CR-005-R002-001",
+      "location": "語義6「Python packaging」",
+      "severity": "high",
+      "description": "distribution packageを、pip installで指定する名前、配布ファイル、project/releaseの配布単位として混同している。",
+      "reason": "project、release、sdist/wheel、distribution archive、installed distributionを区別すると述べる後段と整合せず、専門用語の対象が不明確になる。",
+      "suggested_direction": "project→release→distribution package（sdist/wheel）→installed distributionの階層を明示し、pip installの要求指定とアーカイブのインストールを別フレームに分ける。"
+    },
+    {
+      "id": "CR-005-R002-002",
+      "location": "コアイメージ、語義7の定義・語法",
+      "severity": "high",
+      "description": "数学義を「局所的な量」「通常の関数を含むより広い作用対象」と説明し、ordinary functionを一律にdistributionの特殊例のように扱っている。",
+      "reason": "distributionの本質は試験関数空間上の連続線形汎関数であり、「局所的な量」は定義要件ではない。通常の関数も適切な局所可積分性などの条件が必要。",
+      "suggested_direction": "「通常の関数として扱いにくい対象を、試験関数空間上の連続線形汎関数として扱う」とし、通常の関数の埋め込みには条件を付ける。"
+    },
+    {
+      "id": "CR-005-R002-003",
+      "location": "語義7の例文「A distribution acts on a test function through a continuous linear functional.」",
+      "severity": "medium",
+      "description": "distributionが別の汎関数を介して作用するように読める。",
+      "reason": "distribution自体が連続線形汎関数であり、through a continuous linear functionalは数学的関係を誤って表す。日本語訳も誤解を引き継いでいる。",
+      "suggested_direction": "「A distribution acts on a test function as a continuous linear functional」などに修正し、必要なら「試験関数に線形かつ連続に値を割り当てる」と訳す。"
+    },
+    {
+      "id": "CR-005-R002-004",
+      "location": "語義1の定義・語義4の定義",
+      "severity": "medium",
+      "description": "語義1が金融・信託・相続における単一受取人への支払額まで含め、語義4と同じ領域・意味を重複して記述している。",
+      "reason": "一般の配布・分配と金融・法律上のdistributionの境界が曖昧になり、語義4の独立性と可算性の説明を弱める。",
+      "suggested_direction": "金融・信託・相続の支払額は語義4へ移すか、「この場合は語義4」と明示し、語義1のprofits例も一般的な利益配分に限定する。"
+    },
+    {
+      "id": "CR-005-R002-005",
+      "location": "頻度注記、Python義、数学義",
+      "severity": "low",
+      "description": "PyPAの説明、数学義、頻度スコアの根拠が記事内で追跡できない。",
+      "reason": "専門用法の正式な用語範囲や頻度評価を再現できず、distribution packageなどの境界判断を検証できない。",
+      "suggested_direction": "参照した用語集・仕様・辞書・コーパスの名称を示し、出典を付せない場合は頻度と専門用法を編集上の目安として明示する。"
+    },
+    {
+      "id": "CR-005-R002-006",
+      "location": "語義1の例文「The agency coordinated the distribution of food and medicine...」",
+      "severity": "low",
+      "description": "food and medicineのdistributionを「配給」と訳しており、英語原文にない rationing・不足時供給の含意が加わり得る。",
+      "reason": "humanitarian contextでは成立し得るが、一般的なdistributionの訳としては「配布」の方が中立的である。",
+      "suggested_direction": "「食料と医薬品の配布」とするか、「配布（文脈により配給）」のように訳語の幅を示す。"
+    }
+  ],
+  "review_scope": {
+    "mode": "cold_reviewer",
+    "status": "completed",
+    "execution_count": 1,
+    "read_only": true,
+    "read_files": [
+      "/tmp/kyapya-distribution.NKOnYc/entries/d/distribution.md",
+      "/tmp/kyapya-distribution.NKOnYc/prompts/cold_review_prompt_v1.md"
+    ],
+    "not_read": [
+      "通常レビュー",
+      "監査台帳",
+      "過去の指摘",
+      "queue/log",
+      "差分",
+      "既知の懸念",
+      "外部資料"
+    ]
+  }
+}

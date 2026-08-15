@@ -1,0 +1,54 @@
+{
+  "stage": "cold_review",
+  "run_id": "01a005c0-6e9e-73f1-a061-fa0d16103e20",
+  "context_id": "cold_context_distribution_cycle004_hegel",
+  "input_body_sha256": "73c6c8da28367ef212f74cb8a9d9d2f4eb794f5ca201a883c88495a3eba64eeb",
+  "prompt_sha256": "fca7dfdc8ac6682ba15520c9a00f0433f0477aa29886846daa0ce2db7e5889f6",
+  "summary": "revision-001を前提なしに横断確認し、文法プレースホルダ、software distributionの語義境界、Python packagingの説明粒度、Linux/GNU/Linux表記の4件を検出した。通常チェックで全件を採用し、revision-002〜revision-016へ反映した。",
+  "findings": [
+    {
+      "id": "CF001",
+      "location": "文法パターン・金融コロケーション",
+      "description": "normal/probability/frequency と cash/annual/final の混在プレースホルダが、候補代入時の品詞・冠詞を曖昧にする。",
+      "reason": "独立コールドレビューで本文全体を前提なしに確認し、語義境界、冠詞、専門用法、学習者の誤一般化を点検した結果、修正価値があると判断した。",
+      "suggested_direction": "完全なフレームへ分割し、annual と final は別コロケーション・別冠詞・別例文にする。",
+      "evidence_link_ids": [
+        "evidence_link:0483",
+        "evidence_link:0484"
+      ]
+    },
+    {
+      "id": "CF002",
+      "location": "語義5・ソフトウェア",
+      "description": "software distribution が配布版と市場への配布活動の両方を語義5内で含み得る。",
+      "reason": "独立コールドレビューで本文全体を前提なしに確認し、語義境界、冠詞、専門用法、学習者の誤一般化を点検した結果、修正価値があると判断した。",
+      "suggested_direction": "配布版を語義5に限定し、市場への流通活動は語義3で扱う。",
+      "evidence_link_ids": [
+        "evidence_link:0487",
+        "evidence_link:0488"
+      ]
+    },
+    {
+      "id": "CF003",
+      "location": "Python packaging",
+      "description": "distribution、distribution package、project、配布アーカイブの関係が独立説明・例文として不足する。",
+      "reason": "独立コールドレビューで本文全体を前提なしに確認し、語義境界、冠詞、専門用法、学習者の誤一般化を点検した結果、修正価値があると判断した。",
+      "suggested_direction": "Python packagingを独立語義へ分け、project、distribution package、distribution archive、import packageを定義・対照・例文化する。",
+      "evidence_link_ids": [
+        "evidence_link:0491",
+        "evidence_link:0492"
+      ]
+    },
+    {
+      "id": "CF004",
+      "location": "語義5・Linuxプレースホルダ",
+      "description": "a Linux/GNU/Linux distribution の候補表記がv5の置換スロット規則と不統一。",
+      "reason": "独立コールドレビューで本文全体を前提なしに確認し、語義境界、冠詞、専門用法、学習者の誤一般化を点検した結果、修正価値があると判断した。",
+      "suggested_direction": "固定語句としてのa Linux distributionまたは置換可能な候補を明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0495",
+        "evidence_link:0496"
+      ]
+    }
+  ]
+}

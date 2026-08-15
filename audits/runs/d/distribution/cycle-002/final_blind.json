@@ -1,0 +1,276 @@
+{
+  "stage": "final_blind",
+  "run_id": "final_adjudicator_distribution_20260815_r2",
+  "context_id": "final_context_distribution_20260815_r2",
+  "input_body_sha256": "a130242d1f3e15492818bdb249171ed8a880837891436629f53a554767773137",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "FI-01",
+      "surface_form": "distribution of X to/among Y",
+      "frame": "distribution of 〈物・資金・情報〉 to/among 〈受け手〉",
+      "meaning": "分配・配布する行為または過程",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001"
+      ],
+      "rationale": "一般的な中心義。",
+      "evidence_link_ids": [
+        "evidence_link:0847",
+        "evidence_link:0848"
+      ]
+    },
+    {
+      "id": "FI-02",
+      "surface_form": "distribution of X across/over/among Y",
+      "frame": "distribution of 〈人・物・量〉 across/over/among 〈範囲・集団〉",
+      "meaning": "分布・配置・配分状態",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002"
+      ],
+      "rationale": "結果としての分布状態。",
+      "evidence_link_ids": [
+        "evidence_link:0849",
+        "evidence_link:0850"
+      ]
+    },
+    {
+      "id": "FI-03",
+      "surface_form": "statistical/probability distribution",
+      "frame": "a 〈normal/probability/frequency〉 distribution; X follows a distribution",
+      "meaning": "統計・確率分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:006"
+      ],
+      "rationale": "数学的対象として可算になる用法。",
+      "evidence_link_ids": [
+        "evidence_link:0851",
+        "evidence_link:0852"
+      ]
+    },
+    {
+      "id": "FI-04",
+      "surface_form": "commercial distribution",
+      "frame": "distribution of 〈product/content〉 in/through 〈market/channel〉",
+      "meaning": "商業上の流通・市場供給",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003"
+      ],
+      "rationale": "商品・コンテンツの流通用法。",
+      "evidence_link_ids": [
+        "evidence_link:0853",
+        "evidence_link:0854"
+      ]
+    },
+    {
+      "id": "FI-05",
+      "surface_form": "electricity/water/gas distribution",
+      "frame": "distribution of electricity/water/gas; distribution system/network",
+      "meaning": "電気・水・ガスなどの下流供給",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "grammar_pattern:009"
+      ],
+      "rationale": "語義3内のインフラ枝。",
+      "evidence_link_ids": [
+        "evidence_link:0855",
+        "evidence_link:0856"
+      ]
+    },
+    {
+      "id": "FI-06",
+      "surface_form": "financial/trust/estate/retirement-account distribution",
+      "frame": "make/receive a distribution to/from 〈investors・受益者・相続人〉",
+      "meaning": "金融・信託・遺産・退職口座からの分配金",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004"
+      ],
+      "rationale": "制度・金融上の分配用法。",
+      "evidence_link_ids": [
+        "evidence_link:0857",
+        "evidence_link:0858"
+      ]
+    },
+    {
+      "id": "FI-07",
+      "surface_form": "Linux/software distribution",
+      "frame": "a Linux/GNU/Linux distribution; a distribution based on X",
+      "meaning": "Linux等のソフトウェア配布版",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005"
+      ],
+      "rationale": "定着したIT用法。",
+      "evidence_link_ids": [
+        "evidence_link:0859",
+        "evidence_link:0860"
+      ]
+    },
+    {
+      "id": "FI-08",
+      "surface_form": "linguistic distribution",
+      "frame": "the distribution of a phoneme/morpheme/form",
+      "meaning": "言語単位が出現できる環境の分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:012",
+        "sense_boundary:002"
+      ],
+      "rationale": "語義2内の言語学枝。",
+      "evidence_link_ids": [
+        "evidence_link:0861",
+        "evidence_link:0862"
+      ]
+    },
+    {
+      "id": "FI-09",
+      "surface_form": "drug/substance distribution in the body",
+      "frame": "distribution of a drug/substance into/throughout tissues",
+      "meaning": "薬物・物質の体内分布",
+      "disposition": "excluded",
+      "article_target_ids": [
+        "sense_boundary:002"
+      ],
+      "rationale": "語義2の専門的適用として独立語義にはしない。",
+      "evidence_link_ids": [
+        "evidence_link:0863",
+        "evidence_link:0864"
+      ]
+    },
+    {
+      "id": "FI-10",
+      "surface_form": "distribution theory in mathematical analysis",
+      "frame": "a distribution on X; in the sense of distributions",
+      "meaning": "解析学の超関数・一般化関数",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "一般学習辞書記事では高度で低頻度の専門概念。",
+      "evidence_link_ids": [
+        "evidence_link:0865",
+        "evidence_link:0866"
+      ]
+    },
+    {
+      "id": "FI-11",
+      "surface_form": "logical/grammatical distribution",
+      "frame": "the distribution of a term; a distributed term",
+      "meaning": "論理学・文法の周延などの歴史的専門義",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "現代一般学習者への価値が低く、言語学の出現分布と混同しやすい。",
+      "evidence_link_ids": [
+        "evidence_link:0867",
+        "evidence_link:0868"
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "BF-01",
+      "location": "語形成・distributor",
+      "description": "distributorを販売・流通業者だけに限定し、配布者・分配装置・自動車の点火装置などの別用法を落としている。",
+      "reason": "主要義の範囲を限定し、文脈によって配布者・装置などもあり得ると補足する。",
+      "evidence_link_ids": [
+        "evidence_link:0869",
+        "evidence_link:0870"
+      ]
+    },
+    {
+      "id": "BF-02",
+      "location": "語形成・distributive",
+      "description": "distributiveの説明が、語自体に公平性が含意されるように読める。",
+      "reason": "公平性は distributive justice など特定の共起に限り、一般には分配に関する意味とする。",
+      "evidence_link_ids": [
+        "evidence_link:0871",
+        "evidence_link:0872"
+      ]
+    },
+    {
+      "id": "BF-03",
+      "location": "語義1・可算性",
+      "description": "単一受取人へのa distributionという説明が、可算性を受取人数へ直接結び付けるおそれがある。",
+      "reason": "可算化の中心を一回・一件の分配または金融上の支払額と説明し、受取人数は補助的要因に下げる。",
+      "evidence_link_ids": [
+        "evidence_link:0873",
+        "evidence_link:0874"
+      ]
+    },
+    {
+      "id": "BF-04",
+      "location": "語義3・インフラ",
+      "description": "裸のdistributionを物理的な供給網として読める。具体的な網はdistribution network/system/gridで明示されることが多い。",
+      "reason": "裸のdistributionは配電・供給の機能・過程・事業領域、物理網は複合語と区別する。",
+      "evidence_link_ids": [
+        "evidence_link:0875",
+        "evidence_link:0876"
+      ]
+    },
+    {
+      "id": "BF-05",
+      "location": "語義2・統計分布",
+      "description": "統計分布の独立性とX follows/has a distribution等の主要構文が弱い。",
+      "reason": "一般分布と数学的対象としての可算用法を補強し、主要構文を追加する。",
+      "evidence_link_ids": [
+        "evidence_link:0877",
+        "evidence_link:0878"
+      ]
+    },
+    {
+      "id": "BF-06",
+      "location": "語義2・例文訳",
+      "description": "over timeを「時系列で」と訳すと、原文以上に分析方法を限定する。",
+      "reason": "「時期を追って」など、時間経過の意味を保つ訳にする。",
+      "evidence_link_ids": [
+        "evidence_link:0879",
+        "evidence_link:0880"
+      ]
+    },
+    {
+      "id": "BF-07",
+      "location": "語義1・distribution list",
+      "description": "非メール用法をメール用法と同程度に一般的と受け取らせる可能性がある。",
+      "reason": "メール・情報送信先が中心で、物品・資料の配布先は文脈依存の補助用法と限定する。",
+      "evidence_link_ids": [
+        "evidence_link:0881",
+        "evidence_link:0882"
+      ]
+    },
+    {
+      "id": "BF-08",
+      "location": "頻度スコア",
+      "description": "語義・類義語・専門領域の頻度スコアが同一尺度で比較可能に見える。",
+      "reason": "尺度が語義単位の学習上の目安であり、専門領域内頻度と英語全体の頻度を直接比較しないと明記する。",
+      "evidence_link_ids": [
+        "evidence_link:0883",
+        "evidence_link:0884"
+      ]
+    },
+    {
+      "id": "BF-09",
+      "location": "発音記号",
+      "description": "米語/ə/・/ɪ/と英音/ɪ/の地域差整理は、辞書表記方針や弱化を地域差と誤認させる可能性がある。",
+      "reason": "複数資料の表記差・実際の弱化を地域差と断定せず、資料差として限定する。",
+      "evidence_link_ids": [
+        "evidence_link:0885",
+        "evidence_link:0886"
+      ]
+    },
+    {
+      "id": "BF-10",
+      "location": "語源",
+      "description": "14世紀ごろという初出年代とフランス語・ラテン語の借用経路は資料差を確認すべき高リスク主張である。",
+      "reason": "初出年代・借用経路を辞書の記述に合わせて断定の強さを調整する。",
+      "evidence_link_ids": [
+        "evidence_link:0887",
+        "evidence_link:0888"
+      ]
+    }
+  ],
+  "sealed_output_sha256": "466481f9390e8f622a9a0855f3b04fbdba1f89b2293e9281a07cf5f4b0bf8106"
+}

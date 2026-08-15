@@ -1,0 +1,274 @@
+{
+  "stage": "final_blind",
+  "run_id": "final_adjudicator_distribution_20260815_r1",
+  "context_id": "final_context_distribution_20260815_r1",
+  "input_body_sha256": "85f013ebb46a6b33bf9cdc3dbc1495fb82c1f74683c021cbb6fa41cbfb5454a8",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "FR-IC-01",
+      "surface_form": "basic distribution of X to/among Y",
+      "frame": "distribution of 〈物・資金・情報〉 to/among 〈受け手〉",
+      "meaning": "分配・配布の行為または過程",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002"
+      ],
+      "rationale": "語義1の中心構文として本文にある。",
+      "evidence_link_ids": [
+        "evidence_link:0373",
+        "evidence_link:0374"
+      ]
+    },
+    {
+      "id": "FR-IC-02",
+      "surface_form": "distribution of X across/over/throughout an area or among groups",
+      "frame": "the distribution of 〈人・物・量〉 across/over 〈範囲〉",
+      "meaning": "場所・集団・範囲にわたる分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004",
+        "grammar_pattern:005"
+      ],
+      "rationale": "語義2の中心構文として本文にある。",
+      "evidence_link_ids": [
+        "evidence_link:0375",
+        "evidence_link:0376"
+      ]
+    },
+    {
+      "id": "FR-IC-03",
+      "surface_form": "statistical distribution",
+      "frame": "a 〈normal/probability/frequency〉 distribution",
+      "meaning": "統計上の分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:006",
+        "collocation:010",
+        "collocation:011"
+      ],
+      "rationale": "統計用法として本文にある。",
+      "evidence_link_ids": [
+        "evidence_link:0377",
+        "evidence_link:0378"
+      ]
+    },
+    {
+      "id": "FR-IC-04",
+      "surface_form": "business distribution in a market or through a channel",
+      "frame": "distribution of 〈product/content〉 in/through 〈market/channel〉",
+      "meaning": "商品・コンテンツの流通",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:007",
+        "collocation:012",
+        "collocation:013"
+      ],
+      "rationale": "語義3の中心用法として本文にある。",
+      "evidence_link_ids": [
+        "evidence_link:0379",
+        "evidence_link:0380"
+      ]
+    },
+    {
+      "id": "FR-IC-05",
+      "surface_form": "electricity, gas, or water distribution system/network/grid",
+      "frame": "distribution of 〈electricity/gas/water〉 through 〈network〉",
+      "meaning": "公共インフラの配電・配水などの供給網",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "本文の独立した説明がなく、重要な適用範囲の欠落として扱う。",
+      "evidence_link_ids": [
+        "evidence_link:0381",
+        "evidence_link:0382"
+      ]
+    },
+    {
+      "id": "FR-IC-06",
+      "surface_form": "make or receive a distribution from a fund, trust, estate, or account",
+      "frame": "make/receive a distribution to/from 〈investors・受益者・fund〉",
+      "meaning": "金融・信託・相続・口座からの分配または分配金",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "collocation:018",
+        "collocation:019"
+      ],
+      "rationale": "本文に金融分配の用法はあるが、対象範囲が狭い。",
+      "evidence_link_ids": [
+        "evidence_link:0383",
+        "evidence_link:0384"
+      ]
+    },
+    {
+      "id": "FR-IC-07",
+      "surface_form": "Linux distribution",
+      "frame": "a Linux/GNU/Linux distribution",
+      "meaning": "Linux系のソフトウェア構成・配布版",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:013",
+        "collocation:022"
+      ],
+      "rationale": "語義5として本文にある。",
+      "evidence_link_ids": [
+        "evidence_link:0385",
+        "evidence_link:0386"
+      ]
+    },
+    {
+      "id": "FR-IC-08",
+      "surface_form": "linguistic distribution or complementary distribution",
+      "frame": "the distribution of a linguistic form",
+      "meaning": "言語学上の分布",
+      "disposition": "excluded",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002"
+      ],
+      "rationale": "語義2の分布用法の専門的適用として独立語義にはしない。",
+      "evidence_link_ids": [
+        "evidence_link:0387",
+        "evidence_link:0388"
+      ]
+    },
+    {
+      "id": "FR-IC-09",
+      "surface_form": "distribution in analysis or distribution theory",
+      "frame": "distribution in mathematical analysis",
+      "meaning": "解析学の超関数・分布",
+      "disposition": "excluded",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002"
+      ],
+      "rationale": "専門的な別概念であり、一般英単語記事の独立語義には含めない。",
+      "evidence_link_ids": [
+        "evidence_link:0389",
+        "evidence_link:0390"
+      ]
+    },
+    {
+      "id": "FR-IC-10",
+      "surface_form": "drug distribution in the body or tissues",
+      "frame": "the distribution of a drug through tissues",
+      "meaning": "薬物が体内・組織に広がる分布",
+      "disposition": "excluded",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002"
+      ],
+      "rationale": "語義2の自然・空間的分布の適用として独立語義にはしない。",
+      "evidence_link_ids": [
+        "evidence_link:0391",
+        "evidence_link:0392"
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "FR-AF-01",
+      "location": "語義3",
+      "description": "電気・ガス・水などの公共インフラのdistribution system/networkの用法がない。",
+      "reason": "語義3の定義・レジスター・文法パターン・コロケーションに供給網の用法を追加する。",
+      "evidence_link_ids": [
+        "evidence_link:0393",
+        "evidence_link:0394"
+      ]
+    },
+    {
+      "id": "FR-AF-02",
+      "location": "語義2 collocation",
+      "description": "An even distribution of weight の訳が状態ではなく行為を表す。",
+      "reason": "「重量が均等に配分されていると」のように状態と結果を保つ訳へ直す。",
+      "evidence_link_ids": [
+        "evidence_link:0395",
+        "evidence_link:0396"
+      ]
+    },
+    {
+      "id": "FR-AF-03",
+      "location": "語義3 文法パターン",
+      "description": "in/through を一つのスラッシュ表記に圧縮し、異なる前置詞フレームを区別していない。",
+      "reason": "in 〈market〉と through 〈channel〉を別パターンとして示す。",
+      "evidence_link_ids": [
+        "evidence_link:0397",
+        "evidence_link:0398"
+      ]
+    },
+    {
+      "id": "FR-AF-04",
+      "location": "発音記号",
+      "description": "米音の代表表記が /dɪstrɪ/ で、主要辞書に見られる /dɪstrə/ を変異扱いにしている。",
+      "reason": "米音の代表表記を /dɪstrə/ とし、/dɪstrɪ/ を表記変異として併記する。",
+      "evidence_link_ids": [
+        "evidence_link:0399",
+        "evidence_link:0400"
+      ]
+    },
+    {
+      "id": "FR-AF-05",
+      "location": "語義4",
+      "description": "金融分配の対象が会社・ファンドなどに狭く、信託・遺産・退職口座などを落としている。",
+      "reason": "金融・信託・相続・退職口座などの分配対象を明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0401",
+        "evidence_link:0402"
+      ]
+    },
+    {
+      "id": "FR-AF-06",
+      "location": "語義1",
+      "description": "not necessarily multiple の限定が、単一受け手・単一経路の一般化を十分に説明しない。",
+      "reason": "複数性が傾向であることと、行為・過程への焦点をより具体的に説明する。",
+      "evidence_link_ids": [
+        "evidence_link:0403",
+        "evidence_link:0404"
+      ]
+    },
+    {
+      "id": "FR-AF-07",
+      "location": "コアイメージ",
+      "description": "自然分布・統計分布まで人為的な割り振りとして読める。",
+      "reason": "人為的配分を伴わない広がり・分布も含む説明に直す。",
+      "evidence_link_ids": [
+        "evidence_link:0405",
+        "evidence_link:0406"
+      ]
+    },
+    {
+      "id": "FR-AF-08",
+      "location": "語義4 dividend",
+      "description": "dividend の説明が会社配当に限定され、投資商品の収益分配との重なりが弱い。",
+      "reason": "dividend と distribution の重なりと範囲を明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0407",
+        "evidence_link:0408"
+      ]
+    },
+    {
+      "id": "FR-AF-09",
+      "location": "頻度・レジスター",
+      "description": "記事内の数値頻度・レジスター断定に、主張単位の根拠リンクがない。",
+      "reason": "各高リスク主張を具体的な辞書・コーパスの位置へ結び付ける。",
+      "evidence_link_ids": [
+        "evidence_link:0409",
+        "evidence_link:0410"
+      ]
+    }
+  ],
+  "sealed_output_sha256": "4e7522b2981e296ade82d63af61c7a421fc529de0b32486a4c21871839294c29"
+}

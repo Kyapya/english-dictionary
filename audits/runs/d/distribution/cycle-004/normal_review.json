@@ -1,0 +1,2345 @@
+{
+  "stage": "normal_review",
+  "run_id": "01a005fe-017c-73f0-80c1-ec3fec51dd86",
+  "context_id": "normal_context_distribution_cycle004_kuhn_revision016",
+  "input_body_sha256": "159635ead6bc52422d745c98fb03761a38d69df13db2b475cb74cdec24c9c816",
+  "prompt_sha256": "728e23caf13d306973ee3f9923efc28c5cfd6e954f39d9ff1eb894a59cec99c3",
+  "summary": "revision-016を対象に本文全体、137 target、92 relation、v5形式を再検査し、コールド指摘の修正後に追加の確定欠陥がないことを確認した。",
+  "independent_candidates": [
+    {
+      "id": "C001",
+      "surface_form": "distribution of X to/among Y",
+      "frame": "the distribution of 〈物・資金・情報〉 to/among 〈受け手〉",
+      "meaning": "複数の受け手へ配る行為・過程",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003"
+      ],
+      "rationale": "基本義として本文の中心範囲に含む。",
+      "evidence_link_ids": [
+        "evidence_link:0459",
+        "evidence_link:0460"
+      ]
+    },
+    {
+      "id": "C002",
+      "surface_form": "distribution list",
+      "frame": "a distribution list; send an email to/create/remove a member from a distribution list",
+      "meaning": "主にメール・文書の送信先一覧",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "rationale": "定着複合名詞として、配る行為とは別の関連表現として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0461",
+        "evidence_link:0462"
+      ]
+    },
+    {
+      "id": "C003",
+      "surface_form": "distribution of X across/over/among Y",
+      "frame": "the distribution of 〈人・物・量〉 across/over/among 〈範囲・集団〉",
+      "meaning": "分布・配置・配分状態",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012"
+      ],
+      "rationale": "状態・パターン義として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0463",
+        "evidence_link:0464"
+      ]
+    },
+    {
+      "id": "C004",
+      "surface_form": "statistical/skewed distribution",
+      "frame": "a normal distribution; a probability/frequency distribution; a skewed distribution",
+      "meaning": "統計・確率・歪み分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016"
+      ],
+      "rationale": "統計上の可算対象として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0465",
+        "evidence_link:0466"
+      ]
+    },
+    {
+      "id": "C005",
+      "surface_form": "linguistic distribution",
+      "frame": "the distribution of a 〈phoneme/word/morpheme〉",
+      "meaning": "言語単位の出現環境・分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:017"
+      ],
+      "rationale": "言語学の専門用法として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0467",
+        "evidence_link:0468"
+      ]
+    },
+    {
+      "id": "C006",
+      "surface_form": "commercial distribution",
+      "frame": "distribution of 〈product/content〉 in/through 〈market/channel〉",
+      "meaning": "商業上の流通・市場供給",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "collocation:018",
+        "collocation:019",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025"
+      ],
+      "rationale": "市場・流通網の専門義として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0469",
+        "evidence_link:0470"
+      ]
+    },
+    {
+      "id": "C007",
+      "surface_form": "electricity/water/gas distribution",
+      "frame": "distribution of 〈electricity/gas/water〉 through 〈network〉; an electricity distribution grid",
+      "meaning": "インフラの下流供給",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:015",
+        "collocation:020",
+        "collocation:026",
+        "collocation:027"
+      ],
+      "rationale": "公共インフラの供給網として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0471",
+        "evidence_link:0472"
+      ]
+    },
+    {
+      "id": "C008",
+      "surface_form": "financial/legal/trust/estate/retirement distribution",
+      "frame": "make/receive a distribution to/from a fund, trust, estate, or account",
+      "meaning": "金融・法律上の分配または払戻し",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "grammar_pattern:025",
+        "collocation:028",
+        "collocation:029",
+        "collocation:030",
+        "collocation:031",
+        "collocation:032"
+      ],
+      "rationale": "制度文書に現れる専門義として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0473",
+        "evidence_link:0474"
+      ]
+    },
+    {
+      "id": "C009",
+      "surface_form": "Linux/software distribution",
+      "frame": "a Linux distribution; a 〈software〉 distribution",
+      "meaning": "一まとまりのソフトウェア配布版",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "grammar_pattern:026",
+        "grammar_pattern:027",
+        "grammar_pattern:028",
+        "collocation:033",
+        "collocation:034",
+        "collocation:035",
+        "collocation:036"
+      ],
+      "rationale": "Linux等の可算専門義として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0475",
+        "evidence_link:0476"
+      ]
+    },
+    {
+      "id": "C010",
+      "surface_form": "Python distribution package/archive",
+      "frame": "a distribution package; a distribution archive; build/upload sdist or wheel",
+      "meaning": "Python packagingの配布単位・物理ファイル",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:029",
+        "grammar_pattern:030",
+        "grammar_pattern:031",
+        "grammar_pattern:032",
+        "collocation:037",
+        "collocation:038",
+        "collocation:039",
+        "collocation:040",
+        "collocation:041"
+      ],
+      "rationale": "Linux distributionと区別したPython packaging専門義として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0477",
+        "evidence_link:0478"
+      ]
+    },
+    {
+      "id": "C011",
+      "surface_form": "distributional/distributive/distributed/redistribution",
+      "frame": "派生形・分詞形・再分配系列",
+      "meaning": "分布・分配・分散に関する派生用法",
+      "disposition": "included",
+      "article_target_ids": [
+        "word_formation:003",
+        "word_formation:004",
+        "word_formation:005",
+        "word_formation:006"
+      ],
+      "rationale": "主要な派生語・分詞形として収録する。",
+      "evidence_link_ids": [
+        "evidence_link:0479",
+        "evidence_link:0480"
+      ]
+    },
+    {
+      "id": "C012",
+      "surface_form": "logical distribution of a term",
+      "frame": "logical distribution; a distributed term",
+      "meaning": "論理学上の周延",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "低頻度の論理学専門義で、一般学習記事の中心範囲外として除外理由を残す。",
+      "evidence_link_ids": [
+        "evidence_link:0481",
+        "evidence_link:0482"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0061",
+        "evidence_link:0062"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0063",
+        "evidence_link:0064"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0065",
+        "evidence_link:0066"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0067",
+        "evidence_link:0068"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0069",
+        "evidence_link:0070"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0071",
+        "evidence_link:0072"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0073",
+        "evidence_link:0074"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0075",
+        "evidence_link:0076"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0105",
+        "evidence_link:0106"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0107",
+        "evidence_link:0108"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0109",
+        "evidence_link:0110"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0111",
+        "evidence_link:0112"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0113",
+        "evidence_link:0114"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0115",
+        "evidence_link:0116"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0117",
+        "evidence_link:0118"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0119",
+        "evidence_link:0120"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0121",
+        "evidence_link:0122"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0149",
+        "evidence_link:0150"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0151",
+        "evidence_link:0152"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0153",
+        "evidence_link:0154"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0155",
+        "evidence_link:0156"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0157",
+        "evidence_link:0158"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0159",
+        "evidence_link:0160"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0161",
+        "evidence_link:0162"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0163",
+        "evidence_link:0164"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0165",
+        "evidence_link:0166"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0167",
+        "evidence_link:0168"
+      ]
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0201",
+        "evidence_link:0202"
+      ]
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0203",
+        "evidence_link:0204"
+      ]
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0205",
+        "evidence_link:0206"
+      ]
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0207",
+        "evidence_link:0208"
+      ]
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0209",
+        "evidence_link:0210"
+      ]
+    },
+    {
+      "id": "collocation:033",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0233",
+        "evidence_link:0234"
+      ]
+    },
+    {
+      "id": "collocation:034",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0235",
+        "evidence_link:0236"
+      ]
+    },
+    {
+      "id": "collocation:035",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0237",
+        "evidence_link:0238"
+      ]
+    },
+    {
+      "id": "collocation:036",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0239",
+        "evidence_link:0240"
+      ]
+    },
+    {
+      "id": "collocation:037",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0261",
+        "evidence_link:0262"
+      ]
+    },
+    {
+      "id": "collocation:038",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0263",
+        "evidence_link:0264"
+      ]
+    },
+    {
+      "id": "collocation:039",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0265",
+        "evidence_link:0266"
+      ]
+    },
+    {
+      "id": "collocation:040",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0267",
+        "evidence_link:0268"
+      ]
+    },
+    {
+      "id": "collocation:041",
+      "status": "pass",
+      "notes": "revision-016のcollocationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0269",
+        "evidence_link:0270"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0023",
+        "evidence_link:0024"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0025",
+        "evidence_link:0026"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0027",
+        "evidence_link:0028"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0029",
+        "evidence_link:0030"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0031",
+        "evidence_link:0032"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0033",
+        "evidence_link:0034"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0035",
+        "evidence_link:0036"
+      ]
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "revision-016のcore_imageを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0037",
+        "evidence_link:0038"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "revision-016のdefinitionを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0043",
+        "evidence_link:0044"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "revision-016のdefinitionを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0087",
+        "evidence_link:0088"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "revision-016のdefinitionを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0133",
+        "evidence_link:0134"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "revision-016のdefinitionを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0179",
+        "evidence_link:0180"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "revision-016のdefinitionを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0221",
+        "evidence_link:0222"
+      ]
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "revision-016のdefinitionを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0247",
+        "evidence_link:0248"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "revision-016のetymologyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0007",
+        "evidence_link:0008"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "revision-016のetymologyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0009",
+        "evidence_link:0010"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "revision-016のfrequencyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0045",
+        "evidence_link:0046"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "revision-016のfrequencyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0089",
+        "evidence_link:0090"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "revision-016のfrequencyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0135",
+        "evidence_link:0136"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "revision-016のfrequencyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0181",
+        "evidence_link:0182"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "revision-016のfrequencyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0223",
+        "evidence_link:0224"
+      ]
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "revision-016のfrequencyを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0249",
+        "evidence_link:0250"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0049",
+        "evidence_link:0050"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0051",
+        "evidence_link:0052"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0053",
+        "evidence_link:0054"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0055",
+        "evidence_link:0056"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0057",
+        "evidence_link:0058"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0059",
+        "evidence_link:0060"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0093",
+        "evidence_link:0094"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0095",
+        "evidence_link:0096"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0097",
+        "evidence_link:0098"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0099",
+        "evidence_link:0100"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0101",
+        "evidence_link:0102"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0103",
+        "evidence_link:0104"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0139",
+        "evidence_link:0140"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0141",
+        "evidence_link:0142"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0143",
+        "evidence_link:0144"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0145",
+        "evidence_link:0146"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0147",
+        "evidence_link:0148"
+      ]
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0185",
+        "evidence_link:0186"
+      ]
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0187",
+        "evidence_link:0188"
+      ]
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0189",
+        "evidence_link:0190"
+      ]
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0191",
+        "evidence_link:0192"
+      ]
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0193",
+        "evidence_link:0194"
+      ]
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0195",
+        "evidence_link:0196"
+      ]
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0197",
+        "evidence_link:0198"
+      ]
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0199",
+        "evidence_link:0200"
+      ]
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0227",
+        "evidence_link:0228"
+      ]
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0229",
+        "evidence_link:0230"
+      ]
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0231",
+        "evidence_link:0232"
+      ]
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0253",
+        "evidence_link:0254"
+      ]
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0255",
+        "evidence_link:0256"
+      ]
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0257",
+        "evidence_link:0258"
+      ]
+    },
+    {
+      "id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "revision-016のgrammar_patternを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0259",
+        "evidence_link:0260"
+      ]
+    },
+    {
+      "id": "narrative:001",
+      "status": "pass",
+      "notes": "revision-016のnarrativeを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0039",
+        "evidence_link:0040"
+      ]
+    },
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "revision-016のpronunciationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0001",
+        "evidence_link:0002"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "revision-016のpronunciationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0003",
+        "evidence_link:0004"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "pass",
+      "notes": "revision-016のpronunciationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0005",
+        "evidence_link:0006"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "revision-016のregisterを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0047",
+        "evidence_link:0048"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "revision-016のregisterを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0091",
+        "evidence_link:0092"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "revision-016のregisterを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0137",
+        "evidence_link:0138"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "revision-016のregisterを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0183",
+        "evidence_link:0184"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "revision-016のregisterを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0225",
+        "evidence_link:0226"
+      ]
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "revision-016のregisterを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0251",
+        "evidence_link:0252"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "revision-016のsense_boundaryを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0041",
+        "evidence_link:0042"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "revision-016のsense_boundaryを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0085",
+        "evidence_link:0086"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "revision-016のsense_boundaryを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0131",
+        "evidence_link:0132"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "revision-016のsense_boundaryを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0177",
+        "evidence_link:0178"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "revision-016のsense_boundaryを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0219",
+        "evidence_link:0220"
+      ]
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "revision-016のsense_boundaryを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0245",
+        "evidence_link:0246"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0079",
+        "evidence_link:0080"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0081",
+        "evidence_link:0082"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0083",
+        "evidence_link:0084"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0125",
+        "evidence_link:0126"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0127",
+        "evidence_link:0128"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0129",
+        "evidence_link:0130"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0171",
+        "evidence_link:0172"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0173",
+        "evidence_link:0174"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0175",
+        "evidence_link:0176"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0213",
+        "evidence_link:0214"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0215",
+        "evidence_link:0216"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0217",
+        "evidence_link:0218"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0243",
+        "evidence_link:0244"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "revision-016のsynonymを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0273",
+        "evidence_link:0274"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "revision-016のusage_noteを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0077",
+        "evidence_link:0078"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "revision-016のusage_noteを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0123",
+        "evidence_link:0124"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "revision-016のusage_noteを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0169",
+        "evidence_link:0170"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "revision-016のusage_noteを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0211",
+        "evidence_link:0212"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "revision-016のusage_noteを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0241",
+        "evidence_link:0242"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "revision-016のusage_noteを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0271",
+        "evidence_link:0272"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "revision-016のword_formationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0011",
+        "evidence_link:0012"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "revision-016のword_formationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0013",
+        "evidence_link:0014"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "revision-016のword_formationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0015",
+        "evidence_link:0016"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "revision-016のword_formationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0017",
+        "evidence_link:0018"
+      ]
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "revision-016のword_formationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0019",
+        "evidence_link:0020"
+      ]
+    },
+    {
+      "id": "word_formation:006",
+      "status": "pass",
+      "notes": "revision-016のword_formationを本文・entry_spec_v5へ個別照合し、意味、構文、訳、領域、例文の整合を確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0021",
+        "evidence_link:0022"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "revision-016のrelation article_learning_riskをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0457",
+        "evidence_link:0458"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "revision-016のrelation core_inventory_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0441",
+        "evidence_link:0442"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0443",
+        "evidence_link:0444"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0445",
+        "evidence_link:0446"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0447",
+        "evidence_link:0448"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0449",
+        "evidence_link:0450"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0451",
+        "evidence_link:0452"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0453",
+        "evidence_link:0454"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "revision-016のrelation core_sense_mappingをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0455",
+        "evidence_link:0456"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "revision-016のrelation definition_usage_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0365",
+        "evidence_link:0366"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "revision-016のrelation definition_usage_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0379",
+        "evidence_link:0380"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "revision-016のrelation definition_usage_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0393",
+        "evidence_link:0394"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "revision-016のrelation definition_usage_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0405",
+        "evidence_link:0406"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "revision-016のrelation definition_usage_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0423",
+        "evidence_link:0424"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "revision-016のrelation definition_usage_consistencyをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0431",
+        "evidence_link:0432"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0283",
+        "evidence_link:0284"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0285",
+        "evidence_link:0286"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0287",
+        "evidence_link:0288"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0289",
+        "evidence_link:0290"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0291",
+        "evidence_link:0292"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0293",
+        "evidence_link:0294"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0295",
+        "evidence_link:0296"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0297",
+        "evidence_link:0298"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0299",
+        "evidence_link:0300"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0301",
+        "evidence_link:0302"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0303",
+        "evidence_link:0304"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0305",
+        "evidence_link:0306"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0307",
+        "evidence_link:0308"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0309",
+        "evidence_link:0310"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0311",
+        "evidence_link:0312"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0313",
+        "evidence_link:0314"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0315",
+        "evidence_link:0316"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0317",
+        "evidence_link:0318"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0319",
+        "evidence_link:0320"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0321",
+        "evidence_link:0322"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0323",
+        "evidence_link:0324"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0325",
+        "evidence_link:0326"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0327",
+        "evidence_link:0328"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0329",
+        "evidence_link:0330"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0331",
+        "evidence_link:0332"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0333",
+        "evidence_link:0334"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0335",
+        "evidence_link:0336"
+      ]
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0337",
+        "evidence_link:0338"
+      ]
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0339",
+        "evidence_link:0340"
+      ]
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0341",
+        "evidence_link:0342"
+      ]
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0343",
+        "evidence_link:0344"
+      ]
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0345",
+        "evidence_link:0346"
+      ]
+    },
+    {
+      "id": "example_translation:033",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0347",
+        "evidence_link:0348"
+      ]
+    },
+    {
+      "id": "example_translation:034",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0349",
+        "evidence_link:0350"
+      ]
+    },
+    {
+      "id": "example_translation:035",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0351",
+        "evidence_link:0352"
+      ]
+    },
+    {
+      "id": "example_translation:036",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0353",
+        "evidence_link:0354"
+      ]
+    },
+    {
+      "id": "example_translation:037",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0355",
+        "evidence_link:0356"
+      ]
+    },
+    {
+      "id": "example_translation:038",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0357",
+        "evidence_link:0358"
+      ]
+    },
+    {
+      "id": "example_translation:039",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0359",
+        "evidence_link:0360"
+      ]
+    },
+    {
+      "id": "example_translation:040",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0361",
+        "evidence_link:0362"
+      ]
+    },
+    {
+      "id": "example_translation:041",
+      "status": "pass",
+      "notes": "revision-016のrelation example_translationをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0363",
+        "evidence_link:0364"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0367",
+        "evidence_link:0368"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0369",
+        "evidence_link:0370"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0371",
+        "evidence_link:0372"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0373",
+        "evidence_link:0374"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0375",
+        "evidence_link:0376"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0377",
+        "evidence_link:0378"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0381",
+        "evidence_link:0382"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0383",
+        "evidence_link:0384"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0385",
+        "evidence_link:0386"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0387",
+        "evidence_link:0388"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0389",
+        "evidence_link:0390"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0391",
+        "evidence_link:0392"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0395",
+        "evidence_link:0396"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0397",
+        "evidence_link:0398"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0399",
+        "evidence_link:0400"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0401",
+        "evidence_link:0402"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0403",
+        "evidence_link:0404"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0407",
+        "evidence_link:0408"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0409",
+        "evidence_link:0410"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0411",
+        "evidence_link:0412"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0413",
+        "evidence_link:0414"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0415",
+        "evidence_link:0416"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0417",
+        "evidence_link:0418"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0419",
+        "evidence_link:0420"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0421",
+        "evidence_link:0422"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0425",
+        "evidence_link:0426"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0427",
+        "evidence_link:0428"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0429",
+        "evidence_link:0430"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0433",
+        "evidence_link:0434"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0435",
+        "evidence_link:0436"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0437",
+        "evidence_link:0438"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "status": "pass",
+      "notes": "revision-016のrelation pattern_example_coverageをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0439",
+        "evidence_link:0440"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "revision-016のrelation risk_sense_pairをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0275",
+        "evidence_link:0276"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "revision-016のrelation risk_sense_pairをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0277",
+        "evidence_link:0278"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "revision-016のrelation risk_sense_pairをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0279",
+        "evidence_link:0280"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "status": "pass",
+      "notes": "revision-016のrelation risk_sense_pairをtargetと本文へ個別照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0281",
+        "evidence_link:0282"
+      ]
+    }
+  ],
+  "normal_findings": [],
+  "adjudicated_cold_findings": [
+    {
+      "id": "CF001",
+      "status": "adopted",
+      "notes": "修正をrevision-002以降へ反映し、revision-016で再確認した。"
+    },
+    {
+      "id": "CF002",
+      "status": "adopted",
+      "notes": "修正をrevision-002以降へ反映し、revision-016で再確認した。"
+    },
+    {
+      "id": "CF003",
+      "status": "adopted",
+      "notes": "修正をrevision-002以降へ反映し、revision-016で再確認した。"
+    },
+    {
+      "id": "CF004",
+      "status": "adopted",
+      "notes": "修正をrevision-002以降へ反映し、revision-016で再確認した。"
+    }
+  ]
+}
