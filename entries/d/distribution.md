@@ -53,6 +53,7 @@ tags: []
 【文法パターン】distribution of 〈物・資金・情報〉 to 〈受け手〉＝～を…へ配ること／distribution of 〈物・資金〉 among 〈複数の受け手〉＝～を…の間で分配すること／for distribution to/among 〈受け手〉＝…へ配布するために  
 
 【コロケーション】
+
 ・the distribution of 〈food/aid/medicine〉 to 〈people/areas〉  
 用途: 支援物資などを受け手へ配る行為を表す。  
 例: The agency coordinated the distribution of food and medicine to remote villages.  
@@ -81,6 +82,7 @@ tags: []
 【語法・注意】この語義では distribution は行為・過程を表すため不可算が中心。to は「届け先」、among は「複数の受け手の間で分ける範囲」を示す。distribution of wealth/resources は、分ける行為を指すなら語義1、社会の中でどう配分されているかという結果の状態を指すなら語義2になり、文脈によって両方の読みがあり得る。delivery は一つの送り先へ届ける行為にも使えるが、distribution は複数の受け手へ広く配る過程を捉えやすい。  
 
 【類義語】
+
 ・allocation  
 定義: 資源・資金・時間などを特定の用途や受け手へ割り当てること。  
 頻度: 〈7/10〉  
@@ -113,6 +115,7 @@ tags: []
 【文法パターン】the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか／the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか／a 〈normal/probability/frequency〉 distribution＝特定種類の統計分布  
 
 【コロケーション】
+
 ・the distribution of 〈population/species/disease〉 across 〈area〉  
 用途: 人口・生物・病気などの地理的な広がり方を表す。  
 例: The map shows the distribution of the species across northern Europe.  
@@ -146,6 +149,7 @@ tags: []
 【語法・注意】空間・社会・数値の「結果としての並び方」に焦点があり、配る行為そのものを表す語義1と区別する。distribution of wealth/resources は両義になり得るため、動詞が change/examine/show のように結果の状態を扱うなら語義2の読みが強い。統計では a normal distribution, a probability distribution のように、特定の分布を一つの数学的対象として可算で使う。spread は単に広がりや範囲を表すことが多く、distribution のように「どこにどの程度あるか」という構造全体を必ずしも示さない。  
 
 【類義語】
+
 ・spread  
 定義: 物事がある範囲に広がっている程度・広がり方。  
 頻度: 〈7/10〉  
@@ -178,6 +182,7 @@ tags: []
 【文法パターン】distribution of 〈product/content〉 in/through 〈market/channel〉＝～を…で流通させること／handle the distribution of 〈product〉＝～の流通を担当する／distribution through 〈channel〉＝…という経路を通じた流通  
 
 【コロケーション】
+
 ・a distribution channel  
 用途: 商品・サービスを顧客へ届ける販売・流通経路を表す。  
 例: The company is developing new distribution channels for its products.  
@@ -211,6 +216,7 @@ tags: []
 【語法・注意】business の distribution は「配る」という語義1から発達したが、販売・物流の仕組みを一まとまりに捉える専門的な用法。delivery は個々の荷物を目的地へ届ける行為に焦点が狭く、logistics は輸送・保管・在庫管理などの計画と運用をより広く含み得る。distribution center は米綴り、distribution centre は英綴りで、distribution 自体の綴りは共通。  
 
 【類義語】
+
 ・logistics  
 定義: 物資の輸送・保管・在庫・情報の流れを計画し運用する活動。  
 頻度: 〈6/10〉  
@@ -243,6 +249,7 @@ tags: []
 【文法パターン】make a distribution to 〈investors/beneficiaries〉＝投資家・受益者へ分配金を支払う／receive a distribution from 〈fund/company〉＝ファンド・会社から分配を受ける／a 〈cash/annual/final〉 distribution＝現金・年次・最終の分配  
 
 【コロケーション】
+
 ・make a distribution to 〈investors/beneficiaries〉  
 用途: ファンド・会社などが受取人へ金銭や資産を分配する。  
 例: The fund will make a distribution to investors at the end of the year.  
@@ -266,6 +273,7 @@ tags: []
 【語法・注意】この語義では「分配する行為」と「分配された金額」の両方を表せる。a distribution, distributions のように可算なら、一回ごとの支払い・取り分を指すことが多い。dividend と重なる場合はあるが、distribution はより広くファンド等からの分配にも使われるため、常に「配当」と訳すとは限らない。具体的な税務・法的扱いは制度によって異なるので、語の意味だけから判断しない。  
 
 【類義語】
+
 ・payout  
 定義: 組織・制度・賭けなどから実際に支払われる金額。  
 頻度: 〈5/10〉  
@@ -298,6 +306,7 @@ tags: []
 【文法パターン】a Linux/GNU/Linux distribution＝Linux系のディストリビューション／a software distribution＝一まとまりとして配布されるソフトウェア構成／a distribution based on 〈system/project〉＝～を基盤にしたディストリビューション  
 
 【コロケーション】
+
 ・a Linux distribution  
 用途: Linuxカーネルを基盤にしたOSの配布版・構成を表す。  
 例: Ubuntu is a widely used Linux distribution.  
@@ -321,6 +330,7 @@ tags: []
 【語法・注意】この語義では distribution 自体が「配布される一まとまりのソフトウェア構成」を指すため可算。a distribution, several distributions のように使う。Linux文脈では distro という短縮形も広く使われる。software distribution は「ソフトウェアを配布する行為」を指すこともあるが、この語義で a distribution と言えば、配布される製品・OS構成そのものが焦点になる。語義3のビジネス上の流通活動とも区別する。  
 
 【類義語】
+
 ・distro  
 定義: distribution の短縮形で、特にLinuxなどのソフトウェア・ディストリビューションを指す。  
 頻度: 〈3/10〉  
