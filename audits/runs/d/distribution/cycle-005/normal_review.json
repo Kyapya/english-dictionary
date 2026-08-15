@@ -1,0 +1,3068 @@
+{
+  "stage": "normal_review",
+  "run_id": "01a00644-f346-7542-ad01-a73138c6bc57",
+  "context_id": "normal_context_distribution_cycle005_boole_revision005",
+  "input_body_sha256": "6fef4932f73e7c3fc5f0ab02c024a90688463fc9a6a747947599a688422a6177",
+  "prompt_sha256": "728e23caf13d306973ee3f9923efc28c5cfd6e954f39d9ff1eb894a59cec99c3",
+  "agent_result": {
+    "overall": "PASS",
+    "status": "review_ready",
+    "checked": false,
+    "body_edited": false,
+    "checks": {
+      "python_project_release_distribution_boundary": "clear",
+      "mathematical_definition": "pass",
+      "distribution_list": "included",
+      "electricity_water_articles": "pass",
+      "distribution_rights": "included",
+      "derived_forms_split": "pass"
+    },
+    "independent_candidates": {
+      "included": [
+        "distribution list",
+        "distribution rights",
+        "Python distribution package",
+        "import package",
+        "source/built distribution",
+        "installed distribution",
+        "mathematical distribution"
+      ],
+      "excluded": [
+        "単なる自由結合・重複表現",
+        "独立性・学習価値が不足する追加派生語"
+      ]
+    },
+    "unresolved_fail_candidates": [],
+    "evidence": [
+      "https://packaging.python.org/en/latest/glossary/",
+      "https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/",
+      "https://packaging.python.org/en/latest/discussions/package-formats/",
+      "https://docs.python.org/3/library/importlib.metadata.html",
+      "https://dlmf.nist.gov/1.16"
+    ]
+  },
+  "target_count": 172,
+  "relation_count": 121,
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: pronunciation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1819",
+        "evidence_link:1820"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: pronunciation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1821",
+        "evidence_link:1822"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: pronunciation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1823",
+        "evidence_link:1824"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: etymology text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1825",
+        "evidence_link:1826"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: etymology text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1827",
+        "evidence_link:1828"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1829",
+        "evidence_link:1830"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1831",
+        "evidence_link:1832"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1833",
+        "evidence_link:1834"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1835",
+        "evidence_link:1836"
+      ]
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1837",
+        "evidence_link:1838"
+      ]
+    },
+    {
+      "id": "word_formation:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1839",
+        "evidence_link:1840"
+      ]
+    },
+    {
+      "id": "word_formation:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1841",
+        "evidence_link:1842"
+      ]
+    },
+    {
+      "id": "word_formation:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: word_formation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1843",
+        "evidence_link:1844"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1845",
+        "evidence_link:1846"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1847",
+        "evidence_link:1848"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1849",
+        "evidence_link:1850"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1851",
+        "evidence_link:1852"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1853",
+        "evidence_link:1854"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1855",
+        "evidence_link:1856"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1857",
+        "evidence_link:1858"
+      ]
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1859",
+        "evidence_link:1860"
+      ]
+    },
+    {
+      "id": "core_image:009",
+      "status": "pass",
+      "notes": "revision-005 normal check: core_image text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1861",
+        "evidence_link:1862"
+      ]
+    },
+    {
+      "id": "narrative:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: narrative text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1863",
+        "evidence_link:1864"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1865",
+        "evidence_link:1866"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1867",
+        "evidence_link:1868"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1869",
+        "evidence_link:1870"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1871",
+        "evidence_link:1872"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1873",
+        "evidence_link:1874"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1875",
+        "evidence_link:1876"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1877",
+        "evidence_link:1878"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1879",
+        "evidence_link:1880"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1881",
+        "evidence_link:1882"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1883",
+        "evidence_link:1884"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1885",
+        "evidence_link:1886"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1887",
+        "evidence_link:1888"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1889",
+        "evidence_link:1890"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1891",
+        "evidence_link:1892"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1893",
+        "evidence_link:1894"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1895",
+        "evidence_link:1896"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1897",
+        "evidence_link:1898"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1899",
+        "evidence_link:1900"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1901",
+        "evidence_link:1902"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1903",
+        "evidence_link:1904"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1905",
+        "evidence_link:1906"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1907",
+        "evidence_link:1908"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1909",
+        "evidence_link:1910"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1911",
+        "evidence_link:1912"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1913",
+        "evidence_link:1914"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1915",
+        "evidence_link:1916"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1917",
+        "evidence_link:1918"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1919",
+        "evidence_link:1920"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1921",
+        "evidence_link:1922"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1923",
+        "evidence_link:1924"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1925",
+        "evidence_link:1926"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1927",
+        "evidence_link:1928"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1929",
+        "evidence_link:1930"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1931",
+        "evidence_link:1932"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1933",
+        "evidence_link:1934"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1935",
+        "evidence_link:1936"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1937",
+        "evidence_link:1938"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1939",
+        "evidence_link:1940"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1941",
+        "evidence_link:1942"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1943",
+        "evidence_link:1944"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1945",
+        "evidence_link:1946"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1947",
+        "evidence_link:1948"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1949",
+        "evidence_link:1950"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1951",
+        "evidence_link:1952"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1953",
+        "evidence_link:1954"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1955",
+        "evidence_link:1956"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1957",
+        "evidence_link:1958"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1959",
+        "evidence_link:1960"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1961",
+        "evidence_link:1962"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1963",
+        "evidence_link:1964"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1965",
+        "evidence_link:1966"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1967",
+        "evidence_link:1968"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1969",
+        "evidence_link:1970"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1971",
+        "evidence_link:1972"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1973",
+        "evidence_link:1974"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1975",
+        "evidence_link:1976"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1977",
+        "evidence_link:1978"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1979",
+        "evidence_link:1980"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1981",
+        "evidence_link:1982"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1983",
+        "evidence_link:1984"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1985",
+        "evidence_link:1986"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1987",
+        "evidence_link:1988"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1989",
+        "evidence_link:1990"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1991",
+        "evidence_link:1992"
+      ]
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1993",
+        "evidence_link:1994"
+      ]
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1995",
+        "evidence_link:1996"
+      ]
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1997",
+        "evidence_link:1998"
+      ]
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:1999",
+        "evidence_link:2000"
+      ]
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2001",
+        "evidence_link:2002"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2003",
+        "evidence_link:2004"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2005",
+        "evidence_link:2006"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2007",
+        "evidence_link:2008"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2009",
+        "evidence_link:2010"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2011",
+        "evidence_link:2012"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2013",
+        "evidence_link:2014"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2015",
+        "evidence_link:2016"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2017",
+        "evidence_link:2018"
+      ]
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2019",
+        "evidence_link:2020"
+      ]
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2021",
+        "evidence_link:2022"
+      ]
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2023",
+        "evidence_link:2024"
+      ]
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2025",
+        "evidence_link:2026"
+      ]
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2027",
+        "evidence_link:2028"
+      ]
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2029",
+        "evidence_link:2030"
+      ]
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2031",
+        "evidence_link:2032"
+      ]
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2033",
+        "evidence_link:2034"
+      ]
+    },
+    {
+      "id": "collocation:033",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2035",
+        "evidence_link:2036"
+      ]
+    },
+    {
+      "id": "collocation:034",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2037",
+        "evidence_link:2038"
+      ]
+    },
+    {
+      "id": "collocation:035",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2039",
+        "evidence_link:2040"
+      ]
+    },
+    {
+      "id": "collocation:036",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2041",
+        "evidence_link:2042"
+      ]
+    },
+    {
+      "id": "collocation:037",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2043",
+        "evidence_link:2044"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2045",
+        "evidence_link:2046"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2047",
+        "evidence_link:2048"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2049",
+        "evidence_link:2050"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2051",
+        "evidence_link:2052"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2053",
+        "evidence_link:2054"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2055",
+        "evidence_link:2056"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2057",
+        "evidence_link:2058"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2059",
+        "evidence_link:2060"
+      ]
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2061",
+        "evidence_link:2062"
+      ]
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2063",
+        "evidence_link:2064"
+      ]
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2065",
+        "evidence_link:2066"
+      ]
+    },
+    {
+      "id": "collocation:038",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2067",
+        "evidence_link:2068"
+      ]
+    },
+    {
+      "id": "collocation:039",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2069",
+        "evidence_link:2070"
+      ]
+    },
+    {
+      "id": "collocation:040",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2071",
+        "evidence_link:2072"
+      ]
+    },
+    {
+      "id": "collocation:041",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2073",
+        "evidence_link:2074"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2075",
+        "evidence_link:2076"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2077",
+        "evidence_link:2078"
+      ]
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2079",
+        "evidence_link:2080"
+      ]
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2081",
+        "evidence_link:2082"
+      ]
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2083",
+        "evidence_link:2084"
+      ]
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2085",
+        "evidence_link:2086"
+      ]
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2087",
+        "evidence_link:2088"
+      ]
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2089",
+        "evidence_link:2090"
+      ]
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2091",
+        "evidence_link:2092"
+      ]
+    },
+    {
+      "id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2093",
+        "evidence_link:2094"
+      ]
+    },
+    {
+      "id": "grammar_pattern:033",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2095",
+        "evidence_link:2096"
+      ]
+    },
+    {
+      "id": "grammar_pattern:034",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2097",
+        "evidence_link:2098"
+      ]
+    },
+    {
+      "id": "grammar_pattern:035",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2099",
+        "evidence_link:2100"
+      ]
+    },
+    {
+      "id": "collocation:042",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2101",
+        "evidence_link:2102"
+      ]
+    },
+    {
+      "id": "collocation:043",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2103",
+        "evidence_link:2104"
+      ]
+    },
+    {
+      "id": "collocation:044",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2105",
+        "evidence_link:2106"
+      ]
+    },
+    {
+      "id": "collocation:045",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2107",
+        "evidence_link:2108"
+      ]
+    },
+    {
+      "id": "collocation:046",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2109",
+        "evidence_link:2110"
+      ]
+    },
+    {
+      "id": "collocation:047",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2111",
+        "evidence_link:2112"
+      ]
+    },
+    {
+      "id": "collocation:048",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2113",
+        "evidence_link:2114"
+      ]
+    },
+    {
+      "id": "collocation:049",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2115",
+        "evidence_link:2116"
+      ]
+    },
+    {
+      "id": "collocation:050",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2117",
+        "evidence_link:2118"
+      ]
+    },
+    {
+      "id": "collocation:051",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2119",
+        "evidence_link:2120"
+      ]
+    },
+    {
+      "id": "collocation:052",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2121",
+        "evidence_link:2122"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2123",
+        "evidence_link:2124"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2125",
+        "evidence_link:2126"
+      ]
+    },
+    {
+      "id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: sense_boundary text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2127",
+        "evidence_link:2128"
+      ]
+    },
+    {
+      "id": "definition:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: definition text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2129",
+        "evidence_link:2130"
+      ]
+    },
+    {
+      "id": "frequency:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: frequency text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2131",
+        "evidence_link:2132"
+      ]
+    },
+    {
+      "id": "register:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: register text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2133",
+        "evidence_link:2134"
+      ]
+    },
+    {
+      "id": "grammar_pattern:036",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2135",
+        "evidence_link:2136"
+      ]
+    },
+    {
+      "id": "grammar_pattern:037",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2137",
+        "evidence_link:2138"
+      ]
+    },
+    {
+      "id": "grammar_pattern:038",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2139",
+        "evidence_link:2140"
+      ]
+    },
+    {
+      "id": "grammar_pattern:039",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2141",
+        "evidence_link:2142"
+      ]
+    },
+    {
+      "id": "grammar_pattern:040",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2143",
+        "evidence_link:2144"
+      ]
+    },
+    {
+      "id": "grammar_pattern:041",
+      "status": "pass",
+      "notes": "revision-005 normal check: grammar_pattern text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2145",
+        "evidence_link:2146"
+      ]
+    },
+    {
+      "id": "collocation:053",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2147",
+        "evidence_link:2148"
+      ]
+    },
+    {
+      "id": "collocation:054",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2149",
+        "evidence_link:2150"
+      ]
+    },
+    {
+      "id": "collocation:055",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2151",
+        "evidence_link:2152"
+      ]
+    },
+    {
+      "id": "collocation:056",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2153",
+        "evidence_link:2154"
+      ]
+    },
+    {
+      "id": "collocation:057",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2155",
+        "evidence_link:2156"
+      ]
+    },
+    {
+      "id": "collocation:058",
+      "status": "pass",
+      "notes": "revision-005 normal check: collocation text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2157",
+        "evidence_link:2158"
+      ]
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: usage_note text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2159",
+        "evidence_link:2160"
+      ]
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "revision-005 normal check: synonym text, placement, scope, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2161",
+        "evidence_link:2162"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2163",
+        "evidence_link:2164"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2165",
+        "evidence_link:2166"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2167",
+        "evidence_link:2168"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2169",
+        "evidence_link:2170"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2171",
+        "evidence_link:2172"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2173",
+        "evidence_link:2174"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2175",
+        "evidence_link:2176"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2177",
+        "evidence_link:2178"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2179",
+        "evidence_link:2180"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2181",
+        "evidence_link:2182"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2183",
+        "evidence_link:2184"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2185",
+        "evidence_link:2186"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2187",
+        "evidence_link:2188"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2189",
+        "evidence_link:2190"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2191",
+        "evidence_link:2192"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2193",
+        "evidence_link:2194"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2195",
+        "evidence_link:2196"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2197",
+        "evidence_link:2198"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2199",
+        "evidence_link:2200"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2201",
+        "evidence_link:2202"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2203",
+        "evidence_link:2204"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2205",
+        "evidence_link:2206"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2207",
+        "evidence_link:2208"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2209",
+        "evidence_link:2210"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2211",
+        "evidence_link:2212"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2213",
+        "evidence_link:2214"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2215",
+        "evidence_link:2216"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2217",
+        "evidence_link:2218"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2219",
+        "evidence_link:2220"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2221",
+        "evidence_link:2222"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2223",
+        "evidence_link:2224"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2225",
+        "evidence_link:2226"
+      ]
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2227",
+        "evidence_link:2228"
+      ]
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2229",
+        "evidence_link:2230"
+      ]
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2231",
+        "evidence_link:2232"
+      ]
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2233",
+        "evidence_link:2234"
+      ]
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2235",
+        "evidence_link:2236"
+      ]
+    },
+    {
+      "id": "example_translation:033",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2237",
+        "evidence_link:2238"
+      ]
+    },
+    {
+      "id": "example_translation:034",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2239",
+        "evidence_link:2240"
+      ]
+    },
+    {
+      "id": "example_translation:035",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2241",
+        "evidence_link:2242"
+      ]
+    },
+    {
+      "id": "example_translation:036",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2243",
+        "evidence_link:2244"
+      ]
+    },
+    {
+      "id": "example_translation:037",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2245",
+        "evidence_link:2246"
+      ]
+    },
+    {
+      "id": "example_translation:038",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2247",
+        "evidence_link:2248"
+      ]
+    },
+    {
+      "id": "example_translation:039",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2249",
+        "evidence_link:2250"
+      ]
+    },
+    {
+      "id": "example_translation:040",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2251",
+        "evidence_link:2252"
+      ]
+    },
+    {
+      "id": "example_translation:041",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2253",
+        "evidence_link:2254"
+      ]
+    },
+    {
+      "id": "example_translation:042",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2255",
+        "evidence_link:2256"
+      ]
+    },
+    {
+      "id": "example_translation:043",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2257",
+        "evidence_link:2258"
+      ]
+    },
+    {
+      "id": "example_translation:044",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2259",
+        "evidence_link:2260"
+      ]
+    },
+    {
+      "id": "example_translation:045",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2261",
+        "evidence_link:2262"
+      ]
+    },
+    {
+      "id": "example_translation:046",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2263",
+        "evidence_link:2264"
+      ]
+    },
+    {
+      "id": "example_translation:047",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2265",
+        "evidence_link:2266"
+      ]
+    },
+    {
+      "id": "example_translation:048",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2267",
+        "evidence_link:2268"
+      ]
+    },
+    {
+      "id": "example_translation:049",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2269",
+        "evidence_link:2270"
+      ]
+    },
+    {
+      "id": "example_translation:050",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2271",
+        "evidence_link:2272"
+      ]
+    },
+    {
+      "id": "example_translation:051",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2273",
+        "evidence_link:2274"
+      ]
+    },
+    {
+      "id": "example_translation:052",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2275",
+        "evidence_link:2276"
+      ]
+    },
+    {
+      "id": "example_translation:053",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2277",
+        "evidence_link:2278"
+      ]
+    },
+    {
+      "id": "example_translation:054",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2279",
+        "evidence_link:2280"
+      ]
+    },
+    {
+      "id": "example_translation:055",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2281",
+        "evidence_link:2282"
+      ]
+    },
+    {
+      "id": "example_translation:056",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2283",
+        "evidence_link:2284"
+      ]
+    },
+    {
+      "id": "example_translation:057",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2285",
+        "evidence_link:2286"
+      ]
+    },
+    {
+      "id": "example_translation:058",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2287",
+        "evidence_link:2288"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2289",
+        "evidence_link:2290"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2291",
+        "evidence_link:2292"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2293",
+        "evidence_link:2294"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2295",
+        "evidence_link:2296"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2297",
+        "evidence_link:2298"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2299",
+        "evidence_link:2300"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2301",
+        "evidence_link:2302"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2303",
+        "evidence_link:2304"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2305",
+        "evidence_link:2306"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2307",
+        "evidence_link:2308"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2309",
+        "evidence_link:2310"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2311",
+        "evidence_link:2312"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2313",
+        "evidence_link:2314"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2315",
+        "evidence_link:2316"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2317",
+        "evidence_link:2318"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2319",
+        "evidence_link:2320"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2321",
+        "evidence_link:2322"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2323",
+        "evidence_link:2324"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2325",
+        "evidence_link:2326"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2327",
+        "evidence_link:2328"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2329",
+        "evidence_link:2330"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2331",
+        "evidence_link:2332"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2333",
+        "evidence_link:2334"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2335",
+        "evidence_link:2336"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2337",
+        "evidence_link:2338"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2339",
+        "evidence_link:2340"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2341",
+        "evidence_link:2342"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2343",
+        "evidence_link:2344"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2345",
+        "evidence_link:2346"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2347",
+        "evidence_link:2348"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2349",
+        "evidence_link:2350"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2351",
+        "evidence_link:2352"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2353",
+        "evidence_link:2354"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2355",
+        "evidence_link:2356"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2357",
+        "evidence_link:2358"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2359",
+        "evidence_link:2360"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2361",
+        "evidence_link:2362"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2363",
+        "evidence_link:2364"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:033",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2365",
+        "evidence_link:2366"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:034",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2367",
+        "evidence_link:2368"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:035",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2369",
+        "evidence_link:2370"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2371",
+        "evidence_link:2372"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:036",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2373",
+        "evidence_link:2374"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:037",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2375",
+        "evidence_link:2376"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:038",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2377",
+        "evidence_link:2378"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:039",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2379",
+        "evidence_link:2380"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:040",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2381",
+        "evidence_link:2382"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:041",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2383",
+        "evidence_link:2384"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2385",
+        "evidence_link:2386"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2387",
+        "evidence_link:2388"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2389",
+        "evidence_link:2390"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2391",
+        "evidence_link:2392"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2393",
+        "evidence_link:2394"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2395",
+        "evidence_link:2396"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2397",
+        "evidence_link:2398"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2399",
+        "evidence_link:2400"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:008",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2401",
+        "evidence_link:2402"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "revision-005 normal check: relation meaning, target membership, example/pattern alignment, and linked evidence were checked.",
+      "evidence_link_ids": [
+        "evidence_link:2403",
+        "evidence_link:2404"
+      ]
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "C001",
+      "surface_form": "distribution",
+      "frame": "distribution of <theme> to/among <recipients>; for distribution to/among <recipients>",
+      "meaning": "分配・配布の行為または過程",
+      "rationale": "主要な一般義で、完全なto/amongフレームを含む。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "usage_note:001",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2405",
+        "evidence_link:2406"
+      ]
+    },
+    {
+      "id": "C002",
+      "surface_form": "distribution list",
+      "frame": "a distribution list; send/create/remove <a member> from a distribution list",
+      "meaning": "一斉送信先を表す固定複合名詞・関連表現",
+      "rationale": "定着複合表現として収録し、通常のdistributionの構文とは区別する。",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2407",
+        "evidence_link:2408"
+      ]
+    },
+    {
+      "id": "C003",
+      "surface_form": "distribution",
+      "frame": "the distribution of <entity> across/over/among <area/group>",
+      "meaning": "空間・集団・数値範囲における分布・配置",
+      "rationale": "一般・学術の主要義。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "usage_note:002",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2409",
+        "evidence_link:2410"
+      ]
+    },
+    {
+      "id": "C004",
+      "surface_form": "distribution",
+      "frame": "a normal/probability/frequency distribution; X follows/has a distribution; sample <observations> from <a distribution>",
+      "meaning": "統計・確率・頻度分布",
+      "rationale": "統計の定着フレームを独立候補として収録する。",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "usage_note:002"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2411",
+        "evidence_link:2412"
+      ]
+    },
+    {
+      "id": "C005",
+      "surface_form": "distribution",
+      "frame": "the distribution of <a phoneme/word/morpheme>",
+      "meaning": "言語学上の出現環境・分布",
+      "rationale": "語義2の専門適用として明示されている。",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:020"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2413",
+        "evidence_link:2414"
+      ]
+    },
+    {
+      "id": "C006",
+      "surface_form": "distribution",
+      "frame": "distribution of <products/content> through <a channel>; handle the distribution",
+      "meaning": "商品・コンテンツの市場流通・供給経路",
+      "rationale": "商業・メディアの主要用法。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "frequency:003",
+        "register:003",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029",
+        "collocation:030",
+        "collocation:031",
+        "collocation:032",
+        "usage_note:003",
+        "synonym:007",
+        "synonym:008",
+        "synonym:009"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2415",
+        "evidence_link:2416"
+      ]
+    },
+    {
+      "id": "C007",
+      "surface_form": "distribution",
+      "frame": "distribution of <electricity/gas/water> through <a network>; electricity/water distribution system",
+      "meaning": "電力・ガス・水の下流供給網・供給活動",
+      "rationale": "インフラ用法を商業流通と区別して収録する。",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:015",
+        "collocation:023",
+        "collocation:024",
+        "collocation:031",
+        "collocation:032"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2417",
+        "evidence_link:2418"
+      ]
+    },
+    {
+      "id": "C008",
+      "surface_form": "distribution",
+      "frame": "make/receive a distribution from <a fund/trust/estate/account>; a cash/annual/final distribution",
+      "meaning": "金融・信託・相続・退職口座の分配・分配金",
+      "rationale": "制度的な支払・取り分を語義4で限定する。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "frequency:004",
+        "register:004",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "grammar_pattern:025",
+        "collocation:033",
+        "collocation:034",
+        "collocation:035",
+        "collocation:036",
+        "collocation:037",
+        "usage_note:004",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2419",
+        "evidence_link:2420"
+      ]
+    },
+    {
+      "id": "C009",
+      "surface_form": "distribution",
+      "frame": "a Linux/software distribution; choose/install a distribution",
+      "meaning": "複数ソフトウェアをまとめた配布版",
+      "rationale": "Linux等の可算専門用法。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "frequency:005",
+        "register:005",
+        "grammar_pattern:026",
+        "grammar_pattern:027",
+        "grammar_pattern:028",
+        "collocation:038",
+        "collocation:039",
+        "collocation:040",
+        "collocation:041",
+        "usage_note:005",
+        "synonym:013"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2421",
+        "evidence_link:2422"
+      ]
+    },
+    {
+      "id": "C010",
+      "surface_form": "distribution package",
+      "frame": "install/require <a distribution package>; build/upload <a source/built distribution>",
+      "meaning": "Python packagingの配布パッケージ・配布形式・アーカイブ",
+      "rationale": "project/release/package/archive/installedの境界を本文で分け、一次資料でも確認した。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "frequency:006",
+        "register:006",
+        "grammar_pattern:029",
+        "grammar_pattern:030",
+        "grammar_pattern:031",
+        "grammar_pattern:032",
+        "grammar_pattern:033",
+        "grammar_pattern:034",
+        "grammar_pattern:035",
+        "collocation:042",
+        "collocation:043",
+        "collocation:044",
+        "collocation:045",
+        "collocation:046",
+        "collocation:047",
+        "collocation:048",
+        "collocation:049",
+        "collocation:050",
+        "collocation:051",
+        "collocation:052",
+        "usage_note:006",
+        "synonym:014"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2423",
+        "evidence_link:2424"
+      ]
+    },
+    {
+      "id": "C011",
+      "surface_form": "distribution",
+      "frame": "a distribution on <an open set/a space>; a tempered distribution; derivative of <a distribution>",
+      "meaning": "数学解析の一般化関数・超関数",
+      "rationale": "DLMFの連続線形汎関数・試験関数の説明と整合する。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:007",
+        "definition:007",
+        "frequency:007",
+        "register:007",
+        "grammar_pattern:036",
+        "grammar_pattern:037",
+        "grammar_pattern:038",
+        "grammar_pattern:039",
+        "grammar_pattern:040",
+        "grammar_pattern:041",
+        "collocation:053",
+        "collocation:054",
+        "collocation:055",
+        "collocation:056",
+        "collocation:057",
+        "collocation:058",
+        "usage_note:007",
+        "synonym:015"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2425",
+        "evidence_link:2426"
+      ]
+    },
+    {
+      "id": "C012",
+      "surface_form": "distributional/distributive/redistribution/redistribute/redistributive/distributed",
+      "frame": "distributional property; distributive law; redistribution of <wealth>; redistribute <resources>; distributed system",
+      "meaning": "distributionの派生語・語形成",
+      "rationale": "各派生語を別targetとして分割している。",
+      "disposition": "included",
+      "article_target_ids": [
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003",
+        "word_formation:004",
+        "word_formation:005",
+        "word_formation:006",
+        "word_formation:007",
+        "word_formation:008"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2427",
+        "evidence_link:2428"
+      ]
+    },
+    {
+      "id": "C013",
+      "surface_form": "distro",
+      "frame": "a Linux distro",
+      "meaning": "Linux distributionの口語的短縮形",
+      "rationale": "語義5の関連語として限定する。",
+      "disposition": "included",
+      "article_target_ids": [
+        "usage_note:005",
+        "synonym:013"
+      ],
+      "evidence_link_ids": [
+        "evidence_link:2429",
+        "evidence_link:2430"
+      ]
+    },
+    {
+      "id": "C014",
+      "surface_form": "distribution",
+      "frame": "distribution of a term in a proposition",
+      "meaning": "論理学上の周延",
+      "rationale": "低頻度の専門義で、今回の収録範囲では独立候補から除外する。",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "evidence_link_ids": [
+        "evidence_link:2431",
+        "evidence_link:2432"
+      ]
+    }
+  ]
+}

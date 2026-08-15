@@ -1,0 +1,343 @@
+{
+  "stage": "final_blind",
+  "run_id": "01a00604-1fbb-7ff3-a7ea-84353e129829",
+  "context_id": "final_context_distribution_cycle004_cicero_blind",
+  "input_body_sha256": "159635ead6bc52422d745c98fb03761a38d69df13db2b475cb74cdec24c9c816",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "provisional_decision": "REJECT",
+  "independent_candidates": [
+    {
+      "id": "IC01",
+      "surface_form": "distribution",
+      "part_of_speech": "noun, chiefly uncountable",
+      "complete_frame": [
+        "distribution of <theme> to <recipient/destination>",
+        "distribution of <theme> among/between <recipients>",
+        "<theme> for distribution to/among <recipients>",
+        "distribution to/among <recipients> of <theme>"
+      ],
+      "meaning": "物・資金・情報などを受け手へ分けて渡す行為・過程。",
+      "included_excluded": "included",
+      "reason": "最も一般的な中心義であり必須。",
+      "article_correspondence": "語義1「分配、配布、配給」"
+    },
+    {
+      "id": "IC02",
+      "surface_form": "a distribution / distributions",
+      "part_of_speech": "noun, countable",
+      "complete_frame": [
+        "a distribution of <items/assets> to <recipients>",
+        "receive a distribution from <source>",
+        "make a distribution to <recipient>"
+      ],
+      "meaning": "一回の配布・分配、または配られた一口・取り分・物。",
+      "included_excluded": "included",
+      "reason": "行為名詞の個別事例化と結果物の用法を区別する学習価値がある。",
+      "article_correspondence": "語義1が一回の行為、語義4が金銭・資産の取り分を扱うが、非金融の結果物用法は明示が弱い"
+    },
+    {
+      "id": "IC03",
+      "surface_form": "distribution",
+      "part_of_speech": "noun, countable or uncountable",
+      "complete_frame": [
+        "distribution of <entity/quantity> across/over/throughout <area/time>",
+        "distribution of <entity/quantity> among/between <groups>",
+        "distribution of <entity/quantity> by/according to <category>",
+        "distribution of <entity/quantity> within <population/range>",
+        "an even/uneven/wide distribution of <entity>"
+      ],
+      "meaning": "人・物・量が空間、時間、集団などにどう配置・配分されているかという状態・パターン。",
+      "included_excluded": "included",
+      "reason": "一般・学術の双方で主要な独立義。",
+      "article_correspondence": "語義2「分布、配置、分配のあり方」"
+    },
+    {
+      "id": "IC04",
+      "surface_form": "a distribution / probability distribution / frequency distribution",
+      "part_of_speech": "noun, countable",
+      "complete_frame": [
+        "the distribution of <variable/values/scores>",
+        "a <normal/Poisson/skewed/probability/frequency> distribution",
+        "<variable/data> has/follows <a distribution>",
+        "<observations> are drawn/sampled from <a distribution>",
+        "a distribution with <mean/variance/property>"
+      ],
+      "meaning": "統計・確率で、値または範囲に頻度・確率が対応する数学的対象。",
+      "included_excluded": "included",
+      "reason": "一般的な分布パターンから専門化しており、固有の可算性と述語フレームを持つ。",
+      "article_correspondence": "語義2内の統計用法"
+    },
+    {
+      "id": "IC05",
+      "surface_form": "distribution",
+      "part_of_speech": "noun, chiefly uncountable",
+      "complete_frame": [
+        "distribution of <goods/content/services> to <retailers/customers/market>",
+        "distribution of <goods/content> in/across <territory/market>",
+        "distribution of <goods/content> through/via <channel>",
+        "distribution by <distributor>",
+        "handle/manage <the distribution of theme>",
+        "distribution channel/network/rights/agreement/costs"
+      ],
+      "meaning": "商品・サービス・映画・音楽などを市場や利用者へ供給する商業活動・経路。",
+      "included_excluded": "included",
+      "reason": "ビジネスおよびメディアで高頻度の主要専門義。",
+      "article_correspondence": "語義3の商業・メディア用法"
+    },
+    {
+      "id": "IC06",
+      "surface_form": "distribution",
+      "part_of_speech": "noun, chiefly uncountable; attributive in compounds",
+      "complete_frame": [
+        "distribution of <electricity/gas/water> from <source> to <users>",
+        "distribution of <utility> through/via <network>",
+        "<electricity/gas/water> distribution",
+        "distribution network/system/grid"
+      ],
+      "meaning": "電気・ガス・水などを供給源から需要地点へ送る下流工程、およびその機能。",
+      "included_excluded": "included",
+      "reason": "商業流通と関連するが、インフラ固有の起点・終点と複合語を持つ。",
+      "article_correspondence": "語義3の公共インフラ用法"
+    },
+    {
+      "id": "IC07",
+      "surface_form": "a distribution / distribution",
+      "part_of_speech": "noun, countable or uncountable",
+      "complete_frame": [
+        "distribution of <cash/assets> from <fund/trust/estate/account> to <beneficiary/investor>",
+        "make/pay a distribution to <recipient>",
+        "receive/take a distribution from <source>",
+        "a <cash/annual/final> distribution"
+      ],
+      "meaning": "ファンド、会社、信託、遺産、退職口座などから行われる資産移転、またはその支払額。",
+      "included_excluded": "included",
+      "reason": "一般的な分配から専門化した金融・法務上の確立した用法。",
+      "article_correspondence": "語義4「金融・法律上の分配、分配金」"
+    },
+    {
+      "id": "IC08",
+      "surface_form": "a software/Linux/BSD/TeX distribution",
+      "part_of_speech": "noun, countable",
+      "complete_frame": [
+        "a <Linux/GNU/Linux/BSD/TeX/software> distribution",
+        "a distribution based on <system/project>",
+        "choose/install/run/maintain <a distribution>",
+        "a distribution for <platform/purpose>"
+      ],
+      "meaning": "関連ソフトウェアを一まとまりに構成して配布・導入できるようにした配布版。",
+      "included_excluded": "included",
+      "reason": "ITで確立した可算名詞用法。",
+      "article_correspondence": "語義5「ソフトウェア・ディストリビューション」"
+    },
+    {
+      "id": "IC09",
+      "surface_form": "distribution / distribution package / source distribution / built distribution",
+      "part_of_speech": "noun, countable",
+      "complete_frame": [
+        "install/require <a distribution package>",
+        "a distribution package named <name>",
+        "build <a source/built distribution> from <a project/source tree>",
+        "publish/upload/download <a distribution/archive> to/from <an index>",
+        "an installed distribution",
+        "the metadata/name/version/files of <a distribution>"
+      ],
+      "meaning": "Python packagingで、インストール対象となるプロジェクト単位、特定リリースの配布artifact、またはインストール済みdistributionを文脈に応じて指す用法。",
+      "included_excluded": "included",
+      "reason": "専門用法として収録価値はあるが、project/packageレベルとarchive artifactレベルを一律に同一視してはならない。",
+      "article_correspondence": "語義6。ただし中心定義と語法説明に重大な過度の限定がある"
+    },
+    {
+      "id": "IC10",
+      "surface_form": "distribution of a linguistic item / complementary distribution",
+      "part_of_speech": "noun, countable or uncountable",
+      "complete_frame": [
+        "distribution of <phoneme/morpheme/word/form> across/in <environments/positions>",
+        "the distribution of <item> is restricted to <environment>",
+        "<items> are in complementary distribution"
+      ],
+      "meaning": "言語形式が現れる位置・環境・用例範囲。",
+      "included_excluded": "included",
+      "reason": "一般的な配置パターン義の専門適用であり、独立語義化せず語義2に収めてよい。",
+      "article_correspondence": "語義2の言語学コロケーション"
+    },
+    {
+      "id": "IC11",
+      "surface_form": "a distribution / tempered distribution",
+      "part_of_speech": "noun, countable",
+      "complete_frame": [
+        "a distribution on <domain/space>",
+        "the space of distributions",
+        "a <tempered/compactly supported> distribution",
+        "a distribution acts on <a test function>",
+        "the derivative of <a distribution>"
+      ],
+      "meaning": "数学解析で、試験関数上の連続線形汎関数として扱われる一般化関数。",
+      "included_excluded": "included",
+      "reason": "確率分布とは別の確立した数学用語であり、記事が頻度2/10の狭い専門義まで収録する粒度なら除外できない。",
+      "article_correspondence": "対応なし"
+    },
+    {
+      "id": "IC12",
+      "surface_form": "distribution of a nerve/artery",
+      "part_of_speech": "noun",
+      "complete_frame": [
+        "the distribution of <a nerve/artery>",
+        "the <cutaneous/anatomical> distribution of <a nerve>",
+        "<symptoms> follow <a nerve's distribution>"
+      ],
+      "meaning": "解剖学で、神経・血管などの分岐、終末、支配領域のパターン。",
+      "included_excluded": "excluded",
+      "reason": "専門的で、一般的な配置・広がりの語義から理解可能。独立語義ではなく語義2の領域注記で足りる。",
+      "article_correspondence": "語義2に暗黙的に包含可能だが明示なし"
+    },
+    {
+      "id": "IC13",
+      "surface_form": "drug distribution",
+      "part_of_speech": "noun, uncountable",
+      "complete_frame": [
+        "distribution of <a drug/substance> to/within <tissues/body compartments>",
+        "<drug> distribution into <tissue>"
+      ],
+      "meaning": "薬物動態で、薬物が血流から組織・体液区画へ移行する過程。",
+      "included_excluded": "excluded",
+      "reason": "ADME固有の専門適用だが、移動・空間的分布という既収録義から説明可能で、一般記事の独立語義としては優先度が低い。",
+      "article_correspondence": "明示なし。語義1または2の専門適用として扱える"
+    },
+    {
+      "id": "IC14",
+      "surface_form": "distribution of securities",
+      "part_of_speech": "noun",
+      "complete_frame": [
+        "distribution of <securities> to <the public/investors>",
+        "a public distribution of <securities>"
+      ],
+      "meaning": "一部の法域で、証券を公衆へ募集・売り出すこと。",
+      "included_excluded": "excluded",
+      "reason": "法域依存性が強く、一般的な市場流通・提供義で処理できるため独立収録の優先度は低い。",
+      "article_correspondence": "語義3に包含可能だが明示なし"
+    },
+    {
+      "id": "IC15",
+      "surface_form": "distribution of a controlled substance",
+      "part_of_speech": "noun, uncountable",
+      "complete_frame": [
+        "distribution of <a controlled substance/drug>",
+        "possession with intent to distribute/distribution"
+      ],
+      "meaning": "刑事法上、規制薬物を他者へ引き渡すこと。",
+      "included_excluded": "excluded",
+      "reason": "法域依存の法律用法で、一般的な配布・引渡しの中心義から派生する。",
+      "article_correspondence": "語義1に包含可能だが明示なし"
+    },
+    {
+      "id": "IC16",
+      "surface_form": "distribution of a term",
+      "part_of_speech": "noun",
+      "complete_frame": [
+        "the distribution of <a term> in <a proposition>",
+        "<a term> has/has no distribution"
+      ],
+      "meaning": "伝統論理学で、命題中の項がそのカテゴリー全体を指示すること。",
+      "included_excluded": "excluded",
+      "reason": "低頻度で専門性が高く、現代の一般学習辞書記事では独立収録の必要性が低い。",
+      "article_correspondence": "対応なし"
+    },
+    {
+      "id": "IC17",
+      "surface_form": "a distribution on a manifold",
+      "part_of_speech": "noun, countable",
+      "complete_frame": [
+        "a distribution on <a manifold>",
+        "an <integrable/smooth> distribution",
+        "a distribution of <k-dimensional subspaces>"
+      ],
+      "meaning": "微分幾何で、各点に接空間の部分空間を対応させた構造。",
+      "included_excluded": "excluded",
+      "reason": "非常に狭い高度専門義で、一般記事の収録閾値を超えない。",
+      "article_correspondence": "対応なし"
+    },
+    {
+      "id": "IC18",
+      "surface_form": "distribution of type",
+      "part_of_speech": "noun, uncountable",
+      "complete_frame": [
+        "distribution of <type>",
+        "distribute <type> back into <cases>"
+      ],
+      "meaning": "活版印刷で、使用済み活字をケースへ戻すこと。",
+      "included_excluded": "excluded",
+      "reason": "歴史的・専門的で現代の学習価値が低い。",
+      "article_correspondence": "対応なし"
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "AF01",
+      "location": "語義目録全体、特に語義2の統計用法",
+      "severity": "major",
+      "issue": "数学解析の distribution＝一般化関数が欠落している。これは probability/frequency distribution とは異なる可算名詞の専門義で、固有の統語フレームを持つ。記事がPython packagingの頻度2/10の用法まで独立収録している粒度とも不整合。",
+      "revision_direction": "「a distribution on a domain」「tempered distribution」「space of distributions」などを伴う数学解析義を独立語義として追加し、確率分布との相違を明示する。"
+    },
+    {
+      "id": "AF02",
+      "location": "語義6の日本語訳・定義、語法・注意、Pillow例",
+      "severity": "major",
+      "issue": "distribution packageを一律にversioned archive fileとする中心説明が過度に狭く、同じ節の「installable software/projectを指す広い用法」およびPillowをdistribution package名として扱う例と整合しない。PyPAの現行説明は、通常はインストール可能なソフトウェア／projectとほぼ同義で、特定ファイルを指す用法もあるとしている。[PyPAの用語解説](https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/)。一方、PyPA glossaryにはarchive fileに限定する狭い定義もあり、資料間の用語揺れ自体を整理する必要がある。[PyPA glossary](https://packaging.python.org/en/latest/glossary/)",
+      "revision_direction": "project/package名レベルのdistribution package、source/built distributionという配布artifact、distribution archiveという物理ファイル、installed distributionを区別する。『各distribution packageはarchive file』『distribution archiveは常に同じもの』という全称表現を撤回し、どの資料・文脈の用語法かを明示する。"
+    },
+    {
+      "id": "AF03",
+      "location": "語義6の文法パターンとコロケーション",
+      "severity": "minor",
+      "issue": "Python用法のフレームがビルド・アップロード側に偏り、日常的なinstall/require、distribution名・version・metadata、installed distributionの構文がない。CPythonもDistributionをインストール済みdistribution packageのメタデータを表す対象として使用する。[Python importlib.metadata](https://docs.python.org/3/library/importlib.metadata.html)",
+      "revision_direction": "install/require a distribution package、an installed distribution、the name/version/metadata/files of a distributionなどを追加し、archive限定の誤った一般化を防ぐ。"
+    },
+    {
+      "id": "AF04",
+      "location": "語義1の文法パターン",
+      "severity": "minor",
+      "issue": "send/create/remove ... a distribution listはdistribution名詞自体が要求する統語フレームではなく、固定複合語distribution listを目的語とする別動詞のフレームである。完全フレーム欄に置くと、見出し語の項構造と関連表現が混同される。",
+      "revision_direction": "distribution list関連は関連表現・複合語欄だけに置き、文法パターン欄にはdistribution of X to Y、distribution of X among/between Y、X for distribution to Yなど見出し語自身のフレームだけを残す。"
+    },
+    {
+      "id": "AF05",
+      "location": "語義2の文法パターン",
+      "severity": "minor",
+      "issue": "主要な分類・母集団フレームであるdistribution by/according to category、distribution within a population/rangeと、統計で一般的なdrawn/sampled from a distributionが欠けており、完全な統語フレームの提示として不足する。",
+      "revision_direction": "分類軸を示すby/according to、範囲を示すwithin、標本生成を示すdraw/sample fromの各フレームを追加し、空間前置詞across/overとの役割差を説明する。"
+    },
+    {
+      "id": "AF06",
+      "location": "語義1の定義・語法と語義4",
+      "severity": "minor",
+      "issue": "可算のa distributionについて、一回の行為と金融上の支払額は説明されるが、一般に『配られた一口・割当物』という結果物用法の扱いが不明確。",
+      "revision_direction": "非金融分野でも文脈により一回の配布、配布分、割当物を表せることを短く明示し、金融上の制度的distributionとの境界を示す。"
+    }
+  ],
+  "review_scope": {
+    "stage": "blind_review_only",
+    "files_read": [
+      "/tmp/kyapya-distribution.NKOnYc/entries/d/distribution.md",
+      "/tmp/kyapya-distribution.NKOnYc/prompts/final_review_spec_v1.md"
+    ],
+    "external_sources_consulted": [
+      "PyPA Python Packaging User Guide: Distribution package vs. import package",
+      "PyPA Python Packaging User Guide: Glossary",
+      "Python documentation: importlib.metadata"
+    ],
+    "project_material_not_read": [
+      "監査台帳",
+      "通常レビュー",
+      "コールドレビュー",
+      "ログ",
+      "queue",
+      "差分",
+      "既知の懸念",
+      "その他のプロジェクト内仕様"
+    ],
+    "article_modified": false,
+    "audit_comparison_performed": false,
+    "final_adjudication_performed": false
+  },
+  "sealed_output_sha256": "b2ab9101f62c2c15156e2ee11c05c54c6fee19edf38ff7ce3f076cd40a89d893"
+}

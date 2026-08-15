@@ -1,0 +1,142 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold_reviewer_distribution_20260815_r2",
+  "context_id": "cold_context_distribution_20260815_r2",
+  "input_body_sha256": "a130242d1f3e15492818bdb249171ed8a880837891436629f53a554767773137",
+  "prompt_sha256": "81e0151d9b8d1d7fee81a33552691506646bf8f092b4a4852a356162a6a0a459",
+  "summary": "修正版本文を前提なしで横断確認し、言語学用法、distribution list、distributed system、software distribution、語義境界、金融・法律用法、distributive、インフラ訳、発音、頻度、network、distribution costsの12件を検出した。通常チェック側で全件を採用し、本文へ反映した。",
+  "findings": [
+    {
+      "id": "CF001",
+      "location": "語義2・言語学用法",
+      "description": "distributionalを言語学と説明しているのに、名詞distributionの言語学用法が本文にない。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "音素・語・形態素などの出現環境・分布を語義2の小項目として追加する。",
+      "evidence_link_ids": [
+        "evidence_link:0343",
+        "evidence_link:0344"
+      ]
+    },
+    {
+      "id": "CF002",
+      "location": "語義1・distribution list",
+      "description": "distribution listをメール受信者一覧に狭く限定している。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "情報・メールだけでなく物品・資料の配布先一覧も含むと修正する。",
+      "evidence_link_ids": [
+        "evidence_link:0347",
+        "evidence_link:0348"
+      ]
+    },
+    {
+      "id": "CF003",
+      "location": "語形成・distributed",
+      "description": "distributed systemを複数地点に部品があるだけの構成として読める。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "過去形・過去分詞であることと、ネットワーク連携する複数計算主体の構成であることを明記する。",
+      "evidence_link_ids": [
+        "evidence_link:0351",
+        "evidence_link:0352"
+      ]
+    },
+    {
+      "id": "CF004",
+      "location": "語義5・software distribution",
+      "description": "software distributionの行為・仕組みと配布版の読みの区別が例文だけでは弱い。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "両方の読みを明記し、本文の例文は配布版の読みであることを明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0355",
+        "evidence_link:0356"
+      ]
+    },
+    {
+      "id": "CF005",
+      "location": "語義1・2境界",
+      "description": "distribution of wealth/resourcesの両義性を強調しすぎ、典型的な読みの判断基準が弱い。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "一般配布の複数性、地域ごとの分布、redistributionの行為を区別する説明を保持・補強する。",
+      "evidence_link_ids": [
+        "evidence_link:0359",
+        "evidence_link:0360"
+      ]
+    },
+    {
+      "id": "CF006",
+      "location": "語義4・金融法律用法",
+      "description": "金融用法の説明に信託・遺産・退職口座などはあるが、法律上の分配と相続人への移転が見出し・定義で埋もれている。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "見出しを金融・法律上の分配とし、信託・遺産・無遺言遺産・相続人・不可算の制度用法を明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0363",
+        "evidence_link:0364"
+      ]
+    },
+    {
+      "id": "CF007",
+      "location": "語形成・distributive",
+      "description": "distributiveの経済・政治・倫理上の分配用法が不足している。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "数学・文法に加えて分配的正義・分配政策などの領域を明示する。",
+      "evidence_link_ids": [
+        "evidence_link:0367",
+        "evidence_link:0368"
+      ]
+    },
+    {
+      "id": "CF008",
+      "location": "語義3・インフラ訳",
+      "description": "電気・ガス・水のdistributionを供給網だけとすると上流工程まで含むように読める。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "配電・配水など利用者まで届ける下流の網であり、発電・浄水・生産そのものではないと限定する。",
+      "evidence_link_ids": [
+        "evidence_link:0371",
+        "evidence_link:0372"
+      ]
+    },
+    {
+      "id": "CF009",
+      "location": "発音記号",
+      "description": "米音の/ə/と/ɪ/の資料差を固定的な米英対比として読ませる可能性がある。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "米語の資料差を明示し、英音の表記との関係と第二強勢の弱まりを説明する。",
+      "evidence_link_ids": [
+        "evidence_link:0375",
+        "evidence_link:0376"
+      ]
+    },
+    {
+      "id": "CF010",
+      "location": "頻度スコア",
+      "description": "〈n/10〉が客観的統計値に見えるが、記事内の根拠・性格が明示されていない。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "学習辞書・一般辞書・用例・コーパスを照合した記事内の目安であると明記し、監査リンクを付ける。",
+      "evidence_link_ids": [
+        "evidence_link:0379",
+        "evidence_link:0380"
+      ]
+    },
+    {
+      "id": "CF011",
+      "location": "distribution network",
+      "description": "商業流通網とインフラ網を同じコロケーション説明だけで処理すると訳の区別が弱い。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "商業上のnetworkと配電網・配水網の小項目を分ける。",
+      "evidence_link_ids": [
+        "evidence_link:0383",
+        "evidence_link:0384"
+      ]
+    },
+    {
+      "id": "CF012",
+      "location": "distribution costs",
+      "description": "販売促進費を一般的に含むようにも読める。",
+      "reason": "独立コールドレビューで本文全体を前提なしに横断確認し、学習者の誤一般化、専門用法の欠落、発音・頻度の断定、または適用範囲の過度な固定化につながると判断した。",
+      "suggested_direction": "通常の保管・輸送・卸売・注文処理と、会計上の業界差を分けて説明する。",
+      "evidence_link_ids": [
+        "evidence_link:0387",
+        "evidence_link:0388"
+      ]
+    }
+  ]
+}

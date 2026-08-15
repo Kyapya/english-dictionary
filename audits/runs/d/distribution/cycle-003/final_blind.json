@@ -1,0 +1,145 @@
+{
+  "stage": "final_blind",
+  "run_id": "final_adjudicator_distribution_20260815_r3",
+  "context_id": "final_context_distribution_20260815_r3",
+  "input_body_sha256": "73c6c8da28367ef212f74cb8a9d9d2f4eb794f5ca201a883c88495a3eba64eeb",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "distribution of X to/among Y",
+      "frame": "distribution of 〈物・資金・情報〉 to/among 〈受け手〉",
+      "meaning": "分配・配布する行為または過程",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001"
+      ],
+      "rationale": "一般的な中心義として本文に収録されている。",
+      "evidence_link_ids": [
+        "evidence_link:0833",
+        "evidence_link:0834"
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "distribution of X across/over/among area or groups",
+      "frame": "distribution of 〈人・物・量〉 across/over/among 〈範囲・集団〉; X follows/has a distribution",
+      "meaning": "分布・配置・統計分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002"
+      ],
+      "rationale": "一般分布と統計分布を語義2内で扱っている。",
+      "evidence_link_ids": [
+        "evidence_link:0835",
+        "evidence_link:0836"
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "commercial distribution",
+      "frame": "distribution of 〈product/content〉 in/through 〈market/channel〉",
+      "meaning": "商品・コンテンツの流通・市場供給",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003"
+      ],
+      "rationale": "商業上の流通として本文に収録されている。",
+      "evidence_link_ids": [
+        "evidence_link:0837",
+        "evidence_link:0838"
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "electricity/water/gas distribution",
+      "frame": "distribution of 〈electricity/gas/water〉 through 〈network〉; distribution network/system/grid",
+      "meaning": "配電・配水などの下流供給機能",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "grammar_pattern:011"
+      ],
+      "rationale": "インフラ枝と具体的な網を区別して本文に収録されている。",
+      "evidence_link_ids": [
+        "evidence_link:0839",
+        "evidence_link:0840"
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "financial/trust/estate/retirement distribution",
+      "frame": "make/receive a distribution to/from 〈recipient/account〉; a cash/final distribution",
+      "meaning": "金融・信託・相続・退職口座の分配・払戻し",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004"
+      ],
+      "rationale": "金融・法律上の用法として本文に収録されている。",
+      "evidence_link_ids": [
+        "evidence_link:0841",
+        "evidence_link:0842"
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "Linux/software distribution",
+      "frame": "a Linux/software distribution; a distribution based on 〈project〉",
+      "meaning": "導入可能なソフトウェア一式・配布版",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005"
+      ],
+      "rationale": "Linux等の配布版とPython packagingの別用法を区別している。",
+      "evidence_link_ids": [
+        "evidence_link:0843",
+        "evidence_link:0844"
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "mathematical distribution theory",
+      "frame": "a distribution on X; in the sense of distributions",
+      "meaning": "解析学の超関数・一般化関数",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "一般学習記事では高度で低頻度のため、通常候補・監査で除外理由を保持している。",
+      "evidence_link_ids": [
+        "evidence_link:0845",
+        "evidence_link:0846"
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "logical/grammatical distribution",
+      "frame": "the distribution of a term; a distributed term",
+      "meaning": "論理学・伝統文法の周延",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "一般学習記事では高度で限定的な専門義のため、C012として明示的に除外している。",
+      "evidence_link_ids": [
+        "evidence_link:0847",
+        "evidence_link:0848"
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "card or hand distribution",
+      "frame": "distribution of cards/hands",
+      "meaning": "カードなどの配り方・各人への配置",
+      "disposition": "excluded",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "sense_boundary:002"
+      ],
+      "rationale": "基本義から自然に説明でき、独立語義化は不要である。",
+      "evidence_link_ids": [
+        "evidence_link:0849",
+        "evidence_link:0850"
+      ]
+    }
+  ],
+  "article_findings": [],
+  "sealed_output_sha256": "641bb6ac4caf4ff62880f7410751a1085228032582bc2ffa097c080bb25617e7"
+}

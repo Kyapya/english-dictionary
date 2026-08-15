@@ -1,0 +1,62 @@
+{
+  "stage": "final_review",
+  "run_id": "01a00649-ea9e-7940-b747-02fd62281415",
+  "context_id": "final_context_distribution_cycle005_arendt_blind",
+  "input_body_sha256": "6fef4932f73e7c3fc5f0ab02c024a90688463fc9a6a747947599a688422a6177",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "blind_output_sha256": "77a9e1001a2f5151f7fe3367da2796cba1bf414b05774862e9e905b22d7dacb0",
+  "adjudication": {
+    "decision": "PASS",
+    "blockers": [],
+    "verification": {
+      "targets": {
+        "checked": 172,
+        "expected": 172,
+        "all_pass": true
+      },
+      "relations": {
+        "checked": 121,
+        "expected": 121,
+        "all_pass": true
+      },
+      "normal_candidates": {
+        "checked": 14,
+        "expected": 14
+      },
+      "blind_candidates": {
+        "checked": 20,
+        "expected": 20,
+        "target_mapping": "確認済み"
+      },
+      "cold_findings": {
+        "checked": 6,
+        "expected": 6
+      },
+      "resolutions": {
+        "checked": 6,
+        "all_resolved": true
+      },
+      "evidence_links": {
+        "checked": 2432,
+        "concrete_locations": true,
+        "scope_and_counterexamples": true
+      },
+      "regression_checks": {
+        "checked": 10,
+        "pass": 10,
+        "pending": 0
+      }
+    },
+    "remaining_issues": [],
+    "note": "blind候補の本文target対応、資料内locator、inventory比較、回帰判定を確認し、内容上のblockerなし。",
+    "modifications_made": false
+  },
+  "recorded_counts": {
+    "targets": 172,
+    "relations": 121,
+    "normal_candidates": 14,
+    "blind_candidates": 20,
+    "cold_findings": 6,
+    "regression_checks": 10
+  }
+}

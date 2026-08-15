@@ -1,14 +1,3 @@
----
-headword: distribution
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-06-14
-updated_at: 2026-08-16
-checked: true
-tags: []
----
 
 ＃発音記号
 
@@ -16,7 +5,7 @@ tags: []
 
 米: /ˌdɪstrəˈbjuːʃən/（/ˌdɪstrɪˈbjuːʃən/ とする表記もある）｜英: /ˌdɪstrɪˈbjuːʃən/  
 
-資料によって米語の第2音節を /ə/ または /ɪ/ と表記するが、これは辞書の表記方針や弱化の実現を地域差そのものと同一視しない方がよい。米主表記と米代替・英表記の差は第2音節の母音だけで、他の音節と強勢位置は同じである。ここで示した表記では4音節として数え、第3音節 /ˈbjuː/ に主強勢がある。辞書では第1音節 /ˌdɪs/ に第二強勢が示されることがあるが、実際の発話では主強勢ほど強くなく、語末音節には強勢を置かない。  
+資料によって米語の第2音節を /ə/ または /ɪ/ と表記するが、これは辞書の表記方針や弱化の実現を地域差そのものと同一視しない方がよい。語末を /ʃən/ または弱化した /ʃn/ と表記する辞書もあるため、音節境界の見え方は資料・発話で揺れ得る。ここで示した表記では4音節として数え、第3音節 /ˈbjuː/ に主強勢がある。辞書では第1音節 /ˌdɪs/ に第二強勢が示されることがあるが、実際の発話では主強勢ほど強くなく、語末音節には強勢を置かない。  
 
 ＃語源
 
@@ -29,14 +18,12 @@ tags: []
 ・distributor：名詞。主要義は商品を小売店・顧客などへ供給する「販売業者、流通業者」だが、文脈により配布者・分配装置を指す。自動車では点火装置の「ディストリビューター」を指すこともある。  
 ・distributional：形容詞。「分布・分布上の、分配に関する」。統計・言語学などで、分布そのものに関わる性質を表す。  
 ・distributive：形容詞。「分配的な、各対象に分ける性質を持つ」。数学や文法などで分配する関係・機能を表し、distributive law「分配法則」や distributive pronoun「配分代名詞」のように使う。経済・政治・倫理では分配に関する意で、distributive justice のような共起では公平性・正義に関わる。  
-・redistribution：名詞。「再分配」。wealth/income redistribution のように資源・所得を配り直す文脈で使う。  
-・redistribute：動詞。「再分配する」。redistribute resources/income のように、いったん配分された資源を別の受け手へ配り直す。  
-・redistributive：形容詞。「再分配の、再分配を促す」。redistributive policy/measure のように使う。  
+・redistribution：名詞。「再分配」。wealth/income redistribution のように資源・所得を配り直す文脈で使う。redistribute は「再分配する」、redistributive は「再分配の、再分配を促す」の意。  
 ・distributed：distribute の過去形・過去分詞。形容詞的には、一般に「分布した、配分された」、ITでは「複数のコンピューター等に処理・データが分散した」の意で用いる。distributed system は複数の計算主体がネットワークを介して連携し、全体として一つのシステムのように機能する構成を指す。  
 
 ＃コアイメージ
 
-一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を含むより広い作用対象としての「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」「試験関数に作用する数学的対象」のどこに置かれるかで日本語訳が変わる。  
+一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」のどこに置かれるかで日本語訳が変わる。  
 
 ・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）  
 ・複数の場所・集団・値に広がった状態 → 「分布、配置、分配のあり方」（語義2）  
@@ -44,7 +31,6 @@ tags: []
 ・受取人へ割り振られた金銭・資産の取り分 → 「金融・法律上の分配、分配金」（語義4）  
 ・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）  
 ・Pythonプロジェクトの配布・インストール単位 → 「Python packagingにおける配布パッケージ」（語義6）  
-・試験関数に作用する数学解析の超関数 → 「一般化関数、超関数」（語義7）  
 
 語義1〜3は固定的に切り分けられるとは限らない。distribution of resources/products/information は、配る行為、配分された状態、流通の仕組みのいずれにも読める。たとえば distribution of food to villages は配給・配布の行為、distribution of products through wholesalers は流通経路・仕組み、geographical distribution of products は配置・分布に焦点がある。対象・動詞・前置詞・ビジネス文脈のどこに焦点があるかで、最も自然な語義が決まる。  
 
@@ -54,7 +40,7 @@ tags: []
 
 1. 【名詞・主に不可算】分配、配布、配給
 
-【日本語訳・定義】物・資金・情報などを受け手へ分けて渡す、配る、届ける行為または過程。一般の配布では通常、複数の受け手・地点を想定する。可算の a distribution は、一回・一件として区切られた配布や、非金融の文脈で配られた一口・割当物を表すこともある。金融・信託・相続における制度的な支払額・取り分は語義4で扱う。個々の配分・配布行為に焦点があり、販売・物流の仕組み全体に焦点が移ると語義3に近づく。  
+【日本語訳・定義】物・資金・情報などを受け手へ分けて渡す、配る、届ける行為または過程。一般の配布では通常、複数の受け手・地点を想定する。可算の a distribution は、一回・一件として区切られた配布を表すこともあり、金融・信託・相続では単一の受取人への支払額にも使う。個々の配分・配布行為に焦点があり、販売・物流の仕組み全体に焦点が移ると語義3に近づく。  
 
 【頻度】〈8/10〉  
 
@@ -67,7 +53,7 @@ tags: []
 ・the distribution of 〈food/aid/medicine〉 to 〈people/areas〉  
 用途: 支援物資などを受け手へ配る行為を表す。日本語の「配給」は食料・物資などを必要に応じて割り当てる、または不足時に供給する文脈に寄り、leaflets・profits・information には通常「配布」「分配」「提供」などを使う。  
 例: The agency coordinated the distribution of food and medicine to remote villages.  
-訳: その機関は遠隔地の村々への食料と医薬品の配布を調整した。  
+訳: その機関は遠隔地の村々への食料と医薬品の配給を調整した。  
 
 ・the distribution of 〈profits/resources〉 among 〈members/partners〉  
 用途: 利益や資源を複数の受け手の間で分ける。  
@@ -84,27 +70,7 @@ tags: []
 例: The organization supports the free distribution of educational materials to schools.  
 訳: その団体は学校への教育資料の無料配布を支援している。  
 
-・a distribution list  
-用途: distributionの配布行為ではなく、メールなどの一斉送信先一覧を指す定着複合名詞。語義1の中心義とは別の関連表現として覚える。  
-例: Please add the new team members to the distribution list.  
-訳: 新しいチームメンバーを配信先リストに追加してください。  
-
-・send an email to a distribution list  
-用途: 配信先リストに登録された複数の宛先へメールを一斉送信することを表す。  
-例: She sent the announcement to a distribution list.  
-訳: 彼女はその告知を配信先リストへ送った。  
-
-・create a distribution list  
-用途: 一斉送信用の宛先リストを作成することを表す。  
-例: The administrator created a distribution list for the project team.  
-訳: 管理者はプロジェクトチーム用の配信先リストを作成した。  
-
-・remove a member from a distribution list  
-用途: 一斉送信の宛先リストからメンバーを削除することを表す。  
-例: Please remove the former employee from the distribution list.  
-訳: 元従業員を配信先リストから外してください。  
-
-【語法・注意】この語義では distribution は行為・過程を表すため不可算が中心だが、可算性だけで行為か結果かを決めることはできない。a distribution of food は一回の配布活動を表すことがあり、一般の文脈の a distribution は一回の配布、配布された一口、割当物を表すこともある。金融・信託・相続の制度的な支払額・取り分は語義4として区別する。the distribution of wealth は一般的な資源配分の行為にも、富の分布にもなり得る。to は「届け先」、among は複数の受け手の間で分ける範囲を示すが、均等配分を含意しない。均等なら equally among などで明示する。delivery は一つの送り先へ届ける行為にも使えるが、distribution は複数の受け手へ広く配る過程を捉えやすい。  
+【語法・注意】この語義では distribution は行為・過程を表すため不可算が中心だが、可算性だけで行為か結果かを決めることはできない。a distribution of food は一回の配給活動を表すことがあり、the distribution of wealth は配る行為にも富の分布にもなり得る。to は「届け先」、among は複数の受け手の間で分ける範囲を示すが、均等配分を含意しない。均等なら equally among などで明示する。distribution list は現代ではメール・情報の送信先一覧が中心で、物品・資料の配布先を指すかどうかは文脈に依存する。delivery は一つの送り先へ届ける行為にも使えるが、distribution は複数の受け手へ広く配る過程を捉えやすい。  
 
 【類義語】
 
@@ -137,7 +103,7 @@ tags: []
 
 【レジスター/領域】一般・学術・統計。地理、生物、人口、所得、重量、データなどの広がり方を述べる。  
 
-【文法パターン】the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか／the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか／distribution by/according to 〈分類・カテゴリー〉＝…別の分布／distribution within 〈母集団・範囲〉＝…の内部での分布／a 〈normal〉 distribution＝正規分布／a 〈probability/frequency〉 distribution＝確率・頻度分布／the distribution of 〈values/scores〉 is skewed＝～の分布は偏っている／X follows/has a 〈normal/probability〉 distribution＝Xは…の分布に従う／〈observations〉 are drawn/sampled from 〈a distribution〉＝観測値を…から抽出する  
+【文法パターン】the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか／the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか／a 〈normal〉 distribution＝正規分布／a 〈probability/frequency〉 distribution＝確率・頻度分布／the distribution of 〈values/scores〉 is skewed＝～の分布は偏っている／X follows/has a 〈normal/probability〉 distribution＝Xは…の分布に従う  
 
 【コロケーション】
 
@@ -170,31 +136,6 @@ tags: []
 用途: 確率変数の各値または範囲へ確率がどう割り当てられるかを表す。  
 例: The model assumes a probability distribution for future demand.  
 訳: そのモデルは将来需要について一つの確率分布を仮定している。  
-
-・the distribution of 〈values/scores〉 is skewed  
-用途: 数値や得点の分布が一方の側へ偏っている状態を表す。  
-例: The distribution of test scores is skewed to the right.  
-訳: 試験得点の分布は右に歪んでおり、右側に長い裾をもつ。  
-
-・a skewed distribution  
-用途: 統計で、左右対称ではなく一方へ偏った分布を表す。  
-例: The data show a skewed distribution of household income.  
-訳: そのデータは世帯所得の偏った分布を示している。  
-
-・the distribution of 〈values/data〉 by/according to 〈category〉  
-用途: 値やデータをカテゴリー別に分けて、その分布を示す。by は分類軸を、according to は分類基準を明示する。  
-例: The report compares the distribution of responses by age group.  
-訳: その報告書は年齢層別の回答分布を比較している。  
-
-・a distribution within 〈a population/range〉  
-用途: 特定の母集団や数値範囲の内部における分布を示す。  
-例: The study describes the distribution of income within the population.  
-訳: その研究は母集団内の所得分布を記述している。  
-
-・draw/sample 〈observations〉 from 〈a distribution〉  
-用途: 統計・確率モデルから観測値を抽出することを表す。  
-例: The simulation samples observations from a normal distribution.  
-訳: そのシミュレーションは正規分布から観測値を抽出する。  
 
 ・the distribution of a 〈phoneme/word/morpheme〉  
 用途: 言語学で、音素・語・形態素などが現れる位置や環境、用例の分布を表す。  
@@ -248,15 +189,10 @@ tags: []
 例: The retailer expanded its distribution network across Asia.  
 訳: その小売企業はアジア全域に流通網を拡大した。  
 
-・an electricity distribution system/network  
-用途: 電気を供給源から利用者へ届ける配電網を表す。  
+・an electricity/water distribution system/network  
+用途: 電気・水などを供給源から利用者へ届ける配電・配水網を表す。  
 例: The utility is upgrading its electricity distribution network.  
 訳: その公益事業者は電力供給網を改修している。  
-
-・a water distribution system/network  
-用途: 水を浄水場などから利用者へ届ける配水網を表す。  
-例: The city is repairing its water distribution system.  
-訳: その市は水道の配水システムを修理している。  
 
 ・a distribution center/centre  
 用途: 商品を集約し、各販売先や顧客へ送り出す物流拠点を表す。  
@@ -273,30 +209,10 @@ tags: []
 例: The publisher signed a distribution agreement with a regional partner.  
 訳: その出版社は地域の提携先と流通契約を結んだ。  
 
-・distribution rights for 〈a film/product〉  
-用途: 映画・音楽・出版物・製品などを特定市場で流通させる権利を表す。  
-例: The studio acquired distribution rights for the film in Asia.  
-訳: そのスタジオはアジアでのその映画の配給権を取得した。  
-
 ・distribution costs  
 用途: 通常は商品を保管・輸送し、卸売・注文処理などを通じて供給する流通段階で生じる費用を表す。販売促進費を含むかは業界・企業の会計上の定義による。  
 例: The company reduced distribution costs by consolidating warehouses.  
 訳: その会社は倉庫を集約して流通コストを削減した。  
-
-・distribution through 〈a channel〉  
-用途: 商品・コンテンツを特定の販売・配信経路を通じて市場へ届ける活動を表す。  
-例: The publisher handles distribution through a digital channel.  
-訳: その出版社はデジタル経路を通じた配信を担当している。  
-
-・distribution of 〈electricity/gas/water〉 through 〈a network〉  
-用途: 電気・ガス・水などを供給源から利用者へ供給網を通じて届ける活動を表す。  
-例: The utility manages the distribution of electricity through a regional network.  
-訳: その公益事業者は地域の供給網を通じた電力供給を管理している。  
-
-・an electricity distribution grid  
-用途: 発電所や変電所から利用者へ電力を届ける配電網を表す。  
-例: The utility is modernizing the electricity distribution grid.  
-訳: その公益事業者は電力配電網を近代化している。  
 
 【語法・注意】business の distribution は「配る」という語義1から発達したが、販売・物流の仕組みを一まとまりに捉える専門的な用法。映画・音楽・出版では film distribution「映画配給」、music distribution「音楽配信・流通」、distribution rights「配給権・販売権」のように、物流以外の市場供給も表す。delivery は個々の荷物を目的地へ届ける行為に焦点が狭く、logistics は輸送・保管・在庫管理などの計画と運用をより広く含み得る。distribution center は米綴り、distribution centre は英綴りで、distribution 自体の綴りは共通。  
 
@@ -381,7 +297,7 @@ tags: []
 ・payment  
 定義: 金銭を支払うこと、または支払われる金額。  
 頻度: 〈10/10〉  
-違い: 厳密な類義語ではなく、最も広い関連語・対照語。分配という発生源・仕組みを含意しないが、distribution は何かを受取人へ割り振る文脈を保つ。  
+違い: 最も広い語で、分配という発生源・仕組みを含意しない。distribution は何かを受取人へ割り振る文脈を保つ。  
 例: The payment will be deposited into your account tomorrow.  
 訳: その支払いは明日あなたの口座に入金される。  
 
@@ -430,131 +346,48 @@ tags: []
 
 6. 【名詞・可算】Python packagingにおける配布パッケージ
 
-【日本語訳・定義】Python packaging で、distribution package は、pip install などで指定するインストール可能な software/project の名前・単位を指すことが多い。PyPAでは、特定バージョンを含む一つの配布ファイルを指す用法もある。用語を区別する場合は project を開発対象、release を特定バージョンのスナップショット、source distribution（sdist）と built distribution（通常はwheel）を配布形式、distribution archive をその物理ファイル、installed distribution をインストール済み対象のメタデータとして扱う。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では distribution package または installed distribution と明示する方が安全である。  
+【日本語訳・定義】Python packaging で、project（開発対象）やそのreleaseを利用者が配布・インストールできる形にしたものを distribution package、文脈により distribution と呼ぶ用法。PyPAの解説では distribution package はインストール可能なソフトウェアを指し、多くの場合 project とほぼ同義に使われる一方、特定のversioned archive fileを指す用法もある。release は特定バージョンのスナップショットで、一つのreleaseからsource distribution（sdist）やwheelなど複数の配布物が作られ得る。distribution archive はその配布物の物理ファイルを強調する呼び方で、distribution packageと文脈により同じファイルを指し得る。import package はPythonコードから読み込むモジュール・パッケージで、distribution package と同じ「package」と呼ばれることがあるが別概念である。  
 
 【頻度】〈2/10〉  
 
 【レジスター/領域】コンピューター・IT・Python packaging。一般的なLinux distributionとは異なり、Pythonプロジェクトのビルド・配布・インストールを説明する技術文書で使われる。  
 
-【文法パターン】a distribution package in Python packaging＝Python用の配布パッケージ／a distribution package from 〈a project〉＝〈プロジェクト〉から作られた配布パッケージ／install/require 〈a distribution package〉＝配布パッケージをインストール・依存指定する／an installed distribution＝インストール済みのdistribution／the name/version/metadata/files of 〈a distribution〉＝distributionの名前・バージョン・メタデータ・ファイル／build a source distribution or wheel from 〈a project〉＝〈プロジェクト〉からソース配布物またはwheelをビルドする／upload a distribution archive to 〈a package index〉＝配布アーカイブを〈パッケージインデックス〉へアップロードする  
+【文法パターン】a distribution package in Python packaging＝Python用の配布パッケージ／a distribution package from 〈a project〉＝〈プロジェクト〉から作られた配布パッケージ／build a source distribution or wheel from 〈a project〉＝〈プロジェクト〉からソース配布物またはwheelをビルドする／upload a distribution archive to 〈a package index〉＝配布アーカイブを〈パッケージインデックス〉へアップロードする  
 
 【コロケーション】
 
-・a distribution package from 〈a project〉  
-用途: Python packagingで、開発対象であるprojectから配布パッケージを作る関係を表す。projectそのものではなく、そこから生成される配布単位に焦点がある。  
-例: The distribution package is built from the project's source code.  
-訳: その配布パッケージはプロジェクトのソースコードからビルドされる。  
-
-・a distribution package for 〈a release〉  
-用途: projectの特定バージョンであるrelease向けの配布パッケージを表す。releaseそのものではなく、そのversionを配布・インストールする単位に焦点がある。  
-例: The distribution package is published for the latest release.  
-訳: その配布パッケージは最新リリース向けに公開される。  
-
 ・a distribution package  
-用途: Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。  
+用途: Pythonプロジェクトのリリースを配布・インストールするための、バージョン付きパッケージを表す。  
 例: The build backend creates a distribution package from the project.  
 訳: そのビルドバックエンドはプロジェクトから配布パッケージを作成する。  
 
 ・a distribution archive  
 用途: distribution packageを配布するための物理ファイルを表す。source distribution（sdist）やwheelなどの形式がある。  
-例: A distribution archive contains the files needed to install a release.  
-訳: 配布アーカイブにはリリースのインストールに必要なファイルが含まれている。  
+例: The publisher uploads the distribution archive to the package index.  
+訳: その配布アーカイブはパッケージインデックスへアップロードされる。  
 
 ・a distribution package vs. an import package  
 用途: distribution packageというインストール対象と、Pythonコードからimportできるimport packageを対比し、両者の違いを説明する表現。  
-例: The Pillow distribution package provides the PIL import package.  
-訳: Pillow配布パッケージはPIL import packageを提供する。  
+例: One distribution package can provide more than one import package.  
+訳: 一つの配布パッケージが複数のimportパッケージを提供することもある。  
 
 ・build a source distribution or wheel from 〈a project〉  
 用途: projectのソースツリーから、配布・インストールに使うsource distributionまたはwheelを作ることを表す。  
 例: The build backend builds a source distribution and a wheel for the release.  
 訳: そのビルドバックエンドはそのリリース用のソース配布物とwheelをビルドする。  
 
-・a built distribution  
-用途: インストール先へ必要なファイルとメタデータを移せる状態のビルド済み配布形式を表す。wheelが代表例。  
-例: A built distribution can be installed without building the project first.  
-訳: ビルド済み配布物は、先にプロジェクトをビルドしなくてもインストールできる。  
-
 ・upload a distribution archive to 〈a package index〉  
 用途: source distributionやwheelなどの配布アーカイブをパッケージインデックスへ登録することを表す。  
 例: The publisher uploads the distribution archive to the package index.  
 訳: 公開者はその配布アーカイブをパッケージインデックスへアップロードする。  
 
-・install/require a distribution package  
-用途: distribution packageを環境へインストールしたり、依存関係として要求したりすることを表す。project名・package名の単位を指す文脈で使う。  
-例: The application requires a distribution package that provides the command-line tool.  
-訳: そのアプリケーションはコマンドラインツールを提供する配布パッケージを必要とする。  
-
-・an installed distribution  
-用途: 環境へインストール済みのdistributionを、メタデータやentry pointとともに指す。配布前のarchiveそのものではない。  
-例: The tool lists every installed distribution in the environment.  
-訳: そのツールは環境にインストール済みの各distributionを一覧にする。  
-
-・the name/version/metadata/files of a distribution  
-用途: インストール済みdistributionの識別情報やメタデータ、含まれるファイルを調べることを表す。  
-例: The script reads the metadata and files of a distribution.  
-訳: そのスクリプトはdistributionのメタデータとファイルを読み取る。  
-
-【語法・注意】Python packagingでは、project、release、distribution package、source/built distribution、distribution archive、installed distribution、import packageは役割が異なる。projectは開発対象、releaseは特定バージョン、distribution packageはインストール対象または文脈によりその配布単位、source/built distributionは配布artifactの形式、distribution archiveは特定の物理ファイルを強調する呼び方、installed distributionはインストール済み対象のメタデータを扱う呼び方である。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、インストール時またはwheel作成前にビルド工程を要することがある。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package や installed distribution と明示する方が安全である。  
+【語法・注意】Python packagingでは、project、release、distribution package、distribution archive、import packageは役割が異なる。projectは開発対象、releaseは特定バージョン、distribution packageはそのreleaseを配布・インストールするための配布物、distribution archiveは物理ファイルを強調する呼び方で、文脈により両者が同じアーカイブを指す。import packageは実行時に読み込むPythonのモジュール・パッケージである。単語単独の distribution は文脈によりLinux distributionやPython distribution packageを指し得るため、技術文書では distribution package と明示する方が安全である。  
 
 【類義語】
 
 ・package  
-定義: Python packagingでdistribution packageまたはimport packageを指し得る短縮形・総称。文脈によってはLinuxなどのOS packageも指すため、単独では対象を特定できない。  
+定義: Python packagingでdistribution packageを指す短縮形。ただしimport packageも単にpackageと呼ばれるため、対象を明確にする必要がある。  
 頻度: 〈6/10〉  
-違い: 厳密な類義語というより短い関連語で、distribution package、import package、OS packageのいずれも指し得る。曖昧さを避ける技術文書では対象を明示する。  
-例: Pillow is a distribution package that provides the PIL import package.  
-訳: PillowはPIL import packageを提供するdistribution packageである。  
-
-7. 【名詞・可算】数学解析の一般化関数、超関数
-
-【日本語訳・定義】数学解析で、通常の関数として直接扱うことが難しい対象を、試験関数空間上の連続線形汎関数として表す対象。局所可積分関数などは一定の条件のもとでdistributionに埋め込める。確率分布や度数分布とは別の専門用法で、generalized function とも呼ばれる。  
-
-【頻度】〈1/10〉  
-
-【レジスター/領域】数学・解析学・物理数学。一般英語ではまれだが、distribution theory、偏微分方程式、フーリエ解析などで使う。  
-
-【文法パターン】a distribution on 〈an open set〉＝…上の超関数／a distribution on 〈a space〉＝…上の超関数／a 〈tempered/compactly supported〉 distribution＝…超関数／the space of distributions＝超関数の空間／the derivative of 〈a distribution〉＝超関数の導関数／a distribution acts on 〈a test function〉＝超関数が…試験関数に作用する  
-
-【コロケーション】
-
-・a distribution on 〈an open set〉  
-用途: 開集合などの領域上で定義される数学解析のdistributionを表す。  
-例: A distribution on an open set acts on test functions.  
-訳: 開集合上の超関数は試験関数に作用する。  
-
-・a distribution on 〈a space〉  
-用途: 関数空間・ベクトル空間など、対象となる空間を明示する。  
-例: The distribution is defined on a space of test functions.  
-訳: その超関数は試験関数の空間上で定義される。  
-
-・a tempered distribution  
-用途: 急減少する試験関数を扱う空間上で定義されるtempered distributionを表す。  
-例: The Dirac delta is a tempered distribution.  
-訳: ディラックのデルタは緩増加超関数である。  
-
-・the space of distributions  
-用途: distribution theoryで扱う超関数全体の空間を表す。  
-例: The equation is interpreted in the space of distributions.  
-訳: その方程式は超関数の空間で解釈される。  
-
-・the derivative of a distribution  
-用途: 通常の微分が定義しにくい対象について、distributionとしての導関数を表す。  
-例: The derivative of a distribution is defined by its action on test functions.  
-訳: 超関数の導関数は、試験関数への作用によって定義される。  
-
-・a distribution acts on 〈a test function〉  
-用途: distributionを試験関数へ作用する汎関数として説明する基本フレーム。  
-例: A distribution acts on a test function as a continuous linear functional.  
-訳: 超関数は、連続線形汎関数として試験関数に作用する。  
-
-【語法・注意】この語義の distribution は、値に確率を割り当てる probability distribution ではなく、試験関数空間上の連続線形汎関数として定義される数学的対象を指す。ordinary function は局所可積分性などの条件を満たす場合にdistributionとして埋め込める。tempered は試験関数の空間と成長条件を限定する専門語であり、一般の distribution と同一ではない。  
-
-【類義語】
-
-・generalized function  
-定義: 通常の関数を拡張し、distributionなどを含めて扱う一般化関数。  
-頻度: 〈1/10〉  
-違い: distribution と近い意味で使われるが、generalized function は広い呼称で、文献によって含む対象の範囲が異なる。  
-例: A distribution is a type of generalized function.  
-訳: distributionはgeneralized functionの一種である。  
+違い: distribution packageより短く一般的だが、import packageやLinuxのパッケージも指し得るため、曖昧さを避ける技術文書ではdistribution packageと明示する。  
+例: The package is available on the Python Package Index.  
+訳: そのパッケージはPython Package Indexで入手できる。  

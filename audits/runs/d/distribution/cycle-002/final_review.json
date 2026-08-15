@@ -1,0 +1,1871 @@
+{
+  "stage": "final_review",
+  "run_id": "final_adjudicator_distribution_20260815_r2",
+  "context_id": "final_context_distribution_20260815_r2",
+  "input_body_sha256": "a130242d1f3e15492818bdb249171ed8a880837891436629f53a554767773137",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "decision": "reject",
+  "blockers": [
+    {
+      "id": "B-001",
+      "subject_id": "current_cycle.body_revisions",
+      "problem": "cycle-002のrevision-002はコールドレビュー実行前にコールド指摘反映済みとして作成され、コールドレビューの入力本文と実際の指摘対象の順序が一致しない。",
+      "required_change": "cycle-002を不変のREJECT履歴として保存し、新cycleでコールドレビューを先に実行してから修正・通常チェックする。"
+    },
+    {
+      "id": "B-002",
+      "subject_id": "current_cycle.raw_outputs.final_blind",
+      "problem": "盲検結果の封印後に、最終raw outputと監査参照を完全に確定する工程が不足している。",
+      "required_change": "新cycleで盲検raw output、SHA、run/context IDを生成し、監査参照と一致させる。"
+    },
+    {
+      "id": "B-003",
+      "subject_id": "evidence_links",
+      "problem": "cycle-002の根拠リンクはclaim-specificなsource locatorとして不十分で、頻度・派生語・法律・コロケーションの資料位置を直接検証できない。",
+      "required_change": "新cycleで資料内の具体的な辞書見出し・定義・例・公的資料節へリンクする。"
+    },
+    {
+      "id": "B-004",
+      "subject_id": "word_formation:002",
+      "problem": "distributorの販売・流通業者以外の語義が無限定で欠落している。",
+      "required_change": "配布者・分配装置・自動車の点火装置などを文脈限定付きで補足する。"
+    },
+    {
+      "id": "B-005",
+      "subject_id": "word_formation:004",
+      "problem": "distributiveが公平性を常に含意するように読める。",
+      "required_change": "公平性を特定の共起表現に限定する。"
+    },
+    {
+      "id": "B-006",
+      "subject_id": "definition:001",
+      "problem": "可算性と単一受取人を直接結び付ける説明になっている。",
+      "required_change": "可算化の中心を一回・一件の分配や支払額として説明する。"
+    },
+    {
+      "id": "B-007",
+      "subject_id": "definition:003",
+      "problem": "裸のdistributionと物理的な供給網を同一視し得る。",
+      "required_change": "裸の機能・過程とnetwork/system/gridの物理網を分ける。"
+    }
+  ],
+  "target_results": [
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0917",
+        "evidence_link:0918"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0919",
+        "evidence_link:0920"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0921",
+        "evidence_link:0922"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0923",
+        "evidence_link:0924"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0925",
+        "evidence_link:0926"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0927",
+        "evidence_link:0928"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0929",
+        "evidence_link:0930"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0931",
+        "evidence_link:0932"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0933",
+        "evidence_link:0934"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0935",
+        "evidence_link:0936"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0937",
+        "evidence_link:0938"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0939",
+        "evidence_link:0940"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0941",
+        "evidence_link:0942"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0943",
+        "evidence_link:0944"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0945",
+        "evidence_link:0946"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0947",
+        "evidence_link:0948"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0949",
+        "evidence_link:0950"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0951",
+        "evidence_link:0952"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0953",
+        "evidence_link:0954"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0955",
+        "evidence_link:0956"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0957",
+        "evidence_link:0958"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0959",
+        "evidence_link:0960"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0961",
+        "evidence_link:0962"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0963",
+        "evidence_link:0964"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0965",
+        "evidence_link:0966"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0967",
+        "evidence_link:0968"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0969",
+        "evidence_link:0970"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0971",
+        "evidence_link:0972"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0973",
+        "evidence_link:0974"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0975",
+        "evidence_link:0976"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0977",
+        "evidence_link:0978"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0979",
+        "evidence_link:0980"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0981",
+        "evidence_link:0982"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0983",
+        "evidence_link:0984"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0985",
+        "evidence_link:0986"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0987",
+        "evidence_link:0988"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0989",
+        "evidence_link:0990"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0991",
+        "evidence_link:0992"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0993",
+        "evidence_link:0994"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0995",
+        "evidence_link:0996"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0997",
+        "evidence_link:0998"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0999",
+        "evidence_link:1000"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1001",
+        "evidence_link:1002"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1003",
+        "evidence_link:1004"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1005",
+        "evidence_link:1006"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1007",
+        "evidence_link:1008"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1009",
+        "evidence_link:1010"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1011",
+        "evidence_link:1012"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1013",
+        "evidence_link:1014"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1015",
+        "evidence_link:1016"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1017",
+        "evidence_link:1018"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1019",
+        "evidence_link:1020"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1021",
+        "evidence_link:1022"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1023",
+        "evidence_link:1024"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1025",
+        "evidence_link:1026"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1027",
+        "evidence_link:1028"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1029",
+        "evidence_link:1030"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1031",
+        "evidence_link:1032"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1033",
+        "evidence_link:1034"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1035",
+        "evidence_link:1036"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1037",
+        "evidence_link:1038"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1039",
+        "evidence_link:1040"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1041",
+        "evidence_link:1042"
+      ]
+    },
+    {
+      "id": "narrative:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1043",
+        "evidence_link:1044"
+      ]
+    },
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1045",
+        "evidence_link:1046"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1047",
+        "evidence_link:1048"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1049",
+        "evidence_link:1050"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1051",
+        "evidence_link:1052"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1053",
+        "evidence_link:1054"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1055",
+        "evidence_link:1056"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1057",
+        "evidence_link:1058"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1059",
+        "evidence_link:1060"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1061",
+        "evidence_link:1062"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1063",
+        "evidence_link:1064"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1065",
+        "evidence_link:1066"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1067",
+        "evidence_link:1068"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1069",
+        "evidence_link:1070"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1071",
+        "evidence_link:1072"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1073",
+        "evidence_link:1074"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1075",
+        "evidence_link:1076"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1077",
+        "evidence_link:1078"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1079",
+        "evidence_link:1080"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1081",
+        "evidence_link:1082"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1083",
+        "evidence_link:1084"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1085",
+        "evidence_link:1086"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1087",
+        "evidence_link:1088"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1089",
+        "evidence_link:1090"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1091",
+        "evidence_link:1092"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1093",
+        "evidence_link:1094"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1095",
+        "evidence_link:1096"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1097",
+        "evidence_link:1098"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1099",
+        "evidence_link:1100"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1101",
+        "evidence_link:1102"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1103",
+        "evidence_link:1104"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1105",
+        "evidence_link:1106"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1107",
+        "evidence_link:1108"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1109",
+        "evidence_link:1110"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "fail",
+      "notes": "独立候補・盲検指摘との照合で修正または追加限定が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1111",
+        "evidence_link:1112"
+      ]
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1113",
+        "evidence_link:1114"
+      ]
+    },
+    {
+      "id": "word_formation:006",
+      "status": "pass",
+      "notes": "最終照合で本文の該当主張を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1115",
+        "evidence_link:1116"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1117",
+        "evidence_link:1118"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1119",
+        "evidence_link:1120"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1121",
+        "evidence_link:1122"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1123",
+        "evidence_link:1124"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1125",
+        "evidence_link:1126"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1127",
+        "evidence_link:1128"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1129",
+        "evidence_link:1130"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1131",
+        "evidence_link:1132"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1133",
+        "evidence_link:1134"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1135",
+        "evidence_link:1136"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1137",
+        "evidence_link:1138"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1139",
+        "evidence_link:1140"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1141",
+        "evidence_link:1142"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1143",
+        "evidence_link:1144"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1145",
+        "evidence_link:1146"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1147",
+        "evidence_link:1148"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1149",
+        "evidence_link:1150"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1151",
+        "evidence_link:1152"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1153",
+        "evidence_link:1154"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1155",
+        "evidence_link:1156"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1157",
+        "evidence_link:1158"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1159",
+        "evidence_link:1160"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1161",
+        "evidence_link:1162"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1163",
+        "evidence_link:1164"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1165",
+        "evidence_link:1166"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1167",
+        "evidence_link:1168"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1169",
+        "evidence_link:1170"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1171",
+        "evidence_link:1172"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1173",
+        "evidence_link:1174"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1175",
+        "evidence_link:1176"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1177",
+        "evidence_link:1178"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1179",
+        "evidence_link:1180"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1181",
+        "evidence_link:1182"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1183",
+        "evidence_link:1184"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1185",
+        "evidence_link:1186"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1187",
+        "evidence_link:1188"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1189",
+        "evidence_link:1190"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1191",
+        "evidence_link:1192"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1193",
+        "evidence_link:1194"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1195",
+        "evidence_link:1196"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1197",
+        "evidence_link:1198"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1199",
+        "evidence_link:1200"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1201",
+        "evidence_link:1202"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1203",
+        "evidence_link:1204"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1205",
+        "evidence_link:1206"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1207",
+        "evidence_link:1208"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1209",
+        "evidence_link:1210"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1211",
+        "evidence_link:1212"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1213",
+        "evidence_link:1214"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1215",
+        "evidence_link:1216"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1217",
+        "evidence_link:1218"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1219",
+        "evidence_link:1220"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1221",
+        "evidence_link:1222"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1223",
+        "evidence_link:1224"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1225",
+        "evidence_link:1226"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1227",
+        "evidence_link:1228"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1229",
+        "evidence_link:1230"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1231",
+        "evidence_link:1232"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1233",
+        "evidence_link:1234"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "最終照合で関係するtarget間の意味・構文・所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1235",
+        "evidence_link:1236"
+      ]
+    }
+  ],
+  "candidate_results": [
+    {
+      "id": "C001",
+      "status": "fail",
+      "notes": "独立最終候補との範囲差または派生語の限定を要する。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1237",
+        "evidence_link:1238"
+      ]
+    },
+    {
+      "id": "C002",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1239",
+        "evidence_link:1240"
+      ]
+    },
+    {
+      "id": "C003",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1241",
+        "evidence_link:1242"
+      ]
+    },
+    {
+      "id": "C004",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1243",
+        "evidence_link:1244"
+      ]
+    },
+    {
+      "id": "C005",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1245",
+        "evidence_link:1246"
+      ]
+    },
+    {
+      "id": "C006",
+      "status": "fail",
+      "notes": "独立最終候補との範囲差または派生語の限定を要する。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1247",
+        "evidence_link:1248"
+      ]
+    },
+    {
+      "id": "C007",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1249",
+        "evidence_link:1250"
+      ]
+    },
+    {
+      "id": "C008",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1251",
+        "evidence_link:1252"
+      ]
+    },
+    {
+      "id": "C009",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1253",
+        "evidence_link:1254"
+      ]
+    },
+    {
+      "id": "C010",
+      "status": "fail",
+      "notes": "独立最終候補との範囲差または派生語の限定を要する。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1255",
+        "evidence_link:1256"
+      ]
+    },
+    {
+      "id": "C011",
+      "status": "pass",
+      "notes": "最終候補との照合を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1257",
+        "evidence_link:1258"
+      ]
+    }
+  ],
+  "blind_finding_results": [
+    {
+      "id": "BF-01",
+      "status": "fail",
+      "notes": "本文の限定または再修正が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1259",
+        "evidence_link:1260"
+      ]
+    },
+    {
+      "id": "BF-02",
+      "status": "fail",
+      "notes": "本文の限定または再修正が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1261",
+        "evidence_link:1262"
+      ]
+    },
+    {
+      "id": "BF-03",
+      "status": "fail",
+      "notes": "本文の限定または再修正が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1263",
+        "evidence_link:1264"
+      ]
+    },
+    {
+      "id": "BF-04",
+      "status": "fail",
+      "notes": "本文の限定または再修正が必要。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1265",
+        "evidence_link:1266"
+      ]
+    },
+    {
+      "id": "BF-05",
+      "status": "pass",
+      "notes": "照合上は確認・限定事項として記録した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1267",
+        "evidence_link:1268"
+      ]
+    },
+    {
+      "id": "BF-06",
+      "status": "pass",
+      "notes": "照合上は確認・限定事項として記録した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1269",
+        "evidence_link:1270"
+      ]
+    },
+    {
+      "id": "BF-07",
+      "status": "pass",
+      "notes": "照合上は確認・限定事項として記録した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1271",
+        "evidence_link:1272"
+      ]
+    },
+    {
+      "id": "BF-08",
+      "status": "pass",
+      "notes": "照合上は確認・限定事項として記録した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1273",
+        "evidence_link:1274"
+      ]
+    },
+    {
+      "id": "BF-09",
+      "status": "pass",
+      "notes": "照合上は確認・限定事項として記録した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1275",
+        "evidence_link:1276"
+      ]
+    },
+    {
+      "id": "BF-10",
+      "status": "pass",
+      "notes": "照合上は確認・限定事項として記録した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1277",
+        "evidence_link:1278"
+      ]
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "CF001",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1279",
+        "evidence_link:1280"
+      ]
+    },
+    {
+      "id": "CF002",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1281",
+        "evidence_link:1282"
+      ]
+    },
+    {
+      "id": "CF003",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1283",
+        "evidence_link:1284"
+      ]
+    },
+    {
+      "id": "CF004",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1285",
+        "evidence_link:1286"
+      ]
+    },
+    {
+      "id": "CF005",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1287",
+        "evidence_link:1288"
+      ]
+    },
+    {
+      "id": "CF006",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1289",
+        "evidence_link:1290"
+      ]
+    },
+    {
+      "id": "CF007",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1291",
+        "evidence_link:1292"
+      ]
+    },
+    {
+      "id": "CF008",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1293",
+        "evidence_link:1294"
+      ]
+    },
+    {
+      "id": "CF009",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1295",
+        "evidence_link:1296"
+      ]
+    },
+    {
+      "id": "CF010",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1297",
+        "evidence_link:1298"
+      ]
+    },
+    {
+      "id": "CF011",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1299",
+        "evidence_link:1300"
+      ]
+    },
+    {
+      "id": "CF012",
+      "finding_validity": "partial",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "本文へ修正は反映されているが、入力revisionと実行順序の整合性が未確認。"
+      ],
+      "unresolved_problem": "cycle-002の入力本文と修正順序を再構築する必要がある。",
+      "notes": "旧コールド指摘の内容は妥当性があるが、cycle-002の実行順序不一致のため現サイクルでは未解決とする。",
+      "evidence_link_ids_checked": [
+        "evidence_link:1301",
+        "evidence_link:1302"
+      ]
+    }
+  ]
+}

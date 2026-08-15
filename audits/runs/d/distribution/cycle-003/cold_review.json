@@ -1,0 +1,142 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold_reviewer_distribution_20260815_r3",
+  "context_id": "cold_context_distribution_20260815_r3",
+  "input_body_sha256": "a130242d1f3e15492818bdb249171ed8a880837891436629f53a554767773137",
+  "prompt_sha256": "81e0151d9b8d1d7fee81a33552691506646bf8f092b4a4852a356162a6a0a459",
+  "summary": "revision-001を前提なしに横断確認し、語義1〜3の境界、配給、free distribution、退職口座、ソフトウェア範囲、メディア、among、派生語、発音、語源、redistribution、頻度の12件を検出した。通常チェック側で全件を採用し、revision-002へ反映した。",
+  "findings": [
+    {
+      "id": "CF001",
+      "location": "語義1〜3の境界",
+      "description": "resources/products/informationがどの語義かの判定基準が抽象的。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "行為・流通経路・地理的分布の短い対比例を追加する。",
+      "evidence_link_ids": [
+        "evidence_link:0357",
+        "evidence_link:0358"
+      ]
+    },
+    {
+      "id": "CF002",
+      "location": "語義1・配給",
+      "description": "配給が一般的な訳語のように並び、対象別の自然さが弱い。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "食料・物資の不足時などに配給が寄り、leaflets・profits・informationは配布・分配・提供とする注記を加える。",
+      "evidence_link_ids": [
+        "evidence_link:0361",
+        "evidence_link:0362"
+      ]
+    },
+    {
+      "id": "CF003",
+      "location": "語義1・free distribution",
+      "description": "free distributionを無料配布に固定している。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "無料と自由な配布の両義を注記する。",
+      "evidence_link_ids": [
+        "evidence_link:0365",
+        "evidence_link:0366"
+      ]
+    },
+    {
+      "id": "CF004",
+      "location": "語義4・退職口座",
+      "description": "退職口座のdistributionが受益者への分配に限らず払戻し・引き出しを指す。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "口座名義人への移転・払戻しを定義へ追加する。",
+      "evidence_link_ids": [
+        "evidence_link:0369",
+        "evidence_link:0370"
+      ]
+    },
+    {
+      "id": "CF005",
+      "location": "語義5・ソフトウェア",
+      "description": "Linux中心に寄り、Linux以外のdistributionの範囲が弱い。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "BSD・TeX等を補い、Python packagingは別用法として限定する。",
+      "evidence_link_ids": [
+        "evidence_link:0373",
+        "evidence_link:0374"
+      ]
+    },
+    {
+      "id": "CF006",
+      "location": "語義3・メディア",
+      "description": "映画・音楽・出版の配給・配信用法が物流と十分に区別されていない。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "film/music distribution、distribution rights等の訳語・用法を注記する。",
+      "evidence_link_ids": [
+        "evidence_link:0377",
+        "evidence_link:0378"
+      ]
+    },
+    {
+      "id": "CF007",
+      "location": "語義1・among",
+      "description": "amongが均等配分を含意するように読める。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "均等なら equally among等で示すと注記する。",
+      "evidence_link_ids": [
+        "evidence_link:0381",
+        "evidence_link:0382"
+      ]
+    },
+    {
+      "id": "CF008",
+      "location": "語形成・distributional/distributive",
+      "description": "派生語の違いとdistributiveの一つずつ対応させる意味が不足。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "distributional effects、distributive justice/law/pronoun等の対比を補う。",
+      "evidence_link_ids": [
+        "evidence_link:0385",
+        "evidence_link:0386"
+      ]
+    },
+    {
+      "id": "CF009",
+      "location": "発音",
+      "description": "発音の第二強勢・米語母音表記の説明を断定しすぎる可能性がある。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "表記差・弱化を地域差と分け、第二強勢の実現を弱めて説明する。",
+      "evidence_link_ids": [
+        "evidence_link:0389",
+        "evidence_link:0390"
+      ]
+    },
+    {
+      "id": "CF010",
+      "location": "語源",
+      "description": "contributeの現代的説明が不自然。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "寄与する・貢献するという現代的意味とattributeの帰属義を示す。",
+      "evidence_link_ids": [
+        "evidence_link:0393",
+        "evidence_link:0394"
+      ]
+    },
+    {
+      "id": "CF011",
+      "location": "語形成・redistribution",
+      "description": "redistributionに対応するredistribute・redistributiveがない。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "再分配する・再分配のを追加する。",
+      "evidence_link_ids": [
+        "evidence_link:0397",
+        "evidence_link:0398"
+      ]
+    },
+    {
+      "id": "CF012",
+      "location": "頻度スコア",
+      "description": "10段階スコアの差の意味と比較可能性が読者に不明。",
+      "reason": "独立コールドレビューで記事全体を前提なしに横断し、学習者の誤一般化、語義境界、専門用法、例文訳、発音、頻度の適用範囲を確認した結果、修正価値があると判断した。",
+      "suggested_direction": "厳密な統計値でなく、語義間・類義語間・専門領域間で直接比較しない記事内目安と明記する。",
+      "evidence_link_ids": [
+        "evidence_link:0401",
+        "evidence_link:0402"
+      ]
+    }
+  ]
+}

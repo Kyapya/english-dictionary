@@ -1,0 +1,2673 @@
+{
+  "stage": "final_review",
+  "run_id": "01a00604-1fbb-7ff3-a7ea-84353e129829",
+  "context_id": "final_context_distribution_cycle004_cicero_blind",
+  "input_body_sha256": "159635ead6bc52422d745c98fb03761a38d69df13db2b475cb74cdec24c9c816",
+  "prompt_sha256": "8a6969dc02983bfc72aef0464e9bbc1582bad80b18d349191f6b1401ceb1ae54",
+  "decision": "reject",
+  "blind_output_sha256": "b2ab9101f62c2c15156e2ee11c05c54c6fee19edf38ff7ce3f076cd40a89d893",
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "fail",
+      "notes": "辞書のIPA表記だけでは、弱化・辞書方針・実際の発話に関する説明全体を直接支持できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0001",
+        "evidence_link:0002"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0003",
+        "evidence_link:0004"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "fail",
+      "notes": "辞書のIPA表記だけでは、弱化・辞書方針・実際の発話に関する説明全体を直接支持できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0005",
+        "evidence_link:0006"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0007",
+        "evidence_link:0008"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "fail",
+      "notes": "提示されたdistribution/distributeの出典位置はcontribute・attributeとの語根関係全体を直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0009",
+        "evidence_link:0010"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "fail",
+      "notes": "distribution見出しの汎用locatorでは各派生語の専門義・用例を主張単位で確認できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0011",
+        "evidence_link:0012"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "fail",
+      "notes": "distribution見出しの汎用locatorでは各派生語の専門義・用例を主張単位で確認できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0013",
+        "evidence_link:0014"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "fail",
+      "notes": "distribution見出しの汎用locatorでは各派生語の専門義・用例を主張単位で確認できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0015",
+        "evidence_link:0016"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "fail",
+      "notes": "distribution見出しの汎用locatorでは各派生語の専門義・用例を主張単位で確認できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0017",
+        "evidence_link:0018"
+      ]
+    },
+    {
+      "id": "word_formation:005",
+      "status": "fail",
+      "notes": "distribution見出しの汎用locatorでは各派生語の専門義・用例を主張単位で確認できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0019",
+        "evidence_link:0020"
+      ]
+    },
+    {
+      "id": "word_formation:006",
+      "status": "fail",
+      "notes": "distribution見出しの汎用locatorでは各派生語の専門義・用例を主張単位で確認できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0021",
+        "evidence_link:0022"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "fail",
+      "notes": "AF01の一般化関数義欠落により語義目録全体との整合が崩れている。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0023",
+        "evidence_link:0024"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0025",
+        "evidence_link:0026"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0027",
+        "evidence_link:0028"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "fail",
+      "notes": "対応する根拠がインフラまたは一般辞書に偏り、商業流通・ソフトウェア配布版まで直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0029",
+        "evidence_link:0030"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0031",
+        "evidence_link:0032"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "fail",
+      "notes": "対応する根拠がインフラまたは一般辞書に偏り、商業流通・ソフトウェア配布版まで直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0033",
+        "evidence_link:0034"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0035",
+        "evidence_link:0036"
+      ]
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0037",
+        "evidence_link:0038"
+      ]
+    },
+    {
+      "id": "narrative:001",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0039",
+        "evidence_link:0040"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0041",
+        "evidence_link:0042"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "fail",
+      "notes": "AF06の一般的な結果物・割当物としての可算用法が不明確なまま。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0043",
+        "evidence_link:0044"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "fail",
+      "notes": "辞書掲載と全語Ngramは1–10の語義別頻度スコアを直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0045",
+        "evidence_link:0046"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0047",
+        "evidence_link:0048"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0049",
+        "evidence_link:0050"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0051",
+        "evidence_link:0052"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0053",
+        "evidence_link:0054"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "fail",
+      "notes": "AF04のとおり、distribution listを目的語とする別動詞のフレームであり、distribution自身の統語フレームではない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0055",
+        "evidence_link:0056"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "fail",
+      "notes": "AF04のとおり、distribution listを目的語とする別動詞のフレームであり、distribution自身の統語フレームではない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0057",
+        "evidence_link:0058"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "fail",
+      "notes": "AF04のとおり、distribution listを目的語とする別動詞のフレームであり、distribution自身の統語フレームではない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0059",
+        "evidence_link:0060"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0061",
+        "evidence_link:0062"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0063",
+        "evidence_link:0064"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0065",
+        "evidence_link:0066"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0067",
+        "evidence_link:0068"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0069",
+        "evidence_link:0070"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0071",
+        "evidence_link:0072"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0073",
+        "evidence_link:0074"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0075",
+        "evidence_link:0076"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "fail",
+      "notes": "AF06の一般的な結果物・割当物としての可算用法が不明確なまま。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0077",
+        "evidence_link:0078"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0079",
+        "evidence_link:0080"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0081",
+        "evidence_link:0082"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0083",
+        "evidence_link:0084"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0085",
+        "evidence_link:0086"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0087",
+        "evidence_link:0088"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "fail",
+      "notes": "辞書掲載と全語Ngramは1–10の語義別頻度スコアを直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0089",
+        "evidence_link:0090"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0091",
+        "evidence_link:0092"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0093",
+        "evidence_link:0094"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0095",
+        "evidence_link:0096"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0097",
+        "evidence_link:0098"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "fail",
+      "notes": "第二根拠が語義・構文を検証しない全語Ngramで、two_sources_or_primaryを満たさない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0099",
+        "evidence_link:0100"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "fail",
+      "notes": "第二根拠が語義・構文を検証しない全語Ngramで、two_sources_or_primaryを満たさない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0101",
+        "evidence_link:0102"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0103",
+        "evidence_link:0104"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0105",
+        "evidence_link:0106"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0107",
+        "evidence_link:0108"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0109",
+        "evidence_link:0110"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0111",
+        "evidence_link:0112"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "fail",
+      "notes": "第二根拠が語義・構文を検証しない全語Ngramで、two_sources_or_primaryを満たさない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0113",
+        "evidence_link:0114"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0115",
+        "evidence_link:0116"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "fail",
+      "notes": "第二根拠が語義・構文を検証しない全語Ngramで、two_sources_or_primaryを満たさない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0117",
+        "evidence_link:0118"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0119",
+        "evidence_link:0120"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0121",
+        "evidence_link:0122"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0123",
+        "evidence_link:0124"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0125",
+        "evidence_link:0126"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0127",
+        "evidence_link:0128"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0129",
+        "evidence_link:0130"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "fail",
+      "notes": "DOE/EPA資料はインフラ部分を支持するが、同じtargetに含まれる商業・物流・メディア用法全体を支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0131",
+        "evidence_link:0132"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "fail",
+      "notes": "DOE/EPA資料はインフラ部分を支持するが、同じtargetに含まれる商業・物流・メディア用法全体を支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0133",
+        "evidence_link:0134"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "fail",
+      "notes": "辞書掲載と全語Ngramは1–10の語義別頻度スコアを直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0135",
+        "evidence_link:0136"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "fail",
+      "notes": "DOE/EPA資料はインフラ部分を支持するが、同じtargetに含まれる商業・物流・メディア用法全体を支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0137",
+        "evidence_link:0138"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0139",
+        "evidence_link:0140"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0141",
+        "evidence_link:0142"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0143",
+        "evidence_link:0144"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0145",
+        "evidence_link:0146"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0147",
+        "evidence_link:0148"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0149",
+        "evidence_link:0150"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0151",
+        "evidence_link:0152"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0153",
+        "evidence_link:0154"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0155",
+        "evidence_link:0156"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0157",
+        "evidence_link:0158"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0159",
+        "evidence_link:0160"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0161",
+        "evidence_link:0162"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0163",
+        "evidence_link:0164"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0165",
+        "evidence_link:0166"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0167",
+        "evidence_link:0168"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0169",
+        "evidence_link:0170"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0171",
+        "evidence_link:0172"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0173",
+        "evidence_link:0174"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0175",
+        "evidence_link:0176"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0177",
+        "evidence_link:0178"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0179",
+        "evidence_link:0180"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "fail",
+      "notes": "辞書掲載と全語Ngramは1–10の語義別頻度スコアを直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0181",
+        "evidence_link:0182"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0183",
+        "evidence_link:0184"
+      ]
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0185",
+        "evidence_link:0186"
+      ]
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0187",
+        "evidence_link:0188"
+      ]
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0189",
+        "evidence_link:0190"
+      ]
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0191",
+        "evidence_link:0192"
+      ]
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0193",
+        "evidence_link:0194"
+      ]
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0195",
+        "evidence_link:0196"
+      ]
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0197",
+        "evidence_link:0198"
+      ]
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0199",
+        "evidence_link:0200"
+      ]
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0201",
+        "evidence_link:0202"
+      ]
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0203",
+        "evidence_link:0204"
+      ]
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0205",
+        "evidence_link:0206"
+      ]
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0207",
+        "evidence_link:0208"
+      ]
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0209",
+        "evidence_link:0210"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0211",
+        "evidence_link:0212"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0213",
+        "evidence_link:0214"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0215",
+        "evidence_link:0216"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0217",
+        "evidence_link:0218"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "fail",
+      "notes": "リンクされた一般辞書・Python packaging資料ではLinux/BSD/TeX配布版の主張全体を直接支持できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0219",
+        "evidence_link:0220"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "fail",
+      "notes": "リンクされた一般辞書・Python packaging資料ではLinux/BSD/TeX配布版の主張全体を直接支持できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0221",
+        "evidence_link:0222"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "fail",
+      "notes": "辞書掲載と全語Ngramは1–10の語義別頻度スコアを直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0223",
+        "evidence_link:0224"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0225",
+        "evidence_link:0226"
+      ]
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0227",
+        "evidence_link:0228"
+      ]
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0229",
+        "evidence_link:0230"
+      ]
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0231",
+        "evidence_link:0232"
+      ]
+    },
+    {
+      "id": "collocation:033",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0233",
+        "evidence_link:0234"
+      ]
+    },
+    {
+      "id": "collocation:034",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0235",
+        "evidence_link:0236"
+      ]
+    },
+    {
+      "id": "collocation:035",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0237",
+        "evidence_link:0238"
+      ]
+    },
+    {
+      "id": "collocation:036",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0239",
+        "evidence_link:0240"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "fail",
+      "notes": "リンクされた一般辞書・Python packaging資料ではLinux/BSD/TeX配布版の主張全体を直接支持できない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0241",
+        "evidence_link:0242"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0243",
+        "evidence_link:0244"
+      ]
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "fail",
+      "notes": "AF02。PyPA glossaryの狭いarchive定義と、通常はinstallable software/projectを指す説明を適切に統合できていない。[PyPA discussion](https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/)・[PyPA glossary](https://packaging.python.org/en/latest/glossary/)",
+      "evidence_link_ids_checked": [
+        "evidence_link:0245",
+        "evidence_link:0246"
+      ]
+    },
+    {
+      "id": "definition:006",
+      "status": "fail",
+      "notes": "AF02。PyPA glossaryの狭いarchive定義と、通常はinstallable software/projectを指す説明を適切に統合できていない。[PyPA discussion](https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/)・[PyPA glossary](https://packaging.python.org/en/latest/glossary/)",
+      "evidence_link_ids_checked": [
+        "evidence_link:0247",
+        "evidence_link:0248"
+      ]
+    },
+    {
+      "id": "frequency:006",
+      "status": "fail",
+      "notes": "辞書掲載と全語Ngramは1–10の語義別頻度スコアを直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0249",
+        "evidence_link:0250"
+      ]
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0251",
+        "evidence_link:0252"
+      ]
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0253",
+        "evidence_link:0254"
+      ]
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0255",
+        "evidence_link:0256"
+      ]
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "fail",
+      "notes": "Pythonのsdist/wheelビルド主張に一般辞書だけが紐づき、PyPA一次資料への直接リンクがない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0257",
+        "evidence_link:0258"
+      ]
+    },
+    {
+      "id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0259",
+        "evidence_link:0260"
+      ]
+    },
+    {
+      "id": "collocation:037",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0261",
+        "evidence_link:0262"
+      ]
+    },
+    {
+      "id": "collocation:038",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0263",
+        "evidence_link:0264"
+      ]
+    },
+    {
+      "id": "collocation:039",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0265",
+        "evidence_link:0266"
+      ]
+    },
+    {
+      "id": "collocation:040",
+      "status": "fail",
+      "notes": "Pythonのsdist/wheelビルド主張に一般辞書だけが紐づき、PyPA一次資料への直接リンクがない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0267",
+        "evidence_link:0268"
+      ]
+    },
+    {
+      "id": "collocation:041",
+      "status": "pass",
+      "notes": "本文targetを最終照合し、本文・根拠・語義所属を確認した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0269",
+        "evidence_link:0270"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "fail",
+      "notes": "AF02。PyPA glossaryの狭いarchive定義と、通常はinstallable software/projectを指す説明を適切に統合できていない。[PyPA discussion](https://packaging.python.org/en/latest/discussions/distribution-package-vs-import-package/)・[PyPA glossary](https://packaging.python.org/en/latest/glossary/)",
+      "evidence_link_ids_checked": [
+        "evidence_link:0271",
+        "evidence_link:0272"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "fail",
+      "notes": "類義語の定義・中心差・頻度という高リスク主張に対し、全語Ngramや別領域資料を含む汎用リンクしかなく、主張単位の直接根拠が不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0273",
+        "evidence_link:0274"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0275",
+        "evidence_link:0276"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0277",
+        "evidence_link:0278"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0279",
+        "evidence_link:0280"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "status": "fail",
+      "notes": "AF02によりLinux distributionとPython distribution、およびPython内部のproject/package/archive境界が未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0281",
+        "evidence_link:0282"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0283",
+        "evidence_link:0284"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0285",
+        "evidence_link:0286"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0287",
+        "evidence_link:0288"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0289",
+        "evidence_link:0290"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0291",
+        "evidence_link:0292"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0293",
+        "evidence_link:0294"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0295",
+        "evidence_link:0296"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0297",
+        "evidence_link:0298"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0299",
+        "evidence_link:0300"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0301",
+        "evidence_link:0302"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0303",
+        "evidence_link:0304"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0305",
+        "evidence_link:0306"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0307",
+        "evidence_link:0308"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0309",
+        "evidence_link:0310"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0311",
+        "evidence_link:0312"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0313",
+        "evidence_link:0314"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0315",
+        "evidence_link:0316"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0317",
+        "evidence_link:0318"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0319",
+        "evidence_link:0320"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0321",
+        "evidence_link:0322"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0323",
+        "evidence_link:0324"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0325",
+        "evidence_link:0326"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0327",
+        "evidence_link:0328"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0329",
+        "evidence_link:0330"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0331",
+        "evidence_link:0332"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0333",
+        "evidence_link:0334"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0335",
+        "evidence_link:0336"
+      ]
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0337",
+        "evidence_link:0338"
+      ]
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0339",
+        "evidence_link:0340"
+      ]
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0341",
+        "evidence_link:0342"
+      ]
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0343",
+        "evidence_link:0344"
+      ]
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0345",
+        "evidence_link:0346"
+      ]
+    },
+    {
+      "id": "example_translation:033",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0347",
+        "evidence_link:0348"
+      ]
+    },
+    {
+      "id": "example_translation:034",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0349",
+        "evidence_link:0350"
+      ]
+    },
+    {
+      "id": "example_translation:035",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0351",
+        "evidence_link:0352"
+      ]
+    },
+    {
+      "id": "example_translation:036",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0353",
+        "evidence_link:0354"
+      ]
+    },
+    {
+      "id": "example_translation:037",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0355",
+        "evidence_link:0356"
+      ]
+    },
+    {
+      "id": "example_translation:038",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0357",
+        "evidence_link:0358"
+      ]
+    },
+    {
+      "id": "example_translation:039",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0359",
+        "evidence_link:0360"
+      ]
+    },
+    {
+      "id": "example_translation:040",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0361",
+        "evidence_link:0362"
+      ]
+    },
+    {
+      "id": "example_translation:041",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0363",
+        "evidence_link:0364"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "fail",
+      "notes": "AF06の結果物用法が定義・語法の双方で明確化されていない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0365",
+        "evidence_link:0366"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0367",
+        "evidence_link:0368"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0369",
+        "evidence_link:0370"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0371",
+        "evidence_link:0372"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "fail",
+      "notes": "AF04。distribution list関連を見出し語自身の統語フレームとして扱っている。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0373",
+        "evidence_link:0374"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "fail",
+      "notes": "AF04。distribution list関連を見出し語自身の統語フレームとして扱っている。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0375",
+        "evidence_link:0376"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "fail",
+      "notes": "AF04。distribution list関連を見出し語自身の統語フレームとして扱っている。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0377",
+        "evidence_link:0378"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0379",
+        "evidence_link:0380"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "fail",
+      "notes": "AF05。by/according to、within、drawn/sampled fromなどの主要フレームが欠落。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0381",
+        "evidence_link:0382"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0383",
+        "evidence_link:0384"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0385",
+        "evidence_link:0386"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0387",
+        "evidence_link:0388"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0389",
+        "evidence_link:0390"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "fail",
+      "notes": "AF05。by/according to、within、drawn/sampled fromなどの主要フレームが欠落。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0391",
+        "evidence_link:0392"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0393",
+        "evidence_link:0394"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0395",
+        "evidence_link:0396"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0397",
+        "evidence_link:0398"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0399",
+        "evidence_link:0400"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0401",
+        "evidence_link:0402"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0403",
+        "evidence_link:0404"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0405",
+        "evidence_link:0406"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0407",
+        "evidence_link:0408"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0409",
+        "evidence_link:0410"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0411",
+        "evidence_link:0412"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0413",
+        "evidence_link:0414"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0415",
+        "evidence_link:0416"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0417",
+        "evidence_link:0418"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0419",
+        "evidence_link:0420"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0421",
+        "evidence_link:0422"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0423",
+        "evidence_link:0424"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0425",
+        "evidence_link:0426"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0427",
+        "evidence_link:0428"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0429",
+        "evidence_link:0430"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "fail",
+      "notes": "AF02によりLinux distributionとPython distribution、およびPython内部のproject/package/archive境界が未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0431",
+        "evidence_link:0432"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "fail",
+      "notes": "AF03。install/require、installed distribution、name/version/metadata/filesなどPythonの主要フレームを覆っていない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0433",
+        "evidence_link:0434"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "fail",
+      "notes": "AF03。install/require、installed distribution、name/version/metadata/filesなどPythonの主要フレームを覆っていない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0435",
+        "evidence_link:0436"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "fail",
+      "notes": "AF03。install/require、installed distribution、name/version/metadata/filesなどPythonの主要フレームを覆っていない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0437",
+        "evidence_link:0438"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "status": "fail",
+      "notes": "AF03。install/require、installed distribution、name/version/metadata/filesなどPythonの主要フレームを覆っていない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0439",
+        "evidence_link:0440"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "fail",
+      "notes": "AF01の一般化関数義が語義目録から欠落。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0441",
+        "evidence_link:0442"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0443",
+        "evidence_link:0444"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0445",
+        "evidence_link:0446"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0447",
+        "evidence_link:0448"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0449",
+        "evidence_link:0450"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0451",
+        "evidence_link:0452"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "fail",
+      "notes": "AF02によりLinux distributionとPython distribution、およびPython内部のproject/package/archive境界が未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0453",
+        "evidence_link:0454"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "relationの意味関係・構文対応・語義所属を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0455",
+        "evidence_link:0456"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "fail",
+      "notes": "AF01–AF06がすべて未解決で、記事全体として誤一般化の危険が残る。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0457",
+        "evidence_link:0458"
+      ]
+    }
+  ],
+  "candidate_results": [
+    {
+      "id": "C001",
+      "status": "pass",
+      "notes": "通常棚卸し候補を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0459",
+        "evidence_link:0460"
+      ]
+    },
+    {
+      "id": "C002",
+      "status": "fail",
+      "notes": "関連複合語としては有効だが、grammar_pattern:004–006への対応付けが不適切。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0461",
+        "evidence_link:0462"
+      ]
+    },
+    {
+      "id": "C003",
+      "status": "fail",
+      "notes": "by/according to・withinを含む完全フレームが不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0463",
+        "evidence_link:0464"
+      ]
+    },
+    {
+      "id": "C004",
+      "status": "fail",
+      "notes": "draw/sample from等を含む統計義の完全フレームが不足。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0465",
+        "evidence_link:0466"
+      ]
+    },
+    {
+      "id": "C005",
+      "status": "fail",
+      "notes": "言語学用法を直接支持する専門根拠が台帳にない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0467",
+        "evidence_link:0468"
+      ]
+    },
+    {
+      "id": "C006",
+      "status": "pass",
+      "notes": "通常棚卸し候補を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0469",
+        "evidence_link:0470"
+      ]
+    },
+    {
+      "id": "C007",
+      "status": "fail",
+      "notes": "候補根拠が一般辞書だけで、インフラの下流供給を直接支持しない。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0471",
+        "evidence_link:0472"
+      ]
+    },
+    {
+      "id": "C008",
+      "status": "pass",
+      "notes": "通常棚卸し候補を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0473",
+        "evidence_link:0474"
+      ]
+    },
+    {
+      "id": "C009",
+      "status": "pass",
+      "notes": "通常棚卸し候補を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0475",
+        "evidence_link:0476"
+      ]
+    },
+    {
+      "id": "C010",
+      "status": "fail",
+      "notes": "AF02・AF03。project/package/archive/installed distributionの分類が不完全。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0477",
+        "evidence_link:0478"
+      ]
+    },
+    {
+      "id": "C011",
+      "status": "fail",
+      "notes": "見出し語distributionの語義候補ではなく派生語群であり、根拠も汎用的。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0479",
+        "evidence_link:0480"
+      ]
+    },
+    {
+      "id": "C012",
+      "status": "pass",
+      "notes": "通常棚卸し候補を最終照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0481",
+        "evidence_link:0482"
+      ]
+    }
+  ],
+  "inventory_comparison": [
+    {
+      "id": "ICMP-001",
+      "normal_candidate_ids": [
+        "C001"
+      ],
+      "final_candidate_ids": [
+        "IC01"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C001'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0711",
+        "evidence_link:0712"
+      ]
+    },
+    {
+      "id": "ICMP-002",
+      "normal_candidate_ids": [
+        "C002"
+      ],
+      "final_candidate_ids": [],
+      "comparison": "normal_only",
+      "status": "fail",
+      "rationale": "独立棚卸し候補 ['C002'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0713",
+        "evidence_link:0714"
+      ]
+    },
+    {
+      "id": "ICMP-003",
+      "normal_candidate_ids": [
+        "C003"
+      ],
+      "final_candidate_ids": [
+        "IC03"
+      ],
+      "comparison": "classification_conflict",
+      "status": "fail",
+      "rationale": "中心義は同じだがnormal側の完全フレームが不足。",
+      "evidence_link_ids": [
+        "evidence_link:0715",
+        "evidence_link:0716"
+      ]
+    },
+    {
+      "id": "ICMP-004",
+      "normal_candidate_ids": [
+        "C004"
+      ],
+      "final_candidate_ids": [
+        "IC04"
+      ],
+      "comparison": "classification_conflict",
+      "status": "fail",
+      "rationale": "中心義は同じだがnormal側の統計フレームが不足。",
+      "evidence_link_ids": [
+        "evidence_link:0717",
+        "evidence_link:0718"
+      ]
+    },
+    {
+      "id": "ICMP-005",
+      "normal_candidate_ids": [
+        "C005"
+      ],
+      "final_candidate_ids": [
+        "IC10"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C005'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0719",
+        "evidence_link:0720"
+      ]
+    },
+    {
+      "id": "ICMP-006",
+      "normal_candidate_ids": [
+        "C006"
+      ],
+      "final_candidate_ids": [
+        "IC05"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C006'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0721",
+        "evidence_link:0722"
+      ]
+    },
+    {
+      "id": "ICMP-007",
+      "normal_candidate_ids": [
+        "C007"
+      ],
+      "final_candidate_ids": [
+        "IC06"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C007'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0723",
+        "evidence_link:0724"
+      ]
+    },
+    {
+      "id": "ICMP-008",
+      "normal_candidate_ids": [
+        "C008"
+      ],
+      "final_candidate_ids": [
+        "IC07"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C008'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0725",
+        "evidence_link:0726"
+      ]
+    },
+    {
+      "id": "ICMP-009",
+      "normal_candidate_ids": [
+        "C009"
+      ],
+      "final_candidate_ids": [
+        "IC08"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C009'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0727",
+        "evidence_link:0728"
+      ]
+    },
+    {
+      "id": "ICMP-010",
+      "normal_candidate_ids": [
+        "C010"
+      ],
+      "final_candidate_ids": [
+        "IC09"
+      ],
+      "comparison": "classification_conflict",
+      "status": "fail",
+      "rationale": "normal側は配布artifact中心、final側はproject/package・artifact・installed distributionを区別。",
+      "evidence_link_ids": [
+        "evidence_link:0729",
+        "evidence_link:0730"
+      ]
+    },
+    {
+      "id": "ICMP-011",
+      "normal_candidate_ids": [
+        "C011"
+      ],
+      "final_candidate_ids": [],
+      "comparison": "normal_only",
+      "status": "fail",
+      "rationale": "独立棚卸し候補 ['C011'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0731",
+        "evidence_link:0732"
+      ]
+    },
+    {
+      "id": "ICMP-012",
+      "normal_candidate_ids": [
+        "C012"
+      ],
+      "final_candidate_ids": [
+        "IC16"
+      ],
+      "comparison": "match",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['C012'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0733",
+        "evidence_link:0734"
+      ]
+    },
+    {
+      "id": "ICMP-013",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC02"
+      ],
+      "comparison": "final_only",
+      "status": "fail",
+      "rationale": "独立棚卸し候補 ['IC02'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0735",
+        "evidence_link:0736"
+      ]
+    },
+    {
+      "id": "ICMP-014",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC11"
+      ],
+      "comparison": "final_only",
+      "status": "fail",
+      "rationale": "独立棚卸し候補 ['IC11'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0737",
+        "evidence_link:0738"
+      ]
+    },
+    {
+      "id": "ICMP-015",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC12"
+      ],
+      "comparison": "final_only",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['IC12'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0739",
+        "evidence_link:0740"
+      ]
+    },
+    {
+      "id": "ICMP-016",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC13"
+      ],
+      "comparison": "final_only",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['IC13'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0741",
+        "evidence_link:0742"
+      ]
+    },
+    {
+      "id": "ICMP-017",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC14"
+      ],
+      "comparison": "final_only",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['IC14'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0743",
+        "evidence_link:0744"
+      ]
+    },
+    {
+      "id": "ICMP-018",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC15"
+      ],
+      "comparison": "final_only",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['IC15'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0745",
+        "evidence_link:0746"
+      ]
+    },
+    {
+      "id": "ICMP-019",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC17"
+      ],
+      "comparison": "final_only",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['IC17'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0747",
+        "evidence_link:0748"
+      ]
+    },
+    {
+      "id": "ICMP-020",
+      "normal_candidate_ids": [],
+      "final_candidate_ids": [
+        "IC18"
+      ],
+      "comparison": "final_only",
+      "status": "pass",
+      "rationale": "独立棚卸し候補 ['IC18'] を双方向に照合した。",
+      "evidence_link_ids": [
+        "evidence_link:0749",
+        "evidence_link:0750"
+      ]
+    }
+  ],
+  "blind_finding_results": [
+    {
+      "id": "AF01",
+      "status": "fail",
+      "notes": "盲検所見を監査台帳と本文へ照合した。本文未修正のため未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0751",
+        "evidence_link:0752"
+      ]
+    },
+    {
+      "id": "AF02",
+      "status": "fail",
+      "notes": "盲検所見を監査台帳と本文へ照合した。本文未修正のため未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0753",
+        "evidence_link:0754"
+      ]
+    },
+    {
+      "id": "AF03",
+      "status": "fail",
+      "notes": "盲検所見を監査台帳と本文へ照合した。本文未修正のため未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0755",
+        "evidence_link:0756"
+      ]
+    },
+    {
+      "id": "AF04",
+      "status": "fail",
+      "notes": "盲検所見を監査台帳と本文へ照合した。本文未修正のため未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0757",
+        "evidence_link:0758"
+      ]
+    },
+    {
+      "id": "AF05",
+      "status": "fail",
+      "notes": "盲検所見を監査台帳と本文へ照合した。本文未修正のため未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0759",
+        "evidence_link:0760"
+      ]
+    },
+    {
+      "id": "AF06",
+      "status": "fail",
+      "notes": "盲検所見を監査台帳と本文へ照合した。本文未修正のため未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0761",
+        "evidence_link:0762"
+      ]
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "CF001",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "status": "pass",
+      "verified_changes": [
+        "cycle-004 revision-016で本文とresolutionの反映を照合した。"
+      ],
+      "unresolved_problem": "",
+      "notes": "cold findingとresolutionを照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0483",
+        "evidence_link:0484"
+      ]
+    },
+    {
+      "id": "CF002",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "status": "pass",
+      "verified_changes": [
+        "cycle-004 revision-016で本文とresolutionの反映を照合した。"
+      ],
+      "unresolved_problem": "",
+      "notes": "cold findingとresolutionを照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0487",
+        "evidence_link:0488"
+      ]
+    },
+    {
+      "id": "CF003",
+      "finding_validity": "valid",
+      "resolution_status": "unresolved",
+      "status": "fail",
+      "verified_changes": [
+        "CF003の反映を確認したが、AF02・AF03と重なる未解決リスクが残る。"
+      ],
+      "unresolved_problem": "独立語義は追加されたがAF02・AF03の用語境界と主要フレームが未解決。",
+      "notes": "独立語義は追加されたがAF02・AF03の用語境界と主要フレームが未解決。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0491",
+        "evidence_link:0492"
+      ]
+    },
+    {
+      "id": "CF004",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "status": "pass",
+      "verified_changes": [
+        "cycle-004 revision-016で本文とresolutionの反映を照合した。"
+      ],
+      "unresolved_problem": "",
+      "notes": "cold findingとresolutionを照合した。",
+      "evidence_link_ids_checked": [
+        "evidence_link:0495",
+        "evidence_link:0496"
+      ]
+    }
+  ],
+  "blockers": [
+    {
+      "id": "B001",
+      "subject_id": "AF01",
+      "problem": "数学解析の一般化関数義が欠落。",
+      "required_change": "独立語義と完全フレームを追加する。"
+    },
+    {
+      "id": "B002",
+      "subject_id": "AF02",
+      "problem": "Python distribution packageをarchive fileへ過度に限定。",
+      "required_change": "project/package、distribution artifact/archive、installed distributionを文脈別に整理する。"
+    },
+    {
+      "id": "B003",
+      "subject_id": "AF03",
+      "problem": "Pythonのinstall/require・metadata・installed distributionフレームが欠落。",
+      "required_change": "主要フレームと例文を追加する。"
+    },
+    {
+      "id": "B004",
+      "subject_id": "AF04",
+      "problem": "distribution list操作を見出し語の文法パターンとして分類。",
+      "required_change": "関連複合語欄へ限定する。"
+    },
+    {
+      "id": "B005",
+      "subject_id": "AF05",
+      "problem": "一般分布・統計義の主要フレームが不足。",
+      "required_change": "by/according to、within、draw/sample from等を追加する。"
+    },
+    {
+      "id": "B006",
+      "subject_id": "AF06",
+      "problem": "一般的な結果物・割当物としての可算用法が不明確。",
+      "required_change": "非金融の結果物用法と金融義の境界を明示する。"
+    },
+    {
+      "id": "B007",
+      "subject_id": "主張単位の根拠台帳に汎用locator、全語Ngram、別領域資料の流用が多数あり、52 targetで根拠要件を満たさない。",
+      "problem": "主張単位の根拠台帳に汎用locator、全語Ngram、別領域資料の流用が多数あり、52 targetで根拠要件を満たさない。",
+      "required_change": "各主張へ直接対応する具体的位置と、two_sources_or_primaryを満たす根拠を付け直す。"
+    },
+    {
+      "id": "B008",
+      "subject_id": "15 relationがfail。",
+      "problem": "15 relationがfail。",
+      "required_change": "該当target修正後にrelationを再生成・再照合する。"
+    },
+    {
+      "id": "B009",
+      "subject_id": "escaped_defects全10件のtarget_idsが空。",
+      "problem": "escaped_defects全10件のtarget_idsが空。",
+      "required_change": "各分類へ実際の影響targetを記録する。"
+    },
+    {
+      "id": "B010",
+      "subject_id": "CF003の解決が不完全。",
+      "problem": "CF003の解決が不完全。",
+      "required_change": "AF02・AF03を解消してresolutionを更新する。"
+    },
+    {
+      "id": "B011",
+      "subject_id": "参照された履歴snapshotとraw output実体は今回の許可入力に含まれず、ハッシュの実体照合を完了できない。",
+      "problem": "参照された履歴snapshotとraw output実体は今回の許可入力に含まれず、ハッシュの実体照合を完了できない。",
+      "required_change": "再審査時に該当実体を入力へ追加し、記録ハッシュと照合する。"
+    }
+  ],
+  "article_modified": false
+}

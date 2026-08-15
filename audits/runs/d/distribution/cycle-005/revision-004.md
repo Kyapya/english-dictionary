@@ -1,14 +1,3 @@
----
-headword: distribution
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-06-14
-updated_at: 2026-08-16
-checked: true
-tags: []
----
 
 ＃発音記号
 
@@ -441,12 +430,12 @@ tags: []
 【コロケーション】
 
 ・a distribution package from 〈a project〉  
-用途: Python packagingで、開発対象であるprojectから配布パッケージを作る関係を表す。projectそのものではなく、そこから生成される配布単位に焦点がある。  
+用途: Python packagingで開発・保守される対象を表す。distribution packageやreleaseを作る前のソース一式に焦点がある。  
 例: The distribution package is built from the project's source code.  
 訳: その配布パッケージはプロジェクトのソースコードからビルドされる。  
 
 ・a distribution package for 〈a release〉  
-用途: projectの特定バージョンであるrelease向けの配布パッケージを表す。releaseそのものではなく、そのversionを配布・インストールする単位に焦点がある。  
+用途: projectの特定バージョンとして公開されたスナップショットを表す。  
 例: The distribution package is published for the latest release.  
 訳: その配布パッケージは最新リリース向けに公開される。  
 

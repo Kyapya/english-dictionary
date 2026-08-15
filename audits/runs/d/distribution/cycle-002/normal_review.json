@@ -1,0 +1,1700 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal_checker_distribution_20260815_r2",
+  "context_id": "normal_context_distribution_20260815_r2",
+  "input_body_sha256": "a130242d1f3e15492818bdb249171ed8a880837891436629f53a554767773137",
+  "prompt_sha256": "728e23caf13d306973ee3f9923efc28c5cfd6e954f39d9ff1eb894a59cec99c3",
+  "summary": "修正版本文の全target・relationを個別確認し、v5形式、発音地域差、語義境界、専門用法、例文訳、頻度の限定、根拠の適用範囲を再点検した。コールド指摘12件はすべて採用可能と判断し、本文へ反映済みである。",
+  "independent_candidates": [
+    {
+      "id": "C001",
+      "surface_form": "basic distribution of X to/among Y",
+      "frame": "distribution of 〈物・資金・情報〉 to/among 〈受け手〉",
+      "meaning": "分配・配布・配給の行為または過程",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002"
+      ],
+      "rationale": "分配・配布・配給の行為または過程を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0321",
+        "evidence_link:0322"
+      ]
+    },
+    {
+      "id": "C002",
+      "surface_form": "distribution of X across/over/among areas or groups",
+      "frame": "the distribution of 〈人・物・量〉 across/over/among 〈範囲・集団〉",
+      "meaning": "場所・集団・範囲にわたる分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "grammar_pattern:004",
+        "grammar_pattern:002"
+      ],
+      "rationale": "場所・集団・範囲にわたる分布を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0323",
+        "evidence_link:0324"
+      ]
+    },
+    {
+      "id": "C003",
+      "surface_form": "statistical distribution",
+      "frame": "a 〈normal/probability/frequency〉 distribution",
+      "meaning": "統計上の分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:006",
+        "collocation:010",
+        "collocation:011"
+      ],
+      "rationale": "統計上の分布を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0325",
+        "evidence_link:0326"
+      ]
+    },
+    {
+      "id": "C004",
+      "surface_form": "linguistic distribution",
+      "frame": "the distribution of a 〈phoneme/word/morpheme〉",
+      "meaning": "音素・語・形態素などの出現環境・分布",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:012",
+        "sense_boundary:002"
+      ],
+      "rationale": "音素・語・形態素などの出現環境・分布を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0327",
+        "evidence_link:0328"
+      ]
+    },
+    {
+      "id": "C005",
+      "surface_form": "business distribution through a market or channel",
+      "frame": "distribution of 〈product/content〉 in 〈market〉 / through 〈channel〉",
+      "meaning": "商品・コンテンツの流通",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "grammar_pattern:007",
+        "grammar_pattern:008"
+      ],
+      "rationale": "商品・コンテンツの流通を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0329",
+        "evidence_link:0330"
+      ]
+    },
+    {
+      "id": "C006",
+      "surface_form": "electricity, gas, or water distribution system/network",
+      "frame": "distribution of 〈electricity/gas/water〉 through 〈network〉",
+      "meaning": "公共インフラの配電・配水などの供給網",
+      "disposition": "included",
+      "article_target_ids": [
+        "grammar_pattern:009",
+        "collocation:015",
+        "sense_boundary:003"
+      ],
+      "rationale": "公共インフラの配電・配水などの供給網を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0331",
+        "evidence_link:0332"
+      ]
+    },
+    {
+      "id": "C007",
+      "surface_form": "financial, trust, estate, and retirement-account distribution",
+      "frame": "make/receive a distribution to/from 〈investors・受益者・相続人〉",
+      "meaning": "金融・法律上の分配または分配金",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:013"
+      ],
+      "rationale": "金融・法律上の分配または分配金を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0333",
+        "evidence_link:0334"
+      ]
+    },
+    {
+      "id": "C008",
+      "surface_form": "Linux/software distribution",
+      "frame": "a Linux/GNU/Linux/software distribution",
+      "meaning": "一まとまりとして配布されるOS・ソフトウェア構成",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "grammar_pattern:015",
+        "collocation:024"
+      ],
+      "rationale": "一まとまりとして配布されるOS・ソフトウェア構成を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0335",
+        "evidence_link:0336"
+      ]
+    },
+    {
+      "id": "C009",
+      "surface_form": "distribution list",
+      "frame": "a distribution list",
+      "meaning": "情報・物品・資料の配布先一覧",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:005",
+        "sense_boundary:001"
+      ],
+      "rationale": "情報・物品・資料の配布先一覧を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0337",
+        "evidence_link:0338"
+      ]
+    },
+    {
+      "id": "C010",
+      "surface_form": "distributional/distributive/distributed",
+      "frame": "形容詞派生・分詞形",
+      "meaning": "分布・分配・分散に関する派生形の意味差",
+      "disposition": "included",
+      "article_target_ids": [
+        "word_formation:003",
+        "word_formation:004",
+        "word_formation:006"
+      ],
+      "rationale": "分布・分配・分散に関する派生形の意味差を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0339",
+        "evidence_link:0340"
+      ]
+    },
+    {
+      "id": "C011",
+      "surface_form": "distro",
+      "frame": "Linux distro",
+      "meaning": "distributionのIT上の短縮形",
+      "disposition": "included",
+      "article_target_ids": [
+        "synonym:013",
+        "usage_note:005"
+      ],
+      "rationale": "distributionのIT上の短縮形を示す主要な候補として、本文の該当targetへ収録した。",
+      "evidence_link_ids": [
+        "evidence_link:0341",
+        "evidence_link:0342"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "pronunciation line:4 の主張「米: /ˌdɪstrəˈbjuːʃən/（/ˌdɪstrɪˈbjuːʃən/ とする表記もある）｜英: /ˌdɪstrɪˈbjuːʃən/」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0001",
+        "evidence_link:0002"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "pronunciation line:6 の主張「米語では第2音節に /ə/ を示す資料と /ɪ/ を示す資料があり、英音では /ɪ/ が示される。いずれも4音節で、第3音節 /ˈbjuː/ に主強勢、第1音節 /ˌdɪs/ に第二強勢がある。辞書では第二強勢が示されても、実際の発話では主」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0003",
+        "evidence_link:0004"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "etymology line:10 の主張「14世紀ごろの英語に入り、古フランス語 distribution とラテン語 distributio「分配、分割」にさかのぼる。ラテン語 distribuere「分けて配る」は dis-「別々に」と tribuere「割り当てる、与える」か」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0005",
+        "evidence_link:0006"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "etymology line:11 の主張「同じラテン語 tribuere を含む語に contribute「共同で出す、貢献する」と attribute「～に帰する、割り当てる」がある。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0007",
+        "evidence_link:0008"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "word_formation line:15 の主張「・distribute：動詞。「配る、分配する」「広く配置する」「商品を流通させる」。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0009",
+        "evidence_link:0010"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "word_formation line:16 の主張「・distributor：名詞。商品を小売店・顧客などへ供給する「販売業者、流通業者」。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0011",
+        "evidence_link:0012"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "word_formation line:17 の主張「・distributional：形容詞。「分布・分布上の、分配に関する」。統計・言語学などで、分布そのものに関わる性質を表す。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0013",
+        "evidence_link:0014"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "word_formation line:18 の主張「・distributive：形容詞。「分配的な、各対象に分ける性質を持つ」。数学や文法などで分配する関係・機能を表し、経済・政治・倫理では「分配に関する、分配の公平性に関わる」の意でも使う。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0015",
+        "evidence_link:0016"
+      ]
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "word_formation line:19 の主張「・redistribution：名詞。「再分配」。wealth/income redistribution のように資源・所得を配り直す文脈で使う。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0017",
+        "evidence_link:0018"
+      ]
+    },
+    {
+      "id": "word_formation:006",
+      "status": "pass",
+      "notes": "word_formation line:20 の主張「・distributed：distribute の過去形・過去分詞。形容詞的には、一般に「分布した、配分された」、ITでは「複数のコンピューター等に処理・データが分散した」の意で用いる。distributed system は複数の計算主体」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0019",
+        "evidence_link:0020"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "core_image line:24 の主張「一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられた」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0021",
+        "evidence_link:0022"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "core_image line:26 の主張「・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0023",
+        "evidence_link:0024"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "core_image line:27 の主張「・複数の場所・集団・値に広がった状態 → 「分布、配置、分配のあり方」（語義2）」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0025",
+        "evidence_link:0026"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "core_image line:28 の主張「・複数の販売地点・顧客へ届く経路としての割り振り → 「流通、供給」（語義3）」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0027",
+        "evidence_link:0028"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "core_image line:29 の主張「・受取人へ割り振られた金銭・資産の取り分 → 「分配金、支払われる取り分」（語義4）」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0029",
+        "evidence_link:0030"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "core_image line:30 の主張「・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0031",
+        "evidence_link:0032"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "core_image line:32 の主張「語義1〜3は固定的に切り分けられるとは限らない。distribution of resources/products/information は、配る行為、配分された状態、流通の仕組みのいずれにも読める。対象・動詞・前置詞・ビジネス文脈のど」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0033",
+        "evidence_link:0034"
+      ]
+    },
+    {
+      "id": "narrative:001",
+      "status": "pass",
+      "notes": "narrative line:36 の主張「以下の頻度スコアは、英語全体での遭遇頻度を厳密に測定した統計値ではなく、語義・用法ごとに学習辞書、一般辞書、用例・コーパス資料での出現範囲を照合した記事内の目安である。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0035",
+        "evidence_link:0036"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "sense_boundary line:38 の主張「1. 【名詞・主に不可算】分配、配布、配給」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0037",
+        "evidence_link:0038"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "definition line:40 の主張「物・資金・情報などを受け手へ分けて渡す、配る、届ける行為または過程。一般の配布では通常、複数の受け手・地点を想定する。単一の受取人への a distribution は、金融・信託・相続の文脈で特に自然である。個々の配分・配布行為に焦点があ」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0039",
+        "evidence_link:0040"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "frequency line:42 の主張「〈8/10〉」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0041",
+        "evidence_link:0042"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "register line:44 の主張「一般・行政・ビジネス。aid, food, medicine, leaflets, profits, information など幅広い対象で使う。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0043",
+        "evidence_link:0044"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "grammar_pattern line:46 の主張「distribution of 〈物・資金・情報〉 to 〈受け手〉＝～を…へ配ること」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0045",
+        "evidence_link:0046"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "grammar_pattern line:46 の主張「distribution of 〈物・資金〉 among 〈複数の受け手〉＝～を…の間で分配すること」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0047",
+        "evidence_link:0048"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "grammar_pattern line:46 の主張「for distribution to/among 〈受け手〉＝…へ配布するために」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0049",
+        "evidence_link:0050"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "collocation lines:50-53 の主張「・the distribution of 〈food/aid/medicine〉 to 〈people/areas〉\n用途: 支援物資などを受け手へ配る行為を表す。\n例: The agency coordinated the distrib」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0051",
+        "evidence_link:0052"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "collocation lines:55-58 の主張「・the distribution of 〈profits/resources〉 among 〈members/partners〉\n用途: 利益や資源を複数の受け手の間で分ける。\n例: The agreement sets out the 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0053",
+        "evidence_link:0054"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "collocation lines:60-63 の主張「・for distribution to 〈recipients〉\n用途: 文書・物資などが配布用であることを示す。\n例: The brochures are ready for distribution to local resident」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0055",
+        "evidence_link:0056"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "collocation lines:65-68 の主張「・free distribution of 〈leaflets/materials〉\n用途: 料金を取らずに資料などを配布することを表す。\n例: The organization supports the free distribution」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0057",
+        "evidence_link:0058"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "collocation lines:70-73 の主張「・a distribution list\n用途: 同じ情報・メールの送信先、または物品・資料の配布先をまとめた一覧を表す定着した複合名詞。\n例: Please add the new team members to the distribu」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0059",
+        "evidence_link:0060"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "usage_note line:75 の主張「この語義では distribution は行為・過程を表すため不可算が中心だが、可算性だけで行為か結果かを決めることはできない。a distribution of food は一回の配給活動を表すことがあり、the distribution」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0061",
+        "evidence_link:0062"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "synonym lines:79-84 の主張「・allocation\n定義: 資源・資金・時間などを特定の用途や受け手へ割り当てること。\n頻度: 〈7/10〉\n違い: distribution より「どこへどれだけ割り当てるか」という決定・配分に焦点が強い。\n例: The alloca」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0063",
+        "evidence_link:0064"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "synonym lines:86-91 の主張「・apportionment\n定義: 全体を一定の基準で複数の人・部分へ分けること。\n頻度: 〈3/10〉\n違い: distribution より硬く、割合・持ち分を定めて配分する響きが強い。\n例: The committee approv」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0065",
+        "evidence_link:0066"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "synonym lines:93-98 の主張「・dissemination\n定義: 情報・知識・考えなどを広く伝播させること。\n頻度: 〈4/10〉\n違い: 物資や金銭には普通使わず、information/research/findings など情報内容を広める場合に distrib」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0067",
+        "evidence_link:0068"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "sense_boundary line:100 の主張「2. 【名詞・不可算・可算】分布、配置、分配のあり方」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0069",
+        "evidence_link:0070"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "definition line:102 の主張「人・物・量が、場所・集団・時間・値の範囲にわたってどのように広がり、配置され、割り振られているかという状態・パターン。統計では、観測値や確率が値の範囲にどう現れるかを表す「分布」もこの用法に含まれる。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0071",
+        "evidence_link:0072"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "frequency line:104 の主張「〈8/10〉」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0073",
+        "evidence_link:0074"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "register line:106 の主張「一般・学術・統計。地理、生物、人口、所得、重量、データなどの広がり方を述べる。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0075",
+        "evidence_link:0076"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "grammar_pattern line:108 の主張「the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0077",
+        "evidence_link:0078"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "grammar_pattern line:108 の主張「the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0079",
+        "evidence_link:0080"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "grammar_pattern line:108 の主張「a 〈normal/probability/frequency〉 distribution＝特定種類の統計分布」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0081",
+        "evidence_link:0082"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "collocation lines:112-115 の主張「・the distribution of 〈population/species/disease〉 across 〈area〉\n用途: 人口・生物・病気などの地理的な広がり方を表す。\n例: The map shows the distrib」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0083",
+        "evidence_link:0084"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "collocation lines:117-120 の主張「・the geographical distribution of 〈species/disease〉\n用途: 地理上どこに存在するかという分布を表す。\n例: Researchers compared the geographical di」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0085",
+        "evidence_link:0086"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "collocation lines:122-125 の主張「・an even/uneven distribution of 〈weight/resources〉\n用途: 重量・資源などが均等または不均等に配置・配分されている状態を表す。\n例: An even distribution of weig」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0087",
+        "evidence_link:0088"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "collocation lines:127-130 の主張「・income/wealth distribution\n用途: 所得・富が社会の中でどのように分かれているかを表す。\n例: The report examines changes in income distribution over th」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0089",
+        "evidence_link:0090"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "collocation lines:132-135 の主張「・a normal distribution\n用途: 統計で、特定の形を持つ正規分布を一つの分布として表す。\n例: The test scores roughly follow a normal distribution.\n訳: その試験得」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0091",
+        "evidence_link:0092"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "collocation lines:137-140 の主張「・a probability distribution\n用途: 確率変数の各値または範囲へ確率がどう割り当てられるかを表す。\n例: The model assumes a probability distribution for futur」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0093",
+        "evidence_link:0094"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "collocation lines:142-145 の主張「・the distribution of a 〈phoneme/word/morpheme〉\n用途: 言語学で、音素・語・形態素などが現れる位置や環境、用例の分布を表す。\n例: The distribution of the phoneme」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0095",
+        "evidence_link:0096"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "usage_note line:147 の主張「空間・社会・数値の「結果としての並び方」に焦点があり、配る行為そのものを表す語義1と区別する。distribution of wealth/resources は両義になり得るため、動詞が change/examine/show のように結」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0097",
+        "evidence_link:0098"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "synonym lines:151-156 の主張「・spread\n定義: 物事がある範囲に広がっている程度・広がり方。\n頻度: 〈7/10〉\n違い: distribution より一般的で、厳密な配置パターンや各部分への割り振りを示さず、単に広がりを表すことも多い。\n例: The map 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0099",
+        "evidence_link:0100"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "synonym lines:158-163 の主張「・dispersion\n定義: 要素が離れた位置へ散らばること、またはその散らばり方。\n頻度: 〈4/10〉\n違い: distribution より「散らばり・ばらつき」を強く意識する語で、科学・統計などの専門文脈でも使われる。\n例: Th」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0101",
+        "evidence_link:0102"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "synonym lines:165-170 の主張「・allocation\n定義: 資源・数量などが用途や受け手ごとに割り当てられた配分。\n頻度: 〈7/10〉\n違い: 人為的な割り当ての結果には distribution と重なるが、自然な地理的分布や統計分布には通常置き換えられない。\n例」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0103",
+        "evidence_link:0104"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "sense_boundary line:172 の主張「3. 【名詞・不可算】流通、供給、配電・配水などの供給網」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0105",
+        "evidence_link:0106"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "definition line:174 の主張「ビジネス・インフラで、商品・コンテンツや電気・ガス・水などを、生産者・供給源から市場、小売店、利用者・需要地点へ届けるための流通経路・供給網・仕組み・活動。個別の配送を指す場合もあるが、delivery より、広い市場・複数地点へ届ける経路」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0107",
+        "evidence_link:0108"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "frequency line:176 の主張「〈7/10〉」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0109",
+        "evidence_link:0110"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "register line:178 の主張「ビジネス・物流・メディア・公共インフラ。商品、ソフトウェア、書籍、映画などの市場への供給に加え、電力・ガス・水などの供給網について使う。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0111",
+        "evidence_link:0112"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "grammar_pattern line:180 の主張「distribution of 〈product/content〉 in 〈market〉＝～を…で流通させること」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0113",
+        "evidence_link:0114"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "grammar_pattern line:180 の主張「distribution of 〈product/content〉 through 〈channel〉＝～を…という経路で流通させること」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0115",
+        "evidence_link:0116"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "grammar_pattern line:180 の主張「distribution of 〈electricity/gas/water〉 through 〈network〉＝～を…という供給網で供給すること」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0117",
+        "evidence_link:0118"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "grammar_pattern line:180 の主張「handle the distribution of 〈product〉＝～の流通を担当する」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0119",
+        "evidence_link:0120"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "grammar_pattern line:180 の主張「distribution through 〈channel〉＝…という経路を通じた流通」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0121",
+        "evidence_link:0122"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "collocation lines:184-187 の主張「・a distribution channel\n用途: 商品・サービスを顧客へ届ける販売・流通経路を表す。\n例: The company is developing new distribution channels for its pro」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0123",
+        "evidence_link:0124"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "collocation lines:189-192 の主張「・a distribution network\n用途: 商品を流通させる商業上の網を表す。電気・水などのインフラでは、配電網・配水網などと具体化して表す。\n例: The retailer expanded its distribution 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0125",
+        "evidence_link:0126"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "collocation lines:194-197 の主張「・an electricity/water distribution system/network\n用途: 電気・水などを供給源から利用者へ届ける配電・配水網を表す。\n例: The utility is upgrading its elec」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0127",
+        "evidence_link:0128"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "collocation lines:199-202 の主張「・a distribution center/centre\n用途: 商品を集約し、各販売先や顧客へ送り出す物流拠点を表す。\n例: Orders are shipped from a regional distribution center.」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0129",
+        "evidence_link:0130"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "collocation lines:204-207 の主張「・handle the distribution of 〈product/content〉\n用途: 企業・業者が製品やコンテンツの流通を担当することを表す。\n例: A local company handles the distributi」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0131",
+        "evidence_link:0132"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "collocation lines:209-212 の主張「・a distribution agreement/deal\n用途: 特定市場で商品・コンテンツを流通させる契約を表す。\n例: The publisher signed a distribution agreement with a reg」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0133",
+        "evidence_link:0134"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "collocation lines:214-217 の主張「・distribution costs\n用途: 通常は商品を保管・輸送し、卸売・注文処理などを通じて供給する流通段階で生じる費用を表す。販売促進費を含むかは業界・企業の会計上の定義による。\n例: The company reduced di」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0135",
+        "evidence_link:0136"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "usage_note line:219 の主張「business の distribution は「配る」という語義1から発達したが、販売・物流の仕組みを一まとまりに捉える専門的な用法。delivery は個々の荷物を目的地へ届ける行為に焦点が狭く、logistics は輸送・保管・在庫」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0137",
+        "evidence_link:0138"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "synonym lines:223-228 の主張「・logistics\n定義: 物資の輸送・保管・在庫・情報の流れを計画し運用する活動。\n頻度: 〈6/10〉\n違い: distribution と重なるがより広く、流通前後の保管・在庫管理・輸送計画まで含めることが多い。\n例: The co」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0139",
+        "evidence_link:0140"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "synonym lines:230-235 の主張「・delivery\n定義: 物・商品を特定の受取人・場所へ届けること。\n頻度: 〈8/10〉\n違い: distribution より狭く、流通網や市場全体ではなく個々の「届ける行為」に焦点がある。\n例: Same-day delivery 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0141",
+        "evidence_link:0142"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "synonym lines:237-242 の主張「・supply\n定義: 必要な物・商品を提供して利用可能にすること。\n頻度: 〈8/10〉\n違い: distribution と重なるが、供給量・入手可能性に焦点を置ける一方、必ずしも流通経路そのものを指さない。\n例: The storm 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0143",
+        "evidence_link:0144"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "sense_boundary line:244 の主張「4. 【名詞・可算・不可算】金融・法律上の分配、分配金」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0145",
+        "evidence_link:0146"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "definition line:246 の主張「金融・投資・信託・相続・法務・退職口座などの文脈で、会社・ファンド・信託・遺産（無遺言遺産を含む）・口座などから株主・投資家・受益者・相続人へ金銭や資産を移すこと、または実際に支払われる一回分の金額・取り分。可算の a distributi」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0147",
+        "evidence_link:0148"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "frequency line:248 の主張「〈4/10〉」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0149",
+        "evidence_link:0150"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "register line:250 の主張「金融・投資・信託・相続・法務・退職口座。一般会話より、投資信託、信託・遺産からの受益者・相続人への移転、退職口座、会社から投資家への支払いなどの文書で現れやすい。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0151",
+        "evidence_link:0152"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "grammar_pattern line:252 の主張「make a distribution to 〈investors/beneficiaries〉＝投資家・受益者へ分配金を支払う」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0153",
+        "evidence_link:0154"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "grammar_pattern line:252 の主張「receive a distribution from 〈fund/trust/estate/account〉＝ファンド・信託・遺産・口座から分配を受ける」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0155",
+        "evidence_link:0156"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "grammar_pattern line:252 の主張「a 〈cash/annual/final〉 distribution＝現金・年次・最終の分配」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0157",
+        "evidence_link:0158"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "collocation lines:256-259 の主張「・make a distribution to 〈investors/beneficiaries〉\n用途: ファンド・会社などが受取人へ金銭や資産を分配する。\n例: The fund will make a distribution to 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0159",
+        "evidence_link:0160"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "collocation lines:261-264 の主張「・receive a distribution from 〈fund/trust/estate/account〉\n用途: 投資家・受益者がファンドや口座から分配を受ける。\n例: She received a distribution fro」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0161",
+        "evidence_link:0162"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "collocation lines:266-269 の主張「・a cash distribution\n用途: 現金で行われる分配を表す。\n例: Shareholders approved a cash distribution following the sale.\n訳: 株主は売却後の現金分配を承」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0163",
+        "evidence_link:0164"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "collocation lines:271-274 の主張「・an annual/final distribution\n用途: 年次または最終回として行われる一回の分配を表す。\n例: This is the fund's final distribution for the year.\n訳: これは」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0165",
+        "evidence_link:0166"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "usage_note line:276 の主張「この語義では「分配する行為」と「分配された金額」の両方を表せる。a distribution, distributions のように可算なら、一回ごとの支払い・取り分を指すことが多い。dividend と重なる場合はあるが、distribu」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0167",
+        "evidence_link:0168"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "synonym lines:280-285 の主張「・payout\n定義: 組織・制度・賭けなどから実際に支払われる金額。\n頻度: 〈5/10〉\n違い: distribution より一般的で口語的にも使え、投資家への分配に限らない。\n例: The fund announced a larg」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0169",
+        "evidence_link:0170"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "synonym lines:287-292 の主張「・dividend\n定義: 会社の利益などから株主へ支払われる配当。\n頻度: 〈6/10〉\n違い: 株主への会社配当を中心とするが、投資商品の収益分配などにも使われる。distribution は会社・ファンド・信託などからの分配という出来」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0171",
+        "evidence_link:0172"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "synonym lines:294-299 の主張「・payment\n定義: 金銭を支払うこと、または支払われる金額。\n頻度: 〈10/10〉\n違い: 最も広い語で、分配という発生源・仕組みを含意しない。distribution は何かを受取人へ割り振る文脈を保つ。\n例: The payme」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0173",
+        "evidence_link:0174"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "sense_boundary line:301 の主張「5. 【名詞・可算】ソフトウェア・ディストリビューション」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0175",
+        "evidence_link:0176"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "definition line:303 の主張「コンピューター分野、特にLinuxなどで、複数のソフトウェア部品を組み合わせ、利用者が一まとまりとして導入・利用できる形にした配布版。特に Linux distribution は、Linuxカーネルを基盤に各種ソフトウェアや管理ツールを組」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0177",
+        "evidence_link:0178"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "frequency line:305 の主張「〈3/10〉」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0179",
+        "evidence_link:0180"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "register line:307 の主張「コンピューター・IT。特にLinuxなどのオープンソースOSの文脈でよく現れる専門用法。」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0181",
+        "evidence_link:0182"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "grammar_pattern line:309 の主張「a Linux/GNU/Linux distribution＝Linux系のディストリビューション」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0183",
+        "evidence_link:0184"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "grammar_pattern line:309 の主張「a software distribution＝文脈によりソフトウェアの配布行為・仕組みまたは一まとまりの配布版」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0185",
+        "evidence_link:0186"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "grammar_pattern line:309 の主張「a Linux distribution based on 〈system/project〉＝～を基盤にしたディストリビューション」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0187",
+        "evidence_link:0188"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "collocation lines:313-316 の主張「・a Linux distribution\n用途: Linuxカーネルを基盤にしたOSの配布版・構成を表す。\n例: Ubuntu is a widely used Linux distribution.\n訳: Ubuntuは広く使われている」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0189",
+        "evidence_link:0190"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "collocation lines:318-321 の主張「・a software distribution\n用途: 文脈により、ソフトウェアを配布する行為・仕組み、または一まとまりの配布版を表す。ここでは後者を指す。\n例: The software distribution includes th」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0191",
+        "evidence_link:0192"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "collocation lines:323-326 の主張「・a distribution based on 〈system/project〉\n用途: 主にLinux distributionについて、どのOSやプロジェクトを土台にするかを表す。\n例: The team maintains a di」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0193",
+        "evidence_link:0194"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "collocation lines:328-331 の主張「・choose/install a distribution\n用途: 複数のディストリビューションから選ぶ、または導入することを表す。\n例: New users can choose a distribution that matches 」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0195",
+        "evidence_link:0196"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "usage_note line:333 の主張「この語義では、主にLinuxなどで distribution 自体が「配布される一まとまりのソフトウェア構成」を指すため可算。a distribution, several distributions のように使う。Linux文脈では di」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0197",
+        "evidence_link:0198"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "synonym lines:337-342 の主張「・distro\n定義: distribution の短縮形で、特にLinuxなどのソフトウェア・ディストリビューションを指す。\n頻度: 〈3/10〉\n違い: 意味はほぼ同じだが、distribution より口語的・コミュニティ寄りの語。L」を、所属語義・用例・構文・訳との対応まで個別確認し、修正後本文で適用範囲が過度に一般化されていないことを確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0199",
+        "evidence_link:0200"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "relation risk_sense_pair 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 2 with sense 1 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0201",
+        "evidence_link:0202"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "relation risk_sense_pair 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:001 explicitly contrasts sense 1 with sense 3; usage_note:003 explicitly contrasts sense 3 with sense 1 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0203",
+        "evidence_link:0204"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "relation risk_sense_pair 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:005 explicitly contrasts sense 5 with sense 3 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0205",
+        "evidence_link:0206"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0207",
+        "evidence_link:0208"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0209",
+        "evidence_link:0210"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0211",
+        "evidence_link:0212"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0213",
+        "evidence_link:0214"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0215",
+        "evidence_link:0216"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0217",
+        "evidence_link:0218"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0219",
+        "evidence_link:0220"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0221",
+        "evidence_link:0222"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0223",
+        "evidence_link:0224"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0225",
+        "evidence_link:0226"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0227",
+        "evidence_link:0228"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0229",
+        "evidence_link:0230"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0231",
+        "evidence_link:0232"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0233",
+        "evidence_link:0234"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0235",
+        "evidence_link:0236"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0237",
+        "evidence_link:0238"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0239",
+        "evidence_link:0240"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0241",
+        "evidence_link:0242"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0243",
+        "evidence_link:0244"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0245",
+        "evidence_link:0246"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0247",
+        "evidence_link:0248"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0249",
+        "evidence_link:0250"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0251",
+        "evidence_link:0252"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0253",
+        "evidence_link:0254"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0255",
+        "evidence_link:0256"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0257",
+        "evidence_link:0258"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "relation example_translation コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0259",
+        "evidence_link:0260"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "relation definition_usage_consistency 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0261",
+        "evidence_link:0262"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0263",
+        "evidence_link:0264"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0265",
+        "evidence_link:0266"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0267",
+        "evidence_link:0268"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "relation definition_usage_consistency 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0269",
+        "evidence_link:0270"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0271",
+        "evidence_link:0272"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0273",
+        "evidence_link:0274"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0275",
+        "evidence_link:0276"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "relation definition_usage_consistency 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0277",
+        "evidence_link:0278"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0279",
+        "evidence_link:0280"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0281",
+        "evidence_link:0282"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0283",
+        "evidence_link:0284"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0285",
+        "evidence_link:0286"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0287",
+        "evidence_link:0288"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "relation definition_usage_consistency 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0289",
+        "evidence_link:0290"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0291",
+        "evidence_link:0292"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0293",
+        "evidence_link:0294"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0295",
+        "evidence_link:0296"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "relation definition_usage_consistency 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0297",
+        "evidence_link:0298"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0299",
+        "evidence_link:0300"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0301",
+        "evidence_link:0302"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "relation pattern_example_coverage 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0303",
+        "evidence_link:0304"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "relation core_inventory_consistency 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0305",
+        "evidence_link:0306"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "relation core_sense_mapping コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0307",
+        "evidence_link:0308"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "relation core_sense_mapping コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0309",
+        "evidence_link:0310"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "relation core_sense_mapping コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0311",
+        "evidence_link:0312"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "relation core_sense_mapping コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0313",
+        "evidence_link:0314"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "relation core_sense_mapping コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0315",
+        "evidence_link:0316"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "relation core_sense_mapping コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0317",
+        "evidence_link:0318"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "relation article_learning_risk 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 を、対象targetの本文位置と語義境界へ照合して確認した。",
+      "evidence_link_ids": [
+        "evidence_link:0319",
+        "evidence_link:0320"
+      ]
+    }
+  ],
+  "adjudicated_cold_findings": [
+    {
+      "id": "CF001",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF002",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF003",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF004",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF005",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF006",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF007",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF008",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF009",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF010",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF011",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    },
+    {
+      "id": "CF012",
+      "status": "adopted",
+      "notes": "本文へ修正を反映し、対象target・relationを再確認した。"
+    }
+  ]
+}
