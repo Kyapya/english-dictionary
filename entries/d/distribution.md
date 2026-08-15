@@ -1,182 +1,329 @@
 ---
 headword: distribution
 type: word
-status: checked
-prompt_version: entry_spec_v1
+status: needs_review
+prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-14
-updated_at: 2026-06-14
-checked: true
+updated_at: 2026-08-15
+checked: false
 tags: []
 ---
 
 ＃発音記号
 
-米: /ˌdɪstrəˈbjuːʃən/｜英: /ˌdɪstrɪˈbjuːʃən/
+米・英: /ˌdɪstrɪˈbjuːʃən/  
 
-・主強勢は -bu- /ˈbjuː/ に置く。
-・動詞 distribute は /dɪˈstrɪbjuːt/ または /ˈdɪstrɪbjuːt/ で、名詞とは強勢位置が変わりやすい。
+4音節 /dɪs.trɪ.bjuː.ʃən/。第3音節 /ˈbjuː/ に主強勢、第1音節 /ˌdɪs/ に第二強勢がある。語末の /ʃən/ は弱く発音する。  
 
 ＃語源
 
-ラテン語 distribuere「分けて配る」に由来し、dis-「離れて、別々に」+ tribuere「割り当てる」が背景にある。
-
-関連語には distribute（配る、分配する）、distributor（販売業者、配布者）、contribute（貢献する）、attribute（帰する、属性）がある。
-
-共通コアは「何かを複数の場所・人・区分へ割り当てる」という発想で、物流、統計、資源配分へ広がる。
+14世紀ごろの英語に入り、古フランス語 distribution とラテン語 distributio「分配、分割」にさかのぼる。ラテン語 distribuere「分けて配る」は dis-「別々に」と tribuere「割り当てる、与える」から成り、「一つのものを複数へ割り振る」という発想が現代の主要義につながっている。  
+同じラテン語 tribuere を含む語に contribute「共同で出す、貢献する」と attribute「～に帰する、割り当てる」がある。  
 
 ＃語形成
 
-・distribute（動詞）— 物・情報・資源を配る、流通させる。  
-・distributed（形容詞/過去分詞）— 分散した、配布された。ITでは distributed system が重要。  
-・distributor（名詞）— 卸売業者、販売代理店、配布者。  
-・redistribution（名詞）— 再分配。税制・所得・資源で使う。  
-・distributional（形容詞）— 分布・配分に関する。統計や言語学で使う。
+・distribute：動詞。「配る、分配する」「広く配置する」「商品を流通させる」。  
+・distributor：名詞。商品を小売店・顧客などへ供給する「販売業者、流通業者」。  
+・distributional：形容詞。「分布・分配に関する」。言語学・統計などの学術文脈でも使う。  
+・distributive：形容詞。「分配の、分配的な」。数学・文法などで専門的にも使う。  
+・redistribution：名詞。「再分配」。wealth/income redistribution のように資源・所得を配り直す文脈で使う。  
+・distributed：形容詞的に「分散した」の意を持ち、distributed system/network のように複数地点・機器へ機能が分かれた構成を表す。  
 
-＃意味や関連情報の出力（日本語訳）
+＃コアイメージ
 
-1. 【名詞】配布、分配、流通、供給。
+一つのまとまりを、複数の受け手・場所・経路・値へ割り振ること、またはその結果としてどのように広がっているかを捉える語。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」のどこに置かれるかで日本語訳が変わる。  
 
-【日本語訳・定義】商品・資料・資源・情報などを複数の人や場所に届けたり割り当てたりすること。物流の「流通」から、利益や所得の「分配」まで広く使う。
+・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）  
+・複数の場所・集団・値へ割り振られた状態 → 「分布、配置、分配のあり方」（語義2）  
+・複数の販売地点・顧客へ届く経路としての割り振り → 「流通、供給」（語義3）  
+・受取人へ割り振られた金銭・資産の取り分 → 「分配金、支払われる取り分」（語義4）  
+・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）  
 
-【頻度】〈頻度: 7/10〉
+＃意味・用法・関連表現
 
-【レジスター/領域】ビジネス、物流、行政、経済、IT、学術で高頻度。日常会話では delivery や sharing の方が平易なこともある。
+1. 【名詞・主に不可算】分配、配布、配給
 
-【文法パターン】distribution of + 名詞／distribution to + 人・場所／distribution network/channel／income distribution。
+【日本語訳・定義】物・資金・情報などを複数の人・組織・地域へ分けて渡す、配る、届ける行為または過程。何が誰へ回るかという動的な「配る側の行為」に焦点がある。  
 
-【コロケーション】
+【頻度】〈8/10〉  
 
-・distribution of + 名詞
-用途: 何を配布・分配するかを示す。
-例: The distribution of food began after the storm.
-訳: 嵐の後、食料の配布が始まった。
+【レジスター/領域】一般・行政・ビジネス。aid, food, medicine, leaflets, profits, information など幅広い対象で使う。  
 
-・distribution network
-用途: 商品を届ける流通網を指す。
-例: The company expanded its distribution network in Asia.
-訳: その会社はアジアで流通網を拡大した。
-
-・income distribution
-用途: 所得が社会内でどう分かれているかを示す。
-例: The report examines income distribution across regions.
-訳: その報告書は地域別の所得分布を調べている。
-
-・distribution channel
-用途: 商品やサービスが顧客に届く経路を指す。
-例: Online stores became our main distribution channel.
-訳: オンラインストアが主な販売経路になった。
-
-【語法・注意】distribution は「配る行為」だけでなく「流通の仕組み」も表す。配達1回だけなら delivery、均等に分ける行為なら allocation や sharing が自然な場合がある。
-
-【類義語】
-
-・delivery
-定義: 品物や情報を届けること。
-頻度: 〈8/10〉
-違い: delivery は届ける行為に焦点があり、distribution は複数の地点へ行き渡らせる仕組みに焦点がある。
-例: Delivery was delayed by heavy snow.
-訳: 大雪で配送が遅れた。
-
-・allocation
-定義: 資源や予算を割り当てること。
-頻度: 〈6/10〉
-違い: allocation は誰にどれだけ割り当てるかの決定に焦点がある。
-例: The allocation of funds was controversial.
-訳: 資金の配分は議論を呼んだ。
-
-・circulation
-定義: 物や情報が回ること、流通すること。
-頻度: 〈6/10〉
-違い: circulation は継続的に巡る動きに焦点がある。
-例: The magazine has a wide circulation.
-訳: その雑誌は広く流通している。
-
-【反意語】
-
-・collection
-定義: 集めること、回収。
-頻度: 〈7/10〉
-違い: distribution が外へ配る動きなら、collection は内へ集める動き。
-例: Waste collection starts at eight.
-訳: ごみの回収は8時に始まる。
-
-・concentration
-定義: 一か所に集中すること。
-頻度: 〈6/10〉
-違い: distribution が広く分ける発想なら、concentration は特定箇所への集中を表す。
-例: The concentration of wealth is a political issue.
-訳: 富の集中は政治的問題だ。
-
-2. 【名詞】分布、散らばり方、統計上の分布。
-
-【日本語訳・定義】人・物・数値・特徴などが空間や集団、範囲の中でどのように広がっているかを表す。統計では probability distribution などの専門用法が重要。
-
-【頻度】〈頻度: 7/10〉
-
-【レジスター/領域】統計、科学、地理、マーケティング、社会調査、データ分析。
-
-【文法パターン】geographical distribution／age distribution／normal distribution／probability distribution／distribution across + 範囲。
+【文法パターン】distribution of 〈物・資金・情報〉 to 〈受け手〉＝～を…へ配ること／distribution of 〈物・資金〉 among 〈複数の受け手〉＝～を…の間で分配すること／for distribution to/among 〈受け手〉＝…へ配布するために  
 
 【コロケーション】
+・the distribution of 〈food/aid/medicine〉 to 〈people/areas〉  
+用途: 支援物資などを受け手へ配る行為を表す。  
+例: The agency coordinated the distribution of food and medicine to remote villages.  
+訳: その機関は遠隔地の村々への食料と医薬品の配給を調整した。  
 
-・geographical distribution
-用途: 地理的な広がりを示す。
-例: The map shows the geographical distribution of the species.
-訳: その地図はその種の地理的分布を示している。
+・the distribution of 〈profits/resources〉 among 〈members/partners〉  
+用途: 利益や資源を複数の受け手の間で分ける。  
+例: The agreement sets out the distribution of profits among the partners.  
+訳: その契約は共同経営者間での利益の分配方法を定めている。  
 
-・age distribution
-用途: 年齢層の構成を示す。
-例: The age distribution of users changed over time.
-訳: 利用者の年齢分布は時間とともに変化した。
+・for distribution to 〈recipients〉  
+用途: 文書・物資などが配布用であることを示す。  
+例: The brochures are ready for distribution to local residents.  
+訳: そのパンフレットは地域住民への配布準備ができている。  
 
-・normal distribution
-用途: 統計で釣鐘型の分布を指す。
-例: Test scores roughly followed a normal distribution.
-訳: テストの点数はおおむね正規分布に従っていた。
+・free distribution of 〈leaflets/materials〉  
+用途: 料金を取らずに資料などを配布することを表す。  
+例: The organization supports the free distribution of educational materials to schools.  
+訳: その団体は学校への教育資料の無料配布を支援している。  
 
-・distribution across + 名詞
-用途: 範囲や集団内の散らばりを述べる。
-例: We studied the distribution across income groups.
-訳: 私たちは所得層ごとの分布を調べた。
+・a distribution list  
+用途: 同じ情報・メールなどを送る受信者一覧を表す定着した複合名詞。  
+例: Please add the new team members to the distribution list.  
+訳: 新しいチームメンバーを配信先リストに追加してください。  
 
-【語法・注意】「分布図」は distribution map、「分布が偏っている」は uneven distribution が自然。統計では distribution は可算名詞として a distribution, two distributions のように数えられる。
+【語法・注意】この語義では distribution は行為・過程を表すため不可算が中心。to は「届け先」、among は「複数の受け手の間で分ける範囲」を示す。distribution of wealth/resources は、分ける行為を指すなら語義1、社会の中でどう配分されているかという結果の状態を指すなら語義2になり、文脈によって両方の読みがあり得る。delivery は一つの送り先へ届ける行為にも使えるが、distribution は複数の受け手へ広く配る過程を捉えやすい。  
 
 【類義語】
+・allocation  
+定義: 資源・資金・時間などを特定の用途や受け手へ割り当てること。  
+頻度: 〈7/10〉  
+違い: distribution より「どこへどれだけ割り当てるか」という決定・配分に焦点が強い。  
+例: The allocation of funds will be reviewed next month.  
+訳: 資金の配分は来月見直される。  
 
-・spread
-定義: 広がり、散らばり。
-頻度: 〈7/10〉
-違い: spread は日常的で視覚的な広がりを表し、distribution より分析的でない。
-例: The spread of the data is large.
-訳: データのばらつきは大きい。
+・apportionment  
+定義: 全体を一定の基準で複数の人・部分へ分けること。  
+頻度: 〈3/10〉  
+違い: distribution より硬く、割合・持ち分を定めて配分する響きが強い。  
+例: The committee approved the apportionment of costs among the departments.  
+訳: 委員会は各部門への費用配分を承認した。  
 
-・pattern
-定義: 規則的な配置や傾向。
-頻度: 〈8/10〉
-違い: pattern は形や傾向に焦点があり、distribution は量や位置の広がりに焦点がある。
-例: The pattern of rainfall has changed.
-訳: 降雨のパターンが変化した。
+・dissemination  
+定義: 情報・知識・考えなどを広く伝播させること。  
+頻度: 〈4/10〉  
+違い: 物資や金銭には普通使わず、information/research/findings など情報内容を広める場合に distribution と重なる。  
+例: The project supports the dissemination of research findings.  
+訳: そのプロジェクトは研究成果の普及を支援している。  
 
-・dispersion
-定義: 散らばり、分散。
-頻度: 〈5/10〉
-違い: dispersion は統計・科学で散らばりの程度を表す硬い語。
-例: The dispersion of particles was measured.
-訳: 粒子の分散が測定された。
+2. 【名詞・不可算・可算】分布、配置、分配のあり方
 
-【反意語】
+【日本語訳・定義】人・物・量が、場所・集団・時間・値の範囲にわたってどのように広がり、配置され、割り振られているかという状態・パターン。統計では、観測値や確率が値の範囲にどう現れるかを表す「分布」もこの用法に含まれる。  
 
-・clustering
-定義: 集団化、かたまりになること。
-頻度: 〈5/10〉
-違い: distribution が全体の広がりを述べるのに対し、clustering は一部に集まる傾向を示す。
-例: The data showed clustering near the center.
-訳: データは中心付近に集まる傾向を示した。
+【頻度】〈8/10〉  
 
-・uniformity
-定義: 均一性。
-頻度: 〈5/10〉
-違い: distribution がばらつきも含めた配置を表すのに対し、uniformity は差が少ない状態を表す。
-例: The uniformity of the samples was important.
-訳: サンプルの均一性が重要だった。
+【レジスター/領域】一般・学術・統計。地理、生物、人口、所得、重量、データなどの広がり方を述べる。  
+
+【文法パターン】the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか／the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか／a 〈normal/probability/frequency〉 distribution＝特定種類の統計分布  
+
+【コロケーション】
+・the distribution of 〈population/species/disease〉 across 〈area〉  
+用途: 人口・生物・病気などの地理的な広がり方を表す。  
+例: The map shows the distribution of the species across northern Europe.  
+訳: その地図は北ヨーロッパにおけるその種の分布を示している。  
+
+・the geographical distribution of 〈species/disease〉  
+用途: 地理上どこに存在するかという分布を表す。  
+例: Researchers compared the geographical distribution of the disease over time.  
+訳: 研究者たちはその病気の地理的分布を時系列で比較した。  
+
+・an even/uneven distribution of 〈weight/resources〉  
+用途: 重量・資源などが均等または不均等に配置・配分されている状態を表す。  
+例: An even distribution of weight makes the platform more stable.  
+訳: 重量を均等に分散させると、その台はより安定する。  
+
+・income/wealth distribution  
+用途: 所得・富が社会の中でどのように分かれているかを表す。  
+例: The report examines changes in income distribution over the past decade.  
+訳: その報告書は過去10年間の所得分布の変化を調べている。  
+
+・a normal distribution  
+用途: 統計で、特定の形を持つ正規分布を一つの分布として表す。  
+例: The test scores roughly follow a normal distribution.  
+訳: その試験得点はおおむね正規分布に従っている。  
+
+・a probability distribution  
+用途: 確率変数の各値または範囲へ確率がどう割り当てられるかを表す。  
+例: The model assumes a probability distribution for future demand.  
+訳: そのモデルは将来需要について一つの確率分布を仮定している。  
+
+【語法・注意】空間・社会・数値の「結果としての並び方」に焦点があり、配る行為そのものを表す語義1と区別する。distribution of wealth/resources は両義になり得るため、動詞が change/examine/show のように結果の状態を扱うなら語義2の読みが強い。統計では a normal distribution, a probability distribution のように、特定の分布を一つの数学的対象として可算で使う。spread は単に広がりや範囲を表すことが多く、distribution のように「どこにどの程度あるか」という構造全体を必ずしも示さない。  
+
+【類義語】
+・spread  
+定義: 物事がある範囲に広がっている程度・広がり方。  
+頻度: 〈7/10〉  
+違い: distribution より一般的で、厳密な配置パターンや各部分への割り振りを示さず、単に広がりを表すことも多い。  
+例: The map shows the spread of the invasive plant.  
+訳: その地図は外来植物の広がりを示している。  
+
+・dispersion  
+定義: 要素が離れた位置へ散らばること、またはその散らばり方。  
+頻度: 〈4/10〉  
+違い: distribution より「散らばり・ばらつき」を強く意識する語で、科学・統計などの専門文脈でも使われる。  
+例: The study measured the dispersion of particles in the air.  
+訳: その研究は空気中の粒子の分散を測定した。  
+
+・allocation  
+定義: 資源・数量などが用途や受け手ごとに割り当てられた配分。  
+頻度: 〈7/10〉  
+違い: 人為的な割り当ての結果には distribution と重なるが、自然な地理的分布や統計分布には通常置き換えられない。  
+例: The allocation of resources differs across regions.  
+訳: 資源の配分は地域によって異なる。  
+
+3. 【名詞・不可算】流通、供給
+
+【日本語訳・定義】ビジネスで、商品・コンテンツなどを生産者・提供者から市場、小売店、利用者へ届けるための流通経路・仕組み・活動。単発の配送だけでなく、どの経路で広く市場へ届けるかという仕組み全体を指しやすい。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】ビジネス・物流・メディア。商品、ソフトウェア、書籍、映画などの市場への供給で使う。  
+
+【文法パターン】distribution of 〈product/content〉 in/through 〈market/channel〉＝～を…で流通させること／handle the distribution of 〈product〉＝～の流通を担当する／distribution through 〈channel〉＝…という経路を通じた流通  
+
+【コロケーション】
+・a distribution channel  
+用途: 商品・サービスを顧客へ届ける販売・流通経路を表す。  
+例: The company is developing new distribution channels for its products.  
+訳: その会社は製品の新しい流通経路を開拓している。  
+
+・a distribution network  
+用途: 複数の拠点・業者・販売先から成る流通網を表す。  
+例: The retailer expanded its distribution network across Asia.  
+訳: その小売企業はアジア全域に流通網を拡大した。  
+
+・a distribution center/centre  
+用途: 商品を集約し、各販売先や顧客へ送り出す物流拠点を表す。  
+例: Orders are shipped from a regional distribution center.  
+訳: 注文品は地域の物流センターから発送される。  
+
+・handle the distribution of 〈product/content〉  
+用途: 企業・業者が製品やコンテンツの流通を担当することを表す。  
+例: A local company handles the distribution of the product in Japan.  
+訳: 日本では現地企業がその製品の流通を担当している。  
+
+・a distribution agreement/deal  
+用途: 特定市場で商品・コンテンツを流通させる契約を表す。  
+例: The publisher signed a distribution agreement with a regional partner.  
+訳: その出版社は地域の提携先と流通契約を結んだ。  
+
+・distribution costs  
+用途: 商品を保管・移動・供給する流通段階で生じる費用を表す。  
+例: The company reduced distribution costs by consolidating warehouses.  
+訳: その会社は倉庫を集約して流通コストを削減した。  
+
+【語法・注意】business の distribution は「配る」という語義1から発達したが、販売・物流の仕組みを一まとまりに捉える専門的な用法。delivery は個々の荷物を目的地へ届ける行為に焦点が狭く、logistics は輸送・保管・在庫管理などの計画と運用をより広く含み得る。distribution center は米綴り、distribution centre は英綴りで、distribution 自体の綴りは共通。  
+
+【類義語】
+・logistics  
+定義: 物資の輸送・保管・在庫・情報の流れを計画し運用する活動。  
+頻度: 〈6/10〉  
+違い: distribution と重なるがより広く、流通前後の保管・在庫管理・輸送計画まで含めることが多い。  
+例: The company outsourced its logistics to a specialist provider.  
+訳: その会社は物流業務を専門業者に外注した。  
+
+・delivery  
+定義: 物・商品を特定の受取人・場所へ届けること。  
+頻度: 〈8/10〉  
+違い: distribution より狭く、流通網や市場全体ではなく個々の「届ける行為」に焦点がある。  
+例: Same-day delivery is available in the city.  
+訳: 市内では当日配送が利用できる。  
+
+・supply  
+定義: 必要な物・商品を提供して利用可能にすること。  
+頻度: 〈8/10〉  
+違い: distribution と重なるが、供給量・入手可能性に焦点を置ける一方、必ずしも流通経路そのものを指さない。  
+例: The storm disrupted the supply of fresh food.  
+訳: 嵐で生鮮食品の供給が途絶えた。  
+
+4. 【名詞・可算・不可算】分配金、支払われる取り分
+
+【日本語訳・定義】金融・投資の文脈で、会社・ファンドなどから株主・投資家・受益者へ金銭や資産を分配すること、または実際に支払われる一回分の金額・取り分。可算の a distribution は「一回の分配・分配金」を表せる。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】金融・投資。一般会話より、投資信託、退職口座、会社から投資家への支払いなどの文書で現れやすい。  
+
+【文法パターン】make a distribution to 〈investors/beneficiaries〉＝投資家・受益者へ分配金を支払う／receive a distribution from 〈fund/company〉＝ファンド・会社から分配を受ける／a 〈cash/annual/final〉 distribution＝現金・年次・最終の分配  
+
+【コロケーション】
+・make a distribution to 〈investors/beneficiaries〉  
+用途: ファンド・会社などが受取人へ金銭や資産を分配する。  
+例: The fund will make a distribution to investors at the end of the year.  
+訳: そのファンドは年末に投資家へ分配金を支払う予定だ。  
+
+・receive a distribution from 〈fund/account〉  
+用途: 投資家・受益者がファンドや口座から分配を受ける。  
+例: She received a distribution from the fund in December.  
+訳: 彼女は12月にそのファンドから分配金を受け取った。  
+
+・a cash distribution  
+用途: 現金で行われる分配を表す。  
+例: Shareholders approved a cash distribution following the sale.  
+訳: 株主は売却後の現金分配を承認した。  
+
+・an annual/final distribution  
+用途: 年次または最終回として行われる一回の分配を表す。  
+例: This is the fund's final distribution for the year.  
+訳: これはそのファンドの今年最後の分配金である。  
+
+【語法・注意】この語義では「分配する行為」と「分配された金額」の両方を表せる。a distribution, distributions のように可算なら、一回ごとの支払い・取り分を指すことが多い。dividend と重なる場合はあるが、distribution はより広くファンド等からの分配にも使われるため、常に「配当」と訳すとは限らない。具体的な税務・法的扱いは制度によって異なるので、語の意味だけから判断しない。  
+
+【類義語】
+・payout  
+定義: 組織・制度・賭けなどから実際に支払われる金額。  
+頻度: 〈5/10〉  
+違い: distribution より一般的で口語的にも使え、投資家への分配に限らない。  
+例: The fund announced a larger payout this quarter.  
+訳: そのファンドは今四半期により大きな支払額を発表した。  
+
+・dividend  
+定義: 会社の利益などから株主へ支払われる配当。  
+頻度: 〈6/10〉  
+違い: 株主への会社配当に意味がより限定される。distribution はファンドその他の仕組みからの分配も含み得る。  
+例: The company declared a quarterly dividend.  
+訳: その会社は四半期配当を発表した。  
+
+・payment  
+定義: 金銭を支払うこと、または支払われる金額。  
+頻度: 〈10/10〉  
+違い: 最も広い語で、分配という発生源・仕組みを含意しない。distribution は何かを受取人へ割り振る文脈を保つ。  
+例: The payment will be deposited into your account tomorrow.  
+訳: その支払いは明日あなたの口座に入金される。  
+
+5. 【名詞・可算】ソフトウェア・ディストリビューション
+
+【日本語訳・定義】コンピューター分野で、複数のソフトウェア部品を組み合わせ、利用者が一まとまりとして導入・利用できる形にした配布版。特に Linux distribution は、Linuxカーネルを基盤に各種ソフトウェアや管理ツールを組み合わせたOSの一形態を指す。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】コンピューター・IT。特にLinuxなどのオープンソースOSの文脈でよく現れる専門用法。  
+
+【文法パターン】a Linux/GNU/Linux distribution＝Linux系のディストリビューション／a software distribution＝一まとまりとして配布されるソフトウェア構成／a distribution based on 〈system/project〉＝～を基盤にしたディストリビューション  
+
+【コロケーション】
+・a Linux distribution  
+用途: Linuxカーネルを基盤にしたOSの配布版・構成を表す。  
+例: Ubuntu is a widely used Linux distribution.  
+訳: Ubuntuは広く使われているLinuxディストリビューションだ。  
+
+・a software distribution  
+用途: 複数のソフトウェア部品を一まとまりとして利用者へ配布する構成を表す。  
+例: The software distribution includes the core tools and documentation.  
+訳: そのソフトウェア配布版には主要ツールと文書が含まれている。  
+
+・a distribution based on 〈system/project〉  
+用途: 既存のOSやプロジェクトを土台にしたディストリビューションを表す。  
+例: The team maintains a distribution based on Debian.  
+訳: そのチームはDebianを基盤にしたディストリビューションを保守している。  
+
+・choose/install a distribution  
+用途: 複数のディストリビューションから選ぶ、または導入することを表す。  
+例: New users can choose a distribution that matches their needs.  
+訳: 新しい利用者は自分の用途に合うディストリビューションを選べる。  
+
+【語法・注意】この語義では distribution 自体が「配布される一まとまりのソフトウェア構成」を指すため可算。a distribution, several distributions のように使う。Linux文脈では distro という短縮形も広く使われる。software distribution は「ソフトウェアを配布する行為」を指すこともあるが、この語義で a distribution と言えば、配布される製品・OS構成そのものが焦点になる。語義3のビジネス上の流通活動とも区別する。  
+
+【類義語】
+・distro  
+定義: distribution の短縮形で、特にLinuxなどのソフトウェア・ディストリビューションを指す。  
+頻度: 〈3/10〉  
+違い: 意味はほぼ同じだが、distribution よりくだけたIT用語で、正式文書では完全形が選ばれることも多い。  
+例: Which Linux distro do you use?  
+訳: どのLinuxディストリビューションを使っていますか。  
