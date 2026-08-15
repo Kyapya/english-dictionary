@@ -122,6 +122,8 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("status `review_ready`、checked `false`", check)
         self.assertIn("相互に異なるrun IDとcontext ID", agents)
         self.assertIn("仕様が想定していない問題候補", readme)
+        for text in (agents, check, readme):
+            self.assertNotIn("新しい会話", text)
         self.assertIn(
             "通常チェックが完了し、主要項目の収録先と品詞整合を"
             "説明できる場合も、この時点では",
