@@ -21,11 +21,13 @@
 - front matterを含む修正後の最新版記事。
 - `prompts/final_review_spec_v1.md`。
 
-この段階では対応する監査ファイル、通常チェック結果、コールドレビュー結果、queue、logs、差分、既知の懸念を見せない。見出し語だけから `final_review.independent_candidates` のID、表層形、完全な統語フレーム、意味、収録・除外判断、理由を作り、記事全体の問題候補を `final_review.blind_review.article_findings` に記録し、暫定合否を出す。盲検出力は次のコマンドで `output_sha256` に固定してから照合へ進む。
+この段階では対応する監査ファイル、通常チェック結果、コールドレビュー結果、queue、logs、差分、既知の懸念を見せない。見出し語だけから `final_review.independent_candidates` のID、表層形、完全な統語フレーム、意味、収録・除外判断、理由を作り、記事全体の問題候補を `final_review.blind_review.article_findings` に記録し、暫定合否を出す。さらに各独立候補について、その候補が正しいなら本文全体で満たされるべき、または満たしてはならない原子的な意味関係を `semantic_assertions` として1件以上作る。`semantic_assertions` は候補の境界・作用方向・包含関係・除外関係・一般化可能範囲などを、後で本文へ機械的に照合できる粒度にする。盲検出力は次のコマンドで `output_sha256` に固定してから照合へ進む。
 
 ```bash
 python scripts/content_audit.py seal-blind audits/a/apple.json
 ```
+
+盲検原出力 `audits/runs/.../final_blind.json` にも、各候補の `semantic_assertions` を候補本体と同時に保存する。照合開始後にassertionを追加・削除・変更してはならない。
 
 照合開始後に次を追加で渡す。
 
@@ -34,7 +36,7 @@ python scripts/content_audit.py seal-blind audits/a/apple.json
 
 最終審査側候補の `article_target_ids` と `evidence_link_ids` は、盲検で固定した候補内容を変えずに、この照合段階で追加する。target IDや通常チェック側の根拠IDを盲検段階で推測してはならない。
 
-監査ファイルには、記事本文から自動抽出された全監査対象と全関係監査、通常チェック側の全件判定、独立棚卸し候補、主張単位の根拠リンク、コールドレビューの全候補、その構造化された解決結果が含まれていなければならない。生成時の長い思考過程や、完成候補を正当化するための会話上の説得は渡さない。
+監査ファイルには、記事本文から自動抽出された全監査対象と全関係監査、通常チェック側の全件判定、独立棚卸し候補、主張単位の根拠リンク、コールドレビューの全候補、その構造化された解決結果、最新版本文へ結び付いたsemantic constraintと盲検candidate assertionの照合結果が含まれていなければならない。生成時の長い思考過程や、完成候補を正当化するための会話上の説得は渡さない。
 
 ## 最終審査担当の禁止事項
 
@@ -43,7 +45,8 @@ python scripts/content_audit.py seal-blind audits/a/apple.json
 - 通常チェックの `pass`、コールドレビューの候補判定、資料名の記載を正しい前提として引き継がない。
 - 項目数、監査件数、形式検証の成功を内容の正しさの代用にしない。
 - 未判定項目、未確認資料、未解決候補を「軽微」として通過させない。
-- 盲検出力を固定した後に、通常チェックの棚卸しへ合わせて独立棚卸しや問題候補を書き換えない。
+- 盲検出力を固定した後に、通常チェックの棚卸しへ合わせて独立棚卸し、問題候補、`semantic_assertions` を書き換えない。
+- 以前のrevisionで修正済みという説明だけで、現在の本文でもfindingが解決済みだと扱わない。
 
 ## 全監査対象の個別判定
 
@@ -82,11 +85,15 @@ relationが一つでも未判定または `fail` なら `PASS` にしない。
 
 監査ファイルを見る前に、最終審査担当自身が見出し語から語義・品詞・完全な統語フレームを棚卸しし、収録・除外の別を含めて `final_review.independent_candidates` に記録する。この棚卸しは通常チェック側の候補IDや分類を見て作ってはならない。
 
+各候補には `semantic_assertions` を1件以上付ける。各assertionは `id`、`statement`、`polarity`、`scope` を持ち、`polarity` は `must_hold` または `must_not_hold` とする。たとえば除外候補なら「この意味を通常義として本文へ一般化しない」、専門義なら「AはBの一種であり同義語として無条件に置換しない」、作用関係なら「AがBに作用し逆向きに説明しない」のように、候補の正しさを本文へ適用したときの境界を原子的に外部化する。候補の意味説明を言い換えただけのassertionではなく、本文に反する記述があれば不合格にできる関係を書く。
+
 盲検出力を固定して監査ファイルを開いた後、`normal_review.independent_candidates` と最終審査側の全候補を双方向に比較し、`final_review.inventory_comparison` に `match`、`normal_only`、`final_only`、`classification_conflict` のいずれかを記録する。両方の候補一覧を一件残らず照合し、差が記事の欠落または過剰収録を示す場合は `fail` とする。
 
 そのうえで、`normal_review.independent_candidates` の全候補について、実在性、完全な統語フレーム、中心意味、頻度・学習価値、本文への収録または除外理由、根拠を確認する。本文にある項目だけでなく、通常チェック側が除外した候補も確認する。
 
 各候補を `final_review.candidate_results` に同じIDで記録する。収録候補に有効な本文targetへの対応がない、除外候補の理由や根拠が不足している、主要候補自体が棚卸しから欠落していると判明した場合は `REJECT` とする。
+
+さらに最終審査側の全独立候補について、盲検で固定した全`semantic_assertions`を現在の本文へ実際に適用し、`semantic_gate.final_inventory_checks` を候補と1対1で作る。各checkにはcandidate ID、全assertion ID、現在の本文ハッシュ、実際に確認したtarget・relation・記事内query、`pass`/`fail`、具体的notesを記録する。`included` 候補では照合段階で対応付けた全 `article_target_ids` を再確認する。`excluded` 候補でも対応targetがないことだけを根拠にせず、その境界を侵食しうる定義、コアイメージ、語法、相互参照、例文をtarget・relationまたは明示的な全文queryで確認する。盲検棚卸しで正しい除外理由を書いていても、本文に逆の一般化が残っていれば `fail` とする。
 
 ## 根拠台帳の検証
 
@@ -123,9 +130,34 @@ relationが一つでも未判定または `fail` なら `PASS` にしない。
 
 ## コールドレビュー候補と解決結果の検証
 
-コールドレビューの全findingと、通常チェック側による全resolutionを確認する。resolutionには `problem_confirmed`、理由、必要な変更、影響target・relation、実施した変更、残存リスク、根拠リンクを記録する。最終審査はfindingの妥当性とresolutionの完了性を分け、`finding_validity`、`resolution_status`、実際に確認した変更、未解決問題を `final_review.finding_results` に同じIDで記録する。採用修正が最新版へ反映されているか、不採用理由が資料と仕様に支えられているか、保留が残っていないかを確認する。
+コールドレビューの全findingと、通常チェック側による全resolutionを確認する。resolutionには `problem_confirmed`、理由、必要な変更、影響target・relation、実施した変更、残存リスク、根拠リンクを記録する。問題が確認されたresolutionは、さらに1件以上のsemantic constraint IDと `resolved_on_body_sha256` を持たなければならない。semantic constraintは自由文の修正メモではなく、そのfindingから得た正しい意味関係を `must_hold` / `must_not_hold` の原子的制約として表し、影響target・relationまたは記事内query、現在の本文で最後に再確認した `verified_on_body_sha256`、確認notesを持つ。
+
+最終審査はfindingの妥当性とresolutionの完了性を分け、`finding_validity`、`resolution_status`、実際に確認した変更、未解決問題を `final_review.finding_results` に同じIDで記録する。問題確認済みfindingには、現在の本文ハッシュを `verified_body_sha256`、再確認した全constraint IDを `verified_invariant_ids`、実際に走査した全影響target・relation・queryを `blast_radius_target_ids`、`blast_radius_relation_ids`、`blast_radius_queries_checked` として記録する。
+
+採用修正が最新版へ反映されているか、不採用理由が資料と仕様に支えられているか、保留が残っていないかを確認する。特に「revision-003で修正した」のような過去revisionの説明だけでは解決済みとしない。現在の `body_sha256` と `resolved_on_body_sha256`、constraintの `verified_on_body_sha256`、final findingの `verified_body_sha256` がすべて一致し、元findingのaffected target/relationとconstraintで指定されたblast radiusを最新版全文で再確認した場合だけ `resolved` / `pass` とする。
 
 コールドレビューの候補が0件の場合も、`summary` に「問題候補なし」があり、独立条件を満たした実行であることを確認する。コールドレビューの候補が少ないことや0件であることを、記事内容の合格根拠にはしない。
+
+## semantic resolution hard gate
+
+最終合否の直前に次を実行し、終了コード0でなければ `PASS` にしない。
+
+```bash
+python scripts/semantic_resolution_gate.py validate-entries entries/a/apple.md
+```
+
+この検証は少なくとも次を機械的に拒否する。
+
+- 現在本文と異なるハッシュに結び付いた古いconstraint、resolution、finding確認、inventory check。
+- 問題確認済みコールドfindingに対応するsemantic constraintがない状態。
+- resolutionが宣言したconstraintを最終findingが全件再確認していない状態。
+- affected target/relation/queryの一部をblast radius確認から落とした状態。
+- 最終候補の `semantic_assertions` が盲検原出力に存在せず、監査開封後に後付けされた状態。
+- 最終盲検candidateと `semantic_gate.final_inventory_checks` が1対1で対応していない状態。
+- `included` 候補の本文対応targetを全件再確認していない状態。
+- 最終decisionが `pass` なのにcandidate assertionの本文照合が `fail` の状態。
+
+機械検証は意味内容そのものを代わりに判断するものではない。最終審査担当が一度作った正しい意味判断を、最新版本文に適用した証跡なしに捨てたり、古い本文への確認を使い回したりできないようにするためのハードゲートである。
 
 ## 履歴・原出力・回帰確認
 
@@ -139,6 +171,8 @@ relationが一つでも未判定または `fail` なら `PASS` にしない。
 
 最終審査はfront matterを除く本文のSHA-256へ結び付ける。`final_review.body_sha256` が現在の本文と一致しない場合、過去の判定は無効である。
 
+semantic resolutionも同じ本文ハッシュへ結び付ける。本文を再修正してハッシュが変わった場合、コールドレビュー自体を原則やり直す必要はないが、全semantic constraint、問題確認済みresolution、final finding result、全final inventory checkを新しい本文へ再照合するまでstaleとする。
+
 `REJECT` 後の本文修正は通常チェック側が行う。修正後は監査対象一覧と本文ハッシュを再生成し、通常チェック結果と根拠台帳を更新したうえで、文脈を継承しない最終審査を再実行する。コールドレビューは原則1回のままとするが、主要品詞・語義構成を全面的に作り直した場合は新しい完成候補に対してコールドレビューからやり直す。
 
 ## 合否
@@ -147,17 +181,19 @@ relationが一つでも未判定または `fail` なら `PASS` にしない。
 
 1. 三者の実行・文脈識別子が異なり、実行履歴と入力物が記録されている。
 2. 本文ハッシュが一致する。
-3. 監査記録を見ない盲検審査と独立棚卸しが先に完了・固定されている。
+3. 監査記録を見ない盲検審査と独立棚卸しが先に完了・固定され、全独立候補の `semantic_assertions` も盲検原出力に固定されている。
 4. 通常チェックと最終審査の棚卸しを双方向に全件比較している。
 5. 自動抽出された全targetと全relationに最終判定があり、すべて `pass` である。
 6. 通常チェック側の独立棚卸しの全候補に最終判定があり、すべて `pass` である。
-7. 盲検審査の全問題候補とコールドレビューの全findingを照合し、すべて解決済みである。
-8. 必須対象の主張単位の根拠リンクを実際に確認している。
-9. `hold` と未解決事項がない。
-10. `blockers` が空である。
+7. 盲検審査の全問題候補とコールドレビューの全findingを照合し、問題確認済みfindingはsemantic constraintと最新版本文ハッシュ付きblast-radius確認を含めてすべて解決済みである。
+8. 最終盲検の全独立候補について、全`semantic_assertions`を最新版本文へ照合した `semantic_gate.final_inventory_checks` があり、すべて `pass` である。
+9. 必須対象の主張単位の根拠リンクを実際に確認している。
+10. `hold` と未解決事項がない。
+11. `blockers` が空である。
+12. `python scripts/semantic_resolution_gate.py validate-entries <entry>` が終了コード0である。
 
 一つでも満たさない場合は `REJECT` とし、`blockers` に対象ID、問題、必要な修正を記録する。条件付き合格は使用しない。`REJECT` は監査失敗や途中状態ではなく、最終審査が完了して問題を正しく検出した正常な成果である。監査ファイルを保持し、記事をstatus `needs_review`、checked `false` にして修正工程へ戻す。
 
-`PASS` 後、調整役は判定内容を変更せず、front matterとqueueをstatus `checked`、checked `true` へ機械的に同期する。通常チェック側が自ら合格を宣言してこの状態変更を行ってはならない。最終状態で全形式検証、repository検証、単体テスト、content audit検証を実行し、すべて成功した場合だけ確定する。
+`PASS` 後、調整役は判定内容を変更せず、front matterとqueueをstatus `checked`、checked `true` へ機械的に同期する。通常チェック側が自ら合格を宣言してこの状態変更を行ってはならない。最終状態で全形式検証、repository検証、単体テスト、content audit検証、semantic resolution hard gateを実行し、すべて成功した場合だけ確定する。
 
 【現行完全版最終審査仕様終わり】
