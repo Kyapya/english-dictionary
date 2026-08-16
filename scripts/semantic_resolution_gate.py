@@ -12,6 +12,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SEMANTIC_GATE_VERSION = "semantic_resolution_v1"
 CANONICAL_AUDIT_SCHEMA = "content_audit_v3"
+FINAL_DECISIONS = {"pass", "reject"}
 
 
 def _nonempty(value: Any) -> bool:
@@ -108,7 +109,7 @@ def _semantic_assertions(
         if assertion_id in seen:
             errors.append(f"{label}.semantic_assertions contains duplicate id {assertion_id}")
             continue
-        seen.add(assertion_id)
+        seen.add(str(assertion_id))
         if not _nonempty(statement):
             errors.append(f"{item_label}.statement is required")
         if polarity not in {"must_hold", "must_not_hold"}:
@@ -145,12 +146,26 @@ def _normalize_assertions(candidate: dict[str, Any]) -> list[dict[str, str]]:
     return normalized
 
 
+def _is_final_phase(manifest: dict[str, Any], phase: str) -> bool:
+    if phase == "final":
+        return True
+    if phase == "handoff":
+        return False
+    if phase != "auto":
+        raise ValueError(f"unknown validation phase: {phase}")
+    final = manifest.get("final_review")
+    if not isinstance(final, dict):
+        return False
+    return str(final.get("decision", "")).lower() in FINAL_DECISIONS
+
+
 def validate_manifest(
     manifest: dict[str, Any],
     audit_path: Path,
     *,
     repo_root: Path = REPO_ROOT,
     require_gate: bool = True,
+    phase: str = "final",
 ) -> list[str]:
     errors: list[str] = []
     if manifest.get("schema_version") != CANONICAL_AUDIT_SCHEMA:
@@ -283,6 +298,9 @@ def validate_manifest(
             errors.append(
                 f"resolution {resolution_id} is stale: resolved_on_body_sha256 must match the current body"
             )
+
+    if not _is_final_phase(manifest, phase):
+        return errors
 
     final = manifest.get("final_review")
     if not isinstance(final, dict):
@@ -525,6 +543,7 @@ def validate_audit_path(
     *,
     repo_root: Path = REPO_ROOT,
     require_gate: bool = True,
+    phase: str = "final",
 ) -> list[str]:
     errors: list[str] = []
     manifest = _load_json(audit_path, errors, str(audit_path))
@@ -535,6 +554,7 @@ def validate_audit_path(
                 audit_path,
                 repo_root=repo_root,
                 require_gate=require_gate,
+                phase=phase,
             )
         )
     return errors
@@ -574,13 +594,19 @@ def _changed_files(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[st
     return [line.strip() for line in completed.stdout.splitlines() if line.strip()]
 
 
-def _validate_many(paths: list[Path], *, require_gate: bool) -> int:
+def _validate_many(
+    paths: list[Path], *, require_gate: bool, phase: str = "final"
+) -> int:
     failed = False
     if not paths:
         print("No semantic-resolution audits to validate.")
         return 0
     for path in paths:
-        errors = validate_audit_path(path, require_gate=require_gate)
+        errors = validate_audit_path(
+            path,
+            require_gate=require_gate,
+            phase=phase,
+        )
         if errors:
             failed = True
             print(f"FAIL {path.relative_to(REPO_ROOT)}", file=sys.stderr)
@@ -613,7 +639,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
                 file=sys.stderr,
             )
         return 1
-    return _validate_many(sorted(audit_paths), require_gate=True)
+    return _validate_many(sorted(audit_paths), require_gate=True, phase="final")
 
 
 def command_validate_entries(args: argparse.Namespace) -> int:
@@ -635,7 +661,11 @@ def command_validate_entries(args: argparse.Namespace) -> int:
             missing = True
             continue
         paths.append(audit_path)
-    result = _validate_many(paths, require_gate=not args.compat)
+    result = _validate_many(
+        paths,
+        require_gate=not args.compat,
+        phase="auto",
+    )
     return 1 if missing or result else 0
 
 
@@ -643,6 +673,7 @@ def command_validate_audited(args: argparse.Namespace) -> int:
     return _validate_many(
         _canonical_audit_paths(),
         require_gate=not args.compat,
+        phase="final",
     )
 
 
