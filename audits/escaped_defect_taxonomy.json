@@ -40,6 +40,22 @@
     {
       "id": "evidence_claim_mismatch",
       "description": "出典位置や適用範囲が対象主張を直接支えず、一般的な出典名だけで根拠化する誤り。"
+    },
+    {
+      "id": "semantic_direction_reversal",
+      "description": "作用する側／される側、上位／下位、原因／結果など、意味関係の方向を逆転させる誤り。"
+    },
+    {
+      "id": "cross_section_internal_contradiction",
+      "description": "コアイメージ、語義見出し、定義、語法、類義語など別セクション間で同じ概念の範囲・関係が食い違う誤り。"
+    },
+    {
+      "id": "finding_scope_transfer_loss",
+      "description": "レビューfindingが複数箇所を指摘したのに、resolution・修正・最終確認へ一部の対象しか引き継がれない誤り。"
+    },
+    {
+      "id": "raw_adjudication_manifest_divergence",
+      "description": "レビュー原出力に存在しない個別判定・意味制約・確認結果が監査マニフェストへ後付けされる誤り。"
     }
   ]
 }

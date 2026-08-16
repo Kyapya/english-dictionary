@@ -48,6 +48,7 @@ class SemanticResolutionGateTests(unittest.TestCase):
                     "semantic_assertions": [assertion],
                 }
             ],
+            "article_findings": [],
         }
         raw_path = (
             root
@@ -59,24 +60,81 @@ class SemanticResolutionGateTests(unittest.TestCase):
             / "final_blind.json"
         )
         raw_path.write_text(json.dumps(raw_blind), encoding="utf-8")
+        revision_path = (
+            root
+            / "audits"
+            / "runs"
+            / "a"
+            / "apple"
+            / "cycle-001"
+            / "revision-001.md"
+        )
+        revision_path.write_text(entry_body.rstrip("\n"), encoding="utf-8")
+        cold_finding = {
+            "id": "CR-001-001",
+            "location": "sense 1 heading",
+            "severity": "high",
+            "description": "the definition is overbroad",
+            "reason": "the scope must be constrained",
+            "suggested_direction": "narrow the statement",
+            "scope_anchors": [
+                {
+                    "id": "CR-001-001:A1",
+                    "exact_quote": "1. 【名詞】test",
+                    "location_hint": "sense 1 heading",
+                }
+            ],
+        }
+        raw_cold_path = revision_path.with_name("cold_review.json")
+        raw_cold_path.write_text(
+            json.dumps(
+                {
+                    "stage": "cold_review",
+                    "summary": "one finding",
+                    "findings": [cold_finding],
+                }
+            ),
+            encoding="utf-8",
+        )
 
         manifest = {
             "schema_version": "content_audit_v3",
             "entry_path": "entries/a/apple.md",
             "body_sha256": body_sha,
             "current_cycle": {
+                "body_revisions": [
+                    {
+                        "body_sha256": body_sha,
+                        "snapshot_path": "audits/runs/a/apple/cycle-001/revision-001.md",
+                    }
+                ],
                 "raw_outputs": {
+                    "cold_review": {
+                        "path": "audits/runs/a/apple/cycle-001/cold_review.json"
+                    },
                     "final_blind": {
                         "path": "audits/runs/a/apple/cycle-001/final_blind.json"
-                    }
+                    },
+                    "final_review": {
+                        "path": "audits/runs/a/apple/cycle-001/final_review.json"
+                    },
                 }
             },
             "targets": [
-                {"id": "definition:001"},
+                {"id": "definition:001", "text": "1. 【名詞】test"},
             ],
             "relations": [
-                {"id": "core_sense_mapping:001"},
+                {
+                    "id": "core_sense_mapping:001",
+                    "target_ids": ["definition:001"],
+                },
             ],
+            "cold_review": {
+                "completed": True,
+                "summary": "one finding",
+                "execution": {"input_body_sha256": body_sha},
+                "findings": [cold_finding],
+            },
             "resolutions": [
                 {
                     "id": "CR-001-001",
@@ -84,12 +142,29 @@ class SemanticResolutionGateTests(unittest.TestCase):
                     "problem_confirmed": True,
                     "affected_target_ids": ["definition:001"],
                     "affected_relation_ids": ["core_sense_mapping:001"],
+                    "scope_anchor_results": [
+                        {
+                            "id": "CR-001-001:A1",
+                            "status": "corrected",
+                            "affected_target_ids": ["definition:001"],
+                            "article_queries": ["delivery"],
+                            "notes": "checked the anchored heading",
+                        }
+                    ],
                     "semantic_invariant_ids": ["SC001"],
                     "resolved_on_body_sha256": body_sha,
                 }
             ],
             "final_review": {
                 "decision": "pass",
+                "inventory_comparison": [],
+                "target_results": [],
+                "relation_results": [],
+                "candidate_results": [],
+                "blind_finding_results": [],
+                "evidence_checks": [],
+                "blockers": [],
+                "blind_review": {"article_findings": []},
                 "independent_candidates": [
                     {
                         "id": "IC01",
@@ -112,11 +187,18 @@ class SemanticResolutionGateTests(unittest.TestCase):
                         "blast_radius_target_ids": ["definition:001"],
                         "blast_radius_relation_ids": ["core_sense_mapping:001"],
                         "blast_radius_queries_checked": ["delivery"],
+                        "blast_radius_query_results": [
+                            {
+                                "query": "delivery",
+                                "match_count": 0,
+                                "matched_target_ids": [],
+                            }
+                        ],
                     }
                 ],
             },
             "semantic_gate": {
-                "version": "semantic_resolution_v1",
+                "version": "semantic_resolution_v2",
                 "body_sha256": body_sha,
                 "constraints": [
                     {
@@ -126,6 +208,7 @@ class SemanticResolutionGateTests(unittest.TestCase):
                         "statement": "the repaired meaning relation must remain intact",
                         "polarity": "must_hold",
                         "scope": "definition and summaries",
+                        "source_anchor_ids": ["CR-001-001:A1"],
                         "affected_target_ids": ["definition:001"],
                         "affected_relation_ids": ["core_sense_mapping:001"],
                         "article_queries": ["delivery"],
@@ -141,13 +224,78 @@ class SemanticResolutionGateTests(unittest.TestCase):
                         "article_target_ids_checked": ["definition:001"],
                         "article_relation_ids_checked": ["core_sense_mapping:001"],
                         "article_queries_checked": ["delivery"],
+                        "article_query_results": [
+                            {
+                                "query": "delivery",
+                                "match_count": 0,
+                                "matched_target_ids": [],
+                            }
+                        ],
                         "status": "pass",
                         "notes": "checked candidate semantics against the latest article",
                     }
                 ],
             },
         }
+        raw_final_path = revision_path.with_name("final_review.json")
+        final = manifest["final_review"]
+        raw_final_path.write_text(
+            json.dumps(
+                {
+                    "stage": "final_review",
+                    "adjudication": {
+                        "decision": final["decision"],
+                        "inventory_comparison": final["inventory_comparison"],
+                        "target_results": final["target_results"],
+                        "relation_results": final["relation_results"],
+                        "candidate_results": final["candidate_results"],
+                        "blind_finding_results": final["blind_finding_results"],
+                        "finding_results": final["finding_results"],
+                        "evidence_checks": final["evidence_checks"],
+                        "final_inventory_checks": manifest["semantic_gate"][
+                            "final_inventory_checks"
+                        ],
+                        "blockers": final["blockers"],
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
         return temp, root, manifest
+
+    def _sync_final_raw(self, root: Path, manifest: dict) -> None:
+        final = manifest["final_review"]
+        raw_path = (
+            root
+            / "audits"
+            / "runs"
+            / "a"
+            / "apple"
+            / "cycle-001"
+            / "final_review.json"
+        )
+        raw_path.write_text(
+            json.dumps(
+                {
+                    "stage": "final_review",
+                    "adjudication": {
+                        "decision": final["decision"],
+                        "inventory_comparison": final["inventory_comparison"],
+                        "target_results": final["target_results"],
+                        "relation_results": final["relation_results"],
+                        "candidate_results": final["candidate_results"],
+                        "blind_finding_results": final["blind_finding_results"],
+                        "finding_results": final["finding_results"],
+                        "evidence_checks": final["evidence_checks"],
+                        "final_inventory_checks": manifest["semantic_gate"][
+                            "final_inventory_checks"
+                        ],
+                        "blockers": final["blockers"],
+                    },
+                }
+            ),
+            encoding="utf-8",
+        )
 
     def test_valid_manifest_passes(self) -> None:
         temp, root, manifest = self._fixture()
@@ -164,7 +312,9 @@ class SemanticResolutionGateTests(unittest.TestCase):
         temp, root, manifest = self._fixture()
         self.addCleanup(temp.cleanup)
         manifest["final_review"] = {"decision": "pending"}
-        manifest["current_cycle"] = {"raw_outputs": {}}
+        manifest["current_cycle"]["raw_outputs"] = {
+            "cold_review": manifest["current_cycle"]["raw_outputs"]["cold_review"]
+        }
         manifest["semantic_gate"].pop("final_inventory_checks")
         errors = validate_manifest(
             manifest,
@@ -218,6 +368,60 @@ class SemanticResolutionGateTests(unittest.TestCase):
             any("blast radius omits article queries" in error for error in errors)
         )
 
+    def test_cold_finding_requires_quote_anchored_scope(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest["cold_review"]["findings"][0]["scope_anchors"] = []
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+        )
+        self.assertTrue(any("requires at least one scope anchor" in error for error in errors))
+
+    def test_final_query_counts_are_recomputed_from_latest_body(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest["final_review"]["finding_results"][0][
+            "blast_radius_query_results"
+        ][0]["match_count"] = 1
+        self._sync_final_raw(root, manifest)
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+        )
+        self.assertTrue(any("incorrect match_count" in error for error in errors))
+
+    def test_included_candidate_must_recheck_incident_relations(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest["semantic_gate"]["final_inventory_checks"][0][
+            "article_relation_ids_checked"
+        ] = []
+        self._sync_final_raw(root, manifest)
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+        )
+        self.assertTrue(any("relations incident to mapped targets" in error for error in errors))
+
+    def test_final_raw_output_cannot_hide_item_level_manifest_changes(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest["final_review"]["finding_results"][0]["status"] = "fail"
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+        )
+        self.assertTrue(any("exactly match every item-level" in error for error in errors))
+
     def test_blind_assertions_must_exist_in_raw_blind_output(self) -> None:
         temp, root, manifest = self._fixture()
         self.addCleanup(temp.cleanup)
@@ -261,6 +465,57 @@ class SemanticResolutionGateTests(unittest.TestCase):
         )
         self.assertTrue(any("semantic_gate is required" in error for error in strict))
         self.assertEqual([], compat)
+
+    def test_compat_mode_rejects_checked_v3_without_gate(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest.pop("semantic_gate")
+        entry = root / "entries" / "a" / "apple.md"
+        entry.write_text(
+            "---\nword: apple\nstatus: checked\nchecked: true\n---\n"
+            + "＃意味・用法・関連表現\n1. 【名詞】test\n",
+            encoding="utf-8",
+        )
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=False,
+        )
+        self.assertTrue(any("cannot keep a checked/final" in error for error in errors))
+
+    def test_explicit_invalidation_allows_demoted_legacy_audit(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest.pop("semantic_gate")
+        entry = root / "entries" / "a" / "apple.md"
+        entry.write_text(
+            "---\nword: apple\nstatus: needs_review\nchecked: false\n---\n"
+            + "＃意味・用法・関連表現\n1. 【名詞】test\n",
+            encoding="utf-8",
+        )
+        (root / "audits" / "review_invalidations.json").write_text(
+            json.dumps(
+                {
+                    "schema_version": "review_invalidations_v1",
+                    "invalidations": [
+                        {
+                            "entry_path": "entries/a/apple.md",
+                            "body_sha256": manifest["body_sha256"],
+                            "status": "invalidated",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+        )
+        self.assertEqual([], errors)
 
 
 if __name__ == "__main__":

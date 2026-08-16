@@ -18,6 +18,8 @@ LEGACY_AUDIT_SCHEMA_VERSION = "content_audit_v1"
 COLD_REVIEW_PROMPT_VERSION = "cold_review_prompt_v1"
 FINAL_STATUSES = {"checked", "final"}
 AUDITED_STATUSES = {"needs_review", "review_ready", "checked", "final"}
+INVALIDATION_REGISTRY = Path("audits/review_invalidations.json")
+INVALIDATION_SCHEMA_VERSION = "review_invalidations_v1"
 SENSE_PATTERN = re.compile(r"^\d+\.\s*【.+】")
 HIGH_RISK_MARKERS = re.compile(
     r"必ず|常に|通常|原則|のみ|だけ|不可|できない|誤り|非文|"
@@ -55,7 +57,7 @@ PRIMARY_SOURCE_TYPES = {
     "standard",
     "research_paper",
 }
-ESCAPED_DEFECT_CATEGORIES = (
+LEGACY_ESCAPED_DEFECT_CATEGORIES = (
     "compound_component_generalization",
     "argument_slot_role_mismatch",
     "regional_qualification",
@@ -66,6 +68,12 @@ ESCAPED_DEFECT_CATEGORIES = (
     "absolute_scope_counterexample",
     "pronunciation_symbol_explanation",
     "evidence_claim_mismatch",
+)
+ESCAPED_DEFECT_CATEGORIES = LEGACY_ESCAPED_DEFECT_CATEGORIES + (
+    "semantic_direction_reversal",
+    "cross_section_internal_contradiction",
+    "finding_scope_transfer_loss",
+    "raw_adjudication_manifest_divergence",
 )
 INLINE_LABELS = {
     "【日本語訳・定義】": "definition",
@@ -79,6 +87,13 @@ GROUP_SIZES = {
     "【類義語】": ("synonym", 6),
     "【反意語】": ("antonym", 6),
 }
+
+
+def _required_defect_categories(manifest: dict[str, Any]) -> tuple[str, ...]:
+    gate = manifest.get("semantic_gate")
+    if isinstance(gate, dict) and gate.get("version") == "semantic_resolution_v2":
+        return ESCAPED_DEFECT_CATEGORIES
+    return LEGACY_ESCAPED_DEFECT_CATEGORIES
 
 
 def _split_front_matter(text: str) -> tuple[dict[str, str], str]:
@@ -115,6 +130,94 @@ def audit_path_for_entry(entry_path: Path, repo_root: Path = REPO_ROOT) -> Path:
     if not relative.parts or relative.parts[0] != "entries":
         raise ValueError(f"entry must be under entries/: {entry_path}")
     return repo_root / "audits" / Path(*relative.parts[1:]).with_suffix(".json")
+
+
+def _review_invalidations(repo_root: Path = REPO_ROOT) -> list[dict[str, Any]]:
+    path = repo_root / INVALIDATION_REGISTRY
+    if not path.is_file():
+        return []
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return []
+    if not isinstance(value, dict) or value.get("schema_version") != INVALIDATION_SCHEMA_VERSION:
+        return []
+    records = value.get("invalidations")
+    return [item for item in records if isinstance(item, dict)] if isinstance(records, list) else []
+
+
+def _matching_invalidation(
+    entry_path: Path,
+    body_hash: str,
+    repo_root: Path = REPO_ROOT,
+) -> dict[str, Any] | None:
+    relative = entry_path.resolve().relative_to(repo_root.resolve()).as_posix()
+    for record in _review_invalidations(repo_root):
+        if (
+            record.get("entry_path") == relative
+            and record.get("body_sha256") == body_hash
+            and record.get("status") == "invalidated"
+        ):
+            return record
+    return None
+
+
+def validate_invalidation_registry(repo_root: Path = REPO_ROOT) -> list[str]:
+    path = repo_root / INVALIDATION_REGISTRY
+    if not path.is_file():
+        return []
+    errors: list[str] = []
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        return [f"cannot read {INVALIDATION_REGISTRY}: {exc}"]
+    if not isinstance(value, dict):
+        return [f"{INVALIDATION_REGISTRY} must be a JSON object"]
+    if value.get("schema_version") != INVALIDATION_SCHEMA_VERSION:
+        errors.append(
+            f"{INVALIDATION_REGISTRY}.schema_version must be {INVALIDATION_SCHEMA_VERSION}"
+        )
+    records = value.get("invalidations")
+    if not isinstance(records, list):
+        return errors + [f"{INVALIDATION_REGISTRY}.invalidations must be a list"]
+    seen: set[tuple[str, str]] = set()
+    for index, record in enumerate(records):
+        label = f"{INVALIDATION_REGISTRY}.invalidations[{index}]"
+        if not isinstance(record, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        for key in ("entry_path", "body_sha256", "invalidated_at", "reason"):
+            if not _nonempty(record.get(key)):
+                errors.append(f"{label}.{key} is required")
+        if record.get("status") != "invalidated":
+            errors.append(f"{label}.status must be invalidated")
+        _sha256_value(record.get("body_sha256"), f"{label}.body_sha256", errors)
+        _timestamp(record.get("invalidated_at"), f"{label}.invalidated_at", errors)
+        categories = record.get("defect_categories")
+        if not isinstance(categories, list) or not categories:
+            errors.append(f"{label}.defect_categories must be a non-empty list")
+        else:
+            unknown = sorted(set(categories) - set(ESCAPED_DEFECT_CATEGORIES))
+            if unknown:
+                errors.append(f"{label} contains unknown defect categories: {', '.join(unknown)}")
+        entry_value = str(record.get("entry_path", ""))
+        key = (entry_value, str(record.get("body_sha256", "")))
+        if key in seen:
+            errors.append(f"{label} duplicates an existing entry/body invalidation")
+        seen.add(key)
+        entry = repo_root / entry_value
+        if not entry.is_file():
+            errors.append(f"{label}.entry_path does not exist")
+            continue
+        actual_hash = body_sha256(entry)
+        if actual_hash != record.get("body_sha256"):
+            errors.append(f"{label}.body_sha256 does not match the current entry body")
+        front, _ = _split_front_matter(entry.read_text(encoding="utf-8"))
+        if front.get("status") != "needs_review" or front.get("checked") != "false":
+            errors.append(
+                f"{label} requires entry status needs_review and checked false"
+            )
+    return errors
 
 
 def _is_structure_line(text: str) -> bool:
@@ -275,7 +378,9 @@ def _extract_relations_v2(targets: list[dict[str, Any]]) -> list[dict[str, Any]]
                 [boundary["id"], target["id"]],
                 "対象記述が所属語義の定義・品詞・意味範囲に実際に属し、別語義へ移すべき内容ではないことを確認する。",
             )
-    _append_shared_relations(relations, counters, targets, senses, add, legacy=True)
+    _append_shared_relations(
+        relations, counters, targets, senses, add, legacy=True, enhanced=False
+    )
     return relations
 
 
@@ -322,6 +427,7 @@ def _append_shared_relations(
     add: Any,
     *,
     legacy: bool,
+    enhanced: bool,
 ) -> None:
     """Append non-cartesian relation families shared by v2 and v3."""
     for target in targets:
@@ -335,16 +441,32 @@ def _append_shared_relations(
         members = [target for target in targets if target.get("sense") == sense["text"]]
         definitions = [target for target in members if target["kind"] == "definition"]
         usage_notes = [target for target in members if target["kind"] == "usage_note"]
+        lexical_relations = [
+            target for target in members if target["kind"] in {"synonym", "antonym"}
+        ]
         grammar_patterns = [
             target for target in members if target["kind"] == "grammar_pattern"
         ]
         collocations = [target for target in members if target["kind"] == "collocation"]
         for definition in definitions:
+            if enhanced:
+                add(
+                    "sense_definition_consistency",
+                    [sense["id"], definition["id"]],
+                    "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+                )
             for usage_note in usage_notes:
                 add(
                     "definition_usage_consistency",
                     [sense["id"], definition["id"], usage_note["id"]],
                     "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+                )
+            if lexical_relations and enhanced:
+                add(
+                    "definition_lexical_relation_consistency",
+                    [sense["id"], definition["id"]]
+                    + [target["id"] for target in lexical_relations],
+                    "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
                 )
         for grammar_pattern in grammar_patterns:
             add(
@@ -364,9 +486,16 @@ def _append_shared_relations(
             mapped = senses
         if mapped:
             for sense in mapped:
+                members = [
+                    target
+                    for target in targets
+                    if target.get("sense") == sense["text"]
+                    and target["kind"] in {"definition", "usage_note"}
+                ] if enhanced else []
                 add(
                     "core_sense_mapping",
-                    [core_image["id"], sense["id"]],
+                    [core_image["id"], sense["id"]]
+                    + [target["id"] for target in members],
                     (
                         "コアイメージの説明が対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
                         if legacy
@@ -380,9 +509,15 @@ def _append_shared_relations(
                 "語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。",
             )
     if senses:
+        high_level_targets = [
+            target
+            for target in targets
+            if target["kind"]
+            in {"core_image", "sense_boundary", "definition", "usage_note"}
+        ] if enhanced else senses
         add(
             "article_learning_risk",
-            [sense["id"] for sense in senses],
+            [target["id"] for target in high_level_targets],
             "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
         )
 
@@ -429,7 +564,59 @@ def extract_relations(targets: list[dict[str, Any]]) -> list[dict[str, Any]]:
             "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: "
             + "; ".join(reasons),
         )
-    _append_shared_relations(relations, counters, targets, senses, add, legacy=False)
+    _append_shared_relations(
+        relations, counters, targets, senses, add, legacy=False, enhanced=True
+    )
+    return relations
+
+
+def _extract_relations_v3_legacy(
+    targets: list[dict[str, Any]],
+) -> list[dict[str, Any]]:
+    """Preserve the original v3 inventory for unchanged pre-gate manifests."""
+    relations: list[dict[str, Any]] = []
+    counters: dict[str, int] = {}
+
+    def add(kind: str, target_ids: list[str], description: str) -> None:
+        counters[kind] = counters.get(kind, 0) + 1
+        canonical = json.dumps(
+            {"kind": kind, "target_ids": target_ids, "description": description},
+            ensure_ascii=False,
+            sort_keys=True,
+        )
+        relations.append(
+            {
+                "id": f"{kind}:{counters[kind]:03d}",
+                "kind": kind,
+                "target_ids": target_ids,
+                "description": description,
+                "text_sha256": _digest(canonical),
+                "requires_evidence": True,
+                "evidence_policy": (
+                    "two_sources_or_primary"
+                    if kind
+                    in {
+                        "risk_sense_pair",
+                        "core_sense_mapping",
+                        "core_inventory_consistency",
+                        "article_learning_risk",
+                    }
+                    else "one_source"
+                ),
+            }
+        )
+
+    senses = [target for target in targets if target["kind"] == "sense_boundary"]
+    for left, right, reasons in _sense_risk_pairs(targets, senses):
+        add(
+            "risk_sense_pair",
+            [left["id"], right["id"]],
+            "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: "
+            + "; ".join(reasons),
+        )
+    _append_shared_relations(
+        relations, counters, targets, senses, add, legacy=False, enhanced=False
+    )
     return relations
 
 
@@ -513,6 +700,12 @@ def build_manifest(entry_path: Path, repo_root: Path = REPO_ROOT) -> dict[str, A
             "findings": [],
         },
         "resolutions": [],
+        "semantic_gate": {
+            "version": "semantic_resolution_v2",
+            "body_sha256": current_body_hash,
+            "constraints": [],
+            "final_inventory_checks": [],
+        },
         "final_review": {
             "role": "final_adjudicator",
             "reviewer_id": "",
@@ -541,6 +734,7 @@ def build_manifest(entry_path: Path, repo_root: Path = REPO_ROOT) -> dict[str, A
             "relation_results": [],
             "candidate_results": [],
             "finding_results": [],
+            "evidence_checks": [],
             "blockers": [],
         },
     }
@@ -1028,7 +1222,8 @@ def _validate_v3_cycle(
         "current_cycle.regression_checks",
         errors,
     )
-    if set(checks) != set(ESCAPED_DEFECT_CATEGORIES):
+    required_categories = set(_required_defect_categories(manifest))
+    if set(checks) != required_categories:
         errors.append("current_cycle.regression_checks must cover every taxonomy category exactly once")
     for category, check in checks.items():
         if check.get("status") not in {"pending", "pass", "not_applicable"}:
@@ -1041,6 +1236,11 @@ def _validate_v3_cycle(
 def _validate_v3_raw_outputs(
     manifest: dict[str, Any], repo_root: Path, errors: list[str]
 ) -> None:
+    gate = manifest.get("semantic_gate")
+    require_structured_raw = (
+        isinstance(gate, dict)
+        and gate.get("version") == "semantic_resolution_v2"
+    )
     cycle = manifest.get("current_cycle")
     if not isinstance(cycle, dict):
         return
@@ -1105,9 +1305,20 @@ def _validate_v3_raw_outputs(
         elif not raw_path.is_file():
             errors.append(f"{label}.path does not exist")
         else:
-            actual = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+            raw_bytes = raw_path.read_bytes()
+            actual = hashlib.sha256(raw_bytes).hexdigest()
             if actual != reference.get("sha256"):
                 errors.append(f"{label}.sha256 does not match the raw output bytes")
+            if require_structured_raw:
+                try:
+                    raw_value = json.loads(raw_bytes.decode("utf-8"))
+                except (UnicodeDecodeError, json.JSONDecodeError):
+                    errors.append(f"{label}.path must contain a JSON object")
+                else:
+                    if not isinstance(raw_value, dict):
+                        errors.append(f"{label}.path must contain a JSON object")
+                    elif raw_value.get("stage") != stage:
+                        errors.append(f"{label}.stage must be {stage}")
         if stage == "final_blind":
             blind = review.get("blind_review", {})
             if reference.get("sealed_output_sha256") != blind.get("output_sha256"):
@@ -1135,8 +1346,14 @@ def _validate_v2_manifest(
     entry_status = front.get("status", "")
     entry_checked = front.get("checked", "").lower() == "true"
     expected_body_hash = body_sha256(entry_path)
+    invalidation = _matching_invalidation(entry_path, expected_body_hash, repo_root)
     schema_version = manifest.get("schema_version")
     is_v3 = schema_version == AUDIT_SCHEMA_VERSION
+    semantic_gate = manifest.get("semantic_gate")
+    is_semantic_v2 = (
+        isinstance(semantic_gate, dict)
+        and semantic_gate.get("version") == "semantic_resolution_v2"
+    )
     allowed_body_hashes = (
         _validate_v3_cycle(manifest, repo_root, expected_body_hash, errors)
         if is_v3
@@ -1174,7 +1391,11 @@ def _validate_v2_manifest(
             if actual_targets[target_id].get(key) != expected_targets[target_id].get(key):
                 errors.append(f"target {target_id} has stale or invalid {key}")
 
-    relation_builder = extract_relations if is_v3 else _extract_relations_v2
+    relation_builder = (
+        extract_relations
+        if is_semantic_v2
+        else (_extract_relations_v3_legacy if is_v3 else _extract_relations_v2)
+    )
     expected_relations = {
         item["id"]: item for item in relation_builder(list(expected_targets.values()))
     }
@@ -1252,6 +1473,10 @@ def _validate_v2_manifest(
             for key in ("source_detail", "applicability", "counterexample_method"):
                 if not _nonempty(link.get(key)):
                     errors.append(f"evidence link {link_id} requires non-empty {key}")
+            if is_semantic_v2 and not _nonempty(link.get("source_excerpt_or_summary")):
+                errors.append(
+                    f"evidence link {link_id} requires non-empty source_excerpt_or_summary"
+                )
 
     def check_link_refs(
         refs: Any,
@@ -1278,21 +1503,29 @@ def _validate_v2_manifest(
     def check_evidence_policy(refs: Any, subject: dict[str, Any] | None, label: str) -> None:
         if not is_v3 or not isinstance(subject, dict):
             return
-        if subject.get("evidence_policy") != "two_sources_or_primary":
-            return
         if not isinstance(refs, list):
             return
-        evidence_ids = {
+        direct_evidence_ids = {
             evidence_links[link_id].get("evidence_id")
             for link_id in refs
             if link_id in evidence_links
+            and evidence_links[link_id].get("support_type") == "direct"
         }
+        if is_semantic_v2 and subject.get("requires_evidence") and not direct_evidence_ids:
+            errors.append(f"{label} requires at least one directly supporting evidence link")
+        if subject.get("evidence_policy") != "two_sources_or_primary":
+            return
         has_primary = any(
             _is_primary_source(evidence[evidence_id].get("source_type"))
-            for evidence_id in evidence_ids
+            for evidence_id in direct_evidence_ids
             if evidence_id in evidence
         )
-        if len(evidence_ids) < 2 and not has_primary:
+        independent_citations = {
+            " ".join(str(evidence[evidence_id].get("citation", "")).lower().split())
+            for evidence_id in direct_evidence_ids
+            if evidence_id in evidence
+        }
+        if len(independent_citations) < 2 and not has_primary:
             errors.append(f"{label} requires two independent sources or one primary source")
 
     def validate_execution(
@@ -1524,6 +1757,22 @@ def _validate_v2_manifest(
             for key in ("location", "description", "reason", "suggested_direction"):
                 if not _nonempty(finding.get(key)):
                     errors.append(f"cold finding {finding_id} requires non-empty {key}")
+            if is_semantic_v2:
+                anchors = _index_by_id(
+                    finding.get("scope_anchors"),
+                    f"cold finding {finding_id}.scope_anchors",
+                    errors,
+                )
+                if not anchors:
+                    errors.append(
+                        f"cold finding {finding_id} requires at least one scope anchor"
+                    )
+                for anchor_id, anchor in anchors.items():
+                    for key in ("exact_quote", "location_hint"):
+                        if not _nonempty(anchor.get(key)):
+                            errors.append(
+                                f"cold finding {finding_id} anchor {anchor_id} requires {key}"
+                            )
             check_link_refs(
                 finding.get("evidence_link_ids"),
                 f"cold finding {finding_id}",
@@ -1563,6 +1812,54 @@ def _validate_v2_manifest(
         for relation_id in resolution.get("affected_relation_ids", []):
             if relation_id not in expected_relations:
                 errors.append(f"resolution {finding_id} references unknown relation {relation_id}")
+        if is_semantic_v2:
+            finding = cold_findings.get(finding_id, {})
+            anchors = _index_by_id(
+                finding.get("scope_anchors"),
+                f"cold finding {finding_id}.scope_anchors",
+                errors,
+            )
+            anchor_results = _index_by_id(
+                resolution.get("scope_anchor_results"),
+                f"resolution {finding_id}.scope_anchor_results",
+                errors,
+            )
+            if set(anchor_results) != set(anchors):
+                errors.append(
+                    f"resolution {finding_id} must resolve every cold-finding scope anchor exactly once"
+                )
+            for anchor_id, result in anchor_results.items():
+                if result.get("status") not in {
+                    "corrected",
+                    "removed",
+                    "unchanged_valid",
+                    "not_applicable",
+                }:
+                    errors.append(
+                        f"resolution {finding_id} anchor {anchor_id} has invalid status"
+                    )
+                if not _nonempty(result.get("notes")):
+                    errors.append(
+                        f"resolution {finding_id} anchor {anchor_id} requires notes"
+                    )
+                anchor_targets = result.get("affected_target_ids")
+                anchor_queries = result.get("article_queries")
+                if not isinstance(anchor_targets, list) or not isinstance(anchor_queries, list):
+                    errors.append(
+                        f"resolution {finding_id} anchor {anchor_id} target/query fields must be lists"
+                    )
+                    continue
+                for target_id in anchor_targets:
+                    if target_id not in expected_targets:
+                        errors.append(
+                            f"resolution {finding_id} anchor {anchor_id} references unknown target {target_id}"
+                        )
+                if resolution.get("problem_confirmed") is True and not (
+                    anchor_targets or anchor_queries
+                ):
+                    errors.append(
+                        f"confirmed resolution {finding_id} anchor {anchor_id} must map a target or article query"
+                    )
         if status == "adopted":
             if resolution.get("problem_confirmed") is not True:
                 errors.append(f"adopted resolution {finding_id} must confirm the problem")
@@ -1856,6 +2153,83 @@ def _validate_v2_manifest(
                 True,
             )
 
+        if is_semantic_v2:
+            required_final_links: set[str] = set()
+            for collection in (
+                final_results,
+                final_relation_results,
+                candidate_results,
+                blind_finding_results,
+                finding_results,
+            ):
+                for result in collection.values():
+                    refs = result.get("evidence_link_ids_checked")
+                    if isinstance(refs, list):
+                        required_final_links.update(
+                            str(value) for value in refs if _nonempty(value)
+                        )
+            for collection in (final_candidates, inventory_comparisons):
+                for item in collection.values():
+                    refs = item.get("evidence_link_ids")
+                    if isinstance(refs, list):
+                        required_final_links.update(
+                            str(value) for value in refs if _nonempty(value)
+                        )
+            evidence_checks = _index_by_id(
+                final.get("evidence_checks"),
+                "final_review.evidence_checks",
+                errors,
+            )
+            if set(evidence_checks) != required_final_links:
+                missing = sorted(required_final_links - set(evidence_checks))
+                extra = sorted(set(evidence_checks) - required_final_links)
+                if missing:
+                    errors.append(
+                        "final evidence checks are missing evidence links: "
+                        + ", ".join(missing)
+                    )
+                if extra:
+                    errors.append(
+                        "final evidence checks contain unused evidence links: "
+                        + ", ".join(extra)
+                    )
+            for link_id, check in evidence_checks.items():
+                if link_id not in evidence_links:
+                    errors.append(
+                        f"final evidence check {link_id} references an unknown evidence link"
+                    )
+                if check.get("status") not in {"pass", "fail"}:
+                    errors.append(
+                        f"final evidence check {link_id}.status must be pass or fail"
+                    )
+                for key in (
+                    "claim_supported",
+                    "locator_verified",
+                    "applicability_confirmed",
+                ):
+                    if not isinstance(check.get(key), bool):
+                        errors.append(
+                            f"final evidence check {link_id}.{key} must be boolean"
+                        )
+                if check.get("contradiction_status") not in {
+                    "no_contradiction",
+                    "resolved",
+                    "contradiction_found",
+                }:
+                    errors.append(
+                        f"final evidence check {link_id} has invalid contradiction_status"
+                    )
+                if not _nonempty(check.get("notes")):
+                    errors.append(f"final evidence check {link_id} requires notes")
+                if decision == "pass" and (
+                    check.get("status") != "pass"
+                    or check.get("claim_supported") is not True
+                    or check.get("locator_verified") is not True
+                    or check.get("applicability_confirmed") is not True
+                    or check.get("contradiction_status") == "contradiction_found"
+                ):
+                    final_failure = True
+
     blockers = final.get("blockers") if isinstance(final, dict) else None
     if not isinstance(blockers, list):
         errors.append("final_review.blockers must be a list")
@@ -1890,7 +2264,12 @@ def _validate_v2_manifest(
             errors.append("passed final review contains a failed or unresolved result")
         if any(item.get("status") == "hold" for item in resolutions.values()):
             errors.append("passed final review cannot contain a hold resolution")
-        if entry_status not in {"review_ready", "checked", "final"}:
+        if invalidation is not None:
+            if entry_status != "needs_review" or entry_checked:
+                errors.append(
+                    "an invalidated passed review requires needs_review/checked false"
+                )
+        elif entry_status not in {"review_ready", "checked", "final"}:
             errors.append("passed final review has an invalid entry status")
         if entry_status in FINAL_STATUSES and not entry_checked:
             errors.append("checked/final entry with passed review must have checked true")
@@ -2055,7 +2434,12 @@ def _validate_append_only_transition(
         and _body_sha256_text(base_entry_bytes.decode("utf-8"))
         != body_sha256(entry_path)
     )
-    must_append = body_changed or _completed_manifest(base_manifest)
+    try:
+        head_audit_bytes = audit_path.read_bytes()
+    except OSError:
+        head_audit_bytes = b""
+    audit_changed = head_audit_bytes != base_audit_bytes
+    must_append = body_changed or (_completed_manifest(base_manifest) and audit_changed)
     head_history = head_manifest.get("review_history")
     if not isinstance(head_history, list):
         head_history = []
@@ -2102,6 +2486,8 @@ def _validate_append_only_transition(
 def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
     changed = _git_changed_paths(base, head, repo_root)
+    if INVALIDATION_REGISTRY.as_posix() in changed:
+        errors.extend(validate_invalidation_registry(repo_root))
     entry_paths = {
         path for path in changed if path.startswith("entries/") and path.endswith(".md")
     }
@@ -2140,7 +2526,7 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
 
 
 def validate_all_audited(repo_root: Path = REPO_ROOT) -> list[str]:
-    errors: list[str] = []
+    errors: list[str] = validate_invalidation_registry(repo_root)
     audits_dir = repo_root / "audits"
     if not audits_dir.is_dir():
         return []

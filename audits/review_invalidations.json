@@ -1,0 +1,19 @@
+{
+  "schema_version": "review_invalidations_v1",
+  "invalidations": [
+    {
+      "entry_path": "entries/d/distribution.md",
+      "body_sha256": "6fef4932f73e7c3fc5f0ab02c024a90688463fc9a6a747947599a688422a6177",
+      "status": "invalidated",
+      "invalidated_at": "2026-08-16T15:00:00+09:00",
+      "reason": "The cycle-005 PASS escaped a reversed mathematical relation, an overbroad supply-network label, and a definition-versus-synonym contradiction. The legacy review is retained as history but cannot authorize checked/final publication.",
+      "defect_categories": [
+        "semantic_direction_reversal",
+        "cross_section_internal_contradiction",
+        "finding_scope_transfer_loss",
+        "evidence_claim_mismatch",
+        "raw_adjudication_manifest_divergence"
+      ]
+    }
+  ]
+}

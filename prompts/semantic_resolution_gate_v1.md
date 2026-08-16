@@ -1,4 +1,4 @@
-# semantic_resolution_gate_v1
+# semantic_resolution_gate_v2
 
 この仕様は、レビューで一度得た正しい意味判断を後工程が無視したまま `PASS` することを防ぐためのハードゲートである。`content_audit_v3` の既存監査を置き換えず、意味上の指摘・修正・最終照合を本文ハッシュへ結び付ける。
 
@@ -27,7 +27,7 @@
 ```json
 {
   "semantic_gate": {
-    "version": "semantic_resolution_v1",
+    "version": "semantic_resolution_v2",
     "body_sha256": "<current body sha256>",
     "constraints": [],
     "final_inventory_checks": []
@@ -35,7 +35,7 @@
 }
 ```
 
-既存の未変更監査へ一括追記は不要である。次回その記事を変更するときから必須とする。
+semantic gateのない旧監査を互換読み込みする場合も、`checked` / `final` の根拠にはできない。見逃しが判明した旧PASSは `audits/review_invalidations.json` に本文ハッシュ付きで登録し、本文を変えなくても `needs_review`、checked `false` へ戻す。次回審査ではv2 gateを必須とする。
 
 ## コールドレビューfindingから意味制約を作る
 
@@ -51,6 +51,7 @@
   "statement": "AはBに作用する側であり、Bから作用を受ける対象として説明しない",
   "polarity": "must_hold",
   "scope": "technical definition and all summaries",
+  "source_anchor_ids": ["CR-001-001:A1"],
   "affected_target_ids": ["definition:007", "core_image:002"],
   "affected_relation_ids": ["core_sense_mapping:007"],
   "article_queries": ["作用対象", "作用する"],
@@ -71,7 +72,16 @@
 ```json
 {
   "semantic_invariant_ids": ["SC001"],
-  "resolved_on_body_sha256": "<current body sha256>"
+  "resolved_on_body_sha256": "<current body sha256>",
+  "scope_anchor_results": [
+    {
+      "id": "CR-001-001:A1",
+      "status": "corrected",
+      "affected_target_ids": ["core_image:002"],
+      "article_queries": ["作用対象"],
+      "notes": "最新版のコアイメージを確認した"
+    }
+  ]
 }
 ```
 
@@ -98,7 +108,7 @@
 }
 ```
 
-全ID・queryを再確認していないfindingを `resolution_status: resolved` / `status: pass` にしない。
+元findingの全scope anchor、全ID、affected targetを含む全生成relation、全queryを再確認していないfindingを `resolution_status: resolved` / `status: pass` にしない。`blast_radius_queries_checked` の各queryには `blast_radius_query_results` で最新版本文の一致件数と一致target IDを記録し、スクリプトの再計算結果と一致させる。
 
 ## 最終盲検棚卸しと本文の強制照合
 
@@ -135,6 +145,9 @@
   "article_target_ids_checked": ["definition:001", "core_image:001"],
   "article_relation_ids_checked": ["learner_generalization:001"],
   "article_queries_checked": ["個別", "配送", "delivery"],
+  "article_query_results": [
+    {"query": "delivery", "match_count": 2, "matched_target_ids": ["definition:003", "usage_note:003"]}
+  ],
   "status": "pass",
   "notes": "除外境界と矛盾する記述が定義・コアイメージ・語法にないことを確認した"
 }
@@ -144,6 +157,23 @@
 - `included` 候補では、照合段階で追加された `article_target_ids` をすべて再確認する。
 - `excluded` 候補でも「本文に対応targetがない」だけで済ませない。境界を侵食しうる関連target、relation、または明示的な全文queryを確認する。
 - 最終decisionが `pass` の場合、全inventory checkも `pass` でなければならない。
+- `included` 候補では対応targetだけでなく、そのtargetを含む全生成relationを確認する。
+- `article_queries_checked` は `article_query_results` と1対1で対応し、最新版本文の一致件数・一致target IDが機械的再計算と一致しなければならない。
+
+## 原出力と監査マニフェストの完全照合
+
+通常、コールド、最終盲検、最終照合の原出力は別々のJSONとして保存する。v2 gateでは、次を件数ではなく項目内容まで完全照合する。
+
+- 通常レビューの `independent_candidates`、`target_results`、`relation_results`。
+- コールドレビューの `summary`、全finding、全`scope_anchors`。
+- 最終盲検の候補内容・収録判断・semantic assertions・article findings。
+- 最終照合のinventory comparison、全target/relation/candidate/finding結果、全evidence check、全inventory check、blocker、decision。
+
+原出力が集計件数しか持たない場合や、監査マニフェストにだけ個別PASSが存在する場合は不合格とする。
+
+## 根拠適合性の最終確認
+
+各 `evidence_link` は資料位置に加えて `source_excerpt_or_summary` を持つ。高リスク対象の2資料要件は、別IDではなく異なる引用元として数え、いずれも対象主張を直接支持しなければならない。最終審査は使用した全根拠リンクについて `final_review.evidence_checks` を作り、主張支持、locator、適用範囲、矛盾探索を個別判定する。最終PASSでは全checkがpassでなければならず、この配列も最終照合の原出力と完全一致させる。
 
 ## stale判定
 
@@ -179,4 +209,4 @@ python scripts/semantic_resolution_gate.py validate-audited --compat
 
 互換モードはsemantic gateが存在しない未変更旧監査を許容するだけであり、gateが存在する監査の不整合は許容しない。
 
-【semantic resolution gate v1 終わり】
+【semantic resolution gate v2 終わり】
