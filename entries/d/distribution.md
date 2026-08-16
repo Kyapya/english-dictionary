@@ -430,7 +430,7 @@ tags: []
 
 6. 【名詞・可算】Python packagingにおける配布パッケージ
 
-【日本語訳・定義】注意：PyPAの資料内でも distribution package は、①pip install などで指定するインストール対象となる software/project 相当の単位、②特定の release に対応する配布ファイル、の両方に使われる。本項では文脈ごとに区別する。通常は distribution package をインストール可能な software/project の名前・単位として扱い、特定の物理ファイルを強調するときは distribution archive と呼ぶ。用語を区別する場合は project を開発対象、release を特定バージョンのスナップショット、source distribution（sdist）と built distribution（通常はwheel）を配布形式、distribution archive をその物理ファイル、installed distribution をインストール済み distribution package のメタデータを表す抽象的な対象として扱う。なお、標準ライブラリの importlib.metadata.Distribution も、インストール済み distribution package のメタデータを表すAPI上の抽象オブジェクトであり、配布ファイルそのものではない。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では distribution package または installed distribution と明示する方が安全である。  
+【日本語訳・定義】注意：PyPAの資料内でも distribution package は用語レベルが揺れる。PyPA Glossaryでは、Distribution Package を特定の release を配布する版付きアーカイブファイルと定義し、Distribution Archive をその物理的な配布artifactと区別している。一方、PyPAの解説では、distribution package を pip install などで指定するインストール可能な software/project 相当の単位、または特定バージョンの配布ファイルの意味で使う。本項ではこの揺れを隠さず、project name／requirement（インストール対象を指定する名前・要件）と、source distribution（sdist）・built distribution（通常はwheel）・distribution archive（物理ファイル）というartifact側の用語を区別して説明する。distribution package を名前・単位として述べる箇所はPyPA解説側の用法であり、唯一の標準定義ではない。installed distribution をインストール済み distribution package のメタデータを扱う対象として扱う。なお、標準ライブラリの importlib.metadata.Distribution も、インストール済み distribution package のメタデータを表すAPI上の抽象オブジェクトであり、配布ファイルそのものではない。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では対象を distribution package、distribution archive、installed distribution などと明示する方が安全である。  
 
 【頻度】〈2/10〉  
 
@@ -451,7 +451,7 @@ tags: []
 訳: その配布パッケージは最新リリース向けに公開される。  
 
 ・a distribution package  
-用途: Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。  
+用途: PyPA解説側の用法では、Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指すが、これはdistribution packageに固定した唯一の意味ではない。  
 例: The build backend creates a distribution package from the project.  
 訳: そのビルドバックエンドはプロジェクトから配布パッケージを作成する。  
 
@@ -495,7 +495,7 @@ tags: []
 例: The script reads the metadata and files of a distribution.  
 訳: そのスクリプトはdistributionのメタデータとファイルを読み取る。  
 
-【語法・注意】PyPAの資料内でも、distribution package は①インストール対象となる project 相当の単位、②特定の release に対応する配布ファイル、の両方を指し得る。本項では文脈ごとに、名前・インストール対象としては distribution package、特定の物理ファイルとしては distribution archive と区別して説明する。projectは開発対象、releaseは特定バージョン、source distribution（sdist）と built distribution（通常はwheel）は配布形式、installed distributionはインストール済み distribution package のメタデータを表す抽象的な対象である。標準ライブラリの importlib.metadata.Distribution もこのメタデータを扱うAPI上の抽象オブジェクトであり、配布ファイルそのものではない。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、インストール時またはwheel作成前にビルド工程を要することがある。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package や installed distribution と明示する方が安全である。  
+【語法・注意】Python packagingでは、project（開発対象）、project name／requirement（インストール対象を指定する名前・要件）、release（特定バージョンのスナップショット）、distribution package（PyPA資料により、インストール可能なsoftware/project相当の単位または特定releaseの版付きアーカイブ）、source distribution（sdist）と built distribution（通常はwheel）（配布形式）、distribution archive（物理的な配布ファイル）、installed distribution（インストール済み配布パッケージのメタデータを扱う対象）、import package（Pythonコードからimportできるパッケージ）は役割が異なる。本項で「名前・単位」と「物理ファイル」を分けるのは、PyPA資料間の用語揺れによる混同を避けるための説明上の整理であり、distribution packageに唯一固定した意味があるという主張ではない。標準ライブラリの importlib.metadata.Distribution もinstalled distributionのメタデータを扱うAPI上の抽象オブジェクトであり、配布ファイルそのものではない。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、通常はインストール前にビルド工程が必要である。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package、distribution archive、installed distribution などと明示する方が安全である。  
 
 【類義語】
 
