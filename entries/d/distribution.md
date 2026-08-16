@@ -1,12 +1,12 @@
 ---
 headword: distribution
 type: word
-status: checked
+status: needs_review
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-06-14
 updated_at: 2026-08-16
-checked: true
+checked: false
 tags: []
 ---
 
@@ -36,11 +36,11 @@ tags: []
 
 ＃コアイメージ
 
-一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を含むより広い作用対象としての「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」「試験関数に作用する数学的対象」のどこに置かれるかで日本語訳が変わる。  
+一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を一般化し、試験関数に作用する数学的対象である「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」「試験関数に作用する数学的対象」のどこに置かれるかで日本語訳が変わる。  
 
 ・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）  
 ・複数の場所・集団・値に広がった状態 → 「分布、配置、分配のあり方」（語義2）  
-・複数の販売地点・顧客へ届く経路としての割り振り → 「流通、供給、配電・配水などの供給網」（語義3）  
+・複数の販売地点・利用者へ届ける仕組み・過程 → 「流通、供給、配給・配電・配水」（語義3）  
 ・受取人へ割り振られた金銭・資産の取り分 → 「金融・法律上の分配、分配金」（語義4）  
 ・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）  
 ・Pythonプロジェクトの配布・インストール単位 → 「Python packagingにおける配布パッケージ」（語義6）  
@@ -226,9 +226,9 @@ tags: []
 例: The allocation of resources differs across regions.  
 訳: 資源の配分は地域によって異なる。  
 
-3. 【名詞・不可算】流通、供給、配電・配水などの供給網
+3. 【名詞・不可算】流通、供給、配電・配水などの供給・流通の仕組み
 
-【日本語訳・定義】ビジネス・インフラで、商品・コンテンツや電気・ガス・水などを、生産者・供給源から市場、小売店、利用者・需要地点へ届けるための流通経路・供給網・仕組み・活動。個別の配送を指す場合もあるが、delivery より、広い市場・複数地点へ届ける経路・仕組み・活動に焦点が置かれやすい。裸の distribution は配電・供給の機能、過程、事業領域を指しやすく、具体的な物理網は distribution network/system/grid などで表す。インフラでは発電・浄水・生産そのものではなく、利用者まで届ける下流の網を指す。  
+【日本語訳・定義】ビジネス・インフラで、商品・コンテンツや電気・ガス・水などを、生産者・供給源から市場、小売店、利用者・需要地点へ届けるための流通経路・供給網・仕組み・活動。個々の配送まで含めて distribution と表現される文脈もあるが、通常の個別配送には delivery を使い、distribution は delivery より、広い市場・複数地点へ届ける経路・仕組み・活動に焦点が置かれやすい。裸の distribution は配電・供給の機能、過程、事業領域を指しやすく、具体的な物理網は distribution network/system/grid などで表す。インフラでは発電・浄水・生産そのものではなく、利用者まで届ける下流の網を指す。  
 
 【頻度】〈7/10〉  
 
@@ -430,7 +430,7 @@ tags: []
 
 6. 【名詞・可算】Python packagingにおける配布パッケージ
 
-【日本語訳・定義】Python packaging で、distribution package は、pip install などで指定するインストール可能な software/project の名前・単位を指すことが多い。PyPAでは、特定バージョンを含む一つの配布ファイルを指す用法もある。用語を区別する場合は project を開発対象、release を特定バージョンのスナップショット、source distribution（sdist）と built distribution（通常はwheel）を配布形式、distribution archive をその物理ファイル、installed distribution をインストール済み対象のメタデータとして扱う。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では distribution package または installed distribution と明示する方が安全である。  
+【日本語訳・定義】注意：PyPAの資料内でも distribution package は用語レベルが揺れる。PyPA Glossaryでは、Distribution Package を特定の release を配布する版付きアーカイブファイルと定義し、Distribution Archive をその物理的な配布artifactと区別している。一方、PyPAの解説では、distribution package を pip install などで指定するインストール可能な software/project 相当の単位、または特定バージョンの配布ファイルの意味で使う。本項ではこの揺れを隠さず、project name／requirement（インストール対象を指定する名前・要件）と、source distribution（sdist）・built distribution（通常はwheel）・distribution archive（物理ファイル）というartifact側の用語を区別して説明する。distribution package を名前・単位として述べる箇所はPyPA解説側の用法であり、唯一の標準定義ではない。installed distribution をインストール済み distribution package のメタデータを扱う対象として扱う。なお、標準ライブラリの importlib.metadata.Distribution も、インストール済み distribution package のメタデータを表すAPI上の抽象オブジェクトであり、配布ファイルそのものではない。単語単独の distribution はこの用法を短く指す場合があるが、技術文書では対象を distribution package、distribution archive、installed distribution などと明示する方が安全である。  
 
 【頻度】〈2/10〉  
 
@@ -451,7 +451,7 @@ tags: []
 訳: その配布パッケージは最新リリース向けに公開される。  
 
 ・a distribution package  
-用途: Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。  
+用途: PyPA解説側の用法では、Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指すが、これはdistribution packageに固定した唯一の意味ではない。  
 例: The build backend creates a distribution package from the project.  
 訳: そのビルドバックエンドはプロジェクトから配布パッケージを作成する。  
 
@@ -495,7 +495,7 @@ tags: []
 例: The script reads the metadata and files of a distribution.  
 訳: そのスクリプトはdistributionのメタデータとファイルを読み取る。  
 
-【語法・注意】Python packagingでは、project、release、distribution package、source/built distribution、distribution archive、installed distribution、import packageは役割が異なる。projectは開発対象、releaseは特定バージョン、distribution packageはインストール対象または文脈によりその配布単位、source/built distributionは配布artifactの形式、distribution archiveは特定の物理ファイルを強調する呼び方、installed distributionはインストール済み対象のメタデータを扱う呼び方である。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、インストール時またはwheel作成前にビルド工程を要することがある。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package や installed distribution と明示する方が安全である。  
+【語法・注意】Python packagingでは、project（開発対象）、project name／requirement（インストール対象を指定する名前・要件）、release（特定バージョンのスナップショット）、distribution package（PyPA資料により、インストール可能なsoftware/project相当の単位または特定releaseの版付きアーカイブ）、source distribution（sdist）と built distribution（通常はwheel）（配布形式）、distribution archive（物理的な配布ファイル）、installed distribution（インストール済み配布パッケージのメタデータを扱う対象）、import package（Pythonコードからimportできるパッケージ）は役割が異なる。本項で「名前・単位」と「物理ファイル」を分けるのは、PyPA資料間の用語揺れによる混同を避けるための説明上の整理であり、distribution packageに唯一固定した意味があるという主張ではない。標準ライブラリの importlib.metadata.Distribution もinstalled distributionのメタデータを扱うAPI上の抽象オブジェクトであり、配布ファイルそのものではない。source distribution（sdist）はソース配布物で、wheelなどのbuilt distributionとは異なり、通常はインストール前にビルド工程が必要である。import packageはPythonコードからimportでき、サブモジュールを含み得るPython moduleの一種であり、moduleという上位概念そのものと同一ではない。distribution package名・project名とimport package名は一致するとは限らず、PillowがPILを提供するように異なることがある。一つのdistribution packageが複数のimport packageを提供することもあり、package単独では対象を特定できない。単語単独の distribution は文脈によりLinux distribution、Pythonのdistribution package、installed distributionなどを指し得るため、技術文書では対象を distribution package、distribution archive、installed distribution などと明示する方が安全である。  
 
 【類義語】
 
@@ -508,7 +508,7 @@ tags: []
 
 7. 【名詞・可算】数学解析の一般化関数、超関数
 
-【日本語訳・定義】数学解析で、通常の関数として直接扱うことが難しい対象を、試験関数空間上の連続線形汎関数として表す対象。局所可積分関数などは一定の条件のもとでdistributionに埋め込める。確率分布や度数分布とは別の専門用法で、generalized function とも呼ばれる。  
+【日本語訳・定義】数学解析で、通常の関数として直接扱うことが難しい対象を、試験関数空間上の連続線形汎関数として表す対象。局所可積分関数などは一定の条件のもとでdistributionに埋め込める。確率分布や度数分布とは別の専門用法で、generalized function（一般化関数）の代表的な一種。文献によっては generalized function が distribution とほぼ同義に使われることもある。  
 
 【頻度】〈1/10〉  
 
