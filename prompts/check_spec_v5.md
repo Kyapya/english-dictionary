@@ -474,4 +474,58 @@ Codexはチェックを始める前に、このファイルだけを最初から
 
 最終合否は通常チェック担当が出さない。最終審査後は `python scripts/content_audit.py validate` とGitHub Actionsが本文ハッシュ、全件判定、三者の分離、根拠台帳、最終 `PASS` を検証する。
 
+## 意味制約ハードゲート
+
+コールドレビュー、通常チェック、再検査で内容上の問題が確認された場合、その問題を自由文の修正メモだけで閉じてはならない。レビューで得た正しい意味判断を、後続修正や最終審査が無視できないよう `semantic_gate` へ外部化する。
+
+### 問題確認済みfindingのconstraint化
+
+`resolutions[].problem_confirmed` が `true` の各findingについて、1件以上の `semantic_gate.constraints` を作る。constraintは次を持つ。
+
+- 一意な `id`。
+- `source_type: cold_finding` と対応する `source_id`。
+- 判定可能な1関係だけを書く `statement`。
+- `must_hold` または `must_not_hold` の `polarity`。
+- 適用範囲を示す `scope`。
+- 影響する `affected_target_ids`、`affected_relation_ids`。
+- target/relationだけで表せない全文走査条件を示す `article_queries`。
+- 最新版本文で最後に再確認した `verified_on_body_sha256`。
+- どこを再確認したかを示す `verification_notes`。
+
+constraintは、単に「数学義を修正する」「語義境界を直す」のような作業指示ではなく、「AがBに作用する側であり逆向きに説明しない」「AはBの一種であり無条件な同義語として扱わない」「通常の個別配送をこの見出し語の一般義へ含めない」のように、再発時に違反を判定できる意味関係へする。特定単語だけに効く固定ルールは設けず、当該findingから得た関係を原子的に記録する。
+
+対応するresolutionには、全constraint IDを `semantic_invariant_ids` として記録し、**そのfindingが最新版本文でも解決していると最後に確認した本文ハッシュ**を `resolved_on_body_sha256` に記録する。修正を実施したrevisionのハッシュではない。後続の別修正で本文ハッシュが変わった場合は、コールドレビュー自体は原則繰り返さないが、constraint、affected target/relation、article queryを最新版全文へ再照合してから `resolved_on_body_sha256` と各constraintの `verified_on_body_sha256` を更新する。
+
+### blast radiusの再確認
+
+採用findingの再検査では、元の指摘位置だけを確認して終えない。resolutionのaffected target/relation、constraintのaffected target/relation、article queryに加え、同じ概念を要約・言い換えするコアイメージ、定義、語法、相互参照、文法パターン、コロケーション、例文、類義語・対照表現を確認する。後続修正で別箇所に同じ誤りが再発していないことを確認する。
+
+通常チェック側から最終審査へ引き渡す時点では、問題確認済み全resolutionについてsemantic constraintが存在し、全constraintの `verified_on_body_sha256` と全resolutionの `resolved_on_body_sha256` が現在の `body_sha256` と一致していなければならない。一致しないものはstaleであり、`review_ready` にしない。
+
+### 最終盲検棚卸しへの引き渡し
+
+最終審査担当は、監査ファイルを開く前の独立棚卸しで各candidateに `semantic_assertions` を作り、そのassertion自体も盲検原出力へ固定する。通常チェック側は最終candidateのassertionを作成・修正しない。最終照合では、各candidateのassertionが現在本文と矛盾しないことをtarget・relation・明示的全文queryで1件ずつ確認する。
+
+### 必須機械検証
+
+変更されたv3監査は、最終状態にする前に次を通す。
+
+```bash
+python scripts/semantic_resolution_gate.py validate-entries <entry path>
+```
+
+PRではGitHub Actionsが次を自動実行する。
+
+```bash
+python scripts/semantic_resolution_gate.py validate-changed --base "$BASE_SHA" --head "$HEAD_SHA"
+```
+
+この検証は、本文変更後の古い解決判定、問題確認済みfindingのconstraint欠落、constraintの一部を落とした最終確認、blast radiusの未確認、盲検後に後付けされたcandidate assertion、盲検candidateと本文照合結果の欠落を機械的に拒否する。既存の未変更監査は互換扱いとし、次に記事を変更した時点から新ゲートを必須にする。
+
+通常チェック側の引き渡し条件へ、次の3条件を追加する。
+
+26. 問題確認済みの全resolutionに1件以上のsemantic constraintがあり、`semantic_invariant_ids` が対応constraintを漏れなく参照している。
+27. 全semantic constraintの `verified_on_body_sha256` と全問題確認済みresolutionの `resolved_on_body_sha256` が最新の `body_sha256` と一致し、affected target/relation/queryを最新版全文で再確認している。
+28. `python scripts/semantic_resolution_gate.py validate-entries <entry path>` の通常チェック側で検証可能な項目にエラーがなく、最終盲検側でのみ作成できるassertion関連項目を除いて引き渡し準備が完了している。
+
 【現行完全版チェック仕様終わり】
