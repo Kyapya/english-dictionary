@@ -160,6 +160,36 @@ class SemanticResolutionGateTests(unittest.TestCase):
         )
         self.assertEqual([], errors)
 
+    def test_auto_phase_allows_normal_handoff_before_final_blind(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest["final_review"] = {"decision": "pending"}
+        manifest["current_cycle"] = {"raw_outputs": {}}
+        manifest["semantic_gate"].pop("final_inventory_checks")
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+            phase="auto",
+        )
+        self.assertEqual([], errors)
+
+    def test_final_phase_does_not_allow_pending_final_artifacts(self) -> None:
+        temp, root, manifest = self._fixture()
+        self.addCleanup(temp.cleanup)
+        manifest["final_review"] = {"decision": "pending"}
+        manifest["current_cycle"] = {"raw_outputs": {}}
+        manifest["semantic_gate"].pop("final_inventory_checks")
+        errors = validate_manifest(
+            manifest,
+            root / "audits" / "a" / "apple.json",
+            repo_root=root,
+            require_gate=True,
+            phase="final",
+        )
+        self.assertTrue(errors)
+
     def test_stale_resolution_hash_is_rejected(self) -> None:
         temp, root, manifest = self._fixture()
         self.addCleanup(temp.cleanup)
