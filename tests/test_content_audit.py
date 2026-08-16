@@ -134,6 +134,7 @@ class ContentAuditTests(unittest.TestCase):
                     "locator": "sample entry, relevant definition and example",
                     "locator_kind": "sense_number",
                     "source_detail": "Sense 1, definition and first example.",
+                    "source_excerpt_or_summary": "The source defines the same lemma, sense, and frame used by this audit subject.",
                     "supports": f"Directly supports {subject_type} {subject_id}.",
                     "applicability": "Applies to the same lemma, sense, and frame.",
                     "support_type": "direct",
@@ -303,8 +304,39 @@ class ContentAuditTests(unittest.TestCase):
                 }
             ],
             "finding_results": [],
+            "evidence_checks": [],
             "blockers": [],
         }
+        required_final_links = {
+            link_id
+            for result_key in (
+                "target_results",
+                "relation_results",
+                "candidate_results",
+                "blind_finding_results",
+                "finding_results",
+            )
+            for result in manifest["final_review"][result_key]  # type: ignore[index]
+            for link_id in result.get("evidence_link_ids_checked", [])
+        }
+        required_final_links.update(
+            link_id
+            for item_key in ("independent_candidates", "inventory_comparison")
+            for item in manifest["final_review"][item_key]  # type: ignore[index]
+            for link_id in item.get("evidence_link_ids", [])
+        )
+        manifest["final_review"]["evidence_checks"] = [  # type: ignore[index]
+            {
+                "id": link_id,
+                "status": "pass",
+                "claim_supported": True,
+                "locator_verified": True,
+                "applicability_confirmed": True,
+                "contradiction_status": "no_contradiction",
+                "notes": "The cited passage directly supports the scoped claim.",
+            }
+            for link_id in sorted(required_final_links)
+        ]
         manifest["final_review"]["blind_review"]["output_sha256"] = (  # type: ignore[index]
             blind_review_sha256(manifest["final_review"])  # type: ignore[arg-type,index]
         )
@@ -315,11 +347,35 @@ class ContentAuditTests(unittest.TestCase):
         def add_raw(stage: str, review_key: str, *, blind: bool = False) -> None:
             review = manifest[review_key]
             execution = review["execution"]  # type: ignore[index]
-            relative = Path("audits/runs/s/sample/cycle-001") / f"{stage}.txt"
-            content = (
-                f"stage={stage}\nrun_id={execution['run_id']}\n"
-                f"input_body_sha256={execution['input_body_sha256']}\n"
-            ).encode()
+            relative = Path("audits/runs/s/sample/cycle-001") / f"{stage}.json"
+            raw: dict[str, object] = {
+                "stage": stage,
+                "run_id": execution["run_id"],
+                "input_body_sha256": execution["input_body_sha256"],
+            }
+            if stage == "normal_review":
+                for key in ("independent_candidates", "target_results", "relation_results"):
+                    raw[key] = review[key]  # type: ignore[index]
+            elif stage == "cold_review":
+                raw["summary"] = review["summary"]  # type: ignore[index]
+                raw["findings"] = review["findings"]  # type: ignore[index]
+            elif stage == "final_blind":
+                raw["independent_candidates"] = review["independent_candidates"]  # type: ignore[index]
+                raw["article_findings"] = review["blind_review"]["article_findings"]  # type: ignore[index]
+            elif stage == "final_review":
+                raw["adjudication"] = {
+                    "decision": review["decision"],  # type: ignore[index]
+                    "inventory_comparison": review["inventory_comparison"],  # type: ignore[index]
+                    "target_results": review["target_results"],  # type: ignore[index]
+                    "relation_results": review["relation_results"],  # type: ignore[index]
+                    "candidate_results": review["candidate_results"],  # type: ignore[index]
+                    "blind_finding_results": review["blind_finding_results"],  # type: ignore[index]
+                    "finding_results": review["finding_results"],  # type: ignore[index]
+                    "evidence_checks": review["evidence_checks"],  # type: ignore[index]
+                    "final_inventory_checks": manifest["semantic_gate"]["final_inventory_checks"],  # type: ignore[index]
+                    "blockers": review["blockers"],  # type: ignore[index]
+                }
+            content = json.dumps(raw, ensure_ascii=False, sort_keys=True).encode()
             (self.root / relative).write_bytes(content)
             reference = {
                 "path": relative.as_posix(),
@@ -372,7 +428,23 @@ class ContentAuditTests(unittest.TestCase):
         relation_kinds = {relation["kind"] for relation in relations}
         self.assertNotIn("sense_membership", relation_kinds)
         self.assertIn("example_translation", relation_kinds)
+        self.assertIn("sense_definition_consistency", relation_kinds)
+        self.assertIn("definition_lexical_relation_consistency", relation_kinds)
         self.assertIn("article_learning_risk", relation_kinds)
+
+        lexical_relation = next(
+            relation
+            for relation in relations
+            if relation["kind"] == "definition_lexical_relation_consistency"
+        )
+        lexical_kinds = {
+            target["kind"]
+            for target in targets
+            if target["id"] in lexical_relation["target_ids"]
+        }
+        self.assertEqual(
+            {"sense_boundary", "definition", "synonym"}, lexical_kinds
+        )
 
     def test_cast_core_mappings_are_reduced_to_nineteen_explicit_checks(self) -> None:
         cast_entry = REPO_ROOT / "entries" / "c" / "cast.md"
@@ -450,6 +522,20 @@ class ContentAuditTests(unittest.TestCase):
         self._write(manifest)
         errors = validate_manifest(self.entry, self.audit, self.root)
         self.assertTrue(any("source_detail" in error for error in errors))
+
+    def test_v3_evidence_link_requires_source_excerpt_or_summary(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["evidence_links"][0]["source_excerpt_or_summary"] = ""  # type: ignore[index]
+        self._write(manifest)
+        errors = validate_manifest(self.entry, self.audit, self.root)
+        self.assertTrue(any("source_excerpt_or_summary" in error for error in errors))
+
+    def test_final_pass_requires_item_level_evidence_checks(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["final_review"]["evidence_checks"].pop()  # type: ignore[index]
+        self._write(manifest)
+        errors = validate_manifest(self.entry, self.audit, self.root)
+        self.assertTrue(any("final evidence checks are missing" in error for error in errors))
 
     def test_high_risk_claim_requires_two_sources_or_primary(self) -> None:
         manifest = self._complete_manifest()
@@ -618,6 +704,13 @@ class ContentAuditTests(unittest.TestCase):
                 "description": "The current sources conflict.",
                 "reason": "The scope cannot yet be determined.",
                 "suggested_direction": "Check an additional authoritative source.",
+                "scope_anchors": [
+                    {
+                        "id": "finding:hold:A1",
+                        "exact_quote": "全体の性質を示すために取り出した一部。",
+                        "location_hint": "Sense 1 definition",
+                    }
+                ],
                 "evidence_link_ids": [],
             }
         ]
@@ -631,6 +724,7 @@ class ContentAuditTests(unittest.TestCase):
                 "locator": "sample entry, relevant definition",
                 "locator_kind": "sense_number",
                 "source_detail": "Sense 1 definition.",
+                "source_excerpt_or_summary": "The compared source scopes remain in conflict.",
                 "supports": "Supports keeping this finding on hold.",
                 "applicability": "Applies to the disputed sense boundary.",
                 "support_type": "context",
@@ -648,6 +742,15 @@ class ContentAuditTests(unittest.TestCase):
                 "required_changes": [],
                 "affected_target_ids": [],
                 "affected_relation_ids": [],
+                "scope_anchor_results": [
+                    {
+                        "id": "finding:hold:A1",
+                        "status": "not_applicable",
+                        "affected_target_ids": [],
+                        "article_queries": [],
+                        "notes": "The unresolved finding was not treated as confirmed.",
+                    }
+                ],
                 "implemented_changes": [],
                 "remaining_risk": "The claim may be too broad.",
                 "evidence_link_ids": ["link:hold"],
@@ -668,6 +771,7 @@ class ContentAuditTests(unittest.TestCase):
             "locator": "sample entry, relevant definition",
             "locator_kind": "sense_number",
             "source_detail": "Sense 1 definition.",
+            "source_excerpt_or_summary": "The source supports a narrower definition.",
             "supports": "Supports the finding as stated.",
             "applicability": "Applies to the reviewed definition.",
             "support_type": "direct",
@@ -684,6 +788,7 @@ class ContentAuditTests(unittest.TestCase):
             "locator": "sample entry, relevant definition",
             "locator_kind": "sense_number",
             "source_detail": "Sense 1 definition.",
+            "source_excerpt_or_summary": "The source supports the required correction.",
             "supports": "Supports the recorded resolution.",
             "applicability": "Applies to the corrected scope.",
             "support_type": "direct",
@@ -700,6 +805,13 @@ class ContentAuditTests(unittest.TestCase):
                 "description": "The definition is too broad.",
                 "reason": "The cited source supports a narrower scope.",
                 "suggested_direction": "Narrow the definition.",
+                "scope_anchors": [
+                    {
+                        "id": "finding:001:A1",
+                        "exact_quote": "全体の性質を示すために取り出した一部。",
+                        "location_hint": "Sense 1 definition",
+                    }
+                ],
                 "evidence_link_ids": ["link:finding"],
             }
         ]
@@ -712,6 +824,15 @@ class ContentAuditTests(unittest.TestCase):
                 "required_changes": ["Narrow the definition."],
                 "affected_target_ids": [target_id],
                 "affected_relation_ids": [],
+                "scope_anchor_results": [
+                    {
+                        "id": "finding:001:A1",
+                        "status": "corrected",
+                        "affected_target_ids": [target_id],
+                        "article_queries": ["全体の性質"],
+                        "notes": "Mapped the quoted definition to its current target.",
+                    }
+                ],
                 "implemented_changes": [],
                 "remaining_risk": "No remaining risk after the recorded correction.",
                 "evidence_link_ids": ["link:resolution"],

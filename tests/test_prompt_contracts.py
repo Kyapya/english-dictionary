@@ -41,7 +41,7 @@ class PromptContractTests(unittest.TestCase):
             "チェック後の必須コールドレビュー・判定修正・条件付き再検査",
             "front matterを除いた通常チェック後の最新版本文",
             "文脈を継承しない独立実行",
-            "語義の分け方・境界・重複",
+            "prompts/cold_review_prompt_v1.md",
             "学習者が説明から誤った一般化",
             "採用修正がある場合の全文再検査",
             "通常チェック側の引き渡し条件",
@@ -86,6 +86,9 @@ class PromptContractTests(unittest.TestCase):
         final = (REPO_ROOT / "prompts" / "final_review_spec_v1.md").read_text(
             encoding="utf-8"
         )
+        cold_prompt = (
+            REPO_ROOT / "prompts" / "cold_review_prompt_v1.md"
+        ).read_text(encoding="utf-8")
         review_prompt = (
             "英単語解説として問題がないか、記事全体を横断して徹底的に走査し、"
             "内容上の問題を前提なしで指摘してください。各文の正誤だけでなく、"
@@ -108,10 +111,14 @@ class PromptContractTests(unittest.TestCase):
             self.assertIn("採用", text)
             self.assertIn("不採用", text)
             self.assertIn("保留", text)
-            self.assertIn(review_prompt, text)
             self.assertNotIn(old_review_prompt, text)
             self.assertIn("語義", text)
             self.assertIn("誤った一般化", text)
+
+        self.assertIn(review_prompt, cold_prompt)
+        self.assertIn("scope_anchors", cold_prompt)
+        self.assertNotIn("distribution", cold_prompt)
+        self.assertNotIn("entry_spec_v5", cold_prompt)
 
         self.assertIn("文脈を継承しない独立実行を1回", check)
         self.assertIn("仕様があらかじめ想定していない問題候補", check)
