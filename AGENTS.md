@@ -17,6 +17,17 @@
 - 変更後は `queue/words.csv` の status を更新する。
 - 作業ログは `logs/` に日付付きMarkdownで残す。
 
+## プロジェクト横断の継続改善
+
+- 各単語の作成・更新を始める調整役は、記事生成仕様を読む前に `python scripts/process_improvement.py summary` と `python scripts/process_improvement.py validate` を実行し、`process_improvement/ACTIVE.md` の試行中・有効な運用規則を適用する。
+- `ACTIVE.md` は単語をまたぐ作業方法の改善だけに使い、記事内容の第二仕様にしない。内容品質の恒久ルールは、対応する生成・チェック・最終審査仕様、スクリプト、テストまたはCIへ反映した場合だけactiveとする。
+- `ACTIVE.md`、改善record、過去の作業効率情報を、文脈非継承のコールドレビュー担当または最終盲検担当へ渡さない。
+- 作業の公開前に、今回の実行で避けられた手戻り、再発した失敗、データ破損、不要な大規模変更、機械化できる反復作業がなかったかを確認する。
+- 改善recordは、複数実行での再発、または1回でも高影響だった問題で、見出し語をまたいで適用でき、具体的な行動規則と測定可能な効果確認を持つ場合だけ追加する。単語固有の指摘、感想、未整理のメモ、「新しい知見なし」は保存しない。
+- 新しい知見は `candidate` または `trial` から開始する。効果未確認のまま `active` にせず、所定の実行数で確認してから `active` または `retired` にする。
+- recordを変更したら `python scripts/process_improvement.py render` と `python scripts/process_improvement.py validate` を実行する。既存規則と同じ内容は新規recordにせず、既存recordの根拠・検証結果へ集約する。
+- 詳細な登録条件、状態遷移、肥大化防止、内容品質との境界は `process_improvement/README.md`、機械制約は `scripts/process_improvement.py` を正本とする。
+
 ## ファイル命名
 
 - 見出し語は `headword` と呼ぶ。
@@ -155,7 +166,8 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - 生成と独立チェックでは、同じ要約や内部棚卸しを再利用しない。チェック開始時に `prompts/check_spec_v5.md` だけを読み、見出し語からゼロベースで監査する。
 - 通常チェック後は、文脈を継承しない1回の独立実行へ最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡す。通常チェック担当が指摘候補を判定し、必要な修正、採用が1件以上ある場合の全文再検査を完了しても、最終合否は決めない。
 - 第三者の最終審査担当が `PASS` を記録した後だけchecked状態へ同期する。
-- PR作成前に `python -m unittest discover -s tests -v`、`python scripts/validate_entry.py entries`、`python scripts/validate_repository.py`、対象記事への `python scripts/content_audit.py validate` をすべて成功させる。
+- PR作成前にプロジェクト横断の継続改善判定を行い、登録条件を満たす知見がある場合だけ改善recordと必要な強制手段を同じ変更へ含める。登録条件を満たさない場合は改善メモを作らない。
+- PR作成前に `python -m unittest discover -s tests -v`、`python scripts/validate_entry.py entries`、`python scripts/validate_repository.py`、`python scripts/process_improvement.py validate`、対象記事への `python scripts/content_audit.py validate` をすべて成功させる。
 - GitHub Actionsは記事を生成・修正しない。PRの機械検証だけを行う。
 - Pull Requestの機械検証が成功したら、エージェントが `main` へマージする。ユーザーがレビュー待ちまたはマージ停止を明示した場合だけ、Pull Requestを未マージで残す。
 - Notion同期は `main` へのマージ後だけ実行し、エージェントは `.github/workflows/sync-notion.yml` の成功を確認してから依頼を完了する。
@@ -169,6 +181,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `scripts/content_audit.py`: 記事から単一箇所のtarget、記事横断のrelation、本文ハッシュを生成し、主張単位の根拠リンク、三者の実行履歴、盲検最終棚卸しの固定、通常・最終棚卸しの比較、コールドレビューの構造化解決、第三者最終審査の全件完了を検証する。
 - `scripts/semantic_resolution_gate.py`: scope anchor、意味制約、blast radius、全文query再計算、原出力との項目単位一致、旧PASS無効化を検証する。
+- `scripts/process_improvement.py`: 見出し語をまたいで再利用できる改善知識の汎用化条件、状態遷移、重複、根拠、効果検証、肥大化、`ACTIVE.md` の同期を検証する。
 - `scripts/export_index.py`: queueとentriesから索引CSV、可能ならExcelを出力する。Excelの `file` 列には、対応するMarkdownファイルをクリックして開けるハイパーリンクを付ける。
 - `scripts/export_all_markdown.py`: checkedまたはfinalの記事を1つのMarkdownに結合する。
 - `scripts/queue_status.py`: queueの件数をstatus別に表示する。

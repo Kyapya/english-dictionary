@@ -5,6 +5,7 @@ on:
     paths:
       - "entries/**/*.md"
       - "audits/**"
+      - "process_improvement/**"
       - "queue/words.csv"
       - "prompts/**/*.md"
       - "scripts/**/*.py"
@@ -44,6 +45,9 @@ jobs:
 
       - name: Validate queue and entry consistency
         run: python scripts/validate_repository.py
+
+      - name: Validate project improvement knowledge
+        run: python scripts/process_improvement.py validate
 
       - name: Validate changed independent content audits
         if: github.event_name == 'pull_request'

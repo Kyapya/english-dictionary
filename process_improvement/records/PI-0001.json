@@ -1,0 +1,57 @@
+{
+  "schema_version": "project_process_improvement_v1",
+  "id": "PI-0001",
+  "title": "完了済み監査cycleを追記型で保持する",
+  "status": "active",
+  "category": "reliability",
+  "severity": "critical",
+  "scope": "cross_entry_workflow",
+  "problem_pattern": "監査のやり直し時に過去cycleを上書きすると、当時の判定、入力本文、実行順序を後から検証できず、誤ったPASSの原因も失われる。",
+  "generalized_insight": "完成済みの監査状態は修正対象ではなく証跡である。修正が必要な場合は旧状態を不変履歴として保持し、新しいcycleとrevisionへ追記する必要がある。",
+  "action_rule": "完了済み監査またはその対象本文を変更するときは、旧cycleを編集せず、content_audit.py start-cycleで履歴化して新cycleを開始する。同一cycle内の本文変更はadd-revisionで追記する。",
+  "applicability": [
+    "audit_mutation",
+    "normal_review",
+    "final_review"
+  ],
+  "exceptions": "未完成で一度も判定に使われていない作業中データの訂正は対象外。ただし完了済み原出力やseal済み盲検出力は常に不変とする。",
+  "generalization_gate": {
+    "repeated_across_runs": true,
+    "high_impact_single_run": true,
+    "rationale": "複数cycleで時系列不整合が発生し、監査の信頼性と再現性へ直接影響したため、全見出し語へ適用する。"
+  },
+  "evidence": [
+    {
+      "source": "logs/2026-08-15.md#distributionのゼロベース再作成",
+      "observation": "cycle-002とcycle-003でレビュー入力本文と実行時刻の不整合が最終審査のREJECT理由になった。"
+    },
+    {
+      "source": "logs/2026-08-16.md#review-flow-hardening",
+      "observation": "旧PASSを削除せず無効化・supersededとして保持し、新しいcycleで再審査する方式に改めた。"
+    }
+  ],
+  "validation": {
+    "hypothesis": "完了cycleを不変にして新cycleへ追記すれば、過去判定の消失とレビュー時系列の巻き戻しを防止できる。",
+    "measures": [
+      "完了済み履歴prefixの改変検出が0件である",
+      "本文変更時に新cycleまたはrevisionが必ず作成される",
+      "盲検sealと最終照合の時系列検証が成功する"
+    ],
+    "window_runs": 2,
+    "observed_runs": 2,
+    "result": "pass",
+    "notes": "content_audit_v3、blind seal chronology検証、単体テストへ昇格済み。"
+  },
+  "enforcement": {
+    "mode": "script_or_ci",
+    "surface_in_playbook": false,
+    "refs": [
+      "AGENTS.md",
+      "audits/README.md",
+      "scripts/content_audit.py",
+      "tests/test_content_audit.py"
+    ]
+  },
+  "created_at": "2026-08-15",
+  "updated_at": "2026-08-20"
+}
