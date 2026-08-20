@@ -1,14 +1,3 @@
----
-headword: adjust
-type: word
-status: review_ready
-prompt_version: entry_spec_v5
-model: gpt-5.6-sol
-created_at: 2026-08-19
-updated_at: 2026-08-21
-checked: false
-tags: []
----
 
 ＃発音記号
 
