@@ -1,0 +1,76 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold-cycle006-mcclintock",
+  "input_body_sha256": "942761bb3f495dd04821952222c412a0be911d65d7e1c64b2c84593617e0b0fc",
+  "summary": "問題候補は2件。Python packagingの中心用語の区別に重大な混同があり、電力分野では送電と配電の境界が不正確に説明されている。",
+  "findings": [
+    {
+      "id": "F001",
+      "location": "語義6「Python packagingにおける配布パッケージ」",
+      "severity": "high",
+      "description": "distribution packageを、pipで指定するプロジェクト名・インストール対象の論理的単位として主に定義し、バージョン付き配布ファイルを副次的用法としている。しかしPython packagingの標準的な用語整理では、distribution packageは通常、あるreleaseを具現化したバージョン付き配布アーカイブ（sdistやwheel）を指す。`pip install Pillow`のような指定に現れる名前は、まずプロジェクト／distributionの名前であり、解決された一つ以上の配布ファイルそのものとは区別すべきである。",
+      "reason": "記事はproject、release、distribution package、distribution archiveを区別しようとしているが、その中心定義で論理名と物理的配布物を混同している。さらにsource distributionとbuilt distributionを「distribution packageとは別の配布形式」のように並べており、実際にはそれらがdistribution packageの主要な形式であるという包含関係が見えにくい。学習者は、要求指定の名前、リリース、解決・取得されるwheelやsdist、インストール後のdistribution metadataを同一物として一般化するおそれがある。",
+      "suggested_direction": "projectを開発対象、releaseを特定バージョン、distribution packageをreleaseを配布するバージョン付きアーカイブ、source distributionとbuilt distributionをその形式、installed distributionをインストール後に認識される対象として整理する。`pip install NAME`ではNAMEがプロジェクト／distribution名を識別し、pipが環境に適合するwheelやsdistを選択する、と説明する。用語資料による揺れを扱う場合も、論理名と配布ファイルの区別を先に明示する。",
+      "scope_anchors": [
+        {
+          "id": "F001-A1",
+          "exact_quote": "Python packaging で、distribution package は、pip install などで指定するインストール可能な software/project の名前・単位を指すことが多い。PyPAでは、特定バージョンを含む一つの配布ファイルを指す用法もある。",
+          "location_hint": "語義6の【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "F001-A2",
+          "exact_quote": "用語を区別する場合は project を開発対象、release を特定バージョンのスナップショット、source distribution（sdist）と built distribution（通常はwheel）を配布形式、distribution archive をその物理ファイル、installed distribution をインストール済み対象のメタデータとして扱う。",
+          "location_hint": "語義6の【日本語訳・定義】"
+        },
+        {
+          "id": "F001-A3",
+          "exact_quote": "用途: Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。",
+          "location_hint": "語義6のコロケーション「a distribution package」"
+        },
+        {
+          "id": "F001-A4",
+          "exact_quote": "用途: distribution packageを環境へインストールしたり、依存関係として要求したりすることを表す。project名・package名の単位を指す文脈で使う。",
+          "location_hint": "語義6のコロケーション「install/require a distribution package」"
+        },
+        {
+          "id": "F001-A5",
+          "exact_quote": "projectは開発対象、releaseは特定バージョン、distribution packageはインストール対象または文脈によりその配布単位、source/built distributionは配布artifactの形式、distribution archiveは特定の物理ファイルを強調する呼び方、installed distributionはインストール済み対象のメタデータを扱う呼び方である。",
+          "location_hint": "語義6の【語法・注意】"
+        }
+      ],
+      "evidence_link_ids": [
+        "EL1-CF-F001",
+        "EL2-CF-F001"
+      ]
+    },
+    {
+      "id": "F002",
+      "location": "語義3「流通、供給、配給・配電・配水」",
+      "severity": "medium",
+      "description": "電力distributionを発電所または一般的な「供給源」から利用者まで届ける工程として説明しており、送電と配電の境界を曖昧にしている。",
+      "reason": "一般的な電力系統では、発電所から高電圧で基幹系統・変電所へ運ぶ段階はtransmission（送電）であり、distribution（配電）は通常、配電用変電所から需要家へ至る中低圧側の工程を指す。分散型電源が配電網へ直接接続される反例はあるが、それを理由に発電所からの全区間を配電と説明することはできない。記事の記述では、学習者がelectricity distribution networkを送電網まで含む語として一般化しかねない。",
+      "suggested_direction": "電力については、通常は送電系統または配電用変電所から需要家へ届ける下流工程がdistributionであり、発電所から変電所までの高電圧輸送はtransmissionと呼ぶ、と境界を明示する。分散型電源など例外的な接続形態があることは必要に応じて補足する。",
+      "scope_anchors": [
+        {
+          "id": "F002-A1",
+          "exact_quote": "ビジネス・インフラで、商品・コンテンツや電気・ガス・水などを、生産者・供給源から市場、小売店、利用者・需要地点へ届ける流通・供給・配給・配電・配水の活動、過程、事業領域。",
+          "location_hint": "語義3の【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "F002-A2",
+          "exact_quote": "用途: 電気を供給源から利用者へ届ける配電網を表す。",
+          "location_hint": "語義3のコロケーション「an electricity distribution system/network」"
+        },
+        {
+          "id": "F002-A3",
+          "exact_quote": "用途: 発電所や変電所から利用者へ電力を届ける配電網を表す。",
+          "location_hint": "語義3のコロケーション「an electricity distribution grid」"
+        }
+      ],
+      "evidence_link_ids": [
+        "EL1-CF-F002",
+        "EL2-CF-F002"
+      ]
+    }
+  ]
+}

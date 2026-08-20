@@ -35,7 +35,7 @@
 }
 ```
 
-semantic gateのない旧監査を互換読み込みする場合も、`checked` / `final` の根拠にはできない。見逃しが判明した旧PASSは `audits/review_invalidations.json` に本文ハッシュ付きで登録し、本文を変えなくても `needs_review`、checked `false` へ戻す。次回審査ではv2 gateを必須とする。
+semantic gateのない旧監査を互換読み込みする場合も、`checked` / `final` の根拠にはできない。見逃しが判明した旧PASSは `audits/review_invalidations.json` に本文ハッシュ付きで登録し、本文を変えなくても `needs_review`、checked `false` へ戻す。本文を修正した後も記録は削除せず、`superseded` と修正版本文ハッシュを記録する。次回審査ではv2 gateを必須とする。
 
 ## コールドレビューfindingから意味制約を作る
 

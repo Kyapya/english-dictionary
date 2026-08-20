@@ -1,0 +1,287 @@
+{
+  "stage": "final_blind",
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "distribution",
+      "frame": "distribution of <goods/resources/information> to <recipient>; distribution of <goods/resources> among <recipients>; for distribution to/among <recipients>",
+      "meaning": "物・資金・情報などを複数の受け手へ分けて渡す行為・過程、または一回の配布。",
+      "disposition": "included",
+      "article_target_locator": "語義1「分配、配布、配給」",
+      "rationale": "一般的で生産性の高い中心義。toとamongの役割、および主に不可算だが一回の出来事を可算化できる点が重要。",
+      "semantic_assertions": [
+        {
+          "id": "IC-01-A1",
+          "statement": "distribution of X to/among Y は、Xを受け手Yへ分けて渡す行為または過程を表し得る。",
+          "polarity": "must_hold",
+          "scope": "語義1の定義、文法パターン、用例"
+        },
+        {
+          "id": "IC-01-A2",
+          "statement": "amongを用いたdistributionは、それだけでは均等な分配を含意しない。",
+          "polarity": "must_hold",
+          "scope": "語義1のamongフレームと語法説明"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "distribution",
+      "frame": "distribution of <entity/quantity> across/over/within <domain>; distribution by <category>; even/uneven distribution",
+      "meaning": "人・物・量が空間、集団、時間、身体などにどう広がり配置されているかという状態・パターン。",
+      "disposition": "included",
+      "article_target_locator": "語義2「分布、配置、分配のあり方」の一般・地理・社会・医学・言語学部分",
+      "rationale": "人為的な配布行為とは異なる主要義。地理、生物、所得、重量、言語環境、薬物動態、解剖学へ生産的に拡張される。",
+      "semantic_assertions": [
+        {
+          "id": "IC-02-A1",
+          "statement": "この語義は対象が領域内でどこにどの程度存在するかという配置または広がり方を焦点化する。",
+          "polarity": "must_hold",
+          "scope": "語義2の定義、コロケーション、語法説明"
+        },
+        {
+          "id": "IC-02-A2",
+          "statement": "地理的・生物学的・解剖学的distributionに人間の配布者を必須条件としてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義2と語義1の境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "a distribution",
+      "frame": "a <normal/probability/frequency> distribution; X follows/has a distribution; sample/draw observations from a distribution",
+      "meaning": "統計・確率で、値や範囲に頻度または確率がどう対応するかを表す数学的分布。",
+      "disposition": "included",
+      "article_target_locator": "語義2の統計・確率部分",
+      "rationale": "可算性と統語フレームが一般的な空間分布から明確に専門化しており、学習価値が高い。",
+      "semantic_assertions": [
+        {
+          "id": "IC-03-A1",
+          "statement": "probability distributionは値または値の集合への確率の割当てを表す数学的対象である。",
+          "polarity": "must_hold",
+          "scope": "語義2の統計定義とprobability distributionの説明"
+        },
+        {
+          "id": "IC-03-A2",
+          "statement": "sample observations from a distributionではdistributionが標本を生成する確率モデルまたは母分布として解釈される。",
+          "polarity": "must_hold",
+          "scope": "語義2のsample/drawフレーム"
+        },
+        {
+          "id": "IC-03-A3",
+          "statement": "確率分布を解析学の超関数と同一の語義として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義2と語義7の境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "distribution",
+      "frame": "distribution of <products/content> in <market>; distribution through <channel>; handle distribution; distribution rights/channel/network",
+      "meaning": "商品やコンテンツを市場、小売店、利用者へ届ける流通・配給の活動、仕組み、事業領域。",
+      "disposition": "included",
+      "article_target_locator": "語義3「流通、供給、配給・配電・配水」の商業・メディア部分",
+      "rationale": "個別のdeliveryではなく、市場供給の経路や事業全体を表す確立したビジネス用法。",
+      "semantic_assertions": [
+        {
+          "id": "IC-04-A1",
+          "statement": "商業上のdistributionは製品またはコンテンツを市場へ供給する経路・活動・仕組みを表し得る。",
+          "polarity": "must_hold",
+          "scope": "語義3の商業定義、文法パターン、用例"
+        },
+        {
+          "id": "IC-04-A2",
+          "statement": "商業上のdistributionを一件の荷物のdeliveryと無条件に同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義3のdeliveryとの対照"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "distribution",
+      "frame": "distribution of <electricity/gas/water> through <network>; electricity/water distribution system/grid",
+      "meaning": "電気・ガス・水などを需要地点または利用者へ届ける供給・配電・配水。",
+      "disposition": "included",
+      "article_target_locator": "語義3の公共インフラ部分",
+      "rationale": "商業流通と共通する供給概念を持つ一方、特に電力ではtransmissionとの専門的境界が重要。",
+      "semantic_assertions": [
+        {
+          "id": "IC-05-A1",
+          "statement": "電力分野のdistributionは送電系統の下流で需要家へ電力を届ける段階を表す。",
+          "polarity": "must_hold",
+          "scope": "語義3の電力定義、用例、語法説明"
+        },
+        {
+          "id": "IC-05-A2",
+          "statement": "electricity distributionを発電所からの長距離高圧transmissionと同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義3におけるdistributionとtransmissionの境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "a distribution",
+      "frame": "make a distribution to <recipient>; receive a distribution from <fund/trust/estate/account>; a <cash/annual/final> distribution",
+      "meaning": "金融・信託・相続・退職口座などから受取人へ資産を移すこと、または支払われる一回分の金額・取り分。",
+      "disposition": "included",
+      "article_target_locator": "語義4「金融・法律上の分配、分配金」",
+      "rationale": "可算の支払額という結果義が強く、一般的な配布行為や会社配当だけに限定されない。",
+      "semantic_assertions": [
+        {
+          "id": "IC-06-A1",
+          "statement": "金融・法律上のa distributionは一回の資産移転またはその支払額・取り分を表し得る。",
+          "polarity": "must_hold",
+          "scope": "語義4の定義、文法パターン、用例"
+        },
+        {
+          "id": "IC-06-A2",
+          "statement": "金融上のdistributionを常にdividendと訳せるものとして扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義4のdividendとの境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "a Linux/software distribution",
+      "frame": "a <Linux/GNU/Linux/software> distribution; a distribution based on <project/system>; choose/install a distribution",
+      "meaning": "複数のソフトウェア部品を利用可能な一まとまりにした配布版、特にLinux系OSのディストリビューション。",
+      "disposition": "included",
+      "article_target_locator": "語義5「ソフトウェア・ディストリビューション」",
+      "rationale": "可算名詞として確立しており、ソフトウェアを配布する活動とは区別が必要。",
+      "semantic_assertions": [
+        {
+          "id": "IC-07-A1",
+          "statement": "Linux distributionはLinuxカーネルと関連ソフトウェアを組み合わせた導入可能なソフトウェア構成を指す。",
+          "polarity": "must_hold",
+          "scope": "語義5の定義とLinux distributionの用例"
+        },
+        {
+          "id": "IC-07-A2",
+          "statement": "可算のsoftware distributionというソフトウェア一式と、不可算のsoftware distributionという配布活動を無条件に同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義3と語義5の境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "distribution package / distribution / installed distribution",
+      "frame": "build a source/built distribution from <project>; upload/install a distribution package; an installed distribution; metadata/files of a distribution",
+      "meaning": "Python packagingにおける配布アーティファクト、またはインストール済み配布物を表す専門用語。",
+      "disposition": "included",
+      "article_target_locator": "コアイメージの「Pythonの配布パッケージ」と語義6全体",
+      "rationale": "重要な専門用法だが、project名・依存指定、release、versioned archive、installed distributionを区別して記述する必要がある。",
+      "semantic_assertions": [
+        {
+          "id": "IC-08-A1",
+          "statement": "PyPAの厳密な用語法ではdistribution packageはreleaseを配布するversioned archive fileである。",
+          "polarity": "must_hold",
+          "scope": "語義6の中心定義とdistribution package/archiveの区別"
+        },
+        {
+          "id": "IC-08-A2",
+          "statement": "pip installで指定するproject名またはrequirementが、必ず一つの物理的distribution packageファイルそのものを指すとしてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義6の冒頭定義とinstall/requireフレーム"
+        },
+        {
+          "id": "IC-08-A3",
+          "statement": "installed distributionを配布前のsource distributionまたはwheelファイルと同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義6のinstalled distributionの定義と用例"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "a distribution",
+      "frame": "a distribution on <open set>; a <tempered/compactly supported> distribution; a distribution acts on <test function>; derivative/space of distributions",
+      "meaning": "解析学で試験関数空間上の連続線形汎関数として定義される超関数。",
+      "disposition": "included",
+      "article_target_locator": "語義7「数学解析の超関数」",
+      "rationale": "低頻度だが明確に独立した専門義であり、作用方向と確率分布との区別が重要。",
+      "semantic_assertions": [
+        {
+          "id": "IC-09-A1",
+          "statement": "解析学のdistributionは適切な試験関数空間上の連続線形汎関数として扱われる。",
+          "polarity": "must_hold",
+          "scope": "語義7の定義、基本フレーム、用例"
+        },
+        {
+          "id": "IC-09-A2",
+          "statement": "作用関係はdistributionがtest functionに作用する向きで記述されなければならない。",
+          "polarity": "must_hold",
+          "scope": "語義7のacts onフレーム"
+        },
+        {
+          "id": "IC-09-A3",
+          "statement": "tempered distributionを一般のdistributionすべてと同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義7のtempered distributionの説明"
+        }
+      ]
+    },
+    {
+      "id": "IC-10",
+      "surface_form": "distribution list / distribution center / distribution channel / distribution rights",
+      "frame": "fixed or semi-fixed compound headed or modified by distribution",
+      "meaning": "配信先一覧、物流拠点、流通経路、配給・販売権などの定着複合表現。",
+      "disposition": "included",
+      "article_target_locator": "語義1の「distribution list」および語義3の複合語群",
+      "rationale": "学習価値は高いが、distribution単独の追加語義として一括独立させるより、対応する配布・流通義の関連表現として扱うのが適切。",
+      "semantic_assertions": [
+        {
+          "id": "IC-10-A1",
+          "statement": "distribution listはdistributionそのものではなく、配布・配信の宛先一覧を指す複合名詞である。",
+          "polarity": "must_hold",
+          "scope": "語義1のdistribution list"
+        },
+        {
+          "id": "IC-10-A2",
+          "statement": "distribution center/channel/rightsは商業流通義と整合する関連表現として説明されなければならない。",
+          "polarity": "must_hold",
+          "scope": "語義3の複合語群"
+        }
+      ]
+    },
+    {
+      "id": "IC-11",
+      "surface_form": "distribution of type",
+      "frame": "historical printing use",
+      "meaning": "活字を使用後にケースへ戻す歴史的な印刷用法。",
+      "disposition": "excluded",
+      "article_target_locator": "専用項目なし（現状の省略を維持）",
+      "rationale": "現代の一般学習辞書で優先すべき用法ではなく、主要義目録へ加えると過剰収録になる。",
+      "semantic_assertions": [
+        {
+          "id": "IC-11-A1",
+          "statement": "歴史的な印刷用法をdistributionの現代的な一般義として一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "記事全体の語義目録とコアイメージ"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "AF-01",
+      "location": "コアイメージの「Pythonの配布パッケージ」、語義6の冒頭定義、distribution package/archiveに関するコロケーションと語法・注意",
+      "severity": "major",
+      "description": "Python packagingのdistribution packageを主として「pip installで指定するsoftware/projectの名前・単位」と定義し、versioned archive fileというPyPAの厳密な意味を副次的な用法としている一方、distribution archiveだけを物理ファイルとして区別している。この整理はprojectまたはrequirementの識別名、release、distribution package、source/built distribution、archive、installed distributionの階層を混同させる。",
+      "reason": "pip installの名前指定は一つの物理的配布ファイルを直接指すとは限らず、一つのreleaseに複数形式・複数プラットフォーム向けのdistribution packageがあり得る。現在の説明では、学習者がproject名やインストール対象の論理単位をdistribution packageファイルそのものと誤認し、さらにdistribution packageとdistribution archiveを相互排他的な概念だと誤解する。",
+      "suggested_direction": "語義6の中心定義を用語体系から組み直す。projectは開発・公開対象、releaseは特定バージョン、厳密なdistribution packageはreleaseを配布するversioned archive file、source distributionとbuilt distributionはその主要形式、installed distributionはインストール後にメタデータで認識される対象、と明示する。pip installで名前を指定する場合はproject名またはrequirementから適切なdistribution fileが選択される関係として説明し、該当する例文、コアイメージ、distribution archiveとの対比も一貫して修正する。",
+      "evidence_link_ids": [
+        "EL1-B-AF-01",
+        "EL2-B-AF-01"
+      ]
+    }
+  ],
+  "run_id": "final-cycle006-sartre",
+  "input_body_sha256": "9e1089f1d5c14b844d4969d65b887dcd88b4d353debbdbf1fb6044f03c3bb2b0"
+}

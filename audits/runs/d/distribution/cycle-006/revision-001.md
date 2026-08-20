@@ -1,14 +1,3 @@
----
-headword: distribution
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-06-14
-updated_at: 2026-08-16
-checked: true
-tags: []
----
 
 ＃発音記号
 
@@ -36,15 +25,15 @@ tags: []
 
 ＃コアイメージ
 
-一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を一般化し、試験関数に作用する数学的対象である「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」「試験関数に作用する数学的対象」のどこに置かれるかで日本語訳が変わる。  
+一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を含むより広い作用対象としての「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Pythonの配布パッケージ」「試験関数に作用する数学的対象」のどこに置かれるかで日本語訳が変わる。  
 
 ・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）  
 ・複数の場所・集団・値に広がった状態 → 「分布、配置、分配のあり方」（語義2）  
-・複数の販売地点・利用者へ届ける仕組み・過程 → 「流通、供給、配給・配電・配水」（語義3）  
+・複数の販売地点・顧客へ届く経路としての割り振り → 「流通、供給、配電・配水などの供給網」（語義3）  
 ・受取人へ割り振られた金銭・資産の取り分 → 「金融・法律上の分配、分配金」（語義4）  
 ・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）  
 ・Pythonプロジェクトの配布・インストール単位 → 「Python packagingにおける配布パッケージ」（語義6）  
-・試験関数に作用する数学解析の対象 → 「超関数（一般化関数の一種）」（語義7）  
+・試験関数に作用する数学解析の超関数 → 「一般化関数、超関数」（語義7）  
 
 語義1〜3は固定的に切り分けられるとは限らない。distribution of resources/products/information は、配る行為、配分された状態、流通の仕組みのいずれにも読める。たとえば distribution of food to villages は配給・配布の行為、distribution of products through wholesalers は流通経路・仕組み、geographical distribution of products は配置・分布に焦点がある。対象・動詞・前置詞・ビジネス文脈のどこに焦点があるかで、最も自然な語義が決まる。  
 
@@ -89,6 +78,21 @@ tags: []
 例: Please add the new team members to the distribution list.  
 訳: 新しいチームメンバーを配信先リストに追加してください。  
 
+・send an email to a distribution list  
+用途: 配信先リストに登録された複数の宛先へメールを一斉送信することを表す。  
+例: She sent the announcement to a distribution list.  
+訳: 彼女はその告知を配信先リストへ送った。  
+
+・create a distribution list  
+用途: 一斉送信用の宛先リストを作成することを表す。  
+例: The administrator created a distribution list for the project team.  
+訳: 管理者はプロジェクトチーム用の配信先リストを作成した。  
+
+・remove a member from a distribution list  
+用途: 一斉送信の宛先リストからメンバーを削除することを表す。  
+例: Please remove the former employee from the distribution list.  
+訳: 元従業員を配信先リストから外してください。  
+
 【語法・注意】この語義では distribution は行為・過程を表すため不可算が中心だが、可算性だけで行為か結果かを決めることはできない。a distribution of food は一回の配布活動を表すことがあり、一般の文脈の a distribution は一回の配布、配布された一口、割当物を表すこともある。金融・信託・相続の制度的な支払額・取り分は語義4として区別する。the distribution of wealth は一般的な資源配分の行為にも、富の分布にもなり得る。to は「届け先」、among は複数の受け手の間で分ける範囲を示すが、均等配分を含意しない。均等なら equally among などで明示する。delivery は一つの送り先へ届ける行為にも使えるが、distribution は複数の受け手へ広く配る過程を捉えやすい。  
 
 【類義語】
@@ -116,13 +120,13 @@ tags: []
 
 2. 【名詞・不可算・可算】分布、配置、分配のあり方
 
-【日本語訳・定義】人・物・量が、場所・集団・時間・値の範囲にわたってどのように広がり、配置され、割り振られているかという状態・パターン。統計では、観測値や確率が値の範囲にどう現れるかを表す「分布」もこの用法に含まれる。薬物動態では薬物が血液や組織へ移行して体内に広がる過程、解剖学では神経・血管などの分岐・終末と到達範囲を指す。  
+【日本語訳・定義】人・物・量が、場所・集団・時間・値の範囲にわたってどのように広がり、配置され、割り振られているかという状態・パターン。統計では、観測値や確率が値の範囲にどう現れるかを表す「分布」もこの用法に含まれる。  
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】一般・学術・統計・医学・薬学。地理、生物、人口、所得、重量、データ、薬物の体内移行、神経・血管などの広がり方を述べる。  
+【レジスター/領域】一般・学術・統計。地理、生物、人口、所得、重量、データなどの広がり方を述べる。  
 
-【文法パターン】the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか／the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか／distribution by/according to 〈分類・カテゴリー〉＝…別の分布／distribution within 〈母集団・範囲〉＝…の内部での分布／the distribution of 〈a drug〉 throughout 〈the body/tissues〉＝薬物が…の全体へ広がること／the distribution of 〈a nerve/an artery〉＝神経・動脈の分布・走行範囲／a 〈normal〉 distribution＝正規分布／a 〈probability/frequency〉 distribution＝確率・頻度分布／the distribution of 〈values/scores〉 is skewed＝～の分布は偏っている／X follows/has a 〈normal/probability〉 distribution＝Xは…の分布に従う／〈observations〉 are drawn/sampled from 〈a distribution〉＝観測値を…から抽出する  
+【文法パターン】the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか／the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか／distribution by/according to 〈分類・カテゴリー〉＝…別の分布／distribution within 〈母集団・範囲〉＝…の内部での分布／a 〈normal〉 distribution＝正規分布／a 〈probability/frequency〉 distribution＝確率・頻度分布／the distribution of 〈values/scores〉 is skewed＝～の分布は偏っている／X follows/has a 〈normal/probability〉 distribution＝Xは…の分布に従う／〈observations〉 are drawn/sampled from 〈a distribution〉＝観測値を…から抽出する  
 
 【コロケーション】
 
@@ -186,17 +190,7 @@ tags: []
 例: The distribution of the phoneme is restricted to unstressed syllables.  
 訳: その音素は無強勢音節にしか現れない。  
 
-・the distribution of 〈a drug〉 throughout 〈the body/tissues〉  
-用途: 薬物動態で、薬物が血液から組織へ移行し、体内に広がる過程を表す。  
-例: The study examined the distribution of the drug throughout the body.  
-訳: その研究は薬物が体内全体へ分布する過程を調べた。  
-
-・the distribution of 〈a nerve/an artery〉  
-用途: 解剖学で、神経・動脈などが枝分かれして到達する範囲や走行を表す。  
-例: The diagram shows the distribution of the nerve in the hand.  
-訳: その図は手におけるその神経の分布を示している。  
-
-【語法・注意】一般・統計・解剖学では、空間・社会・数値における結果としての配置や広がり方に焦点があり、人が物を受け手へ配る語義1と区別する。薬物動態では、人為的な配布ではなく、薬物が血液から組織へ移行して体内に広がる過程を指す。distribution of wealth/resources は両義になり得るため、動詞が change/examine/show のように結果の状態を扱うなら語義2の読みが強い。統計では a normal distribution, a probability distribution のように、特定の分布を一つの数学的対象として可算で使う。spread は単に広がりや範囲を表すことが多く、distribution のように「どこにどの程度あるか」という構造全体を必ずしも示さない。  
+【語法・注意】空間・社会・数値の「結果としての並び方」に焦点があり、配る行為そのものを表す語義1と区別する。distribution of wealth/resources は両義になり得るため、動詞が change/examine/show のように結果の状態を扱うなら語義2の読みが強い。統計では a normal distribution, a probability distribution のように、特定の分布を一つの数学的対象として可算で使う。spread は単に広がりや範囲を表すことが多く、distribution のように「どこにどの程度あるか」という構造全体を必ずしも示さない。  
 
 【類義語】
 
@@ -221,13 +215,13 @@ tags: []
 例: The allocation of resources differs across regions.  
 訳: 資源の配分は地域によって異なる。  
 
-3. 【名詞・不可算】流通、供給、配給・配電・配水
+3. 【名詞・不可算】流通、供給、配電・配水などの供給網
 
-【日本語訳・定義】ビジネス・インフラで、商品・コンテンツやガス・水などを生産者・供給源から市場、小売店、利用者・需要地点へ届ける流通・供給・配給・配水、または電気を送電系統との接続点・配電用変電所などから需要家へ届ける配電の活動、過程、事業領域。広い市場・複数地点へ届ける一連の活動に焦点があり、通常の個別配送には delivery を使う。裸の distribution は流通・配電・供給の機能、過程、事業領域を指しやすく、具体的な物理網は distribution network/system/grid などで表す。電力では、発電所から高圧線で長距離輸送する段階は通常 transmission であり、distribution はその下流で需要家へ届ける段階を指す。  
+【日本語訳・定義】ビジネス・インフラで、商品・コンテンツや電気・ガス・水などを、生産者・供給源から市場、小売店、利用者・需要地点へ届けるための流通経路・供給網・仕組み・活動。個別の配送を指す場合もあるが、delivery より、広い市場・複数地点へ届ける経路・仕組み・活動に焦点が置かれやすい。裸の distribution は配電・供給の機能、過程、事業領域を指しやすく、具体的な物理網は distribution network/system/grid などで表す。インフラでは発電・浄水・生産そのものではなく、利用者まで届ける下流の網を指す。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】ビジネス・物流・メディア・公共インフラ。商品、ソフトウェア、書籍、映画などの市場への供給に加え、電力・ガス・水などの供給・配電・配水について使う。映画では「配給」、音楽・ソフトウェアでは「配信・流通」と訳すことがある。  
+【レジスター/領域】ビジネス・物流・メディア・公共インフラ。商品、ソフトウェア、書籍、映画などの市場への供給に加え、電力・ガス・水などの供給網について使う。映画では「配給」、音楽・ソフトウェアでは「配信・流通」と訳すことがある。  
 
 【文法パターン】distribution of 〈products/content〉 in 〈a market〉＝～を…で流通させること／distribution of 〈products/content〉 through 〈a channel〉＝～を…という経路で流通させること／distribution of 〈electricity/gas/water〉 through 〈a network〉＝～を…という供給網で供給すること／handle the distribution of 〈products/content〉＝～の流通を担当する／distribution through 〈a channel〉＝…という経路を通じた流通  
 
@@ -244,9 +238,9 @@ tags: []
 訳: その小売企業はアジア全域に流通網を拡大した。  
 
 ・an electricity distribution system/network  
-用途: 電気を送電系統との接続点・配電用変電所などから需要家へ届ける配電網を表す。  
+用途: 電気を供給源から利用者へ届ける配電網を表す。  
 例: The utility is upgrading its electricity distribution network.  
-訳: その公益事業者は配電網を改修している。  
+訳: その公益事業者は電力供給網を改修している。  
 
 ・a water distribution system/network  
 用途: 水を浄水場などから利用者へ届ける配水網を表す。  
@@ -284,12 +278,12 @@ tags: []
 訳: その出版社はデジタル経路を通じた配信を担当している。  
 
 ・distribution of 〈electricity/gas/water〉 through 〈a network〉  
-用途: ガス・水などを供給源から、または電気を送電系統との接続点・配電用変電所などから、利用者へ供給網を通じて届ける活動を表す。  
+用途: 電気・ガス・水などを供給源から利用者へ供給網を通じて届ける活動を表す。  
 例: The utility manages the distribution of electricity through a regional network.  
-訳: その公益事業者は地域の配電網を通じた電力供給を管理している。  
+訳: その公益事業者は地域の供給網を通じた電力供給を管理している。  
 
 ・an electricity distribution grid  
-用途: 送電系統との接続点・配電用変電所などから需要家へ電力を届ける配電網を表す。  
+用途: 発電所や変電所から利用者へ電力を届ける配電網を表す。  
 例: The utility is modernizing the electricity distribution grid.  
 訳: その公益事業者は電力配電網を近代化している。  
 
@@ -455,6 +449,11 @@ tags: []
 例: A distribution archive contains the files needed to install a release.  
 訳: 配布アーカイブにはリリースのインストールに必要なファイルが含まれている。  
 
+・a distribution package vs. an import package  
+用途: distribution packageというインストール対象と、Pythonコードからimportできるimport packageを対比し、両者の違いを説明する表現。  
+例: The Pillow distribution package provides the PIL import package.  
+訳: Pillow配布パッケージはPIL import packageを提供する。  
+
 ・build a source distribution or wheel from 〈a project〉  
 用途: projectのソースツリーから、配布・インストールに使うsource distributionまたはwheelを作ることを表す。  
 例: The build backend builds a source distribution and a wheel for the release.  
@@ -496,15 +495,15 @@ tags: []
 例: Pillow is a distribution package that provides the PIL import package.  
 訳: PillowはPIL import packageを提供するdistribution packageである。  
 
-7. 【名詞・可算】数学解析の超関数（一般化関数の一種）
+7. 【名詞・可算】数学解析の一般化関数、超関数
 
-【日本語訳・定義】数学解析で、通常の関数として直接扱うことが難しい対象を、試験関数空間上の連続線形汎関数として表す対象。distribution は generalized function（一般化関数）の代表的な一種で、文献によっては generalized function が distribution とほぼ同義に使われることもある。局所可積分関数などは一定の条件のもとでdistributionに埋め込める。確率分布や度数分布とは別の専門用法。  
+【日本語訳・定義】数学解析で、通常の関数として直接扱うことが難しい対象を、試験関数空間上の連続線形汎関数として表す対象。局所可積分関数などは一定の条件のもとでdistributionに埋め込める。確率分布や度数分布とは別の専門用法で、generalized function とも呼ばれる。  
 
 【頻度】〈1/10〉  
 
 【レジスター/領域】数学・解析学・物理数学。一般英語ではまれだが、distribution theory、偏微分方程式、フーリエ解析などで使う。  
 
-【文法パターン】a distribution on 〈an open set〉＝…上の超関数／a 〈tempered/compactly supported〉 distribution＝…超関数／the space of distributions＝超関数の空間／the derivative of 〈a distribution〉＝超関数の導関数／a distribution acts on 〈a test function〉＝超関数が…試験関数に作用する  
+【文法パターン】a distribution on 〈an open set〉＝…上の超関数／a distribution on 〈a space〉＝…上の超関数／a 〈tempered/compactly supported〉 distribution＝…超関数／the space of distributions＝超関数の空間／the derivative of 〈a distribution〉＝超関数の導関数／a distribution acts on 〈a test function〉＝超関数が…試験関数に作用する  
 
 【コロケーション】
 
@@ -512,6 +511,11 @@ tags: []
 用途: 開集合などの領域上で定義される数学解析のdistributionを表す。  
 例: A distribution on an open set acts on test functions.  
 訳: 開集合上の超関数は試験関数に作用する。  
+
+・a distribution on 〈a space〉  
+用途: 関数空間・ベクトル空間など、対象となる空間を明示する。  
+例: The distribution is defined on a space of test functions.  
+訳: その超関数は試験関数の空間上で定義される。  
 
 ・a tempered distribution  
 用途: 急減少する試験関数を扱う空間上で定義されるtempered distributionを表す。  

@@ -1,14 +1,3 @@
----
-headword: distribution
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-06-14
-updated_at: 2026-08-16
-checked: true
-tags: []
----
 
 ＃発音記号
 
@@ -223,7 +212,7 @@ tags: []
 
 3. 【名詞・不可算】流通、供給、配給・配電・配水
 
-【日本語訳・定義】ビジネス・インフラで、商品・コンテンツやガス・水などを生産者・供給源から市場、小売店、利用者・需要地点へ届ける流通・供給・配給・配水、または電気を送電系統との接続点・配電用変電所などから需要家へ届ける配電の活動、過程、事業領域。広い市場・複数地点へ届ける一連の活動に焦点があり、通常の個別配送には delivery を使う。裸の distribution は流通・配電・供給の機能、過程、事業領域を指しやすく、具体的な物理網は distribution network/system/grid などで表す。電力では、発電所から高圧線で長距離輸送する段階は通常 transmission であり、distribution はその下流で需要家へ届ける段階を指す。  
+【日本語訳・定義】ビジネス・インフラで、商品・コンテンツや電気・ガス・水などを、生産者・供給源から市場、小売店、利用者・需要地点へ届ける流通・供給・配給・配電・配水の活動、過程、事業領域。広い市場・複数地点へ届ける一連の活動に焦点があり、通常の個別配送には delivery を使う。裸の distribution は配電・供給の機能、過程、事業領域を指しやすく、具体的な物理網は distribution network/system/grid などで表す。インフラでは発電・浄水・生産そのものではなく、利用者まで届ける下流工程を指す。  
 
 【頻度】〈7/10〉  
 
@@ -244,9 +233,9 @@ tags: []
 訳: その小売企業はアジア全域に流通網を拡大した。  
 
 ・an electricity distribution system/network  
-用途: 電気を送電系統との接続点・配電用変電所などから需要家へ届ける配電網を表す。  
+用途: 電気を供給源から利用者へ届ける配電網を表す。  
 例: The utility is upgrading its electricity distribution network.  
-訳: その公益事業者は配電網を改修している。  
+訳: その公益事業者は電力供給網を改修している。  
 
 ・a water distribution system/network  
 用途: 水を浄水場などから利用者へ届ける配水網を表す。  
@@ -284,12 +273,12 @@ tags: []
 訳: その出版社はデジタル経路を通じた配信を担当している。  
 
 ・distribution of 〈electricity/gas/water〉 through 〈a network〉  
-用途: ガス・水などを供給源から、または電気を送電系統との接続点・配電用変電所などから、利用者へ供給網を通じて届ける活動を表す。  
+用途: 電気・ガス・水などを供給源から利用者へ供給網を通じて届ける活動を表す。  
 例: The utility manages the distribution of electricity through a regional network.  
-訳: その公益事業者は地域の配電網を通じた電力供給を管理している。  
+訳: その公益事業者は地域の供給網を通じた電力供給を管理している。  
 
 ・an electricity distribution grid  
-用途: 送電系統との接続点・配電用変電所などから需要家へ電力を届ける配電網を表す。  
+用途: 発電所や変電所から利用者へ電力を届ける配電網を表す。  
 例: The utility is modernizing the electricity distribution grid.  
 訳: その公益事業者は電力配電網を近代化している。  
 

@@ -20,6 +20,7 @@ from content_audit import (  # noqa: E402
     extract_relations,
     extract_targets,
     seal_blind_review,
+    validate_invalidation_registry,
     validate_manifest,
 )
 
@@ -463,6 +464,34 @@ class ContentAuditTests(unittest.TestCase):
     def test_complete_three_party_manifest_passes(self) -> None:
         self._write(self._complete_manifest())
         self.assertEqual(validate_manifest(self.entry, self.audit, self.root), [])
+
+    def test_superseded_invalidation_preserves_old_body_hash(self) -> None:
+        registry = self.root / "audits" / "review_invalidations.json"
+        registry.write_text(
+            json.dumps(
+                {
+                    "schema_version": "review_invalidations_v1",
+                    "invalidations": [
+                        {
+                            "entry_path": "entries/s/sample.md",
+                            "body_sha256": "a" * 64,
+                            "status": "superseded",
+                            "invalidated_at": "2026-08-16T12:00:00Z",
+                            "reason": "A legacy PASS escaped a semantic defect.",
+                            "defect_categories": [
+                                "cross_section_internal_contradiction"
+                            ],
+                            "superseded_at": "2026-08-16T13:00:00Z",
+                            "superseded_by_body_sha256": content_audit.body_sha256(
+                                self.entry
+                            ),
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        self.assertEqual(validate_invalidation_registry(self.root), [])
 
     def test_missing_final_target_is_rejected(self) -> None:
         manifest = self._complete_manifest()
