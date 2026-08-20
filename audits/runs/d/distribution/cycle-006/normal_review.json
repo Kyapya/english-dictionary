@@ -1,0 +1,3090 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-cycle006-boyle",
+  "input_body_sha256": "9e1089f1d5c14b844d4969d65b887dcd88b4d353debbdbf1fb6044f03c3bb2b0",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "distribution; the distribution of X to/among Y",
+      "frame": "the distribution of 〈goods/money/information〉 to 〈recipients〉; the distribution of 〈resources/profits〉 among 〈members〉; for distribution to/among 〈recipients〉",
+      "meaning": "物・資金・情報を複数の受け手へ配る行為・過程、および一回の配布。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "usage_note:001"
+      ],
+      "rationale": "最も基本的な行為・過程義で、不可算中心の用法と可算化、to/amongの役割が語義1に十分収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-01",
+        "EL2-N-NC-01"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "distribution across/within an area or group; even/uneven distribution",
+      "frame": "the distribution of 〈people/species/resources〉 across/within 〈an area/a population〉; an even/uneven distribution of X",
+      "meaning": "人・物・量が空間・集団・時間にどう広がり配置されているかという状態・パターン。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "usage_note:002"
+      ],
+      "rationale": "一般、地理、生態、社会的な分布義が語義2の中心として収録され、語義1の意図的配布と区別されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-02",
+        "EL2-N-NC-02"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "a normal/probability/frequency distribution; a skewed distribution",
+      "frame": "X follows/has a 〈normal/probability〉 distribution; sample 〈observations〉 from a distribution; the distribution of 〈values〉 is skewed",
+      "meaning": "統計・確率で、値・頻度・確率の現れ方を表す分布。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:002",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "usage_note:002"
+      ],
+      "rationale": "主要な統計義で、可算性、分布形、抽出フレームまで語義2に具体的に収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-03",
+        "EL2-N-NC-03"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "the distribution of a phoneme/word/morpheme",
+      "frame": "the distribution of 〈a phoneme/a word/a morpheme〉 in/across 〈linguistic environments〉",
+      "meaning": "言語単位が現れる位置・環境・用例範囲。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:002",
+        "register:002",
+        "collocation:017"
+      ],
+      "rationale": "言語学で確立した専門化であり、自然な中心例とともに語義2へ統合されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-04",
+        "EL2-N-NC-04"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "drug distribution",
+      "frame": "the distribution of 〈a drug〉 throughout 〈the body/tissues〉",
+      "meaning": "薬物動態で、薬物が血液から組織へ移行し体内に広がる過程。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:002",
+        "register:002",
+        "grammar_pattern:008",
+        "collocation:018",
+        "usage_note:002"
+      ],
+      "rationale": "ADMEの過程義として明示され、結果状態および人為的配布との違いも説明されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-05",
+        "EL2-N-NC-05"
+      ]
+    },
+    {
+      "id": "NC-06",
+      "surface_form": "the distribution of a nerve/an artery",
+      "frame": "the distribution of 〈a nerve/an artery〉",
+      "meaning": "解剖学で、神経・血管の分岐、終末、走行、到達範囲。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:002",
+        "register:002",
+        "grammar_pattern:009",
+        "collocation:019",
+        "usage_note:002"
+      ],
+      "rationale": "確立した解剖学用法で、状態・配置義の専門化として語義2に収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-06",
+        "EL2-N-NC-06"
+      ]
+    },
+    {
+      "id": "NC-07",
+      "surface_form": "product/content distribution; distribution channel/network/rights",
+      "frame": "distribution of 〈products/content〉 in 〈a market〉 or through 〈a channel〉; handle the distribution of X",
+      "meaning": "商品・コンテンツを市場や利用者へ届ける商業流通・配給・配信。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "collocation:020",
+        "collocation:021",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029",
+        "usage_note:003"
+      ],
+      "rationale": "商業・メディアの主要義で、個別配送deliveryおよび広いlogisticsとの境界を含めて収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-07",
+        "EL2-N-NC-07"
+      ]
+    },
+    {
+      "id": "NC-08",
+      "surface_form": "electricity/gas/water distribution; distribution grid/system/network",
+      "frame": "distribution of 〈electricity/gas/water〉 through 〈a network〉; an electricity/water distribution system",
+      "meaning": "ガス・水の供給、および送電系統との接続点・配電用変電所から需要家までの配電。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "register:003",
+        "grammar_pattern:017",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:030",
+        "collocation:031"
+      ],
+      "rationale": "公共インフラ用法が語義3に収録され、電力では発電所からの長距離高圧輸送transmissionと下流のdistributionが明確に分離されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-08",
+        "EL2-N-NC-08"
+      ]
+    },
+    {
+      "id": "NC-09",
+      "surface_form": "a cash/fund/trust/estate/account distribution",
+      "frame": "make a distribution to 〈investors/beneficiaries〉; receive a distribution from 〈a fund/a trust/an estate/an account〉",
+      "meaning": "金融・信託・相続・退職口座等からの資金・資産の分配または分配金。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "grammar_pattern:025",
+        "grammar_pattern:026",
+        "grammar_pattern:027",
+        "collocation:032",
+        "collocation:033",
+        "collocation:034",
+        "collocation:035",
+        "collocation:036",
+        "usage_note:004"
+      ],
+      "rationale": "可算の支払額と不可算の分配行為を含む金融・法務義が語義4に明確に収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-09",
+        "EL2-N-NC-09"
+      ]
+    },
+    {
+      "id": "NC-10",
+      "surface_form": "distribution list",
+      "frame": "add/remove someone to/from a distribution list; send a message to a distribution list",
+      "meaning": "メール等の一斉送信先をまとめた配信先リスト。",
+      "disposition": "included",
+      "article_target_ids": [
+        "collocation:005"
+      ],
+      "rationale": "distribution単独の中心義ではない定着複合語として、一項目に限定して関連表現扱いされている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-10",
+        "EL2-N-NC-10"
+      ]
+    },
+    {
+      "id": "NC-11",
+      "surface_form": "a Linux/software distribution; distro",
+      "frame": "a Linux distribution; a distribution based on 〈a system/a project〉; choose/install a distribution",
+      "meaning": "OSや関連ソフトウェアを導入可能な一まとまりにした配布版。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:028",
+        "grammar_pattern:029",
+        "grammar_pattern:030",
+        "collocation:037",
+        "collocation:038",
+        "collocation:039",
+        "collocation:040",
+        "usage_note:005",
+        "synonym:013"
+      ],
+      "rationale": "現代ITで確立した可算用法で、Linux以外への適用範囲と略語distroも収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-11",
+        "EL2-N-NC-11"
+      ]
+    },
+    {
+      "id": "NC-12",
+      "surface_form": "distribution package; source/built distribution; distribution archive; installed distribution",
+      "frame": "install/require a distribution package; build a source distribution or wheel; upload a distribution archive; inspect an installed distribution",
+      "meaning": "Python packagingにおけるインストール対象名・単位、バージョン付き配布物、配布形式、物理ファイル、インストール済み対象。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:031",
+        "grammar_pattern:032",
+        "grammar_pattern:033",
+        "grammar_pattern:034",
+        "grammar_pattern:035",
+        "grammar_pattern:036",
+        "grammar_pattern:037",
+        "collocation:041",
+        "collocation:042",
+        "collocation:043",
+        "collocation:044",
+        "collocation:045",
+        "collocation:046",
+        "collocation:047",
+        "collocation:048",
+        "collocation:049",
+        "collocation:050",
+        "usage_note:006",
+        "synonym:014"
+      ],
+      "rationale": "PyPAで併存するproject-levelのinstallable software用法とversioned file用法を明示し、project、release、archive、installed distribution、import packageを正確に区別している。",
+      "evidence_link_ids": [
+        "EL1-N-NC-12",
+        "EL2-N-NC-12"
+      ]
+    },
+    {
+      "id": "NC-13",
+      "surface_form": "a distribution; a tempered distribution",
+      "frame": "a distribution on 〈an open set〉; a distribution acts on 〈a test function〉; the derivative/space of distributions",
+      "meaning": "数学解析で、所定の試験関数空間上の連続線形汎関数として定義される超関数。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:007",
+        "definition:007",
+        "grammar_pattern:038",
+        "grammar_pattern:039",
+        "grammar_pattern:040",
+        "grammar_pattern:041",
+        "grammar_pattern:042",
+        "collocation:051",
+        "collocation:052",
+        "collocation:053",
+        "collocation:054",
+        "collocation:055",
+        "usage_note:007",
+        "synonym:015"
+      ],
+      "rationale": "低頻度だが確立した数学用語で、open set、test function、tempered distribution等の標準フレームに限定して収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-13",
+        "EL2-N-NC-13"
+      ]
+    },
+    {
+      "id": "NC-14",
+      "surface_form": "distribute; distributor; distributional; distributive; redistribution; distributed",
+      "frame": "major derived and related forms of distribution/distribute",
+      "meaning": "分配・分布・流通に関する主要派生語、関連形、分詞形容詞。",
+      "disposition": "included",
+      "article_target_ids": [
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003",
+        "word_formation:004",
+        "word_formation:005",
+        "word_formation:006",
+        "word_formation:007",
+        "word_formation:008"
+      ],
+      "rationale": "主要な品詞転換・派生形が品詞、意味、専門領域を伴って語形成欄に収録されている。",
+      "evidence_link_ids": [
+        "EL1-N-NC-14",
+        "EL2-N-NC-14"
+      ]
+    },
+    {
+      "id": "NC-15",
+      "surface_form": "distribution of controlled substances; a securities distribution",
+      "frame": "illegal distribution of 〈a controlled substance〉; public distribution of 〈securities〉",
+      "meaning": "特定法域での規制薬物の譲渡・流通、または証券の公衆への売出し。",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "rationale": "実在するが法域依存性が高く英語全体では低頻度で、一般学習者向け記事に制度説明なしで加えると誤解を招くため除外する。",
+      "evidence_link_ids": [
+        "EL1-N-NC-15",
+        "EL2-N-NC-15"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "status": "pass",
+      "notes": "発音記号・音節・強勢・米英表記差を個別照合し、記号と説明が一致している。対象: 発音表記における /ə/ と /ɪ/ の差は、弱化の実現や辞書ごとの表記方針も反映しうるため、単純な米英差として断定しない。",
+      "evidence_link_ids": [
+        "EL1-T-pronunciation:001",
+        "EL2-T-pronunciation:001"
+      ],
+      "id": "pronunciation:001"
+    },
+    {
+      "status": "pass",
+      "notes": "発音記号・音節・強勢・米英表記差を個別照合し、記号と説明が一致している。対象: 米: /ˌdɪstrəˈbjuːʃən/（/ˌdɪstrɪˈbjuːʃən/ とする表記もある）｜英: /ˌdɪstrɪˈbjuːʃən/",
+      "evidence_link_ids": [
+        "EL1-T-pronunciation:002",
+        "EL2-T-pronunciation:002"
+      ],
+      "id": "pronunciation:002"
+    },
+    {
+      "status": "pass",
+      "notes": "発音記号・音節・強勢・米英表記差を個別照合し、記号と説明が一致している。対象: 資料によって米語の第2音節を /ə/ または /ɪ/ と表記するが、これは辞書の表記方針や弱化の実現を地域差そのものと同一視しない方がよい。米主表記と米代替・英表記の差は第2音節の母音だけで、他の音節と強勢位置は同じである。ここで示した表記では4音節として数え、第3音節 /ˈbjuː/ に主強勢がある。辞書では第1音節 /ˌdɪs/ に第二強勢が示されること…",
+      "evidence_link_ids": [
+        "EL1-T-pronunciation:003",
+        "EL2-T-pronunciation:003"
+      ],
+      "id": "pronunciation:003"
+    },
+    {
+      "status": "pass",
+      "notes": "語源の起源・形成・現在義への接続と同語源関係を確認し、断定範囲が適切である。対象: 14世紀半ばに英語に入ったとされ、古フランス語 distribution とラテン語 distributio「分配、分割」にさかのぼる。初出年代やフランス語・ラテン語の関係は資料により記述に幅がある。ラテン語 distribuere「分けて配る」は dis-「別々に」と tribuere「割り当てる、与える」から成り、「一つのものを複数へ割り振る」という発想…",
+      "evidence_link_ids": [
+        "EL1-T-etymology:001",
+        "EL2-T-etymology:001"
+      ],
+      "id": "etymology:001"
+    },
+    {
+      "status": "pass",
+      "notes": "語源の起源・形成・現在義への接続と同語源関係を確認し、断定範囲が適切である。対象: 同じラテン語 tribuere を含む語に contribute「共同の目的に資金・労力などを寄与する、貢献する」と attribute「～のせいだと考える、～に帰する」がある。",
+      "evidence_link_ids": [
+        "EL1-T-etymology:002",
+        "EL2-T-etymology:002"
+      ],
+      "id": "etymology:002"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・distribute：動詞。「配る、分配する」「広く配置する」「商品を流通させる」。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:001",
+        "EL2-T-word_formation:001"
+      ],
+      "id": "word_formation:001"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・distributor：名詞。主要義は商品を小売店・顧客などへ供給する「販売業者、流通業者」だが、文脈により配布者・分配装置を指す。自動車では点火装置の「ディストリビューター」を指すこともある。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:002",
+        "EL2-T-word_formation:002"
+      ],
+      "id": "word_formation:002"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・distributional：形容詞。「分布・分布上の、分配に関する」。統計・言語学などで、分布そのものに関わる性質を表す。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:003",
+        "EL2-T-word_formation:003"
+      ],
+      "id": "word_formation:003"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・distributive：形容詞。「分配的な、各対象に分ける性質を持つ」。数学や文法などで分配する関係・機能を表し、distributive law「分配法則」や distributive pronoun「配分代名詞」のように使う。経済・政治・倫理では分配に関する意で、distributive justice のような共起では公平性・正義に関わる。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:004",
+        "EL2-T-word_formation:004"
+      ],
+      "id": "word_formation:004"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・redistribution：名詞。「再分配」。wealth/income redistribution のように資源・所得を配り直す文脈で使う。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:005",
+        "EL2-T-word_formation:005"
+      ],
+      "id": "word_formation:005"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・redistribute：動詞。「再分配する」。redistribute resources/income のように、いったん配分された資源を別の受け手へ配り直す。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:006",
+        "EL2-T-word_formation:006"
+      ],
+      "id": "word_formation:006"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・redistributive：形容詞。「再分配の、再分配を促す」。redistributive policy/measure のように使う。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:007",
+        "EL2-T-word_formation:007"
+      ],
+      "id": "word_formation:007"
+    },
+    {
+      "status": "pass",
+      "notes": "派生形の品詞、意味、専門領域またはレジスターを確認し、見出し語との関係が正確である。対象: ・distributed：distribute の過去形・過去分詞。形容詞的には、一般に「分布した、配分された」、ITでは「複数のコンピューター等に処理・データが分散した」の意で用いる。distributed system は複数の計算主体がネットワークを介して連携し、全体として一つのシステムのように機能する構成を指す。",
+      "evidence_link_ids": [
+        "EL1-T-word_formation:008",
+        "EL2-T-word_formation:008"
+      ],
+      "id": "word_formation:008"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: 一つのまとまりを複数の受け手・場所・経路へ配ること、または人為的な配分を伴わずに、物・生物・数値などがどのように広がっているかを捉える語。数学では、通常の関数を一般化し、試験関数に作用する数学的対象である「超関数」へ意味が専門化する。焦点が「配る行為」「広がった配置」「市場へ届ける仕組み」「配られた取り分」「配布単位としてまとめられたソフトウェア構成」「Py…",
+      "evidence_link_ids": [
+        "EL1-T-core_image:001",
+        "EL2-T-core_image:001"
+      ],
+      "id": "core_image:001"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・複数の受け手へ割り振る行為 → 「分配、配布、配給」（語義1）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:002",
+        "EL2-T-core_image:002"
+      ],
+      "id": "core_image:002"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・複数の場所・集団・値に広がった状態 → 「分布、配置、分配のあり方」（語義2）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:003",
+        "EL2-T-core_image:003"
+      ],
+      "id": "core_image:003"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・複数の販売地点・利用者へ届ける仕組み・過程 → 「流通、供給、配給・配電・配水」（語義3）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:004",
+        "EL2-T-core_image:004"
+      ],
+      "id": "core_image:004"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・受取人へ割り振られた金銭・資産の取り分 → 「金融・法律上の分配、分配金」（語義4）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:005",
+        "EL2-T-core_image:005"
+      ],
+      "id": "core_image:005"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・ソフトウェア群を一まとまりとして利用者へ配る単位 → 「ソフトウェア・ディストリビューション」（語義5）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:006",
+        "EL2-T-core_image:006"
+      ],
+      "id": "core_image:006"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・Pythonプロジェクトの配布・インストール単位 → 「Python packagingにおける配布パッケージ」（語義6）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:007",
+        "EL2-T-core_image:007"
+      ],
+      "id": "core_image:007"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: ・試験関数に作用する数学解析の対象 → 「超関数（一般化関数の一種）」（語義7）",
+      "evidence_link_ids": [
+        "EL1-T-core_image:008",
+        "EL2-T-core_image:008"
+      ],
+      "id": "core_image:008"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージと該当語義の意味展開・境界を照合し、過剰な一般化や語義番号の不整合がない。対象: 語義1〜3は固定的に切り分けられるとは限らない。distribution of resources/products/information は、配る行為、配分された状態、流通の仕組みのいずれにも読める。たとえば distribution of food to villages は配給・配布の行為、distribution of products throu…",
+      "evidence_link_ids": [
+        "EL1-T-core_image:009",
+        "EL2-T-core_image:009"
+      ],
+      "id": "core_image:009"
+    },
+    {
+      "status": "pass",
+      "notes": "記事全体に適用される説明として範囲と限定を確認し、学習者を誤導しない。対象: 以下の頻度スコアは、英語全体での遭遇頻度を厳密に測定した統計値ではなく、語義・用法ごとに学習辞書、一般辞書、用例・コーパス資料での出現範囲を照合した記事内の目安である。語義間・類義語間で厳密に比較できる尺度ではなく、専門領域内での頻度と英語全体の頻度を直接比較するものでもない。",
+      "evidence_link_ids": [
+        "EL1-T-narrative:001",
+        "EL2-T-narrative:001"
+      ],
+      "id": "narrative:001"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 1. 【名詞・主に不可算】分配、配布、配給",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:001",
+        "EL2-T-sense_boundary:001"
+      ],
+      "id": "sense_boundary:001"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: 物・資金・情報などを受け手へ分けて渡す、配る、届ける行為または過程。一般の配布では通常、複数の受け手・地点を想定する。可算の a distribution は、一回・一件として区切られた配布や、非金融の文脈で配られた一口・割当物を表すこともある。金融・信託・相続における制度的な支払額・取り分は語義4で扱う。個々の配分・配布行為に焦点があり、販売・物流の仕組み…",
+      "evidence_link_ids": [
+        "EL1-T-definition:001",
+        "EL2-T-definition:001"
+      ],
+      "id": "definition:001"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈8/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:001",
+        "EL2-T-frequency:001"
+      ],
+      "id": "frequency:001"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: 一般・行政・ビジネス。aid, food, medicine, leaflets, profits, information など幅広い対象で使う。",
+      "evidence_link_ids": [
+        "EL1-T-register:001",
+        "EL2-T-register:001"
+      ],
+      "id": "register:001"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution of 〈物・資金・情報〉 to 〈受け手〉＝～を…へ配ること",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:001",
+        "EL2-T-grammar_pattern:001"
+      ],
+      "id": "grammar_pattern:001"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution of 〈物・資金〉 among 〈複数の受け手〉＝～を…の間で分配すること",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:002",
+        "EL2-T-grammar_pattern:002"
+      ],
+      "id": "grammar_pattern:002"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: for distribution to/among 〈受け手〉＝…へ配布するために",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:003",
+        "EL2-T-grammar_pattern:003"
+      ],
+      "id": "grammar_pattern:003"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈food/aid/medicine〉 to 〈people/areas〉 / 用途: 支援物資などを受け手へ配る行為を表す。日本語の「配給」は食料・物資などを必要に応じて割り当てる、または不足時に供給する文脈に寄り、leaflets・profits・information には通常「配布」「分配」「提供」などを使う…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:001",
+        "EL2-T-collocation:001"
+      ],
+      "id": "collocation:001"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈profits/resources〉 among 〈members/partners〉 / 用途: 利益や資源を複数の受け手の間で分ける。 / 例: The agreement sets out the distribution of profits among the partners. / 訳: その契約は共同…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:002",
+        "EL2-T-collocation:002"
+      ],
+      "id": "collocation:002"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・for distribution to 〈recipients〉 / 用途: 文書・物資などが配布用であることを示す。 / 例: The brochures are ready for distribution to local residents. / 訳: そのパンフレットは地域住民への配布準備ができている。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:003",
+        "EL2-T-collocation:003"
+      ],
+      "id": "collocation:003"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・free distribution of 〈leaflets/materials〉 / 用途: 通常は料金を取らずに資料などを配布することを表すが、文脈によっては配布を制限しない「自由な配布」の意にもなり得る。料金を取らないことを明示するなら free-of-charge distribution とも言える。 / 例: The organization …",
+      "evidence_link_ids": [
+        "EL1-T-collocation:004",
+        "EL2-T-collocation:004"
+      ],
+      "id": "collocation:004"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution list / 用途: distributionの配布行為ではなく、メールなどの一斉送信先一覧を指す定着複合名詞。語義1の中心義とは別の関連表現として覚える。 / 例: Please add the new team members to the distribution list. / 訳: 新しいチームメンバーを配信先リスト…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:005",
+        "EL2-T-collocation:005"
+      ],
+      "id": "collocation:005"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: この語義では distribution は行為・過程を表すため不可算が中心だが、可算性だけで行為か結果かを決めることはできない。a distribution of food は一回の配布活動を表すことがあり、一般の文脈の a distribution は一回の配布、配布された一口、割当物を表すこともある。金融・信託・相続の制度的な支払額・取り分は語義4として…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:001",
+        "EL2-T-usage_note:001"
+      ],
+      "id": "usage_note:001"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・allocation / 定義: 資源・資金・時間などを特定の用途や受け手へ割り当てること。 / 頻度: 〈7/10〉 / 違い: distribution より「どこへどれだけ割り当てるか」という決定・配分に焦点が強い。 / 例: The allocation of funds will be reviewed next month. / 訳: 資金の配…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:001",
+        "EL2-T-synonym:001"
+      ],
+      "id": "synonym:001"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・apportionment / 定義: 全体を一定の基準で複数の人・部分へ分けること。 / 頻度: 〈3/10〉 / 違い: distribution より硬く、割合・持ち分を定めて配分する響きが強い。 / 例: The committee approved the apportionment of costs among the departments.…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:002",
+        "EL2-T-synonym:002"
+      ],
+      "id": "synonym:002"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・dissemination / 定義: 情報・知識・考えなどを広く伝播させること。 / 頻度: 〈4/10〉 / 違い: 物資や金銭には普通使わず、information/research/findings など情報内容を広める場合に distribution と重なる。 / 例: The project supports the disseminatio…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:003",
+        "EL2-T-synonym:003"
+      ],
+      "id": "synonym:003"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 2. 【名詞・不可算・可算】分布、配置、分配のあり方",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:002",
+        "EL2-T-sense_boundary:002"
+      ],
+      "id": "sense_boundary:002"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: 人・物・量が、場所・集団・時間・値の範囲にわたってどのように広がり、配置され、割り振られているかという状態・パターン。統計では、観測値や確率が値の範囲にどう現れるかを表す「分布」もこの用法に含まれる。薬物動態では薬物が血液や組織へ移行して体内に広がる過程、解剖学では神経・血管などの分岐・終末と到達範囲を指す。",
+      "evidence_link_ids": [
+        "EL1-T-definition:002",
+        "EL2-T-definition:002"
+      ],
+      "id": "definition:002"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈8/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:002",
+        "EL2-T-frequency:002"
+      ],
+      "id": "frequency:002"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: 一般・学術・統計・医学・薬学。地理、生物、人口、所得、重量、データ、薬物の体内移行、神経・血管などの広がり方を述べる。",
+      "evidence_link_ids": [
+        "EL1-T-register:002",
+        "EL2-T-register:002"
+      ],
+      "id": "register:002"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the distribution of 〈人・物・量〉 across/over 〈範囲〉＝～が…にどう分布しているか",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:004",
+        "EL2-T-grammar_pattern:004"
+      ],
+      "id": "grammar_pattern:004"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the distribution of 〈人・物・量〉 among 〈集団〉＝～が集団内でどう割り振られているか",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:005",
+        "EL2-T-grammar_pattern:005"
+      ],
+      "id": "grammar_pattern:005"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution by/according to 〈分類・カテゴリー〉＝…別の分布",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:006",
+        "EL2-T-grammar_pattern:006"
+      ],
+      "id": "grammar_pattern:006"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution within 〈母集団・範囲〉＝…の内部での分布",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:007",
+        "EL2-T-grammar_pattern:007"
+      ],
+      "id": "grammar_pattern:007"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the distribution of 〈a drug〉 throughout 〈the body/tissues〉＝薬物が…の全体へ広がること",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:008",
+        "EL2-T-grammar_pattern:008"
+      ],
+      "id": "grammar_pattern:008"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the distribution of 〈a nerve/an artery〉＝神経・動脈の分布・走行範囲",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:009",
+        "EL2-T-grammar_pattern:009"
+      ],
+      "id": "grammar_pattern:009"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈normal〉 distribution＝正規分布",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:010",
+        "EL2-T-grammar_pattern:010"
+      ],
+      "id": "grammar_pattern:010"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈probability/frequency〉 distribution＝確率・頻度分布",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:011",
+        "EL2-T-grammar_pattern:011"
+      ],
+      "id": "grammar_pattern:011"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the distribution of 〈values/scores〉 is skewed＝～の分布は偏っている",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:012",
+        "EL2-T-grammar_pattern:012"
+      ],
+      "id": "grammar_pattern:012"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: X follows/has a 〈normal/probability〉 distribution＝Xは…の分布に従う",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:013",
+        "EL2-T-grammar_pattern:013"
+      ],
+      "id": "grammar_pattern:013"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: 〈observations〉 are drawn/sampled from 〈a distribution〉＝観測値を…から抽出する",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:014",
+        "EL2-T-grammar_pattern:014"
+      ],
+      "id": "grammar_pattern:014"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈population/species/disease〉 across 〈area〉 / 用途: 人口・生物・病気などの地理的な広がり方を表す。 / 例: The map shows the distribution of the species across northern Europe. / 訳: その地図は北…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:006",
+        "EL2-T-collocation:006"
+      ],
+      "id": "collocation:006"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the geographical distribution of 〈species/disease〉 / 用途: 地理上どこに存在するかという分布を表す。 / 例: Researchers compared the geographical distribution of the disease over time. / 訳: 研究者たちはその病気の地理的…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:007",
+        "EL2-T-collocation:007"
+      ],
+      "id": "collocation:007"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・an even/uneven distribution of 〈weight/resources〉 / 用途: 重量・資源などが均等または不均等に配置・配分されている状態を表す。 / 例: An even distribution of weight makes the platform more stable. / 訳: 重量が均等に配分されていると、そ…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:008",
+        "EL2-T-collocation:008"
+      ],
+      "id": "collocation:008"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・income/wealth distribution / 用途: 所得・富が社会の中でどのように分かれているかを表す。 / 例: The report examines changes in income distribution over the past decade. / 訳: その報告書は過去10年間の所得分布の変化を調べている。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:009",
+        "EL2-T-collocation:009"
+      ],
+      "id": "collocation:009"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a normal distribution / 用途: 統計で、特定の形を持つ正規分布を一つの分布として表す。 / 例: The test scores roughly follow a normal distribution. / 訳: その試験得点はおおむね正規分布に従っている。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:010",
+        "EL2-T-collocation:010"
+      ],
+      "id": "collocation:010"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a probability distribution / 用途: 確率変数の各値または範囲へ確率がどう割り当てられるかを表す。 / 例: The model assumes a probability distribution for future demand. / 訳: そのモデルは将来需要について一つの確率分布を仮定している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:011",
+        "EL2-T-collocation:011"
+      ],
+      "id": "collocation:011"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈values/scores〉 is skewed / 用途: 数値や得点の分布が一方の側へ偏っている状態を表す。 / 例: The distribution of test scores is skewed to the right. / 訳: 試験得点の分布は右に歪んでおり、右側に長い裾をもつ。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:012",
+        "EL2-T-collocation:012"
+      ],
+      "id": "collocation:012"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a skewed distribution / 用途: 統計で、左右対称ではなく一方へ偏った分布を表す。 / 例: The data show a skewed distribution of household income. / 訳: そのデータは世帯所得の偏った分布を示している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:013",
+        "EL2-T-collocation:013"
+      ],
+      "id": "collocation:013"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈values/data〉 by/according to 〈category〉 / 用途: 値やデータをカテゴリー別に分けて、その分布を示す。by は分類軸を、according to は分類基準を明示する。 / 例: The report compares the distribution of response…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:014",
+        "EL2-T-collocation:014"
+      ],
+      "id": "collocation:014"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution within 〈a population/range〉 / 用途: 特定の母集団や数値範囲の内部における分布を示す。 / 例: The study describes the distribution of income within the population. / 訳: その研究は母集団内の所得分布を記述している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:015",
+        "EL2-T-collocation:015"
+      ],
+      "id": "collocation:015"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・draw/sample 〈observations〉 from 〈a distribution〉 / 用途: 統計・確率モデルから観測値を抽出することを表す。 / 例: The simulation samples observations from a normal distribution. / 訳: そのシミュレーションは正規分布から観測値を抽出する…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:016",
+        "EL2-T-collocation:016"
+      ],
+      "id": "collocation:016"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of a 〈phoneme/word/morpheme〉 / 用途: 言語学で、音素・語・形態素などが現れる位置や環境、用例の分布を表す。 / 例: The distribution of the phoneme is restricted to unstressed syllables. / 訳: その音素は無強勢音節に…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:017",
+        "EL2-T-collocation:017"
+      ],
+      "id": "collocation:017"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈a drug〉 throughout 〈the body/tissues〉 / 用途: 薬物動態で、薬物が血液から組織へ移行し、体内に広がる過程を表す。 / 例: The study examined the distribution of the drug throughout the body. / 訳: その…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:018",
+        "EL2-T-collocation:018"
+      ],
+      "id": "collocation:018"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the distribution of 〈a nerve/an artery〉 / 用途: 解剖学で、神経・動脈などが枝分かれして到達する範囲や走行を表す。 / 例: The diagram shows the distribution of the nerve in the hand. / 訳: その図は手におけるその神経の分布を示している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:019",
+        "EL2-T-collocation:019"
+      ],
+      "id": "collocation:019"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: 一般・統計・解剖学では、空間・社会・数値における結果としての配置や広がり方に焦点があり、人が物を受け手へ配る語義1と区別する。薬物動態では、人為的な配布ではなく、薬物が血液から組織へ移行して体内に広がる過程を指す。distribution of wealth/resources は両義になり得るため、動詞が change/examine/show のように結…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:002",
+        "EL2-T-usage_note:002"
+      ],
+      "id": "usage_note:002"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・spread / 定義: 物事がある範囲に広がっている程度・広がり方。 / 頻度: 〈7/10〉 / 違い: distribution より一般的で、厳密な配置パターンや各部分への割り振りを示さず、単に広がりを表すことも多い。 / 例: The map shows the spread of the invasive plant. / 訳: その地図は外来…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:004",
+        "EL2-T-synonym:004"
+      ],
+      "id": "synonym:004"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・dispersion / 定義: 要素が離れた位置へ散らばること、またはその散らばり方。 / 頻度: 〈4/10〉 / 違い: distribution より「散らばり・ばらつき」を強く意識する語で、科学・統計などの専門文脈でも使われる。 / 例: The study measured the dispersion of particles in the …",
+      "evidence_link_ids": [
+        "EL1-T-synonym:005",
+        "EL2-T-synonym:005"
+      ],
+      "id": "synonym:005"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・allocation / 定義: 資源・数量などが用途や受け手ごとに割り当てられた配分。 / 頻度: 〈7/10〉 / 違い: 人為的な割り当ての結果には distribution と重なるが、自然な地理的分布や統計分布には通常置き換えられない。 / 例: The allocation of resources differs across regions…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:006",
+        "EL2-T-synonym:006"
+      ],
+      "id": "synonym:006"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 3. 【名詞・不可算】流通、供給、配給・配電・配水",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:003",
+        "EL2-T-sense_boundary:003"
+      ],
+      "id": "sense_boundary:003"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: ビジネス・インフラで、商品・コンテンツやガス・水などを生産者・供給源から市場、小売店、利用者・需要地点へ届ける流通・供給・配給・配水、または電気を送電系統との接続点・配電用変電所などから需要家へ届ける配電の活動、過程、事業領域。広い市場・複数地点へ届ける一連の活動に焦点があり、通常の個別配送には delivery を使う。裸の distribution は流…",
+      "evidence_link_ids": [
+        "EL1-T-definition:003",
+        "EL2-T-definition:003"
+      ],
+      "id": "definition:003"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈7/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:003",
+        "EL2-T-frequency:003"
+      ],
+      "id": "frequency:003"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: ビジネス・物流・メディア・公共インフラ。商品、ソフトウェア、書籍、映画などの市場への供給に加え、電力・ガス・水などの供給・配電・配水について使う。映画では「配給」、音楽・ソフトウェアでは「配信・流通」と訳すことがある。",
+      "evidence_link_ids": [
+        "EL1-T-register:003",
+        "EL2-T-register:003"
+      ],
+      "id": "register:003"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution of 〈products/content〉 in 〈a market〉＝～を…で流通させること",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:015",
+        "EL2-T-grammar_pattern:015"
+      ],
+      "id": "grammar_pattern:015"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution of 〈products/content〉 through 〈a channel〉＝～を…という経路で流通させること",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:016",
+        "EL2-T-grammar_pattern:016"
+      ],
+      "id": "grammar_pattern:016"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution of 〈electricity/gas/water〉 through 〈a network〉＝～を…という供給網で供給すること",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:017",
+        "EL2-T-grammar_pattern:017"
+      ],
+      "id": "grammar_pattern:017"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: handle the distribution of 〈products/content〉＝～の流通を担当する",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:018",
+        "EL2-T-grammar_pattern:018"
+      ],
+      "id": "grammar_pattern:018"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: distribution through 〈a channel〉＝…という経路を通じた流通",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:019",
+        "EL2-T-grammar_pattern:019"
+      ],
+      "id": "grammar_pattern:019"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution channel / 用途: 商品・サービスを顧客へ届ける販売・流通経路を表す。 / 例: The company is developing new distribution channels for its products. / 訳: その会社は製品の新しい流通経路を開拓している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:020",
+        "EL2-T-collocation:020"
+      ],
+      "id": "collocation:020"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution network / 用途: 商品を流通させる商業上の網を表す。電気・水などのインフラでは、配電網・配水網などと具体化して表す。 / 例: The retailer expanded its distribution network across Asia. / 訳: その小売企業はアジア全域に流通網を拡大した。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:021",
+        "EL2-T-collocation:021"
+      ],
+      "id": "collocation:021"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・an electricity distribution system/network / 用途: 電気を送電系統との接続点・配電用変電所などから需要家へ届ける配電網を表す。 / 例: The utility is upgrading its electricity distribution network. / 訳: その公益事業者は配電網を改修している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:022",
+        "EL2-T-collocation:022"
+      ],
+      "id": "collocation:022"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a water distribution system/network / 用途: 水を浄水場などから利用者へ届ける配水網を表す。 / 例: The city is repairing its water distribution system. / 訳: その市は水道の配水システムを修理している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:023",
+        "EL2-T-collocation:023"
+      ],
+      "id": "collocation:023"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution center/centre / 用途: 商品を集約し、各販売先や顧客へ送り出す物流拠点を表す。 / 例: Orders are shipped from a regional distribution center. / 訳: 注文品は地域の物流センターから発送される。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:024",
+        "EL2-T-collocation:024"
+      ],
+      "id": "collocation:024"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・handle the distribution of 〈products/content〉 / 用途: 企業・業者が製品やコンテンツの流通を担当することを表す。 / 例: A local company handles the distribution of the product in Japan. / 訳: 日本では現地企業がその製品の流通を担当してい…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:025",
+        "EL2-T-collocation:025"
+      ],
+      "id": "collocation:025"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution agreement/deal / 用途: 特定市場で商品・コンテンツを流通させる契約を表す。 / 例: The publisher signed a distribution agreement with a regional partner. / 訳: その出版社は地域の提携先と流通契約を結んだ。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:026",
+        "EL2-T-collocation:026"
+      ],
+      "id": "collocation:026"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・distribution rights for 〈a film/product〉 / 用途: 映画・音楽・出版物・製品などを特定市場で流通させる権利を表す。 / 例: The studio acquired distribution rights for the film in Asia. / 訳: そのスタジオはアジアでのその映画の配給権を取得した。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:027",
+        "EL2-T-collocation:027"
+      ],
+      "id": "collocation:027"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・distribution costs / 用途: 通常は商品を保管・輸送し、卸売・注文処理などを通じて供給する流通段階で生じる費用を表す。販売促進費を含むかは業界・企業の会計上の定義による。 / 例: The company reduced distribution costs by consolidating warehouses. / 訳: その会社は…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:028",
+        "EL2-T-collocation:028"
+      ],
+      "id": "collocation:028"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・distribution through 〈a channel〉 / 用途: 商品・コンテンツを特定の販売・配信経路を通じて市場へ届ける活動を表す。 / 例: The publisher handles distribution through a digital channel. / 訳: その出版社はデジタル経路を通じた配信を担当している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:029",
+        "EL2-T-collocation:029"
+      ],
+      "id": "collocation:029"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・distribution of 〈electricity/gas/water〉 through 〈a network〉 / 用途: ガス・水などを供給源から、または電気を送電系統との接続点・配電用変電所などから、利用者へ供給網を通じて届ける活動を表す。 / 例: The utility manages the distribution of electri…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:030",
+        "EL2-T-collocation:030"
+      ],
+      "id": "collocation:030"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・an electricity distribution grid / 用途: 送電系統との接続点・配電用変電所などから需要家へ電力を届ける配電網を表す。 / 例: The utility is modernizing the electricity distribution grid. / 訳: その公益事業者は電力配電網を近代化している。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:031",
+        "EL2-T-collocation:031"
+      ],
+      "id": "collocation:031"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: business の distribution は「配る」という語義1から発達したが、販売・物流の仕組みを一まとまりに捉える専門的な用法。映画・音楽・出版では film distribution「映画配給」、music distribution「音楽配信・流通」、distribution rights「配給権・販売権」のように、物流以外の市場供給も表す。de…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:003",
+        "EL2-T-usage_note:003"
+      ],
+      "id": "usage_note:003"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・logistics / 定義: 物資の輸送・保管・在庫・情報の流れを計画し運用する活動。 / 頻度: 〈6/10〉 / 違い: distribution と重なるがより広く、流通前後の保管・在庫管理・輸送計画まで含めることが多い。 / 例: The company outsourced its logistics to a specialist provi…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:007",
+        "EL2-T-synonym:007"
+      ],
+      "id": "synonym:007"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・delivery / 定義: 物・商品を特定の受取人・場所へ届けること。 / 頻度: 〈8/10〉 / 違い: distribution より狭く、流通網や市場全体ではなく個々の「届ける行為」に焦点がある。 / 例: Same-day delivery is available in the city. / 訳: 市内では当日配送が利用できる。",
+      "evidence_link_ids": [
+        "EL1-T-synonym:008",
+        "EL2-T-synonym:008"
+      ],
+      "id": "synonym:008"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・supply / 定義: 必要な物・商品を提供して利用可能にすること。 / 頻度: 〈8/10〉 / 違い: distribution と重なるが、供給量・入手可能性に焦点を置ける一方、必ずしも流通経路そのものを指さない。 / 例: The storm disrupted the supply of fresh food. / 訳: 嵐で生鮮食品の供給が途…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:009",
+        "EL2-T-synonym:009"
+      ],
+      "id": "synonym:009"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 4. 【名詞・可算・不可算】金融・法律上の分配、分配金",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:004",
+        "EL2-T-sense_boundary:004"
+      ],
+      "id": "sense_boundary:004"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: 金融・投資・信託・相続・法務・退職口座などの文脈で、会社・ファンド・信託・遺産（無遺言遺産を含む）・口座などから株主・投資家・受益者・相続人・口座名義人へ金銭や資産を移すこと、または実際に支払われる一回分の金額・取り分。退職口座では、受益者への分配だけでなく口座からの払戻し・引き出しを指すこともある。可算の a distribution は「一回の分配・分配…",
+      "evidence_link_ids": [
+        "EL1-T-definition:004",
+        "EL2-T-definition:004"
+      ],
+      "id": "definition:004"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈4/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:004",
+        "EL2-T-frequency:004"
+      ],
+      "id": "frequency:004"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: 金融・投資・信託・相続・法務・退職口座。一般会話より、投資信託、信託・遺産からの受益者・相続人への移転、退職口座、会社から投資家への支払いなどの文書で現れやすい。",
+      "evidence_link_ids": [
+        "EL1-T-register:004",
+        "EL2-T-register:004"
+      ],
+      "id": "register:004"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: make a distribution to 〈investors/beneficiaries〉＝投資家・受益者へ分配金を支払う",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:020",
+        "EL2-T-grammar_pattern:020"
+      ],
+      "id": "grammar_pattern:020"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: receive a distribution from a fund＝ファンドから分配を受ける",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:021",
+        "EL2-T-grammar_pattern:021"
+      ],
+      "id": "grammar_pattern:021"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: receive a distribution from a trust＝信託から分配を受ける",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:022",
+        "EL2-T-grammar_pattern:022"
+      ],
+      "id": "grammar_pattern:022"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: receive a distribution from an estate＝遺産から分配を受ける",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:023",
+        "EL2-T-grammar_pattern:023"
+      ],
+      "id": "grammar_pattern:023"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: receive a distribution from an account＝口座から分配を受ける",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:024",
+        "EL2-T-grammar_pattern:024"
+      ],
+      "id": "grammar_pattern:024"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈cash〉 distribution＝現金分配",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:025",
+        "EL2-T-grammar_pattern:025"
+      ],
+      "id": "grammar_pattern:025"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: an 〈annual〉 distribution＝年次分配",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:026",
+        "EL2-T-grammar_pattern:026"
+      ],
+      "id": "grammar_pattern:026"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈final〉 distribution＝最終分配",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:027",
+        "EL2-T-grammar_pattern:027"
+      ],
+      "id": "grammar_pattern:027"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・make a distribution to 〈investors/beneficiaries〉 / 用途: ファンド・会社などが受取人へ金銭や資産を分配する。 / 例: The fund will make a distribution to investors at the end of the year. / 訳: そのファンドは年末に投資家へ分配金…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:032",
+        "EL2-T-collocation:032"
+      ],
+      "id": "collocation:032"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・receive a distribution from a fund, a trust, an estate, or an account / 用途: 投資家・受益者がファンドや口座から分配を受ける。 / 例: She received a distribution from the fund in December. / 訳: 彼女は12月にそのファンド…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:033",
+        "EL2-T-collocation:033"
+      ],
+      "id": "collocation:033"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a cash distribution / 用途: 現金で行われる分配を表す。 / 例: Shareholders approved a cash distribution following the sale. / 訳: 株主は売却後の現金分配を承認した。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:034",
+        "EL2-T-collocation:034"
+      ],
+      "id": "collocation:034"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・an annual distribution / 用途: 年次として行われる一回の分配を表す。 / 例: The fund made an annual distribution to investors. / 訳: そのファンドは投資家へ年次分配を行った。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:035",
+        "EL2-T-collocation:035"
+      ],
+      "id": "collocation:035"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a final distribution / 用途: 最終回として行われる一回の分配を表す。 / 例: This is the fund's final distribution for the year. / 訳: これはそのファンドの今年最後の分配金である。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:036",
+        "EL2-T-collocation:036"
+      ],
+      "id": "collocation:036"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: この語義では「分配する行為」と「分配された金額」の両方を表せる。a distribution, distributions のように可算なら、一回ごとの支払い・取り分を指すことが多い。dividend と重なる場合はあるが、distribution はより広くファンド等からの分配にも使われるため、常に「配当」と訳すとは限らない。具体的な税務・法的扱いは制度に…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:004",
+        "EL2-T-usage_note:004"
+      ],
+      "id": "usage_note:004"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・payout / 定義: 組織・制度・賭けなどから実際に支払われる金額。 / 頻度: 〈5/10〉 / 違い: distribution より一般的で口語的にも使え、投資家への分配に限らない。 / 例: The fund announced a larger payout this quarter. / 訳: そのファンドは今四半期により大きな支払額を発表…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:010",
+        "EL2-T-synonym:010"
+      ],
+      "id": "synonym:010"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・dividend / 定義: 会社の利益などから株主へ支払われる配当。 / 頻度: 〈6/10〉 / 違い: 株主への会社配当を中心とするが、投資商品の収益分配などにも使われる。distribution は会社・ファンド・信託などからの分配という出来事や支払額をより広く表す。 / 例: The company declared a quarterly di…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:011",
+        "EL2-T-synonym:011"
+      ],
+      "id": "synonym:011"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・payment / 定義: 金銭を支払うこと、または支払われる金額。 / 頻度: 〈10/10〉 / 違い: 厳密な類義語ではなく、最も広い関連語・対照語。分配という発生源・仕組みを含意しないが、distribution は何かを受取人へ割り振る文脈を保つ。 / 例: The payment will be deposited into your acco…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:012",
+        "EL2-T-synonym:012"
+      ],
+      "id": "synonym:012"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 5. 【名詞・可算】ソフトウェア・ディストリビューション",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:005",
+        "EL2-T-sense_boundary:005"
+      ],
+      "id": "sense_boundary:005"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: コンピューター分野、特にLinuxなどで、複数のソフトウェア部品を組み合わせ、利用者が一まとまりとして導入・利用できる形にした配布版。Linuxに限らずBSDやTeXなどの関連ソフトウェア一式にも使う。特に Linux distribution は、Linuxカーネルを基盤に各種ソフトウェアや管理ツールを組み合わせたOSの一形態を指す。Python pack…",
+      "evidence_link_ids": [
+        "EL1-T-definition:005",
+        "EL2-T-definition:005"
+      ],
+      "id": "definition:005"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈3/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:005",
+        "EL2-T-frequency:005"
+      ],
+      "id": "frequency:005"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: コンピューター・IT。特にLinuxなどのオープンソースOSの文脈でよく現れるが、BSDやTeXなどのソフトウェア一式にも使う専門用法。",
+      "evidence_link_ids": [
+        "EL1-T-register:005",
+        "EL2-T-register:005"
+      ],
+      "id": "register:005"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈Linux/GNU/Linux〉 distribution＝Linux系のディストリビューション",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:028",
+        "EL2-T-grammar_pattern:028"
+      ],
+      "id": "grammar_pattern:028"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈software〉 distribution＝ソフトウェア一式としての配布版",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:029",
+        "EL2-T-grammar_pattern:029"
+      ],
+      "id": "grammar_pattern:029"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a Linux distribution based on 〈a system/a project〉＝～を基盤にしたディストリビューション",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:030",
+        "EL2-T-grammar_pattern:030"
+      ],
+      "id": "grammar_pattern:030"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a Linux distribution / 用途: Linuxカーネルを基盤にしたOSの配布版・構成を表す。 / 例: Ubuntu is a widely used Linux distribution. / 訳: Ubuntuは広く使われているLinuxディストリビューションだ。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:037",
+        "EL2-T-collocation:037"
+      ],
+      "id": "collocation:037"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a 〈software〉 distribution / 用途: 複数のソフトウェア部品を一まとまりにした配布版を表す。ソフトウェアを市場へ配布する活動・仕組みは語義3で扱う。 / 例: The software distribution includes the core tools and documentation. / 訳: そのソフトウェア配布版に…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:038",
+        "EL2-T-collocation:038"
+      ],
+      "id": "collocation:038"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution based on 〈a system/a project〉 / 用途: 主にLinux distributionについて、どのOSやプロジェクトを土台にするかを表す。 / 例: The team maintains a distribution based on Debian. / 訳: そのチームはDebianを基盤にしたデ…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:039",
+        "EL2-T-collocation:039"
+      ],
+      "id": "collocation:039"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・choose/install a distribution / 用途: 複数のディストリビューションから選ぶ、または導入することを表す。 / 例: New users can choose a distribution that matches their needs. / 訳: 新しい利用者は自分の用途に合うディストリビューションを選べる。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:040",
+        "EL2-T-collocation:040"
+      ],
+      "id": "collocation:040"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: この語義では、主にLinuxなどで distribution 自体が「配布される一まとまりのソフトウェア構成」を指すため可算。a distribution, several distributions のように使う。Linux文脈では distro という短縮形も広く使われる。software distribution は本語義では配布されるソフトウェア一式…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:005",
+        "EL2-T-usage_note:005"
+      ],
+      "id": "usage_note:005"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・distro / 定義: distribution の短縮形で、特にLinuxなどのソフトウェア・ディストリビューションを指す。 / 頻度: 〈3/10〉 / 違い: 意味はほぼ同じだが、distribution より口語的・コミュニティ寄りの語。Linux関連の技術文書や専門家の会話でも広く使われる。 / 例: Which Linux distro do…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:013",
+        "EL2-T-synonym:013"
+      ],
+      "id": "synonym:013"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 6. 【名詞・可算】Python packagingにおける配布パッケージ",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:006",
+        "EL2-T-sense_boundary:006"
+      ],
+      "id": "sense_boundary:006"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: Python packaging で、distribution package は、pip install などで指定するインストール可能な software/project の名前・単位を指すことが多い。PyPAでは、特定バージョンを含む一つの配布ファイルを指す用法もある。用語を区別する場合は project を開発対象、release を特定バージョンの…",
+      "evidence_link_ids": [
+        "EL1-T-definition:006",
+        "EL2-T-definition:006"
+      ],
+      "id": "definition:006"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈2/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:006",
+        "EL2-T-frequency:006"
+      ],
+      "id": "frequency:006"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: コンピューター・IT・Python packaging。一般的なLinux distributionとは異なり、Pythonプロジェクトのビルド・配布・インストールを説明する技術文書で使われる。",
+      "evidence_link_ids": [
+        "EL1-T-register:006",
+        "EL2-T-register:006"
+      ],
+      "id": "register:006"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a distribution package in Python packaging＝Python用の配布パッケージ",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:031",
+        "EL2-T-grammar_pattern:031"
+      ],
+      "id": "grammar_pattern:031"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a distribution package from 〈a project〉＝〈プロジェクト〉から作られた配布パッケージ",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:032",
+        "EL2-T-grammar_pattern:032"
+      ],
+      "id": "grammar_pattern:032"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: install/require 〈a distribution package〉＝配布パッケージをインストール・依存指定する",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:033",
+        "EL2-T-grammar_pattern:033"
+      ],
+      "id": "grammar_pattern:033"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: an installed distribution＝インストール済みのdistribution",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:034",
+        "EL2-T-grammar_pattern:034"
+      ],
+      "id": "grammar_pattern:034"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the name/version/metadata/files of 〈a distribution〉＝distributionの名前・バージョン・メタデータ・ファイル",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:035",
+        "EL2-T-grammar_pattern:035"
+      ],
+      "id": "grammar_pattern:035"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: build a source distribution or wheel from 〈a project〉＝〈プロジェクト〉からソース配布物またはwheelをビルドする",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:036",
+        "EL2-T-grammar_pattern:036"
+      ],
+      "id": "grammar_pattern:036"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: upload a distribution archive to 〈a package index〉＝配布アーカイブを〈パッケージインデックス〉へアップロードする",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:037",
+        "EL2-T-grammar_pattern:037"
+      ],
+      "id": "grammar_pattern:037"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution package from 〈a project〉 / 用途: Python packagingで、開発対象であるprojectから配布パッケージを作る関係を表す。projectそのものではなく、そこから生成される配布単位に焦点がある。 / 例: The distribution package is built from th…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:041",
+        "EL2-T-collocation:041"
+      ],
+      "id": "collocation:041"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution package for 〈a release〉 / 用途: projectの特定バージョンであるrelease向けの配布パッケージを表す。releaseそのものではなく、そのversionを配布・インストールする単位に焦点がある。 / 例: The distribution package is published for t…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:042",
+        "EL2-T-collocation:042"
+      ],
+      "id": "collocation:042"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution package / 用途: Pythonプロジェクトをインストールするための名前・単位を表す。文脈によっては特定バージョンを含む配布ファイルを指す。 / 例: The build backend creates a distribution package from the project. / 訳: そのビルドバックエンドは…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:043",
+        "EL2-T-collocation:043"
+      ],
+      "id": "collocation:043"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution archive / 用途: distribution packageを配布するための物理ファイルを表す。source distribution（sdist）やwheelなどの形式がある。 / 例: A distribution archive contains the files needed to install a rel…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:044",
+        "EL2-T-collocation:044"
+      ],
+      "id": "collocation:044"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・build a source distribution or wheel from 〈a project〉 / 用途: projectのソースツリーから、配布・インストールに使うsource distributionまたはwheelを作ることを表す。 / 例: The build backend builds a source distribution a…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:045",
+        "EL2-T-collocation:045"
+      ],
+      "id": "collocation:045"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a built distribution / 用途: インストール先へ必要なファイルとメタデータを移せる状態のビルド済み配布形式を表す。wheelが代表例。 / 例: A built distribution can be installed without building the project first. / 訳: ビルド済み配布物は、先にプロジェ…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:046",
+        "EL2-T-collocation:046"
+      ],
+      "id": "collocation:046"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・upload a distribution archive to 〈a package index〉 / 用途: source distributionやwheelなどの配布アーカイブをパッケージインデックスへ登録することを表す。 / 例: The publisher uploads the distribution archive to the pack…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:047",
+        "EL2-T-collocation:047"
+      ],
+      "id": "collocation:047"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・install/require a distribution package / 用途: distribution packageを環境へインストールしたり、依存関係として要求したりすることを表す。project名・package名の単位を指す文脈で使う。 / 例: The application requires a distribution packa…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:048",
+        "EL2-T-collocation:048"
+      ],
+      "id": "collocation:048"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・an installed distribution / 用途: 環境へインストール済みのdistributionを、メタデータやentry pointとともに指す。配布前のarchiveそのものではない。 / 例: The tool lists every installed distribution in the environment. / 訳: その…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:049",
+        "EL2-T-collocation:049"
+      ],
+      "id": "collocation:049"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the name/version/metadata/files of a distribution / 用途: インストール済みdistributionの識別情報やメタデータ、含まれるファイルを調べることを表す。 / 例: The script reads the metadata and files of a distribution. / 訳: そのス…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:050",
+        "EL2-T-collocation:050"
+      ],
+      "id": "collocation:050"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: Python packagingでは、project、release、distribution package、source/built distribution、distribution archive、installed distribution、import packageは役割が異なる。projectは開発対象、releaseは特定バージョン、dis…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:006",
+        "EL2-T-usage_note:006"
+      ],
+      "id": "usage_note:006"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・package / 定義: Python packagingでdistribution packageまたはimport packageを指し得る短縮形・総称。文脈によってはLinuxなどのOS packageも指すため、単独では対象を特定できない。 / 頻度: 〈6/10〉 / 違い: 厳密な類義語というより短い関連語で、distribution pac…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:014",
+        "EL2-T-synonym:014"
+      ],
+      "id": "synonym:014"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しの品詞・可算性・中心訳を定義、構文、例文と照合し、この語義境界で妥当である。対象: 7. 【名詞・可算】数学解析の超関数（一般化関数の一種）",
+      "evidence_link_ids": [
+        "EL1-T-sense_boundary:007",
+        "EL2-T-sense_boundary:007"
+      ],
+      "id": "sense_boundary:007"
+    },
+    {
+      "status": "pass",
+      "notes": "定義の中心義、対象種類、含意、専門的限定を全文法フレームと照合し、正確で過不足がない。対象: 数学解析で、通常の関数として直接扱うことが難しい対象を、試験関数空間上の連続線形汎関数として表す対象。distribution は generalized function（一般化関数）の代表的な一種で、文献によっては generalized function が distribution とほぼ同義に使われることもある。局所可積分関数などは一定の条件のもと…",
+      "evidence_link_ids": [
+        "EL1-T-definition:007",
+        "EL2-T-definition:007"
+      ],
+      "id": "definition:007"
+    },
+    {
+      "status": "pass",
+      "notes": "英語全体での遭遇頻度と記事内の相対順位を確認し、この語義の目安として妥当である。対象: 〈1/10〉",
+      "evidence_link_ids": [
+        "EL1-T-frequency:007",
+        "EL2-T-frequency:007"
+      ],
+      "id": "frequency:007"
+    },
+    {
+      "status": "pass",
+      "notes": "レジスター、専門領域、現代性を当該語義の定義と用例に照合し、一致している。対象: 数学・解析学・物理数学。一般英語ではまれだが、distribution theory、偏微分方程式、フーリエ解析などで使う。",
+      "evidence_link_ids": [
+        "EL1-T-register:007",
+        "EL2-T-register:007"
+      ],
+      "id": "register:007"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a distribution on 〈an open set〉＝…上の超関数",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:038",
+        "EL2-T-grammar_pattern:038"
+      ],
+      "id": "grammar_pattern:038"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a 〈tempered/compactly supported〉 distribution＝…超関数",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:039",
+        "EL2-T-grammar_pattern:039"
+      ],
+      "id": "grammar_pattern:039"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the space of distributions＝超関数の空間",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:040",
+        "EL2-T-grammar_pattern:040"
+      ],
+      "id": "grammar_pattern:040"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: the derivative of 〈a distribution〉＝超関数の導関数",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:041",
+        "EL2-T-grammar_pattern:041"
+      ],
+      "id": "grammar_pattern:041"
+    },
+    {
+      "status": "pass",
+      "notes": "構文の語順、前置詞、可算性、補語・スロットを代入確認し、当該語義の自然な完全フレームである。対象: a distribution acts on 〈a test function〉＝超関数が…試験関数に作用する",
+      "evidence_link_ids": [
+        "EL1-T-grammar_pattern:042",
+        "EL2-T-grammar_pattern:042"
+      ],
+      "id": "grammar_pattern:042"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution on 〈an open set〉 / 用途: 開集合などの領域上で定義される数学解析のdistributionを表す。 / 例: A distribution on an open set acts on test functions. / 訳: 開集合上の超関数は試験関数に作用する。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:051",
+        "EL2-T-collocation:051"
+      ],
+      "id": "collocation:051"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a tempered distribution / 用途: 急減少する試験関数を扱う空間上で定義されるtempered distributionを表す。 / 例: The Dirac delta is a tempered distribution. / 訳: ディラックのデルタは緩増加超関数である。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:052",
+        "EL2-T-collocation:052"
+      ],
+      "id": "collocation:052"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the space of distributions / 用途: distribution theoryで扱う超関数全体の空間を表す。 / 例: The equation is interpreted in the space of distributions. / 訳: その方程式は超関数の空間で解釈される。",
+      "evidence_link_ids": [
+        "EL1-T-collocation:053",
+        "EL2-T-collocation:053"
+      ],
+      "id": "collocation:053"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・the derivative of a distribution / 用途: 通常の微分が定義しにくい対象について、distributionとしての導関数を表す。 / 例: The derivative of a distribution is defined by its action on test functions. / 訳: 超関数の導関数は、試…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:054",
+        "EL2-T-collocation:054"
+      ],
+      "id": "collocation:054"
+    },
+    {
+      "status": "pass",
+      "notes": "コロケーションの表層形、用途、英文、和訳を一対一で照合し、品詞・意味役割・レジスターが一致している。対象: ・a distribution acts on 〈a test function〉 / 用途: distributionを試験関数へ作用する汎関数として説明する基本フレーム。 / 例: A distribution acts on a test function as a continuous linear functional. / 訳: 超関数は、連続線…",
+      "evidence_link_ids": [
+        "EL1-T-collocation:055",
+        "EL2-T-collocation:055"
+      ],
+      "id": "collocation:055"
+    },
+    {
+      "status": "pass",
+      "notes": "可算性、語義境界、専門的限定、誤一般化リスクを定義と用例群に照合し、説明は正確である。対象: この語義の distribution は、値に確率を割り当てる probability distribution ではなく、試験関数空間上の連続線形汎関数として定義される数学的対象を指す。ordinary function は局所可積分性などの条件を満たす場合にdistributionとして埋め込める。tempered は試験関数の空間と成長条件を限定する専…",
+      "evidence_link_ids": [
+        "EL1-T-usage_note:007",
+        "EL2-T-usage_note:007"
+      ],
+      "id": "usage_note:007"
+    },
+    {
+      "status": "pass",
+      "notes": "類義語の中心義、重なり、相違軸、頻度、例文訳を照合し、単なる関連語への置換になっていない。対象: ・generalized function / 定義: 通常の関数を拡張し、distributionなどを含めて扱う一般化関数。 / 頻度: 〈1/10〉 / 違い: distribution と近い意味で使われるが、generalized function は広い呼称で、文献によって含む対象の範囲が異なる。 / 例: A distribution is a…",
+      "evidence_link_ids": [
+        "EL1-T-synonym:015",
+        "EL2-T-synonym:015"
+      ],
+      "id": "synonym:015"
+    }
+  ],
+  "relation_results": [
+    {
+      "status": "pass",
+      "notes": "relation種別「risk_sense_pair」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: sense_boundary:001, sense_boundary:002",
+      "evidence_link_ids": [
+        "EL1-R-risk_sense_pair:001",
+        "EL2-R-risk_sense_pair:001"
+      ],
+      "id": "risk_sense_pair:001"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「risk_sense_pair」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: sense_boundary:001, sense_boundary:003",
+      "evidence_link_ids": [
+        "EL1-R-risk_sense_pair:002",
+        "EL2-R-risk_sense_pair:002"
+      ],
+      "id": "risk_sense_pair:002"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「risk_sense_pair」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: sense_boundary:001, sense_boundary:004",
+      "evidence_link_ids": [
+        "EL1-R-risk_sense_pair:003",
+        "EL2-R-risk_sense_pair:003"
+      ],
+      "id": "risk_sense_pair:003"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「risk_sense_pair」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: sense_boundary:003, sense_boundary:005",
+      "evidence_link_ids": [
+        "EL1-R-risk_sense_pair:004",
+        "EL2-R-risk_sense_pair:004"
+      ],
+      "id": "risk_sense_pair:004"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「risk_sense_pair」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: sense_boundary:005, sense_boundary:006",
+      "evidence_link_ids": [
+        "EL1-R-risk_sense_pair:005",
+        "EL2-R-risk_sense_pair:005"
+      ],
+      "id": "risk_sense_pair:005"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:001",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:001",
+        "EL2-R-example_translation:001"
+      ],
+      "id": "example_translation:001"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:002",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:002",
+        "EL2-R-example_translation:002"
+      ],
+      "id": "example_translation:002"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:003",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:003",
+        "EL2-R-example_translation:003"
+      ],
+      "id": "example_translation:003"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:004",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:004",
+        "EL2-R-example_translation:004"
+      ],
+      "id": "example_translation:004"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:005",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:005",
+        "EL2-R-example_translation:005"
+      ],
+      "id": "example_translation:005"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:006",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:006",
+        "EL2-R-example_translation:006"
+      ],
+      "id": "example_translation:006"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:007",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:007",
+        "EL2-R-example_translation:007"
+      ],
+      "id": "example_translation:007"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:008",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:008",
+        "EL2-R-example_translation:008"
+      ],
+      "id": "example_translation:008"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:009",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:009",
+        "EL2-R-example_translation:009"
+      ],
+      "id": "example_translation:009"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:010",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:010",
+        "EL2-R-example_translation:010"
+      ],
+      "id": "example_translation:010"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:011",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:011",
+        "EL2-R-example_translation:011"
+      ],
+      "id": "example_translation:011"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:012",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:012",
+        "EL2-R-example_translation:012"
+      ],
+      "id": "example_translation:012"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:013",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:013",
+        "EL2-R-example_translation:013"
+      ],
+      "id": "example_translation:013"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:014",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:014",
+        "EL2-R-example_translation:014"
+      ],
+      "id": "example_translation:014"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:015",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:015",
+        "EL2-R-example_translation:015"
+      ],
+      "id": "example_translation:015"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:016",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:016",
+        "EL2-R-example_translation:016"
+      ],
+      "id": "example_translation:016"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:017",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:017",
+        "EL2-R-example_translation:017"
+      ],
+      "id": "example_translation:017"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:018",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:018",
+        "EL2-R-example_translation:018"
+      ],
+      "id": "example_translation:018"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:019",
+        "EL2-R-example_translation:019"
+      ],
+      "id": "example_translation:019"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:020",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:020",
+        "EL2-R-example_translation:020"
+      ],
+      "id": "example_translation:020"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:021",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:021",
+        "EL2-R-example_translation:021"
+      ],
+      "id": "example_translation:021"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:022",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:022",
+        "EL2-R-example_translation:022"
+      ],
+      "id": "example_translation:022"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:023",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:023",
+        "EL2-R-example_translation:023"
+      ],
+      "id": "example_translation:023"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:024",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:024",
+        "EL2-R-example_translation:024"
+      ],
+      "id": "example_translation:024"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:025",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:025",
+        "EL2-R-example_translation:025"
+      ],
+      "id": "example_translation:025"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:026",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:026",
+        "EL2-R-example_translation:026"
+      ],
+      "id": "example_translation:026"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:027",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:027",
+        "EL2-R-example_translation:027"
+      ],
+      "id": "example_translation:027"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:028",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:028",
+        "EL2-R-example_translation:028"
+      ],
+      "id": "example_translation:028"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:029",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:029",
+        "EL2-R-example_translation:029"
+      ],
+      "id": "example_translation:029"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:030",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:030",
+        "EL2-R-example_translation:030"
+      ],
+      "id": "example_translation:030"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:031",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:031",
+        "EL2-R-example_translation:031"
+      ],
+      "id": "example_translation:031"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:032",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:032",
+        "EL2-R-example_translation:032"
+      ],
+      "id": "example_translation:032"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:033",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:033",
+        "EL2-R-example_translation:033"
+      ],
+      "id": "example_translation:033"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:034",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:034",
+        "EL2-R-example_translation:034"
+      ],
+      "id": "example_translation:034"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:035",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:035",
+        "EL2-R-example_translation:035"
+      ],
+      "id": "example_translation:035"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:036",
+        "EL2-R-example_translation:036"
+      ],
+      "id": "example_translation:036"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:037",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:037",
+        "EL2-R-example_translation:037"
+      ],
+      "id": "example_translation:037"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:038",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:038",
+        "EL2-R-example_translation:038"
+      ],
+      "id": "example_translation:038"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:039",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:039",
+        "EL2-R-example_translation:039"
+      ],
+      "id": "example_translation:039"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:040",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:040",
+        "EL2-R-example_translation:040"
+      ],
+      "id": "example_translation:040"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:041",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:041",
+        "EL2-R-example_translation:041"
+      ],
+      "id": "example_translation:041"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:042",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:042",
+        "EL2-R-example_translation:042"
+      ],
+      "id": "example_translation:042"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:043",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:043",
+        "EL2-R-example_translation:043"
+      ],
+      "id": "example_translation:043"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:044",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:044",
+        "EL2-R-example_translation:044"
+      ],
+      "id": "example_translation:044"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:045",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:045",
+        "EL2-R-example_translation:045"
+      ],
+      "id": "example_translation:045"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:046",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:046",
+        "EL2-R-example_translation:046"
+      ],
+      "id": "example_translation:046"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:047",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:047",
+        "EL2-R-example_translation:047"
+      ],
+      "id": "example_translation:047"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:048",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:048",
+        "EL2-R-example_translation:048"
+      ],
+      "id": "example_translation:048"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:049",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:049",
+        "EL2-R-example_translation:049"
+      ],
+      "id": "example_translation:049"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:050",
+        "EL2-R-example_translation:050"
+      ],
+      "id": "example_translation:050"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:051",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:051",
+        "EL2-R-example_translation:051"
+      ],
+      "id": "example_translation:051"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:052",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:052",
+        "EL2-R-example_translation:052"
+      ],
+      "id": "example_translation:052"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:053",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:053",
+        "EL2-R-example_translation:053"
+      ],
+      "id": "example_translation:053"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:054",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:054",
+        "EL2-R-example_translation:054"
+      ],
+      "id": "example_translation:054"
+    },
+    {
+      "status": "pass",
+      "notes": "relation種別「example_translation」について接続target間の意味・構文・用例関係を個別照合し、矛盾・欠落・混同リスクがない。照合対象: collocation:055",
+      "evidence_link_ids": [
+        "EL1-R-example_translation:055",
+        "EL2-R-example_translation:055"
+      ],
+      "id": "example_translation:055"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:001, definition:001",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:001",
+        "EL2-R-sense_definition_consistency:001"
+      ],
+      "id": "sense_definition_consistency:001"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:001, definition:001, usage_note:001",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:001",
+        "EL2-R-definition_usage_consistency:001"
+      ],
+      "id": "definition_usage_consistency:001"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:001, definition:001, synonym:001, synonym:002, synonym:003",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:001",
+        "EL2-R-definition_lexical_relation_consistency:001"
+      ],
+      "id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:001",
+        "EL2-R-pattern_example_coverage:001"
+      ],
+      "id": "pattern_example_coverage:001"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:002, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:002",
+        "EL2-R-pattern_example_coverage:002"
+      ],
+      "id": "pattern_example_coverage:002"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:003, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:003",
+        "EL2-R-pattern_example_coverage:003"
+      ],
+      "id": "pattern_example_coverage:003"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:002, definition:002",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:002",
+        "EL2-R-sense_definition_consistency:002"
+      ],
+      "id": "sense_definition_consistency:002"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:002, definition:002, usage_note:002",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:002",
+        "EL2-R-definition_usage_consistency:002"
+      ],
+      "id": "definition_usage_consistency:002"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:002, definition:002, synonym:004, synonym:005, synonym:006",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:002",
+        "EL2-R-definition_lexical_relation_consistency:002"
+      ],
+      "id": "definition_lexical_relation_consistency:002"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:004, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:004",
+        "EL2-R-pattern_example_coverage:004"
+      ],
+      "id": "pattern_example_coverage:004"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:005",
+        "EL2-R-pattern_example_coverage:005"
+      ],
+      "id": "pattern_example_coverage:005"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:006, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:006",
+        "EL2-R-pattern_example_coverage:006"
+      ],
+      "id": "pattern_example_coverage:006"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:007, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:007",
+        "EL2-R-pattern_example_coverage:007"
+      ],
+      "id": "pattern_example_coverage:007"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:008, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:008",
+        "EL2-R-pattern_example_coverage:008"
+      ],
+      "id": "pattern_example_coverage:008"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:009, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:009",
+        "EL2-R-pattern_example_coverage:009"
+      ],
+      "id": "pattern_example_coverage:009"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:010, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:010",
+        "EL2-R-pattern_example_coverage:010"
+      ],
+      "id": "pattern_example_coverage:010"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:011, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:011",
+        "EL2-R-pattern_example_coverage:011"
+      ],
+      "id": "pattern_example_coverage:011"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:012, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:012",
+        "EL2-R-pattern_example_coverage:012"
+      ],
+      "id": "pattern_example_coverage:012"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:013, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:013",
+        "EL2-R-pattern_example_coverage:013"
+      ],
+      "id": "pattern_example_coverage:013"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:014, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015, collocation:016, collocation:017, collocation:018, collocation:019",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:014",
+        "EL2-R-pattern_example_coverage:014"
+      ],
+      "id": "pattern_example_coverage:014"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:003, definition:003",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:003",
+        "EL2-R-sense_definition_consistency:003"
+      ],
+      "id": "sense_definition_consistency:003"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:003, definition:003, usage_note:003",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:003",
+        "EL2-R-definition_usage_consistency:003"
+      ],
+      "id": "definition_usage_consistency:003"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:003, definition:003, synonym:007, synonym:008, synonym:009",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:003",
+        "EL2-R-definition_lexical_relation_consistency:003"
+      ],
+      "id": "definition_lexical_relation_consistency:003"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:015, collocation:020, collocation:021, collocation:022, collocation:023, collocation:024, collocation:025, collocation:026, collocation:027, collocation:028, collocation:029, collocation:030, collocation:031",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:015",
+        "EL2-R-pattern_example_coverage:015"
+      ],
+      "id": "pattern_example_coverage:015"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:016, collocation:020, collocation:021, collocation:022, collocation:023, collocation:024, collocation:025, collocation:026, collocation:027, collocation:028, collocation:029, collocation:030, collocation:031",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:016",
+        "EL2-R-pattern_example_coverage:016"
+      ],
+      "id": "pattern_example_coverage:016"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:017, collocation:020, collocation:021, collocation:022, collocation:023, collocation:024, collocation:025, collocation:026, collocation:027, collocation:028, collocation:029, collocation:030, collocation:031",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:017",
+        "EL2-R-pattern_example_coverage:017"
+      ],
+      "id": "pattern_example_coverage:017"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:018, collocation:020, collocation:021, collocation:022, collocation:023, collocation:024, collocation:025, collocation:026, collocation:027, collocation:028, collocation:029, collocation:030, collocation:031",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:018",
+        "EL2-R-pattern_example_coverage:018"
+      ],
+      "id": "pattern_example_coverage:018"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:019, collocation:020, collocation:021, collocation:022, collocation:023, collocation:024, collocation:025, collocation:026, collocation:027, collocation:028, collocation:029, collocation:030, collocation:031",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:019",
+        "EL2-R-pattern_example_coverage:019"
+      ],
+      "id": "pattern_example_coverage:019"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:004, definition:004",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:004",
+        "EL2-R-sense_definition_consistency:004"
+      ],
+      "id": "sense_definition_consistency:004"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:004, definition:004, usage_note:004",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:004",
+        "EL2-R-definition_usage_consistency:004"
+      ],
+      "id": "definition_usage_consistency:004"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:004, definition:004, synonym:010, synonym:011, synonym:012",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:004",
+        "EL2-R-definition_lexical_relation_consistency:004"
+      ],
+      "id": "definition_lexical_relation_consistency:004"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:020, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:020",
+        "EL2-R-pattern_example_coverage:020"
+      ],
+      "id": "pattern_example_coverage:020"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:021, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:021",
+        "EL2-R-pattern_example_coverage:021"
+      ],
+      "id": "pattern_example_coverage:021"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:022, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:022",
+        "EL2-R-pattern_example_coverage:022"
+      ],
+      "id": "pattern_example_coverage:022"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:023, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:023",
+        "EL2-R-pattern_example_coverage:023"
+      ],
+      "id": "pattern_example_coverage:023"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:024, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:024",
+        "EL2-R-pattern_example_coverage:024"
+      ],
+      "id": "pattern_example_coverage:024"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:025, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:025",
+        "EL2-R-pattern_example_coverage:025"
+      ],
+      "id": "pattern_example_coverage:025"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:026, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:026",
+        "EL2-R-pattern_example_coverage:026"
+      ],
+      "id": "pattern_example_coverage:026"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:027, collocation:032, collocation:033, collocation:034, collocation:035, collocation:036",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:027",
+        "EL2-R-pattern_example_coverage:027"
+      ],
+      "id": "pattern_example_coverage:027"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:005, definition:005",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:005",
+        "EL2-R-sense_definition_consistency:005"
+      ],
+      "id": "sense_definition_consistency:005"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:005, definition:005, usage_note:005",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:005",
+        "EL2-R-definition_usage_consistency:005"
+      ],
+      "id": "definition_usage_consistency:005"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:005, definition:005, synonym:013",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:005",
+        "EL2-R-definition_lexical_relation_consistency:005"
+      ],
+      "id": "definition_lexical_relation_consistency:005"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:028, collocation:037, collocation:038, collocation:039, collocation:040",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:028",
+        "EL2-R-pattern_example_coverage:028"
+      ],
+      "id": "pattern_example_coverage:028"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:029, collocation:037, collocation:038, collocation:039, collocation:040",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:029",
+        "EL2-R-pattern_example_coverage:029"
+      ],
+      "id": "pattern_example_coverage:029"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:030, collocation:037, collocation:038, collocation:039, collocation:040",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:030",
+        "EL2-R-pattern_example_coverage:030"
+      ],
+      "id": "pattern_example_coverage:030"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:006, definition:006",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:006",
+        "EL2-R-sense_definition_consistency:006"
+      ],
+      "id": "sense_definition_consistency:006"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:006, definition:006, usage_note:006",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:006",
+        "EL2-R-definition_usage_consistency:006"
+      ],
+      "id": "definition_usage_consistency:006"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:006, definition:006, synonym:014",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:006",
+        "EL2-R-definition_lexical_relation_consistency:006"
+      ],
+      "id": "definition_lexical_relation_consistency:006"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:031, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:031",
+        "EL2-R-pattern_example_coverage:031"
+      ],
+      "id": "pattern_example_coverage:031"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:032, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:032",
+        "EL2-R-pattern_example_coverage:032"
+      ],
+      "id": "pattern_example_coverage:032"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:033, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:033",
+        "EL2-R-pattern_example_coverage:033"
+      ],
+      "id": "pattern_example_coverage:033"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:034, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:034",
+        "EL2-R-pattern_example_coverage:034"
+      ],
+      "id": "pattern_example_coverage:034"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:035, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:035",
+        "EL2-R-pattern_example_coverage:035"
+      ],
+      "id": "pattern_example_coverage:035"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:036, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:036",
+        "EL2-R-pattern_example_coverage:036"
+      ],
+      "id": "pattern_example_coverage:036"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:037, collocation:041, collocation:042, collocation:043, collocation:044, collocation:045, collocation:046, collocation:047, collocation:048, collocation:049, collocation:050",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:037",
+        "EL2-R-pattern_example_coverage:037"
+      ],
+      "id": "pattern_example_coverage:037"
+    },
+    {
+      "status": "pass",
+      "notes": "語義見出しと定義の品詞・可算性・中心意味が一致している。照合対象: sense_boundary:007, definition:007",
+      "evidence_link_ids": [
+        "EL1-R-sense_definition_consistency:007",
+        "EL2-R-sense_definition_consistency:007"
+      ],
+      "id": "sense_definition_consistency:007"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と語法注意の意味範囲・例外・専門的限定が矛盾せず、誤一般化を生まない。照合対象: sense_boundary:007, definition:007, usage_note:007",
+      "evidence_link_ids": [
+        "EL1-R-definition_usage_consistency:007",
+        "EL2-R-definition_usage_consistency:007"
+      ],
+      "id": "definition_usage_consistency:007"
+    },
+    {
+      "status": "pass",
+      "notes": "定義と類義語群の重なり・上下関係・相違軸が整合している。照合対象: sense_boundary:007, definition:007, synonym:015",
+      "evidence_link_ids": [
+        "EL1-R-definition_lexical_relation_consistency:007",
+        "EL2-R-definition_lexical_relation_consistency:007"
+      ],
+      "id": "definition_lexical_relation_consistency:007"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:038, collocation:051, collocation:052, collocation:053, collocation:054, collocation:055",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:038",
+        "EL2-R-pattern_example_coverage:038"
+      ],
+      "id": "pattern_example_coverage:038"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:039, collocation:051, collocation:052, collocation:053, collocation:054, collocation:055",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:039",
+        "EL2-R-pattern_example_coverage:039"
+      ],
+      "id": "pattern_example_coverage:039"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:040, collocation:051, collocation:052, collocation:053, collocation:054, collocation:055",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:040",
+        "EL2-R-pattern_example_coverage:040"
+      ],
+      "id": "pattern_example_coverage:040"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:041, collocation:051, collocation:052, collocation:053, collocation:054, collocation:055",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:041",
+        "EL2-R-pattern_example_coverage:041"
+      ],
+      "id": "pattern_example_coverage:041"
+    },
+    {
+      "status": "pass",
+      "notes": "文法パターンが対応するコロケーションと例文で自然に実現され、英文と訳の意味役割が一致している。照合対象: grammar_pattern:042, collocation:051, collocation:052, collocation:053, collocation:054, collocation:055",
+      "evidence_link_ids": [
+        "EL1-R-pattern_example_coverage:042",
+        "EL2-R-pattern_example_coverage:042"
+      ],
+      "id": "pattern_example_coverage:042"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの語義列挙が全7語義を漏れなく一度ずつ扱い、語義構成と一致している。照合対象: core_image:001, sense_boundary:001, sense_boundary:002, sense_boundary:003, sense_boundary:004, sense_boundary:005, sense_boundary:006, sense_boundary:007",
+      "evidence_link_ids": [
+        "EL1-R-core_inventory_consistency:001",
+        "EL2-R-core_inventory_consistency:001"
+      ],
+      "id": "core_inventory_consistency:001"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:002, sense_boundary:001, definition:001, usage_note:001",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:001",
+        "EL2-R-core_sense_mapping:001"
+      ],
+      "id": "core_sense_mapping:001"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:003, sense_boundary:002, definition:002, usage_note:002",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:002",
+        "EL2-R-core_sense_mapping:002"
+      ],
+      "id": "core_sense_mapping:002"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:004, sense_boundary:003, definition:003, usage_note:003",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:003",
+        "EL2-R-core_sense_mapping:003"
+      ],
+      "id": "core_sense_mapping:003"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:005, sense_boundary:004, definition:004, usage_note:004",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:004",
+        "EL2-R-core_sense_mapping:004"
+      ],
+      "id": "core_sense_mapping:004"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:006, sense_boundary:005, definition:005, usage_note:005",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:005",
+        "EL2-R-core_sense_mapping:005"
+      ],
+      "id": "core_sense_mapping:005"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:007, sense_boundary:006, definition:006, usage_note:006",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:006",
+        "EL2-R-core_sense_mapping:006"
+      ],
+      "id": "core_sense_mapping:006"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:008, sense_boundary:007, definition:007, usage_note:007",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:007",
+        "EL2-R-core_sense_mapping:007"
+      ],
+      "id": "core_sense_mapping:007"
+    },
+    {
+      "status": "pass",
+      "notes": "コアイメージの枝と対応語義の見出し・定義・語法が同じ中心関係を表し、境界説明も一致している。照合対象: core_image:009, sense_boundary:001, definition:001, usage_note:001",
+      "evidence_link_ids": [
+        "EL1-R-core_sense_mapping:008",
+        "EL2-R-core_sense_mapping:008"
+      ],
+      "id": "core_sense_mapping:008"
+    },
+    {
+      "status": "pass",
+      "notes": "記事横断で配布行為、結果状態、商業流通、配電、金融分配、ソフトウェア、Python、超関数の境界を確認し、誤った一律化がない。照合対象: core_image:001, core_image:002, core_image:003, core_image:004, core_image:005, core_image:006, core_image:007, core_image:008, core_image:009, sense_boundary:001, definition:001, usage_note:001, sense_boundary:002, definition:002, usage_note:002, sense_boundary:003, definition:003, usage_note:003, sense_boundary:004, definition:004, usage_note:004, sense_boundary:005, definition:005, usage_note:005, sense_boundary:006, definition:006, usage_note:006, sense_boundary:007, definition:007, usage_note:007",
+      "evidence_link_ids": [
+        "EL1-R-article_learning_risk:001",
+        "EL2-R-article_learning_risk:001"
+      ],
+      "id": "article_learning_risk:001"
+    }
+  ]
+}

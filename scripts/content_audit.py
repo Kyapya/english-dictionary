@@ -189,8 +189,9 @@ def validate_invalidation_registry(repo_root: Path = REPO_ROOT) -> list[str]:
         for key in ("entry_path", "body_sha256", "invalidated_at", "reason"):
             if not _nonempty(record.get(key)):
                 errors.append(f"{label}.{key} is required")
-        if record.get("status") != "invalidated":
-            errors.append(f"{label}.status must be invalidated")
+        record_status = record.get("status")
+        if record_status not in {"invalidated", "superseded"}:
+            errors.append(f"{label}.status must be invalidated or superseded")
         _sha256_value(record.get("body_sha256"), f"{label}.body_sha256", errors)
         _timestamp(record.get("invalidated_at"), f"{label}.invalidated_at", errors)
         categories = record.get("defect_categories")
@@ -210,13 +211,31 @@ def validate_invalidation_registry(repo_root: Path = REPO_ROOT) -> list[str]:
             errors.append(f"{label}.entry_path does not exist")
             continue
         actual_hash = body_sha256(entry)
-        if actual_hash != record.get("body_sha256"):
-            errors.append(f"{label}.body_sha256 does not match the current entry body")
-        front, _ = _split_front_matter(entry.read_text(encoding="utf-8"))
-        if front.get("status") != "needs_review" or front.get("checked") != "false":
-            errors.append(
-                f"{label} requires entry status needs_review and checked false"
+        if record_status == "invalidated":
+            if actual_hash != record.get("body_sha256"):
+                errors.append(
+                    f"{label}.body_sha256 no longer matches the current entry body; "
+                    "mark the record superseded and bind its replacement body"
+                )
+            front, _ = _split_front_matter(entry.read_text(encoding="utf-8"))
+            if front.get("status") != "needs_review" or front.get("checked") != "false":
+                errors.append(
+                    f"{label} requires entry status needs_review and checked false"
+                )
+        elif record_status == "superseded":
+            for key_name in ("superseded_at", "superseded_by_body_sha256"):
+                if not _nonempty(record.get(key_name)):
+                    errors.append(f"{label}.{key_name} is required")
+            _timestamp(record.get("superseded_at"), f"{label}.superseded_at", errors)
+            _sha256_value(
+                record.get("superseded_by_body_sha256"),
+                f"{label}.superseded_by_body_sha256",
+                errors,
             )
+            if record.get("superseded_by_body_sha256") == record.get("body_sha256"):
+                errors.append(
+                    f"{label}.superseded_by_body_sha256 must differ from body_sha256"
+                )
     return errors
 
 

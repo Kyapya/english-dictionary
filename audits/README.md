@@ -42,7 +42,7 @@ relationは件数を網羅性の代用にしません。語義所属は各target
 
 通常・コールド・最終盲検・最終照合の原出力は別々のJSONで保存し、候補、target/relation判定、scope anchor、finding、evidence check、inventory check、blocker、decisionを監査マニフェストと項目単位で一致させます。件数集計だけの原出力は認めません。
 
-見逃しが判明した旧PASSは `review_invalidations.json` へentry pathと本文SHA-256を登録し、本文を変更しなくても記事とqueueを `needs_review`、checked `false` へ戻します。次回審査で新しいsemantic gateを完成させるまで再びcheckedにはできません。
+見逃しが判明した旧PASSは `review_invalidations.json` へentry pathと本文SHA-256を登録し、本文を変更しなくても記事とqueueを `needs_review`、checked `false` へ戻します。本文を修正したら記録を削除せず `superseded` に変更し、`superseded_at` と最初の修正版本文SHA-256を記録します。次回審査で新しいsemantic gateを完成させるまで再びcheckedにはできません。
 
 記事本文を修正した場合は同じ監査欄の本文ハッシュを上書きせず、まず次のように新しいcycleを開始します。コマンドは旧監査の原文を `audits/history/` に退避し、そのSHA-256を追記して、新しい本文から未判定のcycleを作ります。
 
