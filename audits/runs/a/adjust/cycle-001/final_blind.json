@@ -1,0 +1,430 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-adjust-cycle001-20260821",
+  "context_id": "final-adjust-context-free-20260821",
+  "input_body_sha256": "e8c9231553cacf43e7dd4811906f6708dd4ba7111ed3b400727c45646ef46ac0",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "adjust (general adjustment)",
+      "frame": "adjust O; adjust O to N; adjust O for N",
+      "meaning": "設定・量・数値・計画・位置などを条件や目的に合うよう変更する。",
+      "disposition": "included",
+      "rationale": "標準的で頻度の高い中心義で、物理的調整、計画変更、数値補正を収録する。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-01-A1",
+          "statement": "adjust (general adjustment) is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-01-A2",
+          "statement": "adjust (general adjustment) must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "adjust to N / adjust to doing",
+      "frame": "adjust to N; adjust to doing; adjust oneself to N",
+      "meaning": "新しい環境・状態・活動に適応して慣れる。",
+      "disposition": "included",
+      "rationale": "主要な適応義で、前置詞toとdoingの構文を明示する。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-02-A1",
+          "statement": "adjust to N / adjust to doing is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-02-A2",
+          "statement": "adjust to N / adjust to doing must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "middle adjust",
+      "frame": "S adjusts easily; S adjusts to size/height",
+      "meaning": "製品・部品が調整できるという中間態的性質を表す。",
+      "disposition": "included",
+      "rationale": "物主語の製品説明用法を、人・市場の適応義と混同しないよう独立に棚卸しする。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-03-A1",
+          "statement": "middle adjust is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-03-A2",
+          "statement": "middle adjust must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "adjust for statistics",
+      "frame": "adjust A for B; adjust for B; adjusted for B",
+      "meaning": "要因を考慮・統計的に統制し、数値を補正する。",
+      "disposition": "included",
+      "rationale": "直接の数値補正と統計モデル上の要因統制の両方を含む重要構文である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-04-A1",
+          "statement": "adjust for statistics is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-04-A2",
+          "statement": "adjust for statistics must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "adjust differences",
+      "frame": "adjust differences; adjust differences between parties",
+      "meaning": "正式・低頻度に、相違や争いを合意へ近づける。",
+      "disposition": "included",
+      "rationale": "辞書に記録された用法だが、現代の一般的な産出ではsettle/resolve/reconcileを優先する限定付き項目である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-05-A1",
+          "statement": "adjust differences is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-05-A2",
+          "statement": "adjust differences must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "adjust an insurance claim/loss",
+      "frame": "adjust a claim; adjust a loss; be adjusted by an insurer",
+      "meaning": "保険請求・損害を調査・評価し、補償範囲や支払額を査定する。",
+      "disposition": "included",
+      "rationale": "保険制度に固有の重要な専門義である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-06-A1",
+          "statement": "adjust an insurance claim/loss is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-06-A2",
+          "statement": "adjust an insurance claim/loss must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "adjust accounts",
+      "frame": "adjust the accounts; adjust an account or transaction amount",
+      "meaning": "会計記録や取引額を記録・計算上整える。",
+      "disposition": "included",
+      "rationale": "会計領域の用法を統計上の数値補正や対立解決と区別する。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-07-A1",
+          "statement": "adjust accounts is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-07-A2",
+          "statement": "adjust accounts must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "adjust fire",
+      "frame": "adjust fire; adjust sight/aim/fire",
+      "meaning": "軍事で照準・射撃諸元を修正する。",
+      "disposition": "included",
+      "rationale": "一般的なadjustからは予測しにくい軍事専門用法で、明示的な領域ラベルが必要である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-08-A1",
+          "statement": "adjust fire is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-08-A2",
+          "statement": "adjust fire must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "Kindly adjust",
+      "frame": "Kindly adjust.",
+      "meaning": "Indian Englishで不便や制約を受け入れて合わせるよう求める表現。",
+      "disposition": "included",
+      "rationale": "地域的・主に書き言葉の定型表現として、標準英語の一般構文と分けて収録する。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-09-A1",
+          "statement": "Kindly adjust is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-09-A2",
+          "statement": "Kindly adjust must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-10",
+      "surface_form": "adjustment",
+      "frame": "adjustment; an adjustment to N; adjustment for inflation",
+      "meaning": "調整・修正・適応・数値補正を表す名詞。",
+      "disposition": "included",
+      "rationale": "主要な名詞派生で、動詞の複数の意味領域を横断する。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-10-A1",
+          "statement": "adjustment is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-10-A2",
+          "statement": "adjustment must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-11",
+      "surface_form": "adjustable",
+      "frame": "adjustable + noun; be adjustable",
+      "meaning": "調整できる。",
+      "disposition": "included",
+      "rationale": "製品説明で生産性が高い派生形容詞である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-11-A1",
+          "statement": "adjustable is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-11-A2",
+          "statement": "adjustable must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-12",
+      "surface_form": "adjusted compounds",
+      "frame": "seasonally adjusted; inflation-adjusted; risk-adjusted",
+      "meaning": "特定要因を考慮して補正された。",
+      "disposition": "included",
+      "rationale": "統計・経済・金融で頻出する過去分詞・複合修飾用法である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-12-A1",
+          "statement": "adjusted compounds is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-12-A2",
+          "statement": "adjusted compounds must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-13",
+      "surface_form": "adjuster",
+      "frame": "adjuster; claims/insurance/loss adjuster",
+      "meaning": "調整する人・装置、特に保険損害の査定担当者。",
+      "disposition": "included",
+      "rationale": "保険用法と結び付く重要な派生名詞である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-13-A1",
+          "statement": "adjuster is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-13-A2",
+          "statement": "adjuster must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-14",
+      "surface_form": "readjust",
+      "frame": "readjust O; readjust to N",
+      "meaning": "変化後の状況へ改めて調整・適応する。",
+      "disposition": "included",
+      "rationale": "再調整を表す標準的な接頭辞派生である。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-14-A1",
+          "statement": "readjust is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-14-A2",
+          "statement": "readjust must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-15",
+      "surface_form": "well-adjusted / maladjusted",
+      "frame": "a well-adjusted child; a maladjusted person",
+      "meaning": "心理・社会面でうまく適応した／適応できていない。",
+      "disposition": "included",
+      "rationale": "語彙化した評価形容詞とその対照的な派生形を扱う。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-15-A1",
+          "statement": "well-adjusted / maladjusted is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-15-A2",
+          "statement": "well-adjusted / maladjusted must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-16",
+      "surface_form": "adjustor",
+      "frame": "adjustor (less common spelling variant)",
+      "meaning": "adjusterの綴りの変 variant。",
+      "disposition": "included",
+      "rationale": "保険用語の綴り variant として記事内で範囲を限定している。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-16-A1",
+          "statement": "adjustor is represented only within the article frame and meaning recorded for this candidate.",
+          "polarity": "must_hold",
+          "scope": "mapped article targets and incident relations"
+        },
+        {
+          "id": "IC-16-A2",
+          "statement": "adjustor must not be generalized beyond its recorded register, subject type, or construction.",
+          "polarity": "must_not_hold",
+          "scope": "cross-section usage notes and sense boundaries"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-17",
+      "surface_form": "adjust to do",
+      "frame": "*adjust to do for the meaning get used to doing",
+      "meaning": "〜することに慣れるという意味での bare infinitive 構文。",
+      "disposition": "excluded",
+      "rationale": "前置詞toの後は名詞句または動名詞であり、意図した意味ではadjust to doingを用いる。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-17-A1",
+          "statement": "The article must not present adjust to do as an unqualified general production pattern.",
+          "polarity": "must_not_hold",
+          "scope": "explicit exclusions and usage notes"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-18",
+      "surface_form": "adjust debts / adjust a tax basis",
+      "frame": "specialized legal or tax uses",
+      "meaning": "法律・税務制度に限定された拡張用法。",
+      "disposition": "excluded",
+      "rationale": "一般学習者向けの本稿では範囲外とし、未収録を明示的に棚卸しする。",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "IC-18-A1",
+          "statement": "The article must not present adjust debts / adjust a tax basis as an unqualified general production pattern.",
+          "polarity": "must_not_hold",
+          "scope": "explicit exclusions and usage notes"
+        }
+      ],
+      "evidence_link_ids": []
+    }
+  ],
+  "article_findings": []
+}
