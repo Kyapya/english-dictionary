@@ -133,7 +133,7 @@ semantic gateのない旧監査を互換読み込みする場合も、`checked` 
 }
 ```
 
-`semantic_assertions` は盲検原出力 `audits/runs/.../final_blind.json` に実体を残す。照合開始後に追加・変更してはならない。ハードゲートは盲検原出力と最終監査JSONのassertionが一致することを確認する。
+`semantic_assertions` は盲検原出力 `audits/runs/.../final_blind.json` に実体を残す。`blind_seal_v2` はassertion本体をsealハッシュへ含める。seal済み監査JSONと盲検原出力を最終照合前の独立コミットとして保存し、後続コミットで照合結果を記録する。照合開始後に追加・変更してはならない。ハードゲートは盲検原出力と最終監査JSONのassertionが一致すること、およびGit履歴に照合前checkpointが存在することを確認する。
 
 監査台帳を開いた後、各最終candidateについて `semantic_gate.final_inventory_checks` を1件ずつ作る。
 

@@ -27,7 +27,7 @@
 python scripts/content_audit.py seal-blind audits/a/apple.json
 ```
 
-盲検原出力 `audits/runs/.../final_blind.json` にも、各候補の `semantic_assertions` を候補本体と同時に保存する。照合開始後にassertionを追加・削除・変更してはならない。
+盲検原出力 `audits/runs/.../final_blind.json` にも、各候補の `semantic_assertions` を候補本体と同時に保存する。`seal-blind` は `blind_seal_v2` と `sealed_at` を記録し、assertion本体を含めてハッシュ化する。seal直後の監査JSONと盲検原出力を、監査記録を開く前に一度コミットする。その後の別コミットでのみ `reconciliation_started_at`、監査側target・根拠リンクID、照合結果、最終合否を追加する。同一コミットでsealと最終照合を完成させてはならず、照合開始後にassertionを追加・削除・変更してはならない。
 
 照合開始後に次を追加で渡す。
 
@@ -46,6 +46,7 @@ python scripts/content_audit.py seal-blind audits/a/apple.json
 - 項目数、監査件数、形式検証の成功を内容の正しさの代用にしない。
 - 未判定項目、未確認資料、未解決候補を「軽微」として通過させない。
 - 盲検出力を固定した後に、通常チェックの棚卸しへ合わせて独立棚卸し、問題候補、`semantic_assertions` を書き換えない。
+- seal済み盲検状態の先行コミットを作らず、同一コミットで監査照合と最終合否まで記録しない。
 - 以前のrevisionで修正済みという説明だけで、現在の本文でもfindingが解決済みだと扱わない。
 
 ## 全監査対象の個別判定

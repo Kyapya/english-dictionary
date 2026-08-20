@@ -150,6 +150,10 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("根拠台帳", final)
         self.assertIn("body_sha256", final)
         self.assertIn("seal-blind", final)
+        self.assertIn("blind_seal_v2", final)
+        self.assertIn("semantic_assertions", final)
+        self.assertIn("先行コミット", final)
+        self.assertIn("別コミット", final)
         self.assertIn("blind_review.article_findings", final)
         self.assertIn("final_review.independent_candidates", final)
         self.assertIn("final_review.inventory_comparison", final)
@@ -202,6 +206,11 @@ class PromptContractTests(unittest.TestCase):
             with self.subTest(marker=marker):
                 self.assertIn(marker, combined)
         self.assertIn("文面の一致だけでは拒否しません", audits)
+        self.assertIn("semantic_assertions", audits)
+        self.assertIn("Git履歴", audits)
+        self.assertTrue(
+            (REPO_ROOT / "audits" / "BLIND_SEAL_CHRONOLOGY_REQUIRED").is_file()
+        )
         self.assertIn("全語義ペアの直積は作らない", final)
         self.assertIn("対照表現", (REPO_ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8"))
 

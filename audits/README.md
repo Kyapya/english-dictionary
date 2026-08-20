@@ -17,11 +17,13 @@ python scripts/content_audit.py validate entries/a/apple.md
 2. `cold_reviewer`: 通常仕様が想定していない問題候補を独立に発見する。
 3. `final_adjudicator`: 先に本文だけで盲検棚卸しと問題探索を行い、出力を固定した後に監査記録を開き、全target・relation・棚卸し候補・finding・根拠を個別判定して最終合否を記録する。
 
-盲検審査の候補内容と問題候補を記録したら、監査記録を最終審査担当へ見せる前に次を実行します。最終審査側候補のtarget・根拠リンクIDは監査記録を開いた後の照合データなので、固定後に追加できますが、候補の表層形・フレーム・意味・収録判断・理由は変更できません。
+盲検審査の候補内容、各候補の `semantic_assertions`、問題候補を原出力へ記録したら、監査記録を最終審査担当へ見せる前に次を実行します。最終審査側候補のtarget・根拠リンクIDは監査記録を開いた後の照合データなので、seal時点では空にし、固定後に追加できます。候補の表層形・フレーム・意味・収録判断・理由・`semantic_assertions` は変更できません。
 
 ```bash
 python scripts/content_audit.py seal-blind audits/a/apple.json
 ```
+
+このコマンドは `blind_seal_v2` と `sealed_at` を記録し、`semantic_assertions` を含む盲検内容と `final_blind.json` を照合して固定します。実行直後の監査JSONと `final_blind.json` を、最終照合を始める前に一度コミットしてください。その後、別コミットで `reconciliation_started_at`、target・根拠リンクID、全最終判定、合否を追加します。CIはPRのGit履歴を検査し、同じコミットで盲検sealと最終照合を完成させた状態を拒否します。
 
 監査ファイルには少なくとも次が残ります。
 
