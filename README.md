@@ -15,7 +15,7 @@
 5. 文脈を継承しない独立実行へ、front matterを除いた最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡し、コールドレビューを1回行う。生成仕様、チェック仕様、見出し語名、target/relation、過去の指摘、差分、queue、logs、既存判定は渡さない。コールドレビューは仕様が想定していない問題候補を本文引用付きscope anchorで返し、本文修正、体系的な全件保証、最終合否は担当しない。
 6. 通常チェック担当がコールドレビューの各候補を現行仕様と信頼できる資料で検証し、`採用`、`不採用`、`保留` に判定する。各resolutionに問題確認、理由、必要変更、影響範囲、実施変更、残存リスク、根拠リンクを記録し、採用指摘だけを本文へ反映する。保留があれば `needs_review` にする。
 7. コールドレビューの指摘を1件以上採用した場合は、修正版の最新版全文に対して内容監査、双方向照合、語義境界・学習者の誤った一般化の監査、発音監査、書式監査を再実行する。採用が0件の場合は全文再検査を省略する。通常チェック担当は、必要工程の完了後もstatusを `review_ready`、checkedを `false` とする。
-8. 通常チェック担当とコールドレビュー担当のどちらとも異なる実行が、`prompts/final_review_spec_v1.md` と修正後本文だけから盲検の独立棚卸しと問題探索を行い、`scripts/content_audit.py seal-blind` で出力を固定する。その後に監査記録と根拠を開き、両者の棚卸しを双方向比較し、全target・relation・候補・findingを一つずつ判定する。本文は修正しない。
+8. 通常チェック担当とコールドレビュー担当のどちらとも異なる実行が、`prompts/final_review_spec_v1.md` と修正後本文だけから盲検の独立棚卸し、`semantic_assertions`、問題探索を作り、`scripts/content_audit.py seal-blind` で出力を固定する。seal済み状態を先行コミットに保存してから監査記録と根拠を開き、後続コミットで両者の棚卸しを双方向比較し、全target・relation・候補・findingを一つずつ判定する。本文は修正しない。
 9. 本文ハッシュに結び付いた `PASS` の場合だけ、調整役が判定を変更せず `queue/words.csv` とfront matterをstatus `checked`、checked `true` へ同期する。`REJECT` も完了した正常な監査結果として保存し、status `needs_review`、checked `false` で通常チェック側の修正へ戻す。
 10. 最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、`scripts/content_audit.py validate`、全単体テストを実行する。
 11. エージェントが専用ブランチへcommit・pushし、Pull Requestを作成する。

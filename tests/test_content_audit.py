@@ -3,6 +3,7 @@ from __future__ import annotations
 import copy
 import hashlib
 import json
+import subprocess
 import sys
 import tempfile
 import unittest
@@ -246,8 +247,10 @@ class ContentAuditTests(unittest.TestCase):
             "body_sha256": manifest["body_sha256"],
             "decision": "pass",
             "blind_review": {
+                "seal_version": content_audit.BLIND_SEAL_VERSION,
                 "completed": True,
                 "recorded_at": "2026-08-13T12:08:00Z",
+                "sealed_at": "2026-08-13T12:08:30Z",
                 "body_sha256": manifest["body_sha256"],
                 "audit_visible": False,
                 "provisional_decision": "pass",
@@ -261,6 +264,14 @@ class ContentAuditTests(unittest.TestCase):
                     "frame": "a sample of 〈名詞〉",
                     "meaning": "全体を表す一部",
                     "disposition": "included",
+                    "semantic_assertions": [
+                        {
+                            "id": "final-candidate:001:A1",
+                            "statement": "The sample is a part selected to represent a larger whole.",
+                            "polarity": "must_hold",
+                            "scope": "sense 1 definition and examples",
+                        }
+                    ],
                     "article_target_ids": [target_ids[0]],
                     "rationale": "Independently identified before seeing the audit manifest.",
                     "evidence_link_ids": [final_candidate_link],
@@ -361,7 +372,22 @@ class ContentAuditTests(unittest.TestCase):
                 raw["summary"] = review["summary"]  # type: ignore[index]
                 raw["findings"] = review["findings"]  # type: ignore[index]
             elif stage == "final_blind":
-                raw["independent_candidates"] = review["independent_candidates"]  # type: ignore[index]
+                raw["provisional_decision"] = review["blind_review"]["provisional_decision"]  # type: ignore[index]
+                raw["independent_candidates"] = [
+                    {
+                        key: candidate[key]
+                        for key in (
+                            "id",
+                            "surface_form",
+                            "frame",
+                            "meaning",
+                            "disposition",
+                            "rationale",
+                            "semantic_assertions",
+                        )
+                    }
+                    for candidate in review["independent_candidates"]  # type: ignore[index]
+                ]
                 raw["article_findings"] = review["blind_review"]["article_findings"]  # type: ignore[index]
             elif stage == "final_review":
                 raw["adjudication"] = {
@@ -401,6 +427,48 @@ class ContentAuditTests(unittest.TestCase):
             json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
+
+    def _blind_checkpoint(self, manifest: dict[str, object]) -> dict[str, object]:
+        checkpoint = copy.deepcopy(manifest)
+        final = checkpoint["final_review"]
+        final["reviewed_at"] = ""  # type: ignore[index]
+        final["completed"] = False  # type: ignore[index]
+        final["decision"] = "pending"  # type: ignore[index]
+        final["execution"]["completed_at"] = ""  # type: ignore[index]
+        final["execution"]["reconciliation_started_at"] = ""  # type: ignore[index]
+        final["execution"]["reconciliation_input_artifacts"] = []  # type: ignore[index]
+        for key in (
+            "inventory_comparison",
+            "blind_finding_results",
+            "target_results",
+            "relation_results",
+            "candidate_results",
+            "finding_results",
+            "evidence_checks",
+            "blockers",
+        ):
+            final[key] = []  # type: ignore[index]
+        for candidate in final["independent_candidates"]:  # type: ignore[index]
+            candidate["article_target_ids"] = []
+            candidate["evidence_link_ids"] = []
+        final["blind_review"]["sealed_at"] = ""  # type: ignore[index]
+        final["blind_review"]["output_sha256"] = ""  # type: ignore[index]
+        checkpoint["semantic_gate"]["final_inventory_checks"] = []  # type: ignore[index]
+        checkpoint["current_cycle"]["raw_outputs"]["final_review"] = {}  # type: ignore[index]
+        checkpoint["current_cycle"]["raw_outputs"]["final_blind"][  # type: ignore[index]
+            "sealed_output_sha256"
+        ] = ""
+        return checkpoint
+
+    def _git(self, *args: str) -> str:
+        result = subprocess.run(
+            ["git", *args],
+            cwd=self.root,
+            check=True,
+            text=True,
+            capture_output=True,
+        )
+        return result.stdout.strip()
 
     def test_extracts_generic_review_units(self) -> None:
         targets = extract_targets(self.entry)
@@ -642,6 +710,15 @@ class ContentAuditTests(unittest.TestCase):
         errors = validate_manifest(self.entry, self.audit, self.root)
         self.assertTrue(any("output_sha256" in error for error in errors))
 
+    def test_blind_review_seal_detects_semantic_assertion_changes(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["final_review"]["independent_candidates"][0][  # type: ignore[index]
+            "semantic_assertions"
+        ][0]["statement"] = "Changed after the blind review."
+        self._write(manifest)
+        errors = validate_manifest(self.entry, self.audit, self.root)
+        self.assertTrue(any("output_sha256" in error for error in errors))
+
     def test_reconciliation_ids_do_not_change_blind_seal(self) -> None:
         manifest = self._complete_manifest()
         before = manifest["final_review"]["blind_review"]["output_sha256"]  # type: ignore[index]
@@ -655,15 +732,89 @@ class ContentAuditTests(unittest.TestCase):
         self.assertEqual(after, before)
 
     def test_blind_review_can_be_sealed_before_reconciliation(self) -> None:
-        manifest = self._complete_manifest()
-        manifest["final_review"]["blind_review"]["output_sha256"] = ""  # type: ignore[index]
+        manifest = self._blind_checkpoint(self._complete_manifest())
         self._write(manifest)
         self.assertEqual(seal_blind_review(self.audit), [])
         sealed = json.loads(self.audit.read_text(encoding="utf-8"))
         self.assertEqual(
+            sealed["final_review"]["blind_review"]["seal_version"],
+            content_audit.BLIND_SEAL_VERSION,
+        )
+        self.assertTrue(sealed["final_review"]["blind_review"]["sealed_at"])
+        self.assertEqual(
             sealed["final_review"]["blind_review"]["output_sha256"],
             blind_review_sha256(sealed["final_review"]),
         )
+
+    def test_blind_review_cannot_be_sealed_after_reconciliation(self) -> None:
+        manifest = self._complete_manifest()
+        manifest["final_review"]["blind_review"]["output_sha256"] = ""  # type: ignore[index]
+        self._write(manifest)
+        errors = seal_blind_review(self.audit)
+        self.assertTrue(any("before final adjudication" in error for error in errors))
+        self.assertTrue(any("before reconciliation" in error for error in errors))
+
+    def test_blind_chronology_accepts_separate_checkpoint_commit(self) -> None:
+        complete = self._complete_manifest()
+        checkpoint = self._blind_checkpoint(complete)
+        self._git("init", "-q")
+        self._git("config", "user.name", "Audit Test")
+        self._git("config", "user.email", "audit@example.invalid")
+        self._git("add", "entries/s/sample.md")
+        self._git("commit", "-qm", "base")
+        base = self._git("rev-parse", "HEAD")
+
+        self._write(checkpoint)
+        self.assertEqual(seal_blind_review(self.audit), [])
+        sealed_checkpoint = json.loads(self.audit.read_text(encoding="utf-8"))
+        self._git(
+            "add",
+            "audits/s/sample.json",
+            "audits/runs/s/sample/cycle-001/final_blind.json",
+        )
+        self._git("commit", "-qm", "seal blind review")
+
+        complete["final_review"]["blind_review"] = sealed_checkpoint["final_review"][  # type: ignore[index]
+            "blind_review"
+        ]
+        complete["current_cycle"]["raw_outputs"]["final_blind"] = sealed_checkpoint[  # type: ignore[index]
+            "current_cycle"
+        ]["raw_outputs"]["final_blind"]
+        self._write(complete)
+        self._git(
+            "add",
+            "audits/s/sample.json",
+            "audits/runs/s/sample/cycle-001/final_review.json",
+        )
+        self._git("commit", "-qm", "record final reconciliation")
+        head = self._git("rev-parse", "HEAD")
+        self.assertEqual(
+            content_audit._validate_blind_chronology_transition(
+                self.audit, base, head, self.root
+            ),
+            [],
+        )
+
+    def test_blind_chronology_rejects_single_commit_finalization(self) -> None:
+        complete = self._complete_manifest()
+        self._git("init", "-q")
+        self._git("config", "user.name", "Audit Test")
+        self._git("config", "user.email", "audit@example.invalid")
+        self._git("add", "entries/s/sample.md")
+        self._git("commit", "-qm", "base")
+        base = self._git("rev-parse", "HEAD")
+        self._write(complete)
+        self._git(
+            "add",
+            "audits/s/sample.json",
+            "audits/runs/s/sample/cycle-001/final_blind.json",
+        )
+        self._git("commit", "-qm", "blind and final together")
+        head = self._git("rev-parse", "HEAD")
+        errors = content_audit._validate_blind_chronology_transition(
+            self.audit, base, head, self.root
+        )
+        self.assertTrue(any("pre-reconciliation checkpoint" in error for error in errors))
 
     def test_reconciliation_cannot_start_before_blind_output(self) -> None:
         manifest = self._complete_manifest()

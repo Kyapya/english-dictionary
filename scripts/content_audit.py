@@ -20,6 +20,8 @@ FINAL_STATUSES = {"checked", "final"}
 AUDITED_STATUSES = {"needs_review", "review_ready", "checked", "final"}
 INVALIDATION_REGISTRY = Path("audits/review_invalidations.json")
 INVALIDATION_SCHEMA_VERSION = "review_invalidations_v1"
+BLIND_SEAL_VERSION = "blind_seal_v2"
+BLIND_CHRONOLOGY_MARKER = Path("audits/BLIND_SEAL_CHRONOLOGY_REQUIRED")
 SENSE_PATTERN = re.compile(r"^\d+\.\s*【.+】")
 HIGH_RISK_MARKERS = re.compile(
     r"必ず|常に|通常|原則|のみ|だけ|不可|できない|誤り|非文|"
@@ -738,8 +740,10 @@ def build_manifest(entry_path: Path, repo_root: Path = REPO_ROOT) -> dict[str, A
             "body_sha256": "",
             "decision": "pending",
             "blind_review": {
+                "seal_version": BLIND_SEAL_VERSION,
                 "completed": False,
                 "recorded_at": "",
+                "sealed_at": "",
                 "body_sha256": "",
                 "audit_visible": False,
                 "provisional_decision": "pending",
@@ -768,27 +772,66 @@ def blind_review_sha256(final_review: dict[str, Any]) -> str:
     if isinstance(candidates, list):
         for candidate in candidates:
             if isinstance(candidate, dict):
-                sealed_candidates.append(
-                    {
-                        key: candidate.get(key)
-                        for key in (
-                            "id",
-                            "surface_form",
-                            "frame",
-                            "meaning",
-                            "disposition",
-                            "rationale",
-                        )
-                    }
-                )
-    payload = {
-        "body_sha256": blind.get("body_sha256"),
-        "provisional_decision": blind.get("provisional_decision"),
-        # Target/evidence IDs are reconciliation data and are intentionally excluded.
-        "independent_candidates": sealed_candidates,
-        "article_findings": blind.get("article_findings"),
-    }
+                keys = [
+                    "id",
+                    "surface_form",
+                    "frame",
+                    "meaning",
+                    "disposition",
+                    "rationale",
+                ]
+                if blind.get("seal_version") == BLIND_SEAL_VERSION:
+                    keys.append("semantic_assertions")
+                sealed_candidates.append({key: candidate.get(key) for key in keys})
+    if blind.get("seal_version") == BLIND_SEAL_VERSION:
+        payload = {
+            "seal_version": BLIND_SEAL_VERSION,
+            "completed": blind.get("completed"),
+            "recorded_at": blind.get("recorded_at"),
+            "sealed_at": blind.get("sealed_at"),
+            "body_sha256": blind.get("body_sha256"),
+            "audit_visible": blind.get("audit_visible"),
+            "provisional_decision": blind.get("provisional_decision"),
+            # Target/evidence IDs are reconciliation data and are intentionally excluded.
+            "independent_candidates": sealed_candidates,
+            "article_findings": blind.get("article_findings"),
+        }
+    else:
+        # Preserve validation compatibility for already-completed v1 seals.
+        payload = {
+            "body_sha256": blind.get("body_sha256"),
+            "provisional_decision": blind.get("provisional_decision"),
+            "independent_candidates": sealed_candidates,
+            "article_findings": blind.get("article_findings"),
+        }
     return _digest(json.dumps(payload, ensure_ascii=False, sort_keys=True))
+
+
+def _validate_semantic_assertions(candidate: dict[str, Any], label: str) -> list[str]:
+    errors: list[str] = []
+    assertions = candidate.get("semantic_assertions")
+    if not isinstance(assertions, list) or not assertions:
+        return [f"{label}.semantic_assertions must be a non-empty list"]
+    seen: set[str] = set()
+    for assertion in assertions:
+        if not isinstance(assertion, dict):
+            errors.append(f"{label}.semantic_assertions contains a non-object")
+            continue
+        assertion_id = assertion.get("id")
+        if not _nonempty(assertion_id):
+            errors.append(f"{label}.semantic_assertions contains an assertion without an id")
+        elif assertion_id in seen:
+            errors.append(f"{label}.semantic_assertions has duplicate id: {assertion_id}")
+        else:
+            seen.add(assertion_id)
+        for key in ("statement", "scope"):
+            if not _nonempty(assertion.get(key)):
+                errors.append(f"{label} assertion {assertion_id or '<unknown>'} requires {key}")
+        if assertion.get("polarity") not in {"must_hold", "must_not_hold"}:
+            errors.append(
+                f"{label} assertion {assertion_id or '<unknown>'} has invalid polarity"
+            )
+    return errors
 
 
 def _nonempty(value: Any) -> bool:
@@ -1915,9 +1958,17 @@ def _validate_v2_manifest(
             errors.append("final blind review must record audit_visible as false")
         if blind.get("provisional_decision") not in {"pass", "reject"}:
             errors.append("final blind review provisional_decision must be pass or reject")
+        seal_version = blind.get("seal_version")
+        if seal_version not in {None, BLIND_SEAL_VERSION}:
+            errors.append(f"final blind review seal_version must be {BLIND_SEAL_VERSION}")
         blind_recorded = _timestamp(
             blind.get("recorded_at"), "final_review.blind_review.recorded_at", errors
         )
+        blind_sealed = None
+        if seal_version == BLIND_SEAL_VERSION:
+            blind_sealed = _timestamp(
+                blind.get("sealed_at"), "final_review.blind_review.sealed_at", errors
+            )
         final_started = _timestamp(
             final_execution.get("started_at"),
             "final_review.execution.started_at",
@@ -1940,6 +1991,18 @@ def _validate_v2_manifest(
         ):
             errors.append("final blind review was recorded before final execution started")
         if (
+            blind_recorded is not None
+            and blind_sealed is not None
+            and blind_sealed < blind_recorded
+        ):
+            errors.append("final blind review was sealed before it was recorded")
+        if (
+            blind_sealed is not None
+            and reconciliation_started is not None
+            and reconciliation_started < blind_sealed
+        ):
+            errors.append("final reconciliation started before blind review was sealed")
+        elif (
             blind_recorded is not None
             and reconciliation_started is not None
             and reconciliation_started < blind_recorded
@@ -1965,6 +2028,12 @@ def _validate_v2_manifest(
                     errors.append(f"final candidate {candidate_id} requires non-empty {key}")
             if candidate.get("disposition") not in {"included", "excluded"}:
                 errors.append(f"final candidate {candidate_id} has invalid disposition")
+            if seal_version == BLIND_SEAL_VERSION:
+                errors.extend(
+                    _validate_semantic_assertions(
+                        candidate, f"final candidate {candidate_id}"
+                    )
+                )
             article_target_ids = candidate.get("article_target_ids")
             if not isinstance(article_target_ids, list):
                 errors.append(f"final candidate {candidate_id}.article_target_ids must be a list")
@@ -2502,9 +2571,178 @@ def _validate_append_only_transition(
     return errors
 
 
+def _validate_blind_chronology_transition(
+    audit_path: Path,
+    base: str,
+    head: str,
+    repo_root: Path,
+) -> list[str]:
+    """Require a sealed, pre-reconciliation blind checkpoint in Git history."""
+    try:
+        audit_relative = audit_path.resolve().relative_to(repo_root.resolve()).as_posix()
+        head_manifest = json.loads(audit_path.read_text(encoding="utf-8"))
+    except (ValueError, OSError, json.JSONDecodeError):
+        return []
+    if not isinstance(head_manifest, dict):
+        return []
+    head_final = head_manifest.get("final_review")
+    if not isinstance(head_final, dict) or head_final.get("decision") not in {"pass", "reject"}:
+        return []
+    head_blind = head_final.get("blind_review")
+    if not isinstance(head_blind, dict) or head_blind.get("seal_version") != BLIND_SEAL_VERSION:
+        return [
+            f"completed reviews must use {BLIND_SEAL_VERSION} after blind chronology enforcement"
+        ]
+    cycle = head_manifest.get("current_cycle")
+    raw_outputs = cycle.get("raw_outputs") if isinstance(cycle, dict) else None
+    raw_reference = raw_outputs.get("final_blind") if isinstance(raw_outputs, dict) else None
+    raw_relative = raw_reference.get("path") if isinstance(raw_reference, dict) else None
+    if not _nonempty(raw_relative) or not str(raw_relative).startswith("audits/runs/"):
+        return ["blind chronology requires a final_blind raw output path under audits/runs/"]
+    raw_relative = str(raw_relative)
+    if Path(raw_relative).is_absolute() or ".." in Path(raw_relative).parts:
+        return ["blind chronology requires a safe final_blind raw output path"]
+    head_raw = _git_file_at(head, raw_relative, repo_root)
+    if head_raw is None:
+        return ["blind chronology cannot read the final_blind raw output at HEAD"]
+
+    result = subprocess.run(
+        [
+            "git",
+            "rev-list",
+            "--reverse",
+            f"{base}..{head}",
+            "--",
+            audit_relative,
+            raw_relative,
+        ],
+        cwd=repo_root,
+        check=True,
+        text=True,
+        capture_output=True,
+    )
+    revisions = [base, *[line for line in result.stdout.splitlines() if line.strip()]]
+    cycle_id = cycle.get("cycle_id") if isinstance(cycle, dict) else None
+    body_hash = head_manifest.get("body_sha256")
+    completed_revisions: list[str] = []
+    checkpoint_revisions: list[str] = []
+    final_result_fields = (
+        "inventory_comparison",
+        "blind_finding_results",
+        "target_results",
+        "relation_results",
+        "candidate_results",
+        "finding_results",
+        "evidence_checks",
+        "blockers",
+    )
+
+    for revision in revisions:
+        manifest_bytes = _git_file_at(revision, audit_relative, repo_root)
+        if manifest_bytes is None:
+            continue
+        try:
+            candidate_manifest = json.loads(manifest_bytes.decode("utf-8"))
+        except (UnicodeDecodeError, json.JSONDecodeError):
+            continue
+        if not isinstance(candidate_manifest, dict):
+            continue
+        candidate_cycle = candidate_manifest.get("current_cycle")
+        if (
+            not isinstance(candidate_cycle, dict)
+            or candidate_cycle.get("cycle_id") != cycle_id
+            or candidate_manifest.get("body_sha256") != body_hash
+        ):
+            continue
+        candidate_final = candidate_manifest.get("final_review")
+        if not isinstance(candidate_final, dict):
+            continue
+        if candidate_final.get("decision") in {"pass", "reject"}:
+            candidate_blind = candidate_final.get("blind_review")
+            if (
+                isinstance(candidate_blind, dict)
+                and candidate_blind.get("output_sha256") == head_blind.get("output_sha256")
+            ):
+                completed_revisions.append(revision)
+            continue
+        candidate_blind = candidate_final.get("blind_review")
+        execution = candidate_final.get("execution")
+        candidate_gate = candidate_manifest.get("semantic_gate")
+        candidate_raw_outputs = candidate_cycle.get("raw_outputs")
+        candidate_raw_reference = (
+            candidate_raw_outputs.get("final_blind")
+            if isinstance(candidate_raw_outputs, dict)
+            else None
+        )
+        is_checkpoint = (
+            candidate_final.get("decision") == "pending"
+            and candidate_final.get("completed") is False
+            and isinstance(execution, dict)
+            and not _nonempty(execution.get("reconciliation_started_at"))
+            and execution.get("reconciliation_input_artifacts") in ([], None)
+            and all(candidate_final.get(key) in ([], None) for key in final_result_fields)
+            and isinstance(candidate_final.get("independent_candidates"), list)
+            and all(
+                isinstance(item, dict)
+                and item.get("article_target_ids") in ([], None)
+                and item.get("evidence_link_ids") in ([], None)
+                for item in candidate_final.get("independent_candidates", [])
+            )
+            and (
+                not isinstance(candidate_gate, dict)
+                or candidate_gate.get("final_inventory_checks") in ([], None)
+            )
+            and isinstance(candidate_blind, dict)
+            and candidate_blind.get("seal_version") == BLIND_SEAL_VERSION
+            and candidate_blind.get("completed") is True
+            and _nonempty(candidate_blind.get("sealed_at"))
+            and candidate_blind.get("output_sha256") == head_blind.get("output_sha256")
+            and candidate_blind.get("output_sha256")
+            == blind_review_sha256(candidate_final)
+            and isinstance(candidate_raw_reference, dict)
+            and candidate_raw_reference.get("path") == raw_relative
+            and candidate_raw_reference.get("sealed_output_sha256")
+            == candidate_blind.get("output_sha256")
+        )
+        if not is_checkpoint:
+            continue
+        candidate_raw = _git_file_at(revision, raw_relative, repo_root)
+        if candidate_raw != head_raw:
+            continue
+        if candidate_raw_reference.get("sha256") != hashlib.sha256(head_raw).hexdigest():
+            continue
+        if revision == head:
+            continue
+        checkpoint_revisions.append(revision)
+
+    def is_ancestor(ancestor: str, descendant: str) -> bool:
+        ancestor_check = subprocess.run(
+            ["git", "merge-base", "--is-ancestor", ancestor, descendant],
+            cwd=repo_root,
+            check=False,
+            capture_output=True,
+        )
+        return ancestor_check.returncode == 0
+
+    for checkpoint in checkpoint_revisions:
+        if any(is_ancestor(completed, checkpoint) for completed in completed_revisions):
+            continue
+        if any(is_ancestor(checkpoint, completed) for completed in completed_revisions):
+            return []
+
+    return [
+        "blind chronology requires an immutable pre-reconciliation checkpoint: "
+        "commit the sealed blind manifest and final_blind raw output first, then record "
+        "reconciliation and the final decision in a later commit"
+    ]
+
+
 def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
     changed = _git_changed_paths(base, head, repo_root)
+    chronology_required = (
+        _git_file_at(base, BLIND_CHRONOLOGY_MARKER.as_posix(), repo_root) is not None
+    )
     if INVALIDATION_REGISTRY.as_posix() in changed:
         errors.extend(validate_invalidation_registry(repo_root))
     entry_paths = {
@@ -2541,6 +2779,11 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
                 relative, entry_path, audit_path, base, repo_root
             ):
                 errors.append(f"{relative}: {error}")
+            if chronology_required:
+                for error in _validate_blind_chronology_transition(
+                    audit_path, base, head, repo_root
+                ):
+                    errors.append(f"{relative}: {error}")
     return errors
 
 
@@ -2727,8 +2970,37 @@ def seal_blind_review(audit_path: Path) -> list[str]:
     blind = final.get("blind_review")
     if not isinstance(blind, dict):
         return ["final_review.blind_review must be an object"]
+    if final.get("decision") != "pending" or final.get("completed") is not False:
+        errors.append("blind review must be sealed before final adjudication")
+    execution = final.get("execution")
+    if not isinstance(execution, dict):
+        errors.append("final_review.execution must be an object")
+        execution = {}
+    for key in ("run_id", "context_id", "started_at", "input_body_sha256", "prompt_sha256"):
+        if not _nonempty(execution.get(key)):
+            errors.append(f"final_review.execution.{key} is required before blind sealing")
+    if execution.get("context_mode") != "context_free":
+        errors.append("final_review.execution.context_mode must be context_free")
+    input_artifacts = execution.get("input_artifacts")
+    if not isinstance(input_artifacts, list) or set(input_artifacts) != {
+        "entry_body",
+        "final_review_spec",
+    }:
+        errors.append(
+            "final_review.execution.input_artifacts must be entry_body and final_review_spec"
+        )
+    if _nonempty(execution.get("reconciliation_started_at")):
+        errors.append("blind review must be sealed before reconciliation starts")
+    if execution.get("reconciliation_input_artifacts") not in ([], None):
+        errors.append("reconciliation input artifacts must be empty before blind sealing")
     if blind.get("completed") is not True:
         errors.append("blind review must be completed before sealing")
+    if not _nonempty(blind.get("recorded_at")):
+        errors.append("blind review recorded_at is required before sealing")
+    if blind.get("body_sha256") != manifest.get("body_sha256"):
+        errors.append("blind review body_sha256 must match the current audited body")
+    if execution.get("input_body_sha256") != blind.get("body_sha256"):
+        errors.append("final execution input body must match the blind review body")
     if blind.get("audit_visible") is not False:
         errors.append("blind review must record audit_visible as false before sealing")
     if blind.get("provisional_decision") not in {"pass", "reject"}:
@@ -2736,11 +3008,133 @@ def seal_blind_review(audit_path: Path) -> list[str]:
     candidates = final.get("independent_candidates")
     if not isinstance(candidates, list) or not candidates:
         errors.append("blind review requires an independent inventory before sealing")
+    elif isinstance(candidates, list):
+        for index, candidate in enumerate(candidates):
+            if not isinstance(candidate, dict):
+                errors.append(f"final candidate at index {index} must be an object")
+                continue
+            for key in ("id", "surface_form", "frame", "meaning", "rationale"):
+                if not _nonempty(candidate.get(key)):
+                    errors.append(f"final candidate {index} requires non-empty {key}")
+            if candidate.get("disposition") not in {"included", "excluded"}:
+                errors.append(f"final candidate {candidate.get('id') or index} has invalid disposition")
+            errors.extend(
+                _validate_semantic_assertions(
+                    candidate,
+                    f"final candidate {candidate.get('id') or index}",
+                )
+            )
+            for reconciliation_key in ("article_target_ids", "evidence_link_ids"):
+                if candidate.get(reconciliation_key) not in ([], None):
+                    errors.append(
+                        f"final candidate {candidate.get('id') or index}.{reconciliation_key} "
+                        "must be empty before blind sealing"
+                    )
     if not isinstance(blind.get("article_findings"), list):
         errors.append("blind review article_findings must be a list")
+    for key in (
+        "inventory_comparison",
+        "blind_finding_results",
+        "target_results",
+        "relation_results",
+        "candidate_results",
+        "finding_results",
+        "evidence_checks",
+        "blockers",
+    ):
+        if final.get(key) not in ([], None):
+            errors.append(f"final_review.{key} must be empty before blind sealing")
+    gate = manifest.get("semantic_gate")
+    if isinstance(gate, dict) and gate.get("final_inventory_checks") not in ([], None):
+        errors.append("semantic_gate.final_inventory_checks must be empty before blind sealing")
+
+    cycle = manifest.get("current_cycle")
+    raw_outputs = cycle.get("raw_outputs") if isinstance(cycle, dict) else None
+    reference = raw_outputs.get("final_blind") if isinstance(raw_outputs, dict) else None
+    if not isinstance(reference, dict) or not reference:
+        errors.append("current_cycle.raw_outputs.final_blind is required before sealing")
+        reference = {}
+    raw_path: Path | None = None
+    audit_parts = audit_path.resolve().parts
+    try:
+        audits_index = len(audit_parts) - 1 - audit_parts[::-1].index("audits")
+        repo_root = Path(*audit_parts[:audits_index])
+    except ValueError:
+        repo_root = REPO_ROOT
+    if repo_root == Path("."):
+        repo_root = Path("/")
+    if reference:
+        for key in ("input_body_sha256", "prompt_sha256", "run_id", "context_id"):
+            if reference.get(key) != execution.get(key):
+                errors.append(
+                    f"current_cycle.raw_outputs.final_blind.{key} must match final execution"
+                )
+        raw_path = _safe_repo_file(reference.get("path"), repo_root, "audits/runs/")
+        if raw_path is None or not raw_path.is_file():
+            errors.append("current_cycle.raw_outputs.final_blind.path must exist under audits/runs/")
+        else:
+            raw_bytes = raw_path.read_bytes()
+            try:
+                raw = json.loads(raw_bytes.decode("utf-8"))
+            except (UnicodeDecodeError, json.JSONDecodeError):
+                errors.append("final blind raw output must contain a JSON object")
+                raw = None
+            if isinstance(raw, dict):
+                if raw.get("stage") != "final_blind":
+                    errors.append("final blind raw output stage must be final_blind")
+                if raw.get("run_id") != execution.get("run_id"):
+                    errors.append("final blind raw output run_id must match final execution")
+                if raw.get("input_body_sha256") != blind.get("body_sha256"):
+                    errors.append("final blind raw output body hash must match blind review")
+                if raw.get("provisional_decision") != blind.get("provisional_decision"):
+                    errors.append("final blind raw output provisional_decision must match blind review")
+                raw_candidates = raw.get("independent_candidates")
+                if not isinstance(raw_candidates, list) or len(raw_candidates) != len(candidates):
+                    errors.append("final blind raw output candidates must match the blind inventory")
+                else:
+                    blind_keys = (
+                        "id",
+                        "surface_form",
+                        "frame",
+                        "meaning",
+                        "disposition",
+                        "rationale",
+                        "semantic_assertions",
+                    )
+                    projected_raw = [
+                        {key: item.get(key) for key in blind_keys}
+                        for item in raw_candidates
+                        if isinstance(item, dict)
+                    ]
+                    if any(
+                        item.get(key) not in ([], None)
+                        for item in raw_candidates
+                        if isinstance(item, dict)
+                        for key in ("article_target_ids", "evidence_link_ids")
+                    ):
+                        errors.append(
+                            "final blind raw output must not contain reconciliation IDs"
+                        )
+                    projected_final = [
+                        {key: item.get(key) for key in blind_keys}
+                        for item in candidates
+                        if isinstance(item, dict)
+                    ]
+                    if projected_raw != projected_final:
+                        errors.append("final blind raw output candidates must match the blind inventory")
+                if raw.get("article_findings") != blind.get("article_findings"):
+                    errors.append("final blind raw output findings must match the blind review")
+            elif raw is not None:
+                errors.append("final blind raw output must contain a JSON object")
     if errors:
         return errors
+    blind["seal_version"] = BLIND_SEAL_VERSION
+    blind["sealed_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
     blind["output_sha256"] = blind_review_sha256(final)
+    assert raw_path is not None
+    raw_sha = hashlib.sha256(raw_path.read_bytes()).hexdigest()
+    reference["sha256"] = raw_sha
+    reference["sealed_output_sha256"] = blind["output_sha256"]
     audit_path.write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",

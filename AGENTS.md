@@ -132,7 +132,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 ## 第三者の最終審査
 
 - 最終審査は、通常チェックとコールドレビューのどちらも担当していない文脈非継承の別実行で行う。
-- 最終審査担当は `prompts/final_review_spec_v1.md` だけを最初から最後まで読み、最初は最新版記事だけから独立棚卸しと問題探索を行う。監査ファイルを見せる前に盲検出力を `scripts/content_audit.py seal-blind` で固定し、その後に監査記録と根拠資料を開いて照合する。
+- 最終審査担当は `prompts/final_review_spec_v1.md` だけを最初から最後まで読み、最初は最新版記事だけから独立棚卸し、`semantic_assertions`、問題探索を行う。監査ファイルを見せる前に盲検出力を `scripts/content_audit.py seal-blind` で固定し、seal済み監査JSONと盲検原出力を先行コミットへ保存する。その後に監査記録と根拠資料を開いて照合し、最終結果は別コミットへ保存する。
 - 本文から自動生成された全target・relation、通常チェック側の全独立棚卸し候補、盲検審査とコールドレビューの全findingを一つずつ判定し、通常・最終の棚卸しを双方向比較して未判定を残さない。採用findingでは全scope anchor、affected target、当該targetに接続する全relation、全文queryの再計算結果をblast radiusへ含める。
 - 高リスクtarget、生成された全relation、全独立候補について、資料名が存在するだけでなく、主張単位の根拠リンクの具体的位置と適用範囲が実際に主張を支持することを `evidence_checks` で1件ずつ確認する。`two_sources_or_primary` の対象は独立した2引用元または直接適用できる一次資料を要求する。
 - 最終審査担当は本文を修正せず、`PASS` または `REJECT` とblockerだけを監査ファイルへ記録する。自分で直した版へ自分で合格を出さない。
