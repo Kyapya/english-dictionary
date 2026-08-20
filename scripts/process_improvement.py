@@ -1,0 +1,453 @@
+from __future__ import annotations
+
+import argparse
+import json
+import re
+import sys
+from collections import Counter
+from pathlib import Path
+from typing import Any
+
+
+REPO_ROOT = Path(__file__).resolve().parents[1]
+IMPROVEMENT_DIR = REPO_ROOT / "process_improvement"
+RECORDS_DIR = IMPROVEMENT_DIR / "records"
+ACTIVE_PATH = IMPROVEMENT_DIR / "ACTIVE.md"
+
+SCHEMA_VERSION = "project_process_improvement_v1"
+ID_PATTERN = re.compile(r"PI-[0-9]{4}")
+STATUSES = {"candidate", "trial", "active", "retired"}
+CATEGORIES = {"quality", "efficiency", "reliability", "maintainability"}
+SEVERITIES = {"low", "medium", "high", "critical"}
+PHASES = {
+    "planning",
+    "generation",
+    "normal_review",
+    "cold_review_handoff",
+    "cold_resolution",
+    "final_review",
+    "audit_mutation",
+    "validation",
+    "publication",
+    "all",
+}
+VALIDATION_RESULTS = {"not_started", "pending", "pass", "fail"}
+ENFORCEMENT_MODES = {
+    "coordinator_playbook",
+    "canonical_spec",
+    "script_or_ci",
+    "mixed",
+}
+MAX_RECORD_BYTES = 16_384
+MAX_PLAYBOOK_BYTES = 12_288
+MAX_PLAYBOOK_RECORDS = 20
+
+REQUIRED_KEYS = {
+    "schema_version",
+    "id",
+    "title",
+    "status",
+    "category",
+    "severity",
+    "scope",
+    "problem_pattern",
+    "generalized_insight",
+    "action_rule",
+    "applicability",
+    "exceptions",
+    "generalization_gate",
+    "evidence",
+    "validation",
+    "enforcement",
+    "created_at",
+    "updated_at",
+}
+
+
+def _nonempty_string(value: Any) -> bool:
+    return isinstance(value, str) and bool(value.strip())
+
+
+def _normalized(value: str) -> str:
+    return " ".join(value.casefold().split())
+
+
+def _load_records(repo_root: Path = REPO_ROOT) -> tuple[list[dict[str, Any]], list[str]]:
+    records_dir = repo_root / "process_improvement" / "records"
+    errors: list[str] = []
+    records: list[dict[str, Any]] = []
+    if not records_dir.is_dir():
+        return [], [f"process-improvement records directory not found: {records_dir}"]
+
+    for path in sorted(records_dir.glob("PI-*.json")):
+        if path.stat().st_size > MAX_RECORD_BYTES:
+            errors.append(
+                f"{path.relative_to(repo_root)}: record exceeds {MAX_RECORD_BYTES} bytes"
+            )
+            continue
+        try:
+            record = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError) as exc:
+            errors.append(f"{path.relative_to(repo_root)}: invalid JSON: {exc}")
+            continue
+        if not isinstance(record, dict):
+            errors.append(f"{path.relative_to(repo_root)}: top level must be an object")
+            continue
+        record["_path"] = path
+        records.append(record)
+    return records, errors
+
+
+def _validate_string_list(
+    value: Any, *, label: str, allowed: set[str] | None = None
+) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(value, list) or not value:
+        return [f"{label} must be a non-empty list"]
+    for index, item in enumerate(value):
+        if not _nonempty_string(item):
+            errors.append(f"{label}[{index}] must be a non-empty string")
+        elif allowed is not None and item not in allowed:
+            errors.append(f"{label}[{index}] has unsupported value {item!r}")
+    if len(value) != len(set(value)):
+        errors.append(f"{label} contains duplicates")
+    return errors
+
+
+def _validate_record(record: dict[str, Any], repo_root: Path) -> list[str]:
+    path = record.get("_path")
+    label = path.relative_to(repo_root).as_posix() if isinstance(path, Path) else "record"
+    errors: list[str] = []
+    keys = set(record) - {"_path"}
+    missing = sorted(REQUIRED_KEYS - keys)
+    extra = sorted(keys - REQUIRED_KEYS)
+    if missing:
+        errors.append(f"{label}: missing keys: {', '.join(missing)}")
+    if extra:
+        errors.append(f"{label}: unsupported keys: {', '.join(extra)}")
+    if missing:
+        return errors
+
+    record_id = record["id"]
+    if not _nonempty_string(record_id) or not ID_PATTERN.fullmatch(record_id):
+        errors.append(f"{label}: id must match PI-0000")
+    elif isinstance(path, Path) and path.stem != record_id:
+        errors.append(f"{label}: filename must match id {record_id}")
+
+    for key, limit in (
+        ("title", 120),
+        ("problem_pattern", 1200),
+        ("generalized_insight", 1200),
+        ("action_rule", 1200),
+        ("exceptions", 800),
+        ("created_at", 40),
+        ("updated_at", 40),
+    ):
+        if not _nonempty_string(record[key]):
+            errors.append(f"{label}: {key} must be a non-empty string")
+        elif len(record[key]) > limit:
+            errors.append(f"{label}: {key} exceeds {limit} characters")
+
+    if record["schema_version"] != SCHEMA_VERSION:
+        errors.append(f"{label}: unsupported schema_version")
+    if record["status"] not in STATUSES:
+        errors.append(f"{label}: unsupported status {record['status']!r}")
+    if record["category"] not in CATEGORIES:
+        errors.append(f"{label}: unsupported category {record['category']!r}")
+    if record["severity"] not in SEVERITIES:
+        errors.append(f"{label}: unsupported severity {record['severity']!r}")
+    if record["scope"] != "cross_entry_workflow":
+        errors.append(
+            f"{label}: scope must be 'cross_entry_workflow'; entry-specific notes do not belong here"
+        )
+    errors.extend(
+        _validate_string_list(
+            record["applicability"], label=f"{label}: applicability", allowed=PHASES
+        )
+    )
+
+    gate = record["generalization_gate"]
+    if not isinstance(gate, dict):
+        errors.append(f"{label}: generalization_gate must be an object")
+    else:
+        expected = {"repeated_across_runs", "high_impact_single_run", "rationale"}
+        if set(gate) != expected:
+            errors.append(f"{label}: generalization_gate keys must be {sorted(expected)}")
+        repeated = gate.get("repeated_across_runs")
+        high_impact = gate.get("high_impact_single_run")
+        if not isinstance(repeated, bool) or not isinstance(high_impact, bool):
+            errors.append(f"{label}: generalization gate flags must be booleans")
+        elif not (repeated or high_impact):
+            errors.append(
+                f"{label}: reject memo-like records; require recurrence or one high-impact event"
+            )
+        if not _nonempty_string(gate.get("rationale")):
+            errors.append(f"{label}: generalization_gate.rationale is required")
+        if high_impact and record["severity"] not in {"high", "critical"}:
+            errors.append(
+                f"{label}: high_impact_single_run requires high or critical severity"
+            )
+
+    evidence = record["evidence"]
+    if not isinstance(evidence, list) or not evidence:
+        errors.append(f"{label}: evidence must contain at least one observed run or PR")
+        evidence = []
+    elif len(evidence) > 10:
+        errors.append(f"{label}: evidence is capped at 10 items; summarize repeated evidence")
+    evidence_sources: list[str] = []
+    for index, item in enumerate(evidence):
+        item_label = f"{label}: evidence[{index}]"
+        if not isinstance(item, dict) or set(item) != {"source", "observation"}:
+            errors.append(f"{item_label} must contain only source and observation")
+            continue
+        for key in ("source", "observation"):
+            if not _nonempty_string(item[key]):
+                errors.append(f"{item_label}.{key} must be a non-empty string")
+            elif len(item[key]) > 800:
+                errors.append(f"{item_label}.{key} exceeds 800 characters")
+        if _nonempty_string(item.get("source")):
+            evidence_sources.append(item["source"])
+    if (
+        isinstance(gate, dict)
+        and gate.get("repeated_across_runs") is True
+        and len(set(evidence_sources)) < 2
+    ):
+        errors.append(f"{label}: repeated_across_runs requires two distinct evidence sources")
+
+    validation = record["validation"]
+    if not isinstance(validation, dict):
+        errors.append(f"{label}: validation must be an object")
+    else:
+        expected = {"hypothesis", "measures", "window_runs", "observed_runs", "result", "notes"}
+        if set(validation) != expected:
+            errors.append(f"{label}: validation keys must be {sorted(expected)}")
+        if not _nonempty_string(validation.get("hypothesis")):
+            errors.append(f"{label}: validation.hypothesis is required")
+        errors.extend(
+            _validate_string_list(
+                validation.get("measures"), label=f"{label}: validation.measures"
+            )
+        )
+        window = validation.get("window_runs")
+        observed = validation.get("observed_runs")
+        if not isinstance(window, int) or isinstance(window, bool) or window < 1:
+            errors.append(f"{label}: validation.window_runs must be a positive integer")
+        if not isinstance(observed, int) or isinstance(observed, bool) or observed < 0:
+            errors.append(f"{label}: validation.observed_runs must be a non-negative integer")
+        if (
+            isinstance(window, int)
+            and isinstance(observed, int)
+            and observed > window
+        ):
+            errors.append(f"{label}: validation.observed_runs cannot exceed window_runs")
+        result = validation.get("result")
+        if result not in VALIDATION_RESULTS:
+            errors.append(f"{label}: unsupported validation result {result!r}")
+        if not isinstance(validation.get("notes"), str):
+            errors.append(f"{label}: validation.notes must be a string")
+        if record["status"] == "trial" and result != "pending":
+            errors.append(f"{label}: trial status requires validation.result=pending")
+        if record["status"] == "active" and result != "pass":
+            errors.append(f"{label}: active status requires validation.result=pass")
+        if record["status"] == "retired" and result not in {"pass", "fail"}:
+            errors.append(f"{label}: retired status requires a completed validation result")
+
+    enforcement = record["enforcement"]
+    if not isinstance(enforcement, dict):
+        errors.append(f"{label}: enforcement must be an object")
+    else:
+        expected = {"mode", "surface_in_playbook", "refs"}
+        if set(enforcement) != expected:
+            errors.append(f"{label}: enforcement keys must be {sorted(expected)}")
+        mode = enforcement.get("mode")
+        surface = enforcement.get("surface_in_playbook")
+        refs = enforcement.get("refs")
+        if mode not in ENFORCEMENT_MODES:
+            errors.append(f"{label}: unsupported enforcement mode {mode!r}")
+        if not isinstance(surface, bool):
+            errors.append(f"{label}: enforcement.surface_in_playbook must be boolean")
+        if surface and mode not in {"coordinator_playbook", "mixed"}:
+            errors.append(
+                f"{label}: only coordinator or mixed rules may surface in ACTIVE.md"
+            )
+        if not isinstance(refs, list):
+            errors.append(f"{label}: enforcement.refs must be a list")
+            refs = []
+        if record["status"] == "active" and not refs:
+            errors.append(f"{label}: active records require an enforceable spec/script/test ref")
+        if record["category"] == "quality" and record["status"] in {"trial", "active"}:
+            if surface:
+                errors.append(
+                    f"{label}: quality rules may not surface in ACTIVE.md as a hidden content spec"
+                )
+            if mode == "coordinator_playbook":
+                errors.append(
+                    f"{label}: trial or active quality rules require canonical spec/script enforcement"
+                )
+            local_refs = [
+                ref
+                for ref in refs
+                if isinstance(ref, str) and "://" not in ref and not ref.startswith("github:")
+            ]
+            if not any(ref.startswith(("prompts/", "scripts/")) for ref in local_refs):
+                errors.append(
+                    f"{label}: trial or active quality rules require a prompts/ or scripts/ ref"
+                )
+            if record["status"] == "active" and not any(
+                ref.startswith("tests/") for ref in local_refs
+            ):
+                errors.append(f"{label}: active quality rules require a tests/ ref")
+        for index, ref in enumerate(refs):
+            if not _nonempty_string(ref):
+                errors.append(f"{label}: enforcement.refs[{index}] must be a string")
+                continue
+            if "://" not in ref and not ref.startswith("github:"):
+                ref_path = repo_root / ref.split("#", 1)[0]
+                if not ref_path.exists():
+                    errors.append(
+                        f"{label}: enforcement ref does not exist: {ref.split('#', 1)[0]}"
+                    )
+
+    return errors
+
+
+def render_active(records: list[dict[str, Any]]) -> str:
+    surfaced = [
+        record
+        for record in records
+        if record.get("status") in {"trial", "active"}
+        and record.get("enforcement", {}).get("surface_in_playbook") is True
+    ]
+    surfaced.sort(key=lambda record: (record["status"] != "trial", record["id"]))
+    lines = [
+        "# Active project-process lessons",
+        "",
+        "<!-- Generated by scripts/process_improvement.py; do not edit directly. -->",
+        "",
+        "このファイルは、単語をまたいで再利用する運用知見のうち、現在の調整役が適用する規則だけを示す。",
+        "記事内容の第二仕様として使わず、コールドレビュー担当と最終盲検担当には渡さない。",
+        "内容品質の恒久ルールは、正式な生成・チェック・最終審査仕様または機械検証へ反映したものだけを有効とする。",
+        "",
+    ]
+    if not surfaced:
+        lines.extend(("現在、調整役が別途適用する規則はありません。", ""))
+    for record in surfaced:
+        status_label = "試行中" if record["status"] == "trial" else "有効"
+        lines.extend(
+            (
+                f"## {record['id']} {record['title']}（{status_label}）",
+                "",
+                f"- 適用工程: {', '.join(record['applicability'])}",
+                f"- 規則: {record['action_rule']}",
+                f"- 例外・非対象: {record['exceptions']}",
+                f"- 効果確認: {record['validation']['hypothesis']}",
+                "",
+            )
+        )
+    return "\n".join(lines)
+
+
+def validate_registry(repo_root: Path = REPO_ROOT) -> list[str]:
+    records, errors = _load_records(repo_root)
+    for record in records:
+        errors.extend(_validate_record(record, repo_root))
+
+    ids = [record.get("id") for record in records if _nonempty_string(record.get("id"))]
+    for record_id, count in Counter(ids).items():
+        if count > 1:
+            errors.append(f"duplicate process-improvement id: {record_id}")
+
+    titles = [_normalized(record["title"]) for record in records if _nonempty_string(record.get("title"))]
+    for title, count in Counter(titles).items():
+        if count > 1:
+            errors.append(f"duplicate process-improvement title: {title}")
+
+    rules = [_normalized(record["action_rule"]) for record in records if _nonempty_string(record.get("action_rule"))]
+    for rule, count in Counter(rules).items():
+        if count > 1:
+            errors.append(f"duplicate process-improvement action rule: {rule[:80]}")
+
+    surfaced_count = sum(
+        1
+        for record in records
+        if record.get("status") in {"trial", "active"}
+        and record.get("enforcement", {}).get("surface_in_playbook") is True
+    )
+    if surfaced_count > MAX_PLAYBOOK_RECORDS:
+        errors.append(
+            f"ACTIVE.md would contain {surfaced_count} records; maximum is {MAX_PLAYBOOK_RECORDS}. "
+            "Promote enforceable rules into canonical specs/scripts instead of growing the playbook."
+        )
+
+    expected_active = render_active(records)
+    if len(expected_active.encode("utf-8")) > MAX_PLAYBOOK_BYTES:
+        errors.append(f"ACTIVE.md would exceed {MAX_PLAYBOOK_BYTES} bytes")
+    active_path = repo_root / "process_improvement" / "ACTIVE.md"
+    if not active_path.is_file():
+        errors.append(f"active process-improvement playbook not found: {active_path}")
+    elif active_path.read_text(encoding="utf-8") != expected_active:
+        errors.append(
+            "process_improvement/ACTIVE.md is stale; run "
+            "python scripts/process_improvement.py render"
+        )
+    return errors
+
+
+def _render(repo_root: Path) -> None:
+    records, errors = _load_records(repo_root)
+    if errors:
+        raise ValueError("\n".join(errors))
+    record_errors: list[str] = []
+    for record in records:
+        record_errors.extend(_validate_record(record, repo_root))
+    if record_errors:
+        raise ValueError("\n".join(record_errors))
+    active_path = repo_root / "process_improvement" / "ACTIVE.md"
+    active_path.write_text(render_active(records), encoding="utf-8")
+
+
+def _summary(repo_root: Path) -> None:
+    records, errors = _load_records(repo_root)
+    if errors:
+        raise ValueError("\n".join(errors))
+    counts = Counter(record.get("status", "invalid") for record in records)
+    print(
+        "Project improvement knowledge: "
+        + ", ".join(f"{status}={counts.get(status, 0)}" for status in sorted(STATUSES))
+    )
+    surfaced = [
+        record
+        for record in records
+        if record.get("status") in {"trial", "active"}
+        and record.get("enforcement", {}).get("surface_in_playbook") is True
+    ]
+    for record in sorted(surfaced, key=lambda item: item["id"]):
+        print(f"- {record['id']} [{record['status']}]: {record['action_rule']}")
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser(description="Manage cross-entry project improvement knowledge")
+    parser.add_argument("command", choices=("validate", "render", "summary"))
+    args = parser.parse_args()
+    try:
+        if args.command == "validate":
+            errors = validate_registry()
+            if errors:
+                print("Project improvement validation failed:", file=sys.stderr)
+                for error in errors:
+                    print(f"- {error}", file=sys.stderr)
+                return 1
+            print("Project improvement validation passed.")
+        elif args.command == "render":
+            _render(REPO_ROOT)
+            print(f"Rendered {ACTIVE_PATH.relative_to(REPO_ROOT)}")
+        else:
+            _summary(REPO_ROOT)
+    except ValueError as exc:
+        print(str(exc), file=sys.stderr)
+        return 1
+    return 0
+
+
+if __name__ == "__main__":
+    raise SystemExit(main())

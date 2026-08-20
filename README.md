@@ -8,8 +8,10 @@
 
 標準フローは次のとおり。
 
+開始時に調整役は `python scripts/process_improvement.py summary` と `python scripts/process_improvement.py validate` を実行し、`process_improvement/ACTIVE.md` の試行中・有効な運用知識を確認する。この情報は作業方法の改善にだけ使い、コールドレビュー担当と最終盲検担当には渡さない。
+
 1. 利用者がCodex等へ「`<見出し語>`を辞書に追加してPRを作成してください」と指示する。
-2. エージェントが `AGENTS.md` と現行完全版 `prompts/entry_spec_v5.md` だけを全文読み、`entries/` に完成記事を直接作成する。チャットの分割出力は使わず、必要な情報が揃うまでファイルを作成・修正する。
+2. 調整役が `AGENTS.md` と `process_improvement/ACTIVE.md` を確認する。本文生成では、記事内容の仕様として現行完全版 `prompts/entry_spec_v5.md` だけを全文読み、`entries/` に完成記事を直接作成する。チャットの分割出力は使わず、必要な情報が揃うまでファイルを作成・修正する。
 3. `scripts/validate_entry.py` で形式検査する。
 4. 通常チェック担当が現行完全版 `prompts/check_spec_v5.md` だけを全文読み、生成時の分類を再利用しないゼロベース監査を行う。`scripts/content_audit.py build` で記事から全targetと、明示対応・混同リスクに絞ったrelationを生成し、各対象の判定、独立棚卸し候補、収録・除外理由、主張単位の根拠リンク、実行履歴を `audits/` へ外部化する。この担当は最終合否を決めない。
 5. 文脈を継承しない独立実行へ、front matterを除いた最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡し、コールドレビューを1回行う。生成仕様、チェック仕様、見出し語名、target/relation、過去の指摘、差分、queue、logs、既存判定は渡さない。コールドレビューは仕様が想定していない問題候補を本文引用付きscope anchorで返し、本文修正、体系的な全件保証、最終合否は担当しない。
@@ -23,6 +25,8 @@
 13. 検証成功後、エージェントがPull Requestを `main` へマージする。利用者がレビュー待ちを明示した場合だけ、マージせず停止する。
 14. `.github/workflows/sync-notion.yml` が同期直前に完成監査を再検証し、通過した完成記事だけをNotionへ同期する。PRで変更された記事はv3を必須とし、未変更の旧監査を手動再同期するときだけ互換検証を使う。
 15. エージェントがNotion同期ワークフローの成功を確認してから依頼完了を報告する。
+
+PR作成前には今回の実行からプロジェクト横断で再利用できる知見が得られたかを確認する。複数実行で再発したか、1回でも高影響であり、具体的な行動規則と測定方法を持つ場合だけ `process_improvement/records/` へ追加する。単語固有の修正、感想、未整理のメモ、「新しい知見なし」は保存しない。候補は検証前にactiveへせず、試行結果に応じて恒久化または廃止する。
 
 Notion同期では `prompts/notion_spec_v1.md` に従い、同じ `ALL=見出し語` のページがあれば本文を更新し、なければ `タグ=英単語` の新規ページを作成する。本文変更前に `Status=進行中` とし、新旧ブロックの入れ替えと更新後検査が完了した後だけ `Status=完了` にする。同じALL値が複数ある場合は、Notion APIの `last_edited_time` が最新のページだけを更新し、ほかの重複ページは変更しない。見出しラベルと本文を分け、コロケーション・類義語・反意語は1エントリ1ブロックにする。GitHub上では同じ見出し語のMarkdownを最新版へ上書きし、GitHubを現行版の正本とする。
 
@@ -64,6 +68,8 @@ GitHubリポジトリでは次を設定する。
 - `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
 - `scripts/content_audit.py`: 本文から全targetと絞り込んだrelation、本文ハッシュを生成し、追記型review cycle、構造化レビュー原出力、実行履歴、盲検最終棚卸しの固定、棚卸し比較、全件判定、主張単位の根拠リンク、コールドレビューの構造化解決、最終 `PASS` または `REJECT` を検証する。
 - `scripts/semantic_resolution_gate.py`: findingのscope anchor、原子的意味制約、blast radius、全文query結果、最終項目判定と原出力の一致、旧PASS無効化を検証する。
+- `scripts/process_improvement.py`: プロジェクト横断の改善recordと、調整役が次回適用する `process_improvement/ACTIVE.md` の整合、重複、汎用化根拠、効果検証、肥大化を検証する。
+- `process_improvement/`: 実行をまたいで再利用できる品質・効率・信頼性上の知見を、candidate・trial・active・retiredに分けて管理する。日次メモや単語固有の指摘は置かない。
 - `audits/`: 通常チェック、両審査の独立棚卸しと比較、主張単位の根拠リンク、コールドレビュー、第三者最終審査、三者の実行履歴を記事ごとに外部化するJSON監査記録。`runs/` に各ステージの原出力、`history/` に旧監査原文、`escaped_defect_taxonomy.json` に汎用の見逃し分類、`review_invalidations.json` に本文ハッシュ単位の旧PASS無効化を置く。
 - `exports/`: CSV、Excel、結合Markdownなどの出力先。
 - `logs/`: 作業ログ。
@@ -103,9 +109,11 @@ CSVやExcelは本文の保存場所ではなく、進捗確認や索引作成の
 
 ## 通常の運用手順
 
+調整役は着手時に `process_improvement/ACTIVE.md` を確認する。内容品質に関する恒久知見は `ACTIVE.md` だけへ隠さず、現行の正本promptとテストへ反映する。
+
 1. `queue/words.csv` に見出し語を追加する。
 2. Codexに件数を指定して生成を依頼する。
-3. Codexは `prompts/entry_spec_v5.md` だけを読み、語義・構文棚卸し、必須構文マトリクス、網羅性照合を行ってから、`entries/` 配下に1語1Markdownで作成する。
+3. 調整役が有効な運用知識を適用し、Codexは記事内容の仕様として `prompts/entry_spec_v5.md` だけを読み、語義・構文棚卸し、必須構文マトリクス、網羅性照合を行ってから、`entries/` 配下に1語1Markdownで作成する。
 4. `scripts/validate_entry.py` で形式検査する。
 5. 形式検査に通ったら、通常チェック担当は `prompts/check_spec_v5.md` だけを読み、既存本文の校正と、生成時の分類を再利用しない独立したゼロベース棚卸しを行う。本文から全target・relationを生成し、全件判定、独立棚卸し候補、主張単位の根拠リンク、実行履歴を `audits/` へ保存する。
 6. 通常チェック後の最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを、文脈を継承しない1つの独立実行へ渡して1回コールドレビューする。担当は仕様が想定していない問題候補の発見だけを行う。

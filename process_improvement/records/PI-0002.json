@@ -1,0 +1,49 @@
+{
+  "schema_version": "project_process_improvement_v1",
+  "id": "PI-0002",
+  "title": "巨大な監査JSONを局所更新する",
+  "status": "trial",
+  "category": "efficiency",
+  "severity": "high",
+  "scope": "cross_entry_workflow",
+  "problem_pattern": "大容量で重複の多い監査JSONを会話出力や全面再生成で受け渡すと、転送破損、意図しない全体再整形、巨大差分、長時間の復旧を招く。",
+  "generalized_insight": "大きな監査成果物では、モデルによる全文の再構成より、リポジトリ上の決定的スクリプトと対象を限定した更新の方が安全で速い。",
+  "action_rule": "監査JSONを変更するときは対象IDと必要箇所を先に絞り、派生値はリポジトリ上のスクリプトで生成・検証する。全文を会話経由で転送・再構成せず、完了前に変更行数と変更対象ファイルを確認して説明できない全面書換えを止める。",
+  "applicability": [
+    "audit_mutation",
+    "validation"
+  ],
+  "exceptions": "小さな新規JSONの初回作成、または正本スクリプトが明示的に完全再生成を要求し、その差分が決定的である場合は対象外。",
+  "generalization_gate": {
+    "repeated_across_runs": false,
+    "high_impact_single_run": true,
+    "rationale": "単一PRでも約13.8万行の増減と転送破損・復旧時間を生じ、同じ監査方式を使う全見出し語で再発可能なため試行対象とする。"
+  },
+  "evidence": [
+    {
+      "source": "https://github.com/Kyapya/english-dictionary/pull/81",
+      "observation": "1語の再監査で92,415行追加・45,867行削除、19ファイル変更となり、大容量JSON転送の破損と復旧が発生した。"
+    }
+  ],
+  "validation": {
+    "hypothesis": "監査JSONを局所更新し、派生値をスクリプトへ限定すれば、転送破損と説明不能な全面書換えを防ぎながら監査品質を維持できる。",
+    "measures": [
+      "会話経由の監査JSON全文転送による破損が0件である",
+      "説明できない監査ファイル全面書換えが0件である",
+      "復旧目的の同一工程再実行が0件である"
+    ],
+    "window_runs": 3,
+    "observed_runs": 0,
+    "result": "pending",
+    "notes": "次の3回の単語作成で効果を確認し、結果によりactiveまたはretiredへ移す。"
+  },
+  "enforcement": {
+    "mode": "coordinator_playbook",
+    "surface_in_playbook": true,
+    "refs": [
+      "process_improvement/README.md"
+    ]
+  },
+  "created_at": "2026-08-20",
+  "updated_at": "2026-08-20"
+}
