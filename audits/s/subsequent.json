@@ -1,0 +1,3005 @@
+{
+  "schema_version": "content_audit_v3",
+  "entry_path": "entries/s/subsequent.md",
+  "body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+  "review_history": [],
+  "current_cycle": {
+    "cycle_id": "cycle-001",
+    "parent_cycle_id": null,
+    "started_at": "2026-08-21T23:00:00+09:00",
+    "change_reason": "initial v5 creation of subsequent",
+    "body_revisions": [
+      {
+        "revision_id": "revision-001",
+        "body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+        "snapshot_path": "audits/runs/s/subsequent/cycle-001/revision-001.md",
+        "created_at": "2026-08-21T23:00:00+09:00",
+        "reason": "initial audited body"
+      }
+    ],
+    "raw_outputs": {
+      "normal_review": {
+        "path": "audits/runs/s/subsequent/cycle-001/normal_review.json",
+        "sha256": "ae62f37f486eab50377488729067ba1c6602c2da5a8d063e0ca1b08c4b2e52db",
+        "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+        "prompt_sha256": "434f07229db943b2d2cbd830aa88a0c9020402da0de3da2d8ec22f4b4c139ed6",
+        "run_id": "normal-subsequent-20260821",
+        "context_id": "normal-subsequent-isolated-20260821"
+      },
+      "cold_review": {
+        "path": "audits/runs/s/subsequent/cycle-001/cold_review.json",
+        "sha256": "93f1ba9cda02061c84865d8cdc7a0d486f915efbceb04032cd1796d017b5a467",
+        "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+        "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+        "run_id": "cold-subsequent-20260821",
+        "context_id": "cold-subsequent-context-free-20260821"
+      },
+      "final_blind": {
+        "path": "audits/runs/s/subsequent/cycle-001/final_blind.json",
+        "sha256": "077de21f305e4e27fa14452f71407288049d77d10ceee865e65bfd0bdb8671b2",
+        "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+        "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
+        "run_id": "final-subsequent-20260821",
+        "context_id": "final-subsequent-context-free-20260821",
+        "sealed_output_sha256": "91b3bc5c8d297c574d7090444de37f9d17177cb9dba78757ef7058b48acc95fe"
+      },
+      "final_review": {}
+    },
+    "escaped_defects": [],
+    "regression_checks": [
+      {
+        "category": "compound_component_generalization",
+        "status": "not_applicable",
+        "notes": "複合語の構成要素から未確認の一般義を推論していない。"
+      },
+      {
+        "category": "argument_slot_role_mismatch",
+        "status": "pass",
+        "notes": "subsequent + 名詞と subsequent to + 名詞句の補語役割を分けて確認した。"
+      },
+      {
+        "category": "regional_qualification",
+        "status": "not_applicable",
+        "notes": "米英差を断定せず、共通発音と形式性を確認した。"
+      },
+      {
+        "category": "technical_terminology_conventionality",
+        "status": "not_applicable",
+        "notes": "専門領域の固定的な別語義を立てず、文書・法律調の用法として扱った。"
+      },
+      {
+        "category": "sense_boundary_overlap",
+        "status": "pass",
+        "notes": "後続の時間・順序と原因結果、連続性を本文内で区別した。"
+      },
+      {
+        "category": "lexical_relation_mislabel",
+        "status": "pass",
+        "notes": "later/following 等の類義語と previous/prior 等の反意語の方向を確認した。"
+      },
+      {
+        "category": "example_translation_alignment",
+        "status": "pass",
+        "notes": "すべての英例文と日本語訳の時間・順序・修飾範囲を照合した。"
+      },
+      {
+        "category": "absolute_scope_counterexample",
+        "status": "pass",
+        "notes": "必ず直後、必ず因果、常に連続などの過剰な一般化がないことを確認した。"
+      },
+      {
+        "category": "pronunciation_symbol_explanation",
+        "status": "pass",
+        "notes": "主強勢、弱母音、subsequent to の to の弱形を出典と照合した。"
+      },
+      {
+        "category": "evidence_claim_mismatch",
+        "status": "pass",
+        "notes": "各主張を辞書・語源資料の該当範囲に割り当てた。"
+      },
+      {
+        "category": "semantic_direction_reversal",
+        "status": "pass",
+        "notes": "subsequent の後続方向と previous/prior の先行方向を逆転させていない。"
+      },
+      {
+        "category": "cross_section_internal_contradiction",
+        "status": "pass",
+        "notes": "定義、文法、語法、用例、類義語・反意語の説明を横断して確認した。"
+      },
+      {
+        "category": "finding_scope_transfer_loss",
+        "status": "not_applicable",
+        "notes": "コールドレビューに問題候補がなく、移送すべき finding はない。"
+      },
+      {
+        "category": "raw_adjudication_manifest_divergence",
+        "status": "pass",
+        "notes": "通常レビューとコールドレビューの raw JSON を監査マニフェストと一致させる準備をした。"
+      }
+    ]
+  },
+  "targets": [
+    {
+      "id": "pronunciation:001",
+      "kind": "pronunciation",
+      "location": "line:4",
+      "section": "＃発音記号",
+      "sense": "",
+      "text_sha256": "cf4b6b08e528b6d7f1ae25b650ffe0599bb330aea5cb2c8c9a0326ef760919d0",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "米・英: /ˈsʌbsɪkwənt/。3音節の sʌb-si-kwənt で、第1音節に主強勢がある。第2音節の /ɪ/ と第3音節の /ə/ は弱くなりやすく、語末は /ənt/ となる。関連表現 subsequent to では、to は通常弱形の /tə/ で、母音の前などで /tu/ となることがある。"
+    },
+    {
+      "id": "etymology:001",
+      "kind": "etymology",
+      "location": "line:8",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "39d216b769229ae7232e76862f2282aed40cb374855e10183d03de0f1f421996",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "中英語期に、古フランス語またはラテン語 subsequent-「後に続く」から入った。ラテン語 subsequi「近くに続く、後を追う」の現在分詞形に由来し、sub-「近く、後に」と sequi「従う、追う」が組み合わさっている。現在の「基準となるものの後に続く」という意味は、この語源上の構成と直接つながる。"
+    },
+    {
+      "id": "etymology:002",
+      "kind": "etymology",
+      "location": "line:9",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "cf8687e273757986de81eaa8151fbaf88fa70a65123a41e4f88055f2f9a4bb56",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "同じ語形成・語根に関係する語には subsequently「その後、後になって」、subsequence「後続すること、後続するもの」、sequence「連続、順序」がある。consequence や pursue も、さらにさかのぼれば「従う、追う」を表す語根に関係するが、subsequent の単純な派生語ではない。"
+    },
+    {
+      "id": "word_formation:001",
+      "kind": "word_formation",
+      "location": "line:13",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "53546502e07f9da5fbf7307c29e55aa001310ac9b96cdb423d11cdfe7ad9995e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・sub- + sequi（ラテン語）→ subsequent：近く後に続くという意味から、現代英語の「後続の、後の」へつながる。"
+    },
+    {
+      "id": "word_formation:002",
+      "kind": "word_formation",
+      "location": "line:14",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "54eadb621232e0449a988bda20ea163de3f4f4ad409b016b6fa004baf00f580c",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・subsequent → subsequently：形容詞 subsequent に -ly を付けた副詞。「その後、後になって」を表し、文全体の出来事の順序を示す。"
+    },
+    {
+      "id": "word_formation:003",
+      "kind": "word_formation",
+      "location": "line:15",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "f0fd1746375bea2041bcae17f3090f6e594f34cf911122504fad8fce838be0ab",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・subsequent → subsequence：名詞。後続すること、または後続する出来事を表すが、一般語としては subsequent や subsequently より使用頻度が低い。"
+    },
+    {
+      "id": "sense_boundary:001",
+      "kind": "sense_boundary",
+      "location": "line:19",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "c08c7ab4d65b3a98a4603ffe0eb15b5e09244bb9be4f2e9151b53df83aa3d484",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる"
+    },
+    {
+      "id": "definition:001",
+      "kind": "definition",
+      "location": "line:21",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "39c1a9ae5f9bef4a51dbb5d2b729f5441ad311b16e81842343bc0cd52ee1abfc",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "基準となる出来事、時点、段階、項目などの後に生じる、または順序上後ろに位置することを表す。時間的に後である場合だけでなく、文書の後の節や手続き上の後続段階にも使える。必ず直後であることを示す語ではなく、間に別の出来事や段階があってもよい。単に前後関係を示す語なので、後の出来事が前の出来事の結果だとは限らないが、文脈によっては両者の関連や展開が読み取られることがある。"
+    },
+    {
+      "id": "frequency:001",
+      "kind": "frequency",
+      "location": "line:23",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "4c83f924416ef4455522dc0ab9ad637bb8820d1ecc7c146513681f28e8bd4b71",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈7/10〉"
+    },
+    {
+      "id": "register:001",
+      "kind": "register",
+      "location": "line:25",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "e790360a1405d0f3e969698521255720f6733e939d74814c08d8ab94304853ea",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "形式的な標準語。学術論文、報告書、ニュース、法律・行政文書、ビジネス文書でよく使われる。日常会話では later や following の方が自然なことが多い。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "kind": "grammar_pattern",
+      "location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "157f723ba1f1b969a4ab8b38d9084485efeee17c41a1f0655261d29e89d7aa0a",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "subsequent + 〈出来事・段階・文書〉＝後の～、後続の～"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "kind": "grammar_pattern",
+      "location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "f98bcb20a47548e66e4e9d8c7690847cf0f33ff9ae38faaadae126360bb3a8b3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "subsequent years・generations・studies＝その後の年月・世代・研究"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "kind": "grammar_pattern",
+      "location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "6ca41b5b92c8d9dadf1823d2a608760c785336cc3d9a1238e8ed8d6f3b1f6fce",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "a・the subsequent + 〈meeting・hearing・review〉＝後の会議・審理・検討"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "kind": "grammar_pattern",
+      "location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "6f06876a3c85355f4d0088cb60b343f02c5641b0e7f0523d97e1d59097d0c682",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "in subsequent years・decades＝その後の年月・数十年の間に"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "kind": "grammar_pattern",
+      "location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "47ee966ed88b5aab66291585ee61bca5770d38fc3c341730c09b73368a607cee",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "the period・section subsequent to 〈基準時点・出来事・箇所〉＝～より後の期間・節"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "kind": "grammar_pattern",
+      "location": "line:27",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "0fd9750435d3e3bdc785e59411f18ddf3b005d74e8c7c641ce4aba44a7dd1c13",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "subsequent to 〈名詞句〉＝～の後に、～に続いて（形式的な前置詞表現）"
+    },
+    {
+      "id": "collocation:001",
+      "kind": "collocation",
+      "location": "lines:31-34",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "31784a0f237bf8b531f15975f9af927939581c6f676a8ff4616cb95cc0e2bbf5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・subsequent events\n用途: ある出来事を基準にして、その後に起こった出来事をまとめて表す。\n例: Subsequent events confirmed the accuracy of the initial report.\n訳: その後の出来事によって、最初の報告が正確だったことが確認された。"
+    },
+    {
+      "id": "collocation:002",
+      "kind": "collocation",
+      "location": "lines:36-39",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "3870b0bbc5f6ee5b9e813f0965111f3b64fffc9c0be946d4c125123b004c5d0f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・subsequent studies/research\n用途: 先行する研究の後に行われた研究を表す。研究結果が先行研究の結果を支持するとは限らない。\n例: Subsequent studies reached a different conclusion.\n訳: その後の研究は異なる結論に達した。"
+    },
+    {
+      "id": "collocation:003",
+      "kind": "collocation",
+      "location": "lines:41-44",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "47a3dd153ef4022401db4d0009aeeaec564b8365591c0a9b3990c3015a39ea67",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・subsequent generations\n用途: ある世代の後に生まれた世代を表す。長期的な社会・歴史の説明でよく使う。\n例: The decision affected subsequent generations.\n訳: その決定は後の世代に影響を与えた。"
+    },
+    {
+      "id": "collocation:004",
+      "kind": "collocation",
+      "location": "lines:46-49",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "2d810786a5565371473016ab4a70cee044fe1cf86d60caf85ca2ff35409a286f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・in subsequent years/decades\n用途: 基準となる年や時期の後の年月・数十年間について述べる。\n例: The town grew rapidly in subsequent years.\n訳: その町はその後の数年間に急速に発展した。"
+    },
+    {
+      "id": "collocation:005",
+      "kind": "collocation",
+      "location": "lines:51-54",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "c77777d1faef3c1d935095dbb9aab11959cc402bbfe61f99c32d85d03c4e5fff",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・subsequent changes/developments\n用途: 最初の状態や発表の後に生じた変更・展開を表す。\n例: We will update the document to reflect subsequent changes.\n訳: その後の変更を反映するため、私たちは文書を更新する。"
+    },
+    {
+      "id": "collocation:006",
+      "kind": "collocation",
+      "location": "lines:56-59",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "26fedd8692d0ea27bb5a00b855c629c43c8ca456a7888af35dfedfed9f229d15",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・a subsequent meeting/hearing/review\n用途: 先に行われた会議・審理・検討に続く回を表す。必ず直後の回とは限らない。\n例: The issue was resolved at a subsequent meeting.\n訳: その問題は後の会議で解決された。"
+    },
+    {
+      "id": "collocation:007",
+      "kind": "collocation",
+      "location": "lines:61-64",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "d35332f083833a4a901701641ee64b6ce5242fa0ffb41807f2cb36acb2c884ca",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・the section/paragraph subsequent to 〈箇所〉\n用途: 文書の中で、指定した節や段落の後に位置する部分を表す形式的な表現。\n例: The paragraph subsequent to Section 2 explains how the exception applies.\n訳: 第2節の後に続く段落では、その例外がどのように適用されるかを説明している。"
+    },
+    {
+      "id": "collocation:008",
+      "kind": "collocation",
+      "location": "lines:66-69",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "98efa9b3f486a2a9c7fd07248dfc1a0687a1f5678a1aea4a243977875367ca58",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・subsequent to the agreement/inspection\n用途: 合意・検査などの後に何かが起こったことを、公式・法律文書調に述べる。\n例: Subsequent to the inspection, the company replaced the faulty parts.\n訳: 検査後、会社は不具合のある部品を交換した。"
+    },
+    {
+      "id": "usage_note:001",
+      "kind": "usage_note",
+      "location": "line:71",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "aabb441abda80d884ee740d1855d6c07080140d5df285e417920f5c7a41f7909",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "subsequent は通常、名詞の前に置く形式的な形容詞で、subsequent events、a subsequent report のように使う。単独で「後で」という副詞の意味にはならないため、文全体の出来事の順序を表すときは subsequently を使う（The notes were subsequently lost.「そのメモはその後失われた」）。subsequent to + 名詞句 は「～の後に」という形式的な前置詞表現で、文頭にも置ける。一方、有限節を直接続けるより after the committee met のように after を使う方が自然である。subsequent to は、the period subsequent to the merger のように、単独の後置形容詞ではなく to句を伴って名詞の後ろからその名詞を限定する形でも使える。subsequent to 2000 は2000年より後を表し、2000年自体を含めたい場合は 2000 and subsequent years のように2000年を別に明示する。subsequent は「後に続く」という順序を示すだけで、後の出来事が前の出来事によって引き起こされたことを必ずしも意味しない。原因・結果を明示したいときは consequent「結果として生じる」を使う。the storm and subsequent flooding は嵐の後の洪水という時間関係を表せるが、洪水が嵐によって生じたことを語そのものだけで断定する表現ではない。successive や consecutive は、対象が一つずつ連続することや、途切れない反復を強調する。subsequent は単に基準より後の一つまたは複数を指すため、間に別の出来事があっても使える。later はより日常的で、形容詞・副詞の両方として使える。"
+    },
+    {
+      "id": "synonym:001",
+      "kind": "synonym",
+      "location": "lines:75-80",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "c324aec4c70b9ba03f9a3b04092ba46d3b290c3c41a0eb6c0c84a14bd8fafba2",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・later\n定義: 基準となる時点や出来事より後の、後で。\n頻度: 〈10/10〉\n違い: subsequent より日常的でくだけており、名詞の前だけでなく later 単独の副詞や補語としても使える。subsequent は formal な文章で、前の出来事との対応を明示しやすい。\n例: We can discuss the details later.\n訳: 詳細については後で話し合える。"
+    },
+    {
+      "id": "synonym:002",
+      "kind": "synonym",
+      "location": "lines:82-87",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "486e2779fe8a89b38dfa7aeaf8d0f102ebbd734b1e7d9f50e13d83278f107b32",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・following\n定義: 時間・順序の上で後に来る、次の。\n頻度: 〈10/10〉\n違い: subsequent と同じく後続を表すが、より広く自然な語で、following the meeting のように「会議の後に」という前置詞的な使い方もできる。\n例: The following week was unusually cold.\n訳: 次の週は異例に寒かった。"
+    },
+    {
+      "id": "synonym:003",
+      "kind": "synonym",
+      "location": "lines:89-94",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "f85b184e4ac2defd6e453c73de2224722381001213adf4c7d8f3a4a747fe9fd8",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・ensuing\n定義: ある出来事の後に続いて展開する、後に起こる。\n頻度: 〈5/10〉\n違い: subsequent よりも、その後に展開する一連の出来事や状況に焦点を置きやすく、文語的・報道的である。単なる後の時点だけを示すなら subsequent の方が中立的である。\n例: The ensuing debate lasted for several hours.\n訳: その後に続いた議論は数時間に及んだ。"
+    },
+    {
+      "id": "synonym:004",
+      "kind": "synonym",
+      "location": "lines:96-101",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "b74ef0206ecdc27872a6b55183b7d557b4ff44f299ebbf001416abcb3a3e4ffb",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・successive\n定義: 同じ種類のものが一つずつ続く、連続する。\n頻度: 〈7/10〉\n違い: subsequent が基準より後の対象を指すのに対し、successive は複数の対象が順番に続くことを強調する。\n例: The team won three successive matches.\n訳: そのチームは3試合連続で勝った。"
+    },
+    {
+      "id": "synonym:005",
+      "kind": "synonym",
+      "location": "lines:103-108",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "b9dcc2bcbac8fffb200dd2e66b3cfc54d50dee766739b700a5daf75dcd6865bc",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・consecutive\n定義: 中断や間を置かず、連続した。\n頻度: 〈7/10〉\n違い: consecutive は日・回数・試合などが途切れず連なることを強く示す。subsequent にはそのような連続性や直後性は必須ではない。\n例: She worked for twelve consecutive days.\n訳: 彼女は12日間連続で働いた。"
+    },
+    {
+      "id": "antonym:001",
+      "kind": "antonym",
+      "location": "lines:112-117",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "31638b373150a26b3bcb312d6b0a7040b935f30e23540de4d7770543a4685ca5",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・previous\n定義: 基準となる時点・出来事・項目より前の、以前の。\n頻度: 〈10/10〉\n違い: subsequent が後続を表すのに対し、previous は前のものを表す最も一般的な反対語。\n例: Please compare this version with the previous one.\n訳: この版を前の版と比較してください。"
+    },
+    {
+      "id": "antonym:002",
+      "kind": "antonym",
+      "location": "lines:119-124",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "2a4c300efcfa5619ababce27df0c9f3dce33a3f9af9d2a498c7b18e3366405a4",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・prior\n定義: 時間・順序の上で前の、先行する。\n頻度: 〈8/10〉\n違い: previous より形式的で、prior to + 名詞 の形でも使う。subsequent と同じく、公式・法律・学術文書で使われやすい。\n例: The applicant had no prior experience in the field.\n訳: その応募者には、その分野での過去の経験がなかった。"
+    },
+    {
+      "id": "antonym:003",
+      "kind": "antonym",
+      "location": "lines:126-131",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・限定用法中心】後の、後続の、次に起こる",
+      "text_sha256": "730705fc8273ce0bbe73ae881b4eddece8cad8767e71d60d2f150f43562f17d8",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・preceding\n定義: 順序・時間の上で前に位置する、先行する。\n頻度: 〈7/10〉\n違い: preceding は、文章・一覧・一連の出来事の中で前にある位置を指しやすい。subsequent はその反対側の後続位置を指す。\n例: The meaning depends on the preceding sentence.\n訳: その意味は前の文に左右される。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "example_translation:001",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:001"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "26750269ee9dd5b51b69765498e65b4a87effedbbc0238eb29e302fcc51b1271",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:002",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:002"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "0fddd7231b615b1468c1bb23515fe6ee82ffdf770efff68aeac4dbb2df355152",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:003",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:003"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "ae6f03bfc90aa62807a5306af7169ced4893be7f3fe0c7eef691a27f2c6671be",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:004",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:004"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "b7bd8e4f64f2b5b4416c868f399db21d336bb2525a56cb9582dc575f8de0f7d3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:005",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:005"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "2c3d879214f4eaf61bfe50841656663a25b4c418dce8fa21d84fb2637c575cf5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:006",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:006"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "e6b70b6f529d0afd20caa1af0a66c20b2b508c59841b4f32f3ef20f4e775bf02",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:007",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:007"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "70ef911dd4616153972b44f7c6764b22f0d4c69c0f3128250f4e79719f5c37d9",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:008",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:008"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "5f2bc65b94c6a305d15a4a7799b1b5f405b78d66c43ed082ddae23034fa9d638",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "a610295e5ff2f26df8c51c3804bd7d2fb7fd9bef0c6ea2226069e2ad051c2267",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:001"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "fce9e9eb0b0e86ca9ca46179914e226d1702b8d93d1ac7cbe7296a1d33593011",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "antonym:001",
+        "antonym:002",
+        "antonym:003"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "39e164f00337e9d313a3b3635e8f693937fcbd50482959c927df19bfe503eef2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:001",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "059f0efb3a236d03384a4cb1530a2ee9b258b7b8a3fb98ea4d78237f0c0ed87f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:002",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "6969e8f8ceaea2ec76f323e0a189902d2dbfd1caa02b279eb1ec27f36ad7099f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "62f9868d5578875a39930a83a8a59f5885ae9a3ef8431ba3960bba7967063165",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:004",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "2837ea8768d67d600d7aa045961e3b466b008d811fa4dc13987f401e35499d28",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:005",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "f001afabc87036cee0cbc55d8ed9931685995e4cce553bc4b6306e6c71314699",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:006",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "3d08420abce1f22bbbae5c85abd83837b166d361f7863804e9207f77c542118c",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "kind": "article_learning_risk",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:001"
+      ],
+      "description": "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+      "text_sha256": "c6348d2d5096d4deca4d8be1a25c81d9b918e4a08525c424396b0f0b7d75ca3b",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    }
+  ],
+  "evidence": [
+    {
+      "id": "E-OALD-SUBSEQUENT",
+      "source_type": "dictionary",
+      "citation": "Oxford Learner's Dictionaries",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "supports": "pronunciation, definition, register, and usage",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-MW-SUBSEQUENT",
+      "source_type": "dictionary",
+      "citation": "Merriam-Webster",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "supports": "definition, usage distinctions, and etymology",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-OALD-SUBSEQUENT-TO",
+      "source_type": "dictionary",
+      "citation": "Oxford Learner's Dictionaries",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent-to",
+      "supports": "subsequent to construction and pronunciation",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-MW-SUBSEQUENT-TO",
+      "source_type": "dictionary",
+      "citation": "Merriam-Webster",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent%20to",
+      "supports": "subsequent to prepositional use",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-MW-SUBSEQUENTLY",
+      "source_type": "dictionary",
+      "citation": "Merriam-Webster",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequently",
+      "supports": "subsequently as the related adverb",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-MW-SUBSEQUENCE",
+      "source_type": "dictionary",
+      "citation": "Merriam-Webster",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequence",
+      "supports": "subsequence as a related noun",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-ETY-SUBSEQUENT",
+      "source_type": "etymology_reference",
+      "citation": "Online Etymology Dictionary",
+      "locator": "https://www.etymonline.com/word/subsequent",
+      "supports": "etymology and root history",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-CAM-SUBSEQUENT",
+      "source_type": "dictionary",
+      "citation": "Cambridge Dictionary",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/subsequent",
+      "supports": "definition and register",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-CAM-SUBSEQUENT-EVENT",
+      "source_type": "corpus_reference",
+      "citation": "Cambridge Dictionary English Corpus example",
+      "locator": "https://dictionary.cambridge.org/us/example/english/subsequent-event",
+      "supports": "subsequent event collocation",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-COLLINS-SUBSEQUENT",
+      "source_type": "dictionary",
+      "citation": "Collins English Dictionary",
+      "locator": "https://www.collinsdictionary.com/dictionary/english/subsequent",
+      "supports": "formal adjective usage",
+      "checked_at": "2026-08-21"
+    },
+    {
+      "id": "E-DICT-SUBSEQUENT",
+      "source_type": "dictionary",
+      "citation": "Dictionary.com",
+      "locator": "https://www.dictionary.com/browse/subsequent",
+      "supports": "forms and usage",
+      "checked_at": "2026-08-21"
+    }
+  ],
+  "evidence_links": [
+    {
+      "id": "EL-SUB-001",
+      "subject_type": "target",
+      "subject_id": "pronunciation:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pronunciation:001: The source gives the headword pronunciation and stress pattern used in the article.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source gives the headword pronunciation and stress pattern used in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-002",
+      "subject_type": "target",
+      "subject_id": "pronunciation:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "pronunciation:001: The source gives the headword pronunciation and stress pattern used in the article.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source gives the headword pronunciation and stress pattern used in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-003",
+      "subject_type": "target",
+      "subject_id": "etymology:001",
+      "evidence_id": "E-ETY-SUBSEQUENT",
+      "claim": "etymology:001: The source describes the historical path and follow/sequence root relevant to the article.",
+      "locator": "https://www.etymonline.com/word/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Online Etymology Dictionary — etymology and root history",
+      "source_excerpt_or_summary": "The source describes the historical path and follow/sequence root relevant to the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-004",
+      "subject_type": "target",
+      "subject_id": "etymology:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "etymology:001: The source describes the historical path and follow/sequence root relevant to the article.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source describes the historical path and follow/sequence root relevant to the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-005",
+      "subject_type": "target",
+      "subject_id": "etymology:002",
+      "evidence_id": "E-ETY-SUBSEQUENT",
+      "claim": "etymology:002: The source describes the historical path and follow/sequence root relevant to the article.",
+      "locator": "https://www.etymonline.com/word/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Online Etymology Dictionary — etymology and root history",
+      "source_excerpt_or_summary": "The source describes the historical path and follow/sequence root relevant to the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-006",
+      "subject_type": "target",
+      "subject_id": "etymology:002",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "etymology:002: The source describes the historical path and follow/sequence root relevant to the article.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source describes the historical path and follow/sequence root relevant to the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-007",
+      "subject_type": "target",
+      "subject_id": "word_formation:001",
+      "evidence_id": "E-ETY-SUBSEQUENT",
+      "claim": "word_formation:001: The source supports the related word family or historical component described in the article.",
+      "locator": "https://www.etymonline.com/word/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Online Etymology Dictionary — etymology and root history",
+      "source_excerpt_or_summary": "The source supports the related word family or historical component described in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-008",
+      "subject_type": "target",
+      "subject_id": "word_formation:002",
+      "evidence_id": "E-MW-SUBSEQUENTLY",
+      "claim": "word_formation:002: The source supports the related word family or historical component described in the article.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequently",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — subsequently as the related adverb",
+      "source_excerpt_or_summary": "The source supports the related word family or historical component described in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-009",
+      "subject_type": "target",
+      "subject_id": "word_formation:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "word_formation:002: The source supports the related word family or historical component described in the article.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the related word family or historical component described in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-010",
+      "subject_type": "target",
+      "subject_id": "word_formation:003",
+      "evidence_id": "E-MW-SUBSEQUENCE",
+      "claim": "word_formation:003: The source supports the related word family or historical component described in the article.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequence",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — subsequence as a related noun",
+      "source_excerpt_or_summary": "The source supports the related word family or historical component described in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-011",
+      "subject_type": "target",
+      "subject_id": "word_formation:003",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "word_formation:003: The source supports the related word family or historical component described in the article.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the related word family or historical component described in the article.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-012",
+      "subject_type": "target",
+      "subject_id": "sense_boundary:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "sense_boundary:001: The source defines subsequent as following later in time, order, or place.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source defines subsequent as following later in time, order, or place.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-013",
+      "subject_type": "target",
+      "subject_id": "sense_boundary:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "sense_boundary:001: The source defines subsequent as following later in time, order, or place.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source defines subsequent as following later in time, order, or place.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-014",
+      "subject_type": "target",
+      "subject_id": "definition:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "definition:001: The source supports the general definition of a later or following item or event.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the general definition of a later or following item or event.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-015",
+      "subject_type": "target",
+      "subject_id": "definition:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "definition:001: The source supports the general definition of a later or following item or event.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the general definition of a later or following item or event.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-016",
+      "subject_type": "target",
+      "subject_id": "frequency:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "frequency:001: The source presents subsequent as an established formal dictionary headword; the 7/10 value is a learner-facing estimate.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source presents subsequent as an established formal dictionary headword; the 7/10 value is a learner-facing estimate.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-017",
+      "subject_type": "target",
+      "subject_id": "frequency:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "frequency:001: The source presents subsequent as an established formal dictionary headword; the 7/10 value is a learner-facing estimate.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source presents subsequent as an established formal dictionary headword; the 7/10 value is a learner-facing estimate.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-018",
+      "subject_type": "target",
+      "subject_id": "register:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "register:001: The source labels or exemplifies the formal usage of subsequent.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source labels or exemplifies the formal usage of subsequent.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-019",
+      "subject_type": "target",
+      "subject_id": "register:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "register:001: The source labels or exemplifies the formal usage of subsequent.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source labels or exemplifies the formal usage of subsequent.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-020",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "grammar_pattern:001: The source supports the stated grammatical frame.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-021",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "grammar_pattern:002: The source supports the stated grammatical frame.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-022",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:003",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "grammar_pattern:003: The source supports the stated grammatical frame.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-023",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:004",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "grammar_pattern:004: The source supports the stated grammatical frame.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-024",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:005",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "grammar_pattern:005: The source supports the stated grammatical frame.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-025",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:006",
+      "evidence_id": "E-OALD-SUBSEQUENT-TO",
+      "claim": "grammar_pattern:006: The source supports the stated grammatical frame.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent-to",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — subsequent to construction and pronunciation",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-026",
+      "subject_type": "target",
+      "subject_id": "grammar_pattern:006",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "grammar_pattern:006: The source supports the stated grammatical frame.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the stated grammatical frame.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-027",
+      "subject_type": "target",
+      "subject_id": "collocation:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "collocation:001: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-028",
+      "subject_type": "target",
+      "subject_id": "collocation:001",
+      "evidence_id": "E-CAM-SUBSEQUENT-EVENT",
+      "claim": "collocation:001: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://dictionary.cambridge.org/us/example/english/subsequent-event",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary English Corpus example — subsequent event collocation",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-029",
+      "subject_type": "target",
+      "subject_id": "collocation:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "collocation:002: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-030",
+      "subject_type": "target",
+      "subject_id": "collocation:003",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "collocation:003: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-031",
+      "subject_type": "target",
+      "subject_id": "collocation:004",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "collocation:004: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-032",
+      "subject_type": "target",
+      "subject_id": "collocation:005",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "collocation:005: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-033",
+      "subject_type": "target",
+      "subject_id": "collocation:006",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "collocation:006: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-034",
+      "subject_type": "target",
+      "subject_id": "collocation:006",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "collocation:006: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-035",
+      "subject_type": "target",
+      "subject_id": "collocation:007",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "collocation:007: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-036",
+      "subject_type": "target",
+      "subject_id": "collocation:008",
+      "evidence_id": "E-OALD-SUBSEQUENT-TO",
+      "claim": "collocation:008: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent-to",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — subsequent to construction and pronunciation",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-037",
+      "subject_type": "target",
+      "subject_id": "collocation:008",
+      "evidence_id": "E-MW-SUBSEQUENT-TO",
+      "claim": "collocation:008: The source or corpus example supports the stated collocational pattern.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent%20to",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — subsequent to prepositional use",
+      "source_excerpt_or_summary": "The source or corpus example supports the stated collocational pattern.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-038",
+      "subject_type": "target",
+      "subject_id": "usage_note:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "usage_note:001: The source supports the usage boundary, construction, or contrast described in the note.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the usage boundary, construction, or contrast described in the note.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-039",
+      "subject_type": "target",
+      "subject_id": "usage_note:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "usage_note:001: The source supports the usage boundary, construction, or contrast described in the note.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the usage boundary, construction, or contrast described in the note.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-040",
+      "subject_type": "target",
+      "subject_id": "synonym:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "synonym:001: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-041",
+      "subject_type": "target",
+      "subject_id": "synonym:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "synonym:001: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-042",
+      "subject_type": "target",
+      "subject_id": "synonym:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "synonym:002: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-043",
+      "subject_type": "target",
+      "subject_id": "synonym:002",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "synonym:002: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-044",
+      "subject_type": "target",
+      "subject_id": "synonym:003",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "synonym:003: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-045",
+      "subject_type": "target",
+      "subject_id": "synonym:003",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "synonym:003: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-046",
+      "subject_type": "target",
+      "subject_id": "synonym:004",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "synonym:004: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-047",
+      "subject_type": "target",
+      "subject_id": "synonym:004",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "synonym:004: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-048",
+      "subject_type": "target",
+      "subject_id": "synonym:005",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "synonym:005: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-049",
+      "subject_type": "target",
+      "subject_id": "synonym:005",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "synonym:005: The source supports the shared later/following meaning used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the shared later/following meaning used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-050",
+      "subject_type": "target",
+      "subject_id": "antonym:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "antonym:001: The source supports the earlier/preceding contrast used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the earlier/preceding contrast used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-051",
+      "subject_type": "target",
+      "subject_id": "antonym:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "antonym:001: The source supports the earlier/preceding contrast used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the earlier/preceding contrast used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-052",
+      "subject_type": "target",
+      "subject_id": "antonym:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "antonym:002: The source supports the earlier/preceding contrast used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the earlier/preceding contrast used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-053",
+      "subject_type": "target",
+      "subject_id": "antonym:002",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "antonym:002: The source supports the earlier/preceding contrast used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the earlier/preceding contrast used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-054",
+      "subject_type": "target",
+      "subject_id": "antonym:003",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "antonym:003: The source supports the earlier/preceding contrast used for the comparison.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source supports the earlier/preceding contrast used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-055",
+      "subject_type": "target",
+      "subject_id": "antonym:003",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "antonym:003: The source supports the earlier/preceding contrast used for the comparison.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the earlier/preceding contrast used for the comparison.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-056",
+      "subject_type": "relation",
+      "subject_id": "example_translation:001",
+      "evidence_id": "E-CAM-SUBSEQUENT-EVENT",
+      "claim": "example_translation:001: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://dictionary.cambridge.org/us/example/english/subsequent-event",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary English Corpus example — subsequent event collocation",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-057",
+      "subject_type": "relation",
+      "subject_id": "example_translation:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:002: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-058",
+      "subject_type": "relation",
+      "subject_id": "example_translation:003",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:003: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-059",
+      "subject_type": "relation",
+      "subject_id": "example_translation:004",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:004: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-060",
+      "subject_type": "relation",
+      "subject_id": "example_translation:005",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:005: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-061",
+      "subject_type": "relation",
+      "subject_id": "example_translation:006",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:006: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-062",
+      "subject_type": "relation",
+      "subject_id": "example_translation:007",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:007: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-063",
+      "subject_type": "relation",
+      "subject_id": "example_translation:008",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "example_translation:008: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-064",
+      "subject_type": "relation",
+      "subject_id": "sense_definition_consistency:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "sense_definition_consistency:001: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-065",
+      "subject_type": "relation",
+      "subject_id": "definition_usage_consistency:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "definition_usage_consistency:001: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-066",
+      "subject_type": "relation",
+      "subject_id": "definition_lexical_relation_consistency:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "definition_lexical_relation_consistency:001: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-067",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pattern_example_coverage:001: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-068",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:002",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pattern_example_coverage:002: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-069",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:003",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pattern_example_coverage:003: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-070",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:004",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pattern_example_coverage:004: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-071",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:005",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pattern_example_coverage:005: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-072",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:006",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "pattern_example_coverage:006: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-073",
+      "subject_type": "relation",
+      "subject_id": "article_learning_risk:001",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "article_learning_risk:001: The source provides an external anchor for checking this article-level consistency relation.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The source provides an external anchor for checking this article-level consistency relation.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-074",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-01",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "NC-01: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-075",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-01",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "NC-01: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-076",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-02",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "NC-02: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-077",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-03",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "NC-03: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-078",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-04",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "NC-04: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-079",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-05",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "NC-05: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-080",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-05",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "NC-05: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-081",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-06",
+      "evidence_id": "E-OALD-SUBSEQUENT",
+      "claim": "NC-06: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Oxford Learner's Dictionaries — pronunciation, definition, register, and usage",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-082",
+      "subject_type": "normal_candidate",
+      "subject_id": "NC-06",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "NC-06: The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The consulted dictionary evidence supports this inventory decision and its boundary.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    },
+    {
+      "id": "EL-SUB-083",
+      "subject_type": "relation",
+      "subject_id": "article_learning_risk:001",
+      "evidence_id": "E-MW-SUBSEQUENT",
+      "claim": "article_learning_risk:001: The source provides a second independent anchor for checking the article-level learning-risk relation.",
+      "locator": "https://www.merriam-webster.com/dictionary/subsequent",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster — definition, usage distinctions, and etymology",
+      "source_excerpt_or_summary": "The source supports the boundary between later sequence and consequence, which is central to the learning-risk check.",
+      "supports": "directly supports the scoped article claim",
+      "applicability": "The source applies to the English lexical item subsequent and this scoped learning-risk claim.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source comparison and boundary check",
+      "counterexample_result": "No contradictory core sense was found in the consulted source."
+    }
+  ],
+  "normal_review": {
+    "role": "normal_checker",
+    "reviewer_id": "normal-subsequent-20260821",
+    "reviewed_at": "2026-08-21T23:20:00+09:00",
+    "completed": true,
+    "execution": {
+      "run_id": "normal-subsequent-20260821",
+      "context_id": "normal-subsequent-isolated-20260821",
+      "started_at": "2026-08-21T23:02:00+09:00",
+      "completed_at": "2026-08-21T23:20:00+09:00",
+      "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+      "prompt_sha256": "434f07229db943b2d2cbd830aa88a0c9020402da0de3da2d8ec22f4b4c139ed6",
+      "context_mode": "isolated",
+      "input_artifacts": [
+        "entry_body",
+        "check_spec"
+      ]
+    },
+    "independent_candidates": [
+      {
+        "id": "NC-01",
+        "surface_form": "subsequent",
+        "frame": "subsequent + noun; in subsequent years/decades",
+        "meaning": "基準となる時点・出来事・段階より後の、後続の",
+        "disposition": "included",
+        "rationale": "本文の中心となる限定用法で、時間・順序の一般義として採用。",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "synonym:005",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ],
+        "evidence_link_ids": [
+          "EL-SUB-074",
+          "EL-SUB-075"
+        ]
+      },
+      {
+        "id": "NC-02",
+        "surface_form": "subsequent to",
+        "frame": "subsequent to + noun phrase; noun + subsequent to + noun phrase",
+        "meaning": "～の後に、～に続いてという形式的な前置詞表現",
+        "disposition": "included",
+        "rationale": "本文で独立した語義ではなく、主要な形式的構文として明示。",
+        "article_target_ids": [
+          "grammar_pattern:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:001"
+        ],
+        "evidence_link_ids": [
+          "EL-SUB-076"
+        ]
+      },
+      {
+        "id": "NC-03",
+        "surface_form": "subsequently",
+        "frame": "subject + subsequently + verb",
+        "meaning": "その後、後になってという副詞",
+        "disposition": "included",
+        "rationale": "本文の語形成と語法注意で、subsequent と区別した派生副詞として扱う。",
+        "article_target_ids": [
+          "word_formation:002",
+          "usage_note:001"
+        ],
+        "evidence_link_ids": [
+          "EL-SUB-077"
+        ]
+      },
+      {
+        "id": "NC-04",
+        "surface_form": "subsequence",
+        "frame": "the subsequence of ...; a subsequence",
+        "meaning": "後続すること、後続するものという関連名詞",
+        "disposition": "included",
+        "rationale": "本文の語形成で関連語として扱うが、subsequent の別語義にはしない。",
+        "article_target_ids": [
+          "word_formation:003"
+        ],
+        "evidence_link_ids": [
+          "EL-SUB-078"
+        ]
+      },
+      {
+        "id": "NC-05",
+        "surface_form": "the subsequent",
+        "frame": "independent noun use",
+        "meaning": "subsequent を一般的な単独名詞として教える用法",
+        "disposition": "excluded",
+        "rationale": "参照した一般辞書では中心的な独立名詞用法として確認できず、形容詞中心の本文範囲から除外。",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "usage_note:001"
+        ],
+        "evidence_link_ids": [
+          "EL-SUB-079",
+          "EL-SUB-080"
+        ]
+      },
+      {
+        "id": "NC-06",
+        "surface_form": "subsequent = consequent",
+        "frame": "subsequent event means caused result",
+        "meaning": "後続を原因結果の意味として扱う候補",
+        "disposition": "excluded",
+        "rationale": "subsequent は時間・順序を示す語で、結果性は consequent の領域。本文の境界説明で明示的に除外。",
+        "article_target_ids": [
+          "definition:001",
+          "usage_note:001"
+        ],
+        "evidence_link_ids": [
+          "EL-SUB-081",
+          "EL-SUB-082"
+        ]
+      }
+    ],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-001",
+          "EL-SUB-002"
+        ]
+      },
+      {
+        "id": "etymology:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-003",
+          "EL-SUB-004"
+        ]
+      },
+      {
+        "id": "etymology:002",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-005",
+          "EL-SUB-006"
+        ]
+      },
+      {
+        "id": "word_formation:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-007"
+        ]
+      },
+      {
+        "id": "word_formation:002",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-008",
+          "EL-SUB-009"
+        ]
+      },
+      {
+        "id": "word_formation:003",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-010",
+          "EL-SUB-011"
+        ]
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-012",
+          "EL-SUB-013"
+        ]
+      },
+      {
+        "id": "definition:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-014",
+          "EL-SUB-015"
+        ]
+      },
+      {
+        "id": "frequency:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-016",
+          "EL-SUB-017"
+        ]
+      },
+      {
+        "id": "register:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-018",
+          "EL-SUB-019"
+        ]
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-020"
+        ]
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-021"
+        ]
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-022"
+        ]
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-023"
+        ]
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-024"
+        ]
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-025",
+          "EL-SUB-026"
+        ]
+      },
+      {
+        "id": "collocation:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-027",
+          "EL-SUB-028"
+        ]
+      },
+      {
+        "id": "collocation:002",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-029"
+        ]
+      },
+      {
+        "id": "collocation:003",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-030"
+        ]
+      },
+      {
+        "id": "collocation:004",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-031"
+        ]
+      },
+      {
+        "id": "collocation:005",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-032"
+        ]
+      },
+      {
+        "id": "collocation:006",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-033",
+          "EL-SUB-034"
+        ]
+      },
+      {
+        "id": "collocation:007",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-035"
+        ]
+      },
+      {
+        "id": "collocation:008",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-036",
+          "EL-SUB-037"
+        ]
+      },
+      {
+        "id": "usage_note:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-038",
+          "EL-SUB-039"
+        ]
+      },
+      {
+        "id": "synonym:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-040",
+          "EL-SUB-041"
+        ]
+      },
+      {
+        "id": "synonym:002",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-042",
+          "EL-SUB-043"
+        ]
+      },
+      {
+        "id": "synonym:003",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-044",
+          "EL-SUB-045"
+        ]
+      },
+      {
+        "id": "synonym:004",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-046",
+          "EL-SUB-047"
+        ]
+      },
+      {
+        "id": "synonym:005",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-048",
+          "EL-SUB-049"
+        ]
+      },
+      {
+        "id": "antonym:001",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-050",
+          "EL-SUB-051"
+        ]
+      },
+      {
+        "id": "antonym:002",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-052",
+          "EL-SUB-053"
+        ]
+      },
+      {
+        "id": "antonym:003",
+        "status": "pass",
+        "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-054",
+          "EL-SUB-055"
+        ]
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "example_translation:001",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-056"
+        ]
+      },
+      {
+        "id": "example_translation:002",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-057"
+        ]
+      },
+      {
+        "id": "example_translation:003",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-058"
+        ]
+      },
+      {
+        "id": "example_translation:004",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-059"
+        ]
+      },
+      {
+        "id": "example_translation:005",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-060"
+        ]
+      },
+      {
+        "id": "example_translation:006",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-061"
+        ]
+      },
+      {
+        "id": "example_translation:007",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-062"
+        ]
+      },
+      {
+        "id": "example_translation:008",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-063"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-064"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-065"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-066"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-067"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-068"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-069"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-070"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-071"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-072"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+        "evidence_link_ids": [
+          "EL-SUB-073",
+          "EL-SUB-083"
+        ]
+      }
+    ]
+  },
+  "cold_review": {
+    "role": "cold_reviewer",
+    "reviewer_id": "cold-subsequent-20260821",
+    "reviewed_at": "2026-08-21T23:32:00+09:00",
+    "prompt_version": "cold_review_prompt_v1",
+    "completed": true,
+    "execution": {
+      "run_id": "cold-subsequent-20260821",
+      "context_id": "cold-subsequent-context-free-20260821",
+      "started_at": "2026-08-21T23:25:00+09:00",
+      "completed_at": "2026-08-21T23:32:00+09:00",
+      "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "context_mode": "context_free",
+      "input_artifacts": [
+        "entry_body",
+        "cold_review_prompt"
+      ]
+    },
+    "summary": "問題候補なし。文脈なしで本文だけを確認し、語義境界、構文、用例訳、語源・派生語、類義語・反意語の方向を点検した。",
+    "findings": []
+  },
+  "resolutions": [],
+  "semantic_gate": {
+    "version": "semantic_resolution_v2",
+    "body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+    "constraints": [],
+    "final_inventory_checks": []
+  },
+  "final_review": {
+    "role": "final_adjudicator",
+    "reviewer_id": "final-subsequent-20260821",
+    "reviewed_at": "",
+    "completed": false,
+    "execution": {
+      "run_id": "final-subsequent-20260821",
+      "context_id": "final-subsequent-context-free-20260821",
+      "started_at": "2026-08-21T23:45:00+09:00",
+      "completed_at": "",
+      "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+      "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
+      "context_mode": "context_free",
+      "input_artifacts": [
+        "entry_body",
+        "final_review_spec"
+      ],
+      "reconciliation_started_at": "",
+      "reconciliation_input_artifacts": []
+    },
+    "body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+    "decision": "pending",
+    "blind_review": {
+      "seal_version": "blind_seal_v2",
+      "completed": true,
+      "recorded_at": "2026-08-21T23:50:00+09:00",
+      "sealed_at": "2026-08-21T10:03:39-05:00",
+      "body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+      "audit_visible": false,
+      "provisional_decision": "pass",
+      "article_findings": [],
+      "output_sha256": "91b3bc5c8d297c574d7090444de37f9d17177cb9dba78757ef7058b48acc95fe"
+    },
+    "independent_candidates": [
+      {
+        "id": "IC-01",
+        "surface_form": "subsequent",
+        "frame": "subsequent + noun; in subsequent years/decades",
+        "meaning": "基準となる時点・出来事・段階より後の、後続の",
+        "disposition": "included",
+        "rationale": "中心的な限定用法として時間・順序の後続を表す。",
+        "semantic_assertions": [
+          {
+            "id": "SA-01",
+            "statement": "subsequent は時間・順序・位置の上で後に来ることを示し、語そのものは直後性や因果性を必須にしない。",
+            "polarity": "must_hold",
+            "scope": "中心語義、定義、語法注意、主要コロケーション"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "IC-02",
+        "surface_form": "subsequent to",
+        "frame": "subsequent to + noun phrase; noun + subsequent to + noun phrase",
+        "meaning": "～の後に、～に続いてという形式的な前置詞表現",
+        "disposition": "included",
+        "rationale": "本文の文法パターンとコロケーションに明示された形式的構文。",
+        "semantic_assertions": [
+          {
+            "id": "SA-02",
+            "statement": "subsequent to は名詞句を後続させる形式的な構文で、有限節を直接導く通常の接続詞ではない。",
+            "polarity": "must_hold",
+            "scope": "文法パターン、collocation 007-008、語法注意"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "IC-03",
+        "surface_form": "subsequently",
+        "frame": "subject + subsequently + verb",
+        "meaning": "その後、後になってという副詞",
+        "disposition": "included",
+        "rationale": "subsequent から派生した副詞であり、本文の語法注意でも区別されている。",
+        "semantic_assertions": [
+          {
+            "id": "SA-03",
+            "statement": "subsequently は文全体の出来事の順序を示す副詞で、subsequent の単独の副詞用法ではない。",
+            "polarity": "must_hold",
+            "scope": "語形成 002 と語法注意"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "IC-04",
+        "surface_form": "subsequence",
+        "frame": "the subsequence of ...; a subsequence",
+        "meaning": "後続すること、後続するものという関連名詞",
+        "disposition": "included",
+        "rationale": "関連する名詞として語形成に記載されるが、subsequent の別語義ではない。",
+        "semantic_assertions": [
+          {
+            "id": "SA-04",
+            "statement": "subsequence は関連する名詞であり、subsequent の中心的な形容詞語義を増やす別義ではない。",
+            "polarity": "must_hold",
+            "scope": "語源と語形成 003"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "IC-05",
+        "surface_form": "the subsequent",
+        "frame": "independent noun use",
+        "meaning": "subsequent を一般的な単独名詞として教える用法",
+        "disposition": "excluded",
+        "rationale": "一般学習用の中心義として独立名詞を採用する根拠がなく、形容詞中心の本文範囲から除外する。",
+        "semantic_assertions": [
+          {
+            "id": "SA-05",
+            "statement": "subsequent を一般的な単独名詞の中心語義として本文に追加しない。",
+            "polarity": "must_not_hold",
+            "scope": "語義境界と語法注意"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "IC-06",
+        "surface_form": "subsequent = consequent",
+        "frame": "subsequent event means caused result",
+        "meaning": "後続を原因結果の意味として扱う候補",
+        "disposition": "excluded",
+        "rationale": "subsequent は後続の順序を示し、結果性を担う consequent と区別される。",
+        "semantic_assertions": [
+          {
+            "id": "SA-06",
+            "statement": "subsequent だけから、後の出来事が前の出来事によって引き起こされたとは結論づけない。",
+            "polarity": "must_not_hold",
+            "scope": "定義、語法注意、類義語対比"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      }
+    ],
+    "inventory_comparison": [],
+    "blind_finding_results": [],
+    "target_results": [],
+    "relation_results": [],
+    "candidate_results": [],
+    "finding_results": [],
+    "evidence_checks": [],
+    "blockers": []
+  }
+}

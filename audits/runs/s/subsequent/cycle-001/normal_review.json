@@ -1,0 +1,561 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-subsequent-20260821",
+  "context_id": "normal-subsequent-isolated-20260821",
+  "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+  "prompt_sha256": "434f07229db943b2d2cbd830aa88a0c9020402da0de3da2d8ec22f4b4c139ed6",
+  "reviewed_at": "2026-08-21T23:20:00+09:00",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "subsequent",
+      "frame": "subsequent + noun; in subsequent years/decades",
+      "meaning": "基準となる時点・出来事・段階より後の、後続の",
+      "disposition": "included",
+      "rationale": "本文の中心となる限定用法で、時間・順序の一般義として採用。",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "usage_note:001",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "antonym:001",
+        "antonym:002",
+        "antonym:003"
+      ],
+      "evidence_link_ids": [
+        "EL-SUB-074",
+        "EL-SUB-075"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "subsequent to",
+      "frame": "subsequent to + noun phrase; noun + subsequent to + noun phrase",
+      "meaning": "～の後に、～に続いてという形式的な前置詞表現",
+      "disposition": "included",
+      "rationale": "本文で独立した語義ではなく、主要な形式的構文として明示。",
+      "article_target_ids": [
+        "grammar_pattern:006",
+        "collocation:007",
+        "collocation:008",
+        "usage_note:001"
+      ],
+      "evidence_link_ids": [
+        "EL-SUB-076"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "subsequently",
+      "frame": "subject + subsequently + verb",
+      "meaning": "その後、後になってという副詞",
+      "disposition": "included",
+      "rationale": "本文の語形成と語法注意で、subsequent と区別した派生副詞として扱う。",
+      "article_target_ids": [
+        "word_formation:002",
+        "usage_note:001"
+      ],
+      "evidence_link_ids": [
+        "EL-SUB-077"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "subsequence",
+      "frame": "the subsequence of ...; a subsequence",
+      "meaning": "後続すること、後続するものという関連名詞",
+      "disposition": "included",
+      "rationale": "本文の語形成で関連語として扱うが、subsequent の別語義にはしない。",
+      "article_target_ids": [
+        "word_formation:003"
+      ],
+      "evidence_link_ids": [
+        "EL-SUB-078"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "the subsequent",
+      "frame": "independent noun use",
+      "meaning": "subsequent を一般的な単独名詞として教える用法",
+      "disposition": "excluded",
+      "rationale": "参照した一般辞書では中心的な独立名詞用法として確認できず、形容詞中心の本文範囲から除外。",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "usage_note:001"
+      ],
+      "evidence_link_ids": [
+        "EL-SUB-079",
+        "EL-SUB-080"
+      ]
+    },
+    {
+      "id": "NC-06",
+      "surface_form": "subsequent = consequent",
+      "frame": "subsequent event means caused result",
+      "meaning": "後続を原因結果の意味として扱う候補",
+      "disposition": "excluded",
+      "rationale": "subsequent は時間・順序を示す語で、結果性は consequent の領域。本文の境界説明で明示的に除外。",
+      "article_target_ids": [
+        "definition:001",
+        "usage_note:001"
+      ],
+      "evidence_link_ids": [
+        "EL-SUB-081",
+        "EL-SUB-082"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-001",
+        "EL-SUB-002"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-003",
+        "EL-SUB-004"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-005",
+        "EL-SUB-006"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-007"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-008",
+        "EL-SUB-009"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-010",
+        "EL-SUB-011"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-012",
+        "EL-SUB-013"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-014",
+        "EL-SUB-015"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-016",
+        "EL-SUB-017"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-018",
+        "EL-SUB-019"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-020"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-021"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-022"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-023"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-024"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-025",
+        "EL-SUB-026"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-027",
+        "EL-SUB-028"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-029"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-030"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-031"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-032"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-033",
+        "EL-SUB-034"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-035"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-036",
+        "EL-SUB-037"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-038",
+        "EL-SUB-039"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-040",
+        "EL-SUB-041"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-042",
+        "EL-SUB-043"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-044",
+        "EL-SUB-045"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-046",
+        "EL-SUB-047"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-048",
+        "EL-SUB-049"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-050",
+        "EL-SUB-051"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-052",
+        "EL-SUB-053"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "本文の対象箇所を独立に確認し、意味・用法・出典の対応を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-054",
+        "EL-SUB-055"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-056"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-057"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-058"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-059"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-060"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-061"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-062"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-063"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-064"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-065"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-066"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-067"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-068"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-069"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-070"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-071"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-072"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "関連する対象箇所と用例・定義の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-SUB-073",
+        "EL-SUB-083"
+      ]
+    }
+  ]
+}

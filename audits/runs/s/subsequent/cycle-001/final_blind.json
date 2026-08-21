@@ -1,0 +1,119 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-subsequent-20260821",
+  "context_id": "final-subsequent-context-free-20260821",
+  "input_body_sha256": "7f4803ddd1c98c0f7d46be66521bc12edc7450c444bee332db973ab4e2b83ac3",
+  "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "subsequent",
+      "frame": "subsequent + noun; in subsequent years/decades",
+      "meaning": "基準となる時点・出来事・段階より後の、後続の",
+      "disposition": "included",
+      "rationale": "中心的な限定用法として時間・順序の後続を表す。",
+      "semantic_assertions": [
+        {
+          "id": "SA-01",
+          "statement": "subsequent は時間・順序・位置の上で後に来ることを示し、語そのものは直後性や因果性を必須にしない。",
+          "polarity": "must_hold",
+          "scope": "中心語義、定義、語法注意、主要コロケーション"
+        }
+      ],
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "subsequent to",
+      "frame": "subsequent to + noun phrase; noun + subsequent to + noun phrase",
+      "meaning": "～の後に、～に続いてという形式的な前置詞表現",
+      "disposition": "included",
+      "rationale": "本文の文法パターンとコロケーションに明示された形式的構文。",
+      "semantic_assertions": [
+        {
+          "id": "SA-02",
+          "statement": "subsequent to は名詞句を後続させる形式的な構文で、有限節を直接導く通常の接続詞ではない。",
+          "polarity": "must_hold",
+          "scope": "文法パターン、collocation 007-008、語法注意"
+        }
+      ],
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "subsequently",
+      "frame": "subject + subsequently + verb",
+      "meaning": "その後、後になってという副詞",
+      "disposition": "included",
+      "rationale": "subsequent から派生した副詞であり、本文の語法注意でも区別されている。",
+      "semantic_assertions": [
+        {
+          "id": "SA-03",
+          "statement": "subsequently は文全体の出来事の順序を示す副詞で、subsequent の単独の副詞用法ではない。",
+          "polarity": "must_hold",
+          "scope": "語形成 002 と語法注意"
+        }
+      ],
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "subsequence",
+      "frame": "the subsequence of ...; a subsequence",
+      "meaning": "後続すること、後続するものという関連名詞",
+      "disposition": "included",
+      "rationale": "関連する名詞として語形成に記載されるが、subsequent の別語義ではない。",
+      "semantic_assertions": [
+        {
+          "id": "SA-04",
+          "statement": "subsequence は関連する名詞であり、subsequent の中心的な形容詞語義を増やす別義ではない。",
+          "polarity": "must_hold",
+          "scope": "語源と語形成 003"
+        }
+      ],
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "the subsequent",
+      "frame": "independent noun use",
+      "meaning": "subsequent を一般的な単独名詞として教える用法",
+      "disposition": "excluded",
+      "rationale": "一般学習用の中心義として独立名詞を採用する根拠がなく、形容詞中心の本文範囲から除外する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-05",
+          "statement": "subsequent を一般的な単独名詞の中心語義として本文に追加しない。",
+          "polarity": "must_not_hold",
+          "scope": "語義境界と語法注意"
+        }
+      ],
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "subsequent = consequent",
+      "frame": "subsequent event means caused result",
+      "meaning": "後続を原因結果の意味として扱う候補",
+      "disposition": "excluded",
+      "rationale": "subsequent は後続の順序を示し、結果性を担う consequent と区別される。",
+      "semantic_assertions": [
+        {
+          "id": "SA-06",
+          "statement": "subsequent だけから、後の出来事が前の出来事によって引き起こされたとは結論づけない。",
+          "polarity": "must_not_hold",
+          "scope": "定義、語法注意、類義語対比"
+        }
+      ],
+      "article_target_ids": [],
+      "evidence_link_ids": []
+    }
+  ],
+  "article_findings": []
+}
