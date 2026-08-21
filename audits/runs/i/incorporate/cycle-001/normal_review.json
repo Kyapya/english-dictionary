@@ -1,0 +1,1118 @@
+{
+  "stage": "normal_review",
+  "role": "normal_checker",
+  "reviewer_id": "normal-incorporate-20260822",
+  "reviewed_at": "2026-08-22T00:20:00+09:00",
+  "prompt_version": "check_spec_v5",
+  "completed": true,
+  "execution": {
+    "run_id": "normal-incorporate-20260822",
+    "context_id": "normal-incorporate-isolated-20260822",
+    "started_at": "2026-08-22T00:00:00+09:00",
+    "completed_at": "2026-08-22T00:20:00+09:00",
+    "input_body_sha256": "265df64f1b92785848da20cfe48e15f36bc2b9538778afe31621a2cf170bd428",
+    "prompt_sha256": "434f07229db943b2d2cbd830aa88a0c9020402da0de3da2d8ec22f4b4c139ed6",
+    "context_mode": "isolated",
+    "input_artifacts": [
+      "entry_body",
+      "check_spec"
+    ]
+  },
+  "summary": "通常チェックで本文ターゲット、関係、独立候補を全件照合し、採用範囲と法律用法の限定を確認した。",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "incorporate 〈要素・考え〉 into/in/within 〈全体〉",
+      "frame": "incorporate A into/in/within B; B incorporates A; A is incorporated into B",
+      "meaning": "既存の計画・製品・制度・記録・混合物などの全体へ要素を取り入れて、その一部として機能させる",
+      "disposition": "included",
+      "rationale": "一般的な統合・包含義で、本文の第1語義、構文、用例、語法、類義語・反意語に対応する。",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "usage_note:001",
+        "usage_note:002",
+        "usage_note:003",
+        "usage_note:004",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "antonym:001",
+        "antonym:002",
+        "antonym:003"
+      ],
+      "evidence_link_ids": [
+        "EL-0213",
+        "EL-0214"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "incorporate 〈company/business/organization〉; be incorporated in/under/as",
+      "frame": "incorporate a company; the company incorporates; be incorporated in/under/as",
+      "meaning": "会社・事業・組織を法律上の法人として成立させる、または法人になる",
+      "disposition": "included",
+      "rationale": "統合義とは異なる法律・ビジネス上の中心義で、他動詞・自動詞・受動態と法域指定の構文を本文に独立収録する。",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "usage_note:005",
+        "usage_note:006",
+        "usage_note:007",
+        "usage_note:008",
+        "synonym:008",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012",
+        "antonym:004",
+        "antonym:005"
+      ],
+      "evidence_link_ids": [
+        "EL-0215",
+        "EL-0216"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "incorporate 〈term/provision〉 by reference into 〈agreement〉",
+      "frame": "incorporate A by reference into B",
+      "meaning": "別文書・条項を明示的な参照によって契約・文書の正式な一部にする法律用法",
+      "disposition": "included",
+      "rationale": "独立した番号付き語義ではなく第1語義の法律上の固定構文だが、学習上の誤解リスクが高いため構文・用例として明示する。",
+      "article_target_ids": [
+        "grammar_pattern:005",
+        "collocation:008",
+        "usage_note:003"
+      ],
+      "evidence_link_ids": [
+        "EL-0217",
+        "EL-0218"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "incorporate 〈idea/design〉 = give material form to or embody",
+      "frame": "a design/idea incorporates or embodies a feature/quality",
+      "meaning": "考え・性質・特徴を具体的な形や全体の中に表すという拡張的な統合用法",
+      "disposition": "included",
+      "rationale": "辞書にある「具体的な形を与える・体現する」方向は第1語義の全体化の延長として吸収し、独立語義の過剰分割を避ける。",
+      "article_target_ids": [
+        "definition:001",
+        "collocation:002",
+        "usage_note:004"
+      ],
+      "evidence_link_ids": [
+        "EL-0219",
+        "EL-0220"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "incorporate (rare adjective)",
+      "frame": "rare adjective incorporate; ordinary participial adjective incorporated",
+      "meaning": "同綴のまれな形容詞「一体化した・肉体を備えた」",
+      "disposition": "excluded",
+      "rationale": "語形成欄で存在と発音差を注記するが、現代の一般学習用の独立語義・コロケーションとしては収録しない。",
+      "article_target_ids": [
+        "word_formation:004"
+      ],
+      "evidence_link_ids": [
+        "EL-0221",
+        "EL-0222"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "通常チェックで pronunciation:001 の本文位置 line:4、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0001",
+        "EL-0002"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "通常チェックで etymology:001 の本文位置 line:8、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0003",
+        "EL-0004"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "通常チェックで etymology:002 の本文位置 line:9、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0005",
+        "EL-0006"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:001 の本文位置 line:13、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0007",
+        "EL-0008"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:002 の本文位置 line:14、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0009",
+        "EL-0010"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:003 の本文位置 line:15、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0011",
+        "EL-0012"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:004 の本文位置 line:16、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0013",
+        "EL-0014"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:001 の本文位置 line:20、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0015",
+        "EL-0016"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "通常チェックで definition:001 の本文位置 line:22、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0017",
+        "EL-0018"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "通常チェックで frequency:001 の本文位置 line:24、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0019",
+        "EL-0020"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "通常チェックで register:001 の本文位置 line:26、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0021",
+        "EL-0022"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:001 の本文位置 line:28、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0023",
+        "EL-0024"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:002 の本文位置 line:28、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0025",
+        "EL-0026"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:003 の本文位置 line:28、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0027",
+        "EL-0028"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:004 の本文位置 line:28、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0029",
+        "EL-0030"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:005 の本文位置 line:28、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0031",
+        "EL-0032"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "通常チェックで collocation:001 の本文位置 lines:32-35、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0033",
+        "EL-0034"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "通常チェックで collocation:002 の本文位置 lines:37-40、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0035",
+        "EL-0036"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "通常チェックで collocation:003 の本文位置 lines:42-45、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0037",
+        "EL-0038"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "通常チェックで collocation:004 の本文位置 lines:47-50、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0039",
+        "EL-0040"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "通常チェックで collocation:005 の本文位置 lines:52-55、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0041",
+        "EL-0042"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "通常チェックで collocation:006 の本文位置 lines:57-60、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0043",
+        "EL-0044"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "通常チェックで collocation:007 の本文位置 lines:62-65、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0045",
+        "EL-0046"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "通常チェックで collocation:008 の本文位置 lines:67-70、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0047",
+        "EL-0048"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:001 の本文位置 line:72、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0049",
+        "EL-0050"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:002 の本文位置 line:74、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0051",
+        "EL-0052"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:003 の本文位置 line:75、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0053",
+        "EL-0054"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:004 の本文位置 line:76、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0055",
+        "EL-0056"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "通常チェックで synonym:001 の本文位置 lines:80-85、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0057",
+        "EL-0058"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "通常チェックで synonym:002 の本文位置 lines:87-92、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0059",
+        "EL-0060"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "通常チェックで synonym:003 の本文位置 lines:94-99、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0061",
+        "EL-0062"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "通常チェックで synonym:004 の本文位置 lines:101-106、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0063",
+        "EL-0064"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "通常チェックで synonym:005 の本文位置 lines:108-113、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0065",
+        "EL-0066"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "通常チェックで synonym:006 の本文位置 lines:115-120、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0067",
+        "EL-0068"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "通常チェックで synonym:007 の本文位置 lines:122-127、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0069",
+        "EL-0070"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "通常チェックで antonym:001 の本文位置 lines:131-136、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0071",
+        "EL-0072"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "通常チェックで antonym:002 の本文位置 lines:138-143、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0073",
+        "EL-0074"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "通常チェックで antonym:003 の本文位置 lines:145-150、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0075",
+        "EL-0076"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:002 の本文位置 line:152、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0077",
+        "EL-0078"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "通常チェックで definition:002 の本文位置 line:154、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0079",
+        "EL-0080"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "通常チェックで frequency:002 の本文位置 line:156、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0081",
+        "EL-0082"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "通常チェックで register:002 の本文位置 line:158、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0083",
+        "EL-0084"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:006 の本文位置 line:160、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0085",
+        "EL-0086"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:007 の本文位置 line:160、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0087",
+        "EL-0088"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:008 の本文位置 line:160、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0089",
+        "EL-0090"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:009 の本文位置 line:160、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0091",
+        "EL-0092"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:010 の本文位置 line:160、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0093",
+        "EL-0094"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:011 の本文位置 line:160、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0095",
+        "EL-0096"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "通常チェックで collocation:009 の本文位置 lines:164-167、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0097",
+        "EL-0098"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "通常チェックで collocation:010 の本文位置 lines:169-172、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0099",
+        "EL-0100"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "通常チェックで collocation:011 の本文位置 lines:174-177、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0101",
+        "EL-0102"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "通常チェックで collocation:012 の本文位置 lines:179-182、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0103",
+        "EL-0104"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "通常チェックで collocation:013 の本文位置 lines:184-187、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0105",
+        "EL-0106"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "通常チェックで collocation:014 の本文位置 lines:189-192、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0107",
+        "EL-0108"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "通常チェックで collocation:015 の本文位置 lines:194-197、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0109",
+        "EL-0110"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:005 の本文位置 line:199、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0111",
+        "EL-0112"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:006 の本文位置 line:201、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0113",
+        "EL-0114"
+      ]
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:007 の本文位置 line:202、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0115",
+        "EL-0116"
+      ]
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:008 の本文位置 line:203、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0117",
+        "EL-0118"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "通常チェックで synonym:008 の本文位置 lines:207-212、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0119",
+        "EL-0120"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "通常チェックで synonym:009 の本文位置 lines:214-219、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0121",
+        "EL-0122"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "通常チェックで synonym:010 の本文位置 lines:221-226、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0123",
+        "EL-0124"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "通常チェックで synonym:011 の本文位置 lines:228-233、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0125",
+        "EL-0126"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "通常チェックで synonym:012 の本文位置 lines:235-240、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0127",
+        "EL-0128"
+      ]
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "通常チェックで antonym:004 の本文位置 lines:244-249、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0129",
+        "EL-0130"
+      ]
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "通常チェックで antonym:005 の本文位置 lines:251-256、語義・構文・用例訳・適用範囲を根拠資料と照合した。",
+      "evidence_link_ids": [
+        "EL-0131",
+        "EL-0132"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:001 の関係先 sense_boundary:001, sense_boundary:002 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0133",
+        "EL-0134"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:001 の関係先 collocation:001 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0135",
+        "EL-0136"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:002 の関係先 collocation:002 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0137",
+        "EL-0138"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:003 の関係先 collocation:003 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0139",
+        "EL-0140"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:004 の関係先 collocation:004 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0141",
+        "EL-0142"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:005 の関係先 collocation:005 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0143",
+        "EL-0144"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:006 の関係先 collocation:006 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0145",
+        "EL-0146"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:007 の関係先 collocation:007 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0147",
+        "EL-0148"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:008 の関係先 collocation:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0149",
+        "EL-0150"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:009 の関係先 collocation:009 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0151",
+        "EL-0152"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:010 の関係先 collocation:010 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0153",
+        "EL-0154"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:011 の関係先 collocation:011 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0155",
+        "EL-0156"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:012 の関係先 collocation:012 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0157",
+        "EL-0158"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:013 の関係先 collocation:013 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0159",
+        "EL-0160"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:014 の関係先 collocation:014 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0161",
+        "EL-0162"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:015 の関係先 collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0163",
+        "EL-0164"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:001 の関係先 sense_boundary:001, definition:001 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0165",
+        "EL-0166"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:001 の関係先 sense_boundary:001, definition:001, usage_note:001 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0167",
+        "EL-0168"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:002 の関係先 sense_boundary:001, definition:001, usage_note:002 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0169",
+        "EL-0170"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:003 の関係先 sense_boundary:001, definition:001, usage_note:003 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0171",
+        "EL-0172"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:004 の関係先 sense_boundary:001, definition:001, usage_note:004 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0173",
+        "EL-0174"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:001 の関係先 sense_boundary:001, definition:001, synonym:001, synonym:002, synonym:003, synonym:004, synonym:005, synonym:006, synonym:007, antonym:001, antonym:002, antonym:003 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0175",
+        "EL-0176"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:001 の関係先 grammar_pattern:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006, collocation:007, collocation:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0177",
+        "EL-0178"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:002 の関係先 grammar_pattern:002, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006, collocation:007, collocation:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0179",
+        "EL-0180"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:003 の関係先 grammar_pattern:003, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006, collocation:007, collocation:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0181",
+        "EL-0182"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:004 の関係先 grammar_pattern:004, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006, collocation:007, collocation:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0183",
+        "EL-0184"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:005 の関係先 grammar_pattern:005, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006, collocation:007, collocation:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0185",
+        "EL-0186"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:002 の関係先 sense_boundary:002, definition:002 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0187",
+        "EL-0188"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:005 の関係先 sense_boundary:002, definition:002, usage_note:005 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0189",
+        "EL-0190"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:006 の関係先 sense_boundary:002, definition:002, usage_note:006 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0191",
+        "EL-0192"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:007 の関係先 sense_boundary:002, definition:002, usage_note:007 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0193",
+        "EL-0194"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:008 の関係先 sense_boundary:002, definition:002, usage_note:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0195",
+        "EL-0196"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:002 の関係先 sense_boundary:002, definition:002, synonym:008, synonym:009, synonym:010, synonym:011, synonym:012, antonym:004, antonym:005 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0197",
+        "EL-0198"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:006 の関係先 grammar_pattern:006, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0199",
+        "EL-0200"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:007 の関係先 grammar_pattern:007, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0201",
+        "EL-0202"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:008 の関係先 grammar_pattern:008, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0203",
+        "EL-0204"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:009 の関係先 grammar_pattern:009, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0205",
+        "EL-0206"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:010 の関係先 grammar_pattern:010, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0207",
+        "EL-0208"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:011 の関係先 grammar_pattern:011, collocation:009, collocation:010, collocation:011, collocation:012, collocation:013, collocation:014, collocation:015 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0209",
+        "EL-0210"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "通常チェックで article_learning_risk:001 の関係先 sense_boundary:001, definition:001, usage_note:001, usage_note:002, usage_note:003, usage_note:004, sense_boundary:002, definition:002, usage_note:005, usage_note:006, usage_note:007, usage_note:008 を個別照合し、語義境界・構文・例文訳の整合を確認した。",
+      "evidence_link_ids": [
+        "EL-0211",
+        "EL-0212"
+      ]
+    }
+  ]
+}
