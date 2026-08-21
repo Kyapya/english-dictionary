@@ -1,0 +1,99 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-incorporate-20260822",
+  "input_body_sha256": "265df64f1b92785848da20cfe48e15f36bc2b9538778afe31621a2cf170bd428",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "incorporate 〈要素・考え〉 into/in/within 〈全体〉",
+      "frame": "incorporate A into/in/within B; B incorporates A; A is incorporated into B",
+      "meaning": "既存の計画・製品・制度・記録・混合物などの全体へ要素を取り入れて、その一部として機能させる",
+      "disposition": "included",
+      "rationale": "一般的な統合・包含義で、本文の第1語義、構文、用例、語法、類義語・反意語に対応する。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-01",
+          "statement": "incorporate の統合義は既存の全体へ要素を取り入れて機能させることを表し、完全な不可分性までは必須としない。",
+          "polarity": "must_hold",
+          "scope": "語義1の定義、into/in/within 構文、用例、類義語対比"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "incorporate 〈company/business/organization〉; be incorporated in/under/as",
+      "frame": "incorporate a company; the company incorporates; be incorporated in/under/as",
+      "meaning": "会社・事業・組織を法律上の法人として成立させる、または法人になる",
+      "disposition": "included",
+      "rationale": "統合義とは異なる法律・ビジネス上の中心義で、他動詞・自動詞・受動態と法域指定の構文を本文に独立収録する。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-02",
+          "statement": "法人化義は会社・事業・組織を corporation として法的に成立させる用法で、統合義と構文・レジスターが異なる。",
+          "polarity": "must_hold",
+          "scope": "語義2の定義、in/under/as 構文、法律・ビジネス用例"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "incorporate 〈term/provision〉 by reference into 〈agreement〉",
+      "frame": "incorporate A by reference into B",
+      "meaning": "別文書・条項を明示的な参照によって契約・文書の正式な一部にする法律用法",
+      "disposition": "included",
+      "rationale": "独立した番号付き語義ではなく第1語義の法律上の固定構文だが、学習上の誤解リスクが高いため構文・用例として明示する。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-03",
+          "statement": "incorporate by reference は第1語義の法律上の固定構文として本文に含めるが、独立した番号付き中心語義へ分割しない。",
+          "polarity": "must_hold",
+          "scope": "語義1の grammar_pattern:005、collocation:008、usage_note:003"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "incorporate 〈idea/design〉 = give material form to or embody",
+      "frame": "a design/idea incorporates or embodies a feature/quality",
+      "meaning": "考え・性質・特徴を具体的な形や全体の中に表すという拡張的な統合用法",
+      "disposition": "included",
+      "rationale": "辞書にある「具体的な形を与える・体現する」方向は第1語義の全体化の延長として吸収し、独立語義の過剰分割を避ける。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-04",
+          "statement": "give material form to / embody に近い拡張は第1語義の統合・体現の範囲に吸収し、本文で独立語義として過剰分割しない。",
+          "polarity": "must_hold",
+          "scope": "語義1の定義、全体主語の用例、usage_note:004"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "incorporate (rare adjective)",
+      "frame": "rare adjective incorporate; ordinary participial adjective incorporated",
+      "meaning": "同綴のまれな形容詞「一体化した・肉体を備えた」",
+      "disposition": "excluded",
+      "rationale": "語形成欄で存在と発音差を注記するが、現代の一般学習用の独立語義・コロケーションとしては収録しない。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-05",
+          "statement": "同綴の形容詞 incorporate はまれであり、一般的な「組み込まれた」用法の代わりに incorporated と一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "＃語形成、＃発音記号、語義一覧の収録範囲"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
