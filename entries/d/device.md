@@ -1,12 +1,12 @@
 ---
 headword: device
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-21
 updated_at: 2026-08-21
-checked: false
+checked: true
 tags: []
 ---
 
