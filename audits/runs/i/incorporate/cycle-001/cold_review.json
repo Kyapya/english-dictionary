@@ -1,0 +1,23 @@
+{
+  "stage": "cold_review",
+  "role": "cold_reviewer",
+  "reviewer_id": "cold-incorporate-20260822",
+  "reviewed_at": "2026-08-22T00:45:00+09:00",
+  "prompt_version": "cold_review_prompt_v1",
+  "completed": true,
+  "execution": {
+    "run_id": "cold-incorporate-20260822",
+    "context_id": "cold-incorporate-context-free-20260822",
+    "started_at": "2026-08-22T00:25:00+09:00",
+    "completed_at": "2026-08-22T00:45:00+09:00",
+    "input_body_sha256": "265df64f1b92785848da20cfe48e15f36bc2b9538778afe31621a2cf170bd428",
+    "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+    "context_mode": "context_free",
+    "input_artifacts": [
+      "entry_body",
+      "cold_review_prompt"
+    ]
+  },
+  "summary": "問題候補なし。本文だけを前提なしで走査し、語義境界、主要構文、法域依存の断定、類義語・反意語、例文訳、発音説明の反例を確認した。",
+  "findings": []
+}
