@@ -43,7 +43,14 @@
         "context_id": "final-devise-context-free-20260822",
         "sealed_output_sha256": "9a2247447c6e5fe9b343bc2ace3dba2f51fda0d5443feccd7c7eb41c41c35264"
       },
-      "final_review": {}
+      "final_review": {
+        "path": "audits/runs/d/devise/cycle-001/final_review.json",
+        "sha256": "2cc404456f42b62ce7344a6335c6a7bc107403393b568e724729dae97cf5414d",
+        "input_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
+        "run_id": "final-devise-20260822",
+        "context_id": "final-devise-context-free-20260822"
+      }
     },
     "escaped_defects": [],
     "regression_checks": [
@@ -7077,6 +7084,601 @@
       "counterexample_checked": true,
       "counterexample_method": "cross-source and boundary scan",
       "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0272",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-01",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "IC-01 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-01",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0273",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-01",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "IC-01 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-01",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0274",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-02",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "IC-02 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-02",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0275",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-02",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "IC-02 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-02",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0276",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-03",
+      "evidence_id": "E-COLLINS-DEVISE",
+      "claim": "IC-03 is supported by the cited source.",
+      "locator": "https://www.collinsdictionary.com/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Collins English Dictionary, devise",
+      "source_excerpt_or_summary": "general and legal senses, register, and collocations",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-03",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0277",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-04",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "IC-04 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-04",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0278",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-04",
+      "evidence_id": "E-CORNELL-DEVISE",
+      "claim": "IC-04 is supported by the cited source.",
+      "locator": "https://www.law.cornell.edu/wex/devise",
+      "locator_kind": "section",
+      "source_detail": "Cornell Legal Information Institute Wex, devise",
+      "source_excerpt_or_summary": "legal verb and real-property gift terminology",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-04",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0279",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-05",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "IC-05 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-05",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0280",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-05",
+      "evidence_id": "E-CORNELL-DEVISE",
+      "claim": "IC-05 is supported by the cited source.",
+      "locator": "https://www.law.cornell.edu/wex/devise",
+      "locator_kind": "section",
+      "source_detail": "Cornell Legal Information Institute Wex, devise",
+      "source_excerpt_or_summary": "legal verb and real-property gift terminology",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-05",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0281",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-06",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "IC-06 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-06",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0282",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-06",
+      "evidence_id": "E-CORNELL-DEVISE",
+      "claim": "IC-06 is supported by the cited source.",
+      "locator": "https://www.law.cornell.edu/wex/devise",
+      "locator_kind": "section",
+      "source_detail": "Cornell Legal Information Institute Wex, devise",
+      "source_excerpt_or_summary": "legal verb and real-property gift terminology",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-06",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0283",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-07",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "IC-07 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-07",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0284",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-07",
+      "evidence_id": "E-CORNELL-DEVISE",
+      "claim": "IC-07 is supported by the cited source.",
+      "locator": "https://www.law.cornell.edu/wex/devise",
+      "locator_kind": "section",
+      "source_detail": "Cornell Legal Information Institute Wex, devise",
+      "source_excerpt_or_summary": "legal verb and real-property gift terminology",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-07",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0285",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-08",
+      "evidence_id": "E-MW-DEVISEE",
+      "claim": "IC-08 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devisee",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devisee",
+      "source_excerpt_or_summary": "derived legal noun devisee",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-08",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0286",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-08",
+      "evidence_id": "E-CORNELL-DEVISE",
+      "claim": "IC-08 is supported by the cited source.",
+      "locator": "https://www.law.cornell.edu/wex/devise",
+      "locator_kind": "section",
+      "source_detail": "Cornell Legal Information Institute Wex, devise",
+      "source_excerpt_or_summary": "legal verb and real-property gift terminology",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-08",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0287",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-09",
+      "evidence_id": "E-CAMBRIDGE-DEVICE",
+      "claim": "IC-09 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/device",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, device",
+      "source_excerpt_or_summary": "device/devise spelling and pronunciation contrast",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-09",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0288",
+      "subject_type": "final_candidate",
+      "subject_id": "IC-09",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "IC-09 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to IC-09",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0289",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-01",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-01 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-01",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0290",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-01",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-01 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-01",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0291",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-02",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-02 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-02",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0292",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-02",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-02 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-02",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0293",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-03",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-03 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-03",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0294",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-03",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-03 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-03",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0295",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-04",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-04 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-04",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0296",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-04",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-04 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-04",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0297",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-05",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-05 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-05",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0298",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-05",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-05 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-05",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0299",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-06",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-06 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-06",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0300",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-06",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-06 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-06",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0301",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-07",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-07 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-07",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0302",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-07",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-07 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-07",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0303",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-08",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-08 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-08",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0304",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-08",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-08 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-08",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0305",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-09",
+      "evidence_id": "E-CAMBRIDGE-DEVISE",
+      "claim": "INV-09 is supported by the cited source.",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/devise",
+      "locator_kind": "section",
+      "source_detail": "Cambridge Dictionary, devise",
+      "source_excerpt_or_summary": "general verb senses and pronunciation",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-09",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
+    },
+    {
+      "id": "EL-0306",
+      "subject_type": "inventory_comparison",
+      "subject_id": "INV-09",
+      "evidence_id": "E-MW-DEVISE",
+      "claim": "INV-09 is supported by the cited source.",
+      "locator": "https://www.merriam-webster.com/dictionary/devise",
+      "locator_kind": "section",
+      "source_detail": "Merriam-Webster, devise",
+      "source_excerpt_or_summary": "general, archaic, legal, noun, and etymological senses",
+      "supports": "direct lexical or legal support",
+      "applicability": "applies to INV-09",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "cross-source and boundary scan",
+      "counterexample_result": "no contradictory usage found"
     }
   ],
   "normal_review": {
@@ -8916,18 +9518,377 @@
     "version": "semantic_resolution_v2",
     "body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
     "constraints": [],
-    "final_inventory_checks": []
+    "final_inventory_checks": [
+      {
+        "candidate_id": "IC-01",
+        "assertion_ids": [
+          "SA-01"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "core_image:001",
+          "core_image:002",
+          "definition:001",
+          "frequency:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "register:001",
+          "sense_boundary:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "usage_note:001"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:001",
+          "definition_lexical_relation_consistency:001",
+          "definition_usage_consistency:001",
+          "example_translation:001",
+          "example_translation:002",
+          "example_translation:003",
+          "example_translation:004",
+          "example_translation:005",
+          "example_translation:006",
+          "example_translation:007",
+          "example_translation:008",
+          "pattern_example_coverage:001",
+          "pattern_example_coverage:002",
+          "pattern_example_coverage:003",
+          "pattern_example_coverage:004",
+          "pattern_example_coverage:005",
+          "pattern_example_coverage:006",
+          "pattern_example_coverage:007",
+          "pattern_example_coverage:008",
+          "sense_definition_consistency:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-02",
+        "assertion_ids": [
+          "SA-02"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "usage_note:001",
+          "word_formation:005"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_sense_mapping:001",
+          "definition_usage_consistency:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-03",
+        "assertion_ids": [
+          "SA-03"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [],
+        "article_relation_ids_checked": [],
+        "article_queries_checked": [
+          "devise to solve"
+        ],
+        "article_query_results": [
+          {
+            "query": "devise to solve",
+            "match_count": 1,
+            "matched_target_ids": [
+              "usage_note:001"
+            ]
+          }
+        ],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-04",
+        "assertion_ids": [
+          "SA-04"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "core_image:001",
+          "core_image:003",
+          "definition:002",
+          "frequency:002",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "register:002",
+          "sense_boundary:002",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "usage_note:002"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:002",
+          "definition_lexical_relation_consistency:002",
+          "definition_usage_consistency:002",
+          "example_translation:009",
+          "example_translation:010",
+          "example_translation:011",
+          "example_translation:012",
+          "example_translation:013",
+          "pattern_example_coverage:009",
+          "pattern_example_coverage:010",
+          "pattern_example_coverage:011",
+          "pattern_example_coverage:012",
+          "sense_definition_consistency:002"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-05",
+        "assertion_ids": [
+          "SA-05"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "core_image:001",
+          "core_image:004",
+          "definition:003",
+          "frequency:003",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "register:003",
+          "sense_boundary:003",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "usage_note:003"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:003",
+          "definition_lexical_relation_consistency:003",
+          "definition_usage_consistency:003",
+          "example_translation:014",
+          "example_translation:015",
+          "example_translation:016",
+          "example_translation:017",
+          "example_translation:018",
+          "pattern_example_coverage:013",
+          "pattern_example_coverage:014",
+          "pattern_example_coverage:015",
+          "pattern_example_coverage:016",
+          "risk_sense_pair:001",
+          "sense_definition_consistency:003"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-06",
+        "assertion_ids": [
+          "SA-06"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "core_image:001",
+          "core_image:005",
+          "definition:004",
+          "frequency:004",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "register:004",
+          "sense_boundary:004",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017",
+          "usage_note:004"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:004",
+          "definition_lexical_relation_consistency:004",
+          "definition_usage_consistency:004",
+          "example_translation:019",
+          "example_translation:020",
+          "example_translation:021",
+          "example_translation:022",
+          "pattern_example_coverage:017",
+          "pattern_example_coverage:018",
+          "pattern_example_coverage:019",
+          "pattern_example_coverage:020",
+          "risk_sense_pair:002",
+          "sense_definition_consistency:004"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-07",
+        "assertion_ids": [
+          "SA-07"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "collocation:023",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "core_image:001",
+          "core_image:006",
+          "definition:005",
+          "frequency:005",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "register:005",
+          "sense_boundary:005",
+          "synonym:018",
+          "synonym:019",
+          "synonym:020",
+          "usage_note:005"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:005",
+          "definition_lexical_relation_consistency:005",
+          "definition_usage_consistency:005",
+          "example_translation:023",
+          "example_translation:024",
+          "example_translation:025",
+          "example_translation:026",
+          "example_translation:027",
+          "pattern_example_coverage:021",
+          "pattern_example_coverage:022",
+          "pattern_example_coverage:023",
+          "pattern_example_coverage:024",
+          "risk_sense_pair:001",
+          "risk_sense_pair:002",
+          "sense_definition_consistency:005"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-08",
+        "assertion_ids": [
+          "SA-08"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [
+          "usage_note:002",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_sense_mapping:002",
+          "definition_usage_consistency:002"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": [],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      },
+      {
+        "candidate_id": "IC-09",
+        "assertion_ids": [
+          "SA-09"
+        ],
+        "checked_on_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+        "article_target_ids_checked": [],
+        "article_relation_ids_checked": [],
+        "article_queries_checked": [
+          "device"
+        ],
+        "article_query_results": [
+          {
+            "query": "device",
+            "match_count": 5,
+            "matched_target_ids": [
+              "etymology:002",
+              "pronunciation:001",
+              "synonym:001",
+              "usage_note:001"
+            ]
+          }
+        ],
+        "status": "pass",
+        "notes": "盲検候補の意味主張、対応対象、関連関係、必要な除外境界を再検査した。"
+      }
+    ]
   },
   "final_review": {
     "role": "final_adjudicator",
     "reviewer_id": "final-devise-20260822",
-    "reviewed_at": "",
-    "completed": false,
+    "reviewed_at": "2026-08-21T10:48:16-05:00",
+    "completed": true,
     "execution": {
       "run_id": "final-devise-20260822",
       "context_id": "final-devise-context-free-20260822",
       "started_at": "2026-08-21T09:42:02-05:00",
-      "completed_at": "",
+      "completed_at": "2026-08-21T10:48:16-05:00",
       "input_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
       "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
       "context_mode": "context_free",
@@ -8935,11 +9896,16 @@
         "entry_body",
         "final_review_spec"
       ],
-      "reconciliation_started_at": "",
-      "reconciliation_input_artifacts": []
+      "reconciliation_started_at": "2026-08-21T10:48:15-05:00",
+      "reconciliation_input_artifacts": [
+        "entry_body",
+        "final_review_spec",
+        "audit_manifest",
+        "evidence_sources"
+      ]
     },
     "body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
-    "decision": "pending",
+    "decision": "pass",
     "blind_review": {
       "seal_version": "blind_seal_v2",
       "completed": true,
@@ -8967,8 +9933,43 @@
             "scope": "一般用法の語義・文法・コロケーション"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "core_image:001",
+          "core_image:002",
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008"
+        ],
+        "evidence_link_ids": [
+          "EL-0272",
+          "EL-0273"
+        ]
       },
       {
         "id": "IC-02",
@@ -8985,8 +9986,14 @@
             "scope": "語形成と一般用法の語法注記"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "word_formation:005",
+          "usage_note:001"
+        ],
+        "evidence_link_ids": [
+          "EL-0274",
+          "EL-0275"
+        ]
       },
       {
         "id": "IC-03",
@@ -9004,7 +10011,9 @@
           }
         ],
         "article_target_ids": [],
-        "evidence_link_ids": []
+        "evidence_link_ids": [
+          "EL-0276"
+        ]
       },
       {
         "id": "IC-04",
@@ -9021,8 +10030,31 @@
             "scope": "法律語義・文法・コロケーション"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "core_image:001",
+          "core_image:003",
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "usage_note:002",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011"
+        ],
+        "evidence_link_ids": [
+          "EL-0277",
+          "EL-0278"
+        ]
       },
       {
         "id": "IC-05",
@@ -9039,8 +10071,31 @@
             "scope": "法律名詞の行為・贈与の用法"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "core_image:001",
+          "core_image:004",
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "usage_note:003",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014"
+        ],
+        "evidence_link_ids": [
+          "EL-0279",
+          "EL-0280"
+        ]
       },
       {
         "id": "IC-06",
@@ -9057,8 +10112,30 @@
             "scope": "法律名詞の条項境界"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "core_image:001",
+          "core_image:005",
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "usage_note:004",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017"
+        ],
+        "evidence_link_ids": [
+          "EL-0281",
+          "EL-0282"
+        ]
       },
       {
         "id": "IC-07",
@@ -9075,8 +10152,31 @@
             "scope": "法律名詞の結果財産用法"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "core_image:001",
+          "core_image:006",
+          "sense_boundary:005",
+          "definition:005",
+          "frequency:005",
+          "register:005",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "collocation:023",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "usage_note:005",
+          "synonym:018",
+          "synonym:019",
+          "synonym:020"
+        ],
+        "evidence_link_ids": [
+          "EL-0283",
+          "EL-0284"
+        ]
       },
       {
         "id": "IC-08",
@@ -9093,8 +10193,17 @@
             "scope": "語形成と法律用法"
           }
         ],
-        "article_target_ids": [],
-        "evidence_link_ids": []
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "usage_note:002"
+        ],
+        "evidence_link_ids": [
+          "EL-0285",
+          "EL-0286"
+        ]
       },
       {
         "id": "IC-09",
@@ -9112,16 +10221,4551 @@
           }
         ],
         "article_target_ids": [],
-        "evidence_link_ids": []
+        "evidence_link_ids": [
+          "EL-0287",
+          "EL-0288"
+        ]
       }
     ],
-    "inventory_comparison": [],
+    "inventory_comparison": [
+      {
+        "id": "INV-01",
+        "normal_candidate_ids": [
+          "NC-01"
+        ],
+        "final_candidate_ids": [
+          "IC-01"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0289",
+          "EL-0290"
+        ]
+      },
+      {
+        "id": "INV-02",
+        "normal_candidate_ids": [
+          "NC-02"
+        ],
+        "final_candidate_ids": [
+          "IC-02"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0291",
+          "EL-0292"
+        ]
+      },
+      {
+        "id": "INV-03",
+        "normal_candidate_ids": [
+          "NC-03"
+        ],
+        "final_candidate_ids": [
+          "IC-03"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0293",
+          "EL-0294"
+        ]
+      },
+      {
+        "id": "INV-04",
+        "normal_candidate_ids": [
+          "NC-04"
+        ],
+        "final_candidate_ids": [
+          "IC-04"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0295",
+          "EL-0296"
+        ]
+      },
+      {
+        "id": "INV-05",
+        "normal_candidate_ids": [
+          "NC-05"
+        ],
+        "final_candidate_ids": [
+          "IC-05"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0297",
+          "EL-0298"
+        ]
+      },
+      {
+        "id": "INV-06",
+        "normal_candidate_ids": [
+          "NC-06"
+        ],
+        "final_candidate_ids": [
+          "IC-06"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0299",
+          "EL-0300"
+        ]
+      },
+      {
+        "id": "INV-07",
+        "normal_candidate_ids": [
+          "NC-07"
+        ],
+        "final_candidate_ids": [
+          "IC-07"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0301",
+          "EL-0302"
+        ]
+      },
+      {
+        "id": "INV-08",
+        "normal_candidate_ids": [
+          "NC-08"
+        ],
+        "final_candidate_ids": [
+          "IC-08"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0303",
+          "EL-0304"
+        ]
+      },
+      {
+        "id": "INV-09",
+        "normal_candidate_ids": [
+          "NC-09"
+        ],
+        "final_candidate_ids": [
+          "IC-09"
+        ],
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "通常レビューと盲検インベントリは語義範囲・採否・境界の対応が一致する。",
+        "evidence_link_ids": [
+          "EL-0305",
+          "EL-0306"
+        ]
+      }
+    ],
     "blind_finding_results": [],
-    "target_results": [],
-    "relation_results": [],
-    "candidate_results": [],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0001",
+          "EL-0002"
+        ]
+      },
+      {
+        "id": "etymology:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0003",
+          "EL-0004"
+        ]
+      },
+      {
+        "id": "etymology:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0005",
+          "EL-0006"
+        ]
+      },
+      {
+        "id": "word_formation:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0007",
+          "EL-0008"
+        ]
+      },
+      {
+        "id": "word_formation:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0009",
+          "EL-0010"
+        ]
+      },
+      {
+        "id": "word_formation:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0011",
+          "EL-0012"
+        ]
+      },
+      {
+        "id": "word_formation:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0013",
+          "EL-0014"
+        ]
+      },
+      {
+        "id": "word_formation:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0015"
+        ]
+      },
+      {
+        "id": "core_image:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0016",
+          "EL-0017"
+        ]
+      },
+      {
+        "id": "core_image:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0018"
+        ]
+      },
+      {
+        "id": "core_image:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0019"
+        ]
+      },
+      {
+        "id": "core_image:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0020"
+        ]
+      },
+      {
+        "id": "core_image:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0021"
+        ]
+      },
+      {
+        "id": "core_image:006",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0022"
+        ]
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0023",
+          "EL-0024"
+        ]
+      },
+      {
+        "id": "definition:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0025",
+          "EL-0026"
+        ]
+      },
+      {
+        "id": "frequency:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0027",
+          "EL-0028"
+        ]
+      },
+      {
+        "id": "register:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0029",
+          "EL-0030"
+        ]
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0031"
+        ]
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0032"
+        ]
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0033"
+        ]
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0034"
+        ]
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0035"
+        ]
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0036",
+          "EL-0037"
+        ]
+      },
+      {
+        "id": "grammar_pattern:007",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0038"
+        ]
+      },
+      {
+        "id": "grammar_pattern:008",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0039"
+        ]
+      },
+      {
+        "id": "collocation:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0040"
+        ]
+      },
+      {
+        "id": "collocation:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0041"
+        ]
+      },
+      {
+        "id": "collocation:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0042"
+        ]
+      },
+      {
+        "id": "collocation:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0043"
+        ]
+      },
+      {
+        "id": "collocation:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0044"
+        ]
+      },
+      {
+        "id": "collocation:006",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0045",
+          "EL-0046"
+        ]
+      },
+      {
+        "id": "collocation:007",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0047"
+        ]
+      },
+      {
+        "id": "collocation:008",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0048"
+        ]
+      },
+      {
+        "id": "usage_note:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0049",
+          "EL-0050"
+        ]
+      },
+      {
+        "id": "synonym:001",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0051",
+          "EL-0052"
+        ]
+      },
+      {
+        "id": "synonym:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0053",
+          "EL-0054"
+        ]
+      },
+      {
+        "id": "synonym:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0055",
+          "EL-0056"
+        ]
+      },
+      {
+        "id": "synonym:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0057",
+          "EL-0058"
+        ]
+      },
+      {
+        "id": "synonym:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0059",
+          "EL-0060"
+        ]
+      },
+      {
+        "id": "synonym:006",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0061",
+          "EL-0062"
+        ]
+      },
+      {
+        "id": "synonym:007",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0063",
+          "EL-0064"
+        ]
+      },
+      {
+        "id": "synonym:008",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0065",
+          "EL-0066"
+        ]
+      },
+      {
+        "id": "sense_boundary:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0067",
+          "EL-0068"
+        ]
+      },
+      {
+        "id": "definition:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0069",
+          "EL-0070"
+        ]
+      },
+      {
+        "id": "frequency:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0071",
+          "EL-0072"
+        ]
+      },
+      {
+        "id": "register:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0073",
+          "EL-0074"
+        ]
+      },
+      {
+        "id": "grammar_pattern:009",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0075"
+        ]
+      },
+      {
+        "id": "grammar_pattern:010",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0076"
+        ]
+      },
+      {
+        "id": "grammar_pattern:011",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0077"
+        ]
+      },
+      {
+        "id": "grammar_pattern:012",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0078"
+        ]
+      },
+      {
+        "id": "collocation:009",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0079",
+          "EL-0080"
+        ]
+      },
+      {
+        "id": "collocation:010",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0081"
+        ]
+      },
+      {
+        "id": "collocation:011",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0082"
+        ]
+      },
+      {
+        "id": "collocation:012",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0083",
+          "EL-0084"
+        ]
+      },
+      {
+        "id": "collocation:013",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0085"
+        ]
+      },
+      {
+        "id": "usage_note:002",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0086",
+          "EL-0087"
+        ]
+      },
+      {
+        "id": "synonym:009",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0088",
+          "EL-0089"
+        ]
+      },
+      {
+        "id": "synonym:010",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0090",
+          "EL-0091"
+        ]
+      },
+      {
+        "id": "synonym:011",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0092",
+          "EL-0093"
+        ]
+      },
+      {
+        "id": "sense_boundary:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0094",
+          "EL-0095"
+        ]
+      },
+      {
+        "id": "definition:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0096",
+          "EL-0097"
+        ]
+      },
+      {
+        "id": "frequency:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0098",
+          "EL-0099"
+        ]
+      },
+      {
+        "id": "register:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0100",
+          "EL-0101"
+        ]
+      },
+      {
+        "id": "grammar_pattern:013",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0102"
+        ]
+      },
+      {
+        "id": "grammar_pattern:014",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0103"
+        ]
+      },
+      {
+        "id": "grammar_pattern:015",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0104"
+        ]
+      },
+      {
+        "id": "grammar_pattern:016",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0105"
+        ]
+      },
+      {
+        "id": "collocation:014",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0106"
+        ]
+      },
+      {
+        "id": "collocation:015",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0107"
+        ]
+      },
+      {
+        "id": "collocation:016",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0108"
+        ]
+      },
+      {
+        "id": "collocation:017",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0109"
+        ]
+      },
+      {
+        "id": "collocation:018",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0110"
+        ]
+      },
+      {
+        "id": "usage_note:003",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0111",
+          "EL-0112"
+        ]
+      },
+      {
+        "id": "synonym:012",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0113",
+          "EL-0114"
+        ]
+      },
+      {
+        "id": "synonym:013",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0115",
+          "EL-0116"
+        ]
+      },
+      {
+        "id": "synonym:014",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0117",
+          "EL-0118"
+        ]
+      },
+      {
+        "id": "sense_boundary:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0119",
+          "EL-0120"
+        ]
+      },
+      {
+        "id": "definition:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0121",
+          "EL-0122"
+        ]
+      },
+      {
+        "id": "frequency:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0123",
+          "EL-0124"
+        ]
+      },
+      {
+        "id": "register:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0125",
+          "EL-0126"
+        ]
+      },
+      {
+        "id": "grammar_pattern:017",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0127"
+        ]
+      },
+      {
+        "id": "grammar_pattern:018",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0128"
+        ]
+      },
+      {
+        "id": "grammar_pattern:019",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0129"
+        ]
+      },
+      {
+        "id": "grammar_pattern:020",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0130"
+        ]
+      },
+      {
+        "id": "collocation:019",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0131"
+        ]
+      },
+      {
+        "id": "collocation:020",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0132",
+          "EL-0133"
+        ]
+      },
+      {
+        "id": "collocation:021",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0134"
+        ]
+      },
+      {
+        "id": "collocation:022",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0135",
+          "EL-0136"
+        ]
+      },
+      {
+        "id": "usage_note:004",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0137",
+          "EL-0138"
+        ]
+      },
+      {
+        "id": "synonym:015",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0139",
+          "EL-0140"
+        ]
+      },
+      {
+        "id": "synonym:016",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0141",
+          "EL-0142"
+        ]
+      },
+      {
+        "id": "synonym:017",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0143",
+          "EL-0144"
+        ]
+      },
+      {
+        "id": "sense_boundary:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0145",
+          "EL-0146"
+        ]
+      },
+      {
+        "id": "definition:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0147",
+          "EL-0148"
+        ]
+      },
+      {
+        "id": "frequency:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0149",
+          "EL-0150"
+        ]
+      },
+      {
+        "id": "register:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0151",
+          "EL-0152"
+        ]
+      },
+      {
+        "id": "grammar_pattern:021",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0153"
+        ]
+      },
+      {
+        "id": "grammar_pattern:022",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0154"
+        ]
+      },
+      {
+        "id": "grammar_pattern:023",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0155"
+        ]
+      },
+      {
+        "id": "grammar_pattern:024",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0156"
+        ]
+      },
+      {
+        "id": "collocation:023",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0157"
+        ]
+      },
+      {
+        "id": "collocation:024",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0158"
+        ]
+      },
+      {
+        "id": "collocation:025",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0159"
+        ]
+      },
+      {
+        "id": "collocation:026",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0160",
+          "EL-0161"
+        ]
+      },
+      {
+        "id": "collocation:027",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0162"
+        ]
+      },
+      {
+        "id": "usage_note:005",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0163",
+          "EL-0164"
+        ]
+      },
+      {
+        "id": "synonym:018",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0165",
+          "EL-0166"
+        ]
+      },
+      {
+        "id": "synonym:019",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0167",
+          "EL-0168"
+        ]
+      },
+      {
+        "id": "synonym:020",
+        "status": "pass",
+        "notes": "最終盲検後の再照合で本文、語義範囲、根拠適用を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0169",
+          "EL-0170"
+        ]
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "risk_sense_pair:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0171",
+          "EL-0172"
+        ]
+      },
+      {
+        "id": "risk_sense_pair:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0173",
+          "EL-0174"
+        ]
+      },
+      {
+        "id": "example_translation:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0175"
+        ]
+      },
+      {
+        "id": "example_translation:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0176"
+        ]
+      },
+      {
+        "id": "example_translation:003",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0177"
+        ]
+      },
+      {
+        "id": "example_translation:004",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0178"
+        ]
+      },
+      {
+        "id": "example_translation:005",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0179"
+        ]
+      },
+      {
+        "id": "example_translation:006",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0180"
+        ]
+      },
+      {
+        "id": "example_translation:007",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0181"
+        ]
+      },
+      {
+        "id": "example_translation:008",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0182"
+        ]
+      },
+      {
+        "id": "example_translation:009",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0183"
+        ]
+      },
+      {
+        "id": "example_translation:010",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0184"
+        ]
+      },
+      {
+        "id": "example_translation:011",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0185"
+        ]
+      },
+      {
+        "id": "example_translation:012",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0186"
+        ]
+      },
+      {
+        "id": "example_translation:013",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0187"
+        ]
+      },
+      {
+        "id": "example_translation:014",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0188"
+        ]
+      },
+      {
+        "id": "example_translation:015",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0189"
+        ]
+      },
+      {
+        "id": "example_translation:016",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0190"
+        ]
+      },
+      {
+        "id": "example_translation:017",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0191"
+        ]
+      },
+      {
+        "id": "example_translation:018",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0192"
+        ]
+      },
+      {
+        "id": "example_translation:019",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0193"
+        ]
+      },
+      {
+        "id": "example_translation:020",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0194"
+        ]
+      },
+      {
+        "id": "example_translation:021",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0195"
+        ]
+      },
+      {
+        "id": "example_translation:022",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0196"
+        ]
+      },
+      {
+        "id": "example_translation:023",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0197"
+        ]
+      },
+      {
+        "id": "example_translation:024",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0198"
+        ]
+      },
+      {
+        "id": "example_translation:025",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0199"
+        ]
+      },
+      {
+        "id": "example_translation:026",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0200"
+        ]
+      },
+      {
+        "id": "example_translation:027",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0201"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0202"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0203"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0204"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0205"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0206"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0207"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0208"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0209"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0210"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0211"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0212"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0213"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0214"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0215"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:009",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0216"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:010",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0217"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:011",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0218"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:012",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0219"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:003",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0220"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:003",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0221"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:003",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0222"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:013",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0223"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:014",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0224"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:015",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0225"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:016",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0226"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:004",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0227"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:004",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0228"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:004",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0229"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:017",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0230"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:018",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0231"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:019",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0232"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:020",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0233"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:005",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0234"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:005",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0235"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:005",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0236"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:021",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0237"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:022",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0238"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:023",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0239"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:024",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0240"
+        ]
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0241",
+          "EL-0242"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0243",
+          "EL-0244"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0245",
+          "EL-0246"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:003",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0247",
+          "EL-0248"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:004",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0249",
+          "EL-0250"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:005",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0251",
+          "EL-0252"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "最終再照合で対象関係、意味方向、例文対応を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0253",
+          "EL-0254"
+        ]
+      }
+    ],
+    "candidate_results": [
+      {
+        "id": "NC-01",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0255",
+          "EL-0256"
+        ]
+      },
+      {
+        "id": "NC-02",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0257",
+          "EL-0258"
+        ]
+      },
+      {
+        "id": "NC-03",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0259"
+        ]
+      },
+      {
+        "id": "NC-04",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0260",
+          "EL-0261"
+        ]
+      },
+      {
+        "id": "NC-05",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0262",
+          "EL-0263"
+        ]
+      },
+      {
+        "id": "NC-06",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0264",
+          "EL-0265"
+        ]
+      },
+      {
+        "id": "NC-07",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0266",
+          "EL-0267"
+        ]
+      },
+      {
+        "id": "NC-08",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0268",
+          "EL-0269"
+        ]
+      },
+      {
+        "id": "NC-09",
+        "status": "pass",
+        "notes": "通常レビューの候補を最終インベントリと照合し、判定を確認した。",
+        "evidence_link_ids_checked": [
+          "EL-0270",
+          "EL-0271"
+        ]
+      }
+    ],
     "finding_results": [],
-    "evidence_checks": [],
+    "evidence_checks": [
+      {
+        "id": "EL-0001",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0002",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0003",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0004",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0005",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0006",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0007",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0008",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0009",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0010",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0011",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0012",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0013",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0014",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0015",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0016",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0017",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0018",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0019",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0020",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0021",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0022",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0023",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0024",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0025",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0026",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0027",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0028",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0029",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0030",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0031",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0032",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0033",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0034",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0035",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0036",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0037",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0038",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0039",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0040",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0041",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0042",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0043",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0044",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0045",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0046",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0047",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0048",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0049",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0050",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0051",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0052",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0053",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0054",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0055",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0056",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0057",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0058",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0059",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0060",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0061",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0062",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0063",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0064",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0065",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0066",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0067",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0068",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0069",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0070",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0071",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0072",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0073",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0074",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0075",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0076",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0077",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0078",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0079",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0080",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0081",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0082",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0083",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0084",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0085",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0086",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0087",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0088",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0089",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0090",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0091",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0092",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0093",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0094",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0095",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0096",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0097",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0098",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0099",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0100",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0101",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0102",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0103",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0104",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0105",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0106",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0107",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0108",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0109",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0110",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0111",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0112",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0113",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0114",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0115",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0116",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0117",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0118",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0119",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0120",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0121",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0122",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0123",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0124",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0125",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0126",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0127",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0128",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0129",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0130",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0131",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0132",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0133",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0134",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0135",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0136",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0137",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0138",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0139",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0140",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0141",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0142",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0143",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0144",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0145",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0146",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0147",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0148",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0149",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0150",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0151",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0152",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0153",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0154",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0155",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0156",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0157",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0158",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0159",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0160",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0161",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0162",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0163",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0164",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0165",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0166",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0167",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0168",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0169",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0170",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0171",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0172",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0173",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0174",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0175",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0176",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0177",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0178",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0179",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0180",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0181",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0182",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0183",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0184",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0185",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0186",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0187",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0188",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0189",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0190",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0191",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0192",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0193",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0194",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0195",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0196",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0197",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0198",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0199",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0200",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0201",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0202",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0203",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0204",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0205",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0206",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0207",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0208",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0209",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0210",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0211",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0212",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0213",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0214",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0215",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0216",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0217",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0218",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0219",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0220",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0221",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0222",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0223",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0224",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0225",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0226",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0227",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0228",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0229",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0230",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0231",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0232",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0233",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0234",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0235",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0236",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0237",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0238",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0239",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0240",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0241",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0242",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0243",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0244",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0245",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0246",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0247",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0248",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0249",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0250",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0251",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0252",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0253",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0254",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0255",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0256",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0257",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0258",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0259",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0260",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0261",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0262",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0263",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0264",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0265",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0266",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0267",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0268",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0269",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0270",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0271",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0272",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0273",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0274",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0275",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0276",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0277",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0278",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0279",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0280",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0281",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0282",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0283",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0284",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0285",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0286",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0287",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0288",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0289",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0290",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0291",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0292",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0293",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0294",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0295",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0296",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0297",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0298",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0299",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0300",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0301",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0302",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0303",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0304",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0305",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      },
+      {
+        "id": "EL-0306",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張、位置、適用範囲を最終確認した。"
+      }
+    ],
     "blockers": []
   }
 }
