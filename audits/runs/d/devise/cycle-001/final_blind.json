@@ -1,0 +1,154 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-devise-20260822",
+  "input_body_sha256": "eae5f2f2bc167c075ac2c57177435826166f16ca71fa50e8089adc7ef4b2f4fa",
+  "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "devise",
+      "frame": "devise + plan/strategy/method/solution/way",
+      "meaning": "一般用法で、目的に合う計画・方法・解決策を考案する",
+      "disposition": "included",
+      "rationale": "general transitive sense",
+      "semantic_assertions": [
+        {
+          "id": "SA-01",
+          "statement": "devise の一般義は目的に合う計画・方法を考えて組み立てる動詞である。",
+          "polarity": "must_hold",
+          "scope": "一般用法の語義・文法・コロケーション"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "devised",
+      "frame": "a carefully devised plan; devised to + verb",
+      "meaning": "過去分詞・形容詞的用法で、考え抜いて組み立てられた",
+      "disposition": "included",
+      "rationale": "participle and adjective use",
+      "semantic_assertions": [
+        {
+          "id": "SA-02",
+          "statement": "devised は devise の過去分詞で、組み立てられた結果を形容詞的にも表せる。",
+          "polarity": "must_hold",
+          "scope": "語形成と一般用法の語法注記"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "devise",
+      "frame": "rare or archaic intransitive/plot use",
+      "meaning": "古風・まれな自動詞的な「企てる・謀る」用法",
+      "disposition": "excluded",
+      "rationale": "not presented as a separate modern core sense",
+      "semantic_assertions": [
+        {
+          "id": "SA-03",
+          "statement": "古風・まれな自動詞的または plot に近い用法を現代の基本義として一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語法注記と一般義の境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "devise",
+      "frame": "devise property/estate to + beneficiary",
+      "meaning": "遺言で不動産などを受遺者へ譲る法律用法",
+      "disposition": "included",
+      "rationale": "legal verb sense",
+      "semantic_assertions": [
+        {
+          "id": "SA-04",
+          "statement": "法律用法の動詞 devise は遺言上の財産を目的語に取り、受遺者を to 句で示す。",
+          "polarity": "must_hold",
+          "scope": "法律語義・文法・コロケーション"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "a devise",
+      "frame": "a devise of property to + beneficiary",
+      "meaning": "遺言による一件の財産遺贈・処分を表す法律名詞",
+      "disposition": "included",
+      "rationale": "legal act or gift sense",
+      "semantic_assertions": [
+        {
+          "id": "SA-05",
+          "statement": "名詞 a devise は遺言による一件の不動産遺贈・処分を表す。",
+          "polarity": "must_hold",
+          "scope": "法律名詞の行為・贈与の用法"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "a devise",
+      "frame": "a devise clause/provision",
+      "meaning": "遺言中の財産処分条項・条文を表す法律名詞",
+      "disposition": "included",
+      "rationale": "legal clause sense",
+      "semantic_assertions": [
+        {
+          "id": "SA-06",
+          "statement": "名詞 devise の条項用法は遺言中の財産処分条項を指し、遺言全体と同一視しない。",
+          "polarity": "must_hold",
+          "scope": "法律名詞の条項境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "a devise",
+      "frame": "property constituting a devise",
+      "meaning": "遺言で譲られた不動産・財産そのものを表す法律名詞",
+      "disposition": "included",
+      "rationale": "legal property sense",
+      "semantic_assertions": [
+        {
+          "id": "SA-07",
+          "statement": "名詞 devise は文脈により遺言で譲られた財産そのものも指す。",
+          "polarity": "must_hold",
+          "scope": "法律名詞の結果財産用法"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "devisee/devisor/deviser/devisable",
+      "frame": "derived legal forms",
+      "meaning": "devise から派生する法律・一般用法の語形成",
+      "disposition": "included",
+      "rationale": "word-formation inventory",
+      "semantic_assertions": [
+        {
+          "id": "SA-08",
+          "statement": "devisee などの派生語は法律上の役割を表し、一般の相続人全般を無条件に指さない。",
+          "polarity": "must_hold",
+          "scope": "語形成と法律用法"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "device",
+      "frame": "device /dɪˈvaɪs/",
+      "meaning": "綴りが似る別語 device を devise の語義として取り込まない",
+      "disposition": "excluded",
+      "rationale": "confusable neighboring word",
+      "semantic_assertions": [
+        {
+          "id": "SA-09",
+          "statement": "device は devise と別語で、標準発音の語末子音も /s/ と /z/ で異なる。",
+          "polarity": "must_hold",
+          "scope": "発音・語源・語法注記"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
