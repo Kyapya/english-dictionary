@@ -1,0 +1,164 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-device-20260821",
+  "context_id": "final-device-context-free-20260821",
+  "started_at": "2026-08-21T18:35:00+09:00",
+  "completed_at": "",
+  "input_body_sha256": "84a5137a9eab7016bec1255fce248aeac473bfbed0f81941ff4ba219b6fd7c36",
+  "prompt_sha256": "bc3b5fc18d085fea82463483383287174ca57bc4b08d7885d426f4fb711c2a0e",
+  "context_mode": "context_free",
+  "input_artifacts": [
+    "entry_body",
+    "final_review_spec"
+  ],
+  "reconciliation_started_at": "",
+  "reconciliation_input_artifacts": [],
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "device",
+      "frame": "a device for/to + noun or verb; use/operate a device",
+      "meaning": "特定の機能・目的のために設計された物体、機器、仕掛け",
+      "disposition": "included",
+      "rationale": "一般義として本文の装置・機器説明に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-01",
+          "statement": "device の一般義は特定目的の機能を果たすよう設計された物体・機器を表し、電子機器に限定されない。",
+          "polarity": "must_hold",
+          "scope": "語義1の定義、語法、コアイメージ"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "device",
+      "frame": "a mobile/wireless device; connect or pair a device with/to ...",
+      "meaning": "コンピューターやネットワークで扱う電子機器・端末",
+      "disposition": "included",
+      "rationale": "IT文脈の分類語として本文の語義2に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-02",
+          "statement": "ITの device は端末・ハードウェアを表すが、phone など一種類の機器だけに限定されない。",
+          "polarity": "must_hold",
+          "scope": "語義2の定義、コロケーション、類義語"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "device",
+      "frame": "an explosive device; a device exploded/was found",
+      "meaning": "爆発装置、爆弾を表す用法",
+      "disposition": "included",
+      "rationale": "爆発物文脈の独立義として本文の語義3に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-03",
+          "statement": "爆発物文脈の device は爆発装置・爆弾を表し、一般の機器全体へ無条件に一般化しない。",
+          "polarity": "must_hold",
+          "scope": "語義3の定義、語法、語義1との境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "device",
+      "frame": "a device for achieving a result; a device to do something",
+      "meaning": "目的を達成するための方法、手段、工夫",
+      "disposition": "included",
+      "rationale": "抽象的な means/technique 義として本文の語義4に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-04",
+          "statement": "方法・手段義は物理的装置を必須とせず、結果を生むための考案された手段として説明される。",
+          "polarity": "must_hold",
+          "scope": "語義4の定義、コアイメージ、語義5・6との境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "device",
+      "frame": "a device/trick/stratagem to deceive or gain an advantage",
+      "meaning": "欺きや操作のための策略、たくらみ、計略",
+      "disposition": "included",
+      "rationale": "方法義から派生する否定的・操作的含意を本文の語義5に対応させる。",
+      "semantic_assertions": [
+        {
+          "id": "SA-05",
+          "statement": "策略義の device は欺き・操作の含意を持つが、中立的な手段一般をすべて策略と呼ぶようには一般化しない。",
+          "polarity": "must_hold",
+          "scope": "語義5の定義、語法、語義4とのリスク関係"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "device",
+      "frame": "a literary/rhetorical/dramatic device",
+      "meaning": "文章・修辞・物語・劇で効果を生む表現技法",
+      "disposition": "included",
+      "rationale": "表現上の technique 義として本文の語義6に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-06",
+          "statement": "文学・修辞の device は表現上の技法・劇的装置であり、物理的な機器を意味するとは限らない。",
+          "polarity": "must_hold",
+          "scope": "語義6の定義、コロケーション、語義4との境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "device",
+      "frame": "a heraldic device displayed on a shield, banner, or seal",
+      "meaning": "紋章・標章・意匠として表示される図案",
+      "disposition": "included",
+      "rationale": "低頻度の紋章学上の専門義として本文の語義7に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-07",
+          "statement": "紋章学の device は図案・標章であり、一般の現代機器義として無条件に扱わない。",
+          "polarity": "must_hold",
+          "scope": "語義7の定義、領域注記、語義1との境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "leave somebody to their own devices",
+      "frame": "leave/ be left + somebody + to their own devices",
+      "meaning": "人を自分の判断・裁量に任せる慣用句",
+      "disposition": "included",
+      "rationale": "own devices を含む慣用句として本文の語義8に対応する。",
+      "semantic_assertions": [
+        {
+          "id": "SA-08",
+          "statement": "own devices の慣用句は人を自分の判断に任せる意味で、device の物理的な機器義を文字通り表さない。",
+          "polarity": "must_hold",
+          "scope": "語義8の定義、慣用句、コアイメージからの除外説明"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "device",
+      "frame": "an archaic device meaning a masque or spectacle",
+      "meaning": "古風な「仮面劇・見世物」の用法",
+      "disposition": "excluded",
+      "rationale": "歴史的資料にあるが、本文の現代学習語義には一般化しない除外候補である。",
+      "semantic_assertions": [
+        {
+          "id": "SA-09",
+          "statement": "古風な仮面劇・見世物義を現代の通常語義として本文へ一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "本文全体の語義一覧、コアイメージ、収録範囲"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
