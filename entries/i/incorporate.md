@@ -1,12 +1,12 @@
 ---
 headword: incorporate
 type: word
-status: review_ready
+status: checked
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-22
 updated_at: 2026-08-22
-checked: false
+checked: true
 tags: []
 ---
 
