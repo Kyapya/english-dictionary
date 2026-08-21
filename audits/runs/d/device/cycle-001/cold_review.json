@@ -1,0 +1,16 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold-device-20260821",
+  "context_id": "cold-device-context-free-20260821",
+  "started_at": "2026-08-21T18:20:00+09:00",
+  "completed_at": "2026-08-21T18:30:00+09:00",
+  "input_body_sha256": "84a5137a9eab7016bec1255fce248aeac473bfbed0f81941ff4ba219b6fd7c36",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "context_mode": "context_free",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "summary": "問題候補なし。記事全体を前提なしで走査し、語義境界、主要構文、学習者の一般化、断定的主張の反例を確認した。",
+  "findings": []
+}
