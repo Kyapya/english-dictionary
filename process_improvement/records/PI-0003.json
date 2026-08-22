@@ -1,0 +1,55 @@
+{
+  "schema_version": "project_process_improvement_v1",
+  "id": "PI-0003",
+  "title": "外部資料から先に監査候補を作る",
+  "status": "trial",
+  "category": "reliability",
+  "severity": "critical",
+  "scope": "cross_entry_workflow",
+  "problem_pattern": "本文・通常レビュー・最終レビューが同じ誤った語義モデルを再構築すると、三者が一致していても主要資料に存在する語義欠落、派生語混同、根拠と主張の不一致を見逃したままPASSできる。",
+  "generalized_insight": "独立レビュー同士の一致は外部事実との一致を保証しない。本文比較より先に資料ごとの原子的fact集合を作り、派生形を個別化し、fact→claim→targetを結び、最終審査がsource unionへ直接戻る必要がある。",
+  "action_rule": "新規・変更監査では prompts/source_first_audit_v1.md を適用し、本文比較前のsource-first inventory、派生形の原子化、claim-centric根拠台帳、最終審査によるsource union直接照合を必須にする。通常候補と最終候補の一致だけを網羅性の根拠にしない。",
+  "applicability": [
+    "normal_review",
+    "evidence_collection",
+    "final_review",
+    "validation"
+  ],
+  "exceptions": "過去監査を内容変更せず参照するだけの場合は即時再生成しない。ただし記事またはcanonical auditを変更する次cycleからsource-first gateを適用する。",
+  "generalization_gate": {
+    "repeated_across_runs": true,
+    "high_impact_single_run": true,
+    "rationale": "複数の語でゼロベース確認後にも内容上の見落としが再発し、deviseでは通常・コールド・最終の全段階が同じ誤った意味モデルを共有してPASSしたため、見出し語をまたぐ監査設計上の問題と判断する。"
+  },
+  "evidence": [
+    {
+      "source": "https://github.com/Kyapya/english-dictionary/pull/87",
+      "observation": "deviseで通常レビュー、コールドレビュー、最終盲検レビューがPASSした後も、外部再確認で語義欠落・派生語役割・語義境界の問題が見つかった。"
+    }
+  ],
+  "validation": {
+    "hypothesis": "source-first inventoryとclaim-centric照合を外部化しCIで必須化すれば、本文とレビューが同じ候補集合を共有して見落とす事故と、根拠の形骸化を減らせる。",
+    "measures": [
+      "変更監査で全source factがsource_unionへ回収される",
+      "derived_formの一括fact/claimが0件である",
+      "全claimが具体的source factと1対1以上で結ばれる",
+      "final PASS時に全source_unionへ直接final resultが存在する"
+    ],
+    "window_runs": 3,
+    "observed_runs": 0,
+    "result": "pending",
+    "notes": "次の3回の新規または変更監査で escaped defect と監査量を確認し、activeまたはretiredを判定する。"
+  },
+  "enforcement": {
+    "mode": "script_or_ci",
+    "surface_in_playbook": true,
+    "refs": [
+      "prompts/source_first_audit_v1.md",
+      "scripts/source_first_audit_gate.py",
+      "tests/test_source_first_audit_gate.py",
+      ".github/workflows/validate.yml"
+    ]
+  },
+  "created_at": "2026-08-22",
+  "updated_at": "2026-08-22"
+}
