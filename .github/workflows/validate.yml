@@ -12,7 +12,6 @@ on:
       - "tests/**/*.py"
       - ".github/workflows/validate.yml"
       - "AGENTS.md"
-      - "README.md"
   workflow_dispatch:
 
 permissions:
@@ -59,6 +58,9 @@ jobs:
             --base "$BASE_SHA" \
             --head "$HEAD_SHA"
           python scripts/semantic_resolution_gate.py validate-changed \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA"
+          python scripts/source_first_audit_gate.py validate-changed \
             --base "$BASE_SHA" \
             --head "$HEAD_SHA"
 
