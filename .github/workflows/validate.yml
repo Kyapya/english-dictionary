@@ -61,6 +61,9 @@ jobs:
           python scripts/semantic_resolution_gate.py validate-changed \
             --base "$BASE_SHA" \
             --head "$HEAD_SHA"
+          python scripts/source_first_audit_gate.py validate-changed \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA"
 
       - name: Validate all existing content audits
         if: github.event_name != 'pull_request'
