@@ -11,15 +11,14 @@
   "action_rule": "新規・変更監査では prompts/source_first_audit_v1.md を適用し、本文比較前のsource-first inventory、派生形の原子化、claim-centric根拠台帳、最終審査によるsource union直接照合を必須にする。通常候補と最終候補の一致だけを網羅性の根拠にしない。",
   "applicability": [
     "normal_review",
-    "evidence_collection",
     "final_review",
     "validation"
   ],
   "exceptions": "過去監査を内容変更せず参照するだけの場合は即時再生成しない。ただし記事またはcanonical auditを変更する次cycleからsource-first gateを適用する。",
   "generalization_gate": {
-    "repeated_across_runs": true,
+    "repeated_across_runs": false,
     "high_impact_single_run": true,
-    "rationale": "複数の語でゼロベース確認後にも内容上の見落としが再発し、deviseでは通常・コールド・最終の全段階が同じ誤った意味モデルを共有してPASSしたため、見出し語をまたぐ監査設計上の問題と判断する。"
+    "rationale": "deviseで通常・コールド・最終の全段階が同じ誤った意味モデルを共有してPASSした高影響事例から、見出し語をまたぐ監査設計上の再発可能性が高いと判断する。"
   },
   "evidence": [
     {
@@ -41,7 +40,7 @@
     "notes": "次の3回の新規または変更監査で escaped defect と監査量を確認し、activeまたはretiredを判定する。"
   },
   "enforcement": {
-    "mode": "script_or_ci",
+    "mode": "mixed",
     "surface_in_playbook": true,
     "refs": [
       "prompts/source_first_audit_v1.md",
