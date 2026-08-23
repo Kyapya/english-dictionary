@@ -621,3 +621,4 @@
 頻度: 〈4/10〉  
 違い: non-disclosable は結果として開示できないことを説明する語で、privileged のように特定の法的関係や証拠法上の制度を示すとは限らない。  
 例: The contract lists several non-disclosable details.  
+訳: その契約書には開示してはならない詳細がいくつか記載されている。  
