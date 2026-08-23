@@ -1,7 +1,7 @@
 ---
 headword: privilege
 type: word
-status: draft
+status: review_ready
 prompt_version: entry_spec_v5
 model: unknown
 created_at: 2026-08-23
