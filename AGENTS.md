@@ -58,6 +58,7 @@
 
 ## 生成時のルール
 
+- 単語作業は本文生成前に専用branchを作る。source-first inventory完了、通常チェック完了、コールドレビュー完了、blind seal、最終照合完了をdurable checkpointとしてcommit・pushする。未完了branchへPRを作る必要はないが、長時間処理をローカルまたは会話内だけに保持しない。
 - 一度に処理する件数は、ユーザーが依頼時に明示した件数に従う。
 - 件数指定がない場合は、安全のため pending から5件だけ処理する。
 - 大量処理を依頼された場合でも、既存ファイルの上書き、形式エラー、処理失敗が発生した場合は作業を止め、ログに記録する。
@@ -118,6 +119,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - 修正後に `updated_at` を更新する。
 - 通常チェックだけを理由に `checked: true` にせず、文脈を継承しない1回の必須コールドレビュー、指摘の判定・修正、採用が1件以上ある場合の全文再検査、第三者の最終審査を続ける。
 - `scripts/content_audit.py build` で本文から全targetと、明示対応・混同リスクに絞った記事横断のrelationを生成し、通常チェック担当は生成された全件を個別判定する。語義見出しと詳細定義、定義と類義語・反意語、コアイメージと詳細説明は必ず横断relationに含める。全語義ペアやコアイメージ×全語義の直積を網羅性の代用にしない。独立棚卸し候補と収録・除外理由、主張単位の根拠リンク、実行履歴も監査ファイルへ記録し、内部確認だけで完了させない。
+- 新規・変更監査は `prompts/source_first_audit_v2.md` に従い、`scripts/source_first_audit_gate.py init` で有限profileを先に固定する。外部資料から独立候補を作る原則は維持するが、資料・fact・research round・再検査・最終審査の上限を超えて探索を続けない。coverageを閉じられなければ `stop` で `budget_exhausted` と未解決事項を保存し、status `needs_review`、checked `false` で安全停止する。
 - 新規・変更監査は `content_audit_v3` とし、各ステージの原出力を `audits/runs/` にSHA-256付きで保存する。完了済み監査または本文を変更するときは `scripts/content_audit.py start-cycle` で旧監査原文を追記型履歴へ退避し、旧cycleを上書きしない。同一cycle内の本文修正は `body_revisions` に追記する。
 - 地域差、専門・制度用法、語義境界、頻度、語彙関係、絶対表現など高リスクの主張は独立した2資料または直接適用できる一次資料で確認し、根拠リンクに資料内の具体的位置、短い引用または忠実な要約、適用範囲、反例確認方法を記録する。資料IDだけを分けた同一引用元を独立2資料として数えない。
 - `audits/escaped_defect_taxonomy.json` の全分類を各cycleで確認し、見逃しが判明した場合は語固有でない分類と再発防止策を `escaped_defects` に追記する。同一・定型的なnotesの一致だけを不合格理由にしない。
@@ -135,7 +137,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - 語義境界の候補では、対象種類や分野だけによる分割、基本義から生じる評価的・文脈的含意の独立語義化、複数語義を横断する程度表現・構文を確認する。個々の文が正しくても、記事全体の分類や一律の説明が学習者の誤った一般化を招く場合は内容上の問題として扱う。
 - `採用` は本文へ反映して `updated_at` を更新する。`不採用` は理由をlogsへ記録する。`保留` が1件でもあれば `needs_review`、`checked: false` とし、queueのnotesとlogsへ未解決理由を記録する。
 - コールドレビューの指摘を1件以上 `採用` した場合は、修正版の最新版全文に対して `prompts/check_spec_v5.md` の内容監査、双方向照合、語義境界・一般化監査、発音監査、書式監査を再実行する。変更箇所だけの確認で済ませない。
-- 採用修正後の再検査で新たな修正が必要になったときは、修正と全文再検査を問題がなくなるまで繰り返す。再検査中にコールドレビューの判定を既定の正解として扱わない。
+- 採用修正後の全文再検査はsource-first profileの `max_post_cold_rechecks` までとし、各回の前に `scripts/source_first_audit_gate.py record-attempt <entry> --stage post-cold` を実行する。上限で問題または保留が残る場合は同じ依頼内で反復せず、status `needs_review`、checked `false`、blocker付きで安全停止する。再検査中にコールドレビューの判定を既定の正解として扱わない。
 - 採用が0件の場合は内容上の全文再検査を省略する。問題候補も0件ならlogsに「コールドレビューでは問題候補なし」、問題候補はあるが採用0件なら「コールドレビューの採用0件につき全文再検査省略」と記録する。保留があれば従来どおり `needs_review` とする。ただし、最終状態に対する機械検証は省略しない。
 - コールドレビューが未実施、文脈を継承、または候補未判定なら、コールドレビュー完了とみなさず `needs_review`、`checked: false` にする。
 - 必要な候補判定・修正と、採用がある場合の全文再検査を終えて保留が0件になった後、通常チェック担当はfront matterとqueueをstatus `review_ready`、checked `false` に同期する。第三者の最終審査担当が盲検棚卸しを先に固定し、通常チェックとの棚卸し比較、全target・relation・finding、主張単位の根拠リンクを個別判定して本文ハッシュに結び付いた `PASS` を記録した場合だけ、調整役がstatus `checked`、checked `true` に同期する。
@@ -148,7 +150,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - 高リスクtarget、生成された全relation、全独立候補について、資料名が存在するだけでなく、主張単位の根拠リンクの具体的位置と適用範囲が実際に主張を支持することを `evidence_checks` で1件ずつ確認する。`two_sources_or_primary` の対象は独立した2引用元または直接適用できる一次資料を要求する。
 - 最終審査担当は本文を修正せず、`PASS` または `REJECT` とblockerだけを監査ファイルへ記録する。自分で直した版へ自分で合格を出さない。
 - 通常チェック、コールドレビュー、最終審査の三者について、相互に異なるrun IDとcontext ID、開始・終了時刻、本文・promptハッシュ、文脈モード、入力物一覧を監査ファイルへ記録する。同一実行の役割切替を三者分離の代用にしない。
-- `REJECT` は完了した正常な監査結果としてblockerとともに保存し、記事をstatus `needs_review`、checked `false` にする。通常チェック側が修正し、全target・relation、本文ハッシュ、通常チェック結果、主張単位の根拠リンクを更新して、別実行の最終審査を再度受ける。コールドレビューは記事を全面再構築した場合を除き1回のままとする。
+- 最終審査は各回の前に `scripts/source_first_audit_gate.py record-attempt <entry> --stage final` を実行し、同一依頼内では初回とREJECT後の再審査を合わせて最大2回とする。`REJECT` は完了した正常な監査結果としてblockerとともに保存し、初回だけ通常チェック側が修正して別実行の最終審査を再度受けられる。2回目のREJECTでは新cycleを自動開始せず、記事をstatus `needs_review`、checked `false` としてcommit・pushし、安全停止をユーザーへ報告する。コールドレビューは記事を全面再構築した場合を除き1回のままとする。
 - `PASS` はfront matterを除く本文SHA-256へ結び付ける。本文変更後の古い判定は履歴として保持して無効化し、新しいcycleで再審査する。通常・コールド・最終盲検・最終照合の原出力は構造化JSONで保存し、件数だけでなく全項目が監査マニフェストと一致しなければならない。
 - semantic gateのない旧v3監査は互換モードでも `checked` / `final` の根拠にしない。見逃しが判明した旧PASSは `audits/review_invalidations.json` へ本文ハッシュ付きで登録し、本文を変えなくても直ちに `needs_review`、checked `false` へ戻す。
 ## 仕様バージョンの移行

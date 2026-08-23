@@ -500,7 +500,7 @@ ChatGPT固有の会話分類、チャットの分割応答、直前応答の参�
 - コールドレビューの指摘について、採用が1件以上の場合は、語義境界と学習者の誤った一般化を含めて修正版の最新版全文を再検査する。採用が0件の場合は全文再検査を省略する。問題候補も0件ならlogsに「コールドレビューでは問題候補なし」、問題候補はあるが採用0件なら「コールドレビューの採用0件につき全文再検査省略」と記録する。保留があれば従来どおり `needs_review` とする。
 - 内容確認または保留が残る場合は `status: needs_review`、`checked: false` とし、理由をqueueのnotes、logs、監査ファイルに記録する。
 - 必要な候補判定・修正と、採用がある場合の全文再検査を終えて保留が0件になった後、通常チェック担当はfront matterとqueueをstatus `review_ready`、checked `false` に同期する。通常チェック担当、コールドレビュー担当のどちらとも異なる実行が `prompts/final_review_spec_v1.md` を読み、全target、全独立候補、全finding、根拠台帳を個別判定する。
-- 最終審査が `PASS` の場合だけ、調整役が判定を変更せずfront matterとqueueをstatus `checked`、checked `true` へ同期する。最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、`scripts/content_audit.py validate`、全単体テストを実行し、すべて成功した場合だけ確定する。失敗または `REJECT` の場合は `needs_review`、checked `false` に戻し、通常チェック側が修正して別実行の最終審査を再度受ける。
+- 最終審査が `PASS` の場合だけ、調整役が判定を変更せずfront matterとqueueをstatus `checked`、checked `true` へ同期する。最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、`scripts/content_audit.py validate`、全単体テストを実行し、すべて成功した場合だけ確定する。失敗または初回 `REJECT` では `needs_review`、checked `false` に戻して1回だけ修正・再審査できる。2回目のREJECTまたは `prompts/source_first_audit_v2.md` のbudget到達時は、同一依頼内で処理を続けず、未解決理由を保存して安全停止する。
 - 通常チェックまたはコールドレビュー後の判定で本文修正を行った場合は修正概要をlogsに記録し、通常チェックで修正不要の場合も「通常チェックでは修正不要」と明記する。
 - `queue/words.csv`、日付付きの `logs/`、必要なエクスポートを更新する。
 

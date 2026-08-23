@@ -13,6 +13,15 @@ python scripts/content_audit.py validate entries/a/apple.md
 
 `build` は現在の本文から、本文ハッシュ、単一箇所の監査対象 `targets`、記事横断の監査対象 `relations` を生成します。新規または再審査する監査は `content_audit_v3` と `semantic_resolution_v2` を使い、次の3担当が互いに異なる実行・文脈識別子で各欄を完成させます。既存の未変更 `content_audit_v1` と `content_audit_v2` は互換読み込みされますが、semantic gateのない旧v3を `checked` / `final` の根拠にはできません。
 
+新規または変更監査のsource-first工程は `prompts/source_first_audit_v2.md` を使います。`source_first_audit_v1` は未変更監査の履歴互換専用です。v2では先にstandardまたは理由付きextended profileを固定し、6 coverage軸を資料・fact・research round上限内で閉じます。閉じられない場合は探索を続けず、`budget_exhausted` と未解決事項を保存して `needs_review`、checked falseで安全停止します。
+
+```bash
+python scripts/source_first_audit_gate.py init entries/a/apple.md
+python scripts/source_first_audit_gate.py close-inventory entries/a/apple.md --research-rounds 1
+python scripts/source_first_audit_gate.py start-comparison entries/a/apple.md
+python scripts/source_first_audit_gate.py prepare-final entries/a/apple.md
+```
+
 1. `normal_checker`: 全target・relationの通常チェック、独立棚卸し、主張単位の根拠リンク、コールドレビュー候補の構造化された解決を記録する。
 2. `cold_reviewer`: 通常仕様が想定していない問題候補を独立に発見する。
 3. `final_adjudicator`: 先に本文だけで盲検棚卸しと問題探索を行い、出力を固定した後に監査記録を開き、全target・relation・棚卸し候補・finding・根拠を個別判定して最終合否を記録する。

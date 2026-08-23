@@ -181,7 +181,11 @@ python scripts/semantic_resolution_gate.py validate-entries entries/a/apple.md
 
 semantic resolutionも同じ本文ハッシュへ結び付ける。本文を再修正してハッシュが変わった場合、コールドレビュー自体を原則やり直す必要はないが、全semantic constraint、問題確認済みresolution、final finding result、全final inventory checkを新しい本文へ再照合するまでstaleとする。
 
-`REJECT` 後の本文修正は通常チェック側が行う。修正後は監査対象一覧と本文ハッシュを再生成し、通常チェック結果と根拠台帳を更新したうえで、文脈を継承しない最終審査を再実行する。コールドレビューは原則1回のままとするが、主要品詞・語義構成を全面的に作り直した場合は新しい完成候補に対してコールドレビューからやり直す。
+`REJECT` 後の本文修正は通常チェック側が行う。最終審査は初回と修正後再審査を合わせて同一依頼内で最大2回とし、各回の前に `scripts/source_first_audit_gate.py record-attempt <entry> --stage final` を実行する。2回目のREJECTでは同じ依頼内で新cycleや追加審査を開始せず、blockerを保持した `needs_review`、checked falseとして安全停止する。コールドレビューは原則1回のままとするが、主要品詞・語義構成を全面的に作り直す必要が判明した場合は安全停止し、次の明示的な依頼で新cycleとしてコールドレビューから開始する。
+
+## bounded source-first直接照合
+
+新規・変更監査は `prompts/source_first_audit_v2.md` に従う。盲検棚卸しとsealまではsource-first監査を見ない。seal後、`source_union`、各unionのfact、対応するclaim unit、直接対応targetを確認し、機械生成済みの `final_review.source_inventory_results` にunionごとのstatusと具体的notesだけを記録する。fact ID・target ID一覧を最終結果へ再転記しない。通常候補と最終候補が一致していても、source union直接照合の代用にしない。
 
 ## 合否
 

@@ -10,17 +10,34 @@ ROOT = Path(__file__).resolve().parents[1]
 class SourceFirstContractWiringTests(unittest.TestCase):
     def test_active_process_rule_references_contract(self) -> None:
         active = (ROOT / "process_improvement" / "ACTIVE.md").read_text(encoding="utf-8")
-        self.assertIn("prompts/source_first_audit_v1.md", active)
-        self.assertIn("source-first inventory", active)
+        self.assertIn("prompts/source_first_audit_v2.md", active)
+        self.assertIn("外部資料から先に候補", active)
         self.assertIn("claim-centric", active)
         self.assertIn("source union直接照合", active)
+        self.assertIn("最大2回", active)
 
     def test_contract_contains_all_four_hardening_requirements(self) -> None:
-        spec = (ROOT / "prompts" / "source_first_audit_v1.md").read_text(encoding="utf-8")
-        self.assertIn("source-first 語義・用法棚卸し", spec)
-        self.assertIn("派生語・関連形の原子化", spec)
-        self.assertIn("claim-centric 根拠台帳", spec)
-        self.assertIn("最終審査での直接source比較", spec)
+        spec = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(encoding="utf-8")
+        self.assertIn("本文の分類を見る前", spec)
+        self.assertIn("原子的fact", spec)
+        self.assertIn("claim unit", spec)
+        self.assertIn("全unionを直接確認", spec)
+
+    def test_contract_is_bounded_and_has_safe_stop(self) -> None:
+        spec = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(encoding="utf-8")
+        self.assertIn("standard | 6 | 48 | 2", spec)
+        self.assertIn("extended | 8 | 80 | 3", spec)
+        self.assertIn("budget_exhausted", spec)
+        self.assertIn("同じ依頼内で新cycleを自動開始しない", spec)
+
+    def test_prompts_remove_unbounded_retry_language(self) -> None:
+        agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        check = (ROOT / "prompts" / "check_spec_v5.md").read_text(encoding="utf-8")
+        final = (ROOT / "prompts" / "final_review_spec_v1.md").read_text(encoding="utf-8")
+        self.assertNotIn("問題がなくなるまで繰り返す", agents)
+        self.assertNotIn("問題がなくなるまで繰り返す", check)
+        self.assertIn("最大2回", final)
+        self.assertIn("安全停止", final)
 
     def test_ci_runs_source_first_gate_for_changed_audits(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(encoding="utf-8")
