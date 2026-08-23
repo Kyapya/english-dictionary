@@ -1,0 +1,2759 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-privilege-20260823",
+  "context_id": "normal-privilege-isolated-20260823",
+  "started_at": "2026-08-23T19:26:30+06:00",
+  "completed_at": "2026-08-23T19:27:30+06:00",
+  "input_body_sha256": "8e8e24c95fa4c294e925718e989e31c26991cc784b87f0f74efa9bb2ca6a96f5",
+  "prompt_sha256": "f1e160c1a0ee069001d999fcc19b6c63baef0bdb41028c8875a30a0a21c8c47d",
+  "context_mode": "isolated",
+  "input_artifacts": [
+    "entry_body",
+    "check_spec"
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "privilege（特別な権利・便宜）",
+      "frame": "have/grant a privilege",
+      "meaning": "特定の人・集団だけに与えられる特別な権利・利益",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "usage_note:001",
+        "usage_note:002",
+        "usage_note:003",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-01-1",
+        "EL-N-NC-01-2"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "privilege（社会的な特権）",
+      "frame": "benefit from/check one's privilege",
+      "meaning": "社会的に他者より有利な条件",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "usage_note:004",
+        "usage_note:005",
+        "usage_note:006",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "antonym:001",
+        "antonym:002"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-02-1",
+        "EL-N-NC-02-2"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "privilege（光栄・特別な機会）",
+      "frame": "It is a privilege to 〈動詞〉",
+      "meaning": "何かをできることを光栄として述べる用法",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "frequency:003",
+        "register:003",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "usage_note:007",
+        "usage_note:008",
+        "usage_note:009",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-03-1",
+        "EL-N-NC-03-2"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "privilege（法的特権）",
+      "frame": "assert/waive privilege",
+      "meaning": "法的手続きで開示などを拒める特別な保護",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "frequency:004",
+        "register:004",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028",
+        "usage_note:010",
+        "usage_note:011",
+        "usage_note:012",
+        "synonym:013",
+        "synonym:014",
+        "synonym:015",
+        "synonym:016"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-04-1",
+        "EL-N-NC-04-2"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "privilege（動詞）",
+      "frame": "privilege A over B",
+      "meaning": "人・考え・価値などを他より特別に重視する他動詞",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "frequency:005",
+        "register:005",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "collocation:029",
+        "collocation:030",
+        "collocation:031",
+        "collocation:032",
+        "collocation:033",
+        "collocation:034",
+        "usage_note:013",
+        "usage_note:014",
+        "usage_note:015",
+        "synonym:017",
+        "synonym:018",
+        "synonym:019",
+        "synonym:020",
+        "antonym:003",
+        "antonym:004"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-05-1",
+        "EL-N-NC-05-2"
+      ]
+    },
+    {
+      "id": "NC-06",
+      "surface_form": "privileged（社会的・一般）",
+      "frame": "a privileged background; be privileged to 〈動詞〉",
+      "meaning": "特権を持つ、恵まれた、または光栄に感じる形容詞",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "frequency:006",
+        "register:006",
+        "grammar_pattern:025",
+        "grammar_pattern:026",
+        "grammar_pattern:027",
+        "grammar_pattern:028",
+        "collocation:035",
+        "collocation:036",
+        "collocation:037",
+        "collocation:038",
+        "collocation:039",
+        "usage_note:016",
+        "usage_note:017",
+        "synonym:021",
+        "synonym:022",
+        "synonym:023",
+        "synonym:024",
+        "antonym:005",
+        "antonym:006",
+        "word_formation:001"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-06-1",
+        "EL-N-NC-06-2"
+      ]
+    },
+    {
+      "id": "NC-07",
+      "surface_form": "privileged（法律）",
+      "frame": "privileged communication; privileged from disclosure",
+      "meaning": "法的 privilege により開示から保護された形容詞",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [
+        "sense_boundary:007",
+        "definition:007",
+        "frequency:007",
+        "register:007",
+        "grammar_pattern:029",
+        "grammar_pattern:030",
+        "grammar_pattern:031",
+        "collocation:040",
+        "collocation:041",
+        "collocation:042",
+        "collocation:043",
+        "collocation:044",
+        "usage_note:018",
+        "usage_note:019",
+        "synonym:025",
+        "synonym:026",
+        "synonym:027",
+        "synonym:028",
+        "word_formation:001"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-07-1",
+        "EL-N-NC-07-2"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "通常チェックで pronunciation:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-001-1",
+        "EL-T-001-2"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "通常チェックで etymology:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-002-1",
+        "EL-T-002-2"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "通常チェックで etymology:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-003-1",
+        "EL-T-003-2"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-004-1",
+        "EL-T-004-2"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-005-1"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-006-1"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "通常チェックで word_formation:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-007-1",
+        "EL-T-007-2"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "通常チェックで core_image:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-008-1",
+        "EL-T-008-2"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "通常チェックで core_image:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-009-1"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "通常チェックで core_image:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-010-1"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "通常チェックで core_image:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-011-1"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "通常チェックで core_image:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-012-1",
+        "EL-T-012-2"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "通常チェックで core_image:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-013-1"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "通常チェックで core_image:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-014-1"
+      ]
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "通常チェックで core_image:008 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-015-1",
+        "EL-T-015-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-016-1",
+        "EL-T-016-2"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "通常チェックで definition:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-017-1",
+        "EL-T-017-2"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "通常チェックで frequency:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-018-1",
+        "EL-T-018-2"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "通常チェックで register:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-019-1",
+        "EL-T-019-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-020-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-021-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-022-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-023-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-024-1"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "通常チェックで collocation:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-025-1"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "通常チェックで collocation:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-026-1"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "通常チェックで collocation:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-027-1"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "通常チェックで collocation:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-028-1"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "通常チェックで collocation:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-029-1"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "通常チェックで collocation:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-030-1"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "通常チェックで collocation:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-031-1"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "通常チェックで collocation:008 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-032-1",
+        "EL-T-032-2"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-033-1",
+        "EL-T-033-2"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-034-1",
+        "EL-T-034-2"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-035-1",
+        "EL-T-035-2"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "通常チェックで synonym:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-036-1",
+        "EL-T-036-2"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "通常チェックで synonym:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-037-1",
+        "EL-T-037-2"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "通常チェックで synonym:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-038-1",
+        "EL-T-038-2"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "通常チェックで synonym:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-039-1",
+        "EL-T-039-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-040-1",
+        "EL-T-040-2"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "通常チェックで definition:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-041-1"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "通常チェックで frequency:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-042-1",
+        "EL-T-042-2"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "通常チェックで register:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-043-1",
+        "EL-T-043-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-044-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-045-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:008 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-046-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:009 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-047-1"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "通常チェックで collocation:009 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-048-1",
+        "EL-T-048-2"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "通常チェックで collocation:010 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-049-1"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "通常チェックで collocation:011 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-050-1"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "通常チェックで collocation:012 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-051-1"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "通常チェックで collocation:013 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-052-1"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "通常チェックで collocation:014 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-053-1"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "通常チェックで collocation:015 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-054-1"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-055-1",
+        "EL-T-055-2"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-056-1",
+        "EL-T-056-2"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-057-1"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "通常チェックで synonym:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-058-1",
+        "EL-T-058-2"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "通常チェックで synonym:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-059-1",
+        "EL-T-059-2"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "通常チェックで synonym:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-060-1",
+        "EL-T-060-2"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "通常チェックで synonym:008 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-061-1",
+        "EL-T-061-2"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "通常チェックで antonym:001 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-062-1",
+        "EL-T-062-2"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "通常チェックで antonym:002 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-063-1",
+        "EL-T-063-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-064-1",
+        "EL-T-064-2"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "通常チェックで definition:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-065-1",
+        "EL-T-065-2"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "通常チェックで frequency:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-066-1",
+        "EL-T-066-2"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "通常チェックで register:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-067-1",
+        "EL-T-067-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:010 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-068-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:011 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-069-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:012 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-070-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:013 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-071-1"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "通常チェックで collocation:016 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-072-1"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "通常チェックで collocation:017 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-073-1"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "通常チェックで collocation:018 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-074-1",
+        "EL-T-074-2"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "通常チェックで collocation:019 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-075-1"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "通常チェックで collocation:020 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-076-1"
+      ]
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-077-1",
+        "EL-T-077-2"
+      ]
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:008 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-078-1",
+        "EL-T-078-2"
+      ]
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:009 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-079-1",
+        "EL-T-079-2"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "通常チェックで synonym:009 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-080-1",
+        "EL-T-080-2"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "通常チェックで synonym:010 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-081-1",
+        "EL-T-081-2"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "通常チェックで synonym:011 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-082-1",
+        "EL-T-082-2"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "通常チェックで synonym:012 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-083-1",
+        "EL-T-083-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-084-1",
+        "EL-T-084-2"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "通常チェックで definition:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-085-1",
+        "EL-T-085-2"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "通常チェックで frequency:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-086-1",
+        "EL-T-086-2"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "通常チェックで register:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-087-1",
+        "EL-T-087-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:014 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-088-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:015 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-089-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:016 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-090-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:017 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-091-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:018 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-092-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:019 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-093-1"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "通常チェックで collocation:021 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-094-1",
+        "EL-T-094-2"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "通常チェックで collocation:022 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-095-1",
+        "EL-T-095-2"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "通常チェックで collocation:023 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-096-1"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "通常チェックで collocation:024 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-097-1",
+        "EL-T-097-2"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "通常チェックで collocation:025 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-098-1",
+        "EL-T-098-2"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "通常チェックで collocation:026 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-099-1",
+        "EL-T-099-2"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "通常チェックで collocation:027 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-100-1",
+        "EL-T-100-2"
+      ]
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "通常チェックで collocation:028 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-101-1",
+        "EL-T-101-2"
+      ]
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:010 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-102-1",
+        "EL-T-102-2"
+      ]
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:011 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-103-1",
+        "EL-T-103-2"
+      ]
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:012 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-104-1",
+        "EL-T-104-2"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "通常チェックで synonym:013 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-105-1",
+        "EL-T-105-2"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "通常チェックで synonym:014 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-106-1",
+        "EL-T-106-2"
+      ]
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "通常チェックで synonym:015 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-107-1",
+        "EL-T-107-2"
+      ]
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "通常チェックで synonym:016 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-108-1",
+        "EL-T-108-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-109-1",
+        "EL-T-109-2"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "通常チェックで definition:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-110-1",
+        "EL-T-110-2"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "通常チェックで frequency:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-111-1",
+        "EL-T-111-2"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "通常チェックで register:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-112-1",
+        "EL-T-112-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:020 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-113-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:021 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-114-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:022 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-115-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:023 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-116-1",
+        "EL-T-116-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:024 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-117-1",
+        "EL-T-117-2"
+      ]
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "通常チェックで collocation:029 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-118-1"
+      ]
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "通常チェックで collocation:030 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-119-1"
+      ]
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "notes": "通常チェックで collocation:031 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-120-1",
+        "EL-T-120-2"
+      ]
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "notes": "通常チェックで collocation:032 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-121-1"
+      ]
+    },
+    {
+      "id": "collocation:033",
+      "status": "pass",
+      "notes": "通常チェックで collocation:033 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-122-1"
+      ]
+    },
+    {
+      "id": "collocation:034",
+      "status": "pass",
+      "notes": "通常チェックで collocation:034 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-123-1"
+      ]
+    },
+    {
+      "id": "usage_note:013",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:013 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-124-1",
+        "EL-T-124-2"
+      ]
+    },
+    {
+      "id": "usage_note:014",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:014 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-125-1"
+      ]
+    },
+    {
+      "id": "usage_note:015",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:015 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-126-1",
+        "EL-T-126-2"
+      ]
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "通常チェックで synonym:017 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-127-1",
+        "EL-T-127-2"
+      ]
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "通常チェックで synonym:018 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-128-1",
+        "EL-T-128-2"
+      ]
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "notes": "通常チェックで synonym:019 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-129-1",
+        "EL-T-129-2"
+      ]
+    },
+    {
+      "id": "synonym:020",
+      "status": "pass",
+      "notes": "通常チェックで synonym:020 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-130-1",
+        "EL-T-130-2"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "通常チェックで antonym:003 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-131-1",
+        "EL-T-131-2"
+      ]
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "通常チェックで antonym:004 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-132-1",
+        "EL-T-132-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-133-1",
+        "EL-T-133-2"
+      ]
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "通常チェックで definition:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-134-1"
+      ]
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "通常チェックで frequency:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-135-1",
+        "EL-T-135-2"
+      ]
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "通常チェックで register:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-136-1",
+        "EL-T-136-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:025 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-137-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:026 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-138-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:027 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-139-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:028 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-140-1",
+        "EL-T-140-2"
+      ]
+    },
+    {
+      "id": "collocation:035",
+      "status": "pass",
+      "notes": "通常チェックで collocation:035 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-141-1"
+      ]
+    },
+    {
+      "id": "collocation:036",
+      "status": "pass",
+      "notes": "通常チェックで collocation:036 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-142-1"
+      ]
+    },
+    {
+      "id": "collocation:037",
+      "status": "pass",
+      "notes": "通常チェックで collocation:037 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-143-1",
+        "EL-T-143-2"
+      ]
+    },
+    {
+      "id": "collocation:038",
+      "status": "pass",
+      "notes": "通常チェックで collocation:038 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-144-1"
+      ]
+    },
+    {
+      "id": "collocation:039",
+      "status": "pass",
+      "notes": "通常チェックで collocation:039 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-145-1",
+        "EL-T-145-2"
+      ]
+    },
+    {
+      "id": "usage_note:016",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:016 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-146-1",
+        "EL-T-146-2"
+      ]
+    },
+    {
+      "id": "usage_note:017",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:017 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-147-1",
+        "EL-T-147-2"
+      ]
+    },
+    {
+      "id": "synonym:021",
+      "status": "pass",
+      "notes": "通常チェックで synonym:021 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-148-1",
+        "EL-T-148-2"
+      ]
+    },
+    {
+      "id": "synonym:022",
+      "status": "pass",
+      "notes": "通常チェックで synonym:022 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-149-1",
+        "EL-T-149-2"
+      ]
+    },
+    {
+      "id": "synonym:023",
+      "status": "pass",
+      "notes": "通常チェックで synonym:023 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-150-1",
+        "EL-T-150-2"
+      ]
+    },
+    {
+      "id": "synonym:024",
+      "status": "pass",
+      "notes": "通常チェックで synonym:024 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-151-1",
+        "EL-T-151-2"
+      ]
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "通常チェックで antonym:005 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-152-1",
+        "EL-T-152-2"
+      ]
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "notes": "通常チェックで antonym:006 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-153-1",
+        "EL-T-153-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "通常チェックで sense_boundary:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-154-1",
+        "EL-T-154-2"
+      ]
+    },
+    {
+      "id": "definition:007",
+      "status": "pass",
+      "notes": "通常チェックで definition:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-155-1",
+        "EL-T-155-2"
+      ]
+    },
+    {
+      "id": "frequency:007",
+      "status": "pass",
+      "notes": "通常チェックで frequency:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-156-1",
+        "EL-T-156-2"
+      ]
+    },
+    {
+      "id": "register:007",
+      "status": "pass",
+      "notes": "通常チェックで register:007 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-157-1",
+        "EL-T-157-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:029 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-158-1",
+        "EL-T-158-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:030 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-159-1",
+        "EL-T-159-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "通常チェックで grammar_pattern:031 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-160-1"
+      ]
+    },
+    {
+      "id": "collocation:040",
+      "status": "pass",
+      "notes": "通常チェックで collocation:040 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-161-1",
+        "EL-T-161-2"
+      ]
+    },
+    {
+      "id": "collocation:041",
+      "status": "pass",
+      "notes": "通常チェックで collocation:041 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-162-1",
+        "EL-T-162-2"
+      ]
+    },
+    {
+      "id": "collocation:042",
+      "status": "pass",
+      "notes": "通常チェックで collocation:042 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-163-1"
+      ]
+    },
+    {
+      "id": "collocation:043",
+      "status": "pass",
+      "notes": "通常チェックで collocation:043 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-164-1",
+        "EL-T-164-2"
+      ]
+    },
+    {
+      "id": "collocation:044",
+      "status": "pass",
+      "notes": "通常チェックで collocation:044 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-165-1",
+        "EL-T-165-2"
+      ]
+    },
+    {
+      "id": "usage_note:018",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:018 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-166-1",
+        "EL-T-166-2"
+      ]
+    },
+    {
+      "id": "usage_note:019",
+      "status": "pass",
+      "notes": "通常チェックで usage_note:019 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-167-1",
+        "EL-T-167-2"
+      ]
+    },
+    {
+      "id": "synonym:025",
+      "status": "pass",
+      "notes": "通常チェックで synonym:025 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-168-1",
+        "EL-T-168-2"
+      ]
+    },
+    {
+      "id": "synonym:026",
+      "status": "pass",
+      "notes": "通常チェックで synonym:026 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-169-1",
+        "EL-T-169-2"
+      ]
+    },
+    {
+      "id": "synonym:027",
+      "status": "pass",
+      "notes": "通常チェックで synonym:027 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-170-1",
+        "EL-T-170-2"
+      ]
+    },
+    {
+      "id": "synonym:028",
+      "status": "pass",
+      "notes": "通常チェックで synonym:028 の本文・用例・訳・適用範囲を照合し、問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-T-171-1",
+        "EL-T-171-2"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-001-1",
+        "EL-R-001-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-002-1",
+        "EL-R-002-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-003-1",
+        "EL-R-003-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-004-1",
+        "EL-R-004-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:005",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-005-1",
+        "EL-R-005-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:006",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-006-1",
+        "EL-R-006-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:007",
+      "status": "pass",
+      "notes": "通常チェックで risk_sense_pair:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-007-1",
+        "EL-R-007-2"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-008-1"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-009-1"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-010-1"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-011-1"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-012-1"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-013-1"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-014-1"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:008 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-015-1"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:009 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-016-1"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:010 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-017-1"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:011 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-018-1"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:012 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-019-1"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:013 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-020-1"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:014 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-021-1"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:015 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-022-1"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:016 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-023-1"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:017 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-024-1"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:018 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-025-1"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:019 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-026-1"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:020 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-027-1"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:021 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-028-1"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:022 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-029-1"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:023 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-030-1"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:024 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-031-1"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:025 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-032-1"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:026 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-033-1"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:027 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-034-1"
+      ]
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:028 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-035-1"
+      ]
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:029 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-036-1"
+      ]
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:030 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-037-1"
+      ]
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:031 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-038-1"
+      ]
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:032 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-039-1"
+      ]
+    },
+    {
+      "id": "example_translation:033",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:033 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-040-1"
+      ]
+    },
+    {
+      "id": "example_translation:034",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:034 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-041-1"
+      ]
+    },
+    {
+      "id": "example_translation:035",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:035 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-042-1"
+      ]
+    },
+    {
+      "id": "example_translation:036",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:036 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-043-1"
+      ]
+    },
+    {
+      "id": "example_translation:037",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:037 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-044-1"
+      ]
+    },
+    {
+      "id": "example_translation:038",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:038 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-045-1"
+      ]
+    },
+    {
+      "id": "example_translation:039",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:039 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-046-1"
+      ]
+    },
+    {
+      "id": "example_translation:040",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:040 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-047-1"
+      ]
+    },
+    {
+      "id": "example_translation:041",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:041 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-048-1"
+      ]
+    },
+    {
+      "id": "example_translation:042",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:042 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-049-1"
+      ]
+    },
+    {
+      "id": "example_translation:043",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:043 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-050-1"
+      ]
+    },
+    {
+      "id": "example_translation:044",
+      "status": "pass",
+      "notes": "通常チェックで example_translation:044 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-051-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-052-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-053-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-054-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-055-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-056-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-057-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-058-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-059-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-060-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-061-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-062-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-063-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-064-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-065-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-066-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-067-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-068-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:008 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-069-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:009 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-070-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-071-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-072-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:008 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-073-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:009 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-074-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-075-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:010 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-076-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:011 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-077-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:012 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-078-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:013 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-079-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-080-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:010 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-081-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:011 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-082-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:012 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-083-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-084-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:014 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-085-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:015 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-086-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:016 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-087-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:017 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-088-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:018 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-089-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:019 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-090-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-091-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:013 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-092-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:014",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:014 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-093-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:015",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:015 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-094-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-095-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:020 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-096-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:021 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-097-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:022 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-098-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:023 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-099-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:024 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-100-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-101-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:016",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:016 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-102-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:017",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:017 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-103-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-104-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:025 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-105-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:026 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-106-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:027 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-107-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:028 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-108-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "通常チェックで sense_definition_consistency:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-109-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:018",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:018 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-110-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:019",
+      "status": "pass",
+      "notes": "通常チェックで definition_usage_consistency:019 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-111-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "通常チェックで definition_lexical_relation_consistency:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-112-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:029 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-113-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:030 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-114-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "通常チェックで pattern_example_coverage:031 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-115-1"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "通常チェックで core_inventory_consistency:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-116-1",
+        "EL-R-116-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-117-1",
+        "EL-R-117-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:002 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-118-1",
+        "EL-R-118-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:003 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-119-1",
+        "EL-R-119-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:004 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-120-1",
+        "EL-R-120-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:005 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-121-1",
+        "EL-R-121-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:006 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-122-1",
+        "EL-R-122-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "通常チェックで core_sense_mapping:007 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-123-1",
+        "EL-R-123-2"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "通常チェックで article_learning_risk:001 の関係先と説明を照合し、語義境界・訳・学習上のリスクに問題なしと判定した。",
+      "evidence_link_ids": [
+        "EL-R-124-1",
+        "EL-R-124-2"
+      ]
+    }
+  ]
+}

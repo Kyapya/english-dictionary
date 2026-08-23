@@ -1,0 +1,146 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-privilege-20260823",
+  "context_id": "final-privilege-context-free-20260823",
+  "started_at": "2026-08-23T19:32:21+06:00",
+  "completed_at": "",
+  "input_body_sha256": "8e8e24c95fa4c294e925718e989e31c26991cc784b87f0f74efa9bb2ca6a96f5",
+  "prompt_sha256": "9374c33ec475d7b2eccb4bb8ad3d3eb5c0f961c2c3613251c6d30b758ce54e97",
+  "context_mode": "context_free",
+  "input_artifacts": [
+    "entry_body",
+    "final_review_spec"
+  ],
+  "reconciliation_started_at": "",
+  "reconciliation_input_artifacts": [],
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "privilege（特別な権利・便宜）",
+      "frame": "have/grant a privilege",
+      "meaning": "特定の人・集団だけに与えられる特別な権利・利益",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-01",
+          "statement": "privilege の基本義は、限定された権利・利益・保護・機会・重みの付与という共通核を保つ。",
+          "polarity": "must_hold",
+          "scope": "privilege（特別な権利・便宜） の語義、構文、例文、関連表現"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "privilege（社会的な特権）",
+      "frame": "benefit from/check one's privilege",
+      "meaning": "社会的に他者より有利な条件",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-02",
+          "statement": "社会的 privilege は個別に与えられた権利だけでなく、本人が選ばずに得る有利な条件を含む。",
+          "polarity": "must_hold",
+          "scope": "privilege（社会的な特権） の語義、構文、例文、関連表現"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "privilege（光栄・特別な機会）",
+      "frame": "It is a privilege to 〈動詞〉",
+      "meaning": "何かをできることを光栄として述べる用法",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-03",
+          "statement": "It is a privilege to ... は法的権利ではなく、機会を光栄・特別なものとして述べる定型表現である。",
+          "polarity": "must_hold",
+          "scope": "privilege（光栄・特別な機会） の語義、構文、例文、関連表現"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "privilege（法的特権）",
+      "frame": "assert/waive privilege",
+      "meaning": "法的手続きで開示などを拒める特別な保護",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-04",
+          "statement": "法律用法の privilege は秘密一般ではなく、法的制度に基づく開示拒絶・保護を表す。",
+          "polarity": "must_hold",
+          "scope": "privilege（法的特権） の語義、構文、例文、関連表現"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "privilege（動詞）",
+      "frame": "privilege A over B",
+      "meaning": "人・考え・価値などを他より特別に重視する他動詞",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-05",
+          "statement": "動詞 privilege は他動詞で、対象を他より重視する非対称な扱いを示し得る。",
+          "polarity": "must_hold",
+          "scope": "privilege（動詞） の語義、構文、例文、関連表現"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "privileged（社会的・一般）",
+      "frame": "a privileged background; be privileged to 〈動詞〉",
+      "meaning": "特権を持つ、恵まれた、または光栄に感じる形容詞",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-06",
+          "statement": "privileged は社会的に有利な状態、権限、または丁寧な機会表現の形容詞用法を持つ。",
+          "polarity": "must_hold",
+          "scope": "privileged（社会的・一般） の語義、構文、例文、関連表現"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "privileged（法律）",
+      "frame": "privileged communication; privileged from disclosure",
+      "meaning": "法的 privilege により開示から保護された形容詞",
+      "disposition": "included",
+      "rationale": "独立した語義・構文候補として本文の対応ターゲットに明示的に結び付けた。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "SA-07",
+          "statement": "privileged communication は法的 privilege による開示保護を示し、secret と同義ではない。",
+          "polarity": "must_hold",
+          "scope": "privileged（法律） の語義、構文、例文、関連表現"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
