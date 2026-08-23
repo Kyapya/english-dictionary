@@ -8,7 +8,7 @@
   "scope": "cross_entry_workflow",
   "problem_pattern": "本文・通常レビュー・最終レビューが同じ誤った語義モデルを再構築すると、三者が一致していても主要資料に存在する語義欠落、派生語混同、根拠と主張の不一致を見逃したままPASSできる。",
   "generalized_insight": "独立レビュー同士の一致は外部事実との一致を保証しない。本文比較より先に資料ごとの原子的fact集合を作り、派生形を個別化し、fact→claim→targetを結び、最終審査がsource unionへ直接戻る必要がある。",
-  "action_rule": "新規・変更監査では prompts/source_first_audit_v1.md を適用し、本文比較前のsource-first inventory、派生形の原子化、claim-centric根拠台帳、最終審査によるsource union直接照合を必須にする。通常候補と最終候補の一致だけを網羅性の根拠にしない。",
+  "action_rule": "新規・変更監査では prompts/source_first_audit_v2.md を適用する。外部資料から先に候補を作る原則、派生形の原子化、claim-centric根拠、最終source union直接照合を維持しつつ、standard/extendedの固定上限、6 coverage軸の閉包、機械スキャフォールド、最大2回の最終審査、安全停止を必須にする。",
   "applicability": [
     "normal_review",
     "final_review",
@@ -24,6 +24,10 @@
     {
       "source": "https://github.com/Kyapya/english-dictionary/pull/87",
       "observation": "deviseで通常レビュー、コールドレビュー、最終盲検レビューがPASSした後も、外部再確認で語義欠落・派生語役割・語義境界の問題が見つかった。"
+    },
+    {
+      "source": "user report 2026-08-23",
+      "observation": "PR #90適用後の新規1語実行が6時間以上完了せず手動停止された。新規entry、queue行、log、branch、PRが残らず、v1には探索・fact・再審査上限と途中checkpointがなかった。"
     }
   ],
   "validation": {
@@ -32,18 +36,21 @@
       "変更監査で全source factがsource_unionへ回収される",
       "derived_formの一括fact/claimが0件である",
       "全claimが具体的source factと1対1以上で結ばれる",
-      "final PASS時に全source_unionへ直接final resultが存在する"
+      "final PASS時に全source_unionへ直接final resultが存在する",
+      "1語のsource-firstがprofile上限内で終了またはbudget_exhaustedとして安全停止する",
+      "同一依頼内の最終審査が2回を超えない",
+      "source unionとfinal resultに導出可能なfact/target一覧を重複保存しない"
     ],
     "window_runs": 3,
-    "observed_runs": 0,
+    "observed_runs": 1,
     "result": "pending",
-    "notes": "次の3回の新規または変更監査で escaped defect と監査量を確認し、activeまたはretiredを判定する。"
+    "notes": "v1の初回運用観測では新規1語が6時間超で完走せず失敗した。v2へ改修し、残り2回でescaped defect、所要時間、sources/facts/review attempts、監査量、安全停止の有無を確認してactiveまたはretiredを判定する。"
   },
   "enforcement": {
     "mode": "mixed",
     "surface_in_playbook": true,
     "refs": [
-      "prompts/source_first_audit_v1.md",
+      "prompts/source_first_audit_v2.md",
       "scripts/source_first_audit_gate.py",
       "tests/test_source_first_audit_gate.py",
       ".github/workflows/validate.yml"
