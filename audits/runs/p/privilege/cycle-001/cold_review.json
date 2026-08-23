@@ -1,0 +1,16 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold-privilege-20260823",
+  "context_id": "cold-privilege-context-free-20260823",
+  "started_at": "2026-08-23T19:28:30+06:00",
+  "completed_at": "2026-08-23T19:29:30+06:00",
+  "input_body_sha256": "8e8e24c95fa4c294e925718e989e31c26991cc784b87f0f74efa9bb2ca6a96f5",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "context_mode": "context_free",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "summary": "問題候補なし。本文だけを前提なしで走査し、語義境界、主要構文、法律用法の限定、派生形、類義語・反意語、例文訳、発音・語源を確認した。",
+  "findings": []
+}
