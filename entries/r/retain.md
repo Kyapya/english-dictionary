@@ -6,7 +6,7 @@ prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-25
 updated_at: 2026-08-25
-checked: true
+checked: false
 tags: []
 ---
 
@@ -14,7 +14,7 @@ tags: []
 
 米・英: /rɪˈteɪn/。2音節の ri-TAIN で、第2音節の /ˈteɪn/ に主強勢がある。第1音節 /rɪ/ は弱く、語末の `-tain` は /teɪn/ と読む。米英で基本的な発音に差はない。  
 ・三人称単数 `retains` は /rɪˈteɪnz/、過去形・過去分詞 `retained` は /rɪˈteɪnd/、-ing形 `retaining` は /rɪˈteɪnɪŋ/。  
-・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。`retaining` では語末の `e` を落とさず、`retain + -ing` の形で `retaining` となる。  
+・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。  
 
 ＃語源
 
@@ -23,7 +23,7 @@ tags: []
 
 ＃語形成
 
-`retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「内部留保利益」のような複合表現にも現れる。  
+`retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「利益剰余金（内部留保）」のような複合表現にも現れる。  
 `retention`（名詞）— 「保持、保有、維持」から、「記憶保持」「水分・尿などの滞留」までを表す。語義に応じて `employee retention`、`memory retention`、`fluid retention` などの複合語を作る。  
 `retentive / retentively / retentiveness`（形容詞／副詞／名詞）— 「保持力のある、記憶力のよい／保持力よく／保持力」。特に記憶や物質を保持する性質について使う。  
 `retainer`（名詞）— 専門家を継続的に依頼するための前払報酬・契約、依頼を受けている専門家、または物を所定位置に留める器具を表す。`retain` の法律・雇用用法と関係するが、名詞として独立して扱う。  
@@ -43,7 +43,7 @@ tags: []
 
 【日本語訳・定義】物・権利・所有・支配・特徴・習慣などを、失ったり手放したりせず持ち続ける。単に持っているというより、変更・譲渡・奪取などの可能性がある中で、以前からあるものをそのまま保つことに焦点がある。預金、保証金、給与などを返還・支払いせずに手元に残す意味にも使う。  
 
-【頻度】〈10/10〉  
+【頻度】〈9/10〉  
 
 【レジスター/領域】一般語。会話でも使うが、契約、組織、制度、財産、業務、評価を扱う説明文・ビジネス文書で特に多い。`keep` より硬く、継続的な保持や喪失への対抗を意識させる。  
 
@@ -81,7 +81,7 @@ tags: []
 例: She retained her dignity despite the public criticism.  
 訳: 彼女は公の批判を受けても尊厳を失わなかった。  
 
-【語法・注意】`retain` は通常、直接目的語を取る他動詞で、`retain to 〈人〉` とはしない。`retain` は「保つ」という到達状態に焦点を置くため、単に新しく手に入れる `acquire` や、状態を積極的に整え続ける `maintain` とは異なる。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。  
+【語法・注意】`retain` は、すでに持っているもの・すでにある状態を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retainer` は依頼契約・前払報酬などを表す名詞で、`retain` の活用形ではない。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。  
 
 【類義語】
 
@@ -119,8 +119,8 @@ tags: []
 定義: 持っていた物・権利・状態などを失う。  
 頻度: 〈10/10〉  
 違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。  
-例: The team retained its title instead of losing it.  
-訳: そのチームはタイトルを失わずに守った。  
+例: The team lost its title after a long winning streak.  
+訳: そのチームは長い連勝の後、タイトルを失った。  
 
 ・relinquish  
 定義: 権利、地位、支配、所有などを自ら手放す。  
@@ -207,8 +207,8 @@ tags: []
 定義: 人を職務や関係にとどめておく。  
 頻度: 〈10/10〉  
 違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。  
-例: The manager worked hard to keep the team together.  
-訳: その管理者はチームを一つに保つため努力した。  
+例: The company worked hard to keep its best employees.  
+訳: その会社は優秀な従業員をつなぎ留めるため努力した。  
 
 【反意語】
 
@@ -384,8 +384,8 @@ tags: []
 定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。  
 頻度: 〈7/10〉  
 違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。  
-例: The body does not intentionally withhold urine.  
-訳: 体は意図的に尿の排出を差し控えているわけではない。  
+例: Doctors sometimes withhold treatment until test results arrive.  
+訳: 医師は検査結果が出るまで治療を控えることがある。  
 
 【反意語】
 
@@ -503,6 +503,6 @@ tags: []
 ・erase  
 定義: 記録や記憶を消去する。  
 頻度: 〈8/10〉  
-違い: `erase` は意図的・物理的に消す意味が強く、自然に忘れる `forget` よりも操作的である。  
+違い: `erase` は記録や記憶を意図的・物理的に消す意味が強く、すでにある情報を失わず保つ `retain` とは逆方向の操作を表す。  
 例: Time cannot erase every memory.  
 訳: 時間がたっても、すべての記憶を消し去れるわけではない。  
