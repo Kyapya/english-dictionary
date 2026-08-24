@@ -19,11 +19,11 @@
     "candidate_pages": 18
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "normal_review_complete",
   "started_at": "2026-08-24T10:48:13Z",
   "deadline_at": "2026-08-24T11:48:13Z",
   "pre_draft_deadline_at": "2026-08-24T11:08:13Z",
-  "last_heartbeat_at": "2026-08-24T10:58:39Z",
+  "last_heartbeat_at": "2026-08-24T11:09:45Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T10:49:53Z",
@@ -44,6 +44,16 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-24T10:58:39Z",
       "notes": "draft entry, queue row, and dated log saved within standard pre-draft budget"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T11:05:10Z",
+      "notes": "bounded 6-source, 24-fact inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T11:09:45Z",
+      "notes": "normal review completed for all 113 targets, 75 relations, and 7 independent candidates"
     }
   ],
   "stop_reason": "",
