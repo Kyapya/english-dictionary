@@ -18,12 +18,12 @@
     "research_queries": 11,
     "candidate_pages": 17
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-24T16:55:06Z",
   "deadline_at": "2026-08-24T17:55:06Z",
   "pre_draft_deadline_at": "2026-08-24T17:15:06Z",
-  "last_heartbeat_at": "2026-08-24T17:01:30Z",
+  "last_heartbeat_at": "2026-08-24T17:04:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T16:55:40Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-24T17:01:30Z",
       "notes": "blind final inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T17:04:00Z",
+      "notes": "final blind-seal reconciliation passed target, relation, candidate, evidence, and source inventory checks"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T17:04:30Z",
+      "notes": "entry, audit, queue, and workflow run are complete on the dedicated branch"
     }
   ],
   "stop_reason": "",
