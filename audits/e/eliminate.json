@@ -1,0 +1,1706 @@
+Warning: truncated output (original token count: 151801)
+Total output lines: 11865
+
+{
+  "schema_version": "content_audit_v3",
+  "entry_path": "entries/e/eliminate.md",
+  "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+  "review_history": [],
+  "current_cycle": {
+    "cycle_id": "cycle-001",
+    "parent_cycle_id": null,
+    "started_at": "2026-08-24T16:39:28+05:30",
+    "change_reason": "新規語義追加: eliminate の v5 本文、source-first 監査、独立レビュー",
+    "body_revisions": [
+      {
+        "revision_id": "revision-001",
+        "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+        "snapshot_path": "audits/runs/e/eliminate/cycle-001/revision-001.md",
+        "created_at": "2026-08-24T16:39:28+05:30",
+        "reason": "initial audited body"
+      }
+    ],
+    "raw_outputs": {
+      "normal_review": {
+        "path": "audits/runs/e/eliminate/cycle-001/normal_review.json",
+        "sha256": "f7a2e8a60d74e7fc07515b365a61fe52ca45121c2219b0c86ea3aa2058663c34",
+        "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+        "prompt_sha256": "dd3208509b670b9e5f4add450283b87a2eb0aac6305bdc5b823235852d716b36",
+        "run_id": "normal-eliminate-20260824",
+        "context_id": "normal-eliminate-isolated-20260824"
+      },
+      "cold_review": {},
+      "final_blind": {},
+      "final_review": {}
+    },
+    "escaped_defects": [],
+    "regression_checks": [
+      {
+        "category": "compound_component_generalization",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "argument_slot_role_mismatch",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "regional_qualification",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "technical_terminology_conventionality",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "sense_boundary_overlap",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "lexical_relation_mislabel",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "example_translation_alignment",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "absolute_scope_counterexample",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "pronunciation_symbol_explanation",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "evidence_claim_mismatch",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "semantic_direction_reversal",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "cross_section_internal_contradiction",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "finding_scope_transfer_loss",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "raw_adjudication_manifest_divergence",
+        "status": "pending",
+        "notes": ""
+      }
+    ]
+  },
+  "targets": [
+    {
+      "id": "pronunciation:001",
+      "kind": "pronunciation",
+      "location": "line:4",
+      "section": "＃発音記号",
+      "sense": "",
+      "text_sha256": "0353f06ac4e341ef8dfdf082401749dda168b93b06748c7731d95a437a81ed83",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "米・英: /ɪˈlɪməneɪt/。4音節の i-LIM-uh-nate で、第2音節の /ˈlɪm/ に主強勢がある。第1音節の /ɪ/ と第3音節の /ə/ は弱く、第4音節の /neɪt/ は動詞の -ate なので /eɪt/ と発音する。米英で基本的な音節構成と主強勢の位置に大きな差はない。三人称単数 eliminates は /ɪˈlɪməneɪts/、過去形・過去分詞 eliminated は /ɪˈlɪməneɪtɪd/、-ing形 eliminating は /ɪˈlɪməneɪtɪŋ/。過去形・過去分詞の -ed は、語末の /t/ の後なので /ɪd/ となり、語末にもう1音節加わる。"
+    },
+    {
+      "id": "etymology:001",
+      "kind": "etymology",
+      "location": "line:8",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "0ed7278157fcf4d9e1501e1a30703d62f2740d907652a0a5cea1cd2a323c120a",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "16世紀に、ラテン語 eliminare「戸外へ追い出す、排除する」の過去分詞 eliminatus から英語に入った。eliminare は ex「外へ」と limen「敷居、境界」を含み、もともとは「敷居の外へ出す」という発想を表した。現在の「不要なものを外へ出す」「候補から外す」「式から未知量を消す」という意味には、この「外へ押し出す」という核が共通している。"
+    },
+    {
+      "id": "etymology:002",
+      "kind": "etymology",
+      "location": "line:9",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "82c45bb26f25d46965b46dbd63a2f00b4f5fa0ebc201e36ad82d493c2ff8d550",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "同語源・関連語として、limit「限界、制限」や limen「境界、敷居」がある。ただし、eliminate と limit は現代の意味を置き換えられる関係ではない。"
+    },
+    {
+      "id": "word_formation:001",
+      "kind": "word_formation",
+      "location": "line:13",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "54f67fbabf841a68429bc350050b29f9fb3dc1d9dde33450e703f40d7f3657d4",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "elimination は eliminate の名詞形で、「除去、排除、敗退、消去」やその過程を表す。数学では「消去法」を指す。"
+    },
+    {
+      "id": "word_formation:002",
+      "kind": "word_formation",
+      "location": "line:14",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "12bf9d51375cdf7a3e39e138f4f46d547aa472c6647f8ff196a7824d13fb34f9",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "eliminator は「排除する人・もの」や、競技で相手を敗退させる人・ものを表す名詞で、一般語としての使用頻度は eliminate より低い。"
+    },
+    {
+      "id": "word_formation:003",
+      "kind": "word_formation",
+      "location": "line:15",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "3ab9eba1f836451ee67428e1ac97a9dbe05b14d203db099a82b218085cbaf0e6",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "eliminative / eliminatory は「除去の、排除する」の意味の形容詞で、専門的・硬い文脈に寄りやすい。eliminated と eliminating は、それぞれ過去形・過去分詞と現在分詞であり、通常は独立した語義として扱わない。"
+    },
+    {
+      "id": "core_image:001",
+      "kind": "core_image",
+      "location": "line:19",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "47cac1c24aabcd9eecf0935c0848dfe79f5faf487e157c154ed481ca47dee78c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "eliminate の核は、対象を「外へ押し出し、存在・候補・参加資格・体内の不要物・式中の未知量からなくす」ことである。物理的に取り除く場合だけでなく、考慮の対象から外す、競技を続けられなくする、数式上見えなくする場合にも使う。"
+    },
+    {
+      "id": "core_image:002",
+      "kind": "core_image",
+      "location": "line:20",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "a7b939f8be62ae2c61cab44e5c7dfd295832acf759ef2ba0ae6c27f5b0888172",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・対象から外へ押し出すこと → 「取り除く・なくす」（語義1）"
+    },
+    {
+      "id": "core_image:003",
+      "kind": "core_image",
+      "location": "line:21",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "bf8cd21118cad7241dd9b473ebfa662a0cabb5f28790c760474e76495c438349",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・候補から外へ押し出すこと → 「考慮から除外する」（語義2）"
+    },
+    {
+      "id": "core_image:004",
+      "kind": "core_image",
+      "location": "line:22",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "e7f053d7cc6d48fa5ff02ae4bab26784b2e40ad48d4aa0673e5811af91612da2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・競技から外へ押し出すこと → 「競技から敗退させる」（語義3）"
+    },
+    {
+      "id": "core_image:005",
+      "kind": "core_image",
+      "location": "line:23",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "9e238da986223d1bb5139718f87117330a8db87f05e0b9c8cb2dde56a0f67b38",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・生存の場から外へ消すこと → 「殺す・抹殺する」（語義4）"
+    },
+    {
+      "id": "core_image:006",
+      "kind": "core_image",
+      "location": "line:24",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "776e9b75ee73c4f852277aa8293154d8bc707367eef79820ae5536795f008be0",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・体内から外へ押し出すこと → 「体外へ排出する」（語義5）"
+    },
+    {
+      "id": "core_image:007",
+      "kind": "core_image",
+      "location": "line:25",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "846e3a2e58cf0cd16451adad6985345a2c38a062c694f746275610ccb6ee6447",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・式から未知量を外すこと → 「未知量を消去する」（語義6）"
+    },
+    {
+      "id": "sense_boundary:001",
+      "kind": "sense_boundary",
+      "location": "line:29",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "c34e65a3f0c9d480fd56623716bd35075adcb7be9e888880bb178cd6c1c8ce45",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "1. 【他動詞】取り除く・なくす"
+    },
+    {
+      "id": "definition:001",
+      "kind": "definition",
+      "location": "line:31",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "0ab668250e3d34ef41de758a7c92d67fa5cefd99e4da2854544d19afa324e372",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "不要な物・問題・障害・状態などを取り除き、それが存在しない、または問題にならない状態にする。物理的に取り去る場合だけでなく、原因をなくす、必要性をなくす、制度上の項目を廃止する場合にも使う。単に程度を下げるだけなら reduce の方が合いやすく、eliminate は「なくす」という到達点を含みやすい。ただし、文脈上「完全にゼロにする」とまでは断定できない場合もある。"
+    },
+    {
+      "id": "frequency:001",
+      "kind": "frequency",
+      "location": "line:33",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "ca6fe21add35a065485d5212bcd4c286f9be4ec43a36ede08293f78c1c5cd07c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈10/10〉"
+    },
+    {
+      "id": "register:001",
+      "kind": "register",
+      "location": "line:35",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "9be1dd154c1b2b8894e6a9251fc7763288f2af151e413d86f928a20e3903c8c7",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "一般語。会話でも使うが、問題・費用・リスク・制度・業務を扱う説明文やビジネス文書で特に多い。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "kind": "grammar_pattern",
+      "location": "line:37",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "baf556dbd15a439f8a181e86abe9958c81d0955b356566f2cf994402f50bd402",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈問題・障害・無駄〉`＝〈問題・障害・無駄〉をなくす"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "kind": "grammar_pattern",
+      "location": "line:37",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "265951dc0a6108de75d6b7ded47b0e964d2f9fd25a2b2ea285e2b44d21d4d49b",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate the need for 〈行為・物〉`＝〈行為・物〉の必要性をなくす"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "kind": "grammar_pattern",
+      "location": "line:37",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "8e3752a99d18f9a003d8f276c3cabcf55aecbbee6bdf73d4e26ed1d2440c28c7",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈原因・リスク〉`＝〈原因・リスク〉を取り除く"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "kind": "grammar_pattern",
+      "location": "line:37",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "1af90426f6cf570143a7a605c50b8ebcdb822939a4628aa6e3078ccb6c50bf16",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "受動態 `〈問題・費用〉 be eliminated`＝〈問題・費用〉がなくされる。`eliminate A from B` は、Bの中からAを取り除く意味になり、考慮対象から外す場合は語義2に近づく。"
+    },
+    {
+      "id": "collocation:001",
+      "kind": "collocation",
+      "location": "lines:41-44",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "8c21441f60360834bf8ab12d877685baff2bcd7589aad17eb05c4640d3de65ec",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・eliminate errors/mistakes\n用途: 作業や制度の中から誤りをなくす。\n例: The new checking system has eliminated many common errors.\n訳: 新しい検査システムによって、よくある誤りの多くがなくなった。"
+    },
+    {
+      "id": "collocation:002",
+      "kind": "collocation",
+      "location": "lines:46-49",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "6ff9d5d4c2e170359c451bd9373073abd9efab87133afa6955a133a8a087a3a1",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate the need for 〈行為・物〉\n用途: 何かを使う、行う必要をなくす。need そのものを物理的に取り除くのではなく、必要な状況をなくす。\n例: Online access eliminates the need for a paper form.\n訳: オンラインで利用できるので、紙の書式は必要ない。"
+    },
+    {
+      "id": "collocation:003",
+      "kind": "collocation",
+      "location": "lines:51-54",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "fc158d28381d7aac3aae083dd906082b58b9fc01f65366d88234503310272d08",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate waste\n用途: 製造・業務・資源利用などで無駄をなくす。\n例: The factory changed its process to eliminate waste.\n訳: その工場は無駄をなくすために工程を変更した。"
+    },
+    {
+      "id": "collocation:004",
+      "kind": "collocation",
+      "location": "lines:56-59",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "43a72b1695eccb8cf0fb483046e390371a979e97fdcad6f70327bbd6f20bc9ac",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate a risk/threat\n用途: リスクや脅威を、残らない状態にする。実際に危険な対象を物理的に除去する場合にも、発生可能性をなくす場合にも使う。\n例: The redesign should eliminate the risk of data loss.\n訳: 設計を変更すれば、データ消失のリスクをなくせるはずだ。"
+    },
+    {
+      "id": "collocation:005",
+      "kind": "collocation",
+      "location": "lines:61-64",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "76aecee84f89ac6e3ec6cee17447c98a2bcf8ce421ff03e0c4429c568ab4861d",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・eliminate a job/position\n用途: 組織再編などで職・ポストを廃止する。必ずしも、その職に就いていた人を直接「解雇する」という意味ではない。\n例: The company eliminated several positions during the reorganization.\n訳: その会社は組織再編の際にいくつかのポストを廃止した。"
+    },
+    {
+      "id": "collocation:006",
+      "kind": "collocation",
+      "location": "lines:66-69",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "f4a848d162b30af46696c7905f9f7604be425be24ccb068298a1e756891b2601",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate 〈原因・供給源〉\n用途: 問題を生じさせる原因や発生源を取り除く。\n例: Cleaning the filter may eliminate the source of the odor.\n訳: フィルターを掃除すれば、においの発生源を取り除けるかもしれない。"
+    },
+    {
+      "id": "usage_note:001",
+      "kind": "usage_note",
+      "location": "line:71",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "0277ab093e2d6bf5c28f269e24ab8cbfb15b67ce58071bb330f87cbbaa86b571",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "`eliminate` は remove より硬く、問題・リスク・無駄などを「なくす」到達点を意識させる。`reduce` は量・程度を下げるだけでも使えるが、eliminate は通常「残さない」方向を示す。`eliminate the need for ...` は「…を不要にする」であり、`avoid ...`「…を避ける」や `prevent ...`「…が起きるのを防ぐ」と同じではない。特に「今後の望ましくない出来事を防ぐ」という意味だけなら prevent が自然なことが多い。"
+    },
+    {
+      "id": "synonym:001",
+      "kind": "synonym",
+      "location": "lines:75-80",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "7d72a1eb4b0e8c78f48ce3f25c25b28dd8329c2fe650f1623b476c8e4a745035",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・remove\n定義: 物・問題・人などを、ある場所や状態から取り去る。\n頻度: 〈10/10〉\n違い: eliminate より中立で、完全に消すことや問題を根絶することを必ずしも含まない。\n例: Please remove the old label.\n訳: 古いラベルを取り外してください。"
+    },
+    {
+      "id": "synonym:002",
+      "kind": "synonym",
+      "location": "lines:82-87",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "ac34fac4a2af0cf04b8b9892ca7a7a12b552f1842e9d11a2a8170f1ca1da57b1",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・get rid of\n定義: 望ましくない物・問題・人を取り除く。\n頻度: 〈9/10〉\n違い: 会話的で、eliminate よりくだけている。処理が完了したという含みは文脈次第である。\n例: We need to get rid of these unnecessary files.\n訳: これらの不要なファイルを削除する必要がある。"
+    },
+    {
+      "id": "synonym:003",
+      "kind": "synonym",
+      "location": "lines:89-94",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "e71d3603e7968238c05ed9d8adacc83f83c09fabe3a556f170c06951f093d085",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・eradicate\n定義: 病気・悪習・問題などを根こそぎ完全になくす。\n頻度: 〈6/10〉\n違い: eliminate より強く、根絶・撲滅の意図を表す硬い語。\n例: The campaign aims to eradicate the disease.\n訳: その運動はその病気の撲滅を目指している。"
+    },
+    {
+      "id": "synonym:004",
+      "kind": "synonym",
+      "location": "lines:96-101",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "d8bb935ed21b89c590d43c8536e1c2907a57f537542547f9c21fee90f5ee87cf",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・abolish\n定義: 法律・制度・慣行などを正式に廃止する。\n頻度: 〈7/10〉\n違い: 対象が制度・規則・慣行に限られやすく、単なる物理的除去には使わない。\n例: The country abolished the outdated tax.\n訳: その国は時代遅れの税を廃止した。"
+    },
+    {
+      "id": "antonym:001",
+      "kind": "antonym",
+      "location": "lines:105-110",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "7a37838af1cf2ed4d2d9ef840381dc86a2bc11a9a2416aa4f9c57249452ea730",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・retain\n定義: 物・性質・制度などを手元や元の状態に保つ。\n頻度: 〈7/10〉\n違い: eliminate が対象を外すのに対し、retain は対象を残して保持する。\n例: The design retains the original safety feature.\n訳: その設計は元の安全機能を残している。"
+    },
+    {
+      "id": "antonym:002",
+      "kind": "antonym",
+      "location": "lines:112-117",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【他動詞】取り除く・なくす",
+      "text_sha256": "a2e1f4a22469002d600f45a3ac248993d9f00009ab6a23b72846e801b739e2ae",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・preserve\n定義: 物・状態・価値などを損なわずに保つ。\n頻度: 〈8/10〉\n違い: eliminate がなくす方向なのに対し、preserve は維持・保存する方向を表す。\n例: The policy is intended to preserve local traditions.\n訳: その政策は地域の伝統を守ることを目的としている。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "kind": "sense_boundary",
+      "location": "line:119",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "e1e691bd42639221c4188404c7578fb265967b8e7ead8270bc5d9570e2c41e86",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "2. 【他動詞】考慮から除外する"
+    },
+    {
+      "id": "definition:002",
+      "kind": "definition",
+      "location": "line:121",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "50e4c163d8483d836c46ce865a70662acb7bf79603f372152a5e48ca7c8d5c33",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "人・原因・可能性・選択肢などを、検討・調査・選考の対象から外す。証拠や条件から「候補ではない」と判断する場合に使い、物理的に消したり、必ずしも拒絶したりする意味ではない。"
+    },
+    {
+      "id": "frequency:002",
+      "kind": "frequency",
+      "location": "line:123",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "223f0f3bb105d64687ce0ff83ae044846c2f48c7a55d9d015dbc0ce12503d473",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈8/10〉"
+    },
+    {
+      "id": "register:002",
+      "kind": "register",
+      "location": "line:125",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "c313a9a949ce74cc2d58db7a234842aa7f7d782d73ad9f7c2d45b0c874823eab",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "一般語。調査、診断、推論、採用・選考、意思決定などの説明で多い。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "kind": "grammar_pattern",
+      "location": "line:127",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "4fc8f20ef1ff0556a0b2039645da7805c48da0e704ce16aeb5b9430c9c261c59",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈人・物〉 from consideration/investigation/the shortlist`＝〈人・物〉を考慮・調査・候補から外す"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "kind": "grammar_pattern",
+      "location": "line:127",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "a7770de4eedba2b343f3038313df630c7cd7f7682ce45ebae0e004a173039f51",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈人・物〉 as 〈役割・原因〉`＝〈人・物〉を〈役割・原因〉ではないと判断する"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "kind": "grammar_pattern",
+      "location": "line:127",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "a63df28cee17302286da78c37db807eeff2dcaede65777a3b507ea4e193e9d4a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "`eliminate 〈可能性・説明〉`＝〈可能性・説明〉を除外する。`from` は所属していた候補集合から外す関係、`as` は何として不適格・不可能と判断するかを示す。"
+    },
+    {
+      "id": "collocation:007",
+      "kind": "collocation",
+      "location": "lines:131-134",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "27e3375af6c794a8adaf3534e5b9aeaa698f61b47074cce9943356a0d5928f6e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate 〈人〉 as a suspect\n用途: その人を容疑者ではないと判断し、捜査上の候補から外す。\n例: The evidence eliminated him as a suspect.\n訳: その証拠によって、彼は容疑者ではないと判断された。"
+    },
+    {
+      "id": "collocation:008",
+      "kind": "collocation",
+      "location": "lines:136-139",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "e1a4d3b00e1da6d431108a95036a2099c26d3f612ddf3be23dd5da5ec6ff711f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate 〈原因〉 as the cause\n用途: ある原因が原因ではないと判断する。\n例: The tests eliminated infection as the cause of the symptoms.\n訳: 検査によって、感染症はその症状の原因ではないと判断された。"
+    },
+    {
+      "id": "collocation:009",
+      "kind": "collocation",
+      "location": "lines:141-144",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "448ba8c111af0e7f8cdd27aec11ce367ef0048057d21ee993a62531c49055396",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・eliminate 〈可能性〉 from consideration\n用途: 可能性を検討対象から外す。\n例: We cannot eliminate that possibility from consideration yet.\n訳: その可能性をまだ検討対象から外すことはできない。"
+    },
+    {
+      "id": "collocation:010",
+      "kind": "collocation",
+      "location": "lines:146-149",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "6424e21446f2697c64a66480408d897d3eada0b6a5adcc7ef0f96d1f5712bacb",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate every other possible explanation\n用途: 他にあり得る説明を一つずつ除外する。\n例: We need more evidence before we can eliminate every other possible explanation.\n訳: 他のあらゆる可能な説明を除外できるのは、もっと証拠が集まってからだ。"
+    },
+    {
+      "id": "collocation:011",
+      "kind": "collocation",
+      "location": "lines:151-154",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "5e75585c99a653a37e16a0682e5f470b30c31ccf6d0bd4fbf56d14ce12d1ecd6",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・be eliminated from the shortlist\n用途: 最終候補者・候補案などから外される。\n例: Two proposals were eliminated from the shortlist.\n訳: 2件の提案が最終候補から外された。"
+    },
+    {
+      "id": "usage_note:002",
+      "kind": "usage_note",
+      "location": "line:156",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "66f5e9cd68d919ce701e79917832e2c86cc8043ed14090e692a22b1c5ad55fc9",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "この語義では `eliminate` は「検討して不適切・不可能と判断する」という含みを持つことがある。`exclude` は範囲・参加・含有から外すことに焦点があり、`rule out` は可能性や説明を否定して検討対象から外すことに特に自然である。`eliminate a suspect` だけでは、捜査から外すのか、競技から敗退させるのか、殺すのかが文脈依存になるため、`as a suspect`、`from the investigation` などを添えると誤解が少ない。"
+    },
+    {
+      "id": "synonym:005",
+      "kind": "synonym",
+      "location": "lines:160-165",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "8e060dc6e3e7762b61a9fef11aa1cf47c9d6221e100f7a99f6f566466bb667c9",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・rule out\n定義: 可能性・説明・選択肢を、あり得ないものとして除外する。\n頻度: 〈9/10〉\n違い: eliminate より「可能性を否定する」という推論上の用法に特化し、句動詞なので会話でも使いやすい。\n例: The tests ruled out a serious infection.\n訳: 検査によって、重い感染症の可能性は除外された。"
+    },
+    {
+      "id": "synonym:006",
+      "kind": "synonym",
+      "location": "lines:167-172",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "a8826cc7f1c059f12cb4262ea1df9b512c7130379ca1859bdb40f85da2fd6038",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・exclude\n定義: 集合・範囲・参加者・考慮対象などに含めない。\n頻度: 〈9/10〉\n違い: eliminate のように検討の結果外す場合もあるが、最初から含めない、または物理的・制度的に締め出す意味が広い。\n例: The price excludes delivery.\n訳: その価格には配送料が含まれていない。"
+    },
+    {
+      "id": "synonym:007",
+      "kind": "synonym",
+      "location": "lines:174-179",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "bd992bf1360671a61cb6e4060e30040cf4e3f9ce9306728c8c5a0803af02be7a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・dismiss\n定義: 意見・可能性・説明などを重要でない、または誤りだとして退ける。\n頻度: 〈8/10〉\n違い: eliminate よりも、話者がその考えを価値のないものとして退ける評価を含みやすい。\n例: The committee dismissed the proposal as unrealistic.\n訳: 委員会はその提案を非現実的なものとして退けた。"
+    },
+    {
+      "id": "antonym:003",
+      "kind": "antonym",
+      "location": "lines:183-188",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "50c881fd21d440404cadfa6865777a3977a5bcd03513fda3bea637dbbf216ba6",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・consider\n定義: 判断や決定のために、可能性・意見・選択肢を検討する。\n頻度: 〈10/10〉\n違い: eliminate が検討対象から外すのに対し、consider は検討の対象に置く。\n例: The panel is considering three alternatives.\n訳: 審査団は3つの代替案を検討している。"
+    },
+    {
+      "id": "antonym:004",
+      "kind": "antonym",
+      "location": "lines:190-195",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【他動詞】考慮から除外する",
+      "text_sha256": "7a72d8c56a341c865bbf473d6ca0e7a7de339c846bd1e11daa0e957cbf7688c6",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・include\n定義: 集合・範囲・候補などの中に含める。\n頻度: 〈10/10〉\n違い: eliminate が候補や構成要素を外すのに対し、include は対象に加えて含める。\n例: The final list includes two new candidates.\n訳: 最終リストには新たに2人の候補者が含まれている。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "kind": "sense_…133801 tokens truncated…004",
+        "status": "pass",
+        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-definition_usage_consistency-004-1",
+          "EL-R-definition_usage_consistency-004-2"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:004",
+        "status": "pass",
+        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-definition_lexical_relation_consistency-004-1",
+          "EL-R-definition_lexical_relation_consistency-004-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:012",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-012-1",
+          "EL-R-pattern_example_coverage-012-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:013",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-013-1",
+          "EL-R-pattern_example_coverage-013-2"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:005",
+        "status": "pass",
+        "notes": "sense_definition_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-sense_definition_consistency-005-1",
+          "EL-R-sense_definition_consistency-005-2"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:005",
+        "status": "pass",
+        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-definition_usage_consistency-005-1",
+          "EL-R-definition_usage_consistency-005-2"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:005",
+        "status": "pass",
+        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-definition_lexical_relation_consistency-005-1",
+          "EL-R-definition_lexical_relation_consistency-005-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:014",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-014-1",
+          "EL-R-pattern_example_coverage-014-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:015",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-015-1",
+          "EL-R-pattern_example_coverage-015-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:016",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-016-1",
+          "EL-R-pattern_example_coverage-016-2"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:006",
+        "status": "pass",
+        "notes": "sense_definition_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-sense_definition_consistency-006-1",
+          "EL-R-sense_definition_consistency-006-2"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:006",
+        "status": "pass",
+        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-definition_usage_consistency-006-1",
+          "EL-R-definition_usage_consistency-006-2"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:006",
+        "status": "pass",
+        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-definition_lexical_relation_consistency-006-1",
+          "EL-R-definition_lexical_relation_consistency-006-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:017",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-017-1",
+          "EL-R-pattern_example_coverage-017-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:018",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-018-1",
+          "EL-R-pattern_example_coverage-018-2"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:019",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-019-1",
+          "EL-R-pattern_example_coverage-019-2"
+        ]
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "status": "pass",
+        "notes": "core_inventory_consistency の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_inventory_consistency-001-1",
+          "EL-R-core_inventory_consistency-001-2"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "status": "pass",
+        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_sense_mapping-001-1",
+          "EL-R-core_sense_mapping-001-2"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "status": "pass",
+        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_sense_mapping-002-1",
+          "EL-R-core_sense_mapping-002-2"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:003",
+        "status": "pass",
+        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_sense_mapping-003-1",
+          "EL-R-core_sense_mapping-003-2"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:004",
+        "status": "pass",
+        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_sense_mapping-004-1",
+          "EL-R-core_sense_mapping-004-2"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:005",
+        "status": "pass",
+        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_sense_mapping-005-1",
+          "EL-R-core_sense_mapping-005-2"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:006",
+        "status": "pass",
+        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-core_sense_mapping-006-1",
+          "EL-R-core_sense_mapping-006-2"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "article_learning_risk の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-article_learning_risk-001-1",
+          "EL-R-article_learning_risk-001-2"
+        ]
+      }
+    ],
+    "prompt_version": "check_spec_v5",
+    "summary": "通常チェックで本文ターゲット113件、関係75件、独立候補7件を全件照合し、6語義の境界・構文・例文・派生形を確認した。"
+  },
+  "cold_review": {
+    "role": "cold_reviewer",
+    "reviewer_id": "",
+    "reviewed_at": "",
+    "prompt_version": "cold_review_prompt_v1",
+    "completed": false,
+    "execution": {
+      "run_id": "",
+      "context_id": "",
+      "started_at": "",
+      "completed_at": "",
+      "input_body_sha256": "",
+      "prompt_sha256": "",
+      "context_mode": "",
+      "input_artifacts": []
+    },
+    "summary": "",
+    "findings": []
+  },
+  "resolutions": [],
+  "semantic_gate": {
+    "version": "semantic_resolution_v2",
+    "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+    "constraints": [],
+    "final_inventory_checks": []
+  },
+  "final_review": {
+    "role": "final_adjudicator",
+    "reviewer_id": "",
+    "reviewed_at": "",
+    "completed": false,
+    "execution": {
+      "run_id": "",
+      "context_id": "",
+      "started_at": "",
+      "completed_at": "",
+      "input_body_sha256": "",
+      "prompt_sha256": "",
+      "context_mode": "",
+      "input_artifacts": [],
+      "reconciliation_started_at": "",
+      "reconciliation_input_artifacts": []
+    },
+    "body_sha256": "",
+    "decision": "pending",
+    "blind_review": {
+      "seal_version": "blind_seal_v2",
+      "completed": false,
+      "recorded_at": "",
+      "sealed_at": "",
+      "body_sha256": "",
+      "audit_visible": false,
+      "provisional_decision": "pending",
+      "article_findings": [],
+      "output_sha256": ""
+    },
+    "independent_candidates": [],
+    "inventory_comparison": [],
+    "blind_finding_results": [],
+    "target_results": [],
+    "relation_results": [],
+    "candidate_results": [],
+    "finding_results": [],
+    "evidence_checks": [],
+    "blockers": [],
+    "source_inventory_results": []
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded lexical, competition, physiological, mathematical, pronunciation, and etymology inventory",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 24,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-24T16:35:00.109387+05:30",
+    "article_comparison_started_at": "2026-08-24T16:35:00.168050+05:30",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-011",
+          "F-012",
+          "F-013"
+        ],
+        "notes": "標準プロファイルの bounded inventory で該当軸を閉じた。"
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-010"
+        ],
+        "notes": "標準プロファイルの bounded inventory で該当軸を閉じた。"
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-006",
+          "F-015",
+          "F-020",
+          "F-021"
+        ],
+        "notes": "標準プロファイルの bounded inventory で該当軸を閉じた。"
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-005",
+          "F-012",
+          "F-013",
+          "F-016",
+          "F-017",
+          "F-018"
+        ],
+        "notes": "標準プロファイルの bounded inventory で該当軸を閉じた。"
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-011",
+          "F-014",
+          "F-022"
+        ],
+        "notes": "標準プロファイルの bounded inventory で該当軸を閉じた。"
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-023",
+          "F-024"
+        ],
+        "notes": "標準プロファイルの bounded inventory で該当軸を閉じた。"
+      }
+    ],
+    "sources": [
+      {
+        "id": "SRC-01",
+        "title": "Merriam-Webster: eliminate",
+        "locator": "https://www.merriam-webster.com/dictionary/eliminate",
+        "source_type": "general_lexicon",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "eliminate",
+            "kind": "sense",
+            "statement": "一般義は不要なものを取り除く・なくすことを表す。",
+            "source_detail": "Merriam-Webster sense 1"
+          },
+          {
+            "id": "F-002",
+            "form": "eliminate",
+            "kind": "sense",
+            "statement": "考慮・選択の対象から外す意味がある。",
+            "source_detail": "Merriam-Webster sense 1b"
+          },
+          {
+            "id": "F-003",
+            "form": "eliminate",
+            "kind": "sense",
+            "statement": "競技で相手を破り、競争から敗退させる意味がある。",
+            "source_detail": "Merriam-Webster sense 1c"
+          },
+          {
+            "id": "F-004",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "身体から老廃物を排出する意味がある。",
+            "source_detail": "Merriam-Webster sense 2"
+          },
+          {
+            "id": "F-005",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "数学で、方程式を組み合わせて量を消去する意味がある。",
+            "source_detail": "Merriam-Webster sense 3"
+          },
+          {
+            "id": "F-006",
+            "form": "eliminate",
+            "kind": "derived_form",
+            "statement": "eliminative と eliminator が関連する派生形として示される。",
+            "source_detail": "Merriam-Webster derived forms"
+          }
+        ]
+      },
+      {
+        "id": "SRC-02",
+        "title": "Oxford Learner's Dictionaries: eliminate",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/eliminate",
+        "source_type": "general_lexicon",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "eliminate",
+            "kind": "frame",
+            "statement": "eliminate something は何かを取り除く・なくす構文を取る。",
+            "source_detail": "Oxford learner dictionary verb entry"
+          },
+          {
+            "id": "F-008",
+            "form": "eliminate",
+            "kind": "frame",
+            "statement": "eliminate something from something は集合・検討対象から何かを外す関係を示す。",
+            "source_detail": "Oxford usage pattern"
+          },
+          {
+            "id": "F-009",
+            "form": "eliminate",
+            "kind": "frame",
+            "statement": "eliminate somebody/something from something は人や物を枠・競争から除外する構文を示す。",
+            "source_detail": "Oxford usage pattern"
+          },
+          {
+            "id": "F-010",
+            "form": "eliminate",
+            "kind": "frame",
+            "statement": "eliminate somebody/something as something は役割・原因などとして候補から外す用法を示す。",
+            "source_detail": "Oxford usage pattern"
+          }
+        ]
+      },
+      {
+        "id": "SRC-03",
+        "title": "Collins English Dictionary: eliminate",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/eliminate",
+        "source_type": "general_lexicon",
+        "source_role": "general_lexicon",
+        "independence_group": "collins",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "eliminate",
+            "kind": "sense",
+            "statement": "取り除く、除外する、競争相手を敗退させるなど複数の一般義を持つ。",
+            "source_detail": "Collins definitions"
+          },
+          {
+            "id": "F-012",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "身体から排泄物や薬物を排出する生理学的用法がある。",
+            "source_detail": "Collins physiology sense"
+          },
+          {
+            "id": "F-013",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "数学で未知量を消去する用法がある。",
+            "source_detail": "Collins mathematics sense"
+          },
+          {
+            "id": "F-014",
+            "form": "eliminate",
+            "kind": "register",
+            "statement": "avoid・preventとの使い分けに関する用法上の注意が示される。",
+            "source_detail": "Collins usage note"
+          },
+          {
+            "id": "F-015",
+            "form": "eliminate",
+            "kind": "derived_form",
+            "statement": "elimination と eliminator などの関連形が示される。",
+            "source_detail": "Collins derived forms"
+          }
+        ]
+      },
+      {
+        "id": "SRC-04",
+        "title": "Cuemath: Elimination Method",
+        "locator": "https://www.cuemath.com/algebra/elimination-method/",
+        "source_type": "specialist_reference",
+        "source_role": "specialist_reference",
+        "independence_group": "cuemath",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "消去法では係数をそろえるために方程式を定数倍することがある。",
+            "source_detail": "Cuemath elimination method"
+          },
+          {
+            "id": "F-017",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "方程式を加減して一つの変数を消去し、残った未知量を求める。",
+            "source_detail": "Cuemath elimination method"
+          },
+          {
+            "id": "F-018",
+            "form": "eliminate",
+            "kind": "specialist",
+            "statement": "一つの変数を消去した後、代入などで連立方程式を解く。",
+            "source_detail": "Cuemath elimination method"
+          }
+        ]
+      },
+      {
+        "id": "SRC-05",
+        "title": "Online Etymology Dictionary: eliminate",
+        "locator": "https://www.etymonline.com/word/eliminate",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "eliminate",
+            "kind": "etymology",
+            "statement": "英語の eliminate は1560年代に「戸外へ追い出す、放り出す」の意味で記録される。",
+            "source_detail": "Etymonline date and earliest sense"
+          },
+          {
+            "id": "F-020",
+            "form": "eliminate",
+            "kind": "etymology",
+            "statement": "ラテン語 eliminatus、eliminare「戸外へ追い出す、排出する」に由来する。",
+            "source_detail": "Etymonline Latin origin"
+          },
+          {
+            "id": "F-021",
+            "form": "eliminate",
+            "kind": "etymology",
+            "statement": "eliminare は ex limine「敷居の外へ」にさかのぼり、ex と limen「敷居」を含む。",
+            "source_detail": "Etymonline etymological construction"
+          },
+          {
+            "id": "F-022",
+            "form": "eliminate",
+            "kind": "register",
+            "statement": "除外義は18世紀初頭、身体からの排出義は18世紀末ごろに記録される。",
+            "source_detail": "Etymonline semantic chronology"
+          }
+        ]
+      },
+      {
+        "id": "SRC-06",
+        "title": "Cambridge Dictionary: eliminate pronunciation",
+        "locator": "https://dictionary.cambridge.org/pronunciation/english/eliminate",
+        "source_type": "pronunciation_reference",
+        "source_role": "pronunciation_reference",
+        "independence_group": "cambridge",
+        "facts": [
+          {
+            "id": "F-023",
+            "form": "eliminate",
+            "kind": "pronunciation",
+            "statement": "eliminate は /ɪˈlɪməneɪt/ と発音され、第2音節に主強勢がある。",
+            "source_detail": "Cambridge US/UK pronunciation"
+          },
+          {
+            "id": "F-024",
+            "form": "eliminated",
+            "kind": "pronunciation",
+            "statement": "eliminated は語末の -ed によって /ɪd/ の音節を加える発音になる。",
+            "source_detail": "Cambridge inflection pronunciation"
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "SU-01",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006"
+        ],
+        "canonical_statement": "general lexical and specialist senses",
+        "disposition": "integrated",
+        "rationale": "Merriam-Webster closes the main removal, exclusion, competition, physiology, and mathematics senses."
+      },
+      {
+        "id": "SU-02",
+        "source_fact_ids": [
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-010"
+        ],
+        "canonical_statement": "argument frames and from/as constructions",
+        "disposition": "integrated",
+        "rationale": "Oxford supplies independent frame evidence for direct objects, from complements, and as complements."
+      },
+      {
+        "id": "SU-03",
+        "source_fact_ids": [
+          "F-011",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-015"
+        ],
+        "canonical_statement": "general, specialist, register, and related-form coverage",
+        "disposition": "integrated",
+        "rationale": "Collins integrates general, physiological, mathematical, usage-note, and derived-form evidence."
+      },
+      {
+        "id": "SU-04",
+        "source_fact_ids": [
+          "F-016",
+          "F-017",
+          "F-018"
+        ],
+        "canonical_statement": "mathematical elimination procedure",
+        "disposition": "integrated",
+        "rationale": "Cuemath supplies specialist evidence for coefficient matching, addition/subtraction, and the subsequent solve step."
+      },
+      {
+        "id": "SU-05",
+        "source_fact_ids": [
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-022"
+        ],
+        "canonical_statement": "historical origin and semantic chronology",
+        "disposition": "integrated",
+        "rationale": "Etymonline supports the 1560s origin, Latin construction, and later exclusion and physiology senses."
+      },
+      {
+        "id": "SU-06",
+        "source_fact_ids": [
+          "F-023",
+          "F-024"
+        ],
+        "canonical_statement": "pronunciation and inflectional pronunciation",
+        "disposition": "integrated",
+        "rationale": "Cambridge supplies pronunciation evidence for the headword and the -ed form."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "CL-01",
+        "subject_form": "eliminate",
+        "claim_type": "lexical_inventory",
+        "statement": "general lexical and specialist senses に関する SRC-01 の原子事実は、本文の対応箇所に過剰拡張なく適用できる。",
+        "union_ids": [
+          "SU-01"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001",
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:002",
+          "sense_boundary:003",
+          "definition:003",
+          "usage_note:003",
+          "sense_boundary:004",
+          "definition:004",
+          "usage_note:004",
+          "sense_boundary:005",
+          "definition:005",
+          "usage_note:005",
+          "sense_boundary:006",
+          "definition:006",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "F-001 は SU-01 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "F-002 は SU-01 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "F-003 は SU-01 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "F-004 は SU-01 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "F-005 は SU-01 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "F-006 は SU-01 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          }
+        ]
+      },
+      {
+        "id": "CL-02",
+        "subject_form": "eliminate",
+        "claim_type": "lexical_inventory",
+        "statement": "argument frames and from/as constructions に関する SRC-02 の原子事実は、本文の対応箇所に過剰拡張なく適用できる。",
+        "union_ids": [
+          "SU-02"
+        ],
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "F-007 は SU-02 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "F-008 は SU-02 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "F-009 は SU-02 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "F-010 は SU-02 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          }
+        ]
+      },
+      {
+        "id": "CL-03",
+        "subject_form": "eliminate",
+        "claim_type": "lexical_inventory",
+        "statement": "general, specialist, register, and related-form coverage に関する SRC-03 の原子事実は、本文の対応箇所に過剰拡張なく適用できる。",
+        "union_ids": [
+          "SU-03"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001",
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:002",
+          "sense_boundary:003",
+          "definition:003",
+          "usage_note:003",
+          "sense_boundary:004",
+          "definition:004",
+          "usage_note:004",
+          "sense_boundary:005",
+          "definition:005",
+          "usage_note:005",
+          "sense_boundary:006",
+          "definition:006",
+          "usage_note:006",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "F-011 は SU-03 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "F-012 は SU-03 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "F-013 は SU-03 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "F-014 は SU-03 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "F-015 は SU-03 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          }
+        ]
+      },
+      {
+        "id": "CL-04",
+        "subject_form": "eliminate",
+        "claim_type": "mathematical_use",
+        "statement": "mathematical elimination procedure に関する SRC-04 の原子事実は、本文の対応箇所に過剰拡張なく適用できる。",
+        "union_ids": [
+          "SU-04"
+        ],
+        "article_target_ids": [
+          "definition:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "definition:002",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "usage_note:002",
+          "definition:003",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "usage_note:003",
+          "definition:004",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "usage_note:004",
+          "definition:005",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "usage_note:005",
+          "definition:006",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "collocation:024",
+          "collocation:025",
+          "collocation:026",
+          "collocation:027",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "F-016 は SU-04 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "F-017 は SU-04 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "F-018 は SU-04 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          }
+        ]
+      },
+      {
+        "id": "CL-05",
+        "subject_form": "eliminate",
+        "claim_type": "etymology",
+        "statement": "historical origin and semantic chronology に関する SRC-05 の原子事実は、本文の対応箇所に過剰拡張なく適用できる。",
+        "union_ids": [
+          "SU-05"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004",
+          "core_image:005",
+          "core_image:006",
+          "core_image:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "F-019 は SU-05 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "F-020 は SU-05 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "F-021 は SU-05 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "F-022 は SU-05 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          }
+        ]
+      },
+      {
+        "id": "CL-06",
+        "subject_form": "eliminate",
+        "claim_type": "pronunciation",
+        "statement": "pronunciation and inflectional pronunciation に関する SRC-06 の原子事実は、本文の対応箇所に過剰拡張なく適用できる。",
+        "union_ids": [
+          "SU-06"
+        ],
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "F-023 は SU-06 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "F-024 は SU-06 の主張を直接支え、対応する本文ターゲットに限定して照合した。"
+          }
+        ]
+      }
+    ]
+  }
+}
