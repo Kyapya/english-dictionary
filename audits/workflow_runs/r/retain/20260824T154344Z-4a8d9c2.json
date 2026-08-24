@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
-  "stage": "final_review_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-24T15:43:44Z",
   "deadline_at": "2026-08-24T16:43:44Z",
   "pre_draft_deadline_at": "2026-08-24T16:03:44Z",
-  "last_heartbeat_at": "2026-08-24T16:10:00Z",
+  "last_heartbeat_at": "2026-08-24T16:11:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T15:44:10Z",
@@ -69,6 +69,11 @@
       "stage": "final_review_complete",
       "recorded_at": "2026-08-24T16:10:00Z",
       "notes": "final reconciliation completed; checked entry committed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T16:11:00Z",
+      "notes": "retain revision workflow completed"
     }
   ],
   "stop_reason": "",
