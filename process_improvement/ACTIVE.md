@@ -15,7 +15,7 @@
 
 ## PI-0003 外部資料から先に監査候補を作る（試行中）
 
-- 適用工程: normal_review, final_review, validation
-- 規則: 新規・変更監査では prompts/source_first_audit_v2.md を適用する。外部資料から先に候補を作る原則、派生形の原子化、claim-centric根拠、最終source union直接照合を維持しつつ、standard/extendedの固定上限、6 coverage軸の閉包、機械スキャフォールド、最大2回の最終審査、安全停止を必須にする。
+- 適用工程: normal_review, final_review, validation, generation, planning
+- 規則: 新規・変更作業では、外部調査前に scripts/entry_workflow_guard.py でremote開始checkpointを確定し、全体時間、draft保存時間、検索query、候補page、heartbeatを実測する。あわせて外部資料から先に候補を作る原則、claim-centric根拠、最終source union直接照合と prompts/source_first_audit_v2.md の資料・fact・round上限、6 coverage軸、最大2回の最終審査を適用し、いずれかのbudget到達時は回収可能な成果物と未解決事項をpushして安全停止する。
 - 例外・非対象: 過去監査を内容変更せず参照するだけの場合は即時再生成しない。ただし記事またはcanonical auditを変更する次cycleからsource-first gateを適用する。
 - 効果確認: source-first inventoryとclaim-centric照合を外部化しCIで必須化すれば、本文とレビューが同じ候補集合を共有して見落とす事故と、根拠の形骸化を減らせる。

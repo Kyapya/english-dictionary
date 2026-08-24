@@ -49,12 +49,20 @@ jobs:
       - name: Validate project improvement knowledge
         run: python scripts/process_improvement.py validate
 
+      - name: Validate bounded entry workflow runs
+        if: github.event_name != 'pull_request'
+        run: python scripts/entry_workflow_guard.py validate --merge-ready
+
       - name: Validate changed independent content audits
         if: github.event_name == 'pull_request'
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
+          python scripts/entry_workflow_guard.py validate-changed \
+            --base "$BASE_SHA" \
+            --head "$HEAD_SHA" \
+            --merge-ready
           python scripts/content_audit.py validate-changed \
             --base "$BASE_SHA" \
             --head "$HEAD_SHA"

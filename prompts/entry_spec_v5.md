@@ -4,6 +4,14 @@
 
 Codexは新規記事の作成または既存記事の再作成を始める前に、このファイルだけを最初から最後まで読むこと。旧版仕様は履歴参照用であり、現行記事の生成時には読まない。このファイルは旧版の有効な品質・内容・監査・書式要件をすべて統合している。
 
+## 実行preflightと有限budget
+
+この仕様を読む前の調整役preflightで、専用remote branchと `audits/workflow_runs/` のrun JSONが作成・pushされ、`scripts/entry_workflow_guard.py confirm-remote` が終了コード0になっていなければ、外部資料の検索、本文の意味判断、サブエージェント起動を始めない。
+
+通常はstandard profileを使い、開始から全工程60分、draft保存20分、検索query 12件、候補page 18件、heartbeat間隔10分を上限とする。多義性または専門領域の広さについて具体的理由を記録した場合だけextendedを使え、開始から全工程90分、draft保存30分、検索query 18件、候補page 26件を上限とする。個別上限を引き上げてはならない。
+
+採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。各batchの前後と、作業中少なくとも10分ごとに `heartbeat` を実行する。終了コード2またはbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。
+
 ChatGPT固有の会話分類、チャットの分割応答、直前応答の参照、Notionへの外部書き込みは記事生成そのものには適用しない。リポジトリでは、長さにかかわらず `entries/` の一つのMarkdownファイルへ完成版を直接保存する。文書品質・内容・順序・固定行数・改行規則を「リポジトリ向けだから」という理由で弱めてはならない。
 
 ---
@@ -463,9 +471,11 @@ ChatGPT固有の会話分類、チャットの分割応答、直前応答の参�
 - 主要構文を削って類義語・反意語を残してはならない。
 - 一律の文字数に合わせず、必要な説明全体を1つの完成版として保存する。
 
-## 初稿完成前の必須監査（出力しない）
+## draft checkpoint後・通常チェック前の必須監査（出力しない）
 
-初稿を保存する前に、次を一項目ずつ確認する。
+生成前棚卸しの骨格と主要語義・主要構文の配置先が決まった時点で、次の監査が未完了でも、まず記事を `status: draft`、`checked: false` として保存する。standardでは開始20分以内、extendedでは30分以内に `draft_saved` checkpointを記録し、記事、run JSON、queueのdraft状態をcommit・pushする。draftは完成記事ではなく、通常チェック前の回収可能な途中成果物であり、PR作成やchecked化の根拠にしない。
+
+draft checkpoint後、通常チェックへ進む前に、次を一項目ずつ確認する。
 
 1. 頻度順の主要品詞・主要語義。
 2. 動詞の全主要項構造。
@@ -484,7 +494,7 @@ ChatGPT固有の会話分類、チャットの分割応答、直前応答の参�
 15. 原則件数を確認しつつ、主要項目の不足、自由結合、同義反復、件数合わせによる水増しがないこと。
 16. 各定義の含意・話者評価について、必須条件か傾向・含みか、適用範囲、程度差、否定・比較・主要フレームによる反例・打ち消し可能性を確認する。
 
-一つでも主要項目の収録先が説明できない場合は、初稿を完成扱いにしない。
+一つでも主要項目の収録先が説明できない場合は、draftを完成扱いにしない。残りbudget内で閉じられなければ `needs_review`、checked false、未解決事項付きで安全停止し、同じ依頼内で探索を継続しない。
 
 ## リポジトリへの保存と独立チェック
 
@@ -503,5 +513,6 @@ ChatGPT固有の会話分類、チャットの分割応答、直前応答の参�
 - 最終審査が `PASS` の場合だけ、調整役が判定を変更せずfront matterとqueueをstatus `checked`、checked `true` へ同期する。最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、`scripts/content_audit.py validate`、全単体テストを実行し、すべて成功した場合だけ確定する。失敗または初回 `REJECT` では `needs_review`、checked `false` に戻して1回だけ修正・再審査できる。2回目のREJECTまたは `prompts/source_first_audit_v2.md` のbudget到達時は、同一依頼内で処理を続けず、未解決理由を保存して安全停止する。
 - 通常チェックまたはコールドレビュー後の判定で本文修正を行った場合は修正概要をlogsに記録し、通常チェックで修正不要の場合も「通常チェックでは修正不要」と明記する。
 - `queue/words.csv`、日付付きの `logs/`、必要なエクスポートを更新する。
+- draft保存、source-first inventory完了、通常チェック完了、コールドレビュー完了、blind seal、最終照合完了の各段階で `entry_workflow_guard.py checkpoint` を順番に実行し、成果物とrun JSONをcommit・pushする。最終状態を確定する前にrunを `completed` まで進め、変更entryと同じPRへ完了runを含める。
 
 【現行完全版生成仕様終わり】

@@ -4,6 +4,8 @@
 
 例: `entries/a/apple.md` に対する監査は `audits/a/apple.json`
 
+記事本文やcontent auditがまだ存在しない着手時点の記録は `audits/workflow_runs/` に置く。外部調査前のremote checkpoint、経過時間、検索query・候補page、heartbeat、工程順序、安全停止を `scripts/entry_workflow_guard.py` で管理する。変更entryのPRには、同じPRで変更されたcompleted workflow runが必要である。詳細は `audits/workflow_runs/README.md` を参照する。
+
 ## 作成と検証
 
 ```bash
