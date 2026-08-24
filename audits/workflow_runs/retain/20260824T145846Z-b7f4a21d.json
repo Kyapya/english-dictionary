@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260824T145846Z-b7f4a21d",
+  "headword": "retain",
+  "entry_path": "entries/r/retain.md",
+  "branch": "feat/retain-20260824",
+  "base_sha": "5b28cf6728a1a8ff647d3fd3a2a212f7739d2dad",
+  "profile": "standard",
+  "profile_reason": "new single-word dictionary entry",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "started",
+  "stage": "preflight",
+  "started_at": "2026-08-24T14:58:46Z",
+  "deadline_at": "2026-08-24T15:58:46Z",
+  "pre_draft_deadline_at": "2026-08-24T15:18:46Z",
+  "last_heartbeat_at": "2026-08-24T14:58:46Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": null
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T14:58:46Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
