@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "eliminate-20260824-01",
+  "headword": "eliminate",
+  "entry_path": "entries/e/eliminate.md",
+  "branch": "add/eliminate-v5-20260824",
+  "base_sha": "4f433b1bb77e95f2ceab9e37896c529700aa04cb",
+  "profile": "standard",
+  "profile_reason": "Create eliminate under entry_spec_v5 after runtime-bound workflow fix",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-24T10:48:13Z",
+  "deadline_at": "2026-08-24T11:48:13Z",
+  "pre_draft_deadline_at": "2026-08-24T11:08:13Z",
+  "last_heartbeat_at": "2026-08-24T10:48:13Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T10:48:13Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
