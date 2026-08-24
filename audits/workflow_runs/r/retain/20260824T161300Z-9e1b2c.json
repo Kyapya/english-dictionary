@@ -19,21 +19,26 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "preflight_pushed",
   "started_at": "2026-08-24T16:13:00Z",
   "deadline_at": "2026-08-24T17:13:00Z",
   "pre_draft_deadline_at": "2026-08-24T16:33:00Z",
-  "last_heartbeat_at": "2026-08-24T16:13:00Z",
+  "last_heartbeat_at": "2026-08-24T16:13:10Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T16:13:10Z",
+    "commit_sha": "2a19c39885b5b3183a8c3f31e5748c795a27e9cc"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-08-24T16:13:00Z",
       "notes": "run initialized for chronology-compliant follow-up cycle"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T16:13:10Z",
+      "notes": "follow-up workflow checkpoint committed remotely before cycle-004 drafting"
     }
   ],
   "stop_reason": "",
