@@ -1,0 +1,179 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-eliminate-20260824",
+  "context_id": "final-eliminate-context-free-20260824",
+  "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+  "prompt_sha256": "d5036c680f9f5e978d035d6e93ab21844cc43c763e907abc94d02029c682ec12",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "eliminate",
+      "frame": "eliminate + object",
+      "meaning": "不要な物・問題・状態を取り除き、なくす",
+      "disposition": "included",
+      "rationale": "一般義の中心で、remove より到達点を意識する用法。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-01-A1",
+          "statement": "不要な物・問題・状態を取り除き、なくす という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-01-A2",
+          "statement": "一般義の中心で、remove より到達点を意識する用法。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "eliminate",
+      "frame": "eliminate A from consideration / as B",
+      "meaning": "候補・可能性・原因を検討対象から外す",
+      "disposition": "included",
+      "rationale": "from/as の構文が考慮・推論上の除外義を識別する。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-02-A1",
+          "statement": "候補・可能性・原因を検討対象から外す という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-02-A2",
+          "statement": "from/as の構文が考慮・推論上の除外義を識別する。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "eliminate",
+      "frame": "eliminate a team from a competition",
+      "meaning": "選手・チームを競技から敗退させる",
+      "disposition": "included",
+      "rationale": "対象が大会・ラウンドから外れる結果に焦点がある。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-03-A1",
+          "statement": "選手・チームを競技から敗退させる という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-03-A2",
+          "statement": "対象が大会・ラウンドから外れる結果に焦点がある。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "eliminate",
+      "frame": "eliminate waste from the body",
+      "meaning": "体内の老廃物・物質を体外へ排出する",
+      "disposition": "included",
+      "rationale": "医学・生理学の専門義として一般義と区別する。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-04-A1",
+          "statement": "体内の老廃物・物質を体外へ排出する という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-04-A2",
+          "statement": "医学・生理学の専門義として一般義と区別する。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "eliminate",
+      "frame": "eliminate a variable",
+      "meaning": "連立方程式から未知量を消去する",
+      "disposition": "included",
+      "rationale": "数学では解く全体ではなく、変数を消す一段階を指す。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-05-A1",
+          "statement": "連立方程式から未知量を消去する という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-05-A2",
+          "statement": "数学では解く全体ではなく、変数を消す一段階を指す。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "eliminate",
+      "frame": "eliminate an enemy / target",
+      "meaning": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する",
+      "disposition": "included",
+      "rationale": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-06-A1",
+          "statement": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-06-A2",
+          "statement": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "eliminate",
+      "frame": "eliminate a future event",
+      "meaning": "avoid や prevent の単純な代用",
+      "disposition": "excluded",
+      "rationale": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "NC-07-A1",
+          "statement": "avoid や prevent の単純な代用 という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-07-A2",
+          "statement": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。。",
+          "polarity": "must_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

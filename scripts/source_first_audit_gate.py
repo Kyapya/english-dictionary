@@ -672,7 +672,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
             paths.add(_audit_path(path))
         elif raw.startswith("audits/") and raw.endswith(".json"):
             rel = Path(raw).relative_to("audits")
-            if any(part in {"runs", "history"} for part in rel.parts):
+            if any(part in {"runs", "history", "workflow_runs"} for part in rel.parts):
                 continue
             if path.name in {"escaped_defect_taxonomy.json", "review_invalidations.json"}:
                 continue
