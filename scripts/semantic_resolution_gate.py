@@ -1012,7 +1012,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
             continue
         if raw_path.startswith("audits/") and raw_path.endswith(".json"):
             relative = Path(raw_path).relative_to("audits")
-            if any(part in {"runs", "history"} for part in relative.parts):
+            if any(part in {"runs", "history", "workflow_runs"} for part in relative.parts):
                 continue
             if Path(raw_path).name in {
                 "escaped_defect_taxonomy.json",
