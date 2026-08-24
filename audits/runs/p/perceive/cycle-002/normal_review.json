@@ -1,0 +1,1885 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-perceive-20260825-cycle002",
+  "context_id": "isolated-perceive-20260825-cycle002",
+  "input_body_sha256": "928b13195c18c30dbed0950691abb587637371b00584ed439a5e568fc3c1b8e5",
+  "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "perceive",
+      "frame": "perceive O / perceive O doing",
+      "meaning": "感覚で対象を知覚する",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "usage_note:001",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "antonym:001",
+        "antonym:002",
+        "antonym:003"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-01-1",
+        "EL-N-NC-01-2"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "perceive",
+      "frame": "perceive that / perceive O",
+      "meaning": "事実・状況を認識する",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "usage_note:002",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "antonym:004",
+        "antonym:005",
+        "antonym:006"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-02-1",
+        "EL-N-NC-02-2"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "perceive",
+      "frame": "perceive the significance / perceive how...",
+      "meaning": "意味・構造・含意を理解する",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "frequency:003",
+        "register:003",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "usage_note:003",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012",
+        "antonym:007",
+        "antonym:008",
+        "antonym:009"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-03-1",
+        "EL-N-NC-03-2"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "perceive",
+      "frame": "perceive A as B / perceive A to be B",
+      "meaning": "対象をあるものとして評価する",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "frequency:004",
+        "register:004",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "usage_note:004",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "synonym:013",
+        "synonym:014",
+        "synonym:015",
+        "synonym:016"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-04-1",
+        "EL-N-NC-04-2"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "perceive",
+      "frame": "be perceived as B / perceived + noun",
+      "meaning": "認識・評価された状態を表す",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "disposition": "included",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "frequency:005",
+        "register:005",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "usage_note:005",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029",
+        "collocation:030",
+        "synonym:017",
+        "synonym:018",
+        "synonym:019",
+        "synonym:020"
+      ],
+      "evidence_link_ids": [
+        "EL-N-NC-05-1",
+        "EL-N-NC-05-2"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-pronunciation:001-1",
+        "EL-T-pronunciation:001-2"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-pronunciation:002-1",
+        "EL-T-pronunciation:002-2"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-pronunciation:003-1",
+        "EL-T-pronunciation:003-2"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-etymology:001-1",
+        "EL-T-etymology:001-2"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-etymology:002-1",
+        "EL-T-etymology:002-2"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:001-1",
+        "EL-T-word_formation:001-2"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:002-1",
+        "EL-T-word_formation:002-2"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:003-1",
+        "EL-T-word_formation:003-2"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:004-1",
+        "EL-T-word_formation:004-2"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-core_image:001-1",
+        "EL-T-core_image:001-2"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-core_image:002-1",
+        "EL-T-core_image:002-2"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-core_image:003-1",
+        "EL-T-core_image:003-2"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-core_image:004-1",
+        "EL-T-core_image:004-2"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-core_image:005-1",
+        "EL-T-core_image:005-2"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-core_image:006-1",
+        "EL-T-core_image:006-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:001-1",
+        "EL-T-sense_boundary:001-2"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-definition:001-1",
+        "EL-T-definition:001-2"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-frequency:001-1",
+        "EL-T-frequency:001-2"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-register:001-1",
+        "EL-T-register:001-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:001-1",
+        "EL-T-grammar_pattern:001-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:002-1",
+        "EL-T-grammar_pattern:002-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:003-1",
+        "EL-T-grammar_pattern:003-2"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:001-1",
+        "EL-T-usage_note:001-2"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:001-1",
+        "EL-T-collocation:001-2"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:002-1",
+        "EL-T-collocation:002-2"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:003-1",
+        "EL-T-collocation:003-2"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:004-1",
+        "EL-T-collocation:004-2"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:005-1",
+        "EL-T-collocation:005-2"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:006-1",
+        "EL-T-collocation:006-2"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:001-1",
+        "EL-T-synonym:001-2"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:002-1",
+        "EL-T-synonym:002-2"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:003-1",
+        "EL-T-synonym:003-2"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:004-1",
+        "EL-T-synonym:004-2"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:001-1",
+        "EL-T-antonym:001-2"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:002-1",
+        "EL-T-antonym:002-2"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:003-1",
+        "EL-T-antonym:003-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:002-1",
+        "EL-T-sense_boundary:002-2"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-definition:002-1",
+        "EL-T-definition:002-2"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-frequency:002-1",
+        "EL-T-frequency:002-2"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-register:002-1",
+        "EL-T-register:002-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:004-1",
+        "EL-T-grammar_pattern:004-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:005-1",
+        "EL-T-grammar_pattern:005-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:006-1",
+        "EL-T-grammar_pattern:006-2"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:002-1",
+        "EL-T-usage_note:002-2"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:007-1",
+        "EL-T-collocation:007-2"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:008-1",
+        "EL-T-collocation:008-2"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:009-1",
+        "EL-T-collocation:009-2"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:010-1",
+        "EL-T-collocation:010-2"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:011-1",
+        "EL-T-collocation:011-2"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:012-1",
+        "EL-T-collocation:012-2"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:005-1",
+        "EL-T-synonym:005-2"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:006-1",
+        "EL-T-synonym:006-2"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:007-1",
+        "EL-T-synonym:007-2"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:008-1",
+        "EL-T-synonym:008-2"
+      ]
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:004-1",
+        "EL-T-antonym:004-2"
+      ]
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:005-1",
+        "EL-T-antonym:005-2"
+      ]
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:006-1",
+        "EL-T-antonym:006-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:003-1",
+        "EL-T-sense_boundary:003-2"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-definition:003-1",
+        "EL-T-definition:003-2"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-frequency:003-1",
+        "EL-T-frequency:003-2"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-register:003-1",
+        "EL-T-register:003-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:007-1",
+        "EL-T-grammar_pattern:007-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:008-1",
+        "EL-T-grammar_pattern:008-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:009-1",
+        "EL-T-grammar_pattern:009-2"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:003-1",
+        "EL-T-usage_note:003-2"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:013-1",
+        "EL-T-collocation:013-2"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:014-1",
+        "EL-T-collocation:014-2"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:015-1",
+        "EL-T-collocation:015-2"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:016-1",
+        "EL-T-collocation:016-2"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:017-1",
+        "EL-T-collocation:017-2"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:018-1",
+        "EL-T-collocation:018-2"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:009-1",
+        "EL-T-synonym:009-2"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:010-1",
+        "EL-T-synonym:010-2"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:011-1",
+        "EL-T-synonym:011-2"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:012-1",
+        "EL-T-synonym:012-2"
+      ]
+    },
+    {
+      "id": "antonym:007",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:007-1",
+        "EL-T-antonym:007-2"
+      ]
+    },
+    {
+      "id": "antonym:008",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:008-1",
+        "EL-T-antonym:008-2"
+      ]
+    },
+    {
+      "id": "antonym:009",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-antonym:009-1",
+        "EL-T-antonym:009-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:004-1",
+        "EL-T-sense_boundary:004-2"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-definition:004-1",
+        "EL-T-definition:004-2"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-frequency:004-1",
+        "EL-T-frequency:004-2"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-register:004-1",
+        "EL-T-register:004-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:010-1",
+        "EL-T-grammar_pattern:010-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:011-1",
+        "EL-T-grammar_pattern:011-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:012-1",
+        "EL-T-grammar_pattern:012-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:013-1",
+        "EL-T-grammar_pattern:013-2"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:004-1",
+        "EL-T-usage_note:004-2"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:019-1",
+        "EL-T-collocation:019-2"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:020-1",
+        "EL-T-collocation:020-2"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:021-1",
+        "EL-T-collocation:021-2"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:022-1",
+        "EL-T-collocation:022-2"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:023-1",
+        "EL-T-collocation:023-2"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:024-1",
+        "EL-T-collocation:024-2"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:013-1",
+        "EL-T-synonym:013-2"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:014-1",
+        "EL-T-synonym:014-2"
+      ]
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:015-1",
+        "EL-T-synonym:015-2"
+      ]
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:016-1",
+        "EL-T-synonym:016-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:005-1",
+        "EL-T-sense_boundary:005-2"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-definition:005-1",
+        "EL-T-definition:005-2"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-frequency:005-1",
+        "EL-T-frequency:005-2"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-register:005-1",
+        "EL-T-register:005-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:014-1",
+        "EL-T-grammar_pattern:014-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:015-1",
+        "EL-T-grammar_pattern:015-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:016-1",
+        "EL-T-grammar_pattern:016-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:017-1",
+        "EL-T-grammar_pattern:017-2"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:005-1",
+        "EL-T-usage_note:005-2"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:025-1",
+        "EL-T-collocation:025-2"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:026-1",
+        "EL-T-collocation:026-2"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:027-1",
+        "EL-T-collocation:027-2"
+      ]
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:028-1",
+        "EL-T-collocation:028-2"
+      ]
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:029-1",
+        "EL-T-collocation:029-2"
+      ]
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-collocation:030-1",
+        "EL-T-collocation:030-2"
+      ]
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:017-1",
+        "EL-T-synonym:017-2"
+      ]
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:018-1",
+        "EL-T-synonym:018-2"
+      ]
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:019-1",
+        "EL-T-synonym:019-2"
+      ]
+    },
+    {
+      "id": "synonym:020",
+      "status": "pass",
+      "notes": "Checked against the source inventory and article wording.",
+      "evidence_link_ids": [
+        "EL-T-synonym:020-1",
+        "EL-T-synonym:020-2"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair:001-1",
+        "EL-R-risk_sense_pair:001-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair:002-1",
+        "EL-R-risk_sense_pair:002-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair:003-1",
+        "EL-R-risk_sense_pair:003-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair:004-1",
+        "EL-R-risk_sense_pair:004-2"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:001-1",
+        "EL-R-example_translation:001-2"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:002-1",
+        "EL-R-example_translation:002-2"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:003-1",
+        "EL-R-example_translation:003-2"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:004-1",
+        "EL-R-example_translation:004-2"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:005-1",
+        "EL-R-example_translation:005-2"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:006-1",
+        "EL-R-example_translation:006-2"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:007-1",
+        "EL-R-example_translation:007-2"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:008-1",
+        "EL-R-example_translation:008-2"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:009-1",
+        "EL-R-example_translation:009-2"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:010-1",
+        "EL-R-example_translation:010-2"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:011-1",
+        "EL-R-example_translation:011-2"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:012-1",
+        "EL-R-example_translation:012-2"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:013-1",
+        "EL-R-example_translation:013-2"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:014-1",
+        "EL-R-example_translation:014-2"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:015-1",
+        "EL-R-example_translation:015-2"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:016-1",
+        "EL-R-example_translation:016-2"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:017-1",
+        "EL-R-example_translation:017-2"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:018-1",
+        "EL-R-example_translation:018-2"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:019-1",
+        "EL-R-example_translation:019-2"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:020-1",
+        "EL-R-example_translation:020-2"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:021-1",
+        "EL-R-example_translation:021-2"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:022-1",
+        "EL-R-example_translation:022-2"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:023-1",
+        "EL-R-example_translation:023-2"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:024-1",
+        "EL-R-example_translation:024-2"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:025-1",
+        "EL-R-example_translation:025-2"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:026-1",
+        "EL-R-example_translation:026-2"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:027-1",
+        "EL-R-example_translation:027-2"
+      ]
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:028-1",
+        "EL-R-example_translation:028-2"
+      ]
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:029-1",
+        "EL-R-example_translation:029-2"
+      ]
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:030-1",
+        "EL-R-example_translation:030-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:001-1",
+        "EL-R-sense_definition_consistency:001-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:001-1",
+        "EL-R-definition_usage_consistency:001-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:001-1",
+        "EL-R-definition_lexical_relation_consistency:001-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:001-1",
+        "EL-R-pattern_example_coverage:001-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:002-1",
+        "EL-R-pattern_example_coverage:002-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:003-1",
+        "EL-R-pattern_example_coverage:003-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:002-1",
+        "EL-R-sense_definition_consistency:002-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:002-1",
+        "EL-R-definition_usage_consistency:002-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:002-1",
+        "EL-R-definition_lexical_relation_consistency:002-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:004-1",
+        "EL-R-pattern_example_coverage:004-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:005-1",
+        "EL-R-pattern_example_coverage:005-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:006-1",
+        "EL-R-pattern_example_coverage:006-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:003-1",
+        "EL-R-sense_definition_consistency:003-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:003-1",
+        "EL-R-definition_usage_consistency:003-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:003-1",
+        "EL-R-definition_lexical_relation_consistency:003-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:007-1",
+        "EL-R-pattern_example_coverage:007-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:008-1",
+        "EL-R-pattern_example_coverage:008-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:009-1",
+        "EL-R-pattern_example_coverage:009-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:004-1",
+        "EL-R-sense_definition_consistency:004-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:004-1",
+        "EL-R-definition_usage_consistency:004-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:004-1",
+        "EL-R-definition_lexical_relation_consistency:004-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:010-1",
+        "EL-R-pattern_example_coverage:010-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:011-1",
+        "EL-R-pattern_example_coverage:011-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:012-1",
+        "EL-R-pattern_example_coverage:012-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:013-1",
+        "EL-R-pattern_example_coverage:013-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:005-1",
+        "EL-R-sense_definition_consistency:005-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:005-1",
+        "EL-R-definition_usage_consistency:005-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:005-1",
+        "EL-R-definition_lexical_relation_consistency:005-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:014-1",
+        "EL-R-pattern_example_coverage:014-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:015-1",
+        "EL-R-pattern_example_coverage:015-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:016-1",
+        "EL-R-pattern_example_coverage:016-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:017-1",
+        "EL-R-pattern_example_coverage:017-2"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-core_inventory_consistency:001-1",
+        "EL-R-core_inventory_consistency:001-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:001-1",
+        "EL-R-core_sense_mapping:001-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:002-1",
+        "EL-R-core_sense_mapping:002-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:003-1",
+        "EL-R-core_sense_mapping:003-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:004-1",
+        "EL-R-core_sense_mapping:004-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:005-1",
+        "EL-R-core_sense_mapping:005-2"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Checked for internal consistency and source-supported scope.",
+      "evidence_link_ids": [
+        "EL-R-article_learning_risk:001-1",
+        "EL-R-article_learning_risk:001-2"
+      ]
+    }
+  ]
+}

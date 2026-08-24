@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260824T165506Z-3f0c9a1b",
+  "headword": "perceive",
+  "entry_path": "entries/p/perceive.md",
+  "branch": "add/perceive-v5-20260825",
+  "base_sha": "7a4af9da889c2268d99a9f3d9e6322ce8d50687d",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 11,
+    "candidate_pages": 17
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-24T16:55:06Z",
+  "deadline_at": "2026-08-24T17:55:06Z",
+  "pre_draft_deadline_at": "2026-08-24T17:15:06Z",
+  "last_heartbeat_at": "2026-08-24T17:04:30Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T16:55:40Z",
+    "commit_sha": "6035bf2d64ad3c505143a7a4f423a2a18c9ede0c"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T16:55:06Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T16:55:40Z",
+      "notes": "start manifest is present on the dedicated remote branch"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T16:57:00Z",
+      "notes": "entry and queue draft are present on the dedicated remote branch"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T16:57:30Z",
+      "notes": "source-first inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T16:59:00Z",
+      "notes": "normal review externalized target, relation, and candidate decisions"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T17:00:30Z",
+      "notes": "context-free cold review found no problem candidates"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T17:01:30Z",
+      "notes": "blind final inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T17:04:00Z",
+      "notes": "final blind-seal reconciliation passed target, relation, candidate, evidence, and source inventory checks"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T17:04:30Z",
+      "notes": "entry, audit, queue, and workflow run are complete on the dedicated branch"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
