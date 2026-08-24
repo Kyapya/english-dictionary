@@ -19,11 +19,11 @@
     "candidate_pages": 17
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "blind_seal_complete",
   "started_at": "2026-08-24T16:55:06Z",
   "deadline_at": "2026-08-24T17:55:06Z",
   "pre_draft_deadline_at": "2026-08-24T17:15:06Z",
-  "last_heartbeat_at": "2026-08-24T16:57:00Z",
+  "last_heartbeat_at": "2026-08-24T17:01:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T16:55:40Z",
@@ -44,6 +44,26 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-24T16:57:00Z",
       "notes": "entry and queue draft are present on the dedicated remote branch"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T16:57:30Z",
+      "notes": "source-first inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T16:59:00Z",
+      "notes": "normal review externalized target, relation, and candidate decisions"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T17:00:30Z",
+      "notes": "context-free cold review found no problem candidates"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T17:01:30Z",
+      "notes": "blind final inventory sealed before reconciliation"
     }
   ],
   "stop_reason": "",
