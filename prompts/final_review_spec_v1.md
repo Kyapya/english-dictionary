@@ -208,6 +208,8 @@ semantic resolutionも同じ本文ハッシュへ結び付ける。本文を再�
 13. `blockers` が空である。
 14. `python scripts/semantic_resolution_gate.py validate-entries <entry>` が終了コード0である。
 
+`fail` および `REJECT` の根拠は、事実・語法・発音の誤り、例文または訳の誤り、主要語義・構文の欠落または過剰収録、根拠と本文の矛盾、仕様の必須項目違反、未判定・未解決項目に限る。本文と矛盾しない分類粒度・棚卸し構成の差、より良い表現の提案、任意の改善余地は、該当項目を `pass` としたうえで `notes` に非blockingとして記録し、それだけを理由に `fail` や `REJECT` にしない。非blockingのnotesは修正義務を生まず、通常チェック側は次回の内容変更時に任意で反映する。
+
 一つでも満たさない場合は `REJECT` とし、`blockers` に対象ID、問題、必要な修正を記録する。条件付き合格は使用しない。`REJECT` は監査失敗や途中状態ではなく、最終審査が完了して問題を正しく検出した正常な成果である。監査ファイルを保持し、記事をstatus `needs_review`、checked `false` にして修正工程へ戻す。
 
 `PASS` 後、調整役は判定内容を変更せず、front matterとqueueをstatus `checked`、checked `true` へ機械的に同期する。通常チェック側が自ら合格を宣言してこの状態変更を行ってはならない。最終状態で全形式検証、repository検証、単体テスト、content audit検証、semantic resolution hard gateを実行し、すべて成功した場合だけ確定する。
