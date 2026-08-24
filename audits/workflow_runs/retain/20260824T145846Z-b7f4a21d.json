@@ -19,7 +19,7 @@
     "candidate_pages": 6
   },
   "status": "completed",
-  "stage": "audit_completed",
+  "stage": "completed",
   "started_at": "2026-08-24T14:58:46Z",
   "deadline_at": "2026-08-24T15:58:46Z",
   "pre_draft_deadline_at": "2026-08-24T15:18:46Z",
@@ -41,14 +41,39 @@
       "notes": "remote start checkpoint verified before research"
     },
     {
-      "stage": "audit_completed",
-      "recorded_at": "2026-08-24T15:24:57Z",
-      "notes": "source-first inventory, normal/cold/blind/final reviews, semantic gate, and audit artifacts completed"
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T15:04:00Z",
+      "notes": "v5 draft saved after bounded source inventory preparation"
     },
     {
-      "stage": "handoff_ready",
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T15:06:00Z",
+      "notes": "six-source, 24-fact source-first inventory completed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T15:09:00Z",
+      "notes": "123 targets and 72 relations passed normal review"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T15:10:30Z",
+      "notes": "context-free cold review recorded 問題候補なし"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T15:24:00Z",
+      "notes": "blind inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T15:24:10Z",
+      "notes": "final reconciliation passed with no blockers"
+    },
+    {
+      "stage": "completed",
       "recorded_at": "2026-08-24T15:24:57Z",
-      "notes": "entry and queue checked; branch ready for pull request and Actions"
+      "notes": "workflow artifacts complete; PR handoff ready"
     }
   ],
   "stop_reason": "",
