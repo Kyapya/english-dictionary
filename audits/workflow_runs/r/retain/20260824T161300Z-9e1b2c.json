@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "source_inventory_complete",
   "started_at": "2026-08-24T16:13:00Z",
   "deadline_at": "2026-08-24T17:13:00Z",
   "pre_draft_deadline_at": "2026-08-24T16:33:00Z",
-  "last_heartbeat_at": "2026-08-24T16:14:10Z",
+  "last_heartbeat_at": "2026-08-24T16:14:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T16:13:10Z",
@@ -44,6 +44,11 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-24T16:14:10Z",
       "notes": "cycle-004 review body and queue state committed"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T16:14:30Z",
+      "notes": "source inventory completed before article comparison"
     }
   ],
   "stop_reason": "",
