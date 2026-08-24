@@ -43,7 +43,7 @@ class PromptContractTests(unittest.TestCase):
             "文脈を継承しない独立実行",
             "prompts/cold_review_prompt_v1.md",
             "学習者が説明から誤った一般化",
-            "採用修正がある場合の全文再検査",
+            "採用修正がある場合の再検査（severity区分）",
             "通常チェック側の引き渡し条件",
             "根拠台帳",
             "audits/**/*.json",
