@@ -18,12 +18,12 @@
     "research_queries": 10,
     "candidate_pages": 18
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-24T10:48:13Z",
   "deadline_at": "2026-08-24T11:48:13Z",
   "pre_draft_deadline_at": "2026-08-24T11:08:13Z",
-  "last_heartbeat_at": "2026-08-24T11:10:59Z",
+  "last_heartbeat_at": "2026-08-24T11:12:39Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T10:49:53Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-24T11:10:59Z",
       "notes": "context-free final inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T11:11:27Z",
+      "notes": "final adjudication passed; target, relation, candidate, evidence, and source-union checks reconciled"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T11:12:39Z",
+      "notes": "all entry, repository, audit, source-first, semantic, improvement, and unit validations passed"
     }
   ],
   "stop_reason": "",
