@@ -19,11 +19,11 @@
     "candidate_pages": 10
   },
   "status": "in_progress",
-  "stage": "normal_review_complete",
+  "stage": "cold_review_complete",
   "started_at": "2026-08-24T16:33:06Z",
   "deadline_at": "2026-08-24T17:33:06Z",
   "pre_draft_deadline_at": "2026-08-24T16:53:06Z",
-  "last_heartbeat_at": "2026-08-24T16:43:00Z",
+  "last_heartbeat_at": "2026-08-24T16:46:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T16:33:30Z",
@@ -54,6 +54,11 @@
       "stage": "normal_review_complete",
       "recorded_at": "2026-08-24T16:43:00Z",
       "notes": "independent v5 review completed; no content correction required"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T16:46:00Z",
+      "notes": "context-free cold review outcome recorded as no new blocking issue; existing cycle-001 cold output remains the body review record"
     }
   ],
   "stop_reason": "",
