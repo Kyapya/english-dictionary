@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 152380)
-Total output lines: 11875
+Warning: truncated output (original token count: 154449)
+Total output lines: 12086
 
 {
   "schema_version": "content_audit_v3",
@@ -37,7 +37,15 @@ Total output lines: 11875
         "run_id": "cold-eliminate-20260824",
         "context_id": "cold-eliminate-context-free-20260824"
       },
-      "final_blind": {},
+      "final_blind": {
+        "path": "audits/runs/e/eliminate/cycle-001/final_blind.json",
+        "sha256": "7a63d30ca163d9f2d4346a83a434647846be44e6b818f434323de3d50c84e823",
+        "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+        "prompt_sha256": "d5036c680f9f5e978d035d6e93ab21844cc43c763e907abc94d02029c682ec12",
+        "run_id": "final-eliminate-20260824",
+        "context_id": "final-eliminate-context-free-20260824",
+        "sealed_output_sha256": "9dbc921f97f1008009ad20df0097984cf0c59a1bad91156fb14ae3bb3114ec78"
+      },
       "final_review": {}
     },
     "escaped_defects": [],
@@ -736,7 +744,139 @@ Total output lines: 11875
       "kind": "grammar_pattern",
       "location": "line:205",
       "section": "＃意味・用法・関連表現",
-      "sense": "3. …132380 tokens truncated…n_example_coverage-005-2"
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "328fd9c7d4c67695102470450964b41831af1e71b00da5ee27adc6a36b2bb5b3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈選手・チーム・競争相手〉`＝〈選手・チーム・競争相手〉を敗退させる"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "kind": "grammar_pattern",
+      "location": "line:205",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "94c26f34606650193d545b24e03481beb440404dea40d671af53d20409bb5774",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈人・チーム〉 from 〈competition/tournament〉`＝〈人・チーム〉を〈競技・大会〉から敗退させる"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "kind": "grammar_pattern",
+      "location": "line:205",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "3973d0c64ebd17269d4b17de733fa8ecca8f5edf746cd51f9b451128fc7e4f45",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`〈選手・チーム〉 be eliminated in 〈round〉`＝〈選手・チーム〉が〈ラウンド〉で敗退する"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "kind": "grammar_pattern",
+      "location": "line:205",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "f718157dcf7cf53ae203dcb99c26bee7f5547e528e9498f5c23823466c949baa",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`〈選手・チーム〉 be eliminated from 〈大会〉`＝〈選手・チーム〉が〈大会〉から敗退する。"
+    },
+    {
+      "id": "collocation:012",
+      "kind": "collocation",
+      "location": "lines:209-212",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "f9e73eef4fb44c33f52e4a5c310e1f27d9e4283037772b6e0a95f6925ef28a37",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate a rival/team\n用途: 競争相手やチームを破って敗退させる。\n例: The underdogs eliminated the top-seeded team.\n訳: 下馬評の低かったチームが第1シードのチームを敗退させた。"
+    },
+    {
+      "id": "collocation:013",
+      "kind": "collocation",
+      "location": "lines:214-217",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "003e5cf88eec0662d7e0b5da4d78c4541dadd4397643e00bfda3fa3c4d7d6639",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate 〈選手・チーム〉 from the competition\n用途: 〈選手・チーム〉を競技から敗退させる。\n例: A late goal eliminated our team from the competition.\n訳: 終盤のゴールで、私たちのチームは大会から敗退した。"
+    },
+    {
+      "id": "collocation:014",
+      "kind": "collocation",
+      "location": "lines:219-222",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "df9ee29fec3aaa94b3e72894908332cb9e9d4c1549db20cffcfe1cfd718cb332",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・be eliminated in the first round\n用途: 1回戦で敗退する。受動態だが、日本語では自然に「1回戦で敗退する」と訳す。\n例: She was eliminated in the first round of the tournament.\n訳: 彼女はその大会の1回戦で敗退した。"
+    },
+    {
+      "id": "collocation:015",
+      "kind": "collocation",
+      "location": "lines:224-227",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "79a9996b8f2523977fc74a19384652725f265637b9c23285b974ea4a919927fe",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・be eliminated from the tournament\n用途: 大会から敗退する。`from` は大会という競技の枠から外れることを示す。\n例: The defending champions were eliminated from the tournament.\n訳: 前回王者はその大会から敗退した。"
+    },
+    {
+      "id": "collocation:016",
+      "kind": "collocation",
+      "location": "lines:229-232",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "8c05141c6ee12833696cc97fca90e75c599c27eb8678b94924c73a729f34f117",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate a title contender\n用途: 優勝候補を敗退させる。\n例: The young boxer eliminated a title contender in the quarterfinals.\n訳: その若いボクサーは準々決勝で優勝候補を敗退させた。"
+    },
+    {
+      "id": "usage_note:003",
+      "kind": "usage_note",
+      "location": "line:234",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "32d9ceafba571741b2e99ec3a7dd4fb9da3ee81fedf3fa1b6ef29f6806e1290c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "競技の文脈で `be eliminated` は通常「敗退する」であり、`be killed` ではない。`eliminate someone` だけでは、競技から外す意味と、語義4の「殺す・抹殺する」意味が文脈によって分かれる。大会・ラウンド・試合を示す `from`、`in`、`by` などがあれば競技義と判断しやすい。`knock out` はスポーツで「敗退させる」の口語的な句動詞で、文字どおりのノックアウトを伴わない競技でも使う。"
+    },
+    {
+      "id": "synonym:008",
+      "kind": "synonym",
+      "location": "lines:238-243",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "81d5b36f44e02a436ed91f2c987809db26a4635a9b64558e8299feda0bb6c273",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・knock out\n定義: 試合・大会で相手を破って敗退させる。\n頻度: 〈8/10〉\n違い: eliminate より口語的で、スポーツ実況や会話に多い。ボクシングでは文字どおりKOする意味もある。\n例: Brazil knocked out its strongest rival.\n訳: ブラジルは最大のライバルを敗退させた。"
+    },
+    {
+      "id": "synonym:009",
+      "kind": "synonym",
+      "location": "lines:245-250",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "f417d88a18b46918dc134e7bc52c8f9ac4fdad4b6a7856304967f82dc6410788",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・defeat\n定義: 試合・戦い・競争で相手に勝つ。\n頻度: 〈9/10〉\n違い: defeat は勝敗そのものを表し、el…130449 tokens truncated…    },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
+        "evidence_link_ids": [
+          "EL-R-pattern_example_coverage-005-1",
+          "EL-R-pattern_example_coverage-005-2"
         ]
       },
       {
@@ -1080,35 +1220,207 @@ Total output lines: 11875
   },
   "final_review": {
     "role": "final_adjudicator",
-    "reviewer_id": "",
+    "reviewer_id": "final-eliminate-20260824",
     "reviewed_at": "",
     "completed": false,
     "execution": {
-      "run_id": "",
-      "context_id": "",
-      "started_at": "",
+      "run_id": "final-eliminate-20260824",
+      "context_id": "final-eliminate-context-free-20260824",
+      "started_at": "2026-08-24T16:40:49+05:30",
       "completed_at": "",
-      "input_body_sha256": "",
-      "prompt_sha256": "",
-      "context_mode": "",
-      "input_artifacts": [],
+      "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+      "prompt_sha256": "d5036c680f9f5e978d035d6e93ab21844cc43c763e907abc94d02029c682ec12",
+      "context_mode": "context_free",
+      "input_artifacts": [
+        "entry_body",
+        "final_review_spec"
+      ],
       "reconciliation_started_at": "",
       "reconciliation_input_artifacts": []
     },
-    "body_sha256": "",
+    "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
     "decision": "pending",
     "blind_review": {
       "seal_version": "blind_seal_v2",
-      "completed": false,
-      "recorded_at": "",
-      "sealed_at": "",
-      "body_sha256": "",
+      "completed": true,
+      "recorded_at": "2026-08-24T16:40:51+05:30",
+      "sealed_at": "2026-08-24T16:40:55+05:30",
+      "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
       "audit_visible": false,
-      "provisional_decision": "pending",
+      "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": ""
+      "output_sha256": "9dbc921f97f1008009ad20df0097984cf0c59a1bad91156fb14ae3bb3114ec78"
     },
-    "independent_candidates": [],
+    "independent_candidates": [
+      {
+        "id": "IC-01",
+        "surface_form": "eliminate",
+        "frame": "eliminate + object",
+        "meaning": "不要な物・問題・状態を取り除き、なくす",
+        "disposition": "included",
+        "rationale": "一般義の中心で、remove より到達点を意識する用法。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-01-A1",
+            "statement": "不要な物・問題・状態を取り除き、なくす という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-01-A2",
+            "statement": "一般義の中心で、remove より到達点を意識する用法。。",
+            "polarity": "must_not_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-02",
+        "surface_form": "eliminate",
+        "frame": "eliminate A from consideration / as B",
+        "meaning": "候補・可能性・原因を検討対象から外す",
+        "disposition": "included",
+        "rationale": "from/as の構文が考慮・推論上の除外義を識別する。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-02-A1",
+            "statement": "候補・可能性・原因を検討対象から外す という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-02-A2",
+            "statement": "from/as の構文が考慮・推論上の除外義を識別する。。",
+            "polarity": "must_not_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-03",
+        "surface_form": "eliminate",
+        "frame": "eliminate a team from a competition",
+        "meaning": "選手・チームを競技から敗退させる",
+        "disposition": "included",
+        "rationale": "対象が大会・ラウンドから外れる結果に焦点がある。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-03-A1",
+            "statement": "選手・チームを競技から敗退させる という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-03-A2",
+            "statement": "対象が大会・ラウンドから外れる結果に焦点がある。。",
+            "polarity": "must_not_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-04",
+        "surface_form": "eliminate",
+        "frame": "eliminate waste from the body",
+        "meaning": "体内の老廃物・物質を体外へ排出する",
+        "disposition": "included",
+        "rationale": "医学・生理学の専門義として一般義と区別する。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-04-A1",
+            "statement": "体内の老廃物・物質を体外へ排出する という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-04-A2",
+            "statement": "医学・生理学の専門義として一般義と区別する。。",
+            "polarity": "must_not_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-05",
+        "surface_form": "eliminate",
+        "frame": "eliminate a variable",
+        "meaning": "連立方程式から未知量を消去する",
+        "disposition": "included",
+        "rationale": "数学では解く全体ではなく、変数を消す一段階を指す。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-05-A1",
+            "statement": "連立方程式から未知量を消去する という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-05-A2",
+            "statement": "数学では解く全体ではなく、変数を消す一段階を指す。。",
+            "polarity": "must_not_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-06",
+        "surface_form": "eliminate",
+        "frame": "eliminate an enemy / target",
+        "meaning": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する",
+        "disposition": "included",
+        "rationale": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-06-A1",
+            "statement": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-06-A2",
+            "statement": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。。",
+            "polarity": "must_not_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-07",
+        "surface_form": "eliminate",
+        "frame": "eliminate a future event",
+        "meaning": "avoid や prevent の単純な代用",
+        "disposition": "excluded",
+        "rationale": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "NC-07-A1",
+            "statement": "avoid や prevent の単純な代用 という意味範囲を保つ。",
+            "polarity": "must_hold",
+            "scope": "article_target_mapping"
+          },
+          {
+            "id": "NC-07-A2",
+            "statement": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。。",
+            "polarity": "must_hold",
+            "scope": "sense_boundary"
+          }
+        ]
+      }
+    ],
     "inventory_comparison": [],
     "blind_finding_results": [],
     "target_results": [],
@@ -1117,7 +1429,38 @@ Total output lines: 11875
     "finding_results": [],
     "evidence_checks": [],
     "blockers": [],
-    "source_inventory_results": []
+    "source_inventory_results": [
+      {
+        "union_id": "SU-01",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-02",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-03",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-04",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-05",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-06",
+        "status": "pending",
+        "notes": ""
+      }
+    ]
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
@@ -1135,7 +1478,7 @@ Total output lines: 11875
       "facts_used": 24,
       "research_rounds_used": 2,
       "post_cold_rechecks_used": 0,
-      "final_attempts_used": 0
+      "final_attempts_used": 1
     },
     "research_status": "complete",
     "stop_reason": "coverage_axes_closed",
