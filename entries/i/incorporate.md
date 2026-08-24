@@ -3,9 +3,9 @@ headword: incorporate
 type: word
 status: checked
 prompt_version: entry_spec_v5
-model: unknown
+model: gpt-5.6-luna-wm
 created_at: 2026-08-22
-updated_at: 2026-08-22
+updated_at: 2026-08-25
 checked: true
 tags: []
 ---
