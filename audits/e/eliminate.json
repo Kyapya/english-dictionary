@@ -1,5 +1,5 @@
-Warning: truncated output (original token count: 154449)
-Total output lines: 12086
+Warning: truncated output (original token count: 214789)
+Total output lines: 18455
 
 {
   "schema_version": "content_audit_v3",
@@ -46,79 +46,86 @@ Total output lines: 12086
         "context_id": "final-eliminate-context-free-20260824",
         "sealed_output_sha256": "9dbc921f97f1008009ad20df0097984cf0c59a1bad91156fb14ae3bb3114ec78"
       },
-      "final_review": {}
+      "final_review": {
+        "path": "audits/runs/e/eliminate/cycle-001/final_review.json",
+        "sha256": "6576bfa4e43dc9685c4df8b9debeb19c3f970594115ab80b98c766e4fe981cd5",
+        "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
+        "prompt_sha256": "d5036c680f9f5e978d035d6e93ab21844cc43c763e907abc94d02029c682ec12",
+        "run_id": "final-eliminate-20260824",
+        "context_id": "final-eliminate-context-free-20260824"
+      }
     },
     "escaped_defects": [],
     "regression_checks": [
       {
         "category": "compound_component_generalization",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "argument_slot_role_mismatch",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "regional_qualification",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "technical_terminology_conventionality",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "sense_boundary_overlap",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "lexical_relation_mislabel",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "example_translation_alignment",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "absolute_scope_counterexample",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "pronunciation_symbol_explanation",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "evidence_claim_mismatch",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "semantic_direction_reversal",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "cross_section_internal_contradiction",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "finding_scope_transfer_loss",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       },
       {
         "category": "raw_adjudication_manifest_divergence",
         "status": "pass",
-        "notes": "本文の該当箇所を独立レビューで確認し、該当欠陥を再現しなかった。"
+        "notes": "独立レビューと最終審査で該当欠陥を確認し、問題なしと判定した。"
       }
     ]
   },
@@ -869,596 +876,1070 @@ Total output lines: 12086
       "text_sha256": "f417d88a18b46918dc134e7bc52c8f9ac4fdad4b6a7856304967f82dc6410788",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "・defeat\n定義: 試合・戦い・競争で相手に勝つ。\n頻度: 〈9/10〉\n違い: defeat は勝敗そのものを表し、el…130449 tokens truncated…    },
-      {
-        "id": "pattern_example_coverage:005",
-        "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-005-1",
-          "EL-R-pattern_example_coverage-005-2"
-        ]
+      "text": "・defeat\n定義: 試合・戦い・競争で相手に勝つ。\n頻度: 〈9/10〉\n違い: defeat は勝敗そのものを表し、eliminate はその結果として相手が競技を続けられなくなる点に焦点がある。\n例: The team defeated its rival 2–1.\n訳: そのチームはライバルを2対1で破った。"
+    },
+    {
+      "id": "synonym:010",
+      "kind": "synonym",
+      "location": "lines:252-257",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【他動詞】競技から敗退させる",
+      "text_sha256": "807fb396b29999dbf9c1b9026570db47ba27fd9bc1d0403d9607c9902b1a0fc7",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・oust\n定義: 競争・選考などで相手を地位や参加枠から追い出す。\n頻度: 〈6/10〉\n違い: eliminate より硬く、現職者を地位から追放する意味にも広がる。\n例: The challenger ousted the champion in the semifinals.\n訳: 挑戦者は準決勝で王者を敗退させた。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "kind": "sense_boundary",
+      "location": "line:259",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "99b82d5e6cd04053e9f4823a20cea13bdcc16ed1fdf5647745f1b1405a34436b",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する"
+    },
+    {
+      "id": "definition:004",
+      "kind": "definition",
+      "location": "line:261",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "d17ddceb41fbcc843975e370ee5eb859753bd3b5c5d28498048419d7431454ed",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "人・敵・標的などを、計画的に殺す、または存在ごと消す。軍事・犯罪・スパイ小説・ゲームなどで、直接 `kill` と言わず冷淡または婉曲に表す用法である。一般の中立的な会話で、人を殺す意味の普通の言い換えとして使う語ではない。"
+    },
+    {
+      "id": "frequency:004",
+      "kind": "frequency",
+      "location": "line:263",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "761f9a3a948cc89e1f66f562c405193254b912fdc1594c65f25046fe26749d2f",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈4/10〉"
+    },
+    {
+      "id": "register:004",
+      "kind": "register",
+      "location": "line:265",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "515590f7a48e1d3cb2142a6aa1a63df333a0beebef4d77b2ff933acb6ae7b779",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "軍事・犯罪・フィクションなどに限定されやすい。比喩的に「脅威を抹消する」と言う場合は語義1の「なくす」に近く、実際に生命を奪う意味と断定しない。"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "kind": "grammar_pattern",
+      "location": "line:267",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "35def9b1224d2d651f34184a815227c1d186c66ca5cea2b39307c296f1b1f27d",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate 〈enemy/target〉`＝〈敵・標的〉を殺す"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "kind": "grammar_pattern",
+      "location": "line:267",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "f5432b8f84fd3749abafed32b484e7dcc63b8480546d5d7d10e57385c280e4e0",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "`〈人〉 be eliminated by 〈攻撃者・組織〉`＝〈人〉が〈攻撃者・組織〉に殺される。対象が脅威・問題・リスクなら、通常は語義1の「取り除く・なくす」である。"
+    },
+    {
+      "id": "collocation:017",
+      "kind": "collocation",
+      "location": "lines:271-274",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "2ca766a761a4596f1743519a042bd640f28ba8c05498e0db2b446f212dea84e1",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate the enemy\n用途: 軍事・戦闘の文脈で敵を殺す、または抹殺する。\n例: The order was to eliminate the enemy commander.\n訳: 命令は敵の司令官を抹殺することだった。"
+    },
+    {
+      "id": "collocation:018",
+      "kind": "collocation",
+      "location": "lines:276-279",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "99b2a2910a54106974b436b25a98992a20530c8762867fc13fc14242d103b9a4",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・eliminate a target\n用途: 軍事・犯罪・スパイものなどで、標的を殺す。\n例: The assassin was hired to eliminate the target.\n訳: その暗殺者は標的を殺すために雇われた。"
+    },
+    {
+      "id": "collocation:019",
+      "kind": "collocation",
+      "location": "lines:281-284",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "b23044f088c3ed034c08a835f2534efd765a8f954353e62d1fb4babad184d638",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・be eliminated by 〈攻撃者・組織〉\n用途: 物語や報道調の文脈で、人が殺されることを婉曲に表す。\n例: The witness was quietly eliminated by the organization.\n訳: その証人は組織によってひそかに抹殺された。"
+    },
+    {
+      "id": "usage_note:004",
+      "kind": "usage_note",
+      "location": "line:286",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "4ae9c6e2adfb14537edbaeca261b7fffde683b3e99bd7b4bf59878177d6d3034",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "`eliminate` の中心は「対象を外へ出して消す」であり、殺人義はその比喩的・婉曲的な拡張である。したがって、実際に殺したことを明確に伝える必要がある一般文では `kill` を使う方が誤解が少ない。`eliminate a threat` は多くの場合「脅威を取り除く」であり、人を殺したとまでは言わない。"
+    },
+    {
+      "id": "synonym:011",
+      "kind": "synonym",
+      "location": "lines:290-295",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "d0b3235aa8ffef2fe145c1bb5acef2806c32f9a1a713f9b246fd47f51d685feb",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・kill\n定義: 人・動物などの命を奪う。\n頻度: 〈10/10〉\n違い: kill は生命を奪った事実を直接表す中立的な基本語で、eliminate は冷淡・婉曲・軍事的な響きを帯びやすい。\n例: The hunter killed the animal quickly.\n訳: そのハンターは動物をすぐに殺した。"
+    },
+    {
+      "id": "synonym:012",
+      "kind": "synonym",
+      "location": "lines:297-302",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "63d735b17c516c54fec658de859edcc94b5e385a84d947f4548dc81b84529eb2",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・assassinate\n定義: 政治家など重要人物を計画的に暗殺する。\n頻度: 〈6/10〉\n違い: eliminate より対象と方法が限定され、政治的・計画的な暗殺を明示する。\n例: The leader was assassinated during the visit.\n訳: その指導者は訪問中に暗殺された。"
+    },
+    {
+      "id": "synonym:013",
+      "kind": "synonym",
+      "location": "lines:304-309",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "91750bfc0f2b6f86d417ce6c51cfdb60067b656d66cf6d95f7a9105fb5827921",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・execute\n定義: 裁判・命令などに基づき、または抵抗できない相手を処刑する。\n頻度: 〈7/10〉\n違い: eliminate は殺害の方法や法的根拠を示さないが、execute は処刑・決められた殺害の含みを持つ。\n例: The prisoner was executed after the trial.\n訳: その囚人は裁判の後に処刑された。"
+    },
+    {
+      "id": "antonym:005",
+      "kind": "antonym",
+      "location": "lines:313-318",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "86d0387e6217373e6ce3565a92ee637cf986bf92382e07e395e255d5600e2bc6",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・spare\n定義: 殺したり罰したりせず、助けて生かしておく。\n頻度: 〈7/10〉\n違い: eliminate が命を奪う方向の婉曲表現になり得るのに対し、spare は危害を加えず生かすことを表す。\n例: The soldiers spared the civilians.\n訳: 兵士たちは民間人を殺さずに助けた。"
+    },
+    {
+      "id": "antonym:006",
+      "kind": "antonym",
+      "location": "lines:320-325",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【他動詞・口語/比喩・軍事】殺す・抹殺する",
+      "text_sha256": "4248eb44da50c32a12bfb53903fb99a5c0ced411627b69908d08ac5c79100666",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・protect\n定義: 人・物を危害・損害から守る。\n頻度: 〈9/10〉\n違い: protect は危害を防いで対象を存続させる行為であり、eliminate の殺害方向とは反対の結果をもたらす。\n例: The guards protected the witness.\n訳: 警備員たちはその証人を守った。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "kind": "sense_boundary",
+      "location": "line:327",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【他動詞・自動詞・生理】体外へ排出する",
+      "text_sha256": "74159a9ecb9d619eced93cebf0e577a9fad418077740d7e3f5ad4eeea6ba8fde",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "5. 【他動詞・自動詞・生理】体外へ排出する"
+    },
+    {
+      "id": "definition:005",
+      "kind": "definition",
+      "location": "line:329",
+      "section": "＃意味・用…184789 tokens truncated…終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:006",
+        "id": "EL-T-grammar_pattern-013-2",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-006-1",
-          "EL-R-pattern_example_coverage-006-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:007",
+        "id": "EL-T-grammar_pattern-014-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-007-1",
-          "EL-R-pattern_example_coverage-007-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "sense_definition_consistency:003",
+        "id": "EL-T-grammar_pattern-014-2",
         "status": "pass",
-        "notes": "sense_definition_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-sense_definition_consistency-003-1",
-          "EL-R-sense_definition_consistency-003-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_usage_consistency:003",
+        "id": "EL-T-grammar_pattern-015-1",
         "status": "pass",
-        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_usage_consistency-003-1",
-          "EL-R-definition_usage_consistency-003-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_lexical_relation_consistency:003",
+        "id": "EL-T-grammar_pattern-015-2",
         "status": "pass",
-        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_lexical_relation_consistency-003-1",
-          "EL-R-definition_lexical_relation_consistency-003-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:008",
+        "id": "EL-T-grammar_pattern-016-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-008-1",
-          "EL-R-pattern_example_coverage-008-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:009",
+        "id": "EL-T-grammar_pattern-016-2",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-009-1",
-          "EL-R-pattern_example_coverage-009-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:010",
+        "id": "EL-T-grammar_pattern-017-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-010-1",
-          "EL-R-pattern_example_coverage-010-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:011",
+        "id": "EL-T-grammar_pattern-017-2",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-011-1",
-          "EL-R-pattern_example_coverage-011-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "sense_definition_consistency:004",
+        "id": "EL-T-grammar_pattern-018-1",
         "status": "pass",
-        "notes": "sense_definition_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-sense_definition_consistency-004-1",
-          "EL-R-sense_definition_consistency-004-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_usage_consistency:004",
+        "id": "EL-T-grammar_pattern-018-2",
         "status": "pass",
-        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_usage_consistency-004-1",
-          "EL-R-definition_usage_consistency-004-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_lexical_relation_consistency:004",
+        "id": "EL-T-grammar_pattern-019-1",
         "status": "pass",
-        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_lexical_relation_consistency-004-1",
-          "EL-R-definition_lexical_relation_consistency-004-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:012",
+        "id": "EL-T-grammar_pattern-019-2",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-012-1",
-          "EL-R-pattern_example_coverage-012-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:013",
+        "id": "EL-T-pronunciation-001-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-013-1",
-          "EL-R-pattern_example_coverage-013-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "sense_definition_consistency:005",
+        "id": "EL-T-pronunciation-001-2",
         "status": "pass",
-        "notes": "sense_definition_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-sense_definition_consistency-005-1",
-          "EL-R-sense_definition_consistency-005-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_usage_consistency:005",
+        "id": "EL-T-register-001-1",
         "status": "pass",
-        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_usage_consistency-005-1",
-          "EL-R-definition_usage_consistency-005-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_lexical_relation_consistency:005",
+        "id": "EL-T-register-001-2",
         "status": "pass",
-        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_lexical_relation_consistency-005-1",
-          "EL-R-definition_lexical_relation_consistency-005-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:014",
+        "id": "EL-T-register-002-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-014-1",
-          "EL-R-pattern_example_coverage-014-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:015",
+        "id": "EL-T-register-002-2",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-015-1",
-          "EL-R-pattern_example_coverage-015-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:016",
+        "id": "EL-T-register-003-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-016-1",
-          "EL-R-pattern_example_coverage-016-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "sense_definition_consistency:006",
+        "id": "EL-T-register-003-2",
         "status": "pass",
-        "notes": "sense_definition_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-sense_definition_consistency-006-1",
-          "EL-R-sense_definition_consistency-006-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_usage_consistency:006",
+        "id": "EL-T-register-004-1",
         "status": "pass",
-        "notes": "definition_usage_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_usage_consistency-006-1",
-          "EL-R-definition_usage_consistency-006-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "definition_lexical_relation_consistency:006",
+        "id": "EL-T-register-004-2",
         "status": "pass",
-        "notes": "definition_lexical_relation_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-definition_lexical_relation_consistency-006-1",
-          "EL-R-definition_lexical_relation_consistency-006-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:017",
+        "id": "EL-T-register-005-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-017-1",
-          "EL-R-pattern_example_coverage-017-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:018",
+        "id": "EL-T-register-005-2",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-018-1",
-          "EL-R-pattern_example_coverage-018-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "pattern_example_coverage:019",
+        "id": "EL-T-register-006-1",
         "status": "pass",
-        "notes": "pattern_example_coverage の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-pattern_example_coverage-019-1",
-          "EL-R-pattern_example_coverage-019-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_inventory_consistency:001",
+        "id": "EL-T-register-006-2",
         "status": "pass",
-        "notes": "core_inventory_consistency の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_inventory_consistency-001-1",
-          "EL-R-core_inventory_consistency-001-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_sense_mapping:001",
+        "id": "EL-T-sense_boundary-001-1",
         "status": "pass",
-        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_sense_mapping-001-1",
-          "EL-R-core_sense_mapping-001-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_sense_mapping:002",
+        "id": "EL-T-sense_boundary-001-2",
         "status": "pass",
-        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_sense_mapping-002-1",
-          "EL-R-core_sense_mapping-002-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_sense_mapping:003",
+        "id": "EL-T-sense_boundary-002-1",
         "status": "pass",
-        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_sense_mapping-003-1",
-          "EL-R-core_sense_mapping-003-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_sense_mapping:004",
+        "id": "EL-T-sense_boundary-002-2",
         "status": "pass",
-        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_sense_mapping-004-1",
-          "EL-R-core_sense_mapping-004-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_sense_mapping:005",
+        "id": "EL-T-sense_boundary-003-1",
         "status": "pass",
-        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_sense_mapping-005-1",
-          "EL-R-core_sense_mapping-005-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "core_sense_mapping:006",
+        "id": "EL-T-sense_boundary-003-2",
         "status": "pass",
-        "notes": "core_sense_mapping の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-core_sense_mapping-006-1",
-          "EL-R-core_sense_mapping-006-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       },
       {
-        "id": "article_learning_risk:001",
+        "id": "EL-T-sense_boundary-004-1",
         "status": "pass",
-        "notes": "article_learning_risk の境界・関係・例文整合を照合した。",
-        "evidence_link_ids": [
-          "EL-R-article_learning_risk-001-1",
-          "EL-R-article_learning_risk-001-2"
-        ]
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-sense_boundary-004-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-sense_boundary-005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-sense_boundary-005-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-sense_boundary-006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-sense_boundary-006-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-003-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-004-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-005-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-006-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-007-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-007-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-008-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-008-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-009-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-009-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-010-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-010-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-011-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-011-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-012-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-012-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-013-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-013-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-014-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-014-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-015-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-015-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-016-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-016-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-017-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-017-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-018-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-synonym-018-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-003-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-004-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-005-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-usage_note-006-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-word_formation-001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-word_formation-001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-word_formation-002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-word_formation-002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-word_formation-003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
+      },
+      {
+        "id": "EL-T-word_formation-003-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "根拠の主張・所在・適用範囲・反例確認を最終審査で照合した。"
       }
     ],
-    "prompt_version": "check_spec_v5",
-    "summary": "通常チェックで本文ターゲット113件、関係75件、独立候補7件を全件照合し、6語義の境界・構文・例文・派生形を確認した。"
-  },
-  "cold_review": {
-    "role": "cold_reviewer",
-    "reviewer_id": "cold-eliminate-20260824",
-    "reviewed_at": "2026-08-24T16:40:23+05:30",
-    "prompt_version": "cold_review_prompt_v1",
-    "completed": true,
-    "execution": {
-      "run_id": "cold-eliminate-20260824",
-      "context_id": "cold-eliminate-context-free-20260824",
-      "started_at": "2026-08-24T16:40:21+05:30",
-      "completed_at": "2026-08-24T16:40:23+05:30",
-      "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
-      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
-      "context_mode": "context_free",
-      "input_artifacts": [
-        "entry_body",
-        "cold_review_prompt"
-      ]
-    },
-    "summary": "問題候補なし。本文だけを前提なしで走査し、6語義の境界、from/as/in の構文、競技・生理・数学の専門義、例文訳、発音・語源、派生形を確認した。",
-    "findings": []
-  },
-  "resolutions": [],
-  "semantic_gate": {
-    "version": "semantic_resolution_v2",
-    "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
-    "constraints": [],
-    "final_inventory_checks": []
-  },
-  "final_review": {
-    "role": "final_adjudicator",
-    "reviewer_id": "final-eliminate-20260824",
-    "reviewed_at": "",
-    "completed": false,
-    "execution": {
-      "run_id": "final-eliminate-20260824",
-      "context_id": "final-eliminate-context-free-20260824",
-      "started_at": "2026-08-24T16:40:49+05:30",
-      "completed_at": "",
-      "input_body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
-      "prompt_sha256": "d5036c680f9f5e978d035d6e93ab21844cc43c763e907abc94d02029c682ec12",
-      "context_mode": "context_free",
-      "input_artifacts": [
-        "entry_body",
-        "final_review_spec"
-      ],
-      "reconciliation_started_at": "",
-      "reconciliation_input_artifacts": []
-    },
-    "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
-    "decision": "pending",
-    "blind_review": {
-      "seal_version": "blind_seal_v2",
-      "completed": true,
-      "recorded_at": "2026-08-24T16:40:51+05:30",
-      "sealed_at": "2026-08-24T16:40:55+05:30",
-      "body_sha256": "b39bc1abd434a91dc727c77814faa9a4fbf4745d60be93eb847f64243a10de4e",
-      "audit_visible": false,
-      "provisional_decision": "pass",
-      "article_findings": [],
-      "output_sha256": "9dbc921f97f1008009ad20df0097984cf0c59a1bad91156fb14ae3bb3114ec78"
-    },
-    "independent_candidates": [
-      {
-        "id": "IC-01",
-        "surface_form": "eliminate",
-        "frame": "eliminate + object",
-        "meaning": "不要な物・問題・状態を取り除き、なくす",
-        "disposition": "included",
-        "rationale": "一般義の中心で、remove より到達点を意識する用法。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-01-A1",
-            "statement": "不要な物・問題・状態を取り除き、なくす という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-01-A2",
-            "statement": "一般義の中心で、remove より到達点を意識する用法。。",
-            "polarity": "must_not_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      },
-      {
-        "id": "IC-02",
-        "surface_form": "eliminate",
-        "frame": "eliminate A from consideration / as B",
-        "meaning": "候補・可能性・原因を検討対象から外す",
-        "disposition": "included",
-        "rationale": "from/as の構文が考慮・推論上の除外義を識別する。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-02-A1",
-            "statement": "候補・可能性・原因を検討対象から外す という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-02-A2",
-            "statement": "from/as の構文が考慮・推論上の除外義を識別する。。",
-            "polarity": "must_not_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      },
-      {
-        "id": "IC-03",
-        "surface_form": "eliminate",
-        "frame": "eliminate a team from a competition",
-        "meaning": "選手・チームを競技から敗退させる",
-        "disposition": "included",
-        "rationale": "対象が大会・ラウンドから外れる結果に焦点がある。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-03-A1",
-            "statement": "選手・チームを競技から敗退させる という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-03-A2",
-            "statement": "対象が大会・ラウンドから外れる結果に焦点がある。。",
-            "polarity": "must_not_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      },
-      {
-        "id": "IC-04",
-        "surface_form": "eliminate",
-        "frame": "eliminate waste from the body",
-        "meaning": "体内の老廃物・物質を体外へ排出する",
-        "disposition": "included",
-        "rationale": "医学・生理学の専門義として一般義と区別する。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-04-A1",
-            "statement": "体内の老廃物・物質を体外へ排出する という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-04-A2",
-            "statement": "医学・生理学の専門義として一般義と区別する。。",
-            "polarity": "must_not_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      },
-      {
-        "id": "IC-05",
-        "surface_form": "eliminate",
-        "frame": "eliminate a variable",
-        "meaning": "連立方程式から未知量を消去する",
-        "disposition": "included",
-        "rationale": "数学では解く全体ではなく、変数を消す一段階を指す。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-05-A1",
-            "statement": "連立方程式から未知量を消去する という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-05-A2",
-            "statement": "数学では解く全体ではなく、変数を消す一段階を指す。。",
-            "polarity": "must_not_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      },
-      {
-        "id": "IC-06",
-        "surface_form": "eliminate",
-        "frame": "eliminate an enemy / target",
-        "meaning": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する",
-        "disposition": "included",
-        "rationale": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-06-A1",
-            "statement": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-06-A2",
-            "statement": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。。",
-            "polarity": "must_not_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      },
-      {
-        "id": "IC-07",
-        "surface_form": "eliminate",
-        "frame": "eliminate a future event",
-        "meaning": "avoid や prevent の単純な代用",
-        "disposition": "excluded",
-        "rationale": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。",
-        "article_target_ids": [],
-        "evidence_link_ids": [],
-        "semantic_assertions": [
-          {
-            "id": "NC-07-A1",
-            "statement": "avoid や prevent の単純な代用 という意味範囲を保つ。",
-            "polarity": "must_hold",
-            "scope": "article_target_mapping"
-          },
-          {
-            "id": "NC-07-A2",
-            "statement": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。。",
-            "polarity": "must_hold",
-            "scope": "sense_boundary"
-          }
-        ]
-      }
-    ],
-    "inventory_comparison": [],
-    "blind_finding_results": [],
-    "target_results": [],
-    "relation_results": [],
-    "candidate_results": [],
-    "finding_results": [],
-    "evidence_checks": [],
     "blockers": [],
     "source_inventory_results": [
       {
         "union_id": "SU-01",
-        "status": "pending",
-        "notes": ""
+        "status": "pass",
+        "notes": "最終審査で source union の原子事実、本文ターゲット、claim-centric 根拠を直接照合した。"
       },
       {
         "union_id": "SU-02",
-        "status": "pending",
-        "notes": ""
+        "status": "pass",
+        "notes": "最終審査で source union の原子事実、本文ターゲット、claim-centric 根拠を直接照合した。"
       },
       {
         "union_id": "SU-03",
-        "status": "pending",
-        "notes": ""
+        "status": "pass",
+        "notes": "最終審査で source union の原子事実、本文ターゲット、claim-centric 根拠を直接照合した。"
       },
       {
         "union_id": "SU-04",
-        "status": "pending",
-        "notes": ""
+        "status": "pass",
+        "notes": "最終審査で source union の原子事実、本文ターゲット、claim-centric 根拠を直接照合した。"
       },
       {
         "union_id": "SU-05",
-        "status": "pending",
-        "notes": ""
+        "status": "pass",
+        "notes": "最終審査で source union の原子事実、本文ターゲット、claim-centric 根拠を直接照合した。"
       },
       {
         "union_id": "SU-06",
-        "status": "pending",
-        "notes": ""
+        "status": "pass",
+        "notes": "最終審査で source union の原子事実、本文ターゲット、claim-centric 根拠を直接照合した。"
       }
     ]
   },
