@@ -15,25 +15,65 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 8,
+    "candidate_pages": 12
   },
-  "status": "in_progress",
-  "stage": "preflight",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-24T13:03:09Z",
   "deadline_at": "2026-08-24T14:03:09Z",
   "pre_draft_deadline_at": "2026-08-24T13:23:09Z",
-  "last_heartbeat_at": "2026-08-24T13:03:09Z",
+  "last_heartbeat_at": "2026-08-24T13:19:07Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T13:03:55Z",
+    "commit_sha": "9b67b8ec72b6b1bb12844d4703ea134f6c6939c2"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-08-24T13:03:09Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T13:03:55Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T13:09:29Z",
+      "notes": "Corrected the reviewed etymology, medical collocations, suspect construction, core image, translation nuance, and math synonym frequency."
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T13:09:29Z",
+      "notes": "Bounded source inventory prepared from independent lexical, medical, pharmacokinetic, etymological, and pronunciation references."
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T13:14:53Z",
+      "notes": "Normal review completed on the revised body with every target and relation decided."
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T13:14:53Z",
+      "notes": "Context-free cold review found no remaining issue candidates."
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T13:19:07Z",
+      "notes": "Blind final inventory sealed after independent cold review and before reconciliation."
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T13:19:07Z",
+      "notes": "Final reconciliation passed with all targets, relations, candidates, source unions, semantic checks, and regression checks."
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T13:19:07Z",
+      "notes": "Follow-up correction workflow completed; entry is checked."
     }
   ],
   "stop_reason": "",

@@ -1,0 +1,2035 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-eliminate-followup-20260824",
+  "context_id": "normal-eliminate-followup-isolated-20260824",
+  "input_body_sha256": "38400780136efe3dc0903255ff3dd45d3dd5238c2d8d2b2abdf40dab43f330b1",
+  "prompt_sha256": "dd3208509b670b9e5f4add450283b87a2eb0aac6305bdc5b823235852d716b36",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "eliminate",
+      "frame": "eliminate + object",
+      "meaning": "不要な物・問題・状態を取り除き、なくす",
+      "disposition": "included",
+      "rationale": "一般義の中心で、remove より到達点を意識する用法。",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "usage_note:001",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "antonym:001",
+        "antonym:002"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-01-1",
+        "EL-NC-NC-01-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-01-A1",
+          "statement": "不要な物・問題・状態を取り除き、なくす という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-01-A2",
+          "statement": "一般義の中心で、remove より到達点を意識する用法。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "eliminate",
+      "frame": "eliminate A from consideration / as B",
+      "meaning": "候補・可能性・原因を検討対象から外す",
+      "disposition": "included",
+      "rationale": "from/as の構文が考慮・推論上の除外義を識別する。",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "usage_note:002",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "antonym:003",
+        "antonym:004"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-02-1",
+        "EL-NC-NC-02-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-02-A1",
+          "statement": "候補・可能性・原因を検討対象から外す という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-02-A2",
+          "statement": "from/as の構文が考慮・推論上の除外義を識別する。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "eliminate",
+      "frame": "eliminate a team from a competition",
+      "meaning": "選手・チームを競技から敗退させる",
+      "disposition": "included",
+      "rationale": "対象が大会・ラウンドから外れる結果に焦点がある。",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "frequency:003",
+        "register:003",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "usage_note:003",
+        "synonym:008",
+        "synonym:009",
+        "synonym:010"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-03-1",
+        "EL-NC-NC-03-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-03-A1",
+          "statement": "選手・チームを競技から敗退させる という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-03-A2",
+          "statement": "対象が大会・ラウンドから外れる結果に焦点がある。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "eliminate",
+      "frame": "eliminate waste from the body",
+      "meaning": "体内の老廃物・物質を体外へ排出する",
+      "disposition": "included",
+      "rationale": "医学・生理学の専門義として一般義と区別する。",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "frequency:005",
+        "register:005",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "collocation:020",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "usage_note:005",
+        "synonym:014",
+        "synonym:015",
+        "synonym:016"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-04-1",
+        "EL-NC-NC-04-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-04-A1",
+          "statement": "体内の老廃物・物質を体外へ排出する という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-04-A2",
+          "statement": "医学・生理学の専門義として一般義と区別する。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "eliminate",
+      "frame": "eliminate a variable",
+      "meaning": "連立方程式から未知量を消去する",
+      "disposition": "included",
+      "rationale": "数学では解く全体ではなく、変数を消す一段階を指すことを修正版でも確認した。",
+      "article_target_ids": [
+        "collocation:024",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028",
+        "definition:006",
+        "frequency:006",
+        "grammar_pattern:017",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "register:006",
+        "sense_boundary:006",
+        "synonym:017",
+        "synonym:018",
+        "usage_note:006"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-05-1",
+        "EL-NC-NC-05-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-05-A1",
+          "statement": "連立方程式から未知量を消去する という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-05-A2",
+          "statement": "数学では解く全体ではなく、変数を消す一段階を指す。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "NC-06",
+      "surface_form": "eliminate",
+      "frame": "eliminate an enemy / target",
+      "meaning": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する",
+      "disposition": "included",
+      "rationale": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "frequency:004",
+        "register:004",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "usage_note:004",
+        "synonym:011",
+        "synonym:012",
+        "synonym:013",
+        "antonym:005",
+        "antonym:006"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-06-1",
+        "EL-NC-NC-06-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-06-A1",
+          "statement": "軍事・犯罪・フィクションで人や標的を殺す・抹殺する という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-06-A2",
+          "statement": "一般の中立語ではなく、婉曲・冷淡な文脈に限定する。。",
+          "polarity": "must_not_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    },
+    {
+      "id": "NC-07",
+      "surface_form": "eliminate",
+      "frame": "eliminate a future event",
+      "meaning": "avoid や prevent の単純な代用",
+      "disposition": "excluded",
+      "rationale": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。",
+      "article_target_ids": [],
+      "evidence_link_ids": [
+        "EL-NC-NC-07-1",
+        "EL-NC-NC-07-2"
+      ],
+      "semantic_assertions": [
+        {
+          "id": "NC-07-A1",
+          "statement": "avoid や prevent の単純な代用 という意味範囲を保つ。",
+          "polarity": "must_hold",
+          "scope": "article_target_mapping"
+        },
+        {
+          "id": "NC-07-A2",
+          "statement": "prevent は出来事の発生を防ぐ語で、eliminate と無条件に置き換えられないため除外。。",
+          "polarity": "must_hold",
+          "scope": "sense_boundary"
+        }
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-pronunciation-001-1",
+        "EL-T-pronunciation-001-2"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-etymology-001-1",
+        "EL-T-etymology-001-2"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-etymology-002-1",
+        "EL-T-etymology-002-2"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-word_formation-001-1",
+        "EL-T-word_formation-001-2"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-word_formation-002-1",
+        "EL-T-word_formation-002-2"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-word_formation-003-1",
+        "EL-T-word_formation-003-2"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-001-1",
+        "EL-T-core_image-001-2"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-002-1",
+        "EL-T-core_image-002-2"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-003-1",
+        "EL-T-core_image-003-2"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-004-1",
+        "EL-T-core_image-004-2"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-005-1",
+        "EL-T-core_image-005-2"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-006-1",
+        "EL-T-core_image-006-2"
+      ]
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-core_image-007-1",
+        "EL-T-core_image-007-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary-001-1",
+        "EL-T-sense_boundary-001-2"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-definition-001-1",
+        "EL-T-definition-001-2"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-frequency-001-1",
+        "EL-T-frequency-001-2"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-register-001-1",
+        "EL-T-register-001-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-001-1",
+        "EL-T-grammar_pattern-001-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-002-1",
+        "EL-T-grammar_pattern-002-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-003-1",
+        "EL-T-grammar_pattern-003-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-004-1",
+        "EL-T-grammar_pattern-004-2"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-001-1",
+        "EL-T-collocation-001-2"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-002-1",
+        "EL-T-collocation-002-2"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-003-1",
+        "EL-T-collocation-003-2"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-004-1",
+        "EL-T-collocation-004-2"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-005-1",
+        "EL-T-collocation-005-2"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-006-1",
+        "EL-T-collocation-006-2"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-usage_note-001-1",
+        "EL-T-usage_note-001-2"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-001-1",
+        "EL-T-synonym-001-2"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-002-1",
+        "EL-T-synonym-002-2"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-003-1",
+        "EL-T-synonym-003-2"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-004-1",
+        "EL-T-synonym-004-2"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-antonym-001-1",
+        "EL-T-antonym-001-2"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-antonym-002-1",
+        "EL-T-antonym-002-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary-002-1",
+        "EL-T-sense_boundary-002-2"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-definition-002-1",
+        "EL-T-definition-002-2"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-frequency-002-1",
+        "EL-T-frequency-002-2"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-register-002-1",
+        "EL-T-register-002-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-005-1",
+        "EL-T-grammar_pattern-005-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-006-1",
+        "EL-T-grammar_pattern-006-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-007-1",
+        "EL-T-grammar_pattern-007-2"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-007-1",
+        "EL-T-collocation-007-2"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-008-1",
+        "EL-T-collocation-008-2"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-009-1",
+        "EL-T-collocation-009-2"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-010-1",
+        "EL-T-collocation-010-2"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-011-1",
+        "EL-T-collocation-011-2"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-usage_note-002-1",
+        "EL-T-usage_note-002-2"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-005-1",
+        "EL-T-synonym-005-2"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-006-1",
+        "EL-T-synonym-006-2"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-007-1",
+        "EL-T-synonym-007-2"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-antonym-003-1",
+        "EL-T-antonym-003-2"
+      ]
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-antonym-004-1",
+        "EL-T-antonym-004-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary-003-1",
+        "EL-T-sense_boundary-003-2"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-definition-003-1",
+        "EL-T-definition-003-2"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-frequency-003-1",
+        "EL-T-frequency-003-2"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-register-003-1",
+        "EL-T-register-003-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-008-1",
+        "EL-T-grammar_pattern-008-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-009-1",
+        "EL-T-grammar_pattern-009-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-010-1",
+        "EL-T-grammar_pattern-010-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-011-1",
+        "EL-T-grammar_pattern-011-2"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-012-1",
+        "EL-T-collocation-012-2"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-013-1",
+        "EL-T-collocation-013-2"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-014-1",
+        "EL-T-collocation-014-2"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-015-1",
+        "EL-T-collocation-015-2"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-016-1",
+        "EL-T-collocation-016-2"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-usage_note-003-1",
+        "EL-T-usage_note-003-2"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-008-1",
+        "EL-T-synonym-008-2"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-009-1",
+        "EL-T-synonym-009-2"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-010-1",
+        "EL-T-synonym-010-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary-004-1",
+        "EL-T-sense_boundary-004-2"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-definition-004-1",
+        "EL-T-definition-004-2"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-frequency-004-1",
+        "EL-T-frequency-004-2"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-register-004-1",
+        "EL-T-register-004-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-012-1",
+        "EL-T-grammar_pattern-012-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-013-1",
+        "EL-T-grammar_pattern-013-2"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-017-1",
+        "EL-T-collocation-017-2"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-018-1",
+        "EL-T-collocation-018-2"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-019-1",
+        "EL-T-collocation-019-2"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-usage_note-004-1",
+        "EL-T-usage_note-004-2"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-011-1",
+        "EL-T-synonym-011-2"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-012-1",
+        "EL-T-synonym-012-2"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-013-1",
+        "EL-T-synonym-013-2"
+      ]
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-antonym-005-1",
+        "EL-T-antonym-005-2"
+      ]
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-antonym-006-1",
+        "EL-T-antonym-006-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary-005-1",
+        "EL-T-sense_boundary-005-2"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-definition-005-1",
+        "EL-T-definition-005-2"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-frequency-005-1",
+        "EL-T-frequency-005-2"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-register-005-1",
+        "EL-T-register-005-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-014-1",
+        "EL-T-grammar_pattern-014-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-015-1",
+        "EL-T-grammar_pattern-015-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-016-1",
+        "EL-T-grammar_pattern-016-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-017-1",
+        "EL-T-grammar_pattern-017-2"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-020-1",
+        "EL-T-collocation-020-2"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-021-1",
+        "EL-T-collocation-021-2"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-022-1",
+        "EL-T-collocation-022-2"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-023-1",
+        "EL-T-collocation-023-2"
+      ]
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-024-1",
+        "EL-T-collocation-024-2"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-usage_note-005-1",
+        "EL-T-usage_note-005-2"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-014-1",
+        "EL-T-synonym-014-2"
+      ]
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-015-1",
+        "EL-T-synonym-015-2"
+      ]
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-016-1",
+        "EL-T-synonym-016-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary-006-1",
+        "EL-T-sense_boundary-006-2"
+      ]
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-definition-006-1",
+        "EL-T-definition-006-2"
+      ]
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-frequency-006-1",
+        "EL-T-frequency-006-2"
+      ]
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-register-006-1",
+        "EL-T-register-006-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-018-1",
+        "EL-T-grammar_pattern-018-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern-019-1",
+        "EL-T-grammar_pattern-019-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-FU-001"
+      ]
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-025-1",
+        "EL-T-collocation-025-2"
+      ]
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-026-1",
+        "EL-T-collocation-026-2"
+      ]
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-collocation-027-1",
+        "EL-T-collocation-027-2"
+      ]
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-FU-002",
+        "EL-FU-003"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-usage_note-006-1",
+        "EL-T-usage_note-006-2"
+      ]
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-017-1",
+        "EL-T-synonym-017-2"
+      ]
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "修正版本文のターゲット、意味範囲、訳、語法、根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-T-synonym-018-1",
+        "EL-T-synonym-018-2"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency-001-1",
+        "EL-R-definition_lexical_relation_consistency-001-2"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-020-1",
+        "EL-R-example_translation-020-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency-006-1",
+        "EL-R-definition_usage_consistency-006-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-FU-004"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-004-1",
+        "EL-R-pattern_example_coverage-004-2"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-010-1",
+        "EL-R-example_translation-010-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency-004-1",
+        "EL-R-definition_usage_consistency-004-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-001-1",
+        "EL-R-pattern_example_coverage-001-2"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-016-1",
+        "EL-R-example_translation-016-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping-003-1",
+        "EL-R-core_sense_mapping-003-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping-002-1",
+        "EL-R-core_sense_mapping-002-2"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-013-1",
+        "EL-R-example_translation-013-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-016-1",
+        "EL-R-pattern_example_coverage-016-2"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-022-1",
+        "EL-R-example_translation-022-2"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-019-1",
+        "EL-R-example_translation-019-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair-002-1",
+        "EL-R-risk_sense_pair-002-2"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-011-1",
+        "EL-R-example_translation-011-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency-004-1",
+        "EL-R-definition_lexical_relation_consistency-004-2"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-005-1",
+        "EL-R-example_translation-005-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-011-1",
+        "EL-R-pattern_example_coverage-011-2"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-007-1",
+        "EL-R-example_translation-007-2"
+      ]
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-024-1",
+        "EL-R-example_translation-024-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-008-1",
+        "EL-R-pattern_example_coverage-008-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair-003-1",
+        "EL-R-risk_sense_pair-003-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency-002-1",
+        "EL-R-definition_lexical_relation_consistency-002-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency-006-1",
+        "EL-R-definition_lexical_relation_consistency-006-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping-004-1",
+        "EL-R-core_sense_mapping-004-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-017-1",
+        "EL-R-pattern_example_coverage-017-2"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-001-1",
+        "EL-R-example_translation-001-2"
+      ]
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-025-1",
+        "EL-R-example_translation-025-2"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-article_learning_risk-001-1",
+        "EL-R-article_learning_risk-001-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-010-1",
+        "EL-R-pattern_example_coverage-010-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-013-1",
+        "EL-R-pattern_example_coverage-013-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-009-1",
+        "EL-R-pattern_example_coverage-009-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency-002-1",
+        "EL-R-sense_definition_consistency-002-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency-004-1",
+        "EL-R-sense_definition_consistency-004-2"
+      ]
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-027-1",
+        "EL-R-example_translation-027-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-018-1",
+        "EL-R-pattern_example_coverage-018-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency-001-1",
+        "EL-R-definition_usage_consistency-001-2"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-004-1",
+        "EL-R-example_translation-004-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-014-1",
+        "EL-R-pattern_example_coverage-014-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-007-1",
+        "EL-R-pattern_example_coverage-007-2"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-003-1",
+        "EL-R-example_translation-003-2"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-009-1",
+        "EL-R-example_translation-009-2"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_inventory_consistency-001-1",
+        "EL-R-core_inventory_consistency-001-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency-001-1",
+        "EL-R-sense_definition_consistency-001-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping-001-1",
+        "EL-R-core_sense_mapping-001-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-012-1",
+        "EL-R-pattern_example_coverage-012-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency-003-1",
+        "EL-R-sense_definition_consistency-003-2"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-018-1",
+        "EL-R-example_translation-018-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency-003-1",
+        "EL-R-definition_lexical_relation_consistency-003-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency-003-1",
+        "EL-R-definition_usage_consistency-003-2"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-014-1",
+        "EL-R-example_translation-014-2"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-012-1",
+        "EL-R-example_translation-012-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-006-1",
+        "EL-R-pattern_example_coverage-006-2"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-021-1",
+        "EL-R-example_translation-021-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-002-1",
+        "EL-R-pattern_example_coverage-002-2"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-006-1",
+        "EL-R-example_translation-006-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair-001-1",
+        "EL-R-risk_sense_pair-001-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency-002-1",
+        "EL-R-definition_usage_consistency-002-2"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-002-1",
+        "EL-R-example_translation-002-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping-006-1",
+        "EL-R-core_sense_mapping-006-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency-005-1",
+        "EL-R-sense_definition_consistency-005-2"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency-006-1",
+        "EL-R-sense_definition_consistency-006-2"
+      ]
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-FU-005"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-003-1",
+        "EL-R-pattern_example_coverage-003-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-019-1",
+        "EL-R-pattern_example_coverage-019-2"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-017-1",
+        "EL-R-example_translation-017-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-015-1",
+        "EL-R-pattern_example_coverage-015-2"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage-005-1",
+        "EL-R-pattern_example_coverage-005-2"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency-005-1",
+        "EL-R-definition_lexical_relation_consistency-005-2"
+      ]
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-026-1",
+        "EL-R-example_translation-026-2"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-015-1",
+        "EL-R-example_translation-015-2"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-008-1",
+        "EL-R-example_translation-008-2"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-example_translation-023-1",
+        "EL-R-example_translation-023-2"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency-005-1",
+        "EL-R-definition_usage_consistency-005-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "修正版本文のターゲット間関係と根拠を通常審査で照合した。",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping-005-1",
+        "EL-R-core_sense_mapping-005-2"
+      ]
+    }
+  ]
+}

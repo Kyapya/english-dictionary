@@ -1,14 +1,3 @@
----
-headword: eliminate
-type: word
-status: review_ready
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-24
-updated_at: 2026-08-24
-checked: false
-tags: []
----
 
 ＃発音記号
 
@@ -17,7 +6,7 @@ tags: []
 ＃語源
 
 16世紀に、ラテン語 eliminare「戸外へ追い出す、排除する」の過去分詞 eliminatus から英語に入った。eliminare は ex「外へ」と limen「敷居」を含み、もともとは「敷居の外へ出す」という発想を表した。現在の「不要なものを外へ出す」「候補から外す」「式から未知量を消す」という意味には、この「外へ押し出す」という核が共通している。  
-語源上の関連語としては、limen から来た preliminary「予備の」、subliminal「閾値下の」、liminal「境界・移行状態の」などがある。limit はラテン語 limes「境界」に由来し、eliminate の直接の語源語 limen「敷居」とは別語源である。綴りと音が近い illuminate「照らす、明らかにする」とは別語である。  
+語源上の関連語としては、limen から来た preliminary「予備の」、subliminal「閾値下の」、liminal「境界・移行状態の」などがある。limit はラテン語 limes「境界」に由来し、直接の語源は異なるが、両語を深い語源で関連づける説もある。綴りと音が近い illuminate「照らす、明らかにする」とは別語である。  
 
 ＃語形成
 
