@@ -18,12 +18,12 @@
     "research_queries": 4,
     "candidate_pages": 6
   },
-  "status": "started",
-  "stage": "preflight_pushed",
+  "status": "completed",
+  "stage": "audit_completed",
   "started_at": "2026-08-24T14:58:46Z",
   "deadline_at": "2026-08-24T15:58:46Z",
   "pre_draft_deadline_at": "2026-08-24T15:18:46Z",
-  "last_heartbeat_at": "2026-08-24T15:00:35Z",
+  "last_heartbeat_at": "2026-08-24T15:24:57Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T15:00:35Z",
@@ -39,8 +39,25 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-08-24T15:00:35Z",
       "notes": "remote start checkpoint verified before research"
+    },
+    {
+      "stage": "audit_completed",
+      "recorded_at": "2026-08-24T15:24:57Z",
+      "notes": "source-first inventory, normal/cold/blind/final reviews, semantic gate, and audit artifacts completed"
+    },
+    {
+      "stage": "handoff_ready",
+      "recorded_at": "2026-08-24T15:24:57Z",
+      "notes": "entry and queue checked; branch ready for pull request and Actions"
     }
   ],
   "stop_reason": "",
-  "open_questions": []
+  "open_questions": [],
+  "completion_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T15:24:57Z",
+    "commit_sha": "97f42314efb587e2ddf577a34f04170a7279c3ac",
+    "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
+    "audit_path": "audits/r/retain.json"
+  }
 }
