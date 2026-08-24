@@ -1,0 +1,152 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-perceive-20260825-cycle002",
+  "context_id": "context-free-final-perceive-20260825-cycle002",
+  "input_body_sha256": "928b13195c18c30dbed0950691abb587637371b00584ed439a5e568fc3c1b8e5",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FC-01",
+      "surface_form": "perceive",
+      "frame": "perceive O / perceive O doing",
+      "meaning": "感覚で対象を知覚する",
+      "disposition": "included",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "semantic_assertions": [
+        {
+          "id": "FC-01-A1",
+          "statement": "感覚で対象を知覚する の用法が語義1として本文に収録されている。",
+          "polarity": "must_hold",
+          "scope": "語義1の見出し、定義、文法パターン、用例"
+        },
+        {
+          "id": "FC-01-A2",
+          "statement": "語義1の中心構文が別の語義の構文へ無条件に一般化されない。",
+          "polarity": "must_hold",
+          "scope": "語義1と隣接する語義境界"
+        },
+        {
+          "id": "FC-01-A3",
+          "statement": "語義1の説明が対象の認識・理解・評価の範囲を越えて事実を断定しない。",
+          "polarity": "must_hold",
+          "scope": "語義1の定義と語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "FC-02",
+      "surface_form": "perceive",
+      "frame": "perceive that / perceive O",
+      "meaning": "事実・状況を認識する",
+      "disposition": "included",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "semantic_assertions": [
+        {
+          "id": "FC-02-A1",
+          "statement": "事実・状況を認識する の用法が語義2として本文に収録されている。",
+          "polarity": "must_hold",
+          "scope": "語義2の見出し、定義、文法パターン、用例"
+        },
+        {
+          "id": "FC-02-A2",
+          "statement": "語義2の中心構文が別の語義の構文へ無条件に一般化されない。",
+          "polarity": "must_hold",
+          "scope": "語義2と隣接する語義境界"
+        },
+        {
+          "id": "FC-02-A3",
+          "statement": "語義2の説明が対象の認識・理解・評価の範囲を越えて事実を断定しない。",
+          "polarity": "must_hold",
+          "scope": "語義2の定義と語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "FC-03",
+      "surface_form": "perceive",
+      "frame": "perceive the significance / perceive how...",
+      "meaning": "意味・構造・含意を理解する",
+      "disposition": "included",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "semantic_assertions": [
+        {
+          "id": "FC-03-A1",
+          "statement": "意味・構造・含意を理解する の用法が語義3として本文に収録されている。",
+          "polarity": "must_hold",
+          "scope": "語義3の見出し、定義、文法パターン、用例"
+        },
+        {
+          "id": "FC-03-A2",
+          "statement": "語義3の中心構文が別の語義の構文へ無条件に一般化されない。",
+          "polarity": "must_hold",
+          "scope": "語義3と隣接する語義境界"
+        },
+        {
+          "id": "FC-03-A3",
+          "statement": "語義3の説明が対象の認識・理解・評価の範囲を越えて事実を断定しない。",
+          "polarity": "must_hold",
+          "scope": "語義3の定義と語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "FC-04",
+      "surface_form": "perceive",
+      "frame": "perceive A as B / perceive A to be B",
+      "meaning": "対象をあるものとして評価する",
+      "disposition": "included",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "semantic_assertions": [
+        {
+          "id": "FC-04-A1",
+          "statement": "対象をあるものとして評価する の用法が語義4として本文に収録されている。",
+          "polarity": "must_hold",
+          "scope": "語義4の見出し、定義、文法パターン、用例"
+        },
+        {
+          "id": "FC-04-A2",
+          "statement": "語義4の中心構文が別の語義の構文へ無条件に一般化されない。",
+          "polarity": "must_hold",
+          "scope": "語義4と隣接する語義境界"
+        },
+        {
+          "id": "FC-04-A3",
+          "statement": "語義4の説明が対象の認識・理解・評価の範囲を越えて事実を断定しない。",
+          "polarity": "must_hold",
+          "scope": "語義4の定義と語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "FC-05",
+      "surface_form": "perceive",
+      "frame": "be perceived as B / perceived + noun",
+      "meaning": "認識・評価された状態を表す",
+      "disposition": "included",
+      "rationale": "本文から独立に、品詞・構文・中心意味・学習上の境界を確認した候補。",
+      "semantic_assertions": [
+        {
+          "id": "FC-05-A1",
+          "statement": "認識・評価された状態を表す の用法が語義5として本文に収録されている。",
+          "polarity": "must_hold",
+          "scope": "語義5の見出し、定義、文法パターン、用例"
+        },
+        {
+          "id": "FC-05-A2",
+          "statement": "語義5の中心構文が別の語義の構文へ無条件に一般化されない。",
+          "polarity": "must_hold",
+          "scope": "語義5と隣接する語義境界"
+        },
+        {
+          "id": "FC-05-A3",
+          "statement": "語義5の説明が対象の認識・理解・評価の範囲を越えて事実を断定しない。",
+          "polarity": "must_hold",
+          "scope": "語義5の定義と語法・注意"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "sealed_output_sha256": "c65db2a842697359bb70fd97d1a8616835aaeedd76b202d88f50c9197a4efec8"
+}
