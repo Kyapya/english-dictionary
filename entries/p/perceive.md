@@ -1,12 +1,12 @@
 ---
 headword: perceive
 type: word
-status: checked
+status: review_ready
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-25
 updated_at: 2026-08-25
-checked: true
+checked: false
 tags: []
 ---
 
@@ -44,7 +44,7 @@ perceive の核は、外界や状況から情報を受け取り、意識の中�
 【日本語訳・定義】目・耳・鼻などの感覚を通して、人・物・動き・変化を直接捉える。完全に意識化したり、詳しく理解したりするとは限らない。  
 【頻度】 8/10  
 【レジスター/領域】 一般。see や notice よりやや硬く、説明文・報告・学術的な記述で目立つ。  
-【文法パターン】 perceive + 目的語／perceive + 目的語 + -ing／perceive + that節  
+【文法パターン】`perceive 〈対象〉`／`perceive 〈対象〉 doing`／`perceive that ...`  
 【語法・注意】 感覚に入った対象を意識が捉える語で、意図的に詳しく調べることまでは含まない。perceive O doing は「Oが～しているのを知覚する」で、Oの動作をひとまとまりの出来事として捉える perceive O do と使い分ける。perceive O as B はこの感覚義ではなく、語義4の評価・分類である。  
 
 【コロケーション】
@@ -137,7 +137,7 @@ perceive の核は、外界や状況から情報を受け取り、意識の中�
 【日本語訳・定義】事実、問題、必要性、危険などが存在・成立していると心で認識する。単なる感覚入力より、状況を事実として受け止める段階に焦点がある。  
 【頻度】 8/10  
 【レジスター/領域】 一般だがややフォーマル。報告書、評論、学術文、ビジネス文書で使いやすい。  
-【文法パターン】 perceive + that節／perceive + wh節／perceive + 名詞句  
+【文法パターン】`perceive that ...`／`perceive 〈wh節〉`／`perceive 〈名詞句〉`  
 【語法・注意】 realize や recognize と重なるが、perceive は状況をどのように捉えたかという認識の枠組みに焦点を置きやすい。否定形では「気づいていない・認識していない」という意味になり、知識不足だけでなく、状況をそう捉えるに至っていないことも表す。語義1の直接の感覚知覚と、語義3の意味・含意の理解の中間に位置する学習上の区分であり、辞書によっては同じ大きな sense にまとめられる。  
 
 【コロケーション】
@@ -230,7 +230,7 @@ perceive の核は、外界や状況から情報を受け取り、意識の中�
 【日本語訳・定義】目に見える事実から一歩進み、意味、関係、パターン、含意、難しさなどを心でつかむ。細部をすべて説明できることではなく、重要な構造を捉えることを表す。  
 【頻度】 7/10  
 【レジスター/領域】 ややフォーマル。学術・評論・報道・ビジネスでも使われ、understand より分析的に響くことがある。  
-【文法パターン】 perceive + 名詞／perceive + that節／perceive + how・why・what などの節  
+【文法パターン】`perceive 〈名詞〉`／`perceive that ...`／`perceive 〈how・why・what節〉`  
 【語法・注意】 understand よりも、対象の意味・関係・含意を「捉えた」という視点が前面に出やすい。完全で詳細な理解を必ず含むわけではない。語義2の「事実だと認識する」と近いが、語義3では事実から読み取る意味や構造が中心で、語義4の as/to be は人・物への評価や分類を作る構文である。  
 
 【コロケーション】
@@ -323,7 +323,7 @@ perceive の核は、外界や状況から情報を受け取り、意識の中�
 【日本語訳・定義】人、組織、物、状況などを、ある性質・立場・評価をもつものとして捉える。ここでは対象の客観的性質を断定するより、話者や集団の認識・評価の枠組みを表す。  
 【頻度】 8/10  
 【レジスター/領域】 ややフォーマル。特に be perceived as/to be の受け身が、報道・論文・ビジネス文書で頻出する。  
-【文法パターン】 perceive A as B／perceive A to be・to have B／A is perceived as B／A is perceived to be・to have B  
+【文法パターン】`perceive 〈対象〉 as 〈性質・分類〉`／`perceive 〈対象〉 to be・to have 〈性質・所有〉`／`〈対象〉 is perceived as 〈性質・分類〉`／`〈対象〉 is perceived to be・to have 〈性質・所有〉`  
 【語法・注意】 as の後ろには名詞・形容詞相当の語句を置き、to be・to have の後ろには対象の性質や所有を置く。受け身の perceived は「そう見られている」であり、実際にそうであるという話者自身の断定とは限らない。perceive oneself as ... も可能だが、自己認識を述べる構文として扱う。  
 
 【コロケーション】
@@ -393,7 +393,7 @@ perceive の核は、外界や状況から情報を受け取り、意識の中�
 【日本語訳・定義】perceived は perceive の過去分詞。限定用法では、実際の性質を断定するのでなく、誰かにそう認識・評価されている状態を表す。  
 【頻度】 7/10  
 【レジスター/領域】 一般。ニュース、論文、調査報告、ビジネス文書で perceived threat・perceived risk などの形が頻出する。  
-【文法パターン】 a perceived + 名詞／a widely・commonly perceived + 名詞／be perceived as B／be perceived to be・to have B  
+【文法パターン】`a perceived 〈名詞〉`／`a widely・commonly perceived 〈名詞〉`／`be perceived as 〈性質・分類〉`／`be perceived to be・to have 〈性質・所有〉`  
 【語法・注意】 名詞の前の perceived は「認識された・そう見なされた」という形容詞的用法で、客観的な事実の確定を避ける働きがある。受け身の動詞 be perceived と形は同じだが、前者は名詞を修飾し、後者は認識の受け手となる主語を取る。perceptible「知覚できる」と混同しない。  
 
 【コロケーション】
