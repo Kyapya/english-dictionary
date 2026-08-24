@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260824T163306Z-icv5a1",
+  "headword": "incorporate",
+  "entry_path": "entries/i/incorporate.md",
+  "branch": "recheck/incorporate-v5-20260825",
+  "base_sha": "b9025ef992b8b474a48b8c1e909493a04c9c83bc",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 6,
+    "candidate_pages": 10
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-24T16:33:06Z",
+  "deadline_at": "2026-08-24T17:33:06Z",
+  "pre_draft_deadline_at": "2026-08-24T16:53:06Z",
+  "last_heartbeat_at": "2026-08-24T16:52:00Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T16:33:30Z",
+    "commit_sha": "2cfb5755ea11b24fb36952464ef27bd2214635e8"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T16:33:06Z",
+      "notes": "run initialized for incorporate follow-up audit"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T16:33:30Z",
+      "notes": "remote start checkpoint verified before external research and article comparison"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T16:38:00Z",
+      "notes": "existing checked body retained; no new body draft was required"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T16:40:00Z",
+      "notes": "source-first revalidation completed before final article comparison; existing cycle-001 body hash remained unchanged"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T16:43:00Z",
+      "notes": "independent v5 review completed; no content correction required"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T16:46:00Z",
+      "notes": "context-free cold review outcome recorded as no new blocking issue; existing cycle-001 cold output remains the body review record"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T16:49:00Z",
+      "notes": "existing blind final inventory remains valid because the article body hash did not change"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T16:51:00Z",
+      "notes": "final revalidation completed; front matter and queue metadata synchronized"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T16:52:00Z",
+      "notes": "incorporate revalidation workflow completed without body changes"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
