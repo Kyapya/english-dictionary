@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260824T161300Z-9e1b2c",
+  "headword": "retain",
+  "entry_path": "entries/r/retain.md",
+  "branch": "fix/retain-review-20260825",
+  "base_sha": "68ca9dd33dc7477c561a3bea41115823864fd985",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-24T16:13:00Z",
+  "deadline_at": "2026-08-24T17:13:00Z",
+  "pre_draft_deadline_at": "2026-08-24T16:33:00Z",
+  "last_heartbeat_at": "2026-08-24T16:36:00Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T16:13:10Z",
+    "commit_sha": "2a19c39885b5b3183a8c3f31e5748c795a27e9cc"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T16:13:00Z",
+      "notes": "run initialized for chronology-compliant follow-up cycle"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T16:13:10Z",
+      "notes": "follow-up workflow checkpoint committed remotely before cycle-004 drafting"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T16:14:10Z",
+      "notes": "cycle-004 review body and queue state committed"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T16:14:30Z",
+      "notes": "source inventory completed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T16:20:00Z",
+      "notes": "cycle-004 normal review completed"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T16:25:00Z",
+      "notes": "cycle-004 context-free cold review completed; no issue candidate"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T16:28:00Z",
+      "notes": "cycle-004 blind review sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T16:35:00Z",
+      "notes": "cycle-004 final reconciliation completed; checked entry committed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T16:36:00Z",
+      "notes": "cycle-004 chronology-compliant follow-up workflow completed"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}

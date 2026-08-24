@@ -1,0 +1,155 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-retain-revision2-20260825",
+  "context_id": "final-retain-revision2-20260825",
+  "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+  "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "surface_form": "retain",
+      "frame": "transitive: retain + possession, control, rights, or a characteristic",
+      "meaning": "keep possession, control, or a feature instead of losing or giving it up",
+      "rationale": "Directly represented by the first article sense and its collocations.",
+      "disposition": "included",
+      "id": "FC-01",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FC-01-A1",
+          "statement": "The article must preserve the keep possession, control, or a feature instead of losing or giving it up interpretation.",
+          "polarity": "must_hold",
+          "scope": "mapped sense and its examples"
+        },
+        {
+          "id": "FC-01-A2",
+          "statement": "The article must not silently broaden this candidate into the neighboring senses.",
+          "polarity": "must_hold",
+          "scope": "mapped sense boundary"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "surface_form": "retain",
+      "frame": "transitive: retain + employee, lawyer, consultant, or services",
+      "meaning": "keep a person in employment or formally engage a professional for continuing service",
+      "rationale": "The employment and legal/service use is a distinct conventional frame.",
+      "disposition": "included",
+      "id": "FC-02",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FC-02-A1",
+          "statement": "The article must preserve the keep a person in employment or formally engage a professional for continuing service interpretation.",
+          "polarity": "must_hold",
+          "scope": "mapped sense and its examples"
+        },
+        {
+          "id": "FC-02-A2",
+          "statement": "The article must not silently broaden this candidate into the neighboring senses.",
+          "polarity": "must_hold",
+          "scope": "mapped sense boundary"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "surface_form": "retain",
+      "frame": "subject material + retain + heat, moisture, water, shape, or component",
+      "meaning": "hold material, heat, moisture, form, or a component inside or in place",
+      "rationale": "The physical/material sense is independently represented with material subjects and objects.",
+      "disposition": "included",
+      "id": "FC-03",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FC-03-A1",
+          "statement": "The article must preserve the hold material, heat, moisture, form, or a component inside or in place interpretation.",
+          "polarity": "must_hold",
+          "scope": "mapped sense and its examples"
+        },
+        {
+          "id": "FC-03-A2",
+          "statement": "The article must not silently broaden this candidate into the neighboring senses.",
+          "polarity": "must_hold",
+          "scope": "mapped sense boundary"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "surface_form": "retain",
+      "frame": "body or organ + retain + fluid, urine, water, or sodium",
+      "meaning": "fail to discharge and accumulate fluid or another substance in the body",
+      "rationale": "The medical sense is explicitly separated and supported by a specialist source.",
+      "disposition": "included",
+      "id": "FC-04",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FC-04-A1",
+          "statement": "The article must preserve the fail to discharge and accumulate fluid or another substance in the body interpretation.",
+          "polarity": "must_hold",
+          "scope": "mapped sense and its examples"
+        },
+        {
+          "id": "FC-04-A2",
+          "statement": "The article must not silently broaden this candidate into the neighboring senses.",
+          "polarity": "must_hold",
+          "scope": "mapped sense boundary"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "surface_form": "retain",
+      "frame": "person + retain + information, knowledge, facts, or what was learned",
+      "meaning": "keep information in memory rather than forgetting it",
+      "rationale": "The memory sense is a conventional general-lexicon use and has its own examples.",
+      "disposition": "included",
+      "id": "FC-05",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FC-05-A1",
+          "statement": "The article must preserve the keep information in memory rather than forgetting it interpretation.",
+          "polarity": "must_hold",
+          "scope": "mapped sense and its examples"
+        },
+        {
+          "id": "FC-05-A2",
+          "statement": "The article must not silently broaden this candidate into the neighboring senses.",
+          "polarity": "must_hold",
+          "scope": "mapped sense boundary"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "surface_form": "retain",
+      "frame": "transitive: retain + person as a restraint or hold-back action",
+      "meaning": "an obsolete separate sense meaning to restrain or hold someone back",
+      "rationale": "This candidate was checked as a possible overextension but is not asserted by the current article.",
+      "disposition": "excluded",
+      "id": "FC-06",
+      "article_target_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FC-06-A1",
+          "statement": "The article must not teach retain as an obsolete general restrain-or-hold-back sense.",
+          "polarity": "must_not_hold",
+          "scope": "whole article"
+        },
+        {
+          "id": "FC-06-A2",
+          "statement": "The excluded candidate must remain outside the five numbered senses.",
+          "polarity": "must_hold",
+          "scope": "sense inventory"
+        }
+      ],
+      "evidence_link_ids": []
+    }
+  ],
+  "article_findings": []
+}

@@ -1,7 +1,7 @@
 {
   "schema_version": "content_audit_v3",
   "entry_path": "entries/r/retain.md",
-  "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+  "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
   "review_history": [
     {
       "cycle_id": "cycle-001",
@@ -9,69 +9,55 @@
       "snapshot_path": "audits/history/r/retain/cycle-001.json",
       "snapshot_sha256": "379bcb9feacd7a64fe17f88b74068edfd8f44ab92a6c4bb6c9e76e67cec79f15",
       "archived_at": "2026-08-24T15:27:00Z"
-    },
-    {
-      "cycle_id": "cycle-002",
-      "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
-      "snapshot_path": "audits/history/r/retain/cycle-002.json",
-      "snapshot_sha256": "51cd6b46393a8cdc64b32d0b0d4dda5646a134d8a2c4fc134cc940dd7ffaadb2",
-      "archived_at": "2026-08-24T15:48:00Z"
-    },
-    {
-      "cycle_id": "cycle-003",
-      "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
-      "snapshot_path": "audits/history/r/retain/cycle-003.json",
-      "snapshot_sha256": "47486203c43a7ac73c044a20322c3fd177fb8109ed844b4c29aa0991e940837a",
-      "archived_at": "2026-08-24T16:12:30Z"
     }
   ],
   "current_cycle": {
-    "cycle_id": "cycle-004",
-    "parent_cycle_id": "cycle-003",
-    "started_at": "2026-08-24T16:14:00Z",
-    "change_reason": "chronology follow-up: re-seal blind checkpoint with explicit sealed output digest before reconciliation",
+    "cycle_id": "cycle-002",
+    "parent_cycle_id": "cycle-001",
+    "started_at": "2026-08-24T15:27:00Z",
+    "change_reason": "re-seal blind checkpoint after chronology guard detected same-commit reconciliation",
     "body_revisions": [
       {
         "revision_id": "revision-001",
-        "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
-        "snapshot_path": "audits/runs/r/retain/cycle-004/revision-001.md",
-        "created_at": "2026-08-24T16:14:00Z",
-        "reason": "chronology-compliant re-sealing of unchanged reviewed body"
+        "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
+        "snapshot_path": "audits/runs/r/retain/cycle-001/revision-001.md",
+        "created_at": "2026-08-24T15:27:00Z",
+        "reason": "unchanged body rechecked in chronology-compliant cycle"
       }
     ],
     "raw_outputs": {
       "normal_review": {
-        "path": "audits/runs/r/retain/cycle-004/normal_review.json",
-        "sha256": "ba737733030e2ef611cb99e4c1c802a1d74903197ad56967ffffe7e277577f0a",
-        "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "path": "audits/runs/r/retain/cycle-001/normal_review.json",
+        "sha256": "e23fdda2b0499a69b532dfd80a944534da53cfe3c4b61ee77ba2292d3843d76b",
+        "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "prompt_sha256": "faf2080c74f9c9d79da48c3601dad7bf21d4b14dc663546f0bf30551b327c6a9",
-        "run_id": "normal-retain-revision2-20260825",
-        "context_id": "isolated-retain-revision2-20260825"
+        "run_id": "normal-retain-20260824",
+        "context_id": "isolated-retain-20260824"
       },
       "cold_review": {
-        "path": "audits/runs/r/retain/cycle-004/cold_review.json",
-        "sha256": "ee797a279d2b09fdc16a17f0e80b50f6c2429cb69ba40f7a5517731a68eb940e",
-        "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "path": "audits/runs/r/retain/cycle-001/cold_review.json",
+        "sha256": "ea0cf31f90ffaa07276bd6e3d9503520558ddb742f38cc4514b746e1691fcff6",
+        "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
-        "run_id": "cold-retain-revision2-20260825",
-        "context_id": "cold-retain-revision2-20260825"
+        "run_id": "cold-retain-20260824",
+        "context_id": "cold-retain-20260824"
       },
       "final_blind": {
-        "path": "audits/runs/r/retain/cycle-004/final_blind.json",
-        "sha256": "c0f9e6223a51805aad8b0632e3726add9a51a6bb8b335054f36349ce45a4a61d",
-        "sealed_output_sha256": "4eba7e4d3b0c6984be87c226d1576c089cf17b8000d7dc10f7031906b38f38a2",
-        "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "path": "audits/runs/r/retain/cycle-001/final_blind.json",
+        "sha256": "54b78965e3b295354052dfc14c64ea0120b8a4849442e2f2df08130338fcb697",
+        "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
-        "run_id": "final-retain-revision2-20260825",
-        "context_id": "final-retain-revision2-20260825"
+        "run_id": "final-retain-20260824",
+        "context_id": "final-retain-20260824",
+        "sealed_output_sha256": "f2ceac613fef4c247bb548754808118092e670066ad6fa30efd0f8dad9754776"
       },
       "final_review": {
-        "path": "audits/runs/r/retain/cycle-004/final_review.json",
-        "sha256": "624f1c1f8b46e1b7efbf8937172cef04a0e7a19a86d9712eb97f0480e95d5d70",
-        "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "path": "audits/runs/r/retain/cycle-001/final_review.json",
+        "sha256": "548a9e1b080c58e5d44c6d8244da2ebbd545cb8ea6eb0b276e92f63f2e5c913f",
+        "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
-        "run_id": "final-retain-revision2-20260825",
-        "context_id": "final-retain-revision2-20260825"
+        "run_id": "final-retain-20260824",
+        "context_id": "final-retain-20260824"
       }
     },
     "escaped_defects": [],
@@ -79,72 +65,72 @@
       {
         "category": "compound_component_generalization",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "argument_slot_role_mismatch",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "regional_qualification",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "technical_terminology_conventionality",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "sense_boundary_overlap",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "lexical_relation_mislabel",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "example_translation_alignment",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "absolute_scope_counterexample",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "pronunciation_symbol_explanation",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "evidence_claim_mismatch",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "semantic_direction_reversal",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "cross_section_internal_contradiction",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "finding_scope_transfer_loss",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       },
       {
         "category": "raw_adjudication_manifest_divergence",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Checked for this entry; no escaped defect observed."
       }
     ]
   },
@@ -177,10 +163,10 @@
       "location": "line:6",
       "section": "＃発音記号",
       "sense": "",
-      "text_sha256": "2b0f0961ace31ddea71e257d3000df896b7a25ddd1ed202a804aafc0d36fb926",
+      "text_sha256": "2b6c91af5b117f9efc622fbab7c40758d2b6bd6b7a8d11c434a7e129593c75b8",
       "requires_evidence": true,
       "evidence_policy": "one_source",
-      "text": "・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。"
+      "text": "・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。`retaining` では語末の `e` を落とさず、`retain + -ing` の形で `retaining` となる。"
     },
     {
       "id": "etymology:001",
@@ -210,10 +196,10 @@
       "location": "line:15",
       "section": "＃語形成",
       "sense": "",
-      "text_sha256": "7e52e56e9c66cf5d40d3d3cdd090de27f5ba5ce9ba88db24936c2320dffd1b71",
+      "text_sha256": "ca0d49caeea8d95d3e56949c25561a0553dca0f2e2c57033751a0f8424e7fd05",
       "requires_evidence": true,
       "evidence_policy": "one_source",
-      "text": "`retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「利益剰余金（内部留保）」のような複合表現にも現れる。"
+      "text": "`retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「内部留保利益」のような複合表現にも現れる。"
     },
     {
       "id": "word_formation:002",
@@ -342,10 +328,10 @@
       "location": "line:35",
       "section": "＃意味・用法・関連表現",
       "sense": "1. 【他動詞】保持する、持ち続ける",
-      "text_sha256": "7a626327bdf4a8ce1246cb04f8b9692c985873b0ba478e5ff432ffa1425edf1f",
+      "text_sha256": "ca6fe21add35a065485d5212bcd4c286f9be4ec43a36ede08293f78c1c5cd07c",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "〈9/10〉"
+      "text": "〈10/10〉"
     },
     {
       "id": "register:001",
@@ -474,10 +460,10 @@
       "location": "line:73",
       "section": "＃意味・用法・関連表現",
       "sense": "1. 【他動詞】保持する、持ち続ける",
-      "text_sha256": "6e913d7e67081735a0de047a7356d76b6337f48c388b74d2dca97e46119ef4e7",
+      "text_sha256": "7da6857e71336009a5ba269dd38c8214f1c9a47a5ea866b83686e76ce086880a",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "`retain` は、すでに持っているもの・すでにある状態を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retainer` は依頼契約・前払報酬などを表す名詞で、`retain` の活用形ではない。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。"
+      "text": "`retain` は通常、直接目的語を取る他動詞で、`retain to 〈人〉` とはしない。`retain` は「保つ」という到達状態に焦点を置くため、単に新しく手に入れる `acquire` や、状態を積極的に整え続ける `maintain` とは異なる。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。"
     },
     {
       "id": "synonym:001",
@@ -529,10 +515,10 @@
       "location": "lines:107-112",
       "section": "＃意味・用法・関連表現",
       "sense": "1. 【他動詞】保持する、持ち続ける",
-      "text_sha256": "7789a23c7426d8da62bad97af9e70c80c4b2f80efee5884930cb21f381e66616",
+      "text_sha256": "ca4d5f10e5e9e19780d2f8d2c79e0587f35d30b9482bd381c59748804ac99f56",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "・lose\n定義: 持っていた物・権利・状態などを失う。\n頻度: 〈10/10〉\n違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。\n例: The team lost its title after a long winning streak.\n訳: そのチームは長い連勝の後、タイトルを失った。"
+      "text": "・lose\n定義: 持っていた物・権利・状態などを失う。\n頻度: 〈10/10〉\n違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。\n例: The team retained its title instead of losing it.\n訳: そのチームはタイトルを失わずに守った。"
     },
     {
       "id": "antonym:002",
@@ -771,10 +757,10 @@
       "location": "lines:195-200",
       "section": "＃意味・用法・関連表現",
       "sense": "2. 【他動詞・雇用・法律】雇い続ける、専門家のサービスを依頼する",
-      "text_sha256": "58e4e072fe0a462fcf848a51914a1d0c75d131b3a5f7b56dba9940d6259aa399",
+      "text_sha256": "6c1c0989337a0c868d532f9280e169120afe751264294f1a56df426271304e4d",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "・keep\n定義: 人を職務や関係にとどめておく。\n頻度: 〈10/10〉\n違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。\n例: The company worked hard to keep its best employees.\n訳: その会社は優秀な従業員をつなぎ留めるため努力した。"
+      "text": "・keep\n定義: 人を職務や関係にとどめておく。\n頻度: 〈10/10〉\n違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。\n例: The manager worked hard to keep the team together.\n訳: その管理者はチームを一つに保つため努力した。"
     },
     {
       "id": "antonym:004",
@@ -1211,10 +1197,10 @@
       "location": "lines:372-377",
       "section": "＃意味・用法・関連表現",
       "sense": "4. 【他動詞・医学】体内にため込む、排出せずに保持する",
-      "text_sha256": "df697abe23290dd246965fb8a10080bd4028e7acc0ad69f04beaa1672d064a47",
+      "text_sha256": "a96457ca4a29f049b9f268fcc656f40a6d39ca0e86f7602f9ef2c34756048086",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "・withhold\n定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。\n頻度: 〈7/10〉\n違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。\n例: Doctors sometimes withhold treatment until test results arrive.\n訳: 医師は検査結果が出るまで治療を控えることがある。"
+      "text": "・withhold\n定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。\n頻度: 〈7/10〉\n違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。\n例: The body does not intentionally withhold urine.\n訳: 体は意図的に尿の排出を差し控えているわけではない。"
     },
     {
       "id": "antonym:010",
@@ -1497,10 +1483,10 @@
       "location": "lines:492-497",
       "section": "＃意味・用法・関連表現",
       "sense": "5. 【他動詞・記憶】記憶にとどめる、覚えている",
-      "text_sha256": "19ae92c398fa524239652986a45b9b3da7aa10460260e5463e8eed0c26996abc",
+      "text_sha256": "c4655262fc14c094ae0ad02774edfe86593b8210ddd1a3bf69b47e5257b90eed",
       "requires_evidence": true,
       "evidence_policy": "two_sources_or_primary",
-      "text": "・erase\n定義: 記録や記憶を消去する。\n頻度: 〈8/10〉\n違い: `erase` は記録や記憶を意図的・物理的に消す意味が強く、すでにある情報を失わず保つ `retain` とは逆方向の操作を表す。\n例: Time cannot erase every memory.\n訳: 時間がたっても、すべての記憶を消し去れるわけではない。"
+      "text": "・erase\n定義: 記録や記憶を消去する。\n頻度: 〈8/10〉\n違い: `erase` は意図的・物理的に消す意味が強く、自然に忘れる `forget` よりも操作的である。\n例: Time cannot erase every memory.\n訳: 時間がたっても、すべての記憶を消し去れるわけではない。"
     }
   ],
   "relations": [
@@ -2619,7 +2605,7 @@
       "subject_type": "target",
       "subject_id": "pronunciation:003",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target pronunciation:003: ・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。",
+      "claim": "Source support for target pronunciation:003: ・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。`retaining` では語末の `e` を落とさず、`retain + -ing` の形で `retaining` となる。",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -2653,7 +2639,7 @@
       "subject_type": "target",
       "subject_id": "etymology:002",
       "evidence_id": "EV-ETY",
-      "claim": "Source support for target etymology:002: 語源上の関連語には、`tenēre` 系の `tenure`「保有期間、在職期間」、`detain`「引き留める、拘束する」、`contain`「中に含む」などがある。直接の派生語としては、`retention`「保持、記憶保持、滞留」、`retentive`「保持力のある、記憶力のよい」、`retainer`「依頼を受けている人、前払報酬、留め具」が重要である。",
+      "claim": "Source support for target etymology:002: 語源上の関連語には、`tenēre` 系の `tenure`「保有期間、在職期間」、`detain`「引き留める、拘束する」、`contain`「中に含む」などがある。直接の派生語としては、`retention`「保持、記憶保持、滞留」、`retentive`「保持力のある、記憶力のよい」、`retainer`「依頼を",
       "locator": "https://www.etymonline.com/word/retain",
       "supports": "late Middle English route through French retenir from Latin retinere and related formations",
       "support_type": "direct",
@@ -2670,7 +2656,7 @@
       "subject_type": "target",
       "subject_id": "etymology:002",
       "evidence_id": "EV-OXF",
-      "claim": "Source support for target etymology:002: 語源上の関連語には、`tenēre` 系の `tenure`「保有期間、在職期間」、`detain`「引き留める、拘束する」、`contain`「中に含む」などがある。直接の派生語としては、`retention`「保持、記憶保持、滞留」、`retentive`「保持力のある、記憶力のよい」、`retainer`「依頼を受けている人、前払報酬、留め具」が重要である。",
+      "claim": "Source support for target etymology:002: 語源上の関連語には、`tenēre` 系の `tenure`「保有期間、在職期間」、`detain`「引き留める、拘束する」、`contain`「中に含む」などがある。直接の派生語としては、`retention`「保持、記憶保持、滞留」、`retentive`「保持力のある、記憶力のよい」、`retainer`「依頼を",
       "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/retain",
       "supports": "learner-facing frames for retaining moisture and retaining a lawyer, with origin information",
       "support_type": "direct",
@@ -2687,7 +2673,7 @@
       "subject_type": "target",
       "subject_id": "word_formation:001",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target word_formation:001: `retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「利益剰余金（内部留保）」のような複合表現にも現れる。",
+      "claim": "Source support for target word_formation:001: `retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「内部留保利益」のような複合表現にも現れる。",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -2942,7 +2928,7 @@
       "subject_type": "target",
       "subject_id": "frequency:001",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target frequency:001: 〈9/10〉",
+      "claim": "Source support for target frequency:001: 〈10/10〉",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -2959,7 +2945,7 @@
       "subject_type": "target",
       "subject_id": "frequency:001",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target frequency:001: 〈9/10〉",
+      "claim": "Source support for target frequency:001: 〈10/10〉",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3214,7 +3200,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:001",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target usage_note:001: `retain` は、すでに持っているもの・すでにある状態を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retainer` は依頼契約・前払報酬などを表す名詞で、`retain` の活用形ではない。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。",
+      "claim": "Source support for target usage_note:001: `retain` は通常、直接目的語を取る他動詞で、`retain to 〈人〉` とはしない。`retain` は「保つ」という到達状態に焦点を置くため、単に新しく手に入れる `acquire` や、状態を積極的に整え続ける `maintain` とは異なる。`retain a deposit` のように金銭を手元に",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3231,7 +3217,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:001",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target usage_note:001: `retain` は、すでに持っているもの・すでにある状態を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retainer` は依頼契約・前払報酬などを表す名詞で、`retain` の活用形ではない。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。",
+      "claim": "Source support for target usage_note:001: `retain` は通常、直接目的語を取る他動詞で、`retain to 〈人〉` とはしない。`retain` は「保つ」という到達状態に焦点を置くため、単に新しく手に入れる `acquire` や、状態を積極的に整え続ける `maintain` とは異なる。`retain a deposit` のように金銭を手元に",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3248,7 +3234,7 @@
       "subject_type": "target",
       "subject_id": "synonym:001",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:001: ・keep\n定義: 物・状態・権利などを持ち続ける、または保つ。\n頻度: 〈10/10〉\n違い: `keep` は最も広く日常的で、`retain` よりくだけている。`retain` は以前から持っていたものを手放さず保つ含みが強い。\n例: You can keep the receipt for your records.\n訳: 記録のためにその領収書を取っておいてよい。",
+      "claim": "Source support for target synonym:001: ・keep\n定義: 物・状態・権利などを持ち続ける、または保つ。\n頻度: 〈10/10〉\n違い: `keep` は最も広く日常的で、`retain` よりくだけている。`retain` は以前から持っていたものを手放さず保つ含みが強い。\n例: You can keep the receipt for your reco",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3265,7 +3251,7 @@
       "subject_type": "target",
       "subject_id": "synonym:001",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:001: ・keep\n定義: 物・状態・権利などを持ち続ける、または保つ。\n頻度: 〈10/10〉\n違い: `keep` は最も広く日常的で、`retain` よりくだけている。`retain` は以前から持っていたものを手放さず保つ含みが強い。\n例: You can keep the receipt for your records.\n訳: 記録のためにその領収書を取っておいてよい。",
+      "claim": "Source support for target synonym:001: ・keep\n定義: 物・状態・権利などを持ち続ける、または保つ。\n頻度: 〈10/10〉\n違い: `keep` は最も広く日常的で、`retain` よりくだけている。`retain` は以前から持っていたものを手放さず保つ含みが強い。\n例: You can keep the receipt for your reco",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3282,7 +3268,7 @@
       "subject_type": "target",
       "subject_id": "synonym:002",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:002: ・maintain\n定義: 状態、水準、制度、機能などを意図的に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は保つための継続的な管理や努力に焦点があり、`retain` は失わずに持ち続けることに焦点がある。\n例: The company maintains high safety standards.\n訳: その会社は高い安全基準を維持している。",
+      "claim": "Source support for target synonym:002: ・maintain\n定義: 状態、水準、制度、機能などを意図的に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は保つための継続的な管理や努力に焦点があり、`retain` は失わずに持ち続けることに焦点がある。\n例: The company maintains high safety standards.",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3299,7 +3285,7 @@
       "subject_type": "target",
       "subject_id": "synonym:002",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:002: ・maintain\n定義: 状態、水準、制度、機能などを意図的に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は保つための継続的な管理や努力に焦点があり、`retain` は失わずに持ち続けることに焦点がある。\n例: The company maintains high safety standards.\n訳: その会社は高い安全基準を維持している。",
+      "claim": "Source support for target synonym:002: ・maintain\n定義: 状態、水準、制度、機能などを意図的に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は保つための継続的な管理や努力に焦点があり、`retain` は失わずに持ち続けることに焦点がある。\n例: The company maintains high safety standards.",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3316,7 +3302,7 @@
       "subject_type": "target",
       "subject_id": "synonym:003",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:003: ・preserve\n定義: 物・状態・価値などを損傷や変化から守って残す。\n頻度: 〈8/10〉\n違い: `preserve` は劣化・破壊・変化を防ぐ積極的な保全を表し、`retain` は必ずしも保全作業を含まない。\n例: The project aims to preserve the historic landscape.\n訳: その計画は歴史的景観を保存することを目指している。",
+      "claim": "Source support for target synonym:003: ・preserve\n定義: 物・状態・価値などを損傷や変化から守って残す。\n頻度: 〈8/10〉\n違い: `preserve` は劣化・破壊・変化を防ぐ積極的な保全を表し、`retain` は必ずしも保全作業を含まない。\n例: The project aims to preserve the historic land",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3333,7 +3319,7 @@
       "subject_type": "target",
       "subject_id": "synonym:003",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:003: ・preserve\n定義: 物・状態・価値などを損傷や変化から守って残す。\n頻度: 〈8/10〉\n違い: `preserve` は劣化・破壊・変化を防ぐ積極的な保全を表し、`retain` は必ずしも保全作業を含まない。\n例: The project aims to preserve the historic landscape.\n訳: その計画は歴史的景観を保存することを目指している。",
+      "claim": "Source support for target synonym:003: ・preserve\n定義: 物・状態・価値などを損傷や変化から守って残す。\n頻度: 〈8/10〉\n違い: `preserve` は劣化・破壊・変化を防ぐ積極的な保全を表し、`retain` は必ずしも保全作業を含まない。\n例: The project aims to preserve the historic land",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3350,7 +3336,7 @@
       "subject_type": "target",
       "subject_id": "synonym:004",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:004: ・withhold\n定義: 金銭、情報、許可などを相手に渡さず手元にとどめる。\n頻度: 〈7/10〉\n違い: `withhold` は渡すべきものを意図的に差し控える含みが強い。`retain` は単に手元に残す場合にも使える。\n例: The bank withheld the payment until the documents were verified.\n訳: 銀行は書類が確認されるまで支払いを保留した。",
+      "claim": "Source support for target synonym:004: ・withhold\n定義: 金銭、情報、許可などを相手に渡さず手元にとどめる。\n頻度: 〈7/10〉\n違い: `withhold` は渡すべきものを意図的に差し控える含みが強い。`retain` は単に手元に残す場合にも使える。\n例: The bank withheld the payment until the do",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3367,7 +3353,7 @@
       "subject_type": "target",
       "subject_id": "synonym:004",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:004: ・withhold\n定義: 金銭、情報、許可などを相手に渡さず手元にとどめる。\n頻度: 〈7/10〉\n違い: `withhold` は渡すべきものを意図的に差し控える含みが強い。`retain` は単に手元に残す場合にも使える。\n例: The bank withheld the payment until the documents were verified.\n訳: 銀行は書類が確認されるまで支払いを保留した。",
+      "claim": "Source support for target synonym:004: ・withhold\n定義: 金銭、情報、許可などを相手に渡さず手元にとどめる。\n頻度: 〈7/10〉\n違い: `withhold` は渡すべきものを意図的に差し控える含みが強い。`retain` は単に手元に残す場合にも使える。\n例: The bank withheld the payment until the do",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3384,7 +3370,7 @@
       "subject_type": "target",
       "subject_id": "antonym:001",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:001: ・lose\n定義: 持っていた物・権利・状態などを失う。\n頻度: 〈10/10〉\n違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。\n例: The team lost its title after a long winning streak.\n訳: そのチームは長い連勝の後、タイトルを失った。",
+      "claim": "Source support for target antonym:001: ・lose\n定義: 持っていた物・権利・状態などを失う。\n頻度: 〈10/10〉\n違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。\n例: The team retained its title instead of losing it.\n訳: そのチームは",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3401,7 +3387,7 @@
       "subject_type": "target",
       "subject_id": "antonym:001",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:001: ・lose\n定義: 持っていた物・権利・状態などを失う。\n頻度: 〈10/10〉\n違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。\n例: The team lost its title after a long winning streak.\n訳: そのチームは長い連勝の後、タイトルを失った。",
+      "claim": "Source support for target antonym:001: ・lose\n定義: 持っていた物・権利・状態などを失う。\n頻度: 〈10/10〉\n違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。\n例: The team retained its title instead of losing it.\n訳: そのチームは",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3418,7 +3404,7 @@
       "subject_type": "target",
       "subject_id": "antonym:002",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:002: ・relinquish\n定義: 権利、地位、支配、所有などを自ら手放す。\n頻度: 〈5/10〉\n違い: `relinquish` は本人の意思で手放すことに焦点があり、`retain` は手放さず保持することを表す。\n例: The owner refused to relinquish control of the company.\n訳: 所有者は会社の支配権を手放すことを拒んだ。",
+      "claim": "Source support for target antonym:002: ・relinquish\n定義: 権利、地位、支配、所有などを自ら手放す。\n頻度: 〈5/10〉\n違い: `relinquish` は本人の意思で手放すことに焦点があり、`retain` は手放さず保持することを表す。\n例: The owner refused to relinquish control of the c",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3435,7 +3421,7 @@
       "subject_type": "target",
       "subject_id": "antonym:002",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:002: ・relinquish\n定義: 権利、地位、支配、所有などを自ら手放す。\n頻度: 〈5/10〉\n違い: `relinquish` は本人の意思で手放すことに焦点があり、`retain` は手放さず保持することを表す。\n例: The owner refused to relinquish control of the company.\n訳: 所有者は会社の支配権を手放すことを拒んだ。",
+      "claim": "Source support for target antonym:002: ・relinquish\n定義: 権利、地位、支配、所有などを自ら手放す。\n頻度: 〈5/10〉\n違い: `relinquish` は本人の意思で手放すことに焦点があり、`retain` は手放さず保持することを表す。\n例: The owner refused to relinquish control of the c",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3452,7 +3438,7 @@
       "subject_type": "target",
       "subject_id": "antonym:003",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:003: ・surrender\n定義: 権利、支配、武器などを相手に引き渡す、明け渡す。\n頻度: 〈7/10〉\n違い: `surrender` には相手の要求や力に屈して手放す含みがある。\n例: The rebels were forced to surrender their weapons.\n訳: 反乱軍は武器を引き渡すよう強制された。",
+      "claim": "Source support for target antonym:003: ・surrender\n定義: 権利、支配、武器などを相手に引き渡す、明け渡す。\n頻度: 〈7/10〉\n違い: `surrender` には相手の要求や力に屈して手放す含みがある。\n例: The rebels were forced to surrender their weapons.\n訳: 反乱軍は武器を引き渡すよう",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3469,7 +3455,7 @@
       "subject_type": "target",
       "subject_id": "antonym:003",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:003: ・surrender\n定義: 権利、支配、武器などを相手に引き渡す、明け渡す。\n頻度: 〈7/10〉\n違い: `surrender` には相手の要求や力に屈して手放す含みがある。\n例: The rebels were forced to surrender their weapons.\n訳: 反乱軍は武器を引き渡すよう強制された。",
+      "claim": "Source support for target antonym:003: ・surrender\n定義: 権利、支配、武器などを相手に引き渡す、明け渡す。\n頻度: 〈7/10〉\n違い: `surrender` には相手の要求や力に屈して手放す含みがある。\n例: The rebels were forced to surrender their weapons.\n訳: 反乱軍は武器を引き渡すよう",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3826,7 +3812,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:002",
       "evidence_id": "EV-OXF",
-      "claim": "Source support for target usage_note:002: `retain a lawyer` は「弁護士を保持する」という物理的な意味ではなく、報酬を支払って仕事を依頼するという専門用法である。`hire` は新たに雇う行為全般、`retain` は既存の従業員をつなぎ留めること、または専門家との継続的な依頼関係を表しやすい。`retain the services of ...` では `of` 以下にサービスの提供者や組織を置き、`retain 〈人〉 for 〈業務〉` のように目的を示すこともできる。`retainer` は依頼契約・前払報酬を表す名詞で、`retain` の過去形ではない。",
+      "claim": "Source support for target usage_note:002: `retain a lawyer` は「弁護士を保持する」という物理的な意味ではなく、報酬を支払って仕事を依頼するという専門用法である。`hire` は新たに雇う行為全般、`retain` は既存の従業員をつなぎ留めること、または専門家との継続的な依頼関係を表しやすい。`retain the services of .",
       "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/retain",
       "supports": "learner-facing frames for retaining moisture and retaining a lawyer, with origin information",
       "support_type": "direct",
@@ -3843,7 +3829,7 @@
       "subject_type": "target",
       "subject_id": "synonym:005",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:005: ・employ\n定義: 仕事をさせるため人を雇う。\n頻度: 〈9/10〉\n違い: `employ` は雇用関係そのものに焦点があり、既存の人材をつなぎ留める含みは `retain` ほど強くない。\n例: The company employs more than 500 people.\n訳: その会社は500人を超える人を雇用している。",
+      "claim": "Source support for target synonym:005: ・employ\n定義: 仕事をさせるため人を雇う。\n頻度: 〈9/10〉\n違い: `employ` は雇用関係そのものに焦点があり、既存の人材をつなぎ留める含みは `retain` ほど強くない。\n例: The company employs more than 500 people.\n訳: その会社は500人を超える",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3860,7 +3846,7 @@
       "subject_type": "target",
       "subject_id": "synonym:005",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:005: ・employ\n定義: 仕事をさせるため人を雇う。\n頻度: 〈9/10〉\n違い: `employ` は雇用関係そのものに焦点があり、既存の人材をつなぎ留める含みは `retain` ほど強くない。\n例: The company employs more than 500 people.\n訳: その会社は500人を超える人を雇用している。",
+      "claim": "Source support for target synonym:005: ・employ\n定義: 仕事をさせるため人を雇う。\n頻度: 〈9/10〉\n違い: `employ` は雇用関係そのものに焦点があり、既存の人材をつなぎ留める含みは `retain` ほど強くない。\n例: The company employs more than 500 people.\n訳: その会社は500人を超える",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3877,7 +3863,7 @@
       "subject_type": "target",
       "subject_id": "synonym:006",
       "evidence_id": "EV-OXF",
-      "claim": "Source support for target synonym:006: ・hire\n定義: 人を新たに雇う、または専門家に仕事を依頼する。\n頻度: 〈10/10〉\n違い: `hire` は新規採用・単発の依頼にも使えるが、`retain` は継続的な雇用・依頼や前払報酬契約を示しやすい。\n例: We hired a lawyer to review the contract.\n訳: 私たちは契約を確認してもらうため弁護士を雇った。",
+      "claim": "Source support for target synonym:006: ・hire\n定義: 人を新たに雇う、または専門家に仕事を依頼する。\n頻度: 〈10/10〉\n違い: `hire` は新規採用・単発の依頼にも使えるが、`retain` は継続的な雇用・依頼や前払報酬契約を示しやすい。\n例: We hired a lawyer to review the contract.\n訳: 私たち",
       "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/retain",
       "supports": "learner-facing frames for retaining moisture and retaining a lawyer, with origin information",
       "support_type": "direct",
@@ -3894,7 +3880,7 @@
       "subject_type": "target",
       "subject_id": "synonym:006",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:006: ・hire\n定義: 人を新たに雇う、または専門家に仕事を依頼する。\n頻度: 〈10/10〉\n違い: `hire` は新規採用・単発の依頼にも使えるが、`retain` は継続的な雇用・依頼や前払報酬契約を示しやすい。\n例: We hired a lawyer to review the contract.\n訳: 私たちは契約を確認してもらうため弁護士を雇った。",
+      "claim": "Source support for target synonym:006: ・hire\n定義: 人を新たに雇う、または専門家に仕事を依頼する。\n頻度: 〈10/10〉\n違い: `hire` は新規採用・単発の依頼にも使えるが、`retain` は継続的な雇用・依頼や前払報酬契約を示しやすい。\n例: We hired a lawyer to review the contract.\n訳: 私たち",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3911,7 +3897,7 @@
       "subject_type": "target",
       "subject_id": "synonym:007",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:007: ・engage\n定義: 専門家や業者を正式に依頼する。\n頻度: 〈7/10〉\n違い: `engage` は専門的サービスの正式な依頼に焦点があり、`retain` はその依頼を継続して確保する含みを持つ。\n例: The company engaged an outside consultant.\n訳: その会社は外部コンサルタントを依頼した。",
+      "claim": "Source support for target synonym:007: ・engage\n定義: 専門家や業者を正式に依頼する。\n頻度: 〈7/10〉\n違い: `engage` は専門的サービスの正式な依頼に焦点があり、`retain` はその依頼を継続して確保する含みを持つ。\n例: The company engaged an outside consultant.\n訳: その会社は外部コ",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3928,7 +3914,7 @@
       "subject_type": "target",
       "subject_id": "synonym:007",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:007: ・engage\n定義: 専門家や業者を正式に依頼する。\n頻度: 〈7/10〉\n違い: `engage` は専門的サービスの正式な依頼に焦点があり、`retain` はその依頼を継続して確保する含みを持つ。\n例: The company engaged an outside consultant.\n訳: その会社は外部コンサルタントを依頼した。",
+      "claim": "Source support for target synonym:007: ・engage\n定義: 専門家や業者を正式に依頼する。\n頻度: 〈7/10〉\n違い: `engage` は専門的サービスの正式な依頼に焦点があり、`retain` はその依頼を継続して確保する含みを持つ。\n例: The company engaged an outside consultant.\n訳: その会社は外部コ",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3945,7 +3931,7 @@
       "subject_type": "target",
       "subject_id": "synonym:008",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:008: ・keep\n定義: 人を職務や関係にとどめておく。\n頻度: 〈10/10〉\n違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。\n例: The company worked hard to keep its best employees.\n訳: その会社は優秀な従業員をつなぎ留めるため努力した。",
+      "claim": "Source support for target synonym:008: ・keep\n定義: 人を職務や関係にとどめておく。\n頻度: 〈10/10〉\n違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。\n例: The manager worked hard to keep the team togeth",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3962,7 +3948,7 @@
       "subject_type": "target",
       "subject_id": "synonym:008",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:008: ・keep\n定義: 人を職務や関係にとどめておく。\n頻度: 〈10/10〉\n違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。\n例: The company worked hard to keep its best employees.\n訳: その会社は優秀な従業員をつなぎ留めるため努力した。",
+      "claim": "Source support for target synonym:008: ・keep\n定義: 人を職務や関係にとどめておく。\n頻度: 〈10/10〉\n違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。\n例: The manager worked hard to keep the team togeth",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -3979,7 +3965,7 @@
       "subject_type": "target",
       "subject_id": "antonym:004",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:004: ・dismiss\n定義: 人を職務から解雇する、または退去させる。\n頻度: 〈8/10〉\n違い: `dismiss` は雇用・依頼関係を終わらせる側の語である。\n例: The company dismissed the employee for repeated violations.\n訳: その会社は度重なる違反を理由にその従業員を解雇した。",
+      "claim": "Source support for target antonym:004: ・dismiss\n定義: 人を職務から解雇する、または退去させる。\n頻度: 〈8/10〉\n違い: `dismiss` は雇用・依頼関係を終わらせる側の語である。\n例: The company dismissed the employee for repeated violations.\n訳: その会社は度重なる違反を理",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -3996,7 +3982,7 @@
       "subject_type": "target",
       "subject_id": "antonym:004",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:004: ・dismiss\n定義: 人を職務から解雇する、または退去させる。\n頻度: 〈8/10〉\n違い: `dismiss` は雇用・依頼関係を終わらせる側の語である。\n例: The company dismissed the employee for repeated violations.\n訳: その会社は度重なる違反を理由にその従業員を解雇した。",
+      "claim": "Source support for target antonym:004: ・dismiss\n定義: 人を職務から解雇する、または退去させる。\n頻度: 〈8/10〉\n違い: `dismiss` は雇用・依頼関係を終わらせる側の語である。\n例: The company dismissed the employee for repeated violations.\n訳: その会社は度重なる違反を理",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4047,7 +4033,7 @@
       "subject_type": "target",
       "subject_id": "antonym:006",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:006: ・release\n定義: 人を拘束・契約・役割から解放する。\n頻度: 〈9/10〉\n違い: `release` は人をつなぎ留めていた状態から自由にすることを表す。\n例: The club released the player from the final year of his contract.\n訳: そのクラブは選手を契約の最終年から解放した。",
+      "claim": "Source support for target antonym:006: ・release\n定義: 人を拘束・契約・役割から解放する。\n頻度: 〈9/10〉\n違い: `release` は人をつなぎ留めていた状態から自由にすることを表す。\n例: The club released the player from the final year of his contract.\n訳: そのクラブ",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4064,7 +4050,7 @@
       "subject_type": "target",
       "subject_id": "antonym:006",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:006: ・release\n定義: 人を拘束・契約・役割から解放する。\n頻度: 〈9/10〉\n違い: `release` は人をつなぎ留めていた状態から自由にすることを表す。\n例: The club released the player from the final year of his contract.\n訳: そのクラブは選手を契約の最終年から解放した。",
+      "claim": "Source support for target antonym:006: ・release\n定義: 人を拘束・契約・役割から解放する。\n頻度: 〈9/10〉\n違い: `release` は人をつなぎ留めていた状態から自由にすることを表す。\n例: The club released the player from the final year of his contract.\n訳: そのクラブ",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4370,7 +4356,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:003",
       "evidence_id": "EV-MED",
-      "claim": "Source support for target usage_note:003: この語義の `retain water` は、土壌や容器などが水を含み続ける意味である。人体が水分を異常に排出できずにためる `retain fluid` は、医学用法の語義4に当たる。`hold` は内部にある事実を広く表すが、`retain` は外へ逃げる・変化する可能性があるものを保つ点に焦点がある。`preserve` は変化や劣化を防ぐ意味が強く、熱や水分を内部に保つ場合の第一選択とは限らない。",
+      "claim": "Source support for target usage_note:003: この語義の `retain water` は、土壌や容器などが水を含み続ける意味である。人体が水分を異常に排出できずにためる `retain fluid` は、医学用法の語義4に当たる。`hold` は内部にある事実を広く表すが、`retain` は外へ逃げる・変化する可能性があるものを保つ点に焦点がある。`prese",
       "locator": "https://www.merriam-webster.com/medical/retain",
       "supports": "medical use for retaining fluid or other material in the body",
       "support_type": "direct",
@@ -4387,7 +4373,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:003",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target usage_note:003: この語義の `retain water` は、土壌や容器などが水を含み続ける意味である。人体が水分を異常に排出できずにためる `retain fluid` は、医学用法の語義4に当たる。`hold` は内部にある事実を広く表すが、`retain` は外へ逃げる・変化する可能性があるものを保つ点に焦点がある。`preserve` は変化や劣化を防ぐ意味が強く、熱や水分を内部に保つ場合の第一選択とは限らない。",
+      "claim": "Source support for target usage_note:003: この語義の `retain water` は、土壌や容器などが水を含み続ける意味である。人体が水分を異常に排出できずにためる `retain fluid` は、医学用法の語義4に当たる。`hold` は内部にある事実を広く表すが、`retain` は外へ逃げる・変化する可能性があるものを保つ点に焦点がある。`prese",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4404,7 +4390,7 @@
       "subject_type": "target",
       "subject_id": "synonym:009",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:009: ・hold\n定義: 容器、素材、構造などが物を内部に含む、または所定位置に保つ。\n頻度: 〈10/10〉\n違い: `hold` は単に入れておく・支えるという広い語で、`retain` は逃げたり失われたりしないよう保つ含みが強い。\n例: The bottle holds two liters of water.\n訳: その瓶には2リットルの水が入る。",
+      "claim": "Source support for target synonym:009: ・hold\n定義: 容器、素材、構造などが物を内部に含む、または所定位置に保つ。\n頻度: 〈10/10〉\n違い: `hold` は単に入れておく・支えるという広い語で、`retain` は逃げたり失われたりしないよう保つ含みが強い。\n例: The bottle holds two liters of water.\n訳:",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4421,7 +4407,7 @@
       "subject_type": "target",
       "subject_id": "synonym:009",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:009: ・hold\n定義: 容器、素材、構造などが物を内部に含む、または所定位置に保つ。\n頻度: 〈10/10〉\n違い: `hold` は単に入れておく・支えるという広い語で、`retain` は逃げたり失われたりしないよう保つ含みが強い。\n例: The bottle holds two liters of water.\n訳: その瓶には2リットルの水が入る。",
+      "claim": "Source support for target synonym:009: ・hold\n定義: 容器、素材、構造などが物を内部に含む、または所定位置に保つ。\n頻度: 〈10/10〉\n違い: `hold` は単に入れておく・支えるという広い語で、`retain` は逃げたり失われたりしないよう保つ含みが強い。\n例: The bottle holds two liters of water.\n訳:",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4438,7 +4424,7 @@
       "subject_type": "target",
       "subject_id": "synonym:010",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:010: ・contain\n定義: 物質を内部に含み、外へ出ないようにする。\n頻度: 〈9/10〉\n違い: `contain` は境界内に含むことに焦点があり、熱や形を保つ意味には通常 `retain` の方が自然である。\n例: The tank contains several thousand liters of water.\n訳: そのタンクには数千リットルの水が入っている。",
+      "claim": "Source support for target synonym:010: ・contain\n定義: 物質を内部に含み、外へ出ないようにする。\n頻度: 〈9/10〉\n違い: `contain` は境界内に含むことに焦点があり、熱や形を保つ意味には通常 `retain` の方が自然である。\n例: The tank contains several thousand liters of water",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4455,7 +4441,7 @@
       "subject_type": "target",
       "subject_id": "synonym:010",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:010: ・contain\n定義: 物質を内部に含み、外へ出ないようにする。\n頻度: 〈9/10〉\n違い: `contain` は境界内に含むことに焦点があり、熱や形を保つ意味には通常 `retain` の方が自然である。\n例: The tank contains several thousand liters of water.\n訳: そのタンクには数千リットルの水が入っている。",
+      "claim": "Source support for target synonym:010: ・contain\n定義: 物質を内部に含み、外へ出ないようにする。\n頻度: 〈9/10〉\n違い: `contain` は境界内に含むことに焦点があり、熱や形を保つ意味には通常 `retain` の方が自然である。\n例: The tank contains several thousand liters of water",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4472,7 +4458,7 @@
       "subject_type": "target",
       "subject_id": "synonym:011",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:011: ・preserve\n定義: 状態、品質、価値などを変化や損傷から守る。\n頻度: 〈8/10〉\n違い: `preserve` は保全のための働きに焦点があり、`retain heat/moisture` は外へ逃がさない保持に焦点がある。\n例: The coating preserves the wood's natural color.\n訳: その塗装は木材本来の色を保つ。",
+      "claim": "Source support for target synonym:011: ・preserve\n定義: 状態、品質、価値などを変化や損傷から守る。\n頻度: 〈8/10〉\n違い: `preserve` は保全のための働きに焦点があり、`retain heat/moisture` は外へ逃がさない保持に焦点がある。\n例: The coating preserves the wood's natur",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4489,7 +4475,7 @@
       "subject_type": "target",
       "subject_id": "synonym:011",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:011: ・preserve\n定義: 状態、品質、価値などを変化や損傷から守る。\n頻度: 〈8/10〉\n違い: `preserve` は保全のための働きに焦点があり、`retain heat/moisture` は外へ逃がさない保持に焦点がある。\n例: The coating preserves the wood's natural color.\n訳: その塗装は木材本来の色を保つ。",
+      "claim": "Source support for target synonym:011: ・preserve\n定義: 状態、品質、価値などを変化や損傷から守る。\n頻度: 〈8/10〉\n違い: `preserve` は保全のための働きに焦点があり、`retain heat/moisture` は外へ逃がさない保持に焦点がある。\n例: The coating preserves the wood's natur",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4506,7 +4492,7 @@
       "subject_type": "target",
       "subject_id": "synonym:012",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:012: ・maintain\n定義: 状態、性能、温度などを一定水準に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は外部から調整して一定状態を維持する意味にも使えるが、`retain` は対象自体が保持する性質を述べやすい。\n例: The system maintains a constant temperature.\n訳: そのシステムは一定の温度を維持する。",
+      "claim": "Source support for target synonym:012: ・maintain\n定義: 状態、性能、温度などを一定水準に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は外部から調整して一定状態を維持する意味にも使えるが、`retain` は対象自体が保持する性質を述べやすい。\n例: The system maintains a constant temperatu",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4523,7 +4509,7 @@
       "subject_type": "target",
       "subject_id": "synonym:012",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:012: ・maintain\n定義: 状態、性能、温度などを一定水準に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は外部から調整して一定状態を維持する意味にも使えるが、`retain` は対象自体が保持する性質を述べやすい。\n例: The system maintains a constant temperature.\n訳: そのシステムは一定の温度を維持する。",
+      "claim": "Source support for target synonym:012: ・maintain\n定義: 状態、性能、温度などを一定水準に保つ。\n頻度: 〈9/10〉\n違い: `maintain` は外部から調整して一定状態を維持する意味にも使えるが、`retain` は対象自体が保持する性質を述べやすい。\n例: The system maintains a constant temperatu",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4608,7 +4594,7 @@
       "subject_type": "target",
       "subject_id": "antonym:009",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:009: ・dissipate\n定義: 熱、エネルギー、霧などが拡散して消える、または消散させる。\n頻度: 〈5/10〉\n違い: `dissipate` は熱やエネルギーが周囲へ拡散する過程に焦点があり、`retain` の反対側を技術的に表す。\n例: The heat dissipated through the roof.\n訳: 熱は屋根を通って消散した。",
+      "claim": "Source support for target antonym:009: ・dissipate\n定義: 熱、エネルギー、霧などが拡散して消える、または消散させる。\n頻度: 〈5/10〉\n違い: `dissipate` は熱やエネルギーが周囲へ拡散する過程に焦点があり、`retain` の反対側を技術的に表す。\n例: The heat dissipated through the roof.\n",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4625,7 +4611,7 @@
       "subject_type": "target",
       "subject_id": "antonym:009",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:009: ・dissipate\n定義: 熱、エネルギー、霧などが拡散して消える、または消散させる。\n頻度: 〈5/10〉\n違い: `dissipate` は熱やエネルギーが周囲へ拡散する過程に焦点があり、`retain` の反対側を技術的に表す。\n例: The heat dissipated through the roof.\n訳: 熱は屋根を通って消散した。",
+      "claim": "Source support for target antonym:009: ・dissipate\n定義: 熱、エネルギー、霧などが拡散して消える、または消散させる。\n頻度: 〈5/10〉\n違い: `dissipate` は熱やエネルギーが周囲へ拡散する過程に焦点があり、`retain` の反対側を技術的に表す。\n例: The heat dissipated through the roof.\n",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -4863,7 +4849,7 @@
       "subject_type": "target",
       "subject_id": "collocation:022",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target collocation:022: ・retain sodium and water\n用途: 生理・薬理の説明で、ナトリウムと水分を体内に保持する。\n例: The kidneys may retain sodium and water when blood flow is reduced.\n訳: 血流が低下すると、腎臓がナトリウムと水分を保持することがある。",
+      "claim": "Source support for target collocation:022: ・retain sodium and water\n用途: 生理・薬理の説明で、ナトリウムと水分を体内に保持する。\n例: The kidneys may retain sodium and water when blood flow is reduced.\n訳: 血流が低下すると、腎臓がナトリウムと水分を保持することがあ",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4880,7 +4866,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:004",
       "evidence_id": "EV-MED",
-      "claim": "Source support for target usage_note:004: 医学用法の `retain` は、単に「吸収する」ことではなく、体外へ排出されるはずの物質が体内に残ることを表す。`excrete`、`eliminate`、`expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`fluid retention` や `urinary retention` は名詞表現としてよく使われるが、実際の原因や診断を動詞 `retain` だけから決めてはならない。",
+      "claim": "Source support for target usage_note:004: 医学用法の `retain` は、単に「吸収する」ことではなく、体外へ排出されるはずの物質が体内に残ることを表す。`excrete`、`eliminate`、`expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`fluid retention` や `urinary retentio",
       "locator": "https://www.merriam-webster.com/medical/retain",
       "supports": "medical use for retaining fluid or other material in the body",
       "support_type": "direct",
@@ -4897,7 +4883,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:004",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target usage_note:004: 医学用法の `retain` は、単に「吸収する」ことではなく、体外へ排出されるはずの物質が体内に残ることを表す。`excrete`、`eliminate`、`expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`fluid retention` や `urinary retention` は名詞表現としてよく使われるが、実際の原因や診断を動詞 `retain` だけから決めてはならない。",
+      "claim": "Source support for target usage_note:004: 医学用法の `retain` は、単に「吸収する」ことではなく、体外へ排出されるはずの物質が体内に残ることを表す。`excrete`、`eliminate`、`expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`fluid retention` や `urinary retentio",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4914,7 +4900,7 @@
       "subject_type": "target",
       "subject_id": "synonym:013",
       "evidence_id": "EV-MED",
-      "claim": "Source support for target synonym:013: ・accumulate\n定義: 液体、物質、量などが徐々に蓄積する。\n頻度: 〈8/10〉\n違い: `accumulate` は蓄積の進行や結果に焦点があり、`retain` は体が排出せず保持する側の働きに焦点がある。\n例: Fluid accumulated around the lungs.\n訳: 肺の周囲に液体がたまった。",
+      "claim": "Source support for target synonym:013: ・accumulate\n定義: 液体、物質、量などが徐々に蓄積する。\n頻度: 〈8/10〉\n違い: `accumulate` は蓄積の進行や結果に焦点があり、`retain` は体が排出せず保持する側の働きに焦点がある。\n例: Fluid accumulated around the lungs.\n訳: 肺の周囲に液体",
       "locator": "https://www.merriam-webster.com/medical/retain",
       "supports": "medical use for retaining fluid or other material in the body",
       "support_type": "direct",
@@ -4931,7 +4917,7 @@
       "subject_type": "target",
       "subject_id": "synonym:013",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:013: ・accumulate\n定義: 液体、物質、量などが徐々に蓄積する。\n頻度: 〈8/10〉\n違い: `accumulate` は蓄積の進行や結果に焦点があり、`retain` は体が排出せず保持する側の働きに焦点がある。\n例: Fluid accumulated around the lungs.\n訳: 肺の周囲に液体がたまった。",
+      "claim": "Source support for target synonym:013: ・accumulate\n定義: 液体、物質、量などが徐々に蓄積する。\n頻度: 〈8/10〉\n違い: `accumulate` は蓄積の進行や結果に焦点があり、`retain` は体が排出せず保持する側の働きに焦点がある。\n例: Fluid accumulated around the lungs.\n訳: 肺の周囲に液体",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4982,7 +4968,7 @@
       "subject_type": "target",
       "subject_id": "synonym:015",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:015: ・withhold\n定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。\n頻度: 〈7/10〉\n違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。\n例: Doctors sometimes withhold treatment until test results arrive.\n訳: 医師は検査結果が出るまで治療を控えることがある。",
+      "claim": "Source support for target synonym:015: ・withhold\n定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。\n頻度: 〈7/10〉\n違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。\n例: The body does not intentionally withhol",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -4999,7 +4985,7 @@
       "subject_type": "target",
       "subject_id": "synonym:015",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:015: ・withhold\n定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。\n頻度: 〈7/10〉\n違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。\n例: Doctors sometimes withhold treatment until test results arrive.\n訳: 医師は検査結果が出るまで治療を控えることがある。",
+      "claim": "Source support for target synonym:015: ・withhold\n定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。\n頻度: 〈7/10〉\n違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。\n例: The body does not intentionally withhol",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5050,7 +5036,7 @@
       "subject_type": "target",
       "subject_id": "antonym:011",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:011: ・eliminate\n定義: 体内の不要な物質をなくす、排出する。\n頻度: 〈8/10〉\n違い: 医学では `eliminate` が体内から物質を失わせる過程を広く表し、`retain` はその反対の保持を表す。\n例: The body gradually eliminates the drug.\n訳: 体はその薬を徐々に体外へ排出する。",
+      "claim": "Source support for target antonym:011: ・eliminate\n定義: 体内の不要な物質をなくす、排出する。\n頻度: 〈8/10〉\n違い: 医学では `eliminate` が体内から物質を失わせる過程を広く表し、`retain` はその反対の保持を表す。\n例: The body gradually eliminates the drug.\n訳: 体はその薬を",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5067,7 +5053,7 @@
       "subject_type": "target",
       "subject_id": "antonym:011",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:011: ・eliminate\n定義: 体内の不要な物質をなくす、排出する。\n頻度: 〈8/10〉\n違い: 医学では `eliminate` が体内から物質を失わせる過程を広く表し、`retain` はその反対の保持を表す。\n例: The body gradually eliminates the drug.\n訳: 体はその薬を徐々に体外へ排出する。",
+      "claim": "Source support for target antonym:011: ・eliminate\n定義: 体内の不要な物質をなくす、排出する。\n頻度: 〈8/10〉\n違い: 医学では `eliminate` が体内から物質を失わせる過程を広く表し、`retain` はその反対の保持を表す。\n例: The body gradually eliminates the drug.\n訳: 体はその薬を",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5084,7 +5070,7 @@
       "subject_type": "target",
       "subject_id": "antonym:012",
       "evidence_id": "EV-MED",
-      "claim": "Source support for target antonym:012: ・drain\n定義: 液体を流し出す、排出する。\n頻度: 〈8/10〉\n違い: `drain` は液体を外へ流す処置・動作に焦点があり、`retain` は液体が内部に残る状態に焦点がある。\n例: The procedure drained excess fluid from the abdomen.\n訳: その処置は腹部から余分な液体を排出した。",
+      "claim": "Source support for target antonym:012: ・drain\n定義: 液体を流し出す、排出する。\n頻度: 〈8/10〉\n違い: `drain` は液体を外へ流す処置・動作に焦点があり、`retain` は液体が内部に残る状態に焦点がある。\n例: The procedure drained excess fluid from the abdomen.\n訳: その処置は",
       "locator": "https://www.merriam-webster.com/medical/retain",
       "supports": "medical use for retaining fluid or other material in the body",
       "support_type": "direct",
@@ -5101,7 +5087,7 @@
       "subject_type": "target",
       "subject_id": "antonym:012",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:012: ・drain\n定義: 液体を流し出す、排出する。\n頻度: 〈8/10〉\n違い: `drain` は液体を外へ流す処置・動作に焦点があり、`retain` は液体が内部に残る状態に焦点がある。\n例: The procedure drained excess fluid from the abdomen.\n訳: その処置は腹部から余分な液体を排出した。",
+      "claim": "Source support for target antonym:012: ・drain\n定義: 液体を流し出す、排出する。\n頻度: 〈8/10〉\n違い: `drain` は液体を外へ流す処置・動作に焦点があり、`retain` は液体が内部に残る状態に焦点がある。\n例: The procedure drained excess fluid from the abdomen.\n訳: その処置は",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5424,7 +5410,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:005",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target usage_note:005: `retain information` は、意識的に記憶へ取り込む `memorize` と、ある時点で思い出す `recall` の中間に位置する語で、「学んだものが後まで残る」ことを表す。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味であり、記憶の正確さや理解の深さまで必ず保証しない。",
+      "claim": "Source support for target usage_note:005: `retain information` は、意識的に記憶へ取り込む `memorize` と、ある時点で思い出す `recall` の中間に位置する語で、「学んだものが後まで残る」ことを表す。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5441,7 +5427,7 @@
       "subject_type": "target",
       "subject_id": "usage_note:005",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target usage_note:005: `retain information` は、意識的に記憶へ取り込む `memorize` と、ある時点で思い出す `recall` の中間に位置する語で、「学んだものが後まで残る」ことを表す。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味であり、記憶の正確さや理解の深さまで必ず保証しない。",
+      "claim": "Source support for target usage_note:005: `retain information` は、意識的に記憶へ取り込む `memorize` と、ある時点で思い出す `recall` の中間に位置する語で、「学んだものが後まで残る」ことを表す。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5458,7 +5444,7 @@
       "subject_type": "target",
       "subject_id": "synonym:016",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:016: ・remember\n定義: 情報や出来事を覚えている、または思い出す。\n頻度: 〈10/10〉\n違い: `remember` は最も一般的で、記憶を保持している状態と、必要なときに思い出す行為の両方に使える。`retain` は保持の継続に焦点がある。\n例: I remember the main points of the lecture.\n訳: 私はその講義の要点を覚えている。",
+      "claim": "Source support for target synonym:016: ・remember\n定義: 情報や出来事を覚えている、または思い出す。\n頻度: 〈10/10〉\n違い: `remember` は最も一般的で、記憶を保持している状態と、必要なときに思い出す行為の両方に使える。`retain` は保持の継続に焦点がある。\n例: I remember the main points of ",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5475,7 +5461,7 @@
       "subject_type": "target",
       "subject_id": "synonym:016",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:016: ・remember\n定義: 情報や出来事を覚えている、または思い出す。\n頻度: 〈10/10〉\n違い: `remember` は最も一般的で、記憶を保持している状態と、必要なときに思い出す行為の両方に使える。`retain` は保持の継続に焦点がある。\n例: I remember the main points of the lecture.\n訳: 私はその講義の要点を覚えている。",
+      "claim": "Source support for target synonym:016: ・remember\n定義: 情報や出来事を覚えている、または思い出す。\n頻度: 〈10/10〉\n違い: `remember` は最も一般的で、記憶を保持している状態と、必要なときに思い出す行為の両方に使える。`retain` は保持の継続に焦点がある。\n例: I remember the main points of ",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5492,7 +5478,7 @@
       "subject_type": "target",
       "subject_id": "synonym:017",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:017: ・memorize\n定義: 情報を意識的に暗記する。\n頻度: 〈8/10〉\n違い: `memorize` は覚えるための意図的な学習過程、`retain` は覚えた内容が後まで残る結果を表す。\n例: The students memorized the formula before the test.\n訳: 学生たちは試験前にその公式を暗記した。",
+      "claim": "Source support for target synonym:017: ・memorize\n定義: 情報を意識的に暗記する。\n頻度: 〈8/10〉\n違い: `memorize` は覚えるための意図的な学習過程、`retain` は覚えた内容が後まで残る結果を表す。\n例: The students memorized the formula before the test.\n訳: 学生たちは",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5509,7 +5495,7 @@
       "subject_type": "target",
       "subject_id": "synonym:017",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:017: ・memorize\n定義: 情報を意識的に暗記する。\n頻度: 〈8/10〉\n違い: `memorize` は覚えるための意図的な学習過程、`retain` は覚えた内容が後まで残る結果を表す。\n例: The students memorized the formula before the test.\n訳: 学生たちは試験前にその公式を暗記した。",
+      "claim": "Source support for target synonym:017: ・memorize\n定義: 情報を意識的に暗記する。\n頻度: 〈8/10〉\n違い: `memorize` は覚えるための意図的な学習過程、`retain` は覚えた内容が後まで残る結果を表す。\n例: The students memorized the formula before the test.\n訳: 学生たちは",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5526,7 +5512,7 @@
       "subject_type": "target",
       "subject_id": "synonym:018",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:018: ・recall\n定義: 記憶から情報や出来事を思い出す。\n頻度: 〈8/10〉\n違い: `recall` は必要な時点で取り出す行為に焦点があり、`retain` は記憶内に残っていることに焦点がある。\n例: The witness could not recall the exact time.\n訳: その証人は正確な時刻を思い出せなかった。",
+      "claim": "Source support for target synonym:018: ・recall\n定義: 記憶から情報や出来事を思い出す。\n頻度: 〈8/10〉\n違い: `recall` は必要な時点で取り出す行為に焦点があり、`retain` は記憶内に残っていることに焦点がある。\n例: The witness could not recall the exact time.\n訳: その証人は正確",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5543,7 +5529,7 @@
       "subject_type": "target",
       "subject_id": "synonym:018",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:018: ・recall\n定義: 記憶から情報や出来事を思い出す。\n頻度: 〈8/10〉\n違い: `recall` は必要な時点で取り出す行為に焦点があり、`retain` は記憶内に残っていることに焦点がある。\n例: The witness could not recall the exact time.\n訳: その証人は正確な時刻を思い出せなかった。",
+      "claim": "Source support for target synonym:018: ・recall\n定義: 記憶から情報や出来事を思い出す。\n頻度: 〈8/10〉\n違い: `recall` は必要な時点で取り出す行為に焦点があり、`retain` は記憶内に残っていることに焦点がある。\n例: The witness could not recall the exact time.\n訳: その証人は正確",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5560,7 +5546,7 @@
       "subject_type": "target",
       "subject_id": "synonym:019",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target synonym:019: ・keep in mind\n定義: 情報や注意点を心に留めておく。\n頻度: 〈9/10〉\n違い: `keep in mind` は意識的に念頭に置く口語的な表現で、`retain` は学習・記憶の保持を客観的に述べやすい。\n例: Keep in mind that the deadline is firm.\n訳: 締め切りは変更されないことを覚えておきなさい。",
+      "claim": "Source support for target synonym:019: ・keep in mind\n定義: 情報や注意点を心に留めておく。\n頻度: 〈9/10〉\n違い: `keep in mind` は意識的に念頭に置く口語的な表現で、`retain` は学習・記憶の保持を客観的に述べやすい。\n例: Keep in mind that the deadline is firm.\n訳: 締め",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5577,7 +5563,7 @@
       "subject_type": "target",
       "subject_id": "synonym:019",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target synonym:019: ・keep in mind\n定義: 情報や注意点を心に留めておく。\n頻度: 〈9/10〉\n違い: `keep in mind` は意識的に念頭に置く口語的な表現で、`retain` は学習・記憶の保持を客観的に述べやすい。\n例: Keep in mind that the deadline is firm.\n訳: 締め切りは変更されないことを覚えておきなさい。",
+      "claim": "Source support for target synonym:019: ・keep in mind\n定義: 情報や注意点を心に留めておく。\n頻度: 〈9/10〉\n違い: `keep in mind` は意識的に念頭に置く口語的な表現で、`retain` は学習・記憶の保持を客観的に述べやすい。\n例: Keep in mind that the deadline is firm.\n訳: 締め",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5594,7 +5580,7 @@
       "subject_type": "target",
       "subject_id": "antonym:013",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:013: ・forget\n定義: 情報や出来事を記憶から失う、思い出せなくなる。\n頻度: 〈10/10〉\n違い: `forget` は記憶に残らない、または思い出せない状態を表し、`retain` と直接対立する。\n例: I wrote the instructions down so I would not forget them.\n訳: 忘れないように指示を書き留めた。",
+      "claim": "Source support for target antonym:013: ・forget\n定義: 情報や出来事を記憶から失う、思い出せなくなる。\n頻度: 〈10/10〉\n違い: `forget` は記憶に残らない、または思い出せない状態を表し、`retain` と直接対立する。\n例: I wrote the instructions down so I would not forget th",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5611,7 +5597,7 @@
       "subject_type": "target",
       "subject_id": "antonym:013",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:013: ・forget\n定義: 情報や出来事を記憶から失う、思い出せなくなる。\n頻度: 〈10/10〉\n違い: `forget` は記憶に残らない、または思い出せない状態を表し、`retain` と直接対立する。\n例: I wrote the instructions down so I would not forget them.\n訳: 忘れないように指示を書き留めた。",
+      "claim": "Source support for target antonym:013: ・forget\n定義: 情報や出来事を記憶から失う、思い出せなくなる。\n頻度: 〈10/10〉\n違い: `forget` は記憶に残らない、または思い出せない状態を表し、`retain` と直接対立する。\n例: I wrote the instructions down so I would not forget th",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5662,7 +5648,7 @@
       "subject_type": "target",
       "subject_id": "antonym:015",
       "evidence_id": "EV-MW",
-      "claim": "Source support for target antonym:015: ・erase\n定義: 記録や記憶を消去する。\n頻度: 〈8/10〉\n違い: `erase` は記録や記憶を意図的・物理的に消す意味が強く、すでにある情報を失わず保つ `retain` とは逆方向の操作を表す。\n例: Time cannot erase every memory.\n訳: 時間がたっても、すべての記憶を消し去れるわけではない。",
+      "claim": "Source support for target antonym:015: ・erase\n定義: 記録や記憶を消去する。\n頻度: 〈8/10〉\n違い: `erase` は意図的・物理的に消す意味が強く、自然に忘れる `forget` よりも操作的である。\n例: Time cannot erase every memory.\n訳: 時間がたっても、すべての記憶を消し去れるわけではない。",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5679,7 +5665,7 @@
       "subject_type": "target",
       "subject_id": "antonym:015",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for target antonym:015: ・erase\n定義: 記録や記憶を消去する。\n頻度: 〈8/10〉\n違い: `erase` は記録や記憶を意図的・物理的に消す意味が強く、すでにある情報を失わず保つ `retain` とは逆方向の操作を表す。\n例: Time cannot erase every memory.\n訳: 時間がたっても、すべての記憶を消し去れるわけではない。",
+      "claim": "Source support for target antonym:015: ・erase\n定義: 記録や記憶を消去する。\n頻度: 〈8/10〉\n違い: `erase` は意図的・物理的に消す意味が強く、自然に忘れる `forget` よりも操作的である。\n例: Time cannot erase every memory.\n訳: 時間がたっても、すべての記憶を消し去れるわけではない。",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -5696,7 +5682,7 @@
       "subject_type": "relation",
       "subject_id": "risk_sense_pair:001",
       "evidence_id": "EV-MW",
-      "claim": "Source support for relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: grammar_pattern:016 explicitly contrasts sense 4 with sense 3; usage_note:003 explicitly contrasts sense 3 with sense 4",
+      "claim": "Source support for relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: grammar_pattern:016 explicitly contrasts sense 4 with sense 3; usage_note:003 explicitly contrasts sense 3 with s",
       "locator": "https://www.merriam-webster.com/dictionary/retain",
       "supports": "general senses of keeping possession, retaining a person or service, holding intact, and keeping in mind",
       "support_type": "direct",
@@ -5713,7 +5699,7 @@
       "subject_type": "relation",
       "subject_id": "risk_sense_pair:001",
       "evidence_id": "EV-CAM",
-      "claim": "Source support for relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: grammar_pattern:016 explicitly contrasts sense 4 with sense 3; usage_note:003 explicitly contrasts sense 3 with sense 4",
+      "claim": "Source support for relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: grammar_pattern:016 explicitly contrasts sense 4 with sense 3; usage_note:003 explicitly contrasts sense 3 with s",
       "locator": "https://dictionary.cambridge.org/us/dictionary/english/retain",
       "supports": "general sense of continuing to have something, plus material and legal examples",
       "support_type": "direct",
@@ -7360,15 +7346,15 @@
   ],
   "normal_review": {
     "role": "normal_checker",
-    "reviewer_id": "normal-retain-revision2-20260825",
-    "reviewed_at": "2026-08-24T16:20:00Z",
+    "reviewer_id": "normal-retain-20260824",
+    "reviewed_at": "2026-08-24T15:09:00Z",
     "completed": true,
     "execution": {
-      "run_id": "normal-retain-revision2-20260825",
-      "context_id": "isolated-retain-revision2-20260825",
-      "started_at": "2026-08-24T16:15:00Z",
-      "completed_at": "2026-08-24T16:20:00Z",
-      "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+      "run_id": "normal-retain-20260824",
+      "context_id": "isolated-retain-20260824",
+      "started_at": "2026-08-24T15:07:00Z",
+      "completed_at": "2026-08-24T15:09:00Z",
+      "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
       "prompt_sha256": "faf2080c74f9c9d79da48c3601dad7bf21d4b14dc663546f0bf30551b327c6a9",
       "context_mode": "isolated",
       "input_artifacts": [
@@ -9199,16 +9185,16 @@
   },
   "cold_review": {
     "role": "cold_reviewer",
-    "reviewer_id": "cold-retain-revision2-20260825",
-    "reviewed_at": "2026-08-24T16:25:00Z",
+    "reviewer_id": "cold-retain-20260824",
+    "reviewed_at": "2026-08-24T15:10:30Z",
     "prompt_version": "cold_review_prompt_v1",
     "completed": true,
     "execution": {
-      "run_id": "cold-retain-revision2-20260825",
-      "context_id": "cold-retain-revision2-20260825",
-      "started_at": "2026-08-24T16:21:00Z",
-      "completed_at": "2026-08-24T16:25:00Z",
-      "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+      "run_id": "cold-retain-20260824",
+      "context_id": "cold-retain-20260824",
+      "started_at": "2026-08-24T15:09:30Z",
+      "completed_at": "2026-08-24T15:10:30Z",
+      "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
       "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
       "context_mode": "context_free",
       "input_artifacts": [
@@ -9216,13 +9202,13 @@
         "cold_review_prompt"
       ]
     },
-    "summary": "問題候補なし。ユーザー指摘の修正箇所、五つの語義境界、専門用法、物質・身体・記憶の対象差を再確認した。",
+    "summary": "問題候補なし。五つの語義境界、専門用法、物質・身体・記憶の対象差を確認し、記事内の明示範囲で独立した候補を再構成した。",
     "findings": []
   },
   "resolutions": [],
   "semantic_gate": {
     "version": "semantic_resolution_v2",
-    "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+    "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
     "constraints": [],
     "final_inventory_checks": [
       {
@@ -9231,7 +9217,7 @@
           "FC-01-A1",
           "FC-01-A2"
         ],
-        "checked_on_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "checked_on_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "status": "pass",
         "notes": "All mapped article targets and incident relations were rechecked against the sealed candidate assertions.",
         "article_target_ids_checked": [
@@ -9285,7 +9271,7 @@
           "FC-02-A1",
           "FC-02-A2"
         ],
-        "checked_on_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "checked_on_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "status": "pass",
         "notes": "All mapped article targets and incident relations were rechecked against the sealed candidate assertions.",
         "article_target_ids_checked": [
@@ -9341,7 +9327,7 @@
           "FC-03-A1",
           "FC-03-A2"
         ],
-        "checked_on_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "checked_on_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "status": "pass",
         "notes": "All mapped article targets and incident relations were rechecked against the sealed candidate assertions.",
         "article_target_ids_checked": [
@@ -9396,7 +9382,7 @@
           "FC-04-A1",
           "FC-04-A2"
         ],
-        "checked_on_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "checked_on_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "status": "pass",
         "notes": "All mapped article targets and incident relations were rechecked against the sealed candidate assertions.",
         "article_target_ids_checked": [
@@ -9444,7 +9430,7 @@
           "FC-05-A1",
           "FC-05-A2"
         ],
-        "checked_on_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "checked_on_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "status": "pass",
         "notes": "All mapped article targets and incident relations were rechecked against the sealed candidate assertions.",
         "article_target_ids_checked": [
@@ -9500,7 +9486,7 @@
           "FC-06-A1",
           "FC-06-A2"
         ],
-        "checked_on_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+        "checked_on_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
         "status": "pass",
         "notes": "All mapped article targets and incident relations were rechecked; excluded candidate query returned no article match.",
         "article_target_ids_checked": [],
@@ -9520,22 +9506,22 @@
   },
   "final_review": {
     "role": "final_adjudicator",
-    "reviewer_id": "final-retain-revision2-20260825",
-    "reviewed_at": "2026-08-24T16:35:00Z",
+    "reviewer_id": "final-retain-20260824",
+    "reviewed_at": "2026-08-25T00:22:20+09:00",
     "completed": true,
     "execution": {
-      "run_id": "final-retain-revision2-20260825",
-      "context_id": "final-retain-revision2-20260825",
-      "started_at": "2026-08-24T16:26:00Z",
-      "completed_at": "2026-08-24T16:35:00Z",
-      "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+      "run_id": "final-retain-20260824",
+      "context_id": "final-retain-20260824",
+      "started_at": "2026-08-24T15:11:00Z",
+      "completed_at": "2026-08-25T00:22:20+09:00",
+      "input_body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
       "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
       "context_mode": "context_free",
       "input_artifacts": [
         "entry_body",
         "final_review_spec"
       ],
-      "reconciliation_started_at": "2026-08-24T16:29:00Z",
+      "reconciliation_started_at": "2026-08-25T00:22:18+09:00",
       "reconciliation_input_artifacts": [
         "entry_body",
         "final_review_spec",
@@ -9543,18 +9529,18 @@
         "evidence_sources"
       ]
     },
-    "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+    "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
     "decision": "pass",
     "blind_review": {
       "seal_version": "blind_seal_v2",
       "completed": true,
-      "recorded_at": "2026-08-24T16:27:00Z",
-      "sealed_at": "2026-08-24T16:28:00Z",
-      "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
+      "recorded_at": "2026-08-24T15:12:00Z",
+      "sealed_at": "2026-08-25T00:22:16+09:00",
+      "body_sha256": "b6dbf27bc47ae6cc00f1d4623787ff08985b461883d53d45be4b58a84d1bb744",
       "audit_visible": false,
       "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": "4eba7e4d3b0c6984be87c226d1576c089cf17b8000d7dc10f7031906b38f38a2"
+      "output_sha256": "f2ceac613fef4c247bb548754808118092e670066ad6fa30efd0f8dad9754776"
     },
     "independent_candidates": [
       {
@@ -14434,8 +14420,8 @@
     "stop_reason": "",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-08-24T15:48:30Z",
-    "article_comparison_started_at": "2026-08-24T15:49:00Z",
+    "inventory_completed_at": "2026-08-24T15:04:00Z",
+    "article_comparison_started_at": "2026-08-24T15:06:00Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",

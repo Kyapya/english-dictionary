@@ -16,62 +16,55 @@
       "snapshot_path": "audits/history/r/retain/cycle-002.json",
       "snapshot_sha256": "51cd6b46393a8cdc64b32d0b0d4dda5646a134d8a2c4fc134cc940dd7ffaadb2",
       "archived_at": "2026-08-24T15:48:00Z"
-    },
-    {
-      "cycle_id": "cycle-003",
-      "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
-      "snapshot_path": "audits/history/r/retain/cycle-003.json",
-      "snapshot_sha256": "47486203c43a7ac73c044a20322c3fd177fb8109ed844b4c29aa0991e940837a",
-      "archived_at": "2026-08-24T16:12:30Z"
     }
   ],
   "current_cycle": {
-    "cycle_id": "cycle-004",
-    "parent_cycle_id": "cycle-003",
-    "started_at": "2026-08-24T16:14:00Z",
-    "change_reason": "chronology follow-up: re-seal blind checkpoint with explicit sealed output digest before reconciliation",
+    "cycle_id": "cycle-003",
+    "parent_cycle_id": "cycle-002",
+    "started_at": "2026-08-24T15:49:00Z",
+    "change_reason": "revision: incorporate user review corrections for pronunciation, frequency, lexical examples, retained earnings, and usage note",
     "body_revisions": [
       {
         "revision_id": "revision-001",
         "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
-        "snapshot_path": "audits/runs/r/retain/cycle-004/revision-001.md",
-        "created_at": "2026-08-24T16:14:00Z",
-        "reason": "chronology-compliant re-sealing of unchanged reviewed body"
+        "snapshot_path": "audits/runs/r/retain/cycle-003/revision-001.md",
+        "created_at": "2026-08-24T15:49:00Z",
+        "reason": "incorporate user review corrections"
       }
     ],
     "raw_outputs": {
       "normal_review": {
-        "path": "audits/runs/r/retain/cycle-004/normal_review.json",
-        "sha256": "ba737733030e2ef611cb99e4c1c802a1d74903197ad56967ffffe7e277577f0a",
+        "path": "audits/runs/r/retain/cycle-003/normal_review.json",
+        "sha256": "b844bc409f06d1c8d7823363af0b23037b0cbd433eaef4d482ba02e243b005a6",
         "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
         "prompt_sha256": "faf2080c74f9c9d79da48c3601dad7bf21d4b14dc663546f0bf30551b327c6a9",
-        "run_id": "normal-retain-revision2-20260825",
-        "context_id": "isolated-retain-revision2-20260825"
+        "run_id": "normal-retain-revision-20260825",
+        "context_id": "isolated-retain-revision-20260825"
       },
       "cold_review": {
-        "path": "audits/runs/r/retain/cycle-004/cold_review.json",
-        "sha256": "ee797a279d2b09fdc16a17f0e80b50f6c2429cb69ba40f7a5517731a68eb940e",
+        "path": "audits/runs/r/retain/cycle-003/cold_review.json",
+        "sha256": "f171b456a4ad6408ac0cf5f7ab93d0ead06efcc95dd919ae876d6c08f043eb67",
         "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
         "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
-        "run_id": "cold-retain-revision2-20260825",
-        "context_id": "cold-retain-revision2-20260825"
+        "run_id": "cold-retain-revision-20260825",
+        "context_id": "cold-retain-revision-20260825"
       },
       "final_blind": {
-        "path": "audits/runs/r/retain/cycle-004/final_blind.json",
-        "sha256": "c0f9e6223a51805aad8b0632e3726add9a51a6bb8b335054f36349ce45a4a61d",
-        "sealed_output_sha256": "4eba7e4d3b0c6984be87c226d1576c089cf17b8000d7dc10f7031906b38f38a2",
+        "path": "audits/runs/r/retain/cycle-003/final_blind.json",
+        "sha256": "9076637a16c7142bfcf8b7503eccfad714eb8a4cb6a95077dd821351d6a18bde",
         "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
         "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
-        "run_id": "final-retain-revision2-20260825",
-        "context_id": "final-retain-revision2-20260825"
+        "run_id": "final-retain-revision-20260825",
+        "context_id": "final-retain-revision-20260825",
+        "sealed_output_sha256": "029a22a838b3daaad150f08a4ca0326a28cdf5f810cb1b1a47b6a7e3f62bb5e3"
       },
       "final_review": {
-        "path": "audits/runs/r/retain/cycle-004/final_review.json",
-        "sha256": "624f1c1f8b46e1b7efbf8937172cef04a0e7a19a86d9712eb97f0480e95d5d70",
+        "path": "audits/runs/r/retain/cycle-003/final_review.json",
+        "sha256": "d15d4c6364f9c71b00b4c88e57e880383abcea8922466af8b33540a81a725fbe",
         "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
         "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
-        "run_id": "final-retain-revision2-20260825",
-        "context_id": "final-retain-revision2-20260825"
+        "run_id": "final-retain-revision-20260825",
+        "context_id": "final-retain-revision-20260825"
       }
     },
     "escaped_defects": [],
@@ -79,72 +72,72 @@
       {
         "category": "compound_component_generalization",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "argument_slot_role_mismatch",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "regional_qualification",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "technical_terminology_conventionality",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "sense_boundary_overlap",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "lexical_relation_mislabel",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "example_translation_alignment",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "absolute_scope_counterexample",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "pronunciation_symbol_explanation",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "evidence_claim_mismatch",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "semantic_direction_reversal",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "cross_section_internal_contradiction",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "finding_scope_transfer_loss",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       },
       {
         "category": "raw_adjudication_manifest_divergence",
         "status": "pass",
-        "notes": "Reviewed for this follow-up cycle; no escaped defect remains."
+        "notes": "Reviewed for this revision; no escaped defect remains."
       }
     ]
   },
@@ -7360,14 +7353,14 @@
   ],
   "normal_review": {
     "role": "normal_checker",
-    "reviewer_id": "normal-retain-revision2-20260825",
-    "reviewed_at": "2026-08-24T16:20:00Z",
+    "reviewer_id": "normal-retain-revision-20260825",
+    "reviewed_at": "2026-08-24T15:55:00Z",
     "completed": true,
     "execution": {
-      "run_id": "normal-retain-revision2-20260825",
-      "context_id": "isolated-retain-revision2-20260825",
-      "started_at": "2026-08-24T16:15:00Z",
-      "completed_at": "2026-08-24T16:20:00Z",
+      "run_id": "normal-retain-revision-20260825",
+      "context_id": "isolated-retain-revision-20260825",
+      "started_at": "2026-08-24T15:50:00Z",
+      "completed_at": "2026-08-24T15:55:00Z",
       "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
       "prompt_sha256": "faf2080c74f9c9d79da48c3601dad7bf21d4b14dc663546f0bf30551b327c6a9",
       "context_mode": "isolated",
@@ -9199,15 +9192,15 @@
   },
   "cold_review": {
     "role": "cold_reviewer",
-    "reviewer_id": "cold-retain-revision2-20260825",
-    "reviewed_at": "2026-08-24T16:25:00Z",
+    "reviewer_id": "cold-retain-revision-20260825",
+    "reviewed_at": "2026-08-24T16:00:00Z",
     "prompt_version": "cold_review_prompt_v1",
     "completed": true,
     "execution": {
-      "run_id": "cold-retain-revision2-20260825",
-      "context_id": "cold-retain-revision2-20260825",
-      "started_at": "2026-08-24T16:21:00Z",
-      "completed_at": "2026-08-24T16:25:00Z",
+      "run_id": "cold-retain-revision-20260825",
+      "context_id": "cold-retain-revision-20260825",
+      "started_at": "2026-08-24T15:56:00Z",
+      "completed_at": "2026-08-24T16:00:00Z",
       "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
       "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
       "context_mode": "context_free",
@@ -9520,14 +9513,14 @@
   },
   "final_review": {
     "role": "final_adjudicator",
-    "reviewer_id": "final-retain-revision2-20260825",
-    "reviewed_at": "2026-08-24T16:35:00Z",
+    "reviewer_id": "final-retain-revision-20260825",
+    "reviewed_at": "2026-08-24T16:10:00Z",
     "completed": true,
     "execution": {
-      "run_id": "final-retain-revision2-20260825",
-      "context_id": "final-retain-revision2-20260825",
-      "started_at": "2026-08-24T16:26:00Z",
-      "completed_at": "2026-08-24T16:35:00Z",
+      "run_id": "final-retain-revision-20260825",
+      "context_id": "final-retain-revision-20260825",
+      "started_at": "2026-08-24T16:01:00Z",
+      "completed_at": "2026-08-24T16:10:00Z",
       "input_body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
       "prompt_sha256": "4a26de7472239c529eea48042484ffa1a9eecad70c3c82acd38ddff5d2b60c60",
       "context_mode": "context_free",
@@ -9535,7 +9528,7 @@
         "entry_body",
         "final_review_spec"
       ],
-      "reconciliation_started_at": "2026-08-24T16:29:00Z",
+      "reconciliation_started_at": "2026-08-24T16:04:00Z",
       "reconciliation_input_artifacts": [
         "entry_body",
         "final_review_spec",
@@ -9548,13 +9541,13 @@
     "blind_review": {
       "seal_version": "blind_seal_v2",
       "completed": true,
-      "recorded_at": "2026-08-24T16:27:00Z",
-      "sealed_at": "2026-08-24T16:28:00Z",
+      "recorded_at": "2026-08-24T16:02:00Z",
+      "sealed_at": "2026-08-24T16:03:00Z",
       "body_sha256": "f2911a3adaefbf8816f2dfcf0dbf01710ee349767056623650c58c01502d66c2",
       "audit_visible": false,
       "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": "4eba7e4d3b0c6984be87c226d1576c089cf17b8000d7dc10f7031906b38f38a2"
+      "output_sha256": "029a22a838b3daaad150f08a4ca0326a28cdf5f810cb1b1a47b6a7e3f62bb5e3"
     },
     "independent_candidates": [
       {

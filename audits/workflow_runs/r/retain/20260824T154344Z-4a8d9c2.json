@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260824T154344Z-4a8d9c2",
+  "headword": "retain",
+  "entry_path": "entries/r/retain.md",
+  "branch": "fix/retain-review-20260825",
+  "base_sha": "4f8f38fba6d2fee157ed2d8d3d65d07c9256ce6e",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-24T15:43:44Z",
+  "deadline_at": "2026-08-24T16:43:44Z",
+  "pre_draft_deadline_at": "2026-08-24T16:03:44Z",
+  "last_heartbeat_at": "2026-08-24T16:11:00Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T15:44:10Z",
+    "commit_sha": "42716a5f0fee93ebd14b7ec0d82c5654a2482b42"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T15:43:44Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T15:44:10Z",
+      "notes": "initial workflow manifest committed remotely before drafting"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T15:47:00Z",
+      "notes": "review_ready entry and queue state committed; audit revision follows"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-24T15:49:30Z",
+      "notes": "source inventory reused and rechecked before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-24T15:55:00Z",
+      "notes": "normal review completed against the revised body"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-24T16:00:00Z",
+      "notes": "context-free cold review completed; no issue candidate"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-24T16:03:00Z",
+      "notes": "blind final inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-24T16:10:00Z",
+      "notes": "final reconciliation completed; checked entry committed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-24T16:11:00Z",
+      "notes": "retain revision workflow completed"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
