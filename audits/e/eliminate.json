@@ -6598,9 +6598,6 @@
       "subject_id": "example_translation:003",
       "evidence_id": "EV-OXF",
       "claim": "example_translation:003 の本文主張は EV-OXF の該当説明と整合する。",
-Warning: truncated output (original token count: 9093)
-Total output lines: 600
-
       "locator": "section",
       "supports": "example_translation:003 の意味・用法・適用範囲を直接確認した。",
       "support_type": "direct",
@@ -6897,7 +6894,14 @@ Total output lines: 600
       "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
       "locator_kind": "section",
       "source_detail": "EV-MW の該当項目を照合した。",
-      "applicability": "example_translation:012 に限って適用し…93 tokens truncated…ject_id": "example_translation:012",
+      "applicability": "example_translation:012 に限って適用し、別語義への過剰拡張を避けた。",
+      "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
+      "source_excerpt_or_summary": "EV-MW は example_translation:012 に対応する説明を示す。"
+    },
+    {
+      "id": "EL-R-example_translation-012-2",
+      "subject_type": "relation",
+      "subject_id": "example_translation:012",
       "evidence_id": "EV-OXF",
       "claim": "example_translation:012 の本文主張は EV-OXF の該当説明と整合する。",
       "locator": "section",
@@ -7194,9 +7198,6 @@ Total output lines: 600
       "support_type": "direct",
       "counterexample_checked": true,
       "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
-Warning: truncated output (original token count: 9426)
-Total output lines: 600
-
       "locator_kind": "section",
       "source_detail": "EV-MW の該当項目を照合した。",
       "applicability": "example_translation:021 に限って適用し、別語義への過剰拡張を避けた。",
@@ -7489,7 +7490,34 @@ Total output lines: 600
       "locator_kind": "section",
       "source_detail": "EV-OXF の該当項目を照合した。",
       "applicability": "definition_usage_consistency:001 に限って適用し、別語義への過剰拡張を避けた。",
-      "counterexample_method": "一般義・競技義・生理義…426 tokens truncated…on_lexical_relation_consistency:001 の意味・用法・適用範囲を直接確認した。",
+      "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
+      "source_excerpt_or_summary": "EV-OXF は definition_usage_consistency:001 に対応する説明を示す。"
+    },
+    {
+      "id": "EL-R-definition_lexical_relation_consistency-001-1",
+      "subject_type": "relation",
+      "subject_id": "definition_lexical_relation_consistency:001",
+      "evidence_id": "EV-MW",
+      "claim": "definition_lexical_relation_consistency:001 の本文主張は EV-MW の該当説明と整合する。",
+      "locator": "section",
+      "supports": "definition_lexical_relation_consistency:001 の意味・用法・適用範囲を直接確認した。",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
+      "locator_kind": "section",
+      "source_detail": "EV-MW の該当項目を照合した。",
+      "applicability": "definition_lexical_relation_consistency:001 に限って適用し、別語義への過剰拡張を避けた。",
+      "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
+      "source_excerpt_or_summary": "EV-MW は definition_lexical_relation_consistency:001 に対応する説明を示す。"
+    },
+    {
+      "id": "EL-R-definition_lexical_relation_consistency-001-2",
+      "subject_type": "relation",
+      "subject_id": "definition_lexical_relation_consistency:001",
+      "evidence_id": "EV-OXF",
+      "claim": "definition_lexical_relation_consistency:001 の本文主張は EV-OXF の該当説明と整合する。",
+      "locator": "section",
+      "supports": "definition_lexical_relation_consistency:001 の意味・用法・適用範囲を直接確認した。",
       "support_type": "direct",
       "counterexample_checked": true,
       "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
@@ -7770,9 +7798,6 @@ Total output lines: 600
       "applicability": "pattern_example_coverage:005 に限って適用し、別語義への過剰拡張を避けた。",
       "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
       "source_excerpt_or_summary": "EV-OXF は pattern_example_coverage:005 に対応する説明を示す。"
-Warning: truncated output (original token count: 9519)
-Total output lines: 600
-
     },
     {
       "id": "EL-R-pattern_example_coverage-006-1",
@@ -8059,7 +8084,40 @@ Total output lines: 600
       "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
       "locator_kind": "section",
       "source_detail": "EV-MW の該当項目を照合した。",
-      "applicability": "pattern_example_coverage:011 …519 tokens truncated…。",
+      "applicability": "pattern_example_coverage:011 に限って適用し、別語義への過剰拡張を避けた。",
+      "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
+      "source_excerpt_or_summary": "EV-MW は pattern_example_coverage:011 に対応する説明を示す。"
+    },
+    {
+      "id": "EL-R-pattern_example_coverage-011-2",
+      "subject_type": "relation",
+      "subject_id": "pattern_example_coverage:011",
+      "evidence_id": "EV-OXF",
+      "claim": "pattern_example_coverage:011 の本文主張は EV-OXF の該当説明と整合する。",
+      "locator": "section",
+      "supports": "pattern_example_coverage:011 の意味・用法・適用範囲を直接確認した。",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
+      "locator_kind": "section",
+      "source_detail": "EV-OXF の該当項目を照合した。",
+      "applicability": "pattern_example_coverage:011 に限って適用し、別語義への過剰拡張を避けた。",
+      "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
+      "source_excerpt_or_summary": "EV-OXF は pattern_example_coverage:011 に対応する説明を示す。"
+    },
+    {
+      "id": "EL-R-sense_definition_consistency-004-1",
+      "subject_type": "relation",
+      "subject_id": "sense_definition_consistency:004",
+      "evidence_id": "EV-MW",
+      "claim": "sense_definition_consistency:004 の本文主張は EV-MW の該当説明と整合する。",
+      "locator": "section",
+      "supports": "sense_definition_consistency:004 の意味・用法・適用範囲を直接確認した。",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
+      "locator_kind": "section",
+      "source_detail": "EV-MW の該当項目を照合した。",
       "applicability": "sense_definition_consistency:004 に限って適用し、別語義への過剰拡張を避けた。",
       "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
       "source_excerpt_or_summary": "EV-MW は sense_definition_consistency:004 に対応する説明を示す。"
@@ -8340,9 +8398,6 @@ Total output lines: 600
       "id": "EL-R-pattern_example_coverage-014-2",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:014",
-Warning: truncated output (original token count: 9225)
-Total output lines: 600
-
       "evidence_id": "EV-OXF",
       "claim": "pattern_example_coverage:014 の本文主張は EV-OXF の該当説明と整合する。",
       "locator": "section",
@@ -8625,7 +8680,23 @@ Total output lines: 600
       "locator_kind": "section",
       "source_detail": "EV-OXF の該当項目を照合した。",
       "applicability": "pattern_example_coverage:019 に限って適用し、別語義への過剰拡張を避けた。",
-      "counterexample_method": "一般義・競技義・生理義・数学義…225 tokens truncated…ventory_consistency:001 に限って適用し、別語義への過剰拡張を避けた。",
+      "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
+      "source_excerpt_or_summary": "EV-OXF は pattern_example_coverage:019 に対応する説明を示す。"
+    },
+    {
+      "id": "EL-R-core_inventory_consistency-001-1",
+      "subject_type": "relation",
+      "subject_id": "core_inventory_consistency:001",
+      "evidence_id": "EV-MW",
+      "claim": "core_inventory_consistency:001 の本文主張は EV-MW の該当説明と整合する。",
+      "locator": "section",
+      "supports": "core_inventory_consistency:001 の意味・用法・適用範囲を直接確認した。",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_result": "隣接語義・専門義との反例を確認し、本文の限定を維持した。",
+      "locator_kind": "section",
+      "source_detail": "EV-MW の該当項目を照合した。",
+      "applicability": "core_inventory_consistency:001 に限って適用し、別語義への過剰拡張を避けた。",
       "counterexample_method": "一般義・競技義・生理義・数学義・派生形を横断比較した。",
       "source_excerpt_or_summary": "EV-MW は core_inventory_consistency:001 に対応する説明を示す。"
     },
