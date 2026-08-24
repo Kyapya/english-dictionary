@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-08-24T16:13:00Z",
   "deadline_at": "2026-08-24T17:13:00Z",
   "pre_draft_deadline_at": "2026-08-24T16:33:00Z",
-  "last_heartbeat_at": "2026-08-24T16:13:10Z",
+  "last_heartbeat_at": "2026-08-24T16:14:10Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T16:13:10Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-08-24T16:13:10Z",
       "notes": "follow-up workflow checkpoint committed remotely before cycle-004 drafting"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-24T16:14:10Z",
+      "notes": "cycle-004 review body and queue state committed"
     }
   ],
   "stop_reason": "",
