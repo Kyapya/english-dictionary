@@ -8,15 +8,17 @@
   "scope": "cross_entry_workflow",
   "problem_pattern": "本文・通常レビュー・最終レビューが同じ誤った語義モデルを再構築すると、三者が一致していても主要資料に存在する語義欠落、派生語混同、根拠と主張の不一致を見逃したままPASSできる。",
   "generalized_insight": "独立レビュー同士の一致は外部事実との一致を保証しない。本文比較より先に資料ごとの原子的fact集合を作り、派生形を個別化し、fact→claim→targetを結び、最終審査がsource unionへ直接戻る必要がある。",
-  "action_rule": "新規・変更監査では prompts/source_first_audit_v2.md を適用する。外部資料から先に候補を作る原則、派生形の原子化、claim-centric根拠、最終source union直接照合を維持しつつ、standard/extendedの固定上限、6 coverage軸の閉包、機械スキャフォールド、最大2回の最終審査、安全停止を必須にする。",
+  "action_rule": "新規・変更作業では、外部調査前に scripts/entry_workflow_guard.py でremote開始checkpointを確定し、全体時間、draft保存時間、検索query、候補page、heartbeatを実測する。あわせて外部資料から先に候補を作る原則、claim-centric根拠、最終source union直接照合と prompts/source_first_audit_v2.md の資料・fact・round上限、6 coverage軸、最大2回の最終審査を適用し、いずれかのbudget到達時は回収可能な成果物と未解決事項をpushして安全停止する。",
   "applicability": [
     "normal_review",
     "final_review",
-    "validation"
+    "validation",
+    "generation",
+    "planning"
   ],
   "exceptions": "過去監査を内容変更せず参照するだけの場合は即時再生成しない。ただし記事またはcanonical auditを変更する次cycleからsource-first gateを適用する。",
   "generalization_gate": {
-    "repeated_across_runs": false,
+    "repeated_across_runs": true,
     "high_impact_single_run": true,
     "rationale": "deviseで通常・コールド・最終の全段階が同じ誤った意味モデルを共有してPASSした高影響事例から、見出し語をまたぐ監査設計上の再発可能性が高いと判断する。"
   },
@@ -28,6 +30,14 @@
     {
       "source": "user report 2026-08-23",
       "observation": "PR #90適用後の新規1語実行が6時間以上完了せず手動停止された。新規entry、queue行、log、branch、PRが残らず、v1には探索・fact・再審査上限と途中checkpointがなかった。"
+    },
+    {
+      "source": "https://github.com/Kyapya/english-dictionary/pull/94",
+      "observation": "source-first v2適用後のprivilegeは6資料・28 atomic factsで完了し、結果件数の有限化自体は機能した。"
+    },
+    {
+      "source": "user report 2026-08-24",
+      "observation": "v2導入後のeliminate作成が数時間動作したが、entry、remote branch checkpoint、commit、PRを残さず完了しなかった。選定済み資料数の上限だけでは初稿前調査の時間と試行検索数を制限できず、最初のpushも遅すぎることが再確認された。"
     }
   ],
   "validation": {
@@ -39,23 +49,30 @@
       "final PASS時に全source_unionへ直接final resultが存在する",
       "1語のsource-firstがprofile上限内で終了またはbudget_exhaustedとして安全停止する",
       "同一依頼内の最終審査が2回を超えない",
-      "source unionとfinal resultに導出可能なfact/target一覧を重複保存しない"
+      "source unionとfinal resultに導出可能なfact/target一覧を重複保存しない",
+      "全external research前にremote開始checkpointが確認される",
+      "standard runのdraftが開始20分以内にremoteへ保存される",
+      "時間・検索query・候補page・heartbeat budget到達時にrun JSONと未解決事項が残る",
+      "1時間を超えて成果物も停止記録も残らない実行が0件である"
     ],
-    "window_runs": 3,
-    "observed_runs": 1,
+    "window_runs": 5,
+    "observed_runs": 3,
     "result": "pending",
-    "notes": "v1の初回運用観測では新規1語が6時間超で完走せず失敗した。v2へ改修し、残り2回でescaped defect、所要時間、sources/facts/review attempts、監査量、安全停止の有無を確認してactiveまたはretiredを判定する。"
+    "notes": "v1の6時間超失敗、v2のprivilege完了、v2のeliminate無成果長時間化を観測した。v2は結果件数を有限化したが実行時間と最初の保存を保証しなかったためentry workflow guardを追加し、次の2回でremote preflight、draft所要時間、attempt budget、安全停止を確認してactiveまたはretiredを判定する。"
   },
   "enforcement": {
     "mode": "mixed",
     "surface_in_playbook": true,
     "refs": [
       "prompts/source_first_audit_v2.md",
+      "prompts/entry_spec_v5.md",
+      "scripts/entry_workflow_guard.py",
       "scripts/source_first_audit_gate.py",
+      "tests/test_entry_workflow_guard.py",
       "tests/test_source_first_audit_gate.py",
       ".github/workflows/validate.yml"
     ]
   },
   "created_at": "2026-08-22",
-  "updated_at": "2026-08-22"
+  "updated_at": "2026-08-24"
 }

@@ -11,7 +11,7 @@
 開始時に調整役は `python scripts/process_improvement.py summary` と `python scripts/process_improvement.py validate` を実行し、`process_improvement/ACTIVE.md` の試行中・有効な運用知識を確認する。この情報は作業方法の改善にだけ使い、コールドレビュー担当と最終盲検担当には渡さない。
 
 1. 利用者がCodex等へ「`<見出し語>`を辞書に追加してPRを作成してください」と指示する。
-2. 調整役が `AGENTS.md` と `process_improvement/ACTIVE.md` を確認する。本文生成では、記事内容の仕様として現行完全版 `prompts/entry_spec_v5.md` だけを全文読み、`entries/` に完成記事を直接作成する。チャットの分割出力は使わず、必要な情報が揃うまでファイルを作成・修正する。
+2. 調整役が `AGENTS.md` と `process_improvement/ACTIVE.md` を確認する。外部調査や本文判断より先に専用remote branchを作り、`scripts/entry_workflow_guard.py start` のrun JSONを最初のcommitとしてpushする。`confirm-remote` が終了コード0になるまで調査を始めない。以後、時間・検索query・候補page・heartbeat budgetをguardで計測し、standardでは開始20分以内に回収可能なdraftをcommit・pushする。本文生成では、記事内容の仕様として現行完全版 `prompts/entry_spec_v5.md` だけを全文読む。
 3. `scripts/validate_entry.py` で形式検査する。
 4. 通常チェック担当が現行完全版 `prompts/check_spec_v5.md` だけを全文読み、生成時の分類を再利用しないゼロベース監査を行う。`scripts/content_audit.py build` で記事から全targetと、明示対応・混同リスクに絞ったrelationを生成し、各対象の判定、独立棚卸し候補、収録・除外理由、主張単位の根拠リンク、実行履歴を `audits/` へ外部化する。この担当は最終合否を決めない。
 5. 文脈を継承しない独立実行へ、front matterを除いた最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡し、コールドレビューを1回行う。生成仕様、チェック仕様、見出し語名、target/relation、過去の指摘、差分、queue、logs、既存判定は渡さない。コールドレビューは仕様が想定していない問題候補を本文引用付きscope anchorで返し、本文修正、体系的な全件保証、最終合否は担当しない。
@@ -20,7 +20,7 @@
 8. 通常チェック担当とコールドレビュー担当のどちらとも異なる実行が、`prompts/final_review_spec_v1.md` と修正後本文だけから盲検の独立棚卸し、`semantic_assertions`、問題探索を作り、`scripts/content_audit.py seal-blind` で出力を固定する。seal済み状態を先行コミットに保存してから監査記録と根拠を開き、後続コミットで両者の棚卸しを双方向比較し、全target・relation・候補・findingを一つずつ判定する。本文は修正しない。
 9. 本文ハッシュに結び付いた `PASS` の場合だけ、調整役が判定を変更せず `queue/words.csv` とfront matterをstatus `checked`、checked `true` へ同期する。`REJECT` も完了した正常な監査結果として保存し、status `needs_review`、checked `false` で通常チェック側の修正へ戻す。
 10. 最終状態で `scripts/validate_entry.py`、`scripts/validate_repository.py`、`scripts/content_audit.py validate`、全単体テストを実行する。
-11. エージェントが専用ブランチへcommit・pushし、Pull Requestを作成する。
+11. エージェントが各工程のcheckpointを専用ブランチへcommit・pushし、完了runと完成成果物を含むPull Requestを作成する。途中branchはPRにする必要がないが、開始記録、draft、安全停止理由をリモートへ残す。
 12. GitHub ActionsはAI生成・内容判断を行わず、PR内の記事形式、queueとの整合、本文ハッシュ、追記型review cycle、レビュー原出力、三者のrun・context分離、盲検出力の固定、全target・生成された全relation・棚卸し比較・findingの判定、主張単位の根拠リンク、高リスク根拠、最終 `PASS` または完了した `REJECT` の整合を再検証する。監査notesの文面一致だけでは拒否しない。
 13. 検証成功後、エージェントがPull Requestを `main` へマージする。利用者がレビュー待ちを明示した場合だけ、マージせず停止する。
 14. `.github/workflows/sync-notion.yml` が同期直前に完成監査を再検証し、通過した完成記事だけをNotionへ同期する。PRで変更された記事はv3を必須とし、未変更の旧監査を手動再同期するときだけ互換検証を使う。
@@ -69,8 +69,9 @@ GitHubリポジトリでは次を設定する。
 - `scripts/content_audit.py`: 本文から全targetと絞り込んだrelation、本文ハッシュを生成し、追記型review cycle、構造化レビュー原出力、実行履歴、盲検最終棚卸しの固定、棚卸し比較、全件判定、主張単位の根拠リンク、コールドレビューの構造化解決、最終 `PASS` または `REJECT` を検証する。
 - `scripts/semantic_resolution_gate.py`: findingのscope anchor、原子的意味制約、blast radius、全文query結果、最終項目判定と原出力の一致、旧PASS無効化を検証する。
 - `scripts/process_improvement.py`: プロジェクト横断の改善recordと、調整役が次回適用する `process_improvement/ACTIVE.md` の整合、重複、汎用化根拠、効果検証、肥大化を検証する。
+- `scripts/entry_workflow_guard.py`: 記事作成前のremote checkpoint、全体・pre-draft時間、検索query・候補page、heartbeat、工程順序、安全停止、変更entryと完了runの対応を検証する。
 - `process_improvement/`: 実行をまたいで再利用できる品質・効率・信頼性上の知見を、candidate・trial・active・retiredに分けて管理する。日次メモや単語固有の指摘は置かない。
-- `audits/`: 通常チェック、両審査の独立棚卸しと比較、主張単位の根拠リンク、コールドレビュー、第三者最終審査、三者の実行履歴を記事ごとに外部化するJSON監査記録。`runs/` に各ステージの原出力、`history/` に旧監査原文、`escaped_defect_taxonomy.json` に汎用の見逃し分類、`review_invalidations.json` に本文ハッシュ単位の旧PASS無効化を置く。
+- `audits/`: 通常チェック、両審査の独立棚卸しと比較、主張単位の根拠リンク、コールドレビュー、第三者最終審査、三者の実行履歴を記事ごとに外部化するJSON監査記録。`workflow_runs/` に本文作成前からの実行budgetとcheckpoint、`runs/` に各レビュー段階の原出力、`history/` に旧監査原文を置く。
 - `exports/`: CSV、Excel、結合Markdownなどの出力先。
 - `logs/`: 作業ログ。
 - `backups/`: 既存記事を上書きする前のバックアップ置き場。
@@ -113,7 +114,7 @@ CSVやExcelは本文の保存場所ではなく、進捗確認や索引作成の
 
 1. `queue/words.csv` に見出し語を追加する。
 2. Codexに件数を指定して生成を依頼する。
-3. 調整役が有効な運用知識を適用し、Codexは記事内容の仕様として `prompts/entry_spec_v5.md` だけを読み、語義・構文棚卸し、必須構文マトリクス、網羅性照合を行ってから、`entries/` 配下に1語1Markdownで作成する。
+3. 調整役が有効な運用知識を適用し、外部調査前にremote branchとworkflow runをpush・確認する。Codexは記事内容の仕様として `prompts/entry_spec_v5.md` だけを読み、standardでは20分以内にdraftを保存・pushしたうえで、語義・構文棚卸し、必須構文マトリクス、網羅性照合を完了する。
 4. `scripts/validate_entry.py` で形式検査する。
 5. 形式検査に通ったら、通常チェック担当は `prompts/source_first_audit_v2.md` のstandardまたは理由付きextended profileを固定し、本文の分類を見る前に6 coverage軸を有限の資料集合で閉じる。profile上限で閉じられない場合は `budget_exhausted`、`needs_review` として安全停止する。
 6. source-first inventoryを閉じた後、通常チェック担当は `prompts/check_spec_v5.md` だけを読み、既存本文の校正と、生成時の分類を再利用しない独立したゼロベース棚卸しを行う。本文から全target・relationを生成し、全件判定、独立棚卸し候補、主張単位の根拠リンク、実行履歴を `audits/` へ保存する。

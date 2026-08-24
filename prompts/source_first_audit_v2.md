@@ -36,6 +36,8 @@ source-firstは「ウェブ上の情報を見つからなくなるまで探す�
 
 1 research roundは、未解決coverage軸を明示してから行う一まとまりの資料確認を指す。資料を1件開くたびにroundを増やす意味ではない。
 
+research roundの内部も無制限ではない。`scripts/entry_workflow_guard.py` の全体時間、検索query、候補page、heartbeat上限を常に優先し、採用しなかった検索・候補資料もattempt budgetへ数える。round開始前に予定query数・候補page数を `record-research` へ記録し、終了後にheartbeatする。終了コード2ではsource-first側も `stop` し、存在するdraftと未解決coverage軸をcommit・pushして安全停止する。
+
 ## 資料選定と閉包条件
 
 - `complete` には、異なる `independence_group` を持つ `general_lexicon` 資料が2件以上必要である。
@@ -73,9 +75,16 @@ source-firstは「ウェブ上の情報を見つからなくなるまで探す�
 監査構造を手作業で組み立てない。
 
 ```bash
+python scripts/entry_workflow_guard.py record-research \
+  audits/workflow_runs/apple/<run-id>.json \
+  --queries 2 \
+  --candidate-pages 4
 python scripts/source_first_audit_gate.py init entries/a/apple.md
 python scripts/source_first_audit_gate.py close-inventory entries/a/apple.md --research-rounds 1
 python scripts/source_first_audit_gate.py start-comparison entries/a/apple.md
+python scripts/entry_workflow_guard.py checkpoint \
+  audits/workflow_runs/apple/<run-id>.json \
+  --stage source_inventory_complete
 python scripts/source_first_audit_gate.py prepare-final entries/a/apple.md
 python scripts/source_first_audit_gate.py record-attempt entries/a/apple.md --stage final
 python scripts/source_first_audit_gate.py summary entries/a/apple.md
@@ -104,6 +113,7 @@ python scripts/source_first_audit_gate.py stop entries/a/apple.md \
 - 最終審査は初回とREJECT後の再審査を合わせて最大2回とする。
 - 上限で問題が残る場合、同じ依頼内で新cycleを自動開始しない。`needs_review`、checked false、blocker付きで停止する。
 - 次の明示的なユーザー依頼で新cycleを開始できる。停止を避けるために合否基準を緩めてはならない。
+- source-firstの資料・fact・round数が上限内でも、entry workflowの時間・query・候補page・heartbeat budgetに達した場合は停止する。選定済み件数が少ないことを、追加探索を無制限に続ける理由にしない。
 
 ## 移行と合否
 

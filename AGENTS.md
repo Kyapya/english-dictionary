@@ -58,7 +58,10 @@
 
 ## 生成時のルール
 
-- 単語作業は本文生成前に専用branchを作る。source-first inventory完了、通常チェック完了、コールドレビュー完了、blind seal、最終照合完了をdurable checkpointとしてcommit・pushする。未完了branchへPRを作る必要はないが、長時間処理をローカルまたは会話内だけに保持しない。
+- 単語作業は、外部資料の検索、本文の語義判断、サブエージェント起動より先に専用branchを作り、`scripts/entry_workflow_guard.py start` で `audits/workflow_runs/` に開始記録を作る。その開始記録を最初のcommitとして直ちにpushし、`confirm-remote` がremote branch上のcommitにrun JSONが含まれることを確認するまで調査を始めない。
+- 実行profileは原則standard（全体60分、draft保存20分、検索query 12件、候補page 18件、heartbeat間隔10分）とする。理由付きextendedでも全体90分を超えない。採用資料数だけでなく、検索を試みるqueryと候補pageを各batch前に `record-research` で記録する。
+- 外部調査の各batch前後と少なくとも10分ごとに `entry_workflow_guard.py heartbeat` を実行する。guardの終了コード2、時間・query・候補page budget到達、heartbeat欠落では、存在するdraftと未解決事項を保存してcommit・pushし、同じ依頼内で探索や新cycleを続けない。
+- draft保存、source-first inventory完了、通常チェック完了、コールドレビュー完了、blind seal、最終照合完了を `entry_workflow_guard.py checkpoint` で順番に記録し、成果物とともにdurable checkpointとしてcommit・pushする。未完了branchへPRを作る必要はないが、長時間処理をローカルまたは会話内だけに保持しない。
 - 一度に処理する件数は、ユーザーが依頼時に明示した件数に従う。
 - 件数指定がない場合は、安全のため pending から5件だけ処理する。
 - 大量処理を依頼された場合でも、既存ファイルの上書き、形式エラー、処理失敗が発生した場合は作業を止め、ログに記録する。
@@ -120,6 +123,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - 通常チェックだけを理由に `checked: true` にせず、文脈を継承しない1回の必須コールドレビュー、指摘の判定・修正、採用が1件以上ある場合の全文再検査、第三者の最終審査を続ける。
 - `scripts/content_audit.py build` で本文から全targetと、明示対応・混同リスクに絞った記事横断のrelationを生成し、通常チェック担当は生成された全件を個別判定する。語義見出しと詳細定義、定義と類義語・反意語、コアイメージと詳細説明は必ず横断relationに含める。全語義ペアやコアイメージ×全語義の直積を網羅性の代用にしない。独立棚卸し候補と収録・除外理由、主張単位の根拠リンク、実行履歴も監査ファイルへ記録し、内部確認だけで完了させない。
 - 新規・変更監査は `prompts/source_first_audit_v2.md` に従い、`scripts/source_first_audit_gate.py init` で有限profileを先に固定する。外部資料から独立候補を作る原則は維持するが、資料・fact・research round・再検査・最終審査の上限を超えて探索を続けない。coverageを閉じられなければ `stop` で `budget_exhausted` と未解決事項を保存し、status `needs_review`、checked `false` で安全停止する。
+- source-firstの選定済み資料・fact上限とは別に、`entry_workflow_guard.py` の経過時間、検索query、候補page、heartbeat上限を全工程へ適用する。research roundはguardの上限を迂回できる任意長のまとまりとして扱わない。
 - 新規・変更監査は `content_audit_v3` とし、各ステージの原出力を `audits/runs/` にSHA-256付きで保存する。完了済み監査または本文を変更するときは `scripts/content_audit.py start-cycle` で旧監査原文を追記型履歴へ退避し、旧cycleを上書きしない。同一cycle内の本文修正は `body_revisions` に追記する。
 - 地域差、専門・制度用法、語義境界、頻度、語彙関係、絶対表現など高リスクの主張は独立した2資料または直接適用できる一次資料で確認し、根拠リンクに資料内の具体的位置、短い引用または忠実な要約、適用範囲、反例確認方法を記録する。資料IDだけを分けた同一引用元を独立2資料として数えない。
 - `audits/escaped_defect_taxonomy.json` の全分類を各cycleで確認し、見逃しが判明した場合は語固有でない分類と再発防止策を `escaped_defects` に追記する。同一・定型的なnotesの一致だけを不合格理由にしない。
@@ -169,7 +173,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - 通常チェック後は、文脈を継承しない1回の独立実行へ最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡す。通常チェック担当が指摘候補を判定し、必要な修正、採用が1件以上ある場合の全文再検査を完了しても、最終合否は決めない。
 - 第三者の最終審査担当が `PASS` を記録した後だけchecked状態へ同期する。
 - PR作成前にプロジェクト横断の継続改善判定を行い、登録条件を満たす知見がある場合だけ改善recordと必要な強制手段を同じ変更へ含める。登録条件を満たさない場合は改善メモを作らない。
-- PR作成前に `python -m unittest discover -s tests -v`、`python scripts/validate_entry.py entries`、`python scripts/validate_repository.py`、`python scripts/process_improvement.py validate`、対象記事への `python scripts/content_audit.py validate` をすべて成功させる。
+- PR作成前に `python -m unittest discover -s tests -v`、`python scripts/validate_entry.py entries`、`python scripts/validate_repository.py`、`python scripts/process_improvement.py validate`、`python scripts/entry_workflow_guard.py validate --merge-ready`、対象記事への `python scripts/content_audit.py validate` をすべて成功させる。
 - GitHub Actionsは記事を生成・修正しない。PRの機械検証だけを行う。
 - Pull Requestの機械検証が成功したら、エージェントが `main` へマージする。ユーザーがレビュー待ちまたはマージ停止を明示した場合だけ、Pull Requestを未マージで残す。
 - Notion同期は `main` へのマージ後だけ実行し、エージェントは `.github/workflows/sync-notion.yml` の成功を確認してから依頼を完了する。
@@ -184,6 +188,7 @@ front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く�
 - `scripts/content_audit.py`: 記事から単一箇所のtarget、記事横断のrelation、本文ハッシュを生成し、主張単位の根拠リンク、三者の実行履歴、盲検最終棚卸しの固定、通常・最終棚卸しの比較、コールドレビューの構造化解決、第三者最終審査の全件完了を検証する。
 - `scripts/semantic_resolution_gate.py`: scope anchor、意味制約、blast radius、全文query再計算、原出力との項目単位一致、旧PASS無効化を検証する。
 - `scripts/process_improvement.py`: 見出し語をまたいで再利用できる改善知識の汎用化条件、状態遷移、重複、根拠、効果検証、肥大化、`ACTIVE.md` の同期を検証する。
+- `scripts/entry_workflow_guard.py`: 記事作成前のremote checkpoint、経過時間・検索query・候補page・heartbeat budget、工程順序、安全停止、変更entryと完了runの対応を検証する。
 - `scripts/export_index.py`: queueとentriesから索引CSV、可能ならExcelを出力する。Excelの `file` 列には、対応するMarkdownファイルをクリックして開けるハイパーリンクを付ける。
 - `scripts/export_all_markdown.py`: checkedまたはfinalの記事を1つのMarkdownに結合する。
 - `scripts/queue_status.py`: queueの件数をstatus別に表示する。
