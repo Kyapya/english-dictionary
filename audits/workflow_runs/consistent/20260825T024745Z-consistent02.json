@@ -15,25 +15,50 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 10,
+    "candidate_pages": 14
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "cold_review_complete",
   "started_at": "2026-08-25T02:47:39Z",
   "deadline_at": "2026-08-25T03:47:39Z",
   "pre_draft_deadline_at": "2026-08-25T03:07:39Z",
-  "last_heartbeat_at": "2026-08-25T02:47:39Z",
+  "last_heartbeat_at": "2026-08-25T02:48:58Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T02:48:48Z",
+    "commit_sha": "8ff050c9a9a2b035b27bf8860be8c474c35db2a5"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-08-25T02:47:39Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T02:48:48Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T02:48:57Z",
+      "notes": "complete v5 draft saved; format validation passed; audit artifacts regenerated for latest body"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T02:48:58Z",
+      "notes": "six-source bounded inventory closed; 28 atomic facts and six coverage axes validated before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T02:48:58Z",
+      "notes": "normal review completed; 117 targets, 73 relations, and seven independent candidates passed"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T02:48:58Z",
+      "notes": "one context-free cold review completed with no problem candidates"
     }
   ],
   "stop_reason": "",
