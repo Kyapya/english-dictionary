@@ -1,0 +1,186 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-obvious-cycle001-initial-20260825",
+  "input_body_sha256": "fdf1c12d26e680541176dc52e1d1eff87e93845b643fe62d5b0190de0752b982",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "obvious",
+      "frame": "be obvious; obvious that/to/from/wh; make it obvious",
+      "meaning": "明らかな、すぐ分かる",
+      "rationale": "General core adjective sense and its major complement frames.",
+      "disposition": "included",
+      "article_target_ids": [
+        "antonym:001",
+        "antonym:002",
+        "antonym:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "definition:001",
+        "frequency:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "register:001",
+        "sense_boundary:001",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "usage_note:001"
+      ],
+      "evidence_link_ids": [
+        "EL-0233"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "obvious",
+      "frame": "the/an obvious choice/solution/answer; obvious thing to do",
+      "meaning": "当然の、まず思いつく候補",
+      "rationale": "High-frequency candidate/solution sense distinct from mere perceptual clarity.",
+      "disposition": "included",
+      "article_target_ids": [
+        "antonym:004",
+        "antonym:005",
+        "collocation:011",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "definition:002",
+        "frequency:002",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "register:002",
+        "sense_boundary:002",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "usage_note:002"
+      ],
+      "evidence_link_ids": [
+        "EL-0234"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "obvious",
+      "frame": "too obvious; obvious ending/joke; state the obvious",
+      "meaning": "見え見えの、安直な、工夫のない",
+      "rationale": "Disapproving evaluative use identified independently and kept separate from neutral obvious reference.",
+      "disposition": "included",
+      "article_target_ids": [
+        "antonym:006",
+        "antonym:007",
+        "antonym:008",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021",
+        "definition:003",
+        "frequency:003",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "grammar_pattern:018",
+        "register:003",
+        "sense_boundary:003",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012",
+        "usage_note:003"
+      ],
+      "evidence_link_ids": [
+        "EL-0235"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "obvious",
+      "frame": "obvious to a skilled person; obvious in view of prior art; obvious to try",
+      "meaning": "特許法上、容易に想到できる",
+      "rationale": "Patent-law specialist use across US/EPC/UK, with US §103 and obvious-to-try qualifications.",
+      "disposition": "included",
+      "article_target_ids": [
+        "antonym:009",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "definition:004",
+        "frequency:004",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "register:004",
+        "sense_boundary:004",
+        "usage_note:004"
+      ],
+      "evidence_link_ids": [
+        "EL-0236"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "obviously / obviousness",
+      "frame": "obviously + clause/adjective; obviousness",
+      "meaning": "副詞 obviously と名詞 obviousness",
+      "rationale": "Productive high-value derived forms.",
+      "disposition": "included",
+      "article_target_ids": [
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003",
+        "word_formation:004"
+      ],
+      "evidence_link_ids": [
+        "EL-0237"
+      ]
+    },
+    {
+      "id": "NC-06",
+      "surface_form": "nonobvious / nonobviousness",
+      "frame": "nonobvious over prior art; nonobviousness",
+      "meaning": "米国特許法の非自明・非自明性",
+      "rationale": "Specialist negative formations needed to understand the US patent-law contrast.",
+      "disposition": "included",
+      "article_target_ids": [
+        "antonym:009",
+        "word_formation:003",
+        "word_formation:004"
+      ],
+      "evidence_link_ids": [
+        "EL-0238"
+      ]
+    }
+  ],
+  "target_results": [],
+  "relation_results": []
+}

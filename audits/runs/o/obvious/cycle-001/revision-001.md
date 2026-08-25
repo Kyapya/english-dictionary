@@ -1,0 +1,370 @@
+
+＃発音記号
+
+米: /ˈɑːb.vi.əs/｜英: /ˈɒb.vi.əs/。3音節で、第1音節に主強勢がある。米英で主に異なるのは第1音節の母音で、米では /ɑː/、英では /ɒ/。第2音節は /vi/、第3音節は弱い /əs/ で、/b/ と /v/ が音節境界をまたいで連続する。  
+日本語話者は /b/ と /v/ のどちらかを落として「オビアス」「オヴィアス」に寄せないよう、/b/ の閉鎖を作った直後に下唇と上の歯で /v/ を続けるとよい。派生副詞 obviously は米 /ˈɑːb.vi.əs.li/・英 /ˈɒb.vi.əs.li/ で、主強勢の位置は変わらない。  
+
+＃語源
+
+16世紀後半にラテン語 obvius「道にある、目の前に現れる、容易に出会う」から英語に入った。obvius は ob-「～の前に、～に向かって、～に対して」と via「道」に関係し、もともとは「道の上で出会う・目の前にある」という空間的な発想を持つ。英語でも初期には「よく出会う、ありふれた」のような意味があり、17世紀には現在の中心義である「目に入りやすい、明白な」が定着した。  
+同じ via「道」に関係する語として via「～経由で」、deviate「道筋からそれる」、previous の語源となったラテン語 praevius「前を行く」がある。obviate「不要にする、未然に防ぐ」も Latin obvius・obviam と同じ語源系統に属するが、現代英語では obvious の派生動詞ではなく、意味も「明らかにする」ではない。  
+
+＃語形成
+
+・obviously：副詞。「明らかに、見れば分かるように」のほか、文副詞として「もちろん、当然ながら」のように、話し手が相手も共有すると見込む情報を提示する。  
+・obviousness：名詞・不可算。「明白さ、見え見えであること」。一般語として使えるが、obvious や obviously より頻度は低い。  
+・nonobvious：形容詞。「自明でない、容易には想到できない」。特に米国特許法で nonobviousness とともに重要な専門語として使われる。  
+・nonobviousness：名詞・不可算。「非自明性」。米国特許法では、先行技術に照らして発明が容易に想到できないという特許性の要件を指す。  
+
+＃コアイメージ
+
+中心にあるのは「手掛かり・特徴・選択肢が前面に出ていて、特別な探索や複雑な推論をしなくても認識できる」という感覚である。そこから、単に分かりやすいことにも、候補として真っ先に浮かぶことにも、見えすぎて工夫がないという否定評価にも広がる。特許法の語義4も「当業者なら先行技術から容易に到達できる」という語彙的意味はこの核から導けるが、法的な判定基準や効果は制度固有なので語義4で個別に確認する。  
+
+・事実や手掛かりが前面に出ること → 「明らかな、すぐ分かる」（語義1）  
+・候補が真っ先に前面に出ること → 「当然の、まず思いつく」（語義2）  
+・展開や表現が見えすぎること → 「見え見えの、安直な、工夫のない」（語義3）  
+・先行技術から解決が前面に出ること → 「容易に想到できる、非自明性を欠く」（語義4）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞】明らかな、すぐ分かる、容易に見抜ける
+
+【日本語訳・定義】見た目、行動、証拠、文脈、論理関係などから、特別な説明や難しい推論を必要とせず容易に認識・理解できることを表す。「誰にとって明らかか」は文脈依存であり、obvious 自体が文字どおり「全員が必ず知っている」ことまで要求するわけではないが、話し手はかなり分かりやすいと評価している。  
+
+【頻度】〈10/10〉  
+
+【レジスター/領域】一般語。会話、報道、ビジネス、学術など幅広い。clear よりも「手掛かりが目立ち、見れば分かる」という含みが強く、相手の理解力に関わる場面では強く響くことがある。  
+
+【文法パターン】something + be・seem・become obvious＝〈事実・感情・問題など〉が明らかである／it + be・seem・become obvious + that 〈節〉＝～であることが明らかだ／something + be obvious to someone＝〈人〉にとって明らかだ／it + be obvious to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be obvious from 〈evidence・statement・context〉 + that 〈節〉＝〈根拠〉から～が明らかだ／make something obvious・make it obvious + that 〈節〉＝何かを明白にする・態度などで～をはっきり示す／it + be obvious + 〈what・why・how・who節〉＝何・なぜ・どうかが明らかだ。  
+
+【コロケーション】
+
+・it is obvious that 〈節〉  
+用途: 状況や証拠から容易に分かる判断を述べる最も基本的な構文。  
+例: It was obvious that the figures had been entered incorrectly.  
+訳: その数値が誤って入力されていたのは明らかだった。  
+
+・be obvious to someone  
+用途: 誰にとって明らかなのかを示す。  
+例: The mismatch was obvious to everyone in the room.  
+訳: その不一致は部屋にいた全員には明らかだった。  
+
+・be obvious from 〈evidence・behavior・context〉 that 〈節〉  
+用途: 明白だと判断する根拠を示す。  
+例: It was obvious from her tone that she was frustrated.  
+訳: 彼女がいら立っていることは、その口調から明らかだった。  
+
+・become obvious that 〈節〉  
+用途: 時間の経過や追加情報によって、当初は分からなかったことが明らかになる。  
+例: It soon became obvious that the original schedule was unrealistic.  
+訳: 当初の予定が現実的でないことは、すぐに明らかになった。  
+
+・make it obvious that 〈節〉  
+用途: 言動によって考え・感情・意図をはっきり表す。意図的とは限らない。  
+例: He made it obvious that he did not want to discuss the issue further.  
+訳: 彼はその問題をこれ以上話し合いたくないことを明白に示した。  
+
+・for obvious reasons  
+用途: 理由が聞き手にも容易に推測できるとして、詳しい説明を省く。  
+例: For obvious reasons, the passwords were removed from the shared document.  
+訳: 明らかな理由から、共有文書からパスワードは削除された。  
+
+・painfully・blindingly・perfectly obvious  
+用途: 明白さの程度を強める。painfully obvious は「認めたくないほど／痛いほど明らか」、blindingly obvious は非常に強い口語的強調。  
+例: It was painfully obvious that the team had underestimated the workload.  
+訳: チームが作業量を甘く見積もっていたことは、痛いほど明らかだった。  
+
+・an obvious 〈mistake・sign・difference・weakness〉  
+用途: 目立っていて容易に見つけられる誤り・兆候・差・弱点などを限定用法で表す。  
+例: The report contains an obvious calculation error.  
+訳: その報告書には明らかな計算ミスがある。  
+
+【語法・注意】That's obvious. や It's obvious. を相手の発言への返答として使うと、「そんなことは分かり切っている」「なぜ分からないのか」という上から目線・苛立ちとして聞こえることがある。単に「分かりやすい」と言いたい場合は clear を選ぶ方が安全な場面も多い。また make something clear は「説明して分かるようにする」という意図的行為に使いやすい一方、make something obvious は「態度や状況のせいで、意図せず隠しきれなくする」という読みも自然である。apparent は「観察上そう見える」という意味から「見かけ上の」に広がることがあり、obvious より真偽を保留しやすい。  
+
+【類義語】
+
+・clear  
+定義: 理解・判断しやすく、疑問や混乱が少ない。  
+頻度: 〈10/10〉  
+違い: clear は説明・表現・状況の「分かりやすさ」全般を表し、意図的に make something clear とできる。obvious は手掛かりが目立ち、説明なしでも分かるという含みがより強い。  
+例: The instructions were clear and easy to follow.  
+訳: その指示は明確で、従いやすかった。  
+
+・evident  
+定義: 観察できる兆候や証拠から明らかである。  
+頻度: 〈7/10〉  
+違い: evident はやや硬く、証拠・兆候が結論を示していることに焦点を置く。obvious は日常語で、証拠に限らず直観的な分かりやすさにも広く使える。  
+例: Her relief was evident in her expression.  
+訳: 彼女がほっとしていることは表情にはっきり表れていた。  
+
+・apparent  
+定義: 観察や状況から見て明らかに思われる。  
+頻度: 〈8/10〉  
+違い: apparent は「そう見える」という観察上の明白さを表し、文脈によっては実際は違う可能性を残す。obvious は通常、話し手がより確信を持って明白だと判断している。  
+例: No damage was apparent from the initial inspection.  
+訳: 最初の点検では損傷は見当たらなかった。  
+
+・plain  
+定義: 隠れず、容易に見て取れる・理解できる。  
+頻度: 〈7/10〉  
+違い: plain は plain to see、make it plain などの定着表現で自然で、率直・明白という語感を持つ。obvious の方が一般に幅広い名詞を直接修飾しやすい。  
+例: It was plain to see that the plan needed more work.  
+訳: その計画にはさらに検討が必要なのは一目瞭然だった。  
+
+・unmistakable  
+定義: 他のものと取り違えようがないほど明白な。  
+頻度: 〈6/10〉  
+違い: unmistakable は誤認の余地がほぼない強い語で、obvious より強度が高い。  
+例: There was an unmistakable note of disappointment in his voice.  
+訳: 彼の声には紛れもない失望の響きがあった。  
+
+【反意語】
+
+・unclear  
+定義: 意味・状況・理由などがはっきりせず、容易に理解できない。  
+頻度: 〈9/10〉  
+違い: obvious と同じ理解可能性の軸で反対側にあり、「すぐ分かる」に対して「はっきり分からない」を表す。  
+例: The cause of the delay remains unclear.  
+訳: 遅延の原因は依然として不明だ。  
+
+・obscure  
+定義: 分かりにくい、知られていない、見えにくい。  
+頻度: 〈6/10〉  
+違い: obscure は情報や意味が覆われていて理解・認識しにくいことを表し、obvious の「前面に出ていて分かる」と対照的である。  
+例: The reference is too obscure for most readers to recognize.  
+訳: その言及はほとんどの読者には分からないほど難解だ。  
+
+・subtle  
+定義: 差・特徴・効果などが繊細で、すぐには気づきにくい。  
+頻度: 〈8/10〉  
+違い: obvious が目立って容易に認識できるのに対し、subtle は注意を向けないと気づきにくいという程度上の対立を作る。  
+例: There is a subtle difference between the two versions.  
+訳: その2つの版には微妙な違いがある。  
+
+2. 【形容詞】当然の、まず思いつく、最も自然な候補である
+
+【日本語訳・定義】選択肢、解決策、答え、例、候補、次の行動などについて、多くの人が最初に考えつく・選びそうであることを表す。「明らかに正しい」と断定するのではなく、他の候補より目立って自然・有力に見えるという意味で使われることが多い。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】一般語。日常会話、ビジネス、問題解決、評論などで非常によく使う。特に choice、solution、answer、candidate、example、place、next step などとの結びつきが強い。  
+
+【文法パターン】the・an obvious 〈choice・answer・solution・candidate・example〉＝当然まず考える〈選択・答え・解決策・候補・例〉／the obvious thing to do＝まず当然考えるべきこと／the obvious place to start＝まず自然に着手する場所・点／there + be + no obvious 〈solution・answer・reason〉＝すぐ思いつく明確な〈解決策・答え・理由〉がない／the most obvious 〈choice・explanation・example〉＝最も自然に思いつく候補。  
+
+【コロケーション】
+
+・the obvious choice  
+用途: 複数候補の中で、最も自然・有力に見える選択を示す。  
+例: With her experience, Maya was the obvious choice to lead the project.  
+訳: その経験を考えれば、マヤがプロジェクトを率いる当然の候補だった。  
+
+・an obvious solution  
+用途: 問題に対してまず思いつく、分かりやすい解決策を示す。  
+例: Hiring more staff may seem like an obvious solution, but the budget is limited.  
+訳: 人員を増やすのは当然の解決策に見えるかもしれないが、予算には限りがある。  
+
+・the obvious answer  
+用途: 質問や問題に対して、多くの人が最初に考える答えを示す。  
+例: The obvious answer is to reduce unnecessary steps.  
+訳: まず思いつく答えは、不要な手順を減らすことだ。  
+
+・the obvious thing to do  
+用途: 状況から見て最も自然に思える行動を述べる。  
+例: The obvious thing to do was to back up the data before changing the system.  
+訳: 当然すべきことは、システムを変更する前にデータをバックアップすることだった。  
+
+・the obvious place to start  
+用途: 調査・作業・説明などで、最初に着手するのが自然な地点を示す。  
+例: The sales records are the obvious place to start looking for the discrepancy.  
+訳: その不一致を調べ始めるなら、売上記録がまず当然見るべき場所だ。  
+
+・there is no obvious 〈solution・answer〉  
+用途: すぐに有力と分かる解決策・答えが見当たらないことを表す。  
+例: There is no obvious solution that satisfies both teams.  
+訳: 両方のチームを満足させる、すぐに分かる解決策はない。  
+
+【語法・注意】an obvious solution や the obvious choice は「それが唯一正しい／最善である」という意味ではない。むしろ「最初に目につく」「普通ならまず考える」候補を指すため、The obvious solution is not always the best one. のように最善策と対比できる。語義1の an obvious mistake は「容易に見つかる誤り」だが、語義2の an obvious choice は「候補として自然に浮かぶ選択」であり、同じ限定用法でも焦点が異なる。  
+
+【類義語】
+
+・natural  
+定義: 状況や性質から見て無理がなく、当然そうなる・そう選ぶと思われる。  
+頻度: 〈9/10〉  
+違い: natural choice は「事情から自然に適する」ことに焦点があり、obvious choice は「他より目立って真っ先に思いつく」ことに焦点がある。  
+例: She was a natural choice for the role because she knew the system well.  
+訳: 彼女はそのシステムをよく知っていたので、その役には自然な人選だった。  
+
+・logical  
+定義: 理由や推論の流れに照らして筋が通った、当然の。  
+頻度: 〈8/10〉  
+違い: logical は根拠の筋道に焦点を置く。obvious は論理的でなくても、慣習・見た目・目立ちやすさから最初に浮かぶ候補に使える。  
+例: Expanding the existing service was the logical next step.  
+訳: 既存サービスを拡大するのが論理的な次の一手だった。  
+
+・straightforward  
+定義: 複雑さがなく、理解・実行しやすい。  
+頻度: 〈8/10〉  
+違い: straightforward solution は解決策そのものが単純で扱いやすいことを示す。obvious solution は「思いつきやすさ」に重点があり、実行が簡単とは限らない。  
+例: There is a straightforward way to correct the error.  
+訳: その誤りを直す簡単で分かりやすい方法がある。  
+
+【反意語】
+
+・counterintuitive  
+定義: 直感や普通の予想に反していて、最初には思いつきにくい。  
+頻度: 〈6/10〉  
+違い: obvious が多くの人にとって自然に浮かぶ候補を表すのに対し、counterintuitive は直感的予想とは逆の方向を示す。  
+例: The most effective solution was surprisingly counterintuitive.  
+訳: 最も効果的な解決策は意外にも直感に反するものだった。  
+
+・unexpected  
+定義: 普通の予想から外れている、思いがけない。  
+頻度: 〈9/10〉  
+違い: obvious が予想の中心にある候補を示すのに対し、unexpected は予想していなかった結果・選択を示す。  
+例: They reached an unexpected conclusion.  
+訳: 彼らは予想外の結論に達した。  
+
+3. 【形容詞・批判的】見え見えの、安直な、工夫のない、繊細さに欠ける
+
+【日本語訳・定義】冗談、筋書き、表現、演出、言い回し、狙いなどが予想しやすすぎる、または誰にでも分かることをわざわざ示していて、新鮮さ・想像力・繊細さに欠けると批判する用法。語義1・2の「分かりやすい／すぐ思いつく」が、分かりやすすぎることへの否定評価に転じたもの。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】一般会話、映画・文学・デザイン・広告などの批評で使う。通常は否定的だが、どの程度批判的かは文脈と too、rather、pretty などの程度表現で変わる。  
+
+【文法パターン】something + be too・rather・pretty obvious＝〈展開・冗談・狙いなど〉が見え見えだ／an obvious 〈joke・ending・reference・ploy〉＝見え見えの〈冗談・結末・言及・策略〉／state the obvious＝誰もが分かっていることをわざわざ言う／avoid the obvious＝ありきたりで安直な選択を避ける／look beyond the obvious＝表面的・すぐ目につくものの先を見る。  
+
+【コロケーション】
+
+・be too obvious  
+用途: 表現・展開・意図などが予想しやすすぎて、効果や面白さを失っていると評価する。  
+例: The twist was too obvious to be surprising.  
+訳: そのどんでん返しは見え見えすぎて、驚きにはならなかった。  
+
+・an obvious joke  
+用途: 誰でもすぐ思いつくため、新鮮味に欠ける冗談を表す。  
+例: He resisted making the obvious joke about the company name.  
+訳: 彼はその会社名についてのありがちな冗談を言うのをこらえた。  
+
+・an obvious ending  
+用途: 先が簡単に読める、意外性のない結末を表す。  
+例: The film was entertaining despite its obvious ending.  
+訳: その映画は結末が見え見えだったにもかかわらず楽しめた。  
+
+・an obvious reference  
+用途: 元ネタや意図が露骨に分かる言及・引用を表す。評価は文脈によって軽い批判から中立まである。  
+例: The design includes an obvious reference to 1980s arcade games.  
+訳: そのデザインには1980年代のアーケードゲームをあからさまに意識した要素がある。  
+
+・state the obvious  
+用途: 誰もが既に理解していることを改めて口にする。しばしば自己弁護的・皮肉的に使う。  
+例: I may be stating the obvious, but we cannot approve a plan without a budget.  
+訳: 当たり前のことを言うようだが、予算なしに計画を承認することはできない。  
+
+・avoid the obvious  
+用途: ありきたりな発想・表現・選択を避ける。  
+例: The writer tried to avoid the obvious and give the character a less predictable response.  
+訳: その作家は安直な展開を避け、登場人物にもっと予想外の反応をさせようとした。  
+
+・look beyond the obvious  
+用途: 目立つ表面的な説明・特徴だけで判断せず、より深い要因を見る。  
+例: Good analysis looks beyond the obvious and tests alternative explanations.  
+訳: 良い分析は目につく説明だけで終わらず、別の説明も検証する。  
+
+【語法・注意】語義3は obvious に常に付く否定評価ではない。an obvious answer、an obvious reason、an obvious improvement などは中立または肯定的にも使える。否定的になるのは、驚き・創造性・繊細さが期待される場面で「簡単に読める」こと自体が欠点になる場合や、state the obvious のように「分かり切ったことを言う」ことが不要と評価される場合である。blatant は規則違反・嘘・偏見など「悪いものが露骨で隠しようがない」場面に強く、obvious の「ありきたり・想像力不足」とは同義ではない。  
+
+【類義語】
+
+・predictable  
+定義: 展開・反応・結果などが容易に予想でき、意外性がない。  
+頻度: 〈8/10〉  
+違い: predictable は「先を予測できること」が中心で、必ずしも想像力不足を批判しない。obvious は批評文脈では、予測しやすさに加えて安直さ・露骨さを含みやすい。  
+例: The second half of the story became predictable.  
+訳: 物語の後半は展開が読めるようになった。  
+
+・unimaginative  
+定義: 発想・表現に想像力や独創性が乏しい。  
+頻度: 〈5/10〉  
+違い: unimaginative は創造性不足を直接批判する。obvious はまず「見え見え・誰でも思いつく」という性質を述べ、そこから創造性不足を含意する。  
+例: The campaign was criticized as repetitive and unimaginative.  
+訳: そのキャンペーンは反復的で想像力に欠けると批判された。  
+
+・trite  
+定義: 使い古されて新鮮味を失った表現・考えである。  
+頻度: 〈4/10〉  
+違い: trite は「繰り返し使われすぎたこと」が中心である。obvious は使い古されていなくても、展開や意図が簡単に読めれば使える。  
+例: The speech relied on a few trite slogans.  
+訳: その演説はいくつかの陳腐なスローガンに頼っていた。  
+
+・unsubtle  
+定義: 表現・やり方が露骨で、繊細さや含みがない。  
+頻度: 〈4/10〉  
+違い: unsubtle は「繊細でない」を直接表す。obvious は結果として意図や仕掛けが見えすぎることに焦点を置く。  
+例: The message was deliberately unsubtle.  
+訳: そのメッセージは意図的に露骨なものだった。  
+
+【反意語】
+
+・subtle  
+定義: 表現・仕掛け・差異などが繊細で、すぐには気づきにくい。  
+頻度: 〈8/10〉  
+違い: 語義3の obvious が「見えすぎて繊細さに欠ける」のに対し、subtle は気づかせ方が控えめで精妙という反対方向を表す。  
+例: The film uses subtle visual clues rather than direct explanation.  
+訳: その映画は直接説明するのではなく、繊細な視覚的手掛かりを使っている。  
+
+・original  
+定義: 発想・作品・方法などが独自で新しい。  
+頻度: 〈8/10〉  
+違い: obvious が「誰でも思いつく安直さ」を批判する軸では、original が独自性・新規性の反対側に位置する。  
+例: The proposal was both practical and original.  
+訳: その提案は実用的で独創的だった。  
+
+・surprising  
+定義: 予想を外し、驚きを生じさせる。  
+頻度: 〈9/10〉  
+違い: obvious ending のように「先が読める」こととの対立では、surprising が「予想外で驚かせる」ことを表す。  
+例: The novel reaches a surprising but convincing conclusion.  
+訳: その小説は意外だが納得できる結末に至る。  
+
+4. 【形容詞・法律（米国特許）】容易に想到できる、非自明性を欠く
+
+【日本語訳・定義】米国特許法で、クレームされた発明を全体として見たとき、先行技術との差が、基準時点において当該技術分野の通常の技能を持つ仮想的な人物にとって容易に想到できたと判断されること。35 U.S.C. § 103 の特許性要件に関わる専門用法で、単に「一般人にとって簡単」「発明後に見れば簡単」という意味ではない。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】米国の特許法、特許審査、特許訴訟。日常語の obvious と語彙的な核は共有するが、判断主体、基準時、先行技術、クレーム全体という制度上の枠組みが定められている。  
+
+【文法パターン】a claimed invention + would have been obvious to a person having ordinary skill in the art＝クレームされた発明が当業者にとって容易に想到できた／a claim・invention + be obvious in view of 〈prior art・reference〉＝先行技術・文献に照らして容易想到である／a claim + be obvious under 35 U.S.C. § 103＝米国特許法103条上の非自明性を欠く／〈reference・combination〉 + render a claim obvious＝文献・組合せによってクレームが容易想到と判断される根拠になる。  
+
+【コロケーション】
+
+・would have been obvious to a person having ordinary skill in the art  
+用途: § 103 の中心的な判断主体を示す定型的な法的表現。  
+例: The examiner concluded that the claimed combination would have been obvious to a person having ordinary skill in the art.  
+訳: 審査官は、そのクレームされた組合せは当業者なら容易に想到できたと判断した。  
+
+・be obvious in view of 〈prior art・reference〉  
+用途: どの先行技術・文献を根拠に容易想到と評価するかを示す。  
+例: The claim was rejected as obvious in view of two earlier references.  
+訳: そのクレームは、2件の先行文献に照らして容易想到であるとして拒絶された。  
+
+・be obvious under 35 U.S.C. § 103  
+用途: 米国特許法103条に基づく非自明性の判断であることを明示する。  
+例: The court held that the patent claim was obvious under 35 U.S.C. § 103.  
+訳: 裁判所は、その特許クレームは米国特許法103条上、容易想到であると判断した。  
+
+・render a claim obvious  
+用途: ある先行技術やその組合せが、クレームを容易想到とする根拠になることを表す。  
+例: The reference alone did not render the claim obvious.  
+訳: その文献だけでは、そのクレームを容易想到とするには足りなかった。  
+
+【語法・注意】米国法では、先行技術に発明と同一の内容が一つの資料として記載されていなくても、§ 103 に基づいて obvious と判断され得る。判断はクレームされた発明を「全体として」捉え、基準時点の当業者を基準にするため、発明を知った後の hindsight だけで「簡単だった」と評価するのは不適切である。日常語の obvious to everyone を、そのまま特許法の obvious to a person having ordinary skill in the art と置き換えない。米国外では制度・用語が異なり、たとえば欧州特許実務の inventive step と単純に同一語として扱わない。  
+
+【反意語】
+
+・nonobvious  
+定義: 米国特許法で、当業者にとって先行技術から容易には想到できない。  
+頻度: 〈3/10〉  
+違い: obvious と同じ § 103 の判断軸上で直接反対に位置する専門語で、nonobviousness は特許性の要件の一つを表す。  
+例: The applicant argued that the claimed improvement was nonobvious over the cited prior art.  
+訳: 出願人は、そのクレームされた改良は引用された先行技術に対して非自明であると主張した。  
