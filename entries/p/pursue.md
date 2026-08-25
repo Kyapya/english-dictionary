@@ -205,7 +205,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 【レジスター/領域】標準語。ビジネス、研究、政策、法律、行政で特に多い。pursue legal action は「法的措置を取る・法的手続きを進める」で、必ず訴訟で勝つことまでは表さない。  
 
-【文法パターン】pursue 〈policy/strategy/course〉＝方針・戦略を進める／pursue 〈an interest/studies/research〉＝関心・学業・研究を続ける／pursue 〈a matter/claim/case〉＝問題・請求・案件を追及する／pursue legal action＝法的措置を進める／pursue 〈something〉 further＝～をさらに追及する  
+【文法パターン】pursue 〈policy/strategy/course〉＝方針・戦略を進める／pursue 〈an interest/studies/research〉＝関心・学業・研究を続ける／pursue 〈a matter/claim/case〉＝問題・請求・案件を追及する／pursue legal action＝法的措置を進める／pursue 〈案件・活動〉 further＝～をさらに追及する  
 
 【コロケーション】
 
@@ -375,7 +375,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 例: She was unsure whether to pursue a relationship with her colleague.  
 訳: 彼女は同僚と交際を始めようとするべきか迷っていた。  
 
-・be actively pursued by 〈someone〉  
+・be actively pursued by 〈人〉  
 用途: 相手から積極的に交際や関心を求められている状態を表す。  
 例: The actor was actively pursued by several magazines for an interview.  
 訳: その俳優には、複数の雑誌がインタビューを求めて積極的に接触した。  
