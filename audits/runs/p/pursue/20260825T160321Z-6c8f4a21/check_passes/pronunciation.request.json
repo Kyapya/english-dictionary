@@ -1,0 +1,43 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "ffad9df6d6070756910f531b8f5ec2d421fb198c12c552b5181c50d7889ce47f",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /pərˈsuː/｜英: /pəˈsjuː/。2音節で、第2音節に主強勢がある。米語の第1音節は弱い r 色のある /pər/、英語は弱い /pə/。第2音節は米語が /suː/、英語が /sjuː/ で、英語では /s/ の後に弱い /j/ が入る。  "
+      },
+      {
+        "line": 16,
+        "text": "三人称単数 pursues は米 /pərˈsuːz/・英 /pəˈsjuːz/、過去形・過去分詞 pursued は米 /pərˈsuːd/・英 /pəˈsjuːd/、-ing形 pursuing は米 /pərˈsuːɪŋ/・英 /pəˈsjuːɪŋ/。語末の /z/ は有声音の後なので /s/ ではなく /z/、-ed は /d/ と発音する。綴りでは pursue に -ing を付けると語末の e を落として pursuing となるが、pursued では e を残して pursued と綴る。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

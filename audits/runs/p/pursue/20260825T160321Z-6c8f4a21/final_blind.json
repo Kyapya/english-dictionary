@@ -1,0 +1,98 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-pursue-20260825T161300Z",
+  "context_id": "blind-pursue-context-20260825T161300Z",
+  "audit_visible": false,
+  "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+  "prompt_sha256": "71852446a1e1f8ead61d71e0d68c891c3e753d8476e72ce6998af22468a75d38",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "recorded_at": "2026-08-25T16:13:00Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "pursue + person/animal",
+      "frame": "pursue 〈人・動物〉",
+      "meaning": "追いかけて捕らえる・打ち負かす",
+      "disposition": "included",
+      "rationale": "The article must retain a physically directed chase sense distinct from abstract pursuit.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The first sense is a transitive physical following use directed at a person or animal.",
+          "polarity": "must_hold",
+          "scope": "sense 1"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "pursue + goal/career/degree",
+      "frame": "pursue 〈目標・職業・学位〉",
+      "meaning": "目標などを追求する",
+      "disposition": "included",
+      "rationale": "The abstract goal sense must express sustained effort rather than immediate possession.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The second sense covers sustained effort toward a goal, career, degree, or dream.",
+          "polarity": "must_hold",
+          "scope": "sense 2"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "pursue + policy/matter/course",
+      "frame": "pursue 〈方針・案件・進路〉",
+      "meaning": "方針・案件・進路を続けて進める",
+      "disposition": "included",
+      "rationale": "The article must distinguish continuing an undertaking from merely wanting an outcome.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "Senses 3 and 4 cover continuing an undertaking and proceeding along a chosen course or line.",
+          "polarity": "must_hold",
+          "scope": "senses 3-4"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "pursue + romantic target",
+      "frame": "pursue 〈人〉",
+      "meaning": "恋愛対象を追い求める",
+      "disposition": "included",
+      "rationale": "The romantic use must be marked with a caution about persistence and consent-sensitive interpretation.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004-SA-001",
+          "statement": "The fifth sense describes romantic or sexual pursuit and explicitly warns that persistence can sound unwelcome.",
+          "polarity": "must_hold",
+          "scope": "sense 5"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "be pursued by memory/fear/guilt",
+      "frame": "be pursued by 〈記憶・恐怖・罪悪感〉",
+      "meaning": "記憶などに追い立てられ続ける",
+      "disposition": "included",
+      "rationale": "The figurative passive must be kept separate from the physical chase and marked as literary or figurative.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005-SA-001",
+          "statement": "The sixth sense is a figurative passive use in which a memory, fear, or guilt continues to affect someone.",
+          "polarity": "must_hold",
+          "scope": "sense 6"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

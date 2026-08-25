@@ -1,0 +1,88 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T160321Z-6c8f4a21",
+  "headword": "pursue",
+  "entry_path": "entries/p/pursue.md",
+  "branch": "add/pursue-v5-20260826",
+  "base_sha": "f2b3bcc08a822b1a2a0d14d56dcf793a437f0a93",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 4,
+    "candidate_pages": 4
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T16:03:21Z",
+  "deadline_at": "2026-08-25T17:03:21Z",
+  "pre_draft_deadline_at": "2026-08-25T16:23:21Z",
+  "last_heartbeat_at": "2026-08-25T16:24:20Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T16:03:55Z",
+    "commit_sha": "f1c631fc99838aea38361d6053122780662c41fd"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T16:03:21Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T16:03:55Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T16:08:30Z",
+      "notes": "draft article and queue row saved"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T16:11:45Z",
+      "notes": "source-first v2 inventory completed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T16:12:05Z",
+      "notes": "six routed checker passes completed with no findings"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T16:12:30Z",
+      "notes": "context-free cold review completed with no findings"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T16:23:10Z",
+      "notes": "final blind review sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T16:24:14Z",
+      "notes": "all targets, relations, candidates, source unions, and evidence links reconciled"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T16:24:20Z",
+      "notes": "workflow completed and ready for merge validation"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": [],
+  "completed_at": "2026-08-25T16:24:20Z",
+  "artifacts": {
+    "entry": "entries/p/pursue.md",
+    "audit_manifest": "audits/p/pursue.json",
+    "cycle_dir": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21",
+    "body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4"
+  }
+}
