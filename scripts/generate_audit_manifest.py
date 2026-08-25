@@ -158,6 +158,30 @@ def _validate_finding(item: dict[str, Any], label: str) -> None:
             raise ValueError(f"{label}.location.{key} is required")
 
 
+def _validate_cold_finding(item: dict[str, Any], label: str) -> None:
+    """Validate the native context-free cold-review output contract.
+
+    Cold review deliberately uses open-ended problem discovery with quote-anchored
+    scope, not the checker/final-blind taxonomy contract.  Keeping the two raw
+    schemas distinct prevents the manifest generator from silently rewriting a
+    cold reviewer finding during handoff.
+    """
+    if item.get("severity") not in {"high", "medium", "low"}:
+        raise ValueError(f"{label}.severity must be high, medium, or low")
+    for key in ("location", "description", "reason", "suggested_direction"):
+        if not str(item.get(key, "")).strip():
+            raise ValueError(f"{label}.{key} is required")
+    anchors = _index(item.get("scope_anchors"), f"{label}.scope_anchors")
+    if not anchors:
+        raise ValueError(f"{label}.scope_anchors must not be empty")
+    for anchor_id, anchor in anchors.items():
+        for key in ("exact_quote", "location_hint"):
+            if not str(anchor.get(key, "")).strip():
+                raise ValueError(
+                    f"{label}.scope_anchors.{anchor_id}.{key} is required"
+                )
+
+
 def blind_payload(raw: dict[str, Any]) -> dict[str, Any]:
     return {
         "schema_version": raw.get("schema_version"),
@@ -340,7 +364,10 @@ def generate_manifest(
     ):
         indexed = _index(raw[stage].get(key), f"{stage}.{key}")
         for finding_id, item in indexed.items():
-            _validate_finding(item, f"{stage}.{key}.{finding_id}")
+            if stage == "cold_review":
+                _validate_cold_finding(item, f"{stage}.{key}.{finding_id}")
+            else:
+                _validate_finding(item, f"{stage}.{key}.{finding_id}")
             findings.append({**item, "origin": origin})
     finding_index = _index(findings, "all findings")
 

@@ -19,11 +19,11 @@
     "candidate_pages": 11
   },
   "status": "in_progress",
-  "stage": "normal_review_complete",
+  "stage": "blind_seal_complete",
   "started_at": "2026-08-25T13:11:03Z",
   "deadline_at": "2026-08-25T14:11:03Z",
   "pre_draft_deadline_at": "2026-08-25T13:31:03Z",
-  "last_heartbeat_at": "2026-08-25T13:35:35Z",
+  "last_heartbeat_at": "2026-08-25T13:46:44Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T13:11:04Z",
@@ -54,6 +54,16 @@
       "stage": "normal_review_complete",
       "recorded_at": "2026-08-25T13:35:35Z",
       "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T13:45:41Z",
+      "notes": "orchestrator completed cold_review"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T13:46:44Z",
+      "notes": "orchestrator completed blind_seal"
     }
   ],
   "stop_reason": "",
@@ -432,29 +442,29 @@
       {
         "id": "cold_review",
         "instruction_bytes": 1419,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 32748,
+        "duration_seconds": 150.0,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
         "instruction_bytes": 1735,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 32748,
+        "duration_seconds": 240.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 18785,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "finding_resolution",
@@ -574,12 +584,15 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 4,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
-      "checker_passes"
+      "checker_passes",
+      "cold_review",
+      "final_blind",
+      "blind_seal"
     ],
     "stage_outputs": {
       "generation": [
@@ -593,6 +606,15 @@
         "audits/runs/d/distinct/20260825T131103Z-34ac3453/source_inventory.json",
         "audits/runs/d/distinct/20260825T131103Z-34ac3453/check_passes/",
         "audits/runs/d/distinct/20260825T131103Z-34ac3453/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/cold_review.json"
+      ],
+      "final_blind": [
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/blind_seal.json"
       ]
     }
   }

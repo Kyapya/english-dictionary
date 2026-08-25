@@ -1,0 +1,37 @@
+{
+  "stage": "cold_review",
+  "schema_version": "cold_review_v2",
+  "run_id": "70ddaaef-3746-44c7-9f9f-50095ee5e384",
+  "context_id": "9d0b215c-86c0-4803-a419-b548bafc2b80",
+  "audit_visible": false,
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "recorded_at": "2026-08-25T13:42:18Z",
+  "summary": "低重大度の問題候補が1件ある。語義1の反意語説明は、数的に別個であることと性質が同一であることを同じ軸の対立として読ませるおそれがある。",
+  "findings": [
+    {
+      "id": "CR-DISTINCT-001",
+      "location": "語義1「別個の、明確に異なる」の定義および反意語 identical の説明",
+      "severity": "low",
+      "description": "identical を distinct の無条件の反意語のように提示しており、数的な別個性と性質上の同一性を混同させる可能性がある。",
+      "reason": "二つの複製品は、それぞれ別の個体という意味では distinct でありながら、内容・形状などが identical であり得る。したがって両語が対立するのは、同じ比較軸で「性質が明確に異なる」と「性質が同一」を述べる場合に限られる。現状の説明では、distinct な対象は identical ではあり得ないという誤った一般化を招き得る。",
+      "suggested_direction": "identical は「性質・内容の差」を問題にする文脈では distinct の反対になり得る、と対立軸を限定する。あわせて、two distinct but identical copies のように、別個の個体であることと性質が同一であることは両立すると注記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-DISTINCT-001-A1",
+          "exact_quote": "二つ以上の物、種類、考え、段階、役割などが同一ではなく、それぞれ独立して区別できることを表す。",
+          "location_hint": "語義1 > 日本語訳・定義の冒頭"
+        },
+        {
+          "id": "CR-DISTINCT-001-A2",
+          "exact_quote": "違い: distinct が対象を別物として区別できることを表すのに対し、identical は差を認められないほど同一であることを表す。",
+          "location_hint": "語義1 > 反意語 > identical > 違い"
+        }
+      ]
+    }
+  ]
+}

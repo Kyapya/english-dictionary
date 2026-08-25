@@ -274,6 +274,62 @@ class GeneratedAuditManifestTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "pass set mismatch"):
             generator.generate_manifest(self.entry, self.cycle, repo_root=self.root)
 
+    def test_native_cold_finding_schema_is_preserved_during_generation(self) -> None:
+        cold_path = self.cycle / "cold_review.json"
+        cold = json.loads(cold_path.read_text(encoding="utf-8"))
+        cold["findings"] = [
+            {
+                "id": "CR-001",
+                "location": "first sense definition",
+                "severity": "medium",
+                "description": "The boundary may be overgeneralized.",
+                "reason": "The definition makes an absolute claim.",
+                "suggested_direction": "Narrow the stated scope.",
+                "scope_anchors": [
+                    {
+                        "id": "CR-001:A1",
+                        "exact_quote": "representative subset",
+                        "location_hint": "sense 1 definition",
+                    }
+                ],
+            }
+        ]
+        self._write("cold_review.json", cold)
+
+        resolutions = json.loads(
+            (self.cycle / "resolutions.json").read_text(encoding="utf-8")
+        )
+        resolutions["resolutions"] = [
+            {
+                "id": "CR-001",
+                "finding_id": "CR-001",
+                "status": "resolved",
+                "disposition": "rejected",
+                "rationale": "The candidate quote is already explicitly bounded.",
+                "resolved_body_sha256": self.body_hash,
+            }
+        ]
+        self._write("resolutions.json", resolutions)
+
+        final = json.loads(
+            (self.cycle / "final_review.json").read_text(encoding="utf-8")
+        )
+        final["finding_results"] = [
+            {
+                "id": "CR-001",
+                "status": "pass",
+                "notes": "Checked the raw cold finding and its resolution.",
+            }
+        ]
+        self._write("final_review.json", final)
+
+        value = self._generate()
+        self.assertEqual(value["findings"][0]["severity"], "medium")
+        self.assertEqual(
+            value["findings"][0]["scope_anchors"][0]["exact_quote"],
+            "representative subset",
+        )
+
 
 if __name__ == "__main__":
     unittest.main()
