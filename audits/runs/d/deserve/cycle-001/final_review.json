@@ -1,0 +1,3566 @@
+{
+  "stage": "final_review",
+  "run_id": "final:deserve:20260825",
+  "context_id": "ctx:final:deserve:20260825",
+  "input_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "adjudication": {
+    "decision": "pass",
+    "inventory_comparison": [
+      {
+        "id": "comparison:001",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:001"
+        ],
+        "final_candidate_ids": [
+          "candidate:001"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:001:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:002",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:002"
+        ],
+        "final_candidate_ids": [
+          "candidate:002"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:002:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:003",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:003"
+        ],
+        "final_candidate_ids": [
+          "candidate:003"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:003:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:004",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:004"
+        ],
+        "final_candidate_ids": [
+          "candidate:004"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:004:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:005",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:005"
+        ],
+        "final_candidate_ids": [
+          "candidate:005"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:005:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:006",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:006"
+        ],
+        "final_candidate_ids": [
+          "candidate:006"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:006:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:007",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:007"
+        ],
+        "final_candidate_ids": [
+          "candidate:007"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:007:cambridge"
+        ]
+      },
+      {
+        "id": "comparison:008",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal isolated review and sealed context-free inventory identify the same candidate and map it to the same article frame.",
+        "normal_candidate_ids": [
+          "candidate:008"
+        ],
+        "final_candidate_ids": [
+          "candidate:008"
+        ],
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:008:cambridge"
+        ]
+      }
+    ],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:001:cambridge",
+          "link:target:pronunciation:001:oxford"
+        ]
+      },
+      {
+        "id": "pronunciation:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:002:cambridge"
+        ]
+      },
+      {
+        "id": "pronunciation:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:003:cambridge"
+        ]
+      },
+      {
+        "id": "etymology:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:etymology:001:etymonline",
+          "link:target:etymology:001:merriam"
+        ]
+      },
+      {
+        "id": "etymology:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:etymology:002:etymonline"
+        ]
+      },
+      {
+        "id": "etymology:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:etymology:003:etymonline",
+          "link:target:etymology:003:merriam"
+        ]
+      },
+      {
+        "id": "word_formation:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:001:cambridge",
+          "link:target:word_formation:001:oxford"
+        ]
+      },
+      {
+        "id": "word_formation:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:002:cambridge"
+        ]
+      },
+      {
+        "id": "word_formation:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:003:cambridge"
+        ]
+      },
+      {
+        "id": "word_formation:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:004:cambridge"
+        ]
+      },
+      {
+        "id": "core_image:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:001:cambridge",
+          "link:target:core_image:001:oxford"
+        ]
+      },
+      {
+        "id": "core_image:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:002:cambridge"
+        ]
+      },
+      {
+        "id": "core_image:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:003:cambridge"
+        ]
+      },
+      {
+        "id": "core_image:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:004:cambridge"
+        ]
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:001:cambridge",
+          "link:target:sense_boundary:001:oxford"
+        ]
+      },
+      {
+        "id": "definition:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:001:cambridge",
+          "link:target:definition:001:oxford"
+        ]
+      },
+      {
+        "id": "frequency:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:001:cambridge",
+          "link:target:frequency:001:oxford"
+        ]
+      },
+      {
+        "id": "register:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:register:001:cambridge",
+          "link:target:register:001:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:001:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:002:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:003:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:004:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:005:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:001:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:002:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:003:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:004:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:005:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:006:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:007:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:008:cambridge",
+          "link:target:collocation:008:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:001:cambridge",
+          "link:target:usage_note:001:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:002:cambridge",
+          "link:target:usage_note:002:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:003:cambridge",
+          "link:target:usage_note:003:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:004:cambridge",
+          "link:target:usage_note:004:oxford"
+        ]
+      },
+      {
+        "id": "synonym:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:001:cambridge",
+          "link:target:synonym:001:oxford"
+        ]
+      },
+      {
+        "id": "synonym:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:002:cambridge",
+          "link:target:synonym:002:oxford"
+        ]
+      },
+      {
+        "id": "synonym:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:003:cambridge",
+          "link:target:synonym:003:oxford"
+        ]
+      },
+      {
+        "id": "synonym:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:004:cambridge",
+          "link:target:synonym:004:oxford"
+        ]
+      },
+      {
+        "id": "synonym:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:005:cambridge",
+          "link:target:synonym:005:oxford"
+        ]
+      },
+      {
+        "id": "sense_boundary:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:002:cambridge",
+          "link:target:sense_boundary:002:oxford"
+        ]
+      },
+      {
+        "id": "definition:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:002:cambridge"
+        ]
+      },
+      {
+        "id": "frequency:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:002:cambridge",
+          "link:target:frequency:002:oxford"
+        ]
+      },
+      {
+        "id": "register:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:register:002:cambridge",
+          "link:target:register:002:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:006:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:007:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:008:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:009:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:009:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:010:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:011:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:012:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:013",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:013:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:014",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:014:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:015",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:015:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:005:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:006:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:007:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:008:cambridge",
+          "link:target:usage_note:008:oxford"
+        ]
+      },
+      {
+        "id": "synonym:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:006:cambridge",
+          "link:target:synonym:006:oxford"
+        ]
+      },
+      {
+        "id": "synonym:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:007:cambridge",
+          "link:target:synonym:007:oxford"
+        ]
+      },
+      {
+        "id": "synonym:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:008:cambridge",
+          "link:target:synonym:008:oxford"
+        ]
+      },
+      {
+        "id": "synonym:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:009:cambridge",
+          "link:target:synonym:009:oxford"
+        ]
+      },
+      {
+        "id": "sense_boundary:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:003:cambridge",
+          "link:target:sense_boundary:003:oxford"
+        ]
+      },
+      {
+        "id": "definition:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:003:cambridge"
+        ]
+      },
+      {
+        "id": "frequency:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:003:cambridge",
+          "link:target:frequency:003:oxford"
+        ]
+      },
+      {
+        "id": "register:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:register:003:cambridge",
+          "link:target:register:003:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:010:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:011:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:012:cambridge"
+        ]
+      },
+      {
+        "id": "grammar_pattern:013",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:013:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:016",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:016:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:017",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:017:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:018",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:018:cambridge"
+        ]
+      },
+      {
+        "id": "collocation:019",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:019:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:009:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:010:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:011:cambridge"
+        ]
+      },
+      {
+        "id": "usage_note:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:012:cambridge"
+        ]
+      },
+      {
+        "id": "synonym:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:010:cambridge",
+          "link:target:synonym:010:oxford"
+        ]
+      },
+      {
+        "id": "synonym:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:011:cambridge",
+          "link:target:synonym:011:oxford"
+        ]
+      },
+      {
+        "id": "synonym:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:012:cambridge",
+          "link:target:synonym:012:oxford"
+        ]
+      },
+      {
+        "id": "synonym:013",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:013:cambridge",
+          "link:target:synonym:013:oxford"
+        ]
+      },
+      {
+        "id": "antonym:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the target against the sealed body, source links, and normal review.",
+        "evidence_link_ids_checked": [
+          "link:target:antonym:001:cambridge",
+          "link:target:antonym:001:oxford"
+        ]
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "example_translation:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:001:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:002:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:003:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:004:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:005:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:006:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:007:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:008:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:009:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:010:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:011:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:012:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:013",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:013:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:014",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:014:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:015",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:015:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:016",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:016:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:017",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:017:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:018",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:018:cambridge"
+        ]
+      },
+      {
+        "id": "example_translation:019",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:019:cambridge"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:001:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:001:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:002:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:003:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:004:cambridge"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:001:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:001:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:002:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:003:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:004:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:005:cambridge"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:002:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:005",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:005:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:006:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:007:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:008:cambridge"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:002:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:006:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:007:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:008:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:009:cambridge"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:003:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:009",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:009:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:010:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:011:cambridge"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:012:cambridge"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:003:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:010",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:010:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:011",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:011:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:012",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:012:cambridge"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:013",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:013:cambridge"
+        ]
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_inventory_consistency:001:cambridge",
+          "link:relation:core_inventory_consistency:001:oxford"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:001:cambridge",
+          "link:relation:core_sense_mapping:001:oxford"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:002:cambridge",
+          "link:relation:core_sense_mapping:002:oxford"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:003",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:003:cambridge",
+          "link:relation:core_sense_mapping:003:oxford"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "Final reconciliation rechecked the relation mapping and its supporting source links.",
+        "evidence_link_ids_checked": [
+          "link:relation:article_learning_risk:001:cambridge",
+          "link:relation:article_learning_risk:001:oxford"
+        ]
+      }
+    ],
+    "candidate_results": [
+      {
+        "id": "candidate:001",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:001:cambridge",
+          "link:normal_candidate:candidate:001:oxford"
+        ]
+      },
+      {
+        "id": "candidate:002",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:002:cambridge",
+          "link:normal_candidate:candidate:002:oxford"
+        ]
+      },
+      {
+        "id": "candidate:003",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:003:cambridge",
+          "link:normal_candidate:candidate:003:oxford"
+        ]
+      },
+      {
+        "id": "candidate:004",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:004:cambridge",
+          "link:normal_candidate:candidate:004:oxford"
+        ]
+      },
+      {
+        "id": "candidate:005",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:005:cambridge",
+          "link:normal_candidate:candidate:005:oxford"
+        ]
+      },
+      {
+        "id": "candidate:006",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:006:cambridge",
+          "link:normal_candidate:candidate:006:oxford"
+        ]
+      },
+      {
+        "id": "candidate:007",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:007:cambridge",
+          "link:normal_candidate:candidate:007:oxford"
+        ]
+      },
+      {
+        "id": "candidate:008",
+        "status": "pass",
+        "notes": "The normal-review candidate was covered by the final inventory comparison and evidence check.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:008:cambridge",
+          "link:normal_candidate:candidate:008:oxford"
+        ]
+      }
+    ],
+    "blind_finding_results": [],
+    "finding_results": [],
+    "evidence_checks": [
+      {
+        "id": "link:final_candidate:candidate:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:final_candidate:candidate:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:normal_candidate:candidate:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:article_learning_risk:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:article_learning_risk:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_inventory_consistency:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_inventory_consistency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:013:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:014:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:015:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:016:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:017:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:018:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:example_translation:019:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:013:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:antonym:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:antonym:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:013:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:014:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:015:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:016:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:017:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:018:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:collocation:019:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:core_image:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:core_image:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:core_image:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:core_image:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:core_image:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:definition:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:definition:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:definition:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:definition:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:etymology:001:etymonline",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:etymology:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:etymology:002:etymonline",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:etymology:003:etymonline",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:etymology:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:frequency:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:frequency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:frequency:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:frequency:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:frequency:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:frequency:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:grammar_pattern:013:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:pronunciation:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:pronunciation:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:pronunciation:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:pronunciation:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:register:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:register:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:register:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:register:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:register:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:register:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:sense_boundary:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:sense_boundary:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:sense_boundary:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:sense_boundary:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:sense_boundary:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:sense_boundary:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:013:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:synonym:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:005:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:006:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:007:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:008:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:009:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:010:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:011:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:usage_note:012:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:word_formation:001:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:word_formation:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:word_formation:002:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:word_formation:003:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      },
+      {
+        "id": "link:target:word_formation:004:cambridge",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The link was rechecked during final reconciliation and remained applicable to the mapped claim."
+      }
+    ],
+    "final_inventory_checks": [
+      {
+        "candidate_id": "candidate:001",
+        "assertion_ids": [
+          "candidate:001:assertion:001",
+          "candidate:001:assertion:002"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "sense_boundary:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005"
+        ],
+        "article_relation_ids_checked": [
+          "sense_definition_consistency:001",
+          "definition_usage_consistency:001",
+          "definition_usage_consistency:002",
+          "definition_usage_consistency:003",
+          "definition_usage_consistency:004",
+          "definition_lexical_relation_consistency:001",
+          "pattern_example_coverage:001",
+          "pattern_example_coverage:002",
+          "pattern_example_coverage:003",
+          "pattern_example_coverage:004",
+          "pattern_example_coverage:005",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:001",
+          "article_learning_risk:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:002",
+        "assertion_ids": [
+          "candidate:002:assertion:001",
+          "candidate:002:assertion:002"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "sense_boundary:002",
+          "definition:002",
+          "grammar_pattern:006",
+          "grammar_pattern:008",
+          "collocation:009",
+          "collocation:013",
+          "collocation:014"
+        ],
+        "article_relation_ids_checked": [
+          "example_translation:009",
+          "example_translation:013",
+          "example_translation:014",
+          "sense_definition_consistency:002",
+          "definition_usage_consistency:005",
+          "definition_usage_consistency:006",
+          "definition_usage_consistency:007",
+          "definition_usage_consistency:008",
+          "definition_lexical_relation_consistency:002",
+          "pattern_example_coverage:006",
+          "pattern_example_coverage:007",
+          "pattern_example_coverage:008",
+          "pattern_example_coverage:009",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:002",
+          "article_learning_risk:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:003",
+        "assertion_ids": [
+          "candidate:003:assertion:001",
+          "candidate:003:assertion:002"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "grammar_pattern:007",
+          "grammar_pattern:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:015",
+          "usage_note:005",
+          "usage_note:006"
+        ],
+        "article_relation_ids_checked": [
+          "example_translation:010",
+          "example_translation:011",
+          "example_translation:012",
+          "example_translation:015",
+          "definition_usage_consistency:005",
+          "definition_usage_consistency:006",
+          "pattern_example_coverage:006",
+          "pattern_example_coverage:007",
+          "pattern_example_coverage:008",
+          "pattern_example_coverage:009",
+          "core_sense_mapping:002",
+          "article_learning_risk:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:004",
+        "assertion_ids": [
+          "candidate:004:assertion:001",
+          "candidate:004:assertion:002"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "sense_boundary:003",
+          "definition:003",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019"
+        ],
+        "article_relation_ids_checked": [
+          "example_translation:016",
+          "example_translation:017",
+          "example_translation:018",
+          "example_translation:019",
+          "sense_definition_consistency:003",
+          "definition_usage_consistency:009",
+          "definition_usage_consistency:010",
+          "definition_usage_consistency:011",
+          "definition_usage_consistency:012",
+          "definition_lexical_relation_consistency:003",
+          "pattern_example_coverage:010",
+          "pattern_example_coverage:011",
+          "pattern_example_coverage:012",
+          "pattern_example_coverage:013",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:003",
+          "article_learning_risk:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:005",
+        "assertion_ids": [
+          "candidate:005:assertion:001"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "word_formation:002"
+        ],
+        "article_relation_ids_checked": [],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:006",
+        "assertion_ids": [
+          "candidate:006:assertion:001"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "word_formation:003"
+        ],
+        "article_relation_ids_checked": [],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:007",
+        "assertion_ids": [
+          "candidate:007:assertion:001"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "word_formation:004"
+        ],
+        "article_relation_ids_checked": [],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "candidate:008",
+        "assertion_ids": [
+          "candidate:008:assertion:001"
+        ],
+        "checked_on_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+        "status": "pass",
+        "notes": "All mapped article targets and incident relations were rechecked against the sealed body; no explicit corpus query was required.",
+        "article_target_ids_checked": [
+          "collocation:006",
+          "collocation:007",
+          "collocation:008"
+        ],
+        "article_relation_ids_checked": [
+          "example_translation:006",
+          "example_translation:007",
+          "example_translation:008",
+          "pattern_example_coverage:001",
+          "pattern_example_coverage:002",
+          "pattern_example_coverage:003",
+          "pattern_example_coverage:004",
+          "pattern_example_coverage:005"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      }
+    ],
+    "blockers": []
+  }
+}
