@@ -1,0 +1,205 @@
+# Project instructions
+
+このリポジトリは、英単語・短い英語フレーズの学習用辞書をMarkdown中心で管理するためのプロジェクトである。
+
+## 基本方針
+
+- 辞書本文は1語または1フレーズにつき1つのMarkdownファイルとして `entries/` 配下に保存する。
+- ExcelやCSVは本文保存ではなく、単語キュー、進捗、索引、出力用に使う。
+- 本文生成時は、旧版の仕様を読まず、現行完全版 `prompts/entry_spec_v5.md` だけを最初から最後まで読む。
+- 生成後は、旧版の仕様や生成時の棚卸しを再利用せず、現行完全版 `prompts/check_spec_v5.md` だけを最初から最後まで読み、独立した自動チェックを行う。
+- 個別チェック時も `prompts/check_spec_v5.md` だけを読み、同ファイルに統合された内容・書式・独立監査要件をすべて適用する。
+- 最終合否は通常チェック担当でもコールドレビュー担当でもない別実行が `prompts/final_review_spec_v1.md` を全文読んで決める。
+- Notion変換を変更・実行・確認するときは、先に `prompts/notion_spec_v1.md` を最初から最後まで読む。
+- 生成仕様・チェック仕様を勝手に要約、簡略化、改変しない。
+- 不確かな語源、年代、地域差、頻度などは断定しない。
+- 既存の辞書記事を上書きする前に差分を確認する。
+- 変更後は `queue/words.csv` の status を更新する。
+- 作業ログは `logs/` に日付付きMarkdownで残す。
+
+## プロジェクト横断の継続改善
+
+- 各単語の作成・更新を始める調整役は、記事生成仕様を読む前に `python scripts/process_improvement.py summary` と `python scripts/process_improvement.py validate` を実行し、`process_improvement/ACTIVE.md` の試行中・有効な運用規則を適用する。
+- `ACTIVE.md` は単語をまたぐ作業方法の改善だけに使い、記事内容の第二仕様にしない。内容品質の恒久ルールは、対応する生成・チェック・最終審査仕様、スクリプト、テストまたはCIへ反映した場合だけactiveとする。
+- `ACTIVE.md`、改善record、過去の作業効率情報を、文脈非継承のコールドレビュー担当または最終盲検担当へ渡さない。
+- 作業の公開前に、今回の実行で避けられた手戻り、再発した失敗、データ破損、不要な大規模変更、機械化できる反復作業がなかったかを確認する。
+- 改善recordは、複数実行での再発、または1回でも高影響だった問題で、見出し語をまたいで適用でき、具体的な行動規則と測定可能な効果確認を持つ場合だけ追加する。単語固有の指摘、感想、未整理のメモ、「新しい知見なし」は保存しない。
+- 新しい知見は `candidate` または `trial` から開始する。効果未確認のまま `active` にせず、所定の実行数で確認してから `active` または `retired` にする。
+- recordを変更したら `python scripts/process_improvement.py render` と `python scripts/process_improvement.py validate` を実行する。既存規則と同じ内容は新規recordにせず、既存recordの根拠・検証結果へ集約する。
+- 詳細な登録条件、状態遷移、肥大化防止、内容品質との境界は `process_improvement/README.md`、機械制約は `scripts/process_improvement.py` を正本とする。
+
+## ファイル命名
+
+- 見出し語は `headword` と呼ぶ。
+- ファイル名は小文字、半角英数字、ハイフンを基本とする。
+- スペースはハイフンに変換する。
+- アポストロフィ、スラッシュ、句読点などは原則削除またはハイフン化する。
+- 同名衝突が起きる場合は `__word`、`__phrase`、`__verb` などの接尾辞を付ける。
+- 保存先は原則 `entries/{先頭1文字または先頭2文字}/{slug}.md` とする。
+
+例:
+- `abandon` → `entries/a/abandon.md`
+- `immaculate` → `entries/i/immaculate.md`
+- `take off` → `entries/t/take-off.md`
+- `can't help doing` → `entries/c/cant-help-doing.md`
+
+## ステータス
+
+`queue/words.csv` の status は次の値を使う。
+
+- `pending`: 未生成
+- `draft`: 生成済み、未チェック。原則として自動チェック前の一時状態。
+- `format_error`: フォーマット不備あり
+- `needs_review`: 内容確認が必要
+- `review_ready`: 通常チェックとコールドレビュー対応が完了し、第三者の最終審査待ち
+- `checked`: チェック済み
+- `final`: 完成扱い
+- `skip`: 処理対象外
+
+## 生成時のルール
+
+- 単語作業は、外部資料の検索、本文の語義判断、サブエージェント起動より先に専用branchを作り、`scripts/entry_workflow_guard.py start` で `audits/workflow_runs/` に開始記録を作る。その開始記録を最初のcommitとして直ちにpushし、`confirm-remote` がremote branch上のcommitにrun JSONが含まれることを確認するまで調査を始めない。
+- 実行profileは原則standard（全体60分、draft保存20分、検索query 12件、候補page 18件、heartbeat間隔10分）とする。理由付きextendedでも全体90分を超えない。採用資料数だけでなく、検索を試みるqueryと候補pageを各batch前に `record-research` で記録する。
+- 外部調査の各batch前後と少なくとも10分ごとに `entry_workflow_guard.py heartbeat` を実行する。guardの終了コード2、時間・query・候補page budget到達、heartbeat欠落では、存在するdraftと未解決事項を保存してcommit・pushし、同じ依頼内で探索や新cycleを続けない。
+- draft保存、source-first inventory完了、通常チェック完了、コールドレビュー完了、blind seal、最終照合完了を `entry_workflow_guard.py checkpoint` で順番に記録し、成果物とともにdurable checkpointとしてcommit・pushする。未完了branchへPRを作る必要はないが、長時間処理をローカルまたは会話内だけに保持しない。
+- 一度に処理する件数は、ユーザーが依頼時に明示した件数に従う。
+- 件数指定がない場合は、安全のため pending から5件だけ処理する。
+- 大量処理を依頼された場合でも、既存ファイルの上書き、形式エラー、処理失敗が発生した場合は作業を止め、ログに記録する。
+- まず現行完全版の生成仕様を読み、本文を書く前に語義・構文棚卸し、必須構文マトリクス、対応づけ、双方向照合を行う。通常チェック時には生成時の判断を再利用せず、独立棚卸しと全監査結果を `audits/` へ外部化する。
+- 主要語義、主要構文、句動詞、地域差、レジスター、語源は、可能な限り複数の信頼できる辞書・コーパス・用例資料と整合させる。
+- 類義語は原則3～8語、反意語は適する品詞・意味軸で原則2～6語、コロケーションは各語義につき原則4～10件を目安とし、重要項目の不足を防ぐ。
+- 原則件数は機械的な合格条件にせず、重要項目が多ければ増やし、適切な項目が少なければ件数合わせや同義反復による水増しをしない。
+- 独立した学習価値のある情報が未収録の間は完成扱いにしない。
+- 本文の先頭にはYAML front matterを付ける。
+- その下に、生成仕様で指定された本文を置く。
+- 本文内の大見出しは、生成仕様の指定どおり全角シャープを使う。
+- v5記事では、構造見出し以外の本文非空行を半角スペース2個で終え、独立ブロック間の空行を1行にする。
+- `＃発音記号`、`＃語源`、`＃意味・用法・関連表現` は必須とする。
+- `＃語形成` は学習価値がある場合、`＃コアイメージ` は多義語で有益な場合のみ、指定順で置く。
+- 生成直後の一時状態は `draft` とする。
+- 生成後、`scripts/validate_entry.py` で形式検査を行う。
+- 形式検査で問題があれば status を `format_error` または `needs_review` にする。
+- 形式検査に通ったら、現行完全版のチェック仕様だけを読み、旧本文の校正と、生成時の分類を再利用しないゼロベース棚卸しを分けて自動チェックする。
+- 自動チェックで修正が必要な場合は、記事ファイルへ修正版全文を反映し、`updated_at` を更新する。差分だけを残して本文を未修正にしてはならない。
+- 修正後は `scripts/validate_entry.py` を再実行する。
+- 自動チェックが終わっても、この時点では front matter の `checked: true` またはqueueのstatus `checked` にしない。
+- 自動チェック後は、後述の「チェック後の必須コールドレビュー」を文脈を継承しない1回の独立実行で行う。コールドレビューは仕様が想定していない問題候補の発見を担当し、本文修正や最終合否を担当しない。
+- 通常チェック担当は指摘候補の判定、必要な本文修正、採用内容のseverityに応じた再検査を行い、全target・relation、独立棚卸し、主張単位の根拠リンク、コールドレビューと構造化された解決結果、実行履歴を監査ファイルへ記録してstatus `review_ready`、checked `false` まで進める。
+- 通常チェック担当とコールドレビュー担当のどちらとも異なる最終審査担当が `prompts/final_review_spec_v1.md` に従い、監査記録を見る前の盲検棚卸しを固定してから全件を照合する。`PASS` の場合だけ調整役がstatus `checked`、checked `true` へ機械的に同期し、`REJECT` は完了した監査結果としてstatus `needs_review`、checked `false` で保存する。
+- 内容確認が残る場合は status を `needs_review`、`checked: false` にし、理由を `queue/words.csv` の notes と `logs/` に記録する。
+
+## Markdown本文の基本形
+
+各辞書記事は次のようなfront matterを持つ。
+
+```yaml
+---
+headword: immaculate
+type: word
+status: draft
+prompt_version: entry_spec_v5
+model: unknown
+created_at: YYYY-MM-DD
+updated_at: YYYY-MM-DD
+checked: false
+tags: []
+---
+```
+
+front matterの下に、`prompts/entry_spec_v5.md` に従った本文を置く。
+
+## チェック時のルール
+
+- 生成後の自動チェック時、および個別チェック時は `prompts/check_spec_v5.md` だけを読み、統合済みの全要件を適用する。
+- 自動チェックと個別チェックで品質、確認観点、本文修正ルールに差を付けない。
+- 既存本文の項目構成を完全と仮定せず、見出し語をゼロから語義・構文棚卸しして旧本文と比較する。
+- 独立チェックでは、表層形、品詞、完全な統語フレーム、中心意味、語順、評価、地域・レジスターを含む構文マトリクスを新規に作り、生成時のマトリクスや本文見出しを候補集合として再利用しない。
+- 分詞形容詞、主要な品詞転換、再帰形、代名詞位置、小辞・前置詞・語順による意味差を必ず確認する。
+- 各語義ブロックの宣言品詞と、定義、文法パターン、コロケーション、例文の実際の品詞を一致させる。
+- 説明の正確性、例文の自然さ、主要語義・主要構文の網羅、類義語・反意語・コロケーションの妥当性、学習者向けの過不足、フォーマット遵守を確認する。
+- 類義語・反意語・コロケーションの原則件数と内容を確認する。ただし件数だけで合格とせず、主要項目の不足、独立した学習価値のある情報の未収録、自由結合や同義反復による水増しがないことを確認する。
+- 修正が必要な場合は、本文全体を壊さず、必要箇所だけ修正する。
+- 修正後に `updated_at` を更新する。
+- 通常チェックだけを理由に `checked: true` にせず、文脈を継承しない1回の必須コールドレビュー、指摘の判定・修正、採用内容のseverityに応じた再検査、第三者の最終審査を続ける。
+- `scripts/content_audit.py build` で本文から全targetと、明示対応・混同リスクに絞った記事横断のrelationを生成し、通常チェック担当は生成された全件を個別判定する。語義見出しと詳細定義、定義と類義語・反意語、コアイメージと詳細説明は必ず横断relationに含める。全語義ペアやコアイメージ×全語義の直積を網羅性の代用にしない。独立棚卸し候補と収録・除外理由、主張単位の根拠リンク、実行履歴も監査ファイルへ記録し、内部確認だけで完了させない。
+- 新規・変更監査は `prompts/source_first_audit_v2.md` に従い、`scripts/source_first_audit_gate.py init` で有限profileを先に固定する。外部資料から独立候補を作る原則は維持するが、資料・fact・research round・再検査・最終審査の上限を超えて探索を続けない。coverageを閉じられなければ `stop` で `budget_exhausted` と未解決事項を保存し、status `needs_review`、checked `false` で安全停止する。
+- source-firstの選定済み資料・fact上限とは別に、`entry_workflow_guard.py` の経過時間、検索query、候補page、heartbeat上限を全工程へ適用する。research roundはguardの上限を迂回できる任意長のまとまりとして扱わない。
+- 新規・変更監査は `content_audit_v3` とし、各ステージの原出力を `audits/runs/` にSHA-256付きで保存する。完了済み監査または本文を変更するときは `scripts/content_audit.py start-cycle` で旧監査原文を追記型履歴へ退避し、旧cycleを上書きしない。同一cycle内の本文修正は `body_revisions` に追記する。
+- 地域差、専門・制度用法、語義境界、頻度、語彙関係、絶対表現など高リスクの主張は独立した2資料または直接適用できる一次資料で確認し、根拠リンクに資料内の具体的位置、短い引用または忠実な要約、適用範囲、反例確認方法を記録する。資料IDだけを分けた同一引用元を独立2資料として数えない。
+- `audits/escaped_defect_taxonomy.json` の全分類を各cycleで確認し、見逃しが判明した場合は語固有でない分類と再発防止策を `escaped_defects` に追記する。同一・定型的なnotesの一致だけを不合格理由にしない。
+- 修正不要の場合も、logsに「通常チェックでは修正不要」と明記し、その後のコールドレビュー結果と判定を追記する。
+
+## チェック後の必須コールドレビュー
+
+- 生成後の自動チェックとユーザー指示による個別チェックのどちらでも、`prompts/check_spec_v5.md` による通常チェックの直後に、最新版本文を対象とするコールドレビューを1回必ず行う。
+- コールドレビューは、文脈を継承しない独立実行として開始する。同じ会話内で役割だけを切り替えた自己再評価を代用にしない。
+- コールドレビュー担当へ渡すのは、front matterを除いた通常チェック後の最新版本文と、正本 `prompts/cold_review_prompt_v1.md` の全文だけとする。README、本ファイル、チェック仕様へ依頼文を複製せず、見出し語名、生成仕様、target/relation、既知の問題を追記しない。
+- `AGENTS.md`、生成仕様、チェック仕様、生成過程、通常チェックの結果、以前の指摘、差分、queue、logs、status、`checked` 値、既知の懸念を担当へ渡さない。担当は必要に応じて辞書、コーパス、法令などの外部資料を自ら照合してよいが、プロジェクト内の判断履歴は参照しない。
+- 担当は本文中の語義名、語義番号、語義境界、説明上の分類を正しい前提として引き継がず、記事全体を独立に評価する。
+- 担当は仕様が想定していない問題候補の発見だけを行う。記事を直接修正せず、問題候補ごとに対象箇所、理由、修正方向、可能なら確認根拠を返す。対象箇所は本文の `exact_quote` と `location_hint` を持つ `scope_anchors` とし、問題が複数箇所に及ぶ場合は別々に固定する。体系的な全件保証、書式判断、最終合否は行わない。問題候補がなければ「問題候補なし」と明記する。
+- 元の作業実行は、各問題候補を現行チェック仕様と信頼できる資料で個別に検証し、`採用`、`不採用`、`保留` のいずれかに判定する。問題確認、理由、必要変更、影響target・relation、実施変更、残存リスク、主張単位の根拠リンクをresolutionへ記録し、全scope anchorを `scope_anchor_results` へ1対1で引き継ぐ。コールドレビューの指摘を自動的に正解として採用しない。
+- 語義境界の候補では、対象種類や分野だけによる分割、基本義から生じる評価的・文脈的含意の独立語義化、複数語義を横断する程度表現・構文を確認する。個々の文が正しくても、記事全体の分類や一律の説明が学習者の誤った一般化を招く場合は内容上の問題として扱う。
+- `採用` は本文へ反映して `updated_at` を更新する。`不採用` は理由をlogsへ記録する。`保留` が1件でもあれば `needs_review`、`checked: false` とし、queueのnotesとlogsへ未解決理由を記録する。
+- コールドレビューの指摘を1件以上 `採用` した場合は、修正版の最新版全文に対して `prompts/check_spec_v5.md` の内容監査、双方向照合、語義境界・一般化監査、発音監査、書式監査を再実行する。変更箇所だけの確認で済ませない。
+- 採用した各指摘は `blocking`（事実・語法・発音・例文/訳の誤り、語義・構文構成の変更、必須項目違反）または `minor`（語義構成と事実主張を変えない局所調整）にseverity区分する。`minor` のみの採用では全文再検査を行わず、scope anchorに対応する範囲の限定再検査と機械検証だけを行う。
+- `blocking` 採用後の全文再検査はsource-first profileの `max_post_cold_rechecks` までとし、各回の前に `scripts/source_first_audit_gate.py record-attempt <entry> --stage post-cold` を実行する。上限で問題または保留が残る場合は同じ依頼内で反復せず、status `needs_review`、checked `false`、blocker付きで安全停止する。再検査中にコールドレビューの判定を既定の正解として扱わない。
+- 採用が0件の場合は内容上の全文再検査を省略する。問題候補も0件ならlogsに「コールドレビューでは問題候補なし」、問題候補はあるが採用0件なら「コールドレビューの採用0件につき全文再検査省略」と記録する。保留があれば従来どおり `needs_review` とする。ただし、最終状態に対する機械検証は省略しない。
+- コールドレビューが未実施、文脈を継承、または候補未判定なら、コールドレビュー完了とみなさず `needs_review`、`checked: false` にする。
+- 必要な候補判定・修正と、採用がある場合の全文再検査を終えて保留が0件になった後、通常チェック担当はfront matterとqueueをstatus `review_ready`、checked `false` に同期する。第三者の最終審査担当が盲検棚卸しを先に固定し、通常チェックとの棚卸し比較、全target・relation・finding、主張単位の根拠リンクを個別判定して本文ハッシュに結び付いた `PASS` を記録した場合だけ、調整役がstatus `checked`、checked `true` に同期する。
+
+## 第三者の最終審査
+
+- 最終審査は、通常チェックとコールドレビューのどちらも担当していない文脈非継承の別実行で行う。
+- 最終審査担当は `prompts/final_review_spec_v1.md` だけを最初から最後まで読み、最初は最新版記事だけから独立棚卸し、`semantic_assertions`、問題探索を行う。監査ファイルを見せる前に盲検出力を `scripts/content_audit.py seal-blind` で固定し、seal済み監査JSONと盲検原出力を先行コミットへ保存する。その後に監査記録と根拠資料を開いて照合し、最終結果は別コミットへ保存する。
+- 本文から自動生成された全target・relation、通常チェック側の全独立棚卸し候補、盲検審査とコールドレビューの全findingを一つずつ判定し、通常・最終の棚卸しを双方向比較して未判定を残さない。採用findingでは全scope anchor、affected target、当該targetに接続する全relation、全文queryの再計算結果をblast radiusへ含める。
+- 高リスクtarget、生成された全relation、全独立候補について、資料名が存在するだけでなく、主張単位の根拠リンクの具体的位置と適用範囲が実際に主張を支持することを `evidence_checks` で1件ずつ確認する。`two_sources_or_primary` の対象は独立した2引用元または直接適用できる一次資料を要求する。
+- 最終審査担当は本文を修正せず、`PASS` または `REJECT` とblockerだけを監査ファイルへ記録する。自分で直した版へ自分で合格を出さない。
+- 通常チェック、コールドレビュー、最終審査の三者について、相互に異なるrun IDとcontext ID、開始・終了時刻、本文・promptハッシュ、文脈モード、入力物一覧を監査ファイルへ記録する。同一実行の役割切替を三者分離の代用にしない。
+- 最終審査は各回の前に `scripts/source_first_audit_gate.py record-attempt <entry> --stage final` を実行し、同一依頼内では初回とREJECT後の再審査を合わせて最大2回とする。`REJECT` は完了した正常な監査結果としてblockerとともに保存し、初回だけ通常チェック側が修正して別実行の最終審査を再度受けられる。2回目のREJECTでは新cycleを自動開始せず、記事をstatus `needs_review`、checked `false` としてcommit・pushし、安全停止をユーザーへ報告する。コールドレビューは記事を全面再構築した場合を除き1回のままとする。
+- `PASS` はfront matterを除く本文SHA-256へ結び付ける。本文変更後の古い判定は履歴として保持して無効化し、新しいcycleで再審査する。通常・コールド・最終盲検・最終照合の原出力は構造化JSONで保存し、件数だけでなく全項目が監査マニフェストと一致しなければならない。
+- semantic gateのない旧v3監査は互換モードでも `checked` / `final` の根拠にしない。見逃しが判明した旧PASSは `audits/review_invalidations.json` へ本文ハッシュ付きで登録し、本文を変えなくても直ちに `needs_review`、checked `false` へ戻す。
+## 仕様バージョンの移行
+
+- `entry_spec_v1`～`entry_spec_v4` と対応するチェック仕様は、既存記事の生成・確認履歴として残すが、現行の生成・チェックでは読まない。
+- 新規記事は現行完全版だけを適用し、`prompt_version: entry_spec_v5` とする。
+- 旧版記事をv5で再チェックした場合、内容監査、v5書式への修正、形式検査が完了した時点で `prompt_version: entry_spec_v5` に更新する。
+- 旧版記事を、再チェックとv5書式への変換なしにv5準拠と見なさない。
+
+## CodexからGitHubへ追加する標準フロー
+
+- 辞書本文のAI生成にOpenAI API、GitHub Actions、外部の生成用APIキーを使用しない。生成主体は、ユーザーから依頼を受けてこのリポジトリを編集しているCodex等のエージェント自身とする。
+- ユーザーが「`<見出し語>`を辞書に追加してPRを作成して」のように依頼した場合、本文生成、独立通常チェックと監査記録、文脈を継承しない1回のコールドレビュー、指摘の判定・修正、採用内容のseverityに応じた再検査、第三者の最終審査、形式検証、queue・logs更新、専用ブランチへのcommit・push、Pull Request作成、検証成功後のマージ、Notion同期成功の確認までを一つの標準作業として扱う。
+- 本文はチャットへ分割出力してから連結せず、`entries/` の1ファイルへ直接完成版として作成する。長い場合も必要な説明が揃うまでファイル編集を継続し、`【続きあり】` を本文へ入れない。
+- 生成と独立チェックでは、同じ要約や内部棚卸しを再利用しない。チェック開始時に `prompts/check_spec_v5.md` だけを読み、見出し語からゼロベースで監査する。
+- 通常チェック後は、文脈を継承しない1回の独立実行へ最新版本文と `prompts/cold_review_prompt_v1.md` の全文だけを渡す。通常チェック担当が指摘候補を判定し、必要な修正、採用内容のseverityに応じた再検査を完了しても、最終合否は決めない。
+- 第三者の最終審査担当が `PASS` を記録した後だけchecked状態へ同期する。
+- PR作成前にプロジェクト横断の継続改善判定を行い、登録条件を満たす知見がある場合だけ改善recordと必要な強制手段を同じ変更へ含める。登録条件を満たさない場合は改善メモを作らない。
+- PR作成前に `python -m unittest discover -s tests -v`、`python scripts/validate_entry.py entries`、`python scripts/validate_repository.py`、`python scripts/process_improvement.py validate`、`python scripts/entry_workflow_guard.py validate --merge-ready`、対象記事への `python scripts/content_audit.py validate` をすべて成功させる。
+- GitHub Actionsは記事を生成・修正しない。PRの機械検証だけを行う。
+- Pull Requestの機械検証が成功したら、エージェントが `main` へマージする。ユーザーがレビュー待ちまたはマージ停止を明示した場合だけ、Pull Requestを未マージで残す。
+- Notion同期は `main` へのマージ後だけ実行し、エージェントは `.github/workflows/sync-notion.yml` の成功を確認してから依頼を完了する。
+- GitHubリポジトリまたはpush先が指定・接続されていない場合、ローカル生成と検証までは進め、外部書き込み前に公開先を確認する。
+
+## スクリプト
+
+- `scripts/slugify.py`: headwordから保存パス用slugを作る。
+- `scripts/validate_entry.py`: Markdown本文の形式を検査する。
+- `scripts/import_to_notion.py`: `prompts/notion_spec_v1.md` に従い、checked/final記事をNotionへ同期する。更新開始前に `Status=進行中`、全ブロックの入れ替えと再取得検査後に `Status=完了` とする。同じ見出し語の既存ページがあれば本文を更新し、複数ある場合は `last_edited_time` が最新のページだけを更新する。ほかの重複ページは変更・削除しない。GitHub上では既存のMarkdownを最新版へ上書きする。
+- `scripts/validate_repository.py`: queueと記事ファイルの重複、欠落、front matterの不整合を検査する。
+- `scripts/content_audit.py`: 記事から単一箇所のtarget、記事横断のrelation、本文ハッシュを生成し、主張単位の根拠リンク、三者の実行履歴、盲検最終棚卸しの固定、通常・最終棚卸しの比較、コールドレビューの構造化解決、第三者最終審査の全件完了を検証する。
+- `scripts/semantic_resolution_gate.py`: scope anchor、意味制約、blast radius、全文query再計算、原出力との項目単位一致、旧PASS無効化を検証する。
+- `scripts/process_improvement.py`: 見出し語をまたいで再利用できる改善知識の汎用化条件、状態遷移、重複、根拠、効果検証、肥大化、`ACTIVE.md` の同期を検証する。
+- `scripts/entry_workflow_guard.py`: 記事作成前のremote checkpoint、経過時間・検索query・候補page・heartbeat budget、工程順序、安全停止、変更entryと完了runの対応を検証する。
+- `scripts/export_index.py`: queueとentriesから索引CSV、可能ならExcelを出力する。Excelの `file` 列には、対応するMarkdownファイルをクリックして開けるハイパーリンクを付ける。
+- `scripts/export_all_markdown.py`: checkedまたはfinalの記事を1つのMarkdownに結合する。
+- `scripts/queue_status.py`: queueの件数をstatus別に表示する。
+
+## 注意
+
+- GitHub標準フローではExcel・CSV索引を生成しない。
+- Notion同期はPull Requestが `main` にマージされた後だけ実行する。生成ブランチや未承認記事からは実行しない。
+- `NOTION_TOKEN` をリポジトリへ直接保存せず、GitHub Actions Secretsだけに登録する。
+- 辞書記事本文をExcelセルに詰め込まない。
+- Excelには索引、進捗、短い要約、ファイルパスだけを出す。
+- Excel索引の `file` 列は、作成済みMarkdownファイルをクリックして開けるリンクにする。
+- 生成・チェック仕様の全文はAGENTS.mdへ重複させず、現行完全版の `prompts/entry_spec_v5.md` または `prompts/check_spec_v5.md` を作業内容に応じて一つだけ読む。Notion変換時は別途 `prompts/notion_spec_v1.md` を読む。

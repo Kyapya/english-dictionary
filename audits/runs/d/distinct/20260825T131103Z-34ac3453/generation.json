@@ -1,0 +1,54 @@
+{
+  "schema_version": "generation_output_v1",
+  "stage": "generation",
+  "headword": "distinct",
+  "input_specifications": [
+    "prompts/entry_spec_v5.md",
+    "process_improvement/ACTIVE.md"
+  ],
+  "entry_path": "entries/d/distinct.md",
+  "input_body_sha256": "11a683006f2580994f18153fc020d006f637c8a877cc0c2b9ac6437e2f2c4861",
+  "candidate_inventory": [
+    {
+      "id": "GEN-01",
+      "surface_form": "distinct; distinct from; as distinct from",
+      "frame": "A is distinct from B; A as distinct from B; a distinct type/category/role",
+      "meaning": "別個の、明確に異なる",
+      "disposition": "included",
+      "article_sense": 1
+    },
+    {
+      "id": "GEN-02",
+      "surface_form": "distinct sound/smell/outline/memory",
+      "frame": "a distinct perceptible feature; a feature is/becomes distinct",
+      "meaning": "はっきり知覚・認識できる",
+      "disposition": "included",
+      "article_sense": 2
+    },
+    {
+      "id": "GEN-03",
+      "surface_form": "distinct possibility/advantage/impression/lack",
+      "frame": "a distinct abstract degree; have the distinct impression that S",
+      "meaning": "存在・程度が明らかな",
+      "disposition": "included",
+      "article_sense": 3
+    },
+    {
+      "id": "GEN-04",
+      "surface_form": "distinct values; pairwise distinct; SELECT DISTINCT",
+      "frame": "distinct plural objects; SELECT DISTINCT expression",
+      "meaning": "数学・データ処理で相異なる、重複しない",
+      "disposition": "included",
+      "article_sense": 4
+    },
+    {
+      "id": "GEN-X01",
+      "surface_form": "archaic: notably decorated",
+      "frame": "a distinct object",
+      "meaning": "装飾された",
+      "disposition": "excluded",
+      "rationale": "現代の学習価値が極めて低い歴史用法"
+    }
+  ],
+  "generated_at": "2026-08-25T13:18:00Z"
+}

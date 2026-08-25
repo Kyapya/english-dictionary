@@ -32,12 +32,18 @@ class SourceFirstContractWiringTests(unittest.TestCase):
 
     def test_prompts_remove_unbounded_retry_language(self) -> None:
         agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
-        check = (ROOT / "prompts" / "check_spec_v5.md").read_text(encoding="utf-8")
-        final = (ROOT / "prompts" / "final_review_spec_v1.md").read_text(encoding="utf-8")
+        checks = "\n".join(
+            path.read_text(encoding="utf-8")
+            for path in sorted((ROOT / "prompts").glob("check_pass_*_v6.md"))
+        )
+        final = (ROOT / "prompts" / "final_review_spec_v2.md").read_text(encoding="utf-8")
+        source = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(encoding="utf-8")
         self.assertNotIn("問題がなくなるまで繰り返す", agents)
-        self.assertNotIn("問題がなくなるまで繰り返す", check)
-        self.assertIn("最大2回", final)
-        self.assertIn("安全停止", final)
+        self.assertNotIn("問題がなくなるまで繰り返す", checks)
+        self.assertNotIn("問題がなくなるまで繰り返す", final)
+        self.assertIn("final attempts", source)
+        self.assertIn("| standard | 6 | 48 | 2 | 1 | 2 |", source)
+        self.assertIn("安全停止", source)
 
     def test_ci_runs_source_first_gate_for_changed_audits(self) -> None:
         workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(encoding="utf-8")
@@ -45,16 +51,17 @@ class SourceFirstContractWiringTests(unittest.TestCase):
 
     def test_runtime_guard_is_wired_before_research_and_into_ci(self) -> None:
         agents = (ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        orchestrator = (ROOT / "scripts" / "run_word.py").read_text(encoding="utf-8")
         entry = (ROOT / "prompts" / "entry_spec_v5.md").read_text(encoding="utf-8")
-        check = (ROOT / "prompts" / "check_spec_v5.md").read_text(encoding="utf-8")
-        final = (ROOT / "prompts" / "final_review_spec_v1.md").read_text(encoding="utf-8")
         source = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(encoding="utf-8")
         workflow = (ROOT / ".github" / "workflows" / "validate.yml").read_text(encoding="utf-8")
-        self.assertIn("confirm-remote", agents)
-        self.assertIn("調査を始めない", agents)
+        self.assertIn("scripts/run_word.py", agents)
+        self.assertNotIn("confirm-remote", agents)
+        self.assertIn("confirm_remote_checkpoint", orchestrator)
+        self.assertIn("heartbeat_manifest", orchestrator)
         self.assertIn("draft保存20分", entry)
-        self.assertIn("entry_workflow_guard", check)
-        self.assertIn("entry_workflow_guard", final)
+        self.assertIn("entry_workflow_guard", orchestrator)
+        self.assertIn("source_inventory_complete", orchestrator)
         self.assertIn("record-research", source)
         self.assertIn("entry_workflow_guard.py validate-changed", workflow)
 

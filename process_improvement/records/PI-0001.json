@@ -2,7 +2,7 @@
   "schema_version": "project_process_improvement_v1",
   "id": "PI-0001",
   "title": "完了済み監査cycleを追記型で保持する",
-  "status": "active",
+  "status": "retired",
   "category": "reliability",
   "severity": "critical",
   "scope": "cross_entry_workflow",
@@ -40,7 +40,7 @@
     "window_runs": 2,
     "observed_runs": 2,
     "result": "pass",
-    "notes": "content_audit_v3、blind seal chronology検証、単体テストへ昇格済み。"
+    "notes": "content_audit_v3で効果を確認後、2026-08-25にrevision snapshot方式をraw JSON + Git commit正本へ置換したため退役。"
   },
   "enforcement": {
     "mode": "script_or_ci",
@@ -53,5 +53,5 @@
     ]
   },
   "created_at": "2026-08-15",
-  "updated_at": "2026-08-20"
+  "updated_at": "2026-08-25"
 }

@@ -1,0 +1,344 @@
+{
+  "stage": "final_blind",
+  "schema_version": "final_blind_v2",
+  "run_id": "2abc2818-1275-4728-b8a6-731e8ad71594",
+  "context_id": "7756b648-afd8-474d-ab3a-9e86c0644041",
+  "audit_visible": false,
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+  "recorded_at": "2026-08-25T13:45:48Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "ic_001",
+      "surface_form": "distinct",
+      "frame": "限定用法 distinct + 名詞／叙述用法 A be/remain distinct from B／as distinct from B",
+      "meaning": "複数の対象・種類・概念・段階・役割などが同一ではなく、別々の単位として区別できる",
+      "disposition": "included",
+      "rationale": "現代英語の最も中心的な形容詞用法であり、限定用法、叙述用法、from 補部、as distinct from の対比構文がいずれも主要である。本文はこれらを定義・用例・注意点とともに扱っている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_001_sa_01",
+          "statement": "比較対象は、同一性・種類・機能・分類などの関連する基準で別のものとして区別可能でなければならない。",
+          "polarity": "must_hold",
+          "scope": "distinct + 名詞、および A be distinct from B"
+        },
+        {
+          "id": "ic_001_sa_02",
+          "statement": "distinct であることから、対象が物理的に離れていることや相互に無関係であることまで推論してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "一般義の別個性"
+        },
+        {
+          "id": "ic_001_sa_03",
+          "statement": "as distinct from B は追加関係ではなく、B ではないものとして焦点対象を対比・区別する。",
+          "polarity": "must_hold",
+          "scope": "as distinct from + 名詞句"
+        }
+      ]
+    },
+    {
+      "id": "ic_002",
+      "surface_form": "distinct",
+      "frame": "a distinct sound/smell/taste/outline/feature/memory／知覚対象 + be/become/remain distinct",
+      "meaning": "音・像・匂い・味・輪郭・記憶などがぼやけず、感覚または心的表象として明瞭に認識できる",
+      "disposition": "included",
+      "rationale": "対象同士の分類的非同一性とは区別される主要な知覚・認識義である。本文は複数の感覚領域、記憶、叙述用法、less distinct を含めて十分に具体化している。",
+      "semantic_assertions": [
+        {
+          "id": "ic_002_sa_01",
+          "statement": "対象の知覚的または記憶上の輪郭・特徴が、背景や雑音から取り出せる程度に明瞭でなければならない。",
+          "polarity": "must_hold",
+          "scope": "知覚・記憶を表す名詞との用法"
+        },
+        {
+          "id": "ic_002_sa_02",
+          "statement": "この用法は、その特徴が対象に固有であること、珍しいこと、魅力的であることを必須条件としてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "distinct と distinctive の境界"
+        },
+        {
+          "id": "ic_002_sa_03",
+          "statement": "刺激の強さと識別可能性は同一視してはならず、弱くても輪郭を識別できるものは faint but distinct と表し得る。",
+          "polarity": "must_not_hold",
+          "scope": "知覚義と faint の対照"
+        }
+      ]
+    },
+    {
+      "id": "ic_003",
+      "surface_form": "distinct",
+      "frame": "a distinct possibility/advantage/improvement/change/lack／the distinct impression that 節／show a distinct tendency/preference",
+      "meaning": "可能性・程度・印象・傾向・利点・不足などの存在が、明確または顕著に認められる",
+      "disposition": "included",
+      "rationale": "主として限定位置で抽象名詞に付き、明瞭さを顕著性・判断の強さへ拡張する頻用用法である。本文は代表的な名詞群と that 節を取る impression 構文を含めている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_003_sa_01",
+          "statement": "修飾される可能性・差・効果・印象・傾向などは、話者または観察者に明確に認められる程度で存在しなければならない。",
+          "polarity": "must_hold",
+          "scope": "抽象名詞を修飾する限定用法"
+        },
+        {
+          "id": "ic_003_sa_02",
+          "statement": "a distinct possibility は可能性の現実性・顕著性を示すが、結果の確実性や必然性を含意してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "a distinct possibility/chance/risk"
+        },
+        {
+          "id": "ic_003_sa_03",
+          "statement": "the distinct impression that 節は印象の強さを表すのであって、節内容が事実であることを保証してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "have/get the distinct impression that 節"
+        }
+      ]
+    },
+    {
+      "id": "ic_004",
+      "surface_form": "distinct",
+      "frame": "distinct values/elements/points/solutions／pairwise distinct／the number of distinct items",
+      "meaning": "数学・統計上の指定された等値関係のもとで、複数の対象が互いに等しくない、または重複を除いて別々に数えられる",
+      "disposition": "included",
+      "rationale": "一般義から専門化した主要な数学・データ用法であり、本文は通常の相異性、種類数、pairwise distinct の量化範囲を明示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic_004_sa_01",
+          "statement": "distinctness の判定は見た目ではなく、文脈で指定された等値関係または同一性基準に従わなければならない。",
+          "polarity": "must_hold",
+          "scope": "数学・統計・データ上の値や要素"
+        },
+        {
+          "id": "ic_004_sa_02",
+          "statement": "pairwise distinct は、集合から任意に選んだ二つの異なる位置の対象が等しくないことを要求する。",
+          "polarity": "must_hold",
+          "scope": "pairwise distinct + 複数対象"
+        },
+        {
+          "id": "ic_004_sa_03",
+          "statement": "数学的な distinct を、差の大きさが顕著であるという尺度的意味に一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "数学的相異性"
+        }
+      ]
+    },
+    {
+      "id": "ic_005",
+      "surface_form": "DISTINCT",
+      "frame": "SELECT DISTINCT expression_list／distinct rows or results",
+      "meaning": "SQL の選択結果について、選択された式または列の組合せが同じ結果行を一つにまとめる",
+      "disposition": "included",
+      "rationale": "データベース実務で独立に説明価値の高いキーワード用法である。本文は単一列、複数列の組合せ、標準的 DISTINCT と PostgreSQL の DISTINCT ON の違いまで正確に区切っている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_005_sa_01",
+          "statement": "SELECT DISTINCT の重複判定単位は、選択された式または列の組合せから成る結果行全体でなければならない。",
+          "polarity": "must_hold",
+          "scope": "SELECT DISTINCT expression_list"
+        },
+        {
+          "id": "ic_005_sa_02",
+          "statement": "複数列を選択した DISTINCT を、各列が互いに独立して重複排除される処理として説明してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "複数列の SELECT DISTINCT"
+        },
+        {
+          "id": "ic_005_sa_03",
+          "statement": "標準的な DISTINCT と DISTINCT ON は同一の作用範囲・行選択規則を持つものとして扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "標準 SQL と PostgreSQL 拡張の境界"
+        }
+      ]
+    },
+    {
+      "id": "ic_006",
+      "surface_form": "distinct",
+      "frame": "distinct petals/sepals/stamens/carpels／floral parts + be/remain distinct／number + distinct floral parts",
+      "meaning": "植物形態学で、同じ系列の花弁・がく片・雄しべ・心皮などが互いに合着せず個別に分かれている",
+      "disposition": "included",
+      "rationale": "低頻度だが確立した植物学用法である。本文は適用器官、限定・叙述の両構文、free/fused/united との関係、distinct species との曖昧性を扱っている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_006_sa_01",
+          "statement": "対象となる同系列の器官は、互いに融合・合着せず個別の器官として認められなければならない。",
+          "polarity": "must_hold",
+          "scope": "植物器官を修飾・叙述する専門用法"
+        },
+        {
+          "id": "ic_006_sa_02",
+          "statement": "同系列内で distinct であることから、別種器官への付着も一切ないと常に推論してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "植物学の distinct と free の範囲差"
+        },
+        {
+          "id": "ic_006_sa_03",
+          "statement": "distinct petals の形態学的分離義を、distinct species の分類的非同一義と混同してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "植物学内の名詞依存の語義選択"
+        }
+      ]
+    },
+    {
+      "id": "ic_007",
+      "surface_form": "distinctly",
+      "frame": "動詞を修飾して distinctly hear/remember/speak／形容詞・副詞を修飾して distinctly different/odd",
+      "meaning": "知覚・発話・記憶が明瞭であるさま、または性質・印象が明白ないし著しく感じられるさま",
+      "disposition": "included",
+      "rationale": "distinct の規則的かつ高頻度の直接派生副詞である。本文の語形成欄は知覚・記憶の明瞭さと強い印象の双方を示し、発音も掲げている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_007_sa_01",
+          "statement": "様態用法では、知覚される音・像・記憶または発話の分節が明瞭であることを表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "distinctly + 動詞"
+        },
+        {
+          "id": "ic_007_sa_02",
+          "statement": "程度・評価用法では、修飾される性質が明白または顕著であるという話者判断を表し得る。",
+          "polarity": "must_hold",
+          "scope": "distinctly + 形容詞・副詞"
+        }
+      ]
+    },
+    {
+      "id": "ic_008",
+      "surface_form": "distinctness",
+      "frame": "the distinctness of + 名詞／知覚的明瞭さまたは対象の別個性を表す不可算名詞",
+      "meaning": "境界・音・像などの明瞭さ、または対象が別個である性質",
+      "disposition": "included",
+      "rationale": "distinct からの直接的で生産的な名詞派生であり、本文は二つの中心的な解釈を簡潔に区別している。",
+      "semantic_assertions": [
+        {
+          "id": "ic_008_sa_01",
+          "statement": "distinctness は、文脈に応じて知覚的明瞭さまたは概念的・個体的な別個性を名詞化しなければならない。",
+          "polarity": "must_hold",
+          "scope": "派生名詞 distinctness"
+        },
+        {
+          "id": "ic_008_sa_02",
+          "statement": "distinctness を、通常は区別する行為そのものを表す語として一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "distinctness と distinction の境界"
+        }
+      ]
+    },
+    {
+      "id": "ic_009",
+      "surface_form": "distinction",
+      "frame": "a/the distinction between A and B／make or draw a distinction／with distinction",
+      "meaning": "区別すること、相違・区分、または卓越・栄誉",
+      "disposition": "included",
+      "rationale": "語源的・形態的に近い主要名詞で、区別・相違だけでなく卓越の語義も重要である。本文の語形成欄はこの意味範囲を明示している。",
+      "semantic_assertions": [
+        {
+          "id": "ic_009_sa_01",
+          "statement": "区別義では、二者以上の境界・差、またはその差を設け認識する行為を表し得なければならない。",
+          "polarity": "must_hold",
+          "scope": "distinction between、make/draw a distinction"
+        },
+        {
+          "id": "ic_009_sa_02",
+          "statement": "卓越義では、単なる非同一性ではなく、優秀さ・高い評価・栄誉の方向を持たなければならない。",
+          "polarity": "must_hold",
+          "scope": "with distinction、person/work of distinction"
+        }
+      ]
+    },
+    {
+      "id": "ic_010",
+      "surface_form": "distinctive",
+      "frame": "a distinctive feature/style/voice／be distinctive of + 名詞",
+      "meaning": "ほかから見分ける手掛かりとなる特徴を備えた、特徴的な、独特の",
+      "disposition": "included",
+      "rationale": "distinct と混同しやすい主要派生形容詞であり、本文は識別の目印という作用方向を正しく示し、知覚的な distinct との境界も説明している。",
+      "semantic_assertions": [
+        {
+          "id": "ic_010_sa_01",
+          "statement": "distinctive は、対象をほかから識別する手掛かりとして働く特徴を持つことを表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "派生形容詞 distinctive"
+        },
+        {
+          "id": "ic_010_sa_02",
+          "statement": "単に輪郭・音が明瞭に知覚できるだけで、識別的特徴を持たない対象へ distinctive の意味を一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "distinctive と知覚義 distinct の境界"
+        }
+      ]
+    },
+    {
+      "id": "ic_011",
+      "surface_form": "indistinct / indistinctly",
+      "frame": "an indistinct sound/image/memory／become/remain indistinct／動詞を indistinctly で修飾",
+      "meaning": "音・像・記憶・境界などがぼんやりして識別しにくい、またはそのようなさま",
+      "disposition": "included",
+      "rationale": "否定接頭辞を伴う主要な派生形とその副詞である。本文は存在の否定ではなく明瞭性の否定であることが分かる説明を与えている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_011_sa_01",
+          "statement": "対象は存在し得るが、その輪郭・音・記憶などが明瞭に識別できない状態でなければならない。",
+          "polarity": "must_hold",
+          "scope": "indistinct と indistinctly の知覚・認識用法"
+        },
+        {
+          "id": "ic_011_sa_02",
+          "statement": "indistinct を対象の不存在や、必ずしも対象同士が同一であることの表明として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "否定派生語の意味範囲"
+        }
+      ]
+    },
+    {
+      "id": "ic_012",
+      "surface_form": "distinct",
+      "frame": "名詞または動詞としての独立した現代標準用法",
+      "meaning": "現代標準英語で distinct を名詞または動詞として生産的に用いるという候補",
+      "disposition": "excluded",
+      "rationale": "見出し語 distinct の主要な現代標準用法は形容詞であり、名詞・動詞の独立した生産的用法を主要語義として立てる必要はない。本文が形容詞に限定しているのは妥当である。",
+      "semantic_assertions": [
+        {
+          "id": "ic_012_sa_01",
+          "statement": "現代標準英語の中心的な品詞体系に、distinct 自体の生産的な名詞用法または動詞用法を含めてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "見出し語 distinct の品詞候補"
+        }
+      ]
+    },
+    {
+      "id": "ic_013",
+      "surface_form": "distinct",
+      "frame": "distinct objects/concepts を、物理的分離または無関係性の断定として読む",
+      "meaning": "distinct が常に空間的に離れ、接触せず、相互作用も関係もないことを含意するという候補",
+      "disposition": "excluded",
+      "rationale": "これは separate との混同である。概念・役割・伝統などは相互作用したり同じ体系内に存在したりしながら distinct であり得る。本文はこの過剰推論を明示的に退けている。",
+      "semantic_assertions": [
+        {
+          "id": "ic_013_sa_01",
+          "statement": "一般義 distinct の真理条件に、空間的な隔たり、非接触、相互作用の不存在を一律に含めてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "distinct と separate の境界"
+        }
+      ]
+    },
+    {
+      "id": "ic_014",
+      "surface_form": "distinct",
+      "frame": "a distinct object/feature/value を、一意・唯一であることの断定として読む",
+      "meaning": "distinct がそれ自体で、集合内に同じ値や同種の対象が一つもない唯一性を表すという候補",
+      "disposition": "excluded",
+      "rationale": "distinct は比較対象間の非同一性や識別可能性を表すが、単独の対象について集合内唯一であるという unique の量化までは常に担わない。本文の数学・データ欄も両語を適切に区別している。",
+      "semantic_assertions": [
+        {
+          "id": "ic_014_sa_01",
+          "statement": "distinct から、対象がある集合でただ一つしか存在しないという唯一性を無条件に推論してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "distinct と unique の境界"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

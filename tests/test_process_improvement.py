@@ -15,7 +15,10 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 from process_improvement import (  # noqa: E402
     _load_records,
     _validate_record,
+    initial_retirement_state,
     render_active,
+    retirement_review,
+    validate_retirement_state,
     validate_registry,
 )
 
@@ -26,6 +29,11 @@ class ProcessImprovementTests(unittest.TestCase):
         self.assertEqual(errors, [])
         self.base = copy.deepcopy(records[0])
         self.base.pop("_path", None)
+        self.base["status"] = "active"
+        self.base["validation"]["result"] = "pass"
+        self.base["validation"]["observed_runs"] = self.base["validation"][
+            "window_runs"
+        ]
 
     def _write_repo(self, records: list[dict]) -> Path:
         temporary = tempfile.TemporaryDirectory()
@@ -40,6 +48,10 @@ class ProcessImprovementTests(unittest.TestCase):
         (root / "scripts" / "content_audit.py").write_text("test", encoding="utf-8")
         (root / "tests").mkdir()
         (root / "tests" / "test_content_audit.py").write_text("test", encoding="utf-8")
+        (root / "prompts").mkdir()
+        (root / "prompts" / "check_router_v6.md").write_bytes(
+            (REPO_ROOT / "prompts" / "check_router_v6.md").read_bytes()
+        )
         for record in records:
             path = records_dir / f"{record['id']}.json"
             path.write_text(json.dumps(record, ensure_ascii=False), encoding="utf-8")
@@ -47,6 +59,11 @@ class ProcessImprovementTests(unittest.TestCase):
         self.assertEqual(errors, [])
         (root / "process_improvement" / "ACTIVE.md").write_text(
             render_active(loaded), encoding="utf-8"
+        )
+        (root / "process_improvement" / "retirement_state.json").write_text(
+            json.dumps(initial_retirement_state(root), ensure_ascii=False, indent=2)
+            + "\n",
+            encoding="utf-8",
         )
         return root
 
@@ -64,8 +81,14 @@ class ProcessImprovementTests(unittest.TestCase):
             self.assertIn("scripts/process_improvement.py", text)
             self.assertIn("コールドレビュー", text)
             self.assertIn("最終盲検", text)
-        self.assertIn("単語固有", agents)
-        self.assertIn("新しい知見なし", agents)
+        self.assertIn("単語固有", readme)
+        self.assertIn("新しい知見なし", readme)
+        orchestrator = (REPO_ROOT / "scripts" / "run_word.py").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("process_improvement/ACTIVE.md", orchestrator)
+        self.assertIn("context_free_cold", orchestrator)
+        self.assertIn("context_free_final_blind", orchestrator)
         self.assertIn('"process_improvement/**"', workflow)
         self.assertIn("scripts/process_improvement.py validate", workflow)
 
@@ -124,6 +147,80 @@ class ProcessImprovementTests(unittest.TestCase):
         root = self._write_repo([self.base, other])
         errors = validate_registry(root)
         self.assertTrue(any("duplicate process-improvement action rule" in error for error in errors))
+
+    def _write_completed_cost_runs(self, root: Path, count: int) -> None:
+        runs = root / "audits" / "workflow_runs"
+        pass_ids = (
+            "translation",
+            "sense-structure",
+            "frame-relation",
+            "qualification",
+            "pronunciation",
+            "evidence",
+        )
+        for index in range(count):
+            path = runs / f"word-{index:02d}" / "run.json"
+            path.parent.mkdir(parents=True)
+            value = {
+                "status": "completed",
+                "entry_path": f"entries/w/word-{index:02d}.md",
+                "metrics": {
+                    "schema_version": "workflow_cost_v1",
+                    "completed_at": f"2026-08-25T10:{index:02d}:00Z",
+                    "checker_passes": [
+                        {
+                            "id": pass_id,
+                            "instruction_bytes": 100,
+                            "input_bytes": 900,
+                            "duration_seconds": 2.0,
+                            "defects_detected": 0 if pass_id == "translation" else 1,
+                            "completed": True,
+                        }
+                        for pass_id in pass_ids
+                    ],
+                    "process_rules": [
+                        {
+                            "id": self.base["id"],
+                            "instruction_bytes": 100,
+                            "input_bytes": 0,
+                            "duration_seconds": 1.0,
+                            "defects_detected": 0,
+                            "completed": True,
+                        }
+                    ],
+                },
+            }
+            path.write_text(json.dumps(value), encoding="utf-8")
+
+    def test_retirement_review_waits_for_ten_completed_words(self) -> None:
+        root = self._write_repo([self.base])
+        self._write_completed_cost_runs(root, 9)
+        self.assertEqual(retirement_review(root, reviewed_at="2026-08-25"), [])
+        state = json.loads(
+            (root / "process_improvement" / "retirement_state.json").read_text()
+        )
+        self.assertTrue(all(unit["status"] == "active" for unit in state["units"]))
+
+    def test_zero_yield_rule_and_pass_transition_to_retired_after_ten_words(self) -> None:
+        root = self._write_repo([self.base])
+        self._write_completed_cost_runs(root, 10)
+        results = retirement_review(root, reviewed_at="2026-08-25")
+        by_id = {item["id"]: item for item in results}
+        self.assertEqual(by_id["check_pass:translation"]["decision"], "retire")
+        self.assertEqual(by_id["check_pass:evidence"]["decision"], "retain")
+        self.assertEqual(by_id[f"rule:{self.base['id']}"]["decision"], "retire")
+        retired_record = json.loads(
+            (
+                root
+                / "process_improvement"
+                / "records"
+                / f"{self.base['id']}.json"
+            ).read_text()
+        )
+        self.assertEqual(retired_record["status"], "retired")
+        self.assertEqual(retired_record["validation"]["result"], "fail")
+        errors = validate_retirement_state(root)
+        self.assertTrue(any("reassign its taxonomy" in error for error in errors))
 
 
 if __name__ == "__main__":

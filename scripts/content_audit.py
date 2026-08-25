@@ -13,6 +13,7 @@ from typing import Any
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 AUDIT_SCHEMA_VERSION = "content_audit_v3"
+DERIVED_AUDIT_SCHEMA_VERSION = "content_audit_v4"
 PREVIOUS_AUDIT_SCHEMA_VERSION = "content_audit_v2"
 LEGACY_AUDIT_SCHEMA_VERSION = "content_audit_v1"
 COLD_REVIEW_PROMPT_VERSION = "cold_review_prompt_v1"
@@ -2427,6 +2428,12 @@ def validate_manifest(
     if not isinstance(manifest, dict):
         return [f"audit manifest must be a JSON object: {audit_path}"]
     schema_version = manifest.get("schema_version")
+    if schema_version == DERIVED_AUDIT_SCHEMA_VERSION:
+        from generate_audit_manifest import validate_generated_manifest
+
+        return validate_generated_manifest(
+            entry_path, audit_path, repo_root=repo_root
+        )
     if schema_version == LEGACY_AUDIT_SCHEMA_VERSION:
         if require_current:
             return [
@@ -2489,6 +2496,9 @@ def _entry_path_for_audit_artifact(path: str) -> str | None:
 
 
 def _completed_manifest(manifest: dict[str, Any]) -> bool:
+    if manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA_VERSION:
+        final = manifest.get("final_decision")
+        return isinstance(final, dict) and final.get("decision") in {"pass", "reject"}
     final = manifest.get("final_review")
     return (
         isinstance(final, dict)
@@ -2516,6 +2526,11 @@ def _validate_append_only_transition(
     except (UnicodeDecodeError, json.JSONDecodeError, OSError):
         return errors
     if not isinstance(base_manifest, dict) or not isinstance(head_manifest, dict):
+        return errors
+    if head_manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA_VERSION:
+        # v4 is fully reproducible from immutable raw outputs and uses Git as the
+        # revision ledger.  The legacy review_history/body snapshot contract is
+        # therefore intentionally inapplicable.
         return errors
     body_changed = (
         base_entry_bytes is not None
@@ -2780,9 +2795,23 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
             ):
                 errors.append(f"{relative}: {error}")
             if chronology_required:
-                for error in _validate_blind_chronology_transition(
-                    audit_path, base, head, repo_root
-                ):
+                try:
+                    schema = json.loads(audit_path.read_text(encoding="utf-8")).get(
+                        "schema_version"
+                    )
+                except (OSError, json.JSONDecodeError, AttributeError):
+                    schema = None
+                if schema == DERIVED_AUDIT_SCHEMA_VERSION:
+                    from generate_audit_manifest import validate_blind_chronology
+
+                    chronology_errors = validate_blind_chronology(
+                        audit_path, base, head, repo_root=repo_root
+                    )
+                else:
+                    chronology_errors = _validate_blind_chronology_transition(
+                        audit_path, base, head, repo_root
+                    )
+                for error in chronology_errors:
                     errors.append(f"{relative}: {error}")
     return errors
 
@@ -3188,21 +3217,12 @@ def main() -> int:
     args = parser.parse_args()
 
     if args.command == "build":
-        entry_path = args.entry.resolve()
-        output = args.output or audit_path_for_entry(entry_path)
-        output.parent.mkdir(parents=True, exist_ok=True)
-        manifest = build_manifest(entry_path)
-        _write_latest_revision_snapshot(manifest, entry_path, REPO_ROOT)
-        output.write_text(
-            json.dumps(manifest, ensure_ascii=False, indent=2) + "\n",
-            encoding="utf-8",
+        print(
+            "ERROR: new audits are generated from raw outputs with "
+            "scripts/generate_audit_manifest.py; legacy snapshot build is retired",
+            file=sys.stderr,
         )
-        try:
-            display_path = output.relative_to(REPO_ROOT)
-        except ValueError:
-            display_path = output
-        print(display_path)
-        return 0
+        return 2
     if args.command == "validate":
         entry_path = args.entry.resolve()
         audit_path = args.audit or audit_path_for_entry(entry_path)
@@ -3221,17 +3241,19 @@ def main() -> int:
         print(f"Sealed blind review: {display_path}")
         return 0
     if args.command == "start-cycle":
-        entry_path = args.entry.resolve()
-        audit_path = args.audit.resolve() if args.audit else audit_path_for_entry(entry_path)
-        return _print_errors(
-            start_review_cycle(entry_path, audit_path, args.reason, REPO_ROOT)
+        print(
+            "ERROR: start-cycle is retired for new runs; start a v4 raw-output cycle "
+            "with scripts/run_word.py",
+            file=sys.stderr,
         )
+        return 2
     if args.command == "add-revision":
-        entry_path = args.entry.resolve()
-        audit_path = args.audit.resolve() if args.audit else audit_path_for_entry(entry_path)
-        return _print_errors(
-            add_body_revision(entry_path, audit_path, args.reason, REPO_ROOT)
+        print(
+            "ERROR: add-revision is retired; scripts/run_word.py records each body "
+            "revision as a Git commit",
+            file=sys.stderr,
         )
+        return 2
     if args.command == "validate-sync":
         return _print_errors(validate_sync(args.entries, REPO_ROOT))
     return _print_errors(validate_all_audited())

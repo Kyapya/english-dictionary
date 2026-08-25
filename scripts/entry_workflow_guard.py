@@ -46,6 +46,7 @@ STAGES = (
 )
 
 TERMINAL_STATUSES = {"budget_exhausted", "completed"}
+COST_SCHEMA_VERSION = "workflow_cost_v1"
 
 
 def _now() -> datetime:
@@ -249,6 +250,111 @@ def validate_manifest(manifest: dict[str, Any], *, merge_ready: bool = False) ->
         errors.append("completed stage requires completed status")
     if merge_ready and status != "completed":
         errors.append("merge-ready validation requires completed workflow runs")
+    orchestrator = manifest.get("orchestrator")
+    metrics = manifest.get("metrics")
+    if isinstance(orchestrator, dict) and orchestrator.get("orchestrator_version") in {
+        "run_word_v2",
+        "run_word_v3",
+    }:
+        if not isinstance(metrics, dict):
+            errors.append("run_word_v2+ workflow requires metrics")
+        else:
+            errors.extend(_validate_cost_metrics(metrics, orchestrator, manifest, merge_ready))
+        state = manifest.get("orchestrator_state")
+        if not isinstance(state, dict):
+            errors.append("run_word_v2+ workflow requires orchestrator_state")
+        else:
+            planned = [item.get("name") for item in orchestrator.get("stages", [])]
+            completed = state.get("completed_stages")
+            next_index = state.get("next_stage_index")
+            if not isinstance(completed, list) or completed != planned[: len(completed)]:
+                errors.append("orchestrator_state.completed_stages must be a plan prefix")
+            if not isinstance(next_index, int) or next_index != len(completed or []):
+                errors.append("orchestrator_state.next_stage_index is inconsistent")
+            if merge_ready and completed != planned:
+                errors.append("merge-ready orchestrator must complete every planned stage")
+    return errors
+
+
+def _validate_cost_metrics(
+    metrics: dict[str, Any],
+    orchestrator: dict[str, Any],
+    manifest: dict[str, Any],
+    merge_ready: bool,
+) -> list[str]:
+    errors: list[str] = []
+    if metrics.get("schema_version") != COST_SCHEMA_VERSION:
+        errors.append(f"metrics.schema_version must be {COST_SCHEMA_VERSION}")
+    for key in ("total_cycles", "total_revisions"):
+        value = metrics.get(key)
+        minimum = 1 if key == "total_cycles" else 0
+        if not isinstance(value, int) or isinstance(value, bool) or value < minimum:
+            errors.append(f"metrics.{key} must be an integer >= {minimum}")
+    duration = metrics.get("total_duration_seconds")
+    if not isinstance(duration, (int, float)) or isinstance(duration, bool) or duration < 0:
+        errors.append("metrics.total_duration_seconds must be non-negative")
+
+    expected_ids = {
+        "stages": [item.get("name") for item in orchestrator.get("stages", [])],
+        "checker_passes": [
+            item.get("id") for item in orchestrator.get("checker_passes", [])
+        ],
+    }
+    revision_sum = 0
+    for collection in ("stages", "checker_passes", "process_rules"):
+        rows = metrics.get(collection)
+        if not isinstance(rows, list):
+            errors.append(f"metrics.{collection} must be a list")
+            continue
+        ids = [item.get("id") for item in rows if isinstance(item, dict)]
+        if len(ids) != len(rows) or len(ids) != len(set(ids)):
+            errors.append(f"metrics.{collection} ids must be unique non-empty values")
+        if collection in expected_ids and ids != expected_ids[collection]:
+            errors.append(f"metrics.{collection} must match the orchestrator plan")
+        for index, row in enumerate(rows):
+            if not isinstance(row, dict):
+                continue
+            for key in ("instruction_bytes", "input_bytes", "defects_detected"):
+                value = row.get(key)
+                if not isinstance(value, int) or isinstance(value, bool) or value < 0:
+                    errors.append(f"metrics.{collection}[{index}].{key} must be non-negative")
+            row_duration = row.get("duration_seconds")
+            if (
+                not isinstance(row_duration, (int, float))
+                or isinstance(row_duration, bool)
+                or row_duration < 0
+            ):
+                errors.append(
+                    f"metrics.{collection}[{index}].duration_seconds must be non-negative"
+                )
+            if not isinstance(row.get("completed"), bool):
+                errors.append(f"metrics.{collection}[{index}].completed must be boolean")
+            if collection == "stages":
+                revision_count = row.get("revision_count")
+                if (
+                    not isinstance(revision_count, int)
+                    or isinstance(revision_count, bool)
+                    or revision_count < 0
+                ):
+                    errors.append(
+                        f"metrics.stages[{index}].revision_count must be non-negative"
+                    )
+                else:
+                    revision_sum += revision_count
+        if merge_ready and any(
+            not isinstance(item, dict) or item.get("completed") is not True
+            for item in rows
+        ):
+            errors.append(f"merge-ready metrics require all {collection} rows completed")
+    if metrics.get("total_revisions") != revision_sum:
+        errors.append("metrics.total_revisions must equal the stage revision_count sum")
+    completed_at = metrics.get("completed_at")
+    if manifest.get("status") == "completed":
+        _parse_time(completed_at, "metrics.completed_at", errors)
+        if not isinstance(duration, (int, float)) or duration <= 0:
+            errors.append("completed workflow requires positive total_duration_seconds")
+    elif completed_at not in (None, ""):
+        errors.append("incomplete workflow metrics.completed_at must be empty")
     return errors
 
 

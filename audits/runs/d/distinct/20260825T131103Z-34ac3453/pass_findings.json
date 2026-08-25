@@ -1,0 +1,73 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-distinct-20260825T132100Z",
+  "context_id": "normal-distinct-context-20260825T132100Z",
+  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "prompt_sha256": "ac3ff5f01696a7d52faedfc78b7ef641baa7345270d5c85a540153d14abff656",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-25T13:32:00Z",
+  "pass_outputs": [
+    {"pass_id": "translation", "findings": []},
+    {"pass_id": "sense-structure", "findings": []},
+    {"pass_id": "frame-relation", "findings": []},
+    {"pass_id": "qualification", "findings": []},
+    {"pass_id": "pronunciation", "findings": []},
+    {"pass_id": "evidence", "findings": []}
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "distinct",
+      "frame": "a distinct noun; A be distinct from B; as distinct from B",
+      "meaning": "separately identifiable, categorically different, or not the same",
+      "disposition": "included",
+      "rationale": "Three independent general dictionaries treat separate identity as a central adjective sense.",
+      "article_target_ids": ["definition:001", "grammar_pattern:001", "grammar_pattern:002", "grammar_pattern:003", "grammar_pattern:004"],
+      "evidence_link_ids": ["EL-001", "EL-007"]
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "distinct",
+      "frame": "a distinct sound, outline, feature, smell, memory, or image; become/remain distinct",
+      "meaning": "clearly perceptible or mentally distinguishable",
+      "disposition": "included",
+      "rationale": "Independent general dictionaries distinguish the perceptual-clarity use from simple nonidentity.",
+      "article_target_ids": ["definition:002", "grammar_pattern:005", "grammar_pattern:006"],
+      "evidence_link_ids": ["EL-002"]
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "distinct",
+      "frame": "a distinct possibility, advantage, change, impression, tendency, or lack",
+      "meaning": "clearly present or noticeable in degree without entailing certainty",
+      "disposition": "included",
+      "rationale": "General dictionaries attest the abstract noticeable-degree use, including distinct possibility.",
+      "article_target_ids": ["definition:003", "grammar_pattern:007", "grammar_pattern:008", "grammar_pattern:009", "grammar_pattern:010"],
+      "evidence_link_ids": ["EL-003"]
+    },
+    {
+      "id": "NC-004",
+      "surface_form": "distinct",
+      "frame": "distinct values or points; pairwise distinct; SELECT DISTINCT selected expressions",
+      "meaning": "unequal under a stated relation or deduplicated as complete result rows",
+      "disposition": "included",
+      "rationale": "A mathematics-labelled dictionary sense and primary PostgreSQL documentation support the technical boundary.",
+      "article_target_ids": ["definition:004", "grammar_pattern:011", "grammar_pattern:012", "grammar_pattern:013", "grammar_pattern:014", "usage_note:004"],
+      "evidence_link_ids": ["EL-008", "EL-011", "EL-012", "EL-013"]
+    },
+    {
+      "id": "NC-005",
+      "surface_form": "distinct",
+      "frame": "distinct petals, sepals, stamens, or carpels; floral parts be distinct",
+      "meaning": "botanical organs separate or free rather than fused",
+      "disposition": "included",
+      "rationale": "The botanical sense is independently supported by a general dictionary and a specialist botanical glossary.",
+      "article_target_ids": ["definition:005", "grammar_pattern:015", "grammar_pattern:016", "grammar_pattern:017", "usage_note:005"],
+      "evidence_link_ids": ["EL-009"]
+    }
+  ]
+}

@@ -12,6 +12,7 @@ from typing import Any
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SEMANTIC_GATE_VERSION = "semantic_resolution_v2"
 CANONICAL_AUDIT_SCHEMA = "content_audit_v3"
+DERIVED_AUDIT_SCHEMA = "content_audit_v4"
 FINAL_DECISIONS = {"pass", "reject"}
 INVALIDATION_REGISTRY = Path("audits/review_invalidations.json")
 INVALIDATION_SCHEMA_VERSION = "review_invalidations_v1"
@@ -366,6 +367,14 @@ def validate_manifest(
     phase: str = "final",
 ) -> list[str]:
     errors: list[str] = []
+    if manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA:
+        from generate_audit_manifest import validate_generated_manifest
+
+        return validate_generated_manifest(
+            repo_root / str(manifest.get("entry_path", "")),
+            audit_path,
+            repo_root=repo_root,
+        )
     if manifest.get("schema_version") != CANONICAL_AUDIT_SCHEMA:
         if require_gate:
             errors.append(

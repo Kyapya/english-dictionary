@@ -1,0 +1,63 @@
+{
+  "schema_version": "process_retirement_v1",
+  "review_interval_words": 10,
+  "completed_words_seen": 0,
+  "units": [
+    {
+      "id": "rule:PI-0004",
+      "kind": "operating_rule",
+      "source": "process_improvement/records/PI-0004.json",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    },
+    {
+      "id": "check_pass:evidence",
+      "kind": "checker_pass",
+      "source": "prompts/check_pass_evidence_v6.md",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    },
+    {
+      "id": "check_pass:frame-relation",
+      "kind": "checker_pass",
+      "source": "prompts/check_pass_frame_relation_v6.md",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    },
+    {
+      "id": "check_pass:pronunciation",
+      "kind": "checker_pass",
+      "source": "prompts/check_pass_pronunciation_v6.md",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    },
+    {
+      "id": "check_pass:qualification",
+      "kind": "checker_pass",
+      "source": "prompts/check_pass_qualification_v6.md",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    },
+    {
+      "id": "check_pass:sense-structure",
+      "kind": "checker_pass",
+      "source": "prompts/check_pass_sense_structure_v6.md",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    },
+    {
+      "id": "check_pass:translation",
+      "kind": "checker_pass",
+      "source": "prompts/check_pass_translation_v6.md",
+      "status": "active",
+      "last_reviewed_completed_words": 0,
+      "last_window": null
+    }
+  ]
+}

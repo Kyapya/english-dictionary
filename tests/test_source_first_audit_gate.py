@@ -1,9 +1,18 @@
 from __future__ import annotations
 
 import copy
+import hashlib
+import json
+import tempfile
 import unittest
+from pathlib import Path
 
-from scripts.source_first_audit_gate import PROFILES, _template, validate_manifest
+from scripts.source_first_audit_gate import (
+    PROFILES,
+    _hydrate_generated_final_review,
+    _template,
+    validate_manifest,
+)
 
 
 def valid_manifest() -> dict:
@@ -316,6 +325,39 @@ class SourceFirstAuditGateTests(unittest.TestCase):
         self.assertEqual(validate_manifest(valid_manifest()), [])
         self.assertTrue(
             any("source_first_audit_v2" in e for e in validate_manifest(valid_manifest(), require_current=True))
+        )
+
+    def test_generated_v4_hydrates_sha_verified_raw_final_results(self) -> None:
+        base = valid_v2_manifest()
+        raw_final = base["final_review"]
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            raw_path = root / "audits" / "runs" / "x" / "final_review.json"
+            raw_path.parent.mkdir(parents=True)
+            raw_path.write_text(
+                json.dumps(raw_final, ensure_ascii=False) + "\n",
+                encoding="utf-8",
+            )
+            manifest = {
+                "schema_version": "content_audit_v4",
+                "source_first_audit": base["source_first_audit"],
+                "final_decision": {"decision": "pass"},
+                "raw_outputs": {
+                    "final_review": {
+                        "path": "audits/runs/x/final_review.json",
+                        "sha256": hashlib.sha256(raw_path.read_bytes()).hexdigest(),
+                    }
+                },
+            }
+            errors: list[str] = []
+            hydrated = _hydrate_generated_final_review(
+                manifest, errors, repo_root=root
+            )
+        self.assertEqual(errors, [])
+        self.assertEqual(hydrated["final_review"], raw_final)
+        self.assertEqual(
+            validate_manifest(hydrated, require_current=True),
+            [],
         )
 
 

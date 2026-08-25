@@ -1,0 +1,77 @@
+{
+  "schema_version": "check_pass_v6_regressions_v1",
+  "cases": [
+    {
+      "id": "obvious-regional-qualification",
+      "word": "obvious",
+      "taxonomy_id": "regional_qualification",
+      "quote_fragment": "EPC Article 56"
+    },
+    {
+      "id": "obvious-sense-boundary",
+      "word": "obvious",
+      "taxonomy_id": "sense_boundary_overlap",
+      "quote_fragment": "an obvious reference や look beyond the obvious"
+    },
+    {
+      "id": "obvious-technical-term",
+      "word": "obvious",
+      "taxonomy_id": "technical_terminology_conventionality",
+      "quote_fragment": "obvious to try も"
+    },
+    {
+      "id": "assess-absolute-scope",
+      "word": "assess",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "quote_fragment": "必ず客観的・正確・体系的な手続き"
+    },
+    {
+      "id": "assess-sense-boundary",
+      "word": "assess",
+      "taxonomy_id": "sense_boundary_overlap",
+      "quote_fragment": "assessment：名詞"
+    },
+    {
+      "id": "assess-technical-term",
+      "word": "assess",
+      "taxonomy_id": "technical_terminology_conventionality",
+      "quote_fragment": "risk assessment：複合表現"
+    },
+    {
+      "id": "assess-example-translation",
+      "word": "assess",
+      "taxonomy_id": "example_translation_alignment",
+      "quote_fragment": "当局はその会社について未納税額を査定した"
+    },
+    {
+      "id": "assess-lexical-relation",
+      "word": "assess",
+      "taxonomy_id": "lexical_relation_mislabel",
+      "quote_fragment": "evaluate は価値や質"
+    },
+    {
+      "id": "assess-compound-generalization",
+      "word": "assess",
+      "taxonomy_id": "compound_component_generalization",
+      "quote_fragment": "assessment：名詞"
+    },
+    {
+      "id": "assess-pronunciation",
+      "word": "assess",
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "quote_fragment": "/ɛ/ と /e/ の表記差"
+    },
+    {
+      "id": "assess-argument-role",
+      "word": "assess",
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "quote_fragment": "assess 〈O〉 as 〈名詞・形容詞〉"
+    },
+    {
+      "id": "assess-cross-section",
+      "word": "assess",
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "quote_fragment": "実際に金銭を回収することまでは含まない"
+    }
+  ]
+}
