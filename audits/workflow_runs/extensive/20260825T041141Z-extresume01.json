@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T041141Z-extresume01",
+  "headword": "extensive",
+  "entry_path": "entries/e/extensive.md",
+  "branch": "add/extensive-20260825",
+  "base_sha": "2a844e8449ab41a1a634b967f4d50315b4efa2bf",
+  "profile": "standard",
+  "profile_reason": "resume after explicit user request from preserved review_ready checkpoint",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T04:11:46Z",
+  "deadline_at": "2026-08-25T05:11:46Z",
+  "pre_draft_deadline_at": "2026-08-25T04:31:46Z",
+  "last_heartbeat_at": "2026-08-25T04:16:00Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T04:12:51Z",
+    "commit_sha": "54957121b9050161559a6d95003e67b14f58b80a"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T04:11:46Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T04:12:51Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "resume checkpoint reopens preserved draft"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "resumed from preserved completed source inventory"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "preserved normal review accepted for resumed finalization"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "preserved single context-free cold review with no findings"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T04:13:34Z",
+      "notes": "blind inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T04:15:43Z",
+      "notes": "final adjudication passed after blind seal"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T04:16:00Z",
+      "notes": "all local validators passed; ready for PR and CI"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}

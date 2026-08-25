@@ -1,0 +1,83 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T030817Z-41bc348b",
+  "headword": "extensive",
+  "entry_path": "entries/e/extensive.md",
+  "branch": "add/extensive-20260825",
+  "base_sha": "2a844e8449ab41a1a634b967f4d50315b4efa2bf",
+  "profile": "standard",
+  "profile_reason": "new dictionary entry request",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 10,
+    "candidate_pages": 14
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T03:08:17Z",
+  "deadline_at": "2026-08-25T04:08:17Z",
+  "pre_draft_deadline_at": "2026-08-25T03:28:17Z",
+  "last_heartbeat_at": "2026-08-25T03:28:53Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T03:09:11Z",
+    "commit_sha": "fd6476da8da4f1c4cadcbcf21338396c92a3409e"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T03:08:17Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T03:09:11Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T03:16:06Z",
+      "notes": "complete draft saved and format validation passed"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T04:17:50Z",
+      "notes": "superseded by resumed run 20260825T041141Z-extresume01; source inventory preserved in the resumed audit"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T04:17:50Z",
+      "notes": "superseded by resumed run 20260825T041141Z-extresume01; normal review preserved in the resumed audit"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T04:17:50Z",
+      "notes": "superseded by resumed run 20260825T041141Z-extresume01; cold review preserved in the resumed audit"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T04:17:50Z",
+      "notes": "superseded by resumed run 20260825T041141Z-extresume01; blind seal preserved in the resumed audit"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T04:17:50Z",
+      "notes": "superseded by resumed run 20260825T041141Z-extresume01; final reconciliation preserved in the resumed audit"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T04:17:50Z",
+      "notes": "superseded by resumed run 20260825T041141Z-extresume01; this stopped attempt is retained as append-only provenance"
+    }
+  ],
+  "stop_reason": "heartbeat gap budget exhausted",
+  "open_questions": [],
+  "superseded_by_run_id": "20260825T041141Z-extresume01",
+  "superseded_at": "2026-08-25T04:17:50Z"
+}
