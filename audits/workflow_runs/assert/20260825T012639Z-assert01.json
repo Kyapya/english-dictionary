@@ -23,7 +23,7 @@
   "started_at": "2026-08-25T01:26:39Z",
   "deadline_at": "2026-08-25T02:26:39Z",
   "pre_draft_deadline_at": "2026-08-25T01:46:39Z",
-  "last_heartbeat_at": "2026-08-25T02:01:00Z",
+  "last_heartbeat_at": "2026-08-25T02:06:34Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T01:27:01Z",
@@ -64,6 +64,11 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-25T02:01:00Z",
       "notes": "final blind inventory and semantic assertions sealed in a pre-reconciliation checkpoint"
+    },
+    {
+      "stage": "blind_seal_correction",
+      "recorded_at": "2026-08-25T02:06:34Z",
+      "notes": "resealed blind manifest with chronologically valid timestamps before reconciliation"
     }
   ],
   "stop_reason": "",
