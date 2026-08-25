@@ -1,7 +1,7 @@
 ---
 headword: extensive
 type: word
-status: draft
+status: review_ready
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-25
@@ -487,7 +487,7 @@ extensive reading は教育用語として「多読」を指すことがある�
 
 【レジスター/領域】論理学・哲学の専門語。一般語義の「幅広い」「包括的な」とは別に、extension「外延」との関係を示す。  
 
-【文法パターン】an extensive definition of 〈term〉＝〈語〉の外延的定義／be extensive rather than intensional＝内包的でなく外延的である／an extensive account of 〈objects〉＝〈対象〉の外延に基づく説明  
+【文法パターン】an extensive definition of 〈term〉＝〈語〉の外延的定義／be extensive rather than intensional＝内包的でなく外延的である  
 
 【コロケーション】
 
@@ -501,14 +501,13 @@ extensive reading は教育用語として「多読」を指すことがある�
 例: The textbook contrasts an extensive definition with an intensional definition.  
 訳: その教科書は外延的定義と内包的定義を対比している。  
 
-・the extensive sense of 〈concept〉  
-用途: 概念が指し示す対象の集合に関する側面を説明する。  
-例: The author discusses the extensive sense of the category before analyzing its properties.  
-訳: その著者は、カテゴリーの属性を分析する前に、その外延的な側面を論じている。  
-
 【語法・注意】この用法で extensive は「範囲が広い」という意味ではない。extension「外延」に結び付いた専門用法であり、現在の論理学・意味論では extensional definition がより普通である。  
 
 intensional は「内包的な」で、概念が適用される対象の一覧ではなく、概念を成り立たせる属性・意味内容に基づく。extensive と intensive は一般語では規模と集中の対比だが、この論理学用法では extensive と intensional が対になる。  
+
+extensive は、一般語義では「広がり・量・規模が大きい」、専門義では「広い土地を低投入で使う」「系の大きさに応じて増える」「外延に関係する」と意味の焦点が変わる。  
+「広範な」を言いたいときは extensive、「細部まで入念な」を言いたいときは thorough、「深く集中的な」を言いたいときは intensive を選ぶ。extensive research は研究の範囲・量、intensive research は深さ・集中度を強調する。  
+extensive damage は被害の範囲・規模が大きいという意味で、必ずしも damage が最も深刻、全面的、回復不能という意味ではない。  
 
 【類義語】
 
@@ -527,8 +526,3 @@ intensional は「内包的な」で、概念が適用される対象の一覧�
 違い: 論理学では、対象の集合に基づく extensive/extensional に対し、概念の属性や意味内容に基づく。  
 例: An intensional definition specifies the essential properties of a concept.  
 訳: 内包的定義は、ある概念の本質的な属性を明示する。  
-
-【関連語法】  
-extensive は、一般語義では「広がり・量・規模が大きい」、専門義では「広い土地を低投入で使う」「系の大きさに応じて増える」「外延に関係する」と意味の焦点が変わる。  
-「広範な」を言いたいときは extensive、「細部まで入念な」を言いたいときは thorough、「深く集中的な」を言いたいときは intensive を選ぶ。extensive research は研究の範囲・量、intensive research は深さ・集中度を強調する。  
-extensive damage は被害の範囲・規模が大きいという意味で、必ずしも damage が最も深刻、全面的、回復不能という意味ではない。  
