@@ -1,0 +1,167 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-consistent-cycle001-20260825",
+  "context_id": "context-free-final-blind-consistent-cycle001-20260825",
+  "input_body_sha256": "2bcc243530346ca17bd16c5908cb5b612d013b24c55f09e55fb935a81397f71b",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-01",
+      "surface_form": "consistent",
+      "frame": "be/remain consistent in N or in doing; a consistent person/performer",
+      "meaning": "人・行動・態度・水準の一貫性と安定性",
+      "rationale": "最新版本文だけから、人の振る舞い・基準・仕事の水準がぶれない一般義とinフレームを独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-01-1",
+          "statement": "The first sense covers stable behavior, standards, attitudes, or performance rather than exact identity on every occasion.",
+          "polarity": "must_hold",
+          "scope": "sense 1 definition, grammar patterns, and usage note"
+        },
+        {
+          "id": "FBI-01-2",
+          "statement": "The in frame identifies the domain in which a person or actor keeps a consistent standard.",
+          "polarity": "must_hold",
+          "scope": "sense 1 grammar pattern and collocations"
+        }
+      ]
+    },
+    {
+      "id": "FB-02",
+      "surface_form": "consistent",
+      "frame": "consistent over time/across groups; consistent growth/results/quality",
+      "meaning": "状態・結果・品質・傾向が期間や集団をまたいで安定していること",
+      "rationale": "本文だけから、完全な不変ではなく重要なパターンや水準が続く状態・結果用法を独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-02-1",
+          "statement": "The second sense allows change, such as growth or improvement, when the direction or pattern remains stable.",
+          "polarity": "must_hold",
+          "scope": "sense 2 definition and usage note"
+        },
+        {
+          "id": "FBI-02-2",
+          "statement": "Consistent results do not by themselves establish truth, causation, or perfect equality of numerical values.",
+          "polarity": "must_hold",
+          "scope": "sense 2 usage note"
+        }
+      ]
+    },
+    {
+      "id": "FB-03",
+      "surface_form": "consistent with",
+      "frame": "be consistent with evidence/facts/policy/what someone said",
+      "meaning": "別の事実・証拠・方針と矛盾せず整合すること",
+      "rationale": "with構文を独立した関係用法として、可能性・整合性を示すが証明や唯一の原因の断定ではない範囲を確認した。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-03-1",
+          "statement": "Consistent with expresses compatibility or non-contradiction between an account, finding, action, or policy and another item.",
+          "polarity": "must_hold",
+          "scope": "sense 3 definition and grammar patterns"
+        },
+        {
+          "id": "FBI-03-2",
+          "statement": "The phrase does not by itself prove the compared item or identify it as the only explanation.",
+          "polarity": "must_hold",
+          "scope": "sense 3 definition and usage notes"
+        }
+      ]
+    },
+    {
+      "id": "FB-04",
+      "surface_form": "consistent estimator",
+      "frame": "a consistent estimator of/for a parameter",
+      "meaning": "標本数の増加に伴って真の母数へ確率収束する推定量",
+      "rationale": "統計学の専門義を、一般語の反復安定性、accuracy、unbiasednessから独立に区別した。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-04-1",
+          "statement": "A consistent estimator is defined by convergence toward the true parameter in the large-sample probabilistic sense.",
+          "polarity": "must_hold",
+          "scope": "sense 4 definition, grammar patterns, and first collocations"
+        },
+        {
+          "id": "FBI-04-2",
+          "statement": "Statistical consistency is not the same as finite-sample accuracy, zero bias, or identical estimates across samples.",
+          "polarity": "must_hold",
+          "scope": "sense 4 definition and usage note"
+        }
+      ]
+    },
+    {
+      "id": "FB-05",
+      "surface_form": "consistent equations/formal system",
+      "frame": "a consistent system of equations/set of statements/formal system",
+      "meaning": "共通解をもつ、または矛盾を導かない数学・論理の体系",
+      "rationale": "数学・論理では、体系内部の共通充足性・無矛盾性を表す専門義として独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-05-1",
+          "statement": "For equations, consistent means that the equations have at least one common solution.",
+          "polarity": "must_hold",
+          "scope": "sense 5 definition, grammar pattern, and collocations"
+        },
+        {
+          "id": "FBI-05-2",
+          "statement": "For statements or formal systems, the article distinguishes non-contradiction from ordinary behavioral consistency.",
+          "polarity": "must_hold",
+          "scope": "sense 5 definition and usage notes"
+        }
+      ]
+    },
+    {
+      "id": "FB-06",
+      "surface_form": "consistency/consistently/inconsistent/inconsistency",
+      "frame": "derived noun, adverb, negative adjective, and negative noun",
+      "meaning": "語形成上の関連語と反対方向の形",
+      "rationale": "本文の語形成欄から、派生・反対形を独立に確認したが、別の主要語義としては数えなかった。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-06-1",
+          "statement": "The listed forms are related word-family items, with consistency as noun, consistently as adverb, and inconsistent/inconsistency as negative forms.",
+          "polarity": "must_hold",
+          "scope": "word formation section"
+        }
+      ]
+    },
+    {
+      "id": "FB-07",
+      "surface_form": "consistent",
+      "frame": "noun or verb use without an adjective frame",
+      "meaning": "本文の主要用法として独立掲載する名詞・動詞用法",
+      "rationale": "最新版本文は形容詞用法に限定され、独立した名詞・動詞用法を主張していないため除外した。",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-07-1",
+          "statement": "The article must not imply that consistent is being presented as a standalone noun or verb entry.",
+          "polarity": "must_not_hold",
+          "scope": "front matter, part-of-speech labels, and meaning section"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
