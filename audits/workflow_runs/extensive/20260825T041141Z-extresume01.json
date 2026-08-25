@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T041141Z-extresume01",
+  "headword": "extensive",
+  "entry_path": "entries/e/extensive.md",
+  "branch": "add/extensive-20260825",
+  "base_sha": "2a844e8449ab41a1a634b967f4d50315b4efa2bf",
+  "profile": "standard",
+  "profile_reason": "resume after explicit user request from preserved review_ready checkpoint",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-25T04:11:46Z",
+  "deadline_at": "2026-08-25T05:11:46Z",
+  "pre_draft_deadline_at": "2026-08-25T04:31:46Z",
+  "last_heartbeat_at": "2026-08-25T04:11:46Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T04:11:46Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
