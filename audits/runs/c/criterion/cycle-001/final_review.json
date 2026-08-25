@@ -1,0 +1,2021 @@
+{
+  "stage": "final_review",
+  "run_id": "final-criterion-cycle001-20260825",
+  "context_id": "context-free-final-blind-criterion-cycle001-20260825",
+  "input_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "adjudication": {
+    "decision": "pass",
+    "inventory_comparison": [
+      {
+        "id": "IC-01",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal and final inventories independently identify the general evaluative criterion sense.",
+        "normal_candidate_ids": [
+          "NC-01"
+        ],
+        "final_candidate_ids": [
+          "FB-01"
+        ],
+        "evidence_link_ids": [
+          "EL-IC-01"
+        ]
+      },
+      {
+        "id": "IC-02",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The normal and final inventories independently identify the defining-characteristic use.",
+        "normal_candidate_ids": [
+          "NC-02"
+        ],
+        "final_candidate_ids": [
+          "FB-02"
+        ],
+        "evidence_link_ids": [
+          "EL-IC-02"
+        ]
+      },
+      {
+        "id": "IC-03",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The plural and usage inventory matches across normal and final reviews.",
+        "normal_candidate_ids": [
+          "NC-03"
+        ],
+        "final_candidate_ids": [
+          "FB-03"
+        ],
+        "evidence_link_ids": [
+          "EL-IC-03"
+        ]
+      },
+      {
+        "id": "IC-04",
+        "comparison": "match",
+        "status": "pass",
+        "rationale": "The specialist criterion-referenced compound matches across normal and final reviews.",
+        "normal_candidate_ids": [
+          "NC-04"
+        ],
+        "final_candidate_ids": [
+          "FB-04"
+        ],
+        "evidence_link_ids": [
+          "EL-IC-04"
+        ]
+      },
+      {
+        "id": "IC-05",
+        "comparison": "final_only",
+        "status": "pass",
+        "rationale": "The final blind inventory additionally surfaced the pronunciation and etymology coverage candidate; it is supported by dedicated targets and evidence.",
+        "normal_candidate_ids": [],
+        "final_candidate_ids": [
+          "FB-05"
+        ],
+        "evidence_link_ids": [
+          "EL-IC-05"
+        ]
+      }
+    ],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-pronunciation:001-1",
+          "EL-T-pronunciation:001-2"
+        ]
+      },
+      {
+        "id": "pronunciation:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-pronunciation:002-1",
+          "EL-T-pronunciation:002-2"
+        ]
+      },
+      {
+        "id": "etymology:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-etymology:001-1",
+          "EL-T-etymology:001-2"
+        ]
+      },
+      {
+        "id": "etymology:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-etymology:002-1",
+          "EL-T-etymology:002-2"
+        ]
+      },
+      {
+        "id": "word_formation:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-word_formation:001-1"
+        ]
+      },
+      {
+        "id": "word_formation:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-word_formation:002-1",
+          "EL-T-word_formation:002-2"
+        ]
+      },
+      {
+        "id": "word_formation:003",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-word_formation:003-1"
+        ]
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-sense_boundary:001-1",
+          "EL-T-sense_boundary:001-2"
+        ]
+      },
+      {
+        "id": "definition:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-definition:001-1",
+          "EL-T-definition:001-2"
+        ]
+      },
+      {
+        "id": "frequency:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-frequency:001-1",
+          "EL-T-frequency:001-2"
+        ]
+      },
+      {
+        "id": "register:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-register:001-1",
+          "EL-T-register:001-2"
+        ]
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:001-1"
+        ]
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:002-1"
+        ]
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:003-1"
+        ]
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:004-1"
+        ]
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:005-1"
+        ]
+      },
+      {
+        "id": "collocation:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:001-1",
+          "EL-T-collocation:001-2"
+        ]
+      },
+      {
+        "id": "collocation:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:002-1",
+          "EL-T-collocation:002-2"
+        ]
+      },
+      {
+        "id": "collocation:003",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:003-1"
+        ]
+      },
+      {
+        "id": "collocation:004",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:004-1"
+        ]
+      },
+      {
+        "id": "collocation:005",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:005-1"
+        ]
+      },
+      {
+        "id": "collocation:006",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:006-1"
+        ]
+      },
+      {
+        "id": "collocation:007",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:007-1"
+        ]
+      },
+      {
+        "id": "collocation:008",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:008-1"
+        ]
+      },
+      {
+        "id": "usage_note:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-usage_note:001-1",
+          "EL-T-usage_note:001-2"
+        ]
+      },
+      {
+        "id": "synonym:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:001-1",
+          "EL-T-synonym:001-2"
+        ]
+      },
+      {
+        "id": "synonym:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:002-1",
+          "EL-T-synonym:002-2"
+        ]
+      },
+      {
+        "id": "synonym:003",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:003-1",
+          "EL-T-synonym:003-2"
+        ]
+      },
+      {
+        "id": "synonym:004",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:004-1",
+          "EL-T-synonym:004-2"
+        ]
+      },
+      {
+        "id": "synonym:005",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:005-1",
+          "EL-T-synonym:005-2"
+        ]
+      },
+      {
+        "id": "synonym:006",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:006-1",
+          "EL-T-synonym:006-2"
+        ]
+      },
+      {
+        "id": "sense_boundary:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-sense_boundary:002-1",
+          "EL-T-sense_boundary:002-2"
+        ]
+      },
+      {
+        "id": "definition:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-definition:002-1"
+        ]
+      },
+      {
+        "id": "frequency:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-frequency:002-1",
+          "EL-T-frequency:002-2"
+        ]
+      },
+      {
+        "id": "register:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-register:002-1",
+          "EL-T-register:002-2"
+        ]
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:006-1"
+        ]
+      },
+      {
+        "id": "grammar_pattern:007",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:007-1"
+        ]
+      },
+      {
+        "id": "grammar_pattern:008",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-grammar_pattern:008-1"
+        ]
+      },
+      {
+        "id": "collocation:009",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:009-1"
+        ]
+      },
+      {
+        "id": "collocation:010",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:010-1"
+        ]
+      },
+      {
+        "id": "collocation:011",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:011-1"
+        ]
+      },
+      {
+        "id": "collocation:012",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:012-1"
+        ]
+      },
+      {
+        "id": "collocation:013",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-collocation:013-1"
+        ]
+      },
+      {
+        "id": "usage_note:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-usage_note:002-1",
+          "EL-T-usage_note:002-2"
+        ]
+      },
+      {
+        "id": "synonym:007",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:007-1",
+          "EL-T-synonym:007-2"
+        ]
+      },
+      {
+        "id": "synonym:008",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:008-1",
+          "EL-T-synonym:008-2"
+        ]
+      },
+      {
+        "id": "synonym:009",
+        "status": "pass",
+        "notes": "Final adjudicator verified the latest body text, target scope, and every linked source claim.",
+        "evidence_link_ids_checked": [
+          "EL-T-synonym:009-1",
+          "EL-T-synonym:009-2"
+        ]
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "example_translation:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:001-1"
+        ]
+      },
+      {
+        "id": "example_translation:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:002-1"
+        ]
+      },
+      {
+        "id": "example_translation:003",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:003-1"
+        ]
+      },
+      {
+        "id": "example_translation:004",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:004-1"
+        ]
+      },
+      {
+        "id": "example_translation:005",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:005-1"
+        ]
+      },
+      {
+        "id": "example_translation:006",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:006-1"
+        ]
+      },
+      {
+        "id": "example_translation:007",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:007-1"
+        ]
+      },
+      {
+        "id": "example_translation:008",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:008-1"
+        ]
+      },
+      {
+        "id": "example_translation:009",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:009-1"
+        ]
+      },
+      {
+        "id": "example_translation:010",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:010-1"
+        ]
+      },
+      {
+        "id": "example_translation:011",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:011-1"
+        ]
+      },
+      {
+        "id": "example_translation:012",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:012-1"
+        ]
+      },
+      {
+        "id": "example_translation:013",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-example_translation:013-1"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-sense_definition_consistency:001-1"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-definition_usage_consistency:001-1"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-definition_lexical_relation_consistency:001-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:001-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:002-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:003-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:004-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:005-1"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-sense_definition_consistency:002-1"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-definition_usage_consistency:002-1"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-definition_lexical_relation_consistency:002-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:006-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:007-1"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-pattern_example_coverage:008-1"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "Final adjudicator verified the relation against the latest target set, examples, translations, and source scope.",
+        "evidence_link_ids_checked": [
+          "EL-R-article_learning_risk:001-1",
+          "EL-R-article_learning_risk:001-2"
+        ]
+      }
+    ],
+    "candidate_results": [
+      {
+        "id": "NC-01",
+        "status": "pass",
+        "notes": "The normal candidate is covered by a matching or broader final inventory candidate and its source link was rechecked.",
+        "evidence_checked": true,
+        "evidence_link_ids_checked": [
+          "EL-NC-NC-01"
+        ]
+      },
+      {
+        "id": "NC-02",
+        "status": "pass",
+        "notes": "The normal candidate is covered by a matching or broader final inventory candidate and its source link was rechecked.",
+        "evidence_checked": true,
+        "evidence_link_ids_checked": [
+          "EL-NC-NC-02"
+        ]
+      },
+      {
+        "id": "NC-03",
+        "status": "pass",
+        "notes": "The normal candidate is covered by a matching or broader final inventory candidate and its source link was rechecked.",
+        "evidence_checked": true,
+        "evidence_link_ids_checked": [
+          "EL-NC-NC-03"
+        ]
+      },
+      {
+        "id": "NC-04",
+        "status": "pass",
+        "notes": "The normal candidate is covered by a matching or broader final inventory candidate and its source link was rechecked.",
+        "evidence_checked": true,
+        "evidence_link_ids_checked": [
+          "EL-NC-NC-04"
+        ]
+      }
+    ],
+    "blind_finding_results": [],
+    "finding_results": [
+      {
+        "id": "COLD-01",
+        "finding_validity": "valid",
+        "resolution_status": "resolved",
+        "status": "pass",
+        "verified_changes": [
+          "Separate the US and UK kana approximations or qualify the current gloss."
+        ],
+        "unresolved_problem": "",
+        "notes": "Final adjudicator confirmed the cold finding, the adopted correction, the anchored target, and the full incident relation blast radius.",
+        "evidence_link_ids_checked": [
+          "EL-RES-COLD-01"
+        ],
+        "verified_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "verified_invariant_ids": [
+          "SEM-COLD-01"
+        ],
+        "blast_radius_target_ids": [
+          "etymology:002",
+          "pronunciation:001"
+        ],
+        "blast_radius_relation_ids": [],
+        "blast_radius_queries_checked": [],
+        "blast_radius_query_results": []
+      },
+      {
+        "id": "COLD-02",
+        "finding_validity": "valid",
+        "resolution_status": "resolved",
+        "status": "pass",
+        "verified_changes": [
+          "Broaden the current-English usage statement and retain the formal-writing recommendation."
+        ],
+        "unresolved_problem": "",
+        "notes": "Final adjudicator confirmed the cold finding, the adopted correction, the anchored target, and the full incident relation blast radius.",
+        "evidence_link_ids_checked": [
+          "EL-RES-COLD-02"
+        ],
+        "verified_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "verified_invariant_ids": [
+          "SEM-COLD-02"
+        ],
+        "blast_radius_target_ids": [
+          "etymology:002",
+          "usage_note:001"
+        ],
+        "blast_radius_relation_ids": [
+          "article_learning_risk:001",
+          "definition_usage_consistency:001"
+        ],
+        "blast_radius_queries_checked": [],
+        "blast_radius_query_results": []
+      },
+      {
+        "id": "COLD-03",
+        "finding_validity": "valid",
+        "resolution_status": "resolved",
+        "status": "pass",
+        "verified_changes": [
+          "Qualify the related-root family and avoid an unbounded direct-derivative implication."
+        ],
+        "unresolved_problem": "",
+        "notes": "Final adjudicator confirmed the cold finding, the adopted correction, the anchored target, and the full incident relation blast radius.",
+        "evidence_link_ids_checked": [
+          "EL-RES-COLD-03"
+        ],
+        "verified_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "verified_invariant_ids": [
+          "SEM-COLD-03"
+        ],
+        "blast_radius_target_ids": [
+          "etymology:002"
+        ],
+        "blast_radius_relation_ids": [],
+        "blast_radius_queries_checked": [],
+        "blast_radius_query_results": []
+      }
+    ],
+    "evidence_checks": [
+      {
+        "id": "EL-FC-FB-01",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-FC-FB-02",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-FC-FB-03",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-FC-FB-04",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-FC-FB-05",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-IC-01",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-IC-02",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-IC-03",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-IC-04",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-IC-05",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-NC-NC-01",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-NC-NC-02",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-NC-NC-03",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-NC-NC-04",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-article_learning_risk:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-article_learning_risk:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-definition_lexical_relation_consistency:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-definition_lexical_relation_consistency:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-definition_usage_consistency:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-definition_usage_consistency:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:007-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:008-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:009-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:010-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:011-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:012-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-example_translation:013-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:007-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-pattern_example_coverage:008-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-sense_definition_consistency:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-R-sense_definition_consistency:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-RES-COLD-01",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-RES-COLD-02",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-RES-COLD-03",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:007-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:008-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:009-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:010-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:011-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:012-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-collocation:013-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-definition:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-definition:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-definition:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-etymology:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-etymology:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-etymology:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-etymology:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-frequency:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-frequency:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-frequency:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-frequency:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:007-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-grammar_pattern:008-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-pronunciation:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-pronunciation:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-pronunciation:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-pronunciation:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-register:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-register:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-register:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-register:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-sense_boundary:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-sense_boundary:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-sense_boundary:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-sense_boundary:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:003-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:004-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:004-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:005-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:005-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:006-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:006-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:007-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:007-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:008-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:008-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:009-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-synonym:009-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-usage_note:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-usage_note:001-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-usage_note:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-usage_note:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-word_formation:001-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-word_formation:002-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-word_formation:002-2",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      },
+      {
+        "id": "EL-T-word_formation:003-1",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "Final adjudicator checked the linked source, locator, applicability, and contradiction status."
+      }
+    ],
+    "final_inventory_checks": [
+      {
+        "candidate_id": "FB-01",
+        "assertion_ids": [
+          "FBI-01-1",
+          "FBI-01-2"
+        ],
+        "checked_on_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "status": "pass",
+        "notes": "Blind assertions were checked against the latest body, mapped targets, incident relations, and source-backed scope.",
+        "article_target_ids_checked": [
+          "collocation:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "usage_note:001"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "definition_lexical_relation_consistency:001",
+          "definition_usage_consistency:001",
+          "example_translation:001",
+          "pattern_example_coverage:001",
+          "pattern_example_coverage:002",
+          "pattern_example_coverage:003",
+          "pattern_example_coverage:004",
+          "pattern_example_coverage:005",
+          "sense_definition_consistency:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "FB-02",
+        "assertion_ids": [
+          "FBI-02-1",
+          "FBI-02-2"
+        ],
+        "checked_on_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "status": "pass",
+        "notes": "Blind assertions were checked against the latest body, mapped targets, incident relations, and source-backed scope.",
+        "article_target_ids_checked": [
+          "collocation:010",
+          "definition:002",
+          "register:002",
+          "sense_boundary:002",
+          "usage_note:002"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "definition_lexical_relation_consistency:002",
+          "definition_usage_consistency:002",
+          "example_translation:010",
+          "pattern_example_coverage:006",
+          "pattern_example_coverage:007",
+          "pattern_example_coverage:008",
+          "sense_definition_consistency:002"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "FB-03",
+        "assertion_ids": [
+          "FBI-03-1",
+          "FBI-03-2"
+        ],
+        "checked_on_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "status": "pass",
+        "notes": "Blind assertions were checked against the latest body, mapped targets, incident relations, and source-backed scope.",
+        "article_target_ids_checked": [
+          "pronunciation:002",
+          "usage_note:001",
+          "word_formation:001",
+          "word_formation:002"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "definition_usage_consistency:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "FB-04",
+        "assertion_ids": [
+          "FBI-04-1"
+        ],
+        "checked_on_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "status": "pass",
+        "notes": "Blind assertions were checked against the latest body, mapped targets, incident relations, and source-backed scope.",
+        "article_target_ids_checked": [
+          "register:002",
+          "usage_note:001",
+          "word_formation:003"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "definition_usage_consistency:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "FB-05",
+        "assertion_ids": [
+          "FBI-05-1",
+          "FBI-05-2"
+        ],
+        "checked_on_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+        "status": "pass",
+        "notes": "Blind assertions were checked against the latest body, mapped targets, incident relations, and source-backed scope.",
+        "article_target_ids_checked": [
+          "etymology:001",
+          "etymology:002",
+          "pronunciation:001",
+          "pronunciation:002"
+        ],
+        "article_relation_ids_checked": [],
+        "article_queries_checked": [],
+        "article_query_results": []
+      }
+    ],
+    "blockers": []
+  }
+}

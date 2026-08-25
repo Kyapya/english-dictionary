@@ -1,0 +1,58 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold-criterion-cycle001-20260825",
+  "context_id": "context-free-criterion-cycle001-20260825",
+  "input_body_sha256": "b7c9ca56c453e8244e37527f3ad62ef4fa87321b666b006a672e1f040572e6fc",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "summary": "本文だけを文脈非継承で点検し、3件の問題候補を検出した。発音の地域差表記、criteria単数用法のスコープ、語源上の関連語の関係強度を修正後に再確認する。",
+  "findings": [
+    {
+      "id": "COLD-01",
+      "location": "＃発音記号 line:4",
+      "severity": "minor",
+      "description": "The kana approximation is presented as one English flow even though the preceding IPA distinguishes the US /tɪr/ and UK /tɪə/ nuclei.",
+      "reason": "A learner could treat クライ・ティア・リアン as the only pronunciation and miss the US rhotic vowel/consonant sequence.",
+      "suggested_direction": "State the US and UK kana approximations separately, or qualify the current approximation as mainly UK-like.",
+      "scope_anchors": [
+        {
+          "id": "A-01",
+          "exact_quote": "語頭は cry と同じ /kraɪ/ で、語末は /iən/ と続くため、英語では「クライ・ティア・リアン」に近い音の流れになる。",
+          "location_hint": "＃発音記号 first paragraph"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "COLD-02",
+      "location": "＃意味・用法・関連表現 line:73",
+      "severity": "major",
+      "description": "The note on singular criteria narrows the growing singular use to conversation or casual writing without stating that it is a broader current-English usage under formal dispute.",
+      "reason": "The scope may teach learners that singular criteria is only colloquial, while the actual usage issue is current but contested and formal-style dependent.",
+      "suggested_direction": "Remove the conversation-only framing; say singular criteria is increasingly used in current English, while criterion remains the safer choice in formal standard writing.",
+      "scope_anchors": [
+        {
+          "id": "A-02",
+          "exact_quote": "criteria を単数として a criteria・criteria is とする用法も、特に会話やくだけた文章では広がっているが、学習者が標準的な書き言葉で使う場合は criterion を選ぶ。",
+          "location_hint": "【語法・注意】 under sense 1"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "COLD-03",
+      "location": "＃語源 line:10",
+      "severity": "minor",
+      "description": "The related-word sentence groups critic, critical, and crisis as one Greek-root family and may be read as a direct derivational relation from criterion.",
+      "reason": "The paragraph needs a clearer distinction between a broad etymological root family and direct word formation; otherwise the learner may infer a stronger lexical relation than intended.",
+      "suggested_direction": "Qualify these as etymologically related root-family examples and state that they are not direct derivatives or synonyms; remove any member that cannot be supported at that scope.",
+      "scope_anchors": [
+        {
+          "id": "A-03",
+          "exact_quote": "同じ語根の語として、critic「批評家、批評する人」、critical「批評の、重大な」や crisis「危機、重大な転機」がある。",
+          "location_hint": "＃語源 second paragraph"
+        }
+      ],
+      "evidence_link_ids": []
+    }
+  ]
+}

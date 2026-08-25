@@ -1,0 +1,125 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-criterion-cycle001-20260825",
+  "context_id": "context-free-final-blind-criterion-cycle001-20260825",
+  "input_body_sha256": "0b01901c058d9fd7f0a906023a02eb72fd542c051898645f44174629e25a22ba",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-01",
+      "surface_form": "criterion",
+      "frame": "a criterion for/of N; meet or fulfil a criterion",
+      "meaning": "判断・評価・選定に使う基準または判断材料",
+      "rationale": "最新版本文だけから、可算性、評価基準義、for/ofフレーム、複数基準の一つという範囲を独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-01-1",
+          "statement": "criterion is a countable noun used as one basis for judging, comparing, selecting, or deciding.",
+          "polarity": "must_hold",
+          "scope": "sense 1 definition and grammar patterns"
+        },
+        {
+          "id": "FBI-01-2",
+          "statement": "The first sense does not require an officially imposed rule or a single absolute standard.",
+          "polarity": "must_hold",
+          "scope": "sense 1 definition and usage note"
+        }
+      ]
+    },
+    {
+      "id": "FB-02",
+      "surface_form": "criterion",
+      "frame": "criterion of identity/validity; a defining criterion of a category",
+      "meaning": "同定・分類を特徴づける判定特性",
+      "rationale": "最新版本文だけから、一般義の基準から特徴そのものが判定機能を担う学術用法への境界を独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-02-1",
+          "statement": "The second sense foregrounds a characteristic used to identify, classify, or define something.",
+          "polarity": "must_hold",
+          "scope": "sense 2 definition, grammar patterns, and usage note"
+        },
+        {
+          "id": "FBI-02-2",
+          "statement": "The second sense overlaps with the first but is not created merely by placing the word in an academic domain.",
+          "polarity": "must_hold",
+          "scope": "sense 2 usage note"
+        }
+      ]
+    },
+    {
+      "id": "FB-03",
+      "surface_form": "criteria / criterions",
+      "frame": "These criteria; singular criteria in current usage; rare criterions",
+      "meaning": "標準複数、稀な-s複数、争いのあるcriteria単数用法",
+      "rationale": "最新版本文だけから、複数形、発音、正式文体での用法注意を独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-03-1",
+          "statement": "criteria is the standard plural of criterion, while criterions is possible but rare.",
+          "polarity": "must_hold",
+          "scope": "pronunciation and word formation"
+        },
+        {
+          "id": "FBI-03-2",
+          "statement": "Singular criteria is described as increasing in current English but still disputed for formal standard writing.",
+          "polarity": "must_hold",
+          "scope": "sense 1 usage note"
+        }
+      ]
+    },
+    {
+      "id": "FB-04",
+      "surface_form": "criterion-referenced",
+      "frame": "criterion-referenced score interpretation/test",
+      "meaning": "教育測定で定めた基準領域に照らす専門用法",
+      "rationale": "最新版本文だけから、criterionの一般義から教育評価へ拡張される複合語とその限定を独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-04-1",
+          "statement": "In criterion-referenced assessment, performance is interpreted against a defined criterion rather than a norm-comparison population.",
+          "polarity": "must_hold",
+          "scope": "word formation and sense 1 usage note"
+        }
+      ]
+    },
+    {
+      "id": "FB-05",
+      "surface_form": "criterion",
+      "frame": "/kraɪˈtɪriən/; /kraɪˈtɪəriən/; Greek kritērion",
+      "meaning": "第2音節強勢の米英発音と判断に関わるギリシャ語源",
+      "rationale": "最新版本文だけから、発音の地域差、強勢、語源上の関連語を独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FBI-05-1",
+          "statement": "The headword carries main stress on the second syllable, with the article distinguishing US and UK vowel/rhotic detail.",
+          "polarity": "must_hold",
+          "scope": "pronunciation section"
+        },
+        {
+          "id": "FBI-05-2",
+          "statement": "The article presents critic, critical, and crisis as broadly related root-family words, not direct derivatives or synonyms.",
+          "polarity": "must_hold",
+          "scope": "etymology section"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260824T235658Z-8ba10ced",
+  "headword": "criterion",
+  "entry_path": "entries/c/criterion.md",
+  "branch": "agent/add-criterion-v5-20260825",
+  "base_sha": "a6df6f100aa0f2842f3a2f64750a03292cfdb3de",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 4,
+    "candidate_pages": 9
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-24T23:56:58Z",
+  "deadline_at": "2026-08-25T00:56:58Z",
+  "pre_draft_deadline_at": "2026-08-25T00:16:58Z",
+  "last_heartbeat_at": "2026-08-25T00:38:32Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-24T23:57:40Z",
+    "commit_sha": "13d717a6af43aad05a924dec3b90ab87b205476d"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-24T23:56:58Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-24T23:57:40Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T00:09:26Z",
+      "notes": "criterion draft and queue row saved after local v5 validation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T00:15:56Z",
+      "notes": "bounded source-first inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T00:22:46Z",
+      "notes": "all generated targets and relations passed the zero-based normal review"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T00:24:34Z",
+      "notes": "context-free cold review recorded three findings before article revision"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T00:31:34Z",
+      "notes": "final blind inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T00:38:17Z",
+      "notes": "final adjudication PASS; all targets, relations, evidence checks, source unions, and semantic assertions reconciled"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T00:38:32Z",
+      "notes": "criterion checked true and queue synchronized after final PASS"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
