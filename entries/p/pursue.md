@@ -1,12 +1,12 @@
 ---
 headword: pursue
 type: word
-status: draft
+status: final
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-26
 updated_at: 2026-08-26
-checked: false
+checked: true
 tags: []
 ---
 
@@ -508,4 +508,3 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 違い: be free from は追い続ける負担が存在しない状態を表す。  
 例: After treatment, he was finally free from constant pain.  
 訳: 治療後、彼はついに慢性的な痛みから解放された。  
-
