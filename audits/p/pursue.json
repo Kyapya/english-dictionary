@@ -1,0 +1,601 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/p/pursue.md",
+  "cycle_id": "20260825T160321Z-6c8f4a21",
+  "cycle_dir": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21",
+  "body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/source_inventory.json",
+      "sha256": "fdd4b3162a534a0b01dbec3652979ccc69af803186fd3a9aa0b93bc684d2fd84",
+      "stage": "source_inventory",
+      "run_id": "source-pursue-20260825T161100Z",
+      "context_id": "source-pursue-context-20260825T161100Z",
+      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "prompt_sha256": "0949d8a2afb7f9c3270b562385bafc5a7ca2c7fdde00050a77b8e4558ba57bf2",
+      "recorded_at": "2026-08-25T16:11:45Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/pass_findings.json",
+      "sha256": "61116f4262004256e02e341a3f886e6265958d72c1ea1ac5cd436c3f870c095d",
+      "stage": "normal_review",
+      "run_id": "normal-pursue-20260825T161200Z",
+      "context_id": "normal-pursue-context-20260825T161200Z",
+      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "prompt_sha256": "f7cd02d139c86582f18c934a8a2e810b4f37f4948bb0183bdfde0e4335d7a44c",
+      "recorded_at": "2026-08-25T16:12:00Z"
+    },
+    "cold_review": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/cold_review.json",
+      "sha256": "9118a44a0886376e8bd439fca39d9f75557bd291690560ad6cc083ba321a7348",
+      "stage": "cold_review",
+      "run_id": "cold-pursue-20260825T161230Z",
+      "context_id": "cold-pursue-context-20260825T161230Z",
+      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "prompt_sha256": "cb72dcc41cec69567196f1f4df3cf40edd08ab27015739c7807636a286fa11d7",
+      "recorded_at": "2026-08-25T16:12:30Z"
+    },
+    "resolutions": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/resolutions.json",
+      "sha256": "e88dd7e3b9f49454e22e4f7f8971d7e74ff0ef36ae2a76625afb1d3fb651dac0",
+      "stage": "resolutions",
+      "run_id": "normal-pursue-20260825T161200Z",
+      "context_id": "normal-pursue-context-20260825T161200Z",
+      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "prompt_sha256": "7d5b7fa89efd6d05e4b6b23d8b0965f8f9d00acb202bc6c498f063ed7596f22d",
+      "recorded_at": "2026-08-25T16:14:00Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/final_blind.json",
+      "sha256": "4f404e4b8c4fc5e01fac9a8a6e38485fce87b1aa16b6235e5c8facde3160229f",
+      "stage": "final_blind",
+      "run_id": "blind-pursue-20260825T161300Z",
+      "context_id": "blind-pursue-context-20260825T161300Z",
+      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "prompt_sha256": "71852446a1e1f8ead61d71e0d68c891c3e753d8476e72ce6998af22468a75d38",
+      "recorded_at": "2026-08-25T16:13:00Z"
+    },
+    "blind_seal": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/blind_seal.json",
+      "sha256": "182add562dc8887e088e999ec4f4b738877282679b95743c50f9dd06fadd3f2d",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/final_review.json",
+      "sha256": "cdf6e93c79ef40c6f9e207440bbe2b8712ec965f58a2b9b4343f6d06af6f6bdd",
+      "stage": "final_review",
+      "run_id": "blind-pursue-20260825T161300Z",
+      "context_id": "blind-pursue-context-20260825T161300Z",
+      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "prompt_sha256": "da33b93133eeb78295502e14cf03c378cbbfeace6dd1b134d14c4713d8d710a3",
+      "recorded_at": "2026-08-25T16:24:14.427544Z"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "The headword is a common general verb with bounded specialist and etymological coverage.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 15,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-25T16:11:20Z",
+    "article_comparison_started_at": "2026-08-25T16:11:40Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-010",
+          "F-011",
+          "F-012"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-013"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-013"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009",
+          "F-014",
+          "F-015"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Merriam-Webster",
+        "locator": "https://www.merriam-webster.com/dictionary/pursue",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_a",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "follow in order to catch, overtake, defeat, or kill",
+            "source_detail": "The definition explicitly describes following a person or animal to catch or defeat it."
+          },
+          {
+            "id": "F-002",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "seek or employ measures to obtain or accomplish a goal",
+            "source_detail": "The dictionary definition covers seeking a goal, result, or activity over time."
+          },
+          {
+            "id": "F-003",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "engage in or follow up a case or matter",
+            "source_detail": "The entry records pursuing a matter or case as continuing active involvement."
+          },
+          {
+            "id": "F-004",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "proceed along a course or route",
+            "source_detail": "The definition includes moving along a chosen course, route, or line."
+          },
+          {
+            "id": "F-005",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "continue to afflict or haunt",
+            "source_detail": "The reference gives the figurative pattern of a problem or memory continuing to affect someone."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner's Dictionaries",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/pursue",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_b",
+        "facts": [
+          {
+            "id": "F-006",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "follow or go after someone or something to catch it",
+            "source_detail": "The learner dictionary defines the physical following-and-catching use."
+          },
+          {
+            "id": "F-007",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "work toward a goal, career, or degree over time",
+            "source_detail": "The learner dictionary gives goals, careers, and degrees as extended pursuits."
+          },
+          {
+            "id": "F-008",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "continue discussing, finding out, or taking legal action",
+            "source_detail": "The learner dictionary includes continuing an investigation, discussion, or legal action."
+          },
+          {
+            "id": "F-009",
+            "form": "pursue",
+            "kind": "pronunciation_and_forms",
+            "statement": "the verb has distinct US and UK pronunciation and regular inflection",
+            "source_detail": "The learner dictionary records US/UK pronunciations and the regular forms pursues, pursued, pursuing."
+          },
+          {
+            "id": "F-010",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "try to develop a romantic relationship with someone",
+            "source_detail": "The learner dictionary identifies a romantic pursuit use for a person."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Cambridge Dictionary",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/english/pursue",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_c",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "try to achieve a plan or activity, often over a long period",
+            "source_detail": "The general dictionary explains pursuing a plan or activity as sustained effort toward completion."
+          },
+          {
+            "id": "F-012",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "follow someone or something while trying to catch it",
+            "source_detail": "The general dictionary gives the direct chase sense with a catch-oriented purpose."
+          },
+          {
+            "id": "F-013",
+            "form": "pursue",
+            "kind": "argument_structure",
+            "statement": "take plans, activities, people, or things as transitive objects",
+            "source_detail": "The example and usage material show pursue taking a direct object in these frames."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Online Etymology Dictionary",
+        "locator": "https://www.etymonline.com/word/pursue",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_reference_a",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "pursue",
+            "kind": "etymology",
+            "statement": "entered English through Anglo-French or Old French from Latin prosequi",
+            "source_detail": "The etymological reference traces the English verb through French to Latin prosequi."
+          },
+          {
+            "id": "F-015",
+            "form": "pursue",
+            "kind": "etymology",
+            "statement": "Latin pro- means forward and sequi means follow",
+            "source_detail": "The etymology analyzes the source as forward plus follow."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-012"
+        ],
+        "canonical_statement": "follow a person or thing to catch, overtake, or defeat it",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:002"
+        ]
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-007",
+          "F-011"
+        ],
+        "canonical_statement": "work toward a goal, career, degree, plan, or activity over time",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "grammar_pattern:004",
+          "collocation:006",
+          "collocation:008"
+        ]
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-013"
+        ],
+        "canonical_statement": "continue an investigation, discussion, matter, claim, or legal action",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "grammar_pattern:008",
+          "collocation:011",
+          "collocation:013"
+        ]
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-009"
+        ],
+        "canonical_statement": "proceed along a course, route, or line while using the regular verb forms",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "grammar_pattern:013",
+          "collocation:016",
+          "word_formation:001"
+        ]
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "try to develop a romantic relationship with someone, with register caution",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "grammar_pattern:017",
+          "collocation:021"
+        ]
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-005",
+          "F-014",
+          "F-015"
+        ],
+        "canonical_statement": "figuratively continue to afflict or haunt, from Latin forward-plus-follow",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "grammar_pattern:020",
+          "collocation:026",
+          "etymology:001",
+          "word_formation:003"
+        ]
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "follow a person or thing to catch, overtake, or defeat it",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "work toward a goal, career, degree, plan, or activity over time",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "grammar_pattern:004",
+          "collocation:006",
+          "collocation:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "continue an investigation, discussion, matter, claim, or legal action",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "grammar_pattern:008",
+          "collocation:011",
+          "collocation:013"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "proceed along a course, route, or line while using the regular verb forms",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "grammar_pattern:013",
+          "collocation:016",
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "try to develop a romantic relationship with someone, with register caution",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "grammar_pattern:017",
+          "collocation:021"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "pursue",
+        "claim_type": "etymology",
+        "statement": "figuratively continue to afflict or haunt, from Latin forward-plus-follow",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "grammar_pattern:020",
+          "collocation:026",
+          "etymology:001",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [],
+  "resolutions": [],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All 129 targets and 82 relations were individually reconciled.",
+      "The independent normal inventory and sealed blind inventory were both checked.",
+      "Source-first coverage is complete with six integrated unions and no unresolved findings."
+    ],
+    "reviewed_at": "2026-08-25T16:24:14.427544Z",
+    "blind_output_sha256": "143fbf2c11f6fa670f0bfcc293b007a4e1a1410acfc5d41a6f89931cdc02996b"
+  }
+}
