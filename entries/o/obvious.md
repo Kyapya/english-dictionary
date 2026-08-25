@@ -381,7 +381,6 @@ tags: []
 
 【語法・注意】米国法では、先行技術に発明と同一の内容が一つの資料として記載されていなくても、§ 103 に基づいて obvious と判断され得る。判断はクレームされた発明を「全体として」捉え、基準時点の当業者を基準にするため、発明を知った後の hindsight だけで「簡単だった」と評価するのは不適切である。obvious to try も「試せる選択肢があった」というだけで自動的に § 103 obvious になるという意味ではなく、USPTO MPEP が示すように、認識された問題、有限個の特定された予測可能な解決策、合理的な成功期待などの事実認定が必要になる。EPC Article 56 と英国 Patents Act 1977 section 3 も、先行技術に照らして当業者にとって obvious でないことを inventive step の判断に用いるが、米国 § 103 の枠組み、EPO の problem-solution approach、英国の判例上のテストを単純に同一視しない。日常語の obvious to everyone を、特許法上の skilled person を基準とする obvious と置き換えない。  
 
-
 【類義語】
 
 ・lack an inventive step  

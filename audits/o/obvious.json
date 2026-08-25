@@ -1,7 +1,7 @@
 {
   "schema_version": "content_audit_v3",
   "entry_path": "entries/o/obvious.md",
-  "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+  "body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
   "review_history": [],
   "current_cycle": {
     "cycle_id": "cycle-001",
@@ -18,7 +18,7 @@
       },
       {
         "revision_id": "revision-002",
-        "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+        "body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
         "snapshot_path": "audits/runs/o/obvious/cycle-001/revision-002.md",
         "created_at": "2026-08-25T05:14:00Z",
         "reason": "adopted cold-review corrections plus required legal-sense synonym block"
@@ -27,8 +27,8 @@
     "raw_outputs": {
       "normal_review": {
         "path": "audits/runs/o/obvious/cycle-001/normal_review_post_cold.json",
-        "sha256": "9cb88ec743fb4edfa8474a9867fdfa0a9c97e9b389be7ce66621c9019a70b608",
-        "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+        "sha256": "dc2f0d2762798db0772a22f01c81e9a4439315cd32c43d40eef8cef2f3b7775a",
+        "input_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
         "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
         "run_id": "normal-obvious-cycle001-postcold-20260825",
         "context_id": "isolated-obvious-cycle001-postcold-20260825"
@@ -43,12 +43,12 @@
       },
       "final_blind": {
         "path": "audits/runs/o/obvious/cycle-001/final_blind.json",
-        "sha256": "dc7499029be637ba8c6b42a2c6803ad3b5202275b9bb8fa86f9bd8cefef56f06",
-        "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+        "sha256": "e233429410b63c263e9cfc572155024b1b1ab774ec24ddd0a54fe8866d1d92fd",
+        "input_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
         "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
         "run_id": "final-obvious-cycle001-20260825",
         "context_id": "final-obvious-context-free-20260825",
-        "sealed_output_sha256": "3f22286b8caa4dd8bff7021e0ddf3b346fb1929bb10d0ea2c8104889dce27a6e"
+        "sealed_output_sha256": "d40c796f60bd86fc5b5d068f499ad2d388eb887148113f69fb5c794515e20169"
       },
       "final_review": {}
     },
@@ -1274,7 +1274,7 @@
     {
       "id": "synonym:013",
       "kind": "synonym",
-      "location": "lines:376-381",
+      "location": "lines:375-380",
       "section": "＃意味・用法・関連表現",
       "sense": "4. 【形容詞・法律（特許法、特に米国）】容易に想到できる、非自明性を欠く",
       "text_sha256": "518e2516effc50b6fe0dd6c909356f71b1edf7797d5964f28c1444d2e8abba44",
@@ -1285,7 +1285,7 @@
     {
       "id": "antonym:009",
       "kind": "antonym",
-      "location": "lines:385-390",
+      "location": "lines:384-389",
       "section": "＃意味・用法・関連表現",
       "sense": "4. 【形容詞・法律（特許法、特に米国）】容易に想到できる、非自明性を欠く",
       "text_sha256": "c004889d30b2e0dc29a8b2fb326afc6a6e7390adf21415ac2e4d562fa8925a3e",
@@ -6551,7 +6551,7 @@
       "context_id": "isolated-obvious-cycle001-postcold-20260825",
       "started_at": "2026-08-25T05:14:10Z",
       "completed_at": "2026-08-25T05:17:30Z",
-      "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+      "input_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
       "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
       "context_mode": "isolated",
       "input_artifacts": [
@@ -8402,7 +8402,7 @@
       "semantic_invariant_ids": [
         "SEM-COLD-01"
       ],
-      "resolved_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
+      "resolved_on_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b"
     },
     {
       "id": "COLD-02",
@@ -8509,7 +8509,7 @@
       "semantic_invariant_ids": [
         "SEM-COLD-02"
       ],
-      "resolved_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
+      "resolved_on_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b"
     },
     {
       "id": "COLD-03",
@@ -8562,12 +8562,12 @@
       "semantic_invariant_ids": [
         "SEM-COLD-03"
       ],
-      "resolved_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
+      "resolved_on_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b"
     }
   ],
   "semantic_gate": {
     "version": "semantic_resolution_v2",
-    "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+    "body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
     "constraints": [
       {
         "id": "SEM-COLD-01",
@@ -8606,7 +8606,7 @@
           "A-02",
           "A-03"
         ],
-        "verified_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
+        "verified_on_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b"
       },
       {
         "id": "SEM-COLD-02",
@@ -8649,7 +8649,7 @@
           "A-06",
           "A-07"
         ],
-        "verified_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
+        "verified_on_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b"
       },
       {
         "id": "SEM-COLD-03",
@@ -8681,7 +8681,7 @@
         "source_anchor_ids": [
           "A-08"
         ],
-        "verified_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
+        "verified_on_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b"
       }
     ],
     "final_inventory_checks": []
@@ -8696,7 +8696,7 @@
       "context_id": "final-obvious-context-free-20260825",
       "started_at": "2026-08-25T14:20:00+09:00",
       "completed_at": "",
-      "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+      "input_body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
       "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
       "context_mode": "context_free",
       "input_artifacts": [
@@ -8712,12 +8712,12 @@
       "seal_version": "blind_seal_v2",
       "completed": true,
       "recorded_at": "2026-08-25T14:23:30+09:00",
-      "sealed_at": "2026-08-25T05:33:41+00:00",
-      "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
+      "sealed_at": "2026-08-25T05:36:36+00:00",
+      "body_sha256": "7d2c8589ebebfda6bdfd1fb781b7997c30ea797cedbc4b08bb8005eb3cb6835b",
       "audit_visible": false,
       "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": "3f22286b8caa4dd8bff7021e0ddf3b346fb1929bb10d0ea2c8104889dce27a6e"
+      "output_sha256": "d40c796f60bd86fc5b5d068f499ad2d388eb887148113f69fb5c794515e20169"
     },
     "independent_candidates": [
       {
