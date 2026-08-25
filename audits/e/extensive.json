@@ -36,11 +36,12 @@
       },
       "final_blind": {
         "path": "audits/runs/e/extensive/cycle-001/final_blind.json",
-        "sha256": "69ce071745d0f9d78d9a035d3e80b8e8389e2dcc64f201b2ef04e314576c4901",
+        "sha256": "f1432344e0c92fc8a90958a84d8dd9508c53ba5eba9103381fd553032fc44d20",
         "input_body_sha256": "827f9691050526dddafe3e255ea2713a4728138a2662bb17fdc4b2f1449cc76b",
         "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
-        "run_id": "final-extensive-cycle001-20260825",
-        "context_id": "context-free-final-extensive-cycle001-20260825"
+        "run_id": "final-extensive-resume-20260825",
+        "context_id": "context-free-final-extensive-resume-20260825",
+        "sealed_output_sha256": "5d4524f3d573f52d60af79d2627adf2716e6200798bc101d362dafecf1e1c194"
       },
       "final_review": {}
     },
@@ -10692,13 +10693,13 @@
   },
   "final_review": {
     "role": "final_adjudicator",
-    "reviewer_id": "final-extensive-cycle001-20260825",
+    "reviewer_id": "final-extensive-resume-20260825",
     "reviewed_at": "",
     "completed": false,
     "execution": {
-      "run_id": "final-extensive-cycle001-20260825",
-      "context_id": "context-free-final-extensive-cycle001-20260825",
-      "started_at": "2026-08-25T03:51:00Z",
+      "run_id": "final-extensive-resume-20260825",
+      "context_id": "context-free-final-extensive-resume-20260825",
+      "started_at": "2026-08-25T04:13:28Z",
       "completed_at": "",
       "input_body_sha256": "827f9691050526dddafe3e255ea2713a4728138a2662bb17fdc4b2f1449cc76b",
       "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
@@ -10715,13 +10716,13 @@
     "blind_review": {
       "seal_version": "blind_seal_v2",
       "completed": true,
-      "recorded_at": "2026-08-25T03:44:00Z",
-      "sealed_at": "",
+      "recorded_at": "2026-08-25T04:13:28Z",
+      "sealed_at": "2026-08-25T13:13:28+09:00",
       "body_sha256": "827f9691050526dddafe3e255ea2713a4728138a2662bb17fdc4b2f1449cc76b",
       "audit_visible": false,
       "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": ""
+      "output_sha256": "5d4524f3d573f52d60af79d2627adf2716e6200798bc101d362dafecf1e1c194"
     },
     "independent_candidates": [
       {
@@ -10973,7 +10974,73 @@
     "finding_results": [],
     "evidence_checks": [],
     "blockers": [],
-    "source_inventory_results": []
+    "source_inventory_results": [
+      {
+        "union_id": "U-01",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-02",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-03",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-04",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-05",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-06",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-07",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-08",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-09",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-10",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-11",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-12",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "U-13",
+        "status": "pending",
+        "notes": ""
+      }
+    ]
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
@@ -10991,13 +11058,11 @@
       "facts_used": 23,
       "research_rounds_used": 2,
       "post_cold_rechecks_used": 0,
-      "final_attempts_used": 0
+      "final_attempts_used": 1
     },
-    "research_status": "budget_exhausted",
-    "stop_reason": "entry workflow heartbeat budget exhausted before blind sealing",
-    "open_questions": [
-      "Final blind review, seal, reconciliation, and CI remain incomplete."
-    ],
+    "research_status": "complete",
+    "stop_reason": "",
+    "open_questions": [],
     "inventory_completed_before_article_comparison": true,
     "inventory_completed_at": "2026-08-24T20:25:00.562350-07:00",
     "article_comparison_started_at": "2026-08-24T20:25:00.603726-07:00",
