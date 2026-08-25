@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T024745Z-consistent02",
+  "headword": "consistent",
+  "entry_path": "entries/c/consistent.md",
+  "branch": "add-consistent-20260825-retry",
+  "base_sha": "ded16969a7b030e86debf8336f58c960a58638e1",
+  "profile": "standard",
+  "profile_reason": "clean bounded retry after prior run heartbeat budget exhaustion",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-25T02:47:39Z",
+  "deadline_at": "2026-08-25T03:47:39Z",
+  "pre_draft_deadline_at": "2026-08-25T03:07:39Z",
+  "last_heartbeat_at": "2026-08-25T02:47:39Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T02:47:39Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
