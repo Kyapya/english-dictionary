@@ -41,7 +41,7 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Repair final gate and reseal obvious blind audit
+      - name: Normalize final gate and reseal obvious blind audit
         if: github.event_name == 'pull_request' && github.head_ref == 'agent/update-obvious-v5-20260825'
         run: |
           PYTHONPATH=. python .tmp/repair_obvious_legal_synonym.py
@@ -70,7 +70,7 @@ jobs:
             audits/runs/o/obvious/cycle-001/revision-002.md \
             audits/runs/o/obvious/cycle-001/final_blind.json
           if ! git diff --cached --quiet; then
-            git commit -m "fix: add obvious legal synonym and reseal blind review"
+            git commit -m "fix: normalize obvious entry and reseal blind review"
             git push origin "HEAD:${{ github.head_ref }}"
           fi
 
