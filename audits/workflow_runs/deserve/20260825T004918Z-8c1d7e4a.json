@@ -19,11 +19,11 @@
     "candidate_pages": 12
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "blind_seal_complete",
   "started_at": "2026-08-25T00:49:18Z",
   "deadline_at": "2026-08-25T01:49:18Z",
   "pre_draft_deadline_at": "2026-08-25T01:09:18Z",
-  "last_heartbeat_at": "2026-08-25T00:57:37Z",
+  "last_heartbeat_at": "2026-08-25T01:07:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T00:50:12Z",
@@ -44,6 +44,26 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-25T00:57:37Z",
       "notes": "v5 draft saved after bounded source inventory preparation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T01:07:00Z",
+      "notes": "bounded source-first inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T01:07:10Z",
+      "notes": "isolated normal review passed all targets, relations, and independent candidates"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T01:07:20Z",
+      "notes": "context-free cold review completed with 問題候補なし"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T01:07:30Z",
+      "notes": "blind final inventory sealed before reconciliation"
     }
   ],
   "stop_reason": "",
