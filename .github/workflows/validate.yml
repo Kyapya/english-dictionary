@@ -40,6 +40,19 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
+      - name: Pack temporary obvious diagnostic bundle
+        run: |
+          git bundle create /tmp/obvious-workspace.bundle \
+            refs/remotes/origin/main \
+            refs/remotes/origin/agent/update-obvious-v5-20260825
+
+      - name: Upload temporary obvious diagnostic bundle
+        uses: actions/upload-artifact@v4
+        with:
+          name: obvious-workspace-diagnostic
+          path: /tmp/obvious-workspace.bundle
+          retention-days: 1
+
       - name: Validate entry formats
         run: python scripts/validate_entry.py entries
 
