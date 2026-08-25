@@ -280,3 +280,4 @@
 頻度: 〈5/10〉  
 違い: `be unworthy of` は肯定的な評価の反対側を表す形容詞表現で、`deserve` が表す悪い結果に値するという用法全体の反意語ではない。  
 例: The proposal is unworthy of further consideration.  
+訳: その提案はこれ以上検討する価値がない。  
