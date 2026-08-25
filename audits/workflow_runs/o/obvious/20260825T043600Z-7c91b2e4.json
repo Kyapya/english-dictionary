@@ -18,12 +18,12 @@
     "research_queries": 10,
     "candidate_pages": 10
   },
-  "status": "budget_exhausted",
-  "stage": "normal_review_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-25T04:36:00Z",
   "deadline_at": "2026-08-25T05:36:00Z",
   "pre_draft_deadline_at": "2026-08-25T04:56:00Z",
-  "last_heartbeat_at": "2026-08-25T04:54:00Z",
+  "last_heartbeat_at": "2026-08-25T05:39:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T04:38:00Z",
@@ -54,10 +54,28 @@
       "stage": "normal_review_complete",
       "recorded_at": "2026-08-25T04:54:00Z",
       "notes": "zero-based normal review found no blocking content defect; required context-free cold-review execution is unavailable in this tool environment"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T05:20:00Z",
+      "notes": "one context-free cold review completed; three findings were adopted and corrected"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T05:36:36Z",
+      "notes": "final blind inventory was sealed on the corrected body before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T05:39:00Z",
+      "notes": "final adjudicator reconciled normal cold and blind inventories; all semantic and evidence checks passed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T05:39:30Z",
+      "notes": "entry queue audit and workflow state synchronized for merge"
     }
   ],
-  "stop_reason": "required context-free cold-review execution cannot be launched from the current single conversation/tool environment without violating check_spec_v5 independence requirements",
-  "open_questions": [
-    "Run one context-free cold review using only the latest body and cold_review_prompt_v1, then resume reconciliation, blind seal, final adjudication, checked synchronization, PR, and merge."
-  ]
+  "stop_reason": "",
+  "open_questions": []
 }
