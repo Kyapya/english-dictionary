@@ -1,0 +1,163 @@
+{
+  "stage": "final_blind",
+  "run_id": "final:deserve:20260825",
+  "context_id": "ctx:final:deserve:20260825",
+  "input_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "candidate:001",
+      "surface_form": "deserve + noun phrase",
+      "frame": "subject + deserve + reward, treatment, attention, blame, or punishment",
+      "meaning": "The subject is worthy of or appropriately receives the object, whether favorable or unfavorable.",
+      "disposition": "included",
+      "rationale": "The article explicitly teaches the transitive noun-object frame across positive, negative, and abstract objects.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:001:assertion:001",
+          "statement": "The noun object names a treatment, result, evaluation, or other thing the subject is judged fit to receive.",
+          "polarity": "must_hold",
+          "scope": "sense 1 noun-object frame"
+        },
+        {
+          "id": "candidate:001:assertion:002",
+          "statement": "The object is not restricted to favorable outcomes.",
+          "polarity": "must_hold",
+          "scope": "sense 1 usage note and negative collocations"
+        }
+      ]
+    },
+    {
+      "id": "candidate:002",
+      "surface_form": "deserve to do",
+      "frame": "subject + deserve + to-infinitive",
+      "meaning": "The subject is evaluated as meriting the action or result expressed by the infinitive.",
+      "disposition": "included",
+      "rationale": "The article separates the to-infinitive frame from the noun-object frame and gives action/result examples.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:002:assertion:001",
+          "statement": "The subject is the understood actor or experiencer of the infinitive action or result.",
+          "polarity": "must_hold",
+          "scope": "deserve to do"
+        },
+        {
+          "id": "candidate:002:assertion:002",
+          "statement": "The construction expresses evaluative appropriateness rather than a bare forecast.",
+          "polarity": "must_hold",
+          "scope": "deserve to usage note"
+        }
+      ]
+    },
+    {
+      "id": "candidate:003",
+      "surface_form": "deserve to be done",
+      "frame": "subject + deserve + to be + past participle",
+      "meaning": "The subject is judged to merit receiving the treatment expressed by the passive infinitive.",
+      "disposition": "included",
+      "rationale": "The article highlights the subject-role contrast between deserve to do and deserve to be done.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:003:assertion:001",
+          "statement": "The headword's subject is the recipient of the passive treatment, not the performer of the participial verb.",
+          "polarity": "must_hold",
+          "scope": "deserve to be done"
+        },
+        {
+          "id": "candidate:003:assertion:002",
+          "statement": "A passive infinitive can preserve the evaluative meaning with an inanimate subject.",
+          "polarity": "must_hold",
+          "scope": "inanimate-subject usage"
+        }
+      ]
+    },
+    {
+      "id": "candidate:004",
+      "surface_form": "deserve doing",
+      "frame": "subject + deserve + gerund-participial form",
+      "meaning": "The subject is a matter worth being mentioned, noted, investigated, or discussed; the reading is often passive-like.",
+      "disposition": "included",
+      "rationale": "The article gives a separate sense for the doing-form construction and warns against an active translation.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:004:assertion:001",
+          "statement": "The subject is normally the target of the -ing action in the relevant passive-like reading.",
+          "polarity": "must_hold",
+          "scope": "deserve doing"
+        },
+        {
+          "id": "candidate:004:assertion:002",
+          "statement": "deserve doing is not treated as an ordinary active verb meaning that the subject enjoys doing something.",
+          "polarity": "must_not_hold",
+          "scope": "usage warning"
+        }
+      ]
+    },
+    {
+      "id": "candidate:005",
+      "surface_form": "deserving of",
+      "frame": "deserving + of + noun phrase",
+      "meaning": "An adjective meaning worthy of support, praise, attention, or another treatment.",
+      "disposition": "included",
+      "rationale": "The word-formation section records deserving of as an adjective rather than only a verb form.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:005:assertion:001",
+          "statement": "deserving of functions adjectivally to describe worthiness for the following noun phrase.",
+          "polarity": "must_hold",
+          "scope": "derived adjective"
+        }
+      ]
+    },
+    {
+      "id": "candidate:006",
+      "surface_form": "well-deserved",
+      "frame": "well-deserved + noun phrase",
+      "meaning": "An adjective marking a result or treatment as appropriately earned or warranted.",
+      "disposition": "included",
+      "rationale": "The article includes well-deserved rest and praise as adjective examples.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:006:assertion:001",
+          "statement": "well-deserved modifies a result or treatment that is evaluated as appropriate for the circumstances.",
+          "polarity": "must_hold",
+          "scope": "derived adjective"
+        }
+      ]
+    },
+    {
+      "id": "candidate:007",
+      "surface_form": "undeserved / undeserving",
+      "frame": "negative adjective derived from deserve",
+      "meaning": "Not appropriately earned or not worthy of the treatment or result at issue.",
+      "disposition": "included",
+      "rationale": "The article explicitly provides negative adjective forms and examples such as undeserved criticism.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:007:assertion:001",
+          "statement": "The negative adjective reverses the evaluation of worthiness or appropriateness.",
+          "polarity": "must_hold",
+          "scope": "negative derivation"
+        }
+      ]
+    },
+    {
+      "id": "candidate:008",
+      "surface_form": "get what you deserve / deserve better",
+      "frame": "idiomatic result or treatment expressions",
+      "meaning": "Established expressions connect conduct or present treatment with the result or treatment judged appropriate.",
+      "disposition": "included",
+      "rationale": "The collocation section teaches both the negative-result idiom and the request for improved treatment.",
+      "semantic_assertions": [
+        {
+          "id": "candidate:008:assertion:001",
+          "statement": "The idioms preserve the core evaluative link between conduct or circumstances and an appropriate outcome.",
+          "polarity": "must_hold",
+          "scope": "idiomatic collocations"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
