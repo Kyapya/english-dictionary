@@ -101,11 +101,14 @@ class PromptContractTests(unittest.TestCase):
             "内容上の問題を前提なしで指摘してください。"
         )
 
-        for text in (agents, check, entry, readme):
+        for text in (check, entry, readme):
             self.assertIn("コールドレビュー", text)
             self.assertIn("1回", text)
             self.assertIn("最終審査", text)
             self.assertIn("final_review_spec_v1.md", text)
+        self.assertIn("scripts/run_word.py", agents)
+        self.assertIn("prompts/cold_review_prompt_v1.md", agents)
+        self.assertIn("prompts/final_review_spec_v1.md", agents)
 
         for text in (check,):
             self.assertIn("採用", text)
@@ -127,7 +130,10 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("`保留`が0件", check)
         self.assertIn("通常チェック担当は `checked: true` を決定しない", check)
         self.assertIn("status `review_ready`、checked `false`", check)
-        self.assertIn("相互に異なるrun IDとcontext ID", agents)
+        self.assertIn(
+            "run IDとcontext IDはそれぞれ相互に異ならなければならない",
+            check,
+        )
         self.assertIn("仕様が想定していない問題候補", readme)
         for text in (agents, check, readme):
             self.assertNotIn("新しい会話", text)
@@ -232,14 +238,22 @@ class PromptContractTests(unittest.TestCase):
                 with self.subTest(path=path.name, legacy_path=legacy_path):
                     self.assertNotIn(legacy_path, text)
 
-    def test_agents_routes_generation_and_checking_through_complete_v5(self) -> None:
+    def test_agents_is_a_small_router_for_the_orchestrator(self) -> None:
         text = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
+        self.assertLess(len(text.encode("utf-8")), 6_000)
+        self.assertIn("python scripts/run_word.py --dry-run <headword>", text)
+        self.assertIn("scripts/run_word.py", text)
         self.assertIn("prompts/entry_spec_v5.md", text)
         self.assertIn("prompts/check_spec_v5.md", text)
         self.assertIn("prompts/final_review_spec_v1.md", text)
         self.assertIn("prompts/notion_spec_v1.md", text)
-        self.assertIn("prompt_version: entry_spec_v5", text)
-        self.assertNotIn("v3・v4・v5", text)
+        for removed_procedure in (
+            "record-research",
+            "confirm-remote",
+            "最大2回",
+            "Pull Requestの機械検証が成功したら",
+        ):
+            self.assertNotIn(removed_procedure, text)
 
     def test_github_flow_uses_codex_not_an_api_generator(self) -> None:
         agents = (REPO_ROOT / "AGENTS.md").read_text(encoding="utf-8")
@@ -250,9 +264,13 @@ class PromptContractTests(unittest.TestCase):
         notion_workflow = (
             REPO_ROOT / ".github" / "workflows" / "sync-notion.yml"
         ).read_text(encoding="utf-8")
+        orchestrator = (REPO_ROOT / "scripts" / "run_word.py").read_text(
+            encoding="utf-8"
+        )
 
-        self.assertIn("生成主体は、ユーザーから依頼を受けて", agents)
         self.assertIn("OpenAI APIキーは不要", readme)
+        self.assertNotIn("openai", orchestrator.lower())
+        self.assertIn("independent_llm", orchestrator)
         self.assertIn("pull_request:", validate_workflow)
         self.assertIn("scripts/validate_repository.py", validate_workflow)
         self.assertIn("scripts/content_audit.py validate-changed", validate_workflow)

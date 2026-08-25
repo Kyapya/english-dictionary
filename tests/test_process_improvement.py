@@ -64,8 +64,14 @@ class ProcessImprovementTests(unittest.TestCase):
             self.assertIn("scripts/process_improvement.py", text)
             self.assertIn("コールドレビュー", text)
             self.assertIn("最終盲検", text)
-        self.assertIn("単語固有", agents)
-        self.assertIn("新しい知見なし", agents)
+        self.assertIn("単語固有", readme)
+        self.assertIn("新しい知見なし", readme)
+        orchestrator = (REPO_ROOT / "scripts" / "run_word.py").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("process_improvement/ACTIVE.md", orchestrator)
+        self.assertIn("context_free_cold", orchestrator)
+        self.assertIn("context_free_final_blind", orchestrator)
         self.assertIn('"process_improvement/**"', workflow)
         self.assertIn("scripts/process_improvement.py validate", workflow)
 
