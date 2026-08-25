@@ -1,0 +1,251 @@
+{
+  "stage": "final_blind",
+  "run_id": "final-extensive-cycle001-20260825",
+  "context_id": "context-free-final-extensive-cycle001-20260825",
+  "input_body_sha256": "827f9691050526dddafe3e255ea2713a4728138a2662bb17fdc4b2f1449cc76b",
+  "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-01",
+      "surface_form": "extensive",
+      "frame": "extensive + physical area/region frame",
+      "meaning": "空間的な面積・地域の広がり",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、空間的な面積・地域の広がり を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-01:A1",
+          "statement": "空間的な面積・地域の広がり の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-01:A2",
+          "statement": "空間的な面積・地域の広がり を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-02",
+      "surface_form": "extensive",
+      "frame": "extensive + amount/damage/work frame",
+      "meaning": "量・被害・作業の規模・程度の大きさ",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、量・被害・作業の規模・程度の大きさ を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-02:A1",
+          "statement": "量・被害・作業の規模・程度の大きさ の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-02:A2",
+          "statement": "量・被害・作業の規模・程度の大きさ を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-03",
+      "surface_form": "extensive",
+      "frame": "extensive + knowledge/research/experience/range frame",
+      "meaning": "情報・経験・選択肢の範囲の広さ",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、情報・経験・選択肢の範囲の広さ を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-03:A1",
+          "statement": "情報・経験・選択肢の範囲の広さ の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-03:A2",
+          "statement": "情報・経験・選択肢の範囲の広さ を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-04",
+      "surface_form": "extensive",
+      "frame": "extensive farming/agriculture with low input per area",
+      "meaning": "低投入で広い土地を使う農業",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、低投入で広い土地を使う農業 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-04:A1",
+          "statement": "低投入で広い土地を使う農業 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-04:A2",
+          "statement": "低投入で広い土地を使う農業 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-05",
+      "surface_form": "extensive",
+      "frame": "extensive property/quantity/variable in thermodynamics",
+      "meaning": "系の大きさに応じて増え加法的な物理量",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、系の大きさに応じて増え加法的な物理量 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-05:A1",
+          "statement": "系の大きさに応じて増え加法的な物理量 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-05:A2",
+          "statement": "系の大きさに応じて増え加法的な物理量 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-06",
+      "surface_form": "extensive",
+      "frame": "extensive definition / extensive versus intensional",
+      "meaning": "外延・適用対象に関係する論理学用法",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、外延・適用対象に関係する論理学用法 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-06:A1",
+          "statement": "外延・適用対象に関係する論理学用法 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-06:A2",
+          "statement": "外延・適用対象に関係する論理学用法 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-07",
+      "surface_form": "extensively",
+      "frame": "extensively as adverbial derivative",
+      "meaning": "副詞派生形",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、副詞派生形 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-07:A1",
+          "statement": "副詞派生形 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-07:A2",
+          "statement": "副詞派生形 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-08",
+      "surface_form": "extensiveness/extensivity",
+      "frame": "noun derivatives with general and specialist domains",
+      "meaning": "名詞派生形の一般語・専門語の区別",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、名詞派生形の一般語・専門語の区別 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-08:A1",
+          "statement": "名詞派生形の一般語・専門語の区別 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-08:A2",
+          "statement": "名詞派生形の一般語・専門語の区別 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-09",
+      "surface_form": "more/most extensive",
+      "frame": "periphrastic comparative and superlative",
+      "meaning": "比較級・最上級の通常形",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、比較級・最上級の通常形 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-09:A1",
+          "statement": "比較級・最上級の通常形 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-09:A2",
+          "statement": "比較級・最上級の通常形 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    },
+    {
+      "id": "FB-10",
+      "surface_form": "intensive",
+      "frame": "contrastive but separate adjective in specialist uses",
+      "meaning": "対照語としての別語",
+      "disposition": "included",
+      "rationale": "本文だけから独立棚卸しし、対照語としての別語 を別候補として記録した。",
+      "article_target_ids": [],
+      "evidence_link_ids": [],
+      "semantic_assertions": [
+        {
+          "id": "FB-10:A1",
+          "statement": "対照語としての別語 の境界を、本文の対応targetと関連relationで保つ。",
+          "polarity": "must_hold",
+          "scope": "article target mapping and related relations"
+        },
+        {
+          "id": "FB-10:A2",
+          "statement": "対照語としての別語 を本文全体へ過度に一般化し、隣接する別の意味・品詞・専門領域と無条件に同一視しない。",
+          "polarity": "must_not_hold",
+          "scope": "sense boundaries, usage notes, examples, and related forms"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
