@@ -13,7 +13,7 @@ tags: []
 ＃発音記号
 
 米・英: /dɪˈstɪŋkt/。2音節の dɪ-STINGKT で、第2音節に主強勢がある。第1音節は弱い /dɪ/、第2音節の母音は /ɪ/ で、語末は /ŋ/・/k/・/t/ が連続する /ŋkt/ である。  
-語頭を /dɪs/ と切って強く読まず、/s/ は強勢のある第2音節の /st/ の一部として発音する。語末の3子音は学習者には難しいが、丁寧な発音では /k/ と /t/ を意識し、distinct を distant /ˈdɪstənt/ や extinct /ɪkˈstɪŋkt/ と混同しない。副詞 distinctly は /dɪˈstɪŋktli/ で、主強勢を保ったまま /li/ が加わる。  
+語頭を /dɪs/ と切って強く読まず、/s/ は強勢のある第2音節の /st/ の一部として発音する。語末の3子音は学習者には難しいが、丁寧な発音では /k/ と /t/ を意識する。副詞 distinctly は /dɪˈstɪŋktli/ で、主強勢を保ったまま /li/ が加わる。  
 
 ＃語源
 
@@ -31,11 +31,12 @@ tags: []
 
 ＃コアイメージ
 
-distinct の共通核は、あるものの境界や特徴がほかに埋もれず、別のものとして取り出せることである。何が取り出されるかによって、対象の別個性、知覚の明瞭さ、程度・存在の明白さ、重複しない値という用法に広がる。  
+distinct の共通核は、あるものの境界や特徴がほかに埋もれず、別のものとして取り出せることである。何が取り出されるかによって、対象の別個性、知覚の明瞭さ、程度・存在の明白さ、重複しない値、合着していない植物器官という用法に広がる。  
 ・対象の境界がほかに埋もれない状態 → 「別個の、明確に異なる」（語義1）  
 ・知覚上の特徴がほかに埋もれない状態 → 「はっきりした、明瞭な」（語義2）  
 ・程度や存在がほかに埋もれない状態 → 「明らかな、はっきり認められる」（語義3）  
 ・値の同一性がほかに埋もれない状態 → 「相異なる、重複しない」（語義4）  
+・植物器官の境界がほかに埋もれない状態 → 「分離した、合着していない」（語義5）  
 
 ＃意味・用法・関連表現
 
@@ -47,7 +48,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【レジスター/領域】標準語。日常会話、学術、ビジネス、報道で広く使う。分類や概念の境界を明示する文章では特に多い。  
 
-【文法パターン】`a distinct 〈type/category/group/stage〉`＝別個の〈種類・分類・集団・段階〉／`〈A〉 + be distinct from 〈B〉`＝AはBとは明確に異なる／`〈A〉 + be distinct in 〈respect〉`＝Aは〈点〉で別個である／`as distinct from 〈B〉`＝Bではなく、それとは区別して／`two/several distinct 〈objects/ideas〉`＝二つまたはいくつかの別個の〈対象・考え〉  
+【文法パターン】`a distinct 〈type/category/group/stage〉`＝別個の〈種類・分類・集団・段階〉／`〈A〉 + be distinct from 〈B〉`＝AはBとは明確に異なる／`as distinct from 〈B〉`＝Bではなく、それとは区別して／`two/several distinct 〈objects/ideas〉`＝二つまたはいくつかの別個の〈対象・考え〉  
 
 【コロケーション】
 
@@ -106,13 +107,6 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 例: The process consists of four discrete stages.  
 訳: その工程は、互いに区切られた四つの段階から成る。  
 
-・independent  
-定義: ほかに支配・依存されず、単独で機能または判断できる。  
-頻度: 〈9/10〉  
-違い: independent は依存関係の不在を表す。distinct は単に同一でないことを表し、二つの対象が相互依存していても成立する。  
-例: The committee commissioned an independent review.  
-訳: その委員会は独立した審査を依頼した。  
-
 ・differentiated  
 定義: 特徴・機能・市場などによって、ほかと区別された。  
 頻度: 〈5/10〉  
@@ -136,13 +130,6 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 例: The imitation was almost indistinguishable from the original.  
 訳: その模造品は本物とほとんど見分けがつかなかった。  
 
-・overlapping  
-定義: 範囲・特徴・役割の一部が重なっている。  
-頻度: 〈7/10〉  
-違い: distinct が境界を引けることを強調するのに対し、overlapping は境界をまたいで共有部分があることを示す。ただし、重なりのある二群も全体としてはdistinctであり得るため、完全な補完関係ではない。  
-例: The two departments have overlapping responsibilities.  
-訳: その二つの部署には重複する責任範囲がある。  
-
 2. 【形容詞・限定／叙述】はっきりした、明瞭な
 
 【日本語訳・定義】形、線、音、声、匂い、味、記憶、特徴などがぼやけず、目・耳・鼻・心などで容易に認識できることを表す。ここでは、ほかと種類が違うことより、知覚・認識の輪郭が明瞭であることが中心である。  
@@ -151,7 +138,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【レジスター/領域】標準語。日常会話、描写、科学的観察、製品評価などで使う。視覚だけでなく、音・匂い・味・記憶にも用いる。  
 
-【文法パターン】`a distinct 〈sound/smell/taste/outline/feature〉`＝はっきり分かる〈音・匂い・味・輪郭・特徴〉／`〈sound/shape/feature〉 + be/become/remain distinct`＝〈音・形・特徴〉がはっきりしている／`distinct enough to 〈recognize/see/hear〉`＝認識・視認・聴取できるほど明瞭な  
+【文法パターン】`a distinct 〈sound/smell/taste/outline/feature〉`＝はっきり分かる〈音・匂い・味・輪郭・特徴〉／`〈sound/shape/feature〉 + be/become/remain distinct`＝〈音・形・特徴〉がはっきりしている  
 
 【コロケーション】
 
@@ -337,13 +324,6 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 例: The change had a negligible effect on total costs.  
 訳: その変更が総費用に与えた影響は無視できるほど小さかった。  
 
-・uncertain  
-定義: 結果、事実、判断などが確定せず、確信を持てない。  
-頻度: 〈9/10〉  
-違い: uncertain は判断・結果の不確かさを表す。distinct possibility は結果自体は不確かでも、可能性の存在は明確だと述べるため、両語は常に直接置換できる反対語ではない。  
-例: The outcome remains uncertain.  
-訳: 結果は依然として不確かだ。  
-
 4. 【形容詞・数学／データ処理】相異なる、重複しない
 
 【日本語訳・定義】集合の要素、数、組合せ、データ値、行などについて、同じものとして等しくない、または重複を除けば別々に数えられることを表す。数学では複数の対象が互いに等しくないこと、データ処理では同一値・同一行を一つにまとめた結果を説明する。  
@@ -421,3 +401,69 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 違い: distinct が重複を除いて別々に扱う対象を表すのに対し、duplicate は同一内容が複数回現れていることを表す。  
 例: The system flagged three duplicate records.  
 訳: そのシステムは三つの重複レコードを検出した。  
+
+5. 【形容詞・植物学】分離した、合着していない
+
+【日本語訳・定義】花弁、がく片、雄しべなどの植物器官が、同じまとまりのほかの器官と融合せず、一つ一つ分かれていることを表す。一般義の「別個の」を植物形態の記載に用いる専門語であり、単に種類が異なるという意味ではない。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】植物形態学、植物分類、植物誌、同定用の検索表。日常英語ではなく、器官の結合状態を記載する専門用法である。  
+
+【文法パターン】`distinct 〈petals/sepals/stamens〉`＝互いに合着していない〈花弁・がく片・雄しべ〉／`〈floral parts〉 + be distinct`＝〈花の各器官〉が分離している／`〈number〉 + distinct 〈floral parts〉`＝合着せず個別に数えられる〈数〉個の器官  
+
+【コロケーション】
+
+・distinct 〈petals/sepals〉  
+用途: 同じ花冠・がくを構成する花弁・がく片が、互いに合着していないことを記載する。  
+例: The flower has five distinct petals rather than a fused corolla.  
+訳: その花には、合着した花冠ではなく、互いに分離した5枚の花弁がある。  
+
+・distinct 〈stamens/carpels〉  
+用途: 雄しべ・心皮が一つの構造へ融合せず、個別の器官として存在することを示す。  
+例: In this species, the stamens remain distinct at maturity.  
+訳: この種では、雄しべは成熟時にも互いに合着せず分離している。  
+
+・〈floral parts〉 + be distinct  
+用途: 植物記載で、対象器官の結合状態を叙述形で示す。  
+例: The sepals are distinct and fall soon after the flower opens.  
+訳: がく片は互いに分離しており、開花後まもなく落ちる。  
+
+・〈number〉 + distinct 〈floral parts〉  
+用途: 合着していない器官を個別に数えて、形態的特徴を示す。  
+例: Each flower bears three distinct carpels.  
+訳: 各花には、互いに合着していない3個の心皮がある。  
+
+【語法・注意】植物学のdistinctは、同じ系列の器官が互いに`free`、すなわち融合していない状態を記載する。一般義の`distinct species`は「別種」、この専門義の`distinct petals`は「互いに合着していない花弁」であり、対象名詞によって解釈が変わる。器官が別の種類の器官へ付着していないことまで常に含むわけではないため、どの器官同士の結合を述べているかを確認する。  
+
+【類義語】
+
+・free  
+定義: 植物器官が同じ系列または別の器官と融合・付着していない。  
+頻度: 〈3/10〉  
+違い: 植物学のfreeは融合だけでなく、文脈によって別種器官への付着がないことも表せる。distinctは主に器官同士が個別に分かれている点を強調する。  
+例: The upper portions of the filaments are free.  
+訳: 花糸の上部は互いに合着していない。  
+
+・separate  
+定義: 植物器官が結合せず、個別の部分として存在する。  
+頻度: 〈3/10〉  
+違い: separateは一般語としても使える説明的表現である。distinctは植物誌や形態記載で、器官がfreeであることを簡潔に示す専門的用法を持つ。  
+例: The ovary is divided into three separate chambers.  
+訳: その子房は三つの別々の室に分かれている。  
+
+【反意語】
+
+・fused  
+定義: 複数の植物器官が接合し、一つの構造になっている。  
+頻度: 〈4/10〉  
+違い: distinctが器官を個別に数えられる分離状態を表すのに対し、fusedは組織が連続して一体化した状態を表す。  
+例: The petals are fused at the base to form a short tube.  
+訳: 花弁は基部で合着し、短い筒を形成している。  
+
+・united  
+定義: 植物器官が互いに結合し、一続きの部分を形成している。  
+頻度: 〈3/10〉  
+違い: unitedは植物形態記載で、distinctまたはfreeと対照される説明語である。fusedと同様に結合を示すが、結合の発生過程までは必ずしも強調しない。  
+例: The sepals are united for half their length.  
+訳: がく片は長さの半分まで合着している。  
