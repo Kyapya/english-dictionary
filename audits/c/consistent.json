@@ -34,7 +34,15 @@
         "run_id": "cold-consistent-cycle001-20260825",
         "context_id": "context-free-consistent-cycle001-20260825"
       },
-      "final_blind": {},
+      "final_blind": {
+        "path": "audits/runs/c/consistent/cycle-001/final_blind.json",
+        "sha256": "9048fbf661811ee3466cbe78951a84297a2980de0ded0d4d9b10eb3fc329b21f",
+        "input_body_sha256": "2bcc243530346ca17bd16c5908cb5b612d013b24c55f09e55fb935a81397f71b",
+        "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+        "run_id": "final-consistent-cycle001-20260825",
+        "context_id": "context-free-final-blind-consistent-cycle001-20260825",
+        "sealed_output_sha256": "b021a5625cbc3b4c8fc4d1cfd73ae379b458b0622b4d39048969e382593c4e98"
+      },
       "final_review": {}
     },
     "escaped_defects": [],
@@ -9016,35 +9024,195 @@
   },
   "final_review": {
     "role": "final_adjudicator",
-    "reviewer_id": "",
-    "reviewed_at": "",
+    "reviewer_id": "final-consistent-cycle001-20260825",
+    "reviewed_at": "2026-08-25T02:52:04Z",
     "completed": false,
     "execution": {
-      "run_id": "",
-      "context_id": "",
-      "started_at": "",
+      "run_id": "final-consistent-cycle001-20260825",
+      "context_id": "context-free-final-blind-consistent-cycle001-20260825",
+      "started_at": "2026-08-25T02:52:04Z",
       "completed_at": "",
-      "input_body_sha256": "",
-      "prompt_sha256": "",
-      "context_mode": "",
-      "input_artifacts": [],
+      "input_body_sha256": "2bcc243530346ca17bd16c5908cb5b612d013b24c55f09e55fb935a81397f71b",
+      "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
+      "context_mode": "context_free",
+      "input_artifacts": [
+        "entry_body",
+        "final_review_spec"
+      ],
       "reconciliation_started_at": "",
       "reconciliation_input_artifacts": []
     },
-    "body_sha256": "",
+    "body_sha256": "2bcc243530346ca17bd16c5908cb5b612d013b24c55f09e55fb935a81397f71b",
     "decision": "pending",
     "blind_review": {
       "seal_version": "blind_seal_v2",
-      "completed": false,
-      "recorded_at": "",
-      "sealed_at": "",
-      "body_sha256": "",
+      "completed": true,
+      "recorded_at": "2026-08-25T02:52:04Z",
+      "sealed_at": "2026-08-24T19:52:04-07:00",
+      "body_sha256": "2bcc243530346ca17bd16c5908cb5b612d013b24c55f09e55fb935a81397f71b",
       "audit_visible": false,
-      "provisional_decision": "pending",
+      "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": ""
+      "output_sha256": "b021a5625cbc3b4c8fc4d1cfd73ae379b458b0622b4d39048969e382593c4e98"
     },
-    "independent_candidates": [],
+    "independent_candidates": [
+      {
+        "id": "FB-01",
+        "surface_form": "consistent",
+        "frame": "be/remain consistent in N or in doing; a consistent person/performer",
+        "meaning": "人・行動・態度・水準の一貫性と安定性",
+        "rationale": "最新版本文だけから、人の振る舞い・基準・仕事の水準がぶれない一般義とinフレームを独立に棚卸しした。",
+        "disposition": "included",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-01-1",
+            "statement": "The first sense covers stable behavior, standards, attitudes, or performance rather than exact identity on every occasion.",
+            "polarity": "must_hold",
+            "scope": "sense 1 definition, grammar patterns, and usage note"
+          },
+          {
+            "id": "FBI-01-2",
+            "statement": "The in frame identifies the domain in which a person or actor keeps a consistent standard.",
+            "polarity": "must_hold",
+            "scope": "sense 1 grammar pattern and collocations"
+          }
+        ]
+      },
+      {
+        "id": "FB-02",
+        "surface_form": "consistent",
+        "frame": "consistent over time/across groups; consistent growth/results/quality",
+        "meaning": "状態・結果・品質・傾向が期間や集団をまたいで安定していること",
+        "rationale": "本文だけから、完全な不変ではなく重要なパターンや水準が続く状態・結果用法を独立に棚卸しした。",
+        "disposition": "included",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-02-1",
+            "statement": "The second sense allows change, such as growth or improvement, when the direction or pattern remains stable.",
+            "polarity": "must_hold",
+            "scope": "sense 2 definition and usage note"
+          },
+          {
+            "id": "FBI-02-2",
+            "statement": "Consistent results do not by themselves establish truth, causation, or perfect equality of numerical values.",
+            "polarity": "must_hold",
+            "scope": "sense 2 usage note"
+          }
+        ]
+      },
+      {
+        "id": "FB-03",
+        "surface_form": "consistent with",
+        "frame": "be consistent with evidence/facts/policy/what someone said",
+        "meaning": "別の事実・証拠・方針と矛盾せず整合すること",
+        "rationale": "with構文を独立した関係用法として、可能性・整合性を示すが証明や唯一の原因の断定ではない範囲を確認した。",
+        "disposition": "included",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-03-1",
+            "statement": "Consistent with expresses compatibility or non-contradiction between an account, finding, action, or policy and another item.",
+            "polarity": "must_hold",
+            "scope": "sense 3 definition and grammar patterns"
+          },
+          {
+            "id": "FBI-03-2",
+            "statement": "The phrase does not by itself prove the compared item or identify it as the only explanation.",
+            "polarity": "must_hold",
+            "scope": "sense 3 definition and usage notes"
+          }
+        ]
+      },
+      {
+        "id": "FB-04",
+        "surface_form": "consistent estimator",
+        "frame": "a consistent estimator of/for a parameter",
+        "meaning": "標本数の増加に伴って真の母数へ確率収束する推定量",
+        "rationale": "統計学の専門義を、一般語の反復安定性、accuracy、unbiasednessから独立に区別した。",
+        "disposition": "included",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-04-1",
+            "statement": "A consistent estimator is defined by convergence toward the true parameter in the large-sample probabilistic sense.",
+            "polarity": "must_hold",
+            "scope": "sense 4 definition, grammar patterns, and first collocations"
+          },
+          {
+            "id": "FBI-04-2",
+            "statement": "Statistical consistency is not the same as finite-sample accuracy, zero bias, or identical estimates across samples.",
+            "polarity": "must_hold",
+            "scope": "sense 4 definition and usage note"
+          }
+        ]
+      },
+      {
+        "id": "FB-05",
+        "surface_form": "consistent equations/formal system",
+        "frame": "a consistent system of equations/set of statements/formal system",
+        "meaning": "共通解をもつ、または矛盾を導かない数学・論理の体系",
+        "rationale": "数学・論理では、体系内部の共通充足性・無矛盾性を表す専門義として独立に棚卸しした。",
+        "disposition": "included",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-05-1",
+            "statement": "For equations, consistent means that the equations have at least one common solution.",
+            "polarity": "must_hold",
+            "scope": "sense 5 definition, grammar pattern, and collocations"
+          },
+          {
+            "id": "FBI-05-2",
+            "statement": "For statements or formal systems, the article distinguishes non-contradiction from ordinary behavioral consistency.",
+            "polarity": "must_hold",
+            "scope": "sense 5 definition and usage notes"
+          }
+        ]
+      },
+      {
+        "id": "FB-06",
+        "surface_form": "consistency/consistently/inconsistent/inconsistency",
+        "frame": "derived noun, adverb, negative adjective, and negative noun",
+        "meaning": "語形成上の関連語と反対方向の形",
+        "rationale": "本文の語形成欄から、派生・反対形を独立に確認したが、別の主要語義としては数えなかった。",
+        "disposition": "included",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-06-1",
+            "statement": "The listed forms are related word-family items, with consistency as noun, consistently as adverb, and inconsistent/inconsistency as negative forms.",
+            "polarity": "must_hold",
+            "scope": "word formation section"
+          }
+        ]
+      },
+      {
+        "id": "FB-07",
+        "surface_form": "consistent",
+        "frame": "noun or verb use without an adjective frame",
+        "meaning": "本文の主要用法として独立掲載する名詞・動詞用法",
+        "rationale": "最新版本文は形容詞用法に限定され、独立した名詞・動詞用法を主張していないため除外した。",
+        "disposition": "excluded",
+        "article_target_ids": [],
+        "evidence_link_ids": [],
+        "semantic_assertions": [
+          {
+            "id": "FBI-07-1",
+            "statement": "The article must not imply that consistent is being presented as a standalone noun or verb entry.",
+            "polarity": "must_not_hold",
+            "scope": "front matter, part-of-speech labels, and meaning section"
+          }
+        ]
+      }
+    ],
     "inventory_comparison": [],
     "blind_finding_results": [],
     "target_results": [],
@@ -9053,7 +9221,148 @@
     "finding_results": [],
     "evidence_checks": [],
     "blockers": [],
-    "source_inventory_results": []
+    "source_inventory_results": [
+      {
+        "union_id": "SU-MW-F1",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F2",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F3",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F4",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F5",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F6",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F7",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-MW-F8",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OXF-F1",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OXF-F2",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OXF-F3",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OXF-F4",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OXF-F5",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OXF-F6",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-CAM-F1",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-CAM-F2",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-CAM-F3",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-CAM-F4",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-COL-F1",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-COL-F2",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-COL-F3",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-COL-F4",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-COL-F5",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-NIST-F1",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-NIST-F2",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-NIST-F3",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OED-F1",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "union_id": "SU-OED-F2",
+        "status": "pending",
+        "notes": ""
+      }
+    ]
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
@@ -9071,7 +9380,7 @@
       "facts_used": 28,
       "research_rounds_used": 2,
       "post_cold_rechecks_used": 0,
-      "final_attempts_used": 0
+      "final_attempts_used": 1
     },
     "research_status": "complete",
     "stop_reason": "coverage_axes_closed",
