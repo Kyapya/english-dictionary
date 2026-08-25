@@ -41,6 +41,7 @@ class RunWordTests(unittest.TestCase):
                 "cold_review",
                 "final_blind",
                 "blind_seal",
+                "finding_resolution",
                 "final_review",
                 "status_update",
                 "export",
@@ -98,7 +99,7 @@ class RunWordTests(unittest.TestCase):
             )
             self.assertEqual(
                 manifest["orchestrator"]["orchestrator_version"],
-                "run_word_v2",
+                "run_word_v3",
             )
             self.assertEqual(manifest["metrics"]["total_cycles"], 1)
             self.assertEqual(manifest["metrics"]["total_revisions"], 0)
@@ -192,7 +193,7 @@ class RunWordTests(unittest.TestCase):
             (
                 "latest entry body",
                 "sealed final-blind output",
-                "all checker and cold findings",
+                "all checker, cold, and sealed final-blind findings",
                 "finding resolution records",
             ),
         )
@@ -251,6 +252,7 @@ class RunWordTests(unittest.TestCase):
                     revision_count=1 if request["name"] == "generation" else 0,
                     checker_pass_costs=pass_costs,
                     now=started + timedelta(minutes=2),
+                    verify_outputs=False,
                 )
             self.assertEqual(value["status"], "completed")
             self.assertEqual(value["metrics"]["total_cycles"], 1)
@@ -260,6 +262,48 @@ class RunWordTests(unittest.TestCase):
                 [item["name"] for item in value["orchestrator"]["stages"]],
             )
             self.assertEqual(guard.validate_manifest(value, merge_ready=True), [])
+
+    def test_stage_cannot_complete_without_exact_planned_outputs(self) -> None:
+        started = datetime(2026, 8, 25, tzinfo=timezone.utc)
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            (root / "prompts").mkdir()
+            shutil.copy2(
+                REPO_ROOT / "prompts" / "check_router_v6.md",
+                root / "prompts" / "check_router_v6.md",
+            )
+            _, value = run_word.create_guard_manifest(
+                "obvious",
+                repo_root=root,
+                branch="word/obvious",
+                base_sha="a" * 40,
+                run_id="output-run",
+                now=started,
+            )
+            value["remote_checkpoint"] = {
+                "confirmed": True,
+                "confirmed_at": guard._format_time(started),
+                "commit_sha": "b" * 40,
+            }
+            value["stage"] = "preflight_pushed"
+            value["stage_history"].append(
+                {
+                    "stage": "preflight_pushed",
+                    "recorded_at": guard._format_time(started),
+                    "notes": "test checkpoint",
+                }
+            )
+            with self.assertRaisesRegex(ValueError, "stage outputs do not exist"):
+                run_word.complete_orchestrated_stage(
+                    value,
+                    stage="generation",
+                    input_bytes=10,
+                    duration_seconds=1,
+                    repo_root=root,
+                )
+            self.assertEqual(
+                value["orchestrator_state"]["completed_stages"], ["guard_start"]
+            )
 
     def test_record_revision_commits_only_the_entry(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

@@ -71,7 +71,7 @@ class PromptContractTests(unittest.TestCase):
             [
                 "latest entry body",
                 "sealed final-blind output",
-                "all checker and cold findings",
+                "all checker, cold, and sealed final-blind findings",
                 "finding resolution records",
             ],
         )

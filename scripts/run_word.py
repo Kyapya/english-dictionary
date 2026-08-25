@@ -16,7 +16,7 @@ from slugify import slugify
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-ORCHESTRATOR_VERSION = "run_word_v2"
+ORCHESTRATOR_VERSION = "run_word_v3"
 DEFAULT_CHECK_SPEC = "prompts/check_router_v6.md"
 DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v2.md"
 DEFAULT_FINAL_BLIND_SPEC = "prompts/final_blind_prompt_v2.md"
@@ -107,7 +107,11 @@ def build_plan(
                 "source inventory for evidence pass",
                 "machine validator findings",
             ),
-            (f"{root}/check_passes/", f"{root}/pass_findings.json"),
+            (
+                f"{root}/source_inventory.json",
+                f"{root}/check_passes/",
+                f"{root}/pass_findings.json",
+            ),
             ("source_inventory_complete", "normal_review_complete"),
             "fresh_normal_context",
         ),
@@ -138,13 +142,27 @@ def build_plan(
             ("blind_seal_complete",),
         ),
         StagePlan(
+            "finding_resolution",
+            "llm",
+            ("prompts/finding_resolution_v6.md",),
+            (
+                "latest entry body",
+                "all checker and cold findings",
+                "sealed final-blind findings",
+                "source inventory",
+            ),
+            (f"{root}/resolutions.json",),
+            (),
+            "normal_resolution_context",
+        ),
+        StagePlan(
             "final_review",
             "independent_llm",
             (final_spec,),
             (
                 "latest entry body",
                 "sealed final-blind output",
-                "all checker and cold findings",
+                "all checker, cold, and sealed final-blind findings",
                 "finding resolution records",
             ),
             (f"{root}/final_review.json", audit),
@@ -391,12 +409,28 @@ def complete_orchestrated_stage(
     checker_pass_costs: dict[str, dict[str, Any]] | None = None,
     process_rule_defects: dict[str, int] | None = None,
     now: datetime | None = None,
+    repo_root: Path = REPO_ROOT,
+    verify_outputs: bool = True,
 ) -> None:
     request = next_stage_request(manifest)
     if request is None:
         raise ValueError("orchestrator has no remaining stage")
     if request["name"] != stage:
         raise ValueError(f"next orchestrator stage must be {request['name']}")
+    expected_outputs = list(request["output_paths"])
+    recorded_outputs = list(output_paths or expected_outputs)
+    if recorded_outputs != expected_outputs:
+        raise ValueError("stage outputs must exactly match the orchestrator plan")
+    if verify_outputs:
+        missing = [
+            path
+            for path in expected_outputs
+            if not (repo_root / path.rstrip("/")).exists()
+        ]
+        if missing:
+            raise ValueError(
+                "stage outputs do not exist: " + ", ".join(missing)
+            )
     record_cost(
         manifest,
         collection="stages",
@@ -450,7 +484,7 @@ def complete_orchestrated_stage(
     state = manifest["orchestrator_state"]
     state["completed_stages"].append(stage)
     state["next_stage_index"] = int(state["next_stage_index"]) + 1
-    state["stage_outputs"][stage] = list(output_paths or request["output_paths"])
+    state["stage_outputs"][stage] = expected_outputs
     if stage == "export":
         finalize_cost_metrics(manifest, now=current)
 
@@ -697,6 +731,7 @@ def main() -> int:
             defects_detected=args.defects_detected,
             revision_count=args.revision_count,
             checker_pass_costs=pass_costs,
+            repo_root=REPO_ROOT,
         )
         guard._write(resolved, manifest)
         print(json.dumps(next_stage_request(manifest), ensure_ascii=False, indent=2))

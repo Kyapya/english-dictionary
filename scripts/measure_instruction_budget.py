@@ -38,6 +38,7 @@ def measurement(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         *pass_files,
         "prompts/cold_review_prompt_v1.md",
         "prompts/final_blind_prompt_v2.md",
+        "prompts/finding_resolution_v6.md",
         "prompts/final_review_spec_v2.md",
     ]
     bundles = [
@@ -70,6 +71,10 @@ def measurement(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         {
             "execution": "final_blind",
             "files": ["prompts/final_blind_prompt_v2.md"],
+        },
+        {
+            "execution": "finding_resolution",
+            "files": ["prompts/finding_resolution_v6.md"],
         },
         {
             "execution": "final_review",

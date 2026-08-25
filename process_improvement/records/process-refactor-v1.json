@@ -27,9 +27,10 @@
       "prompts/check_pass_translation_v6.md",
       "prompts/cold_review_prompt_v1.md",
       "prompts/final_blind_prompt_v2.md",
+      "prompts/finding_resolution_v6.md",
       "prompts/final_review_spec_v2.md"
     ],
-    "required_instruction_bytes_per_word": 81791,
+    "required_instruction_bytes_per_word": 83338,
     "max_instruction_bytes_in_one_execution": 52602,
     "execution_bundles": [
       {
@@ -37,7 +38,7 @@
         "files": [
           "AGENTS.md"
         ],
-        "instruction_bytes": 3260
+        "instruction_bytes": 3315
       },
       {
         "execution": "generation",
@@ -111,6 +112,13 @@
         "instruction_bytes": 1735
       },
       {
+        "execution": "finding_resolution",
+        "files": [
+          "prompts/finding_resolution_v6.md"
+        ],
+        "instruction_bytes": 1492
+      },
+      {
         "execution": "final_review",
         "files": [
           "prompts/final_review_spec_v2.md"
@@ -120,8 +128,8 @@
     ]
   },
   "effect": {
-    "bytes_reduced_per_word": 86078,
-    "percent_reduced_per_word": 51.28,
+    "bytes_reduced_per_word": 84531,
+    "percent_reduced_per_word": 50.36,
     "max_execution_bytes_reduced": 115267,
     "max_execution_percent_reduced": 68.66
   }
