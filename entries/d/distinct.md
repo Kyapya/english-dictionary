@@ -47,7 +47,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【レジスター/領域】標準語。日常会話、学術、ビジネス、報道で広く使う。分類や概念の境界を明示する文章では特に多い。  
 
-【文法パターン】`a distinct 〈type/category/group/stage〉`＝別個の〈種類・分類・集団・段階〉／`〈A〉 + be distinct from 〈B〉`＝AはBとは明確に異なる／`〈A〉 + be distinct in 〈respect〉`＝Aは〈点〉で別個である／`as distinct from 〈B〉`＝Bではなく、それとは区別して／`two/several distinct 〈objects/ideas〉`＝二つ／いくつかの別個の〈対象・考え〉  
+【文法パターン】`a distinct 〈type/category/group/stage〉`＝別個の〈種類・分類・集団・段階〉／`〈A〉 + be distinct from 〈B〉`＝AはBとは明確に異なる／`〈A〉 + be distinct in 〈respect〉`＝Aは〈点〉で別個である／`as distinct from 〈B〉`＝Bではなく、それとは区別して／`two/several distinct 〈objects/ideas〉`＝二つまたはいくつかの別個の〈対象・考え〉  
 
 【コロケーション】
 
@@ -350,7 +350,7 @@ distinct の共通核は、あるものの境界や特徴がほかに埋もれ�
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】数学、統計、データ分析、データベース。一般英語の「別個の」から直接理解できる専門的用法である。SQLでは大文字の `DISTINCT` が予約語として用いられる。  
+【レジスター/領域】数学、統計、データ分析、データベース。一般英語の「別個の」から直接理解できる専門的用法である。SQLでは大文字の `DISTINCT` がキーワードとして用いられる。  
 
 【文法パターン】`distinct 〈values/elements/points/solutions〉`＝互いに異なる〈値・要素・点・解〉／`〈objects〉 + be pairwise distinct`＝任意の二つが互いに異なる／`the number of distinct 〈values/categories〉`＝重複を除いた〈値・分類〉の数／`SELECT DISTINCT 〈column/list〉`＝SQLで重複行を除いて選択する  
 
