@@ -1,0 +1,2132 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-prompt-20260825T155500Z",
+  "context_id": "blind-prompt-context-20260825T155500Z",
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+  "blind_output_sha256": "e32f773b7826722160251d7b939b61e7b80ce2e3913beb8cf39a94e7191f8d42",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-08-25T15:35:07Z",
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: pronunciation:001."
+    },
+    {
+      "id": "pronunciation:002",
+      "target_id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: pronunciation:002."
+    },
+    {
+      "id": "pronunciation:003",
+      "target_id": "pronunciation:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: pronunciation:003."
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: etymology:001."
+    },
+    {
+      "id": "etymology:002",
+      "target_id": "etymology:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: etymology:002."
+    },
+    {
+      "id": "etymology:003",
+      "target_id": "etymology:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: etymology:003."
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:001."
+    },
+    {
+      "id": "word_formation:002",
+      "target_id": "word_formation:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:002."
+    },
+    {
+      "id": "word_formation:003",
+      "target_id": "word_formation:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:003."
+    },
+    {
+      "id": "word_formation:004",
+      "target_id": "word_formation:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:004."
+    },
+    {
+      "id": "word_formation:005",
+      "target_id": "word_formation:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:005."
+    },
+    {
+      "id": "word_formation:006",
+      "target_id": "word_formation:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:006."
+    },
+    {
+      "id": "word_formation:007",
+      "target_id": "word_formation:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:007."
+    },
+    {
+      "id": "word_formation:008",
+      "target_id": "word_formation:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:008."
+    },
+    {
+      "id": "word_formation:009",
+      "target_id": "word_formation:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: word_formation:009."
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:001."
+    },
+    {
+      "id": "core_image:002",
+      "target_id": "core_image:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:002."
+    },
+    {
+      "id": "core_image:003",
+      "target_id": "core_image:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:003."
+    },
+    {
+      "id": "core_image:004",
+      "target_id": "core_image:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:004."
+    },
+    {
+      "id": "core_image:005",
+      "target_id": "core_image:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:005."
+    },
+    {
+      "id": "core_image:006",
+      "target_id": "core_image:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:006."
+    },
+    {
+      "id": "core_image:007",
+      "target_id": "core_image:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:007."
+    },
+    {
+      "id": "core_image:008",
+      "target_id": "core_image:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:008."
+    },
+    {
+      "id": "core_image:009",
+      "target_id": "core_image:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:009."
+    },
+    {
+      "id": "core_image:010",
+      "target_id": "core_image:010",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: core_image:010."
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:001."
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:001."
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:001."
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:001."
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:001."
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:002."
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:001."
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:002."
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:003."
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:004."
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:005."
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:001."
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:001."
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:002."
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:003."
+    },
+    {
+      "id": "antonym:001",
+      "target_id": "antonym:001",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:001."
+    },
+    {
+      "id": "antonym:002",
+      "target_id": "antonym:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:002."
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:002."
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:002."
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:002."
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:002."
+    },
+    {
+      "id": "grammar_pattern:003",
+      "target_id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:003."
+    },
+    {
+      "id": "grammar_pattern:004",
+      "target_id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:004."
+    },
+    {
+      "id": "grammar_pattern:005",
+      "target_id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:005."
+    },
+    {
+      "id": "grammar_pattern:006",
+      "target_id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:006."
+    },
+    {
+      "id": "grammar_pattern:007",
+      "target_id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:007."
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:006."
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:007."
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:008."
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:009."
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:010."
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:002."
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:004."
+    },
+    {
+      "id": "synonym:005",
+      "target_id": "synonym:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:005."
+    },
+    {
+      "id": "synonym:006",
+      "target_id": "synonym:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:006."
+    },
+    {
+      "id": "synonym:007",
+      "target_id": "synonym:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:007."
+    },
+    {
+      "id": "antonym:003",
+      "target_id": "antonym:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:003."
+    },
+    {
+      "id": "antonym:004",
+      "target_id": "antonym:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:004."
+    },
+    {
+      "id": "sense_boundary:003",
+      "target_id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:003."
+    },
+    {
+      "id": "definition:003",
+      "target_id": "definition:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:003."
+    },
+    {
+      "id": "frequency:003",
+      "target_id": "frequency:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:003."
+    },
+    {
+      "id": "register:003",
+      "target_id": "register:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:003."
+    },
+    {
+      "id": "grammar_pattern:008",
+      "target_id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:008."
+    },
+    {
+      "id": "grammar_pattern:009",
+      "target_id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:009."
+    },
+    {
+      "id": "grammar_pattern:010",
+      "target_id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:010."
+    },
+    {
+      "id": "collocation:011",
+      "target_id": "collocation:011",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:011."
+    },
+    {
+      "id": "collocation:012",
+      "target_id": "collocation:012",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:012."
+    },
+    {
+      "id": "collocation:013",
+      "target_id": "collocation:013",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:013."
+    },
+    {
+      "id": "usage_note:003",
+      "target_id": "usage_note:003",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:003."
+    },
+    {
+      "id": "synonym:008",
+      "target_id": "synonym:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:008."
+    },
+    {
+      "id": "synonym:009",
+      "target_id": "synonym:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:009."
+    },
+    {
+      "id": "synonym:010",
+      "target_id": "synonym:010",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:010."
+    },
+    {
+      "id": "antonym:005",
+      "target_id": "antonym:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:005."
+    },
+    {
+      "id": "sense_boundary:004",
+      "target_id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:004."
+    },
+    {
+      "id": "definition:004",
+      "target_id": "definition:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:004."
+    },
+    {
+      "id": "frequency:004",
+      "target_id": "frequency:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:004."
+    },
+    {
+      "id": "register:004",
+      "target_id": "register:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:004."
+    },
+    {
+      "id": "grammar_pattern:011",
+      "target_id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:011."
+    },
+    {
+      "id": "grammar_pattern:012",
+      "target_id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:012."
+    },
+    {
+      "id": "grammar_pattern:013",
+      "target_id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:013."
+    },
+    {
+      "id": "grammar_pattern:014",
+      "target_id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:014."
+    },
+    {
+      "id": "grammar_pattern:015",
+      "target_id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:015."
+    },
+    {
+      "id": "collocation:014",
+      "target_id": "collocation:014",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:014."
+    },
+    {
+      "id": "collocation:015",
+      "target_id": "collocation:015",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:015."
+    },
+    {
+      "id": "collocation:016",
+      "target_id": "collocation:016",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:016."
+    },
+    {
+      "id": "collocation:017",
+      "target_id": "collocation:017",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:017."
+    },
+    {
+      "id": "collocation:018",
+      "target_id": "collocation:018",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:018."
+    },
+    {
+      "id": "collocation:019",
+      "target_id": "collocation:019",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:019."
+    },
+    {
+      "id": "collocation:020",
+      "target_id": "collocation:020",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:020."
+    },
+    {
+      "id": "collocation:021",
+      "target_id": "collocation:021",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:021."
+    },
+    {
+      "id": "usage_note:004",
+      "target_id": "usage_note:004",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:004."
+    },
+    {
+      "id": "synonym:011",
+      "target_id": "synonym:011",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:011."
+    },
+    {
+      "id": "synonym:012",
+      "target_id": "synonym:012",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:012."
+    },
+    {
+      "id": "synonym:013",
+      "target_id": "synonym:013",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:013."
+    },
+    {
+      "id": "synonym:014",
+      "target_id": "synonym:014",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:014."
+    },
+    {
+      "id": "synonym:015",
+      "target_id": "synonym:015",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:015."
+    },
+    {
+      "id": "antonym:006",
+      "target_id": "antonym:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:006."
+    },
+    {
+      "id": "antonym:007",
+      "target_id": "antonym:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:007."
+    },
+    {
+      "id": "antonym:008",
+      "target_id": "antonym:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: antonym:008."
+    },
+    {
+      "id": "sense_boundary:005",
+      "target_id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:005."
+    },
+    {
+      "id": "definition:005",
+      "target_id": "definition:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:005."
+    },
+    {
+      "id": "frequency:005",
+      "target_id": "frequency:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:005."
+    },
+    {
+      "id": "register:005",
+      "target_id": "register:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:005."
+    },
+    {
+      "id": "grammar_pattern:016",
+      "target_id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:016."
+    },
+    {
+      "id": "grammar_pattern:017",
+      "target_id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:017."
+    },
+    {
+      "id": "grammar_pattern:018",
+      "target_id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:018."
+    },
+    {
+      "id": "grammar_pattern:019",
+      "target_id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:019."
+    },
+    {
+      "id": "grammar_pattern:020",
+      "target_id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:020."
+    },
+    {
+      "id": "collocation:022",
+      "target_id": "collocation:022",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:022."
+    },
+    {
+      "id": "collocation:023",
+      "target_id": "collocation:023",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:023."
+    },
+    {
+      "id": "collocation:024",
+      "target_id": "collocation:024",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:024."
+    },
+    {
+      "id": "collocation:025",
+      "target_id": "collocation:025",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:025."
+    },
+    {
+      "id": "collocation:026",
+      "target_id": "collocation:026",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:026."
+    },
+    {
+      "id": "collocation:027",
+      "target_id": "collocation:027",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:027."
+    },
+    {
+      "id": "usage_note:005",
+      "target_id": "usage_note:005",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:005."
+    },
+    {
+      "id": "synonym:016",
+      "target_id": "synonym:016",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:016."
+    },
+    {
+      "id": "synonym:017",
+      "target_id": "synonym:017",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:017."
+    },
+    {
+      "id": "synonym:018",
+      "target_id": "synonym:018",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:018."
+    },
+    {
+      "id": "synonym:019",
+      "target_id": "synonym:019",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:019."
+    },
+    {
+      "id": "sense_boundary:006",
+      "target_id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:006."
+    },
+    {
+      "id": "definition:006",
+      "target_id": "definition:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:006."
+    },
+    {
+      "id": "frequency:006",
+      "target_id": "frequency:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:006."
+    },
+    {
+      "id": "register:006",
+      "target_id": "register:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:006."
+    },
+    {
+      "id": "grammar_pattern:021",
+      "target_id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:021."
+    },
+    {
+      "id": "grammar_pattern:022",
+      "target_id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:022."
+    },
+    {
+      "id": "grammar_pattern:023",
+      "target_id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:023."
+    },
+    {
+      "id": "grammar_pattern:024",
+      "target_id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:024."
+    },
+    {
+      "id": "grammar_pattern:025",
+      "target_id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:025."
+    },
+    {
+      "id": "collocation:028",
+      "target_id": "collocation:028",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:028."
+    },
+    {
+      "id": "collocation:029",
+      "target_id": "collocation:029",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:029."
+    },
+    {
+      "id": "collocation:030",
+      "target_id": "collocation:030",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:030."
+    },
+    {
+      "id": "collocation:031",
+      "target_id": "collocation:031",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:031."
+    },
+    {
+      "id": "collocation:032",
+      "target_id": "collocation:032",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:032."
+    },
+    {
+      "id": "usage_note:006",
+      "target_id": "usage_note:006",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:006."
+    },
+    {
+      "id": "synonym:020",
+      "target_id": "synonym:020",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:020."
+    },
+    {
+      "id": "synonym:021",
+      "target_id": "synonym:021",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:021."
+    },
+    {
+      "id": "synonym:022",
+      "target_id": "synonym:022",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:022."
+    },
+    {
+      "id": "sense_boundary:007",
+      "target_id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:007."
+    },
+    {
+      "id": "definition:007",
+      "target_id": "definition:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:007."
+    },
+    {
+      "id": "frequency:007",
+      "target_id": "frequency:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:007."
+    },
+    {
+      "id": "register:007",
+      "target_id": "register:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:007."
+    },
+    {
+      "id": "grammar_pattern:026",
+      "target_id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:026."
+    },
+    {
+      "id": "grammar_pattern:027",
+      "target_id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:027."
+    },
+    {
+      "id": "grammar_pattern:028",
+      "target_id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:028."
+    },
+    {
+      "id": "grammar_pattern:029",
+      "target_id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:029."
+    },
+    {
+      "id": "grammar_pattern:030",
+      "target_id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:030."
+    },
+    {
+      "id": "collocation:033",
+      "target_id": "collocation:033",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:033."
+    },
+    {
+      "id": "collocation:034",
+      "target_id": "collocation:034",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:034."
+    },
+    {
+      "id": "collocation:035",
+      "target_id": "collocation:035",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:035."
+    },
+    {
+      "id": "collocation:036",
+      "target_id": "collocation:036",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:036."
+    },
+    {
+      "id": "collocation:037",
+      "target_id": "collocation:037",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:037."
+    },
+    {
+      "id": "collocation:038",
+      "target_id": "collocation:038",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:038."
+    },
+    {
+      "id": "usage_note:007",
+      "target_id": "usage_note:007",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:007."
+    },
+    {
+      "id": "synonym:023",
+      "target_id": "synonym:023",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:023."
+    },
+    {
+      "id": "synonym:024",
+      "target_id": "synonym:024",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:024."
+    },
+    {
+      "id": "synonym:025",
+      "target_id": "synonym:025",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:025."
+    },
+    {
+      "id": "synonym:026",
+      "target_id": "synonym:026",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:026."
+    },
+    {
+      "id": "sense_boundary:008",
+      "target_id": "sense_boundary:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:008."
+    },
+    {
+      "id": "definition:008",
+      "target_id": "definition:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:008."
+    },
+    {
+      "id": "frequency:008",
+      "target_id": "frequency:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:008."
+    },
+    {
+      "id": "register:008",
+      "target_id": "register:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:008."
+    },
+    {
+      "id": "grammar_pattern:031",
+      "target_id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:031."
+    },
+    {
+      "id": "grammar_pattern:032",
+      "target_id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:032."
+    },
+    {
+      "id": "grammar_pattern:033",
+      "target_id": "grammar_pattern:033",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:033."
+    },
+    {
+      "id": "grammar_pattern:034",
+      "target_id": "grammar_pattern:034",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:034."
+    },
+    {
+      "id": "grammar_pattern:035",
+      "target_id": "grammar_pattern:035",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:035."
+    },
+    {
+      "id": "collocation:039",
+      "target_id": "collocation:039",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:039."
+    },
+    {
+      "id": "collocation:040",
+      "target_id": "collocation:040",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:040."
+    },
+    {
+      "id": "collocation:041",
+      "target_id": "collocation:041",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:041."
+    },
+    {
+      "id": "collocation:042",
+      "target_id": "collocation:042",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:042."
+    },
+    {
+      "id": "collocation:043",
+      "target_id": "collocation:043",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:043."
+    },
+    {
+      "id": "collocation:044",
+      "target_id": "collocation:044",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:044."
+    },
+    {
+      "id": "usage_note:008",
+      "target_id": "usage_note:008",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:008."
+    },
+    {
+      "id": "synonym:027",
+      "target_id": "synonym:027",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:027."
+    },
+    {
+      "id": "synonym:028",
+      "target_id": "synonym:028",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:028."
+    },
+    {
+      "id": "synonym:029",
+      "target_id": "synonym:029",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:029."
+    },
+    {
+      "id": "sense_boundary:009",
+      "target_id": "sense_boundary:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: sense_boundary:009."
+    },
+    {
+      "id": "definition:009",
+      "target_id": "definition:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: definition:009."
+    },
+    {
+      "id": "frequency:009",
+      "target_id": "frequency:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: frequency:009."
+    },
+    {
+      "id": "register:009",
+      "target_id": "register:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: register:009."
+    },
+    {
+      "id": "grammar_pattern:036",
+      "target_id": "grammar_pattern:036",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:036."
+    },
+    {
+      "id": "grammar_pattern:037",
+      "target_id": "grammar_pattern:037",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:037."
+    },
+    {
+      "id": "grammar_pattern:038",
+      "target_id": "grammar_pattern:038",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:038."
+    },
+    {
+      "id": "grammar_pattern:039",
+      "target_id": "grammar_pattern:039",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:039."
+    },
+    {
+      "id": "grammar_pattern:040",
+      "target_id": "grammar_pattern:040",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: grammar_pattern:040."
+    },
+    {
+      "id": "collocation:045",
+      "target_id": "collocation:045",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:045."
+    },
+    {
+      "id": "collocation:046",
+      "target_id": "collocation:046",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:046."
+    },
+    {
+      "id": "collocation:047",
+      "target_id": "collocation:047",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:047."
+    },
+    {
+      "id": "collocation:048",
+      "target_id": "collocation:048",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:048."
+    },
+    {
+      "id": "collocation:049",
+      "target_id": "collocation:049",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:049."
+    },
+    {
+      "id": "collocation:050",
+      "target_id": "collocation:050",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: collocation:050."
+    },
+    {
+      "id": "usage_note:009",
+      "target_id": "usage_note:009",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: usage_note:009."
+    },
+    {
+      "id": "synonym:030",
+      "target_id": "synonym:030",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:030."
+    },
+    {
+      "id": "synonym:031",
+      "target_id": "synonym:031",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:031."
+    },
+    {
+      "id": "synonym:032",
+      "target_id": "synonym:032",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:032."
+    },
+    {
+      "id": "synonym:033",
+      "target_id": "synonym:033",
+      "status": "pass",
+      "notes": "Individually verified against the current prompt article: synonym:033."
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "relation_id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: risk_sense_pair:001."
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "relation_id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: risk_sense_pair:002."
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "relation_id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: risk_sense_pair:003."
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "relation_id": "risk_sense_pair:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: risk_sense_pair:004."
+    },
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:001."
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:002."
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:003."
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:004."
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:005."
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:006."
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:007."
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:008."
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:009."
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:010."
+    },
+    {
+      "id": "example_translation:011",
+      "relation_id": "example_translation:011",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:011."
+    },
+    {
+      "id": "example_translation:012",
+      "relation_id": "example_translation:012",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:012."
+    },
+    {
+      "id": "example_translation:013",
+      "relation_id": "example_translation:013",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:013."
+    },
+    {
+      "id": "example_translation:014",
+      "relation_id": "example_translation:014",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:014."
+    },
+    {
+      "id": "example_translation:015",
+      "relation_id": "example_translation:015",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:015."
+    },
+    {
+      "id": "example_translation:016",
+      "relation_id": "example_translation:016",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:016."
+    },
+    {
+      "id": "example_translation:017",
+      "relation_id": "example_translation:017",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:017."
+    },
+    {
+      "id": "example_translation:018",
+      "relation_id": "example_translation:018",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:018."
+    },
+    {
+      "id": "example_translation:019",
+      "relation_id": "example_translation:019",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:019."
+    },
+    {
+      "id": "example_translation:020",
+      "relation_id": "example_translation:020",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:020."
+    },
+    {
+      "id": "example_translation:021",
+      "relation_id": "example_translation:021",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:021."
+    },
+    {
+      "id": "example_translation:022",
+      "relation_id": "example_translation:022",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:022."
+    },
+    {
+      "id": "example_translation:023",
+      "relation_id": "example_translation:023",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:023."
+    },
+    {
+      "id": "example_translation:024",
+      "relation_id": "example_translation:024",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:024."
+    },
+    {
+      "id": "example_translation:025",
+      "relation_id": "example_translation:025",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:025."
+    },
+    {
+      "id": "example_translation:026",
+      "relation_id": "example_translation:026",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:026."
+    },
+    {
+      "id": "example_translation:027",
+      "relation_id": "example_translation:027",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:027."
+    },
+    {
+      "id": "example_translation:028",
+      "relation_id": "example_translation:028",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:028."
+    },
+    {
+      "id": "example_translation:029",
+      "relation_id": "example_translation:029",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:029."
+    },
+    {
+      "id": "example_translation:030",
+      "relation_id": "example_translation:030",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:030."
+    },
+    {
+      "id": "example_translation:031",
+      "relation_id": "example_translation:031",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:031."
+    },
+    {
+      "id": "example_translation:032",
+      "relation_id": "example_translation:032",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:032."
+    },
+    {
+      "id": "example_translation:033",
+      "relation_id": "example_translation:033",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:033."
+    },
+    {
+      "id": "example_translation:034",
+      "relation_id": "example_translation:034",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:034."
+    },
+    {
+      "id": "example_translation:035",
+      "relation_id": "example_translation:035",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:035."
+    },
+    {
+      "id": "example_translation:036",
+      "relation_id": "example_translation:036",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:036."
+    },
+    {
+      "id": "example_translation:037",
+      "relation_id": "example_translation:037",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:037."
+    },
+    {
+      "id": "example_translation:038",
+      "relation_id": "example_translation:038",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:038."
+    },
+    {
+      "id": "example_translation:039",
+      "relation_id": "example_translation:039",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:039."
+    },
+    {
+      "id": "example_translation:040",
+      "relation_id": "example_translation:040",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:040."
+    },
+    {
+      "id": "example_translation:041",
+      "relation_id": "example_translation:041",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:041."
+    },
+    {
+      "id": "example_translation:042",
+      "relation_id": "example_translation:042",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:042."
+    },
+    {
+      "id": "example_translation:043",
+      "relation_id": "example_translation:043",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:043."
+    },
+    {
+      "id": "example_translation:044",
+      "relation_id": "example_translation:044",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:044."
+    },
+    {
+      "id": "example_translation:045",
+      "relation_id": "example_translation:045",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:045."
+    },
+    {
+      "id": "example_translation:046",
+      "relation_id": "example_translation:046",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:046."
+    },
+    {
+      "id": "example_translation:047",
+      "relation_id": "example_translation:047",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:047."
+    },
+    {
+      "id": "example_translation:048",
+      "relation_id": "example_translation:048",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:048."
+    },
+    {
+      "id": "example_translation:049",
+      "relation_id": "example_translation:049",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:049."
+    },
+    {
+      "id": "example_translation:050",
+      "relation_id": "example_translation:050",
+      "status": "pass",
+      "notes": "Individually verified across the current article: example_translation:050."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:001."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:001."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:001."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:001."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:002."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:002."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:002."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:002."
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "relation_id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:003."
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "relation_id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:004."
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "relation_id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:005."
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "relation_id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:006."
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "relation_id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:007."
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "relation_id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:003."
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "relation_id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:003."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "relation_id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:003."
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "relation_id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:008."
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "relation_id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:009."
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "relation_id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:010."
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "relation_id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:004."
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "relation_id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:004."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "relation_id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:004."
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "relation_id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:011."
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "relation_id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:012."
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "relation_id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:013."
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "relation_id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:014."
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "relation_id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:015."
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "relation_id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:005."
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "relation_id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:005."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "relation_id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:005."
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "relation_id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:016."
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "relation_id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:017."
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "relation_id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:018."
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "relation_id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:019."
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "relation_id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:020."
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "relation_id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:006."
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "relation_id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:006."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "relation_id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:006."
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "relation_id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:021."
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "relation_id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:022."
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "relation_id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:023."
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "relation_id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:024."
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "relation_id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:025."
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "relation_id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:007."
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "relation_id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:007."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "relation_id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:007."
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "relation_id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:026."
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "relation_id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:027."
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "relation_id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:028."
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "relation_id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:029."
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "relation_id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:030."
+    },
+    {
+      "id": "sense_definition_consistency:008",
+      "relation_id": "sense_definition_consistency:008",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:008."
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "relation_id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:008."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:008",
+      "relation_id": "definition_lexical_relation_consistency:008",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:008."
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "relation_id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:031."
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "relation_id": "pattern_example_coverage:032",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:032."
+    },
+    {
+      "id": "pattern_example_coverage:033",
+      "relation_id": "pattern_example_coverage:033",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:033."
+    },
+    {
+      "id": "pattern_example_coverage:034",
+      "relation_id": "pattern_example_coverage:034",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:034."
+    },
+    {
+      "id": "pattern_example_coverage:035",
+      "relation_id": "pattern_example_coverage:035",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:035."
+    },
+    {
+      "id": "sense_definition_consistency:009",
+      "relation_id": "sense_definition_consistency:009",
+      "status": "pass",
+      "notes": "Individually verified across the current article: sense_definition_consistency:009."
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "relation_id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_usage_consistency:009."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:009",
+      "relation_id": "definition_lexical_relation_consistency:009",
+      "status": "pass",
+      "notes": "Individually verified across the current article: definition_lexical_relation_consistency:009."
+    },
+    {
+      "id": "pattern_example_coverage:036",
+      "relation_id": "pattern_example_coverage:036",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:036."
+    },
+    {
+      "id": "pattern_example_coverage:037",
+      "relation_id": "pattern_example_coverage:037",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:037."
+    },
+    {
+      "id": "pattern_example_coverage:038",
+      "relation_id": "pattern_example_coverage:038",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:038."
+    },
+    {
+      "id": "pattern_example_coverage:039",
+      "relation_id": "pattern_example_coverage:039",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:039."
+    },
+    {
+      "id": "pattern_example_coverage:040",
+      "relation_id": "pattern_example_coverage:040",
+      "status": "pass",
+      "notes": "Individually verified across the current article: pattern_example_coverage:040."
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "relation_id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_inventory_consistency:001."
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "relation_id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:001."
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "relation_id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:002."
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "relation_id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:003."
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "relation_id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:004."
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "relation_id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:005."
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "relation_id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:006."
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "relation_id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:007."
+    },
+    {
+      "id": "core_sense_mapping:008",
+      "relation_id": "core_sense_mapping:008",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:008."
+    },
+    {
+      "id": "core_sense_mapping:009",
+      "relation_id": "core_sense_mapping:009",
+      "status": "pass",
+      "notes": "Individually verified across the current article: core_sense_mapping:009."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Individually verified across the current article: article_learning_risk:001."
+    }
+  ],
+  "normal_candidate_results": [
+    {
+      "id": "NC-001",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-001 is represented by the current article."
+    },
+    {
+      "id": "NC-002",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-002 is represented by the current article."
+    },
+    {
+      "id": "NC-003",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-003 is represented by the current article."
+    }
+  ],
+  "blind_candidate_results": [
+    {
+      "id": "IC-001",
+      "status": "pass",
+      "notes": "Rechecked every sealed semantic assertion for IC-001 against the current body.",
+      "assertion_ids": [
+        "IC-001-SA-001"
+      ],
+      "verified_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af"
+    },
+    {
+      "id": "IC-002",
+      "status": "pass",
+      "notes": "Rechecked every sealed semantic assertion for IC-002 against the current body.",
+      "assertion_ids": [
+        "IC-002-SA-001"
+      ],
+      "verified_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af"
+    },
+    {
+      "id": "IC-003",
+      "status": "pass",
+      "notes": "Rechecked every sealed semantic assertion for IC-003 against the current body.",
+      "assertion_ids": [
+        "IC-003-SA-001"
+      ],
+      "verified_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af"
+    }
+  ],
+  "finding_results": [],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "notes": "Checked every fact and its current article mapping for U-001."
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "pass",
+      "notes": "Checked every fact and its current article mapping for U-002."
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "pass",
+      "notes": "Checked every fact and its current article mapping for U-003."
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "notes": "Checked every fact and its current article mapping for U-004."
+    }
+  ],
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "All generated targets and relations were individually reconciled.",
+    "The context-free cold review and sealed final-blind inventory found no article finding.",
+    "Source-first facts, unions, evidence links, and semantic assertions all remain current."
+  ],
+  "evidence_checks": [
+    {
+      "id": "EVID-001",
+      "status": "pass",
+      "notes": "Evidence link EVID-001 was checked against the source inventory claim and current body."
+    },
+    {
+      "id": "EVID-002",
+      "status": "pass",
+      "notes": "Evidence link EVID-002 was checked against the source inventory claim and current body."
+    },
+    {
+      "id": "EVID-003",
+      "status": "pass",
+      "notes": "Evidence link EVID-003 was checked against the source inventory claim and current body."
+    },
+    {
+      "id": "EVID-004",
+      "status": "pass",
+      "notes": "Evidence link EVID-004 was checked against the source inventory claim and current body."
+    },
+    {
+      "id": "EVID-005",
+      "status": "pass",
+      "notes": "Evidence link EVID-005 was checked against the source inventory claim and current body."
+    },
+    {
+      "id": "EVID-006",
+      "status": "pass",
+      "notes": "Evidence link EVID-006 was checked against the source inventory claim and current body."
+    }
+  ]
+}
+

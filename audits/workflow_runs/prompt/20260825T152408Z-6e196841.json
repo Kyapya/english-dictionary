@@ -18,8 +18,8 @@
     "research_queries": 6,
     "candidate_pages": 9
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-25T15:24:08Z",
   "deadline_at": "2026-08-25T16:54:08Z",
   "pre_draft_deadline_at": "2026-08-25T15:54:08Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-25T15:34:34Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T15:35:17Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T15:35:56Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -400,8 +410,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 1,
-    "total_duration_seconds": 1800.0,
-    "completed_at": "",
+    "total_duration_seconds": 708.980259,
+    "completed_at": "2026-08-25T15:35:56Z",
     "stages": [
       {
         "id": "guard_start",
@@ -473,7 +483,7 @@
         "duration_seconds": 90.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
@@ -482,7 +492,7 @@
         "duration_seconds": 480.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
@@ -491,7 +501,7 @@
         "duration_seconds": 5.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
@@ -500,7 +510,7 @@
         "duration_seconds": 30.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -584,7 +594,7 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 7,
+    "next_stage_index": 11,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -592,7 +602,11 @@
       "checker_passes",
       "cold_review",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "finding_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -615,6 +629,22 @@
       ],
       "blind_seal": [
         "audits/runs/p/prompt/20260825T152408Z-6e196841/blind_seal.json"
+      ],
+      "finding_resolution": [
+        "audits/runs/p/prompt/20260825T152408Z-6e196841/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/p/prompt/20260825T152408Z-6e196841/final_review.json",
+        "audits/p/prompt.json"
+      ],
+      "status_update": [
+        "entries/p/prompt.md",
+        "queue/words.csv",
+        "audits/runs/p/prompt/20260825T152408Z-6e196841/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   }
