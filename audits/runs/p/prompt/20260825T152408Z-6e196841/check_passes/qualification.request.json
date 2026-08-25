@@ -1,0 +1,1223 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 19,
+        "text": "＃語源"
+      },
+      {
+        "line": 21,
+        "text": "prompt は中英語の動詞 prompten と形容詞 prompt にさかのぼり、古フランス語 prompt およびラテン語 promptus「前に出された、準備のできた」に由来する。promptus はラテン語 promere「前へ、外へ取り出す」の過去分詞で、pro-「前へ、外へ」＋emere「取る」という構成で説明される。  "
+      },
+      {
+        "line": 22,
+        "text": "「前に出て、すぐ使える・すぐ現れる」という発想から、形容詞の「準備ができていて素早い」「遅れずに行われる」、動詞の「行動や反応を引き出す」「発話を助ける」、名詞の「発話や行動を引き出す合図」へ意味が広がった。コンピューター用法は、入力や応答を促す表示・指示へこの核が拡張したものである。  "
+      },
+      {
+        "line": 23,
+        "text": "同じラテン語系統に属する語として、準備なしにその場で行うことを表す impromptu「即興の、即興で」と、すぐに・直ちにという意味で使われる pronto がある。これらは prompt の単純な接辞派生ではない。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 25,
+        "text": "＃語形成"
+      },
+      {
+        "line": 27,
+        "text": "promptly — 副詞「すぐに、速やかに、時間どおりに」。prompt の「遅れのない」という意味を文全体や動作へ適用する。  "
+      },
+      {
+        "line": 28,
+        "text": "promptness — 名詞「迅速さ、時間を守ること」。応答・支払い・到着などに遅れがない性質を表す。  "
+      },
+      {
+        "line": 29,
+        "text": "prompting — 名詞「促すこと、発話を助けること」。動詞 prompt の動名詞・現在分詞から生じ、教育・演劇・心理支援などで使う。  "
+      },
+      {
+        "line": 30,
+        "text": "prompter — 名詞「演劇でせりふを助ける人、プロンプター」。動詞 prompt に人を表す -er が付いた語である。  "
+      },
+      {
+        "line": 31,
+        "text": "promptitude — 名詞「即応性、迅速さ」。まれで硬い語で、一般学習では promptness のほうが普通である。  "
+      },
+      {
+        "line": 32,
+        "text": "unprompted — 形容詞「促されていない、求められていない、自発的な」。un-「否定」を付け、質問や指示なしに行われたことを表す。  "
+      },
+      {
+        "line": 33,
+        "text": "impromptu — 形容詞・副詞・名詞「即興の、即興で、即興作品」。prompt と同じラテン語 promptus 系統だが、prompt の接頭辞派生ではない。  "
+      },
+      {
+        "line": 34,
+        "text": "command prompt — 複合名詞「コマンド入力を待つ画面表示、コマンドプロンプト」。prompt がコンピューターの入力待ち表示を表す複合表現である。  "
+      },
+      {
+        "line": 35,
+        "text": "prompt engineering — 複合名詞「AIへの指示文を設計・改善すること」。生成システムから望ましい出力を引き出すための入力設計を表す。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 52,
+        "text": "1. 【形容詞・限定／叙述】迅速な、遅滞のない"
+      },
+      {
+        "line": 54,
+        "text": "【日本語訳・定義】行動、対応、返答、支援、支払いなどが、必要以上に待たせずに行われることを表す。  "
+      },
+      {
+        "line": 130,
+        "text": "2. 【形容詞・主に叙述】素早く応じる、時間を守る"
+      },
+      {
+        "line": 132,
+        "text": "【日本語訳・定義】人が、求められた行動や返答をすぐに行う準備ができている、または約束された時刻に遅れず行動することを表す。単に能力が高いというより、訓練、規律、注意によって即座に応じる性質を示しやすい。人については be prompt のような叙述用法が自然である。  "
+      },
+      {
+        "line": 215,
+        "text": "3. 【副詞・主に英・くだけた】時間どおりに、すぐに"
+      },
+      {
+        "line": 217,
+        "text": "【日本語訳・定義】promptly の短い形として、特にイギリス英語のくだけた用法や時刻表現で「時間どおりに」「遅れずに」を表す。一般的で中立な文章では promptly を使うほうが安全で、prompt を副詞として自由に使う用法は限定的である。  "
+      },
+      {
+        "line": 276,
+        "text": "4. 【他動詞】促す、引き起こす"
+      },
+      {
+        "line": 278,
+        "text": "【日本語訳・定義】人・出来事・情報などが、誰かに行動や決定をさせたり、反応・議論・調査などを引き起こしたりすることを表す。promptする側は意図的な説得者とは限らず、発言、証拠、事故、変化などが原因・きっかけになる場合も多い。結果を強制するというより、行動や反応が生じる方向へ動かす語である。  "
+      },
+      {
+        "line": 390,
+        "text": "5. 【他動詞・自動詞／発話・演劇】せりふを促す、思い出させる"
+      },
+      {
+        "line": 392,
+        "text": "【日本語訳・定義】人、特に俳優や発表者が忘れた言葉・次の発言を思い出せるように、単語、質問、手掛かりを与える。教育や面接で、答えを丸ごと教えるのではなく、本人が発話を続けられるよう助ける場合にも使う。自動詞では、相手が答えられるよう質問や短い促しを加える意味になる。  "
+      },
+      {
+        "line": 464,
+        "text": "6. 【可算名詞・演劇など】せりふの合図、助け舟、思い出させる言葉"
+      },
+      {
+        "line": 466,
+        "text": "【日本語訳・定義】俳優や話者が次に言う言葉を忘れたときに、別の人から与えられる単語・句・合図を表す。そこから広がって、学習者や発表者が答えを続けるための短い手掛かり・助け舟にも使う。多くの場合、何らかの発話や行動をその場で引き出す具体的なきっかけである。  "
+      },
+      {
+        "line": 526,
+        "text": "7. 【可算名詞】発想・回答を引き出す問い、課題、指示"
+      },
+      {
+        "line": 528,
+        "text": "【日本語訳・定義】人に文章を書かせたり、意見を述べさせたり、考えを発展させたりするために与える問い、テーマ、画像、指示を表す。必ず疑問文である必要はなく、求める内容、視点、形式を指定する課題文も prompt になる。単なる話題の名前より、何らかの応答を引き出す働きが強い。  "
+      },
+      {
+        "line": 600,
+        "text": "8. 【可算名詞・コンピューター】入力を促す表示、コマンドプロンプト"
+      },
+      {
+        "line": 602,
+        "text": "【日本語訳・定義】コンピューターの画面に表示され、システムが入力を受け付けられる状態であることを示す記号・文字列、または利用者にパスワードなどの入力を促すメッセージを表す。prompt 自体は入力するコマンドや答えではなく、それを入力するよう促す表示である。  "
+      },
+      {
+        "line": 667,
+        "text": "9. 【可算名詞・コンピューター／AI】AIに与える指示文、入力"
+      },
+      {
+        "line": 669,
+        "text": "【日本語訳・定義】生成AIなどのシステムに対し、何を作るか、どの条件で答えるか、どの形式で出力するかを伝える文章・質問・指示を表す。短い問いから、背景、制約、出力形式を組み合わせた長い入力まで含む。prompt はAIが返した文章・画像そのものではなく、それを引き出すために利用者が与える入力である。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 52,
+        "text": "1. 【形容詞・限定／叙述】迅速な、遅滞のない"
+      },
+      {
+        "line": 56,
+        "text": "【頻度】〈9/10〉  "
+      },
+      {
+        "line": 58,
+        "text": "【レジスター/領域】標準語。ビジネス、行政、医療、案内文で特に多い。  "
+      },
+      {
+        "line": 130,
+        "text": "2. 【形容詞・主に叙述】素早く応じる、時間を守る"
+      },
+      {
+        "line": 134,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 136,
+        "text": "【レジスター/領域】標準語。会議、仕事、返答、接客、指示への対応などで使う。punctual に近い「時間を守る」用法と、ready・responsive に近い「すぐ応じる」用法がある。  "
+      },
+      {
+        "line": 215,
+        "text": "3. 【副詞・主に英・くだけた】時間どおりに、すぐに"
+      },
+      {
+        "line": 219,
+        "text": "【頻度】〈3/10〉  "
+      },
+      {
+        "line": 221,
+        "text": "【レジスター/領域】主にイギリス英語のくだけた表現、または時刻を強調する定型表現。正式な文書や国際的な学習用英語では promptly が標準的である。  "
+      },
+      {
+        "line": 276,
+        "text": "4. 【他動詞】促す、引き起こす"
+      },
+      {
+        "line": 280,
+        "text": "【頻度】〈10/10〉  "
+      },
+      {
+        "line": 282,
+        "text": "【レジスター/領域】標準語。会話、報道、ビジネス、研究、政策、心理・社会の説明で広く使う。受動態の be prompted by も非常に多い。  "
+      },
+      {
+        "line": 390,
+        "text": "5. 【他動詞・自動詞／発話・演劇】せりふを促す、思い出させる"
+      },
+      {
+        "line": 394,
+        "text": "【頻度】〈6/10〉  "
+      },
+      {
+        "line": 396,
+        "text": "【レジスター/領域】標準語。演劇・映画、教育、面接、言語支援などで使う。一般的な「思い出させる」用法は remind と重なるが、発話や行動をその場で引き出す合図の性質が強い。  "
+      },
+      {
+        "line": 464,
+        "text": "6. 【可算名詞・演劇など】せりふの合図、助け舟、思い出させる言葉"
+      },
+      {
+        "line": 468,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 470,
+        "text": "【レジスター/領域】演劇では専門的な標準語。教育、発表、面接では「ヒント・促し」の意味で使う。一般的な課題文やAIへの指示を表す prompt とは、手掛かりの受け手と用途が異なる。  "
+      },
+      {
+        "line": 526,
+        "text": "7. 【可算名詞】発想・回答を引き出す問い、課題、指示"
+      },
+      {
+        "line": 530,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 532,
+        "text": "【レジスター/領域】教育、作文、研究、ワークショップ、面接、会議などで広く使う。writing prompt、essay prompt、discussion prompt は定着度が高い。  "
+      },
+      {
+        "line": 600,
+        "text": "8. 【可算名詞・コンピューター】入力を促す表示、コマンドプロンプト"
+      },
+      {
+        "line": 604,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 606,
+        "text": "【レジスター/領域】コンピューター用語。command prompt、shell prompt、password prompt、login prompt などで使う。日常的なアプリ画面の入力要求にも使えるが、AIへの指示文とは別の用法である。  "
+      },
+      {
+        "line": 667,
+        "text": "9. 【可算名詞・コンピューター／AI】AIに与える指示文、入力"
+      },
+      {
+        "line": 671,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 673,
+        "text": "【レジスター/領域】コンピューター、生成AI、自然言語処理、教育・業務の新しい用法。一般の技術記事や会話で広がっているが、AI以外では語義6〜8の意味も残る。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 52,
+        "text": "1. 【形容詞・限定／叙述】迅速な、遅滞のない"
+      },
+      {
+        "line": 89,
+        "text": "【語法・注意】prompt は「速い」という速度だけでなく、期待される対応を遅らせないという評価を含む。immediate は時間を置かないことをより強く示し、quick は動作や反応の速さに焦点を置く。timely は適切な時機に間に合うことを表す。prompt payment は必ずしも「即時払い」ではなく、妥当な期間内に速やかに払うという意味になり得る。副詞は通常 promptly を使い、The company responded prompt. とはしない。  "
+      },
+      {
+        "line": 130,
+        "text": "2. 【形容詞・主に叙述】素早く応じる、時間を守る"
+      },
+      {
+        "line": 167,
+        "text": "【語法・注意】人についての prompt は「反応が速い」と「時間に正確」の両方を取り得る。She was prompt to answer. は返答の速さ、She was prompt when she arrived for the meeting. は到着時の遅れのなさを表す。punctual は予定時刻への正確さ、responsive は連絡・要求への反応性、ready は準備や能力の状態を強調する。a prompt reply は自然だが、すぐ返事をする人を表すときは通常 be prompt とする。  "
+      },
+      {
+        "line": 215,
+        "text": "3. 【副詞・主に英・くだけた】時間どおりに、すぐに"
+      },
+      {
+        "line": 242,
+        "text": "【語法・注意】この副詞用法を一般的な副詞として広げず、promptly と使い分ける。Please reply promptly. は標準的だが、Please reply prompt. は通常避ける。at nine prompt は「9時ちょうどに」という時刻の後置表現で、米語の会話では at nine sharp や at exactly nine のほうが自然なこともある。  "
+      },
+      {
+        "line": 276,
+        "text": "4. 【他動詞】促す、引き起こす"
+      },
+      {
+        "line": 328,
+        "text": "【語法・注意】人を目的語にする場合は prompt someone to do something とし、prompt someone do something とはしない。prompt something は物事を引き起こす構文で、質問を相手に投げかける「尋ねる」という意味ではない。force は相手の選択肢を奪う強制、motivate は内的な意欲づけ、provoke は強い反応や不快な反応を誘発する含みが出やすい。prompt は意図的な誘導にも非意図的な原因にも使える。be prompted by は原因を示し、結果が必ず実現したことまで保証しない場合がある。  "
+      },
+      {
+        "line": 390,
+        "text": "5. 【他動詞・自動詞／発話・演劇】せりふを促す、思い出させる"
+      },
+      {
+        "line": 432,
+        "text": "【語法・注意】この用法の prompt someone to do は、行動の原因を述べる語義4と形が同じでも、「忘れた発話を助ける」という文脈で解釈される。俳優にせりふを丸ごと教えるというより、次の語や手掛かりを与えるのが中心である。prompt someone with 〈something〉 は手掛かりの内容を示し、prompt someone for 〈something〉 は相手から答え・情報を引き出そうとする。remind は記憶を呼び戻す一般語で、必ずしもその場の発話を促すとは限らない。  "
+      },
+      {
+        "line": 464,
+        "text": "6. 【可算名詞・演劇など】せりふの合図、助け舟、思い出させる言葉"
+      },
+      {
+        "line": 501,
+        "text": "【語法・注意】この名詞は通常可算で、a prompt、the prompt、prompts のように使う。演劇の prompt は俳優が忘れたせりふを補う合図であり、舞台に登場するきっかけ全般を指す cue と完全には同じでない。a prompt for an essay のような「課題・問い」は語義7、画面に表示される入力待ちの記号は語義8である。同じ prompt でも、誰の発話・行動をどのように引き出すかで意味を分ける。  "
+      },
+      {
+        "line": 526,
+        "text": "7. 【可算名詞】発想・回答を引き出す問い、課題、指示"
+      },
+      {
+        "line": 568,
+        "text": "【語法・注意】prompt は質問そのものだけでなく、回答の方向や形式を含む課題文も指す。answer a question と respond to a prompt は重なるが、prompt には「この条件・視点で何かを作る／述べる」という誘発の働きが出やすい。essay prompt は小論文の題名だけではなく、何を論じるべきかを示す設問全体を指すことが多い。語義6の prompt は忘れた言葉を助ける短い合図、語義7は複数の回答者から思考や文章を引き出す課題である。  "
+      },
+      {
+        "line": 600,
+        "text": "8. 【可算名詞・コンピューター】入力を促す表示、コマンドプロンプト"
+      },
+      {
+        "line": 642,
+        "text": "【語法・注意】command prompt は、入力待ちの記号を指す場合と、Windowsのコマンドライン環境そのものを指す場合がある。どちらでも、prompt は利用者が入力する command そのものではない。a prompt for a password は入力を求める表示、a prompt to an AI はAIに渡す指示文であり、前者は画面の要求、後者は利用者が作る入力という違いがある。可算名詞なので、特定の表示には the prompt、個別の入力要求には a prompt とする。  "
+      },
+      {
+        "line": 667,
+        "text": "9. 【可算名詞・コンピューター／AI】AIに与える指示文、入力"
+      },
+      {
+        "line": 709,
+        "text": "【語法・注意】AI用法の prompt は、質問だけでなく役割、背景、制約、例、出力形式を含む指示全体を指せる。instruction は人や機械に与える指示一般、query は情報を尋ねる検索・質問に焦点があり、prompt はシステムから特定の応答や生成物を引き出す入力として使われる。prompt engineering は単に丁寧な英文を書くことではなく、入力と出力を試行しながら設計することを表す。AIが出力した結果を prompt と呼ばないようにする。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 52,
+        "text": "1. 【形容詞・限定／叙述】迅速な、遅滞のない"
+      },
+      {
+        "line": 62,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 64,
+        "text": "・prompt action  "
+      },
+      {
+        "line": 65,
+        "text": "用途: 問題や危険に対して、遅らせずに対応することを表す。  "
+      },
+      {
+        "line": 66,
+        "text": "例: Prompt action prevented the fire from spreading.  "
+      },
+      {
+        "line": 67,
+        "text": "訳: 迅速な対応によって、火が広がるのを防いだ。  "
+      },
+      {
+        "line": 69,
+        "text": "・a prompt response/reply to something  "
+      },
+      {
+        "line": 70,
+        "text": "用途: 質問、苦情、依頼などに対する返答が早いことを示す。  "
+      },
+      {
+        "line": 71,
+        "text": "例: We expect a prompt response to the complaint.  "
+      },
+      {
+        "line": 72,
+        "text": "訳: その苦情には迅速な返答を期待している。  "
+      },
+      {
+        "line": 74,
+        "text": "・prompt payment of something  "
+      },
+      {
+        "line": 75,
+        "text": "用途: 請求書や料金を先延ばしせず支払うことを求める。  "
+      },
+      {
+        "line": 76,
+        "text": "例: Prompt payment of the invoice would be appreciated.  "
+      },
+      {
+        "line": 77,
+        "text": "訳: 請求書の速やかな支払いをお願いします。  "
+      },
+      {
+        "line": 79,
+        "text": "・prompt attention to something  "
+      },
+      {
+        "line": 80,
+        "text": "用途: 問題や依頼を後回しにせず、すぐに扱うことを表す。  "
+      },
+      {
+        "line": 81,
+        "text": "例: This safety issue requires prompt attention.  "
+      },
+      {
+        "line": 82,
+        "text": "訳: この安全上の問題には迅速な対応が必要である。  "
+      },
+      {
+        "line": 84,
+        "text": "・prompt medical attention  "
+      },
+      {
+        "line": 85,
+        "text": "用途: けがや症状に対して、遅れずに医療処置を受けることを表す。  "
+      },
+      {
+        "line": 86,
+        "text": "例: The child received prompt medical attention after the fall.  "
+      },
+      {
+        "line": 87,
+        "text": "訳: その子どもは転倒後、すぐに医療処置を受けた。  "
+      },
+      {
+        "line": 130,
+        "text": "2. 【形容詞・主に叙述】素早く応じる、時間を守る"
+      },
+      {
+        "line": 140,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 142,
+        "text": "・be prompt to respond  "
+      },
+      {
+        "line": 143,
+        "text": "用途: 連絡や問題提起に対して、すぐ反応する人の性質を表す。  "
+      },
+      {
+        "line": 144,
+        "text": "例: She is always prompt to respond to urgent messages.  "
+      },
+      {
+        "line": 145,
+        "text": "訳: 彼女は緊急のメッセージにはいつもすぐに応答する。  "
+      },
+      {
+        "line": 147,
+        "text": "・be prompt in answering 〈questions〉  "
+      },
+      {
+        "line": 148,
+        "text": "用途: 質問への返答をためらわず、時間をかけずに行うことを表す。  "
+      },
+      {
+        "line": 149,
+        "text": "例: The witness was prompt in answering the lawyer's questions.  "
+      },
+      {
+        "line": 150,
+        "text": "訳: その証人は弁護士の質問にすぐ答えた。  "
+      },
+      {
+        "line": 152,
+        "text": "・be prompt to report 〈a problem〉  "
+      },
+      {
+        "line": 153,
+        "text": "用途: 問題に気づいたら、報告を先延ばしにしない態度を示す。  "
+      },
+      {
+        "line": 154,
+        "text": "例: Employees should be prompt to report any safety concern.  "
+      },
+      {
+        "line": 155,
+        "text": "訳: 従業員は安全上の懸念があれば、すぐに報告すべきだ。  "
+      },
+      {
+        "line": 157,
+        "text": "・Please be prompt.  "
+      },
+      {
+        "line": 158,
+        "text": "用途: 約束の時刻や集合時刻に遅れないよう、丁寧または事務的に求める。  "
+      },
+      {
+        "line": 159,
+        "text": "例: Please be prompt when attending these meetings.  "
+      },
+      {
+        "line": 160,
+        "text": "訳: これらの会議には時間どおりに出席してください。  "
+      },
+      {
+        "line": 162,
+        "text": "・be prompt in paying 〈a bill〉  "
+      },
+      {
+        "line": 163,
+        "text": "用途: 請求や料金の支払いを先延ばしにしない人の態度を表す。  "
+      },
+      {
+        "line": 164,
+        "text": "例: He is prompt in paying his bills, even when the amount is disputed.  "
+      },
+      {
+        "line": 165,
+        "text": "訳: 彼は金額に異議がある場合でも、請求書の支払いを遅らせない。  "
+      },
+      {
+        "line": 215,
+        "text": "3. 【副詞・主に英・くだけた】時間どおりに、すぐに"
+      },
+      {
+        "line": 225,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 227,
+        "text": "・at eight o'clock prompt  "
+      },
+      {
+        "line": 228,
+        "text": "用途: 開始・集合の時刻が正確に8時であることを、くだけて強調する。  "
+      },
+      {
+        "line": 229,
+        "text": "例: The doors will open at eight o'clock prompt.  "
+      },
+      {
+        "line": 230,
+        "text": "訳: 開場はきっかり8時です。  "
+      },
+      {
+        "line": 232,
+        "text": "・arrive prompt  "
+      },
+      {
+        "line": 233,
+        "text": "用途: 到着が遅れなかったことを、主に英語のくだけた用法で表す。  "
+      },
+      {
+        "line": 234,
+        "text": "例: The doctor arrived prompt for the first appointment.  "
+      },
+      {
+        "line": 235,
+        "text": "訳: その医師は最初の診察に時間どおり到着した。  "
+      },
+      {
+        "line": 237,
+        "text": "・leave prompt  "
+      },
+      {
+        "line": 238,
+        "text": "用途: 出発時刻に遅れず出発することを、時刻を意識した文脈で表す。  "
+      },
+      {
+        "line": 239,
+        "text": "例: The coach leaves prompt at six, so please take your seat early.  "
+      },
+      {
+        "line": 240,
+        "text": "訳: バスは6時ちょうどに出発するので、早めに着席してください。  "
+      },
+      {
+        "line": 276,
+        "text": "4. 【他動詞】促す、引き起こす"
+      },
+      {
+        "line": 286,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 288,
+        "text": "・prompt someone to take action  "
+      },
+      {
+        "line": 289,
+        "text": "用途: 人や組織が行動を起こすきっかけになることを表す。  "
+      },
+      {
+        "line": 290,
+        "text": "例: The warning prompted residents to take action.  "
+      },
+      {
+        "line": 291,
+        "text": "訳: その警告を受けて、住民たちは行動を起こした。  "
+      },
+      {
+        "line": 293,
+        "text": "・prompt a response/reaction  "
+      },
+      {
+        "line": 294,
+        "text": "用途: 発言、刺激、出来事などが返答や反応を引き起こすことを示す。  "
+      },
+      {
+        "line": 295,
+        "text": "例: The question prompted a thoughtful response from the panel.  "
+      },
+      {
+        "line": 296,
+        "text": "訳: その質問は、パネル参加者から思慮深い回答を引き出した。  "
+      },
+      {
+        "line": 298,
+        "text": "・prompt a decision  "
+      },
+      {
+        "line": 299,
+        "text": "用途: 情報や状況の変化が、決定を下すきっかけになることを表す。  "
+      },
+      {
+        "line": 300,
+        "text": "例: The unexpected cost prompted the board to reconsider the plan.  "
+      },
+      {
+        "line": 301,
+        "text": "訳: 予想外の費用を受けて、取締役会は計画を再検討した。  "
+      },
+      {
+        "line": 303,
+        "text": "・prompt an investigation/review  "
+      },
+      {
+        "line": 304,
+        "text": "用途: 問題や証拠が調査・再検討を始める原因になることを示す。  "
+      },
+      {
+        "line": 305,
+        "text": "例: The missing records prompted an internal investigation.  "
+      },
+      {
+        "line": 306,
+        "text": "訳: 記録の欠落が内部調査のきっかけになった。  "
+      },
+      {
+        "line": 308,
+        "text": "・prompt concern/speculation  "
+      },
+      {
+        "line": 309,
+        "text": "用途: ある情報が懸念や推測を生じさせることを表す。  "
+      },
+      {
+        "line": 310,
+        "text": "例: The sudden drop in sales prompted concern among investors.  "
+      },
+      {
+        "line": 311,
+        "text": "訳: 売上の急落が投資家の懸念を招いた。  "
+      },
+      {
+        "line": 313,
+        "text": "・be prompted by 〈a question/event/concern〉  "
+      },
+      {
+        "line": 314,
+        "text": "用途: 行動や発言が、特定のきっかけによって生じたと受動態で説明する。  "
+      },
+      {
+        "line": 315,
+        "text": "例: The revision was prompted by customer feedback.  "
+      },
+      {
+        "line": 316,
+        "text": "訳: その改訂は顧客からの意見をきっかけに行われた。  "
+      },
+      {
+        "line": 318,
+        "text": "・prompt a user to enter data  "
+      },
+      {
+        "line": 319,
+        "text": "用途: コンピューターのプログラムが、利用者に入力を求めることを表す。  "
+      },
+      {
+        "line": 320,
+        "text": "例: The app prompted me to enter a password.  "
+      },
+      {
+        "line": 321,
+        "text": "訳: そのアプリは私にパスワードを入力するよう求めた。  "
+      },
+      {
+        "line": 323,
+        "text": "・What prompted you to do something?  "
+      },
+      {
+        "line": 324,
+        "text": "用途: 相手がある選択や行動をすることになった理由・きっかけを尋ねる。  "
+      },
+      {
+        "line": 325,
+        "text": "例: What prompted you to change careers?  "
+      },
+      {
+        "line": 326,
+        "text": "訳: 何がきっかけで転職したのですか。  "
+      },
+      {
+        "line": 390,
+        "text": "5. 【他動詞・自動詞／発話・演劇】せりふを促す、思い出させる"
+      },
+      {
+        "line": 400,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 402,
+        "text": "・prompt an actor  "
+      },
+      {
+        "line": 403,
+        "text": "用途: 俳優が忘れたせりふを言えるよう、舞台袖などから言葉を与える。  "
+      },
+      {
+        "line": 404,
+        "text": "例: The prompter prompted the actor when he missed his line.  "
+      },
+      {
+        "line": 405,
+        "text": "訳: 俳優がせりふを忘れたとき、プロンプターが助け舟を出した。  "
+      },
+      {
+        "line": 407,
+        "text": "・prompt someone with 〈a question〉  "
+      },
+      {
+        "line": 408,
+        "text": "用途: 直接答えを示さず、質問を手掛かりにして相手の発話を引き出す。  "
+      },
+      {
+        "line": 409,
+        "text": "例: The teacher prompted Maya with a simpler question.  "
+      },
+      {
+        "line": 410,
+        "text": "訳: 先生は、より簡単な質問をしてマヤの発言を促した。  "
+      },
+      {
+        "line": 412,
+        "text": "・prompt someone with 〈a word/line〉  "
+      },
+      {
+        "line": 413,
+        "text": "用途: 忘れた単語やせりふの一部を与え、相手が続けられるようにする。  "
+      },
+      {
+        "line": 414,
+        "text": "例: I prompted the child with the first word of the sentence.  "
+      },
+      {
+        "line": 415,
+        "text": "訳: 私はその子に文の最初の単語を示して、続きを言えるようにした。  "
+      },
+      {
+        "line": 417,
+        "text": "・prompt someone for 〈an answer/detail〉  "
+      },
+      {
+        "line": 418,
+        "text": "用途: 相手が答えや詳しい情報を出すよう、質問や促しを重ねる。  "
+      },
+      {
+        "line": 419,
+        "text": "例: The interviewer prompted the witness for more details.  "
+      },
+      {
+        "line": 420,
+        "text": "訳: 面接官は証人にさらに詳しい説明を求めた。  "
+      },
+      {
+        "line": 422,
+        "text": "・have to be prompted  "
+      },
+      {
+        "line": 423,
+        "text": "用途: 自分からは発言できず、誰かの促しが必要だったことを表す。  "
+      },
+      {
+        "line": 424,
+        "text": "例: The nervous student had to be prompted before giving the answer.  "
+      },
+      {
+        "line": 425,
+        "text": "訳: その緊張した生徒は、答えを言う前に促してもらう必要があった。  "
+      },
+      {
+        "line": 427,
+        "text": "・prompt someone to continue  "
+      },
+      {
+        "line": 428,
+        "text": "用途: 途中で止まった発表者や話者が、次の言葉を思い出して続けられるよう助ける。  "
+      },
+      {
+        "line": 429,
+        "text": "例: A quiet hint prompted the speaker to continue.  "
+      },
+      {
+        "line": 430,
+        "text": "訳: 小さなヒントが、話者が続ける助けになった。  "
+      },
+      {
+        "line": 464,
+        "text": "6. 【可算名詞・演劇など】せりふの合図、助け舟、思い出させる言葉"
+      },
+      {
+        "line": 474,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 476,
+        "text": "・give someone a prompt  "
+      },
+      {
+        "line": 477,
+        "text": "用途: 忘れたせりふや答えを続けられるよう、短い手掛かりを与える。  "
+      },
+      {
+        "line": 478,
+        "text": "例: The actor lost her place and was given a prompt from backstage.  "
+      },
+      {
+        "line": 479,
+        "text": "訳: その俳優はせりふの位置を見失い、舞台裏から助け舟を出してもらった。  "
+      },
+      {
+        "line": 481,
+        "text": "・need a prompt  "
+      },
+      {
+        "line": 482,
+        "text": "用途: 答えや発言を思い出すために、少しの手掛かりが必要だと述べる。  "
+      },
+      {
+        "line": 483,
+        "text": "例: I know the answer, but I need a prompt to remember the exact word.  "
+      },
+      {
+        "line": 484,
+        "text": "訳: 答えは分かっているが、正確な単語を思い出すにはヒントが必要だ。  "
+      },
+      {
+        "line": 486,
+        "text": "・a prompt from offstage  "
+      },
+      {
+        "line": 487,
+        "text": "用途: 舞台袖にいる人から、俳優へせりふを伝えることを表す。  "
+      },
+      {
+        "line": 488,
+        "text": "例: She recovered after receiving a prompt from offstage.  "
+      },
+      {
+        "line": 489,
+        "text": "訳: 彼女は舞台袖から助け舟を出してもらい、立て直した。  "
+      },
+      {
+        "line": 491,
+        "text": "・a verbal prompt  "
+      },
+      {
+        "line": 492,
+        "text": "用途: 作業や発話を開始・継続するための口頭の手掛かりを表す。  "
+      },
+      {
+        "line": 493,
+        "text": "例: The child completed the task after a verbal prompt.  "
+      },
+      {
+        "line": 494,
+        "text": "訳: その子どもは口頭で促されると課題を終えた。  "
+      },
+      {
+        "line": 496,
+        "text": "・take a prompt from someone  "
+      },
+      {
+        "line": 497,
+        "text": "用途: 相手から与えられた手掛かりを受けて、発話や行動を続ける。  "
+      },
+      {
+        "line": 498,
+        "text": "例: The speaker took a prompt from the moderator and answered the question.  "
+      },
+      {
+        "line": 499,
+        "text": "訳: 話者は司会者の促しを受けて、その質問に答えた。  "
+      },
+      {
+        "line": 526,
+        "text": "7. 【可算名詞】発想・回答を引き出す問い、課題、指示"
+      },
+      {
+        "line": 536,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 538,
+        "text": "・a writing prompt  "
+      },
+      {
+        "line": 539,
+        "text": "用途: 文章を書き始めるために、題材・視点・条件などを与える課題を表す。  "
+      },
+      {
+        "line": 540,
+        "text": "例: The writing prompt asks students to describe a place that changed them.  "
+      },
+      {
+        "line": 541,
+        "text": "訳: その作文課題は、自分を変えた場所を説明するよう生徒に求めている。  "
+      },
+      {
+        "line": 543,
+        "text": "・an essay prompt  "
+      },
+      {
+        "line": 544,
+        "text": "用途: 小論文や試験で、論じるべき問い・課題文を表す。  "
+      },
+      {
+        "line": 545,
+        "text": "例: Read the essay prompt carefully before choosing your argument.  "
+      },
+      {
+        "line": 546,
+        "text": "訳: 論点を選ぶ前に、小論文の課題文を注意深く読みなさい。  "
+      },
+      {
+        "line": 548,
+        "text": "・a discussion prompt  "
+      },
+      {
+        "line": 549,
+        "text": "用途: 会議や授業で、参加者から意見や議論を引き出す問いを表す。  "
+      },
+      {
+        "line": 550,
+        "text": "例: The teacher opened with a discussion prompt about trust.  "
+      },
+      {
+        "line": 551,
+        "text": "訳: 先生は信頼についての議論を促す問いから授業を始めた。  "
+      },
+      {
+        "line": 553,
+        "text": "・respond to a prompt  "
+      },
+      {
+        "line": 554,
+        "text": "用途: 課題文や問いに対して、文章・発言・作品などの形で応答する。  "
+      },
+      {
+        "line": 555,
+        "text": "例: Each participant responded to the prompt in three sentences.  "
+      },
+      {
+        "line": 556,
+        "text": "訳: 参加者はそれぞれ、その問いに3文で答えた。  "
+      },
+      {
+        "line": 558,
+        "text": "・use something as a prompt for something  "
+      },
+      {
+        "line": 559,
+        "text": "用途: 写真、経験、音楽などを、発想や文章を生むきっかけとして使う。  "
+      },
+      {
+        "line": 560,
+        "text": "例: She used the photograph as a prompt for a short story.  "
+      },
+      {
+        "line": 561,
+        "text": "訳: 彼女はその写真を短編小説を書くきっかけにした。  "
+      },
+      {
+        "line": 563,
+        "text": "・a creative prompt  "
+      },
+      {
+        "line": 564,
+        "text": "用途: 自由な発想や創作を始めるための刺激・課題を表す。  "
+      },
+      {
+        "line": 565,
+        "text": "例: The artist drew from a creative prompt about forgotten objects.  "
+      },
+      {
+        "line": 566,
+        "text": "訳: その芸術家は、忘れられた物についての創作課題から発想を得た。  "
+      },
+      {
+        "line": 600,
+        "text": "8. 【可算名詞・コンピューター】入力を促す表示、コマンドプロンプト"
+      },
+      {
+        "line": 610,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 612,
+        "text": "・at the command prompt  "
+      },
+      {
+        "line": 613,
+        "text": "用途: コマンド入力を待つ端末画面で操作することを表す。  "
+      },
+      {
+        "line": 614,
+        "text": "例: At the command prompt, type the file name and press Enter.  "
+      },
+      {
+        "line": 615,
+        "text": "訳: コマンドプロンプトでファイル名を入力し、Enterキーを押してください。  "
+      },
+      {
+        "line": 617,
+        "text": "・a password prompt  "
+      },
+      {
+        "line": 618,
+        "text": "用途: パスワードの入力を求める画面上の表示を表す。  "
+      },
+      {
+        "line": 619,
+        "text": "例: The program displayed a password prompt before opening the file.  "
+      },
+      {
+        "line": 620,
+        "text": "訳: そのプログラムはファイルを開く前にパスワード入力を表示した。  "
+      },
+      {
+        "line": 622,
+        "text": "・see the prompt  "
+      },
+      {
+        "line": 623,
+        "text": "用途: システムが入力を受け付けられる状態になったことを示す表示を確認する。  "
+      },
+      {
+        "line": 624,
+        "text": "例: When you see the prompt, enter Y to continue.  "
+      },
+      {
+        "line": 625,
+        "text": "訳: プロンプトが表示されたら、続行するためにYを入力してください。  "
+      },
+      {
+        "line": 627,
+        "text": "・enter something at the prompt  "
+      },
+      {
+        "line": 628,
+        "text": "用途: 表示された入力要求に対して値やコマンドを入力する。  "
+      },
+      {
+        "line": 629,
+        "text": "例: Enter your user name at the prompt.  "
+      },
+      {
+        "line": 630,
+        "text": "訳: プロンプトにユーザー名を入力してください。  "
+      },
+      {
+        "line": 632,
+        "text": "・return to the prompt  "
+      },
+      {
+        "line": 633,
+        "text": "用途: コマンドの処理が終わり、次の入力を受け付ける状態へ戻る。  "
+      },
+      {
+        "line": 634,
+        "text": "例: The shell returned to the prompt after the command finished.  "
+      },
+      {
+        "line": 635,
+        "text": "訳: コマンドの処理が終わると、シェルは入力待ちの表示に戻った。  "
+      },
+      {
+        "line": 637,
+        "text": "・the 〈$/>〉 prompt  "
+      },
+      {
+        "line": 638,
+        "text": "用途: シェルなどで、入力待ちを示す特定の記号を表す。  "
+      },
+      {
+        "line": 639,
+        "text": "例: The $ prompt indicates that the shell is ready for a command.  "
+      },
+      {
+        "line": 640,
+        "text": "訳: $プロンプトは、シェルがコマンドを受け付けられる状態だと示す。  "
+      },
+      {
+        "line": 667,
+        "text": "9. 【可算名詞・コンピューター／AI】AIに与える指示文、入力"
+      },
+      {
+        "line": 677,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 679,
+        "text": "・write a prompt  "
+      },
+      {
+        "line": 680,
+        "text": "用途: AIから望ましい出力を得るための指示文を作成する。  "
+      },
+      {
+        "line": 681,
+        "text": "例: Write a prompt that states the audience and the desired format.  "
+      },
+      {
+        "line": 682,
+        "text": "訳: 想定読者と望ましい形式を明記したプロンプトを書きなさい。  "
+      },
+      {
+        "line": 684,
+        "text": "・enter a prompt into 〈a model/tool〉  "
+      },
+      {
+        "line": 685,
+        "text": "用途: AIシステムや生成ツールへ指示文を入力する。  "
+      },
+      {
+        "line": 686,
+        "text": "例: She entered a prompt into the image generator to request a watercolor style.  "
+      },
+      {
+        "line": 687,
+        "text": "訳: 彼女は水彩画風を求めるプロンプトを画像生成ツールに入力した。  "
+      },
+      {
+        "line": 689,
+        "text": "・give an AI a prompt  "
+      },
+      {
+        "line": 690,
+        "text": "用途: AIに質問・指示・条件を渡し、応答や生成物を求める。  "
+      },
+      {
+        "line": 691,
+        "text": "例: He gave the AI a prompt asking for three alternative titles.  "
+      },
+      {
+        "line": 692,
+        "text": "訳: 彼はAIに、題名を3案出すよう求めるプロンプトを与えた。  "
+      },
+      {
+        "line": 694,
+        "text": "・a prompt for 〈summarizing/translating/planning〉  "
+      },
+      {
+        "line": 695,
+        "text": "用途: 特定の作業をAIにさせるための入力文を表す。  "
+      },
+      {
+        "line": 696,
+        "text": "例: She tested several prompts for summarizing meeting notes.  "
+      },
+      {
+        "line": 697,
+        "text": "訳: 彼女は会議メモを要約するためのプロンプトをいくつか試した。  "
+      },
+      {
+        "line": 699,
+        "text": "・prompt engineering  "
+      },
+      {
+        "line": 700,
+        "text": "用途: 指示の構成や条件を調整し、AIの出力を改善する作業・方法論を表す。  "
+      },
+      {
+        "line": 701,
+        "text": "例: Prompt engineering often involves testing different instructions and examples.  "
+      },
+      {
+        "line": 702,
+        "text": "訳: プロンプトエンジニアリングでは、異なる指示や例を試すことが多い。  "
+      },
+      {
+        "line": 704,
+        "text": "・a prompt that specifies 〈a format/constraint〉  "
+      },
+      {
+        "line": 705,
+        "text": "用途: 出力形式や禁止事項などの条件を明示するプロンプトを表す。  "
+      },
+      {
+        "line": 706,
+        "text": "例: A prompt that specifies a table format can make the output easier to compare.  "
+      },
+      {
+        "line": 707,
+        "text": "訳: 表形式を指定するプロンプトを使うと、出力を比較しやすくなる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

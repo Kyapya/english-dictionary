@@ -1,0 +1,16 @@
+{
+  "stage": "cold_review",
+  "schema_version": "cold_review_v2",
+  "run_id": "cold-prompt-20260825T155000Z",
+  "context_id": "cold-prompt-context-20260825T155000Z",
+  "audit_visible": false,
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "recorded_at": "2026-08-25T15:34:03Z",
+  "summary": "本文の意味・構文・領域区別を独立に確認し、修正を要する問題候補は検出されなかった。",
+  "findings": []
+}
