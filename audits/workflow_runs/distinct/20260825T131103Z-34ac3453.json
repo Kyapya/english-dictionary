@@ -404,11 +404,11 @@
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 29999,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -564,15 +564,19 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 2,
+    "next_stage_index": 3,
     "completed_stages": [
       "guard_start",
-      "generation"
+      "generation",
+      "mechanical_validator"
     ],
     "stage_outputs": {
       "generation": [
         "entries/d/distinct.md",
         "audits/runs/d/distinct/20260825T131103Z-34ac3453/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/validator.json"
       ]
     }
   }
