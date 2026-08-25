@@ -52,7 +52,9 @@ jobs:
         run: python scripts/validate_repository.py
 
       - name: Validate project improvement knowledge
-        run: python scripts/process_improvement.py validate
+        run: |
+          python scripts/process_improvement.py validate
+          python scripts/measure_instruction_budget.py validate
 
       - name: Validate bounded entry workflow runs
         if: github.event_name != 'pull_request'

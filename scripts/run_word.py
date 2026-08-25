@@ -11,6 +11,7 @@ from typing import Any, Iterable
 
 import entry_workflow_guard as guard
 import check_passes
+import process_improvement
 from slugify import slugify
 
 
@@ -19,6 +20,7 @@ ORCHESTRATOR_VERSION = "run_word_v2"
 DEFAULT_CHECK_SPEC = "prompts/check_router_v6.md"
 DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v2.md"
 DEFAULT_FINAL_BLIND_SPEC = "prompts/final_blind_prompt_v2.md"
+COST_SCHEMA_VERSION = "workflow_cost_v1"
 
 
 @dataclass(frozen=True)
@@ -204,6 +206,255 @@ def plan_payload(headword: str, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
     }
 
 
+def initialize_cost_metrics(
+    plan: dict[str, Any], *, repo_root: Path = REPO_ROOT
+) -> dict[str, Any]:
+    if (repo_root / "process_improvement" / "retirement_state.json").is_file():
+        retirement_errors = process_improvement.validate_retirement_state(repo_root)
+        if retirement_errors:
+            raise ValueError("; ".join(retirement_errors))
+    records, errors = process_improvement._load_records(repo_root)
+    if errors and (repo_root / "process_improvement" / "records").exists():
+        raise ValueError("; ".join(errors))
+    if errors:
+        records = []
+    process_rules = []
+    for record in records:
+        if record.get("status") not in {"trial", "active"}:
+            continue
+        rule_bytes = len(str(record.get("action_rule", "")).encode("utf-8"))
+        process_rules.append(
+            {
+                "id": str(record["id"]),
+                "status": str(record["status"]),
+                "instruction_bytes": rule_bytes,
+                "input_bytes": 0,
+                "duration_seconds": 0.0,
+                "defects_detected": 0,
+                "completed": False,
+            }
+        )
+    stages = []
+    for item in plan["stages"]:
+        stages.append(
+            {
+                "id": item["name"],
+                "instruction_bytes": item["instruction_bytes"],
+                "input_bytes": 0,
+                "duration_seconds": 0.0,
+                "defects_detected": 0,
+                "revision_count": 0,
+                "completed": item["name"] == "guard_start",
+            }
+        )
+    checker_passes = [
+        {
+            "id": item["id"],
+            "instruction_bytes": item["instruction_bytes"],
+            "input_bytes": 0,
+            "duration_seconds": 0.0,
+            "defects_detected": 0,
+            "completed": False,
+        }
+        for item in plan["checker_passes"]
+    ]
+    return {
+        "schema_version": COST_SCHEMA_VERSION,
+        "total_cycles": 1,
+        "total_revisions": 0,
+        "total_duration_seconds": 0.0,
+        "completed_at": "",
+        "stages": stages,
+        "checker_passes": checker_passes,
+        "process_rules": process_rules,
+    }
+
+
+def initialize_orchestrator_state(plan: dict[str, Any]) -> dict[str, Any]:
+    return {
+        "next_stage_index": 1,
+        "completed_stages": ["guard_start"],
+        "stage_outputs": {},
+    }
+
+
+def _cost_row(metrics: dict[str, Any], collection: str, item_id: str) -> dict[str, Any]:
+    items = metrics.get(collection)
+    if not isinstance(items, list):
+        raise ValueError(f"metrics.{collection} must be a list")
+    matches = [item for item in items if isinstance(item, dict) and item.get("id") == item_id]
+    if len(matches) != 1:
+        raise ValueError(f"metrics.{collection} has no unique row for {item_id}")
+    return matches[0]
+
+
+def record_cost(
+    manifest: dict[str, Any],
+    *,
+    collection: str,
+    item_id: str,
+    input_bytes: int,
+    duration_seconds: float,
+    defects_detected: int = 0,
+    revision_count: int = 0,
+) -> None:
+    metrics = manifest.get("metrics")
+    if not isinstance(metrics, dict):
+        raise ValueError("workflow manifest has no cost metrics")
+    if collection not in {"stages", "checker_passes", "process_rules"}:
+        raise ValueError("unknown cost collection")
+    if (
+        not isinstance(input_bytes, int)
+        or isinstance(input_bytes, bool)
+        or input_bytes < 0
+    ):
+        raise ValueError("input_bytes must be a non-negative integer")
+    if not isinstance(duration_seconds, (int, float)) or duration_seconds < 0:
+        raise ValueError("duration_seconds must be non-negative")
+    if (
+        not isinstance(defects_detected, int)
+        or isinstance(defects_detected, bool)
+        or defects_detected < 0
+    ):
+        raise ValueError("defects_detected must be a non-negative integer")
+    if (
+        not isinstance(revision_count, int)
+        or isinstance(revision_count, bool)
+        or revision_count < 0
+    ):
+        raise ValueError("revision_count must be a non-negative integer")
+    row = _cost_row(metrics, collection, item_id)
+    if row.get("completed") is True:
+        raise ValueError(f"cost row is already completed: {collection}.{item_id}")
+    row["input_bytes"] = input_bytes
+    row["duration_seconds"] = float(duration_seconds)
+    row["defects_detected"] = defects_detected
+    row["completed"] = True
+    if collection == "stages":
+        row["revision_count"] = revision_count
+        metrics["total_revisions"] = sum(
+            int(item.get("revision_count", 0))
+            for item in metrics["stages"]
+            if isinstance(item, dict)
+        )
+
+
+def begin_additional_cycle(manifest: dict[str, Any]) -> None:
+    metrics = manifest.get("metrics")
+    if not isinstance(metrics, dict):
+        raise ValueError("workflow manifest has no cost metrics")
+    metrics["total_cycles"] = int(metrics.get("total_cycles", 0)) + 1
+
+
+def finalize_cost_metrics(
+    manifest: dict[str, Any], *, now: datetime | None = None
+) -> None:
+    metrics = manifest.get("metrics")
+    if not isinstance(metrics, dict):
+        raise ValueError("workflow manifest has no cost metrics")
+    completed = now or datetime.now(timezone.utc)
+    started = datetime.fromisoformat(str(manifest["started_at"]).replace("Z", "+00:00"))
+    metrics["completed_at"] = guard._format_time(completed)
+    metrics["total_duration_seconds"] = max(
+        0.0, (completed - started).total_seconds()
+    )
+
+
+def next_stage_request(manifest: dict[str, Any]) -> dict[str, Any] | None:
+    orchestrator = manifest.get("orchestrator")
+    state = manifest.get("orchestrator_state")
+    if not isinstance(orchestrator, dict) or not isinstance(state, dict):
+        raise ValueError("workflow manifest has no orchestrator state")
+    stages = orchestrator.get("stages")
+    index = state.get("next_stage_index")
+    if not isinstance(stages, list) or not isinstance(index, int):
+        raise ValueError("orchestrator stage state is invalid")
+    if index >= len(stages):
+        return None
+    stage = dict(stages[index])
+    run_id = str(manifest["run_id"])
+    stage["output_paths"] = [
+        str(path).replace("{run_id}", run_id) for path in stage["output_paths"]
+    ]
+    return stage
+
+
+def complete_orchestrated_stage(
+    manifest: dict[str, Any],
+    *,
+    stage: str,
+    input_bytes: int,
+    duration_seconds: float,
+    defects_detected: int = 0,
+    revision_count: int = 0,
+    output_paths: list[str] | None = None,
+    checker_pass_costs: dict[str, dict[str, Any]] | None = None,
+    process_rule_defects: dict[str, int] | None = None,
+    now: datetime | None = None,
+) -> None:
+    request = next_stage_request(manifest)
+    if request is None:
+        raise ValueError("orchestrator has no remaining stage")
+    if request["name"] != stage:
+        raise ValueError(f"next orchestrator stage must be {request['name']}")
+    record_cost(
+        manifest,
+        collection="stages",
+        item_id=stage,
+        input_bytes=input_bytes,
+        duration_seconds=duration_seconds,
+        defects_detected=defects_detected,
+        revision_count=revision_count,
+    )
+    if stage == "generation":
+        for row in manifest["metrics"]["process_rules"]:
+            if row.get("completed") is True:
+                continue
+            record_cost(
+                manifest,
+                collection="process_rules",
+                item_id=str(row["id"]),
+                input_bytes=0,
+                duration_seconds=duration_seconds,
+                defects_detected=int((process_rule_defects or {}).get(str(row["id"]), 0)),
+            )
+    if stage == "checker_passes":
+        provided = checker_pass_costs or {}
+        expected = {
+            str(row["id"]) for row in manifest["metrics"]["checker_passes"]
+        }
+        if set(provided) != expected:
+            raise ValueError(
+                "checker_pass_costs must cover every routed pass exactly once"
+            )
+        for pass_id in sorted(expected):
+            cost = provided[pass_id]
+            record_cost(
+                manifest,
+                collection="checker_passes",
+                item_id=pass_id,
+                input_bytes=int(cost.get("input_bytes", 0)),
+                duration_seconds=float(cost.get("duration_seconds", 0.0)),
+                defects_detected=int(cost.get("defects_detected", 0)),
+            )
+    current = now or datetime.now(timezone.utc)
+    for checkpoint in request.get("guard_checkpoints", []):
+        ok = guard.advance_stage(
+            manifest,
+            stage=str(checkpoint),
+            notes=f"orchestrator completed {stage}",
+            now=current,
+        )
+        if not ok:
+            raise RuntimeError(manifest.get("stop_reason", "workflow guard stopped"))
+    state = manifest["orchestrator_state"]
+    state["completed_stages"].append(stage)
+    state["next_stage_index"] = int(state["next_stage_index"]) + 1
+    state["stage_outputs"][stage] = list(output_paths or request["output_paths"])
+    if stage == "export":
+        finalize_cost_metrics(manifest, now=current)
+
+
 def _git(repo_root: Path, *args: str) -> str:
     completed = subprocess.run(
         ["git", "-C", str(repo_root), *args],
@@ -251,6 +502,12 @@ def create_guard_manifest(
         now=now,
     )
     manifest["orchestrator"] = plan_payload(headword, repo_root)
+    manifest["metrics"] = initialize_cost_metrics(
+        manifest["orchestrator"], repo_root=repo_root
+    )
+    manifest["orchestrator_state"] = initialize_orchestrator_state(
+        manifest["orchestrator"]
+    )
     path = (
         repo_root
         / "audits"
@@ -379,16 +636,13 @@ def _resume(path: Path) -> int:
             )
         )
         return 2
-    next_index = guard.STAGES.index(manifest["stage"]) + 1
-    next_guard = (
-        guard.STAGES[next_index] if next_index < len(guard.STAGES) else None
-    )
+    next_request = next_stage_request(manifest)
     print(
         json.dumps(
             {
                 "status": manifest["status"],
                 "stage": manifest["stage"],
-                "next_guard_checkpoint": next_guard,
+                "next_stage": next_request,
             },
             ensure_ascii=False,
             indent=2,
@@ -402,6 +656,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("headword", nargs="?")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--resume", type=Path)
+    parser.add_argument("--complete-stage", type=Path)
+    parser.add_argument("--stage")
+    parser.add_argument("--input-bytes", type=int, default=0)
+    parser.add_argument("--duration-seconds", type=float, default=0.0)
+    parser.add_argument("--defects-detected", type=int, default=0)
+    parser.add_argument("--revision-count", type=int, default=0)
+    parser.add_argument("--checker-pass-costs", type=Path)
     parser.add_argument("--record-revision", type=Path)
     parser.add_argument(
         "--profile", choices=sorted(guard.PROFILES), default="standard"
@@ -412,6 +673,34 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.complete_stage:
+        if args.headword or args.resume or args.dry_run or args.record_revision:
+            raise SystemExit(
+                "--complete-stage cannot be combined with another workflow selector"
+            )
+        if not args.stage:
+            raise SystemExit("--complete-stage requires --stage")
+        resolved = args.complete_stage.resolve()
+        manifest = guard._read(resolved)
+        pass_costs = None
+        if args.checker_pass_costs:
+            pass_costs = json.loads(
+                args.checker_pass_costs.read_text(encoding="utf-8")
+            )
+            if not isinstance(pass_costs, dict):
+                raise SystemExit("--checker-pass-costs must contain a JSON object")
+        complete_orchestrated_stage(
+            manifest,
+            stage=args.stage,
+            input_bytes=args.input_bytes,
+            duration_seconds=args.duration_seconds,
+            defects_detected=args.defects_detected,
+            revision_count=args.revision_count,
+            checker_pass_costs=pass_costs,
+        )
+        guard._write(resolved, manifest)
+        print(json.dumps(next_stage_request(manifest), ensure_ascii=False, indent=2))
+        return 0
     if args.record_revision:
         if args.headword or args.resume or args.dry_run:
             raise SystemExit(

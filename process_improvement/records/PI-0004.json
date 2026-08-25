@@ -1,0 +1,58 @@
+{
+  "schema_version": "project_process_improvement_v1",
+  "id": "PI-0004",
+  "title": "工程コストを計測して低ROI規則を退役させる",
+  "status": "active",
+  "category": "efficiency",
+  "severity": "high",
+  "scope": "cross_entry_workflow",
+  "problem_pattern": "工程・規則を追加する一方で、1語あたりの指示量、入力量、所要時間、検出欠陥数を対応付けないと、効果を示さない工程が恒久化して注意資源と作業時間を消費する。",
+  "generalized_insight": "工程ごとの費用と検出効果を同じrunで測定し、固定windowで状態遷移させれば、品質観点を追跡可能な形で維持しながら低ROI工程を退役候補にできる。",
+  "action_rule": "workflow runへcycle・revision・段別instruction/input bytes・所要時間・検出欠陥数を記録し、active規則とchecker passを10語ごとにROI審査する。検出0件のunitはretiredへ遷移し、checker taxonomyは再割当前に次runを開始しない。",
+  "applicability": [
+    "planning",
+    "validation",
+    "all"
+  ],
+  "exceptions": "10語windowが閉じる前、旧workflow_cost_v1以前のrun、過去監査を参照するだけの作業は状態遷移の母数に含めない。",
+  "generalization_gate": {
+    "repeated_across_runs": false,
+    "high_impact_single_run": true,
+    "rationale": "1語の必読指示が167,869 bytesに達し、工程自体の欠陥分類まで生じたため、単一計測でも全見出し語へ影響する高影響の構造問題である。"
+  },
+  "evidence": [
+    {
+      "source": "process_improvement/records/process-refactor-v1.json",
+      "observation": "process-refactor-v1で1語あたり必読指示を167,869 bytesから81,791 bytesへ削減し、最大1実行の指示を52,602 bytesへ抑えた。"
+    }
+  ],
+  "validation": {
+    "hypothesis": "指示分割と10語ROI審査により、内容観点を一意に追跡しながら1実行の指示量と効果不明な工程の恒久化を減らせる。",
+    "measures": [
+      "改修前後の必読instruction bytesが同じスクリプトで再現できる",
+      "全新規workflow runにcycle・revision・段別bytes・所要時間が記録される",
+      "10語windowで各active規則とchecker passの欠陥数/コストが算出される",
+      "検出0件unitがretiredへ遷移する"
+    ],
+    "window_runs": 1,
+    "observed_runs": 1,
+    "result": "pass",
+    "notes": "bytes比較、workflow_cost_v1、retirement-review、CI検証と単体テストを実装済み。"
+  },
+  "enforcement": {
+    "mode": "script_or_ci",
+    "surface_in_playbook": false,
+    "refs": [
+      "scripts/run_word.py",
+      "scripts/entry_workflow_guard.py",
+      "scripts/process_improvement.py",
+      "scripts/measure_instruction_budget.py",
+      "tests/test_run_word.py",
+      "tests/test_process_improvement.py",
+      "tests/test_instruction_budget.py",
+      ".github/workflows/validate.yml"
+    ]
+  },
+  "created_at": "2026-08-25",
+  "updated_at": "2026-08-25"
+}

@@ -58,3 +58,15 @@ python scripts/process_improvement.py validate
 - 同じ問題の発生例は新しいrecordにせず、既存recordのevidenceと検証結果へ集約する。
 
 JSONの正確な必須項目と状態制約は `scripts/process_improvement.py` を正本とする。
+
+## 10語ごとのROI退役審査
+
+初期windowは10語とし、`process_improvement/retirement_state.json` にactiveな運用規則とchecker passの審査位置を保存する。完了した `workflow_cost_v1` runが10語分増えるごとに次を実行する。
+
+```bash
+python scripts/process_improvement.py retirement-review
+```
+
+スクリプトは各unitについて、検出欠陥数、instruction+input bytes、所要秒、欠陥/KiB、欠陥/秒を同じ10語windowから集計する。検出欠陥が0件なら `retired`、1件以上なら `active` を維持する。運用規則の退役は対応するPI recordへ反映する。checker passが退役した場合は、担当taxonomyを別のactive passへ再割当するまでregistry検証と次runを停止し、検査観点を黙って消さない。
+
+window未満では状態を変えない。費用だけ、件数だけ、または主観的な有用感で状態を変更せず、workflow runの実測値を使う。

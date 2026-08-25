@@ -1,0 +1,128 @@
+{
+  "schema_version": "instruction_budget_measurement_v1",
+  "record_id": "process-refactor-v1",
+  "measured_at": "2026-08-25",
+  "method": "各構成で1語の処理に必読となる指示ファイルをbytesで合計し、v6は実行境界ごとのbundleも同じファイル実体から計測する。",
+  "before": {
+    "files": [
+      "backups/2026-08-25-process-refactor/AGENTS.md",
+      "backups/2026-08-25-process-refactor/prompts/entry_spec_v5.md",
+      "backups/2026-08-25-process-refactor/prompts/check_spec_v5.md",
+      "backups/2026-08-25-process-refactor/prompts/final_review_spec_v1.md"
+    ],
+    "required_instruction_bytes_per_word": 167869,
+    "max_instruction_bytes_in_one_execution": 167869
+  },
+  "after": {
+    "files": [
+      "AGENTS.md",
+      "prompts/entry_spec_v5.md",
+      "process_improvement/ACTIVE.md",
+      "prompts/check_router_v6.md",
+      "prompts/check_pass_evidence_v6.md",
+      "prompts/check_pass_frame_relation_v6.md",
+      "prompts/check_pass_pronunciation_v6.md",
+      "prompts/check_pass_qualification_v6.md",
+      "prompts/check_pass_sense_structure_v6.md",
+      "prompts/check_pass_translation_v6.md",
+      "prompts/cold_review_prompt_v1.md",
+      "prompts/final_blind_prompt_v2.md",
+      "prompts/final_review_spec_v2.md"
+    ],
+    "required_instruction_bytes_per_word": 81791,
+    "max_instruction_bytes_in_one_execution": 52602,
+    "execution_bundles": [
+      {
+        "execution": "coordinator_router",
+        "files": [
+          "AGENTS.md"
+        ],
+        "instruction_bytes": 3260
+      },
+      {
+        "execution": "generation",
+        "files": [
+          "prompts/entry_spec_v5.md",
+          "process_improvement/ACTIVE.md"
+        ],
+        "instruction_bytes": 52602
+      },
+      {
+        "execution": "checker_router",
+        "files": [
+          "prompts/check_router_v6.md"
+        ],
+        "instruction_bytes": 4121
+      },
+      {
+        "execution": "check_pass:check_pass_evidence_v6",
+        "files": [
+          "prompts/check_pass_evidence_v6.md"
+        ],
+        "instruction_bytes": 2687
+      },
+      {
+        "execution": "check_pass:check_pass_frame_relation_v6",
+        "files": [
+          "prompts/check_pass_frame_relation_v6.md"
+        ],
+        "instruction_bytes": 2778
+      },
+      {
+        "execution": "check_pass:check_pass_pronunciation_v6",
+        "files": [
+          "prompts/check_pass_pronunciation_v6.md"
+        ],
+        "instruction_bytes": 1815
+      },
+      {
+        "execution": "check_pass:check_pass_qualification_v6",
+        "files": [
+          "prompts/check_pass_qualification_v6.md"
+        ],
+        "instruction_bytes": 2876
+      },
+      {
+        "execution": "check_pass:check_pass_sense_structure_v6",
+        "files": [
+          "prompts/check_pass_sense_structure_v6.md"
+        ],
+        "instruction_bytes": 3031
+      },
+      {
+        "execution": "check_pass:check_pass_translation_v6",
+        "files": [
+          "prompts/check_pass_translation_v6.md"
+        ],
+        "instruction_bytes": 2402
+      },
+      {
+        "execution": "cold_review",
+        "files": [
+          "prompts/cold_review_prompt_v1.md"
+        ],
+        "instruction_bytes": 1419
+      },
+      {
+        "execution": "final_blind",
+        "files": [
+          "prompts/final_blind_prompt_v2.md"
+        ],
+        "instruction_bytes": 1735
+      },
+      {
+        "execution": "final_review",
+        "files": [
+          "prompts/final_review_spec_v2.md"
+        ],
+        "instruction_bytes": 3065
+      }
+    ]
+  },
+  "effect": {
+    "bytes_reduced_per_word": 86078,
+    "percent_reduced_per_word": 51.28,
+    "max_execution_bytes_reduced": 115267,
+    "max_execution_percent_reduced": 68.66
+  }
+}

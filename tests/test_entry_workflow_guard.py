@@ -62,6 +62,17 @@ class EntryWorkflowGuardTests(unittest.TestCase):
         self.assertEqual(value["stage"], "preflight")
         self.assertEqual(validate_manifest(value), [])
 
+    def test_run_word_v2_manifest_requires_cost_metrics(self) -> None:
+        value = manifest()
+        value["orchestrator"] = {
+            "orchestrator_version": "run_word_v2",
+            "stages": [],
+            "checker_passes": [],
+        }
+        self.assertTrue(
+            any("requires metrics" in error for error in validate_manifest(value))
+        )
+
     def test_extended_profile_requires_reason(self) -> None:
         with self.assertRaisesRegex(ValueError, "requires profile_reason"):
             new_manifest(

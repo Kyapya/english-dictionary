@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import datetime as dt
 import json
 import re
 import sys
@@ -13,6 +14,7 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 IMPROVEMENT_DIR = REPO_ROOT / "process_improvement"
 RECORDS_DIR = IMPROVEMENT_DIR / "records"
 ACTIVE_PATH = IMPROVEMENT_DIR / "ACTIVE.md"
+RETIREMENT_PATH = IMPROVEMENT_DIR / "retirement_state.json"
 
 SCHEMA_VERSION = "project_process_improvement_v1"
 ID_PATTERN = re.compile(r"PI-[0-9]{4}")
@@ -41,6 +43,8 @@ ENFORCEMENT_MODES = {
 MAX_RECORD_BYTES = 16_384
 MAX_PLAYBOOK_BYTES = 12_288
 MAX_PLAYBOOK_RECORDS = 20
+RETIREMENT_SCHEMA_VERSION = "process_retirement_v1"
+DEFAULT_RETIREMENT_INTERVAL_WORDS = 10
 
 REQUIRED_KEYS = {
     "schema_version",
@@ -390,7 +394,249 @@ def validate_registry(repo_root: Path = REPO_ROOT) -> list[str]:
             "process_improvement/ACTIVE.md is stale; run "
             "python scripts/process_improvement.py render"
         )
+    errors.extend(validate_retirement_state(repo_root))
     return errors
+
+
+def _active_retirement_units(repo_root: Path) -> dict[str, dict[str, str]]:
+    records, errors = _load_records(repo_root)
+    if errors:
+        raise ValueError("; ".join(errors))
+    units: dict[str, dict[str, str]] = {}
+    for record in records:
+        if record.get("status") == "active":
+            unit_id = f"rule:{record['id']}"
+            units[unit_id] = {
+                "id": unit_id,
+                "kind": "operating_rule",
+                "source": f"process_improvement/records/{record['id']}.json",
+            }
+    import check_passes
+
+    router = check_passes.load_router(repo_root / "prompts" / "check_router_v6.md")
+    for item in router.get("passes", []):
+        unit_id = f"check_pass:{item['id']}"
+        units[unit_id] = {
+            "id": unit_id,
+            "kind": "checker_pass",
+            "source": str(item["specification"]),
+        }
+    return units
+
+
+def initial_retirement_state(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
+    units = _active_retirement_units(repo_root)
+    return {
+        "schema_version": RETIREMENT_SCHEMA_VERSION,
+        "review_interval_words": DEFAULT_RETIREMENT_INTERVAL_WORDS,
+        "completed_words_seen": 0,
+        "units": [
+            {
+                **units[unit_id],
+                "status": "active",
+                "last_reviewed_completed_words": 0,
+                "last_window": None,
+            }
+            for unit_id in sorted(units)
+        ],
+    }
+
+
+def _load_retirement_state(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
+    path = repo_root / "process_improvement" / "retirement_state.json"
+    try:
+        value = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError) as exc:
+        raise ValueError(f"cannot read retirement state: {exc}") from exc
+    if not isinstance(value, dict):
+        raise ValueError("retirement state must be a JSON object")
+    return value
+
+
+def validate_retirement_state(repo_root: Path = REPO_ROOT) -> list[str]:
+    path = repo_root / "process_improvement" / "retirement_state.json"
+    if not path.is_file():
+        return ["process_improvement/retirement_state.json is required"]
+    try:
+        state = _load_retirement_state(repo_root)
+        active_units = _active_retirement_units(repo_root)
+    except ValueError as exc:
+        return [str(exc)]
+    errors: list[str] = []
+    if state.get("schema_version") != RETIREMENT_SCHEMA_VERSION:
+        errors.append(f"retirement schema_version must be {RETIREMENT_SCHEMA_VERSION}")
+    if state.get("review_interval_words") != DEFAULT_RETIREMENT_INTERVAL_WORDS:
+        errors.append(
+            f"retirement review_interval_words must be {DEFAULT_RETIREMENT_INTERVAL_WORDS}"
+        )
+    seen = state.get("completed_words_seen")
+    if not isinstance(seen, int) or isinstance(seen, bool) or seen < 0:
+        errors.append("retirement completed_words_seen must be non-negative")
+    rows = state.get("units")
+    if not isinstance(rows, list):
+        return [*errors, "retirement units must be a list"]
+    indexed: dict[str, dict[str, Any]] = {}
+    for index, row in enumerate(rows):
+        if not isinstance(row, dict) or not _nonempty_string(row.get("id")):
+            errors.append(f"retirement units[{index}].id is required")
+            continue
+        unit_id = str(row["id"])
+        if unit_id in indexed:
+            errors.append(f"retirement units contains duplicate id {unit_id}")
+            continue
+        indexed[unit_id] = row
+        if row.get("kind") not in {"operating_rule", "checker_pass"}:
+            errors.append(f"retirement unit {unit_id}.kind is invalid")
+        if row.get("status") not in {"active", "retired"}:
+            errors.append(f"retirement unit {unit_id}.status is invalid")
+        if not _nonempty_string(row.get("source")):
+            errors.append(f"retirement unit {unit_id}.source is required")
+        last = row.get("last_reviewed_completed_words")
+        if not isinstance(last, int) or isinstance(last, bool) or last < 0:
+            errors.append(
+                f"retirement unit {unit_id}.last_reviewed_completed_words is invalid"
+            )
+    for unit_id, definition in active_units.items():
+        row = indexed.get(unit_id)
+        if row is None:
+            errors.append(f"retirement state is missing active unit {unit_id}")
+        elif row.get("source") != definition["source"]:
+            errors.append(f"retirement unit {unit_id}.source is stale")
+        elif row.get("status") == "retired" and row.get("kind") == "checker_pass":
+            errors.append(
+                f"retired checker pass {unit_id} remains in the active router; "
+                "reassign its taxonomy before the next run"
+            )
+    for unit_id, row in indexed.items():
+        if (
+            row.get("kind") == "operating_rule"
+            and row.get("status") == "active"
+            and unit_id not in active_units
+        ):
+            errors.append(
+                f"retirement unit {unit_id} is active but its PI record is not active"
+            )
+    return errors
+
+
+def _completed_metric_runs(repo_root: Path) -> list[dict[str, Any]]:
+    runs_root = repo_root / "audits" / "workflow_runs"
+    latest_by_entry: dict[str, dict[str, Any]] = {}
+    if not runs_root.is_dir():
+        return []
+    for path in sorted(runs_root.glob("*/*.json")):
+        try:
+            manifest = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if (
+            not isinstance(manifest, dict)
+            or manifest.get("status") != "completed"
+            or not isinstance(manifest.get("metrics"), dict)
+            or manifest["metrics"].get("schema_version") != "workflow_cost_v1"
+        ):
+            continue
+        entry = str(manifest.get("entry_path", ""))
+        completed_at = str(manifest["metrics"].get("completed_at", ""))
+        current = latest_by_entry.get(entry)
+        if current is None or completed_at > str(
+            current.get("metrics", {}).get("completed_at", "")
+        ):
+            latest_by_entry[entry] = manifest
+    return sorted(
+        latest_by_entry.values(),
+        key=lambda item: str(item.get("metrics", {}).get("completed_at", "")),
+    )
+
+
+def _unit_cost(run: dict[str, Any], unit: dict[str, Any]) -> tuple[int, int, float]:
+    metrics = run.get("metrics", {})
+    collection = (
+        "checker_passes" if unit.get("kind") == "checker_pass" else "process_rules"
+    )
+    raw_id = str(unit["id"]).split(":", 1)[1]
+    for row in metrics.get(collection, []):
+        if isinstance(row, dict) and row.get("id") == raw_id and row.get("completed") is True:
+            cost_bytes = int(row.get("instruction_bytes", 0)) + int(
+                row.get("input_bytes", 0)
+            )
+            return (
+                int(row.get("defects_detected", 0)),
+                cost_bytes,
+                float(row.get("duration_seconds", 0.0)),
+            )
+    return 0, 0, 0.0
+
+
+def _retire_rule_record(unit_id: str, repo_root: Path, reviewed_runs: int) -> None:
+    record_id = unit_id.split(":", 1)[1]
+    path = repo_root / "process_improvement" / "records" / f"{record_id}.json"
+    record = json.loads(path.read_text(encoding="utf-8"))
+    record["status"] = "retired"
+    validation = record["validation"]
+    validation["observed_runs"] = min(
+        int(validation["window_runs"]), max(int(validation["observed_runs"]), reviewed_runs)
+    )
+    validation["result"] = "fail"
+    validation["notes"] = (
+        f"10語ROI退役審査で検出欠陥0件。{reviewed_runs}語のwindow後に退役。"
+    )
+    record["updated_at"] = dt.date.today().isoformat()
+    path.write_text(
+        json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+
+
+def retirement_review(
+    repo_root: Path = REPO_ROOT, *, reviewed_at: str | None = None
+) -> list[dict[str, Any]]:
+    state = _load_retirement_state(repo_root)
+    interval = int(state["review_interval_words"])
+    runs = _completed_metric_runs(repo_root)
+    total = len(runs)
+    results: list[dict[str, Any]] = []
+    for unit in state["units"]:
+        if not isinstance(unit, dict) or unit.get("status") != "active":
+            continue
+        last = int(unit.get("last_reviewed_completed_words", 0))
+        while total - last >= interval and unit.get("status") == "active":
+            window = runs[last : last + interval]
+            costs = [_unit_cost(run, unit) for run in window]
+            defects = sum(item[0] for item in costs)
+            cost_bytes = sum(item[1] for item in costs)
+            duration = sum(item[2] for item in costs)
+            decision = "retain" if defects > 0 else "retire"
+            last += interval
+            window_result = {
+                "from_completed_word": last - interval + 1,
+                "to_completed_word": last,
+                "defects_detected": defects,
+                "cost_bytes": cost_bytes,
+                "duration_seconds": duration,
+                "defects_per_kib": round(defects / (cost_bytes / 1024), 8)
+                if cost_bytes
+                else 0.0,
+                "defects_per_second": round(defects / duration, 8)
+                if duration
+                else 0.0,
+                "decision": decision,
+                "reviewed_at": reviewed_at
+                or dt.datetime.now().astimezone().isoformat(timespec="seconds"),
+            }
+            unit["last_window"] = window_result
+            unit["last_reviewed_completed_words"] = last
+            if decision == "retire":
+                unit["status"] = "retired"
+                if unit.get("kind") == "operating_rule":
+                    _retire_rule_record(str(unit["id"]), repo_root, interval)
+            results.append({"id": unit["id"], **window_result})
+    state["completed_words_seen"] = total
+    path = repo_root / "process_improvement" / "retirement_state.json"
+    path.write_text(
+        json.dumps(state, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    _render(repo_root)
+    return results
 
 
 def _render(repo_root: Path) -> None:
@@ -427,7 +673,9 @@ def _summary(repo_root: Path) -> None:
 
 def main() -> int:
     parser = argparse.ArgumentParser(description="Manage cross-entry project improvement knowledge")
-    parser.add_argument("command", choices=("validate", "render", "summary"))
+    parser.add_argument(
+        "command", choices=("validate", "render", "summary", "retirement-review")
+    )
     args = parser.parse_args()
     try:
         if args.command == "validate":
@@ -441,8 +689,16 @@ def main() -> int:
         elif args.command == "render":
             _render(REPO_ROOT)
             print(f"Rendered {ACTIVE_PATH.relative_to(REPO_ROOT)}")
-        else:
+        elif args.command == "summary":
             _summary(REPO_ROOT)
+        else:
+            results = retirement_review(REPO_ROOT)
+            if not results:
+                print(
+                    f"Retirement review pending until each {DEFAULT_RETIREMENT_INTERVAL_WORDS}-word window closes."
+                )
+            else:
+                print(json.dumps(results, ensure_ascii=False, indent=2))
     except ValueError as exc:
         print(str(exc), file=sys.stderr)
         return 1
