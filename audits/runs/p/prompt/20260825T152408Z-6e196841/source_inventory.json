@@ -1,0 +1,505 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "normal-prompt-20260825T154000Z",
+  "context_id": "normal-prompt-context-20260825T154000Z",
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-25T15:33:40Z",
+  "evidence_link_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005",
+    "EVID-006"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "extended",
+    "profile_reason": "prompt spans adjective, adverb, verb, stage-cue, computing, and AI uses",
+    "limits": {
+      "max_sources": 8,
+      "max_facts": 80,
+      "max_research_rounds": 3,
+      "max_post_cold_rechecks": 2,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 20,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-25T15:33:20Z",
+    "article_comparison_started_at": "2026-08-25T15:33:35Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-016",
+          "F-017"
+        ],
+        "notes": "Independent general dictionaries cover the main adjective, verb, cue, task, computer, and AI senses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-009",
+          "F-010",
+          "F-011",
+          "F-012"
+        ],
+        "notes": "Adjective, transitive verb, theatre, and computing frames are directly attested."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-020"
+        ],
+        "notes": "The related adverb promptly is recorded in the word-family material."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-006",
+          "F-007",
+          "F-010",
+          "F-013",
+          "F-014"
+        ],
+        "notes": "Computing and AI uses are specialist extensions represented in the entry; no separate legal sense is claimed."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-008",
+          "F-016"
+        ],
+        "notes": "General sources support ordinary frequency and the distinction between rapid response and punctuality."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-015",
+          "F-018",
+          "F-019"
+        ],
+        "notes": "Oxford supplies pronunciation and Etymonline supplies the historical derivation."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "locator": "https://www.merriam-webster.com/dictionary/prompt",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "prompt",
+            "kind": "adjective_sense",
+            "statement": "Prompt can describe an action or response that is done without delay.",
+            "source_detail": "Merriam-Webster adjective definitions and examples for ready or quick action."
+          },
+          {
+            "id": "F-002",
+            "form": "prompt",
+            "kind": "adjective_sense",
+            "statement": "Prompt can describe a person who is ready and quick to act.",
+            "source_detail": "Merriam-Webster adjective entry for a person acting readily."
+          },
+          {
+            "id": "F-003",
+            "form": "prompt",
+            "kind": "verb_sense",
+            "statement": "Prompt can mean to move someone to act or cause a response or event.",
+            "source_detail": "Merriam-Webster verb definitions for inciting action and causing a result."
+          },
+          {
+            "id": "F-004",
+            "form": "prompt",
+            "kind": "noun_sense",
+            "statement": "A prompt can be a reminder or cue that helps a performer speak or act.",
+            "source_detail": "Merriam-Webster noun definitions for a reminder, cue, or assistance to an actor."
+          },
+          {
+            "id": "F-005",
+            "form": "prompt",
+            "kind": "noun_sense",
+            "statement": "A prompt can be a question or stimulus that elicits a creative response.",
+            "source_detail": "Merriam-Webster noun definition for a stimulus to a creative act."
+          },
+          {
+            "id": "F-006",
+            "form": "prompt",
+            "kind": "computing_sense",
+            "statement": "In computing, a prompt is a displayed symbol or message indicating that input is expected.",
+            "source_detail": "Merriam-Webster computing noun definition for an input prompt."
+          },
+          {
+            "id": "F-007",
+            "form": "prompt",
+            "kind": "ai_sense",
+            "statement": "In current AI usage, a prompt is an instruction or input given to a system to produce an output.",
+            "source_detail": "Merriam-Webster entry includes the contemporary AI instruction sense."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/prompt_1",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford-learners-dictionaries",
+        "facts": [
+          {
+            "id": "F-008",
+            "form": "prompt",
+            "kind": "adjective_sense",
+            "statement": "Prompt as an adjective means done without delay.",
+            "source_detail": "Oxford Learner's Dictionaries adjective entry."
+          },
+          {
+            "id": "F-009",
+            "form": "prompt somebody to do something",
+            "kind": "frame",
+            "statement": "The verb prompt somebody to do something means to cause or encourage that action.",
+            "source_detail": "Oxford Learner's Dictionaries verb patterns and examples."
+          },
+          {
+            "id": "F-010",
+            "form": "prompt a user to enter data",
+            "kind": "computing_frame",
+            "statement": "A program can prompt a user to enter data.",
+            "source_detail": "Oxford Learner's Dictionaries computing verb example and pattern."
+          },
+          {
+            "id": "F-011",
+            "form": "prompt somebody",
+            "kind": "theatre_frame",
+            "statement": "In theatre, to prompt somebody is to help an actor remember a forgotten line.",
+            "source_detail": "Oxford Learner's Dictionaries verb entry for prompting an actor."
+          },
+          {
+            "id": "F-012",
+            "form": "prompt",
+            "kind": "noun_sense",
+            "statement": "A prompt can be a cue given to an actor.",
+            "source_detail": "Oxford Learner's Dictionaries noun entry for a theatre cue."
+          },
+          {
+            "id": "F-013",
+            "form": "prompt",
+            "kind": "computing_sense",
+            "statement": "A computer prompt is a sign showing that the system is ready for instructions.",
+            "source_detail": "Oxford Learner's Dictionaries noun entry for the computer prompt."
+          },
+          {
+            "id": "F-014",
+            "form": "prompt",
+            "kind": "ai_sense",
+            "statement": "An AI prompt is an instruction given to an AI system.",
+            "source_detail": "Oxford Learner's Dictionaries noun entry for AI instructions."
+          },
+          {
+            "id": "F-015",
+            "form": "prompt",
+            "kind": "pronunciation",
+            "statement": "Prompt is pronounced as a one-syllable word with UK /prɒmpt/ and US /prɑːmpt/.",
+            "source_detail": "Oxford Learner's Dictionaries pronunciation information for prompt."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/prompt",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge-university-press",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "prompt",
+            "kind": "adjective_sense",
+            "statement": "Prompt can mean quick to act or on time in ordinary usage.",
+            "source_detail": "Cambridge Dictionary prompt entry and examples for quick response or punctuality."
+          },
+          {
+            "id": "F-017",
+            "form": "prompt",
+            "kind": "verb_sense",
+            "statement": "Prompt can cause a reaction, decision, or discussion.",
+            "source_detail": "Cambridge Dictionary verb definitions and examples."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "locator": "https://www.etymonline.com/word/prompt",
+        "source_type": "etymological_dictionary",
+        "source_role": "etymology",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-018",
+            "form": "prompt",
+            "kind": "etymology",
+            "statement": "Prompt comes through Middle English and Old French from Latin promptus, ready or brought forth.",
+            "source_detail": "Etymonline prompt etymology entry."
+          },
+          {
+            "id": "F-019",
+            "form": "promere",
+            "kind": "etymology",
+            "statement": "Latin promptus is related to promere, to bring forth or draw out, built from pro and emere.",
+            "source_detail": "Etymonline explanation of the Latin source and components."
+          },
+          {
+            "id": "F-020",
+            "form": "promptly",
+            "kind": "derived_form",
+            "statement": "Promptly is the regular adverb related to prompt.",
+            "source_detail": "Etymonline related-word history and the entry's modern derivative family."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007"
+        ],
+        "canonical_statement": "General dictionary evidence covers prompt as adjective, verb, cue, writing task, computing display, and AI instruction.",
+        "disposition": "included",
+        "rationale": "The corresponding source claims are represented in the prompt entry and checked against the current body."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-008",
+          "F-009",
+          "F-010",
+          "F-011",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-015"
+        ],
+        "canonical_statement": "Oxford evidence covers prompt adjective timing, verb frames, theatre cue, computer prompt, AI prompt, and pronunciation.",
+        "disposition": "included",
+        "rationale": "The corresponding source claims are represented in the prompt entry and checked against the current body."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-016",
+          "F-017"
+        ],
+        "canonical_statement": "Cambridge evidence independently supports quick or punctual adjective use and the verb sense of causing a reaction.",
+        "disposition": "included",
+        "rationale": "The corresponding source claims are represented in the prompt entry and checked against the current body."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-018",
+          "F-019",
+          "F-020"
+        ],
+        "canonical_statement": "Etymological evidence connects prompt with Latin promptus and the idea of bringing something forth.",
+        "disposition": "included",
+        "rationale": "The corresponding source claims are represented in the prompt entry and checked against the current body."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "CL-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "prompt",
+        "claim_type": "lexical_and_usage",
+        "statement": "General dictionary evidence covers prompt as adjective, verb, cue, writing task, computing display, and AI instruction.",
+        "article_target_ids": [
+          "definition:001",
+          "definition:002",
+          "definition:004",
+          "definition:006",
+          "definition:007",
+          "definition:008",
+          "definition:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Merriam-Webster adjective definitions and examples for ready or quick action. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Merriam-Webster adjective entry for a person acting readily. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Merriam-Webster verb definitions for inciting action and causing a result. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Merriam-Webster noun definitions for a reminder, cue, or assistance to an actor. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Merriam-Webster noun definition for a stimulus to a creative act. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster computing noun definition for an input prompt. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster entry includes the contemporary AI instruction sense. Directly supports the corresponding claim in this inventory."
+          }
+        ]
+      },
+      {
+        "id": "CL-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "prompt",
+        "claim_type": "lexical_and_usage",
+        "statement": "Oxford evidence covers prompt adjective timing, verb frames, theatre cue, computer prompt, AI prompt, and pronunciation.",
+        "article_target_ids": [
+          "definition:001",
+          "definition:004",
+          "definition:005",
+          "definition:006",
+          "definition:008",
+          "definition:009",
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Oxford Learner's Dictionaries adjective entry. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Oxford Learner's Dictionaries verb patterns and examples. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Oxford Learner's Dictionaries computing verb example and pattern. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Oxford Learner's Dictionaries verb entry for prompting an actor. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Oxford Learner's Dictionaries noun entry for a theatre cue. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Oxford Learner's Dictionaries noun entry for the computer prompt. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Oxford Learner's Dictionaries noun entry for AI instructions. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Oxford Learner's Dictionaries pronunciation information for prompt. Directly supports the corresponding claim in this inventory."
+          }
+        ]
+      },
+      {
+        "id": "CL-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "prompt",
+        "claim_type": "lexical_and_usage",
+        "statement": "Cambridge evidence independently supports quick or punctual adjective use and the verb sense of causing a reaction.",
+        "article_target_ids": [
+          "definition:001",
+          "definition:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Cambridge Dictionary prompt entry and examples for quick response or punctuality. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Cambridge Dictionary verb definitions and examples. Directly supports the corresponding claim in this inventory."
+          }
+        ]
+      },
+      {
+        "id": "CL-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "prompt",
+        "claim_type": "lexical_and_usage",
+        "statement": "Etymological evidence connects prompt with Latin promptus and the idea of bringing something forth.",
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Etymonline prompt etymology entry. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Etymonline explanation of the Latin source and components. Directly supports the corresponding claim in this inventory."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Etymonline related-word history and the entry's modern derivative family. Directly supports the corresponding claim in this inventory."
+          }
+        ]
+      }
+    ]
+  }
+}
+

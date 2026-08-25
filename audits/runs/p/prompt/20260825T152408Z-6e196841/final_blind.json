@@ -1,0 +1,67 @@
+{
+  "stage": "final_blind",
+  "schema_version": "final_blind_v2",
+  "run_id": "blind-prompt-20260825T155500Z",
+  "context_id": "blind-prompt-context-20260825T155500Z",
+  "audit_visible": false,
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+  "recorded_at": "2026-08-25T15:34:23Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "prompt",
+      "frame": "prompt action/reply; be prompt; at eight prompt",
+      "meaning": "迅速な、素早く応じる、時間どおりに",
+      "disposition": "included",
+      "rationale": "Independent inventory confirms this is a material modern use that the entry explicitly covers.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The adjective core concerns absence of delay, and the limited adverbial use is explicitly qualified rather than presented as unrestricted standard English.",
+          "polarity": "must_hold",
+          "scope": "語義1-3"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "prompt someone",
+      "frame": "prompt someone to do; prompt a reaction; prompt someone with a cue",
+      "meaning": "促す、せりふを促す",
+      "disposition": "included",
+      "rationale": "Independent inventory confirms this is a material modern use that the entry explicitly covers.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The causative verb and theatre prompting use share a form but are separated by context and by their distinct object or cue patterns.",
+          "polarity": "must_hold",
+          "scope": "語義4-5"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "a prompt",
+      "frame": "give someone a prompt; writing prompt; command prompt; AI prompt",
+      "meaning": "合図、課題、入力表示、AI指示文",
+      "disposition": "included",
+      "rationale": "Independent inventory confirms this is a material modern use that the entry explicitly covers.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "The noun domains progress from stage cue to writing task, computer input display, and AI instruction without collapsing them into one undifferentiated definition.",
+          "polarity": "must_hold",
+          "scope": "語義6-9"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
+

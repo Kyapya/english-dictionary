@@ -1,0 +1,66 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-prompt-20260825T154000Z",
+  "context_id": "normal-prompt-context-20260825T154000Z",
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "prompt_sha256": "ac3ff5f01696a7d52faedfc78b7ef641baa7345270d5c85a540153d14abff656",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-25T15:33:45Z",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "prompt",
+      "frame": "prompt action/reply; be prompt",
+      "meaning": "迅速な、時間どおりの",
+      "disposition": "included",
+      "rationale": "The adjective and limited adverb uses are central and explicitly qualified."
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "prompt someone to do something",
+      "frame": "prompt someone to do; prompt a reaction",
+      "meaning": "促す、引き起こす",
+      "disposition": "included",
+      "rationale": "The causative verb use is frequent and has a distinct frame."
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "a prompt; an AI prompt",
+      "frame": "give someone a prompt; give an AI a prompt",
+      "meaning": "合図、課題、入力指示",
+      "disposition": "included",
+      "rationale": "The noun sense spans theatre, writing, computing, and AI and is separated by domain."
+    }
+  ]
+}
+

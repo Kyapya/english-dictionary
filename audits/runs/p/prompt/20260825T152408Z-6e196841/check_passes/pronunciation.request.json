@@ -1,0 +1,48 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "27019fe11b0b490f0e61ea7eac02f1546056665d1c07f03f9328ccc04a71c0af",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /prɑːmpt/｜英: /prɒmpt/。1音節で、米語では /ɑː/、英語では /ɒ/ を発音する。語頭に /pr/、語末に /mpt/ という子音連続があり、/m/ と /p/ の間や /p/ と /t/ の間に母音を入れない。  "
+      },
+      {
+        "line": 16,
+        "text": "形容詞・動詞・名詞のいずれでも同じ1音節に強勢がある。三人称単数 prompts は米 /prɑːmpts/・英 /prɒmpts/ で語末に /ts/ が続く。過去形・過去分詞 prompted は米 /ˈprɑːmptɪd/・英 /ˈprɒmptɪd/、-ing形 prompting は米 /ˈprɑːmptɪŋ/・英 /ˈprɒmptɪŋ/ である。基語が /t/ で終わるため、-ed は /d/ ではなく /ɪd/ と発音する。  "
+      },
+      {
+        "line": 17,
+        "text": "派生語 promptly は米 /ˈprɑːmptli/・英 /ˈprɒmptli/、promptness は米 /ˈprɑːmptnəs/・英 /ˈprɒmptnəs/。promptly の /tli/、promptness の /tnəs/ でも、prompt の末尾の /t/ を落とさない。ただし速い会話では子音連続の一部が弱く聞こえることがある。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
+
