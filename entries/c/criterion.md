@@ -1,7 +1,7 @@
 ---  
 headword: criterion  
 type: word  
-status: draft  
+status: review_ready  
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
 created_at: 2026-08-25  
@@ -12,19 +12,18 @@ tags: []
 
 ＃発音記号
 
-米: /kraɪˈtɪriən/｜英: /kraɪˈtɪəriən/。4音節で、第2音節に主強勢がある。米では主強勢を担う部分が /ˈtɪr/、英では /ˈtɪə/ となる。語頭は cry と同じ /kraɪ/ で、語末は /iən/ と続くため、英語では「クライ・ティア・リアン」に近い音の流れになる。  
+米: /kraɪˈtɪriən/｜英: /kraɪˈtɪəriən/。4音節で、第2音節に主強勢がある。米では主強勢を担う部分が /ˈtɪr/、英では /ˈtɪə/ となる。語頭は cry と同じ /kraɪ/ で、語末は /iən/ と続く。米語は「クライ・ティリ・アン」、英語は「クライ・ティア・リアン」に近い音の流れになる。  
 複数形 criteria は米 /kraɪˈtɪriə/・英 /kraɪˈtɪəriə/。criterions は通常の -s 複数で、おおむね /kraɪˈtɪriənz/ と発音する。criterion は第1音節に主強勢を置かず、criteria を「クライテリアン」のように発音しない。  
 
 ＃語源
 
 ギリシャ語 kritērion「判断のための手段、基準」からラテン語形を経て英語に入った。kritērion は kritēs「判断する人、裁判官」、さらに krinein「判断する、決める」にさかのぼる。英語では17世紀初頭から使われ、Merriam-Webster は現在の第1義での初出を1622年としている。  
-同じ語根の語として、critic「批評家、批評する人」、critical「批評の、重大な」や crisis「危機、重大な転機」がある。いずれも「判断・決定・区別」に関わるギリシャ語の語族に属するが、criterion の意味をそのまま予測できる同義語ではない。  
+同じ「判断・区別」に関わるギリシャ語の語根に連なる語として、critic「批評家、批評する人」、critical「批評の、重大な」、crisis「危機、重大な転機」などがある。ただし、これらは criterion の直接の派生語や同義語ではなく、語源上のつながりを示す関連語である。  
 
 ＃語形成
 
 ・criteria：criterion の標準的な複数形。ギリシャ語由来の複数形が英語でも定着している。  
 ・criterions：criterion の -s 複数形。文法的には可能だが、criteria よりかなりまれで、通常は criteria を使う。  
-・criterial：形容詞「基準に関する、基準となる」。学術・専門文書で使われるが、criterion や criteria より頻度が低い。  
 ・criterion-referenced：形容詞「基準準拠の」。教育・評価で、あらかじめ定めた基準に照らして結果を解釈することを表す。criterion はこの複合語の中でも、評価の基準を指す。  
 
 ＃意味・用法・関連表現
@@ -81,7 +80,7 @@ tags: []
 例: Low maintenance cost was one criterion among several.  
 訳: 維持費の低さは、複数ある基準の一つだった。  
 
-【語法・注意】可算名詞なので、単数は a criterion・one criterion、標準的な複数は criteria である。正式な文章では This criterion is important.「この基準は重要だ」、These criteria are important.「これらの基準は重要だ」のように数を一致させる。criteria を単数として a criteria・criteria is とする用法も、特に会話やくだけた文章では広がっているが、学習者が標準的な書き言葉で使う場合は criterion を選ぶ。criterions という -s 複数も存在するが、通常の複数としては criteria が自然である。criterion は standard よりも、特定の判断で使う一つのテスト・要素に焦点があり、standard は権威によって定められた規則・水準や模範まで広く指せる。factor は判断に影響する要素だが、明示的な評価基準とは限らず、condition は満たす必要のある条件に焦点がある。criterion-referenced test の criterion は「テスト」そのものではなく、結果を照らし合わせる基準を指す。  
+【語法・注意】可算名詞なので、単数は a criterion・one criterion、標準的な複数は criteria である。正式な文章では This criterion is important.「この基準は重要だ」、These criteria are important.「これらの基準は重要だ」のように数を一致させる。criteria を単数として criteria is とする用法も現代英語で増えているが、正式な標準用法としては異論が残るため、学習者が標準的な書き言葉で使う場合は criterion を選ぶ。criterions という -s 複数も存在するが、通常の複数としては criteria が自然である。criterion は standard よりも、特定の判断で使う一つのテスト・要素に焦点があり、standard は権威によって定められた規則・水準や模範まで広く指せる。factor は判断に影響する要素だが、明示的な評価基準とは限らず、condition は満たす必要のある条件に焦点がある。criterion-referenced test の criterion は「テスト」そのものではなく、結果を照らし合わせる基準を指す。  
 
 【類義語】
 
