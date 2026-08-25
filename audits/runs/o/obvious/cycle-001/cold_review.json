@@ -1,0 +1,83 @@
+{
+  "stage": "cold_review",
+  "run_id": "cold-obvious-cycle001-20260825",
+  "context_id": "context-free-obvious-cycle001-20260825",
+  "input_body_sha256": "PENDING_BIND_TO_PRE_FIX_BODY",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "summary": "文脈非継承の本文レビューで3件の問題候補を検出した。特許法用法の地域スコープ、批判的語義への中立表現混入、米国特許実務の obvious to try 欠落を後続の通常チェック担当が判定する。",
+  "findings": [
+    {
+      "id": "COLD-01",
+      "location": "語義4・見出し／レジスター／語法・注意",
+      "severity": "medium",
+      "description": "特許法上の obvious を「米国特許」に限定した語義として提示しているため、この法的用法そのものが米国固有であるかのように読める。",
+      "reason": "35 U.S.C. § 103 の本文説明は正確だが、EPC Article 56 と英国 Patents Act 1977 section 3 も obvious を直接用いる。",
+      "suggested_direction": "見出しを「特許法（特に米国）」などへ広げるか、米国限定ならEPC・英国でも obvious が法的判定語だが判断枠組みが異なると明記する。",
+      "scope_anchors": [
+        {
+          "id": "A-01",
+          "exact_quote": "4. 【形容詞・法律（米国特許）】容易に想到できる、非自明性を欠く",
+          "location_hint": "語義4見出し"
+        },
+        {
+          "id": "A-02",
+          "exact_quote": "【レジスター/領域】米国の特許法、特許審査、特許訴訟。日常語の obvious と語彙的な核は共有するが、判断主体、基準時、先行技術、クレーム全体という制度上の枠組みが定められている。",
+          "location_hint": "語義4【レジスター/領域】"
+        },
+        {
+          "id": "A-03",
+          "exact_quote": "米国外では制度・用語が異なり、たとえば欧州特許実務の inventive step と単純に同一語として扱わない。",
+          "location_hint": "語義4【語法・注意】末尾"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "COLD-02",
+      "location": "語義3・文法パターン／コロケーション",
+      "severity": "medium",
+      "description": "「批判的」語義3に、obvious の通常の「容易に認識できる／すぐ目につく」意味でも成立する表現が混在している。",
+      "reason": "語義3は「面白み・新しさ・想像力・繊細さに欠ける」という否定評価として定義されている。一方 an obvious reference は単に「明白に分かる参照・元ネタ」という中立用法が可能で、本文自身も中立まであると認めている。look beyond the obvious も「すぐ目につくもの」という名詞的用法で、必ずしも「工夫のないもの」を意味しない。このままだと学習者が obvious reference 自体に否定評価が内在すると一般化する恐れがある。",
+      "suggested_direction": "be too obvious、obvious ending、state the obvious など否定評価が明確なものを語義3に残す。an obvious reference と look beyond the obvious は語義1〜2または関連表現へ移すか、語義横断表現と明示する。",
+      "scope_anchors": [
+        {
+          "id": "A-04",
+          "exact_quote": "3. 【形容詞・批判的】見え見えの、安直な、工夫のない、繊細さに欠ける",
+          "location_hint": "語義3見出し"
+        },
+        {
+          "id": "A-05",
+          "exact_quote": "・an obvious reference",
+          "location_hint": "語義3【コロケーション】"
+        },
+        {
+          "id": "A-06",
+          "exact_quote": "用途: 元ネタや意図が露骨に分かる言及・引用を表す。評価は文脈によって軽い批判から中立まである。",
+          "location_hint": "語義3 an obvious reference の用途説明"
+        },
+        {
+          "id": "A-07",
+          "exact_quote": "・look beyond the obvious",
+          "location_hint": "語義3【コロケーション】"
+        }
+      ],
+      "evidence_link_ids": []
+    },
+    {
+      "id": "COLD-03",
+      "location": "語義4・専門表現の網羅",
+      "severity": "low",
+      "description": "米国特許法用法を詳しく扱う一方、重要表現 obvious to try が未収録。",
+      "reason": "USPTO MPEP は obvious-to-try rationale を解説し、有限個の既知で予測可能な選択肢等の条件で § 103 obviousness を支え得るが、試すのが明白なだけで常に obvious ではない。",
+      "suggested_direction": "obvious to try を関連表現または語法・注意へ追加し、自動的に § 103 obvious ではなく一定条件で根拠になり得ると説明する。",
+      "scope_anchors": [
+        {
+          "id": "A-08",
+          "exact_quote": "【文法パターン】a claimed invention + would have been obvious to a person having ordinary skill in the art＝クレームされた発明が当業者にとって容易に想到できた／a claim・invention + be obvious in view of 〈prior art・reference〉＝先行技術・文献に照らして容易想到である／a claim + be obvious under 35 U.S.C. § 103＝米国特許法103条上の非自明性を欠く／〈reference・combination〉 + render a claim obvious＝文献・組合せによってクレームが容易想到と判断される根拠になる。",
+          "location_hint": "語義4【文法パターン】"
+        }
+      ],
+      "evidence_link_ids": []
+    }
+  ]
+}
