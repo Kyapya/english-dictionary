@@ -1,0 +1,524 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "normal-distinct-20260825T132100Z",
+  "context_id": "normal-distinct-context-20260825T132100Z",
+  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-25T13:28:00Z",
+  "evidence_link_ids": [
+    "EL-001",
+    "EL-002",
+    "EL-003",
+    "EL-004",
+    "EL-005",
+    "EL-006",
+    "EL-007",
+    "EL-008",
+    "EL-009",
+    "EL-010",
+    "EL-011",
+    "EL-012",
+    "EL-013"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 19,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-25T13:21:00Z",
+    "article_comparison_started_at": "2026-08-25T13:22:00Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": ["F001", "F002", "F003", "F007", "F008", "F009"],
+        "notes": "Three independently published general dictionaries cover separation, perceptual clarity, and noticeable-degree senses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": ["F010", "F011"],
+        "notes": "General dictionaries directly attest adjective use and the distinct from comparison frame."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": ["F005", "F006"],
+        "notes": "The general dictionary word-family material directly records distinctly and distinctness."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": ["F012", "F013", "F016", "F017", "F018", "F019"],
+        "notes": "Mathematical, SQL, and botanical uses are covered by a general dictionary plus primary or specialist references; no separate legal sense was found."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": ["F003", "F009", "F013", "F019"],
+        "notes": "General sources distinguish ordinary senses from domain-marked mathematical and botanical uses; no regional restriction was found."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": ["F004", "F014", "F015"],
+        "notes": "Cambridge supplies current pronunciation and Etymonline supplies the Latin and Middle English history."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S001",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/english/distinct",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge-university-press",
+        "facts": [
+          {
+            "id": "F001",
+            "form": "distinct",
+            "kind": "sense",
+            "statement": "Distinct can mean clearly separate and different from something else.",
+            "source_detail": "Main adjective sense and examples under the separate/different definition."
+          },
+          {
+            "id": "F002",
+            "form": "distinct",
+            "kind": "sense",
+            "statement": "Distinct can mean clearly noticeable or perceptible.",
+            "source_detail": "Adjective sense illustrated with a distinct smell and distinct outline."
+          },
+          {
+            "id": "F003",
+            "form": "distinct",
+            "kind": "sense",
+            "statement": "A distinct possibility is a possibility that is clearly present and worth considering.",
+            "source_detail": "Definition and example for the clearly noticeable degree use."
+          },
+          {
+            "id": "F004",
+            "form": "distinct",
+            "kind": "pronunciation",
+            "statement": "The current UK and US pronunciation is /dɪˈstɪŋkt/.",
+            "source_detail": "UK and US pronunciation panels for the adjective."
+          },
+          {
+            "id": "F005",
+            "form": "distinctly",
+            "kind": "derived_form",
+            "statement": "Distinctly is the adverb derived from distinct.",
+            "source_detail": "Linked word-family form on the distinct entry."
+          },
+          {
+            "id": "F006",
+            "form": "distinctness",
+            "kind": "derived_form",
+            "statement": "Distinctness is the noun derived from distinct.",
+            "source_detail": "Linked word-family form on the distinct entry."
+          }
+        ]
+      },
+      {
+        "id": "S002",
+        "locator": "https://www.merriam-webster.com/dictionary/distinct",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F007",
+            "form": "distinct",
+            "kind": "sense",
+            "statement": "Distinct can describe something distinguishable as not the same or as separate.",
+            "source_detail": "Current adjective definitions for distinguishable and separate identity."
+          },
+          {
+            "id": "F008",
+            "form": "distinct",
+            "kind": "sense",
+            "statement": "Distinct can describe something readily perceptible to the senses or mind.",
+            "source_detail": "Current adjective definition for readily perceptible quality."
+          },
+          {
+            "id": "F009",
+            "form": "distinct",
+            "kind": "sense",
+            "statement": "Distinct can mark a degree or quality that is clearly recognizable.",
+            "source_detail": "Definition cluster and examples for a recognizable advantage, possibility, or impression."
+          },
+          {
+            "id": "F010",
+            "form": "distinct from",
+            "kind": "frame",
+            "statement": "The comparison frame uses distinct from rather than distinct than.",
+            "source_detail": "Usage examples place the compared complement after from."
+          }
+        ]
+      },
+      {
+        "id": "S003",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/distinct",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F011",
+            "form": "distinct from",
+            "kind": "frame",
+            "statement": "Distinct commonly takes from to introduce the comparison standard.",
+            "source_detail": "Grammar pattern and examples for distinct from another thing."
+          },
+          {
+            "id": "F012",
+            "form": "distinct",
+            "kind": "specialist_sense",
+            "statement": "In mathematics, distinct quantities or points are unequal or noncoincident.",
+            "source_detail": "Domain-marked mathematics definition in the adjective entry."
+          },
+          {
+            "id": "F013",
+            "form": "distinct",
+            "kind": "specialist_sense",
+            "statement": "In botany, distinct parts are not joined together and are separate.",
+            "source_detail": "Domain-marked botany definition in the adjective entry."
+          }
+        ]
+      },
+      {
+        "id": "S004",
+        "locator": "https://www.etymonline.com/word/distinct",
+        "source_type": "etymological_dictionary",
+        "source_role": "etymology",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F014",
+            "form": "distinct",
+            "kind": "etymology",
+            "statement": "English distinct is recorded from the late fourteenth century and comes through Latin distinctus.",
+            "source_detail": "Opening chronology and Latin source in the etymology entry."
+          },
+          {
+            "id": "F015",
+            "form": "distinguere",
+            "kind": "etymology",
+            "statement": "Latin distinctus is the past participle of distinguere, meaning to separate or distinguish by marking off.",
+            "source_detail": "Latin morphological derivation and gloss in the etymology entry."
+          }
+        ]
+      },
+      {
+        "id": "S005",
+        "locator": "https://www.postgresql.org/docs/current/sql-select.html",
+        "source_type": "official_documentation",
+        "source_role": "specialist_primary",
+        "independence_group": "postgresql-global-development-group",
+        "facts": [
+          {
+            "id": "F016",
+            "form": "SELECT DISTINCT",
+            "kind": "specialist_sense",
+            "statement": "SELECT DISTINCT eliminates duplicate rows from a SELECT result.",
+            "source_detail": "SELECT processing step and DISTINCT clause description."
+          },
+          {
+            "id": "F017",
+            "form": "DISTINCT",
+            "kind": "constraint",
+            "statement": "Rows are treated as distinct result rows when their selected-column combinations are not duplicates.",
+            "source_detail": "DISTINCT applies to the SELECT output row, so all selected expressions participate."
+          },
+          {
+            "id": "F018",
+            "form": "DISTINCT ON",
+            "kind": "constraint",
+            "statement": "PostgreSQL DISTINCT ON keeps the first row of each equal-expression set, and that row is unpredictable without suitable ORDER BY ordering.",
+            "source_detail": "DISTINCT ON clause documentation and its ORDER BY warning."
+          }
+        ]
+      },
+      {
+        "id": "S006",
+        "locator": "https://plantnet.rbgsyd.nsw.gov.au/cgi-bin/NSWfl.pl?alpha=D-E&glossary=yes&page=nswfl",
+        "source_type": "botanical_glossary",
+        "source_role": "specialist_reference",
+        "independence_group": "royal-botanic-gardens-sydney",
+        "facts": [
+          {
+            "id": "F019",
+            "form": "distinct",
+            "kind": "specialist_sense",
+            "statement": "In botanical description, distinct means separate or free rather than fused.",
+            "source_detail": "Alphabetical botanical glossary entry for distinct."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U001",
+        "source_fact_ids": ["F001", "F007"],
+        "canonical_statement": "Distinct has a general adjective sense of separately identifiable or not the same.",
+        "disposition": "included",
+        "rationale": "This is the entry's first central sense."
+      },
+      {
+        "id": "U002",
+        "source_fact_ids": ["F002", "F008"],
+        "canonical_statement": "Distinct can describe a clearly perceptible sound, shape, feature, or memory.",
+        "disposition": "included",
+        "rationale": "This is the entry's second central sense."
+      },
+      {
+        "id": "U003",
+        "source_fact_ids": ["F003", "F009"],
+        "canonical_statement": "Distinct can mark a possibility, advantage, impression, or tendency as clearly present.",
+        "disposition": "included",
+        "rationale": "This recurrent construction is separated as the third sense."
+      },
+      {
+        "id": "U004",
+        "source_fact_ids": ["F004"],
+        "canonical_statement": "Current UK and US pronunciation is /dɪˈstɪŋkt/.",
+        "disposition": "included",
+        "rationale": "The pronunciation section records this form."
+      },
+      {
+        "id": "U005",
+        "source_fact_ids": ["F005"],
+        "canonical_statement": "Distinctly is an adverb in the distinct word family.",
+        "disposition": "integrated",
+        "rationale": "The form is explained in word formation and pronunciation."
+      },
+      {
+        "id": "U006",
+        "source_fact_ids": ["F006"],
+        "canonical_statement": "Distinctness is a noun in the distinct word family.",
+        "disposition": "integrated",
+        "rationale": "The form is explained in word formation."
+      },
+      {
+        "id": "U007",
+        "source_fact_ids": ["F010", "F011"],
+        "canonical_statement": "The ordinary comparison complement is introduced by from.",
+        "disposition": "included",
+        "rationale": "The first sense and its usage note explicitly teach distinct from."
+      },
+      {
+        "id": "U008",
+        "source_fact_ids": ["F012"],
+        "canonical_statement": "Mathematical distinct expresses unequal or noncoincident objects.",
+        "disposition": "included",
+        "rationale": "The mathematical portion of sense four directly represents it."
+      },
+      {
+        "id": "U009",
+        "source_fact_ids": ["F013", "F019"],
+        "canonical_statement": "Botanical distinct describes comparable organs that are separate or free rather than fused.",
+        "disposition": "included",
+        "rationale": "The specialist meaning is represented as sense five."
+      },
+      {
+        "id": "U010",
+        "source_fact_ids": ["F014", "F015"],
+        "canonical_statement": "Distinct comes from Latin distinctus, the past participle of distinguere, with a separating or distinguishing sense.",
+        "disposition": "included",
+        "rationale": "The etymology section explains both the source form and semantic bridge."
+      },
+      {
+        "id": "U011",
+        "source_fact_ids": ["F016"],
+        "canonical_statement": "SELECT DISTINCT removes duplicate result rows.",
+        "disposition": "included",
+        "rationale": "The SQL portion of sense four teaches the core operation."
+      },
+      {
+        "id": "U012",
+        "source_fact_ids": ["F017"],
+        "canonical_statement": "SQL DISTINCT compares the selected result-row combination rather than independently deduplicating each selected column.",
+        "disposition": "included",
+        "rationale": "The SQL usage note states the multi-column boundary."
+      },
+      {
+        "id": "U013",
+        "source_fact_ids": ["F018"],
+        "canonical_statement": "PostgreSQL DISTINCT ON keeps one row per expression set and needs ordering for a predictable retained row.",
+        "disposition": "included",
+        "rationale": "The usage note distinguishes this extension from ordinary DISTINCT."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "EL-001",
+        "union_ids": ["U001"],
+        "subject_form": "distinct",
+        "claim_type": "sense",
+        "statement": "Distinct marks entities as separately identifiable rather than identical.",
+        "article_target_ids": ["definition:001"],
+        "source_supports": [
+          {"source_fact_id": "F001", "support_summary": "Cambridge directly defines the clearly separate and different sense."},
+          {"source_fact_id": "F007", "support_summary": "Merriam-Webster independently defines distinguishable separate identity."}
+        ]
+      },
+      {
+        "id": "EL-002",
+        "union_ids": ["U002"],
+        "subject_form": "distinct",
+        "claim_type": "sense",
+        "statement": "Distinct marks a sensory or mental feature as clearly perceptible.",
+        "article_target_ids": ["definition:002"],
+        "source_supports": [
+          {"source_fact_id": "F002", "support_summary": "Cambridge directly defines the clearly noticeable perceptual sense."},
+          {"source_fact_id": "F008", "support_summary": "Merriam-Webster independently defines the readily perceptible sense."}
+        ]
+      },
+      {
+        "id": "EL-003",
+        "union_ids": ["U003"],
+        "subject_form": "distinct",
+        "claim_type": "sense",
+        "statement": "Distinct can emphasize that an abstract degree or possibility is clearly present.",
+        "article_target_ids": ["definition:003", "usage_note:003"],
+        "source_supports": [
+          {"source_fact_id": "F003", "support_summary": "Cambridge directly illustrates a distinct possibility as a recognizable possibility."},
+          {"source_fact_id": "F009", "support_summary": "Merriam-Webster independently supports the recognizable-degree use."}
+        ]
+      },
+      {
+        "id": "EL-004",
+        "union_ids": ["U004"],
+        "subject_form": "distinct",
+        "claim_type": "pronunciation",
+        "statement": "Distinct is pronounced /dɪˈstɪŋkt/ in current UK and US English.",
+        "article_target_ids": ["pronunciation:001"],
+        "source_supports": [
+          {"source_fact_id": "F004", "support_summary": "Cambridge supplies matching UK and US IPA transcriptions."}
+        ]
+      },
+      {
+        "id": "EL-005",
+        "union_ids": ["U005"],
+        "subject_form": "distinctly",
+        "claim_type": "derived_form",
+        "statement": "Distinctly is the adverbial derivative of distinct.",
+        "article_target_ids": ["word_formation:003", "pronunciation:002"],
+        "source_supports": [
+          {"source_fact_id": "F005", "support_summary": "Cambridge records distinctly as the related adverbial form."}
+        ]
+      },
+      {
+        "id": "EL-006",
+        "union_ids": ["U006"],
+        "subject_form": "distinctness",
+        "claim_type": "derived_form",
+        "statement": "Distinctness is the nominal derivative of distinct.",
+        "article_target_ids": ["word_formation:004"],
+        "source_supports": [
+          {"source_fact_id": "F006", "support_summary": "Cambridge records distinctness as the related nominal form."}
+        ]
+      },
+      {
+        "id": "EL-007",
+        "union_ids": ["U007"],
+        "subject_form": "distinct from",
+        "claim_type": "frame",
+        "statement": "The comparison standard after distinct is introduced by from.",
+        "article_target_ids": ["grammar_pattern:002", "usage_note:001"],
+        "source_supports": [
+          {"source_fact_id": "F010", "support_summary": "Merriam-Webster examples consistently realize the complement with from."},
+          {"source_fact_id": "F011", "support_summary": "Collins independently presents distinct from as the comparison pattern."}
+        ]
+      },
+      {
+        "id": "EL-008",
+        "union_ids": ["U008"],
+        "subject_form": "distinct",
+        "claim_type": "specialist_sense",
+        "statement": "Mathematical distinct means unequal or noncoincident under the relevant equality relation.",
+        "article_target_ids": ["definition:004", "usage_note:004"],
+        "source_supports": [
+          {"source_fact_id": "F012", "support_summary": "Collins directly labels and defines the mathematical sense."}
+        ]
+      },
+      {
+        "id": "EL-009",
+        "union_ids": ["U009"],
+        "subject_form": "distinct",
+        "claim_type": "specialist_sense",
+        "statement": "Botanical distinct describes organs that remain separate or free rather than fused.",
+        "article_target_ids": ["definition:005", "usage_note:005"],
+        "source_supports": [
+          {"source_fact_id": "F013", "support_summary": "Collins directly labels the botanical not-joined-together sense."},
+          {"source_fact_id": "F019", "support_summary": "The NSW botanical glossary independently equates distinct with separate or free."}
+        ]
+      },
+      {
+        "id": "EL-010",
+        "union_ids": ["U010"],
+        "subject_form": "distinct",
+        "claim_type": "etymology",
+        "statement": "Distinct descends from Latin distinctus, related to distinguere and the idea of marking apart.",
+        "article_target_ids": ["etymology:001", "etymology:002"],
+        "source_supports": [
+          {"source_fact_id": "F014", "support_summary": "Etymonline provides the English chronology and Latin distinctus source."},
+          {"source_fact_id": "F015", "support_summary": "Etymonline provides the participial derivation from Latin distinguere."}
+        ]
+      },
+      {
+        "id": "EL-011",
+        "union_ids": ["U011"],
+        "subject_form": "SELECT DISTINCT",
+        "claim_type": "specialist_sense",
+        "statement": "SELECT DISTINCT removes duplicate rows from the query result.",
+        "article_target_ids": ["definition:004", "collocation:023"],
+        "source_supports": [
+          {"source_fact_id": "F016", "support_summary": "The PostgreSQL SELECT reference directly states that DISTINCT removes duplicate result rows."}
+        ]
+      },
+      {
+        "id": "EL-012",
+        "union_ids": ["U012"],
+        "subject_form": "DISTINCT",
+        "claim_type": "constraint",
+        "statement": "With multiple selected expressions, DISTINCT evaluates the whole result-row combination.",
+        "article_target_ids": ["usage_note:004"],
+        "source_supports": [
+          {"source_fact_id": "F017", "support_summary": "The PostgreSQL reference defines DISTINCT at the SELECT output-row level."}
+        ]
+      },
+      {
+        "id": "EL-013",
+        "union_ids": ["U013"],
+        "subject_form": "DISTINCT ON",
+        "claim_type": "constraint",
+        "statement": "PostgreSQL DISTINCT ON retains the first row per equal-expression group, with ORDER BY needed for predictability.",
+        "article_target_ids": ["usage_note:004"],
+        "source_supports": [
+          {"source_fact_id": "F018", "support_summary": "The PostgreSQL reference directly states both first-row retention and the ORDER BY caveat."}
+        ]
+      }
+    ]
+  }
+}

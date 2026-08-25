@@ -12,6 +12,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import check_passes  # noqa: E402
+import generate_audit_manifest  # noqa: E402
 
 
 class CheckPassTests(unittest.TestCase):
@@ -135,6 +136,16 @@ class CheckPassTests(unittest.TestCase):
             before = check_passes.build_bundles(source)[0]["input_body_sha256"]
             after = check_passes.build_bundles(candidate)[0]["input_body_sha256"]
         self.assertEqual(before, after)
+
+    def test_body_digest_matches_manifest_canonicalization(self) -> None:
+        source = REPO_ROOT / "entries" / "o" / "obvious.md"
+        checker_digest = check_passes.build_bundles(source)[0][
+            "input_body_sha256"
+        ]
+        self.assertEqual(
+            checker_digest,
+            generate_audit_manifest.body_sha256(source),
+        )
 
 
 if __name__ == "__main__":

@@ -251,7 +251,11 @@ def build_bundles(
     raw = resolved.read_bytes()
     text = raw.decode("utf-8")
     _, body_lines = _split_front_matter(text)
-    body_bytes = ("\n".join(body_lines) + "\n").encode("utf-8")
+    # Keep this canonicalization identical to generate_audit_manifest.body_sha256:
+    # front matter is removed and split lines are rejoined without inventing a
+    # trailing newline.  A stage-specific hash would make an unchanged body look
+    # stale when checker output is handed to final manifest generation.
+    body_bytes = "\n".join(body_lines).encode("utf-8")
     sections = extract_sections(text)
     router = load_router(router_path or (repo_root / "prompts" / "check_router_v6.md"))
     errors = validate_router(router, repo_root=repo_root)
