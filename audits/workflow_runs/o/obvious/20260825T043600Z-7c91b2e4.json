@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T043600Z-7c91b2e4",
+  "headword": "obvious",
+  "entry_path": "entries/o/obvious.md",
+  "branch": "agent/update-obvious-v5-20260825",
+  "base_sha": "8200f8a9bf4650510e881e401d0590d2f0db90c0",
+  "profile": "standard",
+  "profile_reason": "bounded default profile; existing v1 article is being rebuilt to current v5",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 10,
+    "candidate_pages": 10
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T04:36:00Z",
+  "deadline_at": "2026-08-25T05:36:00Z",
+  "pre_draft_deadline_at": "2026-08-25T04:56:00Z",
+  "last_heartbeat_at": "2026-08-25T05:39:30Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T04:38:00Z",
+    "commit_sha": "6016355c5a58874f88f20bfbee401d5a2972351b"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T04:36:00Z",
+      "notes": "run initialized for v5 rebuild"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T04:38:00Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T04:45:00Z",
+      "notes": "v5 rebuild draft and queue draft state saved on the remote branch"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T04:51:00Z",
+      "notes": "bounded source inventory covered pronunciation, three general senses, word formation, etymology, and U.S. patent-law obviousness"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T04:54:00Z",
+      "notes": "zero-based normal review found no blocking content defect; required context-free cold-review execution is unavailable in this tool environment"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T05:20:00Z",
+      "notes": "one context-free cold review completed; three findings were adopted and corrected"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T05:36:36Z",
+      "notes": "final blind inventory was sealed on the corrected body before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T05:39:00Z",
+      "notes": "final adjudicator reconciled normal cold and blind inventories; all semantic and evidence checks passed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T05:39:30Z",
+      "notes": "entry queue audit and workflow state synchronized; full merge-ready regression validation passed on the final tree"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}

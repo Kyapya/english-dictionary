@@ -1,14 +1,3 @@
----  
-headword: obvious  
-type: word  
-status: checked  
-prompt_version: entry_spec_v5  
-model: gpt-5.6-sol  
-created_at: 2026-06-14  
-updated_at: 2026-08-25  
-checked: true  
-tags: []  
----  
 
 ＃発音記号
 
