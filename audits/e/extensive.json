@@ -1,0 +1,2974 @@
+{
+  "schema_version": "content_audit_v3",
+  "entry_path": "entries/e/extensive.md",
+  "body_sha256": "88420ce1c74d08adb6dc3f9d428324fdac8e4f95aa92d4441a9a4d0d6312f36d",
+  "review_history": [],
+  "current_cycle": {
+    "cycle_id": "cycle-001",
+    "parent_cycle_id": null,
+    "started_at": "",
+    "change_reason": "",
+    "body_revisions": [
+      {
+        "revision_id": "revision-001",
+        "body_sha256": "88420ce1c74d08adb6dc3f9d428324fdac8e4f95aa92d4441a9a4d0d6312f36d",
+        "snapshot_path": "audits/runs/e/extensive/cycle-001/revision-001.md",
+        "created_at": "",
+        "reason": "initial audited body"
+      }
+    ],
+    "raw_outputs": {
+      "normal_review": {},
+      "cold_review": {},
+      "final_blind": {},
+      "final_review": {}
+    },
+    "escaped_defects": [],
+    "regression_checks": [
+      {
+        "category": "compound_component_generalization",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "argument_slot_role_mismatch",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "regional_qualification",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "technical_terminology_conventionality",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "sense_boundary_overlap",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "lexical_relation_mislabel",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "example_translation_alignment",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "absolute_scope_counterexample",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "pronunciation_symbol_explanation",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "evidence_claim_mismatch",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "semantic_direction_reversal",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "cross_section_internal_contradiction",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "finding_scope_transfer_loss",
+        "status": "pending",
+        "notes": ""
+      },
+      {
+        "category": "raw_adjudication_manifest_divergence",
+        "status": "pending",
+        "notes": ""
+      }
+    ]
+  },
+  "targets": [
+    {
+      "id": "pronunciation:001",
+      "kind": "pronunciation",
+      "location": "line:4",
+      "section": "＃発音記号",
+      "sense": "",
+      "text_sha256": "747dd4c4d54e17101340b454925ed2eefc349103bfc0fbf88280ecfc0d26e80f",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "米: /ɪkˈstɛnsɪv/｜英: /ɪkˈstensɪv/。3音節の ik-STEN-siv で、第2音節に主強勢がある。第1音節は弱い /ɪk/、第2音節の母音は米国発音で /ɛ/、英国発音で /e/ と表記され、第3音節は弱い /ɪv/ で終わる。"
+    },
+    {
+      "id": "pronunciation:002",
+      "kind": "pronunciation",
+      "location": "line:5",
+      "section": "＃発音記号",
+      "sense": "",
+      "text_sha256": "06878bd351f6125f8b4204317588f9cc37f020ec0c169892a275b53ff69180cd",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "綴りの ex- はここでは /ɛks/ と強く読まず、語頭の /ɪk/ と、次の強勢音節の /st/ に分かれる。語末の -sive は /sɪv/ で、/saɪv/ ではない。"
+    },
+    {
+      "id": "pronunciation:003",
+      "kind": "pronunciation",
+      "location": "line:6",
+      "section": "＃発音記号",
+      "sense": "",
+      "text_sha256": "51c88dc885507ff1937de1f7d8adcf15f181e1af39c7c5ab3c505ed763c9f331",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "比較級は more extensive、最上級は most extensive とするのが普通で、extensiver・extensivest は通常用いない。副詞 extensively は米 /ɪkˈstɛnsɪvli/、英 /ɪkˈstensɪvli/ と発音し、主強勢の位置を保つ。"
+    },
+    {
+      "id": "etymology:001",
+      "kind": "etymology",
+      "location": "line:10",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "c97253222eca5e1f9dfbb2a68c4a679f82ae51afb0001d6df1042a9fba28e763",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "late Middle English に、フランス語 extensif, -ive または後期ラテン語 extensivus 経由で入った。さらにラテン語 extendere「外へ伸ばす、広げる」へさかのぼり、ex-「外へ」と tendere「伸ばす」から成る。"
+    },
+    {
+      "id": "etymology:002",
+      "kind": "etymology",
+      "location": "line:11",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "14cb14abe556dbc705620b6569e6e8aa38748e130660acabd2b87d3b0da58d67",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "中心にあるのは「外へ伸びて、範囲・量・作用の及ぶ先が広がる」という発想で、物理的な広さから、情報の範囲、被害の規模、専門分野の「系の大きさ」へ意味が抽象化している。"
+    },
+    {
+      "id": "etymology:003",
+      "kind": "etymology",
+      "location": "line:12",
+      "section": "＃語源",
+      "sense": "",
+      "text_sha256": "a5726b9623affd74595ad7d880eced0d4099667bf7eeb1e2b424a628e79a4b2f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "同語族の学習語は extend「広げる、延長する」、extent「広がり、程度」、extension「拡張、延長」、extensively「広範囲に、広く」、extensiveness「広範さ」である。"
+    },
+    {
+      "id": "word_formation:001",
+      "kind": "word_formation",
+      "location": "line:16",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "c3a43474f7934ecfed36d00f57d80ce5690d5c2bbac0592f01ce42d0232e09fe",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensively — 副詞「広範囲に、広く、大いに」。動詞や過去分詞を修飾する。"
+    },
+    {
+      "id": "word_formation:002",
+      "kind": "word_formation",
+      "location": "line:17",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "137ff002159b9077fd5bd5e8b82c4016b12011905a3ca6f45043184844bee327",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensiveness — 名詞「広範さ、広がり」。一般語としてはやや硬い。"
+    },
+    {
+      "id": "word_formation:003",
+      "kind": "word_formation",
+      "location": "line:18",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "82224b1fe9761f8911a46e812e111b049cdbfd73ea9b9b616a59825938df4b69",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensivity — 名詞「外延性、示量性」。物理・論理などの専門分野で使われる。"
+    },
+    {
+      "id": "word_formation:004",
+      "kind": "word_formation",
+      "location": "line:19",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "5f2bf47417a5df03629aafef48828ccd14d2c4f475572bf9dc36149ce89f246e",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "more/most extensive — extensive の比較級・最上級。短い形の *extensiver・*extensivest は通常使わない。"
+    },
+    {
+      "id": "word_formation:005",
+      "kind": "word_formation",
+      "location": "line:20",
+      "section": "＃語形成",
+      "sense": "",
+      "text_sha256": "4439c367dea34f370aacd7b03e5c1f3421aca41d863c816ba232d16862cc2c1b",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "intensive — 農業・物理などで extensive と対比される形容詞。ただし、extensive の否定接頭辞付きの形ではなく、意味の対照をなす別語である。"
+    },
+    {
+      "id": "core_image:001",
+      "kind": "core_image",
+      "location": "line:24",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "f64b1161d3f5f2bb3841898b0fff55fa0bf1aaf7bc61833283364bcf1772c252",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive の共通核は、対象の外へ広がる範囲・量・作用の及ぶ先が大きいことである。物理的な面積だけでなく、扱う情報の幅、被害や権限の規模、農地の使い方、系の大きさとの関係、論理上の適用対象の広がりにも及ぶ。"
+    },
+    {
+      "id": "core_image:002",
+      "kind": "core_image",
+      "location": "line:25",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "85e095a56e44d40ee81366172267ae064c24f671f237f40a9799e8e28b824764",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・物理的な広い範囲への広がり → 「広大な、広範囲に及ぶ」（語義1）"
+    },
+    {
+      "id": "core_image:003",
+      "kind": "core_image",
+      "location": "line:26",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "e5d78d0d115b241cea4874c050e0bacef494e04e32b6bacd7bf01be9be8fec65",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・被害・量・程度の大きな広がり → 「大規模な、甚大な」（語義2）"
+    },
+    {
+      "id": "core_image:004",
+      "kind": "core_image",
+      "location": "line:27",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "1278c8e193020cb2fc707b7c64f1dc891cdce7fb8122d13946d0ee673198b307",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・情報・経験・対象の幅広い広がり → 「幅広い、包括的な」（語義3）"
+    },
+    {
+      "id": "core_image:005",
+      "kind": "core_image",
+      "location": "line:28",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "81bf7ca5e8bf3e468e4a8727f436a820b54b03c33af7add05348ca83732b3e30",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・大きな土地に投入を分散する農業 → 「粗放的な」（語義4）"
+    },
+    {
+      "id": "core_image:006",
+      "kind": "core_image",
+      "location": "line:29",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "42b5418e8e1eccbc312a88a166ca861b638ea52599a790495df680981bc46e8d",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・系の大きさに応じて増える性質 → 「示量性の」（語義5）"
+    },
+    {
+      "id": "core_image:007",
+      "kind": "core_image",
+      "location": "line:30",
+      "section": "＃コアイメージ",
+      "sense": "",
+      "text_sha256": "c874be3d7f4e1e1c479aa587fc90d710a8b820547445735c94a251420284740d",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・適用される対象の集合に基づく定義 → 「外延的な」（語義6）"
+    },
+    {
+      "id": "sense_boundary:001",
+      "kind": "sense_boundary",
+      "location": "line:34",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "f177558c52864b3bad64935cd138ae2d40713255783b4c14ec239fb861803384",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ"
+    },
+    {
+      "id": "definition:001",
+      "kind": "definition",
+      "location": "line:36",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "5a9152e8c418a3f626a57adcc13b0a53e2114b577a6a0ed93e42bae408b31949",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "土地・地域・建物の敷地などが大きな面積に及ぶ、または旅行・活動などが広い地域にわたることを表す。単に対象の数が多いというより、空間的な広がりや及ぶ範囲に焦点がある。"
+    },
+    {
+      "id": "frequency:001",
+      "kind": "frequency",
+      "location": "line:38",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "223f0f3bb105d64687ce0ff83ae044846c2f48c7a55d9d015dbc0ce12503d473",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈8/10〉"
+    },
+    {
+      "id": "register:001",
+      "kind": "register",
+      "location": "line:40",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "c2c3d56bdfdc201e6ee15f28d5aff493d985022064ae27e645d96c39605b0355",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "標準語。土地、庭、森林、砂漠、旅行、ネットワークなどの空間的な広がりを説明する。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "kind": "grammar_pattern",
+      "location": "line:42",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "9e05bf0594e5997ea1d644412559f270f758d2da906d3fca3352ded72b8dfca9",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive + 〈area/grounds/land/forest/property〉＝広い面積の〈地域・敷地・土地・森林・物件〉"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "kind": "grammar_pattern",
+      "location": "line:42",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "0540539d2ea4677caa2c789ceb2cce04429d3d8ae5209104e19ff646b55a9ebe",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive + 〈travels/tour/network〉＝広い地域に及ぶ旅行・巡回・ネットワーク"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "kind": "grammar_pattern",
+      "location": "line:42",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "688fea71c07312c29c700c6304e68072e9f460fe84652753ac421a23c9d69d6e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "be extensive in area＝面積が広い"
+    },
+    {
+      "id": "collocation:001",
+      "kind": "collocation",
+      "location": "lines:46-49",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "1647c191261e2f15fb98ad4729e6626e289341562e373f169ecb92b7f49fbd85",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive grounds\n用途: 建物に付属する敷地や庭が広大であることを表す。\n例: The hotel stands in extensive grounds overlooking the lake.\n訳: そのホテルは湖を見下ろす広大な敷地に建っている。"
+    },
+    {
+      "id": "collocation:002",
+      "kind": "collocation",
+      "location": "lines:51-54",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "558fe39c3b688f05883e5a2a16725df121e50d8a90923c4b26a89b3cee522af0",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive land holdings\n用途: 個人・企業・団体が広い土地を所有していることを表す。\n例: The company has extensive land holdings in the northern region.\n訳: その会社は北部地域に広大な土地を所有している。"
+    },
+    {
+      "id": "collocation:003",
+      "kind": "collocation",
+      "location": "lines:56-59",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "7ff8a99d403210255bf9a5dc4324785aecc9762a35a21eefaee0e347751396a2",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive forests\n用途: 森林が広い地域に広がっていることを表す。\n例: Extensive forests still cover much of the mountain range.\n訳: その山脈の大部分には今も広大な森林が広がっている。"
+    },
+    {
+      "id": "collocation:004",
+      "kind": "collocation",
+      "location": "lines:61-64",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "389d95f699599cc6f828872804c2b6046ad8258f6d30977b7c7f139c5b421353",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive travels\n用途: 多くの地域を巡る広範な旅行経験を表す。\n例: Her extensive travels have shaped her understanding of different cultures.\n訳: 彼女の広範な旅行経験は、異なる文化への理解を形づくってきた。"
+    },
+    {
+      "id": "collocation:005",
+      "kind": "collocation",
+      "location": "lines:66-69",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "737fc34462626c73189ad579f38981310d4d9c7f4ef475bb491389f31ecd7f78",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・an extensive network of 〈roads/railways〉\n用途: 道路や鉄道などが広い地域を結んでいることを表す。\n例: The island has an extensive network of rural roads.\n訳: その島には農村部まで広がる道路網がある。"
+    },
+    {
+      "id": "usage_note:001",
+      "kind": "usage_note",
+      "location": "line:71",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "6a380fe2e52c88f1dc285a96c9efa028a6c144044477505db61c5de4aec55b0a",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "この語義の extensive は「広い面積に及ぶ」という空間的な意味が中心である。extensive grounds は庭や敷地の面積を表すが、extensive research は面積ではなく情報の範囲を表すため、語義3に近い。"
+    },
+    {
+      "id": "usage_note:002",
+      "kind": "usage_note",
+      "location": "line:73",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "42e0e83ec63b303d8287e706a65f03c677ec3192f1c94a3e36740728aeb862a9",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive は名詞の前に置く限定用法が多い。述語位置の The grounds are extensive. も可能だが、被害・損傷について The damage was extensive. と言う場合は、空間よりも規模・程度を表す語義2として理解する。"
+    },
+    {
+      "id": "synonym:001",
+      "kind": "synonym",
+      "location": "lines:77-82",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "64ed4e421ec60cc9f6a39457879a05de9a8f85a77aac1d45e786a3be36392021",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・vast\n定義: 面積・距離・数量などが非常に大きく、広大である。\n頻度: 〈8/10〉\n違い: vast は規模の大きさを強く印象づけ、extensive より誇張的・描写的になりやすい。extensive は行政・研究・報告の説明にも使いやすい。\n例: Vast areas of the desert remain unexplored.\n訳: 砂漠の広大な地域がいまだ探査されていない。"
+    },
+    {
+      "id": "synonym:002",
+      "kind": "synonym",
+      "location": "lines:84-89",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "a66ee022df9eb0cec9d70ffcb4ccf54060340bc8f10d28f9cde64e1cc0ccffe5",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・wide\n定義: 左右・範囲・選択肢などが広い。\n頻度: 〈10/10〉\n違い: wide は幅や選択の広さを日常的に表す基本語で、extensive は広い範囲にわたる規模や展開をやや硬く述べる。\n例: The museum offers a wide range of educational programs.\n訳: その博物館は幅広い教育プログラムを提供している。"
+    },
+    {
+      "id": "synonym:003",
+      "kind": "synonym",
+      "location": "lines:91-96",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "2d52847096d69038147ece0ff06ce97c0daa7c8c08c7b18a7b64fff381380c94",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・expansive\n定義: 広く伸びている、または広がりをもつ。\n頻度: 〈7/10〉\n違い: expansive は空間の広がりや、開放的で広々した印象を強調する。extensive は実際の範囲・規模を客観的に述べやすい。\n例: The house has expansive views of the valley.\n訳: その家からは谷を広く見渡せる。"
+    },
+    {
+      "id": "synonym:004",
+      "kind": "synonym",
+      "location": "lines:98-103",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "ecc06b283ca86add992b740050b46711b26e38d0b6c1cb76567a5412dfd75b65",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・sprawling\n定義: 建物や都市などが広い範囲に不規則に広がっている。\n頻度: 〈6/10〉\n違い: sprawling は形がまとまりなく広がる印象や、しばしば批判的な含みを伴う。extensive にはその評価は必須でない。\n例: A sprawling suburb has developed around the airport.\n訳: 空港周辺に広がり続ける郊外が形成された。"
+    },
+    {
+      "id": "antonym:001",
+      "kind": "antonym",
+      "location": "lines:107-112",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "2bd824a5db0f3f1f3775811b3c0682b44103049d85e8d53d0a32d2baf8bee03d",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・limited\n定義: 範囲・面積・数量が限られている。\n頻度: 〈9/10〉\n違い: extensive の広い範囲に対する、規模・範囲の直接的な反対を表す。\n例: The project was carried out with limited land and equipment.\n訳: その計画は限られた土地と設備で実施された。"
+    },
+    {
+      "id": "antonym:002",
+      "kind": "antonym",
+      "location": "lines:114-119",
+      "section": "＃意味・用法・関連表現",
+      "sense": "1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ",
+      "text_sha256": "0f4ae14546af5bed05c69cc8a1805ebac28e157e8228603a315d74aa0362c4f8",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・confined\n定義: 特定の狭い場所や範囲に閉じ込められた、限定された。\n頻度: 〈7/10〉\n違い: confined は広がりが物理的・制度的に抑えられていることを強調する。\n例: The fire was confined to a single room.\n訳: 火災は一室に限定されていた。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "kind": "sense_boundary",
+      "location": "line:121",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "2e0ab057eb4271a7b39ce1b70cdf290048201524a6dfdc6607a0c882fa4a2ae1",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い"
+    },
+    {
+      "id": "definition:002",
+      "kind": "definition",
+      "location": "line:123",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "6ebe6e8be27381efa77b93d67eb980ba65ae4c365c7b3c88bdd79a4720118123",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "被害、損傷、修理、変更、権限、検査などの量・規模・程度が大きいことを表す。大きな範囲に及ぶことを示すが、必ずしも「最大級」「全面的」「取り返しがつかない」まで意味するわけではない。"
+    },
+    {
+      "id": "frequency:002",
+      "kind": "frequency",
+      "location": "line:125",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "7a626327bdf4a8ce1246cb04f8b9692c985873b0ba478e5ff432ffa1425edf1f",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈9/10〉"
+    },
+    {
+      "id": "register:002",
+      "kind": "register",
+      "location": "line:127",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "8d0abc52d14ac38aa770793c5c5ae2e789c98d997e03b48979939f9cb2923d3d",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "標準語。災害報道、医療、保険、ビジネス、行政、技術報告で頻出する。extensive damage・extensive injuries は特に定着した組み合わせである。"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "kind": "grammar_pattern",
+      "location": "line:129",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "8b3c9e331f77c1cd5f70f473e865bd802c3660dd270eccd9373a6743cfc10e88",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive + 〈damage/repairs/injuries/testing〉＝大規模な〈被害・修理・負傷・検査〉"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "kind": "grammar_pattern",
+      "location": "line:129",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "eda819f04078e6abc1260fb62d67f929621e5842803daa0ccf8f3069b14119fd",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive + 〈powers/changes/use〉＝広範な権限・変更・利用"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "kind": "grammar_pattern",
+      "location": "line:129",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "b3080d12d5fe66bda52360fa29bdd64d585969bbf6306c3a412f8ef5478a5873",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "be extensive＝被害・損傷などが大きい"
+    },
+    {
+      "id": "collocation:006",
+      "kind": "collocation",
+      "location": "lines:133-136",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "02e26d839e001e135a1fe87a05d8ba64db5a238a19c79ad117b576177b5e4424",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive damage\n用途: 事故、災害、攻撃などによる損害が大きいことを表す。\n例: The earthquake caused extensive damage to roads and bridges.\n訳: その地震は道路や橋に甚大な被害をもたらした。"
+    },
+    {
+      "id": "collocation:007",
+      "kind": "collocation",
+      "location": "lines:138-141",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "60785761d2a482ca3d060ca1190bb0d7163be0b1c4ccc8ca83535c4e4c6d0f93",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive repairs\n用途: 修理の範囲や作業量が大きいことを表す。\n例: The old building needs extensive repairs before it can be reopened.\n訳: その古い建物は再開前に大規模な修理を必要としている。"
+    },
+    {
+      "id": "collocation:008",
+      "kind": "collocation",
+      "location": "lines:143-146",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "8bf4728a2038929ea81d9f56b20681478767613dba92f374e12b2d8517cb677e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive injuries\n用途: けがが広範囲に及び、重い処置を要することを表す。\n例: The driver sustained extensive injuries in the collision.\n訳: その運転手は衝突事故で広範囲に及ぶ重傷を負った。"
+    },
+    {
+      "id": "collocation:009",
+      "kind": "collocation",
+      "location": "lines:148-151",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "1eb5bb4c953ac5eef337e03c46998e8d13b78b5b64707b735bdbcffe8f3c2623",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive testing\n用途: 検査・試験を多くの条件や段階で大規模に行うことを表す。\n例: The software underwent extensive testing before its release.\n訳: そのソフトウェアは発売前に大規模な試験を受けた。"
+    },
+    {
+      "id": "collocation:010",
+      "kind": "collocation",
+      "location": "lines:153-156",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "88856980a56fd16895766a4302c24cef16c0624b1bc3f80a20f112f9e5a19cad",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive powers\n用途: 法律・制度上の権限が広い範囲に及ぶことを表す。\n例: The agency was given extensive powers to investigate fraud.\n訳: その機関には不正を調査する広範な権限が与えられた。"
+    },
+    {
+      "id": "collocation:011",
+      "kind": "collocation",
+      "location": "lines:158-161",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "ef8893d40fef9ff8c1f816d04ede9b114807710ca7dd2f66ef7e3dcdbb5ee6d2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・the damage is extensive\n用途: 被害の規模が大きいと報告・評価する。\n例: Officials said that the damage was extensive but no one was injured.\n訳: 当局者は被害は甚大だが、けが人はいないと述べた。"
+    },
+    {
+      "id": "usage_note:003",
+      "kind": "usage_note",
+      "location": "line:163",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "945092895a21ba7d3aee8b3609bcff1d2e19c2c201936e8e293b9c30f04956f5",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive damage・extensive research のように、不可算名詞をそのまま修飾できる。damage は通常不可算なので、一般的な意味で an extensive damage とは言わず、extensive damage または an extensive amount of damage とする。"
+    },
+    {
+      "id": "usage_note:004",
+      "kind": "usage_note",
+      "location": "line:165",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "38816e9bf37a60a034f6106c5c3c054d0f04fe986664beed60f88e693223f19e",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "「長い」を表す lengthy と重なることはあるが、extensive は時間の長さそのものより、作業・被害・内容が及ぶ範囲や規模に焦点がある。修理に時間がかかったことを言いたいなら lengthy repairs、作業量が大きいことを言いたいなら extensive repairs が自然である。"
+    },
+    {
+      "id": "usage_note:005",
+      "kind": "usage_note",
+      "location": "line:167",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "842bbc11232ca5aa6b95a4f60caa1549a03ab6ed9658d660547a77bf4f7ef639",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "「強烈な」を表す intense とも異なる。intense は経験・感情・熱・努力などの強度や集中度、extensive は広がり・量・規模を表す。"
+    },
+    {
+      "id": "synonym:005",
+      "kind": "synonym",
+      "location": "lines:171-176",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "9b28dfc3fbea60206b537fa33c0acb7ca9651db1b6a476401944dc8ad497e605",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・considerable\n定義: 量・程度・重要性がかなり大きい。\n頻度: 〈8/10〉\n違い: considerable は「かなりの」という数量・程度の評価に焦点がある。extensive は対象が広い範囲に及ぶという構造的な広がりをより強く示す。\n例: The project required a considerable investment.\n訳: その計画にはかなりの投資が必要だった。"
+    },
+    {
+      "id": "synonym:006",
+      "kind": "synonym",
+      "location": "lines:178-183",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "2a3270597544b90cebfe447aae7df2da5156a8dc0f9b6fd96c13c6070767087a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・substantial\n定義: 量・規模・価値が十分に大きく、無視できない。\n頻度: 〈8/10〉\n違い: substantial は実質的な大きさ・重要性を表す。extensive は広い範囲や多くの部分に及ぶことを表し、価値や重要性までは必須でない。\n例: The company made substantial changes to its safety procedures.\n訳: その会社は安全手順に大幅な変更を加えた。"
+    },
+    {
+      "id": "synonym:007",
+      "kind": "synonym",
+      "location": "lines:185-190",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "d3971ae5f9e5fc85b854aecf30c3483302d13777a9a758d97fe11a454f595475",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・large-scale\n定義: 計画・活動・災害などが大規模な。\n頻度: 〈8/10〉\n違い: large-scale は規模の大きさを直接的・客観的に示し、名詞の前で使う。extensive は被害や内容が広範囲に及ぶことにも使える。\n例: The city launched a large-scale renovation project.\n訳: その都市は大規模な改修計画を開始した。"
+    },
+    {
+      "id": "synonym:008",
+      "kind": "synonym",
+      "location": "lines:192-197",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "64e6afb0e322b08b468402232358bdcf111d47e0183d9834c0ff38f19c076f02",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・severe\n定義: 被害・症状・状況などの程度が非常に深刻な。\n頻度: 〈9/10〉\n違い: severe は深刻さ・苛酷さを評価する語で、範囲の広さを必ずしも含まない。広範囲だが重症度が一様とは限らない場合は extensive が適する。\n例: The storm caused severe flooding in several towns.\n訳: その嵐は複数の町で深刻な洪水を引き起こした。"
+    },
+    {
+      "id": "antonym:003",
+      "kind": "antonym",
+      "location": "lines:201-206",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "0375155215e7f7912b0b5da39c5dbb0dfc04b5cf17a47bee900a551b83b7be74",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・limited\n定義: 量・範囲・程度が限られた。\n頻度: 〈9/10〉\n違い: extensive の大きな規模・範囲に対する直接的な反対語である。\n例: The repairs were limited to the roof.\n訳: 修理は屋根に限られていた。"
+    },
+    {
+      "id": "antonym:004",
+      "kind": "antonym",
+      "location": "lines:208-213",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "472ee08814e48c0d66799cc4345b4f603dd7f89a45930959c0923bed2ae1f982",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・minor\n定義: 重要性・規模・程度が小さく、深刻でない。\n頻度: 〈9/10〉\n違い: minor は被害や変更の小ささ・軽さを表す。extensive の範囲の広さとは異なる軸もあるが、damage・injuries・repairs では有効な対比になる。\n例: The vehicle suffered only minor damage.\n訳: その車は軽微な損傷しか受けなかった。"
+    },
+    {
+      "id": "antonym:005",
+      "kind": "antonym",
+      "location": "lines:215-220",
+      "section": "＃意味・用法・関連表現",
+      "sense": "2. 【形容詞・量・程度】大規模な、甚大な、非常に多い",
+      "text_sha256": "2104159c2ff3531845bbe465743aec34d9ccde61b1321d0cc1d4d270460b8950",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・minimal\n定義: 可能な限り少ない、最小限の。\n頻度: 〈8/10〉\n違い: minimal は量・影響・必要性がほとんどないことを強調する。\n例: The treatment caused minimal discomfort.\n訳: その治療による不快感は最小限だった。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "kind": "sense_boundary",
+      "location": "line:222",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "407408f2d6707141991f8366dee6b2fc9be4cc1fdd8bdb24cb894b650ffec750",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "3. 【形容詞・範囲・内容】幅広い、包括的な"
+    },
+    {
+      "id": "definition:003",
+      "kind": "definition",
+      "location": "line:224",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "ffcc362b76ab5094abe27db9063fc55ee8dd2dcbd6d8fbabe9d61c6c59c506f2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "知識、経験、研究、議論、資料、選択肢などが、多くの詳細・分野・項目を含み、扱う範囲が広いことを表す。すべてを漏れなく扱うというより、対象の広さ・量・多様さに焦点がある。"
+    },
+    {
+      "id": "frequency:003",
+      "kind": "frequency",
+      "location": "line:226",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "7a626327bdf4a8ce1246cb04f8b9692c985873b0ba478e5ff432ffa1425edf1f",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈9/10〉"
+    },
+    {
+      "id": "register:003",
+      "kind": "register",
+      "location": "line:228",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "cf381831e8d19c53b94976d67a8a9eb044dd792737f0e3b56e474671753e094c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "標準語。教育、研究、ビジネス、職務経歴、報道、書籍紹介で広く使う。extensive knowledge・extensive experience は、人の能力や経歴を評価する定型表現である。"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "kind": "grammar_pattern",
+      "location": "line:230",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "1731de4bdf09e3944127d24125c87367457c5789ee0708b70e5f048f3fd47250",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive + 〈research/knowledge/experience〉 in/of 〈分野〉＝〈分野〉に関する幅広い研究・知識・経験"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "kind": "grammar_pattern",
+      "location": "line:230",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "6c88d907a96d181330b27f10238ce564515c7750696633b2ccef8fbc65e7cf61",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "an extensive range/selection of 〈items〉＝幅広い種類の〈項目〉"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "kind": "grammar_pattern",
+      "location": "line:230",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "7b74f98605561b3b4c99bfa6d2a9493e3a9ce503adc53eb2800e602d93ea3979",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive discussion/commentary on 〈topic〉＝〈話題〉に関する広範な議論・論評"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "kind": "grammar_pattern",
+      "location": "line:230",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "64ca703f65c4a472042f93851eab8463dff2052526b0615134a6a29c8e1950e5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "be extensive＝内容の範囲が広い"
+    },
+    {
+      "id": "collocation:012",
+      "kind": "collocation",
+      "location": "lines:234-237",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "4f5c555bfdb01c3d449562ef2ba055a37c51d870b95b14c31acc4e80e6820cf0",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive research into/on 〈topic〉\n用途: ある問題・分野について多くの資料や角度から行う広範な研究を表す。\n例: Extensive research has been conducted into the causes of the disease.\n訳: その病気の原因について広範な研究が行われてきた。"
+    },
+    {
+      "id": "collocation:013",
+      "kind": "collocation",
+      "location": "lines:239-242",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "4aeecfc3118b41cfed20852eecac44b1a85efac7d0a1e864c126eb49220b6ebf",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive knowledge of 〈subject〉\n用途: ある分野について多くの情報と理解をもっていることを表す。\n例: She has extensive knowledge of international tax law.\n訳: 彼女は国際税法について幅広い知識をもっている。"
+    },
+    {
+      "id": "collocation:014",
+      "kind": "collocation",
+      "location": "lines:244-247",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "46add28237906e3cd3bbf6dc1ba3cf1df2b4e642d24500eb2ab1588f5eed3099",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive experience in/with 〈field/system〉\n用途: ある仕事・分野・システムに関して豊富で幅広い経験があることを表す。\n例: The consultant has extensive experience in financial reporting.\n訳: そのコンサルタントは財務報告の分野で豊富な経験がある。"
+    },
+    {
+      "id": "collocation:015",
+      "kind": "collocation",
+      "location": "lines:249-252",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "bd424d348058913ab80f572bc41af299c8b48f66058d61145c162b1fcd565a4b",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive range of 〈products/services〉\n用途: 製品・サービスなどの種類や選択肢が幅広いことを表す。\n例: The store offers an extensive range of outdoor equipment.\n訳: その店は幅広いアウトドア用品を取りそろえている。"
+    },
+    {
+      "id": "collocation:016",
+      "kind": "collocation",
+      "location": "lines:254-257",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "275cc75af5659fe4cd312c48be297027431be6cbdeaf43389effee0a4439a561",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive bibliography\n用途: 書籍・論文などの参考文献一覧が多く、広い資料範囲をカバーしていることを表す。\n例: The book includes an extensive bibliography of historical sources.\n訳: その本には歴史資料の広範な参考文献一覧が付いている。"
+    },
+    {
+      "id": "collocation:017",
+      "kind": "collocation",
+      "location": "lines:259-262",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "a5c3e48451bd508dc058532e937ccad91783f114c2c50b66fcaadeec464b37b2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive reading\n用途: 特定の文章を細部まで分析するより、多くの文章を読む学習・活動を表す。\n例: Extensive reading can help learners build vocabulary through repeated exposure.\n訳: 多読は、繰り返し触れることを通じて学習者の語彙構築に役立つ。"
+    },
+    {
+      "id": "usage_note:006",
+      "kind": "usage_note",
+      "location": "line:264",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "b5651eaff5d9f58c2ad86fc50ab0cd8334a47fbcd561c4ea909a6d0479a1d3af",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive knowledge は「知識が深い」ことを含む場合もあるが、語の中心は知識の量・範囲であり、細部への深さを必ずしも保証しない。comprehensive は必要な範囲を漏れなく含むこと、thorough は細部まで注意深く扱うことに焦点がある。"
+    },
+    {
+      "id": "usage_note:007",
+      "kind": "usage_note",
+      "location": "line:266",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "c3545ec6628970ff01be66e4cf8ed1c02545072a0d76cbc0ff37653df840995a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "extensive experience は「経験した期間が長い」だけでなく、複数の業務・状況・分野にまたがる経験が豊富であることを表しやすい。経験年数だけを述べるなら many years of experience の方が直接的な場合もある。"
+    },
+    {
+      "id": "usage_note:008",
+      "kind": "usage_note",
+      "location": "line:268",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "329f543e46728516a668086a3e9571800906ecc4e7b8dcabaedcc124fa1c086e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive reading は教育用語として「多読」を指すことがあるが、一般文脈では単に大量・広範囲に読むことも表す。精読は intensive reading と対比される。"
+    },
+    {
+      "id": "synonym:009",
+      "kind": "synonym",
+      "location": "lines:272-277",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "e79f1647b01a2f114b240ecad568ace6cd27801d1c87a23a48ed4a412f398f50",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・comprehensive\n定義: 必要な範囲の要素をほぼ漏れなく含む、包括的な。\n頻度: 〈8/10〉\n違い: comprehensive は網羅性・完全性を強く示す。extensive は扱う範囲や量が大きいことを示すが、全項目を含むとは限らない。\n例: The report provides a comprehensive overview of the issue.\n訳: その報告書はその問題の包括的な概観を示している。"
+    },
+    {
+      "id": "synonym:010",
+      "kind": "synonym",
+      "location": "lines:279-284",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "0088c3873c57425c7d08037f7785ae68aa032821aa416f342d7a2f67100b46b2",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・wide-ranging\n定義: 多くの分野・種類・話題に及ぶ。\n頻度: 〈7/10〉\n違い: wide-ranging は範囲の多様さを明示する。extensive は多様さに加えて量・規模の大きさにも使える。\n例: The minister faced wide-ranging questions from reporters.\n訳: その大臣は記者から幅広い質問を受けた。"
+    },
+    {
+      "id": "synonym:011",
+      "kind": "synonym",
+      "location": "lines:286-291",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "40aabbc10ea3b5d9aa7112268b30fe8a4626fb07790ac4b28c67ab09e5cb7b7c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・broad\n定義: 範囲・内容・視野が広い。\n頻度: 〈10/10〉\n違い: broad は日常的で基本的な語。extensive は資料・経験・研究などの量や展開の大きさをやや強く、また硬く表す。\n例: The course gives students a broad understanding of economics.\n訳: その講座は学生に経済学の幅広い理解を与える。"
+    },
+    {
+      "id": "synonym:012",
+      "kind": "synonym",
+      "location": "lines:293-298",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "c4bb1b35a6255bdd401655e0b9c99e2874a044d76912bd23425efeaad9fd7929",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・far-reaching\n定義: 影響・効果・結果などが広い範囲に及ぶ。\n頻度: 〈7/10〉\n違い: far-reaching は影響や結果の及ぶ範囲を強調する。extensive は知識・資料・経験の量や範囲にも使える。\n例: The reform could have far-reaching consequences.\n訳: その改革は広範な結果をもたらす可能性がある。"
+    },
+    {
+      "id": "synonym:013",
+      "kind": "synonym",
+      "location": "lines:300-305",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "9eba03d4e97032839655e9df55ca6666db0a64abab0211cf548b159b78a96411",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・thorough\n定義: 細部まで注意深く、手を抜かずに行う。\n頻度: 〈8/10〉\n違い: thorough は深さ・入念さの語で、範囲の広さを必ずしも含まない。extensive research は広範な研究、thorough research は細部まで綿密な研究である。\n例: The audit requires a thorough examination of the records.\n訳: その監査には記録の綿密な調査が必要だ。"
+    },
+    {
+      "id": "antonym:006",
+      "kind": "antonym",
+      "location": "lines:309-314",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "adbe23282bb0e5c01cd538c4a3fac97d5f87199924794f8257a79d53d00a4b88",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・limited\n定義: 扱う範囲・量・選択肢が限られた。\n頻度: 〈9/10〉\n違い: extensive の幅広さに対する直接的な反対語で、knowledge・experience・range などに使える。\n例: He has limited knowledge of the local market.\n訳: 彼は地元市場についての知識が限られている。"
+    },
+    {
+      "id": "antonym:007",
+      "kind": "antonym",
+      "location": "lines:316-321",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "899044f316eb9db65db07c3877e418375b8e85ad6c89c87965db49d4bdde066c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・narrow\n定義: 範囲・視野・対象が狭い。\n頻度: 〈9/10〉\n違い: narrow は対象分野や視野の狭さを強調する。\n例: The study focused on a narrow range of species.\n訳: その研究は狭い範囲の種に焦点を絞った。"
+    },
+    {
+      "id": "antonym:008",
+      "kind": "antonym",
+      "location": "lines:323-328",
+      "section": "＃意味・用法・関連表現",
+      "sense": "3. 【形容詞・範囲・内容】幅広い、包括的な",
+      "text_sha256": "8c032cfc8230faa418005d58f3831c189beb2c129c7ccd5356a406bbf811a14f",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・restricted\n定義: 規則・条件・範囲によって制限された。\n頻度: 〈7/10〉\n違い: restricted は外部の規則や条件によって利用・適用範囲が抑えられていることを示す。\n例: Access to the archive is restricted to researchers.\n訳: その資料館へのアクセスは研究者に制限されている。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "kind": "sense_boundary",
+      "location": "line:330",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "5efd46793c13c83d086186606ee7df7c0cfee75d40d3d5e3054b9197e738441e",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "4. 【形容詞・農業】粗放的な、粗放農業の"
+    },
+    {
+      "id": "definition:004",
+      "kind": "definition",
+      "location": "line:332",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "a05b709505924d0eedf7490477b5a3d3f0e358bab8ba610b91defe5f114f12bf",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "広い土地を使い、土地1単位当たりの資本・労働・その他の投入を比較的少なくして作物や家畜を生産する農業方式を表す。広い土地を使うことと低投入であることが組み合わさった専門義であり、単に「農地が広い」だけではない。集約農業より土地当たりの収量が低くなりやすいが、総生産が必ず少ない、または非効率だという評価を含むわけではない。"
+    },
+    {
+      "id": "frequency:004",
+      "kind": "frequency",
+      "location": "line:334",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "a0e445b4ea32382084179e64d42d17cc5ca8def51850cf67e191301932796344",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈3/10〉"
+    },
+    {
+      "id": "register:004",
+      "kind": "register",
+      "location": "line:336",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "03e561392db83b467c64fd5a4d3748e0530ee3cd8db13dc32aa9df5a8309f90c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "農業・畜産の専門語。一般会話では extensive farming/agriculture の定着した語句で現れることが多い。intensive farming/agriculture と対比される。"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "kind": "grammar_pattern",
+      "location": "line:338",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "1f2c4c51558964b0842c8fc8f108f4aafa2d98a2928c1cf4e5d009da919ae1b8",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive farming/agriculture＝粗放農業"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "kind": "grammar_pattern",
+      "location": "line:338",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "29788322bfb8de4b0c90d573dc66444816791f9b227d57b3f63ae1f9fc0cfb0a",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive livestock farming＝粗放畜産"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "kind": "grammar_pattern",
+      "location": "line:338",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "425372201a3240e89704e92a3ae1fb93c1323a687197f0bf9e14e38e5091ab37",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive grazing＝粗放放牧"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "kind": "grammar_pattern",
+      "location": "line:338",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "eb9e460066376690e3c41fbcec5a3e744cc7158387f3b78cf0025a48b7f05958",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "an extensive farming system＝粗放的な農業体系"
+    },
+    {
+      "id": "collocation:018",
+      "kind": "collocation",
+      "location": "lines:342-345",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "fc99f87deefd9037a0db218c3280f98583b344e45fd2aa949ced85ad0e708a10",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive farming\n用途: 広い土地に比較的少ない投入・労働を用いる農業方式を表す。\n例: Extensive farming is common in regions where land is abundant but labor is scarce.\n訳: 土地は豊富だが労働力が少ない地域では、粗放農業が一般的である。"
+    },
+    {
+      "id": "collocation:019",
+      "kind": "collocation",
+      "location": "lines:347-350",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "f1fff80d1b8a2e8c5e08750373eb7a37a38667f1627aa4f77ee1a8a3715d99e2",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive agriculture\n用途: 作物・家畜を含む粗放的な農業全般を表す、やや硬い表現。\n例: The policy aims to protect biodiversity in areas used for extensive agriculture.\n訳: その政策は粗放農業に利用される地域の生物多様性を守ることを目指している。"
+    },
+    {
+      "id": "collocation:020",
+      "kind": "collocation",
+      "location": "lines:352-355",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "2af2d8d3fa242f16461c34c368d738c627a30d702cfbd567ac0fa47fd5f2f5cb",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive livestock farming\n用途: 広い土地で家畜を低い飼養密度・低投入で育てる方式を表す。\n例: Extensive livestock farming relies heavily on natural pasture.\n訳: 粗放畜産は自然の牧草地に大きく依存する。"
+    },
+    {
+      "id": "collocation:021",
+      "kind": "collocation",
+      "location": "lines:357-360",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "a24622db639525e0019f1310517dcc12f3349780896a8ad74a22dbfcfe3df82b",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・extensive grazing\n用途: 広い放牧地で家畜を飼う粗放的な放牧を表す。\n例: Extensive grazing can maintain open landscapes when stocking rates are low.\n訳: 飼養密度が低ければ、粗放放牧は開けた景観を維持できる。"
+    },
+    {
+      "id": "usage_note:009",
+      "kind": "usage_note",
+      "location": "line:362",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "341d7c6194c71ca37b3881215d0283a8e41070e3da08bbf6908519e014819ccf",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "この語義では extensive を「大規模な」「広範な」とだけ訳すと、低投入・低密度という対比が抜ける。extensive farming は土地当たりの投入が少ない方式、intensive farming は土地当たりの投入を増やして高い生産性を目指す方式である。"
+    },
+    {
+      "id": "usage_note:010",
+      "kind": "usage_note",
+      "location": "line:364",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "a19a7b1cca3bdc64d299ee118439cdc51f695a079af8ad2294a93601c771c60c",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "農業用法の extensive は、一般語義2の extensive production「大規模な生産」と完全に同義ではない。広い土地を使っていても、単位面積当たりの投入が少ないという方式上の特徴がなければ、この専門義とは限らない。"
+    },
+    {
+      "id": "synonym:014",
+      "kind": "synonym",
+      "location": "lines:368-373",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "6441b626c98b598688342e39931e4b4e6769e2c65886cc2145d0638fca8cb061",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・low-input agriculture\n定義: 土地・労働・資本などの投入を比較的少なくして行う農業。\n頻度: 〈5/10〉\n違い: low-input agriculture は投入の少なさを直接表す。extensive agriculture は低投入に加え、広い土地・低密度という空間的な方式も含む。\n例: Low-input agriculture can reduce dependence on synthetic fertilizers.\n訳: 低投入農業は合成肥料への依存を減らせる。"
+    },
+    {
+      "id": "synonym:015",
+      "kind": "synonym",
+      "location": "lines:375-380",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "bab39920253b387a7077d0fbc62bf9b6ade89e9b92e402b112c452f3e1d7784e",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・pastoral farming\n定義: 牧草地などで家畜を飼育する農業。\n頻度: 〈5/10〉\n違い: pastoral farming は家畜・牧草中心であることを示すが、必ずしも低投入・低密度とは限らない。extensive livestock farming はその一部になりうる。\n例: Pastoral farming remains important in the uplands.\n訳: 高地では牧畜が今も重要である。"
+    },
+    {
+      "id": "synonym:016",
+      "kind": "synonym",
+      "location": "lines:382-387",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "6a0a4d77b4ed5bda4fdf6c2201fcae0579eb8a77fdf309b2916eed8654d58721",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・ranching\n定義: 広い土地で主に牛などの家畜を飼育する事業・農業。\n頻度: 〈6/10〉\n違い: ranching は地域・経営形態を含む語で、extensive farming の方式全般と一致しない。\n例: Ranching has shaped the economy of the region.\n訳: 牧場経営はその地域の経済を形づくってきた。"
+    },
+    {
+      "id": "antonym:009",
+      "kind": "antonym",
+      "location": "lines:391-396",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "00486ec6381ab526c02e15173e357ee0c54cf3be88ee49921a238c01deacfc55",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・intensive\n定義: 単位面積当たりに多くの資本・労働・肥料・飼料などを投入する農業方式の。\n頻度: 〈7/10〉\n違い: 農業では extensive の直接的な対照語で、土地の広さよりも単位面積当たりの投入密度に焦点を置く。\n例: Intensive agriculture can produce high yields from relatively small areas.\n訳: 集約農業は比較的狭い土地から高い収量を生み出せる。"
+    },
+    {
+      "id": "antonym:010",
+      "kind": "antonym",
+      "location": "lines:398-403",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・農業】粗放的な、粗放農業の",
+      "text_sha256": "ea895b312f166e96e925992433668dbf7ed2a09b0943c25071eb39dfb7c17ba0",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・high-input\n定義: 土地や生産単位当たりの投入量が多い。\n頻度: 〈5/10〉\n違い: high-input agriculture は投入の多さを直接示す説明的な表現で、extensive の専門的な対比として使われる。\n例: High-input farming often requires careful management of water and fertilizer.\n訳: 高投入型農業では、水と肥料の慎重な管理が必要になることが多い。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "kind": "sense_boundary",
+      "location": "line:405",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "128055d17e7377930eb3dd9ab63fa00f0f16e9c05a0322998b70699709d4af9b",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する"
+    },
+    {
+      "id": "definition:005",
+      "kind": "definition",
+      "location": "line:407",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "7290b413c21c2af35e025438567fb6b7ce7e1f8b276943164f7fd2fca1ad1ec3",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "熱力学などで、物質の量や系の大きさに応じて値が変わり、独立した部分系の値を足し合わせられる性質を表す。質量・体積・エネルギー・エントロピーなどが例である。extensive property は、系を同じ状態のまま大きくすると通常は値も増えるという意味であり、「広い」「大規模な」という一般義の単なる言い換えではない。"
+    },
+    {
+      "id": "frequency:005",
+      "kind": "frequency",
+      "location": "line:409",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "a0e445b4ea32382084179e64d42d17cc5ca8def51850cf67e191301932796344",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈3/10〉"
+    },
+    {
+      "id": "register:005",
+      "kind": "register",
+      "location": "line:411",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "dd7292307a3835a2ad376f9fa3f41c37408b6d24b762d28c468d76d2236f741a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "物理・化学・熱力学の専門語。intensive property「示強性の性質」と対比される。"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "kind": "grammar_pattern",
+      "location": "line:413",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "c10ec55681e0bc31200238203ac4f96f736ee0a3b74015e44f2f702e661921ab",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "an extensive property/quantity＝示量性の性質・量"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "kind": "grammar_pattern",
+      "location": "line:413",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "546cd7f852f435dc027ccb0e5d6ebd46faf0ea88c80baec2ce293bff66f39390",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "an extensive variable＝示量変数"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "kind": "grammar_pattern",
+      "location": "line:413",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "349c6fbf250d44ff0276b1817ab2ecf25ea99d331df1215bdeaf6b5fb5e6ebd3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "be extensive＝系の大きさに応じて増える"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "kind": "grammar_pattern",
+      "location": "line:413",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "a3dfbd7eff6a83ede88275f63868d0ec2e3293961e3e2a05ae7841a54dd5b2c8",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "extensive with respect to 〈system size〉＝〈系の大きさ〉に関して示量性である"
+    },
+    {
+      "id": "collocation:022",
+      "kind": "collocation",
+      "location": "lines:417-420",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "5d2b891f0912aab3d635a965ca8b1d24df5c074a719ac83ac424a20ffa0cb255",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive property\n用途: 系の大きさや物質量に応じて値が変わる物理量を表す。\n例: Mass is an extensive property because it depends on the amount of matter.\n訳: 質量は物質の量に依存するため、示量性の性質である。"
+    },
+    {
+      "id": "collocation:023",
+      "kind": "collocation",
+      "location": "lines:422-425",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "d53c6e5bba4ab4ac21facf23a57395baee03f040fe0917f3b263f3f9c858efe6",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive quantity\n用途: 部分系に分けたときに加法性を示す物理量を表す。\n例: Volume is an extensive quantity that can be added across independent subsystems.\n訳: 体積は、独立した部分系について足し合わせられる示量性の量である。"
+    },
+    {
+      "id": "collocation:024",
+      "kind": "collocation",
+      "location": "lines:427-430",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "723e9ba49e3a0f7d80af95366b8784a658df3702679f1a74158c19912302920d",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive variable\n用途: 熱力学で、系の規模に応じて変化する変数を表す。\n例: In this model, total energy is treated as an extensive variable.\n訳: このモデルでは、全エネルギーを示量変数として扱う。"
+    },
+    {
+      "id": "collocation:025",
+      "kind": "collocation",
+      "location": "lines:432-435",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "6df115cd02787ae64de772d3f20e2a2dcac7a6c526cf75db32ea78f77d02417b",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensive entropy\n用途: 系を拡大したときに加法的に増えるエントロピーを表す。\n例: For independent systems, the total entropy is extensive.\n訳: 独立した系では、全エントロピーは示量性をもつ。"
+    },
+    {
+      "id": "collocation:026",
+      "kind": "collocation",
+      "location": "lines:437-440",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "43d215a2e86ec210677ff449e8781799dc4d13094a9e52cfc58e24ad598cd8d4",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive thermodynamic property\n用途: 熱力学上の示量性を、示強性と区別して一般的に述べる。\n例: Heat capacity is often introduced as an extensive thermodynamic property.\n訳: 熱容量は、示量性の熱力学的性質として導入されることが多い。"
+    },
+    {
+      "id": "usage_note:011",
+      "kind": "usage_note",
+      "location": "line:442",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "a59a97d579ec56e8ed3f655606d196cc823492ed11c865bb04ac10e77beedb94",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "この専門義では「系を二つの同種の部分に分けると、全体の値が部分の値の和になる」という加法性が重要である。単に大きい物理量という意味ではなく、系のサイズや物質量との関係を分類する用語である。"
+    },
+    {
+      "id": "usage_note:012",
+      "kind": "usage_note",
+      "location": "line:444",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "3bc98ffa7f99567631a18fd1401ccc49ff4635b51513f9b94c42d119a305c567",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "示量性の量を物質量や質量で割ると、密度や比エネルギーのような示強性の量になることが多い。intensive は系の大きさに依存しない性質を表すため、一般語義の「intensive＝集中的な」と機械的に訳さない。"
+    },
+    {
+      "id": "synonym:017",
+      "kind": "synonym",
+      "location": "lines:448-453",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "d1637fb23debd461e19ff7653625922902e4349686a63f01cab996b212d6cc32",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・additive\n定義: 独立した部分の値を足し合わせて全体の値を得られる。\n頻度: 〈7/10〉\n違い: additive は加法性という性質に焦点を置く。extensive は加法性に加えて、系の大きさ・物質量に応じて値が変わる熱力学上の分類を表す。\n例: Entropy is additive for independent subsystems under these conditions.\n訳: これらの条件では、独立した部分系のエントロピーは加法的である。"
+    },
+    {
+      "id": "synonym:018",
+      "kind": "synonym",
+      "location": "lines:455-460",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "26a055eeeb1fefc32ced6e229142ab6ca1ad12460e9b22121c2b70b35b1b9bc1",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・size-dependent\n定義: 対象の大きさや規模に応じて値や結果が変わる。\n頻度: 〈6/10〉\n違い: size-dependent は一般的な説明語で、加法性を含意しない。extensive は物理・熱力学上の技術分類である。\n例: The measured mass is size-dependent, whereas density is not.\n訳: 測定された質量は大きさに依存するが、密度は依存しない。"
+    },
+    {
+      "id": "antonym:011",
+      "kind": "antonym",
+      "location": "lines:464-469",
+      "section": "＃意味・用法・関連表現",
+      "sense": "5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する",
+      "text_sha256": "d531f2fd12849dad6ff96826030fff3df3af1139083828ead7de67cde253d84c",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・intensive\n定義: 系の大きさや物質量に依存せず、部分系でも同じ値を保つ性質の。\n頻度: 〈7/10〉\n違い: 熱力学では extensive の直接的な対照語。temperature・pressure・density などが典型例である。\n例: Temperature is an intensive property of a thermodynamic system.\n訳: 温度は熱力学系の示強性の性質である。"
+    },
+    {
+      "id": "sense_boundary:006",
+      "kind": "sense_boundary",
+      "location": "line:471",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "9a8948a210e4070375f4b8785d5e6cc04993b09b1cb24ba6cb1af1bfa12c9d48",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "6. 【形容詞・論理】外延的な、外延に基づく"
+    },
+    {
+      "id": "definition:006",
+      "kind": "definition",
+      "location": "line:473",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "7fd2ef4ce16e7775b2862ba560ed687a2ad49294ea575679caf065c3c72499c3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "論理学で、語や概念の意味内容・属性ではなく、その語が適用される対象の集合、すなわち外延に関係することを表す。現代の論理学・意味論では extensional の方が一般的で、extensive のこの用法はまれである。"
+    },
+    {
+      "id": "frequency:006",
+      "kind": "frequency",
+      "location": "line:475",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "c9f89b3d40a42341908558a5512ad7d34bbc108cc33b512e22b76f6557469962",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "〈2/10〉"
+    },
+    {
+      "id": "register:006",
+      "kind": "register",
+      "location": "line:477",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "90f50be8f12aed16b5d189bdf88d2626fafd9d730aae18b6dc44fc7aca890cd9",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "論理学・哲学の専門語。一般語義の「幅広い」「包括的な」とは別に、extension「外延」との関係を示す。"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "kind": "grammar_pattern",
+      "location": "line:479",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "722b37f91c3814d4255e7d6d2b17b33418cf666f0626668c6d7a0810a5e81cc3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "an extensive definition of 〈term〉＝〈語〉の外延的定義"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "kind": "grammar_pattern",
+      "location": "line:479",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "f5c09c8abd198ed7bd2cc3f6be82a8b26ccb9d3162cf392b5bb90cc888fd8141",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "be extensive rather than intensional＝内包的でなく外延的である"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "kind": "grammar_pattern",
+      "location": "line:479",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "d7ab00a3882e9fe89871f6024fbe7e30dcd30c02c4cddd977660802adae69c16",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "an extensive account of 〈objects〉＝〈対象〉の外延に基づく説明"
+    },
+    {
+      "id": "collocation:027",
+      "kind": "collocation",
+      "location": "lines:483-486",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "b1f7a33116be284b9a10eb4a754e04f31ddb555cfadc82c43659d6cdd101741a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・an extensive definition of 〈term〉\n用途: 語の意味属性ではなく、その語が適用される対象を示す定義を表す古風・専門的な用法。\n例: In older logical terminology, an extensive definition identifies the objects to which a term applies.\n訳: 古い論理学の用語では、外延的定義はある語が適用される対象を特定する。"
+    },
+    {
+      "id": "collocation:028",
+      "kind": "collocation",
+      "location": "lines:488-491",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "219db591ff8140cc7b62de10a59fab47c79e2c3c4df8b965114f26043999faa1",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・an extensive rather than intensional definition\n用途: 対象の集合による定義と、意味内容・属性による定義を対比する。\n例: The textbook contrasts an extensive definition with an intensional definition.\n訳: その教科書は外延的定義と内包的定義を対比している。"
+    },
+    {
+      "id": "collocation:029",
+      "kind": "collocation",
+      "location": "lines:493-496",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "a433943a7484780cf0b14149fb3277aaf12e1b8ebe04843726a3d6fac7cbd064",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "・the extensive sense of 〈concept〉\n用途: 概念が指し示す対象の集合に関する側面を説明する。\n例: The author discusses the extensive sense of the category before analyzing its properties.\n訳: その著者は、カテゴリーの属性を分析する前に、その外延的な側面を論じている。"
+    },
+    {
+      "id": "usage_note:013",
+      "kind": "usage_note",
+      "location": "line:498",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "5d27c0c4d80a2c69c8ae726aa73369a82bc9cfe93b3a32fedc57df91405a6cdf",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "この用法で extensive は「範囲が広い」という意味ではない。extension「外延」に結び付いた専門用法であり、現在の論理学・意味論では extensional definition がより普通である。"
+    },
+    {
+      "id": "usage_note:014",
+      "kind": "usage_note",
+      "location": "line:500",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "1bf30c707e2597ea7c17543155dd078340f91298250196f22080ae113a9d80c6",
+      "requires_evidence": true,
+      "evidence_policy": "one_source",
+      "text": "intensional は「内包的な」で、概念が適用される対象の一覧ではなく、概念を成り立たせる属性・意味内容に基づく。extensive と intensive は一般語では規模と集中の対比だが、この論理学用法では extensive と intensional が対になる。"
+    },
+    {
+      "id": "synonym:019",
+      "kind": "synonym",
+      "location": "lines:504-509",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "ee7047b6a64aa29f29577c7c069bf9a23fa632f626c277983f6e342699db812d",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・extensional\n定義: 語や概念が適用される対象の集合・外延に関係する。\n頻度: 〈4/10〉\n違い: extensional は現代の論理学・意味論で通常選ばれる専門語。extensive は辞書に記載されるが、現代の専門文ではまれである。\n例: An extensional definition lists the objects that fall under a term.\n訳: 外延的定義は、ある語に当てはまる対象を列挙する。"
+    },
+    {
+      "id": "antonym:012",
+      "kind": "antonym",
+      "location": "lines:513-518",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "ad1b6eab9c971817e85fe55b393d8c253f8b161998c3b23caaf3e5dcccb55b0a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・intensional\n定義: 概念の内包、つまりその概念を成り立たせる属性・意味内容に関する。\n頻度: 〈4/10〉\n違い: 論理学では、対象の集合に基づく extensive/extensional に対し、概念の属性や意味内容に基づく。\n例: An intensional definition specifies the essential properties of a concept.\n訳: 内包的定義は、ある概念の本質的な属性を明示する。"
+    },
+    {
+      "id": "antonym:013",
+      "kind": "antonym",
+      "location": "lines:520-523",
+      "section": "＃意味・用法・関連表現",
+      "sense": "6. 【形容詞・論理】外延的な、外延に基づく",
+      "text_sha256": "828ab46c2deaafb34cf881b2ba83fb54b4c8a72d8d25c3535a364e0ac051e443",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "【関連語法】\nextensive は、一般語義では「広がり・量・規模が大きい」、専門義では「広い土地を低投入で使う」「系の大きさに応じて増える」「外延に関係する」と意味の焦点が変わる。\n「広範な」を言いたいときは extensive、「細部まで入念な」を言いたいときは thorough、「深く集中的な」を言いたいときは intensive を選ぶ。extensive research は研究の範囲・量、intensive research は深さ・集中度を強調する。\nextensive damage は被害の範囲・規模が大きいという意味で、必ずしも damage が最も深刻、全面的、回復不能という意味ではない。"
+    }
+  ],
+  "relations": [
+    {
+      "id": "risk_sense_pair:001",
+      "kind": "risk_sense_pair",
+      "target_ids": [
+        "sense_boundary:001",
+        "sense_boundary:002"
+      ],
+      "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 1 with sense 2",
+      "text_sha256": "5c6b5afad4ef9399a94ef26bc72d45a47e9c6c5304d76dcc0347f93244425ab1",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "kind": "risk_sense_pair",
+      "target_ids": [
+        "sense_boundary:001",
+        "sense_boundary:003"
+      ],
+      "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:001 explicitly contrasts sense 1 with sense 3",
+      "text_sha256": "3a8daaf551711e2121d38c073cf62abf4cec433997582eb09a76413cf19db0ed",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "kind": "risk_sense_pair",
+      "target_ids": [
+        "sense_boundary:002",
+        "sense_boundary:004"
+      ],
+      "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:010 explicitly contrasts sense 4 with sense 2",
+      "text_sha256": "96026ee1a77552bcb955247754c98a988010c71f012e4d61f68e2f2e70f5d6aa",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "example_translation:001",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:001"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "26750269ee9dd5b51b69765498e65b4a87effedbbc0238eb29e302fcc51b1271",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:002",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:002"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "0fddd7231b615b1468c1bb23515fe6ee82ffdf770efff68aeac4dbb2df355152",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:003",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:003"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "ae6f03bfc90aa62807a5306af7169ced4893be7f3fe0c7eef691a27f2c6671be",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:004",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:004"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "b7bd8e4f64f2b5b4416c868f399db21d336bb2525a56cb9582dc575f8de0f7d3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:005",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:005"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "2c3d879214f4eaf61bfe50841656663a25b4c418dce8fa21d84fb2637c575cf5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:006",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:006"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "e6b70b6f529d0afd20caa1af0a66c20b2b508c59841b4f32f3ef20f4e775bf02",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:007",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:007"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "70ef911dd4616153972b44f7c6764b22f0d4c69c0f3128250f4e79719f5c37d9",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:008",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:008"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "5f2bc65b94c6a305d15a4a7799b1b5f405b78d66c43ed082ddae23034fa9d638",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:009",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:009"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "0b4b10a1fbf88bacd5150465ea4b231fc56e5e27736eef3449c9f50b98a6fe2e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:010",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:010"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "58d14b97f4826f5fe10d2313973b4228da01f3317e3edc280fd457b43980af45",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:011",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:011"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "43b8fe04035e437529cb24a74677df60f7d66c4b2f25c8fee27238aa8f1a3675",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:012",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:012"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "509ba966ede82e1b103e8461e7092b2e5bcccba6e77731ba860850397c816a49",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:013",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:013"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "fff01262eb1dccb4fd32f0e2eb32aeb8abdc2ff0ef1c5bdcca2d9ce346ebd89d",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:014",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:014"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "ed18c55011dc1dbb438a4c8003942bc2099c39c6d943b0d0d880b51e34cc60a8",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:015",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:015"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "f1f4d154221226e8731d52c15bca47cfcfc59bc3d3c11f1677dc93c077deea0c",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:016",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:016"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "9a5ba5f4b940826c43edfca9d891090221732523a58bf3f7e7aaa360336e79ec",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:017",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:017"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "b5ddc1ed1f0045303a9d382f34db7085e0dcade2526d929c2545f84c149949b8",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:018",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:018"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "aa3b76fa802a9dbaa226d786ff181ff927a73b3cdf429fb5b8f8312975477d7b",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:019",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:019"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "13054c78bdd6107f9bdbb5a51d181d661263fee2c8d251d8bf6aeb263ebffe6b",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:020",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:020"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "3aa15a03db6c5911970c1214d9e56ad47ecc60f9a9726f19bcf132c531ac61a5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:021",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:021"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "43eec0b79bfe21c4bfcaa005e347305ec22ec75e745563ad0c1f41d75244a0b2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:022",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:022"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "6e9c040614e742806701217cff5b85c68a584db99ebac3f26581fc40787fed54",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:023",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:023"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "810c91ebe5939d2df5db4c70264773273d58ae3205969bca2088c4dbf27c0f68",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:024",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:024"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "e7d33a31acdc18f3898ce327af9ef973e214f30ad8daf51ec62b79e60476dc95",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:025",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:025"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "c3822a17edadeb3e1dd550ad9a56af91f7d3c058340a2650a448400259efe857",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:026",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:026"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "1ca07cae0e5712c03cf47433e0c80e16aa2f198b83b864d1c320fd7decd99da1",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:027",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:027"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "2bf49ba0aec38172b2d30dcbef5c60f10b026432cb5950cab4ee26610759adfe",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:028",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:028"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "8b06e9bea2700652ddbcb554473ee89388b43b163dd22e0840badd9e20cfab39",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "example_translation:029",
+      "kind": "example_translation",
+      "target_ids": [
+        "collocation:029"
+      ],
+      "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+      "text_sha256": "72d2c59eae9ec0b72e1a40b6340a3c56e94c30499966bc1c256991af6c1071da",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "a610295e5ff2f26df8c51c3804bd7d2fb7fd9bef0c6ea2226069e2ad051c2267",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:001"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "fce9e9eb0b0e86ca9ca46179914e226d1702b8d93d1ac7cbe7296a1d33593011",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:002"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "643dbf15b2eb98a464600df9ff5cc7b8d233bdb7073c825c5f39381a28747679",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "antonym:001",
+        "antonym:002"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "b8da0ccb470dfc1559172c992cbecacde47461531aabd003a5bd14ec7633c141",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:001",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "64266f8218e05b59fa5b328e57c30ff8773bcf7a71d4f83ce958af62d763bcd1",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:002",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "33e3dd99672a0cbf8186f4543cfaf38387d49b4c3e6f9fa3bc5989274908219d",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "ca4b8c251b857a52dc628a70fd4679f3bb7bcb9d3bc05c2f7cdbb60f1fc93be6",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:002",
+        "definition:002"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "e254f29d0b4af1400fd7482afff3595556e4dd05869cb4266669e3b16e6c794a",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "usage_note:003"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "6cac72b9839e88cd35978f927a2e776a21a305b60e26b98fa2ac1bfefc8d270f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "usage_note:004"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "0b8226893f09be5051fd537239ca59e347f3789fc427595143dd3d9d614e1587",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "usage_note:005"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "967ce80fd4df1b96246a6ece81c733fd61384b52767f75577bd1dc0d7b113289",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "antonym:003",
+        "antonym:004",
+        "antonym:005"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "a4627ad7f6ac313a48196445e89fe51a41e00e95c3b5829b1bfb8a72b5dda631",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:004",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "5258999ddac733a6ffa75e97d26a40f8f52a7b141205d7aa8946b3ac33c91cca",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "8a6970f6373fa575092783d2caf718d722955bd13a22dc29db5dbd19fd19e83f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:006",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "21ba1265c6c0c0cba51a654f241984a30004ab64c6af2de9e17c72c062d340c4",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:003",
+        "definition:003"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "7b33dfa1288ca4b8970a9d2adbdb7a6e92deaecbc7bcb6e5a9cc151753fe01e5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "usage_note:006"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "e8eb84aa41f19147f3d7d6fccc7fb6fe0a66cc658cf69e1e3848e71d0ddaf778",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "usage_note:007"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "db1ff24f6234e8ca249c1e0ac3e45ffd20a8e7405f3b8d070d84f2250eabe015",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "usage_note:008"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "10ce9405b2439fc0bfa2de243bae40c7647e1ce4c53841bbbe0d0e525c1c5241",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012",
+        "synonym:013",
+        "antonym:006",
+        "antonym:007",
+        "antonym:008"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "e2916cf8f41fd68d2eab491f71b7edb92518c66c16a08d928f8f4cddc0a47634",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:007",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "766013fee25f4f809ff83253f1a99e6f2ae5baa298cde3aa8ce0db752ae86013",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:008",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "b63faea7194633cdcdb56078dadfe9e8c72137e25e0a7baf608dfe18fc7f41c3",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:009",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "d635c23c83f9998bd4afb572e0609e3bba074fcc594b004dbd35ef37e69a4318",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:010",
+        "collocation:012",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "86e32ba233b8e879d4dbce5e118a8b9b695b74af9ec7d7d2c9147324c0dd3bc7",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:004",
+        "definition:004"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "e7e9946cca35310439b0a30a66b684d37cd144eca7e8b4ee7e360722b5461a29",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "usage_note:009"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "ae4c3694f8cceb3c0ed073cc90870b3a0cd753011b74b2882318059f64c27208",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "usage_note:010"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "d996f4854e76c293cd975c548392e3dd8ae9703f648a6556b45f25d5296e29e2",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "synonym:014",
+        "synonym:015",
+        "synonym:016",
+        "antonym:009",
+        "antonym:010"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "579007966830a26c170131d50ef9a575042336a6f575463cd8be8afad5a58f9f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:011",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "3b1b4c93fd66dd6e8087c175c44e95ec7bf6e87d61062f9dfc3bdf7722247324",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:012",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "f8310e3d0c482ef0df29f793f7db4517b6d7e7eb10f8dbcf72475528b121987f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:013",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "e846de8ccc8294918e3270c7362e19fc6d952c8bcade2fb1b79554700bc8291e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:014",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "e50ad2cfa7eb7f782b3371867d7e8e7a0d5825243ffda25a76e9ae301ff35415",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:005",
+        "definition:005"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "db0f21645c8588eda738bf3097ff2d7b7fa493bfd6152f5879343320d182f2e6",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "usage_note:011"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "4504cc3dbec89e188aa69e46d683f526d0a807ddec6f28ed999fa5828750167c",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "usage_note:012"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "64f6aef85754468c2330cdaf698b2b2c9cd722f2fc8ddcdc6e0c83374da5f5f5",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "synonym:017",
+        "synonym:018",
+        "antonym:011"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "cd9849c42c06f3b8dad4a02a61d6df62a76690e63853240a1f2868f624820eba",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:015",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "3a298d957304ea8fad92f0e0fb109795769246aa4b7d339e8af941d9e7e30281",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:016",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "7158bbc03ee6cae34612be963f511e2e6e59f34023afa6091a60b4aaa7d8fc26",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:017",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "37f0456caf4415dea34635aefc31bca21f578564df0d6f6c6a27a1e4a374a517",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:018",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "collocation:026"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "dd25aa0c17ee9e0eeb4ed67213d4cec39c75e5a5c7fd97d6612f63370d262d2a",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "kind": "sense_definition_consistency",
+      "target_ids": [
+        "sense_boundary:006",
+        "definition:006"
+      ],
+      "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+      "text_sha256": "630ad70d7f4a49e2c4869ebada1cf3d113406ba5459f6adc1af15ad15fcf9dae",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "usage_note:013"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "c56c02c5bea8ea273f4010fff2947ce7c929cc2936e3a65e96b6d256591bd03c",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_usage_consistency:014",
+      "kind": "definition_usage_consistency",
+      "target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "usage_note:014"
+      ],
+      "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+      "text_sha256": "a0fcf842e0bf8e81edd9de5e53dcc0f484307a971e23f038dced6175be091f1f",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "kind": "definition_lexical_relation_consistency",
+      "target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "synonym:019",
+        "antonym:012",
+        "antonym:013"
+      ],
+      "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+      "text_sha256": "1b433888388c36dbc2537173c2fb8edf3b3bae02a959c724cbe6eec802e58825",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:019",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "0fdc828b24e9f2213b35231cb77be46ed717016737e5b8f59991c7a4933a7d28",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:020",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "856c42712ded1fcdd86e6967fabeba5a76cbe40e09aaaf14a879bc32ed517166",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "kind": "pattern_example_coverage",
+      "target_ids": [
+        "grammar_pattern:021",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029"
+      ],
+      "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+      "text_sha256": "e619342f36870426a84542190157987129e7f002b5bd04759b3e7d794bf6080e",
+      "requires_evidence": true,
+      "evidence_policy": "one_source"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "kind": "core_inventory_consistency",
+      "target_ids": [
+        "core_image:001",
+        "sense_boundary:001",
+        "sense_boundary:002",
+        "sense_boundary:003",
+        "sense_boundary:004",
+        "sense_boundary:005",
+        "sense_boundary:006"
+      ],
+      "description": "語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。",
+      "text_sha256": "684e29196c5ecd27c9d39f69301ccfcdaab61753e68b4c14341a82a9fbb640f0",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "kind": "core_sense_mapping",
+      "target_ids": [
+        "core_image:002",
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:001",
+        "usage_note:002"
+      ],
+      "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "text_sha256": "52ff6fa1710c23ba5ee2f298d2f55825e6b637ce9972b6322ed3737cdaf64d86",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "kind": "core_sense_mapping",
+      "target_ids": [
+        "core_image:003",
+        "sense_boundary:002",
+        "definition:002",
+        "usage_note:003",
+        "usage_note:004",
+        "usage_note:005"
+      ],
+      "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "text_sha256": "76722a59b2f880b2f7466a047841caa46b090af4dab2409a0e2dc14428f599d4",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "kind": "core_sense_mapping",
+      "target_ids": [
+        "core_image:004",
+        "sense_boundary:003",
+        "definition:003",
+        "usage_note:006",
+        "usage_note:007",
+        "usage_note:008"
+      ],
+      "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "text_sha256": "9d4f34e98626115463249f303b335ba87ec40327a66f74d002b8dee1e7bfebd1",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "kind": "core_sense_mapping",
+      "target_ids": [
+        "core_image:005",
+        "sense_boundary:004",
+        "definition:004",
+        "usage_note:009",
+        "usage_note:010"
+      ],
+      "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "text_sha256": "4839da866818763e5190a9a566b0e85ef936d07c79ade632dac5f708f8790c0b",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "kind": "core_sense_mapping",
+      "target_ids": [
+        "core_image:006",
+        "sense_boundary:005",
+        "definition:005",
+        "usage_note:011",
+        "usage_note:012"
+      ],
+      "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "text_sha256": "899114ef4df7dce90677379357c97201c9ebe363e1723eabc138d05b3a1c0769",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "kind": "core_sense_mapping",
+      "target_ids": [
+        "core_image:007",
+        "sense_boundary:006",
+        "definition:006",
+        "usage_note:013",
+        "usage_note:014"
+      ],
+      "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "text_sha256": "523396d1799f473ec256432012615985fdb88075af7361563fbb59aeb106c53a",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "kind": "article_learning_risk",
+      "target_ids": [
+        "core_image:001",
+        "core_image:002",
+        "core_image:003",
+        "core_image:004",
+        "core_image:005",
+        "core_image:006",
+        "core_image:007",
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:001",
+        "usage_note:002",
+        "sense_boundary:002",
+        "definition:002",
+        "usage_note:003",
+        "usage_note:004",
+        "usage_note:005",
+        "sense_boundary:003",
+        "definition:003",
+        "usage_note:006",
+        "usage_note:007",
+        "usage_note:008",
+        "sense_boundary:004",
+        "definition:004",
+        "usage_note:009",
+        "usage_note:010",
+        "sense_boundary:005",
+        "definition:005",
+        "usage_note:011",
+        "usage_note:012",
+        "sense_boundary:006",
+        "definition:006",
+        "usage_note:013",
+        "usage_note:014"
+      ],
+      "description": "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+      "text_sha256": "97e8df14b945a4a3251be71180834679ea27be7944dcbd816fcd3a422eb83302",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary"
+    }
+  ],
+  "evidence": [],
+  "evidence_links": [],
+  "normal_review": {
+    "role": "normal_checker",
+    "reviewer_id": "",
+    "reviewed_at": "",
+    "completed": false,
+    "execution": {
+      "run_id": "",
+      "context_id": "",
+      "started_at": "",
+      "completed_at": "",
+      "input_body_sha256": "",
+      "prompt_sha256": "",
+      "context_mode": "",
+      "input_artifacts": []
+    },
+    "independent_candidates": [],
+    "target_results": [],
+    "relation_results": []
+  },
+  "cold_review": {
+    "role": "cold_reviewer",
+    "reviewer_id": "",
+    "reviewed_at": "",
+    "prompt_version": "cold_review_prompt_v1",
+    "completed": false,
+    "execution": {
+      "run_id": "",
+      "context_id": "",
+      "started_at": "",
+      "completed_at": "",
+      "input_body_sha256": "",
+      "prompt_sha256": "",
+      "context_mode": "",
+      "input_artifacts": []
+    },
+    "summary": "",
+    "findings": []
+  },
+  "resolutions": [],
+  "semantic_gate": {
+    "version": "semantic_resolution_v2",
+    "body_sha256": "88420ce1c74d08adb6dc3f9d428324fdac8e4f95aa92d4441a9a4d0d6312f36d",
+    "constraints": [],
+    "final_inventory_checks": []
+  },
+  "final_review": {
+    "role": "final_adjudicator",
+    "reviewer_id": "",
+    "reviewed_at": "",
+    "completed": false,
+    "execution": {
+      "run_id": "",
+      "context_id": "",
+      "started_at": "",
+      "completed_at": "",
+      "input_body_sha256": "",
+      "prompt_sha256": "",
+      "context_mode": "",
+      "input_artifacts": [],
+      "reconciliation_started_at": "",
+      "reconciliation_input_artifacts": []
+    },
+    "body_sha256": "",
+    "decision": "pending",
+    "blind_review": {
+      "seal_version": "blind_seal_v2",
+      "completed": false,
+      "recorded_at": "",
+      "sealed_at": "",
+      "body_sha256": "",
+      "audit_visible": false,
+      "provisional_decision": "pending",
+      "article_findings": [],
+      "output_sha256": ""
+    },
+    "independent_candidates": [],
+    "inventory_comparison": [],
+    "blind_finding_results": [],
+    "target_results": [],
+    "relation_results": [],
+    "candidate_results": [],
+    "finding_results": [],
+    "evidence_checks": [],
+    "blockers": [],
+    "source_inventory_results": []
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 0,
+      "facts_used": 0,
+      "research_rounds_used": 0,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "in_progress",
+    "stop_reason": "",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": false,
+    "inventory_completed_at": null,
+    "article_comparison_started_at": null,
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "pending",
+        "source_fact_ids": [],
+        "notes": ""
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "pending",
+        "source_fact_ids": [],
+        "notes": ""
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "pending",
+        "source_fact_ids": [],
+        "notes": ""
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "pending",
+        "source_fact_ids": [],
+        "notes": ""
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "pending",
+        "source_fact_ids": [],
+        "notes": ""
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "pending",
+        "source_fact_ids": [],
+        "notes": ""
+      }
+    ],
+    "sources": [],
+    "source_union": [],
+    "claim_units": []
+  }
+}
