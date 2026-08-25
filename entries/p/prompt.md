@@ -737,4 +737,3 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 違い: request は依頼の内容・意図に焦点がある。prompt はAIシステムへ渡す実際の入力文と、その構成・条件を指す技術用語になっている。  
 例: The application processed the user's request.  
 訳: そのアプリケーションは利用者の依頼を処理した。  
-
