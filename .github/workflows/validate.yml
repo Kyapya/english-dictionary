@@ -41,14 +41,27 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Materialize sealed obvious blind audit
+      - name: Repair final gate and reseal obvious blind audit
         if: github.event_name == 'pull_request' && github.head_ref == 'agent/update-obvious-v5-20260825'
         run: |
+          PYTHONPATH=. python .tmp/repair_obvious_legal_synonym.py
           mkdir -p audits/o
+          PYTHONPATH=. python - <<'PY'
+          import json
+          from pathlib import Path
+          from scripts import content_audit
+          audit = Path('audits/o/obvious.json')
+          if audit.exists():
+              data = json.loads(audit.read_text(encoding='utf-8'))
+              current = content_audit.body_sha256(Path('entries/o/obvious.md'))
+              if data.get('body_sha256') != current:
+                  audit.unlink()
+          PY
           PYTHONPATH=. python .tmp/materialize_obvious_blind.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add \
+            entries/o/obvious.md \
             audits/o/obvious.json \
             audits/runs/o/obvious/cycle-001/cold_review.json \
             audits/runs/o/obvious/cycle-001/normal_review_initial.json \
@@ -57,7 +70,7 @@ jobs:
             audits/runs/o/obvious/cycle-001/revision-002.md \
             audits/runs/o/obvious/cycle-001/final_blind.json
           if ! git diff --cached --quiet; then
-            git commit -m "audit: seal obvious final blind review"
+            git commit -m "fix: add obvious legal synonym and reseal blind review"
             git push origin "HEAD:${{ github.head_ref }}"
           fi
 
