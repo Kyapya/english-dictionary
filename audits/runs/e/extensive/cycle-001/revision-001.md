@@ -514,3 +514,4 @@ extensive damage は被害の範囲・規模が大きいという意味で、必
 頻度: 〈4/10〉  
 違い: 論理学では、対象の集合に基づく extensive/extensional に対し、概念の属性や意味内容に基づく。  
 例: An intensional definition specifies the essential properties of a concept.  
+訳: 内包的定義は、ある概念の本質的な属性を明示する。  
