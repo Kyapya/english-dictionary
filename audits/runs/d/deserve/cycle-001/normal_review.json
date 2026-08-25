@@ -1,0 +1,1315 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal:deserve:20260825",
+  "context_id": "ctx:normal:deserve:20260825",
+  "input_body_sha256": "0e6fd69b65fc1346c4c8a078574a7af2abb983e97641b0ee21e2a87813c070ad",
+  "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
+  "independent_candidates": [
+    {
+      "id": "candidate:001",
+      "surface_form": "deserve + noun phrase",
+      "frame": "subject + deserve + reward, treatment, attention, blame, or punishment",
+      "meaning": "The subject is worthy of or appropriately receives the object, whether favorable or unfavorable.",
+      "rationale": "The article explicitly teaches the transitive noun-object frame across positive, negative, and abstract objects.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:001:cambridge",
+        "link:normal_candidate:candidate:001:oxford"
+      ]
+    },
+    {
+      "id": "candidate:002",
+      "surface_form": "deserve to do",
+      "frame": "subject + deserve + to-infinitive",
+      "meaning": "The subject is evaluated as meriting the action or result expressed by the infinitive.",
+      "rationale": "The article separates the to-infinitive frame from the noun-object frame and gives action/result examples.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:006",
+        "grammar_pattern:008",
+        "collocation:009",
+        "collocation:013",
+        "collocation:014"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:002:cambridge",
+        "link:normal_candidate:candidate:002:oxford"
+      ]
+    },
+    {
+      "id": "candidate:003",
+      "surface_form": "deserve to be done",
+      "frame": "subject + deserve + to be + past participle",
+      "meaning": "The subject is judged to merit receiving the treatment expressed by the passive infinitive.",
+      "rationale": "The article highlights the subject-role contrast between deserve to do and deserve to be done.",
+      "article_target_ids": [
+        "grammar_pattern:007",
+        "grammar_pattern:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "collocation:015",
+        "usage_note:005",
+        "usage_note:006"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:003:cambridge",
+        "link:normal_candidate:candidate:003:oxford"
+      ]
+    },
+    {
+      "id": "candidate:004",
+      "surface_form": "deserve doing",
+      "frame": "subject + deserve + gerund-participial form",
+      "meaning": "The subject is a matter worth being mentioned, noted, investigated, or discussed; the reading is often passive-like.",
+      "rationale": "The article gives a separate sense for the doing-form construction and warns against an active translation.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:004:cambridge",
+        "link:normal_candidate:candidate:004:oxford"
+      ]
+    },
+    {
+      "id": "candidate:005",
+      "surface_form": "deserving of",
+      "frame": "deserving + of + noun phrase",
+      "meaning": "An adjective meaning worthy of support, praise, attention, or another treatment.",
+      "rationale": "The word-formation section records deserving of as an adjective rather than only a verb form.",
+      "article_target_ids": [
+        "word_formation:002"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:005:cambridge",
+        "link:normal_candidate:candidate:005:oxford"
+      ]
+    },
+    {
+      "id": "candidate:006",
+      "surface_form": "well-deserved",
+      "frame": "well-deserved + noun phrase",
+      "meaning": "An adjective marking a result or treatment as appropriately earned or warranted.",
+      "rationale": "The article includes well-deserved rest and praise as adjective examples.",
+      "article_target_ids": [
+        "word_formation:003"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:006:cambridge",
+        "link:normal_candidate:candidate:006:oxford"
+      ]
+    },
+    {
+      "id": "candidate:007",
+      "surface_form": "undeserved / undeserving",
+      "frame": "negative adjective derived from deserve",
+      "meaning": "Not appropriately earned or not worthy of the treatment or result at issue.",
+      "rationale": "The article explicitly provides negative adjective forms and examples such as undeserved criticism.",
+      "article_target_ids": [
+        "word_formation:004"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:007:cambridge",
+        "link:normal_candidate:candidate:007:oxford"
+      ]
+    },
+    {
+      "id": "candidate:008",
+      "surface_form": "get what you deserve / deserve better",
+      "frame": "idiomatic result or treatment expressions",
+      "meaning": "Established expressions connect conduct or present treatment with the result or treatment judged appropriate.",
+      "rationale": "The collocation section teaches both the negative-result idiom and the request for improved treatment.",
+      "article_target_ids": [
+        "collocation:006",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:008:cambridge",
+        "link:normal_candidate:candidate:008:oxford"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:001:cambridge",
+        "link:target:pronunciation:001:oxford"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:002:cambridge"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:003:cambridge"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:etymology:001:etymonline",
+        "link:target:etymology:001:merriam"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:etymology:002:etymonline"
+      ]
+    },
+    {
+      "id": "etymology:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:etymology:003:etymonline",
+        "link:target:etymology:003:merriam"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:word_formation:001:cambridge",
+        "link:target:word_formation:001:oxford"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:word_formation:002:cambridge"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:word_formation:003:cambridge"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:word_formation:004:cambridge"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:core_image:001:cambridge",
+        "link:target:core_image:001:oxford"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:core_image:002:cambridge"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:core_image:003:cambridge"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:core_image:004:cambridge"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:001:cambridge",
+        "link:target:sense_boundary:001:oxford"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:definition:001:cambridge",
+        "link:target:definition:001:oxford"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:frequency:001:cambridge",
+        "link:target:frequency:001:oxford"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:register:001:cambridge",
+        "link:target:register:001:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:001:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:002:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:003:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:004:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:005:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:001:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:002:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:003:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:004:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:005:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:006:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:007:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:008:cambridge",
+        "link:target:collocation:008:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:001:cambridge",
+        "link:target:usage_note:001:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:002:cambridge",
+        "link:target:usage_note:002:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:003:cambridge",
+        "link:target:usage_note:003:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:004:cambridge",
+        "link:target:usage_note:004:oxford"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:001:cambridge",
+        "link:target:synonym:001:oxford"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:002:cambridge",
+        "link:target:synonym:002:oxford"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:003:cambridge",
+        "link:target:synonym:003:oxford"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:004:cambridge",
+        "link:target:synonym:004:oxford"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:005:cambridge",
+        "link:target:synonym:005:oxford"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:002:cambridge",
+        "link:target:sense_boundary:002:oxford"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:definition:002:cambridge"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:frequency:002:cambridge",
+        "link:target:frequency:002:oxford"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:register:002:cambridge",
+        "link:target:register:002:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:006:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:007:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:008:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:009:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:009:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:010:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:011:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:012:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:013:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:014:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:015:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:005:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:006:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:007:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:008:cambridge",
+        "link:target:usage_note:008:oxford"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:006:cambridge",
+        "link:target:synonym:006:oxford"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:007:cambridge",
+        "link:target:synonym:007:oxford"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:008:cambridge",
+        "link:target:synonym:008:oxford"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:009:cambridge",
+        "link:target:synonym:009:oxford"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:003:cambridge",
+        "link:target:sense_boundary:003:oxford"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:definition:003:cambridge"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:frequency:003:cambridge",
+        "link:target:frequency:003:oxford"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:register:003:cambridge",
+        "link:target:register:003:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:010:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:011:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:012:cambridge"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:013:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:016:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:017:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:018:cambridge"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:collocation:019:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:009:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:010:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:011:cambridge"
+      ]
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:usage_note:012:cambridge"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:010:cambridge",
+        "link:target:synonym:010:oxford"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:011:cambridge",
+        "link:target:synonym:011:oxford"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:012:cambridge",
+        "link:target:synonym:012:oxford"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:synonym:013:cambridge",
+        "link:target:synonym:013:oxford"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "Reviewed the target against the entry body and the bounded source inventory.",
+      "evidence_link_ids": [
+        "link:target:antonym:001:cambridge",
+        "link:target:antonym:001:oxford"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:001:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:002:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:003:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:004:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:005:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:006:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:007:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:008:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:009:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:010:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:011:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:012:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:013:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:014:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:015:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:016:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:017:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:018:cambridge"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:019:cambridge"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:001:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:001:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:002:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:003:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:004:cambridge"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:001:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:001:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:002:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:003:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:004:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:005:cambridge"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:002:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:005:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:006:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:007:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:008:cambridge"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:002:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:006:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:007:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:008:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:009:cambridge"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:003:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:009:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:010:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:011:cambridge"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:012:cambridge"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:003:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:010:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:011:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:012:cambridge"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:013:cambridge"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:core_inventory_consistency:001:cambridge",
+        "link:relation:core_inventory_consistency:001:oxford"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:001:cambridge",
+        "link:relation:core_sense_mapping:001:oxford"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:002:cambridge",
+        "link:relation:core_sense_mapping:002:oxford"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:003:cambridge",
+        "link:relation:core_sense_mapping:003:oxford"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "The relation preserves the intended mapping and is supported by the bounded source set.",
+      "evidence_link_ids": [
+        "link:relation:article_learning_risk:001:cambridge",
+        "link:relation:article_learning_risk:001:oxford"
+      ]
+    }
+  ]
+}

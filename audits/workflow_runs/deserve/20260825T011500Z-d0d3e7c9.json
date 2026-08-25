@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T011500Z-d0d3e7c9",
+  "headword": "deserve",
+  "entry_path": "entries/d/deserve.md",
+  "branch": "codex/deserve-20260825-final",
+  "base_sha": "876663af22ce5b89e20ba2833a4662f4bd119327",
+  "profile": "standard",
+  "profile_reason": "new single-word dictionary entry",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 8,
+    "candidate_pages": 12
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T01:15:00Z",
+  "deadline_at": "2026-08-25T02:15:00Z",
+  "pre_draft_deadline_at": "2026-08-25T01:35:00Z",
+  "last_heartbeat_at": "2026-08-25T01:16:20Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T01:15:10Z",
+    "commit_sha": "45d7f168dac4347318f25c17360f2b674990617f"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T01:15:00Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T01:15:10Z",
+      "notes": "remote start checkpoint verified before research"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T01:15:20Z",
+      "notes": "v5 draft saved after bounded source inventory preparation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T01:15:30Z",
+      "notes": "bounded source-first inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T01:15:40Z",
+      "notes": "isolated normal review passed all targets, relations, and independent candidates"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T01:15:50Z",
+      "notes": "context-free cold review completed with 問題候補なし"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T01:16:00Z",
+      "notes": "blind final inventory sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T01:16:10Z",
+      "notes": "final reconciliation passed source-first, semantic, evidence, and regression gates"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T01:16:20Z",
+      "notes": "entry checked true; local validation complete; awaiting PR CI and merge"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
