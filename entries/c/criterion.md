@@ -1,12 +1,12 @@
 ---  
 headword: criterion  
 type: word  
-status: review_ready  
+status: checked  
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
 created_at: 2026-08-25  
 updated_at: 2026-08-25  
-checked: false  
+checked: true  
 tags: []  
 ---  
 
