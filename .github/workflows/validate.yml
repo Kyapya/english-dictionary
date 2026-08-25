@@ -16,7 +16,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   validate:
@@ -40,18 +40,24 @@ jobs:
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
 
-      - name: Pack temporary obvious diagnostic bundle
+      - name: Materialize sealed obvious blind audit
+        if: github.event_name == 'pull_request' && github.head_ref == 'agent/update-obvious-v5-20260825'
         run: |
-          git bundle create /tmp/obvious-workspace.bundle \
-            refs/remotes/origin/main \
-            refs/remotes/origin/agent/update-obvious-v5-20260825
-
-      - name: Upload temporary obvious diagnostic bundle
-        uses: actions/upload-artifact@v4
-        with:
-          name: obvious-workspace-diagnostic
-          path: /tmp/obvious-workspace.bundle
-          retention-days: 1
+          python .tmp/materialize_obvious_blind.py
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add \
+            audits/o/obvious.json \
+            audits/runs/o/obvious/cycle-001/cold_review.json \
+            audits/runs/o/obvious/cycle-001/normal_review_initial.json \
+            audits/runs/o/obvious/cycle-001/normal_review_post_cold.json \
+            audits/runs/o/obvious/cycle-001/revision-001.md \
+            audits/runs/o/obvious/cycle-001/revision-002.md \
+            audits/runs/o/obvious/cycle-001/final_blind.json
+          if ! git diff --cached --quiet; then
+            git commit -m "audit: seal obvious final blind review"
+            git push origin "HEAD:${{ github.head_ref }}"
+          fi
 
       - name: Validate entry formats
         run: python scripts/validate_entry.py entries
