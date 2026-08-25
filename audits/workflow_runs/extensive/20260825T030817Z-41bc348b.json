@@ -15,25 +15,35 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 10,
+    "candidate_pages": 14
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "draft_saved",
   "started_at": "2026-08-25T03:08:17Z",
   "deadline_at": "2026-08-25T04:08:17Z",
   "pre_draft_deadline_at": "2026-08-25T03:28:17Z",
-  "last_heartbeat_at": "2026-08-25T03:08:17Z",
+  "last_heartbeat_at": "2026-08-25T03:16:06Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T03:09:11Z",
+    "commit_sha": "fd6476da8da4f1c4cadcbcf21338396c92a3409e"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-08-25T03:08:17Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T03:09:11Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T03:16:06Z",
+      "notes": "complete draft saved and format validation passed"
     }
   ],
   "stop_reason": "",
