@@ -34,7 +34,15 @@
         "run_id": "cold:assert:20260825",
         "context_id": "ctx:cold:assert:20260825"
       },
-      "final_blind": {},
+      "final_blind": {
+        "path": "audits/runs/a/assert/cycle-001/final_blind.json",
+        "sha256": "c8d007c3f78c7079c6432ae9a92806f0447518dd7ca73d6c894c2565e7b85f54",
+        "input_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+        "prompt_sha256": "5c428f984b183d6ab66cf892af1ba499c642427e7bed0a47aa7d78a16ce60156",
+        "run_id": "final:assert:20260825",
+        "context_id": "ctx:final:assert:20260825",
+        "sealed_output_sha256": "ab3e91e5949ddd533d426f0f6f1f0b4dbb22ff98d6915d65d92281378d104db3"
+      },
       "final_review": {}
     },
     "escaped_defects": [],
@@ -8281,18 +8289,21 @@
   },
   "final_review": {
     "role": "final_adjudicator",
-    "reviewer_id": "",
+    "reviewer_id": "final:assert:20260825",
     "reviewed_at": "",
     "completed": false,
     "execution": {
-      "run_id": "",
-      "context_id": "",
-      "started_at": "",
+      "run_id": "final:assert:20260825",
+      "context_id": "ctx:final:assert:20260825",
+      "started_at": "2026-08-25T01:59:00+00:00",
       "completed_at": "",
-      "input_body_sha256": "",
-      "prompt_sha256": "",
-      "context_mode": "",
-      "input_artifacts": [],
+      "input_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+      "prompt_sha256": "5c428f984b183d6ab66cf892af1ba499c642427e7bed0a47aa7d78a16ce60156",
+      "context_mode": "context_free",
+      "input_artifacts": [
+        "entry_body",
+        "final_review_spec"
+      ],
       "reconciliation_started_at": "",
       "reconciliation_input_artifacts": []
     },
@@ -8300,16 +8311,137 @@
     "decision": "pending",
     "blind_review": {
       "seal_version": "blind_seal_v2",
-      "completed": false,
-      "recorded_at": "",
-      "sealed_at": "",
-      "body_sha256": "",
+      "completed": true,
+      "recorded_at": "2026-08-25T02:00:00+00:00",
+      "sealed_at": "2026-08-24T18:59:46-07:00",
+      "body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
       "audit_visible": false,
-      "provisional_decision": "pending",
+      "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": ""
+      "output_sha256": "ab3e91e5949ddd533d426f0f6f1f0b4dbb22ff98d6915d65d92281378d104db3"
     },
-    "independent_candidates": [],
+    "independent_candidates": [
+      {
+        "id": "final_candidate:assert:declarative",
+        "surface_form": "assert that / assert + noun",
+        "frame": "subject + assert + that-clause or noun phrase",
+        "meaning": "State a proposition or claim firmly, without guaranteeing that it is true.",
+        "rationale": "The body presents both clause and object frames and explicitly limits assertion to stating, not proving.",
+        "disposition": "included",
+        "semantic_assertions": [
+          {
+            "id": "final_assertion:declarative:scope",
+            "statement": "The declarative use reports a strong statement and does not by itself establish the truth or proof of the proposition.",
+            "polarity": "must_hold",
+            "scope": "sense 1 definition and usage notes"
+          },
+          {
+            "id": "final_assertion:declarative:frames",
+            "statement": "The article preserves a that-clause or direct object frame and does not teach bare assert about as the normal frame.",
+            "polarity": "must_hold",
+            "scope": "sense 1 grammar pattern and usage note"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "final_candidate:assert:rights",
+        "surface_form": "assert one's rights / authority / independence",
+        "frame": "subject + assert + rights, authority, control, independence, or a claim",
+        "meaning": "Put forward a right or authority and seek recognition of it.",
+        "rationale": "The body separates rights and authority from propositional assertion and limits the result to seeking recognition.",
+        "disposition": "included",
+        "semantic_assertions": [
+          {
+            "id": "final_assertion:rights:recognition",
+            "statement": "Rights, authority, control, or independence are presented as objects whose recognition is sought; successful grant, obedience, or ownership is not guaranteed.",
+            "polarity": "must_hold",
+            "scope": "sense 2 definition, collocations, and usage notes"
+          },
+          {
+            "id": "final_assertion:rights:boundary",
+            "statement": "The rights-and-authority use is not generalized to every ordinary assert that proposition, and the legal claim frame remains a request for recognition rather than an accepted claim.",
+            "polarity": "must_hold",
+            "scope": "sense 1/sense 2 boundary and legal usage notes"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "final_candidate:assert:oneself",
+        "surface_form": "assert oneself",
+        "frame": "subject + assert + reflexive pronoun",
+        "meaning": "Express one's views, rights, or presence confidently in an interaction.",
+        "rationale": "The body treats the reflexive construction as a distinct interpersonal use and requires the reflexive pronoun.",
+        "disposition": "included",
+        "semantic_assertions": [
+          {
+            "id": "final_assertion:oneself:reflexive",
+            "statement": "The subject uses a matching reflexive pronoun and puts forward an opinion, right, or presence in an interaction.",
+            "polarity": "must_hold",
+            "scope": "sense 3 definition, grammar pattern, and usage note"
+          },
+          {
+            "id": "final_assertion:oneself:aggression",
+            "statement": "Self-assertion is not presented as automatically aggressive; the body preserves a distinction between assertive and aggressive behavior.",
+            "polarity": "must_hold",
+            "scope": "sense 3 definition and usage note"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "final_candidate:assert:itself",
+        "surface_form": "assert itself",
+        "frame": "abstract subject + assert + itself",
+        "meaning": "An effect, problem, feeling, or trend becomes apparent or begins to have an effect.",
+        "rationale": "The body gives an inanimate-subject figurative use and contrasts it with a person's rights claim.",
+        "disposition": "included",
+        "semantic_assertions": [
+          {
+            "id": "final_assertion:itself:abstract",
+            "statement": "An inanimate or abstract subject such as an effect, problem, feeling, tension, or trend becomes apparent or begins to influence events.",
+            "polarity": "must_hold",
+            "scope": "sense 4 definition, grammar pattern, and collocations"
+          },
+          {
+            "id": "final_assertion:itself:boundary",
+            "statement": "The assert-itself use is not reversed into a person claiming a right or authority.",
+            "polarity": "must_not_hold",
+            "scope": "sense 2/sense 4 boundary and sense 4 usage notes"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      },
+      {
+        "id": "final_candidate:assert:java",
+        "surface_form": "Java assert statement",
+        "frame": "assert + boolean expression in Java",
+        "meaning": "Check a programming assumption at runtime when assertions are enabled.",
+        "rationale": "The body includes a technical note with an explicit Java qualification and separates it from ordinary English syntax.",
+        "disposition": "included",
+        "semantic_assertions": [
+          {
+            "id": "final_assertion:java:qualification",
+            "statement": "The technical note is bounded to Java-style programming syntax that checks a boolean assumption at runtime.",
+            "polarity": "must_hold",
+            "scope": "sense 1 programming usage note"
+          },
+          {
+            "id": "final_assertion:java:separation",
+            "statement": "The programming construct is not presented as having the same syntax or function as ordinary English assert that.",
+            "polarity": "must_hold",
+            "scope": "sense 1 programming usage note"
+          }
+        ],
+        "article_target_ids": [],
+        "evidence_link_ids": []
+      }
+    ],
     "inventory_comparison": [],
     "blind_finding_results": [],
     "target_results": [],
