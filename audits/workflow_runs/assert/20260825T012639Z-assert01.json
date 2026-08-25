@@ -19,11 +19,11 @@
     "candidate_pages": 8
   },
   "status": "in_progress",
-  "stage": "cold_review_complete",
+  "stage": "blind_seal_complete",
   "started_at": "2026-08-25T01:26:39Z",
   "deadline_at": "2026-08-25T02:26:39Z",
   "pre_draft_deadline_at": "2026-08-25T01:46:39Z",
-  "last_heartbeat_at": "2026-08-25T01:58:01Z",
+  "last_heartbeat_at": "2026-08-25T02:01:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T01:27:01Z",
@@ -59,6 +59,11 @@
       "stage": "cold_review_complete",
       "recorded_at": "2026-08-25T01:58:03Z",
       "notes": "context-free cold review completed once with no problem candidates"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T02:01:00Z",
+      "notes": "final blind inventory and semantic assertions sealed in a pre-reconciliation checkpoint"
     }
   ],
   "stop_reason": "",
