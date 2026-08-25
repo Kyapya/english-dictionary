@@ -1,30 +1,77 @@
 {
-  "schema_version": "source_inventory_v2",
-  "stage": "source_inventory",
-  "run_id": "normal-distinct-20260825T132100Z",
-  "context_id": "normal-distinct-context-20260825T132100Z",
-  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
-  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
-  "input_artifacts": [
-    "headword",
-    "source_first_spec"
-  ],
-  "recorded_at": "2026-08-25T13:28:00Z",
-  "evidence_link_ids": [
-    "EL-001",
-    "EL-002",
-    "EL-003",
-    "EL-004",
-    "EL-005",
-    "EL-006",
-    "EL-007",
-    "EL-008",
-    "EL-009",
-    "EL-010",
-    "EL-011",
-    "EL-012",
-    "EL-013"
-  ],
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/d/distinct.md",
+  "cycle_id": "20260825T131103Z-34ac3453",
+  "cycle_dir": "audits/runs/d/distinct/20260825T131103Z-34ac3453",
+  "body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/source_inventory.json",
+      "sha256": "9463a24cc879c51d46816221a61c4e24d7ac326ecb821aa1b62ec81ff49f2bf5",
+      "stage": "source_inventory",
+      "run_id": "normal-distinct-20260825T132100Z",
+      "context_id": "normal-distinct-context-20260825T132100Z",
+      "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+      "recorded_at": "2026-08-25T13:28:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/pass_findings.json",
+      "sha256": "506b0394c179a006669a3c0cddc731b97a87b5489bca8f626b3a91fec1e62c73",
+      "stage": "normal_review",
+      "run_id": "normal-distinct-20260825T132100Z",
+      "context_id": "normal-distinct-context-20260825T132100Z",
+      "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "prompt_sha256": "ac3ff5f01696a7d52faedfc78b7ef641baa7345270d5c85a540153d14abff656",
+      "recorded_at": "2026-08-25T13:32:00Z"
+    },
+    "cold_review": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/cold_review.json",
+      "sha256": "845a6d8d96e02aa4c46470b884eb0fe5683391711708c4d4ca0670afe8f2c56d",
+      "stage": "cold_review",
+      "run_id": "70ddaaef-3746-44c7-9f9f-50095ee5e384",
+      "context_id": "9d0b215c-86c0-4803-a419-b548bafc2b80",
+      "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-08-25T13:42:18Z"
+    },
+    "resolutions": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/resolutions.json",
+      "sha256": "7add538c35ad17f73c74ae2a4b06a7814ccfeca872340446ec6066d1ca430446",
+      "stage": "resolutions",
+      "run_id": "normal-distinct-20260825T132100Z",
+      "context_id": "normal-distinct-context-20260825T132100Z",
+      "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+      "recorded_at": "2026-08-25T13:48:00Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/final_blind.json",
+      "sha256": "bb824d552a0fbef31a624b4a75a97db78a0b6cc38ed1b79e04cb57664b551ffe",
+      "stage": "final_blind",
+      "run_id": "2abc2818-1275-4728-b8a6-731e8ad71594",
+      "context_id": "7756b648-afd8-474d-ab3a-9e86c0644041",
+      "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+      "recorded_at": "2026-08-25T13:45:48Z"
+    },
+    "blind_seal": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/blind_seal.json",
+      "sha256": "d534049e66fbbea4816b7667556f30f26963f86eeca50ce86abdf7a3efb5d1af",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/d/distinct/20260825T131103Z-34ac3453/final_review.json",
+      "sha256": "c834c875fbfffc54ce6dae9332a6bf1d630a7f4ad9c4d1a1165134f3f71c904e",
+      "stage": "final_review",
+      "run_id": "2abc2818-1275-4728-b8a6-731e8ad71594",
+      "context_id": "7756b648-afd8-474d-ab3a-9e86c0644041",
+      "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+      "recorded_at": "2026-08-25T13:50:53Z"
+    }
+  },
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -53,37 +100,66 @@
       {
         "axis": "lexical_senses",
         "status": "covered",
-        "source_fact_ids": ["F001", "F002", "F003", "F007", "F008", "F009"],
+        "source_fact_ids": [
+          "F001",
+          "F002",
+          "F003",
+          "F007",
+          "F008",
+          "F009"
+        ],
         "notes": "Three independently published general dictionaries cover separation, perceptual clarity, and noticeable-degree senses."
       },
       {
         "axis": "part_of_speech_and_frames",
         "status": "covered",
-        "source_fact_ids": ["F010", "F011"],
+        "source_fact_ids": [
+          "F010",
+          "F011"
+        ],
         "notes": "General dictionaries directly attest adjective use and the distinct from comparison frame."
       },
       {
         "axis": "derived_and_related_forms",
         "status": "covered",
-        "source_fact_ids": ["F005", "F006"],
+        "source_fact_ids": [
+          "F005",
+          "F006"
+        ],
         "notes": "The general dictionary word-family material directly records distinctly and distinctness."
       },
       {
         "axis": "specialist_and_legal_uses",
         "status": "covered",
-        "source_fact_ids": ["F012", "F013", "F016", "F017", "F018", "F019"],
+        "source_fact_ids": [
+          "F012",
+          "F013",
+          "F016",
+          "F017",
+          "F018",
+          "F019"
+        ],
         "notes": "Mathematical, SQL, and botanical uses are covered by a general dictionary plus primary or specialist references; no separate legal sense was found."
       },
       {
         "axis": "register_region_and_frequency",
         "status": "covered",
-        "source_fact_ids": ["F003", "F009", "F013", "F019"],
+        "source_fact_ids": [
+          "F003",
+          "F009",
+          "F013",
+          "F019"
+        ],
         "notes": "General sources distinguish ordinary senses from domain-marked mathematical and botanical uses; no regional restriction was found."
       },
       {
         "axis": "pronunciation_and_etymology",
         "status": "covered",
-        "source_fact_ids": ["F004", "F014", "F015"],
+        "source_fact_ids": [
+          "F004",
+          "F014",
+          "F015"
+        ],
         "notes": "Cambridge supplies current pronunciation and Etymonline supplies the Latin and Middle English history."
       }
     ],
@@ -279,91 +355,123 @@
     "source_union": [
       {
         "id": "U001",
-        "source_fact_ids": ["F001", "F007"],
+        "source_fact_ids": [
+          "F001",
+          "F007"
+        ],
         "canonical_statement": "Distinct has a general adjective sense of separately identifiable or not the same.",
         "disposition": "included",
         "rationale": "This is the entry's first central sense."
       },
       {
         "id": "U002",
-        "source_fact_ids": ["F002", "F008"],
+        "source_fact_ids": [
+          "F002",
+          "F008"
+        ],
         "canonical_statement": "Distinct can describe a clearly perceptible sound, shape, feature, or memory.",
         "disposition": "included",
         "rationale": "This is the entry's second central sense."
       },
       {
         "id": "U003",
-        "source_fact_ids": ["F003", "F009"],
+        "source_fact_ids": [
+          "F003",
+          "F009"
+        ],
         "canonical_statement": "Distinct can mark a possibility, advantage, impression, or tendency as clearly present.",
         "disposition": "included",
         "rationale": "This recurrent construction is separated as the third sense."
       },
       {
         "id": "U004",
-        "source_fact_ids": ["F004"],
+        "source_fact_ids": [
+          "F004"
+        ],
         "canonical_statement": "Current UK and US pronunciation is /dɪˈstɪŋkt/.",
         "disposition": "included",
         "rationale": "The pronunciation section records this form."
       },
       {
         "id": "U005",
-        "source_fact_ids": ["F005"],
+        "source_fact_ids": [
+          "F005"
+        ],
         "canonical_statement": "Distinctly is an adverb in the distinct word family.",
         "disposition": "integrated",
         "rationale": "The form is explained in word formation and pronunciation."
       },
       {
         "id": "U006",
-        "source_fact_ids": ["F006"],
+        "source_fact_ids": [
+          "F006"
+        ],
         "canonical_statement": "Distinctness is a noun in the distinct word family.",
         "disposition": "integrated",
         "rationale": "The form is explained in word formation."
       },
       {
         "id": "U007",
-        "source_fact_ids": ["F010", "F011"],
+        "source_fact_ids": [
+          "F010",
+          "F011"
+        ],
         "canonical_statement": "The ordinary comparison complement is introduced by from.",
         "disposition": "included",
         "rationale": "The first sense and its usage note explicitly teach distinct from."
       },
       {
         "id": "U008",
-        "source_fact_ids": ["F012"],
+        "source_fact_ids": [
+          "F012"
+        ],
         "canonical_statement": "Mathematical distinct expresses unequal or noncoincident objects.",
         "disposition": "included",
         "rationale": "The mathematical portion of sense four directly represents it."
       },
       {
         "id": "U009",
-        "source_fact_ids": ["F013", "F019"],
+        "source_fact_ids": [
+          "F013",
+          "F019"
+        ],
         "canonical_statement": "Botanical distinct describes comparable organs that are separate or free rather than fused.",
         "disposition": "included",
         "rationale": "The specialist meaning is represented as sense five."
       },
       {
         "id": "U010",
-        "source_fact_ids": ["F014", "F015"],
+        "source_fact_ids": [
+          "F014",
+          "F015"
+        ],
         "canonical_statement": "Distinct comes from Latin distinctus, the past participle of distinguere, with a separating or distinguishing sense.",
         "disposition": "included",
         "rationale": "The etymology section explains both the source form and semantic bridge."
       },
       {
         "id": "U011",
-        "source_fact_ids": ["F016"],
+        "source_fact_ids": [
+          "F016"
+        ],
         "canonical_statement": "SELECT DISTINCT removes duplicate result rows.",
         "disposition": "included",
         "rationale": "The SQL portion of sense four teaches the core operation."
       },
       {
         "id": "U012",
-        "source_fact_ids": ["F017"],
+        "source_fact_ids": [
+          "F017"
+        ],
         "canonical_statement": "SQL DISTINCT compares the selected result-row combination rather than independently deduplicating each selected column.",
         "disposition": "included",
         "rationale": "The SQL usage note states the multi-column boundary."
       },
       {
         "id": "U013",
-        "source_fact_ids": ["F018"],
+        "source_fact_ids": [
+          "F018"
+        ],
         "canonical_statement": "PostgreSQL DISTINCT ON keeps one row per expression set and needs ordering for a predictable retained row.",
         "disposition": "included",
         "rationale": "The usage note distinguishes this extension from ordinary DISTINCT."
@@ -372,153 +480,311 @@
     "claim_units": [
       {
         "id": "EL-001",
-        "union_ids": ["U001"],
+        "union_ids": [
+          "U001"
+        ],
         "subject_form": "distinct",
         "claim_type": "sense",
         "statement": "Distinct marks entities as separately identifiable rather than identical.",
-        "article_target_ids": ["definition:001"],
+        "article_target_ids": [
+          "definition:001"
+        ],
         "source_supports": [
-          {"source_fact_id": "F001", "support_summary": "Cambridge directly defines the clearly separate and different sense."},
-          {"source_fact_id": "F007", "support_summary": "Merriam-Webster independently defines distinguishable separate identity."}
+          {
+            "source_fact_id": "F001",
+            "support_summary": "Cambridge directly defines the clearly separate and different sense."
+          },
+          {
+            "source_fact_id": "F007",
+            "support_summary": "Merriam-Webster independently defines distinguishable separate identity."
+          }
         ]
       },
       {
         "id": "EL-002",
-        "union_ids": ["U002"],
+        "union_ids": [
+          "U002"
+        ],
         "subject_form": "distinct",
         "claim_type": "sense",
         "statement": "Distinct marks a sensory or mental feature as clearly perceptible.",
-        "article_target_ids": ["definition:002"],
+        "article_target_ids": [
+          "definition:002"
+        ],
         "source_supports": [
-          {"source_fact_id": "F002", "support_summary": "Cambridge directly defines the clearly noticeable perceptual sense."},
-          {"source_fact_id": "F008", "support_summary": "Merriam-Webster independently defines the readily perceptible sense."}
+          {
+            "source_fact_id": "F002",
+            "support_summary": "Cambridge directly defines the clearly noticeable perceptual sense."
+          },
+          {
+            "source_fact_id": "F008",
+            "support_summary": "Merriam-Webster independently defines the readily perceptible sense."
+          }
         ]
       },
       {
         "id": "EL-003",
-        "union_ids": ["U003"],
+        "union_ids": [
+          "U003"
+        ],
         "subject_form": "distinct",
         "claim_type": "sense",
         "statement": "Distinct can emphasize that an abstract degree or possibility is clearly present.",
-        "article_target_ids": ["definition:003", "usage_note:003"],
+        "article_target_ids": [
+          "definition:003",
+          "usage_note:003"
+        ],
         "source_supports": [
-          {"source_fact_id": "F003", "support_summary": "Cambridge directly illustrates a distinct possibility as a recognizable possibility."},
-          {"source_fact_id": "F009", "support_summary": "Merriam-Webster independently supports the recognizable-degree use."}
+          {
+            "source_fact_id": "F003",
+            "support_summary": "Cambridge directly illustrates a distinct possibility as a recognizable possibility."
+          },
+          {
+            "source_fact_id": "F009",
+            "support_summary": "Merriam-Webster independently supports the recognizable-degree use."
+          }
         ]
       },
       {
         "id": "EL-004",
-        "union_ids": ["U004"],
+        "union_ids": [
+          "U004"
+        ],
         "subject_form": "distinct",
         "claim_type": "pronunciation",
         "statement": "Distinct is pronounced /dɪˈstɪŋkt/ in current UK and US English.",
-        "article_target_ids": ["pronunciation:001"],
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
         "source_supports": [
-          {"source_fact_id": "F004", "support_summary": "Cambridge supplies matching UK and US IPA transcriptions."}
+          {
+            "source_fact_id": "F004",
+            "support_summary": "Cambridge supplies matching UK and US IPA transcriptions."
+          }
         ]
       },
       {
         "id": "EL-005",
-        "union_ids": ["U005"],
+        "union_ids": [
+          "U005"
+        ],
         "subject_form": "distinctly",
         "claim_type": "derived_form",
         "statement": "Distinctly is the adverbial derivative of distinct.",
-        "article_target_ids": ["word_formation:003", "pronunciation:002"],
+        "article_target_ids": [
+          "word_formation:003",
+          "pronunciation:002"
+        ],
         "source_supports": [
-          {"source_fact_id": "F005", "support_summary": "Cambridge records distinctly as the related adverbial form."}
+          {
+            "source_fact_id": "F005",
+            "support_summary": "Cambridge records distinctly as the related adverbial form."
+          }
         ]
       },
       {
         "id": "EL-006",
-        "union_ids": ["U006"],
+        "union_ids": [
+          "U006"
+        ],
         "subject_form": "distinctness",
         "claim_type": "derived_form",
         "statement": "Distinctness is the nominal derivative of distinct.",
-        "article_target_ids": ["word_formation:004"],
+        "article_target_ids": [
+          "word_formation:004"
+        ],
         "source_supports": [
-          {"source_fact_id": "F006", "support_summary": "Cambridge records distinctness as the related nominal form."}
+          {
+            "source_fact_id": "F006",
+            "support_summary": "Cambridge records distinctness as the related nominal form."
+          }
         ]
       },
       {
         "id": "EL-007",
-        "union_ids": ["U007"],
+        "union_ids": [
+          "U007"
+        ],
         "subject_form": "distinct from",
         "claim_type": "frame",
         "statement": "The comparison standard after distinct is introduced by from.",
-        "article_target_ids": ["grammar_pattern:002", "usage_note:001"],
+        "article_target_ids": [
+          "grammar_pattern:002",
+          "usage_note:001"
+        ],
         "source_supports": [
-          {"source_fact_id": "F010", "support_summary": "Merriam-Webster examples consistently realize the complement with from."},
-          {"source_fact_id": "F011", "support_summary": "Collins independently presents distinct from as the comparison pattern."}
+          {
+            "source_fact_id": "F010",
+            "support_summary": "Merriam-Webster examples consistently realize the complement with from."
+          },
+          {
+            "source_fact_id": "F011",
+            "support_summary": "Collins independently presents distinct from as the comparison pattern."
+          }
         ]
       },
       {
         "id": "EL-008",
-        "union_ids": ["U008"],
+        "union_ids": [
+          "U008"
+        ],
         "subject_form": "distinct",
         "claim_type": "specialist_sense",
         "statement": "Mathematical distinct means unequal or noncoincident under the relevant equality relation.",
-        "article_target_ids": ["definition:004", "usage_note:004"],
+        "article_target_ids": [
+          "definition:004",
+          "usage_note:004"
+        ],
         "source_supports": [
-          {"source_fact_id": "F012", "support_summary": "Collins directly labels and defines the mathematical sense."}
+          {
+            "source_fact_id": "F012",
+            "support_summary": "Collins directly labels and defines the mathematical sense."
+          }
         ]
       },
       {
         "id": "EL-009",
-        "union_ids": ["U009"],
+        "union_ids": [
+          "U009"
+        ],
         "subject_form": "distinct",
         "claim_type": "specialist_sense",
         "statement": "Botanical distinct describes organs that remain separate or free rather than fused.",
-        "article_target_ids": ["definition:005", "usage_note:005"],
+        "article_target_ids": [
+          "definition:005",
+          "usage_note:005"
+        ],
         "source_supports": [
-          {"source_fact_id": "F013", "support_summary": "Collins directly labels the botanical not-joined-together sense."},
-          {"source_fact_id": "F019", "support_summary": "The NSW botanical glossary independently equates distinct with separate or free."}
+          {
+            "source_fact_id": "F013",
+            "support_summary": "Collins directly labels the botanical not-joined-together sense."
+          },
+          {
+            "source_fact_id": "F019",
+            "support_summary": "The NSW botanical glossary independently equates distinct with separate or free."
+          }
         ]
       },
       {
         "id": "EL-010",
-        "union_ids": ["U010"],
+        "union_ids": [
+          "U010"
+        ],
         "subject_form": "distinct",
         "claim_type": "etymology",
         "statement": "Distinct descends from Latin distinctus, related to distinguere and the idea of marking apart.",
-        "article_target_ids": ["etymology:001", "etymology:002"],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002"
+        ],
         "source_supports": [
-          {"source_fact_id": "F014", "support_summary": "Etymonline provides the English chronology and Latin distinctus source."},
-          {"source_fact_id": "F015", "support_summary": "Etymonline provides the participial derivation from Latin distinguere."}
+          {
+            "source_fact_id": "F014",
+            "support_summary": "Etymonline provides the English chronology and Latin distinctus source."
+          },
+          {
+            "source_fact_id": "F015",
+            "support_summary": "Etymonline provides the participial derivation from Latin distinguere."
+          }
         ]
       },
       {
         "id": "EL-011",
-        "union_ids": ["U011"],
+        "union_ids": [
+          "U011"
+        ],
         "subject_form": "SELECT DISTINCT",
         "claim_type": "specialist_sense",
         "statement": "SELECT DISTINCT removes duplicate rows from the query result.",
-        "article_target_ids": ["definition:004", "collocation:023"],
+        "article_target_ids": [
+          "definition:004",
+          "collocation:023"
+        ],
         "source_supports": [
-          {"source_fact_id": "F016", "support_summary": "The PostgreSQL SELECT reference directly states that DISTINCT removes duplicate result rows."}
+          {
+            "source_fact_id": "F016",
+            "support_summary": "The PostgreSQL SELECT reference directly states that DISTINCT removes duplicate result rows."
+          }
         ]
       },
       {
         "id": "EL-012",
-        "union_ids": ["U012"],
+        "union_ids": [
+          "U012"
+        ],
         "subject_form": "DISTINCT",
         "claim_type": "constraint",
         "statement": "With multiple selected expressions, DISTINCT evaluates the whole result-row combination.",
-        "article_target_ids": ["usage_note:004"],
+        "article_target_ids": [
+          "usage_note:004"
+        ],
         "source_supports": [
-          {"source_fact_id": "F017", "support_summary": "The PostgreSQL reference defines DISTINCT at the SELECT output-row level."}
+          {
+            "source_fact_id": "F017",
+            "support_summary": "The PostgreSQL reference defines DISTINCT at the SELECT output-row level."
+          }
         ]
       },
       {
         "id": "EL-013",
-        "union_ids": ["U013"],
+        "union_ids": [
+          "U013"
+        ],
         "subject_form": "DISTINCT ON",
         "claim_type": "constraint",
         "statement": "PostgreSQL DISTINCT ON retains the first row per equal-expression group, with ORDER BY needed for predictability.",
-        "article_target_ids": ["usage_note:004"],
+        "article_target_ids": [
+          "usage_note:004"
+        ],
         "source_supports": [
-          {"source_fact_id": "F018", "support_summary": "The PostgreSQL reference directly states both first-row retention and the ORDER BY caveat."}
+          {
+            "source_fact_id": "F018",
+            "support_summary": "The PostgreSQL reference directly states both first-row retention and the ORDER BY caveat."
+          }
         ]
       }
     ]
+  },
+  "findings": [
+    {
+      "id": "CR-DISTINCT-001",
+      "location": "語義1「別個の、明確に異なる」の定義および反意語 identical の説明",
+      "severity": "low",
+      "description": "identical を distinct の無条件の反意語のように提示しており、数的な別個性と性質上の同一性を混同させる可能性がある。",
+      "reason": "二つの複製品は、それぞれ別の個体という意味では distinct でありながら、内容・形状などが identical であり得る。したがって両語が対立するのは、同じ比較軸で「性質が明確に異なる」と「性質が同一」を述べる場合に限られる。現状の説明では、distinct な対象は identical ではあり得ないという誤った一般化を招き得る。",
+      "suggested_direction": "identical は「性質・内容の差」を問題にする文脈では distinct の反対になり得る、と対立軸を限定する。あわせて、two distinct but identical copies のように、別個の個体であることと性質が同一であることは両立すると注記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-DISTINCT-001-A1",
+          "exact_quote": "二つ以上の物、種類、考え、段階、役割などが同一ではなく、それぞれ独立して区別できることを表す。",
+          "location_hint": "語義1 > 日本語訳・定義の冒頭"
+        },
+        {
+          "id": "CR-DISTINCT-001-A2",
+          "exact_quote": "違い: distinct が対象を別物として区別できることを表すのに対し、identical は差を認められないほど同一であることを表す。",
+          "location_hint": "語義1 > 反意語 > identical > 違い"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "CR-DISTINCT-001",
+      "finding_id": "CR-DISTINCT-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The proposed counterexample changes the comparison axis: two copies can be distinct as physical tokens while identical in relevant qualities. In the entry, identical appears only under sense 1 and is defined as sameness in all relevant respects; its contrast paragraph likewise compares whether a difference is recognized. On that shared qualitative or classificatory axis, the relation label is valid. The entry nowhere states that distinct and identical are mutually exclusive across different identity criteria, so the cold observation identifies an optional clarification rather than an applicable factual or relation-label defect.",
+      "resolved_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "CR-DISTINCT-001 identifies a possible optional clarification about changing identity criteria, but the current wording is not false or misleading on its stated comparison axis and does not block publication."
+    ],
+    "reviewed_at": "2026-08-25T13:50:53Z",
+    "blind_output_sha256": "83f109463cef641fb5860c0f8579092e5ca8f92131770918284162bc0b94ca31"
   }
 }

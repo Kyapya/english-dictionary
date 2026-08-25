@@ -1,0 +1,23 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "normal-distinct-20260825T132100Z",
+  "context_id": "normal-distinct-context-20260825T132100Z",
+  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "recorded_at": "2026-08-25T13:48:00Z",
+  "resolutions": [
+    {
+      "id": "CR-DISTINCT-001",
+      "finding_id": "CR-DISTINCT-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The proposed counterexample changes the comparison axis: two copies can be distinct as physical tokens while identical in relevant qualities. In the entry, identical appears only under sense 1 and is defined as sameness in all relevant respects; its contrast paragraph likewise compares whether a difference is recognized. On that shared qualitative or classificatory axis, the relation label is valid. The entry nowhere states that distinct and identical are mutually exclusive across different identity criteria, so the cold observation identifies an optional clarification rather than an applicable factual or relation-label defect.",
+      "resolved_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3"
+    }
+  ]
+}

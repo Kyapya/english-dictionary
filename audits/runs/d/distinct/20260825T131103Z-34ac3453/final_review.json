@@ -1,0 +1,1530 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "2abc2818-1275-4728-b8a6-731e8ad71594",
+  "context_id": "7756b648-afd8-474d-ab3a-9e86c0644041",
+  "input_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+  "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+  "blind_output_sha256": "83f109463cef641fb5860c0f8579092e5ca8f92131770918284162bc0b94ca31",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-08-25T13:50:53Z",
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "pronunciation:001: Verified the IPA, stress, syllabification, and derivative pronunciation against the entry and applicable pronunciation evidence; no conflict remains."
+    },
+    {
+      "id": "pronunciation:002",
+      "target_id": "pronunciation:002",
+      "status": "pass",
+      "notes": "pronunciation:002: Verified the IPA, stress, syllabification, and derivative pronunciation against the entry and applicable pronunciation evidence; no conflict remains."
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "etymology:001: Verified the historical source, morphological relation, and semantic bridge against the etymological evidence; the target is accurate."
+    },
+    {
+      "id": "etymology:002",
+      "target_id": "etymology:002",
+      "status": "pass",
+      "notes": "etymology:002: Verified the historical source, morphological relation, and semantic bridge against the etymological evidence; the target is accurate."
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "word_formation:001: Verified the derivative form, part of speech, and gloss; the target preserves the relevant semantic direction and scope."
+    },
+    {
+      "id": "word_formation:002",
+      "target_id": "word_formation:002",
+      "status": "pass",
+      "notes": "word_formation:002: Verified the derivative form, part of speech, and gloss; the target preserves the relevant semantic direction and scope."
+    },
+    {
+      "id": "word_formation:003",
+      "target_id": "word_formation:003",
+      "status": "pass",
+      "notes": "word_formation:003: Verified the derivative form, part of speech, and gloss; the target preserves the relevant semantic direction and scope."
+    },
+    {
+      "id": "word_formation:004",
+      "target_id": "word_formation:004",
+      "status": "pass",
+      "notes": "word_formation:004: Verified the derivative form, part of speech, and gloss; the target preserves the relevant semantic direction and scope."
+    },
+    {
+      "id": "word_formation:005",
+      "target_id": "word_formation:005",
+      "status": "pass",
+      "notes": "word_formation:005: Verified the derivative form, part of speech, and gloss; the target preserves the relevant semantic direction and scope."
+    },
+    {
+      "id": "word_formation:006",
+      "target_id": "word_formation:006",
+      "status": "pass",
+      "notes": "word_formation:006: Verified the derivative form, part of speech, and gloss; the target preserves the relevant semantic direction and scope."
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "core_image:001: Verified that this core-image statement maps to the stated sense without collapsing distinct semantic or technical boundaries."
+    },
+    {
+      "id": "core_image:002",
+      "target_id": "core_image:002",
+      "status": "pass",
+      "notes": "core_image:002: Verified that this core-image statement maps to the stated sense without collapsing distinct semantic or technical boundaries."
+    },
+    {
+      "id": "core_image:003",
+      "target_id": "core_image:003",
+      "status": "pass",
+      "notes": "core_image:003: Verified that this core-image statement maps to the stated sense without collapsing distinct semantic or technical boundaries."
+    },
+    {
+      "id": "core_image:004",
+      "target_id": "core_image:004",
+      "status": "pass",
+      "notes": "core_image:004: Verified that this core-image statement maps to the stated sense without collapsing distinct semantic or technical boundaries."
+    },
+    {
+      "id": "core_image:005",
+      "target_id": "core_image:005",
+      "status": "pass",
+      "notes": "core_image:005: Verified that this core-image statement maps to the stated sense without collapsing distinct semantic or technical boundaries."
+    },
+    {
+      "id": "core_image:006",
+      "target_id": "core_image:006",
+      "status": "pass",
+      "notes": "core_image:006: Verified that this core-image statement maps to the stated sense without collapsing distinct semantic or technical boundaries."
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "sense_boundary:001: Verified that this sense boundary separates the intended meaning from adjacent senses and does not overgeneralize its entailments."
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "definition:001: Verified the definition against the candidate inventory and applicable evidence; its meaning direction, arguments, and scope are correct."
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "frequency:001: Verified as a plausible pedagogical relative-frequency rating consistent with the sense register and specialist status; it is not framed as an absolute corpus statistic."
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "register:001: Verified the stated register and domain against the general or specialist evidence; no unsupported regional restriction is asserted."
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "grammar_pattern:001: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "grammar_pattern:002: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:003",
+      "target_id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "grammar_pattern:003: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:004",
+      "target_id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "grammar_pattern:004: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "collocation:001: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "collocation:002: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "collocation:003: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "collocation:004: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "collocation:005: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "collocation:006: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "usage_note:001: Verified the usage constraint and boundary against the definition, examples, candidate assertions, and applicable evidence."
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "synonym:001: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "synonym:002: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "synonym:003: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "synonym:004: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "antonym:001",
+      "target_id": "antonym:001",
+      "status": "pass",
+      "rationale": "identical is presented on the shared relevant-properties axis; the entry does not deny that physically separate tokens can be qualitatively identical.",
+      "notes": "antonym:001: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "antonym:002",
+      "target_id": "antonym:002",
+      "status": "pass",
+      "notes": "antonym:002: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "sense_boundary:002: Verified that this sense boundary separates the intended meaning from adjacent senses and does not overgeneralize its entailments."
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "definition:002: Verified the definition against the candidate inventory and applicable evidence; its meaning direction, arguments, and scope are correct."
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "frequency:002: Verified as a plausible pedagogical relative-frequency rating consistent with the sense register and specialist status; it is not framed as an absolute corpus statistic."
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "register:002: Verified the stated register and domain against the general or specialist evidence; no unsupported regional restriction is asserted."
+    },
+    {
+      "id": "grammar_pattern:005",
+      "target_id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "grammar_pattern:005: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:006",
+      "target_id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "grammar_pattern:006: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "collocation:007: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "collocation:008: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "collocation:009: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "collocation:010: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:011",
+      "target_id": "collocation:011",
+      "status": "pass",
+      "notes": "collocation:011: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:012",
+      "target_id": "collocation:012",
+      "status": "pass",
+      "notes": "collocation:012: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "usage_note:002: Verified the usage constraint and boundary against the definition, examples, candidate assertions, and applicable evidence."
+    },
+    {
+      "id": "synonym:005",
+      "target_id": "synonym:005",
+      "status": "pass",
+      "notes": "synonym:005: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:006",
+      "target_id": "synonym:006",
+      "status": "pass",
+      "notes": "synonym:006: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:007",
+      "target_id": "synonym:007",
+      "status": "pass",
+      "notes": "synonym:007: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:008",
+      "target_id": "synonym:008",
+      "status": "pass",
+      "notes": "synonym:008: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:009",
+      "target_id": "synonym:009",
+      "status": "pass",
+      "notes": "synonym:009: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "antonym:003",
+      "target_id": "antonym:003",
+      "status": "pass",
+      "notes": "antonym:003: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "antonym:004",
+      "target_id": "antonym:004",
+      "status": "pass",
+      "notes": "antonym:004: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "antonym:005",
+      "target_id": "antonym:005",
+      "status": "pass",
+      "notes": "antonym:005: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "sense_boundary:003",
+      "target_id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "sense_boundary:003: Verified that this sense boundary separates the intended meaning from adjacent senses and does not overgeneralize its entailments."
+    },
+    {
+      "id": "definition:003",
+      "target_id": "definition:003",
+      "status": "pass",
+      "notes": "definition:003: Verified the definition against the candidate inventory and applicable evidence; its meaning direction, arguments, and scope are correct."
+    },
+    {
+      "id": "frequency:003",
+      "target_id": "frequency:003",
+      "status": "pass",
+      "notes": "frequency:003: Verified as a plausible pedagogical relative-frequency rating consistent with the sense register and specialist status; it is not framed as an absolute corpus statistic."
+    },
+    {
+      "id": "register:003",
+      "target_id": "register:003",
+      "status": "pass",
+      "notes": "register:003: Verified the stated register and domain against the general or specialist evidence; no unsupported regional restriction is asserted."
+    },
+    {
+      "id": "grammar_pattern:007",
+      "target_id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "grammar_pattern:007: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:008",
+      "target_id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "grammar_pattern:008: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:009",
+      "target_id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "grammar_pattern:009: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:010",
+      "target_id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "grammar_pattern:010: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "collocation:013",
+      "target_id": "collocation:013",
+      "status": "pass",
+      "notes": "collocation:013: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:014",
+      "target_id": "collocation:014",
+      "status": "pass",
+      "notes": "collocation:014: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:015",
+      "target_id": "collocation:015",
+      "status": "pass",
+      "notes": "collocation:015: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:016",
+      "target_id": "collocation:016",
+      "status": "pass",
+      "notes": "collocation:016: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:017",
+      "target_id": "collocation:017",
+      "status": "pass",
+      "notes": "collocation:017: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:018",
+      "target_id": "collocation:018",
+      "status": "pass",
+      "notes": "collocation:018: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "usage_note:003",
+      "target_id": "usage_note:003",
+      "status": "pass",
+      "notes": "usage_note:003: Verified the usage constraint and boundary against the definition, examples, candidate assertions, and applicable evidence."
+    },
+    {
+      "id": "synonym:010",
+      "target_id": "synonym:010",
+      "status": "pass",
+      "notes": "synonym:010: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:011",
+      "target_id": "synonym:011",
+      "status": "pass",
+      "notes": "synonym:011: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:012",
+      "target_id": "synonym:012",
+      "status": "pass",
+      "notes": "synonym:012: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:013",
+      "target_id": "synonym:013",
+      "status": "pass",
+      "notes": "synonym:013: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "antonym:006",
+      "target_id": "antonym:006",
+      "status": "pass",
+      "notes": "antonym:006: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "antonym:007",
+      "target_id": "antonym:007",
+      "status": "pass",
+      "notes": "antonym:007: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "sense_boundary:004",
+      "target_id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "sense_boundary:004: Verified that this sense boundary separates the intended meaning from adjacent senses and does not overgeneralize its entailments."
+    },
+    {
+      "id": "definition:004",
+      "target_id": "definition:004",
+      "status": "pass",
+      "notes": "definition:004: Verified the definition against the candidate inventory and applicable evidence; its meaning direction, arguments, and scope are correct."
+    },
+    {
+      "id": "frequency:004",
+      "target_id": "frequency:004",
+      "status": "pass",
+      "notes": "frequency:004: Verified as a plausible pedagogical relative-frequency rating consistent with the sense register and specialist status; it is not framed as an absolute corpus statistic."
+    },
+    {
+      "id": "register:004",
+      "target_id": "register:004",
+      "status": "pass",
+      "notes": "register:004: Verified the stated register and domain against the general or specialist evidence; no unsupported regional restriction is asserted."
+    },
+    {
+      "id": "grammar_pattern:011",
+      "target_id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "grammar_pattern:011: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:012",
+      "target_id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "grammar_pattern:012: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:013",
+      "target_id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "grammar_pattern:013: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:014",
+      "target_id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "grammar_pattern:014: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "collocation:019",
+      "target_id": "collocation:019",
+      "status": "pass",
+      "notes": "collocation:019: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:020",
+      "target_id": "collocation:020",
+      "status": "pass",
+      "notes": "collocation:020: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:021",
+      "target_id": "collocation:021",
+      "status": "pass",
+      "notes": "collocation:021: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:022",
+      "target_id": "collocation:022",
+      "status": "pass",
+      "notes": "collocation:022: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:023",
+      "target_id": "collocation:023",
+      "status": "pass",
+      "notes": "collocation:023: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "usage_note:004",
+      "target_id": "usage_note:004",
+      "status": "pass",
+      "notes": "usage_note:004: Verified the usage constraint and boundary against the definition, examples, candidate assertions, and applicable evidence."
+    },
+    {
+      "id": "synonym:014",
+      "target_id": "synonym:014",
+      "status": "pass",
+      "notes": "synonym:014: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:015",
+      "target_id": "synonym:015",
+      "status": "pass",
+      "notes": "synonym:015: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:016",
+      "target_id": "synonym:016",
+      "status": "pass",
+      "notes": "synonym:016: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "antonym:008",
+      "target_id": "antonym:008",
+      "status": "pass",
+      "notes": "antonym:008: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "antonym:009",
+      "target_id": "antonym:009",
+      "status": "pass",
+      "notes": "antonym:009: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "sense_boundary:005",
+      "target_id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "sense_boundary:005: Verified that this sense boundary separates the intended meaning from adjacent senses and does not overgeneralize its entailments."
+    },
+    {
+      "id": "definition:005",
+      "target_id": "definition:005",
+      "status": "pass",
+      "notes": "definition:005: Verified the definition against the candidate inventory and applicable evidence; its meaning direction, arguments, and scope are correct."
+    },
+    {
+      "id": "frequency:005",
+      "target_id": "frequency:005",
+      "status": "pass",
+      "notes": "frequency:005: Verified as a plausible pedagogical relative-frequency rating consistent with the sense register and specialist status; it is not framed as an absolute corpus statistic."
+    },
+    {
+      "id": "register:005",
+      "target_id": "register:005",
+      "status": "pass",
+      "notes": "register:005: Verified the stated register and domain against the general or specialist evidence; no unsupported regional restriction is asserted."
+    },
+    {
+      "id": "grammar_pattern:015",
+      "target_id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "grammar_pattern:015: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:016",
+      "target_id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "grammar_pattern:016: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "grammar_pattern:017",
+      "target_id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "grammar_pattern:017: Verified that this syntactic frame is grammatical, complete for its stated use, and represented consistently by the examples."
+    },
+    {
+      "id": "collocation:024",
+      "target_id": "collocation:024",
+      "status": "pass",
+      "notes": "collocation:024: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:025",
+      "target_id": "collocation:025",
+      "status": "pass",
+      "notes": "collocation:025: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:026",
+      "target_id": "collocation:026",
+      "status": "pass",
+      "notes": "collocation:026: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "collocation:027",
+      "target_id": "collocation:027",
+      "status": "pass",
+      "notes": "collocation:027: Verified that the collocation is idiomatic and that its example and Japanese translation preserve semantic roles, scope, degree, and comparison structure."
+    },
+    {
+      "id": "usage_note:005",
+      "target_id": "usage_note:005",
+      "status": "pass",
+      "notes": "usage_note:005: Verified the usage constraint and boundary against the definition, examples, candidate assertions, and applicable evidence."
+    },
+    {
+      "id": "synonym:017",
+      "target_id": "synonym:017",
+      "status": "pass",
+      "notes": "synonym:017: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "synonym:018",
+      "target_id": "synonym:018",
+      "status": "pass",
+      "notes": "synonym:018: Verified the synonym gloss and contrast; the entry neither equates non-equivalent meanings nor reverses the comparison axis."
+    },
+    {
+      "id": "antonym:010",
+      "target_id": "antonym:010",
+      "status": "pass",
+      "notes": "antonym:010: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    },
+    {
+      "id": "antonym:011",
+      "target_id": "antonym:011",
+      "status": "pass",
+      "notes": "antonym:011: Verified the antonym gloss and axis-specific contrast; it does not assert an invalid cross-axis logical complement."
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "example_translation:001: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "example_translation:002: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "example_translation:003: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "example_translation:004: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "example_translation:005: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "example_translation:006: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "example_translation:007: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "example_translation:008: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "example_translation:009: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "example_translation:010: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:011",
+      "relation_id": "example_translation:011",
+      "status": "pass",
+      "notes": "example_translation:011: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:012",
+      "relation_id": "example_translation:012",
+      "status": "pass",
+      "notes": "example_translation:012: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:013",
+      "relation_id": "example_translation:013",
+      "status": "pass",
+      "notes": "example_translation:013: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:014",
+      "relation_id": "example_translation:014",
+      "status": "pass",
+      "notes": "example_translation:014: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:015",
+      "relation_id": "example_translation:015",
+      "status": "pass",
+      "notes": "example_translation:015: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:016",
+      "relation_id": "example_translation:016",
+      "status": "pass",
+      "notes": "example_translation:016: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:017",
+      "relation_id": "example_translation:017",
+      "status": "pass",
+      "notes": "example_translation:017: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:018",
+      "relation_id": "example_translation:018",
+      "status": "pass",
+      "notes": "example_translation:018: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:019",
+      "relation_id": "example_translation:019",
+      "status": "pass",
+      "notes": "example_translation:019: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:020",
+      "relation_id": "example_translation:020",
+      "status": "pass",
+      "notes": "example_translation:020: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:021",
+      "relation_id": "example_translation:021",
+      "status": "pass",
+      "notes": "example_translation:021: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:022",
+      "relation_id": "example_translation:022",
+      "status": "pass",
+      "notes": "example_translation:022: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:023",
+      "relation_id": "example_translation:023",
+      "status": "pass",
+      "notes": "example_translation:023: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:024",
+      "relation_id": "example_translation:024",
+      "status": "pass",
+      "notes": "example_translation:024: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:025",
+      "relation_id": "example_translation:025",
+      "status": "pass",
+      "notes": "example_translation:025: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:026",
+      "relation_id": "example_translation:026",
+      "status": "pass",
+      "notes": "example_translation:026: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "example_translation:027",
+      "relation_id": "example_translation:027",
+      "status": "pass",
+      "notes": "example_translation:027: The English example and Japanese translation preserve predicate content, participant roles, polarity, comparison, degree, number, tense/aspect, and information focus."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "sense_definition_consistency:001: The sense label and definition express the same semantic boundary and scope."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "definition_usage_consistency:001: The usage note applies the definition without contradiction, reversal, or unsupported generalization."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:001: The synonyms and antonyms are contrasted on the same relevant axis as the definition."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "pattern_example_coverage:001: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "pattern_example_coverage:002: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "relation_id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "pattern_example_coverage:003: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "relation_id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "pattern_example_coverage:004: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "sense_definition_consistency:002: The sense label and definition express the same semantic boundary and scope."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "definition_usage_consistency:002: The usage note applies the definition without contradiction, reversal, or unsupported generalization."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:002: The synonyms and antonyms are contrasted on the same relevant axis as the definition."
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "relation_id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "pattern_example_coverage:005: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "relation_id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "pattern_example_coverage:006: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "relation_id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "sense_definition_consistency:003: The sense label and definition express the same semantic boundary and scope."
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "relation_id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "definition_usage_consistency:003: The usage note applies the definition without contradiction, reversal, or unsupported generalization."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "relation_id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:003: The synonyms and antonyms are contrasted on the same relevant axis as the definition."
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "relation_id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "pattern_example_coverage:007: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "relation_id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "pattern_example_coverage:008: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "relation_id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "pattern_example_coverage:009: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "relation_id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "pattern_example_coverage:010: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "relation_id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "sense_definition_consistency:004: The sense label and definition express the same semantic boundary and scope."
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "relation_id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "definition_usage_consistency:004: The usage note applies the definition without contradiction, reversal, or unsupported generalization."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "relation_id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:004: The synonyms and antonyms are contrasted on the same relevant axis as the definition."
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "relation_id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "pattern_example_coverage:011: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "relation_id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "pattern_example_coverage:012: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "relation_id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "pattern_example_coverage:013: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "relation_id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "pattern_example_coverage:014: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "relation_id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "sense_definition_consistency:005: The sense label and definition express the same semantic boundary and scope."
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "relation_id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "definition_usage_consistency:005: The usage note applies the definition without contradiction, reversal, or unsupported generalization."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "relation_id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:005: The synonyms and antonyms are contrasted on the same relevant axis as the definition."
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "relation_id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "pattern_example_coverage:015: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "relation_id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "pattern_example_coverage:016: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "relation_id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "pattern_example_coverage:017: The stated grammar pattern has an idiomatic example whose construction and translation instantiate the full frame."
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "relation_id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "core_inventory_consistency:001: The core image exhaustively maps the five represented senses without adding a false sense."
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "relation_id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "core_sense_mapping:001: The indicated core-image branch matches its corresponding sense boundary and technical scope."
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "relation_id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "core_sense_mapping:002: The indicated core-image branch matches its corresponding sense boundary and technical scope."
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "relation_id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "core_sense_mapping:003: The indicated core-image branch matches its corresponding sense boundary and technical scope."
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "relation_id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "core_sense_mapping:004: The indicated core-image branch matches its corresponding sense boundary and technical scope."
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "relation_id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "core_sense_mapping:005: The indicated core-image branch matches its corresponding sense boundary and technical scope."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "rationale": "No surviving statement teaches mutual exclusivity across different identity criteria; the cold concern is nonblocking.",
+      "notes": "article_learning_risk:001: The complete article was checked for cross-section semantic drift; the cold concern does not create a surviving learning-risk defect."
+    }
+  ],
+  "normal_candidate_results": [
+    {
+      "id": "NC-001",
+      "candidate_id": "NC-001",
+      "status": "pass",
+      "rationale": "The general separate-identity sense and all listed attributive, from-complement, and contrast frames are present and correctly bounded.",
+      "notes": "NC-001: The general separate-identity sense and all listed attributive, from-complement, and contrast frames are present and correctly bounded."
+    },
+    {
+      "id": "NC-002",
+      "candidate_id": "NC-002",
+      "status": "pass",
+      "rationale": "The perceptual and mental-clarity sense is present across the listed sensory and predicative frames without conflation with distinctive.",
+      "notes": "NC-002: The perceptual and mental-clarity sense is present across the listed sensory and predicative frames without conflation with distinctive."
+    },
+    {
+      "id": "NC-003",
+      "candidate_id": "NC-003",
+      "status": "pass",
+      "rationale": "The abstract noticeable-degree sense is present, and possibility and impression are explicitly kept short of certainty or truth entailment.",
+      "notes": "NC-003: The abstract noticeable-degree sense is present, and possibility and impression are explicitly kept short of certainty or truth entailment."
+    },
+    {
+      "id": "NC-004",
+      "candidate_id": "NC-004",
+      "status": "pass",
+      "rationale": "Mathematical inequality, pairwise quantification, SQL result-row deduplication, and DISTINCT ON are all correctly delimited.",
+      "notes": "NC-004: Mathematical inequality, pairwise quantification, SQL result-row deduplication, and DISTINCT ON are all correctly delimited."
+    },
+    {
+      "id": "NC-005",
+      "candidate_id": "NC-005",
+      "status": "pass",
+      "rationale": "The botanical free/not-fused sense and its relevant organ frames are present and distinguished from taxonomic distinct species.",
+      "notes": "NC-005: The botanical free/not-fused sense and its relevant organ frames are present and distinguished from taxonomic distinct species."
+    }
+  ],
+  "blind_candidate_results": [
+    {
+      "id": "ic_001",
+      "candidate_id": "ic_001",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_001_sa_01",
+        "ic_001_sa_02",
+        "ic_001_sa_03"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_001: all 3 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_002",
+      "candidate_id": "ic_002",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_002_sa_01",
+        "ic_002_sa_02",
+        "ic_002_sa_03"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_002: all 3 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_003",
+      "candidate_id": "ic_003",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_003_sa_01",
+        "ic_003_sa_02",
+        "ic_003_sa_03"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_003: all 3 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_004",
+      "candidate_id": "ic_004",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_004_sa_01",
+        "ic_004_sa_02",
+        "ic_004_sa_03"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_004: all 3 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_005",
+      "candidate_id": "ic_005",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_005_sa_01",
+        "ic_005_sa_02",
+        "ic_005_sa_03"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_005: all 3 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_006",
+      "candidate_id": "ic_006",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_006_sa_01",
+        "ic_006_sa_02",
+        "ic_006_sa_03"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_006: all 3 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_007",
+      "candidate_id": "ic_007",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_007_sa_01",
+        "ic_007_sa_02"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_007: all 2 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_008",
+      "candidate_id": "ic_008",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_008_sa_01",
+        "ic_008_sa_02"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_008: all 2 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_009",
+      "candidate_id": "ic_009",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_009_sa_01",
+        "ic_009_sa_02"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_009: all 2 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_010",
+      "candidate_id": "ic_010",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_010_sa_01",
+        "ic_010_sa_02"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_010: all 2 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_011",
+      "candidate_id": "ic_011",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ic_011_sa_01",
+        "ic_011_sa_02"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_011: all 2 sealed semantic assertion(s) were applied to the verified body; the included disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_012",
+      "candidate_id": "ic_012",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "ic_012_sa_01"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_012: all 1 sealed semantic assertion(s) were applied to the verified body; the excluded disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_013",
+      "candidate_id": "ic_013",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "ic_013_sa_01"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_013: all 1 sealed semantic assertion(s) were applied to the verified body; the excluded disposition and every boundary remain satisfied."
+    },
+    {
+      "id": "ic_014",
+      "candidate_id": "ic_014",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "ic_014_sa_01"
+      ],
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "notes": "ic_014: all 1 sealed semantic assertion(s) were applied to the verified body; the excluded disposition and every boundary remain satisfied."
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "CR-DISTINCT-001",
+      "finding_id": "CR-DISTINCT-001",
+      "status": "pass",
+      "resolution_id": "CR-DISTINCT-001",
+      "resolution_status": "resolved",
+      "resolution_disposition": "rejected",
+      "verified_body_sha256": "b5bb32146624a1c2340954d04193e359d7cc86df02580faedb6b50e025f040a3",
+      "rationale": "The cold counterexample uses distinct for token nonidentity and identical for qualitative sameness. The entry's identical item explicitly limits sameness to relevant respects and presents the contrast under the qualitative/classificatory sense, so it does not assert cross-axis mutual exclusivity. Rejecting the finding as an optional clarification is substantively sound.",
+      "notes": "CR-DISTINCT-001: the resolution is substantively sound because the proposed counterexample switches from token identity to qualitative identity, while the article contrasts identical only on shared relevant respects; no blocker remains."
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U001",
+      "union_id": "U001",
+      "status": "pass",
+      "notes": "U001: source facts F001,F007 support the canonical union statement and its included disposition: Distinct has a general adjective sense of separately identifiable or not the same."
+    },
+    {
+      "id": "U002",
+      "union_id": "U002",
+      "status": "pass",
+      "notes": "U002: source facts F002,F008 support the canonical union statement and its included disposition: Distinct can describe a clearly perceptible sound, shape, feature, or memory."
+    },
+    {
+      "id": "U003",
+      "union_id": "U003",
+      "status": "pass",
+      "notes": "U003: source facts F003,F009 support the canonical union statement and its included disposition: Distinct can mark a possibility, advantage, impression, or tendency as clearly present."
+    },
+    {
+      "id": "U004",
+      "union_id": "U004",
+      "status": "pass",
+      "notes": "U004: source facts F004 support the canonical union statement and its included disposition: Current UK and US pronunciation is /dɪˈstɪŋkt/."
+    },
+    {
+      "id": "U005",
+      "union_id": "U005",
+      "status": "pass",
+      "notes": "U005: source facts F005 support the canonical union statement and its integrated disposition: Distinctly is an adverb in the distinct word family."
+    },
+    {
+      "id": "U006",
+      "union_id": "U006",
+      "status": "pass",
+      "notes": "U006: source facts F006 support the canonical union statement and its integrated disposition: Distinctness is a noun in the distinct word family."
+    },
+    {
+      "id": "U007",
+      "union_id": "U007",
+      "status": "pass",
+      "notes": "U007: source facts F010,F011 support the canonical union statement and its included disposition: The ordinary comparison complement is introduced by from."
+    },
+    {
+      "id": "U008",
+      "union_id": "U008",
+      "status": "pass",
+      "notes": "U008: source facts F012 support the canonical union statement and its included disposition: Mathematical distinct expresses unequal or noncoincident objects."
+    },
+    {
+      "id": "U009",
+      "union_id": "U009",
+      "status": "pass",
+      "notes": "U009: source facts F013,F019 support the canonical union statement and its included disposition: Botanical distinct describes comparable organs that are separate or free rather than fused."
+    },
+    {
+      "id": "U010",
+      "union_id": "U010",
+      "status": "pass",
+      "notes": "U010: source facts F014,F015 support the canonical union statement and its included disposition: Distinct comes from Latin distinctus, the past participle of distinguere, with a separating or distinguishing sense."
+    },
+    {
+      "id": "U011",
+      "union_id": "U011",
+      "status": "pass",
+      "notes": "U011: source facts F016 support the canonical union statement and its included disposition: SELECT DISTINCT removes duplicate result rows."
+    },
+    {
+      "id": "U012",
+      "union_id": "U012",
+      "status": "pass",
+      "notes": "U012: source facts F017 support the canonical union statement and its included disposition: SQL DISTINCT compares the selected result-row combination rather than independently deduplicating each selected column."
+    },
+    {
+      "id": "U013",
+      "union_id": "U013",
+      "status": "pass",
+      "notes": "U013: source facts F018 support the canonical union statement and its included disposition: PostgreSQL DISTINCT ON keeps one row per expression set and needs ordering for a predictable retained row."
+    }
+  ],
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "CR-DISTINCT-001 identifies a possible optional clarification about changing identity criteria, but the current wording is not false or misleading on its stated comparison axis and does not block publication."
+  ],
+  "evidence_checks": [
+    {
+      "id": "EL-001",
+      "evidence_link_id": "EL-001",
+      "status": "pass",
+      "union_ids": [
+        "U001"
+      ],
+      "notes": "EL-001: directly confirmed source facts F001,F007 support union(s) U001 and the linked article target(s) definition:001: Distinct marks entities as separately identifiable rather than identical."
+    },
+    {
+      "id": "EL-002",
+      "evidence_link_id": "EL-002",
+      "status": "pass",
+      "union_ids": [
+        "U002"
+      ],
+      "notes": "EL-002: directly confirmed source facts F002,F008 support union(s) U002 and the linked article target(s) definition:002: Distinct marks a sensory or mental feature as clearly perceptible."
+    },
+    {
+      "id": "EL-003",
+      "evidence_link_id": "EL-003",
+      "status": "pass",
+      "union_ids": [
+        "U003"
+      ],
+      "notes": "EL-003: directly confirmed source facts F003,F009 support union(s) U003 and the linked article target(s) definition:003,usage_note:003: Distinct can emphasize that an abstract degree or possibility is clearly present."
+    },
+    {
+      "id": "EL-004",
+      "evidence_link_id": "EL-004",
+      "status": "pass",
+      "union_ids": [
+        "U004"
+      ],
+      "notes": "EL-004: directly confirmed source facts F004 support union(s) U004 and the linked article target(s) pronunciation:001: Distinct is pronounced /dɪˈstɪŋkt/ in current UK and US English."
+    },
+    {
+      "id": "EL-005",
+      "evidence_link_id": "EL-005",
+      "status": "pass",
+      "union_ids": [
+        "U005"
+      ],
+      "notes": "EL-005: directly confirmed source facts F005 support union(s) U005 and the linked article target(s) word_formation:003,pronunciation:002: Distinctly is the adverbial derivative of distinct."
+    },
+    {
+      "id": "EL-006",
+      "evidence_link_id": "EL-006",
+      "status": "pass",
+      "union_ids": [
+        "U006"
+      ],
+      "notes": "EL-006: directly confirmed source facts F006 support union(s) U006 and the linked article target(s) word_formation:004: Distinctness is the nominal derivative of distinct."
+    },
+    {
+      "id": "EL-007",
+      "evidence_link_id": "EL-007",
+      "status": "pass",
+      "union_ids": [
+        "U007"
+      ],
+      "notes": "EL-007: directly confirmed source facts F010,F011 support union(s) U007 and the linked article target(s) grammar_pattern:002,usage_note:001: The comparison standard after distinct is introduced by from."
+    },
+    {
+      "id": "EL-008",
+      "evidence_link_id": "EL-008",
+      "status": "pass",
+      "union_ids": [
+        "U008"
+      ],
+      "notes": "EL-008: directly confirmed source facts F012 support union(s) U008 and the linked article target(s) definition:004,usage_note:004: Mathematical distinct means unequal or noncoincident under the relevant equality relation."
+    },
+    {
+      "id": "EL-009",
+      "evidence_link_id": "EL-009",
+      "status": "pass",
+      "union_ids": [
+        "U009"
+      ],
+      "notes": "EL-009: directly confirmed source facts F013,F019 support union(s) U009 and the linked article target(s) definition:005,usage_note:005: Botanical distinct describes organs that remain separate or free rather than fused."
+    },
+    {
+      "id": "EL-010",
+      "evidence_link_id": "EL-010",
+      "status": "pass",
+      "union_ids": [
+        "U010"
+      ],
+      "notes": "EL-010: directly confirmed source facts F014,F015 support union(s) U010 and the linked article target(s) etymology:001,etymology:002: Distinct descends from Latin distinctus, related to distinguere and the idea of marking apart."
+    },
+    {
+      "id": "EL-011",
+      "evidence_link_id": "EL-011",
+      "status": "pass",
+      "union_ids": [
+        "U011"
+      ],
+      "notes": "EL-011: directly confirmed source facts F016 support union(s) U011 and the linked article target(s) definition:004,collocation:023: SELECT DISTINCT removes duplicate rows from the query result."
+    },
+    {
+      "id": "EL-012",
+      "evidence_link_id": "EL-012",
+      "status": "pass",
+      "union_ids": [
+        "U012"
+      ],
+      "notes": "EL-012: directly confirmed source facts F017 support union(s) U012 and the linked article target(s) usage_note:004: With multiple selected expressions, DISTINCT evaluates the whole result-row combination."
+    },
+    {
+      "id": "EL-013",
+      "evidence_link_id": "EL-013",
+      "status": "pass",
+      "union_ids": [
+        "U013"
+      ],
+      "notes": "EL-013: directly confirmed source facts F018 support union(s) U013 and the linked article target(s) usage_note:004: PostgreSQL DISTINCT ON retains the first row per equal-expression group, with ORDER BY needed for predictability."
+    }
+  ]
+}

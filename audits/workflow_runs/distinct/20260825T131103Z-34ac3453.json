@@ -18,12 +18,12 @@
     "research_queries": 12,
     "candidate_pages": 11
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-25T13:11:03Z",
   "deadline_at": "2026-08-25T14:11:03Z",
   "pre_draft_deadline_at": "2026-08-25T13:31:03Z",
-  "last_heartbeat_at": "2026-08-25T13:46:44Z",
+  "last_heartbeat_at": "2026-08-25T13:58:02Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T13:11:04Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-25T13:46:44Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T13:57:15Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T13:58:02Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -400,8 +410,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 3,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 2819.654802,
+    "completed_at": "2026-08-25T13:58:02Z",
     "stages": [
       {
         "id": "guard_start",
@@ -469,38 +479,38 @@
       {
         "id": "finding_resolution",
         "instruction_bytes": 1492,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 79756,
+        "duration_seconds": 60.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
         "instruction_bytes": 3065,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 81827,
+        "duration_seconds": 420.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 4710,
+        "duration_seconds": 15.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 14508,
+        "duration_seconds": 5.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -584,7 +594,7 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 7,
+    "next_stage_index": 11,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -592,7 +602,11 @@
       "checker_passes",
       "cold_review",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "finding_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -615,6 +629,22 @@
       ],
       "blind_seal": [
         "audits/runs/d/distinct/20260825T131103Z-34ac3453/blind_seal.json"
+      ],
+      "finding_resolution": [
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/final_review.json",
+        "audits/d/distinct.json"
+      ],
+      "status_update": [
+        "entries/d/distinct.md",
+        "queue/words.csv",
+        "audits/runs/d/distinct/20260825T131103Z-34ac3453/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   }
