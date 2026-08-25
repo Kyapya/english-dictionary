@@ -1,0 +1,42 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T152408Z-6e196841",
+  "headword": "prompt",
+  "entry_path": "entries/p/prompt.md",
+  "branch": "codex/add-prompt-20260825",
+  "base_sha": "70a2b47c80762519fa0a1f4b77b6583008219a2c",
+  "profile": "extended",
+  "profile_reason": "continuation after standard pre-draft budget exhaustion; preserve bounded audit history",
+  "limits": {
+    "max_elapsed_minutes": 90,
+    "max_pre_draft_minutes": 30,
+    "max_research_queries": 18,
+    "max_candidate_pages": 26,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-25T15:24:08Z",
+  "deadline_at": "2026-08-25T16:54:08Z",
+  "pre_draft_deadline_at": "2026-08-25T15:54:08Z",
+  "last_heartbeat_at": "2026-08-25T15:24:08Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T15:24:08Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
+
