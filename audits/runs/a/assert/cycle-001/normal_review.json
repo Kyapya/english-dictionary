@@ -1,0 +1,1610 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal:assert:20260825",
+  "context_id": "ctx:normal:assert:20260825",
+  "input_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+  "prompt_sha256": "d9c7d063c19d54df5f3226c4ca5e0782c37b70a3d4c9875c68b39104ce935a06",
+  "independent_candidates": [
+    {
+      "id": "candidate:assert:declarative",
+      "surface_form": "assert that / assert + noun",
+      "frame": "subject + assert + that-clause or noun phrase",
+      "meaning": "State a proposition or claim firmly, without guaranteeing that it is true.",
+      "rationale": "The article gives both frames and explicitly separates strong assertion from proof.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:assert:declarative:oxford",
+        "link:normal_candidate:candidate:assert:declarative:merriam"
+      ]
+    },
+    {
+      "id": "candidate:assert:rights",
+      "surface_form": "assert one's rights / authority / independence",
+      "frame": "subject + assert + rights, authority, control, independence, or a claim",
+      "meaning": "Put forward a right or authority and seek recognition of it.",
+      "rationale": "The article contains a separate rights-and-authority sense with legal and collocational boundaries.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:005",
+        "collocation:007",
+        "usage_note:007"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:assert:rights:oxford",
+        "link:normal_candidate:candidate:assert:rights:merriam"
+      ]
+    },
+    {
+      "id": "candidate:assert:oneself",
+      "surface_form": "assert oneself",
+      "frame": "subject + assert + reflexive pronoun",
+      "meaning": "Express one's views, rights, or presence confidently in an interaction.",
+      "rationale": "The reflexive construction is a distinct use and is contrasted with assert one's rights.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:009",
+        "usage_note:012"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:assert:oneself:oxford",
+        "link:normal_candidate:candidate:assert:oneself:merriam"
+      ]
+    },
+    {
+      "id": "candidate:assert:itself",
+      "surface_form": "assert itself",
+      "frame": "abstract subject + assert + itself",
+      "meaning": "An effect, problem, feeling, or trend becomes apparent or begins to have an effect.",
+      "rationale": "The article treats this as a figurative inanimate-subject use and warns against the rights meaning.",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:013",
+        "usage_note:015"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:assert:itself:oxford",
+        "link:normal_candidate:candidate:assert:itself:merriam"
+      ]
+    },
+    {
+      "id": "candidate:assert:java",
+      "surface_form": "Java assert statement",
+      "frame": "assert + boolean expression in Java",
+      "meaning": "Check a programming assumption at runtime when assertions are enabled.",
+      "rationale": "The article includes a narrowly qualified technical usage note rather than treating it as an ordinary English sense.",
+      "article_target_ids": [
+        "usage_note:005"
+      ],
+      "disposition": "included",
+      "evidence_link_ids": [
+        "link:normal_candidate:candidate:assert:java:oracle"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:001:oxford",
+        "link:target:pronunciation:001:merriam"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:002:oxford",
+        "link:target:pronunciation:002:merriam"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:003:oxford",
+        "link:target:pronunciation:003:merriam"
+      ]
+    },
+    {
+      "id": "pronunciation:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:pronunciation:004:oxford",
+        "link:target:pronunciation:004:merriam"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:etymology:001:oxford",
+        "link:target:etymology:001:merriam"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:etymology:002:oxford",
+        "link:target:etymology:002:merriam"
+      ]
+    },
+    {
+      "id": "etymology:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:etymology:003:oxford",
+        "link:target:etymology:003:merriam"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:word_formation:001:oxford"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:word_formation:002:oxford"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:word_formation:003:oxford"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:word_formation:004:oxford"
+      ]
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:word_formation:005:oxford"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:core_image:001:oxford",
+        "link:target:core_image:001:merriam"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:core_image:002:oxford"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:core_image:003:oxford"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:core_image:004:oxford"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:core_image:005:oxford"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:001:oxford",
+        "link:target:sense_boundary:001:merriam"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:definition:001:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:001:oxford"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:frequency:001:oxford",
+        "link:target:frequency:001:merriam"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:register:001:oxford",
+        "link:target:register:001:merriam"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:001:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:002:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:003:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:004:oxford"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:001:oxford"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:002:oxford"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:003:oxford"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:004:oxford"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:005:oxford"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:006:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:002:oxford",
+        "link:target:usage_note:002:merriam"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:003:oxford",
+        "link:target:usage_note:003:merriam"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:004:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:005:oracle"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:001:oxford",
+        "link:target:synonym:001:merriam"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:002:oxford",
+        "link:target:synonym:002:merriam"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:003:oxford",
+        "link:target:synonym:003:merriam"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:004:oxford",
+        "link:target:synonym:004:merriam"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:005:oxford",
+        "link:target:synonym:005:merriam"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:antonym:001:oxford",
+        "link:target:antonym:001:merriam"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:002:oxford",
+        "link:target:sense_boundary:002:merriam"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:definition:002:oxford",
+        "link:target:definition:002:merriam"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:006:oxford",
+        "link:target:usage_note:006:merriam"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:frequency:002:oxford",
+        "link:target:frequency:002:merriam"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:register:002:oxford",
+        "link:target:register:002:merriam"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:005:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:006:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:007:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:008:oxford"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:007:oxford",
+        "link:target:collocation:007:merriam"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:008:oxford"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:009:oxford"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:010:oxford",
+        "link:target:collocation:010:merriam"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:011:oxford"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:012:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:007:oxford",
+        "link:target:usage_note:007:merriam"
+      ]
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:008:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:009:oxford",
+        "link:target:usage_note:009:merriam"
+      ]
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:010:oxford"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:006:oxford",
+        "link:target:synonym:006:merriam"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:007:oxford",
+        "link:target:synonym:007:merriam"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:008:oxford",
+        "link:target:synonym:008:merriam"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:009:oxford",
+        "link:target:synonym:009:merriam"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:010:oxford",
+        "link:target:synonym:010:merriam"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:antonym:002:oxford",
+        "link:target:antonym:002:merriam"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:antonym:003:oxford",
+        "link:target:antonym:003:merriam"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:003:oxford",
+        "link:target:sense_boundary:003:merriam"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:definition:003:oxford",
+        "link:target:definition:003:merriam"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:frequency:003:oxford",
+        "link:target:frequency:003:merriam"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:register:003:oxford",
+        "link:target:register:003:merriam"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:009:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:010:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:011:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:012:oxford"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:013:oxford"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:014:oxford"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:015:oxford"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:016:oxford"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:017:oxford"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:018:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:011:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:012:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:013",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:013:oxford"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:011:oxford",
+        "link:target:synonym:011:merriam"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:012:oxford",
+        "link:target:synonym:012:merriam"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:013:oxford",
+        "link:target:synonym:013:merriam"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:014:oxford",
+        "link:target:synonym:014:merriam"
+      ]
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:015:oxford",
+        "link:target:synonym:015:merriam"
+      ]
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:antonym:004:oxford",
+        "link:target:antonym:004:merriam"
+      ]
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:antonym:005:oxford",
+        "link:target:antonym:005:merriam"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:sense_boundary:004:oxford",
+        "link:target:sense_boundary:004:merriam"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:definition:004:oxford"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:frequency:004:oxford",
+        "link:target:frequency:004:merriam"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:register:004:oxford",
+        "link:target:register:004:merriam"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:013:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:014:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:015:oxford"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:grammar_pattern:016:oxford"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:019:oxford"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:020:oxford"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:021:oxford"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:collocation:022:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:014",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:014:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:015",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:015:oxford"
+      ]
+    },
+    {
+      "id": "usage_note:016",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:usage_note:016:oxford",
+        "link:target:usage_note:016:merriam"
+      ]
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:016:oxford",
+        "link:target:synonym:016:merriam"
+      ]
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:017:oxford",
+        "link:target:synonym:017:merriam"
+      ]
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:018:oxford",
+        "link:target:synonym:018:merriam"
+      ]
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "notes": "Checked the target against the latest entry body, mapped source facts, and adjacent sense boundaries.",
+      "evidence_link_ids": [
+        "link:target:synonym:019:oxford",
+        "link:target:synonym:019:merriam"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:risk_sense_pair:001:oxford",
+        "link:relation:risk_sense_pair:001:merriam"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:risk_sense_pair:002:oxford",
+        "link:relation:risk_sense_pair:002:merriam"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:001:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:002:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:003:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:004:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:005:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:006:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:007:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:008:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:009:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:010:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:011:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:012:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:013:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:014:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:015:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:016:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:017:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:018:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:019:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:020:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:021:oxford"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:example_translation:022:oxford"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:001:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:001:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:002:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:003:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:004:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:005:oxford"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:001:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:001:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:002:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:003:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:004:oxford"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:002:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:006:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:007:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:008:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:009:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:010:oxford"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:002:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:005:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:006:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:007:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:008:oxford"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:003:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:011:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:012:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:013:oxford"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:003:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:009:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:010:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:011:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:012:oxford"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:sense_definition_consistency:004:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:014",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:014:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:015",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:015:oxford"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:016",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_usage_consistency:016:oxford"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:definition_lexical_relation_consistency:004:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:013:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:014:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:015:oxford"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:pattern_example_coverage:016:oxford"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:core_inventory_consistency:001:oxford",
+        "link:relation:core_inventory_consistency:001:merriam"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:001:oxford",
+        "link:relation:core_sense_mapping:001:merriam"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:002:oxford",
+        "link:relation:core_sense_mapping:002:merriam"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:003:oxford",
+        "link:relation:core_sense_mapping:003:merriam"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:core_sense_mapping:004:oxford",
+        "link:relation:core_sense_mapping:004:merriam"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Checked the generated relation for direction, scope, and consistency across the linked targets.",
+      "evidence_link_ids": [
+        "link:relation:article_learning_risk:001:oxford",
+        "link:relation:article_learning_risk:001:merriam"
+      ]
+    }
+  ]
+}

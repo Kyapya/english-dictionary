@@ -1,0 +1,4238 @@
+{
+  "stage": "final_review",
+  "run_id": "final:assert:20260825",
+  "context_id": "ctx:final:assert:20260825",
+  "input_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+  "prompt_sha256": "5c428f984b183d6ab66cf892af1ba499c642427e7bed0a47aa7d78a16ce60156",
+  "adjudication": {
+    "decision": "pass",
+    "inventory_comparison": [
+      {
+        "id": "comparison:assert:001",
+        "comparison": "match",
+        "status": "pass",
+        "normal_candidate_ids": [
+          "candidate:assert:declarative"
+        ],
+        "final_candidate_ids": [
+          "final_candidate:assert:declarative"
+        ],
+        "rationale": "The independently generated candidate describes the same included sense or bounded technical note, frame, scope, and article mapping.",
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:assert:001:oxford",
+          "link:inventory_comparison:comparison:assert:001:merriam"
+        ]
+      },
+      {
+        "id": "comparison:assert:002",
+        "comparison": "match",
+        "status": "pass",
+        "normal_candidate_ids": [
+          "candidate:assert:rights"
+        ],
+        "final_candidate_ids": [
+          "final_candidate:assert:rights"
+        ],
+        "rationale": "The independently generated candidate describes the same included sense or bounded technical note, frame, scope, and article mapping.",
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:assert:002:oxford",
+          "link:inventory_comparison:comparison:assert:002:merriam"
+        ]
+      },
+      {
+        "id": "comparison:assert:003",
+        "comparison": "match",
+        "status": "pass",
+        "normal_candidate_ids": [
+          "candidate:assert:oneself"
+        ],
+        "final_candidate_ids": [
+          "final_candidate:assert:oneself"
+        ],
+        "rationale": "The independently generated candidate describes the same included sense or bounded technical note, frame, scope, and article mapping.",
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:assert:003:oxford",
+          "link:inventory_comparison:comparison:assert:003:merriam"
+        ]
+      },
+      {
+        "id": "comparison:assert:004",
+        "comparison": "match",
+        "status": "pass",
+        "normal_candidate_ids": [
+          "candidate:assert:itself"
+        ],
+        "final_candidate_ids": [
+          "final_candidate:assert:itself"
+        ],
+        "rationale": "The independently generated candidate describes the same included sense or bounded technical note, frame, scope, and article mapping.",
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:assert:004:oxford",
+          "link:inventory_comparison:comparison:assert:004:merriam"
+        ]
+      },
+      {
+        "id": "comparison:assert:005",
+        "comparison": "match",
+        "status": "pass",
+        "normal_candidate_ids": [
+          "candidate:assert:java"
+        ],
+        "final_candidate_ids": [
+          "final_candidate:assert:java"
+        ],
+        "rationale": "The independently generated candidate describes the same included sense or bounded technical note, frame, scope, and article mapping.",
+        "evidence_link_ids": [
+          "link:inventory_comparison:comparison:assert:005:oracle"
+        ]
+      }
+    ],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:001:oxford",
+          "link:target:pronunciation:001:merriam"
+        ]
+      },
+      {
+        "id": "pronunciation:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:002:oxford",
+          "link:target:pronunciation:002:merriam"
+        ]
+      },
+      {
+        "id": "pronunciation:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:003:oxford",
+          "link:target:pronunciation:003:merriam"
+        ]
+      },
+      {
+        "id": "pronunciation:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:pronunciation:004:oxford",
+          "link:target:pronunciation:004:merriam"
+        ]
+      },
+      {
+        "id": "etymology:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:etymology:001:oxford",
+          "link:target:etymology:001:merriam"
+        ]
+      },
+      {
+        "id": "etymology:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:etymology:002:oxford",
+          "link:target:etymology:002:merriam"
+        ]
+      },
+      {
+        "id": "etymology:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:etymology:003:oxford",
+          "link:target:etymology:003:merriam"
+        ]
+      },
+      {
+        "id": "word_formation:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:001:oxford"
+        ]
+      },
+      {
+        "id": "word_formation:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:002:oxford"
+        ]
+      },
+      {
+        "id": "word_formation:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:003:oxford"
+        ]
+      },
+      {
+        "id": "word_formation:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:004:oxford"
+        ]
+      },
+      {
+        "id": "word_formation:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:word_formation:005:oxford"
+        ]
+      },
+      {
+        "id": "core_image:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:001:oxford",
+          "link:target:core_image:001:merriam"
+        ]
+      },
+      {
+        "id": "core_image:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:002:oxford"
+        ]
+      },
+      {
+        "id": "core_image:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:003:oxford"
+        ]
+      },
+      {
+        "id": "core_image:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:004:oxford"
+        ]
+      },
+      {
+        "id": "core_image:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:core_image:005:oxford"
+        ]
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:001:oxford",
+          "link:target:sense_boundary:001:merriam"
+        ]
+      },
+      {
+        "id": "definition:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:001:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:001:oxford"
+        ]
+      },
+      {
+        "id": "frequency:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:001:oxford",
+          "link:target:frequency:001:merriam"
+        ]
+      },
+      {
+        "id": "register:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:register:001:oxford",
+          "link:target:register:001:merriam"
+        ]
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:001:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:002:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:003:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:004:oxford"
+        ]
+      },
+      {
+        "id": "collocation:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:001:oxford"
+        ]
+      },
+      {
+        "id": "collocation:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:002:oxford"
+        ]
+      },
+      {
+        "id": "collocation:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:003:oxford"
+        ]
+      },
+      {
+        "id": "collocation:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:004:oxford"
+        ]
+      },
+      {
+        "id": "collocation:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:005:oxford"
+        ]
+      },
+      {
+        "id": "collocation:006",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:006:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:002:oxford",
+          "link:target:usage_note:002:merriam"
+        ]
+      },
+      {
+        "id": "usage_note:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:003:oxford",
+          "link:target:usage_note:003:merriam"
+        ]
+      },
+      {
+        "id": "usage_note:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:004:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:005:oracle"
+        ]
+      },
+      {
+        "id": "synonym:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:001:oxford",
+          "link:target:synonym:001:merriam"
+        ]
+      },
+      {
+        "id": "synonym:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:002:oxford",
+          "link:target:synonym:002:merriam"
+        ]
+      },
+      {
+        "id": "synonym:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:003:oxford",
+          "link:target:synonym:003:merriam"
+        ]
+      },
+      {
+        "id": "synonym:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:004:oxford",
+          "link:target:synonym:004:merriam"
+        ]
+      },
+      {
+        "id": "synonym:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:005:oxford",
+          "link:target:synonym:005:merriam"
+        ]
+      },
+      {
+        "id": "antonym:001",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:antonym:001:oxford",
+          "link:target:antonym:001:merriam"
+        ]
+      },
+      {
+        "id": "sense_boundary:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:002:oxford",
+          "link:target:sense_boundary:002:merriam"
+        ]
+      },
+      {
+        "id": "definition:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:002:oxford",
+          "link:target:definition:002:merriam"
+        ]
+      },
+      {
+        "id": "usage_note:006",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:006:oxford",
+          "link:target:usage_note:006:merriam"
+        ]
+      },
+      {
+        "id": "frequency:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:002:oxford",
+          "link:target:frequency:002:merriam"
+        ]
+      },
+      {
+        "id": "register:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:register:002:oxford",
+          "link:target:register:002:merriam"
+        ]
+      },
+      {
+        "id": "grammar_pattern:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:005:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:006",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:006:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:007",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:007:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:008",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:008:oxford"
+        ]
+      },
+      {
+        "id": "collocation:007",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:007:oxford",
+          "link:target:collocation:007:merriam"
+        ]
+      },
+      {
+        "id": "collocation:008",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:008:oxford"
+        ]
+      },
+      {
+        "id": "collocation:009",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:009:oxford"
+        ]
+      },
+      {
+        "id": "collocation:010",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:010:oxford",
+          "link:target:collocation:010:merriam"
+        ]
+      },
+      {
+        "id": "collocation:011",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:011:oxford"
+        ]
+      },
+      {
+        "id": "collocation:012",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:012:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:007",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:007:oxford",
+          "link:target:usage_note:007:merriam"
+        ]
+      },
+      {
+        "id": "usage_note:008",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:008:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:009",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:009:oxford",
+          "link:target:usage_note:009:merriam"
+        ]
+      },
+      {
+        "id": "usage_note:010",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:010:oxford"
+        ]
+      },
+      {
+        "id": "synonym:006",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:006:oxford",
+          "link:target:synonym:006:merriam"
+        ]
+      },
+      {
+        "id": "synonym:007",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:007:oxford",
+          "link:target:synonym:007:merriam"
+        ]
+      },
+      {
+        "id": "synonym:008",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:008:oxford",
+          "link:target:synonym:008:merriam"
+        ]
+      },
+      {
+        "id": "synonym:009",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:009:oxford",
+          "link:target:synonym:009:merriam"
+        ]
+      },
+      {
+        "id": "synonym:010",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:010:oxford",
+          "link:target:synonym:010:merriam"
+        ]
+      },
+      {
+        "id": "antonym:002",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:antonym:002:oxford",
+          "link:target:antonym:002:merriam"
+        ]
+      },
+      {
+        "id": "antonym:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:antonym:003:oxford",
+          "link:target:antonym:003:merriam"
+        ]
+      },
+      {
+        "id": "sense_boundary:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:003:oxford",
+          "link:target:sense_boundary:003:merriam"
+        ]
+      },
+      {
+        "id": "definition:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:003:oxford",
+          "link:target:definition:003:merriam"
+        ]
+      },
+      {
+        "id": "frequency:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:003:oxford",
+          "link:target:frequency:003:merriam"
+        ]
+      },
+      {
+        "id": "register:003",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:register:003:oxford",
+          "link:target:register:003:merriam"
+        ]
+      },
+      {
+        "id": "grammar_pattern:009",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:009:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:010",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:010:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:011",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:011:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:012",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:012:oxford"
+        ]
+      },
+      {
+        "id": "collocation:013",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:013:oxford"
+        ]
+      },
+      {
+        "id": "collocation:014",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:014:oxford"
+        ]
+      },
+      {
+        "id": "collocation:015",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:015:oxford"
+        ]
+      },
+      {
+        "id": "collocation:016",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:016:oxford"
+        ]
+      },
+      {
+        "id": "collocation:017",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:017:oxford"
+        ]
+      },
+      {
+        "id": "collocation:018",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:018:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:011",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:011:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:012",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:012:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:013",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:013:oxford"
+        ]
+      },
+      {
+        "id": "synonym:011",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:011:oxford",
+          "link:target:synonym:011:merriam"
+        ]
+      },
+      {
+        "id": "synonym:012",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:012:oxford",
+          "link:target:synonym:012:merriam"
+        ]
+      },
+      {
+        "id": "synonym:013",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:013:oxford",
+          "link:target:synonym:013:merriam"
+        ]
+      },
+      {
+        "id": "synonym:014",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:014:oxford",
+          "link:target:synonym:014:merriam"
+        ]
+      },
+      {
+        "id": "synonym:015",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:015:oxford",
+          "link:target:synonym:015:merriam"
+        ]
+      },
+      {
+        "id": "antonym:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:antonym:004:oxford",
+          "link:target:antonym:004:merriam"
+        ]
+      },
+      {
+        "id": "antonym:005",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:antonym:005:oxford",
+          "link:target:antonym:005:merriam"
+        ]
+      },
+      {
+        "id": "sense_boundary:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:sense_boundary:004:oxford",
+          "link:target:sense_boundary:004:merriam"
+        ]
+      },
+      {
+        "id": "definition:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:definition:004:oxford"
+        ]
+      },
+      {
+        "id": "frequency:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:frequency:004:oxford",
+          "link:target:frequency:004:merriam"
+        ]
+      },
+      {
+        "id": "register:004",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:register:004:oxford",
+          "link:target:register:004:merriam"
+        ]
+      },
+      {
+        "id": "grammar_pattern:013",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:013:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:014",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:014:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:015",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:015:oxford"
+        ]
+      },
+      {
+        "id": "grammar_pattern:016",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:grammar_pattern:016:oxford"
+        ]
+      },
+      {
+        "id": "collocation:019",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:019:oxford"
+        ]
+      },
+      {
+        "id": "collocation:020",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:020:oxford"
+        ]
+      },
+      {
+        "id": "collocation:021",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:021:oxford"
+        ]
+      },
+      {
+        "id": "collocation:022",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:collocation:022:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:014",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:014:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:015",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:015:oxford"
+        ]
+      },
+      {
+        "id": "usage_note:016",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:usage_note:016:oxford",
+          "link:target:usage_note:016:merriam"
+        ]
+      },
+      {
+        "id": "synonym:016",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:016:oxford",
+          "link:target:synonym:016:merriam"
+        ]
+      },
+      {
+        "id": "synonym:017",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:017:oxford",
+          "link:target:synonym:017:merriam"
+        ]
+      },
+      {
+        "id": "synonym:018",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:018:oxford",
+          "link:target:synonym:018:merriam"
+        ]
+      },
+      {
+        "id": "synonym:019",
+        "status": "pass",
+        "notes": "Rechecked the target against the current body, source-supported scope, and the relevant independent candidate assertions.",
+        "evidence_link_ids_checked": [
+          "link:target:synonym:019:oxford",
+          "link:target:synonym:019:merriam"
+        ]
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "risk_sense_pair:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:risk_sense_pair:001:oxford",
+          "link:relation:risk_sense_pair:001:merriam"
+        ]
+      },
+      {
+        "id": "risk_sense_pair:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:risk_sense_pair:002:oxford",
+          "link:relation:risk_sense_pair:002:merriam"
+        ]
+      },
+      {
+        "id": "example_translation:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:001:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:002:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:003",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:003:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:004",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:004:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:005",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:005:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:006",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:006:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:007",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:007:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:008",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:008:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:009",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:009:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:010",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:010:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:011",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:011:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:012",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:012:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:013",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:013:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:014",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:014:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:015",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:015:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:016",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:016:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:017",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:017:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:018",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:018:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:019",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:019:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:020",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:020:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:021",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:021:oxford"
+        ]
+      },
+      {
+        "id": "example_translation:022",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:example_translation:022:oxford"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:001:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:001:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:002:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:003",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:003:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:004",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:004:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:005",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:005:oxford"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:001:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:001:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:002:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:003",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:003:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:004",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:004:oxford"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:002:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:006",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:006:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:007",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:007:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:008",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:008:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:009",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:009:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:010",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:010:oxford"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:002:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:005",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:005:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:006",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:006:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:007",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:007:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:008",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:008:oxford"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:003",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:003:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:011",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:011:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:012",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:012:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:013",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:013:oxford"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:003",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:003:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:009",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:009:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:010",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:010:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:011",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:011:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:012",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:012:oxford"
+        ]
+      },
+      {
+        "id": "sense_definition_consistency:004",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:sense_definition_consistency:004:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:014",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:014:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:015",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:015:oxford"
+        ]
+      },
+      {
+        "id": "definition_usage_consistency:016",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_usage_consistency:016:oxford"
+        ]
+      },
+      {
+        "id": "definition_lexical_relation_consistency:004",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:definition_lexical_relation_consistency:004:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:013",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:013:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:014",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:014:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:015",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:015:oxford"
+        ]
+      },
+      {
+        "id": "pattern_example_coverage:016",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:pattern_example_coverage:016:oxford"
+        ]
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_inventory_consistency:001:oxford",
+          "link:relation:core_inventory_consistency:001:merriam"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:001:oxford",
+          "link:relation:core_sense_mapping:001:merriam"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:002:oxford",
+          "link:relation:core_sense_mapping:002:merriam"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:003",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:003:oxford",
+          "link:relation:core_sense_mapping:003:merriam"
+        ]
+      },
+      {
+        "id": "core_sense_mapping:004",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:core_sense_mapping:004:oxford",
+          "link:relation:core_sense_mapping:004:merriam"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "Rechecked the relationship direction and scope across all linked targets in the current body.",
+        "evidence_link_ids_checked": [
+          "link:relation:article_learning_risk:001:oxford",
+          "link:relation:article_learning_risk:001:merriam"
+        ]
+      }
+    ],
+    "candidate_results": [
+      {
+        "id": "candidate:assert:declarative",
+        "status": "pass",
+        "notes": "The final adjudicator rechecked the normal candidate's meaning, frame, disposition, target mapping, and source support.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:assert:declarative:oxford",
+          "link:normal_candidate:candidate:assert:declarative:merriam"
+        ]
+      },
+      {
+        "id": "candidate:assert:rights",
+        "status": "pass",
+        "notes": "The final adjudicator rechecked the normal candidate's meaning, frame, disposition, target mapping, and source support.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:assert:rights:oxford",
+          "link:normal_candidate:candidate:assert:rights:merriam"
+        ]
+      },
+      {
+        "id": "candidate:assert:oneself",
+        "status": "pass",
+        "notes": "The final adjudicator rechecked the normal candidate's meaning, frame, disposition, target mapping, and source support.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:assert:oneself:oxford",
+          "link:normal_candidate:candidate:assert:oneself:merriam"
+        ]
+      },
+      {
+        "id": "candidate:assert:itself",
+        "status": "pass",
+        "notes": "The final adjudicator rechecked the normal candidate's meaning, frame, disposition, target mapping, and source support.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:assert:itself:oxford",
+          "link:normal_candidate:candidate:assert:itself:merriam"
+        ]
+      },
+      {
+        "id": "candidate:assert:java",
+        "status": "pass",
+        "notes": "The final adjudicator rechecked the normal candidate's meaning, frame, disposition, target mapping, and source support.",
+        "evidence_link_ids_checked": [
+          "link:normal_candidate:candidate:assert:java:oracle"
+        ]
+      }
+    ],
+    "blind_finding_results": [],
+    "finding_results": [],
+    "evidence_checks": [
+      {
+        "id": "link:final_candidate:final_candidate:assert:declarative:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:declarative:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:itself:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:itself:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:java:oracle",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:oneself:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:oneself:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:rights:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:final_candidate:final_candidate:assert:rights:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:inventory_comparison:comparison:assert:005:oracle",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:declarative:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:declarative:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:itself:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:itself:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:java:oracle",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:oneself:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:oneself:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:rights:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:normal_candidate:candidate:assert:rights:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:article_learning_risk:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:article_learning_risk:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_inventory_consistency:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_inventory_consistency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:core_sense_mapping:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_lexical_relation_consistency:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:definition_usage_consistency:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:017:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:018:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:019:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:020:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:021:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:example_translation:022:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:pattern_example_coverage:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:risk_sense_pair:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:risk_sense_pair:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:risk_sense_pair:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:risk_sense_pair:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:relation:sense_definition_consistency:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:005:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:antonym:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:007:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:010:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:017:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:018:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:019:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:020:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:021:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:collocation:022:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:core_image:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:core_image:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:core_image:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:core_image:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:core_image:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:core_image:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:definition:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:definition:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:definition:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:definition:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:definition:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:definition:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:etymology:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:etymology:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:etymology:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:etymology:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:etymology:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:etymology:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:frequency:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:grammar_pattern:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:pronunciation:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:register:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:sense_boundary:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:001:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:004:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:005:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:006:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:007:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:008:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:009:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:010:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:011:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:012:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:013:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:014:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:015:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:016:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:017:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:017:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:018:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:018:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:019:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:synonym:019:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:002:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:003:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:005:oracle",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:006:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:006:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:007:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:007:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:008:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:009:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:009:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:010:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:011:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:012:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:013:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:014:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:015:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:016:merriam",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:usage_note:016:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:word_formation:001:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:word_formation:002:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:word_formation:003:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:word_formation:004:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      },
+      {
+        "id": "link:target:word_formation:005:oxford",
+        "status": "pass",
+        "claim_supported": true,
+        "locator_verified": true,
+        "applicability_confirmed": true,
+        "contradiction_status": "no_contradiction",
+        "notes": "The final adjudicator rechecked the link's source locator, claim support, applicability, and nearby counterexamples."
+      }
+    ],
+    "final_inventory_checks": [
+      {
+        "candidate_id": "final_candidate:assert:declarative",
+        "assertion_ids": [
+          "final_assertion:declarative:scope",
+          "final_assertion:declarative:frames"
+        ],
+        "checked_on_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+        "status": "pass",
+        "notes": "Applied every sealed semantic assertion to the current body and rechecked all mapped targets and incident relations.",
+        "article_target_ids_checked": [
+          "definition:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "sense_boundary:001"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:001",
+          "definition_lexical_relation_consistency:001",
+          "definition_usage_consistency:001",
+          "definition_usage_consistency:002",
+          "definition_usage_consistency:003",
+          "definition_usage_consistency:004",
+          "definition_usage_consistency:005",
+          "pattern_example_coverage:001",
+          "pattern_example_coverage:002",
+          "risk_sense_pair:001",
+          "sense_definition_consistency:001"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "final_candidate:assert:rights",
+        "assertion_ids": [
+          "final_assertion:rights:recognition",
+          "final_assertion:rights:boundary"
+        ],
+        "checked_on_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+        "status": "pass",
+        "notes": "Applied every sealed semantic assertion to the current body and rechecked all mapped targets and incident relations.",
+        "article_target_ids_checked": [
+          "collocation:007",
+          "definition:002",
+          "grammar_pattern:005",
+          "sense_boundary:002",
+          "usage_note:007"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:002",
+          "definition_lexical_relation_consistency:002",
+          "definition_usage_consistency:006",
+          "definition_usage_consistency:007",
+          "definition_usage_consistency:008",
+          "definition_usage_consistency:009",
+          "definition_usage_consistency:010",
+          "example_translation:007",
+          "pattern_example_coverage:005",
+          "pattern_example_coverage:006",
+          "pattern_example_coverage:007",
+          "pattern_example_coverage:008",
+          "risk_sense_pair:001",
+          "risk_sense_pair:002",
+          "sense_definition_consistency:002"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "final_candidate:assert:oneself",
+        "assertion_ids": [
+          "final_assertion:oneself:reflexive",
+          "final_assertion:oneself:aggression"
+        ],
+        "checked_on_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+        "status": "pass",
+        "notes": "Applied every sealed semantic assertion to the current body and rechecked all mapped targets and incident relations.",
+        "article_target_ids_checked": [
+          "definition:003",
+          "grammar_pattern:009",
+          "sense_boundary:003",
+          "usage_note:012"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:003",
+          "definition_lexical_relation_consistency:003",
+          "definition_usage_consistency:011",
+          "definition_usage_consistency:012",
+          "definition_usage_consistency:013",
+          "pattern_example_coverage:009",
+          "risk_sense_pair:002",
+          "sense_definition_consistency:003"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "final_candidate:assert:itself",
+        "assertion_ids": [
+          "final_assertion:itself:abstract",
+          "final_assertion:itself:boundary"
+        ],
+        "checked_on_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+        "status": "pass",
+        "notes": "Applied every sealed semantic assertion to the current body and rechecked all mapped targets and incident relations.",
+        "article_target_ids_checked": [
+          "definition:004",
+          "grammar_pattern:013",
+          "sense_boundary:004",
+          "usage_note:015"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_inventory_consistency:001",
+          "core_sense_mapping:004",
+          "definition_lexical_relation_consistency:004",
+          "definition_usage_consistency:014",
+          "definition_usage_consistency:015",
+          "definition_usage_consistency:016",
+          "pattern_example_coverage:013",
+          "sense_definition_consistency:004"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      },
+      {
+        "candidate_id": "final_candidate:assert:java",
+        "assertion_ids": [
+          "final_assertion:java:qualification",
+          "final_assertion:java:separation"
+        ],
+        "checked_on_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+        "status": "pass",
+        "notes": "Applied every sealed semantic assertion to the current body and rechecked all mapped targets and incident relations.",
+        "article_target_ids_checked": [
+          "usage_note:005"
+        ],
+        "article_relation_ids_checked": [
+          "article_learning_risk:001",
+          "core_sense_mapping:001",
+          "definition_usage_consistency:005"
+        ],
+        "article_queries_checked": [],
+        "article_query_results": []
+      }
+    ],
+    "blockers": []
+  }
+}

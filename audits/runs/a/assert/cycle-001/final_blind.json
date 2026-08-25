@@ -1,0 +1,121 @@
+{
+  "stage": "final_blind",
+  "run_id": "final:assert:20260825",
+  "context_id": "ctx:final:assert:20260825",
+  "input_body_sha256": "a1914433d5ed1e194b3a5090413022bbd8ac56c6d0db198e038168185004bcb1",
+  "prompt_sha256": "5c428f984b183d6ab66cf892af1ba499c642427e7bed0a47aa7d78a16ce60156",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "final_candidate:assert:declarative",
+      "surface_form": "assert that / assert + noun",
+      "frame": "subject + assert + that-clause or noun phrase",
+      "meaning": "State a proposition or claim firmly, without guaranteeing that it is true.",
+      "disposition": "included",
+      "rationale": "The body presents both clause and object frames and explicitly limits assertion to stating, not proving.",
+      "semantic_assertions": [
+        {
+          "id": "final_assertion:declarative:scope",
+          "statement": "The declarative use reports a strong statement and does not by itself establish the truth or proof of the proposition.",
+          "polarity": "must_hold",
+          "scope": "sense 1 definition and usage notes"
+        },
+        {
+          "id": "final_assertion:declarative:frames",
+          "statement": "The article preserves a that-clause or direct object frame and does not teach bare assert about as the normal frame.",
+          "polarity": "must_hold",
+          "scope": "sense 1 grammar pattern and usage note"
+        }
+      ]
+    },
+    {
+      "id": "final_candidate:assert:rights",
+      "surface_form": "assert one's rights / authority / independence",
+      "frame": "subject + assert + rights, authority, control, independence, or a claim",
+      "meaning": "Put forward a right or authority and seek recognition of it.",
+      "disposition": "included",
+      "rationale": "The body separates rights and authority from propositional assertion and limits the result to seeking recognition.",
+      "semantic_assertions": [
+        {
+          "id": "final_assertion:rights:recognition",
+          "statement": "Rights, authority, control, or independence are presented as objects whose recognition is sought; successful grant, obedience, or ownership is not guaranteed.",
+          "polarity": "must_hold",
+          "scope": "sense 2 definition, collocations, and usage notes"
+        },
+        {
+          "id": "final_assertion:rights:boundary",
+          "statement": "The rights-and-authority use is not generalized to every ordinary assert that proposition, and the legal claim frame remains a request for recognition rather than an accepted claim.",
+          "polarity": "must_hold",
+          "scope": "sense 1/sense 2 boundary and legal usage notes"
+        }
+      ]
+    },
+    {
+      "id": "final_candidate:assert:oneself",
+      "surface_form": "assert oneself",
+      "frame": "subject + assert + reflexive pronoun",
+      "meaning": "Express one's views, rights, or presence confidently in an interaction.",
+      "disposition": "included",
+      "rationale": "The body treats the reflexive construction as a distinct interpersonal use and requires the reflexive pronoun.",
+      "semantic_assertions": [
+        {
+          "id": "final_assertion:oneself:reflexive",
+          "statement": "The subject uses a matching reflexive pronoun and puts forward an opinion, right, or presence in an interaction.",
+          "polarity": "must_hold",
+          "scope": "sense 3 definition, grammar pattern, and usage note"
+        },
+        {
+          "id": "final_assertion:oneself:aggression",
+          "statement": "Self-assertion is not presented as automatically aggressive; the body preserves a distinction between assertive and aggressive behavior.",
+          "polarity": "must_hold",
+          "scope": "sense 3 definition and usage note"
+        }
+      ]
+    },
+    {
+      "id": "final_candidate:assert:itself",
+      "surface_form": "assert itself",
+      "frame": "abstract subject + assert + itself",
+      "meaning": "An effect, problem, feeling, or trend becomes apparent or begins to have an effect.",
+      "disposition": "included",
+      "rationale": "The body gives an inanimate-subject figurative use and contrasts it with a person's rights claim.",
+      "semantic_assertions": [
+        {
+          "id": "final_assertion:itself:abstract",
+          "statement": "An inanimate or abstract subject such as an effect, problem, feeling, tension, or trend becomes apparent or begins to influence events.",
+          "polarity": "must_hold",
+          "scope": "sense 4 definition, grammar pattern, and collocations"
+        },
+        {
+          "id": "final_assertion:itself:boundary",
+          "statement": "The assert-itself use is not reversed into a person claiming a right or authority.",
+          "polarity": "must_not_hold",
+          "scope": "sense 2/sense 4 boundary and sense 4 usage notes"
+        }
+      ]
+    },
+    {
+      "id": "final_candidate:assert:java",
+      "surface_form": "Java assert statement",
+      "frame": "assert + boolean expression in Java",
+      "meaning": "Check a programming assumption at runtime when assertions are enabled.",
+      "disposition": "included",
+      "rationale": "The body includes a technical note with an explicit Java qualification and separates it from ordinary English syntax.",
+      "semantic_assertions": [
+        {
+          "id": "final_assertion:java:qualification",
+          "statement": "The technical note is bounded to Java-style programming syntax that checks a boolean assumption at runtime.",
+          "polarity": "must_hold",
+          "scope": "sense 1 programming usage note"
+        },
+        {
+          "id": "final_assertion:java:separation",
+          "statement": "The programming construct is not presented as having the same syntax or function as ordinary English assert that.",
+          "polarity": "must_hold",
+          "scope": "sense 1 programming usage note"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

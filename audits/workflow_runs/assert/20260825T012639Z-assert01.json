@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T012639Z-assert01",
+  "headword": "assert",
+  "entry_path": "entries/a/assert.md",
+  "branch": "agent/add-assert-v5-20260825",
+  "base_sha": "c2b6eeeced42ade47665632e8871669ead6dedcc",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 4,
+    "candidate_pages": 8
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T01:26:39Z",
+  "deadline_at": "2026-08-25T02:26:39Z",
+  "pre_draft_deadline_at": "2026-08-25T01:46:39Z",
+  "last_heartbeat_at": "2026-08-25T02:09:33Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T01:27:01Z",
+    "commit_sha": "3b4ccd3f41547094261a7c806c24d64eb49c4fd8"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T01:26:39Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T01:27:01Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T01:35:32Z",
+      "notes": "assert draft, queue row, and workflow run saved within standard pre-draft budget"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T01:58:01Z",
+      "notes": "bounded source-first inventory closed across six coverage axes before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T01:58:02Z",
+      "notes": "normal checker completed all generated targets, relations, and independent candidates"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T01:58:03Z",
+      "notes": "context-free cold review completed once with no problem candidates"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T02:01:00Z",
+      "notes": "final blind inventory and semantic assertions sealed in a pre-reconciliation checkpoint; resealed blind manifest with chronologically valid timestamps before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T02:08:40Z",
+      "notes": "final audit reconciliation passed; article and queue synchronized to checked"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T02:09:33Z",
+      "notes": "all local and PR validation prerequisites passed; ready for merge"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
