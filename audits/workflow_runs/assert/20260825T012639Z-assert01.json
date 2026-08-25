@@ -19,11 +19,11 @@
     "candidate_pages": 8
   },
   "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "stage": "final_review_complete",
   "started_at": "2026-08-25T01:26:39Z",
   "deadline_at": "2026-08-25T02:26:39Z",
   "pre_draft_deadline_at": "2026-08-25T01:46:39Z",
-  "last_heartbeat_at": "2026-08-25T02:06:34Z",
+  "last_heartbeat_at": "2026-08-25T02:08:40Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-25T01:27:01Z",
@@ -63,12 +63,12 @@
     {
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-25T02:01:00Z",
-      "notes": "final blind inventory and semantic assertions sealed in a pre-reconciliation checkpoint"
+      "notes": "final blind inventory and semantic assertions sealed in a pre-reconciliation checkpoint; resealed blind manifest with chronologically valid timestamps before reconciliation"
     },
     {
-      "stage": "blind_seal_correction",
-      "recorded_at": "2026-08-25T02:06:34Z",
-      "notes": "resealed blind manifest with chronologically valid timestamps before reconciliation"
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T02:08:40Z",
+      "notes": "final audit reconciliation passed; article and queue synchronized to checked"
     }
   ],
   "stop_reason": "",
