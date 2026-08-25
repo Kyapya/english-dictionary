@@ -19,21 +19,51 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "blind_seal_complete",
   "started_at": "2026-08-25T04:11:46Z",
   "deadline_at": "2026-08-25T05:11:46Z",
   "pre_draft_deadline_at": "2026-08-25T04:31:46Z",
-  "last_heartbeat_at": "2026-08-25T04:11:46Z",
+  "last_heartbeat_at": "2026-08-25T04:13:34Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T04:12:51Z",
+    "commit_sha": "54957121b9050161559a6d95003e67b14f58b80a"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-08-25T04:11:46Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T04:12:51Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "resume checkpoint reopens preserved draft"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "resumed from preserved completed source inventory"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "preserved normal review accepted for resumed finalization"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T04:13:12Z",
+      "notes": "preserved single context-free cold review with no findings"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T04:13:34Z",
+      "notes": "blind inventory sealed before reconciliation"
     }
   ],
   "stop_reason": "",
