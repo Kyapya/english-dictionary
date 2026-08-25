@@ -68,7 +68,7 @@ class RunWordTests(unittest.TestCase):
             ("entry body without front matter",),
         )
         self.assertEqual(
-            by_name["final_blind"].input_scope, ("latest entry only",)
+            by_name["final_blind"].input_scope, ("latest entry body only",)
         )
         for name in ("cold_review", "final_blind"):
             joined = " ".join(
@@ -97,7 +97,7 @@ class RunWordTests(unittest.TestCase):
             )
             self.assertEqual(
                 manifest["orchestrator"]["orchestrator_version"],
-                "run_word_v1",
+                "run_word_v2",
             )
             reloaded = json.loads(path.read_text(encoding="utf-8"))
             self.assertEqual(reloaded, manifest)
@@ -127,6 +127,53 @@ class RunWordTests(unittest.TestCase):
             for checkpoint in stage.guard_checkpoints
         ]
         self.assertEqual(planned, list(guard.STAGES))
+
+    def test_final_reconciliation_gets_only_the_v2_input_bundle(self) -> None:
+        by_name = {stage.name: stage for stage in run_word.build_plan("obvious")}
+        final = by_name["final_review"]
+        self.assertEqual(
+            final.input_scope,
+            (
+                "latest entry body",
+                "sealed final-blind output",
+                "all checker and cold findings",
+                "finding resolution records",
+            ),
+        )
+        self.assertEqual(
+            final.specification_files, ("prompts/final_review_spec_v2.md",)
+        )
+
+    def test_record_revision_commits_only_the_entry(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            subprocess.run(["git", "init", "-q"], cwd=root, check=True)
+            subprocess.run(
+                ["git", "config", "user.email", "test@example.com"],
+                cwd=root,
+                check=True,
+            )
+            subprocess.run(
+                ["git", "config", "user.name", "Test"], cwd=root, check=True
+            )
+            entry = root / "entries" / "t" / "test.md"
+            entry.parent.mkdir(parents=True)
+            entry.write_text("first\n", encoding="utf-8")
+            subprocess.run(["git", "add", "."], cwd=root, check=True)
+            subprocess.run(["git", "commit", "-qm", "initial"], cwd=root, check=True)
+            entry.write_text("second\n", encoding="utf-8")
+            sha = run_word.record_entry_revision(
+                entry, "adopt resolved finding", repo_root=root, push=False
+            )
+            changed = subprocess.run(
+                ["git", "show", "--pretty=", "--name-only", sha],
+                cwd=root,
+                check=True,
+                text=True,
+                stdout=subprocess.PIPE,
+            ).stdout.splitlines()
+            self.assertEqual(changed, ["entries/t/test.md"])
+            self.assertFalse((root / "audits" / "runs").exists())
 
 
 if __name__ == "__main__":

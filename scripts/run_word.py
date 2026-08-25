@@ -15,9 +15,10 @@ from slugify import slugify
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
-ORCHESTRATOR_VERSION = "run_word_v1"
+ORCHESTRATOR_VERSION = "run_word_v2"
 DEFAULT_CHECK_SPEC = "prompts/check_router_v6.md"
-DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v1.md"
+DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v2.md"
+DEFAULT_FINAL_BLIND_SPEC = "prompts/final_blind_prompt_v2.md"
 
 
 @dataclass(frozen=True)
@@ -120,8 +121,8 @@ def build_plan(
         StagePlan(
             "final_blind",
             "independent_llm",
-            (final_spec,),
-            ("latest entry only",),
+            (DEFAULT_FINAL_BLIND_SPEC,),
+            ("latest entry body only",),
             (f"{root}/final_blind.json",),
             (),
             "context_free_final_blind",
@@ -129,7 +130,7 @@ def build_plan(
         StagePlan(
             "blind_seal",
             "python",
-            ("scripts/content_audit.py", "scripts/semantic_resolution_gate.py"),
+            ("scripts/generate_audit_manifest.py",),
             ("final blind raw JSON", "entry body hash"),
             (f"{root}/blind_seal.json",),
             ("blind_seal_complete",),
@@ -139,7 +140,7 @@ def build_plan(
             "independent_llm",
             (final_spec,),
             (
-                "latest entry including front matter",
+                "latest entry body",
                 "sealed final-blind output",
                 "all checker and cold findings",
                 "finding resolution records",
@@ -285,6 +286,47 @@ def _commit_and_push(repo_root: Path, paths: Iterable[Path], message: str) -> st
     return sha
 
 
+def record_entry_revision(
+    entry_path: Path,
+    reason: str,
+    *,
+    repo_root: Path = REPO_ROOT,
+    push: bool = True,
+) -> str:
+    resolved = entry_path.resolve()
+    try:
+        relative = resolved.relative_to(repo_root.resolve()).as_posix()
+    except ValueError as exc:
+        raise ValueError("entry revision must be inside the repository") from exc
+    if not relative.startswith("entries/") or not relative.endswith(".md"):
+        raise ValueError("entry revision must target entries/**/*.md")
+    if not resolved.is_file():
+        raise ValueError(f"entry revision does not exist: {relative}")
+    if not reason.strip():
+        raise ValueError("entry revision requires a non-empty reason")
+    status = _git(repo_root, "status", "--short", "--", relative)
+    if not status.strip():
+        raise ValueError(f"entry has no uncommitted revision: {relative}")
+    _git(repo_root, "add", "--", relative)
+    staged = {
+        line.strip()
+        for line in _git(repo_root, "diff", "--cached", "--name-only").splitlines()
+        if line.strip()
+    }
+    if staged != {relative}:
+        _git(repo_root, "restore", "--staged", "--", relative)
+        raise ValueError(
+            "revision commit must contain exactly one entry; clear other staged files first"
+        )
+    slug = resolved.stem
+    _git(repo_root, "commit", "-m", f"entry({slug}): {reason.strip()}")
+    sha = _git(repo_root, "rev-parse", "HEAD")
+    if push:
+        branch = _current_branch(repo_root)
+        _git(repo_root, "push", "-u", "origin", f"HEAD:{branch}")
+    return sha
+
+
 def start_workflow(
     headword: str,
     *,
@@ -360,6 +402,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("headword", nargs="?")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--resume", type=Path)
+    parser.add_argument("--record-revision", type=Path)
     parser.add_argument(
         "--profile", choices=sorted(guard.PROFILES), default="standard"
     )
@@ -369,6 +412,13 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.record_revision:
+        if args.headword or args.resume or args.dry_run:
+            raise SystemExit(
+                "--record-revision cannot be combined with headword, --resume, or --dry-run"
+            )
+        print(record_entry_revision(args.record_revision, args.reason))
+        return 0
     if args.resume:
         if args.headword or args.dry_run:
             raise SystemExit(

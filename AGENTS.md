@@ -46,9 +46,10 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 | 記事内容・構成・表示 | `prompts/entry_spec_v5.md` |
 | 通常チェック | `prompts/check_router_v6.md` と6つの `prompts/check_pass_*_v6.md` |
 | コールドレビュー入力 | `prompts/cold_review_prompt_v1.md` |
-| 最終合否（v2移行完了まではv1） | `prompts/final_review_spec_v1.md` |
+| 最終盲検入力 | `prompts/final_blind_prompt_v2.md` |
+| 最終合否 | `prompts/final_review_spec_v2.md` |
 | source-first根拠収集 | `prompts/source_first_audit_v2.md`、`scripts/source_first_audit_gate.py` |
-| semantic constraint・最終盲検・blind seal | `prompts/semantic_resolution_gate_v1.md`、`scripts/semantic_resolution_gate.py`、`scripts/content_audit.py` |
+| semantic constraint・blind seal・監査派生値 | `prompts/semantic_resolution_gate_v1.md`、`scripts/semantic_resolution_gate.py`、`scripts/generate_audit_manifest.py` |
 | 工程順序・入力分離・status・export | `scripts/run_word.py` |
 | heartbeat・budget・安全停止 | `scripts/entry_workflow_guard.py` |
 | Markdown形式検証 | `scripts/validate_entry.py` |

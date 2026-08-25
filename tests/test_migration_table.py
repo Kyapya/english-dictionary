@@ -39,6 +39,20 @@ class MigrationTableTests(unittest.TestCase):
         self.assertGreater((backup / "prompts" / "check_spec_v5.md").stat().st_size, 50_000)
         self.assertGreater((backup / "prompts" / "final_review_spec_v1.md").stat().st_size, 20_000)
 
+    def test_no_final_v1_rule_was_retired_or_left_without_a_v2_destination(self) -> None:
+        final_rules = [
+            rule for rule in migration_table.all_rules() if rule.source == "FINAL"
+        ]
+        self.assertGreater(len(final_rules), 100)
+        for rule in final_rules:
+            with self.subTest(rule=rule.id):
+                migration = migration_table.migrate(rule)
+                self.assertNotEqual(migration.disposition, "retired")
+                self.assertTrue(
+                    "prompts/final_review_spec_v2.md" in migration.destination
+                    or "scripts/" in migration.destination
+                )
+
 
 if __name__ == "__main__":
     unittest.main()
