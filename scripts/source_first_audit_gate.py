@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import hashlib
 import json
 import subprocess
 import sys
@@ -544,6 +545,7 @@ def validate_path(
     errors: list[str] = []
     manifest = _load(path, errors)
     if manifest:
+        manifest = _hydrate_generated_final_review(manifest, errors)
         errors.extend(
             validate_manifest(
                 manifest,
@@ -552,6 +554,57 @@ def validate_path(
             )
         )
     return errors
+
+
+def _hydrate_generated_final_review(
+    manifest: dict[str, Any],
+    errors: list[str],
+    *,
+    repo_root: Path = REPO_ROOT,
+) -> dict[str, Any]:
+    """Read the final raw result referenced by a generated v4 manifest.
+
+    The compact canonical manifest intentionally does not duplicate item-level
+    final-review results.  The source-first CLI still needs those union results,
+    so it follows the generator-recorded path only after verifying the recorded
+    SHA-256.  This keeps raw output authoritative without reintroducing manual
+    manifest fields.
+    """
+    if manifest.get("schema_version") != "content_audit_v4" or isinstance(
+        manifest.get("final_review"), dict
+    ):
+        return manifest
+    provenance = manifest.get("raw_outputs")
+    final_ref = provenance.get("final_review") if isinstance(provenance, dict) else None
+    if not isinstance(final_ref, dict):
+        errors.append("generated v4 audit is missing final_review raw provenance")
+        return manifest
+    relative = final_ref.get("path")
+    if not _nonempty(relative):
+        errors.append("generated v4 final_review raw path is required")
+        return manifest
+    candidate = (repo_root / str(relative)).resolve()
+    try:
+        candidate.relative_to(repo_root.resolve())
+    except ValueError:
+        errors.append("generated v4 final_review raw path escapes the repository")
+        return manifest
+    raw_errors: list[str] = []
+    raw = _load(candidate, raw_errors)
+    if raw_errors:
+        errors.extend(raw_errors)
+        return manifest
+    expected_sha = final_ref.get("sha256")
+    actual_sha = hashlib.sha256(candidate.read_bytes()).hexdigest()
+    if expected_sha != actual_sha:
+        errors.append("generated v4 final_review raw SHA-256 does not match provenance")
+        return manifest
+    hydrated = dict(manifest)
+    hydrated["final_review"] = {
+        "decision": raw.get("decision"),
+        "source_inventory_results": raw.get("source_inventory_results"),
+    }
+    return hydrated
 
 
 def _changed_files(base: str, head: str) -> list[str]:
