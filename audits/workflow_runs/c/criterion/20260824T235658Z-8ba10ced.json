@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 3,
-    "candidate_pages": 7
+    "research_queries": 4,
+    "candidate_pages": 9
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "blind_seal_complete",
   "started_at": "2026-08-24T23:56:58Z",
   "deadline_at": "2026-08-25T00:56:58Z",
   "pre_draft_deadline_at": "2026-08-25T00:16:58Z",
-  "last_heartbeat_at": "2026-08-25T00:09:26Z",
+  "last_heartbeat_at": "2026-08-25T00:31:34Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-24T23:57:40Z",
@@ -44,6 +44,26 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-25T00:09:26Z",
       "notes": "criterion draft and queue row saved after local v5 validation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T00:15:56Z",
+      "notes": "bounded source-first inventory closed before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T00:22:46Z",
+      "notes": "all generated targets and relations passed the zero-based normal review"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T00:24:34Z",
+      "notes": "context-free cold review recorded three findings before article revision"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T00:31:34Z",
+      "notes": "final blind inventory sealed before reconciliation"
     }
   ],
   "stop_reason": "",
