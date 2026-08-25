@@ -44,6 +44,7 @@ jobs:
       - name: Materialize sealed obvious blind audit
         if: github.event_name == 'pull_request' && github.head_ref == 'agent/update-obvious-v5-20260825'
         run: |
+          mkdir -p audits/o
           PYTHONPATH=. python .tmp/materialize_obvious_blind.py
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
