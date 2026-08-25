@@ -1,0 +1,1734 @@
+{
+  "stage": "normal_review",
+  "run_id": "normal-consistent-cycle001-20260825",
+  "context_id": "isolated-consistent-cycle001-20260825",
+  "input_body_sha256": "2bcc243530346ca17bd16c5908cb5b612d013b24c55f09e55fb935a81397f71b",
+  "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
+  "independent_candidates": [
+    {
+      "id": "NC-01",
+      "surface_form": "consistent",
+      "frame": "be/remain consistent in N or in doing; a consistent person/performer",
+      "meaning": "人・行動・態度・水準の一貫性と安定性",
+      "rationale": "一般語の人・行動用法を、inフレームと評価的なperformer用法を含めて独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "collocation:004",
+        "usage_note:001"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-01"
+      ]
+    },
+    {
+      "id": "NC-02",
+      "surface_form": "consistent",
+      "frame": "consistent over time/across groups; consistent growth/results/quality",
+      "meaning": "状態・結果・品質・傾向が時間や集団をまたいで安定していること",
+      "rationale": "同じ値そのものではなく、期間・試行・集団をまたぐパターンの安定を独立に確認した。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:002",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "collocation:006",
+        "usage_note:004"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-02"
+      ]
+    },
+    {
+      "id": "NC-03",
+      "surface_form": "consistent with",
+      "frame": "be consistent with evidence/facts/policy/what someone said",
+      "meaning": "別の事実・証拠・方針と矛盾せず整合すること",
+      "rationale": "with構文を独立した関係用法として、証明や唯一の原因の断定とは区別して棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:003",
+        "grammar_pattern:009",
+        "collocation:011",
+        "usage_note:007",
+        "usage_note:009"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-03"
+      ]
+    },
+    {
+      "id": "NC-04",
+      "surface_form": "consistent estimator",
+      "frame": "a consistent estimator of/for a parameter",
+      "meaning": "標本数の増加に伴って真の母数へ確率収束する推定量",
+      "rationale": "統計学の専門義を、日常語の反復安定性やunbiasednessから切り分けて独立に棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:004",
+        "grammar_pattern:013",
+        "collocation:016",
+        "usage_note:010"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-04"
+      ]
+    },
+    {
+      "id": "NC-05",
+      "surface_form": "consistent equations/formal system",
+      "frame": "a consistent system of equations/set of statements/formal system",
+      "meaning": "共通解をもつ、または矛盾を導かない数学・論理の体系",
+      "rationale": "数学・論理では形式的な充足可能性・無矛盾性を表す専門義として独立に確認した。",
+      "disposition": "included",
+      "article_target_ids": [
+        "definition:005",
+        "grammar_pattern:016",
+        "collocation:020",
+        "usage_note:012"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-05"
+      ]
+    },
+    {
+      "id": "NC-06",
+      "surface_form": "consistency/consistently/inconsistent/inconsistency",
+      "frame": "derived noun, adverb, negative adjective, and negative noun",
+      "meaning": "語形成上の関連語と反対方向の形",
+      "rationale": "独立した新しい語義ではなく、本文の語形成欄で扱う派生・反対形として棚卸しした。",
+      "disposition": "included",
+      "article_target_ids": [
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003",
+        "word_formation:004"
+      ],
+      "evidence_link_ids": [
+        "EL-NC-NC-06"
+      ]
+    },
+    {
+      "id": "NC-07",
+      "surface_form": "consistent",
+      "frame": "noun or verb use without an adjective frame",
+      "meaning": "本文の主要用法として独立掲載する名詞・動詞用法",
+      "rationale": "本文は形容詞用法に限定され、名詞・動詞としての独立用法を主張していないため除外した。",
+      "disposition": "excluded",
+      "article_target_ids": [],
+      "evidence_link_ids": [
+        "EL-NC-NC-07"
+      ]
+    }
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-pronunciation:001-1",
+        "EL-T-pronunciation:001-2"
+      ]
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-pronunciation:002-1",
+        "EL-T-pronunciation:002-2"
+      ]
+    },
+    {
+      "id": "pronunciation:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-pronunciation:003-1",
+        "EL-T-pronunciation:003-2"
+      ]
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-etymology:001-1",
+        "EL-T-etymology:001-2"
+      ]
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-etymology:002-1",
+        "EL-T-etymology:002-2"
+      ]
+    },
+    {
+      "id": "etymology:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-etymology:003-1",
+        "EL-T-etymology:003-2"
+      ]
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:001-1"
+      ]
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:002-1",
+        "EL-T-word_formation:002-2"
+      ]
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:003-1"
+      ]
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-word_formation:004-1"
+      ]
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-core_image:001-1",
+        "EL-T-core_image:001-2"
+      ]
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-core_image:002-1"
+      ]
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-core_image:003-1"
+      ]
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-core_image:004-1"
+      ]
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-core_image:005-1",
+        "EL-T-core_image:005-2"
+      ]
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-core_image:006-1",
+        "EL-T-core_image:006-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:001-1",
+        "EL-T-sense_boundary:001-2"
+      ]
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-definition:001-1"
+      ]
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-frequency:001-1",
+        "EL-T-frequency:001-2"
+      ]
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-register:001-1",
+        "EL-T-register:001-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:001-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:002-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:003-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:004-1"
+      ]
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:001-1"
+      ]
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:002-1",
+        "EL-T-collocation:002-2"
+      ]
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:003-1"
+      ]
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:004-1"
+      ]
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:005-1",
+        "EL-T-collocation:005-2"
+      ]
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:001-1",
+        "EL-T-usage_note:001-2"
+      ]
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:002-1"
+      ]
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:003-1",
+        "EL-T-usage_note:003-2"
+      ]
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:001-1",
+        "EL-T-synonym:001-2"
+      ]
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:002-1",
+        "EL-T-synonym:002-2"
+      ]
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:003-1",
+        "EL-T-synonym:003-2"
+      ]
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:004-1",
+        "EL-T-synonym:004-2"
+      ]
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:005-1",
+        "EL-T-synonym:005-2"
+      ]
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:001-1",
+        "EL-T-antonym:001-2"
+      ]
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:002-1",
+        "EL-T-antonym:002-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:002-1",
+        "EL-T-sense_boundary:002-2"
+      ]
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-definition:002-1"
+      ]
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-frequency:002-1",
+        "EL-T-frequency:002-2"
+      ]
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-register:002-1",
+        "EL-T-register:002-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:005-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:006-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:007-1",
+        "EL-T-grammar_pattern:007-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:008-1"
+      ]
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:006-1"
+      ]
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:007-1"
+      ]
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:008-1"
+      ]
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:009-1"
+      ]
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:010-1",
+        "EL-T-collocation:010-2"
+      ]
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:004-1"
+      ]
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:005-1",
+        "EL-T-usage_note:005-2"
+      ]
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:006-1"
+      ]
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:006-1",
+        "EL-T-synonym:006-2"
+      ]
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:007-1",
+        "EL-T-synonym:007-2"
+      ]
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:008-1",
+        "EL-T-synonym:008-2"
+      ]
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:009-1",
+        "EL-T-synonym:009-2"
+      ]
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:003-1",
+        "EL-T-antonym:003-2"
+      ]
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:004-1",
+        "EL-T-antonym:004-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:003-1",
+        "EL-T-sense_boundary:003-2"
+      ]
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-definition:003-1",
+        "EL-T-definition:003-2"
+      ]
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-frequency:003-1",
+        "EL-T-frequency:003-2"
+      ]
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-register:003-1",
+        "EL-T-register:003-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:009-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:010-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:011-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:012-1",
+        "EL-T-grammar_pattern:012-2"
+      ]
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:011-1"
+      ]
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:012-1"
+      ]
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:013-1"
+      ]
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:014-1"
+      ]
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:015-1",
+        "EL-T-collocation:015-2"
+      ]
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:007-1",
+        "EL-T-usage_note:007-2"
+      ]
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:008-1",
+        "EL-T-usage_note:008-2"
+      ]
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:009-1",
+        "EL-T-usage_note:009-2"
+      ]
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:010-1",
+        "EL-T-synonym:010-2"
+      ]
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:011-1",
+        "EL-T-synonym:011-2"
+      ]
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:012-1",
+        "EL-T-synonym:012-2"
+      ]
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:013-1",
+        "EL-T-synonym:013-2"
+      ]
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:014-1",
+        "EL-T-synonym:014-2"
+      ]
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:005-1",
+        "EL-T-antonym:005-2"
+      ]
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:006-1",
+        "EL-T-antonym:006-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:004-1",
+        "EL-T-sense_boundary:004-2"
+      ]
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-definition:004-1",
+        "EL-T-definition:004-2"
+      ]
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-frequency:004-1",
+        "EL-T-frequency:004-2"
+      ]
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-register:004-1",
+        "EL-T-register:004-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:013-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:014-1"
+      ]
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:015-1"
+      ]
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:016-1"
+      ]
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:017-1"
+      ]
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:018-1"
+      ]
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:019-1"
+      ]
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:010-1"
+      ]
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:011-1",
+        "EL-T-usage_note:011-2"
+      ]
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:015-1",
+        "EL-T-synonym:015-2"
+      ]
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:016-1",
+        "EL-T-synonym:016-2"
+      ]
+    },
+    {
+      "id": "antonym:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:007-1",
+        "EL-T-antonym:007-2"
+      ]
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-sense_boundary:005-1",
+        "EL-T-sense_boundary:005-2"
+      ]
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-definition:005-1",
+        "EL-T-definition:005-2"
+      ]
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-frequency:005-1",
+        "EL-T-frequency:005-2"
+      ]
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-register:005-1",
+        "EL-T-register:005-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:016-1",
+        "EL-T-grammar_pattern:016-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:017-1",
+        "EL-T-grammar_pattern:017-2"
+      ]
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-grammar_pattern:018-1"
+      ]
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:020-1",
+        "EL-T-collocation:020-2"
+      ]
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:021-1",
+        "EL-T-collocation:021-2"
+      ]
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:022-1",
+        "EL-T-collocation:022-2"
+      ]
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-collocation:023-1"
+      ]
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:012-1",
+        "EL-T-usage_note:012-2"
+      ]
+    },
+    {
+      "id": "usage_note:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-usage_note:013-1",
+        "EL-T-usage_note:013-2"
+      ]
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:017-1",
+        "EL-T-synonym:017-2"
+      ]
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:018-1",
+        "EL-T-synonym:018-2"
+      ]
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-synonym:019-1",
+        "EL-T-synonym:019-2"
+      ]
+    },
+    {
+      "id": "antonym:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the target wording, scope, frame, translation, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-T-antonym:008-1",
+        "EL-T-antonym:008-2"
+      ]
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair:001-1",
+        "EL-R-risk_sense_pair:001-2"
+      ]
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-risk_sense_pair:002-1",
+        "EL-R-risk_sense_pair:002-2"
+      ]
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:001-1"
+      ]
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:002-1"
+      ]
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:003-1"
+      ]
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:004-1"
+      ]
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:005-1"
+      ]
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:006-1"
+      ]
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:007-1"
+      ]
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:008-1"
+      ]
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:009-1"
+      ]
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:010-1"
+      ]
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:011-1"
+      ]
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:012-1"
+      ]
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:013-1"
+      ]
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:014-1"
+      ]
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:015-1"
+      ]
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:016-1"
+      ]
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:017-1"
+      ]
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:018-1"
+      ]
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:019-1"
+      ]
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:020-1"
+      ]
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:021-1"
+      ]
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:022-1"
+      ]
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-example_translation:023-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:001-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:001-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:002-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:003-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:001-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:001-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:002-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:003-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:004-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:002-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:004-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:005-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:006-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:002-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:005-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:006-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:007-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:008-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:003-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:007-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:008-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:009-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:003-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:009-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:010-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:011-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:012-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:004-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:010-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:011-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:004-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:013-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:014-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:015-1"
+      ]
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-sense_definition_consistency:005-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:012-1"
+      ]
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_usage_consistency:013-1"
+      ]
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-definition_lexical_relation_consistency:005-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:016-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:017-1"
+      ]
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-pattern_example_coverage:018-1"
+      ]
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-core_inventory_consistency:001-1",
+        "EL-R-core_inventory_consistency:001-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:001-1",
+        "EL-R-core_sense_mapping:001-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:002-1",
+        "EL-R-core_sense_mapping:002-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:003-1",
+        "EL-R-core_sense_mapping:003-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:004-1",
+        "EL-R-core_sense_mapping:004-2"
+      ]
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-core_sense_mapping:005-1",
+        "EL-R-core_sense_mapping:005-2"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Zero-based source-first comparison checked the relation scope, linked targets, and evidence policy.",
+      "evidence_link_ids": [
+        "EL-R-article_learning_risk:001-1",
+        "EL-R-article_learning_risk:001-2"
+      ]
+    }
+  ]
+}

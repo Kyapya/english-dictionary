@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T024745Z-consistent02",
+  "headword": "consistent",
+  "entry_path": "entries/c/consistent.md",
+  "branch": "add-consistent-20260825-retry",
+  "base_sha": "ded16969a7b030e86debf8336f58c960a58638e1",
+  "profile": "standard",
+  "profile_reason": "clean bounded retry after prior run heartbeat budget exhaustion",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 10,
+    "candidate_pages": 14
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-25T02:47:39Z",
+  "deadline_at": "2026-08-25T03:47:39Z",
+  "pre_draft_deadline_at": "2026-08-25T03:07:39Z",
+  "last_heartbeat_at": "2026-08-25T02:54:35Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-25T02:48:48Z",
+    "commit_sha": "8ff050c9a9a2b035b27bf8860be8c474c35db2a5"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T02:47:39Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-25T02:48:48Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-25T02:48:57Z",
+      "notes": "complete v5 draft saved; format validation passed; audit artifacts regenerated for latest body"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-25T02:48:58Z",
+      "notes": "six-source bounded inventory closed; 28 atomic facts and six coverage axes validated before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-25T02:48:58Z",
+      "notes": "normal review completed; 117 targets, 73 relations, and seven independent candidates passed"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-25T02:48:58Z",
+      "notes": "one context-free cold review completed with no problem candidates"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-25T02:52:04Z",
+      "notes": "final blind inventory sealed before any reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-25T02:54:21Z",
+      "notes": "final reconciliation passed; source inventory, 117 targets, 73 relations, semantic inventory, and regression checks passed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-25T02:54:35Z",
+      "notes": "consistent entry merged-ready state synchronized: checked true and queue checked true"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
