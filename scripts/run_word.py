@@ -10,12 +10,13 @@ from pathlib import Path
 from typing import Any, Iterable
 
 import entry_workflow_guard as guard
+import check_passes
 from slugify import slugify
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 ORCHESTRATOR_VERSION = "run_word_v1"
-DEFAULT_CHECK_SPEC = "prompts/check_spec_v5.md"
+DEFAULT_CHECK_SPEC = "prompts/check_router_v6.md"
 DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v1.md"
 
 
@@ -96,10 +97,14 @@ def build_plan(
         ),
         StagePlan(
             "checker_passes",
-            "llm+python",
-            (check_spec, "prompts/source_first_audit_v2.md"),
-            ("entry body", "source inventory", "machine validator findings"),
-            (f"{root}/normal_review.json", f"{root}/pass_findings.json"),
+            "router",
+            (check_spec,),
+            (
+                "router-selected entry sections",
+                "source inventory for evidence pass",
+                "machine validator findings",
+            ),
+            (f"{root}/check_passes/", f"{root}/pass_findings.json"),
             ("source_inventory_complete", "normal_review_complete"),
             "fresh_normal_context",
         ),
@@ -164,12 +169,37 @@ def build_plan(
 def plan_payload(headword: str, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
     stages = [stage.to_dict(repo_root) for stage in build_plan(headword)]
     encoded = json.dumps(stages, ensure_ascii=False, sort_keys=True).encode("utf-8")
+    pass_plans: list[dict[str, Any]] = []
+    router_path = repo_root / DEFAULT_CHECK_SPEC
+    if router_path.is_file():
+        router = check_passes.load_router(router_path)
+        for item in router.get("passes", []):
+            specification = str(item["specification"])
+            specification_path = repo_root / specification
+            pass_plans.append(
+                {
+                    "id": item["id"],
+                    "specification": specification,
+                    "taxonomy_ids": list(item["taxonomy_ids"]),
+                    "input_sections": list(item["sections"]),
+                    "output_path": (
+                        f"{_artifact_root(headword)}/check_passes/"
+                        f"{item['id']}.json"
+                    ),
+                    "instruction_bytes": (
+                        specification_path.stat().st_size
+                        if specification_path.is_file()
+                        else 0
+                    ),
+                }
+            )
     return {
         "orchestrator_version": ORCHESTRATOR_VERSION,
         "headword": headword,
         "entry_path": entry_path_for(headword),
         "plan_sha256": hashlib.sha256(encoded).hexdigest(),
         "stages": stages,
+        "checker_passes": pass_plans,
     }
 
 

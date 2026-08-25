@@ -524,11 +524,23 @@ def _check_v5_label_shapes(lines: list[str]) -> list[str]:
     return errors
 
 
+def _check_v5_forbidden_fillers(lines: list[str]) -> list[str]:
+    errors: list[str] = []
+    for index, raw in enumerate(lines):
+        stripped = raw.strip()
+        if "該当なし" in stripped or "特になし" in stripped:
+            errors.append(
+                f"line {index + 1}: v5 omits inapplicable fields instead of using filler text"
+            )
+    return errors
+
+
 def _check_v5_format(lines: list[str]) -> list[str]:
     errors: list[str] = []
     errors.extend(_check_v5_line_endings(lines))
     errors.extend(_check_v5_blank_lines(lines))
     errors.extend(_check_v5_label_shapes(lines))
+    errors.extend(_check_v5_forbidden_fillers(lines))
     return errors
 
 

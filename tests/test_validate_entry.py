@@ -333,6 +333,16 @@ class ValidateEntryTests(unittest.TestCase):
         errors = validate_file(path)
         self.assertTrue(any("must keep its content on the same line" in error for error in errors))
 
+    def test_v5_rejects_filler_for_an_inapplicable_field(self) -> None:
+        text = VALID_V5_MARKDOWN.replace(
+            "【語法・注意】clean より強く、手入れの行き届いた印象を含む。  ",
+            "【語法・注意】特になし。  ",
+            1,
+        )
+        path = self._write_temp_markdown(text)
+        errors = validate_file(path)
+        self.assertTrue(any("instead of using filler text" in error for error in errors))
+
     def test_optional_headings_may_be_omitted(self) -> None:
         text = VALID_MARKDOWN.replace(
             "＃語形成\n\n・immaculately（副詞）— 隙なく、完璧に。\n\n",

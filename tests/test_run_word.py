@@ -54,6 +54,10 @@ class RunWordTests(unittest.TestCase):
             self.assertIn("specification_files", stage)
             self.assertIn("output_paths", stage)
             self.assertIsInstance(stage["instruction_bytes"], int)
+        self.assertEqual(len(payload["checker_passes"]), 6)
+        self.assertTrue(
+            all(item["instruction_bytes"] <= 15_000 for item in payload["checker_passes"])
+        )
 
     def test_context_free_stages_receive_no_project_history(self) -> None:
         by_name = {

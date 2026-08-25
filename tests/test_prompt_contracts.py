@@ -244,7 +244,9 @@ class PromptContractTests(unittest.TestCase):
         self.assertIn("python scripts/run_word.py --dry-run <headword>", text)
         self.assertIn("scripts/run_word.py", text)
         self.assertIn("prompts/entry_spec_v5.md", text)
-        self.assertIn("prompts/check_spec_v5.md", text)
+        self.assertIn("prompts/check_router_v6.md", text)
+        self.assertIn("prompts/check_pass_*_v6.md", text)
+        self.assertNotIn("| 通常チェック | `prompts/check_spec_v5.md`", text)
         self.assertIn("prompts/final_review_spec_v1.md", text)
         self.assertIn("prompts/notion_spec_v1.md", text)
         for removed_procedure in (

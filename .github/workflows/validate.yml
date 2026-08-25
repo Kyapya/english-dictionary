@@ -43,6 +43,11 @@ jobs:
       - name: Validate entry formats
         run: python scripts/validate_entry.py entries
 
+      - name: Validate v6 checker routing and rule migration
+        run: |
+          python scripts/check_passes.py validate-router
+          python scripts/migration_table.py validate
+
       - name: Validate queue and entry consistency
         run: python scripts/validate_repository.py
 
