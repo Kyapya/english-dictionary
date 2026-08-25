@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260825T022316Z-consistent01",
+  "headword": "consistent",
+  "entry_path": "entries/c/consistent.md",
+  "branch": "add-consistent-20260825",
+  "base_sha": "ded16969a7b030e86debf8336f58c960e1",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-25T02:23:21Z",
+  "deadline_at": "2026-08-25T03:23:21Z",
+  "pre_draft_deadline_at": "2026-08-25T02:43:21Z",
+  "last_heartbeat_at": "2026-08-25T02:23:21Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-25T02:23:21Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
