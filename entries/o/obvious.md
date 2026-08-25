@@ -381,6 +381,16 @@ tags: []
 
 【語法・注意】米国法では、先行技術に発明と同一の内容が一つの資料として記載されていなくても、§ 103 に基づいて obvious と判断され得る。判断はクレームされた発明を「全体として」捉え、基準時点の当業者を基準にするため、発明を知った後の hindsight だけで「簡単だった」と評価するのは不適切である。obvious to try も「試せる選択肢があった」というだけで自動的に § 103 obvious になるという意味ではなく、USPTO MPEP が示すように、認識された問題、有限個の特定された予測可能な解決策、合理的な成功期待などの事実認定が必要になる。EPC Article 56 と英国 Patents Act 1977 section 3 も、先行技術に照らして当業者にとって obvious でないことを inventive step の判断に用いるが、米国 § 103 の枠組み、EPO の problem-solution approach、英国の判例上のテストを単純に同一視しない。日常語の obvious to everyone を、特許法上の skilled person を基準とする obvious と置き換えない。  
 
+
+【類義語】
+
+・lack an inventive step  
+定義: EPC・英国法を中心に、発明・クレームが必要な inventive step（進歩性）を備えないことを表す。  
+頻度: 〈3/10〉  
+違い: obvious は、先行技術に照らして当業者にとって容易に想到できるという判断を直接述べる。lack an inventive step は、その判断の法的帰結として「進歩性を欠く」と述べる表現で、文法上の完全な置換語ではない。EPC・英国では同じ判断軸で密接に対応する。  
+例: The claim was found to lack an inventive step because the modification was obvious to a person skilled in the art.  
+訳: その変更は当業者にとって容易に想到できたため、そのクレームは進歩性を欠くと判断された。  
+
 【反意語】
 
 ・nonobvious  

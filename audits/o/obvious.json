@@ -1,7 +1,7 @@
 {
   "schema_version": "content_audit_v3",
   "entry_path": "entries/o/obvious.md",
-  "body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+  "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
   "review_history": [],
   "current_cycle": {
     "cycle_id": "cycle-001",
@@ -18,7 +18,7 @@
       },
       {
         "revision_id": "revision-002",
-        "body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+        "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
         "snapshot_path": "audits/runs/o/obvious/cycle-001/revision-002.md",
         "created_at": "2026-08-25T05:14:00Z",
         "reason": "adopted cold-review corrections plus required legal-sense synonym block"
@@ -27,8 +27,8 @@
     "raw_outputs": {
       "normal_review": {
         "path": "audits/runs/o/obvious/cycle-001/normal_review_post_cold.json",
-        "sha256": "fe8666337baf3c25536698dfaf475024df11c88a107e30d406bfb6c2c85a922a",
-        "input_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+        "sha256": "9cb88ec743fb4edfa8474a9867fdfa0a9c97e9b389be7ce66621c9019a70b608",
+        "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
         "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
         "run_id": "normal-obvious-cycle001-postcold-20260825",
         "context_id": "isolated-obvious-cycle001-postcold-20260825"
@@ -43,12 +43,12 @@
       },
       "final_blind": {
         "path": "audits/runs/o/obvious/cycle-001/final_blind.json",
-        "sha256": "e13d0282386ca7b981989bcb3ff3860f8ef871461a7c89dfb12311e747a08819",
-        "input_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+        "sha256": "dc7499029be637ba8c6b42a2c6803ad3b5202275b9bb8fa86f9bd8cefef56f06",
+        "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
         "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
         "run_id": "final-obvious-cycle001-20260825",
         "context_id": "final-obvious-context-free-20260825",
-        "sealed_output_sha256": "9485376d393611f452e41f0c87e1dfdf7ab492a1dca86e463c5bfb76db67c10a"
+        "sealed_output_sha256": "3f22286b8caa4dd8bff7021e0ddf3b346fb1929bb10d0ea2c8104889dce27a6e"
       },
       "final_review": {}
     },
@@ -1272,9 +1272,20 @@
       "text": "米国法では、先行技術に発明と同一の内容が一つの資料として記載されていなくても、§ 103 に基づいて obvious と判断され得る。判断はクレームされた発明を「全体として」捉え、基準時点の当業者を基準にするため、発明を知った後の hindsight だけで「簡単だった」と評価するのは不適切である。obvious to try も「試せる選択肢があった」というだけで自動的に § 103 obvious になるという意味ではなく、USPTO MPEP が示すように、認識された問題、有限個の特定された予測可能な解決策、合理的な成功期待などの事実認定が必要になる。EPC Article 56 と英国 Patents Act 1977 section 3 も、先行技術に照らして当業者にとって obvious でないことを inventive step の判断に用いるが、米国 § 103 の枠組み、EPO の problem-solution approach、英国の判例上のテストを単純に同一視しない。日常語の obvious to everyone を、特許法上の skilled person を基準とする obvious と置き換えない。"
     },
     {
+      "id": "synonym:013",
+      "kind": "synonym",
+      "location": "lines:376-381",
+      "section": "＃意味・用法・関連表現",
+      "sense": "4. 【形容詞・法律（特許法、特に米国）】容易に想到できる、非自明性を欠く",
+      "text_sha256": "518e2516effc50b6fe0dd6c909356f71b1edf7797d5964f28c1444d2e8abba44",
+      "requires_evidence": true,
+      "evidence_policy": "two_sources_or_primary",
+      "text": "・lack an inventive step\n定義: EPC・英国法を中心に、発明・クレームが必要な inventive step（進歩性）を備えないことを表す。\n頻度: 〈3/10〉\n違い: obvious は、先行技術に照らして当業者にとって容易に想到できるという判断を直接述べる。lack an inventive step は、その判断の法的帰結として「進歩性を欠く」と述べる表現で、文法上の完全な置換語ではない。EPC・英国では同じ判断軸で密接に対応する。\n例: The claim was found to lack an inventive step because the modification was obvious to a person skilled in the art.\n訳: その変更は当業者にとって容易に想到できたため、そのクレームは進歩性を欠くと判断された。"
+    },
+    {
       "id": "antonym:009",
       "kind": "antonym",
-      "location": "lines:375-380",
+      "location": "lines:385-390",
       "section": "＃意味・用法・関連表現",
       "sense": "4. 【形容詞・法律（特許法、特に米国）】容易に想到できる、非自明性を欠く",
       "text_sha256": "c004889d30b2e0dc29a8b2fb326afc6a6e7390adf21415ac2e4d562fa8925a3e",
@@ -2105,10 +2116,11 @@
       "target_ids": [
         "sense_boundary:004",
         "definition:004",
+        "synonym:013",
         "antonym:009"
       ],
       "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
-      "text_sha256": "ae6a02ec93a4e4c13bfd20a4367f89f5038eebe636b21076686fa7ce5320aff3",
+      "text_sha256": "d09a5d60d021bd0d0901fc0f662537bfff0fc8cda99c73388ebdcf0020bd2aa3",
       "requires_evidence": true,
       "evidence_policy": "one_source"
     },
@@ -4950,6 +4962,40 @@
     {
       "id": "EL-0153",
       "subject_type": "target",
+      "subject_id": "synonym:013",
+      "evidence_id": "EV-EPO",
+      "claim": "Support for article target synonym:013: ・lack an inventive step\n定義: EPC・英国法を中心に、発明・クレームが必要な inventive step（進歩性）を備えないことを表す。\n頻度: 〈3/10〉\n違い: obvious は、先行技術に照らして当業者にとって容易に想到できるという判断を直接述べる。lack an inventive step は、その判断の法的帰結として「進歩性を欠く」と述べる表現で、文法上の完全な置換語ではない。EPC・英国では",
+      "locator": "https://www.epo.org/en/legal/guidelines-epc/2026/g_vii_4.html",
+      "locator_kind": "section",
+      "source_detail": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
+      "source_excerpt_or_summary": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
+      "supports": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0154",
+      "subject_type": "target",
+      "subject_id": "synonym:013",
+      "evidence_id": "EV-UK",
+      "claim": "Support for article target synonym:013: ・lack an inventive step\n定義: EPC・英国法を中心に、発明・クレームが必要な inventive step（進歩性）を備えないことを表す。\n頻度: 〈3/10〉\n違い: obvious は、先行技術に照らして当業者にとって容易に想到できるという判断を直接述べる。lack an inventive step は、その判断の法的帰結として「進歩性を欠く」と述べる表現で、文法上の完全な置換語ではない。EPC・英国では",
+      "locator": "https://www.legislation.gov.uk/ukpga/1977/37/section/3",
+      "locator_kind": "section",
+      "source_detail": "UK statutory inventive-step test using obvious to a person skilled in the art",
+      "source_excerpt_or_summary": "UK statutory inventive-step test using obvious to a person skilled in the art",
+      "supports": "UK statutory inventive-step test using obvious to a person skilled in the art",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0155",
+      "subject_type": "target",
       "subject_id": "antonym:009",
       "evidence_id": "EV-USPTO",
       "claim": "Support for article target antonym:009: ・nonobvious\n定義: 米国特許法で、当業者にとって先行技術から容易には想到できない。\n頻度: 〈3/10〉\n違い: obvious と同じ § 103 の判断軸上で直接反対に位置する専門語で、nonobviousness は特許性の要件の一つを表す。EPC・英国では同じ概念領域を主に inventive step の有無として表現する。\n例: The applicant argued that the claimed impr",
@@ -4965,45 +5011,11 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0154",
-      "subject_type": "relation",
-      "subject_id": "risk_sense_pair:001",
-      "evidence_id": "EV-OXF",
-      "claim": "Support for cross-target relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 2 with sense 1",
-      "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obvious",
-      "locator_kind": "section",
-      "source_detail": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
-      "source_excerpt_or_summary": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
-      "supports": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
-      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
-      "support_type": "direct",
-      "counterexample_checked": true,
-      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
-      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
-    },
-    {
-      "id": "EL-0155",
-      "subject_type": "relation",
-      "subject_id": "risk_sense_pair:001",
-      "evidence_id": "EV-CAM",
-      "claim": "Support for cross-target relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 2 with sense 1",
-      "locator": "https://dictionary.cambridge.org/dictionary/english/obvious",
-      "locator_kind": "section",
-      "source_detail": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
-      "source_excerpt_or_summary": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
-      "supports": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
-      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
-      "support_type": "direct",
-      "counterexample_checked": true,
-      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
-      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
-    },
-    {
       "id": "EL-0156",
       "subject_type": "relation",
-      "subject_id": "risk_sense_pair:002",
+      "subject_id": "risk_sense_pair:001",
       "evidence_id": "EV-OXF",
-      "claim": "Support for cross-target relation risk_sense_pair:002: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:003 explicitly contrasts sense 3 with sense 1",
+      "claim": "Support for cross-target relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 2 with sense 1",
       "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obvious",
       "locator_kind": "section",
       "source_detail": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
@@ -5018,6 +5030,40 @@
     {
       "id": "EL-0157",
       "subject_type": "relation",
+      "subject_id": "risk_sense_pair:001",
+      "evidence_id": "EV-CAM",
+      "claim": "Support for cross-target relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 2 with sense 1",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/obvious",
+      "locator_kind": "section",
+      "source_detail": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
+      "source_excerpt_or_summary": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
+      "supports": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0158",
+      "subject_type": "relation",
+      "subject_id": "risk_sense_pair:002",
+      "evidence_id": "EV-OXF",
+      "claim": "Support for cross-target relation risk_sense_pair:002: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:003 explicitly contrasts sense 3 with sense 1",
+      "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obvious",
+      "locator_kind": "section",
+      "source_detail": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
+      "source_excerpt_or_summary": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
+      "supports": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0159",
+      "subject_type": "relation",
       "subject_id": "risk_sense_pair:002",
       "evidence_id": "EV-CAM",
       "claim": "Support for cross-target relation risk_sense_pair:002: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: definition:003 explicitly contrasts sense 3 with sense 1",
@@ -5033,7 +5079,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0158",
+      "id": "EL-0160",
       "subject_type": "relation",
       "subject_id": "example_translation:001",
       "evidence_id": "EV-OXF",
@@ -5050,7 +5096,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0159",
+      "id": "EL-0161",
       "subject_type": "relation",
       "subject_id": "example_translation:002",
       "evidence_id": "EV-OXF",
@@ -5067,7 +5113,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0160",
+      "id": "EL-0162",
       "subject_type": "relation",
       "subject_id": "example_translation:003",
       "evidence_id": "EV-OXF",
@@ -5084,7 +5130,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0161",
+      "id": "EL-0163",
       "subject_type": "relation",
       "subject_id": "example_translation:004",
       "evidence_id": "EV-OXF",
@@ -5101,7 +5147,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0162",
+      "id": "EL-0164",
       "subject_type": "relation",
       "subject_id": "example_translation:005",
       "evidence_id": "EV-OXF",
@@ -5118,7 +5164,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0163",
+      "id": "EL-0165",
       "subject_type": "relation",
       "subject_id": "example_translation:006",
       "evidence_id": "EV-OXF",
@@ -5135,7 +5181,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0164",
+      "id": "EL-0166",
       "subject_type": "relation",
       "subject_id": "example_translation:007",
       "evidence_id": "EV-OXF",
@@ -5152,7 +5198,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0165",
+      "id": "EL-0167",
       "subject_type": "relation",
       "subject_id": "example_translation:008",
       "evidence_id": "EV-OXF",
@@ -5169,7 +5215,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0166",
+      "id": "EL-0168",
       "subject_type": "relation",
       "subject_id": "example_translation:009",
       "evidence_id": "EV-OXF",
@@ -5186,7 +5232,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0167",
+      "id": "EL-0169",
       "subject_type": "relation",
       "subject_id": "example_translation:010",
       "evidence_id": "EV-OXF",
@@ -5203,7 +5249,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0168",
+      "id": "EL-0170",
       "subject_type": "relation",
       "subject_id": "example_translation:011",
       "evidence_id": "EV-OXF",
@@ -5220,7 +5266,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0169",
+      "id": "EL-0171",
       "subject_type": "relation",
       "subject_id": "example_translation:012",
       "evidence_id": "EV-OXF",
@@ -5237,7 +5283,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0170",
+      "id": "EL-0172",
       "subject_type": "relation",
       "subject_id": "example_translation:013",
       "evidence_id": "EV-OXF",
@@ -5254,7 +5300,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0171",
+      "id": "EL-0173",
       "subject_type": "relation",
       "subject_id": "example_translation:014",
       "evidence_id": "EV-OXF",
@@ -5271,7 +5317,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0172",
+      "id": "EL-0174",
       "subject_type": "relation",
       "subject_id": "example_translation:015",
       "evidence_id": "EV-OXF",
@@ -5288,7 +5334,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0173",
+      "id": "EL-0175",
       "subject_type": "relation",
       "subject_id": "example_translation:016",
       "evidence_id": "EV-OXF",
@@ -5305,7 +5351,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0174",
+      "id": "EL-0176",
       "subject_type": "relation",
       "subject_id": "example_translation:017",
       "evidence_id": "EV-OXF",
@@ -5322,7 +5368,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0175",
+      "id": "EL-0177",
       "subject_type": "relation",
       "subject_id": "example_translation:018",
       "evidence_id": "EV-OXF",
@@ -5339,7 +5385,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0176",
+      "id": "EL-0178",
       "subject_type": "relation",
       "subject_id": "example_translation:019",
       "evidence_id": "EV-OXF",
@@ -5356,7 +5402,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0177",
+      "id": "EL-0179",
       "subject_type": "relation",
       "subject_id": "example_translation:020",
       "evidence_id": "EV-OXF",
@@ -5373,7 +5419,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0178",
+      "id": "EL-0180",
       "subject_type": "relation",
       "subject_id": "example_translation:021",
       "evidence_id": "EV-OXF",
@@ -5390,7 +5436,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0179",
+      "id": "EL-0181",
       "subject_type": "relation",
       "subject_id": "example_translation:022",
       "evidence_id": "EV-EPO",
@@ -5407,7 +5453,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0180",
+      "id": "EL-0182",
       "subject_type": "relation",
       "subject_id": "example_translation:023",
       "evidence_id": "EV-EPO",
@@ -5424,7 +5470,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0181",
+      "id": "EL-0183",
       "subject_type": "relation",
       "subject_id": "example_translation:024",
       "evidence_id": "EV-EPO",
@@ -5441,7 +5487,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0182",
+      "id": "EL-0184",
       "subject_type": "relation",
       "subject_id": "example_translation:025",
       "evidence_id": "EV-EPO",
@@ -5458,7 +5504,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0183",
+      "id": "EL-0185",
       "subject_type": "relation",
       "subject_id": "example_translation:026",
       "evidence_id": "EV-EPO",
@@ -5475,7 +5521,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0184",
+      "id": "EL-0186",
       "subject_type": "relation",
       "subject_id": "example_translation:027",
       "evidence_id": "EV-EPO",
@@ -5492,7 +5538,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0185",
+      "id": "EL-0187",
       "subject_type": "relation",
       "subject_id": "sense_definition_consistency:001",
       "evidence_id": "EV-OXF",
@@ -5509,7 +5555,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0186",
+      "id": "EL-0188",
       "subject_type": "relation",
       "subject_id": "definition_usage_consistency:001",
       "evidence_id": "EV-OXF",
@@ -5526,7 +5572,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0187",
+      "id": "EL-0189",
       "subject_type": "relation",
       "subject_id": "definition_lexical_relation_consistency:001",
       "evidence_id": "EV-OXF",
@@ -5543,7 +5589,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0188",
+      "id": "EL-0190",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:001",
       "evidence_id": "EV-OXF",
@@ -5560,7 +5606,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0189",
+      "id": "EL-0191",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:002",
       "evidence_id": "EV-OXF",
@@ -5577,7 +5623,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0190",
+      "id": "EL-0192",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:003",
       "evidence_id": "EV-OXF",
@@ -5594,7 +5640,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0191",
+      "id": "EL-0193",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:004",
       "evidence_id": "EV-OXF",
@@ -5611,7 +5657,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0192",
+      "id": "EL-0194",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:005",
       "evidence_id": "EV-OXF",
@@ -5628,7 +5674,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0193",
+      "id": "EL-0195",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:006",
       "evidence_id": "EV-OXF",
@@ -5645,7 +5691,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0194",
+      "id": "EL-0196",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:007",
       "evidence_id": "EV-OXF",
@@ -5662,7 +5708,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0195",
+      "id": "EL-0197",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:008",
       "evidence_id": "EV-OXF",
@@ -5679,7 +5725,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0196",
+      "id": "EL-0198",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:009",
       "evidence_id": "EV-OXF",
@@ -5696,7 +5742,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0197",
+      "id": "EL-0199",
       "subject_type": "relation",
       "subject_id": "sense_definition_consistency:002",
       "evidence_id": "EV-OXF",
@@ -5713,7 +5759,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0198",
+      "id": "EL-0200",
       "subject_type": "relation",
       "subject_id": "definition_usage_consistency:002",
       "evidence_id": "EV-OXF",
@@ -5730,7 +5776,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0199",
+      "id": "EL-0201",
       "subject_type": "relation",
       "subject_id": "definition_lexical_relation_consistency:002",
       "evidence_id": "EV-OXF",
@@ -5747,7 +5793,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0200",
+      "id": "EL-0202",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:010",
       "evidence_id": "EV-OXF",
@@ -5764,7 +5810,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0201",
+      "id": "EL-0203",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:011",
       "evidence_id": "EV-OXF",
@@ -5781,7 +5827,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0202",
+      "id": "EL-0204",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:012",
       "evidence_id": "EV-OXF",
@@ -5798,7 +5844,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0203",
+      "id": "EL-0205",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:013",
       "evidence_id": "EV-OXF",
@@ -5815,7 +5861,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0204",
+      "id": "EL-0206",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:014",
       "evidence_id": "EV-OXF",
@@ -5832,7 +5878,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0205",
+      "id": "EL-0207",
       "subject_type": "relation",
       "subject_id": "sense_definition_consistency:003",
       "evidence_id": "EV-OXF",
@@ -5849,7 +5895,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0206",
+      "id": "EL-0208",
       "subject_type": "relation",
       "subject_id": "definition_usage_consistency:003",
       "evidence_id": "EV-OXF",
@@ -5866,7 +5912,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0207",
+      "id": "EL-0209",
       "subject_type": "relation",
       "subject_id": "definition_lexical_relation_consistency:003",
       "evidence_id": "EV-OXF",
@@ -5883,7 +5929,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0208",
+      "id": "EL-0210",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:015",
       "evidence_id": "EV-OXF",
@@ -5900,7 +5946,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0209",
+      "id": "EL-0211",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:016",
       "evidence_id": "EV-OXF",
@@ -5917,7 +5963,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0210",
+      "id": "EL-0212",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:017",
       "evidence_id": "EV-OXF",
@@ -5934,7 +5980,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0211",
+      "id": "EL-0213",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:018",
       "evidence_id": "EV-OXF",
@@ -5951,7 +5997,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0212",
+      "id": "EL-0214",
       "subject_type": "relation",
       "subject_id": "sense_definition_consistency:004",
       "evidence_id": "EV-EPO",
@@ -5968,7 +6014,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0213",
+      "id": "EL-0215",
       "subject_type": "relation",
       "subject_id": "definition_usage_consistency:004",
       "evidence_id": "EV-EPO",
@@ -5985,7 +6031,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0214",
+      "id": "EL-0216",
       "subject_type": "relation",
       "subject_id": "definition_lexical_relation_consistency:004",
       "evidence_id": "EV-EPO",
@@ -6002,7 +6048,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0215",
+      "id": "EL-0217",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:019",
       "evidence_id": "EV-EPO",
@@ -6019,7 +6065,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0216",
+      "id": "EL-0218",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:020",
       "evidence_id": "EV-EPO",
@@ -6036,7 +6082,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0217",
+      "id": "EL-0219",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:021",
       "evidence_id": "EV-EPO",
@@ -6053,7 +6099,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0218",
+      "id": "EL-0220",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:022",
       "evidence_id": "EV-EPO",
@@ -6070,7 +6116,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0219",
+      "id": "EL-0221",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:023",
       "evidence_id": "EV-EPO",
@@ -6087,7 +6133,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0220",
+      "id": "EL-0222",
       "subject_type": "relation",
       "subject_id": "pattern_example_coverage:024",
       "evidence_id": "EV-EPO",
@@ -6104,7 +6150,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0221",
+      "id": "EL-0223",
       "subject_type": "relation",
       "subject_id": "core_sense_mapping:001",
       "evidence_id": "EV-EPO",
@@ -6121,7 +6167,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0222",
+      "id": "EL-0224",
       "subject_type": "relation",
       "subject_id": "core_sense_mapping:001",
       "evidence_id": "EV-USPTO",
@@ -6138,45 +6184,11 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0223",
-      "subject_type": "relation",
-      "subject_id": "core_sense_mapping:002",
-      "evidence_id": "EV-OXF",
-      "claim": "Support for cross-target relation core_sense_mapping:002: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
-      "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obvious",
-      "locator_kind": "section",
-      "source_detail": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
-      "source_excerpt_or_summary": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
-      "supports": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
-      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
-      "support_type": "direct",
-      "counterexample_checked": true,
-      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
-      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
-    },
-    {
-      "id": "EL-0224",
-      "subject_type": "relation",
-      "subject_id": "core_sense_mapping:002",
-      "evidence_id": "EV-CAM",
-      "claim": "Support for cross-target relation core_sense_mapping:002: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
-      "locator": "https://dictionary.cambridge.org/dictionary/english/obvious",
-      "locator_kind": "section",
-      "source_detail": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
-      "source_excerpt_or_summary": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
-      "supports": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
-      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
-      "support_type": "direct",
-      "counterexample_checked": true,
-      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
-      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
-    },
-    {
       "id": "EL-0225",
       "subject_type": "relation",
-      "subject_id": "core_sense_mapping:003",
+      "subject_id": "core_sense_mapping:002",
       "evidence_id": "EV-OXF",
-      "claim": "Support for cross-target relation core_sense_mapping:003: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "claim": "Support for cross-target relation core_sense_mapping:002: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
       "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obvious",
       "locator_kind": "section",
       "source_detail": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
@@ -6191,6 +6203,40 @@
     {
       "id": "EL-0226",
       "subject_type": "relation",
+      "subject_id": "core_sense_mapping:002",
+      "evidence_id": "EV-CAM",
+      "claim": "Support for cross-target relation core_sense_mapping:002: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/obvious",
+      "locator_kind": "section",
+      "source_detail": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
+      "source_excerpt_or_summary": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
+      "supports": "core sense, common constructions, obvious solution/choice, state the obvious, pronunciation, and obviously",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0227",
+      "subject_type": "relation",
+      "subject_id": "core_sense_mapping:003",
+      "evidence_id": "EV-OXF",
+      "claim": "Support for cross-target relation core_sense_mapping:003: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/obvious",
+      "locator_kind": "section",
+      "source_detail": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
+      "source_excerpt_or_summary": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
+      "supports": "US/UK pronunciation, three general senses, major frames, usage contrast, and word origin",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0228",
+      "subject_type": "relation",
       "subject_id": "core_sense_mapping:003",
       "evidence_id": "EV-CAM",
       "claim": "Support for cross-target relation core_sense_mapping:003: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
@@ -6206,7 +6252,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0227",
+      "id": "EL-0229",
       "subject_type": "relation",
       "subject_id": "core_sense_mapping:004",
       "evidence_id": "EV-OXF",
@@ -6223,7 +6269,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0228",
+      "id": "EL-0230",
       "subject_type": "relation",
       "subject_id": "core_sense_mapping:004",
       "evidence_id": "EV-CAM",
@@ -6240,45 +6286,11 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0229",
-      "subject_type": "relation",
-      "subject_id": "core_sense_mapping:005",
-      "evidence_id": "EV-EPO",
-      "claim": "Support for cross-target relation core_sense_mapping:005: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
-      "locator": "https://www.epo.org/en/legal/guidelines-epc/2026/g_vii_4.html",
-      "locator_kind": "section",
-      "source_detail": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
-      "source_excerpt_or_summary": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
-      "supports": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
-      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
-      "support_type": "direct",
-      "counterexample_checked": true,
-      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
-      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
-    },
-    {
-      "id": "EL-0230",
-      "subject_type": "relation",
-      "subject_id": "core_sense_mapping:005",
-      "evidence_id": "EV-USPTO",
-      "claim": "Support for cross-target relation core_sense_mapping:005: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
-      "locator": "https://www.uspto.gov/web/offices/pac/mpep/s2143.html",
-      "locator_kind": "section",
-      "source_detail": "US obviousness requirements and the obvious-to-try rationale",
-      "source_excerpt_or_summary": "US obviousness requirements and the obvious-to-try rationale",
-      "supports": "US obviousness requirements and the obvious-to-try rationale",
-      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
-      "support_type": "direct",
-      "counterexample_checked": true,
-      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
-      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
-    },
-    {
       "id": "EL-0231",
       "subject_type": "relation",
-      "subject_id": "article_learning_risk:001",
+      "subject_id": "core_sense_mapping:005",
       "evidence_id": "EV-EPO",
-      "claim": "Support for cross-target relation article_learning_risk:001: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+      "claim": "Support for cross-target relation core_sense_mapping:005: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
       "locator": "https://www.epo.org/en/legal/guidelines-epc/2026/g_vii_4.html",
       "locator_kind": "section",
       "source_detail": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
@@ -6293,6 +6305,40 @@
     {
       "id": "EL-0232",
       "subject_type": "relation",
+      "subject_id": "core_sense_mapping:005",
+      "evidence_id": "EV-USPTO",
+      "claim": "Support for cross-target relation core_sense_mapping:005: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+      "locator": "https://www.uspto.gov/web/offices/pac/mpep/s2143.html",
+      "locator_kind": "section",
+      "source_detail": "US obviousness requirements and the obvious-to-try rationale",
+      "source_excerpt_or_summary": "US obviousness requirements and the obvious-to-try rationale",
+      "supports": "US obviousness requirements and the obvious-to-try rationale",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0233",
+      "subject_type": "relation",
+      "subject_id": "article_learning_risk:001",
+      "evidence_id": "EV-EPO",
+      "claim": "Support for cross-target relation article_learning_risk:001: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+      "locator": "https://www.epo.org/en/legal/guidelines-epc/2026/g_vii_4.html",
+      "locator_kind": "section",
+      "source_detail": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
+      "source_excerpt_or_summary": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
+      "supports": "EPC inventive-step obviousness, skilled-person standard, and lack of inventive step",
+      "applicability": "The cited source applies to the same lemma, scoped sense/frame, or specialist test without extending it to an unrelated use.",
+      "support_type": "direct",
+      "counterexample_checked": true,
+      "counterexample_method": "Compared the source wording with the scoped article claim and checked neighboring senses or the relevant legal boundary.",
+      "counterexample_result": "No unresolved contradiction was found within the cited source scope."
+    },
+    {
+      "id": "EL-0234",
+      "subject_type": "relation",
       "subject_id": "article_learning_risk:001",
       "evidence_id": "EV-USPTO",
       "claim": "Support for cross-target relation article_learning_risk:001: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
@@ -6308,7 +6354,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0233",
+      "id": "EL-0235",
       "subject_type": "normal_candidate",
       "subject_id": "NC-01",
       "evidence_id": "EV-OXF",
@@ -6325,7 +6371,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0234",
+      "id": "EL-0236",
       "subject_type": "normal_candidate",
       "subject_id": "NC-02",
       "evidence_id": "EV-OXF",
@@ -6342,7 +6388,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0235",
+      "id": "EL-0237",
       "subject_type": "normal_candidate",
       "subject_id": "NC-03",
       "evidence_id": "EV-OXF",
@@ -6359,7 +6405,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0236",
+      "id": "EL-0238",
       "subject_type": "normal_candidate",
       "subject_id": "NC-04",
       "evidence_id": "EV-EPO",
@@ -6376,7 +6422,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0237",
+      "id": "EL-0239",
       "subject_type": "normal_candidate",
       "subject_id": "NC-05",
       "evidence_id": "EV-OXF",
@@ -6393,7 +6439,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0238",
+      "id": "EL-0240",
       "subject_type": "normal_candidate",
       "subject_id": "NC-06",
       "evidence_id": "EV-USPTO",
@@ -6410,7 +6456,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0239",
+      "id": "EL-0241",
       "subject_type": "resolution",
       "subject_id": "COLD-01",
       "evidence_id": "EV-EPO",
@@ -6427,7 +6473,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0240",
+      "id": "EL-0242",
       "subject_type": "resolution",
       "subject_id": "COLD-01",
       "evidence_id": "EV-UK",
@@ -6444,7 +6490,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0241",
+      "id": "EL-0243",
       "subject_type": "resolution",
       "subject_id": "COLD-02",
       "evidence_id": "EV-OXF",
@@ -6461,7 +6507,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0242",
+      "id": "EL-0244",
       "subject_type": "resolution",
       "subject_id": "COLD-02",
       "evidence_id": "EV-CAM",
@@ -6478,7 +6524,7 @@
       "counterexample_result": "No unresolved contradiction was found within the cited source scope."
     },
     {
-      "id": "EL-0243",
+      "id": "EL-0245",
       "subject_type": "resolution",
       "subject_id": "COLD-03",
       "evidence_id": "EV-USPTO",
@@ -6505,7 +6551,7 @@
       "context_id": "isolated-obvious-cycle001-postcold-20260825",
       "started_at": "2026-08-25T05:14:10Z",
       "completed_at": "2026-08-25T05:17:30Z",
-      "input_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+      "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
       "prompt_sha256": "a9e9210b0443b95d7342514e8f593828bb6c679e965bf17bbdab36bd1bade744",
       "context_mode": "isolated",
       "input_artifacts": [
@@ -6556,7 +6602,7 @@
           "usage_note:001"
         ],
         "evidence_link_ids": [
-          "EL-0233"
+          "EL-0235"
         ]
       },
       {
@@ -6590,7 +6636,7 @@
           "usage_note:002"
         ],
         "evidence_link_ids": [
-          "EL-0234"
+          "EL-0236"
         ]
       },
       {
@@ -6624,7 +6670,7 @@
           "usage_note:003"
         ],
         "evidence_link_ids": [
-          "EL-0235"
+          "EL-0237"
         ]
       },
       {
@@ -6652,10 +6698,11 @@
           "grammar_pattern:024",
           "register:004",
           "sense_boundary:004",
+          "synonym:013",
           "usage_note:004"
         ],
         "evidence_link_ids": [
-          "EL-0236"
+          "EL-0238"
         ]
       },
       {
@@ -6672,7 +6719,7 @@
           "word_formation:004"
         ],
         "evidence_link_ids": [
-          "EL-0237"
+          "EL-0239"
         ]
       },
       {
@@ -6688,7 +6735,7 @@
           "word_formation:004"
         ],
         "evidence_link_ids": [
-          "EL-0238"
+          "EL-0240"
         ]
       }
     ],
@@ -7574,11 +7621,20 @@
         ]
       },
       {
+        "id": "synonym:013",
+        "status": "pass",
+        "notes": "Post-cold zero-based review confirmed the target wording, frame, sense membership, translation, and evidence scope.",
+        "evidence_link_ids": [
+          "EL-0153",
+          "EL-0154"
+        ]
+      },
+      {
         "id": "antonym:009",
         "status": "pass",
         "notes": "Post-cold zero-based review confirmed the target wording, frame, sense membership, translation, and evidence scope.",
         "evidence_link_ids": [
-          "EL-0153"
+          "EL-0155"
         ]
       }
     ],
@@ -7588,8 +7644,8 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0154",
-          "EL-0155"
+          "EL-0156",
+          "EL-0157"
         ]
       },
       {
@@ -7597,8 +7653,8 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0156",
-          "EL-0157"
+          "EL-0158",
+          "EL-0159"
         ]
       },
       {
@@ -7606,7 +7662,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0158"
+          "EL-0160"
         ]
       },
       {
@@ -7614,7 +7670,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0159"
+          "EL-0161"
         ]
       },
       {
@@ -7622,7 +7678,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0160"
+          "EL-0162"
         ]
       },
       {
@@ -7630,7 +7686,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0161"
+          "EL-0163"
         ]
       },
       {
@@ -7638,7 +7694,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0162"
+          "EL-0164"
         ]
       },
       {
@@ -7646,7 +7702,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0163"
+          "EL-0165"
         ]
       },
       {
@@ -7654,7 +7710,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0164"
+          "EL-0166"
         ]
       },
       {
@@ -7662,7 +7718,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0165"
+          "EL-0167"
         ]
       },
       {
@@ -7670,7 +7726,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0166"
+          "EL-0168"
         ]
       },
       {
@@ -7678,7 +7734,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0167"
+          "EL-0169"
         ]
       },
       {
@@ -7686,7 +7742,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0168"
+          "EL-0170"
         ]
       },
       {
@@ -7694,7 +7750,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0169"
+          "EL-0171"
         ]
       },
       {
@@ -7702,7 +7758,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0170"
+          "EL-0172"
         ]
       },
       {
@@ -7710,7 +7766,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0171"
+          "EL-0173"
         ]
       },
       {
@@ -7718,7 +7774,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0172"
+          "EL-0174"
         ]
       },
       {
@@ -7726,7 +7782,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0173"
+          "EL-0175"
         ]
       },
       {
@@ -7734,7 +7790,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0174"
+          "EL-0176"
         ]
       },
       {
@@ -7742,7 +7798,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0175"
+          "EL-0177"
         ]
       },
       {
@@ -7750,7 +7806,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0176"
+          "EL-0178"
         ]
       },
       {
@@ -7758,7 +7814,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0177"
+          "EL-0179"
         ]
       },
       {
@@ -7766,7 +7822,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0178"
+          "EL-0180"
         ]
       },
       {
@@ -7774,7 +7830,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0179"
+          "EL-0181"
         ]
       },
       {
@@ -7782,7 +7838,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0180"
+          "EL-0182"
         ]
       },
       {
@@ -7790,7 +7846,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0181"
+          "EL-0183"
         ]
       },
       {
@@ -7798,7 +7854,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0182"
+          "EL-0184"
         ]
       },
       {
@@ -7806,7 +7862,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0183"
+          "EL-0185"
         ]
       },
       {
@@ -7814,7 +7870,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0184"
+          "EL-0186"
         ]
       },
       {
@@ -7822,7 +7878,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0185"
+          "EL-0187"
         ]
       },
       {
@@ -7830,7 +7886,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0186"
+          "EL-0188"
         ]
       },
       {
@@ -7838,7 +7894,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0187"
+          "EL-0189"
         ]
       },
       {
@@ -7846,7 +7902,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0188"
+          "EL-0190"
         ]
       },
       {
@@ -7854,7 +7910,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0189"
+          "EL-0191"
         ]
       },
       {
@@ -7862,7 +7918,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0190"
+          "EL-0192"
         ]
       },
       {
@@ -7870,7 +7926,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0191"
+          "EL-0193"
         ]
       },
       {
@@ -7878,7 +7934,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0192"
+          "EL-0194"
         ]
       },
       {
@@ -7886,7 +7942,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0193"
+          "EL-0195"
         ]
       },
       {
@@ -7894,7 +7950,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0194"
+          "EL-0196"
         ]
       },
       {
@@ -7902,7 +7958,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0195"
+          "EL-0197"
         ]
       },
       {
@@ -7910,7 +7966,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0196"
+          "EL-0198"
         ]
       },
       {
@@ -7918,7 +7974,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0197"
+          "EL-0199"
         ]
       },
       {
@@ -7926,7 +7982,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0198"
+          "EL-0200"
         ]
       },
       {
@@ -7934,7 +7990,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0199"
+          "EL-0201"
         ]
       },
       {
@@ -7942,7 +7998,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0200"
+          "EL-0202"
         ]
       },
       {
@@ -7950,7 +8006,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0201"
+          "EL-0203"
         ]
       },
       {
@@ -7958,7 +8014,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0202"
+          "EL-0204"
         ]
       },
       {
@@ -7966,7 +8022,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0203"
+          "EL-0205"
         ]
       },
       {
@@ -7974,7 +8030,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0204"
+          "EL-0206"
         ]
       },
       {
@@ -7982,7 +8038,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0205"
+          "EL-0207"
         ]
       },
       {
@@ -7990,7 +8046,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0206"
+          "EL-0208"
         ]
       },
       {
@@ -7998,7 +8054,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0207"
+          "EL-0209"
         ]
       },
       {
@@ -8006,7 +8062,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0208"
+          "EL-0210"
         ]
       },
       {
@@ -8014,7 +8070,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0209"
+          "EL-0211"
         ]
       },
       {
@@ -8022,7 +8078,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0210"
+          "EL-0212"
         ]
       },
       {
@@ -8030,7 +8086,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0211"
+          "EL-0213"
         ]
       },
       {
@@ -8038,7 +8094,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0212"
+          "EL-0214"
         ]
       },
       {
@@ -8046,7 +8102,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0213"
+          "EL-0215"
         ]
       },
       {
@@ -8054,7 +8110,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0214"
+          "EL-0216"
         ]
       },
       {
@@ -8062,7 +8118,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0215"
+          "EL-0217"
         ]
       },
       {
@@ -8070,7 +8126,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0216"
+          "EL-0218"
         ]
       },
       {
@@ -8078,7 +8134,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0217"
+          "EL-0219"
         ]
       },
       {
@@ -8086,7 +8142,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0218"
+          "EL-0220"
         ]
       },
       {
@@ -8094,7 +8150,7 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0219"
+          "EL-0221"
         ]
       },
       {
@@ -8102,20 +8158,11 @@
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
-          "EL-0220"
-        ]
-      },
-      {
-        "id": "core_sense_mapping:001",
-        "status": "pass",
-        "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
-        "evidence_link_ids": [
-          "EL-0221",
           "EL-0222"
         ]
       },
       {
-        "id": "core_sense_mapping:002",
+        "id": "core_sense_mapping:001",
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
@@ -8124,7 +8171,7 @@
         ]
       },
       {
-        "id": "core_sense_mapping:003",
+        "id": "core_sense_mapping:002",
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
@@ -8133,7 +8180,7 @@
         ]
       },
       {
-        "id": "core_sense_mapping:004",
+        "id": "core_sense_mapping:003",
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
@@ -8142,7 +8189,7 @@
         ]
       },
       {
-        "id": "core_sense_mapping:005",
+        "id": "core_sense_mapping:004",
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
@@ -8151,12 +8198,21 @@
         ]
       },
       {
-        "id": "article_learning_risk:001",
+        "id": "core_sense_mapping:005",
         "status": "pass",
         "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
         "evidence_link_ids": [
           "EL-0231",
           "EL-0232"
+        ]
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": "pass",
+        "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
+        "evidence_link_ids": [
+          "EL-0233",
+          "EL-0234"
         ]
       }
     ]
@@ -8296,8 +8352,8 @@
         "Added explicit EPC Article 56 and UK Patents Act 1977 section 3 skilled-person obviousness and distinguished the different legal tests."
       ],
       "evidence_link_ids": [
-        "EL-0239",
-        "EL-0240"
+        "EL-0241",
+        "EL-0242"
       ],
       "scope_anchor_results": [
         {
@@ -8346,7 +8402,7 @@
       "semantic_invariant_ids": [
         "SEM-COLD-01"
       ],
-      "resolved_on_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08"
+      "resolved_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
     },
     {
       "id": "COLD-02",
@@ -8389,8 +8445,8 @@
         "Moved both expressions to sense 1 and explicitly stated that an obvious reference can be neutral and does not inherently mean unimaginative."
       ],
       "evidence_link_ids": [
-        "EL-0241",
-        "EL-0242"
+        "EL-0243",
+        "EL-0244"
       ],
       "scope_anchor_results": [
         {
@@ -8453,7 +8509,7 @@
       "semantic_invariant_ids": [
         "SEM-COLD-02"
       ],
-      "resolved_on_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08"
+      "resolved_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
     },
     {
       "id": "COLD-03",
@@ -8488,7 +8544,7 @@
         "Qualified the US rationale with the finite identified predictable solutions and reasonable-expectation-of-success requirements and stated that availability of options alone is insufficient."
       ],
       "evidence_link_ids": [
-        "EL-0243"
+        "EL-0245"
       ],
       "scope_anchor_results": [
         {
@@ -8506,12 +8562,12 @@
       "semantic_invariant_ids": [
         "SEM-COLD-03"
       ],
-      "resolved_on_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08"
+      "resolved_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
     }
   ],
   "semantic_gate": {
     "version": "semantic_resolution_v2",
-    "body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+    "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
     "constraints": [
       {
         "id": "SEM-COLD-01",
@@ -8550,7 +8606,7 @@
           "A-02",
           "A-03"
         ],
-        "verified_on_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08"
+        "verified_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
       },
       {
         "id": "SEM-COLD-02",
@@ -8593,7 +8649,7 @@
           "A-06",
           "A-07"
         ],
-        "verified_on_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08"
+        "verified_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
       },
       {
         "id": "SEM-COLD-03",
@@ -8625,7 +8681,7 @@
         "source_anchor_ids": [
           "A-08"
         ],
-        "verified_on_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08"
+        "verified_on_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280"
       }
     ],
     "final_inventory_checks": []
@@ -8640,7 +8696,7 @@
       "context_id": "final-obvious-context-free-20260825",
       "started_at": "2026-08-25T14:20:00+09:00",
       "completed_at": "",
-      "input_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+      "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
       "prompt_sha256": "e92e07b4f36590d9d08651f3003b4659658df5fcc9face2c2a4719bd0edf1448",
       "context_mode": "context_free",
       "input_artifacts": [
@@ -8656,12 +8712,12 @@
       "seal_version": "blind_seal_v2",
       "completed": true,
       "recorded_at": "2026-08-25T14:23:30+09:00",
-      "sealed_at": "2026-08-25T05:28:35+00:00",
-      "body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+      "sealed_at": "2026-08-25T05:33:41+00:00",
+      "body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
       "audit_visible": false,
       "provisional_decision": "pass",
       "article_findings": [],
-      "output_sha256": "9485376d393611f452e41f0c87e1dfdf7ab492a1dca86e463c5bfb76db67c10a"
+      "output_sha256": "3f22286b8caa4dd8bff7021e0ddf3b346fb1929bb10d0ea2c8104889dce27a6e"
     },
     "independent_candidates": [
       {
@@ -9460,6 +9516,7 @@
         "article_target_ids": [
           "grammar_pattern:020",
           "collocation:023",
+          "synonym:013",
           "definition:004",
           "register:004"
         ]
@@ -9483,9 +9540,11 @@
           "EPO-F3"
         ],
         "canonical_statement": "If the claim is obvious to the skilled person, it is not allowable for lack of inventive step.",
-        "disposition": "integrated",
+        "disposition": "included",
         "rationale": "Independent source-first fact mapped to the current article where applicable.",
-        "article_target_ids": []
+        "article_target_ids": [
+          "synonym:013"
+        ]
       },
       {
         "id": "SU-UK-F1",
@@ -9498,6 +9557,7 @@
         "article_target_ids": [
           "grammar_pattern:020",
           "collocation:023",
+          "synonym:013",
           "register:004",
           "usage_note:004"
         ]
@@ -9967,6 +10027,7 @@
         "article_target_ids": [
           "grammar_pattern:020",
           "collocation:023",
+          "synonym:013",
           "definition:004",
           "register:004"
         ],
@@ -10004,7 +10065,9 @@
         "subject_form": "lacking an inventive step",
         "claim_type": "specialist",
         "statement": "If the claim is obvious to the skilled person, it is not allowable for lack of inventive step.",
-        "article_target_ids": [],
+        "article_target_ids": [
+          "synonym:013"
+        ],
         "source_supports": [
           {
             "source_fact_id": "EPO-F3",
@@ -10023,6 +10086,7 @@
         "article_target_ids": [
           "grammar_pattern:020",
           "collocation:023",
+          "synonym:013",
           "register:004",
           "usage_note:004"
         ],

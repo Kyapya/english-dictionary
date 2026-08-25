@@ -1,7 +1,7 @@
 {
   "stage": "normal_review",
   "run_id": "normal-obvious-cycle001-postcold-20260825",
-  "input_body_sha256": "639233b0b0c1d3e88b400d48e9649182350b47c262e8ee61bb8c23e1622f8e08",
+  "input_body_sha256": "6a4a3f64826c07826c059022518514704e1cd99754340bbbbdb7fb4a0bd9f280",
   "independent_candidates": [
     {
       "id": "NC-01",
@@ -45,7 +45,7 @@
         "usage_note:001"
       ],
       "evidence_link_ids": [
-        "EL-0233"
+        "EL-0235"
       ]
     },
     {
@@ -79,7 +79,7 @@
         "usage_note:002"
       ],
       "evidence_link_ids": [
-        "EL-0234"
+        "EL-0236"
       ]
     },
     {
@@ -113,7 +113,7 @@
         "usage_note:003"
       ],
       "evidence_link_ids": [
-        "EL-0235"
+        "EL-0237"
       ]
     },
     {
@@ -141,10 +141,11 @@
         "grammar_pattern:024",
         "register:004",
         "sense_boundary:004",
+        "synonym:013",
         "usage_note:004"
       ],
       "evidence_link_ids": [
-        "EL-0236"
+        "EL-0238"
       ]
     },
     {
@@ -161,7 +162,7 @@
         "word_formation:004"
       ],
       "evidence_link_ids": [
-        "EL-0237"
+        "EL-0239"
       ]
     },
     {
@@ -177,7 +178,7 @@
         "word_formation:004"
       ],
       "evidence_link_ids": [
-        "EL-0238"
+        "EL-0240"
       ]
     }
   ],
@@ -1063,11 +1064,20 @@
       ]
     },
     {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Post-cold zero-based review confirmed the target wording, frame, sense membership, translation, and evidence scope.",
+      "evidence_link_ids": [
+        "EL-0153",
+        "EL-0154"
+      ]
+    },
+    {
       "id": "antonym:009",
       "status": "pass",
       "notes": "Post-cold zero-based review confirmed the target wording, frame, sense membership, translation, and evidence scope.",
       "evidence_link_ids": [
-        "EL-0153"
+        "EL-0155"
       ]
     }
   ],
@@ -1077,8 +1087,8 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0154",
-        "EL-0155"
+        "EL-0156",
+        "EL-0157"
       ]
     },
     {
@@ -1086,8 +1096,8 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0156",
-        "EL-0157"
+        "EL-0158",
+        "EL-0159"
       ]
     },
     {
@@ -1095,7 +1105,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0158"
+        "EL-0160"
       ]
     },
     {
@@ -1103,7 +1113,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0159"
+        "EL-0161"
       ]
     },
     {
@@ -1111,7 +1121,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0160"
+        "EL-0162"
       ]
     },
     {
@@ -1119,7 +1129,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0161"
+        "EL-0163"
       ]
     },
     {
@@ -1127,7 +1137,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0162"
+        "EL-0164"
       ]
     },
     {
@@ -1135,7 +1145,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0163"
+        "EL-0165"
       ]
     },
     {
@@ -1143,7 +1153,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0164"
+        "EL-0166"
       ]
     },
     {
@@ -1151,7 +1161,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0165"
+        "EL-0167"
       ]
     },
     {
@@ -1159,7 +1169,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0166"
+        "EL-0168"
       ]
     },
     {
@@ -1167,7 +1177,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0167"
+        "EL-0169"
       ]
     },
     {
@@ -1175,7 +1185,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0168"
+        "EL-0170"
       ]
     },
     {
@@ -1183,7 +1193,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0169"
+        "EL-0171"
       ]
     },
     {
@@ -1191,7 +1201,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0170"
+        "EL-0172"
       ]
     },
     {
@@ -1199,7 +1209,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0171"
+        "EL-0173"
       ]
     },
     {
@@ -1207,7 +1217,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0172"
+        "EL-0174"
       ]
     },
     {
@@ -1215,7 +1225,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0173"
+        "EL-0175"
       ]
     },
     {
@@ -1223,7 +1233,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0174"
+        "EL-0176"
       ]
     },
     {
@@ -1231,7 +1241,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0175"
+        "EL-0177"
       ]
     },
     {
@@ -1239,7 +1249,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0176"
+        "EL-0178"
       ]
     },
     {
@@ -1247,7 +1257,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0177"
+        "EL-0179"
       ]
     },
     {
@@ -1255,7 +1265,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0178"
+        "EL-0180"
       ]
     },
     {
@@ -1263,7 +1273,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0179"
+        "EL-0181"
       ]
     },
     {
@@ -1271,7 +1281,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0180"
+        "EL-0182"
       ]
     },
     {
@@ -1279,7 +1289,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0181"
+        "EL-0183"
       ]
     },
     {
@@ -1287,7 +1297,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0182"
+        "EL-0184"
       ]
     },
     {
@@ -1295,7 +1305,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0183"
+        "EL-0185"
       ]
     },
     {
@@ -1303,7 +1313,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0184"
+        "EL-0186"
       ]
     },
     {
@@ -1311,7 +1321,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0185"
+        "EL-0187"
       ]
     },
     {
@@ -1319,7 +1329,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0186"
+        "EL-0188"
       ]
     },
     {
@@ -1327,7 +1337,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0187"
+        "EL-0189"
       ]
     },
     {
@@ -1335,7 +1345,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0188"
+        "EL-0190"
       ]
     },
     {
@@ -1343,7 +1353,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0189"
+        "EL-0191"
       ]
     },
     {
@@ -1351,7 +1361,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0190"
+        "EL-0192"
       ]
     },
     {
@@ -1359,7 +1369,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0191"
+        "EL-0193"
       ]
     },
     {
@@ -1367,7 +1377,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0192"
+        "EL-0194"
       ]
     },
     {
@@ -1375,7 +1385,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0193"
+        "EL-0195"
       ]
     },
     {
@@ -1383,7 +1393,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0194"
+        "EL-0196"
       ]
     },
     {
@@ -1391,7 +1401,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0195"
+        "EL-0197"
       ]
     },
     {
@@ -1399,7 +1409,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0196"
+        "EL-0198"
       ]
     },
     {
@@ -1407,7 +1417,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0197"
+        "EL-0199"
       ]
     },
     {
@@ -1415,7 +1425,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0198"
+        "EL-0200"
       ]
     },
     {
@@ -1423,7 +1433,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0199"
+        "EL-0201"
       ]
     },
     {
@@ -1431,7 +1441,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0200"
+        "EL-0202"
       ]
     },
     {
@@ -1439,7 +1449,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0201"
+        "EL-0203"
       ]
     },
     {
@@ -1447,7 +1457,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0202"
+        "EL-0204"
       ]
     },
     {
@@ -1455,7 +1465,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0203"
+        "EL-0205"
       ]
     },
     {
@@ -1463,7 +1473,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0204"
+        "EL-0206"
       ]
     },
     {
@@ -1471,7 +1481,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0205"
+        "EL-0207"
       ]
     },
     {
@@ -1479,7 +1489,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0206"
+        "EL-0208"
       ]
     },
     {
@@ -1487,7 +1497,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0207"
+        "EL-0209"
       ]
     },
     {
@@ -1495,7 +1505,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0208"
+        "EL-0210"
       ]
     },
     {
@@ -1503,7 +1513,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0209"
+        "EL-0211"
       ]
     },
     {
@@ -1511,7 +1521,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0210"
+        "EL-0212"
       ]
     },
     {
@@ -1519,7 +1529,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0211"
+        "EL-0213"
       ]
     },
     {
@@ -1527,7 +1537,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0212"
+        "EL-0214"
       ]
     },
     {
@@ -1535,7 +1545,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0213"
+        "EL-0215"
       ]
     },
     {
@@ -1543,7 +1553,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0214"
+        "EL-0216"
       ]
     },
     {
@@ -1551,7 +1561,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0215"
+        "EL-0217"
       ]
     },
     {
@@ -1559,7 +1569,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0216"
+        "EL-0218"
       ]
     },
     {
@@ -1567,7 +1577,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0217"
+        "EL-0219"
       ]
     },
     {
@@ -1575,7 +1585,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0218"
+        "EL-0220"
       ]
     },
     {
@@ -1583,7 +1593,7 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0219"
+        "EL-0221"
       ]
     },
     {
@@ -1591,20 +1601,11 @@
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
-        "EL-0220"
-      ]
-    },
-    {
-      "id": "core_sense_mapping:001",
-      "status": "pass",
-      "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
-      "evidence_link_ids": [
-        "EL-0221",
         "EL-0222"
       ]
     },
     {
-      "id": "core_sense_mapping:002",
+      "id": "core_sense_mapping:001",
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
@@ -1613,7 +1614,7 @@
       ]
     },
     {
-      "id": "core_sense_mapping:003",
+      "id": "core_sense_mapping:002",
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
@@ -1622,7 +1623,7 @@
       ]
     },
     {
-      "id": "core_sense_mapping:004",
+      "id": "core_sense_mapping:003",
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
@@ -1631,7 +1632,7 @@
       ]
     },
     {
-      "id": "core_sense_mapping:005",
+      "id": "core_sense_mapping:004",
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
@@ -1640,12 +1641,21 @@
       ]
     },
     {
-      "id": "article_learning_risk:001",
+      "id": "core_sense_mapping:005",
       "status": "pass",
       "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
       "evidence_link_ids": [
         "EL-0231",
         "EL-0232"
+      ]
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Post-cold review confirmed this cross-target relation and found no remaining learner-facing contradiction.",
+      "evidence_link_ids": [
+        "EL-0233",
+        "EL-0234"
       ]
     }
   ]
