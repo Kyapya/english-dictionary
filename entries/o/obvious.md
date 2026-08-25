@@ -46,7 +46,7 @@ tags: []
 
 【レジスター/領域】一般語。会話、報道、ビジネス、学術など幅広い。clear よりも「手掛かりが目立ち、見れば分かる」という含みが強く、相手の理解力に関わる場面では強く響くことがある。  
 
-【文法パターン】something + be・seem・become obvious＝〈事実・感情・問題など〉が明らかである／it + be・seem・become obvious + that 〈節〉＝～であることが明らかだ／something + be obvious to someone＝〈人〉にとって明らかだ／it + be obvious to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be obvious from 〈evidence・statement・context〉 + that 〈節〉＝〈根拠〉から～が明らかだ／make something obvious・make it obvious + that 〈節〉＝何かを明白にする・態度などで～をはっきり示す／it + be obvious + 〈what・why・how・who節〉＝何・なぜ・どうかが明らかだ。  
+【文法パターン】something + be・seem・become obvious＝〈事実・感情・問題など〉が明らかである／it + be・seem・become obvious + that 〈節〉＝～であることが明らかだ／something + be obvious to someone＝〈人〉にとって明らかだ／it + be obvious to someone + that 〈節〉＝〈人〉には～が明らかだ／it + be obvious from 〈evidence・statement・context〉 + that 〈節〉＝〈根拠〉から～が明らかだ／make something obvious・make it obvious + that 〈節〉＝何かを明白にする・態度などで～をはっきり示す／it + be obvious + 〈what・why・how・who節〉＝何・なぜ・どうかが明らかだ／an obvious reference to 〈source〉＝元ネタが容易に認識できる言及・引用／look beyond the obvious＝すぐ目につく表面的なものの先を見る。  
 
 【コロケーション】
 
@@ -90,7 +90,17 @@ tags: []
 例: The report contains an obvious calculation error.  
 訳: その報告書には明らかな計算ミスがある。  
 
-【語法・注意】That's obvious. や It's obvious. を相手の発言への返答として使うと、「そんなことは分かり切っている」「なぜ分からないのか」という上から目線・苛立ちとして聞こえることがある。単に「分かりやすい」と言いたい場合は clear を選ぶ方が安全な場面も多い。また make something clear は「説明して分かるようにする」という意図的行為に使いやすい一方、make something obvious は「態度や状況のせいで、意図せず隠しきれなくする」という読みも自然である。apparent は「観察上そう見える」という意味から「見かけ上の」に広がることがあり、obvious より真偽を保留しやすい。  
+・an obvious reference to 〈source〉  
+用途: 元ネタや参照先が容易に認識できる言及・引用を表す。表現自体は中立にも使え、否定評価を必須としない。  
+例: The design includes an obvious reference to 1980s arcade games.  
+訳: そのデザインには1980年代のアーケードゲームだとすぐ分かる引用的要素がある。  
+
+・look beyond the obvious  
+用途: すぐ目につく表面的な説明・特徴だけで判断せず、より深い要因を見る。  
+例: Good analysis looks beyond the obvious and tests alternative explanations.  
+訳: 良い分析は目につく説明だけで終わらず、別の説明も検証する。  
+
+【語法・注意】That's obvious. や It's obvious. を相手の発言への返答として使うと、「そんなことは分かり切っている」「なぜ分からないのか」という上から目線・苛立ちとして聞こえることがある。単に「分かりやすい」と言いたい場合は clear を選ぶ方が安全な場面も多い。また make something clear は「説明して分かるようにする」という意図的行為に使いやすい一方、make something obvious は「態度や状況のせいで、意図せず隠しきれなくする」という読みも自然である。apparent は「観察上そう見える」という意味から「見かけ上の」に広がることがあり、obvious より真偽を保留しやすい。an obvious reference や look beyond the obvious は、それだけで「安直・工夫不足」という批判を含むとは限らず、基本的には「容易に認識できる」という語義1から理解できる。  
 
 【類義語】
 
@@ -243,7 +253,7 @@ tags: []
 
 【レジスター/領域】一般会話、映画・文学・デザイン・広告などの批評で使う。通常は否定的だが、どの程度批判的かは文脈と too、rather、pretty などの程度表現で変わる。  
 
-【文法パターン】something + be too・rather・pretty obvious＝〈展開・冗談・狙いなど〉が見え見えだ／an obvious 〈joke・ending・reference・ploy〉＝見え見えの〈冗談・結末・言及・策略〉／state the obvious＝誰もが分かっていることをわざわざ言う／avoid the obvious＝ありきたりで安直な選択を避ける／look beyond the obvious＝表面的・すぐ目につくものの先を見る。  
+【文法パターン】something + be too・rather・pretty obvious＝〈展開・冗談・狙いなど〉が見え見えだ／an obvious 〈joke・ending・ploy〉＝見え見えの〈冗談・結末・策略〉／state the obvious＝誰もが分かっていることをわざわざ言う／avoid the obvious＝ありきたりで安直な選択を避ける。  
 
 【コロケーション】
 
@@ -262,11 +272,6 @@ tags: []
 例: The film was entertaining despite its obvious ending.  
 訳: その映画は結末が見え見えだったにもかかわらず楽しめた。  
 
-・an obvious reference  
-用途: 元ネタや意図が露骨に分かる言及・引用を表す。評価は文脈によって軽い批判から中立まである。  
-例: The design includes an obvious reference to 1980s arcade games.  
-訳: そのデザインには1980年代のアーケードゲームをあからさまに意識した要素がある。  
-
 ・state the obvious  
 用途: 誰もが既に理解していることを改めて口にする。しばしば自己弁護的・皮肉的に使う。  
 例: I may be stating the obvious, but we cannot approve a plan without a budget.  
@@ -276,11 +281,6 @@ tags: []
 用途: ありきたりな発想・表現・選択を避ける。  
 例: The writer tried to avoid the obvious and give the character a less predictable response.  
 訳: その作家は安直な展開を避け、登場人物にもっと予想外の反応をさせようとした。  
-
-・look beyond the obvious  
-用途: 目立つ表面的な説明・特徴だけで判断せず、より深い要因を見る。  
-例: Good analysis looks beyond the obvious and tests alternative explanations.  
-訳: 良い分析は目につく説明だけで終わらず、別の説明も検証する。  
 
 【語法・注意】語義3は obvious に常に付く否定評価ではない。an obvious answer、an obvious reason、an obvious improvement などは中立または肯定的にも使える。否定的になるのは、驚き・創造性・繊細さが期待される場面で「簡単に読める」こと自体が欠点になる場合や、state the obvious のように「分かり切ったことを言う」ことが不要と評価される場合である。blatant は規則違反・嘘・偏見など「悪いものが露骨で隠しようがない」場面に強く、obvious の「ありきたり・想像力不足」とは同義ではない。  
 
@@ -337,22 +337,27 @@ tags: []
 例: The novel reaches a surprising but convincing conclusion.  
 訳: その小説は意外だが納得できる結末に至る。  
 
-4. 【形容詞・法律（米国特許）】容易に想到できる、非自明性を欠く
+4. 【形容詞・法律（特許法、特に米国）】容易に想到できる、非自明性を欠く
 
-【日本語訳・定義】米国特許法で、クレームされた発明を全体として見たとき、先行技術との差が、基準時点において当該技術分野の通常の技能を持つ仮想的な人物にとって容易に想到できたと判断されること。35 U.S.C. § 103 の特許性要件に関わる専門用法で、単に「一般人にとって簡単」「発明後に見れば簡単」という意味ではない。  
+【日本語訳・定義】特許法で、発明が先行技術に照らして当該技術分野の通常の知識・技能を持つ人物にとって容易に到達できると評価され、必要な inventive step・非自明性を欠くことを表す専門用法。法域ごとに判断枠組みは異なる。以下では、35 U.S.C. § 103 が obviousness を特許性要件として定める米国法を中心に説明する。単に「一般人にとって簡単」「発明後に見れば簡単」という意味ではない。  
 
 【頻度】〈3/10〉  
 
-【レジスター/領域】米国の特許法、特許審査、特許訴訟。日常語の obvious と語彙的な核は共有するが、判断主体、基準時、先行技術、クレーム全体という制度上の枠組みが定められている。  
+【レジスター/領域】特許法、特許審査、特許訴訟。米国では 35 U.S.C. § 103 の obviousness、EPC では Article 56 の inventive step、英国では Patents Act 1977 section 3 の inventive step の判断で obvious が用いられる。日常語と語彙的な核は共有するが、判断主体、基準時、先行技術、適用される法的テストは法域ごとに定められている。  
 
-【文法パターン】a claimed invention + would have been obvious to a person having ordinary skill in the art＝クレームされた発明が当業者にとって容易に想到できた／a claim・invention + be obvious in view of 〈prior art・reference〉＝先行技術・文献に照らして容易想到である／a claim + be obvious under 35 U.S.C. § 103＝米国特許法103条上の非自明性を欠く／〈reference・combination〉 + render a claim obvious＝文献・組合せによってクレームが容易想到と判断される根拠になる。  
+【文法パターン】a claimed invention + would have been obvious to a person having ordinary skill in the art＝米国法でクレームされた発明が当業者にとって容易に想到できた／an invention + be obvious to a person skilled in the art＝発明が当業者にとって容易に想到できる／a claim・invention + be obvious in view of 〈prior art・reference〉＝先行技術・文献に照らして容易想到である／a claim + be obvious under 35 U.S.C. § 103＝米国特許法103条上の非自明性を欠く／〈reference・combination〉 + render a claim obvious＝文献・組合せによってクレームが容易想到と判断される根拠になる／〈solution・combination〉 + be obvious to try＝試すことが明白な既知の選択肢である。  
 
 【コロケーション】
 
 ・would have been obvious to a person having ordinary skill in the art  
-用途: § 103 の中心的な判断主体を示す定型的な法的表現。  
+用途: 米国 § 103 の中心的な判断主体を示す定型的な法的表現。  
 例: The examiner concluded that the claimed combination would have been obvious to a person having ordinary skill in the art.  
 訳: 審査官は、そのクレームされた組合せは当業者なら容易に想到できたと判断した。  
+
+・be obvious to a person skilled in the art  
+用途: EPC・英国を含む特許実務で、発明が当業者にとって容易に到達できるかを表す。  
+例: The invention lacked an inventive step because the claimed solution was obvious to a person skilled in the art.  
+訳: そのクレームされた解決策は当業者にとって容易に想到できたため、その発明には進歩性がないと判断された。  
 
 ・be obvious in view of 〈prior art・reference〉  
 用途: どの先行技術・文献を根拠に容易想到と評価するかを示す。  
@@ -369,13 +374,18 @@ tags: []
 例: The reference alone did not render the claim obvious.  
 訳: その文献だけでは、そのクレームを容易想到とするには足りなかった。  
 
-【語法・注意】米国法では、先行技術に発明と同一の内容が一つの資料として記載されていなくても、§ 103 に基づいて obvious と判断され得る。判断はクレームされた発明を「全体として」捉え、基準時点の当業者を基準にするため、発明を知った後の hindsight だけで「簡単だった」と評価するのは不適切である。日常語の obvious to everyone を、そのまま特許法の obvious to a person having ordinary skill in the art と置き換えない。米国外では制度・用語が異なり、たとえば欧州特許実務の inventive step と単純に同一語として扱わない。  
+・be obvious to try  
+用途: 米国 obviousness 判断で、有限個の特定された予測可能な選択肢を合理的な成功期待のもとで試すことが自然だった、という rationale を表す。  
+例: The examiner argued that the claimed option was obvious to try because only a few predictable alternatives were known.  
+訳: 審査官は、予測可能な代替案が少数しか知られていなかったため、そのクレームされた選択肢は試すのが自然だったと主張した。  
+
+【語法・注意】米国法では、先行技術に発明と同一の内容が一つの資料として記載されていなくても、§ 103 に基づいて obvious と判断され得る。判断はクレームされた発明を「全体として」捉え、基準時点の当業者を基準にするため、発明を知った後の hindsight だけで「簡単だった」と評価するのは不適切である。obvious to try も「試せる選択肢があった」というだけで自動的に § 103 obvious になるという意味ではなく、USPTO MPEP が示すように、認識された問題、有限個の特定された予測可能な解決策、合理的な成功期待などの事実認定が必要になる。EPC Article 56 と英国 Patents Act 1977 section 3 も、先行技術に照らして当業者にとって obvious でないことを inventive step の判断に用いるが、米国 § 103 の枠組み、EPO の problem-solution approach、英国の判例上のテストを単純に同一視しない。日常語の obvious to everyone を、特許法上の skilled person を基準とする obvious と置き換えない。  
 
 【反意語】
 
 ・nonobvious  
 定義: 米国特許法で、当業者にとって先行技術から容易には想到できない。  
 頻度: 〈3/10〉  
-違い: obvious と同じ § 103 の判断軸上で直接反対に位置する専門語で、nonobviousness は特許性の要件の一つを表す。  
+違い: obvious と同じ § 103 の判断軸上で直接反対に位置する専門語で、nonobviousness は特許性の要件の一つを表す。EPC・英国では同じ概念領域を主に inventive step の有無として表現する。  
 例: The applicant argued that the claimed improvement was nonobvious over the cited prior art.  
 訳: 出願人は、そのクレームされた改良は引用された先行技術に対して非自明であると主張した。  
