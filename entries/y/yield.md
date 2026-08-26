@@ -699,4 +699,3 @@ yield の核は、手元にあるもの・抵抗・優先権を外へ返し、�
 違い: yield が資産や活動からの返りを表すのに対し、loss は投入したものを回収できない結果を表す。  
 例: The company reported a loss instead of the expected profit.  
 訳: その会社は予想された利益ではなく損失を報告した。  
-
