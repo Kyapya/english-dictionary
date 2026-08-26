@@ -19,11 +19,11 @@
     "candidate_pages": 4
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "source_inventory_complete",
   "started_at": "2026-08-26T12:45:08Z",
   "deadline_at": "2026-08-26T13:45:08Z",
   "pre_draft_deadline_at": "2026-08-26T13:05:08Z",
-  "last_heartbeat_at": "2026-08-26T12:54:26Z",
+  "last_heartbeat_at": "2026-08-26T13:05:55.391Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-26T12:46:00Z",
@@ -44,6 +44,11 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-26T12:54:26Z",
       "notes": "v5 draft saved on the dedicated branch"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-26T13:05:55.391Z",
+      "notes": "source-first inventory and evidence links stored"
     }
   ],
   "stop_reason": "",
