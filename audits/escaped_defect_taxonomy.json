@@ -30,6 +30,10 @@
       "description": "英文と訳文で意味役割、修飾範囲、程度、時制、レジスターが保存されない誤り。"
     },
     {
+      "id": "example_sense_attribution_mismatch",
+      "description": "見出し語の例文が所属語義として解釈できない、別語義として読む方が自然、または複数語義で同程度に自然なのに判別語がない誤り。"
+    },
+    {
       "id": "absolute_scope_counterexample",
       "description": "必ず・のみ・不可などの絶対表現に対する反例探索が不足する誤り。"
     },

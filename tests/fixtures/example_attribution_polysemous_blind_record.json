@@ -1,0 +1,44 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "53a7900dafb83d0632270cada4b24b6339fdc8440264de59789612f5b4fe64e3",
+  "blind_request_sha256": "66ce53a3e626c59141cf1281144b9ce431887386ba52d20ffceeaf989aa33ead",
+  "recorded_at": "2026-08-26T10:00:00+09:00",
+  "attributions": [
+    {
+      "example_id": "example:001",
+      "classification": "ambiguous",
+      "candidate_sense_ids": ["sense:001", "sense:002", "sense:003"],
+      "discriminating_terms": [],
+      "rationale": "人目的語と期間だけでは物理的追跡、案件対応、求愛のどれかを決められない。"
+    },
+    {
+      "example_id": "example:002",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["fleeing", "across the valley", "caught him"],
+      "rationale": "空間移動と捕縛を示す語句が物理的追跡を一意にする。"
+    },
+    {
+      "example_id": "example:003",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["auditor", "missing invoices", "records arrived"],
+      "rationale": "監査資料の回収という業務文脈が案件対応を一意にする。"
+    },
+    {
+      "example_id": "example:004",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["journalist", "for documents", "records arrived"],
+      "rationale": "資料入手まで情報源に対応する文脈であり、求愛ではない。"
+    },
+    {
+      "example_id": "example:005",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["romantically", "dates"],
+      "rationale": "恋愛目的とデートを明示しており、求愛に一意に帰属する。"
+    }
+  ]
+}

@@ -104,6 +104,7 @@ def build_plan(
             (check_spec,),
             (
                 "router-selected entry sections",
+                "example-attribution masked stage 1 before ownership alignment",
                 "source inventory for evidence pass",
                 "machine validator findings",
             ),
@@ -197,23 +198,35 @@ def plan_payload(headword: str, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         for item in router.get("passes", []):
             specification = str(item["specification"])
             specification_path = repo_root / specification
-            pass_plans.append(
-                {
-                    "id": item["id"],
-                    "specification": specification,
-                    "taxonomy_ids": list(item["taxonomy_ids"]),
-                    "input_sections": list(item["sections"]),
-                    "output_path": (
-                        f"{_artifact_root(headword)}/check_passes/"
-                        f"{item['id']}.json"
-                    ),
-                    "instruction_bytes": (
-                        specification_path.stat().st_size
-                        if specification_path.is_file()
-                        else 0
-                    ),
-                }
-            )
+            pass_plan = {
+                "id": item["id"],
+                "specification": specification,
+                "taxonomy_ids": list(item["taxonomy_ids"]),
+                "input_sections": list(item["sections"]),
+                "output_path": (
+                    f"{_artifact_root(headword)}/check_passes/"
+                    f"{item['id']}.json"
+                ),
+                "instruction_bytes": (
+                    specification_path.stat().st_size
+                    if specification_path.is_file()
+                    else 0
+                ),
+            }
+            if item["id"] == "example-attribution":
+                pass_plan.update(
+                    {
+                        "stage1_output_path": (
+                            f"{_artifact_root(headword)}/check_passes/"
+                            "example-attribution.blind-record.json"
+                        ),
+                        "alignment_key_path": (
+                            f"{_artifact_root(headword)}/check_passes/"
+                            "example-attribution.alignment-key.json"
+                        ),
+                    }
+                )
+            pass_plans.append(pass_plan)
     return {
         "orchestrator_version": ORCHESTRATOR_VERSION,
         "headword": headword,

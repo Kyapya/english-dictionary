@@ -6,6 +6,7 @@ import json
 import re
 import sys
 from dataclasses import dataclass
+from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
 
@@ -27,6 +28,25 @@ class LocatedLine:
 
 def _digest_bytes(value: bytes) -> str:
     return hashlib.sha256(value).hexdigest()
+
+
+def _digest_json(value: Any) -> str:
+    encoded = json.dumps(
+        value, ensure_ascii=False, sort_keys=True, separators=(",", ":")
+    ).encode("utf-8")
+    return _digest_bytes(encoded)
+
+
+def _parse_timestamp(value: Any) -> datetime | None:
+    if not isinstance(value, str) or not value.strip():
+        return None
+    try:
+        parsed = datetime.fromisoformat(value.replace("Z", "+00:00"))
+    except ValueError:
+        return None
+    if parsed.tzinfo is None:
+        return None
+    return parsed
 
 
 def load_router(path: Path = ROUTER_PATH) -> dict[str, Any]:
@@ -52,6 +72,35 @@ def load_taxonomy(path: Path = TAXONOMY_PATH) -> set[str]:
     }
 
 
+def _router_table_rows(path: Path) -> list[dict[str, Any]]:
+    rows: list[dict[str, Any]] = []
+    in_table = False
+    for raw in path.read_text(encoding="utf-8").splitlines():
+        stripped = raw.strip()
+        if stripped == "## パス対応表":
+            in_table = True
+            continue
+        if in_table and stripped.startswith("## "):
+            break
+        if not in_table or not stripped.startswith("|"):
+            continue
+        cells = [cell.strip() for cell in stripped.strip("|").split("|")]
+        if len(cells) != 3 or cells[0] in {"pass", "---"}:
+            continue
+        rows.append(
+            {
+                "id": cells[0],
+                "taxonomy_ids": [
+                    value.strip() for value in cells[1].split(",") if value.strip()
+                ],
+                "sections": [
+                    value.strip() for value in cells[2].split(",") if value.strip()
+                ],
+            }
+        )
+    return rows
+
+
 def validate_router(
     router: dict[str, Any],
     *,
@@ -75,6 +124,20 @@ def validate_router(
     passes = router.get("passes")
     if not isinstance(passes, list) or not passes:
         return [*errors, "router passes must be a non-empty list"]
+    router_path = repo_root / "prompts" / "check_router_v6.md"
+    if router_path.is_file():
+        table_rows = _router_table_rows(router_path)
+        json_rows = [
+            {
+                "id": item.get("id"),
+                "taxonomy_ids": item.get("taxonomy_ids"),
+                "sections": item.get("sections"),
+            }
+            for item in passes
+            if isinstance(item, dict)
+        ]
+        if table_rows != json_rows:
+            errors.append("router pass table and machine-readable JSON must match exactly")
     seen_passes: set[str] = set()
     owners: dict[str, str] = {}
     for item in passes:
@@ -241,6 +304,179 @@ def extract_sections(text: str) -> dict[str, list[dict[str, Any]]]:
     }
 
 
+def _example_attribution_material(text: str) -> dict[str, list[dict[str, Any]]]:
+    """Extract sense inventory plus example-only and private ownership views.
+
+    The public example view deliberately excludes the owning block, collocation
+    heading, and usage line.  The private ownership view is emitted separately
+    so a coordinator can persist stage 1 before making stage 2 available.
+    """
+    body_start, body_lines = _split_front_matter(text)
+    main = _main_sections(body_start, body_lines)
+    blocks = _sense_blocks(main.get("senses", []))
+    senses: list[dict[str, Any]] = []
+    examples: list[dict[str, Any]] = []
+    ownership: list[dict[str, Any]] = []
+    usage_notes: list[dict[str, Any]] = []
+    example_index = 0
+    for sense_index, block in enumerate(blocks, start=1):
+        if not block:
+            continue
+        sense_id = f"sense:{sense_index:03d}"
+        definition = ""
+        for line in block[1:]:
+            stripped = line.text.strip()
+            if stripped.startswith("【日本語訳・定義】"):
+                definition = stripped.removeprefix("【日本語訳・定義】").strip()
+                break
+        senses.append(
+            {
+                "sense_id": sense_id,
+                "line": block[0].number,
+                "label": block[0].text.strip(),
+                "definition": definition,
+            }
+        )
+        for line in block[1:]:
+            stripped = line.text.strip()
+            if stripped.startswith("【語法・注意】"):
+                usage_notes.append(
+                    {
+                        "sense_id": sense_id,
+                        "line": line.number,
+                        "text": stripped.removeprefix("【語法・注意】").strip(),
+                    }
+                )
+
+        in_collocations = False
+        group: list[LocatedLine] = []
+
+        def flush_group() -> None:
+            nonlocal example_index, group
+            if not group:
+                return
+            example_line = next(
+                (item for item in group if item.text.strip().startswith("例:")),
+                None,
+            )
+            translation_line = next(
+                (item for item in group if item.text.strip().startswith("訳:")),
+                None,
+            )
+            if example_line is not None:
+                example_index += 1
+                example_id = f"example:{example_index:03d}"
+                example_text = example_line.text.strip().removeprefix("例:").strip()
+                translation = (
+                    translation_line.text.strip().removeprefix("訳:").strip()
+                    if translation_line is not None
+                    else ""
+                )
+                examples.append(
+                    {
+                        "example_id": example_id,
+                        "line": example_line.number,
+                        "example": example_text,
+                        "translation": translation,
+                    }
+                )
+                ownership.append(
+                    {
+                        "example_id": example_id,
+                        "assigned_sense_id": sense_id,
+                        "anchor": {
+                            "section": "collocations_examples",
+                            "line_start": example_line.number,
+                            "line_end": example_line.number,
+                            "exact_quote": example_line.text,
+                        },
+                    }
+                )
+            group = []
+
+        for line in block[1:]:
+            stripped = line.text.strip()
+            if stripped == "【コロケーション】":
+                flush_group()
+                in_collocations = True
+                continue
+            if stripped.startswith("【"):
+                if in_collocations:
+                    flush_group()
+                in_collocations = False
+                continue
+            if not in_collocations or not stripped:
+                continue
+            if stripped.startswith("・") and group:
+                flush_group()
+            group.append(line)
+        flush_group()
+    return {
+        "senses": senses,
+        "examples": examples,
+        "ownership": ownership,
+        "usage_notes": usage_notes,
+    }
+
+
+def _example_attribution_request(
+    text: str,
+    body_bytes: bytes,
+    check_pass: dict[str, Any],
+    finding_schema: dict[str, Any],
+) -> dict[str, Any]:
+    material = _example_attribution_material(text)
+    return {
+        "schema_version": "example_attribution_blind_request_v1",
+        "pass_id": check_pass["id"],
+        "taxonomy_ids": list(check_pass["taxonomy_ids"]),
+        "specification": check_pass["specification"],
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "input_sections": {
+            "sense_structure": material["senses"],
+            "collocations_examples": material["examples"],
+        },
+        "blind_protocol": {
+            "stage": 1,
+            "withheld_fields": [
+                "assigned_sense_id",
+                "collocation_heading",
+                "usage_line",
+            ],
+            "required_output_schema": "example_attribution_blind_record_v1",
+        },
+        "finding_schema": finding_schema,
+    }
+
+
+def build_example_attribution_alignment_key(
+    entry_path: Path,
+    *,
+    repo_root: Path = REPO_ROOT,
+    router_path: Path | None = None,
+) -> dict[str, Any]:
+    raw = entry_path.resolve().read_bytes()
+    text = raw.decode("utf-8")
+    _, body_lines = _split_front_matter(text)
+    body_bytes = "\n".join(body_lines).encode("utf-8")
+    router = load_router(router_path or (repo_root / "prompts" / "check_router_v6.md"))
+    check_pass = next(
+        item for item in router["passes"] if item["id"] == "example-attribution"
+    )
+    request = _example_attribution_request(
+        text, body_bytes, check_pass, router["finding_schema"]
+    )
+    material = _example_attribution_material(text)
+    return {
+        "schema_version": "example_attribution_alignment_key_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "blind_request_sha256": _digest_json(request),
+        "examples": material["ownership"],
+        "sense_usage_notes": material["usage_notes"],
+    }
+
+
 def build_bundles(
     entry_path: Path,
     *,
@@ -263,6 +499,13 @@ def build_bundles(
         raise ValueError("; ".join(errors))
     bundles: list[dict[str, Any]] = []
     for check_pass in router["passes"]:
+        if check_pass["id"] == "example-attribution":
+            bundles.append(
+                _example_attribution_request(
+                    text, body_bytes, check_pass, router["finding_schema"]
+                )
+            )
+            continue
         selected = {
             section: sections.get(section, [])
             for section in check_pass["sections"]
@@ -281,8 +524,185 @@ def build_bundles(
     return bundles
 
 
+def validate_blind_attribution_record(
+    record: Any,
+    request: dict[str, Any] | None = None,
+) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(record, dict):
+        return ["blind_attribution_record must be an object"]
+    if record.get("schema_version") != "example_attribution_blind_record_v1":
+        errors.append(
+            "blind_attribution_record.schema_version must be "
+            "example_attribution_blind_record_v1"
+        )
+    if record.get("pass_id") != "example-attribution":
+        errors.append("blind_attribution_record.pass_id must be example-attribution")
+    recorded_at = _parse_timestamp(record.get("recorded_at"))
+    if recorded_at is None:
+        errors.append("blind_attribution_record.recorded_at must be an aware ISO timestamp")
+    body_hash = record.get("input_body_sha256")
+    if not isinstance(body_hash, str) or re.fullmatch(r"[0-9a-f]{64}", body_hash) is None:
+        errors.append("blind_attribution_record.input_body_sha256 must be a sha256")
+    request_hash = record.get("blind_request_sha256")
+    if not isinstance(request_hash, str) or re.fullmatch(r"[0-9a-f]{64}", request_hash) is None:
+        errors.append("blind_attribution_record.blind_request_sha256 must be a sha256")
+
+    known_examples: set[str] | None = None
+    known_senses: set[str] | None = None
+    if request is not None:
+        if body_hash != request.get("input_body_sha256"):
+            errors.append("blind attribution body hash does not match its stage 1 request")
+        if request_hash != _digest_json(request):
+            errors.append("blind attribution request hash does not match stage 1 input")
+        sections = request.get("input_sections", {})
+        known_examples = {
+            str(item.get("example_id"))
+            for item in sections.get("collocations_examples", [])
+            if isinstance(item, dict) and item.get("example_id")
+        }
+        known_senses = {
+            str(item.get("sense_id"))
+            for item in sections.get("sense_structure", [])
+            if isinstance(item, dict) and item.get("sense_id")
+        }
+
+    attributions = record.get("attributions")
+    if not isinstance(attributions, list):
+        return [*errors, "blind_attribution_record.attributions must be a list"]
+    seen: set[str] = set()
+    for index, item in enumerate(attributions):
+        label = f"blind_attribution_record.attributions[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        example_id = str(item.get("example_id", ""))
+        if not example_id or example_id in seen:
+            errors.append(f"{label}.example_id is missing or duplicated")
+        seen.add(example_id)
+        classification = item.get("classification")
+        if classification not in {"unique", "ambiguous"}:
+            errors.append(f"{label}.classification must be unique or ambiguous")
+        candidates = item.get("candidate_sense_ids")
+        if not isinstance(candidates, list) or not all(
+            isinstance(value, str) and value for value in candidates
+        ):
+            errors.append(f"{label}.candidate_sense_ids must be a non-empty string list")
+            candidates = []
+        elif len(candidates) != len(set(candidates)):
+            errors.append(f"{label}.candidate_sense_ids contains duplicates")
+        if classification == "unique" and len(candidates) != 1:
+            errors.append(f"{label} unique classification requires exactly one candidate")
+        if classification == "ambiguous" and len(candidates) < 2:
+            errors.append(f"{label} ambiguous classification requires at least two candidates")
+        terms = item.get("discriminating_terms")
+        if not isinstance(terms, list) or not all(
+            isinstance(value, str) and value for value in terms
+        ):
+            errors.append(f"{label}.discriminating_terms must be a string list")
+            terms = []
+        if classification == "unique" and not terms:
+            errors.append(f"{label} unique classification requires discriminating terms")
+        if classification == "ambiguous" and terms:
+            errors.append(f"{label} ambiguous classification must not invent discriminating terms")
+        if not isinstance(item.get("rationale"), str) or not item["rationale"].strip():
+            errors.append(f"{label}.rationale is required")
+        if known_senses is not None:
+            unknown = sorted(set(candidates) - known_senses)
+            if unknown:
+                errors.append(f"{label} references unknown senses: {', '.join(unknown)}")
+    if known_examples is not None and seen != known_examples:
+        missing = sorted(known_examples - seen)
+        extra = sorted(seen - known_examples)
+        if missing:
+            errors.append("blind attribution record is missing examples: " + ", ".join(missing))
+        if extra:
+            errors.append("blind attribution record has unknown examples: " + ", ".join(extra))
+    return errors
+
+
+def _attribution_findings(
+    record: dict[str, Any], alignment_key: dict[str, Any]
+) -> list[dict[str, Any]]:
+    by_example = {
+        str(item["example_id"]): item for item in record.get("attributions", [])
+    }
+    findings: list[dict[str, Any]] = []
+    for owner in alignment_key.get("examples", []):
+        example_id = str(owner["example_id"])
+        attribution = by_example[example_id]
+        candidates = list(attribution["candidate_sense_ids"])
+        assigned = str(owner["assigned_sense_id"])
+        if attribution["classification"] == "ambiguous":
+            rationale = (
+                f"段階1で{', '.join(candidates)}が同程度に自然と判定され、"
+                "例文内に帰属を一意にする判別語がない。"
+            )
+            direction = "判別語の追加"
+        elif candidates[0] != assigned:
+            rationale = (
+                f"段階1の最も自然な帰属は{candidates[0]}だが、"
+                f"実際の所属は{assigned}である。"
+            )
+            direction = "語義ブロック間の移動"
+        else:
+            continue
+        findings.append(
+            {
+                "taxonomy_id": "example_sense_attribution_mismatch",
+                "location": dict(owner["anchor"]),
+                "severity": "blocking",
+                "rationale": rationale,
+                "evidence_link_ids": [],
+                "suggested_direction": direction,
+            }
+        )
+    return findings
+
+
+def reconcile_example_attribution(
+    request: dict[str, Any],
+    record: dict[str, Any],
+    alignment_key: dict[str, Any],
+    *,
+    aligned_at: str,
+) -> dict[str, Any]:
+    errors = validate_blind_attribution_record(record, request)
+    if alignment_key.get("schema_version") != "example_attribution_alignment_key_v1":
+        errors.append(
+            "alignment key schema_version must be example_attribution_alignment_key_v1"
+        )
+    for key in ("input_body_sha256", "blind_request_sha256"):
+        expected = (
+            request.get("input_body_sha256")
+            if key == "input_body_sha256"
+            else _digest_json(request)
+        )
+        if alignment_key.get(key) != expected:
+            errors.append(f"alignment key {key} does not match stage 1 request")
+    recorded = _parse_timestamp(record.get("recorded_at"))
+    aligned = _parse_timestamp(aligned_at)
+    if aligned is None:
+        errors.append("aligned_at must be an aware ISO timestamp")
+    elif recorded is not None and aligned <= recorded:
+        errors.append("aligned_at must be later than the blind attribution record")
+    if errors:
+        raise ValueError("; ".join(errors))
+    return {
+        "pass_id": "example-attribution",
+        "blind_attribution_record": record,
+        "aligned_at": aligned_at,
+        "findings": _attribution_findings(record, alignment_key),
+        "unrouted_observations": [],
+    }
+
+
 def validate_pass_output(
-    output: dict[str, Any], router: dict[str, Any]
+    output: dict[str, Any],
+    router: dict[str, Any],
+    *,
+    entry_path: Path | None = None,
+    repo_root: Path = REPO_ROOT,
 ) -> list[str]:
     errors: list[str] = []
     by_id = {
@@ -319,6 +739,63 @@ def validate_pass_output(
             for key in ("section", "line_start", "line_end", "exact_quote"):
                 if location.get(key) in (None, ""):
                     errors.append(f"{label}.location.{key} is required")
+        if finding.get("taxonomy_id") == "example_sense_attribution_mismatch":
+            if finding.get("severity") != "blocking":
+                errors.append(f"{label}.severity must be blocking for example attribution")
+            if finding.get("suggested_direction") not in {
+                "例文置換",
+                "語義ブロック間の移動",
+                "判別語の追加",
+            }:
+                errors.append(f"{label}.suggested_direction is invalid")
+    if pass_id == "example-attribution":
+        request: dict[str, Any] | None = None
+        alignment_key: dict[str, Any] | None = None
+        if entry_path is not None:
+            text = entry_path.resolve().read_text(encoding="utf-8")
+            _, body_lines = _split_front_matter(text)
+            request = _example_attribution_request(
+                text,
+                "\n".join(body_lines).encode("utf-8"),
+                by_id["example-attribution"],
+                router["finding_schema"],
+            )
+            alignment_key = build_example_attribution_alignment_key(
+                entry_path, repo_root=repo_root
+            )
+        record = output.get("blind_attribution_record")
+        errors.extend(validate_blind_attribution_record(record, request))
+        recorded = _parse_timestamp(
+            record.get("recorded_at") if isinstance(record, dict) else None
+        )
+        aligned = _parse_timestamp(output.get("aligned_at"))
+        if aligned is None:
+            errors.append("aligned_at must be an aware ISO timestamp")
+        elif recorded is not None and aligned <= recorded:
+            errors.append("aligned_at must be later than blind attribution record")
+        if request is not None and alignment_key is not None and isinstance(record, dict):
+            if alignment_key.get("blind_request_sha256") != _digest_json(request):
+                errors.append("alignment key does not bind the current stage 1 request")
+            expected = _attribution_findings(record, alignment_key)
+            actual_anchors = {
+                (
+                    item.get("location", {}).get("line_start"),
+                    item.get("location", {}).get("exact_quote"),
+                )
+                for item in findings
+                if item.get("taxonomy_id") == "example_sense_attribution_mismatch"
+                and isinstance(item.get("location"), dict)
+            }
+            for item in expected:
+                anchor = (
+                    item["location"]["line_start"],
+                    item["location"]["exact_quote"],
+                )
+                if anchor not in actual_anchors:
+                    errors.append(
+                        "example attribution output is missing required blocking finding "
+                        f"at line {anchor[0]}"
+                    )
     return errors
 
 
@@ -477,6 +954,15 @@ def main() -> int:
     bundle.add_argument("--output-dir", required=True, type=Path)
     validate = sub.add_parser("validate-output")
     validate.add_argument("output", type=Path)
+    validate.add_argument("--entry", type=Path)
+    blind = sub.add_parser("validate-blind-record")
+    blind.add_argument("entry", type=Path)
+    blind.add_argument("record", type=Path)
+    reconcile = sub.add_parser("reconcile-example-attribution")
+    reconcile.add_argument("entry", type=Path)
+    reconcile.add_argument("record", type=Path)
+    reconcile.add_argument("--output", required=True, type=Path)
+    reconcile.add_argument("--aligned-at")
     regression = sub.add_parser("regression")
     regression.add_argument("cases", type=Path)
     regression.add_argument("--output", type=Path)
@@ -486,8 +972,48 @@ def main() -> int:
         return _print_errors(validate_router(router))
     if args.command == "bundle":
         paths = write_bundles(build_bundles(args.entry), args.output_dir)
+        alignment_path = args.output_dir / "example-attribution.alignment-key.json"
+        alignment_path.write_text(
+            json.dumps(
+                build_example_attribution_alignment_key(args.entry),
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        paths.append(alignment_path)
         for path in paths:
             print(path)
+        return 0
+    if args.command == "validate-blind-record":
+        request = next(
+            item
+            for item in build_bundles(args.entry)
+            if item["pass_id"] == "example-attribution"
+        )
+        record = json.loads(args.record.read_text(encoding="utf-8"))
+        return _print_errors(validate_blind_attribution_record(record, request))
+    if args.command == "reconcile-example-attribution":
+        request = next(
+            item
+            for item in build_bundles(args.entry)
+            if item["pass_id"] == "example-attribution"
+        )
+        record = json.loads(args.record.read_text(encoding="utf-8"))
+        aligned_at = args.aligned_at or datetime.now(timezone.utc).isoformat()
+        output = reconcile_example_attribution(
+            request,
+            record,
+            build_example_attribution_alignment_key(args.entry),
+            aligned_at=aligned_at,
+        )
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(
+            json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(args.output)
         return 0
     if args.command == "regression":
         results = replay_regression_cases(args.cases)
@@ -500,7 +1026,9 @@ def main() -> int:
             print(log, end="")
         return 0
     output = json.loads(args.output.read_text(encoding="utf-8"))
-    return _print_errors(validate_pass_output(output, router))
+    return _print_errors(
+        validate_pass_output(output, router, entry_path=args.entry)
+    )
 
 
 if __name__ == "__main__":

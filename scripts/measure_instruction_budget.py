@@ -89,7 +89,7 @@ def measurement(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
     return {
         "schema_version": SCHEMA_VERSION,
         "record_id": "process-refactor-v1",
-        "measured_at": "2026-08-25",
+        "measured_at": "2026-08-26",
         "method": (
             "各構成で1語の処理に必読となる指示ファイルをbytesで合計し、"
             "v6は実行境界ごとのbundleも同じファイル実体から計測する。"
