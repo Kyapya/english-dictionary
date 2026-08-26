@@ -23,7 +23,7 @@
   "started_at": "2026-08-26T12:05:45Z",
   "deadline_at": "2026-08-26T13:05:45Z",
   "pre_draft_deadline_at": "2026-08-26T12:25:45Z",
-  "last_heartbeat_at": "2026-08-26T12:19:00Z",
+  "last_heartbeat_at": "2026-08-26T12:27:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-26T12:06:00Z",
@@ -47,32 +47,32 @@
     },
     {
       "stage": "source_inventory_complete",
-      "recorded_at": "2026-08-26T12:06:40Z",
+      "recorded_at": "2026-08-26T12:22:45Z",
       "notes": "source-first inventory and evidence links stored"
     },
     {
       "stage": "normal_review_complete",
-      "recorded_at": "2026-08-26T12:18:05Z",
+      "recorded_at": "2026-08-26T12:23:10Z",
       "notes": "seven independent checker pass outputs, including example attribution, stored"
     },
     {
       "stage": "cold_review_complete",
-      "recorded_at": "2026-08-26T12:18:10Z",
+      "recorded_at": "2026-08-26T12:23:30Z",
       "notes": "cold review and resolutions stored"
     },
     {
       "stage": "blind_seal_complete",
-      "recorded_at": "2026-08-26T12:18:20Z",
-      "notes": "final blind output sealed before final review"
+      "recorded_at": "2026-08-26T12:26:23Z",
+      "notes": "final blind output sealed before final review in immutable recheck cycle"
     },
     {
       "stage": "final_review_complete",
-      "recorded_at": "2026-08-26T12:18:22Z",
+      "recorded_at": "2026-08-26T12:26:24Z",
       "notes": "final review passed with no blockers"
     },
     {
       "stage": "completed",
-      "recorded_at": "2026-08-26T12:19:00Z",
+      "recorded_at": "2026-08-26T12:27:00Z",
       "notes": "checked entry, audit manifest, and queue state synchronized"
     }
   ],
