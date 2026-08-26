@@ -2,74 +2,74 @@
   "schema_version": "content_audit_v4",
   "generated_by": "generate_audit_manifest_v1",
   "entry_path": "entries/p/pursue.md",
-  "cycle_id": "20260825T160321Z-6c8f4a21",
-  "cycle_dir": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21",
-  "body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+  "cycle_id": "20260826T120545Z-a7c39d12",
+  "cycle_dir": "audits/runs/p/pursue/20260826T120545Z-a7c39d12",
+  "body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
   "raw_outputs": {
     "source_inventory": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/source_inventory.json",
-      "sha256": "fdd4b3162a534a0b01dbec3652979ccc69af803186fd3a9aa0b93bc684d2fd84",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/source_inventory.json",
+      "sha256": "ca2b1fd32fc146a5d94508b4f2ac27dd19402ad51939770abc04c197235fa0fe",
       "stage": "source_inventory",
-      "run_id": "source-pursue-20260825T161100Z",
-      "context_id": "source-pursue-context-20260825T161100Z",
-      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "run_id": "source-pursue-20260826T120200Z",
+      "context_id": "source-pursue-context-20260826T120200Z",
+      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
       "prompt_sha256": "0949d8a2afb7f9c3270b562385bafc5a7ca2c7fdde00050a77b8e4558ba57bf2",
-      "recorded_at": "2026-08-25T16:11:45Z"
+      "recorded_at": "2026-08-26T12:02:45Z"
     },
     "normal_review": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/pass_findings.json",
-      "sha256": "61116f4262004256e02e341a3f886e6265958d72c1ea1ac5cd436c3f870c095d",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/pass_findings.json",
+      "sha256": "5d46e50a75b822c4129e58a64f56cd5a1db7432300075da8b713b5a2bc9a0d2c",
       "stage": "normal_review",
-      "run_id": "normal-pursue-20260825T161200Z",
-      "context_id": "normal-pursue-context-20260825T161200Z",
-      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "run_id": "normal-pursue-20260826T120300Z",
+      "context_id": "normal-pursue-context-20260826T120300Z",
+      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
       "prompt_sha256": "f7cd02d139c86582f18c934a8a2e810b4f37f4948bb0183bdfde0e4335d7a44c",
-      "recorded_at": "2026-08-25T16:12:00Z"
+      "recorded_at": "2026-08-26T12:03:00Z"
     },
     "cold_review": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/cold_review.json",
-      "sha256": "9118a44a0886376e8bd439fca39d9f75557bd291690560ad6cc083ba321a7348",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/cold_review.json",
+      "sha256": "8f00e868f552bce2a7363f84ade9b12b81e8e538a7d85dbc7d07e7f72ee3bab4",
       "stage": "cold_review",
-      "run_id": "cold-pursue-20260825T161230Z",
-      "context_id": "cold-pursue-context-20260825T161230Z",
-      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "run_id": "cold-pursue-20260826T120400Z",
+      "context_id": "cold-pursue-context-20260826T120400Z",
+      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
       "prompt_sha256": "cb72dcc41cec69567196f1f4df3cf40edd08ab27015739c7807636a286fa11d7",
-      "recorded_at": "2026-08-25T16:12:30Z"
+      "recorded_at": "2026-08-26T12:04:00Z"
     },
     "resolutions": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/resolutions.json",
-      "sha256": "e88dd7e3b9f49454e22e4f7f8971d7e74ff0ef36ae2a76625afb1d3fb651dac0",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/resolutions.json",
+      "sha256": "fb5438c0cd6d3702628e17afd946012673e159a3c1156fff61f2fe1c08df0236",
       "stage": "resolutions",
-      "run_id": "normal-pursue-20260825T161200Z",
-      "context_id": "normal-pursue-context-20260825T161200Z",
-      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "run_id": "normal-pursue-20260826T120300Z",
+      "context_id": "normal-pursue-context-20260826T120300Z",
+      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
       "prompt_sha256": "7d5b7fa89efd6d05e4b6b23d8b0965f8f9d00acb202bc6c498f063ed7596f22d",
-      "recorded_at": "2026-08-25T16:14:00Z"
+      "recorded_at": "2026-08-26T12:06:00Z"
     },
     "final_blind": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/final_blind.json",
-      "sha256": "4f404e4b8c4fc5e01fac9a8a6e38485fce87b1aa16b6235e5c8facde3160229f",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/final_blind.json",
+      "sha256": "9da4cf8e757d5711a880db325bbecb98ca3b5ae7aa6cbf17c53295b7de5ba40e",
       "stage": "final_blind",
-      "run_id": "blind-pursue-20260825T161300Z",
-      "context_id": "blind-pursue-context-20260825T161300Z",
-      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "run_id": "blind-pursue-20260826T120500Z",
+      "context_id": "blind-pursue-context-20260826T120500Z",
+      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
       "prompt_sha256": "71852446a1e1f8ead61d71e0d68c891c3e753d8476e72ce6998af22468a75d38",
-      "recorded_at": "2026-08-25T16:13:00Z"
+      "recorded_at": "2026-08-26T12:05:00Z"
     },
     "blind_seal": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/blind_seal.json",
-      "sha256": "182add562dc8887e088e999ec4f4b738877282679b95743c50f9dd06fadd3f2d",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/blind_seal.json",
+      "sha256": "971be61e1fb25b2c3f80ae0a2d0d80491015ed6bf9a7630ebc480a16e154424a",
       "stage": "blind_seal"
     },
     "final_review": {
-      "path": "audits/runs/p/pursue/20260825T160321Z-6c8f4a21/final_review.json",
-      "sha256": "cdf6e93c79ef40c6f9e207440bbe2b8712ec965f58a2b9b4343f6d06af6f6bdd",
+      "path": "audits/runs/p/pursue/20260826T120545Z-a7c39d12/final_review.json",
+      "sha256": "2268e42f7a7fc8085be3370ad0e6512a9ec7b5b32319f441f1d7a950179cd779",
       "stage": "final_review",
-      "run_id": "blind-pursue-20260825T161300Z",
-      "context_id": "blind-pursue-context-20260825T161300Z",
-      "input_body_sha256": "958fb1e39b604f81a12e0dbd341674f9739d4d21fe4212ba0ccc1b9e8856f1c4",
+      "run_id": "blind-pursue-20260826T120500Z",
+      "context_id": "blind-pursue-context-20260826T120500Z",
+      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
       "prompt_sha256": "da33b93133eeb78295502e14cf03c378cbbfeace6dd1b134d14c4713d8d710a3",
-      "recorded_at": "2026-08-25T16:24:14.427544Z"
+      "recorded_at": "2026-08-26T12:08:18.824703Z"
     }
   },
   "source_first_audit": {
@@ -94,8 +94,8 @@
     "stop_reason": "coverage_axes_closed",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-08-25T16:11:20Z",
-    "article_comparison_started_at": "2026-08-25T16:11:40Z",
+    "inventory_completed_at": "2026-08-26T12:02:20Z",
+    "article_comparison_started_at": "2026-08-26T12:02:40Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -595,7 +595,7 @@
       "The independent normal inventory and sealed blind inventory were both checked.",
       "Source-first coverage is complete with six integrated unions and no unresolved findings."
     ],
-    "reviewed_at": "2026-08-25T16:24:14.427544Z",
-    "blind_output_sha256": "143fbf2c11f6fa670f0bfcc293b007a4e1a1410acfc5d41a6f89931cdc02996b"
+    "reviewed_at": "2026-08-26T12:08:18.824703Z",
+    "blind_output_sha256": "5aa4af0bf1581c7ae1c07fb285403b8031c646af42ab1924facb990242e87b39"
   }
 }
