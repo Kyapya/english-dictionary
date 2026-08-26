@@ -18,12 +18,12 @@
     "research_queries": 4,
     "candidate_pages": 4
   },
-  "status": "in_progress",
-  "stage": "final_review_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-26T12:45:08Z",
   "deadline_at": "2026-08-26T13:45:08Z",
   "pre_draft_deadline_at": "2026-08-26T13:05:08Z",
-  "last_heartbeat_at": "2026-08-26T13:08:02.016Z",
+  "last_heartbeat_at": "2026-08-26T13:08:14.371Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-26T12:46:00Z",
@@ -69,6 +69,11 @@
       "stage": "final_review_complete",
       "recorded_at": "2026-08-26T13:08:02.016Z",
       "notes": "final review passed with no blockers"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-26T13:08:14.371Z",
+      "notes": "checked entry, audit manifest, and queue state synchronized"
     }
   ],
   "stop_reason": "",
