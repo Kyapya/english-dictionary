@@ -1,0 +1,637 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "pursue",
+  "run_id": "source-pursue-20260826T120200Z",
+  "context_id": "source-pursue-context-20260826T120200Z",
+  "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
+  "prompt_sha256": "0949d8a2afb7f9c3270b562385bafc5a7ca2c7fdde00050a77b8e4558ba57bf2",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-26T12:02:45Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "The headword is a common general verb with bounded specialist and etymological coverage.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 15,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-26T12:02:20Z",
+    "article_comparison_started_at": "2026-08-26T12:02:40Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-010",
+          "F-011",
+          "F-012"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-013"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-013"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009",
+          "F-014",
+          "F-015"
+        ],
+        "notes": "Covered by the independent source inventory and reconciled into the article scope."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Merriam-Webster",
+        "locator": "https://www.merriam-webster.com/dictionary/pursue",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_a",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "follow in order to catch, overtake, defeat, or kill",
+            "source_detail": "The definition explicitly describes following a person or animal to catch or defeat it."
+          },
+          {
+            "id": "F-002",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "seek or employ measures to obtain or accomplish a goal",
+            "source_detail": "The dictionary definition covers seeking a goal, result, or activity over time."
+          },
+          {
+            "id": "F-003",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "engage in or follow up a case or matter",
+            "source_detail": "The entry records pursuing a matter or case as continuing active involvement."
+          },
+          {
+            "id": "F-004",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "proceed along a course or route",
+            "source_detail": "The definition includes moving along a chosen course, route, or line."
+          },
+          {
+            "id": "F-005",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "continue to afflict or haunt",
+            "source_detail": "The reference gives the figurative pattern of a problem or memory continuing to affect someone."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner's Dictionaries",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/pursue",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_b",
+        "facts": [
+          {
+            "id": "F-006",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "follow or go after someone or something to catch it",
+            "source_detail": "The learner dictionary defines the physical following-and-catching use."
+          },
+          {
+            "id": "F-007",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "work toward a goal, career, or degree over time",
+            "source_detail": "The learner dictionary gives goals, careers, and degrees as extended pursuits."
+          },
+          {
+            "id": "F-008",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "continue discussing, finding out, or taking legal action",
+            "source_detail": "The learner dictionary includes continuing an investigation, discussion, or legal action."
+          },
+          {
+            "id": "F-009",
+            "form": "pursue",
+            "kind": "pronunciation_and_forms",
+            "statement": "the verb has distinct US and UK pronunciation and regular inflection",
+            "source_detail": "The learner dictionary records US/UK pronunciations and the regular forms pursues, pursued, pursuing."
+          },
+          {
+            "id": "F-010",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "try to develop a romantic relationship with someone",
+            "source_detail": "The learner dictionary identifies a romantic pursuit use for a person."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Cambridge Dictionary",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/english/pursue",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_c",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "try to achieve a plan or activity, often over a long period",
+            "source_detail": "The general dictionary explains pursuing a plan or activity as sustained effort toward completion."
+          },
+          {
+            "id": "F-012",
+            "form": "pursue",
+            "kind": "lexical_sense",
+            "statement": "follow someone or something while trying to catch it",
+            "source_detail": "The general dictionary gives the direct chase sense with a catch-oriented purpose."
+          },
+          {
+            "id": "F-013",
+            "form": "pursue",
+            "kind": "argument_structure",
+            "statement": "take plans, activities, people, or things as transitive objects",
+            "source_detail": "The example and usage material show pursue taking a direct object in these frames."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Online Etymology Dictionary",
+        "locator": "https://www.etymonline.com/word/pursue",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_reference_a",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "pursue",
+            "kind": "etymology",
+            "statement": "entered English through Anglo-French or Old French from Latin prosequi",
+            "source_detail": "The etymological reference traces the English verb through French to Latin prosequi."
+          },
+          {
+            "id": "F-015",
+            "form": "pursue",
+            "kind": "etymology",
+            "statement": "Latin pro- means forward and sequi means follow",
+            "source_detail": "The etymology analyzes the source as forward plus follow."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-012"
+        ],
+        "canonical_statement": "follow a person or thing to catch, overtake, or defeat it",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:002"
+        ]
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-007",
+          "F-011"
+        ],
+        "canonical_statement": "work toward a goal, career, degree, plan, or activity over time",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "grammar_pattern:004",
+          "collocation:006",
+          "collocation:008"
+        ]
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-013"
+        ],
+        "canonical_statement": "continue an investigation, discussion, matter, claim, or legal action",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "grammar_pattern:008",
+          "collocation:011",
+          "collocation:013"
+        ]
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-009"
+        ],
+        "canonical_statement": "proceed along a course, route, or line while using the regular verb forms",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "grammar_pattern:013",
+          "collocation:016",
+          "word_formation:001"
+        ]
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "try to develop a romantic relationship with someone, with register caution",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "grammar_pattern:017",
+          "collocation:021"
+        ]
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-005",
+          "F-014",
+          "F-015"
+        ],
+        "canonical_statement": "figuratively continue to afflict or haunt, from Latin forward-plus-follow",
+        "disposition": "integrated",
+        "rationale": "The source facts were reconciled into one article-facing claim without importing unsupported detail.",
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "grammar_pattern:020",
+          "collocation:026",
+          "etymology:001",
+          "word_formation:003"
+        ]
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "follow a person or thing to catch, overtake, or defeat it",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "work toward a goal, career, degree, plan, or activity over time",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "grammar_pattern:004",
+          "collocation:006",
+          "collocation:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "continue an investigation, discussion, matter, claim, or legal action",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "grammar_pattern:008",
+          "collocation:011",
+          "collocation:013"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "proceed along a course, route, or line while using the regular verb forms",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "grammar_pattern:013",
+          "collocation:016",
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "pursue",
+        "claim_type": "lexical_sense",
+        "statement": "try to develop a romantic relationship with someone, with register caution",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "grammar_pattern:017",
+          "collocation:021"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "pursue",
+        "claim_type": "etymology",
+        "statement": "figuratively continue to afflict or haunt, from Latin forward-plus-follow",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "grammar_pattern:020",
+          "collocation:026",
+          "etymology:001",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "The cited source directly supports this claim through its definition, example, or usage information."
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005",
+    "E-006"
+  ],
+  "evidence_links": [
+    {
+      "id": "E-001",
+      "source_fact_ids": [
+        "F-001",
+        "F-006",
+        "F-012"
+      ],
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "collocation:001",
+        "collocation:002"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "follow a person or thing to catch, overtake, or defeat it"
+    },
+    {
+      "id": "E-002",
+      "source_fact_ids": [
+        "F-002",
+        "F-007",
+        "F-011"
+      ],
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004",
+        "collocation:006",
+        "collocation:008"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "work toward a goal, career, degree, plan, or activity over time"
+    },
+    {
+      "id": "E-003",
+      "source_fact_ids": [
+        "F-003",
+        "F-008",
+        "F-013"
+      ],
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:008",
+        "collocation:011",
+        "collocation:013"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "continue an investigation, discussion, matter, claim, or legal action"
+    },
+    {
+      "id": "E-004",
+      "source_fact_ids": [
+        "F-004",
+        "F-009"
+      ],
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:013",
+        "collocation:016",
+        "word_formation:001"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "proceed along a course, route, or line while using the regular verb forms"
+    },
+    {
+      "id": "E-005",
+      "source_fact_ids": [
+        "F-010"
+      ],
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:017",
+        "collocation:021"
+      ],
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/pursue",
+      "source_excerpt_or_summary": "try to develop a romantic relationship with someone, with register caution"
+    },
+    {
+      "id": "E-006",
+      "source_fact_ids": [
+        "F-005",
+        "F-014",
+        "F-015"
+      ],
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:020",
+        "collocation:026",
+        "etymology:001",
+        "word_formation:003"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "figuratively continue to afflict or haunt, from Latin forward-plus-follow"
+    }
+  ],
+  "notes": "Inventory completed from independent general-lexicon groups before article comparison."
+}
