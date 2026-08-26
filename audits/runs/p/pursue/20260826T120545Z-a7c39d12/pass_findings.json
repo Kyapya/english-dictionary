@@ -1,0 +1,110 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-pursue-20260826T120300Z",
+  "context_id": "normal-pursue-context-20260826T120300Z",
+  "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
+  "prompt_sha256": "f7cd02d139c86582f18c934a8a2e810b4f37f4948bb0183bdfde0e4335d7a44c",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-26T12:03:00Z",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "pursue + person/animal",
+      "frame": "pursue 〈人・動物〉",
+      "meaning": "追いかけて捕らえる・打ち負かす",
+      "disposition": "included",
+      "rationale": "Independent general dictionaries converge on the direct chase sense.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001"
+      ],
+      "evidence_link_ids": [
+        "E-001"
+      ]
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "pursue + goal/career/degree",
+      "frame": "pursue 〈目標・職業・学位〉",
+      "meaning": "目標などを追求する",
+      "disposition": "included",
+      "rationale": "The goal-oriented use is independently attested and central to modern usage.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004"
+      ],
+      "evidence_link_ids": [
+        "E-002"
+      ]
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "pursue + policy/matter/course",
+      "frame": "pursue 〈方針・案件・進路〉",
+      "meaning": "方針・案件・進路を続けて進める",
+      "disposition": "included",
+      "rationale": "Dictionary examples support continuing a matter, activity, or chosen course.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "sense_boundary:004",
+        "definition:004"
+      ],
+      "evidence_link_ids": [
+        "E-003",
+        "E-004"
+      ]
+    },
+    {
+      "id": "NC-004",
+      "surface_form": "pursue + person/affliction",
+      "frame": "pursue 〈人〉 / be pursued by 〈人・記憶〉",
+      "meaning": "恋愛対象を追い求める／苦しめ続ける",
+      "disposition": "included",
+      "rationale": "Romantic and figurative extensions are attested but require explicit register and usage notes.",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "sense_boundary:006",
+        "definition:006"
+      ],
+      "evidence_link_ids": [
+        "E-005",
+        "E-006"
+      ]
+    }
+  ],
+  "summary": "6/6 routed checker passes completed with no findings."
+}
