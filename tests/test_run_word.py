@@ -56,10 +56,17 @@ class RunWordTests(unittest.TestCase):
             self.assertIn("specification_files", stage)
             self.assertIn("output_paths", stage)
             self.assertIsInstance(stage["instruction_bytes"], int)
-        self.assertEqual(len(payload["checker_passes"]), 6)
+        self.assertEqual(len(payload["checker_passes"]), 7)
         self.assertTrue(
             all(item["instruction_bytes"] <= 15_000 for item in payload["checker_passes"])
         )
+        attribution = next(
+            item
+            for item in payload["checker_passes"]
+            if item["id"] == "example-attribution"
+        )
+        self.assertIn("stage1_output_path", attribution)
+        self.assertIn("alignment_key_path", attribution)
 
     def test_context_free_stages_receive_no_project_history(self) -> None:
         by_name = {

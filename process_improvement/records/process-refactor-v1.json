@@ -1,7 +1,7 @@
 {
   "schema_version": "instruction_budget_measurement_v1",
   "record_id": "process-refactor-v1",
-  "measured_at": "2026-08-25",
+  "measured_at": "2026-08-26",
   "method": "各構成で1語の処理に必読となる指示ファイルをbytesで合計し、v6は実行境界ごとのbundleも同じファイル実体から計測する。",
   "before": {
     "files": [
@@ -20,6 +20,7 @@
       "process_improvement/ACTIVE.md",
       "prompts/check_router_v6.md",
       "prompts/check_pass_evidence_v6.md",
+      "prompts/check_pass_example_attribution_v6.md",
       "prompts/check_pass_frame_relation_v6.md",
       "prompts/check_pass_pronunciation_v6.md",
       "prompts/check_pass_qualification_v6.md",
@@ -30,8 +31,8 @@
       "prompts/finding_resolution_v6.md",
       "prompts/final_review_spec_v2.md"
     ],
-    "required_instruction_bytes_per_word": 83338,
-    "max_instruction_bytes_in_one_execution": 52602,
+    "required_instruction_bytes_per_word": 88368,
+    "max_instruction_bytes_in_one_execution": 53277,
     "execution_bundles": [
       {
         "execution": "coordinator_router",
@@ -46,14 +47,14 @@
           "prompts/entry_spec_v5.md",
           "process_improvement/ACTIVE.md"
         ],
-        "instruction_bytes": 52602
+        "instruction_bytes": 53277
       },
       {
         "execution": "checker_router",
         "files": [
           "prompts/check_router_v6.md"
         ],
-        "instruction_bytes": 4121
+        "instruction_bytes": 4467
       },
       {
         "execution": "check_pass:check_pass_evidence_v6",
@@ -61,6 +62,13 @@
           "prompts/check_pass_evidence_v6.md"
         ],
         "instruction_bytes": 2687
+      },
+      {
+        "execution": "check_pass:check_pass_example_attribution_v6",
+        "files": [
+          "prompts/check_pass_example_attribution_v6.md"
+        ],
+        "instruction_bytes": 4009
       },
       {
         "execution": "check_pass:check_pass_frame_relation_v6",
@@ -128,9 +136,9 @@
     ]
   },
   "effect": {
-    "bytes_reduced_per_word": 84531,
-    "percent_reduced_per_word": 50.36,
-    "max_execution_bytes_reduced": 115267,
-    "max_execution_percent_reduced": 68.66
+    "bytes_reduced_per_word": 79501,
+    "percent_reduced_per_word": 47.36,
+    "max_execution_bytes_reduced": 114592,
+    "max_execution_percent_reduced": 68.26
   }
 }

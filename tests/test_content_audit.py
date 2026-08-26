@@ -515,6 +515,29 @@ class ContentAuditTests(unittest.TestCase):
             {"sense_boundary", "definition", "synonym"}, lexical_kinds
         )
 
+    def test_new_audits_cover_example_attribution_without_retroactive_breakage(self) -> None:
+        manifest = build_manifest(self.entry, self.root)
+        cycle = manifest["current_cycle"]
+        self.assertEqual(
+            cycle["taxonomy_contract"],
+            content_audit.EXAMPLE_ATTRIBUTION_TAXONOMY_CONTRACT,
+        )
+        categories = {
+            item["category"] for item in cycle["regression_checks"]
+        }
+        self.assertIn("example_sense_attribution_mismatch", categories)
+
+        del cycle["taxonomy_contract"]
+        cycle["regression_checks"] = [
+            item
+            for item in cycle["regression_checks"]
+            if item["category"] != "example_sense_attribution_mismatch"
+        ]
+        self.assertNotIn(
+            "example_sense_attribution_mismatch",
+            content_audit._required_defect_categories(manifest),
+        )
+
     def test_cast_core_mappings_are_reduced_to_nineteen_explicit_checks(self) -> None:
         cast_entry = REPO_ROOT / "entries" / "c" / "cast.md"
         relations = extract_relations(extract_targets(cast_entry))

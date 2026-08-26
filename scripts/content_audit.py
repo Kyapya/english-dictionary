@@ -72,12 +72,16 @@ LEGACY_ESCAPED_DEFECT_CATEGORIES = (
     "pronunciation_symbol_explanation",
     "evidence_claim_mismatch",
 )
-ESCAPED_DEFECT_CATEGORIES = LEGACY_ESCAPED_DEFECT_CATEGORIES + (
+PRE_ATTRIBUTION_ESCAPED_DEFECT_CATEGORIES = LEGACY_ESCAPED_DEFECT_CATEGORIES + (
     "semantic_direction_reversal",
     "cross_section_internal_contradiction",
     "finding_scope_transfer_loss",
     "raw_adjudication_manifest_divergence",
 )
+ESCAPED_DEFECT_CATEGORIES = PRE_ATTRIBUTION_ESCAPED_DEFECT_CATEGORIES + (
+    "example_sense_attribution_mismatch",
+)
+EXAMPLE_ATTRIBUTION_TAXONOMY_CONTRACT = "example_attribution_v1"
 INLINE_LABELS = {
     "【日本語訳・定義】": "definition",
     "【頻度】": "frequency",
@@ -95,7 +99,17 @@ GROUP_SIZES = {
 def _required_defect_categories(manifest: dict[str, Any]) -> tuple[str, ...]:
     gate = manifest.get("semantic_gate")
     if isinstance(gate, dict) and gate.get("version") == "semantic_resolution_v2":
-        return ESCAPED_DEFECT_CATEGORIES
+        cycle = manifest.get("current_cycle")
+        if (
+            isinstance(cycle, dict)
+            and cycle.get("taxonomy_contract")
+            == EXAMPLE_ATTRIBUTION_TAXONOMY_CONTRACT
+        ):
+            return ESCAPED_DEFECT_CATEGORIES
+        # Audit manifests sealed before this taxonomy was introduced remain
+        # valid without a retrospective article review.  New manifests carry
+        # the explicit contract marker below and must cover the expanded set.
+        return PRE_ATTRIBUTION_ESCAPED_DEFECT_CATEGORIES
     return LEGACY_ESCAPED_DEFECT_CATEGORIES
 
 
@@ -674,6 +688,7 @@ def build_manifest(entry_path: Path, repo_root: Path = REPO_ROOT) -> dict[str, A
         "current_cycle": {
             "cycle_id": "cycle-001",
             "parent_cycle_id": None,
+            "taxonomy_contract": EXAMPLE_ATTRIBUTION_TAXONOMY_CONTRACT,
             "started_at": "",
             "change_reason": "",
             "body_revisions": [

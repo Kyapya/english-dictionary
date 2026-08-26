@@ -15,6 +15,7 @@ if str(SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SCRIPTS))
 
 import content_audit  # noqa: E402
+import check_passes  # noqa: E402
 import generate_audit_manifest as generator  # noqa: E402
 from tests.test_content_audit import ENTRY_TEXT  # noqa: E402
 from tests.test_source_first_audit_gate import valid_v2_manifest  # noqa: E402
@@ -84,6 +85,29 @@ class GeneratedAuditManifestTests(unittest.TestCase):
             .split("```json", 1)[1]
             .split("```", 1)[0]
         )
+        attribution_request = next(
+            item
+            for item in check_passes.build_bundles(self.entry)
+            if item["pass_id"] == "example-attribution"
+        )
+        attribution_record = {
+            "schema_version": "example_attribution_blind_record_v1",
+            "pass_id": "example-attribution",
+            "input_body_sha256": self.body_hash,
+            "blind_request_sha256": check_passes._digest_json(
+                attribution_request
+            ),
+            "recorded_at": "2026-08-25T10:00:00+09:00",
+            "attributions": [
+                {
+                    "example_id": "example:001",
+                    "classification": "unique",
+                    "candidate_sense_ids": ["sense:001"],
+                    "discriminating_terms": ["material"],
+                    "rationale": "The material sample context identifies sense 1.",
+                }
+            ],
+        }
         normal = {
             **self._metadata(
                 "normal_review",
@@ -91,7 +115,17 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 "normal",
             ),
             "pass_outputs": [
-                {"pass_id": item["id"], "findings": []}
+                (
+                    {
+                        "pass_id": item["id"],
+                        "blind_attribution_record": attribution_record,
+                        "aligned_at": "2026-08-25T10:00:01+09:00",
+                        "findings": [],
+                        "unrouted_observations": [],
+                    }
+                    if item["id"] == "example-attribution"
+                    else {"pass_id": item["id"], "findings": []}
+                )
                 for item in router["passes"]
             ],
             "independent_candidates": [

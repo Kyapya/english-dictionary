@@ -347,7 +347,9 @@ def generate_manifest(
         if pass_id in actual_passes:
             raise ValueError(f"normal_review has duplicate pass output: {pass_id}")
         actual_passes.add(pass_id)
-        errors = check_passes.validate_pass_output(output, router)
+        errors = check_passes.validate_pass_output(
+            output, router, entry_path=entry_path, repo_root=repo_root
+        )
         if errors:
             raise ValueError(f"pass output {pass_id}: " + "; ".join(errors))
         for item in output["findings"]:

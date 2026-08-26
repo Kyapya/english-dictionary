@@ -154,6 +154,7 @@ class ProcessImprovementTests(unittest.TestCase):
             "translation",
             "sense-structure",
             "frame-relation",
+            "example-attribution",
             "qualification",
             "pronunciation",
             "evidence",

@@ -19,15 +19,15 @@ class CheckPassTests(unittest.TestCase):
     def setUp(self) -> None:
         self.router = check_passes.load_router()
 
-    def test_all_twelve_content_categories_have_exactly_one_owner(self) -> None:
+    def test_all_thirteen_content_categories_have_exactly_one_owner(self) -> None:
         self.assertEqual(check_passes.validate_router(self.router), [])
         assignments = [
             category
             for item in self.router["passes"]
             for category in item["taxonomy_ids"]
         ]
-        self.assertEqual(len(assignments), 12)
-        self.assertEqual(len(set(assignments)), 12)
+        self.assertEqual(len(assignments), 13)
+        self.assertEqual(len(set(assignments)), 13)
         self.assertNotIn("finding_scope_transfer_loss", assignments)
         self.assertNotIn("raw_adjudication_manifest_divergence", assignments)
 
@@ -54,7 +54,7 @@ class CheckPassTests(unittest.TestCase):
         bundles = check_passes.build_bundles(
             REPO_ROOT / "entries" / "o" / "obvious.md"
         )
-        self.assertEqual(len(bundles), 6)
+        self.assertEqual(len(bundles), 7)
         by_id = {bundle["pass_id"]: bundle for bundle in bundles}
         self.assertEqual(
             set(by_id["pronunciation"]["input_sections"]),
@@ -67,6 +67,102 @@ class CheckPassTests(unittest.TestCase):
         serialized = json.dumps(bundles, ensure_ascii=False)
         self.assertNotIn("process_improvement/ACTIVE.md", serialized)
         self.assertNotIn('"front matter"', serialized)
+
+    def test_example_attribution_blind_reclassification_fixture(self) -> None:
+        entry = (
+            REPO_ROOT
+            / "tests"
+            / "fixtures"
+            / "example_attribution_polysemous.md"
+        )
+        record = json.loads(
+            (
+                REPO_ROOT
+                / "tests"
+                / "fixtures"
+                / "example_attribution_polysemous_blind_record.json"
+            ).read_text(encoding="utf-8")
+        )
+        expected = json.loads(
+            (
+                REPO_ROOT
+                / "tests"
+                / "fixtures"
+                / "example_attribution_polysemous_expected.json"
+            ).read_text(encoding="utf-8")
+        )
+        request = next(
+            item
+            for item in check_passes.build_bundles(entry)
+            if item["pass_id"] == "example-attribution"
+        )
+        masked_examples = request["input_sections"]["collocations_examples"]
+        self.assertTrue(
+            all("assigned_sense_id" not in item for item in masked_examples)
+        )
+        serialized_examples = json.dumps(masked_examples, ensure_ascii=False)
+        self.assertNotIn("用途:", serialized_examples)
+        self.assertNotIn("【語法・注意】", serialized_examples)
+
+        alignment_key = check_passes.build_example_attribution_alignment_key(entry)
+        self.assertTrue(
+            all("assigned_sense_id" in item for item in alignment_key["examples"])
+        )
+        self.assertEqual(len(alignment_key["sense_usage_notes"]), 3)
+        output = check_passes.reconcile_example_attribution(
+            request,
+            record,
+            alignment_key,
+            aligned_at="2026-08-26T10:01:00+09:00",
+        )
+        by_anchor = {
+            item["anchor"]["line_start"]: item["example_id"]
+            for item in alignment_key["examples"]
+        }
+        finding_ids = {
+            by_anchor[item["location"]["line_start"]]
+            for item in output["findings"]
+        }
+        self.assertEqual(finding_ids, set(expected["finding_example_ids"]))
+        self.assertTrue(
+            set(expected["normal_example_ids"]).isdisjoint(finding_ids)
+        )
+        self.assertTrue(
+            all(
+                item["taxonomy_id"] == expected["taxonomy_id"]
+                and item["severity"] == expected["severity"]
+                for item in output["findings"]
+            )
+        )
+        self.assertEqual(
+            check_passes.validate_pass_output(
+                output, self.router, entry_path=entry
+            ),
+            [],
+        )
+
+    def test_example_attribution_rejects_alignment_before_blind_record(self) -> None:
+        entry = REPO_ROOT / "tests" / "fixtures" / "example_attribution_polysemous.md"
+        record = json.loads(
+            (
+                REPO_ROOT
+                / "tests"
+                / "fixtures"
+                / "example_attribution_polysemous_blind_record.json"
+            ).read_text(encoding="utf-8")
+        )
+        request = next(
+            item
+            for item in check_passes.build_bundles(entry)
+            if item["pass_id"] == "example-attribution"
+        )
+        with self.assertRaisesRegex(ValueError, "later than"):
+            check_passes.reconcile_example_attribution(
+                request,
+                record,
+                check_passes.build_example_attribution_alignment_key(entry),
+                aligned_at="2026-08-26T09:59:00+09:00",
+            )
 
     def test_pass_cannot_emit_another_pass_taxonomy(self) -> None:
         output = {

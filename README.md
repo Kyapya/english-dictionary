@@ -12,7 +12,7 @@ python scripts/run_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
 
-オーケストレータはguard開始、生成、機械validator、6つのchecker pass、独立cold review、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
+オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立cold review、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
 
 `process_improvement/ACTIVE.md` は生成段だけへ渡し、コールドレビューと最終盲検には渡しません。registryは `scripts/process_improvement.py` が検証し、単語固有のメモや「新しい知見なし」はrecordにしません。
 
@@ -24,7 +24,7 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 |---|---|
 | 辞書内容・表示 | `prompts/entry_spec_v5.md` |
 | checker routing | `prompts/check_router_v6.md` |
-| 内容checker | 6つの `prompts/check_pass_*_v6.md` |
+| 内容checker | 7つの `prompts/check_pass_*_v6.md` |
 | cold review | `prompts/cold_review_prompt_v1.md` |
 | final blind | `prompts/final_blind_prompt_v2.md` |
 | finding解決 | `prompts/finding_resolution_v6.md` |

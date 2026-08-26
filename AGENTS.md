@@ -44,7 +44,7 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 | 用途 | 正本 |
 |---|---|
 | 記事内容・構成・表示 | `prompts/entry_spec_v5.md` |
-| 通常チェック | `prompts/check_router_v6.md` と6つの `prompts/check_pass_*_v6.md` |
+| 通常チェック | `prompts/check_router_v6.md` と7つの `prompts/check_pass_*_v6.md` |
 | コールドレビュー入力 | `prompts/cold_review_prompt_v1.md` |
 | 最終盲検入力 | `prompts/final_blind_prompt_v2.md` |
 | finding解決 | `prompts/finding_resolution_v6.md` |
