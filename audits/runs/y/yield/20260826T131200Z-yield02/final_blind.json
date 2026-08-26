@@ -1,0 +1,162 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-yield-20260826T131200Z-yield02",
+  "context_id": "blind-yield-context-20260826T131200Z-yield02",
+  "audit_visible": false,
+  "input_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+  "prompt_sha256": "601caa7c8be8aefb80c88142673c659d581454b483cb245cd6c956b972aba47b",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "recorded_at": "2026-08-26T13:12:33.169297Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "yield + crop/result/information",
+      "frame": "yield 〈作物・結果・情報〉",
+      "meaning": "作物、結果、情報などを産出する",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The article must keep a transitive production sense for crops, results, or information distinct from financial yield.",
+          "polarity": "must_hold",
+          "scope": "sense 1"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "yield + financial return",
+      "frame": "〈資産・投資〉 yield 〈割合・収益〉",
+      "meaning": "資産や投資が利回り・収益を生む",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The article must keep the financial verb sense in which an asset or investment produces a return or rate.",
+          "polarity": "must_hold",
+          "scope": "sense 2"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "yield + control/possession",
+      "frame": "yield 〈所有・支配・領土〉 to 〈相手〉",
+      "meaning": "所有・支配・領土を譲る",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "The article must distinguish direct surrender of control or possession from yielding to pressure.",
+          "polarity": "must_hold",
+          "scope": "sense 3"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "yield to + pressure/demand",
+      "frame": "yield to 〈圧力・要求・誘惑〉",
+      "meaning": "圧力や要求に屈する",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004-SA-001",
+          "statement": "The article must represent yield to pressure, demands, or temptation as an intransitive give-way pattern.",
+          "polarity": "must_hold",
+          "scope": "sense 4"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "yield + traffic/priority",
+      "frame": "yield to 〈交通・相手〉",
+      "meaning": "道や優先権を譲る",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005-SA-001",
+          "statement": "The article must keep traffic and priority uses distinct and include the regional qualification for traffic yield.",
+          "polarity": "must_hold",
+          "scope": "sense 5"
+        }
+      ]
+    },
+    {
+      "id": "IC-006",
+      "surface_form": "yield + material/force",
+      "frame": "〈物体・材料〉 yield under/to 〈力〉",
+      "meaning": "物体や材料が力でたわむ・変形する",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-006-SA-001",
+          "statement": "The article must describe physical yielding as material deformation or giving way under force, not human submission.",
+          "polarity": "must_hold",
+          "scope": "sense 6"
+        }
+      ]
+    },
+    {
+      "id": "IC-007",
+      "surface_form": "yield to + successor",
+      "frame": "〈旧制度・方法〉 yield to 〈新しいもの〉",
+      "meaning": "古いものが新しいものに取って代わられる",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-007-SA-001",
+          "statement": "The article must identify yield to a successor as replacement or giving place, not pressure-based submission.",
+          "polarity": "must_hold",
+          "scope": "sense 7"
+        }
+      ]
+    },
+    {
+      "id": "IC-008",
+      "surface_form": "yield + baseball result",
+      "frame": "yield 〈安打・得点・四球〉",
+      "meaning": "投手が安打や得点を許す",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-008-SA-001",
+          "statement": "The article must preserve the baseball use in which a pitcher allows hits, runs, or walks.",
+          "polarity": "must_hold",
+          "scope": "sense 8"
+        }
+      ]
+    },
+    {
+      "id": "IC-009",
+      "surface_form": "noun yield",
+      "frame": "a 〈high・low〉 yield / bond yield",
+      "meaning": "産出量・収益・利回り",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-009-SA-001",
+          "statement": "The article must distinguish the noun yield as crop output or financial return from the verb uses.",
+          "polarity": "must_hold",
+          "scope": "sense 9"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
