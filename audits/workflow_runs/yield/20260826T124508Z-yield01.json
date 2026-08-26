@@ -19,11 +19,11 @@
     "candidate_pages": 4
   },
   "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "stage": "final_review_complete",
   "started_at": "2026-08-26T12:45:08Z",
   "deadline_at": "2026-08-26T13:45:08Z",
   "pre_draft_deadline_at": "2026-08-26T13:05:08Z",
-  "last_heartbeat_at": "2026-08-26T13:06:49.507Z",
+  "last_heartbeat_at": "2026-08-26T13:08:02.016Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-26T12:46:00Z",
@@ -64,6 +64,11 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-26T13:06:49.507Z",
       "notes": "final blind output sealed before final review in immutable recheck cycle"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-26T13:08:02.016Z",
+      "notes": "final review passed with no blockers"
     }
   ],
   "stop_reason": "",
