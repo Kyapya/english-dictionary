@@ -1,0 +1,1404 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 44,
+        "text": "1. 【他動詞・追跡】人・動物・乗り物などを追跡する、追いかける"
+      },
+      {
+        "line": 46,
+        "text": "【日本語訳・定義】人、動物、車などの後を追い、特に捕まえる、追い越す、倒すなどの目的で追跡する。実際の速度や距離を述べる場合にも、警察・報道・競技などの比喩的な追跡にも使う。  "
+      },
+      {
+        "line": 122,
+        "text": "2. 【他動詞・目標】目標・夢・職業などを追求する、目指す"
+      },
+      {
+        "line": 124,
+        "text": "【日本語訳・定義】目標、夢、学位、職業、幸福などを実現・獲得しようとして、時間をかけて努力を続ける。単に欲しいと思うことではなく、目的に向けて行動していることに焦点がある。  "
+      },
+      {
+        "line": 200,
+        "text": "3. 【他動詞・継続／案件】計画・方針・活動・案件などを続けて進める、追及する"
+      },
+      {
+        "line": 202,
+        "text": "【日本語訳・定義】すでに選んだ計画、方針、研究、活動、問題、請求などに継続して関わり、さらに調べたり実行したりする。目標を新たに設定するというより、進行中の事柄を途中でやめずに進めることに焦点がある。法律用法では、claim、case、legal action などを手続きとして進める意味になる。  "
+      },
+      {
+        "line": 278,
+        "text": "4. 【他動詞・進路／方針】道筋・進路・論理などをたどって進む"
+      },
+      {
+        "line": 280,
+        "text": "【日本語訳・定義】船や人が特定の進路を取ること、または議論・調査・推論が特定の方向や筋道に沿って進むことを表す。目的を追求する語義2や案件を続ける語義3より、どの道筋をたどるかに焦点がある。  "
+      },
+      {
+        "line": 356,
+        "text": "5. 【他動詞・恋愛】人に恋愛・性的な関係を求めて働きかけ続ける、口説く"
+      },
+      {
+        "line": 358,
+        "text": "【日本語訳・定義】特定の人に恋愛関係や性的な関係を求め、繰り返し連絡したり誘ったりして働きかける。相手の関心を得ようとする中立的な記述にも、しつこく迫るという否定的な評価にも使われるため、文脈と受け手の意思に注意が必要である。  "
+      },
+      {
+        "line": 434,
+        "text": "6. 【他動詞・比喩／文語】記憶・恐怖・罪悪感などが人につきまとう、苦しめ続ける"
+      },
+      {
+        "line": 436,
+        "text": "【日本語訳・定義】記憶、恐怖、罪悪感、不運などが人の意識や生活から離れず、繰り返し苦しめる。通常は受け身の be pursued by 〈感情・記憶〉で使い、実際に対象を追いかける意味ではない。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 44,
+        "text": "1. 【他動詞・追跡】人・動物・乗り物などを追跡する、追いかける"
+      },
+      {
+        "line": 54,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 56,
+        "text": "・pursue a suspect  "
+      },
+      {
+        "line": 57,
+        "text": "用途: 警察などが容疑者を追跡することを表す。  "
+      },
+      {
+        "line": 58,
+        "text": "例: Police pursued the suspect through several side streets.  "
+      },
+      {
+        "line": 59,
+        "text": "訳: 警察は何本もの脇道を通って容疑者を追跡した。  "
+      },
+      {
+        "line": 61,
+        "text": "・pursue a fleeing vehicle  "
+      },
+      {
+        "line": 62,
+        "text": "用途: 逃走中の車両を追いかけることを表す。  "
+      },
+      {
+        "line": 63,
+        "text": "例: Officers pursued the fleeing vehicle until it stopped near the bridge.  "
+      },
+      {
+        "line": 64,
+        "text": "訳: 警官たちは逃走車両を橋の近くで止まるまで追跡した。  "
+      },
+      {
+        "line": 66,
+        "text": "・be pursued by police  "
+      },
+      {
+        "line": 67,
+        "text": "用途: 警察に追跡されている状態を表す。  "
+      },
+      {
+        "line": 68,
+        "text": "例: The driver was pursued by police after ignoring the roadblock.  "
+      },
+      {
+        "line": 69,
+        "text": "訳: その運転手は道路封鎖を無視した後、警察に追跡された。  "
+      },
+      {
+        "line": 71,
+        "text": "・hotly pursue 〈逃げる動物・犯人〉  "
+      },
+      {
+        "line": 72,
+        "text": "用途: 逃げる対象を激しく、執拗に追跡することを表す。  "
+      },
+      {
+        "line": 73,
+        "text": "例: The dogs hotly pursued the fox across the field.  "
+      },
+      {
+        "line": 74,
+        "text": "訳: その犬たちは野原を横切ってキツネを激しく追跡した。  "
+      },
+      {
+        "line": 76,
+        "text": "・pursue prey  "
+      },
+      {
+        "line": 77,
+        "text": "用途: 動物や狩猟者が獲物を追うことを表す。  "
+      },
+      {
+        "line": 78,
+        "text": "例: The wolves pursued their prey across the frozen plain.  "
+      },
+      {
+        "line": 79,
+        "text": "訳: オオカミたちは凍った平原を越えて獲物を追った。  "
+      },
+      {
+        "line": 122,
+        "text": "2. 【他動詞・目標】目標・夢・職業などを追求する、目指す"
+      },
+      {
+        "line": 132,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 134,
+        "text": "・pursue a goal  "
+      },
+      {
+        "line": 135,
+        "text": "用途: 設定した目標の達成に向けて努力を続けることを表す。  "
+      },
+      {
+        "line": 136,
+        "text": "例: The team is pursuing a goal of reducing waste by half.  "
+      },
+      {
+        "line": 137,
+        "text": "訳: そのチームは廃棄物を半減させるという目標を追求している。  "
+      },
+      {
+        "line": 139,
+        "text": "・pursue a dream  "
+      },
+      {
+        "line": 140,
+        "text": "用途: 長期的な夢の実現を目指して努力することを表す。  "
+      },
+      {
+        "line": 141,
+        "text": "例: She left her secure job to pursue her dream of becoming a chef.  "
+      },
+      {
+        "line": 142,
+        "text": "訳: 彼女は料理人になる夢を追うため、安定した仕事を辞めた。  "
+      },
+      {
+        "line": 144,
+        "text": "・pursue a career in 〈分野〉  "
+      },
+      {
+        "line": 145,
+        "text": "用途: 特定分野を職業として目指すことを表す。  "
+      },
+      {
+        "line": 146,
+        "text": "例: He moved to the city to pursue a career in environmental law.  "
+      },
+      {
+        "line": 147,
+        "text": "訳: 彼は環境法の分野でのキャリアを目指して都会へ移った。  "
+      },
+      {
+        "line": 149,
+        "text": "・pursue a degree  "
+      },
+      {
+        "line": 150,
+        "text": "用途: 大学などで学位取得を目指して学ぶことを表す。  "
+      },
+      {
+        "line": 151,
+        "text": "例: She is pursuing a degree in computer science while working full-time.  "
+      },
+      {
+        "line": 152,
+        "text": "訳: 彼女はフルタイムで働きながら、コンピューターサイエンスの学位取得を目指している。  "
+      },
+      {
+        "line": 154,
+        "text": "・pursue happiness/knowledge  "
+      },
+      {
+        "line": 155,
+        "text": "用途: 幸福や知識のような抽象的な価値を追い求めることを表す。  "
+      },
+      {
+        "line": 156,
+        "text": "例: Many people pursue happiness without defining what it means to them.  "
+      },
+      {
+        "line": 157,
+        "text": "訳: 多くの人は、自分にとってそれが何を意味するかを定義しないまま幸福を追い求める。  "
+      },
+      {
+        "line": 200,
+        "text": "3. 【他動詞・継続／案件】計画・方針・活動・案件などを続けて進める、追及する"
+      },
+      {
+        "line": 210,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 212,
+        "text": "・pursue a policy  "
+      },
+      {
+        "line": 213,
+        "text": "用途: 採用した政策・方針を継続して実行することを表す。  "
+      },
+      {
+        "line": 214,
+        "text": "例: The government continues to pursue a policy of gradual reform.  "
+      },
+      {
+        "line": 215,
+        "text": "訳: 政府は段階的な改革方針を引き続き進めている。  "
+      },
+      {
+        "line": 217,
+        "text": "・pursue an interest  "
+      },
+      {
+        "line": 218,
+        "text": "用途: 興味や関心のある活動を継続して行うことを表す。  "
+      },
+      {
+        "line": 219,
+        "text": "例: He pursued his interest in astronomy through evening classes.  "
+      },
+      {
+        "line": 220,
+        "text": "訳: 彼は夜間講座を通して天文学への関心を深めた。  "
+      },
+      {
+        "line": 222,
+        "text": "・pursue legal action  "
+      },
+      {
+        "line": 223,
+        "text": "用途: 法的手続きや法的措置を進めることを表す。  "
+      },
+      {
+        "line": 224,
+        "text": "例: The tenants are considering whether to pursue legal action.  "
+      },
+      {
+        "line": 225,
+        "text": "訳: その入居者たちは法的措置を進めるかどうか検討している。  "
+      },
+      {
+        "line": 227,
+        "text": "・pursue a claim  "
+      },
+      {
+        "line": 228,
+        "text": "用途: 権利・賠償などの請求を手続きとして追及することを表す。  "
+      },
+      {
+        "line": 229,
+        "text": "例: The customer decided to pursue a claim for compensation.  "
+      },
+      {
+        "line": 230,
+        "text": "訳: その顧客は補償を請求する手続きを進めることにした。  "
+      },
+      {
+        "line": 232,
+        "text": "・pursue the matter further  "
+      },
+      {
+        "line": 233,
+        "text": "用途: 問題をさらに調べたり、交渉・手続きを続けたりすることを表す。  "
+      },
+      {
+        "line": 234,
+        "text": "例: We need more evidence before we pursue the matter further.  "
+      },
+      {
+        "line": 235,
+        "text": "訳: その問題をさらに追及する前に、私たちはより多くの証拠が必要だ。  "
+      },
+      {
+        "line": 278,
+        "text": "4. 【他動詞・進路／方針】道筋・進路・論理などをたどって進む"
+      },
+      {
+        "line": 288,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 290,
+        "text": "・pursue a northerly course  "
+      },
+      {
+        "line": 291,
+        "text": "用途: 船などが北向きの航路を進むことを表す。  "
+      },
+      {
+        "line": 292,
+        "text": "例: The vessel pursued a northerly course after leaving the island.  "
+      },
+      {
+        "line": 293,
+        "text": "訳: その船は島を離れた後、北向きの進路を取った。  "
+      },
+      {
+        "line": 295,
+        "text": "・pursue a course of action  "
+      },
+      {
+        "line": 296,
+        "text": "用途: ある方針・行動方針を選び、その方向に進むことを表す。  "
+      },
+      {
+        "line": 297,
+        "text": "例: The board chose to pursue a cautious course of action.  "
+      },
+      {
+        "line": 298,
+        "text": "訳: 取締役会は慎重な行動方針を取ることを選んだ。  "
+      },
+      {
+        "line": 300,
+        "text": "・pursue a line of inquiry  "
+      },
+      {
+        "line": 301,
+        "text": "用途: 調査で特定の仮説や方向を追って検討することを表す。  "
+      },
+      {
+        "line": 302,
+        "text": "例: The investigators pursued a new line of inquiry.  "
+      },
+      {
+        "line": 303,
+        "text": "訳: 捜査官たちは新たな捜査の方向を追った。  "
+      },
+      {
+        "line": 305,
+        "text": "・pursue a line of reasoning  "
+      },
+      {
+        "line": 306,
+        "text": "用途: 議論や推論を特定の論理の流れに沿って展開することを表す。  "
+      },
+      {
+        "line": 307,
+        "text": "例: The essay pursues a line of reasoning based on historical evidence.  "
+      },
+      {
+        "line": 308,
+        "text": "訳: その論文は歴史的証拠に基づく論理の筋道に沿って論じている。  "
+      },
+      {
+        "line": 310,
+        "text": "・pursue a route  "
+      },
+      {
+        "line": 311,
+        "text": "用途: 計画・移動などで特定の経路を選び、その経路に沿って進むことを表す。  "
+      },
+      {
+        "line": 312,
+        "text": "例: The expedition pursued a route along the western ridge.  "
+      },
+      {
+        "line": 313,
+        "text": "訳: その探検隊は西側の尾根に沿う経路をたどった。  "
+      },
+      {
+        "line": 356,
+        "text": "5. 【他動詞・恋愛】人に恋愛・性的な関係を求めて働きかけ続ける、口説く"
+      },
+      {
+        "line": 366,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 368,
+        "text": "・pursue someone romantically  "
+      },
+      {
+        "line": 369,
+        "text": "用途: 人に恋愛関係を求めて働きかけることを明示する。  "
+      },
+      {
+        "line": 370,
+        "text": "例: He pursued her romantically even after she said she was not interested.  "
+      },
+      {
+        "line": 371,
+        "text": "訳: 彼は彼女が興味がないと言った後も、恋愛目的で彼女に迫り続けた。  "
+      },
+      {
+        "line": 373,
+        "text": "・pursue a relationship  "
+      },
+      {
+        "line": 374,
+        "text": "用途: 特定の相手との恋愛関係を築こうとすることを表す。  "
+      },
+      {
+        "line": 375,
+        "text": "例: She was unsure whether to pursue a relationship with her colleague.  "
+      },
+      {
+        "line": 376,
+        "text": "訳: 彼女は同僚と交際を始めようとするべきか迷っていた。  "
+      },
+      {
+        "line": 378,
+        "text": "・be actively pursued by 〈人〉  "
+      },
+      {
+        "line": 379,
+        "text": "用途: 相手から積極的に交際や関心を求められている状態を表す。  "
+      },
+      {
+        "line": 380,
+        "text": "例: She was actively pursued by a colleague who wanted to date her.  "
+      },
+      {
+        "line": 381,
+        "text": "訳: 彼女は交際を望む同僚から積極的に言い寄られていた。  "
+      },
+      {
+        "line": 383,
+        "text": "・pursue a love interest  "
+      },
+      {
+        "line": 384,
+        "text": "用途: 好意を寄せる相手との関係を得ようとすることを表す。  "
+      },
+      {
+        "line": 385,
+        "text": "例: The novel follows a young woman who pursues a love interest abroad.  "
+      },
+      {
+        "line": 386,
+        "text": "訳: その小説は、海外にいる意中の人との関係を求める若い女性を描いている。  "
+      },
+      {
+        "line": 388,
+        "text": "・pursue someone for months  "
+      },
+      {
+        "line": 389,
+        "text": "用途: 恋愛関係を求めて、数か月にわたり相手に働きかけ続けることを表す。  "
+      },
+      {
+        "line": 390,
+        "text": "例: He pursued her for months before she agreed to a date.  "
+      },
+      {
+        "line": 391,
+        "text": "訳: 彼は彼女がデートに応じるまで、何か月も彼女にアプローチし続けた。  "
+      },
+      {
+        "line": 434,
+        "text": "6. 【他動詞・比喩／文語】記憶・恐怖・罪悪感などが人につきまとう、苦しめ続ける"
+      },
+      {
+        "line": 444,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 446,
+        "text": "・be pursued by memories  "
+      },
+      {
+        "line": 447,
+        "text": "用途: 過去の記憶が何度も意識に戻り、人を苦しめることを表す。  "
+      },
+      {
+        "line": 448,
+        "text": "例: She was pursued by memories of the accident for years.  "
+      },
+      {
+        "line": 449,
+        "text": "訳: 彼女は何年もの間、事故の記憶に苦しめられた。  "
+      },
+      {
+        "line": 451,
+        "text": "・be pursued by fear  "
+      },
+      {
+        "line": 452,
+        "text": "用途: 恐怖が人から離れず、行動や意識を支配することを表す。  "
+      },
+      {
+        "line": 453,
+        "text": "例: He was pursued by fear long after the danger had passed.  "
+      },
+      {
+        "line": 454,
+        "text": "訳: 危険が去ったずっと後も、彼は恐怖に追われていた。  "
+      },
+      {
+        "line": 456,
+        "text": "・be pursued by guilt  "
+      },
+      {
+        "line": 457,
+        "text": "用途: 罪悪感が繰り返し人を苦しめることを表す。  "
+      },
+      {
+        "line": 458,
+        "text": "例: The character is pursued by guilt over what he did.  "
+      },
+      {
+        "line": 459,
+        "text": "訳: その登場人物は自分のしたことへの罪悪感に苦しめられている。  "
+      },
+      {
+        "line": 461,
+        "text": "・be relentlessly pursued by 〈anxiety〉  "
+      },
+      {
+        "line": 462,
+        "text": "用途: 不安などが執拗に人につきまとうことを強調する。  "
+      },
+      {
+        "line": 463,
+        "text": "例: The witness was relentlessly pursued by anxiety before the trial.  "
+      },
+      {
+        "line": 464,
+        "text": "訳: その証人は裁判を前に、執拗な不安に苦しめられた。  "
+      },
+      {
+        "line": 466,
+        "text": "・pursue someone in dreams  "
+      },
+      {
+        "line": 467,
+        "text": "用途: 記憶や恐怖が夢の中でも人につきまとうことを表す。  "
+      },
+      {
+        "line": 468,
+        "text": "例: The memory of the accident continued to pursue him in his dreams.  "
+      },
+      {
+        "line": 469,
+        "text": "訳: 事故の記憶は夢の中でも彼につきまとい続けた。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 44,
+        "text": "1. 【他動詞・追跡】人・動物・乗り物などを追跡する、追いかける"
+      },
+      {
+        "line": 83,
+        "text": "【類義語】"
+      },
+      {
+        "line": 85,
+        "text": "・chase  "
+      },
+      {
+        "line": 86,
+        "text": "定義: 逃げる人・動物・物を捕まえようとして急いで追いかける。  "
+      },
+      {
+        "line": 87,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 88,
+        "text": "違い: chase は日常的で速度や追いかける動作を直接的に示す。pursue は継続的な追跡や硬い文体にも使いやすい。  "
+      },
+      {
+        "line": 89,
+        "text": "例: The child chased the balloon down the street.  "
+      },
+      {
+        "line": 90,
+        "text": "訳: その子どもは風船を追って通りを駆けていった。  "
+      },
+      {
+        "line": 92,
+        "text": "・follow  "
+      },
+      {
+        "line": 93,
+        "text": "定義: 人・物の後について行く、後をたどる。  "
+      },
+      {
+        "line": 94,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 95,
+        "text": "違い: follow は単に後をついて行くことも含み、捕まえる意図や追跡の圧力を必ずしも示さない。  "
+      },
+      {
+        "line": 96,
+        "text": "例: A small boat followed the ferry into the harbor.  "
+      },
+      {
+        "line": 97,
+        "text": "訳: 小さな船がフェリーの後について港へ入った。  "
+      },
+      {
+        "line": 99,
+        "text": "・track  "
+      },
+      {
+        "line": 100,
+        "text": "定義: 足跡・位置情報などを手掛かりに対象を追跡する。  "
+      },
+      {
+        "line": 101,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 102,
+        "text": "違い: track は痕跡や情報をたどって所在を突き止める方法に焦点がある。  "
+      },
+      {
+        "line": 103,
+        "text": "例: Rangers tracked the injured animal through the forest.  "
+      },
+      {
+        "line": 104,
+        "text": "訳: 森林監視員たちはけがをした動物を追跡した。  "
+      },
+      {
+        "line": 106,
+        "text": "【反意語】"
+      },
+      {
+        "line": 108,
+        "text": "・flee  "
+      },
+      {
+        "line": 109,
+        "text": "定義: 危険や追跡から逃げる。  "
+      },
+      {
+        "line": 110,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 111,
+        "text": "違い: pursue が追う側の行動なのに対し、flee は追われる側が逃げることを表す。  "
+      },
+      {
+        "line": 112,
+        "text": "例: The suspect fled before the officers reached the building.  "
+      },
+      {
+        "line": 113,
+        "text": "訳: 容疑者は警官たちが建物に着く前に逃走した。  "
+      },
+      {
+        "line": 115,
+        "text": "・evade  "
+      },
+      {
+        "line": 116,
+        "text": "定義: 追跡・攻撃・責任などを巧みに避ける。  "
+      },
+      {
+        "line": 117,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 118,
+        "text": "違い: evade は追う側ではなく、追跡や捕捉を免れる側の意図的な回避に焦点がある。  "
+      },
+      {
+        "line": 119,
+        "text": "例: The driver tried to evade the pursuing officers.  "
+      },
+      {
+        "line": 120,
+        "text": "訳: その運転手は追跡してくる警官たちをかわそうとした。  "
+      },
+      {
+        "line": 122,
+        "text": "2. 【他動詞・目標】目標・夢・職業などを追求する、目指す"
+      },
+      {
+        "line": 161,
+        "text": "【類義語】"
+      },
+      {
+        "line": 163,
+        "text": "・seek  "
+      },
+      {
+        "line": 164,
+        "text": "定義: 何かを得る、見つける、実現するために求める。  "
+      },
+      {
+        "line": 165,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 166,
+        "text": "違い: seek は目的達成に向けた探索・要求を広く表す。pursue は時間をかけて追い続ける過程に焦点が出やすい。  "
+      },
+      {
+        "line": 167,
+        "text": "例: The researchers seek a reliable explanation for the result.  "
+      },
+      {
+        "line": 168,
+        "text": "訳: 研究者たちはその結果について信頼できる説明を求めている。  "
+      },
+      {
+        "line": 170,
+        "text": "・strive for  "
+      },
+      {
+        "line": 171,
+        "text": "定義: 努力を重ねて目標を達成しようとする。  "
+      },
+      {
+        "line": 172,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 173,
+        "text": "違い: strive for は努力の熱心さや困難さを強く示す。pursue は努力の強さを必ずしも評価しない。  "
+      },
+      {
+        "line": 174,
+        "text": "例: The organization strives for greater transparency.  "
+      },
+      {
+        "line": 175,
+        "text": "訳: その組織はさらなる透明性の実現に努めている。  "
+      },
+      {
+        "line": 177,
+        "text": "・work toward  "
+      },
+      {
+        "line": 178,
+        "text": "定義: 目標の実現に向けて段階的に取り組む。  "
+      },
+      {
+        "line": 179,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 180,
+        "text": "違い: work toward は実務的な進行や途中の積み重ねに焦点がある。pursue は夢・幸福・学位などにも広く使える。  "
+      },
+      {
+        "line": 181,
+        "text": "例: We are working toward a long-term solution.  "
+      },
+      {
+        "line": 182,
+        "text": "訳: 私たちは長期的な解決策の実現に取り組んでいる。  "
+      },
+      {
+        "line": 184,
+        "text": "【反意語】"
+      },
+      {
+        "line": 186,
+        "text": "・abandon  "
+      },
+      {
+        "line": 187,
+        "text": "定義: 目標・計画などを途中で捨てて、続けるのをやめる。  "
+      },
+      {
+        "line": 188,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 189,
+        "text": "違い: pursue が対象を追い続けるのに対し、abandon はその努力や計画を放棄することを表す。  "
+      },
+      {
+        "line": 190,
+        "text": "例: The company abandoned its plan to expand overseas.  "
+      },
+      {
+        "line": 191,
+        "text": "訳: その会社は海外進出計画を断念した。  "
+      },
+      {
+        "line": 193,
+        "text": "・give up on  "
+      },
+      {
+        "line": 194,
+        "text": "定義: 人・計画・目標が実現すると期待するのをやめる。  "
+      },
+      {
+        "line": 195,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 196,
+        "text": "違い: give up on は口語的で、達成の見込みを失って努力をやめることを強く示す。  "
+      },
+      {
+        "line": 197,
+        "text": "例: She refused to give up on her dream.  "
+      },
+      {
+        "line": 198,
+        "text": "訳: 彼女は夢を諦めようとしなかった。  "
+      },
+      {
+        "line": 200,
+        "text": "3. 【他動詞・継続／案件】計画・方針・活動・案件などを続けて進める、追及する"
+      },
+      {
+        "line": 239,
+        "text": "【類義語】"
+      },
+      {
+        "line": 241,
+        "text": "・continue  "
+      },
+      {
+        "line": 242,
+        "text": "定義: 中断せずに活動・状態を続ける。  "
+      },
+      {
+        "line": 243,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 244,
+        "text": "違い: continue は継続そのものを広く表す。pursue は対象を追いながら、目的や案件を前へ進める含みが強い。  "
+      },
+      {
+        "line": 245,
+        "text": "例: The committee continued its review of the proposal.  "
+      },
+      {
+        "line": 246,
+        "text": "訳: 委員会はその提案の検討を続けた。  "
+      },
+      {
+        "line": 248,
+        "text": "・follow up  "
+      },
+      {
+        "line": 249,
+        "text": "定義: 以前の連絡・問題・調査などを追加で確認し、先へ進める。  "
+      },
+      {
+        "line": 250,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 251,
+        "text": "違い: follow up は前段階を受けた追加対応に焦点があり、pursue は案件全体を継続して追及することを表せる。  "
+      },
+      {
+        "line": 252,
+        "text": "例: The nurse followed up with the patient the next day.  "
+      },
+      {
+        "line": 253,
+        "text": "訳: 看護師は翌日、その患者の様子を追加で確認した。  "
+      },
+      {
+        "line": 255,
+        "text": "・carry out  "
+      },
+      {
+        "line": 256,
+        "text": "定義: 計画・指示・約束などを実際に実行する。  "
+      },
+      {
+        "line": 257,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 258,
+        "text": "違い: carry out は実行・完遂に焦点があり、pursue は実行へ向かう継続的な追求や方針選択を表す。  "
+      },
+      {
+        "line": 259,
+        "text": "例: The agency carried out a detailed review.  "
+      },
+      {
+        "line": 260,
+        "text": "訳: その機関は詳細な検討を実施した。  "
+      },
+      {
+        "line": 262,
+        "text": "【反意語】"
+      },
+      {
+        "line": 264,
+        "text": "・drop  "
+      },
+      {
+        "line": 265,
+        "text": "定義: 問題・計画・案件などをこれ以上扱うのをやめる。  "
+      },
+      {
+        "line": 266,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 267,
+        "text": "違い: drop は特に会話や報道で、追及・検討を打ち切ることを表す。  "
+      },
+      {
+        "line": 268,
+        "text": "例: The newspaper dropped the investigation after finding no new evidence.  "
+      },
+      {
+        "line": 269,
+        "text": "訳: その新聞は新しい証拠が見つからなかったため調査を打ち切った。  "
+      },
+      {
+        "line": 271,
+        "text": "・discontinue  "
+      },
+      {
+        "line": 272,
+        "text": "定義: 活動・サービス・手続きを正式に中止する。  "
+      },
+      {
+        "line": 273,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 274,
+        "text": "違い: discontinue は継続を制度的・正式に止める語で、pursue の継続と明確に対立する。  "
+      },
+      {
+        "line": 275,
+        "text": "例: The company discontinued the program after two years.  "
+      },
+      {
+        "line": 276,
+        "text": "訳: その会社は2年後にそのプログラムを中止した。  "
+      },
+      {
+        "line": 278,
+        "text": "4. 【他動詞・進路／方針】道筋・進路・論理などをたどって進む"
+      },
+      {
+        "line": 317,
+        "text": "【類義語】"
+      },
+      {
+        "line": 319,
+        "text": "・follow  "
+      },
+      {
+        "line": 320,
+        "text": "定義: 道、方向、論理、指示などに沿って進む・たどる。  "
+      },
+      {
+        "line": 321,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 322,
+        "text": "違い: follow は最も普通の語で、pursue より日常的である。pursue は選んだ筋道を意識的に追う硬い響きを持つ。  "
+      },
+      {
+        "line": 323,
+        "text": "例: The report follows a clear line of reasoning.  "
+      },
+      {
+        "line": 324,
+        "text": "訳: その報告書は明確な論理の筋道に沿っている。  "
+      },
+      {
+        "line": 326,
+        "text": "・take  "
+      },
+      {
+        "line": 327,
+        "text": "定義: 道、進路、方針などを選んで進む。  "
+      },
+      {
+        "line": 328,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 329,
+        "text": "違い: take は選択に焦点があり、pursue は選んだ進路を実際にたどることに焦点がある。  "
+      },
+      {
+        "line": 330,
+        "text": "例: The ship took a safer route around the island.  "
+      },
+      {
+        "line": 331,
+        "text": "訳: その船は島を回るより安全な経路を取った。  "
+      },
+      {
+        "line": 333,
+        "text": "・proceed along  "
+      },
+      {
+        "line": 334,
+        "text": "定義: 道や方向に沿って先へ進む。  "
+      },
+      {
+        "line": 335,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 336,
+        "text": "違い: proceed along は物理的な進行を硬く表す。pursue は論理や調査の方向にも広げられる。  "
+      },
+      {
+        "line": 337,
+        "text": "例: The hikers proceeded along the marked trail.  "
+      },
+      {
+        "line": 338,
+        "text": "訳: ハイカーたちは標識のある道に沿って進んだ。  "
+      },
+      {
+        "line": 340,
+        "text": "【反意語】"
+      },
+      {
+        "line": 342,
+        "text": "・abandon  "
+      },
+      {
+        "line": 343,
+        "text": "定義: 進めていた方針・計画・道筋を途中で捨てる。  "
+      },
+      {
+        "line": 344,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 345,
+        "text": "違い: pursue が一つの方向を追い続けるのに対し、abandon はその方向から手を引くことを表す。  "
+      },
+      {
+        "line": 346,
+        "text": "例: The researchers abandoned that line of inquiry.  "
+      },
+      {
+        "line": 347,
+        "text": "訳: 研究者たちはその調査の方向を捨てた。  "
+      },
+      {
+        "line": 349,
+        "text": "・deviate from  "
+      },
+      {
+        "line": 350,
+        "text": "定義: 道筋・基準・方針などから外れる。  "
+      },
+      {
+        "line": 351,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 352,
+        "text": "違い: deviate from は同じ方向をたどらず、予定された経路や基準からそれることを表す。  "
+      },
+      {
+        "line": 353,
+        "text": "例: The driver deviated from the planned route.  "
+      },
+      {
+        "line": 354,
+        "text": "訳: その運転手は予定された経路から外れた。  "
+      },
+      {
+        "line": 356,
+        "text": "5. 【他動詞・恋愛】人に恋愛・性的な関係を求めて働きかけ続ける、口説く"
+      },
+      {
+        "line": 395,
+        "text": "【類義語】"
+      },
+      {
+        "line": 397,
+        "text": "・court  "
+      },
+      {
+        "line": 398,
+        "text": "定義: 結婚や恋愛を目的に、改まった形で相手に求愛する。  "
+      },
+      {
+        "line": 399,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 400,
+        "text": "違い: court は古風・改まった響きがあり、pursue より結婚を意識した求愛を示しやすい。  "
+      },
+      {
+        "line": 401,
+        "text": "例: In the novel, the prince courted a wealthy merchant's daughter.  "
+      },
+      {
+        "line": 402,
+        "text": "訳: その小説では、王子が裕福な商人の娘に求愛した。  "
+      },
+      {
+        "line": 404,
+        "text": "・woo  "
+      },
+      {
+        "line": 405,
+        "text": "定義: 熱心に働きかけて恋愛関係や支持を得ようとする。  "
+      },
+      {
+        "line": 406,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 407,
+        "text": "違い: woo は文学的な恋愛用法のほか、支持・顧客を得る比喩にも使える。  "
+      },
+      {
+        "line": 408,
+        "text": "例: The candidate wooed undecided voters.  "
+      },
+      {
+        "line": 409,
+        "text": "訳: その候補者は態度を決めていない有権者の支持を得ようとした。  "
+      },
+      {
+        "line": 411,
+        "text": "・chase  "
+      },
+      {
+        "line": 412,
+        "text": "定義: くだけて、相手を口説こうとしつこく追いかける。  "
+      },
+      {
+        "line": 413,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 414,
+        "text": "違い: chase は恋愛では軽く、または相手をしつこく追う否定的な響きが出やすい。pursue は文脈によって中立から否定的まで幅がある。  "
+      },
+      {
+        "line": 415,
+        "text": "例: She was tired of being chased by strangers online.  "
+      },
+      {
+        "line": 416,
+        "text": "訳: 彼女はオンラインで知らない人たちにしつこく言い寄られるのに疲れていた。  "
+      },
+      {
+        "line": 418,
+        "text": "【反意語】"
+      },
+      {
+        "line": 420,
+        "text": "・rebuff  "
+      },
+      {
+        "line": 421,
+        "text": "定義: 求愛・申し出・接近をはっきり拒む。  "
+      },
+      {
+        "line": 422,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 423,
+        "text": "違い: pursue が接近する側の行為なのに対し、rebuff はその働きかけを拒む側の行為を表す。  "
+      },
+      {
+        "line": 424,
+        "text": "例: She rebuffed his repeated invitations.  "
+      },
+      {
+        "line": 425,
+        "text": "訳: 彼女は彼からの繰り返しの誘いをはねつけた。  "
+      },
+      {
+        "line": 427,
+        "text": "・avoid  "
+      },
+      {
+        "line": 428,
+        "text": "定義: 人との接触や関わりを意図的に避ける。  "
+      },
+      {
+        "line": 429,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 430,
+        "text": "違い: avoid は関係を求めて近づく pursue と反対に、相手との接触を避けることを表す。  "
+      },
+      {
+        "line": 431,
+        "text": "例: He avoided contact after the uncomfortable conversation.  "
+      },
+      {
+        "line": 432,
+        "text": "訳: 彼は気まずい会話の後、接触を避けた。  "
+      },
+      {
+        "line": 434,
+        "text": "6. 【他動詞・比喩／文語】記憶・恐怖・罪悪感などが人につきまとう、苦しめ続ける"
+      },
+      {
+        "line": 473,
+        "text": "【類義語】"
+      },
+      {
+        "line": 475,
+        "text": "・haunt  "
+      },
+      {
+        "line": 476,
+        "text": "定義: 記憶・場所・考えなどが人の心につきまとい続ける。  "
+      },
+      {
+        "line": 477,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 478,
+        "text": "違い: haunt はこの比喩義で最も自然で、pursue より日常的にも使いやすい。  "
+      },
+      {
+        "line": 479,
+        "text": "例: The memory of the failure still haunts him.  "
+      },
+      {
+        "line": 480,
+        "text": "訳: 失敗の記憶は今も彼の心につきまとっている。  "
+      },
+      {
+        "line": 482,
+        "text": "・plague  "
+      },
+      {
+        "line": 483,
+        "text": "定義: 問題・病気・心配などが人や場所を繰り返し苦しめる。  "
+      },
+      {
+        "line": 484,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 485,
+        "text": "違い: plague は迷惑や苦痛を与え続ける影響に焦点があり、pursue の追跡イメージは弱い。  "
+      },
+      {
+        "line": 486,
+        "text": "例: Supply shortages plagued the region throughout the winter.  "
+      },
+      {
+        "line": 487,
+        "text": "訳: 供給不足が冬の間ずっとその地域を苦しめた。  "
+      },
+      {
+        "line": 489,
+        "text": "・torment  "
+      },
+      {
+        "line": 490,
+        "text": "定義: 強い精神的・身体的苦痛を与える。  "
+      },
+      {
+        "line": 491,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 492,
+        "text": "違い: torment は苦痛の強さを強調する。他方、pursue は苦痛の強さより、離れず追い続けることを表す。  "
+      },
+      {
+        "line": 493,
+        "text": "例: Doubt tormented the witness before she spoke.  "
+      },
+      {
+        "line": 494,
+        "text": "訳: 彼女が話す前、疑念がその証人を苦しめた。  "
+      },
+      {
+        "line": 496,
+        "text": "【反意語】"
+      },
+      {
+        "line": 498,
+        "text": "・comfort  "
+      },
+      {
+        "line": 499,
+        "text": "定義: 苦痛・不安・悲しみを和らげ、安心させる。  "
+      },
+      {
+        "line": 500,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 501,
+        "text": "違い: pursue の比喩義が苦しみを続けさせるのに対し、comfort はその苦しみを和らげる働きを表す。  "
+      },
+      {
+        "line": 502,
+        "text": "例: Her friends comforted her after the loss.  "
+      },
+      {
+        "line": 503,
+        "text": "訳: 友人たちはその喪失の後、彼女を慰めた。  "
+      },
+      {
+        "line": 505,
+        "text": "・be free from  "
+      },
+      {
+        "line": 506,
+        "text": "定義: 苦痛・不安・問題などに悩まされていない。  "
+      },
+      {
+        "line": 507,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 508,
+        "text": "違い: be free from は追い続ける負担が存在しない状態を表す。  "
+      },
+      {
+        "line": 509,
+        "text": "例: After treatment, he was finally free from constant pain.  "
+      },
+      {
+        "line": 510,
+        "text": "訳: 治療後、彼はついに慢性的な痛みから解放された。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
