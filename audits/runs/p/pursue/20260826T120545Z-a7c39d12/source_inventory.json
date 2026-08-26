@@ -1,77 +1,16 @@
 {
-  "schema_version": "content_audit_v4",
-  "generated_by": "generate_audit_manifest_v1",
-  "entry_path": "entries/p/pursue.md",
-  "cycle_id": "20260826T122530Z-c4e8b1f2",
-  "cycle_dir": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2",
-  "body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-  "raw_outputs": {
-    "source_inventory": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/source_inventory.json",
-      "sha256": "4b984bc0ec0209cb4069ec361a9bb5b9bd977c4de396fc183279fdcd96997ad6",
-      "stage": "source_inventory",
-      "run_id": "source-pursue-20260826T122200Z",
-      "context_id": "source-pursue-context-20260826T122200Z",
-      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-      "prompt_sha256": "0949d8a2afb7f9c3270b562385bafc5a7ca2c7fdde00050a77b8e4558ba57bf2",
-      "recorded_at": "2026-08-26T12:22:45Z"
-    },
-    "normal_review": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/pass_findings.json",
-      "sha256": "9fffee019bd0dca03dea7dd1fe71bb71f7f59c68128b479580d8764ed26f816c",
-      "stage": "normal_review",
-      "run_id": "normal-pursue-20260826T122300Z",
-      "context_id": "normal-pursue-context-20260826T122300Z",
-      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-      "prompt_sha256": "f7cd02d139c86582f18c934a8a2e810b4f37f4948bb0183bdfde0e4335d7a44c",
-      "recorded_at": "2026-08-26T12:23:00Z"
-    },
-    "cold_review": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/cold_review.json",
-      "sha256": "c054125e25bf88938ee6710b40d4604948179869d8a2d19a79f082207c82fa08",
-      "stage": "cold_review",
-      "run_id": "cold-pursue-20260826T122330Z",
-      "context_id": "cold-pursue-context-20260826T122330Z",
-      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-      "prompt_sha256": "cb72dcc41cec69567196f1f4df3cf40edd08ab27015739c7807636a286fa11d7",
-      "recorded_at": "2026-08-26T12:23:30Z"
-    },
-    "resolutions": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/resolutions.json",
-      "sha256": "4b35fb0022966216108554f6d9ae309f0e131f38b5d2c38c7c69d3bbf8bfe1bb",
-      "stage": "resolutions",
-      "run_id": "normal-pursue-20260826T122300Z",
-      "context_id": "normal-pursue-context-20260826T122300Z",
-      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-      "prompt_sha256": "7d5b7fa89efd6d05e4b6b23d8b0965f8f9d00acb202bc6c498f063ed7596f22d",
-      "recorded_at": "2026-08-26T12:24:10Z"
-    },
-    "final_blind": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/final_blind.json",
-      "sha256": "7edca67f2b06270e8c1caa232d8717dd6e61b46f2f510dfd672c38e6f53c0297",
-      "stage": "final_blind",
-      "run_id": "blind-pursue-20260826T122400Z",
-      "context_id": "blind-pursue-context-20260826T122400Z",
-      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-      "prompt_sha256": "71852446a1e1f8ead61d71e0d68c891c3e753d8476e72ce6998af22468a75d38",
-      "recorded_at": "2026-08-26T12:24:00Z"
-    },
-    "blind_seal": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/blind_seal.json",
-      "sha256": "d73af6c521327e21d94380cd01d9cbd255dd4495e45fca7c17ce70cdc1732840",
-      "stage": "blind_seal"
-    },
-    "final_review": {
-      "path": "audits/runs/p/pursue/20260826T122530Z-c4e8b1f2/final_review.json",
-      "sha256": "50e29b9fbcae48cc51c65757c4ff5531a9cd8c3f2ada5405f6205c1059a8a688",
-      "stage": "final_review",
-      "run_id": "blind-pursue-20260826T122400Z",
-      "context_id": "blind-pursue-context-20260826T122400Z",
-      "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
-      "prompt_sha256": "da33b93133eeb78295502e14cf03c378cbbfeace6dd1b134d14c4713d8d710a3",
-      "recorded_at": "2026-08-26T12:26:24.476553Z"
-    }
-  },
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "pursue",
+  "run_id": "source-pursue-20260826T120200Z",
+  "context_id": "source-pursue-context-20260826T120200Z",
+  "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
+  "prompt_sha256": "0949d8a2afb7f9c3270b562385bafc5a7ca2c7fdde00050a77b8e4558ba57bf2",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-26T12:02:45Z",
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -94,8 +33,8 @@
     "stop_reason": "coverage_axes_closed",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-08-26T12:22:20Z",
-    "article_comparison_started_at": "2026-08-26T12:22:40Z",
+    "inventory_completed_at": "2026-08-26T12:02:20Z",
+    "article_comparison_started_at": "2026-08-26T12:02:40Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -585,17 +524,114 @@
       }
     ]
   },
-  "findings": [],
-  "resolutions": [],
-  "final_decision": {
-    "decision": "pass",
-    "blockers": [],
-    "notes": [
-      "All 129 targets and 82 relations were individually reconciled.",
-      "The independent normal inventory and sealed blind inventory were both checked.",
-      "Source-first coverage is complete with six integrated unions and no unresolved findings."
-    ],
-    "reviewed_at": "2026-08-26T12:26:24.476553Z",
-    "blind_output_sha256": "8db953524001dd0a97dd2aafe6707aab2aa25f260c2aa39cb60b4041aaba3a43"
-  }
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005",
+    "E-006"
+  ],
+  "evidence_links": [
+    {
+      "id": "E-001",
+      "source_fact_ids": [
+        "F-001",
+        "F-006",
+        "F-012"
+      ],
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "collocation:001",
+        "collocation:002"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "follow a person or thing to catch, overtake, or defeat it"
+    },
+    {
+      "id": "E-002",
+      "source_fact_ids": [
+        "F-002",
+        "F-007",
+        "F-011"
+      ],
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004",
+        "collocation:006",
+        "collocation:008"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "work toward a goal, career, degree, plan, or activity over time"
+    },
+    {
+      "id": "E-003",
+      "source_fact_ids": [
+        "F-003",
+        "F-008",
+        "F-013"
+      ],
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:008",
+        "collocation:011",
+        "collocation:013"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "continue an investigation, discussion, matter, claim, or legal action"
+    },
+    {
+      "id": "E-004",
+      "source_fact_ids": [
+        "F-004",
+        "F-009"
+      ],
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:013",
+        "collocation:016",
+        "word_formation:001"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "proceed along a course, route, or line while using the regular verb forms"
+    },
+    {
+      "id": "E-005",
+      "source_fact_ids": [
+        "F-010"
+      ],
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:017",
+        "collocation:021"
+      ],
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/pursue",
+      "source_excerpt_or_summary": "try to develop a romantic relationship with someone, with register caution"
+    },
+    {
+      "id": "E-006",
+      "source_fact_ids": [
+        "F-005",
+        "F-014",
+        "F-015"
+      ],
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:020",
+        "collocation:026",
+        "etymology:001",
+        "word_formation:003"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/pursue",
+      "source_excerpt_or_summary": "figuratively continue to afflict or haunt, from Latin forward-plus-follow"
+    }
+  ],
+  "notes": "Inventory completed from independent general-lexicon groups before article comparison."
 }

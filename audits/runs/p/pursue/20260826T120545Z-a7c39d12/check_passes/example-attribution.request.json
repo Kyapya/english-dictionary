@@ -1,0 +1,258 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "0caf3ea37d366b1630d8b64b651678de83d460f36d9d4b2879132c3fb8de79ea",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 44,
+        "label": "1. 【他動詞・追跡】人・動物・乗り物などを追跡する、追いかける",
+        "definition": "人、動物、車などの後を追い、特に捕まえる、追い越す、倒すなどの目的で追跡する。実際の速度や距離を述べる場合にも、警察・報道・競技などの比喩的な追跡にも使う。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 122,
+        "label": "2. 【他動詞・目標】目標・夢・職業などを追求する、目指す",
+        "definition": "目標、夢、学位、職業、幸福などを実現・獲得しようとして、時間をかけて努力を続ける。単に欲しいと思うことではなく、目的に向けて行動していることに焦点がある。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 200,
+        "label": "3. 【他動詞・継続／案件】計画・方針・活動・案件などを続けて進める、追及する",
+        "definition": "すでに選んだ計画、方針、研究、活動、問題、請求などに継続して関わり、さらに調べたり実行したりする。目標を新たに設定するというより、進行中の事柄を途中でやめずに進めることに焦点がある。法律用法では、claim、case、legal action などを手続きとして進める意味になる。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 278,
+        "label": "4. 【他動詞・進路／方針】道筋・進路・論理などをたどって進む",
+        "definition": "船や人が特定の進路を取ること、または議論・調査・推論が特定の方向や筋道に沿って進むことを表す。目的を追求する語義2や案件を続ける語義3より、どの道筋をたどるかに焦点がある。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 356,
+        "label": "5. 【他動詞・恋愛】人に恋愛・性的な関係を求めて働きかけ続ける、口説く",
+        "definition": "特定の人に恋愛関係や性的な関係を求め、繰り返し連絡したり誘ったりして働きかける。相手の関心を得ようとする中立的な記述にも、しつこく迫るという否定的な評価にも使われるため、文脈と受け手の意思に注意が必要である。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 434,
+        "label": "6. 【他動詞・比喩／文語】記憶・恐怖・罪悪感などが人につきまとう、苦しめ続ける",
+        "definition": "記憶、恐怖、罪悪感、不運などが人の意識や生活から離れず、繰り返し苦しめる。通常は受け身の be pursued by 〈感情・記憶〉で使い、実際に対象を追いかける意味ではない。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "example:001",
+        "line": 58,
+        "example": "Police pursued the suspect through several side streets.",
+        "translation": "警察は何本もの脇道を通って容疑者を追跡した。"
+      },
+      {
+        "example_id": "example:002",
+        "line": 63,
+        "example": "Officers pursued the fleeing vehicle until it stopped near the bridge.",
+        "translation": "警官たちは逃走車両を橋の近くで止まるまで追跡した。"
+      },
+      {
+        "example_id": "example:003",
+        "line": 68,
+        "example": "The driver was pursued by police after ignoring the roadblock.",
+        "translation": "その運転手は道路封鎖を無視した後、警察に追跡された。"
+      },
+      {
+        "example_id": "example:004",
+        "line": 73,
+        "example": "The dogs hotly pursued the fox across the field.",
+        "translation": "その犬たちは野原を横切ってキツネを激しく追跡した。"
+      },
+      {
+        "example_id": "example:005",
+        "line": 78,
+        "example": "The wolves pursued their prey across the frozen plain.",
+        "translation": "オオカミたちは凍った平原を越えて獲物を追った。"
+      },
+      {
+        "example_id": "example:006",
+        "line": 136,
+        "example": "The team is pursuing a goal of reducing waste by half.",
+        "translation": "そのチームは廃棄物を半減させるという目標を追求している。"
+      },
+      {
+        "example_id": "example:007",
+        "line": 141,
+        "example": "She left her secure job to pursue her dream of becoming a chef.",
+        "translation": "彼女は料理人になる夢を追うため、安定した仕事を辞めた。"
+      },
+      {
+        "example_id": "example:008",
+        "line": 146,
+        "example": "He moved to the city to pursue a career in environmental law.",
+        "translation": "彼は環境法の分野でのキャリアを目指して都会へ移った。"
+      },
+      {
+        "example_id": "example:009",
+        "line": 151,
+        "example": "She is pursuing a degree in computer science while working full-time.",
+        "translation": "彼女はフルタイムで働きながら、コンピューターサイエンスの学位取得を目指している。"
+      },
+      {
+        "example_id": "example:010",
+        "line": 156,
+        "example": "Many people pursue happiness without defining what it means to them.",
+        "translation": "多くの人は、自分にとってそれが何を意味するかを定義しないまま幸福を追い求める。"
+      },
+      {
+        "example_id": "example:011",
+        "line": 214,
+        "example": "The government continues to pursue a policy of gradual reform.",
+        "translation": "政府は段階的な改革方針を引き続き進めている。"
+      },
+      {
+        "example_id": "example:012",
+        "line": 219,
+        "example": "He pursued his interest in astronomy through evening classes.",
+        "translation": "彼は夜間講座を通して天文学への関心を深めた。"
+      },
+      {
+        "example_id": "example:013",
+        "line": 224,
+        "example": "The tenants are considering whether to pursue legal action.",
+        "translation": "その入居者たちは法的措置を進めるかどうか検討している。"
+      },
+      {
+        "example_id": "example:014",
+        "line": 229,
+        "example": "The customer decided to pursue a claim for compensation.",
+        "translation": "その顧客は補償を請求する手続きを進めることにした。"
+      },
+      {
+        "example_id": "example:015",
+        "line": 234,
+        "example": "We need more evidence before we pursue the matter further.",
+        "translation": "その問題をさらに追及する前に、私たちはより多くの証拠が必要だ。"
+      },
+      {
+        "example_id": "example:016",
+        "line": 292,
+        "example": "The vessel pursued a northerly course after leaving the island.",
+        "translation": "その船は島を離れた後、北向きの進路を取った。"
+      },
+      {
+        "example_id": "example:017",
+        "line": 297,
+        "example": "The board chose to pursue a cautious course of action.",
+        "translation": "取締役会は慎重な行動方針を取ることを選んだ。"
+      },
+      {
+        "example_id": "example:018",
+        "line": 302,
+        "example": "The investigators pursued a new line of inquiry.",
+        "translation": "捜査官たちは新たな捜査の方向を追った。"
+      },
+      {
+        "example_id": "example:019",
+        "line": 307,
+        "example": "The essay pursues a line of reasoning based on historical evidence.",
+        "translation": "その論文は歴史的証拠に基づく論理の筋道に沿って論じている。"
+      },
+      {
+        "example_id": "example:020",
+        "line": 312,
+        "example": "The expedition pursued a route along the western ridge.",
+        "translation": "その探検隊は西側の尾根に沿う経路をたどった。"
+      },
+      {
+        "example_id": "example:021",
+        "line": 370,
+        "example": "He pursued her romantically even after she said she was not interested.",
+        "translation": "彼は彼女が興味がないと言った後も、恋愛目的で彼女に迫り続けた。"
+      },
+      {
+        "example_id": "example:022",
+        "line": 375,
+        "example": "She was unsure whether to pursue a relationship with her colleague.",
+        "translation": "彼女は同僚と交際を始めようとするべきか迷っていた。"
+      },
+      {
+        "example_id": "example:023",
+        "line": 380,
+        "example": "She was actively pursued by a colleague who wanted to date her.",
+        "translation": "彼女は交際を望む同僚から積極的に言い寄られていた。"
+      },
+      {
+        "example_id": "example:024",
+        "line": 385,
+        "example": "The novel follows a young woman who pursues a love interest abroad.",
+        "translation": "その小説は、海外にいる意中の人との関係を求める若い女性を描いている。"
+      },
+      {
+        "example_id": "example:025",
+        "line": 390,
+        "example": "He pursued her for months before she agreed to a date.",
+        "translation": "彼は彼女がデートに応じるまで、何か月も彼女にアプローチし続けた。"
+      },
+      {
+        "example_id": "example:026",
+        "line": 448,
+        "example": "She was pursued by memories of the accident for years.",
+        "translation": "彼女は何年もの間、事故の記憶に苦しめられた。"
+      },
+      {
+        "example_id": "example:027",
+        "line": 453,
+        "example": "He was pursued by fear long after the danger had passed.",
+        "translation": "危険が去ったずっと後も、彼は恐怖に追われていた。"
+      },
+      {
+        "example_id": "example:028",
+        "line": 458,
+        "example": "The character is pursued by guilt over what he did.",
+        "translation": "その登場人物は自分のしたことへの罪悪感に苦しめられている。"
+      },
+      {
+        "example_id": "example:029",
+        "line": 463,
+        "example": "The witness was relentlessly pursued by anxiety before the trial.",
+        "translation": "その証人は裁判を前に、執拗な不安に苦しめられた。"
+      },
+      {
+        "example_id": "example:030",
+        "line": 468,
+        "example": "The memory of the accident continued to pursue him in his dreams.",
+        "translation": "事故の記憶は夢の中でも彼につきまとい続けた。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

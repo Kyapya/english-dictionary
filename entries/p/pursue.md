@@ -68,10 +68,10 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 例: The driver was pursued by police after ignoring the roadblock.  
 訳: その運転手は道路封鎖を無視した後、警察に追跡された。  
 
-・hotly pursue 〈a target〉  
-用途: 目標を激しく、執拗に追跡することを表す。  
-例: The two teams are hotly pursuing the championship.  
-訳: その2チームは優勝を激しく争っている。  
+・hotly pursue 〈逃げる動物・犯人〉  
+用途: 逃げる対象を激しく、執拗に追跡することを表す。  
+例: The dogs hotly pursued the fox across the field.  
+訳: その犬たちは野原を横切ってキツネを激しく追跡した。  
 
 ・pursue prey  
 用途: 動物や狩猟者が獲物を追うことを表す。  
@@ -87,7 +87,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 頻度: 〈10/10〉  
 違い: chase は日常的で速度や追いかける動作を直接的に示す。pursue は継続的な追跡や硬い文体にも使いやすい。  
 例: The child chased the balloon down the street.  
-訳: その子どもは通りを風船めがけて追いかけた。  
+訳: その子どもは風船を追って通りを駆けていった。  
 
 ・follow  
 定義: 人・物の後について行く、後をたどる。  
@@ -227,7 +227,7 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 ・pursue a claim  
 用途: 権利・賠償などの請求を手続きとして追及することを表す。  
 例: The customer decided to pursue a claim for compensation.  
-訳: その顧客は補償請求を追及することに決めた。  
+訳: その顧客は補償を請求する手続きを進めることにした。  
 
 ・pursue the matter further  
 用途: 問題をさらに調べたり、交渉・手続きを続けたりすることを表す。  
@@ -377,8 +377,8 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 ・be actively pursued by 〈人〉  
 用途: 相手から積極的に交際や関心を求められている状態を表す。  
-例: The actor was actively pursued by several magazines for an interview.  
-訳: その俳優には、複数の雑誌がインタビューを求めて積極的に接触した。  
+例: She was actively pursued by a colleague who wanted to date her.  
+訳: 彼女は交際を望む同僚から積極的に言い寄られていた。  
 
 ・pursue a love interest  
 用途: 好意を寄せる相手との関係を得ようとすることを表す。  
@@ -386,9 +386,9 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 訳: その小説は、海外にいる意中の人との関係を求める若い女性を描いている。  
 
 ・pursue someone for months  
-用途: 数か月にわたって人に働きかけ続けることを表す。  
-例: The journalist pursued the source for months before receiving a reply.  
-訳: その記者は返事を受け取るまで何か月も情報源を追い続けた。  
+用途: 恋愛関係を求めて、数か月にわたり相手に働きかけ続けることを表す。  
+例: He pursued her for months before she agreed to a date.  
+訳: 彼は彼女がデートに応じるまで、何か月も彼女にアプローチし続けた。  
 
 【語法・注意】恋愛の pursue は「付き合っている」ことを意味せず、関係を始めようとする側の継続的な働きかけを表す。相手が明確に拒否した後も続ける文脈では、しつこい・迷惑な含みが強くなる。人を追跡する語義1、恋愛関係を求める語義5、情報源や案件を追う語義3は、目的語と文脈で区別する。  
 
@@ -465,8 +465,8 @@ pursue の核は、対象の後を追いながら、前へ進み続けること�
 
 ・pursue someone in dreams  
 用途: 記憶や恐怖が夢の中でも人につきまとうことを表す。  
-例: The old house continued to pursue him in dreams.  
-訳: その古い家は夢の中でも彼につきまとい続けた。  
+例: The memory of the accident continued to pursue him in his dreams.  
+訳: 事故の記憶は夢の中でも彼につきまとい続けた。  
 
 【語法・注意】この用法の主語は memory、fear、guilt、misfortune などで、受け身が特に自然である。haunt は記憶や場所などが長く心につきまとう語、plague は問題・病気・人が繰り返し苦しめる語で、pursue は「追い続ける」という比喩を残した文語的な響きがある。物理的な追跡義から、対象が人の後を離れず続くという関係だけを比喩的に引き継いでいる。  
 
