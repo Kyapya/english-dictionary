@@ -1,0 +1,2484 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-yield-20260826T130100Z-yield01",
+  "context_id": "blind-yield-context-20260826T130100Z-yield01",
+  "input_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+  "prompt_sha256": "2f21d525cbc33c68d7aa73d873a3220be5dc33680ecb8db6f45509df3ef2366d",
+  "blind_output_sha256": "d15213cd758e0596af613cac2405110b0f0125611da25c02e5c911764373a845",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-08-26T13:05:15.928247Z",
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "All 173 targets and 110 relations were individually reconciled.",
+    "The independent normal inventory and sealed blind inventory were both checked.",
+    "Source-first coverage is complete with eleven integrated unions and no unresolved findings."
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target pronunciation:001."
+    },
+    {
+      "id": "pronunciation:002",
+      "target_id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target pronunciation:002."
+    },
+    {
+      "id": "pronunciation:003",
+      "target_id": "pronunciation:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target pronunciation:003."
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target etymology:001."
+    },
+    {
+      "id": "etymology:002",
+      "target_id": "etymology:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target etymology:002."
+    },
+    {
+      "id": "etymology:003",
+      "target_id": "etymology:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target etymology:003."
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target word_formation:001."
+    },
+    {
+      "id": "word_formation:002",
+      "target_id": "word_formation:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target word_formation:002."
+    },
+    {
+      "id": "word_formation:003",
+      "target_id": "word_formation:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target word_formation:003."
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:001."
+    },
+    {
+      "id": "core_image:002",
+      "target_id": "core_image:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:002."
+    },
+    {
+      "id": "core_image:003",
+      "target_id": "core_image:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:003."
+    },
+    {
+      "id": "core_image:004",
+      "target_id": "core_image:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:004."
+    },
+    {
+      "id": "core_image:005",
+      "target_id": "core_image:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:005."
+    },
+    {
+      "id": "core_image:006",
+      "target_id": "core_image:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:006."
+    },
+    {
+      "id": "core_image:007",
+      "target_id": "core_image:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:007."
+    },
+    {
+      "id": "core_image:008",
+      "target_id": "core_image:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:008."
+    },
+    {
+      "id": "core_image:009",
+      "target_id": "core_image:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:009."
+    },
+    {
+      "id": "core_image:010",
+      "target_id": "core_image:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article target core_image:010."
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:001."
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:001."
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:001."
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:001."
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:001."
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:002."
+    },
+    {
+      "id": "grammar_pattern:003",
+      "target_id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:003."
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:001."
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:002."
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:003."
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:004."
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:001."
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:001."
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:002."
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:003."
+    },
+    {
+      "id": "antonym:001",
+      "target_id": "antonym:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:001."
+    },
+    {
+      "id": "antonym:002",
+      "target_id": "antonym:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:002."
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:002."
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:002."
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:002."
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:002."
+    },
+    {
+      "id": "grammar_pattern:004",
+      "target_id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:004."
+    },
+    {
+      "id": "grammar_pattern:005",
+      "target_id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:005."
+    },
+    {
+      "id": "grammar_pattern:006",
+      "target_id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:006."
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:005."
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:006."
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:007."
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:008."
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:002."
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:004."
+    },
+    {
+      "id": "synonym:005",
+      "target_id": "synonym:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:005."
+    },
+    {
+      "id": "synonym:006",
+      "target_id": "synonym:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:006."
+    },
+    {
+      "id": "antonym:003",
+      "target_id": "antonym:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:003."
+    },
+    {
+      "id": "antonym:004",
+      "target_id": "antonym:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:004."
+    },
+    {
+      "id": "sense_boundary:003",
+      "target_id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:003."
+    },
+    {
+      "id": "definition:003",
+      "target_id": "definition:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:003."
+    },
+    {
+      "id": "frequency:003",
+      "target_id": "frequency:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:003."
+    },
+    {
+      "id": "register:003",
+      "target_id": "register:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:003."
+    },
+    {
+      "id": "grammar_pattern:007",
+      "target_id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:007."
+    },
+    {
+      "id": "grammar_pattern:008",
+      "target_id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:008."
+    },
+    {
+      "id": "grammar_pattern:009",
+      "target_id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:009."
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:009."
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:010."
+    },
+    {
+      "id": "collocation:011",
+      "target_id": "collocation:011",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:011."
+    },
+    {
+      "id": "collocation:012",
+      "target_id": "collocation:012",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:012."
+    },
+    {
+      "id": "usage_note:003",
+      "target_id": "usage_note:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:003."
+    },
+    {
+      "id": "synonym:007",
+      "target_id": "synonym:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:007."
+    },
+    {
+      "id": "synonym:008",
+      "target_id": "synonym:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:008."
+    },
+    {
+      "id": "synonym:009",
+      "target_id": "synonym:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:009."
+    },
+    {
+      "id": "antonym:005",
+      "target_id": "antonym:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:005."
+    },
+    {
+      "id": "antonym:006",
+      "target_id": "antonym:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:006."
+    },
+    {
+      "id": "sense_boundary:004",
+      "target_id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:004."
+    },
+    {
+      "id": "definition:004",
+      "target_id": "definition:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:004."
+    },
+    {
+      "id": "frequency:004",
+      "target_id": "frequency:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:004."
+    },
+    {
+      "id": "register:004",
+      "target_id": "register:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:004."
+    },
+    {
+      "id": "grammar_pattern:010",
+      "target_id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:010."
+    },
+    {
+      "id": "grammar_pattern:011",
+      "target_id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:011."
+    },
+    {
+      "id": "grammar_pattern:012",
+      "target_id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:012."
+    },
+    {
+      "id": "grammar_pattern:013",
+      "target_id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:013."
+    },
+    {
+      "id": "collocation:013",
+      "target_id": "collocation:013",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:013."
+    },
+    {
+      "id": "collocation:014",
+      "target_id": "collocation:014",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:014."
+    },
+    {
+      "id": "collocation:015",
+      "target_id": "collocation:015",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:015."
+    },
+    {
+      "id": "collocation:016",
+      "target_id": "collocation:016",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:016."
+    },
+    {
+      "id": "usage_note:004",
+      "target_id": "usage_note:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:004."
+    },
+    {
+      "id": "synonym:010",
+      "target_id": "synonym:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:010."
+    },
+    {
+      "id": "synonym:011",
+      "target_id": "synonym:011",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:011."
+    },
+    {
+      "id": "synonym:012",
+      "target_id": "synonym:012",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:012."
+    },
+    {
+      "id": "antonym:007",
+      "target_id": "antonym:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:007."
+    },
+    {
+      "id": "antonym:008",
+      "target_id": "antonym:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:008."
+    },
+    {
+      "id": "sense_boundary:005",
+      "target_id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:005."
+    },
+    {
+      "id": "definition:005",
+      "target_id": "definition:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:005."
+    },
+    {
+      "id": "frequency:005",
+      "target_id": "frequency:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:005."
+    },
+    {
+      "id": "register:005",
+      "target_id": "register:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:005."
+    },
+    {
+      "id": "grammar_pattern:014",
+      "target_id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:014."
+    },
+    {
+      "id": "grammar_pattern:015",
+      "target_id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:015."
+    },
+    {
+      "id": "grammar_pattern:016",
+      "target_id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:016."
+    },
+    {
+      "id": "grammar_pattern:017",
+      "target_id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:017."
+    },
+    {
+      "id": "collocation:017",
+      "target_id": "collocation:017",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:017."
+    },
+    {
+      "id": "collocation:018",
+      "target_id": "collocation:018",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:018."
+    },
+    {
+      "id": "collocation:019",
+      "target_id": "collocation:019",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:019."
+    },
+    {
+      "id": "collocation:020",
+      "target_id": "collocation:020",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:020."
+    },
+    {
+      "id": "usage_note:005",
+      "target_id": "usage_note:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:005."
+    },
+    {
+      "id": "synonym:013",
+      "target_id": "synonym:013",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:013."
+    },
+    {
+      "id": "synonym:014",
+      "target_id": "synonym:014",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:014."
+    },
+    {
+      "id": "synonym:015",
+      "target_id": "synonym:015",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:015."
+    },
+    {
+      "id": "antonym:009",
+      "target_id": "antonym:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:009."
+    },
+    {
+      "id": "antonym:010",
+      "target_id": "antonym:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:010."
+    },
+    {
+      "id": "sense_boundary:006",
+      "target_id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:006."
+    },
+    {
+      "id": "definition:006",
+      "target_id": "definition:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:006."
+    },
+    {
+      "id": "frequency:006",
+      "target_id": "frequency:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:006."
+    },
+    {
+      "id": "register:006",
+      "target_id": "register:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:006."
+    },
+    {
+      "id": "grammar_pattern:018",
+      "target_id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:018."
+    },
+    {
+      "id": "grammar_pattern:019",
+      "target_id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:019."
+    },
+    {
+      "id": "grammar_pattern:020",
+      "target_id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:020."
+    },
+    {
+      "id": "collocation:021",
+      "target_id": "collocation:021",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:021."
+    },
+    {
+      "id": "collocation:022",
+      "target_id": "collocation:022",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:022."
+    },
+    {
+      "id": "collocation:023",
+      "target_id": "collocation:023",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:023."
+    },
+    {
+      "id": "collocation:024",
+      "target_id": "collocation:024",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:024."
+    },
+    {
+      "id": "usage_note:006",
+      "target_id": "usage_note:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:006."
+    },
+    {
+      "id": "synonym:016",
+      "target_id": "synonym:016",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:016."
+    },
+    {
+      "id": "synonym:017",
+      "target_id": "synonym:017",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:017."
+    },
+    {
+      "id": "synonym:018",
+      "target_id": "synonym:018",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:018."
+    },
+    {
+      "id": "antonym:011",
+      "target_id": "antonym:011",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:011."
+    },
+    {
+      "id": "antonym:012",
+      "target_id": "antonym:012",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:012."
+    },
+    {
+      "id": "sense_boundary:007",
+      "target_id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:007."
+    },
+    {
+      "id": "definition:007",
+      "target_id": "definition:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:007."
+    },
+    {
+      "id": "frequency:007",
+      "target_id": "frequency:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:007."
+    },
+    {
+      "id": "register:007",
+      "target_id": "register:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:007."
+    },
+    {
+      "id": "grammar_pattern:021",
+      "target_id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:021."
+    },
+    {
+      "id": "grammar_pattern:022",
+      "target_id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:022."
+    },
+    {
+      "id": "collocation:025",
+      "target_id": "collocation:025",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:025."
+    },
+    {
+      "id": "collocation:026",
+      "target_id": "collocation:026",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:026."
+    },
+    {
+      "id": "collocation:027",
+      "target_id": "collocation:027",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:027."
+    },
+    {
+      "id": "collocation:028",
+      "target_id": "collocation:028",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:028."
+    },
+    {
+      "id": "usage_note:007",
+      "target_id": "usage_note:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:007."
+    },
+    {
+      "id": "synonym:019",
+      "target_id": "synonym:019",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:019."
+    },
+    {
+      "id": "synonym:020",
+      "target_id": "synonym:020",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:020."
+    },
+    {
+      "id": "synonym:021",
+      "target_id": "synonym:021",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:021."
+    },
+    {
+      "id": "antonym:013",
+      "target_id": "antonym:013",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:013."
+    },
+    {
+      "id": "antonym:014",
+      "target_id": "antonym:014",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:014."
+    },
+    {
+      "id": "sense_boundary:008",
+      "target_id": "sense_boundary:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:008."
+    },
+    {
+      "id": "definition:008",
+      "target_id": "definition:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:008."
+    },
+    {
+      "id": "frequency:008",
+      "target_id": "frequency:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:008."
+    },
+    {
+      "id": "register:008",
+      "target_id": "register:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:008."
+    },
+    {
+      "id": "grammar_pattern:023",
+      "target_id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:023."
+    },
+    {
+      "id": "grammar_pattern:024",
+      "target_id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:024."
+    },
+    {
+      "id": "collocation:029",
+      "target_id": "collocation:029",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:029."
+    },
+    {
+      "id": "collocation:030",
+      "target_id": "collocation:030",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:030."
+    },
+    {
+      "id": "collocation:031",
+      "target_id": "collocation:031",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:031."
+    },
+    {
+      "id": "collocation:032",
+      "target_id": "collocation:032",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:032."
+    },
+    {
+      "id": "usage_note:008",
+      "target_id": "usage_note:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:008."
+    },
+    {
+      "id": "synonym:022",
+      "target_id": "synonym:022",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:022."
+    },
+    {
+      "id": "synonym:023",
+      "target_id": "synonym:023",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:023."
+    },
+    {
+      "id": "synonym:024",
+      "target_id": "synonym:024",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:024."
+    },
+    {
+      "id": "antonym:015",
+      "target_id": "antonym:015",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:015."
+    },
+    {
+      "id": "antonym:016",
+      "target_id": "antonym:016",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:016."
+    },
+    {
+      "id": "sense_boundary:009",
+      "target_id": "sense_boundary:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target sense_boundary:009."
+    },
+    {
+      "id": "definition:009",
+      "target_id": "definition:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target definition:009."
+    },
+    {
+      "id": "frequency:009",
+      "target_id": "frequency:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target frequency:009."
+    },
+    {
+      "id": "register:009",
+      "target_id": "register:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target register:009."
+    },
+    {
+      "id": "grammar_pattern:025",
+      "target_id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:025."
+    },
+    {
+      "id": "grammar_pattern:026",
+      "target_id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:026."
+    },
+    {
+      "id": "grammar_pattern:027",
+      "target_id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:027."
+    },
+    {
+      "id": "grammar_pattern:028",
+      "target_id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "Verified against the current yield article target grammar_pattern:028."
+    },
+    {
+      "id": "collocation:033",
+      "target_id": "collocation:033",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:033."
+    },
+    {
+      "id": "collocation:034",
+      "target_id": "collocation:034",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:034."
+    },
+    {
+      "id": "collocation:035",
+      "target_id": "collocation:035",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:035."
+    },
+    {
+      "id": "collocation:036",
+      "target_id": "collocation:036",
+      "status": "pass",
+      "notes": "Verified against the current yield article target collocation:036."
+    },
+    {
+      "id": "usage_note:009",
+      "target_id": "usage_note:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article target usage_note:009."
+    },
+    {
+      "id": "synonym:025",
+      "target_id": "synonym:025",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:025."
+    },
+    {
+      "id": "synonym:026",
+      "target_id": "synonym:026",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:026."
+    },
+    {
+      "id": "synonym:027",
+      "target_id": "synonym:027",
+      "status": "pass",
+      "notes": "Verified against the current yield article target synonym:027."
+    },
+    {
+      "id": "antonym:017",
+      "target_id": "antonym:017",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:017."
+    },
+    {
+      "id": "antonym:018",
+      "target_id": "antonym:018",
+      "status": "pass",
+      "notes": "Verified against the current yield article target antonym:018."
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "relation_id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:001."
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "relation_id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:002."
+    },
+    {
+      "id": "risk_sense_pair:003",
+      "relation_id": "risk_sense_pair:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:003."
+    },
+    {
+      "id": "risk_sense_pair:004",
+      "relation_id": "risk_sense_pair:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:004."
+    },
+    {
+      "id": "risk_sense_pair:005",
+      "relation_id": "risk_sense_pair:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:005."
+    },
+    {
+      "id": "risk_sense_pair:006",
+      "relation_id": "risk_sense_pair:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:006."
+    },
+    {
+      "id": "risk_sense_pair:007",
+      "relation_id": "risk_sense_pair:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:007."
+    },
+    {
+      "id": "risk_sense_pair:008",
+      "relation_id": "risk_sense_pair:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation risk_sense_pair:008."
+    },
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:001."
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:002."
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:003."
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:004."
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:005."
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:006."
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:007."
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:008."
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:009."
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:010."
+    },
+    {
+      "id": "example_translation:011",
+      "relation_id": "example_translation:011",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:011."
+    },
+    {
+      "id": "example_translation:012",
+      "relation_id": "example_translation:012",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:012."
+    },
+    {
+      "id": "example_translation:013",
+      "relation_id": "example_translation:013",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:013."
+    },
+    {
+      "id": "example_translation:014",
+      "relation_id": "example_translation:014",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:014."
+    },
+    {
+      "id": "example_translation:015",
+      "relation_id": "example_translation:015",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:015."
+    },
+    {
+      "id": "example_translation:016",
+      "relation_id": "example_translation:016",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:016."
+    },
+    {
+      "id": "example_translation:017",
+      "relation_id": "example_translation:017",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:017."
+    },
+    {
+      "id": "example_translation:018",
+      "relation_id": "example_translation:018",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:018."
+    },
+    {
+      "id": "example_translation:019",
+      "relation_id": "example_translation:019",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:019."
+    },
+    {
+      "id": "example_translation:020",
+      "relation_id": "example_translation:020",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:020."
+    },
+    {
+      "id": "example_translation:021",
+      "relation_id": "example_translation:021",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:021."
+    },
+    {
+      "id": "example_translation:022",
+      "relation_id": "example_translation:022",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:022."
+    },
+    {
+      "id": "example_translation:023",
+      "relation_id": "example_translation:023",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:023."
+    },
+    {
+      "id": "example_translation:024",
+      "relation_id": "example_translation:024",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:024."
+    },
+    {
+      "id": "example_translation:025",
+      "relation_id": "example_translation:025",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:025."
+    },
+    {
+      "id": "example_translation:026",
+      "relation_id": "example_translation:026",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:026."
+    },
+    {
+      "id": "example_translation:027",
+      "relation_id": "example_translation:027",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:027."
+    },
+    {
+      "id": "example_translation:028",
+      "relation_id": "example_translation:028",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:028."
+    },
+    {
+      "id": "example_translation:029",
+      "relation_id": "example_translation:029",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:029."
+    },
+    {
+      "id": "example_translation:030",
+      "relation_id": "example_translation:030",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:030."
+    },
+    {
+      "id": "example_translation:031",
+      "relation_id": "example_translation:031",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:031."
+    },
+    {
+      "id": "example_translation:032",
+      "relation_id": "example_translation:032",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:032."
+    },
+    {
+      "id": "example_translation:033",
+      "relation_id": "example_translation:033",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:033."
+    },
+    {
+      "id": "example_translation:034",
+      "relation_id": "example_translation:034",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:034."
+    },
+    {
+      "id": "example_translation:035",
+      "relation_id": "example_translation:035",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:035."
+    },
+    {
+      "id": "example_translation:036",
+      "relation_id": "example_translation:036",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation example_translation:036."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:001."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:001."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:001."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:001."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:002."
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "relation_id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:003."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:002."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:002."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:002."
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "relation_id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:004."
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "relation_id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:005."
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "relation_id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:006."
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "relation_id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:003."
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "relation_id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:003."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "relation_id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:003."
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "relation_id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:007."
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "relation_id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:008."
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "relation_id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:009."
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "relation_id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:004."
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "relation_id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:004."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "relation_id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:004."
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "relation_id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:010."
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "relation_id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:011."
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "relation_id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:012."
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "relation_id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:013."
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "relation_id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:005."
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "relation_id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:005."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "relation_id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:005."
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "relation_id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:014."
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "relation_id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:015."
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "relation_id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:016."
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "relation_id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:017."
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "relation_id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:006."
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "relation_id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:006."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "relation_id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:006."
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "relation_id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:018."
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "relation_id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:019."
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "relation_id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:020."
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "relation_id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:007."
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "relation_id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:007."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "relation_id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:007."
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "relation_id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:021."
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "relation_id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:022."
+    },
+    {
+      "id": "sense_definition_consistency:008",
+      "relation_id": "sense_definition_consistency:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:008."
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "relation_id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:008."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:008",
+      "relation_id": "definition_lexical_relation_consistency:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:008."
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "relation_id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:023."
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "relation_id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:024."
+    },
+    {
+      "id": "sense_definition_consistency:009",
+      "relation_id": "sense_definition_consistency:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation sense_definition_consistency:009."
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "relation_id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_usage_consistency:009."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:009",
+      "relation_id": "definition_lexical_relation_consistency:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation definition_lexical_relation_consistency:009."
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "relation_id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:025."
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "relation_id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:026."
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "relation_id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:027."
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "relation_id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation pattern_example_coverage:028."
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "relation_id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_inventory_consistency:001."
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "relation_id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:001."
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "relation_id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:002."
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "relation_id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:003."
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "relation_id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:004."
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "relation_id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:005."
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "relation_id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:006."
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "relation_id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:007."
+    },
+    {
+      "id": "core_sense_mapping:008",
+      "relation_id": "core_sense_mapping:008",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:008."
+    },
+    {
+      "id": "core_sense_mapping:009",
+      "relation_id": "core_sense_mapping:009",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation core_sense_mapping:009."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Verified against the current yield article relation article_learning_risk:001."
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "yield + crop/result/information",
+      "frame": "yield 〈作物・結果・情報〉",
+      "meaning": "作物、結果、情報などを産出する",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The article must keep a transitive production sense for crops, results, or information distinct from financial yield.",
+          "polarity": "must_hold",
+          "scope": "sense 1"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "yield + financial return",
+      "frame": "〈資産・投資〉 yield 〈割合・収益〉",
+      "meaning": "資産や投資が利回り・収益を生む",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The article must keep the financial verb sense in which an asset or investment produces a return or rate.",
+          "polarity": "must_hold",
+          "scope": "sense 2"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "yield + control/possession",
+      "frame": "yield 〈所有・支配・領土〉 to 〈相手〉",
+      "meaning": "所有・支配・領土を譲る",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "The article must distinguish direct surrender of control or possession from yielding to pressure.",
+          "polarity": "must_hold",
+          "scope": "sense 3"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "yield to + pressure/demand",
+      "frame": "yield to 〈圧力・要求・誘惑〉",
+      "meaning": "圧力や要求に屈する",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004-SA-001",
+          "statement": "The article must represent yield to pressure, demands, or temptation as an intransitive give-way pattern.",
+          "polarity": "must_hold",
+          "scope": "sense 4"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "yield + traffic/priority",
+      "frame": "yield to 〈交通・相手〉",
+      "meaning": "道や優先権を譲る",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005-SA-001",
+          "statement": "The article must keep traffic and priority uses distinct and include the regional qualification for traffic yield.",
+          "polarity": "must_hold",
+          "scope": "sense 5"
+        }
+      ]
+    },
+    {
+      "id": "IC-006",
+      "surface_form": "yield + material/force",
+      "frame": "〈物体・材料〉 yield under/to 〈力〉",
+      "meaning": "物体や材料が力でたわむ・変形する",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-006-SA-001",
+          "statement": "The article must describe physical yielding as material deformation or giving way under force, not human submission.",
+          "polarity": "must_hold",
+          "scope": "sense 6"
+        }
+      ]
+    },
+    {
+      "id": "IC-007",
+      "surface_form": "yield to + successor",
+      "frame": "〈旧制度・方法〉 yield to 〈新しいもの〉",
+      "meaning": "古いものが新しいものに取って代わられる",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-007-SA-001",
+          "statement": "The article must identify yield to a successor as replacement or giving place, not pressure-based submission.",
+          "polarity": "must_hold",
+          "scope": "sense 7"
+        }
+      ]
+    },
+    {
+      "id": "IC-008",
+      "surface_form": "yield + baseball result",
+      "frame": "yield 〈安打・得点・四球〉",
+      "meaning": "投手が安打や得点を許す",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-008-SA-001",
+          "statement": "The article must preserve the baseball use in which a pitcher allows hits, runs, or walks.",
+          "polarity": "must_hold",
+          "scope": "sense 8"
+        }
+      ]
+    },
+    {
+      "id": "IC-009",
+      "surface_form": "noun yield",
+      "frame": "a 〈high・low〉 yield / bond yield",
+      "meaning": "産出量・収益・利回り",
+      "disposition": "included",
+      "rationale": "The isolated final inventory retains the article's independently testable sense boundary.",
+      "semantic_assertions": [
+        {
+          "id": "IC-009-SA-001",
+          "statement": "The article must distinguish the noun yield as crop output or financial return from the verb uses.",
+          "polarity": "must_hold",
+          "scope": "sense 9"
+        }
+      ]
+    }
+  ],
+  "normal_candidate_results": [
+    {
+      "id": "NC-001",
+      "candidate_id": "NC-001",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-001 is represented and checked."
+    },
+    {
+      "id": "NC-002",
+      "candidate_id": "NC-002",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-002 is represented and checked."
+    },
+    {
+      "id": "NC-003",
+      "candidate_id": "NC-003",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-003 is represented and checked."
+    },
+    {
+      "id": "NC-004",
+      "candidate_id": "NC-004",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-004 is represented and checked."
+    },
+    {
+      "id": "NC-005",
+      "candidate_id": "NC-005",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-005 is represented and checked."
+    },
+    {
+      "id": "NC-006",
+      "candidate_id": "NC-006",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-006 is represented and checked."
+    },
+    {
+      "id": "NC-007",
+      "candidate_id": "NC-007",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-007 is represented and checked."
+    },
+    {
+      "id": "NC-008",
+      "candidate_id": "NC-008",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-008 is represented and checked."
+    },
+    {
+      "id": "NC-009",
+      "candidate_id": "NC-009",
+      "status": "pass",
+      "notes": "Independent normal candidate NC-009 is represented and checked."
+    }
+  ],
+  "blind_candidate_results": [
+    {
+      "id": "IC-001",
+      "candidate_id": "IC-001",
+      "assertion_ids": [
+        "IC-001-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-001 is satisfied by the current article."
+    },
+    {
+      "id": "IC-002",
+      "candidate_id": "IC-002",
+      "assertion_ids": [
+        "IC-002-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-002 is satisfied by the current article."
+    },
+    {
+      "id": "IC-003",
+      "candidate_id": "IC-003",
+      "assertion_ids": [
+        "IC-003-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-003 is satisfied by the current article."
+    },
+    {
+      "id": "IC-004",
+      "candidate_id": "IC-004",
+      "assertion_ids": [
+        "IC-004-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-004 is satisfied by the current article."
+    },
+    {
+      "id": "IC-005",
+      "candidate_id": "IC-005",
+      "assertion_ids": [
+        "IC-005-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-005 is satisfied by the current article."
+    },
+    {
+      "id": "IC-006",
+      "candidate_id": "IC-006",
+      "assertion_ids": [
+        "IC-006-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-006 is satisfied by the current article."
+    },
+    {
+      "id": "IC-007",
+      "candidate_id": "IC-007",
+      "assertion_ids": [
+        "IC-007-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-007 is satisfied by the current article."
+    },
+    {
+      "id": "IC-008",
+      "candidate_id": "IC-008",
+      "assertion_ids": [
+        "IC-008-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-008 is satisfied by the current article."
+    },
+    {
+      "id": "IC-009",
+      "candidate_id": "IC-009",
+      "assertion_ids": [
+        "IC-009-SA-001"
+      ],
+      "verified_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+      "status": "pass",
+      "notes": "Sealed blind candidate IC-009 is satisfied by the current article."
+    }
+  ],
+  "finding_results": [],
+  "evidence_checks": [
+    {
+      "id": "E-001",
+      "evidence_link_id": "E-001",
+      "source_fact_ids_checked": [
+        "F-001",
+        "F-009"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-001 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-002",
+      "evidence_link_id": "E-002",
+      "source_fact_ids_checked": [
+        "F-002",
+        "F-014"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "usage_note:002"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-002 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-003",
+      "evidence_link_id": "E-003",
+      "source_fact_ids_checked": [
+        "F-003"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-003 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-004",
+      "evidence_link_id": "E-004",
+      "source_fact_ids_checked": [
+        "F-004",
+        "F-010"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-004 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-005",
+      "evidence_link_id": "E-005",
+      "source_fact_ids_checked": [
+        "F-005",
+        "F-011"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-005 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-006",
+      "evidence_link_id": "E-006",
+      "source_fact_ids_checked": [
+        "F-006"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-006 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-007",
+      "evidence_link_id": "E-007",
+      "source_fact_ids_checked": [
+        "F-007"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:007",
+        "definition:007",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-007 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-008",
+      "evidence_link_id": "E-008",
+      "source_fact_ids_checked": [
+        "F-008"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:008",
+        "definition:008",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "collocation:029",
+        "collocation:030",
+        "collocation:031",
+        "collocation:032"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-008 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-009",
+      "evidence_link_id": "E-009",
+      "source_fact_ids_checked": [
+        "F-013"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:009",
+        "definition:009",
+        "grammar_pattern:025",
+        "grammar_pattern:026",
+        "grammar_pattern:027",
+        "grammar_pattern:028",
+        "collocation:033",
+        "collocation:034",
+        "collocation:035",
+        "collocation:036"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-009 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-010",
+      "evidence_link_id": "E-010",
+      "source_fact_ids_checked": [
+        "F-012"
+      ],
+      "article_target_ids_checked": [
+        "pronunciation:001",
+        "pronunciation:002",
+        "pronunciation:003",
+        "word_formation:001"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-010 supports its checked source facts and article targets."
+    },
+    {
+      "id": "E-011",
+      "evidence_link_id": "E-011",
+      "source_fact_ids_checked": [
+        "F-015",
+        "F-016",
+        "F-017"
+      ],
+      "article_target_ids_checked": [
+        "etymology:001",
+        "etymology:002",
+        "etymology:003",
+        "word_formation:002",
+        "word_formation:003",
+        "core_image:001",
+        "core_image:002",
+        "core_image:003",
+        "core_image:004",
+        "core_image:005",
+        "core_image:006",
+        "core_image:007",
+        "core_image:008",
+        "core_image:009",
+        "core_image:010"
+      ],
+      "status": "pass",
+      "notes": "Evidence link E-011 supports its checked source facts and article targets."
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "source_fact_ids_checked": [
+        "F-001",
+        "F-009"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004"
+      ],
+      "status": "pass",
+      "notes": "Source union U-001 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "source_fact_ids_checked": [
+        "F-002",
+        "F-014"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "collocation:005",
+        "collocation:006",
+        "collocation:007",
+        "collocation:008",
+        "usage_note:002"
+      ],
+      "status": "pass",
+      "notes": "Source union U-002 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "source_fact_ids_checked": [
+        "F-003"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012"
+      ],
+      "status": "pass",
+      "notes": "Source union U-003 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "source_fact_ids_checked": [
+        "F-004",
+        "F-010"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016"
+      ],
+      "status": "pass",
+      "notes": "Source union U-004 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "source_fact_ids_checked": [
+        "F-005",
+        "F-011"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "collocation:020"
+      ],
+      "status": "pass",
+      "notes": "Source union U-005 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "source_fact_ids_checked": [
+        "F-006"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024"
+      ],
+      "status": "pass",
+      "notes": "Source union U-006 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "source_fact_ids_checked": [
+        "F-007"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:007",
+        "definition:007",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "collocation:025",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028"
+      ],
+      "status": "pass",
+      "notes": "Source union U-007 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "source_fact_ids_checked": [
+        "F-008"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:008",
+        "definition:008",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "collocation:029",
+        "collocation:030",
+        "collocation:031",
+        "collocation:032"
+      ],
+      "status": "pass",
+      "notes": "Source union U-008 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "source_fact_ids_checked": [
+        "F-013"
+      ],
+      "article_target_ids_checked": [
+        "sense_boundary:009",
+        "definition:009",
+        "grammar_pattern:025",
+        "grammar_pattern:026",
+        "grammar_pattern:027",
+        "grammar_pattern:028",
+        "collocation:033",
+        "collocation:034",
+        "collocation:035",
+        "collocation:036"
+      ],
+      "status": "pass",
+      "notes": "Source union U-009 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-010",
+      "union_id": "U-010",
+      "source_fact_ids_checked": [
+        "F-012"
+      ],
+      "article_target_ids_checked": [
+        "pronunciation:001",
+        "pronunciation:002",
+        "pronunciation:003",
+        "word_formation:001"
+      ],
+      "status": "pass",
+      "notes": "Source union U-010 was rechecked against the article and remains integrated."
+    },
+    {
+      "id": "U-011",
+      "union_id": "U-011",
+      "source_fact_ids_checked": [
+        "F-015",
+        "F-016",
+        "F-017"
+      ],
+      "article_target_ids_checked": [
+        "etymology:001",
+        "etymology:002",
+        "etymology:003",
+        "word_formation:002",
+        "word_formation:003",
+        "core_image:001",
+        "core_image:002",
+        "core_image:003",
+        "core_image:004",
+        "core_image:005",
+        "core_image:006",
+        "core_image:007",
+        "core_image:008",
+        "core_image:009",
+        "core_image:010"
+      ],
+      "status": "pass",
+      "notes": "Source union U-011 was rechecked against the article and remains integrated."
+    }
+  ]
+}
+
