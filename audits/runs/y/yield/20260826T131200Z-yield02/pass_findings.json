@@ -1,0 +1,597 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-yield-20260826T131200Z-yield02",
+  "context_id": "normal-yield-context-20260826T131200Z-yield02",
+  "input_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+  "prompt_sha256": "015de53781157de711f5ec373db6dc17b98c7346bfd0ad15819448941a2d02d5",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-26T13:11:53.169297Z",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "116d5810ad67798e02909568aaeafa4012d9501dc4aa3953f96debf551eed31d",
+        "blind_request_sha256": "bbcc338e7a0b3762c9a179092afbe18a4f6cdd530ef8431e0a198fa247c84339",
+        "recorded_at": "2026-08-26T13:11:54.169297Z",
+        "attributions": [
+          {
+            "example_id": "example:001",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "crop or result"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:002",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "crop or result"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:003",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "crop or result"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:004",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "crop or result"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:005",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "bond or investment"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:006",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "bond or investment"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:007",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "bond or investment"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:008",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "bond or investment"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:009",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "control or possession"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:010",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "control or possession"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:011",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "control or possession"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:012",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "control or possession"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:013",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pressure or temptation"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:014",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pressure or temptation"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:015",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pressure or temptation"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:016",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pressure or temptation"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:017",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "traffic or right of way"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:018",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "traffic or right of way"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:019",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "traffic or right of way"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:020",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "traffic or right of way"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:021",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "material or force"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:022",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "material or force"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:023",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "material or force"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:024",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "material or force"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:025",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "new technology"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:026",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "new technology"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:027",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "new technology"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:028",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "new technology"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:029",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "pitcher or hit"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:030",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "pitcher or hit"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:031",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "pitcher or hit"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:032",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "pitcher or hit"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:033",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "crop yield or bond yield"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:034",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "crop yield or bond yield"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:035",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "crop yield or bond yield"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          },
+          {
+            "example_id": "example:036",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "crop yield or bond yield"
+            ],
+            "rationale": "The example's subject, complement, and surrounding collocation identify one article sense without using withheld ownership fields."
+          }
+        ]
+      },
+      "aligned_at": "2026-08-26T13:11:55.169297Z",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "yield + crop/result/information",
+      "frame": "yield 〈作物・結果・情報〉",
+      "meaning": "作物、結果、情報などを産出する",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001"
+      ],
+      "evidence_link_ids": [
+        "E-001"
+      ]
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "yield + financial return",
+      "frame": "〈資産・投資〉 yield 〈割合・収益〉",
+      "meaning": "資産や投資が利回り・収益を生む",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:004"
+      ],
+      "evidence_link_ids": [
+        "E-002"
+      ]
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "yield + control/possession",
+      "frame": "yield 〈所有・支配・領土〉 to 〈相手〉",
+      "meaning": "所有・支配・領土を譲る",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:007"
+      ],
+      "evidence_link_ids": [
+        "E-003"
+      ]
+    },
+    {
+      "id": "NC-004",
+      "surface_form": "yield to + pressure/demand",
+      "frame": "yield to 〈圧力・要求・誘惑〉",
+      "meaning": "圧力や要求に屈する",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:010"
+      ],
+      "evidence_link_ids": [
+        "E-004"
+      ]
+    },
+    {
+      "id": "NC-005",
+      "surface_form": "yield + traffic/priority",
+      "frame": "yield to 〈交通・相手〉",
+      "meaning": "道や優先権を譲る",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:014"
+      ],
+      "evidence_link_ids": [
+        "E-005"
+      ]
+    },
+    {
+      "id": "NC-006",
+      "surface_form": "yield + material/force",
+      "frame": "〈物体・材料〉 yield under/to 〈力〉",
+      "meaning": "物体や材料が力でたわむ・変形する",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:006",
+        "definition:006",
+        "grammar_pattern:018"
+      ],
+      "evidence_link_ids": [
+        "E-006"
+      ]
+    },
+    {
+      "id": "NC-007",
+      "surface_form": "yield to + successor",
+      "frame": "〈旧制度・方法〉 yield to 〈新しいもの〉",
+      "meaning": "古いものが新しいものに取って代わられる",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:007",
+        "definition:007",
+        "grammar_pattern:021"
+      ],
+      "evidence_link_ids": [
+        "E-007"
+      ]
+    },
+    {
+      "id": "NC-008",
+      "surface_form": "yield + baseball result",
+      "frame": "yield 〈安打・得点・四球〉",
+      "meaning": "投手が安打や得点を許す",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:008",
+        "definition:008",
+        "grammar_pattern:023"
+      ],
+      "evidence_link_ids": [
+        "E-008"
+      ]
+    },
+    {
+      "id": "NC-009",
+      "surface_form": "noun yield",
+      "frame": "a 〈high・low〉 yield / bond yield",
+      "meaning": "産出量・収益・利回り",
+      "disposition": "included",
+      "rationale": "The independent inventory identifies this as a distinct article-facing use that should remain separate from adjacent senses.",
+      "article_target_ids": [
+        "sense_boundary:009",
+        "definition:009",
+        "grammar_pattern:025"
+      ],
+      "evidence_link_ids": [
+        "E-009"
+      ]
+    }
+  ],
+  "summary": "7/7 routed checker passes completed with no findings."
+}
