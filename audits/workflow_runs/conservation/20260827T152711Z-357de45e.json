@@ -19,21 +19,26 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight",
+  "stage": "preflight_pushed",
   "started_at": "2026-08-27T15:27:11Z",
   "deadline_at": "2026-08-27T16:27:11Z",
   "pre_draft_deadline_at": "2026-08-27T15:47:11Z",
-  "last_heartbeat_at": "2026-08-27T15:27:11Z",
+  "last_heartbeat_at": "2026-08-27T15:28:53Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-08-27T15:28:53Z",
+    "commit_sha": "06250956dd929bfd7397a2e6e4a7c48e0b19dbfd"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-08-27T15:27:11Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-27T15:28:53Z",
+      "notes": "remote start checkpoint verified"
     }
   ],
   "stop_reason": "",
