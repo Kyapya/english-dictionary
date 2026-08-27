@@ -1,0 +1,229 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 44,
+        "label": "1. 【他動詞】（事実だと）仮定する、当然のことと考える",
+        "definition": "十分な証明や確認がまだない段階で、ある事実・状態・判断をひとまず真実または前提として受け入れる。単なる可能性を挙げるだけでなく、その前提に基づいて考えたり行動したりする含みがある。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 124,
+        "label": "2. 【他動詞】責任・義務・権限などを引き受ける、掌握する",
+        "definition": "責任、義務、費用、危険、権限、支配などを自分の側で担う、または管理下に置く。単にそれについて発言するのではなく、結果を引き受ける立場になることを表す。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 202,
+        "label": "3. 【他動詞】役職・役割・地位に就く、引き受ける",
+        "definition": "役職、役割、地位、職務などを引き受け、その立場に入る。就任や任命の文脈で、以前の人物の後を継いでその位置に着くことを硬く述べる。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 280,
+        "label": "4. 【他動詞】形・性質・重要性などを帯びる、～の様相を呈する",
+        "definition": "物事が、ある形・姿・性質・重要性・規模などを次第に持つようになる、またはそのような状態として現れる。無生物や抽象的な事柄を主語にすることが多く、硬い説明・描写で使う。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 363,
+        "label": "5. 【他動詞】（態度・外観などを）装う、～のふりをする",
+        "definition": "本当は必ずしもそうでない態度、感情、外観、身分などを意図的に身につけて、そう見えるようにする。`assume an air/expression/attitude` のように、内面の状態よりも外に示す印象に焦点がある。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-42e46cdf22f1",
+        "example": "The young monarch assumed the throne at the age of twenty-one.",
+        "translation": "その若い君主は21歳で王位に就いた。"
+      },
+      {
+        "example_id": "ex-22b79cfb8da4",
+        "example": "The spy assumed a false name before crossing the border.",
+        "translation": "そのスパイは国境を越える前に偽名を名乗った。"
+      },
+      {
+        "example_id": "ex-fc63c068b058",
+        "example": "She assumed an expression of calm so the children would not notice her fear.",
+        "translation": "彼女は子どもたちに恐怖を気づかれないよう、落ち着いた表情を装った。"
+      },
+      {
+        "example_id": "ex-d3639ddf2b98",
+        "example": "The patients were asked to assume a sitting position before the scan.",
+        "translation": "患者たちは撮影前に座った姿勢をとるよう求められた。"
+      },
+      {
+        "example_id": "ex-4d66c48295bd",
+        "example": "Given the unchanged address, it is reasonable to assume that the package was delivered to the old office.",
+        "translation": "住所が変わっていないことから、その荷物は旧オフィスに届けられたと考えるのが妥当だ。"
+      },
+      {
+        "example_id": "ex-7f56ad75e20d",
+        "example": "The investor knowingly assumed the risk of losing the entire deposit.",
+        "translation": "その投資家は、預金全額を失う危険を承知で引き受けた。"
+      },
+      {
+        "example_id": "ex-d1bc7f712491",
+        "example": "The caller assumed a false identity online to obtain private information.",
+        "translation": "その発信者は個人情報を得るため、オンラインで偽の身元を装った。"
+      },
+      {
+        "example_id": "ex-28c53398b026",
+        "example": "The committee assumed the data to be reliable until an audit found a calibration error.",
+        "translation": "委員会は、監査で校正誤差が見つかるまで、そのデータは信頼できると考えていた。"
+      },
+      {
+        "example_id": "ex-57aad8387a46",
+        "example": "The vice president assumed the presidency after the resignation.",
+        "translation": "副大統領は辞任後、大統領職に就いた。"
+      },
+      {
+        "example_id": "ex-5bc24d5fcd2b",
+        "example": "The small project gradually assumed national significance.",
+        "translation": "その小さな計画は次第に国全体に関わる重要性を帯びた。"
+      },
+      {
+        "example_id": "ex-10e18e03f1fd",
+        "example": "Don’t assume the worst before you hear her explanation.",
+        "translation": "彼女の説明を聞く前に、最悪の事態だと思い込まないで。"
+      },
+      {
+        "example_id": "ex-2d43b0ed69f2",
+        "example": "Assuming that the weather stays clear, we can finish the survey by noon.",
+        "translation": "天気が晴れのままだとすれば、正午までに調査を終えられる。"
+      },
+      {
+        "example_id": "ex-8773c5957fb5",
+        "example": "The actor assumed the guise of a tired traveler to question the guard.",
+        "translation": "その俳優は警備員に質問するため、疲れた旅人の姿を装った。"
+      },
+      {
+        "example_id": "ex-9cff9749eec3",
+        "example": "After the merger, the engineer assumed a new role in product strategy.",
+        "translation": "合併後、その技術者は製品戦略の新しい役割を担った。"
+      },
+      {
+        "example_id": "ex-398b974509ec",
+        "example": "We assumed that the train had left because the platform was empty, but we had not checked the timetable.",
+        "translation": "ホームが空だったので列車は出発したと思い込んだが、時刻表は確認していなかった。"
+      },
+      {
+        "example_id": "ex-377e4e527a49",
+        "example": "The shortage assumed alarming proportions during the heat wave.",
+        "translation": "猛暑の間に、その不足は憂慮すべき規模になった。"
+      },
+      {
+        "example_id": "ex-5d7c89204489",
+        "example": "The witness assumed an air of confidence, although his hands were shaking.",
+        "translation": "その証人は手を震わせながらも、自信があるような態度を装った。"
+      },
+      {
+        "example_id": "ex-03858b00b190",
+        "example": "The old service assumed a new form after the merger.",
+        "translation": "その旧サービスは合併後、新しい形になった。"
+      },
+      {
+        "example_id": "ex-25d98e703ab7",
+        "example": "Dr. Lee assumed the post of research director in July.",
+        "translation": "リー博士は7月に研究部長の職に就いた。"
+      },
+      {
+        "example_id": "ex-d460d480007b",
+        "example": "He assumed the role of team leader after the merger.",
+        "translation": "彼は合併後、チームリーダーの役割を引き受けた。"
+      },
+      {
+        "example_id": "ex-3970743431a9",
+        "example": "The hospital assumed responsibility for the patient’s follow-up care.",
+        "translation": "その病院は患者の経過観察の責任を引き受けた。"
+      },
+      {
+        "example_id": "ex-464ca742e73b",
+        "example": "The debate assumed a different character once the costs became clear.",
+        "translation": "費用が明らかになると、その議論は異なる様相を呈した。"
+      },
+      {
+        "example_id": "ex-97f0f22cbeca",
+        "example": "Let us assume that every sensor is working before we test the algorithm.",
+        "translation": "アルゴリズムを試す前に、すべてのセンサーが作動していると仮定しよう。"
+      },
+      {
+        "example_id": "ex-75f2b35825b4",
+        "example": "By signing the agreement, the supplier assumed an obligation to report delays.",
+        "translation": "その供給業者は、契約に署名することで遅延を報告する義務を負った。"
+      },
+      {
+        "example_id": "ex-fcf6f72bf38f",
+        "example": "The buyer agreed to assume the seller’s mortgage as part of the purchase.",
+        "translation": "買い手は、購入の一環として売り手の住宅ローンを引き受けることに同意した。"
+      },
+      {
+        "example_id": "ex-16c00756bf1a",
+        "example": "Under pressure, the liquid assumed the shape of the container.",
+        "translation": "圧力を受けると、その液体は容器の形になった。"
+      },
+      {
+        "example_id": "ex-b8023faa3eae",
+        "example": "He assumed an attitude of indifference when he read the criticism, but he reread it that night.",
+        "translation": "彼はその批判を読んだとき無関心な態度を装ったが、その夜に読み返した。"
+      },
+      {
+        "example_id": "ex-8ed9b85af5d9",
+        "example": "She assumed office as mayor in April after winning the election.",
+        "translation": "彼女は選挙に勝利した後、4月に市長に就任した。"
+      },
+      {
+        "example_id": "ex-57d6ef1b24dc",
+        "example": "The discussion assumed greater importance after the safety report was released.",
+        "translation": "安全報告書が公表された後、その議論はより重要な意味を持つようになった。"
+      },
+      {
+        "example_id": "ex-d04dc8912289",
+        "example": "The deputy assumed control of the operation when the director became ill.",
+        "translation": "部長が病気になると、副部長がその業務の指揮を引き継いだ。"
+      },
+      {
+        "example_id": "ex-a87d95a26ba1",
+        "example": "The captain assumed command of the rescue vessel at dawn.",
+        "translation": "その船長は夜明けに救助船の指揮を執った。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

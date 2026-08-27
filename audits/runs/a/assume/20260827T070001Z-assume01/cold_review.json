@@ -1,0 +1,21 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-assume-20260827T071600Z",
+  "context_id": "cold-assume-context-20260827T071600Z",
+  "audit_visible": false,
+  "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "recorded_at": "2026-08-27T07:16:30Z",
+  "summary": "問題候補なし",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-cold-audit",
+    "ingested_by": "human"
+  }
+}

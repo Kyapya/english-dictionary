@@ -1,0 +1,564 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-assume-20260827T071300Z",
+  "context_id": "normal-assume-context-20260827T071300Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-lexicon-audit",
+    "ingested_by": "human"
+  },
+  "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "prompt_sha256": "64a1c9136df92e3f7df82277c307a46e909db9e9d75fb8f4316534a2fa59d709",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-27T07:15:00Z",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        },
+        "recorded_at": "2026-08-27T07:14:00Z",
+        "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+        "blind_request_sha256": "f24fb6bd360eb15edab384288f67175d334db555de433dfd4720f90028ccb190",
+        "attributions": [
+          {
+            "example_id": "ex-398b974509ec",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "train"
+            ],
+            "rationale": "The word train is a concrete cue for sense:001 in this example."
+          },
+          {
+            "example_id": "ex-28c53398b026",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "committee"
+            ],
+            "rationale": "The word committee is a concrete cue for sense:001 in this example."
+          },
+          {
+            "example_id": "ex-4d66c48295bd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Given"
+            ],
+            "rationale": "The word Given is a concrete cue for sense:001 in this example."
+          },
+          {
+            "example_id": "ex-10e18e03f1fd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "worst"
+            ],
+            "rationale": "The word worst is a concrete cue for sense:001 in this example."
+          },
+          {
+            "example_id": "ex-97f0f22cbeca",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "every"
+            ],
+            "rationale": "The word every is a concrete cue for sense:001 in this example."
+          },
+          {
+            "example_id": "ex-2d43b0ed69f2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Assuming"
+            ],
+            "rationale": "The word Assuming is a concrete cue for sense:001 in this example."
+          },
+          {
+            "example_id": "ex-3970743431a9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "hospital"
+            ],
+            "rationale": "The word hospital is a concrete cue for sense:002 in this example."
+          },
+          {
+            "example_id": "ex-75f2b35825b4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "signing"
+            ],
+            "rationale": "The word signing is a concrete cue for sense:002 in this example."
+          },
+          {
+            "example_id": "ex-d04dc8912289",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "deputy"
+            ],
+            "rationale": "The word deputy is a concrete cue for sense:002 in this example."
+          },
+          {
+            "example_id": "ex-a87d95a26ba1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "captain"
+            ],
+            "rationale": "The word captain is a concrete cue for sense:002 in this example."
+          },
+          {
+            "example_id": "ex-7f56ad75e20d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "investor"
+            ],
+            "rationale": "The word investor is a concrete cue for sense:002 in this example."
+          },
+          {
+            "example_id": "ex-fcf6f72bf38f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "buyer"
+            ],
+            "rationale": "The word buyer is a concrete cue for sense:002 in this example."
+          },
+          {
+            "example_id": "ex-8ed9b85af5d9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "office"
+            ],
+            "rationale": "The word office is a concrete cue for sense:003 in this example."
+          },
+          {
+            "example_id": "ex-d460d480007b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "leader"
+            ],
+            "rationale": "The word leader is a concrete cue for sense:003 in this example."
+          },
+          {
+            "example_id": "ex-25d98e703ab7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "research"
+            ],
+            "rationale": "The word research is a concrete cue for sense:003 in this example."
+          },
+          {
+            "example_id": "ex-57aad8387a46",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "president"
+            ],
+            "rationale": "The word president is a concrete cue for sense:003 in this example."
+          },
+          {
+            "example_id": "ex-42e46cdf22f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "young"
+            ],
+            "rationale": "The word young is a concrete cue for sense:003 in this example."
+          },
+          {
+            "example_id": "ex-9cff9749eec3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "merger"
+            ],
+            "rationale": "The word merger is a concrete cue for sense:003 in this example."
+          },
+          {
+            "example_id": "ex-03858b00b190",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "service"
+            ],
+            "rationale": "The word service is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-16c00756bf1a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pressure"
+            ],
+            "rationale": "The word pressure is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-57d6ef1b24dc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "discussion"
+            ],
+            "rationale": "The word discussion is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-5bc24d5fcd2b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "small"
+            ],
+            "rationale": "The word small is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-464ca742e73b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "debate"
+            ],
+            "rationale": "The word debate is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-377e4e527a49",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "shortage"
+            ],
+            "rationale": "The word shortage is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-d3639ddf2b98",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "patients"
+            ],
+            "rationale": "The word patients is a concrete cue for sense:004 in this example."
+          },
+          {
+            "example_id": "ex-5d7c89204489",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "witness"
+            ],
+            "rationale": "The word witness is a concrete cue for sense:005 in this example."
+          },
+          {
+            "example_id": "ex-fc63c068b058",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "expression"
+            ],
+            "rationale": "The word expression is a concrete cue for sense:005 in this example."
+          },
+          {
+            "example_id": "ex-b8023faa3eae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "attitude"
+            ],
+            "rationale": "The word attitude is a concrete cue for sense:005 in this example."
+          },
+          {
+            "example_id": "ex-22b79cfb8da4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "crossing"
+            ],
+            "rationale": "The word crossing is a concrete cue for sense:005 in this example."
+          },
+          {
+            "example_id": "ex-d1bc7f712491",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "caller"
+            ],
+            "rationale": "The word caller is a concrete cue for sense:005 in this example."
+          },
+          {
+            "example_id": "ex-8773c5957fb5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "actor"
+            ],
+            "rationale": "The word actor is a concrete cue for sense:005 in this example."
+          }
+        ]
+      },
+      "aligned_at": "2026-08-27T07:14:05Z"
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [
+        {
+          "id": "NF-QUAL-001",
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 194,
+            "line_end": 194,
+            "exact_quote": "・`assume a debt/mortgage`"
+          },
+          "severity": "minor",
+          "rationale": "The phrase `assume a debt/mortgage` is specialist financial usage; its article note already labels the context as contract and finance and avoids claiming a universal legal effect.",
+          "suggested_direction": "retain the explicit financial qualification"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "assume that ... / assume 〈O〉 to be ...",
+      "frame": "that-clause or object + to be",
+      "meaning": "仮定する、当然のことと考える",
+      "disposition": "included",
+      "rationale": "The assume that ... frame is the central proposition-acceptance use.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006"
+      ],
+      "evidence_link_ids": [
+        "E-001"
+      ]
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "assume responsibility/control",
+      "frame": "assume 〈responsibility/control〉",
+      "meaning": "責任・権限を引き受ける、掌握する",
+      "disposition": "included",
+      "rationale": "The responsibility and control frame is distinct from the proposition-acceptance sense.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012"
+      ],
+      "evidence_link_ids": [
+        "E-002"
+      ]
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "assume office/role",
+      "frame": "assume 〈office/role〉",
+      "meaning": "役職・役割に就く",
+      "disposition": "included",
+      "rationale": "The office and role frame is a formal position-taking use.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017"
+      ],
+      "evidence_link_ids": [
+        "E-003"
+      ]
+    },
+    {
+      "id": "NC-004",
+      "surface_form": "assume form/importance",
+      "frame": "assume 〈form/shape/importance〉",
+      "meaning": "形・性質・重要性を帯びる",
+      "disposition": "included",
+      "rationale": "The form and significance frame describes a subject taking on a quality or appearance.",
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022"
+      ],
+      "evidence_link_ids": [
+        "E-004"
+      ]
+    },
+    {
+      "id": "NC-005",
+      "surface_form": "assume an air/false identity",
+      "frame": "assume 〈air/attitude/name/identity〉",
+      "meaning": "態度・外観・身分を装う",
+      "disposition": "included",
+      "rationale": "The air, attitude, name, and identity frame is the fictitious-adoption use.",
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "grammar_pattern:025",
+        "grammar_pattern:026"
+      ],
+      "evidence_link_ids": [
+        "E-005"
+      ]
+    }
+  ],
+  "summary": "7/7 routed checker passes completed; one minor qualification observation was resolved as already covered."
+}

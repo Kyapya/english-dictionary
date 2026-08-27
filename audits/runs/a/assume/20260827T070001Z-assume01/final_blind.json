@@ -1,0 +1,103 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-assume-20260827T071700Z",
+  "context_id": "blind-assume-context-20260827T071700Z",
+  "audit_visible": false,
+  "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "prompt_sha256": "eeb2ba17b12eeaec5e125417caa34eb6c0e848ce3661cca0bb47b9ed61957f9b",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "recorded_at": "2026-08-27T07:17:30Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "assume that ...",
+      "frame": "assume that 〈clause〉",
+      "meaning": "命題を事実として仮定する",
+      "disposition": "included",
+      "rationale": "The assume that ... frame must retain the proposition-acceptance sense without implying verification.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The first sense accepts a proposition as a working premise without making it true.",
+          "polarity": "must_hold",
+          "scope": "sense 1"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "assume responsibility/control",
+      "frame": "assume 〈responsibility/control〉",
+      "meaning": "責任・権限を引き受ける、掌握する",
+      "disposition": "included",
+      "rationale": "The assume responsibility/control frame must preserve the taking-on or control sense.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The second sense covers taking responsibility, obligation, risk, power, or control.",
+          "polarity": "must_hold",
+          "scope": "sense 2"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "assume office/role",
+      "frame": "assume 〈office/role〉",
+      "meaning": "役職・役割・地位に就く",
+      "disposition": "included",
+      "rationale": "The assume office/role frame must identify formal entry into a position or role.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "The third sense focuses on entering a formal office, role, or position.",
+          "polarity": "must_hold",
+          "scope": "sense 3"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "assume form/importance",
+      "frame": "assume 〈form/shape/importance〉",
+      "meaning": "形・性質・重要性を帯びる",
+      "disposition": "included",
+      "rationale": "The assume form/importance frame must cover an object or abstraction taking on a quality, appearance, or significance.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004-SA-001",
+          "statement": "The fourth sense describes taking on a form, quality, importance, or physical position without requiring pretense.",
+          "polarity": "must_hold",
+          "scope": "sense 4"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "assume an air/false identity",
+      "frame": "assume 〈air/attitude/name/identity〉",
+      "meaning": "態度・外観・身分を装う",
+      "disposition": "included",
+      "rationale": "The assume an air/false identity frame must signal deliberate appearance or identity as pretense.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005-SA-001",
+          "statement": "The fifth sense presents an attitude, appearance, name, or identity that is intentionally adopted as a pretense.",
+          "polarity": "must_hold",
+          "scope": "sense 5"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-blind-audit",
+    "ingested_by": "human"
+  }
+}

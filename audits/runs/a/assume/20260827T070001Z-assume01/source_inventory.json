@@ -1,0 +1,1214 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "assume",
+  "run_id": "source-assume-20260827T071100Z",
+  "context_id": "source-assume-context-20260827T071100Z",
+  "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "prompt_sha256": "8c4e4a8ae1b450299fdad20b7deac00c678b550af5c52cff6e517070a4f6ac0d",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-27T07:11:30Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "The headword is a common general verb with bounded formal, financial, and etymological extensions.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 28,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-27T07:08:00Z",
+    "article_comparison_started_at": "2026-08-27T07:10:00Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-010",
+          "F-011",
+          "F-012",
+          "F-014",
+          "F-015",
+          "F-016",
+          "F-017",
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-022",
+          "F-025",
+          "F-026"
+        ],
+        "notes": "General lexicon groups converged on the five modern sense families used in the article."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009",
+          "F-018"
+        ],
+        "notes": "Independent dictionary grammar material covers the transitive frames and that-clause patterns."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-013",
+          "F-023"
+        ],
+        "notes": "Oxford and Collins cover the directly useful derived forms retained here."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-006",
+          "F-010",
+          "F-020",
+          "F-023"
+        ],
+        "notes": "Financial and formal authority uses are bounded and explicitly qualified."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-006",
+          "F-010",
+          "F-012",
+          "F-020",
+          "F-022",
+          "F-027",
+          "F-028"
+        ],
+        "notes": "Dictionary register labels and the assume/presume usage contrast inform the notes."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-007",
+          "F-008",
+          "F-013",
+          "F-024"
+        ],
+        "notes": "Regional pronunciation, inflection, and Latin origin are covered."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Merriam-Webster: assume",
+        "locator": "https://www.merriam-webster.com/dictionary/assume",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_a",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take something to be true without proof",
+            "source_detail": "The definition covers accepting a proposition as true without proof."
+          },
+          {
+            "id": "F-002",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take responsibility or duty upon oneself",
+            "source_detail": "The entry records taking responsibility or duty upon oneself."
+          },
+          {
+            "id": "F-003",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "seize or usurp control or power",
+            "source_detail": "The entry includes taking, seizing, or usurping control or power."
+          },
+          {
+            "id": "F-004",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "pretend to have or put on a quality or appearance",
+            "source_detail": "The entry includes pretending to have a quality or putting on an appearance."
+          },
+          {
+            "id": "F-005",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take on or put on a form or character",
+            "source_detail": "The entry records taking or putting on a form or character."
+          },
+          {
+            "id": "F-006",
+            "form": "assume",
+            "kind": "specialist_use",
+            "statement": "take over a debt, mortgage, or related financial obligation",
+            "source_detail": "The entry includes taking over debts and mortgage obligations in financial usage."
+          },
+          {
+            "id": "F-007",
+            "form": "assume",
+            "kind": "pronunciation_and_forms",
+            "statement": "has the regular verb forms assumes, assumed, and assuming with the listed pronunciation",
+            "source_detail": "The dictionary supplies pronunciation and inflected forms for the verb."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner's Dictionaries: assume",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/assume",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_b",
+        "facts": [
+          {
+            "id": "F-008",
+            "form": "assume",
+            "kind": "pronunciation_and_forms",
+            "statement": "US /əˈsuːm/ and UK /əˈsjuːm/ are listed, with assumes, assumed, and assuming",
+            "source_detail": "The learner dictionary lists both regional pronunciations and inflections."
+          },
+          {
+            "id": "F-009",
+            "form": "assume",
+            "kind": "grammar",
+            "statement": "takes that-clauses, an object plus to be/have, passive be assumed to, and phrases such as assume the worst",
+            "source_detail": "The grammar patterns and examples explicitly show these frames."
+          },
+          {
+            "id": "F-010",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take or begin to have power, responsibility, a role, or office",
+            "source_detail": "The entry covers assuming control, responsibility, a role, and office."
+          },
+          {
+            "id": "F-011",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "begin to have a quality, appearance, or form",
+            "source_detail": "The entry gives the use for something taking on a quality, appearance, or form."
+          },
+          {
+            "id": "F-012",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "pretend to have a feeling or quality and use an assumed name",
+            "source_detail": "The entry distinguishes assumed airs and qualities and records assumed name."
+          },
+          {
+            "id": "F-013",
+            "form": "assume",
+            "kind": "etymology_and_forms",
+            "statement": "comes from Late Middle English Latin assumere, with ad- toward plus sumere take, and has related forms",
+            "source_detail": "The origin note traces the verb to Latin and lists related forms."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Cambridge Dictionary: assume",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/assume",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_c",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "accept something as true without proof",
+            "source_detail": "The definition directly describes accepting a statement as true without proof."
+          },
+          {
+            "id": "F-015",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take responsibility, a role, or a position",
+            "source_detail": "Examples and definitions show taking responsibility or a position."
+          },
+          {
+            "id": "F-016",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "begin to have or put on an appearance or quality",
+            "source_detail": "The dictionary records taking on an appearance or quality."
+          },
+          {
+            "id": "F-017",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "pretend or feign a manner or feeling",
+            "source_detail": "The entry includes adopting a manner or feeling that is not necessarily genuine."
+          },
+          {
+            "id": "F-018",
+            "form": "assume",
+            "kind": "grammar",
+            "statement": "commonly introduces a that-clause for an accepted premise",
+            "source_detail": "The examples use assume with a that-clause for a proposition."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Collins English Dictionary: assume",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/assume",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_d",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "consider or accept something to be true",
+            "source_detail": "The definition covers taking something as true or granted."
+          },
+          {
+            "id": "F-020",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take power, responsibility, or control",
+            "source_detail": "The entry lists assuming power, responsibility, and control."
+          },
+          {
+            "id": "F-021",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "take on or adopt a form, role, or identity",
+            "source_detail": "The entry lists adopting a form, role, or identity."
+          },
+          {
+            "id": "F-022",
+            "form": "assume",
+            "kind": "lexical_sense",
+            "statement": "pretend or feign an attitude or appearance",
+            "source_detail": "The entry includes assuming an attitude or appearance as pretense."
+          },
+          {
+            "id": "F-023",
+            "form": "assumable",
+            "kind": "derived_form",
+            "statement": "assumable means capable of being assumed",
+            "source_detail": "The related-word list records assumable as a derived adjective."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Online Etymology Dictionary: assume",
+        "locator": "https://www.etymonline.com/word/assume",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_reference_a",
+        "facts": [
+          {
+            "id": "F-024",
+            "form": "assume",
+            "kind": "etymology",
+            "statement": "early fifteenth-century assumen comes from Latin assumere or adsumere, take up or take to oneself",
+            "source_detail": "The etymology gives the early English form and Latin source."
+          },
+          {
+            "id": "F-025",
+            "form": "assume",
+            "kind": "historical_sense",
+            "statement": "the sense suppose or take for granted without proof is recorded from the 1590s",
+            "source_detail": "The historical note dates the no-proof supposition sense."
+          },
+          {
+            "id": "F-026",
+            "form": "assume",
+            "kind": "historical_sense",
+            "statement": "the sense take or put on fictitiously is recorded around 1600",
+            "source_detail": "The historical note dates the fictitious-adoption sense."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Merriam-Webster: assume vs. presume",
+        "locator": "https://www.merriam-webster.com/grammar/assume-vs-presume",
+        "source_type": "usage_reference",
+        "source_role": "usage_reference",
+        "independence_group": "usage_reference_a",
+        "facts": [
+          {
+            "id": "F-027",
+            "form": "assume",
+            "kind": "usage_distinction",
+            "statement": "assume commonly suggests accepting something with little or no evidence, while presume more often suggests reasonable evidence",
+            "source_detail": "The usage note contrasts the evidence strength associated with assume and presume."
+          },
+          {
+            "id": "F-028",
+            "form": "assume",
+            "kind": "usage_distinction",
+            "statement": "neither assume nor presume by itself verifies that the accepted conclusion is true",
+            "source_detail": "The distinction supports warning learners that the verb does not itself prove the proposition."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-009",
+          "F-014",
+          "F-018",
+          "F-019",
+          "F-025",
+          "F-027",
+          "F-028"
+        ],
+        "canonical_statement": "accept a proposition as true or as a working premise without treating it as verified",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "usage_note:004",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004"
+        ]
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-010",
+          "F-015",
+          "F-020"
+        ],
+        "canonical_statement": "take responsibility, duty, risk, power, or control upon oneself",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:005",
+          "usage_note:006",
+          "usage_note:007",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008"
+        ]
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-010",
+          "F-015",
+          "F-021"
+        ],
+        "canonical_statement": "take on a formal role, office, position, or identity",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "usage_note:008",
+          "usage_note:009",
+          "usage_note:010",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012"
+        ]
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-005",
+          "F-011",
+          "F-016",
+          "F-021"
+        ],
+        "canonical_statement": "take on a form, quality, appearance, importance, or physical position",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "usage_note:011",
+          "usage_note:012",
+          "usage_note:013",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "collocation:024",
+          "collocation:025",
+          "synonym:013",
+          "synonym:014",
+          "synonym:015",
+          "synonym:016"
+        ]
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-004",
+          "F-012",
+          "F-017",
+          "F-022",
+          "F-026"
+        ],
+        "canonical_statement": "adopt a manner, feeling, appearance, name, or identity fictitiously",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "usage_note:014",
+          "usage_note:015",
+          "usage_note:016",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "collocation:030",
+          "collocation:031",
+          "synonym:017",
+          "synonym:018",
+          "synonym:019",
+          "synonym:020"
+        ]
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-006",
+          "F-020",
+          "F-023"
+        ],
+        "canonical_statement": "cover financial obligation language and the formal derived adjective assumable",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "collocation:012",
+          "word_formation:005"
+        ]
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-007",
+          "F-008"
+        ],
+        "canonical_statement": "record the regional pronunciation and regular inflected forms",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003"
+        ]
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-013",
+          "F-024",
+          "F-025",
+          "F-026"
+        ],
+        "canonical_statement": "trace assume to Latin assumere and date later English sense developments",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "etymology:003"
+        ]
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-013",
+          "F-023"
+        ],
+        "canonical_statement": "record the derived and related forms used in the article",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled into the article without importing a stronger claim than the sources support.",
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005"
+        ]
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "assume",
+        "claim_type": "lexical_sense",
+        "statement": "accept a proposition as true or as a working premise without treating it as verified",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "usage_note:004",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-027",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-028",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "assume",
+        "claim_type": "lexical_sense",
+        "statement": "take responsibility, duty, risk, power, or control upon oneself",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:005",
+          "usage_note:006",
+          "usage_note:007",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "assume",
+        "claim_type": "lexical_sense",
+        "statement": "take on a formal role, office, position, or identity",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "usage_note:008",
+          "usage_note:009",
+          "usage_note:010",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "assume",
+        "claim_type": "lexical_sense",
+        "statement": "take on a form, quality, appearance, importance, or physical position",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "usage_note:011",
+          "usage_note:012",
+          "usage_note:013",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "collocation:024",
+          "collocation:025",
+          "synonym:013",
+          "synonym:014",
+          "synonym:015",
+          "synonym:016"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "assume",
+        "claim_type": "lexical_sense",
+        "statement": "adopt a manner, feeling, appearance, name, or identity fictitiously",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "usage_note:014",
+          "usage_note:015",
+          "usage_note:016",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "collocation:030",
+          "collocation:031",
+          "synonym:017",
+          "synonym:018",
+          "synonym:019",
+          "synonym:020"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "assume",
+        "claim_type": "lexical_sense",
+        "statement": "cover financial obligation language and the formal derived adjective assumable",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "collocation:012",
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "subject_form": "assume",
+        "claim_type": "pronunciation_and_etymology",
+        "statement": "record the regional pronunciation and regular inflected forms",
+        "union_ids": [
+          "U-007"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "subject_form": "assume",
+        "claim_type": "pronunciation_and_etymology",
+        "statement": "trace assume to Latin assumere and date later English sense developments",
+        "union_ids": [
+          "U-008"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "etymology:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "subject_form": "assume",
+        "claim_type": "derived_form",
+        "statement": "record the derived and related forms used in the article",
+        "union_ids": [
+          "U-009"
+        ],
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, usage material, pronunciation entry, or etymological note."
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005",
+    "E-006"
+  ],
+  "evidence_links": [
+    {
+      "id": "E-001",
+      "source_fact_ids": [
+        "F-001",
+        "F-009",
+        "F-014",
+        "F-018",
+        "F-019",
+        "F-025",
+        "F-027",
+        "F-028"
+      ],
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "usage_note:001",
+        "usage_note:002",
+        "usage_note:003",
+        "usage_note:004",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004"
+      ],
+      "locator": "https://www.merriam-webster.com/dictionary/assume",
+      "source_excerpt_or_summary": "assume something true without proof; compare presume and suppose"
+    },
+    {
+      "id": "E-002",
+      "source_fact_ids": [
+        "F-002",
+        "F-003",
+        "F-010",
+        "F-015",
+        "F-020"
+      ],
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "usage_note:005",
+        "usage_note:006",
+        "usage_note:007",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008"
+      ],
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/assume",
+      "source_excerpt_or_summary": "assume responsibility, control, command, or other obligations"
+    },
+    {
+      "id": "E-003",
+      "source_fact_ids": [
+        "F-010",
+        "F-015",
+        "F-021"
+      ],
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "usage_note:008",
+        "usage_note:009",
+        "usage_note:010",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "grammar_pattern:016",
+        "grammar_pattern:017",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012"
+      ],
+      "locator": "https://dictionary.cambridge.org/dictionary/english/assume",
+      "source_excerpt_or_summary": "assume a role, position, or office"
+    },
+    {
+      "id": "E-004",
+      "source_fact_ids": [
+        "F-005",
+        "F-011",
+        "F-016",
+        "F-021"
+      ],
+      "article_target_ids": [
+        "sense_boundary:004",
+        "definition:004",
+        "usage_note:011",
+        "usage_note:012",
+        "usage_note:013",
+        "grammar_pattern:018",
+        "grammar_pattern:019",
+        "grammar_pattern:020",
+        "grammar_pattern:021",
+        "grammar_pattern:022",
+        "collocation:019",
+        "collocation:020",
+        "collocation:021",
+        "collocation:022",
+        "collocation:023",
+        "collocation:024",
+        "collocation:025",
+        "synonym:013",
+        "synonym:014",
+        "synonym:015",
+        "synonym:016"
+      ],
+      "locator": "https://www.collinsdictionary.com/dictionary/english/assume",
+      "source_excerpt_or_summary": "assume a form, quality, appearance, or significance"
+    },
+    {
+      "id": "E-005",
+      "source_fact_ids": [
+        "F-004",
+        "F-012",
+        "F-017",
+        "F-022",
+        "F-026"
+      ],
+      "article_target_ids": [
+        "sense_boundary:005",
+        "definition:005",
+        "usage_note:014",
+        "usage_note:015",
+        "usage_note:016",
+        "grammar_pattern:023",
+        "grammar_pattern:024",
+        "grammar_pattern:025",
+        "grammar_pattern:026",
+        "collocation:026",
+        "collocation:027",
+        "collocation:028",
+        "collocation:029",
+        "collocation:030",
+        "collocation:031",
+        "synonym:017",
+        "synonym:018",
+        "synonym:019",
+        "synonym:020"
+      ],
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/assume",
+      "source_excerpt_or_summary": "assume an air, attitude, quality, name, or identity"
+    },
+    {
+      "id": "E-006",
+      "source_fact_ids": [
+        "F-006",
+        "F-007",
+        "F-008",
+        "F-013",
+        "F-023",
+        "F-024"
+      ],
+      "article_target_ids": [
+        "pronunciation:001",
+        "pronunciation:002",
+        "pronunciation:003",
+        "etymology:001",
+        "etymology:002",
+        "etymology:003",
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003",
+        "word_formation:004",
+        "word_formation:005"
+      ],
+      "locator": "https://www.etymonline.com/word/assume",
+      "source_excerpt_or_summary": "regional pronunciation, inflection, Latin source, and related forms"
+    }
+  ],
+  "notes": "Inventory completed from six independent dictionary/usage/etymology sources before article comparison."
+}
