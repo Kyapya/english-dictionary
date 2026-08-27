@@ -1,0 +1,487 @@
+# Independent review handoff
+
+Stage: `final_review`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
+
+## Prompt
+
+# final_review_spec_v2
+
+この仕様は、最新版の記事本文、全checker/cold/final-blind finding、全resolution、固定済みblind inventoryを入力として、第三者最終審査が合否を判断するための意味基準だけを定める。入力分離、順序、hash、seal、記録、件数網羅、status同期は `scripts/run_word.py` と `scripts/generate_audit_manifest.py` が強制する。
+
+## PASSの意味基準
+
+次をすべて満たす場合だけ `PASS` とする。
+
+1. 記事の事実、語法、発音、例文、訳が正しく、見出し語の意味方向・意味役割・適用範囲を誤学習させない。
+2. 主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われ、語義境界、コアイメージ、定義、語法、コロケーション、語彙関係の間に矛盾がない。
+3. 例文と訳で、述語、主語・目的語・補語、行為者・経験者・対象・結果、肯否、比較基準、程度、数量、時制・相・法、条件・因果・目的、修飾範囲、焦点、情報構造、レジスター、話者評価が保存されている。
+4. 地域差、専門・制度用法、頻度、語源、語形成、語義境界、文法制約、絶対表現などの高リスク主張が、当該主張へ適用できる根拠に支えられ、反例・矛盾・適用範囲が確認されている。検索見出し、資料名だけ、別義の用例は根拠にしない。
+5. 通常棚卸しとblind棚卸しの差、すべてのfinding、採否理由、修正結果、残存リスクを個別に吟味し、問題確認済みfindingが最新版の本文全体で解決され、正しい意味関係が別箇所で再び破られていない。
+6. blind inventoryの各 `semantic_assertion` を最新版へ適用しても、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がない。
+
+## REJECTの意味基準
+
+上記のいずれかを満たさない場合は `REJECT` とする。blockerにできるのは、事実・語法・発音の誤り、例文/訳の誤り、主要語義・構文の欠落または過剰収録、根拠と本文の矛盾、内容仕様の必須項目違反、未判定・未解決項目である。各blockerには対象ID、問題、必要な修正を記録する。条件付き合格は使わない。
+
+本文と矛盾しない分類粒度・棚卸し構成の差、より良い表現の提案、任意の改善余地は、それだけを理由に `REJECT` にせず、非blocking noteとして記録する。`REJECT` は審査失敗ではなく、問題を検出して完了した正常な最終判定である。
+
+## 出力
+
+`final_review_v2` JSONとして、全target/relation/normal candidate/blind candidate/finding/evidence/source-unionの個別結果、`decision` (`pass | reject`)、`blockers`、非blocking `notes` を返す。`PASS` は全個別結果がpass、未解決・holdが0件、blockerが0件の場合に限る。本文は変更しない。
+
+
+## Input packet
+
+```json
+{
+  "stage": "final_review",
+  "entry_body": "\n＃発音記号\n\n米: /ˌkɑːnsərˈveɪʃən/、英: /ˌkɒnsəˈveɪʃən/。4音節で、主強勢は第3音節の `-va-` /veɪ/、第1音節に弱い副強勢がある。語末の `-tion` は /ʃən/ と発音する。  \n`conservation` の `-serva-` と `conversation` の `-versa-` は、つづり上 `s` と `v` の位置が入れ替わっている。音も異なり、前者の該当部分は /sərˈveɪ/、後者の該当部分は米音で /vərˈseɪ/ と発音する（全体ではそれぞれ /ˌkɑːnsərˈveɪʃən/、/ˌkɑːnvərˈseɪʃən/）。  \n`conservationist` は /ˌkɑːnsərˈveɪʃənɪst/（米）で、基本的に `conservation` と同じ主強勢を保つ。  \n\n＃語源\n\n`conservation` は中英語 `conservacioun`、古フランス語 `conservation` を経て、ラテン語 `conservatio`「保存、保全」に由来する。ラテン語 `conservare`「保つ、損なわないようにする」にさかのぼり、英語では「失われたり損なわれたりしないように保つこと」を中心に意味を発達させた。  \n現代英語では、自然資源を使いながら将来の損失を防ぐ保全、文化財の材料と価値を守る専門的保存、変化の前後で物理量の総量を保つ保存則へと用法が分かれる。物理学の用法は、日常的な「節約」から直接導かれたというより、「総量を失わせず保つ」という共通の概念を技術用語として用いるものである。  \n\n＃語形成\n\n`conserve` — 動詞「保全する、節約する、保存する」。`conserve water`「水を節約する」、`conserve a historic building`「歴史的建造物を保存する」のように、対象を直接目的語に取る。  \n`conservationist` — 名詞「自然保護活動家、保全論者」。自然環境や資源の保護を支持・実践する人を指し、文化財保存の専門家を通常この語で呼ぶわけではない。  \n`conservator` — 名詞「保存修復専門家、保全担当者」。特に美術品・文化財の調査、処置、予防的保存を行う専門家を指す。文脈によっては、資産や組織を管理・保全する人も指す。  \n`conservancy` — 名詞「保全団体、保全区域、保全活動」。`a land conservancy`「土地保全団体」、`river conservancy`「河川保全活動」のように、組織や制度を指すことが多い。  \n`conservational` — 形容詞「保全の、保存に関する」。一般会話では頻度が低く、専門的・制度的な文脈で使う。  \n`conserved quantity` — 物理学で「保存量」。系の条件のもとで総量が一定に保たれる物理量を指す。  \n\n＃コアイメージ\n\n`conservation` の核は、資源・物・価値・総量などを、損失や望ましくない変化から守って保つことである。何を保つかによって、環境・文化財の実践的な「保全」と、物理学の「総量が変わらない」という専門用法に分かれる。  \n・自然資源や環境を使い尽くしたり損なったりしないように保つ → 「保全、環境保護、節約」（語義1）  \n・作品や文化財の材料・情報・価値を損なわずに将来へ保つ → 「保存、保全、保存修復」（語義2）  \n・系の物理量の総量を変化や変換の前後で保つ → 「保存則、保存」（語義3）  \n\n＃意味・用法・関連表現\n\n1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約\n\n【日本語訳・定義】水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、計画的・慎重に利用し管理すること。利用を一切禁止することではなく、将来も利用できる状態を保つことに重点がある。  \n\n【頻度】〈9/10〉  \n\n【レジスター/領域】標準語。環境政策、資源管理、科学教育、行政、報道、日常の節電・節水の説明で広く使う。対象が自然環境ではなく、文化財や美術品なら通常は語義2、物理量の総量なら語義3である。  \n\n【文法パターン】`conservation of 〈natural resource〉`＝～の保全／`wildlife/forest/marine conservation`＝野生生物・森林・海洋の保全／`energy/water conservation`＝省エネルギー・節水／`conservation efforts/measures`＝保全の取り組み・対策／`promote/support conservation`＝保全を促進・支援する  \n\n【コロケーション】\n\n・`conservation of 〈natural resource〉`  \n用途: 水、森林、土壌などの自然資源を、使い切ったり損なったりしないよう管理することを表す。  \n例: The region introduced strict conservation of groundwater after several dry years.  \n訳: その地域は数年続いた干ばつの後、地下水の厳格な保全を導入した。  \n\n・`wildlife conservation`  \n用途: 野生動物、その生息地、個体群を保護・管理する活動を表す。  \n例: Wildlife conservation depends on protecting habitats as well as individual animals.  \n訳: 野生生物の保全には、個々の動物だけでなく生息地を守ることも必要である。  \n\n・`energy conservation`  \n用途: エネルギーの使用量や浪費を減らし、限られた資源を効率よく使うことを表す。  \n例: The school installed motion sensors as part of its energy conservation program.  \n訳: その学校は省エネルギー計画の一環として人感センサーを設置した。  \n\n・`water conservation`  \n用途: 水の使用を抑え、供給源を将来の需要のために維持することを表す。  \n例: Rain barrels were provided to residents as a water conservation measure.  \n訳: 節水対策として、住民に雨水貯留タンクが配られた。  \n\n・`conservation efforts/measures`  \n用途: 自然環境や資源を守るための具体的な努力・政策・対策をまとめて表す。  \n例: The new conservation measures reduced logging in the protected forest.  \n訳: 新しい保全対策によって、保護林での伐採が減った。  \n\n・`marine conservation`  \n用途: 海洋の生態系、魚類、沿岸環境を保護・管理する活動を表す。  \n例: The research station funds marine conservation around the coral reef.  \n訳: その研究所はサンゴ礁周辺の海洋保全に資金を提供している。  \n\n【語法・注意】この語義では通常不可算で、`a conservation` とは言わず、`conservation of water`、`conservation efforts` のように使う。`conservation` は「使わないこと」だけでなく、使用量を管理し、損失や破壊を防ぐことを含む。  \n\n`preservation` は対象を変化させずに残すことに焦点が置かれやすく、`conservation` は利用や管理を伴いながら資源・環境を長期的に保つ含みがある。`sustainability` は環境、経済、社会の仕組みを将来も維持できることに焦点があり、`conservation` と重なるが同義ではない。  \n`energy conservation` は語義1なら電力使用を減らす対策を指すが、`the conservation of energy`、`a conservation law`、`an isolated system` と結びつけば通常は語義3の物理学用法である。  \n\n【類義語】\n\n・preservation  \n定義: 損傷、変化、消失から守り、元の状態に近いまま残すこと。  \n頻度: 〈8/10〉  \n違い: `preservation` は変化を避けて現状を保つ焦点が強い。`conservation` は、自然資源を管理しながら使うことや、文化財を処置して安定させることも含む。  \n例: The preservation of the wetland prevents developers from draining it.  \n訳: その湿地の保存・保全は、開発業者が排水してしまうのを防ぐ。  \n\n・protection  \n定義: 危険、損害、攻撃などから守ること。  \n頻度: 〈10/10〉  \n違い: `protection` は脅威から守るという広い語で、資源を計画的に利用し続ける管理や、総量を保つ技術概念までは必ずしも含まない。  \n例: The law provides protection for nesting birds during the breeding season.  \n訳: その法律は繁殖期の営巣する鳥を保護する。  \n\n・stewardship  \n定義: 預かった土地、資源、環境を責任を持って管理すること。  \n頻度: 〈5/10〉  \n違い: `stewardship` は管理者の責任や倫理を強調する。`conservation` はその責任から行う具体的な保全活動や政策を指しやすい。  \n例: Good stewardship of the forest requires both careful harvesting and replanting.  \n訳: 森林を適切に管理するには、慎重な伐採と再植林の両方が必要である。  \n\n・sustainable management  \n定義: 将来の利用可能性を損なわないよう、資源や活動を管理すること。  \n頻度: 〈5/10〉  \n違い: `sustainable management` は将来も成り立つ利用水準や仕組みを明示する複合表現である。`conservation` は保護・損失防止に重点があり、持続可能性全体を必ずしも論じない。  \n例: Sustainable management of the fishery limits the annual catch.  \n訳: その漁業の持続可能な管理は年間漁獲量を制限している。  \n\n【反意語】\n\n・exploitation  \n定義: 資源や環境を利益のために強く利用し、しばしば限界まで消費すること。  \n頻度: 〈7/10〉  \n違い: `exploitation` は利用そのものを指すが、過剰利用や搾取という否定的な含みを持ちやすい。`conservation` は長期的な損失を避ける管理に焦点がある。  \n例: Uncontrolled exploitation of the forest has reduced the river’s water quality.  \n訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  \n\n・depletion  \n定義: 資源や蓄えが使われて減少し、ほとんど残らなくなること。  \n頻度: 〈6/10〉  \n違い: `depletion` は保全に失敗した結果としての量の減少を表す。故意の利用だけでなく、自然な消耗にも使える。  \n例: The depletion of the aquifer forced farmers to reduce irrigation.  \n訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  \n\n・waste  \n定義: 役立つ資源を不注意に、または必要以上に使うこと。  \n頻度: 〈9/10〉  \n違い: `waste` は個々の行動や使用の浪費を指す日常語で、自然環境全体の計画的な管理を表す `conservation` より狭い。  \n例: Leaving the tap running is an unnecessary waste of water.  \n訳: 蛇口を出しっぱなしにするのは、水の不必要な浪費である。  \n\n2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復\n\n【日本語訳・定義】絵画、彫刻、文書、遺跡、歴史的建造物などの文化遺産を、劣化や損傷から守り、その材料、情報、価値を将来へ引き継ぐ専門的な実践・工程。調査、記録、処置、予防的な環境管理を含み、常に元の外観へ作り直すことを意味しない。  \n\n【頻度】〈6/10〉  \n\n【レジスター/領域】専門語・標準語。美術館、文書館、図書館、文化財行政、建築保存、博物館学で使う。米国英語では `art conservation`、`heritage conservation`、`architectural conservation` などの形が多い。自然環境の保全なら語義1である。  \n\n【文法パターン】`conservation of 〈artwork/manuscript/building〉`＝～の保存修復／`art/heritage conservation`＝美術品・文化遺産の保存／`conservation treatment`＝保存修復処置／`conservation work`＝保存修復作業／`a conservation laboratory`＝保存修復研究室／`conservation and restoration`＝保存修復と復元  \n\n【コロケーション】\n\n・`conservation of 〈artwork〉`  \n用途: 絵画、彫刻、工芸品などを調査・処置して安定した状態に保つことを表す。  \n例: The conservation of the oil painting took six months because the canvas was fragile.  \n訳: その油彩画はキャンバスがもろかったため、保存修復に6か月かかった。  \n\n・`art/heritage conservation`  \n用途: 美術作品や文化遺産を対象とする専門分野・活動を表す。  \n例: She studied heritage conservation before joining the national museum.  \n訳: 彼女は国立博物館に入る前に文化遺産保存を学んだ。  \n\n・`conservation treatment`  \n用途: 専門家が作品や資料に施す具体的な保存修復処置を表す。  \n例: The conservator recommended a gentle conservation treatment for the cracked varnish.  \n訳: 保存修復家は、ひびの入ったニスに穏やかな保存修復処置を勧めた。  \n\n・`conservation work`  \n用途: 文化財の安定化、清掃、補修、記録などの保存修復作業をまとめて表す。  \n例: Conservation work on the medieval manuscript revealed ink beneath a later repair.  \n訳: その中世写本の保存修復作業によって、後世の補修の下にあるインクが明らかになった。  \n\n・`conservation of historic buildings`  \n用途: 歴史的建造物の材料、構造、特徴を調べ、損傷を抑えて維持することを表す。  \n例: The conservation of historic buildings must respect evidence of their earlier alterations.  \n訳: 歴史的建造物の保存では、過去の改変の証拠を尊重しなければならない。  \n\n・`a conservation laboratory`  \n用途: 美術品・文化財の材料分析、状態確認、処置を行う施設を表す。  \n例: The museum’s conservation laboratory monitors humidity around the wooden sculpture.  \n訳: その博物館の保存修復研究室は、木彫像の周囲の湿度を監視している。  \n\n【語法・注意】この語義の `conservation` は通常不可算で、専門家が対象を記録・安定化・処置しながら残すことを指す。`conservation` と `restoration` は重なるが、`restoration` は過去の状態や外観を再現することに焦点が置かれやすい。保存修復では、後から加えた部分を隠さず、現存する材料と将来の研究可能性を尊重する場合がある。  \n\n専門家は `conservator`、保存修復を行う部門は `conservation department` や `conservation laboratory` と呼ぶ。自然環境を守る活動を指す `environmental conservation` と、文化財を扱う `art conservation` は対象が異なるため、形容詞や目的語を確認する。  \n\n【類義語】\n\n・preservation  \n定義: 文化財や記録を損傷・劣化から守り、できるだけその状態で残すこと。  \n頻度: 〈8/10〉  \n違い: `preservation` は現状を保つ一般語で、専門的な調査・処置の体系まで必ずしも示さない。`conservation` は材料分析、処置、予防管理を含む専門領域を指しやすい。  \n例: Digital preservation protects the files from becoming unreadable as software changes.  \n訳: デジタル保存は、ソフトウェアの変化でファイルが読めなくなるのを防ぐ。  \n\n・restoration  \n定義: 作品、建物、物品などを以前の状態・外観に戻すこと。  \n頻度: 〈7/10〉  \n違い: `restoration` は欠損の補充や過去の姿の再現に重点がある。`conservation` は現存する材料を安定させることを優先し、完全な復元を目標にしないことがある。  \n例: The restoration recreated the missing colors, while the conservation treatment stabilized the original paint.  \n訳: 復元では失われた色を再現し、保存修復処置では元の絵具を安定させた。  \n\n・stabilization  \n定義: 損傷や劣化の進行を止め、対象を安全に扱える状態にすること。  \n頻度: 〈5/10〉  \n違い: `stabilization` は保存修復の一工程に焦点を置く。`conservation` は状態確認、記録、予防管理、処置を含むより広い活動である。  \n例: Stabilization of the loose pages came before the manuscript was put on display.  \n訳: 写本を展示する前に、外れかけたページの安定化が行われた。  \n\n・repair  \n定義: 壊れたり傷んだりした物を、使える状態に戻すため直すこと。  \n頻度: 〈9/10〉  \n違い: `repair` は機能回復の日常語で、元の材料・情報・外観を尊重する専門的な保存判断までは含まない。  \n例: The repair fixed the frame, but it was not a full conservation treatment.  \n訳: その修理で額縁は直ったが、完全な保存修復処置ではなかった。  \n\n【反意語】\n\n・neglect  \n定義: 必要な世話、管理、処置を怠り、対象を悪化させること。  \n頻度: 〈8/10〉  \n違い: `neglect` は保全のために必要な注意や手入れをしないことを表す。故意に壊すことまで必ずしも含まない。  \n例: Years of neglect left the wooden sculpture vulnerable to insects and moisture.  \n訳: 何年も放置されたため、その木彫像は虫と湿気に弱い状態になった。  \n\n・deterioration  \n定義: 物の状態、品質、材料が時間とともに悪化すること。  \n頻度: 〈7/10〉  \n違い: `deterioration` は保存に失敗した結果として起こる劣化を指す状態名詞で、誰かの行為を直接示す `neglect` とは異なる。  \n例: The archive reduced deterioration by controlling light and humidity.  \n訳: その文書館は光と湿度を管理して劣化を抑えた。  \n\n・destruction  \n定義: 物、建物、資料などを壊して存在・形を失わせること。  \n頻度: 〈8/10〉  \n違い: `destruction` は保存の目的と正反対の結果を表すが、保存修復が防ごうとするすべての損傷が完全な破壊に至るわけではない。  \n例: The conservation plan was created to prevent the destruction of the historic site.  \n訳: その保存計画は、史跡の破壊を防ぐために作られた。  \n\n3. 【名詞・不可算／物理学・化学】物理量の保存、保存則\n\n【日本語訳・定義】ある系と条件のもとで、エネルギー、運動量、質量、電荷などの物理量の総量が、移動したり別の形に変換されたりしても一定に保たれること。また、その関係を述べる法則。系の一部の量や形が変化しないという意味ではなく、境界を定めた全体の収支が変わらないという意味である。  \n\n【頻度】〈6/10〉  \n\n【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な節電・節水を表す `energy conservation` とは、周囲の語で区別する。  \n\n【文法パターン】`conservation of 〈energy/momentum/mass/charge〉`＝エネルギー・運動量・質量・電荷の保存／`the law/principle of conservation of 〈quantity〉`＝～保存の法則・原理／`a conservation law`＝保存則／`obey/test conservation of 〈quantity〉`＝～の保存則に従う・～の保存を検証する  \n\n【コロケーション】\n\n・`the law of conservation of energy`  \n用途: 孤立した系の全エネルギーが、形を変えても一定であるという法則を表す。  \n例: The law of conservation of energy explains why the total energy of the isolated system stayed constant.  \n訳: エネルギー保存則は、その孤立系の全エネルギーが一定に保たれた理由を説明する。  \n\n・`conservation of momentum`  \n用途: 外部からの正味の力積が無視できる系で、全運動量が衝突の前後で等しいことを表す。  \n例: The students used conservation of momentum to calculate the speeds after the collision.  \n訳: 学生たちは運動量保存を使って、衝突後の速度を計算した。  \n\n・`conservation of mass`  \n用途: 通常の化学反応で原子が消滅・生成せず、反応前後の質量収支が保たれることを表す。  \n例: The balanced equation reflects conservation of mass: the atoms are rearranged, not created or destroyed.  \n訳: 係数をそろえた化学式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。  \n\n・`conservation of charge`  \n用途: 閉じた収支で電荷が勝手に生じたり消えたりせず、電気回路や反応で電荷の総量が保たれることを表す。  \n例: Kirchhoff’s current law follows from conservation of electric charge at a circuit junction.  \n訳: キルヒホッフの電流則は、回路の接点で電気の電荷が保存されることから導かれる。  \n\n・`a conservation law`  \n用途: 特定の物理量の総量が、許された変化の前後で一定であることを述べる法則を表す。  \n例: A simulation is suspect if it changes total charge without an external source, because it violates a conservation law.  \n訳: 外部源なしに全電荷を変えるシミュレーションは、保存則に反するため疑わしい。  \n\n【語法・注意】物理学の `conservation` は「何も変化しない」という意味ではない。エネルギーが熱や運動エネルギーへ移る、運動量が複数の物体へ分配されるなど、系の内部では形や配分が変わっても、定義した系全体の総量が一定なら保存という。  \n\n`conservation of energy` は物理学の保存則、`energy conservation measures` は語義1の省エネルギー対策になりやすい。`isolated system`、`total energy`、`collision`、`law` などがあれば語義3の可能性が高く、`bills`、`efficient appliances`、`reduce use` などがあれば語義1の可能性が高い。  \n保存則は系の境界、外部との交換、近似条件に依存する。したがって「どんな場合でも各物体の量が一定」と一般化せず、`total`、`system`、`under these conditions` などの範囲を確認する。  \n\n【類義語】\n\n・invariance  \n定義: ある変換、操作、条件のもとで、性質や量が変わらないこと。  \n頻度: 〈5/10〉  \n違い: `invariance` は変換に対して同じであるという数学・物理学の性質を強調する。`conservation` は時間発展や相互作用の前後で総量が保たれる収支・法則を指しやすい。  \n例: The symmetry implies invariance of the equations under a change of coordinates.  \n訳: その対称性は、座標変換に対して方程式が不変であることを意味する。  \n\n・constancy  \n定義: 量や状態が変わらず一定であること。  \n頻度: 〈5/10〉  \n違い: `constancy` は単に変化がないことを表す一般語で、何が保存され、どの系で収支が保たれるかという物理法則の含みは弱い。  \n例: The experiment measured the constancy of the temperature in the sealed chamber.  \n訳: その実験は密閉室内の温度が一定であることを測定した。  \n\n・preservation  \n定義: ある性質、量、状態を失わせずに保つこと。  \n頻度: 〈8/10〉  \n違い: `preservation` は「保つ」という一般的な意味で技術文書にも現れるが、物理学では特定の量と法則を示す `conservation` が定着している。  \n例: The model assumes preservation of total mass during the reaction.  \n訳: そのモデルは反応中に全質量が保たれると仮定している。  \n\n【反意語】\n\n・nonconservation  \n定義: 保存されるはずの量が、定めた系や理論のもとで一定に保たれないこと。  \n頻度: 〈3/10〉  \n違い: `nonconservation` は一般会話の反対語ではなく、特定の保存則が成り立たないことを述べる専門的な表現である。  \n例: The proposed interaction would imply nonconservation of electric charge.  \n訳: その相互作用の提案は、電荷非保存を意味することになる。  ",
+  "_output_metadata": {
+    "schema_version": "final_review_v2",
+    "stage": "final_review",
+    "run_id": "blind-conservation-20260827T152711Z-357de45e",
+    "context_id": "blind-conservation-context-20260827T152711Z-357de45e",
+    "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+    "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+    "input_artifacts": [
+      "entry_body",
+      "all_findings",
+      "resolutions",
+      "sealed_final_blind",
+      "final_review_spec"
+    ],
+    "blind_output_sha256": "e4350eb1214da630d0fbe937241910624cd316ff26caae5354708f7a17f9301c"
+  },
+  "pass_findings": {
+    "pass_outputs": [
+      {
+        "pass_id": "translation",
+        "findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      {
+        "pass_id": "sense-structure",
+        "findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      {
+        "pass_id": "frame-relation",
+        "findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      {
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        },
+        "blind_attribution_record": {
+          "schema_version": "example_attribution_blind_record_v1",
+          "pass_id": "example-attribution",
+          "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+          "blind_request_sha256": "99a26a876dc2cc150fc8e7ff68960a256027f49b00d051d8b9d78c1e20ce0756",
+          "recorded_at": "2026-08-27T15:34:53Z",
+          "attributions": [
+            {
+              "example_id": "ex-674b0e2105ca",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "groundwater"
+              ],
+              "rationale": "The term groundwater identifies careful management of a natural resource in sense:001."
+            },
+            {
+              "example_id": "ex-28d1f5892ebb",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "habitats"
+              ],
+              "rationale": "The term habitats identifies protection of wildlife habitat in sense:001."
+            },
+            {
+              "example_id": "ex-838068ba5036",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "motion sensors"
+              ],
+              "rationale": "The phrase motion sensors identifies an energy-saving program in sense:001."
+            },
+            {
+              "example_id": "ex-a638f6e5db91",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "Rain barrels"
+              ],
+              "rationale": "The phrase Rain barrels identifies a water-conservation measure in sense:001."
+            },
+            {
+              "example_id": "ex-e5eb0bfa0d9e",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "logging"
+              ],
+              "rationale": "The term logging identifies management of a protected forest in sense:001."
+            },
+            {
+              "example_id": "ex-e3e9babc0d1f",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "coral reef"
+              ],
+              "rationale": "The phrase coral reef identifies marine environmental conservation in sense:001."
+            },
+            {
+              "example_id": "ex-8171ee78e7b1",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "oil painting"
+              ],
+              "rationale": "The phrase oil painting identifies conservation treatment of an artwork in sense:002."
+            },
+            {
+              "example_id": "ex-da2bdf7fa51c",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "national museum"
+              ],
+              "rationale": "The phrase national museum identifies cultural-heritage conservation in sense:002."
+            },
+            {
+              "example_id": "ex-464057260ced",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "conservator"
+              ],
+              "rationale": "The term conservator identifies the specialist art-conservation context in sense:002."
+            },
+            {
+              "example_id": "ex-2804b62504c3",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "medieval manuscript"
+              ],
+              "rationale": "The phrase medieval manuscript identifies conservation of a historical document in sense:002."
+            },
+            {
+              "example_id": "ex-5845b0cabab0",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "historic buildings"
+              ],
+              "rationale": "The phrase historic buildings identifies architectural heritage conservation in sense:002."
+            },
+            {
+              "example_id": "ex-ca0b7f8b7289",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "wooden sculpture"
+              ],
+              "rationale": "The phrase wooden sculpture identifies specialist object conservation in sense:002."
+            },
+            {
+              "example_id": "ex-a6ad5fff061c",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:003"
+              ],
+              "discriminating_terms": [
+                "isolated system"
+              ],
+              "rationale": "The phrase isolated system identifies a total-energy conservation law in sense:003."
+            },
+            {
+              "example_id": "ex-75643da5be04",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:003"
+              ],
+              "discriminating_terms": [
+                "collision"
+              ],
+              "rationale": "The term collision identifies conservation of momentum in sense:003."
+            },
+            {
+              "example_id": "ex-8c1b795c6ccf",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:003"
+              ],
+              "discriminating_terms": [
+                "atoms"
+              ],
+              "rationale": "The term atoms identifies conservation of mass during rearrangement in sense:003."
+            },
+            {
+              "example_id": "ex-6d485aea4fdf",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:003"
+              ],
+              "discriminating_terms": [
+                "Kirchhoff’s"
+              ],
+              "rationale": "The name Kirchhoff’s identifies the electric-charge conservation context in sense:003."
+            },
+            {
+              "example_id": "ex-3e586d6909fd",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:003"
+              ],
+              "discriminating_terms": [
+                "external source"
+              ],
+              "rationale": "The phrase external source identifies a conservation-law test for total charge in sense:003."
+            }
+          ],
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-5.6-lexicon-audit",
+            "ingested_by": "human"
+          }
+        },
+        "aligned_at": "2026-08-27T15:34:53.434630+00:00",
+        "findings": [],
+        "unrouted_observations": []
+      },
+      {
+        "pass_id": "qualification",
+        "findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      {
+        "pass_id": "pronunciation",
+        "findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      {
+        "pass_id": "evidence",
+        "findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      }
+    ],
+    "independent_candidates": [],
+    "summary": "Fresh independent checker passes found no remaining content findings after the requested corrections.",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-lexicon-audit",
+      "ingested_by": "human"
+    },
+    "schema_version": "normal_review_v2",
+    "stage": "normal_review",
+    "run_id": "normal-conservation-20260827T152711Z-357de45e",
+    "context_id": "normal-conservation-context-20260827T152711Z-357de45e",
+    "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+    "prompt_sha256": "3b4795b47a4673eda1b06129d7e475edcf81cb9a6e1423bbb917aec68a0b0841",
+    "input_artifacts": [
+      "router_selected_sections",
+      "checker_pass_specs"
+    ],
+    "recorded_at": "2026-08-27T15:34:53.433953+00:00"
+  },
+  "cold_review": {
+    "summary": "Fresh context-free review found no remaining issues in the corrected entry.",
+    "findings": [],
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-cold-audit",
+      "ingested_by": "human"
+    },
+    "schema_version": "cold_review_v1",
+    "stage": "cold_review",
+    "run_id": "cold-conservation-20260827T152711Z-357de45e",
+    "context_id": "cold-conservation-context-20260827T152711Z-357de45e",
+    "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+    "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+    "input_artifacts": [
+      "entry_body",
+      "cold_review_prompt"
+    ],
+    "audit_visible": false,
+    "recorded_at": "2026-08-27T15:35:26.276257+00:00"
+  },
+  "final_blind": {
+    "provisional_decision": "pass",
+    "independent_candidates": [
+      {
+        "id": "BC-001",
+        "surface_form": "conservation",
+        "frame": "uncountable noun in conservation of 〈resource〉 and resource/environment compounds",
+        "meaning": "planned protection and management of natural resources and the environment",
+        "disposition": "included",
+        "rationale": "The candidate-specific frame \"uncountable noun in conservation of 〈resource〉 and resource/environment compounds\" and meaning \"planned protection and management of natural resources and the environment\" identify the environmental use.",
+        "semantic_assertions": [
+          {
+            "id": "BA-001",
+            "statement": "The environmental use must not imply that all resource use is prohibited.",
+            "polarity": "must_hold",
+            "scope": "resource and environmental use"
+          },
+          {
+            "id": "BA-002",
+            "statement": "The environmental use must remain distinct from professional cultural-heritage treatment and from a physics conservation law.",
+            "polarity": "must_hold",
+            "scope": "cross-sense boundary"
+          }
+        ]
+      },
+      {
+        "id": "BC-002",
+        "surface_form": "conservation",
+        "frame": "uncountable noun in conservation of 〈artwork/building〉 and art/heritage conservation",
+        "meaning": "professional preservation, treatment, and preventive care for cultural heritage",
+        "disposition": "included",
+        "rationale": "The candidate-specific frame \"uncountable noun in conservation of 〈artwork/building〉 and art/heritage conservation\" and meaning \"professional preservation, treatment, and preventive care for cultural heritage\" identify the cultural-heritage use.",
+        "semantic_assertions": [
+          {
+            "id": "BA-003",
+            "statement": "The cultural-heritage use must allow stabilization and treatment without requiring complete restoration to an earlier appearance.",
+            "polarity": "must_hold",
+            "scope": "art and heritage conservation"
+          },
+          {
+            "id": "BA-004",
+            "statement": "The cultural-heritage use must remain distinct from natural-resource conservation.",
+            "polarity": "must_hold",
+            "scope": "cross-sense boundary"
+          }
+        ]
+      },
+      {
+        "id": "BC-003",
+        "surface_form": "conservation",
+        "frame": "uncountable technical noun in conservation of 〈energy/momentum/mass/charge〉 and a conservation law",
+        "meaning": "constancy of a physical quantity’s total for a specified system under stated conditions",
+        "disposition": "included",
+        "rationale": "The candidate-specific frame \"uncountable technical noun in conservation of 〈energy/momentum/mass/charge〉 and a conservation law\" and meaning \"constancy of a physical quantity’s total for a specified system under stated conditions\" identify the scientific use.",
+        "semantic_assertions": [
+          {
+            "id": "BA-005",
+            "statement": "The physics use must concern a system total rather than requiring every component or object to remain unchanged.",
+            "polarity": "must_hold",
+            "scope": "physical conservation"
+          },
+          {
+            "id": "BA-006",
+            "statement": "The physics use must be distinguished from everyday energy conservation measures that reduce consumption.",
+            "polarity": "must_hold",
+            "scope": "energy terminology boundary"
+          }
+        ]
+      }
+    ],
+    "article_findings": [],
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-blind-audit",
+      "ingested_by": "human"
+    },
+    "schema_version": "final_blind_v2",
+    "stage": "final_blind",
+    "run_id": "blind-conservation-20260827T152711Z-357de45e",
+    "context_id": "blind-conservation-context-20260827T152711Z-357de45e",
+    "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+    "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+    "input_artifacts": [
+      "entry_body",
+      "final_blind_prompt"
+    ],
+    "audit_visible": false,
+    "recorded_at": "2026-08-27T15:35:57.090535+00:00"
+  },
+  "blind_seal": {
+    "schema_version": "blind_seal_v3",
+    "stage": "blind_seal",
+    "entry_path": "entries/c/conservation.md",
+    "body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+    "final_blind_path": "audits/runs/c/conservation/20260827T152711Z-357de45e/final_blind.json",
+    "final_blind_sha256": "69cb5a39acbc6e188cc0643821c0c8b717b07f03feaa0fe08089fb5e1c9d758d",
+    "blind_output_sha256": "e4350eb1214da630d0fbe937241910624cd316ff26caae5354708f7a17f9301c",
+    "sealed_at": "2026-08-27T11:36:03.250782-04:00"
+  },
+  "resolutions": {
+    "schema_version": "resolutions_v1",
+    "stage": "resolutions",
+    "run_id": "resolution-conservation-20260827T152711Z-357de45e",
+    "context_id": "resolution-conservation-context-20260827T152711Z-357de45e",
+    "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+    "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+    "input_artifacts": [
+      "entry_body",
+      "all_findings",
+      "sealed_final_blind"
+    ],
+    "recorded_at": "2026-08-27T15:36:21Z",
+    "resolutions": []
+  }
+}
+```
