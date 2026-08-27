@@ -18,12 +18,12 @@
     "research_queries": 14,
     "candidate_pages": 22
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "preflight_pushed",
   "started_at": "2026-08-27T16:30:28Z",
   "deadline_at": "2026-08-27T18:00:28Z",
   "pre_draft_deadline_at": "2026-08-27T17:00:28Z",
-  "last_heartbeat_at": "2026-08-27T16:34:56Z",
+  "last_heartbeat_at": "2026-08-27T16:51:32Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-27T16:32:32Z",
@@ -41,7 +41,7 @@
       "notes": "remote start checkpoint verified"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "heartbeat gap budget exhausted",
   "open_questions": [],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
