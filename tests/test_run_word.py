@@ -8,6 +8,7 @@ import tempfile
 import unittest
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
+from unittest import mock
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -17,6 +18,7 @@ if str(SCRIPTS) not in sys.path:
 
 import entry_workflow_guard as guard  # noqa: E402
 import run_word  # noqa: E402
+import check_passes  # noqa: E402
 
 
 class RunWordTests(unittest.TestCase):
@@ -56,6 +58,18 @@ class RunWordTests(unittest.TestCase):
             self.assertIn("specification_files", stage)
             self.assertIn("output_paths", stage)
             self.assertIsInstance(stage["instruction_bytes"], int)
+        review_stages = {
+            stage["name"]: stage
+            for stage in payload["stages"]
+            if stage["name"] in run_word.REVIEW_STAGES
+        }
+        self.assertEqual(set(review_stages), run_word.REVIEW_STAGES)
+        self.assertTrue(
+            all(
+                stage["reviewer_mode"] == "api" and stage["input_packet_path"]
+                for stage in review_stages.values()
+            )
+        )
         self.assertEqual(len(payload["checker_passes"]), 7)
         self.assertTrue(
             all(item["instruction_bytes"] <= 15_000 for item in payload["checker_passes"])
@@ -86,6 +100,300 @@ class RunWordTests(unittest.TestCase):
             )
             self.assertNotIn("ACTIVE.md", joined)
             self.assertNotIn("finding", joined)
+
+    def test_handoff_packet_is_prepared_and_blind_record_is_reconciled_on_ingest(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(REPO_ROOT / "prompts", root / "prompts")
+            (root / "audits").mkdir()
+            shutil.copy2(
+                REPO_ROOT / "audits" / "escaped_defect_taxonomy.json",
+                root / "audits" / "escaped_defect_taxonomy.json",
+            )
+            entry = root / "entries" / "s" / "sample.md"
+            entry.parent.mkdir(parents=True)
+            shutil.copy2(
+                REPO_ROOT / "tests" / "fixtures" / "example_attribution_polysemous.md",
+                entry,
+            )
+            manifest = {
+                "entry_path": "entries/s/sample.md",
+                "run_id": "handoff-run",
+                "orchestrator": run_word.plan_payload(
+                    "sample", root, reviewer_mode="handoff"
+                ),
+                "orchestrator_state": {
+                    "next_stage_index": 3,
+                    "completed_stages": [
+                        "guard_start",
+                        "generation",
+                        "mechanical_validator",
+                    ],
+                    "stage_outputs": {},
+                },
+            }
+            packet_path = run_word.prepare_handoff(manifest, repo_root=root)
+            self.assertTrue(packet_path.is_file())
+            self.assertIn("Independent review handoff", packet_path.read_text())
+
+            cycle = root / "audits" / "runs" / "s" / "sample" / "handoff-run"
+            check_dir = cycle / "check_passes"
+            request = json.loads(
+                (check_dir / "example-attribution.request.json").read_text()
+            )
+            alignment = json.loads(
+                (check_dir / "example-attribution.alignment-key.json").read_text()
+            )
+            owner = {
+                item["example_id"]: item["assigned_sense_id"]
+                for item in alignment["examples"]
+            }
+            attributions = []
+            for item in request["input_sections"]["collocations_examples"]:
+                quote = item["example"]
+                attributions.append(
+                    {
+                        "example_id": item["example_id"],
+                        "classification": "unique",
+                        "candidate_sense_ids": [owner[item["example_id"]]],
+                        "discriminating_terms": [quote],
+                        "rationale": f"The exact wording {quote} identifies this use.",
+                    }
+                )
+            record = {
+                "schema_version": "example_attribution_blind_record_v1",
+                "pass_id": "example-attribution",
+                "input_body_sha256": request["input_body_sha256"],
+                "blind_request_sha256": check_passes._digest_json(request),
+                "recorded_at": "2020-01-01T00:00:00+00:00",
+                "attributions": attributions,
+            }
+            router = check_passes.load_router(root / "prompts" / "check_router_v6.md")
+            outputs = [
+                (
+                    {
+                        "pass_id": item["id"],
+                        "blind_attribution_record": record,
+                    }
+                    if item["id"] == "example-attribution"
+                    else {"pass_id": item["id"], "findings": []}
+                )
+                for item in router["passes"]
+            ]
+            response = cycle / "handoff" / "checker_passes.response.json"
+            response.write_text(json.dumps({"pass_outputs": outputs}), encoding="utf-8")
+            target = run_word.ingest_handoff_review(
+                manifest,
+                stage="checker_passes",
+                declared_model="independent-reviewer",
+                repo_root=root,
+            )
+            ingested = json.loads(target.read_text())
+            attribution = next(
+                item
+                for item in ingested["pass_outputs"]
+                if item["pass_id"] == "example-attribution"
+            )
+            self.assertIn("aligned_at", attribution)
+            self.assertTrue(
+                all(
+                    row["example_id"].startswith("ex-")
+                    for row in attribution["blind_attribution_record"]["attributions"]
+                )
+            )
+            with self.assertRaisesRegex(ValueError, "must differ"):
+                run_word.ingest_handoff_review(
+                    manifest,
+                    stage="checker_passes",
+                    declared_model="synthetic-fixture",
+                    repo_root=root,
+                )
+
+    def test_api_mode_materializes_run_bound_checker_requests(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(REPO_ROOT / "prompts", root / "prompts")
+            (root / "audits").mkdir()
+            shutil.copy2(
+                REPO_ROOT / "audits" / "escaped_defect_taxonomy.json",
+                root / "audits" / "escaped_defect_taxonomy.json",
+            )
+            entry = root / "entries" / "s" / "sample.md"
+            entry.parent.mkdir(parents=True)
+            shutil.copy2(
+                REPO_ROOT / "tests" / "fixtures" / "example_attribution_polysemous.md",
+                entry,
+            )
+            manifest = {
+                "entry_path": "entries/s/sample.md",
+                "run_id": "api-run",
+                "orchestrator": run_word.plan_payload(
+                    "sample", root, reviewer_mode="api"
+                ),
+                "orchestrator_state": {
+                    "next_stage_index": 3,
+                    "completed_stages": [
+                        "guard_start",
+                        "generation",
+                        "mechanical_validator",
+                    ],
+                    "stage_outputs": {},
+                },
+            }
+            paths, packet = run_word.prepare_review_inputs(
+                manifest, repo_root=root
+            )
+            self.assertEqual(packet["stage"], "checker_passes")
+            self.assertEqual(len([path for path in paths if path.name.endswith(".request.json")]), 7)
+            self.assertTrue(
+                any(path.name == "example-attribution.alignment-key.json" for path in paths)
+            )
+            attribution = next(
+                item for item in packet["requests"]
+                if item["pass_id"] == "example-attribution"
+            )
+            self.assertTrue(
+                all(
+                    item["example_id"].startswith("ex-")
+                    for item in attribution["input_sections"]["collocations_examples"]
+                )
+            )
+
+    def test_api_mode_calls_validates_and_mechanically_aggregates_checker_passes(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            shutil.copytree(REPO_ROOT / "prompts", root / "prompts")
+            (root / "audits").mkdir()
+            shutil.copy2(
+                REPO_ROOT / "audits" / "escaped_defect_taxonomy.json",
+                root / "audits" / "escaped_defect_taxonomy.json",
+            )
+            entry = root / "entries" / "s" / "sample.md"
+            entry.parent.mkdir(parents=True)
+            shutil.copy2(
+                REPO_ROOT / "tests" / "fixtures" / "example_attribution_polysemous.md",
+                entry,
+            )
+            manifest = {
+                "entry_path": "entries/s/sample.md",
+                "run_id": "api-call-run",
+                "orchestrator": run_word.plan_payload(
+                    "sample", root, reviewer_mode="api"
+                ),
+                "orchestrator_state": {
+                    "next_stage_index": 3,
+                    "completed_stages": [
+                        "guard_start",
+                        "generation",
+                        "mechanical_validator",
+                    ],
+                    "stage_outputs": {},
+                },
+            }
+
+            def provider_response(
+                provider: str,
+                *,
+                model: str,
+                api_key: str,
+                prompt: str,
+                request_payload: dict[str, object],
+                endpoint: str | None = None,
+            ) -> dict[str, object]:
+                pass_id = str(request_payload["pass_id"])
+                if pass_id == "example-attribution":
+                    sections = request_payload["input_sections"]
+                    assert isinstance(sections, dict)
+                    senses = sections["sense_structure"]
+                    examples = sections["collocations_examples"]
+                    assert isinstance(senses, list) and isinstance(examples, list)
+                    candidate = str(senses[0]["sense_id"])
+                    payload = {
+                        "schema_version": "example_attribution_blind_record_v1",
+                        "pass_id": pass_id,
+                        "input_body_sha256": request_payload["input_body_sha256"],
+                        "blind_request_sha256": check_passes._digest_json(
+                            request_payload
+                        ),
+                        "recorded_at": "2020-01-01T00:00:00+00:00",
+                        "attributions": [
+                            {
+                                "example_id": item["example_id"],
+                                "classification": "unique",
+                                "candidate_sense_ids": [candidate],
+                                "discriminating_terms": [item["example"]],
+                                "rationale": (
+                                    "The exact wording " + str(item["example"])
+                                    + " identifies this use."
+                                ),
+                            }
+                            for item in examples
+                        ],
+                    }
+                else:
+                    payload = {"pass_id": pass_id, "findings": []}
+                return {
+                    "id": f"resp-{pass_id}",
+                    "output_text": json.dumps(payload),
+                }
+
+            with mock.patch.object(
+                run_word.review_call,
+                "call_provider",
+                side_effect=provider_response,
+            ):
+                paths = run_word.execute_api_review_stage(
+                    manifest,
+                    repo_root=root,
+                    provider="openai",
+                    model="independent-reviewer",
+                    api_key="not-used",
+                )
+
+            cycle = root / "audits" / "runs" / "s" / "sample" / "api-call-run"
+            aggregate = json.loads((cycle / "pass_findings.json").read_text())
+            self.assertEqual(len(aggregate["pass_outputs"]), 7)
+            self.assertTrue(all(item.get("reviewer") for item in aggregate["pass_outputs"]))
+            attribution = next(
+                item
+                for item in aggregate["pass_outputs"]
+                if item["pass_id"] == "example-attribution"
+            )
+            self.assertIn("aligned_at", attribution)
+            self.assertTrue(
+                (cycle / "check_passes" / "example-attribution.blind-record.json").is_file()
+            )
+            self.assertEqual(len(list((cycle / "raw").glob("checker-*.response.json"))), 7)
+            self.assertIn(cycle / "pass_findings.json", paths)
+
+    def test_acceptance_d1_requires_blocking_example_attribution_finding(self) -> None:
+        expected = [
+            {
+                "id": "D1",
+                "taxonomy_id": "example_sense_attribution_mismatch",
+                "exact_quote": "target quote",
+            }
+        ]
+        wrong_stage = {
+            "stage": "cold_review",
+            "taxonomy_id": "example_sense_attribution_mismatch",
+            "severity": "blocking",
+            "location": {"exact_quote": "target quote"},
+        }
+        self.assertFalse(
+            run_word.match_acceptance_defects(expected, [wrong_stage], [])[0][
+                "detected"
+            ]
+        )
+        correct = {
+            **wrong_stage,
+            "stage": "check_pass:example-attribution",
+        }
+        self.assertTrue(
+            run_word.match_acceptance_defects(expected, [correct], [])[0][
+                "detected"
+            ]
+        )
 
     def test_guard_start_uses_guard_manifest_and_keeps_budget_fixed(self) -> None:
         with tempfile.TemporaryDirectory() as directory:

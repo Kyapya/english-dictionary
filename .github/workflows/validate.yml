@@ -47,6 +47,9 @@ jobs:
         run: |
           python scripts/check_passes.py validate-router
           python scripts/migration_table.py validate
+          python scripts/review_liveness.py regression \
+            audits/runs/y/yield/20260826T131200Z-yield02
+          python scripts/queue_status.py escaped-by-stage
 
       - name: Validate queue and entry consistency
         run: python scripts/validate_repository.py

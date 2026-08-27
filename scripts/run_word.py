@@ -3,6 +3,7 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import os
 import subprocess
 from dataclasses import asdict, dataclass
 from datetime import datetime, timezone
@@ -11,7 +12,11 @@ from typing import Any, Iterable
 
 import entry_workflow_guard as guard
 import check_passes
+import content_audit
 import process_improvement
+import review_liveness
+import review_call
+import validate_entry
 from slugify import slugify
 
 
@@ -32,6 +37,8 @@ class StagePlan:
     output_paths: tuple[str, ...]
     guard_checkpoints: tuple[str, ...] = ()
     context_mode: str = "coordinator"
+    reviewer_mode: str | None = None
+    input_packet_path: str | None = None
 
     def to_dict(self, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         value = asdict(self)
@@ -63,11 +70,20 @@ def _artifact_root(headword: str) -> str:
     return f"audits/runs/{resolved[0]}/{resolved}/{{run_id}}"
 
 
+def _review_input_packet_path(root: str, stage: str, reviewer_mode: str) -> str:
+    if reviewer_mode == "handoff":
+        return f"{root}/handoff/{stage}.request.md"
+    if stage == "checker_passes":
+        return f"{root}/check_passes/"
+    return f"{root}/{stage}.request.json"
+
+
 def build_plan(
     headword: str,
     *,
     check_spec: str = DEFAULT_CHECK_SPEC,
     final_spec: str = DEFAULT_FINAL_SPEC,
+    reviewer_mode: str = "api",
 ) -> tuple[StagePlan, ...]:
     entry = entry_path_for(headword)
     resolved = slugify(headword)
@@ -115,6 +131,8 @@ def build_plan(
             ),
             ("source_inventory_complete", "normal_review_complete"),
             "fresh_normal_context",
+            reviewer_mode,
+            _review_input_packet_path(root, "checker_passes", reviewer_mode),
         ),
         StagePlan(
             "cold_review",
@@ -124,6 +142,8 @@ def build_plan(
             (f"{root}/cold_review.json",),
             ("cold_review_complete",),
             "context_free_cold",
+            reviewer_mode,
+            _review_input_packet_path(root, "cold_review", reviewer_mode),
         ),
         StagePlan(
             "final_blind",
@@ -133,6 +153,8 @@ def build_plan(
             (f"{root}/final_blind.json",),
             (),
             "context_free_final_blind",
+            reviewer_mode,
+            _review_input_packet_path(root, "final_blind", reviewer_mode),
         ),
         StagePlan(
             "blind_seal",
@@ -169,6 +191,8 @@ def build_plan(
             (f"{root}/final_review.json", audit),
             ("final_review_complete",),
             "final_reconciliation_context",
+            reviewer_mode,
+            _review_input_packet_path(root, "final_review", reviewer_mode),
         ),
         StagePlan(
             "status_update",
@@ -188,8 +212,16 @@ def build_plan(
     )
 
 
-def plan_payload(headword: str, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
-    stages = [stage.to_dict(repo_root) for stage in build_plan(headword)]
+def plan_payload(
+    headword: str,
+    repo_root: Path = REPO_ROOT,
+    *,
+    reviewer_mode: str = "api",
+) -> dict[str, Any]:
+    stages = [
+        stage.to_dict(repo_root)
+        for stage in build_plan(headword, reviewer_mode=reviewer_mode)
+    ]
     encoded = json.dumps(stages, ensure_ascii=False, sort_keys=True).encode("utf-8")
     pass_plans: list[dict[str, Any]] = []
     router_path = repo_root / DEFAULT_CHECK_SPEC
@@ -211,6 +243,11 @@ def plan_payload(headword: str, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
                     specification_path.stat().st_size
                     if specification_path.is_file()
                     else 0
+                ),
+                "reviewer_mode": reviewer_mode,
+                "input_packet_path": (
+                    f"{_artifact_root(headword)}/check_passes/"
+                    f"{item['id']}.request.json"
                 ),
             }
             if item["id"] == "example-attribution":
@@ -234,6 +271,7 @@ def plan_payload(headword: str, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         "plan_sha256": hashlib.sha256(encoded).hexdigest(),
         "stages": stages,
         "checker_passes": pass_plans,
+        "reviewer_mode": reviewer_mode,
     }
 
 
@@ -407,7 +445,793 @@ def next_stage_request(manifest: dict[str, Any]) -> dict[str, Any] | None:
     stage["output_paths"] = [
         str(path).replace("{run_id}", run_id) for path in stage["output_paths"]
     ]
+    if stage.get("input_packet_path"):
+        stage["input_packet_path"] = str(stage["input_packet_path"]).replace(
+            "{run_id}", run_id
+        )
     return stage
+
+
+REVIEW_STAGES = {"checker_passes", "cold_review", "final_blind", "final_review"}
+
+
+def _entry_body(path: Path) -> str:
+    text = path.read_text(encoding="utf-8")
+    lines = text.splitlines()
+    if lines and lines[0].strip() == "---":
+        for index in range(1, len(lines)):
+            if lines[index].strip() == "---":
+                return "\n".join(lines[index + 1 :])
+    return text
+
+
+def _review_output_metadata(
+    stage: str,
+    manifest: dict[str, Any],
+    entry: Path,
+    specification_files: list[str],
+    *,
+    repo_root: Path,
+) -> dict[str, Any]:
+    run_id = str(manifest["run_id"])
+    slug = entry.stem
+    identity = "blind" if stage in {"final_blind", "final_review"} else "cold"
+    schema_versions = {
+        "cold_review": "cold_review_v1",
+        "final_blind": "final_blind_v2",
+        "final_review": "final_review_v2",
+    }
+    input_artifacts = {
+        "cold_review": ["entry_body", "cold_review_prompt"],
+        "final_blind": ["entry_body", "final_blind_prompt"],
+        "final_review": [
+            "entry_body",
+            "all_findings",
+            "resolutions",
+            "sealed_final_blind",
+            "final_review_spec",
+        ],
+    }
+    prompt_bytes = b"\n\n".join(
+        (repo_root / path).read_bytes() for path in specification_files
+    )
+    metadata: dict[str, Any] = {
+        "schema_version": schema_versions[stage],
+        "stage": stage,
+        "run_id": f"{identity}-{slug}-{run_id}",
+        "context_id": f"{identity}-{slug}-context-{run_id}",
+        "input_body_sha256": hashlib.sha256(
+            _entry_body(entry).encode("utf-8")
+        ).hexdigest(),
+        "prompt_sha256": hashlib.sha256(prompt_bytes).hexdigest(),
+        "input_artifacts": input_artifacts[stage],
+    }
+    if stage in {"cold_review", "final_blind"}:
+        metadata["audit_visible"] = False
+    return metadata
+
+
+def _normal_review_metadata(
+    manifest: dict[str, Any], entry: Path, *, repo_root: Path
+) -> dict[str, Any]:
+    run_id = str(manifest["run_id"])
+    slug = entry.stem
+    return {
+        "schema_version": "normal_review_v2",
+        "stage": "normal_review",
+        "run_id": f"normal-{slug}-{run_id}",
+        "context_id": f"normal-{slug}-context-{run_id}",
+        "input_body_sha256": hashlib.sha256(
+            _entry_body(entry).encode("utf-8")
+        ).hexdigest(),
+        "prompt_sha256": hashlib.sha256(
+            (repo_root / DEFAULT_CHECK_SPEC).read_bytes()
+        ).hexdigest(),
+        "input_artifacts": ["router_selected_sections", "checker_pass_specs"],
+        "recorded_at": datetime.now(timezone.utc).isoformat(),
+    }
+
+
+def prepare_review_inputs(
+    manifest: dict[str, Any], *, repo_root: Path = REPO_ROOT
+) -> tuple[list[Path], dict[str, Any]]:
+    """Materialize the immutable JSON packets used by API or handoff review."""
+    request = next_stage_request(manifest)
+    if request is None or request.get("name") not in REVIEW_STAGES:
+        raise ValueError("next stage is not a review stage")
+    stage = str(request["name"])
+    entry = repo_root / str(manifest["entry_path"])
+    if not entry.is_file():
+        raise ValueError(f"entry is missing: {entry}")
+    output_paths = [repo_root / str(value) for value in request["output_paths"]]
+    cycle_dir = (
+        output_paths[-1].parent
+        if stage == "checker_passes"
+        else output_paths[0].parent
+    )
+    if stage == "checker_passes":
+        check_dir = cycle_dir / "check_passes"
+        bundles = check_passes.build_bundles(
+            entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
+        )
+        paths = check_passes.write_bundles(bundles, check_dir)
+        alignment = check_passes.build_example_attribution_alignment_key(
+            entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
+        )
+        alignment_path = check_dir / "example-attribution.alignment-key.json"
+        alignment_path.write_text(
+            json.dumps(alignment, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return [*paths, alignment_path], {"stage": stage, "requests": bundles}
+
+    packet: dict[str, Any] = {
+        "stage": stage,
+        "entry_body": _entry_body(entry),
+        "_output_metadata": _review_output_metadata(
+            stage,
+            manifest,
+            entry,
+            list(request.get("specification_files", [])),
+            repo_root=repo_root,
+        ),
+    }
+    if stage == "final_review":
+        for name in (
+            "pass_findings.json",
+            "cold_review.json",
+            "final_blind.json",
+            "blind_seal.json",
+            "resolutions.json",
+        ):
+            path = cycle_dir / name
+            if path.is_file():
+                packet[name.removesuffix(".json")] = json.loads(
+                    path.read_text(encoding="utf-8")
+                )
+        seal = packet.get("blind_seal")
+        if isinstance(seal, dict) and seal.get("blind_output_sha256"):
+            packet["_output_metadata"]["blind_output_sha256"] = seal[
+                "blind_output_sha256"
+            ]
+    packet_path = cycle_dir / f"{stage}.request.json"
+    packet_path.parent.mkdir(parents=True, exist_ok=True)
+    packet_path.write_text(
+        json.dumps(packet, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return [packet_path], packet
+
+
+def prepare_handoff(
+    manifest: dict[str, Any], *, repo_root: Path = REPO_ROOT
+) -> Path:
+    request = next_stage_request(manifest)
+    if request is None or request.get("name") not in REVIEW_STAGES:
+        raise ValueError("next stage is not a review handoff stage")
+    if request.get("reviewer_mode") != "handoff":
+        raise ValueError("review handoff is only available in handoff mode")
+    stage = str(request["name"])
+    _, packet = prepare_review_inputs(manifest, repo_root=repo_root)
+    if stage == "checker_passes":
+        prompt_text = "\n\n".join(
+            (repo_root / str(item["specification"])).read_text(encoding="utf-8")
+            for item in manifest["orchestrator"].get("checker_passes", [])
+        )
+    else:
+        prompt_text = "\n\n".join(
+            (repo_root / value).read_text(encoding="utf-8")
+            for value in request.get("specification_files", [])
+        )
+    handoff_path = repo_root / str(request["input_packet_path"])
+    handoff_path.parent.mkdir(parents=True, exist_ok=True)
+    handoff_path.write_text(
+        "# Independent review handoff\n\n"
+        f"Stage: `{stage}`\n\n"
+        "The response must be one JSON object matching the supplied review schema. "
+        "Create it in a separate model session; do not use the generation session.\n\n"
+        "## Prompt\n\n"
+        f"{prompt_text}\n\n"
+        "## Input packet\n\n```json\n"
+        + json.dumps(packet, ensure_ascii=False, indent=2)
+        + "\n```\n",
+        encoding="utf-8",
+    )
+    return handoff_path
+
+
+def ingest_handoff_review(
+    manifest: dict[str, Any],
+    *,
+    stage: str,
+    declared_model: str,
+    repo_root: Path = REPO_ROOT,
+) -> Path:
+    request = next_stage_request(manifest)
+    if request is None or request.get("name") != stage:
+        raise ValueError(f"next stage is not {stage}")
+    if stage not in REVIEW_STAGES or request.get("reviewer_mode") != "handoff":
+        raise ValueError("review ingestion requires a handoff review stage")
+    if not declared_model.strip():
+        raise ValueError("handoff ingestion requires the independently used model name")
+    output_paths = [repo_root / str(value) for value in request["output_paths"]]
+    cycle_dir = output_paths[-1].parent if stage == "checker_passes" else output_paths[0].parent
+    response_path = cycle_dir / "handoff" / f"{stage}.response.json"
+    if not response_path.is_file():
+        raise ValueError(f"handoff response is missing: {response_path}")
+    value = json.loads(response_path.read_text(encoding="utf-8"))
+    if not isinstance(value, dict):
+        raise ValueError("handoff response must be a JSON object")
+    reviewer = {
+        "mode": "handoff",
+        "declared_model": declared_model.strip(),
+        "ingested_by": "human",
+    }
+    entry = repo_root / str(manifest["entry_path"])
+    front, _ = validate_entry._split_front_matter(entry.read_text(encoding="utf-8"))
+    generation_model = validate_entry._front_matter_values(front or []).get("model", "")
+    if review_liveness.normalize_text(declared_model) == review_liveness.normalize_text(
+        generation_model
+    ):
+        raise ValueError("handoff review model must differ from the generation model")
+    value["reviewer"] = reviewer
+    liveness_errors: list[str] = []
+    if stage == "checker_passes":
+        value.update(_normal_review_metadata(manifest, entry, repo_root=repo_root))
+        value.setdefault("independent_candidates", [])
+        value.setdefault("summary", "Independent checker passes ingested by handoff.")
+        outputs = value.get("pass_outputs")
+        if not isinstance(outputs, list):
+            raise ValueError("checker handoff response requires pass_outputs")
+        router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
+        check_dir = cycle_dir / "check_passes"
+        attr_request = json.loads(
+            (check_dir / "example-attribution.request.json").read_text(encoding="utf-8")
+        )
+        alignment = json.loads(
+            (check_dir / "example-attribution.alignment-key.json").read_text(encoding="utf-8")
+        )
+        for index, output in enumerate(outputs):
+            if not isinstance(output, dict):
+                raise ValueError("checker pass output must be an object")
+            output["reviewer"] = reviewer
+            record = output.get("blind_attribution_record")
+            if isinstance(record, dict):
+                record["reviewer"] = reviewer
+            if output.get("pass_id") == "example-attribution":
+                if not isinstance(record, dict):
+                    raise ValueError(
+                        "example-attribution handoff requires blind_attribution_record"
+                    )
+                output = check_passes.reconcile_example_attribution(
+                    attr_request,
+                    record,
+                    alignment,
+                    aligned_at=datetime.now(timezone.utc).isoformat(),
+                )
+                outputs[index] = output
+            errors = check_passes.validate_pass_output(
+                output,
+                router,
+                entry_path=entry,
+                repo_root=repo_root,
+                example_request=attr_request,
+                alignment_key=alignment,
+                generation_model=generation_model,
+            )
+            if errors:
+                raise ValueError(
+                    f"pass output {output.get('pass_id')}: " + "; ".join(errors)
+                )
+        target = output_paths[-1]
+    else:
+        request_packet_path = cycle_dir / f"{stage}.request.json"
+        if not request_packet_path.is_file():
+            raise ValueError(f"review request is missing: {request_packet_path}")
+        request_packet = json.loads(
+            request_packet_path.read_text(encoding="utf-8")
+        )
+        metadata = request_packet.get("_output_metadata")
+        if not isinstance(metadata, dict):
+            raise ValueError("review request has no output metadata")
+        value.update(metadata)
+        value["recorded_at"] = datetime.now(timezone.utc).isoformat()
+        value["reviewer"] = reviewer
+        errors = review_liveness.validate_reviewer(
+            value.get("reviewer"), generation_model=generation_model
+        )
+        if stage == "cold_review":
+            liveness_errors.extend(
+                review_liveness.validate_finding_liveness(
+                    value, field="findings", label="cold review findings"
+                )
+            )
+        elif stage == "final_blind":
+            liveness_errors.extend(
+                review_liveness.validate_finding_liveness(
+                    value, field="article_findings", label="final blind findings"
+                )
+            )
+            liveness_errors.extend(
+                review_liveness.validate_candidate_liveness(
+                    value, label="final blind candidates"
+                )
+            )
+        elif stage == "final_review":
+            targets = content_audit.extract_targets(entry)
+            relations = content_audit.extract_relations(targets)
+            liveness_errors.extend(
+                review_liveness.validate_final_review_liveness(
+                    value,
+                    target_quotes={
+                        str(item["id"]): str(item.get("text", ""))
+                        for item in targets
+                    },
+                    relation_quotes={
+                        str(item["id"]): str(item.get("description", ""))
+                        for item in relations
+                    },
+                )
+            )
+        if errors or liveness_errors:
+            raise ValueError("; ".join([*errors, *liveness_errors]))
+        target = output_paths[0]
+    target.parent.mkdir(parents=True, exist_ok=True)
+    target.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return target
+
+
+def execute_api_review_stage(
+    manifest: dict[str, Any],
+    *,
+    repo_root: Path = REPO_ROOT,
+    provider: str | None = None,
+    model: str | None = None,
+    api_key: str | None = None,
+    endpoint: str | None = None,
+) -> list[Path]:
+    """Call, validate, and mechanically assemble the next API review stage."""
+    request = next_stage_request(manifest)
+    if request is None or request.get("name") not in REVIEW_STAGES:
+        raise ValueError("next stage is not an API review stage")
+    if request.get("reviewer_mode") != "api":
+        raise ValueError("API review execution requires reviewer mode api")
+
+    resolved_provider = (
+        provider or os.environ.get("DICT_REVIEW_PROVIDER", "openai")
+    ).strip().lower()
+    resolved_model = (model or os.environ.get("DICT_REVIEW_MODEL", "")).strip()
+    resolved_key = (api_key or os.environ.get("DICT_REVIEW_API_KEY", "")).strip()
+    resolved_endpoint = (
+        endpoint
+        if endpoint is not None
+        else os.environ.get("DICT_REVIEW_ENDPOINT", "").strip() or None
+    )
+    if resolved_provider not in review_call.SUPPORTED_PROVIDERS:
+        raise ValueError(
+            "DICT_REVIEW_PROVIDER must be one of "
+            f"{sorted(review_call.SUPPORTED_PROVIDERS)}"
+        )
+    if not resolved_model or not resolved_key:
+        raise ValueError(
+            "API review requires DICT_REVIEW_MODEL and DICT_REVIEW_API_KEY"
+        )
+
+    stage = str(request["name"])
+    entry = repo_root / str(manifest["entry_path"])
+    front, _ = validate_entry._split_front_matter(entry.read_text(encoding="utf-8"))
+    generation_model = validate_entry._front_matter_values(front or []).get(
+        "model", ""
+    )
+    output_paths = [repo_root / str(value) for value in request["output_paths"]]
+    cycle_dir = (
+        output_paths[-1].parent
+        if stage == "checker_passes"
+        else output_paths[0].parent
+    )
+    _, packet = prepare_review_inputs(manifest, repo_root=repo_root)
+
+    if stage == "checker_passes":
+        check_dir = cycle_dir / "check_passes"
+        router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
+        alignment_path = check_dir / "example-attribution.alignment-key.json"
+        alignment = json.loads(alignment_path.read_text(encoding="utf-8"))
+        pass_outputs: list[dict[str, Any]] = []
+        created: list[Path] = []
+        for bundle in packet["requests"]:
+            pass_id = str(bundle["pass_id"])
+            request_path = check_dir / f"{pass_id}.request.json"
+            prompt_path = repo_root / str(bundle["specification"])
+            final_path = check_dir / f"{pass_id}.json"
+            model_output_path = (
+                check_dir / "example-attribution.blind-record.json"
+                if pass_id == "example-attribution"
+                else final_path
+            )
+            model_output = review_call.execute_review(
+                stage=f"checker-{pass_id}",
+                request_path=request_path,
+                prompt_path=prompt_path,
+                cycle_dir=cycle_dir,
+                output_path=model_output_path,
+                provider=resolved_provider,
+                model=resolved_model,
+                api_key=resolved_key,
+                endpoint=resolved_endpoint,
+                generation_model=generation_model,
+            )
+            if pass_id == "example-attribution":
+                output = check_passes.reconcile_example_attribution(
+                    bundle,
+                    model_output,
+                    alignment,
+                    aligned_at=datetime.now(timezone.utc).isoformat(),
+                )
+                final_path.write_text(
+                    json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                created.append(model_output_path)
+            else:
+                output = model_output
+            errors = check_passes.validate_pass_output(
+                output,
+                router,
+                entry_path=entry,
+                repo_root=repo_root,
+                example_request=(
+                    bundle if pass_id == "example-attribution" else None
+                ),
+                request_payload=bundle,
+                alignment_key=(
+                    alignment if pass_id == "example-attribution" else None
+                ),
+                generation_model=generation_model,
+            )
+            if errors:
+                raise ValueError(f"API pass output {pass_id}: " + "; ".join(errors))
+            pass_outputs.append(output)
+            created.append(final_path)
+
+        normal_review = {
+            **_normal_review_metadata(manifest, entry, repo_root=repo_root),
+            "pass_outputs": pass_outputs,
+            "independent_candidates": [],
+            "summary": "Independent checker passes completed through the review API.",
+        }
+        pass_findings_path = cycle_dir / "pass_findings.json"
+        pass_findings_path.write_text(
+            json.dumps(normal_review, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return [*created, pass_findings_path]
+
+    request_path = cycle_dir / f"{stage}.request.json"
+    prompt_files = list(request.get("specification_files", []))
+    if len(prompt_files) != 1:
+        raise ValueError(f"API review stage {stage} requires exactly one prompt")
+    output = review_call.execute_review(
+        stage=stage,
+        request_path=request_path,
+        prompt_path=repo_root / str(prompt_files[0]),
+        cycle_dir=cycle_dir,
+        output_path=output_paths[0],
+        provider=resolved_provider,
+        model=resolved_model,
+        api_key=resolved_key,
+        endpoint=resolved_endpoint,
+        generation_model=generation_model,
+    )
+    errors = review_liveness.validate_reviewer(
+        output.get("reviewer"), generation_model=generation_model
+    )
+    errors.extend(
+        review_liveness.validate_api_request_binding(
+            output.get("reviewer"), packet
+        )
+    )
+    if stage == "cold_review":
+        errors.extend(
+            review_liveness.validate_finding_liveness(
+                output, field="findings", label="cold review findings"
+            )
+        )
+    elif stage == "final_blind":
+        errors.extend(
+            review_liveness.validate_finding_liveness(
+                output, field="article_findings", label="final blind findings"
+            )
+        )
+        errors.extend(
+            review_liveness.validate_candidate_liveness(
+                output, label="final blind candidates"
+            )
+        )
+    else:
+        targets = content_audit.extract_targets(entry)
+        relations = content_audit.extract_relations(targets)
+        errors.extend(
+            review_liveness.validate_final_review_liveness(
+                output,
+                target_quotes={
+                    str(item["id"]): str(item.get("text", ""))
+                    for item in targets
+                },
+                relation_quotes={
+                    str(item["id"]): str(item.get("description", ""))
+                    for item in relations
+                },
+            )
+        )
+    if errors:
+        raise ValueError(f"API review output {stage}: " + "; ".join(errors))
+    return [output_paths[0]]
+
+
+def match_acceptance_defects(
+    expected: list[dict[str, Any]],
+    findings: list[dict[str, Any]],
+    frame_errors: list[str],
+) -> list[dict[str, Any]]:
+    """Apply the fixed §5 acceptance mapping without relaxing stage ownership."""
+    results: list[dict[str, Any]] = []
+    for defect in expected:
+        defect_id = str(defect["id"])
+        taxonomy_id = str(defect["taxonomy_id"])
+        quotes = [
+            str(defect["exact_quote"]),
+            *map(str, defect.get("additional_exact_quotes", [])),
+        ]
+        if defect_id in {"D3", "D4"}:
+            detected_quotes = [
+                quote for quote in quotes if any(quote in error for error in frame_errors)
+            ]
+            results.append(
+                {
+                    "id": defect_id,
+                    "detected": len(detected_quotes) == len(quotes),
+                    "stages": (
+                        ["mechanical:B5"]
+                        if len(detected_quotes) == len(quotes)
+                        else []
+                    ),
+                }
+            )
+            continue
+
+        quote_matches: dict[str, list[dict[str, Any]]] = {}
+        for quote in quotes:
+            matches = [
+                finding
+                for finding in findings
+                if finding.get("taxonomy_id") == taxonomy_id
+                and quote in str(finding.get("location", {}).get("exact_quote", ""))
+            ]
+            if defect_id in {"D1", "D2"}:
+                matches = [
+                    finding
+                    for finding in matches
+                    if finding.get("stage") == "check_pass:example-attribution"
+                    and finding.get("severity") == "blocking"
+                ]
+            quote_matches[quote] = matches
+        matched = [item for values in quote_matches.values() for item in values]
+        results.append(
+            {
+                "id": defect_id,
+                "detected": all(quote_matches.values()),
+                "stages": sorted({str(item["stage"]) for item in matched}),
+            }
+        )
+    return results
+
+
+def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
+    provider = os.environ.get("DICT_REVIEW_PROVIDER", "openai").strip().lower()
+    model = os.environ.get("DICT_REVIEW_MODEL", "").strip()
+    api_key = os.environ.get("DICT_REVIEW_API_KEY", "").strip()
+    endpoint = os.environ.get("DICT_REVIEW_ENDPOINT", "").strip() or None
+    if not model or not api_key:
+        raise ValueError(
+            "yield acceptance requires DICT_REVIEW_MODEL and DICT_REVIEW_API_KEY"
+        )
+    fixture = repo_root / "tests" / "fixtures" / "acceptance" / "yield_defective.md"
+    expected_path = (
+        repo_root
+        / "tests"
+        / "fixtures"
+        / "acceptance"
+        / "yield_defective_expected.json"
+    )
+    if not fixture.is_file() or not expected_path.is_file():
+        raise ValueError("yield acceptance fixtures are missing")
+    front, body = validate_entry._split_front_matter(
+        fixture.read_text(encoding="utf-8")
+    )
+    generation_model = validate_entry._front_matter_values(front or []).get("model", "")
+    if review_liveness.normalize_text(model) == review_liveness.normalize_text(
+        generation_model
+    ):
+        raise ValueError("acceptance reviewer model must differ from generation model")
+
+    run_id = datetime.now(timezone.utc).strftime("acceptance-%Y%m%dT%H%M%SZ")
+    cycle_dir = repo_root / "audits" / "runs" / "y" / "yield" / run_id
+    check_dir = cycle_dir / "check_passes"
+    bundles = check_passes.build_bundles(
+        fixture, repo_root=repo_root, blind_seed=run_id
+    )
+    check_passes.write_bundles(bundles, check_dir)
+    alignment = check_passes.build_example_attribution_alignment_key(
+        fixture, repo_root=repo_root, blind_seed=run_id
+    )
+    alignment_path = check_dir / "example-attribution.alignment-key.json"
+    alignment_path.write_text(
+        json.dumps(alignment, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
+    pass_outputs: list[dict[str, Any]] = []
+    for bundle in bundles:
+        pass_id = str(bundle["pass_id"])
+        request_path = check_dir / f"{pass_id}.request.json"
+        prompt_path = repo_root / str(bundle["specification"])
+        raw_output = review_call.execute_review(
+            stage=f"checker-{pass_id}",
+            request_path=request_path,
+            prompt_path=prompt_path,
+            cycle_dir=cycle_dir,
+            output_path=check_dir / f"{pass_id}.response.json",
+            provider=provider,
+            model=model,
+            api_key=api_key,
+            endpoint=endpoint,
+            generation_model=generation_model,
+        )
+        if pass_id == "example-attribution":
+            output = check_passes.reconcile_example_attribution(
+                bundle,
+                raw_output,
+                alignment,
+                aligned_at=datetime.now(timezone.utc).isoformat(),
+            )
+        else:
+            output = raw_output
+        errors = check_passes.validate_pass_output(
+            output,
+            router,
+            entry_path=fixture,
+            repo_root=repo_root,
+            example_request=bundle if pass_id == "example-attribution" else None,
+            request_payload=bundle,
+            alignment_key=alignment if pass_id == "example-attribution" else None,
+            generation_model=generation_model,
+        )
+        if errors:
+            raise ValueError(f"acceptance {pass_id}: " + "; ".join(errors))
+        pass_outputs.append(output)
+
+    body_text = "\n".join(body.splitlines())
+    stage_outputs: dict[str, dict[str, Any]] = {}
+    for stage, prompt_name in (
+        ("cold_review", "prompts/cold_review_prompt_v1.md"),
+        ("final_blind", DEFAULT_FINAL_BLIND_SPEC),
+    ):
+        request_path = cycle_dir / f"{stage}.request.json"
+        request_path.write_text(
+            json.dumps(
+                {"stage": stage, "entry_body": body_text},
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        stage_outputs[stage] = review_call.execute_review(
+            stage=stage,
+            request_path=request_path,
+            prompt_path=repo_root / prompt_name,
+            cycle_dir=cycle_dir,
+            output_path=cycle_dir / f"{stage}.json",
+            provider=provider,
+            model=model,
+            api_key=api_key,
+            endpoint=endpoint,
+            generation_model=generation_model,
+        )
+
+    (cycle_dir / "pass_findings.json").write_text(
+        json.dumps({"pass_outputs": pass_outputs}, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    liveness_errors: list[str] = []
+    attribution_output = next(
+        item for item in pass_outputs if item.get("pass_id") == "example-attribution"
+    )
+    attribution_request = next(
+        item for item in bundles if item.get("pass_id") == "example-attribution"
+    )
+    liveness_errors.extend(
+        review_liveness.validate_attribution_liveness(
+            attribution_output.get("blind_attribution_record"),
+            attribution_request,
+            alignment_key=alignment,
+        )
+    )
+    liveness_errors.extend(
+        review_liveness.validate_finding_liveness(
+            stage_outputs["cold_review"],
+            field="findings",
+            label="cold review findings",
+        )
+    )
+    liveness_errors.extend(
+        review_liveness.validate_finding_liveness(
+            stage_outputs["final_blind"],
+            field="article_findings",
+            label="final blind findings",
+        )
+    )
+    liveness_errors.extend(
+        review_liveness.validate_candidate_liveness(
+            stage_outputs["final_blind"], label="final blind candidates"
+        )
+    )
+    liveness_errors.extend(
+        review_liveness.zero_finding_run_errors(
+            {"pass_outputs": pass_outputs},
+            stage_outputs["cold_review"],
+            stage_outputs["final_blind"],
+        )
+    )
+    invalidated_by = review_liveness.invalidation_ids(liveness_errors)
+
+    all_findings = [
+        {**finding, "stage": f"check_pass:{output['pass_id']}"}
+        for output in pass_outputs
+        for finding in output.get("findings", [])
+    ]
+    all_findings.extend(
+        {**finding, "stage": "cold_review"}
+        for finding in stage_outputs["cold_review"].get("findings", [])
+    )
+    all_findings.extend(
+        {**finding, "stage": "final_blind"}
+        for finding in stage_outputs["final_blind"].get("article_findings", [])
+    )
+    frame_errors, _ = validate_entry.grammar_frame_diagnostics(
+        body.splitlines(), "yield"
+    )
+    expected = json.loads(expected_path.read_text(encoding="utf-8"))["defects"]
+    results = match_acceptance_defects(expected, all_findings, frame_errors)
+    by_id = {item["id"]: item for item in results}
+    mandatory = all(by_id[item]["detected"] for item in ("D1", "D2", "D3", "D4"))
+    technical = sum(by_id[item]["detected"] for item in ("D5", "D6", "D7", "D8"))
+    report = {
+        "run_id": run_id,
+        "review_provider": provider,
+        "review_model": model,
+        "generation_model": generation_model,
+        "results": results,
+        "technical_detected": technical,
+        "invalidated_by": invalidated_by,
+        "review_liveness_errors": liveness_errors,
+        "passed": mandatory and technical >= 2 and not invalidated_by,
+    }
+    log_path = repo_root / "logs" / "2026-08-27-acceptance-yield.md"
+    log_path.write_text(
+        "# Yield review-independence acceptance\n\n"
+        f"- Run: `{run_id}`\n"
+        f"- Review model: `{model}`\n"
+        f"- Generation model: `{generation_model}`\n"
+        f"- Result: {'PASS' if report['passed'] else 'FAIL'}\n\n"
+        "```json\n"
+        + json.dumps(report, ensure_ascii=False, indent=2)
+        + "\n```\n",
+        encoding="utf-8",
+    )
+    return report
 
 
 def complete_orchestrated_stage(
@@ -537,6 +1361,7 @@ def create_guard_manifest(
     reason: str = "",
     run_id: str | None = None,
     now: datetime | None = None,
+    reviewer_mode: str = "api",
 ) -> tuple[Path, dict[str, Any]]:
     manifest = guard.new_manifest(
         headword=headword,
@@ -548,7 +1373,9 @@ def create_guard_manifest(
         run_id=run_id,
         now=now,
     )
-    manifest["orchestrator"] = plan_payload(headword, repo_root)
+    manifest["orchestrator"] = plan_payload(
+        headword, repo_root, reviewer_mode=reviewer_mode
+    )
     manifest["metrics"] = initialize_cost_metrics(
         manifest["orchestrator"], repo_root=repo_root
     )
@@ -637,6 +1464,7 @@ def start_workflow(
     repo_root: Path = REPO_ROOT,
     profile: str = "standard",
     reason: str = "",
+    reviewer_mode: str = "api",
 ) -> Path:
     branch = _current_branch(repo_root)
     base = _base_sha(repo_root)
@@ -647,6 +1475,7 @@ def start_workflow(
         base_sha=base,
         profile=profile,
         reason=reason,
+        reviewer_mode=reviewer_mode,
     )
     start_sha = _commit_and_push(
         repo_root,
@@ -670,7 +1499,13 @@ def start_workflow(
     return run_path
 
 
-def _resume(path: Path) -> int:
+def _resume(
+    path: Path,
+    *,
+    ingest_review: str | None = None,
+    declared_model: str = "",
+    call_review: bool = False,
+) -> int:
     resolved = path.resolve()
     manifest = guard._read(resolved)
     ok = heartbeat_manifest(manifest)
@@ -683,13 +1518,54 @@ def _resume(path: Path) -> int:
             )
         )
         return 2
+    ingested_path: Path | None = None
+    api_review_paths: list[Path] = []
+    if ingest_review:
+        ingested_path = ingest_handoff_review(
+            manifest,
+            stage=ingest_review,
+            declared_model=declared_model,
+        )
+        guard._write(resolved, manifest)
+    elif call_review:
+        api_review_paths = execute_api_review_stage(manifest)
     next_request = next_stage_request(manifest)
+    handoff_path: Path | None = None
+    review_request_paths: list[Path] = []
+    if (
+        next_request is not None
+        and next_request.get("name") in REVIEW_STAGES
+        and not ingest_review
+        and not call_review
+    ):
+        if next_request.get("reviewer_mode") == "handoff":
+            handoff_path = prepare_handoff(manifest)
+        else:
+            review_request_paths, _ = prepare_review_inputs(manifest)
     print(
         json.dumps(
             {
                 "status": manifest["status"],
                 "stage": manifest["stage"],
                 "next_stage": next_request,
+                "handoff_request": (
+                    handoff_path.relative_to(REPO_ROOT).as_posix()
+                    if handoff_path is not None
+                    else None
+                ),
+                "review_requests": [
+                    path.relative_to(REPO_ROOT).as_posix()
+                    for path in review_request_paths
+                ],
+                "api_review_outputs": [
+                    path.relative_to(REPO_ROOT).as_posix()
+                    for path in api_review_paths
+                ],
+                "ingested_review": (
+                    ingested_path.relative_to(REPO_ROOT).as_posix()
+                    if ingested_path is not None
+                    else None
+                ),
             },
             ensure_ascii=False,
             indent=2,
@@ -703,6 +1579,13 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("headword", nargs="?")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--resume", type=Path)
+    parser.add_argument(
+        "--reviewer-mode", choices=("api", "handoff"), default="api"
+    )
+    parser.add_argument("--ingest-review", choices=sorted(REVIEW_STAGES))
+    parser.add_argument("--call-review", action="store_true")
+    parser.add_argument("--declared-model", default="")
+    parser.add_argument("--acceptance", action="store_true")
     parser.add_argument("--complete-stage", type=Path)
     parser.add_argument("--stage")
     parser.add_argument("--input-bytes", type=int, default=0)
@@ -721,7 +1604,13 @@ def build_parser() -> argparse.ArgumentParser:
 def main() -> int:
     args = build_parser().parse_args()
     if args.complete_stage:
-        if args.headword or args.resume or args.dry_run or args.record_revision:
+        if (
+            args.headword
+            or args.resume
+            or args.dry_run
+            or args.record_revision
+            or args.call_review
+        ):
             raise SystemExit(
                 "--complete-stage cannot be combined with another workflow selector"
             )
@@ -750,7 +1639,7 @@ def main() -> int:
         print(json.dumps(next_stage_request(manifest), ensure_ascii=False, indent=2))
         return 0
     if args.record_revision:
-        if args.headword or args.resume or args.dry_run:
+        if args.headword or args.resume or args.dry_run or args.call_review:
             raise SystemExit(
                 "--record-revision cannot be combined with headword, --resume, or --dry-run"
             )
@@ -761,16 +1650,49 @@ def main() -> int:
             raise SystemExit(
                 "--resume cannot be combined with headword or --dry-run"
             )
-        return _resume(args.resume)
+        if args.ingest_review and args.call_review:
+            raise SystemExit("--ingest-review and --call-review are mutually exclusive")
+        if args.call_review and args.declared_model:
+            raise SystemExit("--declared-model is only used with --ingest-review")
+        return _resume(
+            args.resume,
+            ingest_review=args.ingest_review,
+            declared_model=args.declared_model,
+            call_review=args.call_review,
+        )
     if not args.headword:
         raise SystemExit("headword is required")
+    if args.call_review or args.ingest_review or args.declared_model:
+        raise SystemExit(
+            "--call-review, --ingest-review, and --declared-model require --resume"
+        )
     if args.dry_run:
-        print(json.dumps(plan_payload(args.headword), ensure_ascii=False, indent=2))
+        print(
+            json.dumps(
+                plan_payload(
+                    args.headword, reviewer_mode=args.reviewer_mode
+                ),
+                ensure_ascii=False,
+                indent=2,
+            )
+        )
         return 0
+    if args.acceptance:
+        if args.headword != "yield":
+            raise SystemExit("--acceptance is currently scoped to yield")
+        if args.reviewer_mode != "api":
+            raise SystemExit("yield acceptance requires reviewer mode api")
+        try:
+            report = run_yield_acceptance()
+        except ValueError as exc:
+            raise SystemExit(str(exc)) from exc
+        print(json.dumps(report, ensure_ascii=False, indent=2))
+        return 0 if report["passed"] else 1
     path = start_workflow(
         args.headword,
         profile=args.profile,
         reason=args.reason,
+        reviewer_mode=args.reviewer_mode,
     )
     print(path.relative_to(REPO_ROOT))
     return 0

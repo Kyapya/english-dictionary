@@ -1,0 +1,14 @@
+{
+  "schema_version": "escaped_defects_v1",
+  "defects": [
+    {"id":"yield-D1","headword":"yield","taxonomy_id":"example_sense_attribution_mismatch","location":"sense 6: old gate and rusted lock examples","detected_by":"external","expected_stage":"example-attribution","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D2","headword":"yield","taxonomy_id":"example_sense_attribution_mismatch","location":"sense 3: The archive yielded up several letters","detected_by":"external","expected_stage":"example-attribution","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D3","headword":"yield","taxonomy_id":"cross_section_internal_contradiction","location":"sense 5 heading versus transitive grammar frames","detected_by":"external","expected_stage":"sense-structure","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D4","headword":"yield","taxonomy_id":"cross_section_internal_contradiction","location":"sense 4: yield oneself to","detected_by":"external","expected_stage":"frame-relation","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D5","headword":"yield","taxonomy_id":"technical_terminology_conventionality","location":"sense 2 register: 元本に対する年率","detected_by":"external","expected_stage":"qualification","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D6","headword":"yield","taxonomy_id":"technical_terminology_conventionality","location":"sense 9: fund yield to maturity example","detected_by":"external","expected_stage":"evidence","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D7","headword":"yield","taxonomy_id":"regional_qualification","location":"sense 5: oncoming traffic before turning left","detected_by":"external","expected_stage":"qualification","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D8","headword":"yield","taxonomy_id":"technical_terminology_conventionality","location":"sense 5: vessel yielded precedence","detected_by":"external","expected_stage":"qualification","run_id":"20260826T131200Z-yield02"},
+    {"id":"yield-D9","headword":"yield","taxonomy_id":"sense_boundary_overlap","location":"missing noun senses: explosive yield and chemical yield","detected_by":"external","expected_stage":"sense-structure","run_id":"20260826T131200Z-yield02"}
+  ]
+}

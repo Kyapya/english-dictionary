@@ -107,6 +107,22 @@ class ProcessImprovementTests(unittest.TestCase):
         errors = _validate_record(record, REPO_ROOT)
         self.assertTrue(any("two distinct evidence sources" in error for error in errors))
 
+    def test_new_record_requires_registered_escaped_defect_ids(self) -> None:
+        record = copy.deepcopy(self.base)
+        record["created_at"] = "2026-08-27"
+        record["updated_at"] = "2026-08-27"
+        record["_path"] = REPO_ROOT / "process_improvement" / "records" / "PI-0001.json"
+        errors = _validate_record(record, REPO_ROOT)
+        self.assertTrue(any("escaped_defect_ids is required" in error for error in errors))
+
+        record["escaped_defect_ids"] = ["not-registered"]
+        errors = _validate_record(record, REPO_ROOT)
+        self.assertTrue(any("unknown id not-registered" in error for error in errors))
+
+        record["escaped_defect_ids"] = ["yield-D1"]
+        errors = _validate_record(record, REPO_ROOT)
+        self.assertFalse(any("escaped_defect" in error for error in errors))
+
     def test_active_rule_requires_completed_validation(self) -> None:
         record = copy.deepcopy(self.base)
         record["validation"]["result"] = "pending"

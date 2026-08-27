@@ -9,6 +9,8 @@ from datetime import datetime
 from pathlib import Path
 from typing import Any
 
+import review_liveness
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = "content_audit_v4"
@@ -37,6 +39,7 @@ CONTENT_TAXONOMY = {
     "pronunciation_symbol_explanation",
     "evidence_claim_mismatch",
 }
+REVIEW_CONTRACT_START = "20260827"
 
 
 def _canonical(value: Any) -> bytes:
@@ -64,6 +67,62 @@ def _entry_body(entry_path: Path) -> str:
             if lines[index].strip() == "---":
                 return "\n".join(lines[index + 1 :])
     return text
+
+
+def _entry_front_matter(entry_path: Path) -> dict[str, str]:
+    text = entry_path.read_text(encoding="utf-8")
+    values: dict[str, str] = {}
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return values
+    for line in lines[1:]:
+        if line.strip() == "---":
+            break
+        if ":" in line:
+            key, value = line.split(":", 1)
+            values[key.strip()] = value.strip().strip('"')
+    return values
+
+
+def _validate_api_raw_provenance(
+    reviewers: list[tuple[str, Any]], cycle_dir: Path
+) -> None:
+    raw_ids: set[str] = set()
+    raw_dir = cycle_dir / "raw"
+    for path in raw_dir.glob("*.response.json") if raw_dir.is_dir() else []:
+        value = _read_json(path)
+        response_id = str(value.get("id") or value.get("request_id") or "").strip()
+        if response_id:
+            raw_ids.add(response_id)
+    for label, reviewer in reviewers:
+        if not isinstance(reviewer, dict) or reviewer.get("mode") != "api":
+            continue
+        response_id = str(reviewer.get("response_id", ""))
+        if response_id not in raw_ids:
+            raise ValueError(
+                f"{label}: reviewer.response_id has no preserved raw API response"
+            )
+
+
+def _registered_run_invalidation(cycle_dir: Path, repo_root: Path) -> bool:
+    path = repo_root / "audits" / "review_invalidations.json"
+    if not path.is_file():
+        return False
+    try:
+        value = _read_json(path)
+    except (OSError, json.JSONDecodeError, ValueError):
+        return False
+    return any(
+        isinstance(item, dict)
+        and item.get("status") == "invalidated_run"
+        and item.get("run_id") == cycle_dir.name
+        for item in value.get("invalidations", [])
+    )
+
+
+def _is_historical_cycle(cycle_dir: Path) -> bool:
+    prefix = cycle_dir.name[:8]
+    return len(prefix) == 8 and prefix.isdigit() and prefix < REVIEW_CONTRACT_START
 
 
 def body_sha256(entry_path: Path) -> str:
@@ -286,6 +345,33 @@ def generate_manifest(
     if missing:
         raise ValueError("required raw outputs are missing: " + ", ".join(missing))
     raw = {stage: _read_json(path) for stage, path in paths.items()}
+    generation_model = _entry_front_matter(entry_path).get("model")
+    raw_pass_outputs = raw["normal_review"].get("pass_outputs", [])
+    has_reviewer_provenance = any(
+        isinstance(raw[stage].get("reviewer"), dict)
+        for stage in ("cold_review", "final_blind", "final_review")
+    ) or any(
+        isinstance(item, dict) and isinstance(item.get("reviewer"), dict)
+        for item in raw_pass_outputs
+        if isinstance(raw_pass_outputs, list)
+    )
+    provenance_contract = not _is_historical_cycle(cycle_dir) or has_reviewer_provenance
+    liveness_contract = provenance_contract or _registered_run_invalidation(
+        cycle_dir, repo_root
+    )
+
+    for stage in ("cold_review", "final_blind", "final_review") if provenance_contract else ():
+        reviewer = raw[stage].get("reviewer")
+        reviewer_errors = review_liveness.validate_reviewer(
+            reviewer, generation_model=generation_model
+        )
+        request_path = cycle_dir / f"{stage}.request.json"
+        request_payload = _read_json(request_path) if request_path.is_file() else None
+        reviewer_errors.extend(
+            review_liveness.validate_api_request_binding(reviewer, request_payload)
+        )
+        if reviewer_errors:
+            raise ValueError(f"{stage}: " + "; ".join(reviewer_errors))
 
     expected_inputs = {
         "source_inventory": {"headword", "source_first_spec"},
@@ -340,6 +426,33 @@ def generate_manifest(
     expected_passes = {item["id"] for item in router["passes"]}
     actual_passes: set[str] = set()
     findings: list[dict[str, Any]] = []
+    attribution_request_path = cycle_dir / "check_passes" / "example-attribution.request.json"
+    attribution_alignment_path = (
+        cycle_dir / "check_passes" / "example-attribution.alignment-key.json"
+    )
+    attribution_request = (
+        _read_json(attribution_request_path)
+        if attribution_request_path.is_file()
+        else None
+    )
+    attribution_alignment = (
+        _read_json(attribution_alignment_path)
+        if attribution_alignment_path.is_file()
+        else None
+    )
+    if (
+        _is_historical_cycle(cycle_dir)
+        and attribution_request is None
+        and any(
+            isinstance(item, dict) and item.get("pass_id") == "example-attribution"
+            for item in outputs
+        )
+    ):
+        attribution_request, attribution_alignment = (
+            check_passes.build_legacy_example_attribution_artifacts(
+                entry_path, router
+            )
+        )
     for output in outputs:
         if not isinstance(output, dict):
             raise ValueError("normal_review.pass_outputs contains a non-object")
@@ -347,14 +460,25 @@ def generate_manifest(
         if pass_id in actual_passes:
             raise ValueError(f"normal_review has duplicate pass output: {pass_id}")
         actual_passes.add(pass_id)
+        request_path = cycle_dir / "check_passes" / f"{pass_id}.request.json"
+        request_payload = _read_json(request_path) if request_path.is_file() else None
         errors = check_passes.validate_pass_output(
-            output, router, entry_path=entry_path, repo_root=repo_root
+            output,
+            router,
+            entry_path=entry_path,
+            repo_root=repo_root,
+            example_request=attribution_request,
+            request_payload=request_payload,
+            alignment_key=attribution_alignment,
+            check_liveness=False,
+            generation_model=generation_model,
+            require_reviewer=provenance_contract,
         )
         if errors:
             raise ValueError(f"pass output {pass_id}: " + "; ".join(errors))
         for item in output["findings"]:
             findings.append({**item, "origin": f"check_pass:{pass_id}"})
-    if actual_passes != expected_passes:
+    if actual_passes != expected_passes and not _is_historical_cycle(cycle_dir):
         raise ValueError(
             f"normal_review pass set mismatch; expected={sorted(expected_passes)}, "
             f"actual={sorted(actual_passes)}"
@@ -414,11 +538,10 @@ def generate_manifest(
 
     import content_audit
 
-    target_ids = {item["id"] for item in content_audit.extract_targets(entry_path)}
-    relation_ids = {
-        item["id"]
-        for item in content_audit.extract_relations(content_audit.extract_targets(entry_path))
-    }
+    extracted_targets = content_audit.extract_targets(entry_path)
+    extracted_relations = content_audit.extract_relations(extracted_targets)
+    target_ids = {item["id"] for item in extracted_targets}
+    relation_ids = {item["id"] for item in extracted_relations}
     normal_candidates = set(
         _index(raw["normal_review"].get("independent_candidates"), "normal candidates")
     )
@@ -526,7 +649,152 @@ def generate_manifest(
     if not passing and not blockers:
         raise ValueError("reject decision requires at least one blocker")
 
-    return {
+    liveness_errors: list[str] = []
+    attribution_output = next(
+        (
+            item
+            for item in outputs
+            if isinstance(item, dict) and item.get("pass_id") == "example-attribution"
+        ),
+        None,
+    )
+    if liveness_contract and attribution_output and attribution_request:
+        liveness_errors.extend(
+            review_liveness.validate_attribution_liveness(
+                attribution_output.get("blind_attribution_record"),
+                attribution_request,
+                alignment_key=attribution_alignment,
+            )
+        )
+    if liveness_contract:
+        liveness_errors.extend(
+            review_liveness.validate_finding_liveness(
+                raw["cold_review"], field="findings", label="cold review findings"
+            )
+        )
+        liveness_errors.extend(
+            review_liveness.validate_finding_liveness(
+                raw["final_blind"],
+                field="article_findings",
+                label="final blind findings",
+            )
+        )
+        liveness_errors.extend(
+            review_liveness.validate_candidate_liveness(
+                raw["final_blind"], label="final blind candidates"
+            )
+        )
+        liveness_errors.extend(
+            review_liveness.validate_final_review_liveness(
+                raw["final_review"],
+                target_quotes={str(item["id"]): str(item.get("text", "")) for item in extracted_targets},
+                relation_quotes={
+                    str(item["id"]): str(item.get("description", ""))
+                    for item in extracted_relations
+                },
+            )
+        )
+    secondary_path = cycle_dir / "secondary_reviews.json"
+    secondary_reviews = _read_json(secondary_path) if secondary_path.is_file() else None
+    reviewers: list[tuple[str, Any]] = [
+        (stage, raw[stage].get("reviewer"))
+        for stage in ("cold_review", "final_blind", "final_review")
+    ]
+    reviewers.extend(
+        (
+            f"check_pass:{item.get('pass_id')}",
+            item.get("reviewer"),
+        )
+        for item in outputs
+        if isinstance(item, dict)
+    )
+    if secondary_reviews and provenance_contract:
+        for stage in ("cold_review", "example_attribution"):
+            value = secondary_reviews.get(stage)
+            reviewer = value.get("reviewer") if isinstance(value, dict) else None
+            secondary_errors = review_liveness.validate_reviewer(
+                reviewer, generation_model=generation_model
+            )
+            secondary_request_path = (
+                cycle_dir / "secondary_reviews" / f"{stage}.request.json"
+            )
+            secondary_request = (
+                _read_json(secondary_request_path)
+                if secondary_request_path.is_file()
+                else None
+            )
+            secondary_errors.extend(
+                review_liveness.validate_api_request_binding(
+                    reviewer, secondary_request
+                )
+            )
+            if secondary_errors:
+                raise ValueError(
+                    f"secondary_reviews.{stage}: " + "; ".join(secondary_errors)
+                )
+            reviewers.append((f"secondary_reviews.{stage}", reviewer))
+        secondary_cold = secondary_reviews.get("cold_review")
+        secondary_attribution = secondary_reviews.get("example_attribution")
+        liveness_errors.extend(
+            review_liveness.validate_finding_liveness(
+                secondary_cold,
+                field="findings",
+                label="secondary cold review findings",
+            )
+        )
+        secondary_request_path = (
+            cycle_dir
+            / "secondary_reviews"
+            / "example_attribution.request.json"
+        )
+        if not secondary_request_path.is_file():
+            liveness_errors.append(
+                f"{review_liveness.B4_ZERO_FINDING_SINGLE_REVIEW}: second "
+                "example-attribution request is missing"
+            )
+        elif isinstance(secondary_attribution, dict):
+            secondary_request = _read_json(secondary_request_path)
+            secondary_record = secondary_attribution.get(
+                "blind_attribution_record"
+            )
+            record_errors = check_passes.validate_blind_attribution_record(
+                secondary_record,
+                secondary_request,
+                check_liveness=False,
+                generation_model=generation_model,
+            )
+            if record_errors:
+                raise ValueError(
+                    "secondary_reviews.example_attribution: "
+                    + "; ".join(record_errors)
+                )
+            if (
+                isinstance(secondary_record, dict)
+                and secondary_record.get("reviewer")
+                != secondary_attribution.get("reviewer")
+            ):
+                raise ValueError(
+                    "secondary_reviews.example_attribution reviewer does not "
+                    "match its blind record"
+                )
+            liveness_errors.extend(
+                review_liveness.validate_attribution_liveness(
+                    secondary_record, secondary_request
+                )
+            )
+    _validate_api_raw_provenance(reviewers, cycle_dir)
+    if liveness_contract:
+        liveness_errors.extend(
+            review_liveness.zero_finding_run_errors(
+                raw["normal_review"],
+                raw["cold_review"],
+                raw["final_blind"],
+                secondary_reviews=secondary_reviews,
+            )
+        )
+    invalidated_by = review_liveness.invalidation_ids(liveness_errors)
+
+    manifest = {
         "schema_version": SCHEMA_VERSION,
         "generated_by": GENERATOR_VERSION,
         "entry_path": _relative(entry_path, repo_root),
@@ -548,6 +816,12 @@ def generate_manifest(
             "blind_output_sha256": blind_hash,
         },
     }
+    if liveness_contract:
+        manifest["invalidated_by"] = invalidated_by
+        manifest["review_liveness_errors"] = review_liveness.summarize_errors(
+            liveness_errors
+        )
+    return manifest
 
 
 def validate_generated_manifest(
@@ -584,6 +858,16 @@ def validate_generated_manifest(
                 key, value = line.split(":", 1)
                 front[key.strip()] = value.strip().strip('"')
     decision = actual["final_decision"]["decision"]
+    if actual.get("invalidated_by"):
+        required_status = review_liveness.required_pending_status(
+            actual["invalidated_by"]
+        )
+        if front.get("status") != required_status or front.get("checked") != "false":
+            return [
+                "review-liveness invalidation requires entry status "
+                f"{required_status} and checked false"
+            ]
+        return []
     if decision == "pass" and (
         front.get("status") not in {"checked", "final"}
         or front.get("checked") != "true"

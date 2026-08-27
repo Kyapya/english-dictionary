@@ -717,6 +717,14 @@ def command_validate_entries(args: argparse.Namespace) -> int:
     )
 
 
+def _is_non_entry_audit(path: Path) -> bool:
+    return path.name in {
+        "escaped_defect_taxonomy.json",
+        "escaped_defects.json",
+        "review_invalidations.json",
+    }
+
+
 def command_validate_changed(args: argparse.Namespace) -> int:
     paths: set[Path] = set()
     for raw in _changed_files(args.base, args.head):
@@ -727,7 +735,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
             rel = Path(raw).relative_to("audits")
             if any(part in {"runs", "history", "workflow_runs"} for part in rel.parts):
                 continue
-            if path.name in {"escaped_defect_taxonomy.json", "review_invalidations.json"}:
+            if _is_non_entry_audit(path):
                 continue
             paths.add(path)
     missing = [path for path in sorted(paths) if not path.exists()]

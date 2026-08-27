@@ -10,6 +10,7 @@ from pathlib import Path
 from scripts.source_first_audit_gate import (
     PROFILES,
     _hydrate_generated_final_review,
+    _is_non_entry_audit,
     _template,
     validate_manifest,
 )
@@ -242,6 +243,10 @@ def valid_v2_manifest() -> dict:
 
 
 class SourceFirstAuditGateTests(unittest.TestCase):
+    def test_escaped_defect_registry_is_not_an_entry_audit(self) -> None:
+        self.assertTrue(_is_non_entry_audit(Path("audits/escaped_defects.json")))
+        self.assertFalse(_is_non_entry_audit(Path("audits/a/apple.json")))
+
     def test_valid_manifest_passes(self) -> None:
         self.assertEqual(validate_manifest(valid_manifest()), [])
 

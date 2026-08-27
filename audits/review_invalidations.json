@@ -1,5 +1,12 @@
 {
   "schema_version": "review_invalidations_v1",
+  "reason_catalog": {
+    "B1_term_not_in_example": "No declared discriminating term occurs in the reviewed example or translation.",
+    "B2_rationale_not_distinct": "Review rationales or notes are insufficiently individualized.",
+    "B2_rationale_not_grounded": "A rationale or note does not quote or name evidence from its target.",
+    "B3_attribution_copy_pattern": "Attribution term diversity indicates copying from sense labels rather than example reading.",
+    "B4_zero_finding_single_review": "A zero-finding run lacks the required second-model confirmation."
+  },
   "invalidations": [
     {
       "entry_path": "entries/d/distribution.md",
@@ -16,6 +23,20 @@
         "evidence_claim_mismatch",
         "raw_adjudication_manifest_divergence"
       ]
+    },
+    {
+      "run_id": "20260826T131200Z-yield02",
+      "entry_path": "entries/y/yield.md",
+      "status": "invalidated_run",
+      "invalidated_at": "2026-08-27T00:00:00+09:00",
+      "invalidated_by": [
+        "B1_term_not_in_example",
+        "B2_rationale_not_distinct",
+        "B2_rationale_not_grounded",
+        "B3_attribution_copy_pattern",
+        "B4_zero_finding_single_review"
+      ],
+      "reason": "The preserved raw review is retained for regression, but it cannot authorize a checked transition under the review-liveness contract."
     }
   ]
 }

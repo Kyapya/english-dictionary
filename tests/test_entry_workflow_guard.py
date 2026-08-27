@@ -14,6 +14,7 @@ sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from entry_workflow_guard import (  # noqa: E402
     PROFILES,
+    _is_registered_review_demotion,
     advance_stage,
     confirm_remote_checkpoint,
     enforce_budget,
@@ -206,6 +207,124 @@ class EntryWorkflowGuardTests(unittest.TestCase):
             self.assertEqual(value["remote_checkpoint"]["commit_sha"], sha)
             self.assertEqual(value["stage"], "preflight_pushed")
             self.assertEqual(validate_manifest(value), [])
+
+    def test_registered_body_preserving_review_demotion_needs_no_completed_run(self) -> None:
+        with tempfile.TemporaryDirectory() as raw:
+            root = Path(raw)
+            subprocess.run(["git", "init", "-b", "main", str(root)], check=True, capture_output=True)
+            subprocess.run(
+                ["git", "-C", str(root), "config", "user.email", "test@example.com"],
+                check=True,
+            )
+            subprocess.run(
+                ["git", "-C", str(root), "config", "user.name", "Workflow Test"],
+                check=True,
+            )
+            entry = root / "entries" / "y" / "yield.md"
+            audit = root / "audits" / "y" / "yield.json"
+            registry = root / "audits" / "review_invalidations.json"
+            entry.parent.mkdir(parents=True)
+            audit.parent.mkdir(parents=True)
+            entry.write_text(
+                "---\nheadword: yield\nstatus: checked\nupdated_at: 2026-08-26\n"
+                "checked: true\n---\nunchanged body\n",
+                encoding="utf-8",
+            )
+            audit.write_text(
+                json.dumps({"cycle_id": "run-1"}) + "\n", encoding="utf-8"
+            )
+            registry.write_text(
+                json.dumps(
+                    {
+                        "schema_version": "review_invalidations_v1",
+                        "reason_catalog": {"B1_term_not_in_example": "test"},
+                        "invalidations": [],
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            subprocess.run(["git", "-C", str(root), "add", "."], check=True)
+            subprocess.run(
+                ["git", "-C", str(root), "commit", "-m", "base"],
+                check=True,
+                capture_output=True,
+            )
+            base = subprocess.run(
+                ["git", "-C", str(root), "rev-parse", "HEAD"],
+                check=True,
+                capture_output=True,
+                text=True,
+            ).stdout.strip()
+
+            entry.write_text(
+                "---\nheadword: yield\nstatus: needs_review\nupdated_at: 2026-08-27\n"
+                "checked: false\n---\nunchanged body\n",
+                encoding="utf-8",
+            )
+            audit.write_text(
+                json.dumps(
+                    {
+                        "cycle_id": "run-1",
+                        "invalidated_by": ["B1_term_not_in_example"],
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            registry.write_text(
+                json.dumps(
+                    {
+                        "schema_version": "review_invalidations_v1",
+                        "reason_catalog": {"B1_term_not_in_example": "test"},
+                        "invalidations": [
+                            {
+                                "status": "invalidated_run",
+                                "entry_path": "entries/y/yield.md",
+                                "run_id": "run-1",
+                                "invalidated_by": ["B1_term_not_in_example"],
+                            }
+                        ],
+                    }
+                )
+                + "\n",
+                encoding="utf-8",
+            )
+            subprocess.run(["git", "-C", str(root), "add", "."], check=True)
+            subprocess.run(
+                ["git", "-C", str(root), "commit", "-m", "invalidate"],
+                check=True,
+                capture_output=True,
+            )
+            head = subprocess.run(
+                ["git", "-C", str(root), "rev-parse", "HEAD"],
+                check=True,
+                capture_output=True,
+                text=True,
+            ).stdout.strip()
+            changed = {
+                "entries/y/yield.md",
+                "audits/y/yield.json",
+                "audits/review_invalidations.json",
+            }
+            self.assertTrue(
+                _is_registered_review_demotion(
+                    "entries/y/yield.md",
+                    base=base,
+                    head=head,
+                    changed=changed,
+                    repo_root=root,
+                )
+            )
+            self.assertFalse(
+                _is_registered_review_demotion(
+                    "entries/y/yield.md",
+                    base=base,
+                    head=head,
+                    changed=changed - {"audits/review_invalidations.json"},
+                    repo_root=root,
+                )
+            )
 
 
 if __name__ == "__main__":

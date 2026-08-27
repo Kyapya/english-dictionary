@@ -7,6 +7,7 @@ import sys
 import tempfile
 import unittest
 from pathlib import Path
+from unittest import mock
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -62,11 +63,25 @@ class GeneratedAuditManifestTests(unittest.TestCase):
         )
 
     @staticmethod
-    def _results(ids: set[str], **extra: object) -> list[dict]:
+    def _results(ids: set[str] | dict[str, str], **extra: object) -> list[dict]:
+        notes = ids if isinstance(ids, dict) else {}
         return [
-            {"id": item_id, "status": "pass", "notes": "checked", **extra}
+            {
+                "id": item_id,
+                "status": "pass",
+                "notes": notes.get(item_id, f"checked {item_id}"),
+                **extra,
+            }
             for item_id in sorted(ids)
         ]
+
+    @staticmethod
+    def _reviewer(model: str = "fixture-primary") -> dict:
+        return {
+            "mode": "handoff",
+            "declared_model": model,
+            "ingested_by": "human",
+        }
 
     def _write_raw_fixture(self) -> None:
         source_gate = copy.deepcopy(valid_v2_manifest()["source_first_audit"])
@@ -98,13 +113,16 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 attribution_request
             ),
             "recorded_at": "2026-08-25T10:00:00+09:00",
+            "reviewer": self._reviewer(),
             "attributions": [
                 {
-                    "example_id": "example:001",
+                    "example_id": attribution_request["input_sections"][
+                        "collocations_examples"
+                    ][0]["example_id"],
                     "classification": "unique",
                     "candidate_sense_ids": ["sense:001"],
-                    "discriminating_terms": ["material"],
-                    "rationale": "The material sample context identifies sense 1.",
+                    "discriminating_terms": ["material", "sample"],
+                    "rationale": "The material sample wording identifies sense 1.",
                 }
             ],
         }
@@ -118,13 +136,18 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 (
                     {
                         "pass_id": item["id"],
+                        "reviewer": self._reviewer(),
                         "blind_attribution_record": attribution_record,
                         "aligned_at": "2026-08-25T10:00:01+09:00",
                         "findings": [],
                         "unrouted_observations": [],
                     }
                     if item["id"] == "example-attribution"
-                    else {"pass_id": item["id"], "findings": []}
+                    else {
+                        "pass_id": item["id"],
+                        "reviewer": self._reviewer(),
+                        "findings": [],
+                    }
                 )
                 for item in router["passes"]
             ],
@@ -145,6 +168,7 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 "cold_review", ["entry_body", "cold_review_prompt"], "cold"
             ),
             "audit_visible": False,
+            "reviewer": self._reviewer(),
             "findings": [],
         }
         self._write("cold_review.json", cold)
@@ -160,6 +184,7 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 "final_blind", ["entry_body", "final_blind_prompt"], "final"
             ),
             "audit_visible": False,
+            "reviewer": self._reviewer(),
             "provisional_decision": "pass",
             "independent_candidates": [
                 {
@@ -168,7 +193,7 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                     "frame": "a sample of something",
                     "meaning": "representative subset",
                     "disposition": "included",
-                    "rationale": "independently inventoried",
+                    "rationale": "The sample is independently inventoried as a representative subset.",
                     "semantic_assertions": [
                         {
                             "id": "IC-001:A1",
@@ -189,13 +214,10 @@ class GeneratedAuditManifestTests(unittest.TestCase):
             repo_root=self.root,
             sealed_at="2026-08-25T10:01:00+09:00",
         )
-        targets = {item["id"] for item in content_audit.extract_targets(self.entry)}
-        relations = {
-            item["id"]
-            for item in content_audit.extract_relations(
-                content_audit.extract_targets(self.entry)
-            )
-        }
+        target_items = content_audit.extract_targets(self.entry)
+        relation_items = content_audit.extract_relations(target_items)
+        targets = {item["id"]: item["text"] for item in target_items}
+        relations = {item["id"]: item["description"] for item in relation_items}
         final = {
             **self._metadata(
                 "final_review",
@@ -209,6 +231,7 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 "final",
             ),
             "recorded_at": "2026-08-25T10:02:00+09:00",
+            "reviewer": self._reviewer(),
             "blind_output_sha256": seal["blind_output_sha256"],
             "target_results": self._results(targets),
             "relation_results": self._results(relations),
@@ -233,6 +256,29 @@ class GeneratedAuditManifestTests(unittest.TestCase):
             "notes": [],
         }
         self._write("final_review.json", final)
+        self._write(
+            "secondary_reviews.json",
+            {
+                "cold_review": {
+                    "reviewer": self._reviewer("fixture-secondary"),
+                    "findings": [],
+                },
+                "example_attribution": {
+                    "reviewer": self._reviewer("fixture-secondary"),
+                    "blind_attribution_record": {
+                        **copy.deepcopy(attribution_record),
+                        "reviewer": self._reviewer("fixture-secondary"),
+                    },
+                    "findings": [],
+                },
+            },
+        )
+        secondary_dir = self.cycle / "secondary_reviews"
+        secondary_dir.mkdir()
+        (secondary_dir / "example_attribution.request.json").write_text(
+            json.dumps(attribution_request, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
 
     def _generate(self) -> dict:
         value = generator.generate_manifest(
@@ -308,6 +354,68 @@ class GeneratedAuditManifestTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, "pass set mismatch"):
             generator.generate_manifest(self.entry, self.cycle, repo_root=self.root)
 
+    def test_manifest_rejects_review_stage_without_reviewer(self) -> None:
+        cold_path = self.cycle / "cold_review.json"
+        cold = json.loads(cold_path.read_text(encoding="utf-8"))
+        cold.pop("reviewer")
+        self._write("cold_review.json", cold)
+        with self.assertRaisesRegex(ValueError, "reviewer"):
+            generator.generate_manifest(self.entry, self.cycle, repo_root=self.root)
+
+    def test_pre_contract_cycle_remains_readable_without_reviewer_fields(self) -> None:
+        for name in ("cold_review.json", "final_blind.json", "final_review.json"):
+            value = json.loads((self.cycle / name).read_text(encoding="utf-8"))
+            value.pop("reviewer", None)
+            self._write(name, value)
+        generator.seal_blind(
+            self.entry,
+            self.cycle / "final_blind.json",
+            self.cycle / "blind_seal.json",
+            repo_root=self.root,
+            sealed_at="2026-08-25T10:01:00+09:00",
+        )
+        normal = json.loads((self.cycle / "pass_findings.json").read_text())
+        normal["pass_outputs"] = [
+            output
+            for output in normal["pass_outputs"]
+            if output.get("pass_id") != "example-attribution"
+        ]
+        for output in normal["pass_outputs"]:
+            output.pop("reviewer", None)
+        self._write("pass_findings.json", normal)
+        with mock.patch.object(generator, "_is_historical_cycle", return_value=True):
+            value = generator.generate_manifest(
+                self.entry, self.cycle, repo_root=self.root
+            )
+        self.assertNotIn("invalidated_by", value)
+
+    def test_api_review_is_bound_to_request_and_preserved_raw_response(self) -> None:
+        cold_path = self.cycle / "cold_review.json"
+        cold = json.loads(cold_path.read_text(encoding="utf-8"))
+        request = {"stage": "cold_review", "entry_body": "fixture"}
+        cold["reviewer"] = {
+            "mode": "api",
+            "provider": "openai",
+            "model": "fixture-api",
+            "response_id": "resp-cold",
+            "request_sha256": generator.review_liveness.request_sha256(request),
+        }
+        self._write("cold_review.json", cold)
+        with self.assertRaisesRegex(ValueError, "request payload is missing"):
+            generator.generate_manifest(self.entry, self.cycle, repo_root=self.root)
+
+        self._write("cold_review.request.json", request)
+        with self.assertRaisesRegex(ValueError, "no preserved raw API response"):
+            generator.generate_manifest(self.entry, self.cycle, repo_root=self.root)
+
+        raw_dir = self.cycle / "raw"
+        raw_dir.mkdir()
+        (raw_dir / "cold_review.response.json").write_text(
+            json.dumps({"id": "resp-cold", "output_text": "{}"}),
+            encoding="utf-8",
+        )
+        generator.generate_manifest(self.entry, self.cycle, repo_root=self.root)
+
     def test_native_cold_finding_schema_is_preserved_during_generation(self) -> None:
         cold_path = self.cycle / "cold_review.json"
         cold = json.loads(cold_path.read_text(encoding="utf-8"))
@@ -317,7 +425,7 @@ class GeneratedAuditManifestTests(unittest.TestCase):
                 "location": "first sense definition",
                 "severity": "medium",
                 "description": "The boundary may be overgeneralized.",
-                "reason": "The definition makes an absolute claim.",
+                "reason": "The representative subset definition makes an absolute claim.",
                 "suggested_direction": "Narrow the stated scope.",
                 "scope_anchors": [
                     {

@@ -45,6 +45,7 @@ MAX_PLAYBOOK_BYTES = 12_288
 MAX_PLAYBOOK_RECORDS = 20
 RETIREMENT_SCHEMA_VERSION = "process_retirement_v1"
 DEFAULT_RETIREMENT_INTERVAL_WORDS = 10
+ESCAPED_DEFECT_LINK_REQUIRED_FROM = "2026-08-27"
 
 REQUIRED_KEYS = {
     "schema_version",
@@ -66,6 +67,7 @@ REQUIRED_KEYS = {
     "created_at",
     "updated_at",
 }
+OPTIONAL_KEYS = {"escaped_defect_ids"}
 
 
 def _nonempty_string(value: Any) -> bool:
@@ -124,13 +126,45 @@ def _validate_record(record: dict[str, Any], repo_root: Path) -> list[str]:
     errors: list[str] = []
     keys = set(record) - {"_path"}
     missing = sorted(REQUIRED_KEYS - keys)
-    extra = sorted(keys - REQUIRED_KEYS)
+    extra = sorted(keys - REQUIRED_KEYS - OPTIONAL_KEYS)
     if missing:
         errors.append(f"{label}: missing keys: {', '.join(missing)}")
     if extra:
         errors.append(f"{label}: unsupported keys: {', '.join(extra)}")
     if missing:
         return errors
+
+    escaped_ids = record.get("escaped_defect_ids")
+    created_at = str(record.get("created_at", ""))
+    if created_at >= ESCAPED_DEFECT_LINK_REQUIRED_FROM and escaped_ids is None:
+        errors.append(
+            f"{label}: escaped_defect_ids is required for records created on or after "
+            f"{ESCAPED_DEFECT_LINK_REQUIRED_FROM}"
+        )
+    if escaped_ids is not None:
+        errors.extend(
+            _validate_string_list(
+                escaped_ids, label=f"{label}: escaped_defect_ids"
+            )
+        )
+        registry_path = repo_root / "audits" / "escaped_defects.json"
+        try:
+            registry = json.loads(registry_path.read_text(encoding="utf-8"))
+            registered = {
+                str(item.get("id"))
+                for item in registry.get("defects", [])
+                if isinstance(item, dict) and _nonempty_string(item.get("id"))
+            }
+        except (OSError, json.JSONDecodeError, AttributeError):
+            errors.append(
+                f"{label}: cannot load escaped-defect registry {registry_path}"
+            )
+        else:
+            for defect_id in escaped_ids if isinstance(escaped_ids, list) else []:
+                if isinstance(defect_id, str) and defect_id not in registered:
+                    errors.append(
+                        f"{label}: escaped_defect_ids contains unknown id {defect_id}"
+                    )
 
     record_id = record["id"]
     if not _nonempty_string(record_id) or not ID_PATTERN.fullmatch(record_id):

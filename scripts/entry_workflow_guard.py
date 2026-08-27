@@ -9,6 +9,7 @@ from datetime import datetime, timedelta, timezone
 from pathlib import Path
 from typing import Any
 
+import review_liveness
 from slugify import slugify
 
 
@@ -545,6 +546,107 @@ def _changed_files(base: str, head: str) -> list[str]:
     return [line.strip() for line in completed.stdout.splitlines() if line.strip()]
 
 
+def _git_file_at(
+    ref: str, relative: str, *, repo_root: Path = REPO_ROOT
+) -> bytes | None:
+    completed = subprocess.run(
+        ["git", "show", f"{ref}:{relative}"],
+        cwd=repo_root,
+        check=False,
+        stdout=subprocess.PIPE,
+        stderr=subprocess.PIPE,
+    )
+    return completed.stdout if completed.returncode == 0 else None
+
+
+def _entry_front_and_body(raw: bytes) -> tuple[dict[str, str], str] | None:
+    try:
+        text = raw.decode("utf-8")
+    except UnicodeDecodeError:
+        return None
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return None
+    front: dict[str, str] = {}
+    closing: int | None = None
+    for index, line in enumerate(lines[1:], start=1):
+        if line.strip() == "---":
+            closing = index
+            break
+        if ":" in line:
+            key, value = line.split(":", 1)
+            front[key.strip()] = value.strip().strip('"')
+    if closing is None:
+        return None
+    return front, "\n".join(lines[closing + 1 :])
+
+
+def _is_registered_review_demotion(
+    entry: str,
+    *,
+    base: str,
+    head: str,
+    changed: set[str],
+    repo_root: Path = REPO_ROOT,
+) -> bool:
+    """Allow only a body-preserving demotion tied to a registered invalid run."""
+    parts = Path(entry).parts
+    if len(parts) != 3 or parts[0] != "entries":
+        return False
+    audit_relative = f"audits/{parts[1]}/{Path(parts[2]).stem}.json"
+    registry_relative = "audits/review_invalidations.json"
+    if audit_relative not in changed or registry_relative not in changed:
+        return False
+    base_raw = _git_file_at(base, entry, repo_root=repo_root)
+    head_raw = _git_file_at(head, entry, repo_root=repo_root)
+    if base_raw is None or head_raw is None:
+        return False
+    base_entry = _entry_front_and_body(base_raw)
+    head_entry = _entry_front_and_body(head_raw)
+    if base_entry is None or head_entry is None:
+        return False
+    base_front, base_body = base_entry
+    head_front, head_body = head_entry
+    if base_body != head_body:
+        return False
+    if base_front.get("status") not in {"checked", "final"}:
+        return False
+    if base_front.get("checked") != "true" or head_front.get("checked") != "false":
+        return False
+    ignored = {"status", "checked", "updated_at"}
+    if {key: value for key, value in base_front.items() if key not in ignored} != {
+        key: value for key, value in head_front.items() if key not in ignored
+    }:
+        return False
+    audit_raw = _git_file_at(head, audit_relative, repo_root=repo_root)
+    registry_raw = _git_file_at(head, registry_relative, repo_root=repo_root)
+    if audit_raw is None or registry_raw is None:
+        return False
+    try:
+        audit = json.loads(audit_raw)
+        registry = json.loads(registry_raw)
+    except (UnicodeDecodeError, json.JSONDecodeError):
+        return False
+    if not isinstance(audit, dict) or not isinstance(registry, dict):
+        return False
+    invalidated_by = audit.get("invalidated_by")
+    if not isinstance(invalidated_by, list) or not invalidated_by:
+        return False
+    if head_front.get("status") != review_liveness.required_pending_status(
+        invalidated_by
+    ):
+        return False
+    cycle_id = audit.get("cycle_id")
+    return any(
+        isinstance(item, dict)
+        and item.get("status") == "invalidated_run"
+        and item.get("entry_path") == entry
+        and item.get("run_id") == cycle_id
+        and set(item.get("invalidated_by", [])) == set(invalidated_by)
+        for item in registry.get("invalidations", [])
+    )
+
+
 def _all_run_paths() -> list[Path]:
     return sorted(RUNS_ROOT.glob("*/*.json")) if RUNS_ROOT.exists() else []
 
@@ -717,6 +819,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
     }
     failed = bool(_validate_paths(sorted(changed_runs), merge_ready=args.merge_ready))
     if changed_entries:
+        changed_set = set(changed)
         manifests: list[tuple[Path, dict[str, Any]]] = []
         for path in changed_runs:
             try:
@@ -729,7 +832,12 @@ def command_validate_changed(args: argparse.Namespace) -> int:
                 for path, manifest in manifests
                 if manifest.get("entry_path") == entry and manifest.get("status") == "completed"
             ]
-            if not matches:
+            if not matches and not _is_registered_review_demotion(
+                entry,
+                base=args.base,
+                head=args.head,
+                changed=changed_set,
+            ):
                 failed = True
                 print(
                     f"FAIL {entry}: changed entry requires a changed completed workflow run",

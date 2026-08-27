@@ -1,12 +1,12 @@
 ---
 headword: yield  
 type: word  
-status: needs_review
+status: checked  
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
 created_at: 2026-08-26  
-updated_at: 2026-08-27
-checked: false
+updated_at: 2026-08-26  
+checked: true  
 tags: []  
 ---
 

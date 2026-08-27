@@ -3,12 +3,15 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import random
 import re
 import sys
 from dataclasses import dataclass
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+import review_liveness
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -424,9 +427,115 @@ def _example_attribution_request(
     body_bytes: bytes,
     check_pass: dict[str, Any],
     finding_schema: dict[str, Any],
+    *,
+    blind_seed: str,
 ) -> dict[str, Any]:
     material = _example_attribution_material(text)
+    opaque_ids = {
+        str(item["example_id"]): "ex-"
+        + hashlib.sha256(
+            f"{blind_seed}\0{item['example_id']}".encode("utf-8")
+        ).hexdigest()[:12]
+        for item in material["examples"]
+    }
+    examples = []
+    for item in material["examples"]:
+        public = {key: value for key, value in item.items() if key != "line"}
+        public["translation"] = re.sub(
+            r"[（(][^）)]*(?:語義|用法|意味)[^）)]*[）)]",
+            "",
+            str(public.get("translation", "")),
+        ).strip()
+        public["example_id"] = opaque_ids[str(item["example_id"])]
+        examples.append(public)
+    random.Random(blind_seed).shuffle(examples)
     return {
+        "schema_version": "example_attribution_blind_request_v1",
+        "pass_id": check_pass["id"],
+        "taxonomy_ids": list(check_pass["taxonomy_ids"]),
+        "specification": check_pass["specification"],
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "input_sections": {
+            "sense_structure": material["senses"],
+            "collocations_examples": examples,
+        },
+        "blind_protocol": {
+            "stage": 1,
+            "withheld_fields": [
+                "assigned_sense_id",
+                "collocation_heading",
+                "usage_line",
+                "example_group_boundary",
+                "document_order",
+            ],
+            "required_output_schema": "example_attribution_blind_record_v1",
+        },
+        "finding_schema": finding_schema,
+    }
+
+
+def build_example_attribution_alignment_key(
+    entry_path: Path,
+    *,
+    repo_root: Path = REPO_ROOT,
+    router_path: Path | None = None,
+    blind_seed: str | None = None,
+) -> dict[str, Any]:
+    raw = entry_path.resolve().read_bytes()
+    text = raw.decode("utf-8")
+    _, body_lines = _split_front_matter(text)
+    body_bytes = "\n".join(body_lines).encode("utf-8")
+    router = load_router(router_path or (repo_root / "prompts" / "check_router_v6.md"))
+    check_pass = next(
+        item for item in router["passes"] if item["id"] == "example-attribution"
+    )
+    effective_seed = blind_seed or _digest_bytes(body_bytes)
+    request = _example_attribution_request(
+        text,
+        body_bytes,
+        check_pass,
+        router["finding_schema"],
+        blind_seed=effective_seed,
+    )
+    material = _example_attribution_material(text)
+    opaque_ids = {
+        str(item["example_id"]): "ex-"
+        + hashlib.sha256(
+            f"{effective_seed}\0{item['example_id']}".encode("utf-8")
+        ).hexdigest()[:12]
+        for item in material["examples"]
+    }
+    return {
+        "schema_version": "example_attribution_alignment_key_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "blind_request_sha256": _digest_json(request),
+        "shuffle_seed": effective_seed,
+        "examples": [
+            {
+                **item,
+                "source_example_id": item["example_id"],
+                "example_id": opaque_ids[str(item["example_id"])],
+            }
+            for item in material["ownership"]
+        ],
+        "sense_usage_notes": material["usage_notes"],
+    }
+
+
+def build_legacy_example_attribution_artifacts(
+    entry_path: Path,
+    router: dict[str, Any],
+) -> tuple[dict[str, Any], dict[str, Any]]:
+    """Reconstruct pre-2026-08-27 artifacts only for immutable audit validation."""
+    text = entry_path.resolve().read_text(encoding="utf-8")
+    _, body_lines = _split_front_matter(text)
+    body_bytes = "\n".join(body_lines).encode("utf-8")
+    check_pass = next(
+        item for item in router["passes"] if item["id"] == "example-attribution"
+    )
+    material = _example_attribution_material(text)
+    request = {
         "schema_version": "example_attribution_blind_request_v1",
         "pass_id": check_pass["id"],
         "taxonomy_ids": list(check_pass["taxonomy_ids"]),
@@ -445,29 +554,9 @@ def _example_attribution_request(
             ],
             "required_output_schema": "example_attribution_blind_record_v1",
         },
-        "finding_schema": finding_schema,
+        "finding_schema": router["finding_schema"],
     }
-
-
-def build_example_attribution_alignment_key(
-    entry_path: Path,
-    *,
-    repo_root: Path = REPO_ROOT,
-    router_path: Path | None = None,
-) -> dict[str, Any]:
-    raw = entry_path.resolve().read_bytes()
-    text = raw.decode("utf-8")
-    _, body_lines = _split_front_matter(text)
-    body_bytes = "\n".join(body_lines).encode("utf-8")
-    router = load_router(router_path or (repo_root / "prompts" / "check_router_v6.md"))
-    check_pass = next(
-        item for item in router["passes"] if item["id"] == "example-attribution"
-    )
-    request = _example_attribution_request(
-        text, body_bytes, check_pass, router["finding_schema"]
-    )
-    material = _example_attribution_material(text)
-    return {
+    alignment = {
         "schema_version": "example_attribution_alignment_key_v1",
         "pass_id": "example-attribution",
         "input_body_sha256": _digest_bytes(body_bytes),
@@ -475,6 +564,7 @@ def build_example_attribution_alignment_key(
         "examples": material["ownership"],
         "sense_usage_notes": material["usage_notes"],
     }
+    return request, alignment
 
 
 def build_bundles(
@@ -482,6 +572,7 @@ def build_bundles(
     *,
     repo_root: Path = REPO_ROOT,
     router_path: Path | None = None,
+    blind_seed: str | None = None,
 ) -> list[dict[str, Any]]:
     resolved = entry_path.resolve()
     raw = resolved.read_bytes()
@@ -492,6 +583,7 @@ def build_bundles(
     # trailing newline.  A stage-specific hash would make an unchanged body look
     # stale when checker output is handed to final manifest generation.
     body_bytes = "\n".join(body_lines).encode("utf-8")
+    effective_seed = blind_seed or _digest_bytes(body_bytes)
     sections = extract_sections(text)
     router = load_router(router_path or (repo_root / "prompts" / "check_router_v6.md"))
     errors = validate_router(router, repo_root=repo_root)
@@ -502,7 +594,11 @@ def build_bundles(
         if check_pass["id"] == "example-attribution":
             bundles.append(
                 _example_attribution_request(
-                    text, body_bytes, check_pass, router["finding_schema"]
+                    text,
+                    body_bytes,
+                    check_pass,
+                    router["finding_schema"],
+                    blind_seed=effective_seed,
                 )
             )
             continue
@@ -527,6 +623,10 @@ def build_bundles(
 def validate_blind_attribution_record(
     record: Any,
     request: dict[str, Any] | None = None,
+    *,
+    check_liveness: bool = True,
+    generation_model: str | None = None,
+    require_reviewer: bool = True,
 ) -> list[str]:
     errors: list[str] = []
     if not isinstance(record, dict):
@@ -538,6 +638,15 @@ def validate_blind_attribution_record(
         )
     if record.get("pass_id") != "example-attribution":
         errors.append("blind_attribution_record.pass_id must be example-attribution")
+    if require_reviewer or record.get("reviewer") is not None:
+        errors.extend(
+            review_liveness.validate_reviewer(
+                record.get("reviewer"), generation_model=generation_model
+            )
+        )
+        errors.extend(
+            review_liveness.validate_api_request_binding(record.get("reviewer"), request)
+        )
     recorded_at = _parse_timestamp(record.get("recorded_at"))
     if recorded_at is None:
         errors.append("blind_attribution_record.recorded_at must be an aware ISO timestamp")
@@ -618,6 +727,8 @@ def validate_blind_attribution_record(
             errors.append("blind attribution record is missing examples: " + ", ".join(missing))
         if extra:
             errors.append("blind attribution record has unknown examples: " + ", ".join(extra))
+    if request is not None and check_liveness:
+        errors.extend(review_liveness.validate_attribution_liveness(record, request))
     return errors
 
 
@@ -690,6 +801,7 @@ def reconcile_example_attribution(
         raise ValueError("; ".join(errors))
     return {
         "pass_id": "example-attribution",
+        "reviewer": record.get("reviewer"),
         "blind_attribution_record": record,
         "aligned_at": aligned_at,
         "findings": _attribution_findings(record, alignment_key),
@@ -703,6 +815,12 @@ def validate_pass_output(
     *,
     entry_path: Path | None = None,
     repo_root: Path = REPO_ROOT,
+    example_request: dict[str, Any] | None = None,
+    request_payload: dict[str, Any] | None = None,
+    alignment_key: dict[str, Any] | None = None,
+    check_liveness: bool = True,
+    generation_model: str | None = None,
+    require_reviewer: bool = True,
 ) -> list[str]:
     errors: list[str] = []
     by_id = {
@@ -713,6 +831,17 @@ def validate_pass_output(
     pass_id = output.get("pass_id")
     if pass_id not in by_id:
         return [f"unknown pass_id: {pass_id}"]
+    if require_reviewer or output.get("reviewer") is not None:
+        errors.extend(
+            review_liveness.validate_reviewer(
+                output.get("reviewer"), generation_model=generation_model
+            )
+        )
+        errors.extend(
+            review_liveness.validate_api_request_binding(
+                output.get("reviewer"), request_payload or example_request
+            )
+        )
     allowed = set(by_id[pass_id]["taxonomy_ids"])
     findings = output.get("findings")
     if not isinstance(findings, list):
@@ -749,9 +878,9 @@ def validate_pass_output(
             }:
                 errors.append(f"{label}.suggested_direction is invalid")
     if pass_id == "example-attribution":
-        request: dict[str, Any] | None = None
-        alignment_key: dict[str, Any] | None = None
-        if entry_path is not None:
+        request: dict[str, Any] | None = example_request
+        resolved_alignment: dict[str, Any] | None = alignment_key
+        if entry_path is not None and request is None:
             text = entry_path.resolve().read_text(encoding="utf-8")
             _, body_lines = _split_front_matter(text)
             request = _example_attribution_request(
@@ -759,12 +888,27 @@ def validate_pass_output(
                 "\n".join(body_lines).encode("utf-8"),
                 by_id["example-attribution"],
                 router["finding_schema"],
+                blind_seed=_digest_bytes("\n".join(body_lines).encode("utf-8")),
             )
-            alignment_key = build_example_attribution_alignment_key(
+            resolved_alignment = build_example_attribution_alignment_key(
                 entry_path, repo_root=repo_root
             )
         record = output.get("blind_attribution_record")
-        errors.extend(validate_blind_attribution_record(record, request))
+        errors.extend(
+            validate_blind_attribution_record(
+                record,
+                request,
+                check_liveness=False,
+                generation_model=generation_model,
+                require_reviewer=require_reviewer,
+            )
+        )
+        if check_liveness and request is not None and isinstance(record, dict):
+            errors.extend(
+                review_liveness.validate_attribution_liveness(
+                    record, request, alignment_key=resolved_alignment
+                )
+            )
         recorded = _parse_timestamp(
             record.get("recorded_at") if isinstance(record, dict) else None
         )
@@ -773,10 +917,10 @@ def validate_pass_output(
             errors.append("aligned_at must be an aware ISO timestamp")
         elif recorded is not None and aligned <= recorded:
             errors.append("aligned_at must be later than blind attribution record")
-        if request is not None and alignment_key is not None and isinstance(record, dict):
-            if alignment_key.get("blind_request_sha256") != _digest_json(request):
+        if request is not None and resolved_alignment is not None and isinstance(record, dict):
+            if resolved_alignment.get("blind_request_sha256") != _digest_json(request):
                 errors.append("alignment key does not bind the current stage 1 request")
-            expected = _attribution_findings(record, alignment_key)
+            expected = _attribution_findings(record, resolved_alignment)
             actual_anchors = {
                 (
                     item.get("location", {}).get("line_start"),
@@ -874,6 +1018,11 @@ def replay_regression_cases(
         section, line = matches[0]
         replay_output = {
             "pass_id": pass_id,
+            "reviewer": {
+                "mode": "handoff",
+                "declared_model": "regression-fixture-reviewer",
+                "ingested_by": "human",
+            },
             "findings": [
                 {
                     "taxonomy_id": taxonomy_id,
@@ -952,6 +1101,7 @@ def main() -> int:
     bundle = sub.add_parser("bundle")
     bundle.add_argument("entry", type=Path)
     bundle.add_argument("--output-dir", required=True, type=Path)
+    bundle.add_argument("--seed")
     validate = sub.add_parser("validate-output")
     validate.add_argument("output", type=Path)
     validate.add_argument("--entry", type=Path)
@@ -971,11 +1121,15 @@ def main() -> int:
     if args.command == "validate-router":
         return _print_errors(validate_router(router))
     if args.command == "bundle":
-        paths = write_bundles(build_bundles(args.entry), args.output_dir)
+        paths = write_bundles(
+            build_bundles(args.entry, blind_seed=args.seed), args.output_dir
+        )
         alignment_path = args.output_dir / "example-attribution.alignment-key.json"
         alignment_path.write_text(
             json.dumps(
-                build_example_attribution_alignment_key(args.entry),
+                build_example_attribution_alignment_key(
+                    args.entry, blind_seed=args.seed
+                ),
                 ensure_ascii=False,
                 indent=2,
             )

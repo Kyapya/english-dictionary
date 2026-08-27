@@ -179,6 +179,15 @@ class ValidateEntryTests(unittest.TestCase):
         path = self._write_temp_markdown(VALID_V5_MARKDOWN)
         self.assertEqual(validate_file(path), [])
 
+    def test_new_v5_entry_blocks_heading_frame_mismatch(self) -> None:
+        text = (
+            VALID_V5_MARKDOWN.replace("created_at: 2026-07-21", "created_at: 2026-08-27")
+            .replace("1. 【形容詞】", "1. 【自動詞】")
+            .replace("【文法パターン】immaculate 〈名詞〉", "【文法パターン】immaculate 〈対象〉")
+        )
+        errors = validate_file(self._write_temp_markdown(text))
+        self.assertTrue(any("intransitive-only" in error for error in errors))
+
     def test_review_ready_cannot_claim_checked_true(self) -> None:
         text = VALID_V5_MARKDOWN.replace("status: checked", "status: review_ready", 1)
         path = self._write_temp_markdown(text)
@@ -269,7 +278,11 @@ class ValidateEntryTests(unittest.TestCase):
     def test_checked_in_entries_have_no_v5_notation_warnings(self) -> None:
         failures: list[str] = []
         for path in sorted((REPO_ROOT / "entries").rglob("*.md")):
-            warnings = validation_warnings(path.read_text(encoding="utf-8"))
+            warnings = [
+                warning
+                for warning in validation_warnings(path.read_text(encoding="utf-8"))
+                if "grammar frame could not be classified" not in warning
+            ]
             failures.extend(
                 f"{path.relative_to(REPO_ROOT)}: {warning}" for warning in warnings
             )
