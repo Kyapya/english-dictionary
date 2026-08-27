@@ -1,19 +1,19 @@
 ---
 headword: conservation
 type: word
-status: checked
+status: needs_review
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-27
 updated_at: 2026-08-27
-checked: true
+checked: false
 tags: []
 ---
 
 ＃発音記号
 
 米: /ˌkɑːnsərˈveɪʃən/、英: /ˌkɒnsəˈveɪʃən/。4音節で、主強勢は第3音節の `-va-` /veɪ/、第1音節に弱い副強勢がある。語末の `-tion` は /ʃən/ と発音する。  
-`conservation` の `-serva-` は、`conversation` の `-versa-` /vɜːrsə/ とつづりも音も異なる。前者は /ˌkɑːnsərˈveɪʃən/、後者は米音で /ˌkɑːnvərˈseɪʃən/ となる。  
+`conservation` の `-serva-` と `conversation` の `-versa-` は、つづり上 `s` と `v` の位置が入れ替わっている。音も異なり、前者の該当部分は /sərˈveɪ/、後者の該当部分は米音で /vərˈseɪ/ と発音する（全体ではそれぞれ /ˌkɑːnsərˈveɪʃən/、/ˌkɑːnvərˈseɪʃən/）。  
 `conservationist` は /ˌkɑːnsərˈveɪʃənɪst/（米）で、基本的に `conservation` と同じ主強勢を保つ。  
 
 ＃語源
@@ -311,10 +311,3 @@ tags: []
 違い: `nonconservation` は一般会話の反対語ではなく、特定の保存則が成り立たないことを述べる専門的な表現である。  
 例: The proposed interaction would imply nonconservation of electric charge.  
 訳: その相互作用の提案は、電荷非保存を意味することになる。  
-
-・change  
-定義: 状態、値、形、位置などが以前と異なるものになること。  
-頻度: 〈10/10〉  
-違い: `change` は変化一般を表すだけで、系全体の総量が失われたことまでは意味しない。保存則では、内部の変化が起きても総量は保たれうる。  
-例: A change in the form of energy does not by itself disprove conservation of energy.  
-訳: エネルギーの形が変わっただけでは、エネルギー保存を否定することにはならない。  
