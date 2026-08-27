@@ -6,7 +6,7 @@ import tempfile
 import unittest
 from pathlib import Path
 
-from scripts.semantic_resolution_gate import validate_manifest
+from scripts.semantic_resolution_gate import _canonical_audit_paths, validate_manifest
 
 
 def _body_sha(text: str) -> str:
@@ -516,6 +516,18 @@ class SemanticResolutionGateTests(unittest.TestCase):
             require_gate=True,
         )
         self.assertEqual([], errors)
+
+    def test_escaped_defect_registry_is_not_treated_as_an_entry_audit(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            root = Path(directory)
+            audits = root / "audits"
+            (audits / "a").mkdir(parents=True)
+            (audits / "a" / "apple.json").write_text("{}\n", encoding="utf-8")
+            (audits / "escaped_defects.json").write_text("{}\n", encoding="utf-8")
+            self.assertEqual(
+                _canonical_audit_paths(root),
+                [audits / "a" / "apple.json"],
+            )
 
 
 if __name__ == "__main__":

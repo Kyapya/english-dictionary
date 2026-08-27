@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 import sys
 import unittest
 from pathlib import Path
@@ -103,6 +104,37 @@ class CheckPassTests(unittest.TestCase):
         serialized_examples = json.dumps(masked_examples, ensure_ascii=False)
         self.assertNotIn("用途:", serialized_examples)
         self.assertNotIn("【語法・注意】", serialized_examples)
+        self.assertTrue(
+            all(
+                re.fullmatch(r"ex-[0-9a-f]{12}", item["example_id"])
+                and "line" not in item
+                for item in masked_examples
+            )
+        )
+
+        source_orders = []
+        for seed in ("shuffle-a", "shuffle-b"):
+            seeded_request = next(
+                item
+                for item in check_passes.build_bundles(entry, blind_seed=seed)
+                if item["pass_id"] == "example-attribution"
+            )
+            seeded_alignment = check_passes.build_example_attribution_alignment_key(
+                entry, blind_seed=seed
+            )
+            sources = {
+                item["example_id"]: item["source_example_id"]
+                for item in seeded_alignment["examples"]
+            }
+            source_orders.append(
+                [
+                    sources[item["example_id"]]
+                    for item in seeded_request["input_sections"][
+                        "collocations_examples"
+                    ]
+                ]
+            )
+        self.assertNotEqual(source_orders[0], source_orders[1])
 
         alignment_key = check_passes.build_example_attribution_alignment_key(entry)
         self.assertTrue(
@@ -183,6 +215,27 @@ class CheckPassTests(unittest.TestCase):
         }
         errors = check_passes.validate_pass_output(output, self.router)
         self.assertTrue(any("not owned" in error for error in errors))
+
+    def test_pass_output_requires_independent_reviewer_provenance(self) -> None:
+        errors = check_passes.validate_pass_output(
+            {"pass_id": "translation", "findings": []}, self.router
+        )
+        self.assertTrue(any("reviewer" in error for error in errors))
+        self.assertEqual(
+            check_passes.validate_pass_output(
+                {
+                    "pass_id": "translation",
+                    "reviewer": {
+                        "mode": "handoff",
+                        "declared_model": "independent-model",
+                        "ingested_by": "human",
+                    },
+                    "findings": [],
+                },
+                self.router,
+            ),
+            [],
+        )
 
     def test_known_obvious_and_assess_defect_types_remain_routed(self) -> None:
         known = {

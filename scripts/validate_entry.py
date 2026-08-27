@@ -86,6 +86,22 @@ GROUPED_SENSE_LABELS = (
     "【類義語】",
     "【反意語】",
 )
+INTRANSITIVE_PREPOSITIONS = {
+    "about",
+    "against",
+    "at",
+    "by",
+    "for",
+    "from",
+    "in",
+    "into",
+    "on",
+    "to",
+    "under",
+    "with",
+    "without",
+}
+GRAMMAR_FRAME_ENFORCEMENT_DATE = "2026-08-27"
 
 
 def _read_text(path: Path) -> str:
@@ -544,6 +560,77 @@ def _check_v5_format(lines: list[str]) -> list[str]:
     return errors
 
 
+def _classify_grammar_frame(pattern: str, headword: str) -> str | None:
+    expression = pattern.split("＝", 1)[0].strip()
+    match = re.search(rf"(?<![A-Za-z]){re.escape(headword)}(?![A-Za-z])", expression, re.I)
+    if match is None:
+        return None
+    prefix = expression[: match.start()].strip().strip("`")
+    if re.fullmatch(r"(?:be|am|is|are|was|were|been|being)", prefix, re.I):
+        return "transitive"
+    if prefix and not prefix.endswith("〉"):
+        return None
+    tail = expression[match.end() :].strip().lstrip("+").strip()
+    if not tail:
+        return None
+    first = re.match(r"([A-Za-z]+)", tail)
+    token = first.group(1).casefold() if first else ""
+    if token in INTRANSITIVE_PREPOSITIONS:
+        remainder = tail[first.end() :].strip() if first else ""
+        if token == "to" and re.match(r"(?:do|be|have)\b", remainder, re.I):
+            return None
+        return "intransitive" if "〈" in tail else None
+    if token == "oneself":
+        return "transitive"
+    if token == "up":
+        remainder = tail[first.end() :].strip() if first else ""
+        return "transitive" if remainder else None
+    if tail.startswith("〈") or tail[0].isdigit():
+        return "transitive"
+    if re.match(r"(?:a|an|the|this|that|one's|[A-Za-z]+)\b", tail, re.I):
+        return "transitive"
+    return None
+
+
+def grammar_frame_diagnostics(
+    lines: list[str], headword: str
+) -> tuple[list[str], list[str]]:
+    errors: list[str] = []
+    warnings: list[str] = []
+    starts = [index for index, line in enumerate(lines) if SENSE_PATTERN.match(line.strip())]
+    for offset, start in enumerate(starts):
+        end = starts[offset + 1] if offset + 1 < len(starts) else len(lines)
+        heading = lines[start].strip()
+        label_match = re.search(r"【([^】]+)】", heading)
+        label = label_match.group(1) if label_match else ""
+        has_intransitive = "自動詞" in label
+        has_transitive = "他動詞" in label
+        if has_intransitive == has_transitive:
+            continue
+        for index in range(start + 1, end):
+            stripped = lines[index].strip()
+            if not stripped.startswith("【文法パターン】"):
+                continue
+            content = stripped.removeprefix("【文法パターン】").strip()
+            for pattern in (item.strip() for item in content.split("／") if item.strip()):
+                frame = _classify_grammar_frame(pattern, headword)
+                if frame is None:
+                    warnings.append(
+                        f"line {index + 1}: grammar frame could not be classified: {pattern}"
+                    )
+                elif has_intransitive and frame == "transitive":
+                    errors.append(
+                        f"line {index + 1}: format_error: intransitive-only sense has "
+                        f"a transitive grammar frame: {pattern}"
+                    )
+                elif has_transitive and frame == "intransitive":
+                    errors.append(
+                        f"line {index + 1}: format_error: transitive-only sense has "
+                        f"an intransitive grammar frame: {pattern}"
+                    )
+    return errors, warnings
+
+
 def _check_v5_notation_warnings(lines: list[str]) -> list[str]:
     warnings: list[str] = []
     candidate_indexes = {
@@ -633,6 +720,11 @@ def validate_text(text: str) -> list[str]:
         errors.extend(_check_modern_content(lines, front_values.get("headword", "")))
     if front_values.get("prompt_version") == "entry_spec_v5":
         errors.extend(_check_v5_format(lines))
+        if front_values.get("created_at", "") >= GRAMMAR_FRAME_ENFORCEMENT_DATE:
+            frame_errors, _ = grammar_frame_diagnostics(
+                lines, front_values.get("headword", "")
+            )
+            errors.extend(frame_errors)
     return errors
 
 
@@ -647,7 +739,11 @@ def validation_warnings(text: str) -> list[str]:
     front_values = _front_matter_values(front_matter)
     if front_values.get("prompt_version") != "entry_spec_v5":
         return []
-    return _check_v5_notation_warnings(body.splitlines())
+    lines = body.splitlines()
+    _, frame_warnings = grammar_frame_diagnostics(
+        lines, front_values.get("headword", "")
+    )
+    return [*_check_v5_notation_warnings(lines), *frame_warnings]
 
 
 def validation_file_warnings(path: Path) -> list[str]:

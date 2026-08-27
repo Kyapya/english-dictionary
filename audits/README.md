@@ -33,6 +33,22 @@ python scripts/generate_audit_manifest.py validate \
 
 blind入力の独立性、三者のrun/context分離、各段の入力artifact、本文hash、全target/relation/candidate/finding/evidence/source-union結果、未解決0件、blockerとdecisionの整合はgeneratorとCIが検証する。blind sealと `final_blind.json` は `final_review.json` が存在する前の先行commitに固定されなければならない。
 
+## レビュー実体・liveness
+
+新規レビュー出力には `reviewer.mode`（`api` または `handoff`）とモード固有の出所情報が必須である。APIの生応答は `raw/<stage>.response.json` に残し、`request_sha256` は保存した入力packet、`response_id` は生応答IDと一致しなければならない。handoffは別モデル・別セッションの応答だけを取り込む。
+
+`scripts/review_liveness.py` は次を検査する。閾値は同スクリプト先頭の定数に集約し、rationale / notes の個別性は対象IDを除去した正規化文字列の種類数÷件数が `0.60` 以上でなければならない。
+
+- `B1_term_not_in_example`: 判別語が対象例文または訳に実在しない。
+- `B2_rationale_not_distinct`: rationale / notes が対象ごとに十分異ならない。
+- `B2_rationale_not_grounded`: exact quote・判別語・候補固有表現のいずれにも接地していない。
+- `B3_attribution_copy_pattern`: 判別語の種類数が語義数以下で、語義ラベル転写の兆候がある。
+- `B4_zero_finding_single_review`: ゼロfinding runを異なる第2モデルのcold reviewとexample-attributionが再確認していない。
+
+無効化されたrawは削除しない。派生manifestには `invalidated_by` と `review_liveness_errors` を残す。B1〜B3を含む場合は `needs_review / checked: false`、B4だけの場合は第2レビュー待ちの `review_ready / checked: false` で停止する。異なる第2モデルで再確認したゼロfinding runだけが `checked` へ進める。
+
+外部レビューで判明した欠陥は `audits/escaped_defects.json` に記録し、`python scripts/queue_status.py escaped-by-stage` で本来の検出段別に集計する。taxonomy側の `expected_detection_stages` を段の所有関係の正本とする。この集計から作る新しい工程改善recordは、対応するIDを `escaped_defect_ids` に列挙する。
+
 ## 本文改稿
 
 新規cycleでは `revision-00N.md` を生成しない。本文の各改稿は `scripts/run_word.py` が記事だけの個別Git commitとして記録し、Git commitを改稿履歴の正本にする。旧 `content_audit_v3` 用の `build`、`start-cycle`、`add-revision` CLIは退役済みである。

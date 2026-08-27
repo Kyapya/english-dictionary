@@ -163,7 +163,7 @@ class PromptContractTests(unittest.TestCase):
         self.assertNotIn("prompts/check_spec_v5.md だけを全文", text)
         self.assertNotIn("scripts/content_audit.py start-cycle", text)
 
-    def test_github_flow_uses_codex_not_an_api_generator(self) -> None:
+    def test_github_flow_keeps_generation_local_and_reviews_independent(self) -> None:
         validate_workflow = (
             REPO_ROOT / ".github" / "workflows" / "validate.yml"
         ).read_text(encoding="utf-8")
@@ -173,7 +173,12 @@ class PromptContractTests(unittest.TestCase):
         orchestrator = (REPO_ROOT / "scripts" / "run_word.py").read_text(
             encoding="utf-8"
         )
-        self.assertNotIn("openai", orchestrator.lower())
+        review_caller = (REPO_ROOT / "scripts" / "review_call.py").read_text(
+            encoding="utf-8"
+        )
+        self.assertNotIn("generate_entry", orchestrator)
+        self.assertIn("DICT_REVIEW_API_KEY", review_caller)
+        self.assertIn('SUPPORTED_PROVIDERS = {"openai", "anthropic"}', review_caller)
         self.assertIn("independent_llm", orchestrator)
         self.assertIn("pull_request:", validate_workflow)
         self.assertIn("scripts/validate_repository.py", validate_workflow)

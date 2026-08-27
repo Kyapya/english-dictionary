@@ -51,3 +51,5 @@
 ```
 
 最終pass出力にはfindingと併せて、段階1の `blind_attribution_record`、段階2の `aligned_at`、必要に応じて `unrouted_observations` を含める。`suggested_direction` は例文置換、語義ブロック間の移動、判別語の追加のいずれか1方向を記録する。
+
+段階1はrun別の不透明ID・shuffle順を使う。非公開alignment keyで復元し、request hashを照合する。

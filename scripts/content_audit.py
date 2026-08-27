@@ -198,10 +198,43 @@ def validate_invalidation_registry(repo_root: Path = REPO_ROOT) -> list[str]:
     if not isinstance(records, list):
         return errors + [f"{INVALIDATION_REGISTRY}.invalidations must be a list"]
     seen: set[tuple[str, str]] = set()
+    reason_catalog = value.get("reason_catalog", {})
+    if reason_catalog is not None and not isinstance(reason_catalog, dict):
+        errors.append(f"{INVALIDATION_REGISTRY}.reason_catalog must be an object")
+        reason_catalog = {}
     for index, record in enumerate(records):
         label = f"{INVALIDATION_REGISTRY}.invalidations[{index}]"
         if not isinstance(record, dict):
             errors.append(f"{label} must be an object")
+            continue
+        if record.get("status") == "invalidated_run":
+            for key in ("run_id", "entry_path", "invalidated_at", "reason"):
+                if not _nonempty(record.get(key)):
+                    errors.append(f"{label}.{key} is required")
+            _timestamp(record.get("invalidated_at"), f"{label}.invalidated_at", errors)
+            invalidated_by = record.get("invalidated_by")
+            if not isinstance(invalidated_by, list) or not invalidated_by:
+                errors.append(f"{label}.invalidated_by must be a non-empty list")
+            else:
+                unknown = sorted(set(invalidated_by) - set(reason_catalog))
+                if unknown:
+                    errors.append(
+                        f"{label}.invalidated_by contains unknown reasons: "
+                        + ", ".join(unknown)
+                    )
+            entry_value = str(record.get("entry_path", ""))
+            if not (repo_root / entry_value).is_file():
+                errors.append(f"{label}.entry_path does not exist")
+            run_id = str(record.get("run_id", ""))
+            if run_id and not any(
+                path.is_dir()
+                for path in (repo_root / "audits" / "runs").glob(f"*/*/{run_id}")
+            ):
+                errors.append(f"{label}.run_id does not resolve to a preserved run")
+            run_key = (f"run:{run_id}", entry_value)
+            if run_key in seen:
+                errors.append(f"{label} duplicates an existing run invalidation")
+            seen.add(run_key)
             continue
         for key in ("entry_path", "body_sha256", "invalidated_at", "reason"):
             if not _nonempty(record.get(key)):
@@ -2767,6 +2800,16 @@ def _validate_blind_chronology_transition(
     ]
 
 
+def _audit_requires_blind_chronology(manifest: Any) -> bool:
+    """Invalidation-only demotions do not create a new reconciliation decision."""
+    return not (
+        isinstance(manifest, dict)
+        and manifest.get("schema_version") == DERIVED_AUDIT_SCHEMA_VERSION
+        and isinstance(manifest.get("invalidated_by"), list)
+        and bool(manifest["invalidated_by"])
+    )
+
+
 def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[str]:
     errors: list[str] = []
     changed = _git_changed_paths(base, head, repo_root)
@@ -2811,12 +2854,16 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
                 errors.append(f"{relative}: {error}")
             if chronology_required:
                 try:
-                    schema = json.loads(audit_path.read_text(encoding="utf-8")).get(
-                        "schema_version"
+                    audit_manifest = json.loads(
+                        audit_path.read_text(encoding="utf-8")
                     )
+                    schema = audit_manifest.get("schema_version")
                 except (OSError, json.JSONDecodeError, AttributeError):
+                    audit_manifest = None
                     schema = None
-                if schema == DERIVED_AUDIT_SCHEMA_VERSION:
+                if not _audit_requires_blind_chronology(audit_manifest):
+                    chronology_errors = []
+                elif schema == DERIVED_AUDIT_SCHEMA_VERSION:
                     from generate_audit_manifest import validate_blind_chronology
 
                     chronology_errors = validate_blind_chronology(

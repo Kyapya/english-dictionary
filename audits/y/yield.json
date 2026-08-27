@@ -891,5 +891,32 @@
     ],
     "reviewed_at": "2026-08-26T13:12:37.169297Z",
     "blind_output_sha256": "d374c5d03e4d84d1305cd7cce8d852b41bda2af2552bf22febd3cefe1a5ad087"
-  }
+  },
+  "invalidated_by": [
+    "B1_term_not_in_example",
+    "B2_rationale_not_distinct",
+    "B2_rationale_not_grounded",
+    "B3_attribution_copy_pattern",
+    "B4_zero_finding_single_review"
+  ],
+  "review_liveness_errors": [
+    "B1_term_not_in_example: attribution example:001 has no discriminating term present in its example or translation",
+    "B1_term_not_in_example: attribution example:002 has no discriminating term present in its example or translation",
+    "B1_term_not_in_example: attribution example:003 has no discriminating term present in its example or translation",
+    "B1_term_not_in_example: attribution example:004 has no discriminating term present in its example or translation",
+    "B1_term_not_in_example: attribution example:005 has no discriminating term present in its example or translation",
+    "B1_term_not_in_example: 31 additional violations omitted",
+    "B2_rationale_not_distinct: example attribution rationales distinct ratio 0.028 is below 0.60",
+    "B2_rationale_not_distinct: final blind candidates distinct ratio 0.111 is below 0.60",
+    "B2_rationale_not_distinct: target_results distinct ratio 0.006 is below 0.60",
+    "B2_rationale_not_distinct: relation_results distinct ratio 0.009 is below 0.60",
+    "B2_rationale_not_grounded: attribution example:001 rationale contains neither an exact quote nor a valid discriminating term",
+    "B2_rationale_not_grounded: attribution example:002 rationale contains neither an exact quote nor a valid discriminating term",
+    "B2_rationale_not_grounded: attribution example:003 rationale contains neither an exact quote nor a valid discriminating term",
+    "B2_rationale_not_grounded: attribution example:004 rationale contains neither an exact quote nor a valid discriminating term",
+    "B2_rationale_not_grounded: attribution example:005 rationale contains neither an exact quote nor a valid discriminating term",
+    "B2_rationale_not_grounded: 323 additional violations omitted",
+    "B3_attribution_copy_pattern: discriminating term diversity does not exceed the sense count",
+    "B4_zero_finding_single_review: a zero-finding run requires second-model cold and example-attribution reviews"
+  ]
 }

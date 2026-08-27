@@ -961,7 +961,11 @@ def _canonical_audit_paths(repo_root: Path = REPO_ROOT) -> list[Path]:
         relative = path.relative_to(repo_root / "audits")
         if any(part in {"runs", "history"} for part in relative.parts):
             continue
-        if path.name in {"escaped_defect_taxonomy.json", "review_invalidations.json"}:
+        if path.name in {
+            "escaped_defect_taxonomy.json",
+            "escaped_defects.json",
+            "review_invalidations.json",
+        }:
             continue
         paths.append(path)
     return paths
@@ -1025,6 +1029,7 @@ def command_validate_changed(args: argparse.Namespace) -> int:
                 continue
             if Path(raw_path).name in {
                 "escaped_defect_taxonomy.json",
+                "escaped_defects.json",
                 "review_invalidations.json",
             }:
                 continue

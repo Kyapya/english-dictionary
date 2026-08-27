@@ -584,6 +584,34 @@ class ContentAuditTests(unittest.TestCase):
         )
         self.assertEqual(validate_invalidation_registry(self.root), [])
 
+    def test_run_liveness_invalidation_uses_registered_reason_ids(self) -> None:
+        entry = self.root / "entries" / "s" / "sample.md"
+        entry.parent.mkdir(parents=True, exist_ok=True)
+        entry.write_text(ENTRY_TEXT, encoding="utf-8")
+        run = self.root / "audits" / "runs" / "s" / "sample" / "run-1"
+        run.mkdir(parents=True)
+        registry = self.root / "audits" / "review_invalidations.json"
+        registry.write_text(
+            json.dumps(
+                {
+                    "schema_version": "review_invalidations_v1",
+                    "reason_catalog": {"B1_term_not_in_example": "test"},
+                    "invalidations": [
+                        {
+                            "run_id": "run-1",
+                            "entry_path": "entries/s/sample.md",
+                            "status": "invalidated_run",
+                            "invalidated_at": "2026-08-27T00:00:00+00:00",
+                            "invalidated_by": ["B1_term_not_in_example"],
+                            "reason": "Preserved negative regression.",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        self.assertEqual(validate_invalidation_registry(self.root), [])
+
     def test_missing_final_target_is_rejected(self) -> None:
         manifest = self._complete_manifest()
         manifest["final_review"]["target_results"].pop()  # type: ignore[index]
@@ -838,6 +866,21 @@ class ContentAuditTests(unittest.TestCase):
             self.audit, base, head, self.root
         )
         self.assertTrue(any("pre-reconciliation checkpoint" in error for error in errors))
+
+    def test_liveness_invalidation_demotion_does_not_claim_new_blind_chronology(self) -> None:
+        self.assertFalse(
+            content_audit._audit_requires_blind_chronology(
+                {
+                    "schema_version": content_audit.DERIVED_AUDIT_SCHEMA_VERSION,
+                    "invalidated_by": ["B1_term_not_in_example"],
+                }
+            )
+        )
+        self.assertTrue(
+            content_audit._audit_requires_blind_chronology(
+                {"schema_version": content_audit.DERIVED_AUDIT_SCHEMA_VERSION}
+            )
+        )
 
     def test_reconciliation_cannot_start_before_blind_output(self) -> None:
         manifest = self._complete_manifest()

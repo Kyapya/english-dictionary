@@ -1,6 +1,6 @@
 # English Dictionary
 
-英単語・短い英語フレーズの学習用辞書を、1見出し語1 Markdownで管理するリポジトリです。記事は `entries/`、進捗は `queue/words.csv`、レビュー原出力と派生監査は `audits/` に保存します。本文生成にOpenAI APIキーは不要です。
+英単語・短い英語フレーズの学習用辞書を、1見出し語1 Markdownで管理するリポジトリです。記事は `entries/`、進捗は `queue/words.csv`、レビュー原出力と派生監査は `audits/` に保存します。本文生成にOpenAI APIキーは不要です。独立レビュー段には、レビューAPI用のキーまたは別モデル・別セッションを使うhandoffモードが必要です。
 
 ## 1語の処理
 
@@ -10,6 +10,25 @@
 python scripts/run_word.py --dry-run <headword>
 python scripts/run_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
+```
+
+APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成された `handoff/<stage>.request.md` を別セッションへ渡します。応答を `handoff/<stage>.response.json` に保存後、次で取り込みます。
+
+APIレビューは、resume時に生成されるrequest JSONとdry-runに示されるpromptを `scripts/review_call.py` に渡します。通常は次の `--call-review` を使い、API応答の保存・検証、example-attributionの復元、7passの機械集約までをまとめて実行します。cold review / final blind のモデルは記事front matterの生成モデルと異なるものを既定とし、同一モデルを明示的に使う場合は出力provenanceへ `same_model_as_generation: true` が付きます。
+
+```bash
+python scripts/run_word.py --resume <workflow-run.json> --call-review
+```
+
+```bash
+python scripts/review_call.py <stage> <request.json> <prompt.md> \
+  --cycle-dir <audits/runs/.../cycle-id> --output <stage-output.json> \
+  --generation-model <generation-model>
+```
+
+```bash
+python scripts/run_word.py --resume <workflow-run.json> \
+  --ingest-review <stage> --declared-model <model-name>
 ```
 
 オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立cold review、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
@@ -36,9 +55,10 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 
 ## v6 checker
 
-通常チェックは12個の内容欠陥分類を6パスへ一意に割り当て、各パスへ必要なentry sectionだけを渡します。
+通常チェックは13個の内容欠陥分類を7パスへ一意に割り当て、各パスへ必要なentry sectionだけを渡します。
 
 - translation
+- example-attribution
 - sense-structure
 - frame-relation
 - qualification
@@ -68,6 +88,9 @@ python scripts/validate_repository.py
 python scripts/check_passes.py validate-router
 python scripts/migration_table.py validate
 python scripts/process_improvement.py validate
+python scripts/review_liveness.py regression \
+  audits/runs/y/yield/20260826T131200Z-yield02
+python scripts/queue_status.py escaped-by-stage
 ```
 
 Pull Requestでは `.github/workflows/validate.yml` が変更記事と監査の整合、workflow guard、source-first、semantic resolution、blind chronology、raw→manifest一致も検証します。`checked` / `final` の記事だけがNotion同期と完成版exportの対象です。
