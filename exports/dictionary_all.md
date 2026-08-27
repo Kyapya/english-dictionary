@@ -17354,6 +17354,521 @@ prompt の共通核は、反応・発話・行動などを内側にとどめず�
 
 ---
 
+# pursue
+
+---
+headword: pursue
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-5.6-luna-wm
+created_at: 2026-08-26
+updated_at: 2026-08-26
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /pərˈsuː/｜英: /pəˈsjuː/。2音節で、第2音節に主強勢がある。米語の第1音節は弱い r 色のある /pər/、英語は弱い /pə/。第2音節は米語が /suː/、英語が /sjuː/ で、英語では /s/ の後に弱い /j/ が入る。  
+三人称単数 pursues は米 /pərˈsuːz/・英 /pəˈsjuːz/、過去形・過去分詞 pursued は米 /pərˈsuːd/・英 /pəˈsjuːd/、-ing形 pursuing は米 /pərˈsuːɪŋ/・英 /pəˈsjuːɪŋ/。語末の /z/ は有声音の後なので /s/ ではなく /z/、-ed は /d/ と発音する。綴りでは pursue に -ing を付けると語末の e を落として pursuing となるが、pursued では e を残して pursued と綴る。  
+
+＃語源
+
+pursue は中英語を経て、アングロフランス語・古フランス語 pursure / pursiure から入った語で、ラテン語 prosequi「後から追う、追い続ける」にさかのぼる。pro-「前へ」＋sequi「従う、後を追う」という構成である。  
+「前へ進みながら対象の後を追う」という核から、物理的な追跡だけでなく、目標を追い求めること、計画・案件を続けて進めること、記憶や恐怖に追われることへ意味が広がった。  
+同じ sequi「追う・続く」の語根に関係する語として、sequence「連続、順序」、sequel「続編」、subsequent「その後の」などがある。これらは pursue の単純な接頭辞派生ではない。  
+
+＃語形成
+
+pursues は三人称単数現在形、pursued は過去形・過去分詞、pursuing は現在分詞・動名詞である。pursuing では pursue の語末の e を落とすが、発音は /ɪŋ/ を伴い、語末の音を単純に /ŋ/ へ縮めるわけではない。  
+pursuer は「追跡者、追求者」。物理的に追う人だけでなく、目標・地位・関係などを求める人にも使える。  
+pursuit は「追跡、追求、趣味・活動」。the pursuit of happiness のような抽象的な追求と、in hot pursuit のような物理的追跡の両方を表す。  
+pursuance は硬い名詞で「追求、遂行」。特に in pursuance of 〈規則・目的・法的手続き〉「～に従って、～を実現するために」という定型句で使われる。  
+pursuant は硬い形容詞で、pursuant to 〈規則・法律・契約〉「～に従って」という法律・公文書の表現を作る。  
+
+＃コアイメージ
+
+pursue の核は、対象の後を追いながら、前へ進み続けること。実際に走って追う場合から、時間をかけて目標・計画・案件を追い続ける場合、さらには不安や記憶に追われる場合まで、対象との関係を切らずに進み続ける感覚がある。  
+・人・動物・乗り物などの後を追い、捕まえようとする → 「追跡する・追いかける」（語義1）  
+・目標・夢・職業などを実現しようと、継続的に追い求める → 「追求する・目指す」（語義2）  
+・計画・方針・活動・案件などを続けて進める → 「進める・追及する」（語義3）  
+・道筋・方針・論理などをたどって進む → 「進路を取る・たどる」（語義4）  
+・人に恋愛・性的な関係を求めて働きかけ続ける → 「口説く・交際を求める」（語義5）  
+・記憶・恐怖・罪悪感などが人につきまとい続ける → 「苦しめ続ける・追い続ける」（語義6）  
+
+＃意味・用法・関連表現
+
+1. 【他動詞・追跡】人・動物・乗り物などを追跡する、追いかける
+
+【日本語訳・定義】人、動物、車などの後を追い、特に捕まえる、追い越す、倒すなどの目的で追跡する。実際の速度や距離を述べる場合にも、警察・報道・競技などの比喩的な追跡にも使う。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】一般語。犯罪報道、警察、スポーツ、狩猟、物語で特に多い。受け身の be pursued by 〈追跡者〉も非常に自然である。  
+
+【文法パターン】pursue 〈人・動物・乗り物〉＝～を追跡する／pursue 〈対象〉 through/across 〈場所〉＝場所を通って～を追跡する／〈対象〉 be pursued by 〈追跡者〉＝対象が～に追われる  
+
+【コロケーション】
+
+・pursue a suspect  
+用途: 警察などが容疑者を追跡することを表す。  
+例: Police pursued the suspect through several side streets.  
+訳: 警察は何本もの脇道を通って容疑者を追跡した。  
+
+・pursue a fleeing vehicle  
+用途: 逃走中の車両を追いかけることを表す。  
+例: Officers pursued the fleeing vehicle until it stopped near the bridge.  
+訳: 警官たちは逃走車両を橋の近くで止まるまで追跡した。  
+
+・be pursued by police  
+用途: 警察に追跡されている状態を表す。  
+例: The driver was pursued by police after ignoring the roadblock.  
+訳: その運転手は道路封鎖を無視した後、警察に追跡された。  
+
+・hotly pursue 〈逃げる動物・犯人〉  
+用途: 逃げる対象を激しく、執拗に追跡することを表す。  
+例: The dogs hotly pursued the fox across the field.  
+訳: その犬たちは野原を横切ってキツネを激しく追跡した。  
+
+・pursue prey  
+用途: 動物や狩猟者が獲物を追うことを表す。  
+例: The wolves pursued their prey across the frozen plain.  
+訳: オオカミたちは凍った平原を越えて獲物を追った。  
+
+【語法・注意】物理的な追跡では、pursue は対象を直接目的語に取り、pursue after とは通常言わない。chase は速く追いかける動作を日常的に表すのに対し、pursue は継続して追跡することや、報道・警察などの硬めの叙述に向く。人を pursue したからといって、必ず捕まえたことや追跡に成功したことまでは表さない。  
+
+【類義語】
+
+・chase  
+定義: 逃げる人・動物・物を捕まえようとして急いで追いかける。  
+頻度: 〈10/10〉  
+違い: chase は日常的で速度や追いかける動作を直接的に示す。pursue は継続的な追跡や硬い文体にも使いやすい。  
+例: The child chased the balloon down the street.  
+訳: その子どもは風船を追って通りを駆けていった。  
+
+・follow  
+定義: 人・物の後について行く、後をたどる。  
+頻度: 〈10/10〉  
+違い: follow は単に後をついて行くことも含み、捕まえる意図や追跡の圧力を必ずしも示さない。  
+例: A small boat followed the ferry into the harbor.  
+訳: 小さな船がフェリーの後について港へ入った。  
+
+・track  
+定義: 足跡・位置情報などを手掛かりに対象を追跡する。  
+頻度: 〈8/10〉  
+違い: track は痕跡や情報をたどって所在を突き止める方法に焦点がある。  
+例: Rangers tracked the injured animal through the forest.  
+訳: 森林監視員たちはけがをした動物を追跡した。  
+
+【反意語】
+
+・flee  
+定義: 危険や追跡から逃げる。  
+頻度: 〈7/10〉  
+違い: pursue が追う側の行動なのに対し、flee は追われる側が逃げることを表す。  
+例: The suspect fled before the officers reached the building.  
+訳: 容疑者は警官たちが建物に着く前に逃走した。  
+
+・evade  
+定義: 追跡・攻撃・責任などを巧みに避ける。  
+頻度: 〈8/10〉  
+違い: evade は追う側ではなく、追跡や捕捉を免れる側の意図的な回避に焦点がある。  
+例: The driver tried to evade the pursuing officers.  
+訳: その運転手は追跡してくる警官たちをかわそうとした。  
+
+2. 【他動詞・目標】目標・夢・職業などを追求する、目指す
+
+【日本語訳・定義】目標、夢、学位、職業、幸福などを実現・獲得しようとして、時間をかけて努力を続ける。単に欲しいと思うことではなく、目的に向けて行動していることに焦点がある。  
+
+【頻度】〈10/10〉  
+
+【レジスター/領域】一般語だがややフォーマル。進路、教育、仕事、自己実現、政策、評論で広く使う。  
+
+【文法パターン】pursue 〈goal/dream/aim〉＝目標・夢・目的を追求する／pursue 〈career/degree〉＝職業・学位を目指す／pursue 〈the goal of doing something〉＝～するという目標を追求する／pursue 〈happiness/knowledge〉＝幸福・知識を追い求める  
+
+【コロケーション】
+
+・pursue a goal  
+用途: 設定した目標の達成に向けて努力を続けることを表す。  
+例: The team is pursuing a goal of reducing waste by half.  
+訳: そのチームは廃棄物を半減させるという目標を追求している。  
+
+・pursue a dream  
+用途: 長期的な夢の実現を目指して努力することを表す。  
+例: She left her secure job to pursue her dream of becoming a chef.  
+訳: 彼女は料理人になる夢を追うため、安定した仕事を辞めた。  
+
+・pursue a career in 〈分野〉  
+用途: 特定分野を職業として目指すことを表す。  
+例: He moved to the city to pursue a career in environmental law.  
+訳: 彼は環境法の分野でのキャリアを目指して都会へ移った。  
+
+・pursue a degree  
+用途: 大学などで学位取得を目指して学ぶことを表す。  
+例: She is pursuing a degree in computer science while working full-time.  
+訳: 彼女はフルタイムで働きながら、コンピューターサイエンスの学位取得を目指している。  
+
+・pursue happiness/knowledge  
+用途: 幸福や知識のような抽象的な価値を追い求めることを表す。  
+例: Many people pursue happiness without defining what it means to them.  
+訳: 多くの人は、自分にとってそれが何を意味するかを定義しないまま幸福を追い求める。  
+
+【語法・注意】この語義の pursue は、対象の実現に向けて努力を継続する含みがあり、単なる希望や願望を表す want とは異なる。seek は見つける・得ることを目指す幅広い語、strive for は努力の強さを強調する語である。pursue の目的語には通常名詞句を置き、pursue to do something とは言わない。動作を表すなら pursue the goal of doing something、seek to do something、work to do something などにする。  
+
+【類義語】
+
+・seek  
+定義: 何かを得る、見つける、実現するために求める。  
+頻度: 〈9/10〉  
+違い: seek は目的達成に向けた探索・要求を広く表す。pursue は時間をかけて追い続ける過程に焦点が出やすい。  
+例: The researchers seek a reliable explanation for the result.  
+訳: 研究者たちはその結果について信頼できる説明を求めている。  
+
+・strive for  
+定義: 努力を重ねて目標を達成しようとする。  
+頻度: 〈7/10〉  
+違い: strive for は努力の熱心さや困難さを強く示す。pursue は努力の強さを必ずしも評価しない。  
+例: The organization strives for greater transparency.  
+訳: その組織はさらなる透明性の実現に努めている。  
+
+・work toward  
+定義: 目標の実現に向けて段階的に取り組む。  
+頻度: 〈8/10〉  
+違い: work toward は実務的な進行や途中の積み重ねに焦点がある。pursue は夢・幸福・学位などにも広く使える。  
+例: We are working toward a long-term solution.  
+訳: 私たちは長期的な解決策の実現に取り組んでいる。  
+
+【反意語】
+
+・abandon  
+定義: 目標・計画などを途中で捨てて、続けるのをやめる。  
+頻度: 〈8/10〉  
+違い: pursue が対象を追い続けるのに対し、abandon はその努力や計画を放棄することを表す。  
+例: The company abandoned its plan to expand overseas.  
+訳: その会社は海外進出計画を断念した。  
+
+・give up on  
+定義: 人・計画・目標が実現すると期待するのをやめる。  
+頻度: 〈8/10〉  
+違い: give up on は口語的で、達成の見込みを失って努力をやめることを強く示す。  
+例: She refused to give up on her dream.  
+訳: 彼女は夢を諦めようとしなかった。  
+
+3. 【他動詞・継続／案件】計画・方針・活動・案件などを続けて進める、追及する
+
+【日本語訳・定義】すでに選んだ計画、方針、研究、活動、問題、請求などに継続して関わり、さらに調べたり実行したりする。目標を新たに設定するというより、進行中の事柄を途中でやめずに進めることに焦点がある。法律用法では、claim、case、legal action などを手続きとして進める意味になる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語。ビジネス、研究、政策、法律、行政で特に多い。pursue legal action は「法的措置を取る・法的手続きを進める」で、必ず訴訟で勝つことまでは表さない。  
+
+【文法パターン】pursue 〈policy/strategy/course〉＝方針・戦略を進める／pursue 〈an interest/studies/research〉＝関心・学業・研究を続ける／pursue 〈a matter/claim/case〉＝問題・請求・案件を追及する／pursue legal action＝法的措置を進める／pursue 〈案件・活動〉 further＝～をさらに追及する  
+
+【コロケーション】
+
+・pursue a policy  
+用途: 採用した政策・方針を継続して実行することを表す。  
+例: The government continues to pursue a policy of gradual reform.  
+訳: 政府は段階的な改革方針を引き続き進めている。  
+
+・pursue an interest  
+用途: 興味や関心のある活動を継続して行うことを表す。  
+例: He pursued his interest in astronomy through evening classes.  
+訳: 彼は夜間講座を通して天文学への関心を深めた。  
+
+・pursue legal action  
+用途: 法的手続きや法的措置を進めることを表す。  
+例: The tenants are considering whether to pursue legal action.  
+訳: その入居者たちは法的措置を進めるかどうか検討している。  
+
+・pursue a claim  
+用途: 権利・賠償などの請求を手続きとして追及することを表す。  
+例: The customer decided to pursue a claim for compensation.  
+訳: その顧客は補償を請求する手続きを進めることにした。  
+
+・pursue the matter further  
+用途: 問題をさらに調べたり、交渉・手続きを続けたりすることを表す。  
+例: We need more evidence before we pursue the matter further.  
+訳: その問題をさらに追及する前に、私たちはより多くの証拠が必要だ。  
+
+【語法・注意】pursue a matter、pursue a claim は「対象を追いかける」という比喩から、案件を調べて手続きを進める意味になったもの。follow up は追加確認の行為に、carry out は計画を実行する行為に焦点がある。法律・行政文脈の pursue は、請求や訴訟を実際に進める意思・手続きへの関与を表すが、請求の正当性や結果を保証しない。  
+
+【類義語】
+
+・continue  
+定義: 中断せずに活動・状態を続ける。  
+頻度: 〈10/10〉  
+違い: continue は継続そのものを広く表す。pursue は対象を追いながら、目的や案件を前へ進める含みが強い。  
+例: The committee continued its review of the proposal.  
+訳: 委員会はその提案の検討を続けた。  
+
+・follow up  
+定義: 以前の連絡・問題・調査などを追加で確認し、先へ進める。  
+頻度: 〈8/10〉  
+違い: follow up は前段階を受けた追加対応に焦点があり、pursue は案件全体を継続して追及することを表せる。  
+例: The nurse followed up with the patient the next day.  
+訳: 看護師は翌日、その患者の様子を追加で確認した。  
+
+・carry out  
+定義: 計画・指示・約束などを実際に実行する。  
+頻度: 〈9/10〉  
+違い: carry out は実行・完遂に焦点があり、pursue は実行へ向かう継続的な追求や方針選択を表す。  
+例: The agency carried out a detailed review.  
+訳: その機関は詳細な検討を実施した。  
+
+【反意語】
+
+・drop  
+定義: 問題・計画・案件などをこれ以上扱うのをやめる。  
+頻度: 〈8/10〉  
+違い: drop は特に会話や報道で、追及・検討を打ち切ることを表す。  
+例: The newspaper dropped the investigation after finding no new evidence.  
+訳: その新聞は新しい証拠が見つからなかったため調査を打ち切った。  
+
+・discontinue  
+定義: 活動・サービス・手続きを正式に中止する。  
+頻度: 〈6/10〉  
+違い: discontinue は継続を制度的・正式に止める語で、pursue の継続と明確に対立する。  
+例: The company discontinued the program after two years.  
+訳: その会社は2年後にそのプログラムを中止した。  
+
+4. 【他動詞・進路／方針】道筋・進路・論理などをたどって進む
+
+【日本語訳・定義】船や人が特定の進路を取ること、または議論・調査・推論が特定の方向や筋道に沿って進むことを表す。目的を追求する語義2や案件を続ける語義3より、どの道筋をたどるかに焦点がある。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】やや硬い一般語。航海、文学、論文、議論、調査の説明で見られる。日常会話では take/follow a course、follow a line of reasoning のほうが普通である。  
+
+【文法パターン】pursue a course＝進路を取る／pursue a route＝経路をたどる／pursue a line of inquiry/reasoning＝調査・推論の筋道をたどる／pursue 〈方向〉＝その方向へ進む  
+
+【コロケーション】
+
+・pursue a northerly course  
+用途: 船などが北向きの航路を進むことを表す。  
+例: The vessel pursued a northerly course after leaving the island.  
+訳: その船は島を離れた後、北向きの進路を取った。  
+
+・pursue a course of action  
+用途: ある方針・行動方針を選び、その方向に進むことを表す。  
+例: The board chose to pursue a cautious course of action.  
+訳: 取締役会は慎重な行動方針を取ることを選んだ。  
+
+・pursue a line of inquiry  
+用途: 調査で特定の仮説や方向を追って検討することを表す。  
+例: The investigators pursued a new line of inquiry.  
+訳: 捜査官たちは新たな捜査の方向を追った。  
+
+・pursue a line of reasoning  
+用途: 議論や推論を特定の論理の流れに沿って展開することを表す。  
+例: The essay pursues a line of reasoning based on historical evidence.  
+訳: その論文は歴史的証拠に基づく論理の筋道に沿って論じている。  
+
+・pursue a route  
+用途: 計画・移動などで特定の経路を選び、その経路に沿って進むことを表す。  
+例: The expedition pursued a route along the western ridge.  
+訳: その探検隊は西側の尾根に沿う経路をたどった。  
+
+【語法・注意】この語義の pursue は「目標を追い求める」だけでなく、course、route、line などを目的語に取って「その筋道をたどる」と言う用法である。course of action は「行動方針」で、pursue legal action の action とは、方針を選ぶ意味と法的手続きを進める意味が異なる。  
+
+【類義語】
+
+・follow  
+定義: 道、方向、論理、指示などに沿って進む・たどる。  
+頻度: 〈10/10〉  
+違い: follow は最も普通の語で、pursue より日常的である。pursue は選んだ筋道を意識的に追う硬い響きを持つ。  
+例: The report follows a clear line of reasoning.  
+訳: その報告書は明確な論理の筋道に沿っている。  
+
+・take  
+定義: 道、進路、方針などを選んで進む。  
+頻度: 〈10/10〉  
+違い: take は選択に焦点があり、pursue は選んだ進路を実際にたどることに焦点がある。  
+例: The ship took a safer route around the island.  
+訳: その船は島を回るより安全な経路を取った。  
+
+・proceed along  
+定義: 道や方向に沿って先へ進む。  
+頻度: 〈6/10〉  
+違い: proceed along は物理的な進行を硬く表す。pursue は論理や調査の方向にも広げられる。  
+例: The hikers proceeded along the marked trail.  
+訳: ハイカーたちは標識のある道に沿って進んだ。  
+
+【反意語】
+
+・abandon  
+定義: 進めていた方針・計画・道筋を途中で捨てる。  
+頻度: 〈8/10〉  
+違い: pursue が一つの方向を追い続けるのに対し、abandon はその方向から手を引くことを表す。  
+例: The researchers abandoned that line of inquiry.  
+訳: 研究者たちはその調査の方向を捨てた。  
+
+・deviate from  
+定義: 道筋・基準・方針などから外れる。  
+頻度: 〈7/10〉  
+違い: deviate from は同じ方向をたどらず、予定された経路や基準からそれることを表す。  
+例: The driver deviated from the planned route.  
+訳: その運転手は予定された経路から外れた。  
+
+5. 【他動詞・恋愛】人に恋愛・性的な関係を求めて働きかけ続ける、口説く
+
+【日本語訳・定義】特定の人に恋愛関係や性的な関係を求め、繰り返し連絡したり誘ったりして働きかける。相手の関心を得ようとする中立的な記述にも、しつこく迫るという否定的な評価にも使われるため、文脈と受け手の意思に注意が必要である。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】一般語。恋愛、人間関係、報道、物語で使われる。人を目的語にする pursue は、文脈によっては望まれない執拗な接近を含む。  
+
+【文法パターン】pursue 〈人〉 romantically＝人に恋愛的に働きかける／pursue 〈a relationship〉＝関係を求める／〈人〉 be pursued by 〈相手〉＝人が相手から交際を求められる  
+
+【コロケーション】
+
+・pursue someone romantically  
+用途: 人に恋愛関係を求めて働きかけることを明示する。  
+例: He pursued her romantically even after she said she was not interested.  
+訳: 彼は彼女が興味がないと言った後も、恋愛目的で彼女に迫り続けた。  
+
+・pursue a relationship  
+用途: 特定の相手との恋愛関係を築こうとすることを表す。  
+例: She was unsure whether to pursue a relationship with her colleague.  
+訳: 彼女は同僚と交際を始めようとするべきか迷っていた。  
+
+・be actively pursued by 〈人〉  
+用途: 相手から積極的に交際や関心を求められている状態を表す。  
+例: She was actively pursued by a colleague who wanted to date her.  
+訳: 彼女は交際を望む同僚から積極的に言い寄られていた。  
+
+・pursue a love interest  
+用途: 好意を寄せる相手との関係を得ようとすることを表す。  
+例: The novel follows a young woman who pursues a love interest abroad.  
+訳: その小説は、海外にいる意中の人との関係を求める若い女性を描いている。  
+
+・pursue someone for months  
+用途: 恋愛関係を求めて、数か月にわたり相手に働きかけ続けることを表す。  
+例: He pursued her for months before she agreed to a date.  
+訳: 彼は彼女がデートに応じるまで、何か月も彼女にアプローチし続けた。  
+
+【語法・注意】恋愛の pursue は「付き合っている」ことを意味せず、関係を始めようとする側の継続的な働きかけを表す。相手が明確に拒否した後も続ける文脈では、しつこい・迷惑な含みが強くなる。人を追跡する語義1、恋愛関係を求める語義5、情報源や案件を追う語義3は、目的語と文脈で区別する。  
+
+【類義語】
+
+・court  
+定義: 結婚や恋愛を目的に、改まった形で相手に求愛する。  
+頻度: 〈5/10〉  
+違い: court は古風・改まった響きがあり、pursue より結婚を意識した求愛を示しやすい。  
+例: In the novel, the prince courted a wealthy merchant's daughter.  
+訳: その小説では、王子が裕福な商人の娘に求愛した。  
+
+・woo  
+定義: 熱心に働きかけて恋愛関係や支持を得ようとする。  
+頻度: 〈5/10〉  
+違い: woo は文学的な恋愛用法のほか、支持・顧客を得る比喩にも使える。  
+例: The candidate wooed undecided voters.  
+訳: その候補者は態度を決めていない有権者の支持を得ようとした。  
+
+・chase  
+定義: くだけて、相手を口説こうとしつこく追いかける。  
+頻度: 〈7/10〉  
+違い: chase は恋愛では軽く、または相手をしつこく追う否定的な響きが出やすい。pursue は文脈によって中立から否定的まで幅がある。  
+例: She was tired of being chased by strangers online.  
+訳: 彼女はオンラインで知らない人たちにしつこく言い寄られるのに疲れていた。  
+
+【反意語】
+
+・rebuff  
+定義: 求愛・申し出・接近をはっきり拒む。  
+頻度: 〈5/10〉  
+違い: pursue が接近する側の行為なのに対し、rebuff はその働きかけを拒む側の行為を表す。  
+例: She rebuffed his repeated invitations.  
+訳: 彼女は彼からの繰り返しの誘いをはねつけた。  
+
+・avoid  
+定義: 人との接触や関わりを意図的に避ける。  
+頻度: 〈9/10〉  
+違い: avoid は関係を求めて近づく pursue と反対に、相手との接触を避けることを表す。  
+例: He avoided contact after the uncomfortable conversation.  
+訳: 彼は気まずい会話の後、接触を避けた。  
+
+6. 【他動詞・比喩／文語】記憶・恐怖・罪悪感などが人につきまとう、苦しめ続ける
+
+【日本語訳・定義】記憶、恐怖、罪悪感、不運などが人の意識や生活から離れず、繰り返し苦しめる。通常は受け身の be pursued by 〈感情・記憶〉で使い、実際に対象を追いかける意味ではない。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】文語的・比喩的。文学、回想、心理描写、報道の評論などで使われ、日常会話では haunt、plague、be troubled by のほうが普通である。  
+
+【文法パターン】〈人〉 be pursued by 〈memory/fear/guilt〉＝人が記憶・恐怖・罪悪感に追われる／pursue 〈人〉 in dreams＝夢の中でも人につきまとう／〈人〉 be relentlessly pursued by 〈不安・不運〉＝人が不安・不運に執拗につきまとわれる  
+
+【コロケーション】
+
+・be pursued by memories  
+用途: 過去の記憶が何度も意識に戻り、人を苦しめることを表す。  
+例: She was pursued by memories of the accident for years.  
+訳: 彼女は何年もの間、事故の記憶に苦しめられた。  
+
+・be pursued by fear  
+用途: 恐怖が人から離れず、行動や意識を支配することを表す。  
+例: He was pursued by fear long after the danger had passed.  
+訳: 危険が去ったずっと後も、彼は恐怖に追われていた。  
+
+・be pursued by guilt  
+用途: 罪悪感が繰り返し人を苦しめることを表す。  
+例: The character is pursued by guilt over what he did.  
+訳: その登場人物は自分のしたことへの罪悪感に苦しめられている。  
+
+・be relentlessly pursued by 〈anxiety〉  
+用途: 不安などが執拗に人につきまとうことを強調する。  
+例: The witness was relentlessly pursued by anxiety before the trial.  
+訳: その証人は裁判を前に、執拗な不安に苦しめられた。  
+
+・pursue someone in dreams  
+用途: 記憶や恐怖が夢の中でも人につきまとうことを表す。  
+例: The memory of the accident continued to pursue him in his dreams.  
+訳: 事故の記憶は夢の中でも彼につきまとい続けた。  
+
+【語法・注意】この用法の主語は memory、fear、guilt、misfortune などで、受け身が特に自然である。haunt は記憶や場所などが長く心につきまとう語、plague は問題・病気・人が繰り返し苦しめる語で、pursue は「追い続ける」という比喩を残した文語的な響きがある。物理的な追跡義から、対象が人の後を離れず続くという関係だけを比喩的に引き継いでいる。  
+
+【類義語】
+
+・haunt  
+定義: 記憶・場所・考えなどが人の心につきまとい続ける。  
+頻度: 〈8/10〉  
+違い: haunt はこの比喩義で最も自然で、pursue より日常的にも使いやすい。  
+例: The memory of the failure still haunts him.  
+訳: 失敗の記憶は今も彼の心につきまとっている。  
+
+・plague  
+定義: 問題・病気・心配などが人や場所を繰り返し苦しめる。  
+頻度: 〈7/10〉  
+違い: plague は迷惑や苦痛を与え続ける影響に焦点があり、pursue の追跡イメージは弱い。  
+例: Supply shortages plagued the region throughout the winter.  
+訳: 供給不足が冬の間ずっとその地域を苦しめた。  
+
+・torment  
+定義: 強い精神的・身体的苦痛を与える。  
+頻度: 〈7/10〉  
+違い: torment は苦痛の強さを強調する。他方、pursue は苦痛の強さより、離れず追い続けることを表す。  
+例: Doubt tormented the witness before she spoke.  
+訳: 彼女が話す前、疑念がその証人を苦しめた。  
+
+【反意語】
+
+・comfort  
+定義: 苦痛・不安・悲しみを和らげ、安心させる。  
+頻度: 〈8/10〉  
+違い: pursue の比喩義が苦しみを続けさせるのに対し、comfort はその苦しみを和らげる働きを表す。  
+例: Her friends comforted her after the loss.  
+訳: 友人たちはその喪失の後、彼女を慰めた。  
+
+・be free from  
+定義: 苦痛・不安・問題などに悩まされていない。  
+頻度: 〈7/10〉  
+違い: be free from は追い続ける負担が存在しない状態を表す。  
+例: After treatment, he was finally free from constant pain.  
+訳: 治療後、彼はついに慢性的な痛みから解放された。
+
+---
+
 # assume
 
 ---
@@ -17795,3 +18310,714 @@ assume の共通核は、本来は外部にある事実・責任・役割・性�
 違い: `put on` は会話的で、短時間の態度・表情の演技を表しやすい。`assume` は文章語で、ある姿や身分を採用する感じがある。  
 例: He put on a serious expression when the camera turned toward him.  
 訳: カメラが彼に向くと、彼は真剣な表情を作った。
+
+---
+
+# genuine
+
+---
+headword: genuine
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-5.6-luna-wm
+created_at: 2026-08-27
+updated_at: 2026-08-27
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米・英: /ˈdʒenjuɪn/（音節を区切れば /ˈdʒen.ju.ɪn/）。3音節の JEN-yoo-in で、第1音節に主強勢がある。語末の `-ine` は `wine` のような /aɪn/ ではなく、弱い /ɪn/ と発音する。  
+米語の発音表記では、弱化と母音間の /w/ を反映して /ˈdʒen.jə.wən/ のように示されることもある。少数の話者に語末を強く /aɪn/ とする長年の変異も記録されるが、学習用には /ˈdʒenjuɪn/ を基本とする。  
+`genuinely` は /ˈdʒenjuɪnli/、`genuineness` は /ˈdʒenjuɪnnəs/ のように、原則として第1音節の強勢を保つ。  
+
+＃語源
+
+`genuine` は、ラテン語 `genuīnus`「生来の、自然な、本物の」に由来する。英語では16世紀末から17世紀前半にかけて定着し、初期には「生まれつきの、自然な、後から作られたものではない」という意味が中心だった。そこから「主張された由来から実際に出た」「見せかけではなく本心からの」「実際に存在する」へ意味が広がった。  
+語源資料には、`genuīnus` を `genu`「膝」と結びつけ、父が新生児を膝に乗せて父子関係を認める習慣に由来するとする説明と、`gignere`「生む、産み出す」と同じ語族に結びつける説明がある。前者の逸話を唯一の確定した語源として断定しない。  
+
+＃語形成
+
+`genuinely` — 副詞「本当に、心から、真に」。`genuinely useful`「本当に役立つ」、`genuinely care`「心から気にかける」、`genuinely surprised`「本当に驚いた」のように、形容詞・動詞・分詞を修飾する。  
+`genuineness` — 名詞「真正性、本物であること、真摯さ」。通常は不可算で、`the genuineness of the signature`「その署名の真正性」のように使う。`genuineity` とはしない。  
+`genuine article` — 「正真正銘の本物」という定着表現。語形成上の派生語ではなく、`genuine` と `article` の組み合わせが慣用化したものである。  
+
+＃コアイメージ
+
+`genuine` の核は、見かけ・名乗り・主張だけでなく、実際の由来・性質・気持ちがそれに対応していることである。何が対応するかによって、「偽物でない」「本心からの」「現実に存在する」という用法に分かれる。  
+・品物や署名の主張された由来が実際の由来と一致する → 「本物の、真正の」（語義1）  
+・感情や態度の見せ方が内面と一致する → 「本心からの、偽りのない」（語義2）  
+・問題、必要、機会などの主張された存在・価値が実際にある → 「現実の、実際の」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞・限定／叙述】本物の、真正の、偽造でない
+
+【日本語訳・定義】物、作品、文書、署名、製品などが、そうだとされている由来・作者・材質・身元を実際に持っており、偽物、模造品、偽造品ではないことを表す。単に「高価な」「古い」「見た目が本物らしい」という意味ではない。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語。美術品の鑑定、商取引、製品保証、文書確認、身元確認などで広く使う。日常会話では `real`、公式・鑑定の文脈では `authentic` が選ばれることもある。  
+
+【文法パターン】`a genuine 〈作品・文書・製品〉`＝本物の～／`be/look/appear/prove genuine`＝本物である・本物らしい・本物だと判明する／`verify/confirm that 〈物〉 is genuine`＝～が本物か確認する／`the genuine article`＝正真正銘の本物  
+
+【コロケーション】
+
+・`a genuine 〈painting/signature/document〉`  
+用途: 作品、署名、文書などが偽造・模造ではなく本物だと述べる。  
+例: The museum confirmed that the signature on the letter was genuine.  
+訳: その博物館は、手紙の署名が本物だと確認した。  
+
+・`genuine leather/gold/diamond`  
+用途: 人工素材や模造品ではなく、表示された材質そのものであることを表す。  
+例: The label says that the bag is made of genuine leather.  
+訳: その表示には、そのバッグが本革製だと書かれている。  
+
+・`a genuine 〈brand〉 product`  
+用途: ブランドの正規品であり、偽ブランド品ではないことを述べる。  
+例: The store guarantees that every item is a genuine manufacturer’s product.  
+訳: その店は、すべての商品がメーカーの正規品だと保証している。  
+
+・`the genuine article`  
+用途: 偽物や安価な代用品ではない、正真正銘の本物を強調する。  
+例: This watch is the genuine article, not a convincing copy.  
+訳: この時計は、よくできたコピー品ではなく正真正銘の本物だ。  
+
+・`verify/confirm that 〈item〉 is genuine`  
+用途: 鑑定や検査によって、物の真正性を確かめる。  
+例: An expert was hired to verify that the antique was genuine.  
+訳: その骨董品が本物か確認するため、専門家が雇われた。  
+
+・`distinguish a genuine 〈item〉 from a counterfeit`  
+用途: 本物と偽造品を見分けることを述べる。  
+例: The software helps customs officers distinguish genuine medicines from counterfeits.  
+訳: そのソフトウェアは、税関職員が本物の医薬品と偽造品を見分けるのに役立つ。  
+
+【語法・注意】`genuine` は名詞の前にも、`The document is genuine.` のように補語にも置ける。`genuine` であることは、由来や材質が主張どおりだという意味であり、合法、正規に取得された、品質が高いということまで保証しない。  
+
+`genuine` は必ずしも「最初に作られた原物」を意味しない。たとえば `a genuine replacement part` は、メーカーが後から製造した正規の交換部品でもよい。最初の一品・原版であることを強調する `original` とは焦点が異なる。人について `a genuine person` と言うと、身元が本物というより、通常は語義2の「誠実な人」を表す。  
+
+【類義語】
+
+・authentic  
+定義: 主張された由来・作者・様式に本当に基づく、本物の。  
+頻度: 〈8/10〉  
+違い: `authentic` は鑑定上の真正性に加え、原物に忠実な再現や文化的に本場らしいことにも使える。`genuine` は偽物・模造品でないことや実際の出所を直接強調する。  
+例: The gallery displayed an authentic portrait by the artist.  
+訳: その画廊は、その画家による本物の肖像画を展示した。  
+
+・real  
+定義: 偽物や想像上のものではなく、実在する本物の。  
+頻度: 〈10/10〉  
+違い: `real` は最も広く、存在・事実・程度にも使える。`genuine` は、表示や主張されたものと実際の由来・性質が一致するという焦点が強い。  
+例: Is this a real diamond or a piece of glass?  
+訳: これは本物のダイヤモンドですか、それともガラス片ですか。  
+
+・original  
+定義: コピーや模造品ではなく、最初の作品・原版そのものの。  
+頻度: 〈9/10〉  
+違い: `original` は「最初に作られたもの」「コピーの元」を示す。`genuine` は後から作られた正規品にも使えるため、両者は常に同じではない。  
+例: The archive keeps the original manuscript in a climate-controlled room.  
+訳: その文書館は原稿の原本を温度管理された部屋に保管している。  
+
+・bona fide  
+定義: 正真正銘の、正式な、善意に基づく本物の。  
+頻度: 〈5/10〉  
+違い: `bona fide` はやや硬く、「見せかけでない」「正式に認められる」「善意の」という含みが加わりやすい。`genuine` は材質や作者など物理的な真正性にも普通に使える。  
+例: The applicant is a bona fide member of the professional association.  
+訳: その申請者は、その専門職団体の正式な会員である。  
+
+【反意語】
+
+・fake  
+定義: 本物らしく見せた偽物の。  
+頻度: 〈10/10〉  
+違い: `fake` は日常語で、物にも署名・身分などの見せかけにも広く使う。`genuine` の反対側を最も普通に表す。  
+例: The necklace looked expensive, but the stones were fake.  
+訳: そのネックレスは高価に見えたが、石は偽物だった。  
+
+・counterfeit  
+定義: 本物をまねて不正に作った偽造品の。  
+頻度: 〈7/10〉  
+違い: `counterfeit` は通貨、ブランド品、薬などを本物に見せるための組織的・意図的な偽造に焦点がある。`fake` より硬く具体的である。  
+例: Customs officers seized a shipment of counterfeit watches.  
+訳: 税関職員は偽造時計の積み荷を押収した。  
+
+・forged  
+定義: 署名、文書、証明書などが偽造された。  
+頻度: 〈6/10〉  
+違い: `forged` は人の署名や公式文書を不正に作った場合に特に使う。`counterfeit` は物品や通貨の偽造にも使う。  
+例: The bank rejected the forged check.  
+訳: その銀行は偽造小切手を受け付けなかった。  
+
+・spurious  
+定義: 本物・正当な由来があるように見せかけた、にせの。  
+頻度: 〈4/10〉  
+違い: `spurious` は硬い文章語で、主張、理由、系統、文書などの真正性・正当性を疑うときに使う。`genuine` より評価的である。  
+例: The study was based on a spurious historical document.  
+訳: その研究は、偽の歴史文書に基づいていた。  
+
+2. 【形容詞・限定／叙述】本心からの、偽りのない、誠実な
+
+【日本語訳・定義】感情、関心、謝罪、態度、言葉などが実際に感じたり意図したりしたものに基づき、相手を欺くための演技ではないことを表す。人を主語にすると、身分や外見ではなく、他人への接し方や言動が率直で気取らないという肯定的な評価になる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準語。会話、人物描写、対人関係、謝罪や広報の評価で広く使う。`genuine person` は「誠実で気取らない人」という褒め言葉になりやすいが、この形容詞だけで、その人の全発言が事実だとか、常に善良だということまで保証しない。  
+
+【文法パターン】`genuine + 〈感情・関心・謝罪・態度〉`＝本心からの～／`a genuine attempt/desire to 〈動詞〉`＝心からの～する試み・願望／`be/seem/sound genuine`＝本心からのように見える・聞こえる／`a genuine person`＝誠実で気取らない人  
+
+【コロケーション】
+
+・`genuine concern for 〈人・集団〉`  
+用途: ある人や集団の welfare を本心から気にかけていることを表す。  
+例: He showed genuine concern for the families displaced by the flood.  
+訳: 彼は洪水で住む場所を失った家族を本心から心配していた。  
+
+・`genuine interest in 〈分野・活動〉`  
+用途: 評判や利益のためではなく、実際に関心を持っていることを表す。  
+例: She has a genuine interest in astronomy, not just in the job title.  
+訳: 彼女はその職名にではなく、天文学そのものに本当の関心を持っている。  
+
+・`a genuine apology`  
+用途: 形だけでなく、悪かったという気持ちを伴う謝罪を表す。  
+例: His genuine apology helped the two colleagues start talking again.  
+訳: 彼の心からの謝罪が、2人の同僚が再び話し始める助けになった。  
+
+・`genuine surprise/joy/affection`  
+用途: 演技ではなく、実際に感じている驚き、喜び、愛情を表す。  
+例: Her genuine surprise was obvious when the lights came on.  
+訳: 明かりがついたとき、彼女が本当に驚いていることは明らかだった。  
+
+・`a genuine attempt/desire to 〈動詞〉`  
+用途: 成功や称賛を装うためでなく、本当に実現しようとする試み・願望を表す。  
+例: They made a genuine attempt to repair the relationship, even when no one was watching.  
+訳: 誰も見ていないときでさえ、彼らはその関係を修復しようと心から努力した。  
+
+・`a genuine person`  
+用途: 人付き合いで気取った演技をせず、率直で誠実な人を表す。  
+例: Maya is a genuine person who speaks the same way to everyone.  
+訳: マヤは誰に対しても同じように話す、誠実で気取らない人だ。  
+
+【語法・注意】感情や態度についての `genuine` は「実際にそう感じている」「見せかけではない」という意味で、`sincere` と近い。`genuine` はその人の自然で気取らない人柄にも使えるが、`sincere` は発言・約束・謝罪などが本心を表すことに焦点を置きやすい。  
+
+`genuine concern` のように、語義2と語義3の両方に読める組み合わせがある。`genuine concern for the families` は本心からの心配という感情に焦点があり、`a genuine concern about water contamination` は実際に存在する懸念・問題という読みが強い。語彙的にどちらか一方へ固定されるとは限らないため、例文では対象や理由を明示する。  
+
+【類義語】
+
+・sincere  
+定義: 感情、言葉、意図が本心から出た、誠実な。  
+頻度: 〈9/10〉  
+違い: `sincere` は謝罪、感謝、願い、約束などの内面と発言の一致を強調する。`genuine` は人柄の気取らなさや感情の自然さにも使える。  
+例: Please accept my sincere thanks for your help.  
+訳: ご支援に対する心からの感謝を受け取ってください。  
+
+・heartfelt  
+定義: 強い本心から出た、心のこもった。  
+頻度: 〈6/10〉  
+違い: `heartfelt` は感情の深さや温かさを強く示し、感謝・同情・謝罪などに向く。`genuine` は感情が本物かどうかをより中立に述べる。  
+例: The family received heartfelt messages from the community.  
+訳: その家族は地域の人々から心のこもったメッセージを受け取った。  
+
+・unfeigned  
+定義: 偽りや演技のない、真の。  
+頻度: 〈3/10〉  
+違い: `unfeigned` は硬く文語的で、「見せかけではない」という否定の形で本心を強調する。`genuine` の方が一般的である。  
+例: She expressed unfeigned admiration for her former teacher.  
+訳: 彼女はかつての教師への偽りのない称賛を表した。  
+
+・unaffected  
+定義: 気取りや作為のない、自然な。  
+頻度: 〈6/10〉  
+違い: `unaffected` は話し方や振る舞いが自然で、他人によく見せようと気取っていないことに焦点がある。`genuine` は感情や誠実さそのものにも使う。  
+例: The actor’s unaffected manner made the interview comfortable.  
+訳: その俳優の気取らない態度が、インタビューを和やかにした。  
+
+・honest  
+定義: 嘘やごまかしを避け、真実を述べる、誠実な。  
+頻度: 〈10/10〉  
+違い: `honest` は真実を語る道徳的性質に焦点があり、内面の感情が本物かどうかを直接表すとは限らない。`genuine` は本心・自然さの評価を含む。  
+例: I appreciate your honest opinion about the proposal.  
+訳: その提案について率直な意見を聞かせてくれてありがたい。  
+
+【反意語】
+
+・insincere  
+定義: 本心からではなく、誠実さを欠いた。  
+頻度: 〈6/10〉  
+違い: `insincere` は言葉、謝罪、感謝、関心などが本心を表していないことを直接示す。`genuine` の明確な反対語である。  
+例: His compliment sounded insincere, so she changed the subject.  
+訳: 彼の褒め言葉は心からのものに聞こえなかったので、彼女は話題を変えた。  
+
+・feigned  
+定義: 感情や態度を本当はそうでないのに装った。  
+頻度: 〈5/10〉  
+違い: `feigned` は意図的な演技・偽装を強く示し、驚き、病気、無関心などに使う。`genuine` はその反対に実際の感情を示す。  
+例: He offered a feigned apology to avoid a formal complaint.  
+訳: 彼は正式な苦情を避けるため、形だけの謝罪をした。  
+
+・artificial  
+定義: 自然に生じたものではなく、作為的で不自然な。  
+頻度: 〈8/10〉  
+違い: `artificial` は態度、笑顔、会話などが不自然に作られていることを表す。`genuine` よりも「自然さ」との対立が前面に出る。  
+例: Her artificial smile disappeared as soon as the camera was turned off.  
+訳: カメラが切られると、彼女の作り笑いはすぐに消えた。  
+
+・affected  
+定義: 気取った、わざとらしい、自然でない。  
+頻度: 〈5/10〉  
+違い: `affected` は上品さや知性を過度に演出するような、気取った振る舞いを批判する語である。`genuine` は気取らない人柄を肯定的に評価する。  
+例: His affected accent sounded unnatural to the local audience.  
+訳: 彼の気取った訛りは地元の聴衆には不自然に聞こえた。  
+
+3. 【形容詞・限定／叙述】現実の、実際の、真の、見せかけでない
+
+【日本語訳・定義】問題、必要、理由、機会、危険、改善、需要、候補などが名目だけのものや想像上のものではなく、実際に存在し、起きており、またはそう扱うだけの実質を持つことを表す。大きい、深刻だ、成功が確実だという意味を必ずしも含まない。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】標準語。報道、ビジネス、政策、議論、評価、日常の問題説明で使う。`real` より少し「見せかけではない」という評価が明確で、`actual` よりも「主張どおりの実質がある」という含みを持ちやすい。  
+
+【文法パターン】`a genuine 〈problem/need/reason〉`＝現実の～／`a genuine 〈opportunity/chance/risk〉`＝実際の～／`genuine improvement/progress/demand`＝実質的な改善・進展・需要／`a genuine contender for 〈title/position〉`＝本当に有力候補となりうる者／`a genuine possibility`＝現実的な可能性  
+
+【コロケーション】
+
+・`a genuine problem`  
+用途: 名目上ではなく、実際に影響や支障を生じさせている問題を表す。  
+例: The delay is a genuine problem because it affects every scheduled delivery.  
+訳: その遅延は予定されたすべての配送に影響するため、現実の問題である。  
+
+・`a genuine need for 〈service/support〉`  
+用途: 実際にそのサービスや支援を必要とする状況を表す。  
+例: The charity has a genuine need for trained volunteers this summer.  
+訳: その慈善団体には、この夏、訓練を受けたボランティアが実際に必要である。  
+
+・`a genuine opportunity to 〈動詞〉`  
+用途: 名目だけでなく、実際に何かをする機会があることを表す。  
+例: The internship offers a genuine opportunity to work with the research team.  
+訳: そのインターンシップには、研究チームと実際に働く機会がある。  
+
+・`genuine improvement/progress`  
+用途: 表面的な変更ではなく、実際に状態がよくなったことや進展したことを表す。  
+例: The software update brought a genuine improvement in battery life, not just a new icon.  
+訳: そのソフトウェア更新は新しいアイコンを加えただけでなく、バッテリー持続時間を実際に改善した。  
+
+・`genuine demand for 〈product/service〉`  
+用途: 一時的な宣伝や予測ではなく、実際に存在する需要を表す。  
+例: There is genuine demand for smaller apartments near the station.  
+訳: 駅の近くのより小さなアパートには、実際の需要がある。  
+
+・`a genuine contender for 〈title/position〉`  
+用途: 優勝者・就任者になる可能性を現実に持つ候補を表す。  
+例: She is a genuine contender for the title, although she is not the favorite.  
+訳: 彼女は本命ではないものの、そのタイトルを争える現実的な候補だ。  
+
+・`a genuine reason for 〈action〉`  
+用途: 作り話や口実ではなく、実際に存在する理由を表す。  
+例: He had a genuine reason for leaving early, but he should have told his manager.  
+訳: 彼には早く帰る本当の理由があったが、上司には伝えるべきだった。  
+
+【語法・注意】この語義の `genuine` は、問題や必要などが現実に存在することを表すが、それが重大、合法、正当、成功確実であることまでは意味しない。`a genuine reason` は「実際に存在する理由」であって、規則上必ず認められる `a valid reason` と同じではない。`a genuine contender` も「本当に候補として争える」という意味で、勝利を保証しない。  
+
+`real` は存在・事実・程度を広く表し、`actual` は想定や予定ではなく現実に起きたことを示す。`genuine` は、表示・説明・名目に対応する実質があることを強調する。`genuine concern`、`genuine interest` は語義2の「本心からの」と語義3の「実際の」の境界が文脈で揺れるため、感情を表すのか、現実の問題・需要を表すのかを確認する。  
+
+【類義語】
+
+・real  
+定義: 想像、見せかけ、虚偽ではなく、実際に存在する、起きている。  
+頻度: 〈10/10〉  
+違い: `real` は最も広く、物、感情、問題、事実、程度に使える。`genuine` は名目や主張に対応する実質があるという点をより強く示す。  
+例: The threat is real, even if it is unlikely to happen this year.  
+訳: 今年起きる可能性が低くても、その脅威は現実のものだ。  
+
+・actual  
+定義: 想定・予定・推測ではなく、現実に存在する、起きた。  
+頻度: 〈9/10〉  
+違い: `actual` は予想値・仮定との対比に焦点があり、感情的な「本物らしさ」や誠実さは含まない。`genuine` は見せかけでないことを評価する。  
+例: The actual cost was higher than the estimate.  
+訳: 実際の費用は見積もりより高かった。  
+
+・true  
+定義: 事実や現実と一致していて、誤りでない。  
+頻度: 〈10/10〉  
+違い: `true` は命題・説明・記述の正しさに焦点があり、`genuine` は物・由来・問題・感情が本物であることに向く。  
+例: The report gives a true account of what happened.  
+訳: その報告書は起きたことを正確に記述している。  
+
+・legitimate  
+定義: 法律、規則、社会的基準などに照らして正当で、認められる。  
+頻度: 〈7/10〉  
+違い: `legitimate` は適法性・正当性・正式な資格に焦点があり、物理的に本物か、感情が本心かは別問題である。`genuine` は合法性を含意しない。  
+例: The residents raised a legitimate concern about the construction plan.  
+訳: 住民はその建設計画について正当な懸念を示した。  
+
+・bona fide  
+定義: 実在し、名目だけでなく正式なものとして認められる。  
+頻度: 〈5/10〉  
+違い: `bona fide` は硬く、正式性・善意・実在性の組み合わせを表しやすい。`genuine` は抽象的な問題や改善にも自然に使える。  
+例: The program is open to bona fide applicants with relevant experience.  
+訳: そのプログラムは関連経験を持つ正式な応募者に開かれている。  
+
+【反意語】
+
+・false  
+定義: 事実や現実と一致しない、誤った、偽の。  
+頻度: 〈10/10〉  
+違い: `false` は命題、理由、印象、主張などが真実でないことを広く表し、`genuine` の「実際にそうである」と対立する。  
+例: The advertisement made a false claim about the product’s safety.  
+訳: その広告は製品の安全性について虚偽の主張をした。  
+
+・imaginary  
+定義: 現実には存在せず、想像上の。  
+頻度: 〈7/10〉  
+違い: `imaginary` は想像の産物であることに焦点があり、意図的な詐欺を必ずしも含まない。`genuine` は現実に存在することを示す。  
+例: The child’s imaginary friend seemed completely real to her.  
+訳: その子どもには、想像上の友達が完全に現実のように感じられた。  
+
+・nominal  
+定義: 名称や形式だけの、実質を伴わない。  
+頻度: 〈5/10〉  
+違い: `nominal` は肩書き・金額・役割などが名目上は存在するが、実質が小さいことを表す。`genuine` は名目に対応する実質があることを示す。  
+例: The nominal increase did little to improve living conditions.  
+訳: その名目上の増額は、生活条件の改善にはほとんど役立たなかった。  
+
+・fictitious  
+定義: 事実ではなく、作り上げられた架空の。  
+頻度: 〈5/10〉  
+違い: `fictitious` は名前、人物、理由、取引などが意図的または創作によって作られたことを示す。`imaginary` より公式・法律・事務の文脈に向く。  
+例: The company was registered under a fictitious name.  
+訳: その会社は架空の名前で登録されていた。  
+
+・illusory  
+定義: 実際にはないのに、あるように見える、幻想的な。  
+頻度: 〈4/10〉  
+違い: `illusory` は見かけと現実の食い違いを硬く表し、機会、利益、安全などに使う。`genuine` は見せかけでなく実質があることを表す。  
+例: The promise of effortless success proved illusory.  
+訳: 努力なしで成功できるという約束は、幻想にすぎないと分かった。
+
+---
+
+# conservation
+
+---
+headword: conservation
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-5.6-luna-wm
+created_at: 2026-08-27
+updated_at: 2026-08-27
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米: /ˌkɑːnsərˈveɪʃən/、英: /ˌkɒnsəˈveɪʃən/。4音節で、主強勢は第3音節の `-va-` /veɪ/、第1音節に弱い副強勢がある。語末の `-tion` は /ʃən/ と発音する。  
+`conservation` の `-serva-` は、`conversation` の `-versa-` /vɜːrsə/ とつづりも音も異なる。前者は /ˌkɑːnsərˈveɪʃən/、後者は米音で /ˌkɑːnvərˈseɪʃən/ となる。  
+`conservationist` は /ˌkɑːnsərˈveɪʃənɪst/（米）で、基本的に `conservation` と同じ主強勢を保つ。  
+
+＃語源
+
+`conservation` は中英語 `conservacioun`、古フランス語 `conservation` を経て、ラテン語 `conservatio`「保存、保全」に由来する。ラテン語 `conservare`「保つ、損なわないようにする」にさかのぼり、英語では「失われたり損なわれたりしないように保つこと」を中心に意味を発達させた。  
+現代英語では、自然資源を使いながら将来の損失を防ぐ保全、文化財の材料と価値を守る専門的保存、変化の前後で物理量の総量を保つ保存則へと用法が分かれる。物理学の用法は、日常的な「節約」から直接導かれたというより、「総量を失わせず保つ」という共通の概念を技術用語として用いるものである。  
+
+＃語形成
+
+`conserve` — 動詞「保全する、節約する、保存する」。`conserve water`「水を節約する」、`conserve a historic building`「歴史的建造物を保存する」のように、対象を直接目的語に取る。  
+`conservationist` — 名詞「自然保護活動家、保全論者」。自然環境や資源の保護を支持・実践する人を指し、文化財保存の専門家を通常この語で呼ぶわけではない。  
+`conservator` — 名詞「保存修復専門家、保全担当者」。特に美術品・文化財の調査、処置、予防的保存を行う専門家を指す。文脈によっては、資産や組織を管理・保全する人も指す。  
+`conservancy` — 名詞「保全団体、保全区域、保全活動」。`a land conservancy`「土地保全団体」、`river conservancy`「河川保全活動」のように、組織や制度を指すことが多い。  
+`conservational` — 形容詞「保全の、保存に関する」。一般会話では頻度が低く、専門的・制度的な文脈で使う。  
+`conserved quantity` — 物理学で「保存量」。系の条件のもとで総量が一定に保たれる物理量を指す。  
+
+＃コアイメージ
+
+`conservation` の核は、資源・物・価値・総量などを、損失や望ましくない変化から守って保つことである。何を保つかによって、環境・文化財の実践的な「保全」と、物理学の「総量が変わらない」という専門用法に分かれる。  
+・自然資源や環境を使い尽くしたり損なったりしないように保つ → 「保全、環境保護、節約」（語義1）  
+・作品や文化財の材料・情報・価値を損なわずに将来へ保つ → 「保存、保全、保存修復」（語義2）  
+・系の物理量の総量を変化や変換の前後で保つ → 「保存則、保存」（語義3）  
+
+＃意味・用法・関連表現
+
+1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約
+
+【日本語訳・定義】水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、計画的・慎重に利用し管理すること。利用を一切禁止することではなく、将来も利用できる状態を保つことに重点がある。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準語。環境政策、資源管理、科学教育、行政、報道、日常の節電・節水の説明で広く使う。対象が自然環境ではなく、文化財や美術品なら通常は語義2、物理量の総量なら語義3である。  
+
+【文法パターン】`conservation of 〈natural resource〉`＝～の保全／`wildlife/forest/marine conservation`＝野生生物・森林・海洋の保全／`energy/water conservation`＝省エネルギー・節水／`conservation efforts/measures`＝保全の取り組み・対策／`promote/support conservation`＝保全を促進・支援する  
+
+【コロケーション】
+
+・`conservation of 〈natural resource〉`  
+用途: 水、森林、土壌などの自然資源を、使い切ったり損なったりしないよう管理することを表す。  
+例: The region introduced strict conservation of groundwater after several dry years.  
+訳: その地域は数年続いた干ばつの後、地下水の厳格な保全を導入した。  
+
+・`wildlife conservation`  
+用途: 野生動物、その生息地、個体群を保護・管理する活動を表す。  
+例: Wildlife conservation depends on protecting habitats as well as individual animals.  
+訳: 野生生物の保全には、個々の動物だけでなく生息地を守ることも必要である。  
+
+・`energy conservation`  
+用途: エネルギーの使用量や浪費を減らし、限られた資源を効率よく使うことを表す。  
+例: The school installed motion sensors as part of its energy conservation program.  
+訳: その学校は省エネルギー計画の一環として人感センサーを設置した。  
+
+・`water conservation`  
+用途: 水の使用を抑え、供給源を将来の需要のために維持することを表す。  
+例: Rain barrels were provided to residents as a water conservation measure.  
+訳: 節水対策として、住民に雨水貯留タンクが配られた。  
+
+・`conservation efforts/measures`  
+用途: 自然環境や資源を守るための具体的な努力・政策・対策をまとめて表す。  
+例: The new conservation measures reduced logging in the protected forest.  
+訳: 新しい保全対策によって、保護林での伐採が減った。  
+
+・`marine conservation`  
+用途: 海洋の生態系、魚類、沿岸環境を保護・管理する活動を表す。  
+例: The research station funds marine conservation around the coral reef.  
+訳: その研究所はサンゴ礁周辺の海洋保全に資金を提供している。  
+
+【語法・注意】この語義では通常不可算で、`a conservation` とは言わず、`conservation of water`、`conservation efforts` のように使う。`conservation` は「使わないこと」だけでなく、使用量を管理し、損失や破壊を防ぐことを含む。  
+
+`preservation` は対象を変化させずに残すことに焦点が置かれやすく、`conservation` は利用や管理を伴いながら資源・環境を長期的に保つ含みがある。`sustainability` は環境、経済、社会の仕組みを将来も維持できることに焦点があり、`conservation` と重なるが同義ではない。  
+`energy conservation` は語義1なら電力使用を減らす対策を指すが、`the conservation of energy`、`a conservation law`、`an isolated system` と結びつけば通常は語義3の物理学用法である。  
+
+【類義語】
+
+・preservation  
+定義: 損傷、変化、消失から守り、元の状態に近いまま残すこと。  
+頻度: 〈8/10〉  
+違い: `preservation` は変化を避けて現状を保つ焦点が強い。`conservation` は、自然資源を管理しながら使うことや、文化財を処置して安定させることも含む。  
+例: The preservation of the wetland prevents developers from draining it.  
+訳: その湿地の保存・保全は、開発業者が排水してしまうのを防ぐ。  
+
+・protection  
+定義: 危険、損害、攻撃などから守ること。  
+頻度: 〈10/10〉  
+違い: `protection` は脅威から守るという広い語で、資源を計画的に利用し続ける管理や、総量を保つ技術概念までは必ずしも含まない。  
+例: The law provides protection for nesting birds during the breeding season.  
+訳: その法律は繁殖期の営巣する鳥を保護する。  
+
+・stewardship  
+定義: 預かった土地、資源、環境を責任を持って管理すること。  
+頻度: 〈5/10〉  
+違い: `stewardship` は管理者の責任や倫理を強調する。`conservation` はその責任から行う具体的な保全活動や政策を指しやすい。  
+例: Good stewardship of the forest requires both careful harvesting and replanting.  
+訳: 森林を適切に管理するには、慎重な伐採と再植林の両方が必要である。  
+
+・sustainable management  
+定義: 将来の利用可能性を損なわないよう、資源や活動を管理すること。  
+頻度: 〈5/10〉  
+違い: `sustainable management` は将来も成り立つ利用水準や仕組みを明示する複合表現である。`conservation` は保護・損失防止に重点があり、持続可能性全体を必ずしも論じない。  
+例: Sustainable management of the fishery limits the annual catch.  
+訳: その漁業の持続可能な管理は年間漁獲量を制限している。  
+
+【反意語】
+
+・exploitation  
+定義: 資源や環境を利益のために強く利用し、しばしば限界まで消費すること。  
+頻度: 〈7/10〉  
+違い: `exploitation` は利用そのものを指すが、過剰利用や搾取という否定的な含みを持ちやすい。`conservation` は長期的な損失を避ける管理に焦点がある。  
+例: Uncontrolled exploitation of the forest has reduced the river’s water quality.  
+訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  
+
+・depletion  
+定義: 資源や蓄えが使われて減少し、ほとんど残らなくなること。  
+頻度: 〈6/10〉  
+違い: `depletion` は保全に失敗した結果としての量の減少を表す。故意の利用だけでなく、自然な消耗にも使える。  
+例: The depletion of the aquifer forced farmers to reduce irrigation.  
+訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  
+
+・waste  
+定義: 役立つ資源を不注意に、または必要以上に使うこと。  
+頻度: 〈9/10〉  
+違い: `waste` は個々の行動や使用の浪費を指す日常語で、自然環境全体の計画的な管理を表す `conservation` より狭い。  
+例: Leaving the tap running is an unnecessary waste of water.  
+訳: 蛇口を出しっぱなしにするのは、水の不必要な浪費である。  
+
+2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復
+
+【日本語訳・定義】絵画、彫刻、文書、遺跡、歴史的建造物などの文化遺産を、劣化や損傷から守り、その材料、情報、価値を将来へ引き継ぐ専門的な実践・工程。調査、記録、処置、予防的な環境管理を含み、常に元の外観へ作り直すことを意味しない。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】専門語・標準語。美術館、文書館、図書館、文化財行政、建築保存、博物館学で使う。米国英語では `art conservation`、`heritage conservation`、`architectural conservation` などの形が多い。自然環境の保全なら語義1である。  
+
+【文法パターン】`conservation of 〈artwork/manuscript/building〉`＝～の保存修復／`art/heritage conservation`＝美術品・文化遺産の保存／`conservation treatment`＝保存修復処置／`conservation work`＝保存修復作業／`a conservation laboratory`＝保存修復研究室／`conservation and restoration`＝保存修復と復元  
+
+【コロケーション】
+
+・`conservation of 〈artwork〉`  
+用途: 絵画、彫刻、工芸品などを調査・処置して安定した状態に保つことを表す。  
+例: The conservation of the oil painting took six months because the canvas was fragile.  
+訳: その油彩画はキャンバスがもろかったため、保存修復に6か月かかった。  
+
+・`art/heritage conservation`  
+用途: 美術作品や文化遺産を対象とする専門分野・活動を表す。  
+例: She studied heritage conservation before joining the national museum.  
+訳: 彼女は国立博物館に入る前に文化遺産保存を学んだ。  
+
+・`conservation treatment`  
+用途: 専門家が作品や資料に施す具体的な保存修復処置を表す。  
+例: The conservator recommended a gentle conservation treatment for the cracked varnish.  
+訳: 保存修復家は、ひびの入ったニスに穏やかな保存修復処置を勧めた。  
+
+・`conservation work`  
+用途: 文化財の安定化、清掃、補修、記録などの保存修復作業をまとめて表す。  
+例: Conservation work on the medieval manuscript revealed ink beneath a later repair.  
+訳: その中世写本の保存修復作業によって、後世の補修の下にあるインクが明らかになった。  
+
+・`conservation of historic buildings`  
+用途: 歴史的建造物の材料、構造、特徴を調べ、損傷を抑えて維持することを表す。  
+例: The conservation of historic buildings must respect evidence of their earlier alterations.  
+訳: 歴史的建造物の保存では、過去の改変の証拠を尊重しなければならない。  
+
+・`a conservation laboratory`  
+用途: 美術品・文化財の材料分析、状態確認、処置を行う施設を表す。  
+例: The museum’s conservation laboratory monitors humidity around the wooden sculpture.  
+訳: その博物館の保存修復研究室は、木彫像の周囲の湿度を監視している。  
+
+【語法・注意】この語義の `conservation` は通常不可算で、専門家が対象を記録・安定化・処置しながら残すことを指す。`conservation` と `restoration` は重なるが、`restoration` は過去の状態や外観を再現することに焦点が置かれやすい。保存修復では、後から加えた部分を隠さず、現存する材料と将来の研究可能性を尊重する場合がある。  
+
+専門家は `conservator`、保存修復を行う部門は `conservation department` や `conservation laboratory` と呼ぶ。自然環境を守る活動を指す `environmental conservation` と、文化財を扱う `art conservation` は対象が異なるため、形容詞や目的語を確認する。  
+
+【類義語】
+
+・preservation  
+定義: 文化財や記録を損傷・劣化から守り、できるだけその状態で残すこと。  
+頻度: 〈8/10〉  
+違い: `preservation` は現状を保つ一般語で、専門的な調査・処置の体系まで必ずしも示さない。`conservation` は材料分析、処置、予防管理を含む専門領域を指しやすい。  
+例: Digital preservation protects the files from becoming unreadable as software changes.  
+訳: デジタル保存は、ソフトウェアの変化でファイルが読めなくなるのを防ぐ。  
+
+・restoration  
+定義: 作品、建物、物品などを以前の状態・外観に戻すこと。  
+頻度: 〈7/10〉  
+違い: `restoration` は欠損の補充や過去の姿の再現に重点がある。`conservation` は現存する材料を安定させることを優先し、完全な復元を目標にしないことがある。  
+例: The restoration recreated the missing colors, while the conservation treatment stabilized the original paint.  
+訳: 復元では失われた色を再現し、保存修復処置では元の絵具を安定させた。  
+
+・stabilization  
+定義: 損傷や劣化の進行を止め、対象を安全に扱える状態にすること。  
+頻度: 〈5/10〉  
+違い: `stabilization` は保存修復の一工程に焦点を置く。`conservation` は状態確認、記録、予防管理、処置を含むより広い活動である。  
+例: Stabilization of the loose pages came before the manuscript was put on display.  
+訳: 写本を展示する前に、外れかけたページの安定化が行われた。  
+
+・repair  
+定義: 壊れたり傷んだりした物を、使える状態に戻すため直すこと。  
+頻度: 〈9/10〉  
+違い: `repair` は機能回復の日常語で、元の材料・情報・外観を尊重する専門的な保存判断までは含まない。  
+例: The repair fixed the frame, but it was not a full conservation treatment.  
+訳: その修理で額縁は直ったが、完全な保存修復処置ではなかった。  
+
+【反意語】
+
+・neglect  
+定義: 必要な世話、管理、処置を怠り、対象を悪化させること。  
+頻度: 〈8/10〉  
+違い: `neglect` は保全のために必要な注意や手入れをしないことを表す。故意に壊すことまで必ずしも含まない。  
+例: Years of neglect left the wooden sculpture vulnerable to insects and moisture.  
+訳: 何年も放置されたため、その木彫像は虫と湿気に弱い状態になった。  
+
+・deterioration  
+定義: 物の状態、品質、材料が時間とともに悪化すること。  
+頻度: 〈7/10〉  
+違い: `deterioration` は保存に失敗した結果として起こる劣化を指す状態名詞で、誰かの行為を直接示す `neglect` とは異なる。  
+例: The archive reduced deterioration by controlling light and humidity.  
+訳: その文書館は光と湿度を管理して劣化を抑えた。  
+
+・destruction  
+定義: 物、建物、資料などを壊して存在・形を失わせること。  
+頻度: 〈8/10〉  
+違い: `destruction` は保存の目的と正反対の結果を表すが、保存修復が防ごうとするすべての損傷が完全な破壊に至るわけではない。  
+例: The conservation plan was created to prevent the destruction of the historic site.  
+訳: その保存計画は、史跡の破壊を防ぐために作られた。  
+
+3. 【名詞・不可算／物理学・化学】物理量の保存、保存則
+
+【日本語訳・定義】ある系と条件のもとで、エネルギー、運動量、質量、電荷などの物理量の総量が、移動したり別の形に変換されたりしても一定に保たれること。また、その関係を述べる法則。系の一部の量や形が変化しないという意味ではなく、境界を定めた全体の収支が変わらないという意味である。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な節電・節水を表す `energy conservation` とは、周囲の語で区別する。  
+
+【文法パターン】`conservation of 〈energy/momentum/mass/charge〉`＝エネルギー・運動量・質量・電荷の保存／`the law/principle of conservation of 〈quantity〉`＝～保存の法則・原理／`a conservation law`＝保存則／`obey/test conservation of 〈quantity〉`＝～の保存則に従う・～の保存を検証する  
+
+【コロケーション】
+
+・`the law of conservation of energy`  
+用途: 孤立した系の全エネルギーが、形を変えても一定であるという法則を表す。  
+例: The law of conservation of energy explains why the total energy of the isolated system stayed constant.  
+訳: エネルギー保存則は、その孤立系の全エネルギーが一定に保たれた理由を説明する。  
+
+・`conservation of momentum`  
+用途: 外部からの正味の力積が無視できる系で、全運動量が衝突の前後で等しいことを表す。  
+例: The students used conservation of momentum to calculate the speeds after the collision.  
+訳: 学生たちは運動量保存を使って、衝突後の速度を計算した。  
+
+・`conservation of mass`  
+用途: 通常の化学反応で原子が消滅・生成せず、反応前後の質量収支が保たれることを表す。  
+例: The balanced equation reflects conservation of mass: the atoms are rearranged, not created or destroyed.  
+訳: 係数をそろえた化学式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。  
+
+・`conservation of charge`  
+用途: 閉じた収支で電荷が勝手に生じたり消えたりせず、電気回路や反応で電荷の総量が保たれることを表す。  
+例: Kirchhoff’s current law follows from conservation of electric charge at a circuit junction.  
+訳: キルヒホッフの電流則は、回路の接点で電気の電荷が保存されることから導かれる。  
+
+・`a conservation law`  
+用途: 特定の物理量の総量が、許された変化の前後で一定であることを述べる法則を表す。  
+例: A simulation is suspect if it changes total charge without an external source, because it violates a conservation law.  
+訳: 外部源なしに全電荷を変えるシミュレーションは、保存則に反するため疑わしい。  
+
+【語法・注意】物理学の `conservation` は「何も変化しない」という意味ではない。エネルギーが熱や運動エネルギーへ移る、運動量が複数の物体へ分配されるなど、系の内部では形や配分が変わっても、定義した系全体の総量が一定なら保存という。  
+
+`conservation of energy` は物理学の保存則、`energy conservation measures` は語義1の省エネルギー対策になりやすい。`isolated system`、`total energy`、`collision`、`law` などがあれば語義3の可能性が高く、`bills`、`efficient appliances`、`reduce use` などがあれば語義1の可能性が高い。  
+保存則は系の境界、外部との交換、近似条件に依存する。したがって「どんな場合でも各物体の量が一定」と一般化せず、`total`、`system`、`under these conditions` などの範囲を確認する。  
+
+【類義語】
+
+・invariance  
+定義: ある変換、操作、条件のもとで、性質や量が変わらないこと。  
+頻度: 〈5/10〉  
+違い: `invariance` は変換に対して同じであるという数学・物理学の性質を強調する。`conservation` は時間発展や相互作用の前後で総量が保たれる収支・法則を指しやすい。  
+例: The symmetry implies invariance of the equations under a change of coordinates.  
+訳: その対称性は、座標変換に対して方程式が不変であることを意味する。  
+
+・constancy  
+定義: 量や状態が変わらず一定であること。  
+頻度: 〈5/10〉  
+違い: `constancy` は単に変化がないことを表す一般語で、何が保存され、どの系で収支が保たれるかという物理法則の含みは弱い。  
+例: The experiment measured the constancy of the temperature in the sealed chamber.  
+訳: その実験は密閉室内の温度が一定であることを測定した。  
+
+・preservation  
+定義: ある性質、量、状態を失わせずに保つこと。  
+頻度: 〈8/10〉  
+違い: `preservation` は「保つ」という一般的な意味で技術文書にも現れるが、物理学では特定の量と法則を示す `conservation` が定着している。  
+例: The model assumes preservation of total mass during the reaction.  
+訳: そのモデルは反応中に全質量が保たれると仮定している。  
+
+【反意語】
+
+・nonconservation  
+定義: 保存されるはずの量が、定めた系や理論のもとで一定に保たれないこと。  
+頻度: 〈3/10〉  
+違い: `nonconservation` は一般会話の反対語ではなく、特定の保存則が成り立たないことを述べる専門的な表現である。  
+例: The proposed interaction would imply nonconservation of electric charge.  
+訳: その相互作用の提案は、電荷非保存を意味することになる。  
+
+・change  
+定義: 状態、値、形、位置などが以前と異なるものになること。  
+頻度: 〈10/10〉  
+違い: `change` は変化一般を表すだけで、系全体の総量が失われたことまでは意味しない。保存則では、内部の変化が起きても総量は保たれうる。  
+例: A change in the form of energy does not by itself disprove conservation of energy.  
+訳: エネルギーの形が変わっただけでは、エネルギー保存を否定することにはならない。

@@ -1,0 +1,72 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "BC-001",
+      "surface_form": "conservation",
+      "frame": "uncountable noun in conservation of 〈resource〉 and resource/environment compounds",
+      "meaning": "planned protection and management of natural resources and the environment",
+      "disposition": "included",
+      "rationale": "The candidate-specific frame \"uncountable noun in conservation of 〈resource〉 and resource/environment compounds\" and meaning \"planned protection and management of natural resources and the environment\" identify the environmental use.",
+      "semantic_assertions": [
+        {
+          "id": "BA-001",
+          "statement": "The environmental use must not imply that all resource use is prohibited.",
+          "polarity": "must_hold",
+          "scope": "resource and environmental use"
+        },
+        {
+          "id": "BA-002",
+          "statement": "The environmental use must remain distinct from professional cultural-heritage treatment and from a physics conservation law.",
+          "polarity": "must_hold",
+          "scope": "cross-sense boundary"
+        }
+      ]
+    },
+    {
+      "id": "BC-002",
+      "surface_form": "conservation",
+      "frame": "uncountable noun in conservation of 〈artwork/building〉 and art/heritage conservation",
+      "meaning": "professional preservation, treatment, and preventive care for cultural heritage",
+      "disposition": "included",
+      "rationale": "The candidate-specific frame \"uncountable noun in conservation of 〈artwork/building〉 and art/heritage conservation\" and meaning \"professional preservation, treatment, and preventive care for cultural heritage\" identify the cultural-heritage use.",
+      "semantic_assertions": [
+        {
+          "id": "BA-003",
+          "statement": "The cultural-heritage use must allow stabilization and treatment without requiring complete restoration to an earlier appearance.",
+          "polarity": "must_hold",
+          "scope": "art and heritage conservation"
+        },
+        {
+          "id": "BA-004",
+          "statement": "The cultural-heritage use must remain distinct from natural-resource conservation.",
+          "polarity": "must_hold",
+          "scope": "cross-sense boundary"
+        }
+      ]
+    },
+    {
+      "id": "BC-003",
+      "surface_form": "conservation",
+      "frame": "uncountable technical noun in conservation of 〈energy/momentum/mass/charge〉 and a conservation law",
+      "meaning": "constancy of a physical quantity’s total for a specified system under stated conditions",
+      "disposition": "included",
+      "rationale": "The candidate-specific frame \"uncountable technical noun in conservation of 〈energy/momentum/mass/charge〉 and a conservation law\" and meaning \"constancy of a physical quantity’s total for a specified system under stated conditions\" identify the scientific use.",
+      "semantic_assertions": [
+        {
+          "id": "BA-005",
+          "statement": "The physics use must concern a system total rather than requiring every component or object to remain unchanged.",
+          "polarity": "must_hold",
+          "scope": "physical conservation"
+        },
+        {
+          "id": "BA-006",
+          "statement": "The physics use must be distinguished from everyday energy conservation measures that reduce consumption.",
+          "polarity": "must_hold",
+          "scope": "energy terminology boundary"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

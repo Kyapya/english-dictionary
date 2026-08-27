@@ -1,0 +1,35 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-conservation-20260827T135700Z-c2a1b04d",
+  "context_id": "resolution-conservation-context-20260827T135700Z-c2a1b04d",
+  "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "recorded_at": "2026-08-27T14:09:00Z",
+  "resolutions": [
+    {
+      "id": "NF-QUAL-001",
+      "finding_id": "NF-QUAL-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "problem_confirmed": false,
+      "rationale": "The physics terminology is already explicitly marked as specialist and the article distinguishes conservation of energy from everyday energy conservation measures. No body change is required.",
+      "reason": "The qualification is present and proportionate.",
+      "change": "No article change; retain the explicit technical-register and context qualification.",
+      "affected_target_ids": [
+        "register:003",
+        "usage_note:007"
+      ],
+      "affected_relation_ids": [
+        "definition_usage_consistency:003",
+        "sense_definition_consistency:003"
+      ],
+      "resolved_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "residual_risk": "Readers still need the surrounding quantity or system wording to distinguish the physics use from everyday resource-saving language."
+    }
+  ]
+}
