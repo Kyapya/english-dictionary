@@ -23,7 +23,7 @@
   "started_at": "2026-08-27T07:00:01Z",
   "deadline_at": "2026-08-27T08:00:01Z",
   "pre_draft_deadline_at": "2026-08-27T07:20:01Z",
-  "last_heartbeat_at": "2026-08-27T07:23:00Z",
+  "last_heartbeat_at": "2026-08-27T07:24:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-27T07:00:08Z",
@@ -448,7 +448,7 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 0,
-    "total_duration_seconds": 347,
+    "total_duration_seconds": 392,
     "completed_at": "",
     "stages": [
       {
@@ -499,11 +499,11 @@
       {
         "id": "final_blind",
         "instruction_bytes": 1736,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 28844,
+        "duration_seconds": 45,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
@@ -640,13 +640,14 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 6,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "final_blind"
     ],
     "stage_outputs": {
       "generation": [
@@ -663,6 +664,9 @@
       ],
       "cold_review": [
         "audits/runs/a/assume/20260827T070001Z-assume01/cold_review.json"
+      ],
+      "final_blind": [
+        "audits/runs/a/assume/20260827T070001Z-assume01/final_blind.json"
       ]
     }
   }
