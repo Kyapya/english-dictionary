@@ -2,80 +2,80 @@
   "schema_version": "content_audit_v4",
   "generated_by": "generate_audit_manifest_v1",
   "entry_path": "entries/c/conservation.md",
-  "cycle_id": "20260827T135700Z-c2a1b04d",
-  "cycle_dir": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d",
-  "body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+  "cycle_id": "20260827T152711Z-357de45e",
+  "cycle_dir": "audits/runs/c/conservation/20260827T152711Z-357de45e",
+  "body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
   "raw_outputs": {
     "source_inventory": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/source_inventory.json",
-      "sha256": "f89f82bdade42e79d459fd6ea9c205aa701957dd35c0186303211fa45716a5c4",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/source_inventory.json",
+      "sha256": "59c0c8c902381a3d3a271a3e770c7523e01d00080c5fc79daf263b7b6c63b96b",
       "stage": "source_inventory",
-      "run_id": "source-conservation-20260827T135700Z-c2a1b04d",
-      "context_id": "source-conservation-context-20260827T135700Z-c2a1b04d",
-      "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "run_id": "source-conservation-20260827T152711Z-357de45e",
+      "context_id": "source-conservation-context-20260827T152711Z-357de45e",
+      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
       "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
-      "recorded_at": "2026-08-27T14:02:45Z"
+      "recorded_at": "2026-08-27T15:33:32Z"
     },
     "normal_review": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/pass_findings.json",
-      "sha256": "8e2d9154bdf6f7f757c736b1dc0d69a741627bb33c5a37b6408d605b8870a732",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/pass_findings.json",
+      "sha256": "630d66e62612732fd158946aa5938b38d52fbfdde694e77939164c23863a165c",
       "stage": "normal_review",
-      "run_id": "normal-conservation-20260827T135700Z-c2a1b04d",
-      "context_id": "normal-conservation-context-20260827T135700Z-c2a1b04d",
-      "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "run_id": "normal-conservation-20260827T152711Z-357de45e",
+      "context_id": "normal-conservation-context-20260827T152711Z-357de45e",
+      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
       "prompt_sha256": "3b4795b47a4673eda1b06129d7e475edcf81cb9a6e1423bbb917aec68a0b0841",
-      "recorded_at": "2026-08-27T14:05:11.618239+00:00"
+      "recorded_at": "2026-08-27T15:34:53.433953+00:00"
     },
     "cold_review": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/cold_review.json",
-      "sha256": "2c800fa5cc2e7944b2c6f69968e5b4e810fff6296e8fd427ae029ea083bb1f2a",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/cold_review.json",
+      "sha256": "0c46008e8089e26acda3ee5009593ddb8483273f5008a31a6be8edbb800f0ca7",
       "stage": "cold_review",
-      "run_id": "cold-conservation-20260827T135700Z-c2a1b04d",
-      "context_id": "cold-conservation-context-20260827T135700Z-c2a1b04d",
-      "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "run_id": "cold-conservation-20260827T152711Z-357de45e",
+      "context_id": "cold-conservation-context-20260827T152711Z-357de45e",
+      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
       "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
-      "recorded_at": "2026-08-27T14:05:35.776867+00:00"
+      "recorded_at": "2026-08-27T15:35:26.276257+00:00"
     },
     "resolutions": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/resolutions.json",
-      "sha256": "c289f3c2019d3814bb2a0e15bdca8274792f4073aad191d7d4e5108e0e9a9d1c",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/resolutions.json",
+      "sha256": "003117558755758136d1b633013b3ca0734ab564e06731c005f162ff6284db1c",
       "stage": "resolutions",
-      "run_id": "resolution-conservation-20260827T135700Z-c2a1b04d",
-      "context_id": "resolution-conservation-context-20260827T135700Z-c2a1b04d",
-      "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "run_id": "resolution-conservation-20260827T152711Z-357de45e",
+      "context_id": "resolution-conservation-context-20260827T152711Z-357de45e",
+      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
       "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
-      "recorded_at": "2026-08-27T14:09:00Z"
+      "recorded_at": "2026-08-27T15:36:21Z"
     },
     "final_blind": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/final_blind.json",
-      "sha256": "4c1eeace7800684d454326bbc69f31404f4860c961bee2fa6475d523244331cf",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/final_blind.json",
+      "sha256": "69cb5a39acbc6e188cc0643821c0c8b717b07f03feaa0fe08089fb5e1c9d758d",
       "stage": "final_blind",
-      "run_id": "blind-conservation-20260827T135700Z-c2a1b04d",
-      "context_id": "blind-conservation-context-20260827T135700Z-c2a1b04d",
-      "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "run_id": "blind-conservation-20260827T152711Z-357de45e",
+      "context_id": "blind-conservation-context-20260827T152711Z-357de45e",
+      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
       "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
-      "recorded_at": "2026-08-27T14:06:18.115149+00:00"
+      "recorded_at": "2026-08-27T15:35:57.090535+00:00"
     },
     "blind_seal": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/blind_seal.json",
-      "sha256": "654399c1f1cf44268eca45381921e0c04f528c5a41574c5bc1662e226aecc7c9",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/blind_seal.json",
+      "sha256": "6874ca654592444e914a0380fb96b2d1dc6c265323a5ccdd3166563cc8f21122",
       "stage": "blind_seal"
     },
     "final_review": {
-      "path": "audits/runs/c/conservation/20260827T135700Z-c2a1b04d/final_review.json",
-      "sha256": "1079b6a102f533a929013178ce2dfab644d58547acfc0a29db2f464990c2dae7",
+      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/final_review.json",
+      "sha256": "2a1170f613bf2cee568ac6189e8bcfddb28e3fc1f5a36ed75baaf9b6078b14e8",
       "stage": "final_review",
-      "run_id": "blind-conservation-20260827T135700Z-c2a1b04d",
-      "context_id": "blind-conservation-context-20260827T135700Z-c2a1b04d",
-      "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+      "run_id": "blind-conservation-20260827T152711Z-357de45e",
+      "context_id": "blind-conservation-context-20260827T152711Z-357de45e",
+      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
       "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
-      "recorded_at": "2026-08-27T14:07:52.030622+00:00"
+      "recorded_at": "2026-08-27T15:42:12.367616+00:00"
     }
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
-    "profile_reason": "Common polysemous noun with bounded environmental, cultural-heritage, and physics coverage.",
+    "profile_reason": "Changed checked entry with a user-identified pronunciation comparison error and a non-antonym in the physics antonym list.",
     "limits": {
       "max_sources": 6,
       "max_facts": 48,
@@ -85,7 +85,7 @@
     },
     "usage": {
       "sources_used": 6,
-      "facts_used": 24,
+      "facts_used": 22,
       "research_rounds_used": 2,
       "post_cold_rechecks_used": 0,
       "final_attempts_used": 1
@@ -94,24 +94,21 @@
     "stop_reason": "coverage_axes_closed",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-08-27T14:02:00Z",
-    "article_comparison_started_at": "2026-08-27T14:02:30Z",
+    "inventory_completed_at": "2026-08-27T15:33:32Z",
+    "article_comparison_started_at": "2026-08-27T15:33:34Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
         "status": "covered",
         "source_fact_ids": [
           "F-001",
-          "F-005",
           "F-009",
-          "F-010",
-          "F-013",
+          "F-011",
           "F-014",
           "F-019",
-          "F-022",
-          "F-023"
+          "F-022"
         ],
-        "notes": "Independent lexicons and specialist references cover environmental, cultural, and technical senses."
+        "notes": "Independent general, cultural-heritage, and physics references cover the three article branches."
       },
       {
         "axis": "part_of_speech_and_frames",
@@ -119,11 +116,9 @@
         "source_fact_ids": [
           "F-003",
           "F-004",
-          "F-007",
-          "F-008",
           "F-012",
           "F-020",
-          "F-021"
+          "F-023"
         ],
         "notes": "Resource phrases, scientific phrases, and specialist practice frames are represented."
       },
@@ -154,12 +149,12 @@
         "status": "covered",
         "source_fact_ids": [
           "F-004",
-          "F-008",
+          "F-012",
           "F-014",
           "F-018",
           "F-020"
         ],
-        "notes": "General resource language, American art usage, pronunciation, and specialist register are represented."
+        "notes": "General resource language, US art usage, pronunciation, and specialist register are represented."
       },
       {
         "axis": "pronunciation_and_etymology",
@@ -168,9 +163,11 @@
           "F-015",
           "F-016",
           "F-017",
-          "F-018"
+          "F-018",
+          "F-025",
+          "F-026"
         ],
-        "notes": "Pronunciation, origin, and related forms are covered."
+        "notes": "Pronunciation, spelling comparison, origin, and related forms are covered."
       }
     ],
     "sources": [
@@ -214,49 +211,11 @@
       },
       {
         "id": "S-002",
-        "title": "Oxford Learner's Dictionaries — conservation",
-        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/conservation",
-        "source_type": "general_dictionary",
-        "source_role": "general_lexicon",
-        "independence_group": "general_lexicon_b",
-        "facts": [
-          {
-            "id": "F-005",
-            "form": "conservation",
-            "kind": "lexical_sense",
-            "statement": "the act of preventing something from being lost, wasted, damaged, or destroyed",
-            "source_detail": "Oxford Learner’s Dictionaries defines conservation as preventing loss, waste, damage, or destruction."
-          },
-          {
-            "id": "F-006",
-            "form": "conservation",
-            "kind": "lexical_sense",
-            "statement": "careful use and protection of water, fuel, and other resources",
-            "source_detail": "Oxford Learner’s Dictionaries gives water, fuel, and energy conservation examples."
-          },
-          {
-            "id": "F-007",
-            "form": "water conservation",
-            "kind": "phrase_usage",
-            "statement": "a phrase for managing water use so supplies are maintained",
-            "source_detail": "Oxford Learner’s Dictionaries lists conservation of water and related resource uses."
-          },
-          {
-            "id": "F-008",
-            "form": "conservation efforts",
-            "kind": "phrase_usage",
-            "statement": "a phrase for organized actions intended to protect resources or nature",
-            "source_detail": "The Oxford entry supplies conservation examples in resource and environmental contexts."
-          }
-        ]
-      },
-      {
-        "id": "S-003",
         "title": "Merriam-Webster — conservation",
         "locator": "https://www.merriam-webster.com/dictionary/conservation",
         "source_type": "general_dictionary",
         "source_role": "general_lexicon",
-        "independence_group": "general_lexicon_c",
+        "independence_group": "general_lexicon_b",
         "facts": [
           {
             "id": "F-009",
@@ -289,12 +248,12 @@
         ]
       },
       {
-        "id": "S-004",
+        "id": "S-003",
         "title": "Collins Dictionary — conservation",
         "locator": "https://www.collinsdictionary.com/dictionary/english/conservation",
         "source_type": "general_dictionary",
         "source_role": "general_lexicon",
-        "independence_group": "general_lexicon_d",
+        "independence_group": "general_lexicon_c",
         "facts": [
           {
             "id": "F-013",
@@ -341,7 +300,7 @@
         ]
       },
       {
-        "id": "S-005",
+        "id": "S-004",
         "title": "American Institute for Conservation — What is conservation?",
         "locator": "https://www.culturalheritage.org/conservation-at-work/advance/what-is-conservation",
         "source_type": "professional_reference",
@@ -372,7 +331,7 @@
         ]
       },
       {
-        "id": "S-006",
+        "id": "S-005",
         "title": "OpenStax Physics — Conservation of Momentum",
         "locator": "https://openstax.org/books/physics/pages/8-2-conservation-of-momentum",
         "source_type": "textbook",
@@ -401,6 +360,30 @@
             "source_detail": "OpenStax distinguishes a changing individual object from the conserved total of the system."
           }
         ]
+      },
+      {
+        "id": "S-006",
+        "title": "Merriam-Webster — conversation",
+        "locator": "https://www.merriam-webster.com/dictionary/conversation",
+        "source_type": "general_dictionary",
+        "source_role": "pronunciation_reference",
+        "independence_group": "pronunciation_a",
+        "facts": [
+          {
+            "id": "F-025",
+            "form": "conversation",
+            "kind": "pronunciation",
+            "statement": "the relevant -versa- sequence is pronounced /vərˈseɪ/ in the US pronunciation",
+            "source_detail": "Merriam-Webster respells conversation as ˌkän-vər-ˈsā-shən, supporting /vərˈseɪ/ for the relevant sequence."
+          },
+          {
+            "id": "F-026",
+            "form": "conversation",
+            "kind": "orthography",
+            "statement": "the written sequence in conversation places v before s in -versa-",
+            "source_detail": "The Merriam-Webster headword and syllabification show con-ver-sa-tion, supporting the s/v position comparison with conservation."
+          }
+        ]
       }
     ],
     "source_union": [
@@ -410,15 +393,11 @@
           "F-001",
           "F-002",
           "F-003",
-          "F-004",
-          "F-005",
-          "F-006",
-          "F-007",
-          "F-008"
+          "F-004"
         ],
         "canonical_statement": "Environmental/resource conservation and resource-saving phrases.",
         "disposition": "included",
-        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "rationale": "The fact cluster directly supports the environmental branch and its learner-facing resource collocations.",
         "article_target_ids": [
           "sense_boundary:001",
           "definition:001",
@@ -456,7 +435,7 @@
         ],
         "canonical_statement": "The general preservation and planned-management core of conservation.",
         "disposition": "included",
-        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "rationale": "The fact cluster supports the general meaning and the boundary between protection, preservation, and managed conservation.",
         "article_target_ids": [
           "sense_boundary:001",
           "definition:001",
@@ -496,7 +475,7 @@
         ],
         "canonical_statement": "The technical conservation-of-quantity and momentum claims.",
         "disposition": "included",
-        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "rationale": "The fact cluster supports the physics sense and its qualification that system totals can remain constant while components change.",
         "article_target_ids": [
           "sense_boundary:003",
           "definition:003",
@@ -517,18 +496,20 @@
           "synonym:009",
           "synonym:010",
           "synonym:011",
-          "antonym:007",
-          "antonym:008"
+          "antonym:007"
         ]
       },
       {
         "id": "U-004",
         "source_fact_ids": [
-          "F-014"
+          "F-014",
+          "F-019",
+          "F-020",
+          "F-021"
         ],
         "canonical_statement": "The art and cultural-heritage conservation sense.",
         "disposition": "included",
-        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "rationale": "The fact cluster supports the specialist cultural-heritage branch and the conservator role.",
         "article_target_ids": [
           "sense_boundary:002",
           "definition:002",
@@ -565,9 +546,9 @@
           "F-017",
           "F-018"
         ],
-        "canonical_statement": "Derived forms, historical source, and pronunciation.",
+        "canonical_statement": "Derived forms, historical source, and conservation pronunciation.",
         "disposition": "included",
-        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "rationale": "The fact cluster supports the word-formation, etymology, and headword-pronunciation sections.",
         "article_target_ids": [
           "pronunciation:001",
           "pronunciation:002",
@@ -589,39 +570,14 @@
       {
         "id": "U-006",
         "source_fact_ids": [
-          "F-019",
-          "F-020",
-          "F-021"
+          "F-025",
+          "F-026"
         ],
-        "canonical_statement": "The specialist cultural-heritage practice and conservator role.",
+        "canonical_statement": "The pronunciation and spelling comparison between conservation and conversation.",
         "disposition": "included",
-        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "rationale": "The fresh comparison source directly supports the corrected /vərˈseɪ/ notation and the s/v spelling-order explanation.",
         "article_target_ids": [
-          "sense_boundary:002",
-          "definition:002",
-          "frequency:002",
-          "register:002",
-          "grammar_pattern:006",
-          "grammar_pattern:007",
-          "grammar_pattern:008",
-          "grammar_pattern:009",
-          "grammar_pattern:010",
-          "grammar_pattern:011",
-          "collocation:007",
-          "collocation:008",
-          "collocation:009",
-          "collocation:010",
-          "collocation:011",
-          "collocation:012",
-          "usage_note:004",
-          "usage_note:005",
-          "synonym:005",
-          "synonym:006",
-          "synonym:007",
-          "synonym:008",
-          "antonym:004",
-          "antonym:005",
-          "antonym:006"
+          "pronunciation:002"
         ]
       }
     ],
@@ -677,22 +633,6 @@
           {
             "source_fact_id": "F-004",
             "support_summary": "Cambridge Dictionary records energy conservation among ordinary conservation uses."
-          },
-          {
-            "source_fact_id": "F-005",
-            "support_summary": "Oxford Learner’s Dictionaries defines conservation as preventing loss, waste, damage, or destruction."
-          },
-          {
-            "source_fact_id": "F-006",
-            "support_summary": "Oxford Learner’s Dictionaries gives water, fuel, and energy conservation examples."
-          },
-          {
-            "source_fact_id": "F-007",
-            "support_summary": "Oxford Learner’s Dictionaries lists conservation of water and related resource uses."
-          },
-          {
-            "source_fact_id": "F-008",
-            "support_summary": "The Oxford entry supplies conservation examples in resource and environmental contexts."
           }
         ]
       },
@@ -774,21 +714,20 @@
           "synonym:009",
           "synonym:010",
           "synonym:011",
-          "antonym:007",
-          "antonym:008"
+          "antonym:007"
         ],
         "source_supports": [
           {
             "source_fact_id": "F-011",
-            "support_summary": "Merriam-Webster records the preservation of a physical quantity through changes."
+            "support_summary": "Merriam-Webster records physical-quantity preservation through transformations and reactions."
           },
           {
             "source_fact_id": "F-012",
-            "support_summary": "Merriam-Webster includes physical-quantity conservation and scientific law contexts."
+            "support_summary": "Merriam-Webster includes conservation of energy as a scientific phrase."
           },
           {
             "source_fact_id": "F-022",
-            "support_summary": "OpenStax explains conservation of momentum for a system during an event with negligible external impulse."
+            "support_summary": "OpenStax explains conservation of momentum for a system with negligible external impulse."
           },
           {
             "source_fact_id": "F-023",
@@ -796,7 +735,7 @@
           },
           {
             "source_fact_id": "F-024",
-            "support_summary": "OpenStax distinguishes a changing individual object from the conserved total of the system."
+            "support_summary": "OpenStax distinguishes a changing individual object from the conserved system total."
           }
         ]
       },
@@ -839,6 +778,18 @@
           {
             "source_fact_id": "F-014",
             "support_summary": "Collins records the American art-related conservation use."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "The American Institute for Conservation presents conservation as cultural-heritage preservation work."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "AIC describes examination, documentation, treatment, and preventive conservation practice."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "AIC describes conservators as professionals carrying out conservation work."
           }
         ]
       },
@@ -846,7 +797,7 @@
         "id": "C-005",
         "subject_form": "conservation",
         "claim_type": "technical_sense",
-        "statement": "Derived forms, historical source, and pronunciation.",
+        "statement": "Derived forms, historical source, and conservation pronunciation.",
         "union_ids": [
           "U-005"
         ],
@@ -889,103 +840,39 @@
       {
         "id": "C-006",
         "subject_form": "conservation",
-        "claim_type": "lexical_sense",
-        "statement": "The specialist cultural-heritage practice and conservator role.",
+        "claim_type": "technical_sense",
+        "statement": "The corrected pronunciation and spelling comparison with conversation.",
         "union_ids": [
           "U-006"
         ],
         "article_target_ids": [
-          "sense_boundary:002",
-          "definition:002",
-          "frequency:002",
-          "register:002",
-          "grammar_pattern:006",
-          "grammar_pattern:007",
-          "grammar_pattern:008",
-          "grammar_pattern:009",
-          "grammar_pattern:010",
-          "grammar_pattern:011",
-          "collocation:007",
-          "collocation:008",
-          "collocation:009",
-          "collocation:010",
-          "collocation:011",
-          "collocation:012",
-          "usage_note:004",
-          "usage_note:005",
-          "synonym:005",
-          "synonym:006",
-          "synonym:007",
-          "synonym:008",
-          "antonym:004",
-          "antonym:005",
-          "antonym:006"
+          "pronunciation:002"
         ],
         "source_supports": [
           {
-            "source_fact_id": "F-019",
-            "support_summary": "The American Institute for Conservation presents conservation as work that preserves cultural heritage."
+            "source_fact_id": "F-025",
+            "support_summary": "Merriam-Webster respells conversation with the relevant /vərˈseɪ/ sequence."
           },
           {
-            "source_fact_id": "F-020",
-            "support_summary": "AIC describes examination, documentation, treatment, and preventive conservation practice."
-          },
-          {
-            "source_fact_id": "F-021",
-            "support_summary": "AIC describes conservators as the professionals carrying out conservation work."
+            "source_fact_id": "F-026",
+            "support_summary": "Merriam-Webster’s headword and syllabification support the written con-ver-sa-tion order."
           }
         ]
       }
     ]
   },
-  "findings": [
-    {
-      "id": "NF-QUAL-001",
-      "taxonomy_id": "technical_terminology_conventionality",
-      "location": {
-        "section": "register_and_frequency",
-        "line_start": 247,
-        "line_end": 247,
-        "exact_quote": "【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な節電・節水を表す `energy conservation` とは、周囲の語で区別する。"
-      },
-      "severity": "minor",
-      "rationale": "The physics sense is specialist terminology; the article explicitly marks it as technical and contrasts it with everyday energy conservation.",
-      "suggested_direction": "retain the explicit qualification",
-      "origin": "check_pass:qualification"
-    }
-  ],
-  "resolutions": [
-    {
-      "id": "NF-QUAL-001",
-      "finding_id": "NF-QUAL-001",
-      "status": "resolved",
-      "disposition": "rejected",
-      "problem_confirmed": false,
-      "rationale": "The physics terminology is already explicitly marked as specialist and the article distinguishes conservation of energy from everyday energy conservation measures. No body change is required.",
-      "reason": "The qualification is present and proportionate.",
-      "change": "No article change; retain the explicit technical-register and context qualification.",
-      "affected_target_ids": [
-        "register:003",
-        "usage_note:007"
-      ],
-      "affected_relation_ids": [
-        "definition_usage_consistency:003",
-        "sense_definition_consistency:003"
-      ],
-      "resolved_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
-      "residual_risk": "Readers still need the surrounding quantity or system wording to distinguish the physics use from everyday resource-saving language."
-    }
-  ],
+  "findings": [],
+  "resolutions": [],
   "final_decision": {
     "decision": "pass",
     "blockers": [],
     "notes": [
-      "All 86 generated targets and 53 generated relations were reconciled against the current body.",
-      "The sealed blind inventory and all six semantic assertions passed.",
-      "The source-first v2 inventory passed with six sources and 24 atomic facts."
+      "All 85 generated targets and 53 generated relations were reconciled against the corrected current body.",
+      "The sealed blind inventory and all six semantic assertions passed against the corrected pronunciation and antonym classification.",
+      "The source-first v2 inventory passed with six sources, 22 used facts, and the fresh conversation comparison source."
     ],
-    "reviewed_at": "2026-08-27T14:07:52.030622+00:00",
-    "blind_output_sha256": "c3ad10b2440c35ecff3963623b0c4dfa976ce58aeb0dbd56854456355d791155"
+    "reviewed_at": "2026-08-27T15:42:12.367616+00:00",
+    "blind_output_sha256": "e4350eb1214da630d0fbe937241910624cd316ff26caae5354708f7a17f9301c"
   },
   "invalidated_by": [],
   "review_liveness_errors": []
