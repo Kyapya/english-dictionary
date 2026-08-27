@@ -1,0 +1,683 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+        "blind_request_sha256": "30d8536fb769e42b79895a5afcb761b19f3a4cfc889cbe3853c9a6d476936c78",
+        "recorded_at": "2026-08-27T17:07:38+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-696a832d81b6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "invasive"
+            ],
+            "rationale": "The term invasive anchors this example to sense:001: The invasive plant poses a serious threat to native species."
+          },
+          {
+            "example_id": "ex-c92fd6a1b903",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Long-term"
+            ],
+            "rationale": "The term Long-term anchors this example to sense:001: Long-term exposure to the chemical may pose a risk to workers' health."
+          },
+          {
+            "example_id": "ex-de0b35dcec78",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "damaged"
+            ],
+            "rationale": "The term damaged anchors this example to sense:001: The damaged bridge could pose a danger to pedestrians."
+          },
+          {
+            "example_id": "ex-e96a6b223b3d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "sudden"
+            ],
+            "rationale": "The term sudden anchors this example to sense:001: The sudden loss of data posed a serious problem for the research team."
+          },
+          {
+            "example_id": "ex-bf001a180ab3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "steep"
+            ],
+            "rationale": "The term steep anchors this example to sense:001: The steep terrain posed a major challenge to the rescue team."
+          },
+          {
+            "example_id": "ex-d90f1e8d5150",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Officials"
+            ],
+            "rationale": "The term Officials anchors this example to sense:001: Officials assessed the risks posed by the overloaded electrical system."
+          },
+          {
+            "example_id": "ex-6c872ff49a8c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "moderator"
+            ],
+            "rationale": "The term moderator anchors this example to sense:002: The moderator posed a question to the panel about the cost of reform."
+          },
+          {
+            "example_id": "ex-31a9b86eeb07",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "discovery"
+            ],
+            "rationale": "The term discovery anchors this example to sense:002: The discovery poses the question of whether the species can survive in warmer seas."
+          },
+          {
+            "example_id": "ex-7eb7b38e799a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "final"
+            ],
+            "rationale": "The term final anchors this example to sense:002: The final chapter poses a difficult question about personal responsibility."
+          },
+          {
+            "example_id": "ex-69b55186b500",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "teacher"
+            ],
+            "rationale": "The term teacher anchors this example to sense:002: The teacher posed a problem for discussion before explaining the formula."
+          },
+          {
+            "example_id": "ex-f9dd43a4bb7c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "results"
+            ],
+            "rationale": "The term results anchors this example to sense:002: The results pose a serious challenge to the assumption that demand is stable."
+          },
+          {
+            "example_id": "ex-72a514afef4c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "two"
+            ],
+            "rationale": "The term two anchors this example to sense:003: The two actors posed for a photograph after the ceremony."
+          },
+          {
+            "example_id": "ex-4ddb1203dc9a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "children"
+            ],
+            "rationale": "The term children anchors this example to sense:003: The children laughed and posed for the camera."
+          },
+          {
+            "example_id": "ex-c403c3b74758",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "award"
+            ],
+            "rationale": "The term award anchors this example to sense:003: The award winner posed with her parents backstage."
+          },
+          {
+            "example_id": "ex-34d31f13f4f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "visitors"
+            ],
+            "rationale": "The term visitors anchors this example to sense:003: The visitors posed beside the old locomotive."
+          },
+          {
+            "example_id": "ex-8916cf60559d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "photographer"
+            ],
+            "rationale": "The term photographer anchors this example to sense:003: The photographer posed the family for a formal portrait."
+          },
+          {
+            "example_id": "ex-061513b7ddbe",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "artist"
+            ],
+            "rationale": "The term artist anchors this example to sense:003: The artist posed the model in a seated position."
+          },
+          {
+            "example_id": "ex-74dee102cfda",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "kept"
+            ],
+            "rationale": "The term kept anchors this example to sense:004: He kept posing in a designer outfit instead of helping with the work."
+          },
+          {
+            "example_id": "ex-f72984ca318b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "out"
+            ],
+            "rationale": "The term out anchors this example to sense:004: They were out posing in a rented sports car all afternoon."
+          },
+          {
+            "example_id": "ex-247dd65f3588",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "posing"
+            ],
+            "rationale": "The term posing anchors this example to sense:004: She was posing to impress the investors, but the presentation lacked evidence."
+          },
+          {
+            "example_id": "ex-191fa116ce7c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "man"
+            ],
+            "rationale": "The term man anchors this example to sense:005: The man posed as a doctor to gain access to the restricted ward."
+          },
+          {
+            "example_id": "ex-edc717df1cd1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "posed"
+            ],
+            "rationale": "The term posed anchors this example to sense:005: He posed as an expert on tax law and gave the client incorrect advice."
+          },
+          {
+            "example_id": "ex-1074f88ab8b7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "caller"
+            ],
+            "rationale": "The term caller anchors this example to sense:005: The caller posed as the director's assistant and requested confidential files."
+          },
+          {
+            "example_id": "ex-ad0ecec17dbf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "suspect"
+            ],
+            "rationale": "The term suspect anchors this example to sense:005: The suspect was caught posing as a security guard."
+          },
+          {
+            "example_id": "ex-88c870d8a0f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "Investigators"
+            ],
+            "rationale": "The term Investigators anchors this example to sense:005: Investigators posed as potential buyers to document the illegal sales."
+          },
+          {
+            "example_id": "ex-151abf88f292",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "struck"
+            ],
+            "rationale": "The term struck anchors this example to sense:006: She struck a confident pose before the interview began."
+          },
+          {
+            "example_id": "ex-f2bcb1c2bd8c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "dancer"
+            ],
+            "rationale": "The term dancer anchors this example to sense:006: The dancer held the pose until the music stopped."
+          },
+          {
+            "example_id": "ex-0af8eada4460",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "adopted"
+            ],
+            "rationale": "The term adopted anchors this example to sense:006: He adopted a relaxed pose for the family photograph."
+          },
+          {
+            "example_id": "ex-51ebef88c469",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "athlete"
+            ],
+            "rationale": "The term athlete anchors this example to sense:006: The athlete found a dramatic pose for the camera."
+          },
+          {
+            "example_id": "ex-9d60abc9e362",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "instructor"
+            ],
+            "rationale": "The term instructor anchors this example to sense:006: The instructor demonstrated a difficult yoga pose."
+          },
+          {
+            "example_id": "ex-d050804f14d7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Try"
+            ],
+            "rationale": "The term Try anchors this example to sense:006: Try a different pose so the light reaches your face."
+          },
+          {
+            "example_id": "ex-97af90510b14",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "concern"
+            ],
+            "rationale": "The term concern anchors this example to sense:007: His concern for the workers was a mere pose."
+          },
+          {
+            "example_id": "ex-102d81bd1689",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "confidence"
+            ],
+            "rationale": "The term confidence anchors this example to sense:007: Her pose of confidence disappeared when the questions became technical."
+          },
+          {
+            "example_id": "ex-035d904faf22",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "indifference"
+            ],
+            "rationale": "The term indifference anchors this example to sense:007: He struck a pose of indifference, although the criticism clearly hurt him."
+          },
+          {
+            "example_id": "ex-83f50b89d643",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "expert"
+            ],
+            "rationale": "The term expert anchors this example to sense:007: Her pose as an expert collapsed when she could not explain the basic terms."
+          },
+          {
+            "example_id": "ex-ee36a8b07063",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "audience"
+            ],
+            "rationale": "The term audience anchors this example to sense:007: The audience quickly saw through the speaker's pose of certainty."
+          },
+          {
+            "example_id": "ex-1ac0898e6b26",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "cameras"
+            ],
+            "rationale": "The term cameras anchors this example to sense:007: Once the cameras were gone, she dropped the pose and admitted that she was worried."
+          },
+          {
+            "example_id": "ex-57732c30fe30",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "witness"
+            ],
+            "rationale": "The term witness anchors this example to sense:008: The witness was completely posed by the examiner's final question."
+          },
+          {
+            "example_id": "ex-2533255b90b8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "riddle"
+            ],
+            "rationale": "The term riddle anchors this example to sense:008: The riddle was a problem that posed even the most experienced solver."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      "aligned_at": "2026-08-27T17:07:48.722851+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      }
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-lexicon-audit",
+    "ingested_by": "human"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-pose-20260827T165357Z-f9e3dc6a",
+  "context_id": "normal-pose-context-20260827T165357Z-f9e3dc6a",
+  "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+  "prompt_sha256": "3b4795b47a4673eda1b06129d7e475edcf81cb9a6e1423bbb917aec68a0b0841",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-27T17:07:48.721852+00:00",
+  "independent_candidates": [
+    {
+      "id": "N-001",
+      "surface_form": "pose + a threat/risk/problem",
+      "frame": "pose a threat/risk/problem to or for a target",
+      "meaning": "危険・問題を生じさせる",
+      "disposition": "included",
+      "rationale": "The normal inventory retains pose + a threat/risk/problem because the pose a threat/risk/problem to or for a target is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:001"
+      ],
+      "evidence_link_ids": [
+        "E-001"
+      ]
+    },
+    {
+      "id": "N-002",
+      "surface_form": "pose a question/problem/challenge",
+      "frame": "pose a question/problem/challenge for consideration",
+      "meaning": "質問・問題・論点を提示する",
+      "disposition": "included",
+      "rationale": "The normal inventory retains pose a question/problem/challenge because the pose a question/problem/challenge for consideration is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:002"
+      ],
+      "evidence_link_ids": [
+        "E-002"
+      ]
+    },
+    {
+      "id": "N-003",
+      "surface_form": "pose for/with; pose someone for a picture",
+      "frame": "pose for the camera or pose someone for a portrait",
+      "meaning": "撮影や絵画のために姿勢を取る／取らせる",
+      "disposition": "included",
+      "rationale": "The normal inventory retains pose for/with; pose someone for a picture because the pose for the camera or pose someone for a portrait is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:003"
+      ],
+      "evidence_link_ids": [
+        "E-003"
+      ]
+    },
+    {
+      "id": "N-004",
+      "surface_form": "be posing / pose in a designer outfit",
+      "frame": "pose to impress people or show off",
+      "meaning": "気取って振る舞う",
+      "disposition": "included",
+      "rationale": "The normal inventory retains be posing / pose in a designer outfit because the pose to impress people or show off is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:004"
+      ],
+      "evidence_link_ids": [
+        "E-004"
+      ]
+    },
+    {
+      "id": "N-005",
+      "surface_form": "pose as + noun phrase",
+      "frame": "pose as a doctor, expert, or assistant",
+      "meaning": "人・資格・立場を装う",
+      "disposition": "included",
+      "rationale": "The normal inventory retains pose as + noun phrase because the pose as a doctor, expert, or assistant is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:005"
+      ],
+      "evidence_link_ids": [
+        "E-004"
+      ]
+    },
+    {
+      "id": "N-006",
+      "surface_form": "a pose / strike a pose / hold a pose",
+      "frame": "a countable bodily position or posture",
+      "meaning": "姿勢・ポーズ",
+      "disposition": "included",
+      "rationale": "The normal inventory retains a pose / strike a pose / hold a pose because the a countable bodily position or posture is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:006"
+      ],
+      "evidence_link_ids": [
+        "E-005"
+      ]
+    },
+    {
+      "id": "N-007",
+      "surface_form": "a pose of confidence / a mere pose",
+      "frame": "a pose of an attitude or emotion",
+      "meaning": "見せかけの態度",
+      "disposition": "included",
+      "rationale": "The normal inventory retains a pose of confidence / a mere pose because the a pose of an attitude or emotion is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:007"
+      ],
+      "evidence_link_ids": [
+        "E-005"
+      ]
+    },
+    {
+      "id": "N-008",
+      "surface_form": "pose someone",
+      "frame": "a difficult question or riddle poses a person",
+      "meaning": "まれな『困惑させる』他動詞",
+      "disposition": "included",
+      "rationale": "The normal inventory retains pose someone because the a difficult question or riddle poses a person is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "sense_boundary:008"
+      ],
+      "evidence_link_ids": [
+        "E-006"
+      ]
+    },
+    {
+      "id": "N-009",
+      "surface_form": "pose /poʊz/ ~ /pəʊz/",
+      "frame": "regional pronunciation and inflected forms",
+      "meaning": "米英発音と活用形",
+      "disposition": "included",
+      "rationale": "The normal inventory retains pose /poʊz/ ~ /pəʊz/ because the regional pronunciation and inflected forms is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "pronunciation:001",
+        "pronunciation:002",
+        "pronunciation:003",
+        "pronunciation:004"
+      ],
+      "evidence_link_ids": [
+        "E-007"
+      ]
+    },
+    {
+      "id": "N-010",
+      "surface_form": "poser / poseur / posable / posing",
+      "frame": "derived and inflected forms",
+      "meaning": "語形成・派生形",
+      "disposition": "included",
+      "rationale": "The normal inventory retains poser / poseur / posable / posing because the derived and inflected forms is a distinct learner-relevant use.",
+      "article_target_ids": [
+        "word_formation:001",
+        "word_formation:002",
+        "word_formation:003",
+        "word_formation:004"
+      ],
+      "evidence_link_ids": [
+        "E-008"
+      ]
+    }
+  ],
+  "summary": "Independent checker passes and an externalized normal inventory were completed through handoff."
+}

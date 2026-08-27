@@ -1,0 +1,1095 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/p/pose.md",
+  "cycle_id": "20260827T165357Z-f9e3dc6a",
+  "cycle_dir": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a",
+  "body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/source_inventory.json",
+      "sha256": "73ae33f581b19f95214838ec74378a5e1c071f63338d0352ed0143ac177a98bf",
+      "stage": "source_inventory",
+      "run_id": "source-pose-20260827T170100Z",
+      "context_id": "source-pose-context-20260827T170100Z",
+      "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+      "recorded_at": "2026-08-27T17:12:21+00:00"
+    },
+    "normal_review": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/pass_findings.json",
+      "sha256": "580d41eb5f1fb4add26a152354436963f4194a869f12e7bfbad5cdc213ddcd14",
+      "stage": "normal_review",
+      "run_id": "normal-pose-20260827T165357Z-f9e3dc6a",
+      "context_id": "normal-pose-context-20260827T165357Z-f9e3dc6a",
+      "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+      "prompt_sha256": "3b4795b47a4673eda1b06129d7e475edcf81cb9a6e1423bbb917aec68a0b0841",
+      "recorded_at": "2026-08-27T17:07:48.721852+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/cold_review.json",
+      "sha256": "6f6285b814db1edbe7f34fbc8b16c0ccda6a6401afc55d3476e8f8e02b87eab1",
+      "stage": "cold_review",
+      "run_id": "cold-pose-20260827T165357Z-f9e3dc6a",
+      "context_id": "cold-pose-context-20260827T165357Z-f9e3dc6a",
+      "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-08-27T17:10:03.216712+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/resolutions.json",
+      "sha256": "3f475d680af0a2100ec5e81fbdb6043211779bb7968bd363e3de07f00e6e23ea",
+      "stage": "resolutions",
+      "run_id": "normal-pose-20260827T170100Z",
+      "context_id": "normal-pose-context-20260827T170100Z",
+      "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+      "prompt_sha256": "pending-finding-resolution-prompt",
+      "recorded_at": "2026-08-27T17:12:00Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/final_blind.json",
+      "sha256": "00f7294607063e5808321a8444b6e017a99dad60b7c87bcd05440b30ed0177ab",
+      "stage": "final_blind",
+      "run_id": "blind-pose-20260827T165357Z-f9e3dc6a",
+      "context_id": "blind-pose-context-20260827T165357Z-f9e3dc6a",
+      "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+      "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+      "recorded_at": "2026-08-27T17:11:07.871400+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/blind_seal.json",
+      "sha256": "7bb946ec7b7408e214a341d57c979209608cbeb28ca1cdacb69f6eaefd3d03a2",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/p/pose/20260827T165357Z-f9e3dc6a/final_review.json",
+      "sha256": "a20ba4241db6f9f55b49e342dc2f2f3fe04cefece999baa64326f2982ee135de",
+      "stage": "final_review",
+      "run_id": "blind-pose-20260827T165357Z-f9e3dc6a",
+      "context_id": "blind-pose-context-20260827T165357Z-f9e3dc6a",
+      "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+      "recorded_at": "2026-08-27T17:14:21.620108+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "extended",
+    "profile_reason": "Pose has several productive verb and noun senses, a separate rare homograph, regional pronunciation detail, and etymology that benefits from a broader bounded source inventory.",
+    "limits": {
+      "max_sources": 8,
+      "max_facts": 80,
+      "max_research_rounds": 3,
+      "max_post_cold_rechecks": 2,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 28,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 1,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-27T17:01:00Z",
+    "article_comparison_started_at": "2026-08-27T17:02:00Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-010",
+          "F-013",
+          "F-014"
+        ],
+        "notes": "Independent general dictionaries cover the principal verb and noun senses and the separate perplexing sense."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-005",
+          "F-008",
+          "F-011",
+          "F-015",
+          "F-024"
+        ],
+        "notes": "The source set covers transitive, intransitive, pose-as, photography, and countable noun frames."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-012",
+          "F-025",
+          "F-026",
+          "F-027",
+          "F-028"
+        ],
+        "notes": "Only directly useful forms and the established noun collocation are retained."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "No distinct specialist or legal sense was found; safety, crime, and identity examples use ordinary general-English senses."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-006",
+          "F-016"
+        ],
+        "notes": "The ordinary modern uses and the uncommon or literary puzzle use are distinguished; article scores are learning aids rather than corpus counts."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-022",
+          "F-023"
+        ],
+        "notes": "Regional pronunciation and the two historical lines are reconciled with explicit separation of the homograph."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Learner's Dictionaries: pose (verb)",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/pose_1",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can create a difficult or dangerous situation for someone or something",
+            "source_detail": "Oxford Learner's Dictionaries lists the threat, danger, and problem use."
+          },
+          {
+            "id": "F-002",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can present a question, problem, or challenge for consideration",
+            "source_detail": "Oxford Learner's Dictionaries lists presenting a question or problem as a verb sense."
+          },
+          {
+            "id": "F-003",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can put a person or object in a particular position for a picture",
+            "source_detail": "Oxford Learner's Dictionaries lists positioning people or things for a photograph or picture."
+          },
+          {
+            "id": "F-004",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can behave in a way intended to impress or appear different",
+            "source_detail": "The Oxford verb entry distinguishes the critical, performative behavior use from neutral photography."
+          },
+          {
+            "id": "F-005",
+            "form": "pose",
+            "kind": "grammar",
+            "statement": "uses pose as before a noun phrase for pretending to be someone or something",
+            "source_detail": "Oxford's verb entry gives the pose as construction for adopting a false identity or role."
+          },
+          {
+            "id": "F-006",
+            "form": "pose",
+            "kind": "register",
+            "statement": "the danger and question uses are standard written and spoken English",
+            "source_detail": "The learner dictionary presents these as ordinary modern verb senses without a rare or obsolete label."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Merriam-Webster Dictionary: pose",
+        "locator": "https://www.merriam-webster.com/dictionary/pose",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_merriam_webster",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can set forth a question or problem for attention or consideration",
+            "source_detail": "Merriam-Webster defines one transitive sense as setting something forth for attention or consideration."
+          },
+          {
+            "id": "F-008",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can set a person or thing in a particular position",
+            "source_detail": "Merriam-Webster lists the transitive positioning sense."
+          },
+          {
+            "id": "F-009",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "can assume a posture or attitude, often for effect",
+            "source_detail": "Merriam-Webster lists the intransitive posture and affected-attitude uses."
+          },
+          {
+            "id": "F-010",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "has a transitive rare sense meaning to perplex or baffle",
+            "source_detail": "Merriam-Webster records the separate puzzle or perplex sense."
+          },
+          {
+            "id": "F-011",
+            "form": "pose",
+            "kind": "grammar",
+            "statement": "the pose as construction means to pretend to be a specified person or role",
+            "source_detail": "Merriam-Webster's pose as entry defines the identity-assumption construction."
+          },
+          {
+            "id": "F-012",
+            "form": "pose",
+            "kind": "related_expression",
+            "statement": "the noun occurs in the fixed expression strike a pose",
+            "source_detail": "The dictionary entry and usage examples support the conventional noun collocation."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Collins English Dictionary: pose",
+        "locator": "https://www.collinsdictionary.com/us/dictionary/english/pose",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-013",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "as a noun denotes an adopted bodily position or posture",
+            "source_detail": "Collins gives the countable noun sense of a particular position of the body."
+          },
+          {
+            "id": "F-014",
+            "form": "pose",
+            "kind": "lexical_sense",
+            "statement": "as a noun can denote an attitude adopted for effect",
+            "source_detail": "Collins distinguishes the figurative or affected attitude sense."
+          },
+          {
+            "id": "F-015",
+            "form": "pose",
+            "kind": "grammar",
+            "statement": "the photography verb can be used with for and with or beside complements",
+            "source_detail": "Collins examples support posing for a photograph and posing with or beside people or things."
+          },
+          {
+            "id": "F-016",
+            "form": "pose",
+            "kind": "register",
+            "statement": "the puzzle sense is uncommon or literary compared with puzzle and baffle",
+            "source_detail": "The separate perplexing sense is marked as uncommon in the dictionary comparison."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Cambridge Dictionary Pronunciation: pose",
+        "locator": "https://dictionary.cambridge.org/pronunciation/english/pose",
+        "source_type": "pronunciation_reference",
+        "source_role": "pronunciation_reference",
+        "independence_group": "pronunciation_cambridge",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "pose",
+            "kind": "pronunciation",
+            "statement": "has UK pronunciation /pəʊz/ and US pronunciation /poʊz/",
+            "source_detail": "Cambridge's pronunciation page lists the UK and US recordings and transcriptions."
+          },
+          {
+            "id": "F-018",
+            "form": "pose",
+            "kind": "pronunciation",
+            "statement": "ends in the voiced consonant /z/ in both listed varieties",
+            "source_detail": "The final consonant in both Cambridge transcriptions is /z/, not /s/."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Online Etymology Dictionary: pose",
+        "locator": "https://www.etymonline.com/word/pose",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_reference_etymonline",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "pose",
+            "kind": "etymology",
+            "statement": "the central verb came through Middle English and Old French poser from Late Latin pausare",
+            "source_detail": "Etymonline traces the main verb through Middle English and Old French to Late Latin pausare."
+          },
+          {
+            "id": "F-020",
+            "form": "pose",
+            "kind": "etymology",
+            "statement": "the French placing sense was influenced by association with Latin ponere and positus",
+            "source_detail": "Etymonline notes the historical association between poser and Latin placing vocabulary."
+          },
+          {
+            "id": "F-021",
+            "form": "pose",
+            "kind": "etymology",
+            "statement": "the puzzle verb is a separate development related to appose or oppose",
+            "source_detail": "Etymonline treats the perplexing verb as a separate historical entry connected with appose or oppose."
+          },
+          {
+            "id": "F-022",
+            "form": "pose",
+            "kind": "etymology",
+            "statement": "the bodily-posture noun developed from the central verb in modern English",
+            "source_detail": "Etymonline dates the posture noun as a development of the main verb."
+          },
+          {
+            "id": "F-023",
+            "form": "pause",
+            "kind": "etymology",
+            "statement": "pause is a related word in the pausare family but remains a different headword",
+            "source_detail": "The etymological account places pause and the central pose history in the same Latin pausing family while keeping their modern forms distinct."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Oxford Learner's Dictionaries: pose (noun)",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/pose_2",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford_noun",
+        "facts": [
+          {
+            "id": "F-024",
+            "form": "pose",
+            "kind": "grammar",
+            "statement": "the posture noun is countable and commonly appears with a, strike, take, or hold",
+            "source_detail": "Oxford's noun entry and examples support countable bodily poses and the established strike-a-pose pattern."
+          },
+          {
+            "id": "F-025",
+            "form": "poser",
+            "kind": "derived_form",
+            "statement": "poser can name a person who poses or a difficult problem depending on sense",
+            "source_detail": "The dictionary family and the separate puzzle sense support both modern uses of poser."
+          },
+          {
+            "id": "F-026",
+            "form": "poseur",
+            "kind": "derived_form",
+            "statement": "poseur names a person who adopts an affected or pretentious manner",
+            "source_detail": "The dictionary family lists poseur as the French-derived noun for an affected pretender."
+          },
+          {
+            "id": "F-027",
+            "form": "posing",
+            "kind": "derived_form",
+            "statement": "posing is the regular present-participle or gerund form of pose",
+            "source_detail": "The inflection is the regular spelling and pronunciation pattern of the verb entry."
+          },
+          {
+            "id": "F-028",
+            "form": "posable",
+            "kind": "derived_form",
+            "statement": "posable describes an object that can be put into a chosen posture",
+            "source_detail": "The derived adjective follows the productive English pattern for something that can be posed."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "canonical_statement": "pose presents a danger, risk, problem, or challenge for a target",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the threat/problem sense without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-012"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004"
+        ]
+      },
+      {
+        "id": "U-002",
+        "canonical_statement": "pose places a question, issue, or problem before people for consideration",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the question/problem presentation sense without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-002",
+          "F-007"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "usage_note:003",
+          "usage_note:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008"
+        ]
+      },
+      {
+        "id": "U-003",
+        "canonical_statement": "pose places a person or thing in a chosen position, or takes that position for a picture",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the physical positioning and photography sense without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-015"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012"
+        ]
+      },
+      {
+        "id": "U-004",
+        "canonical_statement": "pose can describe affected self-presentation and pose as can describe adopting a false identity",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the affected behavior and pose as construction without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-004",
+          "F-005",
+          "F-009",
+          "F-011"
+        ],
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "collocation:018",
+          "collocation:019",
+          "collocation:020",
+          "usage_note:007",
+          "synonym:013",
+          "synonym:014",
+          "synonym:015",
+          "sense_boundary:005",
+          "definition:005",
+          "frequency:005",
+          "register:005",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "collocation:024",
+          "collocation:025",
+          "usage_note:008",
+          "usage_note:009",
+          "synonym:016",
+          "synonym:017",
+          "synonym:018",
+          "synonym:019"
+        ]
+      },
+      {
+        "id": "U-005",
+        "canonical_statement": "the noun pose denotes a bodily position and, in a critical figurative use, an affected attitude",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the posture and affected-attitude nouns without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-013",
+          "F-014",
+          "F-024"
+        ],
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "frequency:006",
+          "register:006",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "collocation:030",
+          "collocation:031",
+          "usage_note:010",
+          "usage_note:011",
+          "synonym:020",
+          "synonym:021",
+          "synonym:022",
+          "synonym:023",
+          "sense_boundary:007",
+          "definition:007",
+          "frequency:007",
+          "register:007",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "grammar_pattern:027",
+          "grammar_pattern:028",
+          "collocation:032",
+          "collocation:033",
+          "collocation:034",
+          "collocation:035",
+          "collocation:036",
+          "collocation:037",
+          "usage_note:012",
+          "usage_note:013",
+          "synonym:024",
+          "synonym:025",
+          "synonym:026",
+          "synonym:027",
+          "synonym:028",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ]
+      },
+      {
+        "id": "U-006",
+        "canonical_statement": "a rare separate verb pose means perplex or baffle and should not be merged with the placing senses",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the rare perplexing homograph without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-010",
+          "F-016",
+          "F-021"
+        ],
+        "article_target_ids": [
+          "sense_boundary:008",
+          "definition:008",
+          "frequency:008",
+          "register:008",
+          "grammar_pattern:029",
+          "collocation:038",
+          "collocation:039",
+          "usage_note:014",
+          "synonym:029",
+          "synonym:030",
+          "synonym:031"
+        ]
+      },
+      {
+        "id": "U-007",
+        "canonical_statement": "pose is /poʊz/ in US English and /pəʊz/ in UK English with voiced /z/",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the pronunciation without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-017",
+          "F-018"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "pronunciation:004"
+        ]
+      },
+      {
+        "id": "U-008",
+        "canonical_statement": "the main history, separate puzzle history, and directly useful derived forms are kept distinct",
+        "disposition": "integrated",
+        "rationale": "The bounded source set supports the etymology and useful word family without extending beyond the dictionary and etymology evidence.",
+        "source_fact_ids": [
+          "F-019",
+          "F-020",
+          "F-022",
+          "F-023",
+          "F-025",
+          "F-026",
+          "F-027",
+          "F-028"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "etymology:003",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "core_image:001",
+          "core_image:009"
+        ]
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "pose",
+        "claim_type": "lexical_sense",
+        "statement": "pose presents a danger, risk, problem, or challenge for a target",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford Learner's Dictionaries lists the threat, danger, and problem use. This fact is used to check the threat/problem sense claim."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The learner dictionary presents these as ordinary modern verb senses without a rare or obsolete label. This fact is used to check the threat/problem sense claim."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The dictionary entry and usage examples support the conventional noun collocation. This fact is used to check the threat/problem sense claim."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "pose",
+        "claim_type": "lexical_sense",
+        "statement": "pose places a question, issue, or problem before people for consideration",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "usage_note:003",
+          "usage_note:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford Learner's Dictionaries lists presenting a question or problem as a verb sense. This fact is used to check the question/problem presentation sense claim."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster defines one transitive sense as setting something forth for attention or consideration. This fact is used to check the question/problem presentation sense claim."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "pose",
+        "claim_type": "lexical_sense",
+        "statement": "pose places a person or thing in a chosen position, or takes that position for a picture",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:012",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford Learner's Dictionaries lists positioning people or things for a photograph or picture. This fact is used to check the physical positioning and photography sense claim."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster lists the transitive positioning sense. This fact is used to check the physical positioning and photography sense claim."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Collins examples support posing for a photograph and posing with or beside people or things. This fact is used to check the physical positioning and photography sense claim."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "pose",
+        "claim_type": "usage_distinction",
+        "statement": "pose can describe affected self-presentation and pose as can describe adopting a false identity",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "collocation:018",
+          "collocation:019",
+          "collocation:020",
+          "usage_note:007",
+          "synonym:013",
+          "synonym:014",
+          "synonym:015",
+          "sense_boundary:005",
+          "definition:005",
+          "frequency:005",
+          "register:005",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "collocation:021",
+          "collocation:022",
+          "collocation:023",
+          "collocation:024",
+          "collocation:025",
+          "usage_note:008",
+          "usage_note:009",
+          "synonym:016",
+          "synonym:017",
+          "synonym:018",
+          "synonym:019"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "The Oxford verb entry distinguishes the critical, performative behavior use from neutral photography. This fact is used to check the affected behavior and pose as construction claim."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford's verb entry gives the pose as construction for adopting a false identity or role. This fact is used to check the affected behavior and pose as construction claim."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster lists the intransitive posture and affected-attitude uses. This fact is used to check the affected behavior and pose as construction claim."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster's pose as entry defines the identity-assumption construction. This fact is used to check the affected behavior and pose as construction claim."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "pose",
+        "claim_type": "lexical_sense",
+        "statement": "the noun pose denotes a bodily position and, in a critical figurative use, an affected attitude",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "frequency:006",
+          "register:006",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "grammar_pattern:023",
+          "collocation:026",
+          "collocation:027",
+          "collocation:028",
+          "collocation:029",
+          "collocation:030",
+          "collocation:031",
+          "usage_note:010",
+          "usage_note:011",
+          "synonym:020",
+          "synonym:021",
+          "synonym:022",
+          "synonym:023",
+          "sense_boundary:007",
+          "definition:007",
+          "frequency:007",
+          "register:007",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "grammar_pattern:026",
+          "grammar_pattern:027",
+          "grammar_pattern:028",
+          "collocation:032",
+          "collocation:033",
+          "collocation:034",
+          "collocation:035",
+          "collocation:036",
+          "collocation:037",
+          "usage_note:012",
+          "usage_note:013",
+          "synonym:024",
+          "synonym:025",
+          "synonym:026",
+          "synonym:027",
+          "synonym:028",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Collins gives the countable noun sense of a particular position of the body. This fact is used to check the posture and affected-attitude nouns claim."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins distinguishes the figurative or affected attitude sense. This fact is used to check the posture and affected-attitude nouns claim."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Oxford's noun entry and examples support countable bodily poses and the established strike-a-pose pattern. This fact is used to check the posture and affected-attitude nouns claim."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "pose",
+        "claim_type": "sense_boundary",
+        "statement": "a rare separate verb pose means perplex or baffle and should not be merged with the placing senses",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "sense_boundary:008",
+          "definition:008",
+          "frequency:008",
+          "register:008",
+          "grammar_pattern:029",
+          "collocation:038",
+          "collocation:039",
+          "usage_note:014",
+          "synonym:029",
+          "synonym:030",
+          "synonym:031"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster records the separate puzzle or perplex sense. This fact is used to check the rare perplexing homograph claim."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "The separate perplexing sense is marked as uncommon in the dictionary comparison. This fact is used to check the rare perplexing homograph claim."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Etymonline treats the perplexing verb as a separate historical entry connected with appose or oppose. This fact is used to check the rare perplexing homograph claim."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "subject_form": "pose",
+        "claim_type": "pronunciation",
+        "statement": "pose is /poʊz/ in US English and /pəʊz/ in UK English with voiced /z/",
+        "union_ids": [
+          "U-007"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "pronunciation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Cambridge's pronunciation page lists the UK and US recordings and transcriptions. This fact is used to check the pronunciation claim."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "The final consonant in both Cambridge transcriptions is /z/, not /s/. This fact is used to check the pronunciation claim."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "subject_form": "pose",
+        "claim_type": "etymology",
+        "statement": "the main history, separate puzzle history, and directly useful derived forms are kept distinct",
+        "union_ids": [
+          "U-008"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "etymology:003",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "core_image:001",
+          "core_image:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Etymonline traces the main verb through Middle English and Old French to Late Latin pausare. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Etymonline notes the historical association between poser and Latin placing vocabulary. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline dates the posture noun as a development of the main verb. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "The etymological account places pause and the central pose history in the same Latin pausing family while keeping their modern forms distinct. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "The dictionary family and the separate puzzle sense support both modern uses of poser. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "The dictionary family lists poseur as the French-derived noun for an affected pretender. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-027",
+            "support_summary": "The inflection is the regular spelling and pronunciation pattern of the verb entry. This fact is used to check the etymology and useful word family claim."
+          },
+          {
+            "source_fact_id": "F-028",
+            "support_summary": "The derived adjective follows the productive English pattern for something that can be posed. This fact is used to check the etymology and useful word family claim."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [],
+  "resolutions": [],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "全ターゲット、関係、通常棚卸し候補、盲検候補、出典リンク、出典ユニオンを個別に確認した。",
+      "通常チェック、コールドレビュー、盲検レビューに未解決の指摘はなく、本文の意味方向・統語フレーム・例文訳・発音・語源の境界は整合している。"
+    ],
+    "reviewed_at": "2026-08-27T17:14:21.620108+00:00",
+    "blind_output_sha256": "0487880d45e4bc9b50981922a8b515cc63e7867fc30cf4cdf2eef86d4d02b067"
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}
