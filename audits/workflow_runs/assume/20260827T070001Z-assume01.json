@@ -23,7 +23,7 @@
   "started_at": "2026-08-27T07:00:01Z",
   "deadline_at": "2026-08-27T08:00:01Z",
   "pre_draft_deadline_at": "2026-08-27T07:20:01Z",
-  "last_heartbeat_at": "2026-08-27T07:25:30Z",
+  "last_heartbeat_at": "2026-08-27T07:27:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-27T07:00:08Z",
@@ -453,7 +453,7 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 0,
-    "total_duration_seconds": 402,
+    "total_duration_seconds": 422,
     "completed_at": "",
     "stages": [
       {
@@ -522,11 +522,11 @@
       {
         "id": "finding_resolution",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
-        "defects_detected": 0,
+        "input_bytes": 2200,
+        "duration_seconds": 20,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
@@ -645,7 +645,7 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 7,
+    "next_stage_index": 8,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -653,7 +653,8 @@
       "checker_passes",
       "cold_review",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "finding_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -676,6 +677,9 @@
       ],
       "blind_seal": [
         "audits/runs/a/assume/20260827T070001Z-assume01/blind_seal.json"
+      ],
+      "finding_resolution": [
+        "audits/runs/a/assume/20260827T070001Z-assume01/resolutions.json"
       ]
     }
   }
