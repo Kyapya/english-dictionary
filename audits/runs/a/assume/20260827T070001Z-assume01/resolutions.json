@@ -1,0 +1,40 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "normal-assume-20260827T071300Z",
+  "context_id": "normal-assume-context-20260827T071300Z",
+  "input_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "recorded_at": "2026-08-27T07:18:30Z",
+  "resolutions": [
+    {
+      "id": "NF-QUAL-001",
+      "finding_id": "NF-QUAL-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "problem_confirmed": false,
+      "rationale": "The concern is already addressed: `assume a debt/mortgage` is explicitly labeled as contract and financial usage, and the article does not claim a universal legal effect. No body change is required.",
+      "reason": "The qualification is present and proportionate.",
+      "change": "No article change; retain the existing financial qualification.",
+      "affected_target_ids": [
+        "collocation:012",
+        "usage_note:006"
+      ],
+      "affected_relation_ids": [
+        "example_translation:012",
+        "pattern_example_coverage:012",
+        "definition_usage_consistency:002"
+      ],
+      "resolved_body_sha256": "8e3dd1654a7234750782520ce407a5e8bef1b03b283c5894caff7213633af3e2",
+      "residual_risk": "Readers should still treat a specific mortgage or debt assumption as context-dependent rather than as legal advice.",
+      "evidence_links": [
+        "E-002",
+        "E-006"
+      ]
+    }
+  ]
+}
