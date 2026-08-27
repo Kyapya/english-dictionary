@@ -19,11 +19,11 @@
     "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "normal_review_complete",
   "started_at": "2026-08-27T07:00:01Z",
   "deadline_at": "2026-08-27T08:00:01Z",
   "pre_draft_deadline_at": "2026-08-27T07:20:01Z",
-  "last_heartbeat_at": "2026-08-27T07:21:00Z",
+  "last_heartbeat_at": "2026-08-27T07:22:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-27T07:00:08Z",
@@ -44,6 +44,16 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-27T07:10:10Z",
       "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-27T07:21:30Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-27T07:22:00Z",
+      "notes": "orchestrator completed checker_passes"
     }
   ],
   "stop_reason": "",
@@ -433,7 +443,7 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 0,
-    "total_duration_seconds": 182,
+    "total_duration_seconds": 302,
     "completed_at": "",
     "stages": [
       {
@@ -466,11 +476,11 @@
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
-        "defects_detected": 0,
+        "input_bytes": 54700,
+        "duration_seconds": 120,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "cold_review",
@@ -540,58 +550,58 @@
       {
         "id": "translation",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 9000,
+        "duration_seconds": 15,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "sense-structure",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 9000,
+        "duration_seconds": 15,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "frame-relation",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 9000,
+        "duration_seconds": 15,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "example-attribution",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 9000,
+        "duration_seconds": 15,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "qualification",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 9000,
+        "duration_seconds": 15,
+        "defects_detected": 1,
+        "completed": true
       },
       {
         "id": "pronunciation",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 9000,
+        "duration_seconds": 15,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 9000,
+        "duration_seconds": 15,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "process_rules": [
@@ -625,11 +635,12 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 3,
+    "next_stage_index": 4,
     "completed_stages": [
       "guard_start",
       "generation",
-      "mechanical_validator"
+      "mechanical_validator",
+      "checker_passes"
     ],
     "stage_outputs": {
       "generation": [
@@ -638,6 +649,11 @@
       ],
       "mechanical_validator": [
         "audits/runs/a/assume/20260827T070001Z-assume01/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/a/assume/20260827T070001Z-assume01/source_inventory.json",
+        "audits/runs/a/assume/20260827T070001Z-assume01/check_passes/",
+        "audits/runs/a/assume/20260827T070001Z-assume01/pass_findings.json"
       ]
     }
   }
