@@ -1,0 +1,969 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/g/genuine.md",
+  "cycle_id": "20260827T111225Z-genuine01",
+  "cycle_dir": "audits/runs/g/genuine/20260827T111225Z-genuine01",
+  "body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/source_inventory.json",
+      "sha256": "adc8ffc079f4bacbbff087e382c3c4214a55e088465205db2d5c126e93ecd79f",
+      "stage": "source_inventory",
+      "run_id": "source-genuine-20260827T112000Z",
+      "context_id": "source-genuine-context-20260827T112000Z",
+      "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "prompt_sha256": "8c4e4a8ae1b450299fdad20b7deac00c678b550af5c52cff6e517070a4f6ac0d",
+      "recorded_at": "2026-08-27T11:26:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/pass_findings.json",
+      "sha256": "08f10e263dd7a7ea836fa696a70eca56faea7a80a2e08901d957929dbdf8a379",
+      "stage": "normal_review",
+      "run_id": "normal-genuine-20260827T112700Z",
+      "context_id": "normal-genuine-context-20260827T112700Z",
+      "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "prompt_sha256": "64a1c9136df92e3f7df82277c307a46e909db9e9d75fb8f4316534a2fa59d709",
+      "recorded_at": "2026-08-27T11:29:00Z"
+    },
+    "cold_review": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/cold_review.json",
+      "sha256": "b1c7c7fd0149d2e68f2df4e6e3b76cd70148abc8963373f6e0a3e17515cf694b",
+      "stage": "cold_review",
+      "run_id": "cold-genuine-20260827T113100Z",
+      "context_id": "cold-genuine-context-20260827T113100Z",
+      "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
+      "recorded_at": "2026-08-27T11:30:00Z"
+    },
+    "resolutions": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/resolutions.json",
+      "sha256": "1633440e8e79bc734b0f8ddd77c185cf5176783d270ce1ffbfb37b42e897fbef",
+      "stage": "resolutions",
+      "run_id": "normal-genuine-20260827T112700Z",
+      "context_id": "normal-genuine-context-20260827T112700Z",
+      "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+      "recorded_at": "2026-08-27T11:31:30Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/final_blind.json",
+      "sha256": "7e856158eb11d50f3388e4107cbf9e758432f6f98b41b364a9a7eaf32c197d8c",
+      "stage": "final_blind",
+      "run_id": "blind-genuine-20260827T113400Z",
+      "context_id": "blind-genuine-context-20260827T113400Z",
+      "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "prompt_sha256": "eeb2ba17b12eeaec5e125417caa34eb6c0e848ce3661cca0bb47b9ed61957f9b",
+      "recorded_at": "2026-08-27T11:31:00Z"
+    },
+    "blind_seal": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/blind_seal.json",
+      "sha256": "3afd596d9062887b2943503fbf3d7843a106ebbc570a039b7f9b1afb6c2bf913",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/g/genuine/20260827T111225Z-genuine01/final_review.json",
+      "sha256": "259264015d03e5bfc2f236e151351062aec0ef2ee032fcba0068656d26231706",
+      "stage": "final_review",
+      "run_id": "blind-genuine-20260827T113400Z",
+      "context_id": "blind-genuine-context-20260827T113400Z",
+      "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "prompt_sha256": "dd068c4ca04bc5ccf122acab38af1ef8c6948e1ba54b3c5e83f3b4aaef5ffdad",
+      "recorded_at": "2026-08-27T11:56:00Z"
+    }
+  },
+  "source_first_audit": {
+    "article_comparison_started_at": "2026-08-27T11:25:00Z",
+    "claim_units": [
+      {
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003"
+        ],
+        "claim_type": "lexical_sense",
+        "id": "C-001",
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          }
+        ],
+        "statement": "describe objects, materials, documents, and products as real rather than counterfeit or imitation",
+        "subject_form": "genuine",
+        "union_ids": [
+          "U-001"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "usage_note:003",
+          "usage_note:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007",
+          "antonym:008",
+          "core_image:004"
+        ],
+        "claim_type": "lexical_sense",
+        "id": "C-002",
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          }
+        ],
+        "statement": "describe people, feelings, apologies, and attitudes as sincere rather than performed",
+        "subject_form": "genuine",
+        "union_ids": [
+          "U-002"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "antonym:009",
+          "antonym:010",
+          "antonym:011",
+          "antonym:012",
+          "antonym:013"
+        ],
+        "claim_type": "lexical_sense",
+        "id": "C-003",
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          }
+        ],
+        "statement": "extend genuine to actual abstract problems, needs, opportunities, and improvements",
+        "subject_form": "genuine",
+        "union_ids": [
+          "U-003"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "etymology:001",
+          "etymology:002"
+        ],
+        "claim_type": "pronunciation_and_etymology",
+        "id": "C-004",
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          }
+        ],
+        "statement": "record the pronunciation and cautiously framed Latin etymology",
+        "subject_form": "genuine",
+        "union_ids": [
+          "U-004"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003"
+        ],
+        "claim_type": "derived_form",
+        "id": "C-005",
+        "source_supports": [
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          }
+        ],
+        "statement": "record the directly useful derived forms and fixed expression",
+        "subject_form": "genuine",
+        "union_ids": [
+          "U-005"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "usage_note:001",
+          "usage_note:002",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004",
+          "usage_note:003",
+          "usage_note:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007",
+          "antonym:008",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "antonym:009",
+          "antonym:010",
+          "antonym:011",
+          "antonym:012",
+          "antonym:013"
+        ],
+        "claim_type": "usage_distinction",
+        "id": "C-006",
+        "source_supports": [
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "The cited source directly supports this atomic fact through its definition, example, usage note, or etymological discussion."
+          }
+        ],
+        "statement": "separate genuine from authentic, real, and original in close comparisons",
+        "subject_form": "genuine",
+        "union_ids": [
+          "U-006"
+        ]
+      }
+    ],
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "notes": "Four independent general dictionaries converge on the object, sincerity, and actual/abstract sense families.",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-005",
+          "F-006",
+          "F-010",
+          "F-011",
+          "F-014",
+          "F-015",
+          "F-021",
+          "F-022",
+          "F-023"
+        ],
+        "status": "covered"
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "notes": "Dictionary examples and adjective placement support attributive and predicative use and the main noun frames.",
+        "source_fact_ids": [
+          "F-007",
+          "F-013",
+          "F-022"
+        ],
+        "status": "covered"
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "notes": "The article retains the directly useful adverb, noun, and fixed expression.",
+        "source_fact_ids": [
+          "F-016",
+          "F-024"
+        ],
+        "status": "covered"
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "notes": "Object authenticity, product/material descriptions, and the authentic/original boundary are included with no legal guarantee implied.",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-014",
+          "F-021",
+          "F-023"
+        ],
+        "status": "covered"
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "notes": "General standard usage and abstract/business collocations are covered; article frequency scores are editorial learning aids, not corpus measurements.",
+        "source_fact_ids": [
+          "F-006",
+          "F-007",
+          "F-011",
+          "F-015",
+          "F-022"
+        ],
+        "status": "covered"
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "notes": "Two pronunciation references and independent etymology accounts are reconciled with the knee explanation explicitly qualified.",
+        "source_fact_ids": [
+          "F-004",
+          "F-008",
+          "F-009",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020"
+        ],
+        "status": "covered"
+      }
+    ],
+    "inventory_completed_at": "2026-08-27T11:24:00Z",
+    "inventory_completed_before_article_comparison": true,
+    "limits": {
+      "max_facts": 48,
+      "max_final_attempts": 2,
+      "max_post_cold_rechecks": 1,
+      "max_research_rounds": 2,
+      "max_sources": 6
+    },
+    "open_questions": [],
+    "profile": "standard",
+    "profile_reason": "The headword is a common adjective with clear object, sincerity, and actual-use senses plus bounded pronunciation and etymology notes.",
+    "research_status": "complete",
+    "source_union": [
+      {
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003"
+        ],
+        "canonical_statement": "describe objects, materials, documents, and products as real rather than counterfeit or imitation",
+        "disposition": "integrated",
+        "id": "U-001",
+        "rationale": "Independent source facts were reconciled into the article without extending the claim beyond the evidence.",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-010",
+          "F-014"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "usage_note:003",
+          "usage_note:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007",
+          "antonym:008",
+          "core_image:004"
+        ],
+        "canonical_statement": "describe people, feelings, apologies, and attitudes as sincere rather than performed",
+        "disposition": "integrated",
+        "id": "U-002",
+        "rationale": "Independent source facts were reconciled into the article without extending the claim beyond the evidence.",
+        "source_fact_ids": [
+          "F-002",
+          "F-006",
+          "F-011",
+          "F-015"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "collocation:019",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "antonym:009",
+          "antonym:010",
+          "antonym:011",
+          "antonym:012",
+          "antonym:013"
+        ],
+        "canonical_statement": "extend genuine to actual abstract problems, needs, opportunities, and improvements",
+        "disposition": "integrated",
+        "id": "U-003",
+        "rationale": "Independent source facts were reconciled into the article without extending the claim beyond the evidence.",
+        "source_fact_ids": [
+          "F-003",
+          "F-007",
+          "F-012",
+          "F-013",
+          "F-022"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "etymology:001",
+          "etymology:002"
+        ],
+        "canonical_statement": "record the pronunciation and cautiously framed Latin etymology",
+        "disposition": "integrated",
+        "id": "U-004",
+        "rationale": "Independent source facts were reconciled into the article without extending the claim beyond the evidence.",
+        "source_fact_ids": [
+          "F-004",
+          "F-008",
+          "F-009",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003"
+        ],
+        "canonical_statement": "record the directly useful derived forms and fixed expression",
+        "disposition": "integrated",
+        "id": "U-005",
+        "rationale": "Independent source facts were reconciled into the article without extending the claim beyond the evidence.",
+        "source_fact_ids": [
+          "F-016",
+          "F-024"
+        ]
+      },
+      {
+        "article_target_ids": [
+          "usage_note:001",
+          "usage_note:002",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003",
+          "antonym:004",
+          "usage_note:003",
+          "usage_note:004",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "synonym:009",
+          "antonym:005",
+          "antonym:006",
+          "antonym:007",
+          "antonym:008",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:010",
+          "synonym:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "antonym:009",
+          "antonym:010",
+          "antonym:011",
+          "antonym:012",
+          "antonym:013"
+        ],
+        "canonical_statement": "separate genuine from authentic, real, and original in close comparisons",
+        "disposition": "integrated",
+        "id": "U-006",
+        "rationale": "Independent source facts were reconciled into the article without extending the claim beyond the evidence.",
+        "source_fact_ids": [
+          "F-021",
+          "F-023"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "facts": [
+          {
+            "form": "genuine",
+            "id": "F-001",
+            "kind": "lexical_sense",
+            "source_detail": "Merriam-Webster defines the adjective as actual rather than what it is represented or purported to be.",
+            "statement": "is real and not counterfeit or imitation"
+          },
+          {
+            "form": "genuine",
+            "id": "F-002",
+            "kind": "lexical_sense",
+            "source_detail": "Merriam-Webster includes the sense of being sincerely and honestly felt.",
+            "statement": "describes something sincerely or honestly felt"
+          },
+          {
+            "form": "genuine",
+            "id": "F-003",
+            "kind": "lexical_sense",
+            "source_detail": "Merriam-Webster records actual, true, or exact as a use of genuine.",
+            "statement": "can mean actual or true rather than apparent"
+          },
+          {
+            "form": "genuine",
+            "id": "F-004",
+            "kind": "pronunciation",
+            "source_detail": "Merriam-Webster lists the common pronunciation as JEN-yə-wən and records a variant ending.",
+            "statement": "has the common pronunciation /ˈdʒenjuɪn/ with a documented weak-vowel variant"
+          }
+        ],
+        "id": "S-001",
+        "independence_group": "general_lexicon_a",
+        "locator": "https://www.merriam-webster.com/dictionary/genuine",
+        "source_role": "general_lexicon",
+        "source_type": "general_dictionary",
+        "title": "Merriam-Webster: genuine"
+      },
+      {
+        "facts": [
+          {
+            "form": "genuine",
+            "id": "F-005",
+            "kind": "lexical_sense",
+            "source_detail": "Oxford Learner's Dictionaries defines a genuine object as real and exactly what it appears to be.",
+            "statement": "is exactly what it appears or is claimed to be"
+          },
+          {
+            "form": "genuine",
+            "id": "F-006",
+            "kind": "lexical_sense",
+            "source_detail": "Oxford Learner's Dictionaries gives genuine for people, feelings, concern, and attempts that are sincere or honest.",
+            "statement": "describes a person or feeling that is sincere, honest, and trustworthy"
+          },
+          {
+            "form": "genuine",
+            "id": "F-007",
+            "kind": "usage",
+            "source_detail": "Oxford examples show genuine person, genuine concern, and genuine attempt.",
+            "statement": "occurs with people, concern, and attempts in the sincerity sense"
+          },
+          {
+            "form": "genuine",
+            "id": "F-008",
+            "kind": "pronunciation",
+            "source_detail": "Oxford Learner's Dictionaries lists the headword pronunciation with first-syllable stress.",
+            "statement": "is listed as /ˈdʒenjuɪn/ in learner-dictionary pronunciation"
+          },
+          {
+            "form": "genuine",
+            "id": "F-009",
+            "kind": "etymology",
+            "source_detail": "Oxford traces the word to Latin genuinus and dates its English use to the late sixteenth century.",
+            "statement": "comes from Latin genuinus and entered English in the late sixteenth century"
+          }
+        ],
+        "id": "S-002",
+        "independence_group": "general_lexicon_b",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/genuine",
+        "source_role": "general_lexicon",
+        "source_type": "general_dictionary",
+        "title": "Oxford Learner's Dictionaries: genuine"
+      },
+      {
+        "facts": [
+          {
+            "form": "genuine",
+            "id": "F-010",
+            "kind": "lexical_sense",
+            "source_detail": "Cambridge Dictionary defines a genuine thing as real and not artificial or imagined.",
+            "statement": "means real rather than artificial or imagined"
+          },
+          {
+            "form": "genuine",
+            "id": "F-011",
+            "kind": "lexical_sense",
+            "source_detail": "Cambridge gives genuine for people and emotions that are honest and sincere.",
+            "statement": "describes honest people and emotions"
+          },
+          {
+            "form": "genuine",
+            "id": "F-012",
+            "kind": "usage",
+            "source_detail": "Cambridge examples illustrate genuine person and genuine surprise in ordinary contexts.",
+            "statement": "is used in examples such as genuine person and genuine surprise"
+          },
+          {
+            "form": "genuine",
+            "id": "F-013",
+            "kind": "grammar",
+            "source_detail": "The dictionary entry presents adjective uses before nouns and in predicative descriptions.",
+            "statement": "is used attributively before nouns and predicatively after be"
+          }
+        ],
+        "id": "S-003",
+        "independence_group": "general_lexicon_c",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/genuine",
+        "source_role": "general_lexicon",
+        "source_type": "general_dictionary",
+        "title": "Cambridge Dictionary: genuine"
+      },
+      {
+        "facts": [
+          {
+            "form": "genuine",
+            "id": "F-014",
+            "kind": "lexical_sense",
+            "source_detail": "Collins contrasts genuine with counterfeit and fake and gives authentic as a close sense.",
+            "statement": "means not counterfeit, fake, or spurious and can mean authentic"
+          },
+          {
+            "form": "genuine",
+            "id": "F-015",
+            "kind": "lexical_sense",
+            "source_detail": "Collins includes the sense of being sincere, frank, or not pretending.",
+            "statement": "can describe a frank or sincere person or feeling"
+          },
+          {
+            "form": "genuine",
+            "id": "F-016",
+            "kind": "derived_form",
+            "source_detail": "Collins lists genuinely and genuineness among derivatives and related forms.",
+            "statement": "has the derived adverb genuinely and noun genuineness"
+          },
+          {
+            "form": "genuine",
+            "id": "F-017",
+            "kind": "etymology",
+            "source_detail": "Collins traces the word to Latin genuinus and connects it with gignere.",
+            "statement": "is related to Latin genuinus from gignere to beget or produce"
+          }
+        ],
+        "id": "S-004",
+        "independence_group": "general_lexicon_d",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/genuine",
+        "source_role": "general_lexicon",
+        "source_type": "general_dictionary",
+        "title": "Collins English Dictionary: genuine"
+      },
+      {
+        "facts": [
+          {
+            "form": "genuine",
+            "id": "F-018",
+            "kind": "etymology",
+            "source_detail": "Online Etymology Dictionary gives Latin genuinus as native, natural, or innate.",
+            "statement": "has the Latin sense native, natural, or innate in its etymological background"
+          },
+          {
+            "form": "genuine",
+            "id": "F-019",
+            "kind": "etymology",
+            "source_detail": "Online Etymology Dictionary relates genuinus to gignere, beget or produce.",
+            "statement": "is connected in one account with the Latin root gignere to beget or produce"
+          },
+          {
+            "form": "genuine",
+            "id": "F-020",
+            "kind": "etymology",
+            "source_detail": "The etymology discussion records the genu knee association but notes the explanation is not the only account.",
+            "statement": "has an alternative knee-based explanation that should be treated as disputed"
+          }
+        ],
+        "id": "S-005",
+        "independence_group": "etymology_reference_a",
+        "locator": "https://www.etymonline.com/word/genuine",
+        "source_role": "etymology_reference",
+        "source_type": "etymology_reference",
+        "title": "Online Etymology Dictionary: genuine"
+      },
+      {
+        "facts": [
+          {
+            "form": "genuine",
+            "id": "F-021",
+            "kind": "usage_distinction",
+            "source_detail": "Merriam-Webster thesaurus material distinguishes genuine from neighboring terms by its focus on non-falsity and actual character.",
+            "statement": "overlaps with authentic and real but emphasizes correspondence to claimed origin or quality"
+          },
+          {
+            "form": "genuine",
+            "id": "F-022",
+            "kind": "usage",
+            "source_detail": "Merriam-Webster usage material and dictionary examples support genuine with abstract qualities, concerns, and improvements.",
+            "statement": "modifies abstract nouns such as improvement, interest, concern, and demand"
+          },
+          {
+            "form": "genuine",
+            "id": "F-023",
+            "kind": "usage_distinction",
+            "source_detail": "The real/authentic/original comparison supports separating genuineness from being the first-made original.",
+            "statement": "differs from original because a later legitimate replacement can still be genuine"
+          },
+          {
+            "form": "genuine",
+            "id": "F-024",
+            "kind": "related_expression",
+            "source_detail": "Dictionary usage records the genuine article as an established expression meaning the real thing.",
+            "statement": "forms the fixed expression genuine article for a completely real example"
+          }
+        ],
+        "id": "S-006",
+        "independence_group": "usage_reference_a",
+        "locator": "https://www.merriam-webster.com/thesaurus/genuine",
+        "source_role": "usage_reference",
+        "source_type": "usage_reference",
+        "title": "Merriam-Webster Thesaurus: genuine"
+      }
+    ],
+    "stop_reason": "coverage_axes_closed",
+    "usage": {
+      "facts_used": 24,
+      "final_attempts_used": 1,
+      "post_cold_rechecks_used": 0,
+      "research_rounds_used": 2,
+      "sources_used": 6
+    },
+    "version": "source_first_audit_v2"
+  },
+  "findings": [
+    {
+      "id": "NF-QUAL-001",
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 45,
+        "line_end": 45,
+        "exact_quote": "・`genuine leather/gold/diamond`"
+      },
+      "severity": "minor",
+      "rationale": "The material collocation `genuine leather/gold/diamond` is specialist commercial language; the article already limits the claim to material authenticity and does not infer quality, legality, or provenance beyond the label.",
+      "suggested_direction": "retain the explicit qualification",
+      "origin": "check_pass:qualification"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "NF-QUAL-001",
+      "finding_id": "NF-QUAL-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "problem_confirmed": false,
+      "rationale": "The material collocation is already bounded to the authenticity of the stated material; the article explicitly says genuine does not guarantee quality, legality, or provenance. No body change is required.",
+      "reason": "The qualification is present and proportionate.",
+      "change": "No article change; retain the material-authenticity qualification.",
+      "affected_target_ids": [
+        "collocation:002",
+        "usage_note:001"
+      ],
+      "affected_relation_ids": [
+        "example_translation:002",
+        "pattern_example_coverage:002"
+      ],
+      "resolved_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+      "residual_risk": "Readers should still treat a material label as a claim about the material, not as a general quality guarantee.",
+      "evidence_links": [
+        "E-001",
+        "E-006"
+      ]
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All 89 article targets and 51 article relations were individually reconciled.",
+      "The material-collocation observation was adjudicated as already covered by the explicit authenticity qualification.",
+      "Source-first coverage is complete with six integrated unions and no unresolved findings."
+    ],
+    "reviewed_at": "2026-08-27T11:56:00Z",
+    "blind_output_sha256": "1ca61ddd46952bbae8c5d3a45fa4568837f5768b8fe562c903a3144d53abd4a7"
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

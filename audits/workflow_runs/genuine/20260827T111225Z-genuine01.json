@@ -4,7 +4,7 @@
   "deadline_at": "2026-08-27T12:12:25Z",
   "entry_path": "entries/g/genuine.md",
   "headword": "genuine",
-  "last_heartbeat_at": "2026-08-27T11:55:01Z",
+  "last_heartbeat_at": "2026-08-27T12:00:00Z",
   "limits": {
     "max_candidate_pages": 18,
     "max_elapsed_minutes": 60,
@@ -71,7 +71,7 @@
         "instruction_bytes": 0
       }
     ],
-    "completed_at": null,
+    "completed_at": "2026-08-27T12:00:00Z",
     "process_rules": [
       {
         "completed": true,
@@ -165,10 +165,46 @@
         "input_bytes": 3000,
         "instruction_bytes": 0,
         "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 1,
+        "duration_seconds": 300,
+        "id": "finding_resolution",
+        "input_bytes": 2200,
+        "instruction_bytes": 0,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 1400,
+        "id": "final_review",
+        "input_bytes": 136000,
+        "instruction_bytes": 3066,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 50,
+        "id": "status_update",
+        "input_bytes": 29000,
+        "instruction_bytes": 0,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 30,
+        "id": "export",
+        "input_bytes": 574440,
+        "instruction_bytes": 0,
+        "revision_count": 0
       }
     ],
     "total_cycles": 1,
-    "total_duration_seconds": 1675,
+    "total_duration_seconds": 2855,
     "total_revisions": 1
   },
   "open_questions": [],
@@ -561,9 +597,13 @@
       "checker_passes",
       "cold_review",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "finding_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
-    "next_stage_index": 7,
+    "next_stage_index": 11,
     "stage_outputs": {
       "blind_seal": [
         "audits/runs/g/genuine/20260827T111225Z-genuine01/blind_seal.json"
@@ -576,8 +616,19 @@
       "cold_review": [
         "audits/runs/g/genuine/20260827T111225Z-genuine01/cold_review.json"
       ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
+      ],
       "final_blind": [
         "audits/runs/g/genuine/20260827T111225Z-genuine01/final_blind.json"
+      ],
+      "final_review": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/final_review.json",
+        "audits/g/genuine.json"
+      ],
+      "finding_resolution": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/resolutions.json"
       ],
       "generation": [
         "entries/g/genuine.md",
@@ -585,6 +636,11 @@
       ],
       "mechanical_validator": [
         "audits/runs/g/genuine/20260827T111225Z-genuine01/validator.json"
+      ],
+      "status_update": [
+        "entries/g/genuine.md",
+        "queue/words.csv",
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/status_update.json"
       ]
     }
   },
@@ -598,7 +654,7 @@
   },
   "run_id": "20260827T111225Z-genuine01",
   "schema_version": "entry_workflow_run_v1",
-  "stage": "blind_seal",
+  "stage": "completed",
   "stage_history": [
     {
       "notes": "run initialized",
@@ -634,11 +690,21 @@
       "notes": "final blind output sealed before reconciliation",
       "recorded_at": "2026-08-27T11:55:01Z",
       "stage": "blind_seal_complete"
+    },
+    {
+      "notes": "final target, relation, evidence, and source reconciliation passed",
+      "recorded_at": "2026-08-27T11:56:00Z",
+      "stage": "final_review_complete"
+    },
+    {
+      "notes": "dictionary exports updated; workflow run complete",
+      "recorded_at": "2026-08-27T12:00:00Z",
+      "stage": "completed"
     }
   ],
   "started_at": "2026-08-27T11:12:25Z",
-  "status": "in_progress",
-  "stop_reason": null,
+  "status": "completed",
+  "stop_reason": "",
   "usage": {
     "candidate_pages": 6,
     "research_queries": 10
