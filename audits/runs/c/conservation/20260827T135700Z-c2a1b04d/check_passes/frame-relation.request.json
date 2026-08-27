@@ -1,0 +1,874 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v6.md",
+  "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "line": 42,
+        "text": "1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約"
+      },
+      {
+        "line": 44,
+        "text": "【日本語訳・定義】水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、計画的・慎重に利用し管理すること。利用を一切禁止することではなく、将来も利用できる状態を保つことに重点がある。  "
+      },
+      {
+        "line": 142,
+        "text": "2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復"
+      },
+      {
+        "line": 144,
+        "text": "【日本語訳・定義】絵画、彫刻、文書、遺跡、歴史的建造物などの文化遺産を、劣化や損傷から守り、その材料、情報、価値を将来へ引き継ぐ専門的な実践・工程。調査、記録、処置、予防的な環境管理を含み、常に元の外観へ作り直すことを意味しない。  "
+      },
+      {
+        "line": 241,
+        "text": "3. 【名詞・不可算／物理学・化学】物理量の保存、保存則"
+      },
+      {
+        "line": 243,
+        "text": "【日本語訳・定義】ある系と条件のもとで、エネルギー、運動量、質量、電荷などの物理量の総量が、移動したり別の形に変換されたりしても一定に保たれること。また、その関係を述べる法則。系の一部の量や形が変化しないという意味ではなく、境界を定めた全体の収支が変わらないという意味である。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 42,
+        "text": "1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約"
+      },
+      {
+        "line": 50,
+        "text": "【文法パターン】`conservation of 〈natural resource〉`＝～の保全／`wildlife/forest/marine conservation`＝野生生物・森林・海洋の保全／`energy/water conservation`＝省エネルギー・節水／`conservation efforts/measures`＝保全の取り組み・対策／`promote/support conservation`＝保全を促進・支援する  "
+      },
+      {
+        "line": 142,
+        "text": "2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復"
+      },
+      {
+        "line": 150,
+        "text": "【文法パターン】`conservation of 〈artwork/manuscript/building〉`＝～の保存修復／`art/heritage conservation`＝美術品・文化遺産の保存／`conservation treatment`＝保存修復処置／`conservation work`＝保存修復作業／`a conservation laboratory`＝保存修復研究室／`conservation and restoration`＝保存修復と復元  "
+      },
+      {
+        "line": 241,
+        "text": "3. 【名詞・不可算／物理学・化学】物理量の保存、保存則"
+      },
+      {
+        "line": 249,
+        "text": "【文法パターン】`conservation of 〈energy/momentum/mass/charge〉`＝エネルギー・運動量・質量・電荷の保存／`the law/principle of conservation of 〈quantity〉`＝～保存の法則・原理／`a conservation law`＝保存則／`obey/test conservation of 〈quantity〉`＝～の保存則に従う・～の保存を検証する  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 42,
+        "text": "1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約"
+      },
+      {
+        "line": 52,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 54,
+        "text": "・`conservation of 〈natural resource〉`  "
+      },
+      {
+        "line": 55,
+        "text": "用途: 水、森林、土壌などの自然資源を、使い切ったり損なったりしないよう管理することを表す。  "
+      },
+      {
+        "line": 56,
+        "text": "例: The region introduced strict conservation of groundwater after several dry years.  "
+      },
+      {
+        "line": 57,
+        "text": "訳: その地域は数年続いた干ばつの後、地下水の厳格な保全を導入した。  "
+      },
+      {
+        "line": 59,
+        "text": "・`wildlife conservation`  "
+      },
+      {
+        "line": 60,
+        "text": "用途: 野生動物、その生息地、個体群を保護・管理する活動を表す。  "
+      },
+      {
+        "line": 61,
+        "text": "例: Wildlife conservation depends on protecting habitats as well as individual animals.  "
+      },
+      {
+        "line": 62,
+        "text": "訳: 野生生物の保全には、個々の動物だけでなく生息地を守ることも必要である。  "
+      },
+      {
+        "line": 64,
+        "text": "・`energy conservation`  "
+      },
+      {
+        "line": 65,
+        "text": "用途: エネルギーの使用量や浪費を減らし、限られた資源を効率よく使うことを表す。  "
+      },
+      {
+        "line": 66,
+        "text": "例: The school installed motion sensors as part of its energy conservation program.  "
+      },
+      {
+        "line": 67,
+        "text": "訳: その学校は省エネルギー計画の一環として人感センサーを設置した。  "
+      },
+      {
+        "line": 69,
+        "text": "・`water conservation`  "
+      },
+      {
+        "line": 70,
+        "text": "用途: 水の使用を抑え、供給源を将来の需要のために維持することを表す。  "
+      },
+      {
+        "line": 71,
+        "text": "例: Rain barrels were provided to residents as a water conservation measure.  "
+      },
+      {
+        "line": 72,
+        "text": "訳: 節水対策として、住民に雨水貯留タンクが配られた。  "
+      },
+      {
+        "line": 74,
+        "text": "・`conservation efforts/measures`  "
+      },
+      {
+        "line": 75,
+        "text": "用途: 自然環境や資源を守るための具体的な努力・政策・対策をまとめて表す。  "
+      },
+      {
+        "line": 76,
+        "text": "例: The new conservation measures reduced logging in the protected forest.  "
+      },
+      {
+        "line": 77,
+        "text": "訳: 新しい保全対策によって、保護林での伐採が減った。  "
+      },
+      {
+        "line": 79,
+        "text": "・`marine conservation`  "
+      },
+      {
+        "line": 80,
+        "text": "用途: 海洋の生態系、魚類、沿岸環境を保護・管理する活動を表す。  "
+      },
+      {
+        "line": 81,
+        "text": "例: The research station funds marine conservation around the coral reef.  "
+      },
+      {
+        "line": 82,
+        "text": "訳: その研究所はサンゴ礁周辺の海洋保全に資金を提供している。  "
+      },
+      {
+        "line": 142,
+        "text": "2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復"
+      },
+      {
+        "line": 152,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 154,
+        "text": "・`conservation of 〈artwork〉`  "
+      },
+      {
+        "line": 155,
+        "text": "用途: 絵画、彫刻、工芸品などを調査・処置して安定した状態に保つことを表す。  "
+      },
+      {
+        "line": 156,
+        "text": "例: The conservation of the oil painting took six months because the canvas was fragile.  "
+      },
+      {
+        "line": 157,
+        "text": "訳: その油彩画はキャンバスがもろかったため、保存修復に6か月かかった。  "
+      },
+      {
+        "line": 159,
+        "text": "・`art/heritage conservation`  "
+      },
+      {
+        "line": 160,
+        "text": "用途: 美術作品や文化遺産を対象とする専門分野・活動を表す。  "
+      },
+      {
+        "line": 161,
+        "text": "例: She studied heritage conservation before joining the national museum.  "
+      },
+      {
+        "line": 162,
+        "text": "訳: 彼女は国立博物館に入る前に文化遺産保存を学んだ。  "
+      },
+      {
+        "line": 164,
+        "text": "・`conservation treatment`  "
+      },
+      {
+        "line": 165,
+        "text": "用途: 専門家が作品や資料に施す具体的な保存修復処置を表す。  "
+      },
+      {
+        "line": 166,
+        "text": "例: The conservator recommended a gentle conservation treatment for the cracked varnish.  "
+      },
+      {
+        "line": 167,
+        "text": "訳: 保存修復家は、ひびの入ったニスに穏やかな保存修復処置を勧めた。  "
+      },
+      {
+        "line": 169,
+        "text": "・`conservation work`  "
+      },
+      {
+        "line": 170,
+        "text": "用途: 文化財の安定化、清掃、補修、記録などの保存修復作業をまとめて表す。  "
+      },
+      {
+        "line": 171,
+        "text": "例: Conservation work on the medieval manuscript revealed ink beneath a later repair.  "
+      },
+      {
+        "line": 172,
+        "text": "訳: その中世写本の保存修復作業によって、後世の補修の下にあるインクが明らかになった。  "
+      },
+      {
+        "line": 174,
+        "text": "・`conservation of historic buildings`  "
+      },
+      {
+        "line": 175,
+        "text": "用途: 歴史的建造物の材料、構造、特徴を調べ、損傷を抑えて維持することを表す。  "
+      },
+      {
+        "line": 176,
+        "text": "例: The conservation of historic buildings must respect evidence of their earlier alterations.  "
+      },
+      {
+        "line": 177,
+        "text": "訳: 歴史的建造物の保存では、過去の改変の証拠を尊重しなければならない。  "
+      },
+      {
+        "line": 179,
+        "text": "・`a conservation laboratory`  "
+      },
+      {
+        "line": 180,
+        "text": "用途: 美術品・文化財の材料分析、状態確認、処置を行う施設を表す。  "
+      },
+      {
+        "line": 181,
+        "text": "例: The museum’s conservation laboratory monitors humidity around the wooden sculpture.  "
+      },
+      {
+        "line": 182,
+        "text": "訳: その博物館の保存修復研究室は、木彫像の周囲の湿度を監視している。  "
+      },
+      {
+        "line": 241,
+        "text": "3. 【名詞・不可算／物理学・化学】物理量の保存、保存則"
+      },
+      {
+        "line": 251,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 253,
+        "text": "・`the law of conservation of energy`  "
+      },
+      {
+        "line": 254,
+        "text": "用途: 孤立した系の全エネルギーが、形を変えても一定であるという法則を表す。  "
+      },
+      {
+        "line": 255,
+        "text": "例: The law of conservation of energy explains why the total energy of the isolated system stayed constant.  "
+      },
+      {
+        "line": 256,
+        "text": "訳: エネルギー保存則は、その孤立系の全エネルギーが一定に保たれた理由を説明する。  "
+      },
+      {
+        "line": 258,
+        "text": "・`conservation of momentum`  "
+      },
+      {
+        "line": 259,
+        "text": "用途: 外部からの正味の力積が無視できる系で、全運動量が衝突の前後で等しいことを表す。  "
+      },
+      {
+        "line": 260,
+        "text": "例: The students used conservation of momentum to calculate the speeds after the collision.  "
+      },
+      {
+        "line": 261,
+        "text": "訳: 学生たちは運動量保存を使って、衝突後の速度を計算した。  "
+      },
+      {
+        "line": 263,
+        "text": "・`conservation of mass`  "
+      },
+      {
+        "line": 264,
+        "text": "用途: 通常の化学反応で原子が消滅・生成せず、反応前後の質量収支が保たれることを表す。  "
+      },
+      {
+        "line": 265,
+        "text": "例: The balanced equation reflects conservation of mass: the atoms are rearranged, not created or destroyed.  "
+      },
+      {
+        "line": 266,
+        "text": "訳: 係数をそろえた化学式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。  "
+      },
+      {
+        "line": 268,
+        "text": "・`conservation of charge`  "
+      },
+      {
+        "line": 269,
+        "text": "用途: 閉じた収支で電荷が勝手に生じたり消えたりせず、電気回路や反応で電荷の総量が保たれることを表す。  "
+      },
+      {
+        "line": 270,
+        "text": "例: Kirchhoff’s current law follows from conservation of electric charge at a circuit junction.  "
+      },
+      {
+        "line": 271,
+        "text": "訳: キルヒホッフの電流則は、回路の接点で電気の電荷が保存されることから導かれる。  "
+      },
+      {
+        "line": 273,
+        "text": "・`a conservation law`  "
+      },
+      {
+        "line": 274,
+        "text": "用途: 特定の物理量の総量が、許された変化の前後で一定であることを述べる法則を表す。  "
+      },
+      {
+        "line": 275,
+        "text": "例: A simulation is suspect if it changes total charge without an external source, because it violates a conservation law.  "
+      },
+      {
+        "line": 276,
+        "text": "訳: 外部源なしに全電荷を変えるシミュレーションは、保存則に反するため疑わしい。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 42,
+        "text": "1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約"
+      },
+      {
+        "line": 89,
+        "text": "【類義語】"
+      },
+      {
+        "line": 91,
+        "text": "・preservation  "
+      },
+      {
+        "line": 92,
+        "text": "定義: 損傷、変化、消失から守り、元の状態に近いまま残すこと。  "
+      },
+      {
+        "line": 93,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 94,
+        "text": "違い: `preservation` は変化を避けて現状を保つ焦点が強い。`conservation` は、自然資源を管理しながら使うことや、文化財を処置して安定させることも含む。  "
+      },
+      {
+        "line": 95,
+        "text": "例: The preservation of the wetland prevents developers from draining it.  "
+      },
+      {
+        "line": 96,
+        "text": "訳: その湿地の保存・保全は、開発業者が排水してしまうのを防ぐ。  "
+      },
+      {
+        "line": 98,
+        "text": "・protection  "
+      },
+      {
+        "line": 99,
+        "text": "定義: 危険、損害、攻撃などから守ること。  "
+      },
+      {
+        "line": 100,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 101,
+        "text": "違い: `protection` は脅威から守るという広い語で、資源を計画的に利用し続ける管理や、総量を保つ技術概念までは必ずしも含まない。  "
+      },
+      {
+        "line": 102,
+        "text": "例: The law provides protection for nesting birds during the breeding season.  "
+      },
+      {
+        "line": 103,
+        "text": "訳: その法律は繁殖期の営巣する鳥を保護する。  "
+      },
+      {
+        "line": 105,
+        "text": "・stewardship  "
+      },
+      {
+        "line": 106,
+        "text": "定義: 預かった土地、資源、環境を責任を持って管理すること。  "
+      },
+      {
+        "line": 107,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 108,
+        "text": "違い: `stewardship` は管理者の責任や倫理を強調する。`conservation` はその責任から行う具体的な保全活動や政策を指しやすい。  "
+      },
+      {
+        "line": 109,
+        "text": "例: Good stewardship of the forest requires both careful harvesting and replanting.  "
+      },
+      {
+        "line": 110,
+        "text": "訳: 森林を適切に管理するには、慎重な伐採と再植林の両方が必要である。  "
+      },
+      {
+        "line": 112,
+        "text": "・sustainable management  "
+      },
+      {
+        "line": 113,
+        "text": "定義: 将来の利用可能性を損なわないよう、資源や活動を管理すること。  "
+      },
+      {
+        "line": 114,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 115,
+        "text": "違い: `sustainable management` は将来も成り立つ利用水準や仕組みを明示する複合表現である。`conservation` は保護・損失防止に重点があり、持続可能性全体を必ずしも論じない。  "
+      },
+      {
+        "line": 116,
+        "text": "例: Sustainable management of the fishery limits the annual catch.  "
+      },
+      {
+        "line": 117,
+        "text": "訳: その漁業の持続可能な管理は年間漁獲量を制限している。  "
+      },
+      {
+        "line": 119,
+        "text": "【反意語】"
+      },
+      {
+        "line": 121,
+        "text": "・exploitation  "
+      },
+      {
+        "line": 122,
+        "text": "定義: 資源や環境を利益のために強く利用し、しばしば限界まで消費すること。  "
+      },
+      {
+        "line": 123,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 124,
+        "text": "違い: `exploitation` は利用そのものを指すが、過剰利用や搾取という否定的な含みを持ちやすい。`conservation` は長期的な損失を避ける管理に焦点がある。  "
+      },
+      {
+        "line": 125,
+        "text": "例: Uncontrolled exploitation of the forest has reduced the river’s water quality.  "
+      },
+      {
+        "line": 126,
+        "text": "訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  "
+      },
+      {
+        "line": 128,
+        "text": "・depletion  "
+      },
+      {
+        "line": 129,
+        "text": "定義: 資源や蓄えが使われて減少し、ほとんど残らなくなること。  "
+      },
+      {
+        "line": 130,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 131,
+        "text": "違い: `depletion` は保全に失敗した結果としての量の減少を表す。故意の利用だけでなく、自然な消耗にも使える。  "
+      },
+      {
+        "line": 132,
+        "text": "例: The depletion of the aquifer forced farmers to reduce irrigation.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  "
+      },
+      {
+        "line": 135,
+        "text": "・waste  "
+      },
+      {
+        "line": 136,
+        "text": "定義: 役立つ資源を不注意に、または必要以上に使うこと。  "
+      },
+      {
+        "line": 137,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 138,
+        "text": "違い: `waste` は個々の行動や使用の浪費を指す日常語で、自然環境全体の計画的な管理を表す `conservation` より狭い。  "
+      },
+      {
+        "line": 139,
+        "text": "例: Leaving the tap running is an unnecessary waste of water.  "
+      },
+      {
+        "line": 140,
+        "text": "訳: 蛇口を出しっぱなしにするのは、水の不必要な浪費である。  "
+      },
+      {
+        "line": 142,
+        "text": "2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復"
+      },
+      {
+        "line": 188,
+        "text": "【類義語】"
+      },
+      {
+        "line": 190,
+        "text": "・preservation  "
+      },
+      {
+        "line": 191,
+        "text": "定義: 文化財や記録を損傷・劣化から守り、できるだけその状態で残すこと。  "
+      },
+      {
+        "line": 192,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 193,
+        "text": "違い: `preservation` は現状を保つ一般語で、専門的な調査・処置の体系まで必ずしも示さない。`conservation` は材料分析、処置、予防管理を含む専門領域を指しやすい。  "
+      },
+      {
+        "line": 194,
+        "text": "例: Digital preservation protects the files from becoming unreadable as software changes.  "
+      },
+      {
+        "line": 195,
+        "text": "訳: デジタル保存は、ソフトウェアの変化でファイルが読めなくなるのを防ぐ。  "
+      },
+      {
+        "line": 197,
+        "text": "・restoration  "
+      },
+      {
+        "line": 198,
+        "text": "定義: 作品、建物、物品などを以前の状態・外観に戻すこと。  "
+      },
+      {
+        "line": 199,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 200,
+        "text": "違い: `restoration` は欠損の補充や過去の姿の再現に重点がある。`conservation` は現存する材料を安定させることを優先し、完全な復元を目標にしないことがある。  "
+      },
+      {
+        "line": 201,
+        "text": "例: The restoration recreated the missing colors, while the conservation treatment stabilized the original paint.  "
+      },
+      {
+        "line": 202,
+        "text": "訳: 復元では失われた色を再現し、保存修復処置では元の絵具を安定させた。  "
+      },
+      {
+        "line": 204,
+        "text": "・stabilization  "
+      },
+      {
+        "line": 205,
+        "text": "定義: 損傷や劣化の進行を止め、対象を安全に扱える状態にすること。  "
+      },
+      {
+        "line": 206,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 207,
+        "text": "違い: `stabilization` は保存修復の一工程に焦点を置く。`conservation` は状態確認、記録、予防管理、処置を含むより広い活動である。  "
+      },
+      {
+        "line": 208,
+        "text": "例: Stabilization of the loose pages came before the manuscript was put on display.  "
+      },
+      {
+        "line": 209,
+        "text": "訳: 写本を展示する前に、外れかけたページの安定化が行われた。  "
+      },
+      {
+        "line": 211,
+        "text": "・repair  "
+      },
+      {
+        "line": 212,
+        "text": "定義: 壊れたり傷んだりした物を、使える状態に戻すため直すこと。  "
+      },
+      {
+        "line": 213,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 214,
+        "text": "違い: `repair` は機能回復の日常語で、元の材料・情報・外観を尊重する専門的な保存判断までは含まない。  "
+      },
+      {
+        "line": 215,
+        "text": "例: The repair fixed the frame, but it was not a full conservation treatment.  "
+      },
+      {
+        "line": 216,
+        "text": "訳: その修理で額縁は直ったが、完全な保存修復処置ではなかった。  "
+      },
+      {
+        "line": 218,
+        "text": "【反意語】"
+      },
+      {
+        "line": 220,
+        "text": "・neglect  "
+      },
+      {
+        "line": 221,
+        "text": "定義: 必要な世話、管理、処置を怠り、対象を悪化させること。  "
+      },
+      {
+        "line": 222,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 223,
+        "text": "違い: `neglect` は保全のために必要な注意や手入れをしないことを表す。故意に壊すことまで必ずしも含まない。  "
+      },
+      {
+        "line": 224,
+        "text": "例: Years of neglect left the wooden sculpture vulnerable to insects and moisture.  "
+      },
+      {
+        "line": 225,
+        "text": "訳: 何年も放置されたため、その木彫像は虫と湿気に弱い状態になった。  "
+      },
+      {
+        "line": 227,
+        "text": "・deterioration  "
+      },
+      {
+        "line": 228,
+        "text": "定義: 物の状態、品質、材料が時間とともに悪化すること。  "
+      },
+      {
+        "line": 229,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 230,
+        "text": "違い: `deterioration` は保存に失敗した結果として起こる劣化を指す状態名詞で、誰かの行為を直接示す `neglect` とは異なる。  "
+      },
+      {
+        "line": 231,
+        "text": "例: The archive reduced deterioration by controlling light and humidity.  "
+      },
+      {
+        "line": 232,
+        "text": "訳: その文書館は光と湿度を管理して劣化を抑えた。  "
+      },
+      {
+        "line": 234,
+        "text": "・destruction  "
+      },
+      {
+        "line": 235,
+        "text": "定義: 物、建物、資料などを壊して存在・形を失わせること。  "
+      },
+      {
+        "line": 236,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 237,
+        "text": "違い: `destruction` は保存の目的と正反対の結果を表すが、保存修復が防ごうとするすべての損傷が完全な破壊に至るわけではない。  "
+      },
+      {
+        "line": 238,
+        "text": "例: The conservation plan was created to prevent the destruction of the historic site.  "
+      },
+      {
+        "line": 239,
+        "text": "訳: その保存計画は、史跡の破壊を防ぐために作られた。  "
+      },
+      {
+        "line": 241,
+        "text": "3. 【名詞・不可算／物理学・化学】物理量の保存、保存則"
+      },
+      {
+        "line": 283,
+        "text": "【類義語】"
+      },
+      {
+        "line": 285,
+        "text": "・invariance  "
+      },
+      {
+        "line": 286,
+        "text": "定義: ある変換、操作、条件のもとで、性質や量が変わらないこと。  "
+      },
+      {
+        "line": 287,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 288,
+        "text": "違い: `invariance` は変換に対して同じであるという数学・物理学の性質を強調する。`conservation` は時間発展や相互作用の前後で総量が保たれる収支・法則を指しやすい。  "
+      },
+      {
+        "line": 289,
+        "text": "例: The symmetry implies invariance of the equations under a change of coordinates.  "
+      },
+      {
+        "line": 290,
+        "text": "訳: その対称性は、座標変換に対して方程式が不変であることを意味する。  "
+      },
+      {
+        "line": 292,
+        "text": "・constancy  "
+      },
+      {
+        "line": 293,
+        "text": "定義: 量や状態が変わらず一定であること。  "
+      },
+      {
+        "line": 294,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 295,
+        "text": "違い: `constancy` は単に変化がないことを表す一般語で、何が保存され、どの系で収支が保たれるかという物理法則の含みは弱い。  "
+      },
+      {
+        "line": 296,
+        "text": "例: The experiment measured the constancy of the temperature in the sealed chamber.  "
+      },
+      {
+        "line": 297,
+        "text": "訳: その実験は密閉室内の温度が一定であることを測定した。  "
+      },
+      {
+        "line": 299,
+        "text": "・preservation  "
+      },
+      {
+        "line": 300,
+        "text": "定義: ある性質、量、状態を失わせずに保つこと。  "
+      },
+      {
+        "line": 301,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 302,
+        "text": "違い: `preservation` は「保つ」という一般的な意味で技術文書にも現れるが、物理学では特定の量と法則を示す `conservation` が定着している。  "
+      },
+      {
+        "line": 303,
+        "text": "例: The model assumes preservation of total mass during the reaction.  "
+      },
+      {
+        "line": 304,
+        "text": "訳: そのモデルは反応中に全質量が保たれると仮定している。  "
+      },
+      {
+        "line": 306,
+        "text": "【反意語】"
+      },
+      {
+        "line": 308,
+        "text": "・nonconservation  "
+      },
+      {
+        "line": 309,
+        "text": "定義: 保存されるはずの量が、定めた系や理論のもとで一定に保たれないこと。  "
+      },
+      {
+        "line": 310,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 311,
+        "text": "違い: `nonconservation` は一般会話の反対語ではなく、特定の保存則が成り立たないことを述べる専門的な表現である。  "
+      },
+      {
+        "line": 312,
+        "text": "例: The proposed interaction would imply nonconservation of electric charge.  "
+      },
+      {
+        "line": 313,
+        "text": "訳: その相互作用の提案は、電荷非保存を意味することになる。  "
+      },
+      {
+        "line": 315,
+        "text": "・change  "
+      },
+      {
+        "line": 316,
+        "text": "定義: 状態、値、形、位置などが以前と異なるものになること。  "
+      },
+      {
+        "line": 317,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 318,
+        "text": "違い: `change` は変化一般を表すだけで、系全体の総量が失われたことまでは意味しない。保存則では、内部の変化が起きても総量は保たれうる。  "
+      },
+      {
+        "line": 319,
+        "text": "例: A change in the form of energy does not by itself disprove conservation of energy.  "
+      },
+      {
+        "line": 320,
+        "text": "訳: エネルギーの形が変わっただけでは、エネルギー保存を否定することにはならない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

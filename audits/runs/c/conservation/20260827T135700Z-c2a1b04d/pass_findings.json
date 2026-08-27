@@ -1,0 +1,421 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+        "blind_request_sha256": "5f679006edad7d514438a5841942ced1c0bcba1f02e7e2e8458406c1e7757891",
+        "recorded_at": "2026-08-27T14:03:00Z",
+        "attributions": [
+          {
+            "example_id": "ex-9c2c3715042e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "conservator"
+            ],
+            "rationale": "The term conservator in the example identifies the conservation context for sense:002."
+          },
+          {
+            "example_id": "ex-d67349d32b9a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "region"
+            ],
+            "rationale": "The term region in the example identifies the conservation context for sense:001."
+          },
+          {
+            "example_id": "ex-2a26e0deaaa4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "medieval"
+            ],
+            "rationale": "The term medieval in the example identifies the conservation context for sense:002."
+          },
+          {
+            "example_id": "ex-239518e0f1dc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "students"
+            ],
+            "rationale": "The term students in the example identifies the conservation context for sense:003."
+          },
+          {
+            "example_id": "ex-f21ce94c84fa",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "measures"
+            ],
+            "rationale": "The term measures in the example identifies the conservation context for sense:001."
+          },
+          {
+            "example_id": "ex-cc1de77e927a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "Kirchhoff’s"
+            ],
+            "rationale": "The term Kirchhoff’s in the example identifies the conservation context for sense:003."
+          },
+          {
+            "example_id": "ex-42fe3b5f104b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "energy"
+            ],
+            "rationale": "The term energy in the example identifies the conservation context for sense:003."
+          },
+          {
+            "example_id": "ex-9e6a6056ad94",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "historic"
+            ],
+            "rationale": "The term historic in the example identifies the conservation context for sense:002."
+          },
+          {
+            "example_id": "ex-3f0a1e1d3f4e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "barrels"
+            ],
+            "rationale": "The term barrels in the example identifies the conservation context for sense:001."
+          },
+          {
+            "example_id": "ex-2630ef78c0da",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "school"
+            ],
+            "rationale": "The term school in the example identifies the conservation context for sense:001."
+          },
+          {
+            "example_id": "ex-7a93d140c851",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "balanced"
+            ],
+            "rationale": "The term balanced in the example identifies the conservation context for sense:003."
+          },
+          {
+            "example_id": "ex-65a8412f76fd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "studied"
+            ],
+            "rationale": "The term studied in the example identifies the conservation context for sense:002."
+          },
+          {
+            "example_id": "ex-6d4dfb93a2ce",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "painting"
+            ],
+            "rationale": "The term painting in the example identifies the conservation context for sense:002."
+          },
+          {
+            "example_id": "ex-bf1dd07e7db6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "museum’s"
+            ],
+            "rationale": "The term museum’s in the example identifies the conservation context for sense:002."
+          },
+          {
+            "example_id": "ex-8b4b2dbc66b6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Wildlife"
+            ],
+            "rationale": "The term Wildlife in the example identifies the conservation context for sense:001."
+          },
+          {
+            "example_id": "ex-cebbd9591fc8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "simulation"
+            ],
+            "rationale": "The term simulation in the example identifies the conservation context for sense:003."
+          },
+          {
+            "example_id": "ex-f75378dee673",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "research"
+            ],
+            "rationale": "The term research in the example identifies the conservation context for sense:001."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        }
+      },
+      "aligned_at": "2026-08-27T14:05:11.618566+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [
+        {
+          "id": "NF-QUAL-001",
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "register_and_frequency",
+            "line_start": 247,
+            "line_end": 247,
+            "exact_quote": "【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な節電・節水を表す `energy conservation` とは、周囲の語で区別する。"
+          },
+          "severity": "minor",
+          "rationale": "The physics sense is specialist terminology; the article explicitly marks it as technical and contrasts it with everyday energy conservation.",
+          "suggested_direction": "retain the explicit qualification"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "conservation",
+      "frame": "uncountable noun; conservation of 〈resource〉; resource/environment collocations",
+      "meaning": "planned protection and management of resources and the natural environment",
+      "disposition": "included",
+      "rationale": "The environmental/resource branch is directly represented with resource, wildlife, energy, water, and marine frames.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "grammar_pattern:005",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "usage_note:001",
+        "usage_note:002",
+        "usage_note:003",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "antonym:001",
+        "antonym:002",
+        "antonym:003"
+      ],
+      "evidence_link_ids": [
+        "E-001",
+        "E-002"
+      ]
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "conservation",
+      "frame": "uncountable noun; conservation of 〈artwork/building〉; art/heritage conservation",
+      "meaning": "professional preservation and treatment of cultural heritage",
+      "disposition": "included",
+      "rationale": "The cultural-heritage branch is represented with artwork, heritage, treatment, building, laboratory, and conservator contexts.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "usage_note:004",
+        "usage_note:005",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "antonym:004",
+        "antonym:005",
+        "antonym:006"
+      ],
+      "evidence_link_ids": [
+        "E-004",
+        "E-006"
+      ]
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "conservation",
+      "frame": "uncountable noun; conservation of 〈quantity〉; conservation law",
+      "meaning": "preservation of a physical quantity’s total under specified system conditions",
+      "disposition": "included",
+      "rationale": "The physics branch is represented with energy, momentum, mass, charge, total, system, and conservation-law contexts.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "frequency:003",
+        "register:003",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "grammar_pattern:014",
+        "grammar_pattern:015",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017",
+        "usage_note:006",
+        "usage_note:007",
+        "usage_note:008",
+        "synonym:009",
+        "synonym:010",
+        "synonym:011",
+        "antonym:007",
+        "antonym:008"
+      ],
+      "evidence_link_ids": [
+        "E-003"
+      ]
+    }
+  ],
+  "summary": "Seven independent v6 checker passes completed; the article’s environmental, cultural-heritage, and physics branches are covered. One minor qualification observation is recorded for the explicitly marked technical physics sense.",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-lexicon-audit",
+    "ingested_by": "human"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-conservation-20260827T135700Z-c2a1b04d",
+  "context_id": "normal-conservation-context-20260827T135700Z-c2a1b04d",
+  "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+  "prompt_sha256": "3b4795b47a4673eda1b06129d7e475edcf81cb9a6e1423bbb917aec68a0b0841",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-27T14:05:11.618239+00:00"
+}

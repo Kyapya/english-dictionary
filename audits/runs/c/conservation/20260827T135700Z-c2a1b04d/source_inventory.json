@@ -1,0 +1,955 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "conservation",
+  "run_id": "source-conservation-20260827T135700Z-c2a1b04d",
+  "context_id": "source-conservation-context-20260827T135700Z-c2a1b04d",
+  "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-27T14:02:45Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "Common polysemous noun with bounded environmental, cultural-heritage, and physics coverage.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 24,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-27T14:02:00Z",
+    "article_comparison_started_at": "2026-08-27T14:02:30Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-009",
+          "F-010",
+          "F-013",
+          "F-014",
+          "F-019",
+          "F-022",
+          "F-023"
+        ],
+        "notes": "Independent lexicons and specialist references cover environmental, cultural, and technical senses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-004",
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-020",
+          "F-021"
+        ],
+        "notes": "Resource phrases, scientific phrases, and specialist practice frames are represented."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-015",
+          "F-016",
+          "F-021"
+        ],
+        "notes": "Conservational, conservationist, and conservator are covered."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-014",
+          "F-019",
+          "F-020",
+          "F-022",
+          "F-024"
+        ],
+        "notes": "Cultural-heritage and physics terminology is bounded to documented specialist uses."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-008",
+          "F-014",
+          "F-018",
+          "F-020"
+        ],
+        "notes": "General resource language, American art usage, pronunciation, and specialist register are represented."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-015",
+          "F-016",
+          "F-017",
+          "F-018"
+        ],
+        "notes": "Pronunciation, origin, and related forms are covered."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Cambridge Dictionary — conservation",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/conservation",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_a",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "the careful protection and management of natural resources and the environment",
+            "source_detail": "Cambridge Dictionary describes conservation as protection of the natural environment and natural resources."
+          },
+          {
+            "id": "F-002",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "the prevention of waste and damage while resources remain available",
+            "source_detail": "Cambridge Dictionary connects conservation with preventing resources from being wasted or damaged."
+          },
+          {
+            "id": "F-003",
+            "form": "conservation of natural resources",
+            "kind": "phrase_usage",
+            "statement": "a standard phrase for protecting and managing natural resources",
+            "source_detail": "The Cambridge entry uses conservation in resource-management contexts."
+          },
+          {
+            "id": "F-004",
+            "form": "energy conservation",
+            "kind": "phrase_usage",
+            "statement": "a phrase for reducing energy use or waste",
+            "source_detail": "Cambridge Dictionary records energy conservation among ordinary conservation uses."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner's Dictionaries — conservation",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/conservation",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_b",
+        "facts": [
+          {
+            "id": "F-005",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "the act of preventing something from being lost, wasted, damaged, or destroyed",
+            "source_detail": "Oxford Learner’s Dictionaries defines conservation as preventing loss, waste, damage, or destruction."
+          },
+          {
+            "id": "F-006",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "careful use and protection of water, fuel, and other resources",
+            "source_detail": "Oxford Learner’s Dictionaries gives water, fuel, and energy conservation examples."
+          },
+          {
+            "id": "F-007",
+            "form": "water conservation",
+            "kind": "phrase_usage",
+            "statement": "a phrase for managing water use so supplies are maintained",
+            "source_detail": "Oxford Learner’s Dictionaries lists conservation of water and related resource uses."
+          },
+          {
+            "id": "F-008",
+            "form": "conservation efforts",
+            "kind": "phrase_usage",
+            "statement": "a phrase for organized actions intended to protect resources or nature",
+            "source_detail": "The Oxford entry supplies conservation examples in resource and environmental contexts."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Merriam-Webster — conservation",
+        "locator": "https://www.merriam-webster.com/dictionary/conservation",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_c",
+        "facts": [
+          {
+            "id": "F-009",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "careful preservation and protection of something",
+            "source_detail": "Merriam-Webster defines conservation as careful preservation and protection."
+          },
+          {
+            "id": "F-010",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "planned management of a natural resource to prevent exploitation, destruction, or neglect",
+            "source_detail": "Merriam-Webster records planned natural-resource management as a conservation sense."
+          },
+          {
+            "id": "F-011",
+            "form": "conservation",
+            "kind": "technical_sense",
+            "statement": "the preservation of a physical quantity during transformations or reactions",
+            "source_detail": "Merriam-Webster records the preservation of a physical quantity through changes."
+          },
+          {
+            "id": "F-012",
+            "form": "conservation of energy",
+            "kind": "technical_phrase",
+            "statement": "a standard scientific phrase naming a physical conservation principle",
+            "source_detail": "Merriam-Webster includes physical-quantity conservation and scientific law contexts."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Collins Dictionary — conservation",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/conservation",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_d",
+        "facts": [
+          {
+            "id": "F-013",
+            "form": "conservation",
+            "kind": "lexical_sense",
+            "statement": "preservation from change, loss, or injury",
+            "source_detail": "Collins records keeping something from change, loss, or injury."
+          },
+          {
+            "id": "F-014",
+            "form": "art conservation",
+            "kind": "specialist_sense",
+            "statement": "the professional preservation and repair of works of art",
+            "source_detail": "Collins records the American art-related conservation use."
+          },
+          {
+            "id": "F-015",
+            "form": "conservational",
+            "kind": "derived_form",
+            "statement": "an adjective meaning relating to conservation",
+            "source_detail": "Collins lists conservational as a derived form."
+          },
+          {
+            "id": "F-016",
+            "form": "conservationist",
+            "kind": "derived_form",
+            "statement": "a person who advocates or practices conservation",
+            "source_detail": "Collins records conservationist among the related forms."
+          },
+          {
+            "id": "F-017",
+            "form": "conservation",
+            "kind": "etymology",
+            "statement": "a word inherited through Middle English and French from Latin conservatio",
+            "source_detail": "Collins gives the historical origin through French and Latin."
+          },
+          {
+            "id": "F-018",
+            "form": "conservation",
+            "kind": "pronunciation",
+            "statement": "the word has the standard conservation pronunciation with stress on -va-",
+            "source_detail": "Collins supplies the English pronunciation for conservation."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "American Institute for Conservation — What is conservation?",
+        "locator": "https://www.culturalheritage.org/conservation-at-work/advance/what-is-conservation",
+        "source_type": "professional_reference",
+        "source_role": "specialist_reference",
+        "independence_group": "cultural_heritage_a",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "conservation",
+            "kind": "specialist_sense",
+            "statement": "a professional discipline for preserving cultural heritage",
+            "source_detail": "The American Institute for Conservation presents conservation as work that preserves cultural heritage."
+          },
+          {
+            "id": "F-020",
+            "form": "conservation",
+            "kind": "specialist_practice",
+            "statement": "cultural-heritage conservation includes examination, documentation, treatment, and preventive care",
+            "source_detail": "AIC describes examination, documentation, treatment, and preventive conservation practice."
+          },
+          {
+            "id": "F-021",
+            "form": "conservator",
+            "kind": "derived_form",
+            "statement": "a conservator is a professional who examines and treats cultural heritage",
+            "source_detail": "AIC describes conservators as the professionals carrying out conservation work."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "OpenStax Physics — Conservation of Momentum",
+        "locator": "https://openstax.org/books/physics/pages/8-2-conservation-of-momentum",
+        "source_type": "textbook",
+        "source_role": "physics_reference",
+        "independence_group": "physics_a",
+        "facts": [
+          {
+            "id": "F-022",
+            "form": "conservation of momentum",
+            "kind": "technical_sense",
+            "statement": "the total momentum of a system remains constant when external impulse is negligible",
+            "source_detail": "OpenStax explains conservation of momentum for a system during an event with negligible external impulse."
+          },
+          {
+            "id": "F-023",
+            "form": "conservation",
+            "kind": "technical_sense",
+            "statement": "a conserved quantity remains constant throughout the relevant event for the system",
+            "source_detail": "OpenStax explains that a conserved total is unchanged before and after the event."
+          },
+          {
+            "id": "F-024",
+            "form": "conservation of momentum",
+            "kind": "qualification",
+            "statement": "an individual object’s momentum can change while total system momentum remains constant",
+            "source_detail": "OpenStax distinguishes a changing individual object from the conserved total of the system."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008"
+        ],
+        "canonical_statement": "Environmental/resource conservation and resource-saving phrases.",
+        "disposition": "included",
+        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ]
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-009",
+          "F-010",
+          "F-013"
+        ],
+        "canonical_statement": "The general preservation and planned-management core of conservation.",
+        "disposition": "included",
+        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ]
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-011",
+          "F-012",
+          "F-022",
+          "F-023",
+          "F-024"
+        ],
+        "canonical_statement": "The technical conservation-of-quantity and momentum claims.",
+        "disposition": "included",
+        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "usage_note:006",
+          "usage_note:007",
+          "usage_note:008",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "antonym:007",
+          "antonym:008"
+        ]
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-014"
+        ],
+        "canonical_statement": "The art and cultural-heritage conservation sense.",
+        "disposition": "included",
+        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "usage_note:004",
+          "usage_note:005",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "antonym:004",
+          "antonym:005",
+          "antonym:006"
+        ]
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-015",
+          "F-016",
+          "F-017",
+          "F-018"
+        ],
+        "canonical_statement": "Derived forms, historical source, and pronunciation.",
+        "disposition": "included",
+        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "etymology:001",
+          "etymology:002",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "word_formation:006",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004"
+        ]
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-019",
+          "F-020",
+          "F-021"
+        ],
+        "canonical_statement": "The specialist cultural-heritage practice and conservator role.",
+        "disposition": "included",
+        "rationale": "The fact cluster directly supports an article branch or a qualification required for accurate learner use.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "usage_note:004",
+          "usage_note:005",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "antonym:004",
+          "antonym:005",
+          "antonym:006"
+        ]
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "conservation",
+        "claim_type": "lexical_sense",
+        "statement": "Environmental/resource conservation and resource-saving phrases.",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Cambridge Dictionary describes conservation as protection of the natural environment and natural resources."
+          },
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Cambridge Dictionary connects conservation with preventing resources from being wasted or damaged."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "The Cambridge entry uses conservation in resource-management contexts."
+          },
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Cambridge Dictionary records energy conservation among ordinary conservation uses."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford Learner’s Dictionaries defines conservation as preventing loss, waste, damage, or destruction."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford Learner’s Dictionaries gives water, fuel, and energy conservation examples."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford Learner’s Dictionaries lists conservation of water and related resource uses."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The Oxford entry supplies conservation examples in resource and environmental contexts."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "conservation",
+        "claim_type": "lexical_sense",
+        "statement": "The general preservation and planned-management core of conservation.",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "synonym:004",
+          "antonym:001",
+          "antonym:002",
+          "antonym:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster defines conservation as careful preservation and protection."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster records planned natural-resource management as a conservation sense."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Collins records keeping something from change, loss, or injury."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "conservation",
+        "claim_type": "technical_sense",
+        "statement": "The technical conservation-of-quantity and momentum claims.",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "usage_note:006",
+          "usage_note:007",
+          "usage_note:008",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "antonym:007",
+          "antonym:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster records the preservation of a physical quantity through changes."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster includes physical-quantity conservation and scientific law contexts."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "OpenStax explains conservation of momentum for a system during an event with negligible external impulse."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "OpenStax explains that a conserved total is unchanged before and after the event."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "OpenStax distinguishes a changing individual object from the conserved total of the system."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "conservation",
+        "claim_type": "lexical_sense",
+        "statement": "The art and cultural-heritage conservation sense.",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "usage_note:004",
+          "usage_note:005",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "antonym:004",
+          "antonym:005",
+          "antonym:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins records the American art-related conservation use."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "conservation",
+        "claim_type": "technical_sense",
+        "statement": "Derived forms, historical source, and pronunciation.",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "etymology:001",
+          "etymology:002",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003",
+          "word_formation:004",
+          "word_formation:005",
+          "word_formation:006",
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "core_image:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Collins lists conservational as a derived form."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins records conservationist among the related forms."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Collins gives the historical origin through French and Latin."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Collins supplies the English pronunciation for conservation."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "conservation",
+        "claim_type": "lexical_sense",
+        "statement": "The specialist cultural-heritage practice and conservator role.",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "usage_note:004",
+          "usage_note:005",
+          "synonym:005",
+          "synonym:006",
+          "synonym:007",
+          "synonym:008",
+          "antonym:004",
+          "antonym:005",
+          "antonym:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "The American Institute for Conservation presents conservation as work that preserves cultural heritage."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "AIC describes examination, documentation, treatment, and preventive conservation practice."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "AIC describes conservators as the professionals carrying out conservation work."
+          }
+        ]
+      }
+    ]
+  },
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005",
+    "E-006"
+  ],
+  "evidence_links": [
+    {
+      "id": "E-001",
+      "source_ids": [
+        "S-001",
+        "S-002"
+      ],
+      "claim": "general environmental/resource conservation sense",
+      "locator": "Cambridge and Oxford conservation entries",
+      "supports": "resource/environment protection, prevention of loss and waste",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-002",
+      "source_ids": [
+        "S-003",
+        "S-004"
+      ],
+      "claim": "preservation core and broad lexical range",
+      "locator": "Merriam-Webster and Collins conservation entries",
+      "supports": "careful preservation, natural-resource management, and preservation from loss or injury",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-003",
+      "source_ids": [
+        "S-003",
+        "S-006"
+      ],
+      "claim": "technical physical conservation sense",
+      "locator": "Merriam-Webster and OpenStax conservation references",
+      "supports": "physical quantities, system totals, and momentum conservation",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-004",
+      "source_ids": [
+        "S-004",
+        "S-005"
+      ],
+      "claim": "cultural-heritage conservation sense",
+      "locator": "Collins and AIC conservation references",
+      "supports": "art conservation and professional cultural-heritage practice",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-005",
+      "source_ids": [
+        "S-004"
+      ],
+      "claim": "historical origin and related forms",
+      "locator": "Collins conservation entry",
+      "supports": "pronunciation, origin, and derived forms",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-006",
+      "source_ids": [
+        "S-005"
+      ],
+      "claim": "conservator and conservation practice",
+      "locator": "AIC What is conservation?",
+      "supports": "examination, documentation, treatment, preventive care, and conservators",
+      "support_type": "direct"
+    }
+  ],
+  "notes": "Source-first inventory completed before article comparison; six-source bounded inventory covers all article branches."
+}
