@@ -1,0 +1,237 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "findings": [],
+      "unrouted_observations": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+        "blind_request_sha256": "99a26a876dc2cc150fc8e7ff68960a256027f49b00d051d8b9d78c1e20ce0756",
+        "recorded_at": "2026-08-27T15:34:53Z",
+        "attributions": [
+          {
+            "example_id": "ex-674b0e2105ca",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "groundwater"
+            ],
+            "rationale": "The term groundwater identifies careful management of a natural resource in sense:001."
+          },
+          {
+            "example_id": "ex-28d1f5892ebb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "habitats"
+            ],
+            "rationale": "The term habitats identifies protection of wildlife habitat in sense:001."
+          },
+          {
+            "example_id": "ex-838068ba5036",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "motion sensors"
+            ],
+            "rationale": "The phrase motion sensors identifies an energy-saving program in sense:001."
+          },
+          {
+            "example_id": "ex-a638f6e5db91",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Rain barrels"
+            ],
+            "rationale": "The phrase Rain barrels identifies a water-conservation measure in sense:001."
+          },
+          {
+            "example_id": "ex-e5eb0bfa0d9e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "logging"
+            ],
+            "rationale": "The term logging identifies management of a protected forest in sense:001."
+          },
+          {
+            "example_id": "ex-e3e9babc0d1f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "coral reef"
+            ],
+            "rationale": "The phrase coral reef identifies marine environmental conservation in sense:001."
+          },
+          {
+            "example_id": "ex-8171ee78e7b1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "oil painting"
+            ],
+            "rationale": "The phrase oil painting identifies conservation treatment of an artwork in sense:002."
+          },
+          {
+            "example_id": "ex-da2bdf7fa51c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "national museum"
+            ],
+            "rationale": "The phrase national museum identifies cultural-heritage conservation in sense:002."
+          },
+          {
+            "example_id": "ex-464057260ced",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "conservator"
+            ],
+            "rationale": "The term conservator identifies the specialist art-conservation context in sense:002."
+          },
+          {
+            "example_id": "ex-2804b62504c3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "medieval manuscript"
+            ],
+            "rationale": "The phrase medieval manuscript identifies conservation of a historical document in sense:002."
+          },
+          {
+            "example_id": "ex-5845b0cabab0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "historic buildings"
+            ],
+            "rationale": "The phrase historic buildings identifies architectural heritage conservation in sense:002."
+          },
+          {
+            "example_id": "ex-ca0b7f8b7289",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "wooden sculpture"
+            ],
+            "rationale": "The phrase wooden sculpture identifies specialist object conservation in sense:002."
+          },
+          {
+            "example_id": "ex-a6ad5fff061c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "isolated system"
+            ],
+            "rationale": "The phrase isolated system identifies a total-energy conservation law in sense:003."
+          },
+          {
+            "example_id": "ex-75643da5be04",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "collision"
+            ],
+            "rationale": "The term collision identifies conservation of momentum in sense:003."
+          },
+          {
+            "example_id": "ex-8c1b795c6ccf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "atoms"
+            ],
+            "rationale": "The term atoms identifies conservation of mass during rearrangement in sense:003."
+          },
+          {
+            "example_id": "ex-6d485aea4fdf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "Kirchhoff’s"
+            ],
+            "rationale": "The name Kirchhoff’s identifies the electric-charge conservation context in sense:003."
+          },
+          {
+            "example_id": "ex-3e586d6909fd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "external source"
+            ],
+            "rationale": "The phrase external source identifies a conservation-law test for total charge in sense:003."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "unrouted_observations": []
+    }
+  ],
+  "independent_candidates": [],
+  "summary": "Fresh independent checker passes found no remaining content findings after the requested corrections."
+}

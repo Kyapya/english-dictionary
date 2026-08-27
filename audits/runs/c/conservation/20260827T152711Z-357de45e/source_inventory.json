@@ -1,77 +1,16 @@
 {
-  "schema_version": "content_audit_v4",
-  "generated_by": "generate_audit_manifest_v1",
-  "entry_path": "entries/c/conservation.md",
-  "cycle_id": "20260827T152711Z-357de45e",
-  "cycle_dir": "audits/runs/c/conservation/20260827T152711Z-357de45e",
-  "body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-  "raw_outputs": {
-    "source_inventory": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/source_inventory.json",
-      "sha256": "59c0c8c902381a3d3a271a3e770c7523e01d00080c5fc79daf263b7b6c63b96b",
-      "stage": "source_inventory",
-      "run_id": "source-conservation-20260827T152711Z-357de45e",
-      "context_id": "source-conservation-context-20260827T152711Z-357de45e",
-      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
-      "recorded_at": "2026-08-27T15:33:32Z"
-    },
-    "normal_review": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/pass_findings.json",
-      "sha256": "630d66e62612732fd158946aa5938b38d52fbfdde694e77939164c23863a165c",
-      "stage": "normal_review",
-      "run_id": "normal-conservation-20260827T152711Z-357de45e",
-      "context_id": "normal-conservation-context-20260827T152711Z-357de45e",
-      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-      "prompt_sha256": "3b4795b47a4673eda1b06129d7e475edcf81cb9a6e1423bbb917aec68a0b0841",
-      "recorded_at": "2026-08-27T15:34:53.433953+00:00"
-    },
-    "cold_review": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/cold_review.json",
-      "sha256": "0c46008e8089e26acda3ee5009593ddb8483273f5008a31a6be8edbb800f0ca7",
-      "stage": "cold_review",
-      "run_id": "cold-conservation-20260827T152711Z-357de45e",
-      "context_id": "cold-conservation-context-20260827T152711Z-357de45e",
-      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
-      "recorded_at": "2026-08-27T15:35:26.276257+00:00"
-    },
-    "resolutions": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/resolutions.json",
-      "sha256": "003117558755758136d1b633013b3ca0734ab564e06731c005f162ff6284db1c",
-      "stage": "resolutions",
-      "run_id": "resolution-conservation-20260827T152711Z-357de45e",
-      "context_id": "resolution-conservation-context-20260827T152711Z-357de45e",
-      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-      "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
-      "recorded_at": "2026-08-27T15:36:21Z"
-    },
-    "final_blind": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/final_blind.json",
-      "sha256": "69cb5a39acbc6e188cc0643821c0c8b717b07f03feaa0fe08089fb5e1c9d758d",
-      "stage": "final_blind",
-      "run_id": "blind-conservation-20260827T152711Z-357de45e",
-      "context_id": "blind-conservation-context-20260827T152711Z-357de45e",
-      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-      "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
-      "recorded_at": "2026-08-27T15:35:57.090535+00:00"
-    },
-    "blind_seal": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/blind_seal.json",
-      "sha256": "6874ca654592444e914a0380fb96b2d1dc6c265323a5ccdd3166563cc8f21122",
-      "stage": "blind_seal"
-    },
-    "final_review": {
-      "path": "audits/runs/c/conservation/20260827T152711Z-357de45e/final_review.json",
-      "sha256": "2a1170f613bf2cee568ac6189e8bcfddb28e3fc1f5a36ed75baaf9b6078b14e8",
-      "stage": "final_review",
-      "run_id": "blind-conservation-20260827T152711Z-357de45e",
-      "context_id": "blind-conservation-context-20260827T152711Z-357de45e",
-      "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
-      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
-      "recorded_at": "2026-08-27T15:42:12.367616+00:00"
-    }
-  },
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "conservation",
+  "run_id": "source-conservation-20260827T152711Z-357de45e",
+  "context_id": "source-conservation-context-20260827T152711Z-357de45e",
+  "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-08-27T15:33:32Z",
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -861,19 +800,79 @@
       }
     ]
   },
-  "findings": [],
-  "resolutions": [],
-  "final_decision": {
-    "decision": "pass",
-    "blockers": [],
-    "notes": [
-      "All 85 generated targets and 53 generated relations were reconciled against the corrected current body.",
-      "The sealed blind inventory and all six semantic assertions passed against the corrected pronunciation and antonym classification.",
-      "The source-first v2 inventory passed with six sources, 22 used facts, and the fresh conversation comparison source."
-    ],
-    "reviewed_at": "2026-08-27T15:42:12.367616+00:00",
-    "blind_output_sha256": "e4350eb1214da630d0fbe937241910624cd316ff26caae5354708f7a17f9301c"
-  },
-  "invalidated_by": [],
-  "review_liveness_errors": []
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005",
+    "E-006"
+  ],
+  "evidence_links": [
+    {
+      "id": "E-001",
+      "source_ids": [
+        "S-001",
+        "S-002"
+      ],
+      "claim": "general environmental/resource conservation sense",
+      "locator": "Cambridge and Merriam-Webster conservation entries",
+      "supports": "resource/environment protection, prevention of loss and waste",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-002",
+      "source_ids": [
+        "S-002",
+        "S-003"
+      ],
+      "claim": "preservation core and broad lexical range",
+      "locator": "Merriam-Webster and Collins conservation entries",
+      "supports": "careful preservation, natural-resource management, and preservation from loss or injury",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-003",
+      "source_ids": [
+        "S-002",
+        "S-005"
+      ],
+      "claim": "technical physical conservation sense",
+      "locator": "Merriam-Webster and OpenStax conservation references",
+      "supports": "physical quantities, system totals, and momentum conservation",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-004",
+      "source_ids": [
+        "S-003",
+        "S-004"
+      ],
+      "claim": "cultural-heritage conservation sense",
+      "locator": "Collins and AIC conservation references",
+      "supports": "art conservation and professional cultural-heritage practice",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-005",
+      "source_ids": [
+        "S-003"
+      ],
+      "claim": "historical origin and related forms",
+      "locator": "Collins conservation entry",
+      "supports": "pronunciation, origin, and derived forms",
+      "support_type": "direct"
+    },
+    {
+      "id": "E-006",
+      "source_ids": [
+        "S-006"
+      ],
+      "claim": "conversation comparison",
+      "locator": "Merriam-Webster conversation entry",
+      "supports": "US pronunciation and spelling order in the comparison word",
+      "support_type": "direct"
+    }
+  ],
+  "notes": "Fresh source-first inventory completed before article comparison; prior checked audit retained as superseded. Added independent pronunciation/spelling evidence for conversation and removed the non-antonym change target."
 }

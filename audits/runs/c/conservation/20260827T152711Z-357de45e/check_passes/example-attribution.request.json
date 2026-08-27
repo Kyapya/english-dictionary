@@ -1,0 +1,147 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "20ff4e261a57880a6d1394ca4bc4aab61f39016aa205908b40e8d9d4cd222e08",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 42,
+        "label": "1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約",
+        "definition": "水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、計画的・慎重に利用し管理すること。利用を一切禁止することではなく、将来も利用できる状態を保つことに重点がある。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 142,
+        "label": "2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復",
+        "definition": "絵画、彫刻、文書、遺跡、歴史的建造物などの文化遺産を、劣化や損傷から守り、その材料、情報、価値を将来へ引き継ぐ専門的な実践・工程。調査、記録、処置、予防的な環境管理を含み、常に元の外観へ作り直すことを意味しない。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 241,
+        "label": "3. 【名詞・不可算／物理学・化学】物理量の保存、保存則",
+        "definition": "ある系と条件のもとで、エネルギー、運動量、質量、電荷などの物理量の総量が、移動したり別の形に変換されたりしても一定に保たれること。また、その関係を述べる法則。系の一部の量や形が変化しないという意味ではなく、境界を定めた全体の収支が変わらないという意味である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-a6ad5fff061c",
+        "example": "The law of conservation of energy explains why the total energy of the isolated system stayed constant.",
+        "translation": "エネルギー保存則は、その孤立系の全エネルギーが一定に保たれた理由を説明する。"
+      },
+      {
+        "example_id": "ex-8171ee78e7b1",
+        "example": "The conservation of the oil painting took six months because the canvas was fragile.",
+        "translation": "その油彩画はキャンバスがもろかったため、保存修復に6か月かかった。"
+      },
+      {
+        "example_id": "ex-5845b0cabab0",
+        "example": "The conservation of historic buildings must respect evidence of their earlier alterations.",
+        "translation": "歴史的建造物の保存では、過去の改変の証拠を尊重しなければならない。"
+      },
+      {
+        "example_id": "ex-28d1f5892ebb",
+        "example": "Wildlife conservation depends on protecting habitats as well as individual animals.",
+        "translation": "野生生物の保全には、個々の動物だけでなく生息地を守ることも必要である。"
+      },
+      {
+        "example_id": "ex-e5eb0bfa0d9e",
+        "example": "The new conservation measures reduced logging in the protected forest.",
+        "translation": "新しい保全対策によって、保護林での伐採が減った。"
+      },
+      {
+        "example_id": "ex-464057260ced",
+        "example": "The conservator recommended a gentle conservation treatment for the cracked varnish.",
+        "translation": "保存修復家は、ひびの入ったニスに穏やかな保存修復処置を勧めた。"
+      },
+      {
+        "example_id": "ex-6d485aea4fdf",
+        "example": "Kirchhoff’s current law follows from conservation of electric charge at a circuit junction.",
+        "translation": "キルヒホッフの電流則は、回路の接点で電気の電荷が保存されることから導かれる。"
+      },
+      {
+        "example_id": "ex-674b0e2105ca",
+        "example": "The region introduced strict conservation of groundwater after several dry years.",
+        "translation": "その地域は数年続いた干ばつの後、地下水の厳格な保全を導入した。"
+      },
+      {
+        "example_id": "ex-838068ba5036",
+        "example": "The school installed motion sensors as part of its energy conservation program.",
+        "translation": "その学校は省エネルギー計画の一環として人感センサーを設置した。"
+      },
+      {
+        "example_id": "ex-2804b62504c3",
+        "example": "Conservation work on the medieval manuscript revealed ink beneath a later repair.",
+        "translation": "その中世写本の保存修復作業によって、後世の補修の下にあるインクが明らかになった。"
+      },
+      {
+        "example_id": "ex-8c1b795c6ccf",
+        "example": "The balanced equation reflects conservation of mass: the atoms are rearranged, not created or destroyed.",
+        "translation": "係数をそろえた化学式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。"
+      },
+      {
+        "example_id": "ex-a638f6e5db91",
+        "example": "Rain barrels were provided to residents as a water conservation measure.",
+        "translation": "節水対策として、住民に雨水貯留タンクが配られた。"
+      },
+      {
+        "example_id": "ex-75643da5be04",
+        "example": "The students used conservation of momentum to calculate the speeds after the collision.",
+        "translation": "学生たちは運動量保存を使って、衝突後の速度を計算した。"
+      },
+      {
+        "example_id": "ex-da2bdf7fa51c",
+        "example": "She studied heritage conservation before joining the national museum.",
+        "translation": "彼女は国立博物館に入る前に文化遺産保存を学んだ。"
+      },
+      {
+        "example_id": "ex-3e586d6909fd",
+        "example": "A simulation is suspect if it changes total charge without an external source, because it violates a conservation law.",
+        "translation": "外部源なしに全電荷を変えるシミュレーションは、保存則に反するため疑わしい。"
+      },
+      {
+        "example_id": "ex-e3e9babc0d1f",
+        "example": "The research station funds marine conservation around the coral reef.",
+        "translation": "その研究所はサンゴ礁周辺の海洋保全に資金を提供している。"
+      },
+      {
+        "example_id": "ex-ca0b7f8b7289",
+        "example": "The museum’s conservation laboratory monitors humidity around the wooden sculpture.",
+        "translation": "その博物館の保存修復研究室は、木彫像の周囲の湿度を監視している。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
