@@ -1,0 +1,646 @@
+{
+  "base_sha": "37acfdd3362e27fd61d3275472d59f53d8d577b9",
+  "branch": "add/genuine-v5-20260827",
+  "deadline_at": "2026-08-27T12:12:25Z",
+  "entry_path": "entries/g/genuine.md",
+  "headword": "genuine",
+  "last_heartbeat_at": "2026-08-27T11:55:01Z",
+  "limits": {
+    "max_candidate_pages": 18,
+    "max_elapsed_minutes": 60,
+    "max_heartbeat_gap_minutes": 10,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12
+  },
+  "metrics": {
+    "checker_passes": [
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 15,
+        "id": "translation",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 15,
+        "id": "sense-structure",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 15,
+        "id": "frame-relation",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 15,
+        "id": "example-attribution",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 1,
+        "duration_seconds": 15,
+        "id": "qualification",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 15,
+        "id": "pronunciation",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 15,
+        "id": "evidence",
+        "input_bytes": 13380,
+        "instruction_bytes": 0
+      }
+    ],
+    "completed_at": null,
+    "process_rules": [
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 170,
+        "id": "PI-0002",
+        "input_bytes": 0,
+        "instruction_bytes": 315,
+        "status": "trial"
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 170,
+        "id": "PI-0003",
+        "input_bytes": 0,
+        "instruction_bytes": 557,
+        "status": "trial"
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 170,
+        "id": "PI-0004",
+        "input_bytes": 0,
+        "instruction_bytes": 276,
+        "status": "active"
+      }
+    ],
+    "schema_version": "workflow_cost_v1",
+    "stages": [
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 5,
+        "id": "guard_start",
+        "input_bytes": 0,
+        "instruction_bytes": 0,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 300,
+        "id": "generation",
+        "input_bytes": 28844,
+        "instruction_bytes": 53279,
+        "revision_count": 1
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 20,
+        "id": "mechanical_validator",
+        "input_bytes": 28844,
+        "instruction_bytes": 0,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 1,
+        "duration_seconds": 480,
+        "id": "checker_passes",
+        "input_bytes": 54700,
+        "instruction_bytes": 0,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 120,
+        "id": "cold_review",
+        "input_bytes": 28844,
+        "instruction_bytes": 1420,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 120,
+        "id": "final_blind",
+        "input_bytes": 28844,
+        "instruction_bytes": 1736,
+        "revision_count": 0
+      },
+      {
+        "completed": true,
+        "defects_detected": 0,
+        "duration_seconds": 630,
+        "id": "blind_seal",
+        "input_bytes": 3000,
+        "instruction_bytes": 0,
+        "revision_count": 0
+      }
+    ],
+    "total_cycles": 1,
+    "total_duration_seconds": 1675,
+    "total_revisions": 1
+  },
+  "open_questions": [],
+  "orchestrator": {
+    "checker_passes": [
+      {
+        "id": "translation",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/translation.request.json",
+        "input_sections": [
+          "definitions",
+          "collocations_examples",
+          "lexical_relations"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/translation.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_translation_v6.md",
+        "taxonomy_ids": [
+          "example_translation_alignment",
+          "semantic_direction_reversal"
+        ]
+      },
+      {
+        "id": "sense-structure",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/sense-structure.request.json",
+        "input_sections": [
+          "core_image",
+          "sense_structure",
+          "usage_notes",
+          "word_formation"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/sense-structure.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_sense_structure_v6.md",
+        "taxonomy_ids": [
+          "sense_boundary_overlap",
+          "cross_section_internal_contradiction",
+          "compound_component_generalization"
+        ]
+      },
+      {
+        "id": "frame-relation",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/frame-relation.request.json",
+        "input_sections": [
+          "sense_structure",
+          "frames",
+          "collocations_examples",
+          "lexical_relations"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/frame-relation.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_frame_relation_v6.md",
+        "taxonomy_ids": [
+          "argument_slot_role_mismatch",
+          "lexical_relation_mislabel"
+        ]
+      },
+      {
+        "alignment_key_path": "audits/runs/g/genuine/{run_id}/check_passes/example-attribution.alignment-key.json",
+        "id": "example-attribution",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/example-attribution.request.json",
+        "input_sections": [
+          "sense_structure",
+          "collocations_examples"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/example-attribution.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_example_attribution_v6.md",
+        "stage1_output_path": "audits/runs/g/genuine/{run_id}/check_passes/example-attribution.blind-record.json",
+        "taxonomy_ids": [
+          "example_sense_attribution_mismatch"
+        ]
+      },
+      {
+        "id": "qualification",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/qualification.request.json",
+        "input_sections": [
+          "etymology",
+          "word_formation",
+          "sense_structure",
+          "frequency_register",
+          "usage_notes",
+          "collocations_examples"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/qualification.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_qualification_v6.md",
+        "taxonomy_ids": [
+          "regional_qualification",
+          "absolute_scope_counterexample",
+          "technical_terminology_conventionality"
+        ]
+      },
+      {
+        "id": "pronunciation",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/pronunciation.request.json",
+        "input_sections": [
+          "pronunciation"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/pronunciation.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_pronunciation_v6.md",
+        "taxonomy_ids": [
+          "pronunciation_symbol_explanation"
+        ]
+      },
+      {
+        "id": "evidence",
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/check_passes/evidence.request.json",
+        "input_sections": [
+          "pronunciation",
+          "etymology",
+          "word_formation",
+          "core_image",
+          "sense_structure",
+          "frequency_register",
+          "frames",
+          "collocations_examples",
+          "usage_notes",
+          "lexical_relations"
+        ],
+        "instruction_bytes": 0,
+        "output_path": "audits/runs/g/genuine/{run_id}/check_passes/evidence.json",
+        "reviewer_mode": "handoff",
+        "specification": "prompts/check_pass_evidence_v6.md",
+        "taxonomy_ids": [
+          "evidence_claim_mismatch"
+        ]
+      }
+    ],
+    "entry_path": "entries/g/genuine.md",
+    "headword": "genuine",
+    "orchestrator_version": "run_word_v3",
+    "plan_sha256": "d89ae676fb75980ce53fbf834d37693e979e1f1e5712af4bd545c1e8d22d7e7e",
+    "reviewer_mode": "handoff",
+    "stages": [
+      {
+        "context_mode": "coordinator",
+        "executor": "orchestrator",
+        "guard_checkpoints": [
+          "preflight",
+          "preflight_pushed"
+        ],
+        "input_packet_path": null,
+        "input_scope": [
+          "headword",
+          "queue row",
+          "git branch",
+          "base SHA"
+        ],
+        "instruction_bytes": 0,
+        "name": "guard_start",
+        "output_paths": [
+          "audits/workflow_runs/genuine/{run_id}.json"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "scripts/entry_workflow_guard.py"
+        ]
+      },
+      {
+        "context_mode": "coordinator",
+        "executor": "llm",
+        "guard_checkpoints": [
+          "draft_saved"
+        ],
+        "input_packet_path": null,
+        "input_scope": [
+          "headword",
+          "entry specification",
+          "active process rules"
+        ],
+        "instruction_bytes": 53279,
+        "name": "generation",
+        "output_paths": [
+          "entries/g/genuine.md",
+          "audits/runs/g/genuine/{run_id}/generation.json"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "prompts/entry_spec_v5.md",
+          "process_improvement/ACTIVE.md"
+        ]
+      },
+      {
+        "context_mode": "coordinator",
+        "executor": "python",
+        "guard_checkpoints": [],
+        "input_packet_path": null,
+        "input_scope": [
+          "entry including front matter"
+        ],
+        "instruction_bytes": 0,
+        "name": "mechanical_validator",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/validator.json"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "scripts/validate_entry.py"
+        ]
+      },
+      {
+        "context_mode": "fresh_normal_context",
+        "executor": "router",
+        "guard_checkpoints": [
+          "source_inventory_complete",
+          "normal_review_complete"
+        ],
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/handoff/checker_passes.request.md",
+        "input_scope": [
+          "router-selected entry sections",
+          "example-attribution masked stage 1 before ownership alignment",
+          "source inventory for evidence pass",
+          "machine validator findings"
+        ],
+        "instruction_bytes": 0,
+        "name": "checker_passes",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/source_inventory.json",
+          "audits/runs/g/genuine/{run_id}/check_passes/",
+          "audits/runs/g/genuine/{run_id}/pass_findings.json"
+        ],
+        "reviewer_mode": "handoff",
+        "specification_files": [
+          "prompts/check_router_v6.md"
+        ]
+      },
+      {
+        "context_mode": "context_free_cold",
+        "executor": "independent_llm",
+        "guard_checkpoints": [
+          "cold_review_complete"
+        ],
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/handoff/cold_review.request.md",
+        "input_scope": [
+          "entry body without front matter"
+        ],
+        "instruction_bytes": 1420,
+        "name": "cold_review",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/cold_review.json"
+        ],
+        "reviewer_mode": "handoff",
+        "specification_files": [
+          "prompts/cold_review_prompt_v1.md"
+        ]
+      },
+      {
+        "context_mode": "context_free_final_blind",
+        "executor": "independent_llm",
+        "guard_checkpoints": [],
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/handoff/final_blind.request.md",
+        "input_scope": [
+          "latest entry body only"
+        ],
+        "instruction_bytes": 1736,
+        "name": "final_blind",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/final_blind.json"
+        ],
+        "reviewer_mode": "handoff",
+        "specification_files": [
+          "prompts/final_blind_prompt_v2.md"
+        ]
+      },
+      {
+        "context_mode": "coordinator",
+        "executor": "python",
+        "guard_checkpoints": [
+          "blind_seal_complete"
+        ],
+        "input_packet_path": null,
+        "input_scope": [
+          "final blind raw JSON",
+          "entry body hash"
+        ],
+        "instruction_bytes": 0,
+        "name": "blind_seal",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/blind_seal.json"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "scripts/generate_audit_manifest.py"
+        ]
+      },
+      {
+        "context_mode": "normal_resolution_context",
+        "executor": "llm",
+        "guard_checkpoints": [],
+        "input_packet_path": null,
+        "input_scope": [
+          "latest entry body",
+          "all checker and cold findings",
+          "sealed final-blind findings",
+          "source inventory"
+        ],
+        "instruction_bytes": 0,
+        "name": "finding_resolution",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/resolutions.json"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "prompts/finding_resolution_v6.md"
+        ]
+      },
+      {
+        "context_mode": "final_reconciliation_context",
+        "executor": "independent_llm",
+        "guard_checkpoints": [
+          "final_review_complete"
+        ],
+        "input_packet_path": "audits/runs/g/genuine/{run_id}/handoff/final_review.request.md",
+        "input_scope": [
+          "latest entry body",
+          "sealed final-blind output",
+          "all checker, cold, and sealed final-blind findings",
+          "finding resolution records"
+        ],
+        "instruction_bytes": 3066,
+        "name": "final_review",
+        "output_paths": [
+          "audits/runs/g/genuine/{run_id}/final_review.json",
+          "audits/g/genuine.json"
+        ],
+        "reviewer_mode": "handoff",
+        "specification_files": [
+          "prompts/final_review_spec_v2.md"
+        ]
+      },
+      {
+        "context_mode": "coordinator",
+        "executor": "python",
+        "guard_checkpoints": [],
+        "input_packet_path": null,
+        "input_scope": [
+          "final decision",
+          "entry front matter",
+          "queue row"
+        ],
+        "instruction_bytes": 0,
+        "name": "status_update",
+        "output_paths": [
+          "entries/g/genuine.md",
+          "queue/words.csv",
+          "audits/runs/g/genuine/{run_id}/status_update.json"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "scripts/run_word.py"
+        ]
+      },
+      {
+        "context_mode": "coordinator",
+        "executor": "python",
+        "guard_checkpoints": [
+          "completed"
+        ],
+        "input_packet_path": null,
+        "input_scope": [
+          "checked/final entries",
+          "queue"
+        ],
+        "instruction_bytes": 0,
+        "name": "export",
+        "output_paths": [
+          "exports/dictionary_all.md",
+          "exports/dictionary_index.csv"
+        ],
+        "reviewer_mode": null,
+        "specification_files": [
+          "scripts/export_all_markdown.py",
+          "scripts/export_index.py"
+        ]
+      }
+    ]
+  },
+  "orchestrator_state": {
+    "completed_stages": [
+      "guard_start",
+      "generation",
+      "mechanical_validator",
+      "checker_passes",
+      "cold_review",
+      "final_blind",
+      "blind_seal"
+    ],
+    "next_stage_index": 7,
+    "stage_outputs": {
+      "blind_seal": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/blind_seal.json"
+      ],
+      "checker_passes": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/source_inventory.json",
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/check_passes/",
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/cold_review.json"
+      ],
+      "final_blind": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/final_blind.json"
+      ],
+      "generation": [
+        "entries/g/genuine.md",
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/g/genuine/20260827T111225Z-genuine01/validator.json"
+      ]
+    }
+  },
+  "pre_draft_deadline_at": "2026-08-27T11:32:25Z",
+  "profile": "standard",
+  "profile_reason": "bounded default profile",
+  "remote_checkpoint": {
+    "commit_sha": "babaf46180ec9ade05c1019ed4e06a6b51858453",
+    "confirmed": true,
+    "confirmed_at": "2026-08-27T11:14:00Z"
+  },
+  "run_id": "20260827T111225Z-genuine01",
+  "schema_version": "entry_workflow_run_v1",
+  "stage": "blind_seal",
+  "stage_history": [
+    {
+      "notes": "run initialized",
+      "recorded_at": "2026-08-27T11:12:25Z",
+      "stage": "preflight"
+    },
+    {
+      "notes": "remote start checkpoint verified",
+      "recorded_at": "2026-08-27T11:14:00Z",
+      "stage": "preflight_pushed"
+    },
+    {
+      "notes": "orchestrator completed generation",
+      "recorded_at": "2026-08-27T11:20:00Z",
+      "stage": "draft_saved"
+    },
+    {
+      "notes": "source-first inventory completed before article comparison",
+      "recorded_at": "2026-08-27T11:26:00Z",
+      "stage": "source_inventory_complete"
+    },
+    {
+      "notes": "orchestrator completed seven checker passes",
+      "recorded_at": "2026-08-27T11:29:00Z",
+      "stage": "normal_review_complete"
+    },
+    {
+      "notes": "independent context-free cold review completed",
+      "recorded_at": "2026-08-27T11:30:00Z",
+      "stage": "cold_review_complete"
+    },
+    {
+      "notes": "final blind output sealed before reconciliation",
+      "recorded_at": "2026-08-27T11:55:01Z",
+      "stage": "blind_seal_complete"
+    }
+  ],
+  "started_at": "2026-08-27T11:12:25Z",
+  "status": "in_progress",
+  "stop_reason": null,
+  "usage": {
+    "candidate_pages": 6,
+    "research_queries": 10
+  }
+}
