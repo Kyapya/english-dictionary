@@ -1,0 +1,451 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-genuine-20260827T112700Z",
+  "context_id": "normal-genuine-context-20260827T112700Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-lexicon-audit",
+    "ingested_by": "human"
+  },
+  "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+  "prompt_sha256": "64a1c9136df92e3f7df82277c307a46e909db9e9d75fb8f4316534a2fa59d709",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-27T11:29:00Z",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-lexicon-audit",
+          "ingested_by": "human"
+        },
+        "recorded_at": "2026-08-27T11:28:30Z",
+        "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+        "blind_request_sha256": "1987766ff37a1ddf523455c2059e3aaa42bb386c31d1f9d8cef1fbef5402d700",
+        "attributions": [
+          {
+            "example_id": "ex-7c0bddd2d95d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "museum"
+            ],
+            "rationale": "The term `museum` anchors this example in sense:001, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-feae7f2b2827",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "leather"
+            ],
+            "rationale": "The term `leather` anchors this example in sense:001, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-3454fb24da26",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "store"
+            ],
+            "rationale": "The term `store` anchors this example in sense:001, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-c21286df007c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "watch"
+            ],
+            "rationale": "The term `watch` anchors this example in sense:001, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-0b760a756079",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "antique"
+            ],
+            "rationale": "The term `antique` anchors this example in sense:001, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-97f8962ab810",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "customs"
+            ],
+            "rationale": "The term `customs` anchors this example in sense:001, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-067440dbc012",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "families"
+            ],
+            "rationale": "The term `families` anchors this example in sense:002, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-54fdb7c9d336",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "astronomy"
+            ],
+            "rationale": "The term `astronomy` anchors this example in sense:002, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-939748b813ef",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "apology"
+            ],
+            "rationale": "The term `apology` anchors this example in sense:002, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-c610e5733b0f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "surprise"
+            ],
+            "rationale": "The term `surprise` anchors this example in sense:002, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-b48dbac1f03c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "relationship"
+            ],
+            "rationale": "The term `relationship` anchors this example in sense:002, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-20aee4395f5d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Maya"
+            ],
+            "rationale": "The term `Maya` anchors this example in sense:002, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-4f53505483a2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "delay"
+            ],
+            "rationale": "The term `delay` anchors this example in sense:003, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-f3727fd4f7e7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "charity"
+            ],
+            "rationale": "The term `charity` anchors this example in sense:003, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-f0f6a8707725",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "internship"
+            ],
+            "rationale": "The term `internship` anchors this example in sense:003, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-4fc8aa537476",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "battery"
+            ],
+            "rationale": "The term `battery` anchors this example in sense:003, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-31238ebf4b88",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "apartments"
+            ],
+            "rationale": "The term `apartments` anchors this example in sense:003, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-3adfed31657d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "contender"
+            ],
+            "rationale": "The term `contender` anchors this example in sense:003, making its genuine-use reading identifiable."
+          },
+          {
+            "example_id": "ex-a6af4e9bff81",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "manager"
+            ],
+            "rationale": "The term `manager` anchors this example in sense:003, making its genuine-use reading identifiable."
+          }
+        ]
+      },
+      "aligned_at": "2026-08-27T11:28:35Z"
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [
+        {
+          "id": "NF-QUAL-001",
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 45,
+            "line_end": 45,
+            "exact_quote": "・`genuine leather/gold/diamond`"
+          },
+          "severity": "minor",
+          "rationale": "The material collocation `genuine leather/gold/diamond` is specialist commercial language; the article already limits the claim to material authenticity and does not infer quality, legality, or provenance beyond the label.",
+          "suggested_direction": "retain the explicit qualification"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-lexicon-audit",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "NC-001",
+      "surface_form": "genuine 〈object/material〉",
+      "frame": "a genuine 〈object/material〉 / be genuine",
+      "meaning": "本物の、真正の",
+      "disposition": "included",
+      "rationale": "The `a genuine 〈object/material〉` frame is the central non-counterfeit use.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "frequency:001",
+        "register:001",
+        "grammar_pattern:001",
+        "grammar_pattern:002",
+        "grammar_pattern:003",
+        "grammar_pattern:004",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006",
+        "usage_note:001",
+        "usage_note:002",
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "antonym:001",
+        "antonym:002",
+        "antonym:003",
+        "antonym:004",
+        "core_image:001",
+        "core_image:002",
+        "core_image:003"
+      ],
+      "evidence_link_ids": [
+        "E-001"
+      ]
+    },
+    {
+      "id": "NC-002",
+      "surface_form": "genuine 〈feeling/person/attempt〉",
+      "frame": "genuine 〈feeling/person/attempt〉",
+      "meaning": "本心からの、誠実な",
+      "disposition": "included",
+      "rationale": "The `genuine 〈feeling/person/attempt〉` frame preserves the sincere, non-performed use.",
+      "article_target_ids": [
+        "sense_boundary:002",
+        "definition:002",
+        "frequency:002",
+        "register:002",
+        "grammar_pattern:005",
+        "grammar_pattern:006",
+        "grammar_pattern:007",
+        "grammar_pattern:008",
+        "collocation:007",
+        "collocation:008",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011",
+        "collocation:012",
+        "usage_note:003",
+        "usage_note:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "synonym:009",
+        "antonym:005",
+        "antonym:006",
+        "antonym:007",
+        "antonym:008",
+        "core_image:004"
+      ],
+      "evidence_link_ids": [
+        "E-002"
+      ]
+    },
+    {
+      "id": "NC-003",
+      "surface_form": "genuine 〈problem/need/opportunity〉",
+      "frame": "a genuine 〈problem/need/opportunity〉",
+      "meaning": "現実の、実際の",
+      "disposition": "included",
+      "rationale": "The `a genuine 〈problem/need/opportunity〉` frame identifies the actual-substance use.",
+      "article_target_ids": [
+        "sense_boundary:003",
+        "definition:003",
+        "frequency:003",
+        "register:003",
+        "grammar_pattern:009",
+        "grammar_pattern:010",
+        "grammar_pattern:011",
+        "grammar_pattern:012",
+        "grammar_pattern:013",
+        "collocation:013",
+        "collocation:014",
+        "collocation:015",
+        "collocation:016",
+        "collocation:017",
+        "collocation:018",
+        "collocation:019",
+        "usage_note:005",
+        "usage_note:006",
+        "synonym:010",
+        "synonym:011",
+        "synonym:012",
+        "synonym:013",
+        "synonym:014",
+        "antonym:009",
+        "antonym:010",
+        "antonym:011",
+        "antonym:012",
+        "antonym:013"
+      ],
+      "evidence_link_ids": [
+        "E-003"
+      ]
+    }
+  ],
+  "summary": "7/7 routed checker passes completed; one minor material-collocation qualification was resolved as already covered."
+}

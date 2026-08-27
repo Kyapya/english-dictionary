@@ -1,0 +1,71 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-genuine-20260827T113400Z",
+  "context_id": "blind-genuine-context-20260827T113400Z",
+  "audit_visible": false,
+  "input_body_sha256": "2b6de4271283d7b81bce2afbc27c21dc42b8c9190f6f62361dad5051da0fc808",
+  "prompt_sha256": "eeb2ba17b12eeaec5e125417caa34eb6c0e848ce3661cca0bb47b9ed61957f9b",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "recorded_at": "2026-08-27T11:31:00Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "B-001",
+      "surface_form": "genuine 〈object〉",
+      "frame": "a genuine 〈object〉",
+      "meaning": "本物の、真正の",
+      "disposition": "included",
+      "rationale": "The `a genuine 〈object〉` frame preserves the object-authenticity sense.",
+      "semantic_assertions": [
+        {
+          "id": "B-001-SA-001",
+          "statement": "The object sense says the thing is real rather than counterfeit or imitation.",
+          "polarity": "must_hold",
+          "scope": "sense 1"
+        }
+      ]
+    },
+    {
+      "id": "B-002",
+      "surface_form": "genuine 〈feeling/person〉",
+      "frame": "genuine 〈feeling/person〉",
+      "meaning": "本心からの、誠実な",
+      "disposition": "included",
+      "rationale": "The `genuine 〈feeling/person〉` frame preserves sincerity and an unperformed manner.",
+      "semantic_assertions": [
+        {
+          "id": "B-002-SA-001",
+          "statement": "The sincerity sense concerns actual feeling or an unfeigned, straightforward person or attitude.",
+          "polarity": "must_hold",
+          "scope": "sense 2"
+        }
+      ]
+    },
+    {
+      "id": "B-003",
+      "surface_form": "genuine 〈problem/need/opportunity〉",
+      "frame": "a genuine 〈problem/need/opportunity〉",
+      "meaning": "現実の、実際の",
+      "disposition": "included",
+      "rationale": "The `a genuine 〈problem/need/opportunity〉` frame preserves actual existence or substance without promising severity or success.",
+      "semantic_assertions": [
+        {
+          "id": "B-003-SA-001",
+          "statement": "The actual-use sense marks real substance or existence and does not itself guarantee importance, legality, or success.",
+          "polarity": "must_hold",
+          "scope": "sense 3"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-blind-audit",
+    "ingested_by": "human"
+  }
+}
