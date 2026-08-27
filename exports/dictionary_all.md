@@ -7047,11970 +7047,712 @@ tags: []
 
 ＃語源
 
-中英語 *mes*「食事の一皿、一人分の食物」を経て、古フランス語 *mes*「食卓に出される一皿」、後期ラテン語 *missus*「食事の一皿、置かれたもの」に由来する。*missus* はラテン語 *mittere*「送る、置く」の過去分詞に由来する。食物の一盛り・混ぜ物という意味から、「入り混じったもの」「混乱した状態」「散らかった状態」へ意味が広がった。軍隊の「食事を共にする集団・食堂」には古い食事の意味が残っている。
-・*mission*（名詞）— ラテン語 *mittere* の「送る」に由来し、「派遣、使命」を表す。  
-・*missile*（名詞）— 同じく *mittere* にさかのぼり、「投げる・発射する物」を表す。  
-・*submit*（動詞）— *sub-*「下に」+ *mittere*「送る、置く」に由来し、「提出する、服従する」を表す。  
-
-＃語形成
-
-・*messy*（形容詞）— 「散らかった、汚れやすい、込み入って厄介な」。物理的状態にも問題状況にも使う。  
-・*messily*（副詞）— 「散らかった仕方で、乱雑に」。  
-・*messiness*（不可算名詞）— 「散らかり、乱雑さ、問題の込み入った性質」。  
-・*mess-up*（可算名詞）— 主にくだけた表現で「失敗、不手際」。動詞句 *mess up* と異なり、名詞ではハイフンを付けるのが標準的である。  
-
-＃コアイメージ
-
-現代の主要義の核は、本来あるべき順序・機能・平静が崩れ、扱いにくい状態になること。そこから物理的な散らかり、問題状況、失敗、心身の混乱、余計な干渉へ広がる。  
-・物や場所 → 散らかり、汚れ、後始末が必要な状態。  
-・計画・制度・行為 → 正常に機能しない、失敗する、台無しになる。  
-・人の心身 → 平静や健全な状態が崩れる。  
-・評価 → 状況・制度・行為が常識や公平さから外れて「ひどい」と感じられる。  
-・干渉 → 対象へ余計に手を出し、その状態や相手の平静を乱す。  
-軍隊の食堂・共同食事と古い「一食分」の意味は、語源上の食事義が残った歴史的な別枝である。現代の「乱れ」というコアイメージから派生させず、別に覚える方がよい。  
-
-＃意味や関連情報の出力（日本語訳）
-
-1. 【名詞・可算／不可算】散らかり、汚れ、乱雑なもの・状態
-
-【日本語訳・定義】物や場所が整頓されていない、汚れている、または複数の物質がこぼれて後始末を要する状態を表す。可算名詞の *a mess* は一つの乱雑な状態・散らかった場所・汚れの塊を指し、不可算の *mess* は乱雑さや汚れ一般を指す。清潔さと整頓のどちらか一方だけでなく、両方が問題になっている場合にも使える。
-
-【頻度】〈9/10〉
-
-【レジスター/領域】日常的でくだけすぎない一般語。家庭、職場、事故現場、料理など幅広い場面で使う。不可算用法はイギリス英語で特に自然である。
-
-【文法パターン】*a/the mess*＝具体的な散らかり・汚れ／*mess*＝乱雑さ一般／*be in a mess*＝散らかった状態にある／*leave/make + O + a mess*＝目的語を散らかった状態にする／*leave/make a mess*＝汚れや散らかりを残す
-
-【コロケーション】
-
-・make a mess  
-用途: 料理、工作、遊びなどによって物を散らかしたり汚したりすることを表す。  
-例: The children made a mess with paint and glue.  
-訳: 子どもたちは絵の具とのりで辺りを散らかした。  
-
-・be in a mess  
-用途: 部屋、机、髪、衣服などが乱れた状態にあることを表す。  
-例: My desk is in a mess after a week of deadlines.  
-訳: 締め切り続きの一週間のせいで、私の机は散らかっている。  
-
-・clean up the mess  
-用途: こぼれた物、散乱物、汚れを片付けることを表す。  
-例: We cleaned up the mess before the guests arrived.  
-訳: 私たちは客が来る前に散らかった物を片付けた。  
-
-・leave the kitchen a mess  
-用途: 場所を散らかった状態のままにする結果構文を示す。  
-例: Please don't leave the kitchen a mess after you bake.  
-訳: お菓子を焼いた後、キッチンを散らかったままにしないでください。  
-
-【語法・注意】可算用法では通常 *a mess* と冠詞を付け、× *The room is mess.* ではなく *The room is a mess.* または *The room is messy.* とする。*in a mess* は「散らかった状態で」、*in the mess* は文脈で特定された散乱物の中にいることを表し得る。*leave the room a mess* は *leave + O + C* の結果構文で、前置詞 *in* は不要である。不可算の *mess* は「乱雑さ一般」を表し、*I can't stand mess* のように使うが、アメリカ英語では具体的な *a mess* や *clutter* の方が自然な場面も多い。
-
-【類義語】
-
-・clutter  
-定義: 不要な物や多すぎる物が場所をふさいでいる散らかり。  
-頻度: 〈7/10〉  
-違い: *mess* は汚れやこぼれも含められるが、*clutter* は主に物の多さと無秩序な配置に焦点がある。  
-例: The shelves were covered in clutter.  
-訳: 棚は雑多な物で埋まっていた。  
-
-・disorder  
-定義: 物事が正しい順序・配置になっていない状態。  
-頻度: 〈6/10〉  
-違い: *mess* より抽象的でやや改まっており、必ずしも汚れを含まない。  
-例: The files were in complete disorder.  
-訳: 書類は完全に乱れていた。  
-
-・jumble  
-定義: さまざまな物が無秩序に混ざった集まり。  
-頻度: 〈5/10〉  
-違い: *mess* が状態全体を評価するのに対し、*jumble* は入り混じった物の集合そのものに焦点を当てる。  
-例: A jumble of cables lay under the desk.  
-訳: 机の下にはケーブルがごちゃ混ぜになっていた。  
-
-・filth  
-定義: 強い不快感を伴うひどい汚れ、不潔な物。  
-頻度: 〈5/10〉  
-違い: *mess* よりはるかに強く、散らかりではなく不潔さを非難する語である。  
-例: The abandoned room was covered in filth.  
-訳: 放棄された部屋はひどい汚れに覆われていた。  
-
-【反意語】
-
-・order  
-定義: 物が適切な位置・順序に整えられた状態。  
-頻度: 〈8/10〉  
-違い: 整頓・配置の軸で *mess* と状態上の反対をなすが、清潔さまでは保証しない。  
-例: She restored order to the crowded storeroom.  
-訳: 彼女は物でいっぱいの倉庫を整頓された状態に戻した。  
-
-・tidiness  
-定義: 物や外見がきちんと整っている性質。  
-頻度: 〈5/10〉  
-違い: 乱雑さの軸で不可算の *mess* と対立し、汚れより整然さに焦点がある。  
-例: The office was notable for its tidiness.  
-訳: その事務所は整然としていることが際立っていた。  
-
-・cleanliness  
-定義: 汚れがなく衛生的である性質。  
-頻度: 〈6/10〉  
-違い: 汚れの軸で *mess* と対立するが、物が整頓されているかどうかは含意しない。  
-例: The inspector praised the kitchen's cleanliness.  
-訳: 検査官はその厨房の清潔さを評価した。  
-
-2. 【名詞・通例単数可算】問題だらけの状況、混乱、失敗作
-
-【日本語訳・定義】計画、制度、財政、人間関係、生活などに複数の問題が絡み合い、簡単には解決できない状態を表す。また、仕事や課題をひどく失敗した結果も指す。話者が「正常な状態から大きく崩れている」と否定的に評価する語である。
-
-【頻度】〈9/10〉
-
-【レジスター/領域】日常会話から報道・ビジネスまで広く使うが、評価的で比較的くだけた語。正式文書では *disorder*、*crisis*、*failure* など、問題の種類を特定する語が好まれることがある。
-
-【文法パターン】*be in a mess*＝状況が混乱している／*get into a mess*＝困った状況に陥る／*make a mess of + 名詞/-ing*＝物事をひどくやり損なう／*get O into/out of this mess*＝人・組織を混乱へ陥れる／そこから救い出す
-
-【コロケーション】
-
-・the situation is a mess  
-用途: 状況全体が混乱し、複数の問題を抱えていると評価する。  
-例: The booking system is a mess, and customers keep receiving the wrong dates.  
-訳: 予約システムはめちゃくちゃで、顧客に誤った日付が届き続けている。  
-
-・get into a mess  
-用途: 誤った判断などによって、対処しにくい状況へ陥ることを表す。  
-例: We got into a mess by promising the same room to two groups.  
-訳: 私たちは同じ部屋を二つの団体に約束してしまい、厄介なことになった。  
-
-・get out of this mess  
-用途: 現在の困難・混乱から抜け出すことを表す。  
-例: A short-term loan will not get us out of this mess.  
-訳: 短期融資では、この苦境から抜け出せない。  
-
-・make a mess of something  
-用途: 課題、計画、機会などをひどくやり損なうことを表す。  
-例: The contractor made a mess of the renovation.  
-訳: その業者は改修工事をひどく失敗した。  
-
-・sort out the mess  
-用途: 混乱した状況の問題を一つずつ整理して解決することを表す。  
-例: It took the new manager months to sort out the financial mess.  
-訳: 新しい管理者が財務上の混乱を整理するのに数か月かかった。  
-
-【語法・注意】この意味でも *a mess* が基本で、*The project is mess.* とはしない。*make a mess* だけなら物理的に「散らかす」とも解釈できるため、失敗を明示するには *make a mess of the project* のように *of* を続ける。*be in a mess* は状態、*get into a mess* はその状態への変化を表す。*What a mess!* は物理的な散らかりにも問題状況にも使える。
-
-【類義語】
-
-・muddle  
-定義: 考え・手順・状況が整理されず、混乱している状態。  
-頻度: 〈5/10〉  
-違い: *mess* よりイギリス英語的で、特に思考や運営の混乱に焦点を当てる。  
-例: The policy was introduced in a muddle.  
-訳: その政策は混乱したまま導入された。  
-
-・shambles  
-定義: ひどく無秩序で機能していない状況。  
-頻度: 〈5/10〉  
-違い: 常に複数形の形で単数扱いされることが多く、*mess* より失敗・混乱の程度が強い。  
-例: The whole event was a shambles.  
-訳: その催し全体が大混乱だった。  
-
-・chaos  
-定義: 秩序や統制がほとんど失われた状態。  
-頻度: 〈7/10〉  
-違い: *mess* より規模と無秩序の程度が強く、個人的な小さな失敗より広い混乱に使いやすい。  
-例: The sudden closure caused chaos across the network.  
-訳: 突然の閉鎖によってネットワーク全体が大混乱に陥った。  
-
-・fiasco  
-定義: 人前で明らかになった、恥ずかしいほど大きな失敗。  
-頻度: 〈5/10〉  
-違い: *mess* が継続中の問題状況も指すのに対し、*fiasco* は出来事・計画の失敗という結果を強調する。  
-例: The product launch turned into a fiasco.  
-訳: 製品発表は大失敗に終わった。  
-
-3. 【名詞・単数可算・くだけた表現】外見・感情・生活がひどい状態の人
-
-【日本語訳・定義】人が疲労、悲嘆、酔い、病気、強い不安などのために外見が乱れている、感情を制御できない、または生活上の問題に対処できない状態を表す。人そのものの価値ではなく現在の状態を述べるのが基本だが、文脈によっては侮辱的になり得る。
-
-【頻度】〈7/10〉
-
-【レジスター/領域】くだけた会話表現。共感的にも批判的にも使われる。心理状態について使う場合、診断名ではなく話者の主観的評価である。
-
-【文法パターン】*someone is a mess*＝人が外見・感情・生活面でひどい状態にある／*a complete/total mess*＝程度を強調する／*an emotional mess*＝感情面の混乱を限定する／*a hot mess*＝ひどく混乱している人・物事をユーモラスまたは批判的に評する
-
-【コロケーション】
-
-・be a mess after something  
-用途: つらい出来事の後で、人が感情的・身体的に参っている状態を表す。  
-例: She was a mess after saying goodbye to her dog.  
-訳: 愛犬に別れを告げた後、彼女はひどく取り乱していた。  
-
-・be an emotional mess  
-用途: 感情が入り混じり、自分でうまく制御できない状態を明示する。  
-例: I was an emotional mess throughout the final episode.  
-訳: 最終話の間、私はずっと感情がぐちゃぐちゃだった。  
-
-・look like a complete mess  
-用途: 疲労、雨、寝不足などで外見がひどく乱れていることを表す。  
-例: He looked like a complete mess after the overnight shift.  
-訳: 夜勤の後、彼は見るからにぼろぼろだった。  
-
-・be a hot mess  
-用途: 人や状況がひどく混乱している一方、どこか面白い・目が離せないというくだけた評価を表すことがある。  
-例: I love the character, but he is a hot mess.  
-訳: その登場人物は好きだが、彼は本当にめちゃくちゃだ。  
-
-【語法・注意】*She is a mess.* は状態を強く評価するため、本人に直接言うと傷つけるおそれがある。外見だけなら *She looks a mess.*、感情なら *She is an emotional mess.* のように範囲を明確にできる。*hot mess* は肯定的な「魅力的な人」を単独で意味するわけではなく、混乱や破綻をユーモラスに表す語である。深刻な心理状態を正確に述べる必要がある場面では、具体的な症状や状態を示す語を使う。
-
-【類義語】
-
-・wreck  
-定義: 心身がひどく疲れ、取り乱し、正常に機能できない人。  
-頻度: 〈6/10〉  
-違い: *mess* より消耗・損傷の比喩が強く、*a nervous wreck* の形が特に一般的である。  
-例: I was a nervous wreck before the interview.  
-訳: 面接前、私は緊張でぼろぼろだった。  
-
-・disaster  
-定義: 行動・外見・生活がひどく失敗していると評価される人。  
-頻度: 〈7/10〉  
-違い: 人については強い否定的評価になりやすく、*mess* より責任や失敗を責める響きが強い。  
-例: He is a disaster in the kitchen.  
-訳: 彼は料理をするとまるで駄目だ。  
-
-・basket case  
-定義: 問題や不安のため、ほとんど対処できない状態の人・組織。  
-頻度: 〈4/10〉  
-違い: *mess* より極端で、侮蔑的・無神経に響くことがあるため使用に注意が必要である。  
-例: I was a complete basket case during the delay.  
-訳: 遅延している間、私は完全に取り乱していた。  
-
-4. 【名詞・可算／不可算・婉曲表現】動物の排せつ物、吐しゃ物などの汚物
-
-【日本語訳・定義】主にペットが残した糞、尿、吐しゃ物など、掃除を必要とする不快な汚物を直接名指しせずに表す。何を指すかは状況によって決まり、医学的・衛生的に正確な名称ではない。
-
-【頻度】〈5/10〉
-
-【レジスター/領域】日常的な婉曲表現。家庭、ペットの世話、育児などで使う。具体性が必要な衛生・医療・事故報告では *feces*、*urine*、*vomit* などを使う。
-
-【文法パターン】*a mess*＝一回分の汚物・汚れ／*mess*＝汚物一般／*leave/make a mess*＝排せつ物などを残す
-
-【コロケーション】
-
-・the dog left a mess  
-用途: 犬などが室内・庭に排せつ物や吐しゃ物を残したことを婉曲に表す。  
-例: The dog left a mess by the back door.  
-訳: 犬が裏口のそばを汚していた。  
-
-・clean up the pet mess  
-用途: ペットが残した汚物を片付けることを表す。  
-例: Please wear gloves when you clean up the pet mess.  
-訳: ペットの汚物を片付けるときは手袋をしてください。  
-
-・dog mess  
-用途: 特にイギリス英語で、公共の場所などにある犬の糞を指す。  
-例: There was dog mess on the pavement.  
-訳: 歩道に犬の糞があった。  
-
-【語法・注意】*a mess* は排せつ物の種類を曖昧にするため、文脈がなければ単なる散らかりとも解釈される。*dog mess* はイギリス英語でよく使われるが、アメリカ英語では *dog poop*、*dog waste* なども一般的である。動詞の *mess on + 場所* と *mess oneself* は、後方の動詞語義で扱う。
-
-【類義語】
-
-・waste  
-定義: 人や動物の体から排出される不要物。  
-頻度: 〈7/10〉  
-違い: *animal waste* のように衛生・行政上も使える中立的な総称で、*mess* より具体的な管理対象として扱う。  
-例: Animal waste must be disposed of safely.  
-訳: 動物の排せつ物は安全に処分しなければならない。  
-
-・poop  
-定義: 糞、または排便することを表すくだけた語。  
-頻度: 〈7/10〉  
-違い: *mess* より対象が明確で、主にアメリカ英語の日常会話や子ども向け表現で使う。  
-例: Someone forgot to pick up the dog's poop.  
-訳: 誰かが犬の糞を片付け忘れた。  
-
-・droppings  
-定義: 鳥や小動物が落とした糞。  
-頻度: 〈5/10〉  
-違い: 動物の糞を比較的客観的に指し、*mess* のように尿・吐しゃ物や周囲の汚れまでは含めない。  
-例: Bird droppings covered the bench.  
-訳: ベンチは鳥の糞で覆われていた。  
-
-5. 【名詞・可算／動詞・自動詞・軍事】食堂、食事を共にする集団、その食事；一緒に食事を取る
-
-【日本語訳・定義】名詞では、軍人が食事を取り、場合によっては休憩・交流もする部屋や建物を指す。また、その施設を利用する階級別の集団や、そこで取る食事を指すことがある。軍事用の自動詞では、同じ食事集団に属して一緒に食事を取ることを表す。現代の日常語の「散らかり」とは別に、語源的に古い「一緒に取る食事」の意味を保っている。
-
-【頻度】〈3/10〉
-
-【レジスター/領域】軍事用語。イギリスおよび英連邦の軍事文化では *officers' mess* などが定着している。アメリカ英語では建物を *mess hall* と呼ぶのが特に一般的である。
-
-【文法パターン】*the + 所有・階級 + mess*＝特定階級の食堂・集団／*a mess hall*＝軍・キャンプなどの共同食堂／*eat/dine in the mess*＝その食堂で食事をする／*mess together/with + 人*＝軍人などが同じ食事集団で食事を取る
-
-【コロケーション】
-
-・the officers' mess  
-用途: 将校用の食堂・社交施設、またはそれを利用する将校集団を指す。  
-例: Dinner will be served in the officers' mess at seven.  
-訳: 夕食は7時に将校食堂で出される。  
-
-・the sergeants' mess  
-用途: 軍曹など特定階級の隊員用の食堂・社交施設を指す。  
-例: The reception was held in the sergeants' mess.  
-訳: 歓迎会は軍曹食堂で開かれた。  
-
-・a mess hall  
-用途: 軍人、キャンプ参加者、作業員などが共同で食事を取る建物を指す。  
-例: Hundreds of recruits ate breakfast in the mess hall.  
-訳: 何百人もの新兵が共同食堂で朝食を取った。  
-
-・eat in the mess  
-用途: 軍の共同食堂で食事を取ることを表す。  
-例: Junior officers usually eat in the mess.  
-訳: 下級将校は通常、将校食堂で食事をする。  
-
-・mess together  
-用途: 軍人などが同じ食事集団に属し、一緒に食事を取ることを専門的・古風に表す。  
-例: The visiting officers messed together during the exercise.  
-訳: 訪問中の将校たちは演習中、一緒に食事を取った。  
-
-【語法・注意】場所を指す *mess* は可算名詞だが、所属者に共有される特定施設として *the mess* と呼ぶことが多い。*officers' mess* のアポストロフィは複数所有格で *officers'* とする。一般の社員食堂を通常 *mess* とは呼ばず、*canteen*、*cafeteria*、*dining hall* などを使う。*mess hall* は軍以外のキャンプ・刑務所・大規模作業現場などにも使われることがある。動詞の「一緒に食事を取る」は軍事・歴史文脈に限られ、一般には *eat together* を使う。
-
-【類義語】
-
-・canteen  
-定義: 職場、学校、軍施設などの食堂・売店。  
-頻度: 〈6/10〉  
-違い: 特にイギリス英語で民間施設にも広く使え、階級別共同体を含意する *mess* より一般的である。  
-例: Staff can buy lunch in the canteen.  
-訳: 職員は食堂で昼食を買える。  
-
-・cafeteria  
-定義: 客が料理を選んで運ぶセルフサービス式食堂。  
-頻度: 〈7/10〉  
-違い: 提供方式に焦点があり、軍事組織や所属集団を含意しない。  
-例: The hospital cafeteria stays open all night.  
-訳: 病院のカフェテリアは一晩中営業している。  
-
-・dining hall  
-定義: 学校、寮、施設などで多人数が食事を取る大きな部屋。  
-頻度: 〈6/10〉  
-違い: 軍に限られない中立的な語で、*mess* のような階級別の社交組織までは指さない。  
-例: Students gathered in the dining hall.  
-訳: 学生たちは食堂に集まった。  
-
-6. 【名詞・単数可算・地域的／古風】一食分・一鍋分の食物；多数・多量
-
-【日本語訳・定義】古い食物義では、一回の食事に足りる食物、特に調理した野菜・魚などの一まとまりを表す。そこから、北米のくだけた地域的用法で *a mess of + 複数名詞／不可算名詞* が「多数・多量の～」を表すことがある。現代では *a mess of greens/fish*、*a mess of trouble* や、古風な慣用句 *a mess of pottage* などで見られる。
-
-【頻度】〈2/10〉
-
-【レジスター/領域】地域的・古風。アメリカ南部などの食文化を描く文脈、歴史・文学・聖書由来の表現で遭遇する。通常の日常英語で一人分を言うなら *a serving* または *a portion* を使う。
-
-【文法パターン】*a mess of + 食物*＝一食・一鍋分ほどのまとまった量／*a mess of + 複数名詞／不可算名詞*＝北米のくだけた地域用法で「多数・多量の～」／*a mess of pottage*＝古風に「一杯の煮物」、慣用的には小さな目先の利益／*sell/trade + 価値ある物 + for a mess of pottage*＝大切な物をわずかな目前の利益と引き換えにする
-
-【コロケーション】
-
-・a mess of greens  
-用途: 主にアメリカ南部の地域的表現で、調理する・食べるのに十分な葉野菜一盛りを表す。  
-例: She cooked a mess of greens for the family supper.  
-訳: 彼女は家族の夕食に葉野菜を一鍋分調理した。  
-
-・a mess of fish  
-用途: 一食分になるほどの魚のまとまりを地域的・古風に表す。  
-例: They returned from the lake with a mess of fish.  
-訳: 彼らは湖から一食分ほどの魚を持ち帰った。  
-
-・a mess of pottage  
-用途: 古風に一杯の豆などの煮物を指し、特に価値の小さい目先の利益の比喩として使う。  
-例: The editorial accused them of trading principle for a mess of pottage.  
-訳: その社説は、彼らがわずかな目先の利益のために原則を売ったと非難した。  
-
-・a mess of trouble  
-用途: 北米のくだけた地域的表現で、非常に多くの問題・面倒を表す。  
-例: We're in a mess of trouble now.  
-訳: 私たちは今、山ほどの問題を抱えている。  
-
-【語法・注意】この用法の *a mess of* を、常に現代の一般的な「めちゃくちゃな～」と機械的に訳さない。*a mess of greens* は「散らかった野菜」ではなく「一食・一鍋分ほどの葉野菜」である一方、*a mess of papers* は文脈によって「散らかった書類の塊」を表し得る。*a mess of pottage* は『創世記』のエサウの物語に結び付く慣用表現だが、この正確な英語句自体が聖書本文のすべての翻訳に現れるわけではない。現代の数量表現としては地域性が強いため、能動的に使うより読解できることが重要である。
-
-【類義語】
-
-・serving  
-定義: 一人に一度に供される食物・飲み物の量。  
-頻度: 〈8/10〉  
-違い: 現代の標準語で一人分を表し、地域的な *a mess of food* より量と提供単位が明確である。  
-例: Each box contains four servings.  
-訳: 各箱には4食分入っている。  
-
-・portion  
-定義: 全体から分けられた一部、特に一人分の食物。  
-頻度: 〈8/10〉  
-違い: 食物以外にも使える中立的な語で、*mess* の歴史的・地域的な響きがない。  
-例: The restaurant serves generous portions.  
-訳: そのレストランは一人前の量が多い。  
-
-・batch  
-定義: 一度に作る・処理する物のまとまり。  
-頻度: 〈7/10〉  
-違い: 一食分ではなく、一回の製造・調理単位に焦点を当てる。  
-例: He baked a fresh batch of rolls.  
-訳: 彼はロールパンを新しく一回分焼いた。  
-
-・lot  
-定義: くだけた表現で、多数・多量の人や物。  
-頻度: 〈10/10〉  
-違い: 現代英語で地域を問わず使える一般的な数量表現で、*a mess of* の古風・地域的な響きがない。  
-例: We had a lot of trouble finding the address.  
-訳: 私たちはその住所を見つけるのに大変苦労した。  
-
-7. 【動詞・他動詞／自動詞・くだけた表現】物を乱す、汚す；排せつして汚す
-
-【日本語訳・定義】他動詞では物の整った形・配置を崩して乱雑にする。単独の他動詞用法は主にアメリカ英語で、イギリス英語では *mess up* がより一般的である。自動詞では動物がある場所に排せつして汚すことを表す。現代英語では多くの場合、*up*、*with*、*around/about* を伴う句動詞・動詞句の方が一般的である。
-
-【頻度】〈4/10〉
-
-【レジスター/領域】くだけた日常語。単独他動詞の地域差に注意する。自動詞の排せつ用法は家庭内の婉曲表現である。
-
-【文法パターン】*mess + O*＝主に米「目的語を乱す」／*mess on + 場所*＝動物がそこで排せつする／*mess oneself*＝人が衣服の中で排便・排尿して自分を汚す／否定命令 *Don't mess + O*＝物を乱すな
-
-【コロケーション】
-
-・mess someone's hair  
-用途: 主にアメリカ英語で、人の髪を触って乱すことを表す。  
-例: Don't mess my hair; I just fixed it.  
-訳: 髪を乱さないで。今整えたばかりなの。  
-
-・mess on the carpet  
-用途: ペットなどがカーペットの上で排せつして汚すことを表す。  
-例: The cat had messed on the carpet while we were away.  
-訳: 私たちの留守中に、猫がカーペットで粗相をしていた。  
-
-・mess oneself  
-用途: 人がトイレに間に合わず、衣服の中で排便・排尿してしまうことを婉曲に表す。  
-例: He was afraid he might mess himself before reaching the bathroom.  
-訳: 彼はトイレに着く前に粗相をしてしまうのではないかと心配していた。  
-
-【語法・注意】他動詞 *mess + O* は使用範囲が限られ、一般には *mess up + O* または *mess + O + up* の方が明確で自然である。特にイギリス英語では *Don't mess up my hair.* が普通。*mess on* と *mess oneself* は文脈依存の婉曲表現なので、正確さが必要なら *defecate*、*urinate*、*soil oneself* などを使う。最小対立は、*mess oneself*＝「衣服の中で粗相する」、*mess oneself up*＝「自分の心身・人生を損なう」。*up* の有無で意味が全く異なる。*mess* は規則活用し、過去形・過去分詞は *messed* である。
-
-【類義語】
-
-・muss  
-定義: 髪、服、整えた物などをくしゃくしゃに乱す。  
-頻度: 〈3/10〉  
-違い: 主にアメリカ英語で外見上の乱れに限定され、*mess* より対象が狭く、やや古風に感じられることがある。  
-例: The wind mussed her hair.  
-訳: 風が彼女の髪をくしゃくしゃにした。  
-
-・disarrange  
-定義: 整った配置・順序を崩す。  
-頻度: 〈3/10〉  
-違い: *mess* より改まった語で、汚れや排せつの意味を含まない。  
-例: Someone had disarranged the papers.  
-訳: 誰かが書類の順序を乱していた。  
-
-・soil  
-定義: 表面を汚物・泥などで汚す。  
-頻度: 〈5/10〉  
-違い: 物理的な汚れに焦点があり、配置を乱す意味はない。排せつを直接言わない婉曲動詞としても使える。  
-例: The child had soiled the sheets.  
-訳: その子はシーツを汚してしまっていた。  
-
-8. 【句動詞・自他】mess up：失敗する、間違える；計画・機会などを台無しにする
-
-【日本語訳・定義】自動詞では本人がミスをする、期待どおりにできないことを表す。他動詞では計画、仕事、機会、関係などの成功・正常な進行を損ない、台無しにする。失敗の程度は軽い間違いから重大な損害まで文脈で決まる。物や場所を物理的に散らかす用法は次の語義で分けて扱う。
-
-【頻度】〈9/10〉
-
-【レジスター/領域】非常に一般的なくだけた表現。会話、職場、学校、スポーツなどで広く使う。正式な報告では *make an error*、*damage*、*compromise* など具体的な語を選ぶことがある。
-
-【文法パターン】*mess up*＝自動詞「失敗する」／*mess up + O* または *mess + O + up*＝分離可能な他動詞「Oを台無しにする」／*mess up on + 課題*＝課題の特定部分で失敗する／*mess up by -ing*＝何をして失敗したか示す
-
-【コロケーション】
-
-・mess up  
-用途: 目的語を置かず、自分が間違えたり失敗したりしたことを認める。  
-例: I messed up, and I take full responsibility.  
-訳: 私が失敗しました。責任はすべて私にあります。  
-
-・mess up something  
-用途: 計画、機会、作業などを失敗によって損なうことを表す。  
-例: One incorrect setting could mess up the entire experiment.  
-訳: 設定を一つ間違えるだけで、実験全体を台無しにしかねない。  
-
-・mess something up  
-用途: 名詞目的語を *mess* と *up* の間に置く分離形を示す。  
-例: I entered the wrong date and messed the schedule up.  
-訳: 私は日付を間違えて入力し、予定をめちゃくちゃにした。  
-
-・mess it up  
-用途: 代名詞目的語を必ず *mess* と *up* の間に置く。  
-例: This is our last chance, so don't mess it up.  
-訳: これが最後の機会だから、台無しにしないで。  
-
-・mess up on something  
-用途: テスト、質問、作業工程など、失敗した対象・箇所を *on* で示す。  
-例: I messed up on the final calculation.  
-訳: 最後の計算で間違えた。  
-
-【語法・注意】他動詞用法は分離可能で、名詞目的語なら *mess up the plan* と *mess the plan up* の両方が可能。代名詞は必ず中央に置き、○ *mess it up*、× *mess up it* とする。自動詞 *I messed up.* は「私が失敗した」であり、何を損ねたかは示さない。句動詞の過去形 *messed up the plan*、叙述形容詞 *the plan is messed up*、限定形容詞 *a messed-up plan* を区別する。
-
-【類義語】
-
-・make a mistake  
-定義: 判断・計算・行動などで誤りを犯す。  
-頻度: 〈10/10〉  
-違い: 中立的で失敗の種類を限定せず、責任を認める場面でも *mess up* より改まった響きにできる。  
-例: Everyone makes mistakes when learning a new system.  
-訳: 新しい仕組みを学ぶときは誰でも間違える。  
-
-・screw up  
-定義: くだけた表現で、失敗する、物事を台無しにする。  
-頻度: 〈7/10〉  
-違い: 構文と意味は *mess up* に非常に近いが、より俗語的で荒い響きがある。  
-例: I screwed up the booking.  
-訳: 予約をしくじった。  
-
-・botch  
-定義: 技能不足や不注意によって仕事を不格好にやり損なう。  
-頻度: 〈5/10〉  
-違い: 他動詞として失敗した作業・修理などを目的語に取り、完成結果の質の悪さを強調する。  
-例: The first repair was badly botched.  
-訳: 最初の修理はひどくやり損なわれていた。  
-
-・ruin  
-定義: 物事の価値・機能・成功の可能性を大きく損なう。  
-頻度: 〈9/10〉  
-違い: *mess up* より結果の深刻さ・不可逆性が強いことが多く、単なる一回のミスには強すぎる場合がある。  
-例: The leak ruined the wooden floor.  
-訳: 水漏れで木の床が台無しになった。  
-
-9. 【句動詞・他動詞・くだけた表現】mess up：物・場所・髪などを散らかす、乱す、汚す
-
-【日本語訳・定義】整っていた物の配置・形・見た目を崩して、乱雑・不格好・汚れた状態にする。部屋、書類、髪、服装など、目で確認できる物理的な乱れが中心である。計画や機会を台無しにする前項の抽象的な失敗義とは分けて理解する。
-
-【頻度】〈7/10〉
-
-【レジスター/領域】くだけた日常語。片づけ、身だしなみ、物の配置について広く使う。
-
-【文法パターン】*mess up + O* または *mess + O + up*＝物・場所の状態を乱す。分離可能で、名詞目的語は両位置に置けるが、代名詞は必ず中央に置く（*mess it up*）。
-
-【コロケーション】
-
-・mess up someone's hair  
-用途: 人の髪型や髪の整った状態を崩すことを表す。  
-例: The wind messed up my hair before the photo.  
-訳: 写真を撮る前に風で髪が乱れてしまった。  
-
-・mess up a room  
-用途: 部屋を散らかして乱雑な状態にすることを表す。  
-例: The children messed up the room while they were playing.  
-訳: 子どもたちは遊んでいる間に部屋を散らかした。  
-
-・mess the papers up  
-用途: 順序よく並んだ書類をばらばらにすることを表し、分離形を示す。  
-例: A gust of wind messed the papers up.  
-訳: 突風で書類がばらばらになった。  
-
-【語法・注意】この用法の *mess up* は結果が物理的に見える。*mess up someone's hair* は「髪を乱す」であり、「髪に関する作業で失敗する」という前項の失敗義ではない。名詞目的語では *mess up the room / mess the room up* の両方が可能だが、代名詞では *mess it up* とし、× *mess up it* とはしない。
-
-【類義語】
-
-・disarrange  
-定義: 整然と配置されていた物の順序・配置を乱す。  
-頻度: 〈4/10〉  
-違い: *mess up* より硬く、汚すことより配置や順序が崩れることに焦点がある。  
-例: Someone had disarranged the books on the shelf.  
-訳: 誰かが棚の本の並びを乱していた。  
-
-・rumple  
-定義: 髪、衣服、紙などにしわや乱れを生じさせる。  
-頻度: 〈4/10〉  
-違い: 対象が柔らかい物や表面に限られやすく、部屋全体を散らかす意味には通常使わない。  
-例: He rumpled the child's hair affectionately.  
-訳: 彼は親しみを込めてその子の髪をくしゃくしゃにした。  
-
-・clutter up  
-定義: 物を置きすぎて場所を散らかし、使いにくくする。  
-頻度: 〈4/10〉  
-違い: *mess up* より、不要な物が空間を占めることを具体的に表す。  
-例: Boxes cluttered up the hallway.  
-訳: 箱が廊下をふさいで散らかしていた。  
-
-10. 【形容詞・限定／叙述・くだけた表現】messed up / messed-up：乱れている、壊れている、正常に機能しない
-
-【日本語訳・定義】物、計画、制度、日程などの構造・順序・機能が乱れ、正常な状態ではないことを表す。単なる見た目の散らかりから、仕組みの機能不全までを含む。ここでは人の心理状態、倫理的評価、酩酊の意味は扱わない。
-
-【頻度】〈8/10〉
-
-【レジスター/領域】くだけた日常語。会話や非公式な文章で非常によく使う。制度批判にも使えるが、正式な報告では *dysfunctional*、*disordered* などが適することがある。
-
-【文法パターン】叙述用法 *S + be/get + messed up*＝主語が乱れた状態にある・なる／限定用法 *a/an + messed-up + 名詞*＝乱れた・機能不全の名詞。*very/really/badly/completely messed up* のように程度修飾できる。
-
-【コロケーション】
-
-・be badly messed up  
-用途: 物や計画がかなり乱れ、容易には正常に戻せない状態を表す。  
-例: The filing system is badly messed up.  
-訳: 書類整理の仕組みがひどく乱れている。  
-
-・a messed-up system  
-用途: 正常に機能しない制度・仕組みを名詞の前から説明する。  
-例: We are trying to repair a messed-up payment system.  
-訳: 私たちは機能不全に陥った決済システムを修復しようとしている。  
-
-・get completely messed up  
-用途: 日程、順序、配置などが完全に狂う変化を表す。  
-例: Our schedule got completely messed up by the delay.  
-訳: 遅延のせいで私たちの日程は完全に狂ってしまった。  
-
-【語法・注意】叙述用法では通常ハイフンを付けず *The system is messed up.* と書く。名詞の前では複合形容詞として *a messed-up system* のようにハイフンを付ける。*The system was messed up by an incorrect update.* は文脈によって「誤った更新がシステムを壊した」という句動詞の受動態とも、「システムが壊れた状態だった」という形容詞とも分析できる。
-
-【類義語】
-
-・dysfunctional  
-定義: 組織、制度、関係などが本来の機能を果たしていない。  
-頻度: 〈6/10〉  
-違い: *messed up* より硬く、見た目の乱れではなく継続的な機能不全を明確に表す。  
-例: The department had become deeply dysfunctional.  
-訳: その部門は深刻な機能不全に陥っていた。  
-
-・disordered  
-定義: 順序や体系が崩れ、整っていない。  
-頻度: 〈5/10〉  
-違い: 比較的中立的・説明的で、*messed up* が持ちうる苛立ちや強い評価を必ずしも伴わない。  
-例: The records were incomplete and disordered.  
-訳: 記録は不完全で、順序も乱れていた。  
-
-・broken  
-定義: 機械、仕組み、制度などが正常に働かない。  
-頻度: 〈10/10〉  
-違い: *messed up* より結果を端的に述べ、乱れ方や原因を含意しない。  
-例: The booking system is broken again.  
-訳: 予約システムがまた故障している。  
-
-11. 【形容詞・限定／叙述・くだけた表現】messed up / messed-up：精神的・感情的に傷つき、混乱している
-
-【日本語訳・定義】人がつらい経験、家庭環境、不安などのために、感情や考え方が不安定・混乱した状態にあることを表す。話者が外から強く評価する語なので、本人に直接使うと無神経または侮辱的に響きうる。医学的診断を表す語ではない。
-
-【頻度】〈7/10〉
-
-【レジスター/領域】くだけた会話表現。心理状態を大づかみに述べるため、支援・医療・教育の正式な場面では、具体的な状態を説明する語を選ぶ方がよい。
-
-【文法パターン】*someone + be/seem + messed up*＝人が精神的に混乱している／*get/become + messed up by/after + 原因*＝経験のために混乱した状態になる／限定用法 *a messed-up + 人*。*emotionally/deeply/really messed up* と程度・領域を示せる。
-
-【コロケーション】
-
-・be emotionally messed up  
-用途: 人が感情面で深く混乱し、不安定になっていることを明示する。  
-例: He was emotionally messed up after the breakup.  
-訳: 彼は別れた後、感情的にひどく混乱していた。  
-
-・a deeply messed-up person  
-用途: 心理的問題が深いと話者が判断する人を名詞の前から形容する。  
-例: The novel is narrated by a deeply messed-up character.  
-訳: その小説は精神的に深く傷ついた人物によって語られる。  
-
-・get messed up by something  
-用途: 出来事や環境が原因で人の心理状態が損なわれる変化を表す。  
-例: Some children get messed up by years of instability.  
-訳: 長年の不安定な環境によって心が傷つく子どももいる。  
-
-【語法・注意】*She is messed up.* は状態を表す形容詞、*The experience messed her up.* は経験が悪影響を与えた能動の句動詞である。人に用いると強く断定的なので、具体的な症状を意味する *distressed*、*anxious*、*traumatized* などと置き換えられるか検討する。限定用法は *a messed-up child* のようにハイフンを付ける。
-
-【類義語】
-
-・troubled  
-定義: 心配、葛藤、問題を抱えて精神的に落ち着かない。  
-頻度: 〈7/10〉  
-違い: *messed up* より穏やかで共感的に響きやすく、人そのものを壊れていると評価する含意が弱い。  
-例: The school provides support for troubled teenagers.  
-訳: その学校は問題を抱えた十代の若者を支援している。  
-
-・disturbed  
-定義: 心理的に強く動揺している、または考え方・行動に深刻な問題がある。  
-頻度: 〈6/10〉  
-違い: 文脈によって一時的な動揺にも深刻な精神状態にもなり、*messed up* より硬いが依然として強い評価を帯びうる。  
-例: The child seemed deeply disturbed by what he had seen.  
-訳: その子は目にしたものによって深く動揺しているようだった。  
-
-・traumatized  
-定義: 強い恐怖や衝撃を伴う経験によって心理的外傷を受けている。  
-頻度: 〈6/10〉  
-違い: 原因がトラウマとなる出来事であることを具体的に示し、漠然とした *messed up* より意味範囲が狭い。  
-例: Many survivors remained traumatized for years.  
-訳: 多くの生存者は何年も心の傷を抱えたままだった。  
-
-12. 【形容詞・叙述中心・くだけた表現】messed up：倫理的にひどい、不公平で受け入れがたい
-
-【日本語訳・定義】出来事、発言、規則、人の扱いなどを、単に混乱しているのではなく「道徳的に間違っている」「不公平でひどい」「常識的に受け入れがたい」と強く非難・評価する。*That's messed up.* は、驚き、怒り、嫌悪、同情を込めた反応として非常によく使われる。
-
-【頻度】〈8/10〉
-
-【レジスター/領域】くだけた会話、とくにアメリカ英語で一般的。強い否定評価を含むため、正式な議論では何が不公正・有害なのかを具体的に述べる方がよい。
-
-【文法パターン】*That/It + be + messed up*＝目前の事実・既出内容を強く非難する／*It is messed up that + 節*＝節で示す事実を不当と評価する／*a messed-up + 規則・考え方*＝不当・異常な名詞。通常比較級にはせず、*really/seriously/so messed up* で程度を示す。
-
-【コロケーション】
-
-・That's messed up  
-用途: 聞いた出来事を倫理的にひどい・不当だと即座に評価する。  
-例: They charged you twice and refused a refund? That's messed up.  
-訳: 二重に請求して返金も拒んだの？ それはひどすぎる。  
-
-・It's messed up that + 節  
-用途: 不公平・不道徳だと評価する事実を *that* 節で具体化する。  
-例: It's messed up that some workers were never paid.  
-訳: 一部の労働者に賃金がまったく支払われなかったなんてひどい。  
-
-・a seriously messed-up rule  
-用途: 不当または非常識な規則を名詞の前から強く批判する。  
-例: That is a seriously messed-up rule.  
-訳: それは本当にひどく不当な規則だ。  
-
-【語法・注意】この用法を「混乱している」とだけ訳すと、話者の倫理的非難を落としてしまう。*That's messed up.* は多くの場合「それはひどい」「そんなの間違っている」「理不尽だ」に近い。叙述用法なのでハイフンは不要だが、名詞の前では *a messed-up rule* とする。
-
-【類義語】
-
-・wrong  
-定義: 道徳、規則、事実、判断などの点で正しくない。  
-頻度: 〈10/10〉  
-違い: 最も広く中立的にも使え、*messed up* ほど驚きや嫌悪を必ずしも示さない。  
-例: It was wrong to hide the information from them.  
-訳: 彼らにその情報を隠したのは間違っていた。  
-
-・unfair  
-定義: 人の扱い、規則、結果などが公平でない。  
-頻度: 〈9/10〉  
-違い: 非難の根拠を公平性に限定し、*messed up* より評価軸が明確である。  
-例: The new rule is unfair to part-time staff.  
-訳: その新しい規則は非常勤職員に不公平だ。  
-
-・outrageous  
-定義: 常識や許容範囲を大きく外れ、強い怒りや驚きを招く。  
-頻度: 〈7/10〉  
-違い: *messed up* より強く劇的で、行為だけでなく価格や主張の途方もなさにも使う。  
-例: Their treatment of the residents was outrageous.  
-訳: 住民に対する彼らの扱いは言語道断だった。  
-
-13. 【形容詞・叙述中心・俗語】messed up：酒・薬物でひどく酔っている、正常な判断ができない
-
-【日本語訳・定義】酒または薬物の影響で、意識、判断、身体の動きが正常でない状態を表す俗語。単に少量飲んだ状態より強いことが多いが、具体的な酩酊度や物質は文脈による。*on alcohol/drugs* で原因物質を示せる。
-
-【頻度】〈5/10〉
-
-【レジスター/領域】くだけた俗語。酒や薬物の話題で使う。医療・法律上の正確な状態を示す語ではなく、正式な場面では *intoxicated* などを使う。
-
-【文法パターン】*someone + be/get + messed up*＝人が酩酊状態にある・なる／*get/be messed up on + alcohol/drugs/物質名*＝原因物質を示す／*be too messed up to + 動詞*＝酩酊がひどくて行動できない。通常は叙述用法で、*really/completely/so messed up* と程度修飾できる。
-
-【コロケーション】
-
-・get messed up on alcohol  
-用途: 酒でひどく酔った状態になることを表す。  
-例: He used to get messed up on alcohol every weekend.  
-訳: 彼は以前、毎週末ひどく酒に酔っていた。  
-
-・be messed up on drugs  
-用途: 薬物の影響で意識や判断が正常でない状態を表す。  
-例: She realized that he was messed up on drugs.  
-訳: 彼女は彼が薬物で正常でない状態だと気づいた。  
-
-・be too messed up to drive  
-用途: 酩酊がひどく、安全に運転できない状態を表す。  
-例: You're too messed up to drive, so give me the keys.  
-訳: ひどく酔っていて運転できる状態ではないから、鍵を渡して。  
-
-【語法・注意】文脈なしの *He's messed up.* は「精神的に混乱している」とも「酔っている」とも取れるため、必要なら *on alcohol/drugs* を加える。*get messed up on alcohol* の *on* は酩酊の原因を示す。薬物使用を肯定する表現ではなく、健康・安全上の状態を俗語で述べる用法である。
-
-【類義語】
-
-・drunk  
-定義: 酒を飲んで酔っている。  
-頻度: 〈10/10〉  
-違い: 原因を酒に限定し、意味が最も明確で、*messed up* より俗語性が弱い。  
-例: He was too drunk to walk straight.  
-訳: 彼は酔いすぎてまっすぐ歩けなかった。  
-
-・high  
-定義: 主に薬物の作用で陶酔・酩酊状態にある。  
-頻度: 〈8/10〉  
-違い: 原因を主に薬物に限定する一方、*messed up* は酒にも薬物にも使え、より機能低下を強調しやすい。  
-例: The driver appeared to be high.  
-訳: その運転手は薬物で酩酊しているようだった。  
-
-・wasted  
-定義: 酒や薬物で極度に酔っている。  
-頻度: 〈7/10〉  
-違い: 強い俗語で、*messed up* より重度の酩酊を直接示すことが多い。  
-例: He was completely wasted by midnight.  
-訳: 彼は真夜中までには完全に泥酔していた。  
-
-14. 【句動詞・他動詞・くだけた表現】mess someone up：人の心身・生活に深刻な悪影響を与える
-
-【日本語訳・定義】経験、暴力、薬物、人間関係などが人に混乱、トラウマ、機能低下、けがを生じさせることを表す。心理的悪影響が中心だが、アメリカ英語の俗語では人を殴ってひどく傷つける、身体を痛めるという意味にもなる。
-
-【頻度】〈6/10〉
-
-【レジスター/領域】くだけた強い表現。心理的影響を日常会話で述べるときに多い。暴力の意味は特にアメリカ英語の俗語で、脅しに使うと攻撃的である。
-
-【文法パターン】*mess + someone + up*＝分離形で人に悪影響を与える／*be/get messed up by + 原因*＝受動態で原因を示す／*mess up + 身体部位*＝身体を痛める／*mess someone up emotionally*＝影響の領域を副詞で限定する
-
-【コロケーション】
-
-・mess someone up emotionally  
-用途: 出来事や関係が人の感情・心理に長く悪影響を与えることを表す。  
-例: The years of uncertainty messed him up emotionally.  
-訳: 何年にもわたる不安定な状況が、彼の心に深い悪影響を与えた。  
-
-・be messed up by something  
-用途: 人が経験・薬物・暴力などによって心身の調子を崩したことを受動態で表す。  
-例: She was badly messed up by the accident.  
-訳: 彼女はその事故で心身ともにひどい影響を受けた。  
-
-・mess up a knee  
-用途: 事故や運動によって膝などの身体部位を痛めることをくだけて表す。  
-例: I messed up my knee playing basketball.  
-訳: バスケットボールをしていて膝を痛めた。  
-
-・mess someone up in a fight  
-用途: 主にアメリカ英語の俗語で、人を殴るなどしてひどく傷つけることを表す。  
-例: He threatened to mess me up if I came back.  
-訳: 戻ってきたら痛い目に遭わせると、彼は私を脅した。  
-
-【語法・注意】心理的影響を表す *mess someone up* は幅が広く、医学的診断を意味しない。正確さが必要なら *traumatize*、*cause anxiety*、*injure* などを使う。代名詞は必ず中央に置き、○ *mess him up*、× *mess up him*。身体部位を目的語にする *mess up my knee* は「痛める」で、人を目的語にする暴力義とは区別する。脅しの *I'll mess you up.* は冗談でない限り危険で攻撃的に響く。
-
-【類義語】
-
-・traumatize  
-定義: 強い恐怖・衝撃によって長く続く心理的苦痛を与える。  
-頻度: 〈6/10〉  
-違い: *mess someone up* より具体的で改まっており、深刻な心理的影響に焦点を限定する。  
-例: The violent incident traumatized several witnesses.  
-訳: その暴力事件は複数の目撃者に心的外傷を与えた。  
-
-・damage  
-定義: 人の健康、能力、評判などを損なう。  
-頻度: 〈9/10〉  
-違い: より中立的で正式な文脈にも使え、心理・身体・社会的損害の種類を補語で明示しやすい。  
-例: Prolonged stress can damage your health.  
-訳: 長期的なストレスは健康を損なうことがある。  
-
-・beat up  
-定義: 人を繰り返し殴ってけがをさせる。  
-頻度: 〈7/10〉  
-違い: 暴力行為を直接表し、心理的悪影響や身体部位の故障には使わない。  
-例: The attackers beat him up and stole his phone.  
-訳: 襲撃者たちは彼を殴り、携帯電話を奪った。  
-
-15. 【句動詞・他動詞・くだけた表現】mess with：いじる、干渉する、関わる；挑発する；からかう
-
-【日本語訳・定義】物に不用意な変更を加える、人の事柄へ余計に介入する、危険な物事と関わる、人を挑発して争いを起こす、または嘘・冗談で人をからかうことを表す。目的語と状況によって中心訳が変わるが、「対象に手を出して、本来の状態や相手の平静を乱す」という共通核がある。
-
-【頻度】〈8/10〉
-
-【レジスター/領域】くだけた会話表現。*Don't mess with me.* は警告・威嚇にもなり得る。物をいじる意味はアメリカ英語で特に一般的だが、他地域でも理解される。
-
-【文法パターン】*mess with + 物*＝いじる・変更する／*mess with + 人・制度*＝干渉する・挑発する／*mess with + 危険な物事*＝不用意に関わる／*be just messing with + 人*＝冗談でからかう／*mess with someone's head/mind*＝人を意図的または結果的に混乱させる
-
-【コロケーション】
-
-・mess with the settings  
-用途: 設定や装置に、不用意または試行的な変更を加えることを表す。  
-例: Don't mess with the settings unless you know what they do.  
-訳: 機能が分からないなら設定をいじらないで。  
-
-・mess with someone  
-用途: 人に嫌がらせをする、挑発する、争いを仕掛けることを表す。  
-例: People quickly learn not to mess with her.  
-訳: 彼女にはちょっかいを出さない方がよいと、皆すぐに学ぶ。  
-
-・be just messing with someone  
-用途: 本気ではなく、嘘や誇張を言って相手をからかっていると明かす。  
-例: Relax—I'm just messing with you.  
-訳: 落ち着いて。からかっているだけだよ。  
-
-・mess with someone's head  
-用途: 人を意図的に混乱・不安にさせる、または経験が結果的にそうさせることを表す。  
-例: Constantly changing the rules can mess with your head.  
-訳: 規則が絶えず変わると、頭が混乱しかねない。  
-
-・mess with dangerous chemicals  
-用途: 危険な物質・薬物・人物などへ不用意に関わることを表す。  
-例: Children should never mess with dangerous chemicals.  
-訳: 子どもは危険な化学物質に決して手を出してはいけない。  
-
-【語法・注意】*mess with* の *with* は省略できない。*Don't mess with me.* は「私をからかわないで」にも「私にけんかを売るな」にもなり、口調と状況で強さが決まる。冗談であることを明示する *I'm just messing with you.* は一般的だが、相手が傷ついている場面では軽く扱う響きになることがある。*mess with the settings* は「いじる」であり、必ず壊すことまでは含意しない。*mess with someone's head* は口語的で、正式には具体的な心理的影響を述べる。
-
-【類義語】
-
-・tamper with  
-定義: 許可なく物・証拠・機器などへ変更を加える。  
-頻度: 〈6/10〉  
-違い: 不正・危険・無断という含意が *mess with* より明確で、警告文や法的文脈にも使う。  
-例: Do not tamper with the smoke detector.  
-訳: 煙感知器を勝手にいじらないでください。  
-
-・meddle with  
-定義: 自分に関係のない事柄へ余計に介入する。  
-頻度: 〈5/10〉  
-違い: 人の問題へのおせっかいな干渉を明示し、物を試しに調整する中立的な用法には向かない。  
-例: He was accused of meddling with the investigation.  
-訳: 彼は捜査に余計な介入をしたとして非難された。  
-
-・fiddle with  
-定義: 物を何度も触ったり、小さな調整を加えたりする。  
-頻度: 〈6/10〉  
-違い: 物を手でいじる・微調整する意味に強く、人を挑発する意味はない。  
-例: She fiddled with the controls until the sound improved.  
-訳: 音が良くなるまで、彼女は操作部をあれこれ調整した。  
-
-・tease  
-定義: 冗談や軽い意地悪で人をからかう。  
-頻度: 〈8/10〉  
-違い: からかう意味を直接表し、物への干渉や危険なものとの関わりは表さない。  
-例: They teased him about his new haircut.  
-訳: 彼らは彼の新しい髪型をからかった。  
-
-16. 【句動詞・自動詞・くだけた表現】mess around/about：ふざける、だらだらする、時間を無駄にする
-
-【日本語訳・定義】*mess around* または主にイギリス英語の *mess about* は、目的なくふざける、真剣に取り組まずだらだらと時間を使うことを表す。この項目は目的語を取らない自動詞用法である。*with + 物・人* を伴う構文や、人を中央に置く *mess someone around/about* は後続の別項目で扱う。
-
-【頻度】〈7/10〉
-
-【レジスター/領域】くだけた会話表現。*mess about* はイギリス英語、*mess around* はアメリカ英語で特に一般的だが、どちらも広く理解される。恋愛・性的意味は文脈依存である。
-
-【文法パターン】*mess around/about*＝ふざける・だらだらする／*stop messing around/about*＝ふざけるのをやめる／*mess around/about instead of + -ing*＝すべきことをせず時間を無駄にする／*spend time messing around/about*＝ふざけて時間を過ごす
-
-【コロケーション】
-
-・stop messing around  
-用途: ふざけたり時間を無駄にしたりするのをやめるよう命じる。  
-例: Stop messing around and finish your homework.  
-訳: ふざけていないで宿題を終えなさい。  
-
-・mess about instead of working  
-用途: 主にイギリス英語で、仕事をせずにだらだら過ごすことを表す。  
-例: They spent the afternoon messing about instead of working.  
-訳: 彼らは仕事をせず、午後をだらだら過ごした。  
-
-・spend time messing around  
-用途: 特に目的のない行動やふざけ合いに時間を使うことを表す。  
-例: We spent an hour messing around before the rehearsal began.  
-訳: 私たちはリハーサルが始まる前に1時間ふざけて過ごした。  
-
-【語法・注意】ここでは目的語を取らない。物を続けるなら *mess around/about with something*、恋愛・性的な相手を示すなら *mess around with someone* とし、いずれも後続項目の別フレームである。また「人を振り回す」は *mess someone around/about* と直接目的語を中央に置く。*mess about in boats* は「ボートで気ままに遊ぶ」のようなイギリス英語的表現で、*about* と *around* の選択には地域差と個人差がある。
-
-【類義語】
-
-・fool around  
-定義: 真剣に取り組まず、ふざけたり無駄に時間を使ったりする。  
-頻度: 〈7/10〉  
-違い: *mess around* に非常に近いアメリカ英語の口語で、恋愛・性的関係の含意を持つこともある。  
-例: The students were fooling around in the hallway.  
-訳: 生徒たちは廊下でふざけていた。  
-
-・play around  
-定義: 気軽に試す、または真剣でない態度で楽しむ。  
-頻度: 〈7/10〉  
-違い: 実験的に試す意味では *mess around* より否定的評価が弱く、創作・設定変更にも使いやすい。  
-例: I played around with several color combinations.  
-訳: 私はいくつかの色の組み合わせを気軽に試した。  
-
-・waste time  
-定義: 有益な結果につながらないことに時間を使う。  
-頻度: 〈9/10〉  
-違い: 時間損失を直接述べ、ふざける行動や物を試す意味は含まない。  
-例: We wasted time arguing about minor details.  
-訳: 私たちは細部について言い争い、時間を無駄にした。  
-
-17. 【句前置詞動詞・自動詞・くだけた表現】mess around/about with something：物をいじる、あれこれ試す
-
-【日本語訳・定義】機械、設定、素材、考え、デザインなどを、明確な手順や完成形を決めずに触ったり変えたりして試す。好奇心からの気軽な試行にも、不用意な操作への軽い非難にも使える。目的物は *with* の後ろに置く。
-
-【頻度】〈7/10〉
-
-【レジスター/領域】くだけた日常語。*mess about with* は主にイギリス英語、*mess around with* は特にアメリカ英語で一般的。創作、機械操作、設定変更などに使う。
-
-【文法パターン】*mess around/about with + something*＝物をいじる・試す／*mess around/about with + -ing*＝ある方法を試してみる／*spend time messing around/about with + something*＝物をあれこれ試して時間を過ごす。*with* は省略できず、目的語を *mess* と *around/about* の間には置かない。
-
-【コロケーション】
-
-・mess around with a new design  
-用途: 完成形を決めず、デザインを試行錯誤することを表す。  
-例: I spent the weekend messing around with a new design.  
-訳: 私は週末、新しいデザインをあれこれ試して過ごした。  
-
-・mess about with the controls  
-用途: 主にイギリス英語で、操作部を目的なく、または不用意にいじることを表す。  
-例: Don't mess about with the controls while the machine is running.  
-訳: 機械が動いている間は操作部をいじらないで。  
-
-・mess around with changing the layout  
-用途: *with + -ing* で、ある変更方法を試してみることを表す。  
-例: We messed around with changing the layout but kept the original design.  
-訳: 私たちはレイアウト変更をいろいろ試したが、元のデザインを残した。  
-
-【語法・注意】*mess around with something* は「試しにいじる」が中心で、*mess with something* は「勝手に変更する・干渉する」という否定的な含意がより強くなりやすい。人を直接目的語にして「振り回す」と言うときは *mess someone around/about* であり、× *mess around someone* ではない。恋愛・性的関係の *mess around with someone* は次項の人目的語専用の語義である。
-
-【類義語】
-
-・tinker with  
-定義: 機械、仕組み、計画などに小さな変更を加えながら試す。  
-頻度: 〈6/10〉  
-違い: *mess around with* より、改善や調整を意図した細かな作業を示しやすい。  
-例: She spent the evening tinkering with the program.  
-訳: 彼女は夜をそのプログラムの細かな調整に費やした。  
-
-・experiment with  
-定義: 結果を確かめるため、方法、材料、考えなどを試す。  
-頻度: 〈7/10〉  
-違い: より中立的で目的意識があり、*mess around with* の「気軽に・行き当たりばったりに」という含意が弱い。  
-例: The chef experimented with several spices.  
-訳: その料理人はいくつかの香辛料を試した。  
-
-・play around with  
-定義: 遊びや試行として、選択肢、設定、考えなどを気軽に変えてみる。  
-頻度: 〈7/10〉  
-違い: *mess around with* より肯定的・創造的に響きやすく、不用意にいじるという非難が弱い。  
-例: Try playing around with the font size.  
-訳: フォントサイズをいろいろ変えて試してみて。  
-
-18. 【句前置詞動詞・自動詞・くだけた表現】mess around with someone：人と浮気する、性的関係を持つ
-
-【日本語訳・定義】恋人・配偶者以外の人と秘密の恋愛関係または性的関係を持つ。関係の具体的な程度は文脈によるが、通常は不誠実さや不貞を含意する。単に友人とふざける意味にも理論上なりうるため、文脈が重要である。
-
-【頻度】〈6/10〉
-
-【レジスター/領域】くだけた会話表現。恋愛・不貞について間接的に述べる婉曲的な言い方で、明示性は *have sex with* より低い。
-
-【文法パターン】*mess around with + someone*＝その人と恋愛・性的関係を持つ／*be messing around with someone else*＝交際相手以外の人と関係を持っている／*be caught/deny + messing around with someone*＝関係を発見される・否定する。人は *with* の後ろに置く。
-
-【コロケーション】
-
-・mess around with someone else  
-用途: 交際相手以外の人と恋愛・性的関係を持つことを表す。  
-例: She ended the relationship because he was messing around with someone else.  
-訳: 彼が別の人と関係を持っていたため、彼女は交際を終わらせた。  
-
-・be caught messing around with someone  
-用途: 秘密の関係を持っているところを発見されることを表す。  
-例: He was caught messing around with a coworker.  
-訳: 彼は同僚と関係を持っているところを見つかった。  
-
-・deny messing around with someone  
-用途: 特定の人と恋愛・性的関係を持ったという疑いを否定する。  
-例: He denied messing around with anyone at work.  
-訳: 彼は職場の誰とも関係を持っていないと否定した。  
-
-【語法・注意】*mess around with someone* は *with* の後ろの人が「関係を持つ相手」である。これに対し *mess someone around/about* は人を *mess* と小辞の間に置き、「その人を振り回す」という意味になる。*mess around with Alex* と *mess Alex around* は語順も意味も異なる最小対立である。性的意味を避けて「一緒にふざける」と明確に言うなら *joke around with someone* が安全である。
-
-【類義語】
-
-・have an affair with  
-定義: 配偶者・交際相手以外の人と継続的な恋愛・性的関係を持つ。  
-頻度: 〈7/10〉  
-違い: *mess around with* より関係の継続性と不貞を明確に示す。  
-例: He had an affair with a colleague.  
-訳: 彼は同僚と不倫関係を持った。  
-
-・cheat on  
-定義: 配偶者・交際相手を裏切って別の人と恋愛・性的関係を持つ。  
-頻度: 〈8/10〉  
-違い: 目的語は関係を持つ相手ではなく、裏切られる現在のパートナーである点が異なる。  
-例: She discovered that her husband had cheated on her.  
-訳: 彼女は夫が自分を裏切って浮気していたことを知った。  
-
-・sleep with  
-定義: 人と性交渉を持つ。  
-頻度: 〈8/10〉  
-違い: 性的関係を直接示すが、不貞や継続性はそれ自体では含意しない。  
-例: He denied sleeping with anyone else.  
-訳: 彼はほかの誰かと性的関係を持ったことを否定した。  
-
-19. 【句動詞・他動詞・主に英・くだけた表現】mess someone around/about：人を振り回す、不当に待たせる
-
-【日本語訳・定義】約束を守らない、予定や条件を何度も変える、必要な情報を出さない、不誠実な対応を続けるなどして、人に時間・労力・不安を負わせる。直接目的語の人は *mess* と *around/about* の間に置く。
-
-【頻度】〈5/10〉
-
-【レジスター/領域】主にイギリス英語のくだけた表現。*mess about* を使う地域では *mess someone about* も用いる。アメリカ英語では *jerk someone around* などが近い。
-
-【文法パターン】*mess + someone + around/about*＝人を振り回す／*be messed around/about by + 人・組織*＝人・組織に振り回される／*stop messing someone around/about*＝人を振り回すのをやめる。代名詞も必ず中央に置き、*with* は使わない。
-
-【コロケーション】
-
-・mess someone around for weeks  
-用途: 長期間、回答や対応を引き延ばして人を振り回すことを表す。  
-例: The agency messed us around for weeks before giving a clear answer.  
-訳: その機関は明確な回答を出すまで何週間も私たちを振り回した。  
-
-・stop messing me about  
-用途: 主にイギリス英語で、不誠実な扱いや度重なる変更をやめるよう求める。  
-例: Stop messing me about and tell me whether I have the job.  
-訳: 私を振り回すのはやめて、採用なのかどうか教えてください。  
-
-・be messed around by a company  
-用途: 会社の不手際や不誠実な対応によって迷惑を受けることを受動態で表す。  
-例: Customers felt they had been messed around by the company.  
-訳: 顧客たちはその会社に振り回されたと感じていた。  
-
-【語法・注意】*mess someone around/about* は「人」を直接目的語として中央に置く。*mess around with someone* は、人を *with* の後ろに置き、通常「その人と恋愛・性的関係を持つ」という別義になる。したがって *They messed him around.* は「彼らは彼を振り回した」、*They messed around with him.* は文脈により「彼と関係を持った／彼とふざけた」であり、同じ意味ではない。
-
-【類義語】
-
-・jerk someone around  
-定義: くだけた表現で、人を不誠実に扱い、待たせたり振り回したりする。  
-頻度: 〈5/10〉  
-違い: *mess someone around* よりアメリカ英語的で、相手への不当な扱いを強く非難する。  
-例: The company jerked applicants around for months.  
-訳: その会社は何か月も応募者を振り回した。  
-
-・give someone the runaround  
-定義: 回答や解決を避け、たらい回しにして人の時間を浪費させる。  
-頻度: 〈5/10〉  
-違い: 特に問い合わせ・手続きで明確な回答を与えない状況に焦点がある。  
-例: The insurer gave us the runaround for days.  
-訳: 保険会社は何日も私たちをたらい回しにした。  
-
-・string someone along  
-定義: 本当の意図を明かさず、期待を持たせたまま人を待たせる。  
-頻度: 〈5/10〉  
-違い: *mess someone around* より、見込みがあると思わせて意図的に引き延ばすことを強調する。  
-例: They strung him along with promises of a promotion.  
-訳: 彼らは昇進をほのめかして彼を期待させ続けた。  
-
-20. 【固定表現・主に英・くだけた表現】no messing：ふざけなし、無駄なし、容赦なし
-
-【日本語訳・定義】冗談、ためらい、手加減、面倒な手続きなどがなく、真剣・直接的・迅速であることを表す短い固定表現。何を排除しているかは文脈によって変わり、命令としての「ふざけるな」に近い場合も、人物・方法のきっぱりした性質を評する場合もある。
-
-【頻度】〈3/10〉
-
-【レジスター/領域】主にイギリス英語のくだけた表現。見出し・会話・スポーツ評などで簡潔に強調するときに使う。
-
-【文法パターン】独立した *No messing.*＝「ふざけるな・無駄はなし」／*名詞句 + and no messing*＝その方針をきっぱり要求する。固定性が高く、自由な文法展開は限られる。
-
-【コロケーション】
-
-・hard work and no messing  
-用途: 努力を求め、ふざけや怠慢を許さない方針を短く表す。  
-例: The new coach expects hard work and no messing.  
-訳: 新しいコーチは懸命な努力を求め、ふざけることを許さない。  
-
-・No messing  
-用途: 単独で、冗談やためらいをやめて真剣に行動するよう求める。  
-例: No messing—we need to leave in five minutes.  
-訳: ふざけている場合じゃない。5分後には出発しないといけない。  
-
-【語法・注意】この *messing* は動作を表す普通の進行形ではなく、「ふざけ・無駄・面倒」をまとめて指す名詞的な固定用法である。アメリカ英語で同じ意図を明確に伝えるなら、文脈に応じて *no fooling around*、*no nonsense*、*no kidding* などを使う方が自然なことが多い。生産性が低いため、コロケーションは代表的な2件に限定した。
-
-【類義語】
-
-・no fooling around  
-定義: ふざけたり時間を無駄にしたりすることを許さない。  
-頻度: 〈6/10〉  
-違い: *no messing* より地域差が小さく、禁止される行動が「ふざけ」であることを明確にする。  
-例: There will be no fooling around during the safety drill.  
-訳: 安全訓練中にふざけることは許されない。  
-
-・no nonsense  
-定義: 無駄話、言い訳、複雑な手続きなどを排して実際的・直接的である。  
-頻度: 〈6/10〉  
-違い: *no messing* より「実務的で要点を外さない」という人物・方法への評価に使いやすい。  
-例: She takes a no-nonsense approach to management.  
-訳: 彼女は経営に実務的で無駄のない姿勢で臨む。  
-
-・no kidding  
-定義: 冗談ではないことを示す、または驚きへの強い同意を表す。  
-頻度: 〈8/10〉  
-違い: アメリカ英語で一般的だが、時間の無駄や手加減まで排除する *no messing* より意味が狭い。  
-例: No kidding—this warning is serious.  
-訳: 冗談ではない。この警告は深刻だ。
-
----
-
-# approximately
-
----
-headword: approximately
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-05
-updated_at: 2026-08-13
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /əˈprɑːksəmətli/｜英: /əˈprɒksɪmətli/  
-米英とも5音節で、主強勢は第2音節の /ˈprɑːk/（米）／/ˈprɒk/（英）に置く。  
-音節に分けると、米音は ə-ˈprɑːk-sə-mət-li、英音は ə-ˈprɒk-sɪ-mət-li となる。  
-米英差は第2音節の母音 /ɑː/ と /ɒ/、第3音節の母音 /ə/ と /ɪ/ の2か所で、強勢位置とその他の主要な子音は共通する。  
-形容詞 approximate は米 /əˈprɑːksəmət/・英 /əˈprɒksɪmət/、動詞 approximate は米 /əˈprɑːksəmeɪt/・英 /əˈprɒksɪmeɪt/。形容詞の語末は弱い /mət/、動詞の語末は /meɪt/ になる。approximately は形容詞 approximate に副詞語尾 `-ly` が付いた形で、最後の `-ly` は /li/ と読む。  
-
-＃語源
-
-英語の approximate は、ラテン語 approximāre「近づく・近づける」に由来する後期ラテン語 approximātus「近づけられた」を源とし、そこへ副詞語尾 `-ly` が付いて approximately になった。語の中心には「完全な一致ではなく、基準に近い」という意味がある。  
-同じラテン語 proximus「最も近い」にさかのぼる関連語に proximity「近接」、proximate「近接した・直接の」があり、英語内の派生語に approximation「近似・概算」がある。  
-
-＃語形成
-
-・approximate + `-ly` → approximately：形容詞「おおよその・近似した」を副詞化し、「およそ・ほぼ」の意味にする。  
-・approximate → approximation：近似・概算、または元の対象に近い再現・表現を表す名詞。  
-・approx.：approximately の省略形。表、メモ、計算、日付などで使うが、通常の散文では approximately と綴る方が自然。  
-
-＃意味・用法・関連表現
-
-1. 【副詞】約・およそ・ほぼ（数値・数量・程度を近似して示す）
-
-【日本語訳・定義】厳密な値ではないが、実際の数・量・時間・距離・割合などに近い値を示す。数値の上下どちらもあり得るため、通常は「その値より少ない」という意味を含まない。数字だけでなく、二つの値・大きさ・程度、形状、関係、状態などが完全には一致しないが近いことを、`approximately equal`、`approximately proportional`、`approximately rectangular`、`approximately correct` のように表すこともある。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】中立。会話でも使えるが、about や around よりやや説明的・書き言葉寄りで、報告書、案内、研究、統計、計算の説明などで特によく使う。硬すぎる語ではない。  
-
-【文法パターン】A＝approximately 〈数値・数量・時間・割合〉／B＝動詞 + approximately 〈数値・数量・時間〉／C＝approximately the same 〈size/number〉 as …、approximately twice as many 〈複数名詞〉 as …、approximately twice as much 〈不可算名詞〉 as …／D＝approximately + 〈形容詞・過去分詞〉（equal、correct、proportional、parallel、rectangular、dated など）：形状・関係・状態・日付などが厳密には一致しない近似を示す  
-
-【コロケーション】
-
-・approximately 〈数値〉 + 〈可算名詞〉  
-用途: 人数、件数、年数など、数えられるものの概数を示す。  
-例: Approximately 2,400 households lost power during the storm.  
-訳: その嵐で約2,400世帯が停電した。  
-
-・approximately 〈数量〉 of 〈不可算名詞〉  
-用途: 金額、量、資料など、不可算名詞の概数を示す。  
-例: Approximately 30 liters of water were used to clean the tank.  
-訳: タンクを洗うのに約30リットルの水が使われた。  
-
-・at approximately 〈時刻〉  
-用途: 出来事が起きた時刻や予定時刻をおよその時刻で示す。  
-例: The train arrived at approximately 6:10 p.m.  
-訳: 列車は午後6時10分ごろに到着した。  
-
-・take approximately 〈時間〉  
-用途: 作業、移動、手続きなどに必要なおよその時間を示す。  
-例: The repair should take approximately two hours.  
-訳: 修理には約2時間かかるはずだ。  
-
-・cost approximately 〈金額〉  
-用途: 商品、工事、計画などのおよその費用を示す。  
-例: The renovation cost approximately ¥3 million.  
-訳: その改修には約300万円かかった。  
-
-・approximately one in 〈数〉  
-用途: 全体に対する割合を「およそ何人に1人・何件に1件」と示す。  
-例: Approximately one in five employees works remotely.  
-訳: 従業員のおよそ5人に1人が在宅勤務をしている。  
-
-・be approximately 〈割合〉 complete  
-用途: 作業や計画がどの程度進んでいるかを、およその割合で示す。  
-例: The project is approximately 80% complete.  
-訳: そのプロジェクトは約80％完了している。  
-
-・approximately the same 〈size/number〉  
-用途: 二つ以上の物の大きさや数が完全には同じでない可能性を残しつつ、ほぼ同じだと述べる。  
-例: The two rooms are approximately the same size.  
-訳: その2つの部屋はほぼ同じ大きさだ。  
-
-・approximately twice as many 〈可算名詞〉 as …  
-用途: ある対象の数が別の対象のおよそ2倍だと比較する。  
-例: The new server can handle approximately twice as many requests as the old one.  
-訳: 新しいサーバーは古いサーバーのおよそ2倍のリクエストを処理できる。  
-
-・approximately twice as much 〈不可算名詞〉 as …  
-用途: ある対象の量が別の対象のおよそ2倍だと比較する。  
-例: The new process uses approximately twice as much energy as the old one.  
-訳: 新しい工程は古い工程のおよそ2倍のエネルギーを使う。  
-
-・approximately equal to 〈数値・値〉  
-用途: 数学、科学、技術などで、完全な等号ではなく近似的に等しいことを示す。  
-例: The calculated value is approximately equal to 3.14.  
-訳: 計算された値は3.14とほぼ等しい。  
-
-・approximately + 〈形容詞・過去分詞〉  
-用途: 形状、関係、状態、日付などが完全ではないが近似的であることを示す。  
-例: The island is approximately rectangular in shape.  
-訳: その島はおおむね長方形の形をしている。  
-
-【語法・注意】数値の前では `approximately 100` のように置き、`approximately the same size` では `the` を落とさない。approximately は値が基準値の上下どちらにもなり得ることを示すが、`nearly/almost 100` は基準値にまだ達していない側の含みが出やすい。about/around はより会話的で、roughly は概算の粗さを強調しやすい。approximately の後には具体的な数値、割合、測定値などが特に自然で、`approximately several people` のように曖昧な不定量語だけを直接続ける形は、具体的な数値を置くより不自然になりやすい。ただし `approximately several hundred/thousand people` のように概数の単位と結び付く形は使われる。`approximately 10%` のように割合を示せるが、`10 percents` とは言わない。approximately は概数を示すだけでなく、`approximately correct`、`approximately proportional`、`approximately rectangular` のように、正確さ・関係・形状などの近さにも使える。`approximately equal to` は数学的な完全一致ではなく近似的な等価を表す。`approx.` は表、メモ、計算、日付などの省略に向くが、通常の散文では approximately と綴る。形容詞 approximate と混同して `an approximately number` とは言わず、名詞を直接修飾するときは `an approximate number`、数値を副詞として修飾するときは `approximately 100` とする。approximately は単独で名詞として用いることはできない。ただし、`the approximately 100 people` のように、`approximately 100` 全体が後続の名詞を修飾する形は可能。  
-
-【類義語】
-
-・about  
-定義: 数値、数量、時間などが提示された値に近いことを示す最も一般的な語。  
-頻度: 〈10/10〉  
-違い: approximately より会話的で、日常会話の概数に最も自然。前置詞「〜について」などの別用法もある。  
-例: The repair will take about two hours.  
-訳: 修理には約2時間かかる。  
-
-・around  
-定義: 数値、時刻、数量の前後の範囲を示す。  
-頻度: 〈10/10〉  
-違い: approximately と同じ概数用法を持つが、より会話的で、空間的な「周囲に・近くに」の意味も持つ。  
-例: There were around 200 people at the event.  
-訳: その催しには約200人いた。  
-
-・roughly  
-定義: 厳密さを求めない大まかな数値や量を示す。  
-頻度: 〈8/10〉  
-違い: approximately より「ざっくりした見積もり」という粗さを強く出しやすく、数値以外の内容を「大まかに」と修飾する用法もある。  
-例: The job will take roughly a week.  
-訳: その仕事にはざっと1週間かかる。  
-
-・more or less  
-定義: 数値、程度、内容などが完全ではないがほぼそうであることを示すくだけた表現。  
-頻度: 〈8/10〉  
-違い: approximately より口語的で、概数だけでなく「多少の違いはあるが、だいたいそうだ」という譲歩にも使う。  
-例: The two plans are more or less the same.  
-訳: その2つの計画はだいたい同じだ。  
-
-・close to  
-定義: 数値や状態が基準となる値・状態に近いことを示す。  
-頻度: 〈9/10〉  
-違い: approximately が上下を限定しない中立的な近似なのに対し、close to は基準値の近くにあることを強調し、文脈によっては目標・基準値にまだ達していない含みが出るが、数値が上下どちらかは一般に限定しない。  
-例: The temperature was close to 30°C.  
-訳: 気温は30度近くだった。  
-
-・nearly  
-定義: ある数値、時点、状態にほとんど達しているが、通常はまだ完全には達していないことを示す。数値や数量では、示された基準値の少し手前、つまり通常はその値未満であることを表す。  
-頻度: 〈9/10〉  
-違い: approximately と違って、基準値にまだ達していない・状態がまだ完全ではないという含みがある。ただし、測定値自体が丸められている場合などまで含め、厳密な数学的境界を保証する表現ではない。approximately 100 の完全な置き換えにはならない。  
-例: The journey took nearly three hours.  
-訳: その旅には3時間近くかかった。  
-
-・circa  
-定義: 主に年代、日付、歴史上の時点がおよそであることを示すフォーマルな語。  
-頻度: 〈4/10〉  
-違い: approximately より年代・日付に強く結び付き、歴史・美術・考古学などの記述でよく使う。数量にも使われ得るが、一般的な数量では approximately や about の方が自然なことが多い。  
-例: The temple was built circa 1200.  
-訳: その寺院は1200年ごろに建てられた。  
-
-・in the region of  
-定義: 金額、数量、規模などがおよそどの程度かを示す書き言葉寄りの表現。大きな数字で使われやすいが、その用途に限定されない。  
-頻度: 〈4/10〉  
-違い: approximately より長く報告調で、地域や文脈によってはフォーマルに響く。報告書やビジネス文書の概算に向くが、小さな数値や日常会話では重く感じられることがある。  
-例: The project cost in the region of $10 million.  
-訳: そのプロジェクトには1,000万ドル程度の費用がかかった。  
-
-【反意語】
-
-・exactly  
-定義: 数値、数量、時刻などが少しのずれもなく正確に一致することを示す。  
-頻度: 〈10/10〉  
-違い: approximately の直接的な反対で、近似ではなく厳密な値であることを表す。ただし、exactly には「まさに・そのとおりに」という数量以外の用法もある。  
-例: The package weighs exactly 2 kg.  
-訳: その荷物の重さは正確に2キロだ。  
-
-・precisely  
-定義: 数値、時刻、位置、表現などが極めて正確であることを強調する。  
-頻度: 〈8/10〉  
-違い: exactly と同じく近似の反対側にあるが、exactness を改まって強調する響きがあり、approximately よりフォーマルな対比になりやすい。  
-例: The meeting started precisely at 9 a.m.  
-訳: 会議は午前9時ちょうどに始まった。
-
----
-
-# embrace
-
----
-headword: embrace
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-05
-updated_at: 2026-08-11
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /ɪmˈbreɪs/  
-・主強勢は第2音節 /breɪs/ にあり、語頭は通常 /ɪm/ と弱く発音する。綴りの *em-* を /em/ と強く読まない。  
-・語末の *-ce* は /s/ で、名詞・動詞とも発音は同じである。  
-・活用形は *embraces* /ɪmˈbreɪsɪz/、*embraced* /ɪmˈbreɪst/、*embracing* /ɪmˈbreɪsɪŋ/。*embracing* では語末の *e* を落として *-ing* を付ける。  
-
-＃語源
-
-中英語を経て、アングロ・フランス語 *embracer*「腕の中に抱く、取り囲む」に由来する。これは *em-/en-*「中へ」と、古フランス語 *brace*「二本の腕」を組み合わせた語で、さらにラテン語 *bracchium*「腕」へさかのぼる。「腕の中へ取り込む」という物理的な意味から、「考えを受け入れる」「範囲の中に含む」「周囲から包む」という抽象的な意味が発達した。  
-・*brace*（名詞・動詞）— 現代では「一対」「支え」「身構える」などの意味が中心だが、歴史的には「二本の腕」に関係する。  
-・*bracelet*（名詞）— 「腕輪」。フランス語を介して、同じく「腕」を表す語根に関係する。  
-・*brachial*（形容詞）— 解剖学で「上腕の、腕の」。ラテン語 *bracchium* に直接関係する専門語である。  
-
-＃語形成
-
-・*embraces / embraced / embracing* — 動詞の活用形。*embraced* は受動態や過去分詞修飾、*embracing* は進行形・分詞構文で広く使われる。  
-・*embraceable*（形容詞）— 「抱きしめたくなる、受け入れられる」。実在するが低頻度で、通常は *lovable*、*appealing*、*acceptable* などの方が自然である。  
-・*all-embracing*（形容詞）— 「あらゆるものを含む、包括的な」。限定・叙述の両方で使えるが、やや硬い。  
-・*embracement*（名詞）— 「抱擁、受容」。現代ではまれで、通常は *embrace* または *acceptance* を使う。  
-・*embracer*（名詞）— 「抱く人、受け入れる人」。文脈上作れるが一般的な職業名・人物分類ではなく、使用頻度は低い。  
-
-＃コアイメージ
-
-「対象を自分の腕・範囲・立場の内側へ取り込む」が中心にある。物理的に人を腕の中へ入れる用法と、考え・変化・要素を自分または体系の内側へ入れる用法が主要な枝になる。  
-・核 → 考え・変化・機会を積極的に自分のものとして受け入れる。  
-・核 → 人を腕の中に抱く、または二人が互いに抱き合う。  
-・核 → 分野・計画・概念が複数の要素を範囲内に含む。  
-・核 → 地形・物体・雰囲気が対象を周囲から包む。  
-・核 → 名詞として、抱擁、積極的受容、包囲・影響下の状態を表す。  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】（考え・変化・機会・価値観などを）進んで受け入れる、採用する、支持する
-
-【日本語訳・定義】単に仕方なく認めるのではなく、対象を価値あるものとして前向きに受け入れ、自分の考え方・行動・制度へ取り込むことを表す。目的語には *change, technology, an idea, an opportunity, a challenge, diversity, a faith, a cause, an identity* などが来る。対象自体が困難・不確実でも、それに向き合う姿勢を積極的に選ぶという意味で使える。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準的だが、日常会話の単純な *accept* よりやや改まっている。報道、ビジネス、政治、教育、自己啓発、宗教・文化の説明で非常によく使う。  
-
-【文法パターン】*embrace 〈idea/change/technology/value〉*＝考え・変化などを積極的に採用する／*embrace 〈opportunity/challenge/uncertainty〉*＝機会・課題などを前向きに引き受ける／*embrace the opportunity/chance to do*＝～する機会を喜んで生かす／*〈fully/readily/wholeheartedly〉 embrace 〈O〉*＝受容の強さを示す／*embrace 〈O〉 as 〈C〉*＝OをCとして受け入れる／*be embraced by 〈人・組織〉*＝人・組織に広く受け入れられる  
-
-【コロケーション】
-
-・embrace change/new technology  
-用途: 新しい状況・技術を避けず、積極的に導入する。  
-例: Successful teams learn to embrace change instead of fearing it.  
-訳: 成功するチームは、変化を恐れるのではなく受け入れることを学ぶ。  
-
-・embrace an opportunity/challenge  
-用途: 機会を生かす、または課題に前向きに取り組む姿勢を示す。  
-例: She embraced the challenge of leading the project overseas.  
-訳: 彼女は海外プロジェクトを率いるという課題を前向きに引き受けた。  
-
-・embrace the opportunity to do  
-用途: *embrace* の直後に不定詞を置かず、*opportunity* を目的語にして行為を続ける。  
-例: He embraced the opportunity to study with an experienced architect.  
-訳: 彼は経験豊かな建築家のもとで学ぶ機会を喜んで生かした。  
-
-・fully/wholeheartedly embrace 〈O〉  
-用途: 考え・制度・生き方などを部分的でなく強く支持・採用する。  
-例: The organization has fully embraced remote work.  
-訳: その組織はリモートワークを全面的に採用している。  
-
-・embrace diversity/difference  
-用途: 人々や価値観の違いを肯定的に認め、組織や社会へ取り込む。  
-例: The program encourages students to embrace cultural diversity.  
-訳: そのプログラムは、学生に文化的多様性を受け入れるよう促している。  
-
-・embrace a faith/cause/identity  
-用途: 宗教、主義、社会運動、自己認識などを自分の立場として採用する。  
-例: After years of uncertainty, he embraced the faith of his family.  
-訳: 何年もの迷いの末、彼は家族の信仰を受け入れた。  
-
-・embrace 〈O〉 as 〈C〉  
-用途: 対象を新しい役割・価値・解釈として肯定的に位置づける。  
-例: The team embraced the setback as a chance to improve.  
-訳: チームはその挫折を改善の機会として受け止めた。  
-
-・be widely/readily embraced by 〈人・組織〉  
-用途: 提案・技術・考えなどが、多くの人や組織に積極的に受容される。  
-例: The new payment system was quickly embraced by small retailers.  
-訳: その新しい決済システムは小規模小売業者にすぐ受け入れられた。  
-
-【語法・注意】基本的に他動詞であり、*embrace to do* とはしない。行為を続ける場合は *embrace the opportunity to do*、または *embrace doing something* のように動名詞を目的語とする実例もあるが、後者は「その活動・実践を受け入れる」という意味が明確な場合に限られ、一般的な意志表現として機械的に使わない。*accept* は中立的で、しぶしぶ受け入れる場合も含むが、*embrace* は通常、積極性・熱意・自発性を含む。*adopt* は方法・制度・方針を実際に取り入れる結果に焦点を置き、熱意は必須ではない。*welcome* は提案や出来事を好意的に迎えることに焦点を置き、自分の信念や行動へ深く取り込むとは限らない。*The company embraces diversity.* は通常「多様性を重視・支持する」だが、*The report embraces several topics.* では語義4の「含む」になる。目的語の種類と主語の意味役割で判断する。  
-
-【類義語】
-
-・accept  
-定義: 提案、事実、状況、責任などを受け入れる。  
-頻度: 〈10/10〉  
-違い: *embrace* より中立的で、熱意がなくても成立する。事実を認める、招待を受諾するなど対象範囲も広い。  
-例: She accepted the decision even though she disagreed with it.  
-訳: 彼女はその決定に反対だったが受け入れた。  
-
-・adopt  
-定義: 方法、方針、考え方、制度などを選んで使い始める。  
-頻度: 〈9/10〉  
-違い: 採用後の実行・制度化に焦点があり、*embrace* のような感情的・価値的な積極性は必須ではない。  
-例: The hospital adopted a new scheduling system.  
-訳: その病院は新しい勤務表システムを採用した。  
-
-・welcome  
-定義: 出来事、提案、人などを好意的に迎える。  
-頻度: 〈9/10〉  
-違い: *embrace* より「到来や提示に対する好意的反応」が中心で、長期的に信奉・実践する含みは弱い。  
-例: Local businesses welcomed the tax reduction.  
-訳: 地元企業はその減税を歓迎した。  
-
-・espouse  
-定義: 信念、主義、政策などを公に支持する。  
-頻度: 〈5/10〉  
-違い: 非常に硬く、主に思想・政策を言葉で支持することを表す。*embrace* は生き方や技術などを実際に取り入れる場合にも使える。  
-例: The candidate espoused a policy of fiscal restraint.  
-訳: その候補者は財政抑制政策を支持した。  
-
-・support  
-定義: 人、計画、考え、運動などに賛成し、助力する。  
-頻度: 〈10/10〉  
-違い: *embrace* より広く、必ずしも自分の信念・生活へ取り込むことを意味しない。  
-例: Most employees support the revised proposal.  
-訳: 従業員の大半は修正案を支持している。  
-
-【反意語】
-
-・reject  
-定義: 提案、考え、要求などを受け入れないと決める。  
-頻度: 〈9/10〉  
-違い: *embrace* の積極的受容に対する直接的な拒否を表す。  
-例: The committee rejected the recommendation.  
-訳: 委員会はその勧告を退けた。  
-
-・resist  
-定義: 変化、圧力、考えなどに逆らい、受け入れまいとする。  
-頻度: 〈8/10〉  
-違い: 最終的な拒否よりも、受容に対抗する過程・態度に焦点がある。  
-例: Some managers resisted the move to flexible hours.  
-訳: 一部の管理職は柔軟な勤務時間への移行に抵抗した。  
-
-・oppose  
-定義: 計画、政策、考えなどに反対する。  
-頻度: 〈9/10〉  
-違い: 自分が採用しないだけでなく、実現・普及を阻止しようとする立場を表し得る。  
-例: Several groups opposed the proposed law.  
-訳: 複数の団体がその法案に反対した。  
-
-・shun  
-定義: 人・物・考えなどを意図的に避ける。  
-頻度: 〈6/10〉  
-違い: 公的な反対より、接触・関与そのものを避けることに焦点がある。  
-例: He shunned publicity throughout his career.  
-訳: 彼は職業人生を通じて世間の注目を避けた。  
-
-2. 【他動詞・自動詞】（人を）抱きしめる；（二人が）抱き合う
-
-【日本語訳・定義】愛情、喜び、慰め、あいさつ、別れなどを示すため、腕を相手の体に回してしっかり抱くことを表す。他動詞では相手を直接目的語に取り、自動詞では二人以上が互いに抱き合う相互的な動作を表す。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準的だが、日常会話の *hug* より文学的・改まった響きがある。小説、報道写真の描写、式典、感情的な再会・別れの場面でよく使う。恋愛的とは限らない。  
-
-【文法パターン】*embrace someone*＝人を抱きしめる／*embrace each other*＝互いに抱き合う／*people embrace*＝複数の人が抱き合う／*embrace someone 〈warmly/tightly/tenderly〉*＝抱き方を示す／*be embraced by someone*＝人に抱きしめられる  
-
-【コロケーション】
-
-・embrace someone warmly/tightly  
-用途: 再会、別れ、慰めなどで、相手を温かく・強く抱く。  
-例: She embraced her brother tightly at the airport.  
-訳: 彼女は空港で弟を強く抱きしめた。  
-
-・embrace each other  
-用途: 二人以上が互いを目的語として明示的に抱き合う。  
-例: The players embraced each other after the final whistle.  
-訳: 試合終了の笛の後、選手たちは互いに抱き合った。  
-
-・〈two people〉 embrace  
-用途: 自動詞として、主語となる人々が互いに抱き合う。  
-例: The old friends laughed and embraced.  
-訳: 旧友たちは笑い、抱き合った。  
-
-・step forward/rush to embrace someone  
-用途: 相手に近づき、感情を示して抱きしめる。  
-例: Her mother rushed to embrace her as she came through the gate.  
-訳: 彼女がゲートを出ると、母親は駆け寄って抱きしめた。  
-
-・embrace someone in greeting/farewell  
-用途: あいさつまたは別れのしぐさとして抱きしめる。  
-例: He embraced his host in farewell before boarding the train.  
-訳: 彼は列車に乗る前、別れのあいさつとして主人を抱きしめた。  
-
-・be embraced by someone  
-用途: 抱擁を受ける人を主語にした受動態。  
-例: The child was embraced by both grandparents.  
-訳: その子は祖父母の二人に抱きしめられた。  
-
-【語法・注意】*embrace* は人を直接目的語に取るため、相互動作を *embrace with someone* とは通常言わない。*They embraced.* または *They embraced each other.* とする。他動詞 *They embraced.* ではなく、自動詞用法として主語が複数であることが重要である。日常の自然な会話では *hug* が最も普通で、*embrace* は文章的・感情的・儀礼的に響きやすい。*embrace oneself* は文字どおり「自分の体に腕を回す」なら可能だが一般的な定着表現ではなく、寒さや自己満足を表すなら *hug oneself* の方が普通である。受動態 *be embraced* は、主語が人なら物理的抱擁、考え・制度なら語義1の受容になり得る。  
-
-【類義語】
-
-・hug  
-定義: 腕を回して人を抱きしめる。  
-頻度: 〈10/10〉  
-違い: 最も一般的で口語的。家族・友人・子どもとの日常的な抱擁に自然で、*embrace* より改まりがない。  
-例: She hugged her daughter before school.  
-訳: 彼女は学校へ行く前に娘を抱きしめた。  
-
-・hold  
-定義: 人や物を腕・手で支えたり、近くに保ったりする。  
-頻度: 〈10/10〉  
-違い: 抱擁に限らず範囲が広い。*hold someone close* は親密だが、*embrace* ほど両腕を回す動作を明示しないことがある。  
-例: He held the baby close to his chest.  
-訳: 彼は赤ん坊を胸元に抱き寄せた。  
-
-・clasp  
-定義: 腕や手でしっかりつかむ、抱く。  
-頻度: 〈6/10〉  
-違い: *embrace* より動作の締め付け・しっかり保持する感じが強く、文章的である。  
-例: She clasped the child to her chest.  
-訳: 彼女はその子を胸にしっかり抱き寄せた。  
-
-・cuddle  
-定義: 愛情を込めて長めに寄り添い、抱きしめる。  
-頻度: 〈7/10〉  
-違い: *embrace* の一回の抱擁より、柔らかく継続的な身体接触を表しやすい。  
-例: They cuddled together on the sofa.  
-訳: 二人はソファで寄り添って抱き合った。  
-
-【反意語】
-
-・release  
-定義: 抱いている人・物を離す。  
-頻度: 〈8/10〉  
-違い: 抱擁を終えて腕の拘束を解くという、動作の終点で反対になる。  
-例: She released him and stepped back.  
-訳: 彼女は彼を離し、一歩下がった。  
-
-・push away  
-定義: 人や物を押して自分から遠ざける。  
-頻度: 〈8/10〉  
-違い: 親密に引き寄せる *embrace* と反対方向の身体動作で、拒絶の含みを伴いやすい。  
-例: He tried to comfort her, but she pushed him away.  
-訳: 彼は彼女を慰めようとしたが、彼女は彼を押しのけた。  
-
-3. 【可算名詞】抱擁、抱きしめること；抱き合っている状態
-
-【日本語訳・定義】人が腕を相手に回して抱く一回の動作、または二人がその姿勢にある状態を表す。愛情、再会、慰め、祝福、別れ、恋愛感情などを示し得るが、語自体は性的関係を必ず意味しない。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準的だが、名詞 *hug* よりやや文章的・改まった響きがある。物語、報道、式典、感情的場面の描写でよく使う。  
-
-【文法パターン】*a 〈warm/tender/brief/tight〉 embrace*＝抱擁の性質を示す／*greet/welcome someone with an embrace*＝抱擁で迎える／*share an embrace*＝互いに抱き合う／*hold someone in an embrace*＝抱いた状態を保つ／*be locked in an embrace*＝しっかり抱き合っている／*break/pull away from an embrace*＝抱擁を解く  
-
-【コロケーション】
-
-・a warm/tender/brief embrace  
-用途: 温かさ、優しさ、時間の短さなど、抱擁の性質を形容する。  
-例: They exchanged a brief embrace before the meeting began.  
-訳: 会議が始まる前、二人は短く抱き合った。  
-
-・greet/welcome someone with an embrace  
-用途: 言葉だけでなく抱擁を伴って相手を迎える。  
-例: She welcomed her son home with a long embrace.  
-訳: 彼女は長い抱擁で帰宅した息子を迎えた。  
-
-・share an embrace  
-用途: 二人が互いに抱き合う一回の出来事を表す。  
-例: The coach and captain shared an emotional embrace.  
-訳: 監督と主将は感極まって抱き合った。  
-
-・hold someone in an embrace  
-用途: 相手を腕の中に抱いた状態で保つ。  
-例: He held the frightened child in a gentle embrace.  
-訳: 彼はおびえた子どもを優しく抱きしめていた。  
-
-・be locked in an embrace  
-用途: 二人が強く密着して抱き合っている状態を表す。  
-例: The photograph showed the couple locked in an embrace.  
-訳: その写真には抱き合う二人が写っていた。  
-
-・pull away from/break an embrace  
-用途: 腕をほどき、抱き合っている状態を終える。  
-例: She pulled away from the embrace and wiped her eyes.  
-訳: 彼女は抱擁を解き、目元を拭った。  
-
-【語法・注意】可算名詞なので通常は *an embrace*、複数なら *embraces* とする。状態は *in an embrace*、迎え方は *with an embrace* と前置詞が異なる。日常会話では *give someone a hug* が普通で、*give someone an embrace* は文法的でも硬く不自然になりやすい。*share an embrace*、*greet someone with an embrace*、または動詞 *embrace someone* を使う方が自然である。古い文学や婉曲表現では複数形 *embraces* が性的関係を暗示することがあるが、現代の中立的な会話でこの意味を意図して使うのは不自然で、通常は文脈依存の古風な拡張として理解する。  
-
-【類義語】
-
-・hug  
-定義: 人を腕で抱く一回の動作。  
-頻度: 〈10/10〉  
-違い: 最も普通で口語的。*an embrace* より日常的で、子ども・友人・家族との軽い抱擁にも自然である。  
-例: He gave me a quick hug.  
-訳: 彼は私をさっと抱きしめた。  
-
-・cuddle  
-定義: 愛情を込めて寄り添い、抱き合うこと。  
-頻度: 〈7/10〉  
-違い: 一回の抱擁より、長く柔らかな身体接触や親密な寄り添いを表しやすい。  
-例: The toddler wanted a cuddle before bed.  
-訳: その幼児は寝る前に抱っこしてほしがった。  
-
-・hold  
-定義: 人を腕の中に保つこと、またはその保持。  
-頻度: 〈8/10〉  
-違い: 抱擁以外の支え・保持にも広く使い、名詞としての身体的抱擁は *embrace* ほど明確ではない。  
-例: The child relaxed in his mother's hold.  
-訳: その子は母親の腕の中で安心した。  
-
-4. 【他動詞】（分野・計画・概念・範囲などが複数の要素を）含む、包含する
-
-【日本語訳・定義】全体となる分野、体系、定義、計画、報告書などが、複数の項目・人・主題を自らの範囲の一部として含むことを表す。語義1のような感情的・積極的受容ではなく、構成範囲の広さを述べる。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】硬い・形式的。学術、行政、法律、企画書、説明文で使われる。一般的な文章や会話では *include, cover, encompass* の方が自然なことが多い。  
-
-【文法パターン】*embrace a range/variety of 〈複数名詞〉*＝広い範囲を含む／*embrace 〈topics/fields/people/activities〉*＝要素を包含する／*embrace both A and B*＝AとBの両方を含む／*〈concept/definition/program〉 embraces 〈O〉*＝概念・定義・計画がOを範囲内に入れる／*〈O〉 + be embraced by/within 〈全体〉*＝Oが全体に含まれる  
-
-【コロケーション】
-
-・embrace a wide/broad range of 〈複数名詞〉  
-用途: 分野・意見・活動などを幅広く含むことを表す。  
-例: The course embraces a wide range of historical periods.  
-訳: その講座は幅広い歴史時代を扱っている。  
-
-・embrace diverse fields/topics  
-用途: 一つの体系や計画が異なる複数分野・主題を含む。  
-例: Environmental studies embraces diverse fields from ecology to economics.  
-訳: 環境学は生態学から経済学まで多様な分野を含む。  
-
-・embrace both A and B  
-用途: 対照的または異なる二要素をともに範囲へ入れる。  
-例: The revised definition embraces both paid and unpaid work.  
-訳: 改訂された定義は有償労働と無償労働の両方を含む。  
-
-・〈a concept/definition〉 embraces 〈O〉  
-用途: 概念・定義の意味範囲に具体的要素が含まれる。  
-例: The term embraces several forms of informal cooperation.  
-訳: その用語は複数の形態の非公式な協力を包含する。  
-
-・〈a plan/program/report〉 embraces 〈O〉  
-用途: 計画・制度・報告書が複数の課題や活動を対象にする。  
-例: The regional plan embraces transport, housing, and public health.  
-訳: その地域計画は交通、住宅、公衆衛生を対象に含む。  
-
-・〈a category/framework〉 embraces 〈O〉  
-用途: 分類・枠組みを主語にし、そこに含まれる要素を目的語として示す。  
-例: The broader framework embraces all these forms of community support.  
-訳: そのより広い枠組みは、これらすべての地域支援の形態を含む。  
-
-【語法・注意】この語義では、通常、全体を表す主語が部分を目的語に取る。*The discipline embraces several fields.* は「その学問分野が複数分野を含む」であり、*Several fields embrace the discipline.* と逆転させない。*comprise* も全体を主語にして部分を目的語に取るが、*be comprised of* の扱いには文体差があるため、単純な置換ではなく構文を確認する。*The company embraces diversity.* は「多様性を支持する」という語義1が自然だが、*The policy embraces several areas.* はこの語義の「含む」である。主語に意志を持つ人・組織が来ても、目的語が価値観なら語義1、列挙可能な構成要素なら語義4になりやすい。中立的な文章では *include* が最も無標である。  
-
-【類義語】
-
-・include  
-定義: 全体の一部として人・物・項目を含む。  
-頻度: 〈10/10〉  
-違い: 最も一般的で中立的。*embrace* より硬さがなく、単純な列挙にも使える。  
-例: The fee includes breakfast and internet access.  
-訳: 料金には朝食とインターネット接続が含まれる。  
-
-・encompass  
-定義: 広い範囲・多様な要素を全体として含む。  
-頻度: 〈7/10〉  
-違い: *embrace* の包含義に非常に近いが、感情的な「受け入れる」の別義を持たず、範囲の広さに焦点がある。  
-例: The study encompasses five different regions.  
-訳: その研究は五つの異なる地域を対象に含む。  
-
-・comprise  
-定義: 全体が複数の部分から成る、または部分を含む。  
-頻度: 〈7/10〉  
-違い: 硬い語で、全体と部分の構成関係を明示する。*embrace* より分類的・構造的である。  
-例: The committee comprises twelve members.  
-訳: その委員会は12名の委員で構成されている。  
-
-・cover  
-定義: 話題、地域、期間、費用などを対象範囲に入れる。  
-頻度: 〈9/10〉  
-違い: より一般的で、授業・報告・保険など「扱う、及ぶ」の意味が強い。  
-例: The report covers developments from 2015 to 2025.  
-訳: その報告書は2015年から2025年までの動向を扱う。  
-
-・incorporate  
-定義: 要素を全体へ組み込み、その一部として機能させる。  
-頻度: 〈8/10〉  
-違い: 単に範囲に含むより、既存の全体へ統合する過程・結果を強く示す。  
-例: The design incorporates several energy-saving features.  
-訳: その設計には複数の省エネ機能が組み込まれている。  
-
-【反意語】
-
-・exclude  
-定義: 人・物・項目を範囲や集団の外に置く。  
-頻度: 〈9/10〉  
-違い: 全体の内側へ含める *embrace* の包含義に対する直接的な反対である。  
-例: The definition excludes temporary workers.  
-訳: その定義は臨時労働者を除外している。  
-
-・omit  
-定義: 必要・予想される項目を記述・一覧・構成から落とす。  
-頻度: 〈8/10〉  
-違い: 意図的・非意図的に項目を入れないことに焦点があり、分類範囲の外へ置く *exclude* より編集的である。  
-例: The summary omitted several important details.  
-訳: その要約はいくつかの重要な詳細を省いていた。  
-
-5. 【可算名詞・通常単数】（考え・変化・制度などの）積極的な受容、採用、支持
-
-【日本語訳・定義】人、組織、社会などが、考え・技術・制度・文化・価値観を好意的かつ積極的に受け入れることを名詞で表す。多くの場合、単なる承認ではなく、実際に自分の立場・行動・制度へ取り込む含みがある。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】硬い・抽象的。報道、評論、ビジネス、政治、学術で使われる。日常会話では *acceptance, adoption, support* の方が普通である。  
-
-【文法パターン】*the/one's embrace of 〈名詞〉*＝～の受容・採用／*an enthusiastic/a full/a wholehearted embrace of 〈名詞〉*＝受容の強さを示す／*signal/mark/reflect an embrace of 〈名詞〉*＝受容を示す／*a 〈broad/partial/qualified〉 embrace of 〈名詞〉*＝受容の範囲・留保を示す／*move toward/away from an embrace of 〈名詞〉*＝受容へ近づく・離れる  
-
-【コロケーション】
-
-・the/one's embrace of 〈technology/change/ideas〉  
-用途: 誰が何を積極的に受け入れたかを *of* で示す。  
-例: The company's embrace of automation transformed its production line.  
-訳: その会社による自動化の採用は、生産ラインを一変させた。  
-
-・an enthusiastic/a wholehearted embrace of 〈O〉  
-用途: 強い熱意を伴う全面的な受容を表す。  
-例: The movement's enthusiastic embrace of local culture attracted new members.  
-訳: その運動が地域文化を熱心に受け入れたことで、新しい参加者が集まった。  
-
-・signal/mark an embrace of 〈O〉  
-用途: 行動・決定が、特定の考えや方針を受け入れた証拠であることを示す。  
-例: The appointment marked an embrace of a more collaborative style.  
-訳: その任命は、より協調的な方式を採用したことを示した。  
-
-・a broad/partial/qualified embrace of 〈O〉  
-用途: 受容が全面的か、限定や留保を伴うかを表す。  
-例: The report offers a qualified embrace of the proposed reforms.  
-訳: その報告書は、提案された改革を留保付きで支持している。  
-
-・move toward/away from an embrace of 〈O〉  
-用途: 方針・世論が受容する方向へ進む、またはそこから離れる変化を表す。  
-例: Public opinion has moved toward an embrace of flexible working.  
-訳: 世論は柔軟な働き方を受け入れる方向へ動いている。  
-
-【語法・注意】通常は単数で *an embrace of X* または *the/one's embrace of X* とする。前置詞は原則 *of* であり、*an embrace for the policy* より *an embrace of the policy* が自然である。語義3の物理的な名詞とは、後続する *of* の対象と周辺動詞で区別する。*the country's embrace of reform* は「改革の受容」だが、*the child in his mother's embrace* は「母親の抱擁」である。*acceptance* は中立的・受動的な承認にも使える一方、*embrace* は通常、積極的な同意・採用を示す。抽象名詞として多用すると修辞的に重くなるため、平易な文では *adoption of* や *support for* を選ぶ。  
-
-【類義語】
-
-・acceptance  
-定義: 考え、状況、提案などを受け入れること。  
-頻度: 〈9/10〉  
-違い: 最も中立的で、しぶしぶ認める場合も含む。*embrace* はより積極的・肯定的である。  
-例: Public acceptance of the measure increased gradually.  
-訳: その措置に対する社会的受容は徐々に高まった。  
-
-・adoption  
-定義: 方法、制度、技術、方針などを選び、使い始めること。  
-頻度: 〈9/10〉  
-違い: 実際の導入・運用に焦点があり、感情的支持を必ずしも含まない。  
-例: The adoption of digital records reduced processing time.  
-訳: デジタル記録の導入により処理時間が短縮された。  
-
-・support  
-定義: 人、案、運動などへの賛成・援助。  
-頻度: 〈10/10〉  
-違い: *embrace* より広く、対象を自分の信念・制度へ取り込むほど強い関与を意味しないことがある。  
-例: The proposal received strong public support.  
-訳: その提案は世論の強い支持を得た。  
-
-・endorsement  
-定義: 人、製品、政策、考えなどを公に承認・支持すること。  
-頻度: 〈7/10〉  
-違い: 公的な表明・お墨付きに焦点があり、私的な受容や実際の採用とは限らない。  
-例: The plan gained the endorsement of several experts.  
-訳: その計画は複数の専門家の支持を得た。  
-
-【反意語】
-
-・rejection  
-定義: 提案、考え、制度などを受け入れないこと。  
-頻度: 〈8/10〉  
-違い: 積極的受容を表す *embrace* と直接対立する。  
-例: The vote represented a clear rejection of the proposal.  
-訳: その投票結果は提案の明確な拒否を示した。  
-
-・resistance  
-定義: 変化、考え、圧力などを受け入れまいとする反発。  
-頻度: 〈8/10〉  
-違い: 最終的な拒絶だけでなく、受容へ向かう動きに抗う過程・態度を表す。  
-例: There was considerable resistance to the new procedure.  
-訳: 新しい手順にはかなりの抵抗があった。  
-
-・repudiation  
-定義: 考え、信念、責任、関係などを強く公然と否定すること。  
-頻度: 〈5/10〉  
-違い: 非常に硬く強い語で、単なる不採用より明確な否認・決別を表す。  
-例: The statement was a repudiation of the party's former policy.  
-訳: その声明は党の旧方針との決別を示した。  
-
-6. 【他動詞】（地形・物体・腕・雰囲気などが）～を取り囲む、包み込む
-
-【日本語訳・定義】山、森、壁、湾、暗闇、暖かさなどが、対象の周囲へ広がって内側に包むことを表す。物理的な囲みが中心だが、光・闇・静けさ・暖かさなどを擬人化して包み込む文学的表現にも使える。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】文学的・修辞的、または硬い描写。地理・建築・物語の文章で使われる。中立的な説明では *surround, encircle, enclose* の方が普通である。  
-
-【文法パターン】*〈mountains/walls〉 embrace 〈O〉; a forest embraces 〈O〉*＝地形・構造物がOを囲む／*embrace 〈O〉 on all sides*＝四方から包む／*〈O〉 + be embraced by 〈nature/darkness/warmth〉*＝Oが環境・雰囲気に包まれる／*a curve/bay embraces 〈space/coast/town〉*＝曲線状のものが対象を囲む  
-
-【コロケーション】
-
-・〈hills/mountains〉 embrace the valley/town  
-用途: 地形が谷・町を周囲から囲む様子を描写する。  
-例: Low green hills embrace the village on three sides.  
-訳: 低い緑の丘が三方からその村を囲んでいる。  
-
-・〈a forest/wall〉 embraces 〈O〉  
-用途: 森林や構造物が対象の周囲に広がる。  
-例: A dense forest embraces the old monastery.  
-訳: 深い森がその古い修道院を取り囲んでいる。  
-
-・be embraced by nature/darkness/warmth  
-用途: 環境や感覚的な力に包まれた状態を受動態で表す。  
-例: At dusk, the garden was embraced by a deep silence.  
-訳: 夕暮れになると、庭は深い静けさに包まれた。  
-
-・〈a bay/curve〉 embraces 〈a town/space〉  
-用途: 湾や曲線状の構造が対象を抱くように囲む。  
-例: The crescent-shaped bay embraces a small fishing town.  
-訳: 三日月形の湾が小さな漁村を包むように囲んでいる。  
-
-・embrace 〈O〉 on all sides  
-用途: 対象がほぼ全面から囲まれていることを明示する。  
-例: Terraced gardens embrace the hotel on all sides.  
-訳: 段々状の庭園がホテルを四方から取り囲んでいる。  
-
-【語法・注意】この語義は他動詞なので、*embrace around the valley* のように *around* を必須の前置詞として付けない。*The hills embrace the valley.* または通常語なら *The hills surround the valley.* とする。人を目的語にすると、多くの場合は語義2の「抱きしめる」と解釈される。無生物主語や地形・雰囲気が目的語を囲むときにこの語義が明確になる。*be embraced by nature* は「自然に囲まれる」と「自然に温かく受け入れられる」という肯定的な比喩が重なり得る。正確な地理・技術説明では修辞性を避け、*surrounded by* や *enclosed by* を使う方が明確である。  
-
-【類義語】
-
-・surround  
-定義: 人・物・場所の周囲に位置する、または取り囲む。  
-頻度: 〈10/10〉  
-違い: 最も一般的で中立的。完全な包囲にも部分的な周囲配置にも使え、*embrace* の擬人的な温かさを含まない。  
-例: Tall trees surround the house.  
-訳: 高い木々がその家を取り囲んでいる。  
-
-・encircle  
-定義: 円・輪のように周囲を囲む。  
-頻度: 〈6/10〉  
-違い: 形状や包囲の輪郭を強く示し、*embrace* より視覚的・幾何的である。  
-例: A stone path encircles the pond.  
-訳: 石の小道が池を一周している。  
-
-・enclose  
-定義: 境界・壁などの内側に入れ、外部と区切る。  
-頻度: 〈8/10〉  
-違い: 閉じた境界や物理的遮断に焦点があり、*embrace* の柔らかい包み込みとは異なる。  
-例: A high fence encloses the garden.  
-訳: 高い柵が庭を囲っている。  
-
-・envelop  
-定義: 布、霧、暗闇、感情などが対象を完全に包む。  
-頻度: 〈6/10〉  
-違い: *embrace* より「覆い尽くす」感覚が強く、霧・煙・暗闇の描写に特に自然である。  
-例: Thick fog enveloped the harbor.  
-訳: 濃い霧が港を包み込んだ。  
-
-7. 【可算名詞・通常単数／比喩】（自然・暗闇・眠り・感情などに）包まれた状態、支配・影響下
-
-【日本語訳・定義】人や場所が、自然、夜、冬、眠り、恐怖などの力に取り囲まれ、そこから強い影響を受けている状態を、抱擁になぞらえて表す。対象によって、安心・保護・親密さにも、拘束・危険・逃れにくさにもなり得る。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】文学的・修辞的。小説、旅行記、評論、広告的表現で使われる。日常の事実説明では *surroundings, grip, influence, shelter* などの方が明確である。  
-
-【文法パターン】*in/within the embrace of 〈名詞〉*＝～に包まれて／*in the 〈warm/cold/gentle〉 embrace of 〈名詞〉*＝包囲・影響の性質を示す／*sink/fall into the embrace of 〈sleep/night〉*＝眠り・夜へ包まれるように入る／*be held/caught in the embrace of 〈名詞〉*＝強い影響下にある／*escape/break free from the embrace of 〈名詞〉*＝その支配・包囲から離れる  
-
-【コロケーション】
-
-・in the embrace of nature  
-用途: 自然に囲まれ、守られる・安らぐという肯定的な比喩を表す。  
-例: The cabin stands in the embrace of untouched forest.  
-訳: その小屋は手つかずの森に抱かれるように建っている。  
-
-・in the warm/cold embrace of 〈O〉  
-用途: 包み込む環境を温かい・冷たい抱擁として擬人化する。  
-例: The town lay in the cold embrace of winter.  
-訳: その町は冬の冷たい支配に包まれていた。  
-
-・sink/fall into the embrace of sleep  
-用途: 眠りに入ることを、眠りの腕に抱かれるように表現する。  
-例: Exhausted, she soon sank into the embrace of sleep.  
-訳: 疲れ果てた彼女は、まもなく眠りに包まれた。  
-
-・be held/caught in the embrace of 〈O〉  
-用途: 感情・暗闇・環境などから逃れにくい状態を表す。  
-例: The valley was held in the embrace of darkness.  
-訳: 谷は暗闇に包まれていた。  
-
-・escape/break free from the embrace of 〈O〉  
-用途: 比喩的な包囲・支配・影響から抜け出す。  
-例: The region struggled to break free from the embrace of poverty.  
-訳: その地域は貧困の支配から抜け出そうともがいた。  
-
-【語法・注意】*in the embrace of* は、後続名詞が人なら語義3の物理的抱擁、自然現象・状態・抽象的な力ならこの比喩義になりやすい。*the country's embrace of reform* は語義5の「改革の受容」だが、*the country in the embrace of winter* は「冬に包まれた状態」である。前者は受容する主体が *of* の前にあり、後者は影響を受ける対象が *in* の前にある。この比喩は肯定・否定の両方に使えるため、*warm, gentle, cold, deadly* などの修飾語と文脈を確認する。事務的・科学的な文章では曖昧さと擬人化を避け、*under the influence of, surrounded by, in the grip of* などに置き換える。  
-
-【類義語】
-
-・grip  
-定義: 力・感情・状況が人や場所を強く支配する状態。  
-頻度: 〈8/10〉  
-違い: 通常は否定的で、逃れにくい拘束・恐怖・寒さなどを強調する。*embrace* は保護的・肯定的にも使える。  
-例: The city remained in the grip of a severe heat wave.  
-訳: その都市は厳しい熱波に襲われ続けた。  
-
-・hold  
-定義: 人・力・状況が対象に及ぼす保持・支配。  
-頻度: 〈7/10〉  
-違い: *grip* より中立的で強度が弱いこともある。抱擁のイメージは必須ではない。  
-例: The old belief still has a strong hold on the community.  
-訳: その古い信念はいまだに地域社会を強く支配している。  
-
-・clutches  
-定義: 危険・恐怖・悪い状況などが対象を逃さず捕らえている状態。  
-頻度: 〈6/10〉  
-違い: 通常複数形で否定的・劇的。*embrace* の温かさを反転させたような、強い拘束を示す。  
-例: The village fell into the clutches of the occupying force.  
-訳: その村は占領軍の支配下に陥った。
-
----
-
-# revere
-
----
-headword: revere
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-06
-updated_at: 2026-08-11
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /rɪˈvɪr/｜英: /rɪˈvɪə(r)/  
-・主強勢は第2音節にあり、語頭の *re-* は /rɪ/ と弱く発音する。「再び」を表す接頭辞 *re-* のように /riː/ と読まない。  
-・米音では語末の /r/ を明瞭に発音し、英音では後ろに母音が続かない限り通常 /r/ を発音しない。  
-・活用形は *reveres* /rɪˈvɪrz/、*revered* 米 /rɪˈvɪrd/・英 /rɪˈvɪəd/、*revering* 米 /rɪˈvɪrɪŋ/・英 /rɪˈvɪərɪŋ/。*revering* は語末の *e* を落として *-ing* を付ける。  
-
-＃語源
-
-フランス語 *révérer* またはラテン語 *reverērī*「畏れる、畏敬を抱く、深い敬意を示す」に由来する。ラテン語では *re-* が反復の「再び」ではなく強意として働き、*verērī*「畏れる、敬う」と結び付いている。「相手を恐れるほど重く見る」という感覚から、現代の「深い敬意と畏敬を抱く」へつながる。  
-・*reverence*（名詞、まれに動詞）— 「深い敬意、畏敬」または「深く敬う」。*revere* が取る態度を名詞で表す中心語である。  
-・*reverent*（形容詞）— 「うやうやしい、畏敬の念を示す」。敬意を向けられる対象ではなく、敬意を示す人・態度・口調を修飾する。  
-・*reverend*（形容詞・称号）— 語源上は「敬われるべき」の意で、現代では主に聖職者の称号 *the Reverend / Rev.* として使う。  
-
-＃語形成
-
-・*reveres / revered / revering* — 動詞 *revere* の活用形。*revered* は受動態の過去分詞のほか、「深く敬われている」という形容詞としても定着している。  
-・*reverence*（名詞、まれに動詞）— 「深い敬意、畏敬」または硬い用法で「深く敬う」。通常、感情・態度は名詞 *reverence*、行為・心的態度は動詞 *revere* で表す。  
-・*reverent / reverently*（形容詞／副詞）— 「うやうやしい／うやうやしく」。*a reverent audience* は敬意を示す側、*a revered leader* は敬意を受ける側である。  
-・*irreverent / irreverence / irreverently*（形容詞／名詞／副詞）— 「不敬な、権威を恐れない／不敬、非礼／不敬に」。単なる無礼だけでなく、厳粛な対象を茶化す態度にも使う。  
-・*reverer*（名詞）— 「崇敬する人」。実在するが低頻度で、通常は *admirer, follower, devotee* など文脈に合う語を使う。  
-
-＃コアイメージ
-
-「人・伝統・理想などを、普通の尊敬を超えて、うやうやしく仰ぎ見る」が中心にある。好意的に評価するだけでなく、その対象を特別な敬意・名誉に値するものとして扱う含みがある。  
-・核 → 他動詞として、人・人物像・伝統・制度・聖なる対象などへ深い敬意と畏敬を抱く。  
-・核 → *revered* として、長年・広範に深く敬われる地位や評価を表す。  
-
-＃意味・用法・関連表現
-
-1. 【他動詞・通常受動】（人・伝統・理想・聖なるものなどを）深く敬う、崇敬する、畏敬する
-
-【日本語訳・定義】人、先人、指導者、芸術家、伝統、制度、理念、宗教的対象などを、優れている・権威がある・神聖であるとして、普通の *respect* よりはるかに深い敬意をもって仰ぐことを表す。必ずしも宗教的な崇拝ではないが、距離を置いたうやうやしさ、献身、畏敬の感情を伴いやすい。個人的に好きで親しむことより、対象を特別な名誉に値するものとみなすことが中心である。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】フォーマル・文章語。歴史、宗教、文化、芸術、政治、追悼、人物評でよく使う。日常会話で身近な人への普通の尊敬を述べるなら *respect, admire, look up to* の方が自然である。米英で中心義・構文に大きな差はない。  
-
-【文法パターン】*revere 〈person/tradition/institution/ideal〉*＝対象を深く敬う／*be revered by 〈人・集団〉*＝誰から敬われるかを示す／*be revered as 〈身分・評価〉*＝どのような存在として敬われるかを示す／*be revered for 〈功績・性質〉*＝何のために敬われるかを示す／*be revered in/among 〈場所・集団〉*＝どこで、または誰の間で敬われるかを示す／*〈deeply/widely/long〉 revere 〈O〉; be 〈deeply/widely/long〉 revered*＝敬意の強さ・広がり・継続を示す  
-
-【コロケーション】
-
-・revere 〈a leader/teacher/artist/ancestor〉  
-用途: 人を、その人格・功績・権威などのために深く敬う能動態。  
-例: Many young musicians revere her as a pioneer of modern jazz.  
-訳: 多くの若い音楽家が、彼女をモダンジャズの先駆者として崇敬している。  
-
-・revere 〈a tradition/institution/ideal/text〉  
-用途: 長く受け継がれた慣習、制度、理念、文書などを特別に尊ぶ。  
-例: The community reveres the tradition but allows each generation to reinterpret it.  
-訳: その共同体は伝統を深く尊重しつつ、各世代がそれを解釈し直すことを認めている。  
-
-・be revered by 〈人・集団〉  
-用途: 敬意を抱く側を *by* で示す、最も典型的な受動構文。  
-例: The physician was revered by generations of patients and colleagues.  
-訳: その医師は何世代にもわたる患者と同僚から深く敬われていた。  
-
-・be revered as 〈身分・評価〉  
-用途: 対象がどのような人物・象徴として敬われているかを示す。  
-例: She is revered as one of the country's greatest poets.  
-訳: 彼女はその国で最も偉大な詩人の一人として敬われている。  
-
-・be revered for 〈功績・性質〉  
-用途: 深い敬意の理由となる行為、功績、知恵、勇気などを示す。  
-例: He is revered for defending the rights of marginalized communities.  
-訳: 彼は社会から取り残された共同体の権利を守ったことで崇敬されている。  
-
-・be revered in/among 〈場所・集団〉  
-用途: 敬意が共有されている文化圏、地域、職業集団などを示す。  
-例: The scholar remains revered among historians of the period.  
-訳: その学者は今も、その時代を研究する歴史家の間で深く敬われている。  
-
-・be deeply/widely/long revered  
-用途: 敬意の深さ、社会的な広がり、長期的な継続を副詞で示す。  
-例: The temple has long been revered as a place of healing.  
-訳: その寺院は癒やしの場所として長く崇敬されてきた。  
-
-【語法・注意】文法上は他動詞なので、能動態では前置詞を挟まず *revere someone/something* とする。誤って *revere to someone* や *revere for someone* とはしない。ただし実際の文章では、敬意を受ける対象に焦点を置く *be revered* が非常に多い。*by* は敬う主体、*as* は対象に与えられる身分・評価、*for* は敬われる理由を導くため、*He is revered by his followers as a wise teacher for his compassion.* のように併用できる。*revere* 自体は「～だと考える」を表す複文型ではなく、*revere O as C* はOへの敬意とCという評価を同時に示す。*I revere my manager.* は文法的でも、職場の日常的な尊敬には大げさに響きやすく、通常は *I respect/admire my manager.* とする。対象は宗教的人物・聖典に限られず、芸術家、指導者、祖先、伝統、憲法、理念などにも使えるが、単なる好みや人気には強すぎる。  
-
-【類義語】
-
-・respect  
-定義: 人の能力・人格・権利、規則、意見などを価値あるものとして認め、敬意を払う。  
-頻度: 〈10/10〉  
-違い: 最も一般的で強度の幅が広い。*revere* はその上限に近い深い敬意と、うやうやしさ・畏敬を含むため、日常的な相手には強すぎることがある。  
-例: I respect her judgment even when we disagree.  
-訳: 意見が合わないときでも、私は彼女の判断を尊重している。  
-
-・admire  
-定義: 人の能力・業績・性質や、物の美しさなどを高く評価する。  
-頻度: 〈9/10〉  
-違い: 称賛や好意が中心で、対等な相手にも自然に使える。*revere* は対象を特別に高い位置へ置く敬意と畏敬が強い。  
-例: She admires the architect's ability to combine beauty and function.  
-訳: 彼女は美しさと機能を両立させるその建築家の力量を称賛している。  
-
-・venerate  
-定義: 神聖・歴史的・非常に重要とみなされる人や物へ深い敬意を示す。  
-頻度: 〈4/10〉  
-違い: *revere* に最も近いが、さらに儀礼的・宗教的・古風に響きやすく、聖人、聖遺物、祖先、古い伝統などと特に結び付く。  
-例: Pilgrims venerate the saint's relics at the shrine.  
-訳: 巡礼者たちはその聖堂で聖人の聖遺物を崇敬する。  
-
-・worship  
-定義: 神・神聖な存在へ祈りや儀礼を通じて崇拝をささげる；比喩的には人を盲目的にあがめる。  
-頻度: 〈8/10〉  
-違い: 宗教では礼拝行為まで含み、*revere* より強く具体的である。人を目的語にすると、比喩的な心酔・盲目的崇拝を示しやすい。  
-例: The community gathers there to worship its deity.  
-訳: その共同体はそこで神を礼拝するために集まる。  
-
-・honor  
-定義: 人・功績・約束・伝統などへ敬意を示し、称える。  
-頻度: 〈9/10〉  
-違い: 感情としての敬意だけでなく、表彰、記念、約束の履行など外に現れる行為に焦点を置ける。*revere* は対象に抱く深い態度が中心である。  
-例: The ceremony honors those who served the community.  
-訳: その式典は地域社会に尽くした人々を称える。  
-
-・look up to  
-定義: 人を尊敬し、手本として仰ぐ。  
-頻度: 〈9/10〉  
-違い: 口語的で身近な先輩・親・教師にも自然である。*revere* ほど強い畏敬やフォーマルさを伴わず、目的語は通常人である。  
-例: Many junior employees look up to her.  
-訳: 多くの若手社員が彼女を尊敬している。  
-
-【反意語】
-
-・despise  
-定義: 人・行為・性質などを価値がない、または卑劣だとして強く軽蔑する。  
-頻度: 〈7/10〉  
-違い: 対象を極めて高く評価する *revere* と、価値評価の方向がほぼ正反対である。単なる無関心ではなく強い嫌悪・軽蔑を含む。  
-例: She despised leaders who abused their power.  
-訳: 彼女は権力を乱用する指導者たちを軽蔑していた。  
-
-・scorn  
-定義: 人・考え・申し出などを、自分より劣る・取るに足りないものとして軽蔑し退ける。  
-頻度: 〈6/10〉  
-違い: 深く仰ぎ見る *revere* に対し、見下す態度と、その態度を表に示す含みが強い。  
-例: He scorned their advice as hopelessly outdated.  
-訳: 彼は彼らの助言を救いようのないほど時代遅れだとして軽蔑した。  
-
-・disrespect  
-定義: 人・規則・制度などに敬意を払わない、または無礼に扱う。  
-頻度: 〈7/10〉  
-違い: 敬意の有無という軸で反対になるが、*despise* ほど強い否定的評価を必ずしも含まない。*revere* が極めて深い敬意、*disrespect* が敬意の欠如・違反を表す。  
-例: His remarks disrespected the people who had built the institution.  
-訳: 彼の発言はその組織を築いた人々に敬意を欠くものだった。  
-
-・hold in contempt  
-定義: 人・行為・考えなどを、尊敬に値しないものとして強く見下す。  
-頻度: 〈5/10〉  
-違い: フォーマルな表現で、*hold O in reverence* に近い構造のまま反対の評価を示す。法的文脈では別に「法廷侮辱とみなす」の意味もある。  
-例: The public came to hold the corrupt officials in contempt.  
-訳: 世間はその腐敗した役人たちを軽蔑するようになった。  
-
-2. 【形容詞・主に限定用法】（人・伝統・制度などが）深く敬われている、崇敬される
-
-【日本語訳・定義】長年の功績、権威、神聖さ、文化的重要性などによって、多くの人から特別に深い敬意を受けている状態を表す。動詞 *revere* の過去分詞から定着した形容詞で、*a revered leader, a revered tradition* のように名詞の前で、その対象に確立した高い評価があることを簡潔に示す。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】フォーマル・文章語。人物紹介、追悼、歴史、文化、宗教、芸術、報道で多い。通常は肯定的だが、文脈によっては、過度な権威視や無批判な評価を距離を置いて述べることもある。  
-
-【文法パターン】*a revered 〈leader/teacher/artist/figure〉*＝深く敬われる人物／*a revered 〈tradition/institution/text/site〉*＝崇敬・尊重される伝統や対象／*one of 〈所有格/the〉 most revered 〈複数名詞〉*＝最も敬われるものの一つ／*〈long/highly/widely〉 revered 〈名詞〉*＝敬意の継続・程度・広がりを示す／*〈remain/become/seem〉 revered*＝敬われる状態を叙述するが、文脈上は動詞の受動態とも分析できる  
-
-【コロケーション】
-
-・a revered leader/teacher  
-用途: 指導力、人格、教えなどによって確立した深い敬意を受ける人物を表す。  
-例: The school was founded by a revered teacher whose methods influenced generations.  
-訳: その学校は、何世代にも影響を与えた敬愛される教師によって設立された。  
-
-・a revered artist/writer/figure  
-用途: 芸術・文学・社会などで、功績や象徴性のため高く敬われる人物を表す。  
-例: The exhibition examines the early work of a revered local artist.  
-訳: その展覧会は、地元で敬愛される芸術家の初期作品を検討している。  
-
-・a revered tradition/institution  
-用途: 長い歴史や社会的価値のため深く尊重される慣習・制度を表す。  
-例: The reform challenged a revered institution without dismissing its achievements.  
-訳: その改革は、実績を否定することなく、長く尊重されてきた制度に異議を唱えた。  
-
-・a revered text/site/object  
-用途: 宗教的・文化的に特別な敬意を受ける文書、場所、物を表す。  
-例: The manuscript is one of the community's most revered texts.  
-訳: その写本は共同体で最も崇敬される文書の一つである。  
-
-・one of the most revered 〈複数名詞〉  
-用途: ある集団・分野で最高度の敬意を受ける対象の一つと位置づける。  
-例: She became one of the most revered judges in the court's history.  
-訳: 彼女はその裁判所の歴史上、最も敬われる裁判官の一人となった。  
-
-・a long/highly/widely revered 〈名詞〉  
-用途: 敬意が長く続くこと、程度が高いこと、広く共有されることを名詞の前で示す。  
-例: The museum houses a long-revered icon from the twelfth century.  
-訳: その博物館は、12世紀の、長く崇敬されてきた聖像を所蔵している。  
-
-【語法・注意】限定用法では通常 *a revered leader* のようにハイフンを付けない。副詞を前置して複合修飾語にする場合、*a long-revered custom* のように *long-revered* はハイフンで結ぶ一方、*-ly* 副詞では通常 *a widely revered custom* とし、*widely-revered* とはしない。*He is revered by his students.* は行為者を *by* で示すため動詞の受動態として明瞭である。*He remains revered.* は「敬われる状態」に焦点があり形容詞的だが、両者の境界は連続的である。*revered* は敬意を受ける側、*reverent* は敬意を示す側を表すため、*a revered teacher*「敬われる教師」と *a reverent student*「うやうやしい学生」を混同しない。また *reverend* は主に聖職者の称号であり、*a reverend leader* を「敬われる指導者」の意味で一般的に使わない。  
-
-【類義語】
-
-・respected  
-定義: 能力、人格、実績などを評価され、敬意を受けている。  
-頻度: 〈9/10〉  
-違い: 最も一般的で、評価の強さは幅広い。*revered* はその中でも特に深く、うやうやしい敬意が社会的に確立していることを表す。  
-例: She is a respected researcher in the field of public health.  
-訳: 彼女は公衆衛生分野で尊敬されている研究者である。  
-
-・venerated  
-定義: 神聖・歴史的・文化的に重要なものとして深く敬われている。  
-頻度: 〈4/10〉  
-違い: *revered* に近いが、宗教的・儀礼的な対象との結び付きがさらに強く、文体もより硬い。  
-例: The venerated image is carried through the streets during the festival.  
-訳: その崇敬される聖像は祭りの間、通りを運ばれる。  
-
-・esteemed  
-定義: 能力、判断、職業上の実績などを高く評価されている。  
-頻度: 〈6/10〉  
-違い: 知的・職業的な評価や評判に焦点があり、*revered* の畏敬・献身・神聖さは通常含まない。  
-例: The award was presented by an esteemed legal scholar.  
-訳: その賞は高名な法学者によって授与された。  
-
-・beloved  
-定義: 多くの人から深く愛されている。  
-頻度: 〈7/10〉  
-違い: 親愛・愛情が中心で、敬意や権威は必須ではない。人物が *beloved and revered* の両方であることもあり、二語は同義ではない。  
-例: The beloved actor returned to the stage after a long absence.  
-訳: その愛される俳優は長い休演の後、舞台に復帰した。  
-
-・iconic  
-定義: 分野・時代・文化を象徴するほど有名で、容易に認識される。  
-頻度: 〈8/10〉  
-違い: 象徴性・知名度が中心で、深い敬意を必ずしも意味しない。*revered* は有名でなくても特定集団から深く敬われる対象に使える。  
-例: The building's iconic silhouette is recognized around the world.  
-訳: その建物の象徴的な輪郭は世界中で知られている。  
-
-【反意語】
-
-・despised  
-定義: 人・行為・制度などが、価値がない・卑劣だとして強く軽蔑されている。  
-頻度: 〈7/10〉  
-違い: 深い敬意を受ける *revered* と、社会的評価の方向がほぼ正反対である。  
-例: The once-powerful official became widely despised.  
-訳: かつて権力を持ったその役人は広く軽蔑されるようになった。  
-
-・disrespected  
-定義: 人・制度などが敬意を払われず、軽んじられている。  
-頻度: 〈7/10〉  
-違い: *revered* の深い敬意に対して敬意の欠如を表すが、必ずしも強い嫌悪や軽蔑までは含まない。  
-例: Staff felt ignored and disrespected by senior management.  
-訳: 職員たちは上級管理職から無視され、軽んじられていると感じた。  
-
-・reviled  
-定義: 人・集団・考えなどが激しく非難され、嫌悪されている。  
-頻度: 〈5/10〉  
-違い: 公的な評判の軸で *revered* と強く対立し、単なる低評価ではなく激しい憎悪・非難を含む。  
-例: The policy was eventually reviled for the harm it caused.  
-訳: その政策は、それが引き起こした害のために最終的に激しく非難された。
-
----
-
-# endorsement
-
----
-headword: endorsement
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-10
-updated_at: 2026-08-11
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /ɪnˈdɔːrsmənt, ɛnˈdɔːrsmənt/｜英: /ɪnˈdɔːsmənt/  
-・主強勢は第2音節の *-dorse-* にあり、語頭の *en-* は通常弱い /ɪn/ になる。米音では /ɛn/ も使われ、/r/ を発音するが、英標準発音では通常 /r/ を発音しない。  
-・末尾の *-sement* を独立した音節の連続として読まず、通常3音節で、米 /ɪn-ˈdɔːrs-mənt/、英 /ɪn-ˈdɔːs-mənt/ と区切って発音する。どちらも /s/ を保つ。  
-・複数形 *endorsements* は米 /ɪnˈdɔːrsmənts/、英 /ɪnˈdɔːsmənts/。語末では /t/ と /s/ が続くため、/ts/ を落としすぎない。  
-
-＃語源
-
-動詞 *endorse*「支持する、裏書きする」に名詞接尾辞 *-ment* が付いた語である。*endorse* は古フランス語 *endosser*「背に載せる、裏面に書く」に由来し、*en-*「～にする、～の上に」と *dos*「背中」が結び付いたものとされる。もともと文書の「裏」に署名・記載して効力を与える行為を指し、そこから「権威や名前を添えて支持・承認する」という抽象義へ広がった。  
-・*dorsal* — 「背側の」。ラテン語 *dorsum*「背中」にさかのぼり、*endorse* の「裏・背」の語源を理解する手掛かりになる。  
-・*endorse* — 「公に支持する；商品を推薦する；小切手などに裏書きする」。*endorsement* の各主要義の基になる動詞。  
-・*indorsement* — *endorsement* の異綴り。現代の一般英語ではまれだが、米国の古い法令・法律文書などで残ることがある。  
-
-＃語形成
-
-・*endorse + -ment → endorsement* — 動詞から行為・結果・記載物を表す名詞を作る。文脈により不可算の「支持という行為」と、可算の「一件の支持表明・裏書・特約」を表す。  
-・*endorse / endorsed / endorsing*（動詞）— 「支持する、推薦する、裏書きする」。人や団体が実際に行う行為を述べる。  
-・*endorser*（名詞）— 「支持者、推薦者；裏書人」。広告では商品を推薦する人物、金融では証券に裏書きする者を指す。  
-・*endorsee*（名詞）— 「被裏書人」。手形・小切手などの裏書によって権利を受ける者を指す法律・金融用語。  
-・*endorsed*（形容詞的用法）— *officially endorsed candidate*「公式推薦候補」のように、支持・承認を受けた状態を表す。通常、独立した意味よりも動詞 *endorse* の過去分詞として理解できる。  
-
-＃コアイメージ
-
-「人・提案・商品などに、名前・信用・署名を添えて、支持や効力を与える」が一般的な支持、広告推薦、金融の裏書を整理する中心にある。歴史的には文書の裏面への記載を指し、そこから公的支持や推薦へ広がった。一方、保険特約、資格上の追加認定、英国の運転違反記録は、制度内で意味が固定した専門的な別枝であり、この共通核から意味や評価を推測しない。  
-・核 → 人・政策・考えに、公的な支持・承認を与える。  
-・核 → 商品に、著名人・専門家の名前と信用を添えて推薦する。  
-・核 → 小切手・証券に署名や指示を記して、受領・譲渡などの効力を与える。  
-
-＃意味・用法・関連表現
-
-1. 【可算名詞・不可算名詞】（人・候補者・政策・考えなどへの、公的・明確な）支持、承認、推薦
-
-【日本語訳・定義】人、団体、候補者、政策、計画、意見、製品などについて、価値がある、適切である、採用・選択に値すると公に、または明確に表明する支持・承認を指す。不可算では支持する行為・状態を一般的に表し、可算では声明、投票、行動などとして示された一件の支持表明を表す。単なる個人的な好感より、他者の判断や対象の正当性に影響し得る、外に示された支持という含みが強い。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】中立～フォーマル。政治、報道、ビジネス、選挙、組織運営、書評、推薦状などで高頻度。日常会話でも使えるが、個人的な賛成なら *approval* や *support* の方が広く使える。米英で中心義に大きな差はない。  
-
-【文法パターン】*endorsement of 〈人・物・方針〉*＝支持・承認の対象／*endorsement by/from 〈人・団体〉*＝支持者・支持の出所／*someone's endorsement*＝所有格で支持者を示す／*endorsement of 〈人〉 as 〈役職・後継者〉*＝誰をどの立場に就く者として支持するか／*give/provide/lend one's endorsement to 〈O〉*＝〈O〉を支持する／*receive/win/secure/seek endorsement*＝支持を受ける・獲得する・求める／*seek/secure an endorsement for 〈候補者・案件〉*＝候補者・案件のために支持を求める・取り付ける／*serve as/amount to/be seen as an endorsement of 〈O〉*＝言動や結果が〈O〉への支持と解釈される／*a letter of endorsement*＝支持・推薦を記した文書／*with/without the endorsement of 〈人・団体〉*＝支持を得て／得ずに  
-
-【コロケーション】
-
-・an endorsement of 〈a candidate/policy/plan/idea〉  
-用途: 支持・承認の対象を *of* で示す最も基本的な名詞句。  
-例: The union announced its endorsement of the candidate.  
-訳: その労働組合は、その候補者への支持を表明した。  
-
-・be seen as an endorsement of 〈O〉  
-用途: 決議、任命、投票、行動などが、〈O〉への支持を示すものと解釈されることを表す。  
-例: The appointment was widely seen as an endorsement of the reform.  
-訳: その任命は、改革への支持を示すものだと広く受け止められた。  
-
-・an endorsement by/from 〈人・団体〉  
-用途: 支持を表明した人物・組織を示す。*by* は行為者、*from* は支持を受け取る側から見た出所に焦点を置きやすい。  
-例: An endorsement from the medical association strengthened the proposal's credibility.  
-訳: 医師会からの支持によって、その提案の信頼性が高まった。  
-
-・give/provide one's endorsement to 〈O〉  
-用途: 人や団体が〈O〉を明示的に支持・承認することを述べる。  
-例: The board gave its formal endorsement to the revised plan.  
-訳: 取締役会は改訂案を正式に承認した。  
-
-・receive/win/secure the endorsement of 〈人・団体〉  
-用途: 候補者や提案が、影響力のある人物・団体の支持を得る。  
-例: The candidate secured the endorsement of several labor unions.  
-訳: その候補者はいくつかの労働組合の支持を取り付けた。  
-
-・seek endorsement from 〈人・団体〉  
-用途: 選挙、企画、出版物などについて公式な支持・推薦を求める。  
-例: The organizers are seeking endorsement from local community leaders.  
-訳: 主催者たちは地域の指導者からの支持を求めている。  
-
-・a strong/clear/ringing endorsement of 〈O〉  
-用途: 支持が力強い、明白である、熱烈であることを評価的に示す。  
-例: The overwhelming vote was a clear endorsement of the reforms.  
-訳: 圧倒的多数の票は、その改革への明確な支持を示していた。  
-
-・a qualified/limited/tacit endorsement of 〈O〉  
-用途: 条件付き・限定的・暗黙の支持であり、全面的支持ではないことを示す。  
-例: Her cautious remarks amounted to a qualified endorsement of the agreement.  
-訳: 彼女の慎重な発言は、その合意への条件付きの支持に相当した。  
-
-・with the endorsement of 〈人・団体〉  
-用途: 支持者・承認機関の後押しを受けて行動や計画が進むことを示す。  
-例: The campaign was launched with the endorsement of several national charities.  
-訳: その運動は複数の全国的慈善団体の支持を得て開始された。  
-
-・a letter of endorsement  
-用途: 人、申請、企画などへの支持・推薦を正式な書面で示す。  
-例: The application must include a letter of endorsement from the department chair.  
-訳: その申請には学科長からの推薦状を添えなければならない。  
-
-・an endorsement of 〈人〉 as 〈役職・後継者〉  
-用途: 〈人〉を〈役職・後継者〉として支持・推薦することを示す。  
-例: The committee's endorsement of her as the next chair was announced on Monday.  
-訳: 彼女を次期委員長として支持する委員会の推薦が、月曜日に発表された。  
-
-【語法・注意】支持の対象を単独の名詞句で明示する基本形は *endorsement of 〈対象〉*、支持者・出所は *by/from 〈支持者〉* であり、*the union's endorsement of the candidate* は「労組による候補者への支持」である。*for* は、候補者・案件のために支持を獲得・要求する視点で、*seek/secure an endorsement for the candidate* のように使われやすい。*give one's endorsement to 〈O〉* と *endorse 〈O〉* はほぼ対応するが、名詞形の方が公式声明・制度的承認を強調しやすい。*a ringing endorsement* は「はっきりと熱烈な支持」であり、しばしば否定の *hardly/not exactly a ringing endorsement*「とても強い支持とは言えない」として皮肉に使う。*tacit endorsement* は明言せず、反対しない態度や行動から読み取られる支持である。結果や沈黙が *an endorsement* と呼ばれる場合、実際に支持声明が出たとは限らず、「支持と解釈できる」という比喩的評価である。  
-
-【類義語】
-
-・support  
-定義: 人、計画、組織、考えなどを賛成・援助・擁護すること。  
-頻度: 〈10/10〉  
-違い: 最も広い語で、心情的な賛成、実務的援助、金銭支援まで含む。*endorsement* は公的・明示的な支持表明や、名前・権威を貸して対象を後押しする行為に焦点がある。  
-例: The project has strong support among local residents.  
-訳: その事業は地域住民から強い支持を得ている。  
-
-・approval  
-定義: 提案、行為、人などを良い・適切・許容できると認めること。  
-頻度: 〈9/10〉  
-違い: 個人的な好意から正式な許可まで広く、必ずしも公表されない。*endorsement* は通常、支持が外部に示され、他者への推薦効果を持つ。  
-例: The budget cannot be released without the director's approval.  
-訳: その予算は部長の承認なしには公表できない。  
-
-・backing  
-定義: 人、計画、組織への支持や、成功のための実際的・金銭的援助。  
-頻度: 〈7/10〉  
-違い: 支持のほか資金・組織力による後ろ盾を含みやすい。*endorsement* は声明や公式承認だけでも成立し、実際の資金援助は必須ではない。  
-例: The start-up obtained financial backing from two major investors.  
-訳: その新興企業は大手投資家2社から資金面の支援を得た。  
-
-・recommendation  
-定義: 人や物を適切・有益だと判断し、選ぶよう勧めること、またはその言葉。  
-頻度: 〈9/10〉  
-違い: 個人的助言や具体的選択を促すことに焦点がある。*endorsement* はより公的で、支持者の評判・権威が対象の信頼性を高める含みが強い。  
-例: I chose the book on my professor's recommendation.  
-訳: 私は教授の推薦でその本を選んだ。  
-
-・sanction  
-定義: 権威ある機関による正式な許可・承認。  
-頻度: 〈6/10〉  
-違い: 承認する権限と制度的効力を強く含む。*endorsement* は法的許可でなくてもよく、著名人や団体による支持表明にも使える。なお *sanctions* は複数形で「制裁」の意味になることが多い。  
-例: The operation proceeded with official sanction from the government.  
-訳: その作戦は政府の正式な許可を得て進められた。  
-
-【反意語】
-
-・opposition  
-定義: 人、計画、政策などに反対し、阻止しようとする立場や行動。  
-頻度: 〈9/10〉  
-違い: 支持する方向の *endorsement* に対し、対象へ明確に反対する方向を表す。単に支持を与えない *non-endorsement* より積極的である。  
-例: The proposal faced strong opposition from local businesses.  
-訳: その提案は地元企業から強い反対に直面した。  
-
-・disapproval  
-定義: 行為、考え、人などを良くない・適切でないと判断すること。  
-頻度: 〈8/10〉  
-違い: 承認・好意的評価の反対だが、必ずしも公的な反対運動を含まない。*endorsement* が外に示された支持なら、*public disapproval* は外に示された否定的評価となる。  
-例: She made her disapproval of the decision clear.  
-訳: 彼女はその決定を認めない姿勢を明確にした。  
-
-・rejection  
-定義: 提案、申請、考え、人などを受け入れないと決めること。  
-頻度: 〈8/10〉  
-違い: 採用・支持を与える *endorsement* に対し、対象を退ける結果を表す。ただし支持を表明しないことが直ちに *rejection* になるわけではない。  
-例: The committee's rejection of the proposal surprised its authors.  
-訳: 委員会がその提案を退けたことは、作成者たちを驚かせた。  
-
-2. 【可算名詞】（広告における著名人・専門家などの）商品推薦、推奨コメント；推薦契約
-
-【日本語訳・定義】著名人、スポーツ選手、専門家、利用者などが、広告・宣伝の中で商品、ブランド、サービスを使っている、好んでいる、勧めると表明すること、またはその広告上の発言・出演を指す。広くは商業的な推薦行為そのものを、複数形では個々の推薦契約・推薦案件や、そこから得る収入を表す。推薦者の知名度・専門性・信頼性を商品へ結び付ける点が中心であり、報酬を伴うことが多いが、語自体は必ずしも有償だとは断定しない。書籍では、著者や専門家が寄せる推薦文を指すこともある。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】広告、マーケティング、スポーツ、芸能、SNS、消費者保護。*celebrity endorsement, product endorsement, endorsement deal* は特に一般的。米英ともに使う。  
-
-【文法パターン】*〈celebrity/athlete/expert〉 endorsement*＝推薦者の種類／*〈product/brand/book〉 endorsement*＝商品・ブランドの広告推薦または書籍の推薦文／*an endorsement of/for 〈a product/brand〉*＝推薦対象／*endorsement by/from 〈人〉*＝推薦者／*sign/land/lose an endorsement deal with 〈企業〉*＝推薦契約を結ぶ・得る・失う／*earn/make money from endorsements*＝推薦案件から収入を得る  
-
-【コロケーション】
-
-・a celebrity/athlete endorsement  
-用途: 著名人やスポーツ選手の知名度・好感度を利用した商品推薦を表す。  
-例: The campaign relies heavily on celebrity endorsements.  
-訳: その広告キャンペーンは著名人による推薦に大きく依存している。  
-
-・a product/brand endorsement  
-用途: 商品・ブランドについて、使用・好意・推奨を広告で表明することを指す。  
-例: The interview included what appeared to be a paid product endorsement.  
-訳: そのインタビューには、有料の商品推薦と思われる内容が含まれていた。  
-
-・an endorsement of/for 〈a product〉  
-用途: どの商品を広告上で推薦しているかを示す。  
-例: Her endorsement of the skin-care line reached millions of followers.  
-訳: 彼女によるそのスキンケア商品の推薦は、数百万人のフォロワーに届いた。  
-
-・sign an endorsement deal with 〈企業〉  
-用途: 選手・著名人などが企業と広告推薦契約を結ぶ。  
-例: The rookie signed an endorsement deal with a sportswear company.  
-訳: その新人選手はスポーツ用品会社と推薦契約を結んだ。  
-
-・land/secure a major endorsement  
-用途: 影響力や収入の大きい推薦案件・契約を獲得する。  
-例: She secured a major endorsement after winning the championship.  
-訳: 彼女は優勝後、大型の広告推薦契約を獲得した。  
-
-・earn/make money from endorsements  
-用途: 複数の広告推薦案件から報酬を得ることを表す。  
-例: Some athletes earn more from endorsements than from prize money.  
-訳: 広告推薦による収入が賞金を上回る選手もいる。  
-
-・a paid/sponsored endorsement  
-用途: 推薦に報酬・対価やスポンサー関係があることを明示する。  
-例: Paid endorsements should be clearly disclosed to consumers.  
-訳: 有料の広告推薦は消費者に明確に開示されるべきだ。  
-
-・a book endorsement  
-用途: 書籍の表紙・帯・紹介ページなどに掲載される、著者・専門家・著名人による推薦文を指す。  
-例: The publisher requested a short book endorsement from a leading historian.  
-訳: 出版社は第一線の歴史家に、その本の短い推薦文を依頼した。  
-
-【語法・注意】語義1の政治的・制度的支持と同じ「信用を貸す」という核を持つが、この語義では広告・販売促進が目的で、推薦者と商品・ブランドとの商業関係が重要になる。*celebrity endorsement* は「著名人が何かを支持すること」であり、文脈がなければ商品広告に限らない場合もあるが、マーケティング文脈では通常商品・ブランド推薦を指す。*testimonial* は利用経験や満足を述べる具体的な推薦コメント・体験談に焦点があり、*endorsement* は出演、名前・画像の使用、SNS投稿、契約を含むより広い行為を指せる。*sponsorship* は企業が人・大会・活動へ資金や物品を提供して露出を得る関係であり、推薦者が商品を実際に勧める *endorsement* とは一致しない。報酬の有無が重要なら *paid/sponsored endorsement* と明示する。  
-
-【類義語】
-
-・testimonial  
-定義: 商品・サービス・人物について、利用経験や実績に基づき価値を証言する推薦文・発言。  
-頻度: 〈6/10〉  
-違い: 具体的な言葉による体験談・証言に焦点がある。*endorsement* は発言がなくても、著名人の出演、名前、画像、契約による推薦まで含められる。  
-例: The website features testimonials from former clients.  
-訳: そのウェブサイトには元顧客の推薦コメントが掲載されている。  
-
-・recommendation  
-定義: 商品やサービスを良い選択肢として他者に勧めること。  
-頻度: 〈9/10〉  
-違い: 私的・非商業的な助言にも普通に使う。*endorsement* は広告で公に信用を与える行為や、推薦契約を強く連想させる。  
-例: I bought the camera on a friend's recommendation.  
-訳: 私は友人の勧めでそのカメラを買った。  
-
-・promotion  
-定義: 商品・サービスの認知や売上を高めるための宣伝活動。  
-頻度: 〈8/10〉  
-違い: 広告、値引き、イベントなど販売促進全般を含む。*endorsement* はその一手法であり、特定の人・団体が支持や推薦を表明することが必要である。  
-例: The company spent heavily on online promotion.  
-訳: その会社はオンライン宣伝に多額を投じた。  
-
-・sponsorship  
-定義: 企業などが人、番組、競技、催しへ資金・物品を提供し、名称露出や広告効果を得る仕組み。  
-頻度: 〈7/10〉  
-違い: 資金提供関係が中心で、支援を受けた側が商品を推奨するとは限らない。*endorsement* は推薦者が商品への支持を示すことが中心である。  
-例: The tournament depends on corporate sponsorship.  
-訳: その大会は企業スポンサーからの支援に依存している。  
-
-3. 【可算名詞・不可算名詞／金融・法律】（小切手・手形・証券などの）裏書、裏書署名、裏書指示
-
-【日本語訳・定義】小切手、手形、約束手形などの譲渡可能な証券に、受取人などが署名や指示を記し、受領、入金、譲渡、支払先の指定、権利の制限などの法的・実務的効果を生じさせること、またはその署名・記載を指す。歴史的な「文書の裏に書く」という語源に最も近い用法である。実際の要件と効果は国・法域・金融機関・証券の種類によって異なる。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】銀行、商取引、手形法、法律文書。一般生活では小切手を使う地域で遭遇する。米国の法律文書では異綴り *indorsement* が残る場合がある。英国綴りの *cheque* と米国綴りの *check* の違いにも注意する。  
-
-【文法パターン】*an endorsement on the back of 〈a check/cheque/instrument〉*＝証券の裏面の署名・記載／*endorsement of 〈a check/note/instrument〉*＝証券を裏書する行為／*require/bear/lack an endorsement*＝裏書を必要とする・有する・欠く／*a blank/special/restrictive endorsement*＝権利移転や使用を定める裏書の種類／*endorsement in blank*＝受取人を指定しない白地式裏書  
-
-【コロケーション】
-
-・an endorsement on the back of a check/cheque  
-用途: 小切手の裏面にある署名・指示を物理的な位置とともに示す。  
-例: The bank rejected the cheque because the endorsement on the back was missing.  
-訳: 裏面の裏書がなかったため、銀行はその小切手を受け付けなかった。  
-
-・endorsement of a check/note/instrument  
-用途: 小切手・手形・証券を裏書する行為を一般的に述べる。  
-例: Endorsement of the note transferred the holder's rights to the company.  
-訳: その手形の裏書によって、所持人の権利は会社へ移転した。  
-
-・a blank endorsement/an endorsement in blank  
-用途: 通常、裏書人の署名だけで譲受人を指定しない裏書を指す。  
-例: A blank endorsement may make the instrument payable to its bearer.  
-訳: 白地式裏書により、その証券が持参人払いとなることがある。  
-
-・a special endorsement  
-用途: 支払・譲渡先となる特定の人を指定する裏書を表す。  
-例: The special endorsement named the company as the new payee.  
-訳: 記名式裏書では、その会社が新しい受取人として指定されていた。  
-
-・a restrictive endorsement  
-用途: *For deposit only* など、証券の使用・交渉可能性に制限を加える裏書を表す。  
-例: She added a restrictive endorsement before mailing the check to the bank.  
-訳: 彼女は小切手を銀行へ郵送する前に、使用を限定する裏書を加えた。  
-
-・require/bear a valid endorsement  
-用途: 証券が有効な裏書を必要とする、または備えていることを述べる。  
-例: The instrument must bear a valid endorsement before it can be negotiated.  
-訳: その証券を譲渡するには、有効な裏書が付されていなければならない。  
-
-【語法・注意】日常的な小切手の受取・入金では *sign/endorse the back of the check* と動詞で説明する方が分かりやすいことが多い。*signature* は単に署名という形を指すが、*endorsement* はその署名・記載が証券に与える法的機能まで含む。*blank endorsement, special endorsement, restrictive endorsement* の具体的効果や用語は法域によって差があり、一般英語の知識だけで実際の金融手続きを判断しない。綴り *indorsement* は誤植とは限らず、古い・専門的な法律上の異綴りであるが、通常の英文では *endorsement* を使う。  
-
-【類義語】
-
-・signature  
-定義: 本人確認、同意、承認などのために書かれた氏名・記号。  
-頻度: 〈8/10〉  
-違い: 書かれた名前そのものを広く指す。*endorsement* は証券上の署名・記載と、それによる受領・譲渡などの機能を指す専門語である。  
-例: The form requires the applicant's signature.  
-訳: その用紙には申請者の署名が必要である。  
-
-・countersignature  
-定義: 先の署名や文書を確認・認証するために追加される署名。  
-頻度: 〈3/10〉  
-違い: 別の署名を確認する追加署名に限られる。*endorsement* は証券の譲渡・支払指示などを行う裏書で、先行署名の認証が中心とは限らない。  
-例: The document is not valid without a countersignature from a supervisor.  
-訳: その文書は監督者の副署がなければ有効ではない。  
-
-・assignment  
-定義: 契約上の権利・財産・債権などを他者へ移転すること、またはその文書。  
-頻度: 〈5/10〉  
-違い: 権利移転全般を指す法律語で、必ずしも証券への署名を伴わない。*endorsement* は譲渡可能証券上の記載によって権利を移す特定の方法となり得る。  
-例: The assignment transferred all contractual rights to the buyer.  
-訳: その権利譲渡によって、すべての契約上の権利が買い手へ移った。  
-
-4. 【可算名詞／保険】（保険契約の補償・条件を変更する）特約、追加条項、変更証書
-
-【日本語訳・定義】既存の保険証券・保険契約に追加され、補償範囲、免責、限度額、被保険者、対象物、条件などを追加、削除、制限、修正する文書・条項を指す。契約締結時、契約期間中、更新時に付されることがあり、*rider* と呼ばれることもある。単なる推薦・承認ではなく、元の保険契約の内容を実際に変える契約文書である。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】保険、契約、リスク管理。特に北米の保険実務で一般的だが、他地域の英語でも理解される。一般向け説明では *an amendment to an insurance policy* と言い換えられる。  
-
-【文法パターン】*an endorsement to/on 〈an insurance policy〉*＝保険契約に付された特約／*a policy/insurance endorsement*＝保険特約／*add/attach/issue/remove an endorsement*＝特約を追加・添付・発行・削除する／*coverage provided/added/excluded by endorsement*＝特約により補償を付加・除外する／*an endorsement that changes/modifies/extends/excludes coverage*＝特約の効果をthat節で示す  
-
-【コロケーション】
-
-・an endorsement to/on an insurance policy  
-用途: 特約がどの保険証券・契約へ付されるかを示す。  
-例: The insurer added an endorsement to the policy covering the new equipment.  
-訳: 保険会社は新しい設備を補償対象とする特約を保険契約に追加した。  
-
-・a policy/insurance endorsement  
-用途: 保険契約を修正する文書・条項を簡潔に指す。  
-例: Read every policy endorsement before renewing your coverage.  
-訳: 補償を更新する前に、保険の各特約をすべて確認しなさい。  
-
-・add/attach an endorsement  
-用途: 既存の保険証券へ新たな条件・補償・除外を付け加える。  
-例: The broker recommended attaching an endorsement for flood damage.  
-訳: 仲介業者は洪水被害に関する特約を付けるよう勧めた。  
-
-・issue an endorsement  
-用途: 保険会社が契約変更を示す特約文書を正式に発行する。  
-例: The insurer issued an endorsement reflecting the change of address.  
-訳: 保険会社は住所変更を反映した変更証書を発行した。  
-
-・coverage provided/added by endorsement  
-用途: 基本契約ではなく特約によって補償が追加されていることを示す。  
-例: Cyber coverage is available by endorsement for an additional premium.  
-訳: 追加保険料を支払えば、特約によってサイバー補償を付けられる。  
-
-・an exclusion added by endorsement  
-用途: 特約により特定の危険・損害が補償対象外になることを示す。  
-例: The claim fell under an exclusion added by endorsement.  
-訳: その請求は、特約で追加された免責事項に該当した。  
-
-【語法・注意】この語義では *endorsement* が常に有利な補償追加を意味するわけではない。補償を広げることも、狭めることも、名称・住所などの情報を修正することもある。*rider* は近い語で、実務上ほぼ同義に使われることがあるが、商品・法域・保険会社によって用語選択が異なる。*amendment* は契約変更全般を指す上位語である。*an endorsement of the insurance policy* とすると「その保険契約への支持」とも読めるため、特約の意味では *an endorsement to/on the policy* や *a policy endorsement* とする方が明確である。  
-
-【類義語】
-
-・rider  
-定義: 保険契約などに追加され、補償・条件を変更する付加条項。  
-頻度: 〈5/10〉  
-違い: 保険では *endorsement* とほぼ同義に使われる場合が多い。*rider* は生命・医療保険の追加補償を特に連想させることがあるが、厳密な区別は商品・法域による。  
-例: She added a disability rider to her life insurance policy.  
-訳: 彼女は生命保険に障害保障特約を追加した。  
-
-・amendment  
-定義: 契約、法律、文書などの既存内容を変更・追加する修正。  
-頻度: 〈7/10〉  
-違い: 文書変更全般に使える。*endorsement* は保険契約に付される具体的な変更文書・特約を指す専門性が高い。  
-例: Both parties signed an amendment to the contract.  
-訳: 両当事者は契約の修正書に署名した。  
-
-・addendum  
-定義: 完成した文書・契約・報告書などへ後から加える補足文書。  
-頻度: 〈4/10〉  
-違い: 追加情報全般を指し、元の条件を必ず変更するとは限らない。保険の *endorsement* は契約の補償や条件に法的効果を与える。  
-例: The parties attached an addendum clarifying the delivery schedule.  
-訳: 当事者たちは納入日程を明確にする補足文書を添付した。  
-
-5. 【可算名詞／主に米・資格・免許】（免許・証明書に追加される）資格認定、追加権限；技能を認める署名・証明
-
-【日本語訳・定義】既存の免許、資格証明書、訓練記録などに追加され、特定の車両を運転する、特定科目を教える、単独飛行を行うなどの技能・条件を満たしたことや追加権限を公式に示す認定・記載を指す。単独の免許そのものではなく、基礎となる免許・証明・記録に範囲や権限を加える点が中心である。分野によっては、指導者・認定者による署名付き証明文そのものを指す。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】商用運転免許、航空、教員資格、職業資格などの専門用法で、特に米国の制度名に多い。制度・地域ごとに要件、名称、効力が異なり、*qualification, authorization, category, rating* など別の専門語が採用される場合もある。  
-
-【文法パターン】*an endorsement on/to 〈a licence/license/certificate〉*＝免許・証明書への追加認定／*a 〈hazardous-materials/passenger/subject〉 endorsement*＝認められる車両・分野／*obtain/earn/hold/add an endorsement*＝追加認定を取得・保有・追加する／*require an endorsement to do*＝行為に追加認定を必要とする／*a logbook/instructor endorsement*＝訓練・能力を証明する記録上の署名  
-
-【コロケーション】
-
-・an endorsement on/to a licence/license or certificate  
-用途: 基礎免許・資格証明に追加された権限・認定を一般的に示す。  
-例: The endorsement on her teaching certificate allows her to teach mathematics.  
-訳: 彼女の教員免許への追加認定により、数学を教えることができる。  
-
-・obtain/earn an endorsement  
-用途: 試験・訓練・審査などを経て追加資格を取得する。  
-例: Drivers must pass a separate test to obtain the endorsement.  
-訳: 運転者はその追加資格を取得するため、別の試験に合格しなければならない。  
-
-・hold a 〈passenger/tank/hazardous-materials〉 endorsement  
-用途: 米国の商用運転免許で、特定の車両・貨物を扱う追加権限を保有する。  
-例: Applicants must hold a passenger endorsement to operate the bus.  
-訳: そのバスを運転するには、申請者は旅客輸送の追加資格を保有していなければならない。  
-
-・require an endorsement to 〈動詞〉  
-用途: 基本免許だけでは足りず、特定行為に追加認定が必要だと示す。  
-例: The licence requires an additional endorsement to transport hazardous materials.  
-訳: その免許で危険物を輸送するには、追加認定が必要である。  
-
-・a flight-instructor/logbook endorsement  
-用途: 航空分野で、指導者が訓練の完了・能力・試験準備などを記録上で証明する。  
-例: The student received a logbook endorsement for solo flight.  
-訳: その訓練生は単独飛行のための飛行記録簿上の認定を受けた。  
-
-・add an endorsement to a certificate  
-用途: 既存資格の対象科目・技能・権限を追加する。  
-例: She completed the course to add a bilingual endorsement to her certificate.  
-訳: 彼女は資格証明にバイリンガル教育の追加認定を加えるため、その課程を修了した。  
-
-【語法・注意】語義1の「権威ある承認」から発達した専門用法だが、単なる推薦状ではなく、制度上の資格・権限を表す。*licence* は主に英綴りの名詞、*license* は米綴りの名詞である。米国の *commercial driver's license endorsement* は運転できる車両・輸送物の範囲を広げる追加資格で、語義6の英国の違反記録とは評価も機能も逆方向である。航空の *logbook endorsement* は必ずしも免許カードへ追加される資格名ではなく、指導者が訓練・能力・準備状況を証明する署名付き記載を指す場合がある。制度固有の文書では、一般語義から要件を推測せず、管轄機関の定義を確認する必要がある。  
-
-【類義語】
-
-・authorization  
-定義: 特定の行為を行うことを権限ある者・機関が正式に認めること。  
-頻度: 〈7/10〉  
-違い: 許可・権限付与全般を指す。*endorsement* は既存の免許・資格・記録へ追加される具体的な認定・記載という形を取りやすい。  
-例: Pilots need special authorization to enter the restricted airspace.  
-訳: パイロットがその制限空域へ入るには特別な許可が必要である。  
-
-・certification  
-定義: 人・製品・手続きなどが一定基準を満たすと正式に証明すること、またはその資格。  
-頻度: 〈7/10〉  
-違い: 独立した資格・証明にも使える。*endorsement* は基礎資格に科目・車種・権限などを追加する認定であることが多い。  
-例: The position requires professional certification in safety management.  
-訳: その職には安全管理の専門資格が必要である。  
-
-・rating  
-定義: 航空などで、特定の機種・飛行条件・職務を認める資格区分。  
-頻度: 〈4/10〉  
-違い: 航空免許上の正式な資格区分を指すことが多い。*endorsement* は指導者の署名・訓練証明を指す場合があり、両者は制度上同一とは限らない。  
-例: She is training for an instrument rating.  
-訳: 彼女は計器飛行証明の訓練を受けている。  
-
-6. 【可算名詞／英・運転】運転違反の記録、違反点数の付記
-
-【日本語訳・定義】英国で、交通違反について有罪となった、または反則処分を受けたことを運転者記録に正式に付記すること、またはその違反記録を指す。通常、違反コードと penalty points「違反点数」を伴う。歴史的には運転免許証への記載を指したが、現在は電子的な運転者記録に保持される場合も、この制度上の名称として *endorsement* を使う。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】主にイギリス英語の交通法・行政・自動車保険。米国で *license endorsement* と言えば、語義5の追加運転資格を指すことが多く、この処分義とは地域差が大きい。  
-
-【文法パターン】*an endorsement on one's driving licence/record*＝免許・運転者記録上の違反付記／*receive/get an endorsement for 〈an offence〉*＝違反により付記を受ける／*have/carry endorsements/penalty points*＝違反記録・点数がある／*an endorsable/non-endorsable offence*＝違反点数付記の対象となる／ならない違反  
-
-【コロケーション】
-
-・an endorsement on one's driving licence/record  
-用途: 運転免許・運転者記録に交通違反が正式に付記されていることを示す。  
-例: The endorsement will remain on his driving record for several years.  
-訳: その違反記録は数年間、彼の運転者記録に残る。  
-
-・receive/get an endorsement for 〈違反〉  
-用途: 特定の交通違反により違反記録・点数付記を受ける。  
-例: She received an endorsement for speeding.  
-訳: 彼女は速度違反で違反点数の付記を受けた。  
-
-・have an endorsement/endorsements on one's licence  
-用途: 過去の交通違反による付記・点数が免許記録にある状態を表す。  
-例: Applicants must disclose any endorsements on their driving licence.  
-訳: 応募者は運転免許にある違反記録をすべて申告しなければならない。  
-
-・penalty points and endorsements  
-用途: 英国の交通違反制度で、違反点数とその公式記録をまとめて指す。  
-例: The insurer asked for details of all penalty points and endorsements.  
-訳: 保険会社は、すべての違反点数と違反記録の詳細を求めた。  
-
-・an endorsement for an endorsable offence  
-用途: 違反点数・記録の付記対象となる交通違反により、実際に付記を受けることを表す。  
-例: She received an endorsement for an endorsable offence.  
-訳: 彼女は違反点数付記の対象となる交通違反で、違反記録の付記を受けた。  
-
-【語法・注意】この語義は英国特有で、肯定的な「支持・推薦」とは逆に不利益な公式記録を表す。*an endorsement on a driving licence* は英国文脈では違反記録、米国文脈の *an endorsement on a driver's license* は危険物・旅客・二輪車などの追加運転資格を意味し得るため、地域と周辺語を確認する。*endorsement* と *penalty points* は密接だが完全な同義ではなく、前者は違反の公式付記・記録、後者は付与される点数に焦点がある。現代の英国では情報が物理的な免許証そのものではなく運転者記録に保存されても、*endorsement* という語が制度名として残る。  
-
-【類義語】
-
-・penalty points  
-定義: 交通違反に応じて運転者記録へ加算され、累積により免許停止などにつながる点数。  
-頻度: 〈6/10〉  
-違い: 点数そのものに焦点がある。*endorsement* は違反内容・コードと点数を運転者記録へ正式に付記すること、またはその記録を指す。  
-例: He received three penalty points for the offence.  
-訳: 彼はその違反で3点の違反点数を受けた。  
-
-・driving conviction  
-定義: 交通違反について裁判所で有罪とされた事実・記録。  
-頻度: 〈5/10〉  
-違い: 有罪判決そのものを指す。*endorsement* はその結果として運転者記録へ加えられる付記であり、行政上の反則処理と結び付く場合もある。  
-例: The application asks about previous driving convictions.  
-訳: その申請書では過去の交通違反による有罪判決について尋ねている。  
-
-・traffic violation record  
-定義: 交通法規違反に関する記録。  
-頻度: 〈4/10〉  
-違い: 地域を問わず意味を説明できる一般的な表現である。*endorsement* は英国制度に定着した専門名称で、より簡潔だが地域依存性が高い。  
-例: Employers may check an applicant's traffic violation record.  
-訳: 雇用主は応募者の交通違反記録を確認することがある。
-
----
-
-# overwhelm
-
----
-headword: overwhelm
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-11
-updated_at: 2026-08-11
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /ˌoʊvərˈwɛlm/｜英: /ˌəʊvəˈwelm/  
-・主強勢は第3音節の /wɛlm/・/welm/ に置き、語頭の /ˌoʊ/・/ˌəʊ/ には第二強勢（主強勢より弱い補助的な強勢）がある。したがって *over-* 全体を無強勢として読むのではなく、第1音節に弱めの強勢を置き、米音では第2音節を弱い /ər/ とする。  
-・語末の *-whelm* は1音節で、*whelm* の *wh* を /w/ と発音する。*overwhelm* の現在形・過去形・過去分詞形で語幹の母音は変わらない。  
-・活用形は *overwhelms* /ˌoʊvərˈwɛlmz/｜/ˌəʊvəˈwelmz/、*overwhelmed* /ˌoʊvərˈwɛlmd/｜/ˌəʊvəˈwelmd/、*overwhelming* /ˌoʊvərˈwɛlmɪŋ/｜/ˌəʊvəˈwelmɪŋ/。*overwhelmed* の *-ed* は /d/ で発音する。  
-
-＃語源
-
-中英語 *overwhelmen* に由来し、*over-*「上から、過度に」と、古い動詞 *whelmen*「ひっくり返す、覆う」を組み合わせた語である。もともとの「上から覆い尽くす」という物理的なイメージから、力・量・感情が人や物の許容量を超え、抵抗・処理・反応を難しくするという現代の意味へ広がった。  
-・*whelm*（動詞）— 「覆う、圧倒する」。現代では *overwhelm* の方がはるかに一般的で、単独の *whelm* はまれである。  
-・*underwhelm*（動詞）— *overwhelm* の反対方向に *under-* を付けた語で、「期待ほど感銘を与えない、期待を下回る」。  
-・*overwhelming*（形容詞）— *overwhelm* の現在分詞から発達し、「非常に強い・大きい、圧倒的な」を表す。  
-
-＃語形成
-
-・*overwhelms / overwhelmed / overwhelming* — 動詞の活用形。*overwhelmed* は受動態・結果状態形容詞、*overwhelming* は現在分詞・形容詞として独立した用法がある。  
-・*overwhelmed*（形容詞）— 「感情や仕事などに圧倒されて、対処しきれない」。元の動詞の受動態と形が同じだが、*feel/be/get overwhelmed* の補語として状態を表す。  
-・*overwhelming*（形容詞）— 「非常に強い・大きい、抗しがたい」。感情、証拠、支持、数、勝利など、圧倒する側の性質を表す。  
-・*overwhelmingly*（副詞）— 「圧倒的に」。特に投票結果、支持、賛否、評価などの大差を表す。  
-・*overwhelm*（不可算名詞）— 一部の現代用例で「対処できないほど圧倒された状態、圧倒感」を表す。一般的な文章では *a feeling of being overwhelmed* の方が安定している。  
-・*underwhelm / underwhelmed / underwhelming* — 「期待ほど感銘を与えない／感銘を受けていない／期待外れの」。*overwhelm* と形は対照的だが、単純な反意語になるのは主に印象・感銘の文脈である。  
-
-＃コアイメージ
-
-「力・量・感情が上から押し寄せ、対象の抵抗力や処理能力を超えて覆う」が中心にある。  
-・核 → 強い感情や経験が人の心を圧倒し、どう反応・対処すべきか分からなくさせる。  
-・核 → 仕事、情報、要求などが多すぎて、人・組織・システムの処理能力を超える。  
-・核 → 大きな力・数・勢いで相手を完全に制圧する。  
-・核 → 水・波などが物理的に対象を覆い、のみ込む。  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】（感情・経験・刺激などが）人の心や感覚を圧倒する、強く感動させる；対処・反応を難しくする
-
-【日本語訳・定義】感情、出来事、景色、愛情、音・においなどの刺激が人や感覚に非常に強い影響を与え、その対象が平静に考えたり、抵抗したり、どう反応するか判断したりすることを難しくする。悲しみ・恐怖のような苦痛だけでなく、喜び・感謝・感動のような肯定的な感情にも使える。感情・経験・刺激を主語にし、人や感覚を目的語に取る能動文で表す。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準的。会話、報道、物語、スピーチで広く使う。感情の強さを強調するため、やや文章的・感情的になることもある。圧倒された人の受動・状態表現は語義5で扱う。  
-
-【文法パターン】*emotion/event/stimulus + overwhelm + someone/something*＝感情・出来事・刺激が人や感覚を圧倒する／*overwhelm someone with 〈感情・愛情〉*＝感情・愛情を相手に強く感じさせる／*the beauty/scale of 〈O〉 + overwhelm + someone*＝美しさ・規模が人を圧倒する／*a sense/wave of 〈感情〉 + overwhelm + someone*＝感情の波・感覚が人を圧倒する  
-
-【コロケーション】
-
-・grief/joy/relief + overwhelm + someone  
-用途: 悲しみ・喜び・安堵などの強い感情が人を圧倒する。実際の用例では受動・状態の *be/feel/get overwhelmed* も非常に多いが、圧倒された人の状態として語義5で扱う。  
-例: Grief overwhelmed her after her father died.  
-訳: 父親が亡くなった後、悲しみが彼女を圧倒した。  
-
-・a surge/wave of emotion + overwhelm + someone  
-用途: 特定の感情名を挙げず、感情そのものの強さを表す。  
-例: A wave of emotion overwhelmed him when he saw his daughter on stage.  
-訳: 彼は舞台上の娘を見て、感情の波に圧倒された。  
-
-・the beauty/power of 〈O〉 + overwhelm + someone  
-用途: 景色・音楽・芸術などの強い印象が人に及ぼす影響を示す。  
-例: The beauty of the northern lights overwhelmed the visitors.  
-訳: オーロラの美しさは訪問者たちを圧倒した。  
-
-・overwhelm the senses  
-用途: 音、におい、味、光などの刺激が強すぎて感覚を圧倒する。  
-例: The smoke was so intense that it overwhelmed my senses.  
-訳: 煙があまりにも強烈で、私の感覚が圧倒された。  
-
-・a sense of 〈名詞〉 + overwhelm + someone  
-用途: 感謝、無力感、責任感など、ひとまとまりの感覚が人を圧倒する。  
-例: A sense of gratitude overwhelmed me after they helped me.  
-訳: 彼らに助けてもらった後、感謝の念が私を圧倒した。  
-
-・overwhelm someone with kindness/love  
-用途: 親切・愛情などがあまりに強く、相手の心を強く動かす。  
-例: Her friends overwhelmed her with kindness during her recovery.  
-訳: 彼女の友人たちは、療養中の彼女に惜しみない親切を寄せた。  
-
-・the response/support + overwhelm + someone  
-用途: 予想以上の反応・支援が人を感動させ、言葉を失わせるほどになる。  
-例: The support from people we had never met overwhelmed us.  
-訳: 会ったこともない人々からの支援に、私たちは胸を打たれた。  
-
-・completely overwhelm someone  
-用途: 感情または状況の強さが、人の平静な反応や判断を完全に奪う。  
-例: The unexpected news completely overwhelmed her.  
-訳: 予想外の知らせは彼女を完全に圧倒した。  
-
-【語法・注意】この意味では感情・経験・刺激を主語、人や感覚を目的語にする。*overcome* も強い感情に負ける意味で使えるが、*overwhelm* は外部の感情・経験が人に押し寄せる構図を示しやすい。*move* は感動させることに焦点があり、対処不能なほどの強さは必須ではない。受動・状態の *be/feel/get overwhelmed* は語義5に集約する。*overwhelm someone to do* とは通常言わず、行為を表すなら *overwhelm someone with emotion* や *be overwhelmed by the desire to do* のようにする。  
-
-【類義語】
-
-・overcome  
-定義: 強い感情に圧倒され、平静さや抵抗力を失わせる。  
-頻度: 〈9/10〉  
-違い: 感情に「負ける・支配される」結果に焦点がある。*overwhelm* より文学的に響くことがあり、目的語を人に取る能動文も使える。  
-例: She was overcome with sadness when she heard the news.  
-訳: 彼女はその知らせを聞いて悲しみに打ちのめされた。  
-
-・overpower  
-定義: 力、感情、感覚などが強すぎて相手を制御する。  
-頻度: 〈8/10〉  
-違い: 物理的な力や感覚の強さにも使いやすく、感情面では *overwhelm* より「制御する力」に焦点がある。  
-例: The smell of smoke overpowered my sense of taste.  
-訳: 煙のにおいが強すぎて、味覚が分からなくなった。  
-
-・move  
-定義: 出来事や表現が人を感動させ、感情を動かす。  
-頻度: 〈10/10〉  
-違い: 感動を表す中立的で広い語。*overwhelm* のように、感情が強すぎて反応できない含みは必須ではない。  
-例: The speech moved everyone in the audience.  
-訳: そのスピーチは聴衆全員を感動させた。  
-
-・affect  
-定義: 出来事や状況が人の感情・判断・行動に影響を与える。  
-頻度: 〈9/10〉  
-違い: 強さを限定しない中立的な「影響を与える」で、*overwhelm* のような圧倒・処理困難の含みはない。  
-例: The experience affected her deeply.  
-訳: その経験は彼女に深い影響を与えた。  
-
-・engulf  
-定義: 感情や状況が人を完全に包み込み、逃れにくくする。  
-頻度: 〈6/10〉  
-違い: 感情にすっかり包まれる比喩が中心で、*overwhelm* よりも「全体を覆う」イメージが強い。  
-例: He was engulfed by a wave of panic.  
-訳: 彼はパニックの波にすっかりのみ込まれた。  
-
-【反意語】
-
-・remain composed  
-定義: 強い感情や出来事の中でも、平静さを保つ。  
-頻度: 〈6/10〉  
-違い: *overwhelm* が平静さを失わせるのに対し、感情を制御して落ち着いたままでいる。  
-例: She remained composed despite the unexpected criticism.  
-訳: 予想外の批判にもかかわらず、彼女は平静を保った。  
-
-・remain unmoved  
-定義: 出来事や訴えによって感情を動かされない。  
-頻度: 〈6/10〉  
-違い: *overwhelm* のように強い心理的影響を受けるのではなく、感情的な反応を示さない。  
-例: The judge remained unmoved by the emotional appeal.  
-訳: 裁判官はその感情的な訴えにも動かされなかった。  
-
-2. 【他動詞】（仕事・情報・要求などを）多すぎて人・組織・システムが処理できない状態にする、圧倒する
-
-【日本語訳・定義】仕事、情報、質問、依頼、顧客、通信量などの量や勢いが許容量を超え、人・チーム・組織・機械がすべてを処理することを難しくする。必ずしも強い感情を伴わず、「多すぎて手に負えない」という能力・資源上の限界を表す。人が主語になる場合は、相手に情報や質問を一度に多く与える意味になる。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準的。仕事、教育、医療、IT、行政、顧客対応など幅広い領域で使う。この語義では、量や流入を主語にする能動文で構造を理解すると分かりやすい。受動・状態表現は語義5で扱う。  
-
-【文法パターン】*work/information/requests + overwhelm + someone*＝仕事・情報・要求が人を処理不能にする／*overwhelm someone with 〈物〉*＝人に物を過剰に与える／*overwhelm a system/server/service with 〈traffic/data〉*＝通信量・データでシステムを過負荷にする／*the amount/volume/number of 〈O〉 + overwhelm + someone/organization*＝量・数・規模が人・組織を処理不能にする／*not overwhelm the reader with 〈情報〉*＝読者に情報を詰め込みすぎない  
-
-【コロケーション】
-
-・work/tasks + overwhelm + someone  
-用途: 仕事や作業の量が多すぎて人を処理不能にする。実際の用例では *be overwhelmed with/by 〈仕事・情報〉* のような受動・状態表現も非常に多いが、語義5で扱う。  
-例: This week's workload is overwhelming me, so I need help prioritizing it.  
-訳: 今週の仕事量は私を圧倒しているので、優先順位付けを手伝ってほしい。  
-
-・requests/demand + overwhelm + 〈組織・サービス〉  
-用途: 依頼や需要が予想以上に殺到し、組織・サービスを処理不能にする。  
-例: A surge in appointment requests overwhelmed the clinic.  
-訳: 予約依頼の急増がその診療所の対応能力を超えた。  
-
-・overwhelm someone with information/details  
-用途: 相手が整理できないほど大量の情報や詳細を一度に与える。  
-例: Do not overwhelm new users with technical details on the first page.  
-訳: 最初のページで新規利用者に技術的な詳細を詰め込みすぎてはいけない。  
-
-・overwhelm someone with questions  
-用途: 相手が答えを整理できないほど質問を次々に浴びせる。  
-例: The reporters overwhelmed the witness with questions.  
-訳: 記者たちはその証人に質問を浴びせ、対応しきれない状態にした。  
-
-・overwhelm a system/server with traffic  
-用途: アクセスや通信量が処理能力を超え、システムを機能不全にする。  
-例: A sudden surge in visitors overwhelmed the website's servers.  
-訳: 訪問者の急増がウェブサイトのサーバーを処理能力超過に追い込んだ。  
-
-・the amount/volume of 〈名詞〉 + overwhelm + team/organization  
-用途: 情報、書類、作業などの総量が処理能力を超えることを示す。  
-例: The volume of data overwhelmed the review team.  
-訳: データ量の多さが確認チームの処理能力を超えた。  
-
-・the number of 〈複数名詞〉 + overwhelm + someone  
-用途: 選択肢、応募、問い合わせなど、個数の多さが人の処理能力を超える。  
-例: The number of choices on the menu overwhelmed her.  
-訳: メニューの選択肢の多さが彼女を圧倒した。  
-
-・overwhelm resources/services  
-用途: 需要や利用者が資源・公共サービスの供給能力を超える。  
-例: The influx of patients overwhelmed local medical services.  
-訳: 患者の流入が地域の医療サービスの対応能力を超えた。  
-
-【語法・注意】この意味の中心は「忙しい」ではなく「処理能力・資源を超える」である。*overload* は機械・人に過剰な負荷をかける技術的な語、*inundate* は連絡・依頼などを大量に送りつける硬い語、*swamp* は処理不能にするという結果を強く示す口語的な語である。*overwhelm someone with information* は「情報を一度に多く与えすぎる」で、情報の内容が感情的である必要はない。量や流入を主語にする能動文では、*The workload overwhelmed me.* のように直接目的語を置く。受動・状態の *be overwhelmed with/by* は語義5に集約する。*overwhelm to someone*、*overwhelm someone of work* とはせず、*overwhelm someone with work* とする。  
-
-【類義語】
-
-・overload  
-定義: 人・機械・システムに許容量を超える負荷をかける。  
-頻度: 〈8/10〉  
-違い: 負荷・容量の超過という技術的・運用的な意味が明確。*overwhelm* より、原因と容量の関係を客観的に述べやすい。  
-例: Too many simultaneous requests overloaded the server.  
-訳: 同時に多すぎるリクエストがサーバーに過負荷をかけた。  
-
-・inundate  
-定義: 大量の問い合わせ、手紙、依頼などを人や組織に送りつける。  
-頻度: 〈6/10〉  
-違い: 非常に多くのものが一気に押し寄せることに焦点があり、硬い文章で使いやすい。水で「浸水させる」意味もある。  
-例: The office was inundated with complaints after the announcement.  
-訳: 発表後、その事務所には苦情が殺到した。  
-
-・swamp  
-定義: 仕事・依頼・情報などを大量に与え、処理不能にする。  
-頻度: 〈7/10〉  
-違い: *overwhelm* より口語的で、処理が追いつかず身動きが取れない結果を強く示す。  
-例: We were swamped with customer emails all morning.  
-訳: 私たちは午前中ずっと顧客メールに追われた。  
-
-・overburden  
-定義: 人・組織・制度に過大な負担を負わせる。  
-頻度: 〈6/10〉  
-違い: 一時的な殺到よりも、責任・費用・仕事などの重い負担を継続的に負わせる含みがある。  
-例: The new rules could overburden small businesses.  
-訳: 新しい規則は小規模企業に過大な負担を負わせる可能性がある。  
-
-・flood  
-定義: 大量の物や情報を人・場所・組織へ一気に送り込む。  
-頻度: 〈9/10〉  
-違い: 比喩的な「殺到させる」に広く使える。*overwhelm* のように、受け手が処理不能になる結果を必ずしも含まない。  
-例: The campaign flooded social media with advertisements.  
-訳: そのキャンペーンはソーシャルメディアに広告を大量に流した。  
-
-【反意語】
-
-・manageable  
-定義: 適切な努力や資源があれば処理・対処できる。  
-頻度: 〈7/10〉  
-違い: *overwhelm* が許容量を超えさせるのに対し、負荷や問題が現実的に扱える範囲に収まっていることを表す。  
-例: The workload is manageable if we divide it among three people.  
-訳: 3人で分担すれば、その仕事量は処理可能だ。  
-
-・keep up with 〈O〉  
-定義: 入ってくる仕事、情報、要求などに遅れず対応する。  
-頻度: 〈8/10〉  
-違い: *overwhelm* が処理を追いつかなくさせるのに対し、*keep up with* は流入に対応し続ける能力・状態を表す。  
-例: The team expanded so it could keep up with incoming requests.  
-訳: そのチームは入ってくる依頼に対応し続けられるよう、規模を拡大した。  
-
-3. 【他動詞】（力・数・勢いで）相手を完全に打ち負かす、制圧する
-
-【日本語訳・定義】軍隊、選手、対戦相手、競争相手などを、優れた力・人数・速度・圧力によって完全に打ち負かす。単に勝つだけでなく、相手が有効に抵抗・反応できないほど一方的に支配する含みがある。人だけでなく、守備、抵抗、競合サービスなどを目的語に取ることもある。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準的。軍事、スポーツ、政治、競争、報道でよく使う。勝敗の差や圧倒的な勢いを強調する表現で、単純な勝敗報告より強い。  
-
-【文法パターン】*army/team + overwhelm + opponent/enemy*＝軍隊・チームが相手を圧倒する／*overwhelm someone/something with/by 〈force/numbers〉*＝力・数で制圧する／*be overwhelmed by 〈superior force/numbers〉*＝優勢な力・数に制圧される／*overwhelm the defense/resistance*＝守備・抵抗を完全に崩す／*overwhelm a rival in 〈competition〉*＝競争でライバルを圧倒する  
-
-【コロケーション】
-
-・overwhelm an opponent/rival  
-用途: 試合・競争で相手を一方的に支配して勝つ。  
-例: The champion overwhelmed his opponent from the opening round.  
-訳: その王者は開始ラウンドから相手を圧倒した。  
-
-・overwhelm the enemy/rebels  
-用途: 軍事的な力や人数で敵を制圧する。  
-例: Government forces overwhelmed the rebels and regained control of the city.  
-訳: 政府軍は反乱軍を制圧し、都市の支配を取り戻した。  
-
-・overwhelm a defense/defensive line  
-用途: 攻撃の強さや多さで守備を崩す。  
-例: The attackers overwhelmed the defense with speed and constant pressure.  
-訳: 攻撃側はスピードと絶え間ない圧力で守備を圧倒した。  
-
-・overwhelm someone with numbers/force  
-用途: 人数や物理的な力を手段として明示する。  
-例: The smaller unit was overwhelmed by the enemy's superior numbers.  
-訳: 小規模な部隊は敵の圧倒的な人数に制圧された。  
-
-・overwhelm resistance/opposition  
-用途: 反対勢力や抵抗を押し切り、機能させなくする。  
-例: The public campaign overwhelmed opposition to the reform.  
-訳: その世論運動は改革への反対を押し切った。  
-
-・overwhelm a competitor in 〈分野・競争〉  
-用途: 市場や競技で競争相手を大差で上回る。  
-例: The new service overwhelmed its competitors in the first year.  
-訳: その新サービスは初年度に競合他社を圧倒した。  
-
-・be completely/totally overwhelmed  
-用途: 相手が完全に制圧された結果を強調する。  
-例: The visiting team was completely overwhelmed in the second half.  
-訳: 来訪チームは後半に完全に圧倒された。  
-
-【語法・注意】主語が部隊・チームなどの組織や、守備・抵抗などの物である受動表現は、人の心理状態を表す語義5には入らないため、この語義で扱う。*defeat* は勝敗の事実を広く表す中立語、*overpower* はより強い力で制御・制圧すること、*overwhelm* は力・人数・勢いの差によって相手が抵抗できないほどの一方的な結果を強調する。*crush* はさらに強く、相手を完全に打ちのめす口語的・比喩的な響きがある。*overwhelm someone with numbers* のように手段を *with* で示せるが、受動態では *be overwhelmed by superior numbers* が自然である。スポーツでは必ずしも相手を物理的に傷つける意味ではなく、試合を圧倒するという比喩である。  
-
-【類義語】
-
-・defeat  
-定義: 試合、戦闘、選挙、競争などで相手に勝つ。  
-頻度: 〈10/10〉  
-違い: 最も中立的で、勝敗の結果だけを述べられる。*overwhelm* のような一方的な勢いは必須ではない。  
-例: The home team defeated its rivals 2–1.  
-訳: ホームチームはライバルを2対1で破った。  
-
-・overpower  
-定義: より大きな力で相手を打ち負かし、制御する。  
-頻度: 〈8/10〉  
-違い: 物理的な力・支配力に焦点があり、人数や攻撃の波が押し寄せる感じは *overwhelm* の方が出やすい。  
-例: The police overpowered the armed suspect.  
-訳: 警察は武装した容疑者を制圧した。  
-
-・crush  
-定義: 相手を完全に打ち負かす、惨敗させる。  
-頻度: 〈9/10〉  
-違い: 非常に強く、口語的・比喩的。*overwhelm* より勝敗の決定的な大差や相手の惨敗を強く感じさせる。  
-例: The underdogs crushed the league leaders 5–0.  
-訳: 下位チームは首位チームを5対0で完膚なきまでに破った。  
-
-・rout  
-定義: 敵軍やチームを完全に打ち破り、敗走・大敗させる。  
-頻度: 〈5/10〉  
-違い: 軍事・スポーツで、相手が秩序を失って逃げるほどの決定的敗北を表す硬い語。  
-例: The army routed the invading force.  
-訳: その軍隊は侵攻軍を敗走させた。  
-
-・dominate  
-定義: 競争や試合で相手を長時間・全面的に支配する。  
-頻度: 〈9/10〉  
-違い: 一回の決定的な打撃より、優位な状態を継続することに焦点がある。  
-例: The midfielder dominated the game from start to finish.  
-訳: そのミッドフィールダーは試合開始から終了まで試合を支配した。  
-
-【反意語】
-
-・resist  
-定義: 攻撃、圧力、支配に逆らい、持ちこたえる。  
-頻度: 〈9/10〉  
-違い: *overwhelm* が抵抗を崩すのに対し、相手の力に屈せず対抗する過程を表す。  
-例: The defenders resisted the attack for several hours.  
-訳: 守備隊は数時間にわたって攻撃に抵抗した。  
-
-・withstand  
-定義: 強い力、攻撃、圧力を受けても耐え抜く。  
-頻度: 〈7/10〉  
-違い: 攻撃を退けるとは限らないが、*overwhelm* の圧力を受けても崩れないことを表す。  
-例: The barrier withstood the force of the waves.  
-訳: その防壁は波の力に耐えた。  
-
-・repel  
-定義: 攻撃者や攻撃を押し返し、近づけない。  
-頻度: 〈7/10〉  
-違い: 単に耐えるだけでなく、相手を退けて攻撃を失敗させる方向性がある。  
-例: The defenders repelled the first assault.  
-訳: 守備側は最初の攻撃を撃退した。  
-
-4. 【他動詞・文語的】（水・波・洪水などが）～を覆う、のみ込む、水没させる；（比喩的に）押し寄せて包む
-
-【日本語訳・定義】水、波、洪水などの物理的な力が、場所・船・建物などを完全に覆い、のみ込むことを表す。火、煙、暗闇、騒音などが対象を押し包む比喩にも使えるが、現代の中立的な説明では *flood, submerge, engulf* の方が普通である。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】文語的・文学的、または報道・災害描写。一般会話では頻度が低い。物理的な被害を正確に説明する場合は、より具体的な *flood* や *submerge* を使うことが多い。  
-
-【文法パターン】*wave/floodwater + overwhelm + boat/town/land*＝波・洪水が船・町・土地をのみ込む／*be overwhelmed by 〈water/flooding〉*＝水に覆われる／*overwhelm a levee/barrier*＝水の勢いで堤防・防壁を破る／*darkness/silence + overwhelm + place*＝暗闇・静けさが場所を包む  
-
-【コロケーション】
-
-・be overwhelmed by floodwater/flooding  
-用途: 洪水によって土地・建物・地域が覆われる。  
-例: Several low-lying neighborhoods were overwhelmed by floodwater.  
-訳: いくつかの低地の地区が洪水にのみ込まれた。  
-
-・a wave + overwhelm + a boat  
-用途: 大波が船を覆い、転覆・水没の危険にさらす。  
-例: A sudden wave overwhelmed the fishing boat.  
-訳: 突然の波が漁船をのみ込んだ。  
-
-・overwhelm a levee/barrier  
-用途: 水の量や勢いが堤防・防壁の能力を超える。  
-例: The river rose rapidly and overwhelmed the temporary levee.  
-訳: 川の水位が急上昇し、仮設の堤防を越えた。  
-
-・be overwhelmed by the sea  
-用途: 海水に覆われる、または海の力にのみ込まれることを文学的に表す。  
-例: The abandoned road was gradually overwhelmed by the sea.  
-訳: 放棄された道路は徐々に海にのみ込まれていった。  
-
-・darkness/silence + overwhelm + 〈場所〉  
-用途: 暗闇や静けさが場所をすっかり包む比喩。  
-例: As the last lights disappeared, darkness overwhelmed the valley.  
-訳: 最後の明かりが消えると、暗闇が谷を包み込んだ。  
-
-【語法・注意】主語が船・町・土地・道路などの物理的対象である受動表現は、人の心理状態を表す語義5には入らないため、この語義で扱う。この物理義は他動詞で、*The wave overwhelmed the boat.* のように対象を直接目的語に取る。通常の地理説明で *The hills overwhelmed the town.* とすると「町を圧倒した」という比喩的な響きが出やすく、「取り囲んだ」なら *surrounded* が明確である。水が対象を覆う意味では *flood* が最も一般的、完全に水中へ入れる意味では *submerge*、周囲から包む意味では *engulf* が使いやすい。力・数で相手を制圧する語義3とは、目的語が建物・土地・船などで、覆う物理的な出来事である点が異なる。  
-
-【類義語】
-
-・flood  
-定義: 大量の水で場所を覆う、または水が場所に入り込む。  
-頻度: 〈10/10〉  
-違い: 水害について最も一般的で明確。*overwhelm* より文学性が低く、実際の浸水を直接述べられる。  
-例: Heavy rain flooded the streets overnight.  
-訳: 大雨で一晩のうちに道路が冠水した。  
-
-・submerge  
-定義: 物を完全に水中へ沈める、沈む。  
-頻度: 〈7/10〉  
-違い: 「水で覆う」よりも、対象が水面下に入る結果に焦点がある。  
-例: The rising river submerged the lower fields.  
-訳: 増水した川が低地の畑を水没させた。  
-
-・engulf  
-定義: 水、炎、煙、暗闇などが対象をすっかり包み込む。  
-頻度: 〈7/10〉  
-違い: 覆い尽くす範囲と逃れにくさを強く示し、水以外の比喩にも自然に使える。  
-例: Flames engulfed the warehouse within minutes.  
-訳: 数分のうちに炎が倉庫を包み込んだ。  
-
-・inundate  
-定義: 水で土地を浸す、または大量の物を一気に押し寄せさせる。  
-頻度: 〈6/10〉  
-違い: 水の意味では硬く、比喩では問い合わせ・依頼などの大量流入に使う。*overwhelm* より用途が限定されやすい。  
-例: Spring floods inundate the plain every year.  
-訳: 春の洪水は毎年その平野を水浸しにする。  
-
-5. 【形容詞・過去分詞形／叙述・限定】圧倒されている、処理しきれない、感情に打ちのめされている
-
-【日本語訳・定義】人が強い感情、多すぎる仕事・情報、困難な状況、圧倒的な相手などの影響を受け、平静に対処できない状態を表す。動詞 *overwhelm* の受動態と形が同じだが、*feel/be/get overwhelmed* では結果としての心理状態を表す形容詞として使われる。文脈によって「感動で胸がいっぱい」「仕事で手に負えない」「相手に完敗した」のいずれにもなる。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】標準的で非常に一般的。日常会話、仕事、育児、医療、心理、報道で使う。特に自分の状態を説明する *I feel overwhelmed.* が頻出する。  
-
-【文法パターン】*feel/be/seem/become/get overwhelmed*＝圧倒された状態である・なる／*be overwhelmed by 〈原因〉*＝原因に圧倒されている／*be overwhelmed with 〈仕事・感情〉*＝仕事・感情でいっぱいである／*an overwhelmed 〈人・チーム〉*＝圧倒されている人・チーム／*be emotionally overwhelmed*＝感情的に圧倒されている／*be completely/totally overwhelmed*＝完全に手に負えない状態である  
-
-【コロケーション】
-
-・feel/be overwhelmed  
-用途: 原因を具体的に言わず、圧倒された現在の状態を述べる。  
-例: I felt overwhelmed when I first started the new job.  
-訳: 新しい仕事を始めたばかりの頃、私は圧倒されて手に負えないと感じた。  
-
-・get/become overwhelmed by work  
-用途: 仕事が増え、処理できない状態になる・なっている。  
-例: She gets overwhelmed by work when several deadlines coincide.  
-訳: 複数の締切が重なると、彼女は仕事に追われてしまう。  
-
-・be overwhelmed with emotion  
-用途: 強い感情が一気にこみ上げ、平静に反応できない。  
-例: He was overwhelmed with emotion during the farewell ceremony.  
-訳: 彼は送別式の間、感情がこみ上げて胸がいっぱいになった。  
-
-・be overwhelmed by the response/support  
-用途: 予想以上の反応や支援に感動し、言葉を失う。  
-例: The author said she was overwhelmed by the readers' support.  
-訳: その作家は読者の支援に胸がいっぱいになったと語った。  
-
-・be overwhelmed by the amount/number of 〈名詞〉  
-用途: 量や選択肢の多さに対処できない。  
-例: New students can feel overwhelmed by the amount of information they receive.  
-訳: 新入生は受け取る情報量の多さに圧倒されることがある。  
-
-・an overwhelmed parent/employee/team  
-用途: 仕事・責任・状況に対応できない人や集団を名詞の前で修飾する。  
-例: The support program was designed for overwhelmed caregivers.  
-訳: その支援プログラムは負担に押しつぶされそうな介護者向けに設計された。  
-
-・be emotionally overwhelmed  
-用途: 情報量や仕事量ではなく、感情の強さによる状態だと明示する。  
-例: She was emotionally overwhelmed but still tried to thank the volunteers.  
-訳: 彼女は感情に圧倒されていたが、それでもボランティアに感謝を伝えようとした。  
-
-・not let oneself get overwhelmed  
-用途: 圧倒された状態にならないよう、自分を管理する。  
-例: I write down the next small step so I do not get overwhelmed.  
-訳: 手に負えなくならないよう、次にする小さな一歩を書き出している。  
-
-【語法・注意】*overwhelmed* は「圧倒する側」を表す *overwhelming* と対になる。*The workload is overwhelming.* は「仕事量が圧倒的で手に負えない」、*I am overwhelmed by the workload.* は「私はその仕事量に圧倒されている」である。原因には *by*、仕事や感情で満たされる感じには *with* がよく使われる。*overwhelmed of work* は誤りで、*overwhelmed with/by work* とする。単に忙しいだけなら *busy*、仕事量が多く処理不能なら *overwhelmed* が適切である。肯定的な出来事にも使えるため、必ずしも「精神的に悪い状態」とは限らない。  
-
-【類義語】
-
-・overloaded  
-定義: 仕事、責任、情報などの負荷が許容量を超えている。  
-頻度: 〈7/10〉  
-違い: 容量・負担の超過に焦点があり、強い感動や喜びで胸がいっぱいという意味には通常使わない。  
-例: The team is overloaded with administrative work.  
-訳: そのチームは事務作業を抱えすぎている。  
-
-・overburdened  
-定義: 責任、仕事、費用などを過大に負わされている。  
-頻度: 〈6/10〉  
-違い: 継続的で重い負担を強調する硬い語。*overwhelmed* より感情的な圧倒を表しにくい。  
-例: Many small clinics are overburdened by paperwork.  
-訳: 多くの小規模診療所が書類業務に過重な負担を負わされている。  
-
-・swamped  
-定義: 仕事や依頼が殺到して、処理しきれない。  
-頻度: 〈7/10〉  
-違い: 口語的で、目の前の仕事に追われている感じが強い。感動や喜びには使わない。  
-例: I am swamped with emails today.  
-訳: 今日はメールに追われている。  
-
-・overcome  
-定義: 強い感情に打ちのめされ、平静を保てない。  
-頻度: 〈9/10〉  
-違い: 感情面に限定されやすく、仕事や情報の処理不能には通常 *overwhelmed* を使う。  
-例: She was overcome with relief after the surgery.  
-訳: 彼女は手術後、安堵のあまり胸がいっぱいになった。  
-
-・stunned  
-定義: 驚きや衝撃で一時的に言葉や判断を失っている。  
-頻度: 〈8/10〉  
-違い: 驚き・衝撃が中心で、長時間の仕事量や複雑さによる処理不能を表す語ではない。  
-例: He was stunned by the unexpected result.  
-訳: 彼は予想外の結果にぼうぜんとした。  
-
-【反意語】
-
-・composed  
-定義: 強い感情の中でも落ち着き、平静を保っている。  
-頻度: 〈7/10〉  
-違い: *overwhelmed* が感情に押し流される状態なのに対し、自分の反応を制御できている。  
-例: She remained composed throughout the difficult interview.  
-訳: 彼女は難しい面接の間ずっと平静を保った。  
-
-・in control  
-定義: 状況、仕事、感情などを自分で管理できている。  
-頻度: 〈9/10〉  
-違い: *overwhelmed* の「処理しきれない」という状態に対する日常的な反対表現である。  
-例: A clear schedule helped me feel in control again.  
-訳: 明確な予定表のおかげで、私は再び状況を管理できていると感じた。  
-
-・unaffected  
-定義: 出来事や感情の影響を受けていない。  
-頻度: 〈7/10〉  
-違い: *overwhelmed* のような強い心理的影響がなく、感情を乱されていないことを表す。  
-例: He seemed unaffected by the criticism.  
-訳: 彼はその批判に動じていないようだった。  
-
-6. 【形容詞・現在分詞形／限定・叙述】非常に強い・大きい、圧倒的な、抗しがたい
-
-【日本語訳・定義】力、規模、数、程度、証拠、支持、感情などが非常に大きく強く、相手が抵抗したり、無視したり、冷静に判断したりすることが難しいほどであることを表す。否定的なものだけでなく、*overwhelming support*「圧倒的な支持」のように肯定的なものにも使う。*overwhelming majority* は「圧倒的多数」であり、必ずしも感情的な圧力を意味しない。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】標準的で高頻度。会話、報道、評論、ビジネス、選挙、学術、広告で使う。名詞の前に置く限定用法が特に多く、叙述用法では経験や状況の強烈さを表す。  
-
-【文法パターン】*an overwhelming 〈名詞〉*＝圧倒的な・非常に強い～／*be/seem/become overwhelming*＝圧倒的である・なる／*overwhelming for 〈人〉*＝人にとって手に負えないほど強い／*an overwhelming majority/amount/number*＝圧倒的多数・量・数／*almost/completely/quite overwhelming*＝程度を調整する／*overwhelmingly 〈形容詞・過去分詞〉*＝圧倒的に～  
-
-【コロケーション】
-
-・an overwhelming majority  
-用途: 賛成者・該当者などが、反対側を大きく上回ることを表す。  
-例: An overwhelming majority of members supported the proposal.  
-訳: 圧倒的多数の会員がその提案を支持した。  
-
-・overwhelming evidence  
-用途: 反論しにくいほど量・説得力のある証拠を表す。  
-例: The investigation uncovered overwhelming evidence of fraud.  
-訳: 調査によって不正の圧倒的な証拠が明らかになった。  
-
-・overwhelming support  
-用途: 多数の人から寄せられる非常に強い支持を表す。  
-例: The relief effort received overwhelming support from local residents.  
-訳: その救援活動は地元住民から圧倒的な支持を受けた。  
-
-・an overwhelming desire/urge  
-用途: 抑えにくいほど強い願望・衝動を表す。  
-例: She felt an overwhelming desire to tell the truth.  
-訳: 彼女は真実を話したいという抑えがたい欲求を感じた。  
-
-・an overwhelming sense of 〈感情〉  
-用途: 安堵、喪失、責任などの感覚が非常に強いことを示す。  
-例: He experienced an overwhelming sense of relief after the test.  
-訳: 彼は検査の後、圧倒的な安堵感を覚えた。  
-
-・an overwhelming victory  
-用途: 勝利の差・規模が非常に大きいことを表す。  
-例: The party won an overwhelming victory in the election.  
-訳: その政党は選挙で圧勝した。  
-
-・an overwhelming amount/number of 〈名詞〉  
-用途: 量や数が多すぎて処理・判断が難しいことを表す。  
-例: The archive contains an overwhelming amount of material.  
-訳: その資料館にはあまりにも大量の資料がある。  
-
-・the experience was overwhelming  
-用途: 出来事自体が強烈で、経験者が容易に処理・表現できないことを述べる。  
-例: Standing on the summit for the first time was overwhelming.  
-訳: 初めて山頂に立った経験は圧倒されるほど強烈だった。  
-
-【語法・注意】*overwhelming* は「圧倒する原因・性質」、*overwhelmed* は「圧倒された人の状態」である。*The evidence was overwhelming.* は証拠の説得力が極めて強い、*The lawyer was overwhelmed by the evidence.* は弁護士がその証拠に圧倒された、という違いになる。*overwhelming majority* は割合の大きさ、*overwhelming desire* は心理的な強さ、*overwhelming amount* は量の多さを表す。*very overwhelming* も文法的だが、通常は *extremely*、*almost*、*quite* など文脈に合う程度副詞を選ぶ。限定用法では通常1語で *an overwhelming victory* と綴り、ハイフンは不要である。  
-
-【類義語】
-
-・overpowering  
-定義: 力、感情、におい、印象などが非常に強く、抵抗・制御しにくい。  
-頻度: 〈7/10〉  
-違い: 感覚や感情を直接押さえつける強さに焦点がある。*overwhelming* より物理的・感覚的な強さを表しやすい。  
-例: The heat was overpowering even in the shade.  
-訳: 日陰でも暑さは圧倒的だった。  
-
-・intense  
-定義: 感情、活動、痛み、経験などの程度が非常に強い。  
-頻度: 〈9/10〉  
-違い: 強度を客観的に述べる広い語で、*overwhelming* のように処理不能・抗しがたい含みは必須ではない。  
-例: The course involved intense physical training.  
-訳: その課程には激しい身体訓練が含まれていた。  
-
-・immense  
-定義: 大きさ、量、価値、影響などが非常に大きい。  
-頻度: 〈8/10〉  
-違い: 規模の大きさに焦点があり、人を圧倒して反応不能にする意味は必須ではない。  
-例: The project required an immense amount of funding.  
-訳: そのプロジェクトには莫大な資金が必要だった。  
-
-・crushing  
-定義: 希望、抵抗、意欲などを打ち砕くほど強く重い。  
-頻度: 〈7/10〉  
-違い: 特に敗北、失望、負担、悲しみなど否定的な影響が重くのしかかる場合に自然である。  
-例: The team suffered a crushing defeat in the final.  
-訳: そのチームは決勝で惨敗を喫した。  
-
-・compelling  
-定義: 強い説得力や魅力があり、無視・抵抗しにくい。  
-頻度: 〈8/10〉  
-違い: 証拠・理由・物語などの説得力に焦点があり、単なる量や感情の強さには使いにくい。  
-例: The report presents a compelling case for reform.  
-訳: その報告書は改革の必要性を説得力をもって示している。  
-
-・staggering  
-定義: 数、規模、費用、事実などがあまりに大きく驚くべきである。  
-頻度: 〈7/10〉  
-違い: 大きさへの驚き・困惑を強く示す。*overwhelming* のような支持・感情・抵抗不能の意味は文脈依存である。  
-例: The report revealed a staggering loss of biodiversity.  
-訳: その報告書は生物多様性の驚くべき喪失を明らかにした。  
-
-【反意語】
-
-・modest  
-定義: 大きすぎず、控えめな程度・規模である。  
-頻度: 〈8/10〉  
-違い: 規模・量の「圧倒的な」に対する程度上の反対。感情や証拠の強さには必ずしも対応しない。  
-例: The project began with a modest budget.  
-訳: そのプロジェクトは控えめな予算で始まった。  
-
-・manageable  
-定義: 適切な努力や資源があれば対処できる。  
-頻度: 〈7/10〉  
-違い: 仕事量・問題・状況が「圧倒的で手に負えない」ことに対する実用的な反対語である。  
-例: Breaking the task into steps made it manageable.  
-訳: 作業を段階に分けると対処可能になった。  
-
-・underwhelming  
-定義: 期待したほど強くなく、感銘や興奮を与えない。  
-頻度: 〈6/10〉  
-違い: 印象・感銘の評価軸での反対語。規模や量が小さいという意味に必ずしもならない。  
-例: The sequel was visually impressive but emotionally underwhelming.  
-訳: 続編は映像的には印象的だったが、感情面では期待外れだった。  
-
-7. 【副詞】圧倒的に、圧倒するほど、圧倒的な差で
-
-【日本語訳・定義】投票、支持、勝敗、評価などが非常に大きな差で一方に傾いていること、または程度・強さが圧倒的であることを表す。多くの場合、単なる「非常に」よりも、多数・大差・明白な優勢という意味を含む。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準的。報道、政治、選挙、スポーツ、調査、評論でよく使う。会話でも使えるが、結果を客観的・強調的に述べる響きがある。  
-
-【文法パターン】*vote/win/approve overwhelmingly*＝圧倒的な差で投票・勝利・承認する／*be overwhelmingly 〈形容詞・過去分詞〉*＝圧倒的に～である／*overwhelmingly in favor of/against 〈名詞〉*＝圧倒的に賛成・反対で／*overwhelmingly positive/negative*＝評価が圧倒的に肯定的・否定的／*overwhelmingly likely*＝圧倒的に可能性が高い  
-
-【コロケーション】
-
-・vote overwhelmingly for/against 〈案〉  
-用途: 投票結果が大差で賛成・反対に傾いたことを表す。  
-例: Residents voted overwhelmingly against the proposed highway.  
-訳: 住民は提案された高速道路に圧倒的多数で反対票を投じた。  
-
-・be overwhelmingly in favor of 〈O〉  
-用途: 世論や集団の大多数が強く賛成していることを示す。  
-例: The survey respondents were overwhelmingly in favor of the change.  
-訳: 調査回答者の圧倒的多数がその変更に賛成だった。  
-
-・win overwhelmingly  
-用途: 選挙・試合・競争で圧倒的な差をつけて勝つ。  
-例: The incumbent won overwhelmingly in the final count.  
-訳: 現職候補は最終集計で圧倒的な差をつけて勝利した。  
-
-・be overwhelmingly positive/negative  
-用途: 反応・評価の大部分が明確に肯定的・否定的である。  
-例: Early reviews of the book were overwhelmingly positive.  
-訳: その本の初期の書評は圧倒的に好意的だった。  
-
-・be overwhelmingly likely to do  
-用途: ある結果になる可能性が他の可能性を大きく上回ることを表す。  
-例: The evidence makes it overwhelmingly likely that the fire was accidental.  
-訳: その証拠から、火災が事故だった可能性が圧倒的に高い。  
-
-・support 〈O〉 overwhelmingly  
-用途: 集団が対象を圧倒的な多数で支持することを表す。  
-例: Shareholders supported the merger overwhelmingly.  
-訳: 株主はその合併を圧倒的多数で支持した。  
-
-【語法・注意】*an overwhelming majority* は形容詞＋名詞、*vote overwhelmingly* は副詞が動詞を修飾する形である。したがって *overwhelmingly majority* とは言わず、*overwhelming majority* とする。*overwhelmingly* は必ずしも正確な割合を示さず、「大差で」「ほぼ全面的に」という話者の評価を表す。投票・支持では *overwhelmingly in favor of*、勝敗では *win overwhelmingly* が自然で、単に強調したいだけなら *very strongly* などの方が平易な場合もある。  
-
-【類義語】
-
-・decisively  
-定義: 勝敗や判断を明確に決める形で、決定的に。  
-頻度: 〈7/10〉  
-違い: 結果を決定づける明確さに焦点がある。必ずしも大差や多数を意味しない。  
-例: The proposal was decisively rejected.  
-訳: その提案は明確に退けられた。  
-
-・resoundingly  
-定義: 勝利・承認・支持などが非常に明白で、圧倒的に。  
-頻度: 〈5/10〉  
-違い: *overwhelmingly* に近いが、勝利や成功を力強く称賛する修辞的な響きがある。  
-例: The candidate was resoundingly defeated.  
-訳: その候補者は大差で敗北した。  
-
-・predominantly  
-定義: 大部分が、主として。  
-頻度: 〈7/10〉  
-違い: 構成比の大きさを客観的に示す語で、*overwhelmingly* のような圧倒的な大差や強調は必須ではない。  
-例: The audience was predominantly made up of students.  
-訳: 聴衆の大部分は学生で構成されていた。  
-
-・by a wide margin  
-定義: 大きな差をつけて。  
-頻度: 〈7/10〉  
-違い: 勝敗・投票などの差を具体的に示す句。*overwhelmingly* より結果の差に焦点があり、形容詞を修飾しない。  
-例: She won the election by a wide margin.  
-訳: 彼女は大差で選挙に勝った。  
-
-【反意語】
-
-・narrowly  
-定義: わずかな差で、かろうじて。  
-頻度: 〈8/10〉  
-違い: *overwhelmingly* の大差に対する、勝敗・投票差の程度上の反対語である。  
-例: The bill passed narrowly in the final vote.  
-訳: その法案は最終投票で僅差で可決された。  
-
-・marginally  
-定義: わずかに、ほんの少しだけ。  
-頻度: 〈7/10〉  
-違い: 支持率・数値・評価などの差が小さいことを示す。勝敗以外の数量比較にも使える。  
-例: The revised model is only marginally faster.  
-訳: 改良版の速度はわずかに速いだけだ。  
-
-・evenly  
-定義: 差がほとんどなく、均等に・互角に。  
-頻度: 〈8/10〉  
-違い: 賛否・勢力・勝負が一方に圧倒的に偏らず、均衡していることを表す。  
-例: The teams were evenly matched throughout the game.  
-訳: 両チームは試合を通じて互角だった。  
-
-8. 【不可算名詞・主に現代的／やや口語的】対処できないほど圧倒された状態、圧倒感
-
-【日本語訳・定義】仕事、情報、責任、感情などが多すぎたり強すぎたりして、対処できないと感じる状態そのものを表す。*overwhelmed* の状態を名詞化した用法で、心理、セルフケア、自己啓発、現代の評論などで見られるが、すべての辞書・文体で同じ程度に定着しているわけではない。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】現代的・やや口語的。心理やセルフケアの文章、個人の体験談で増えている。一方、正式な報告書や一般的な文章では *being overwhelmed*、*a feeling of being overwhelmed*、*stress* などの方が無難である。  
-
-【文法パターン】*a sense/feeling of overwhelm*＝圧倒感／*cope with overwhelm*＝圧倒された状態に対処する／*in the midst of overwhelm*＝圧倒された状態のさなかに／*move through overwhelm*＝圧倒感を経験しながら乗り越える／*overwhelm can make 〈O〉 feel 〈形容詞〉*＝圧倒感によってOが～に感じられる  
-
-【コロケーション】
-
-・a sense/feeling of overwhelm  
-用途: 圧倒されている感覚を名詞句として述べる。  
-例: A sense of overwhelm made it hard for him to decide where to begin.  
-訳: 圧倒された感覚のため、彼はどこから始めるか決めるのが難しかった。  
-
-・cope with overwhelm  
-用途: 仕事・情報・感情などによる圧倒感に対処する。  
-例: The workshop offers practical ways to cope with overwhelm.  
-訳: その講座は圧倒感に対処する実践的な方法を紹介している。  
-
-・in the midst of overwhelm  
-用途: 圧倒されている状態の最中を、やや修辞的に表す。  
-例: In the midst of overwhelm, she focused on one task at a time.  
-訳: 圧倒されている最中、彼女は一度に一つの作業に集中した。  
-
-・move through overwhelm  
-用途: 圧倒感を経験しながら、その状態を徐々に乗り越える。  
-例: Breathing exercises helped him move through overwhelm.  
-訳: 呼吸法は、彼が圧倒感を乗り越える助けになった。  
-
-・overwhelm can make 〈O〉 feel 〈形容詞〉  
-用途: 圧倒感が判断・行動に及ぼす一般的な影響を述べる。  
-例: Overwhelm can make simple decisions feel impossible.  
-訳: 圧倒感によって、簡単な決定さえ不可能に感じられることがある。  
-
-【語法・注意】この名詞用法は通常不可算で、*an overwhelm* や複数形 *overwhelms* とは一般にしない。*overwhelm* を動詞として使う場合は *The workload overwhelmed me.*、形容詞を使う場合は *I felt overwhelmed.* となる。名詞の *overwhelm* は新しい・文体依存の用法なので、学習者が通常の文章で無理に使う必要はない。*a sense of overwhelm* は自然だが、より標準的で説明的なのは *a sense of being overwhelmed* である。  
-
-【類義語】
-
-・stress  
-定義: 負担や困難によって心身に生じる緊張・ストレス。  
-頻度: 〈10/10〉  
-違い: 原因・長期的な負担を広く表す一般語。*overwhelm* は、その負荷が多すぎて処理不能に感じる状態に焦点がある。  
-例: Prolonged stress can affect sleep and concentration.  
-訳: 長期的なストレスは睡眠や集中力に影響を与え得る。  
-
-・distress  
-定義: 強い苦痛、不安、悲嘆などの精神的な苦しみ。  
-頻度: 〈7/10〉  
-違い: 苦痛や不安の程度を強調する硬い語で、情報量や仕事量が多いだけの圧倒感には限らない。  
-例: The uncertainty caused considerable distress.  
-訳: その不確実さはかなりの苦痛を引き起こした。  
-
-・pressure  
-定義: 人に行動や対応を迫る負担・圧力。  
-頻度: 〈10/10〉  
-違い: 外部からかかる要求や責任に焦点があり、実際に処理不能になった状態までは含まない。  
-例: She works well under pressure.  
-訳: 彼女はプレッシャーの下でもうまく働く。  
-
-・overload  
-定義: 許容量を超える負荷、またはその状態。  
-頻度: 〈8/10〉  
-違い: 仕事・情報・システムの容量超過を客観的・技術的に表し、感情的な圧倒感には通常 *overwhelm* の方が自然である。  
-例: Information overload makes it difficult to focus.  
-訳: 情報過多は集中することを難しくする。  
-
-【反意語】
-
-・calm  
-定義: 心配・緊張・混乱がなく、落ち着いた状態。  
-頻度: 〈10/10〉  
-違い: *overwhelm* の圧倒感に対する心理状態の反対側を表すが、負荷の量そのものが少ないとは限らない。  
-例: A few quiet minutes helped restore a sense of calm.  
-訳: 数分静かに過ごすことで、落ち着きを取り戻せた。  
-
-・control  
-定義: 状況や行動を管理・制御できる状態。  
-頻度: 〈10/10〉  
-違い: 圧倒されて何も整理できない状態に対し、状況を把握し処理できることに焦点がある。  
-例: A simple plan gave her a feeling of control.  
-訳: 簡単な計画によって、彼女は状況を管理できている感覚を得た。  
-
-・composure  
-定義: 困難な状況でも保たれる平静さ。  
-頻度: 〈6/10〉  
-違い: *overwhelm* のように感情が押し寄せる状態ではなく、感情を落ち着いて制御できる状態を表す名詞。  
-例: He maintained his composure during the crisis.  
-訳: 彼は危機の間も平静を保った。
-
----
-
-# device
-
----
-headword: device
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-21
-updated_at: 2026-08-21
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /dɪˈvaɪs/。2音節の dɪ-ˈvaɪs で、第2音節に主強勢がある。第1音節は弱い /dɪ/、第2音節の /aɪ/ は強勢を担う二重母音で、語末は無声音 /s/ で終わる。複数形 devices は /dɪˈvaɪsɪz/ で、-s は /ɪz/ という別音節になる。綴りの似た動詞 devise は /dɪˈvaɪz/ で、語末が /z/ になる。  
-
-＃語源
-
-中英語 devis・devise、古フランス語 devis「計画、意図、意匠、紋章」を経て、ラテン語 dividere「分ける」に関係する語にさかのぼる。もともとの「分けて整える、配置する」という発想から、目的に合わせて考案・配置された計画、意匠、仕掛け、機器へ意味が広がった。現在の「装置」と「方法・策略」の両方に共通する「目的のために考案されたもの」という核は、この意味の広がりと結び付く。  
-同語源・関連語には devise「考案する、工夫する」、divide「分ける」、division「分割、区分」がある。ただし、同語源であることだけから device の現代の各語義を機械的に推測できるわけではない。  
-
-＃コアイメージ
-
-device には、目的や特定の効果に向けて人が考案・配置した「仕掛け・手段」という共通核がある。物理的な機器だけでなく、目的達成の方法、欺きの策略、表現上の技法、紋章の意匠にも広がる。  
-・目的に向けて考案・配置された物理的な仕掛け → 「装置、機器」（語義1）  
-・目的に向けて考案・配置された電子的な仕掛け → 「電子機器、端末」（語義2）  
-・目的に向けて考案・配置された爆発性の仕掛け → 「爆発装置、爆弾」（語義3）  
-・目的に向けて考案・配置された実行上の手段 → 「手段、方法」（語義4）  
-・目的に向けて考案・配置された欺きの仕掛け → 「策略、たくらみ」（語義5）  
-・目的に向けて考案・配置された表現上の仕掛け → 「表現技法、文学的装置」（語義6）  
-・目的に向けて考案・配置された紋章上の意匠 → 「紋章、標章」（語義7）  
-語義8は歴史的残存義で、現代の device の「考案された仕掛け」という核から「自分のしたいようにする、自分の裁量に任せる」という慣用的意味を直接導けず、現在は own devices を含む慣用句にほぼ限られるため、個別に参照する。  
-
-＃意味・用法・関連表現
-
-1. 【名詞・可算】装置、機器、仕掛け
-
-【日本語訳・定義】特定の仕事・機能・目的を果たすように設計された物体、機械、器具、または機械的・電気的な仕掛け。電子機器に限らず、測定器、作業用器具、安全装置などにも使える。単に「物」なら何でも device と呼ぶのではなく、何らかの機能を果たすよう考案されたものを指す。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準的な一般語。家庭、工学、医療、技術、製造、行政など幅広い領域で使う。具体的な機器を指すが、機械の大きさや動力源は限定しない。  
-
-【文法パターン】a device for 〈名詞・動名詞〉＝～用の装置／a device to 〈動詞原形〉＝～するための装置／use・operate a device＝装置を使う・操作する／be fitted with a device＝装置を備えている／connect a device to 〈機器・系統〉＝装置を～に接続する／the device consists of 〈部品〉＝装置が～から成る  
-
-【コロケーション】
-
-・a device for measuring 〈量・状態〉  
-用途: 何らかの量・状態を測定するための装置を表す。  
-例: The laboratory uses a device for measuring air pressure.  
-訳: その研究室では気圧を測定する装置を使っている。  
-
-・a device to 〈動詞原形〉  
-用途: 特定の動作や機能を行うために設計された装置を表す。  
-例: Engineers built a device to remove salt from seawater.  
-訳: 技術者たちは海水から塩分を除去する装置を作った。  
-
-・a safety device  
-用途: 事故や危険を防ぐための安全装置を表す。  
-例: The elevator is equipped with several safety devices.  
-訳: そのエレベーターには複数の安全装置が備わっている。  
-
-・a tracking/recording device  
-用途: 位置や情報を追跡・記録する装置を表す。  
-例: The researchers attached a tracking device to the bird.  
-訳: 研究者たちはその鳥に追跡装置を取り付けた。  
-
-・operate/use a device  
-用途: 装置を操作・使用するという一般的な結合を表す。  
-例: Read the instructions before you operate the device.  
-訳: その装置を操作する前に説明書を読んでください。  
-
-・be fitted with a device  
-用途: 車、機械、建物などに装置が取り付けられていることを表す。  
-例: All new vehicles are fitted with this safety device.  
-訳: すべての新しい車両にはこの安全装置が取り付けられている。  
-
-・connect a device to 〈機器・系統〉  
-用途: 装置を別の機器やシステムへ接続することを表す。  
-例: Connect the device to the power supply before switching it on.  
-訳: 電源を入れる前に、その装置を電源に接続してください。  
-
-・the device consists of 〈部品〉  
-用途: 装置の構成を説明する。  
-例: The device consists of a wheel mounted on a metal frame.  
-訳: その装置は金属製の枠に取り付けられた車輪から成る。  
-
-【語法・注意】device は可算名詞なので、単数で一般的な装置を指すときは a device、特定の装置を指すときは the device とする。equipment は機器類をまとめて指す不可算名詞で、個々の機器を a equipment とは言わない。device は「特定の機能を果たすよう設計されたもの」に焦点があり、必ずしも電子的とは限らない。電子機器・コンピューターの文脈で小型の端末やハードウェアを指す場合は語義2として捉える。  
-
-【類義語】
-
-・machine  
-定義: 動力を使って作業を行う機械。  
-頻度: 〈10/10〉  
-違い: device よりも、複数の部品が動いて仕事をする機械という含みが強い。device は機械的な動作をしない器具や仕掛けにも使える。  
-例: The machine sorts the packages automatically.  
-訳: その機械は荷物を自動で仕分ける。  
-
-・apparatus  
-定義: 特定の目的のための器具一式または複雑な装置。  
-頻度: 〈6/10〉  
-違い: device より硬く、科学・工学で複数の部品から成る設備や装置一式を指しやすい。  
-例: The apparatus was designed for high-altitude experiments.  
-訳: その装置は高高度実験用に設計された。  
-
-・appliance  
-定義: 家庭で使う電気・ガスなどの機器。  
-頻度: 〈7/10〉  
-違い: device が用途を問わないのに対し、appliance は refrigerator や washing machine のような家庭用機器に範囲が寄る。  
-例: The kitchen has energy-efficient appliances.  
-訳: そのキッチンには省エネ型の家電がある。  
-
-・instrument  
-定義: 測定、操作、治療などに使う精密な器具。  
-頻度: 〈8/10〉  
-違い: device よりも、測定・観測・医療・専門作業のための精密な道具という焦点が強い。  
-例: The surgeon checked each instrument before the operation.  
-訳: 外科医は手術前に各器具を確認した。  
-
-・tool  
-定義: 作業を行うために人が使う道具または手段。  
-頻度: 〈10/10〉  
-違い: tool は人が作業するための道具・手段という側面が強い。device は自動的に機能する装置や、物理的でない仕掛けにも使える。  
-例: This tool makes it easier to cut thick wire.  
-訳: この道具を使うと太い針金を切りやすい。  
-
-・gadget  
-定義: 小型で便利、または目新しい機械・電子機器。  
-頻度: 〈7/10〉  
-違い: gadget は device よりくだけており、小さく便利で少し目新しいという含みを帯びやすい。  
-例: He bought a gadget that tracks his sleep.  
-訳: 彼は睡眠を記録する小型機器を買った。  
-
-2. 【名詞・可算・コンピューター】電子機器、端末
-
-【日本語訳・定義】コンピューターやネットワークに接続して、情報を処理・保存・送受信する電子機器。特に smartphone、tablet、printer、scanner、storage device などの比較的小型のハードウェアを指す。日常のIT文脈では、話題になっている機器を device とだけ呼ぶことが多い。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。IT、通信、家電、オンラインサービス、職場の情報管理で非常に一般的。日常語でも使うが、文脈によっては smartphone や computer より広い分類語になる。  
-
-【文法パターン】a mobile・portable・wireless device＝携帯・持ち運び可能・無線の端末／connect・pair a device with/to 〈機器・ネットワーク〉＝端末を～と接続・ペアリングする／a device is compatible with 〈OS・ソフトウェア〉＝端末が～に対応する／access・use 〈サービス・データ〉 from a device＝端末から～へアクセスする／a device driver＝デバイスドライバー  
-
-【コロケーション】
-
-・a mobile/portable device  
-用途: smartphoneやtabletなど、持ち運んで使う電子機器を表す。  
-例: The app works on almost any mobile device.  
-訳: そのアプリはほぼすべての携帯端末で動作する。  
-
-・a wireless device  
-用途: 無線通信で接続する電子機器を表す。  
-例: The router can support dozens of wireless devices.  
-訳: そのルーターは数十台の無線機器に対応できる。  
-
-・connect a device to 〈ネットワーク・コンピューター〉  
-用途: 電子機器をネットワークやコンピューターへ接続することを表す。  
-例: Connect the device to your computer with a USB cable.  
-訳: USBケーブルでその機器をコンピューターに接続してください。  
-
-・pair a device with another device  
-用途: Bluetoothなどで二つの機器をペアリングすることを表す。  
-例: Pair the device with your phone before starting the workout.  
-訳: トレーニングを始める前に、その機器をスマートフォンとペアリングしてください。  
-
-・a device is compatible with 〈OS・software〉  
-用途: 端末が特定のOSやソフトウェアに対応していることを表す。  
-例: Check whether the device is compatible with the latest version of the app.  
-訳: その端末がアプリの最新版に対応しているか確認してください。  
-
-・access 〈サービス・データ〉 from a device  
-用途: 端末を使ってサービスやデータへアクセスすることを表す。  
-例: Employees can access the payroll system from any authorized device.  
-訳: 従業員は認証済みのどの端末からでも給与システムにアクセスできる。  
-
-・a device driver  
-用途: OSが特定の機器を操作するためのソフトウェアを表す複合表現。  
-例: The operating system installed a device driver automatically.  
-訳: OSがデバイスドライバーを自動でインストールした。  
-
-・bring your own device  
-用途: 職場や学校で、自分の端末を持ち込んで使う運用を表す。BYOD と略すことがある。  
-例: The company has a strict bring-your-own-device policy.  
-訳: その会社には私物端末の持ち込み利用に関する厳格な方針がある。  
-
-【語法・注意】IT文脈の device は、単なる「便利な小道具」ではなく、システムと接続して機能するハードウェアを分類する語になりやすい。phone と言えば電話機、computer と言えばコンピューター全体を指すのに対し、device はそれらを含む広い分類語である。device は通常可算で、複数の機器なら devices とする。device driver、storage device、mobile device のように前置修飾語で種類を具体化する。  
-
-【類義語】
-
-・hardware  
-定義: コンピューターや電子システムを構成する物理的な部分。  
-頻度: 〈9/10〉  
-違い: hardware は通常不可算の総称で、個々の端末を一台ずつ指す device より広い。  
-例: The update improves compatibility with older hardware.  
-訳: その更新は古いハードウェアとの互換性を改善する。  
-
-・gadget  
-定義: 小型で便利、または目新しい電子機器。  
-頻度: 〈7/10〉  
-違い: gadget はくだけた語で、device より小型・便利・目新しいという印象を帯びやすい。  
-例: This gadget lets you control the lights from your phone.  
-訳: この小型機器を使うとスマートフォンから照明を操作できる。  
-
-・terminal  
-定義: ネットワークやコンピューターシステムの利用側にある端末。  
-頻度: 〈6/10〉  
-違い: terminal はシステムとの接点・入出力側という役割に焦点があり、device より専門的で範囲が狭い。  
-例: Each terminal requires a separate login.  
-訳: 各端末には個別のログインが必要だ。  
-
-・handset  
-定義: 携帯電話など、手に持って使う通信端末。  
-頻度: 〈5/10〉  
-違い: handset は電話機・受話器に寄る語で、device のようにprinterやsensorまで含まない。  
-例: The new handset has a brighter display.  
-訳: その新しい携帯電話はディスプレーがより明るい。  
-
-・equipment  
-定義: 目的のために使う機器・設備の総体。  
-頻度: 〈9/10〉  
-違い: equipment は不可算の集合名詞で、個々の機器を強調する device と異なる。  
-例: The studio has professional recording equipment.  
-訳: そのスタジオにはプロ用の録音機器がある。  
-
-3. 【名詞・可算・爆発物】爆発装置、爆弾
-
-【日本語訳・定義】爆発する爆弾・兵器、または爆発物を組み込んだ装置。特にニュース、警察、軍事、法執行の文脈では、爆弾の種類を特定せずに比較的中立・公式に述べる語として device 単独が使われることがある。通常の機器という語義から、爆発を目的とする文脈へ限定された用法である。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】ニュース、警察、軍事、法執行、政治。一般会話では bomb や explosive の方が具体的だが、報道では formal で婉曲的な device が頻出する。  
-
-【文法パターン】an explosive・improvised explosive device＝爆発・即席爆発装置／plant・place a device＝装置を仕掛ける／detonate・set off a device＝装置を爆発させる／defuse・disarm a device＝装置の爆発を解除する／a device explodes・fails to detonate＝装置が爆発する・起爆しない  
-
-【コロケーション】
-
-・an explosive device  
-用途: 爆発物であることを明示する公式・報道表現。  
-例: Police found an explosive device near the entrance.  
-訳: 警察は入口の近くで爆発装置を発見した。  
-
-・an improvised explosive device  
-用途: 即席爆発装置を表す。IED と略すことがある。  
-例: The army safely removed an improvised explosive device.  
-訳: 軍は即席爆発装置を安全に撤去した。  
-
-・a nuclear/atomic device  
-用途: 核兵器・原子爆弾を、兵器の機能に焦点を置いて表す。  
-例: The treaty prohibits the testing of nuclear devices.  
-訳: その条約は核兵器の実験を禁じている。  
-
-・plant/place a device  
-用途: 爆発装置を人目につかない場所へ仕掛けることを表す。  
-例: Investigators believe someone planted the device overnight.  
-訳: 捜査員は誰かが一晩のうちにその装置を仕掛けたと考えている。  
-
-・detonate/set off a device  
-用途: 爆発装置を意図的に起爆することを表す。  
-例: The device was detonated remotely.  
-訳: その装置は遠隔操作で起爆された。  
-
-・defuse/disarm a device  
-用途: 爆発装置が爆発しないように処理することを表す。  
-例: Bomb technicians managed to defuse the device.  
-訳: 爆発物処理班はその装置の爆発を解除することに成功した。  
-
-・a device fails to detonate  
-用途: 装置が起爆しなかったことを表す報道・捜査表現。  
-例: The device failed to detonate and no one was injured.  
-訳: その装置は起爆せず、誰も負傷しなかった。  
-
-【語法・注意】この語義の device は「装置」という一般語の意味を残すが、爆発・起爆・撤去などの動詞や explosive、nuclear などの修飾語で爆発物だと分かる。device 単独は、報道で種類や性能を断定せずに述べる中立的な呼び方になり得る。bomb は日常的で直接的、explosive device は爆発性を明示する公式表現、IED は即席爆発装置という特定の種類である。  
-
-【類義語】
-
-・bomb  
-定義: 爆発するように作られた爆弾。  
-頻度: 〈9/10〉  
-違い: device より直接的で一般的な語。device は報道・捜査で種類をぼかした公式表現になりやすい。  
-例: The bomb was found in an abandoned vehicle.  
-訳: その爆弾は放置された車の中で見つかった。  
-
-・explosive  
-定義: 爆発する物質または爆発物。  
-頻度: 〈8/10〉  
-違い: explosive は物質・弾薬・爆発物という性質に焦点があり、device は爆発機構を備えた物体・装置に焦点がある。  
-例: The police discovered several kilograms of explosives.  
-訳: 警察は数キログラムの爆発物を発見した。  
-
-・weapon  
-定義: 攻撃や防御に使う兵器・武器。  
-頻度: 〈10/10〉  
-違い: weapon は爆発しない銃や刃物も含む上位語で、device はこの語義では爆発するものに限定される。  
-例: The device was designed as a weapon.  
-訳: その装置は兵器として設計された。  
-
-・IED  
-定義: 即席爆発装置。  
-頻度: 〈6/10〉  
-違い: IED は improvised explosive device の略で、device より即席の製造・設置であることを限定する専門語。  
-例: The report described how the IED had been discovered.  
-訳: その報告書はその即席爆発装置がどのように発見されたかを述べていた。  
-
-4. 【名詞・可算】手段、方法、工夫
-
-【日本語訳・定義】特定の結果や効果を生み出すために意図的に採用された方法、手順、技法、手段。物理的な装置ではなく、計画や活動の中で使う工夫を指す。通常は中立的で、欺きや芸術表現を必須としない。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準語。ビジネス、教育、広告、記憶術、行政、説明文で比較的多い。marketing device、mnemonic device のように、何のための手段かを示す修飾語とよく結び付く。  
-
-【文法パターン】a device for 〈動名詞・目的〉＝～するための手段／a device to 〈動詞原形〉＝～するための工夫／use・employ something as a device＝何かを手段として使う／a marketing・teaching・mnemonic device＝広告・教育・記憶のための手段／a device for ensuring・achieving 〈結果〉＝～を確実にする・達成する手段  
-
-【コロケーション】
-
-・a marketing/promotional device  
-用途: 商品や活動を宣伝し、特定の反応を引き出すための手段を表す。  
-例: The discount was used as a marketing device to attract new customers.  
-訳: その割引は新規顧客を引き付ける宣伝手段として使われた。  
-
-・a mnemonic device  
-用途: 情報を記憶しやすくする語呂、規則、イメージなどの工夫を表す。  
-例: Students invented a mnemonic device to remember the order of the planets.  
-訳: 生徒たちは惑星の順番を覚えるための語呂合わせを考えた。  
-
-・a teaching device  
-用途: 教える内容を理解させるための教育上の工夫を表す。  
-例: The experiment is an effective teaching device for explaining pressure.  
-訳: その実験は圧力を説明するための効果的な教育手段だ。  
-
-・a device for achieving 〈目的〉  
-用途: 特定の目的を実現するために採用する手段を表す。  
-例: The committee proposed a device for ensuring equal access to the service.  
-訳: 委員会はサービスへの平等なアクセスを確保する手段を提案した。  
-
-・use something as a device  
-用途: 何かを特定の効果を生む手段として利用することを表す。  
-例: The campaign used humor as a device to make the message memorable.  
-訳: そのキャンペーンはメッセージを印象に残すための手段としてユーモアを使った。  
-
-・a device to 〈動詞原形〉  
-用途: 目的を達成するための具体的な工夫を表す。  
-例: The new schedule is a device to reduce waiting times.  
-訳: 新しい日程は待ち時間を減らすための工夫だ。  
-
-・a device for making sure 〈節〉  
-用途: ある条件が守られるようにする手段を表す。  
-例: The form is a device for making sure that every request is recorded.  
-訳: その書式はすべての依頼が記録されるようにする手段だ。  
-
-【語法・注意】この語義では、device は「装置」から抽象化された「目的のための仕掛け・手段」で、method、technique、means と近い。a device for 〈動名詞・目的〉、a device to 〈動詞原形〉のように目的を後ろへ置く。欺きが中心なら語義5、文学・演説・物語の効果を狙う表現技法なら語義6へ移る。単に「方法」という意味でも、何らかの意図的な工夫・仕掛けという見方が含まれやすい。  
-
-【類義語】
-
-・method  
-定義: 目的を達成するための方法や手順。  
-頻度: 〈10/10〉  
-違い: method は最も一般的で中立的。device は方法を目的のために考案された仕掛けとして捉える含みがある。  
-例: This method reduces the amount of waste.  
-訳: この方法は廃棄物の量を減らす。  
-
-・technique  
-定義: 特定の作業・技能・効果のための技法。  
-頻度: 〈9/10〉  
-違い: technique は技能や実践上のやり方に焦点があり、device は記憶術や広告上の工夫などにも使う。  
-例: The artist learned a new painting technique.  
-訳: その芸術家は新しい絵画技法を学んだ。  
-
-・means  
-定義: 目的に到達するための手段。  
-頻度: 〈9/10〉  
-違い: means は目的と手段の関係を前面に出す。device より抽象的で、意図的な工夫という含みは必須ではない。  
-例: Education is a means of reducing inequality.  
-訳: 教育は不平等を減らす手段だ。  
-
-・strategy  
-定義: 目標達成のための計画的な方策。  
-頻度: 〈9/10〉  
-違い: strategy は競争・交渉・長期計画などの全体方針を指しやすい。device はその中の一つの工夫・手段を指せる。  
-例: The company adopted a new pricing strategy.  
-訳: その会社は新しい価格戦略を採用した。  
-
-・expedient  
-定義: 困難な状況を切り抜けるための実際的な手段。  
-頻度: 〈5/10〉  
-違い: expedient は理想的でなくても当面の目的に役立つという含みを帯びやすく、device より硬く評価的である。  
-例: The compromise was a temporary expedient.  
-訳: その妥協は一時的な便法だった。  
-
-5. 【名詞・可算・しばしば否定的】策略、たくらみ、計略
-
-【日本語訳・定義】何かを手に入れたり、問題を隠したり、相手をだましたりするために考え出された計画・仕掛け。単なる方法ではなく、話者が不自然さ、不誠実さ、操作的な意図を感じている場合に使われやすい。文脈によっては、巧妙な工夫をやや批判的に呼ぶ語でもある。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】標準語。報道、評論、政治、ビジネス批判、文学的な説明で見られる。trick や scheme より硬く、行為の背後にある仕掛け・計略を分析する響きがある。  
-
-【文法パターン】a device to 〈動詞原形〉＝～するための策略／a device for 〈動名詞・目的〉＝～のための計略／use something as a device to 〈動詞原形〉＝何かを～する策略として使う／a device used to 〈動詞原形〉＝～するために使われる仕掛け／a mere・clever・cynical device＝単なる・巧妙な・冷笑的な策略  
-
-【コロケーション】
-
-・a device to conceal 〈事実・問題〉  
-用途: 事実や問題を隠すための策略を表す。  
-例: The complex wording was a device to conceal the real cost.  
-訳: 複雑な言い回しは実際の費用を隠すための策略だった。  
-
-・a device for deceiving 〈人〉  
-用途: 相手をだますために考案された仕掛けを表す。  
-例: The fake website was a device for deceiving customers.  
-訳: その偽サイトは顧客をだますための仕掛けだった。  
-
-・a device to get around 〈規則・制限〉  
-用途: 規則や制限を実質的に回避するための策略を表す。  
-例: The arrangement was a device to get around the spending limit.  
-訳: その取り決めは支出上限をかいくぐるための策略だった。  
-
-・a device used to make it seem 〈形容詞〉  
-用途: 実際とは違う印象を与えるための仕掛けを表す。  
-例: The report was merely a device used to make the losses seem smaller.  
-訳: その報告書は損失を小さく見せるためだけの仕掛けだった。  
-
-・a mere device  
-用途: ある行為や説明を、本質ではなく目的のための小細工だと評価する。  
-例: The apology was dismissed as a mere device to win public sympathy.  
-訳: その謝罪は世論の同情を得るための単なる策略だとして退けられた。  
-
-・a clever/cynical device  
-用途: 策略の巧妙さや冷笑的な意図を評価する。  
-例: Calling the fee a donation was a clever device to avoid criticism.  
-訳: その料金を寄付と呼ぶのは批判を避ける巧妙な策略だった。  
-
-【語法・注意】語義4の device は中立的な「方法」だが、この語義では deceive、conceal、get around、make it seem などの目的によって策略性・操作性が前面に出る。device 自体が常に悪意を含むわけではないので、文脈なしに「詐欺」と訳さない。trick は相手をだます具体的な手口、scheme は計画全体や大がかりな企て、device は目的のために組み立てられた仕掛けという焦点がある。  
-
-【類義語】
-
-・trick  
-定義: 相手をだましたり、意外な方法で目的を達成したりする手口。  
-頻度: 〈10/10〉  
-違い: trick は日常的で直接的。device はやや硬く、手口の仕組みや意図を分析する響きが強い。  
-例: The trick was to ask the question before anyone noticed.  
-訳: その手口は、誰も気付かないうちに質問することだった。  
-
-・ruse  
-定義: 相手をだますための策略・口実。  
-頻度: 〈5/10〉  
-違い: ruse は意図的な欺きが中心で、device より deception の含みが強い。  
-例: The invitation was a ruse to get him out of the house.  
-訳: その招待は彼を家の外へ出すための策略だった。  
-
-・stratagem  
-定義: 目的達成のために考え抜かれた計略。  
-頻度: 〈5/10〉  
-違い: stratagem は軍事・競争・交渉などの計略に硬く文語的な響きがあり、device より計画性を強調する。  
-例: The general used a clever stratagem to mislead the enemy.  
-訳: 将軍は敵を惑わす巧妙な計略を使った。  
-
-・ploy  
-定義: 相手の反応を引き出すための策略や手口。  
-頻度: 〈6/10〉  
-違い: ploy は交渉・広告・会話で相手を動かすための手口を指しやすく、device よりその場の働きかけに寄る。  
-例: The offer was just a ploy to collect personal information.  
-訳: その申し出は個人情報を集めるための単なる手口だった。  
-
-・scheme  
-定義: 何かを実現するための計画、または人をだます企て。  
-頻度: 〈9/10〉  
-違い: scheme は複数の手順を含む計画全体を指しやすい。device は計画の中の一つの仕掛けや、効果を生む方法に焦点を置ける。  
-例: The company devised a scheme to hide its debts.  
-訳: その会社は負債を隠すための計画を考案した。  
-
-6. 【名詞・可算・文学・修辞】表現技法、文学的・劇的装置
-
-【日本語訳・定義】話し言葉、文章、物語、舞台などで、特定の効果を生むために意図的に用いる表現上の技法・形式・仕掛け。比喩や皮肉などの修辞、象徴、物語を動かす plot device、舞台上の慣用的な演出を含む。物理的な装置ではなく、作品の効果を生む構成上の手段である。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】文学、修辞学、演劇、映画、批評、文章表現。literary device、rhetorical device、plot device のような複合表現で特に頻出する。  
-
-【文法パターン】a literary・rhetorical device＝文学的・修辞的技法／a plot・narrative device＝物語を動かす仕掛け／use 〈表現・技法〉 as a device＝～を技法として使う／a device for creating 〈効果〉＝～を生む表現技法／a recurring device in 〈作品〉＝作品内で繰り返される技法  
-
-【コロケーション】
-
-・a literary device  
-用途: 文章や文学作品で特定の効果を生む表現上の仕掛けを表す。  
-例: The author uses repetition as a literary device.  
-訳: その作家は反復を文学的技法として使っている。  
-
-・a rhetorical device  
-用途: 説得、強調、印象付けなどのための修辞技法を表す。  
-例: The question is a rhetorical device rather than a request for information.  
-訳: その疑問文は情報を求めるものではなく、修辞技法である。  
-
-・a plot/narrative device  
-用途: 物語を進めたり、情報を隠したり、展開を成立させたりする仕掛けを表す。  
-例: The missing letter is a plot device that brings the two characters together.  
-訳: その行方不明の手紙は、2人の登場人物を引き合わせる物語上の仕掛けだ。  
-
-・a dramatic/stage device  
-用途: 舞台や劇で特定の演劇的効果を生む慣用的な演出を表す。  
-例: The sudden blackout is a dramatic device that marks the end of the scene.  
-訳: 突然の暗転は場面の終わりを示す劇的な演出だ。  
-
-・use irony as a device  
-用途: 皮肉を特定の表現効果を生む技法として用いることを表す。  
-例: The essay uses irony as a device to expose the weakness of the argument.  
-訳: その論文は議論の弱点を明らかにするための技法として皮肉を使っている。  
-
-・a device for creating 〈効果〉  
-用途: 読者・観客・聞き手に特定の印象や反応を生む技法を表す。  
-例: The repeated image becomes a device for creating a sense of unease.  
-訳: 繰り返されるイメージが不安感を生み出す技法になっている。  
-
-・a recurring device in 〈作品〉  
-用途: 作品の中で何度も用いられる表現上の仕掛けを表す。  
-例: Dreams are a recurring device in the novel.  
-訳: 夢はその小説で繰り返し使われる仕掛けだ。  
-
-【語法・注意】literary device は文学作品に限らず、比喩・象徴・反復・皮肉などの表現技法を広く指す。rhetorical device は説得や修辞の効果、plot device は物語の展開を成立させる仕掛けに焦点がある。いずれも device 単独より複合表現で現れやすい。plot device は「物語の小道具」という物理的な物を必ず指すわけではなく、展開上の仕組みを指す。  
-
-【類義語】
-
-・figure of speech  
-定義: 比喩や反語など、通常とは異なる形で効果を生む言葉の表現。  
-頻度: 〈8/10〉  
-違い: figure of speech は言葉の表現に限られる。literary device は構成、象徴、物語上の仕掛けまで含み得る。  
-例: “A sea of faces” is a figure of speech.  
-訳: 「顔の海」は比喩表現だ。  
-
-・technique  
-定義: 特定の効果を生むための実践的な技法。  
-頻度: 〈9/10〉  
-違い: technique は創作上の方法全般を指せる。device は作品内に仕掛けられた具体的な表現・構成要素に焦点がある。  
-例: Foreshadowing is a common narrative technique.  
-訳: 伏線は一般的な物語技法だ。  
-
-・trope  
-定義: 繰り返し用いられる比喩・表現類型または物語上の定型。  
-頻度: 〈6/10〉  
-違い: trope は定型化・反復された表現や物語パターンを指しやすい。device は一つの作品で意図的に使われる仕掛けにも使える。  
-例: The film plays with the familiar hero’s-journey trope.  
-訳: その映画はおなじみの英雄の旅という物語類型をひねって使っている。  
-
-・motif  
-定義: 作品内で繰り返され、主題や意味を強める要素。  
-頻度: 〈6/10〉  
-違い: motif は反復されるイメージ・主題・要素に焦点があり、device のように一度限りの展開上の仕掛けを必ずしも指さない。  
-例: Water is a recurring motif in the poem.  
-訳: 水はその詩で繰り返されるモチーフだ。  
-
-・convention  
-定義: 特定のジャンルや表現で慣用的に共有される形式。  
-頻度: 〈8/10〉  
-違い: convention はジャンルの慣例・共有された形式で、device は作者が効果のために用いる具体的な仕掛けに焦点がある。  
-例: The film deliberately breaks the conventions of the genre.  
-訳: その映画は意図的にそのジャンルの慣例を破っている。  
-
-7. 【名詞・可算・紋章学】紋章、標章、意匠
-
-【日本語訳・定義】特に紋章の一部として使われる象徴的な図案・意匠・標章。家系、組織、国家などを表すデザインを指す専門的・歴史的な用法で、日常の「装置」という意味では使わない。  
-
-【頻度】〈2/10〉  
-
-【レジスター/領域】紋章学、歴史、文学、正式な意匠説明。現代の日常英語ではまれで、heraldic device などの形で現れやすい。  
-
-【文法パターン】a heraldic device＝紋章上の意匠／the device of 〈家系・組織〉＝～の標章／display・bear a device＝意匠を掲げる・身に付ける  
-
-【コロケーション】
-
-・a heraldic device  
-用途: 紋章として用いられる象徴的な図案を表す。  
-例: The shield bears a heraldic device associated with the royal family.  
-訳: その盾には王家に結び付いた紋章上の意匠が描かれている。  
-
-・the device of 〈家系・組織〉  
-用途: 家系や組織を表す標章を表す。  
-例: The museum preserves the device of a medieval guild.  
-訳: その博物館は中世のギルドの標章を保存している。  
-
-・display a device  
-用途: 標章・意匠を掲げたり見せたりすることを表す。  
-例: The banner displays the device of the city.  
-訳: その旗には市の標章が掲げられている。  
-
-・bear a device  
-用途: 盾、旗、印章などが特定の意匠を描いていることを表す。  
-例: The seal bears a device of a bird and a crown.  
-訳: その印章には鳥と王冠の意匠が描かれている。  
-
-【語法・注意】この語義は heraldry の専門用法で、emblem や insignia に近い。crest は紋章全体ではなく、しばしば兜の上に置かれる特定部分を指すため、device と完全に同義ではない。現代の一般文脈で組織のマークを言うなら emblem、logo、insignia の方が自然なことが多い。  
-
-【類義語】
-
-・emblem  
-定義: 集団・理念・組織などを象徴する図案や物。  
-頻度: 〈7/10〉  
-違い: emblem は紋章学に限らず象徴一般に使える。device はこの語義では紋章上の正式な意匠という専門性が強い。  
-例: The eagle is an emblem of the nation.  
-訳: ワシはその国の象徴だ。  
-
-・insignia  
-定義: 身分、所属、階級などを示す記章・標章。  
-頻度: 〈5/10〉  
-違い: insignia は軍服・制服などに付けて所属や階級を示す標章に焦点がある。  
-例: The officers wore insignia on their collars.  
-訳: 将校たちは襟に記章を付けていた。  
-
-・crest  
-定義: 紋章の上部に置かれる図案、または家系を表す紋章。  
-頻度: 〈6/10〉  
-違い: crest は紋章の特定部分を指すことが多く、device より対象が限定される。  
-例: The family crest appears on the silverware.  
-訳: その家の紋章が銀食器に描かれている。  
-
-・badge  
-定義: 所属、資格、身分などを示す小さな記章。  
-頻度: 〈8/10〉  
-違い: badge は身に付ける小型の記章に焦点があり、device のような歴史的・紋章的意匠全般より具体的で日常的。  
-例: The guide wore a badge with the museum’s name.  
-訳: その案内係は博物館名の入ったバッジを付けていた。  
-
-8. 【名詞・複数・慣用句】自分の裁量に任せられた状態
-
-【日本語訳・定義】leave somebody to their own devices、be left to one's own devices の形で、誰かを一人にして、指示や監督をせず、その人が自分の望むように、または自分の判断で行動するに任せること。信頼して自由を与える場合にも、面倒を見ず自力で対処させる場合にも使える。現代の device の通常の複数名詞用法から意味を組み立てるのではなく、own devices を含む固定した慣用表現として覚える。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】標準的な慣用句。会話、物語、教育、仕事の説明などで使う。人を放置する否定的な含みは文脈次第で、自由に任せる肯定的な文脈にも使える。  
-
-【文法パターン】leave somebody to their own devices＝人を自分の裁量に任せる／be left to one's own devices＝指示・監督なしに自分で対処するに任せられる／when left to one's own devices＝自分の判断に任せられたとき  
-
-【コロケーション】
-
-・leave somebody to their own devices  
-用途: 誰かを監督せず、本人の判断・望む行動に任せることを表す。  
-例: The teacher left the students to their own devices for the afternoon.  
-訳: 先生は午後の間、生徒たちを自分たちの判断に任せた。  
-
-・be left to one's own devices  
-用途: 指示や助けがないまま自分で行動する状態を表す。  
-例: When left to her own devices, Maya usually finds a creative solution.  
-訳: 自分の判断に任せられると、マヤはたいてい創造的な解決策を見つける。  
-
-・when left to one's own devices  
-用途: 誰かが自分で判断して行動する場面を導入する。  
-例: Children can learn a great deal when left to their own devices.  
-訳: 子どもは自分の判断に任せられると、多くを学べることがある。  
-
-・be happy/content to be left to one's own devices  
-用途: 他人の指示を受けず自由にしていたいという態度を表す。  
-例: She is perfectly content to be left to her own devices.  
-訳: 彼女は完全に自分の裁量に任せてもらって構わないと思っている。  
-
-【語法・注意】own と所有格が必須で、leave someone to their devices や leave someone to their own device とは通常言わない。主語が単数でも devices は複数形のまま使う。leave は「見捨てる」とは限らず、監督を控えて自由に任せる意味にもなる。一方、文脈によっては「放っておかれて自分で何とかする」という含みが出る。  
-
-【類義語】
-
-・leave somebody alone  
-定義: 人に干渉せず、一人にしておく。  
-頻度: 〈10/10〉  
-違い: leave somebody alone は干渉しないことに焦点があり、own devices のような「自分の判断で行動するに任せる」という裁量の含みは必須ではない。  
-例: Please leave me alone while I finish this report.  
-訳: この報告書を書き終えるまで、どうか一人にしておいてください。  
-
-・give somebody free rein  
-定義: 人に自由な裁量を与え、行動を制限しない。  
-頻度: 〈5/10〉  
-違い: free rein は自由を積極的に認める含みが強い。own devices は監督を控えるだけで、信頼・放置のどちらにもなり得る。  
-例: The director gave the designer free rein over the visual style.  
-訳: 監督はビジュアルスタイルについてデザイナーに自由な裁量を与えた。  
-
-・let somebody fend for themselves  
-定義: 人が自力で対処するに任せ、助けを与えない。  
-頻度: 〈6/10〉  
-違い: fend for themselves は困難の中で自力で切り抜ける含みが強く、own devices より厳しい状況を示しやすい。  
-例: The hikers were left to fend for themselves after the guide was injured.  
-訳: ガイドが負傷した後、ハイカーたちは自力で対処するしかなかった。  
-
-・let somebody do as they wish  
-定義: 人が望むように行動することを許す。  
-頻度: 〈8/10〉  
-違い: do as they wish は望む行動を許可する意味を直接述べる。own devices は指示・監督を控える状況にも使え、許可の明示は必須ではない。  
-例: The parents let their children do as they wished during the holiday.  
-訳: その親たちは休暇中、子どもたちが望むように行動するのを許した。
-
----
-
-# subsequent
-
----
-headword: subsequent
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-21
-updated_at: 2026-08-22
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /ˈsʌbsɪkwənt/。3音節の sʌb-si-kwənt で、第1音節に主強勢がある。第2音節の /ɪ/ と第3音節の /ə/ は弱くなりやすく、語末は /ənt/ となる。関連表現 subsequent to では、to は通常弱形の /tə/ で、母音の前などで /tu/ となることがある。  
-
-＃語源
-
-中英語期に、古フランス語またはラテン語 subsequent-「後に続く」から入った。ラテン語 subsequi「近くに続く、後を追う」の現在分詞形に由来し、sub-「近く、後に」と sequi「従う、追う」が組み合わさっている。現在の「基準となるものの後に続く」という意味は、この語源上の構成と直接つながる。  
-同じ語形成・語根に関係する語には subsequently「その後、後になって」、subsequence「後続すること、後続するもの」、sequence「連続、順序」がある。consequence や pursue も、さらにさかのぼれば「従う、追う」を表す語根に関係するが、subsequent の単純な派生語ではない。  
-
-＃語形成
-
-・sub- + sequi（ラテン語）→ subsequent：近く後に続くという意味から、現代英語の「後続の、後の」へつながる。  
-・subsequent → subsequently：形容詞 subsequent に -ly を付けた副詞。「その後、後になって」を表し、文全体の出来事の順序を示す。  
-・subsequent → subsequence：名詞。後続すること、または後続する出来事を表すが、一般語としては subsequent や subsequently より使用頻度が低い。  
-
-＃意味・用法・関連表現
-
-1. 【形容詞・限定用法中心】後の、後続の、次に起こる
-
-【日本語訳・定義】基準となる出来事、時点、段階、項目などの後に生じる、または順序上後ろに位置することを表す。時間的に後である場合だけでなく、文書の後の節や手続き上の後続段階にも使える。必ず直後であることを示す語ではなく、間に別の出来事や段階があってもよい。単に前後関係を示す語なので、後の出来事が前の出来事の結果だとは限らないが、文脈によっては両者の関連や展開が読み取られることがある。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】形式的な標準語。学術論文、報告書、ニュース、法律・行政文書、ビジネス文書でよく使われる。日常会話では later や following の方が自然なことが多い。  
-
-【文法パターン】subsequent + 〈出来事・段階・文書〉＝後の～、後続の～／subsequent years・generations・studies＝その後の年月・世代・研究／a・the subsequent + 〈meeting・hearing・review〉＝後の会議・審理・検討／in subsequent years・decades＝その後の年月・数十年の間に／the period・section subsequent to 〈基準時点・出来事・箇所〉＝～より後の期間・節／subsequent to 〈名詞句〉＝～の後に、～に続いて（形式的な前置詞表現）  
-
-【コロケーション】
-
-・subsequent events  
-用途: ある出来事を基準にして、その後に起こった出来事をまとめて表す。  
-例: Subsequent events confirmed the accuracy of the initial report.  
-訳: その後の出来事によって、最初の報告が正確だったことが確認された。  
-
-・subsequent studies/research  
-用途: 先行する研究の後に行われた研究を表す。研究結果が先行研究の結果を支持するとは限らない。  
-例: Subsequent studies reached a different conclusion.  
-訳: その後の研究は異なる結論に達した。  
-
-・subsequent generations  
-用途: ある世代の後に生まれた世代を表す。長期的な社会・歴史の説明でよく使う。  
-例: The decision affected subsequent generations.  
-訳: その決定は後の世代に影響を与えた。  
-
-・in subsequent years/decades  
-用途: 基準となる年や時期の後の年月・数十年間について述べる。  
-例: The town grew rapidly in subsequent years.  
-訳: その町はその後の数年間に急速に発展した。  
-
-・subsequent changes/developments  
-用途: 最初の状態や発表の後に生じた変更・展開を表す。  
-例: We will update the document to reflect subsequent changes.  
-訳: その後の変更を反映するため、私たちは文書を更新する。  
-
-・a subsequent meeting/hearing/review  
-用途: 先に行われた会議・審理・検討に続く回を表す。必ず直後の回とは限らない。  
-例: The issue was resolved at a subsequent meeting.  
-訳: その問題は後の会議で解決された。  
-
-・the section/paragraph subsequent to 〈箇所〉  
-用途: 文書の中で、指定した節や段落の後に位置する部分を表す形式的な表現。  
-例: The paragraph subsequent to Section 2 explains how the exception applies.  
-訳: 第2節の後に続く段落では、その例外がどのように適用されるかを説明している。  
-
-・subsequent to the agreement/inspection  
-用途: 合意・検査などの後に何かが起こったことを、公式・法律文書調に述べる。  
-例: Subsequent to the inspection, the company replaced the faulty parts.  
-訳: 検査後、会社は不具合のある部品を交換した。  
-
-【語法・注意】subsequent は通常、名詞の前に置く形式的な形容詞で、subsequent events、a subsequent report のように使う。単独で「後で」という副詞の意味にはならないため、文全体の出来事の順序を表すときは subsequently を使う（The notes were subsequently lost.「そのメモはその後失われた」）。subsequent to + 名詞句 は「～の後に」という形式的な前置詞表現で、文頭にも置ける。一方、有限節を直接続けるより after the committee met のように after を使う方が自然である。subsequent to は、the period subsequent to the merger のように、単独の後置形容詞ではなく to句を伴って名詞の後ろからその名詞を限定する形でも使える。subsequent to 2000 は2000年より後を表し、2000年自体を含めたい場合は 2000 and subsequent years のように2000年を別に明示する。subsequent は「後に続く」という順序を示すだけで、後の出来事が前の出来事によって引き起こされたことを必ずしも意味しない。原因・結果を明示したいときは consequent「結果として生じる」を使う。the storm and subsequent flooding は嵐の後の洪水という時間関係を表せるが、洪水が嵐によって生じたことを語そのものだけで断定する表現ではない。successive や consecutive は、対象が一つずつ連続することや、途切れない反復を強調する。subsequent は単に基準より後の一つまたは複数を指すため、間に別の出来事があっても使える。later はより日常的で、形容詞・副詞の両方として使える。  
-
-【類義語】
-
-・later  
-定義: 基準となる時点や出来事より後の、後で。  
-頻度: 〈10/10〉  
-違い: subsequent より日常的でくだけており、名詞の前だけでなく later 単独の副詞や補語としても使える。subsequent は formal な文章で、前の出来事との対応を明示しやすい。  
-例: We can discuss the details later.  
-訳: 詳細については後で話し合える。  
-
-・following  
-定義: 時間・順序の上で後に来る、次の。  
-頻度: 〈10/10〉  
-違い: subsequent と同じく後続を表すが、より広く自然な語で、following the meeting のように「会議の後に」という前置詞的な使い方もできる。  
-例: The following week was unusually cold.  
-訳: 次の週は異例に寒かった。  
-
-・ensuing  
-定義: ある出来事の後に続いて展開する、後に起こる。  
-頻度: 〈5/10〉  
-違い: subsequent よりも、その後に展開する一連の出来事や状況に焦点を置きやすく、文語的・報道的である。単なる後の時点だけを示すなら subsequent の方が中立的である。  
-例: The ensuing debate lasted for several hours.  
-訳: その後に続いた議論は数時間に及んだ。  
-
-・successive  
-定義: 同じ種類のものが一つずつ続く、連続する。  
-頻度: 〈7/10〉  
-違い: subsequent が基準より後の対象を指すのに対し、successive は複数の対象が順番に続くことを強調する。  
-例: The team won three successive matches.  
-訳: そのチームは3試合連続で勝った。  
-
-・consecutive  
-定義: 中断や間を置かず、連続した。  
-頻度: 〈7/10〉  
-違い: consecutive は日・回数・試合などが途切れず連なることを強く示す。subsequent にはそのような連続性や直後性は必須ではない。  
-例: She worked for twelve consecutive days.  
-訳: 彼女は12日間連続で働いた。  
-
-【反意語】
-
-・previous  
-定義: 基準となる時点・出来事・項目より前の、以前の。  
-頻度: 〈10/10〉  
-違い: subsequent が後続を表すのに対し、previous は前のものを表す最も一般的な反対語。  
-例: Please compare this version with the previous one.  
-訳: この版を前の版と比較してください。  
-
-・prior  
-定義: 時間・順序の上で前の、先行する。  
-頻度: 〈8/10〉  
-違い: previous より形式的で、prior to + 名詞 の形でも使う。subsequent と同じく、公式・法律・学術文書で使われやすい。  
-例: The applicant had no prior experience in the field.  
-訳: その応募者には、その分野での過去の経験がなかった。  
-
-・preceding  
-定義: 順序・時間の上で前に位置する、先行する。  
-頻度: 〈7/10〉  
-違い: preceding は、文章・一覧・一連の出来事の中で前にある位置を指しやすい。subsequent はその反対側の後続位置を指す。  
-例: The meaning depends on the preceding sentence.  
-訳: その意味は前の文に左右される。
-
----
-
-# devise
-
----
-headword: devise
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-22
-updated_at: 2026-08-22
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /dɪˈvaɪz/。2音節の dɪ-ˈvaɪz で、第2音節に主強勢がある。第1音節は弱い /dɪ/、第2音節の /aɪ/ が強勢を担い、語末は有声音の /z/ で終わる。三人称単数 devises は /dɪˈvaɪzɪz/、過去形・過去分詞 devised は /dɪˈvaɪzd/、-ing形 devising は /dɪˈvaɪzɪŋ/。綴りの似た名詞 device は /dɪˈvaɪs/ で、語末が無声音 /s/ になるため、標準的には同音ではない。  
-
-＃語源
-
-動詞は中英語の devisen から、古フランス語 deviser・diviser「分ける、配分する、考案する」を経て、最終的にはラテン語 dividere「分ける」にさかのぼる。英語へ入った後に記録される「配分する、整える、計画する、考案する、遺言で譲る」などの意味は、現在の一般用法と法律用法が別の枝として発達したことを示す。名詞の法律用法も、財産を遺言上の行き先へ割り当てるという古い意味の系統と関係する。  
-同語源・関連語には divide「分ける」、division「分割・区分」、device「仕掛け・機器」がある。device は現代英語で devise から作られた派生語ではないが、歴史的には devise と非常に近い同語源の語である。現代の品詞と語末子音は異なる。  
-
-＃語形成
-
-・devise → deviser：考案する人。一般用法でも比較的まれ。  
-・devise → devisable：考案できる、または法律上遺言で譲渡できる。一般用法より法律用法で見かけやすい形。  
-・devise → devisee：法律用語で、遺言による財産の受遺者。伝統的には不動産の受遺者を指し、動産の受遺者は legatee と区別される。一般の「相続人」全般を指す語ではない。  
-・devise → devisor：法律用語で、遺言によって財産を譲る人。現代の一般英語ではほぼ使わない。  
-・devised：過去分詞。a carefully devised plan のように形容詞的にも使い、考え抜いて組み立てられた結果を表す。  
-
-＃意味・用法・関連表現
-
-1. 【動詞・他動詞】考案する、工夫して作り出す
-
-【日本語訳・定義】問題解決、目的達成、状況への対応などのために、知識や材料を組み合わせて、新しい計画・方法・仕組み・装置などを頭の中で考え、具体的な形にする。単に思いつくことだけでなく、知識や想像力を使い、目的に沿った案・仕組み・対象としてある程度まとまった形に組み立てる含みがある。考案したものが完成・成功することまで必ず意味するわけではない。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準的な他動詞だが、think up や come up with より形式的で、学術、ビジネス、行政、技術、報道などで使われやすい。対象は計画だけでなく、方法、制度、試験、機構、装置などにも及ぶ。演劇では devise a play、devised theatre、devising のように、出演者・制作陣が共同で作品を作り上げる意味にも使うが、独立した語義というよりこの「考案・創作する」語義の特殊化である。  
-
-【文法パターン】devise + 〈計画・方法・仕組み・装置〉＝～を考案する／devise a plan・strategy・scheme to 〈動詞原形〉＝～する計画・戦略・計画案を考案する／devise a way to 〈動詞原形〉・devise a way of 〈動名詞〉＝～する方法を考案する／devise a solution to 〈問題〉＝～への解決策を考案する／devise a solution for 〈問題〉＝～に対する解決策を考案する／devise a method・system・test for 〈目的・対象〉＝～のための方法・制度・試験を考案する／devise a means of 〈動名詞〉＝～する手段を考案する（formal）／be devised to 〈動詞原形〉＝～するように考案される  
-
-【コロケーション】
-
-・devise a plan/strategy  
-用途: 問題や目標に対応する具体的な計画・戦略を、考えて組み立てる。  
-例: The team devised a plan to restore the wetlands.  
-訳: そのチームは湿地を回復させる計画を考案した。  
-
-・devise a method/system  
-用途: 何かを実行・処理するための方法や仕組みを、手順として設計する。  
-例: Engineers devised a method for reducing heat loss.  
-訳: 技術者たちは熱損失を減らす方法を考案した。  
-
-・devise a solution to 〈問題〉  
-用途: 難しい問題に対処するための解決策を新たに組み立てる。  
-例: We need to devise a solution to the scheduling problem.  
-訳: 私たちはその日程上の問題への解決策を考案する必要がある。  
-
-・devise a way to do / devise a way of doing 〈こと〉  
-用途: 目的を実現する方法を考案する。to do と of doing はこの構文ではほぼ交換可能で、前者は不定詞、後者は動名詞を後ろに置く形である。  
-例: They devised a way of sharing the data securely.  
-訳: 彼らはデータを安全に共有する方法を考案した。  
-
-・devise a test/experiment  
-用途: 仮説を調べたり、性能・欠陥を判定したりする試験や実験を設計する。  
-例: The researchers devised a test to detect the defect.  
-訳: 研究者たちはその欠陥を検出する試験を考案した。  
-
-・devise a scheme  
-用途: 目的達成のための計画案を考案する。scheme 自体が詐欺や悪巧みを意味する場合は、その含意が加わる。  
-例: The committee devised a scheme to reward local suppliers.  
-訳: 委員会は地元の供給業者に報いる制度案を考案した。  
-
-・devise a mechanism/tool  
-用途: 特定の機能を実現する機構や道具を考案する。単に既製品を選ぶという意味ではない。  
-例: She devised a simple mechanism for collecting rainwater.  
-訳: 彼女は雨水を集める簡単な仕組みを考案した。  
-
-・be specially/carefully devised to 〈動詞原形〉  
-用途: 目的に合わせて特別に、または慎重に考案された仕組み・手順を受動態で表す。  
-例: The procedure was specially devised to protect small businesses.  
-訳: その手順は中小企業を保護するために特別に考案された。  
-
-【語法・注意】現代の標準的な一般用法では、devise は通常、目的語を取る他動詞である。devise to solve the problem のように devise の直後へ to不定詞だけを置くのは避け、devise a way・a plan to solve the problem とする。一部の辞書では「計画を立てる」という自動詞的・古風な用法を記録することもあるが、学習者が標準的な現代用法として使う基本形ではない。古風な文章では「企てる・謀る」に近い用法も記録されるが、現代の devise 自体は中立的で、scheme、plot、plan to escape などの目的語が秘密や悪意の含意を加える。devise a means of doing は形式的で、日常会話では find a way to do や figure out how to do の方が自然なことが多い。invent は新規性、design は構造や機能の設計、formulate は計画・政策・理論を明確な形にまとめること、develop は時間をかけて発展させることに焦点がある。devise a solution は、既に存在する答えを発見したというより、目的に合う解決策を考えて組み立てたという見方を示しやすい。過去分詞 devised は a carefully devised plan のように限定用法で使える。これは「考案する」という動作そのものではなく、考案の結果として計画が組み立てられている状態を表す。名詞 device「装置・仕掛け」とは、品詞だけでなく語末の /z/ と /s/ も異なる。  
-
-【類義語】
-
-・invent  
-定義: それまで存在しなかった物、方法、仕組みなどを新しく生み出す。  
-頻度: 〈9/10〉  
-違い: devise より新規性を強く示しやすく、実物の発明にも抽象的な方法にも使える。devise は新規性より、目的に合わせて計画や仕組みを組み立てる過程に焦点を置く。  
-例: She invented a device that purifies water without electricity.  
-訳: 彼女は電気を使わずに水を浄化する装置を発明した。  
-
-・design  
-定義: 物・制度・仕組みの構造や機能を、目的に合うよう計画する。  
-頻度: 〈10/10〉  
-違い: design は形状、構造、仕様、使い勝手などの設計面を強調する。devise は解決のための案を考え出すことに重点があり、必ずしも詳細な設計図を作るとは限らない。  
-例: The engineers designed a bridge that can withstand strong winds.  
-訳: 技術者たちは強風に耐えられる橋を設計した。  
-
-・formulate  
-定義: 計画、政策、理論、規則などを、明確で組織的な形にまとめる。  
-頻度: 〈7/10〉  
-違い: formulate は抽象的な内容を言語化・体系化する formal な語で、devise より政策・方針・理論との結び付きが強い。  
-例: The ministry formulated a new safety policy.  
-訳: その省は新しい安全政策を策定した。  
-
-・develop  
-定義: 考え、製品、制度、方法などを時間をかけて発展・改良する。  
-頻度: 〈10/10〉  
-違い: develop は初期案の後の試作、改善、実用化まで含み得る。devise は新しい案を考えて組み立てる段階を強調し、完成までを含意しない。  
-例: The company developed a training program for new employees.  
-訳: その会社は新人向け研修プログラムを開発した。  
-
-・conceive  
-定義: 考えや計画を心の中で形成する。  
-頻度: 〈6/10〉  
-違い: conceive は発想・着想の内面的な段階を強調し、実行可能な方法へ組み立てる devise より抽象的で formal。  
-例: The project was first conceived as a small community library.  
-訳: その計画は当初、小さな地域図書館として構想された。  
-
-・plan  
-定義: 何をどのように行うかを前もって決める。  
-頻度: 〈10/10〉  
-違い: plan は最も一般的で、決定・予定化までを広く表す。devise は難しさや工夫を伴う案を考え出す響きがあり、より formal。  
-例: We planned the project in three stages.  
-訳: 私たちはそのプロジェクトを3段階で計画した。  
-
-・work out  
-定義: 考えて詳細や解決方法を見つけ出す。  
-頻度: 〈6/10〉  
-違い: work out は口語的で、問題の解決や細部の決定に広く使える。devise は、まとまった計画・方法を新たに組み立てる formal な表現。  
-例: They worked out a way to share the costs fairly.  
-訳: 彼らは費用を公平に分担する方法を考え出した。  
-
-・come up with  
-定義: 考え、案、答えなどを思いつく・出す。  
-頻度: 〈6/10〉  
-違い: come up with は口語的で、発想が出た事実に焦点を置く。devise はその案を目的に合わせて練り上げる含みが強い。  
-例: Can you come up with a better explanation?  
-訳: もっとよい説明を考え出せますか。  
-
-2. 【動詞・他動詞・法律】遺言で（伝統的には特に不動産を）譲る、遺贈する
-
-【日本語訳・定義】遺言によって財産を特定の人、団体、信託などへ与えることを表す法律用語。伝統的には real property（不動産・土地建物）を対象とするが、現代の法域・法典では real property と personal property の双方を含むことがある。一般の「相続する」全般ではなく、遺言を作成した人が財産の行き先を定める行為に焦点がある。法律上の成立要件や効力は法域によって異なるため、語義としての「遺言で譲る」と、個別制度で実際に権利が移る条件は分けて考える。  
-
-【頻度】〈2/10〉  
-
-【レジスター/領域】法律・遺言・信託の formal な用法。leave は日常語で、leave property to someone や leave someone property のように財産を残すことを広く表す。bequeath は辞書でも formal とされる法律・文語寄りの語で、devise はさらに法律専門語として、契約書、遺言書、判例、法律解説などで見かけやすい。  
-
-【文法パターン】devise 〈property・interest・estate〉 to 〈受遺者・団体〉＝〈財産〉を〈人・団体〉に遺言で譲る／the will devises 〈property〉 to 〈受遺者〉＝遺言が〈財産〉を〈人・団体〉に譲る／〈property〉 be devised to 〈受遺者〉＝〈財産〉が〈人・団体〉に遺言で譲られる／devise 〈property〉 under・in a will＝遺言に基づいて〈財産〉を譲る  
-
-【コロケーション】
-
-・devise property to 〈beneficiary〉  
-用途: 遺言によって財産を特定の受遺者へ譲ることを表す法律上の基本構文。  
-例: The will devised the family farm to their eldest child.  
-訳: その遺言は家族の農場を長子に譲るものだった。  
-
-・devise the house/land to 〈人・団体〉  
-用途: 家、土地、農地などの財産を、遺言で特定の相手に譲る。  
-例: She devised the house to her nephew in her will.  
-訳: 彼女は遺言でその家を甥に譲った。  
-
-・be devised to 〈beneficiary〉  
-用途: 財産を受け取る側を主語にせず、財産が遺言上どこへ帰属するかを受動態で述べる。  
-例: The remaining land was devised to a charitable foundation.  
-訳: 残りの土地は慈善財団に遺言で譲られた。  
-
-・devise an interest in 〈property〉 to 〈beneficiary〉  
-用途: 不動産そのものだけでなく、その不動産に対する法的な持分・権利を譲る formal な構文。  
-例: The testator devised his interest in the land to a conservation trust.  
-訳: 遺言者はその土地に対する自分の権利を保全信託に譲った。  
-
-・devise 〈property〉 under a will  
-用途: 財産の移転が遺言に基づくものであることを明示する。  
-例: The dispute concerned property devised under a valid will.  
-訳: その争いは有効な遺言に基づいて譲られた財産に関するものだった。  
-
-【語法・注意】この法律用法では、通常、譲る財産が直接目的語、受け手が to句になる。devise the house to her のように使い、devise her the house という二重目的語の形へ置き換えない。devise は生前の売買・譲渡を表す語ではなく、deed による convey や一般的な transfer と区別する。伝統的な法律用語では devise は real property、bequest・legacy は personal property と対比されるが、現代法では境界が緩むことがある。  
-
-【類義語】
-
-・bequeath  
-定義: 遺言によって財産を人・団体へ与える。  
-頻度: 〈5/10〉  
-違い: 伝統的には personal property に使われ、devise は real property に使われる対比がある。ただし現代の法域では両者の範囲が重なることがある。  
-例: She bequeathed her jewelry to her granddaughter.  
-訳: 彼女は宝石を孫娘に遺贈した。  
-
-・leave  
-定義: 遺言で財産を人・団体に残す、譲る。  
-頻度: 〈4/10〉  
-違い: leave property to someone は日常語として最も自然で、財産の種類を限定しない。devise は法律上の形式性と、遺言による処分という焦点を持つ。  
-例: He left the house to his son in his will.  
-訳: 彼は遺言でその家を息子に残した。  
-
-・will  
-定義: 遺言によって財産を人・団体に与える。  
-頻度: 〈3/10〉  
-違い: この意味の will は法律・古風な用法で、日常語では leave や bequeath が普通。助動詞 will と混同しやすく、devise より使用範囲が狭い。  
-例: The donor willed the estate to a public charity.  
-訳: その寄贈者は遺言でその財産を公益団体に譲った。  
-
-3. 【名詞・可算・法律】遺言による財産の遺贈・処分（伝統的には特に不動産）
-
-【日本語訳・定義】遺言によって財産を受遺者へ移す一件の行為、贈与、または法的な処分を指す可算名詞。伝統的には特に不動産の遺贈を指すが、現代の法域では遺言による財産上の贈与をより広く指す場合がある。  
-
-【頻度】〈2/10〉  
-
-【レジスター/領域】法律・遺産管理の formal な用法。一般会話では gift by will、property left in a will、testamentary gift などに言い換える。  
-
-【文法パターン】a devise of 〈property〉 to 〈beneficiary〉＝〈財産〉を〈受遺者〉へ譲る遺贈・処分／make a devise of 〈property〉＝〈財産〉の遺贈・処分を行う／a specific devise＝特定の財産を対象とする遺贈／a general devise＝一般資産または特定されていない土地を対象とする一般遺贈／a residuary devise＝残余財産を対象とする残余遺贈／the validity・effect of a devise＝遺贈・処分の有効性・効果  
-
-【コロケーション】
-
-・a devise of 〈property〉 to 〈beneficiary〉  
-用途: どの財産を誰へ譲る遺贈・処分かを示す基本的な名詞句。  
-例: The will contained a devise of the orchard to a charitable trust.  
-訳: その遺言には、その果樹園を慈善信託へ譲る処分が含まれていた。  
-
-・make a devise of 〈property〉  
-用途: 遺言によって財産を譲る処分を行うことを formal に表す。  
-例: The testator made a devise of the land to his children.  
-訳: 遺言者はその土地を子どもたちに譲る処分を行った。  
-
-・a specific devise of 〈property〉  
-用途: 特定の土地・建物など、個別に特定された財産の遺贈を表す。  
-例: The will made a specific devise of the family home to her daughter.  
-訳: その遺言は、家族の家を娘に譲る特定遺贈を定めていた。  
-
-・a general devise  
-用途: 法域・時代により定義が異なるため、無限定に一つの意味へ固定しない。伝統的用法では、個別の列挙・特定を伴わない土地の遺贈（all my lands 型）を指す。現代の遺産実務（UPC系）では、特定物の移転を指示せず、一定の数量・価値を遺産の一般資産から給付する贈与を指すことがある。  
-例: 現代のUPC系実務: In this UPC-based jurisdiction, the will made a general devise of $20,000 to the charity, payable from the estate's general assets.  
-訳: このUPC系の法域では、その遺言は遺産の一般資産から支払われる2万ドルを慈善団体に与える一般遺贈を定めた。  
-
-・a residuary devise  
-用途: 他の遺贈、債務、費用などを処理した後に残る残余財産を対象とする遺贈・処分を表す。  
-例: The residuary devise covered assets not effectively disposed of elsewhere in the will.  
-訳: 残余遺贈は、遺言の他の箇所で有効に処分されなかった資産を対象とした。  
-
-・challenge/uphold a devise  
-用途: 遺言上の財産処分の有効性を争ったり、裁判所が有効と認めたりする。  
-例: The court upheld the devise after reviewing the will.  
-訳: 裁判所は遺言を検討した後、その遺贈・処分を有効と認めた。  
-
-【語法・注意】この名詞の中心は「遺言による一件の処分・贈与」であり、単に死後に財産を受け取るという事実全般を指す inheritance とは異なる。文脈によっては、その処分によって移転される対象財産や財産上の利益を devise と呼ぶこともあるが、これは処分と対象の換喩的な重なりとして読むもので、独立した語義を機械的に立てる必要はない。make・validity・effect・challenge などは処分の読みを、receive・take・pass・property などは対象財産の読みを生じさせやすいが、法域・定義条項・周囲の文脈を優先する。specific、general、residuary の分類も、定義条項・法域・時代によって内容が変わり得る。  
-
-【類義語】
-
-・bequest  
-定義: 遺言によって財産を人・団体へ与えること、またはその財産。  
-頻度: 〈4/10〉  
-違い: 伝統的には personal property に重点があり、devise は real property に重点がある。現代の法域では用法が重なることがあるため、完全な置換とは限らない。  
-例: The will included a bequest to the local hospital.  
-訳: その遺言には地元の病院への遺贈が含まれていた。  
-
-・legacy  
-定義: 遺言によって与えられる財産、伝統的には動産・金銭の遺贈。  
-頻度: 〈5/10〉  
-違い: legacy は traditional な用法で personal property に結び付きやすく、devise は不動産の遺贈に結び付きやすい。現代法では境界が緩む場合がある。  
-例: The will left a cash legacy to each grandchild.  
-訳: その遺言は各孫に現金の遺贈を残した。  
-
-・testamentary gift  
-定義: 遺言によって与えられる財産上の利益。  
-頻度: 〈3/10〉  
-違い: devise より広い formal term で、不動産か動産かを語そのものでは限定しない。  
-例: The lawyer reviewed every testamentary gift in the will.  
-訳: その弁護士は遺言に含まれるすべての遺言による贈与を確認した。  
-
-4. 【名詞・可算・法律】遺言中の財産処分条項（「遺言書全体」の意味は従）
-
-【日本語訳・定義】遺言書の中に置かれた、財産を特定の受遺者へ譲る個別の処分条項を主に指す法律上の可算名詞。一般辞書では devise を「遺言書またはその条項」と併記することがあるが、法律辞書の記述および現代の法律文では、個別の財産処分条項を指す読みが中心である。文脈によっては財産を処分する遺言書全体を指す用法もあるが、学習上は条項の読みを基本にする。  
-
-【頻度】〈1/10〉  
-
-【レジスター/領域】法律・遺言書の非常に formal な用法。日常英語では a clause in a will、will provision、a will などに言い換える。  
-
-【文法パターン】a devise in 〈a will〉＝遺言中の財産処分条項／a devise contained in 〈the will〉＝遺言に含まれる財産処分条項／the devise in clause 4＝第4条の財産処分条項  
-
-【コロケーション】
-
-・a devise in the will  
-用途: 遺言書の中に置かれた個別の財産処分条項を指す。  
-例: The dispute centered on a devise in the will.  
-訳: その争いは遺言中のある財産処分条項を中心としていた。  
-
-・a devise contained in the will  
-用途: その条項が遺言書に含まれていることを明示する。  
-例: The solicitor examined a devise contained in the will.  
-訳: その事務弁護士は遺言書に含まれる財産処分条項を調べた。  
-
-・the devise in clause 4  
-用途: 遺言書の特定の条項を、条項番号によって指し示す。  
-例: The court interpreted the devise in clause 4 narrowly.  
-訳: 裁判所は第4条の財産処分条項を狭く解釈した。  
-
-【語法・注意】一般辞書に「遺言書またはその条項」とする記述があっても、現代の法律文で個別の条項を読む場合は、in the will、contained in the will、in clause 4 などの文脈が手掛かりになる。「遺言書全体」の読みを完全に否定するのではなく、条項の読みを主とし、全体の読みは従として扱う。受遺者や処分内容を前面に出す表現は条項の形式が確定しないため、この語義の中心例ではなく、語義3の遺贈・処分として読む。  
-
-【類義語】
-
-・will provision  
-定義: 遺言書に含まれる個別の規定・条項。  
-頻度: 〈4/10〉  
-違い: devise より一般的で、財産処分以外の遺言条項にも使える。  
-例: The will provision required the beneficiary to survive the testator.  
-訳: その遺言条項は、受遺者が遺言者より長く生存することを求めていた。  
-
-・clause in a will  
-定義: 遺言書の中の条項。  
-頻度: 〈5/10〉  
-違い: clause in a will は条項であることを明示し、devise のような専門的な財産処分義を必ずしも含まない。  
-例: The lawyer found an ambiguous clause in the will.  
-訳: その弁護士は遺言書の中に曖昧な条項を見つけた。  
-
-・testamentary clause  
-定義: 遺言に含まれる条項、特に財産処分に関する条項。  
-頻度: 〈2/10〉  
-違い: devise より説明的な formal term で、条項としての構造を明示する。  
-例: The testamentary clause was challenged by the heirs.  
-訳: その遺言条項は相続人たちによって争われた。
-
----
-
-# incorporate
-
----
-headword: incorporate
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-22
-updated_at: 2026-08-22
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /ɪnˈkɔrpəreɪt/｜英: /ɪnˈkɔːpəreɪt/。動詞は4音節の in-COR-puh-rate で、第2音節に主強勢がある。米音では第2音節の /r/ を発音し、英音では同じ位置を /ɔː/ として発音する。語尾の /reɪt/ は動詞の一部であり、過去形・過去分詞 incorporated では語末の /t/ の後ろに /ɪd/ が加わって /ɪnˈkɔrpəreɪtɪd/（英 /ɪnˈkɔːpəreɪtɪd/）となる。同綴のまれな形容詞 incorporate は /ɪnˈkɔrpərət/（英 /ɪnˈkɔːpərət/）で、動詞の /-reɪt/ と語尾が異なる。  
-
-＃語源
-
-中英語を経て、後期ラテン語 incorporatus「一つの身体にされた、組み込まれた」から入った語。ラテン語 incorporare は in-「中へ」と corpus, corporis「身体」を組み合わせた語で、もともとは「一つの身体・まとまりの中へ入れる、身体として形づくる」という発想をもつ。現在の「要素を全体へ組み込む」と「会社を法人として成立させる」は、別のものを一つのまとまりとして扱うという点でつながるが、法人化には法的な意味が加わる。  
-同語源・関連語には corporation「法人、企業」、corporate「法人の、企業の」、incorporation「組み込み、法人化」、incorporator「法人設立者」がある。これらは共通する corpus「身体」の語根をもつが、各語の意味を単純に置き換えられるわけではない。  
-
-＃語形成
-
-・incorporated：incorporate の過去形・過去分詞。`be incorporated into the plan` は「計画に組み込まれている」、`an incorporated company` は「法人化された会社」の意味になる。  
-・incorporating：現在分詞・動名詞。`incorporating new data` のように「新しいデータを組み込むこと／組み込みながら」を表す。  
-・incorporation：名詞。「組み込み、統合、法人化」。`articles of incorporation` は、米国などの会社法で法人設立に関する正式な書類を指す法律表現である。  
-・形容詞 incorporate：/ɪnˈkɔrpərət/（英 /ɪnˈkɔːpərət/）で「一体化した、肉体を備えた」の意。辞書には載るが現代の一般英語ではまれで、通常の「組み込まれた」には incorporated を使う。  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】（要素・考えなどを）取り入れて組み込む、統合する
-
-【日本語訳・定義】既にある計画・製品・制度・記録・混合物などの全体に、情報、提案、特徴、原料などを取り入れ、その全体の一部として働かせる。単に同じ集合に含めるだけの include より、既存の全体へ実際に組み込んで調整するという含みが出やすいが、完全に不可分になることまでは意味しない。物理的な混合にも抽象的な統合にも使う。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準的な語。日常会話よりも、ビジネス、学術、技術、製品説明、料理、契約・規程などの説明的でややフォーマルな文脈に多い。  
-
-【文法パターン】incorporate 〈要素〉＝要素を取り入れる／incorporate 〈要素〉 into/in/within 〈全体〉＝要素を全体へ組み込む／〈全体〉 incorporates 〈要素〉＝全体が要素を含み組み込んでいる／〈要素〉 be incorporated into/in/within 〈全体〉＝要素が全体に組み込まれている／incorporate 〈条項・文書の内容〉 by reference into 〈契約・文書〉＝条項・文書の内容を参照によって正式な一部にする  
-
-【コロケーション】
-
-・incorporate 〈feature/component〉 into 〈design/product〉  
-用途: 製品や設計に機能・部品を組み込むことを表す。  
-例: The new model incorporates a quieter motor into its redesigned body.  
-訳: 新型モデルは、再設計された本体により静かなモーターを組み込んでいる。  
-
-・〈design/product〉 incorporates 〈feature〉  
-用途: 設計や製品が特定の機能・特徴を組み込んでいることを、全体を主語にして表す。  
-例: The new design incorporates several energy-saving features.  
-訳: 新しい設計には、複数の省エネ機能が組み込まれている。  
-
-・incorporate 〈idea/suggestion〉 into 〈plan/proposal〉  
-用途: 提案や意見を計画・企画へ取り入れる。  
-例: We incorporated the reviewers’ suggestions into the final draft.  
-訳: 私たちは査読者たちの提案を最終草稿に取り入れた。  
-
-・incorporate 〈information/data〉 into 〈report/system〉  
-用途: 情報やデータを報告書・システムなどの一部として統合する。  
-例: The software incorporates data from multiple sources into a single dashboard.  
-訳: そのソフトウェアは複数の情報源からのデータを一つのダッシュボードに統合する。  
-
-・incorporate 〈ingredient〉 into 〈mixture/batter〉  
-用途: 原料や材料を混合物・生地などに混ぜ込む。料理や化学の説明で使う。  
-例: Gradually incorporate the melted butter into the batter.  
-訳: 溶かしたバターを生地に少しずつ混ぜ込んでください。  
-
-・be incorporated into 〈policy/system〉  
-用途: 方針や制度に要素が組み込まれ、正式な一部になることを受動態で表す。  
-例: The new safety standards were incorporated into the company’s operating policy.  
-訳: 新しい安全基準は会社の業務方針に組み込まれた。  
-
-・be incorporated in/within 〈record/report〉  
-用途: 記録や報告書の中に結果・情報が含まれていることを、位置や結果に焦点を置いて表す。  
-例: The test results were incorporated within the patient’s medical record.  
-訳: 検査結果は患者の診療記録に組み込まれた。  
-
-・incorporate 〈term/provision〉 by reference into 〈agreement〉  
-用途: 別の文書や先行する条項を、参照を明示して契約の正式な一部にする法律用法。単に文書名を挙げるだけではない。  
-例: The agreement incorporates the earlier terms by reference.  
-訳: その合意書は、先行する条項を参照によって正式な一部として取り込んでいる。  
-
-【語法・注意】最も基本的な形は `incorporate A into B` で、Aを外側からBの一部へ入れる変化に焦点を置く。`incorporate A in B` も使えるが、Bの中に組み込まれた結果や位置に焦点を置きやすく、受動態で特によく現れる。`within` は範囲の内側を明示する硬めの表現である。  
-
-全体を主語にする `The design incorporates new features.` も重要で、この場合は「設計が新機能を組み込んでいる」であり、`incorporates into` としない。要素を主語にするなら `New features are incorporated into the design.` のように受動態にする。  
-`incorporate by reference` は契約・法令などで別文書の条項を明示的な参照により本文の一部にする表現で、一般的な「参照する」より強い。`incorporate` は統合を示す傾向があるが、組み込まれた要素が完全に分離不能になることや、内容が同一化することを必ず含むわけではない。  
-`include` は単に範囲内に含めること、`integrate` は一つの体系の中で機能するよう調和させることに焦点を置く。`incorporate` はその中間で、既存の全体に要素を取り入れる行為・結果を広く表せる。単に二つを一緒にするだけなら `combine A with B` のほうが自然なことがある。  
-
-【類義語】
-
-・include  
-定義: 全体・集合・範囲の一部として含める。  
-頻度: 〈10/10〉  
-違い: incorporate より中立的で、対象を実際に組み込んで調整したことまでは示さない。単なる構成要素の列挙にも使える。  
-例: The price includes delivery and installation.  
-訳: 料金には配送と設置が含まれている。  
-
-・integrate  
-定義: 複数の要素を一つの体系の中で機能するよう統合する。  
-頻度: 〈8/10〉  
-違い: incorporate より、各要素が一つのシステムとして調和し機能する結果に焦点を置きやすい。  
-例: The update integrates payment and customer-support tools.  
-訳: その更新版は決済ツールと顧客支援ツールを統合する。  
-
-・embed  
-定義: 物や情報を別のものの内部へ深く埋め込む。  
-頻度: 〈7/10〉  
-違い: incorporate より、内部に固定されて容易には取り出せない位置関係や、ウェブページへの埋め込みを強く示す。  
-例: The article embeds a video from the original interview.  
-訳: その記事には元のインタビューの動画が埋め込まれている。  
-
-・combine  
-定義: 二つ以上のものを一緒にして一つのまとまりにする。  
-頻度: 〈9/10〉  
-違い: incorporate が既存の全体へ要素を入れる向きを示しやすいのに対し、combine は要素同士を対等に結合する中立的な語である。  
-例: Combine the flour and water in a large bowl.  
-訳: 大きなボウルで小麦粉と水を混ぜ合わせる。  
-
-・blend  
-定義: 物質・色・音・性質などを境目が目立たないよう滑らかに混ぜる。  
-頻度: 〈7/10〉  
-違い: incorporate より、混合後に個々の境界が弱まり、調和した状態になることに焦点を置く。  
-例: The recipe blends sweet and spicy flavors.  
-訳: そのレシピは甘味と辛味を調和させている。  
-
-・add  
-定義: 既にあるものへ別のものを加える。  
-頻度: 〈10/10〉  
-違い: incorporate より単純な追加を表し、追加後に全体へ統合・調整されることは含意しない。  
-例: Add the chopped onions to the pan.  
-訳: 刻んだタマネギをフライパンに加えてください。  
-
-・assimilate  
-定義: 人・集団・情報などを、既存の文化や体系に吸収して同化させる。  
-頻度: 〈6/10〉  
-違い: incorporate より、取り込まれた側が周囲に似たものになったり、独自性を失ったりする含みが出やすい。  
-例: The system assimilates new data without changing the original records.  
-訳: そのシステムは元の記録を変えずに新しいデータを取り込む。  
-
-【反意語】
-
-・exclude  
-定義: 全体・範囲の中に入れず、構成員や対象から外す。  
-頻度: 〈9/10〉  
-違い: incorporate が要素を全体の一部にする方向なのに対し、exclude はその参加・包含を拒む完全な反対方向の語である。  
-例: The revised policy excludes data collected without consent.  
-訳: 改訂された方針は同意なしに収集されたデータを除外している。  
-
-・separate  
-定義: 一緒になっているものを分け、別々の状態にする。  
-頻度: 〈9/10〉  
-違い: incorporate が要素を一つのまとまりへ近づけるのに対し、separate は要素同士を離す方向を表す。ただし、単なる追加の反対語ではない。  
-例: The procedure separates the solid particles from the liquid.  
-訳: その手順は固体粒子を液体から分離する。  
-
-・extract  
-定義: 混合物・文書・体系などの中から一部を取り出す。  
-頻度: 〈7/10〉  
-違い: incorporate の結果として全体の一部になったものを、そこから取り出す方向を示す。物理的・情報的な分離に使う。  
-例: The program extracts the relevant figures from the report.  
-訳: そのプログラムは報告書から関連する数値を抽出する。  
-
-2. 【他動詞・自動詞・法律/ビジネス】（会社・組織を）法人化する、法人になる
-
-【日本語訳・定義】会社、事業、団体などを法律上の法人・corporation として成立させる。対象を取る他動詞では「～を法人化する」、会社・団体を主語にする自動詞や受動態では「法人になる、法人化される」と訳す。単に事業を始めることや、あらゆる種類の会社を登録することと同じではなく、具体的な法的制度や効果は法域によって異なる。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】ビジネス・法律の正式な用法。会社の設立・登記・定款・法的所在地を説明する文書で、受動態の `be incorporated` が特によく使われる。  
-
-【文法パターン】incorporate 〈company/business/organization〉＝会社・事業・組織を法人化する／〈company/business〉 be incorporated＝会社・事業が法人化される／〈company〉 incorporate(s) in 〈place・jurisdiction〉＝会社が～で法人化する／be incorporated in 〈place・jurisdiction〉＝～で法人化されている／be incorporated under 〈law・statute〉＝～法の下で法人化されている／be incorporated as a 〈corporate form〉＝～という法人形態で法人化されている  
-
-【コロケーション】
-
-・incorporate a company/business  
-用途: 会社や事業を法人として成立させる手続きを表す。  
-例: The founders incorporated the business in 2012.  
-訳: 創業者たちは2012年にその事業を法人化した。  
-
-・be incorporated in 〈state/country〉  
-用途: 会社がどの州・国・法域で法人化されているかを示す。  
-例: The company was incorporated in Delaware in 2012.  
-訳: その会社は2012年にデラウェア州で法人化された。  
-
-・be incorporated under 〈law/statute〉  
-用途: 法人化の法的根拠となる法律や制定法を示す。  
-例: The foundation is incorporated under state law.  
-訳: その財団は州法に基づいて法人化されている。  
-
-・be incorporated as a 〈corporate form〉  
-用途: 株式会社、非営利法人など、法人化後の法的形態を示す。  
-例: The organization was incorporated as a nonprofit corporation.  
-訳: その組織は非営利法人として法人化された。  
-
-・the company incorporated in 〈year〉  
-用途: 会社を主語にして、法人になった時期を自動詞で述べる。  
-例: The startup incorporated in 2018 and expanded overseas two years later.  
-訳: その新興企業は2018年に法人化し、2年後に海外へ事業を拡大した。  
-
-・become incorporated  
-用途: 組織が法人格を得て法人になる変化を表す。  
-例: The association became incorporated after its members approved the charter.  
-訳: その協会は会員が設立規約を承認した後、法人化した。  
-
-・incorporate a business in 〈jurisdiction〉  
-用途: 特定の法域を指定して事業を法人化することを表す。  
-例: The owners incorporated their business in Ontario.  
-訳: 所有者たちはオンタリオ州で事業を法人化した。  
-
-【語法・注意】この義では、`incorporate a company` のように対象を取る他動詞と、`The company incorporated.` のように会社自身を主語にする自動詞の両方がある。`The company incorporated a new feature.` なら「会社が新機能を組み込んだ」という語義1なので、会社の法人化と混同しない。  
-
-`be incorporated in Delaware` の `in` は通常の所在地ではなく、法人として成立した法域を示す。実際の本社所在地を言う `be based in Delaware` とは異なる。`under` は根拠となる法律、`as` は成立した法人形態に焦点を置く。  
-英語の incorporate は、単に `start a business`、`set up an organization`、`register a business` と同義ではない。これらは事業開始・組織設立・登録という別の行為を表し、法人として成立したことを必ずしも含まない。法域によって法人化の手続きや効果は異なるため、英単語の意味だけから有限責任、税制、株式発行などの制度効果を推測しない。  
-過去分詞 `incorporated` は、`was incorporated` のような受動態だけでなく `an incorporated entity` のような形容詞的用法にもなる。法人化の意味では、動詞の語尾 /-reɪt/ と、まれな形容詞 incorporate の /-rət/ を区別する。  
-
-【類義語】
-
-・form  
-定義: 会社・組織・集団などを設立または形成する。  
-頻度: 〈10/10〉  
-違い: incorporate より広く、法人、組合、任意団体など法的形態を限定しない。法人化を明示するには不足する。  
-例: They formed a company to develop the software.  
-訳: 彼らはそのソフトウェアを開発するために会社を設立した。  
-
-・establish  
-定義: 組織・制度・事業などを正式に設立し、存在させる。  
-頻度: 〈10/10〉  
-違い: incorporate より一般的で、設立の事実を示すが、corporation としての法的成立を必ずしも示さない。  
-例: The group established a charitable foundation.  
-訳: その団体は慈善財団を設立した。  
-
-・charter  
-定義: 公的な認可書・設立許可によって法人や団体を成立させる。  
-頻度: 〈5/10〉  
-違い: incorporate より法的な認可・憲章の付与に焦点があり、米国の法人設立など限定的な文脈で使われる。  
-例: The legislature chartered the new university.  
-訳: 議会は新しい大学の設立認可を与えた。  
-
-・constitute  
-定義: 法的・正式な行為によって組織や団体を成立させる。  
-頻度: 〈6/10〉  
-違い: incorporate が法人という法的形態を作るのに対し、constitute は組織を構成・成立させる行為全般に使え、より硬い。  
-例: The agreement constituted the two agencies as a joint authority.  
-訳: その合意は二つの機関を共同当局として成立させた。  
-
-・set up  
-定義: 会社・組織・事業などを始め、活動できる状態にする。  
-頻度: 〈10/10〉  
-違い: incorporate より口語的で広く、事業や組織を始めることは示すが、法人として成立させたことまでは示さない。  
-例: They set up a company to develop the software.  
-訳: 彼らはそのソフトウェアを開発するために会社を設立した。  
-
-【反意語】
-
-・dissolve  
-定義: 法人・会社・組織を正式に解散させ、その法的な存在を終わらせる。  
-頻度: 〈7/10〉  
-違い: incorporate が法人を成立させる方向なのに対し、dissolve は法人を終わらせる逆方向の法的手続きである。単なる事業停止を必ず意味するわけではない。  
-例: The shareholders voted to dissolve the corporation.  
-訳: 株主たちはその法人を解散することを決議した。  
-
-・disincorporate  
-定義: 法人としての権利・資格・存在を失わせる、または法人状態から外れる。  
-頻度: 〈2/10〉  
-違い: incorporate の反対方向を表す法律用語だが、非常にまれで、通常の会社解散には dissolve のほうが自然である。  
-例: The city voted to disincorporate the failing municipal corporation.  
-訳: その市は、経営難の自治体法人を法人状態から外すことを決議した。
-
----
-
-# privilege
-
----
-headword: privilege
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: unknown
-created_at: 2026-08-23
-updated_at: 2026-08-23
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /ˈprɪvəlɪdʒ/（/ˈprɪvlɪdʒ/ とも）｜英: /ˈprɪvəlɪdʒ/。基本形は3音節の `PRIV-uh-lij` で、第1音節に主強勢がある。米音では第2音節の弱母音を省いた2音節の発音も辞書に載るが、主強勢の位置は変わらない。語末の /dʒ/ は有声の破擦音で、綴りの `-lege` を「レッジ」と読む。名詞・動詞で基本の発音は同じである。複数形・三人称単数 privileges は /ˈprɪvəlɪdʒɪz/、過去形・過去分詞 privileged は /ˈprɪvəlɪdʒd/、-ing形 privileging は /ˈprɪvəlɪdʒɪŋ/。  
-
-＃語源
-
-中英語を経て、古フランス語からラテン語 *prīvilēgium*「個人に関する、または個人に対する法律・法令」にさかのぼる。ラテン語 *prīvus*「個別の、私的な」と *lēx*「法律」の属格形 *lēgis* が結び付いた語で、もともとは一般の法律とは別に特定の個人・立場へ適用される規定を表した。そこから「特定の人だけに与えられる特別な権利・免除」という現在の中心へ発達した。  
-同語源・関連語として、*private*「私的な」は *prīvus*、*legal*「法律上の」は *lēx/lēgis* と関係する。これらは語源上の構成要素を共有するが、*privilege* と意味を置き換えられる語ではない。  
-
-＃語形成
-
-・privileged：過去形・過去分詞から発達した形容詞。「特権を持つ、恵まれた」または「法的に開示から保護された」。後者は `privileged communication` のような法律用法である。  
-・privileging：動詞 *privilege* の現在分詞・動名詞。「特定の人・考えなどを特別扱いすること／しながら」。  
-・underprivileged：*under-*「下に、不十分に」＋*privileged*。社会的・経済的に十分な機会や資源を与えられていない。*privilege* の単純な反意語というより、社会的条件を表す定着した形容詞である。  
-・privileges：名詞の複数形、または動詞 *privilege* の三人称単数現在形。複数形の名詞では制度・組織上の複数の特典を表しやすい。  
-
-＃コアイメージ
-
-現代英語の共通核は、「一部の人・立場・対象に、通常以上の権利・利益・保護・機会・重みが与えられること」である。必ず法的に成立した権利を指すわけではなく、社会的に見えにくい優位や、話者が感じる光栄も含む。  
-・特定の人・立場に与えられる特別な権利や便宜 → 「特権、特別な権利・便宜」（語義1）  
-・社会的な立場に伴う特別な優位 → 「社会的な特権、恵まれた立場・優位」（語義2）  
-・特別に与えられた機会への誇りや感謝 → 「光栄、特別な機会」（語義3）  
-・法的に特定の立場へ与えられる特別な保護 → 「法的特権、免除・免責、開示拒絶権」（語義4）  
-・人・考えなどへ特別な重みを与える行為 → 「特別扱いする、優先する」（語義5）  
-・特別な権利や優位を持つ人・立場 → 「特権を持つ、恵まれた」（語義6）  
-・法的な開示義務から特別に守られる情報など → 「法的に保護された、開示特権のある」（語義7）  
-
-＃意味・用法・関連表現
-
-1. 【名詞・可算】特権、特別な権利・便宜
-
-【日本語訳・定義】特定の人・集団・職位などにだけ与えられる権利、許可、便宜、利益。一般の人にも同じように認められるものではなく、立場、会員資格、許可、特別な好意などに基づく。法的な権利に限らず、組織内の利用上の便宜や一時的に認められた自由も含む。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。制度、組織、学校、クラブ、職場、サービスなどの説明で広く使う。社会的な優位を批判的に論じる場合は語義2、法的な保護を指す場合は語義4を参照する。  
-
-【文法パターン】have/enjoy/hold a privilege＝特権・便宜を持つ／grant/allow/extend a privilege to 〈人〉＝人に特権・便宜を与える／the privilege of 〈動名詞〉＝～する特権・機会／the privileges of membership/office＝会員資格・職位に伴う諸特典／lose/abuse/revoke/withdraw privileges＝特権を失う・乱用する・取り消す・取り上げる。  
-
-【コロケーション】
-
-・a special privilege  
-用途: 一般の人にはない特別な権利・便宜を明示する。  
-例: Early access to the archive is a special privilege for registered researchers.  
-訳: アーカイブへの早期アクセスは、登録研究者に認められた特別な便宜である。  
-
-・have the privilege of 〈動名詞〉  
-用途: 特別な機会や許可を持つことを表す。具体的な「光栄」に焦点がある場合は語義3にもつながる。  
-例: Members have the privilege of using the library after hours.  
-訳: 会員には閉館後に図書館を利用する特典がある。  
-
-・grant/allow/extend a privilege to someone  
-用途: 人に特権・便宜を与えることを表す。*extend* はやや正式で、既存の特典を適用する含みがある。  
-例: The board granted the athlete the privilege of training with the senior team.  
-訳: 理事会はその選手に、上級チームと練習する特別な機会を与えた。  
-
-・membership privileges  
-用途: 会員資格に伴う利用特典や権利をまとめて表す。  
-例: The new membership includes dining and parking privileges.  
-訳: 新しい会員資格には、食事と駐車の特典が含まれる。  
-
-・voting/parking/exercise privileges  
-用途: 投票、駐車、運動など、特定の行為をする許可・利用権を表す。  
-例: The resident lost his parking privileges after repeated violations.  
-訳: その住民は違反を繰り返したため、駐車の利用権を失った。  
-
-・abuse a privilege  
-用途: 与えられた特権や自由を、許された範囲を越えて利用する。  
-例: Do not abuse the privilege of working remotely.  
-訳: リモート勤務を認められている特権を乱用してはいけない。  
-
-・lose/have privileges taken away  
-用途: 規則違反などにより、複数の特典・自由を失うことを表す。*have privileges taken away* は「特権を取り上げられる」。  
-例: Students may lose computer privileges if they ignore the security rules.  
-訳: 学生はセキュリティ規則を無視すると、コンピューター利用の特典を失うことがある。  
-
-・privilege of access to 〈場所・情報〉  
-用途: 特定の人だけに認められたアクセス権を表す。単なるアクセスの事実ではなく、限定された許可に焦点がある。  
-例: The curator has the privilege of access to the restricted collection.  
-訳: その学芸員には、制限付きコレクションへのアクセス特権がある。  
-
-【語法・注意】この語義の *privilege* は通常可算名詞で、単数なら *a/the privilege*、複数なら複数の特典や自由を表す。`privilege` を「誰にでも認められる基本的な権利」の意味で無条件に使わず、一般性を強調するなら *right* のほうが自然なことが多い。ただし、法律上の特別な権利は語義4のように *privilege* と呼ばれる。  
-
-`the privilege of + 動名詞` は、許可・便宜を表すときにも、話者が「光栄だ」と感じる機会を表すときにも使える。前者は限定された利用権、後者は語義3の定型的な丁寧表現であり、文脈で区別する。特権を与える側は *grant/allow a privilege to 人*、特権を受ける側は *have/enjoy a privilege* とする。  
-`privileges` は、会員・囚人・学生などに認められる複数の利用権を表すことが多い。*take away someone's privileges* は「人の特典・自由を取り上げる」で、単一の法的権利の取消しだけを指すとは限らない。  
-
-【類義語】
-
-・right  
-定義: 法律・規則・道徳などに基づき、ある行為や利益を受ける正当な資格。  
-頻度: 〈10/10〉  
-違い: privilege が特定の人だけに与えられる限定性を示しやすいのに対し、right は一般に認められる権利や正当な請求資格を表しやすい。  
-例: Access to clean water should be treated as a basic right.  
-訳: 清潔な水へのアクセスは基本的権利として扱われるべきだ。  
-
-・entitlement  
-定義: 制度・契約・資格などによって、受け取ることを当然に認められた権利・給付。  
-頻度: 〈7/10〉  
-違い: privilege より、規則や資格に基づいて請求できるという制度上の資格に焦点がある。  
-例: The allowance is an entitlement under the employment contract.  
-訳: その手当は雇用契約に基づく受給権である。  
-
-・prerogative  
-定義: 職位・権限を持つ人に固有の裁量権や特別な権能。  
-頻度: 〈6/10〉  
-違い: privilege より硬く、一般的な便宜よりも、君主・役職者・権限者が判断・行動できる権能を表しやすい。  
-例: Choosing the speaker is the chair's prerogative.  
-訳: 議長を選ぶのは議長の裁量権である。  
-
-・benefit  
-定義: 行為・制度・立場などから得られる利益や便益。  
-頻度: 〈10/10〉  
-違い: benefit は特定者だけに与えられる権利でなくてもよいが、privilege は受け手が限定されることや特別扱いの含みが出やすい。  
-例: Flexible hours are a major benefit of the job.  
-訳: 柔軟な勤務時間はその仕事の大きな利点である。  
-
-2. 【名詞・不可算・社会】社会的な特権、恵まれた立場・優位
-
-【日本語訳・定義】人種、性別、階級、富、国籍、障害の有無などの社会的な位置によって、他の人々より多くの機会、安全、信用、資源、選択肢を得やすい状態。この意味では、本人が意識して獲得した個別の権利ではなく、社会の仕組みの中で一部の人に偏って存在する、しばしば見えにくく未選択の優位を指す。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】社会問題、政治、教育、社会学、ジェンダー・人種論などで頻出。批判的な含みを持つことが多いが、語そのものが特定個人の悪意や罪を必ず意味するわけではない。  
-
-【文法パターン】social/structural/white/male/class privilege＝社会的・構造的・白人・男性・階級の特権／a life of privilege＝恵まれた生活／benefit from privilege＝特権から利益を得る／acknowledge/check one's privilege＝自分の特権を認める・自覚する。  
-
-【コロケーション】
-
-・social/structural privilege  
-用途: 社会制度や慣行が特定集団に与える、個人の努力だけでは説明できない優位を表す。  
-例: The course examines how structural privilege shapes access to education.  
-訳: その講座では、構造的な特権が教育へのアクセスをどう形づくるかを検討する。  
-
-・white privilege  
-用途: 人種によって白人に有利な機会や扱いが生じる社会的優位を表す。  
-例: The workshop asks participants to reflect on white privilege in the workplace.  
-訳: その研修では、職場における白人特権について参加者に考えさせる。  
-
-・male privilege  
-用途: 性別によって男性が得やすい社会的な優位を表す。  
-例: The discussion focused on male privilege in academic careers.  
-訳: その議論は、学術職における男性特権に焦点を当てた。  
-
-・a life of privilege  
-用途: 富や地位に恵まれ、苦労や制約が比較的少ない生活を表す。  
-例: He grew up in a life of privilege and had little experience of financial insecurity.  
-訳: 彼は恵まれた環境で育ち、経済的不安をほとんど経験しなかった。  
-
-・benefit from privilege  
-用途: 社会的な優位から、本人の努力とは別に利益を受けることを表す。  
-例: People who benefit from privilege may not notice the barriers faced by others.  
-訳: 特権から利益を得ている人は、他の人が直面する障壁に気づかないことがある。  
-
-・acknowledge/check one's privilege  
-用途: 自分が持つ社会的な優位を認め、その前提を自覚するよう促す表現。*check* は「自分の発言や態度を見直す」の含みを持つ。  
-例: The speaker acknowledged her privilege before discussing the policy.  
-訳: その講演者は、その政策について話す前に自分の特権を認めた。  
-
-・the privileged and the marginalized  
-用途: 社会的に有利な側と不利な側を対比する集合表現。*the privileged* は「特権を持つ人々」。  
-例: The report compares the experiences of the privileged and the marginalized.  
-訳: その報告書は、特権を持つ人々と周縁化された人々の経験を比較している。  
-
-【語法・注意】この意味の *privilege* は一般に不可算で、`a privilege` と数えるより *white privilege*、*social privilege*、*a life of privilege* のように使う。`a privilege` は通常、語義1の個別の特典、または語義3の「光栄」を表す。  
-
-社会的特権は、特定の人が誰かに個別に「与えた」権利とは限らない。したがって「特権を持つ人は必ず意識的に差別している」と一般化しない。*privilege* と *wealth* は重なり得るが同じではなく、富がなくても制度・文化上の優位が存在する場合がある。  
-`check your privilege` は「自分の社会的な立場が発言や見方に与える影響を自覚せよ」という批判的・促しの表現で、単なる「特権を確認する」という事務的な意味ではない。  
-
-【類義語】
-
-・advantage  
-定義: 他者より有利に働く条件や利益。  
-頻度: 〈10/10〉  
-違い: advantage は個人の技能・偶然・状況にも使えるが、social privilege は社会構造に由来する、集団に偏った優位を強調する。  
-例: Her language skills gave her an advantage in the interview.  
-訳: 彼女は語学力のおかげで面接で有利になった。  
-
-・social advantage  
-定義: 社会的な立場や背景によって得られる有利な条件。  
-頻度: 〈6/10〉  
-違い: privilege と近いが、privilege のような権力関係への批判や「当然視され見えにくい」含みは弱い。  
-例: Family connections can provide a social advantage.  
-訳: 家族の人脈は社会的な優位をもたらすことがある。  
-
-・entitlement  
-定義: 自分には特別な扱いを受ける資格があると考える態度、または制度上の受給権。  
-頻度: 〈7/10〉  
-違い: privilege が実際の社会的優位を指すのに対し、entitlement はその優位を当然視する心理や請求資格を指しやすい。  
-例: His sense of entitlement made him expect special treatment.  
-訳: 彼の特別扱いを受けて当然だという意識が、特別待遇を期待させた。  
-
-・power  
-定義: 他者や制度に影響を及ぼし、結果を左右できる力。  
-頻度: 〈10/10〉  
-違い: power は実際に行使できる影響力に焦点があるが、privilege は行使しなくても有利な扱いや機会を受けやすい立場を含む。  
-例: Political power can shape which issues receive public attention.  
-訳: 政治的権力は、どの問題が世間の注目を受けるかを左右し得る。  
-
-【反意語】
-
-・disadvantage  
-定義: 他者より不利に働く条件や、利益・機会の不足。  
-頻度: 〈9/10〉  
-違い: privilege が社会的な優位を表すのに対し、disadvantage は同じ社会的条件の反対側にある不利を表す。  
-例: Poverty can place children at a serious educational disadvantage.  
-訳: 貧困は子どもを教育面で深刻に不利な立場に置くことがある。  
-
-・marginalization  
-定義: 集団や個人が社会の中心的な機会・意思決定から周縁へ追いやられること。  
-頻度: 〈6/10〉  
-違い: privilege が有利な位置の状態を指すのに対し、marginalization は不利な位置へ押し出す過程や状態を指す。  
-例: The policy aims to reduce the marginalization of rural communities.  
-訳: その政策は農村地域の周縁化を減らすことを目指している。  
-
-3. 【名詞・可算・定型表現】光栄、特別な機会
-
-【日本語訳・定義】何かをする機会や、誰かと関わる機会を、誇りや感謝を伴う特別なものとして表す。`It is a privilege to ...` や `have the privilege of ...` では、法的な特権や社会的優位ではなく、「～できて光栄だ」「～する機会を得てありがたい」という丁寧で改まった気持ちを表す。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】丁寧な会話、式典、挨拶、スピーチ、公式文書などのフォーマルな表現。社交辞令として使われることもあるため、必ずしも強い個人的感情を意味しない。  
-
-【文法パターン】It is a privilege to 〈動詞〉＝～できて光栄だ／have the privilege of 〈動名詞〉＝～する機会を得て光栄だ／It was my privilege to 〈動詞〉＝私にとって～できたことは光栄だった／the privilege of meeting/serving/working with 〈人〉＝人に会う・仕える・一緒に働く光栄。  
-
-【コロケーション】
-
-・It is a privilege to meet you  
-用途: 初対面や改まった場で「お会いできて光栄です」と丁寧に述べる。  
-例: It is a privilege to meet the scientist whose work inspired us.  
-訳: 私たちに着想を与えたその科学者にお会いできて光栄です。  
-
-・have the privilege of working with 〈人〉  
-用途: 一緒に仕事をする機会を名誉として表す。  
-例: I have had the privilege of working with some remarkable teachers.  
-訳: 私は素晴らしい先生方と一緒に働く光栄に恵まれてきた。  
-
-・the privilege of serving 〈人・組織〉  
-用途: 役職や任務を担うことを、改まって名誉として述べる。  
-例: She described public service as the privilege of serving her community.  
-訳: 彼女は公務を、地域社会に尽くす光栄だと表現した。  
-
-・It was my privilege to 〈動詞〉  
-用途: 過去の経験について、話者が光栄に感じたことを改まって述べる。  
-例: It was my privilege to introduce the award-winning author.  
-訳: 受賞作家を紹介できたことは、私にとって光栄でした。  
-
-・the privilege of hearing/seeing 〈人・物〉  
-用途: 特別な演奏・講演・出来事に接する機会を光栄として表す。  
-例: We had the privilege of hearing the orchestra perform live.  
-訳: 私たちはそのオーケストラの生演奏を聴く光栄に恵まれた。  
-
-【語法・注意】`It is a privilege to ...` は形の上では `a` を伴う可算名詞だが、ここで意味するのは「限定された人だけが持つ制度上の権利」ではない。相手への敬意や機会への感謝を示す定型表現である。  
-
-`have the privilege of + 動名詞` は語義1にも語義3にもなり得る。たとえば会員だけが閉館後に利用できるなら語義1、相手に会えたことを誇りとして述べるなら語義3である。`It is my privilege to announce ...` は「発表する役を任されて光栄だ」で、単なる `I am allowed to ...` より改まっている。  
-この意味の *privilege* を、日本語の「特権」とだけ訳すと、話者の敬意や感謝が消えることがある。`honor` は尊敬・名誉、`privilege` はその名誉を感じる特別な機会に焦点がある。  
-
-【類義語】
-
-・honor  
-定義: 誇りや敬意を伴う名誉、または名誉ある機会。  
-頻度: 〈9/10〉  
-違い: honor は名誉そのものや、名誉を与える行為にも使える。privilege は「その機会を持てたこと」を丁寧に表す定型性が強い。  
-例: It was an honor to speak at the ceremony.  
-訳: 式典で話せたことは光栄でした。  
-
-・pleasure  
-定義: 喜びや満足、または喜んで何かをする気持ち。  
-頻度: 〈10/10〉  
-違い: pleasure は感情の快さに焦点があり、privilege は特別な機会への敬意・感謝や改まった響きを含みやすい。  
-例: It was a pleasure to work with your team.  
-訳: あなたのチームと仕事ができて楽しかったです。  
-
-・distinction  
-定義: 名誉ある評価、栄誉、または他と区別される優れた地位。  
-頻度: 〈7/10〉  
-違い: distinction は評価や地位という結果に焦点があるが、privilege はその機会を経験することへの気持ちを表す。  
-例: She had the distinction of being the first woman to lead the team.  
-訳: 彼女には、そのチームを率いた最初の女性となったという栄誉があった。  
-
-・opportunity  
-定義: 何かをするのに適した機会や可能性。  
-頻度: 〈10/10〉  
-違い: opportunity は感情的な敬意や特別扱いを含まない中立語で、privilege は機会を光栄・特別なものとして評価する。  
-例: The internship gave him an opportunity to study abroad.  
-訳: そのインターンシップは彼に海外で学ぶ機会を与えた。  
-
-4. 【名詞・可算・不可算・法律】法的特権、免除・免責、開示拒絶権
-
-【日本語訳・定義】法律や手続きにより、特定の立場・関係・行為について、通常なら負う義務、責任、証言・情報開示などを免除したり拒めるようにしたりする特別な保護。`attorney-client privilege` のように、特定の通信・情報を法的手続きで開示しなくてよい制度を指すことがある。また、職務上の行為について責任を問われない抗弁・免責を指す法分野もある。具体的な成立要件、放棄の効果、対象範囲は法域・制度ごとに異なる。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】法律、裁判、証拠開示、政府・議会、弁護士・依頼人の通信などの専門用法。一般の *secret* や *confidentiality* と同義ではない。  
-
-【文法パターン】attorney-client/executive/parliamentary privilege＝弁護士・依頼人間／行政機関・議会の特権／assert/invoke/claim privilege＝特権を主張・援用する／waive privilege＝特権を放棄する／be protected by privilege＝特権によって保護される／privilege against self-incrimination＝自己負罪拒否特権。  
-
-【コロケーション】
-
-・attorney-client privilege  
-用途: 弁護士と依頼人の、法律上保護される一定の秘密通信を表す米国法中心の表現。  
-例: The lawyer argued that the email was protected by attorney-client privilege.  
-訳: その弁護士は、そのメールが弁護士・依頼人間の秘匿特権によって保護されると主張した。  
-
-・executive privilege  
-用途: 行政府の長などが、一定の公務上の通信・情報の開示を拒めると主張する特権。制度と範囲は法域によって異なる。  
-例: The president invoked executive privilege to withhold the internal memo.  
-訳: 大統領は内部メモの開示を拒むために行政特権を援用した。  
-
-・parliamentary privilege  
-用途: 議員が議会活動に関連して持つ特別な権利・免責を表す。国によって内容が異なる。  
-例: The committee reviewed the limits of parliamentary privilege.  
-訳: 委員会は議会特権の限界を検討した。  
-
-・assert/invoke/claim privilege  
-用途: 証拠開示や尋問などで、情報を出さない法的保護を主張・援用する。  
-例: The witness asserted privilege and declined to answer the question.  
-訳: その証人は特権を主張し、その質問への回答を拒んだ。  
-
-・waive privilege  
-用途: 法的特権による保護を自ら放棄することを表す。  
-例: The client chose to waive privilege and disclose the advice.  
-訳: 依頼人は特権を放棄して、その助言を開示することを選んだ。  
-
-・privilege against self-incrimination  
-用途: 自分に不利益な供述を強制されない権利を表す法律表現。国・制度により正式名称や範囲は異なる。  
-例: The defendant invoked the privilege against self-incrimination.  
-訳: 被告人は自己負罪拒否特権を援用した。  
-
-・be protected by privilege  
-用途: 通信、文書、証言などが、法的特権により開示・責任追及から守られることを表す。  
-例: The report was not automatically protected by privilege merely because a lawyer saw it.  
-訳: 弁護士が見たというだけで、その報告書が自動的に特権で保護されるわけではなかった。  
-
-・privilege in legal proceedings  
-用途: 裁判や証拠手続きにおける特権一般を表す。  
-例: The court considered whether the privilege applied in the legal proceedings.  
-訳: 裁判所は、その特権が法的手続きに適用されるかを検討した。  
-
-【語法・注意】法律用法の *privilege* は、単なる秘密、社内情報、個人情報を意味しない。たとえば弁護士・依頼人間の通信でも、法的助言との関係、当事者、目的、開示状況などにより保護の有無が変わり得る。具体的な制度要件を英単語の意味だけから推測しない。  
-
-`assert/invoke/claim privilege` は、開示や回答を拒む法的根拠を主張する表現、`waive privilege` はその保護を放棄する表現である。`confidential` は事実上秘密に扱う性質、`privileged` は一定の法的保護が及ぶことを表し、両者は重なるが同義ではない。  
-米国の *attorney-client privilege*、行政の *executive privilege*、議会の *parliamentary privilege* などは、似た「特権」でも制度と対象が異なる。日本語訳は「特権」「秘匿特権」「免責」など、対象となる法的効果に合わせる。  
-
-【類義語】
-
-・immunity  
-定義: 法的責任、義務、訴追などから免除される保護。  
-頻度: 〈8/10〉  
-違い: immunity は責任・訴追・義務から免れる効果に焦点があるが、privilege は開示拒絶権や職務上の特別な権利も含む広い法律語である。  
-例: Diplomats may have immunity from prosecution under certain conditions.  
-訳: 外交官は一定の条件下で訴追免除を持つことがある。  
-
-・exemption  
-定義: 通常の規則、義務、税、要件などを適用しないこと。  
-頻度: 〈8/10〉  
-違い: exemption は特定の義務・規則から外れることに焦点があり、privilege はその免除を含む特別な法的地位・保護を表す。  
-例: The law grants an exemption from the reporting requirement.  
-訳: その法律は報告義務の免除を認めている。  
-
-・legal protection  
-定義: 法律によって不利益、責任、開示などから守られること。  
-頻度: 〈8/10〉  
-違い: legal protection は説明的で広い語句、privilege は特定の関係・職位・手続きに結び付いた制度上の保護を指しやすい。  
-例: The statute provides legal protection for whistleblowers.  
-訳: その法律は内部告発者に法的保護を与える。  
-
-・confidentiality  
-定義: 情報を秘密として扱い、第三者へ漏らさない性質・義務。  
-頻度: 〈7/10〉  
-違い: confidentiality は秘密保持の義務や性質に焦点があるが、privilege は裁判などで開示を拒める法的権利を含み得る。  
-例: The agreement imposes strict confidentiality obligations on both parties.  
-訳: その合意書は両当事者に厳格な秘密保持義務を課している。  
-
-5. 【他動詞・フォーマル】（人・考えなどを）特別扱いする、優先する
-
-【日本語訳・定義】特定の人、集団、声、価値、考え、方法などに、他のものより大きな権利・重み・機会・注意を与える。単に好みを持つだけでなく、制度・議論・分析・政策などが、ある対象を有利な位置に置くことを表しやすい。`privilege A over B` では、AをBより優先・重視するという比較関係を明示する。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】フォーマル。社会科学、教育、政治、批評、学術論文、政策分析などで多い。対象を優先することを中立的に述べる場合もあるが、不公平な偏りを批判する含みを持つことがある。  
-
-【文法パターン】privilege 人・物＝人・物を特別扱いする／privilege A over B＝AをBより優先する／privilege the needs/voices/interests of 〈集団〉＝集団の必要・声・利益を特別に重視する／policies/systems that privilege A＝Aを有利に扱う政策・制度／be privileged by 〈制度・構造〉＝制度・構造によって特別扱いされる。  
-
-【コロケーション】
-
-・privilege A over B  
-用途: AをBより優先・重視する比較関係を明示する。  
-例: The policy privileges short-term growth over long-term stability.  
-訳: その政策は長期的な安定より短期的な成長を優先している。  
-
-・privilege the needs of 〈集団〉  
-用途: 特定集団の必要を、他の必要より優先的に扱う。  
-例: The redesign privileges the needs of wheelchair users.  
-訳: その再設計は車いす利用者のニーズを特に重視している。  
-
-・privilege certain voices  
-用途: 議論や報道で、特定の人々の発言を目立たせ、重く扱う。  
-例: The panel was criticized for privileging certain voices over local experience.  
-訳: その討論会は、地域の経験より特定の声を優先したとして批判された。  
-
-・privilege one interpretation over another  
-用途: 学術・批評で、ある解釈を別の解釈より採用しやすいものとして扱う。  
-例: The essay privileges one interpretation over several plausible alternatives.  
-訳: その論文は、いくつかの妥当な別解釈より一つの解釈を優先している。  
-
-・policies that privilege 〈人・集団〉  
-用途: 政策が特定の人・集団に有利な結果をもたらす構造を述べる。  
-例: Critics opposed policies that privilege the children of wealthy families.  
-訳: 批判者たちは裕福な家庭の子どもを優遇する政策に反対した。  
-
-・privilege efficiency over fairness  
-用途: 効率と公平のような価値の優先順位を批判的・分析的に述べる。  
-例: The automated process may privilege efficiency over fairness.  
-訳: 自動化された手続きは、公平さより効率を優先する可能性がある。  
-
-【語法・注意】この動詞は通常他動詞で、`privilege people`、`privilege one account over another` のように目的語を取る。`privilege A over B` の *over* は「AをBの上に置く」という比較関係を示し、単なる `privilege A` よりも、何を犠牲にしているかが明確になる。  
-
-`favor` は人・案を支持する一般語、`prioritize` は順序や資源配分の優先を表す語、`privilege` は特別扱いによる非対称性や構造的な偏りを分析する語として使われやすい。したがって、日常会話で単に「好きだ」「先に処理する」と言う場合に過度に硬い *privilege* を使わない。  
-受動の `be privileged` は、制度によって有利に扱われる意味にも、語義6の形容詞「特権を持つ」にも読める。動詞の受動態として明確にしたい場合は、行為者・制度を示す `be privileged by the system` などを使う。  
-
-【類義語】
-
-・favor  
-定義: 人・案・側などを支持し、他より好意的に扱う。  
-頻度: 〈9/10〉  
-違い: favor は日常的で広く、個人的な好みや一時的な支持にも使える。privilege は形式的・構造的な優遇や不均衡を論じる響きが強い。  
-例: The committee favored the cheaper proposal.  
-訳: 委員会はより安い提案を支持した。  
-
-・prioritize  
-定義: 複数の課題・目的の中で、あるものを先に扱い重要視する。  
-頻度: 〈9/10〉  
-違い: prioritize は処理順・資源配分の実務的な優先、privilege は誰の利益・声・価値が制度的に上位に置かれるかという含みを持ちやすい。  
-例: The team prioritized safety during the redesign.  
-訳: チームは再設計中、安全を優先した。  
-
-・prefer  
-定義: 複数の選択肢のうち、あるものを好む・選ぶ。  
-頻度: 〈10/10〉  
-違い: prefer は話者や選択者の好みを表す中立的な語で、privilege のような制度的な優遇や社会的批判を必ずしも含まない。  
-例: I prefer written instructions to video tutorials.  
-訳: 私は動画チュートリアルより書面の説明を好む。  
-
-・elevate  
-定義: 地位、重要性、注目度などを高めて上位に置く。  
-頻度: 〈7/10〉  
-違い: elevate は対象を高く評価・位置付ける結果に焦点があり、privilege は他の対象との非対称な扱いや権利配分を含みやすい。  
-例: The campaign elevated climate issues on the public agenda.  
-訳: そのキャンペーンは気候問題を世論の議題で重く扱わせた。  
-
-【反意語】
-
-・marginalize  
-定義: 人・集団・考えを中心的な機会、権力、議論から周縁へ追いやる。  
-頻度: 〈7/10〉  
-違い: privilege が特定の対象を有利な中心へ置くのに対し、marginalize は別の対象を中心から外す反対方向の行為を表す。  
-例: The process marginalizes applicants who lack stable internet access.  
-訳: その手続きは安定したインターネット環境を持たない応募者を周縁化する。  
-
-・disfavor  
-定義: 人・案・集団を好意的に扱わず、不利な扱いをする。  
-頻度: 〈5/10〉  
-違い: privilege が特別に有利に扱う方向なのに対し、disfavor は特別に不利に扱う方向を表す硬い語である。  
-例: The rule disfavors small organizations with limited staff.  
-訳: その規則は職員の少ない小規模組織に不利に働く。  
-
-6. 【形容詞・限定・叙述】privileged（人・立場が）特権を持つ、恵まれた
-
-【日本語訳・定義】特別な権利、機会、資源、地位などを持つ、または他の人より有利な社会的条件にある。`a privileged background` は恵まれた家庭・環境、`the privileged few` は特権を持つ少数者を表す。`be privileged to do` は「～する光栄・機会に恵まれている」という改まった表現で、語義3の *privilege* と対応する。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。社会的な格差を述べる場合は批判的な含みを持ち得る。`privileged access` のように、権限を与えられたという中立的な制度・技術用法もある。  
-
-【文法パターン】a privileged person/background/position＝特権を持つ人・恵まれた背景・立場／the privileged few＝特権を持つ少数者／be privileged to 〈動詞〉＝～する光栄・機会に恵まれている／privileged access＝限定された権限を持つアクセス。  
-
-【コロケーション】
-
-・a privileged background  
-用途: 富、教育、社会的地位などに恵まれた生育環境を表す。  
-例: She comes from a privileged background but supports public education.  
-訳: 彼女は恵まれた家庭環境の出身だが、公教育を支援している。  
-
-・a privileged position  
-用途: 他者より有利な立場、または特別な権限を持つ立場を表す。  
-例: His privileged position gave him access to decision-makers.  
-訳: 彼の恵まれた立場のおかげで、意思決定者に接触できた。  
-
-・the privileged few  
-用途: 特権を持つ少数者を、しばしば批判的にまとめて指す。  
-例: Only the privileged few could afford the original tuition fees.  
-訳: 当初の授業料を払えたのは、特権を持つ一部の人々だけだった。  
-
-・be privileged to 〈動詞〉  
-用途: ～する光栄・機会に恵まれていると改まって述べる。  
-例: We are privileged to welcome the new director today.  
-訳: 本日は新しい所長をお迎えできて光栄です。  
-
-・privileged access to 〈情報・施設〉  
-用途: 限られた人だけに認められたアクセス権を表す。  
-例: Administrators have privileged access to the server logs.  
-訳: 管理者にはサーバーログへの特別なアクセス権がある。  
-
-【語法・注意】`privileged` は単に「金持ち」を意味しない。富が典型的な要因でも、教育、性別、人種、国籍、職位、制度上の権限など、他者より有利な条件全般に使える。批判的な文脈でも、形容詞だけから個人の性格や悪意を断定しない。  
-
-`be privileged to do` は社会階級の話ではなく、丁寧な「～できて光栄だ」という意味になり得る。一方、`a privileged background`、`the privileged few` は社会的な優位を表すことが多い。`privileged access` はシステムや施設の権限であり、必ず社会的階級を指すわけではない。  
-
-【類義語】
-
-・advantaged  
-定義: 他者より有利な条件・機会を持つ。  
-頻度: 〈7/10〉  
-違い: advantaged は比較的中立で、特権という歴史的・社会的な権力関係を必ずしも強調しない。  
-例: The program supports disadvantaged and advantaged students alike.  
-訳: その制度は不利な立場の学生にも有利な立場の学生にも同じように対応する。  
-
-・fortunate  
-定義: 運や環境に恵まれて幸運な。  
-頻度: 〈8/10〉  
-違い: fortunate は偶然の幸運や望ましい結果に焦点があり、privileged は継続的な権利・資源・社会的優位を含みやすい。  
-例: We were fortunate to find a safe place to stay.  
-訳: 私たちは安全に泊まれる場所を見つけられて幸運だった。  
-
-・elite  
-定義: 社会・組織で最も高い地位や影響力を持つ層に属する。  
-頻度: 〈8/10〉  
-違い: elite は上位集団への所属を示す名詞・形容詞で、privileged は上位層でなくても特別な利益や権限を持つ状態を表せる。  
-例: The elite athletes trained at a separate facility.  
-訳: その一流選手たちは別の施設で練習した。  
-
-・favored  
-定義: 特別に好意的に扱われ、選ばれやすい。  
-頻度: 〈7/10〉  
-違い: favored は誰かからの選好や制度上の優遇に焦点があり、privileged は本人の背景や地位に由来する持続的な優位も表す。  
-例: The favored candidate received more media attention.  
-訳: 優遇された候補者はより多くのメディアの注目を受けた。  
-
-【反意語】
-
-・disadvantaged  
-定義: 機会、資源、権利などが不足し、他者より不利な。  
-頻度: 〈7/10〉  
-違い: privileged が有利な社会的・制度的条件を表すのに対し、disadvantaged はその反対側の不利な条件を表す。  
-例: The scholarship is intended for disadvantaged students.  
-訳: その奨学金は不利な立場にある学生を対象としている。  
-
-・underprivileged  
-定義: 社会的・経済的に十分な機会や資源を与えられていない。  
-頻度: 〈6/10〉  
-違い: underprivileged は特に貧困や社会的排除を背景とする定着語で、privileged の一般的な反対語より対象が限定される。  
-例: The charity provides meals for underprivileged children.  
-訳: その慈善団体は恵まれない子どもたちに食事を提供している。  
-
-7. 【形容詞・限定・法律】privileged（情報・通信などが）法的に保護された、開示特権のある
-
-【日本語訳・定義】法律上の privilege によって、通常なら開示・提出・証言を求められる場面でも保護される情報、通信、文書など。`privileged communication` は、秘密であるという事実だけでなく、一定の法的関係・目的・要件に基づき開示から保護される通信を指す。法域ごとの制度要件があるため、単に `secret` や `confidential` と置き換えられない。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】法律、訴訟、証拠開示、弁護士・依頼人の通信などの専門用法。  
-
-【文法パターン】privileged communication/information/document/material＝法的に保護された通信・情報・文書・資料／be legally privileged＝法律上の秘匿特権の対象である／privileged from disclosure＝開示を免除されている。  
-
-【コロケーション】
-
-・privileged communication  
-用途: 法的特権によって、訴訟などで開示から保護される通信を表す。  
-例: The lawyer marked the letter as a privileged communication.  
-訳: その弁護士は、その手紙を秘匿特権の対象となる通信として扱った。  
-
-・privileged information  
-用途: 法的特権によって開示が制限される情報を表す。  
-例: The witness refused to disclose privileged information.  
-訳: その証人は、法的に保護された情報の開示を拒んだ。  
-
-・a privileged document  
-用途: 証拠開示などで保護対象となる文書を表す。  
-例: The court ordered the parties to identify any privileged documents.  
-訳: 裁判所は当事者に、秘匿特権の対象となる文書を特定するよう命じた。  
-
-・be legally privileged  
-用途: 情報・通信などが法律上の privilege の対象であることを述べる。  
-例: Not every email sent to a lawyer is legally privileged.  
-訳: 弁護士に送られたメールがすべて法律上保護されるわけではない。  
-
-・privileged from disclosure  
-用途: 法的手続き上の開示義務から免除されることを硬く表す。  
-例: The advice may be privileged from disclosure in the proceedings.  
-訳: その助言は、その手続きでは開示義務を免除される可能性がある。  
-
-【語法・注意】`privileged` は、語義6の「特権を持つ、恵まれた」と、ここでの「法的に開示から保護された」の二方向に分かれる。`privileged background` は通常社会的優位、`privileged communication` は法律上の保護であり、形だけでなく主語・名詞の種類が意味を決める。  
-
-法律用法では、秘密保持契約があることや、弁護士が関与したことだけで自動的に privilege が成立するとは限らない。どの通信・文書が保護されるか、第三者への開示で放棄されるか、例外があるかは法域・制度で確認する。  
-
-【類義語】
-
-・confidential  
-定義: 秘密として扱われ、許可なく第三者へ伝えるべきでない。  
-頻度: 〈9/10〉  
-違い: confidential は秘密性や秘密保持の扱いを表すが、privileged は法律上の開示拒絶・保護が成立することを含む。  
-例: The report contains confidential business information.  
-訳: その報告書には機密の事業情報が含まれている。  
-
-・protected  
-定義: 危害、利用、開示などから守られている。  
-頻度: 〈10/10〉  
-違い: protected は広い一般語で、privileged は特定の法的根拠に基づく開示保護をより限定的に示す。  
-例: The data is protected by a strong encryption system.  
-訳: そのデータは強力な暗号化システムによって保護されている。  
-
-・secret  
-定義: 他人に知られないように隠された情報。  
-頻度: 〈10/10〉  
-違い: secret は知られていないことに焦点があり、privileged は秘密でなくても法的に開示を拒める場合を含む。  
-例: The agreement was kept secret until the announcement.  
-訳: その合意は発表まで秘密にされた。  
-
-・non-disclosable  
-定義: 開示してはならない、または開示できない。  
-頻度: 〈4/10〉  
-違い: non-disclosable は結果として開示できないことを説明する語で、privileged のように特定の法的関係や証拠法上の制度を示すとは限らない。  
-例: The contract lists several non-disclosable details.  
-訳: その契約書には開示してはならない詳細がいくつか記載されている。
-
----
-
-# eliminate
-
----
-headword: eliminate
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-24
-updated_at: 2026-08-24
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /ɪˈlɪməneɪt/。4音節の i-LIM-uh-nate で、第2音節の /ˈlɪm/ に主強勢がある。第1音節の /ɪ/ と第3音節の /ə/ は弱く、第4音節の /neɪt/ は動詞の -ate なので /eɪt/ と発音する。米英で基本的な音節構成と主強勢の位置に大きな差はない。三人称単数 eliminates は /ɪˈlɪməneɪts/、過去形・過去分詞 eliminated は /ɪˈlɪməneɪtɪd/、-ing形 eliminating は /ɪˈlɪməneɪtɪŋ/。過去形・過去分詞の -ed は、語末の /t/ の後なので /ɪd/ となり、語末にもう1音節加わる。  
-
-＃語源
-
-16世紀に、ラテン語 eliminare「戸外へ追い出す、排除する」の過去分詞 eliminatus から英語に入った。eliminare は ex「外へ」と limen「敷居」を含み、もともとは「敷居の外へ出す」という発想を表した。現在の「不要なものを外へ出す」「候補から外す」「式から未知量を消す」という意味には、この「外へ押し出す」という核が共通している。  
-語源上の関連語としては、limen から来た preliminary「予備の」、subliminal「閾値下の」、liminal「境界・移行状態の」などがある。limit はラテン語 limes「境界」に由来し、eliminate の直接の語源語 limen「敷居」とは別語源である。綴りと音が近い illuminate「照らす、明らかにする」とは別語である。  
-
-＃語形成
-
-elimination は eliminate の名詞形で、「除去、排除、敗退、消去」やその過程を表す。数学では「消去法」を指す。  
-eliminator は「排除する人・もの」や、競技で相手を敗退させる人・ものを表す名詞で、一般語としての使用頻度は eliminate より低い。  
-eliminative / eliminatory は「除去の、排除する」の意味の形容詞で、専門的・硬い文脈に寄りやすい。eliminated と eliminating は、それぞれ過去形・過去分詞と現在分詞であり、通常は独立した語義として扱わない。  
-
-＃コアイメージ
-
-eliminate の核は、対象を「外へ押し出し、存在・候補・参加資格・体内の不要物・式中の未知量からなくす」ことである。物理的に取り除く場合だけでなく、考慮の対象から外す、競技を続けられなくする、数式上見えなくする場合にも使う。  
-・不要なものを、存在・使用の場から外へ押し出すこと → 「取り除く・なくす」（語義1）  
-・候補から外へ押し出すこと → 「考慮から除外する」（語義2）  
-・競技から外へ押し出すこと → 「競技から敗退させる」（語義3）  
-・生存の場から外へ消すこと → 「殺す・抹殺する」（語義4）  
-・体内から外へ押し出すこと → 「体外へ排出する」（語義5）  
-・式から未知量を外すこと → 「未知量を消去する」（語義6）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】取り除く・なくす
-
-【日本語訳・定義】不要な物・問題・障害・状態などを取り除き、それが存在しない、または問題にならない状態にする。物理的に取り去る場合だけでなく、原因をなくす、必要性をなくす、制度上の項目を廃止する場合にも使う。単に程度を下げるだけなら reduce の方が合いやすく、eliminate は「なくす」という到達点を含みやすい。ただし、文脈上「完全にゼロにする」とまでは断定できない場合もある。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】一般語。会話でも使うが、問題・費用・リスク・制度・業務を扱う説明文やビジネス文書で特に多い。  
-
-【文法パターン】`eliminate 〈問題・障害・無駄〉`＝〈問題・障害・無駄〉をなくす／`eliminate the need for 〈行為・物〉`＝〈行為・物〉の必要性をなくす／`eliminate 〈原因・リスク〉`＝〈原因・リスク〉を取り除く／受動態 `〈問題・費用〉 be eliminated`＝〈問題・費用〉がなくされる。`eliminate A from B` は、Bの中からAを取り除く意味になり、考慮対象から外す場合は語義2に近づく。  
-
-【コロケーション】
-
-・eliminate errors/mistakes  
-用途: 作業や制度の中から誤りをなくす。  
-例: The new checking system has eliminated many common errors.  
-訳: 新しい検査システムによって、よくある誤りの多くがなくなった。  
-
-・eliminate the need for 〈行為・物〉  
-用途: 何かを使う、行う必要をなくす。need そのものを物理的に取り除くのではなく、必要な状況をなくす。  
-例: Online access eliminates the need for a paper form.  
-訳: オンラインで利用できるため、紙の書式が不要になる。  
-
-・eliminate waste  
-用途: 製造・業務・資源利用などで無駄をなくす。  
-例: The factory changed its process to eliminate waste.  
-訳: その工場は無駄をなくすために工程を変更した。  
-
-・eliminate a risk/threat  
-用途: リスクや脅威を、残らない状態にする。実際に危険な対象を物理的に除去する場合にも、発生可能性をなくす場合にも使う。  
-例: The redesign should eliminate the risk of data loss.  
-訳: 設計を変更すれば、データ消失のリスクをなくせるはずだ。  
-
-・eliminate a job/position  
-用途: 組織再編などで職・ポストを廃止する。必ずしも、その職に就いていた人を直接「解雇する」という意味ではない。  
-例: The company eliminated several positions during the reorganization.  
-訳: その会社は組織再編の際にいくつかのポストを廃止した。  
-
-・eliminate 〈原因・供給源〉  
-用途: 問題を生じさせる原因や発生源を取り除く。  
-例: Cleaning the filter may eliminate the source of the odor.  
-訳: フィルターを掃除すれば、においの発生源を取り除けるかもしれない。  
-
-【語法・注意】`eliminate` は remove より硬く、問題・リスク・無駄などを「なくす」到達点を意識させる。`reduce` は量・程度を下げるだけでも使えるが、eliminate は通常「残さない」方向を示す。`eliminate the need for ...` は「…を不要にする」であり、`avoid ...`「…を避ける」や `prevent ...`「…が起きるのを防ぐ」と同じではない。特に「今後の望ましくない出来事を防ぐ」という意味だけなら prevent が自然なことが多い。  
-
-【類義語】
-
-・remove  
-定義: 物・問題・人などを、ある場所や状態から取り去る。  
-頻度: 〈10/10〉  
-違い: eliminate より中立で、完全に消すことや問題を根絶することを必ずしも含まない。  
-例: Please remove the old label.  
-訳: 古いラベルを取り外してください。  
-
-・get rid of  
-定義: 望ましくない物・問題・人を取り除く。  
-頻度: 〈9/10〉  
-違い: 会話的で、eliminate よりくだけている。処理が完了したという含みは文脈次第である。  
-例: We need to get rid of these unnecessary files.  
-訳: これらの不要なファイルを削除する必要がある。  
-
-・eradicate  
-定義: 病気・悪習・問題などを根こそぎ完全になくす。  
-頻度: 〈6/10〉  
-違い: eliminate より強く、根絶・撲滅の意図を表す硬い語。  
-例: The campaign aims to eradicate the disease.  
-訳: その運動はその病気の撲滅を目指している。  
-
-・abolish  
-定義: 法律・制度・慣行などを正式に廃止する。  
-頻度: 〈7/10〉  
-違い: 対象が制度・規則・慣行に限られやすく、単なる物理的除去には使わない。  
-例: The country abolished the outdated tax.  
-訳: その国は時代遅れの税を廃止した。  
-
-【反意語】
-
-・retain  
-定義: 物・性質・制度などを手元や元の状態に保つ。  
-頻度: 〈7/10〉  
-違い: eliminate が対象を外すのに対し、retain は対象を残して保持する。  
-例: The design retains the original safety feature.  
-訳: その設計は元の安全機能を残している。  
-
-・preserve  
-定義: 物・状態・価値などを損なわずに保つ。  
-頻度: 〈8/10〉  
-違い: eliminate がなくす方向なのに対し、preserve は維持・保存する方向を表す。  
-例: The policy is intended to preserve local traditions.  
-訳: その政策は地域の伝統を守ることを目的としている。  
-
-2. 【他動詞】考慮から除外する
-
-【日本語訳・定義】人・原因・可能性・選択肢などを、検討・調査・選考の対象から外す。証拠や条件から「候補ではない」と判断する場合に使い、物理的に消したり、必ずしも拒絶したりする意味ではない。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】一般語。調査、診断、推論、採用・選考、意思決定などの説明で多い。  
-
-【文法パターン】`eliminate 〈人・物〉 from consideration/investigation/the shortlist`＝〈人・物〉を考慮・調査・候補から外す／`eliminate 〈人・物〉 as 〈役割・原因〉`＝〈人・物〉を〈役割・原因〉ではないと判断する／`eliminate 〈可能性・説明〉`＝〈可能性・説明〉を除外する。`from` は所属していた候補集合から外す関係、`as` は何として不適格・不可能と判断するかを示す。  
-
-【コロケーション】
-
-・eliminate 〈人〉 as a suspect  
-用途: その人を容疑者ではないと判断し、捜査上の候補から外す。  
-例: The evidence eliminated him as a suspect.  
-訳: その証拠によって、彼は容疑者ではないと判断された。  
-
-・eliminate 〈原因〉 as the cause  
-用途: ある原因が原因ではないと判断する。  
-例: The tests eliminated infection as the cause of the symptoms.  
-訳: 検査によって、感染症はその症状の原因ではないと判断された。  
-
-・eliminate 〈可能性〉 from consideration  
-用途: 可能性を検討対象から外す。  
-例: We cannot eliminate that possibility from consideration yet.  
-訳: その可能性をまだ検討対象から外すことはできない。  
-
-・eliminate every other possible explanation  
-用途: 他にあり得る説明を一つずつ除外する。  
-例: We need more evidence before we can eliminate every other possible explanation.  
-訳: 他のあらゆる可能な説明を除外できるのは、もっと証拠が集まってからだ。  
-
-・be eliminated from the shortlist  
-用途: 最終候補者・候補案などから外される。  
-例: Two proposals were eliminated from the shortlist.  
-訳: 2件の提案が最終候補から外された。  
-
-【語法・注意】この語義では `eliminate` は「検討して不適切・不可能と判断する」という含みを持つことがある。`exclude` は範囲・参加・含有から外すことに焦点があり、`rule out` は可能性や説明を否定して検討対象から外すことに特に自然である。`eliminate someone as a suspect` は「その人を容疑者から外す」という明確な構文だが、`eliminate a suspect` だけでは、容疑者を捜査対象から外すのか、殺すのかが曖昧になり得る。競技から敗退させる意味は、`eliminate a player/team` などの競技語義で扱う。  
-
-【類義語】
-
-・rule out  
-定義: 可能性・説明・選択肢を、あり得ないものとして除外する。  
-頻度: 〈9/10〉  
-違い: eliminate より「可能性を否定する」という推論上の用法に特化し、句動詞なので会話でも使いやすい。  
-例: The tests ruled out a serious infection.  
-訳: 検査によって、重い感染症の可能性は除外された。  
-
-・exclude  
-定義: 集合・範囲・参加者・考慮対象などに含めない。  
-頻度: 〈9/10〉  
-違い: eliminate のように検討の結果外す場合もあるが、最初から含めない、または物理的・制度的に締め出す意味が広い。  
-例: The price excludes delivery.  
-訳: その価格には配送料が含まれていない。  
-
-・dismiss  
-定義: 意見・可能性・説明などを重要でない、または誤りだとして退ける。  
-頻度: 〈8/10〉  
-違い: eliminate よりも、話者がその考えを価値のないものとして退ける評価を含みやすい。  
-例: The committee dismissed the proposal as unrealistic.  
-訳: 委員会はその提案を非現実的なものとして退けた。  
-
-【反意語】
-
-・consider  
-定義: 判断や決定のために、可能性・意見・選択肢を検討する。  
-頻度: 〈10/10〉  
-違い: eliminate が検討対象から外すのに対し、consider は検討の対象に置く。  
-例: The panel is considering three alternatives.  
-訳: 審査団は3つの代替案を検討している。  
-
-・include  
-定義: 集合・範囲・候補などの中に含める。  
-頻度: 〈10/10〉  
-違い: eliminate が候補や構成要素を外すのに対し、include は対象に加えて含める。  
-例: The final list includes two new candidates.  
-訳: 最終リストには新たに2人の候補者が含まれている。  
-
-3. 【他動詞】競技から敗退させる
-
-【日本語訳・定義】競技者・チームなどを、試合や勝負で破って、その競技を続けられない状態にする。対象が競技から外れるという結果に焦点があり、対象を傷つけたり殺したりする意味はない。受動態で「敗退する」と訳すことが非常に多い。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】スポーツ、トーナメント、コンテスト、選考競争。一般ニュースや比喩的な競争にも使う。  
-
-【文法パターン】`eliminate 〈選手・チーム・競争相手〉`＝〈選手・チーム・競争相手〉を敗退させる／`eliminate 〈人・チーム〉 from 〈competition/tournament〉`＝〈人・チーム〉を〈競技・大会〉から敗退させる／`〈選手・チーム〉 be eliminated in 〈round〉`＝〈選手・チーム〉が〈ラウンド〉で敗退する／`〈選手・チーム〉 be eliminated from 〈大会〉`＝〈選手・チーム〉が〈大会〉から敗退する。  
-
-【コロケーション】
-
-・eliminate a rival/team  
-用途: 競争相手やチームを破って敗退させる。  
-例: The underdogs eliminated the top-seeded team.  
-訳: 下馬評の低かったチームが第1シードのチームを敗退させた。  
-
-・eliminate 〈選手・チーム〉 from the competition  
-用途: 〈選手・チーム〉を競技から敗退させる。  
-例: A late goal eliminated our team from the competition.  
-訳: 終盤のゴールで、私たちのチームは大会から敗退した。  
-
-・be eliminated in the first round  
-用途: 1回戦で敗退する。受動態だが、日本語では自然に「1回戦で敗退する」と訳す。  
-例: She was eliminated in the first round of the tournament.  
-訳: 彼女はその大会の1回戦で敗退した。  
-
-・be eliminated from the tournament  
-用途: 大会から敗退する。`from` は大会という競技の枠から外れることを示す。  
-例: The defending champions were eliminated from the tournament.  
-訳: 前回王者はその大会から敗退した。  
-
-・eliminate a title contender  
-用途: 優勝候補を敗退させる。  
-例: The young boxer eliminated a title contender in the quarterfinals.  
-訳: その若いボクサーは準々決勝で優勝候補を敗退させた。  
-
-【語法・注意】競技の文脈で `be eliminated` は通常「敗退する」であり、`be killed` ではない。`eliminate someone` だけでは、競技から外す意味と、語義4の「殺す・抹殺する」意味が文脈によって分かれる。大会・ラウンド・試合を示す `from`、`in`、`by` などがあれば競技義と判断しやすい。`knock out` はスポーツで「敗退させる」の口語的な句動詞で、文字どおりのノックアウトを伴わない競技でも使う。  
-
-【類義語】
-
-・knock out  
-定義: 試合・大会で相手を破って敗退させる。  
-頻度: 〈8/10〉  
-違い: eliminate より口語的で、スポーツ実況や会話に多い。ボクシングでは文字どおりKOする意味もある。  
-例: Brazil knocked out its strongest rival.  
-訳: ブラジルは最大のライバルを敗退させた。  
-
-・defeat  
-定義: 試合・戦い・競争で相手に勝つ。  
-頻度: 〈9/10〉  
-違い: defeat は勝敗そのものを表し、eliminate はその結果として相手が競技を続けられなくなる点に焦点がある。  
-例: The team defeated its rival 2–1.  
-訳: そのチームはライバルを2対1で破った。  
-
-・oust  
-定義: 競争・選考などで相手を地位や参加枠から追い出す。  
-頻度: 〈6/10〉  
-違い: eliminate より硬く、現職者を地位から追放する意味にも広がる。  
-例: The challenger ousted the champion in the semifinals.  
-訳: 挑戦者は準決勝で王者を敗退させた。  
-
-4. 【他動詞・口語/比喩・軍事】殺す・抹殺する
-
-【日本語訳・定義】人・敵・標的などを、計画的に殺す、または存在ごと消す。軍事・犯罪・スパイ小説・ゲームなどで、直接 `kill` と言わず冷淡または婉曲に表す用法である。一般の中立的な会話で、人を殺す意味の普通の言い換えとして使う語ではない。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】軍事・犯罪・フィクションなどに限定されやすい。比喩的に「脅威を抹消する」と言う場合は語義1の「なくす」に近く、実際に生命を奪う意味と断定しない。  
-
-【文法パターン】`eliminate 〈enemy/target〉`＝〈敵・標的〉を殺す／`〈人〉 be eliminated by 〈攻撃者・組織〉`＝〈人〉が〈攻撃者・組織〉に殺される。対象が脅威・問題・リスクなら、通常は語義1の「取り除く・なくす」である。  
-
-【コロケーション】
-
-・eliminate the enemy  
-用途: 軍事・戦闘の文脈で敵を殺す、または抹殺する。  
-例: The order was to eliminate the enemy commander.  
-訳: 命令は敵の司令官を抹殺することだった。  
-
-・eliminate a target  
-用途: 軍事・犯罪・スパイものなどで、標的を殺す。  
-例: The assassin was hired to eliminate the target.  
-訳: その暗殺者は標的を殺すために雇われた。  
-
-・be eliminated by 〈攻撃者・組織〉  
-用途: 物語や報道調の文脈で、人が殺されることを婉曲に表す。  
-例: The witness was quietly eliminated by the organization.  
-訳: その証人は組織によってひそかに抹殺された。  
-
-【語法・注意】`eliminate` の中心は「対象を外へ出して消す」であり、殺人義はその比喩的・婉曲的な拡張である。したがって、実際に殺したことを明確に伝える必要がある一般文では `kill` を使う方が誤解が少ない。`eliminate a threat` は多くの場合「脅威を取り除く」であり、人を殺したとまでは言わない。  
-
-【類義語】
-
-・kill  
-定義: 人・動物などの命を奪う。  
-頻度: 〈10/10〉  
-違い: kill は生命を奪った事実を直接表す中立的な基本語で、eliminate は冷淡・婉曲・軍事的な響きを帯びやすい。  
-例: The hunter killed the animal quickly.  
-訳: そのハンターは動物をすぐに殺した。  
-
-・assassinate  
-定義: 政治家など重要人物を計画的に暗殺する。  
-頻度: 〈6/10〉  
-違い: eliminate より対象と方法が限定され、政治的・計画的な暗殺を明示する。  
-例: The leader was assassinated during the visit.  
-訳: その指導者は訪問中に暗殺された。  
-
-・execute  
-定義: 裁判・命令などに基づき、または抵抗できない相手を処刑する。  
-頻度: 〈7/10〉  
-違い: eliminate は殺害の方法や法的根拠を示さないが、execute は処刑・決められた殺害の含みを持つ。  
-例: The prisoner was executed after the trial.  
-訳: その囚人は裁判の後に処刑された。  
-
-【反意語】
-
-・spare  
-定義: 殺したり罰したりせず、助けて生かしておく。  
-頻度: 〈7/10〉  
-違い: eliminate が命を奪う方向の婉曲表現になり得るのに対し、spare は危害を加えず生かすことを表す。  
-例: The soldiers spared the civilians.  
-訳: 兵士たちは民間人を殺さずに助けた。  
-
-・protect  
-定義: 人・物を危害・損害から守る。  
-頻度: 〈9/10〉  
-違い: protect は危害を防いで対象を存続させる行為であり、eliminate の殺害方向とは反対の結果をもたらす。  
-例: The guards protected the witness.  
-訳: 警備員たちはその証人を守った。  
-
-5. 【他動詞・自動詞・生理】体外へ排出する
-
-【日本語訳・定義】人体や動物の体が、老廃物・不要な物質などを体外へ出す。医学・生理学の用法で、対象を単に「なくす」のではなく、生体の排泄・排出過程に焦点がある。薬物動態では、名詞 elimination が薬物が体内から失われる過程（通常、代謝と排泄を含む）を指し、excretion は物質や代謝物を体外へ排出する過程を指す。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】医学・生理学、健康・薬理の説明。一般向けの記事でも toxins、waste、drugs などと共に使われる。  
-
-【文法パターン】`the body/eliminates 〈waste/toxins〉`＝体が〈老廃物・毒素〉を排出する／`eliminate 〈物質〉 from the body`＝〈物質〉を体から排出する／`〈物質・薬〉 be eliminated from the body`＝〈物質・薬〉が体から排出される／`〈人・動物〉 eliminate normally`＝〈人・動物〉が正常に排泄する（医療記録調）。自動詞用法は形式的・専門的で、一般会話では排便・排尿などを具体的に言う方が自然である。  
-
-【コロケーション】
-
-・eliminate waste from the body  
-用途: 老廃物を体外へ排出する。  
-例: The kidneys help eliminate waste from the body.  
-訳: 腎臓は体から老廃物を排出するのを助ける。  
-
-・eliminate toxins from the body  
-用途: 体内の不要・有害とされる物質を排出する。  
-例: The liver helps the body eliminate some toxins.  
-訳: 肝臓は体が一部の毒素を排出するのを助ける。  
-
-・eliminate a drug from the body  
-用途: 薬物や薬剤が体内から排出される過程を説明する。  
-例: The drug is slowly eliminated from the body.  
-訳: その薬は体からゆっくり排出される。  
-
-・eliminate excess fluid and waste  
-用途: 体が余分な水分や老廃物を体外へ排出することを説明する。結石については通常 `pass a stone` の方が自然である。  
-例: The kidneys help eliminate excess fluid and waste from the body.  
-訳: 腎臓は体から余分な水分や老廃物を排出するのを助ける。  
-
-・eliminate normally  
-用途: 医療記録などで、排泄が正常に行われることを自動詞で表す。  
-例: The patient was able to eliminate normally after surgery.  
-訳: その患者は手術後、正常に排泄できた。  
-
-【語法・注意】この語義では、対象は通常 waste、toxins、drugs のような体内の物質である。`excrete` は体外へ排出する生理学的な過程を直接表す。薬物動態では、名詞 `elimination` は代謝と排泄を含む上位概念で、`excretion` より広い。ただし、動詞 `eliminate a drug` だけから、その薬が代謝されたとまでは断定しない。健康情報で `eliminate toxins` と言う場合、何を毒素と呼ぶかは文脈に依存するため、一般化して「体内のすべての毒を除く」と解釈しない。  
-
-【類義語】
-
-・excrete  
-定義: 体が老廃物を排泄する。  
-頻度: 〈5/10〉  
-違い: eliminate より生理学的で、腎臓などの器官が尿素や老廃物を排出する過程を直接表す。  
-例: The kidneys excrete waste products in urine.  
-訳: 腎臓は尿中に老廃物を排泄する。  
-
-・expel  
-定義: 中にある物を力や作用で外へ押し出す。  
-頻度: 〈7/10〉  
-違い: expel は外へ出す動作に焦点があり、eliminate は体内からなくなった結果や生理過程に焦点を置きやすい。  
-例: The body expels the foreign object naturally.  
-訳: 体はその異物を自然に排出する。  
-
-・void  
-定義: 体から尿や排泄物を排出する。  
-頻度: 〈4/10〉  
-違い: 医療文書で使われる硬い語で、特に尿などの排出を表す。  
-例: The patient was unable to void normally.  
-訳: その患者は正常に排尿できなかった。  
-
-6. 【他動詞・数学】未知量を消去する
-
-【日本語訳・定義】2つ以上の方程式を組み合わせ、ある変数・未知量が式の中から消えるようにする。通常は一方または両方の方程式を定数倍してから加減し、残った未知量を求めやすくする。eliminate は解全体を求めることではなく、未知量を消去する一段階を表す。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】数学・代数。学校数学、技術文書、数学の説明で定着している。  
-
-【文法パターン】`eliminate 〈variable/unknown〉`＝〈変数・未知量〉を消去する／`eliminate x from 〈two equations〉`＝〈2つの方程式〉から x を消去する／`eliminate 〈variable〉 by adding/subtracting equations`＝方程式を加減して〈変数〉を消去する。`solve a system by elimination` は「消去法で連立方程式を解く」であり、eliminate 自身が「解く」全工程を表すわけではない。  
-
-【コロケーション】
-
-・eliminate a variable  
-用途: 連立方程式などから変数を消去する。  
-例: We can eliminate y by adding the two equations.  
-訳: 2つの方程式を足せば、yを消去できる。  
-
-・eliminate x from two equations  
-用途: 2つの方程式から x を消去する。  
-例: Multiply the first equation by two to eliminate x from the system.  
-訳: その連立方程式から x を消去するために、1つ目の方程式を2倍しなさい。  
-
-・eliminate one unknown by subtraction  
-用途: 方程式を引き算して1つの未知量を消去する。  
-例: Subtract the second equation to eliminate one unknown.  
-訳: 1つの未知量を消去するために、2つ目の方程式を引きなさい。  
-
-・eliminate a variable to solve a system  
-用途: 消去法を使って連立方程式を解く。elimination は手法名で、eliminate はその中で変数を消す操作を表す。  
-例: The students solved the system by eliminating x first.  
-訳: 生徒たちは、まず x を消去してその連立方程式を解いた。  
-
-【語法・注意】数学の `eliminate` は、変数の係数をそろえて方程式を加減するなど、未知量を式から消す操作を表す。`cancel` は同じ因子を約分・相殺する場合に使われるため、連立方程式の消去法全体を指す語としてそのまま置き換えない。`eliminate a variable` と `solve an equation` は、消去という一工程と、解を求める全体工程の違いに注意する。  
-
-【類義語】
-
-・remove  
-定義: 式や計算から対象を取り除く。  
-頻度: 〈6/10〉  
-違い: 一般的な「取り除く」で、数学の定着した消去操作を示す専門語としては eliminate の方が具体的である。  
-例: The transformation removes the constant term.  
-訳: その変形によって定数項が取り除かれる。  
-
-・cancel out  
-定義: 反対の量や同じ因子が相殺され、結果から消える。  
-頻度: 〈7/10〉  
-違い: cancel out は相殺関係に焦点があり、eliminate は方程式を操作して未知量を消去する手順全体に使える。  
-例: The positive and negative terms cancel out.  
-訳: 正の項と負の項が相殺される。
-
----
-
-# retain
-
----
-headword: retain
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /rɪˈteɪn/。2音節の ri-TAIN で、第2音節の /ˈteɪn/ に主強勢がある。第1音節 /rɪ/ は弱く、語末の `-tain` は /teɪn/ と読む。米英で基本的な発音に差はない。  
-・三人称単数 `retains` は /rɪˈteɪnz/、過去形・過去分詞 `retained` は /rɪˈteɪnd/、-ing形 `retaining` は /rɪˈteɪnɪŋ/。  
-・`retained` の `-ed` は、語末の有声音 /n/ の後なので /d/ と発音する。  
-
-＃語源
-
-後期中英語に、アングロノルマン語・古フランス語 `retenir` を経て、ラテン語 `retinēre`「保つ、つかんで離さない」から入った。`retinēre` は `re-`「後ろへ、戻して」と `tenēre`「つかむ、保つ」から成ると説明され、対象を手元や内部にとどめて手放さないという現在の意味につながる。  
-語源上の関連語には、`tenēre` 系の `tenure`「保有期間、在職期間」、`detain`「引き留める、拘束する」、`contain`「中に含む」などがある。直接の派生語としては、`retention`「保持、記憶保持、滞留」、`retentive`「保持力のある、記憶力のよい」、`retainer`「依頼を受けている人、前払報酬、留め具」が重要である。  
-
-＃語形成
-
-`retains / retained / retaining` — 動詞 `retain` の三人称単数・過去形／過去分詞・現在分詞。`retained` は受動態のほか、`retained earnings`「利益剰余金（内部留保）」のような複合表現にも現れる。  
-`retention`（名詞）— 「保持、保有、維持」から、「記憶保持」「水分・尿などの滞留」までを表す。語義に応じて `employee retention`、`memory retention`、`fluid retention` などの複合語を作る。  
-`retentive / retentively / retentiveness`（形容詞／副詞／名詞）— 「保持力のある、記憶力のよい／保持力よく／保持力」。特に記憶や物質を保持する性質について使う。  
-`retainer`（名詞）— 専門家を継続的に依頼するための前払報酬・契約、依頼を受けている専門家、または物を所定位置に留める器具を表す。`retain` の法律・雇用用法と関係するが、名詞として独立して扱う。  
-
-＃コアイメージ
-
-`retain` の核は、一度手元・内部・職務・記憶にあるものを、外へ逃がしたり手放したりせず、その状態を保つことである。所有物を持ち続ける場合だけでなく、物質を内部に保つ、専門家を雇い続ける、学んだことを記憶に残す場合にも広がる。  
-・手元にあるものを手放さず保つこと → 「保持する・持ち続ける」（語義1）  
-・人を職務や依頼関係につなぎ留めること → 「雇い続ける・依頼する」（語義2）  
-・熱・水分・形などを外へ逃がさず保つこと → 「内部に保つ・保持する」（語義3）  
-・体内の物質を排出せずためること → 「体内にため込む」（語義4）  
-・学んだ情報を記憶から失わず保つこと → 「記憶にとどめる」（語義5）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】保持する、持ち続ける
-
-【日本語訳・定義】物・権利・所有・支配・特徴・習慣などを、失ったり手放したりせず持ち続ける。単に持っているというより、変更・譲渡・奪取などの可能性がある中で、以前からあるものをそのまま保つことに焦点がある。預金、保証金、給与などを返還・支払いせずに手元に残す意味にも使う。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】一般語。会話でも使うが、契約、組織、制度、財産、業務、評価を扱う説明文・ビジネス文書で特に多い。`keep` より硬く、継続的な保持や喪失への対抗を意識させる。  
-
-【文法パターン】`retain 〈所有物・権利・支配〉`＝〈所有物・権利・支配〉を保持する／`retain 〈特徴・習慣・状態〉`＝〈特徴・習慣・状態〉を保ち続ける／`retain 〈deposit・payment・earnings〉`＝〈保証金・支払い・利益〉を返さず手元に残す／受動態 `〈物・権利〉 be retained by 〈主体〉`＝〈物・権利〉が〈主体〉によって保持される。  
-
-【コロケーション】
-
-・retain control  
-用途: 組織、事業、状況などに対する支配・管理権を持ち続ける。  
-例: The parent company retained control of the subsidiary after the merger.  
-訳: 親会社は合併後もその子会社の支配権を保持した。  
-
-・retain ownership/rights  
-用途: 所有権や権利を手放さず持ち続ける。  
-例: The creator retains ownership of the original design.  
-訳: 制作者は元のデザインの所有権を保持する。  
-
-・retain its original character/feature  
-用途: 物・制度・場所などが以前の性質や特徴を保つ。  
-例: The building has retained much of its original character.  
-訳: その建物は元の趣をかなり保っている。  
-
-・retain a deposit  
-用途: 保証金や預かり金を返還せず手元に残す。  
-例: The landlord may retain part of the deposit to cover the repairs.  
-訳: 大家は修繕費に充てるため、保証金の一部を差し引いて保持することがある。  
-
-・retain an old custom  
-用途: 古い習慣や制度を廃止せず残す。  
-例: The community has retained the custom of sharing meals on holidays.  
-訳: その共同体は祝日に食事を分け合う習慣を残している。  
-
-・retain one's dignity  
-用途: 困難な状況でも尊厳や落ち着きを失わない。  
-例: She retained her dignity despite the public criticism.  
-訳: 彼女は公の批判を受けても尊厳を失わなかった。  
-
-【語法・注意】`retain` は、すでに持っているもの・すでにある状態を、その後も失わずに保つことを表す。新たに手に入れる `acquire` や、状態を保つために継続的に管理する `maintain` とは焦点が異なる。`retainer` は依頼契約・前払報酬などを表す名詞で、`retain` の活用形ではない。`retain a deposit` のように金銭を手元に残す場合は、返還・支払いを控える含みがあるが、法的に差し引けるとは文脈だけから断定しない。英国のやや硬い用法では `retain a room/seat`「部屋・席を将来のために確保しておく」もある。  
-
-【類義語】
-
-・keep  
-定義: 物・状態・権利などを持ち続ける、または保つ。  
-頻度: 〈10/10〉  
-違い: `keep` は最も広く日常的で、`retain` よりくだけている。`retain` は以前から持っていたものを手放さず保つ含みが強い。  
-例: You can keep the receipt for your records.  
-訳: 記録のためにその領収書を取っておいてよい。  
-
-・maintain  
-定義: 状態、水準、制度、機能などを意図的に保つ。  
-頻度: 〈9/10〉  
-違い: `maintain` は保つための継続的な管理や努力に焦点があり、`retain` は失わずに持ち続けることに焦点がある。  
-例: The company maintains high safety standards.  
-訳: その会社は高い安全基準を維持している。  
-
-・preserve  
-定義: 物・状態・価値などを損傷や変化から守って残す。  
-頻度: 〈8/10〉  
-違い: `preserve` は劣化・破壊・変化を防ぐ積極的な保全を表し、`retain` は必ずしも保全作業を含まない。  
-例: The project aims to preserve the historic landscape.  
-訳: その計画は歴史的景観を保存することを目指している。  
-
-・withhold  
-定義: 金銭、情報、許可などを相手に渡さず手元にとどめる。  
-頻度: 〈7/10〉  
-違い: `withhold` は渡すべきものを意図的に差し控える含みが強い。`retain` は単に手元に残す場合にも使える。  
-例: The bank withheld the payment until the documents were verified.  
-訳: 銀行は書類が確認されるまで支払いを保留した。  
-
-【反意語】
-
-・lose  
-定義: 持っていた物・権利・状態などを失う。  
-頻度: 〈10/10〉  
-違い: 持ち続ける `retain` と、持っていたものが手元からなくなる `lose` は基本的な対立をなす。  
-例: The team lost its title after a long winning streak.  
-訳: そのチームは長い連勝の後、タイトルを失った。  
-
-・relinquish  
-定義: 権利、地位、支配、所有などを自ら手放す。  
-頻度: 〈5/10〉  
-違い: `relinquish` は本人の意思で手放すことに焦点があり、`retain` は手放さず保持することを表す。  
-例: The owner refused to relinquish control of the company.  
-訳: 所有者は会社の支配権を手放すことを拒んだ。  
-
-・surrender  
-定義: 権利、支配、武器などを相手に引き渡す、明け渡す。  
-頻度: 〈7/10〉  
-違い: `surrender` には相手の要求や力に屈して手放す含みがある。  
-例: The rebels were forced to surrender their weapons.  
-訳: 反乱軍は武器を引き渡すよう強制された。  
-
-2. 【他動詞・雇用・法律】雇い続ける、専門家のサービスを依頼する
-
-【日本語訳・定義】人を給与・報酬を支払う職務やサービスに引き続き置く。特に弁護士、会計士、コンサルタントなどに前払報酬や継続報酬を支払って、依頼を受けてもらう意味で使う。単に一度雇うことではなく、継続的な雇用・依頼関係を保つことに焦点がある。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】ビジネス、雇用、法律、専門サービス。`retain a lawyer/attorney` は法律文書や実務で定着した表現で、日常会話では `hire a lawyer` の方が一般的なこともある。  
-
-【文法パターン】`retain 〈employee/staff member〉`＝〈従業員〉を雇い続ける／`retain 〈a lawyer/consultant/accountant〉`＝〈弁護士・専門家〉に依頼する／`retain the services of 〈専門家・会社〉`＝〈専門家・会社〉のサービスを継続的に依頼する／`be retained as 〈役職・立場〉`＝〈役職・立場〉として雇われる・依頼される／`retain 〈人〉 on a retainer`＝前払報酬契約で〈人〉を確保する。  
-
-【コロケーション】
-
-・retain key employees  
-用途: 重要な従業員を辞めさせず、組織にとどめる。  
-例: The company increased salaries to retain key employees.  
-訳: その会社は重要な従業員をつなぎ留めるために給与を引き上げた。  
-
-・retain skilled engineers  
-用途: 熟練した人材を雇い続ける。  
-例: Flexible working arrangements can help firms retain skilled engineers.  
-訳: 柔軟な勤務形態は、企業が熟練した技術者を雇い続ける助けになり得る。  
-
-・retain a lawyer/attorney  
-用途: 弁護士を正式に依頼する。  
-例: The family retained an attorney to handle the estate.  
-訳: その家族は遺産を扱うために弁護士を依頼した。  
-
-・retain the services of 〈専門家・会社〉  
-用途: 専門家や会社のサービスを継続的に利用する。  
-例: The board retained the services of an independent auditor.  
-訳: 取締役会は独立監査人のサービスを継続して依頼した。  
-
-・be retained as counsel/adviser  
-用途: 法律顧問や助言者などの立場で依頼を受ける。  
-例: She was retained as counsel for the new project.  
-訳: 彼女は新しいプロジェクトの法律顧問として依頼を受けた。  
-
-・retain someone on a retainer  
-用途: 前払報酬を支払う契約で専門家を確保する。  
-例: The startup retains a tax adviser on a monthly retainer.  
-訳: その新興企業は月額の前払報酬契約で税務顧問を確保している。  
-
-【語法・注意】`retain a lawyer` は「弁護士を保持する」という物理的な意味ではなく、報酬を支払って仕事を依頼するという専門用法である。`hire` は新たに雇う行為全般、`retain` は既存の従業員をつなぎ留めること、または専門家との継続的な依頼関係を表しやすい。`retain the services of ...` では `of` 以下にサービスの提供者や組織を置き、`retain 〈人〉 for 〈業務〉` のように目的を示すこともできる。`retainer` は依頼契約・前払報酬を表す名詞で、`retain` の過去形ではない。  
-
-【類義語】
-
-・employ  
-定義: 仕事をさせるため人を雇う。  
-頻度: 〈9/10〉  
-違い: `employ` は雇用関係そのものに焦点があり、既存の人材をつなぎ留める含みは `retain` ほど強くない。  
-例: The company employs more than 500 people.  
-訳: その会社は500人を超える人を雇用している。  
-
-・hire  
-定義: 人を新たに雇う、または専門家に仕事を依頼する。  
-頻度: 〈10/10〉  
-違い: `hire` は新規採用・単発の依頼にも使えるが、`retain` は継続的な雇用・依頼や前払報酬契約を示しやすい。  
-例: We hired a lawyer to review the contract.  
-訳: 私たちは契約を確認してもらうため弁護士を雇った。  
-
-・engage  
-定義: 専門家や業者を正式に依頼する。  
-頻度: 〈7/10〉  
-違い: `engage` は専門的サービスの正式な依頼に焦点があり、`retain` はその依頼を継続して確保する含みを持つ。  
-例: The company engaged an outside consultant.  
-訳: その会社は外部コンサルタントを依頼した。  
-
-・keep  
-定義: 人を職務や関係にとどめておく。  
-頻度: 〈10/10〉  
-違い: `keep an employee` は口語的で、`retain employees` は人材定着を扱うビジネス表現として自然である。  
-例: The company worked hard to keep its best employees.  
-訳: その会社は優秀な従業員をつなぎ留めるため努力した。  
-
-【反意語】
-
-・dismiss  
-定義: 人を職務から解雇する、または退去させる。  
-頻度: 〈8/10〉  
-違い: `dismiss` は雇用・依頼関係を終わらせる側の語である。  
-例: The company dismissed the employee for repeated violations.  
-訳: その会社は度重なる違反を理由にその従業員を解雇した。  
-
-・fire  
-定義: 人を解雇する。  
-頻度: 〈10/10〉  
-違い: `fire` は口語的で、`retain` の「雇い続ける」と対立する。  
-例: The firm fired several workers during the downturn.  
-訳: その会社は景気悪化の際に何人かの従業員を解雇した。  
-
-・release  
-定義: 人を拘束・契約・役割から解放する。  
-頻度: 〈9/10〉  
-違い: `release` は人をつなぎ留めていた状態から自由にすることを表す。  
-例: The club released the player from the final year of his contract.  
-訳: そのクラブは選手を契約の最終年から解放した。  
-
-3. 【他動詞・物質・構造】内部に保つ、形・位置を保つ
-
-【日本語訳・定義】物質、容器、構造物などが、熱、水分、液体、色、形、部品などを内部または所定の位置に保つ。外へ逃がさずに含み続ける場合と、変形・移動させずに状態を保つ場合がある。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】一般語から科学、建築、工学、製造まで。主語には土壌、素材、壁、容器、構造物などが来やすく、目的語には熱、水分、水、色、形、部品などが来る。  
-
-【文法パターン】`〈素材・土壌・容器〉 retain 〈heat/moisture/water〉`＝〈素材・土壌・容器〉が〈熱・水分・水〉を保つ／`〈物〉 retain its 〈shape/color/strength〉`＝〈物〉がその〈形・色・強度〉を保つ／`retain 〈part〉 in place`＝〈部品〉を所定位置に留める／受動態 `〈物質・部品〉 be retained in 〈容器・構造〉`＝〈物質・部品〉が〈容器・構造〉内に保持される。  
-
-【コロケーション】
-
-・retain heat  
-用途: 素材や建物などが熱を外へ逃がさず保つ。  
-例: Stone walls retain heat well after sunset.  
-訳: 石壁は日没後も熱をよく保つ。  
-
-・retain moisture  
-用途: 土壌や素材が水分を保つ。  
-例: This soil retains moisture even during dry periods.  
-訳: この土壌は乾燥した時期でも水分を保つ。  
-
-・retain water  
-用途: 土壌、容器、構造物などが水を内部に保つ。  
-例: The basin is lined with clay to retain water.  
-訳: その貯水槽は水を保つために粘土で内張りされている。  
-
-・retain its shape  
-用途: 物が圧力や熱を受けても形を保つ。  
-例: The frame retains its shape under moderate pressure.  
-訳: その枠は適度な圧力の下でも形を保つ。  
-
-・retain its color  
-用途: 布、塗料、素材などが色を失わず保つ。  
-例: The fabric retains its color after repeated washing.  
-訳: その布は何度洗っても色を保つ。  
-
-・retain a component in place  
-用途: 部品を移動させず、所定の位置に留める。  
-例: The clip retains the panel in place during transport.  
-訳: その留め具は輸送中にパネルを所定の位置に保持する。  
-
-【語法・注意】この語義の `retain water` は、土壌や容器などが水を含み続ける意味である。人体が水分を異常に排出できずにためる `retain fluid` は、医学用法の語義4に当たる。`hold` は内部にある事実を広く表すが、`retain` は外へ逃げる・変化する可能性があるものを保つ点に焦点がある。`preserve` は変化や劣化を防ぐ意味が強く、熱や水分を内部に保つ場合の第一選択とは限らない。  
-
-【類義語】
-
-・hold  
-定義: 容器、素材、構造などが物を内部に含む、または所定位置に保つ。  
-頻度: 〈10/10〉  
-違い: `hold` は単に入れておく・支えるという広い語で、`retain` は逃げたり失われたりしないよう保つ含みが強い。  
-例: The bottle holds two liters of water.  
-訳: その瓶には2リットルの水が入る。  
-
-・contain  
-定義: 物質を内部に含み、外へ出ないようにする。  
-頻度: 〈9/10〉  
-違い: `contain` は境界内に含むことに焦点があり、熱や形を保つ意味には通常 `retain` の方が自然である。  
-例: The tank contains several thousand liters of water.  
-訳: そのタンクには数千リットルの水が入っている。  
-
-・preserve  
-定義: 状態、品質、価値などを変化や損傷から守る。  
-頻度: 〈8/10〉  
-違い: `preserve` は保全のための働きに焦点があり、`retain heat/moisture` は外へ逃がさない保持に焦点がある。  
-例: The coating preserves the wood's natural color.  
-訳: その塗装は木材本来の色を保つ。  
-
-・maintain  
-定義: 状態、性能、温度などを一定水準に保つ。  
-頻度: 〈9/10〉  
-違い: `maintain` は外部から調整して一定状態を維持する意味にも使えるが、`retain` は対象自体が保持する性質を述べやすい。  
-例: The system maintains a constant temperature.  
-訳: そのシステムは一定の温度を維持する。  
-
-【反意語】
-
-・release  
-定義: 熱、液体、圧力などを外へ放出する。  
-頻度: 〈9/10〉  
-違い: 内部に保つ `retain` と、外へ出す `release` は対立する。  
-例: The material releases heat slowly.  
-訳: その素材は熱をゆっくり放出する。  
-
-・lose  
-定義: 熱、水分、色、形などを失う。  
-頻度: 〈10/10〉  
-違い: `lose heat/moisture/color` は保っていたものがなくなることを表す。  
-例: The soil loses moisture quickly in the wind.  
-訳: その土壌は風の中ですぐに水分を失う。  
-
-・dissipate  
-定義: 熱、エネルギー、霧などが拡散して消える、または消散させる。  
-頻度: 〈5/10〉  
-違い: `dissipate` は熱やエネルギーが周囲へ拡散する過程に焦点があり、`retain` の反対側を技術的に表す。  
-例: The heat dissipated through the roof.  
-訳: 熱は屋根を通って消散した。  
-
-4. 【他動詞・医学】体内にため込む、排出せずに保持する
-
-【日本語訳・定義】人体や動物の体が、液体、尿、塩分などを十分に排出できず、体内にとどめる。一般の「保つ」よりも、異常な蓄積や排泄の不全を示す医学用法である。`retain fluid`、`retain urine` などに現れ、名詞 `retention` とともに使われることが多い。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】医学、薬理、健康情報。症状や病態を述べる専門用法で、日常会話では具体的に「尿が出ない」「むくみがある」などと表現することが多い。  
-
-【文法パターン】`〈体・患者〉 retain 〈fluid/urine/water〉`＝〈体・患者〉が〈液体・尿・水分〉を体内にためる／`retain 〈fluid〉 in 〈部位〉`＝〈液体〉を〈部位〉にためる／`be retaining fluid`＝体内に液体がたまっている。`retain water` は医学文脈ではこの語義になり得るが、土壌や容器が水を保つ語義3とも解釈できる。  
-
-【コロケーション】
-
-・retain fluid/fluids  
-用途: 体が余分な体液を排出できず、体内にためる。  
-例: Some medications can cause the body to retain fluid.  
-訳: 薬によっては、体が体液をため込むことがある。  
-
-・retain urine  
-用途: 尿を排出できず、膀胱などにとどめる。  
-例: The patient was retaining urine after the operation.  
-訳: その患者は手術後、尿を排出できずにためていた。  
-
-・retain water  
-用途: 医学・健康文脈で、体内に水分をためる。  
-例: The condition may cause the body to retain water.  
-訳: その病態によって体が水分をため込むことがある。  
-
-・retain sodium and water  
-用途: 生理・薬理の説明で、ナトリウムと水分を体内に保持する。  
-例: The kidneys may retain sodium and water when blood flow is reduced.  
-訳: 血流が低下すると、腎臓がナトリウムと水分を保持することがある。  
-
-【語法・注意】医学用法の `retain` は、単に「吸収する」ことではなく、体外へ排出されるはずの物質が体内に残ることを表す。`excrete`、`eliminate`、`expel` は外へ出す側の語であり、`retain fluid` と方向が逆である。`fluid retention` や `urinary retention` は名詞表現としてよく使われるが、実際の原因や診断を動詞 `retain` だけから決めてはならない。  
-
-【類義語】
-
-・accumulate  
-定義: 液体、物質、量などが徐々に蓄積する。  
-頻度: 〈8/10〉  
-違い: `accumulate` は蓄積の進行や結果に焦点があり、`retain` は体が排出せず保持する側の働きに焦点がある。  
-例: Fluid accumulated around the lungs.  
-訳: 肺の周囲に液体がたまった。  
-
-・hold  
-定義: 物質を内部にとどめておく。  
-頻度: 〈10/10〉  
-違い: `hold` は一般語で、医学的な排泄不全や異常な蓄積までは含まない。  
-例: The tissue can hold more fluid than usual.  
-訳: その組織は通常より多くの液体を保持できる。  
-
-・withhold  
-定義: 何かを外へ出したり相手に渡したりするのを意図的に差し控える。  
-頻度: 〈7/10〉  
-違い: `withhold` は意図的な差し控えを表しやすく、身体の生理的な保持には `retain` の方が自然である。  
-例: Doctors sometimes withhold treatment until test results arrive.  
-訳: 医師は検査結果が出るまで治療を控えることがある。  
-
-【反意語】
-
-・excrete  
-定義: 尿や汗などの老廃物を体外へ排出する。  
-頻度: 〈5/10〉  
-違い: `excrete` は生理的な排泄を直接表し、体内にとどめる `retain` と対立する。  
-例: The kidneys excrete waste products in urine.  
-訳: 腎臓は尿中に老廃物を排出する。  
-
-・eliminate  
-定義: 体内の不要な物質をなくす、排出する。  
-頻度: 〈8/10〉  
-違い: 医学では `eliminate` が体内から物質を失わせる過程を広く表し、`retain` はその反対の保持を表す。  
-例: The body gradually eliminates the drug.  
-訳: 体はその薬を徐々に体外へ排出する。  
-
-・drain  
-定義: 液体を流し出す、排出する。  
-頻度: 〈8/10〉  
-違い: `drain` は液体を外へ流す処置・動作に焦点があり、`retain` は液体が内部に残る状態に焦点がある。  
-例: The procedure drained excess fluid from the abdomen.  
-訳: その処置は腹部から余分な液体を排出した。  
-
-5. 【他動詞・記憶】記憶にとどめる、覚えている
-
-【日本語訳・定義】学んだ情報、知識、事実、詳細などを、時間がたっても記憶から失わず保つ。情報を一度覚える行為より、学習後も頭の中に残って必要なときに利用できる状態に焦点がある。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】教育、学習、心理、仕事の訓練、文章語。`remember` より硬く、学習成果や記憶保持の程度を客観的に述べる文脈で多い。  
-
-【文法パターン】`retain 〈information/facts/knowledge/details〉`＝〈情報・事実・知識・詳細〉を記憶にとどめる／`retain what 〈人〉 learned/read`＝〈人〉が学んだ・読んだことを記憶に保つ／`be able to retain 〈情報〉`＝〈情報〉を保持できる／`retain little/much of 〈内容〉`＝〈内容〉をほとんど／多く記憶している。  
-
-【コロケーション】
-
-・retain information  
-用途: 学んだ情報を後まで記憶に残す。  
-例: Spaced practice helps students retain information.  
-訳: 間隔を空けた練習は、学生が情報を記憶に残す助けになる。  
-
-・retain knowledge  
-用途: 身につけた知識を失わず保つ。  
-例: Regular review helps employees retain technical knowledge.  
-訳: 定期的な復習は、従業員が専門知識を保持する助けになる。  
-
-・retain facts/details  
-用途: 個々の事実や細部を記憶している。  
-例: She has an impressive ability to retain names and details.  
-訳: 彼女には名前や細部を記憶しておく優れた能力がある。  
-
-・retain what 〈人〉 learned  
-用途: 学習した内容を後まで覚えている。  
-例: Learners retain more of what they have studied when they use it actively.  
-訳: 学習者は、学んだ内容を積極的に使うと、より多くを記憶に残す。  
-
-・retain little of 〈内容〉  
-用途: 読んだり聞いたりした内容のうち、わずかしか覚えていない。  
-例: I retained little of the lecture because I was exhausted.  
-訳: 私は疲れ切っていたので、その講義の内容をほとんど覚えていなかった。  
-
-・retain a memory of 〈出来事〉  
-用途: 出来事の記憶を持ち続ける。やや硬く、記憶が残っていることに焦点がある。  
-例: The witness retained a clear memory of the conversation.  
-訳: その証人には会話の記憶がはっきり残っていた。  
-
-【語法・注意】`retain information` は、意識的に記憶へ取り込む `memorize` と、ある時点で思い出す `recall` の中間に位置する語で、「学んだものが後まで残る」ことを表す。単に「覚えている」と日常的に言うなら `remember` が自然な場合が多い。`retain` は情報を頭の中に保持する意味であり、記憶の正確さや理解の深さまで必ず保証しない。  
-
-【類義語】
-
-・remember  
-定義: 情報や出来事を覚えている、または思い出す。  
-頻度: 〈10/10〉  
-違い: `remember` は最も一般的で、記憶を保持している状態と、必要なときに思い出す行為の両方に使える。`retain` は保持の継続に焦点がある。  
-例: I remember the main points of the lecture.  
-訳: 私はその講義の要点を覚えている。  
-
-・memorize  
-定義: 情報を意識的に暗記する。  
-頻度: 〈8/10〉  
-違い: `memorize` は覚えるための意図的な学習過程、`retain` は覚えた内容が後まで残る結果を表す。  
-例: The students memorized the formula before the test.  
-訳: 学生たちは試験前にその公式を暗記した。  
-
-・recall  
-定義: 記憶から情報や出来事を思い出す。  
-頻度: 〈8/10〉  
-違い: `recall` は必要な時点で取り出す行為に焦点があり、`retain` は記憶内に残っていることに焦点がある。  
-例: The witness could not recall the exact time.  
-訳: その証人は正確な時刻を思い出せなかった。  
-
-・keep in mind  
-定義: 情報や注意点を心に留めておく。  
-頻度: 〈9/10〉  
-違い: `keep in mind` は意識的に念頭に置く口語的な表現で、`retain` は学習・記憶の保持を客観的に述べやすい。  
-例: Keep in mind that the deadline is firm.  
-訳: 締め切りは変更されないことを覚えておきなさい。  
-
-【反意語】
-
-・forget  
-定義: 情報や出来事を記憶から失う、思い出せなくなる。  
-頻度: 〈10/10〉  
-違い: `forget` は記憶に残らない、または思い出せない状態を表し、`retain` と直接対立する。  
-例: I wrote the instructions down so I would not forget them.  
-訳: 忘れないように指示を書き留めた。  
-
-・lose  
-定義: 記憶、知識、能力などを失う。  
-頻度: 〈10/10〉  
-違い: `lose a memory/knowledge` は、持っていた記憶や知識が失われることを表す。  
-例: He gradually lost his memory of the language.  
-訳: 彼はその言語の記憶を徐々に失った。  
-
-・erase  
-定義: 記録や記憶を消去する。  
-頻度: 〈8/10〉  
-違い: `erase` は記録や記憶を意図的・物理的に消す意味が強く、すでにある情報を失わず保つ `retain` とは逆方向の操作を表す。  
-例: Time cannot erase every memory.  
-訳: 時間がたっても、すべての記憶を消し去れるわけではない。
-
----
-
-# perceive
-
----
-headword: perceive
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /pɚˈsiːv/｜英: /pəˈsiːv/。2音節で、第2音節 /ˈsiːv/ に主強勢がある。米語の第1音節は r 色のある /pɚ/、英語は弱い /pə/。  
-語末 /iːv/ は長母音 /iː/ と有声音 /v/ の組み合わせで、最後の /v/ を無声化しない。  
-三人称単数 perceives は /pɚˈsiːvz/、過去形・過去分詞 perceived は /pɚˈsiːvd/、-ing形 perceiving は /pɚˈsiːvɪŋ/。-s は /z/、-ed は有声音 /v/ の後なので /d/ となり、perceiving では語末の e を落とす。  
-
-＃語源
-
-後期中英語に、アングロフランス語・古フランス語 perceivre を経て、ラテン語 percipere「完全に取り込む、把握する」から入った。per-「十分に、徹底して」＋ capere「取る、つかむ」という構成で説明される。  
-英語では14世紀初めごろから、感覚で捉える用法と、心で理解・評価する用法が確認される。語源の「つかみ取る」という比喩的な核は、現代の知覚・認識の広がりを理解する助けになるが、個々の語義を機械的に予測するものではない。  
-
-＃語形成
-
-perceives は三人称単数、perceived は過去形・過去分詞、perceiving は現在分詞・動名詞である。  
-perception は「知覚、認識」、perceptive は「洞察力のある、知覚の鋭い」という主要派生語である。  
-perceptible は「知覚できる、感じ取れる」、perceivable は「知覚可能な」、perceivably は「知覚できる形で」、perceiver は「知覚する人」を表す。  
-perceived は過去分詞形容詞としても使われ、perceived threat のように「実際にそうだと断定するのでなく、誰かにそう認識・評価された」という意味を作る。  
-
-＃コアイメージ
-
-perceive の核は、外界や状況から情報を受け取り、意識の中で「そうだ」と捉えること。感覚で捉える場合から、事実・意味・評価として捉える場合まで広がる。過去分詞形容詞の perceived は、その知覚・判断の結果として人からそう受け止められている状態を表す。  
-・感覚で対象や変化を捉える → 「知覚する・気づく」（語義1）  
-・事実や状況がそうだと認識する → 「認識する・気づく」（語義2）  
-・意味や構造、含意を心で捉える → 「理解する・見抜く」（語義3）  
-・人や物をある性質のものとして位置づける → 「～と見なす・受け止める」（語義4）  
-・知覚や判断の結果、そう受け止められている → 「認識された・そう見なされた」（語義5）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞・感覚】感覚で知覚する、目や耳などで気づく
-
-【日本語訳・定義】目・耳・鼻などの感覚を通して、人・物・動き・変化を直接捉える。完全に意識化したり、詳しく理解したりするとは限らない。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】一般。see や notice よりやや硬く、説明文・報告・学術的な記述で目立つ。  
-
-【文法パターン】`perceive 〈対象〉`／`perceive 〈対象〉 doing`／`perceive that ...`  
-
-【コロケーション】
-
-・perceive a movement  
-用途: 視界や周辺感覚から動きを捉える  
-例: The guard perceived a movement near the entrance.  
-訳: 警備員は入口付近の動きに気づいた。  
-
-・perceive a change  
-用途: 状態や環境の変化を感じ取る  
-例: Residents quickly perceived a change in the air quality.  
-訳: 住民は空気の質の変化をすぐに感じ取った。  
-
-・perceive a sound  
-用途: 音を耳で捉える  
-例: She perceived a faint sound behind the wall.  
-訳: 彼女は壁の向こうのかすかな音を聞き取った。  
-
-・perceive a difference  
-用途: 二つの刺激の違いを感覚的に捉える  
-例: Some users cannot perceive a difference between the two displays.  
-訳: 2つの表示の違いを知覚できない利用者もいる。  
-
-・perceive a faint smell  
-用途: 弱いにおいを鼻で感じ取る  
-例: The dog perceived a faint smell of smoke.  
-訳: その犬はかすかな煙のにおいを感じ取った。  
-
-・perceive the light  
-用途: 光の有無や変化を視覚で捉える  
-例: The sensor perceives the light reflected from the surface.  
-訳: そのセンサーは表面から反射した光を検知する。  
-
-【語法・注意】感覚に入った対象を意識が捉える語で、意図的に詳しく調べることまでは含まない。perceive O doing は「Oが～しているのを知覚する」で、Oの動作をひとまとまりの出来事として捉える perceive O do と使い分ける。perceive O as B はこの感覚義ではなく、語義4の評価・分類である。  
-
-【類義語】
-
-・notice  
-定義: 感覚や注意によって何かに気づく  
-頻度: 〈9/10〉  
-違い: perceive より日常的で、意識的な注意の結果にも自然に使える  
-例: I noticed a crack in the glass.  
-訳: 私はガラスのひびに気づいた。  
-
-・detect  
-定義: 通常は見えにくいものを調べて発見する  
-頻度: 〈8/10〉  
-違い: perceive より検出・発見の意図や装置の働きを強く示す  
-例: The instrument detected a small leak.  
-訳: その装置は小さな漏れを検出した。  
-
-・sense  
-定義: 五感や直感で何かを感じ取る  
-頻度: 〈8/10〉  
-違い: perceive より感覚・直感寄りで、対象を明確に言語化しない場合にも使える  
-例: I sensed movement in the dark.  
-訳: 私は暗闇で動きを感じ取った。  
-
-・observe  
-定義: 注意深く見聞きして事実を捉える  
-頻度: 〈8/10〉  
-違い: perceive が単なる受容も含むのに対し、observe は注意を向ける行為を含みやすい  
-例: The scientist observed a change in the cells.  
-訳: 科学者は細胞の変化を観察した。  
-
-【反意語】
-
-・overlook  
-定義: 見えているもの・気づくべきものを見落とす  
-頻度: 〈7/10〉  
-違い: perceive が対象を意識に入れるのに対し、overlook は注意不足で見落とすことを表す  
-例: The reviewer overlooked a small error.  
-訳: 査読者は小さな誤りを見落とした。  
-
-・miss  
-定義: 対象を捉え損なう、見逃す  
-頻度: 〈9/10〉  
-違い: overlook より広く、視認・聴取の機会を逃すことにも使える  
-例: I missed the change in his expression.  
-訳: 私は彼の表情の変化を見逃した。  
-
-・fail to notice  
-定義: 気づくことに失敗する  
-頻度: 〈8/10〉  
-違い: 意図的な無視ではなく、知覚・注意の結果として気づかなかったことを明示する  
-例: She failed to notice the warning light.  
-訳: 彼女は警告灯に気づかなかった。  
-
-2. 【他動詞・認識】事実・状況に気づき、認識する
-
-【日本語訳・定義】事実、問題、必要性、危険などが存在・成立していると心で認識する。単なる感覚入力より、状況を事実として受け止める段階に焦点がある。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】一般だがややフォーマル。報告書、評論、学術文、ビジネス文書で使いやすい。  
-
-【文法パターン】`perceive that ...`／`perceive 〈wh節〉`／`perceive 〈名詞句〉`  
-
-【コロケーション】
-
-・perceive a problem  
-用途: 問題が存在すると認識する  
-例: The team perceived a problem in the current process.  
-訳: チームは現在の工程に問題があると認識した。  
-
-・perceive a threat  
-用途: 脅威が存在すると受け止める  
-例: The community perceived a threat to its water supply.  
-訳: 地域社会は水の供給への脅威を認識した。  
-
-・perceive a need  
-用途: 必要性を認識する  
-例: The board perceived a need for clearer guidance.  
-訳: 理事会は、より明確な指針の必要性を認識した。  
-
-・perceive a risk  
-用途: 危険性を認識する  
-例: Investors perceived a risk in the proposed deal.  
-訳: 投資家は提案された取引にリスクがあると認識した。  
-
-・perceive the truth  
-用途: 事実関係を真実として認識する  
-例: Only later did he perceive the truth of the situation.  
-訳: 彼がその状況の真実に気づいたのは後になってからだった。  
-
-・perceive that something is wrong  
-用途: 何かが間違っていると認識する  
-例: She perceived that something was wrong with the report.  
-訳: 彼女はその報告書に何か問題があると気づいた。  
-
-【語法・注意】realize や recognize と重なるが、perceive は状況をどのように捉えたかという認識の枠組みに焦点を置きやすい。否定形では「気づいていない・認識していない」という意味になり、知識不足だけでなく、状況をそう捉えるに至っていないことも表す。語義1の直接の感覚知覚と、語義3の意味・含意の理解の中間に位置する学習上の区分であり、辞書によっては同じ大きな sense にまとめられる。  
-
-【類義語】
-
-・realize  
-定義: 事実や状況を理解し、気づく  
-頻度: 〈9/10〉  
-違い: realize は気づきの到達点を直接表しやすく、perceive より会話的である  
-例: I realized that the figures were incomplete.  
-訳: 私はその数字が不完全だと気づいた。  
-
-・recognize  
-定義: 事実・重要性・存在を認めて認識する  
-頻度: 〈9/10〉  
-違い: recognize は既知のものとの照合や、存在・価値を認める含みが出やすい  
-例: The agency recognized the need for reform.  
-訳: その機関は改革の必要性を認識した。  
-
-・identify  
-定義: 対象や問題を特定する  
-頻度: 〈9/10〉  
-違い: identify は何であるかを特定する行為に焦点があり、perceive のような広い受け止め方は表さない  
-例: The audit identified a serious risk.  
-訳: 監査は重大なリスクを特定した。  
-
-・acknowledge  
-定義: 事実や問題の存在を認める  
-頻度: 〈8/10〉  
-違い: acknowledge は認識に加えて、公に認める・受け入れる態度を含みやすい  
-例: The company acknowledged the problem.  
-訳: その会社は問題を認めた。  
-
-【反意語】
-
-・overlook  
-定義: 認識すべき事実や問題を見落とす  
-頻度: 〈7/10〉  
-違い: perceive が事実を認識するのに対し、overlook は注意や検討から漏らすことを表す  
-例: The report overlooked a key constraint.  
-訳: その報告書は重要な制約を見落とした。  
-
-・miss  
-定義: 事実や意味に気づき損なう  
-頻度: 〈9/10〉  
-違い: miss は認識の機会を逃したことを広く表し、意図的な拒否までは含まない  
-例: The analysis missed the main warning sign.  
-訳: その分析は主な警告の兆候を見逃した。  
-
-・remain unaware of  
-定義: ～を知らないままでいる  
-頻度: 〈6/10〉  
-違い: perceive の認識到達と反対に、対象が意識や知識に入らない状態を明示する  
-例: They remained unaware of the change.  
-訳: 彼らはその変化に気づかないままだった。  
-
-3. 【他動詞・理解】意味・構造・含意を理解する、見抜く
-
-【日本語訳・定義】目に見える事実から一歩進み、意味、関係、パターン、含意、難しさなどを心でつかむ。細部をすべて説明できることではなく、重要な構造を捉えることを表す。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】ややフォーマル。学術・評論・報道・ビジネスでも使われ、understand より分析的に響くことがある。  
-
-【文法パターン】`perceive 〈名詞〉`／`perceive that ...`／`perceive 〈how・why・what節〉`  
-
-【コロケーション】
-
-・perceive the significance  
-用途: 重要性・意義を理解する  
-例: The students gradually perceived the significance of the experiment.  
-訳: 学生たちは次第にその実験の意義を理解した。  
-
-・perceive a pattern  
-用途: 繰り返しや規則性を見抜く  
-例: The analyst perceived a pattern in the apparently random data.  
-訳: 分析担当者は一見無作為なデータにパターンを見いだした。  
-
-・perceive a relationship  
-用途: 二つの事柄の関係を理解する  
-例: Readers may perceive a relationship between the two themes.  
-訳: 読者はその2つのテーマの関係を理解するかもしれない。  
-
-・perceive an implication  
-用途: 発言や事実から含意を読み取る  
-例: She perceived an implication that the plan would be delayed.  
-訳: 彼女はその計画が遅れるという含意を読み取った。  
-
-・perceive the difficulty  
-用途: 課題の難しさを理解する  
-例: He did not perceive the difficulty of the task at first.  
-訳: 彼は初め、その課題の難しさを理解していなかった。  
-
-・perceive an opportunity  
-用途: 状況の中の機会を見抜く  
-例: The founder perceived an opportunity in the changing market.  
-訳: 創業者は市場の変化の中に機会を見いだした。  
-
-【語法・注意】understand よりも、対象の意味・関係・含意を「捉えた」という視点が前面に出やすい。完全で詳細な理解を必ず含むわけではない。語義2の「事実だと認識する」と近いが、語義3では事実から読み取る意味や構造が中心で、語義4の as/to be は人・物への評価や分類を作る構文である。  
-
-【類義語】
-
-・understand  
-定義: 意味・仕組み・状況を理解する  
-頻度: 〈10/10〉  
-違い: understand は最も広く日常的で、perceive のような分析的な捉え方を必ずしも含まない  
-例: Do you understand the point of the example?  
-訳: その例の要点が分かりますか。  
-
-・comprehend  
-定義: 内容を十分に理解する  
-頻度: 〈6/10〉  
-違い: comprehend は perceive より硬く、内容全体を把握したことを強く示す  
-例: The reader comprehended the argument quickly.  
-訳: その読者は議論をすぐに理解した。  
-
-・grasp  
-定義: 要点や構造をすばやくつかむ  
-頻度: 〈8/10〉  
-違い: grasp は理解の到達を鮮明に示し、perceive より口語的で、要点把握の含みが強い  
-例: She grasped the underlying idea.  
-訳: 彼女は根底にある考えをつかんだ。  
-
-・discern  
-定義: 見分けにくい違い・意味を識別する  
-頻度: 〈6/10〉  
-違い: discern は微妙な差や隠れた意味を見抜くことに焦点がある  
-例: Experts discerned a subtle shift in tone.  
-訳: 専門家は口調の微妙な変化を見抜いた。  
-
-【反意語】
-
-・misunderstand  
-定義: 意味や状況を誤って理解する  
-頻度: 〈9/10〉  
-違い: perceive が構造や含意を正しく捉えるのに対し、misunderstand は解釈の内容が誤る  
-例: I misunderstood the implication of his reply.  
-訳: 私は彼の返答の含意を誤解した。  
-
-・misinterpret  
-定義: 発言・行動・資料を誤って解釈する  
-頻度: 〈8/10〉  
-違い: misinterpret は解釈の枠組みを誤ることに焦点があり、対象が言語・記号である場合に特に自然  
-例: The headline was misinterpreted as a promise.  
-訳: その見出しは約束だと誤解釈された。  
-
-・fail to grasp  
-定義: 要点・構造をつかめない  
-頻度: 〈7/10〉  
-違い: 完全な反対というより、理解に到達しないことを明示する対立表現である  
-例: The audience failed to grasp the central distinction.  
-訳: 聴衆は中心的な違いをつかめなかった。  
-
-4. 【他動詞・評価】人・物を特定のものとして受け止める、見なす
-
-【日本語訳・定義】人、組織、物、状況などを、ある性質・立場・評価をもつものとして捉える。ここでは対象の客観的性質を断定するより、話者や集団の認識・評価の枠組みを表す。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】ややフォーマル。特に be perceived as/to be の受け身が、報道・論文・ビジネス文書で頻出する。  
-
-【文法パターン】`perceive 〈対象〉 as 〈性質・分類〉`／`perceive 〈対象〉 to be・to have 〈性質・所有〉`／`〈対象〉 is perceived as 〈性質・分類〉`／`〈対象〉 is perceived to be・to have 〈性質・所有〉`  
-
-【コロケーション】
-
-・perceive a company as reliable  
-用途: 会社を信頼できるものと受け止める  
-例: Customers perceive the company as reliable.  
-訳: 顧客はその会社を信頼できると受け止めている。  
-
-・perceive someone as a threat  
-用途: 人を脅威と見なす  
-例: The rival perceived the newcomer as a threat.  
-訳: 競争相手はその新参者を脅威と見なした。  
-
-・perceive a policy to be unfair  
-用途: 方針を不公平だと判断する  
-例: Employees perceived the policy to be unfair.  
-訳: 従業員はその方針を不公平だと受け止めた。  
-
-・be perceived as successful  
-用途: 成功していると見なされる  
-例: The project is widely perceived as successful.  
-訳: そのプロジェクトは広く成功したと見なされている。  
-
-・be perceived to have an advantage  
-用途: 優位性があると見なされる  
-例: The smaller firm is perceived to have an advantage.  
-訳: その小規模企業には優位性があると見なされている。  
-
-・perceive oneself as a leader  
-用途: 自分を指導者だと認識する  
-例: She perceives herself as a practical leader.  
-訳: 彼女は自分を実務的なリーダーだと認識している。  
-
-【語法・注意】as の後ろには名詞・形容詞相当の語句を置き、to be・to have の後ろには対象の性質や所有を置く。受け身の perceived は「そう見られている」であり、実際にそうであるという話者自身の断定とは限らない。perceive oneself as ... も可能だが、自己認識を述べる構文として扱う。  
-
-【類義語】
-
-・regard  
-定義: 人・物をある性質のものと見なす  
-頻度: 〈8/10〉  
-違い: regard A as B は perceive A as B に近いが、判断・評価としての明示的な見なしに寄る  
-例: Many regard the rule as outdated.  
-訳: 多くの人がその規則を時代遅れだと見なしている。  
-
-・view  
-定義: 人・物・問題をある観点から見る  
-頻度: 〈9/10〉  
-違い: view は観点や意見の枠組みを示し、perceive より意識的な立場表明に近いことがある  
-例: The public views the measure as necessary.  
-訳: 世間はその措置を必要なものと見ている。  
-
-・consider  
-定義: 人・物をあるものとして判断する  
-頻度: 〈10/10〉  
-違い: consider A (to be) B は判断の行為を強く示し、perceive の受け止め方より意図的である  
-例: They considered the proposal to be practical.  
-訳: 彼らはその提案を実行可能だと判断した。  
-
-・see  
-定義: 人・物をある役割・性質として捉える  
-頻度: 〈10/10〉  
-違い: see A as B は口語的で広く使えるが、perceive は認識・評価のずれを分析的に述べやすい  
-例: She sees the experience as a lesson.  
-訳: 彼女はその経験を教訓と捉えている。  
-
-5. 【過去分詞形・形容詞】認識された、そう受け止められた
-
-【日本語訳・定義】perceived は perceive の過去分詞。限定用法では、実際の性質を断定するのでなく、誰かにそう認識・評価されている状態を表す。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】一般。ニュース、論文、調査報告、ビジネス文書で perceived threat・perceived risk などの形が頻出する。  
-
-【文法パターン】`a perceived 〈名詞〉`／`a widely・commonly perceived 〈名詞〉`／`be perceived as 〈性質・分類〉`／`be perceived to be・to have 〈性質・所有〉`  
-
-【コロケーション】
-
-・perceived threat  
-用途: 認識された脅威、脅威と受け止められたもの  
-例: The policy was introduced in response to a perceived threat.  
-訳: その方針は、脅威と認識されたものに対応して導入された。  
-
-・perceived risk  
-用途: 認識されたリスク、リスクと受け止められたもの  
-例: The perceived risk affected consumer behavior.  
-訳: 認識されたリスクが消費者行動に影響した。  
-
-・perceived benefit  
-用途: 認識された利点、利点と受け止められたもの  
-例: The study measured both costs and perceived benefits.  
-訳: その研究は費用と認識された利点の両方を測定した。  
-
-・perceived weakness  
-用途: 弱点と見なされた点  
-例: The opponent targeted a perceived weakness in the defense.  
-訳: 相手は守備の弱点と見なされた点を狙った。  
-
-・widely perceived problem  
-用途: 広く問題と認識されたもの  
-例: Housing affordability is a widely perceived problem.  
-訳: 住宅を手頃な価格で確保できないことは、広く認識された問題である。  
-
-・perceived need  
-用途: 必要性と受け止められたもの  
-例: The service was created in response to a perceived need.  
-訳: そのサービスは必要性があるとの認識に応じて作られた。  
-
-【語法・注意】名詞の前の perceived は「認識された・そう見なされた」という形容詞的用法で、客観的な事実の確定を避ける働きがある。受け身の動詞 be perceived と形は同じだが、前者は名詞を修飾し、後者は認識の受け手となる主語を取る。perceptible「知覚できる」と混同しない。  
-
-【類義語】
-
-・recognized  
-定義: 存在・価値・重要性を認められた  
-頻度: 〈9/10〉  
-違い: recognized は認識が成立したことを比較的中立に表し、perceived は評価や見え方の側面を残す  
-例: The recognized need for reform was widely discussed.  
-訳: 改革の必要性が認識され、広く議論された。  
-
-・regarded  
-定義: あるものとして見なされた  
-頻度: 〈8/10〉  
-違い: regarded は判断・評価の結果に焦点があり、perceived より「見なす」という行為が明確である  
-例: The proposal was regarded as realistic.  
-訳: その提案は現実的だと見なされた。  
-
-・supposed  
-定義: そうだと思われている、そうであると想定された  
-頻度: 〈9/10〉  
-違い: supposed は根拠の弱い想定や通念を含むことがあり、perceived より不確実性が強い  
-例: The supposed advantage disappeared in practice.  
-訳: その優位性とされるものは実際には消えた。  
-
-・apparent  
-定義: 見かけ上明らかな、そう見える  
-頻度: 〈9/10〉  
-違い: apparent は観察者にとって明らかに見える状態を表し、人々の認識・評価を明示しない  
-例: The apparent benefit was short-lived.  
-訳: 見かけ上の利点は長続きしなかった。
-
----
-
-# criterion
-
----  
-headword: criterion  
-type: word  
-status: checked  
-prompt_version: entry_spec_v5  
-model: gpt-5.6-luna-wm  
-created_at: 2026-08-25  
-updated_at: 2026-08-25  
-checked: true  
-tags: []  
----  
-
-＃発音記号
-
-米: /kraɪˈtɪriən/｜英: /kraɪˈtɪəriən/。4音節で、第2音節に主強勢がある。米では主強勢を担う部分が /ˈtɪr/、英では /ˈtɪə/ となる。語頭は cry と同じ /kraɪ/ で、語末は /iən/ と続く。米語は「クライ・ティリ・アン」、英語は「クライ・ティア・リアン」に近い音の流れになる。  
-複数形 criteria は米 /kraɪˈtɪriə/・英 /kraɪˈtɪəriə/。criterions は通常の -s 複数で、おおむね /kraɪˈtɪriənz/ と発音する。criterion は第1音節に主強勢を置かず、criteria を「クライテリアン」のように発音しない。  
-
-＃語源
-
-ギリシャ語 kritērion「判断のための手段、基準」からラテン語形を経て英語に入った。kritērion は kritēs「判断する人、裁判官」、さらに krinein「判断する、決める」にさかのぼる。英語では17世紀初頭から使われ、Merriam-Webster は現在の第1義での初出を1622年としている。  
-同じ「判断・区別」に関わるギリシャ語の語根に連なる語として、critic「批評家、批評する人」、critical「批評の、重大な」、crisis「危機、重大な転機」などがある。ただし、これらは criterion の直接の派生語や同義語ではなく、語源上のつながりを示す関連語である。  
-
-＃語形成
-
-・criteria：criterion の標準的な複数形。ギリシャ語由来の複数形が英語でも定着している。  
-・criterions：criterion の -s 複数形。文法的には可能だが、criteria よりかなりまれで、通常は criteria を使う。  
-・criterion-referenced：形容詞「基準準拠の」。教育・評価で、あらかじめ定めた基準に照らして結果を解釈することを表す。criterion はこの複合語の中でも、評価の基準を指す。  
-
-＃意味・用法・関連表現
-
-1. 【名詞・可算】判断・評価・選定の基準、判断材料
-
-【日本語訳・定義】何かを評価、比較、選択、判定するときによりどころにする基準・条件・尺度。公式に決められた規則に限らず、判断する人が重視する一つの要素でもよい。通常は複数の criteria の一つとして用いられ、criterion 自体が「唯一の絶対基準」を含意するわけではない。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】一般語。会話にも使えるが、standard、factor、condition よりも、ビジネス、学術、試験、採用、審査など、判断基準を明示するやや硬めの文脈で特によく使う。  
-
-【文法パターン】a/the criterion for 〈名詞・動名詞〉＝〈名詞・動名詞〉の判断・選定基準／a criterion of 〈success・quality・validity〉＝成功・品質・妥当性などを測る基準／meet・fulfill・satisfy a criterion＝基準・条件を満たす／judge・evaluate something by・according to a criterion＝基準に照らして評価する／one criterion is that 〈節〉＝一つの基準は～ということだ。 criterion for は目的・選定・行為との結びつき、criterion of は成功・品質などの評価対象との結びつきを示しやすい。  
-
-【コロケーション】
-
-・a criterion for 〈名詞・動名詞〉  
-用途: ある行為・選定・判断に用いる基準を示す。  
-例: Cost is not the only criterion for choosing a supplier.  
-訳: コストは供給業者を選ぶ際の唯一の基準ではない。  
-
-・meet・fulfill a criterion  
-用途: 基準や条件に適合することを表す。  
-例: The proposal must meet every criterion before funding is approved.  
-訳: その提案は、資金提供が承認される前にすべての基準を満たさなければならない。  
-
-・judge something by a criterion  
-用途: ある基準を使って物事を評価することを表す。  
-例: The panel judged each proposal by the same criterion.  
-訳: 審査団は各提案を同じ基準で評価した。  
-
-・establish a criterion for 〈purpose〉  
-用途: 判断や評価に使う基準を明確に定めることを表す。  
-例: The committee established a clear criterion for evaluating the bids.  
-訳: 委員会は入札案を評価する明確な基準を定めた。  
-
-・a key・main・sole criterion  
-用途: 重要度や唯一性を示して、基準の位置づけを表す。  
-例: The sole criterion for inclusion was factual accuracy.  
-訳: 掲載の唯一の基準は事実の正確さだった。  
-
-・an admission・selection criterion  
-用途: 入学・参加・採用などの選抜に使う基準を表す。  
-例: English proficiency is an admission criterion for the program.  
-訳: 英語力はそのプログラムへの入学基準の一つだ。  
-
-・a criterion of success・quality  
-用途: 成功や品質を測る観点・基準を表す。  
-例: Customer retention is one criterion of success for the service.  
-訳: 顧客維持率は、そのサービスの成功を測る一つの基準だ。  
-
-・one criterion among several  
-用途: 複数の判断材料のうちの一つであることを明示する。  
-例: Low maintenance cost was one criterion among several.  
-訳: 維持費の低さは、複数ある基準の一つだった。  
-
-【語法・注意】可算名詞なので、単数は a criterion・one criterion、標準的な複数は criteria である。正式な文章では This criterion is important.「この基準は重要だ」、These criteria are important.「これらの基準は重要だ」のように数を一致させる。criteria を単数として criteria is とする用法も現代英語で増えているが、正式な標準用法としては異論が残るため、学習者が標準的な書き言葉で使う場合は criterion を選ぶ。criterions という -s 複数も存在するが、通常の複数としては criteria が自然である。criterion は standard よりも、特定の判断で使う一つのテスト・要素に焦点があり、standard は権威によって定められた規則・水準や模範まで広く指せる。factor は判断に影響する要素だが、明示的な評価基準とは限らず、condition は満たす必要のある条件に焦点がある。criterion-referenced test の criterion は「テスト」そのものではなく、結果を照らし合わせる基準を指す。  
-
-【類義語】
-
-・standard  
-定義: 判断や行動のよりどころとなる規則・水準・模範。  
-頻度: 〈10/10〉  
-違い: criterion は特定の評価で使う一つの基準・判定要素を指しやすいのに対し、standard は権威や慣行によって定められた水準・規則という含みが強い。  
-例: The company has a high standard for customer service.  
-訳: その会社は顧客サービスに高い基準を設けている。  
-
-・benchmark  
-定義: 性能や成果を比較するための基準点・目標値。  
-頻度: 〈8/10〉  
-違い: benchmark は実績を数値や既存の水準と比較する含みが強く、criterion は選定や判定に使う要素全般を指せる。  
-例: Response time is a useful benchmark for the new system.  
-訳: 応答時間は新しいシステムの有用な比較基準になる。  
-
-・factor  
-定義: 判断や結果に影響を与える要素。  
-頻度: 〈10/10〉  
-違い: factor は結果に関係する要素であればよく、明示された判定基準である必要はない。criterion は評価者が判断に用いる基準として意識されやすい。  
-例: Cost was a major factor in our decision.  
-訳: コストは私たちの決定における大きな要因だった。  
-
-・condition  
-定義: 何かを実行・成立させるために満たす必要がある条件。  
-頻度: 〈10/10〉  
-違い: condition は必要条件・前提条件に焦点があり、criterion は必ずしも合否を決める条件ではなく、比較や評価の尺度にも使える。  
-例: One condition of the agreement is that payment be made in advance.  
-訳: その契約の条件の一つは、前払いで支払うことだ。  
-
-・measure  
-定義: 価値・程度・成果などを測る手段や尺度。  
-頻度: 〈9/10〉  
-違い: measure は測定の手段・尺度に焦点があり、criterion は測定結果を含む判断や選定の基準に焦点がある。  
-例: Customer complaints are one measure of service quality.  
-訳: 顧客からの苦情はサービス品質を測る一つの尺度だ。  
-
-・gauge  
-定義: 特定の性質や程度を測る手がかり・尺度。  
-頻度: 〈8/10〉  
-違い: gauge は一つの側面を推定・測定する指標という含みが強く、criterion よりも測定・推定寄りである。  
-例: The survey is a useful gauge of public opinion.  
-訳: その調査は世論を測る有用な指標だ。  
-
-2. 【名詞・可算・学術】（何かを特徴づける）指標、判定特性
-
-【日本語訳・定義】あるものを同定・分類・定義する際に、そのものの特徴として用いられる性質。第1語義の「判断の基準」から、特定の性質がその分類や同一性を判定する手がかりになる方向へ焦点が移った用法で、哲学、言語学、科学などで見られる。単なる目立つ特徴ではなく、何をそのものとして認めるかを判定するのに役立つ特徴という含みがある。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】学術・哲学・科学の文脈。一般会話では第1語義の「基準」として理解されることが多い。  
-
-【文法パターン】a criterion of 〈identity・truth・validity〉＝同一性・真理・妥当性などを見分ける基準／a defining・diagnostic criterion of 〈category・condition〉＝分類や状態を特徴づける指標／a criterion for identifying・classifying something＝何かを同定・分類する基準。第1語義と形は同じだが、ここでは性質そのものが特徴・判定特性として前面に出る。  
-
-【コロケーション】
-
-・a criterion of personal identity  
-用途: 哲学で、人格・個人の同一性を判定する特徴や基準を表す。  
-例: Continuity of memory is one proposed criterion of personal identity.  
-訳: 記憶の連続性は、個人の同一性を判定するために提案されている基準の一つだ。  
-
-・a defining criterion of 〈category〉  
-用途: ある分類を特徴づける決定的な性質を表す。  
-例: The presence of a nucleus is a defining criterion of this cell type.  
-訳: 核の存在は、この細胞型を特徴づける判定特性だ。  
-
-・a diagnostic criterion of 〈condition〉  
-用途: 状態や分類を見分ける診断上の指標を表す。  
-例: The researchers treated symptom persistence as one diagnostic criterion of the disorder.  
-訳: 研究者たちは、症状の持続をその障害の診断指標の一つとして扱った。  
-
-・a criterion of scientific validity  
-用途: 学術的な妥当性を特徴づける条件・判定特性を表す。  
-例: Reproducibility is an important criterion of scientific validity.  
-訳: 再現性は科学的妥当性を示す重要な判定特性だ。  
-
-・a criterion for classifying something  
-用途: 物事をある分類に入れる際に使う特徴や判定基準を表す。  
-例: The ability to reproduce is used as a criterion for classifying the organism.  
-訳: 生殖能力は、その生物を分類する基準として使われる。  
-
-【語法・注意】第2語義は第1語義と完全に別の形を取るわけではなく、ある特徴を同定・分類の判断に使うときに、基準としての側面と特徴としての側面が重なる。したがって、単に対象分野が学術的というだけで第2語義に分けず、性質そのものが分類・同一性の判定特性として説明されている場合に限る。criterion of identity は「同一性を判定する基準」、a defining criterion は「その分類を特徴づける性質」に近い。criterion は characteristic と違って、目立つ特徴一般ではなく、判定に関係する特徴を表す。  
-
-【類義語】
-
-・characteristic  
-定義: ある人・物・種類に特有の性質や特徴。  
-頻度: 〈9/10〉  
-違い: characteristic はそのものに備わる特徴を広く指すが、criterion はその特徴を同定・分類の判定に使うという機能まで含む。  
-例: Large ears are a characteristic of this species.  
-訳: 大きな耳はこの種の特徴だ。  
-
-・feature  
-定義: 目立つ部分・性質・特徴。  
-頻度: 〈10/10〉  
-違い: feature は目立つ特徴や構成要素を広く指し、criterion のように判断のための尺度・判定特性である必要はない。  
-例: The software's most useful feature is its search function.  
-訳: そのソフトウェアの最も便利な機能は検索機能だ。  
-
-・hallmark  
-定義: 何かをそれらしいものとして強く特徴づけるしるし。  
-頻度: 〈7/10〉  
-違い: hallmark は典型性・識別性の強い特徴を表す比喩的な語で、criterion よりも「そのものらしさを示す目印」という含みが強い。  
-例: Openness to criticism is a hallmark of good scholarship.  
-訳: 批判に対して開かれていることは、優れた学問のしるしだ。
-
----
-
-# deserve
-
----
-headword: deserve
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /dɪˈzɝv/｜英: /dɪˈzɜːv/。2音節の di-ZURV で、第2音節に主強勢がある。米音の /ɝ/ は r の響きを伴う母音、英音の /ɜː/ は r を発音しない長母音である。綴りの s は /s/ ではなく有声音の /z/、語末は /f/ ではなく有声音の /v/ と発音する。  
-・三人称単数 `deserves` は米 /dɪˈzɝvz/・英 /dɪˈzɜːvz/、過去形・過去分詞 `deserved` は米 /dɪˈzɝvd/・英 /dɪˈzɜːvd/、-ing形 `deserving` は米 /dɪˈzɝvɪŋ/・英 /dɪˈzɜːvɪŋ/。  
-・`deserved` の `-ed` は、語末の有声音 /v/ の後なので /d/ と発音する。独立した /ɪd/ 音節を加えない。  
-
-＃語源
-
-13世紀の中英語 `deserven` から、アングロフランス語・古フランス語 `deservir` を経て、ラテン語 `dēservīre`「よく仕える、熱心に仕える」にさかのぼる。ラテン語では `dē-` と `servīre`「仕える」から成るが、現代英語の `deserve` を `de-` と `serve` の機械的な組み合わせとして理解することはできない。  
-現在の「行為や性質に応じて、ある扱いや結果を受けるのが適切だ」という意味は、古い「仕えることで報いを得る」という発想から発達したと説明される。  
-同語源・関連語には `serve`「仕える、役立つ」、`service`「奉仕、サービス」、`deserving`「価値のある、支援に値する」、`deserved`「当然受けるに値する」がある。`deserve` と `earn` は重なるが、`earn` が努力によって報酬や結果を得る過程に焦点を置きやすいのに対し、`deserve` はその扱い・結果が適切かという評価に焦点を置く。  
-
-＃語形成
-
-`deserves / deserved / deserving` — `deserve` の三人称単数現在形・過去形／過去分詞・現在分詞。`deserve` は状態・評価を表す動詞なので、通常は進行形にしない。  
-`deserving`（形容詞）— `deserving of + 名詞` で「援助・称賛・報酬などを受けるに値する」。単なる現在分詞よりも、「支援すべき価値がある」という形容詞として使われることがある。  
-`deserved`（形容詞）— `a well-deserved rest`「十分に休むに値する休息」、`well-deserved praise`「当然受けるに値する称賛」のように、結果・扱いが妥当だったことを表す。  
-`undeserved / undeserving`（形容詞）— `undeserved criticism` は「不当な批判」、`an undeserving recipient` は「受ける資格・価値のない受給者」のように、`deserve` の評価を否定する。`deservedly`（副詞）やまれな名詞 `deserver` もある。  
-
-＃コアイメージ
-
-`deserve` の核は、ある人・物の行為、性質、重要性などを根拠として、報酬・称賛・罰・注意・扱い・結果が「それに見合って適切だ」と判断することである。よい結果にも悪い結果にも使え、実際にその結果が起きることや、法律上の権利があることまで保証しない。  
-・行為や性質に見合う扱い・反応が適切だと判断すること → 「〜を受けるに値する、〜にふさわしい」（語義1）  
-・行為者や対象が、ある行為をする・されるのが適切だと判断すること → 「〜する／されるに値する」（語義2）  
-・ある事柄が、検討・説明などの対象にされる価値があると判断すること → 「〜される価値がある」（語義3）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】（人・物が）〜を受けるに値する、〜にふさわしい
-
-【日本語訳・定義】ある人・集団・物・行為・提案などの行為、性質、重要性、結果を根拠として、称賛・報酬・機会・注意・配慮・批判・責任・罰などを受けるのが適切だと判断する。対象は人に限らず、`The report deserves attention.` のように報告書や提案なども主語になる。`deserve` はよい結果にも悪い結果にも使われ、必ずしも結果が実現することや、法的な請求権があることを含まない。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】標準的で非常に広く使う。称賛・感謝・尊敬などの肯定的評価、非難・責任・処罰などの否定的評価、報告書や研究の重要性に対する中立的な評価のいずれにも使える。  
-
-【文法パターン】`〈人・物〉 deserve 〈reward/praise/attention〉`＝人・物が報酬・称賛・注意などを受けるに値する／`〈人・物〉 deserve 〈blame/punishment/criticism〉`＝人・物が非難・罰・批判などを受けるに値する／`〈人・物〉 deserve a rest/a chance/a mention`＝休息・機会・言及を受けるに値する／`〈人・物〉 deserve better`＝もっとよい扱いを受けるに値する／`What have I done to deserve this?`＝自分が何をしたからこんな扱いを受けるのかという不満・冗談めいた反語  
-
-【コロケーション】
-
-・deserve praise/credit/respect  
-用途: 努力、貢献、態度などに対する称賛・評価・尊敬が妥当だと述べる。  
-例: The volunteers deserve credit for keeping the shelter open through the winter.  
-訳: そのボランティアたちは、冬の間も避難所を開け続けたことで評価されて当然だ。  
-
-・deserve attention/careful consideration  
-用途: 問題、提案、報告などが注意深く検討される価値を持つことを表す。  
-例: The proposal deserves careful consideration before the committee votes.  
-訳: その提案は、委員会が投票する前に慎重に検討される価値がある。  
-
-・deserve a chance/another chance  
-用途: 人や計画に、試す機会・やり直す機会を与えるのが妥当だと述べる。  
-例: The revised plan deserves another chance after the team fixed its main weakness.  
-訳: 改訂された計画は、チームが主な弱点を直したのだから、もう一度試す機会を与えられてよい。  
-
-・deserve a rest  
-用途: 努力や疲労を踏まえて、休息を取るのが当然だと述べる。  
-例: You have been working since dawn, so you deserve a rest.  
-訳: あなたは夜明けから働いているのだから、休んで当然だ。  
-
-・deserve blame/criticism/punishment  
-用途: 責任のある人・組織が、非難や処罰を受けるのが妥当だと述べる。  
-例: The company deserves criticism for hiding the safety defect.  
-訳: その会社は、安全上の欠陥を隠したことで批判されて当然だ。  
-
-・deserve better  
-用途: 現在受けている扱いよりもよい扱いが妥当だと述べる。  
-例: The staff deserve better than a vague apology from management.  
-訳: その職員たちは、経営陣からの曖昧な謝罪よりも、もっとよい対応を受けて当然だ。  
-
-・get what you deserve  
-用途: 行為に見合う結果、特に本人が招いた悪い結果を受けることを表す。  
-例: He ignored every warning and eventually got what he deserved.  
-訳: 彼は警告を一つ残らず無視し、ついには自業自得の結果になった。  
-
-・deserve a medal  
-用途: 大変なことや不快なことを立派にやり遂げた人を、文字どおりではなく「勲章ものだ」と称賛するくだけた表現。  
-例: You deserve a medal for looking after those children all weekend.  
-訳: 週末ずっとあの子どもたちの世話をしたなんて、勲章ものだよ。  
-
-【語法・注意】`deserve` の目的語は「受けるに値するもの」であり、よいものだけに限られない。`deserve praise` は「称賛されて当然」、`deserve punishment` は「罰を受けて当然」である。  
-
-`be entitled to` は権利・資格・契約上の請求可能性に焦点を置くのに対し、`deserve` は行為や性質に照らした評価に焦点を置く。したがって、`deserve a reward` と言えても、法的にその報酬を請求できるとは限らない。  
-主語は人だけでなく、提案、報告、研究、問題、作品などにもなる。無生物主語の `The proposal deserves attention.` は自然だが、提案が意志をもって注意を要求するという意味ではない。  
-`deserve` 自体は通常進行形にせず、`The issue is deserving of attention.` の `deserving` は形容詞として扱う。否定は `doesn't deserve`、助動詞の後は `should deserve` のように原形にする。  
-
-【類義語】
-
-・merit  
-定義: 称賛、注意、検討、処置などを受けるだけの価値がある。  
-頻度: 〈7/10〉  
-違い: `merit` は硬めで、特に「検討・注意・処置に値する」という評価に使う。`deserve` より日常会話での人への報い・罰の判断には使いにくい。  
-例: The findings merit further investigation.  
-訳: その調査結果は、さらなる検討に値する。  
-
-・be worthy of  
-定義: 性質や価値の点で、称賛・尊敬・注目などを受けるに値する。  
-頻度: 〈8/10〉  
-違い: `be worthy of` は対象の価値・品位に焦点を置き、行為の結果としての報いだけでなく、物事の評価にも広く使う。  
-例: Her work is worthy of greater recognition.  
-訳: 彼女の仕事は、もっと高く評価されるに値する。  
-
-・warrant  
-定義: ある行動、判断、処置を正当化するだけの根拠がある。  
-頻度: 〈6/10〉  
-違い: `warrant` は「何かを行うだけの事情・証拠がある」という因果的・実務的な語で、人が報酬や罰を受ける道徳的評価を直接表す語ではない。  
-例: The evidence does not warrant such a strong conclusion.  
-訳: その証拠は、そこまで強い結論を正当化するものではない。  
-
-・earn  
-定義: 努力、行為、勤務などの結果として、報酬・信頼・評価・反応を得る。  
-頻度: 〈9/10〉  
-違い: `earn` は努力や実績によって結果を実際に獲得する過程に焦点を置く。`deserve` は、その結果を受けるのが妥当かという評価に焦点を置き、実現していない結果にも使える。  
-例: She earned the team's trust by admitting her mistake.  
-訳: 彼女は自分の間違いを認めることで、チームの信頼を得た。  
-
-・be entitled to  
-定義: 権利、契約、規則などに基づき、何かを受ける資格がある。  
-頻度: 〈8/10〉  
-違い: `be entitled to` は制度上・契約上の権利を強く示す。`deserve` のような道徳的・評価的な「ふさわしさ」とは一致しないことがある。  
-例: Employees are entitled to paid leave under the policy.  
-訳: その規程では、従業員は有給休暇を受ける権利がある。  
-
-2. 【他動詞・to不定詞】〜する／されるに値する、当然〜になるべきだ
-
-【日本語訳・定義】主語の行為や性質から見て、主語がある行為をする、ある結果を得る、またはある扱いを受けるのが適切だと評価する。`deserve to do` では主語が後続の動詞の行為者・経験者になり、`deserve to be done` では主語がその行為を受ける対象になる。`should` よりも、努力・功績・責任などに基づく「その結果がふさわしい」という評価を含みやすい。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準的。会話では勝利、昇進、知る権利、尊重されることなどに、書き言葉では表彰・処遇・評価・処罰などに広く使う。  
-
-【文法パターン】`〈人・物〉 deserve to do`＝人・物が〜するのに値する／`〈人・物〉 deserve to be 〈過去分詞〉`＝人・物が〜されるに値する／`〈人・物〉 deserve to have 〈名詞〉`＝人・物が〜を持つ・受けるに値する／`〈人・物〉 don't deserve to be 〈過去分詞〉`＝人・物が〜されるいわれはない  
-
-【コロケーション】
-
-・deserve to win  
-用途: 試合や競争で、実力・内容から勝つのが妥当だったと述べる。  
-例: The team played with courage and deserved to win the final.  
-訳: そのチームは勇敢に戦い、決勝で勝って当然の内容だった。  
-
-・deserve to be recognized/remembered  
-用途: 功績や貢献が認められたり、記憶されたりするのが妥当だと述べる。  
-例: Her contribution deserves to be recognized in the official report.  
-訳: 彼女の貢献は公式報告書で認められて当然だ。  
-
-・deserve to be treated with respect  
-用途: 人が尊重をもって扱われるのが妥当だと述べる。  
-例: Every patient deserves to be treated with respect and patience.  
-訳: すべての患者は、尊重と忍耐をもって扱われて当然だ。  
-
-・deserve to be punished/criticized  
-用途: 行為に応じて処罰・批判を受けるのが妥当だと述べる。  
-例: Anyone who knowingly falsifies records deserves to be disciplined.  
-訳: 故意に記録を改ざんする者は、懲戒を受けて当然だ。  
-
-・deserve to know  
-用途: 人が重要な情報を知らされるのが妥当だと述べる。  
-例: The patients deserve to know what the treatment involves.  
-訳: 患者たちは、その治療に何が含まれるのか知らされて当然だ。  
-
-・deserve to have 〈a chance/a voice〉  
-用途: 機会や意思決定への発言権を持つことが妥当だと述べる。  
-例: Every resident deserves to have a voice in the decision.  
-訳: すべての住民は、その決定に発言権を持って当然だ。  
-
-・deserve to be considered  
-用途: 提案、選択肢、事情などが検討対象になる価値を持つことを表す。  
-例: The cheaper option deserves to be considered before we sign the contract.  
-訳: 契約に署名する前に、より安い選択肢も検討される価値がある。  
-
-【語法・注意】`deserve to do` と `deserve to be done` は、主語の役割が異なる。`They deserve to win.` は「彼らが勝つのがふさわしい」、`They deserve to be praised.` は「彼らが称賛されるのがふさわしい」である。  
-
-無生物主語では受動の `deserve to be + 過去分詞` が使いやすい。`The plan deserves to be revised.` は「その計画は改訂される価値がある」であり、`The plan deserves to revise.` とは言わない。  
-`deserve to` は単なる未来予測や命令ではない。`The team deserves to win` は、勝つ可能性を予測するというより、試合内容から見て勝利が妥当だという評価である。  
-`deserve to know` は「知ることが適切だ」という評価を表すが、必ずしも法律上の情報開示請求権を意味しない。法的権利を述べる場合は、文脈に応じて `be entitled to` などを検討する。  
-
-【類義語】
-
-・merit  
-定義: ある結果、評価、処置を受けるに値する。  
-頻度: 〈7/10〉  
-違い: `merit` は硬めで、`deserve to be considered` のような「検討に値する」と相性がよい。人が勝つ・昇進するという日常的な結果には `deserve` の方が自然である。  
-例: The proposal merits serious consideration.  
-訳: その提案は真剣に検討する価値がある。  
-
-・be worthy of  
-定義: 性質や価値の点で、ある評価や扱いに値する。  
-頻度: 〈8/10〉  
-違い: `be worthy of` の後ろは名詞または動名詞で、`be worthy to do` は一般的な形ではない。`deserve to do` のように主語が行為者となる構文とは形が異なる。  
-例: The cause is worthy of your support.  
-訳: その大義はあなたの支援を受けるに値する。  
-
-・be due  
-定義: 権利、功績、事情などから、あるものを受けることになっている・受けるのが当然である。  
-頻度: 〈6/10〉  
-違い: `be due` は報酬、感謝、支払い、昇進など「与えられるべきもの」に寄り、`deserve` よりも権利・予定・当然の帰結の含みが出やすい。  
-例: The team is due some recognition for its long service.  
-訳: そのチームは長年の貢献に対して、何らかの評価を受けて当然だ。  
-
-・qualify for  
-定義: 条件を満たして、制度や選考の対象になる。  
-頻度: 〈7/10〉  
-違い: `qualify for` は基準・条件への適合を表す制度的・実務的な語で、`deserve` の道徳的・評価的なふさわしさとは異なる。  
-例: Applicants who meet the income limit qualify for assistance.  
-訳: 所得制限を満たす申請者は援助の対象となる。  
-
-3. 【他動詞・doing形（準受動）】〜される価値がある、〜するだけの価値がある
-
-【日本語訳・定義】`deserve + 動名詞` の形で、主語となる物事が、その動名詞で表される行為を受ける価値・重要性を持つことを表す。`The point deserves mentioning.` は `The point deserves to be mentioned.` とほぼ同じで、「その点は言及される価値がある」という意味になる。ここでの `-ing` は主語がその行為を実行するという意味ではなく、主語がその行為を受けるという受動的な意味を帯びる。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】標準的だが、`deserve to be + 過去分詞` より使用範囲が狭く、説明的な文章で目にしやすい。特に `deserve mentioning`「言及に値する」、`deserve noting`「注記に値する」のような短い形が自然である。  
-
-【文法パターン】`〈点・問題・特徴〉 deserve mentioning/noting`＝点・問題・特徴が言及・注記される価値がある／`〈問題・不一致〉 deserve looking into`＝問題・不一致が調査される価値がある／`〈論点〉 deserve discussing`＝論点が議論される価値がある／`〈物事〉 deserve 〈V-ing〉` は多くの場合 `〈物事〉 deserve to be 〈過去分詞〉` と言い換えられる  
-
-【コロケーション】
-
-・deserve mentioning  
-用途: 重要な点を、文章や説明の中で言及する価値があると述べる。  
-例: One final detail deserves mentioning before we close.  
-訳: 終わる前に、最後に一つ言及しておく価値のある細部がある。  
-
-・deserve noting  
-用途: 差異、傾向、例外などを、注記・記録する価値があると述べる。  
-例: The difference in response times deserves noting.  
-訳: 応答時間の違いは、注記しておく価値がある。  
-
-・deserve looking into  
-用途: 問題、不一致、苦情などが調査される価値があると述べる。  
-例: The discrepancy deserves looking into before the figures are published.  
-訳: 数値を公表する前に、その不一致は調査する価値がある。  
-
-・deserve discussing  
-用途: 論点や問題が議論の対象になる価値があると述べる。  
-例: The ethical question deserves discussing with the whole team.  
-訳: その倫理的な問題は、チーム全体で議論する価値がある。  
-
-【語法・注意】`deserve mentioning` は `deserve to be mentioned`、`deserve looking into` は `deserve to be looked into` とほぼ同じ意味である。後者の方が構造を明示するため、学習者が使う場合は `deserve to be + 過去分詞` が安全である。  
-
-`The point deserves mentioning.` を「その点が言及する価値がある」と能動的に訳してはいけない。主語は言及を受ける側である。  
-人が自分で何かをする価値があると言いたい場合は、`deserve to do` を使う。`The researcher deserves to present the results.` は「研究者は結果を発表するに値する」であり、`The results deserve presenting.` とは主語の役割が異なる。  
-`deserve doing` は `enjoy doing` のように一般的な動名詞目的語を取る構文とは性質が異なる。受動の意味を明確にしたい場合は、`deserve to be discussed` のようにする。  
-
-【類義語】
-
-・be worth + -ing  
-定義: ある行為をするだけの価値がある。  
-頻度: 〈9/10〉  
-違い: `be worth + -ing` は「試す・読む・調べるなどの行為に時間や労力をかける価値がある」という実用的な評価に強い。`deserve mentioning` は、対象が言及されるのが妥当だという評価に寄る。  
-例: The report is worth reading before the meeting.  
-訳: その報告書は会議前に読む価値がある。  
-
-・merit  
-定義: 検討、議論、調査などを受ける価値がある。  
-頻度: 〈7/10〉  
-違い: `merit` は硬く簡潔で、動名詞より名詞目的語の `merit consideration` の形が特に自然である。  
-例: The complaint merits looking into.  
-訳: その苦情は調査する価値がある。  
-
-・warrant  
-定義: 調査、対応、変更などを行うだけの根拠がある。  
-頻度: 〈6/10〉  
-違い: `warrant` は対象が「される価値」を持つというより、状況や証拠が対応を正当化するという実務的な判断を表す。  
-例: The error warrants correcting before release.  
-訳: その誤りは、公開前に訂正するだけの理由がある。  
-
-・call for  
-定義: 特定の対応、議論、措置などを必要とする・求める。  
-頻度: 〈8/10〉  
-違い: `call for` は対象の価値よりも、状況が対応を要求していることに焦点を置く。`deserve discussing` より緊急性・必要性が強くなりやすい。  
-例: The safety issue calls for immediate action.  
-訳: その安全上の問題は、直ちに対応する必要がある。  
-
-【反意語】
-
-・be unworthy of  
-定義: 性質や価値の点で、称賛・注意・支援などを受けるに値しない。  
-頻度: 〈5/10〉  
-違い: `be unworthy of` は肯定的な評価の反対側を表す形容詞表現で、`deserve` が表す悪い結果に値するという用法全体の反意語ではない。  
-例: The proposal is unworthy of further consideration.  
-訳: その提案はこれ以上検討する価値がない。
-
----
-
-# assert
-
----
-headword: assert
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /əˈsɝt/｜英: /əˈsɜːt/。2音節の ə-SERT で、第2音節に主強勢がある。米音の /ɝ/ は r の響きを伴う母音、英音の /ɜː/ は r を発音しない長母音である。  
-綴りの最初の a は /æ/ ではなく弱い /ə/、語中の ss は /s/、語末の t は /t/ と発音する。  
-・三人称単数 asserts は米 /əˈsɝts/・英 /əˈsɜːts/、過去形・過去分詞 asserted は米 /əˈsɝtɪd/・英 /əˈsɜːtɪd/、-ing形 asserting は米 /əˈsɝtɪŋ/・英 /əˈsɜːtɪŋ/。  
-・asserted の -ed は語末音 /t/ の後なので /ɪd/ となり、asserts は /ts/ の連続で終わる。  
-
-＃語源
-
-ラテン語 asserere「主張する、認めさせる」に由来し、その過去分詞 assertus を経て17世紀初頭の英語に入った。語源上は ad-「〜へ」と serere「つなぐ」に分けて説明される。  
-現在の「命題・権利・存在を前面に出し、認めさせる」という意味の広がりは、語源的な「自分の主張を提示する」発想と大まかに対応するが、語源だけから現代の各語義を機械的に導けるわけではない。  
-同語源・派生関係の学習語は assertion「主張、断言」、assertive「自己主張の強い、断定的な」、assertiveness「自己主張、積極性」、reassert「再び主張する」である。  
-
-＃語形成
-
-`asserts / asserted / asserting` — 三人称単数現在形・過去形／過去分詞・現在分詞。  
-`assertion` — 名詞「主張、断言、主張する行為」。  
-`assertive / assertiveness` — 形容詞「自己主張の強い、断定的な」／名詞「自己主張、積極性」。  
-`reassert` — 接頭辞 `re-`「再び」を付けた動詞「再び主張する、改めて認めさせる」。  
-`self-assertion` — 複合名詞「自己主張」。対人関係や心理・コミュニケーションの文脈で使う。  
-
-＃コアイメージ
-
-assert の共通核は、命題・権利・権威・存在などを、はっきり前面に出して相手や状況に認識させることである。必ずしも証拠で真実を証明することや、相手を威圧することまでは意味しない。  
-・命題を真実として前面に出す → 「断言する、強く主張する」（語義1）  
-・権利や権威を認めさせる → 「権利・権威などを主張し、認めさせる」（語義2）  
-・自分の意見や権利を前面に出す → 「自己主張する」（語義3）  
-・作用や感情の存在・影響を前面に出す → 「（作用・感情などが）現れ始める、影響を及ぼし始める」（語義4）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】断言する、強く主張する
-
-【日本語訳・定義】ある命題・事実・意見などを、真実または妥当なものだと明確かつ強く述べる。相手の疑い・反論・否定を予想して、確信をもって言い張る含みが出やすいが、assert した内容が実際に真実であることや、証拠で証明済みであることまでは表さない。  
-
-単なる発言よりも、話者がその内容を前面に出して受け入れを求める感じがあり、根拠を示さずに断言しているという批判的な含みを帯びることもある。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。会話にも使うが、報道、論文、議論、法廷・公式発言など、主張の内容を距離を置いて述べる書き言葉で特に頻出する。  
-
-【文法パターン】`assert that ...`＝〜だと断言する／`assert 〈belief/claim/innocence〉`＝信念・主張・無実などを強く主張する／`assert 「発言」`＝「…」と断言する／`it is asserted that ...`＝〜だと主張されている  
-
-【コロケーション】
-
-・`assert that ...`  
-用途: 事実、判断、予測などを、明確かつ強く真実だと述べる。  
-例: The report asserts that the policy will reduce emissions.  
-訳: その報告書は、その政策が排出量を削減すると断言している。  
-
-・`assert one's innocence`  
-用途: 容疑・非難などに対して自分の無実を強く主張する。  
-例: The defendant continued to assert his innocence despite the new evidence.  
-訳: 新たな証拠が出たにもかかわらず、被告は無実を主張し続けた。  
-
-・`assert the existence of 〈事物〉`  
-用途: 学術・数学などで、何かが存在すると命題として述べる。  
-例: The theorem asserts the existence of a unique solution.  
-訳: その定理は、一意の解が存在することを述べている。  
-
-・`assert confidently/boldly`  
-用途: 確信や大胆さをもって断言する様子を示す。  
-例: She confidently asserted that the figures were accurate.  
-訳: 彼女は、その数値は正確だと自信をもって断言した。  
-
-・`it is widely/often asserted that ...`  
-用途: 一般に、またはしばしばそう主張されていると、主張者を明示せずに述べる。  
-例: It is often asserted that technology makes life simpler.  
-訳: テクノロジーは生活をより簡単にすると、しばしば主張される。  
-
-・`assert + direct speech`  
-用途: 物語や報道で、発言を直接引用して強く言い切ったことを示す。  
-例: “That account is false,” the witness asserted.  
-訳: 「その説明は事実ではない」と証人は断言した。  
-
-【語法・注意】assert は通常、`assert that ...` の that節、または `assert one's innocence` のような名詞句を目的語に取る。裸の `assert about ...` は通常用いず、内容は直接目的語か that節で置く。一方、`assert something about ...` のように目的語を置けば、〜について何かを主張するという形は可能である。  
-
-assert は「証明する」「真実だと確認する」という意味ではない。`He asserted that the figures were correct.` は、彼がそう強く述べたことを表すだけで、数値の正しさが証明されたことは含まない。  
-単純な `say` よりも主張の強さ・確信・反論への構えが出やすい。反対に、`affirm` は根拠や確信に基づく確認、`claim` は未証明・争いの余地がある主張という含みが出やすい。  
-Java などのプログラミング言語にある `assert` は、条件式が真であるという前提を実行時に確認する構文であり、通常の英文の `assert that ...` とは構文も働きも異なる。  
-
-【類義語】
-
-・state  
-定義: 事実・意見・情報を言葉で述べる。  
-頻度: 〈10/10〉  
-違い: `state` は最も中立的で、発言の強さや反論への対抗姿勢を必ずしも含まない。`assert` はより強く、真実だと押し出す。  
-例: The notice states that payment is due by Friday.  
-訳: その通知には、支払い期限は金曜日だと記載されている。  
-
-・declare  
-定義: 公に、公式に、または明確に何かを述べる。  
-頻度: 〈8/10〉  
-違い: `declare` は公表・公式発表の側面が強い。`assert` は公的発表でなくても、反論を見越した強い主張に使える。  
-例: The mayor declared that the city would support the project.  
-訳: 市長は、市がその計画を支援すると公に表明した。  
-
-・affirm  
-定義: 事実・信念・判断などを正しいと明確に確認する。  
-頻度: 〈7/10〉  
-違い: `affirm` は証拠、経験、信念などに基づく確信や確認を示しやすい。`assert` は根拠の有無を問わず、強く言い切ることに焦点がある。  
-例: The court affirmed the validity of the agreement.  
-訳: 裁判所は、その合意の有効性を確認した。  
-
-・claim  
-定義: 何かが事実・権利・資格などだと主張する。  
-頻度: 〈9/10〉  
-違い: `claim` は「そうだと述べる」ことに加え、証明不足・争いの余地・話者の個人的主張という含みが出やすい。`assert` は主張の強さを前面に出す。  
-例: The company claims that its product is completely safe.  
-訳: その会社は、自社製品は完全に安全だと主張している。  
-
-・maintain  
-定義: 反論や疑いがあっても、同じ主張を持ち続けて述べる。  
-頻度: 〈8/10〉  
-違い: `maintain` は主張を繰り返し、立場を変えない持続性に焦点がある。`assert` は一度の強い主張にも使える。  
-例: The journalist maintained that the source was reliable.  
-訳: そのジャーナリストは、その情報源は信頼できると主張し続けた。  
-
-【反意語】
-
-・deny  
-定義: 事実・主張・関与などを真実ではない、または自分とは関係ないと述べる。  
-頻度: 〈9/10〉  
-違い: `deny` は命題を否定する方向の発言で、内容を真実だと押し出す `assert` と反対の向きをもつ。  
-例: The witness denied the allegation.  
-訳: その証人は、その申し立てを否定した。  
-
-2. 【他動詞】権利・権威などを主張し、認めさせる
-
-【日本語訳・定義】自分の権利・権威・支配・独立などを、言葉や決然とした行動によって相手・組織に認めさせようとする。単に「権利があると言う」だけでなく、認識・受諾・支配を求める働きかけを含む。  
-
-権利や権限を実際に獲得できたことまでは意味しない。`assert a claim` は法律・公式文書で「請求・主張を提示し、認めるよう求める」という意味になり得るが、請求が認められたことを表すわけではない。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。日常の対人関係から、政治、組織、法律、国際関係まで使う。`assert authority` や `assert dominance` は、決然とした自己主張にも、支配的・威圧的な振る舞いにもなり得る。  
-
-【文法パターン】`assert one's rights/independence/authority/control`＝権利・独立・権威・支配を主張する／`assert a claim to 〈property/land〉`＝財産・土地への権利を主張する／`assert dominance over 〈person/group〉`＝人・集団に対する優位を示す／`assert power over 〈person/institution〉`＝人・組織に対する権力を示す  
-
-【コロケーション】
-
-・`assert one's rights`  
-用途: 自分に認められるべき権利を、相手や制度に認識させようとする。  
-例: The tenants organized to assert their rights.  
-訳: 借家人たちは、自分たちの権利を主張するために組織した。  
-
-・`assert one's independence`  
-用途: 他者・他国・親組織から独立した立場を認めさせる。  
-例: The new government sought to assert its independence from the former colonial power.  
-訳: 新政府は、かつての植民地支配国からの独立を認めさせようとした。  
-
-・`assert authority over 〈people/team〉`  
-用途: 人々やチームに対する自分の指揮権・権限を示す。  
-例: The manager asserted her authority over the chaotic meeting.  
-訳: その管理職は、混乱した会議で自分の権限を示した。  
-
-・`assert control over 〈area/situation〉`  
-用途: 地域や状況を自分の管理下に置こうとする。  
-例: The agency is trying to assert control over the border area.  
-訳: その機関は、国境地域を管理下に置こうとしている。  
-
-・`assert dominance over 〈rival/group〉`  
-用途: 競争相手や集団に対する優位・支配を示す。  
-例: The larger male tried to assert dominance over the group.  
-訳: その大きな雄は、群れに対する優位を示そうとした。  
-
-・`assert a claim to 〈land/property〉`  
-用途: 土地や財産について、自分に権利があると公式に主張する。  
-例: The company asserted a claim to the disputed land in court.  
-訳: その会社は、裁判所で係争中の土地への権利を主張した。  
-
-【語法・注意】`assert one's rights` は権利が法的に確定したことではなく、権利を認めるよう求める行為を表す。`assert authority` も、相手が実際に従ったことまでは含まない。  
-
-`assert control` は管理・支配を確立しようとする働きかけに焦点があり、すでに完全に支配しているという単純な状態説明とは異なる。  
-`assert a claim to ...` は `make a claim to ...` より硬く、公式・法律的な響きがある。`assert a claim` と言っても、請求が認められた、所有権が確定したという意味にはならない。  
-この語義では目的語に `rights`、`authority`、`control`、`dominance` など、他者に認めさせる対象を置く。単なる事実の主張なら語義1の `assert that ...` を使う。  
-
-【類義語】
-
-・claim  
-定義: 権利、所有権、資格などが自分にあると主張する。  
-頻度: 〈9/10〉  
-違い: `claim` は権利・所有などの主張そのものに焦点があり、`assert` よりも、主張の強い態度や認めさせる働きかけを必ずしも含まない。  
-例: Several families claim ownership of the land.  
-訳: 複数の家族が、その土地の所有権を主張している。  
-
-・insist on  
-定義: 何かを当然のこととして強く求め、譲らない。  
-頻度: 〈9/10〉  
-違い: `insist on` は要求を繰り返して譲歩しない態度に焦点がある。`assert` は権利・権威を認識させる行為をより広く表す。  
-例: She insisted on her right to speak at the hearing.  
-訳: 彼女は、その公聴会で発言する権利を強く主張して譲らなかった。  
-
-・defend  
-定義: 攻撃・反論・侵害から権利、立場、利益などを守る。  
-頻度: 〈9/10〉  
-違い: `defend` は通常、すでに存在する権利や立場への脅威に対抗することに焦点がある。`assert` は、まだ認められていない権利・権威を前面に出す場合にも使う。  
-例: The lawyer defended her client's right to privacy.  
-訳: その弁護士は、依頼人のプライバシー権を擁護した。  
-
-・exercise  
-定義: 権利、権限、影響力などを実際に行使する。  
-頻度: 〈8/10〉  
-違い: `exercise authority` は権限を実際に使うことを表す。`assert authority` は、まず自分の権限を示して認めさせる局面に焦点がある。  
-例: The board exercised its authority to suspend the project.  
-訳: 取締役会は、プロジェクトを停止する権限を行使した。  
-
-・enforce  
-定義: 法律、規則、権利などを実際に守らせ、効力を及ぼす。  
-頻度: 〈8/10〉  
-違い: `enforce` は規則や決定を他者に従わせる実行段階を示す。`assert` は権利や権威を主張して認識を求める段階にも使える。  
-例: The regulator enforced the new safety standards.  
-訳: 規制当局は、新しい安全基準を実際に守らせた。  
-
-【反意語】
-
-・relinquish  
-定義: 権利、請求、支配、所有などを自ら手放す。  
-頻度: 〈6/10〉  
-違い: `relinquish` は権利や支配を維持・主張する `assert` と反対に、それらを放棄することを表す。  
-例: The company relinquished its claim to the disputed property.  
-訳: その会社は、係争中の財産への請求権を放棄した。  
-
-・surrender  
-定義: 権利、支配、抵抗などを手放し、相手に渡す。  
-頻度: 〈6/10〉  
-違い: `surrender` は権利・支配・抵抗などを手放すことを表し、それらを前面に出して認めさせようとする `assert` と反対方向である。  
-例: The rebels surrendered control of the city.  
-訳: 反乱軍はその都市の支配権を手放した。  
-
-3. 【他動詞・再帰構文】自己主張する
-
-【日本語訳・定義】`assert oneself` の形で、自分の意見・権利・存在を、確信と決意をもって表し、周囲に注意を向けさせたり認めさせたりする。おとなしく引き下がらないことを表すが、必ずしも攻撃的・威圧的であるとは限らず、対人スキルとして肯定的に使われることも多い。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準語。職場、会議、交渉、教育、心理・コミュニケーションの文脈で使う。`assert yourself more` は、遠慮しすぎる人への助言として自然である。  
-
-【文法パターン】`assert oneself`＝自己主張する／`assert oneself in 〈meeting/discussion〉`＝会議・議論で自己主張する／`assert oneself with 〈権限をもつ人〉`＝権威のある相手に対して自己主張する／`learn/try to assert oneself`＝自己主張することを身につける・試みる  
-
-【コロケーション】
-
-・`assert oneself in a meeting`  
-用途: 会議で自分の意見や立場をはっきり示す。  
-例: She used to stay silent in meetings, but now she asserts herself in meetings.  
-訳: 彼女は以前は会議で黙っていたが、今では会議で自己主張する。  
-
-・`assert oneself with 〈権限をもつ人〉`  
-用途: 上司や権限をもつ相手にも、自分の意見・権利を伝える。  
-例: He is learning to assert himself with people in authority.  
-訳: 彼は、権限のある人に対しても自己主張することを学んでいる。  
-
-・`learn to assert oneself`  
-用途: 遠慮せず、自分の考えや要求を表す力を身につける。  
-例: The course helped new employees learn to assert themselves respectfully.  
-訳: その講座は、新入社員が礼儀正しく自己主張することを学ぶ助けになった。  
-
-・`try to assert yourself`  
-用途: 自分の意見・存在を認めてもらおうと試みる。  
-例: If you disagree, try to assert yourself without interrupting others.  
-訳: 反対意見があるなら、他人の話を遮らずに自己主張してみなさい。  
-
-・`assert yourself more`  
-用途: これまでより積極的に発言・行動するよう促す。  
-例: You need to assert yourself more if you want your ideas to be heard.  
-訳: 自分の考えを聞いてもらいたいなら、もっと自己主張する必要がある。  
-
-・`assert oneself without being aggressive`  
-用途: 攻撃的にならずに、明確かつ毅然と自己主張する。  
-例: Good leaders assert themselves without being aggressive.  
-訳: 優れたリーダーは、攻撃的にならずに自己主張する。  
-
-【語法・注意】この語義では再帰代名詞が必要で、主語に合わせて `assert myself/yourself/himself/herself/ourselves/themselves` と変化する。`assert yourself` を `assert you` とはしない。  
-
-`assert oneself` は「自分の権利を主張する」場合にも使えるが、語義2の `assert one's rights` より、人が対人場面で自分の意見・存在を前面に出す行動全般に焦点がある。  
-assertive は「自信をもって率直に自分の考えや権利を表す」という肯定的・中立的なことが多く、aggressive「相手の権利を顧みず攻撃的な」とは区別する。`assert oneself` 自体も文脈によっては押しが強いという否定的含みを帯びる。  
-
-【類義語】
-
-・speak up  
-定義: 意見、質問、異議などを声に出して述べる。  
-頻度: 〈9/10〉  
-違い: `speak up` は黙っている状況で発言することに焦点があり、権利や存在を認めさせる強さまでは必ずしも含まない。  
-例: Please speak up if you have a concern about the plan.  
-訳: その計画に懸念があれば、遠慮なく言ってください。  
-
-・stand up for oneself  
-定義: 不当な扱いや圧力に対して、自分を守るために反論・主張する。  
-頻度: 〈8/10〉  
-違い: `stand up for oneself` は相手からの攻撃・不公平・侵害への対抗を強く示す。`assert oneself` は対立がない場面で存在感を示す場合にも使える。  
-例: She finally stood up for herself when her colleague took credit for her work.  
-訳: 同僚が自分の仕事の功績を横取りしたとき、彼女はついに自分のために立ち上がった。  
-
-・be assertive  
-定義: 自信をもって率直に意見や要求を表す。  
-頻度: 〈7/10〉  
-違い: `be assertive` は性格・態度の特性を述べる形で、`assert oneself` は特定の場面で自己主張する行為を述べる。  
-例: You can be assertive without sounding rude.  
-訳: 失礼に聞こえなくても、自己主張はできる。  
-
-・put oneself forward  
-定義: 自分を候補・存在感のある人物として前面に出す。  
-頻度: 〈7/10〉  
-違い: `put oneself forward` は役職、機会、選考などに自分を売り込む含みが強く、権利侵害への対抗を必ずしも表さない。  
-例: He is reluctant to put himself forward for the leadership role.  
-訳: 彼は指導者の役割に自分から名乗り出ることをためらっている。  
-
-・make oneself heard  
-定義: 自分の意見や要求が周囲に届き、無視されないようにする。  
-頻度: 〈7/10〉  
-違い: `make oneself heard` は文字どおり声を届かせる場合もあり、`assert oneself` より「意見を聞かせる」結果に焦点がある。  
-例: The residents made themselves heard at the public meeting.  
-訳: 住民たちは公開集会で自分たちの意見をはっきり伝えた。  
-
-【反意語】
-
-・hold back  
-定義: 意見、感情、行動などを抑えて、前面に出さない。  
-頻度: 〈8/10〉  
-違い: `hold back` は自己主張して存在や意見を示す `assert oneself` と反対に、遠慮や不安などから自分を抑えることを表す。  
-例: Don't hold back—tell the team what you really think.  
-訳: 遠慮せず、チームに本当の考えを伝えてください。  
-
-・submit  
-定義: 他者の権威・判断・要求に従い、自分の立場を押し通さない。  
-頻度: 〈7/10〉  
-違い: `submit` は相手の権威に従うことを強く示すため、自己主張を控える行動との対照に使える。  
-例: She submitted to pressure and kept her opinions to herself.  
-訳: 彼女は圧力に屈し、自分の意見を口にしなかった。  
-
-4. 【他動詞・再帰構文】（作用・感情などが）現れ始める、影響を及ぼし始める
-
-【日本語訳・定義】`assert itself` の形で、効果、問題、感情、傾向などが次第にはっきり現れたり、現実に影響を及ぼし始めたりする。人が権利を主張するのではなく、抽象的なものが自分の存在・影響を前面に出すように描写する比喩的な用法である。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】やや硬い書き言葉・文学的表現。報告、評論、描写などで見られ、日常会話では `become apparent`、`start to have an effect`、`make itself felt` などに言い換えることが多い。  
-
-【文法パターン】`〈effect/problem/feeling〉 assert itself`＝効果・問題・感情などが現れ始める／`begin/start to assert itself`＝現れ始める・影響し始める／`assert itself in 〈data/behavior〉`＝データ・行動などに現れる／`assert itself again`＝再び表面化する  
-
-【コロケーション】
-
-・`the effects of 〈原因・処置〉 assert themselves`  
-用途: 何かの効果・影響が、実際の結果として現れ始める。  
-例: The effects of the treatment soon asserted themselves.  
-訳: その治療の効果はすぐに現れ始めた。  
-
-・`begin to assert itself`  
-用途: 疲労、痛み、感情などが次第に感じられるようになる。  
-例: By late afternoon, fatigue began to assert itself.  
-訳: 午後遅くになると、疲労が出始めた。  
-
-・`assert itself in 〈data/behavior〉`  
-用途: 傾向や問題が、データや行動に目に見える形で現れる。  
-例: The downward trend asserted itself in the latest figures.  
-訳: 下降傾向が最新の数値にはっきり現れた。  
-
-・`assert itself again`  
-用途: いったん弱まった問題・緊張・影響などが再び表面化する。  
-例: The old tension asserted itself again during the negotiations.  
-訳: 交渉中、以前からの緊張が再び表面化した。  
-
-【語法・注意】主語には `effect`、`influence`、`fatigue`、`tension`、`trend` などの無生物・抽象名詞を置く。`itself` は主語に合わせた再帰代名詞で、`assert its self` とは書かない。  
-
-この `assert itself` は「権利を主張する」という意味ではない。日本語では「現れる」「影響が出る」「表面化する」「効いてくる」など、文脈に応じて訳す。  
-`assert itself` は `show itself` より硬く、単に見えるだけでなく、影響や存在感が次第に強くなる含みをもつことがある。  
-
-【類義語】
-
-・emerge  
-定義: 隠れていたもの、未知だったものが現れる・明らかになる。  
-頻度: 〈9/10〉  
-違い: `emerge` は隠れたものが現れる過程に焦点があり、`assert itself` のような強い存在感や影響の含みは必須ではない。  
-例: A clear pattern emerged in the data.  
-訳: データの中に明確なパターンが現れた。  
-
-・manifest itself  
-定義: 性質、症状、問題などが具体的な形で現れる。  
-頻度: 〈6/10〉  
-違い: `manifest itself` は硬く、内在する性質や症状が外に表れることに焦点がある。`assert itself` は影響力が現れ始める感じを出しやすい。  
-例: The disease manifested itself in several different ways.  
-訳: その病気はいくつかの異なる形で症状を現した。  
-
-・make itself felt  
-定義: 効果、影響、存在などが無視できない形で感じられるようになる。  
-頻度: 〈7/10〉  
-違い: `make itself felt` は影響を実際に感じる結果に焦点があり、`assert itself` より比喩的で定型的である。  
-例: The shortage is beginning to make itself felt across the region.  
-訳: その不足が地域全体で感じられ始めている。  
-
-・become apparent  
-定義: 事実、問題、理由などが明らかになる。  
-頻度: 〈9/10〉  
-違い: `become apparent` は認識上明らかになることを中立的に表し、`assert itself` のような作用・勢いの増加を必ずしも含まない。  
-例: The scale of the damage became apparent after the inspection.  
-訳: 被害の規模は点検後に明らかになった。
-
----
-
-# consistent
-
----
-headword: consistent
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /kənˈsɪstənt/。3音節の kən-SIS-tənt で、第2音節に主強勢がある。第1音節の /ə/ は弱く、第2音節の /ɪ/ が主強勢を担い、語末の -ent は /ənt/ と発音する。  
-綴りの最初の con- は強い /kɑn/・/kɒn/ ではなく /kən/、語中の s は /s/、語末の t は /t/ である。  
-副詞 consistently は /kənˈsɪstəntli/ で、consistent の主強勢の位置を保ったまま語末に /li/ が加わる。  
-
-＃語源
-
-ラテン語 consistent-、consistēns「しっかり立っている、結び付いている、調和している」に由来し、consistere「立つ、ある状態にとどまる、調和する」の現在分詞形をもとに16世紀ごろ英語へ入った。語源上は con-「共に」と sistere「立たせる、置く」に分けて説明されることが多い。  
-「複数の要素が共に立ち、ばらばらにならない」という語源的な発想は、現代の「同じ状態を保つ」「他と矛盾しない」という意味と緩やかに結び付く。ただし、語源だけから各専門義の定義を導けるわけではない。  
-同じ語族の学習語は consist「成り立つ、構成される」、consistency「一貫性、整合性」、inconsistent「一貫しない、矛盾する」、consistently「一貫して、常に」である。  
-
-＃語形成
-
-`consistency` — 名詞「一貫性、安定性、整合性」。  
-`consistently` — 副詞「一貫して、常に」。動作や状態を修飾する。  
-`inconsistent` — 接頭辞 `in-`「反対・否定」を付けた形容詞「一貫しない、矛盾する」。  
-`inconsistency` — 名詞「不一致、矛盾、一貫性のなさ」。  
-
-＃コアイメージ
-
-consistent の共通核は、複数の要素・時点・行動が互いに離れたり衝突したりせず、同じ基準のもとでまとまっていることである。ここでいう「同じ」は完全に同一という意味ではなく、重要なパターン・水準・原則が保たれていることを指す。  
-・人や行動が同じ基準を保つ → 「一貫した、安定した」（語義1）  
-・状態や結果が同じ傾向を保つ → 「安定した、むらのない」（語義2）  
-・事実や判断が互いに衝突しない → 「一致した、矛盾しない」（語義3）  
-・方程式や命題が同時に成り立つ → 「無矛盾な、共通解をもつ」（語義5）  
-語義4は統計学で標本数を無限に増やしたときの収束を指す専門義で、一般的な「同じ基準を保つ」からは形式的な条件まで予測できないため、個別に覚える。  
-
-＃意味・用法・関連表現
-
-1. 【形容詞・人・行動】一貫した、安定した、むらのない
-
-【日本語訳・定義】人がいつも同じように振る舞う、同じ意見・基準・態度を保つ、または仕事や競技で安定した水準を示す。人を評価するときは「信頼して任せやすい」という肯定的な含みが出やすいが、同じ態度や基準を保っていること自体を表す語であり、その基準が望ましいとは限らない。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。日常会話、職場、教育、スポーツ、意見・議論の説明で広く使う。人の態度については、しばしば好意的・評価的に用いる。  
-
-【文法パターン】`be/remain/become consistent`＝一貫している／`consistent in 〈名詞〉`＝〈態度・扱いなど〉の点で一貫している／`consistent in doing ...`＝〜する点で一貫している／`a consistent 〈person/player/performer〉`＝安定して同じ水準を示す人・選手・実演者  
-
-【コロケーション】
-
-・`be consistent in one's treatment of 〈people〉`  
-用途: 人によって扱いを変えず、同じ基準で接する。  
-例: Managers should be consistent in their treatment of employees.  
-訳: 管理職は従業員への接し方に一貫性を持つべきだ。  
-
-・`be consistent in applying 〈rules/standards〉`  
-用途: 規則や基準を場面ごとに変えずに適用する。  
-例: The school must be consistent in applying its admission rules.  
-訳: その学校は入学規則を一貫して適用しなければならない。  
-
-・`a consistent approach/attitude/position`  
-用途: 問題への取り組み方、態度、立場が一貫していることを示す。  
-例: The team has taken a consistent approach to customer complaints.  
-訳: そのチームは顧客からの苦情に一貫した対応を取ってきた。  
-
-・`a consistent performer/player`  
-用途: 仕事や競技で、たびたび同じように良い水準を示す人を表す。  
-例: She has been the company's most consistent performer this year.  
-訳: 彼女は今年、その会社で最も安定した成果を上げている人だ。  
-
-・`remain consistent with one's principles`  
-用途: 自分の原則に反しない態度を保つ。ここでは `with` 以下が基準を示す。  
-例: He remained consistent with his principles despite the pressure.  
-訳: 彼は圧力を受けても自分の原則に反しない態度を保った。  
-
-【語法・注意】人の態度や基準について `consistent in + 名詞／動名詞` を使う。`We must be consistent in applying the rules.` のように `in` の後ろには行為や扱いの領域を置く。`consistent to` とは通常言わない。  
-
-`consistent` は「毎回まったく同じ」ではなく、重要な態度・基準・水準がぶれないという意味である。良い結果が毎回同じでなくても、安定して高い水準を示す人を `consistent` といえる。  
-`consistent` は必ずしも「良い」を意味しない。`a consistent failure to respond` のように、望ましくない行動が繰り返されることにも使える。反対に、`reliable` は期待どおりに機能する信頼性、`consistent` は行動・水準・基準のぶれの少なさに焦点がある。  
-
-【類義語】
-
-・reliable  
-定義: 期待された働きや結果を安定して示し、信頼できる。  
-頻度: 〈9/10〉  
-違い: `reliable` は「頼りになる」という結果・信頼性を中心にする。`consistent` は、結果が望ましいかにかかわらず、行動や水準がぶれないことを表せる。  
-例: She is reliable and always meets her deadlines.  
-訳: 彼女は信頼でき、いつも締め切りを守る。  
-
-・steady  
-定義: 大きな変動や中断がなく、安定している。  
-頻度: 〈9/10〉  
-違い: `steady` は変化の少なさや持続性を強調する。`consistent` は、同じ基準・パターンに沿っていることや、複数回の結果がそろっていることにも使う。  
-例: The company has made steady progress.  
-訳: その会社は着実な進展を遂げてきた。  
-
-・dependable  
-定義: 人や物が期待どおりに働き、頼りになる。  
-頻度: 〈7/10〉  
-違い: `dependable` は人・機械などを信頼して頼れるという評価が強い。`consistent` は、頼れる結果だけでなく、方針・態度・方法が一貫していることにも使う。  
-例: We need a dependable assistant for the project.  
-訳: 私たちはそのプロジェクトに信頼できる助手を必要としている。  
-
-・uniform  
-定義: 全体にわたって同じで、ばらつきがない。  
-頻度: 〈7/10〉  
-違い: `uniform` は構成要素の間の均一性を強調し、物の外観・品質・分布にも使う。`consistent` は時間をまたぐ行動や方針にも使える。  
-例: The samples were not uniform in color or texture.  
-訳: その試料は色も質感も均一ではなかった。  
-
-・regular  
-定義: 一定の間隔・順序・パターンで起こる、または習慣的である。  
-頻度: 〈10/10〉  
-違い: `regular` は頻度や間隔の規則性に焦点がある。`consistent` は、間隔ではなく品質・態度・基準の一貫性を表す場合にも使う。  
-例: The train runs at regular intervals.  
-訳: その列車は一定の間隔で運行している。  
-
-【反意語】
-
-・inconsistent  
-定義: 行動・態度・結果などが一貫せず、場面や時点によって変わる。  
-頻度: 〈8/10〉  
-違い: 同じ基準や水準を保てないという、`consistent` の直接的な反対語である。  
-例: His performance has been inconsistent this season.  
-訳: 彼の今季の成績は安定していない。  
-
-・unreliable  
-定義: 期待どおりに機能せず、頼りにならない。  
-頻度: 〈8/10〉  
-違い: `unreliable` は結果を信頼できないという評価に焦点がある。態度の一貫性だけを否定する `inconsistent` より、実用上の不確かさを強く示す。  
-例: The old printer is slow and unreliable.  
-訳: その古いプリンターは遅くて頼りにならない。  
-
-2. 【形容詞・状態・結果】安定した、同じ傾向が続く、むらのない
-
-【日本語訳・定義】結果、品質、成長、温度、割合などが、ある期間・範囲・集団にわたって大きく変わらず、同じ水準または傾向を保つ。完全に同じ値が続く必要はなく、重要なパターンや変化の方向がそろっていることを表す。`consistent growth` のように、変化が続いていることと、その変化が安定したパターンであることを同時に表す場合もある。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。ビジネス、報道、研究、品質管理、経済、日常の結果説明で広く使う。`consistent failure` のように望ましくない状態にも使えるため、語そのものに肯定評価はない。  
-
-【文法パターン】`remain/stay consistent`＝一定の状態を保つ／`consistent over 〈period〉`＝期間を通じて安定した／`consistent across/between/among 〈groups/areas〉`＝集団・地域間で同じ傾向の／`consistent 〈growth/quality/results/performance〉`＝安定した成長・品質・結果・成果  
-
-【コロケーション】
-
-・`remain consistent over time`  
-用途: 時間が経っても水準や性質が大きく変わらない。  
-例: The quality of the service has remained consistent over time.  
-訳: そのサービスの品質は時間がたっても安定している。  
-
-・`consistent results across 〈trials/studies〉`  
-用途: 複数の試験や研究で同じ傾向の結果が出る。  
-例: The treatment produced consistent results across three clinical trials.  
-訳: その治療法は3件の臨床試験で一貫した結果を示した。  
-
-・`consistent growth in 〈sales/revenue〉`  
-用途: 売上や収益が、急変ではなく安定した傾向で伸び続ける。  
-例: The company has reported consistent growth in revenue.  
-訳: その会社は収益の安定した伸びを報告している。  
-
-・`consistent quality/standard`  
-用途: 製品やサービスの品質・水準が毎回大きく変わらない。  
-例: The factory is known for its consistent quality.  
-訳: その工場は品質が安定していることで知られている。  
-
-・`consistent across 〈age groups/regions〉`  
-用途: 年齢層や地域が変わっても同じ傾向が見られる。  
-例: The survey findings were consistent across all age groups.  
-訳: その調査結果はすべての年齢層で一貫していた。  
-
-【語法・注意】`consistent` は「変化が一切ない」という意味ではない。`consistent improvement` は改善が止まっていることではなく、改善傾向が安定して続いていることを表す。値の完全な不変を言うなら `constant`、上昇・下降の着実な継続を言うなら `steady` が適する場合がある。  
-
-`consistent across` は複数の集団・地域・条件で同じ傾向があること、`consistent over time` は時間を通じてその傾向が続くことを示す。`consistent between A and B` も使えるが、集団を横断する一般的な説明では `across` が自然なことが多い。  
-`consistent results` は結果が同じ傾向で再現するという意味であり、結果が正しいことや、原因が証明されたことまでは含まない。  
-
-【類義語】
-
-・stable  
-定義: 状態・水準・構造が急激に変化せず、安定している。  
-頻度: 〈9/10〉  
-違い: `stable` は変動や崩れが少ない状態に焦点がある。`consistent` は複数の結果や条件が同じパターンを示すという比較にも使う。  
-例: The patient's condition is now stable.  
-訳: 患者の状態は今では安定している。  
-
-・steady  
-定義: 大きな変動なく、一定の方向・水準で続く。  
-頻度: 〈9/10〉  
-違い: `steady growth` は着実な増加を強く示す。`consistent growth` は増加のパターンが継続的・一貫していることに焦点がある。  
-例: The business has enjoyed steady growth for five years.  
-訳: その事業は5年間、着実な成長を続けてきた。  
-
-・uniform  
-定義: 複数の部分や試料が同じ性質・水準をもつ。  
-頻度: 〈7/10〉  
-違い: `uniform` は同一時点での全体の均一性を強調する。`consistent` は時間の経過や試行の反復にも自然である。  
-例: The paint provides a uniform finish.  
-訳: その塗料は均一な仕上がりをもたらす。  
-
-・reproducible  
-定義: 同じ手順や条件で繰り返したとき、同様の結果を得られる。  
-頻度: 〈6/10〉  
-違い: `reproducible` は実験・測定などで再現可能であることを特に表す。`consistent` は再現性以外の安定した品質や傾向にも使う。  
-例: The researchers need a reproducible method.  
-訳: 研究者たちは再現可能な方法を必要としている。  
-
-【反意語】
-
-・variable  
-定義: 状況や時点によって変化し、一定しない。  
-頻度: 〈8/10〉  
-違い: `variable` は水準・結果・条件が変動するという量的な反対を示す。  
-例: The quality of the raw material is highly variable.  
-訳: 原材料の品質は大きくばらついている。  
-
-・erratic  
-定義: 変化が不規則で、予測しにくい。  
-頻度: 〈6/10〉  
-違い: `erratic` は単に変動するだけでなく、変化のパターンが不規則であることを強調する。  
-例: The patient's pulse became erratic.  
-訳: 患者の脈拍は不規則になった。  
-
-3. 【形容詞・with構文】一致した、矛盾しない、〜と整合する
-
-【日本語訳・定義】ある事実・説明・結果・行動・方針などが、別の事実や基準と両立し、互いに矛盾しない。`consistent with` は「〜と一致する」「〜に沿う」と訳せるが、単に両立する可能性を示すだけで、後ろの内容が真実だと証明したり、原因を確定したりするわけではない。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。議論、報道、研究、法律・医療の記述、方針や行動の評価で特に頻出する。証拠と説明、症状と診断候補、行動と原則の関係を慎重に述べる表現である。  
-
-【文法パターン】`be consistent with 〈fact/evidence/policy〉`＝事実・証拠・方針と矛盾しない／`be consistent with what ...`＝〜することと整合する／`findings/results consistent with 〈cause〉`＝原因と一致する所見・結果／`consistent with 〈principle/standard〉`＝原則・基準に沿った  
-
-【コロケーション】
-
-・`be consistent with the evidence`  
-用途: 説明や結論が、得られている証拠と矛盾しない。  
-例: Her account is consistent with the available evidence.  
-訳: 彼女の説明は、入手できる証拠と矛盾しない。  
-
-・`be consistent with company policy`  
-用途: 行動や決定が会社の方針に沿っている。  
-例: The decision is consistent with company policy.  
-訳: その決定は会社の方針に沿っている。  
-
-・`findings consistent with 〈diagnosis/cause〉`  
-用途: 所見が、ある診断や原因なら予想されるものと一致する。  
-例: The scan showed injuries consistent with a fall.  
-訳: その画像検査では、転落によるものと一致するけがが見られた。  
-
-・`be consistent with what 〈person〉 said`  
-用途: ある説明や行動が、誰かの発言と食い違わない。  
-例: The new information is consistent with what the witness said.  
-訳: 新しい情報は、証人が話したことと矛盾しない。  
-
-・`not be consistent with 〈principle/goal〉`  
-用途: 行動や提案が原則・目標に反していることを婉曲に示す。  
-例: Cutting essential services is not consistent with our goal of protecting vulnerable people.  
-訳: 必要不可欠なサービスを削減することは、弱い立場の人々を守るという私たちの目標に沿わない。  
-
-【語法・注意】この意味では `consistent with` が基本で、`consistent to` とは通常言わない。`with` の後ろには名詞句だけでなく、`what ...` の名詞節も置ける。`consistent with a fall` のように、後ろの原因が実際に起きたことを断定せず、「その原因と整合する特徴がある」と述べることも多い。  
-
-`A is consistent with B` は、AとBが両立することを表すだけで、AがBを証明する、BがAの唯一の説明である、という意味ではない。`consistent with` を「〜と同一」「〜の証拠そのもの」と訳しすぎない。  
-語義1の `consistent in applying the rules` は、主語が同じ基準で行動する領域を `in` で示す形である。語義3の `consistent with the rules` は、行動や決定が規則と整合するという関係を示す形であり、前置詞の違いだけでなく意味の向きも異なる。  
-
-【類義語】
-
-・consonant with  
-定義: 事実・原則・方針などと一致し、調和している。  
-頻度: 〈4/10〉  
-違い: `consonant with` は硬い表現で、主に考え・行動・方針が別の基準と調和することを表す。`consistent with` のほうが一般的で、証拠や説明の整合性にも広く使える。  
-例: The proposal is consonant with the organization's stated values.  
-訳: その提案は組織が掲げる価値観と一致している。  
-
-・accordant with  
-定義: 方針・事実・原則などと一致している。  
-頻度: 〈3/10〉  
-違い: `accordant with` は硬く、文語的で使用頻度が低い。一般的な文章では `consistent with` のほうが自然である。  
-例: The ruling was accordant with established legal principles.  
-訳: その判決は確立した法原則と一致していた。  
-
-・compatible with  
-定義: ある事実・考え・制度などと矛盾せず両立する。  
-頻度: 〈8/10〉  
-違い: `compatible with` は「両立できる」という可能性や適合性を強調する。`consistent with` は、手元の説明・証拠・行動が別の基準と整合しているという判断に向く。  
-例: The two explanations are compatible with each other.  
-訳: その2つの説明は互いに両立する。  
-
-・in keeping with  
-定義: 方針・雰囲気・慣行などに合っている。  
-頻度: 〈6/10〉  
-違い: `in keeping with` は慣行・雰囲気・期待に沿うという表現で、`consistent with` よりも「趣旨に合う」という含みが出やすい。  
-例: The design is in keeping with the building's traditional style.  
-訳: そのデザインは建物の伝統的な様式に合っている。  
-
-・coherent with  
-定義: 他の要素と論理的につながり、全体として筋が通っている。  
-頻度: 〈5/10〉  
-違い: `coherent` は説明や議論の内部の筋道に焦点がある。`consistent with` は、別の事実・基準との不一致がないことまで広く表せる。  
-例: The conclusion is coherent with the assumptions of the model.  
-訳: その結論はモデルの仮定と論理的に整合している。  
-
-【反意語】
-
-・inconsistent with 〈something〉  
-定義: 事実・証拠・方針などと両立せず、矛盾している。  
-頻度: 〈8/10〉  
-違い: `inconsistent with` は、`consistent with` の直接的な反対表現である。  
-例: His statement is inconsistent with the video evidence.  
-訳: 彼の発言は映像証拠と矛盾している。  
-
-・contrary to 〈something〉  
-定義: 規則・期待・意見などに反している。  
-頻度: 〈7/10〉  
-違い: `contrary to` は単に反対方向であることを強く示す。`inconsistent with` は、必ずしも正面から反対ではなく、両者を同時に成り立たせにくいという論理的な不整合にも使う。  
-例: The action was contrary to the organization's stated values.  
-訳: その行動は組織が掲げる価値観に反していた。  
-
-4. 【形容詞・統計】（推定量が）一致性をもつ
-
-【日本語訳・定義】統計学で、標本数を増やしていくと、推定量が推定対象である真の母数へ確率収束する性質をもつ。個々の標本から得た推定値が毎回同じになることや、有限標本で必ず正確であることを意味しない。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】統計学・計量経済学の専門用法。一般英語の「一貫した」「安定した」と同じ形だが、`consistent estimator` などで使うと定義された漸近的性質を指す。  
-
-【文法パターン】`a consistent estimator of 〈parameter〉`＝〈母数〉の一致推定量／`an estimator is consistent for 〈parameter〉`＝推定量が〈母数〉に対して一致性をもつ／`consistency as sample size increases`＝標本数の増加に伴う一致性  
-
-【コロケーション】
-
-・`a consistent estimator of 〈parameter〉`  
-用途: 標本数を増やすと真の母数へ確率収束する推定量を指す。  
-例: The sample mean is a consistent estimator of the population mean.  
-訳: 標本平均は母平均の一致推定量である。  
-
-・`be consistent for 〈the true parameter〉`  
-用途: 推定量が特定の真の母数に対して一致性をもつことを述べる。  
-例: This estimator is consistent for the true parameter under mild conditions.  
-訳: この推定量は、穏やかな条件のもとで真の母数に対して一致性をもつ。  
-
-・`consistent as the sample size grows`  
-用途: 標本数の増加に伴って推定量が真値に近づく性質を説明する。  
-例: The estimator is consistent as the sample size increases.  
-訳: その推定量は標本数が増えるにつれて一致性をもつようになる。  
-
-・`a biased but consistent estimator`  
-用途: 有限標本では偏りがあっても、漸近的には一致する推定量を示す。  
-例: A biased but consistent estimator can still be useful in large samples.  
-訳: 偏りがあっても一致性をもつ推定量は、大標本ではなお有用なことがある。  
-
-【語法・注意】この用法の `consistent` は、日常語の「結果が安定している」ではなく、標本数を無限に増やした極限で真の母数へ確率収束するという専門的な定義をもつ。`accurate` や `unbiased` と同義ではない。有限標本で偏りがあっても一致推定量になり得るし、各回の推定値が大きく変動しても一致性はあり得る。  
-
-通常は `consistent estimator of 〈parameter〉` または `consistent for 〈parameter〉` といい、一般義の `consistent with 〈evidence〉` とは前置詞も意味も異なる。専門外の文脈で「一致推定量」と訳すと、単なる安定した推定結果と混同しやすい。  
-
-【類義語】
-
-・convergent  
-定義: 数列・推定値などが、ある値や対象へ近づいていく。  
-頻度: 〈5/10〉  
-違い: `convergent` は極限へ近づく数学的性質を広く表す。統計で `consistent` というと、真の母数への確率収束という推定量固有の条件を表す。  
-例: The sequence is convergent and approaches zero.  
-訳: その数列は収束し、ゼロに近づく。  
-
-・asymptotically unbiased  
-定義: 標本数が無限に増えると、推定量の期待値の偏りがゼロへ近づく。  
-頻度: 〈3/10〉  
-違い: `asymptotically unbiased` は期待値の偏りに関する性質で、真値への確率収束をいう `consistent` と同じではない。  
-例: The estimator is asymptotically unbiased but not necessarily consistent.  
-訳: その推定量は漸近的に不偏だが、必ずしも一致性をもつとは限らない。  
-
-【反意語】
-
-・inconsistent estimator  
-定義: 標本数を増やしても、真の母数へ確率収束しない推定量。  
-頻度: 〈3/10〉  
-違い: 統計学で、`consistent estimator` の定義上の反対に当たる。単に推定値のばらつきが大きいというだけでは `inconsistent` とは限らない。  
-例: The estimator is inconsistent because it ignores most of the available data.  
-訳: その推定量は利用できるデータの大部分を無視するため、一致性をもたない。  
-
-5. 【形容詞・数学・論理】無矛盾な、共通解をもつ
-
-【日本語訳・定義】数学で、複数の方程式が少なくとも1つの共通解をもつ。論理学・数学基礎論で、命題の集合が同時に真であり得る、または公理系から矛盾が導かれない。一般語の「一貫した」よりも、形式的に両立可能であることを表す。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】数学・論理学の専門用法。`consistent equations`、`a consistent set of statements`、`a consistent formal system` などの定型的な組み合わせで使う。  
-
-【文法パターン】`a consistent system/set of 〈equations/statements〉`＝無矛盾な方程式系・命題集合／`〈equations〉 are consistent`＝方程式に共通解がある／`a consistent formal system`＝矛盾を導かない形式体系  
-
-【コロケーション】
-
-・`a consistent system of equations`  
-用途: 連立方程式が少なくとも1つの共通解をもつことを表す。  
-例: The two equations form a consistent system with one solution.  
-訳: その2つの方程式は、解を1つもつ無矛盾な連立方程式系を形成する。  
-
-・`consistent equations`  
-用途: 複数の方程式が共通の値の組によって同時に満たされることを示す。  
-例: These equations are consistent, so the model has at least one solution.  
-訳: これらの方程式は無矛盾なので、そのモデルには少なくとも1つの解がある。  
-
-・`a consistent set of statements`  
-用途: 命題をすべて同時に真にでき、相互に矛盾しない集合を表す。  
-例: The axioms must form a consistent set of statements.  
-訳: その公理は無矛盾な命題集合を形成しなければならない。  
-
-・`a consistent formal system`  
-用途: 公理からある命題とその否定の両方を導くことがない形式体系を指す。  
-例: The proof assumes that the formal system is consistent.  
-訳: その証明は、形式体系が無矛盾であると仮定している。  
-
-【語法・注意】方程式についての `consistent` は、通常「各式が似ている」という意味ではなく、すべてを同時に満たす共通解があるという技術用語である。命題集合については、すべてが同時に真であり得ること、形式体系については矛盾が導出されないことを指す。対象に応じて日本語訳を「共通解をもつ」「無矛盾な」と分ける。  
-
-この語義の `consistent` と、語義3の `consistent with` は関係が近いが、語義5では数学・論理の体系内部の充足可能性を述べる。一般文で「証拠と矛盾しない」と言うときに、数学用語の `consistent equations` を使うわけではない。  
-
-【類義語】
-
-・compatible  
-定義: 複数の条件・制約が同時に成り立ち得る。  
-頻度: 〈8/10〉  
-違い: `compatible` は一般的な両立可能性を表す。`consistent` は方程式・命題・形式体系について、共通解や無矛盾性という専門的判定を表す。  
-例: The constraints are compatible with one another.  
-訳: その制約は互いに両立する。  
-
-・noncontradictory  
-定義: 相互に矛盾していない。  
-頻度: 〈4/10〉  
-違い: `noncontradictory` は「矛盾がない」という否定形の説明語で、形式体系の専門的な一貫性まで必ず含むわけではない。  
-例: The statements are noncontradictory but do not establish the conclusion.  
-訳: その命題は互いに矛盾しないが、結論を確立するものではない。  
-
-・satisfiable  
-定義: 論理式や制約の集合をすべて真にする値の割り当てが存在する。  
-頻度: 〈3/10〉  
-違い: `satisfiable` は論理・コンピューター科学で、少なくとも1つの充足する割り当てが存在することに焦点がある。`consistent` は数学・論理でより広く無矛盾性を表す。  
-例: The set of logical constraints is satisfiable.  
-訳: その論理的制約の集合には、すべてを満たす割り当てが存在する。  
-
-【反意語】
-
-・inconsistent  
-定義: 方程式に共通解がない、または命題・形式体系から矛盾が生じる。  
-頻度: 〈4/10〉  
-違い: 数学・論理における `consistent` の直接的な反対語である。一般義の「一貫しない」と同じ形だが、ここでは形式的な判定を指す。  
-例: The equations are inconsistent and have no common solution.  
-訳: その方程式は無矛盾でなく、共通解をもたない。
-
----
-
-# extensive
-
----
-headword: extensive
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /ɪkˈstɛnsɪv/｜英: /ɪkˈstensɪv/。3音節の ik-STEN-siv で、第2音節に主強勢がある。第1音節は弱い /ɪk/、第2音節の母音は米国発音で /ɛ/、英国発音で /e/ と表記され、第3音節は弱い /ɪv/ で終わる。  
-綴りの ex- はここでは /ɛks/ と強く読まず、語頭の /ɪk/ と、次の強勢音節の /st/ に分かれる。語末の -sive は /sɪv/ で、/saɪv/ ではない。  
-比較級は more extensive、最上級は most extensive とするのが普通で、extensiver・extensivest は通常用いない。副詞 extensively は米 /ɪkˈstɛnsɪvli/、英 /ɪkˈstensɪvli/ と発音し、主強勢の位置を保つ。  
-
-＃語源
-
-late Middle English に、フランス語 extensif, -ive または後期ラテン語 extensivus 経由で入った。さらにラテン語 extendere「外へ伸ばす、広げる」へさかのぼり、ex-「外へ」と tendere「伸ばす」から成る。  
-中心にあるのは「外へ伸びて、範囲・量・作用の及ぶ先が広がる」という発想で、物理的な広さから、情報の範囲、被害の規模、専門分野の「系の大きさ」へ意味が抽象化している。  
-同語族の学習語は extend「広げる、延長する」、extent「広がり、程度」、extension「拡張、延長」、extensively「広範囲に、広く」、extensiveness「広範さ」である。  
-
-＃語形成
-
-extensively — 副詞「広範囲に、広く、大いに」。動詞や過去分詞を修飾する。  
-extensiveness — 名詞「広範さ、広がり」。一般語としてはやや硬い。  
-extensivity — 名詞「外延性、示量性」。物理・論理などの専門分野で使われる。  
-more/most extensive — extensive の比較級・最上級。短い形の *extensiver・*extensivest は通常使わない。  
-intensive — 農業・物理などで extensive と対比される形容詞。ただし、extensive の否定接頭辞付きの形ではなく、意味の対照をなす別語である。  
-
-＃コアイメージ
-
-extensive の共通核は、対象の外へ広がる範囲・量・作用の及ぶ先が大きいことである。物理的な面積だけでなく、扱う情報の幅、被害や権限の規模、農地の使い方、系の大きさとの関係、論理上の適用対象の広がりにも及ぶ。  
-・物理的な広い範囲への広がり → 「広大な、広範囲に及ぶ」（語義1）  
-・被害・量・程度の大きな広がり → 「大規模な、甚大な」（語義2）  
-・情報・経験・対象の幅広い広がり → 「幅広い、包括的な」（語義3）  
-・大きな土地に投入を分散する農業 → 「粗放的な」（語義4）  
-・系の大きさに応じて増える性質 → 「示量性の」（語義5）  
-・適用される対象の集合に基づく定義 → 「外延的な」（語義6）  
-
-＃意味・用法・関連表現
-
-1. 【形容詞・物理的範囲】広大な、広範囲に及ぶ
-
-【日本語訳・定義】土地・地域・建物の敷地などが大きな面積に及ぶ、または旅行・活動などが広い地域にわたることを表す。単に対象の数が多いというより、空間的な広がりや及ぶ範囲に焦点がある。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。土地、庭、森林、砂漠、旅行、ネットワークなどの空間的な広がりを説明する。  
-
-【文法パターン】extensive + 〈area/grounds/land/forest/property〉＝広い面積の〈地域・敷地・土地・森林・物件〉／extensive + 〈travels/tour/network〉＝広い地域に及ぶ旅行・巡回・ネットワーク／be extensive in area＝面積が広い  
-
-【コロケーション】
-
-・extensive grounds  
-用途: 建物に付属する敷地や庭が広大であることを表す。  
-例: The hotel stands in extensive grounds overlooking the lake.  
-訳: そのホテルは湖を見下ろす広大な敷地に建っている。  
-
-・extensive land holdings  
-用途: 個人・企業・団体が広い土地を所有していることを表す。  
-例: The company has extensive land holdings in the northern region.  
-訳: その会社は北部地域に広大な土地を所有している。  
-
-・extensive forests  
-用途: 森林が広い地域に広がっていることを表す。  
-例: Extensive forests still cover much of the mountain range.  
-訳: その山脈の大部分には今も広大な森林が広がっている。  
-
-・extensive travels  
-用途: 多くの地域を巡る広範な旅行経験を表す。  
-例: Her extensive travels have shaped her understanding of different cultures.  
-訳: 彼女の広範な旅行経験は、異なる文化への理解を形づくってきた。  
-
-・an extensive network of 〈roads/railways〉  
-用途: 道路や鉄道などが広い地域を結んでいることを表す。  
-例: The island has an extensive network of rural roads.  
-訳: その島には農村部まで広がる道路網がある。  
-
-【語法・注意】この語義の extensive は「広い面積に及ぶ」という空間的な意味が中心である。extensive grounds は庭や敷地の面積を表すが、extensive research は面積ではなく情報の範囲を表すため、語義3に近い。  
-
-extensive は名詞の前に置く限定用法が多い。述語位置の The grounds are extensive. も可能だが、被害・損傷について The damage was extensive. と言う場合は、空間よりも規模・程度を表す語義2として理解する。  
-
-【類義語】
-
-・vast  
-定義: 面積・距離・数量などが非常に大きく、広大である。  
-頻度: 〈8/10〉  
-違い: vast は規模の大きさを強く印象づけ、extensive より誇張的・描写的になりやすい。extensive は行政・研究・報告の説明にも使いやすい。  
-例: Vast areas of the desert remain unexplored.  
-訳: 砂漠の広大な地域がいまだ探査されていない。  
-
-・wide  
-定義: 左右・範囲・選択肢などが広い。  
-頻度: 〈10/10〉  
-違い: wide は幅や選択の広さを日常的に表す基本語で、extensive は広い範囲にわたる規模や展開をやや硬く述べる。  
-例: The museum offers a wide range of educational programs.  
-訳: その博物館は幅広い教育プログラムを提供している。  
-
-・expansive  
-定義: 広く伸びている、または広がりをもつ。  
-頻度: 〈7/10〉  
-違い: expansive は空間の広がりや、開放的で広々した印象を強調する。extensive は実際の範囲・規模を客観的に述べやすい。  
-例: The house has expansive views of the valley.  
-訳: その家からは谷を広く見渡せる。  
-
-・sprawling  
-定義: 建物や都市などが広い範囲に不規則に広がっている。  
-頻度: 〈6/10〉  
-違い: sprawling は形がまとまりなく広がる印象や、しばしば批判的な含みを伴う。extensive にはその評価は必須でない。  
-例: A sprawling suburb has developed around the airport.  
-訳: 空港周辺に広がり続ける郊外が形成された。  
-
-【反意語】
-
-・limited  
-定義: 範囲・面積・数量が限られている。  
-頻度: 〈9/10〉  
-違い: extensive の広い範囲に対する、規模・範囲の直接的な反対を表す。  
-例: The project was carried out with limited land and equipment.  
-訳: その計画は限られた土地と設備で実施された。  
-
-・confined  
-定義: 特定の狭い場所や範囲に閉じ込められた、限定された。  
-頻度: 〈7/10〉  
-違い: confined は広がりが物理的・制度的に抑えられていることを強調する。  
-例: The fire was confined to a single room.  
-訳: 火災は一室に限定されていた。  
-
-2. 【形容詞・量・程度】大規模な、甚大な、非常に多い
-
-【日本語訳・定義】被害、損傷、修理、変更、権限、検査などの量・規模・程度が大きいことを表す。大きな範囲に及ぶことを示すが、必ずしも「最大級」「全面的」「取り返しがつかない」まで意味するわけではない。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。災害報道、医療、保険、ビジネス、行政、技術報告で頻出する。extensive damage・extensive injuries は特に定着した組み合わせである。  
-
-【文法パターン】extensive + 〈damage/repairs/injuries/testing〉＝大規模な〈被害・修理・負傷・検査〉／extensive + 〈powers/changes/use〉＝広範な権限・変更・利用／be extensive＝被害・損傷などが大きい  
-
-【コロケーション】
-
-・extensive damage  
-用途: 事故、災害、攻撃などによる損害が大きいことを表す。  
-例: The earthquake caused extensive damage to roads and bridges.  
-訳: その地震は道路や橋に甚大な被害をもたらした。  
-
-・extensive repairs  
-用途: 修理の範囲や作業量が大きいことを表す。  
-例: The old building needs extensive repairs before it can be reopened.  
-訳: その古い建物は再開前に大規模な修理を必要としている。  
-
-・extensive injuries  
-用途: けがが広範囲に及び、重い処置を要することを表す。  
-例: The driver sustained extensive injuries in the collision.  
-訳: その運転手は衝突事故で広範囲に及ぶ重傷を負った。  
-
-・extensive testing  
-用途: 検査・試験を多くの条件や段階で大規模に行うことを表す。  
-例: The software underwent extensive testing before its release.  
-訳: そのソフトウェアは発売前に大規模な試験を受けた。  
-
-・extensive powers  
-用途: 法律・制度上の権限が広い範囲に及ぶことを表す。  
-例: The agency was given extensive powers to investigate fraud.  
-訳: その機関には不正を調査する広範な権限が与えられた。  
-
-・the damage is extensive  
-用途: 被害の規模が大きいと報告・評価する。  
-例: Officials said that the damage was extensive but no one was injured.  
-訳: 当局者は被害は甚大だが、けが人はいないと述べた。  
-
-【語法・注意】extensive damage・extensive research のように、不可算名詞をそのまま修飾できる。damage は通常不可算なので、一般的な意味で an extensive damage とは言わず、extensive damage または an extensive amount of damage とする。  
-
-「長い」を表す lengthy と重なることはあるが、extensive は時間の長さそのものより、作業・被害・内容が及ぶ範囲や規模に焦点がある。修理に時間がかかったことを言いたいなら lengthy repairs、作業量が大きいことを言いたいなら extensive repairs が自然である。  
-
-「強烈な」を表す intense とも異なる。intense は経験・感情・熱・努力などの強度や集中度、extensive は広がり・量・規模を表す。  
-
-【類義語】
-
-・considerable  
-定義: 量・程度・重要性がかなり大きい。  
-頻度: 〈8/10〉  
-違い: considerable は「かなりの」という数量・程度の評価に焦点がある。extensive は対象が広い範囲に及ぶという構造的な広がりをより強く示す。  
-例: The project required a considerable investment.  
-訳: その計画にはかなりの投資が必要だった。  
-
-・substantial  
-定義: 量・規模・価値が十分に大きく、無視できない。  
-頻度: 〈8/10〉  
-違い: substantial は実質的な大きさ・重要性を表す。extensive は広い範囲や多くの部分に及ぶことを表し、価値や重要性までは必須でない。  
-例: The company made substantial changes to its safety procedures.  
-訳: その会社は安全手順に大幅な変更を加えた。  
-
-・large-scale  
-定義: 計画・活動・災害などが大規模な。  
-頻度: 〈8/10〉  
-違い: large-scale は規模の大きさを直接的・客観的に示し、名詞の前で使う。extensive は被害や内容が広範囲に及ぶことにも使える。  
-例: The city launched a large-scale renovation project.  
-訳: その都市は大規模な改修計画を開始した。  
-
-・severe  
-定義: 被害・症状・状況などの程度が非常に深刻な。  
-頻度: 〈9/10〉  
-違い: severe は深刻さ・苛酷さを評価する語で、範囲の広さを必ずしも含まない。広範囲だが重症度が一様とは限らない場合は extensive が適する。  
-例: The storm caused severe flooding in several towns.  
-訳: その嵐は複数の町で深刻な洪水を引き起こした。  
-
-【反意語】
-
-・limited  
-定義: 量・範囲・程度が限られた。  
-頻度: 〈9/10〉  
-違い: extensive の大きな規模・範囲に対する直接的な反対語である。  
-例: The repairs were limited to the roof.  
-訳: 修理は屋根に限られていた。  
-
-・minor  
-定義: 重要性・規模・程度が小さく、深刻でない。  
-頻度: 〈9/10〉  
-違い: minor は被害や変更の小ささ・軽さを表す。extensive の範囲の広さとは異なる軸もあるが、damage・injuries・repairs では有効な対比になる。  
-例: The vehicle suffered only minor damage.  
-訳: その車は軽微な損傷しか受けなかった。  
-
-・minimal  
-定義: 可能な限り少ない、最小限の。  
-頻度: 〈8/10〉  
-違い: minimal は量・影響・必要性がほとんどないことを強調する。  
-例: The treatment caused minimal discomfort.  
-訳: その治療による不快感は最小限だった。  
-
-3. 【形容詞・範囲・内容】幅広い、包括的な
-
-【日本語訳・定義】知識、経験、研究、議論、資料、選択肢などが、多くの詳細・分野・項目を含み、扱う範囲が広いことを表す。すべてを漏れなく扱うというより、対象の広さ・量・多様さに焦点がある。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。教育、研究、ビジネス、職務経歴、報道、書籍紹介で広く使う。extensive knowledge・extensive experience は、人の能力や経歴を評価する定型表現である。  
-
-【文法パターン】extensive + 〈research/knowledge/experience〉 in/of 〈分野〉＝〈分野〉に関する幅広い研究・知識・経験／an extensive range/selection of 〈items〉＝幅広い種類の〈項目〉／extensive discussion/commentary on 〈topic〉＝〈話題〉に関する広範な議論・論評／be extensive＝内容の範囲が広い  
-
-【コロケーション】
-
-・extensive research into/on 〈topic〉  
-用途: ある問題・分野について多くの資料や角度から行う広範な研究を表す。  
-例: Extensive research has been conducted into the causes of the disease.  
-訳: その病気の原因について広範な研究が行われてきた。  
-
-・extensive knowledge of 〈subject〉  
-用途: ある分野について多くの情報と理解をもっていることを表す。  
-例: She has extensive knowledge of international tax law.  
-訳: 彼女は国際税法について幅広い知識をもっている。  
-
-・extensive experience in/with 〈field/system〉  
-用途: ある仕事・分野・システムに関して豊富で幅広い経験があることを表す。  
-例: The consultant has extensive experience in financial reporting.  
-訳: そのコンサルタントは財務報告の分野で豊富な経験がある。  
-
-・an extensive range of 〈products/services〉  
-用途: 製品・サービスなどの種類や選択肢が幅広いことを表す。  
-例: The store offers an extensive range of outdoor equipment.  
-訳: その店は幅広いアウトドア用品を取りそろえている。  
-
-・an extensive bibliography  
-用途: 書籍・論文などの参考文献一覧が多く、広い資料範囲をカバーしていることを表す。  
-例: The book includes an extensive bibliography of historical sources.  
-訳: その本には歴史資料の広範な参考文献一覧が付いている。  
-
-・extensive reading  
-用途: 特定の文章を細部まで分析するより、多くの文章を読む学習・活動を表す。  
-例: Extensive reading can help learners build vocabulary through repeated exposure.  
-訳: 多読は、繰り返し触れることを通じて学習者の語彙構築に役立つ。  
-
-【語法・注意】extensive knowledge は「知識が深い」ことを含む場合もあるが、語の中心は知識の量・範囲であり、細部への深さを必ずしも保証しない。comprehensive は必要な範囲を漏れなく含むこと、thorough は細部まで注意深く扱うことに焦点がある。  
-
-extensive experience は「経験した期間が長い」だけでなく、複数の業務・状況・分野にまたがる経験が豊富であることを表しやすい。経験年数だけを述べるなら many years of experience の方が直接的な場合もある。  
-
-extensive reading は教育用語として「多読」を指すことがあるが、一般文脈では単に大量・広範囲に読むことも表す。精読は intensive reading と対比される。  
-
-【類義語】
-
-・comprehensive  
-定義: 必要な範囲の要素をほぼ漏れなく含む、包括的な。  
-頻度: 〈8/10〉  
-違い: comprehensive は網羅性・完全性を強く示す。extensive は扱う範囲や量が大きいことを示すが、全項目を含むとは限らない。  
-例: The report provides a comprehensive overview of the issue.  
-訳: その報告書はその問題の包括的な概観を示している。  
-
-・wide-ranging  
-定義: 多くの分野・種類・話題に及ぶ。  
-頻度: 〈7/10〉  
-違い: wide-ranging は範囲の多様さを明示する。extensive は多様さに加えて量・規模の大きさにも使える。  
-例: The minister faced wide-ranging questions from reporters.  
-訳: その大臣は記者から幅広い質問を受けた。  
-
-・broad  
-定義: 範囲・内容・視野が広い。  
-頻度: 〈10/10〉  
-違い: broad は日常的で基本的な語。extensive は資料・経験・研究などの量や展開の大きさをやや強く、また硬く表す。  
-例: The course gives students a broad understanding of economics.  
-訳: その講座は学生に経済学の幅広い理解を与える。  
-
-・far-reaching  
-定義: 影響・効果・結果などが広い範囲に及ぶ。  
-頻度: 〈7/10〉  
-違い: far-reaching は影響や結果の及ぶ範囲を強調する。extensive は知識・資料・経験の量や範囲にも使える。  
-例: The reform could have far-reaching consequences.  
-訳: その改革は広範な結果をもたらす可能性がある。  
-
-・thorough  
-定義: 細部まで注意深く、手を抜かずに行う。  
-頻度: 〈8/10〉  
-違い: thorough は深さ・入念さの語で、範囲の広さを必ずしも含まない。extensive research は広範な研究、thorough research は細部まで綿密な研究である。  
-例: The audit requires a thorough examination of the records.  
-訳: その監査には記録の綿密な調査が必要だ。  
-
-【反意語】
-
-・limited  
-定義: 扱う範囲・量・選択肢が限られた。  
-頻度: 〈9/10〉  
-違い: extensive の幅広さに対する直接的な反対語で、knowledge・experience・range などに使える。  
-例: He has limited knowledge of the local market.  
-訳: 彼は地元市場についての知識が限られている。  
-
-・narrow  
-定義: 範囲・視野・対象が狭い。  
-頻度: 〈9/10〉  
-違い: narrow は対象分野や視野の狭さを強調する。  
-例: The study focused on a narrow range of species.  
-訳: その研究は狭い範囲の種に焦点を絞った。  
-
-・restricted  
-定義: 規則・条件・範囲によって制限された。  
-頻度: 〈7/10〉  
-違い: restricted は外部の規則や条件によって利用・適用範囲が抑えられていることを示す。  
-例: Access to the archive is restricted to researchers.  
-訳: その資料館へのアクセスは研究者に制限されている。  
-
-4. 【形容詞・農業】粗放的な、粗放農業の
-
-【日本語訳・定義】広い土地を使い、土地1単位当たりの資本・労働・その他の投入を比較的少なくして作物や家畜を生産する農業方式を表す。広い土地を使うことと低投入であることが組み合わさった専門義であり、単に「農地が広い」だけではない。集約農業より土地当たりの収量が低くなりやすいが、総生産が必ず少ない、または非効率だという評価を含むわけではない。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】農業・畜産の専門語。一般会話では extensive farming/agriculture の定着した語句で現れることが多い。intensive farming/agriculture と対比される。  
-
-【文法パターン】extensive farming/agriculture＝粗放農業／extensive livestock farming＝粗放畜産／extensive grazing＝粗放放牧／an extensive farming system＝粗放的な農業体系  
-
-【コロケーション】
-
-・extensive farming  
-用途: 広い土地に比較的少ない投入・労働を用いる農業方式を表す。  
-例: Extensive farming is common in regions where land is abundant but labor is scarce.  
-訳: 土地は豊富だが労働力が少ない地域では、粗放農業が一般的である。  
-
-・extensive agriculture  
-用途: 作物・家畜を含む粗放的な農業全般を表す、やや硬い表現。  
-例: The policy aims to protect biodiversity in areas used for extensive agriculture.  
-訳: その政策は粗放農業に利用される地域の生物多様性を守ることを目指している。  
-
-・extensive livestock farming  
-用途: 広い土地で家畜を低い飼養密度・低投入で育てる方式を表す。  
-例: Extensive livestock farming relies heavily on natural pasture.  
-訳: 粗放畜産は自然の牧草地に大きく依存する。  
-
-・extensive grazing  
-用途: 広い放牧地で家畜を飼う粗放的な放牧を表す。  
-例: Extensive grazing can maintain open landscapes when stocking rates are low.  
-訳: 飼養密度が低ければ、粗放放牧は開けた景観を維持できる。  
-
-【語法・注意】この語義では extensive を「大規模な」「広範な」とだけ訳すと、低投入・低密度という対比が抜ける。extensive farming は土地当たりの投入が少ない方式、intensive farming は土地当たりの投入を増やして高い生産性を目指す方式である。  
-
-農業用法の extensive は、一般語義2の extensive production「大規模な生産」と完全に同義ではない。広い土地を使っていても、単位面積当たりの投入が少ないという方式上の特徴がなければ、この専門義とは限らない。  
-
-【類義語】
-
-・low-input agriculture  
-定義: 土地・労働・資本などの投入を比較的少なくして行う農業。  
-頻度: 〈5/10〉  
-違い: low-input agriculture は投入の少なさを直接表す。extensive agriculture は低投入に加え、広い土地・低密度という空間的な方式も含む。  
-例: Low-input agriculture can reduce dependence on synthetic fertilizers.  
-訳: 低投入農業は合成肥料への依存を減らせる。  
-
-・pastoral farming  
-定義: 牧草地などで家畜を飼育する農業。  
-頻度: 〈5/10〉  
-違い: pastoral farming は家畜・牧草中心であることを示すが、必ずしも低投入・低密度とは限らない。extensive livestock farming はその一部になりうる。  
-例: Pastoral farming remains important in the uplands.  
-訳: 高地では牧畜が今も重要である。  
-
-・ranching  
-定義: 広い土地で主に牛などの家畜を飼育する事業・農業。  
-頻度: 〈6/10〉  
-違い: ranching は地域・経営形態を含む語で、extensive farming の方式全般と一致しない。  
-例: Ranching has shaped the economy of the region.  
-訳: 牧場経営はその地域の経済を形づくってきた。  
-
-【反意語】
-
-・intensive  
-定義: 単位面積当たりに多くの資本・労働・肥料・飼料などを投入する農業方式の。  
-頻度: 〈7/10〉  
-違い: 農業では extensive の直接的な対照語で、土地の広さよりも単位面積当たりの投入密度に焦点を置く。  
-例: Intensive agriculture can produce high yields from relatively small areas.  
-訳: 集約農業は比較的狭い土地から高い収量を生み出せる。  
-
-・high-input  
-定義: 土地や生産単位当たりの投入量が多い。  
-頻度: 〈5/10〉  
-違い: high-input agriculture は投入の多さを直接示す説明的な表現で、extensive の専門的な対比として使われる。  
-例: High-input farming often requires careful management of water and fertilizer.  
-訳: 高投入型農業では、水と肥料の慎重な管理が必要になることが多い。  
-
-5. 【形容詞・物理・熱力学】示量性の、系の大きさに比例する
-
-【日本語訳・定義】熱力学などで、物質の量や系の大きさに応じて値が変わり、独立した部分系の値を足し合わせられる性質を表す。質量・体積・エネルギー・エントロピーなどが例である。extensive property は、系を同じ状態のまま大きくすると通常は値も増えるという意味であり、「広い」「大規模な」という一般義の単なる言い換えではない。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】物理・化学・熱力学の専門語。intensive property「示強性の性質」と対比される。  
-
-【文法パターン】an extensive property/quantity＝示量性の性質・量／an extensive variable＝示量変数／be extensive＝系の大きさに応じて増える／extensive with respect to 〈system size〉＝〈系の大きさ〉に関して示量性である  
-
-【コロケーション】
-
-・an extensive property  
-用途: 系の大きさや物質量に応じて値が変わる物理量を表す。  
-例: Mass is an extensive property because it depends on the amount of matter.  
-訳: 質量は物質の量に依存するため、示量性の性質である。  
-
-・an extensive quantity  
-用途: 部分系に分けたときに加法性を示す物理量を表す。  
-例: Volume is an extensive quantity that can be added across independent subsystems.  
-訳: 体積は、独立した部分系について足し合わせられる示量性の量である。  
-
-・an extensive variable  
-用途: 熱力学で、系の規模に応じて変化する変数を表す。  
-例: In this model, total energy is treated as an extensive variable.  
-訳: このモデルでは、全エネルギーを示量変数として扱う。  
-
-・extensive entropy  
-用途: 系を拡大したときに加法的に増えるエントロピーを表す。  
-例: For independent systems, the total entropy is extensive.  
-訳: 独立した系では、全エントロピーは示量性をもつ。  
-
-・an extensive thermodynamic property  
-用途: 熱力学上の示量性を、示強性と区別して一般的に述べる。  
-例: Heat capacity is often introduced as an extensive thermodynamic property.  
-訳: 熱容量は、示量性の熱力学的性質として導入されることが多い。  
-
-【語法・注意】この専門義では「系を二つの同種の部分に分けると、全体の値が部分の値の和になる」という加法性が重要である。単に大きい物理量という意味ではなく、系のサイズや物質量との関係を分類する用語である。  
-
-示量性の量を物質量や質量で割ると、密度や比エネルギーのような示強性の量になることが多い。intensive は系の大きさに依存しない性質を表すため、一般語義の「intensive＝集中的な」と機械的に訳さない。  
-
-【類義語】
-
-・additive  
-定義: 独立した部分の値を足し合わせて全体の値を得られる。  
-頻度: 〈7/10〉  
-違い: additive は加法性という性質に焦点を置く。extensive は加法性に加えて、系の大きさ・物質量に応じて値が変わる熱力学上の分類を表す。  
-例: Entropy is additive for independent subsystems under these conditions.  
-訳: これらの条件では、独立した部分系のエントロピーは加法的である。  
-
-・size-dependent  
-定義: 対象の大きさや規模に応じて値や結果が変わる。  
-頻度: 〈6/10〉  
-違い: size-dependent は一般的な説明語で、加法性を含意しない。extensive は物理・熱力学上の技術分類である。  
-例: The measured mass is size-dependent, whereas density is not.  
-訳: 測定された質量は大きさに依存するが、密度は依存しない。  
-
-【反意語】
-
-・intensive  
-定義: 系の大きさや物質量に依存せず、部分系でも同じ値を保つ性質の。  
-頻度: 〈7/10〉  
-違い: 熱力学では extensive の直接的な対照語。temperature・pressure・density などが典型例である。  
-例: Temperature is an intensive property of a thermodynamic system.  
-訳: 温度は熱力学系の示強性の性質である。  
-
-6. 【形容詞・論理】外延的な、外延に基づく
-
-【日本語訳・定義】論理学で、語や概念の意味内容・属性ではなく、その語が適用される対象の集合、すなわち外延に関係することを表す。現代の論理学・意味論では extensional の方が一般的で、extensive のこの用法はまれである。  
-
-【頻度】〈2/10〉  
-
-【レジスター/領域】論理学・哲学の専門語。一般語義の「幅広い」「包括的な」とは別に、extension「外延」との関係を示す。  
-
-【文法パターン】an extensive definition of 〈term〉＝〈語〉の外延的定義／be extensive rather than intensional＝内包的でなく外延的である  
-
-【コロケーション】
-
-・an extensive definition of 〈term〉  
-用途: 語の意味属性ではなく、その語が適用される対象を示す定義を表す古風・専門的な用法。  
-例: In older logical terminology, an extensive definition identifies the objects to which a term applies.  
-訳: 古い論理学の用語では、外延的定義はある語が適用される対象を特定する。  
-
-・an extensive rather than intensional definition  
-用途: 対象の集合による定義と、意味内容・属性による定義を対比する。  
-例: The textbook contrasts an extensive definition with an intensional definition.  
-訳: その教科書は外延的定義と内包的定義を対比している。  
-
-【語法・注意】この用法で extensive は「範囲が広い」という意味ではない。extension「外延」に結び付いた専門用法であり、現在の論理学・意味論では extensional definition がより普通である。  
-
-intensional は「内包的な」で、概念が適用される対象の一覧ではなく、概念を成り立たせる属性・意味内容に基づく。extensive と intensive は一般語では規模と集中の対比だが、この論理学用法では extensive と intensional が対になる。  
-
-extensive は、一般語義では「広がり・量・規模が大きい」、専門義では「広い土地を低投入で使う」「系の大きさに応じて増える」「外延に関係する」と意味の焦点が変わる。  
-「広範な」を言いたいときは extensive、「細部まで入念な」を言いたいときは thorough、「深く集中的な」を言いたいときは intensive を選ぶ。extensive research は研究の範囲・量、intensive research は深さ・集中度を強調する。  
-extensive damage は被害の範囲・規模が大きいという意味で、必ずしも damage が最も深刻、全面的、回復不能という意味ではない。  
-
-【類義語】
-
-・extensional  
-定義: 語や概念が適用される対象の集合・外延に関係する。  
-頻度: 〈4/10〉  
-違い: extensional は現代の論理学・意味論で通常選ばれる専門語。extensive は辞書に記載されるが、現代の専門文ではまれである。  
-例: An extensional definition lists the objects that fall under a term.  
-訳: 外延的定義は、ある語に当てはまる対象を列挙する。  
-
-【反意語】
-
-・intensional  
-定義: 概念の内包、つまりその概念を成り立たせる属性・意味内容に関する。  
-頻度: 〈4/10〉  
-違い: 論理学では、対象の集合に基づく extensive/extensional に対し、概念の属性や意味内容に基づく。  
-例: An intensional definition specifies the essential properties of a concept.  
-訳: 内包的定義は、ある概念の本質的な属性を明示する。
-
----
-
-# distinct
-
----
-headword: distinct
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-sol
-created_at: 2026-08-25
-updated_at: 2026-08-25
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /dɪˈstɪŋkt/。2音節の dɪ-STINGKT で、第2音節に主強勢がある。第1音節は弱い /dɪ/、第2音節の母音は /ɪ/ で、語末は /ŋ/・/k/・/t/ が連続する /ŋkt/ である。  
-語頭を /dɪs/ と切って強く読まず、/s/ は強勢のある第2音節の /st/ の一部として発音する。語末の3子音は学習者には難しいが、丁寧な発音では /k/ と /t/ を意識する。副詞 distinctly は /dɪˈstɪŋktli/ で、主強勢を保ったまま /li/ が加わる。  
-
-＃語源
-
-中英語 distinct は、ラテン語 distinctus「区別された、分けられた」に由来する。distinctus は distinguere「印を付けて分ける、区別する」の過去分詞で、英語 distinguish「見分ける、区別する」も同じ語源系統に属する。  
-「ほかとの境界が付けられている」という語源的な発想は、現代の「別個の」と「はっきり見分けられる」の両方につながる。ただし、現代英語では distinct は状態を表す形容詞、distinguish は区別する行為を表す動詞であり、品詞も構文も異なる。  
-
-＃語形成
-
-`distinction` — 名詞「区別、相違、卓越」。物事の間に境界を設けること、または目立って優れていることを表す。  
-`distinctive` — 形容詞「特徴的な、独特の」。ほかと見分ける手掛かりになる特徴を持つことを表す。  
-`distinctly` — 副詞「はっきりと、明らかに」。知覚・記憶の明瞭さのほか、話者の強い印象を表すこともある。  
-`distinctness` — 名詞「明瞭さ、別個性」。境界や知覚がはっきりしている性質を表す。  
-`indistinct` — 接頭辞 `in-`「否定」を付けた形容詞「ぼんやりした、はっきり区別できない」。  
-`indistinctly` — 副詞「ぼんやりと、不明瞭に」。音・像・記憶などが明確でない様子を表す。  
-
-＃コアイメージ
-
-distinct の共通核は、あるものの境界や特徴がほかに埋もれず、別のものとして取り出せることである。何が取り出されるかによって、対象の別個性、知覚の明瞭さ、程度・存在の明白さ、重複しない値、合着していない植物器官という用法に広がる。  
-・対象の境界がほかに埋もれない状態 → 「別個の、明確に異なる」（語義1）  
-・知覚上の特徴がほかに埋もれない状態 → 「はっきりした、明瞭な」（語義2）  
-・程度や存在がほかに埋もれない状態 → 「明らかな、はっきり認められる」（語義3）  
-・値の同一性がほかに埋もれない状態 → 「相異なる、重複しない」（語義4）  
-・植物器官の境界がほかに埋もれない状態 → 「分離した、合着していない」（語義5）  
-
-＃意味・用法・関連表現
-
-1. 【形容詞・限定／叙述】別個の、明確に異なる
-
-【日本語訳・定義】二つ以上の物、種類、考え、段階、役割などが同一ではなく、それぞれ独立して区別できることを表す。単に小さな差があるというより、分類・同一性・役割の境界を引けることが中心である。ただし、物理的に離れていることや相互に無関係であることまでは必ずしも意味しない。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。日常会話、学術、ビジネス、報道で広く使う。分類や概念の境界を明示する文章では特に多い。  
-
-【文法パターン】`a distinct 〈type/category/group/stage〉`＝別個の〈種類・分類・集団・段階〉／`〈A〉 + be distinct from 〈B〉`＝AはBとは明確に異なる／`as distinct from 〈B〉`＝Bではなく、それとは区別して／`two/several distinct 〈objects/ideas〉`＝二つまたはいくつかの別個の〈対象・考え〉  
-
-【コロケーション】
-
-・be distinct from 〈something else〉  
-用途: 二つの対象・概念が同一ではなく、区別すべきものであると明示する。  
-例: Biological sex is distinct from gender identity, although the two concepts may interact.  
-訳: 生物学的な性はジェンダー・アイデンティティとは別の概念だが、両者は相互に関係することがある。  
-
-・as distinct from 〈something else〉  
-用途: 直前の名称・役割・概念を、似ている別のものではなくこちらだと対比する。  
-例: The report measures household income, as distinct from individual earnings.  
-訳: その報告書が測定しているのは、個人の所得ではなく、それと区別された世帯所得である。  
-
-・two distinct 〈groups/categories/periods〉  
-用途: 数え上げる対象が重なった一つのまとまりではなく、区別可能な複数単位であると示す。  
-例: The survey revealed two distinct groups of customers.  
-訳: その調査から、明確に異なる二つの顧客群が明らかになった。  
-
-・a distinct 〈type/form/species〉  
-用途: ある対象を既存の種類と同一視せず、独立した型・形・種として分類する。  
-例: Researchers identified the samples as a distinct form of the virus.  
-訳: 研究者たちは、その試料をそのウイルスの別個の型と特定した。  
-
-・a distinct 〈role/function/identity〉  
-用途: 組織や制度の中で、役割・機能・同一性がほかと混ざらず独立していることを表す。  
-例: The board and the management team have distinct roles.  
-訳: 取締役会と経営陣には、それぞれ異なる役割がある。  
-
-・remain distinct  
-用途: 接触・類似・統合があっても、二つ以上の対象が区別できる状態を保つ。  
-例: The two traditions influenced each other but remained distinct.  
-訳: その二つの伝統は互いに影響し合ったが、別個のものではあり続けた。  
-
-【語法・注意】`distinct from` が標準的な形であり、差の基準を導くのに `distinct than` は使わない。`A is distinct from B.` はAとBの同一性・種類・役割が異なることを述べる。`A is different from B.` より分類上の境界を意識させやすいが、「完全に無関係」という意味ではない。`as distinct from` は「〜とは別に」ではなく、「〜ではなく、それと区別して」という対比を作る。単に追加を表す `in addition to` とは異なる。`distinct` と `separate` も同一ではなく、`distinct concepts` は概念上区別できること、`separate rooms` は空間・配置上離れていることを中心にする。  
-
-【類義語】
-
-・different  
-定義: 二つ以上のものが同じではない。  
-頻度: 〈10/10〉  
-違い: different は大小を問わず差があることを広く表す。distinct は差によって対象を別々のものとして区別できることを強く示す。  
-例: The revised plan is different from the original one in several details.  
-訳: 改訂案は、いくつかの細部で原案と異なる。  
-
-・separate  
-定義: 物・場所・組織などが結合せず、離れた単位になっている。  
-頻度: 〈9/10〉  
-違い: separate は接続・配置・所属が分かれていることを強調する。distinct は同じ場所や体系の中にあっても、性質や同一性を区別できれば使える。  
-例: The interviews were conducted in separate rooms.  
-訳: 面接は別々の部屋で行われた。  
-
-・discrete  
-定義: 連続せず、一つ一つ独立した単位として分かれている。  
-頻度: 〈5/10〉  
-違い: discrete は非連続性と個々の独立性を強く表し、学術・技術文脈で多い。distinct は境界を認識できることが中心で、対象同士が接触・関連していても使える。  
-例: The process consists of four discrete stages.  
-訳: その工程は、互いに区切られた四つの段階から成る。  
-
-・differentiated  
-定義: 特徴・機能・市場などによって、ほかと区別された。  
-頻度: 〈5/10〉  
-違い: differentiated は区別する過程や差別化の結果を含みやすい。distinct は、その過程を問わず区別可能な状態を述べる。  
-例: The company offers a highly differentiated service.  
-訳: その会社は他社と明確に差別化されたサービスを提供している。  
-
-【反意語】
-
-・identical  
-定義: 比較対象がすべての関連する点でまったく同じである。  
-頻度: 〈8/10〉  
-違い: distinct が対象を別物として区別できることを表すのに対し、identical は差を認められないほど同一であることを表す。  
-例: The two copies appear identical.  
-訳: その二つの複製は同一に見える。  
-
-・indistinguishable  
-定義: 見た目・性質・結果などから区別できない。  
-頻度: 〈6/10〉  
-違い: distinct との対立は「別個に見分けられるか」という認識上の軸にある。indistinguishable は実際に同一とは限らないが、利用できる手掛かりでは見分けられない。  
-例: The imitation was almost indistinguishable from the original.  
-訳: その模造品は本物とほとんど見分けがつかなかった。  
-
-2. 【形容詞・限定／叙述】はっきりした、明瞭な
-
-【日本語訳・定義】形、線、音、声、匂い、味、記憶、特徴などがぼやけず、目・耳・鼻・心などで容易に認識できることを表す。ここでは、ほかと種類が違うことより、知覚・認識の輪郭が明瞭であることが中心である。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。日常会話、描写、科学的観察、製品評価などで使う。視覚だけでなく、音・匂い・味・記憶にも用いる。  
-
-【文法パターン】`a distinct 〈sound/smell/taste/outline/feature〉`＝はっきり分かる〈音・匂い・味・輪郭・特徴〉／`〈sound/shape/feature〉 + be/become/remain distinct`＝〈音・形・特徴〉がはっきりしている  
-
-【コロケーション】
-
-・a distinct 〈sound/voice/accent〉  
-用途: 音声や話し方の特徴が耳ではっきり認識できることを表す。  
-例: A distinct clicking sound came from the engine.  
-訳: エンジンから、はっきりとしたカチカチ音が聞こえた。  
-
-・a distinct 〈smell/odor/aroma〉  
-用途: 匂いが弱く曖昧なのではなく、何らかの特徴として明確に感じられることを表す。  
-例: There was a distinct smell of smoke in the hallway.  
-訳: 廊下には、はっきりと煙の匂いがした。  
-
-・a distinct 〈outline/shape/boundary〉  
-用途: 形や境界線が背景に溶け込まず、目で明確に追えることを表す。  
-例: At sunrise, the mountain formed a distinct outline against the sky.  
-訳: 日の出のころ、その山は空を背景にはっきりした輪郭を見せた。  
-
-・a distinct 〈flavor/taste/note〉  
-用途: 飲食物の味・香りに、識別できる特徴があることを表す。  
-例: The sauce has a distinct smoky flavor.  
-訳: そのソースには、はっきりとした燻製風味がある。  
-
-・a distinct memory  
-用途: 過去の場面や出来事を曖昧にではなく、細部を伴って明確に覚えていることを表す。  
-例: I have a distinct memory of locking the back door.  
-訳: 私には裏口に鍵を掛けたというはっきりした記憶がある。  
-
-・become less distinct  
-用途: 光、距離、雑音、時間などによって、像・音・記憶の明瞭さが下がることを表す。  
-例: The markings became less distinct as the paint faded.  
-訳: 塗料が色あせるにつれて、その印は次第に不鮮明になった。  
-
-【語法・注意】この語義のdistinctは、知覚できる「特徴」があることを示すが、その特徴が珍しい、魅力的、またはその対象だけに固有だとは限らない。`a distinct accent` はアクセントが明瞭に聞き取れることを表し得るのに対し、`a distinctive accent` はほかと見分ける目印になる独特のアクセントを表す。`clear` は障害や曖昧さがなく理解・知覚しやすいことを広く表す。`distinct` は輪郭や特徴を一つのものとして取り出せることを強調する。画像については `clear image` が自然な一般表現であり、`distinct outline` のように識別対象を示すとdistinctの意味が明確になる。  
-
-【類義語】
-
-・clear  
-定義: 見る、聞く、理解する際の妨げがなく、容易に知覚・把握できる。  
-頻度: 〈10/10〉  
-違い: clear は情報や説明の理解しやすさにも広く使う。distinct は、音・形・特徴の輪郭がほかから分かれて認識できることに焦点がある。  
-例: Her explanation was clear and concise.  
-訳: 彼女の説明は明快で簡潔だった。  
-
-・definite  
-定義: 輪郭、証拠、計画などが曖昧でなく、確定的または明確である。  
-頻度: 〈8/10〉  
-違い: definite は不確定性の少なさを強調し、予定・答えにも使う。distinct は主に識別可能な感覚的・認識的特徴を強調する。  
-例: We need a definite answer by Friday.  
-訳: 金曜日までに明確な返答が必要だ。  
-
-・discernible  
-定義: 注意すれば知覚・認識できる程度に見分けられる。  
-頻度: 〈4/10〉  
-違い: discernible は「辛うじてでも識別可能か」という閾値を意識させ、しばしば形式的である。distinct は通常、特徴がより明瞭に現れていることを示す。  
-例: A faint pattern was discernible beneath the top layer of paint.  
-訳: 上塗りの下に、かすかな模様が見分けられた。  
-
-・unmistakable  
-定義: ほかのものと取り違えようがないほど明瞭である。  
-頻度: 〈6/10〉  
-違い: unmistakable は誤認の余地がないという強い程度を表す。distinct は明瞭さを表すが、常にそこまで絶対的ではない。  
-例: His voice has an unmistakable warmth.  
-訳: 彼の声には、聞き違えようのない温かみがある。  
-
-・vivid  
-定義: 色、描写、記憶、想像などが鮮明で、生き生きと感じられる。  
-頻度: 〈7/10〉  
-違い: vivid は鮮やかさや心理的な生々しさを含む。distinct は、感情的な強さを伴わず、単に輪郭・特徴が明瞭である場合にも使える。  
-例: She gave a vivid description of the storm.  
-訳: 彼女はその嵐を生々しく描写した。  
-
-【反意語】
-
-・indistinct  
-定義: 輪郭・音・記憶などがぼんやりして、はっきり識別できない。  
-頻度: 〈5/10〉  
-違い: distinct と同じ明瞭さの軸で直接反対を表す派生語である。対象が存在しないのではなく、知覚・認識しにくいことを示す。  
-例: The figures in the distance were indistinct.  
-訳: 遠くの人影はぼんやりしていた。  
-
-・faint  
-定義: 音、光、匂い、印などが弱く、知覚しにくい。  
-頻度: 〈8/10〉  
-違い: faint は刺激の弱さを中心にする。distinct は識別の明瞭さを中心にするため、弱くても輪郭を見分けられる音や印はfaint but distinctと表せる。  
-例: We heard a faint noise from upstairs.  
-訳: 私たちは上の階からかすかな物音を聞いた。  
-
-・blurred  
-定義: 像・境界・記憶などの輪郭がにじみ、明瞭でない。  
-頻度: 〈7/10〉  
-違い: blurred は輪郭が物理的または比喩的にぼやけた状態を表す。distinct は、輪郭をほかから切り分けられる状態を表す。  
-例: The photograph was blurred by the movement of the camera.  
-訳: その写真はカメラの動きでぼやけていた。  
-
-3. 【形容詞・主に限定】明らかな、はっきり認められる
-
-【日本語訳・定義】可能性、印象、利点、変化、傾向、不足などが、無視できないほどはっきり存在する、または認められることを表す。知覚対象の輪郭ではなく、程度・存在・判断が明白であることが中心である。`a distinct possibility` は現実に考慮すべき可能性を示すが、必ず起こることまでは意味しない。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。会話、報道、ビジネス、評論で広く使う。`distinct possibility`、`distinct advantage`、`distinct impression` は定着度が高い。  
-
-【文法パターン】`a distinct 〈possibility/chance/risk〉`＝はっきり存在する〈可能性・見込み・危険〉／`a distinct 〈advantage/disadvantage/improvement/change〉`＝明白な〈利点・不利・改善・変化〉／`have/get the distinct impression that 〈節〉`＝〜だという強い印象を持つ／`show a distinct 〈tendency/preference/lack〉`＝明らかな〈傾向・好み・不足〉を示す  
-
-【コロケーション】
-
-・a distinct possibility that 〈節〉  
-用途: ある出来事が現実に起こり得るため、無視せず考慮すべきだと述べる。  
-例: There is a distinct possibility that the launch will be delayed by the weather.  
-訳: 天候によって打ち上げが延期される可能性は十分にある。  
-
-・a distinct advantage over someone/something  
-用途: 比較対象に対して、認識できる明確な優位性があることを示す。  
-例: The smaller device has a distinct advantage over its competitors in portability.  
-訳: その小型機器は携帯性の点で競合製品より明らかに有利だ。  
-
-・a distinct improvement on/over something  
-用途: 以前の状態・製品・案と比べ、改善が明確に認められることを表す。  
-例: The new timetable is a distinct improvement on the previous one.  
-訳: 新しい時刻表は以前のものより明らかに改善されている。  
-
-・have the distinct impression that 〈節〉  
-用途: 証明済みの事実とは限らないが、話者が強く明確な印象を持っていると述べる。  
-例: I had the distinct impression that she wanted to end the meeting early.  
-訳: 私には、彼女が会議を早く終えたがっているというはっきりした印象があった。  
-
-・a distinct lack of something  
-用途: 必要・期待されるものが明らかに不足していることを、しばしば批判的または皮肉に指摘する。  
-例: The proposal shows a distinct lack of practical detail.  
-訳: その提案には実務的な詳細が明らかに欠けている。  
-
-・show a distinct 〈tendency/preference〉  
-用途: 行動や選択に、偶然とは見なしにくい明確な傾向・好みが現れていると述べる。  
-例: Younger respondents showed a distinct preference for monthly subscriptions.  
-訳: 若い回答者は月額契約を明らかに好む傾向を示した。  
-
-【語法・注意】この語義は主に名詞の前で使い、`a distinct possibility`、`a distinct advantage` のように程度を強める。`distinct` 自体が「確実な」を意味するわけではないため、`a distinct possibility` を「確実に起こること」と訳さない。可能性が明確に存在するという意味であり、その確率は文脈で決まる。`the distinct impression that ...` は話者の強い印象であって、内容の真実性を保証しない。`distinct lack of ...` は不足が目立つことを表し、しばしば否定的評価を伴う。この評価を、`distinct advantage` のような中立・肯定的表現へ一般化しない。  
-
-【類義語】
-
-・clear  
-定義: 可能性、利点、傾向、証拠などが容易に理解・認識できる。  
-頻度: 〈10/10〉  
-違い: clear は判断の分かりやすさを広く表す。distinct は、程度や存在が背景から浮かび上がるほど認められることを強調する。  
-例: The data show a clear decline in demand.  
-訳: そのデータは需要の明らかな減少を示している。  
-
-・definite  
-定義: 可能性、計画、利点などが曖昧でなく、明確に定まっている。  
-頻度: 〈8/10〉  
-違い: definite は確定性を強く示し、`a definite plan` のように内容が決まっている場合にも使う。distinct possibility は無視できない可能性であって、結果の確定を意味しない。  
-例: We have no definite date for the move yet.  
-訳: 移転の確定日はまだ決まっていない。  
-
-・noticeable  
-定義: 変化、差、効果などが気付ける程度に目立つ。  
-頻度: 〈8/10〉  
-違い: noticeable は観察者が実際に気付く程度を中心にする。distinct は、可能性や印象のような抽象的判断にも広く使える。  
-例: There was a noticeable drop in noise after the repairs.  
-訳: 修理後、騒音が目に見えて減った。  
-
-・pronounced  
-定義: 差、傾向、特徴などが特に顕著である。  
-頻度: 〈6/10〉  
-違い: pronounced は通常、distinct より強く、観察可能な差や特徴が際立つことを表す。可能性や話者の印象にはdistinctほど広く使わない。  
-例: The regional gap is most pronounced among older workers.  
-訳: 地域差は高年齢の労働者の間で最も顕著である。  
-
-【反意語】
-
-・slight  
-定義: 差、可能性、変化、利点などの程度が小さく、目立たない。  
-頻度: 〈9/10〉  
-違い: distinct が無視しにくい明確な程度を示すのに対し、slight は存在しても程度が小さいことを示す。  
-例: There is only a slight chance of rain.  
-訳: 雨が降る可能性はわずかしかない。  
-
-・negligible  
-定義: 影響、差、危険、可能性などが無視できるほど小さい。  
-頻度: 〈6/10〉  
-違い: distinct が考慮に値する存在・程度を示すのに対し、negligible は実務上考慮しなくてよいほど小さいことを表す。  
-例: The change had a negligible effect on total costs.  
-訳: その変更が総費用に与えた影響は無視できるほど小さかった。  
-
-4. 【形容詞・数学／データ処理】相異なる、重複しない
-
-【日本語訳・定義】集合の要素、数、組合せ、データ値、行などについて、同じものとして等しくない、または重複を除けば別々に数えられることを表す。数学では複数の対象が互いに等しくないこと、データ処理では同一値・同一行を一つにまとめた結果を説明する。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】数学、統計、データ分析、データベース。一般英語の「別個の」から直接理解できる専門的用法である。SQLでは大文字の `DISTINCT` がキーワードとして用いられる。  
-
-【文法パターン】`distinct 〈values/elements/points/solutions〉`＝互いに異なる〈値・要素・点・解〉／`〈objects〉 + be pairwise distinct`＝任意の二つが互いに異なる／`the number of distinct 〈values/categories〉`＝重複を除いた〈値・分類〉の数／`SELECT DISTINCT 〈column/list〉`＝SQLで重複行を除いて選択する  
-
-【コロケーション】
-
-・distinct 〈values/elements〉  
-用途: 同じ値・要素を重複して数えず、互いに異なるものだけを対象にする。  
-例: The column contains twelve entries but only five distinct values.  
-訳: その列には12件のデータがあるが、重複を除くと値は5種類しかない。  
-
-・pairwise distinct 〈numbers/sets/points〉  
-用途: 対象の任意の二つを選んでも同一にならないという数学的条件を明示する。  
-例: Let a, b, and c be pairwise distinct positive integers.  
-訳: a、b、cを、どの二つも互いに異なる正の整数とする。  
-
-・the number of distinct 〈values/items〉  
-用途: 出現回数ではなく、重複を除いた種類数を数える。  
-例: We counted the number of distinct error codes in the log.  
-訳: 私たちはログに含まれる重複を除いたエラーコードの種類数を数えた。  
-
-・return distinct 〈rows/results〉  
-用途: データ処理や検索結果から、完全に重複する行・結果を除いて返す。  
-例: The query returns distinct rows based on the selected columns.  
-訳: そのクエリは、選択された列に基づいて重複しない行を返す。  
-
-・SELECT DISTINCT 〈column/list〉  
-用途: SQLのSELECT結果から、選択した列の値が同じ重複行を除く。  
-例: Use `SELECT DISTINCT city` to list each city only once.  
-訳: 各都市を一度ずつ一覧にするには、`SELECT DISTINCT city` を使う。  
-
-【語法・注意】数学の `distinct` は「見た目が違う」ではなく、指定された等値関係のもとで同じではないことを表す。`pairwise distinct` は集合全体が異なるという曖昧な表現ではなく、任意の二対象が等しくない条件を明示する。SQLの `SELECT DISTINCT` は、選択結果の全列が同じ行を重複として除く。複数列を選べば、その列の組合せ全体で比較され、一つの列だけを個別に重複排除するとは限らない。PostgreSQLの `DISTINCT ON` は標準SQLの一般的な `DISTINCT` と同一ではなく、指定式ごとの先頭行を残す拡張であり、どの行を残すかを安定させるには適切な `ORDER BY` が必要である。  
-
-【類義語】
-
-・unique  
-定義: 集合・列・識別子などの中で、同じ値を持つ別の対象がない。  
-頻度: 〈7/10〉  
-違い: unique はある要素が集合内でただ一つであることを表しやすい。distinct は複数要素同士が等しくないことや、重複を除いた種類を表す。データベースではunique制約とSELECT DISTINCTは別の機能である。  
-例: Each account must have a unique identifier.  
-訳: 各アカウントには一意の識別子が必要だ。  
-
-・different  
-定義: 比較する二つ以上の値・対象が同じではない。  
-頻度: 〈9/10〉  
-違い: different は一般的な比較語である。distinct は集合・列・解などを一括して扱い、重複排除や相異性という技術的条件を簡潔に表せる。  
-例: The two variables have different values.  
-訳: その二つの変数は異なる値を持つ。  
-
-・nonduplicate  
-定義: 既存の項目と重複していない。  
-頻度: 〈2/10〉  
-違い: nonduplicate は重複項目ではないことを直接表す低頻度の技術語である。distinct は数学・データ処理でより標準的で、値同士の相異性にも使える。  
-例: The import tool keeps only nonduplicate records.  
-訳: そのインポートツールは重複していないレコードだけを保持する。  
-
-【反意語】
-
-・equal  
-定義: 二つの値・式・対象が、指定された基準のもとで同じである。  
-頻度: 〈9/10〉  
-違い: distinct が複数対象の非同一性を表すのに対し、equal は比較対象が同じ値または同等の対象であることを表す。  
-例: The two expressions are equal for every real value of x.  
-訳: その二つの式は、xのすべての実数値について等しい。  
-
-・duplicate  
-定義: 既存の値、記録、行などと同一内容を繰り返したもの。  
-頻度: 〈7/10〉  
-違い: distinct が重複を除いて別々に扱う対象を表すのに対し、duplicate は同一内容が複数回現れていることを表す。  
-例: The system flagged three duplicate records.  
-訳: そのシステムは三つの重複レコードを検出した。  
-
-5. 【形容詞・植物学】分離した、合着していない
-
-【日本語訳・定義】花弁、がく片、雄しべなどの植物器官が、同じまとまりのほかの器官と融合せず、一つ一つ分かれていることを表す。一般義の「別個の」を植物形態の記載に用いる専門語であり、単に種類が異なるという意味ではない。  
-
-【頻度】〈2/10〉  
-
-【レジスター/領域】植物形態学、植物分類、植物誌、同定用の検索表。日常英語ではなく、器官の結合状態を記載する専門用法である。  
-
-【文法パターン】`distinct 〈petals/sepals/stamens〉`＝互いに合着していない〈花弁・がく片・雄しべ〉／`〈floral parts〉 + be distinct`＝〈花の各器官〉が分離している／`〈number〉 + distinct 〈floral parts〉`＝合着せず個別に数えられる〈数〉個の器官  
-
-【コロケーション】
-
-・distinct 〈petals/sepals〉  
-用途: 同じ花冠・がくを構成する花弁・がく片が、互いに合着していないことを記載する。  
-例: The flower has five distinct petals rather than a fused corolla.  
-訳: その花には、合着した花冠ではなく、互いに分離した5枚の花弁がある。  
-
-・distinct 〈stamens/carpels〉  
-用途: 雄しべ・心皮が一つの構造へ融合せず、個別の器官として存在することを示す。  
-例: In this species, the stamens remain distinct at maturity.  
-訳: この種では、雄しべは成熟時にも互いに合着せず分離している。  
-
-・〈floral parts〉 + be distinct  
-用途: 植物記載で、対象器官の結合状態を叙述形で示す。  
-例: The sepals are distinct and fall soon after the flower opens.  
-訳: がく片は互いに分離しており、開花後まもなく落ちる。  
-
-・〈number〉 + distinct 〈floral parts〉  
-用途: 合着していない器官を個別に数えて、形態的特徴を示す。  
-例: Each flower bears three distinct carpels.  
-訳: 各花には、互いに合着していない3個の心皮がある。  
-
-【語法・注意】植物学のdistinctは、同じ系列の器官が互いに`free`、すなわち融合していない状態を記載する。一般義の`distinct species`は「別種」、この専門義の`distinct petals`は「互いに合着していない花弁」であり、対象名詞によって解釈が変わる。器官が別の種類の器官へ付着していないことまで常に含むわけではないため、どの器官同士の結合を述べているかを確認する。  
-
-【類義語】
-
-・free  
-定義: 植物器官が同じ系列または別の器官と融合・付着していない。  
-頻度: 〈3/10〉  
-違い: 植物学のfreeは融合だけでなく、文脈によって別種器官への付着がないことも表せる。distinctは主に器官同士が個別に分かれている点を強調する。  
-例: The upper portions of the filaments are free.  
-訳: 花糸の上部は互いに合着していない。  
-
-・separate  
-定義: 植物器官が結合せず、個別の部分として存在する。  
-頻度: 〈3/10〉  
-違い: separateは一般語としても使える説明的表現である。distinctは植物誌や形態記載で、器官がfreeであることを簡潔に示す専門的用法を持つ。  
-例: The ovary is divided into three separate chambers.  
-訳: その子房は三つの別々の室に分かれている。  
-
-【反意語】
-
-・fused  
-定義: 複数の植物器官が接合し、一つの構造になっている。  
-頻度: 〈4/10〉  
-違い: distinctが器官を個別に数えられる分離状態を表すのに対し、fusedは組織が連続して一体化した状態を表す。  
-例: The petals are fused at the base to form a short tube.  
-訳: 花弁は基部で合着し、短い筒を形成している。  
-
-・united  
-定義: 植物器官が互いに結合し、一続きの部分を形成している。  
-頻度: 〈3/10〉  
-違い: unitedは植物形態記載で、distinctまたはfreeと対照される説明語である。fusedと同様に結合を示すが、結合の発生過程までは必ずしも強調しない。  
-例: The sepals are united for half their length.  
-訳: がく片は長さの半分まで合着している。
-
----
-
-# prompt
-
----
-headword: prompt
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-sol
-created_at: 2026-08-25
-updated_at: 2026-08-26
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /prɑːmpt/｜英: /prɒmpt/。1音節で、米語では /ɑː/、英語では /ɒ/ を発音する。語頭に /pr/、語末に /mpt/ という子音連続があり、/m/ と /p/ の間や /p/ と /t/ の間に母音を入れない。  
-形容詞・動詞・名詞のいずれでも同じ1音節に強勢がある。三人称単数 prompts は米 /prɑːmpts/・英 /prɒmpts/ で語末に /ts/ が続く。過去形・過去分詞 prompted は米 /ˈprɑːmptɪd/・英 /ˈprɒmptɪd/、-ing形 prompting は米 /ˈprɑːmptɪŋ/・英 /ˈprɒmptɪŋ/ である。基語が /t/ で終わるため、-ed は /d/ ではなく /ɪd/ と発音する。  
-派生語 promptly は米 /ˈprɑːmptli/・英 /ˈprɒmptli/、promptness は米 /ˈprɑːmptnəs/・英 /ˈprɒmptnəs/。promptly の /tli/、promptness の /tnəs/ でも、prompt の末尾の /t/ を落とさない。ただし速い会話では子音連続の一部が弱く聞こえることがある。  
-
-＃語源
-
-prompt は中英語の動詞 prompten と形容詞 prompt にさかのぼり、古フランス語 prompt およびラテン語 promptus「前に出された、準備のできた」に由来する。promptus はラテン語 promere「前へ、外へ取り出す」の過去分詞で、pro-「前へ、外へ」＋emere「取る」という構成で説明される。  
-「前に出て、すぐ使える・すぐ現れる」という発想から、形容詞の「準備ができていて素早い」「遅れずに行われる」、動詞の「行動や反応を引き出す」「発話を助ける」、名詞の「発話や行動を引き出す合図」へ意味が広がった。コンピューター用法は、入力や応答を促す表示・指示へこの核が拡張したものである。  
-同じラテン語系統に属する語として、準備なしにその場で行うことを表す impromptu「即興の、即興で」と、すぐに・直ちにという意味で使われる pronto がある。これらは prompt の単純な接辞派生ではない。  
-
-＃語形成
-
-promptly — 副詞「すぐに、速やかに、時間どおりに」。prompt の「遅れのない」という意味を文全体や動作へ適用する。  
-promptness — 名詞「迅速さ、時間を守ること」。応答・支払い・到着などに遅れがない性質を表す。  
-prompting — 名詞「促すこと、発話を助けること」。動詞 prompt の動名詞・現在分詞から生じ、教育・演劇・心理支援などで使う。  
-prompter — 名詞「演劇でせりふを助ける人、プロンプター」。動詞 prompt に人を表す -er が付いた語である。  
-promptitude — 名詞「即応性、迅速さ」。まれで硬い語で、一般学習では promptness のほうが普通である。  
-unprompted — 形容詞「促されていない、求められていない、自発的な」。un-「否定」を付け、質問や指示なしに行われたことを表す。  
-impromptu — 形容詞・副詞・名詞「即興の、即興で、即興作品」。prompt と同じラテン語 promptus 系統だが、prompt の接頭辞派生ではない。  
-command prompt — 複合名詞「コマンド入力を待つ画面表示、コマンドプロンプト」。prompt がコンピューターの入力待ち表示を表す複合表現である。  
-prompt engineering — 複合名詞「AIへの指示文を設計・改善すること」。生成システムから望ましい出力を引き出すための入力設計を表す。  
-
-＃コアイメージ
-
-prompt の共通核は、反応・発話・行動などを内側にとどめず、きっかけによって前へ出す、または待たせずに表れさせることである。時間の早さ、人の即応、原因による誘発、記憶の呼び出し、質問や入力の合図へ広がる。  
-・反応や行動が前へ出て遅れない状態 → 「迅速な、遅滞のない」（語義1）  
-・人が反応を前へ出す準備がある状態 → 「素早く応じる、時間を守る」（語義2）  
-・時点を前へ出して遅れなく行うこと → 「時間どおりに、すぐに」（語義3）  
-・出来事が反応や行動を前へ出す働き → 「促す、引き起こす」（語義4）  
-・手掛かりが発話を前へ出す働き → 「せりふを促す、思い出させる」（語義5）  
-・手掛かりとして発話や行動を前へ出すもの → 「せりふの合図、助け舟」（語義6）  
-・問いや課題が思考や回答を前へ出すもの → 「発想・回答を引き出す問い、課題」（語義7）  
-・画面が利用者の入力を前へ出させる表示 → 「入力を促す表示、コマンドプロンプト」（語義8）  
-・指示がAIの生成結果を前へ出させる入力 → 「AIに与える指示文、入力」（語義9）  
-
-＃意味・用法・関連表現
-
-1. 【形容詞・限定／叙述】迅速な、遅滞のない
-
-【日本語訳・定義】行動、対応、返答、支援、支払いなどが、必要以上に待たせずに行われることを表す。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。ビジネス、行政、医療、案内文で特に多い。  
-
-【文法パターン】prompt 〈action/response/reply/payment/attention〉＝迅速な〈行動・応答・返答・支払い・対応〉／a prompt reply to something＝〜への迅速な返答  
-
-【コロケーション】
-
-・prompt action  
-用途: 問題や危険に対して、遅らせずに対応することを表す。  
-例: Prompt action prevented the fire from spreading.  
-訳: 迅速な対応によって、火が広がるのを防いだ。  
-
-・a prompt response/reply to something  
-用途: 質問、苦情、依頼などに対する返答が早いことを示す。  
-例: We expect a prompt response to the complaint.  
-訳: その苦情には迅速な返答を期待している。  
-
-・prompt payment of something  
-用途: 請求書や料金を先延ばしせず支払うことを求める。  
-例: Prompt payment of the invoice would be appreciated.  
-訳: 請求書の速やかな支払いをお願いします。  
-
-・prompt attention to something  
-用途: 問題や依頼を後回しにせず、すぐに扱うことを表す。  
-例: This safety issue requires prompt attention.  
-訳: この安全上の問題には迅速な対応が必要である。  
-
-・prompt medical attention  
-用途: けがや症状に対して、遅れずに医療処置を受けることを表す。  
-例: The child received prompt medical attention after the fall.  
-訳: その子どもは転倒後、すぐに医療処置を受けた。  
-
-【語法・注意】prompt は「速い」という速度だけでなく、期待される対応を遅らせないという評価を含む。immediate は時間を置かないことをより強く示し、quick は動作や反応の速さに焦点を置く。timely は適切な時機に間に合うことを表す。prompt payment は必ずしも「即時払い」ではなく、妥当な期間内に速やかに払うという意味になり得る。副詞は通常 promptly を使い、The company responded prompt. とはしない。  
-
-【類義語】
-
-・immediate  
-定義: 時間的な間隔や介在がなく、直ちに起こる。  
-頻度: 〈10/10〉  
-違い: immediate は時間的近接を強く表す。prompt は場面の期待に照らして遅れがないことを示し、必ずしも瞬時ではない。  
-例: The patient needs immediate treatment.  
-訳: その患者には直ちに治療が必要だ。  
-
-・timely  
-定義: 必要な時期に間に合い、状況に適した時機に行われる。  
-頻度: 〈7/10〉  
-違い: timely は適時性に焦点があり、prompt のような単純な速さを必ずしも含まない。  
-例: Timely advice helped us avoid a costly mistake.  
-訳: 適切な時機の助言によって、高くつく失敗を避けられた。  
-
-・quick  
-定義: 動作、反応、処理などに時間がかからない。  
-頻度: 〈10/10〉  
-違い: quick は所要時間の短さを広く表す。prompt は依頼や問題への応答が期待どおりに遅れないという評価を帯びやすい。  
-例: The technician gave the machine a quick check.  
-訳: 技術者は機械をさっと点検した。  
-
-【反意語】
-
-・delayed  
-定義: 予定または期待された時点より後へ遅れた。  
-頻度: 〈8/10〉  
-違い: prompt が遅延のない対応を示すのに対し、delayed は予定より後になった状態を示す。  
-例: The delayed response caused further confusion.  
-訳: 遅れた返答がさらなる混乱を招いた。  
-
-・belated  
-定義: 適切な時機を過ぎてから行われた。  
-頻度: 〈5/10〉  
-違い: belated は「もっと早くすべきだった」という含みを持ちやすい。  
-例: The company issued a belated apology.  
-訳: その会社は遅ればせながら謝罪した。  
-
-2. 【形容詞・主に叙述】素早く応じる、時間を守る
-
-【日本語訳・定義】人が、求められた行動や返答をすぐに行う準備ができている、または約束された時刻に遅れず行動することを表す。単に能力が高いというより、訓練、規律、注意によって即座に応じる性質を示しやすい。人については be prompt のような叙述用法が自然である。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準語。会議、仕事、返答、接客、指示への対応などで使う。punctual に近い「時間を守る」用法と、ready・responsive に近い「すぐ応じる」用法がある。  
-
-【文法パターン】be prompt＝時間を守る・すぐ応じる／be prompt to do something＝すぐに〜する／be prompt in doing something＝〜するのが速やかである／be prompt when 〈doing something〉＝〜する際に遅れない／be prompt to respond/reply＝すぐに応答する  
-
-【コロケーション】
-
-・be prompt to respond  
-用途: 連絡や問題提起に対して、すぐ反応する人の性質を表す。  
-例: She is always prompt to respond to urgent messages.  
-訳: 彼女は緊急のメッセージにはいつもすぐに応答する。  
-
-・be prompt in answering 〈questions〉  
-用途: 質問への返答をためらわず、時間をかけずに行うことを表す。  
-例: The witness was prompt in answering the lawyer's questions.  
-訳: その証人は弁護士の質問にすぐ答えた。  
-
-・be prompt to report 〈a problem〉  
-用途: 問題に気づいたら、報告を先延ばしにしない態度を示す。  
-例: Employees should be prompt to report any safety concern.  
-訳: 従業員は安全上の懸念があれば、すぐに報告すべきだ。  
-
-・Please be prompt.  
-用途: 約束の時刻や集合時刻に遅れないよう、丁寧または事務的に求める。  
-例: Please be prompt when attending these meetings.  
-訳: これらの会議には時間どおりに出席してください。  
-
-・be prompt in paying 〈a bill〉  
-用途: 請求や料金の支払いを先延ばしにしない人の態度を表す。  
-例: He is prompt in paying his bills, even when the amount is disputed.  
-訳: 彼は金額に異議がある場合でも、請求書の支払いを遅らせない。  
-
-【語法・注意】人についての prompt は「反応が速い」と「時間に正確」の両方を取り得る。She was prompt to answer. は返答の速さ、She was prompt when she arrived for the meeting. は到着時の遅れのなさを表す。punctual は予定時刻への正確さ、responsive は連絡・要求への反応性、ready は準備や能力の状態を強調する。a prompt reply は自然だが、すぐ返事をする人を表すときは通常 be prompt とする。  
-
-【類義語】
-
-・punctual  
-定義: 約束・予定された時刻に遅れない。  
-頻度: 〈8/10〉  
-違い: punctual は到着・開始などの時刻の正確さに限定されやすい。prompt は時刻だけでなく、質問や依頼への即応も表す。  
-例: The train was punctual despite the heavy rain.  
-訳: 大雨にもかかわらず、その列車は時間どおりだった。  
-
-・responsive  
-定義: 要求、連絡、変化などにすぐ反応する。  
-頻度: 〈7/10〉  
-違い: responsive は反応のしやすさや積極性に焦点があり、promptのような期限・時刻の含みはない。  
-例: The support team is responsive to customer feedback.  
-訳: そのサポートチームは顧客の意見にすぐ対応する。  
-
-・ready  
-定義: 必要なときにすぐ行動・応答できる状態にある。  
-頻度: 〈10/10〉  
-違い: ready は準備が整っていること、prompt は実際に遅れず応じることを示す。  
-例: The assistants were ready to help visitors.  
-訳: その補助員たちは来訪者を手伝える状態だった。  
-
-・quick  
-定義: 反応・理解・動作などが速い。  
-頻度: 〈10/10〉  
-違い: quick は生来の速さや一時的な動作の速さにも使える。prompt は規律や期待された対応の速さを含みやすい。  
-例: He is quick to notice changes in the market.  
-訳: 彼は市場の変化に気づくのが早い。  
-
-【反意語】
-
-・tardy  
-定義: 到着・提出・行動が定められた時刻より遅い。  
-頻度: 〈4/10〉  
-違い: tardy は時刻への遅れを直接反対に表す。promptの反応の速さ全般に対して使う場合は文脈が必要である。  
-例: The employee was warned about repeated tardy arrivals.  
-訳: その従業員は、度重なる遅刻について注意を受けた。  
-
-・hesitant  
-定義: 決めたり行動したりする前にためらう。  
-頻度: 〈7/10〉  
-違い: hesitant は応答・行動に移るまでの心理的なためらいを表し、promptの即応性と対立する。時間への遅れを必ずしも含まない。  
-例: She was hesitant to answer the unexpected question.  
-訳: 彼女は予想外の質問に答えるのをためらった。  
-
-3. 【副詞・主に英・くだけた】時間どおりに、すぐに
-
-【日本語訳・定義】promptly の短い形として、特にイギリス英語のくだけた用法や時刻表現で「時間どおりに」「遅れずに」を表す。一般的で中立な文章では promptly を使うほうが安全で、prompt を副詞として自由に使う用法は限定的である。  
-
-【頻度】〈3/10〉  
-
-【レジスター/領域】主にイギリス英語のくだけた表現、または時刻を強調する定型表現。正式な文書や国際的な学習用英語では promptly が標準的である。  
-
-【文法パターン】at 〈時刻〉 prompt＝ちょうど〜時に／arrive/leave prompt＝時間どおりに到着する・出発する／〈主語〉 + be there prompt＝〜時に遅れずそこにいる  
-
-【コロケーション】
-
-・at eight o'clock prompt  
-用途: 開始・集合の時刻が正確に8時であることを、くだけて強調する。  
-例: The doors will open at eight o'clock prompt.  
-訳: 開場はきっかり8時です。  
-
-・arrive prompt  
-用途: 到着が遅れなかったことを、主に英語のくだけた用法で表す。  
-例: The doctor arrived prompt for the first appointment.  
-訳: その医師は最初の診察に時間どおり到着した。  
-
-・leave prompt  
-用途: 出発時刻に遅れず出発することを、時刻を意識した文脈で表す。  
-例: The coach leaves prompt at six, so please take your seat early.  
-訳: バスは6時ちょうどに出発するので、早めに着席してください。  
-
-【語法・注意】この副詞用法を一般的な副詞として広げず、promptly と使い分ける。Please reply promptly. は標準的だが、Please reply prompt. は通常避ける。at nine prompt は「9時ちょうどに」という時刻の後置表現で、米語の会話では at nine sharp や at exactly nine のほうが自然なこともある。  
-
-【類義語】
-
-・promptly  
-定義: 遅れずに、すぐに、時間どおりに。  
-頻度: 〈8/10〉  
-違い: promptly は地域や文体の制約が少ない標準的な副詞で、prompt の副詞用法の代わりに広く使える。  
-例: Please reply promptly if you cannot attend.  
-訳: 出席できない場合は速やかに返事をしてください。  
-
-・punctually  
-定義: 予定・約束の時刻に正確に。  
-頻度: 〈6/10〉  
-違い: punctually は時刻の正確さに限られ、promptly のように「すぐに処理する」という意味までは必ずしも持たない。  
-例: The lecture began punctually at ten.  
-訳: 講義は10時ちょうどに始まった。  
-
-・on time  
-定義: 予定された時刻に遅れず。  
-頻度: 〈10/10〉  
-違い: on time は会話で非常に普通な句で、prompt のような「すぐに応じる」という広がりはない。  
-例: The package arrived on time.  
-訳: 荷物は時間どおりに届いた。  
-
-【反意語】
-
-・late  
-定義: 予定された時刻より後に。  
-頻度: 〈10/10〉  
-違い: late は単純に時刻の遅れを表し、prompt の副詞用法と直接対立する。  
-例: The speaker arrived late and apologized to the audience.  
-訳: 講演者は遅れて到着し、聴衆に謝った。  
-
-4. 【他動詞】促す、引き起こす
-
-【日本語訳・定義】人・出来事・情報などが、誰かに行動や決定をさせたり、反応・議論・調査などを引き起こしたりすることを表す。promptする側は意図的な説得者とは限らず、発言、証拠、事故、変化などが原因・きっかけになる場合も多い。結果を強制するというより、行動や反応が生じる方向へ動かす語である。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】標準語。会話、報道、ビジネス、研究、政策、心理・社会の説明で広く使う。受動態の be prompted by も非常に多い。  
-
-【文法パターン】prompt someone to do something＝人に〜するよう促す／prompt 〈a reaction/decision/change〉＝〈反応・決定・変化〉を引き起こす／prompt 〈an investigation/review/discussion〉＝〈調査・再検討・議論〉を促す／be prompted by something＝〜に促される・〜がきっかけで起こる／What prompted someone to do something?＝何が人に〜させたのか  
-
-【コロケーション】
-
-・prompt someone to take action  
-用途: 人や組織が行動を起こすきっかけになることを表す。  
-例: The warning prompted residents to take action.  
-訳: その警告を受けて、住民たちは行動を起こした。  
-
-・prompt a response/reaction  
-用途: 発言、刺激、出来事などが返答や反応を引き起こすことを示す。  
-例: The question prompted a thoughtful response from the panel.  
-訳: その質問は、パネル参加者から思慮深い回答を引き出した。  
-
-・prompt a decision  
-用途: 情報や状況の変化が、決定を下すきっかけになることを表す。  
-例: The unexpected cost prompted the board to reconsider the plan.  
-訳: 予想外の費用を受けて、取締役会は計画を再検討した。  
-
-・prompt an investigation/review  
-用途: 問題や証拠が調査・再検討を始める原因になることを示す。  
-例: The missing records prompted an internal investigation.  
-訳: 記録の欠落が内部調査のきっかけになった。  
-
-・prompt concern/speculation  
-用途: ある情報が懸念や推測を生じさせることを表す。  
-例: The sudden drop in sales prompted concern among investors.  
-訳: 売上の急落が投資家の懸念を招いた。  
-
-・be prompted by 〈a question/event/concern〉  
-用途: 行動や発言が、特定のきっかけによって生じたと受動態で説明する。  
-例: The revision was prompted by customer feedback.  
-訳: その改訂は顧客からの意見をきっかけに行われた。  
-
-・prompt a user to enter data  
-用途: コンピューターのプログラムが、利用者に入力を求めることを表す。  
-例: The app prompted me to enter a password.  
-訳: そのアプリは私にパスワードを入力するよう求めた。  
-
-・What prompted you to do something?  
-用途: 相手がある選択や行動をすることになった理由・きっかけを尋ねる。  
-例: What prompted you to change careers?  
-訳: 何がきっかけで転職したのですか。  
-
-【語法・注意】人を目的語にする場合は prompt someone to do something とし、prompt someone do something とはしない。prompt something は物事を引き起こす構文で、質問を相手に投げかける「尋ねる」という意味ではない。force は相手の選択肢を奪う強制、motivate は内的な意欲づけ、provoke は強い反応や不快な反応を誘発する含みが出やすい。prompt は意図的な誘導にも非意図的な原因にも使える。be prompted by は原因を示し、結果が必ず実現したことまで保証しない場合がある。  
-
-【類義語】
-
-・cause  
-定義: 出来事や状態を直接生じさせる。  
-頻度: 〈10/10〉  
-違い: cause は因果関係を広く中立的に述べる。prompt は行動・決定・反応を引き出すきっかけや刺激に焦点があり、心理的・対人的な流れを示しやすい。  
-例: The leak caused serious damage to the building.  
-訳: その漏水は建物に深刻な損害をもたらした。  
-
-・motivate  
-定義: 人に行動する意欲や理由を与える。  
-頻度: 〈8/10〉  
-違い: motivate は行為者の内的な意欲・目的意識を重視する。prompt は意欲がなくても外部の出来事が行動を促す場合に使える。  
-例: The bonus motivated the team to finish early.  
-訳: その賞与がチームに早く終える意欲を与えた。  
-
-・induce  
-定義: 理由、説得、影響によって人に行動や状態を生じさせる。  
-頻度: 〈6/10〉  
-違い: induce はやや正式で、説得や働きかけの結果として行動させる含みがある。prompt はニュースや事故など非人間的な原因にも自然に使う。  
-例: The treatment induced temporary sleep.  
-訳: その治療は一時的な睡眠を引き起こした。  
-
-・provoke  
-定義: 反応、特に強い・感情的な反応を引き起こす。  
-頻度: 〈7/10〉  
-違い: provoke は怒り、反発、議論などを刺激する含みが強い。prompt は好ましい反応や中立的な調査も引き起こせる。  
-例: His remark provoked an angry response.  
-訳: 彼の発言は怒った反応を引き起こした。  
-
-・spur  
-定義: 人を強く刺激して、行動を急がせたり奮い立たせたりする。  
-頻度: 〈6/10〉  
-違い: spur は緊急性や奮起の力を強く感じさせる。prompt はそれほど強い刺激でなくても、行動のきっかけなら使える。  
-例: The criticism spurred her to improve her presentation.  
-訳: その批判が彼女を刺激し、発表を改善させた。  
-
-【反意語】
-
-・deter  
-定義: 人が行動するのを思いとどまらせる。  
-頻度: 〈7/10〉  
-違い: prompt が行動へ向かわせるのに対し、deter は危険・罰・不利益などによって行動を止める方向に働く。  
-例: The high cost deterred many customers from upgrading.  
-訳: 高い費用のため、多くの顧客は更新を思いとどまった。  
-
-・discourage  
-定義: 人の意欲や行動をくじく、やめさせる。  
-頻度: 〈8/10〉  
-違い: discourage は心理的な意欲を下げることを中心にし、prompt のように行動を前へ進める働きと反対になる。  
-例: One failure should not discourage you from trying again.  
-訳: 一度の失敗で再挑戦する気持ちを失ってはいけない。  
-
-・prevent  
-定義: 出来事や行動が起こるのを妨げる。  
-頻度: 〈9/10〉  
-違い: prevent は結果の発生を遮断する語で、prompt のように結果を引き出す働きと対立する。ただし、意欲への働きかけではなく、成立そのものを止める。  
-例: The barrier prevented vehicles from entering the area.  
-訳: その障害物によって車両はその区域に入れなかった。  
-
-5. 【他動詞・自動詞／発話・演劇】せりふを促す、思い出させる
-
-【日本語訳・定義】人、特に俳優や発表者が忘れた言葉・次の発言を思い出せるように、単語、質問、手掛かりを与える。教育や面接で、答えを丸ごと教えるのではなく、本人が発話を続けられるよう助ける場合にも使う。自動詞では、相手が答えられるよう質問や短い促しを加える意味になる。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】標準語。演劇・映画、教育、面接、言語支援などで使う。一般的な「思い出させる」用法は remind と重なるが、発話や行動をその場で引き出す合図の性質が強い。  
-
-【文法パターン】prompt someone＝人に発話の助け舟を出す／prompt someone with 〈a word/question/hint〉＝〈語・質問・ヒント〉で人を促す／prompt someone for 〈an answer/detail〉＝人に答え・詳細を言うよう促す／be prompted＝促されて発言する／prompt someone to say something＝人が〜と言えるよう促す  
-
-【コロケーション】
-
-・prompt an actor  
-用途: 俳優が忘れたせりふを言えるよう、舞台袖などから言葉を与える。  
-例: The prompter prompted the actor when he missed his line.  
-訳: 俳優がせりふを忘れたとき、プロンプターが助け舟を出した。  
-
-・prompt someone with 〈a question〉  
-用途: 直接答えを示さず、質問を手掛かりにして相手の発話を引き出す。  
-例: The teacher prompted Maya with a simpler question.  
-訳: 先生は、より簡単な質問をしてマヤの発言を促した。  
-
-・prompt someone with 〈a word/line〉  
-用途: 忘れた単語やせりふの一部を与え、相手が続けられるようにする。  
-例: I prompted the child with the first word of the sentence.  
-訳: 私はその子に文の最初の単語を示して、続きを言えるようにした。  
-
-・prompt someone for 〈an answer/detail〉  
-用途: 相手が答えや詳しい情報を出すよう、質問や促しを重ねる。  
-例: The interviewer prompted the witness for more details.  
-訳: 面接官は証人にさらに詳しい説明を求めた。  
-
-・have to be prompted  
-用途: 自分からは発言できず、誰かの促しが必要だったことを表す。  
-例: The nervous student had to be prompted before giving the answer.  
-訳: その緊張した生徒は、答えを言う前に促してもらう必要があった。  
-
-・prompt someone to continue  
-用途: 途中で止まった発表者や話者が、次の言葉を思い出して続けられるよう助ける。  
-例: A quiet hint prompted the speaker to continue.  
-訳: 小さなヒントが、話者が続ける助けになった。  
-
-【語法・注意】この用法の prompt someone to do は、行動の原因を述べる語義4と形が同じでも、「忘れた発話を助ける」という文脈で解釈される。俳優にせりふを丸ごと教えるというより、次の語や手掛かりを与えるのが中心である。prompt someone with 〈something〉 は手掛かりの内容を示し、prompt someone for 〈something〉 は相手から答え・情報を引き出そうとする。remind は記憶を呼び戻す一般語で、必ずしもその場の発話を促すとは限らない。  
-
-【類義語】
-
-・cue  
-定義: 次に行うことや言うことを知らせる合図を与える。  
-頻度: 〈7/10〉  
-違い: cue は舞台上の合図や行動開始の信号という構造に焦点がある。prompt は忘れた言葉を口頭で補う、または質問で発話を引き出す働きを表す。  
-例: The stage manager cued the actor to enter.  
-訳: 舞台監督は俳優に登場の合図を出した。  
-
-・remind  
-定義: 忘れていた情報や予定を思い出させる。  
-頻度: 〈9/10〉  
-違い: remind は記憶の回復全般を表し、prompt はその場で言葉や答えを出せるよう手掛かりを与えることに焦点がある。  
-例: Please remind me to call the clinic tomorrow.  
-訳: 明日その診療所に電話するよう、私に思い出させてください。  
-
-・jog someone's memory  
-定義: 手掛かりによって人の記憶を軽く呼び起こす。  
-頻度: 〈6/10〉  
-違い: jog は完全に思い出せなかった記憶を、軽い刺激で思い出させるくだけた表現である。prompt は質問やせりふの補助という行為にも使う。  
-例: The old photograph jogged my memory.  
-訳: その古い写真が私の記憶を呼び起こした。  
-
-・elicit  
-定義: 質問・働きかけによって答え、反応、情報などを引き出す。  
-頻度: 〈6/10〉  
-違い: elicit は何かを相手から出させる結果に焦点があり、prompt は相手が出せるよう手掛かりを与える行為を具体的に表しやすい。  
-例: The survey elicited honest comments from participants.  
-訳: その調査は参加者から率直なコメントを引き出した。  
-
-6. 【可算名詞・演劇など】せりふの合図、助け舟、思い出させる言葉
-
-【日本語訳・定義】俳優や話者が次に言う言葉を忘れたときに、別の人から与えられる単語・句・合図を表す。そこから広がって、学習者や発表者が答えを続けるための短い手掛かり・助け舟にも使う。多くの場合、何らかの発話や行動をその場で引き出す具体的なきっかけである。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】演劇では専門的な標準語。教育、発表、面接では「ヒント・促し」の意味で使う。一般的な課題文やAIへの指示を表す prompt とは、手掛かりの受け手と用途が異なる。  
-
-【文法パターン】give someone a prompt＝人に助け舟を出す／need a prompt＝促し・ヒントが必要である／with a prompt from someone＝〜からの促しを受けて／a prompt from offstage＝舞台袖からのせりふの合図／a verbal prompt＝口頭の促し  
-
-【コロケーション】
-
-・give someone a prompt  
-用途: 忘れたせりふや答えを続けられるよう、短い手掛かりを与える。  
-例: The actor lost her place and was given a prompt from backstage.  
-訳: その俳優はせりふの位置を見失い、舞台裏から助け舟を出してもらった。  
-
-・need a prompt  
-用途: 答えや発言を思い出すために、少しの手掛かりが必要だと述べる。  
-例: I know the answer, but I need a prompt to remember the exact word.  
-訳: 答えは分かっているが、正確な単語を思い出すにはヒントが必要だ。  
-
-・a prompt from offstage  
-用途: 舞台袖にいる人から、俳優へせりふを伝えることを表す。  
-例: She recovered after receiving a prompt from offstage.  
-訳: 彼女は舞台袖から助け舟を出してもらい、立て直した。  
-
-・a verbal prompt  
-用途: 作業や発話を開始・継続するための口頭の手掛かりを表す。  
-例: The child completed the task after a verbal prompt.  
-訳: その子どもは口頭で促されると課題を終えた。  
-
-・take a prompt from someone  
-用途: 相手から与えられた手掛かりを受けて、発話や行動を続ける。  
-例: The speaker took a prompt from the moderator and answered the question.  
-訳: 話者は司会者の促しを受けて、その質問に答えた。  
-
-【語法・注意】この名詞は通常可算で、a prompt、the prompt、prompts のように使う。演劇の prompt は俳優が忘れたせりふを補う合図であり、舞台に登場するきっかけ全般を指す cue と完全には同じでない。a prompt for an essay のような「課題・問い」は語義7、画面に表示される入力待ちの記号は語義8である。同じ prompt でも、誰の発話・行動をどのように引き出すかで意味を分ける。  
-
-【類義語】
-
-・cue  
-定義: 次の発話・動作・登場などを知らせる合図。  
-頻度: 〈7/10〉  
-違い: cue は演技の開始や交代を知らせる信号に広く使う。prompt は忘れたせりふや答えを補う手掛かりを指しやすい。  
-例: The lighting change was the cue for the dancers to move.  
-訳: 照明の変化がダンサーたちの動き始める合図だった。  
-
-・hint  
-定義: 答えや解決方法を直接言わずに示す手掛かり。  
-頻度: 〈9/10〉  
-違い: hint は問題解決のための手掛かり全般で、prompt より広い。prompt は発話や行動を続けさせるための具体的な促しを表す。  
-例: The teacher gave us a hint instead of the full answer.  
-訳: 先生は完全な答えではなくヒントをくれた。  
-
-・reminder  
-定義: 忘れていたことを思い出させるもの。  
-頻度: 〈8/10〉  
-違い: reminder は予定・義務・情報を思い出させるもの全般を指す。prompt はその場で発言・行動を引き出す短い合図に焦点がある。  
-例: The calendar alert was a useful reminder.  
-訳: カレンダーの通知は役に立つリマインダーだった。  
-
-7. 【可算名詞】発想・回答を引き出す問い、課題、指示
-
-【日本語訳・定義】人に文章を書かせたり、意見を述べさせたり、考えを発展させたりするために与える問い、テーマ、画像、指示を表す。必ず疑問文である必要はなく、求める内容、視点、形式を指定する課題文も prompt になる。単なる話題の名前より、何らかの応答を引き出す働きが強い。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】教育、作文、研究、ワークショップ、面接、会議などで広く使う。writing prompt、essay prompt、discussion prompt は定着度が高い。  
-
-【文法パターン】respond to a prompt＝課題・問いに答える／a prompt for 〈writing/discussion/reflection〉＝〈作文・議論・内省〉を促す課題／use something as a prompt＝〜をきっかけ・題材として使う／a prompt that asks someone to do something＝人に〜するよう求める指示文／write an answer to the prompt＝課題文への答えを書く  
-
-【コロケーション】
-
-・a writing prompt  
-用途: 文章を書き始めるために、題材・視点・条件などを与える課題を表す。  
-例: The writing prompt asks students to describe a place that changed them.  
-訳: その作文課題は、自分を変えた場所を説明するよう生徒に求めている。  
-
-・an essay prompt  
-用途: 小論文や試験で、論じるべき問い・課題文を表す。  
-例: Read the essay prompt carefully before choosing your argument.  
-訳: 論点を選ぶ前に、小論文の課題文を注意深く読みなさい。  
-
-・a discussion prompt  
-用途: 会議や授業で、参加者から意見や議論を引き出す問いを表す。  
-例: The teacher opened with a discussion prompt about trust.  
-訳: 先生は信頼についての議論を促す問いから授業を始めた。  
-
-・respond to a prompt  
-用途: 課題文や問いに対して、文章・発言・作品などの形で応答する。  
-例: Each participant responded to the prompt in three sentences.  
-訳: 参加者はそれぞれ、その問いに3文で答えた。  
-
-・use something as a prompt for something  
-用途: 写真、経験、音楽などを、発想や文章を生むきっかけとして使う。  
-例: She used the photograph as a prompt for a short story.  
-訳: 彼女はその写真を短編小説を書くきっかけにした。  
-
-・a creative prompt  
-用途: 自由な発想や創作を始めるための刺激・課題を表す。  
-例: The artist drew from a creative prompt about forgotten objects.  
-訳: その芸術家は、忘れられた物についての創作課題から発想を得た。  
-
-【語法・注意】prompt は質問そのものだけでなく、回答の方向や形式を含む課題文も指す。answer a question と respond to a prompt は重なるが、prompt には「この条件・視点で何かを作る／述べる」という誘発の働きが出やすい。essay prompt は小論文の題名だけではなく、何を論じるべきかを示す設問全体を指すことが多い。語義6の prompt は忘れた言葉を助ける短い合図、語義7は複数の回答者から思考や文章を引き出す課題である。  
-
-【類義語】
-
-・question  
-定義: 情報、意見、判断などを求める疑問・問い。  
-頻度: 〈10/10〉  
-違い: question は答えを求める問いに焦点がある。prompt は疑問文でなくても、文章作成や創作を方向づける指示・刺激になれる。  
-例: The interviewer asked a difficult question.  
-訳: 面接官は難しい質問をした。  
-
-・stimulus  
-定義: 反応、思考、活動を引き起こす刺激。  
-頻度: 〈6/10〉  
-違い: stimulus は心理・生理・経済など幅広い刺激を指す。prompt は回答や創作を引き出すために意図的に与えられた問い・課題を指しやすい。  
-例: The exhibition provided a stimulus for new research.  
-訳: その展覧会は新しい研究への刺激になった。  
-
-・assignment  
-定義: 学習や仕事のために割り当てられた課題。  
-頻度: 〈8/10〉  
-違い: assignment は提出・完了すべき仕事全体を指す。prompt はその課題の中で、回答を導く問い・指示文だけを指す場合がある。  
-例: The reading assignment is due on Friday.  
-訳: 読書課題の提出期限は金曜日だ。  
-
-・cue  
-定義: 発話や行動を引き出す合図・きっかけ。  
-頻度: 〈7/10〉  
-違い: cue は次の行動を知らせる信号に焦点があり、prompt は思考・作文・議論の内容を引き出す問いや課題を表せる。  
-例: The photograph was a cue for a childhood memory.  
-訳: その写真は子どものころの記憶を呼び起こすきっかけだった。  
-
-8. 【可算名詞・コンピューター】入力を促す表示、コマンドプロンプト
-
-【日本語訳・定義】コンピューターの画面に表示され、システムが入力を受け付けられる状態であることを示す記号・文字列、または利用者にパスワードなどの入力を促すメッセージを表す。prompt 自体は入力するコマンドや答えではなく、それを入力するよう促す表示である。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】コンピューター用語。command prompt、shell prompt、password prompt、login prompt などで使う。日常的なアプリ画面の入力要求にも使えるが、AIへの指示文とは別の用法である。  
-
-【文法パターン】at the command prompt＝コマンドプロンプト上で／display/show a prompt＝入力を促す表示を出す／enter something at the prompt＝プロンプトに〜を入力する／a prompt for 〈a password/input〉＝パスワード・入力を促す表示／return to the prompt＝入力待ちの表示に戻る  
-
-【コロケーション】
-
-・at the command prompt  
-用途: コマンド入力を待つ端末画面で操作することを表す。  
-例: At the command prompt, type the file name and press Enter.  
-訳: コマンドプロンプトでファイル名を入力し、Enterキーを押してください。  
-
-・a password prompt  
-用途: パスワードの入力を求める画面上の表示を表す。  
-例: The program displayed a password prompt before opening the file.  
-訳: そのプログラムはファイルを開く前にパスワード入力を表示した。  
-
-・see the prompt  
-用途: システムが入力を受け付けられる状態になったことを示す表示を確認する。  
-例: When you see the prompt, enter Y to continue.  
-訳: プロンプトが表示されたら、続行するためにYを入力してください。  
-
-・enter something at the prompt  
-用途: 表示された入力要求に対して値やコマンドを入力する。  
-例: Enter your user name at the prompt.  
-訳: プロンプトにユーザー名を入力してください。  
-
-・return to the prompt  
-用途: コマンドの処理が終わり、次の入力を受け付ける状態へ戻る。  
-例: The shell returned to the prompt after the command finished.  
-訳: コマンドの処理が終わると、シェルは入力待ちの表示に戻った。  
-
-・the 〈$/>〉 prompt  
-用途: シェルなどで、入力待ちを示す特定の記号を表す。  
-例: The $ prompt indicates that the shell is ready for a command.  
-訳: $プロンプトは、シェルがコマンドを受け付けられる状態だと示す。  
-
-【語法・注意】command prompt は、入力待ちの記号を指す場合と、Windowsのコマンドライン環境そのものを指す場合がある。どちらでも、prompt は利用者が入力する command そのものではない。a prompt for a password は入力を求める表示、a prompt to an AI はAIに渡す指示文であり、前者は画面の要求、後者は利用者が作る入力という違いがある。可算名詞なので、特定の表示には the prompt、個別の入力要求には a prompt とする。  
-
-【類義語】
-
-・input request  
-定義: 利用者にデータや指示の入力を求める表示・要求。  
-頻度: 〈5/10〉  
-違い: input request は要求内容を説明する一般的な句で、prompt のように端末上の記号や入力待ち状態まで含む専門用法ではない。  
-例: The form displayed an input request for the account number.  
-訳: そのフォームは口座番号の入力を求めた。  
-
-・command line  
-定義: コマンドを文字で入力してコンピューターを操作するインターフェース。  
-頻度: 〈7/10〉  
-違い: command line は操作環境・方式を指し、prompt はその環境で入力を促す表示を指す。  
-例: The tool can be run from the command line.  
-訳: そのツールはコマンドラインから実行できる。  
-
-・indicator  
-定義: 状態や利用可能な操作を示す表示。  
-頻度: 〈8/10〉  
-違い: indicator は状態表示一般を指す。prompt は特に、利用者へ次の入力や応答を促す表示である。  
-例: A green indicator shows that the device is connected.  
-訳: 緑の表示は機器が接続されていることを示す。  
-
-9. 【可算名詞・コンピューター／AI】AIに与える指示文、入力
-
-【日本語訳・定義】生成AIなどのシステムに対し、何を作るか、どの条件で答えるか、どの形式で出力するかを伝える文章・質問・指示を表す。短い問いから、背景、制約、出力形式を組み合わせた長い入力まで含む。prompt はAIが返した文章・画像そのものではなく、それを引き出すために利用者が与える入力である。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】コンピューター、生成AI、自然言語処理、教育・業務の新しい用法。一般の技術記事や会話で広がっているが、AI以外では語義6〜8の意味も残る。  
-
-【文法パターン】write/enter a prompt＝プロンプトを書く・入力する／give an AI a prompt＝AIにプロンプトを与える／a prompt for 〈a task〉＝〜用の指示文／a prompt that asks the system to do something＝システムに〜させる指示文／prompt engineering＝プロンプト設計・改善  
-
-【コロケーション】
-
-・write a prompt  
-用途: AIから望ましい出力を得るための指示文を作成する。  
-例: Write a prompt that states the audience and the desired format.  
-訳: 想定読者と望ましい形式を明記したプロンプトを書きなさい。  
-
-・enter a prompt into 〈a model/tool〉  
-用途: AIシステムや生成ツールへ指示文を入力する。  
-例: She entered a prompt into the image generator to request a watercolor style.  
-訳: 彼女は水彩画風を求めるプロンプトを画像生成ツールに入力した。  
-
-・give an AI a prompt  
-用途: AIに質問・指示・条件を渡し、応答や生成物を求める。  
-例: He gave the AI a prompt asking for three alternative titles.  
-訳: 彼はAIに、題名を3案出すよう求めるプロンプトを与えた。  
-
-・a prompt for 〈summarizing/translating/planning〉  
-用途: 特定の作業をAIにさせるための入力文を表す。  
-例: She tested several prompts for summarizing meeting notes.  
-訳: 彼女は会議メモを要約するためのプロンプトをいくつか試した。  
-
-・prompt engineering  
-用途: 指示の構成や条件を調整し、AIの出力を改善する作業・方法論を表す。  
-例: Prompt engineering often involves testing different instructions and examples.  
-訳: プロンプトエンジニアリングでは、異なる指示や例を試すことが多い。  
-
-・a prompt that specifies 〈a format/constraint〉  
-用途: 出力形式や禁止事項などの条件を明示するプロンプトを表す。  
-例: A prompt that specifies a table format can make the output easier to compare.  
-訳: 表形式を指定するプロンプトを使うと、出力を比較しやすくなる。  
-
-【語法・注意】AI用法の prompt は、質問だけでなく役割、背景、制約、例、出力形式を含む指示全体を指せる。instruction は人や機械に与える指示一般、query は情報を尋ねる検索・質問に焦点があり、prompt はシステムから特定の応答や生成物を引き出す入力として使われる。prompt engineering は単に丁寧な英文を書くことではなく、入力と出力を試行しながら設計することを表す。AIが出力した結果を prompt と呼ばないようにする。  
-
-【類義語】
-
-・instruction  
-定義: 何をどのように行うかを示す指示。  
-頻度: 〈10/10〉  
-違い: instruction は人間や機械への指示全般を指す。AI用の prompt は、作業内容に加えて文脈・制約・出力形式を含む入力を指すことが多い。  
-例: Follow the instructions on the screen.  
-訳: 画面の指示に従ってください。  
-
-・input  
-定義: システムに与えられるデータ、文字列、操作。  
-頻度: 〈9/10〉  
-違い: input はデータや操作を広く含む技術用語で、prompt は自然言語で生成や応答を方向づける入力を特に指す。  
-例: The model produces different results from the same input.  
-訳: そのモデルは同じ入力から異なる結果を生成する。  
-
-・query  
-定義: 情報や結果を求めてシステムに送る質問・検索要求。  
-頻度: 〈8/10〉  
-違い: query は検索・データベース照会の性格が強い。prompt は質問に限らず、文章・画像・形式を指定して生成させる指示にも使う。  
-例: The search engine returned no results for the query.  
-訳: その検索エンジンは、その検索要求に対して結果を返さなかった。  
-
-・request  
-定義: 何かをしてほしいという依頼。  
-頻度: 〈10/10〉  
-違い: request は依頼の内容・意図に焦点がある。prompt はAIシステムへ渡す実際の入力文と、その構成・条件を指す技術用語になっている。  
-例: The application processed the user's request.  
-訳: そのアプリケーションは利用者の依頼を処理した。
-
----
-
-# pursue
-
----
-headword: pursue
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-26
-updated_at: 2026-08-26
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /pərˈsuː/｜英: /pəˈsjuː/。2音節で、第2音節に主強勢がある。米語の第1音節は弱い r 色のある /pər/、英語は弱い /pə/。第2音節は米語が /suː/、英語が /sjuː/ で、英語では /s/ の後に弱い /j/ が入る。  
-三人称単数 pursues は米 /pərˈsuːz/・英 /pəˈsjuːz/、過去形・過去分詞 pursued は米 /pərˈsuːd/・英 /pəˈsjuːd/、-ing形 pursuing は米 /pərˈsuːɪŋ/・英 /pəˈsjuːɪŋ/。語末の /z/ は有声音の後なので /s/ ではなく /z/、-ed は /d/ と発音する。綴りでは pursue に -ing を付けると語末の e を落として pursuing となるが、pursued では e を残して pursued と綴る。  
-
-＃語源
-
-pursue は中英語を経て、アングロフランス語・古フランス語 pursure / pursiure から入った語で、ラテン語 prosequi「後から追う、追い続ける」にさかのぼる。pro-「前へ」＋sequi「従う、後を追う」という構成である。  
-「前へ進みながら対象の後を追う」という核から、物理的な追跡だけでなく、目標を追い求めること、計画・案件を続けて進めること、記憶や恐怖に追われることへ意味が広がった。  
-同じ sequi「追う・続く」の語根に関係する語として、sequence「連続、順序」、sequel「続編」、subsequent「その後の」などがある。これらは pursue の単純な接頭辞派生ではない。  
-
-＃語形成
-
-pursues は三人称単数現在形、pursued は過去形・過去分詞、pursuing は現在分詞・動名詞である。pursuing では pursue の語末の e を落とすが、発音は /ɪŋ/ を伴い、語末の音を単純に /ŋ/ へ縮めるわけではない。  
-pursuer は「追跡者、追求者」。物理的に追う人だけでなく、目標・地位・関係などを求める人にも使える。  
-pursuit は「追跡、追求、趣味・活動」。the pursuit of happiness のような抽象的な追求と、in hot pursuit のような物理的追跡の両方を表す。  
-pursuance は硬い名詞で「追求、遂行」。特に in pursuance of 〈規則・目的・法的手続き〉「～に従って、～を実現するために」という定型句で使われる。  
-pursuant は硬い形容詞で、pursuant to 〈規則・法律・契約〉「～に従って」という法律・公文書の表現を作る。  
-
-＃コアイメージ
-
-pursue の核は、対象の後を追いながら、前へ進み続けること。実際に走って追う場合から、時間をかけて目標・計画・案件を追い続ける場合、さらには不安や記憶に追われる場合まで、対象との関係を切らずに進み続ける感覚がある。  
-・人・動物・乗り物などの後を追い、捕まえようとする → 「追跡する・追いかける」（語義1）  
-・目標・夢・職業などを実現しようと、継続的に追い求める → 「追求する・目指す」（語義2）  
-・計画・方針・活動・案件などを続けて進める → 「進める・追及する」（語義3）  
-・道筋・方針・論理などをたどって進む → 「進路を取る・たどる」（語義4）  
-・人に恋愛・性的な関係を求めて働きかけ続ける → 「口説く・交際を求める」（語義5）  
-・記憶・恐怖・罪悪感などが人につきまとい続ける → 「苦しめ続ける・追い続ける」（語義6）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞・追跡】人・動物・乗り物などを追跡する、追いかける
-
-【日本語訳・定義】人、動物、車などの後を追い、特に捕まえる、追い越す、倒すなどの目的で追跡する。実際の速度や距離を述べる場合にも、警察・報道・競技などの比喩的な追跡にも使う。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】一般語。犯罪報道、警察、スポーツ、狩猟、物語で特に多い。受け身の be pursued by 〈追跡者〉も非常に自然である。  
-
-【文法パターン】pursue 〈人・動物・乗り物〉＝～を追跡する／pursue 〈対象〉 through/across 〈場所〉＝場所を通って～を追跡する／〈対象〉 be pursued by 〈追跡者〉＝対象が～に追われる  
-
-【コロケーション】
-
-・pursue a suspect  
-用途: 警察などが容疑者を追跡することを表す。  
-例: Police pursued the suspect through several side streets.  
-訳: 警察は何本もの脇道を通って容疑者を追跡した。  
-
-・pursue a fleeing vehicle  
-用途: 逃走中の車両を追いかけることを表す。  
-例: Officers pursued the fleeing vehicle until it stopped near the bridge.  
-訳: 警官たちは逃走車両を橋の近くで止まるまで追跡した。  
-
-・be pursued by police  
-用途: 警察に追跡されている状態を表す。  
-例: The driver was pursued by police after ignoring the roadblock.  
-訳: その運転手は道路封鎖を無視した後、警察に追跡された。  
-
-・hotly pursue 〈逃げる動物・犯人〉  
-用途: 逃げる対象を激しく、執拗に追跡することを表す。  
-例: The dogs hotly pursued the fox across the field.  
-訳: その犬たちは野原を横切ってキツネを激しく追跡した。  
-
-・pursue prey  
-用途: 動物や狩猟者が獲物を追うことを表す。  
-例: The wolves pursued their prey across the frozen plain.  
-訳: オオカミたちは凍った平原を越えて獲物を追った。  
-
-【語法・注意】物理的な追跡では、pursue は対象を直接目的語に取り、pursue after とは通常言わない。chase は速く追いかける動作を日常的に表すのに対し、pursue は継続して追跡することや、報道・警察などの硬めの叙述に向く。人を pursue したからといって、必ず捕まえたことや追跡に成功したことまでは表さない。  
-
-【類義語】
-
-・chase  
-定義: 逃げる人・動物・物を捕まえようとして急いで追いかける。  
-頻度: 〈10/10〉  
-違い: chase は日常的で速度や追いかける動作を直接的に示す。pursue は継続的な追跡や硬い文体にも使いやすい。  
-例: The child chased the balloon down the street.  
-訳: その子どもは風船を追って通りを駆けていった。  
-
-・follow  
-定義: 人・物の後について行く、後をたどる。  
-頻度: 〈10/10〉  
-違い: follow は単に後をついて行くことも含み、捕まえる意図や追跡の圧力を必ずしも示さない。  
-例: A small boat followed the ferry into the harbor.  
-訳: 小さな船がフェリーの後について港へ入った。  
-
-・track  
-定義: 足跡・位置情報などを手掛かりに対象を追跡する。  
-頻度: 〈8/10〉  
-違い: track は痕跡や情報をたどって所在を突き止める方法に焦点がある。  
-例: Rangers tracked the injured animal through the forest.  
-訳: 森林監視員たちはけがをした動物を追跡した。  
-
-【反意語】
-
-・flee  
-定義: 危険や追跡から逃げる。  
-頻度: 〈7/10〉  
-違い: pursue が追う側の行動なのに対し、flee は追われる側が逃げることを表す。  
-例: The suspect fled before the officers reached the building.  
-訳: 容疑者は警官たちが建物に着く前に逃走した。  
-
-・evade  
-定義: 追跡・攻撃・責任などを巧みに避ける。  
-頻度: 〈8/10〉  
-違い: evade は追う側ではなく、追跡や捕捉を免れる側の意図的な回避に焦点がある。  
-例: The driver tried to evade the pursuing officers.  
-訳: その運転手は追跡してくる警官たちをかわそうとした。  
-
-2. 【他動詞・目標】目標・夢・職業などを追求する、目指す
-
-【日本語訳・定義】目標、夢、学位、職業、幸福などを実現・獲得しようとして、時間をかけて努力を続ける。単に欲しいと思うことではなく、目的に向けて行動していることに焦点がある。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】一般語だがややフォーマル。進路、教育、仕事、自己実現、政策、評論で広く使う。  
-
-【文法パターン】pursue 〈goal/dream/aim〉＝目標・夢・目的を追求する／pursue 〈career/degree〉＝職業・学位を目指す／pursue 〈the goal of doing something〉＝～するという目標を追求する／pursue 〈happiness/knowledge〉＝幸福・知識を追い求める  
-
-【コロケーション】
-
-・pursue a goal  
-用途: 設定した目標の達成に向けて努力を続けることを表す。  
-例: The team is pursuing a goal of reducing waste by half.  
-訳: そのチームは廃棄物を半減させるという目標を追求している。  
-
-・pursue a dream  
-用途: 長期的な夢の実現を目指して努力することを表す。  
-例: She left her secure job to pursue her dream of becoming a chef.  
-訳: 彼女は料理人になる夢を追うため、安定した仕事を辞めた。  
-
-・pursue a career in 〈分野〉  
-用途: 特定分野を職業として目指すことを表す。  
-例: He moved to the city to pursue a career in environmental law.  
-訳: 彼は環境法の分野でのキャリアを目指して都会へ移った。  
-
-・pursue a degree  
-用途: 大学などで学位取得を目指して学ぶことを表す。  
-例: She is pursuing a degree in computer science while working full-time.  
-訳: 彼女はフルタイムで働きながら、コンピューターサイエンスの学位取得を目指している。  
-
-・pursue happiness/knowledge  
-用途: 幸福や知識のような抽象的な価値を追い求めることを表す。  
-例: Many people pursue happiness without defining what it means to them.  
-訳: 多くの人は、自分にとってそれが何を意味するかを定義しないまま幸福を追い求める。  
-
-【語法・注意】この語義の pursue は、対象の実現に向けて努力を継続する含みがあり、単なる希望や願望を表す want とは異なる。seek は見つける・得ることを目指す幅広い語、strive for は努力の強さを強調する語である。pursue の目的語には通常名詞句を置き、pursue to do something とは言わない。動作を表すなら pursue the goal of doing something、seek to do something、work to do something などにする。  
-
-【類義語】
-
-・seek  
-定義: 何かを得る、見つける、実現するために求める。  
-頻度: 〈9/10〉  
-違い: seek は目的達成に向けた探索・要求を広く表す。pursue は時間をかけて追い続ける過程に焦点が出やすい。  
-例: The researchers seek a reliable explanation for the result.  
-訳: 研究者たちはその結果について信頼できる説明を求めている。  
-
-・strive for  
-定義: 努力を重ねて目標を達成しようとする。  
-頻度: 〈7/10〉  
-違い: strive for は努力の熱心さや困難さを強く示す。pursue は努力の強さを必ずしも評価しない。  
-例: The organization strives for greater transparency.  
-訳: その組織はさらなる透明性の実現に努めている。  
-
-・work toward  
-定義: 目標の実現に向けて段階的に取り組む。  
-頻度: 〈8/10〉  
-違い: work toward は実務的な進行や途中の積み重ねに焦点がある。pursue は夢・幸福・学位などにも広く使える。  
-例: We are working toward a long-term solution.  
-訳: 私たちは長期的な解決策の実現に取り組んでいる。  
-
-【反意語】
-
-・abandon  
-定義: 目標・計画などを途中で捨てて、続けるのをやめる。  
-頻度: 〈8/10〉  
-違い: pursue が対象を追い続けるのに対し、abandon はその努力や計画を放棄することを表す。  
-例: The company abandoned its plan to expand overseas.  
-訳: その会社は海外進出計画を断念した。  
-
-・give up on  
-定義: 人・計画・目標が実現すると期待するのをやめる。  
-頻度: 〈8/10〉  
-違い: give up on は口語的で、達成の見込みを失って努力をやめることを強く示す。  
-例: She refused to give up on her dream.  
-訳: 彼女は夢を諦めようとしなかった。  
-
-3. 【他動詞・継続／案件】計画・方針・活動・案件などを続けて進める、追及する
-
-【日本語訳・定義】すでに選んだ計画、方針、研究、活動、問題、請求などに継続して関わり、さらに調べたり実行したりする。目標を新たに設定するというより、進行中の事柄を途中でやめずに進めることに焦点がある。法律用法では、claim、case、legal action などを手続きとして進める意味になる。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。ビジネス、研究、政策、法律、行政で特に多い。pursue legal action は「法的措置を取る・法的手続きを進める」で、必ず訴訟で勝つことまでは表さない。  
-
-【文法パターン】pursue 〈policy/strategy/course〉＝方針・戦略を進める／pursue 〈an interest/studies/research〉＝関心・学業・研究を続ける／pursue 〈a matter/claim/case〉＝問題・請求・案件を追及する／pursue legal action＝法的措置を進める／pursue 〈案件・活動〉 further＝～をさらに追及する  
-
-【コロケーション】
-
-・pursue a policy  
-用途: 採用した政策・方針を継続して実行することを表す。  
-例: The government continues to pursue a policy of gradual reform.  
-訳: 政府は段階的な改革方針を引き続き進めている。  
-
-・pursue an interest  
-用途: 興味や関心のある活動を継続して行うことを表す。  
-例: He pursued his interest in astronomy through evening classes.  
-訳: 彼は夜間講座を通して天文学への関心を深めた。  
-
-・pursue legal action  
-用途: 法的手続きや法的措置を進めることを表す。  
-例: The tenants are considering whether to pursue legal action.  
-訳: その入居者たちは法的措置を進めるかどうか検討している。  
-
-・pursue a claim  
-用途: 権利・賠償などの請求を手続きとして追及することを表す。  
-例: The customer decided to pursue a claim for compensation.  
-訳: その顧客は補償を請求する手続きを進めることにした。  
-
-・pursue the matter further  
-用途: 問題をさらに調べたり、交渉・手続きを続けたりすることを表す。  
-例: We need more evidence before we pursue the matter further.  
-訳: その問題をさらに追及する前に、私たちはより多くの証拠が必要だ。  
-
-【語法・注意】pursue a matter、pursue a claim は「対象を追いかける」という比喩から、案件を調べて手続きを進める意味になったもの。follow up は追加確認の行為に、carry out は計画を実行する行為に焦点がある。法律・行政文脈の pursue は、請求や訴訟を実際に進める意思・手続きへの関与を表すが、請求の正当性や結果を保証しない。  
-
-【類義語】
-
-・continue  
-定義: 中断せずに活動・状態を続ける。  
-頻度: 〈10/10〉  
-違い: continue は継続そのものを広く表す。pursue は対象を追いながら、目的や案件を前へ進める含みが強い。  
-例: The committee continued its review of the proposal.  
-訳: 委員会はその提案の検討を続けた。  
-
-・follow up  
-定義: 以前の連絡・問題・調査などを追加で確認し、先へ進める。  
-頻度: 〈8/10〉  
-違い: follow up は前段階を受けた追加対応に焦点があり、pursue は案件全体を継続して追及することを表せる。  
-例: The nurse followed up with the patient the next day.  
-訳: 看護師は翌日、その患者の様子を追加で確認した。  
-
-・carry out  
-定義: 計画・指示・約束などを実際に実行する。  
-頻度: 〈9/10〉  
-違い: carry out は実行・完遂に焦点があり、pursue は実行へ向かう継続的な追求や方針選択を表す。  
-例: The agency carried out a detailed review.  
-訳: その機関は詳細な検討を実施した。  
-
-【反意語】
-
-・drop  
-定義: 問題・計画・案件などをこれ以上扱うのをやめる。  
-頻度: 〈8/10〉  
-違い: drop は特に会話や報道で、追及・検討を打ち切ることを表す。  
-例: The newspaper dropped the investigation after finding no new evidence.  
-訳: その新聞は新しい証拠が見つからなかったため調査を打ち切った。  
-
-・discontinue  
-定義: 活動・サービス・手続きを正式に中止する。  
-頻度: 〈6/10〉  
-違い: discontinue は継続を制度的・正式に止める語で、pursue の継続と明確に対立する。  
-例: The company discontinued the program after two years.  
-訳: その会社は2年後にそのプログラムを中止した。  
-
-4. 【他動詞・進路／方針】道筋・進路・論理などをたどって進む
-
-【日本語訳・定義】船や人が特定の進路を取ること、または議論・調査・推論が特定の方向や筋道に沿って進むことを表す。目的を追求する語義2や案件を続ける語義3より、どの道筋をたどるかに焦点がある。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】やや硬い一般語。航海、文学、論文、議論、調査の説明で見られる。日常会話では take/follow a course、follow a line of reasoning のほうが普通である。  
-
-【文法パターン】pursue a course＝進路を取る／pursue a route＝経路をたどる／pursue a line of inquiry/reasoning＝調査・推論の筋道をたどる／pursue 〈方向〉＝その方向へ進む  
-
-【コロケーション】
-
-・pursue a northerly course  
-用途: 船などが北向きの航路を進むことを表す。  
-例: The vessel pursued a northerly course after leaving the island.  
-訳: その船は島を離れた後、北向きの進路を取った。  
-
-・pursue a course of action  
-用途: ある方針・行動方針を選び、その方向に進むことを表す。  
-例: The board chose to pursue a cautious course of action.  
-訳: 取締役会は慎重な行動方針を取ることを選んだ。  
-
-・pursue a line of inquiry  
-用途: 調査で特定の仮説や方向を追って検討することを表す。  
-例: The investigators pursued a new line of inquiry.  
-訳: 捜査官たちは新たな捜査の方向を追った。  
-
-・pursue a line of reasoning  
-用途: 議論や推論を特定の論理の流れに沿って展開することを表す。  
-例: The essay pursues a line of reasoning based on historical evidence.  
-訳: その論文は歴史的証拠に基づく論理の筋道に沿って論じている。  
-
-・pursue a route  
-用途: 計画・移動などで特定の経路を選び、その経路に沿って進むことを表す。  
-例: The expedition pursued a route along the western ridge.  
-訳: その探検隊は西側の尾根に沿う経路をたどった。  
-
-【語法・注意】この語義の pursue は「目標を追い求める」だけでなく、course、route、line などを目的語に取って「その筋道をたどる」と言う用法である。course of action は「行動方針」で、pursue legal action の action とは、方針を選ぶ意味と法的手続きを進める意味が異なる。  
-
-【類義語】
-
-・follow  
-定義: 道、方向、論理、指示などに沿って進む・たどる。  
-頻度: 〈10/10〉  
-違い: follow は最も普通の語で、pursue より日常的である。pursue は選んだ筋道を意識的に追う硬い響きを持つ。  
-例: The report follows a clear line of reasoning.  
-訳: その報告書は明確な論理の筋道に沿っている。  
-
-・take  
-定義: 道、進路、方針などを選んで進む。  
-頻度: 〈10/10〉  
-違い: take は選択に焦点があり、pursue は選んだ進路を実際にたどることに焦点がある。  
-例: The ship took a safer route around the island.  
-訳: その船は島を回るより安全な経路を取った。  
-
-・proceed along  
-定義: 道や方向に沿って先へ進む。  
-頻度: 〈6/10〉  
-違い: proceed along は物理的な進行を硬く表す。pursue は論理や調査の方向にも広げられる。  
-例: The hikers proceeded along the marked trail.  
-訳: ハイカーたちは標識のある道に沿って進んだ。  
-
-【反意語】
-
-・abandon  
-定義: 進めていた方針・計画・道筋を途中で捨てる。  
-頻度: 〈8/10〉  
-違い: pursue が一つの方向を追い続けるのに対し、abandon はその方向から手を引くことを表す。  
-例: The researchers abandoned that line of inquiry.  
-訳: 研究者たちはその調査の方向を捨てた。  
-
-・deviate from  
-定義: 道筋・基準・方針などから外れる。  
-頻度: 〈7/10〉  
-違い: deviate from は同じ方向をたどらず、予定された経路や基準からそれることを表す。  
-例: The driver deviated from the planned route.  
-訳: その運転手は予定された経路から外れた。  
-
-5. 【他動詞・恋愛】人に恋愛・性的な関係を求めて働きかけ続ける、口説く
-
-【日本語訳・定義】特定の人に恋愛関係や性的な関係を求め、繰り返し連絡したり誘ったりして働きかける。相手の関心を得ようとする中立的な記述にも、しつこく迫るという否定的な評価にも使われるため、文脈と受け手の意思に注意が必要である。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】一般語。恋愛、人間関係、報道、物語で使われる。人を目的語にする pursue は、文脈によっては望まれない執拗な接近を含む。  
-
-【文法パターン】pursue 〈人〉 romantically＝人に恋愛的に働きかける／pursue 〈a relationship〉＝関係を求める／〈人〉 be pursued by 〈相手〉＝人が相手から交際を求められる  
-
-【コロケーション】
-
-・pursue someone romantically  
-用途: 人に恋愛関係を求めて働きかけることを明示する。  
-例: He pursued her romantically even after she said she was not interested.  
-訳: 彼は彼女が興味がないと言った後も、恋愛目的で彼女に迫り続けた。  
-
-・pursue a relationship  
-用途: 特定の相手との恋愛関係を築こうとすることを表す。  
-例: She was unsure whether to pursue a relationship with her colleague.  
-訳: 彼女は同僚と交際を始めようとするべきか迷っていた。  
-
-・be actively pursued by 〈人〉  
-用途: 相手から積極的に交際や関心を求められている状態を表す。  
-例: She was actively pursued by a colleague who wanted to date her.  
-訳: 彼女は交際を望む同僚から積極的に言い寄られていた。  
-
-・pursue a love interest  
-用途: 好意を寄せる相手との関係を得ようとすることを表す。  
-例: The novel follows a young woman who pursues a love interest abroad.  
-訳: その小説は、海外にいる意中の人との関係を求める若い女性を描いている。  
-
-・pursue someone for months  
-用途: 恋愛関係を求めて、数か月にわたり相手に働きかけ続けることを表す。  
-例: He pursued her for months before she agreed to a date.  
-訳: 彼は彼女がデートに応じるまで、何か月も彼女にアプローチし続けた。  
-
-【語法・注意】恋愛の pursue は「付き合っている」ことを意味せず、関係を始めようとする側の継続的な働きかけを表す。相手が明確に拒否した後も続ける文脈では、しつこい・迷惑な含みが強くなる。人を追跡する語義1、恋愛関係を求める語義5、情報源や案件を追う語義3は、目的語と文脈で区別する。  
-
-【類義語】
-
-・court  
-定義: 結婚や恋愛を目的に、改まった形で相手に求愛する。  
-頻度: 〈5/10〉  
-違い: court は古風・改まった響きがあり、pursue より結婚を意識した求愛を示しやすい。  
-例: In the novel, the prince courted a wealthy merchant's daughter.  
-訳: その小説では、王子が裕福な商人の娘に求愛した。  
-
-・woo  
-定義: 熱心に働きかけて恋愛関係や支持を得ようとする。  
-頻度: 〈5/10〉  
-違い: woo は文学的な恋愛用法のほか、支持・顧客を得る比喩にも使える。  
-例: The candidate wooed undecided voters.  
-訳: その候補者は態度を決めていない有権者の支持を得ようとした。  
-
-・chase  
-定義: くだけて、相手を口説こうとしつこく追いかける。  
-頻度: 〈7/10〉  
-違い: chase は恋愛では軽く、または相手をしつこく追う否定的な響きが出やすい。pursue は文脈によって中立から否定的まで幅がある。  
-例: She was tired of being chased by strangers online.  
-訳: 彼女はオンラインで知らない人たちにしつこく言い寄られるのに疲れていた。  
-
-【反意語】
-
-・rebuff  
-定義: 求愛・申し出・接近をはっきり拒む。  
-頻度: 〈5/10〉  
-違い: pursue が接近する側の行為なのに対し、rebuff はその働きかけを拒む側の行為を表す。  
-例: She rebuffed his repeated invitations.  
-訳: 彼女は彼からの繰り返しの誘いをはねつけた。  
-
-・avoid  
-定義: 人との接触や関わりを意図的に避ける。  
-頻度: 〈9/10〉  
-違い: avoid は関係を求めて近づく pursue と反対に、相手との接触を避けることを表す。  
-例: He avoided contact after the uncomfortable conversation.  
-訳: 彼は気まずい会話の後、接触を避けた。  
-
-6. 【他動詞・比喩／文語】記憶・恐怖・罪悪感などが人につきまとう、苦しめ続ける
-
-【日本語訳・定義】記憶、恐怖、罪悪感、不運などが人の意識や生活から離れず、繰り返し苦しめる。通常は受け身の be pursued by 〈感情・記憶〉で使い、実際に対象を追いかける意味ではない。  
-
-【頻度】〈4/10〉  
-
-【レジスター/領域】文語的・比喩的。文学、回想、心理描写、報道の評論などで使われ、日常会話では haunt、plague、be troubled by のほうが普通である。  
-
-【文法パターン】〈人〉 be pursued by 〈memory/fear/guilt〉＝人が記憶・恐怖・罪悪感に追われる／pursue 〈人〉 in dreams＝夢の中でも人につきまとう／〈人〉 be relentlessly pursued by 〈不安・不運〉＝人が不安・不運に執拗につきまとわれる  
-
-【コロケーション】
-
-・be pursued by memories  
-用途: 過去の記憶が何度も意識に戻り、人を苦しめることを表す。  
-例: She was pursued by memories of the accident for years.  
-訳: 彼女は何年もの間、事故の記憶に苦しめられた。  
-
-・be pursued by fear  
-用途: 恐怖が人から離れず、行動や意識を支配することを表す。  
-例: He was pursued by fear long after the danger had passed.  
-訳: 危険が去ったずっと後も、彼は恐怖に追われていた。  
-
-・be pursued by guilt  
-用途: 罪悪感が繰り返し人を苦しめることを表す。  
-例: The character is pursued by guilt over what he did.  
-訳: その登場人物は自分のしたことへの罪悪感に苦しめられている。  
-
-・be relentlessly pursued by 〈anxiety〉  
-用途: 不安などが執拗に人につきまとうことを強調する。  
-例: The witness was relentlessly pursued by anxiety before the trial.  
-訳: その証人は裁判を前に、執拗な不安に苦しめられた。  
-
-・pursue someone in dreams  
-用途: 記憶や恐怖が夢の中でも人につきまとうことを表す。  
-例: The memory of the accident continued to pursue him in his dreams.  
-訳: 事故の記憶は夢の中でも彼につきまとい続けた。  
-
-【語法・注意】この用法の主語は memory、fear、guilt、misfortune などで、受け身が特に自然である。haunt は記憶や場所などが長く心につきまとう語、plague は問題・病気・人が繰り返し苦しめる語で、pursue は「追い続ける」という比喩を残した文語的な響きがある。物理的な追跡義から、対象が人の後を離れず続くという関係だけを比喩的に引き継いでいる。  
-
-【類義語】
-
-・haunt  
-定義: 記憶・場所・考えなどが人の心につきまとい続ける。  
-頻度: 〈8/10〉  
-違い: haunt はこの比喩義で最も自然で、pursue より日常的にも使いやすい。  
-例: The memory of the failure still haunts him.  
-訳: 失敗の記憶は今も彼の心につきまとっている。  
-
-・plague  
-定義: 問題・病気・心配などが人や場所を繰り返し苦しめる。  
-頻度: 〈7/10〉  
-違い: plague は迷惑や苦痛を与え続ける影響に焦点があり、pursue の追跡イメージは弱い。  
-例: Supply shortages plagued the region throughout the winter.  
-訳: 供給不足が冬の間ずっとその地域を苦しめた。  
-
-・torment  
-定義: 強い精神的・身体的苦痛を与える。  
-頻度: 〈7/10〉  
-違い: torment は苦痛の強さを強調する。他方、pursue は苦痛の強さより、離れず追い続けることを表す。  
-例: Doubt tormented the witness before she spoke.  
-訳: 彼女が話す前、疑念がその証人を苦しめた。  
-
-【反意語】
-
-・comfort  
-定義: 苦痛・不安・悲しみを和らげ、安心させる。  
-頻度: 〈8/10〉  
-違い: pursue の比喩義が苦しみを続けさせるのに対し、comfort はその苦しみを和らげる働きを表す。  
-例: Her friends comforted her after the loss.  
-訳: 友人たちはその喪失の後、彼女を慰めた。  
-
-・be free from  
-定義: 苦痛・不安・問題などに悩まされていない。  
-頻度: 〈7/10〉  
-違い: be free from は追い続ける負担が存在しない状態を表す。  
-例: After treatment, he was finally free from constant pain.  
-訳: 治療後、彼はついに慢性的な痛みから解放された。
-
----
-
-# assume
-
----
-headword: assume
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-27
-updated_at: 2026-08-27
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /əˈsuːm/｜英: /əˈsjuːm/。2音節の ə-SUME で、第2音節に主強勢がある。米音は /uː/、英音は /juː/ で、英音では語頭の弱い /ə/ の後に y 音が入る。  
-三人称単数 assumes は米 /əˈsuːmz/・英 /əˈsjuːmz/、過去形・過去分詞 assumed は米 /əˈsuːmd/・英 /əˈsjuːmd/、-ing形 assuming は米 /əˈsuːmɪŋ/・英 /əˈsjuːmɪŋ/。  
-assumed の -ed は /m/ の後で /d/ となり、語尾に余分な音節を加えない。assuming は assume の語末 e を落として -ing を付けるため、/mɪŋ/ と発音する。  
-
-＃語源
-
-中英語後期の assume は、ラテン語 assumere「取り上げる、自分のものとして引き受ける」に由来する。assumere は ad-「～へ」と sumere「取る」から成る。  
-英語ではまず「自分に引き受ける・取り上げる」という方向の意味が現れ、16世紀末以降に「証明なしに事実として受け入れる」、17世紀頃に「見せかけの性質を身につける」という用法が発達した。  
-現代の「仮定する」「責任を引き受ける」「形や態度を帯びる」という意味は、何かを自分の判断・責任・外見の中に取り込むという共通の発想でつながるが、語源だけから各語義を機械的に導けるわけではない。  
-
-＃語形成
-
-`assumes / assumed / assuming` — 三人称単数現在形・過去形／過去分詞・現在分詞。  
-`assumption` — 名詞「仮定、想定、思い込み、引き受け」。語義1の判断上の前提を表す最も一般的な派生名詞である。  
-`assumed` — 形容詞「仮定された、想定上の」または「見せかけの」。`an assumed name` は「偽名・通称として使う名前」。  
-`assuming (that) ...` — 「～だと仮定すれば」という条件を導く表現。動詞 assume の現在分詞から発達した。  
-`assumable` — 形容詞「仮定できる、引き受け可能な」。一般会話よりも形式的な説明で使う。  
-
-＃コアイメージ
-
-assume の共通核は、本来は外部にある事実・責任・役割・性質・外観を、自分の判断や立場の中に取り込むことである。取り込んだ内容が真実であること、権限が正式に認められていること、外観が本物であることまで、語そのものが保証するわけではない。  
-・事実だと仮に取り込む → 「～だと仮定する、当然のことと考える」（語義1）  
-・責任・義務・権限を自分が担う → 「責任・義務・権限などを引き受ける、掌握する」（語義2）  
-・役職・役割を引き受け、その位置に就く → 「役職・役割・地位に就く」（語義3）  
-・形・性質・重要性が備わる → 「形・性質・重要性などを帯びる」（語義4）  
-・態度・外観を意図的に身につけて見せる → 「態度・外観などを装う、～のふりをする」（語義5）  
-
-＃意味・用法・関連表現
-
-1. 【他動詞】（事実だと）仮定する、当然のことと考える
-
-【日本語訳・定義】十分な証明や確認がまだない段階で、ある事実・状態・判断をひとまず真実または前提として受け入れる。単なる可能性を挙げるだけでなく、その前提に基づいて考えたり行動したりする含みがある。  
-
-根拠がまったくないと必ず言うわけではないが、`presume` よりも証拠を強く前提にせず、話者が置いた仮の前提に焦点がある。  
-
-【頻度】〈10/10〉  
-
-【レジスター/領域】標準的な一般語。日常会話、説明、ビジネス、学術、技術、議論で広く使う。断定を避けて「～と仮定する」と述べる場合にも、相手の確認なしに「～に違いない」と思い込む場合にも使える。  
-
-【文法パターン】`assume (that) ...`＝～だと仮定する／`assume 〈人・物〉 to be/have ...`＝人・物を～だと仮定する／`be assumed to ...`＝～だと想定されている／`assume the worst`＝最悪の事態を想定する／`let us assume that ...`＝～だと仮定しよう／`assuming (that) ...`＝～だと仮定すれば  
-
-【コロケーション】
-
-・`assume that ...`  
-用途: 確認前の判断を、考えるための前提として置く。  
-例: We assumed that the train had left because the platform was empty, but we had not checked the timetable.  
-訳: ホームが空だったので列車は出発したと思い込んだが、時刻表は確認していなかった。  
-
-・`assume 〈人・物〉 to be ...`  
-用途: 人や物がある性質・状態だと、ひとまず判断する。形式的な文脈で多い。  
-例: The committee assumed the data to be reliable until an audit found a calibration error.  
-訳: 委員会は、監査で校正誤差が見つかるまで、そのデータは信頼できると考えていた。  
-
-・`it is reasonable to assume that ...`  
-用途: 一定の状況から、妥当な仮定を置く。  
-例: Given the unchanged address, it is reasonable to assume that the package was delivered to the old office.  
-訳: 住所が変わっていないことから、その荷物は旧オフィスに届けられたと考えるのが妥当だ。  
-
-・`assume the worst`  
-用途: 情報がない段階で最悪の結果を前提にする。  
-例: Don’t assume the worst before you hear her explanation.  
-訳: 彼女の説明を聞く前に、最悪の事態だと思い込まないで。  
-
-・`let us assume that ...`  
-用途: 議論・計算・説明のために仮の条件を置く。  
-例: Let us assume that every sensor is working before we test the algorithm.  
-訳: アルゴリズムを試す前に、すべてのセンサーが作動していると仮定しよう。  
-
-・`assume conditions; assuming (that) ...`  
-用途: 条件を示し、「～だと仮定すれば」と話を進める。  
-例: Assuming that the weather stays clear, we can finish the survey by noon.  
-訳: 天気が晴れのままだとすれば、正午までに調査を終えられる。  
-
-【語法・注意】`assume that ...` は「そうだと置いて考える」表現であり、内容を確認・証明したことを表さない。`He assumed that the door was locked.` は、実際に確認せず施錠済みだと考えた可能性も、作業上の仮定を置いた可能性もある。  
-
-`presume` は通常、状況証拠や経験からそうだろうと判断する含みが `assume` より出やすい。`suppose` は仮説や想像をより広く表し、`infer` は観察された証拠から結論を導くことに焦点がある。  
-
-`assume 〈人・物〉 to be ...` は形式的で、会話では `assume (that) 〈人・物〉 is ...` と言うことも多い。受動態 `〈人・物〉 is assumed to be ...` は、一般的な想定を客観的に述べる。  
-
-【類義語】
-
-・suppose  
-定義: ～だと考える、仮に～だと置く。  
-頻度: 〈10/10〉  
-違い: `suppose` は日常会話の仮説・推測に最も広く使え、`assume` よりも軽い想像にも使える。  
-例: I suppose the meeting will end soon.  
-訳: 会議はもうすぐ終わると思う。  
-
-・presume  
-定義: ある程度の根拠に基づき、～だと推定する。  
-頻度: 〈7/10〉  
-違い: `presume` は状況証拠や通常の成り行きからの確からしさを示しやすく、`assume` は証拠を確認せず前提を置く感じが強い。  
-例: We presumed that the shop was closed because all the lights were off.  
-訳: 明かりがすべて消えていたので、私たちは店は閉まっていると思った。  
-
-・take for granted  
-定義: 確認せず当然だと考える、当然のものとして扱う。  
-頻度: 〈9/10〉  
-違い: `take for granted` は確認不足やありがたみの見落としを批判する含みが出やすい。`assume` は中立的な作業上の仮定にも使える。  
-例: Never take for granted that a backup has completed.  
-訳: バックアップが完了したと、決して確認なしに決めつけてはいけない。  
-
-・posit  
-定義: 議論や理論のために、命題を仮に置く。  
-頻度: 〈5/10〉  
-違い: `posit` は学術・哲学的で、根拠のない思い込みよりも、検討のために明示的に置く前提を表す。  
-例: The model posits that language changes through repeated use.  
-訳: そのモデルは、言語は反復使用を通じて変化すると仮定している。  
-
-2. 【他動詞】責任・義務・権限などを引き受ける、掌握する
-
-【日本語訳・定義】責任、義務、費用、危険、権限、支配などを自分の側で担う、または管理下に置く。単にそれについて発言するのではなく、結果を引き受ける立場になることを表す。  
-
-`assume control` や `assume command` は、権限を引き継いで掌握することを表し、文脈によっては一方的に支配を取り上げる響きも出る。ただし、語そのものだけで許可の有無や法的な有効性までは決まらない。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。ビジネス、行政、軍事、契約、金融、法律に関する説明で特に多い。`assume responsibility` は日常にも使うが、`assume a mortgage` や `assume an obligation` は形式的である。  
-
-【文法パターン】`assume responsibility for 〈仕事・人〉`＝～の責任を引き受ける／`assume an obligation/duty`＝義務を引き受ける／`assume control of/over 〈組織・状況〉`＝～を掌握する／`assume command of 〈部隊〉`＝～の指揮を執る／`assume a risk`＝危険を引き受ける／`assume a debt/mortgage`＝債務・住宅ローンを引き受ける  
-
-【コロケーション】
-
-・`assume responsibility for 〈人・仕事〉`  
-用途: 人や仕事の結果について責任を担う。  
-例: The hospital assumed responsibility for the patient’s follow-up care.  
-訳: その病院は患者の経過観察の責任を引き受けた。  
-
-・`assume an obligation/duty`  
-用途: 義務や職務を自分が果たす立場になる。  
-例: By signing the agreement, the supplier assumed an obligation to report delays.  
-訳: その供給業者は、契約に署名することで遅延を報告する義務を負った。  
-
-・`assume control of/over 〈組織・状況〉`  
-用途: 組織や状況の管理権を引き継ぎ、掌握する。  
-例: The deputy assumed control of the operation when the director became ill.  
-訳: 部長が病気になると、副部長がその業務の指揮を引き継いだ。  
-
-・`assume command of 〈部隊・船〉`  
-用途: 部隊や船などの指揮権を引き受ける。  
-例: The captain assumed command of the rescue vessel at dawn.  
-訳: その船長は夜明けに救助船の指揮を執った。  
-
-・`assume a risk`  
-用途: ある行為に伴う危険を自分の責任として受け入れる。  
-例: The investor knowingly assumed the risk of losing the entire deposit.  
-訳: その投資家は、預金全額を失う危険を承知で引き受けた。  
-
-・`assume a debt/mortgage`  
-用途: 他者の債務や住宅ローンを引き受けることを、契約・金融の文脈で述べる。  
-例: The buyer agreed to assume the seller’s mortgage as part of the purchase.  
-訳: 買い手は、購入の一環として売り手の住宅ローンを引き受けることに同意した。  
-
-【語法・注意】`assume responsibility for ...` は、責任を実際に担う立場になることを表すが、結果が成功したことまでは意味しない。`assume control of ...` も管理を始めたことを表すだけで、相手が自発的に従ったことまでは含まない。  
-
-この語義の `assume` は、語義1の「～だと考える」と目的語が違う。`assume that the plan will work` は判断上の仮定、`assume responsibility for the plan` は責任の引き受けである。役職そのものに就くことを強調する `assume office` は語義3で扱う。  
-
-【類義語】
-
-・take on  
-定義: 仕事、責任、役割などを自分が引き受ける。  
-頻度: 〈9/10〉  
-違い: `take on` は会話的で広く使え、`assume` よりも責任・仕事を新たに抱える感じが強い。  
-例: She took on responsibility for training the new staff.  
-訳: 彼女は新しい職員の研修責任を引き受けた。  
-
-・undertake  
-定義: 任務、約束、仕事を引き受け、実行すると約束する。  
-頻度: 〈7/10〉  
-違い: `undertake` は実行する約束や計画的な着手に焦点があり、`assume` は責任・義務を担う立場そのものにも使える。  
-例: The contractor undertook to repair the bridge within six months.  
-訳: その請負業者は6か月以内に橋を修理すると約束した。  
-
-・shoulder  
-定義: 困難な責任、負担、費用などを進んで引き受ける。  
-頻度: 〈7/10〉  
-違い: `shoulder` は重荷を背負う比喩的・やや感情的な含みがあり、`assume` より負担感が目立つ。  
-例: The team leader shouldered the cost of the emergency repairs.  
-訳: チームリーダーは緊急修理の費用を負担した。  
-
-・take over  
-定義: 仕事、管理、支配などを他者から引き継ぐ。  
-頻度: 〈9/10〉  
-違い: `take over` は交代・引き継ぎの出来事を強調し、`assume control` は正式または説明的に管理権を担うことを述べる。  
-例: A temporary manager took over while the director was away.  
-訳: 部長の不在中は、臨時の管理者が引き継いだ。  
-
-3. 【他動詞】役職・役割・地位に就く、引き受ける
-
-【日本語訳・定義】役職、役割、地位、職務などを引き受け、その立場に入る。就任や任命の文脈で、以前の人物の後を継いでその位置に着くことを硬く述べる。  
-
-責任や権限を担う点では語義2と重なるが、ここでは何を管理するかよりも、どの役職・役割・地位に就いたかに焦点がある。`assume office` は典型的にこの語義である。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】やや硬い標準語。政治、行政、軍事、企業、組織、歴史の説明で多い。日常会話では `take office`、`take on the role`、`become` などに言い換えることが多い。  
-
-【文法パターン】`assume office`＝就任する／`assume the role of 〈役割〉`＝～の役割を引き受ける／`assume the position/post of 〈役職〉`＝～の職に就く／`assume the presidency`＝大統領職・会長職に就く／`assume the throne`＝王位に就く  
-
-【コロケーション】
-
-・`assume office`  
-用途: 公職・役職に正式に就任することを硬く述べる。  
-例: She assumed office as mayor in April after winning the election.  
-訳: 彼女は選挙に勝利した後、4月に市長に就任した。  
-
-・`assume the role of 〈人物・機能〉`  
-用途: 特定の役割を引き受け、その役割を果たす立場になる。  
-例: He assumed the role of team leader after the merger.  
-訳: 彼は合併後、チームリーダーの役割を引き受けた。  
-
-・`assume the position/post of 〈役職〉`  
-用途: 組織内の特定の職・地位に就く。  
-例: Dr. Lee assumed the post of research director in July.  
-訳: リー博士は7月に研究部長の職に就いた。  
-
-・`assume the presidency`  
-用途: 大統領職や組織の会長職に就く。  
-例: The vice president assumed the presidency after the resignation.  
-訳: 副大統領は辞任後、大統領職に就いた。  
-
-・`assume the throne`  
-用途: 王位に就くことを、歴史的・公式に述べる。  
-例: The young monarch assumed the throne at the age of twenty-one.  
-訳: その若い君主は21歳で王位に就いた。  
-
-・`assume a new role`  
-用途: 組織変更や人生の変化の中で、新しい役割を担う。  
-例: After the merger, the engineer assumed a new role in product strategy.  
-訳: 合併後、その技術者は製品戦略の新しい役割を担った。  
-
-【語法・注意】`assume office`、`assume the presidency`、`assume the throne` は、単にその仕事を担当するだけでなく、制度上の役職・地位に入ることを表す。任命の適法性や在任期間の長さを語そのものが保証するわけではない。  
-
-`assume a role` は、実際の組織上の役割を引き受ける語義3にも、演技や偽装で役を演じる語義5にもなり得る。現実の任務・役職なら語義3、真似て見せる役なら語義5と、文脈で判断する。  
-
-【類義語】
-
-・take office  
-定義: 公職・役職に就任する。  
-頻度: 〈8/10〉  
-違い: `take office` は `assume office` より普通で、就任という出来事を直接述べる。`assume office` は公式・硬い響きが強い。  
-例: The new governor will take office in January.  
-訳: 新知事は1月に就任する。  
-
-・take on the role of 〈役割〉  
-定義: ある役割を引き受ける。  
-頻度: 〈8/10〉  
-違い: `take on` は会話的で、役割を新たに抱える感じが強い。`assume` は公式な役割の開始にも使える。  
-例: Maya took on the role of mentor for the interns.  
-訳: マヤはインターンの mentor 役を引き受けた。  
-
-・occupy 〈position〉  
-定義: 地位・職・場所を占める。  
-頻度: 〈6/10〉  
-違い: `occupy` はその位置にいる状態を述べやすく、`assume` のような就任・引き受けの出来事は必須ではない。  
-例: She occupied the position for nearly a decade.  
-訳: 彼女はその職をほぼ10年間務めた。  
-
-・succeed to 〈throne/office〉  
-定義: 前任者の後を継いで王位・地位に就く。  
-頻度: 〈4/10〉  
-違い: `succeed to` は継承・後継の関係を明示し、`assume` は継承以外の就任にも使える。  
-例: His daughter succeeded to the throne after his death.  
-訳: 彼の死後、娘が王位を継いだ。  
-
-4. 【他動詞】形・性質・重要性などを帯びる、～の様相を呈する
-
-【日本語訳・定義】物事が、ある形・姿・性質・重要性・規模などを次第に持つようになる、またはそのような状態として現れる。無生物や抽象的な事柄を主語にすることが多く、硬い説明・描写で使う。  
-
-この語義では、誰かが意図的に演じるとは限らない。物事の形や意味が変化して見えることを述べ、態度や表情を意図的に装う語義5とは区別する。  
-
-【頻度】〈5/10〉  
-
-【レジスター/領域】やや硬い標準語。学術、報道、評論、技術、文学的な描写で使う。日常会話では `take on`、`become`、`develop`、`start to have` などに言い換えることが多い。  
-
-【文法パターン】`assume a form/shape`＝形・姿をとる／`assume greater importance/significance`＝より重要な意味を帯びる／`assume a different character`＝異なる性質を帯びる／`assume proportions`＝ある規模・程度になる／`assume a sitting/standing position`＝座位・立位をとる  
-
-【コロケーション】
-
-・`assume a new form`  
-用途: 物事が新しい形・あり方になる。  
-例: The old service assumed a new form after the merger.  
-訳: その旧サービスは合併後、新しい形になった。  
-
-・`assume the shape of 〈物〉`  
-用途: 物質や構造が特定の形になる。  
-例: Under pressure, the liquid assumed the shape of the container.  
-訳: 圧力を受けると、その液体は容器の形になった。  
-
-・`assume greater importance`  
-用途: 事柄が以前より重要な意味を持つようになる。  
-例: The discussion assumed greater importance after the safety report was released.  
-訳: 安全報告書が公表された後、その議論はより重要な意味を持つようになった。  
-
-・`assume significance`  
-用途: 出来事や発見が特別な意味・重要性を帯びる。  
-例: The small project gradually assumed national significance.  
-訳: その小さな計画は次第に国全体に関わる重要性を帯びた。  
-
-・`assume a different character`  
-用途: 物事の性質・様相が以前とは異なるものになる。  
-例: The debate assumed a different character once the costs became clear.  
-訳: 費用が明らかになると、その議論は異なる様相を呈した。  
-
-・`assume alarming proportions`  
-用途: 問題や危険が憂慮すべき規模に達する。  
-例: The shortage assumed alarming proportions during the heat wave.  
-訳: 猛暑の間に、その不足は憂慮すべき規模になった。  
-
-・`assume a sitting/standing position`  
-用途: 人が座位・立位などの姿勢をとる。  
-例: The patients were asked to assume a sitting position before the scan.  
-訳: 患者たちは撮影前に座った姿勢をとるよう求められた。  
-
-【語法・注意】この語義の主語には `matter`、`discussion`、`trend`、`liquid`、`problem` のような物事を置くことが多い。`assume importance` は「重要だと仮定する」ではなく、「重要性を帯びる」である。  
-
-`assume a position` は、役職に就く語義3にも、座位・立位などの姿勢をとるこの語義にもなる。後ろに `of mayor` のような役職名があれば語義3、`sitting` や身体の状態があればこの語義と判断しやすい。  
-
-【類義語】
-
-・take on  
-定義: 形、性質、意味、外観などを帯びる。  
-頻度: 〈9/10〉  
-違い: `take on` は会話でも使いやすく、変化して新しい特徴を持つことを広く表す。`assume` は硬い描写や説明に向く。  
-例: The clouds took on a golden color at sunset.  
-訳: 日没時、雲は金色を帯びた。  
-
-・acquire  
-定義: 性質、特徴、重要性などを身につける、得る。  
-頻度: 〈8/10〉  
-違い: `acquire` は獲得の過程や結果に焦点があり、`assume` は形・様相をとって現れることにも使える。  
-例: The issue acquired new significance after the investigation.  
-訳: その問題は調査後、新たな重要性を持つようになった。  
-
-・develop  
-定義: 性質、問題、傾向などが次第に生じる、発達する。  
-頻度: 〈10/10〉  
-違い: `develop` は時間をかけた発生・進展に焦点があり、`assume` は結果として特定の形や様相を帯びることを描写する。  
-例: The plan developed a serious flaw during testing.  
-訳: その計画は試験中に重大な欠陥を生じた。  
-
-・become  
-定義: ある状態・性質になる。  
-頻度: 〈10/10〉  
-違い: `become` は最も一般的で中立的な変化を表し、`assume` は硬い文体や「ある形をとる」という見え方を強調する。  
-例: The question became more important as the deadline approached.  
-訳: 締め切りが近づくにつれて、その問題はより重要になった。  
-
-5. 【他動詞】（態度・外観などを）装う、～のふりをする
-
-【日本語訳・定義】本当は必ずしもそうでない態度、感情、外観、身分などを意図的に身につけて、そう見えるようにする。`assume an air/expression/attitude` のように、内面の状態よりも外に示す印象に焦点がある。  
-
-偽名・偽の身分・変装した姿を選んで使う場合にも用いる。役を実際に担う語義3と違い、ここでは見せかけや偽装であることが重要である。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】標準語だが、やや硬い・文学的な響きがある。文章、物語、報道、公式な説明で多く、会話では `pretend`、`put on`、`act` が普通なこともある。  
-
-【文法パターン】`assume an air/expression/attitude of ...`＝～という態度・表情を装う／`assume a false name/identity`＝偽名・偽の身分を名乗る／`assume the guise of 〈人物〉`＝～の姿を装う／`assume a pose`＝ポーズをとる  
-
-【コロケーション】
-
-・`assume an air of confidence`  
-用途: 本当の内面とは別に、自信があるような態度を装う。  
-例: The witness assumed an air of confidence, although his hands were shaking.  
-訳: その証人は手を震わせながらも、自信があるような態度を装った。  
-
-・`assume an expression of calm`  
-用途: 本当は不安でも、落ち着いているような表情を作る。  
-例: She assumed an expression of calm so the children would not notice her fear.  
-訳: 彼女は子どもたちに恐怖を気づかれないよう、落ち着いた表情を装った。  
-
-・`assume an attitude of indifference`  
-用途: 関心がないような態度を意図的に見せる。  
-例: He assumed an attitude of indifference when he read the criticism, but he reread it that night.  
-訳: 彼はその批判を読んだとき無関心な態度を装ったが、その夜に読み返した。  
-
-・`assume a false name`  
-用途: 本名ではない名前を使い、身元を隠す。  
-例: The spy assumed a false name before crossing the border.  
-訳: そのスパイは国境を越える前に偽名を名乗った。  
-
-・`assume a false identity`  
-用途: 本来の身分とは異なる身元を装う。  
-例: The caller assumed a false identity online to obtain private information.  
-訳: その発信者は個人情報を得るため、オンラインで偽の身元を装った。  
-
-・`assume the guise of 〈人物〉`  
-用途: ある人物や存在の姿・立場を装う。  
-例: The actor assumed the guise of a tired traveler to question the guard.  
-訳: その俳優は警備員に質問するため、疲れた旅人の姿を装った。  
-
-【語法・注意】この語義の `assume` は、真の感情や身分をそのまま述べる語ではない。`assume an air of confidence` は自信が実際にあるという意味ではなく、自信があるように見せることを表す。  
-
-`assume a role` は、現実の役割を引き受ける語義3にも、演技・偽装の役を演じるこの語義にもなる。`assumed name`、`assumed identity` の `assumed` は、この「見せかけとして採用された」という意味の形容詞用法である。  
-
-【類義語】
-
-・pretend  
-定義: 本当はそうでないことを、そうであるかのようにふるまう。  
-頻度: 〈10/10〉  
-違い: `pretend` は会話で最も普通で、子どものごっこから意図的な偽装まで広く使う。`assume` は採用した態度・姿・身分を硬く描写する。  
-例: He pretended to be calm during the interview.  
-訳: 彼は面接中、落ち着いているふりをした。  
-
-・feign  
-定義: 感情、病気、態度などを故意に装う。  
-頻度: 〈5/10〉  
-違い: `feign` は意図的な偽りを強く示し、病気や感情を偽装する文脈に向く。`assume` は態度・外観・身分を身につける描写にも使える。  
-例: The defendant feigned surprise at the accusation.  
-訳: 被告はその告発に驚いたふりをした。  
-
-・affect  
-定義: 実際とは異なる態度、発音、感情などをわざと示す。  
-頻度: 〈6/10〉  
-違い: `affect` は不自然な気取りや作為的な態度を批判する含みが出やすく、`assume` は必ずしも非難を含まない。  
-例: She affected a cheerful tone despite the bad news.  
-訳: 彼女は悪い知らせにもかかわらず、明るい口調を装った。  
-
-・put on  
-定義: 感情、態度、声、表情などを意図的に作って見せる。  
-頻度: 〈9/10〉  
-違い: `put on` は会話的で、短時間の態度・表情の演技を表しやすい。`assume` は文章語で、ある姿や身分を採用する感じがある。  
-例: He put on a serious expression when the camera turned toward him.  
-訳: カメラが彼に向くと、彼は真剣な表情を作った。
-
----
-
-# genuine
-
----
-headword: genuine
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-27
-updated_at: 2026-08-27
-checked: true
-tags: []
----
-
-＃発音記号
-
-米・英: /ˈdʒenjuɪn/（音節を区切れば /ˈdʒen.ju.ɪn/）。3音節の JEN-yoo-in で、第1音節に主強勢がある。語末の `-ine` は `wine` のような /aɪn/ ではなく、弱い /ɪn/ と発音する。  
-米語の発音表記では、弱化と母音間の /w/ を反映して /ˈdʒen.jə.wən/ のように示されることもある。少数の話者に語末を強く /aɪn/ とする長年の変異も記録されるが、学習用には /ˈdʒenjuɪn/ を基本とする。  
-`genuinely` は /ˈdʒenjuɪnli/、`genuineness` は /ˈdʒenjuɪnnəs/ のように、原則として第1音節の強勢を保つ。  
-
-＃語源
-
-`genuine` は、ラテン語 `genuīnus`「生来の、自然な、本物の」に由来する。英語では16世紀末から17世紀前半にかけて定着し、初期には「生まれつきの、自然な、後から作られたものではない」という意味が中心だった。そこから「主張された由来から実際に出た」「見せかけではなく本心からの」「実際に存在する」へ意味が広がった。  
-語源資料には、`genuīnus` を `genu`「膝」と結びつけ、父が新生児を膝に乗せて父子関係を認める習慣に由来するとする説明と、`gignere`「生む、産み出す」と同じ語族に結びつける説明がある。前者の逸話を唯一の確定した語源として断定しない。  
-
-＃語形成
-
-`genuinely` — 副詞「本当に、心から、真に」。`genuinely useful`「本当に役立つ」、`genuinely care`「心から気にかける」、`genuinely surprised`「本当に驚いた」のように、形容詞・動詞・分詞を修飾する。  
-`genuineness` — 名詞「真正性、本物であること、真摯さ」。通常は不可算で、`the genuineness of the signature`「その署名の真正性」のように使う。`genuineity` とはしない。  
-`genuine article` — 「正真正銘の本物」という定着表現。語形成上の派生語ではなく、`genuine` と `article` の組み合わせが慣用化したものである。  
-
-＃コアイメージ
-
-`genuine` の核は、見かけ・名乗り・主張だけでなく、実際の由来・性質・気持ちがそれに対応していることである。何が対応するかによって、「偽物でない」「本心からの」「現実に存在する」という用法に分かれる。  
-・品物や署名の主張された由来が実際の由来と一致する → 「本物の、真正の」（語義1）  
-・感情や態度の見せ方が内面と一致する → 「本心からの、偽りのない」（語義2）  
-・問題、必要、機会などの主張された存在・価値が実際にある → 「現実の、実際の」（語義3）  
-
-＃意味・用法・関連表現
-
-1. 【形容詞・限定／叙述】本物の、真正の、偽造でない
-
-【日本語訳・定義】物、作品、文書、署名、製品などが、そうだとされている由来・作者・材質・身元を実際に持っており、偽物、模造品、偽造品ではないことを表す。単に「高価な」「古い」「見た目が本物らしい」という意味ではない。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。美術品の鑑定、商取引、製品保証、文書確認、身元確認などで広く使う。日常会話では `real`、公式・鑑定の文脈では `authentic` が選ばれることもある。  
-
-【文法パターン】`a genuine 〈作品・文書・製品〉`＝本物の～／`be/look/appear/prove genuine`＝本物である・本物らしい・本物だと判明する／`verify/confirm that 〈物〉 is genuine`＝～が本物か確認する／`the genuine article`＝正真正銘の本物  
-
-【コロケーション】
-
-・`a genuine 〈painting/signature/document〉`  
-用途: 作品、署名、文書などが偽造・模造ではなく本物だと述べる。  
-例: The museum confirmed that the signature on the letter was genuine.  
-訳: その博物館は、手紙の署名が本物だと確認した。  
-
-・`genuine leather/gold/diamond`  
-用途: 人工素材や模造品ではなく、表示された材質そのものであることを表す。  
-例: The label says that the bag is made of genuine leather.  
-訳: その表示には、そのバッグが本革製だと書かれている。  
-
-・`a genuine 〈brand〉 product`  
-用途: ブランドの正規品であり、偽ブランド品ではないことを述べる。  
-例: The store guarantees that every item is a genuine manufacturer’s product.  
-訳: その店は、すべての商品がメーカーの正規品だと保証している。  
-
-・`the genuine article`  
-用途: 偽物や安価な代用品ではない、正真正銘の本物を強調する。  
-例: This watch is the genuine article, not a convincing copy.  
-訳: この時計は、よくできたコピー品ではなく正真正銘の本物だ。  
-
-・`verify/confirm that 〈item〉 is genuine`  
-用途: 鑑定や検査によって、物の真正性を確かめる。  
-例: An expert was hired to verify that the antique was genuine.  
-訳: その骨董品が本物か確認するため、専門家が雇われた。  
-
-・`distinguish a genuine 〈item〉 from a counterfeit`  
-用途: 本物と偽造品を見分けることを述べる。  
-例: The software helps customs officers distinguish genuine medicines from counterfeits.  
-訳: そのソフトウェアは、税関職員が本物の医薬品と偽造品を見分けるのに役立つ。  
-
-【語法・注意】`genuine` は名詞の前にも、`The document is genuine.` のように補語にも置ける。`genuine` であることは、由来や材質が主張どおりだという意味であり、合法、正規に取得された、品質が高いということまで保証しない。  
-
-`genuine` は必ずしも「最初に作られた原物」を意味しない。たとえば `a genuine replacement part` は、メーカーが後から製造した正規の交換部品でもよい。最初の一品・原版であることを強調する `original` とは焦点が異なる。人について `a genuine person` と言うと、身元が本物というより、通常は語義2の「誠実な人」を表す。  
-
-【類義語】
-
-・authentic  
-定義: 主張された由来・作者・様式に本当に基づく、本物の。  
-頻度: 〈8/10〉  
-違い: `authentic` は鑑定上の真正性に加え、原物に忠実な再現や文化的に本場らしいことにも使える。`genuine` は偽物・模造品でないことや実際の出所を直接強調する。  
-例: The gallery displayed an authentic portrait by the artist.  
-訳: その画廊は、その画家による本物の肖像画を展示した。  
-
-・real  
-定義: 偽物や想像上のものではなく、実在する本物の。  
-頻度: 〈10/10〉  
-違い: `real` は最も広く、存在・事実・程度にも使える。`genuine` は、表示や主張されたものと実際の由来・性質が一致するという焦点が強い。  
-例: Is this a real diamond or a piece of glass?  
-訳: これは本物のダイヤモンドですか、それともガラス片ですか。  
-
-・original  
-定義: コピーや模造品ではなく、最初の作品・原版そのものの。  
-頻度: 〈9/10〉  
-違い: `original` は「最初に作られたもの」「コピーの元」を示す。`genuine` は後から作られた正規品にも使えるため、両者は常に同じではない。  
-例: The archive keeps the original manuscript in a climate-controlled room.  
-訳: その文書館は原稿の原本を温度管理された部屋に保管している。  
-
-・bona fide  
-定義: 正真正銘の、正式な、善意に基づく本物の。  
-頻度: 〈5/10〉  
-違い: `bona fide` はやや硬く、「見せかけでない」「正式に認められる」「善意の」という含みが加わりやすい。`genuine` は材質や作者など物理的な真正性にも普通に使える。  
-例: The applicant is a bona fide member of the professional association.  
-訳: その申請者は、その専門職団体の正式な会員である。  
-
-【反意語】
-
-・fake  
-定義: 本物らしく見せた偽物の。  
-頻度: 〈10/10〉  
-違い: `fake` は日常語で、物にも署名・身分などの見せかけにも広く使う。`genuine` の反対側を最も普通に表す。  
-例: The necklace looked expensive, but the stones were fake.  
-訳: そのネックレスは高価に見えたが、石は偽物だった。  
-
-・counterfeit  
-定義: 本物をまねて不正に作った偽造品の。  
-頻度: 〈7/10〉  
-違い: `counterfeit` は通貨、ブランド品、薬などを本物に見せるための組織的・意図的な偽造に焦点がある。`fake` より硬く具体的である。  
-例: Customs officers seized a shipment of counterfeit watches.  
-訳: 税関職員は偽造時計の積み荷を押収した。  
-
-・forged  
-定義: 署名、文書、証明書などが偽造された。  
-頻度: 〈6/10〉  
-違い: `forged` は人の署名や公式文書を不正に作った場合に特に使う。`counterfeit` は物品や通貨の偽造にも使う。  
-例: The bank rejected the forged check.  
-訳: その銀行は偽造小切手を受け付けなかった。  
-
-・spurious  
-定義: 本物・正当な由来があるように見せかけた、にせの。  
-頻度: 〈4/10〉  
-違い: `spurious` は硬い文章語で、主張、理由、系統、文書などの真正性・正当性を疑うときに使う。`genuine` より評価的である。  
-例: The study was based on a spurious historical document.  
-訳: その研究は、偽の歴史文書に基づいていた。  
-
-2. 【形容詞・限定／叙述】本心からの、偽りのない、誠実な
-
-【日本語訳・定義】感情、関心、謝罪、態度、言葉などが実際に感じたり意図したりしたものに基づき、相手を欺くための演技ではないことを表す。人を主語にすると、身分や外見ではなく、他人への接し方や言動が率直で気取らないという肯定的な評価になる。  
-
-【頻度】〈8/10〉  
-
-【レジスター/領域】標準語。会話、人物描写、対人関係、謝罪や広報の評価で広く使う。`genuine person` は「誠実で気取らない人」という褒め言葉になりやすいが、この形容詞だけで、その人の全発言が事実だとか、常に善良だということまで保証しない。  
-
-【文法パターン】`genuine + 〈感情・関心・謝罪・態度〉`＝本心からの～／`a genuine attempt/desire to 〈動詞〉`＝心からの～する試み・願望／`be/seem/sound genuine`＝本心からのように見える・聞こえる／`a genuine person`＝誠実で気取らない人  
-
-【コロケーション】
-
-・`genuine concern for 〈人・集団〉`  
-用途: ある人や集団の welfare を本心から気にかけていることを表す。  
-例: He showed genuine concern for the families displaced by the flood.  
-訳: 彼は洪水で住む場所を失った家族を本心から心配していた。  
-
-・`genuine interest in 〈分野・活動〉`  
-用途: 評判や利益のためではなく、実際に関心を持っていることを表す。  
-例: She has a genuine interest in astronomy, not just in the job title.  
-訳: 彼女はその職名にではなく、天文学そのものに本当の関心を持っている。  
-
-・`a genuine apology`  
-用途: 形だけでなく、悪かったという気持ちを伴う謝罪を表す。  
-例: His genuine apology helped the two colleagues start talking again.  
-訳: 彼の心からの謝罪が、2人の同僚が再び話し始める助けになった。  
-
-・`genuine surprise/joy/affection`  
-用途: 演技ではなく、実際に感じている驚き、喜び、愛情を表す。  
-例: Her genuine surprise was obvious when the lights came on.  
-訳: 明かりがついたとき、彼女が本当に驚いていることは明らかだった。  
-
-・`a genuine attempt/desire to 〈動詞〉`  
-用途: 成功や称賛を装うためでなく、本当に実現しようとする試み・願望を表す。  
-例: They made a genuine attempt to repair the relationship, even when no one was watching.  
-訳: 誰も見ていないときでさえ、彼らはその関係を修復しようと心から努力した。  
-
-・`a genuine person`  
-用途: 人付き合いで気取った演技をせず、率直で誠実な人を表す。  
-例: Maya is a genuine person who speaks the same way to everyone.  
-訳: マヤは誰に対しても同じように話す、誠実で気取らない人だ。  
-
-【語法・注意】感情や態度についての `genuine` は「実際にそう感じている」「見せかけではない」という意味で、`sincere` と近い。`genuine` はその人の自然で気取らない人柄にも使えるが、`sincere` は発言・約束・謝罪などが本心を表すことに焦点を置きやすい。  
-
-`genuine concern` のように、語義2と語義3の両方に読める組み合わせがある。`genuine concern for the families` は本心からの心配という感情に焦点があり、`a genuine concern about water contamination` は実際に存在する懸念・問題という読みが強い。語彙的にどちらか一方へ固定されるとは限らないため、例文では対象や理由を明示する。  
-
-【類義語】
-
-・sincere  
-定義: 感情、言葉、意図が本心から出た、誠実な。  
-頻度: 〈9/10〉  
-違い: `sincere` は謝罪、感謝、願い、約束などの内面と発言の一致を強調する。`genuine` は人柄の気取らなさや感情の自然さにも使える。  
-例: Please accept my sincere thanks for your help.  
-訳: ご支援に対する心からの感謝を受け取ってください。  
-
-・heartfelt  
-定義: 強い本心から出た、心のこもった。  
-頻度: 〈6/10〉  
-違い: `heartfelt` は感情の深さや温かさを強く示し、感謝・同情・謝罪などに向く。`genuine` は感情が本物かどうかをより中立に述べる。  
-例: The family received heartfelt messages from the community.  
-訳: その家族は地域の人々から心のこもったメッセージを受け取った。  
-
-・unfeigned  
-定義: 偽りや演技のない、真の。  
-頻度: 〈3/10〉  
-違い: `unfeigned` は硬く文語的で、「見せかけではない」という否定の形で本心を強調する。`genuine` の方が一般的である。  
-例: She expressed unfeigned admiration for her former teacher.  
-訳: 彼女はかつての教師への偽りのない称賛を表した。  
-
-・unaffected  
-定義: 気取りや作為のない、自然な。  
-頻度: 〈6/10〉  
-違い: `unaffected` は話し方や振る舞いが自然で、他人によく見せようと気取っていないことに焦点がある。`genuine` は感情や誠実さそのものにも使う。  
-例: The actor’s unaffected manner made the interview comfortable.  
-訳: その俳優の気取らない態度が、インタビューを和やかにした。  
-
-・honest  
-定義: 嘘やごまかしを避け、真実を述べる、誠実な。  
-頻度: 〈10/10〉  
-違い: `honest` は真実を語る道徳的性質に焦点があり、内面の感情が本物かどうかを直接表すとは限らない。`genuine` は本心・自然さの評価を含む。  
-例: I appreciate your honest opinion about the proposal.  
-訳: その提案について率直な意見を聞かせてくれてありがたい。  
-
-【反意語】
-
-・insincere  
-定義: 本心からではなく、誠実さを欠いた。  
-頻度: 〈6/10〉  
-違い: `insincere` は言葉、謝罪、感謝、関心などが本心を表していないことを直接示す。`genuine` の明確な反対語である。  
-例: His compliment sounded insincere, so she changed the subject.  
-訳: 彼の褒め言葉は心からのものに聞こえなかったので、彼女は話題を変えた。  
-
-・feigned  
-定義: 感情や態度を本当はそうでないのに装った。  
-頻度: 〈5/10〉  
-違い: `feigned` は意図的な演技・偽装を強く示し、驚き、病気、無関心などに使う。`genuine` はその反対に実際の感情を示す。  
-例: He offered a feigned apology to avoid a formal complaint.  
-訳: 彼は正式な苦情を避けるため、形だけの謝罪をした。  
-
-・artificial  
-定義: 自然に生じたものではなく、作為的で不自然な。  
-頻度: 〈8/10〉  
-違い: `artificial` は態度、笑顔、会話などが不自然に作られていることを表す。`genuine` よりも「自然さ」との対立が前面に出る。  
-例: Her artificial smile disappeared as soon as the camera was turned off.  
-訳: カメラが切られると、彼女の作り笑いはすぐに消えた。  
-
-・affected  
-定義: 気取った、わざとらしい、自然でない。  
-頻度: 〈5/10〉  
-違い: `affected` は上品さや知性を過度に演出するような、気取った振る舞いを批判する語である。`genuine` は気取らない人柄を肯定的に評価する。  
-例: His affected accent sounded unnatural to the local audience.  
-訳: 彼の気取った訛りは地元の聴衆には不自然に聞こえた。  
-
-3. 【形容詞・限定／叙述】現実の、実際の、真の、見せかけでない
-
-【日本語訳・定義】問題、必要、理由、機会、危険、改善、需要、候補などが名目だけのものや想像上のものではなく、実際に存在し、起きており、またはそう扱うだけの実質を持つことを表す。大きい、深刻だ、成功が確実だという意味を必ずしも含まない。  
-
-【頻度】〈7/10〉  
-
-【レジスター/領域】標準語。報道、ビジネス、政策、議論、評価、日常の問題説明で使う。`real` より少し「見せかけではない」という評価が明確で、`actual` よりも「主張どおりの実質がある」という含みを持ちやすい。  
-
-【文法パターン】`a genuine 〈problem/need/reason〉`＝現実の～／`a genuine 〈opportunity/chance/risk〉`＝実際の～／`genuine improvement/progress/demand`＝実質的な改善・進展・需要／`a genuine contender for 〈title/position〉`＝本当に有力候補となりうる者／`a genuine possibility`＝現実的な可能性  
-
-【コロケーション】
-
-・`a genuine problem`  
-用途: 名目上ではなく、実際に影響や支障を生じさせている問題を表す。  
-例: The delay is a genuine problem because it affects every scheduled delivery.  
-訳: その遅延は予定されたすべての配送に影響するため、現実の問題である。  
-
-・`a genuine need for 〈service/support〉`  
-用途: 実際にそのサービスや支援を必要とする状況を表す。  
-例: The charity has a genuine need for trained volunteers this summer.  
-訳: その慈善団体には、この夏、訓練を受けたボランティアが実際に必要である。  
-
-・`a genuine opportunity to 〈動詞〉`  
-用途: 名目だけでなく、実際に何かをする機会があることを表す。  
-例: The internship offers a genuine opportunity to work with the research team.  
-訳: そのインターンシップには、研究チームと実際に働く機会がある。  
-
-・`genuine improvement/progress`  
-用途: 表面的な変更ではなく、実際に状態がよくなったことや進展したことを表す。  
-例: The software update brought a genuine improvement in battery life, not just a new icon.  
-訳: そのソフトウェア更新は新しいアイコンを加えただけでなく、バッテリー持続時間を実際に改善した。  
-
-・`genuine demand for 〈product/service〉`  
-用途: 一時的な宣伝や予測ではなく、実際に存在する需要を表す。  
-例: There is genuine demand for smaller apartments near the station.  
-訳: 駅の近くのより小さなアパートには、実際の需要がある。  
-
-・`a genuine contender for 〈title/position〉`  
-用途: 優勝者・就任者になる可能性を現実に持つ候補を表す。  
-例: She is a genuine contender for the title, although she is not the favorite.  
-訳: 彼女は本命ではないものの、そのタイトルを争える現実的な候補だ。  
-
-・`a genuine reason for 〈action〉`  
-用途: 作り話や口実ではなく、実際に存在する理由を表す。  
-例: He had a genuine reason for leaving early, but he should have told his manager.  
-訳: 彼には早く帰る本当の理由があったが、上司には伝えるべきだった。  
-
-【語法・注意】この語義の `genuine` は、問題や必要などが現実に存在することを表すが、それが重大、合法、正当、成功確実であることまでは意味しない。`a genuine reason` は「実際に存在する理由」であって、規則上必ず認められる `a valid reason` と同じではない。`a genuine contender` も「本当に候補として争える」という意味で、勝利を保証しない。  
-
-`real` は存在・事実・程度を広く表し、`actual` は想定や予定ではなく現実に起きたことを示す。`genuine` は、表示・説明・名目に対応する実質があることを強調する。`genuine concern`、`genuine interest` は語義2の「本心からの」と語義3の「実際の」の境界が文脈で揺れるため、感情を表すのか、現実の問題・需要を表すのかを確認する。  
-
-【類義語】
-
-・real  
-定義: 想像、見せかけ、虚偽ではなく、実際に存在する、起きている。  
-頻度: 〈10/10〉  
-違い: `real` は最も広く、物、感情、問題、事実、程度に使える。`genuine` は名目や主張に対応する実質があるという点をより強く示す。  
-例: The threat is real, even if it is unlikely to happen this year.  
-訳: 今年起きる可能性が低くても、その脅威は現実のものだ。  
-
-・actual  
-定義: 想定・予定・推測ではなく、現実に存在する、起きた。  
-頻度: 〈9/10〉  
-違い: `actual` は予想値・仮定との対比に焦点があり、感情的な「本物らしさ」や誠実さは含まない。`genuine` は見せかけでないことを評価する。  
-例: The actual cost was higher than the estimate.  
-訳: 実際の費用は見積もりより高かった。  
-
-・true  
-定義: 事実や現実と一致していて、誤りでない。  
-頻度: 〈10/10〉  
-違い: `true` は命題・説明・記述の正しさに焦点があり、`genuine` は物・由来・問題・感情が本物であることに向く。  
-例: The report gives a true account of what happened.  
-訳: その報告書は起きたことを正確に記述している。  
-
-・legitimate  
-定義: 法律、規則、社会的基準などに照らして正当で、認められる。  
-頻度: 〈7/10〉  
-違い: `legitimate` は適法性・正当性・正式な資格に焦点があり、物理的に本物か、感情が本心かは別問題である。`genuine` は合法性を含意しない。  
-例: The residents raised a legitimate concern about the construction plan.  
-訳: 住民はその建設計画について正当な懸念を示した。  
-
-・bona fide  
-定義: 実在し、名目だけでなく正式なものとして認められる。  
-頻度: 〈5/10〉  
-違い: `bona fide` は硬く、正式性・善意・実在性の組み合わせを表しやすい。`genuine` は抽象的な問題や改善にも自然に使える。  
-例: The program is open to bona fide applicants with relevant experience.  
-訳: そのプログラムは関連経験を持つ正式な応募者に開かれている。  
-
-【反意語】
-
-・false  
-定義: 事実や現実と一致しない、誤った、偽の。  
-頻度: 〈10/10〉  
-違い: `false` は命題、理由、印象、主張などが真実でないことを広く表し、`genuine` の「実際にそうである」と対立する。  
-例: The advertisement made a false claim about the product’s safety.  
-訳: その広告は製品の安全性について虚偽の主張をした。  
-
-・imaginary  
-定義: 現実には存在せず、想像上の。  
-頻度: 〈7/10〉  
-違い: `imaginary` は想像の産物であることに焦点があり、意図的な詐欺を必ずしも含まない。`genuine` は現実に存在することを示す。  
-例: The child’s imaginary friend seemed completely real to her.  
-訳: その子どもには、想像上の友達が完全に現実のように感じられた。  
-
-・nominal  
-定義: 名称や形式だけの、実質を伴わない。  
-頻度: 〈5/10〉  
-違い: `nominal` は肩書き・金額・役割などが名目上は存在するが、実質が小さいことを表す。`genuine` は名目に対応する実質があることを示す。  
-例: The nominal increase did little to improve living conditions.  
-訳: その名目上の増額は、生活条件の改善にはほとんど役立たなかった。  
-
-・fictitious  
-定義: 事実ではなく、作り上げられた架空の。  
-頻度: 〈5/10〉  
-違い: `fictitious` は名前、人物、理由、取引などが意図的または創作によって作られたことを示す。`imaginary` より公式・法律・事務の文脈に向く。  
-例: The company was registered under a fictitious name.  
-訳: その会社は架空の名前で登録されていた。  
-
-・illusory  
-定義: 実際にはないのに、あるように見える、幻想的な。  
-頻度: 〈4/10〉  
-違い: `illusory` は見かけと現実の食い違いを硬く表し、機会、利益、安全などに使う。`genuine` は見せかけでなく実質があることを表す。  
-例: The promise of effortless success proved illusory.  
-訳: 努力なしで成功できるという約束は、幻想にすぎないと分かった。
-
----
-
-# conservation
-
----
-headword: conservation
-type: word
-status: checked
-prompt_version: entry_spec_v5
-model: gpt-5.6-luna-wm
-created_at: 2026-08-27
-updated_at: 2026-08-27
-checked: true
-tags: []
----
-
-＃発音記号
-
-米: /ˌkɑːnsərˈveɪʃən/、英: /ˌkɒnsəˈveɪʃən/。4音節で、主強勢は第3音節の `-va-` /veɪ/、第1音節に弱い副強勢がある。語末の `-tion` は /ʃən/ と発音する。  
-`conservation` の `-serva-` と `conversation` の `-versa-` は、つづり上 `s` と `v` の位置が入れ替わっている。音も異なり、前者の該当部分は /sərˈveɪ/、後者の該当部分は米音で /vərˈseɪ/ と発音する（全体ではそれぞれ /ˌkɑːnsərˈveɪʃən/、/ˌkɑːnvərˈseɪʃən/）。  
-`conservationist` は /ˌkɑːnsərˈveɪʃənɪst/（米）で、基本的に `conservation` と同じ主強勢を保つ。  
-
-＃語源
-
-`conservation` は中英語 `conservacioun`、古フランス語 `conservation` を経て、ラテン語 `conservatio`「保存、保全」に由来する。ラテン語 `conservare`「保つ、損なわないようにする」にさかのぼり、英語では「失われたり損なわれたりしないように保つこと」を中心に意味を発達させた。  
-現代英語では、自然資源を使いながら将来の損失を防ぐ保全、文化財の材料と価値を守る専門的保存、変化の前後で物理量の総量を保つ保存則へと用法が分かれる。物理学の用法は、日常的な「節約」から直接導かれたというより、「総量を失わせず保つ」という共通の概念を技術用語として用いるものである。  
-
-＃語形成
-
-`conserve` — 動詞「保全する、節約する、保存する」。`conserve water`「水を節約する」、`conserve a historic building`「歴史的建造物を保存する」のように、対象を直接目的語に取る。  
-`conservationist` — 名詞「自然保護活動家、保全論者」。自然環境や資源の保護を支持・実践する人を指し、文化財保存の専門家を通常この語で呼ぶわけではない。  
-`conservator` — 名詞「保存修復専門家、保全担当者」。特に美術品・文化財の調査、処置、予防的保存を行う専門家を指す。文脈によっては、資産や組織を管理・保全する人も指す。  
-`conservancy` — 名詞「保全団体、保全区域、保全活動」。`a land conservancy`「土地保全団体」、`river conservancy`「河川保全活動」のように、組織や制度を指すことが多い。  
-`conservational` — 形容詞「保全の、保存に関する」。一般会話では頻度が低く、専門的・制度的な文脈で使う。  
-`conserved quantity` — 物理学で「保存量」。系の条件のもとで総量が一定に保たれる物理量を指す。  
-
-＃コアイメージ
-
-`conservation` の核は、資源・物・価値・総量などを、損失や望ましくない変化から守って保つことである。何を保つかによって、環境・文化財の実践的な「保全」と、物理学の「総量が変わらない」という専門用法に分かれる。  
-・自然資源や環境を使い尽くしたり損なったりしないように保つ → 「保全、環境保護、節約」（語義1）  
-・作品や文化財の材料・情報・価値を損なわずに将来へ保つ → 「保存、保全、保存修復」（語義2）  
-・系の物理量の総量を変化や変換の前後で保つ → 「保存則、保存」（語義3）  
-
-＃意味・用法・関連表現
-
-1. 【名詞・不可算】自然資源・環境の保全、環境保護、資源の節約
-
-【日本語訳・定義】水、エネルギー、森林、野生生物などの自然資源や環境を、浪費、枯渇、破壊から守るために、計画的・慎重に利用し管理すること。利用を一切禁止することではなく、将来も利用できる状態を保つことに重点がある。  
-
-【頻度】〈9/10〉  
-
-【レジスター/領域】標準語。環境政策、資源管理、科学教育、行政、報道、日常の節電・節水の説明で広く使う。対象が自然環境ではなく、文化財や美術品なら通常は語義2、物理量の総量なら語義3である。  
-
-【文法パターン】`conservation of 〈natural resource〉`＝～の保全／`wildlife/forest/marine conservation`＝野生生物・森林・海洋の保全／`energy/water conservation`＝省エネルギー・節水／`conservation efforts/measures`＝保全の取り組み・対策／`promote/support conservation`＝保全を促進・支援する  
-
-【コロケーション】
-
-・`conservation of 〈natural resource〉`  
-用途: 水、森林、土壌などの自然資源を、使い切ったり損なったりしないよう管理することを表す。  
-例: The region introduced strict conservation of groundwater after several dry years.  
-訳: その地域は数年続いた干ばつの後、地下水の厳格な保全を導入した。  
-
-・`wildlife conservation`  
-用途: 野生動物、その生息地、個体群を保護・管理する活動を表す。  
-例: Wildlife conservation depends on protecting habitats as well as individual animals.  
-訳: 野生生物の保全には、個々の動物だけでなく生息地を守ることも必要である。  
-
-・`energy conservation`  
-用途: エネルギーの使用量や浪費を減らし、限られた資源を効率よく使うことを表す。  
-例: The school installed motion sensors as part of its energy conservation program.  
-訳: その学校は省エネルギー計画の一環として人感センサーを設置した。  
-
-・`water conservation`  
-用途: 水の使用を抑え、供給源を将来の需要のために維持することを表す。  
-例: Rain barrels were provided to residents as a water conservation measure.  
-訳: 節水対策として、住民に雨水貯留タンクが配られた。  
-
-・`conservation efforts/measures`  
-用途: 自然環境や資源を守るための具体的な努力・政策・対策をまとめて表す。  
-例: The new conservation measures reduced logging in the protected forest.  
-訳: 新しい保全対策によって、保護林での伐採が減った。  
-
-・`marine conservation`  
-用途: 海洋の生態系、魚類、沿岸環境を保護・管理する活動を表す。  
-例: The research station funds marine conservation around the coral reef.  
-訳: その研究所はサンゴ礁周辺の海洋保全に資金を提供している。  
-
-【語法・注意】この語義では通常不可算で、`a conservation` とは言わず、`conservation of water`、`conservation efforts` のように使う。`conservation` は「使わないこと」だけでなく、使用量を管理し、損失や破壊を防ぐことを含む。  
-
-`preservation` は対象を変化させずに残すことに焦点が置かれやすく、`conservation` は利用や管理を伴いながら資源・環境を長期的に保つ含みがある。`sustainability` は環境、経済、社会の仕組みを将来も維持できることに焦点があり、`conservation` と重なるが同義ではない。  
-`energy conservation` は語義1なら電力使用を減らす対策を指すが、`the conservation of energy`、`a conservation law`、`an isolated system` と結びつけば通常は語義3の物理学用法である。  
-
-【類義語】
-
-・preservation  
-定義: 損傷、変化、消失から守り、元の状態に近いまま残すこと。  
-頻度: 〈8/10〉  
-違い: `preservation` は変化を避けて現状を保つ焦点が強い。`conservation` は、自然資源を管理しながら使うことや、文化財を処置して安定させることも含む。  
-例: The preservation of the wetland prevents developers from draining it.  
-訳: その湿地の保存・保全は、開発業者が排水してしまうのを防ぐ。  
-
-・protection  
-定義: 危険、損害、攻撃などから守ること。  
-頻度: 〈10/10〉  
-違い: `protection` は脅威から守るという広い語で、資源を計画的に利用し続ける管理や、総量を保つ技術概念までは必ずしも含まない。  
-例: The law provides protection for nesting birds during the breeding season.  
-訳: その法律は繁殖期の営巣する鳥を保護する。  
-
-・stewardship  
-定義: 預かった土地、資源、環境を責任を持って管理すること。  
-頻度: 〈5/10〉  
-違い: `stewardship` は管理者の責任や倫理を強調する。`conservation` はその責任から行う具体的な保全活動や政策を指しやすい。  
-例: Good stewardship of the forest requires both careful harvesting and replanting.  
-訳: 森林を適切に管理するには、慎重な伐採と再植林の両方が必要である。  
-
-・sustainable management  
-定義: 将来の利用可能性を損なわないよう、資源や活動を管理すること。  
-頻度: 〈5/10〉  
-違い: `sustainable management` は将来も成り立つ利用水準や仕組みを明示する複合表現である。`conservation` は保護・損失防止に重点があり、持続可能性全体を必ずしも論じない。  
-例: Sustainable management of the fishery limits the annual catch.  
-訳: その漁業の持続可能な管理は年間漁獲量を制限している。  
-
-【反意語】
-
-・exploitation  
-定義: 資源や環境を利益のために強く利用し、しばしば限界まで消費すること。  
-頻度: 〈7/10〉  
-違い: `exploitation` は利用そのものを指すが、過剰利用や搾取という否定的な含みを持ちやすい。`conservation` は長期的な損失を避ける管理に焦点がある。  
-例: Uncontrolled exploitation of the forest has reduced the river’s water quality.  
-訳: 森林の無制限な開発・利用によって、その川の水質が低下した。  
-
-・depletion  
-定義: 資源や蓄えが使われて減少し、ほとんど残らなくなること。  
-頻度: 〈6/10〉  
-違い: `depletion` は保全に失敗した結果としての量の減少を表す。故意の利用だけでなく、自然な消耗にも使える。  
-例: The depletion of the aquifer forced farmers to reduce irrigation.  
-訳: 帯水層の枯渇によって、農家は灌漑を減らさざるを得なかった。  
-
-・waste  
-定義: 役立つ資源を不注意に、または必要以上に使うこと。  
-頻度: 〈9/10〉  
-違い: `waste` は個々の行動や使用の浪費を指す日常語で、自然環境全体の計画的な管理を表す `conservation` より狭い。  
-例: Leaving the tap running is an unnecessary waste of water.  
-訳: 蛇口を出しっぱなしにするのは、水の不必要な浪費である。  
-
-2. 【名詞・不可算】美術品・文化財・歴史的建造物の保存、保全、保存修復
-
-【日本語訳・定義】絵画、彫刻、文書、遺跡、歴史的建造物などの文化遺産を、劣化や損傷から守り、その材料、情報、価値を将来へ引き継ぐ専門的な実践・工程。調査、記録、処置、予防的な環境管理を含み、常に元の外観へ作り直すことを意味しない。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】専門語・標準語。美術館、文書館、図書館、文化財行政、建築保存、博物館学で使う。米国英語では `art conservation`、`heritage conservation`、`architectural conservation` などの形が多い。自然環境の保全なら語義1である。  
-
-【文法パターン】`conservation of 〈artwork/manuscript/building〉`＝～の保存修復／`art/heritage conservation`＝美術品・文化遺産の保存／`conservation treatment`＝保存修復処置／`conservation work`＝保存修復作業／`a conservation laboratory`＝保存修復研究室／`conservation and restoration`＝保存修復と復元  
-
-【コロケーション】
-
-・`conservation of 〈artwork〉`  
-用途: 絵画、彫刻、工芸品などを調査・処置して安定した状態に保つことを表す。  
-例: The conservation of the oil painting took six months because the canvas was fragile.  
-訳: その油彩画はキャンバスがもろかったため、保存修復に6か月かかった。  
-
-・`art/heritage conservation`  
-用途: 美術作品や文化遺産を対象とする専門分野・活動を表す。  
-例: She studied heritage conservation before joining the national museum.  
-訳: 彼女は国立博物館に入る前に文化遺産保存を学んだ。  
-
-・`conservation treatment`  
-用途: 専門家が作品や資料に施す具体的な保存修復処置を表す。  
-例: The conservator recommended a gentle conservation treatment for the cracked varnish.  
-訳: 保存修復家は、ひびの入ったニスに穏やかな保存修復処置を勧めた。  
-
-・`conservation work`  
-用途: 文化財の安定化、清掃、補修、記録などの保存修復作業をまとめて表す。  
-例: Conservation work on the medieval manuscript revealed ink beneath a later repair.  
-訳: その中世写本の保存修復作業によって、後世の補修の下にあるインクが明らかになった。  
-
-・`conservation of historic buildings`  
-用途: 歴史的建造物の材料、構造、特徴を調べ、損傷を抑えて維持することを表す。  
-例: The conservation of historic buildings must respect evidence of their earlier alterations.  
-訳: 歴史的建造物の保存では、過去の改変の証拠を尊重しなければならない。  
-
-・`a conservation laboratory`  
-用途: 美術品・文化財の材料分析、状態確認、処置を行う施設を表す。  
-例: The museum’s conservation laboratory monitors humidity around the wooden sculpture.  
-訳: その博物館の保存修復研究室は、木彫像の周囲の湿度を監視している。  
-
-【語法・注意】この語義の `conservation` は通常不可算で、専門家が対象を記録・安定化・処置しながら残すことを指す。`conservation` と `restoration` は重なるが、`restoration` は過去の状態や外観を再現することに焦点が置かれやすい。保存修復では、後から加えた部分を隠さず、現存する材料と将来の研究可能性を尊重する場合がある。  
-
-専門家は `conservator`、保存修復を行う部門は `conservation department` や `conservation laboratory` と呼ぶ。自然環境を守る活動を指す `environmental conservation` と、文化財を扱う `art conservation` は対象が異なるため、形容詞や目的語を確認する。  
-
-【類義語】
-
-・preservation  
-定義: 文化財や記録を損傷・劣化から守り、できるだけその状態で残すこと。  
-頻度: 〈8/10〉  
-違い: `preservation` は現状を保つ一般語で、専門的な調査・処置の体系まで必ずしも示さない。`conservation` は材料分析、処置、予防管理を含む専門領域を指しやすい。  
-例: Digital preservation protects the files from becoming unreadable as software changes.  
-訳: デジタル保存は、ソフトウェアの変化でファイルが読めなくなるのを防ぐ。  
-
-・restoration  
-定義: 作品、建物、物品などを以前の状態・外観に戻すこと。  
-頻度: 〈7/10〉  
-違い: `restoration` は欠損の補充や過去の姿の再現に重点がある。`conservation` は現存する材料を安定させることを優先し、完全な復元を目標にしないことがある。  
-例: The restoration recreated the missing colors, while the conservation treatment stabilized the original paint.  
-訳: 復元では失われた色を再現し、保存修復処置では元の絵具を安定させた。  
-
-・stabilization  
-定義: 損傷や劣化の進行を止め、対象を安全に扱える状態にすること。  
-頻度: 〈5/10〉  
-違い: `stabilization` は保存修復の一工程に焦点を置く。`conservation` は状態確認、記録、予防管理、処置を含むより広い活動である。  
-例: Stabilization of the loose pages came before the manuscript was put on display.  
-訳: 写本を展示する前に、外れかけたページの安定化が行われた。  
-
-・repair  
-定義: 壊れたり傷んだりした物を、使える状態に戻すため直すこと。  
-頻度: 〈9/10〉  
-違い: `repair` は機能回復の日常語で、元の材料・情報・外観を尊重する専門的な保存判断までは含まない。  
-例: The repair fixed the frame, but it was not a full conservation treatment.  
-訳: その修理で額縁は直ったが、完全な保存修復処置ではなかった。  
-
-【反意語】
-
-・neglect  
-定義: 必要な世話、管理、処置を怠り、対象を悪化させること。  
-頻度: 〈8/10〉  
-違い: `neglect` は保全のために必要な注意や手入れをしないことを表す。故意に壊すことまで必ずしも含まない。  
-例: Years of neglect left the wooden sculpture vulnerable to insects and moisture.  
-訳: 何年も放置されたため、その木彫像は虫と湿気に弱い状態になった。  
-
-・deterioration  
-定義: 物の状態、品質、材料が時間とともに悪化すること。  
-頻度: 〈7/10〉  
-違い: `deterioration` は保存に失敗した結果として起こる劣化を指す状態名詞で、誰かの行為を直接示す `neglect` とは異なる。  
-例: The archive reduced deterioration by controlling light and humidity.  
-訳: その文書館は光と湿度を管理して劣化を抑えた。  
-
-・destruction  
-定義: 物、建物、資料などを壊して存在・形を失わせること。  
-頻度: 〈8/10〉  
-違い: `destruction` は保存の目的と正反対の結果を表すが、保存修復が防ごうとするすべての損傷が完全な破壊に至るわけではない。  
-例: The conservation plan was created to prevent the destruction of the historic site.  
-訳: その保存計画は、史跡の破壊を防ぐために作られた。  
-
-3. 【名詞・不可算／物理学・化学】物理量の保存、保存則
-
-【日本語訳・定義】ある系と条件のもとで、エネルギー、運動量、質量、電荷などの物理量の総量が、移動したり別の形に変換されたりしても一定に保たれること。また、その関係を述べる法則。系の一部の量や形が変化しないという意味ではなく、境界を定めた全体の収支が変わらないという意味である。  
-
-【頻度】〈6/10〉  
-
-【レジスター/領域】専門語。物理学、化学、工学、科学教育で使う。`conservation of energy` や `conservation of momentum` のように保存される量を明示することが多い。日常的な節電・節水を表す `energy conservation` とは、周囲の語で区別する。  
-
-【文法パターン】`conservation of 〈energy/momentum/mass/charge〉`＝エネルギー・運動量・質量・電荷の保存／`the law/principle of conservation of 〈quantity〉`＝～保存の法則・原理／`a conservation law`＝保存則／`obey/test conservation of 〈quantity〉`＝～の保存則に従う・～の保存を検証する  
-
-【コロケーション】
-
-・`the law of conservation of energy`  
-用途: 孤立した系の全エネルギーが、形を変えても一定であるという法則を表す。  
-例: The law of conservation of energy explains why the total energy of the isolated system stayed constant.  
-訳: エネルギー保存則は、その孤立系の全エネルギーが一定に保たれた理由を説明する。  
-
-・`conservation of momentum`  
-用途: 外部からの正味の力積が無視できる系で、全運動量が衝突の前後で等しいことを表す。  
-例: The students used conservation of momentum to calculate the speeds after the collision.  
-訳: 学生たちは運動量保存を使って、衝突後の速度を計算した。  
-
-・`conservation of mass`  
-用途: 通常の化学反応で原子が消滅・生成せず、反応前後の質量収支が保たれることを表す。  
-例: The balanced equation reflects conservation of mass: the atoms are rearranged, not created or destroyed.  
-訳: 係数をそろえた化学式は質量保存を反映している。原子は組み替えられるのであって、生成・消滅するのではない。  
-
-・`conservation of charge`  
-用途: 閉じた収支で電荷が勝手に生じたり消えたりせず、電気回路や反応で電荷の総量が保たれることを表す。  
-例: Kirchhoff’s current law follows from conservation of electric charge at a circuit junction.  
-訳: キルヒホッフの電流則は、回路の接点で電気の電荷が保存されることから導かれる。  
-
-・`a conservation law`  
-用途: 特定の物理量の総量が、許された変化の前後で一定であることを述べる法則を表す。  
-例: A simulation is suspect if it changes total charge without an external source, because it violates a conservation law.  
-訳: 外部源なしに全電荷を変えるシミュレーションは、保存則に反するため疑わしい。  
-
-【語法・注意】物理学の `conservation` は「何も変化しない」という意味ではない。エネルギーが熱や運動エネルギーへ移る、運動量が複数の物体へ分配されるなど、系の内部では形や配分が変わっても、定義した系全体の総量が一定なら保存という。  
-
-`conservation of energy` は物理学の保存則、`energy conservation measures` は語義1の省エネルギー対策になりやすい。`isolated system`、`total energy`、`collision`、`law` などがあれば語義3の可能性が高く、`bills`、`efficient appliances`、`reduce use` などがあれば語義1の可能性が高い。  
-保存則は系の境界、外部との交換、近似条件に依存する。したがって「どんな場合でも各物体の量が一定」と一般化せず、`total`、`system`、`under these conditions` などの範囲を確認する。  
-
-【類義語】
-
-・invariance  
-定義: ある変換、操作、条件のもとで、性質や量が変わらないこと。  
-頻度: 〈5/10〉  
-違い: `invariance` は変換に対して同じであるという数学・物理学の性質を強調する。`conservation` は時間発展や相互作用の前後で総量が保たれる収支・法則を指しやすい。  
-例: The symmetry implies invariance of the equations under a change of coordinates.  
-訳: その対称性は、座標変換に対して方程式が不変であることを意味する。  
-
-・constancy  
-定義: 量や状態が変わらず一定であること。  
-頻度: 〈5/10〉  
-違い: `constancy` は単に変化がないことを表す一般語で、何が保存され、どの系で収支が保たれるかという物理法則の含みは弱い。  
-例: The experiment measured the constancy of the temperature in the sealed chamber.  
-訳: その実験は密閉室内の温度が一定であることを測定した。  
-
-・preservation  
-定義: ある性質、量、状態を失わせずに保つこと。  
-頻度: 〈8/10〉  
-違い: `preservation` は「保つ」という一般的な意味で技術文書にも現れるが、物理学では特定の量と法則を示す `conservation` が定着している。  
-例: The model assumes preservation of total mass during the reaction.  
-訳: そのモデルは反応中に全質量が保たれると仮定している。  
-
-【反意語】
-
-・nonconservation  
-定義: 保存されるはずの量が、定めた系や理論のもとで一定に保たれないこと。  
-頻度: 〈3/10〉  
-違い: `nonconservation` は一般会話の反対語ではなく、特定の保存則が成り立たないことを述べる専門的な表現である。  
-例: The proposed interaction would imply nonconservation of electric charge.  
-訳: その相互作用の提案は、電荷非保存を意味することになる。
+中英語 *mes*「食事の一皿、一人分の食物」を経て、古フランス語 *mes*「食卓に出される一皿」、後期ラテン語 *missus*「食事の一皿、置かれたもの」に由来する。*missus* はラテン語 *mittere*「送る、置く」の過去分詞に由来する。食物の一盛り・混ぜ物という意味から、「入り混じったもの」「混乱した状態」「散らかった状態」へ意味が広がった。軍隊の「食事を共にする集団・食堂」には古い食事の意味が残��M4����(�+myٮ8�8n8N8�8�8>8�8" ��8;�&WF���V��'��b8�X{�i�^K��8� �yJ��	C�X{�i�^K��8�hkn8).h�8{i�88(�8.8(N8(Nz�8�8���hkn8�j�8>8n8N8(�8>8�8�xJnx+�8�8.8(�8" �K賢F�Rv�F�W72&WF��VB6�V"�V��'��bF�R6��fW'6F���� ���3�8�8�K��8�8�Kɮ��8�hkn8�8�8>8�8(�j�8>8n8N8�8" ��8	���k9^8;�k:�hH�8	&WF����f�&�F���8�8hH��َy�N8����hkn8�X�n8(����8(�V��&��V8�88.8(�i�.x+�8~h	�8NX{�8�&V6��8�K�ޙi>8�K��{��8�8(����8~88�Z�n8)>88(.8�8�[��8�8~j�8(�8�8>8�8).��8�8.Xَ8�8Ίi�8�8n8N8(�8�8�iz^[��y�N8���8n8�8(�&V�V�&W&8Έz�xKn8�ZNY�8�ZI�8N8&&WF��8�h8^Z8).�
+�8�K��8�K��h�8�8(�hH�Y>8~8.8(�8���hkn8�j�>z+�8^8(Nyn�z>8�k{8^8�8~[�^8�K�ފ��8~8�8N8" ��8	��{꞊��8	��8;�&V�V�&W" �Z�{ꓢh8^Z8(NX{�i�^K��8).�i�8�8n8N8(�88�8�8�h	�8NX{�8�8" ���[�c�8��8� ��^8C�&V�V�&W&8�i�8(.K����y�N8~8���hkn8).K��h�8~8n8N8(�x�nhX�8�8[�^�h8�8�8�8�h	�8NX{�8���x+�8�K�ik�8�K��8�8(�8&&WF��8�K��h�8�{i�{i�8�xJnx+�8�8.8(�8" �K賢�&V�V�&W"F�R������G2�bF�R�V7GW&R� ���3�zx8�8�8�ɾ{�8�hx+�8).�i�8�8n8N8(�8" ��8;��V��&��R �Z�{ꓢh8^Z8).hH��َy�N8�i�~���8�8(�8" ���[�c�8���8� ��^8C��V��&��V8��i�8�8(�8�8(8�hH�Y�>y�N8�Z�n{�.��z��8&WF��8��i�8�8�Xh^Z�8�[��8�8~j�8(�{Yi��8).��8�8" �K賢F�R7GVFV�G2�V��&��VBF�Rf�&�V�&Vf�&RF�RFW7B� ���3�Z�nyI�8�88���n��>X��8�8�8�XZ�[��8).i�~���8~8�8" ��8;�&V6�� �Z�{ꓢ���hkn8�8(�h8^Z8(NX{�i�^K��8).h	�8NX{�8�8" ���[�c�8���8� ��^8C�&V6��8�[�^�h8�i�.x+�8~X�n8(�X{�8���x+�8�xJnx+�8�8.8(�8&WF��8����hknXh^8�j�8>8n8N8(�8>8�8�xJnx+�8�8.8(�8" �K賢F�Rv�F�W726�V�B��B&V6��F�RW�7BF��R� ���3�8�8�K��8�j�>z+�8�i�.X��8).h	�8NX{�8�8�8�8>8�8" ��8;��VW��֖�B �Z�{ꓢh8^Z8(Nk:�hH�x+�8).[�>8�yY�8(8n8�8�8" ���[�c�8���8� ��^8C��VW��֖�F8�hH��َy�N8�[�^�
+�8�{��8�X�>���y�N8���x��8~8&WF��8�Z�n{�.8;����hkn8�K��h�8).Z�.�k>y�N8���8�8(N8�8N8" �K賢�VW��֖�BF�BF�RFVFƖ�R�2f�&�� ���3�{z8(X�~8(�8�ZH�i�N8^8(�8�8N8>8�8).�i�8�8n8�8�8�8^8N8" ��8	X��hH����8	��8;�f�&vWB �Z�{ꓢh8^Z8(NX{�i�^K��8).���hkn8�8(�ZK8n8h	�8NX{�8�8�8�8�8(�8" ���[�c�8��8� ��^8C�f�&vWF8����hkn8�j�8(�8�8N88�8�8�h	�8NX{�8�8�8Nx�nhX�8).��8~8&WF��8�y�Nh�^Z��z��8�8(�8" �K賢�w&�FRF�R��7G'V7F���2F�v�6��v�V�B��Bf�&vWBF�V�� ���3�[��8(�8�8N8(�8n8�h�~zK�8).i��8�yY�8(8�8" ��8;���6R �Z�{ꓢ���hkn8y�^�َ8�;�X��8�8�8).ZK8n8" ���[�c�8��8� ��^8C���6R�V��'�����v�VFvV8�8h�8>8n8N8����hkn8(Ny�^�َ8�ZK8(�8(�8(�8>8�8).��8�8" �K賢�Rw&GV�ǒ��7B��2�V��'��bF�R��wVvR� ���3�[��8�8�8���8�hkn8).[�8^8�ZK8>8�8" ��8;�W&6R �Z�{ꓢ�����.8(N���hkn8).kh�X�8�8(�8" ���[�c�8���8� ��^8C�W&6V8������.8(N���hkn8).hH�Y�>y�N8;�x��yny�N8�kh�8�hH�Y>8�[�~8�88�8~8�8.8(�h8^Z8).ZK8(�8�K��8B&WF��8�8��nik�Y	8�i8�K��8).��8�8" �K賢F��R6���BW&6RWfW'��V��'�� ���3�i�.�i>8�8�8>8n8(.88�8�8n8�hkn8).kh�8~X�8(�8(�8(�88~8�8�8N8 ����Р�2W&6V�fP����Ц�VGv�&C�W&6V�fP�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#P�WFFVE�C�##b���#P�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3������6��b���Έ�������6��b�8#.��>z�8~8z��.��>z����6��b�8�K��[�~X�.8�8.8(�8.{>���8�z����>z�8�"��.8�8.8(�����8�����8�[�8B����8" ����iʲ���b�8��[~j�ޙ�2����8�iȞZ;��2�b�8�{XN8�Y�8(�8�8~8i�[��8��b�8).xJZ;X�n8~8�8N8" �K��K��z{Xَi[W&6V�fW28������6��g��8��X�[�.8;���X�X�n���W&6V�fVB8������6��fB�8֖�~[�"W&6V�f��r8������6��l��X��8"�28����8�VB8�iȞZ;��2�b�8�[��8�8�8r�B�8�8�8(�8W&6V�f��r8~8����iʾ8�R8).��8�8�8" ����>���k� ��[��i��K�ވ����8�88*.8;>8+8:�89^8:�8;>8+����8;�X�N89^8:�8;>8+����W&6V�g&R8).{X�8n88:�88n8;>���W&6�W&^8�Z��XZ�8�X�n8(����8(8h��h�8�8(�8�8�8(�XZ^8>8�8'W"�8�X�X�n8�8[�[�^8~8n8��Ȳ6W&^8�X�n8(�88N8�8(8�8�8N8njx�h�8~���i��8^8(�8(�8" ������8~8�NK�n{HX��8(8N8(�8�8(�8hI��i�8~h؞8�8(�yJ�k9^8�8[�>8~yn�z>8;���^K�8�8(�yJ�k9^8�z+����8^8(�8(�8.���k�8�8�8N8�8�X�n8(�8�8�8N8nj�NYj�y�N8�j�8�8x��K�>8�y�^�i�8;���ފَ8�[�>8�8(�8).yn�z>8�8(�X��88�8�8(�8�8X�8^8�{�8).j��j+y�N8�K��k��8�8(�8(.8�8~8�8�8N8" ����>���[�.h� ��W&6V�fW28�K��K��z{Xَi[8W&6V�fVB8���X�[�.8;���X�X�n���8W&6V�f��r8�x��YʎX�n���8;�X�^Yފ��8~8.8(�8" �W&6WF���8�8�y�^�i�8��ފَ8�8W&6WF�fR8�8�kI�Z��X��8�8.8(�8y�^�i�8�8N8�8�8N8nK���hkK�yI����8~8.8(�8" �W&6WF�&�R8�8�y�^�i�8~8�8(�8hI�8�X�n8(�8(�8�8W&6V�f&�R8�8�y�^�i�X���;�8�8�8W&6V�f&ǒ8�8�y�^�i�8~8�8(�[�.8~8�8W&6V�fW"8�8�y�^�i�8�8(�K��8�8).��8�8" �W&6V�fVB8���X�X�n���[�.Z랊��8�8~8n8(.K��8(�8(�8W&6V�fVBF�&VB8�8(�8n8�8�Z�����8�8�8n88�ij�Z�8�8(�8�8~8�8�8��8�8�8�8n��ފَ8;���^K�8^8(�8�8�8�8N8nhH�Y>8).K��8(�8" ����>8+>8*.8*N8:8;�8+���W&6V�fR8�j�8�8ZInyX�8(Nx�nk88�8(�h8^Z8).X�~8X�n8(�8hH��َ8�K��8~8�8�8n88�8�h؞8�8(�8>8�8.hI��i�8~h؞8�8(�ZNY�8�8(�8K��Z��8;�hH�Y>8;���^K�8�8~8nh؞8�8(�ZNY�8�8~[�>8�8(�8.��X�X�n���[�.Z랊��8�W&6V�fVB8�88�8�y�^�i�8;�X�Nij�8�{Yi��8�8~8nK��8�8(�8�8nX�~8j�.8(8(�8(�8n8N8(�x�nhX�8).��8�8" �8;�hI��i�8~Z��8(NZH�X�n8).h؞8�8(�(i"8�y�^�i�8�8(�8;�k	~8^8�8��Ȏ���{��Ȓ �8;�K��Z��8(Nx�nk88�8�8n88���ފَ8�8(�(i"8Ί�ފَ8�8(�8;�k	~8^8�8��Ȏ���{�.�Ȓ �8;�hH�Y>8(Njx��
+8Y
+�hH�8).[�>8~h؞8�8(�(i"8�yn�z>8�8(�8;��h�h��8�8��Ȏ���{�>�Ȓ �8;�K��8(Nx��8).8.8(�h
+~�:�8�8(.8�8�8~8nK��{��8^88(�(i"8����8��h�8�8�8;�X�~8j�.8(8(�8��Ȏ���{�N�Ȓ �8;�y�^�i�8(NX�Nij�8�{Yi��88�8nX�~8j�.8(8(�8(�8n8N8(�(i"8Ί�ފَ8^8(�8�8;�8�8n�h�8�8^8(�8�8��Ȏ���{�^�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	K�nX�^���8;�hI��i�8	hI��i�8~y�^�i�8�8(�8y��8(N�>8�8�8~k	~8^8�8	iz^i�Ί�>8;�Z�{�8	y��8;��>8;��˾8�8�8�hI��i�8).�	�8~8n8K��8;�x��8;�X�^8�8;�ZH�X�n8).y�Nh�^h؞8�8(�8.Z��XZ�8�hH��َX�n8~8�8(�8��>8~8�yn�z>8~8�8(�8�8(�8�8���8(�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	K����8'6VR8(B��F�6R8(�8(�8(N8(Nz�8�8���i��ih~8;�ZY�8;�Z�n�>y�N8������8~y��z��8N8" ��8	ih~k9^898+�8;�8;>8	W&6V�fR8�Z��8����W&6V�fR8�Z��8�F���v���W&6V�fRF�B��� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W&6V�fR��fV�V�B �yJ��	C��inyX�8(NY���hI��i�8�8(�X�^8�8).h؞8�8(� �K賢F�RwV&BW&6V�fVB��fV�V�B�V"F�RV�G&�6R� ���3���nX)�Y:8�XZ^X�>K����8�X�^8�8�k	~8^8N8�8" ��8;�W&6V�fR6��vR �yJ��	C�x�nhX�8(Ny+Z(>8�ZH�X�n8).hI�8�X�n8(� �K賢&W6�FV�G2V�6�ǒW&6V�fVB6��vR��F�R�"VƗG�� ���3�K��k	8�z��k	~8�:�8�ZH�X�n8).8�88�hI�8�X�n8>8�8" ��8;�W&6V�fR6�V�B �yJ��	C���>8).�>8~h؞8�8(� �K賢6�RW&6V�fVBf��B6�V�B&V���BF�Rv��� ���3�[��Z[>8�Z88�Y	8>8n8�8�8�8�8���>8).��8�X�n8>8�8" ��8;�W&6V�fRF�ffW&V�6R �yJ��	C�K��8N8�X��k�8�^8N8).hI��i�y�N8�h؞8�8(� �K賢6��RW6W'26���BW&6V�fRF�ffW&V�6R&WGvVV�F�RGv�F�7��2� ���3�.8N8��zK�8�^8N8).y�^�i�8~8�8�8NX��yJ��^8(.8N8(�8" ��8;�W&6V�fRf��B6�V�� �yJ��	C�[�8N8�8�8N8).�˾8~hI�8�X�n8(� �K賢F�RF�rW&6V�fVBf��B6�V���b6���R� ���3�8�8�x��8�8�8�8�8�xY�8�8�8�8N8).hI�8�X�n8>8�8" ��8;�W&6V�fRF�RƖv�B �yJ��	C�XX�8�iȞxJ8(NZH�X�n8).�in�i�8~h؞8�8(� �K賢F�R6V�6�"W&6V�fW2F�RƖv�B&Vf�V7FVBg&��F�R7W&f6R� ���3�8�8�8+�8;>8+^8;�8�����.8�8(�X��[N8~8�XX�8).jI�y�^8�8(�8" ��8	���k9^8;�k:�hH�8	hI��i�8�XZ^8>8�Z��8).hH��َ8�h؞8�8(����8~8hH�Y�>y�N8���>8~8����8�8(�8>8�8�8~8�Y
+�8�8�8N8'W&6V�fR�F���r8�8��8����8~8n8N8(�8�8).y�^�i�8�8(�8�8~8�8�X�^K��8).8.8�8�8�8�8(�8�X{�i�^K��8�8~8nh؞8�8(�W&6V�fR�F�8�K��8NX�n88(�8'W&6V�fR�2"8�8>8�hI��i�{�8~8�8�8�8���{�N8^K�8;�X�n��8~8.8(�8" ��8	��{꞊��8	��8;���F�6R �Z�{ꓢhI��i�8(Nk:�hH�8�8(�8>8nK�^8�8�k	~8^8� ���[�c�8���8� ��^8C�W&6V�fR8(�8(�iz^[��y�N8~8hH��َy�N8�k:�hH�8�{Yi��8�8(.�z�xKn8�K��8�8(� �K賢���F�6VB7&6���F�Rv�72� ���3�zx8�8*�8:�8+�8�8.8>8�k	~8^8N8�8" ��8;�FWFV7B �Z�{ꓢ�	�[��8��h�8�8�8�8N8(.8�8).���8�8ny���h�8�8(� ���[�c�8���8� ��^8C�W&6V�fR8(�8(�jI�X{�8;�y���h�8�hH�Y�>8(N�8^{��8�X8�8�8).[�~8�zK�8� �K賢F�R��7G'V�V�BFWFV7FVB6����V�� ���3�8�8�8^{��8�[�8^8�k��8(�8).jI�X{�8~8�8" ��8;�6V�6R �Z�{ꓢK�NhI�8(Ny�NhI�8~K�^8�8).hI�8�X�n8(� ���[�c�8���8� ��^8C�W&6V�fR8(�8(�hI��i�8;�y�NhI�Z�N8(�8~8Z��8).i��z+�8������X�n8~8�8NZNY�8�8(.K��8�8(� �K賢�6V�6VB��fV�V�B��F�RF&�� ���3�zx8�i�~�x~8~X�^8�8).hI�8�X�n8>8�8" ��8;��'6W'fR �Z�{ꓢk:�hH�k{8��h���8�8~8nK��Z��8).h؞8�8(� ���[�c�8���8� ��^8C�W&6V�fR8�Xَ8�8(�X�~Z�8(.Y
+�8(8�8�Z��8~8�'6W'fR8�k:�hH�8).Y	88(���x+�8).Y
+�8�8(N8�8B �K賢F�R66�V�F�7B�'6W'fVB6��vR��F�R6V��2� ���3�zyZ�n�^8�{K�9�8�ZH�X�n8).�k>Z��8~8�8" ��8	X��hH����8	��8;��fW&���� �Z�{ꓢ�h�8�8n8N8(�8(.8�8;�k	~8^8�8�8�8(.8�8).�h���8�8� ���[�c�8�r�8� ��^8C�W&6V�fR8�Z��8).hH��َ8�XZ^8(�8(�8�8�Z��8~8�fW&����8�k:�hH�K�ދk>8~�h���8�8�8>8�8).��8� �K賢F�R&Wf�WvW"�fW&����VB6���W'&�"� ���3�i����ވ^8�[�8^8���N8(�8).�h���8�8~8�8" ��8;�֗72 �Z�{ꓢZ��8).h؞8�i�8�8n8�h��>8� ���[�c�8���8� ��^8C��fW&����8(�8(�[�>8�8�in���8;��NX�n8�j��Kɮ8).�>8�8>8�8�8(.K��8�8(� �K賢�֗76VBF�R6��vR����2W�&W76���� ���3�zx8�[��8��h8^8�ZH�X�n8).�h��>8~8�8" ��8;�f��F���F�6R �Z�{ꓢk	~8^8�8>8�8�ZKiY~8�8(� ���[�c�8���8� ��^8C�hH�Y�>y�N8�xJ�in8~8�8�8�8y�^�i�8;�k:�hH�8�{Yi��8�8~8nk	~8^8�8�8�8>8�8>8�8).i��zK�8�8(� �K賢6�Rf��VBF���F�6RF�Rv&��rƖv�B� ���3�[��Z[>8���nY�x�8�k	~8^8�8�8�8>8�8" ��"�8	K�nX�^���8;���ފَ8	K��Z��8;�x�nk88�k	~8^8�8��ފَ8�8(���8	iz^i�Ί�>8;�Z�{�8	K��Z��8YX���8[�^�hh
+~8X����8�8�8�ZَYʎ8;�h�z��8~8n8N8(�8�[�>8~��ފَ8�8(�8.Xَ8�8(�hI��i�XZ^X��8(�8(�8x�nk88).K��Z��8�8~8nX�~8j�.8(8(�j�^���8�xJnx+�8�8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	K����88�8(N8(N89^8*�8;�89�8:�8.ZY�i��8��^��n8Z�n�>ih~889>8+�88�8+�ih~i��8~K��8N8(N8�8N8" ��8	ih~k9^898+�8;�8;>8	W&6V�fRF�B������W&6V�fR8�v�z�8����W&6V�fR8�Yފ��X�^8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W&6V�fR&�&�V� �yJ��	C�YX���8�ZَYʎ8�8(�8���ފَ8�8(� �K賢F�RFV�W&6V�fVB&�&�V���F�R7W'&V�B&�6W72� ���3�888;�8:8�x��Yʎ8�[z^z��8�YX���8�8.8(�8���ފَ8~8�8" ��8;�W&6V�fRF�&VB �yJ��	C��H^Z�8�ZَYʎ8�8(�8�X�~8j�.8(8(� �K賢F�R6���V�G�W&6V�fVBF�&VBF��G2vFW"7Wǒ� ���3�Y�Y��zK�Kɮ8�kN8�K�{Zn8�8�H^Z�8).��ފَ8~8�8" ��8;�W&6V�fR�VVB �yJ��	C�[�^�hh
+~8).��ފَ8�8(� �K賢F�R&�&BW&6V�fVB�VVBf�"6�V&W"wV�F�6R� ���3�ynK��Kɮ8�88(�8(�i��z+�8�h�~�y�8�[�^�hh
+~8).��ފَ8~8�8" ��8;�W&6V�fR&�6� �yJ��	C�X����h
+~8).��ފَ8�8(� �K賢��fW7F�'2W&6V�fVB&�6���F�R&��6VBFV�� ���3�h�^�8~Z�n8�h�j�8^8(�8�X�n[�^8�8:�8+�8*�8�8.8(�8���ފَ8~8�8" ��8;�W&6V�fRF�RG'WF� �yJ��	C�K��Z���j.K�.8).y��Z��8�8~8n��ފَ8�8(� �K賢��ǒ�FW"F�B�RW&6V�fRF�RG'WF��bF�R6�GVF���� ���3�[��8�8�8�x�nk88�y��Z��8�k	~8^8N8�8�8�[��8�8�8>8n8�8(�88>8�8" ��8;�W&6V�fRF�B6��WF���r�2w&��r �yJ��	C�K�^8�8Ιi>�^8>8n8N8(�8���ފَ8�8(� �K賢6�RW&6V�fVBF�B6��WF���rv2w&��rv�F�F�R&W�'B� ���3�[��Z[>8�8�8�ZY�i��8�K�^8�YX���8�8.8(�8�k	~8^8N8�8" ��8	���k9^8;�k:�hH�8	&VƗ�R8(B&V6�v旦R8��x�8�8(�8�8W&6V�fR8�x�nk88).8�8�8(�8n8�h؞8�8�8�8�8N8n��ފَ8�i�{XN8�8�xJnx+�8).{��8�8(N8�8N8.Y
+nZ�[�.8~8�8�k	~8^8N8n8N8�8N8;���ފَ8~8n8N8�8N8�8�8N8nhH�Y>8�8�8(�8y�^�َK�ދk>888~8�8�8x�nk88).8�8nh؞8�8(�8��{>8>8n8N8�8N8>8�8(.��8�8.���{�8�y�Nh�^8�hI��i�y�^�i�8�8���{�>8�hH�Y>8;�Y
+�hH�8�yn�z>8�K�ޙi>8�K��{��8�8(�Z�n{�.K��8�XˮX�n8~8.8(�8���i��8�8(�8>8n8�Y�8�ZJ~8�8�6V�6R8�8�8�8(8(�8(�8(�8" ��8	��{꞊��8	��8;�&VƗ�R �Z�{ꓢK��Z��8(Nx�nk88).yn�z>8~8k	~8^8� ���[�c�8���8� ��^8C�&VƗ�R8�k	~8^8�8�X��Nx+�8).y�Nh�^��8~8(N8�8�8W&6V�fR8(�8(�Kɮ��y�N8~8.8(� �K賢�&VƗ�VBF�BF�Rf�wW&W2vW&R��6���WFR� ���3�zx8�8�8�i[Z�~8�K��Z��XZ�88�k	~8^8N8�8" ��8;�&V6�v旦R �Z�{ꓢK��Z��8;��xފhh
+~8;�ZَYʎ8).���8(8n��ފَ8�8(� ���[�c�8���8� ��^8C�&V6�v旦R8�iz.y�^8�8(.8�8�8�xZ~Y�8(N8ZَYʎ8;�K�X
+N8).���8(8(�Y
+�8�8�X{�8(N8�8B �K賢F�RvV�7�&V6�v旦VBF�R�VVBf�"&Vf�&�� ���3�8�8�j���j.8�iK��ڞ8�[�^�hh
+~8).��ފَ8~8�8" ��8;��FV�F�g� �Z�{ꓢZ��8(NYX���8).x��Z�8�8(� ���[�c�8���8� ��^8C��FV�F�g�8�K�^8~8.8(�8�8).x��Z�8�8(���x+�8�xJnx+�8�8.8(�8W&6V�fR8�8(�8n8�[�>8NX�~8j�.8(ik�8���8^8�8B �K賢F�RVF�B�FV�F�f�VB6W&��W2&�6�� ���3�y�>i��8��x�ZJ~8�8:�8+�8*�8).x��Z�8~8�8" ��8;�6���v�VFvR �Z�{ꓢK��Z��8(NYX���8�ZَYʎ8).���8(8(� ���[�c�8���8� ��^8C�6���v�VFvR8���ފَ8�X�8�8n8XZ�8����8(8(�8;�X�~8XZ^8(�8(�hX�[�n8).Y
+�8�8(N8�8B �K賢F�R6���6���v�VFvVBF�R&�&�V�� ���3�8�8�KɮzK�8�YX���8).���8(8�8" ��8	X��hH����8	��8;��fW&���� �Z�{ꓢ��ފَ8�8�8�K��Z��8(NYX���8).�h���8�8� ���[�c�8�r�8� ��^8C�W&6V�fR8�K��Z��8).��ފَ8�8(�8�8�Z��8~8�fW&����8�k:�hH�8(NjIΊ��8�8(�k��8(�8�8>8�8).��8� �K賢F�R&W�'B�fW&����VB�W�6��7G&��B� ���3�8�8�ZY�i��8��xފh8�X�n{HN8).�h���8�8~8�8" ��8;�֗72 �Z�{ꓢK��Z��8(NhH�Y>8�k	~8^8�i�8�8b ���[�c�8���8� ��^8C�֗728���ފَ8�j��Kɮ8).�>8~8�8>8�8).[�>8���8~8hH�Y�>y�N8�h�.Y
+n8�8~8�Y
+�8�8�8B �K賢F�R�Ǘ6�2֗76VBF�R���v&��r6�v�� ���3�8�8�X�ni�8�K��8���nY�8�XXnX	�8).�h��>8~8�8" ��8;�&V���V�v&R�b �Z�{ꓢ���8).y�^8(�8�8N8�8�8~8N8(� ���[�c�8�b�8� ��^8C�W&6V�fR8ފَX��N8�X��Z��8�8Z��8�hH��َ8(Ny�^�َ8�XZ^8(�8�8Nx�nhX�8).i��zK�8�8(� �K賢F�W�&V���VBV�v&R�bF�R6��vR� ���3�[��8(�8�8�8�ZH�X�n8�k	~8^8�8�8N8�8�88>8�8" ��2�8	K�nX�^���8;�yn�z>8	hH�Y>8;�jx��
+8;�Y
+�hH�8).yn�z>8�8(�8�h�h��8�8	iz^i�Ί�>8;�Z�{�8	y��8��h�8�8(�K��Z��8�8(�K�jڞ�.8�8hH�Y>8�j.K�.8898+�8;�8;>8Y
+�hH�8��>8~8^8�8�8).[�>8~8N8�8(8.{K�:�8).8�8�8n���i��8~8�8(�8>8�8~8�8�8�8�xފh8�jx��
+8).h؞8�8(�8>8�8).��8�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8(N8(N89^8*�8;�89�8:�8.Z�n�>8;���^��n8;�Z�>8;�89>8+�88�8+�8~8(.K��8(�8(�8V�FW'7F�B8(�8(�X�ni�y�N8����8�8>8�8�8.8(�8" ��8	ih~k9^898+�8;�8;>8	W&6V�fR8�Yފ��8����W&6V�fRF�B������W&6V�fR8���~8;�v��8;�v�Nz�8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W&6V�fRF�R6�v�f�6�6R �yJ��	C��xފhh
+~8;�hH�{�8).yn�z>8�8(� �K賢F�R7GVFV�G2w&GV�ǒW&6V�fVBF�R6�v�f�6�6R�bF�RW�W&��V�B� ���3�Z�nyI�8�88�j�z��8�8�8�Z����>8�hH�{�8).yn�z>8~8�8" ��8;�W&6V�fRGFW&� �yJ��	C�{�8(���N8~8(N�h�X�~h
+~8).�h�h��8� �K賢F�R�Ǘ7BW&6V�fVBGFW&���F�R&V�Fǒ&�F��FF� ���3�X�ni�h�^[�>�^8�K��h�xJK��x+�8�88~8;�8+�8�898+�8;�8;>8).�h�8N88~8�8" ��8;�W&6V�fR&V�F���6�� �yJ��	C�K��8N8�K��i�N8�j.K�.8).yn�z>8�8(� �K賢&VFW'2��W&6V�fR&V�F���6��&WGvVV�F�RGv�F�V�W2� ���3���ވ^8�8�8�.8N8�88n8;�89�8�j.K�.8).yn�z>8�8(�8�8(.8~8(�8�8N8" ��8;�W&6V�fR���Ɩ6F��� �yJ��	C�y����8(NK��Z��8�8(�Y
+�hH�8).���8�X�n8(� �K賢6�RW&6V�fVB���Ɩ6F���F�BF�R��v�V�B&RFV��VB� ���3�[��Z[>8�8�8�yK�8Θ^8(�8(�8�8N8nY
+�hH�8).���8�X�n8>8�8" ��8;�W&6V�fRF�RF�ff�7V�G� �yJ��	C���.��8>8~8^8).yn�z>8�8(� �K賢�RF�B��BW&6V�fRF�RF�ff�7V�G��bF�RF6�Bf�'7B� ���3�[��8�X��8(88�8.��8>8~8^8).yn�z>8~8n8N8�8�8>8�8" ��8;�W&6V�fR���'GV�G� �yJ��	C�x�nk88�K��8�j��Kɮ8).�h�h��8� �K賢F�Rf�V�FW"W&6V�fVB���'GV�G���F�R6��v��r�&�WB� ���3�X�^jZވ^8�[�.ZN8�ZH�X�n8�K��8�j��Kɮ8).�h�8N88~8�8" ��8	���k9^8;�k:�hH�8	V�FW'7F�B8(�8(�8(.8Z��8�hH�Y>8;��j.K�.8;�Y
+�hH�8).8�h؞8�8�8�8�8N8n�inx+�8�X�ޙ�.8�X{�8(N8�8N8.Z��XZ�8~��>{K8�yn�z>8).[�^8�Y
+�8(8(�88~8�8�8N8.���{�.8�8�K��Z��88���ފَ8�8(�8�8���8N8�8���{�>8~8�K��Z��8�8(����8�X�n8(�hH�Y>8(Njx��
+8�K��[�>8~8���{�N8�2�F�&R8�K��8;�x��8�8^K�8(NX�n��8).K��8(�jx�ih~8~8.8(�8" ��8	��{꞊��8	��8;�V�FW'7F�B �Z�{ꓢhH�Y>8;�K�^{XN8�8;�x�nk88).yn�z>8�8(� ���[�c�8��8� ��^8C�V�FW'7F�B8�i�8(.[�>8�iz^[��y�N8~8W&6V�fR8�8(�8n8�X�ni�y�N8�h؞8�ik�8).[�^8�8~8(.Y
+�8�8�8B �K賢F���RV�FW'7F�BF�R���B�bF�RW���S� ���3�8�8�K�8�hx+�8�X�n8�8(�8�8�8�8" ��8;�6��&V�V�B �Z�{ꓢXh^Z�8).X�X�n8�yn�z>8�8(� ���[�c�8�b�8� ��^8C�6��&V�V�B8�W&6V�fR8(�8(�z�8�8Xh^Z�XZ�K�>8).h��h�8~8�8>8�8).[�~8�zK�8� �K賢F�R&VFW"6��&V�V�FVBF�R&wV�V�BV�6�ǒ� ���3�8�8ވ^8�����n8).8�88�yn�z>8~8�8" ��8;�w&7 �Z�{ꓢ�hx+�8(Njx��
+8).8�88(N8�8N8�8( ���[�c�8���8� ��^8C�w&78�yn�z>8�X��N8).���i��8�zK�8~8W&6V�fR8(�8(�X�>���y�N8~8�hx+�h��h�8�Y
+�8�8�[�~8B �K賢6�Rw&7VBF�RV�FW&ǖ��r�FV� ���3�[��Z[>8�j�[�^8�8.8(��>8�8).8N8�8)>88" ��8;�F�66W&� �Z�{ꓢ�h�X�n88�8�8N�^8N8;�hH�Y>8).�َX�^8�8(� ���[�c�8�b�8� ��^8C�F�66W&�8�[��Zi�8�[z�8(N��8(�8�hH�Y>8).�h�h��8�8>8�8�xJnx+�8�8.8(� �K賢W�W'G2F�66W&�VB7V'F�R6��gB��F��R� ���3�[.�hZ�n8�X�>���8�[��Zi�8�ZH�X�n8).�h�h��8N8�8" ��8	X��hH����8	��8;�֗7V�FW'7F�B �Z�{ꓢhH�Y>8(Nx�nk88).��N8>8nyn�z>8�8(� ���[�c�8���8� ��^8C�W&6V�fR8�jx��
+8(NY
+�hH�8).j�>8~8�h؞8�8(�8�8�Z��8~8֗7V�FW'7F�B8��z>�x�8�Xh^Z�8Ί�N8(� �K賢�֗7V�FW'7F��BF�R��Ɩ6F����b��2&Wǒ� ���3�zx8�[��8��Nz�N8�Y
+�hH�8).��N�z>8~8�8" ��8;�֗6��FW'&WB �Z�{ꓢy����8;���X�^8;��8~ii�8).��N8>8n�z>�x�8�8(� ���[�c�8���8� ��^8C�֗6��FW'&WB8��z>�x�8�i�{XN8�8).��N8(�8>8�8�xJnx+�8�8.8(�8Z��8Ί����8;����X�~8~8.8(�ZNY�8�x��8��z�xKb �K賢F�R�VFƖ�Rv2֗6��FW'&WFVB2&�֗6R� ���3�8�8�h�X{�8~8�{HNi��88���N�z>�x�8^8(�8�8" ��8;�f��F�w&7 �Z�{ꓢ�hx+�8;�jx��
+8).8N8�8(8�8B ���[�c�8�r�8� ��^8C�Z��XZ�8�X��Z��8�8N8n8(�8(�8yn�z>8�X��N8~8�8N8>8�8).i��zK�8�8(�Z��z����x��8~8.8(� �K賢F�RVF�V�6Rf��VBF�w&7F�R6V�G&�F�7F��7F���� ���3��N�n8�K��[�>y�N8��^8N8).8N8�8(8�8�8>8�8" ��B�8	K�nX�^���8;���^K�8	K��8;�x��8).x��Z�8�8(.8�8�8~8nX�~8j�.8(8(�8�h�8�8���8	iz^i�Ί�>8;�Z�{�8	K��8{XN{�N8x��8x�nk88�8�8).88.8(�h
+~�:�8;�z��ZN8;���^K�8).8(.8N8(.8�8�8~8nh؞8�8(�8.8>8>8~8�Z��8�Z�.�k>y�Nh
+~�:�8).ij�Z�8�8(�8(�8(�8���^8(N��nY�>8ފَ8;���^K�8�i�{XN8�8).��8�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	8(N8(N89^8*�8;�89�8:�8.x��8�&RW&6V�fVB2�F�&R8�X�~8���8�8Z�>8;���nih~8;�89>8+�88�8+�ih~i��8~��X{�8�8(�8" ��8	ih~k9^898+�8;�8;>8	W&6V�fR8�Z��8�28�h
+~�:�8;�X�n��8����W&6V�fR8�Z��8�F�&^8;�F��fR8�h
+~�:�8;�h�iȞ8����8�Z��8��2W&6V�fVB28�h
+~�:�8;�X�n��8����8�Z��8��2W&6V�fVBF�&^8;�F��fR8�h
+~�:�8;�h�iȞ8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W&6V�fR6���2&VƖ&�R �yJ��	C�KɮzK�8).K���8~8�8(�8(.8�8�X�~8j�.8(8(� �K賢7W7F��W'2W&6V�fRF�R6���2&VƖ&�R� ���3��~Z�.8�8�8�KɮzK�8).K���8~8�8(�8�X�~8j�.8(8n8N8(�8" ��8;�W&6V�fR6��V��R2F�&VB �yJ��	C�K��8).�H^Z�8��h�8�8� �K賢F�R&�f�W&6V�fVBF�R�Wv6��W"2F�&VB� ���3�z�nK��y��h��8�8�8�ikX�.�^8).�H^Z�8��h�8�8~8�8" ��8;�W&6V�fR�Ɩ7�F�&RV�f�" �yJ��	C�ik��y�8).K��XZ�[�>88�X�Nij�8�8(� �K賢V����VW2W&6V�fVBF�R�Ɩ7�F�&RV�f�"� ���3�[�>jZ�Y:8�8�8�ik��y�8).K��XZ�[�>88�X�~8j�.8(8�8" ��8;�&RW&6V�fVB27V66W76gV� �yJ��	C�h�X��8~8n8N8(�8��h�8�8^8(�8(� �K賢F�R&��V7B�2v�FVǒW&6V�fVB27V66W76gV�� ���3�8�8�89~8:�8+�8*~8*�88�8�[�>8�h�X��8~8�8��h�8�8^8(�8n8N8(�8" ��8;�&RW&6V�fVBF��fR�Gf�FvR �yJ��	C�XJ�K��h
+~8�8.8(�8��h�8�8^8(�8(� �K賢F�R6���W"f�&��2W&6V�fVBF��fR�Gf�FvR� ���3�8�8�[��h�j�K�jZ�8�8�XJ�K��h
+~8�8.8(�8��h�8�8^8(�8n8N8(�8" ��8;�W&6V�fR��W6V�b2�VFW" �yJ��	C��z�X�n8).h�~[�^88���ފَ8�8(� �K賢6�RW&6V�fW2�W'6V�b2&7F�6��VFW"� ���3�[��Z[>8��z�X�n8).Z��X��y�N8�8:�8;�888;�88���ފَ8~8n8N8(�8" ��8	���k9^8;�k:�hH�8	28�[��8(�8�8�Yފ��8;�[�.Z랊��y��[�>8�X�^8).{��8�8F�&^8;�F��fR8�[��8(�8�8�Z��8�h
+~�:�8(Nh�iȞ8).{��8�8.X�~8���8�W&6V�fVB8�8�8�8n�h�8(�8(�8n8N8(�8�8~8.8(�8Z�����8�8�8n8~8.8(�8�8N8n���^�z����8�ij�Z�8�8���8(�8�8N8'W&6V�fR��W6V�b2���8(.X���;�88�8�z�[{��ފَ8).��8�8(�jx�ih~8�8~8nh�8n8" ��8	��{꞊��8	��8;�&Vv&B �Z�{ꓢK��8;�x��8).8.8(�h
+~�:�8�8(.8�8��h�8�8� ���[�c�8���8� ��^8C�&Vv&B2"8�W&6V�fR2"8���8N8�8X�Nij�8;���^K�8�8~8n8�i��zK�y�N8��h�8�8~8�Z�N8(� �K賢��&Vv&BF�R'V�R2�WFFFVB� ���3�ZI�8�8�K��8�8�8�h�X�~8).i�.K�>�^8(�88��h�8�8~8n8N8(�8" ��8;�f�Wr �Z�{ꓢK��8;�x��8;�YX���8).8.8(��k>x+�8�8(��h�8(� ���[�c�8���8� ��^8C�f�Wr8��k>x+�8(NhH��h�8�i�{XN8�8).zK�8~8W&6V�fR8(�8(�hH��َy�N8�z��ZN��i��8���8N8>8�8�8.8(� �K賢F�RV&Ɩ2f�Ww2F�R�V7W&R2�V6W76'�� ���3�K�n�i>8�8�8�h�{��8).[�^�h8�8(.8�8��h�8n8N8(�8" ��8;�6��6�FW" �Z�{ꓢK��8;�x��8).8.8(�8(.8�8�8~8nX�Nij�8�8(� ���[�c�8��8� ��^8C�6��6�FW"�F�&R�"8�X�Nij�8��x+�8).[�~8�zK�8~8W&6V�fR8�X�~8j�.8(ik�8(�8(�hH�Y�>y�N8~8.8(� �K賢F�W�6��6�FW&VBF�R&��6�F�&R&7F�6�� ���3�[��8(�8�8�8�h�j�8).Z����X���;�88�X�Nij�8~8�8" ��8;�6VR �Z�{ꓢK��8;�x��8).8.8(�[۞X�.8;�h
+~�:�8�8~8nh؞8�8(� ���[�c�8��8� ��^8C�6VR2"8�X�>���y�N8~[�>8�K��8�8(�8�8W&6V�fR8���ފَ8;���^K�8�8�8(�8).X�ni�y�N8���8�8(N8�8B �K賢6�R6VW2F�RW�W&�V�6R2�W76��� ���3�[��Z[>8�8�8�{XΚ�>8).iY���>8�h؞8�8n8N8(�8" ��R�8	��X�X�n���[�.8;�[�.Z랊��8	��ފَ8^8(�8�88�8nX�~8j�.8(8(�8(�8�8	iz^i�Ί�>8;�Z�{�8	W&6V�fVB8�W&6V�fR8��X�X�n���8.��Z�yJ�k9^8~8�8Z�����8�h
+~�:�8).ij�Z�8�8(�8�8~8�8�8��8�8�8�8n��ފَ8;���^K�8^8(�8n8N8(�x�nhX�8).��8�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	K����8.88�8:^8;�8+�8��nih~8���i��ZY�889>8+�88�8+�ih~i��8rW&6V�fVBF�&VN8;�W&6V�fVB&�6�8�8�8�[�.8Κ�X{�8�8(�8" ��8	ih~k9^898+�8;�8;>8	W&6V�fVB8�Yފ��8����v�FVǞ8;�6�����ǒW&6V�fVB8�Yފ��8����&RW&6V�fVB28�h
+~�:�8;�X�n��8����&RW&6V�fVBF�&^8;�F��fR8�h
+~�:�8;�h�iȞ8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W&6V�fVBF�&VB �yJ��	C���ފَ8^8(�8��H^Z�8�H^Z�8�X�~8j�.8(8(�8(�8�8(.8� �K賢F�R�Ɩ7�v2��G&�GV6VB��&W7��6RF�W&6V�fVBF�&VB� ���3�8�8�ik��y�8�8�H^Z�8���ފَ8^8(�8�8(.8�8�Z��[��8~8n[�XZ^8^8(�8�8" ��8;�W&6V�fVB&�6� �yJ��	C���ފَ8^8(�8�8:�8+�8*�88:�8+�8*�8�X�~8j�.8(8(�8(�8�8(.8� �K賢F�RW&6V�fVB&�6�ffV7FVB6��7V�W"&V�f��"� ���3���ފَ8^8(�8�8:�8+�8*�8�kh��+��^��X�^8�[����8~8�8" ��8;�W&6V�fVB&V�Vf�B �yJ��	C���ފَ8^8(�8�X��x+�8X��x+�8�X�~8j�.8(8(�8(�8�8(.8� �K賢F�R7GVG��V7W&VB&�F�6�7G2�BW&6V�fVB&V�Vf�G2� ���3�8�8�z	Nz�n8��+�yJ�8���ފَ8^8(�8�X��x+�8�K�ik�8).k��Z�8~8�8" ��8;�W&6V�fVBvV��W72 �yJ��	C�[�x+�8��h�8�8^8(�8�x+� �K賢F�R���V�BF&vWFVBW&6V�fVBvV��W72��F�RFVfV�6R� ���3�y��h��8�Z�X)�8�[�x+�8��h�8�8^8(�8�x+�8).x��8>8�8" ��8;�v�FVǒW&6V�fVB&�&�V� �yJ��	C�[�>8�YX���8���ފَ8^8(�8�8(.8� �K賢��W6��rff�&F&�ƗG��2v�FVǒW&6V�fVB&�&�V�� ���3�K��Z�^8).h���>8�K�j�8~z+�K��8~8�8�8N8>8�8�8[�>8���ފَ8^8(�8�YX���8~8.8(�8" ��8;�W&6V�fVB�VVB �yJ��	C�[�^�hh
+~8�X�~8j�.8(8(�8(�8�8(.8� �K賢F�R6W'f�6Rv27&VFVB��&W7��6RF�W&6V�fVB�VVB� ���3�8�8�8+^8;�89>8+�8�[�^�hh
+~8�8.8(�8�8ފَ8�[��8�8nK��8(�8(�8�8" ��8	���k9^8;�k:�hH�8	Yފ��8�X��8�W&6V�fVB8�8Ί�ފَ8^8(�8�8;�8�8n�h�8�8^8(�8�8�8�8N8n[�.Z랊��y�NyJ�k9^8~8Z�.�k>y�N8�K��Z��8�z+�Z�8).��88(�X8�8�8�8.8(�8.X�~8���8�X�^���&RW&6V�fVB8�[�.8�Y�8�88�8X�ވ^8�Yފ��8).K��;�8~8[�Έ^8���ފَ8�X�~8h��8�8�8(�K�����8).X�n8(�8'W&6WF�&�^8�y�^�i�8~8�8(�8�8�k{~Y�8~8�8N8" ��8	��{꞊��8	��8;�&V6�v旦VB �Z�{ꓢZَYʎ8;�K�X
+N8;��xފhh
+~8).���8(8(�8(�8� ���[�c�8���8� ��^8C�&V6�v旦VB8���ފَ8�h�z��8~8�8>8�8).j�N��>y�NK��z��8���8~8W&6V�fVB8���^K�8(N�h�8�ik�8�XN��.8).j�8� �K賢F�R&V6�v旦VB�VVBf�"&Vf�&�v2v�FVǒF�67W76VB� ���3�iK��ڞ8�[�^�hh
+~8Ί�ފَ8^8(�8[�>8�����n8^8(�8�8" ��8;�&Vv&FVB �Z�{ꓢ8.8(�8(.8�8�8~8n�h�8�8^8(�8� ���[�c�8���8� ��^8C�&Vv&FVB8�X�Nij�8;���^K�8�{Yi��8�xJnx+�8�8.8(�8W&6V�fVB8(�8(�8Ίh�8�8�8�8�8N8n��x+�8�i��z+�8~8.8(� �K賢F�R&��6�v2&Vv&FVB2&VƗ7F�2� ���3�8�8�h�j�8�x��Z��y�N88��h�8�8^8(�8�8" ��8;�7W�6VB �Z�{ꓢ8�8n88�h	�8(�8(�8n8N8(�88�8n8~8.8(�8�h;>Z�8^8(�8� ���[�c�8���8� ��^8C�7W�6VB8�j�h�8�[�8Nh;>Z�8(N�	�[�^8).Y
+�8(8>8�8�8.8(�8W&6V�fVB8(�8(�K��z+�Z��h
+~8�[�~8B �K賢F�R7W�6VBGf�FvRF�6V&VB��&7F�6R� ���3�8�8�XJ�K��h
+~8�8^8(�8(�8(.8�8�Z�����8�8�kh�8�8�8" ��8;�&V�B �Z�{ꓢ�h�8�8K��i��8(�8�8�88�8n�h�8�8(� ���[�c�8���8� ��^8C�&V�B8��k>Z���^8�8�8>8ni��8(�8�8��h�8�8(�x�nhX�8).��8~8K��8^8ފَ8;���^K�8).i��zK�8~8�8B �K賢F�R&V�B&V�Vf�Bv26��'B�ƗfVB� ���3��h�8�8K��8�X��x+�8��[~{i�8�8~8�8�8>8�8 ����Р�27&�FW&��ࠢ��� ��VGv�&C�7&�FW&��� �G�S�v�&B �7FGW3�6�V6�VB �&��E�fW'6���V�G'��7V5�cR ���FVâwB�R�b��V��v� �7&VFVE�C�##b���#R �WFFVE�C�##b���#R �6�V6�VC�G'VR �Fw3��� ���� ����>y����>���X�p��{3���&����L��&�������Έ����&����L����&�����8#N��>z�8~8z��.��>z�8�K��[�~X�.8�8.8(�8.{>8~8�K��[�~X�.8).h�^8n�:�X�n8����L��"�8��8~8����L�����8�8�8(�8.���
+�8�7'�8�Y�8���&���8~8���iʾ8�������8�{i�8�8.{>���8�8�8*�8:�8*N8;�88n8*>8:�8;�8*.8;>8�8�����8�8�8*�8:�8*N8;�88n8*>8*.8;�8:�8*.8;>8�8���8N��>8�kX8(�8�8�8(�8" ��H~i[[�"7&�FW&�8�{2��&����L��&����8;�����&����L����&����8&7&�FW&���28��	�[��8��2�H~i[8~88�8�8(8���&����L��&�����8�y����>8�8(�8&7&�FW&���8�z����>z�8�K��[�~X�.8).{��8�8�87&�FW&�8).8�8*�8:�8*N88n8:�8*.8;>8�8�8(�8n8�y����>8~8�8N8" ����>���k� ��8*�8:�8+~8:>����&�LI7&���8�X�Nij�8�8�8(8�h��j�^8Y��k�n8�8�8(�8:�88n8;>���[�.8).{X�8n�����8�XZ^8>8�8&�&�LI7&���8��&�LI7>8�X�Nij�8�8(�K��8�8X�NZ�8�88^8(�8��&��V��8�X�Nij�8�8(�8k�8(8(�8�8�8^8�8�8�8(�8.�����8~8�~K�n{HX�ޚ
+�8�8(�K��8(�8(�8�W'&���vV'7FW"8�x��Yʎ8�z��{�8~8�X��X{�8)#c#.[�N8�8~8n8N8(�8" �Y�8�8�X�Nij�8;�XˮX�^8�8��j.8(�8(�8*�8:�8+~8:>���8�j�8��
+>8�8(����8�8~8n87&�F�>8�h����^Z�n8h����^8�8(�K��8�87&�F�6�8�h����^8�8�x�ZJ~8�8�87&�6�>8�X�j��8�x�ZJ~8���.j��8�8�8�8�8.8(�8.8�88~88>8(�8(�8�7&�FW&���8�y�Nh�^8�kK�yI����8(NY�{꞊��8~8�8�8�8���k�K��8�8N8�8�8(�8).zK�8��j.�
+>���8~8.8(�8" ����>���[�.h� ��8;�7&�FW&��ɦ7&�FW&���8�j��k�ny�N8��H~i[[�.8.8*�8:�8+~8:>���yKi�^8�H~i[[�.8Έ����8~8(.Z�y�8~8n8N8(�8" �8;�7&�FW&���>�ɦ7&�FW&���8��2�H~i[[�.8.ih~k9^y�N8�8�X���;�88�87&�FW&�8(�8(�8�8�8(�8�8(�8~8�	�[��8�7&�FW&�8).K��8n8" �8;�7&�FW&����&VfW&V�6VN�ɮ[�.Z랊��8�Y��k�nk�nh�8�8�8.iY��+.8;���^K�8~88.8(�8�8�8(Z�8(8�Y��k�n8�xZ~8(�8~8n{Yi��8).�z>�x�8�8(�8>8�8).��8�8&7&�FW&���8�8>8�H~Y����8�K��8~8(.8��^K�8�Y��k�n8).h�~8�8" ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	Yފ��8;�X��z�~8	X�Nij�8;���^K�8;���Z�8�Y��k�n8X�Nij�i�ii���8	iz^i�Ί�>8;�Z�{�8	K�^8�8).��^K�8j�N��>8��h��8X�NZ�8�8(�8�8�8�8(�8(�8�8>8(�8�8�8(�Y��k�n8;�i�K�n8;�[�[�n8.XZ�[��8�k�8(8(�8(�8��h�X�~8���8(�8�8X�Nij�8�8(�K��8Θxފin8�8(�K�8N8�h{J8~8(.8(�8N8.�	�[��8��H~i[8�7&�FW&�8�K�8N8�8~8nyJ�8N8(�8(�87&�FW&����z�K�>8�8�YJ�K�8�{[nZ��Y��k�n8�8).Y
+�hH�8�8(�8(�88~8�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	K���Ί��8.Kɮ��8�8(.K��8�8(�8�87F�F&N8f7F�.86��F�F���8(�8(�8(.889>8+�88�8+�8Z�n�>8��n��>8h�yJ�8Z��i��8�8�8X�Nij�Y��k�n8).i��zK�8�8(�8(N8(Nz�8(8�ih~�H�8~x��8�8(�8�K��8n8" ��8	ih~k9^898+�8;�8;>8	�F�R7&�FW&���f�"8�Yފ��8;�X�^Yފ��8����8�Yފ��8;�X�^Yފ��8�8�X�Nij�8;���Z�Y��k�n���7&�FW&����b8�7V66W7>8;�VƗG�8;�fƖF�G�8����h�X��8;�Y8�:�8;�Zj^[�>h
+~8�8�8).k��8(�Y��k�n����VWN8;�gV�f���8;�6F�6g�7&�FW&������Y��k�n8;�i�K�n8).k�8�8�����VFv^8;�Wf�VFR6��WF���r'�8;�66�&F��rF�7&�FW&������Y��k�n8�xZ~8(�8~8n��^K�8�8(������R7&�FW&����2F�B8�z�8����K�8N8�Y��k�n8����8�8N8n8>8�88"7&�FW&���f�"8�y��y�N8;���Z�8;���x+�8�8�{Y8>8N8�87&�FW&����b8�h�X��8;�Y8�:�8�8�8^K�Z��8�8�{Y8>8N8�8).zK�8~8(N8�8N8" ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�7&�FW&���f�"8�Yފ��8;�X�^Yފ��8� �yJ��	C�8.8(���x+�8;���Z�8;�X�Nij�8�yJ�8N8(�Y��k�n8).zK�8�8" �K賢6�7B�2��BF�R��ǒ7&�FW&���f�"6���6��r7WƖW"� ���3�8+>8+�88�8�K�{ZnjZވ^8).��8n���8�YJ�K�8�Y��k�n8~8�8�8N8" ��8;��VWN8;�gV�f���7&�FW&��� �yJ��	C�Y��k�n8(Ni�K�n8���Y�8�8(�8>8�8).��8�8" �K賢F�R&��6��W7B�VWBWfW'�7&�FW&���&Vf�&RgV�F��r�2&�fVB� ���3�8�8�h�j�8�8�8~�yh�K�8�h�����8^8(�8(�X��8�8�8�8n8�Y��k�n8).k�8�8^8�88(�88�8(�8�8N8" ��8;��VFvR6��WF���r'�7&�FW&��� �yJ��	C�8.8(�Y��k�n8).K��8>8nx��K��8).��^K�8�8(�8>8�8).��8�8" �K賢F�R�V��VFvVBV6�&��6�'�F�R6�R7&�FW&���� ���3�Z��i��Y�>8�YNh�j�8).Y�8�Y��k�n8~��^K�8~8�8" ��8;�W7F&Ɨ6�7&�FW&���f�"8�W'�6^8� �yJ��	C�X�Nij�8(N��^K�8�K��8nY��k�n8).i��z+�8�Z�8(8(�8>8�8).��8�8" �K賢F�R6��֗GFVRW7F&Ɨ6�VB6�V"7&�FW&���f�"Wf�VF��rF�R&�G2� ���3�ZyNY:Kɮ8�XZ^i��j�8).��^K�8�8(�i��z+�8�Y��k�n8).Z�8(8�8" ��8;��W�8;����8;�6��R7&�FW&��� �yJ��	C��xފh[�n8(NYJ�K�h
+~8).zK�8~8n8Y��k�n8�K��{��8^88).��8�8" �K賢F�R6��R7&�FW&���f�"��6�W6���v2f7GV�67W&7�� ���3�h�.�Ȟ8�YJ�K�8�Y��k�n8�K��Z��8�j�>z+�8^88>8�8" ��8;��F֗76���8;�6V�V7F���7&�FW&��� �yJ��	C�XZ^Z�n8;�X�.X�8;�h�yJ�8�8�8��h��8�K��8nY��k�n8).��8�8" �K賢V�vƗ6�&�f�6�V�7��2�F֗76���7&�FW&���f�"F�R&�w&�� ���3������X��8�8�8�89~8:�8+8:�8:8�8�XZ^Z�nY��k�n8�K�8N88" ��8;�7&�FW&����b7V66W7>8;�VƗG� �yJ��	C�h�X��8(NY8�:�8).k��8(��k>x+�8;�Y��k�n8).��8�8" �K賢7W7F��W"&WFV�F����2��R7&�FW&����b7V66W72f�"F�R6W'f�6R� ���3��~Z�.{j�h�x�~8�88�8�8+^8;�89>8+�8�h�X��8).k��8(�K�8N8�Y��k�n88" ��8;���R7&�FW&������r6WfW&� �yJ��	C��H~i[8�X�Nij�i�ii�8�8n88�K�8N8~8.8(�8>8�8).i��zK�8�8(�8" �K賢��r���FV��6R6�7Bv2��R7&�FW&������r6WfW&�� ���3�{j�h��+�8�K��8^8�8�H~i[8.8(�Y��k�n8�K�8N88>8�8" ��8	���k9^8;�k:�hH�8	X��z�~Yފ��8�8�8~8Xَi[8�7&�FW&���8;���R7&�FW&���8j��k�ny�N8��H~i[8�7&�FW&�8~8.8(�8.j�>[��8�ih~z�8~8�F��27&�FW&����2���'F�B�8�8>8�Y��k�n8��xފh88�8F�W6R7&�FW&�&R���'F�B�8�8>8(�8(�8�Y��k�n8��xފh88�8�8(�8n8�i[8).K��{N8^8�8(�8&7&�FW&�8).Xَi[8�8~8b7&�FW&��28�8�8(�yJ�k9^8(.x��K�>�����8~Z)~8�8n8N8(�8�8j�>[��8�j��k�nyJ�k9^8�8~8n8�y[��n8�j�8(�8�8(8Z�n{�.�^8�j��k�ny�N8�i��8ފ���8~K��8nZNY�8�7&�FW&���8).��8n8&7&�FW&���28�8N8b�2�H~i[8(.ZَYʎ8�8(�8�8�	�[��8�H~i[8�8~8n8�7&�FW&�8Έz�xKn8~8.8(�8&7&�FW&���8�7F�F&B8(�8(�8(.8x��Z�8�X�Nij�8~K��8nK�8N8�88n8+�88�8;��h{J8�xJnx+�8�8.8(�87F�F&B8�j��Z�8�8(�8>8nZ�8(8(�8(�8��h�X�~8;�kNk�n8(Nj�z�N8�8~[�>8�h�~8�8(�8&f7F�"8�X�Nij�8�[����8�8(��h{J88�8i��zK�y�N8���^K�Y��k�n8�8���8(�8�86��F�F���8�k�8�8�[�^�h8�8.8(�i�K�n8�xJnx+�8�8.8(�8&7&�FW&����&VfW&V�6VBFW7B8�7&�FW&���8�8�88n8+�88�8�8�8�8(.8�8~8�8�8�8{Yi��8).xZ~8(�8~Y�8(�8�8(�Y��k�n8).h�~8�8" ��8	��{꞊��8	��8;�7F�F&B �Z�{ꓢX�Nij�8(N��X�^8�8(�8(�8�8>8(�8�8�8(��h�X�~8;�kNk�n8;�j�z�N8" ���[�c�8��8� ��^8C�7&�FW&���8�x��Z�8^K�8~K��8nK�8N8�Y��k�n8;�X�NZ鮊h{J8).h�~8~8(N8�8N8�8�Z��8~87F�F&B8�j��Z�8(NhZ>��8�8(�8>8nZ�8(8(�8(�8�kNk�n8;��h�X�~8�8N8nY
+�8�8�[�~8N8" �K賢F�R6����2��v�7F�F&Bf�"7W7F��W"6W'f�6R� ���3�8�8�KɮzK�8��~Z�.8+^8;�89>8+�8����8NY��k�n8).���88n8N8(�8" ��8;�&V�6��&� �Z�{ꓢh
+~�;�8(Nh�i��8).j�N��>8�8(�8�8(8�Y��k�nx+�8;�y��j��X
+N8" ���[�c�8���8� ��^8C�&V�6��&�8�Z��{��8).i[X
+N8(Niz.Zَ8�kNk�n8�j�N��>8�8(�Y
+�8�8�[�~8�87&�FW&���8���Z�8(NX�NZ�8�K��8n�h{JXZ����8).h�~8�8(�8" �K賢&W7��6RF��R�2W6VgV�&V�6��&�f�"F�R�Wr7�7FV�� ���3�[��z�Ni�.�i>8�ik8~8N8+~8+�88n8:8�iȞyJ�8�j�N��>Y��k�n8�8�8(�8" ��8;�f7F�" �Z�{ꓢX�Nij�8(N{Yi��8�[����8).K��8�8(��h{J8" ���[�c�8��8� ��^8C�f7F�"8�{Yi��8��j.K�.8�8(��h{J8~8.8(�88(�8�8i��zK�8^8(�8�X�NZ�Y��k�n8~8.8(�[�^�h8�8�8N8&7&�FW&���8���^K��^8�X�Nij�8�yJ�8N8(�Y��k�n8�8~8nhH��َ8^8(�8(N8�8N8" �K賢6�7Bv2���"f7F�"���W"FV6�6���� ���3�8+>8+�88�8�zx8�88�k�Z�8�8�88(�ZJ~8�8��hY�88>8�8" ��8;�6��F�F��� �Z�{ꓢK�^8�8).Z����8;�h�z��8^8�8(�8�8(8�k�8�8�[�^�h8�8.8(�i�K�n8" ���[�c�8��8� ��^8C�6��F�F���8�[�^�hi�K�n8;�X��h�i�K�n8�xJnx+�8�8.8(�87&�FW&���8�[�^8�8~8(.Y�Y
+n8).k�8(8(�i�K�n8~8�8�8�8j�N��>8(N��^K�8�[�[�n8�8(.K��8�8(�8" �K賢��R6��F�F����bF�Rw&VV�V�B�2F�B��V�B&R�FR��Gf�6R� ���3�8�8�ZY{HN8�i�K�n8�K�8N8�8X��h�^8N8~iJ�h�^8n8>8�88" ��8;��V7W&R �Z�{ꓢK�X
+N8;�z��[�n8;�h�i��8�8�8).k��8(�h��j�^8(N[�[�n8" ���[�c�8���8� ��^8C��V7W&R8�k��Z�8�h��j�^8;�[�[�n8�xJnx+�8�8.8(�87&�FW&���8�k��Z�{Yi��8).Y
+�8(X�Nij�8(N��Z�8�Y��k�n8�xJnx+�8�8.8(�8" �K賢7W7F��W"6�����G2&R��R�V7W&R�b6W'f�6RVƗG�� ���3��~Z�.8�8(�8nh8^8�8+^8;�89>8+�Y8�:�8).k��8(�K�8N8�[�[�n88" ��8;�vVvR �Z�{ꓢx��Z�8�h
+~�:�8(Nz��[�n8).k��8(�h��8�8�8(�8;�[�[�n8" ���[�c�8���8� ��^8C�vVvR8�K�8N8�XN��.8).h�Z�8;�k��Z�8�8(�h�~j��8�8N8nY
+�8�8�[�~8�87&�FW&���8(�8(�8(.k��Z�8;�h�Z�Z�N8(�8~8.8(�8" �K賢F�R7W'fW��2W6VgV�vVvR�bV&Ɩ2������ ���3�8�8�i��8�K�n��n8).k��8(�iȞyJ�8�h�~j��88" ��"�8	Yފ��8;�X��z�~8;�Z�n�>8	�ȎK�^8�8).x��[�N8^88(��Ȟh�~j��8X�NZ�x��h
+p��8	iz^i�Ί�>8;�Z�{�8	8.8(�8(.8�8).Y�Z�8;�X�n��8;�Z�{�8�8(����8�88�8�8(.8�8�x��[�N8�8~8nyJ�8N8(�8(�8(�h
+~�:�8.z�����{�8�8�X�Nij�8�Y��k�n8�8�8(�8x��Z�8�h
+~�:�8�8�8�X�n��8(NY�K�h
+~8).X�NZ�8�8(�h��8�8�8(�8�8�8(�ik�Y	8�xJnx+�8�z{�8>8�yJ�k9^8~8Y;.Z�n8�����Z�n8zyZ�n8�8�8~�h�8(�8(�8(�8.Xَ8�8(�y��z��8Nx��[�N8~8�8�8�8K�^8).8�8�8(.8�8�8~8n���8(8(�8�8).X�NZ�8�8(�8�8�[۞z��8Nx��[�N8�8N8nY
+�8�8�8.8(�8" ��8	��[�n8	8�R�8� ��8	8:�8+�8+�8+�8;���	�Y��8	Z�n�>8;�Y;.Z�n8;�zyZ�n8�ih~�H�8.K����Kɮ��8~8�z�����{�8�8�Y��k�n8�8�8~8nyn�z>8^8(�8(�8>8�8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	7&�FW&����b8��FV�F�G�8;�G'WF�8;�fƖF�G�8����Y�K�h
+~8;�y��yn8;�Zj^[�>h
+~8�8�8).�h�X�n88(�Y��k�n���FVf���~8;�F�v��7F�27&�FW&����b8�6FVv�'�8;�6��F�F���8����X�n��8(Nx�nhX�8).x��[�N8^88(�h�~j�����7&�FW&���f�"�FV�F�g���~8;�6�76�g���r6��WF���~���K�^8�8).Y�Z�8;�X�n��8�8(�Y��k�n8.z�����{�8�[�.8�Y�8�88�88>8>8~8�h
+~�:�8�8�8(.8�8�x��[�N8;�X�NZ�x��h
+~8�8~8nX�ޙ�.8�X{�8(�8" ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�7&�FW&����bW'6����FV�F�G� �yJ��	C�Y;.Z�n8~8K��j�8;�X�K��8�Y�K�h
+~8).X�NZ�8�8(�x��[�N8(NY��k�n8).��8�8" �K賢6��F��V�G��b�V��'��2��R&��6VB7&�FW&����bW'6����FV�F�G�� ���3����hkn8�
+>{i�h
+~8�8X�K��8�Y�K�h
+~8).X�NZ�8�8(�8�8(8�h�j�8^8(�8n8N8(�Y��k�n8�K�8N88" ��8;�FVf���r7&�FW&����b8�6FVv�'�8� �yJ��	C�8.8(�X�n��8).x��[�N8^88(�k�Z�y�N8�h
+~�:�8).��8�8" �K賢F�R&W6V�6R�b�V6�WW2�2FVf���r7&�FW&����bF��26V��G�R� ���3�j�8�ZَYʎ8�88>8�{K�9�Y�8).x��[�N8^88(�X�NZ�x��h
+~88" ��8;�F�v��7F�27&�FW&����b8�6��F�F���8� �yJ��	C�x�nhX�8(NX�n��8).�h�X�n88(����ij�K��8�h�~j��8).��8�8" �K賢F�R&W6V&6�W'2G&VFVB7��F��W'6�7FV�6R2��RF�v��7F�27&�FW&����bF�RF�6�&FW"� ���3�z	Nz�n�^8�88�8yx~x�n8�h�{i�8).8�8�Z�>8�ij�h�~j��8�K�8N8�8~8nh�8>8�8" ��8;�7&�FW&����b66�V�F�f�2fƖF�G� �yJ��	C�Z�n�>y�N8�Zj^[�>h
+~8).x��[�N8^88(�i�K�n8;�X�NZ�x��h
+~8).��8�8" �K賢&W&�GV6�&�ƗG��2����'F�B7&�FW&����b66�V�F�f�2fƖF�G�� ���3�Xh�x��h
+~8�zyZ�ny�NZj^[�>h
+~8).zK�8��xފh8�X�NZ�x��h
+~88" ��8;�7&�FW&���f�"6�76�g���r6��WF���r �yJ��	C�x��K��8).8.8(�X�n��8�XZ^8(�8(����8�K��8nx��[�N8(NX�NZ�Y��k�n8).��8�8" �K賢F�R&�ƗG�F�&W&�GV6R�2W6VB27&�FW&���f�"6�76�g���rF�R�&v�6�� ���3�yI�j�n�;�X��8�88�8�yI�x��8).X�n��8�8(�Y��k�n8�8~8nK��8(�8(�8(�8" ��8	���k9^8;�k:�hH�8	z��.���{�8�z�����{�8�Z��XZ�8�X�^8�[�.8).X�n8(�8(�88~8�8�8�88.8(�x��[�N8).Y�Z�8;�X�n��8�X�Nij�8�K��8n8�8�8�8Y��k�n8�8~8n8�XN��.8�x��[�N8�8~8n8�XN��.8Θx�8�8(�8.8~8�8�8>8n8Xَ8�Z��X�n�x�8�Z�n�>y�N8�8N8n888~z��.���{�8�X�n88�8h
+~�:�8�8�8(.8�8�X�n��8;�Y�K�h
+~8�X�NZ�x��h
+~8�8~8n���i��8^8(�8n8N8(�ZNY�8���8(�8&7&�FW&����b�FV�F�G�8�8�Y�K�h
+~8).X�NZ�8�8(�Y��k�n8�8FVf���r7&�FW&���8�8�8�8�X�n��8).x��[�N8^88(�h
+~�:�8�8���8N8&7&�FW&���8�6�&7FW&�7F�28��^8>8n8y��z��8Nx��[�NK����8~8�8�8�8X�NZ�8��j.K�.8�8(�x��[�N8).��8�8" ��8	��{꞊��8	��8;�6�&7FW&�7F�2 �Z�{ꓢ8.8(�K��8;�x��8;�z���8�x��iȞ8�h
+~�:�8(Nx��[�N8" ���[�c�8���8� ��^8C�6�&7FW&�7F�28�8�8�8(.8�8�X)�8(�8(�x��[�N8).[�>8�h�~8�8�87&�FW&���8�8�8�x��[�N8).Y�Z�8;�X�n��8�X�NZ�8�K��8n8�8N8nj���;�8�8~Y
+�8(8" �K賢�&vRV'2&R6�&7FW&�7F�2�bF��27V6�W2� ���3�ZJ~8�8��>8�8>8�z��8�x��[�N88" ��8;�fVGW&R �Z�{ꓢy��z��8N�:�X�n8;�h
+~�:�8;�x��[�N8" ���[�c�8��8� ��^8C�fVGW&R8�y��z��8Nx��[�N8(Njx�h��h{J8).[�>8�h�~8~87&�FW&���8�8(�8n8�X�Nij�8�8�8(8�[�[�n8;�X�NZ�x��h
+~8~8.8(�[�^�h8�8�8N8" �K賢F�R6�gGv&Rw2��7BW6VgV�fVGW&R�2�G26V&6�gV�7F���� ���3�8�8�8+�89^88�8*n8*~8*.8�i�8(.K��X��8�j���;�8�jI�{J.j���;�88" ��8;�����&� �Z�{ꓢK�^8�8).8�8(�8(�8~8N8(.8�8�8~8n[�~8�x��[�N8^88(�8~8(�8~8" ���[�c�8�r�8� ��^8C�����&�8�X[�Y�h
+~8;��َX�^h
+~8�[�~8Nx��[�N8).��8�j�NYj�y�N8����8~87&�FW&���8(�8(�8(.8�8�8�8(.8�8(�8~8^8).zK�8�y��X�8�8�8N8nY
+�8�8�[�~8N8" �K賢�V��W72F�7&�F�6�6��2����&��bv��B66���'6��� ���3�h��X�N8�Z��8~8n�h�8�8(�8n8N8(�8>8�8�8XJ�8(�8�Z�nYX�8�8~8(�8~88 ����Р�2FW6W'fP����Ц�VGv�&C�FW6W'fP�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#P�WFFVE�C�##b���#P�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3��L�������b���Έ���L������̹b�8#.��>z�8�F�եU%b8~8z��.��>z�8�K��[�~X�.8�8.8(�8.{>��>8�����8�"8���8�8).K�N8nj�ޙ�>8����>8���̹�8�"8).y����>8~8�8N�[~j�ޙ�>8~8.8(�8.{kN8(�8�28��2�8~8�8�8�iȞZ;��>8����8���iʾ8��b�8~8�8�8�iȞZ;��>8��b�8�y����>8�8(�8" �8;�K��K��z{Xَi[FW6W'fW68�{2�L�������g��8;����L������̹g��8��X�[�.8;���X�X�n���FW6W'fVF8�{2�L�������fB�8;����L������̹fB�8֖�~[�"FW6W'f��v8�{2�L�������l��X��8;����L������̹l��X��8" �8;�FW6W'fVF8��VF8�8���iʾ8�iȞZ;��2�b�8�[��8�8�8r�B�8�y����>8�8(�8.x��z��8~8����B���>z�8).X�8�8�8N8" ����>���k� ��>K�n{H8�K�ވ����FW6W'fV�8�8(�88*.8;>8+8:�89^8:�8;>8+����8;�X�N89^8:�8;>8+����FW6W'f�&8).{X�8n88:�88n8;>���LI76W'lJ�&V8�8(�8�K�^8�8(�8xk[�>8�K�^8�8(�8�8�8^8�8�8�8(�8.8:�88n8;>���8~8�LI2�8�6W'lJ�&V8�K�^8�8(�8�8�8(�h�8(�8�8x��K�>�����8�FW6W'fV8)"FR�8�6W'fV8�j��j+y�N8�{XN8�Y�8(�8�8�8~8nyn�z>8�8(�8>8�8�8~8�8�8N8" �x��Yʎ8�8Ί�x+�8(Nh
+~�:�8�[��8�8n88.8(�h�8N8(N{Yi��8).X�~88(�8�8Θ�X�~88�8�8N8nhH�Y>8�8X�N8N8�K�^8�8(�8>8�8~Z8N8).[�~8(�8�8�8N8ny��h;>8�8(�y���N8~8�8����i��8^8(�8(�8" �YΊ��k�8;��j.�
+>���8�8�6W'fV8�K�^8�8(�8[۞z��8N8�86W'f�6V8�ZX�K�^88+^8;�89>8+�8�8FW6W'f��v8�K�X
+N8�8.8(�8iJ�h�N8�X
+N8�8(�8�8FW6W'fVF8�[�>xKnX�~88(�8�X
+N8�8(�8�8�8.8(�8&FW6W'fV8�V&�8��x�8�8(�8�8V&�8�X��X��8�8(�8>8nZ�Z�8(N{Yi��8).[�~8(���z��8�xJnx+�8).{��8�8(N8�8N8�8�Z��8~8FW6W'fV8�8�8�h�8N8;�{Yi��8Θ�X�~8�8�8N8n��^K�8�xJnx+�8).{��8�8" ����>���[�.h� ��FW6W'fW2�FW6W'fVB�FW6W'f��v(	BFW6W'fV8�K��K��z{Xَi[x��Yʎ[�.8;���X�[�.�����X�X�n���8;�x��YʎX�n���8&FW6W'fV8�x�nhX�8;���^K�8).��8�X�^���8�8�8~8�	�[��8��.��[�.8�8~8�8N8" �FW6W'f��v�Ȏ[�.Z랊���Ȟ(	BFW6W'f��r�b�Yފ��8~8�h�NX��8;�z{�9�8;�Z�Z�8�8�8).X�~88(�8�X
+N8�8(�8�8.Xَ8�8(�x��YʎX�n���8(�8(�8(.88�iJ�h�N8�8�8�K�X
+N8�8.8(�8�8�8N8n[�.Z랊��8�8~8nK��8(�8(�8(�8>8�8�8.8(�8" �FW6W'fVF�Ȏ[�.Z랊���Ȟ(	BvV���FW6W'fVB&W7F8�X�X�n8�K�8(8�X
+N8�8(�K�h�8�8vV���FW6W'fVB&�6V8�[�>xKnX�~88(�8�X
+N8�8(�z{�9�8�8�8(�8n8�8{Yi��8;�h�8N8�Zj^[�>88>8�8>8�8).��8�8" �V�FW6W'fVB�V�FW6W'f��v�Ȏ[�.Z랊���Ȟ(	BV�FW6W'fVB7&�F�6�6�8�8�K��[�>8�h��X�N8�8�V�FW6W'f��r&V6��V�F8�8�X�~88(��8~j�8;�K�X
+N8�8�8NX�~{Zn�^8�8�8(�8n8�8FW6W'fV8^K�8).Y
+nZ�8�8(�8&FW6W'fVFǖ�ȎX������Ȟ8(N8�8(�8�Yފ��FW6W'fW&8(.8.8(�8" ����>8+>8*.8*N8:8;�8+���FW6W'fV8�j�8�88.8(�K��8;�x��8��x+�8h
+~�:�8�xފhh
+~8�8�8).j�h�8�8~8n8Z�Z�8;�z{�9�8;�{�8;�k:�hH�8;�h�8N8;�{Yi��8�8�8�8(�8��h�Y�8>8n��X�~88�8�X�Nij�8�8(�8>8�8~8.8(�8.8(�8N{Yi��8�8(.h*�8N{Yi��8�8(.K��8�8Z�����8�8�8�{Yi��8΋[~8�8(�8>8�8(N8k9^[�K��8�j��X��8�8.8(�8>8�8�8~K�ފ��8~8�8N8" �8;���x+�8(Nh
+~�:�8��h�Y�8nh�8N8;�X��[��8Θ�X�~88�X�Nij�8�8(�8>8�(i"8�8	�8).X�~88(�8�X
+N8�8(�88	�8�8^8^8(�8~8N8��Ȏ���{��Ȓ �8;���x+��^8(NZ��8�88.8(���x+�8).8�8(�8;�8^8(�8(�8�8Θ�X�~88�X�Nij�8�8(�8>8�(i"8�8	�8�8(����8^8(�8(�8�X
+N8�8(�8��Ȏ���{�.�Ȓ �8;�8.8(�K��i�N8�8jIΊ��8;����i��8�8�8�Z��8�8^8(�8(�K�X
+N8�8.8(�8�X�Nij�8�8(�8>8�(i"8�8	�8^8(�8(�K�X
+N8�8.8(�8��Ȏ���{�>�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	K�nX�^���8	�ȎK��8;�x��8��Ȟ8	�8).X�~88(�8�X
+N8�8(�88	�8�8^8^8(�8~8@��8	iz^i�Ί�>8;�Z�{�8	8.8(�K��8;���nY�>8;�x��8;���x+�8;�h�j�8�8�8��x+�8h
+~�:�8�xފhh
+~8{Yi��8).j�h�8�8~8n8z{�9�8;�Z�Z�8;�j��Kɮ8;�k:�hH�8;��X�hZ�8;�h��X�N8;��*�K��8;�{�8�8�8).X�~88(�8�8Θ�X�~88�X�Nij�8�8(�8.Z��8�K��8���8(�8�8F�R&W�'BFW6W'fW2GFV�F����8�8(�8n8�ZY�i��8(Nh�j�8�8�8(.K�����8�8�8(�8&FW6W'fV8�8(�8N{Yi��8�8(.h*�8N{Yi��8�8(.K��8(�8(�8[�^8�8~8(.{Yi��8�Z��x��8�8(�8>8�8(N8k9^y�N8����k.j��8�8.8(�8>8�8).Y
+�8�8�8N8" ��8	��[�n8	8��8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�ny�N8~���[��8�[�>8�K��8n8.z{�9�8;�hI����8;�[�iZ�8�8�8�*�Z�y�N��^K�8��>8;��*�K��8;�Xzn{�8�8�8�Y
+nZ�y�N��^K�8ZY�i��8(Nz	Nz�n8�xފhh
+~8�Z��8�8(�K��z��y�N8���^K�8�8N8�8(�8�8(.K��8�8(�8" ��8	ih~k9^898+�8;�8;>8	8�K��8;�x��8�FW6W'fR8�&Wv&B�&�6R�GFV�F���8����K��8;�x��8�Z�Z�8;�z{�9�8;�k:�hH�8�8�8).X�~88(�8�X
+N8�8(����8�K��8;�x��8�FW6W'fR8�&��R�V�6��V�B�7&�F�6�6�8����K��8;�x��8Ι�>8;�{�8;�h��X�N8�8�8).X�~88(�8�X
+N8�8(����8�K��8;�x��8�FW6W'fR&W7B�6��6R��V�F������K�h�8;�j��Kɮ8;���X��8).X�~88(�8�X
+N8�8(����8�K��8;�x��8�FW6W'fR&WGFW&���8(.8>8�8(�8Nh�8N8).X�~88(�8�X
+N8�8(����v�B�fR�F��RF�FW6W'fRF��3���ވz�X�n8�K�^8).8~8�8�8(�8>8)>8�h�8N8).X�~88(�8�8�8�8N8nK��k�8;�Xi~��~8(8N8�X�ފ�� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�FW6W'fR&�6R�7&VF�B�&W7V7B �yJ��	C�X��X��8�*.x��8hX�[�n8�8�8�Z��8�8(�z{�9�8;���^K�8;�[�iZ�8�Zj^[�>88���8�8(�8" �K賢F�Rf��V�FVW'2FW6W'fR7&VF�Bf�"�VW��rF�R6�V�FW"�V�F�&�Vv�F�Rv��FW"� ���3�8�8�89�8:�8;>88n8*>8*.8�88�8Xj�8�i>8(.����>h�8).�h�8{i�88�8>8�8~��^K�8^8(�8n[�>xKn88" ��8;�FW6W'fRGFV�F����6&VgV�6��6�FW&F��� �yJ��	C�YX���8h�j�8ZY�8�8�8�k:�hH�k{8�jIΊ��8^8(�8(�K�X
+N8).h�8N8>8�8).��8�8" �K賢F�R&��6�FW6W'fW26&VgV�6��6�FW&F���&Vf�&RF�R6��֗GFVRf�FW2� ���3�8�8�h�j�8�8ZyNY:Kɮ8�h�^zZ�8�8(�X��8�hX�x�8�jIΊ��8^8(�8(�K�X
+N8�8.8(�8" ��8;�FW6W'fR6��6R���F�W"6��6R �yJ��	C�K��8(N���yK�8�8��n8�j��Kɮ8;�8(N8(�y�N8�j��Kɮ8).K��8�8(�8�8�Zj^[�>88���8�8(�8" �K賢F�R&Wf�6VB��FW6W'fW2��F�W"6��6RgFW"F�RFV�f��VB�G2���vV��W72� ���3�iK���.8^8(�8����yK�8�8888;�8:8�K��8�[�x+�8).y�N8~8�8�88�8(�88(.8nK�[�n��n8�j��Kɮ8).K��8�8(�8(�8n8(�8N8" ��8;�FW6W'fR&W7B �yJ��	C�X��X��8(Nyk.X�N8).���8�8�8n8K�h�8).X�n8(�8�8�[�>xKn88���8�8(�8" �K賢��R�fR&VV�v�&���r6��6RFv��6���RFW6W'fR&W7B� ���3�8.8�8�8�ZI�i��88�8(�X8�8N8n8N8(�8�88�8(�8K�8)>8~[�>xKn88" ��8;�FW6W'fR&��R�7&�F�6�6��V�6��V�B �yJ��	C��*�K��8�8.8(�K��8;�{XN{�N8�8��>8(NXzn{�8).X�~88(�8�8�Zj^[�>88���8�8(�8" �K賢F�R6���FW6W'fW27&�F�6�6�f�"��F��rF�R6fWG�FVfV7B� ���3�8�8�KɮzK�8�8Z�XZ�K��8�j���^8).��8~8�8>8�8~h��X�N8^8(�8n[�>xKn88" ��8;�FW6W'fR&WGFW" �yJ��	C�x��YʎX�~88n8N8(�h�8N8(�8(�8(.8(�8Nh�8N8�Zj^[�>88���8�8(�8" �K賢F�R7FfbFW6W'fR&WGFW"F��fwVR���w�g&����vV�V�B� ���3�8�8�~Y:8�88�8{X�Ykn��>8�8(�8�i�ni�~8����{ڮ8(�8(�8(.88(.8>8�8(�8NZ��[��8).X�~88n[�>xKn88" ��8;�vWBv�B��RFW6W'fR �yJ��	C���x+�8��h�Y�8n{Yi��8x��8�i��K��8�h��8N8�h*�8N{Yi��8).X�~88(�8>8�8).��8�8" �K賢�R�v��&VBWfW'�v&��r�BWfV�GV�ǒv�Bv�B�RFW6W'fVB� ���3�[��8���nY�8).K�8Nj�8(�8�xJ�in8~88N8N8�8��z�jZވz�[�~8�{Yi��8�8�8>8�8" ��8;�FW6W'fR�VF� �yJ��	C�ZJ~ZH�8�8>8�8(NK��[��8�8>8�8).z��kK�8�8(N8(��.8.8�K��8).8ih~Z�~8�8�8(�8~8�8�8�8�X�.z�8(.8�88�8�z{�9�8�8(�8�888���x��8" �K賢��RFW6W'fR�VF�f�"������rgFW"F��6R6���G&V���vVV�V�B� ���3��iʾ8�8>8�8.8�Z�8�8(.8�88�K�n��8).8~8�8�8)>8n8X�.z�8(.8�88(�8" ��8	���k9^8;�k:�hH�8	FW6W'fV8�y��y�N���8�8�X�~88(�8�X
+N8�8(�8(.8�8�8~8.8(�88(�8N8(.8�888���8(�8(�8�8N8&FW6W'fR&�6V8�8�z{�9�8^8(�8n[�>xKn8�8FW6W'fRV�6��V�F8�8�{�8).X�~88n[�>xKn8�8~8.8(�8" ��&RV�F�F�VBF�8�j��X��8;��8~j�8;�ZY{HNK��8�k.X���;�h
+~8�xJnx+�8).{��8�8�8�Z��8~8FW6W'fV8���x+�8(Nh
+~�:�8�xZ~8(�8~8���^K�8�xJnx+�8).{��8�8.8~8�8�8>8n8FW6W'fR&Wv&F8���8�8n8(.8k9^y�N8�8�8�Z�Z�8).���k.8~8�8(�8�8���8(�8�8N8" �K�����8�K��888~8�8�8h�j�8ZY�8z	Nz�n8YX���8K��Y88�8�8�8(.8�8(�8.xJyI�x��K�����8�F�R&��6�FW6W'fW2GFV�F����8��z�xKn88�8h�j�8�hH�[�~8).8(.8>8nk:�hH�8).�hk.8�8(�8�8N8nhH�Y>8~8�8�8N8" �FW6W'fV�z�K�>8��	�[���.��[�.8�8�8�8F�R�77VR�2FW6W'f��r�bGFV�F����8�FW6W'f��v8�[�.Z랊��8�8~8nh�8n8.Y
+nZ�8�F�W6�wBFW6W'fV8X��X�^���8�[��8�6��V�BFW6W'fV8�8(�8n8�X��[�.8�8�8(�8" ��8	��{꞊��8	��8;��W&�B �Z�{ꓢz{�9�8k:�hH�8jIΊ��8Xzn{��8�8�8).X�~88(�888�K�X
+N8�8.8(�8" ���[�c�8�r�8� ��^8C��W&�F8�z�8(8~8x��8�8�jIΊ��8;�k:�hH�8;�Xzn{��8�X
+N8�8(�8�8�8N8n��^K�8�K��8n8&FW6W'fV8(�8(�iz^[��Kɮ��8~8�K��8�8�Z8N8;�{�8�X�Nij�8�8�K��8N8�8�8N8" �K賢F�Rf��F��w2�W&�BgW'F�W"��fW7F�vF���� ���3�8�8�i��{Yi��8�88^8(�8�8(�jIΊ��8�X
+N8�8(�8" ��8;�&Rv�'F���b �Z�{ꓢh
+~�:�8(NK�X
+N8�x+�8~8z{�9�8;�[�iZ�8;�k:�y��8�8�8).X�~88(�8�X
+N8�8(�8" ���[�c�8���8� ��^8C�&Rv�'F���f8�Z��8�K�X
+N8;�Y8K��8�xJnx+�8).{��8�8��x+�8�{Yi��8�8~8n8�Z8N888~8�8�8x��K��8^K�8�8(.[�>8�K��8n8" �K賢�W"v�&��2v�'F���bw&VFW"&V6�v�F���� ���3�[��Z[>8�K�^K��8�88(.8>8����8���^K�8^8(�8(�8�X
+N8�8(�8" ��8;�v'&�B �Z�{ꓢ8.8(���X�^8X�Nij�8Xzn{��8).j�>[�>X�n8�8(�888�j�h�8�8.8(�8" ���[�c�8�b�8� ��^8C�v'&�F8�8�K�^8�8).��8n888�K��h8^8;����h�8�8.8(�8�8�8N8nY�i��y�N8;�Z��X��y�N8����8~8K��8�Z�Z�8(N{�8).X�~88(��>[�>y�N��^K�8).y�Nh�^��8����8~8�8�8N8" �K賢F�RWf�FV�6RF�W2��Bv'&�B7V6�7G&��r6��6�W6���� ���3�8�8�h�8�88�8>8�8~[�~8N{Y��n8).j�>[�>X�n8�8(�8(.8�8~8�8�8N8" ��8;�V&� �Z�{ꓢX��X��8��x+�8X�NX��8�8�8�{Yi��8�8~8n8Z�Z�8;�K���8;���^K�8;�X��[��8).[�~8(�8" ���[�c�8���8� ��^8C�V&�8�X��X��8(NZ��{��8�8(�8>8n{Yi��8).Z�����8�x�.[�~8�8(���z��8�xJnx+�8).{��8�8&FW6W'fV8�88�8�{Yi��8).X�~88(�8�8�Zj^[�>8�8�8N8n��^K�8�xJnx+�8).{��8�8Z��x��8~8n8N8�8N{Yi��8�8(.K��8�8(�8" �K賢6�RV&�VBF�RFV�w2G'W7B'�F֗GF��r�W"֗7F�R� ���3�[��Z[>8��z�X�n8�i>�^8N8).���8(8(�8>8�8~8888;�8:8�K���8).[�~8�8" ��8;�&RV�F�F�VBF� �Z�{ꓢj��X��8ZY{HN8�h�X�~8�8�8�Y��8^8�8K�^8�8).X�~88(��8~j�8�8.8(�8" ���[�c�8���8� ��^8C�&RV�F�F�VBF�8�X�n[�nK��8;�ZY{HNK��8�j��X��8).[�~8�zK�8�8&FW6W'fV8�8(�8n8��>[�>y�N8;���^K�y�N8�8�8^8^8(�8~8^8�8�8�K��{N8~8�8N8>8�8�8.8(�8" �K賢V����VW2&RV�F�F�VBF��B�VfRV�FW"F�R�Ɩ7�� ���3�8�8�h�z��8~8�8[�>jZ�Y:8�iȞ{ZnK�i�~8).X�~88(�j��X��8�8.8(�8" ��"�8	K�nX�^���8;�F�K��Z鮊��8	8	�8�8(����8^8(�8(�8�X
+N8�8(�8[�>xKn8	�8�8�8(�8�8�8 ��8	iz^i�Ί�>8;�Z�{�8	K�����8��x+�8(Nh
+~�:�8�8(��h�8n8K�����8�8.8(���x+�8).8�8(�88.8(�{Yi��8).[�~8(�88�8�8�8.8(�h�8N8).X�~88(�8�8Θ�X�~88���^K�8�8(�8&FW6W'fRF�F�8~8�K�����8�[��{i�8�X�^���8��x+��^8;�{XΚ�>�^8�8�8(�8FW6W'fRF�&RF��V8~8�K�����8�8�8��x+�8).X�~88(�Z��8�8�8(�8&6��V�F8(�8(�8(.8X��X��8;�X��{��8;��*�K��8�8�8�Y��8^8�8�8�8�{Yi��8�8^8^8(�8~8N8�8�8N8n��^K�8).Y
+�8�8(N8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�ny�N8.Kɮ��8~8�X��X��8i�~�.8y�^8(�j��X��8[��x�8^8(�8(�8>8�8�8�8�8i��8ފ���8~8���[�8;�Xzn�~8;���^K�8;�Xzn{�8�8�8�[�>8�K��8n8" ��8	ih~k9^898+�8;�8;>8	8�K��8;�x��8�FW6W'fRF�F����K��8;�x��8�8	�8�8(�8�8�X
+N8�8(����8�K��8;�x��8�FW6W'fRF�&R8���X�X�n���8����K��8;�x��8�8	�8^8(�8(�8�X
+N8�8(����8�K��8;�x��8�FW6W'fRF��fR8�Yފ��8����K��8;�x��8�8	�8).h�8N8;�X�~88(�8�X
+N8�8(����8�K��8;�x��8�F��wBFW6W'fRF�&R8���X�X�n���8����K��8;�x��8�8	�8^8(�8(�8N8(�8(�8�8�8B ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�FW6W'fRF�v�� �yJ��	C���nY�8(Nz�nK��8~8Z��X��8;�Xh^Z�8�8(�X��8N8�8�Zj^[�>88>8�8���8�8(�8" �K賢F�RFV���VBv�F�6�W&vR�BFW6W'fVBF�v��F�Rf���� ���3�8�8�888;�8:8�X�~iZ.8�h�n8N8k�X��8~X��8>8n[�>xKn8�Xh^Z�88>8�8" ��8;�FW6W'fRF�&R&V6�v旦VB�&V�V�&W&VB �yJ��	C�X��{��8(N�*.x��8Ί��8(8(�8(�8�8(�8���hkn8^8(�8�8(�8�8(�8�8�Zj^[�>88���8�8(�8" �K賢�W"6��G&�'WF���FW6W'fW2F�&R&V6�v旦VB��F�R�ff�6��&W�'B� ���3�[��Z[>8�*.x��8�XZ�[��ZY�i��8~���8(8(�8(�8n[�>xKn88" ��8;�FW6W'fRF�&RG&VFVBv�F�&W7V7B �yJ��	C�K��8�[��x�8).8(.8>8nh�8(�8(�8(�8�8�Zj^[�>88���8�8(�8" �K賢WfW'�F�V�BFW6W'fW2F�&RG&VFVBv�F�&W7V7B�BF�V�6R� ���3�8�8�8n8�h*>�^8�8[��x�8�[�ވ	8).8(.8>8nh�8(�8(�8n[�>xKn88" ��8;�FW6W'fRF�&RV�6�VB�7&�F�6��VB �yJ��	C���x+�8�[��8�8nXzn{�8;�h��X�N8).X�~88(�8�8�Zj^[�>88���8�8(�8" �K賢���Rv�����v��vǒf�6�f�W2&V6�&G2FW6W'fW2F�&RF�66�Ɩ�VB� ���3�iX^hH�8������.8).iK�8n8)>8�8(��^8�8h{.h�.8).X�~88n[�>xKn88" ��8;�FW6W'fRF����r �yJ��	C�K��8Θxފh8�h8^Z8).y�^8(�8^8(�8(�8�8�Zj^[�>88���8�8(�8" �K賢F�RF�V�G2FW6W'fRF����rv�BF�RG&VF�V�B��f��fW2� ���3�h*>�^8�88�88�8�k+�y�.8�K�^8�Y
+�8�8(�8(�8�8�y�^8(�8^8(�8n[�>xKn88" ��8;�FW6W'fRF��fR8�6��6R�f��6^8� �yJ��	C�j��Kɮ8(NhH�h	�k�Z�8�8�y����j��8).h�8N8>8�8�Zj^[�>88���8�8(�8" �K賢WfW'�&W6�FV�BFW6W'fW2F��fRf��6R��F�RFV6�6���� ���3�8�8�8n8�K��k	8�88�8�k�Z�8�y����j��8).h�8>8n[�>xKn88" ��8;�FW6W'fRF�&R6��6�FW&VB �yJ��	C�h�j�8��h��*.8K��h8^8�8�8�jIΊ��Z��8�8�8(�K�X
+N8).h�8N8>8�8).��8�8" �K賢F�R6�VW"�F���FW6W'fW2F�&R6��6�FW&VB&Vf�&RvR6�v�F�R6��G&7B� ���3�ZY{HN8�{�.Y�8�8(�X��8�88(�8(�Z�8N��h��*.8(.jIΊ��8^8(�8(�K�X
+N8�8.8(�8" ��8	���k9^8;�k:�hH�8	FW6W'fRF�F�8�FW6W'fRF�&RF��V8�8K�����8�[۞X�.8�y[8�8(�8&F�W�FW6W'fRF�v���8�8�[��8(�8�X��8N8�8�8^8^8(�8~8N8�8F�W�FW6W'fRF�&R&�6VB�8�8�[��8(�8�z{�9�8^8(�8(�8�8�8^8^8(�8~8N8�8~8.8(�8" ��xJyI�x��K�����8~8�X�~X�^8�FW6W'fRF�&R���X�X�n���8�K��8N8(N8�8N8&F�R��FW6W'fW2F�&R&Wf�6VB�8�8�8�8�yK�8�iK���.8^8(�8(�K�X
+N8�8.8(�8�8~8.8(�8F�R��FW6W'fW2F�&Wf�6R�8�8���8(�8�8N8" �FW6W'fRF�8�Xَ8�8(�iʮi�^K��k��8(NY�K�N8~8�8�8N8&F�RFV�FW6W'fW2F�v��8�8X��8NX���;�h
+~8).K��k��8�8(�8�8N8n8(�8(�8��nY�Xh^Z�8�8(��h�8nX��X��8�Zj^[�>88�8N8n��^K�8~8.8(�8" �FW6W'fRF����v8�8�y�^8(�8>8�8Θ�X�~88�8�8N8n��^K�8).��8�8�8[�^8�8~8(.k9^[�K��8�h8^Z�h�zK����k.j��8).hH�Y>8~8�8N8.k9^y�Nj��X��8).��8�8(�ZNY�8�8ih~�H�8�[��8�8b&RV�F�F�VBF�8�8�8).jIΊ��8�8(�8" ��8	��{꞊��8	��8;��W&�B �Z�{ꓢ8.8(�{Yi��8��^K�8Xzn{��8).X�~88(�8�X
+N8�8(�8" ���[�c�8�r�8� ��^8C��W&�F8�z�8(8~8FW6W'fRF�&R6��6�FW&VF8�8(�8n8�8�jIΊ��8�X
+N8�8(�8�8�y��h
+~8�8(�8N8.K��8�X��8N8;�i�~�.8�8(�8�8N8niz^[��y�N8�{Yi��8�8�FW6W'fV8�ik�8Έz�xKn8~8.8(�8" �K賢F�R&��6��W&�G26W&��W26��6�FW&F���� ���3�8�8�h�j�8�y��X�>8�jIΊ��8�8(�K�X
+N8�8.8(�8" ��8;�&Rv�'F���b �Z�{ꓢh
+~�:�8(NK�X
+N8�x+�8~88.8(���^K�8(Nh�8N8�X
+N8�8(�8" ���[�c�8���8� ��^8C�&Rv�'F���f8�[��8(�8�Yފ��8�8�8�X�^Yފ��8~8&Rv�'F��F�F�8�K����y�N8�[�.8~8�8�8N8&FW6W'fRF�F�8�8(�8n8�K�����8Ί�x+��^8�8�8(�jx�ih~8�8�[�.8�y[8�8(�8" �K賢F�R6W6R�2v�'F���b��W"7W�'B� ���3�8�8�ZJ~{�8�8.8�8�8�iJ�h�N8).X�~88(�8�X
+N8�8(�8" ��8;�&RGVR �Z�{ꓢj��X��8X��{��8K��h8^8�8�8�8(�88.8(�8(.8�8).X�~88(�8>8�8�8�8>8n8N8(�8;�X�~88(�8�8�[�>xKn8~8.8(�8" ���[�c�8�b�8� ��^8C�&RGVV8�Z�Z�8hI����8iJ�h�^8N8i�~�.8�8�8�K��8�8(�8(�8(�8�8�8(.8�8�8�Z�N8(�8FW6W'fV8(�8(�8(.j��X��8;�K��Z�8;�[�>xKn8�[�{Y8�Y
+�8�8�X{�8(N8�8N8" �K賢F�RFV��2GVR6��R&V6�v�F���f�"�G2���r6W'f�6R� ���3�8�8�888;�8:8��[~[�N8�*.x��8�Z��8~8n8K�^8(�8�8^K�8).X�~88n[�>xKn88" ��8;�VƖg�f�" �Z�{ꓢi�K�n8).k�8�8~8n8X�n[�n8(N���>8�Z��8�8�8(�8" ���[�c�8�r�8� ��^8C�VƖg�f�&8�Y��k�n8;�i�K�n8�8��Y�8).��8�X�n[�ny�N8;�Z��X��y�N8����8~8FW6W'fV8�>[�>y�N8;���^K�y�N8�8^8^8(�8~8^8�8�y[8�8(�8" �K賢Ɩ6�G2v���VWBF�R��6��RƖ֗BVƖg�f�"76�7F�6R� ���3�h�[�~X�n��8).k�8�8�yK>����^8�h�NX��8�Z��8�8�8(�8" ��2�8	K�nX�^���8;�F���~[�.�Ȏk�nX�~X�^�Ȟ8	8	�8^8(�8(�K�X
+N8�8.8(�88	�8�8(�888�K�X
+N8�8.8(���8	iz^i�Ί�>8;�Z�{�8	FW6W'fR�X�^Yފ��8�[�.8~8K�����8�8�8(�x��K��8�88�8�X�^Yފ��8~��8^8(�8(���x+�8).X�~88(�K�X
+N8;��xފhh
+~8).h�8N8>8�8).��8�8&F�R���BFW6W'fW2�V�F����r�8�F�R���BFW6W'fW2F�&R�V�F���VB�8�8�8�Y�8�8~88�8�8�x+�8���X��8^8(�8(�K�X
+N8�8.8(�8�8�8N8nhH�Y>8�8�8(�8.8>8>8~8�֖�v8�K�����8�8�8��x+�8).Z����8�8(�8�8N8nhH�Y>8~8�8�8�8K�����8�8�8��x+�8).X�~88(�8�8N8nX�~X�^y�N8�hH�Y>8).[��8>8(�8" ��8	��[�n8	8�b�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�ny�N88�8FW6W'fRF�&R���X�X�n���8(�8(�K��yJ�z�NY�.8�x��8�8���i��y�N8�ih~z�8~y��8�8~8(N8�8N8.x��8�FW6W'fR�V�F����v8Ί�X��8�X
+N8�8(�8�8FW6W'fR��F��v8�k:����8�X
+N8�8(�8�8�8(�8n8�y��8N[�.8Έz�xKn8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	8�x+�8;�YX���8;�x��[�N8�FW6W'fR�V�F����r���F��v���x+�8;�YX���8;�x��[�N8Ί�X��8;�k:����8^8(�8(�K�X
+N8�8.8(����8�YX���8;�K��K��{N8�FW6W'fR������r��F����YX���8;�K��K��{N8Ί��i��8^8(�8(�K�X
+N8�8.8(����8���nx+�8�FW6W'fRF�67W76��v��ފ�nx+�8Ί���n8^8(�8(�K�X
+N8�8.8(����8�x��K��8�FW6W'fR8�b֖�~8�8�ZI�8�8�ZNY�8�x��K��8�FW6W'fRF�&R8���X�X�n���8�8���8Nh��8�8(�8(�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�FW6W'fR�V�F����r �yJ��	C��xފh8�x+�8).8ih~z�8(N���i��8�K��8~��X��8�8(�K�X
+N8�8.8(�8���8�8(�8" �K賢��Rf���FWF��FW6W'fW2�V�F����r&Vf�&RvR6��6R� ���3�{X.8(�8(�X��8�8i�[��8�K�8N��X��8~8n8�8�K�X
+N8�8.8(�{K�:�8�8.8(�8" ��8;�FW6W'fR��F��r �yJ��	C�[z�y[8X+�Y	8K�ZIn8�8�8).8k:����8;������.8�8(�K�X
+N8�8.8(�8���8�8(�8" �K賢F�RF�ffW&V�6R��&W7��6RF��W2FW6W'fW2��F��r� ���3�[��z�Ni�.�i>8�^8N8�8k:����8~8n8�8�K�X
+N8�8.8(�8" ��8;�FW6W'fR������r��F� �yJ��	C�YX���8K��K��{N8��nh8^8�8�8Ί��i��8^8(�8(�K�X
+N8�8.8(�8���8�8(�8" �K賢F�RF�67&W�7�FW6W'fW2������r��F�&Vf�&RF�Rf�wW&W2&RV&Ɨ6�VB� ���3�i[X
+N8).XZΊ�8�8(�X��8�88�8�K��K��{N8����i��8�8(�K�X
+N8�8.8(�8" ��8;�FW6W'fRF�67W76��r �yJ��	C���nx+�8(NYX���8Ί���n8�Z��8�8�8(�K�X
+N8�8.8(�8���8�8(�8" �K賢F�RWF��6�VW7F���FW6W'fW2F�67W76��rv�F�F�Rv���RFV�� ���3�8�8�X
+�yny�N8�YX���8�8888;�8:XZ�K�>8~����n8�8(�K�X
+N8�8.8(�8" ��8	���k9^8;�k:�hH�8	FW6W'fR�V�F����v8�FW6W'fRF�&R�V�F���VF8FW6W'fR������r��F�8�FW6W'fRF�&R����VB��F�8�8�8�Y�8�hH�Y>8~8.8(�8.[�Έ^8�ik�8�jx��
+8).i��zK�8�8(�8�8(8Z�n{�.�^8�K��8nZNY�8�FW6W'fRF�&R���X�X�n���8�Z�XZ�8~8.8(�8" ��F�R���BFW6W'fW2�V�F����r�8).8�8�8�x+�8Ί�X��8�8(�K�X
+N8�8.8(�8�8��;�X�^y�N8���>8~8n8�8N88�8N8.K�����8���X��8).X�~88(�XN8~8.8(�8" �K��8Έz�X�n8~K�^8�8).8�8(�K�X
+N8�8.8(�8���8N8�8NZNY�8�8FW6W'fRF�F�8).K��8n8&F�R&W6V&6�W"FW6W'fW2F�&W6V�BF�R&W7V�G2�8�8�z	Nz�n�^8�{Yi��8).y����8�8(�8�X
+N8�8(�8�8~8.8(�8F�R&W7V�G2FW6W'fR&W6V�F��r�8�8�K�����8�[۞X�.8�y[8�8(�8" �FW6W'fRF���v8�V���F���v8�8(�8n8�K����y�N8�X�^Yފ��y��y�N���8).X�n8(�jx�ih~8�8�h
+~�:�8�y[8�8(�8.X�~X�^8�hH�Y>8).i��z+�8�8~8�8NZNY�8�8FW6W'fRF�&RF�67W76VF8�8(�8n8�8�8(�8" ��8	��{꞊��8	��8;�&Rv�'F��֖�r �Z�{ꓢ8.8(���x+�8).8�8(�888�K�X
+N8�8.8(�8" ���[�c�8���8� ��^8C�&Rv�'F��֖�v8�8Ί�n8�8;����8(8;����8�8(�8�8�8��x+�8�i�.�i>8(NX�NX��8).8�88(�K�X
+N8�8.8(�8�8�8N8nZ��yJ�y�N8���^K�8�[�~8N8&FW6W'fR�V�F����v8�8Z��8Ί�X��8^8(�8(�8�8�Zj^[�>88�8N8n��^K�8�Z�N8(�8" �K賢F�R&W�'B�2v�'F�&VF��r&Vf�&RF�R�VWF��r� ���3�8�8�ZY�i��8�Kɮ��X��8����8(K�X
+N8�8.8(�8" ��8;��W&�B �Z�{ꓢjIΊ��8����n8���i��8�8�8).X�~88(�K�X
+N8�8.8(�8" ���[�c�8�r�8� ��^8C��W&�F8�z�8�{
+k�N8~8X�^Yފ��8(�8(�Yފ��y��y�N���8��W&�B6��6�FW&F���8�[�.8�x��8��z�xKn8~8.8(�8" �K賢F�R6�����B�W&�G2������r��F�� ���3�8�8nh8^8����i��8�8(�K�X
+N8�8.8(�8" ��8;�v'&�B �Z�{ꓢ���i��8Z��[��8ZH�i�N8�8�8).��8n888�j�h�8�8.8(�8" ���[�c�8�b�8� ��^8C�v'&�F8�Z��8�8�8^8(�8(�K�X
+N8�8).h�8N8�8N8n8(�8(�8x�nk88(N���h�8�Z��[��8).j�>[�>X�n8�8(�8�8N8nZ��X��y�N8�X�Nij�8).��8�8" �K賢F�RW'&�"v'&�G26�'&V7F��r&Vf�&R&V�V6R� ���3�8�8N8(�8�8XZΙh�X��8���.j�>8�8(�888�ynyK8�8.8(�8" ��8;�6��f�" �Z�{ꓢx��Z�8�Z��[��8����n8h�{��8�8�8).[�^�h8�8�8(�8;�k.8(8(�8" ���[�c�8���8� ��^8C�6��f�&8�Z��8�K�X
+N8(�8(�8(.8x�nk88�Z��[��8).�hk.8~8n8N8(�8>8�8�xJnx+�8).{��8�8&FW6W'fRF�67W76��v8(�8(�{x�h
+^h
+~8;�[�^�hh
+~8�[�~8�8�8(�8(N8�8N8" �K賢F�R6fWG��77VR6��2f�"���VF�FR7F���� ���3�8�8�Z�XZ�K��8�YX���8�8y�N88�Z��[��8�8(�[�^�h8�8.8(�8" ��8	X��hH����8	��8;�&RV�v�'F���b �Z�{ꓢh
+~�:�8(NK�X
+N8�x+�8~8z{�9�8;�k:�hH�8;�iJ�h�N8�8�8).X�~88(�8�X
+N8~8�8N8" ���[�c�8�R�8� ��^8C�&RV�v�'F���f8��*�Z�y�N8���^K�8�X��Z��XN8).��8�[�.Z랊���x��8~8FW6W'fV8Ί�8�h*�8N{Yi��8�X
+N8�8(�8�8N8nyJ�k9^XZ�K�>8�X��hH����8~8�8�8N8" �K賢F�R&��6��2V�v�'F���bgW'F�W"6��6�FW&F���� ���3�8�8�h�j�8�8>8(�K�^K��jIΊ��8�8(�K�X
+N8�8�8N8 ����Р�276W'@����Ц�VGv�&C�76W'@�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#P�WFFVE�C�##b���#P�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3������<��B���Έ�������<�̹B�8#.��>z�8����4U%B8~8z��.��>z�8�K��[�~X�.8�8.8(�8.{>��>8�����8�"8���8�8).K�N8nj�ޙ�>8����>8���̹�8�"8).y����>8~8�8N�[~j�ޙ�>8~8.8(�8" �{kN8(�8�i�X��8�8��:b�8~8�8�8�[�8B����8���K��8�728��2�8���iʾ8�B8��B�8�y����>8�8(�8" �8;�K��K��z{Xَi[76W'G28�{2�����<��G2�8;��������<�̹G2�8��X�[�.8;���X�X�n���76W'FVB8�{2�����<��L��B�8;��������<�̹L��B�8֖�~[�"76W'F��r8�{2�����<��L��X��8;��������<�̹L��X��8" �8;�76W'FVB8��VB8����iʾ��2�B�8�[��8�8�8r���B�8�8�8(�876W'G28��G2�8�
+>{i�8~{X.8(�8(�8" ����>���k� ��8:�88n8;>���76W&W&^8�K��[�^8�8(�8���8(8^8�8(�8�8�yKi�^8~88�8��X�X�n���76W'GW28).{X�8c~K�n{HX�ޚ
+�8���8�XZ^8>8�8.���k�K��8�B�8�8	�8�8�8�6W&W&^8�8N8�88�8�X�n88n���i��8^8(�8(�8" �x��Yʎ8�8�Yޚ�8;�j��X��8;�ZَYʎ8).X�ޙ�.8�X{�8~8���8(8^8�8(�8�8�8N8nhH�Y>8�[�>8�8(�8�8���k�y�N8�8Έz�X�n8�K��[�^8).h�zK�8�8(�8�y��h;>8�ZJ~8�8�8�Z��[��8�8(�8�8���k�888�8(�x��K�>8�YN���{�8).j��j+y�N8�[�88(�8(�88~8�8�8N8" �YΊ��k�8;�kK�yI��j.K�.8�Z�n{�.���8�76W'F���8�K��[�^8ijފ�8�876W'F�f^8Έz�[{K��[�^8�[�~8N8ij�Z�y�N8�8�876W'F�fV�W7>8Έz�[{K��[�^8z��j[^h
+~8�8&V76W'N8�Xh�8>K��[�^8�8(�8�8~8.8(�8" ����>���[�.h� ��76W'G2�76W'FVB�76W'F��v(	BK��K��z{Xَi[x��Yʎ[�.8;���X�[�.�����X�X�n���8;�x��YʎX�n���8" �76W'F���(	BYފ��8�K��[�^8ijފ�8K��[�^8�8(���x+�8�8" �76W'F�fR�76W'F�fV�W76(	B[�.Z랊��8Έz�[{K��[�^8�[�~8N8ij�Z�y�N8�8����Yފ��8Έz�[{K��[�^8z��j[^h
+~8�8" �&V76W'F(	Bh�^�
+ދ��&R�8�Xh�8>8�8).K��88�X�^���8�Xh�8>K��[�^8�8(�8iK�8(8n���8(8^8�8(�8�8" �6V�b�76W'F���(	B�H~Y�Yފ��8Έz�[{K��[�^8�8.Z��K���j.K�.8(N[�>yn8;�8+>89�8:^88�8+8;�8+~8:~8;>8�ih~�H�8~K��8n8" ����>8+>8*.8*N8:8;�8+���76W'B8�X[�	�j�8�8Yޚ�8;�j��X��8;�j��Z�8;�ZَYʎ8�8�8).88�8>8�8(�X�ޙ�.8�X{�8~8ny��h��8(Nx�nk88���ފَ8^8�8(�8>8�8~8.8(�8.[�^8�8~8(.���h�8~y��Z��8).���i��8�8(�8>8�8(N8y��h��8).Z�Y�~8�8(�8>8�8�8~8�hH�Y>8~8�8N8" �8;�Yޚ�8).y��Z��8�8~8nX�ޙ�.8�X{�8�(i"8�ijފ�8�8(�8[�~8�K��[�^8�8(�8��Ȏ���{��Ȓ �8;�j��X��8(Nj��Z�8).���8(8^8�8(�(i"8�j��X��8;�j��Z�8�8�8).K��[�^8~8���8(8^8�8(�8��Ȏ���{�.�Ȓ �8;��z�X�n8�hH��h�8(Nj��X��8).X�ޙ�.8�X{�8�(i"8Έz�[{K��[�^8�8(�8��Ȏ���{�>�Ȓ �8;�K��yJ�8(NhI�h8^8�ZَYʎ8;�[����8).X�ޙ�.8�X{�8�(i"8��ȎK��yJ�8;�hI�h8^8�8�8��Ȟx��8(�Zx�8(8(�8[����8).X��8�8~Zx�8(8(�8��Ȏ���{�N�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	K�nX�^���8	ijފ�8�8(�8[�~8�K��[�^8�8(���8	iz^i�Ί�>8;�Z�{�8	8.8(�Yޚ�8;�K��Z��8;�hH��h�8�8�8).8y��Z��8�8�8�Zj^[�>8�8(.8�88�i��z+�8�8N[�~8���8�8(�8.y��h��8�yi8N8;�X�ފ�n8;�Y
+nZ�8).K��h;>8~8n8z+�K�8).8(.8>8n��8N[�^8(�Y
+�8�8�X{�8(N8�8N8�876W'B8~8�Xh^Z�8�Z�����8�y��Z��8~8.8(�8>8�8(N8���h�8~���i��k��8�8~8.8(�8>8�8�8~8���8^8�8N8" ��Xَ8�8(�y����8(�8(�8(.8���^8�8�8�Xh^Z�8).X�ޙ�.8�X{�8~8nX�~8XZ^8(�8).k.8(8(�hI�8�8�8.8(�8j�h�8).zK�8^8�8�ijފ�8~8n8N8(�8�8N8nh��X�Ny�N8�Y
+�8�8).[��8>8(�8>8�8(.8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Kɮ��8�8(.K��8n8�8Z�>8��nih~8����n8k9^[�~8;�XZ�[��y����8�8�8K��[�^8�Xh^Z�8).�yޙ�.8).{��8N8n��8�8(�i��8ފ���8~x��8���X{�8�8(�8" ��8	ih~k9^898+�8;�8;>8	76W'BF�B������8	�88�ijފ�8�8(����76W'B8�&VƖVb�6��������6V�6^8����K�[�^8;�K��[�^8;�xJZ��8�8�8).[�~8�K��[�^8�8(����76W'B8�y����8����8�(
+n8�8�ijފ�8�8(�����B�276W'FVBF�B������8	�88�K��[�^8^8(�8n8N8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�76W'BF�B��� �yJ��	C�K��Z��8X�Nij�8K��k��8�8�8).8i��z+�8�8N[�~8�y��Z��88���8�8(�8" �K賢F�R&W�'B76W'G2F�BF�R�Ɩ7�v���&VGV6RV֗76���2� ���3�8�8�ZY�i��8�88�8�iK�z�n8�h�.X{��x�8).X��k��8�8(�8�ijފ�8~8n8N8(�8" ��8;�76W'B��Rw2����6V�6V �yJ��	C�Z�yi8;���>8�8�8�Z��8~8n�z�X�n8�xJZ��8).[�~8�K��[�^8�8(�8" �K賢F�RFVfV�F�B6��F��VVBF�76W'B��2����6V�6RFW7�FRF�R�WrWf�FV�6R� ���3�ik8�8����h�8�X{�8�8�8(.8�8�8(�8(�8�8�*�Y�8�xJZ��8).K��[�^8~{i�88�8" ��8;�76W'BF�RW��7FV�6R�b8�K��x��8� �yJ��	C�Z�n�>8;�i[Z�n8�8�8~8K�^8�8�ZَYʎ8�8(�8�Yޚ�8�8~8n��8�8(�8" �K賢F�RF�V�&V�76W'G2F�RW��7FV�6R�bV�VR6��WF���� ���3�8�8�Z�yn8�8K�hH�8�z>8�ZَYʎ8�8(�8>8�8).��8�8n8N8(�8" ��8;�76W'B6��f�FV�Fǒ�&��Fǖ �yJ��	C�z+�K�8(NZJ~�8n8^8).8(.8>8nijފ�8�8(�jy�Z�8).zK�8�8" �K賢6�R6��f�FV�Fǒ76W'FVBF�BF�Rf�wW&W2vW&R67W&FR� ���3�[��Z[>8�88�8�i[X
+N8�j�>z+�88��z�K�8).8(.8>8nijފ�8~8�8" ��8;��B�2v�FVǒ��gFV�76W'FVBF�B��� �yJ��	C�K����8�88�8�8�8~88~88�8nK��[�^8^8(�8n8N8(�8�8K��[�^�^8).i��zK�8�8�8���8�8(�8" �K賢�B�2�gFV�76W'FVBF�BFV6�����w���W2ƖfR6���W"� ���3�88n8*�88�8:�8+�8;�8�yI�kK�8).8(�8(�{
+Xَ8�8�8(�8�88~88~8K��[�^8^8(�8(�8" ��8;�76W'B�F�&V7B7VV6� �yJ��	C�x�����8(NZ�>8~8y����8).y�Nh�^[�^yJ�8~8n[�~8���8NX�~8>8�8>8�8).zK�8�8" �K賢(	�F�B66�V�B�2f�6R�(	�F�Rv�F�W7276W'FVB� ���3�8�8�8�i��8�K��Z��8~8�8�8N8�8����K��8�ijފ�8~8�8" ��8	���k9^8;�k:�hH�8	76W'B8��	�[��876W'BF�B���8�F�Nz�88�8�8�76W'B��Rw2����6V�6V8�8(�8n8�Yފ��X�^8).y��y�N���8�X�n8(�8.�;�8�76W'B&�WB���8��	�[��yJ�8N8�8Xh^Z�8�y�Nh�^y��y�N���8�F�Nz�8~{��8�8.K�ik�876W'B6��WF���r&�WB���8�8(�8n8�y��y�N���8).{��8888	�8�8N8N8nK�^8�8).K��[�^8�8(�8�8N8n[�.8�X���;�8~8.8(�8" ��76W'B8�8Ί��i��8�8(�8�8�y��Z��88�z+����8�8(�8�8�8N8nhH�Y>8~8�8�8N8&�R76W'FVBF�BF�Rf�wW&W2vW&R6�'&V7B�8�8[��8�8�8n[�~8���8�8�8>8�8).��8�888~8i[X
+N8�j�>8~8^8Ί��i��8^8(�8�8>8�8�Y
+�8�8�8N8" �Xَ{IN8�6�8(�8(�8(.K��[�^8�[�~8^8;�z+�K�8;�X�ފ�n8�8�jx�8�8�X{�8(N8�8N8.X��Z��8�8ff�&�8�j�h�8(Nz+�K�8�Y��8^8�z+����86���8�iʮ���i��8;�K��8N8�KٞY�8�8.8(�K��[�^8�8N8nY
+�8�8�X{�8(N8�8N8" ��f8�8�8�89~8:�8+8:�89�8;>8+�����8�8.8(�76W'F8�8i�K�n[��8�y��8~8.8(�8�8N8nX��h�8).Z����i�.8�z+����8�8(�jx�ih~8~8.8(�8�	�[��8ih~8�76W'BF�B���8�8�jx�ih~8(.X8�8�8(.y[8�8(�8" ��8	��{꞊��8	��8;�7FFR �Z�{ꓢK��Z��8;�hH��h�8;�h8^Z8).����8~��8�8(�8" ���[�c�8��8� ��^8C�7FFV8�i�8(.K��z��y�N8~8y����8�[�~8^8(NX�ފ�n8�8�Z��h�~Z{�X�.8).[�^8�8~8(.Y
+�8�8�8N8&76W'F8�8(�8(�[�~8�8y��Z��88�h��8~X{�8�8" �K賢F�R��F�6R7FFW2F�B��V�B�2GVR'�g&�F�� ���3�8�8�	�y�^8�8�8iJ�h�^8Ni����8��yi��iz^88�����Ȟ8^8(�8n8N8(�8" ��8;�FV6�&R �Z�{ꓢXZ�8�8XZ�[��8�88�8�8�i��z+�8�K�^8�8).��8�8(�8" ���[�c�8���8� ��^8C�FV6�&V8�XZΊ�8;�XZ�[��y����8�XN��.8�[�~8N8&76W'F8�XZ�y�Ny����8~8�8�8n8(.8X�ފ�n8).�h��h�8~8�[�~8NK��[�^8�K��8�8(�8" �K賢F�R���"FV6�&VBF�BF�R6�G�v�V�B7W�'BF�R&��V7B� ���3�[�.�[~8�8[�.8�8�8�yK�8).iJ�h�N8�8(�8�XZ�8���i��8~8�8" ��8;�ff�&� �Z�{ꓢK��Z��8;�K�[�^8;�X�Nij�8�8�8).j�>8~8N8�i��z+�8�z+����8�8(�8" ���[�c�8�r�8� ��^8C�ff�&�8����h�8{XΚ�>8K�[�^8�8�8�Y��8^8�z+�K�8(Nz+����8).zK�8~8(N8�8N8&76W'F8�j�h�8�iȞxJ8).YX�8(�8�8[�~8���8NX�~8(�8>8�8�xJnx+�8�8.8(�8" �K賢F�R6�W'Bff�&�VBF�RfƖF�G��bF�Rw&VV�V�B� ���3��8X�Nh�8�88�8�Y�hH�8�iȞX��h
+~8).z+����8~8�8" ��8;�6��� �Z�{ꓢK�^8�8�K��Z��8;�j��X��8;��8~j�8�8�88�K��[�^8�8(�8" ���[�c�8���8� ��^8C�6���8�8�8�8n88���8�8(�8�8>8�8�X�8�8���i��K�ދk>8;�K��8N8�KٞY�8;����^8�X�K��y�NK��[�^8�8N8nY
+�8�8�X{�8(N8�8N8&76W'F8�K��[�^8�[�~8^8).X�ޙ�.8�X{�8�8" �K賢F�R6���6���2F�B�G2&�GV7B�26���WFVǒ6fR� ���3�8�8�KɮzK�8�8�z�zK�;�Y88�Z��XZ�8�Z�XZ�88�K��[�^8~8n8N8(�8" ��8;����F�� �Z�{ꓢX�ފ�n8(Nyi8N8�8.8>8n8(.8Y�8�K��[�^8).h�8{i�88n��8�8(�8" ���[�c�8���8� ��^8C����F��8�K��[�^8).{�8(���N8~8z��ZN8).ZH�8�8�8Nh�{i�h
+~8�xJnx+�8�8.8(�8&76W'F8�K�[�n8�[�~8NK��[�^8�8(.K��8�8(�8" �K賢F�R��W&�Ɨ7B���F��VBF�BF�R6�W&6Rv2&VƖ&�R� ���3�8�8�8+�8:>8;�88�8:�8+�88�8�88�8�h8^Zk�8�K���8~8�8(�8�K��[�^8~{i�88�8" ��8	X��hH����8	��8;�FV� �Z�{ꓢK��Z��8;�K��[�^8;��j.K��8�8�8).y��Z��8~8�8�8N88�8�8��z�X�n8�8��j.K�.8�8N8���8�8(�8" ���[�c�8���8� ��^8C�FV�8�Yޚ�8).Y
+nZ�8�8(�ik�Y	8�y����8~8Xh^Z�8).y��Z��88�h��8~X{�8�76W'F8�X��Z��8�Y	8�8).8(.8N8" �K賢F�Rv�F�W72FV�VBF�R��VvF���� ���3�8�8�K��8�88�8�yK>8~z��8n8).Y
+nZ�8~8�8" ��"�8	K�nX�^���8	j��X��8;�j��Z�8�8�8).K��[�^8~8���8(8^8�8(���8	iz^i�Ί�>8;�Z�{�8	�z�X�n8�j��X��8;�j��Z�8;�iJ��X�8;�x��z��8�8�8).8����8(Nk�xKn8�8~8���X�^8�8(�8>8ny��h��8;�{XN{�N8����8(8^8�8(�8n8�8�8(�8.Xَ8�8�j��X��8�8.8(�8���8n8�888~8�8�8��ފَ8;�X�~���8;�iJ��X�8).k.8(8(�X8�8�8�88).Y
+�8(8" ��j��X��8(Nj����8).Z�����8�x�.[�~8~8�8�8>8�8�8~8�hH�Y>8~8�8N8&76W'B6���8�k9^[�8;�XZ�[��ih~i��8~8Ί��k.8;�K��[�^8).h�zK�8~8���8(8(�8(�8nk.8(8(�8�8�8N8nhH�Y>8�8�8(�[�~8(�8�8���k.8Ί��8(8(�8(�8�8>8�8).��8�8(�88~8�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.iz^[��8�Z��K���j.K�.8�8(�8iK�k+�8{XN{�N8k9^[�8Y�ޙ���j.K�.8�8~K��8n8&76W'BWF��&�G�8(B76W'BF�֖��6V8�8k�xKn8�8~8��z�[{K��[�^8�8(.8iJ��X�y�N8;�Z�Y�~y�N8�h��8(����8N8�8(.8�8(�[�~8(�8" ��8	ih~k9^898+�8;�8;>8	76W'B��Rw2&�v�G2���FWV�FV�6R�WF��&�G��6��G&�����j��X��8;�x��z��8;�j��Z�8;�iJ��X�8).K��[�^8�8(����76W'B6���F�8�&�W'G����N8���ދ*yJ>8;�Y��Y�8�8�j��X��8).K��[�^8�8(����76W'BF�֖��6R�fW"8�W'6���w&�W8����K��8;���nY�>8�Z��8�8(�XJ�K��8).zK�8����76W'B�vW"�fW"8�W'6�����7F�GWF���8����K��8;�{XN{�N8�Z��8�8(�j��X��8).zK�8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�76W'B��Rw2&�v�G6 �yJ��	C��z�X�n8����8(8(�8(�8(�8�8�j��X��8).8y��h��8(NX�n[�n8���ފَ8^8�8(�8n8�8�8(�8" �K賢F�RFV��G2�&v旦VBF�76W'BF�V�"&�v�G2� ���3�X	�Z�nK��8�88�8�z�X�n8�88�j��X��8).K��[�^8�8(�8�8(8�{XN{�N8~8�8" ��8;�76W'B��Rw2��FWV�FV�6V �yJ��	C�K�n�^8;�K�nY��8;��j�{XN{�N8�8(�x��z��8~8�z��ZN8).���8(8^8�8(�8" �K賢F�R�Wrv�fW&��V�B6�Vv�BF�76W'B�G2��FWV�FV�6Rg&��F�Rf�&�W"6������vW"� ���3�ikiK�[��8�88�8N8n8�jH�k	Y�iJ��X�Y��8�8(�8�x��z��8).���8(8^8�8(�8n8�8~8�8" ��8;�76W'BWF��&�G��fW"8�V��R�FV�8� �yJ��	C�K��8^8(N888;�8:8�Z��8�8(��z�X�n8�h�~h��j��8;�j����8).zK�8�8" �K賢F�R��vW"76W'FVB�W"WF��&�G��fW"F�R6��F�2�VWF��r� ���3�8�8�z�yn�~8�8k{~K�8~8�Kɮ��8~�z�X�n8�j����8).zK�8~8�8" ��8;�76W'B6��G&���fW"8�&V�6�GVF���8� �yJ��	C�Y�Y��8(Nx�nk88).�z�X�n8�z�ynK��8�{��8>8n8�8�8(�8" �K賢F�RvV�7��2G'���rF�76W'B6��G&���fW"F�R&�&FW"&V� ���3�8�8�j���j.8�8Y��Z(>Y�Y��8).z�ynK��8�{��8>8n8�8~8n8N8(�8" ��8;�76W'BF�֖��6R�fW"8�&�f��w&�W8� �yJ��	C�z�nK��y��h��8(N��nY�>8�Z��8�8(�XJ�K��8;�iJ��X�8).zK�8�8" �K賢F�R�&vW"��RG&�VBF�76W'BF�֖��6R�fW"F�Rw&�W� ���3�8�8�ZJ~8�8���N8�8{�N8(�8�Z��8�8(�XJ�K��8).zK�8�8n8�8~8�8" ��8;�76W'B6���F�8���B�&�W'G�8� �yJ��	C�Y��Y�8(N�*yJ>8�8N8N8n8�z�X�n8�j��X��8�8.8(�8�XZ�[��8�K��[�^8�8(�8" �K賢F�R6���76W'FVB6���F�F�RF�7WFVB��B��6�W'B� ���3�8�8�KɮzK�8�8�8X�Nh�8~K�.K��K��8�Y��Y�8�8�j��X��8).K��[�^8~8�8" ��8	���k9^8;�k:�hH�8	76W'B��Rw2&�v�G68�j��X��8�k9^y�N8�z+�Z�8~8�8>8�8~8�8�8�8j��X��8).���8(8(�8(�8nk.8(8(���x+�8).��8�8&76W'BWF��&�G�8(.8y��h��8�Z�����8�[�>8>8�8>8�8�8~8�Y
+�8�8�8N8" ��76W'B6��G&��8�z�yn8;�iJ��X�8).z+�z��8~8(�8n8�8�8(�X8�8�8�88�xJnx+�8�8.8(�88�8~8�Z��XZ�8�iJ��X�8~8n8N8(�8�8N8nXَ{IN8�x�nhX����i��8�8�y[8�8(�8" �76W'B6���F����8���R6���F����8(�8(�z�8�8XZ�[��8;�k9^[�y�N8����8�8�8.8(�8&76W'B6���8���8>8n8(.8���k.8Ί��8(8(�8(�8�8h�iȞj��8�z+�Z�8~8�8�8N8nhH�Y>8�8�8�8(�8�8N8" �8>8�{�8~8�y��y�N���8�&�v�G68WF��&�G�86��G&��8F�֖��6V8�8�8K�n�^8����8(8^8�8(�Z��8).{��8�8.Xَ8�8(�K��Z��8�K��[�^8�8(����{�8�76W'BF�B���8).K��8n8" ��8	��{꞊��8	��8;�6��� �Z�{ꓢj��X��8h�iȞj��8�8~j�8�8�8Έz�X�n8�8.8(�8�K��[�^8�8(�8" ���[�c�8���8� ��^8C�6���8�j��X��8;�h�iȞ8�8�8�K��[�^8�8�8(.8�8�xJnx+�8�8.8(�876W'F8(�8(�8(.8K��[�^8�[�~8NhX�[�n8(N���8(8^8�8(�X8�8�8�88).[�^8�8~8(.Y
+�8�8�8N8" �K賢6WfW&�f֖ƖW26����v�W'6���bF�R��B� ���3��H~i[8�Z�nix�8�88�8�Y��Y�8�h�iȞj��8).K��[�^8~8n8N8(�8" ��8;���6�7B�� �Z�{ꓢK�^8�8).[�>xKn8�8>8�8�8~8n[�~8�k.8(8��.8(�8�8N8" ���[�c�8���8� ��^8C���6�7B��8��hk.8).{�8(���N8~8n��.jڞ8~8�8NhX�[�n8�xJnx+�8�8.8(�8&76W'F8�j��X��8;�j��Z�8).��ފَ8^8�8(���x+�8).8(�8(�[�>8���8�8" �K賢6�R��6�7FVB���W"&�v�BF�7V�BF�R�V&��r� ���3�[��Z[>8�88�8�XZΈNKɮ8~y����8�8(�j��X��8).[�~8�K��[�^8~8n��.8(�8�8�8>8�8" ��8;�FVfV�B �Z�{ꓢiK�i(>8;�X�ފ�n8;�K�^Z�>8�8(�j��X��8z��ZN8X��y��8�8�8).Z�8(�8" ���[�c�8���8� ��^8C�FVfV�F8��	�[��88�8~8�ZَYʎ8�8(�j��X��8(Nz��ZN8�8�H^Z�8�Z��h�~8�8(�8>8�8�xJnx+�8�8.8(�8&76W'F8�88�8���8(8(�8(�8n8N8�8Nj��X��8;�j��Z�8).X�ޙ�.8�X{�8�ZNY�8�8(.K��8n8" �K賢F�R�w�W"FVfV�FVB�W"6ƖV�Bw2&�v�BF�&�f7�� ���3�8�8�[���~Z:�8�8K�ޚ�K��8�89~8:�8*N898+~8;�j��8).i8��~8~8�8" ��8;�W�W&6�6R �Z�{ꓢj��X��8j����8[����X��8�8�8).Z�����8���K��8�8(�8" ���[�c�8���8� ��^8C�W�W&6�6RWF��&�G�8�j����8).Z�����8�K��8n8>8�8).��8�8&76W'BWF��&�G�8�88�8��z�X�n8�j����8).zK�8~8n���8(8^8�8(�[��.8�xJnx+�8�8.8(�8" �K賢F�R&�&BW�W&6�6VB�G2WF��&�G�F�7W7V�BF�R&��V7B� ���3�X�n{z[۞Kɮ8�889~8:�8+�8*~8*�88�8).X�j�.8�8(�j����8).��K��8~8�8" ��8;�V�f�&6R �Z�{ꓢk9^[�8�h�X�~8j��X��8�8�8).Z�����8�Z�8(�8�8X��X��8).X��8�8�8" ���[�c�8���8� ��^8C�V�f�&6V8��h�X�~8(Nk�Z�8).K�n�^8�[�>8(�8�8(�Z����j�^���8).zK�8�8&76W'F8�j��X��8(Nj��Z�8).K��[�^8~8n��ފَ8).k.8(8(�j�^���8�8(.K��8�8(�8" �K賢F�R&VwV�F�"V�f�&6VBF�R�Wr6fWG�7F�F&G2� ���3��h�X�n[�>[8�8ik8~8NZ�XZ�Y��k�n8).Z�����8�Z�8(�8�8�8" ��8	X��hH����8	��8;�&VƖ�V�6� �Z�{ꓢj��X��8���k.8iJ��X�8h�iȞ8�8�8).�z�8(�h��iK�8�8" ���[�c�8�b�8� ��^8C�&VƖ�V�6�8�j��X��8(NiJ��X�8).{j�h�8;�K��[�^8�8(�76W'F8�X��Z��8�88�8(�8(�8).iK�j8N8�8(�8>8�8).��8�8" �K賢F�R6���&VƖ�V�6�VB�G26���F�F�RF�7WFVB&�W'G�� ���3�8�8�KɮzK�8�8K�.K��K��8�*yJ>8�8�k.j��8).iK�j8N8~8�8" ��8;�7W'&V�FW" �Z�{ꓢj��X��8iJ��X�8h�^h�~8�8�8).h��iK�8~8y��h��8�k�8�8" ���[�c�8�b�8� ��^8C�7W'&V�FW&8�j��X��8;�iJ��X�8;�h�^h�~8�8�8).h��iK�8�8>8�8).��8~88�8(�8(�8).X�ޙ�.8�X{�8~8n���8(8^8�8(�8n8�8�8(�76W'F8�X��Z��ik�Y	8~8.8(�8" �K賢F�R&V&V�27W'&V�FW&VB6��G&���bF�R6�G�� ���3�X��K����8�8�8�;�[�.8�iJ��X�j��8).h��iK�8~8�8" ��2�8	K�nX�^���8;�Xh�[�jx�ih~8	�z�[{K��[�^8�8(���8	iz^i�Ί�>8;�Z�{�8	76W'B��W6V�f8�[�.8~8�z�X�n8�hH��h�8;�j��X��8;�ZَYʎ8).8z+�K�8�k�hH�8).8(.8>8n��8~8Y�Y�.8�k:�hH�8).Y	88^8�8�8(����8(8^8�8�8(�8�8(�8.8�8�8�8~8�[�^8�K��8�8(�8�8N8>8�8).��8�8�8[�^8�8~8(.iK�i(>y�N8;�Z�Y�~y�N8~8.8(�8�8���8(�8�8Z��K��8+�8*�8:�8�8~8n�*�Z�y�N8�K��8(�8(�8(�8>8�8(.ZI�8N8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.�~ZN8Kɮ��8K�Nk��8iY��+.8[�>yn8;�8+>89�8:^88�8+8;�8+~8:~8;>8�ih~�H�8~K��8n8&76W'B��W'6V�b��&V8�8�hZ�8~8�8�8(�K��8�8�X����8�8~8n�z�xKn8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	76W'B��W6V�f��ވz�[{K��[�^8�8(����76W'B��W6V�b��8��VWF��r�F�67W76���8����Kɮ��8;�����n8~�z�[{K��[�^8�8(����76W'B��W6V�bv�F�8�j����8).8(.8NK��8����j��Z�8�8.8(�y��h��8�Z��8~8n�z�[{K��[�^8�8(�����V&��G'�F�76W'B��W6V�f��ވz�[{K��[�^8�8(�8>8�8).���8�8N88(�8;���n8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�76W'B��W6V�b���VWF��v �yJ��	C�Kɮ��8~�z�X�n8�hH��h�8(Nz��ZN8).8�8>8�8(�zK�8�8" �K賢6�RW6VBF�7F�6��V�B���VWF��w2�'WB��r6�R76W'G2�W'6V�b���VWF��w2� ���3�[��Z[>8�K�^X��8�Kɮ��8~���8>8n8N8�8�8K��8~8�Kɮ��8~�z�[{K��[�^8�8(�8" ��8;�76W'B��W6V�bv�F�8�j����8).8(.8NK��8� �yJ��	C�K��X��8(Nj����8).8(.8Ny��h��8�8(.8�z�X�n8�hH��h�8;�j��X��8).K��8�8(�8" �K賢�R�2�V&��rF�76W'B���6V�bv�F�V��R��WF��&�G�� ���3�[��8�8j����8�8.8(�K��8�Z��8~8n8(.�z�[{K��[�^8�8(�8>8�8).Z�n8)>8~8N8(�8" ��8;��V&�F�76W'B��W6V�f �yJ��	C��hZ�8�8�8�z�X�n8�>8�8(N�hk.8).��8�X��8).���8�8N88(�8" �K賢F�R6�W'6R�V�VB�WrV����VW2�V&�F�76W'BF�V�6V�fW2&W7V7FgV�ǒ� ���3�8�8�ɾ[�~8�8ikXZ^zK�Y:8�zK�XHj�>8~8��z�[{K��[�^8�8(�8>8�8).Z�n8nX��88�8�8>8�8" ��8;�G'�F�76W'B��W'6V�f �yJ��	C��z�X�n8�hH��h�8;�ZَYʎ8).���8(8n8(.8(�8�8n8���n8�8(�8" �K賢�b��RF�6w&VR�G'�F�76W'B��W'6V�bv�F��WB��FW''WF��r�F�W'2� ���3�X��Z��hH��h�8�8.8(�8�8(�8K�nK��88).��8(�8�8��z�[{K��[�^8~8n8�8�8^8N8" ��8;�76W'B��W'6V�b��&V �yJ��	C�8>8(�8�8~8(�8(�z��j[^y�N8�y����8;���X�^8�8(�8(�8nK�>8�8" �K賢��R�VVBF�76W'B��W'6V�b��&R�b��Rv�B��W"�FV2F�&R�V&B� ���3��z�X�n8�>8�8).��8N8n8(.8(�8N8�8N8�8(�88(.8>8��z�[{K��[�^8�8(�[�^�h8�8.8(�8" ��8;�76W'B��W6V�bv�F��WB&V��rvw&W76�fV �yJ��	C�iK�i(>y�N8�8�8(�8�8�8i��z+�8�8Nj�^xKn8��z�[{K��[�^8�8(�8" �K賢v��B�VFW'276W'BF�V�6V�fW2v�F��WB&V��rvw&W76�fR� ���3�XJ�8(�8�8:�8;�888;�8�8iK�i(>y�N8�8�8(�8�8��z�[{K��[�^8�8(�8" ��8	���k9^8;�k:�hH�8	8>8�{�8~8�Xh�[�K�>Yފ��8�[�^�h8~8K�����8�Y�8(�8�8b76W'Bח6V�b���W'6V�b����6V�b��W'6V�b��W'6V�fW2�F�V�6V�fW68�ZH�X�n8�8(�8&76W'B��W'6V�f8)"76W'B��V8�8�8~8�8N8" ��76W'B��W6V�f8�8Έz�X�n8�j��X��8).K��[�^8�8(�8�ZNY�8�8(.K��8�8(�8�8���{�.8�76W'B��Rw2&�v�G68(�8(�8K��8�Z��K��ZN��.8~�z�X�n8�hH��h�8;�ZَYʎ8).X�ޙ�.8�X{�8���X�^XZ����8�xJnx+�8�8.8(�8" �76W'F�fR8�8Έz�K�8).8(.8>8nx�~y�N8��z�X�n8�>8�8(Nj��X��8).��8�8�8�8N8n�*�Z�y�N8;�K��z��y�N8�8>8�8�ZI�8�8vw&W76�f^8�y��h��8�j��X��8).�~8�8�iK�i(>y�N8�8�8�8�XˮX�^8�8(�8&76W'B��W6V�f�z�K�>8(.ih~�H�8�8(�8>8n8�h��8~8�[�~8N8�8N8nY
+nZ�y�NY
+�8�8).[��8>8(�8" ��8	��{꞊��8	��8;�7V�W �Z�{ꓢhH��h�8�:�YX�8y[��8�8�8).Z;8�X{�8~8n��8�8(�8" ���[�c�8���8� ��^8C�7V�W8����8>8n8N8(�x�nk88~y����8�8(�8>8�8�xJnx+�8�8.8(�8j��X��8(NZَYʎ8).���8(8^8�8(�[�~8^8�8~8�[�^8�8~8(.Y
+�8�8�8N8" �K賢�V6R7V�W�b��R�fR6��6W&�&�WBF�R��� ���3�8�8�yK�8�h{�[�^8�8.8(�88�hZ�8�8���8>8n8�88^8N8" ��8;�7F�BWf�"��W6V�b �Z�{ꓢK��[�>8�h�8N8(NY�~X��8�Z��8~8n8�z�X�n8).Z�8(�8�8(8�X�ފ�n8;�K��[�^8�8(�8" ���[�c�8���8� ��^8C�7F�BWf�"��W6V�f8�y��h��8�8(�8�iK�i(>8;�K��XZ�[�>8;�K�^Z�>8�8�Z��h�~8).[�~8�zK�8�8&76W'B��W6V�f8�Z��z��8�8�8NZN��.8~ZَYʎhI�8).zK�8�ZNY�8�8(.K��8�8(�8" �K賢6�Rf���ǒ7F��BWf�"�W'6V�bv�V��W"6���VwVRF���7&VF�Bf�"�W"v�&�� ���3�Y�X9�8Έz�X�n8�K�^K��8�X��{��8).j��X�n8(�8~8�8�8�8[��Z[>8�8N8N8��z�X�n8�8�8(8�z��8K��8�8>8�8" ��8;�&R76W'F�fR �Z�{ꓢ�z�K�8).8(.8>8nx�~y�N8�hH��h�8(N�hk.8).��8�8" ���[�c�8�r�8� ��^8C�&R76W'F�fV8�h
+~j�8;�hX�[�n8�x��h
+~8).��8�8(�[�.8~876W'B��W6V�f8�x��Z�8�ZN��.8~�z�[{K��[�^8�8(���x+�8).��8�8(�8" �K賢��R6�&R76W'F�fRv�F��WB6�V�F��r'VFR� ���3�ZKzK�8���8>8�8�8�8n8(.8�z�[{K��[�^8�8~8�8(�8" ��8;�WB��W6V�bf�'v&B �Z�{ꓢ�z�X�n8).X	��9�8;�ZَYʎhI�8�8.8(�K��x��8�8~8nX�ޙ�.8�X{�8�8" ���[�c�8�r�8� ��^8C�WB��W6V�bf�'v&F8�[۞�~8j��Kɮ8���>8�8�8��z�X�n8).Z;.8(����8(Y
+�8�8�[�~8�8j��X��K�^Z�>8�8�Z��h�~8).[�^8�8~8(.��8^8�8N8" �K賢�R�2&V�V7F�BF�WB���6V�bf�'v&Bf�"F�R�VFW'6��&��R� ���3�[��8�h�~[�^8�[۞X�.8��z�X�n8�8(�Y�K�~8(�X{�8(�8>8�8).8�8(8(�8>8n8N8(�8" ��8;���R��W6V�b�V&B �Z�{ꓢ�z�X�n8�hH��h�8(N�hk.8�Y�Y�.8�[�8�8xJ�in8^8(�8�8N8(�8n8�8�8(�8" ���[�c�8�r�8� ��^8C���R��W6V�b�V&F8�ih~Z�~8�8�8(�Z;8).[�8�8�8(�ZNY�8(.8.8(�876W'B��W6V�f8(�8(�8�hH��h�8).��8�8�8(�8�{Yi��8�xJnx+�8�8.8(�8" �K賢F�R&W6�FV�G2�FRF�V�6V�fW2�V&BBF�RV&Ɩ2�VWF��r� ���3�K��k	8�88�XZΙh���nKɮ8~�z�X�n8�88�hH��h�8).8�8>8�8(�K��8�8�8" ��8	X��hH����8	��8;����B&6� �Z�{ꓢhH��h�8hI�h8^8��X�^8�8�8).h�8�8n8X�ޙ�.8�X{�8^8�8N8" ���[�c�8���8� ��^8C����B&6�8��z�[{K��[�^8~8nZَYʎ8(NhH��h�8).zK�8�76W'B��W6V�f8�X��Z��8�8�hZ�8(NK��Z�8�8�8�8(��z�X�n8).h�8�8(�8>8�8).��8�8" �K賢F��wB���B&6�(	GFV��F�RFV�v�B��R&V�ǒF���� ���3��hZ�8�8�8888;�8:8�i��[�>8�>8�8).K��8�8n8�88^8N8" ��8;�7V&֗B �Z�{ꓢK�n�^8�j��Z�8;�X�Nij�8;��hk.8�[�>8N8�z�X�n8�z��ZN8).h��8~�	�8^8�8N8" ���[�c�8�r�8� ��^8C�7V&֗F8�y��h��8�j��Z�8�[�>8n8>8�8).[�~8�zK�8�8�8(8�z�[{K��[�^8).h�~8�8(���X�^8�8�Z��xZ~8�K��8�8(�8" �K賢6�R7V&֗GFVBF�&W77W&R�B�WB�W"�����2F��W'6V�b� ���3�[��Z[>8�Y�~X��8�[�8~8�z�X�n8�hH��h�8).X�>8�8~8�8�8>8�8" ��B�8	K�nX�^���8;�Xh�[�jx�ih~8	�ȎK��yJ�8;�hI�h8^8�8�8��Ȟx��8(�Zx�8(8(�8[����8).X��8�8~Zx�8(8(���8	iz^i�Ί�>8;�Z�{�8	76W'B�G6V�f8�[�.8~8X��i��8YX���8hI�h8^8X+�Y	8�8�8�j�z��8�8�8>8�8(�x��8(�8�8(�8x��Z��8�[����8).X��8�8~Zx�8(8�8(�8�8(�8.K��8�j��X��8).K��[�^8�8(�8�8~8�8�8�8h�ދy�N8�8(.8�8Έz�X�n8�ZَYʎ8;�[����8).X�ޙ�.8�X{�8�8(�8n8�h��Xi�8�8(�j�NYj�y�N8�yJ�k9^8~8.8(�8" ��8	��[�n8	8�B�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8(N8(Nz�8Ni��8ފ���8;�ih~Z�ny�N��x��8.ZY�8��^��n8h��Xi�8�8�8~�h�8(�8(�8iz^[��Kɮ��8~8�&V6��R&V�F87F'BF��fR�VffV7F8��R�G6V�bfV�F8�8�8���8Nh��8�8(�8>8�8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	8�VffV7B�&�&�V��fVVƖ�~8�76W'B�G6V�f���X��i��8;�YX���8;�hI�h8^8�8�8�x��8(�Zx�8(8(����&Vv���7F'BF�76W'B�G6V�f���x��8(�Zx�8(8(�8;�[����8~Zx�8(8(����76W'B�G6V�b��8�FF�&V�f��.8����88~8;�8+�8;���X�^8�8�8�x��8(�8(����76W'B�G6V�bv�����Xh�8>����.X�n8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�F�RVffV7G2�b8�X��Y�8;�Xzn{��8�76W'BF�V�6V�fW6 �yJ��	C�K�^8�8�X��i��8;�[����8�8Z�����8�{Yi��8�8~8nx��8(�Zx�8(8(�8" �K賢F�RVffV7G2�bF�RG&VF�V�B6���76W'FVBF�V�6V�fW2� ���3�8�8�k+�y�.8�X��i��8�8�88�x��8(�Zx�8(8�8" ��8;�&Vv��F�76W'B�G6V�f �yJ��	C�yk.X�N8yy�8�8hI�h8^8�8�8�j�z��8�hI�8�8(�8(�8(�8(�8n8�8�8(�8" �K賢'��FRgFW&�����fF�wVR&Vv�F�76W'B�G6V�b� ���3�X؎[�Θ^8�8�8�8(�8�8yk.X�N8�X{�Zx�8(8�8" ��8;�76W'B�G6V�b��8�FF�&V�f��.8� �yJ��	C�X+�Y	8(NYX���8�888~8;�8+�8(N��X�^8�y��8��h�8�8(�[�.8~x��8(�8(�8" �K賢F�RF�v�v&BG&V�B76W'FVB�G6V�b��F�R�FW7Bf�wW&W2� ���3�K�����X+�Y	8�i�ik8�i[X
+N8�8�8>8�8(�x��8(�8�8" ��8;�76W'B�G6V�bv�� �yJ��	C�8N8>8�8)>[�8�8>8�YX���8;�{x�[�^8;�[����8�8�8�Xh�8>����.X�n8�8(�8" �K賢F�R��BFV�6���76W'FVB�G6V�bv��GW&��rF�R�Vv�F�F���2� ���3�K�Nk��K��8K�^X��8�8(�8�{x�[�^8�Xh�8>����.X�n8~8�8" ��8	���k9^8;�k:�hH�8	K�����8�8�VffV7F8��f�VV�6V8fF�wVV8FV�6���8G&V�F8�8�8�xJyI�x��8;�h�ދYފ��8).{��8�8&�G6V�f8�K�����8�Y�8(�8�8�Xh�[�K�>Yފ��8~876W'B�G26V�f8�8�i��8�8�8N8" ��8>8�76W'B�G6V�f8�8�j��X��8).K��[�^8�8(�8�8�8N8nhH�Y>8~8�8�8N8.iz^i�Ί��8~8�8�x��8(�8(�8�8�[����8�X{�8(�8�8Ί���.X�n8�8(�8�8�X��8N8n8�8(�8�8�8�8ih~�H�8�[��8�8n��>8�8" �76W'B�G6V�f8�6��r�G6V�f8(�8(�z�8�8Xَ8��h�8�8(�888~8�8�8[����8(NZَYʎhI�8�j�z��8�[�~8�8�8(�Y
+�8�8).8(.8N8>8�8�8.8(�8" ��8	��{꞊��8	��8;�V�W&vR �Z�{ꓢ��8(�8n8N8�8(.8�8iʮy�^88>8�8(.8�8�x��8(�8(�8;�i��8(�8�8�8�8(�8" ���[�c�8���8� ��^8C�V�W&vV8���8(�8�8(.8�8�x��8(�8(���z��8�xJnx+�8�8.8(�876W'B�G6V�f8�8(�8n8�[�~8NZَYʎhI�8(N[����8�Y
+�8�8�[�^��8~8�8�8N8" �K賢6�V"GFW&�V�W&vVB��F�RFF� ���3�88~8;�8+�8�K��8�i��z+�8�898+�8;�8;>8�x��8(�8�8" ��8;���fW7B�G6V�b �Z�{ꓢh
+~�:�8yx~x�n8YX���8�8�8�X[~K�>y�N8�[�.8~x��8(�8(�8" ���[�c�8�b�8� ��^8C���fW7B�G6V�f8�z�8�8Xh^Yʎ8�8(�h
+~�:�8(Nyx~x�n8�ZIn8���8(�8(�8>8�8�xJnx+�8�8.8(�8&76W'B�G6V�f8�[����X��8�x��8(�Zx�8(8(�hI�8�8).X{�8~8(N8�8N8" �K賢F�RF�6V6R��fW7FVB�G6V�b��6WfW&�F�ffW&V�Bv�2� ���3�8�8�yx^k	~8�8N8�8N8�8�y[8�8(�[�.8~yx~x�n8).x��8~8�8" ��8;���R�G6V�bfV�B �Z�{ꓢX��i��8[����8ZَYʎ8�8�8�xJ�in8~8�8�8N[�.8~hI�8�8(�8(�8(�8(�8n8�8�8(�8" ���[�c�8�r�8� ��^8C���R�G6V�bfV�F8�[����8).Z�����8�hI�8�8(�{Yi��8�xJnx+�8�8.8(�876W'B�G6V�f8(�8(�j�NYj�y�N8~Z�Y�y�N8~8.8(�8" �K賢F�R6��'FvR�2&Vv����rF���R�G6V�bfV�B7&�72F�R&Vv���� ���3�8�8�K�ދk>8�Y�Y��XZ�K�>8~hI�8�8(�8(�Zx�8(8n8N8(�8" ��8;�&V6��R&V�B �Z�{ꓢK��Z��8YX���8ynyK8�8�8�i��8(�8�8�8�8(�8" ���[�c�8���8� ��^8C�&V6��R&V�F8���ފَK��i��8(�8�8�8�8(�8>8�8).K��z��y�N8���8~876W'B�G6V�f8�8(�8n8�K��yJ�8;�X�.8N8�Z)~X�8).[�^8�8~8(.Y
+�8�8�8N8" �K賢F�R66�R�bF�RF�vR&V6�R&V�BgFW"F�R��7V7F���� ���3��*�Z�>8�h�j�8�x+�jI�[��8�i��8(�8�8�8�8>8�8 ����Р�26��6�7FV�@����Ц�VGv�&C�6��6�7FV�@�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#P�WFFVE�C�##b���#P�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{>8;��������츇<��7L���B�8#>��>z�8������4�2�L���B8~8z��.��>z�8�K��[�~X�.8�8.8(�8.z����>z�8�����8�[�8�8z��.��>z�8�����8�K��[�~X�.8).h�^8N8���iʾ8��V�B8�����B�8�y����>8�8(�8" �{kN8(�8�i�X��8�6���8�[�~8B�����8;����&��8~8�8�8�������8���K��8�28��2�8���iʾ8�B8��B�8~8.8(�8" �X�����6��6�7FV�Fǒ8�����츇<��7L���Fƒ�8~86��6�7FV�B8�K��[�~X�.8�K��{��8).K��8>8�8�8�iʾ8��ƒ�8�X�8(�8(�8" ����>���k� ��8:�88n8;>���6��6�7FV�B�86��6�7LI6�>8�8~8>8�8(�z��8>8n8N8(�8{Y8>K��8N8n8N8(�8���Y(�8~8n8N8(�8�8�yKi�^8~86��6�7FW&^8�z��8N88.8(�x�nhX�8�8�8�8�8(�8���Y(�8�8(�8�8�x��YʎX�n���[�.8).8(.8�8�nK�n{H8N8(ވ����8�XZ^8>8�8.���k�K��8�6���8�X[8�8�8�6�7FW&^8�z��8�8�8(�8{��8�8�8�X�n88n���i��8^8(�8(�8>8�8�ZI�8N8" �8ΊH~i[8�h{J8�X[8�z��8888(�88(�8�8�8(�8�8N8�8�8N8n���k�y�N8�y��h;>8�8x��K�>8�8�Y�8�x�nhX�8).K��8N8�8�K�n8�y��y��8~8�8N8�8�8N8nhH�Y>8�{z�8(N8�8�{Y8>K��8�8.8�88~8���k�888�8(�YN[.�h{�8�Z�{�8).[�88(�8(�88~8�8�8N8" �Y�8����ix�8�Z�n{�.���8�6��6�7N8�h�8(�z��8N8jx�h�8^8(�8(�8�86��6�7FV�7�8�K��*�h
+~8i[NY�h
+~8�8��6��6�7FV�N8�K��*�8~8�8N8y��y��8�8(�8�86��6�7FV�FǞ8�K��*�8~8n8[��8�8�8~8.8(�8" ����>���[�.h� ��6��6�7FV�7�(	BYފ��8�K��*�h
+~8Z�Z�h
+~8i[NY�h
+~8�8" �6��6�7FV�Fǖ(	BX�����8�K��*�8~8n8[��8�8�8.X�^K��8(Nx�nhX�8).K��;�8�8(�8" ���6��6�7FV�F(	Bh�^�
+ދ�����8�X��Z��8;�Y
+nZ�8�8).K��88�[�.Z랊��8�K��*�8~8�8N8y��y��8�8(�8�8" ���6��6�7FV�7�(	BYފ��8�K��K��{N8y��y��8K��*�h
+~8�8�8^8�8" ����>8+>8*.8*N8:8;�8+���6��6�7FV�B8�X[�	�j�8�8�H~i[8�h{J8;�i�.x+�8;���X�^8�K�.8N8���.8(�8�8(���z�8~8�8(�8�8�8Y�8�Y��k�n8�8(.8�8~8�8�8�8>8n8N8(�8>8�8~8.8(�8.8>8>8~8N8n8�Y�8�8�8�Z��XZ�8�Y�K�8�8N8nhH�Y>8~8�8�8�8�xފh8�898+�8;�8;>8;�kNk�n8;�X��X�~8�K��8�8(�8n8N8(�8>8�8).h�~8�8" �8;�K��8(N��X�^8�Y�8�Y��k�n8).K��8B(i"8�K��*�8~8�8Z�Z�8~8�8��Ȏ���{��Ȓ �8;�x�nhX�8(N{Yi��8�Y�8�X+�Y	8).K��8B(i"8�Z�Z�8~8�88(8(�8�8�8N8��Ȏ���{�.�Ȓ �8;�K��Z��8(NX�Nij�8�K�.8N8���z�8~8�8B(i"8�K��{N8~8�8y��y��8~8�8N8��Ȏ���{�>�Ȓ �8;�ik�z��[��8(NYޚ�8�Y�i�.8�h�8(�z��8B(i"8�xJy��y��8�8X[�	��z>8).8(.8N8��Ȏ���{�^�Ȓ ����{�N8�{[���Z�n8~j��i��i[8).xJ��8�Z)~8(N8~8�8�8�8�X��i��8).h�~8�[.�h{�8~8K����y�N8�8�Y�8�Y��k�n8).K��8N8�8�8(�8�[�.[��y�N8�i�K�n8�8~K��k��8~8�8�8N8�8(8X�X�^8��i�8�8(�8" ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	[�.Z랊��8;�K��8;���X�^8	K��*�8~8�8Z�Z�8~8�88(8(�8�8�8@��8	iz^i�Ί�>8;�Z�{�8	K��8�8N8N8(.Y�8�8(�8n8�h��8(����8n8Y�8�hH��h�8;�Y��k�n8;�hX�[�n8).K��8N88�8�8�K�^K��8(Nz�nh�8~Z�Z�8~8�kNk�n8).zK�8�8.K��8).��^K�8�8(�8�8�8�8�K���8~8nK��8�8(N8�8N8�8�8N8n�*�Z�y�N8�Y
+�8�8�X{�8(N8�8N8�8Y�8�hX�[�n8(NY��k�n8).K��8>8n8N8(�8>8��z�K�>8).��8����8~8.8(�88�8�Y��k�n8�iɾ8�8~8N8�8���8(�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.iz^[��Kɮ��8�~ZN8iY��+.88+�89�8;�88N8hH��h�8;�����n8�i��8~[�>8�K��8n8.K��8�hX�[�n8�8N8N8n8�88~88~8Z[�hH�y�N8;���^K�y�N8�yJ�8N8(�8" ��8	ih~k9^898+�8;�8;>8	&R�&V����&V6��R6��6�7FV�F���K��*�8~8n8N8(����6��6�7FV�B��8�Yފ��8����8�hX�[�n8;�h�8N8�8�8�8�x+�8~K��*�8~8n8N8(����6��6�7FV�B��F���r������8	�8�8(�x+�8~K��*�8~8n8N8(����6��6�7FV�B8�W'6�����W"�W&f�&�W.8����Z�Z�8~8nY�8�kNk�n8).zK�8�K��8;���h��8;�Z��k�N�R ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&R6��6�7FV�B����Rw2G&VF�V�B�b8�V��^8� �yJ��	C�K��8�8(�8>8nh�8N8).ZH�8�8�8Y�8�Y��k�n8~h�^8�8(�8" �K賢��vW'26��V�B&R6��6�7FV�B��F�V�"G&VF�V�B�bV����VW2� ���3�z�yn�~8�[�>jZ�Y:8�8�h�^8~ik�8�K��*�h
+~8).h�8N8�8�88" ��8;�&R6��6�7FV�B��ǖ��r8�'V�W2�7F�F&G>8� �yJ��	C��h�X�~8(NY��k�n8).ZN��.8N8�8�ZH�8�8�8���yJ�8�8(�8" �K賢F�R66�����W7B&R6��6�7FV�B��ǖ��r�G2F֗76���'V�W2� ���3�8�8�Z�nj
+8�XZ^Z�n�h�X�~8).K��*�8~8n��yJ�8~8�88(�88�8(�8�8N8" ��8;�6��6�7FV�B&�6��GF�GVFR��6�F��� �yJ��	C�YX���8�8�X�n8(�{XN8�ik�8hX�[�n8z��ZN8�K��*�8~8n8N8(�8>8�8).zK�8�8" �K賢F�RFV��2F�V�6��6�7FV�B&�6�F�7W7F��W"6�����G2� ���3�8�8�888;�8:8��~Z�.8�8(�8nh8^8�K��*�8~8�Z��[��8).X�n8>8n8�8�8" ��8;�6��6�7FV�BW&f�&�W"���W& �yJ��	C�K�^K��8(Nz�nh�8~88�8>8�8>Y�8�8(�8n8����8NkNk�n8).zK�8�K��8).��8�8" �K賢6�R�2&VV�F�R6���w2��7B6��6�7FV�BW&f�&�W"F��2�V"� ���3�[��Z[>8�K��[�N88�8�KɮzK�8~i�8(.Z�Z�8~8�h�i��8).K��8.8n8N8(�K��88" ��8;�&V���6��6�7FV�Bv�F���Rw2&��6��W6 �yJ��	C��z�X�n8�X��X�~8�X��8~8�8NhX�[�n8).K��8N8.8>8>8~8�v�F�K�^K��8�Y��k�n8).zK�8�8" �K賢�R&V���VB6��6�7FV�Bv�F���2&��6��W2FW7�FRF�R&W77W&R� ���3�[��8�Y�~X��8).X�~88n8(.�z�X�n8�X��X�~8�X��8~8�8NhX�[�n8).K��8>8�8" ��8	���k9^8;�k:�hH�8	K��8�hX�[�n8(NY��k�n8�8N8N8b6��6�7FV�B���Yފ�����X�^Yފ��8).K��8n8&vR�W7B&R6��6�7FV�B��ǖ��rF�R'V�W2�8�8(�8n8���8�[��8(�8�8���x+�8(Nh�8N8�	�Y��8).{��8�8&6��6�7FV�BF�8�8��	�[����8(�8�8N8" ��6��6�7FV�F8�8�j��Y��8�8>8�8�Y�8�8�8~8�8�8�8�xފh8�hX�[�n8;�Y��k�n8;�kNk�n8�8n8(�8�8N8�8N8nhH�Y>8~8.8(�8.���8N{Yi��8�j��Y��Y�8�8~8�8�8n8(.8Z�Z�8~8n���8NkNk�n8).zK�8�K��8)"6��6�7FV�F8�8N8�8(�8" �6��6�7FV�F8�[�^8�8~8(.8Έ��8N8�8).hH�Y>8~8�8N8&6��6�7FV�Bf��W&RF�&W7��F8�8(�8n8�8iɾ8�8~8�8�8N��X�^8�{�8(���N8^8(�8(�8>8�8�8(.K��8�8(�8.X��Z��8�8&VƖ&�V8�i��[�^8�8�8(�8�j���;�8�8(�K���h
+~86��6�7FV�F8���X�^8;�kNk�n8;�Y��k�n8�8n8(�8�[	8�8^8�xJnx+�8�8.8(�8" ��8	��{꞊��8	��8;�&VƖ&�R �Z�{ꓢi��[�^8^8(�8�X8�8�8(N{Yi��8).Z�Z�8~8nzK�8~8K���8~8�8(�8" ���[�c�8���8� ��^8C�&VƖ&�V8�8Κ�8(�8�8�8(�8�8�8N8n{Yi��8;�K���h
+~8).K��[�>8�8�8(�8&6��6�7FV�F8�8{Yi��8�iɾ8�8~8N8�8�8�8�8(�8(�8�8��X�^8(NkNk�n8�8n8(�8�8N8>8�8).��8�8(�8" �K賢6�R�2&VƖ&�R�B�v�2�VWG2�W"FVFƖ�W2� ���3�[��Z[>8�K���8~8�88N8N8(.{z8(X�~8(�8).Z�8(�8" ��8;�7FVG� �Z�{ꓢZJ~8�8�ZH�X�^8(NK��ij�8�8�8�8Z�Z�8~8n8N8(�8" ���[�c�8���8� ��^8C�7FVG�8�ZH�X�n8�[	8�8^8(Nh�{i�h
+~8).[�~���8�8(�8&6��6�7FV�F8�8Y�8�Y��k�n8;�898+�8;�8;>8�k+�8>8n8N8(�8>8�8(N8�H~i[Y��8�{Yi��8�8�8(�8>8n8N8(�8>8�8�8(.K��8n8" �K賢F�R6����2�FR7FVG�&�w&W72� ���3�8�8�KɮzK�8�y�Z��8��.[^8).�.8.8n8�8�8" ��8;�FWV�F&�R �Z�{ꓢK��8(Nx��8�i��[�^8�8�8(�8�X8�8�8��8(�8�8�8(�8" ���[�c�8�r�8� ��^8C�FWV�F&�V8�K��8;�j��j+8�8�8).K���8~8n��8(�8(�8�8N8n��^K�8�[�~8N8&6��6�7FV�F8�8��8(�8(�{Yi��888~8�8�8ik��y�8;�hX�[�n8;�ik�k9^8�K��*�8~8n8N8(�8>8�8�8(.K��8n8" �K賢vR�VVBFWV�F&�R76�7F�Bf�"F�R&��V7B� ���3�zx8�88�8�8�89~8:�8+�8*~8*�88�8�K���8~8�8(�X��h��8).[�^�h8�8~8n8N8(�8" ��8;�V�f�&� �Z�{ꓢXZ�K�>8�8(�8�8>8nY�8�8~888(�8N8�8�8�8N8" ���[�c�8�r�8� ��^8C�V�f�&�8�jx�h��h{J8�i>8�Y�~K�h
+~8).[�~���8~8x��8�ZIn�k>8;�Y8�:�8;�X�n[�>8�8(.K��8n8&6��6�7FV�F8�i�.�i>8).8�8�8��X�^8(Nik��y�8�8(.K��8�8(�8" �K賢F�R6��W2vW&R��BV�f�&���6���"�"FW�GW&R� ���3�8�8nii�8���.8(.�:�hI�8(.Y�~K�8~8�8�8�8>8�8" ��8;�&VwV�" �Z�{ꓢK�Z�8�i>��N8;��n[��8;�898+�8;�8;>8~�[~8>8(�88�8�8�{�.hZ>y�N8~8.8(�8" ���[�c�8��8� ��^8C�&VwV�&8���[�n8(N�i>��N8�h�X�~h
+~8�xJnx+�8�8.8(�8&6��6�7FV�F8�8�i>��N8~8�8�8�Y8�:�8;�hX�[�n8;�Y��k�n8�K��*�h
+~8).��8�ZNY�8�8(.K��8n8" �K賢F�RG&��'V�2B&VwV�"��FW'f�2� ���3�8�8�X�~���8�K�Z�8�i>��N8~����8~8n8N8(�8" ��8	X��hH����8	��8;���6��6�7FV�B �Z�{ꓢ��X�^8;�hX�[�n8;�{Yi��8�8�8�K��*�8�8�8ZN��.8(Ni�.x+�8�8(�8>8nZH�8(�8(�8" ���[�c�8���8� ��^8C�Y�8�Y��k�n8(NkNk�n8).K��8n8�8N8�8N8n86��6�7FV�F8�y�Nh�^y�N8�X��Z��8~8.8(�8" �K賢��2W&f�&��6R�2&VV���6��6�7FV�BF��26V6��� ���3�[��8�K��Z�>8�h�{��8�Z�Z�8~8n8N8�8N8" ��8;�V�&VƖ&�R �Z�{ꓢi��[�^8�8�8(�8�j���;�8�8�8��8(�8�8�8(�8�8N8" ���[�c�8���8� ��^8C�V�&VƖ&�V8�{Yi��8).K���8~8�8�8N8�8N8n��^K�8�xJnx+�8�8.8(�8.hX�[�n8�K��*�h
+~888).Y
+nZ�8�8(���6��6�7FV�F8(�8(�8Z��yJ�K��8�K��z+�8�8^8).[�~8�zK�8�8" �K賢F�R��B&��FW"�26��r�BV�&VƖ&�R� ���3�8�8�X�N8N89~8:�8;>8+�8;�8��^8�8n��8(�8�8�8(�8�8N8" ��"�8	[�.Z랊��8;�x�nhX�8;�{Yi��8	Z�Z�8~8�8Y�8�X+�Y	8�{i�8�88(8(�8�8�8@��8	iz^i�Ί�>8;�Z�{�8	{Yi��8Y8�:�8h��[~8k��[�n8X�.Y�8�8�8�88.8(�i���i>8;�z�NY�.8;���nY�>8�8(�8�8>8nZJ~8�8�ZH�8(�8(�8�8Y�8�kNk�n8�8�8�X+�Y	8).K��8N8.Z��XZ�8�Y�8�X
+N8�{i�8�[�^�h8�8�8�8�xފh8�898+�8;�8;>8(NZH�X�n8�ik�Y	8�8�8(�8>8n8N8(�8>8�8).��8�8&6��6�7FV�Bw&�wF�8�8(�8n8�8ZH�X�n8�{i�8N8n8N8(�8>8�8�88�8�ZH�X�n8�Z�Z�8~8�898+�8;�8;>8~8.8(�8>8�8).Y�i�.8���8�ZNY�8(.8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.89>8+�88�8+�8Z�>8z	Nz�n8Y8�:�z�yn8{X�k��8iz^[��8�{Yi�Ί��i��8~[�>8�K��8n8&6��6�7FV�Bf��W&V8�8(�8n8�iɾ8�8~8�8�8Nx�nhX�8�8(.K��8�8(�8�8(8���8�8�8(.8�8��*�Z鮊�^K�8�8�8N8" ��8	ih~k9^898+�8;�8;>8	&V����7F�6��6�7FV�F���K�Z�8�x�nhX�8).K��8N���6��6�7FV�B�fW"8�W&��N8����i���i>8).�	�8�8nZ�Z�8~8����6��6�7FV�B7&�72�&WGvVV�����r8�w&�W2�&V>8���ޙ�nY�>8;�Y�Y���i>8~Y�8�X+�Y	8����6��6�7FV�B8�w&�wF��VƗG��&W7V�G2�W&f�&��6^8����Z�Z�8~8�h��[~8;�Y8�:�8;�{Yi��8;�h�i�� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&V���6��6�7FV�B�fW"F��V �yJ��	C�i�.�i>8�{X�8>8n8(.kNk�n8(Nh
+~�:�8�ZJ~8�8�ZH�8(�8(�8�8N8" �K賢F�RVƗG��bF�R6W'f�6R�2&V���VB6��6�7FV�B�fW"F��R� ���3�8�8�8+^8;�89>8+�8�Y8�:�8�i�.�i>8�8�8>8n8(.Z�Z�8~8n8N8(�8" ��8;�6��6�7FV�B&W7V�G27&�728�G&��2�7GVF�W>8� �yJ��	C��H~i[8n��>8(Nz	Nz�n8~Y�8�X+�Y	8�{Yi��8�X{�8(�8" �K賢F�RG&VF�V�B&�GV6VB6��6�7FV�B&W7V�G27&�72F�&VR6Ɩ�6�G&��2� ���3�8�8�k+�y�.k9^8�>K�n8�z�[����n��>8~K��*�8~8�{Yi��8).zK�8~8�8" ��8;�6��6�7FV�Bw&�wF���8�6�W2�&WfV�V^8� �yJ��	C�Z;.K��8(NX��y��8�8h
+^ZH�8~8�8�8�Z�Z�8~8�X+�Y	8~Kˎ8>{i�88(�8" �K賢F�R6����2&W�'FVB6��6�7FV�Bw&�wF���&WfV�VR� ���3�8�8�KɮzK�8�X��y��8�Z�Z�8~8�Kˎ8>8).ZY�8~8n8N8(�8" ��8;�6��6�7FV�BVƗG��7F�F&F �yJ��	C��;�Y88(N8+^8;�89>8+�8�Y8�:�8;�kNk�n8�j��Y��ZJ~8�8�ZH�8(�8(�8�8N8" �K賢F�Rf7F�'��2���v�f�"�G26��6�7FV�BVƗG�� ���3�8�8�[z^ZN8�Y8�:�8�Z�Z�8~8n8N8(�8>8�8~y�^8(�8(�8n8N8(�8" ��8;�6��6�7FV�B7&�728�vRw&�W2�&Vv���>8� �yJ��	C�[�N��.[N8(NY�Y��8�ZH�8(�8>8n8(.Y�8�X+�Y	8Ίh�8(�8(�8(�8" �K賢F�R7W'fW�f��F��w2vW&R6��6�7FV�B7&�72��vRw&�W2� ���3�8�8�i��{Yi��8�8�8�8n8�[�N��.[N8~K��*�8~8n8N8�8" ��8	���k9^8;�k:�hH�8	6��6�7FV�F8�8�ZH�X�n8�K�X�~8�8N8�8�8N8nhH�Y>8~8�8�8N8&6��6�7FV�B��&�fV�V�F8�iK�YhN8�j�.8�8>8n8N8(�8>8�8~8�8�8�8iK�YhNX+�Y	8�Z�Z�8~8n{i�8N8n8N8(�8>8�8).��8�8.X
+N8�Z��XZ�8�K��ZH�8).��8n8�8(�6��7F�F8K��i�~8;�K�����8�y�Z��8�{i�{i�8).��8n8�8(�7FVG�8Θ�8�8(�ZNY�8�8.8(�8" ��6��6�7FV�B7&�768��H~i[8nY�>8;�Y�Y��8;�i�K�n8~Y�8�X+�Y	8�8.8(�8>8�86��6�7FV�B�fW"F��V8�i�.�i>8).�	�8�8n8�8�X+�Y	8�{i�8�8>8�8).zK�8�8&6��6�7FV�B&WGvVV��B&8(.K��8�8(�8�8��nY�>8).j��ij�8�8(�K����y�N8����i��8~8�7&�768Έz�xKn8�8>8�8�ZI�8N8" �6��6�7FV�B&W7V�G68�{Yi��8�Y�8�X+�Y	8~Xh�x��8�8(�8�8N8nhH�Y>8~8.8(�8{Yi��8�j�>8~8N8>8�8(N8X��Y�8Ί��i��8^8(�8�8>8�8�8~8�Y
+�8�8�8N8" ��8	��{꞊��8	��8;�7F&�R �Z�{ꓢx�nhX�8;�kNk�n8;�jx��
+8�h
+^k�8�ZH�X�n8�8�8Z�Z�8~8n8N8(�8" ���[�c�8���8� ��^8C�7F&�V8�ZH�X�^8(N[J�8(�8�[	8�8Nx�nhX�8�xJnx+�8�8.8(�8&6��6�7FV�F8��H~i[8�{Yi��8(Ni�K�n8�Y�8�898+�8;�8;>8).zK�8�8�8N8nj�N��>8�8(.K��8n8" �K賢F�RF�V�Bw26��F�F����2��r7F&�R� ���3�h*>�^8�x�nhX�8�K��8~8�Z�Z�8~8n8N8(�8" ��8;�7FVG� �Z�{ꓢZJ~8�8�ZH�X�^8�8�8K�Z�8�ik�Y	8;�kNk�n8~{i�8�8" ���[�c�8���8� ��^8C�7FVG�w&�wF�8�y�Z��8�Z)~X�8).[�~8�zK�8�8&6��6�7FV�Bw&�wF�8�Z)~X�8�898+�8;�8;>8�{i�{i�y�N8;�K��*�8~8n8N8(�8>8�8�xJnx+�8�8.8(�8" �K賢F�R'W6��W72�2V���VB7FVG�w&�wF�f�"f�fR�V'2� ���3�8�8�K��jZ�8�^[�N�i>8y�Z��8�h��[~8).{i�88n8�8�8" ��8;�V�f�&� �Z�{ꓢ�H~i[8�:�X�n8(N��nii�8�Y�8�h
+~�:�8;�kNk�n8).8(.8N8" ���[�c�8�r�8� ��^8C�V�f�&�8�Y�K�i�.x+�8~8�XZ�K�>8�Y�~K�h
+~8).[�~���8�8(�8&6��6�7FV�F8�i�.�i>8�{XΘ�8(N��n��8�X��[�8�8(.�z�xKn8~8.8(�8" �K賢F�R��B&�f�FW2V�f�&�f��6�� ���3�8�8�Z~ii�8�Y�~K�8�K�^K��8�8(�8).8(.8�8(�8�8" ��8;�&W&�GV6�&�R �Z�{ꓢY�8�h���n8(Ni�K�n8~{�8(���N8~8�8�8�8Y�jy�8�{Yi��8).[�~8(�8(�8(�8" ���[�c�8�b�8� ��^8C�&W&�GV6�&�V8�Z����>8;�k��Z�8�8�8~Xh�x��X���;�8~8.8(�8>8�8).x��8���8�8&6��6�7FV�F8�Xh�x��h
+~K�^ZIn8�Z�Z�8~8�Y8�:�8(NX+�Y	8�8(.K��8n8" �K賢F�R&W6V&6�W'2�VVB&W&�GV6�&�R�WF��B� ���3�z	Nz�n�^8�88�Xh�x��X���;�8�ik�k9^8).[�^�h8�8~8n8N8(�8" ��8	X��hH����8	��8;�f&�&�R �Z�{ꓢx�nk88(Ni�.x+�8�8(�8>8nZH�X�n8~8K�Z�8~8�8N8" ���[�c�8���8� ��^8C�f&�&�V8�kNk�n8;�{Yi��8;�i�K�n8�ZH�X�^8�8(�8�8N8n�x�y�N8�X��Z��8).zK�8�8" �K賢F�RVƗG��bF�R&r�FW&���2��v�ǒf&�&�R� ���3�X��i�ii�8�Y8�:�8�ZJ~8�8�88(�8N8N8n8N8(�8" ��8;�W'&F�2 �Z�{ꓢZH�X�n8�K�ފh�X�~8~8K��k��8~8�8�8N8" ���[�c�8�b�8� ��^8C�W'&F�68�Xَ8�ZH�X�^8�8(�888~8�8�8ZH�X�n8�898+�8;�8;>8�K�ފh�X�~8~8.8(�8>8�8).[�~���8�8(�8" �K賢F�RF�V�Bw2V�6R&V6�RW'&F�2� ���3�h*>�^8�H�h��8�K�ފh�X�~8�8�8>8�8" ��2�8	[�.Z랊��8;�v�F�jx�ih~8	K��{N8~8�8y��y��8~8�8N88	�8�i[NY�8�8(���8	iz^i�Ί�>8;�Z�{�8	8.8(�K��Z��8;����i��8;�{Yi��8;���X�^8;�ik��y�8�8�8�8X�^8�K��Z��8(NY��k�n8�K�z��8~8K�.8N8�y��y��8~8�8N8&6��6�7FV�Bv�F�8�8�8	�8�K��{N8�8(�8�8�8	�8�k+�8n8�8���>8�8(�8�8Xَ8�K�z��8�8(�X���;�h
+~8).zK�8�888~8[��8(�8�Xh^Z�8�y��Z��88����i��8~8�8(�8X��Y�8).z+�Z�8~8�8(�8�8(�8(�88~8�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.����n8Z�>8z	Nz�n8k9^[�8;�X˾y�.8���8ik��y�8(N��X�^8^K�8~x��8���X{�8�8(�8.���h�8����i��8yx~x�n8����ij�X	��9�8��X�^8�X��X�~8�j.K�.8).hX�x�8���8�8(���x��8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	&R6��6�7FV�Bv�F�8�f7B�Wf�FV�6R��Ɩ7�8����K��Z��8;����h�8;�ik��y�8�y��y��8~8�8N���&R6��6�7FV�Bv�F�v�B������8	�8�8(�8>8�8�i[NY�8�8(����f��F��w2�&W7V�G26��6�7FV�Bv�F�8�6W6^8����X��Y�8�K��{N8�8(�h��h�8;�{Yi�����6��6�7FV�Bv�F�8�&��6��R�7F�F&N8����X��X�~8;�Y��k�n8�k+�8>8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&R6��6�7FV�Bv�F�F�RWf�FV�6V �yJ��	C����i��8(N{Y��n8�8[�~8(�8(�8n8N8(����h�8�y��y��8~8�8N8" �K賢�W"66�V�B�26��6�7FV�Bv�F�F�Rf��&�RWf�FV�6R� ���3�[��Z[>8�i��8�8XZ^h��8~8�8(����h�8�y��y��8~8�8N8" ��8;�&R6��6�7FV�Bv�F�6����Ɩ7� �yJ��	C���X�^8(Nk�Z�8�KɮzK�8�ik��y�8�k+�8>8n8N8(�8" �K賢F�RFV6�6����26��6�7FV�Bv�F�6����Ɩ7�� ���3�8�8�k�Z�8�KɮzK�8�ik��y�8�k+�8>8n8N8(�8" ��8;�f��F��w26��6�7FV�Bv�F�8�F�v��6�2�6W6^8� �yJ��	C�h��h�8�88.8(����ij�8(NX��Y�8�8(�K��h;>8^8(�8(�8(.8�8�K��{N8�8(�8" �K賢F�R66�6��vVB��W&�W26��6�7FV�Bv�F�f��� ���3�8�8�yK�X8�jI�i��8~8�8��.��8�8(�8(�8(.8�8�K��{N8�8(�88�8Ίh�8(�8(�8�8" ��8;�&R6��6�7FV�Bv�F�v�B8�W'6��8�6�F �yJ��	C�8.8(����i��8(N��X�^8�8��8�8�y����8��9�8N�^8(�8�8N8" �K賢F�R�Wr��f�&�F����26��6�7FV�Bv�F�v�BF�Rv�F�W726�B� ���3�ik8~8Nh8^Z8�8���K��8Ί�8~8�8>8�8�y��y��8~8�8N8" ��8;���B&R6��6�7FV�Bv�F�8�&��6��R�v��8� �yJ��	C���X�^8(Nh�j�8�X��X�~8;�y��j��8�X��8~8n8N8(�8>8�8).Z��i�.8�zK�8�8" �K賢7WGF��rW76V�F��6W'f�6W2�2��B6��6�7FV�Bv�F��W"v���b&�FV7F��rgV��W&&�RV��R� ���3�[�^�hK��X��j�8�8+^8;�89>8+�8).X��k��8�8(�8>8�8�8[�8Nz��ZN8�K��8^8).Z�8(�8�8N8nzx8�88�y��j��8�k+�8(�8�8N8" ��8	���k9^8;�k:�hH�8	8>8�hH�Y>8~8�6��6�7FV�Bv�F�8�Y��i��8~86��6�7FV�BF�8�8��	�[����8(�8�8N8&v�F�8�[��8(�8�8�Yފ��X�^888~8�8�8v�B���8�Yފ��z�8(.{��88(�8&6��6�7FV�Bv�F�f��8�8(�8n8�8[��8(�8�X��Y�8�Z�����8��[~8�8�8>8�8).ij�Z�8�8�88�8�8�X��Y�8�i[NY�8�8(�x��[�N8�8.8(�8�8���8�8(�8>8�8(.ZI�8N8" ���26��6�7FV�Bv�F�&8�88�.8�K�z��8�8(�8>8�8).��8�888~88�.8).���i��8�8(�8.8�8�YJ�K�8�i��8~8.8(�88�8N8nhH�Y>8~8�8�8N8&6��6�7FV�Bv�F�8).8�8	�8�Y�K�8�8�8	�8�h�8�8�8(.8�8�8���>8~8�8�8�8N8" ����{�8�6��6�7FV�B��ǖ��rF�R'V�W68�8K�����8�Y�8�Y��k�n8~��X�^8�8(��	�Y��8)"��8~zK�8�[�.8~8.8(�8.���{�>8�6��6�7FV�Bv�F�F�R'V�W68�8��X�^8(Nk�Z�8Ίh�X�~8�i[NY�8�8(�8�8N8n�j.K�.8).zK�8�[�.8~8.8(�8X��{��8�^8N888~8�8�hH�Y>8�Y	8�8(.y[8�8(�8" ��8	��{꞊��8	��8;�6��6���Bv�F� �Z�{ꓢK��Z��8;�X��X�~8;�ik��y�8�8�8�K��{N8~8���Y(�8~8n8N8(�8" ���[�c�8�B�8� ��^8C�6��6���Bv�F�8�z�8N��x��8~8K��8��>8�8;���X�^8;�ik��y�8�X�^8�Y��k�n8����Y(�8�8(�8>8�8).��8�8&6��6�7FV�Bv�F�8�8�8n8�K����y�N8~8���h�8(N���i��8�i[NY�h
+~8�8(.[�>8�K��8�8(�8" �K賢F�R&��6��26��6���Bv�F�F�R�&v旦F���w27FFVBf�VW2� ���3�8�8�h�j�8�{XN{�N8�h�.8.8(�K�X
+N�k>8�K��{N8~8n8N8(�8" ��8;�66�&F�Bv�F� �Z�{ꓢik��y�8;�K��Z��8;�X��X�~8�8�8�K��{N8~8n8N8(�8" ���[�c�8�2�8� ��^8C�66�&F�Bv�F�8�z�8�8ih~���y�N8~K��yJ���[�n8�K��8N8.K����y�N8�ih~z�8~8�6��6�7FV�Bv�F�8�8�8n8Έz�xKn8~8.8(�8" �K賢F�R'VƖ�rv266�&F�Bv�F�W7F&Ɨ6�VB�Vv�&��6��W2� ���3�8�8�X�Nk�8�z+�z��8~8�k9^X��X�~8�K��{N8~8n8N8�8" ��8;�6��F�&�Rv�F� �Z�{ꓢ8.8(�K��Z��8;��>8�8;�X�n[�n8�8�8�y��y��8�8�K�z��8�8(�8" ���[�c�8���8� ��^8C�6��F�&�Rv�F�8�8�K�z��8~8�8(�8�8�8N8nX���;�h
+~8(N��Y�h
+~8).[�~���8�8(�8&6��6�7FV�Bv�F�8�8h��XX>8�i��8;����h�8;���X�^8�X�^8�Y��k�n8�i[NY�8~8n8N8(�8�8N8nX�Nij�8�Y	8�8" �K賢F�RGv�W���F���2&R6��F�&�Rv�F�V6��F�W"� ���3�8�8�.8N8�i��8�K�.8N8�K�z��8�8(�8" ��8;����VW��rv�F� �Z�{ꓢik��y�8;���Y�.k	~8;�hZ>��8�8�8�Y�8>8n8N8(�8" ���[�c�8�b�8� ��^8C����VW��rv�F�8�hZ>��8;���Y�.k	~8;�i��[�^8�k+�8n8�8N8n��x��8~86��6�7FV�Bv�F�8(�8(�8(.8΋j>iz�8�Y�8n8�8�8N8nY
+�8�8�X{�8(N8�8N8" �K賢F�RFW6�v��2���VW��rv�F�F�R'V��F��rw2G&F�F����7G��R� ���3�8�8�88~8+n8*N8;>8�[��x��8�K��{[y�N8�jy�[��8�Y�8>8n8N8(�8" ��8;�6��W&V�Bv�F� �Z�{ꓢK�n8�h{J8���nyny�N8�8N8�8�8(�8XZ�K�>8�8~8nzؾ8Θ	�8>8n8N8(�8" ���[�c�8�R�8� ��^8C�6��W&V�F8����i��8(N����n8�Xh^�:�8�zؾ�>8�xJnx+�8�8.8(�8&6��6�7FV�Bv�F�8�8X�^8�K��Z��8;�Y��k�n8�8�K��K��{N8�8�8N8>8�8�8~[�>8���8�8(�8" �K賢F�R6��6�W6����26��W&V�Bv�F�F�R77V�F���2�bF�R��FV�� ���3�8�8�{Y��n8�8:.88~8:�8�K��Z�8���nyny�N8�i[NY�8~8n8N8(�8" ��8	X��hH����8	��8;���6��6�7FV�Bv�F�8�6��WF���~8� �Z�{ꓢK��Z��8;����h�8;�ik��y�8�8�8�K�z��8�8�8y��y��8~8n8N8(�8" ���[�c�8���8� ��^8C���6��6�7FV�Bv�F�8�86��6�7FV�Bv�F�8�y�Nh�^y�N8�X��Z���x��8~8.8(�8" �K賢��27FFV�V�B�2��6��6�7FV�Bv�F�F�Rf�FV�Wf�FV�6R� ���3�[��8�y����8�i�X8����h�8�y��y��8~8n8N8(�8" ��8;�6��G&'�F�8�6��WF���~8� �Z�{ꓢ�h�X�~8;�i��[�^8;�hH��h�8�8�8�X��8~8n8N8(�8" ���[�c�8�r�8� ��^8C�6��G&'�F�8�Xَ8�X��Z��ik�Y	8~8.8(�8>8�8).[�~8�zK�8�8&��6��6�7FV�Bv�F�8�8[�^8�8~8(.j�>��.8�8(�X��Z��8~8�8�8�8K��^8).Y�i�.8�h�8(�z��8�8�8�8�8N8�8N8n��nyny�N8�K��i[NY�8�8(.K��8n8" �K賢F�R7F���v26��G&'�F�F�R�&v旦F���w27FFVBf�VW2� ���3�8�8��X�^8�{XN{�N8�h�.8.8(�K�X
+N�k>8�X��8~8n8N8�8" ��B�8	[�.Z랊��8;�{[���8	�Ȏh�Z鮘x�8��ȞK��{Nh
+~8).8(.8@��8	iz^i�Ί�>8;�Z�{�8	{[���Z�n8~8j��i��i[8).Z)~8(N8~8n8N8�8�8h�Z鮘x�8�h�Z�Z��8~8.8(�y��8�j��i[8�z+�x�~X��i��8�8(�h
+~�:�8).8(.8N8.X�8^8�j��i��8�8(�[�~8�h�Z�X
+N8�j��Y��Y�8�8�8�8(�8>8�8(N8iȞ��j��i��8~[�^8�j�>z+�8~8.8(�8>8�8).hH�Y>8~8�8N8" ��8	��[�n8	8�2�8� ��8	8:�8+�8+�8+�8;���	�Y��8	{[���Z�n8;�����x�{X�k��Z�n8�[.�hyJ�k9^8.K���Έ����8�8�K��*�8~8�8�8�Z�Z�8~8�8�8�Y�8�[�.88�86��6�7FV�BW7F��F�&8�8�8~K��8n8�Z�{�8^8(�8�kˎ��y�Nh
+~�:�8).h�~8�8" ��8	ih~k9^898+�8;�8;>8	6��6�7FV�BW7F��F�"�b8�&�WFW.8����8�j��i[8�8�K��{Nh�Z鮘x�����W7F��F�"�26��6�7FV�Bf�"8�&�WFW.8����h�Z鮘x�8�8�j��i[8�8�Z��8~8nK��{Nh
+~8).8(.8N���6��6�7FV�7�26��R6��R��7&V6W6���j��i��i[8�Z)~X�8�K�N8nK��{Nh
+r ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�6��6�7FV�BW7F��F�"�b8�&�WFW.8� �yJ��	C�j��i��i[8).Z)~8(N8�8�y��8�j��i[8�z+�x�~X��i��8�8(�h�Z鮘x�8).h�~8�8" �K賢F�R6��R�V��26��6�7FV�BW7F��F�"�bF�R�V�F����V�� ���3�j��i��[�>Y�~8�j��[�>Y�~8�K��{Nh�Z鮘x�8~8.8(�8" ��8;�&R6��6�7FV�Bf�"8�F�RG'VR&�WFW.8� �yJ��	C�h�Z鮘x�8�x��Z�8�y��8�j��i[8�Z��8~8nK��{Nh
+~8).8(.8N8>8�8).��8�8(�8" �K賢F��2W7F��F�"�26��6�7FV�Bf�"F�RG'VR&�WFW"V�FW"֖�B6��F�F���2� ���3�8>8�h�Z鮘x�8�8z��8(N8�8�i�K�n8�8(.8�8~y��8�j��i[8�Z��8~8nK��{Nh
+~8).8(.8N8" ��8;�6��6�7FV�B2F�R6��R6��Rw&�w6 �yJ��	C�j��i��i[8�Z)~X�8�K�N8>8nh�Z鮘x�8�y��X
+N8���8^8�h
+~�:�8).���i��8�8(�8" �K賢F�RW7F��F�"�26��6�7FV�B2F�R6��R6��R��7&V6W2� ���3�8�8�h�Z鮘x�8�j��i��i[8�Z)~8�8(�8�8N8(�8nK��{Nh
+~8).8(.8N8(�8n8�8�8(�8" ��8;�&�6VB'WB6��6�7FV�BW7F��F�& �yJ��	C�iȞ��j��i��8~8�X�8(�8�8.8>8n8(.8kˎ��y�N8�8�K��{N8�8(�h�Z鮘x�8).zK�8�8" �K賢&�6VB'WB6��6�7FV�BW7F��F�"6�7F���&RW6VgV����&vR6��W2� ���3�X�8(�8�8.8>8n8(.K��{Nh
+~8).8(.8Nh�Z鮘x�8�8ZJ~j��i��8~8�8�8�iȞyJ�8�8>8�8�8.8(�8" ��8	���k9^8;�k:�hH�8	8>8�yJ�k9^8�6��6�7FV�F8�8iz^[�����8�8�{Yi��8�Z�Z�8~8n8N8(�8�8~8�8�8�8j��i��i[8).xJ��8�Z)~8(N8~8�j[^��8~y��8�j��i[8�z+�x�~X��i��8�8(�8�8N8n[.�hy�N8�Z�{�8).8(.8N8&67W&FV8(BV�&�6VF8�Y�{�8~8�8�8N8.iȞ��j��i��8~X�8(�8�8.8>8n8(.K��{Nh�Z鮘x�8�8�8(�[�~8(�8~8YNY��8�h�Z�X
+N8�ZJ~8�8�ZH�X�^8~8n8(.K��{Nh
+~8�8.8(�[�~8(�8" ���	�[��8�6��6�7FV�BW7F��F�"�b8�&�WFW.8�8�8�8�6��6�7FV�Bf�"8�&�WFW.8�8�8N8N8K����{�8�6��6�7FV�Bv�F�8�Wf�FV�6^8�8�8�X��{��8(.hH�Y>8(.y[8�8(�8.[.�hZIn8�ih~�H�8~8�K��{Nh�Z鮘x�8�8���>8�8�8Xَ8�8(�Z�Z�8~8�h�Z�{Yi��8�k{~Y�8~8(N8�8N8" ��8	��{꞊��8	��8;�6��fW&vV�B �Z�{ꓢi[X�~8;�h�Z�X
+N8�8�8�88.8(�X
+N8(NZ��8���8^8N8n8N8�8" ���[�c�8�R�8� ��^8C�6��fW&vV�F8�j[^��8���8^8�i[Z�ny�Nh
+~�:�8).[�>8���8�8.{[���8r6��6�7FV�F8�8N8n8�8y��8�j��i[8�8�z+�x�~X��i��8�8N8nh�Z鮘x�Y��iȞ8�i�K�n8).��8�8" �K賢F�R6WVV�6R�26��fW&vV�B�B&�6�W2�W&�� ���3�8�8�i[X�~8�X��i��8~88+�8:�8���8^8�8" ��8;�7��F�F�6�ǒV�&�6VB �Z�{ꓢj��i��i[8�xJ��8�Z)~8�8(�8�8h�Z鮘x�8�i��[�^X
+N8�X�8(�8�8+�8:�8���8^8�8" ���[�c�8�2�8� ��^8C�7��F�F�6�ǒV�&�6VF8�i��[�^X
+N8�X�8(�8��j.8�8(�h
+~�:�8~8y��X
+N8�8�z+�x�~X��i��8).8N8b6��6�7FV�F8�Y�8�8~8�8�8N8" �K賢F�RW7F��F�"�27��F�F�6�ǒV�&�6VB'WB��B�V6W76&�ǒ6��6�7FV�B� ���3�8�8�h�Z鮘x�8�kˎ��y�N8�K��X�88�8[�^8�8~8(.K��{Nh
+~8).8(.8N8�8���8(�8�8N8" ��8	X��hH����8	��8;���6��6�7FV�BW7F��F�" �Z�{ꓢj��i��i[8).Z)~8(N8~8n8(.8y��8�j��i[8�z+�x�~X��i��8~8�8Nh�Z鮘x�8" ���[�c�8�2�8� ��^8C�{[���Z�n8~86��6�7FV�BW7F��F�&8�Z�{�K��8�X��Z��8�[�>8�8(�8.Xَ8�h�Z�X
+N8�88(�8N8�8�ZJ~8�8N8�8N8n888~8���6��6�7FV�F8�8���8(�8�8N8" �K賢F�RW7F��F�"�2��6��6�7FV�B&V6W6R�B�v��&W2��7B�bF�Rf��&�RFF� ���3�8�8�h�Z鮘x�8�X��yJ�8~8�8(�88~8;�8+�8�ZJ~�:�X�n8).xJ�in8�8(�8�8(8K��{Nh
+~8).8(.8�8�8N8" ��R�8	[�.Z랊��8;�i[Z�n8;���nyn8	xJy��y��8�8X[�	��z>8).8(.8@��8	iz^i�Ί�>8;�Z�{�8	i[Z�n8~8�H~i[8�ik�z��[��8�[	8�8�8�8(#8N8�X[�	��z>8).8(.8N8.��nynZ�n8;�i[Z�nY��zHn8~8Yޚ�8nY�8�Y�i�.8�y��8~8.8(�[�~8(�88�8�8�XZ�yn{;�8�8(�y��y��8�[�8�8(�8�8N8.K���Ί��8�8�K��*�8~8�8�8(�8(�8(.8[�.[��y�N8�K�z��X���;�8~8.8(�8>8�8).��8�8" ��8	��[�n8	8�2�8� ��8	8:�8+�8+�8+�8;���	�Y��8	i[Z�n8;���nynZ�n8�[.�hyJ�k9^8&6��6�7FV�BWVF���686��6�7FV�B6WB�b7FFV�V�G686��6�7FV�Bf�&��7�7FV�8�8�8�Z�Y�y�N8�{XN8�Y�8(�8�8~K��8n8" ��8	ih~k9^898+�8;�8;>8	6��6�7FV�B7�7FV��6WB�b8�WVF���2�7FFV�V�G>8����xJy��y��8�ik�z��[��{;�8;�YޚΙ�nY����8�WVF���>8�&R6��6�7FV�F���ik�z��[��8�X[�	��z>8�8.8(����6��6�7FV�Bf�&��7�7FV����y��y��8).[�8�8�8N[�.[��K�>{;� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�6��6�7FV�B7�7FV��bWVF���6 �yJ��	C��
+>z��ik�z��[��8�[	8�8�8�8(#8N8�X[�	��z>8).8(.8N8>8�8).��8�8" �K賢F�RGv�WVF���2f�&�6��6�7FV�B7�7FV�v�F���R6��WF���� ���3�8�8�.8N8�ik�z��[��8�8�z>8)#8N8(.8NxJy��y��8��
+>z��ik�z��[��{;�8).[�.h�8�8(�8" ��8;�6��6�7FV�BWVF���6 �yJ��	C��H~i[8�ik�z��[��8�X[�	�8�X
+N8�{XN8�8(�8>8nY�i�.8�k�8�8^8(�8(�8>8�8).zK�8�8" �K賢F�W6RWVF���2&R6��6�7FV�B�6�F�R��FV��2B�V7B��R6��WF���� ���3�8>8(�8(�8�ik�z��[��8�xJy��y��8�8�8~88�8�8:.88~8:�8�8�[	8�8�8�8(#8N8�z>8�8.8(�8" ��8;�6��6�7FV�B6WB�b7FFV�V�G6 �yJ��	C�Yޚ�8).8�8�8nY�i�.8�y��8�8~8�8y��K�.8�y��y��8~8�8N��nY�8).��8�8" �K賢F�R����2�W7Bf�&�6��6�7FV�B6WB�b7FFV�V�G2� ���3�8�8�XZ�yn8�xJy��y��8�YޚΙ�nY�8).[�.h�8~8�88(�88�8(�8�8N8" ��8;�6��6�7FV�Bf�&��7�7FV� �yJ��	C�XZ�yn8�8(�8.8(�Yޚ�8�8�8�Y
+nZ�8�K�ik�8).[�8�8>8�8�8�8N[�.[��K�>{;�8).h�~8�8" �K賢F�R&��b77V�W2F�BF�Rf�&��7�7FV��26��6�7FV�B� ���3�8�8�i��8�8[�.[��K�>{;�8�xJy��y��8~8.8(�8�K��Z�8~8n8N8(�8" ��8	���k9^8;�k:�hH�8	ik�z��[��8�8N8N8n8�6��6�7FV�F8�8�	�[��8�YN[��8�K��8n8N8(�8�8�8N8nhH�Y>8~8�8�8�88�8�8n8).Y�i�.8�k�8�8�X[�	��z>8�8.8(�8�8N8nh��>yJ����8~8.8(�8.YޚΙ�nY�8�8N8N8n8�88�8�8n8�Y�i�.8�y��8~8.8(�[�~8(�8>8�8[�.[��K�>{;�8�8N8N8n8�y��y��8�[�X{�8^8(�8�8N8>8�8).h�~8�8.Z��8�[��8�8niz^i�Ί�>8).8�X[�	��z>8).8(.8N8�8�xJy��y��8�8�8�X�n88(�8" ��8>8�{�8�6��6�7FV�F8�8���{�>8�6��6�7FV�Bv�F�8��j.K�.8΋�8N8�8���{�^8~8�i[Z�n8;���nyn8�K�>{;�Xh^�:�8�XX^�k>X���;�h
+~8).��8�8(�8.K����ih~8~8Ί��h�8�y��y��8~8�8N8�8���8n8�8�8�8i[Z�nyJ����8�6��6�7FV�BWVF���68).K��8n8(�88~8�8�8N8" ��8	��{꞊��8	��8;�6��F�&�R �Z�{ꓢ�H~i[8�i�K�n8;�X�n{HN8�Y�i�.8�h�8(�z��8[�~8(�8" ���[�c�8���8� ��^8C�6��F�&�V8�K����y�N8�K�z��X���;�h
+~8).��8�8&6��6�7FV�F8�ik�z��[��8;�Yޚ�8;�[�.[��K�>{;�8�8N8N8n8X[�	��z>8(NxJy��y��h
+~8�8N8n[.�hy�NX�NZ�8).��8�8" �K賢F�R6��7G&��G2&R6��F�&�Rv�F���R��F�W"� ���3�8�8�X�n{HN8�K�.8N8�K�z��8�8(�8" ��8;����6��G&F�7F�'� �Z�{ꓢy��K�.8�y��y��8~8n8N8�8N8" ���[�c�8�B�8� ��^8C����6��G&F�7F�'�8�8�y��y��8�8�8N8�8�8N8nY
+nZ�[�.8�i��8~8[�.[��K�>{;�8�[.�hy�N8�K��*�h
+~8�8~[�^8�Y
+�8(8(�88~8�8�8N8" �K賢F�R7FFV�V�G2&R���6��G&F�7F�'�'WBF���BW7F&Ɨ6�F�R6��6�W6���� ���3�8�8�Yޚ�8�K�.8N8�y��y��8~8�8N8�8{Y��n8).z+�z��8�8(�8(.8�8~8�8�8N8" ��8;�6F�6f�&�R �Z�{ꓢ��nyn[��8(NX�n{HN8nY�8).8�8�8ny��8�8�8(�X
+N8�X�.8(�[�>8n8�ZَYʎ8�8(�8" ���[�c�8�2�8� ��^8C�6F�6f�&�V8���nyn8;�8+>8;>89N8:^8;�8+�8;�zyZ�n8~8[	8�8�8�8(#8N8�XX^�k>8�8(�X�.8(�[�>8n8�ZَYʎ8�8(�8>8�8�xJnx+�8�8.8(�8&6��6�7FV�F8�i[Z�n8;���nyn8~8(�8(�[�>8�xJy��y��h
+~8).��8�8" �K賢F�R6WB�b��v�6�6��7G&��G2�26F�6f�&�R� ���3�8�8nyny�NX�n{HN8nY�8�8�88�8�8n8).k�8�8�X�.8(�[�>8n8�ZَYʎ8�8(�8" ��8	X��hH����8	��8;���6��6�7FV�B �Z�{ꓢik�z��[��8�X[�	��z>8�8�8N88�8�8�Yޚ�8;�[�.[��K�>{;�8�8(�y��y��8�yI�8�8(�8" ���[�c�8�B�8� ��^8C�i[Z�n8;���nyn8�8�88(�6��6�7FV�F8�y�Nh�^y�N8�X��Z��8~8.8(�8.K����{�8�8�K��*�8~8�8N8�8�Y�8�[�.88�88>8>8~8�[�.[��y�N8�X�NZ�8).h�~8�8" �K賢F�RWVF���2&R��6��6�7FV�B�B�fR��6�����6��WF���� ���3�8�8�ik�z��[��8�xJy��y��8~8�8�8X[�	��z>8).8(.8�8�8N8 ����Р�2W�FV�6�fP����Ц�VGv�&C�W�FV�6�fP�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#P�WFFVE�C�##b���#P�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3�������7L���<��b���Έ��������7FV�<��b�8#>��>z�8����5DT��6�b8~8z��.��>z�8�K��[�~X�.8�8.8(�8.z����>z�8�[�8B�����8z��.��>z�8�j�ޙ�>8�{>Y��y����>8r����8��Y��y����>8r�R�8������8^8(�8z��>��>z�8�[�8B���b�8~{X.8(�8(�8" �{kN8(�8�W��8�8>8>8~8�����2�8�[�~8����8�8�8���
+�8������8�8j�8�[�~X�.��>z�8��7B�8�X�n8�8(�8(�8.���iʾ8��6�fR8��<��b�8~8�6��b�8~8�8�8N8" �j�N��>{I�8���&RW�FV�6�f^8i�K��{I�8���7BW�FV�6�fR8�8�8(�8�8�i��	�8~8W�FV�6�fW.8;�W�FV�6�fW7B8��	�[��yJ�8N8�8N8.X�����W�FV�6�fVǒ8�{2������7L���<��fƒ�8��������7FV�<��fƒ�8�y����>8~8K��[�~X�.8�K��{��8).K��8N8" ����>���k� ���FR֖FF�RV�vƗ6�8�889^8:�8;>8+����W�FV�6�b�֗fR8�8�8�[��i��8:�88n8;>���W�FV�6�gW2{X�yK8~XZ^8>8�8.8^8(�8�8:�88n8;>���W�FV�FW&^8�ZIn8�Kˎ88�8[�>8.8(�8�8�8^8�8�8�8(�8W��8�ZIn8�8�8�FV�FW&^8�Kˎ88�8�8�8(�h�8(�8" �K��[�>8�8.8(�8�8�8�ZIn8�Kˎ8>8n8z�NY�.8;��x�8;�K��yJ�8�X��8nXX�8�[�>8�8(�8�8�8N8ny��h;>8~8x��yny�N8�[�>8^8�8(�8h8^Z8�z�NY�.8�*�Z�>8�h�j�8[.�hX�n�x�8�8�{;�8�ZJ~8�8^8�8�hH�Y>8�h�ދX�n8~8n8N8(�8" �YΊ��ix�8�Z�n{�.���8�W�FV�N8�[�>8.8(�8[�n�[~8�8(�8�8W�FV�N8�[�>8�8(�8z��[�n8�8W�FV�6���8�h�[�^8[�n�[~8�8W�FV�6�fVǞ8�[�>z�NY�.8�8[�>8�8�8W�FV�6�fV�W7>8�[�>z�N8^8�8~8.8(�8" ����>���[�.h� ��W�FV�6�fVǒ(	BX�����8�[�>z�NY�.8�8[�>8�8ZJ~8N8�8�8.X�^���8(N��X�X�n���8).K��;�8�8(�8" �W�FV�6�fV�W72(	BYފ��8�[�>z�N8^8[�>8�8(�8�8.K���Ί��8�8~8n8�8(N8(Nz�8N8" �W�FV�6�f�G�(	BYފ��8�ZIn[�nh
+~8zK��x�h
+~8�8.x��yn8;���nyn8�8�8�[.�hX�n�x�8~K��8(�8(�8(�8" ���&R���7BW�FV�6�fR(	BW�FV�6�fR8�j�N��>{I�8;�i�K��{I�8.y��8N[�.8��W�FV�6�fW.8;��W�FV�6�fW7B8��	�[��K��8(�8�8N8" ���FV�6�fR(	B��.jZ�8;�x��yn8�8�8rW�FV�6�fR8�Z��j�N8^8(�8(�[�.Z랊��8.8�88~8W�FV�6�fR8�Y
+nZ�h�^�
+ދ��K��8�8�[�.8~8�8�8�8hH�Y>8�Z��xZ~8).8�8�X�^���8~8.8(�8" ����>8+>8*.8*N8:8;�8+���W�FV�6�fR8�X[�	�j�8�8Z��8�ZIn8�[�>8�8(�z�NY�.8;��x�8;�K��yJ�8�X��8nXX�8�ZJ~8�8N8>8�8~8.8(�8.x��yny�N8���.z��888~8�8�8h�8nh8^Z8�[�^8�*�Z�>8(Nj����8�h�j�8��.Y�8�K��8Nik�8{;�8�ZJ~8�8^8�8�j.K�.8��nynK��8��yJ�Z��8�[�>8�8(�8�8(.X��8n8" �8;�x��yny�N8�[�>8Nz�NY�.8�8�[�>8�8(�(i"8�[�>ZJ~8�8[�>z�NY�.8�X��8n8��Ȏ���{��Ȓ �8;��*�Z�>8;��x�8;�z��[�n8�ZJ~8�8�[�>8�8(�(i"8�ZJ~�h�j�8�8yI�ZJ~8�8��Ȏ���{�.�Ȓ �8;�h8^Z8;�{XΚ�>8;�Z��8�[�^[�>8N[�>8�8(�(i"8�[�^[�>8N8X�^h��y�N8�8��Ȏ���{�>�Ȓ �8;�ZJ~8�8�Y��Y�8�h�^XZ^8).X�niZ>8�8(���.jZ�(i"8�{)~iK�y�N8�8��Ȏ���{�N�Ȓ �8;�{;�8�ZJ~8�8^8�[��8�8nZ)~8�8(�h
+~�:�(i"8�zK��x�h
+~8�8��Ȏ���{�^�Ȓ �8;���yJ�8^8(�8(�Z��8nY�8�Y��8^8�Z�{�(i"8�ZIn[�ny�N8�8��Ȏ���{�n�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	[�.Z랊��8;�x��yny�Nz�NY�.8	[�>ZJ~8�8[�>z�NY�.8�X��8`��8	iz^i�Ί�>8;�Z�{�8	Y��Y�8;�Y�Y��8;�[��x��8�i[~Y�8�8�8�ZJ~8�8���.z��8�X��8n88�8�8�ix^��8;�kK�X�^8�8�8�[�>8NY�Y��8�8(�8�8(�8>8�8).��8�8.Xَ8�Z��8�i[8�ZI�8N8�8N8n8(�8(�8z���i>y�N8�[�>8�8(�8(NX��8nz�NY�.8�xJnx+�8�8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Y��Y�8[��8j:�i�~8z.k�8ix^��888�88>88�8:�8;�8*�8�8�8�z���i>y�N8�[�>8�8(�8).���i��8�8(�8" ��8	ih~k9^898+�8;�8;>8	W�FV�6�fR�8�&V�w&�V�G2���B�f�&W7B�&�W'G�8����[�>8N��.z��8�8�Y�Y��8;�i[~Y�8;�Y��Y�8;�j:�i�~8;�x��K�n8����W�FV�6�fR�8�G&fV�2�F�W"��WGv�&�8����[�>8NY�Y��8�X��8nix^��8;�[zY��8;�88�88>88�8:�8;�8*����&RW�FV�6�fR��&V��ޙ�.z��8�[�>8B ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W�FV�6�fRw&�V�G2 �yJ��	C�[��x��8�K��[�8�8(�i[~Y�8(N[��8�[�>ZJ~8~8.8(�8>8�8).��8�8" �K賢F�R��FV�7F�G2��W�FV�6�fRw&�V�G2�fW&������rF�R��R� ���3�8�8�89�88n8:�8�k�n8).�h�K��8(�8�[�>ZJ~8�i[~Y�8�[��8>8n8N8(�8" ��8;�W�FV�6�fR��B���F��w2 �yJ��	C�X�K��8;�K�jZ�8;�Y�>K�>8�[�>8NY��Y�8).h�iȞ8~8n8N8(�8>8�8).��8�8" �K賢F�R6����2W�FV�6�fR��B���F��w2��F�R��'F�W&�&Vv���� ���3�8�8�KɮzK�8�X�~�:�Y�Y��8�[�>ZJ~8�Y��Y�8).h�iȞ8~8n8N8(�8" ��8;�W�FV�6�fRf�&W7G2 �yJ��	C�j:�i�~8�[�>8NY�Y��8�[�>8�8>8n8N8(�8>8�8).��8�8" �K賢W�FV�6�fRf�&W7G27F���6�fW"�V6��bF�R��V�F��&�vR� ���3�8�8�[�H�8�ZJ~�:�X�n8�8�K��8(.[�>ZJ~8�j:�i�~8�[�>8�8>8n8N8(�8" ��8;�W�FV�6�fRG&fV�2 �yJ��	C�ZI�8�8�Y�Y��8).[z8(�[�>z�N8�ix^��{XΚ�>8).��8�8" �K賢�W"W�FV�6�fRG&fV�2�fR6�VB�W"V�FW'7F�F��r�bF�ffW&V�B7V�GW&W2� ���3�[��Z[>8�[�>z�N8�ix^��{XΚ�>8�8y[8�8(�ih~X�n8�8�yn�z>8).[�.8^8�8>8n8�8�8" ��8;��W�FV�6�fR�WGv�&��b8�&�G2�&��v�>8� �yJ��	C��>�z�8(N��N�>8�8�8�[�>8NY�Y��8).{Y8)>8~8N8(�8>8�8).��8�8" �K賢F�R�6��B�2�W�FV�6�fR�WGv�&��b'W&�&�G2� ���3�8�8�[;n8�8���.i��:�8�8~[�>8�8(��>�z�{k.8�8.8(�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�W�FV�6�fR8�8�[�>8N��.z��8�X��8n8�8�8N8nz���i>y�N8�hH�Y>8�K��[�>8~8.8(�8&W�FV�6�fRw&�V�G28�[��8(Ni[~Y�8��.z��8).��8�8�8W�FV�6�fR&W6V&6�8���.z��8~8�8�8�h8^Z8�z�NY�.8).��8�8�8(8���{�>8���8N8" ��W�FV�6�fR8�Yފ��8�X��8�{��8���Z�yJ�k9^8�ZI�8N8.�����K��{��8�F�Rw&�V�G2&RW�FV�6�fR�8(.X���;�88�8�*�Z�>8;�i�X+~8�8N8N8bF�RF�vRv2W�FV�6�fR�8���8nZNY�8�8z���i>8(�8(�8(.�h�j�8;�z��[�n8).��8����{�.8�8~8nyn�z>8�8(�8" ��8	��{꞊��8	��8;�f7B �Z�{ꓢ��.z��8;��yޙ�.8;�i[�x�8�8�8Ι��[��8�ZJ~8�8�8[�>ZJ~8~8.8(�8" ���[�c�8���8� ��^8C�f7B8��h�j�8�ZJ~8�8^8).[�~8�X��8^88W�FV�6�fR8(�8(���~[�^y�N8;�h��Xi�y�N8�8�8(�8(N8�8N8&W�FV�6�fR8���iK�8;�z	Nz�n8;�ZY�8�i��8�8(.K��8N8(N8�8N8" �K賢f7B&V2�bF�RFW6W'B&V���V�W���&VB� ���3�z.k�8�[�>ZJ~8�Y�Y��8�8N8�8h�.i��8^8(�8n8N8�8N8" ��8;�v�FR �Z�{ꓢ[znX�>8;�z�NY�.8;���h��*.8�8�8�[�>8N8" ���[�c�8��8� ��^8C�v�FR8�[�^8(N��h��8�[�>8^8).iz^[��y�N8���8�Y��i�Ί��8~8W�FV�6�fR8�[�>8Nz�NY�.8�8(�8�8(��h�j�8(N[^�h�8).8(N8(Nz�8���8�8(�8" �K賢F�R�W6WV��ffW'2v�FR&�vR�bVGV6F����&�w&�2� ���3�8�8�Xٮx���J�8�[�^[�>8NiY��+.89~8:�8+8:�8:8).h�K�8~8n8N8(�8" ��8;�W��6�fR �Z�{ꓢ[�>8�Kˎ8>8n8N8(�88�8�8�[�>8�8(�8).8(.8N8" ���[�c�8�r�8� ��^8C�W��6�fR8�z���i>8�[�>8�8(�8(N8�h�iK�y�N8~[�>8^8~8�X��8).[�~���8�8(�8&W�FV�6�fR8�Z�����8�z�NY�.8;��h�j�8).Z�.�k>y�N8���8�8(N8�8N8" �K賢F�R��W6R�2W��6�fRf�Ww2�bF�Rf��W�� ���3�8�8�Z�n8�8(�8��~8).[�>8��h�k�8�8(�8" ��8;�7&vƖ�r �Z�{ꓢ[��x��8(N�;�[�.8�8�8�[�>8Nz�NY�.8�K�ފh�X�~8�[�>8�8>8n8N8(�8" ���[�c�8�b�8� ��^8C�7&vƖ�r8�[�.8�8�8�8�8(�8�8�[�>8�8(�X��8(N88~88~8h��X�Ny�N8�Y
+�8�8).K�N8n8&W�FV�6�fR8�8�8�8^K�8�[�^��8~8�8N8" �K賢7&vƖ�r7V'W&"�2FWfV��VB&�V�BF�R�'�'B� ���3�z��k��Y���8�[�>8�8(�{i�88(��8�ZIn8�[�.h�8^8(�8�8" ��8	X��hH����8	��8;�Ɩ֗FVB �Z�{ꓢz�NY�.8;���.z��8;�i[�x�8Ι�8(�8(�8n8N8(�8" ���[�c�8���8� ��^8C�W�FV�6�fR8�[�>8Nz�NY�.8�Z��8�8(�8�h�j�8;�z�NY�.8�y�Nh�^y�N8�X��Z��8).��8�8" �K賢F�R&��V7Bv26'&�VB�WBv�F�Ɩ֗FVB��B�BWV��V�B� ���3�8�8�yK�8���8(�8(�8�Y��Y�8����X)�8~Z��ik�8^8(�8�8" ��8;�6��f��VB �Z�{ꓢx��Z�8�x��8NZNh�8(Nz�NY�.8��h�8����8(8(�8(�8�8��Z�8^8(�8�8" ���[�c�8�r�8� ��^8C�6��f��VB8�[�>8�8(�8�x��yny�N8;�X�n[�ny�N8�h�8�8(�8(�8n8N8(�8>8�8).[�~���8�8(�8" �K賢F�Rf�&Rv26��f��VBF�6��v�R&���� ���3�x�x�8�K�Z�N8���Z�8^8(�8n8N8�8" ��"�8	[�.Z랊��8;��x�8;�z��[�n8	ZJ~�h�j�8�8yI�ZJ~8�8���[��8�ZI�8@��8	iz^i�Ί�>8;�Z�{�8	�*�Z�>8i�X+~8K��yn8ZH�i�N8j����8jI�i��8�8�8�x�8;��h�j�8;�z��[�n8�ZJ~8�8N8>8�8).��8�8.ZJ~8�8�z�NY�.8�X��8n8>8�8).zK�8�8�8[�^8�8~8(.8�i�ZJ~{I�8�8�XZ���.y�N8�8�X�n8(���N8~8�8N8�8�8N8�8�8~hH�Y>8�8(�8(�88~8�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.x�Z�>Z�>8X˾y�.8K�ޙ��889>8+�88�8+�8��iK�8h��>ZY�8~��X{�8�8(�8&W�FV�6�fRF�v^8;�W�FV�6�fR��W&�W28�x��8�Z�y�8~8�{XN8�Y�8(�8�8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	W�FV�6�fR�8�F�vR�&W�'2���W&�W2�FW7F��~8����ZJ~�h�j�8�8��*�Z�>8;�K��yn8;��*X+~8;�jI�i��8����W�FV�6�fR�8��vW'2�6��vW2�W6^8����[�>z�N8�j����8;�ZH�i�N8;�X��yJ����&RW�FV�6�f^��ފ*�Z�>8;�i�X+~8�8�8�ZJ~8�8B ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W�FV�6�fRF�vR �yJ��	C�K��iX^8x�Z�>8iK�i(>8�8�8�8(�8(�i�Z�>8�ZJ~8�8N8>8�8).��8�8" �K賢F�RV'F�V�R6W6VBW�FV�6�fRF�vRF�&�G2�B'&�FvW2� ���3�8�8�Y���~8��>�z�8(Nj��8�yI�ZJ~8��*�Z�>8).8(.8�8(�8~8�8" ��8;�W�FV�6�fR&W�'2 �yJ��	C�K��yn8�z�NY�.8(NK��jZޘx�8�ZJ~8�8N8>8�8).��8�8" �K賢F�R��B'V��F��r�VVG2W�FV�6�fR&W�'2&Vf�&R�B6�&R&V�V�VB� ���3�8�8�X�N8N[��x��8�Xhޙh�X��8�ZJ~�h�j�8�K��yn8).[�^�h8�8~8n8N8(�8" ��8;�W�FV�6�fR��W&�W2 �yJ��	C�88�8�[�>z�NY�.8�X��8>8�x�8NXzn{��8).�h8�8(�8>8�8).��8�8" �K賢F�RG&�fW"7W7F��VBW�FV�6�fR��W&�W2��F�R6��Ɨ6���� ���3�8�8����.h��8���z�K��iX^8~[�>z�NY�.8�X��8n�x�X+~8).�*8>8�8" ��8;�W�FV�6�fRFW7F��r �yJ��	C�jI�i��8;���n��>8).ZI�8�8�i�K�n8(Nj�^���8~ZJ~�h�j�8���8n8>8�8).��8�8" �K賢F�R6�gGv&RV�FW'vV�BW�FV�6�fRFW7F��r&Vf�&R�G2&V�V6R� ���3�8�8�8+�89^88�8*n8*~8*.8�y��Z;.X��8�ZJ~�h�j�8���n��>8).X�~88�8" ��8;�W�FV�6�fR�vW'2 �yJ��	C�k9^[�8;�X�n[�nK��8�j����8�[�>8Nz�NY�.8�X��8n8>8�8).��8�8" �K賢F�RvV�7�v2v�fV�W�FV�6�fR�vW'2F���fW7F�vFRg&VB� ���3�8�8�j���j.8�8�K��j�>8).���i��8�8(�[�>z�N8�j����8�K��8�8(�8(�8�8" ��8;�F�RF�vR�2W�FV�6�fR �yJ��	C��*�Z�>8�h�j�8�ZJ~8�8N8�ZY�8;���^K�8�8(�8" �K賢�ff�6��26�BF�BF�RF�vRv2W�FV�6�fR'WB����Rv2��W&VB� ���3�[�>[�^8��*�Z�>8�yI�ZJ~88�888�K��8�8N8�8N8���8�8�8" ��8	���k9^8;�k:�hH�8	W�FV�6�fRF�v^8;�W�FV�6�fR&W6V&6�8�8(�8n8�8K��X��z�~Yފ��8).8�8�8�8�K��;�8~8�8(�8&F�vR8��	�[��K��X��z�~8�8�8~8K����y�N8�hH�Y>8r�W�FV�6�fRF�vR8�8���8(�8�8W�FV�6�fRF�vR8�8�8��W�FV�6�fR��V�B�bF�vR8�8�8(�8" ��8Ι[~8N8�8).��8��V�wF��8��x�8�8(�8>8�8�8.8(�8�8W�FV�6�fR8�i�.�i>8�[~8^8�8�8(.8�8(�8(�8K��jZ�8;��*�Z�>8;�Xh^Z�8�X��8nz�NY�.8(N�h�j�8�xJnx+�8�8.8(�8.K��yn8�i�.�i>8�8�8�8>8�8>8�8).��8N8�8N8�8(��V�wF��&W�'>8K��jZޘx�8�ZJ~8�8N8>8�8).��8N8�8N8�8(�W�FV�6�fR&W�'28Έz�xKn8~8.8(�8" ��8�[�~x8�8�8�8).��8���FV�6R8�8(.y[8�8(�8&��FV�6R8�{XΚ�>8;�hI�h8^8;�xk8;�X��X��8�8�8�[�~[�n8(N��nK��[�n8W�FV�6�fR8�[�>8�8(�8;��x�8;��h�j�8).��8�8" ��8	��{꞊��8	��8;�6��6�FW&&�R �Z�{ꓢ�x�8;�z��[�n8;��xފhh
+~8�8�8�8(�ZJ~8�8N8" ���[�c�8���8� ��^8C�6��6�FW&&�R8�8�8�8�8(�8�8�8�8N8ni[�x�8;�z��[�n8^K�8�xJnx+�8�8.8(�8&W�FV�6�fR8�Z��8�[�>8Nz�NY�.8�X��8n8�8N8njx��
+y�N8�[�>8�8(�8).8(�8(�[�~8�zK�8�8" �K賢F�R&��V7B&WV�&VB6��6�FW&&�R��fW7F�V�B� ���3�8�8�yK�8�8�8�8�8(�8�h�^�8~8�[�^�h88>8�8" ��8;�7V'7F�F�� �Z�{ꓢ�x�8;��h�j�8;�K�X
+N8�X�X�n8�ZJ~8�8�8xJ�in8~8�8�8N8" ���[�c�8���8� ��^8C�7V'7F�F��8�Z���:�y�N8�ZJ~8�8^8;��xފhh
+~8).��8�8&W�FV�6�fR8�[�>8Nz�NY�.8(NZI�8�8�:�X�n8�X��8n8>8�8).��8~8K�X
+N8(N�xފhh
+~8�8~8�[�^��8~8�8N8" �K賢F�R6����FR7V'7F�F��6��vW2F��G26fWG�&�6VGW&W2� ���3�8�8�KɮzK�8�Z�XZ�h���n8�ZJ~[�^8�ZH�i�N8).X�8�8�8" ��8;��&vR�66�R �Z�{ꓢ���yK�8;�kK�X�^8;�x�Z�>8�8�8�ZJ~�h�j�8�8" ���[�c�8���8� ��^8C��&vR�66�R8��h�j�8�ZJ~8�8^8).y�Nh�^y�N8;�Z�.�k>y�N8�zK�8~8Yފ��8�X��8~K��8n8&W�FV�6�fR8��*�Z�>8(NXh^Z�8�[�>z�NY�.8�X��8n8>8�8�8(.K��8�8(�8" �K賢F�R6�G��V�6�VB�&vR�66�R&V��fF���&��V7B� ���3�8�8�;�[�.8�ZJ~�h�j�8�iK�K��yK�8).�h�Zx�8~8�8" ��8;�6WfW&R �Z�{ꓢ�*�Z�>8;�yx~x�n8;�x�nk88�8�8�z��[�n8Ι��[��8�k{X��8�8" ���[�c�8���8� ��^8C�6WfW&R8�k{X��8^8;�����[~8^8).��^K�8�8(����8~8z�NY�.8�[�>8^8).[�^8�8~8(.Y
+�8�8�8N8.[�>z�NY�.88Θx�yx~[�n8�K�jy�8�8���8(�8�8NZNY�8�W�FV�6�fR8Θ�8�8(�8" �K賢F�R7F�&�6W6VB6WfW&Rf���F��r��6WfW&�F�v�2� ���3�8�8�[Y8��H~i[8�yK�8~k{X��8�kJ�kN8).[�^8ދ[~8>8~8�8" ��8	X��hH����8	��8;�Ɩ֗FVB �Z�{ꓢ�x�8;�z�NY�.8;�z��[�n8Ι�8(�8(�8�8" ���[�c�8���8� ��^8C�W�FV�6�fR8�ZJ~8�8��h�j�8;�z�NY�.8�Z��8�8(�y�Nh�^y�N8�X��Z��8~8.8(�8" �K賢F�R&W�'2vW&RƖ֗FVBF�F�R&��b� ���3�K��yn8�[�j�8���8(�8(�8n8N8�8" ��8;�֖��" �Z�{ꓢ�xފhh
+~8;��h�j�8;�z��[�n8�[�8^8�8k{X��8~8�8N8" ���[�c�8���8� ��^8C�֖��"8��*�Z�>8(NZH�i�N8�[�8^8^8;����8^8).��8�8&W�FV�6�fR8�z�NY�.8�[�>8^8�8�y[8�8(����8(.8.8(�8�8F�v^8;���W&�W>8;�&W�'28~8�iȞX��8�Z��j�N8�8�8(�8" �K賢F�RfV��6�R7VffW&VB��ǒ֖��"F�vR� ���3�8�8�8����[��8�i�X+~8~8�X�~88�8�8>8�8" ��8;�֖��� �Z�{ꓢX���;�8���8(�[	8�8N8i�[���8�8" ���[�c�8���8� ��^8C�֖���8��x�8;�[����8;�[�^�hh
+~8�8�8�8)>8�8�8N8>8�8).[�~���8�8(�8" �K賢F�RG&VF�V�B6W6VB֖���F�66��f�'B� ���3�8�8�k+�y�.8�8(�8(�K��[��hI�8�i�[���88>8�8" ��2�8	[�.Z랊��8;�z�NY�.8;�Xh^Z�8	[�^[�>8N8X�^h��y�N8���8	iz^i�Ί�>8;�Z�{�8	y�^�َ8{XΚ�>8z	Nz�n8����n8�8~ii�8��h��*.8�8�8�8ZI�8�8>{K8;�X�n�x�8;��^y��8).Y
+�8�8h�8nz�NY�.8�[�>8N8>8�8).��8�8.8�8�8n8).k��8(�8�8�h�8n8�8N8n8(�8(�8Z��8�[�>8^8;��x�8;�ZI�jy�8^8�xJnx+�8�8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.iY��+.8z	Nz�n889>8+�88�8+�8�~X��{X�j�N8Z�>8i��{�{K�K��8~[�>8�K��8n8&W�FV�6�fR���v�VFv^8;�W�FV�6�fRW�W&�V�6R8�8K��8�;�X��8(N{X�j�N8).��^K�8�8(�Z�Y辊�x��8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	W�FV�6�fR�8�&W6V&6�����v�VFvR�W�W&�V�6^8�����b8�X�n�x�8����8�X�n�x�8�8��j.8�8(�[�^[�>8Nz	Nz�n8;�y�^�َ8;�{XΚ�>����W�FV�6�fR&�vR�6V�V7F����b8��FV�>8����[�^[�>8Nz���8�8��^y��8����W�FV�6�fRF�67W76����6���V�F'���8�F��>8����8�����8�8��j.8�8(�[�>z�N8�����n8;���n��^���&RW�FV�6�f^���Xh^Z�8�z�NY�.8�[�>8B ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W�FV�6�fR&W6V&6���F����8�F��>8� �yJ��	C�8.8(�YX���8;�X�n�x�8�8N8N8nZI�8�8�8~ii�8(N�y.[�n8�8(���8n[�>z�N8�z	Nz�n8).��8�8" �K賢W�FV�6�fR&W6V&6��2&VV�6��GV7FVB��F�F�R6W6W2�bF�RF�6V6R� ���3�8�8�yx^k	~8�X��Y�8�8N8N8n[�>z�N8�z	Nz�n8Ί�8(�8(�8n8�8�8" ��8;�W�FV�6�fR���v�VFvR�b8�7V&�V7N8� �yJ��	C�8.8(�X�n�x�8�8N8N8nZI�8�8�h8^Z8�yn�z>8).8(.8>8n8N8(�8>8�8).��8�8" �K賢6�R�2W�FV�6�fR���v�VFvR�b��FW&�F����F��r� ���3�[��Z[>8�Y�ޙ��z��k9^8�8N8N8n[�^[�>8Ny�^�َ8).8(.8>8n8N8(�8" ��8;�W�FV�6�fRW�W&�V�6R���v�F�8�f�V�B�7�7FV�8� �yJ��	C�8.8(�K�^K��8;�X�n�x�8;�8+~8+�88n8:8��j.8~8n��Z��8~[�^[�>8N{XΚ�>8�8.8(�8>8�8).��8�8" �K賢F�R6��7V�F�B�2W�FV�6�fRW�W&�V�6R��f���6��&W�'F��r� ���3�8�8�8+>8;>8+^8:�8+�8;>88�8��*X��ZY�8�X�n�x�8~��Z��8�{XΚ�>8�8.8(�8" ��8;��W�FV�6�fR&�vR�b8�&�GV7G2�6W'f�6W>8� �yJ��	C��;�Y88;�8+^8;�89>8+�8�8�8�z���8(N��h��*.8�[�^[�>8N8>8�8).��8�8" �K賢F�R7F�&R�ffW'2�W�FV�6�fR&�vR�b�WFF��"WV��V�B� ���3�8�8�[�~8�[�^[�>8N8*.8*n88�88�8*.yJ�Y88).X�n8(�8�8(�8�8n8N8(�8" ��8;��W�FV�6�fR&�&Ɩ�w&�� �yJ��	C�i��{�8;���nih~8�8�8�X�.�>ih~x��K��j~8�ZI�8�8[�>8N�8~ii�z�NY�.8).8*�898;�8~8n8N8(�8>8�8).��8�8" �K賢F�R&�����6�VFW2�W�FV�6�fR&�&Ɩ�w&���b��7F�&�6�6�W&6W2� ���3�8�8�i��8�8�j�NX�.�8~ii�8�[�>z�N8�X�.�>ih~x��K��j~8�K��8N8n8N8(�8" ��8;�W�FV�6�fR&VF��r �yJ��	C�x��Z�8�ih~z�8).{K�:�8�8~X�ni�8�8(�8(�8(�8ZI�8�8�ih~z�8).���8(Z�n{�.8;�kK�X�^8).��8�8" �K賢W�FV�6�fR&VF��r6��V��V&�W'2'V��Bf�6'V�'�F�&�Vv�&WVFVBW��7W&R� ���3�ZI����8�8{�8(���N8~�zn8(�8(�8>8�8).�	�8�8nZ�n{�.�^8�[ٞjx�z��8�[۞z��8N8" ��8	���k9^8;�k:�hH�8	W�FV�6�fR���v�VFvR8�8�y�^�َ8�k{8N8�8>8�8).Y
+�8(ZNY�8(.8.8(�8�8���8�K��[�>8�y�^�َ8�x�8;�z�NY�.8~8.8(�8{K�:�8�8�k{8^8).[�^8�8~8(.K�ފ��8~8�8N8&6��&V�V�6�fR8�[�^�h8�z�NY�.8).k��8(�8�8�Y
+�8(8>8�8F��&�Vv�8�{K�:�8�8~k:�hH�k{8�h�8n8>8�8�xJnx+�8�8.8(�8" ��W�FV�6�fRW�W&�V�6R8�8�{XΚ�>8~8�i���i>8Ι[~8N8�888~8�8�8�H~i[8�jZ�X��8;�x�nk88;�X�n�x�8�8�8�8�8(�{XΚ�>8΋�Z��8~8.8(�8>8�8).��8~8(N8�8N8.{XΚ�>[�Ni[888).��8�8(�8�8(����V'2�bW�W&�V�6R8�ik�8�y�Nh�^y�N8�ZNY�8(.8.8(�8" ��W�FV�6�fR&VF��r8�iY��+.yJ����8�8~8n8�ZI����8�8).h�~8�8>8�8�8.8(�8�8K����ih~�H�8~8�Xَ8�ZJ~�x�8;�[�>z�NY�.8����8(8>8�8(.��8�8.{+�8���FV�6�fR&VF��r8�Z��j�N8^8(�8(�8" ��8	��{꞊��8	��8;�6��&V�V�6�fR �Z�{ꓢ[�^�h8�z�NY�.8�h{J8).8�8�k��8(�8�8�Y
+�8(8X�^h��y�N8�8" ���[�c�8���8� ��^8C�6��&V�V�6�fR8�{k.{�^h
+~8;�Z��XZ�h
+~8).[�~8�zK�8�8&W�FV�6�fR8�h�8nz�NY�.8(N�x�8�ZJ~8�8N8>8�8).zK�8�8�8XZ��^y��8).Y
+�8(8�8���8(�8�8N8" �K賢F�R&W�'B&�f�FW26��&V�V�6�fR�fW'f�Wr�bF�R�77VR� ���3�8�8�ZY�i��8�8�8�YX���8�X�^h��y�N8�jh.�k>8).zK�8~8n8N8(�8" ��8;�v�FR�&�v��r �Z�{ꓢZI�8�8�X�n�x�8;�z���8;�����8�X��8n8" ���[�c�8�r�8� ��^8C�v�FR�&�v��r8�z�NY�.8�ZI�jy�8^8).i��zK�8�8(�8&W�FV�6�fR8�ZI�jy�8^8�X�8�8n�x�8;��h�j�8�ZJ~8�8^8�8(.K��8�8(�8" �K賢F�R֖�7FW"f6VBv�FR�&�v��rVW7F���2g&��&W�'FW'2� ���3�8�8�ZJ~�z>8�����^8�8(�[�^[�>8N�:�YX�8).X�~88�8" ��8;�'&�B �Z�{ꓢz�NY�.8;�Xh^Z�8;��in�x�8�[�>8N8" ���[�c�8��8� ��^8C�'&�B8�iz^[��y�N8~Y��i��y�N8����8&W�FV�6�fR8��8~ii�8;�{XΚ�>8;�z	Nz�n8�8�8�x�8(N[^�h�8�ZJ~8�8^8).8(N8(N[�~8�88�8�z�8���8�8" �K賢F�R6�W'6Rv�fW27GVFV�G2'&�BV�FW'7F�F��r�bV6���֖72� ���3�8�8�ɾ[�~8�Z�nyI�8�{X�k��Z�n8�[�^[�>8Nyn�z>8).K��8�8(�8" ��8;�f"�&V6���r �Z�{ꓢ[����8;�X��i��8;�{Yi��8�8�8�[�>8Nz�NY�.8�X��8n8" ���[�c�8�r�8� ��^8C�f"�&V6���r8�[����8(N{Yi��8�X��8nz�NY�.8).[�~���8�8(�8&W�FV�6�fR8�y�^�َ8;��8~ii�8;�{XΚ�>8�x�8(Nz�NY�.8�8(.K��8�8(�8" �K賢F�R&Vf�&�6�V�B�fRf"�&V6���r6��6WVV�6W2� ���3�8�8�iK��ڞ8�[�>z�N8�{Yi��8).8(.8�8(�8�X���;�h
+~8�8.8(�8" ��8;�F��&�Vv� �Z�{ꓢ{K�:�8�8~k:�hH�k{8�8h��8).h��8�8�8���8n8" ���[�c�8���8� ��^8C�F��&�Vv�8�k{8^8;�XZ^[�^8^8�8~8z�NY�.8�[�>8^8).[�^8�8~8(.Y
+�8�8�8N8&W�FV�6�fR&W6V&6�8�[�>z�N8�z	Nz�n8F��&�Vv�&W6V&6�8�{K�:�8�8~{k�Z�n8�z	Nz�n8~8.8(�8" �K賢F�RVF�B&WV�&W2F��&�Vv�W�֖�F����bF�R&V6�&G2� ���3�8�8�y�>i��8�8������.8�{k�Z�n8����i��8�[�^�h88" ��8	X��hH����8	��8;�Ɩ֗FVB �Z�{ꓢh�8nz�NY�.8;��x�8;���h��*.8Ι�8(�8(�8�8" ���[�c�8���8� ��^8C�W�FV�6�fR8�[�^[�>8^8�Z��8�8(�y�Nh�^y�N8�X��Z��8~8���v�VFv^8;�W�W&�V�6^8;�&�vR8�8�8�K��8�8(�8" �K賢�R�2Ɩ֗FVB���v�VFvR�bF�R��6��&�WB� ���3�[��8�Y�XX>[�.ZN8�8N8N8n8�y�^�َ8Ι�8(�8(�8n8N8(�8" ��8;��'&�r �Z�{ꓢz�NY�.8;��in�x�8;�Z��8�x��8N8" ���[�c�8���8� ��^8C��'&�r8�Z��X�n�x�8(N�in�x�8�x��8^8).[�~���8�8(�8" �K賢F�R7GVG�f�7W6VB���'&�r&�vR�b7V6�W2� ���3�8�8�z	Nz�n8�x��8Nz�NY�.8�z��8�xJnx+�8).{Y�8>8�8" ��8;�&W7G&�7FVB �Z�{ꓢ�h�X�~8;�i�K�n8;�z�NY�.8�8(�8>8nX�n��8^8(�8�8" ���[�c�8�r�8� ��^8C�&W7G&�7FVB8�ZIn�:�8�h�X�~8(Ni�K�n8�8(�8>8nX��yJ�8;���yJ�z�NY�.8�h�8�8(�8(�8n8N8(�8>8�8).zK�8�8" �K賢66W72F�F�R&6��fR�2&W7G&�7FVBF�&W6V&6�W'2� ���3�8�8�8~ii��J�8�8�8*.8*�8+�8+�8�z	Nz�n�^8�X�n��8^8(�8n8N8(�8" ��B�8	[�.Z랊��8;���.jZ�8	{)~iK�y�N8�8{)~iK��.jZ�8࠮8	iz^i�Ί�>8;�Z�{�8	[�>8NY��Y�8).K��8N8Y��Y�XَK��[�>8�8(�8�8~i��8;�X�NX8�8;�8�8�K�n8�h�^XZ^8).j�N��>y�N[	8�8�8~8nK��x��8(NZ�nyY�8).yI�yJ>8�8(���.jZ�ik�[��8).��8�8.[�>8NY��Y�8).K��8n8>8�8�K��h�^XZ^8~8.8(�8>8�8�{XN8�Y�8(�8^8>8�[.�h{�8~8.8(�8Xَ8�8΋�.Y�8�[�>8N8�888~8�8�8N8.��n{HN��.jZ�8(�8(�Y��Y�[�>8�8(�8�X��x�8�K��8�8�8(�8(N8�8N8�8{x�yI�yJ>8�[�^8�[	8�8N88�8�8����X��x�~88�8N8n��^K�8).Y
+�8(8(�88~8�8�8N8" ��8	��[�n8	8�2�8� ��8	8:�8+�8+�8+�8;���	�Y��8	��.jZ�8;�yY�yJ>8�[.�h���8.K����Kɮ��8~8�W�FV�6�fRf&֖�r�w&�7V�GW&R8�Z�y�8~8����X�^8~x��8(�8(�8>8�8�ZI�8N8&��FV�6�fRf&֖�r�w&�7V�GW&R8�Z��j�N8^8(�8(�8" ��8	ih~k9^898+�8;�8;>8	W�FV�6�fRf&֖�r�w&�7V�GW&^���{)~iK��.jZ����W�FV�6�fRƗfW7F�6�f&֖�~���{)~iK�yY�yJ>���W�FV�6�fRw&���~���{)~iK�iK�x�~����W�FV�6�fRf&֖�r7�7FV����{)~iK�y�N8���.jZ�K�>{;� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W�FV�6�fRf&֖�r �yJ��	C�[�>8NY��Y�8�j�N��>y�N[	8�8Nh�^XZ^8;�X�NX8�8).yJ�8N8(���.jZ�ik�[��8).��8�8" �K賢W�FV�6�fRf&֖�r�26�������&Vv���2v�W&R��B�2'V�F�B'WB�&�"�266&6R� ���3�Y��Y�8���Z��88�X�NX8�X��8�[	8�8NY�Y��8~8�8{)~iK��.jZ�8�K����y�N8~8.8(�8" ��8;�W�FV�6�fRw&�7V�GW&R �yJ��	C�K��x��8;�Z�nyY�8).Y
+�8({)~iK�y�N8���.jZ�XZ����8).��8�88(N8(Nz�8N��x��8" �K賢F�R�Ɩ7���2F�&�FV7B&��F�fW'6�G���&V2W6VBf�"W�FV�6�fRw&�7V�GW&R� ���3�8�8�iK�z�n8�{)~iK��.jZ�8�X��yJ�8^8(�8(�Y�Y��8�yI�x��ZI�jy�h
+~8).Z�8(�8>8�8).y��h�~8~8n8N8(�8" ��8;�W�FV�6�fRƗfW7F�6�f&֖�r �yJ��	C�[�>8NY��Y�8~Z�nyY�8).K��8N�;ΚH�Z�n[�n8;�K��h�^XZ^8~�+.8n8(�ik�[��8).��8�8" �K賢W�FV�6�fRƗfW7F�6�f&֖�r&VƖW2�Vf�ǒ���GW&�7GW&R� ���3�{)~iK�yY�yJ>8��z�xKn8�x�~�؞Y�8�ZJ~8�8�K��Zَ8�8(�8" ��8;�W�FV�6�fRw&���r �yJ��	C�[�>8NiK�x�~Y�8~Z�nyY�8).�;�8n{)~iK�y�N8�iK�x�~8).��8�8" �K賢W�FV�6�fRw&���r6����F���V���G66W2v�V�7F�6���r&FW2&R��r� ���3��;ΚH�Z�n[�n8�K��88(�88{)~iK�iK�x�~8��h�88�i���k>8).{j�h�8~8�8(�8" ��8	���k9^8;�k:�hH�8	8>8�{�8~8�W�FV�6�fR8).8�ZJ~�h�j�8�8�8�[�>z�N8�8�8�88��>8�8�8K��h�^XZ^8;�K��Z�n[�n8�8N8nZ��j�N8�h��88(�8&W�FV�6�fRf&֖�r8�Y��Y�[�>8�8(�8�h�^XZ^8�[	8�8Nik�[��8��FV�6�fRf&֖�r8�Y��Y�[�>8�8(�8�h�^XZ^8).Z)~8(N8~8n���8NyI�yJ>h
+~8).y��h�~8�ik�[��8~8.8(�8" ����.jZ�yJ�k9^8�W�FV�6�fR8�8K���Ί��{�.8�W�FV�6�fR&�GV7F���8�ZJ~�h�j�8�yI�yJ>8�8�Z��XZ�8�Y�{�8~8�8�8N8.[�>8NY��Y�8).K��8>8n8N8n8(.8XَK�ޙ�.z��[�>8�8(�8�h�^XZ^8�[	8�8N8�8N8nik�[��K��8�x��[�N8�8�88(�888>8�[.�h{�8�8���8(�8�8N8" ��8	��{꞊��8	��8;���r֖�WBw&�7V�GW&R �Z�{ꓢY��Y�8;�X�NX8�8;��8~i��8�8�8�h�^XZ^8).j�N��>y�N[	8�8�8~8n��8n��.jZ�8" ���[�c�8�R�8� ��^8C���r֖�WBw&�7V�GW&R8�h�^XZ^8�[	8�8^8).y�Nh�^��8�8&W�FV�6�fRw&�7V�GW&R8�K��h�^XZ^8�X�8�8[�>8NY��Y�8;�K��Z�n[�n8�8N8nz���i>y�N8�ik�[��8(.Y
+�8(8" �K賢��r֖�WBw&�7V�GW&R6�&VGV6RFWV�FV�6R��7��F�WF�2fW'F�Ɨ�W'2� ���3�K��h�^XZ^��.jZ�8�Y�h��*^ii�8�8�K��Zَ8).k��8(�8�8(�8" ��8;�7F�&�f&֖�r �Z�{ꓢx�~�؞Y�8�8�8~Z�nyY�8).�;Έ+.8�8(���.jZ�8" ���[�c�8�R�8� ��^8C�7F�&�f&֖�r8�Z�nyY�8;�x�~�؞K��[�>8~8.8(�8>8�8).zK�8�8�8[�^8�8~8(.K��h�^XZ^8;�K��Z�n[�n8�8���8(�8�8N8&W�FV�6�fRƗfW7F�6�f&֖�r8�8�8�K��:�8�8�8(�8n8(�8" �K賢7F�&�f&֖�r&V���2���'F�B��F�RW��G2� ���3����Y�8~8�x�~yY�8�K��8(.�xފh8~8.8(�8" ��8;�&�6���r �Z�{ꓢ[�>8NY��Y�8~K��8�x��8�8�8�Z�nyY�8).�;Έ+.8�8(�K��jZ�8;���.jZ�8" ���[�c�8�b�8� ��^8C�&�6���r8�Y�Y��8;�{X�Ykn[�.hX�8).Y
+�8(���8~8W�FV�6�fRf&֖�r8�ik�[��XZ����8�K��{N8~8�8N8" �K賢&�6���r�26�VBF�RV6���ג�bF�R&Vv���� ���3�x�~ZN{X�Ykn8�8�8�Y�Y��8�{X�k��8).[�.8^8�8>8n8�8�8" ��8	X��hH����8	��8;���FV�6�fR �Z�{ꓢXَK�ޙ�.z��[�>8�8(�8�ZI�8�8�8~i��8;�X�NX8�8;��*^ii�8;��;�ii�8�8�8).h�^XZ^8�8(���.jZ�ik�[��8�8" ���[�c�8�r�8� ��^8C���.jZ�8~8�W�FV�6�fR8�y�Nh�^y�N8�Z��xZ~���8~8Y��Y�8�[�>8^8(�8(�8(.XَK�ޙ�.z��[�>8�8(�8�h�^XZ^Z�n[�n8�xJnx+�8).{��8�8" �K賢��FV�6�fRw&�7V�GW&R6�&�GV6R��v���V�G2g&��&V�F�fVǒ6���&V2� ���3���n{HN��.jZ�8�j�N��>y�Nx��8NY��Y�8�8(����8NX��x�8).yI�8�X{�8�8(�8" ��8;���v�֖�WB �Z�{ꓢY��Y�8(NyI�yJ>XَK��[�>8�8(�8�h�^XZ^�x�8�ZI�8N8" ���[�c�8�R�8� ��^8C���v�֖�WBw&�7V�GW&R8�h�^XZ^8�ZI�8^8).y�Nh�^zK�8����i��y�N8���x��8~8W�FV�6�fR8�[.�hy�N8�Z��j�N8�8~8nK��8(�8(�8(�8" �K賢��v�֖�WBf&֖�r�gFV�&WV�&W26&VgV���vV�V�B�bvFW"�BfW'F�Ɨ�W"� ���3����h�^XZ^Y辋�.jZ�8~8�8kN8��*^ii�8�hX�x�8�z�yn8�[�^�h8�8�8(�8>8�8�ZI�8N8" ��R�8	[�.Z랊��8;�x��yn8;�xkX��Z�n8	zK��x�h
+~8�8{;�8�ZJ~8�8^8�j�NK�8�8(���8	iz^i�Ί�>8;�Z�{�8	xkX��Z�n8�8�8~8x���:�8�x�8(N{;�8�ZJ~8�8^8�[��8�8nX
+N8�ZH�8(�8(�8x��z��8~8��:�X�n{;�8�X
+N8).�k>8~Y�8(�8�8(�8(�8(�h
+~�:�8).��8�8.�:��x�8;�K�>z��8;�8*�88�8:�8*�8;�8;�8*�8;>88�8:�89N8;�8�8�8�K�8~8.8(�8&W�FV�6�fR&�W'G�8�8{;�8).Y�8�x�nhX�8�8�8�ZJ~8�8�8�8(�8��	�[��8�X
+N8(.Z)~8�8(�8�8N8nhH�Y>8~8.8(�88�[�>8N8�8�ZJ~�h�j�8�8�8�8N8nK����{�8�Xَ8�8(���8Nh��8�8~8�8�8N8" ��8	��[�n8	8�2�8� ��8	8:�8+�8+�8+�8;���	�Y��8	x��yn8;�X�nZ�n8;�xkX��Z�n8�[.�h���8&��FV�6�fR&�W'G�8�zK�[�~h
+~8�h
+~�:�8�8�Z��j�N8^8(�8(�8" ��8	ih~k9^898+�8;�8;>8	�W�FV�6�fR&�W'G��V�F�G����zK��x�h
+~8�h
+~�:�8;��x�����W�FV�6�fRf&�&�^���zK��x�ZH�i[���&RW�FV�6�f^���{;�8�ZJ~8�8^8�[��8�8nZ)~8�8(����W�FV�6�fRv�F�&W7V7BF�8�7�7FV�6��^8����8�{;�8�ZJ~8�8^8�8��j.8~8nzK��x�h
+~8~8.8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��W�FV�6�fR&�W'G� �yJ��	C�{;�8�ZJ~8�8^8(Nx���:��x�8�[��8�8nX
+N8�ZH�8(�8(�x��yn�x�8).��8�8" �K賢�72�2�W�FV�6�fR&�W'G�&V6W6R�BFWV�G2��F�R��V�B�b�GFW"� ���3��:��x�8�x���:�8�x�8�K��Zَ8�8(�8�8(8zK��x�h
+~8�h
+~�:�8~8.8(�8" ��8;��W�FV�6�fRV�F�G� �yJ��	C��:�X�n{;�8�X�n88�8�8�8�X�k9^h
+~8).zK�8�x��yn�x�8).��8�8" �K賢f��V�R�2�W�FV�6�fRV�F�G�F�B6�&RFFVB7&�72��FWV�FV�B7V'7�7FV�2� ���3�K�>z��8�8x��z��8~8��:�X�n{;�8�8N8N8n�k>8~Y�8(�8�8(�8(�8(�zK��x�h
+~8�x�8~8.8(�8" ��8;��W�FV�6�fRf&�&�R �yJ��	C�xkX��Z�n8~8{;�8�h�j�8�[��8�8nZH�X�n8�8(�ZH�i[8).��8�8" �K賢��F��2��FV��F�F�V�W&w��2G&VFVB2�W�FV�6�fRf&�&�R� ���3�8>8�8:.88~8:�8~8�8XZ�8*�88�8:�8*�8;�8).zK��x�ZH�i[8�8~8nh�8n8" ��8;�W�FV�6�fRV�G&�� �yJ��	C�{;�8).h�ZJ~8~8�8�8�8�X�k9^y�N8�Z)~8�8(�8*�8;>88�8:�89N8;�8).��8�8" �K賢f�"��FWV�FV�B7�7FV�2�F�RF�F�V�G&���2W�FV�6�fR� ���3�x��z��8~8�{;�8~8�8XZ�8*�8;>88�8:�89N8;�8�zK��x�h
+~8).8(.8N8" ��8;��W�FV�6�fRF�W&��G��֖2&�W'G� �yJ��	C�xkX��Z�nK��8�zK��x�h
+~8).8zK�[�~h
+~8�XˮX�^8~8nK����y�N8���8�8(�8" �K賢�VB66�G��2�gFV���G&�GV6VB2�W�FV�6�fRF�W&��G��֖2&�W'G�� ���3�xkZ래x�8�8zK��x�h
+~8�xkX��Z�ny�Nh
+~�:�8�8~8n[�XZ^8^8(�8(�8>8�8�ZI�8N8" ��8	���k9^8;�k:�hH�8	8>8�[.�h{�8~8�8�{;�8).K��8N8�Y�z��8�:�X�n8�X�n88(�8�8XZ�K�>8�X
+N8Θ:�X�n8�X
+N8�Y(�8�8�8(�8�8�8N8nX�k9^h
+~8Θxފh8~8.8(�8.Xَ8�ZJ~8�8Nx��yn�x�8�8N8nhH�Y>8~8�8�8�8{;�8�8+^8*N8+�8(Nx���:��x�8�8�j.K�.8).X�n��8�8(�yJ����8~8.8(�8" ��zK��x�h
+~8�x�8).x���:��x�8(N�:��x�8~X�.8(�8�8Z�n[�n8(Nj�N8*�88�8:�8*�8;�8�8(�8n8�zK�[�~h
+~8�x�8�8�8(�8>8�8�ZI�8N8&��FV�6�fR8�{;�8�ZJ~8�8^8�K��Zَ8~8�8Nh
+~�:�8).��8�8�8(8K���Ί��{�8�8Ɩ�FV�6�f^��ޙ�nK��y�N8�8�8�j��j+y�N8���>8^8�8N8" ��8	��{꞊��8	��8;�FF�F�fR �Z�{ꓢx��z��8~8��:�X�n8�X
+N8).�k>8~Y�8(�8�8nXZ�K�>8�X
+N8).[�~8(�8(�8(�8" ���[�c�8�r�8� ��^8C�FF�F�fR8�X�k9^h
+~8�8N8nh
+~�:�8�xJnx+�8).{��8�8&W�FV�6�fR8�X�k9^h
+~8�X�8�8n8{;�8�ZJ~8�8^8;�x���:��x�8�[��8�8nX
+N8�ZH�8(�8(�xkX��Z�nK��8�X�n��8).��8�8" �K賢V�G&���2FF�F�fRf�"��FWV�FV�B7V'7�7FV�2V�FW"F�W6R6��F�F���2� ���3�8>8(�8(�8�i�K�n8~8�8x��z��8~8��:�X�n{;�8�8*�8;>88�8:�89N8;�8�X�k9^y�N8~8.8(�8" ��8;�6��R�FWV�FV�B �Z�{ꓢZ��8�ZJ~8�8^8(N�h�j�8�[��8�8nX
+N8(N{Yi��8�ZH�8(�8(�8" ���[�c�8�b�8� ��^8C�6��R�FWV�FV�B8�K����y�N8����i��8~8X�k9^h
+~8).Y
+�hH�8~8�8N8&W�FV�6�fR8�x��yn8;�xkX��Z�nK��8�h��>X�n��8~8.8(�8" �K賢F�R�V7W&VB�72�26��R�FWV�FV�B�v�W&V2FV�6�G��2��B� ���3�k��Z�8^8(�8��:��x�8�ZJ~8�8^8�K��Zَ8�8(�8�8Z�n[�n8�K��Zَ8~8�8N8" ��8	X��hH����8	��8;���FV�6�fR �Z�{ꓢ{;�8�ZJ~8�8^8(Nx���:��x�8�K��Zَ8�8�8�:�X�n{;�8~8(.Y�8�X
+N8).K��8Nh
+~�:�8�8" ���[�c�8�r�8� ��^8C�xkX��Z�n8~8�W�FV�6�fR8�y�Nh�^y�N8�Z��xZ~���8'FV�W&GW&^8;�&W77W&^8;�FV�6�G�8�8�8�X[�Y�K�8~8.8(�8" �K賢FV�W&GW&R�2���FV�6�fR&�W'G��bF�W&��G��֖27�7FV�� ���3�k��[�n8�xkX��Z�n{;�8�zK�[�~h
+~8�h
+~�:�8~8.8(�8" ��b�8	[�.Z랊��8;���nyn8	ZIn[�ny�N8�8ZIn[�n8�Y��8^8�8	iz^i�Ί�>8;�Z�{�8	��nynZ�n8~8���8(Njh.[�^8�hH�Y>Xh^Z�8;�[�h
+~8~8�8�8�88�8�8Θ�yJ�8^8(�8(�Z��8nY�88�8�8(�8ZIn[�n8��j.K�.8�8(�8>8�8).��8�8.x��K�>8nynZ�n8;�hH�Y>��n8~8�W�FV�6����8�ik�8�K����y�N8~8W�FV�6�fR8�8>8�yJ�k9^8�8�8(�8~8.8(�8" ��8	��[�n8	8�"�8� ��8	8:�8+�8+�8+�8;���	�Y��8	��nynZ�n8;�Y;.Z�n8�[.�h���8.K���Ί��{�8�8�[�^[�>8N8�8�X�^h��y�N8�8�8�8�X�^8�8W�FV�6���8�ZIn[�n8�8�8�j.K�.8).zK�8�8" ��8	ih~k9^898+�8;�8;>8	�W�FV�6�fRFVf��F����b8�FW&�8����8����8�8�ZIn[�ny�NZ�{����&RW�FV�6�fR&F�W"F����FV�6�������Xh^X�^y�N8~8�8�ZIn[�ny�N8~8.8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��W�FV�6�fRFVf��F����b8�FW&�8� �yJ��	C����8�hH�Y>[�h
+~8~8�8�8�88�8�8Θ�yJ�8^8(�8(�Z��8).zK�8�Z�{�8).��8�X�N�*�8;�[.�hy�N8�yJ�k9^8" �K賢����FW"��v�6�FW&֖����w���W�FV�6�fRFVf��F����FV�F�f�W2F�R�&�V7G2F�v��6�FW&�ƖW2� ���3�X�N8N��nynZ�n8�yJ����8~8�8ZIn[�ny�NZ�{�8�8.8(����8Θ�yJ�8^8(�8(�Z��8).x��Z�8�8(�8" ��8;��W�FV�6�fR&F�W"F����FV�6����FVf��F��� �yJ��	C�Z��8nY�8�8(�8(�Z�{�8�8hH�Y>Xh^Z�8;�[�h
+~8�8(�8(�Z�{�8).Z��j�N8�8(�8" �K賢F�RFW�F&���6��G&7G2�W�FV�6�fRFVf��F���v�F����FV�6����FVf��F���� ���3�8�8�iY�zyi��8�ZIn[�ny�NZ�{�8�Xh^X�^y�NZ�{�8).Z��j�N8~8n8N8(�8" ��8	���k9^8;�k:�hH�8	8>8�yJ�k9^8rW�FV�6�fR8�8�z�NY�.8�[�>8N8�8�8N8nhH�Y>8~8�8�8N8&W�FV�6���8�ZIn[�n8�8�{Y8>K��8N8�[.�hyJ�k9^8~8.8(�8x��Yʎ8nynZ�n8;�hH�Y>��n8~8�W�FV�6����FVf��F���8�8(�8(�i��	�8~8.8(�8" ����FV�6����8�8�Xh^X�^y�N8�8�8~8jh.[�^8Θ�yJ�8^8(�8(�Z��8�K��j~8~8�8�8�8jh.[�^8).h�8(�z��8�8�8(�[�h
+~8;�hH�Y>Xh^Z�8�Y��8^8�8&W�FV�6�fR8���FV�6�fR8�K���Ί��8~8��h�j�8���nK��8�Z��j�N88�88>8nynZ�nyJ�k9^8~8�W�FV�6�fR8���FV�6����8�Z��8�8�8(�8" ��W�FV�6�fR8�8K���Ί��{�8~8�8�[�>8�8(�8;��x�8;��h�j�8�ZJ~8�8N8�8[.�h{�8~8�8�[�>8NY��Y�8).K��h�^XZ^8~K��8n8�8�{;�8�ZJ~8�8^8�[��8�8nZ)~8�8(�8�8�ZIn[�n8��j.K�.8�8(�8�8�hH�Y>8�xJnx+�8�ZH�8(�8(�8" �8�[�>z�N8�8�8).��8N8�8N8�8�8�W�FV�6�f^88�{K�:�8�8~XZ^[�^8�8�8).��8N8�8N8�8�8�F��&�Vv�88�k{8���nK��y�N8�8�8).��8N8�8N8�8�8���FV�6�fR8).��8n8&W�FV�6�fR&W6V&6�8�z	Nz�n8�z�NY�.8;��x�8��FV�6�fR&W6V&6�8�k{8^8;���nK��[�n8).[�~���8�8(�8" �W�FV�6�fRF�vR8��*�Z�>8�z�NY�.8;��h�j�8�ZJ~8�8N8�8N8nhH�Y>8~8[�^8�8~8("F�vR8�i�8(.k{X��8XZ���.y�N8Y��[�K�ވ;�8�8N8nhH�Y>8~8�8�8N8" ��8	��{꞊��8	��8;�W�FV�6���� �Z�{ꓢ���8(Njh.[�^8Θ�yJ�8^8(�8(�Z��8nY�8;�ZIn[�n8��j.K�.8�8(�8" ���[�c�8�B�8� ��^8C�W�FV�6����8�x��K�>8nynZ�n8;�hH�Y>��n8~�	�[����88(�8(�[.�h���8&W�FV�6�fR8����i��8�����Ȟ8^8(�8(�8�8x��K�>8�[.�hih~8~8�8�8(�8~8.8(�8" �K賢�W�FV�6����FVf��F���Ɨ7G2F�R�&�V7G2F�Bf��V�FW"FW&�� ���3�ZIn[�ny�NZ�{�8�88.8(����8�[�>8n8�8�8(�Z��8).X�~hɞ8�8(�8" ��8	X��hH����8	��8;���FV�6���� �Z�{ꓢjh.[�^8�Xh^X�^88N8�8(�8�8�jh.[�^8).h�8(�z��8�8�8(�[�h
+~8;�hH�Y>Xh^Z�8��j.8�8(�8" ���[�c�8�B�8� ��^8C���nynZ�n8~8�8Z��8nY�8�Y��8^8�W�FV�6�fR�W�FV�6����8�Z��8~8jh.[�^8�[�h
+~8(NhH�Y>Xh^Z�8�Y��8^8�8" �K賢���FV�6����FVf��F���7V6�f�W2F�RW76V�F��&�W'F�W2�b6��6WB� ���3�Xh^X�^y�NZ�{�8�88.8(�jh.[�^8�i�΋:�y�N8�[�h
+~8).i��zK�8�8(�8 ����Р�2F�7F��7@����Ц�VGv�&C�F�7F��7@�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b�6���7&VFVE�C�##b���#P�WFFVE�C�##b���#P�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{>8;�����L����7L��X��B�8#.��>z�8�L���5D��t�B8~8z��.��>z�8�K��[�~X�.8�8.8(�8.z����>z�8�[�8B�L���8z��.��>z�8�j�ޙ�>8�����8~8���iʾ8��X��8;����8;��B�8Θ
+>{i�8�8(��X��B�8~8.8(�8" ����
+�8)"�L��2�8�X�~8>8n[�~8����8�8�8�2�8�[�~X�.8�8.8(�z��.��>z�8��7B�8�K��:�8�8~8ny����>8�8(�8.���iʾ8�>Z���>8�Z�n{�.�^8�8���>8~8N8�8K�Z�~8�y����>8~8����8��B�8).hH��َ8�8(�8.X�����F�7F��7Fǒ8��L����7L��X��Fƒ�8~8K��[�~X�.8).K��8>8�8�8��ƒ�8�X�8(�8(�8" ����>���k� ��K�ވ����F�7F��7B8�88:�88n8;>���F�7F��7GW>8�XˮX�^8^8(�8�8X�n88(�8(�8�8�8�yKi�^8�8(�8&F�7F��7GW28�F�7F��wVW&^8�X�8).K��88nX�n88(�8XˮX�^8�8(�8�8��X�X�n���8~8�����F�7F��wV�6�8Ίh�X�n88(�8XˮX�^8�8(�8�8(.Y�8����k�{;�{[8�[�8�8(�8" �8�8�8�8�8�Z(>yX�8�K��88(�8(�8n8N8(�8�8�8N8n���k�y�N8�y��h;>8�8x��K�>8�8�X�^X�8�8�8�8�8�8>8�8(��h�X�n88(�8(�8(�8�8�K�ik�8�8N8�8�8(�8.8�88~8x��K�>�����8~8�F�7F��7B8�x�nhX�8).��8�[�.Z랊��8F�7F��wV�6�8�XˮX�^8�8(���x+�8).��8�X�^���8~8.8(�8Y8���8(.jx�ih~8(.y[8�8(�8" ����>���[�.h� ��F�7F��7F���(	BYފ��8�XˮX�^8y���^8X�>�h�8�8.x��K��8�i>8�Z(>yX�8).���88(�8>8�88�8�8�y��z��8>8nXJ�8(�8n8N8(�8>8�8).��8�8" �F�7F��7F�fV(	B[�.Z랊��8�x��[�Ny�N8�8x��x��8�8�8.8�8�8��h�X�n88(�h��h�8�8(�8�8�8(�x��[�N8).h�8N8>8�8).��8�8" �F�7F��7Fǖ(	BX�����8�8�8>8�8(�8�8i��8(�8�8�8�8.y�^�i�8;����hkn8�i��y��8^8�8�8�8���^8�[�~8NX��8).��8�8>8�8(.8.8(�8" �F�7F��7F�W76(	BYފ��8�i��y��8^8X�^X�h
+~8�8.Z(>yX�8(Ny�^�i�8�8�8>8�8(�8~8n8N8(�h
+~�:�8).��8�8" ���F�7F��7F(	Bh�^�
+ދ�����8�Y
+nZ�8�8).K��88�[�.Z랊��8�8�8)>8(N8(�8~8�88�8>8�8(�XˮX�^8~8�8�8N8�8" ���F�7F��7Fǖ(	BX�����8�8�8)>8(N8(�8�8K��i��y��8�8�8.��>8;�X8�8;����hkn8�8�8�i��z+�8~8�8Njy�Z�8).��8�8" ����>8+>8*.8*N8:8;�8+���F�7F��7B8�X[�	�j�8�88.8(�8(.8�8�Z(>yX�8(Nx��[�N8�8�8�8�Y��8(.8(�8�8X�^8�8(.8�8�8~8nX�n8(�X{�8�8(�8>8�8~8.8(�8.K�^8�X�n8(�X{�8^8(�8(�8�8�8(�8>8n8Z��8�X�^X�h
+~8y�^�i�8�i��y��8^8z��[�n8;�ZَYʎ8�i��y��8^8�xފH~8~8�8NX
+N8Y�y�8~8n8N8�8NjH�x��Y��Z�8�8N8nyJ�k9^8�[�>8�8(�8" �8;�Z��8�Z(>yX�8�8�8�8�Y��8(.8(�8�8Nx�nhX�(i"8�X�^X�8�8i��z+�8�y[8�8(�8��Ȏ���{��Ȓ �8;�y�^�i�K��8�x��[�N8�8�8�8�Y��8(.8(�8�8Nx�nhX�(i"8�8�8>8�8(�8~8�8i��y��8�8��Ȏ���{�.�Ȓ �8;�z��[�n8(NZَYʎ8�8�8�8�Y��8(.8(�8�8Nx�nhX�(i"8�i��8(�8�8�88�8>8�8(����8(8(�8(�8(�8��Ȏ���{�>�Ȓ �8;�X
+N8�Y�K�h
+~8�8�8�8�Y��8(.8(�8�8Nx�nhX�(i"8�y��y[8�8(�8�xފH~8~8�8N8��Ȏ���{�N�Ȓ �8;�jH�x��Y��Z�8�Z(>yX�8�8�8�8�Y��8(.8(�8�8Nx�nhX�(i"8�X�n��.8~8�8Y�y�8~8n8N8�8N8��Ȏ���{�^�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	[�.Z랊��8;���Z����X����8	X�^X�8�8i��z+�8�y[8�8(���8	iz^i�Ί�>8;�Z�{�8	K��8NK�^K��8�x��8z���8�>8�8j�^���8[۞X�.8�8�8�Y�K�8~8�8�8�88�8(�8�8(�x��z��8~8nXˮX�^8~8�8(�8>8�8).��8�8.Xَ8�[�8^8�[z�8�8.8(�8�8N8n8(�8(�8X�n��8;�Y�K�h
+~8;�[۞X�.8�Z(>yX�8).[�^88(�8>8�8�K��[�>8~8.8(�8.8�88~8x��yny�N8���.8(�8n8N8(�8>8�8(Ny��K�.8�xJ�j.K�.8~8.8(�8>8�8�8~8�[�^8�8~8(.hH�Y>8~8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.iz^[��Kɮ��8Z�n�>889>8+�88�8+�8Z�>8~[�>8�K��8n8.X�n��8(Njh.[�^8�Z(>yX�8).i��zK�8�8(�ih~z�8~8�x��8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	F�7F��7B8�G�R�6FVv�'��w&�W�7Fv^8����X�^X�8�8�z���8;�X�n��8;���nY�>8;�j�^���8����8�8��&RF�7F��7Bg&��8�.8����8�.8�8�i��z+�8�y[8�8(����2F�7F��7Bg&��8�.8����.8~8�8�8�88�8(�8�8�XˮX�^8~8n���Gv��6WfW&�F�7F��7B8��&�V7G2��FV>8����K��8N8�8�8�8N8�8N8�8�X�^X�8�8�Z��8;��>8�8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&RF�7F��7Bg&��8�6��WF���rV�6^8� �yJ��	C�K��8N8�Z��8;�jh.[�^8�Y�K�8~8�8�8�8XˮX�^8�8�8�8(.8�8~8.8(�8�i��zK�8�8(�8" �K賢&����v�6�6W��2F�7F��7Bg&��vV�FW"�FV�F�G���F��Vv�F�RGv�6��6WG2����FW&7B� ���3�yI�x��Z�ny�N8�h
+~8�8+�8*~8;>888;�8;�8*.8*N88~8;>88n8*>88n8*>8�8�X�^8�jh.[�^88�8K��^8�y��K�.8��j.K�.8�8(�8>8�8�8.8(�8" ��8;�2F�7F��7Bg&��8�6��WF���rV�6^8� �yJ��	C�y�NX��8�Y�z{8;�[۞X�.8;�jh.[�^8).8K��8n8N8(�X�^8�8(.8�8~8�8�8�8>88(�88�Z��j�N8�8(�8" �K賢F�R&W�'B�V7W&W2��W6V���B��6��R�2F�7F��7Bg&����F�f�GV�V&��w2� ���3�8�8�ZY�i��8�k��Z�8~8n8N8(�8�8�8X�K��8�h�[�~8~8�8�8�88�8(�8�XˮX�^8^8(�8�K�n[��h�[�~8~8.8(�8" ��8;�Gv�F�7F��7B8�w&�W2�6FVv�&�W2�W&��G>8� �yJ��	C�i[8�K��8.8(�Z��8Θx�8�8>8�K�8N8�8�8�8�8(�8~8�8�8�8XˮX�^X���;�8��H~i[XَK��8~8.8(�8�zK�8�8" �K賢F�R7W'fW�&WfV�VBGv�F�7F��7Bw&�W2�b7W7F��W'2� ���3�8�8�i��8�8(�8i��z+�8�y[8�8(�K��8N8�~Z�.{�N8�i��8(�8�8�8�8>8�8" ��8;�F�7F��7B8�G�R�f�&��7V6�W>8� �yJ��	C�8.8(�Z��8).iz.Zَ8�z���8�Y�K��in8�8�8x��z��8~8�Y�8;�[�.8;�z��8�8~8nX�n��8�8(�8" �K賢&W6V&6�W'2�FV�F�f�VBF�R6��W22F�7F��7Bf�&��bF�Rf�'W2� ���3�z	Nz�n�^8�88�88�8nii�8).8�8�8*n8*N8:�8+�8�X�^X�8�Y�8�x��Z�8~8�8" ��8;�F�7F��7B8�&��R�gV�7F�����FV�F�G�8� �yJ��	C�{XN{�N8(NX�n[�n8�K��8~8[۞X�.8;�j���;�8;�Y�K�h
+~8�8�8�8�k{~8n8(�8�x��z��8~8n8N8(�8>8�8).��8�8" �K賢F�R&�&B�BF�R��vV�V�BFV��fRF�7F��7B&��W2� ���3�X�n{z[۞Kɮ8�{X�Ykn��>8�8�88�8(�8�8(�y[8�8(�[۞X�.8�8.8(�8" ��8;�&V���F�7F��7B �yJ��	C�h�^�zn8;���K��8;�{[Y�8�8.8>8n8(.8K��8NK�^K��8�Z��8�XˮX�^8~8�8(�x�nhX�8).K��8N8" �K賢F�RGv�G&F�F���2��f�VV�6VBV6��F�W"'WB&V���VBF�7F��7B� ���3�8�8�K��8N8�K��{[8�K�.8N8�[����8~Y�8>8�8�8X�^X�8�8(.8�8~8�8.8(�{i�88�8" ��8	���k9^8;�k:�hH�8	F�7F��7Bg&��8�j��k�ny�N8�[�.8~8.8(�8[z�8�Y��k�n8).[�8�8�8�F�7F��7BF��8�K��8(�8�8N8&�2F�7F��7Bg&��"�8�8�.8�Y�K�h
+~8;�z���8;�[۞X�.8�y[8�8(�8>8�8).��8�8(�8&�2F�ffW&V�Bg&��"�8(�8(�X�n��K��8�Z(>yX�8).hH��َ8^8�8(N8�8N8�88�Z��XZ�8�xJ�j.K�.8�8�8N8nhH�Y>8~8�8�8N8&2F�7F��7Bg&��8�8�8	�8�8�X�^8�8�8~8�8�8�88�8	�8~8�8�8�88�8(�8�XˮX�^8~8n8�8�8N8nZ��j�N8).K��8(�8.Xَ8����X�8).��8���FF�F���F�8�8�y[8�8(�8&F�7F��7F8�6W&FV8(.Y�K�8~8�8�8�8F�7F��7B6��6WG68�jh.[�^K��XˮX�^8~8�8(�8>8�86W&FR&���68�z���i>8;��X�{��K����.8(�8n8N8(�8>8�8).K��[�>8�8�8(�8" ��8	��{꞊��8	��8;�F�ffW&V�B �Z�{ꓢK��8NK�^K��8�8(.8�8�Y�8�8~8�8�8N8" ���[�c�8��8� ��^8C�F�ffW&V�B8�ZJ~[�8).YX�8(�8�[z�8�8.8(�8>8�8).[�>8���8�8&F�7F��7B8�[z�8�8(�8>8nZ��8).X�^8^8�8(.8�8�8~8nXˮX�^8~8�8(�8>8�8).[�~8�zK�8�8" �K賢F�R&Wf�6VB���2F�ffW&V�Bg&��F�R�&�v�����R��6WfW&�FWF��2� ���3�iK���.j�8�88N8�8N8�8�{K�:�8~X��j�8�y[8�8(�8" ��8;�6W&FR �Z�{ꓢx��8;�ZNh�8;�{XN{�N8�8�8�{YY�8�8�8��.8(�8�XَK��8�8�8>8n8N8(�8" ���[�c�8���8� ��^8C�6W&FR8�h�^{i�8;��X�{��8;�h�[�8�X�n8�8(�8n8N8(�8>8�8).[�~���8�8(�8&F�7F��7B8�Y�8�ZNh�8(NK�>{;�8�K��8�8.8>8n8(.8h
+~�:�8(NY�K�h
+~8).XˮX�^8~8�8(�8K��8�8(�8" �K賢F�R��FW'f�Ww2vW&R6��GV7FVB��6W&FR&���2� ���3���.h�^8�X�^8^8�:�[�8~��8(�8(�8�8" ��8;�F�67&WFR �Z�{ꓢ�
+>{i�8�8�8K�8NK�8Nx��z��8~8�XَK��8�8~8nX�n8�8(�8n8N8(�8" ���[�c�8�R�8� ��^8C�F�67&WFR8����
+>{i�h
+~8�X�8^8�x��z��h
+~8).[�~8���8~8Z�n�>8;�h��>ih~�H�8~ZI�8N8&F�7F��7B8�Z(>yX�8).��ފَ8~8�8(�8>8�8�K��[�>8~8Z��Y�Z:�8�h�^�zn8;��j.�
+>8~8n8N8n8(.K��8�8(�8" �K賢F�R&�6W726��6�7G2�bf�W"F�67&WFR7FvW2� ���3�8�8�[z^z��8�8K�.8N8�XˮX�~8(�8(�8�Y��8N8�j�^���8�8(�h�8(�8" ��8;�F�ffW&V�F�FVB �Z�{ꓢx��[�N8;�j���;�8;�[�.ZN8�8�8�8(�8>8n88�8�8�XˮX�^8^8(�8�8" ���[�c�8�R�8� ��^8C�F�ffW&V�F�FVB8�XˮX�^8�8(���z��8(N[z�X�^X�n8�{Yi��8).Y
+�8�8(N8�8N8&F�7F��7B8�88�8��z��8).YX�8(�8�XˮX�^X���;�8�x�nhX�8).��8�8(�8" �K賢F�R6����ffW'2��v�ǒF�ffW&V�F�FVB6W'f�6R� ���3�8�8�KɮzK�8�K�nzK�8�i��z+�8�[z�X�^X�n8^8(�8�8+^8;�89>8+�8).h�K�8~8n8N8(�8" ��8	X��hH����8	��8;��FV�F�6� �Z�{ꓢj�N��>Z��8�8�8�8n8�j.�
+>8�8(�x+�8~8�8>8�8�Y�8�8~8.8(�8" ���[�c�8���8� ��^8C�F�7F��7B8�Z��8).X�^x��8�8~8nXˮX�^8~8�8(�8>8�8).��8�8�8�Z��8~8�FV�F�6�8�[z�8).���8(8(�8(�8�8N8�8�Y�K�8~8.8(�8>8�8).��8�8" �K賢F�RGv�6��W2V"�FV�F�6�� ���3�8�8�K��8N8�H~�;�8�Y�K�8��h�8�8(�8" ��8;���F�7F��wV�6�&�R �Z�{ꓢ�h�8�y��8;�h
+~�:�8;�{Yi��8�8�8�8(�XˮX�^8~8�8�8N8" ���[�c�8�b�8� ��^8C�F�7F��7B8�8�Z��z��8�8�X�^X�8��h�X�n88(�8(�8(�8�8�8�8N8n��ފَK��8�8�8.8(�8&��F�7F��wV�6�&�R8�Z�����8�Y�K�8�8���8(�8�8N8�8X��yJ�8~8�8(�h��h�8�8(�8~8��h�X�n88(�8(�8�8N8" �K賢F�R�֗FF���v2���7B��F�7F��wV�6�&�Rg&��F�R�&�v���� ���3�8�8�j��
+Y88�i��x��8�8�8�8)>8��h�X�n88�8N8�8�8�8>8�8" ��"�8	[�.Z랊��8;���Z����X����8	8�8>8�8(�8~8�8i��y��8���8	iz^i�Ί�>8;�Z�{�8	[�.8{y�8��>8Z;8X�.8N8Y>8���hkn8x��[�N8�8�8�8�8(N88�8y��8;��>8;��˾8;�[�>8�8�8~Z�i�>8���ފَ8~8�8(�8>8�8).��8�8.8>8>8~8�88�8�8�z���8Θ^8n8>8�8(�8(�8y�^�i�8;���ފَ8�ʮ�:�8�i��y��8~8.8(�8>8�8�K��[�>8~8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.iz^[��Kɮ��8h��Xi�8zyZ�ny�N�k>Z��8�;�Y8��^K�8�8�8~K��8n8.�in�i�888~8�8�8��>8;�X�.8N8;�Y>8;����hkn8�8(.yJ�8N8(�8" ��8	ih~k9^898+�8;�8;>8	F�7F��7B8�6�V�B�6�V���F7FR��WFƖ�R�fVGW&^8����8�8>8�8(�X�n8�8(�8���>8;�X�.8N8;�Y>8;��ʮ�:�8;�x��[�N8����8�6�V�B�6�R�fVGW&^8��&R�&V6��R�&V���F�7F��7F���8���>8;�[�.8;�x��[�N8�8�8�8>8�8(�8~8n8N8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�F�7F��7B8�6�V�B�f��6R�66V�N8� �yJ��	C���>Z;8(N��8~ik�8�x��[�N8Έ>8~8�8>8�8(���ފَ8~8�8(�8>8�8).��8�8" �K賢F�7F��7B6Ɩ6���r6�V�B6�Rg&��F�RV�v��R� ���3�8*�8;>8+�8;>8�8(�88�8>8�8(�8�8~8�8*�888*�88��>8Έ�8>8�8�8" ��8;�F�7F��7B8�6�V����F�"�&��8� �yJ��	C�X�.8N8�[�8�i�ni�~8�8�8~8�8�8�8K�^8(�8�8�x��[�N8�8~8ni��z+�8�hI�8�8(�8(�8(�8>8�8).��8�8" �K賢F�W&Rv2F�7F��7B6�V���b6���R��F�R���v�� ���3�[��K��8�8�88�8>8�8(�8�xY�8�X�.8N8�8~8�8" ��8;�F�7F��7B8��WFƖ�R�6�R�&�V�F'�8� �yJ��	C�[�.8(NZ(>yX�{y�8Έ8�i��8�k�n8���8�8�8y��8~i��z+�8����8�8(�8>8�8).��8�8" �K賢B7V�&�6R�F�R��V�F��f�&�VBF�7F��7B�WFƖ�Rv��7BF�R6��� ���3�iz^8�X{�8�8>8(�88�8�[8�z��8).�8�i��8�8�8>8�8(�8~8��ʮ�:�8).�h�8�8�8" ��8;�F�7F��7B8�f�f�"�F7FR���F^8� �yJ��	C��;.�9�x��8�Y>8;��i�8(�8�8�َX�^8~8�8(�x��[�N8�8.8(�8>8�8).��8�8" �K賢F�R6V6R�2F�7F��7B6����f�f�"� ���3�8�8�8+�8;�8+�8�8�88�8>8�8(�8�8~8�x{��;ޚ*�Y>8�8.8(�8" ��8;�F�7F��7B�V��'� �yJ��	C���X�8�ZN��.8(NX{�i�^K��8).i�ni�~8�8~8�8�8�8{K�:�8).K�N8>8ni��z+�8��i�8�8n8N8(�8>8�8).��8�8" �K賢��fRF�7F��7B�V��'��b��6���rF�R&6�F��"� ���3�zx8�8��8�X�>8���^8).h�88�8�8N8n8�8>8�8(�8~8����hkn8�8.8(�8" ��8;�&V6��R�W72F�7F��7B �yJ��	C�XX�8�yޙ�.8����>8i�.�i>8�8�8�8(�8>8n8X8�8;���>8;����hkn8�i��y��8^8�K��8�8(�8>8�8).��8�8" �K賢F�R�&���w2&V6�R�W72F�7F��7B2F�R��BfFVB� ���3�Z~ii�8Έ�.8.8�8(�8�8N8(�8n88�8�X�8�j�z��8�K�ޚ��i��8�8�8>8�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�F�7F��7N8�8y�^�i�8~8�8(�8�x��[�N8�8�8.8(�8>8�8).zK�8�8�88�8�x��[�N8�x��8~8N8��^X��y�N88�8�8�8�8�Z��888�Y��iȞ88�8���8(�8�8N8&F�7F��7B66V�F8�8*.8*�8+�8;>88�8�i��y��8���8�X�n8(�8(�8>8�8).��8~[�~8(�8�8�Z��8~8F�7F��7F�fR66V�F8�8�8�8��h�X�n88(�y��X�8�8�8(�x��x��8�8*.8*�8+�8;>88�8).��8�8&6�V&8����Z�>8(Ni�ni�~8^8�8�8�yn�z>8;�y�^�i�8~8(N8�8N8>8�8).[�>8���8�8&F�7F��7F8��ʮ�:�8(Nx��[�N8).K�8N8�8(.8�8�8~8nX�n8(�X{�8�8(�8>8�8).[�~���8�8(�8.yK�X8�8�8N8N8n8�6�V"��vV8Έz�xKn8�K���Ί�x��8~8.8(�8F�7F��7B�WFƖ�V8�8(�8n8��َX�^Z��8).zK�8�8�F�7F��7N8�hH�Y>8�i��z+�8�8�8(�8" ��8	��{꞊��8	��8;�6�V" �Z�{ꓢ�h�8(�8��8�8yn�z>8�8(����8�Zj�8.8�8�8�8Z�i�>8�y�^�i�8;�h��h�8~8�8(�8" ���[�c�8��8� ��^8C�6�V"8�h8^Z8(N���i��8�yn�z>8~8(N8�8^8�8(.[�>8�K��8n8&F�7F��7B8�8��>8;�[�.8;�x��[�N8�ʮ�:�8�8�8�8�8(�X�n8�8(�8n��ފَ8~8�8(�8>8�8�xJnx+�8�8.8(�8" �K賢�W"W���F���v26�V"�B6��6�6R� ���3�[��Z[>8�i��8�i��[��8~{
+k�N88>8�8" ��8;�FVf��FR �Z�{ꓢ�ʮ�:�8���h�8���yK�8�8�8�i�ni�~8~8�8�8z+�Z�y�N8�8�8�i��z+�8~8.8(�8" ���[�c�8���8� ��^8C�FVf��FR8�K��z+�Z�h
+~8�[	8�8^8).[�~���8~8K��Z�8;�z�N8�8�8(.K��8n8&F�7F��7B8�K��8��َX�^X���;�8�hI��i�y�N8;���ފَy�Nx��[�N8).[�~���8�8(�8" �K賢vR�VVBFVf��FR�7vW"'�g&�F�� ���3��yi��iz^8�8~8�i��z+�8���Nz�N8�[�^�h88" ��8;�F�66W&�&�R �Z�{ꓢk:�hH�8�8(�8y�^�i�8;���ފَ8~8�8(�z��[�n8��h�X�n88(�8(�8(�8" ���[�c�8�B�8� ��^8C�F�66W&�&�R8�8΋�8n8�8n8~8(.�َX�^X���;�8�8�8�8N8n�k�X
+N8).hH��َ8^8�88~88~8[�.[��y�N8~8.8(�8&F�7F��7B8��	�[��8x��[�N8�8(�8(�i��y��8�x��8(�8n8N8(�8>8�8).zK�8�8" �K賢f��BGFW&�v2F�66W&�&�R&V�VF�F�RF���W"�b��B� ���3�K��Z~8(�8�K��8�88�8�8�8�j�jy�8Ίh�X�n88(�8(�8�8" ��8;�V�֗7F�&�R �Z�{ꓢ8�8�8�8(.8�8�X�n8(��^8�8(�8n8�8�8N8�8�i��y��8~8.8(�8" ���[�c�8�b�8� ��^8C�V�֗7F�&�R8���N���8�KٞY�8�8�8N8�8N8n[�~8Nz��[�n8).��8�8&F�7F��7B8�i��y��8^8).��8�8�8[��8�8�8>8�8~{[nZ��y�N8~8�8�8N8" �K賢��2f��6R�2�V�֗7F�&�Rv&�F�� ���3�[��8�Z;8�8�8��8ޘ^8�8(�8n8�8�8Nk��8�8�8�8.8(�8" ��8;�f�f�B �Z�{ꓢ��.8h��Xi�8���hkn8h;>X8�8�8�8Κ��i��8~8yI�8�yI�8�8�hI�8�8(�8(�8(�8" ���[�c�8�r�8� ��^8C�f�f�B8����8(N8�8^8(N[�>yny�N8�yI�8^8~8^8).Y
+�8(8&F�7F��7B8�8hI�h8^y�N8�[�~8^8).K�N8(�8�8Xَ8��ʮ�:�8;�x��[�N8�i��y��8~8.8(�ZNY�8�8(.K��8�8(�8" �K賢6�RvfRf�f�BFW67&�F����bF�R7F�&�� ���3�[��Z[>8�8�8�[Y8).yI�8^8~8�h��Xi�8~8�8" ��8	X��hH����8	��8;���F�7F��7B �Z�{ꓢ�ʮ�:�8;���>8;����hkn8�8�8�8�8)>8(N8(�8~8n88�8>8�8(��َX�^8~8�8�8N8" ���[�c�8�R�8� ��^8C�F�7F��7B8�Y�8�i��y��8^8�8~y�Nh�^X��Z��8).��8�kK�yI����8~8.8(�8.Z��8�ZَYʎ8~8�8N8�8~8�8�8�8y�^�i�8;���ފَ8~8�8�8N8>8�8).zK�8�8" �K賢F�Rf�wW&W2��F�RF�7F�6RvW&R��F�7F��7B� ���3��8�8�K��[�8�8�8)>8(N8(�8~8n8N8�8" ��8;�f��B �Z�{ꓢ��>8XX�8X�.8N8X�8�8�8�[�8�8y�^�i�8~8�8�8N8" ���[�c�8���8� ��^8C�f��B8�X��k�8�[�8^8).K��[�>8�8�8(�8&F�7F��7B8��َX�^8�i��y��8^8).K��[�>8�8�8(�8�8(8[�8�8n8(.�ʮ�:�8).�h�X�n88(�8(�8(���>8(NX�8�f��B'WBF�7F��7N8���8�8(�8" �K賢vR�V&Bf��B���6Rg&��W7F�'2� ���3�zx8�88�K��8�8�8(�8�8�8�8�x����>8).��8N8�8" ��8;�&�W'&VB �Z�{ꓢX8�8;�Z(>yX�8;����hkn8�8�8�ʮ�:�8�8�8�8�8i��y��8~8�8N8" ���[�c�8�r�8� ��^8C�&�W'&VB8��ʮ�:�8�x��yny�N8�8�8�j�NYj�y�N8�8�8(N88�x�nhX�8).��8�8&F�7F��7B8�8�ʮ�:�8).8�8�8�8(�X�~8(�X�n88(�8(�8(�x�nhX�8).��8�8" �K賢F�R��F�w&�v2&�W'&VB'�F�R��fV�V�B�bF�R6�W&� ���3�8�8�Xi�y��8�8*�8:8:�8�X�^8�8~8�8(N88n8N8�8" ��2�8	[�.Z랊��8;�K��8���Z�8	i��8(�8�8�88�8>8�8(����8(8(�8(�8(���8	iz^i�Ί�>8;�Z�{�8	X���;�h
+~8X��8X��x+�8ZH�X�n8X+�Y	8K�ދk>8�8�8�8xJ�in8~8�8�8N8�8�8�8>8�8(�ZَYʎ8�8(�88�8�8����8(8(�8(�8(�8>8�8).��8�8.y�^�i�Z��8�ʮ�:�8~8�8�8�8z��[�n8;�ZَYʎ8;�X�Nij�8�i��y��8~8.8(�8>8�8�K��[�>8~8.8(�8&F�7F��7B�76�&�ƗG�8�x��Z��8��>hZ�8�8�8�X���;�h
+~8).zK�8�8�8[�^8��[~8>8(�8>8�8�8~8�hH�Y>8~8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Kɮ��8Z�>889>8+�88�8+�8��^��n8~[�>8�K��8n8&F�7F��7B�76�&�ƗG�8F�7F��7BGf�FvV8F�7F��7B��&W76���8�Z�y�[�n8Κ��8N8" ��8	ih~k9^898+�8;�8;>8	F�7F��7B8��76�&�ƗG��6��6R�&�6�8����8�8>8�8(�ZَYʎ8�8(�8�X���;�h
+~8;��h����8�8;�X����8����F�7F��7B8�Gf�FvR�F�6Gf�FvR���&�fV�V�B�6��v^8����i��y��8�8�X��x+�8;�K��X��8;�iK�YhN8;�ZH�X�n8�����fR�vWBF�RF�7F��7B��&W76���F�B8�z�8����8	�88�8N8n[�~8NX��8).h�8N���6��rF�7F��7B8�FV�FV�7��&VfW&V�6R��6�8����i��8(�8�8�8�X+�Y	8;�Z[�8�8;�K�ދk>8�8).zK�8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�F�7F��7B�76�&�ƗG�F�B8�z�8� �yJ��	C�8.8(�X{�i�^K��8�x��Z��8��[~8>8(�[�~8(�8�8(8xJ�in8�8��>hZ�8�8�8�88���8�8(�8" �K賢F�W&R�2F�7F��7B�76�&�ƗG�F�BF�R�V�6�v���&RFV��VB'�F�RvVF�W"� ���3�ZJ�X	�8�8(�8>8nh�>8K��8.8�[�ni��8^8(�8(�X���;�h
+~8�X�X�n8�8.8(�8" ��8;�F�7F��7BGf�FvR�fW"6��V��R�6��WF���r �yJ��	C�j�N��>Z��8�Z��8~8n8��ފَ8~8�8(�i��z+�8�XJ�K��h
+~8�8.8(�8>8�8).zK�8�8" �K賢F�R6���W"FWf�6R�2F�7F��7BGf�FvR�fW"�G26��WF�F�'2���'F&�ƗG�� ���3�8�8�[�Y�j��Y��8�i�[��h
+~8�x+�8~z�nY��;�Y88(�8(�i��8(�8�8�iȞX��88" ��8;�F�7F��7B��&�fV�V�B����fW"6��WF���r �yJ��	C�K�^X��8�x�nhX�8;��;�Y88;�j�8�j�N8�8iK�YhN8�i��z+�8����8(8(�8(�8(�8>8�8).��8�8" �K賢F�R�WrF��WF&�R�2F�7F��7B��&�fV�V�B��F�R&Wf��W2��R� ���3�ik8~8Ni�.X����8�K�^X��8�8(.8�8(�8(�i��8(�8�8�iK�YhN8^8(�8n8N8(�8" ��8;��fRF�RF�7F��7B��&W76���F�B8�z�8� �yJ��	C����i��k��8�8�K��Z��8�8���8(�8�8N8�8���^8�[�~8�i��z+�8�X��8).h�8>8n8N8(�8���8�8(�8" �K賢��BF�RF�7F��7B��&W76���F�B6�Rv�FVBF�V�BF�R�VWF��rV&ǒ� ���3�zx8�8�8[��Z[>8�Kɮ��8).iz�8�{X.8�8�8�8>8n8N8(�8�8N8n8�8>8�8(�8~8�X��8�8.8>8�8" ��8;�F�7F��7B�6��b6��WF���r �yJ��	C�[�^�h8;�i��[�^8^8(�8(�8(.8�8�i��8(�8�8�K�ދk>8~8n8N8(�8>8�8).88~88~8h��X�Ny�N8�8�8�y��(�8�h�~i�8�8(�8" �K賢F�R&��6�6��w2F�7F��7B�6��b&7F�6�FWF��� ���3�8�8�h�j�8�8�Z��X��y�N8���>{K8�i��8(�8�8�j�88n8N8(�8" ��8;�6��rF�7F��7B8�FV�FV�7��&VfW&V�6^8� �yJ��	C���X�^8(N��h��8�8XnxKn8�8��h�8�8~8�8�8Ni��z+�8�X+�Y	8;�Z[�8�8�x��8(�8n8N8(�8���8�8(�8" �K賢��V�vW"&W7��FV�G26��vVBF�7F��7B&VfW&V�6Rf�"���F�ǒ7V'67&�F���2� ���3���^8NY��z�N�^8�iȎ��ZY{HN8).i��8(�8�8�Z[�8(X+�Y	8).zK�8~8�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�K��8�Yފ��8�X��8~K��8N8F�7F��7B�76�&�ƗG�8F�7F��7BGf�FvV8�8(�8n8�z��[�n8).[�~8(8(�8&F�7F��7F�z�K�>8�8�z+�Z��8�8�8).hH�Y>8�8(�8(�88~8�8�8N8�8(8F�7F��7B�76�&�ƗG�8).8�z+�Z��8��[~8>8(�8>8�8�8���>8^8�8N8.X���;�h
+~8�i��z+�8�ZَYʎ8�8(�8�8N8nhH�Y>8~8.8(�88�8�z+�x�~8�ih~�H�8~k�8�8(�8&F�RF�7F��7B��&W76���F�B���8����^8�[�~8NX��8~8.8>8n8Xh^Z�8�y��Z��h
+~8).K�ފ��8~8�8N8&F�7F��7B�6��b���8�K�ދk>8�y��z��8N8>8�8).��8~88~88~8Y
+nZ�y�N��^K�8).K�N8n8.8>8^K�8).8F�7F��7BGf�FvV8�8(�8n8�K��z��8;��*�Z�y�N��x��8�K����X�n8~8�8N8" ��8	��{꞊��8	��8;�6�V" �Z�{ꓢX���;�h
+~8X��x+�8X+�Y	8���h�8�8�8�Z�i�>8�yn�z>8;���ފَ8~8�8(�8" ���[�c�8��8� ��^8C�6�V"8�X�Nij�8�X�n8�8(�8(N8�8^8).[�>8���8�8&F�7F��7B8�8z��[�n8(NZَYʎ8Έ8�i��8�8(�kZ�8�8>K��8�8(�8�8����8(8(�8(�8(�8>8�8).[�~���8�8(�8" �K賢F�RFF6��r6�V"FV6Ɩ�R��FV��B� ���3�8�8�88~8;�8+�8����h8�i��8(�8�8�k��[	8).zK�8~8n8N8(�8" ��8;�FVf��FR �Z�{ꓢX���;�h
+~8���yK�8X��x+�8�8�8�i�ni�~8~8�8�8i��z+�8�Z�8�8>8n8N8(�8" ���[�c�8���8� ��^8C�FVf��FR8�z+�Z�h
+~8).[�~8�zK�8~8FVf��FR��8�8(�8n8�Xh^Z�8�k�8�8>8n8N8(�ZNY�8�8(.K��8n8&F�7F��7B�76�&�ƗG�8�xJ�in8~8�8�8NX���;�h
+~8~8.8>8n8{Yi��8�z+�Z�8).hH�Y>8~8�8N8" �K賢vR�fR��FVf��FRFFRf�"F�R��fR�WB� ���3�z{���.8�z+�Z�iz^8�8�8k�8�8>8n8N8�8N8" ��8;���F�6V&�R �Z�{ꓢZH�X�n8[z�8X��i��8�8�8�k	~K��88(�z��[�n8�y��z��8N8" ���[�c�8���8� ��^8C���F�6V&�R8��k>Z���^8�Z�����8�k	~K��8�z��[�n8).K��[�>8�8�8(�8&F�7F��7B8�8X���;�h
+~8(NX��8�8(�8n8�h�ދy�NX�Nij�8�8(.[�>8�K��8�8(�8" �K賢F�W&Rv2��F�6V&�RG&������6RgFW"F�R&W�'2� ���3�K��yn[��8��.��>8�y��8��h�8�8nk��8>8�8" ��8;�&���V�6VB �Z�{ꓢ[z�8X+�Y	8x��[�N8�8�8�x��8��^�~8~8.8(�8" ���[�c�8�b�8� ��^8C�&���V�6VB8��	�[��8F�7F��7B8(�8(�[�~8�8�k>Z��X���;�8�[z�8(Nx��[�N8Ι��z��8N8>8�8).��8�8.X���;�h
+~8(N���^8�X��8�8�F�7F��7N8�8�[�>8�K��8(�8�8N8" �K賢F�R&Vv����v�2��7B&���V�6VB���r��FW"v�&�W'2� ���3�Y�Y��[z�8����[�N��.8�X�NX8ވ^8�i>8~i�8(.�^�~8~8.8(�8" ��8	X��hH����8	��8;�6Ɩv�B �Z�{ꓢ[z�8X���;�h
+~8ZH�X�n8X��x+�8�8�8�z��[�n8�[�8^8�8y��z��8�8�8N8" ���[�c�8���8� ��^8C�F�7F��7B8�xJ�in8~8�8�8Ni��z+�8�z��[�n8).zK�8�8�8�Z��8~86Ɩv�B8�ZَYʎ8~8n8(.z��[�n8�[�8^8N8>8�8).zK�8�8" �K賢F�W&R�2��ǒ6Ɩv�B6��6R�b&��� ���3����8Ι��8(�X���;�h
+~8�8(�8�8�8~8�8�8N8" ��8;��VvƖv�&�R �Z�{ꓢ[����8[z�8X����8X���;�h
+~8�8�8�xJ�in8~8�8(�8�8�[�8^8N8" ���[�c�8�b�8� ��^8C�F�7F��7B8Έ>hZ�8�X
+N8�8(�ZَYʎ8;�z��[�n8).zK�8�8�8�Z��8~8�VvƖv�&�R8�Z��X��K���>hZ�8~8�8�8n8(�8N8�8�[�8^8N8>8�8).��8�8" �K賢F�R6��vR�B�VvƖv�&�RVffV7B��F�F�6�7G2� ���3�8�8�ZH�i�N8�{x��+�yJ�8�K��8�8�[����8�xJ�in8~8�8(�8�8�[�8^8�8>8�8" ��B�8	[�.Z랊��8;�i[Z�n���88~8;�8+�Xznyn8	y��y[8�8(�8�xފH~8~8�8@��8	iz^i�Ί�>8;�Z�{�8	��nY�8�h{J8i[8{XNY�8�888~8;�8+�X
+N8��8�8�8�8N8N8n8Y�8�8(.8�8�8~8nz؞8~8�8�8N88�8�8��xފH~8).��N88X�^8^8�i[8�8(�8(�8(�8>8�8).��8�8.i[Z�n8~8��H~i[8�Z��8�K�.8N8�z؞8~8�8�8N8>8�888~8;�8+�Xznyn8~8�Y�K�X
+N8;�Y�K���8).K�8N8�8�8�8(8�{Yi��8).���i��8�8(�8" ��8	��[�n8	8�R�8� ��8	8:�8+�8+�8+�8;���	�Y��8	i[Z�n8{[���888~8;�8+�X�ni�888~8;�8+�89�8;�8+�8.K���Έ����8�8�X�^X�8�8�8�8(�y�Nh�^yn�z>8~8�8(�[.�hy�NyJ�k9^8~8.8(�8%5�8~8�ZJ~ih~Z�~8�D�5D��5F8�8*�8;�8:�8;�88�8�8~8nyJ�8N8(�8(�8(�8" ��8	ih~k9^898+�8;�8;>8	F�7F��7B8�f�VW2�V�V�V�G2����G2�6��WF���>8����K�.8N8�y[8�8(�8�X
+N8;��h{J8;�x+�8;��z>8����8��&�V7G>8��&R�'v�6RF�7F��7F���K��hH�8�K��8N8�K�.8N8�y[8�8(����F�R�V�&W"�bF�7F��7B8�f�VW2�6FVv�&�W>8���ޘxފH~8).��N8N8�8�X
+N8;�X�n��8�8�i[���4T�T5BD�5D��5B8�6��V���Ɨ7N8����5�8~�xފH~��8).��N8N8n��h��8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�F�7F��7B8�f�VW2�V�V�V�G>8� �yJ��	C�Y�8�X
+N8;��h{J8).�xފH~8~8ni[8�8�8K�.8N8�y[8�8(�8(.8�888).Z��8�8�8(�8" �K賢F�R6��V��6��F��2GvV�fRV�G&�W2'WB��ǒf�fRF�7F��7Bf�VW2� ���3�8�8�X�~8�8�.K�n8�88~8;�8+�8�8.8(�8�8�xފH~8).��N8�8�X
+N8�^z���8~8�8�8N8" ��8;��'v�6RF�7F��7B8��V�&W'2�6WG2����G>8� �yJ��	C�Z��8�K��hH�8�K��8N8).��8)>8~8(.Y�K�8�8�8(�8�8N8�8N8ni[Z�ny�Ni�K�n8).i��zK�8�8(�8" �K賢�WB�"��B2&R�'v�6RF�7F��7B�6�F�fR��FVvW'2� ���3�8.8>8).88�8�K��8N8(.K�.8N8�y[8�8(�j�>8�i[Ni[8�8�8(�8" ��8;�F�R�V�&W"�bF�7F��7B8�f�VW2��FV�>8� �yJ��	C�X{�x��Y��i[8~8�8�8�8�xފH~8).��N8N8�z���i[8).i[8�8(�8" �K賢vR6�V�FVBF�R�V�&W"�bF�7F��7BW'&�"6�FW2��F�R��r� ���3�zx8�88�8:�8+8�Y
+�8�8(�8(��xފH~8).��N8N8�8*�8:�8;�8+>8;�88�8�z���i[8).i[8�8�8" ��8;�&WGW&�F�7F��7B8�&�w2�&W7V�G>8� �yJ��	C�88~8;�8+�Xznyn8(NjI�{J.{Yi��8�8(�8Z��XZ�8��xފH~8�8(���8;�{Yi��8).��N8N8n��N8�8" �K賢F�RVW'�&WGW&�2F�7F��7B&�w2&6VB��F�R6V�V7FVB6��V��2� ���3�8�8�8*�8*�8:�8�8��h��8^8(�8�X�~8�Y��8^8N8n�xފH~8~8�8N��8).��N8�8" ��8;�4T�T5BD�5D��5B8�6��V���Ɨ7N8� �yJ��	C�5�8�4T�T5N{Yi��8�8(�8��h��8~8�X�~8�X
+N8�Y�8��xފH~��8).��N8�8" �K賢W6R4T�T5BD�5D��5B6�G�F�Ɨ7BV6�6�G���ǒ��6R� ���3�YN�;�[�.8).K�[�n8�8NK��j~8�8�8(�8�8�84T�T5BD�5D��5B6�G�8).K��8n8" ��8	���k9^8;�k:�hH�8	i[Z�n8�F�7F��7F8�8Ίh�8�y��8Θ^8n8�8~8�8�8�8h�~Z�8^8(�8�z؞X
+N�j.K�.8�8(.8�8~Y�8�8~8�8�8N8>8�8).��8�8&�'v�6RF�7F��7F8���nY�XZ�K�>8�y[8�8(�8�8N8ni�ni�~8���x��8~8�8�8�8K��hH�8�K��Z��8�z؞8~8�8�8Ni�K�n8).i��zK�8�8(�8%5�8�4T�T5BD�5D��5F8�8��h��{Yi��8�XZ�X�~8�Y�8���8).�xފH~8�8~8n��N8�8.�H~i[X�~8).��8�888�8�X�~8�{XNY�8�XZ�K�>8~j�N��>8^8(�8K�8N8�X�~888).X�X�^8��xފH~h�.��N8�8(�8�8���8(�8�8N8%�7Fw&U5�8�D�5D��5B��8�j��k�e5�8�K����y�N8�D�5D��5F8�Y�K�8~8�8�8�8h�~Z�[��8N8�8�XX��
+ފ�8).j�8�h�[�^8~8.8(�88�8��8).j�8�8�8).Z�Z�8^8�8(�8�8���X�~8��$DU"%�8�[�^�h8~8.8(�8" ��8	��{꞊��8	��8;�V�VR �Z�{ꓢ��nY�8;�X�~8;��َX�^Z�8�8�8�K��8~8Y�8�X
+N8).h�8NX�^8�Z��8�8�8N8" ���[�c�8�r�8� ��^8C�V�VR8�8.8(��h{J8Ι�nY�Xh^8~8�8K�8N8~8.8(�8>8�8).��8~8(N8�8N8&F�7F��7B8��H~i[�h{JY�Z:�8�z؞8~8�8�8N8>8�8(N8�xފH~8).��N8N8�z���8).��8�8.88~8;�8+�89�8;�8+�8~8�V�V^X�n{HN8�4T�T5BD�5D��5N8�X�^8�j���;�8~8.8(�8" �K賢V6�66�V�B�W7B�fRV�VR�FV�F�f�W"� ���3�YN8*.8*�8*n8;>88�8�8�K�hH�8�َX�^Z�8�[�^�h88" ��8;�F�ffW&V�B �Z�{ꓢj�N��>8�8(�K��8NK�^K��8�X
+N8;�Z��8�Y�8�8~8�8�8N8" ���[�c�8���8� ��^8C�F�ffW&V�B8�K����y�N8�j�N��>���8~8.8(�8&F�7F��7B8���nY�8;�X�~8;��z>8�8�8).K�h��8~8nh�8N8�xފH~h�.��N8(Ny��y[h
+~8�8N8nh��>y�Ni�K�n8).{
+k�N8���8�8(�8" �K賢F�RGv�f&�&�W2�fRF�ffW&V�Bf�VW2� ���3�8�8�K��8N8�ZH�i[8�y[8�8(�X
+N8).h�8N8" ��8;����GWƖ6FR �Z�{ꓢiz.Zَ8�^y��8��xފH~8~8n8N8�8N8" ���[�c�8�"�8� ��^8C����GWƖ6FR8��xފH~�^y��8~8�8�8N8>8�8).y�Nh�^��8�K���[�n8�h��>���8~8.8(�8&F�7F��7B8�i[Z�n8;�88~8;�8+�Xznyn8~8(�8(�j��k�ny�N8~8X
+NY�Z:�8�y��y[h
+~8�8(.K��8�8(�8" �K賢F�R���'BF����VW2��ǒ���GWƖ6FR&V6�&G2� ���3�8�8�8*N8;>89�8;�88�88N8;�8:�8��xފH~8~8n8N8�8N8:�8+>8;�88�888).K��h�8�8(�8" ��8	X��hH����8	��8;�WV� �Z�{ꓢK��8N8�X
+N8;�[��8;�Z��8�8h�~Z�8^8(�8�Y��k�n8�8(.8�8~Y�8�8~8.8(�8" ���[�c�8���8� ��^8C�F�7F��7B8ΊH~i[Z��8���Y�K�h
+~8).��8�8�8�Z��8~8WV�8�j�N��>Z��8�Y�8�X
+N8�8�8�Y�z؞8�Z��8~8.8(�8>8�8).��8�8" �K賢F�RGv�W�&W76���2&RWV�f�"WfW'�&V�f�VR�b�� ���3�8�8�K��8N8�[��8�8�8�8�8�8n8�Z��i[X
+N8�8N8N8nz؞8~8N8" ��8;�GWƖ6FR �Z�{ꓢiz.Zَ8�X
+N8�����.8��8�8�8�Y�K�Xh^Z�8).{�8(���N8~8�8(.8�8" ���[�c�8�r�8� ��^8C�F�7F��7B8ΘxފH~8).��N8N8nX�^8^8�h�8nZ��8).��8�8�8�Z��8~8GWƖ6FR8�Y�K�Xh^Z�8ΊH~i[Y��x��8(�8n8N8(�8>8�8).��8�8" �K賢F�R7�7FV�f�vvVBF�&VRGWƖ6FR&V6�&G2� ���3�8�8�8+~8+�88n8:8�K��8N8�xފH~8:�8+>8;�88�8).jI�X{�8~8�8" ��R�8	[�.Z랊��8;�jH�x��Z�n8	X�n��.8~8�8Y�y�8~8n8N8�8@��8	iz^i�Ί�>8;�Z�{�8	��[�88�8�x�~8��N8~8�8�8�8�jH�x��Y��Z�8�8Y�8�8�8�8�8(�8�8�8�8�Y��Z�8����Y�8�8�8K�8NK�8NX�n8�8(�8n8N8(�8>8�8).��8�8.K����{�8�8�X�^X�8�8�8).jH�x��[�.hX�8��Ȟ8�yJ�8N8(�[.�h���8~8.8(�8Xَ8�z���8�y[8�8(�8�8N8nhH�Y>8~8�8�8N8" ��8	��[�n8	8�"�8� ��8	8:�8+�8+�8+�8;���	�Y��8	jH�x��[�.hX�Z�n8jH�x��X�n��8jH�x�����8Y�Z�yJ�8�jI�{J.��8.iz^[�������8~8�8�8�8Y��Z�8�{YY�x�nhX�8).����Ȟ8�8(�[.�hyJ�k9^8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	F�7F��7B8�WF�2�6W�2�7F�V�>8����K�.8N8�Y�y�8~8n8N8�8N8���[�8;�8�8�x�~8;���N8~8�8����8�f��&�'G>8��&RF�7F��7F���8���8�YNY��Z�8�8�X�n��.8~8n8N8(����8��V�&W.8��F�7F��7B8�f��&�'G>8����Y�y�8�8�X�X�^8�i[8�8(�8(�8(�8�i[8�X�8�Y��Z� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�F�7F��7B8�WF�2�6W�>8� �yJ��	C�Y�8���Xj8;�8�8�8).jx�h�8�8(���[�8;�8�8�x�~8�8K�.8N8�Y�y�8~8n8N8�8N8>8�8).����Ȟ8�8(�8" �K賢F�Rf��vW"�2f�fRF�7F��7BWF�2&F�W"F��gW6VB6�&���� ���3�8�88�8�8Y�y�8~8���Xj8~8�8�8�8K�.8N8�X�n��.8~8�^i�8[�8�8.8(�8" ��8;�F�7F��7B8�7F�V�2�6'V�>8� �yJ��	C���N8~8�8;�[�>y��8�K�8N8�jx��
+8����Y�8�8�8X�X�^8�Y��Z�8�8~8nZَYʎ8�8(�8>8�8).zK�8�8" �K賢��F��27V6�W2�F�R7F�V�2&V���F�7F��7BB�GW&�G�� ���3�8>8�z��8~8�8��N8~8�8�h�xi�i�.8�8(.K�.8N8�Y�y�8�8�X�n��.8~8n8N8(�8" ��8;�8�f��&�'G>8��&RF�7F��7B �yJ��	C�jH�x������Ȟ8~8Z��Y��Z�8�{YY�x�nhX�8).X����[�.8~zK�8�8" �K賢F�R6W�2&RF�7F��7B�Bf��6���gFW"F�Rf��vW"�V�2� ���3�8�8�x�~8�K�.8N8�X�n��.8~8n8�8(�8�h���[��8�8(.8�8���88(�8" ��8;�8��V�&W.8��F�7F��7B8�f��&�'G>8� �yJ��	C�Y�y�8~8n8N8�8NY��Z�8).X�X�^8�i[8�8n8[�.hX�y�Nx��[�N8).zK�8�8" �K賢V6�f��vW"&V'2F�&VRF�7F��7B6'V�2� ���3�YN��8�8�8K�.8N8�Y�y�8~8n8N8�8C>X�8�[�>y��8�8.8(�8" ��8	���k9^8;�k:�hH�8	jH�x��Z�n8�F�7F��7N8�8Y�8�{;�X�~8�Y��Z�8�K�.8N8�g&VV88�8�8(�8���Y�8~8n8N8�8Nx�nhX�8).����Ȟ8�8(�8.K����{�8�F�7F��7B7V6�W68�8�X�^z��8�88>8�[.�h{�8�F�7F��7BWF�68�8�K�.8N8�Y�y�8~8n8N8�8N��[�8�8~8.8(�8Z��Yފ��8�8(�8>8n�z>�x�8�ZH�8(�8(�8.Y��Z�8�X�^8�z���8�Y��Z�8�K��y�8~8n8N8�8N8>8�8�8~[��8�Y
+�8(8(�88~8�8�8N8�8(88�8�Y��Z�Y�Z:�8�{YY�8).��8�8n8N8(�8�8).z+����8�8(�8" ��8	��{꞊��8	��8;�g&VR �Z�{ꓢjH�x��Y��Z�8�Y�8�{;�X�~8�8�8�X�^8�Y��Z�8����Y�8;�K��y�8~8n8N8�8N8" ���[�c�8�2�8� ��^8C�jH�x��Z�n8�g&V^8����Y�888~8�8�8ih~�H�8�8(�8>8nX�^z��Y��Z�8�8�K��y�8�8�8N8>8�8(.��8�8(�8&F�7F��7N8�K��8�Y��Z�Y�Z:�8�X�X�^8�X�n8�8(�8n8N8(�x+�8).[�~���8�8(�8" �K賢F�RWW"�'F���2�bF�Rf���V�G2&Rg&VR� ���3���{;�8�K���:�8�K�.8N8�Y�y�8~8n8N8�8N8" ��8;�6W&FR �Z�{ꓢjH�x��Y��Z�8�{YY�8�8�8X�X�^8�:�X�n8�8~8nZَYʎ8�8(�8" ���[�c�8�2�8� ��^8C�6W&F^8�K���Ί��8�8~8n8(.K��8�8(����i��y�N��x��8~8.8(�8&F�7F��7N8�jH�x�����8(N[�.hX�����Ȟ8~8Y��Z�8�g&V^8~8.8(�8>8�8).{
+k�N8�zK�8�[.�hy�NyJ�k9^8).h�8N8" �K賢F�R�f'��2F�f�FVB��F�F�&VR6W&FR6��&W'2� ���3�8�8�Z�h��8�K��8N8�X�^8^8�Z�N8�X�n8�8(�8n8N8(�8" ��8	X��hH����8	��8;�gW6VB �Z�{ꓢ�H~i[8�jH�x��Y��Z�8�h�^Y�8~8K�8N8�jx��
+8�8�8>8n8N8(�8" ���[�c�8�B�8� ��^8C�F�7F��7N8�Y��Z�8).X�X�^8�i[8�8(�8(�8(�X�n��.x�nhX�8).��8�8�8�Z��8~8gW6VN8�{XN{�N8Θ
+>{i�8~8nK�K�>X�n8~8�x�nhX�8).��8�8" �K賢F�RWF�2&RgW6VBBF�R&6RF�f�&�6��'BGV&R� ���3���[�8�Y���:�8~Y�y�8~8y��8Nz�.8).[�.h�8~8n8N8(�8" ��8;�V�FVB �Z�{ꓢjH�x��Y��Z�8�K�.8N8�{YY�8~8K�{i�8�8�:�X�n8).[�.h�8~8n8N8(�8" ���[�c�8�2�8� ��^8C�V�FVN8�jH�x��[�.hX�����Ȟ8~8F�7F��7N8�8�8�g&V^8�Z��xZ~8^8(�8(����i��8~8.8(�8&gW6VN8�Y�jy�8�{YY�8).zK�8�8�8{YY�8�y��yI���z��8�8~8�[�^8�8~8(.[�~���8~8�8N8" �K賢F�R6W�2&RV�FVBf�"��bF�V�"�V�wF�� ���3�8�8�x�~8��[~8^8�XخX�n8�8~Y�y�8~8n8N8(�8 ����Р�2&��@����Ц�VGv�&C�&��@�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b�6���7&VFVE�C�##b���#P�WFFVE�C�##b���#`�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3��,���B���Έ���,�&�B�8#��>z�8~8{>���8~8�����8�����8~8���"�8).y����>8�8(�8.���
+�8��"�8���iʾ8���B�8�8N8nZ���>�
+>{i�8�8.8(�8���8���8�i>8(B��8��B�8�i>8�j�ޙ�>8).XZ^8(�8�8N8" �[�.Z랊��8;�X�^���8;�Yފ��8�8N8�8(�8~8(.Y�8���>z�8�[�~X�.8�8.8(�8.K��K��z{Xَi[&��G28�{2�,���G2�8;����,�&�G2�8~���iʾ8��G2�8�{i�8�8.��X�[�.8;���X�X�n���&��FVB8�{2���,���L��B�8;������,�&�L��B�8֖�~[�"&��F��r8�{2���,���L��X��8;������,�&�L��X��8~8.8(�8.Y�����8��B�8~{X.8(�8(�8�8(8�VB8��B�8~8�8�8����B�8�y����>8�8(�8" �kK�yI����&��Fǒ8�{2���,���Fƒ�8;������,�&�Fƒ�8&��F�W728�{2���,���F왗2�8;������,�&�F왗2�8'&��Fǒ8��Fƒ�8&��F�W728��F왗2�8~8(.8&��B8�iʾ[�8��B�8).��8�8^8�8N8.8�88~�	�8NKɮ��8~8�Z���>�
+>{i�8�K��:�8�[�8���8>8�8(�8>8�8�8.8(�8" ����>���k� ��&��B8�K�ވ����8�X�^���&��FV�8�[�.Z랊��&��B8�8^8�8�8�8(�8X�N89^8:�8;>8+����&��B8�8(�8>8:�88n8;>���&��GW>8�X��8�X{�8^8(�8�8k�nX)�8�8~8�8�8�8�yKi�^8�8(�8'&��GW28�8:�88n8;>���&��W&^8�X��8�8ZIn8�X�n8(�X{�8�8�8��X�X�n���8~8&��8�X��8�8ZIn8�8��ȶV�W&^8�X�n8(�8�8�8N8njx�h�8~���i��8^8(�8(�8" �8�X��8�X{�8n88�8K��8�8(�8;�8�8x��8(�8(�8�8�8N8ny��h;>8�8(�8[�.Z랊��8�8�k�nX)�8�8~8�8n8N8n{Jiz�8N8�8Θ^8(�8�8���8(�8(�8(�8�8X�^���8�8Ί�X�^8(NX��[��8).[�^8�X{�8�8�8�y����8).X��88(�8�8Yފ��8�8�y����8(N��X�^8).[�^8�X{�8�Y�Y�>8�8�hH�Y>8�[�>8�8>8�8.8+>8;>89N8:^8;�8+�8;�yJ�k9^8�8XZ^X��8(N[��z�N8).K�>8���zK�8;�h�~zK�8�8>8�j�8�h�[�^8~8�8(.8�8~8.8(�8" �Y�8�8:�88n8;>���{;�{[8�[�8�8(����8�8~8n8k�nX)�8�8~8�8�8�ZN8~��8n8>8�8).��8���&��G^8�X�>���8�8X�>���8~8�8�88�88�8;�y�N88�8�8N8nhH�Y>8~K��8(�8(�8(�&��F�8�8.8(�8.8>8(�8(�8�&��B8�Xَ{IN8�h�^���kK�yI�8~8�8�8N8" ����>���[�.h� ��&��Fǒ(	BX�����8�8�88�8�	�8(N8�8�8i�.�i>8�8�8(�8�8�8'&��B8�8Θ^8(�8�8�8N8�8�8N8nhH�Y>8).ih~XZ�K�>8(NX�^K��8���yJ�8�8(�8" �&��F�W72(	BYފ��8΋�^�	�8^8i�.�i>8).Z�8(�8>8�8�8.[��z�N8;�iJ�h�^8N8;�X�y�8�8�8��^8(�8�8�8Nh
+~�:�8).��8�8" �&��F��r(	BYފ��8�K�>8�8>8�8y����8).X��88(�8>8�8�8.X�^���&��B8�X�^Yފ��8;�x��YʎX�n���8�8(�yI�8�8iY��+.8;�k�NX�~8;�[�>yniJ�h�N8�8�8~K��8n8" �&��FW"(	BYފ��8�k�NX�~8~8�8(�8^8).X��88(�K��889~8:�8;>89~8+�8;�8�8.X�^���&��B8�K��8).��8��W"8�K��8N8����8~8.8(�8" �&��F�GVFR(	BYފ��8�X�>[��h
+~8��^�	�8^8�8.8�8(�8~z�8N���8~8K����Z�n{�.8~8�&��F�W728�8�8n8�i��	�8~8.8(�8" �V�&��FVB(	B[�.Z랊��8�K�>8^8(�8n8N8�8N8k.8(8(�8(�8n8N8�8N8�z�y��y�N8�8�8'V��8�Y
+nZ�8�8).K��88�:�YX�8(Nh�~zK�8�8~8���8(�8(�8�8>8�8).��8�8" ���&��GR(	B[�.Z랊��8;�X�����8;�Yފ��8�X�>���8�8X�>���8~8X�>���K��Y88�8'&��B8�Y�8�8:�88n8;>���&��GW2{;�{[88�8&��B8�h�^�
+ދ��kK�yI�8~8�8�8N8" �6����B&��B(	B�H~Y�Yފ��8�8+>89�8;>88�XZ^X��8).[�^8NyK���.��zK�88+>89�8;>88�89~8:�8;>89~88�8�8'&��B8�8+>8;>89N8:^8;�8+�8;�8�XZ^X��[�^8��zK�8).��8��H~Y���x��8~8.8(�8" �&��BV�v��VW&��r(	B�H~Y�Yފ��8��8�8�h�~zK�ih~8).��ފ��8;�iK�YhN8�8(�8>8�8�8.yI�h�8+~8+�88n8:8�8(�iɾ8�8~8NX{�X��8).[�^8�X{�8�8�8(8�XZ^X����ފ��8).��8�8" ����>8+>8*.8*N8:8;�8+���&��B8�X[�	�j�8�8X��[��8;�y����8;���X�^8�8�8).Xh^XN8�8�8�8(8�88�8>8�88�8(�8>8nX��8�X{�8�88�8�8�[�^8�8�8�8���8(�8^8�8(�8>8�8~8.8(�8.i�.�i>8�iz�8^8K��8�X�>[��8X��Y�8�8(�8(����y��8���hkn8�Y�8>X{�8~8�:�YX�8(NXZ^X��8�Y�Y�>8�[�>8�8(�8" �8;�X��[��8(N��X�^8�X��8�X{�8n�^8(�8�8Nx�nhX�(i"8΋�^�	�8�8�^k��8�8�8N8��Ȏ���{��Ȓ �8;�K��8�X��[��8).X��8�X{�8�k�nX)�8�8.8(�x�nhX�(i"8�{Jiz�8�[��8�8(�8i�.�i>8).Z�8(�8��Ȏ���{�.�Ȓ �8;�i�.x+�8).X��8�X{�8~8n�^8(�8�8���8n8>8�(i"8�i�.�i>8�8�8(�8�88�88�8��Ȏ���{�>�Ȓ �8;�X{�i�^K��8�X��[��8(N��X�^8).X��8�X{�8�X8�8�(i"8�K�>8�8[�^8ދ[~8>8�8��Ȏ���{�N�Ȓ �8;�h��h�8�8(�8�y����8).X��8�X{�8�X8�8�(i"8�8�8(�8^8).K�>8�8h	�8NX{�8^8�8(�8��Ȏ���{�^�Ȓ �8;�h��h�8�8(�8�8~8ny����8(N��X�^8).X��8�X{�8�8(.8�(i"8�8�8(�8^8�Y�Y�>8X��8���8��Ȏ���{�n�Ȓ �8;�YX�8N8(N��.��8�h	ވ>8(NY��z�N8).X��8�X{�8�8(.8�(i"8�y��h;>8;�Y��z�N8).[�^8�X{�8�YX�8N8��.��8��Ȏ���{�~�Ȓ �8;�yK���.8�X��yJ��^8�XZ^X��8).X��8�X{�8^8�8(���zK�(i"8�XZ^X��8).K�>8���zK�88+>89�8;>88�89~8:�8;>89~88�8��Ȏ���{꓎�Ȓ �8;�h�~zK�8��8�yI�h�{Yi��8).X��8�X{�8^8�8(�XZ^X��(i"8��8�K��8�8(�h�~zK�ih~8XZ^X��8��Ȏ���{ꓞ�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	[�.Z랊��8;���Z����X����8	��^�	�8�8�^k��8�8�8@��8	iz^i�Ί�>8;�Z�{�8	��X�^8Z��[��8��Nz�N8iJ�h�N8iJ�h�^8N8�8�8�8[�^�hK�^K��8�[�^8�8�8�8���8(�8(�8(�8>8�8).��8�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.89>8+�88�8+�8��iK�8X˾y�.8j�Xh^ih~8~x��8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	&��B8�7F����&W7��6R�&Wǒ���V�B�GFV�F���8���ދ�^�	�8�8���X�^8;�[��z�N8;���Nz�N8;�iJ�h�^8N8;�Z��[��8����&��B&WǒF�6��WF���~���8	�8�8��^�	�8���Nz�B ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&��B7F��� �yJ��	C�YX���8(NX����8�Z��8~8n8�^8(�8�8�8�Z��[��8�8(�8>8�8).��8�8" �K賢&��B7F���&WfV�FVBF�Rf�&Rg&��7&VF��r� ���3���^�	�8�Z��[��8�8(�8>8n8x�8�[�>8�8(�8�8).��.8N88" ��8;�&��B&W7��6R�&WǒF�6��WF���r �yJ��	C��:�YX�8��nh8^8K�ޚ�8�8�8�Z��8�8(���Nz�N8�iz�8N8>8�8).zK�8�8" �K賢vRW�V7B&��B&W7��6RF�F�R6�����B� ���3�8�8nh8^8�8���^�	�8���Nz�N8).i��[�^8~8n8N8(�8" ��8;�&��B��V�B�b6��WF���r �yJ��	C����k.i��8(Nii��y8).XX�[�n88~8�8�iJ�h�^8n8>8�8).k.8(8(�8" �K賢&��B��V�B�bF�R��f��6Rv�V�B&R&V6�FVB� ���3����k.i��8�	�8(N8�8�iJ�h�^8N8).8���8N8~8�8�8" ��8;�&��BGFV�F���F�6��WF���r �yJ��	C�YX���8(NK�ޚ�8).[��Y��8~8�8�8�88�88�h�8n8>8�8).��8�8" �K賢F��26fWG��77VR&WV�&W2&��BGFV�F���� ���3�8>8�Z�XZ�K��8�YX���8�8���^�	�8�Z��[��8�[�^�h8~8.8(�8" ��8;�&��B�VF�6�GFV�F��� �yJ��	C�88�8(Nyx~x�n8�Z��8~8n8�^8(�8�8�X˾y�.Xzn{��8).X�~88(�8>8�8).��8�8" �K賢F�R6���B&V6V�fVB&��B�VF�6�GFV�F���gFW"F�Rf��� ���3�8�8�Z�8�8(.8���.X	.[��88�88�X˾y�.Xzn{��8).X�~88�8" ��8	���k9^8;�k:�hH�8	&��B8�8Θ	�8N8�8�8N8n�	�[�n888~8�8�8i��[�^8^8(�8(�Z��[��8).�^8(�8�8�8N8�8N8n��^K�8).Y
+�8(8&���VF�FR8�i�.�i>8).{��8�8�8N8>8�8).8(�8(�[�~8�zK�8~8V�6�8�X�^K��8(NX��[��8�	�8^8�xJnx+�8).{��8�8'F��Vǒ8���X�~8�i�.j��8��i>8�Y�8n8>8�8).��8�8'&��B��V�B8�[�^8�8~8(.8�X�>i�.h�^8N8�8~8�8�8�8Zj^[�>8�i���i>Xh^8��	�8(N8�8�h�^8n8�8N8nhH�Y>8�8�8(�[�~8(�8.X�����8��	�[��&��Fǒ8).K��8N8F�R6���&W7��FVB&��B�8�8�8~8�8N8" ��8	��{꞊��8	��8;����VF�FR �Z�{ꓢi�.�i>y�N8��i>��N8(NK��Yʎ8�8�8�8y�N88��[~8>8(�8" ���[�c�8��8� ��^8C����VF�FR8�i�.�i>y�N��h�^8).[�~8���8�8'&��B8�ZN��.8�i��[�^8�xZ~8(�8~8n�^8(�8�8�8N8>8�8).zK�8~8[�^8�8~8(.y��i�.8~8�8�8N8" �K賢F�RF�V�B�VVG2���VF�FRG&VF�V�B� ���3�8�8�h*>�^8�8�y�N88�k+�y�.8�[�^�h88" ��8;�F��Vǒ �Z�{ꓢ[�^�h8�i�.i��8��i>8�Y�8N8x�nk88���8~8�i�.j��8���8(�8(�8(�8" ���[�c�8�r�8� ��^8C�F��Vǒ8���i�.h
+~8�xJnx+�8�8.8(�8&��B8�8(�8n8�Xَ{IN8��	�8^8).[�^8�8~8(.Y
+�8�8�8N8" �K賢F��VǒGf�6R�V�VBW2f��B6�7Fǒ֗7F�R� ���3���X�~8�i�.j��8�X����8�8(�8>8n8���8�8N8�ZKiY~8).��88(�8(�8�8" ��8;�V�6� �Z�{ꓢX�^K��8X��[��8Xznyn8�8�8�i�.�i>8�8�8�8(�8�8N8" ���[�c�8��8� ��^8C�V�6�8�h��hi�.�i>8�y��8^8).[�>8���8�8'&��B8�K�ޚ�8(NYX���8�8�[��z�N8�i��[�^8�8�8(�8��^8(�8�8N8�8N8n��^K�8).[��8>8(N8�8N8" �K賢F�RFV6��6��vfRF�R�6���RV�6�6�V6�� ���3�h��>�^8�j��j+8).8^8>8�x+�jI�8~8�8" ��8	X��hH����8	��8;�FV��VB �Z�{ꓢK��Z�8�8�8�i��[�^8^8(�8�i�.x+�8(�8(�[��8��^8(�8�8" ���[�c�8���8� ��^8C�&��B8Θ^[�n8�8�8NZ��[��8).zK�8�8�8�Z��8~8FV��VB8�K��Z�8(�8(�[��8�8�8>8�x�nhX�8).zK�8�8" �K賢F�RFV��VB&W7��6R6W6VBgW'F�W"6��gW6���� ���3��^8(�8���Nz�N8�8^8(�8�8(�k{~K�8).h��8N8�8" ��8;�&V�FVB �Z�{ꓢ��X�~8�i�.j��8).��8�8n8�8(���8(�8(�8�8" ���[�c�8�R�8� ��^8C�&V�FVB8�8�8(.8>8�iz�8�8�8�8�88>8�8�8�8N8nY
+�8�8).h�88(N8�8N8" �K賢F�R6����77VVB&V�FVB���w�� ���3�8�8�KɮzK�8��^8(�88�8�8�8(����{ڮ8~8�8" ��"�8	[�.Z랊��8;�K��8�X����8	{Jiz�8�[��8�8(�8i�.�i>8).Z�8(���8	iz^i�Ί�>8;�Z�{�8	K��8�8k.8(8(�8(�8���X�^8(N��Nz�N8).8�88���8nk�nX)�8�8~8�8n8N8(�88�8�8�{HNi��8^8(�8�i�.X��8��^8(�8���X�^8�8(�8>8�8).��8�8.Xَ8��;�X��8Κ��8N8�8N8n8(�8(�8��>{{N8�h�[�8k:�hH�8�8(�8>8nX�>[�~8�[��8�8(�h
+~�:�8).zK�8~8(N8�8N8.K��8�8N8N8n8�&R&��B8�8(�8n8�X����yJ�k9^8Έz�xKn8~8.8(�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Kɮ��8K�^K��8��Nz�N8h�^Z�.8h�~zK�8�8�Z��[��8�8�8~K��8n8'V�7GV�8���8N8�i�.�i>8).Z�8(�8�yJ�k9^8�8&VG�8;�&W7��6�fR8���8N8�8�8[��8�8(�8�yJ�k9^8�8.8(�8" ��8	ih~k9^898+�8;�8;>8	&R&��N���i�.�i>8).Z�8(�8;�8�8[��8�8(����&R&��BF�F�6��WF���~���8�88�8	�8�8(����&R&��B��F���r6��WF���~���8	�8�8(�8�8Θ	�8(N8�8~8.8(����&R&��Bv�V�8�F���r6��WF���~8����8	�8�8(����8��^8(�8�8N���&R&��BF�&W7��B�&WǞ���8�88�[��z�N8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&R&��BF�&W7��B �yJ��	C��
+>{Z8(NYX���h��[~8�Z��8~8n88�8X��[��8�8(�K��8�h
+~�:�8).��8�8" �K賢6�R�2�v�2&��BF�&W7��BF�W&vV�B�W76vW2� ���3�[��Z[>8�{x�h
+^8�8:88>8+�8;�8+�8�8�8N8N8(.8�88�[��z�N8�8(�8" ��8;�&R&��B���7vW&��r8�VW7F���>8� �yJ��	C��:�YX�8�8��Nz�N8).8�8(8(�8(�8�8i�.�i>8).8�88�8���8n8>8�8).��8�8" �K賢F�Rv�F�W72v2&��B���7vW&��rF�R�w�W"w2VW7F���2� ���3�8�8�K��8�[���~Z:�8�:�YX�8�8�8z�N8�8�8" ��8;�&R&��BF�&W�'B8�&�&�V�8� �yJ��	C�YX���8�k	~8^8N8�8(�8ZY�8).XX�[�n88~8�8~8�8NhX�[�n8).zK�8�8" �K賢V����VW26��V�B&R&��BF�&W�'B�6fWG�6��6W&�� ���3�[�>jZ�Y:8�Z�XZ�K��8�h{�[�^8�8.8(�888�88�ZY�8�8�8�88" ��8;��V6R&R&��B� �yJ��	C�{HNi��8�i�.X��8(N��nY�i�.X��8��^8(�8�8N8(�8n8K�Z�~8�8�8�K��X��y�N8�k.8(8(�8" �K賢�V6R&R&��Bv�V�GFV�F��rF�W6R�VWF��w2� ���3�8>8(�8(�8�Kɮ��8�8�i�.�i>8�8�8(�8�X{�[��8~8n8�88^8N8" ��8;�&R&��B�����r8�&���8� �yJ��	C����k.8(Nii��y8�iJ�h�^8N8).XX�[�n88~8�8~8�8NK��8�hX�[�n8).��8�8" �K賢�R�2&��B�����r��2&���2�WfV�v�V�F�R��V�B�2F�7WFVB� ���3�[��8��y��8�y[��8�8.8(�ZNY�8~8(.8���k.i��8�iJ�h�^8N8).�^8(�8�8�8N8" ��8	���k9^8;�k:�hH�8	K��8�8N8N8n8�&��B8�8�X��[��8Θ	�8N8�8�8�i�.�i>8�j�>z+�8�8�K�ik�8).X�n8(�[�~8(�8%6�Rv2&��BF��7vW"�8���Nz�N8�	�8^86�Rv2&��Bv�V�6�R'&�fVBf�"F�R�VWF��r�8�X�y�i�.8�^8(�8�8�8^8).��8�8'V�7GV�8�K��Z�i�.X��8�8�j�>z+�8^8&W7��6�fR8��
+>{Z8;��hk.8�8�X��[��h
+~8&VG�8�k�nX)�8(N�;�X��8�x�nhX�8).[�~���8�8(�8&&��B&Wǒ8��z�xKn88�88�8��NK��8).8�8(�K��8).��8�8�8�8��	�[��&R&��B8�8�8(�8" ��8	��{꞊��8	��8;�V�7GV� �Z�{ꓢ{HNi��8;�K��Z�8^8(�8�i�.X��8��^8(�8�8N8" ���[�c�8���8� ��^8C�V�7GV�8�X�y�8;��h�Zx�8�8�8�i�.X��8�j�>z+�8^8���Z�8^8(�8(N8�8N8'&��B8�i�.X��888~8�8�8�:�YX�8(NK�ޚ�8�8�X�>[��8(.��8�8" �K賢F�RG&��v2V�7GV�FW7�FRF�R�Vg�&��� ���3�ZJ~���8�8(.8�8�8(�8(�8�88�8�X�~���8�i�.�i>8�8�8(�88>8�8" ��8;�&W7��6�fR �Z�{ꓢ�hk.8�
+>{Z8ZH�X�n8�8�8�8�8X��[��8�8(�8" ���[�c�8�r�8� ��^8C�&W7��6�fR8�X��[��8�8~8(N8�8^8(Nz��j[^h
+~8�xJnx+�8�8.8(�8&��N8�8(�8n8�i����8;�i�.X��8�Y
+�8�8�8�8N8" �K賢F�R7W�'BFV��2&W7��6�fRF�7W7F��W"fVVF&6�� ���3�8�8�8+^89�8;�88�888;�8:8��~Z�.8�hH��h�8�8�8Z��[��8�8(�8" ��8;�&VG� �Z�{ꓢ[�^�h8�8�8�8�8�8��X�^8;�[��z�N8~8�8(�x�nhX�8�8.8(�8" ���[�c�8��8� ��^8C�&VG�8�k�nX)�8�i[N8>8n8N8(�8>8�8&��B8�Z�����8��^8(�8�[��8�8(�8>8�8).zK�8�8" �K賢F�R76�7F�G2vW&R&VG�F��V�f�6�F�'2� ���3�8�8�9�X��Y:8�88�i�^����^8).h��K��8�8(�x�nhX�88>8�8" ��8;�V�6� �Z�{ꓢX��[��8;�yn�z>8;�X�^K��8�8�8Θ	�8N8" ���[�c�8��8� ��^8C�V�6�8�yI�i�^8�	�8^8(NK�i�.y�N8�X�^K��8�	�8^8�8(.K��8�8(�8'&��B8��h�[�8(Ni��[�^8^8(�8�Z��[��8�	�8^8).Y
+�8�8(N8�8N8" �K賢�R�2V�6�F���F�6R6��vW2��F�R�&�WB� ���3�[��8�[�.ZN8�ZH�X�n8�k	~8^8�8�8�iz�8N8" ��8	X��hH����8	��8;�F&G� �Z�{ꓢX�y�8;�h�X{�8;���X�^8�Z�8(8(�8(�8�i�.X��8(�8(��^8N8" ���[�c�8�B�8� ��^8C�F&G�8�i�.X��8�8�^8(�8).y�Nh�^X��Z��8���8�8'&��N8�X��[��8�	�8^XZ����8�Z��8~8nK��8nZNY�8�ih~�H�8�[�^�h8~8.8(�8" �K賢F�RV����VRv2v&�VB&�WB&WVFVBF&G�'&�f�2� ���3�8�8�[�>jZ�Y:8�8[�n�x�8�8(��^X��8�8N8N8nk:�hH�8).X�~88�8" ��8;��W6�F�B �Z�{ꓢk�8(8�8(���X�^8~8�8(�8�8(�X��8�8�8(8(�8n8" ���[�c�8�r�8� ��^8C��W6�F�B8�[��z�N8;���X�^8�z{�8(�8�8~8�[�>yny�N8�8�8(8(�8N8).��8~8&��N8�X�>[��h
+~8�Z��z��8�8(�8.i�.�i>8�8�^8(�8).[�^8�8~8(.Y
+�8�8�8N8" �K賢6�Rv2�W6�F�BF��7vW"F�RV�W�V7FVBVW7F���� ���3�[��Z[>8�K��h;>ZIn8�:�YX�8�z�N8�8(�8�8).8�8(8(�8>8�8" ��2�8	X�����8;�K��8���8;�8�888�8	i�.�i>8�8�8(�8�88�88���8	iz^i�Ί�>8;�Z�{�8	&��Fǒ8�y��8N[�.8�8~8n8x��8�8*N8*�8:�8+������8�8�888�yJ�k9^8(Ni�.X����x��8~8�i�.�i>8�8�8(�8�8�8Θ^8(�8�8�8�8).��8�8.K����y�N8~K��z��8�ih~z�8~8�&��Fǒ8).K��8n8�8n8�Z�XZ�8~8&��B8).X�����8�8~8n�z�yK8�K��8nyJ�k9^8���Z�y�N8~8.8(�8" ��8	��[�n8	8�2�8� ��8	8:�8+�8+�8+�8;���	�Y��8	K��8�8*N8*�8:�8+������8�8�888���x��88�8�8�i�.X��8).[�~���8�8(�Z�Y辊�x��8.j�>[��8�ih~i��8(NY�ޙ��y�N8�Z�n{�.yJ������8~8�&��Fǒ8�j��k�ny�N8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	B8�i�.X��8�&��N���88(~8n8�8	�i�.8����'&�fR��VfR&��N���i�.�i>8�8�8(�8�X�y�8�8(�8;�X{�y��8�8(����8�K�����8��&RF�W&R&��N���8	�i�.8��^8(�8�8�8>8�8N8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�BV�v�B�v6��6�&��B �yJ��	C��h�Zx�8;���nY�8�i�.X��8�j�>z+�8��i�.8~8.8(�8>8�8).88�888n[�~���8�8(�8" �K賢F�RF��'2v����V�BV�v�B�v6��6�&��B� ���3��h�ZN8�8�8>8�8(��i�.8~8�8" ��8;�'&�fR&��B �yJ��	C�X�y�8Θ^8(�8�8�8>8�8>8�8).8K��8������8�8�888�yJ�k9^8~��8�8" �K賢F�RF�7F�"'&�fVB&��Bf�"F�Rf�'7B���F�V�B� ���3�8�8�X˾[��8�i�X��8�Z��8�i�.�i>8�8�8(�X�y�8~8�8" ��8;��VfR&��B �yJ��	C�X{�y��i�.X��8��^8(�8�X{�y��8�8(�8>8�8).8i�.X��8).hH��َ8~8�ih~�H�8~��8�8" �K賢F�R6�6��VfW2&��BB6���6��V6RF�R��W"6VBV&ǒ� ���3�898+�8�ni�.88(~8n8�8�X{�y��8�8(�8�8~8iz�8(8�y�[��8~8n8�88^8N8" ��8	���k9^8;�k:�hH�8	8>8�X�����yJ�k9^8).K����y�N8�X�����8�8~8n[�>8.8�8&��Fǒ8�K��8NX�n88(�8%�V6R&Wǒ&��Fǒ�8�j��k�ny�N88�8�V6R&Wǒ&��B�8��	�[����88(�8&B��R&��B8�8Þi�.88(~8n8�8�8�8�8N8ni�.X��8�[��{���x��8~8{>���8�Kɮ��8~8�B��R6�'8(BBW�7Fǒ��R8�8�8n8Έz�xKn8�8>8�8(.8.8(�8" ��8	��{꞊��8	��8;�&��Fǒ �Z�{ꓢ�^8(�8�8�88�88�8i�.�i>8�8�8(�8�8" ���[�c�8���8� ��^8C�&��Fǒ8�Y�Y��8(Nih~K�>8�X�n{HN8�[	8�8Nj��k�ny�N8�X�����8~8&��B8�X�����yJ�k9^8�K�>8(�8(�8�[�>8�K��8�8(�8" �K賢�V6R&Wǒ&��Fǒ�b��R6���BGFV�B� ���3�X{�[��8~8�8�8NZNY�8��	�8(N8�8���NK��8).8~8n8�88^8N8" ��8;�V�7GV�ǒ �Z�{ꓢK��Z�8;�{HNi��8�i�.X��8�j�>z+�8�8" ���[�c�8�b�8� ��^8C�V�7GV�ǒ8�i�.X��8�j�>z+�8^8���8(�8(�8&��Fǒ8�8(�8n8�8�8�88�Xznyn8�8(�8�8�8N8nhH�Y>8�8~8�[�^8�8~8(.h�8�8�8N8" �K賢F�R�V7GW&R&Vv�V�7GV�ǒBFV�� ���3��ɾ{�8�i�.88(~8n8�8�Zx�8�8>8�8" ��8;���F��R �Z�{ꓢK��Z�8^8(�8�i�.X��8��^8(�8�8" ���[�c�8��8� ��^8C���F��R8�Kɮ��8~���[��8�i��	�8�X�^8~8&��B8�8(�8n8�8�8�88�[��8�8(�8�8�8N8n[�>8�8(�8�8�8N8" �K賢F�R6�vR'&�fVB��F��R� ���3���~x��8�i�.�i>8�8�8(�8�[�8N8�8" ��8	X��hH����8	��8;��FR �Z�{ꓢK��Z�8^8(�8�i�.X��8(�8(�[��8�8" ���[�c�8��8� ��^8C��FR8�Xَ{IN8�i�.X��8�^8(�8).��8~8&��B8�X�����yJ�k9^8�y�Nh�^Z��z��8�8(�8" �K賢F�R7V�W"'&�fVB�FR�B���v��VBF�F�RVF�V�6R� ���3��ɾk�N�^8��^8(�8nX�y�8~8�N�n8����8>8�8" ��B�8	K�nX�^���8	K�>8�8[�^8ދ[~8>8���8	iz^i�Ί�>8;�Z�{�8	K��8;�X{�i�^K��8;�h8^Z8�8�8�8��8�8���X�^8(Nk�Z�8).8^8�8�8(�8X��[��8;�����n8;����i��8�8�8).[�^8ދ[~8>8~8�8(�8�8(�8>8�8).��8�8'&��N8�8(�XN8�hH�Y�>y�N8����[�~�^8�8���8(�8�8y����8���h�8K��iX^8ZH�X�n8�8�8�X��Y�8;�8�8>8�88�8�8(�ZNY�8(.ZI�8N8.{Yi��8).[�~X�n8�8(�8�8N8n8(�8(�8��X�^8(NX��[��8�yI�8�8(�ik�Y	8�X�^8�8����8~8.8(�8" ��8	��[�n8	8��8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Kɮ��8Z�>889>8+�88�8+�8z	Nz�n8iK�z�n8[�>yn8;�zK�Kɮ8�i��8~[�>8�K��8n8.X�~X�^hX�8�&R&��FVB'�8(.���[��8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	&��B6��V��RF�F�6��WF���~���K��8�8	�8�8(�8(�8nK�>8����&��B8�&V7F����FV6�6����6��v^8����8�X��[��8;�k�Z�8;�ZH�X�n8�8).[�^8ދ[~8>8����&��B8����fW7F�vF����&Wf�Wr�F�67W76���8����8����i��8;�Xh�jIΊ��8;�����n8�8).K�>8����&R&��FVB'�6��WF���~���8	�8�K�>8^8(�8(�8;�8	�8�8�8>8�88~�[~8>8(����v�B&��FVB6��V��RF�F�6��WF���s����K�^8�K��8�8	�8^8�8�8�8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&��B6��V��RF�F�R7F��� �yJ��	C�K��8(N{XN{�N8Ί�X�^8).�[~8>8�8�8>8�88�8�8(�8>8�8).��8�8" �K賢F�Rv&��r&��FVB&W6�FV�G2F�F�R7F���� ���3�8�8��nY�8).X�~88n8K��k	8�88���X�^8).�[~8>8~8�8" ��8;�&��B&W7��6R�&V7F��� �yJ��	C�y����8X��k�8X{�i�^K��8�8�8΋�Nz�N8(NX��[��8).[�^8ދ[~8>8�8>8�8).zK�8�8" �K賢F�RVW7F���&��FVBF��Vv�FgV�&W7��6Rg&��F�R�V�� ���3�8�8�:�YX�8�88988�8:�X�.X��^8�8(�h	�hZ�k{8NY��z�N8).[�^8�X{�8~8�8" ��8;�&��BFV6�6��� �yJ��	C�h8^Z8(Nx�nk88�ZH�X�n8�8k�Z�8).K��8�8�8>8�88�8�8(�8>8�8).��8�8" �K賢F�RV�W�V7FVB6�7B&��FVBF�R&�&BF�&V6��6�FW"F�R��� ���3�K��h;>ZIn8�+�yJ�8).X�~88n8X�n{z[۞Kɮ8����yK�8).Xh�jIΊ��8~8�8" ��8;�&��B���fW7F�vF����&Wf�Wr �yJ��	C�YX���8(N���h�8Ί��i��8;�Xh�jIΊ��8).Zx�8(8(�X��Y�8�8�8(�8>8�8).zK�8�8" �K賢F�R֗76��r&V6�&G2&��FVB���FW&����fW7F�vF���� ���3������.8�j���8�Xh^�:����i��8�8�8>8�88�8�8>8�8" ��8;�&��B6��6W&��7V7V�F��� �yJ��	C�8.8(�h8^Z8�h{�[�^8(Nh�k��8).yI�8�8^8�8(�8>8�8).��8�8" �K賢F�R7VFFV�G&���6�W2&��FVB6��6W&����r��fW7F�'2� ���3�Z;.K��8�h
+^��8�h�^�8~Z�n8�h{�[�^8).h��8N8�8" ��8;�&R&��FVB'�8�VW7F����WfV�B�6��6W&�8� �yJ��	C���X�^8(Ny����8�8x��Z�8�8�8>8�88�8(�8>8nyI�8�8�8�X�~X�^hX�8~���i��8�8(�8" �K賢F�R&Wf�6���v2&��FVB'�7W7F��W"fVVF&6�� ���3�8�8�iK���.8��~Z�.8�8(�8�hH��h�8).8�8>8�88���8(�8(�8�8" ��8;�&��BW6W"F�V�FW"FF �yJ��	C�8+>8;>89N8:^8;�8+�8;�8�89~8:�8+8:�8:8�8X��yJ��^8�XZ^X��8).k.8(8(�8>8�8).��8�8" �K賢F�R&��FVB�RF�V�FW"77v�&B� ���3�8�8�8*.89~8:�8�zx8�898+�8:�8;�88�8).XZ^X��8�8(�8(�8nk.8(8�8" ��8;�v�B&��FVB��RF�F�6��WF���s� �yJ��	C�y��h��8�8.8(���h��8(N��X�^8).8�8(�8>8�8�8�8>8�ynyK8;�8�8>8�88).[�8�8(�8" �K賢v�B&��FVB��RF�6��vR6&VW'3� ���3�K�^8�8�8>8�88~��.�~8~8�8�8~8�8�8" ��8	���k9^8;�k:�hH�8	K��8).y��y�N���8�8�8(�ZNY�8�&��B6��V��RF�F�6��WF���r8�8~8&��B6��V��RF�6��WF���r8�8�8~8�8N8'&��B6��WF���r8�x��K��8).[�^8ދ[~8>8�jx�ih~8~8�:�YX�8).y��h��8�h�^8.8�88(�8�[�8�8(�8�8�8N8nhH�Y>8~8�8�8N8&f�&6R8�y��h��8��h��*.8).ZZ�8n[�~X�n8��F�fFR8�Xh^y�N8�hH�j�.8^88&�f��R8�[�~8NX��[��8(NK��[��8�X��[��8).���y��8�8(�Y
+�8�8�X{�8(N8�8N8'&��B8�hH�Y�>y�N8����[�8�8(.���hH�Y�>y�N8�X��Y�8�8(.K��8�8(�8&&R&��FVB'�8�X��Y�8).zK�8~8{Yi��8�[�^8�Z��x��8~8�8>8�8�8~K�ފ��8~8�8NZNY�8�8.8(�8" ��8	��{꞊��8	��8;�6W6R �Z�{ꓢX{�i�^K��8(Nx�nhX�8).y�Nh�^yI�8�8^8�8(�8" ���[�c�8��8� ��^8C�6W6R8�Y�i�Ιj.K�.8).[�>8�K��z��y�N8���8�8(�8'&��B8���X�^8;�k�Z�8;�X��[��8).[�^8�X{�8�8�8>8�88(NX��k�8�xJnx+�8�8.8(�8[�>yny�N8;�Z��K��y�N8�kX8(�8).zK�8~8(N8�8N8" �K賢F�R�V�6W6VB6W&��W2F�vRF�F�R'V��F��r� ���3�8�8�k��kN8�[��x��8�k{X��8�i�Z�>8).8(.8�8(�8~8�8" ��8;���F�fFR �Z�{ꓢK��8���X�^8�8(�hH�j�.8(NynyK8).K��8�8(�8" ���[�c�8���8� ��^8C���F�fFR8���x+��^8�Xh^y�N8�hH�j�.8;�y��y�NhH��َ8).�xފin8�8(�8'&��B8�hH�j�.8�8�8�8n8(.ZIn�:�8�X{�i�^K��8Ί�X�^8).K�>8�ZNY�8�K��8�8(�8" �K賢F�R&��W2��F�fFVBF�RFV�F�f��6�V&ǒ� ���3�8�8�9�K��8�888;�8:8�iz�8�{X.8�8(�hH�j�.8).K��8�8�8" ��8;���GV6R �Z�{ꓢynyK8���[�~8[����8�8(�8>8nK��8���X�^8(Nx�nhX�8).yI�8�8^8�8(�8" ���[�c�8�b�8� ��^8C���GV6R8�8(N8(Nj�>[��8~8���[�~8(NX8�8�8�88�{Yi��8�8~8n��X�^8^8�8(�Y
+�8�8�8.8(�8'&��B8�88�8:^8;�8+�8(NK��iX^8�8����K���i>y�N8�X��Y�8�8(.�z�xKn8�K��8n8" �K賢F�RG&VF�V�B��GV6VBFV��&'�6�VW� ���3�8�8�k+�y�.8�K�i�.y�N8�y�y�8).[�^8ދ[~8>8~8�8" ��8;�&�f��R �Z�{ꓢX��[��8x��8�[�~8N8;�hI�h8^y�N8�X��[��8).[�^8ދ[~8>8�8" ���[�c�8�r�8� ��^8C�&�f��R8�h	.8(�8X��y��8����n8�8�8).X��k�8�8(�Y
+�8�8�[�~8N8'&��B8�Z[�8�8~8NX��[��8(NK��z��y�N8����i��8(.[�^8ދ[~8>8�8(�8" �K賢��2&V�&�&�f��VB��w'�&W7��6R� ���3�[��8�y����8�h	.8>8�X��[��8).[�^8ދ[~8>8~8�8" ��8;�7W" �Z�{ꓢK��8).[�~8�X��k�8~8n8��X�^8).h
+^8�8�8�8(�ZZ�8Nz��8�8�8�8(�8�8(�8" ���[�c�8�b�8� ��^8C�7W"8�{x�h
+^h
+~8(NZZ�[~8�X��8).[�~8�hI�8�8^8�8(�8'&��B8�8�8(�8�8�[�~8NX��k�8~8�8�8n8(.8��X�^8�8�8>8�88�8(�K��8�8(�8" �K賢F�R7&�F�6�6�7W'&VB�W"F���&�fR�W"&W6V�FF���� ���3�8�8�h��X�N8�[��Z[>8).X��k�8~8y����8).iK�YhN8^8�8�8" ��8	X��hH����8	��8;�FWFW" �Z�{ꓢK��8Ί�X�^8�8(�8�8).h	�8N8�8�8�8(�8�8(�8" ���[�c�8�r�8� ��^8C�&��B8Ί�X�^8�Y	8�8(�8�8(�8�8�Z��8~8FWFW"8�X����8;�{�8;�K��X��y��8�8�8�8(�8>8n��X�^8).j�.8(8(�ik�Y	8�X8�8�8" �K賢F�R��v�6�7BFWFW'&VB��7W7F��W'2g&��Ww&F��r� ���3����8N�+�yJ�8�8�8(8ZI�8�8�~Z�.8�i�Nik8).h	�8N8�8�8�8>8�8" ��8;�F�66�W&vR �Z�{ꓢK��8�hH�j�.8(N��X�^8).8�8�8�88(N8(8^8�8(�8" ���[�c�8���8� ��^8C�F�66�W&vR8�[�>yny�N8�hH�j�.8).K��8.8(�8>8�8).K��[�>8�8~8&��B8�8(�8n8���X�^8).X��8��.8(8(�X8�8�8�X��Z��8�8�8(�8" �K賢��Rf��W&R6��V�B��BF�66�W&vR��Rg&��G'���rv��� ���3�K�[�n8�ZKiY~8~Xh�h�h�n8�8(�k	~h�88).ZK8>8n8�8N88�8N8" ��8;�&WfV�B �Z�{ꓢX{�i�^K��8(N��X�^8΋[~8>8(�8�8).Zj�8.8(�8" ���[�c�8���8� ��^8C�&WfV�B8�{Yi��8�y��yI�8).��ij�8�8(����8~8&��B8�8(�8n8�{Yi��8).[�^8�X{�8�X8�8�8�Z��z��8�8(�8.8�88~8hH�j�.8�8�X8�8�8�88~8�8�8�8h�z��8�8�8(.8�8).j�.8(8(�8" �K賢F�R&'&�W"&WfV�FVBfV��6�W2g&��V�FW&��rF�R&V� ���3�8�8�Z�>x��8�8(�8>8n���K�8�8�8�XˮY��8�XZ^8(�8�8�8>8�8" ��R�8	K�nX�^���8;��z�X�^������y����8;�k�NX�~8	8�8(�8^8).K�>8�8h	�8NX{�8^8�8(���8	iz^i�Ί�>8;�Z�{�8	K��8x��8�K�>XJ�8(Ny�����^8�[��8(�8�����8;�j�8�y����8).h	�8NX{�8�8(�8(�8n8�8Xَ���8�:�YX�8h��h�8�8(�8).K��8�8(�8.iY��+.8(N��.h�^8~8z�N8�8).K��8N8�iY�8�8(�8�8~8�8�8�8i��K��8�y����8).{i�88(�8(�8(�8(�8nX��88(�ZNY�8�8(.K��8n8.�z�X�^���8~8�8y��h��8�z�N8�8(�8(�8(�8(�8n�:�YX�8(Ny��8NK�>8~8).X�8�8(�hH�Y>8�8�8(�8" ��8	��[�n8	8�b�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.k�NX�~8;�i�yK�8iY��+.8��.h�^8�����iJ�h�N8�8�8~K��8n8.K����y�N8�8�h	�8NX{�8^8�8(�8�yJ�k9^8�&V֖�B8��x�8�8(�8�8y����8(N��X�^8).8�8�ZN8~[�^8�X{�8�Y�Y�>8�h
+~�:�8�[�~8N8" ��8	ih~k9^898+�8;�8;>8	&��B6��V��^���K��8�y����8�X��8���8).X{�8����&��B6��V��Rv�F�8�v�&B�VW7F�������N8����8����8;��:�YX�8;�89.8;>88�8�8~K��8).K�>8����&��B6��V��Rf�"8���7vW"�FWF��8����K��8�z�N8�8;���>{K8).��8n8(�8nK�>8����&R&��FVN���K�>8^8(�8ny����8�8(����&��B6��V��RF�6�6��WF���~���K��8�8	�8���8�8(�8(�8nK�>8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&��B�7F�" �yJ��	C�K�>XJ�8�[��8(�8�8�8(�8^8).��8�8(�8(�8n8���X��)n8�8�8�8(�����8).K��8�8(�8" �K賢F�R&��FW"&��FVBF�R7F�"v�V��R֗76VB��2Ɩ�R� ���3�K�>XJ�8�8�8(�8^8).[��8(�8�8�8�889~8:�8;>89~8+�8;�8�X��8���8).X{�8~8�8" ��8;�&��B6��V��Rv�F�8�VW7F���8� �yJ��	C�y�Nh�^z�N8�8).zK�8^8�8�:�YX�8).h��h�8�8(�8�8~8ny��h��8�y����8).[�^8�X{�8�8" �K賢F�RFV6�W"&��FVB��v�F�6���W"VW7F���� ���3�XX�yI�8�88(�8(�{
+Xَ8��:�YX�8).8~8n89�8:N8�y����8).K�>8~8�8" ��8;�&��B6��V��Rv�F�8�v�&B�Ɩ�^8� �yJ��	C�[��8(�8�Xَ���8(N8�8(�8^8�K��:�8).K��8�8y��h��8�{i�88(�8(�8(�8(�8n8�8�8(�8" �K賢�&��FVBF�R6���Bv�F�F�Rf�'7Bv�&B�bF�R6V�FV�6R� ���3�zx8�8�8�Z�8�ih~8�i�X��8�Xَ���8).zK�8~8n8{i�8�8).��8�8(�8(�8n8�8~8�8" ��8;�&��B6��V��Rf�"8���7vW"�FWF��8� �yJ��	C�y��h��8�z�N8�8(N��>8~8Nh8^Z8).X{�8�8(�8n8�:�YX�8(NK�>8~8).�x�8�8(�8" �K賢F�R��FW'f�WvW"&��FVBF�Rv�F�W72f�"��&RFWF��2� ���3���.h�^Z�8����K��8�8^8(�8���>8~8N���i��8).k.8(8�8" ��8;��fRF�&R&��FVB �yJ��	C��z�X�n8�8(�8�y����8~8�8�8��8�8�K�>8~8�[�^�h88>8�8>8�8).��8�8" �K賢F�R�W'f�W27GVFV�B�BF�&R&��FVB&Vf�&Rv�f��rF�R�7vW"� ���3�8�8�{x�[�^8~8�yI�[�.8�8z�N8�8).��8nX��8�K�>8~8n8(.8(�8n[�^�h8�8.8>8�8" ��8;�&��B6��V��RF�6��F��VR �yJ��	C��	NK��8~j�.8�8>8�y�����^8(N���^8�8j�8��8).h	�8NX{�8~8n{i�88(�8(�8(�8(�8nX��88(�8" �K賢V�WB���B&��FVBF�R7V�W"F�6��F��VR� ���3�[�8^8�89.8;>88�8�8���^8�{i�88(�X��88�8�8>8�8" ��8	���k9^8;�k:�hH�8	8>8�yJ�k9^8�&��B6��V��RF�F�8�8��X�^8�X��Y�8).��8�8(����{�N8�[�.8�Y�8�8~8(.88�[��8(�8�y����8).X��88(�8�8�8N8nih~�H�8~�z>�x�8^8(�8(�8.K�>XJ�8�8�8(�8^8).K��8N8�iY�8�8(�8�8N8n8(�8(�8j�8�8(Nh��h�8�8(�8).K��8�8(�8�8�K��[�>8~8.8(�8'&��B6��V��Rv�F�8�6��WF���~8�8�h��h�8�8(�8�Xh^Z�8).zK�8~8&��B6��V��Rf�"8�6��WF���~8�8�y��h��8�8(�z�N8�8;�h8^Z8).[�^8�X{�8�8n8�8�8(�8'&V֖�B8����hkn8).Y�8>h��8�K���Ί��8~8[�^8�8~8(.8�8�ZN8�y����8).K�>8�8�8���8(�8�8N8" ��8	��{꞊��8	��8;�7VR �Z�{ꓢj�8���8n8>8�8(N��8n8>8�8).y�^8(�8�8(�Y�Y�>8).K��8�8(�8" ���[�c�8�r�8� ��^8C�7VR8����X�K��8�Y�Y�>8(N��X�^�h�Zx�8�K�X�~8�8N8njx��
+8�xJnx+�8�8.8(�8'&��B8�[��8(�8�����8).X�>�
+�8~�9�8n88�8�8��:�YX�8~y����8).[�^8�X{�8�X8�8�8).��8�8" �K賢F�R7FvR��vW"7VVBF�R7F�"F�V�FW"� ���3����X�y�>y�>8�K�>XJ�8�y��ZN8�Y�Y�>8).X{�8~8�8" ��8;�&V֖�B �Z�{ꓢ[��8(�8n8N8�h8^Z8(NK��Z�8).h	�8NX{�8^8�8(�8" ���[�c�8���8� ��^8C�&V֖�B8����hkn8�Y��[�XZ����8).��8~8&��B8�8�8�ZN8~����8(Nz�N8�8).X{�8�8(�8(�8nh��h�8�8(�8).K��8�8(�8>8�8�xJnx+�8�8.8(�8" �K賢�V6R&V֖�B�RF�6��F�R6Ɩ�2F���'&�r� ���3�i��iz^8�8�y�.h�8������8�8(�8(�8n8zx8�h	�8NX{�8^8�8n8�88^8N8" ��8;���r6��V��Rw2�V��'� �Z�{ꓢh��h�8�8(�8�8(�8>8nK��8�hkn8).���8�Y�8>�[~8>8�8" ���[�c�8�b�8� ��^8C���r8�Z��XZ�8�h	�8NX{�8�8�8�8>8����hkn8).8���8NX��k�8~h	�8NX{�8^8�8(�8�888���x��8~8.8(�8'&��B8��:�YX�8(N8�8(�8^8�9�X��8�8N8n��x+�8�8(.K��8n8" �K賢F�R��B��F�w&���vvVBג�V��'�� ���3�8�8�X�N8NXi�y��8�zx8�hkn8).Y�8>�[~8>8~8�8" ��8;�VƖ6�B �Z�{ꓢ�:�YX�8;�X8�8�8�88�8(�8>8nz�N8�8X��[��8h8^Z8�8�8).[�^8�X{�8�8" ���[�c�8�b�8� ��^8C�VƖ6�B8�K�^8�8).y��h��8�8(�X{�8^8�8(�{Yi��8�xJnx+�8�8.8(�8&��B8�y��h��8�X{�8�8(�8(�8nh��h�8�8(�8).K��8�8(���x+�8).X[~K�>y�N8���8~8(N8�8N8" �K賢F�R7W'fW�VƖ6�FVB���W7B6���V�G2g&��'F�6��G2� ���3�8�8�i��8�X�.X��^8�8(�x�~y�N8�8+>8:8;>88�8).[�^8�X{�8~8�8" ��b�8	X��z�~Yފ��8;�k�NX�~8�8�8	8�8(�8^8�Y�Y�>8X��8���8h	�8NX{�8^8�8(�������8	iz^i�Ί�>8;�Z�{�8	K�>XJ�8(N���^8�j�8���8n����8).[��8(�8�8�8�8�8X�^8�K��8�8(�K��8�8(�8(�8(�Xَ���8;�X�^8;�Y�Y�>8).��8�8.8�8>8�8(�[�>8�8>8n8Z�n{�.�^8(Ny�����^8�z�N8�8).{i�88(�8�8(8�y��8Nh��h�8�8(�8;�X��8���8�8(.K��8n8.ZI�8�8�ZNY�8K�^8(�8�8�y����8(N��X�^8).8�8�ZN8~[�^8�X{�8�X[~K�>y�N8�8�8>8�88~8.8(�8" ��8	��[�n8	8�R�8� ��8	8:�8+�8+�8+�8;���	�Y��8	k�NX�~8~8�[.�hy�N8�j��k�n���8.iY��+.8y����8��.h�^8~8�8�89.8;>88�8;�K�>8~8�8�hH�Y>8~K��8n8.K����y�N8���.��ih~8(D�8�8�h�~zK�8).��8�&��B8�8�8h��h�8�8(�8�X�~8h��8�yJ��	N8�y[8�8(�8" ��8	ih~k9^898+�8;�8;>8	v�fR6��V��R&��N���K��8�X��8���8).X{�8�����VVB&��N���K�>8~8;�89.8;>88�8�[�^�h8~8.8(����v�F�&��Bg&��6��V��^���8	�8�8(�8�K�>8~8).X�~88n���&��Bg&���fg7Fv^��ވ��X��)n8�8(�8�8�8(�8^8�Y�Y�>���fW&&�&��N���X�>�
+�8�K�>8r ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�v�fR6��V��R&��B �yJ��	C�[��8(�8�8�8(�8^8(Nz�N8�8).{i�88(�8(�8(�8(�8n8y��8Nh��h�8�8(�8).K��8�8(�8" �K賢F�R7F�"��7B�W"�6R�Bv2v�fV�&��Bg&��&6�7FvR� ���3�8�8�K�>XJ�8�8�8(�8^8�K��{��8).�h�ZK8N8���X��8�8�8(�X��8���8).X{�8~8n8(.8(�8>8�8" ��8;��VVB&��B �yJ��	C�z�N8�8(Ny����8).h	�8NX{�8�8�8(8�8[	8~8�h��h�8�8(�8�[�^�h88���8�8(�8" �K賢����rF�R�7vW"�'WB��VVB&��BF�&V�V�&W"F�RW�7Bv�&B� ���3�z�N8�8�X�n8�8>8n8N8(�8�8j�>z+�8�Xَ���8).h	�8NX{�8�8�8�89.8;>88�8�[�^�h88" ��8;�&��Bg&���fg7FvR �yJ��	C����X��)n8�8N8(�K��8�8(�8K�>XJ�8�8�8(�8^8).K��8�8(�8>8�8).��8�8" �K賢6�R&V6�fW&VBgFW"&V6V�f��r&��Bg&���fg7FvR� ���3�[��Z[>8����X��)n8�8(�X��8���8).X{�8~8n8(.8(�8N8z��8ny�N8~8�8" ��8;�fW&&�&��B �yJ��	C�K��jZ�8(Ny����8).�h�Zx�8;�{i�{i�8�8(�8�8(8�X�>�
+�8�h��h�8�8(�8).��8�8" �K賢F�R6���B6���WFVBF�RF6�gFW"fW&&�&��B� ���3�8�8�Z�8�8(.8�X�>�
+�8~K�>8^8(�8(�8���.��8).{X.8�8�8" ��8;�F�R&��Bg&��6��V��R �yJ��	C�y��h��8�8(�K��8�8(�8(�8�h��h�8�8(�8).X�~88n8y����8(N��X�^8).{i�88(�8" �K賢F�R7V�W"F���&��Bg&��F�R��FW&F�"�B�7vW&VBF�RVW7F���� ���3����^8�X��Kɮ�^8�K�>8~8).X�~88n88�8�:�YX�8�z�N8�8�8" ��8	���k9^8;�k:�hH�8	8>8�Yފ��8��	�[��X��z�~8~8&��N8F�R&��N8&��G28�8(�8n8�K��8n8.k�NX�~8�&��B8�K�>XJ�8�[��8(�8�8�8(�8^8).�9�8nY�Y�>8~8.8(�8���X�8�y��ZN8�8(�8�8>8�8XZ����8).h�~8�7VR8�Z��XZ�8�8�Y�8�8~8�8N8&&��Bf�"�W76�8�8(�8n8�8Ί�.��8;�YX�8N8�8����{�~8yK���.8���zK�8^8(�8(�XZ^X��[�^88�X�~8����{꓎8~8.8(�8.Y�8�&��B8~8(.8��8�y����8;���X�^8).8�8�8(�8n8�[�^8�X{�8�8�8~hH�Y>8).X�n88(�8" ��8	��{꞊��8	��8;�7VR �Z�{ꓢj�8�y����8;�X�^K��8;�y��ZN8�8�8).y�^8(�8�8(�Y�Y�>8" ���[�c�8�r�8� ��^8C�7VR8�k�Nh�8�h�Zx�8(NK�NK�>8).y�^8(�8�8(�K�X�~8�[�>8�K��8n8'&��B8�[��8(�8�8�8(�8^8(Nz�N8�8).�9�8nh��h�8�8(�8).h�~8~8(N8�8N8" �K賢F�RƖv�F��r6��vRv2F�R7VRf�"F�RF�6W'2F���fR� ���3�xZ~i��8�ZH�X�n8�888;>8+^8;�8�88�X�^8�Zx�8(8(�Y�Y�>88>8�8" ��8;����B �Z�{ꓢz�N8�8(N�z>k�ik�k9^8).y�Nh�^��8(�8�8�zK�8�h��h�8�8(�8" ���[�c�8���8� ��^8C����B8�YX��Ίz>k�8�8�8(8�h��h�8�8(�XZ����8~8&��B8(�8(�[�>8N8'&��B8�y����8(N��X�^8).{i�88^8�8(�8�8(8�X[~K�>y�N8�K�>8~8).��8�8" �K賢F�RFV6�W"vfRW2���B��7FVB�bF�RgV���7vW"� ���3�XX�yI�8�Z��XZ�8�z�N8�8~8�8�8�89.8;>88�8).8�8(�8�8" ��8;�&V֖�FW" �Z�{ꓢ[��8(�8n8N8�8>8�8).h	�8NX{�8^8�8(�8(.8�8" ���[�c�8���8� ��^8C�&V֖�FW"8�K��Z�8;�{�X��8;�h8^Z8).h	�8NX{�8^8�8(�8(.8�XZ����8).h�~8�8'&��B8�8�8�ZN8~y����8;���X�^8).[�^8�X{�8�y��8NY�Y�>8�xJnx+�8�8.8(�8" �K賢F�R6�V�F"�W'Bv2W6VgV�&V֖�FW"� ���3�8*�8:�8;>888;�8�	�y�^8�[۞8�z��8N8:�89�8*N8;>888;�88>8�8" ��r�8	X��z�~Yފ��8	y��h;>8;�Y��z�N8).[�^8�X{�8�YX�8N8��.��8h�~zK���8	iz^i�Ί�>8;�Z�{�8	K��8�ih~z�8).i��8�8�8�8(�8hH��h�8).��8�8^8�8�8(�8�>8�8).y��[^8^8�8�8(�8�8(�8�8(8�K��8�8(�YX�8N888n8;�89�8yK�X8�8h�~zK�8).��8�8.[�^8�yiYX�ih~8~8.8(�[�^�h8�8�8�8k.8(8(�Xh^Z�8�inx+�8[�.[��8).h�~Z�8�8(���.��ih~8("&��B8�8�8(�8.Xَ8�8(�����8�Y�X��8(�8(�8K�^8(�8�8�[��z�N8).[�^8�X{�8�X8�8�8�[�~8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	iY��+.8K��ih~8z	Nz�n88:�8;�8*�8+~8:~88>89~8��.h�^8Kɮ��8�8�8~[�>8�K��8n8'w&�F��r&��N8W76�&��N8F�67W76���&��B8�Z�y�[�n8Κ��8N8" ��8	ih~k9^898+�8;�8;>8	&W7��BF�&��N��ފ�.��8;�YX�8N8�z�N8�8(����&��Bf�"8�w&�F��r�F�67W76����&Vf�V7F���8����8�K��ih~8;�����n8;�Xh^y�8�8).K�>8���.�����W6R6��WF���r2&��N���8	�8).8�8>8�88;���i�8�8~8nK��8n���&��BF�B6�26��V��RF�F�6��WF���~���K��8�8	�8�8(�8(�8nk.8(8(�h�~zK�ih~���w&�FR��7vW"F�F�R&��N��ފ�.��ih~8�8�z�N8�8).i��8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�w&�F��r&��B �yJ��	C�ih~z�8).i��8�Zx�8(8(�8�8(8�8��i�8;��inx+�8;�i�K�n8�8�8).K��8�8(���.��8).��8�8" �K賢F�Rw&�F��r&��B6�27GVFV�G2F�FW67&�&R�6RF�B6��vVBF�V�� ���3�8�8�K��ih~��.��8�8�z�X�n8).ZH�8�8�ZNh�8).���i��8�8(�8(�8nyI�[�.8�k.8(8n8N8(�8" ��8;��W76�&��B �yJ��	C�[���nih~8(N��n��>8~8��n8�8(�8�8�YX�8N8;���.��ih~8).��8�8" �K賢&VBF�RW76�&��B6&VgV�ǒ&Vf�&R6���6��r��W"&wV�V�B� ���3���nx+�8).��8nX��8�8[���nih~8.��ih~8).k:�hH�k{8����8�8�8^8N8" ��8;�F�67W76���&��B �yJ��	C�Kɮ��8(Nh�jZ�8~8X�.X��^8�8(�hH��h�8(N����n8).[�^8�X{�8�YX�8N8).��8�8" �K賢F�RFV6�W"�V�VBv�F�F�67W76���&��B&�WBG'W7B� ���3�XX�yI�8�K���8�8N8N8n8����n8).K�>8�YX�8N8�8(�h�jZ�8).Zx�8(8�8" ��8;�&W7��BF�&��B �yJ��	C���.��ih~8(NYX�8N8�Z��8~8n8ih~z�8;�y����8;�K��Y88�8�8�[�.8~[��z�N8�8(�8" �K賢V6�'F�6��B&W7��FVBF�F�R&��B��F�&VR6V�FV�6W2� ���3�X�.X��^8�8�8(�8�8(�88�8�YX�8N8�>ih~8~z�N8�8�8" ��8;�W6R6��WF���r2&��Bf�"6��WF���r �yJ��	C�Xi�y��8{XΚ�>8��>j[�8�8�8).8y��h;>8(Nih~z�8).yI�8(8�8>8�88�8~8nK��8n8" �K賢6�RW6VBF�R��F�w&�2&��Bf�"6��'B7F�'�� ���3�[��Z[>8�8�8�Xi�y��8).y��{z�[����8).i��8�8�8>8�88�8~8�8" ��8;�7&VF�fR&��B �yJ��	C��z�yK8�y��h;>8(NX�^K��8).Zx�8(8(�8�8(8�X��k�8;���.��8).��8�8" �K賢F�R'F�7BG&Wrg&��7&VF�fR&��B&�WBf�&v�GFV��&�V7G2� ���3�8�8��>Z�n8�8[��8(�8(�8(�8�x��8�8N8N8n8�X�^K�Ί�.��8�8(�y��h;>8).[�~8�8" ��8	���k9^8;�k:�hH�8	&��B8��:�YX�8�8�8(.8�888~8�8�8Y��z�N8�ik�Y	8(N[�.[��8).Y
+�8(��.��ih~8(.h�~8�8&�7vW"VW7F���8�&W7��BF�&��B8��x�8�8(�8�8&��B8�8�8�8>8�i�K�n8;��inx+�8~K�^8�8).K��8(������8�8(�8�8�8N8n���y��8�X8�8�8�X{�8(N8�8N8&W76�&��B8�[���nih~8��Y�888~8�8�8�8K�^8).��n8�8(�8�8�8�8).zK�8����YX�XZ�K�>8).h�~8�8>8�8�ZI�8N8.���{�n8�&��B8�[��8(�8�����8).X��88(�y��8NY�Y�>8���{�~8��H~i[8�Y��z�N�^8�8(�h	ވ>8(Nih~z�8).[�^8�X{�8���.��8~8.8(�8" ��8	��{꞊��8	��8;�VW7F��� �Z�{ꓢh8^Z8hH��h�8X�Nij�8�8�8).k.8(8(�yiYX�8;�YX�8N8" ���[�c�8��8� ��^8C�VW7F���8�z�N8�8).k.8(8(�YX�8N8�xJnx+�8�8.8(�8'&��B8�yiYX�ih~8~8�8�8n8(.8ih~z�K��h�8(NX�^K��8).ik�Y	8^88(�h�~zK�8;�X��k�8�8�8(�8(�8" �K賢F�R��FW'f�WvW"6�VBF�ff�7V�BVW7F���� ���3���.h�^Z�8���>8~8N�:�YX�8).8~8�8" ��8;�7F��V�W2 �Z�{ꓢX��[��8h	ވ>8kK�X�^8).[�^8ދ[~8>8�X��k�8" ���[�c�8�b�8� ��^8C�7F��V�W28�[�>yn8;�yI�yn8;�{X�k��8�8�[�^[�>8NX��k�8).h�~8�8'&��B8�Y��z�N8(NX�^K��8).[�^8�X{�8�8�8(8�hH�Y�>y�N8�K��8�8(�8(�8�YX�8N8;���.��8).h�~8~8(N8�8N8" �K賢F�RW���&�F���&�f�FVB7F��V�W2f�"�Wr&W6V&6�� ���3�8�8�[^�j~Kɮ8�ik8~8Nz	Nz�n8�8�X��k�8�8�8>8�8" ��8;�76�v��V�B �Z�{ꓢZ�n{�.8(NK�^K��8�8�8(8�X�.8(�[�>8n8(�8(�8���.��8" ���[�c�8���8� ��^8C�76�v��V�B8�h�X{�8;�Z��K�n8�8�8�K�^K��XZ�K�>8).h�~8�8'&��B8�8�8.��8�K��8~8Y��z�N8).[�8�YX�8N8;�h�~zK�ih~888).h�~8�ZNY�8�8.8(�8" �K賢F�R&VF��r76�v��V�B�2GVR��g&�F�� ���3����i����.��8�h�X{�i����8��yi��iz^88" ��8;�7VR �Z�{ꓢy����8(N��X�^8).[�^8�X{�8�Y�Y�>8;�8�8>8�88" ���[�c�8�r�8� ��^8C�7VR8�j�8��X�^8).y�^8(�8�8(�K�X�~8�xJnx+�8�8.8(�8&��B8�h	ވ>8;�K��ih~8;�����n8�Xh^Z�8).[�^8�X{�8�YX�8N8(N��.��8).��8�8(�8" �K賢F�R��F�w&�v27VRf�"6���F���B�V��'�� ���3�8�8�Xi�y��8�Z�8�8(.8�8>8(�8�hkn8).Y�8>�[~8>8�8�8>8�888>8�8" ����8	X��z�~Yފ��8;�8+>8;>89N8:^8;�8+�8;�8	XZ^X��8).K�>8���zK�88+>89�8;>88�89~8:�8;>89~88���8	iz^i�Ί�>8;�Z�{�8	8+>8;>89N8:^8;�8+�8;�8�yK���.8���zK�8^8(�88+~8+�88n8:8�XZ^X��8).X�~8K��88(�8(�8(�x�nhX�8~8.8(�8>8�8).zK�8����X�~8;�ih~Z�~X�~88�8�8�X��yJ��^8�898+�8:�8;�88�8�8�8�XZ^X��8).K�>8�8:88>8+�8;�8+�8).��8�8'&��B�z�K�>8�XZ^X��8�8(�8+>89�8;>88�8(Nz�N8�8~8�8�8�88�8(�8).XZ^X��8�8(�8(�8nK�>8���zK�8~8.8(�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8+>8;>89N8:^8;�8+�8;�yJ����8&6����B&��N86�V��&��N877v�&B&��N8��v��&��B8�8�8~K��8n8.iz^[��y�N8�8*.89~8:�yK���.8�XZ^X���hk.8�8(.K��8�8(�8�8�8�8�h�~zK�ih~8�8�X�^8�yJ�k9^8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	BF�R6����B&��N���8+>89�8;>88�89~8:�8;>89~88�K��8~���F�7���6��r&��N���XZ^X��8).K�>8���zK�8).X{�8����V�FW"6��WF���rBF�R&��N���89~8:�8;>89~88�8�8	�8).XZ^X��8�8(����&��Bf�"8�77v�&B���WN8����898+�8:�8;�88�8;�XZ^X��8).K�>8���zK����&WGW&�F�F�R&��N���XZ^X��[�^88��zK�8�h��8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�BF�R6����B&��B �yJ��	C�8+>89�8;>88�XZ^X��8).[�^8Nz��iʾyK���.8~i8�K��8�8(�8>8�8).��8�8" �K賢BF�R6����B&��B�G�RF�Rf��R��R�B&W72V�FW"� ���3�8+>89�8;>88�89~8:�8;>89~88�8~89^8*8*N8:�Y�8).XZ^X��8~8V�FW.8*�8;�8).h��8~8n8�88^8N8" ��8;�77v�&B&��B �yJ��	C�898+�8:�8;�88�8�XZ^X��8).k.8(8(�yK���.K��8��zK�8).��8�8" �K賢F�R&�w&�F�7��VB77v�&B&��B&Vf�&R�V��rF�Rf��R� ���3�8�8�89~8:�8+8:�8:8�89^8*8*N8:�8).�h�8�X��8�898+�8:�8;�88�XZ^X��8).��zK�8~8�8" ��8;�6VRF�R&��B �yJ��	C�8+~8+�88n8:8�XZ^X��8).X�~8K��88(�8(�8(�x�nhX�8�8�8>8�8>8�8).zK�8���zK�8).z+����8�8(�8" �K賢v�V���R6VRF�R&��B�V�FW"�F�6��F��VR� ���3�89~8:�8;>89~88�8Ί�zK�8^8(�8�8(�8{i���8�8(�8�8(8��8).XZ^X��8~8n8�88^8N8" ��8;�V�FW"6��WF���rBF�R&��B �yJ��	C���zK�8^8(�8�XZ^X���hk.8�Z��8~8nX
+N8(N8+>89�8;>88�8).XZ^X��8�8(�8" �K賢V�FW"��W"W6W"��RBF�R&��B� ���3�89~8:�8;>89~88�8�8:n8;�8+n8;�Y�8).XZ^X��8~8n8�88^8N8" ��8;�&WGW&�F�F�R&��B �yJ��	C�8+>89�8;>88�8�Xznyn8�{X.8(�8(�8j�8�XZ^X��8).X�~8K��88(�x�nhX�8�h��8(�8" �K賢F�R6�V��&WGW&�VBF�F�R&��BgFW"F�R6����Bf��6�VB� ���3�8+>89�8;>88�8�Xznyn8�{X.8(�8(�8�88+~8*~8:�8�XZ^X��[�^88��zK�8�h��8>8�8" ��8;�F�R8�B��8�&��B �yJ��	C�8+~8*~8:�8�8�8~8XZ^X��[�^88).zK�8�x��Z�8�X�~8).��8�8" �K賢F�RB&��B��F�6FW2F�BF�R6�V���2&VG�f�"6����B� ���3�N89~8:�8;>89~88�8�88+~8*~8:�8�8+>89�8;>88�8).X�~8K��88(�8(�8(�x�nhX�88�zK�8�8" ��8	���k9^8;�k:�hH�8	6����B&��B8�8XZ^X��[�^88�X�~8).h�~8�ZNY�8�8v��F�w>8�8+>89�8;>88�8:�8*N8;>y+Z(>8�8�8(.8�8).h�~8�ZNY�8�8.8(�8.8�88(�8~8(.8&��B8�X��yJ��^8�XZ^X��8�8(�6����B8�8�8(.8�8~8�8�8N8&&��Bf�"77v�&B8�XZ^X��8).k.8(8(���zK�8&��BF���8��8�k�8�h�~zK�ih~8~8.8(�8X�ވ^8�yK���.8�hk.8[�Έ^8�X��yJ��^8�K��8(�XZ^X��8�8N8n�^8N8�8.8(�8.X��z�~Yފ��8�8�8~8x��Z�8��zK�8�8�F�R&��N8X�X�^8�XZ^X���hk.8�8�&��B8�8�8(�8" ��8	��{꞊��8	��8;���WB&WVW7B �Z�{ꓢX��yJ��^8�88~8;�8+�8(Nh�~zK�8�XZ^X��8).k.8(8(���zK�8;��hk.8" ���[�c�8�R�8� ��^8C���WB&WVW7B8��hk.Xh^Z�8).���i��8�8(�K����y�N8�X�^8~8&��B8�8(�8n8�z��iʾK��8�X�~8(NXZ^X��[�^8x�nhX�8�8~Y
+�8([.�hyJ�k9^8~8�8�8N8" �K賢F�Rf�&�F�7��VB���WB&WVW7Bf�"F�R66�V�B�V�&W"� ���3�8�8�89^8*�8;�8:8�X�>[�~yZ�X�~8�XZ^X��8).k.8(8�8" ��8;�6����BƖ�R �Z�{ꓢ8+>89�8;>88�8).ih~Z�~8~XZ^X��8~8n8+>8;>89N8:^8;�8+�8;�8).i8�K��8�8(�8*N8;>8+�8;�89^8*~8;�8+�8" ���[�c�8�r�8� ��^8C�6����BƖ�R8�i8�K��y+Z(>8;�ik�[��8).h�~8~8&��B8�8�8�y+Z(>8~XZ^X��8).K�>8���zK�8).h�~8�8" �K賢F�RF���6�&R'V�g&��F�R6����BƖ�R� ���3�8�8�88N8;�8:�8�8+>89�8;>88�8:�8*N8;>8�8(�Z����8~8�8(�8" ��8;���F�6F�" �Z�{ꓢx�nhX�8(NX��yJ�X���;�8�i8�K��8).zK�8���zK�8" ���[�c�8���8� ��^8C���F�6F�"8�x�nhX���zK�K����8).h�~8�8'&��B8�x��8�8X��yJ��^8�j�8�XZ^X��8(N[��z�N8).K�>8���zK�8~8.8(�8" �K賢w&VV���F�6F�"6��w2F�BF�RFWf�6R�26���V7FVB� ���3�{y8��zK�8�j��Y��8�h�^{i�8^8(�8n8N8(�8>8�8).zK�8�8" ����8	X��z�~Yފ��8;�8+>8;>89N8:^8;�8+�8;�����8	�8�K��8�8(�h�~zK�ih~8XZ^X����8	iz^i�Ί�>8;�Z�{�8	yI�h��8�8�8�8+~8+�88n8:8�Z��8~8K�^8).K��8(�8�88�8�i�K�n8~z�N8�8(�8�88�8�[�.[��8~X{�X��8�8(�8�8).K��8�8(�ih~z�8;��:�YX�8;�h�~zK�8).��8�8.y��8NYX�8N8�8(�8�8�i��8X�n{HN8X{�X��[�.[��8).{XN8�Y�8(�8�8��[~8NXZ^X��8�8~Y
+�8(8'&��B8��8΋�N8~8�ih~z�8;�yK�X8�8�8�8(.8�8~8�8�8�88�8(�8).[�^8�X{�8�8�8(8�X��yJ��^8�K��8�8(�XZ^X��8~8.8(�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8+>8;>89N8:^8;�8+�8;�8yI�h��8�z�xKn�����Xznyn8iY��+.8;�jZ�X��8�ik8~8NyJ�k9^8.K����8�h��>���K��8(NKɮ��8~[�>8�8>8n8N8(�8�8�K�^ZIn8~8����{�n8	Î8�hH�Y>8(.j�8(�8" ��8	ih~k9^898+�8;�8;>8	w&�FR�V�FW"&��N���89~8:�8;>89~88�8).i��8�8;�XZ^X��8�8(����v�fR��&��N����8�89~8:�8;>89~88�8).K��8�8(����&��Bf�"8�F6�8����8	�yJ�8�h�~zK�ih~���&��BF�B6�2F�R7�7FV�F�F�6��WF���~���8+~8+�88n8:8�8	�8^8�8(�h�~zK�ih~���&��BV�v��VW&��~���89~8:�8;>89~88���ފ��8;�iK�YhB ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�w&�FR&��B �yJ��	C��8�8(�iɾ8�8~8NX{�X��8).[�~8(�8�8(8�h�~zK�ih~8).K��h�8�8(�8" �K賢w&�FR&��BF�B7FFW2F�RVF�V�6R�BF�RFW6�&VBf�&�B� ���3�h;>Z鮊�ވ^8�iɾ8�8~8N[�.[��8).i��8~8�89~8:�8;>89~88�8).i��8�8�8^8N8" ��8;�V�FW"&��B��F�8���FV��F���8� �yJ��	C��8+~8+�88n8:8(NyI�h�88N8;�8:�8�h�~zK�ih~8).XZ^X��8�8(�8" �K賢6�RV�FW&VB&��B��F�F�R��vRvV�W&F�"F�&WVW7BvFW&6���"7G��R� ���3�[��Z[>8�kN[ڞyK��*�8).k.8(8(�89~8:�8;>89~88�8).yK�X8�yI�h�88N8;�8:�8�XZ^X��8~8�8" ��8;�v�fR��&��B �yJ��	C��8��:�YX�8;�h�~zK�8;�i�K�n8).k�8~8[��z�N8(NyI�h�x��8).k.8(8(�8" �K賢�RvfRF�R�&��B6���rf�"F�&VR�FW&�F�fRF�F�W2� ���3�[��8��8�8��Y�8)#>j�X{�8�8(�8nk.8(8(�89~8:�8;>89~88�8).K��8�8�8" ��8;�&��Bf�"8�7V��&����r�G&�6�F��r�����~8� �yJ��	C�x��Z�8�K��jZ�8)$�8�8^8�8(�8�8(8�XZ^X��ih~8).��8�8" �K賢6�RFW7FVB6WfW&�&��G2f�"7V��&����r�VWF��r��FW2� ���3�[��Z[>8�Kɮ��8:8:.8).�h{HN8�8(�8�8(8�89~8:�8;>89~88�8).8N8�8N8���n8~8�8" ��8;�&��BV�v��VW&��r �yJ��	C�h�~zK�8�jx�h�8(Ni�K�n8).���i[N8~8�8�X{�X��8).iK�YhN8�8(�K��jZ�8;�ik�k9^��n8).��8�8" �K賢&��BV�v��VW&��r�gFV���f��fW2FW7F��rF�ffW&V�B��7G'V7F���2�BW���W2� ���3�89~8:�8;>89~88�8*�8;>8+�88�8*.8:�8;>8+8~8�8y[8�8(�h�~zK�8(NK�8).��n8�8>8�8�ZI�8N8" ��8;�&��BF�B7V6�f�W28�f�&�B�6��7G&��N8� �yJ��	C�X{�X��[�.[��8(Nzhj�.K���^8�8�8�i�K�n8).i��zK�8�8(�89~8:�8;>89~88�8).��8�8" �K賢&��BF�B7V6�f�W2F&�Rf�&�B6���RF�R�WGWBV6�W"F�6��&R� ���3���[�.[��8).h�~Z�8�8(�89~8:�8;>89~88�8).K��8n8�8X{�X��8).j�N��>8~8(N8�8�8�8(�8" ��8	���k9^8;�k:�hH�8	�yJ�k9^8�&��B8�8�:�YX�888~8�8�[۞X�.8�8�i��8X�n{HN8K�8X{�X��[�.[��8).Y
+�8(h�~zK�XZ�K�>8).h�~8�8(�8&��7G'V7F���8�K��8(Nj��j+8�K��8�8(�h�~zK�K����8VW'�8�h8^Z8).[�8�8(�jI�{J.8;��:�YX�8�xJnx+�8�8.8(�8&��B8�8+~8+�88n8:8�8(�x��Z�8�[��z�N8(NyI�h�x��8).[�^8�X{�8�XZ^X��8�8~8nK��8(�8(�8(�8'&��BV�v��VW&��r8�Xَ8�K�Z�~8���ih~8).i��8�8>8�8~8�8�8�8XZ^X��8�X{�X��8).��n��8~8�8�8(���ފ��8�8(�8>8�8).��8�8$�8�X{�X��8~8�{Yi��8)"&��B8�Y�88�8N8(�8n8�8�8(�8" ��8	��{꞊��8	��8;���7G'V7F��� �Z�{ꓢK�^8).8�8�8(�8n8���8n8�8).zK�8�h�~zK�8" ���[�c�8��8� ��^8C���7G'V7F���8�K���i>8(Nj��j+8�8�h�~zK�XZ����8).h�~8�8$�yJ�8�&��B8�8K��jZ�Xh^Z�8�X�8�8nih~�H�8;�X�n{HN8;�X{�X��[�.[��8).Y
+�8(XZ^X��8).h�~8�8>8�8�ZI�8N8" �K賢f����rF�R��7G'V7F���2��F�R67&VV�� ���3�yK���.8�h�~zK�8�[�>8>8n8�88^8N8" ��8;���WB �Z�{ꓢ8+~8+�88n8:8�K��8�8(�8(�8(�88~8;�8+�8ih~Z�~X�~8i8�K��8" ���[�c�8���8� ��^8C���WB8�88~8;�8+�8(Ni8�K��8).[�>8�Y
+�8(h��>yJ����8~8&��B8��z�xKn�����8~yI�h�8(N[��z�N8).ik�Y	8^88(�XZ^X��8).x��8�h�~8�8" �K賢F�R��FV�&�GV6W2F�ffW&V�B&W7V�G2g&��F�R6�R��WB� ���3�8�8�8:.88~8:�8�Y�8�XZ^X��8�8(�y[8�8(�{Yi��8).yI�h�8�8(�8" ��8;�VW'� �Z�{ꓢh8^Z8(N{Yi��8).k.8(8n8+~8+�88n8:8��8(��:�YX�8;�jI�{J.�hk.8" ���[�c�8���8� ��^8C�VW'�8�jI�{J.8;�88~8;�8+�89�8;�8+�xZ~Kɮ8�h
+~j�8�[�~8N8'&��B8��:�YX�8���8(�8�8ih~z�8;�yK�X8�8;�[�.[��8).h�~Z�8~8nyI�h�8^8�8(�h�~zK�8�8(.K��8n8" �K賢F�R6V&6�V�v��R&WGW&�VB��&W7V�G2f�"F�RVW'�� ���3�8�8�jI�{J.8*�8;>8+�8;>8�88�8�jI�{J.�hk.8�Z��8~8n{Yi��8).��N8^8�8�8>8�8" ��8;�&WVW7B �Z�{ꓢK�^8�8).8~8n8�8~8N8�8N8nK�ޚ�8" ���[�c�8��8� ��^8C�&WVW7B8�K�ޚ�8�Xh^Z�8;�hH�Y�>8�xJnx+�8�8.8(�8'&��B8��8+~8+�88n8:8�k�8�Z�����8�XZ^X��ih~8�88�8�jx�h�8;�i�K�n8).h�~8�h��>yJ����8�8�8>8n8N8(�8" �K賢F�RƖ6F���&�6W76VBF�RW6W"w2&WVW7B� ���3�8�8�8*.89~8:�8+8;�8+~8:~8;>8�X��yJ��^8�K�ޚ�8).Xznyn8~8�8 ����Р�2W'7VP����Ц�VGv�&C�W'7VP�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#`�WFFVE�C�##b���#`�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3����,��7\����Έ�������6�\��8#.��>z�8~8z��.��>z�8�K��[�~X�.8�8.8(�8.{>���8�z����>z�8�[�8B"��.8�8.8(����"�8�����8�[�8B����8.z��.��>z�8�{>���8��7\��8�����8��6�\��8~8�����8~8��2�8�[��8�[�8B���8�XZ^8(�8" �K��K��z{Xَi[W'7VW28�{2���,��7\���8;��������6�\���8��X�[�.8;���X�X�n���W'7VVB8�{2���,��7\�B�8;��������6�\�B�8֖�~[�"W'7V��r8�{2���,��7\���X��8;��������6�\���X��8.���iʾ8����8�iȞZ;��>8�[��8�8�8r�2�8~8�8�8����8�VB8��B�8�y����>8�8(�8.{kN8(�8~8�W'7VR8�֖�r8).K��88(�8����iʾ8�R8).��8�8~8bW'7V��r8�8�8(�8�8W'7VVB8~8�R8).j�8~8bW'7VVB8�{kN8(�8" ����>���k� ��W'7VR8�K�ވ����8).{X�8n88*.8;>8+8:�89^8:�8;>8+����8;�X�N89^8:�8;>8+����W'7W&R�W'6�W&R8�8(�XZ^8>8����8~88:�88n8;>���&�6WV�8�[��8�8(����8n8���8N{i�88(�8�8�8^8�8�8�8(�8'&��8�X��8�8��ȷ6WV�8�[�>8n8[��8).���8n8�8�8N8njx�h�8~8.8(�8" �8�X��8��.8�8�8�8(�Z��8�[��8).���8n8�8�8N8nj�8�8(�8x��yny�N8���ދz888~8�8�8y��j��8).���8Nk.8(8(�8>8�8���yK�8;�j�K�n8).{i�88n�.8(8(�8>8�8���hkn8(Nhh	n8����8(�8(�8(�8>8�8�hH�Y>8�[�>8�8>8�8" �Y�8�6WV�8΋��8n8;�{i�8�8�8�j�8��j.K�.8�8(����8�8~8n86WVV�6^8Θ
+>{i�8�n[��8�86WVV�8�{i�{z�8�87V'6WVV�N8�8�8�[��8�8�8�8�8�8.8(�8.8>8(�8(�8�W'7VR8�Xَ{IN8�h�^�
+ދ��kK�yI�8~8�8�8N8" ����>���[�.h� ��W'7VW28�K��K��z{Xَi[x��Yʎ[�.8W'7VVB8���X�[�.8;���X�X�n���8W'7V��r8�x��YʎX�n���8;�X�^Yފ��8~8.8(�8'W'7V��r8~8�W'7VR8�iʾ8�R8).��8�8�8�8y����>8����X��8).K�N8N8���iʾ8��>8).Xَ{IN8��X��8�{��8(8(�8(�88~8�8�8N8" �W'7VW"8�8΋�ދz�^8���k.�^8�8.x��yny�N8����8nK��888~8�8�8y��j��8;�Y�K��8;��j.K�.8�8�8).k.8(8(�K��8�8(.K��8�8(�8" �W'7V�B8�8΋�ދz8���k.8�j>Y>8;�kK�X�^8�8'F�RW'7V�B�b���W728�8(�8n8�h�ދy�N8����k.8�8����BW'7V�B8�8(�8n8�x��yny�N��ދz8�K�ik�8).��8�8" �W'7V�6R8�z�8NYފ��8~8΋��k.8�.��8�8.x��8���W'7V�6R�b8��h�X�~8;�y��y�N8;�k9^y�Nh��{i�8�8�8����8�[�>8>8n8���8).Z��x��8�8(�8�8(8�8�8�8N8nZ�Y�X�^8~K��8(�8(�8(�8" �W'7V�B8�z�8N[�.Z랊��8~8W'7V�BF�8��h�X�~8;�k9^[�8;�ZY{HN8�8����8�[�>8>8n8�8�8N8nk9^[�8;�XZ�ih~i��8��x��8).K��8(�8" ����>8+>8*.8*N8:8;�8+���W'7VR8�j�8�8Z��8�[��8).���8N8�8�8(�8X��8��.8�{i�88(�8>8�8.Z�����8��[8>8n���8nZNY�8�8(�8i�.�i>8).8�88ny��j��8;����yK�8;�j�K�n8).���8N{i�88(�ZNY�88^8(�8�8�K��Z�8(N���hkn8����8(�8(�8(�ZNY�8�8~8Z��8�8�j.K�.8).X�~8(�8�8��.8�{i�88(�hI��i�8�8.8(�8" �8;�K��8;�X�^x��8;�K�~8(�x��8�8�8�[��8).���8N8h�^8�8�8(�8n8�8�8(�(i"8΋�ދz8�8(�8;����8N8�88(�8��Ȏ���{��Ȓ �8;�y��j��8;�ZJ.8;��~jZ�8�8�8).Z��x��8~8(�8n8�8{i�{i�y�N8����8Nk.8(8(�(i"8΋��k.8�8(�8;�y��h�~8�8��Ȏ���{�.�Ȓ �8;����yK�8;�ik��y�8;�kK�X�^8;�j�K�n8�8�8).{i�88n�.8(8(�(i"8Θ.8(8(�8;����X��8�8(�8��Ȏ���{�>�Ȓ �8;��>zؾ8;�ik��y�8;���nyn8�8�8).8�8�8>8n�.8((i"8Θ.�z�8).X�n8(�8;�8�8�8(�8��Ȏ���{�N�Ȓ �8;�K��8�h�hI�8;�h
+~y�N8��j.K�.8).k.8(8nX8�8�8�8{i�88(�(i"8�X�>���8�8;�K�N���8).k.8(8(�8��Ȏ���{�^�Ȓ �8;����hkn8;�hh	n8;�{ڮh*�hI�8�8�8�K��8�8N8�8�8�8N{i�88(�(i"8Έ�n8~8({i�88(�8;����8N{i�88(�8��Ȏ���{�n�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	K�nX�^���8;���ދz8	K��8;�X�^x��8;�K�~8(�x��8�8�8).��ދz8�8(�8���8N8�88(���8	iz^i�Ί�>8;�Z�{�8	K��8X�^x��8���8�8�8�[��8).���8N8x��8�h�^8�8�8(�8���8N�h�8�8X	.8�8�8�8�y��y�N8~��ދz8�8(�8.Z�����8�	�[�n8(N�yޙ�.8).��8�8(�ZNY�8�8(.8��nZ��8;�Z�>8;�z�nh�8�8�8�j�NYj�y�N8���ދz8�8(.K��8n8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	K���Ί��8.x��{ڮZ�>8��nZ��88+�89�8;�88N8x��x��8x�����8~x��8�ZI�8N8.X�~8���8�&RW'7VVB'�8���ދz�^8�8(.���[��8��z�xKn8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	W'7VR8�K��8;�X�^x��8;�K�~8(�x��8�������8).��ދz8�8(����W'7VR8�Z��8�F�&�Vv��7&�728�ZNh�8����ZNh�8).�	�8>8n���8).��ދz8�8(����8�Z��8�&RW'7VVB'�8���ދz�^8����Z��8����8����8(�8(�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W'7VR7W7V7B �yJ��	C���nZ��8�8�8�Z�yi�^8).��ދz8�8(�8>8�8).��8�8" �K賢�Ɩ6RW'7VVBF�R7W7V7BF�&�Vv�6WfW&�6�FR7G&VWG2� ���3���nZ��8�K�^i��8(.8�H~�>8).�	�8>8nZ�yi�^8).��ދz8~8�8" ��8;�W'7VRf�VV��rfV��6�R �yJ��	C��>�[K��8�K�8).���8N8�88(�8>8�8).��8�8" �K賢�ff�6W'2W'7VVBF�Rf�VV��rfV��6�RV�F���B7F�VB�V"F�R'&�FvR� ���3���nZ�8�88��>�[���K�8).j��8��8�8~j�.8�8(�8�8~��ދz8~8�8" ��8;�&RW'7VVB'��Ɩ6R �yJ��	C���nZ��8���ދz8^8(�8n8N8(�x�nhX�8).��8�8" �K賢F�RG&�fW"v2W'7VVB'��Ɩ6RgFW"�v��&��rF�R&�F&��6�� ���3�8�8����.h��8��>�z�[��n8).xJ�in8~8�[��8��nZ��8���ދz8^8(�8�8" ��8;���FǒW'7VR8��>8.8(�X�^x��8;�x��K��8� �yJ��	C��>8.8(�Z��8).k�8~8�8Y�~h�~8���ދz8�8(�8>8�8).��8�8" �K賢F�RF�w2��FǒW'7VVBF�Rf��7&�72F�Rf�V�B� ���3�8�8�x��8�88��x�X��8).j��X�~8>8n8*�88N88�8).k�8~8���ދz8~8�8" ��8;�W'7VR&W� �yJ��	C�X�^x��8(Nx��x���^8�x�.x��8).���8n8>8�8).��8�8" �K賢F�Rv��fW2W'7VVBF�V�"&W�7&�72F�Rg&��V����� ���3�8*�8*�8*�89�8�88�Xx�8>8�[�>X��8).�h�8�8nx�.x��8).���8>8�8" ��8	���k9^8;�k:�hH�8	x��yny�N8���ދz8~8�8W'7VR8�Z��8).y�Nh�^y��y�N���8�X�n8(�8W'7VRgFW"8�8��	�[����8(�8�8N8&6�6R8��	�8����8N8�88(�X�^K��8).iz^[��y�N8���8�8�8�Z��8~8W'7VR8�{i�{i�8~8n��ދz8�8(�8>8�8(N8Z�>8;���nZ��8�8�8�z�8(8�X����8�Y	8�8.K��8)"W'7VR8~8�8�8(�8�8N8>8n8[�^8�h�^8�8�8�8>8�8(N��ދz8�h�X��8~8�8>8�8�8~8���8^8�8N8" ��8	��{꞊��8	��8;�6�6R �Z�{ꓢ�>8.8(�K��8;�X�^x��8;�x��8).h�^8�8�8(�8n8�8~8nh
+^8N8~���8N8�88(�8" ���[�c�8��8� ��^8C�6�6R8�iz^[��y�N8~�	�[�n8(N���8N8�88(�X�^K��8).y�Nh�^y�N8�zK�8�8'W'7VR8�{i�{i�y�N8���ދz8(Nz�8Nih~K�>8�8(.K��8N8(N8�8N8" �K賢F�R6���B6�6VBF�R&�����F�v�F�R7G&VWB� ���3�8�8�Z�8�8(.8��*����8).���8>8n�	�8(�8).�xn88n8N8>8�8" ��8;�f����r �Z�{ꓢK��8;�x��8�[��8�8N8N8n��8�8[��8).8�8�8(�8" ���[�c�8��8� ��^8C�f����r8�Xَ8�[��8).8N8N8n��8�8>8�8(.Y
+�8�8h�^8�8�8(�hH�Y�>8(N��ދz8�Y�~X��8).[�^8�8~8(.zK�8^8�8N8" �K賢6���&�Bf����vVBF�RfW''���F�F�R�&&�"� ���3�[�8^8����8�89^8*~8:�8;�8�[��8�8N8N8nk��8�XZ^8>8�8" ��8;�G&6� �Z�{ꓢ�k>�z8;�K��{��h8^Z8�8�8).h��h�8�8(�8�Z��8).��ދz8�8(�8" ���[�c�8���8� ��^8C�G&6�8�yy^�z8(Nh8^Z8).8�8�8>8nh�Yʎ8).z�8�j�.8(8(�ik�k9^8�xJnx+�8�8.8(�8" �K賢&�vW'2G&6�VBF�R��W&VB���F�&�Vv�F�Rf�&W7B� ���3�j:�i�~y�>�inY:8�88�88�8).8~8�X�^x��8).��ދz8~8�8" ��8	X��hH����8	��8;�f�VR �Z�{ꓢX����8(N��ދz8�8(��>8.8(�8" ���[�c�8�r�8� ��^8C�W'7VR8΋��8nXN8��X�^8�8�8�Z��8~8f�VR8����8(�8(�8(�XN8Θ>8.8(�8>8�8).��8�8" �K賢F�R7W7V7Bf�VB&Vf�&RF�R�ff�6W'2&V6�VBF�R'V��F��r� ���3�Z�yi�^8���nZ�8�88�[��x��8�y�8�X��8��>�[8~8�8" ��8;�WfFR �Z�{ꓢ��ދz8;�iK�i(>8;��*�K��8�8�8).[z~8�8���88(�8" ���[�c�8���8� ��^8C�WfFR8����8nXN8~8�8�8�8��ދz8(Nh�^h؞8).XX�8(�8(�XN8�hH�Y�>y�N8�Y���8�xJnx+�8�8.8(�8" �K賢F�RG&�fW"G&�VBF�WfFRF�RW'7V��r�ff�6W'2� ���3�8�8����.h��8���ދz8~8n8�8(���nZ�8�88).8�8(�8�8n8�8~8�8" ��"�8	K�nX�^���8;�y��j��8	y��j��8;�ZJ.8;��~jZ�8�8�8).���k.8�8(�8y��h�~8���8	iz^i�Ί�>8;�Z�{�8	y��j��8ZJ.8Z�nK��8�~jZ�8[��zh�8�8�8).Z��x��8;�x�.[�~8~8(�8n8�8~8n8i�.�i>8).8�88nX��X��8).{i�88(�8.Xَ8�j�.8~8N8�h	�8n8>8�8~8�8�8�8y��y�N8�Y	88n��X�^8~8n8N8(�8>8�8�xJnx+�8�8.8(�8" ��8	��[�n8	8��8� ��8	8:�8+�8+�8+�8;���	�Y��8	K���Ί��88�8(N8(N89^8*�8;�89�8:�8.�.�z�8iY��+.8K�^K��8�z�[{Z��x��8iK�z�n8��^��n8~[�>8�K��8n8" ��8	ih~k9^898+�8;�8;>8	W'7VR8�v���G&V����8����y��j��8;�ZJ.8;�y��y�N8).���k.8�8(����W'7VR8�6&VW"�FVw&V^8���ވ~jZ�8;�Z�nK��8).y��h�~8����W'7VR8�F�Rv���bF���r6��WF���~8�������8�8(�8�8N8ny��j��8).���k.8�8(����W'7VR8����W72����v�VFv^8����[��zh�8;�y�^�َ8).���8Nk.8(8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W'7VRv�� �yJ��	C����Z�8~8�y��j��8�Nh�8�Y	88nX��X��8).{i�88(�8>8�8).��8�8" �K賢F�RFV��2W'7V��rv���b&VGV6��rv7FR'���b� ���3�8�8�888;�8:8�[�>j8Nx��8).Xخk��8^8�8(�8�8N8ny��j��8).���k.8~8n8N8(�8" ��8;�W'7VRG&V� �yJ��	C��[~i��y�N8�ZJ.8�Z��x��8).y��h�~8~8nX��X��8�8(�8>8�8).��8�8" �K賢6�R�VgB�W"6V7W&R��"F�W'7VR�W"G&V��b&V6�֖�r6�Vb� ���3�[��Z[>8�ii�ynK��8�8�8(�ZJ.8).���8n8�8(8Z�Z�8~8�K�^K��8).���8(8�8" ��8;�W'7VR6&VW"��8�X�n�x�8� �yJ��	C�x��Z�X�n�x�8).�~jZ�8�8~8ny��h�~8�8>8�8).��8�8" �K賢�R��fVBF�F�R6�G�F�W'7VR6&VW"��V�f�&���V�F��r� ���3�[��8�y+Z(>k9^8�X�n�x�8~8�8*�8:>8:�8*.8).y��h�~8~8n�;�Kɮ8�z{�8>8�8" ��8;�W'7VRFVw&VR �yJ��	C�ZJ~Z�n8�8�8~Z�nK��X�n[�~8).y��h�~8~8nZ�n8n8>8�8).��8�8" �K賢6�R�2W'7V��rFVw&VR��6��WFW"66�V�6Rv���Rv�&���rgV���F��R� ���3�[��Z[>8�89^8:�8+�8*N8:8~X8�8�8�8�8(�88+>8;>89N8:^8;�8+�8;�8+^8*N8*�8;>8+�8�Z�nK��X�n[�~8).y��h�~8~8n8N8(�8" ��8;�W'7VR���W72����v�VFvR �yJ��	C�[��zh�8(Ny�^�َ8�8(�8n8�h�ދy�N8�K�X
+N8).���8Nk.8(8(�8>8�8).��8�8" �K賢��V��RW'7VR���W72v�F��WBFVf���rv�B�B�V�2F�F�V�� ���3�ZI�8�8�K��8�8�z�X�n8�8�8>8n8�8(�8�K�^8).hH�Y>8�8(�8�8).Z�{�8~8�8N8�8�[��zh�8).���8Nk.8(8(�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�W'7VR8�8Z��8�Z��x��8�Y	88nX��X��8).{i�{i�8�8(�Y
+�8�8�8.8(�8Xَ8�8(�[��iɾ8(N��iɾ8).��8�v�B8�8�y[8�8(�8'6VV�8��h�8N88(�8;�[�~8(�8>8�8).y��h�~8�[�^[�>8N���87G&�fRf�"8�X��X��8�[�~8^8).[�~���8�8(����8~8.8(�8'W'7VR8�y��y�N���8�8��	�[��Yފ��X�^8).{��8�8W'7VRF�F�6��WF���r8�8���8(�8�8N8.X�^K��8).��8�8�8(�W'7VRF�Rv���bF���r6��WF���~86VV�F�F�6��WF���~8v�&�F�F�6��WF���r8�8�8�8�8(�8" ��8	��{꞊��8	��8;�6VV� �Z�{ꓢK�^8�8).[�~8(�8�h�8N88(�8Z��x��8�8(�8�8(8�k.8(8(�8" ���[�c�8���8� ��^8C�6VV�8�y��y�N�Nh�8�Y	88�h�.{J.8;��hk.8).[�>8���8�8'W'7VR8�i�.�i>8).8�88n���8N{i�88(���z��8�xJnx+�8�X{�8(N8�8N8" �K賢F�R&W6V&6�W'26VV�&VƖ&�RW���F���f�"F�R&W7V�B� ���3�z	Nz�n�^8�88�8�8�{Yi��8�8N8N8nK���8~8�8(����i��8).k.8(8n8N8(�8" ��8;�7G&�fRf�" �Z�{ꓢX��X��8).�x�8�8ny��j��8).�Nh�8~8(�8n8�8�8(�8" ���[�c�8�r�8� ��^8C�7G&�fRf�"8�X��X��8�xk[�>8^8(NY���>8^8).[�~8�zK�8�8'W'7VR8�X��X��8�[�~8^8).[�^8�8~8(.��^K�8~8�8N8" �K賢F�R�&v旦F���7G&�fW2f�"w&VFW"G&�7&V�7�� ���3�8�8�{XN{�N8�8^8(�8�8(���i��h
+~8�Z��x��8�X��8(8n8N8(�8" ��8;�v�&�F�v&B �Z�{ꓢy��j��8�Z��x��8�Y	88nj�^���y�N8�X�n8(�{XN8(8" ���[�c�8���8� ��^8C�v�&�F�v&B8�Z��X��y�N8��.��8(N�	NK��8�z��8��x�8�8�xJnx+�8�8.8(�8'W'7VR8�ZJ.8;�[��zh�8;�Z�nK��8�8�8�8(.[�>8�K��8�8(�8" �K賢vR&Rv�&���rF�v&B���r�FW&�6��WF���� ���3�zx8�88��[~i��y�N8��z>k�z�n8�Z��x��8�X�n8(�{XN8)>8~8N8(�8" ��8	X��hH����8	��8;�&�F�� �Z�{ꓢy��j��8;����yK�8�8�8).�	NK��8~hڎ8n8n8{i�88(�8�8).8(N8(8(�8" ���[�c�8���8� ��^8C�W'7VR8�Z��8).���8N{i�88(�8�8�Z��8~8&�F��8�8�8�X��X��8(N���yK�8).iK�j8N8�8(�8>8�8).��8�8" �K賢F�R6���&�F��VB�G2��F�W��B�fW'6V2� ���3�8�8�KɮzK�8�k[~ZIn�.X{����yK�8).ij�[�^8~8�8" ��8;�v�fRW�� �Z�{ꓢK��8;����yK�8;�y��j��8�Z��x��8�8(�8�i��[�^8�8(�8�8).8(N8(8(�8" ���[�c�8���8� ��^8C�v�fRW��8�X�>���y�N8~8�Nh�8�h����8�8).ZK8>8nX��X��8).8(N8(8(�8>8�8).[�~8�zK�8�8" �K賢6�R&VgW6VBF�v�fRW���W"G&V�� ���3�[��Z[>8�ZJ.8).��n8(8(�8n8�8~8�8�8>8�8" ��2�8	K�nX�^���8;�{i�{i����j�K�n8	���yK�8;�ik��y�8;�kK�X�^8;�j�K�n8�8�8).{i�88n�.8(8(�8���X��8�8(���8	iz^i�Ί�>8;�Z�{�8	8�8~8���8)>8���yK�8ik��y�8z	Nz�n8kK�X�^8YX���8���k.8�8�8�{i�{i�8~8n�j.8(�8(�88^8(�8����8�8�8(�Z����8~8�8(�8�8(�8.y��j��8).ik8�8����Z�8�8(�8�8N8n8(�8(�8�.��K��8�K��i�N8).�	NK��8~8(N8(8�8��.8(8(�8>8�8�xJnx+�8�8.8(�8.k9^[�yJ�k9^8~8�86���866^8�Vv�7F���8�8�8).h��{i�8�8�8~8n�.8(8(�hH�Y>8�8�8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.89>8+�88�8+�8z	Nz�n8iK�z�n8k9^[�8��iK�8~x��8�ZI�8N8'W'7VR�Vv�7F���8�8�k9^y�Nh�{��8).X�n8(�8;�k9^y�Nh��{i�8�8).�.8(8(�8�8~8[�^8���N���8~X��8N8>8�8�8~8���8^8�8N8" ��8	ih~k9^898+�8;�8;>8	W'7VR8��Ɩ7��7G&FVw��6�W'6^8����ik��y�8;�h�nyZ^8).�.8(8(����W'7VR8����FW&W7B�7GVF�W2�&W6V&6�8���ޙj.[�>8;�Z�njZ�8;�z	Nz�n8).{i�88(����W'7VR8��GFW"�6����66^8����YX���8;����k.8;�j�K�n8).���X��8�8(����W'7VR�Vv�7F������k9^y�Nh�{��8).�.8(8(����W'7VR8�j�K�n8;�kK�X�^8�gW'F�W.������8).8^8(�8����X��8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W'7VR�Ɩ7� �yJ��	C�h�yJ�8~8�iK�z�n8;�ik��y�8).{i�{i�8~8nZ����8�8(�8>8�8).��8�8" �K賢F�Rv�fW&��V�B6��F��VW2F�W'7VR�Ɩ7��bw&GV�&Vf�&�� ���3�iK�[��8�j�^���y�N8�iK��ڞik��y�8).[�^8�{i�8ޘ.8(8n8N8(�8" ��8;�W'7VR���FW&W7B �yJ��	C����Y>8(N�j.[�>8�8.8(�kK�X�^8).{i�{i�8~8n��8n8>8�8).��8�8" �K賢�RW'7VVB��2��FW&W7B��7G&���גF�&�Vv�WfV��r6�76W2� ���3�[��8�ZIΙi>�ɾ[�~8).�	�8~8nZJ�ih~Z�n8�8�j.[�>8).k{8(8�8" ��8;�W'7VR�Vv�7F��� �yJ��	C�k9^y�Nh��{i�8�8(Nk9^y�Nh�{��8).�.8(8(�8>8�8).��8�8" �K賢F�RFV��G2&R6��6�FW&��rv�WF�W"F�W'7VR�Vv�7F���� ���3�8�8�XZ^[^�^8�88�k9^y�Nh�{��8).�.8(8(�8�8�8n8�jIΊ��8~8n8N8(�8" ��8;�W'7VR6��� �yJ��	C�j��X��8;��:XI�8�8�8�k.8).h��{i�8�8�8~8n���X��8�8(�8>8�8).��8�8" �K賢F�R7W7F��W"FV6�FVBF�W'7VR6���f�"6��V�6F���� ���3�8�8�~Z�.8��9�XI�8).���k.8�8(�h��{i�8�8).�.8(8(�8>8�8�8~8�8" ��8;�W'7VRF�R�GFW"gW'F�W" �yJ��	C�YX���8).8^8(�8����8�8�8(�8K�Nk��8;�h��{i�8�8).{i�88�8(�8�8(�8>8�8).��8�8" �K賢vR�VVB��&RWf�FV�6R&Vf�&RvRW'7VRF�R�GFW"gW'F�W"� ���3�8�8�YX���8).8^8(�8����X��8�8(�X��8�8zx8�88�8(�8(�ZI�8�8�h�8�[�^�h88" ��8	���k9^8;�k:�hH�8	W'7VR�GFW.8W'7VR6���8�8�Z��8).���8N8�88(�8�8�8N8nj�NYj�8�8(�8j�K�n8).���8�8nh��{i�8�8).�.8(8(�hH�Y>8�8�8>8�8(.8�8&f����rW8����X�z+����8��x+�8�86''��WB8����yK�8).Z����8�8(���x+�8�xJnx+�8�8.8(�8.k9^[�8;���iK�ih~�H�8�W'7VR8�8���k.8(N��N���8).Z�����8��.8(8(�hH�h	�8;�h��{i�8�8�8�j.K��8).��8�8�8���k.8�j�>[�>h
+~8(N{Yi��8).K�ފ��8~8�8N8" ��8	��{꞊��8	��8;�6��F��VR �Z�{ꓢK��ij�8�8�8�kK�X�^8;�x�nhX�8).{i�88(�8" ���[�c�8��8� ��^8C�6��F��VR8�{i�{i�8�8�8(.8�8).[�>8���8�8'W'7VR8�Z��8).���8N8�8�8(�8y��y�N8(Nj�K�n8).X��8��.8(8(�Y
+�8�8�[�~8N8" �K賢F�R6��֗GFVR6��F��VVB�G2&Wf�Wr�bF�R&��6�� ���3�ZyNY:Kɮ8�8�8�h�j�8�jIΊ��8).{i�88�8" ��8;�f����rW �Z�{ꓢK�^X��8�
+>{Z8;�YX���8;����i��8�8�8).���X�8~z+����8~8XX�8��.8(8(�8" ���[�c�8���8� ��^8C�f����rW8�X��j�^���8).X�~88����X�Z��[��8�xJnx+�8�8.8(�8W'7VR8�j�K�nXZ�K�>8).{i�{i�8~8n���X��8�8(�8>8�8).��8�8(�8" �K賢F�R�W'6Rf����vVBWv�F�F�RF�V�BF�R�W�BF�� ���3�yȾ��~[��8�{��iz^88�8�h*>�^8�jy�Z�8).���X�8~z+����8~8�8" ��8;�6''��WB �Z�{ꓢ���yK�8;�h�~zK�8;�{HNi��8�8�8).Z�����8�Z����8�8(�8" ���[�c�8���8� ��^8C�6''��WB8�Z����8;�Z�Θ.8�xJnx+�8�8.8(�8W'7VR8�Z����8�Y	8�8n{i�{i�y�N8����k.8(Nik��yޘ�h��8).��8�8" �K賢F�RvV�7�6'&�VB�WBFWF��VB&Wf�Wr� ���3�8�8�j���j.8���>{K8�jIΊ��8).Z��ik�8~8�8" ��8	X��hH����8	��8;�G&� �Z�{ꓢYX���8;����yK�8;�j�K�n8�8�8).8>8(�K�^K��h�8n8�8).8(N8(8(�8" ���[�c�8���8� ��^8C�G&�8�x��8�Kɮ��8(NZ�>8~8���X��8;�jIΊ��8).h�>8X�~8(�8>8�8).��8�8" �K賢F�R�Ww7W"G&�VBF�R��fW7F�vF���gFW"f��F��r���WrWf�FV�6R� ���3�8�8�ik��8�ik8~8N���h�8Ίh�8N8�8(�8�8�8>8�8�8(���i��8).h�>8X�~8>8�8" ��8;�F�66��F��VR �Z�{ꓢkK�X�^8;�8+^8;�89>8+�8;�h��{i�8�8).j�>[��8�K��j�.8�8(�8" ���[�c�8�b�8� ��^8C�F�66��F��VR8�{i�{i�8).X�n[�ny�N8;�j�>[��8�j�.8(8(����8~8W'7VR8�{i�{i�8�i��z+�8�Z��z��8�8(�8" �K賢F�R6���F�66��F��VVBF�R&�w&�gFW"Gv��V'2� ���3�8�8�KɮzK�8�.[�N[��8�8�8�89~8:�8+8:�8:8).K��j�.8~8�8" ��B�8	K�nX�^���8;��.�z����ik��y�8	�>zؾ8;��.�z�8;���nyn8�8�8).8�8�8>8n�.8( ��8	iz^i�Ί�>8;�Z�{�8	���8(NK��8�x��Z�8�.�z�8).X�n8(�8>8�88�8�8�����n8;����i��8;�hꎊ�n8�x��Z�8�ik�Y	8(Nzؾ�>8�k+�8>8n�.8(8>8�8).��8�8.y��y�N8).���k.8�8(����{�.8(Nj�K�n8).{i�88(����{�>8(�8(�88�8�>zؾ8).8�8�8(�8�8�xJnx+�8�8.8(�8" ��8	��[�n8	8�B�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8(N8(Nz�8NK���Ί��8.���k[~8ih~Z�n8��nih~8����n8���i��8�i��8~�h�8(�8(�8(�8.iz^[��Kɮ��8~8�F�R�f����r6�W'6^8f����rƖ�R�b&V6���r8�8�8n8�i��	�8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	W'7VR6�W'6^��ޘ.�z�8).X�n8(����W'7VR&�WF^���{X΋z�8).8�8�8(����W'7VRƖ�R�b��V�'��&V6���~��ފ��i��8;�hꎊ�n8�zؾ�>8).8�8�8(����W'7VR8�ik�Y	8����8�8�ik�Y	8��.8( ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W'7VR��'F�W&ǒ6�W'6R �yJ��	C����8�8�8�X�~Y	8�8��z�8).�.8(8>8�8).��8�8" �K賢F�RfW76V�W'7VVB��'F�W&ǒ6�W'6RgFW"�Vf��rF�R�6��B� ���3�8�8�8�[;n8).��.8(�8�[��8X�~Y	8�8�.�z�8).X�n8>8�8" ��8;�W'7VR6�W'6R�b7F��� �yJ��	C�8.8(�ik��y�8;���X�^ik��y�8).��8>88�8�ik�Y	8��.8(8>8�8).��8�8" �K賢F�R&�&B6��6RF�W'7VR6WF��W26�W'6R�b7F���� ���3�X�n{z[۞Kɮ8�hX�x�8���X�^ik��y�8).X�n8(�8>8�8).��8)>88" ��8;�W'7VRƖ�R�b��V�'� �yJ��	C����i��8~x��Z�8�K��8(Nik�Y	8).���8>8njIΊ��8�8(�8>8�8).��8�8" �K賢F�R��fW7F�vF�'2W'7VVB�WrƖ�R�b��V�'�� ���3�h��i��Z�8�88�ik8�8�h��i��8�ik�Y	8).���8>8�8" ��8;�W'7VRƖ�R�b&V6���r �yJ��	C�����n8(Nhꎊ�n8).x��Z�8nyn8�kX8(�8�k+�8>8n[^�h�8�8(�8>8�8).��8�8" �K賢F�RW76�W'7VW2Ɩ�R�b&V6���r&6VB����7F�&�6�Wf�FV�6R� ���3�8�8nih~8�j�NX�.y�N���h�8�Y��8^8���nyn8�zؾ�>8�k+�8>8n��n8�8n8N8(�8" ��8;�W'7VR&�WFR �yJ��	C����yK�8;�z{�X�^8�8�8~x��Z�8�{X΋z�8).��8>88�8�{X΋z�8�k+�8>8n�.8(8>8�8).��8�8" �K賢F�RW�VF�F���W'7VVB&�WFR���rF�RvW7FW&�&�FvR� ���3�8�8�h�.jIΙ��8��[�XN8�[�j�8�k+�8n{X΋z�8).8�8�8>8�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�W'7VR8�8�y��j��8).���8Nk.8(8(�8�888~8�8�86�W'6^8&�WF^8Ɩ�R8�8�8).y��y�N���8�X�n8>8n8�8�8�zؾ�>8).8�8�8(�8�8���8nyJ�k9^8~8.8(�8&6�W'6R�b7F���8�8Ί�X�^ik��y�8�8~8W'7VR�Vv�7F���8�7F���8�8�8ik��y�8).��8nhH�Y>8�k9^y�Nh��{i�8�8).�.8(8(�hH�Y>8�y[8�8(�8" ��8	��{꞊��8	��8;�f����r �Z�{ꓢ�>8ik�Y	8��nyn8h�~zK�8�8�8�k+�8>8n�.8(8;�8�8�8(�8" ���[�c�8��8� ��^8C�f����r8�i�8(.i��	�8�8~8W'7VR8(�8(�iz^[��y�N8~8.8(�8'W'7VR8���8)>8zؾ�>8).hH��َy�N8����8nz�8N���8�8).h�8N8" �K賢F�R&W�'Bf����w26�V"Ɩ�R�b&V6���r� ���3�8�8�ZY�i��8�i��z+�8���nyn8�zؾ�>8�k+�8>8n8N8(�8" ��8;�F�R �Z�{ꓢ�>8�.�z�8ik��y�8�8�8).��8)>8~�.8(8" ���[�c�8��8� ��^8C�F�R8���h��8�xJnx+�8�8.8(�8W'7VR8���8)>8�.�z�8).Z�����8�8�8�8(�8>8�8�xJnx+�8�8.8(�8" �K賢F�R6��F���6fW"&�WFR&�V�BF�R�6��B� ���3�8�8�8�[;n8).Y��8(�8(�8(�Z�XZ�8�{X΋z�8).X�n8>8�8" ��8;�&�6VVB���r �Z�{ꓢ�>8(Nik�Y	8�k+�8>8nXX�8��.8(8" ���[�c�8�b�8� ��^8C�&�6VVB���r8�x��yny�N8��.��8).z�8���8�8'W'7VR8���nyn8(N���i��8�ik�Y	8�8(.[�>8.8(�8(�8(�8" �K賢F�R���W'2&�6VVFVB���rF�R�&�VBG&��� ���3�88�8*N8*�8;�8�88�j���َ8�8.8(��>8�k+�8>8n�.8)>88" ��8	X��hH����8	��8;�&�F�� �Z�{ꓢ�.8(8n8N8�ik��y�8;����yK�8;��>zؾ8).�	NK��8~hڎ8n8(�8" ���[�c�8���8� ��^8C�W'7VR8�K�8N8�ik�Y	8).���8N{i�88(�8�8�Z��8~8&�F��8�8�8�ik�Y	8�8(�h��8).[�^8�8>8�8).��8�8" �K賢F�R&W6V&6�W'2&�F��VBF�BƖ�R�b��V�'�� ���3�z	Nz�n�^8�88�8�8�i��8�ik�Y	8).hڎ8n8�8" ��8;�FWf�FRg&�� �Z�{ꓢ�>zؾ8;�Y��k�n8;�ik��y�8�8�8�8(�ZIn8(�8(�8" ���[�c�8�r�8� ��^8C�FWf�FRg&��8�Y�8�ik�Y	8).8�8�8(�8�8K��Z�8^8(�8�{X΋z�8(NY��k�n8�8(�8�8(�8(�8>8�8).��8�8" �K賢F�RG&�fW"FWf�FVBg&��F�R���VB&�WFR� ���3�8�8����.h��8�K��Z�8^8(�8�{X΋z�8�8(�ZIn8(�8�8" ��R�8	K�nX�^���8;�h�hI�8	K��8�h�hI�8;�h
+~y�N8��j.K�.8).k.8(8nX8�8�8�8{i�88(�8X�>���8�8	iz^i�Ί�>8;�Z�{�8	x��Z�8�K��8�h�hI��j.K�.8(Nh
+~y�N8��j.K�.8).k.8(8{�8(���N8~�
+>{Z8~8�8(����8>8�8(�8~8nX8�8�8�88(�8.y��h��8�j.[�>8).[�~8(�8n8�8�8(�K��z��y�N8������8�8(.88~8N8>8����8(�8�8N8nY
+nZ�y�N8���^K�8�8(.K��8(�8(�8(�8�8(8ih~�H�8�X�~8h��8�hH�h	�8�k:�hH�8�[�^�h8~8.8(�8" ��8	��[�n8	8�R�8� ��8	8:�8+�8+�8+�8;���	�Y��8	K���Ί��8.h�hI�8K���i>�j.K�.8Z�>8x�����8~K��8(�8(�8(�8.K��8).y��y�N���8�8�8(�W'7VR8�8ih~�H�8�8(�8>8n8�iɾ8�8(�8�8NY�~h�~8�h�^��8).Y
+�8(8" ��8	ih~k9^898+�8;�8;>8	W'7VR8�K��8�&���F�6�Ǟ���K��8�h�hI�y�N8�X8�8�8�88(����W'7VR8�&V�F���6��8���ޙj.K�.8).k.8(8(����8�K��8�&RW'7VVB'�8�y��h��8����K��8�y��h��8�8(�K�N���8).k.8(8(�8(�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�W'7VR6��V��R&���F�6�ǒ �yJ��	C�K��8�h�hI��j.K�.8).k.8(8nX8�8�8�88(�8>8�8).i��zK�8�8(�8" �K賢�RW'7VVB�W"&���F�6�ǒWfV�gFW"6�R6�B6�Rv2��B��FW&W7FVB� ���3�[��8�[��Z[>8Έ��Y>8�8�8N8���8>8�[��8(.8h�hI�y��y�N8~[��Z[>8����8(�{i�88�8" ��8;�W'7VR&V�F���6�� �yJ��	C�x��Z�8�y��h��8�8�h�hI��j.K�.8).z��8>8n8�8�8(�8>8�8).��8�8" �K賢6�Rv2V�7W&Rv�WF�W"F�W'7VR&V�F���6��v�F��W"6���VwVR� ���3�[��Z[>8�Y�X9�8�K�N���8).Zx�8(8(�8n8�8�8(�8�8�8���~8>8n8N8�8" ��8;�&R7F�fVǒW'7VVB'�8�K��8� �yJ��	C�y��h��8�8(�z��j[^y�N8�K�N���8(N�j.[�>8).k.8(8(�8(�8n8N8(�x�nhX�8).��8�8" �K賢6�Rv27F�fVǒW'7VVB'�6���VwVRv��v�FVBF�FFR�W"� ���3�[��Z[>8�K�N���8).iɾ8(Y�X9�8�8(�z��j[^y�N8���8NZ�N8(�8(�8n8N8�8" ��8;�W'7VR��fR��FW&W7B �yJ��	C�Z[�hH�8).Z�N8�8(�y��h��8�8�j.K�.8).[�~8(�8n8�8�8(�8>8�8).��8�8" �K賢F�R��fV�f����w2��V�rv���v��W'7VW2��fR��FW&W7B'&�B� ���3�8�8�[����8�8k[~ZIn8�8N8(�hH�K��8�K��8�8�j.K�.8).k.8(8(���^8NZ[>h
+~8).h��8N8n8N8(�8" ��8;�W'7VR6��V��Rf�"���F�2 �yJ��	C�h�hI��j.K�.8).k.8(8n8i[8�iȎ8�8(�8�8(�y��h��8�X8�8�8�8{i�88(�8>8�8).��8�8" �K賢�RW'7VVB�W"f�"���F�2&Vf�&R6�Rw&VVBF�FFR� ���3�[��8�[��Z[>8�88~8;�88�8�[��8�8(�8�8~8K�^8�iȎ8(.[��Z[>8�8*.89~8:�8;�888~{i�88�8" ��8	���k9^8;�k:�hH�8	h�hI�8�W'7VR8�8�K��8�Y�8>8n8N8(�8�8>8�8).hH�Y>8�8�8�j.K�.8).Zx�8(8(�8n8�8�8(�XN8�{i�{i�y�N8�X8�8�8�88).��8�8.y��h��8�i��z+�8�h�.Y
+n8~8�[��8(.{i�88(�ih~�H�8~8�88~8N8>8N8;���~h98�Y
+�8�8�[�~8�8�8(�8.K��8).��ދz8�8(����{�8h�hI��j.K�.8).k.8(8(����{�^8h8^Zk�8(Nj�K�n8).���8n���{�>8�8y��y�N���8�ih~�H�8~XˮX�^8�8(�8" ��8	��{꞊��8	��8;�6�W'B �Z�{ꓢ{YZ��8(Nh�hI�8).y��y�N8�8iK�8�8>8�[�.8~y��h��8�k.hI�8�8(�8" ���[�c�8�R�8� ��^8C�6�W'B8�X�N�*�8;�iK�8�8>8����8�8�8.8(�8W'7VR8(�8(�{YZ��8).hH��َ8~8�k.hI�8).zK�8~8(N8�8N8" �K賢��F�R��fV��F�R&��6R6�W'FVBvV�F���W&6��Bw2FVv�FW"� ���3�8�8�[����8~8�8x�Z�8Ί9^zh�8�YXnK��8�Z��8�k.hI�8~8�8" ��8;�v�� �Z�{ꓢxk[�>8�X8�8�8�88nh�hI��j.K�.8(NiJ�h�8).[�~8(�8n8�8�8(�8" ���[�c�8�R�8� ��^8C�v��8�ih~Z�ny�N8�h�hI�yJ�k9^8�8�8�8iJ�h�8;��~Z�.8).[�~8(�j�NYj�8�8(.K��8�8(�8" �K賢F�R6�F�FFRv��VBV�FV6�FVBf�FW'2� ���3�8�8�X	��9Έ^8�hX�[�n8).k�8(8n8N8�8NiȞj���^8�iJ�h�8).[�~8(�8n8�8~8�8" ��8;�6�6R �Z�{ꓢ8�888n8y��h��8).X�>���8>8n8�8~8N8>8����8N8�88(�8" ���[�c�8�r�8� ��^8C�6�6R8�h�hI�8~8����8�88�8�8�y��h��8).8~8N8>8����8nY
+nZ�y�N8����8�8�X{�8(N8�8N8'W'7VR8�ih~�H�8�8(�8>8nK��z��8�8(�Y
+nZ�y�N8�8~[�^8�8.8(�8" �K賢6�Rv2F�&VB�b&V��r6�6VB'�7G&�vW'2��Ɩ�R� ���3�[��Z[>8�8*�8;>8:�8*N8;>8~y�^8(�8�8NK��8�88�8~8N8>8���8NZ�N8(�8(�8(�8�8�yk.8(�8n8N8�8" ��8	X��hH����8	��8;�&V'Vfb �Z�{ꓢk.hI�8;�yK>8~X{�8;�h�^��8).8�8>8�8(�h�.8(8" ���[�c�8�R�8� ��^8C�W'7VR8�h�^��8�8(�XN8��x+�8�8�8�Z��8~8&V'Vfb8�8�8�X8�8�8�88).h�.8(XN8��x+�8).��8�8" �K賢6�R&V'VffVB��2&WVFVB��f�FF���2� ���3�[��Z[>8�[��8�8(�8�{�8(���N8~8�8N8).8�8�8N88�8" ��8;�f��B �Z�{ꓢK��8�8�h�^�zn8(N�j.8(�8(�8).hH�Y�>y�N8���88(�8" ���[�c�8���8� ��^8C�f��B8��j.K�.8).k.8(8n��8^8�W'7VR8�X��Z��8�8y��h��8�8�h�^�zn8).��88(�8>8�8).��8�8" �K賢�Rf��FVB6��F7BgFW"F�RV�6��f�'F&�R6��fW'6F���� ���3�[��8�k	~8�8�8NKɮ��8�[��8h�^�zn8).��88�8" ��b�8	K�nX�^���8;�j�NYj����ih~���8	���hkn8;�hh	n8;�{ڮh*�hI�8�8�8�K��8�8N8�8�8�8n8��n8~8({i�88(���8	iz^i�Ί�>8;�Z�{�8	���hkn8hh	n8{ڮh*�hI�8K�ޘ�8�8�8�K��8�hH��َ8(NyI�kK�8�8(���.8(�8�8{�8(���N8~��n8~8(8(�8.�	�[��8�X�~8���8�&RW'7VVB'�8�hI�h8^8;����hkn8�8~K��8N8Z�����8�Z��8).���8N8�88(�hH�Y>8~8�8�8N8" ��8	��[�n8	8�B�8� ��8	8:�8+�8+�8+�8;���	�Y��8	ih~���y�N8;�j�NYj�y�N8.ih~Z�n8Y��h;>8[�>ynh��Xi�8Z�>8^��n8�8�8~K��8(�8(�8iz^[��Kɮ��8~8��V�N8�wV^8&RG&�V&�VB'�8�8�8n8�i��	�8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	8�K��8�&RW'7VVB'�8��V��'��fV"�wV��N8����K��8Ί��hkn8;�hh	n8;�{ڮh*�hI�8����8(�8(�8(����W'7VR8�K��8���G&V�>���ZJ.8�K��8~8(.K��8�8N8�8�8�8n���8�K��8�&R&V�V�F�W76ǒW'7VVB'�8�K��Z�8;�K�ޘ�8����K��8�K��Z�8;�K�ޘ�8�Y�~h�~8�8N8�8�8�8(�8(�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&RW'7VVB'��V��&�W2 �yJ��	C���X�8�hkn8�K�^[�n8(.hH��َ8�h��8(�8K��8).��n8~8(8(�8>8�8).��8�8" �K賢6�Rv2W'7VVB'��V��&�W2�bF�R66�FV�Bf�"�V'2� ���3�[��Z[>8�K�^[�N8(.8�i>8K��iX^8�hkn8���n8~8(8(�8(�8�8" ��8;�&RW'7VVB'�fV" �yJ��	C�hh	n8�K��8�8(���.8(�8�8��X�^8(NhH��َ8).iJ��X�8�8(�8>8�8).��8�8" �K賢�Rv2W'7VVB'�fV"���rgFW"F�RF�vW"�B76VB� ���3�X����8�X�8>8�8�8>8�[��8(.8[��8�hh	n8����8(�8(�8n8N8�8" ��8;�&RW'7VVB'�wV��B �yJ��	C�{ڮh*�hI�8�{�8(���N8~K��8).��n8~8(8(�8>8�8).��8�8" �K賢F�R6�&7FW"�2W'7VVB'�wV��B�fW"v�B�RF�B� ���3�8�8�y��ZNK��x��8��z�X�n8�8~8�8>8�8�8�{ڮh*�hI�8���n8~8(8(�8(�8n8N8(�8" ��8;�&R&V�V�F�W76ǒW'7VVB'�8�熖WG�8� �yJ��	C�K��Z�8�8�8�Y�~h�~8�K��8�8N8�8�8�8n8>8�8).[�~���8�8(�8" �K賢F�Rv�F�W72v2&V�V�F�W76ǒW'7VVB'�熖WG�&Vf�&RF�RG&��� ���3�8�8�K��8��8X�N8).X��8�8Y�~h�~8�K��Z�8���n8~8(8(�8(�8�8" ��8;�W'7VR6��V��R��G&V�2 �yJ��	C����hkn8(Nhh	n8�ZJ.8�K��8~8(.K��8�8N8�8�8�8n8>8�8).��8�8" �K賢F�R�V��'��bF�R66�FV�B6��F��VVBF�W'7VR�������2G&V�2� ���3�K��iX^8�hkn8�ZJ.8�K��8~8(.[��8�8N8�8�8�8N{i�88�8" ��8	���k9^8;�k:�hH�8	8>8�yJ�k9^8�K�����8��V��'�8fV.8wV��N8֗6f�'GV�R8�8�8~8X�~8���8�x��8��z�xKn8~8.8(�8&�V�B8����hkn8(NZNh�8�8�8Ι[~8�[�>8�8N8�8�8�8n���8�wVR8�YX���8;�yx^k	~8;�K��8�{�8(���N8~��n8~8(8(����8~8W'7VR8�8΋��8N{i�88(�8�8�8N8nj�NYj�8).j�8~8�ih~���y�N8����8�8�8.8(�8.x��yny�N8���ދz{�8�8(�8Z��8�K��8�[��8).��.8(�8�{i�8�8�8N8n�j.K�.888).j�NYj�y�N8�[�^8�{i�8N8~8N8(�8" ��8	��{꞊��8	��8;��V�B �Z�{ꓢ���hkn8;�ZNh�8;��>8�8�8�8�K��8�[�>8�8N8�8�8�8N{i�88(�8" ���[�c�8���8� ��^8C��V�B8�8>8�j�NYj�{�8~i�8(.�z�xKn8~8W'7VR8(�8(�iz^[��y�N8�8(.K��8N8(N8�8N8" �K賢F�R�V��'��bF�Rf��W&R7F����V�G2���� ���3�ZKiY~8�hkn8�K��8(.[��8�[�>8�8N8�8�8�8>8n8N8(�8" ��8;��wVR �Z�{ꓢYX���8;�yx^k	~8;�[�>�X�8�8�8�K��8(NZNh�8).{�8(���N8~��n8~8(8(�8" ���[�c�8�r�8� ��^8C��wVR8���~h98(N��nyy�8).K��8�{i�88(�[����8�xJnx+�8�8.8(�8W'7VR8��ދz8*N8:8;�8+�8�[�8N8" �K賢7Wǒ6��'FvW2�wVVBF�R&Vv���F�&�Vv��WBF�Rv��FW"� ���3�K�{ZnK�ދk>8�Xj�8�i>8�8>8�8�8�Y�Y��8).��n8~8(8�8" ��8;�F�&�V�B �Z�{ꓢ[�~8N{+�zY�y�N8;����K�>y�N��nyy�8).K��8�8(�8" ���[�c�8�r�8� ��^8C�F�&�V�B8���nyy�8�[�~8^8).[�~���8�8(�8.K�nik�8W'7VR8���nyy�8�[�~8^8(�8(�8��.8(�8����8N{i�88(�8>8�8).��8�8" �K賢F�V'BF�&�V�FVBF�Rv�F�W72&Vf�&R6�R7��R� ���3�[��Z[>8Ί�8�X��8yi[�^8�8�8�K��8).��n8~8(8�8" ��8	X��hH����8	��8;�6��f�'B �Z�{ꓢ��nyy�8;�K��Z�8;�h+.8~8�8).Y(�8(�8.8Z�[�>8^8�8(�8" ���[�c�8���8� ��^8C�W'7VR8�j�NYj�{�8Έ�n8~8�8).{i�88^8�8(�8�8�Z��8~86��f�'B8�8�8n8~8�8).Y(�8(�8.8(�X8�8�8).��8�8" �K賢�W"g&�V�G26��f�'FVB�W"gFW"F�R��72� ���3�X��K��8�88�8�8�Yj�ZK8�[��8[��Z[>8).h[8(8�8" ��8;�&Rg&VRg&�� �Z�{ꓢ��nyy�8;�K��Z�8;�YX���8�8�8�h*�8�8^8(�8n8N8�8N8" ���[�c�8�r�8� ��^8C�&Rg&VRg&��8����8N{i�88(��*h�^8�ZَYʎ8~8�8Nx�nhX�8).��8�8" �K賢gFW"G&VF�V�B��Rv2f���ǒg&VRg&��6��7F�B��� ���3�k+�y�.[��8[��8�8N8N8�hZ.h
+~y�N8�yy�8�8�8(��z>iK�8^8(�8�8 ����Р�277V�P����Ц�VGv�&C�77V�P�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#p�WFFVE�C�##b���#p�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3������7\�����Έ�������6�\���8#.��>z�8����5T�R8~8z��.��>z�8�K��[�~X�.8�8.8(�8.{>��>8��\��8����>8���\��8~8����>8~8����
+�8�[�8B����8�[��8����>8�XZ^8(�8" �K��K��z{Xَi[77V�W28�{2�����7\�ע�8;��������6�\�ע�8��X�[�.8;���X�X�n���77V�VB8�{2�����7\��B�8;��������6�\��B�8֖�~[�"77V֖�r8�{2�����7\�ܚ�X��8;��������6�\�ܚ�X��8" �77V�VB8��VB8����8�[��8r�B�8�8�8(�8���[�8�KٞX�n8���>z�8).X�8�8�8N8&77V֖�r8�77V�R8�iʲR8).��8�8~8b֖�r8).K��88(�8�8(8�ܚ�X��8�y����>8�8(�8" ����>���k� ��K�ވ����[��i��8�77V�R8�88:�88n8;>���77V�W&^8�X�n8(�K��8.8(�8�z�X�n8�8(.8�8�8~8n[�^8�X�~88(�8�8�yKi�^8�8(�8&77V�W&R8�B�8����8�8�8�7V�W&^8�X�n8(�8�8�8(�h�8(�8" ������8~8�8�8�8Έz�X�n8�[�^8�X�~88(�8;�X�n8(�K��8.8(�8�8�8N8nik�Y	8�hH�Y>8�x��8(�8nK�n{HiʾK�^���8�8Ί��i��8�8~8�K��Z��8�8~8nX�~8XZ^8(�8(�8�8~K�n{H�>8�8Ίh�8�8�88�h
+~�:�8).���8�8N88(�8�8�8N8nyJ�k9^8�y���N8~8�8" �x��K�>8�8�K��Z�8�8(�8�8΋*�K��8).[�^8�X�~88(�8�8�[�.8(NhX�[�n8).[��8>8(�8�8�8N8nhH�Y>8�8K�^8�8).�z�X�n8�X�Nij�8;��*�K��8;�ZIn�h�8�K��8�X�n8(����8(8�8N8nX[�	�8�y��h;>8~8N8�8�8(�8�8���k�888�8(�YN���{�8).j��j+y�N8�[�88(�8(�88~8�8�8N8" ����>���[�.h� ��77V�W2�77V�VB�77V֖�v(	BK��K��z{Xَi[x��Yʎ[�.8;���X�[�.�����X�X�n���8;�x��YʎX�n���8" �77V�F���(	BYފ��8�K��Z�8h;>Z�8h	�8N���8�8[�^8�X�~88�8.���{�8�X�Nij�K��8�X��h�8).��8�i�8(.K����y�N8�kK�yI�Yފ��8~8.8(�8" �77V�VF(	B[�.Z랊��8�K��Z�8^8(�8�8h;>Z�K��8�8�8�8�8�8Ίh�8�8�88�8�8&�77V�VB��V8�8�X�Y�8;��	�z{8�8~8nK��8nY�X��8�8" �77V֖�r�F�B����(	B8����88�K��Z�8�8(�88�8�8N8ni�K�n8).[�8���x��8.X�^���77V�R8�x��YʎX�n���8�8(�y���N8~8�8" �77V�&�V(	B[�.Z랊��8�K��Z�8~8�8(�8[�^8�X�~8X���;�8�8�8.K����Kɮ��8(�8(�8(.[�.[��y�N8����i��8~K��8n8" ����>8+>8*.8*N8:8;�8+���77V�R8�X[�	�j�8�8i��i�^8�ZIn�:�8�8.8(�K��Z��8;��*�K��8;�[۞X�.8;�h
+~�:�8;�ZIn�k>8).8�z�X�n8�X�Nij�8(Nz��ZN8�K��8�X�n8(����8(8>8�8~8.8(�8.X�n8(����8)>8Xh^Z�8�y��Z��8~8.8(�8>8�8j����8�j�>[��8����8(8(�8(�8n8N8(�8>8�8ZIn�k>8�i��x��8~8.8(�8>8�8�8~8���8�8�8(.8�8�K�ފ��8�8(�8(�88~8�8�8N8" �8;�K��Z��88�K��8�X�n8(����8((i"8����88�K��Z�8�8(�8[�>xKn8�8>8�8��>8�8(�8��Ȏ���{��Ȓ �8;��*�K��8;�{�X��8;�j����8).�z�X�n8�h�^8b(i"8΋*�K��8;�{�X��8;�j����8�8�8).[�^8�X�~88(�8h��h�8�8(�8��Ȏ���{�.�Ȓ �8;�[۞�~8;�[۞X�.8).[�^8�X�~888�8�K��{��8�[8�(i"8�[۞�~8;�[۞X�.8;�Y�K��8�[8�8��Ȏ���{�>�Ȓ �8;�[�.8;�h
+~�:�8;��xފhh
+~8�X)�8(�8(�(i"8�[�.8;�h
+~�:�8;��xފhh
+~8�8�8).[��8>8(�8��Ȏ���{�N�Ȓ �8;�hX�[�n8;�ZIn�k>8).hH�Y�>y�N8����8�8N88n�h�8�8(�(i"8�hX�[�n8;�ZIn�k>8�8�8).�8^8n8���8�8^8(�8).8�8(�8��Ȏ���{�^�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	K�nX�^���8	�ȎK��Z��88��ȞK��Z�8�8(�8[�>xKn8�8>8�8��>8�8(���8	iz^i�Ί�>8;�Z�{�8	X�X�n8����i��8(Nz+����8�8�88�8Nj�^���8~88.8(�K��Z��8;�x�nhX�8;�X�Nij�8).8.8�8�8�y��Z��8�8�8�X��h�8�8~8nX�~8XZ^8(�8(�8.Xَ8�8(�X���;�h
+~8).hɞ8.8(�888~8�8�88�8�X��h�8�Y��8^8N8n�>8�8�8(���X�^8~8�8(�8�8(�Y
+�8�8�8.8(�8" ��j�h�8�8�8>8�8�8�8N8�[�^8���8n8(�88~8�8�8N8�8&W7V�V8(�8(�8(.���h�8).[�~8�X��h�8�8�8�8���^8�{��8N8�K��8�X��h�8�xJnx+�8�8.8(�8" ��8	��[�n8	8��8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�ny�N8�K���Ί��8.iz^[��Kɮ��8���i��889>8+�88�8+�8Z�n�>8h��>8����n8~[�>8�K��8n8.ij�Z�8).��88n8����8�K��Z�8�8(�8�8���8�8(�ZNY�8�8(.8y��h��8�z+����8�8~8�8����8��^8N8�8N8�8�h	�8N���8(ZNY�8�8(.K��8�8(�8" ��8	ih~k9^898+�8;�8;>8	77V�R�F�B����������88�K��Z�8�8(����77V�R8�K��8;�x��8�F�&R��fR������K��8;�x��8).���88�K��Z�8�8(����&R77V�VBF����������88�h;>Z�8^8(�8n8N8(����77V�RF�Rv�'7F���i�h*�8�K��hX�8).h;>Z�8�8(�����WBW277V�RF�B���������88�K��Z�8~8(�8n���77V֖�r�F�B����������88�K��Z�8�8(�8 ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�77V�RF�B��� �yJ��	C�z+����X��8�X�Nij�8).8�>8�8(�8�8(8�X��h�8�8~8n{��8�8" �K賢vR77V�VBF�BF�RG&���B�VgB&V6W6RF�R�Ff�&�v2V�G��'WBvR�B��B6�V6�VBF�RF��WF&�R� ���3�89�8;�8:8�z��88>8�8�8~X�~���8�X{�y��8~8�8�h	�8N���8)>88�8i�.X����8�z+����8~8n8N8�8�8>8�8" ��8;�77V�R8�K��8;�x��8�F�&R��� �yJ��	C�K��8(Nx��8�8.8(�h
+~�:�8;�x�nhX�88�88.8�8�8�X�Nij�8�8(�8.[�.[��y�N8�ih~�H�8~ZI�8N8" �K賢F�R6��֗GFVR77V�VBF�RFFF�&R&VƖ&�RV�F���VF�Bf�V�B6Ɩ'&F���W'&�"� ���3�ZyNY:Kɮ8�8y�>i��8~j
+j�>��N[z�8Ίh�8N8�8(�8�8~88�8�88~8;�8+�8�K���8~8�8(�8��>8�8n8N8�8" ��8;��B�2&V6��&�RF�77V�RF�B��� �yJ��	C�K�Z�8�x�nk88�8(�8Zj^[�>8�K��Z�8).{��8�8" �K賢v�fV�F�RV�6��vVBFG&W72��B�2&V6��&�RF�77V�RF�BF�R6�vRv2FVƗfW&VBF�F�R��B�ff�6R� ���3�K��h�8�ZH�8(�8>8n8N8�8N8>8�8�8(�88�8��~x��8�iz~8*�89^8*>8+�8�[�88(�8(�8�8��>8�8(�8�8�Zj^[�>88" ��8;�77V�RF�Rv�'7F �yJ��	C�h8^Z8�8�8Nj�^���8~i�h*�8�{Yi��8).X��h�8�8�8(�8" �K賢F��(	�B77V�RF�Rv�'7B&Vf�&R��R�V"�W"W���F���� ���3�[��Z[>8�i��8).��8�X��8�8i�h*�8�K��hX�88�h	�8N���8�8�8N8~8" ��8;��WBW277V�RF�B��� �yJ��	C�����n8;����z�~8;����i��8�8�8(8�K��8�i�K�n8).{��8�8" �K賢�WBW277V�RF�BWfW'�6V�6�"�2v�&���r&Vf�&RvRFW7BF�R�v�&�F��� ���3�8*.8:�8+N8:�8+�8:8).��n8�X��8�88�8�8n8�8+�8;>8+^8;�8�K��X�^8~8n8N8(�8�K��Z�8~8(�8n8" ��8;�77V�R6��F�F���3�77V֖�r�F�B���� �yJ��	C�i�K�n8).zK�8~88����88�K��Z�8�8(�88�8���8).�.8(8(�8" �K賢77V֖�rF�BF�RvVF�W"7F�26�V"�vR6�f��6�F�R7W'fW�'������ ���3�ZJ�k	~8�i�N8(�8�8�8�88�8�8(�88j�>X؎8�8~8����i��8).{X.8�8(�8(�8(�8" ��8	���k9^8;�k:�hH�8	77V�RF�B���8�8�8�8n88�{��8N8n�>8�8(�8ފ�x��8~8.8(�8Xh^Z�8).z+����8;����i��8~8�8>8�8).��8^8�8N8&�R77V�VBF�BF�RF��"v2��6�VB�8�8Z�����8�z+����8�8�ikޘ�k��8�88��>8�8�X���;�h
+~8(.8K��jZ�K��8�K��Z�8).{��8N8�X���;�h
+~8(.8.8(�8" ��&W7V�V8��	�[��8x�nk8���h�8(N{XΚ�>8�8(�8�8n88(�8n8�X�Nij�8�8(�Y
+�8�8�77V�V8(�8(�X{�8(N8�8N8&7W�6V8�K��8(Nh;>X8�8).8(�8(�[�>8���8~8��fW&8��k>Z��8^8(�8����h�8�8(�{Y��n8).[�8�8>8�8�xJnx+�8�8.8(�8" ��77V�R8�K��8;�x��8�F�&R���8�[�.[��y�N8~8Kɮ��8~8�77V�R�F�B�8�K��8;�x��8��2���8���8n8>8�8(.ZI�8N8.X�~X�^hX�8�K��8;�x��8��277V�VBF�&R���8�8K����y�N8�h;>Z�8).Z�.�k>y�N8���8�8(�8" ��8	��{꞊��8	��8;�7W�6R �Z�{ꓢ���88��>8�8(�8K��8����88�{��8�8" ���[�c�8��8� ��^8C�7W�6V8�iz^[��Kɮ��8�K��8;�h�k��8�i�8(.[�>8�K��8�877V�V8(�8(�8(.���8Nh;>X8�8�8(.K��8�8(�8" �K賢�7W�6RF�R�VWF��rv���V�B6���� ���3�Kɮ��8�8(.8n8�8{X.8(�8(�8�h	�8n8" ��8;�&W7V�R �Z�{ꓢ8.8(�z��[�n8�j�h�8�Y��8^8�8���88�h�Z�8�8(�8" ���[�c�8�r�8� ��^8C�&W7V�V8�x�nk8���h�8(N�	�[��8�h�8(���8�8�8(�8�z+�8�8(�8~8^8).zK�8~8(N8�8�877V�V8����h�8).z+����8�8�X��h�8).{��8�hI�8�8�[�~8N8" �K賢vR&W7V�VBF�BF�R6��v26��6VB&V6W6R��F�RƖv�G2vW&R�fb� ���3�i��8�8(�8�8�8�8nkh�8�8n8N8�8�8~8zx8�88�[�~8��h�8�8>8n8N8(�8�h	�8>8�8" ��8;�F�Rf�"w&�FVB �Z�{ꓢz+����8�8�[�>xKn88��>8�8(�8[�>xKn8�8(.8�8�8~8nh�8n8" ���[�c�8���8� ��^8C�F�Rf�"w&�FVF8�z+����K�ދk>8(N8.8(�8�8�8�8�h���8�8~8).h��X�N8�8(�Y
+�8�8�X{�8(N8�8N8&77V�V8�K��z��y�N8�K��jZ�K��8�K��Z�8�8(.K��8�8(�8" �K賢�WfW"F�Rf�"w&�FVBF�B&6�W�26���WFVB� ���3�8988>8*�8*.88>89~8�Z��K�n8~8�8�8k�8~8nz+����8�8~8�k�8(8N88n8�8N88�8N8" ��8;��6�B �Z�{ꓢ����n8(Nyn��n8�8�8(8�8Yޚ�8).K��8�{��8�8" ���[�c�8�R�8� ��^8C��6�F8�Z�n�>8;�Y;.Z�ny�N8~8j�h�8�8�8Nh	�8N���8�8(�8(�8(.8jIΊ��8�8�8(8�i��zK�y�N8�{��8�X��h�8).��8�8" �K賢F�R��FV��6�G2F�B��wVvR6��vW2F�&�Vv�&WVFVBW6R� ���3�8�8�8:.88~8:�8�8�����8�X��[�K��yJ�8).�	�8�8nZH�X�n8�8(�8�K��Z�8~8n8N8(�8" ��"�8	K�nX�^���8	�*�K��8;�{�X��8;�j����8�8�8).[�^8�X�~88(�8h��h�8�8(���8	iz^i�Ί�>8;�Z�{�8	�*�K��8{�X��8�+�yJ�8X����8j����8iJ��X�8�8�8).�z�X�n8�XN8~h�^8n88�8�8�z�ynK��8�{��8�8.Xَ8�8�8(�8�8N8N8ny����8�8(�8�8~8�8�8�8{Yi��8).[�^8�X�~88(�z��ZN8�8�8(�8>8�8).��8�8" ��77V�R6��G&��8(B77V�R6����F8�8j����8).[�^8�{i�8N8~h��h�8�8(�8>8�8).��8~8ih~�H�8�8(�8>8n8�K�ik�y�N8�iJ��X�8).X�n8(�K��8.8(����8�8(.X{�8(�8.8�88~8���8�8�8(.8�888~��X��8�iȞxJ8(Nk9^y�N8�iȞX��h
+~8�8~8�k�8�8(�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.89>8+�88�8+�8��iK�8���K��8ZY{HN8�y���8k9^[�8��j.8�8(����i��8~x��8�ZI�8N8&77V�R&W7��6�&�ƗG�8�iz^[��8�8(.K��8n8�877V�R��'FvvV8(B77V�R��&ƖvF���8�[�.[��y�N8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	77V�R&W7��6�&�ƗG�f�"8�K�^K��8;�K��8�������8�*�K��8).[�^8�X�~88(����77V�R��&ƖvF����GWG����{�X��8).[�^8�X�~88(����77V�R6��G&���b��fW"8�{XN{�N8;�x�nk88�������8).h��h�8�8(����77V�R6����B�b8��:����8�������8�h�~h��8).Y�~8(����77V�R&�6����X����8).[�^8�X�~88(����77V�RFV'B���'FvvV���X+^X��8;�K��Z�^8:�8;�8;>8).[�^8�X�~88(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�77V�R&W7��6�&�ƗG�f�"8�K��8;�K�^K��8� �yJ��	C�K��8(NK�^K��8�{Yi��8�8N8N8n�*�K��8).h�^8n8" �K賢F�R��7�F�77V�VB&W7��6�&�ƗG�f�"F�RF�V�N(	�2f����r�W6&R� ���3�8�8�yx^��.8�h*>�^8�{XΘ�k>Z��8�*�K��8).[�^8�X�~88�8" ��8;�77V�R��&ƖvF����GWG� �yJ��	C�{�X��8(N�~X��8).�z�X�n8�i��8�8�z��ZN8�8�8(�8" �K賢'�6�v��rF�Rw&VV�V�B�F�R7WƖW"77V�VB��&ƖvF���F�&W�'BFV��2� ���3�8�8�K�{ZnjZވ^8�8ZY{HN8�{�.Y�8�8(�8>8�8~�^[�n8).ZY�8�8(�{�X��8).�*8>8�8" ��8;�77V�R6��G&���b��fW"8�{XN{�N8;�x�nk88� �yJ��	C�{XN{�N8(Nx�nk88�z�ynj��8).[�^8�{i�8�8h��h�8�8(�8" �K賢F�RFWWG�77V�VB6��G&���bF�R�W&F���v�V�F�RF�&V7F�"&V6�R���� ���3��:��[~8�yx^k	~8�8�8(�8�8X���:��[~8�8�8�jZ�X��8�h�~h��8).[�^8�{i�8N88" ��8;�77V�R6����B�b8��:����8;����8� �yJ��	C��:����8(N���8�8�8�h�~h��j��8).[�^8�X�~88(�8" �K賢F�R6F��77V�VB6����B�bF�R&W67VRfW76V�BFv�� ���3�8�8��[~8�ZI�i��88�iYX�����8�h�~h��8).Y�~8>8�8" ��8;�77V�R&�6� �yJ��	C�8.8(���x+�8�K�N8nX����8).�z�X�n8�*�K��8�8~8nX�~8XZ^8(�8(�8" �K賢F�R��fW7F�"���v��vǒ77V�VBF�R&�6��b��6��rF�RV�F�&RFW�6�B� ���3�8�8�h�^�8~Z�n8�8�	�yXZ���8).ZK8nX����8).h��y�^8~[�^8�X�~88�8" ��8;�77V�RFV'B���'FvvV �yJ��	C�K�n�^8�X+^X��8(NK��Z�^8:�8;�8;>8).[�^8�X�~88(�8>8�8).8ZY{HN8;��y���8�ih~�H�8~��8�8(�8" �K賢F�R'W�W"w&VVBF�77V�RF�R6V��W.(	�2��'FvvR2'B�bF�RW&6�6R� ���3��+~8Nh��8�8�;�XZ^8�K�y+8�8~8nZ;.8(�h��8�K��Z�^8:�8;�8;>8).[�^8�X�~88(�8>8�8�Y�hH�8~8�8" ��8	���k9^8;�k:�hH�8	77V�R&W7��6�&�ƗG�f�"���8�8�*�K��8).Z�����8�h�^8nz��ZN8�8�8(�8>8�8).��8�8�8{Yi��8�h�X��8~8�8>8�8�8~8�hH�Y>8~8�8N8&77V�R6��G&���b���8(.z�yn8).Zx�8(8�8>8�8).��8�888~8y��h��8Έz�y��y�N8�[�>8>8�8>8�8�8~8�Y
+�8�8�8N8" ��8>8�{�8�77V�V8�8���{�8�8����88��>8�8(�8�8�y��y�N���8Θ^8n8&77V�RF�BF�R��v���v�&�8�X�Nij�K��8�K��Z�877V�R&W7��6�&�ƗG�f�"F�R��8��*�K��8�[�^8�X�~88~8.8(�8.[۞�~8�8�8(.8�8�[8�8>8�8).[�~���8�8(�77V�R�ff�6V8����{�>8~h�8n8" ��8	��{꞊��8	��8;�F�R�� �Z�{ꓢK�^K��8�*�K��8[۞X�.8�8�8).�z�X�n8�[�^8�X�~88(�8" ���[�c�8���8� ��^8C�F�R��8�Kɮ��y�N8~[�>8�K��8�877V�V8(�8(�8(.�*�K��8;�K�^K��8).ik8�8�h�8�8(�hI�8�8�[�~8N8" �K賢6�RF�����&W7��6�&�ƗG�f�"G&���rF�R�Wr7Ffb� ���3�[��Z[>8�ik8~8N�~Y:8�z	NK��*�K��8).[�^8�X�~88�8" ��8;�V�FW'F�R �Z�{ꓢK��X��8{HNi��8K�^K��8).[�^8�X�~88Z����8�8(�8�{HNi��8�8(�8" ���[�c�8�r�8� ��^8C�V�FW'F�V8�Z����8�8(�{HNi��8(N���yK�y�N8�y�h��8�xJnx+�8�8.8(�877V�V8��*�K��8;�{�X��8).h�^8nz��ZN8�8�8(.8�8�8(.K��8�8(�8" �K賢F�R6��G&7F�"V�FW'F���F�&W�"F�R'&�FvRv�F���6�����F�2� ���3�8�8��*jZވ^8�n8�iȎK�^Xh^8�j��8).K��yn8�8(�8�{HNi��8~8�8" ��8;�6��V�FW" �Z�{ꓢY���>8��*�K��8�*h�^8�+�yJ�8�8�8).�.8)>8~[�^8�X�~88(�8" ���[�c�8�r�8� ��^8C�6��V�FW&8��xވ�~8).�8΋*8nj�NYj�y�N8;�8(N8(NhI�h8^y�N8�Y
+�8�8�8.8(�877V�V8(�8(��*h�^hI�8�y��z��8N8" �K賢F�RFV��VFW"6��V�FW&VBF�R6�7B�bF�RV�W&vV�7�&W�'2� ���3�888;�8:8:�8;�888;�8�{x�h
+^K��yn8�+�yJ�8).�*h�^8~8�8" ��8;�F�R�fW" �Z�{ꓢK�^K��8z�yn8iJ��X�8�8�8).K�n�^8�8(�[�^8�{i�88" ���[�c�8���8� ��^8C�F�R�fW&8�K�NK�>8;�[�^8�{i�8�8�X{�i�^K��8).[�~���8~877V�R6��G&��8�j�>[��8�8�8����i��y�N8�z�ynj��8).h�^8n8>8�8).��8�8(�8" �K賢FV��&'���vW"F����fW"v���RF�RF�&V7F�"v2v�� ���3��:��[~8�K��YʎK��8�8�z�i�.8�z�yn�^8�[�^8�{i�8N88" ��2�8	K�nX�^���8	[۞�~8;�[۞X�.8;�Y�K��8�[8�8[�^8�X�~88(���8	iz^i�Ί�>8;�Z�{�8	[۞�~8[۞X�.8Y�K��8�~X��8�8�8).[�^8�X�~888�8�z��ZN8�XZ^8(�8.[K��8(NK��Y�8�ih~�H�8~8K�^X��8�K��x��8�[��8).{i�8N8~8�8�K��{��8�y�8�8>8�8).z�8���8�8(�8" ���*�K��8(Nj����8).h�^8nx+�8~8����{�.8��x�8�8(�8�88>8>8~8�K�^8).z�yn8�8(�8�8(�8(�8(.88�8�[۞�~8;�[۞X�.8;�Y�K��8�[8N8�8�8�xJnx+�8�8.8(�8&77V�R�ff�6V8�X[�Y�y�N8�8>8�{�8~8.8(�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8(N8(Nz�8Nj��k�n���8.iK�k+�8��iK�8���K��8K�jZ�8{XN{�N8j�NX�.8�i��8~ZI�8N8.iz^[��Kɮ��8~8�F�R�ff�6V8F�R��F�R&��V8&V6��V8�8�8���8Nh��8�8(�8>8�8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	77V�R�ff�6V���[K��8�8(����77V�RF�R&��R�b8�[۞X�.8�������8�[۞X�.8).[�^8�X�~88(����77V�RF�R�6�F�����7B�b8�[۞�~8�������8�~8�[8����77V�RF�R&W6�FV�7����ZJ~{[�	��~8;�Kɮ�[~�~8�[8����77V�RF�RF�&��V���x�K��8�[8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�77V�R�ff�6V �yJ��	C�XZΈ~8;�[۞�~8�j�>[��8�[K��8�8(�8>8�8).z�8���8�8(�8" �K賢6�R77V�VB�ff�6R2���"��&��gFW"v����rF�RV�V7F���� ���3�[��Z[>8���hɞ8�X��X��8~8�[��8NiȎ8�[�.�[~8�[K��8~8�8" ��8;�77V�RF�R&��R�b8�K��x��8;�j���;�8� �yJ��	C�x��Z�8�[۞X�.8).[�^8�X�~888�8�[۞X�.8).i��8�8�z��ZN8�8�8(�8" �K賢�R77V�VBF�R&��R�bFV��VFW"gFW"F�R�W&vW"� ���3�[��8�Y�K�^[��8888;�8:8:�8;�888;�8�[۞X�.8).[�^8�X�~88�8" ��8;�77V�RF�R�6�F�����7B�b8�[۞�~8� �yJ��	C�{XN{�NXh^8�x��Z�8�~8;�Y�K��8�[8�8" �K賢G"��VR77V�VBF�R�7B�b&W6V&6�F�&V7F�"���Vǒ� ���3�8:�8;�XٮZ:�8�~iȎ8�z	Nz�n�:��[~8�~8�[8N8�8" ��8;�77V�RF�R&W6�FV�7� �yJ��	C�ZJ~{[�	��~8(N{XN{�N8�Kɮ�[~�~8�[8�8" �K賢F�Rf�6R&W6�FV�B77V�VBF�R&W6�FV�7�gFW"F�R&W6�v�F���� ���3�X��ZJ~{[�	�8����K��[��8ZJ~{[�	��~8�[8N8�8" ��8;�77V�RF�RF�&��V �yJ��	C�x�K��8�[8�8>8�8).8j�NX�.y�N8;�XZ�[��8���8�8(�8" �K賢F�R��V�r���&6�77V�VBF�RF�&��RBF�RvR�bGvV�G����R� ���3�8�8^8NY	�K��8�#j�>8~x�K��8�[8N8�8" ��8;�77V�R�Wr&��V �yJ��	C�{XN{�NZH�i�N8(NK��yI�8�ZH�X�n8�K��8~8ik8~8N[۞X�.8).h�^8n8" �K賢gFW"F�R�W&vW"�F�RV�v��VW"77V�VB�Wr&��R��&�GV7B7G&FVw�� ���3�Y�K�^[��88�8�h��>�^8��;�Y8h�nyZ^8�ik8~8N[۞X�.8).h�^8>8�8" ��8	���k9^8;�k:�hH�8	77V�R�ff�6V877V�RF�R&W6�FV�7�877V�RF�RF�&��V8�8Xَ8�8�8�K�^K��8).h�^[�>8�8(�888~8�8�8X�n[�nK��8�[۞�~8;�Y�K��8�XZ^8(�8>8�8).��8�8.K��Y�8��k9^h
+~8(NYʎK��i���i>8�[~8^8).���8�8�8(.8�8�K�ފ��8�8(�8(�88~8�8�8N8" ��77V�R&��V8�8Z�����8�{XN{�NK��8�[۞X�.8).[�^8�X�~88(����{�>8�8(.8k�Nh�8(NXފ8^8~[۞8).k�N8�8(����{�^8�8(.8�8(�[�~8(�8.x��Z��8�K��X��8;�[۞�~8�8(����{�>8y��K��8n�h�8�8(�[۞8�8(����{�^8�8ih~�H�8~X�Nij�8�8(�8" ��8	��{꞊��8	��8;�F�R�ff�6R �Z�{ꓢXZΈ~8;�[۞�~8�[K��8�8(�8" ���[�c�8���8� ��^8C�F�R�ff�6V8�77V�R�ff�6V8(�8(�i��	�8~8[K��8�8N8nX{�i�^K��8).y�Nh�^��8�8(�8&77V�R�ff�6V8�XZ�[��8;�z�8N���8�8�[�~8N8" �K賢F�R�Wrv�fW&��"v���F�R�ff�6R����V'�� ���3�iky�^K��8�iȎ8�[K��8�8(�8" ��8;�F�R��F�R&��R�b8�[۞X�.8� �Z�{ꓢ8.8(�[۞X�.8).[�^8�X�~88(�8" ���[�c�8���8� ��^8C�F�R��8�Kɮ��y�N8~8[۞X�.8).ik8�8�h�8�8(�hI�8�8�[�~8N8&77V�V8�XZ�[��8�[۞X�.8�h�Zx�8�8(.K��8�8(�8" �K賢��F�����F�R&��R�b�V�F�"f�"F�R��FW&�2� ���3�89�8:N8�8*N8;>8+�8;�8;>8��V�F�"[۞8).[�^8�X�~88�8" ��8;��67W�8��6�F���8� �Z�{ꓢY�K��8;��~8;�ZNh�8).X�8(8(�8" ���[�c�8�b�8� ��^8C��67W�8�8�8�K��{��8�8N8(�x�nhX�8).��8�8(N8�8�877V�V8�8(�8n8�[K��8;�[�^8�X�~88�X{�i�^K��8�[�^��8~8�8�8N8" �K賢6�R�67W�VBF�R�6�F���f�"�V&ǒFV6FR� ���3�[��Z[>8�8�8�~8).8�8�[�N�i>X��8(8�8" ��8;�7V66VVBF�8�F�&��R��ff�6^8� �Z�{ꓢX��K���^8�[��8).{i�8N8~x�K��8;�Y�K��8�[8�8" ���[�c�8�B�8� ��^8C�7V66VVBF�8�{i�h��8;�[��{i�8�j.K�.8).i��zK�8~877V�V8�{i�h��K�^ZIn8�[K��8�8(.K��8�8(�8" �K賢��2FVv�FW"7V66VVFVBF�F�RF�&��RgFW"��2FVF�� ���3�[��8�j۾[��8Z��8�x�K��8).{i�8N88" ��B�8	K�nX�^���8	[�.8;�h
+~�:�8;��xފhh
+~8�8�8).[��8>8(�8���8�jy�y��8).Y�8�8(���8	iz^i�Ί�>8;�Z�{�8	x��K��8�88.8(�[�.8;�Z{�8;�h
+~�:�8;��xފhh
+~8;��h�j�8�8�8).j�z��8�h�8N8(�8n8�8�8(�88�8�8�8�8�8(�8n8�x�nhX�8�8~8nx��8(�8(�8.xJyI�x��8(Nh�ދy�N8�K��i�N8).K�����8�8�8(�8>8�8�ZI�8�8z�8N���i��8;�h��Xi�8~K��8n8" ��8>8�{�8~8�8��8�8�hH�Y�>y�N8�k�N8�8(�8�8���8(�8�8N8.x��K��8�[�.8(NhH�Y>8�ZH�X�n8~8n�h�8�8(�8>8�8).��8�8hX�[�n8(N��h8^8).hH�Y�>y�N8��8^8n���{�^8�8�XˮX�^8�8(�8" ��8	��[�n8	8�R�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8(N8(Nz�8Nj��k�n���8.Z�n�>8Z�>8��^��n8h��>8ih~Z�ny�N8�h��Xi�8~K��8n8.iz^[��Kɮ��8~8�F�R��8&V6��V8FWfV��87F'BF��fV8�8�8���8Nh��8�8(�8>8�8�ZI�8N8" ��8	ih~k9^898+�8;�8;>8	77V�Rf�&��6�V���[�.8;�Z{�8).8�8(����77V�Rw&VFW"���'F�6R�6�v�f�6�6V���8(�8(��xފh8�hH�Y>8).[��8>8(����77V�RF�ffW&V�B6�&7FW&���y[8�8(�h
+~�:�8).[��8>8(����77V�R&��'F���6���8.8(��h�j�8;�z��[�n8�8�8(����77V�R6�GF��r�7F�F��r�6�F������[�~K��8;�z��K��8).8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�77V�R�Wrf�&� �yJ��	C�x��K��8�ik8~8N[�.8;�8.8(�ik�8�8�8(�8" �K賢F�R��B6W'f�6R77V�VB�Wrf�&�gFW"F�R�W&vW"� ���3�8�8�iz~8+^8;�89>8+�8�Y�K�^[��8ik8~8N[�.8�8�8>8�8" ��8;�77V�RF�R6�R�b8�x��8� �yJ��	C�x���:�8(Njx��
+8�x��Z�8�[�.8�8�8(�8" �K賢V�FW"&W77W&R�F�RƗV�B77V�VBF�R6�R�bF�R6��F��W"� ���3�Y�~X��8).X�~88(�8�88�8�kk.K�>8�Z�Y��8�[�.8�8�8>8�8" ��8;�77V�Rw&VFW"���'F�6V �yJ��	C�K��i�N8�K�^X��8(�8(��xފh8�hH�Y>8).h�8N8(�8n8�8�8(�8" �K賢F�RF�67W76���77V�VBw&VFW"���'F�6RgFW"F�R6fWG�&W�'Bv2&V�V6VB� ���3�Z�XZ�ZY�i��8�XZΊ�8^8(�8�[��88�8����n8�8(�8(��xފh8�hH�Y>8).h�8N8(�8n8�8�8>8�8" ��8;�77V�R6�v�f�6�6V �yJ��	C�X{�i�^K��8(Ny���h�8�x��X�^8�hH�Y>8;��xފhh
+~8).[��8>8(�8" �K賢F�R6���&��V7Bw&GV�ǒ77V�VB�F����6�v�f�6�6R� ���3�8�8�[�8^8����yK�8�j�z��8�Y��XZ�K�>8��j.8(�8(��xފhh
+~8).[��8>8�8" ��8;�77V�RF�ffW&V�B6�&7FW& �yJ��	C�x��K��8�h
+~�:�8;�jy�y��8�K�^X��8�8�y[8�8(�8(.8�8�8�8(�8" �K賢F�RFV&FR77V�VBF�ffW&V�B6�&7FW"��6RF�R6�7G2&V6�R6�V"� ���3��+�yJ�8�i��8(�8�8�8�8(�8�88�8����n8�y[8�8(�jy�y��8).Y�8~8�8" ��8;�77V�R�&֖�r&��'F���6 �yJ��	C�YX���8(NX����8�hh.hZ�8�8�8ފh�j�8��N8�8(�8" �K賢F�R6��'FvR77V�VB�&֖�r&��'F���2GW&��rF�R�VBvfR� ���3�xɾi�8�i>8�88�8�K�ދk>8�hh.hZ�8�8�8ފh�j�8�8�8>8�8" ��8;�77V�R6�GF��r�7F�F��r�6�F��� �yJ��	C�K��8�[�~K��8;�z��K��8�8�8�Z{�X�.8).8�8(�8" �K賢F�RF�V�G2vW&R6�VBF�77V�R6�GF��r�6�F���&Vf�&RF�R66�� ���3�h*>�^8�88�i*�[�X��8�[�~8>8�Z{�X�.8).8�8(�8(�8nk.8(8(�8(�8�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�K�����8�8��GFW&8F�67W76���8G&V�F8ƗV�F8&�&�V�8�8(�8n8�x��K��8).{��8�8>8�8�ZI�8N8&77V�R���'F�6V8�8Θxފh88�K��Z�8�8(�8�8~8�8�8�88Θxފhh
+~8).[��8>8(�8�8~8.8(�8" ��77V�R�6�F���8�8[۞�~8�[8����{�>8�8(.8[�~K��8;�z��K��8�8�8�Z{�X�.8).8�8(�8>8�{�8�8(.8�8(�8.[��8(�8��b���&8�8(�8n8�[۞�~Y�8�8.8(�8���{�>86�GF��v8(N���K�>8�x�nhX�8�8.8(�88>8�{�8�X�Nij�8~8(N8�8N8" ��8	��{꞊��8	��8;�F�R�� �Z�{ꓢ[�.8h
+~�:�8hH�Y>8ZIn�k>8�8�8).[��8>8(�8" ���[�c�8���8� ��^8C�F�R��8�Kɮ��8~8(.K��8N8(N8�8�8ZH�X�n8~8nik8~8Nx��[�N8).h�8N8>8�8).[�>8���8�8&77V�V8�z�8Nh��Xi�8(N���i��8�Y	8�8" �K賢F�R6��VG2F�����v��FV�6���"B7V�6WB� ���3�iz^k*i�.8��.8��y��.8).[��8>8�8" ��8;�7V�&R �Z�{ꓢh
+~�:�8x��[�N8�xފhh
+~8�8�8).���8�8N88(�8[�~8(�8" ���[�c�8���8� ��^8C�7V�&V8�x�.[�~8��z��8(N{Yi��8�xJnx+�8�8.8(�877V�V8�[�.8;�jy�y��8).8�8>8nx��8(�8(�8>8�8�8(.K��8�8(�8" �K賢F�R�77VR7V�&VB�Wr6�v�f�6�6RgFW"F�R��fW7F�vF���� ���3�8�8�YX���8����i��[��8ik8�8��xފhh
+~8).h�8N8(�8n8�8�8>8�8" ��8;�FWfV�� �Z�{ꓢh
+~�:�8YX���8X+�Y	8�8�8�j�z��8�yI�8�8(�8y���N8�8(�8" ���[�c�8��8� ��^8C�FWfV��8�i�.�i>8).8�88�y��yI�8;��.[^8�xJnx+�8�8.8(�877V�V8�{Yi��8�8~8nx��Z�8�[�.8(Njy�y��8).[��8>8(�8>8�8).h��Xi�8�8(�8" �K賢F�R��FWfV��VB6W&��W2f�rGW&��rFW7F��r� ���3�8�8�yK�8���n��>K��8��x�ZJ~8�j���^8).yI�8�8�8" ��8;�&V6��R �Z�{ꓢ8.8(�x�nhX�8;�h
+~�:�8�8�8(�8" ���[�c�8��8� ��^8C�&V6��V8�i�8(.K����y�N8~K��z��y�N8�ZH�X�n8).��8~877V�V8�z�8Nih~K�>8(N8�8.8(�[�.8).8�8(�8�8�8N8n�h�8�ik�8).[�~���8�8(�8" �K賢F�RVW7F���&V6�R��&R���'F�B2F�RFVFƖ�R&�6�VB� ���3�{z8(X�~8(�8΋�8^8�8�8N8(�8n88�8�YX���8�8(�8(��xފh8�8�8>8�8" ��R�8	K�nX�^���8	�ȎhX�[�n8;�ZIn�k>8�8�8).�Ȟ�8^8n8���8�8^8(�8).8�8(���8	iz^i�Ί�>8;�Z�{�8	i��[�>8�[�^8�8~8(.8�8n8~8�8NhX�[�n8hI�h8^8ZIn�k>8���X�n8�8�8).hH�Y�>y�N8����8�8N88n88�8n�h�8�8(�8(�8n8�8�8(�8&77V�R��"�W�&W76����GF�GVFV8�8(�8n8�8Xh^��.8�x�nhX�8(�8(�8(.ZIn8�zK�8�X��8�xJnx+�8�8.8(�8" ��X�Y�8;�X�8�X�n8;�ZH��8^8~8�Z{�8).��8)>8~K��8nZNY�8�8(.yJ�8N8(�8.[۞8).Z�����8�h�^8n���{�>8��^8N88>8>8~8��h�8�8�88(NXފ8^8~8.8(�8>8�8Θxފh8~8.8(�8" ��8	��[�n8	8�b�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���88�88(N8(Nz�8N8;�ih~Z�ny�N8����8�8�8.8(�8.ih~z�8x�����8Z�>8XZ�[��8����i��8~ZI�8�8Kɮ��8~8�&WFV�F8WB��87F8�i��	�8�8>8�8(.8.8(�8" ��8	ih~k9^898+�8;�8;>8	77V�R��"�W�&W76����GF�GVFR�b���������8�8N8nhX�[�n8;���h8^8).�8^8n���77V�Rf�6R��R��FV�F�G����X�Y�8;�X�8�X�n8).Y�K�~8(����77V�RF�RwV�6R�b8�K��x��8�������8�Z{�8).�8^8n���77V�R�6V���89�8;�8+�8).8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�77V�R��"�b6��f�FV�6V �yJ��	C�i��[�>8�Xh^��.8�8�X�^8�8�z�K�8�8.8(�8(�8n8�hX�[�n8).�8^8n8" �K賢F�Rv�F�W7277V�VB��"�b6��f�FV�6R��F��Vv���2��G2vW&R6����r� ���3�8�8�K��8�h��8).��~8(�8�8�8�8(�8(.8�z�K�8�8.8(�8(�8n8�hX�[�n8).�8^8>8�8" ��8;�77V�R�W�&W76����b6�� �yJ��	C�i��[�>8�K��Z�8~8(.8��8y�8N8n8N8(�8(�8n8���h8^8).K��8(�8" �K賢6�R77V�VB�W�&W76����b6��6�F�R6���G&V�v�V�B��B��F�6R�W"fV"� ���3�[��Z[>8�Z�8�8(.8�88�hh	n8).k	~8^8�8(�8�8N8(�8n8��8y�8N8���h8^8).�8^8>8�8" ��8;�77V�R�GF�GVFR�b��F�ffW&V�6V �yJ��	C��j.[�>8�8�8N8(�8n8�hX�[�n8).hH�Y�>y�N8��h�8�8(�8" �K賢�R77V�VB�GF�GVFR�b��F�ffW&V�6Rv�V��R&VBF�R7&�F�6�6��'WB�R&W&VB�BF�B�v�B� ���3�[��8�8�8�h��X�N8).���8)>88�8�xJ�j.[�>8�hX�[�n8).�8^8>8�8�88�8�ZI�8����8���N8~8�8" ��8;�77V�Rf�6R��V �yJ��	C�i��Y�8~8�8�8NY�X��8).K��8N8���XX>8).��8�8" �K賢F�R7�77V�VBf�6R��R&Vf�&R7&�76��rF�R&�&FW"� ���3�8�8�8+�898*N8�Y��Z(>8).�h�8�8(�X��8�X�Y�8).Y�K�~8>8�8" ��8;�77V�Rf�6R�FV�F�G� �yJ��	C�i��i�^8�X�n8�8�y[8�8(����XX>8).�8^8n8" �K賢F�R6��W"77V�VBf�6R�FV�F�G���Ɩ�RF��'F��&�fFR��f�&�F���� ���3�8�8�y��K��^8�X�K��h8^Z8).[�~8(�8�8(88*�8;>8:�8*N8;>8~X�8�XX>8).�8^8>8�8" ��8;�77V�RF�RwV�6R�b8�K��x��8� �yJ��	C�8.8(�K��x��8(NZَYʎ8�Z{�8;�z��ZN8).�8^8n8" �K賢F�R7F�"77V�VBF�RwV�6R�bF�&VBG&fV�W"F�VW7F���F�RwV&B� ���3�8�8�K�>XJ�8���nX)�Y:8��:�YX�8�8(�8�8(8yk.8(�8�ix^K��8�Z{�8).�8^8>8�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�77V�V8�8y��8�hI�h8^8(N���X�n8).8�8�8�8��8�8(����8~8�8�8N8&77V�R��"�b6��f�FV�6V8��z�K�8�Z�����8�8.8(�8�8N8nhH�Y>8~8�8�8�8�z�K�8�8.8(�8(�8n8��h�8�8(�8>8�8).��8�8" ��77V�R&��V8�8x��Z��8�[۞X�.8).[�^8�X�~88(����{�>8�8(.8k�Nh�8;�Xފ8^8�[۞8).k�N8�8(�8>8�{�8�8(.8�8(�8&77V�VB��V877V�VB�FV�F�G�8�77V�VF8�88>8�8Ίh�8�8�88�8~8nh�yJ�8^8(�8�8�8�8N8nhH�Y>8�[�.Z랊��yJ�k9^8~8.8(�8" ��8	��{꞊��8	��8;�&WFV�B �Z�{ꓢi��[�>8�8�8n8~8�8N8>8�8).88�8n8~8.8(�8�8�8(�8n8�8^8(�8�8n8" ���[�c�8��8� ��^8C�&WFV�F8�Kɮ��8~i�8(.i��	�8~8Z�8�8(.8�8N8>8>8�8(�hH�Y�>y�N8�Xފ8^8�8~[�>8�K��8n8&77V�V8�h�yJ�8~8�hX�[�n8;�Z{�8;����X�n8).z�8�h��Xi�8�8(�8" �K賢�R&WFV�FVBF�&R6��GW&��rF�R��FW'f�Wr� ���3�[��8���.h�^K��8��8y�8N8n8N8(�8^8(�8).8~8�8" ��8;�fV�v� �Z�{ꓢhI�h8^8yx^k	~8hX�[�n8�8�8).iX^hH�8��8^8n8" ���[�c�8�R�8� ��^8C�fV�v�8�hH�Y�>y�N8�X�8(�8).[�~8�zK�8~8yx^k	~8(NhI�h8^8).Xފ8^8�8(�ih~�H�8�Y	8�8&77V�V8�hX�[�n8;�ZIn�k>8;����X�n8).���8�8N88(�h��Xi�8�8(.K��8�8(�8" �K賢F�RFVfV�F�BfV�v�VB7W'&�6RBF�R67W6F���� ���3��*�Y�8�8�8�Y�y��8����8N8�8^8(�8).8~8�8" ��8;�ffV7B �Z�{ꓢZ�����8�8�y[8�8(�hX�[�n8y����>8hI�h8^8�8�8).8(�8n8�zK�8�8" ���[�c�8�b�8� ��^8C�ffV7F8�K�ވz�xKn8�k	~X�n8(�8(NK��x+�y�N8�hX�[�n8).h��X�N8�8(�Y
+�8�8�X{�8(N8�8�877V�V8�[�^8�8~8(.��>8).Y
+�8�8�8N8" �K賢6�RffV7FVB6�VW&gV�F��RFW7�FRF�R&B�Ww2� ���3�[��Z[>8�h*�8Ny�^8(�8�8�8(.8�8�8(�8(�8�8i��8(�8NX�>���8).�8^8>8�8" ��8;�WB�� �Z�{ꓢhI�h8^8hX�[�n8Z;8��h8^8�8�8).hH�Y�>y�N8�K��8>8n�h�8�8(�8" ���[�c�8���8� ��^8C�WB��8�Kɮ��y�N8~8y��i�.�i>8�hX�[�n8;���h8^8�k�Nh�8).��8~8(N8�8N8&77V�V8�ih~z����8~88.8(�Z{�8(N���X�n8).h�yJ�8�8(�hI�8�8�8.8(�8" �K賢�RWB��6W&��W2W�&W76���v�V�F�R6�W&GW&�VBF�v&B���� ���3�8*�8:8:�8�[��8�Y	8�8�8[��8�y��X�>8���h8^8).K��8>8�8 ����Р�2vV�V��P����Ц�VGv�&C�vV�V��P�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#p�WFFVE�C�##b���#p�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{>8;�������L�&V�\�����Ȏ��>z�8).XˮX�~8(�8���L�&V��R욦���Ȟ8#>��>z�8��T�ז��֖�8~8z����>z�8�K��[�~X�.8�8.8(�8.���iʾ8�֖�V8�v��V8�8(�8n8������8~8�8�8�8[�8B�����8�y����>8�8(�8" �{>���8�y����>�����8~8�8[�X�n8�j�ޙ�>�i>8��r�8).X��i�8~8b���L�&V�欙��|����8�8(�8n8�zK�8^8(�8(�8>8�8(.8.8(�8.[	i[8�^8����iʾ8).[�~8������8�8�8(��[~[�N8�ZH�y[8(.�����.8^8(�8(�8�8Z�n{�.yJ�8�8����L�&V�\����8).Y��i��8�8�8(�8" �vV�V��Vǖ8����L�&V�\���ƒ�8vV�V��V�W768����L�&V�\���왗2�8�8(�8n8�8X��X�~8�8~8nz����>z�8�[�~X�.8).K��8N8" ����>���k� ��vV�V��V8�88:�88n8;>���vV�\J��W68�yI�i�^8�8�z�xKn8�8i��x��8�8�8�yKi�^8�8(�8.�����8~8�nK�n{Hiʾ8�8(�~K�n{HX��Xخ8�8�88nZ�y�8~8X��i��8�8�8�yI�8�8(�8N8�8�8�z�xKn8�8[��8�8(�K��8(�8(�8�8(.8�8~8�8�8N8�8�8N8nhH�Y>8�K��[�>88>8�8.8�8>8�8(�8�K��[�^8^8(�8�yKi�^8�8(�Z�����8�X{�8�8�8Ίh�8�8�88~8�8�8�i��[�>8�8(�8�8�8�Z�����8�ZَYʎ8�8(�8�8�hH�Y>8�[�>8�8>8�8" ����k��8~ii�8�8�8vV�\J��W68)"vV�V8Έi�8�8�{Y8>8N88x�n8�ikyI�XY8).�i�8�K�~8�8nx�nZ��j.K�.8).���8(8(�{�.hZ>8�yKi�^8�8(�8�8�8(����i��8�8v�v�W&V8�yI�8(8yJ>8�X{�8�8�8�Y�8����ix�8�{Y8>8N88(����i��8�8.8(�8.X�ވ^8����8).YJ�K�8�z+�Z�8~8����k�8�8~8nij�Z�8~8�8N8" ����>���[�.h� ��vV�V��Vǖ(	BX�����8�i��[�>8�8[�>8�8(�8y��8�8�8&vV�V��VǒW6VgV�8�i��[�>8�[۞z��8N8�8vV�V��Vǒ6&V8�[�>8�8(�k	~8�8�88(�8�8vV�V��Vǒ7W'&�6VF8�i��[�>8����8N8�8�8�8(�8n8�8[�.Z랊��8;�X�^���8;�X�n���8).K��;�8�8(�8" �vV�V��V�W76(	BYފ��8�y��j�>h
+~8i��x��8~8.8(�8>8�8y��i�8^8�8.�	�[��8�K��X��z�~8~8F�RvV�V��V�W72�bF�R6�v�GW&V8�8�8�{�.Y�8�y��j�>h
+~8�8�8(�8n8�K��8n8&vV�V��V�G�8�8�8~8�8N8" �vV�V��R'F�6�V(	B8�j�>y��j�>���8�i��x��8�8�8N8nZ�y���x��8.���[�.h�K��8�kK�yI����8~8�8�8�8vV�V��V8�'F�6�V8�{XN8�Y�8(�8�8�hZ>yJ�X�n8~8�8(.8�8~8.8(�8" ����>8+>8*.8*N8:8;�8+���vV�V��V8�j�8�8�h�8�88;�Y�K�~8(�8;�K��[�^888~8�8�8Z�����8�yKi�^8;�h
+~�:�8;�k	~h�88�8�8(�8�Z��[��8~8n8N8(�8>8�8~8.8(�8.K�^8�Z��[��8�8(�8�8�8(�8>8n88�X�x��8~8�8N8�8�i��[�>8�8(�8�8�8�x��Z��8�ZَYʎ8�8(�8�8�8N8nyJ�k9^8�X�n8�8(�8(�8" �8;�Y8x��8(N{�.Y�8�K��[�^8^8(�8�yKi�^8�Z�����8�yKi�^8�K��{N8�8(�(i"8�i��x��8�8y��j�>8�8��Ȏ���{��Ȓ �8;�hI�h8^8(NhX�[�n8�h�8�ik�8�Xh^��.8�K��{N8�8(�(i"8�i��[�>8�8(�8�8X�8(�8�8�8N8��Ȏ���{�.�Ȓ �8;�YX���8[�^�h8j��Kɮ8�8�8�K��[�^8^8(�8�ZَYʎ8;�K�X
+N8�Z�����8�8.8(�(i"8�x��Z��8�8Z�����8�8��Ȏ���{�>�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	[�.Z랊��8;���Z����X����8	i��x��8�8y��j�>8�8Xޘ
+8~8�8@��8	iz^i�Ί�>8;�Z�{�8	x��8K��Y88ih~i��8{�.Y�8�;�Y88�8�8�88�8n88�8^8(�8n8N8(�yKi�^8;�K�Έ^8;�i��:�8;����XX>8).Z�����8�h�8>8n8�8(�8X�x��8j��
+Y88Xޘ
+Y88~8�8�8N8>8�8).��8�8.Xَ8�8Κ��K�8�8�8�X�N8N8�8Ίh�8�y��8�i��x��8(�8~8N8�8�8N8nhH�Y>8~8�8�8N8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.{��>Y88�Z�8YXnX�n[�^8�;�Y8K�ފ��8ih~i��z+����8���XX>z+����8�8�8~[�>8�K��8n8.iz^[��Kɮ��8~8�&V�8XZ�[��8;��Z�8�ih~�H�8~8�WF�V�F�68Θ�88(�8(�8>8�8(.8.8(�8" ��8	ih~k9^898+�8;�8;>8	vV�V��R8�K��Y88;�ih~i��8;��;�Y88����i��x��8�������&R������V"�&�fRvV�V��V���i��x��8~8.8(�8;�i��x��8(�8~8N8;�i��x��88�X�Ni��8�8(����fW&�g��6��f�&�F�B8�x��8��2vV�V��V������8�i��x��8�z+����8�8(����F�RvV�V��R'F�6�V���j�>y��j�>���8�i��x�� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�vV�V��R8���F��r�6�v�GW&R�F�7V�V�N8� �yJ��	C�K��Y88{�.Y�8ih~i��8�8�8�Xޘ
+8;�j��
+8~8�8�8�i��x��88���8�8(�8" �K賢F�R�W6WV�6��f�&�VBF�BF�R6�v�GW&R��F�R�WGFW"v2vV�V��R� ���3�8�8�Xٮx���J�8�8h��{I�8�{�.Y�8�i��x��88�z+����8~8�8" ��8;�vV�V��R�VF�W"�v��B�F����F �yJ��	C�K��[z^{Ji�8(Nj��
+Y88~8�8�8�8��zK�8^8(�8�i��:�8�8�8(.8�8~8.8(�8>8�8).��8�8" �K賢F�R�&V�6�2F�BF�R&r�2�FR�bvV�V��R�VF�W"� ���3�8�8��zK�8�8�88�8�8988>8+8�i�Ιڞ�;�88�i��8�8(�8n8N8(�8" ��8;�vV�V��R8�'&�N8�&�GV7F �yJ��	C�89n8:�8;>88�8�j�>�h�Y88~8.8(�8X�89n8:�8;>88�Y88~8�8�8N8>8�8).��8�8(�8" �K賢F�R7F�&RwV&�FVW2F�BWfW'��FV��2vV�V��R��Vf7GW&W.(	�2&�GV7B� ���3�8�8�[�~8�88�8�8n8�YXnY88�8:8;�8*�8;�8�j�>�h�Y888�K�ފ��8~8n8N8(�8" ��8;�F�RvV�V��R'F�6�V �yJ��	C�X�x��8(NZ�K�8�K�>yJ�Y88~8�8�8N8j�>y��j�>���8�i��x��8).[�~���8�8(�8" �K賢F��2vF6��2F�RvV�V��R'F�6�R���B6��f��6��r6��� ���3�8>8�i�.���8�88(�8�8~8�8�8+>89N8;�Y88~8�8�8�j�>y��j�>���8�i��x��88" ��8;�fW&�g��6��f�&�F�B8��FV�8��2vV�V��V �yJ��	C��Z�8(NjI�i��8�8(�8>8n8x��8�y��j�>h
+~8).z+�8�8(8(�8" �K賢�W�W'Bv2��&VBF�fW&�g�F�BF�R�F�VRv2vV�V��R� ���3�8�8��>Y88�i��x��8�z+����8�8(�8�8(8[.�hZ�n8Ι�~8(�8(�8�8" ��8;�F�7F��wV�6�vV�V��R8��FV�8�g&��6�V�FW&fV�F �yJ��	C�i��x��8�Xޘ
+Y88).�h�X�n88(�8>8�8).��8�8(�8" �K賢F�R6�gGv&R�V�27W7F��2�ff�6W'2F�7F��wV�6�vV�V��R�VF�6��W2g&��6�V�FW&fV�G2� ���3�8�8�8+�89^88�8*n8*~8*.8�8z��j.�~Y:8�i��x��8�X˾�j�Y88�Xޘ
+Y88).�h�X�n88(�8�8�[۞z��8N8" ��8	���k9^8;�k:�hH�8	vV�V��V8�Yފ��8�X��8�8(.8F�RF�7V�V�B�2vV�V��R�8�8(�8n8��9Ί��8�8(.{��88(�8&vV�V��V8~8.8(�8>8�8�8yKi�^8(Ni��:�8�K��[�^8�8�8(�88�8N8nhH�Y>8~8.8(�8Y�k9^8j�>�h�8�X�n[�~8^8(�8�8Y8�:�8Κ��8N8�8N8n8>8�8�8~K�ފ��8~8�8N8" ��vV�V��V8�[�^8�8~8(.8�i�X��8�K��8(�8(�8�X��x��8�8).hH�Y>8~8�8N8.8�8�8�8vV�V��R&W�6V�V�B'F8�88:8;�8*�8;�8�[��8�8(��;ޘ
+8~8�j�>�h�8�K�Nh���:�Y88~8(.8(�8N8.i�X��8�K�Y88;�X��x��8~8.8(�8>8�8).[�~���8�8(��&�v���8�8�xJnx+�8�y[8�8(�8.K��8�8N8N8bvV�V��RW'6��8���8n8�8���XX>8�i��x��8�8N8n8(�8(�8�	�[��8����{�.8�8Ί�Z��8�K��8�8).��8�8" ��8	��{꞊��8	��8;�WF�V�F�2 �Z�{ꓢK��[�^8^8(�8�yKi�^8;�K�Έ^8;�jy�[��8�i��[�>8�Y��8^8�8i��x��8�8" ���[�c�8���8� ��^8C�WF�V�F�68��Z�K��8�y��j�>h
+~8�X�8�8X��x��8�[�Z��8�Xh�x��8(Nih~X�ny�N8�i��ZN8(�8~8N8>8�8�8(.K��8�8(�8&vV�V��V8�X�x��8;�j��
+Y88~8�8N8>8�8(NZ�����8�X{�h�8).y�Nh�^[�~���8�8(�8" �K賢F�Rv��W'�F�7��VB�WF�V�F�2�'G&�B'�F�R'F�7B� ���3�8�8�yK�[��8�88�8�yK�Z�n8�8(�8(�i��x��8�)nX8�yK�8).[^zK�8~8�8" ��8;�&V� �Z�{ꓢX�x��8(Nh;>X8�K��8�8(.8�8~8�8�8�8Z��Yʎ8�8(�i��x��8�8" ���[�c�8��8� ��^8C�&V�8�i�8(.[�>8�8ZَYʎ8;�K��Z��8;�z��[�n8�8(.K��8�8(�8&vV�V��V8�8��zK�8(NK��[�^8^8(�8�8(.8�8�Z�����8�yKi�^8;�h
+~�:�8�K��{N8�8(�8�8N8nxJnx+�8�[�~8N8" �K賢�2F��2&V�F����B�"�V6R�bv�73� ���3�8>8(�8�i��x��8�888*N8:N8:.8;>88�8~8�8�88�8(�8�8(.8*�8:�8+�x�~8~8�8�8" ��8;��&�v��� �Z�{ꓢ8+>89N8;�8(Nj��
+Y88~8�8�8�8i�X��8�K��Y88;�X��x��8�8�8(.8�8�8" ���[�c�8���8� ��^8C��&�v���8�8�i�X��8�K��8(�8(�8�8(.8�8�8�8+>89N8;�8�XX>8�8).zK�8�8&vV�V��V8�[��8�8(�K��8(�8(�8�j�>�h�Y88�8(.K��8�8(�8�8(8K��^8�[��8�Y�8�8~8�8�8N8" �K賢F�R&6��fR�VW2F�R�&�v�����W67&�B��6Ɩ�FR�6��G&���VB&���� ���3�8�8�ih~i���J�8�X��z��8�X��i��8).k��[�nz�yn8^8(�8��:�[�8�K��z�8~8n8N8(�8" ��8;�&��f�FR �Z�{ꓢj�>y��j�>���8�8j�>[��8�8YhNhH�8�Y��8^8�i��x��8�8" ���[�c�8�R�8� ��^8C�&��f�FV8�8(N8(Nz�8�88Ίh�8�8�88~8�8N8�8�j�>[��8����8(8(�8(�8(�8�8�YhNhH�8�8�8�8N8nY
+�8�8�X�8(�8(�8(N8�8N8&vV�V��V8�i��:�8(NK�Έ^8�8�x��yny�N8�y��j�>h
+~8�8(.i��	�8�K��8�8(�8" �K賢F�RƖ6�B�2&��f�FR�V�&W"�bF�R&�fW76����76�6�F���� ���3�8�8�yK>����^8�88�8�[.�h�~Y�>K�>8�j�>[��8�KɮY:8~8.8(�8" ��8	X��hH����8	��8;�f�R �Z�{ꓢi��x��8(�8~8��h�8�8�X�x��8�8" ���[�c�8��8� ��^8C�f�V8�iz^[�����8~8x��8�8(.{�.Y�8;����X�n8�8�8�h�8�8�88�8(.[�>8�K��8n8&vV�V��V8�X��Z��XN8).i�8(.i��	�8���8�8" �K賢F�R�V6��6R����VBW�V�6�fR�'WBF�R7F��W2vW&Rf�R� ���3�8�8�88�88>8*�8:�8+�8����K�8��h�8�8�8�8y�>8�X�x��88>8�8" ��8;�6�V�FW&fV�B �Z�{ꓢi��x��8).8�8�8nK��j�>8�K��8>8�Xޘ
+Y88�8" ���[�c�8�r�8� ��^8C�6�V�FW&fV�F8��	��*�889n8:�8;>88�Y88�j�8�8�8).i��x��8��h�8�8(�8�8(8�{XN{�Ny�N8;�hH�Y�>y�N8�Xޘ
+8�xJnx+�8�8.8(�8&f�V8(�8(�z�8�X[~K�>y�N8~8.8(�8" �K賢7W7F��2�ff�6W'26V��VB6���V�B�b6�V�FW&fV�BvF6�W2� ���3�z��j.�~Y:8�Xޘ
+i�.���8�z��8���~8).h��X��8~8�8" ��8;�f�&vVB �Z�{ꓢ{�.Y�8ih~i��8���i��i��8�8�8�Xޘ
+8^8(�8�8" ���[�c�8�b�8� ��^8C�f�&vVF8�K��8�{�.Y�8(NXZ�[��ih~i��8).K��j�>8�K��8>8�ZNY�8�x��8�K��8n8&6�V�FW&fV�F8�x��Y88(N�	��*�8�Xޘ
+8�8(.K��8n8" �K賢F�R&�&V�V7FVBF�Rf�&vVB6�V6�� ���3�8�8��8�Xޘ
+[�X�~h��8).X�~8K��88�8�8>8�8" ��8;�7W&��W2 �Z�{ꓢi��x��8;�j�>[�>8�yKi�^8�8.8(�8(�8n8��h�8�8�88�88�8�8�8" ���[�c�8�B�8� ��^8C�7W&��W68�z�8Nih~z����8~8K��[�^8ynyK8{;�{[8ih~i��8�8�8�y��j�>h
+~8;�j�>[�>h
+~8).yi8n8�8�8�K��8n8&vV�V��V8(�8(���^K�y�N8~8.8(�8" �K賢F�R7GVG�v2&6VB��7W&��W2��7F�&�6�F�7V�V�B� ���3�8�8�z	Nz�n8�8X�8�j�NX�.ih~i��8�Y��8^8N8n8N8�8" ��"�8	[�.Z랊��8;���Z����X����8	i��[�>8�8(�8�8X�8(�8�8�8N8��Z��8���8	iz^i�Ί�>8;�Z�{�8	hI�h8^8�j.[�>8���{ڮ8hX�[�n8����8�8�8�Z�����8�hI�8�8�8(�hH�Y�>8~8�8(�8~8�8(.8�8�Y��8^8�8y��h��8).jˮ8�8�8(8�k�Nh�8~8�8�8N8>8�8).��8�8.K��8).K�����8�8�8(�8�8���X�n8(NZIn�h�8~8�8�8�8K�nK��8�8�h�^8~ik�8(N��X�^8�x�~y�N8~k	~X�n8(�8�8N8�8N8n�*�Z�y�N8���^K�8�8�8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Kɮ��8K��x��h��Xi�8Z��K���j.K�.8���{ڮ8(N[�>Z8^K�8~[�>8�K��8n8&vV�V��RW'6��8�8Ί�Z��8~k	~X�n8(�8�8NK��8�8�8N8n�I.8(����8�8�8(�8(N8�8N8�88>8�[�.Z랊��888~88�8�K��8�XZ�y����8�K��Z��88�8�8[��8�YhN���88�8N8n8>8�8�8~K�ފ��8~8�8N8" ��8	ih~k9^898+�8;�8;>8	vV�V��R�8�hI�h8^8;��j.[�>8;����{ڮ8;�hX�[�n8����i��[�>8�8(�8�������vV�V��RGFV�B�FW6�&RF�8�X�^���8����[�>8�8(�8����8�8(���n8�8;���iɾ���&R�6VV��6�V�BvV�V��V���i��[�>8�8(�8�8(�8n8��h�8�8(�8;���8>8�8(����vV�V��RW'6����ފ�Z��8~k	~X�n8(�8�8NK�� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�vV�V��R6��6W&�f�"8�K��8;���nY�>8� �yJ��	C�8.8(�K��8(N��nY�>8�vV�f&R8).i��[�>8�8(�k	~8�8�88n8N8(�8>8�8).��8�8" �K賢�R6��vVBvV�V��R6��6W&�f�"F�Rf֖ƖW2F�7�6VB'�F�Rf���B� ���3�[��8�kJ�kN8~K��8(ZNh�8).ZK8>8�Z�nix�8).i��[�>8�8(�[�>�X�8~8n8N8�8" ��8;�vV�V��R��FW&W7B��8�X�n�x�8;�kK�X�^8� �yJ��	C���^X�N8(NX��y��8�8�8(8~8�8�8�8Z�����8��j.[�>8).h�8>8n8N8(�8>8�8).��8�8" �K賢6�R�2vV�V��R��FW&W7B��7G&���ג���B�W7B��F�R��"F�F�R� ���3�[��Z[>8�8�8�~Y�8�8~8�8�8�8ZJ�ih~Z�n8�8�8(.8�8�i��[�>8�j.[�>8).h�8>8n8N8(�8" ��8;�vV�V��R���w� �yJ��	C�[�.888~8�8�8h*�8�8>8�8�8N8nk	~h�88).K�N8n���{ڮ8).��8�8" �K賢��2vV�V��R���w��V�VBF�RGv�6���VwVW27F'BFƶ��rv��� ���3�[��8�[�>8�8(�8���{ڮ8�8.K��8�Y�X9�8�Xh�8>��8~Zx�8(8(�X��88�8�8>8�8" ��8;�vV�V��R7W'&�6R�����ffV7F��� �yJ��	C�k�Nh�8~8�8�8�8Z�����8�hI�8�8n8N8(����8�8Yi�8>8hI�h8^8).��8�8" �K賢�W"vV�V��R7W'&�6Rv2�'f��W2v�V�F�RƖv�G26�R��� ���3�i��8�8(�8�8N8N8�8�8�8[��Z[>8�i��[�>8����8N8n8N8(�8>8�8�i��8(�8�88>8�8" ��8;�vV�V��RGFV�B�FW6�&RF�8�X�^���8� �yJ��	C�h�X��8(Nz{�9�8).�8^8n8�8(8~8�8�8i��[�>8�Z��x��8~8(�8n8�8�8(���n8�8;���iɾ8).��8�8" �K賢F�W��FRvV�V��RGFV�BF�&W�"F�R&V�F���6���WfV�v�V�����Rv2vF6���r� ���3���8(.�h�8n8N8�8N8�8�8~8^8�8[��8(�8�8�8�j.K�.8).K��[�8~8(�8n8�[�>8�8(�X��X��8~8�8" ��8;�vV�V��RW'6�� �yJ��	C�K��K��8�Y�8N8~k	~X�n8>8�k�Nh�8).8�8�8x�~y�N8~��Z��8�K��8).��8�8" �K賢���2vV�V��RW'6��v��7V�2F�R6�Rv�F�WfW'���R� ���3�89�8:N8���8�Z��8~8n8(.Y�8�8(�8n8���8�8��Z��8~k	~X�n8(�8�8NK��88" ��8	���k9^8;�k:�hH�8	hI�h8^8(NhX�[�n8�8N8N8n8�vV�V��V8�8�Z�����8�8�8nhI�8�8n8N8(�8�8Ίh�8�8�88~8�8�8N8�8�8N8nhH�Y>8~86��6W&V8���8N8&vV�V��V8�8�8�K��8�z�xKn8~k	~X�n8(�8�8NK��i�N8�8(.K��8�8(�8�86��6W&V8�y����8;�{HNi��8;����{ڮ8�8�8�i��[�>8).��8�8>8�8�xJnx+�8).{��8�8(N8�8N8" ��vV�V��R6��6W&�8�8(�8n8�8���{�.8����{�>8�K�ik�8����8(8(�{XN8�Y�8(�8�8�8.8(�8&vV�V��R6��6W&�f�"F�Rf֖ƖW68�i��[�>8�8(�8�[�>�X�8�8N8nhI�h8^8�xJnx+�8�8.8(�8vV�V��R6��6W&�&�WBvFW"6��F֖�F���8�Z�����8�ZَYʎ8�8(�h{�[�^8;�YX���8�8N8n���8�8�[�~8N8.���[ٞy�N8�8�88(�8�K�ik�8�Y��Z�8^8(�8(�8�8���8(�8�8N8�8(8K�ih~8~8�Z��8(NynyK8).i��zK�8�8(�8" ��8	��{꞊��8	��8;�6��6W&R �Z�{ꓢhI�h8^8����8hH�Y�>8�i��[�>8�8(�X{�8�8��Z��8�8" ���[�c�8���8� ��^8C�6��6W&V8����{ڮ8hI����8��8N8{HNi��8�8�8�Xh^��.8�y����8�K��{N8).[�~���8�8(�8&vV�V��V8�K��i�N8�k	~X�n8(�8�8^8(NhI�h8^8�z�xKn8^8�8(.K��8�8(�8" �K賢�V6R66WBג6��6W&RF��2f�"��W"�V�� ���3�8NiJ�h�N8�Z��8�8(�[�>8�8(�8�hI����8).X�~8X�n8>8n8�88^8N8" ��8;��V'FfV�B �Z�{ꓢ[�~8Ni��[�>8�8(�X{�8�8[�>8�8>8(.8>8�8" ���[�c�8�b�8� ��^8C��V'FfV�F8�hI�h8^8�k{8^8(Nk��8�8^8).[�~8�zK�8~8hI����8;�Y�h8^8;����{ڮ8�8�8�Y	8�8&vV�V��V8�hI�h8^8�i��x��8�8�8n8�8).8(�8(�K��z��8���8�8(�8" �K賢F�Rf֖ǒ&V6V�fVB�V'FfV�B�W76vW2g&��F�R6���V�G�� ���3�8�8�Z�nix�8�Y�Y��8�K��8^8�8(�[�>8�8>8(.8>8�8:88>8+�8;�8+�8).X�~8X�n8>8�8" ��8;�V�fV�v�VB �Z�{ꓢX�8(�8(Nk�Nh�8�8�8N8y��8�8" ���[�c�8�2�8� ��^8C�V�fV�v�VF8�z�8�ih~���y�N8~88Ίh�8�8�88~8�8�8N8�8�8N8nY
+nZ�8�[�.8~i��[�>8).[�~���8�8(�8&vV�V��V8�ik�8�K����y�N8~8.8(�8" �K賢6�RW�&W76VBV�fV�v�VBF֗&F���f�"�W"f�&�W"FV6�W"� ���3�[��Z[>8�8�8N8n8�iY�[��8�8�X�8(�8�8�8Nz{�9�8).��8~8�8" ��8;�V�ffV7FVB �Z�{ꓢk	~X�n8(�8(NK��x+�8�8�8N8�z�xKn8�8" ���[�c�8�b�8� ��^8C�V�ffV7FVF8���8~ik�8(Nh��8(����8N8Έz�xKn8~8K�nK��8�8(�8��h�8�8(�8n8�k	~X�n8>8n8N8�8N8>8�8�xJnx+�8�8.8(�8&vV�V��V8�hI�h8^8(N��Z��8^8�8�8(.8�8�8(.K��8n8" �K賢F�R7F�.(	�2V�ffV7FVB���W"�FRF�R��FW'f�Wr6��f�'F&�R� ���3�8�8�K�>XJ�8�k	~X�n8(�8�8NhX�[�n8�88*N8;>8+�89>8:^8;�8).Y(�8(N8�8�8~8�8" ��8;����W7B �Z�{ꓢY��8(N8N8�8�8~8).��88y��Z��8).��8�8(�8��Z��8�8" ���[�c�8��8� ��^8C����W7F8�y��Z��8).���8(��>[�>y�Nh
+~�:�8�xJnx+�8�8.8(�8Xh^��.8�hI�h8^8�i��x��8�8�8n8�8).y�Nh�^��8�8�8���8(�8�8N8&vV�V��V8�i��[�>8;��z�xKn8^8^K�8).Y
+�8(8" �K賢�&V6�FR��W"���W7B�����&�WBF�R&��6�� ���3�8�8�h�j�8�8N8N8nx�~y�N8�hH��h�8).��8�8�8n8�8(�8n8.8(�8�8�8N8" ��8	X��hH����8	��8;���6��6W&R �Z�{ꓢi��[�>8�8(�8~8�8�8�8��Z��8^8).j�8N8�8" ���[�c�8�b�8� ��^8C���6��6W&V8�����8���{ڮ8hI����8�j.[�>8�8�8�i��[�>8).��8~8n8N8�8N8>8�8).y�Nh�^zK�8�8&vV�V��V8�i��z+�8�X��Z��8~8.8(�8" �K賢��26��Ɩ�V�B6�V�FVB��6��6W&R�6�6�R6��vVBF�R7V&�V7B� ���3�[��8�I.8(����8�[�>8�8(�8�8(.8�8���8>8�8�8�8>8�8�8~8[��Z[>8�����8).ZH�8�8�8" ��8;�fV�v�VB �Z�{ꓢhI�h8^8(NhX�[�n8).i��[�>8�8�8n8~8�8N8�8��8^8>8�8" ���[�c�8�R�8� ��^8C�fV�v�VF8�hH�Y�>y�N8�k�Nh�8;�Xފ8^8).[�~8�zK�8~8���8�8yx^k	~8xJ�j.[�>8�8�8�K��8n8&vV�V��V8�8�8�X��Z��8�Z�����8�hI�h8^8).zK�8�8" �K賢�R�ffW&VBfV�v�VB���w�F�f��Bf�&��6�����B� ���3�[��8�j�>[��8���nh8^8).��88(�8�8(8[�.888���{ڮ8).8~8�8" ��8;�'F�f�6�� �Z�{ꓢ�z�xKn8�yI�8�8�8(.8�8~8�8�8�8K��x+�y�N8~K�ވz�xKn8�8" ���[�c�8���8� ��^8C�'F�f�6��8�hX�[�n8z��N8Kɮ��8�8�8�K�ވz�xKn8�K��8(�8(�8n8N8(�8>8�8).��8�8&vV�V��V8(�8(�8(.8Έz�xKn8^8�8�8�Z��z��8�X�ޙ�.8�X{�8(�8" �K賢�W"'F�f�6��6֖�RF�6V&VB26���2F�R6�W&v2GW&�VB�fb� ���3�8*�8:8:�8�X�~8(�8(�8(�8�8[��Z[>8�K��8(�z�8N8�8�88�kh�8�8�8" ��8;�ffV7FVB �Z�{ꓢk	~X�n8>8�88(�8n8�8(�8~8N8�z�xKn8~8�8N8" ���[�c�8�R�8� ��^8C�ffV7FVF8�K��Y88^8(Ny�^h
+~8).��[�n8�k�NX{�8�8(�8(�8n8�8k	~X�n8>8�h��8(����8N8).h��X�N8�8(����8~8.8(�8&vV�V��V8�k	~X�n8(�8�8NK��i�N8).�*�Z�y�N8���^K�8�8(�8" �K賢��2ffV7FVB66V�B6�V�FVBV��GW&�F�F�R��6�VF�V�6R� ���3�[��8�k	~X�n8>8����8(�8�Y�XX>8�N�n8�8�K�ވz�xKn8���8>8�8�8" ��2�8	[�.Z랊��8;���Z����X����8	x��Z��8�8Z�����8�8y��8�8�h�8�8�88~8�8@��8	iz^i�Ί�>8;�Z�{�8	YX���8[�^�h8ynyK8j��Kɮ8X����8iK�YhN8���h8X	��9�8�8�8�Y�y��888�8(.8�8(Nh;>X8�K��8�8(.8�8~8�8�8�8Z�����8�ZَYʎ8~8�[~8�8n8�8(�88�8�8�8�8nh�8n888�Z���:�8).h�8N8>8�8).��8�8.ZJ~8�8N8k{X��88h�X��8�z+�Z��88�8N8nhH�Y>8).[�^8�8~8(.Y
+�8�8�8N8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Z�>889>8+�88�8+�8iK�z�n8����n8��^K�8iz^[��8�YX��Ί��i��8~K��8n8&&V�8(�8(�[	8~8Ίh�8�8�88~8�8�8N8�8�8N8n��^K�8�i��z+�8~87GV�8(�8(�8(.8�K��[�^8�8�8(�8�Z���:�8�8.8(�8�8�8N8nY
+�8�8).h�88(N8�8N8" ��8	ih~k9^898+�8;�8;>8	vV�V��R8�&�&�V���VVB�&V6��8����x��Z��8�������vV�V��R8���'GV�G��6��6R�&�6�8����Z�����8�������vV�V��R��&�fV�V�B�&�w&W72�FV��F���Z���:�y�N8�iK�YhN8;��.[^8;����h���vV�V��R6��FV�FW"f�"8�F�F�R��6�F���8����i��[�>8�iȞX��X	��9�8�8�8(�8n8(��^���vV�V��R�76�&�ƗG����x��Z��y�N8�X���;�h
+r ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�vV�V��R&�&�V� �yJ��	C�Y�y��K��8~8�8�8�8Z�����8�[����8(NiJ����8).yI�8�8^8�8n8N8(�YX���8).��8�8" �K賢F�RFV���2vV�V��R&�&�V�&V6W6R�BffV7G2WfW'�66�VGV�VBFVƗfW'�� ���3�8�8�^[�n8�K��Z�8^8(�8�8�8�8n8�Xޘ8�[����8�8(�8�8(8x��Z��8�YX���8~8.8(�8" ��8;�vV�V��R�VVBf�"8�6W'f�6R�7W�'N8� �yJ��	C�Z�����8�8�8�8+^8;�89>8+�8(NiJ�h�N8).[�^�h8�8�8(�x�nk88).��8�8" �K賢F�R6�&�G��2vV�V��R�VVBf�"G&��VBf��V�FVW'2F��27V��W"� ���3�8�8�hX�YhNY�>K�>8�8�88>8�ZH�8��>{{N8).X�~88�89�8:�8;>88n8*>8*.8�Z�����8�[�^�h8~8.8(�8" ��8;�vV�V��R��'GV�G�F�8�X�^���8� �yJ��	C�Y�y��888~8�8�8Z�����8�K�^8�8).8�8(�j��Kɮ8�8.8(�8>8�8).��8�8" �K賢F�R��FW&�6���ffW'2vV�V��R��'GV�G�F�v�&�v�F�F�R&W6V&6�FV�� ���3�8�8�8*N8;>8+�8;�8;>8+~88>89~8�8�8z	Nz�n888;�8:8�Z�����8�X8�8�j��Kɮ8�8.8(�8" ��8;�vV�V��R��&�fV�V�B�&�w&W76 �yJ��	C�����.y�N8�ZH�i�N8~8�8�8�8Z�����8�x�nhX�8�8(�8�8�8>8�8>8�8(N�.[^8~8�8>8�8).��8�8" �K賢F�R6�gGv&RWFFR'&�Vv�BvV�V��R��&�fV�V�B��&GFW'�ƖfR���B�W7B�Wr�6��� ���3�8�8�8+�89^88�8*n8*~8*.i�Nik8�ik8~8N8*.8*N8+>8;>8).X�8�8�888~8�8�88988>88n8:�8;�h�{i�i�.�i>8).Z�����8�iK�YhN8~8�8" ��8;�vV�V��RFV��Bf�"8�&�GV7B�6W'f�6^8� �yJ��	C�K�i�.y�N8�Z�>K��8(NK��k��8~8�8�8�8Z�����8�ZَYʎ8�8(����h8).��8�8" �K賢F�W&R�2vV�V��RFV��Bf�"6���W"'F�V�G2�V"F�R7FF���� ���3��x^8��8�8�8(�8(�[�8^8�8*.898;�88�8�8�8Z�����8���h8�8.8(�8" ��8;�vV�V��R6��FV�FW"f�"8�F�F�R��6�F���8� �yJ��	C�XJ�X�ވ^8;�[K���^8�8�8(�X���;�h
+~8).x��Z��8�h�8NX	��9�8).��8�8" �K賢6�R�2vV�V��R6��FV�FW"f�"F�RF�F�R��F��Vv�6�R�2��BF�Rff�&�FR� ���3�[��Z[>8�i��Y�8~8�8�8N8(.8�8�88�8�8+�8*N88�8:�8).K��8�8(�x��Z��y�N8�X	��9�88" ��8;�vV�V��R&V6��f�"8�7F���8� �yJ��	C�K��8(���8(NX�>Z��8~8�8�8�8Z�����8�ZَYʎ8�8(�ynyK8).��8�8" �K賢�R�BvV�V��R&V6��f�"�Vf��rV&ǒ�'WB�R6��V�B�fRF��B��2��vW"� ���3�[��8�8�iz�8�[�8(�i��[�>8�ynyK8�8.8>8�8�8K��X��8�8�K��8�8(�8�8�88>8�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�vV�V��V8�8YX���8(N[�^�h8�8�8�x��Z��8�ZَYʎ8�8(�8>8�8).��8�8�88�8(�8Θx�ZJ~8Y�k9^8j�>[�>8h�X��z+�Z��8~8.8(�8>8�8�8~8�hH�Y>8~8�8N8&vV�V��R&V6��8�8�Z�����8�ZَYʎ8�8(�ynyK8�8~8.8>8n8�h�X�~K��[�^8����8(8(�8(�8(�fƖB&V6��8�Y�8�8~8�8�8N8&vV�V��R6��FV�FW&8(.8�i��[�>8�X	��9�8�8~8nK��8�8(�8�8�8N8nhH�Y>8~8X��X��8).K�ފ��8~8�8N8" ��&V�8�ZَYʎ8;�K��Z��8;�z��[�n8).[�>8���8~87GV�8�h;>Z�8(NK��Z�8~8�8�8�x��Z��8��[~8�8�8>8�8).zK�8�8&vV�V��V8�8��zK�8;����i��8;�Y�y��8�Z��[��8�8(�Z���:�8�8.8(�8>8�8).[�~���8�8(�8&vV�V��R6��6W&�8vV�V��R��FW&W7F8����{�.8�8�i��[�>8�8(�8�8�8����{�>8�8�Z�����8�8�8�Z(>yX�8�ih~�H�8~h��8(�8(�8�8(8hI�h8^8).��8�8�8�8x��Z��8�YX���8;����h8).��8�8�8�8).z+����8�8(�8" ��8	��{꞊��8	��8;�&V� �Z�{ꓢh;>X8�8�h�8�8�88���X�8~8�8�8�8Z�����8�ZَYʎ8�8(�8�[~8�8n8N8(�8" ���[�c�8��8� ��^8C�&V�8�i�8(.[�>8�8x��8hI�h8^8YX���8K��Z��8z��[�n8�K��8�8(�8&vV�V��V8�Y�y��8(NK��[�^8�Z��[��8�8(�Z���:�8�8.8(�8�8N8nx+�8).8(�8(�[�~8�zK�8�8" �K賢F�RF�&VB�2&V��WfV��b�B�2V�Ɩ�VǒF��V�F��2�V"� ���3�K��[�N�[~8�8(�X���;�h
+~8�K��8�8n8(.88�8�H^Z�8�x��Z��8�8(.8�88" ��8;�7GV� �Z�{ꓢh;>Z�8;�K��Z�8;�h�k��8~8�8�8�8x��Z��8�ZَYʎ8�8(�8�[~8�8�8" ���[�c�8���8� ��^8C�7GV�8�K��h;>X
+N8;�K��Z�8�8�Z��j�N8�xJnx+�8�8.8(�8hI�h8^y�N8�8�i��x��8(�8~8^8�8(N��Z��8^8�Y
+�8�8�8N8&vV�V��V8��h�8�8�88~8�8N8>8�8).��^K�8�8(�8" �K賢F�R7GV�6�7Bv2��v�W"F��F�RW7F��FR� ���3�Z�����8�+�yJ�8��h�z��8(.8(�8(�8(����8�8>8�8" ��8;�G'VR �Z�{ꓢK��Z��8(Nx��Z��8�K��{N8~8n8N8n8��N8(�8~8�8N8" ���[�c�8��8� ��^8C�G'VV8�Yޚ�8;����i��8;������8�j�>8~8^8�xJnx+�8�8.8(�8vV�V��V8�x��8;�yKi�^8;�YX���8;�hI�h8^8�i��x��8~8.8(�8>8�8�Y	8�8" �K賢F�R&W�'Bv�fW2G'VR66�V�B�bv�B�V�VB� ���3�8�8�ZY�i��8��[~8�8�8>8�8).j�>z+�8������8~8n8N8(�8" ��8;��Vv�F��FR �Z�{ꓢk9^[�8�h�X�~8zK�Kɮy�NY��k�n8�8�8�xZ~8(�8~8nj�>[�>8~8���8(8(�8(�8(�8" ���[�c�8�r�8� ��^8C��Vv�F��FV8���k9^h
+~8;�j�>[�>h
+~8;�j�>[��8��8~j�8�xJnx+�8�8.8(�8x��yny�N8�i��x��8�8hI�h8^8�i��[�>8�8�X�^YX���8~8.8(�8&vV�V��V8�Y�k9^h
+~8).Y
+�hH�8~8�8N8" �K賢F�R&W6�FV�G2&�6VB�Vv�F��FR6��6W&�&�WBF�R6��7G'V7F������ ���3�K��k	8�8�8�[����ފ��yK�8�8N8N8nj�>[�>8�h{�[�^8).zK�8~8�8" ��8;�&��f�FR �Z�{ꓢZ��Yʎ8~8Y�y��888~8�8�j�>[��8�8(.8�8�8~8n���8(8(�8(�8(�8" ���[�c�8�R�8� ��^8C�&��f�FV8�z�8�8j�>[��h
+~8;�YhNhH�8;�Z��Yʎh
+~8�{XN8�Y�8(�8�8).��8~8(N8�8N8&vV�V��V8�h�ދy�N8�YX���8(NiK�YhN8�8(.�z�xKn8�K��8�8(�8" �K賢F�R&�w&��2�V�F�&��f�FRƖ6�G2v�F�&V�Wf�BW�W&�V�6R� ���3�8�8�89~8:�8+8:�8:8��j.�
+>{XΚ�>8).h�8Nj�>[��8�[��X���^8��h�8�8(�8n8N8(�8" ��8	X��hH����8	��8;�f�6R �Z�{ꓢK��Z��8(Nx��Z��8�K��{N8~8�8N8��N8>8�8X�8�8" ���[�c�8��8� ��^8C�f�6V8�Yޚ�8ynyK8X��8K��[�^8�8�8�y��Z��8~8�8N8>8�8).[�>8���8~8vV�V��V8�8�Z�����8�8�8n8~8.8(�8�8�Z��z��8�8(�8" �K賢F�RGfW'F�6V�V�B�FRf�6R6���&�WBF�R&�GV7N(	�26fWG�� ���3�8�8�[�>Y�8��;�Y88�Z�XZ�h
+~8�8N8N8n���X�8�K��[�^8).8~8�8" ��8;���v��'� �Z�{ꓢx��Z��8�8�ZَYʎ8�8�8h;>X8�K��8�8" ���[�c�8�r�8� ��^8C���v��'�8�h;>X8�8�yJ>x��8~8.8(�8>8�8�xJnx+�8�8.8(�8hH�Y�>y�N8���jˮ8).[�^8�8~8(.Y
+�8�8�8N8&vV�V��V8�x��Z��8�ZَYʎ8�8(�8>8�8).zK�8�8" �K賢F�R6���N(	�2��v��'�g&�V�B6VV�VB6���WFVǒ&V�F��W"� ���3�8�8�Z�8�8(.8�8�8h;>X8�K��8�X���N8�Z��XZ�8�x��Z��8�8(�8n8�hI�8�8(�8(�8�8" ��8;���֖�� �Z�{ꓢY�z{8(N[�.[��888�8Z���:�8).K�N8(�8�8N8" ���[�c�8�R�8� ��^8C���֖��8��*�i��8�8;��y��8;�[۞X�.8�8�8�Y�y��K��8�ZَYʎ8�8(�8�8Z���:�8�[�8^8N8>8�8).��8�8&vV�V��V8�Y�y��8�Z��[��8�8(�Z���:�8�8.8(�8>8�8).zK�8�8" �K賢F�R��֖����7&V6RF�BƗGF�RF���&�fRƗf��r6��F�F���2� ���3�8�8�Y�y��K��8�Z)~��8�8yI�kK�i�K�n8�iK�YhN8�8�8�8�8)>8�[۞z��8�8�8�8>8�8" ��8;�f�7F�F��W2 �Z�{ꓢK��Z��8~8�8�8�8K��8(�K��8.8(�8(�8�i�nz��8�8" ���[�c�8�R�8� ��^8C�f�7F�F��W68�Y�X��8K��x��8ynyK8X�n[�^8�8�8�hH�Y�>y�N8�8�8�X�^K��8�8(�8>8nK��8(�8(�8�8>8�8).zK�8�8&��v��'�8(�8(�XZ�[��8;�k9^[�8;�K��X��8�ih~�H�8�Y	8�8" �K賢F�R6���v2&Vv�7FW&VBV�FW"f�7F�F��W2��R� ���3�8�8�KɮzK�8�i�nz��8�Y�X��8~y����.8^8(�8n8N8�8" ��8;����W6�'� �Z�{ꓢZ�����8�8�8�8N8�8�88.8(�8(�8n8��h�8�8(�8[��h;>y�N8�8" ���[�c�8�B�8� ��^8C����W6�'�8��h�8�88�x��Z��8�9�8N�^8N8).z�8���8~8j��Kɮ8X��y��8Z�XZ�8�8�8�K��8n8&vV�V��V8��h�8�8�88~8�8�Z���:�8�8.8(�8>8�8).��8�8" �K賢F�R&�֗6R�bVff�'F�W727V66W72&�fVB���W6�'�� ���3�X��X��8�8~8~h�X��8~8�8(�8�8N8n{HNi��8�8[��h;>8�8�8�8�8N8�X�n8�8>8�8 ����Р�26��6W'fF��ࠢ��Ц�VGv�&C�6��6W'fF���G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#p�WFFVE�C�##b���#p�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3���Ƽ���<��,��f\���<����8�����Ƽ�&�<����f\���<����8#N��>z�8~8K��[�~X�.8�z��>��>z�8��f��f\���8z����>z�8�[�8NX��[�~X�.8�8.8(�8.���iʾ8��F���8���<����8�y����>8�8(�8" �6��6W'fF���8��6W'f�8�6��fW'6F���8��fW'6�8�88N8^8(�K��68�f8�K��{��8�XZ^8(�i��8(�8>8n8N8(�8.��>8(.y[8�8(�8X�ވ^8.[�>�:�X�n8��<��,��f\���8[�Έ^8.[�>�:�X�n8�{>��>8r�l��,��6\���8�y����>8�8(��ȎXZ�K�>8~8�8�8(�8�8(���Ƽ���<��,��f\���<����8��Ƽ���l��,��6\���<�����Ȟ8" �6��6W'fF���7F8���Ƽ���<��,��f\���<��욧7B��Ȏ{>�Ȟ8~8Y��i��y�N8�6��6W'fF���8�Y�8�K��[�~X�.8).K��8N8" ����>���k� ��6��6W'fF���8�K�ވ����6��6W'f6��V�8X�N89^8:�8;>8+����6��6W'fF���8).{X�8n88:�88n8;>���6��6W'fF��8�K��Zَ8K��XZ�8�8�yKi�^8�8(�8.8:�88n8;>���6��6W'f&V8�K��8N8i�8�8(�8�8N8(�8n8�8�8(�8�8�8^8�8�8�8(�8�����8~8�8�ZK8(�8(�8�8(�i�8�8(�8(�8�8(�8~8�8N8(�8n8�K��8N8>8�8�8).K��[�>8�hH�Y>8).y���N8^8�8�8" �x��K�>�����8~8�8�z�xKn�8~k�8).K��8N8�8�8(�[ni�^8�i�ZK8).��.8K��XZ�8ih~X�n�*8�i�ii�8�K�X
+N8).Z�8(�[.�hy�NK��Zَ8ZH�X�n8�X��[��8~x��yn�x�8�{x��x�8).K��8NK��ZَX�~8�8�yJ�k9^8�X�n8�8(�8(�8.x��ynZ�n8�yJ�k9^8�8iz^[��y�N8�8�z�{HN8�8�8(�y�Nh�^[�8�8(�8�8�8N8n8(�8(�88�{x��x�8).ZK8(�8�8�K��8N8�8�8N8nX[�	�8�jh.[�^8).h��>yJ����8�8~8nyJ�8N8(�8(.8�8~8.8(�8" ����>���[�.h� ��6��6W'fV(	BX�^���8�K��XZ�8�8(�8z�{HN8�8(�8K��Zَ8�8(�8�8&6��6W'fRvFW&8�kN8).z�{HN8�8(�8�86��6W'fR��7F�&�2'V��F��v8�j�NX�.y�N[���
+x��8).K��Zَ8�8(�8�8�8(�8n8�8Z��8).y�Nh�^y��y�N���8�X�n8(�8" �6��6W'fF���7F(	BYފ��8Έz�xKnK�ފ�~kK�X�^Z�n8K��XZ���n�^8�8.�z�xKny+Z(>8(N�8~k�8�K�ފ�~8).iJ�h�8;�Z���{^8�8(�K��8).h�~8~8ih~X�n�*K��Zَ8�[.�hZ�n8).�	�[��8>8�8~Y�8n8(�88~8�8�8N8" �6��6W'fF�&(	BYފ��8�K��ZَK��[�[.�hZ�n8K��XZ�h�^[�>�^8�8.x��8�{��>Y88;�ih~X�n�*8�i��8Xzn{��8K����.y�NK��Zَ8).��8n[.�hZ�n8).h�~8�8.ih~�H�8�8(�8>8n8�8�8~yJ>8(N{XN{�N8).z�yn8;�K��XZ�8�8(�K��8(.h�~8�8" �6��6W'f�7�(	BYފ��8�K��XZ�Y�>K�>8K��XZ�XˮY��8K��XZ�kK�X�^8�8&��B6��6W'f�7�8�Y��Y�K��XZ�Y�>K�>8�8&�fW"6��6W'f�7�8�k+>[y�K��XZ�kK�X�^8�8�8(�8n8�8{XN{�N8(NX�n[�n8).h�~8�8>8�8�ZI�8N8" �6��6W'fF����(	B[�.Z랊��8�K��XZ�8�8K��Zَ8��j.8�8(�8�8.K����Kɮ��8~8���[�n8�K��8�8[.�hy�N8;�X�n[�ny�N8�ih~�H�8~K��8n8" �6��6W'fVBV�F�G�(	Bx��ynZ�n8~8�K��Zَ�x�8�8.{;�8�i�K�n8�8(.8�8~{x��x�8�K�Z�8�K��8�8(�8(�x��yn�x�8).h�~8�8" ����>8+>8*.8*N8:8;�8+���6��6W'fF���8�j�8�8�8~k�8;�x��8;�K�X
+N8;�{x��x�8�8�8).8i�ZK8(Niɾ8�8~8�8�8NZH�X�n8�8(�Z�8>8nK��8N8>8�8~8.8(�8.K�^8).K��8N8�8�8(�8>8n8y+Z(>8;�ih~X�n�*8�Z���{^y�N8�8�K��XZ�8�8�8x��ynZ�n8�8�{x��x�8�ZH�8(�8(�8�8N8�8�8N8n[.�hyJ�k9^8�X�n8�8(�8(�8" �8;��z�xKn�8~k�8(Ny+Z(>8).K��8N[�8�8~8�8(�i�8�8>8�8(�8~8�8N8(�8n8�K��8B(i"8�K��XZ�8y+Z(>K�ފ�~8z�{HN8��Ȏ���{��Ȓ �8;�K��Y88(Nih~X�n�*8�i�ii�8;�h8^Z8;�K�X
+N8).i�8�8(�8�8�[ni�^8�K��8B(i"8�K��Zَ8K��XZ�8K��ZَK��[�8��Ȏ���{�.�Ȓ �8;�{;�8�x��yn�x�8�{x��x�8).ZH�X�n8(NZH�h��8�X��[��8~K��8B(i"8�K��ZَX�~8K��Zَ8��Ȏ���{�>�Ȓ ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	Yފ��8;�K��X��z�~8	�z�xKn�8~k�8;�y+Z(>8�K��XZ�8y+Z(>K�ފ�~8�8~k�8�z�{H@��8	iz^i�Ί�>8;�Z�{�8	kN88*�88�8:�8*�8;�8j:�i�~8�x�yI�yI�x��8�8�8�z�xKn�8~k�8(Ny+Z(>8).8kZ��+�8i��k�~8zNZ8�8�8(�Z�8(�8�8(8�8���yK�y�N8;�hX�x�8�X��yJ�8~z�yn8�8(�8>8�8.X��yJ�8).K�X�~zhj�.8�8(�8>8�8~8�8�8�8[ni�^8(.X��yJ�8~8�8(�x�nhX�8).K��8N8>8�8��x�x+�8�8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.y+Z(>iK�z�n8�8~k�z�yn8zyZ�niY��+.8��iK�8Z�>8iz^[��8�z����8;�z�kN8�i��8~[�>8�K��8n8.Z��8Έz�xKny+Z(>8~8�8�8�8ih~X�n�*8(N{��>Y88�8(��	�[��8����{�.8x��yn�x�8�{x��x�8�8(����{�>8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	6��6W'fF����b8��GW&�&W6�W&6^8�������8�K��XZ����v��FƖfR�f�&W7B��&��R6��6W'fF�����ޘx�yI�yI�x��8;�j:�i�~8;�k[~kH�8�K��XZ����V�W&w��vFW"6��6W'fF������y�8*�88�8:�8*�8;�8;�z�kN���6��6W'fF���Vff�'G2��V7W&W6���K��XZ�8�X�n8(�{XN8�8;�Z��z�n���&���FR�7W�'B6��6W'fF������K��XZ�8).K�>�.8;�iJ�h�N8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�6��6W'fF����b8��GW&�&W6�W&6^8� �yJ��	C�kN8j:�i�~8Y��Z8�8�8�8�z�xKn�8~k�8).8K��8NX�~8>8�8(�i�8�8>8�8(�8~8�8N8(�8nz�yn8�8(�8>8�8).��8�8" �K賢F�R&Vv�����G&�GV6VB7G&�7B6��6W'fF����bw&�V�GvFW"gFW"6WfW&�G'��V'2� ���3�8�8�Y�Y��8�i[[�N{i�8N8�[�.88N8�[��8Y�K��kN8�X�>j�8�K��XZ�8).[�XZ^8~8�8" ��8;�v��FƖfR6��6W'fF��� �yJ��	C��x�yI�X�^x��88�8�yI�h�Y�8X�K�>{�N8).K�ފ�~8;�z�yn8�8(�kK�X�^8).��8�8" �K賢v��FƖfR6��6W'fF���FWV�G2��&�FV7F��r�&�FG22vV��2��F�f�GV����2� ���3��x�yI�yI�x��8�K��XZ�8�8�8X�8^8�X�^x��888~8�8�yI�h�Y�8).Z�8(�8>8�8(.[�^�h8~8.8(�8" ��8;�V�W&w�6��6W'fF��� �yJ��	C�8*�88�8:�8*�8;�8�K��yJ��x�8(NkZ��+�8).k��8(�8~8��8(�8(�8��8~k�8).X��x�~8(�8�K��8n8>8�8).��8�8" �K賢F�R66������7F��VB��F���6V�6�'22'B�b�G2V�W&w�6��6W'fF���&�w&�� ���3�8�8�Z�nj
+8�y�8*�88�8:�8*�8;Ί��yK�8�K�y+8�8~8nK��hI�8+�8;>8+^8;�8).���{��8~8�8" ��8;�vFW"6��6W'fF��� �yJ��	C�kN8�K��yJ�8).h�8�8K�{Znk�8).[ni�^8���h8�8�8(8�{j�h�8�8(�8>8�8).��8�8" �K賢&��&'&V�2vW&R&�f�FVBF�&W6�FV�G22vFW"6��6W'fF����V7W&R� ���3�z�kNZ��z�n8�8~8n8K��k	8����kN�*�yY�8+�8;>8*�8ΘX�8(�8(�8�8" ��8;�6��6W'fF���Vff�'G2��V7W&W6 �yJ��	C��z�xKny+Z(>8(N�8~k�8).Z�8(�8�8(8�X[~K�>y�N8�X��X��8;�iK�z�n8;�Z��z�n8).8�8�8(8n��8�8" �K賢F�R�Wr6��6W'fF����V7W&W2&VGV6VB��vv��r��F�R&�FV7FVBf�&W7B� ���3�ik8~8NK��XZ�Z��z�n8�8(�8>8n8K�ފ�~i�~8~8�K�h�8�k��8>8�8" ��8;��&��R6��6W'fF��� �yJ��	C�k[~kH�8�yI�hX�{;�8�ٮ��8k+�[+�y+Z(>8).K�ފ�~8;�z�yn8�8(�kK�X�^8).��8�8" �K賢F�R&W6V&6�7FF���gV�G2�&��R6��6W'fF���&�V�BF�R6�&�&VVb� ���3�8�8�z	Nz�nh�8�8+^8;>8+NzHY���8�k[~kH�K��XZ�8��8~�y8).h�K�8~8n8N8(�8" ��8	���k9^8;�k:�hH�8	8>8�{�8~8��	�[��K��X��z�~8~86��6W'fF���8�8���8(�8�86��6W'fF����bvFW&86��6W'fF���Vff�'G68�8(�8n8�K��8n8&6��6W'fF���8�8�K��8(�8�8N8>8�8�888~8�8�8K��yJ��x�8).z�yn8~8i�ZK8(NzNZ8�8).��.88>8�8).Y
+�8(8" ��&W6W'fF���8�Z��8).ZH�X�n8^8�8�8�j�8�8>8�8�xJnx+�8�{��8�8(�8(N8�8�86��6W'fF���8�X��yJ�8(Nz�yn8).K�N8N8�8�8(��8~k�8;�y+Z(>8).�[~i��y�N8�K��8NY
+�8�8�8.8(�8&7W7F��&�ƗG�8�y+Z(>8{X�k��8zK�Kɮ8�K�^{XN8�8).[ni�^8(.{j�h�8~8�8(�8>8�8�xJnx+�8�8.8(�86��6W'fF���8��x�8�8(�8�Y�{�8~8�8�8N8" �V�W&w�6��6W'fF���8����{�8�8(����X��K��yJ�8).k��8(�8�Z��z�n8).h�~8�8�8F�R6��6W'fF����bV�W&w�86��6W'fF����v8��6��FVB7�7FV�8�{Y8>8N88�	�[��8����{�>8�x��ynZ�nyJ�k9^8~8.8(�8" ��8	��{꞊��8	��8;�&W6W'fF��� �Z�{ꓢi�X+~8ZH�X�n8kh�ZK8�8(�Z�8(�8XX>8�x�nhX�8���8N8�8�j�8�8>8�8" ���[�c�8���8� ��^8C�&W6W'fF���8�ZH�X�n8).��88nx��x�n8).K��8NxJnx+�8�[�~8N8&6��6W'fF���8�8�z�xKn�8~k�8).z�yn8~8�8�8(�K��8n8>8�8(N8ih~X�n�*8).Xzn{��8~8nZ�Z�8^8�8(�8>8�8(.Y
+�8(8" �K賢F�R&W6W'fF����bF�RvWF��B&WfV�G2FWfV��W'2g&��G&���r�B� ���3�8�8�k��Y�8�K��Zَ8;�K��XZ�8�8�h�y��jZވ^8�h�.kN8~8n8~8�8n8�8).��.88" ��8;�&�FV7F��� �Z�{ꓢX����8i�Z�>8iK�i(>8�8�8�8(�Z�8(�8>8�8" ���[�c�8��8� ��^8C�&�FV7F���8��H^Z�8�8(�Z�8(�8�8N8n[�>8N���8~8�8~k�8).���yK�y�N8�X��yJ�8~{i�88(�z�yn8(N8{x��x�8).K��8Nh��>jh.[�^8�8~8�[�^8�8~8(.Y
+�8�8�8N8" �K賢F�R�r&�f�FW2&�FV7F���f�"�W7F��r&�&G2GW&��rF�R'&VVF��r6V6��� ���3�8�8�k9^[�8�{�j�ni��8�Ykn[z>8�8(��:^8).K�ފ�~8�8(�8" ��8;�7FWv&G6�� �Z�{ꓢ�	8�8>8�Y��Y�8�8~k�8y+Z(>8).�*�K��8).h�8>8nz�yn8�8(�8>8�8" ���[�c�8�R�8� ��^8C�7FWv&G6��8�z�yn�^8�*�K��8(NX
+�yn8).[�~���8�8(�8&6��6W'fF���8�8�8�*�K��8�8(���8nX[~K�>y�N8�K��XZ�kK�X�^8(NiK�z�n8).h�~8~8(N8�8N8" �K賢v��B7FWv&G6���bF�Rf�&W7B&WV�&W2&�F�6&VgV��'fW7F��r�B&W��F��r� ���3�j:�i�~8).��X�~8�z�yn8�8(�8�8�8hX�x�8�K�h�8�Xh�jH�i�~8�K�ik�8�[�^�h8~8.8(�8" ��8;�7W7F��&�R��vV�V�B �Z�{ꓢ[ni�^8�X��yJ�X���;�h
+~8).i�8�8(�8�8N8(�8n8�8~k�8(NkK�X�^8).z�yn8�8(�8>8�8" ���[�c�8�R�8� ��^8C�7W7F��&�R��vV�V�F8�[ni�^8(.h�8(�z��8NX��yJ�kNk�n8(NK�^{XN8�8).i��zK�8�8(��H~Y���x��8~8.8(�8&6��6W'fF���8�K�ފ�~8;�i�ZK��.j�.8��x�x+�8�8.8(�8h�{i�X���;�h
+~XZ�K�>8).[�^8�8~8(.��n8�8�8N8" �K賢7W7F��&�R��vV�V�B�bF�Rf�6�W'�Ɩ֗G2F�R��V�6F6�� ���3�8�8�k�jZ�8�h�{i�X���;�8�z�yn8�[�N�i>k�x�.�x�8).X�n��8~8n8N8(�8" ��8	X��hH����8	��8;�W����FF��� �Z�{ꓢ�8~k�8(Ny+Z(>8).X��y��8�8�8(8�[�~8�X��yJ�8~88~88~8��yX�8�8~kh��+�8�8(�8>8�8" ���[�c�8�r�8� ��^8C�W����FF���8�X��yJ�8�8�8(.8�8).h�~8�8�8��X�X��yJ�8(Ni�X�n8�8N8nY
+nZ�y�N8�Y
+�8�8).h�88(N8�8N8&6��6W'fF���8��[~i��y�N8�i�ZK8).��88(�z�yn8�xJnx+�8�8.8(�8" �K賢V�6��G&���VBW����FF����bF�Rf�&W7B�2&VGV6VBF�R&�fW.(	�2vFW"VƗG�� ���3�j:�i�~8�xJX�n��8��h�y��8;�X��yJ�8�8(�8>8n88�8�[y�8�kN�:�8�K��K��8~8�8" ��8;�FW�WF��� �Z�{ꓢ�8~k�8(N�8N8�8�K��8(�8(�8nk��[	8~88�8�8)>8�j�8(�8�8�8�8(�8>8�8" ���[�c�8�b�8� ��^8C�FW�WF���8�K��XZ�8�ZKiY~8~8�{Yi��8�8~8n8�x�8�k��[	8).��8�8.iX^hH�8�X��yJ�888~8�8�8�z�xKn8�kh��	~8�8(.K��8�8(�8" �K賢F�RFW�WF����bF�RV�fW"f�&6VBf&�W'2F�&VGV6R�'&�vF���� ���3�[��kN[N8�i��k�~8�8(�8>8n8��.Z�n8�x�k�8).k��8(�8^8n8(�8).[�~8�8�8>8�8" ��8;�v7FR �Z�{ꓢ[۞z��8N�8~k�8).K��k:�hH�8�88�8�8�[�^�hK�^K��8�K��8n8>8�8" ���[�c�8���8� ��^8C�v7FV8�X�8^8��X�^8(NK��yJ�8�kZ��+�8).h�~8�iz^[�����8~8�z�xKny+Z(>XZ�K�>8�yK�y�N8�z�yn8).��8�6��6W'fF���8(�8(�x��8N8" �K賢�Vf��rF�RF'V���r�2�V��V6W76'�v7FR�bvFW"� ���3���~X�>8).X{�8~8>88�8~8�8�8(�8�8�8kN8�K��[�^�h8�kZ��+�8~8.8(�8" ��"�8	Yފ��8;�K��X��z�~8	{��>Y88;�ih~X�n�*8;�j�NX�.y�N[���
+x��8�K��Zَ8K��XZ�8K��ZَK��[ꐠ�8	iz^i�Ί�>8;�Z�{�8	{[^yK�8[ھX��8ih~i��8���z8j�NX�.y�N[���
+x��8�8�8�ih~X�n��yJ>8).8X�>X�n8(Ni�X+~8�8(�Z�8(�88�8�i�ii�8h8^Z8K�X
+N8).[ni�^8�[�^8�{i�8[.�hy�N8�Z���{^8;�[z^z��8.���i��8�����.8Xzn{��8K����.y�N8�y+Z(>z�yn8).Y
+�8�8[��8�XX>8�ZIn�k>8�K��8(�y�N8�8>8�8).hH�Y>8~8�8N8" ��8	��[�n8	8�b�8� ��8	8:�8+�8+�8+�8;���	�Y��8	[.�h���8;�j��k�n���8.{��>�J�8ih~i���J�8Y�>i���J�8ih~X�n�*��iK�8[��z��K��Zَ8Xٮx���J�Z�n8~K��8n8.{>Y�ވ����8~8�'B6��6W'fF���8�W&�FvR6��6W'fF���8&6��FV7GW&�6��6W'fF���8�8�8�[�.8�ZI�8N8.�z�xKny+Z(>8�K��XZ�8�8(����{�8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	6��6W'fF����b8�'Gv�&����W67&�B�'V��F��~8�������8�K��ZَK��[����'B��W&�FvR6��6W'fF������{��>Y88;�ih~X�n��yJ>8�K��Zَ���6��6W'fF���G&VF�V�F���K��ZَK��[�Xzn{�����6��6W'fF���v�&����K��ZَK��[�K��jZ����6��6W'fF����&�&F�'����K��ZَK��[�z	Nz�nZ�N���6��6W'fF����B&W7F�&F������K��ZَK��[�8�[�XX2 ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�6��6W'fF����b8�'Gv�&�8� �yJ��	C�{[^yK�8[ھX��8[z^���Y88�8�8).���i��8;�Xzn{��8~8nZ�Z�8~8�x�nhX�8�K��8N8>8�8).��8�8" �K賢F�R6��6W'fF����bF�R�����F��rF���6�����F�2&V6W6RF�R6�f2v2g&v��R� ���3�8�8�k+�[ڞyK�8�8*�8:>8;>898+�8�8(.8(�8�8>8�8�8(8K��ZَK��[�8�n8�iȎ8�8�8>8�8" ��8;�'B��W&�FvR6��6W'fF��� �yJ��	C�{��>K��Y88(Nih~X�n��yJ>8).Z��8�8�8(�[.�hX�n�x�8;�kK�X�^8).��8�8" �K賢6�R7GVF�VB�W&�FvR6��6W'fF���&Vf�&R�����rF�R�F�����W6WV�� ���3�[��Z[>8�Y��z��Xٮx���J�8�XZ^8(�X��8�ih~X�n��yJ>K��Zَ8).Z�n8)>88" ��8;�6��6W'fF���G&VF�V�F �yJ��	C�[.�hZ�n8�K��Y88(N�8~ii�8�ik�8�X[~K�>y�N8�K��ZَK��[�Xzn{��8).��8�8" �K賢F�R6��6W'fF�"&V6���V�FVBvV�F�R6��6W'fF���G&VF�V�Bf�"F�R7&6�VBf&�6�� ���3�K��ZَK��[�Z�n8�88.8>8�XZ^8>8�88�8+�8�z��8(N8�8�K��ZَK��[�Xzn{��8).X�~8(8�8" ��8;�6��6W'fF���v�&� �yJ��	C�ih~X�n�*8�Z�Z�X�n8k�^h�>8�9�K��8�����.8�8�8�K��ZَK��[�K��jZ�8).8�8�8(8n��8�8" �K賢6��6W'fF���v�&���F�R�VF�Wf���W67&�B&WfV�VB��&V�VF��FW"&W�"� ���3�8�8�K��K�nXi�i��8�K��ZَK��[�K��jZ�8�8(�8>8n8[��K�n8�9�K��8�K��8�8.8(�8*N8;>8*�8�i��8(�8�8�8�8>8�8" ��8;�6��6W'fF����b��7F�&�2'V��F��w6 �yJ��	C�j�NX�.y�N[���
+x��8�i�ii�8jx��
+8x��[�N8).���8�8i�X+~8).h�8�8n{j�h�8�8(�8>8�8).��8�8" �K賢F�R6��6W'fF����b��7F�&�2'V��F��w2�W7B&W7V7BWf�FV�6R�bF�V�"V&ƖW"�FW&F���2� ���3�j�NX�.y�N[���
+x��8�K��Zَ8~8�8��X�8�iK�ZH�8�h�8).[��x�8~8�88(�88�8(�8�8N8" ��8;�6��6W'fF����&�&F�'� �yJ��	C�{��>Y88;�ih~X�n�*8�i�ii�X�ni�8x�nhX�z+����8Xzn{��8).��8nikފ��8).��8�8" �K賢F�R�W6WV�(	�26��6W'fF����&�&F�'����F�'2�V֖F�G�&�V�BF�Rv��FV�67V�GW&R� ���3�8�8�Xٮx���J�8�K��ZَK��[�z	Nz�nZ�N8�8iʎ[ھX8�8�Y�Y�.8�k��[�n8).y�>�in8~8n8N8(�8" ��8	���k9^8;�k:�hH�8	8>8�{�8�6��6W'fF���8��	�[��K��X��z�~8~8[.�hZ�n8�Z��8).�����.8;�Z�Z�X�n8;�Xzn{��8~8�8�8(�j�8�8>8�8).h�~8�8&6��6W'fF���8�&W7F�&F���8��x�8�8(�8�8&W7F�&F���8���X�8�x�nhX�8(NZIn�k>8).Xh�x��8�8(�8>8�8�xJnx+�8�{��8�8(�8(N8�8N8.K��ZَK��[�8~8�8[��8�8(�X�8�8��:�X�n8).��8^8�8x��Zَ8�8(�i�ii�8�[ni�^8�z	Nz�nX���;�h
+~8).[��x�8�8(�ZNY�8�8.8(�8" ��[.�hZ�n8�6��6W'fF�&8K��ZَK��[�8).��8n�:��h8�6��6W'fF���FW'F�V�F8(B6��6W'fF����&�&F�'�8�Y�8n8.�z�xKny+Z(>8).Z�8(�kK�X�^8).h�~8�V�f�&���V�F�6��6W'fF���8�8ih~X�n�*8).h�8b'B6��6W'fF���8�Z��8�y[8�8(�8�8(8[�.Z랊��8(Ny��y�N���8).z+����8�8(�8" ��8	��{꞊��8	��8;�&W6W'fF��� �Z�{ꓢih~X�n�*8(N�����.8).i�X+~8;�X�>X�n8�8(�Z�8(�88~8�8(�888�8�x�nhX�8~j�8�8>8�8" ���[�c�8���8� ��^8C�&W6W'fF���8�x��x�n8).K��8NK���Ί��8~8[.�hy�N8����i��8;�Xzn{��8�K�>{;�8�8~[�^8�8~8(.zK�8^8�8N8&6��6W'fF���8�i�ii�X�ni�8Xzn{��8K����.z�yn8).Y
+�8([.�h�	�Y��8).h�~8~8(N8�8N8" �K賢F�v�F�&W6W'fF���&�FV7G2F�Rf��W2g&��&V6�֖�rV�&VF&�R26�gGv&R6��vW2� ���3�88~8+�8+�8:�K��Zَ8�88+�89^88�8*n8*~8*.8�ZH�X�n8~89^8*8*N8:�8Ί��8(8�8�8�8(�8�8).��.88" ��8;�&W7F�&F��� �Z�{ꓢK��Y88[��x��8x��Y88�8�8).K�^X��8�x�nhX�8;�ZIn�k>8�h��8�8>8�8" ���[�c�8�r�8� ��^8C�&W7F�&F���8�j�i�8�9�XX^8(N��X�8�Z{�8�Xh�x��8��x�x+�8�8.8(�8&6��6W'fF���8�x��Zَ8�8(�i�ii�8).Z�Z�8^8�8(�8>8�8).XJ�XX�8~8Z��XZ�8�[�XX>8).y��j��8�8~8�8N8>8�8�8.8(�8" �K賢F�R&W7F�&F���&V7&VFVBF�R֗76��r6���'2�v���RF�R6��6W'fF���G&VF�V�B7F&�Ɨ�VBF�R�&�v�����B� ���3�[�XX>8~8�ZK8(�8(�8���.8).Xh�x��8~8K��ZَK��[�Xzn{��8~8�XX>8�{[^X[~8).Z�Z�8^8�8�8" ��8;�7F&�Ɨ�F��� �Z�{ꓢi�X+~8(NX�>X�n8�.��8).j�.8(8Z��8).Z�XZ�8�h�8�8(�x�nhX�8�8�8(�8>8�8" ���[�c�8�R�8� ��^8C�7F&�Ɨ�F���8�K��ZَK��[�8�K�[z^z��8�xJnx+�8).{��8�8&6��6W'fF���8�x�nhX�z+����8�����.8K����.z�yn8Xzn{��8).Y
+�8(8(�8(�[�>8NkK�X�^8~8.8(�8" �K賢7F&�Ɨ�F����bF�R���6RvW26�R&Vf�&RF�R��W67&�Bv2WB��F�7��� ���3�Xi�i��8).[^zK�8�8(�X��8�8ZIn8(�8�88�89�8;�8+�8�Z�Z�X�n8Ί�8(�8(�8�8" ��8;�&W�" �Z�{ꓢZ8�8(�8�8(�X+~8)>88(�8~8�x��8).8K��8�8(�x�nhX�8�h��8�8�8(y�N8�8>8�8" ���[�c�8���8� ��^8C�&W�&8�j���;�Y��[�8�iz^[�����8~8XX>8�i�ii�8;�h8^Z8;�ZIn�k>8).[��x�8�8(�[.�hy�N8�K��ZَX�Nij�8�8~8�Y
+�8�8�8N8" �K賢F�R&W�"f��VBF�Rg&�R�'WB�Bv2��BgV��6��6W'fF���G&VF�V�B� ���3�8�8�K��yn8~��{�8�y�N8>8�8�8Z��XZ�8�K��ZَK��[�Xzn{��8~8�8�8�8>8�8" ��8	X��hH����8	��8;��Vv�V7B �Z�{ꓢ[�^�h8�K�n��8z�yn8Xzn{��8).h
+8(�8Z��8).h*�X�n8^8�8(�8>8�8" ���[�c�8���8� ��^8C��Vv�V7F8�K��XZ�8�8�8(8�[�^�h8�k:�hH�8(Nh��XZ^8(�8).8~8�8N8>8�8).��8�8.iX^hH�8�Z8�8�8>8�8�8~[�^8�8~8(.Y
+�8�8�8N8" �K賢�V'2�b�Vv�V7B�VgBF�Rv��FV�67V�GW&RgV��W&&�RF���6V7G2�B���7GW&R� ���3�K�^[�N8(.iK�{��8^8(�8�8�8(88�8�iʎ[ھX8�8����8�k��k	~8�[�8Nx�nhX�8�8�8>8�8" ��8;�FWFW&��&F��� �Z�{ꓢx��8�x�nhX�8Y8�:�8i�ii�8�i�.�i>8�8�8(.8�h*�X�n8�8(�8>8�8" ���[�c�8�r�8� ��^8C�FWFW&��&F���8�K��Zَ8�ZKiY~8~8�{Yi��8�8~8n�[~8>8(�X�>X�n8).h�~8�x�nhX�Yފ��8~8��8�8��x+�8).y�Nh�^zK�8��Vv�V7F8�8�y[8�8(�8" �K賢F�R&6��fR&VGV6VBFWFW&��&F���'�6��G&��Ɩ�rƖv�B�B�V֖F�G�� ���3�8�8�ih~i���J�8�XX�8�k��[�n8).z�yn8~8nX�>X�n8).h�8�8�8" ��8;�FW7G'V7F��� �Z�{ꓢx��8[��x��8�8~ii�8�8�8).Z8�8~8nZَYʎ8;�[�.8).ZK8(�8�8(�8>8�8" ���[�c�8���8� ��^8C�FW7G'V7F���8�K��Zَ8�y��y�N8�j�>X��Z��8�{Yi��8).��8�8�8K��ZَK��[�8Ι�.8N8n8�8�8(�8�8�8n8�i�X+~8�Z��XZ�8�zNZ8�8��{>8(�8(�88~8�8�8N8" �K賢F�R6��6W'fF�����v27&VFVBF�&WfV�BF�RFW7G'V7F����bF�R��7F�&�26�FR� ���3�8�8�K��Zَ���yK�8�8X�.�z8�zNZ8�8).��.88�8(8�K��8(�8(�8�8" ��2�8	Yފ��8;�K��X��z�~���x��ynZ�n8;�X�nZ�n8	x��yn�x�8�K��Zَ8K��ZَX�p��8	iz^i�Ί�>8;�Z�{�8	8.8(�{;�8�i�K�n8�8(.8�8~88*�88�8:�8*�8;�8��X�^�x�8�:��x�8�����~8�8�8�x��yn�x�8�{x��x�8�8z{�X�^8~8�8(�X�^8�[�.8�ZH�h��8^8(�8�8(�8~8n8(.K�Z�8�K��8�8(�8(�8>8�8.8�8�88�8�j.K�.8).��8�8(�k9^X�~8.{;�8�K��:�8�x�8(N[�.8�ZH�X�n8~8�8N8�8N8nhH�Y>8~8�8�8�8Z(>yX�8).Z�8(8�XZ�K�>8�X��iJ�8�ZH�8(�8(�8�8N8�8N8nhH�Y>8~8.8(�8" ��8	��[�n8	8�b�8� ��8	8:�8+�8+�8+�8;���	�Y��8	[.�h���8.x��ynZ�n8X�nZ�n8[z^Z�n8zyZ�niY��+.8~K��8n8&6��6W'fF����bV�W&w�8(B6��6W'fF����b���V�GV�8�8(�8n8�K��Zَ8^8(�8(��x�8).i��zK�8�8(�8>8�8�ZI�8N8.iz^[��y�N8�z����8;�z�kN8).��8�V�W&w�6��6W'fF���8�8�8Y�Y�.8�8~XˮX�^8�8(�8" ��8	ih~k9^898+�8;�8;>8	6��6W'fF����b8�V�W&w�����V�GV���72�6�&v^8����8*�88�8:�8*�8;�8;���X�^�x�8;��:��x�8;������~8�K��Zَ���F�R�r�&��6��R�b6��6W'fF����b8�V�F�G�8�������K��Zَ8�k9^X�~8;�X��yn���6��6W'fF����v���K��ZَX�~����&W��FW7B6��6W'fF����b8�V�F�G�8�������8�K��ZَX�~8�[�>8n8;����8�K��Zَ8).jIΊ��8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�F�R�r�b6��6W'fF����bV�W&w� �yJ��	C�Z�Nz��8~8�{;�8�XZ�8*�88�8:�8*�8;�8�8[�.8).ZH�8�8n8(.K�Z�8~8.8(�8�8N8nk9^X�~8).��8�8" �K賢F�R�r�b6��6W'fF����bV�W&w�W����2v��F�RF�F�V�W&w��bF�R�6��FVB7�7FV�7F�VB6��7F�B� ���3�8*�88�8:�8*�8;�K��ZَX�~8�88�8�Z�Nz��{;�8�XZ�8*�88�8:�8*�8;�8�K�Z�8�K��8�8(�8�ynyK8).���i��8�8(�8" ��8;�6��6W'fF����b���V�GV� �yJ��	C�ZIn�:�8�8(�8�j�>Y>8�X��z��8�xJ�in8~8�8(�{;�8~8XZ���X�^�x�8Ί�z�8�X��[��8~z؞8~8N8>8�8).��8�8" �K賢F�R7GVFV�G2W6VB6��6W'fF����b���V�GV�F�6�7V�FRF�R7VVG2gFW"F�R6��Ɨ6���� ���3�Z�nyI�8�88���X�^�x�K��Zَ8).K��8>8n8��z�[��8�	�[�n8).���z�~8~8�8" ��8;�6��6W'fF����b�76 �yJ��	C��	�[��8�X�nZ�nX��[��8~X��Z�8�kh�k�^8;�yI�h�8�8�8X��[��X��[��8�:��x�X��iJ�8�K��8�8(�8(�8>8�8).��8�8" �K賢F�R&��6VBWVF���&Vf�V7G26��6W'fF����b�73�F�RF��2&R&V'&�vVB���B7&VFVB�"FW7G&��VB� ���3�K�.i[8).8�8(�8�8�X�nZ�n[��8��:��x�K��Zَ8).X��i�8~8n8N8(�8.X��Z�8�{XN8�i��8�8(�8(�8(�8�8~8.8>8n8yI�h�8;�kh�k�^8�8(�8�8~8�8�8N8" ��8;�6��6W'fF����b6�&vV �yJ��	C��h�8�8�X��iJ�8~�����~8�X��h��8�yI�8�8�8(�kh�8�8�8(�8�8�8���k	~Y��z�8(NX��[��8~�����~8�{x��x�8�K��8�8(�8(�8>8�8).��8�8" �K賢��&6���fn(	�27W'&V�B�rf����w2g&��6��6W'fF����bV�V7G&�26�&vRB6�&7V�B�V�7F���� ���3�8*�8:�89.89�88>89^8�kXX�~8�8Y��z�8�h�^x+�8~���k	~8���~8�K��Zَ8^8(�8(�8>8�8�8(�[�8�8(�8(�8" ��8;�6��6W'fF����v �yJ��	C�x��Z�8�x��yn�x�8�{x��x�8�8��8^8(�8�ZH�X�n8�X��[��8~K�Z�8~8.8(�8>8�8).��8�8(�k9^X�~8).��8�8" �K賢6��V�F����27W7V7B�b�B6��vW2F�F�6�&vRv�F��WB�W�FW&��6�W&6R�&V6W6R�Bf���FW26��6W'fF����r� ���3�ZIn�:�k�8�8~8�XZ������~8).ZH�8�8(�8+~89�8:^8:�8;�8+~8:~8;>8�8K��ZَX�~8�X��8�8(�8�8(yi8(�8~8N8" ��8	���k9^8;�k:�hH�8	x��ynZ�n8�6��6W'fF���8�8�K�^8(.ZH�X�n8~8�8N8�8�8N8nhH�Y>8~8�8�8N8.8*�88�8:�8*�8;�8�xk8(N��X�^8*�88�8:�8*�8;�8�z{�8(�8��X�^�x�8ΊH~i[8�x��K�>8�X�n�X�8^8(�8(�8�8�8{;�8�Xh^�:�8~8�[�.8(N�X�X�n8�ZH�8(�8>8n8(.8Z�{�8~8�{;�XZ�K�>8�{x��x�8�K�Z�8�8(�K��Zَ8�8N8n8" ��6��6W'fF����bV�W&w�8�x��ynZ�n8�K��ZَX�~8V�W&w�6��6W'fF����V7W&W68����{�8�y�8*�88�8:�8*�8;�Z��z�n8�8�8(�8(N8�8N8&�6��FVB7�7FV�8F�F�V�W&w�86��Ɨ6���8�v8�8�8�8.8(�8���{�>8�X���;�h
+~8Κ��8�8&���68Vff�6�V�BƖ�6W68&VGV6RW6V8�8�8�8.8(�8���{�8�X���;�h
+~8Κ��8N8" �K��ZَX�~8�{;�8�Z(>yX�8ZIn�:�8�8�K�Nh��8��K��i�K�n8�K��Zَ8�8(�8.8~8�8�8>8n8�8�8)>8�ZNY�8~8(.YNx��K�>8�x�8�K�Z�8�8�K����X�n8�8�8F�F�87�7FV�8V�FW"F�W6R6��F�F���68�8�8�z�NY�.8).z+����8�8(�8" ��8	��{꞊��8	��8;���f&��6R �Z�{ꓢ8.8(�ZH�h��8i8�K��8i�K�n8�8(.8�8~8h
+~�:�8(N�x�8�ZH�8(�8(�8�8N8>8�8" ���[�c�8�R�8� ��^8C���f&��6V8�ZH�h��8�Z��8~8nY�8�8~8.8(�8�8N8ni[Z�n8;�x��ynZ�n8�h
+~�:�8).[�~���8�8(�8&6��6W'fF���8�i�.�i>y��[^8(Ny��K�.K��yJ�8�X��[��8~{x��x�8�K��8�8(�8(�X��iJ�8;�k9^X�~8).h�~8~8(N8�8N8" �K賢F�R7���WG'���ƖW2��f&��6R�bF�RWVF���2V�FW"6��vR�b6��&F��FW2� ���3�8�8�Z��z{h
+~8�8[�~j��ZH�h��8�Z��8~8nik�z��[��8�K��ZH�8~8.8(�8>8�8).hH�Y>8�8(�8" ��8;�6��7F�7� �Z�{ꓢ�x�8(Nx�nhX�8�ZH�8(�8(�8�K�Z�8~8.8(�8>8�8" ���[�c�8�R�8� ��^8C�6��7F�7�8�Xَ8�ZH�X�n8�8�8N8>8�8).��8�K���Ί��8~8K�^8�K��Zَ8^8(�88�8�{;�8~X��iJ�8�K��8�8(�8(�8�8�8N8nx��ynk9^X�~8�Y
+�8�8�[�8N8" �K賢F�RW�W&��V�B�V7W&VBF�R6��7F�7��bF�RFV�W&GW&R��F�R6V�VB6��&W"� ���3�8�8�Z����>8�Z�n�h�Z�NXh^8�k��[�n8�K�Z�8~8.8(�8>8�8).k��Z�8~8�8" ��8;�&W6W'fF��� �Z�{ꓢ8.8(�h
+~�:�8�x�8x�nhX�8).ZK8(�8�8�8�K��8N8>8�8" ���[�c�8���8� ��^8C�&W6W'fF���8�8�K��8N8�8�8N8nK����y�N8�hH�Y>8~h��>ih~i��8�8(.x��8(�8(�8�8x��ynZ�n8~8�x��Z�8�x�8�k9^X�~8).zK�8�6��6W'fF���8�Z�y�8~8n8N8(�8" �K賢F�R��FV�77V�W2&W6W'fF����bF�F��72GW&��rF�R&V7F���� ���3�8�8�8:.88~8:�8�X��[��K��8�XZ��:��x�8�K��8�8(�8(�8�K��Z�8~8n8N8(�8" ��8	X��hH����8	��8;����6��6W'fF��� �Z�{ꓢK��Zَ8^8(�8(�8�8�8�x�8�8Z�8(8�{;�8(Nyn��n8�8(.8�8~K�Z�8�K��8�8(�8�8N8>8�8" ���[�c�8�2�8� ��^8C����6��6W'fF���8�K����Kɮ��8�X��Z��8~8�8�8�8x��Z�8�K��ZَX�~8�h�8(�z��8�8�8N8>8�8).��8�8(�[.�hy�N8���x��8~8.8(�8" �K賢F�R&��6VB��FW&7F���v�V�B��ǒ���6��6W'fF����bV�V7G&�26�&vR� ���3�8�8�y��K�.K��yJ�8�h�j�8�8�����~���K��Zَ8).hH�Y>8�8(�8>8�8�8�8(�8 ����Р�2�6P����Ц�VGv�&C��6P�G�S�v�&@�7FGW3�6�V6�V@�&��E�fW'6���V�G'��7V5�cP���FVâwB�R�b��V��vЦ7&VFVE�C�##b���#p�WFFVE�C�##b���#p�6�V6�VC�G'VP�Fw3��Т��Р���>y����>���X�p��{3���������Έ���������8.8�88(�8(#��>z�8~8���iʾ8�xJZ;��2�2�8~8�8�8�iȞZ;��>8����8~8.8(�8.{>��>8�K�Θx�j�ޙ�2�����8����>8�K�Θx�j�ޙ�2������8~8�^8N8�K��8�z����>z�8�j�ޙ�>8�8.8(�8" �K��K��z{Xَi[8;��H~i[[�.8��6W68�{2�����������8;���������������8.���iʾ8����8�{i�8�8�8(8�H~i[8;�K��Xَx��8�[�8������8�8�8(�8.��X�[�.8;���X�X�n����6VF8�{2�����B�8;���������B�8~8���[�8�j�ޙ�>8).X�8�8���>z�8~y����>8�8(�8" �x��YʎX�n����6��v8�{2���������X��8;�������������X��8&�6V8�iʾ8�R8�i��8�8(�8�8N8�8���[��8����8�K��8�8(�8(�8.X�^���8;�Yފ��8�8(.Y��i��[�.8�Y�8���>z�8~8Y8���8�8(�8(�[�~X�.z{�X�^8�8�8N8" ��6V�������Ȏ89�8;�8+��Ȟ8�W6V��L����Ȏ89�8;�8+�8K�j�.�Ȟ8�8{>��>8~8(.j�ޙ�>8�y[8�8(�X�^���8~8.8(�8" ����>���k� ��K��[�>y�N8�X�^����6V8�K�ވ�����6V�8X�N89^8:�8;>8+�����6W&8�{��8�8K��{��8^88(�8h�j�8�8(�8�8).{X�8n8[��i��8:�88n8;>���W6&V8�j�.8(8(�8K�8�8�8(�8K�j�.8�8(�8�8�yKi�^8�8(�8.89^8:�8;>8+����8��6W&8�8�{��8�8�8�8N8nhH�Y>8).y���N8^8�8(���z��8~88:�88n8;>�����W&V8�{��8�8�8�8�8��X�X�n����6�GW68�8�[�.8��K��8;�hH�Y>K��8�
+>h;>8(.[����8~8�8����i��8^8(�8(�8�8W6&V8���W&V8�i��i�^X�^���k�8~8.8(�8" ������8~8�8�x��Z�8�K��{��8�{��8�8�8�8(�8�x��Z�8�Z{�X�.8).X�n8(�8;�X�n8(�8�8(�8�8�88^8(�8�8΋:�YX�8(NYX���8).y��8�X��8�h�zK�8�8(�8�8�X����8(NYX���8).yI�8�8^8�8(�8�8�yJ�k9^8�[�>8�8>8�8.Yފ��8��6V8�8>8�X�^���8�8(�yI�8�8�K�n{HX�ޚ
+�8�8����K�>8�Z{�X�.8).��8����8�8~8nK��8(�8(�8n8N8�8" �8�Y�h98^8�8(�8�8�8N8nX�^8�X�^����6V8�8X�N8B�6V�����6V8�y��{��8;�ZH�[�.8��j.K�.8�8(�X�^{;�{[8~8Xi�y��8(N�:�YX�8).8�{��8�8�8�8N8nK��[�>{�8�8(�y�Nh�^kK�yI�8~8�8(.8�8�8~8nh�8(�8�8N8&W6V8�W6&V8).X[iȞ8�8(�YΊ��k����8~8&��6V86���6V8W��6V8�8�8�89^8:�8;>8+����8��6W&{;�{[8).Y
+�8(8�8x��K�>�����8r�6V8�h�^�
+ދ��8).K��88nK��8>8�Xَ{IN8�kK�yI����8~8�8�8N8" ����>���[�.h� ���6W&(	BYފ��8�89�8;�8+�8).X�n8(�K��8k	~X�n8(�[�8�8.X�^{;�{[8�Y�h9{�8�8(�8Ι�>YX�8h��8>8�8(�8�8(�YX���8�8�8N8nhH�Y>8(.yI�8�8(�8" ��6WW&(	BYފ��8�k	~X�n8(�[�8�h�8�8�88�K��x��8�8.89^8:�8;>8+����yKi�^8�8~8Z�����K�^K��8�y�^�َ8;�kI~{{N8;�h�[�8).�8^8nK��8).h��X�Ny�N8�h�~8�8" ��6&�R��6V&�V(	B[�.Z랊��8�89�8;�8+�8).X�n8(�8�8(�8(�8(�8iɾ8(Z{�X�.8�{��88(�8�8.K��[�.8(N89^8*>8*�8:^8*.8�8�8�j.z�8).X�^8�8~8nZ{�X�.8).K��8(�8(�x��8�8N8N8nK��8n8>8�8�ZI�8N8" ��6��v(	Bx��YʎX�n���8;�X�^Yފ��[�.8~88�89�8;�8+�8).X�n8>8n8N8(�8>8�8�8�k	~X�n8>8nh��8(����8n8>8�8�8�K�ik�8).ih~�H�8�[��8�8n��8�8" ����>8+>8*.8*N8:8;�8+����6V8�K��[�>{�8�8K��8;�x��8;�YX�8N8;�X����8�8�8).8K�n�^8Ίh�8(�8;��>8�8(�8;�Z��Xzn8�8(�K��{��8�8�{��8�8�8>8�8~8.8(�8.8�8>8�8(�8���K�>8).x��Z�8�Z{�X�.8�{��8�yJ�k9^8�:�YX�8(NYX���8).jIΊ��8�X��8�{��8�yJ�k9^8X����8).Z��Xzn8�8�8�8(.8�8�8~8nyI�8�8^8�8(�yJ�k9^8�X�n8�8(�8(�8" �8;�X����8(NY���>8).Z��Xzn8�8�8�K��{��8�{��8�(i"8�X����8;�YX���8).[�^8ދ[~8>8�8��Ȏ���{��Ȓ �8;��:�YX�8(NYX���8).jIΊ��8�X��8�{��8�(i"8΋:�YX�8;�YX���8).h��[~8�8(�8��Ȏ���{�.�Ȓ �8;�K��8(Nx��8).�h�8�8(�Z{�X�.8�{��8�(i"8�89�8;�8+�8).X�n8(�8�8(�8;�X�n8(�8��Ȏ���{�>�Ȓ �8;��z�X�n8).K��y��8).[�^8�hX�[�n8�{��8�(i"8�k	~X�n8>8nh��8(����8n8��Ȏ���{�N�Ȓ �8;��z�X�n8).X�^K��8;�X�^8�z��ZN8�8~8n{��8�(i"8�8	�8).�8^8n88�8(�8�8�8�8��Ȏ���{�^�Ȓ �8;����K�>8).{��8N8�Z{�X�.8�8�8(.8�(i"8�Z{�X�.889�8;�8+�8��Ȏ���{�n�Ȓ �8;�i��[�>8�8�X�^8�hX�[�n8).�h�8�8(�8�8(8�{��8N8�Z{�X�"(i"8Ίh�8�8�88�hX�[�n8��Ȏ���{�~�Ȓ ����{꓎8�8X�N8B�6V�����6V8��j.K�.8�8(�Y�{kNy[{�8�X�^���8~8���[ٞy�NhH�Y>8�8>8�8�{��8�8�8�8N8nX[�	�j�8�8(�[�88�8N8�8(8X�X�^8�X�.xZ~8�8(�8" ����>hH�Y>8;�yJ�k9^8;��j.�
+>��x�ࠣ�8	X�^���8;�K�nX�^���8	X����8;�YX���8;���.��8�8�8).[�^8ދ[~8>8�88(.8�8(�8���8	iz^i�Ί�>8;�Z�{�8	K��x��8(Nx�nk88�8��8�8;�K�^8�8�8�8>8nZ��Xzn8).�h8�8(�X����88:�8+�8*�8YX���8Y���>8�8�8).yI�8�8^8�8(�8>8�8.K�����8�hH�Y�>y�N8��H^8�8�8���8(�8�8Z�.�k>y�N8�8�8	�8�8N8nX����8).8(.8�8(�8�8�8�8	�8�Z�>8�8�8(�8�8���8�8(�z�8(8��x��8~8.8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Z�>8��iK�8zyZ�n8X˾y�.8Z�XZ�z�yn889>8+�88�8+�8~x��8�ZI�8N8&F�&VF8&�6�8F�vW&8~8�Z�>8�X���;�h
+~8&�&�V�86���V�vV8�'7F6�V8~8�Z��Xzn8>8~8^8�xJnx+�8�z{�8(�8" ��8	ih~k9^898+�8;�8;>8	8�K��x��8;�x�nk88��6RF�&VB�&�6��F�vW"F�8�Z��8����8�Z��8�8�X����8).8(.8�8(�8����8�K��x��8;�x�nk88��6R&�&�V��6���V�vRf�"8�K��8;�{XN{�N8����8�K��8;�{XN{�N8�8�YX���8;���.��8).yI�8�8^8�8(�����6R��&B��'7F6�R�&'&�W"F�8�kK�X�^8;��.��8����kK�X�^8;��.��8�Z�>8�8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��6RF�&VBF�8�K��8;�X�^x��8;�y+Z(>8� �yJ��	C�K��8X�^x��8y+Z(>8�8�8�X�Z�>8).X��8�8�X���;�h
+~8�8.8(�8>8�8).��8�8" �K賢F�R��f6�fR��B�6W26W&��W2F�&VBF��F�fR7V6�W2� ���3�8�8�ZIni�^jH�x��8�Yʎi�^z��8�k{X��8��H^Z�8).8(.8�8(�8~8n8N8(�8" ��8;��6R&�6�F�8��V�F��6fWG�8� �yJ��	C�X^[�~8(NZ�XZ�8�h*�8N{Yi��8�yI�8�8(�X���;�h
+~8).8Z�.�k>y�N8;����i��y�N8���8�8(�8" �K賢���r�FW&�W��7W&RF�F�R6�V֖6����6R&�6�F�v�&�W'2r�V�F�� ���3�8�8�X�nZ�nx���:�8�8�[~i��y�N8�i�ޙ�.8�8K��jZ�Y:8�X^[�~8�8:�8+�8*�8).8(.8�8(�8�X���;�h
+~8�8.8(�8" ��8;��6RF�vW"F�8�K��8;���nY�>8� �yJ��	C�X[~K�>y�N8�K��8(N��nY�>8�X����8�X��8n8>8�8).��8�8" �K賢F�RF�vVB'&�FvR6�V�B�6RF�vW"F�VFW7G&��2� ���3�i�X+~8~8�j��8�jڞ�Έ^8�X����8).X��8�8�8�8�8(�8�8.8(�8" ��8;��6R&�&�V�f�"8�W'6���7�7FV�8� �yJ��	C�K��x��8(Nx�nk88�8��8�8(NX�n[�n8��z>k�8�8�8�YX���8).yI�8�8^8�8(�8>8�8).��8�8" �K賢F�R7VFFV���72�bFF�6VB6W&��W2&�&�V�f�"F�R&W6V&6�FV�� ���3�z�xKn8�88~8;�8+�kh�ZK8�z	Nz�n888;�8:8�k{X��8�YX���8).8(.8�8(�8~8�8" ��8;��6R6���V�vRF�8�FV����8� �yJ��	C�y��j���Nh�8(NK��jZ�8�.��8).��>8~8�8�8(���.��8).yI�8�8^8�8(�8>8�8).��8�8" �K賢F�R7FVWFW'&���6VB���"6���V�vRF�F�R&W67VRFV�� ���3����8~8NY�[�.8�iYX�����8�ZJ~8�8���.��8).z�8�8N88�8" ��8;�F�RF�&VB�&�6��6VB'�8�6W6^8� �yJ��	C�8.8(�X��Y�8�8(.8�8(�8�X����8(NYX���8).8Yފ��X�^8�K��8~���i��8�8(�8" �K賢�ff�6��276W76VBF�R&�6�2�6VB'�F�R�fW&��FVBV�V7G&�6�7�7FV�� ���3�[�>[8���*��~x�nhX�8�k	~{;�{[8�8(.8�8(�8�8:�8+�8*�8).��^K�8~8�8" ��8	���k9^8;�k:�hH�8	�6V8�8>8�yJ�k9^8~8��	�[��8K�����8�X����8(NYX���8).yI�8�8^8�8(�K��x��8;�x�nk88).{��8�8X����8�X�~8h��8�F�8YX���8�X�~8h��8�f�&8~zK�8�8&��6R6��V��RF�&VF8�8�8�8�6RF�&VBF�6��V��V8�8�8(�8" ���6RF�&VF8�8ΈH^���8�8(�8�8�8N8nhH�Y�>8).[�^��8�8�8�8F�&VFV�8(�8(�Z�.�k>y�N8;�ZY�y�N8~8.8(�8&�6R&�&�V�8�8�YX���8).[�^8ދ[~8>8�8�8�hH�Y>8�8(����{�88�8YX���8).����n8�Z��8�8~8nh�zK�8�8(�hH�Y>8�8(.8�8(�[�~8(�8.8�8�ZNY�8����{�.8~8Y�Y�.8�f�"F�67W76���8F�RVW7F����f8�8�8�x��8(�8(N8�8N8&�6R68�8�8	�8).�8^8n8�8�8N8nX�^jx�ih~8~8.8(�88>8>8�8�Y
+�8(8�8N8" ��8	��{꞊��8	��8;�7&VFR �Z�{ꓢK�^8�8).ik8�8�yI�8�8^8�8(�8" ���[�c�8��8� ��^8C�7&VFV8�{Yi��8).yI�8�8^8�8(�8>8�XZ����8).��8�[�>8N���8~8�6V8�8(�8n8�X����8;�YX���8).Z��XznZ��8�8~8nh�zK�8�8(�z�8NY
+�8�8�8�8N8" �K賢F�R6��vR7&VFVBFF�F����v�&�f�"F�R66�V�F��rFV�� ���3�8�8�ZH�i�N8�{X�yn888;�8:8����X�8�K��jZ�8).yI�8�8^8�8�8" ��8;�&W6V�B �Z�{ꓢYX���8j��Kɮ8X����8�8�8).K��8�X��8�x��8(�8^8�8(�88�8�8�y�N��.8^8�8(�8" ���[�c�8���8� ��^8C�&W6V�F8�X����8���8(�8�8x�nk88(Nj��Kɮ8).h�zK�8�8(�K��z��y�N8����8~8.8(�8&�6V8�x��8�Z��Xzn8).�h8�8(�YX���8;�8:�8+�8*�8�8�{Y8>8N8�8�[�~8N8" �K賢F�R�WrWf�FV�6R&W6V�G2F�ff�7V�G�f�"F�R&��6VBW���F���� ���3�ik8~8N���h�8�8h�j�8^8(�8����i��8���>x+�8).8(.8�8(�8�8" ��8;�6��7F�GWFR �Z�{ꓢXZ�K�>8�8~8n88.8(�X����8;�YX���8;��H^Z�8�[�>8�8(�8" ���[�c�8�r�8� ��^8C�6��7F�GWFV8�8�8�8(Έz�K�>8�8	�8~8.8(�8�8�8N8nX�n��8;���^K�8�xJnx+�8�8.8(�8�6V8���8�8�8�8>8nX����8(NYX���8).yI�8�8^8�8(��j.K�.8�xJnx+�8�8.8(�8" �K賢F�R�V�6��7F�GWFW26W&��W2f���F����bF�R6fWG�'V�W2� ���3�8�8�k��8�8N8�Z�XZ��h�X�~8�8�x�ZJ~8��^X��8�[�>8�8(�8" ��8;�F�&VFV� �Z�{ꓢX�Z�>8(NK��X��y��8).X��8�8�8�8�8(�8�8.8(�88�8�8��H^8�8" ���[�c�8���8� ��^8C�F�&VFV�8�X����8�X�~���h
+~8(N8ZNY�8�8(�8>8n8�hH�Y�>y�N8��H^8~8).[�~8�zK�8�8&�6V8��z�xKnx��8(NX�n[�nK��8�YX���8�8(.K��8nZ�.�k>y�N8���x��8~8.8(�8" �K賢&�6��r6V�WfV�2F�&VFV�6�7F�6���V�F�W2� ���3�k[~��.K��i�~8�k+�[+�Y�Y��zK�Kɮ8).�H^8�8~8n8N8(�8" ��"�8	X�^���8;�K�nX�^���8;�8(N8(Nz�8N8	�:�YX�8;�YX���8;�K��8�8�8).h��[~8�8(�8h�zK�8�8(���8	iz^i�Ί�>8;�Z�{�8	�:�YX�8YX���8��nx+�8K��8�8�8).8K�n�^8Έ>8�8�8(�����n8~8�8(�8�8(�Z��8�8~8nh�zK�8�8(�8>8�8.Xَ8�y����8�8(�8(�8(�8jIΊ��8�8�8ފ�nx+�8).X��8�{��8�Y
+�8�8�8.8(�8Kɮ��8;���nih~8;���^��n8�8�8~K��8(�8(�8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8;�8(N8(Nz�8N��x��8.Kɮ��8z	Nz�n8iY��+.8��^��n8Z�>8~[�>8�K��8n8.�:�YX�8).i��	�8�[�8�8(�iz^[��Kɮ��8~8�6�8��nx+�8).h�8X{�8�ZNY�8�&�6V8(.8(�8�K��8n8" ��8	ih~k9^898+�8;�8;>8	�6RVW7F���F�8�W'6���w&�W8����8�K��8;���nY�>8�8��:�YX�8).h��[~8�8(�����6RF�RVW7F����bv�WF�W"8�z�8����8	�8�8�8n8�8�8N8nYX���8).h��[~8�8(�����6R&�&�V���77VRf�"F�67W76�����ފ���n8�8�8(8�YX���8;���nx+�8).h�zK�8�8(�����6R6���V�vRF�8�F�V�'��77V�F���8����yn��n8;�X��h�8�Z��8�8(�X�ފ�n8�8�8(���nx+�8).h�zK�8�8(�����6RF��V��f�"8�FV6�6������W.8����hH�h	�k�Z鮈^8���>8~8N��h��8).z�8�8N88(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��6RVW7F���F�8�W'6���w&�W8� �yJ��	C�y��h��8�8�>8�8(�K�X
+N8�8.8(��:�YX�8).j�>[��8�h�^8.8�88(�8>8�8).��8�8" �K賢F�R��FW&F�"�6VBVW7F���F�F�R�V�&�WBF�R6�7B�b&Vf�&�� ���3�X��Kɮ�^8�iK��ڞ8�+�yJ�8�8N8N8n8988�8:�8+�88�8�88��:�YX�8).h�^8.8�88�8" ��8;��6RF�RVW7F����bv�WF�W"8�z�8� �yJ��	C�8�8	�8�8�8n8�8�8�8N8n��nx+�8).8jIΊ��8�8�8�YX���8�8~8nh�zK�8�8(�8" �K賢F�RF�66�fW'��6W2F�RVW7F����bv�WF�W"F�R7V6�W26�7W'f�fR��v&�W"6V2� ���3�8�8�y���h�8�88�8�z��8�8(�8(�k��i�n8�k[~8~yI�8�j�8(�8(�8�8�8�8N8nYX���8).h��[~8�8(�8" ��8;��6RF�ff�7V�BVW7F��� �yJ��	C�z�N8�8(NX�Nij�8�Z�i�>8~8�8N�:�YX�8).h��[~8�8(�8>8�8).��8�8" �K賢F�Rf���6�FW"�6W2F�ff�7V�BVW7F���&�WBW'6���&W7��6�&�ƗG�� ���3�i�{X.z�8�8X�K��8�*�K��8�8N8N8n��>8~8NYX�8N8).h�^8.8�88n8N8(�8" ��8;��6R&�&�V�f�"F�67W76��� �yJ��	C��z>k�8;�jIΊ��8�8�8�YX���8).����n8�ZN8�h�zK�8�8(�8>8�8).��8�8" �K賢F�RFV6�W"�6VB&�&�V�f�"F�67W76���&Vf�&RW�����rF�Rf�&�V�� ���3�8�8�iY�[��8�XZ�[��8).���i��8�8(�X��8�8����n8�8(�YX���8).h�zK�8~8�8" ��8;��6R6���V�vRF�8�F�V�'��77V�F���8� �yJ��	C�ik8~8N���h�8(N����n8�8iz.Zَ8�yn��n8;�X��h�8).Xh�jIΊ��8^8�8(���nx+�8�8�8(�8>8�8).��8�8" �K賢F�R&W7V�G2�6R6W&��W26���V�vRF�F�R77V�F���F�BFV��B�27F&�R� ���3�8�8�{Yi��8�8���h8�Z�Z�8~8n8N8(�8�8N8nX��h�8��x�ZJ~8�yiYX�8).h�^8.8�88(�8" ��8	���k9^8;�k:�hH�8	8>8�yJ�k9^8��6V8�8�:�YX�8(NYX���8).jIΊ��8�X��8�{��8���x��8~86�8(�8(�[�.[��y�N8~8.8(�8&&�6RVW7F���8�yiYX�8(N��nx+�8).h�8X{�8�8>8�8&��6V8����yK�8;�j�8).h�j�8�8(�8>8�8��x�x+�8�8.8(�8&�6R&�&�V�8����{�8�8�YX���8).[�^8ދ[~8>8�8�8�[�.8�Y�8�8�8�8~8f�"F�67W76���8(N����n8).��8nK�����8�8.8(�8���{�.8�*�Z�>8(N���Z�>8).X�~88(�Z��8�8.8(�8���{�8�X�Nij�8~8(N8�8N8" ���6RVW7F���F�6��V��V8�8(�8n8��:�YX�8�8�8(.8�8).y��y�N���8�8~8y��h��8�F�8~zK�8�8�8�Z�XZ�8~8.8(�8&�6R6��V��V8�X�^���{�8�8�Y�h98^8�8(�8�8����8�8(�[�~8(�8�8(8�:�YX�8).[�8�8(�hH�Y>8~y��y�N���8�K��888).y�Nh�^{��8�8�8N8" ��8	��{꞊��8	��8;�6� �Z�{ꓢz�N8�8(Nh8^Z8).k.8(8n�:�YX�8�8(�8" ���[�c�8��8� ��^8C�6�8�iz^[��Kɮ��8�8(�j�>[��8�ZN��.8�8~K��8�8(�Y��i�Ί��8~8�6V8(�8(�8(.8�y��h��8�8(�z�N8�8).k.8(8(���x+�8�8�xJnx+�8�8.8(�8" �K賢�6�VBF�R��vW"v�WF�W"F�RFVFƖ�R6�V�B&RW�FV�FVB� ���3�zx8�{z8(X�~8(�8).[�n88�8(�8�8�8n8�89�88�8;�8+�8:>8;�8�[�8�8�8" ��8;�&�6R �Z�{ꓢYX���8yiYX�8h{�[�^8�8�8).����8�8~8nh�8X{�8�8" ���[�c�8���8� ��^8C�&�6RVW7F�����77VV8���nx+�8).Kɮ��8(N����n8�h�8���8(8>8�8��x�x+�8�8.8(�8�6V8�YX�8N8).jIΊ��Z��8�8~8n{XN8�z��8n8nh�zK�8�8(�Y
+�8�8�8.8(�8" �K賢6WfW&��V�&W'2&�6VB6��6W&�2&�WBF�R�Wr&�6VGW&R� ���3�K�^K��8�8�8:8;>898;�8�ik8~8Nh��{i�8�8�8N8N8nh{�[�^8).h��[~8~8�8" ��8;�WBf�'v&B �Z�{ꓢ�>8�8h�j�8����n8�8�8).jIΊ��8�8�8(8�h�zK�8�8(�8" ���[�c�8���8� ��^8C�WBf�'v&F8��:�YX�8���8(�8�8j�8(NhH��h�8).i��zK�y�N8�h�zK�8�8(�X�^X�^���8~8.8(�8&�6V8�YX�8N8;�YX���8).X��8�{��8���x��8�8~8nz�8����8�8(N8�8N8" �K賢F�R6��֗GFVRWBf�'v&BF�&VR�FW&�F�fW2f�"&VGV6��r6�7G2� ���3�ZyNY:Kɮ8��+�yJ�8).X��k��8�8(�8�8(8�>8N8�K�>j�8).h�zK�8~8�8" ��8;�&��6R �Z�{ꓢ���yK�8j�8���i��8�8�8).h�yJ�X	��9�8�8~8nh�j�8�8(�8" ���[�c�8���8� ��^8C�&��6V8�Z����8;�h�yJ�8).i��[�^8�8(�j�8).zK�8�8>8�8�ZI�8N8&�6RVW7F���8�8z�N8�8(N����n8).k.8(8(�YX�8N8).{��8���x��8~8.8(�8" �K賢F�RV�v��VW"&��6VB6���W"FW6�v�f�"F�RFWf�6R� ���3�8�8�h��>�^8��8^{��8�8(�8(�{
+Xَ8���ފ��8).h�j�8~8�8" ��2�8	X�^���8;�K�nX�^�������z�X�^���8	�Ȏi*�[�8;�{[^yK�8�8�8(8��ȞK��8;�x��8).x��Z�8�K��{��8�{��8�����z�X�n8�89�8;�8+�8).X�n8(���8	iz^i�Ί�>8;�Z�{�8	K��8(Nx��8).Xi�y��8{[^yK�8[ھX��8���X�K��8�jx�Y�>8�8�8���8~8�Z{�X�.8;�K��{��8�{��8�8>8�8.8�8�8K��8�8�8�8(�8n8�Z{�X�.8).K��8>8nXi�y��Z�n8(NyK�Z�n8�8�8(8�89�8;�8+�8).X�n8(�8>8�8.�z�X�n8�89�8;�8+�8).X�n8(�ZNY�8��z�X�^���88:.88~8:�8�8�8�Z{�X�.8).X�n8(�8�8(�ZNY�8�K�nX�^���8�8�8(�8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.Xi�y��8{[^yK�8[�>Y�889^8*88>8+~8:~8;>8888;>8+�8iz^[��8�[�^i*�[�8~K��8n8" ��8	ih~k9^898+�8;�8;>8	�6Rf�"8���F�w&�W"�6�W&��'G&�N8����Xi�y��Z�n8;�8*�8:8:�8;��)nX8�yK�8�8�8(8�89�8;�8+�8).X�n8(�����6Rv�F���W�BF��&W6�FR8�W'6����&�V7N8����K��8;�x��8�K�{y.8�89�8;�8+�8).X�n8(�����6R��8��6�F�����6^8����x��Z�8�Z{�X�.8;�ZNh�8~89�8;�8+�8).X�n8(�����6R6��V��R�6��WF���rf�"8���F�w&���'G&�N8����K��8;�x��8).Xi�y��8;��)nX8�yK�8�8�8(8��X�{��8�8(�����6R��FV���8��6�F���8����8:.88~8:�8).x��Z�8�Z{�X�.8�{��8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��6Rf�"��F�w&���'G&�F �yJ��	C�Xi�y��8(N�)nX8�yK�8�Xi�8(�8�8(8K�Z�8�Z{�X�.8).K��8N8>8�8).��8�8" �K賢F�RGv�7F�'2�6VBf�"��F�w&�gFW"F�R6W&V���� ���3�8�8�.K��8�K�>XJ�8�[��X[�8�[��8Xi�y��i*�[�8�8�8(8�89�8;�8+�8).X�n8>8�8" ��8;��6Rf�"F�R6�W& �yJ��	C�8*�8:8:�8�Y	88n8i*�[�8^8(�8(�8�8(8�Z{�X�.8).X�n8(�8>8�8).��8�8" �K賢F�R6���G&V��Vv�VB�B�6VBf�"F�R6�W&� ���3�Z�8�8(.8�88�z�8N8�8�8(�8*�8:8:�8�Y	8�8>8n89�8;�8+�8).X�n8>8�8" ��8;��6Rv�F�8�W'6��8� �yJ��	C�K�n8�K��8�K�{y.8�Xi�y��8�Xi�8(�Z{�X�.8).X�n8(�8>8�8).��8�8" �K賢F�Rv&Bv���W"�6VBv�F��W"&V�G2&6�7FvR� ���3�8�8�X�~�9�^8����X��8�8~K��j�8�K�{y.8�89�8;�8+�8).X�n8>8�8" ��8;��6R&W6�FR��W�BF�8��&�V7B�W'6��8� �yJ��	C�x��Z�8�x��8(NK��8>8~Xi�y��8�Xi�8(�8>8�8).��8�8" �K賢F�Rf�6�F�'2�6VB&W6�FRF�R��B��6���F�fR� ���3�i�^ZN�^8�88�X�N8Nj���j.���8>8~89�8;�8+�8).X�n8>8�8" ��8;��6R6��V��Rf�"8���F�w&���'G&�N8� �yJ��	C�Xi�y��Z�n8(NyK�Z�n8�88:.88~8:�8�Z{�X�.8(NK��{��8).k�8(8ni*�[�8;�X�nK��8�8(�8>8�8).��8�8" �K賢F�R��F�w&�W"�6VBF�Rf֖ǒf�"f�&���'G&�B� ���3�Xi�y��Z�n8�j�>[��8�Z�nix�Xi�y��8�8�8(8�8Z�nix�8).�X�{��8~8�8" ��8;��6R��FV���8��6�F���8� �yJ��	C�8:.88~8:�8).x��Z�8�K�>8�Y	8�8(NZ{�X�.8�{��8�8>8�8).��8�8" �K賢F�R'F�7B�6VBF�R��FV���6VFVB�6�F���� ���3�8�8��>Z�n8�8:.88~8:�8).[�~8>8�Z{�X�.8�{��8N8�8" ��8	���k9^8;�k:�hH�8	�z�X�n8�Z{�X�.8).X�n8(�8�8�8�6�R�6VBf�"F�R6�W&�8�8(�8n8�y��y�N���8).{��8�8�8N8.i*�[��^8�8:.88~8:�8).�X�{��8�8(�8�8�8�F�R��F�w&�W"�6VB�W"f�"F�R�'G&�B�8�8(�8n8�K��8).y��y�N���8�8�8(�8&�6Rv�F�8�8�8	�8�K�{y.8�Xi�8(�8�8~8.8(�8[�^8�8~8(.x��X�^8�k	~X�n8>8�Z{�X�.8).hH�Y>8~8�8N8" ���6V8�K�i�.y�N8�hH��َ8~8nX�n8(�Z{�X�.8�7GW&V8����K�>8�K��8ik�8(NZ{�X�.8�x�nhX�8).8(�8(�[�>8���8�8.Xَ8�[�~8(�8;�z��8N8�8N8nX�^K��8).��8�8(�888�8(�6�F87F�F8�8�8n8Έz�xKn8~8.8(�8" ��8	��{꞊��8	��8;��6�F��� �Z�{ꓢK��8(Nx��8).x��Z�8�ZNh�8;�K��{��8�hH�Y�>y�N8�{��8�8" ���[�c�8���8� ��^8C��6�F���8��X�{��8�8�8(.8�8�xJnx+�8�8.8(�8Xi�y��8(N����>8�8�8(8����K�>8�Z{�X�.8).K��8(�Y
+�8�8��6V8�8�[�~8�8�8N8" �K賢F�R�W'6R�6�F���VBF�R��&W6�FRF�RW�֖�F���F&�R� ���3�yȾ��~[��8����Z��X�8�8�88�8:�8;>89~8).�X�{��8~8�8" ��8;�'&�vR �Z�{ꓢK��8(Nx��8).8�h�8�y��8(Ny��y�N8�Y�8n8(�8n8�i[N8�8n�X�{��8�8(�8" ���[�c�8���8� ��^8C�'&�vV8��H~i[8�K��8;�x��8�XZ�K�>y�N8�K�n8�ik�8).��8�8&�6V8�x��8�8:.88~8:�8�K�>8�Y	8�8(NZ{�X�.8).k�8(8(�8" �K賢F�R76�7F�B'&�vVBF�Rf��vW'2&�V�BF�R67V�GW&R� ���3�8*.8+~8+�8+�8;>88�8�[ھX��8�Y�8(�8���8).�X�{��8~8�8" ��8;���FV� �Z�{ꓢ����>Z�n8�8�8(8�[�~8>8�8(�z��8>8�8(�8~8n8K��Y88�8:.88~8:�8).X��8(8(�8" ���[�c�8�b�8� ��^8C���FV�8�h��8�XN8�8�8(8�89�8;�8+�8).K��8N[۞X�.8).��8~8�6V8�8(�8n8�x��Z�8�Z{�X�.8).X�n8(���x+�K����8).��8�8(�88~8�8�8N8" �K賢6�R��FV�VBf�"67V�F�"GW&��rF�Rv��FW"� ���3�[��Z[>8�Xj�8�i>8[ھX��Z�n8�8:.88~8:�8).X��8(8�8" ��8;�6�B�7F�Bf�"8�'F�7B���F�w&�W.8� �Z�{ꓢyK�Z�n8(NXi�y��Z�n8�8�8(8�[�~8>8�8(�z��8>8�8(�8~8nZ{�X�.8).K��8N8" ���[�c�8�R�8� ��^8C�6�B�7F�Bf�&8�Z�����8�Z{�X�.8�8�8�h�{i�8).X[~K�>y�N8���8�8(�X�^8~8�6V8(�8(�8(.X�^K��8�z���8Ι�Z�8^8(�8(�8" �K賢F�R6���B7F��Bf�"F�R��FW"f�"�V&ǒ���W"� ���3�8�8�Z�8�8(.8�i�.�i>��8�yK�Z�n8�8�8(8�z��8>8n8N8�8" ��B�8	X�^���8;��z�X�^���8;��	�K辘.��[�.8;���މIy�N8	K��y��8).[�^8�8�8(8�k	~X�n8>8�hX�[�n8;�j�Z[�8).8�8(���8	iz^i�Ί�>8;�Z�{�8	K��8����8��h�8�8�8(�8X��8^88�8(�8�8(�y��y�N8~8�z�xKn8~8�8�8NhX�[�n8i�ފ8^8h��8(����8N8).hH��َy�N8�k�N8�8(�8>8�8.Xi�y��i*�[�8�8�8(8�Z{�X�.8).X�n8(����{�>8��^8N88>8>8~8�8�k	~X�n8>8n8N8(�8�8�8N8nh��X�Ny�N8���^K�8�Y
+�8�8(�8(N8�8N8" ��8	��[�n8	8�R�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8;�8(N8(NY
+nZ�y�N8.Kɮ��8��^��n8K��x��h��Xi�8~K��8n8.8~88~8�.��[�"&R�6��v8~8y��8�X��8~k	~X�n8>8nh��8(����8njy�Z�8).h��Xi�8�8(�8" ��8	ih~k9^898+�8;�8;>8	�6R��8�6��F�W2�6WGF��~8����i�ފ8^8;�ZN��.8).X��yJ�8~8nk	~X�n8(�����6RF���&W728�V��^8����K��8).hI�[�>8^8�8(�8n8�8~8nk	~X�n8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��6R��FW6�v�W"�WFf�F �yJ��	C����K�8;�y��z��8Ni�ފ8^8).�h�8�8X��8^88(�8n8�8~8nk	~X�n8(�8>8�8).��8�8" �K賢�R�WB�6��r��FW6�v�W"�WFf�B��7FVB�b�V���rv�F�F�Rv�&�� ���3�[��8�K�^K��8).h��K��8(�8�8���{I�8�i��8).y�8nk	~X�n8>8n88�8(�8N8�8" ��8;��6R��8�6"�6��F�W>8� �yJ��	C����8(Ni��8�8�8).�h�8�8>8(�8�8�8(�8n8�8ZIn8~k	~X�n8>8nh��8(����8n8>8�8).��8�8" �K賢F�W�vW&R�WB�6��r��&V�FVB7�'G26"��gFW&����� ���3�[��8(�8�X؎[��8�8>8�8X	�8(�8�8+�89�8;�88N8*�8;�8).�h�8�8>8(�8�8~8nZIn8~k	~X�n8>8n8N8�8" ��8;��6RF���&W728�V��^8� �yJ��	C�K�nK��8�Z[�X��8(NZ�Y�~hI�8).K��8�8(�8n8�8~8n88(�8n8�hX�[�n8).K��8(�8>8�8).��8�8" �K賢6�Rv2�6��rF���&W72F�R��fW7F�'2�'WBF�R&W6V�FF����6�VBWf�FV�6R� ���3�[��Z[>8�h�^�8~Z�n8�Z[�X��8).K��8�8(�8n8�k	~X�n8>8n8N8�8�8y����8�8�j�h�8�j�88n8N8�8" ��8	���k9^8;�k:�hH�8	8>8�yJ�k9^8��6V8�8Xَ8�Xi�y��8�8�8(8�89�8;�8+�8).X�n8(�8>8�8~8�8�8N8.Xi�y��i*�[�8�ih~�H�8r�6Rf�"F�R6�W&8���8�8�	�[��8�K��z��y�N8����{�>88�8�6R���W�V�6�fR6&8&R�6��rF���&W768�8(�8n8��h�8�8>8(�8�8~8(NK��[z^y�N8�hX�[�n8�xJnx+�8�8�8(�8����{�N8�8�8(�8&6��r�ff8��;�X��8;�h�iȞx��8�8�8).��~zK�8�8(�8>8�8�6V8�hX�[�n8(NK��x��X8�8).K��8>8n�h�8�8(�8>8�8�xJnx+�8�8.8(�8" ��8	��{꞊��8	��8;��7GW&R �Z�{ꓢx��Z�8�hX�[�n8(Nz��ZN8).88~88~8Z�����K�^K��8�[�~8��h�8�8(�8(�8n8�X�n8(�8" ���[�c�8�b�8� ��^8C�X�^����7GW&V8�iK�k+�8;�K�Nk��8�8�8~[�~z�8�z��ZN8).k�N8�8(�yJ�k9^8�y��z��8N8&�6V8�i�ފ8^8hX�[�n8K��x��X8�8).k	~X�n8>8n�h�8�8(�K����y�N8�Y
+�8�8�[�~8N8" �K賢F�RGv�6�FW2�7GW&VBGW&��rF�R�Vv�F�F���2'WB�FW"&V6�VB�w&VV�V�B� ���3�K���>Ykn8�K�Nk��K��8�[�~z�Z{�X�.8).k�N8�8�8�8[��8�Y�hH�8��N8~8�8" ��8;�ffV7B �Z�{ꓢ�z�xKn8~8�8�8N��8~ik�8hX�[�n8hI�h8^8�8�8).hH�Y�>y�N8����8�8N88n�h�8�8(�8" ���[�c�8�R�8� ��^8C�ffV7F8�K��[z^y�N8�Z;8;�8*.8*�8+�8;>88�8;�hX�[�n8�8�8(.8�8).K��8(�8>8�8�xJnx+�8�8.8(�8�6V8(�8(�z�8�8Z��8Ι�Z�8^8(�8(N8�8N8" �K賢�RffV7FVB6�����W"WfV�F��Vv��Rv2�W'f�W2� ���3�[��8�{x�[�^8~8n8N8�8�8[�>�ٞ8�hX�[�n8).�8^8>8�8" ��8;�6��r�fb �Z�{ꓢ�;�X��8h�iȞx��8ZIn�h�8�8�8).y��z��8N8(�8n8�zK�8~8n�z�hZ.8�8(�8" ���[�c�8���8� ��^8C�6��r�ff8���~zK�8�8(���x+�8).y�Nh�^��8�X�>���8~8.8(�8&�6V8�K�^8�8).�h�8�8(�888~8�8�8x��Z�8�K��x��X8�8(NhX�[�n8).k�NX{�8�8(�x+�8).[�~���8�8(�8" �K賢F�RFVV�vW"v26��v��r�fb��2�Wr��F�&7�6�R� ���3�8�8�K�>8^�^8�ik8~8N8*�8;�88�898*N8).�h�8�8>8(�8�8~8n8N8�8" ��R�8	X�^���8;��6R2�Yފ��jx�ih~8	�ȎK��8;��8~j�8;�z��ZN8�8��Ȟ8).�8^8n88	�8�8�8(�8�8�8���8	iz^i�Ί�>8;�Z�{�8	i��[�>8�8�8n8~8�8�8NK��8(Nz��ZN8~8.8(�8�8�8(�8n8�h��8(����8N8K�nK��8).88�8�8>8�8.���X�n8).��8~8nh�^��8�8(�ZNY�8(N8�8~j�8;�[.�hh
+~8).h�8N8(�8n8��h�8�8(�ZNY�8�K��8n8.Xَ8�8(���8>8�k�Nh�8�8(.K��8�8(�8�8�	�[��8�jˮ8�8�Y
+�8�8�8.8(�8" ��8	��[�n8	8�r�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.��jˮ8x��{ڮZ�>8k��XZ^h��i��8K��x��h��X�N88*�8;>8:�8*N8;>K��8�XX>Xފ8^8~K��8n8" ��8	ih~k9^898+�8;�8;>8	�6R28�Yފ��8����8	�8).�8^8n88	�8�8�8(�8�8�8����&R�6��r28�Yފ��8����8	�8).�8^8>8n8N8(����W'6���6��r28�&��^8����8	�8).�8^8nK�� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��6R2F�7F�"��Ɩ6R�ff�6W& �yJ��	C�X˾[��8(N��nZ��Z�8~8�8�8NK��8�88�8�X�n8).X�8>8n��X�^8�8(�8>8�8).��8�8" �K賢F�R���6VB2F�7F�"F�v��66W72F�F�R&W7G&�7FVBv&B� ���3�8�8�yK~8�z��XZ^X�n��8^8(�8�yx^j9�8�XZ^8(�8�8(8X˾[��8).�8^8>8�8" ��8;��6R2�W�W'F �yJ��	C�Z�����8�8�X�X�n8�y�^�َ8(N�8~j�8�8�8N8�8�8[.�hZ�n8�8(�8n8�h��8(����8n8>8�8).��8�8" �K賢�R�6VB2�W�W'B��F��r�BvfRF�R6ƖV�B��6�'&V7BGf�6R� ���3�[��8�z��k9^8�[.�hZ�n8).�8^8N8�~Z�.8���N8>8�X����8).8~8�8" ��8;��6R26��V��Rw276�7F�F �yJ��	C�K�nK��8�X��h��88�X�8>8n8h8^Z8(NZNh�8�8�8*.8*�8+�8+�8).[�~8(�8n8�8�8(�8>8�8).��8�8" �K賢F�R6��W"�6VB2F�RF�&V7F�"w276�7F�B�B&WVW7FVB6��f�FV�F��f��W2� ���3�8�8���8�y��h��8��:��[~8�X��h��8).�8^8N8j��Z�n89^8*8*N8:�8).�hk.8~8�8" ��8;��6R26V7W&�G�wV&F �yJ��	C����X�n8).X�8>8n8N8(�8�8>8(�8).y���h�8;��
+�h�^8^8(�8(�8>8�8).��8�8" �K賢F�R7W7V7Bv26Vv�B�6��r26V7W&�G�wV&B� ���3�8�8�Z�yi�^8���nX)�Y:8).�8^8>8n8N8�8�8>8(�8).h�^8�8>8�8" ��8;��6R2�FV�F��'W�W& �yJ��	C�Z�����8�8��;�XZ^�^8~8�8�8NK��8�8�;�XZ^[��iɾ�^8).�8^8>8nh�^��8�8(�8>8�8).��8�8" �K賢��fW7F�vF�'2�6VB2�FV�F��'W�W'2F�F�7V�V�BF�R���Vv�6�W2� ���3����i��Y:8�88��^k9^�*�Z;.8).�����.8�8(�8�8(8�;�XZ^[��iɾ�^8).�8^8>8�8" ��8	���k9^8;�k:�hH�8	�6R68�68�y�yZ^8~8�8�8[��8(�8�8��	�[��8K��x��8;�[۞X�.8;�{XN{�N8�8�8).��8�Yފ��X�^8).{��8�8&��6RF�&RF�7F�&8~8�8�8�8�6R2F�7F�&8�8�8�&WFV�BF�&RF�7F�&8�8�8(�8&&WFV�BF�&V8�Xi~��~8(NZ�8�8(.8�8N8>8>8�8(.K��8�8(�8�8�6R68����XX>8(N�8~j�8).X�8>8nK��8).jˮ8�ZN��.8�{Y8>8N8�8(N8�8N8&��W'6��FV8�x��Z�8�K��x��8(NXZ�y�N[۞X�.8�8�8(�8�8�8���x+�8�8�8(.8�8�xJnx+�8�8.8(�8�6R68�8�8�z��ZN8).�8^8>8ny��h��8).jˮ8�ih~�H�8).[�~8�zK�8�8" ���6R68�y��y�N���8).y�Nh�^X�n8(�8�868�[��8(�8��8^8nZ��8).{��8��z�X�^���jx�ih~8~8.8(�8" ��8	��{꞊��8	��8;�&WFV�BF�&R8�6��V��R�6��WF���~8� �Z�{ꓢi��[�>8�8�8n8~8�8�8NK��8;�x��8~8.8(�8^8(�8).8�8(�8" ���[�c�8��8� ��^8C�&WFV�BF�&V8���8>8Xi~��~8h;>X8�8jˮ8�8�8�8�8n8�K��8�8(�i�8(.[�>8N��x��8~8[�^8�8~8(.Z��Z�>8�8.8(�Xފ8^8).zK�8^8�8N8" �K賢F�R6���G&V�&WFV�FVBF�&R7G&��WG2GW&��rF�Rv�R� ���3�Z�8�8(.8�88���8>8�i>8Z�~Z鞚9���Z:�8�8^8(�8).8~8�8" ��8;���W'6��FR8�W'6����ff�6��8� �Z�{ꓢx��Z�8�K��x��8(NXZ�y�N[۞X�.88~ik�8;����X�n8�8�8).8�8�8ni��K��8�8(�8n8�h��8(����8n8" ���[�c�8�R�8� ��^8C���W'6��FV8�i��K��8�XX>8(N[۞X�.8�Xh�x��8�xJnx+�8�8.8(�8��jˮ8;��^k9^��x+�8�ih~�H�8~K��8(�8(�8(N8�8N8&�6R68�8(�8(�[�>8�8[.�hZ�n8(N�;�XZ^�^8�8�8�z��ZN8).�8^8nZNY�8�8(.K��8n8" �K賢F�R6��W"v26�&vVBv�F���W'6��F��rv�fW&��V�B�ff�6��� ���3�8�8���8�y��K��^8�iK�[�Έ~Y:8�8�8(�8�8�8~8�8�8~8n�[~��N8^8(�8�8" ��8;�72��W6V�b�fb28�6��V��R�6��WF���~8� �Z�{ꓢi��[�>8�8�8n8~8�8�8N8�8�8K�nK��8�8�8n88�K�8�8^8�8(�8" ���[�c�8�R�8� ��^8C�72��W6V�b�fb68�y��h��8�i��x��88����8(8^8�8(�8n8�8�8(�jˮ8�8�Y
+�8�8�x��8�[�~8N8&�6R68(�8(�8(.8Ίh�zN8(�8(�8�8��	�8�8�x+�8�xJnx+�8�8.8(�8" �K賢�R76VB���6V�b�fb2VƖf�VBV�V7G&�6��� ���3�[��8��8~j�8�8.8(����k	~h�[��88�X�8>8n�	�8~8�8" ��8;��7VW&FR28�6��V��R�6��WF���~8� �Z�{ꓢX�^8�K��8;�x��8;�z��ZN8).�8^8n8" ���[�c�8�B�8� ��^8C��7VW&FR68�K���.8).8�8n8(�8(�8n8�i��y��8�Xފ8^8(N8Z��K�>8).��8�j�NYj�8�K��8(�8(�8�6R68(�8(�ih~���y�N8;�X�~y�N8����8�8>8�8�8.8(�8" �K賢F�RvV'6�FR�7VW&FVB2��ff�6��V&Ɩ2�6W'f�6R�'F�� ���3�8�8�8*n8*~89n8+^8*N88�8�XZ�[��8��iK�8+^8;�89>8+�z�>X�>8).�8^8>8n8N8�8" ��b�8	Yފ��8;�X��z�~8	�ȎXi�y��8;�{[^yK�8;�k�Nh�8�8�8��ȞZ{�X�.889�8;�8+���8	iz^i�Ί�>8;�Z�{�8	K��8�z��8N8;�[�~8(�8;�K�>8).jx�8�8(�8�8�8~8nK��8N8x��Z�8�K�>8�Z{�X�.8.Xi�y��8{[^yK�8[ھX��8888;>8+�8k�Nh�8��X�^8�8�8�8�8(8�hH��َ8~8nX�n8(�Z{�X�.8).h�~8�8>8�8�ZI�8N8�8Xi�y��K�^ZIn8��x��y�N8�Z{�X�.8�8(.K��8n8" ��8	��[�n8	8���8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8.iz^[��Kɮ��8Xi�y��8����>889^8*88>8+~8:~8;>8888;>8+�88:�8*�8;�89^8*>88>88�88�8+�8~K��8n8.�	�[��8�X��z�~Yފ��8~8�6V86WfW&��6W68�8(�8n8�i[8�8(�8" ��8	ih~k9^898+�8;�8;>8	F�B�F�R�7G&��R�6V���89�8;�8+�8).X�n8(�������B�6V���89�8;�8+�8).K��8N�����8�F�V7F�f^8��6V���8	�8�Z{�X�.8~����6Rf�"F�R6�W&��'G&�F���8*�8:8:�8;��)nX8�yK�8�8�8(8�89�8;�8+����6��vR�G'��6V���89�8;�8+�8).ZH�8�8(�8;���n8� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�7G&��R�6V �yJ��	C�x��Z�8�X��8).K��8�8(�Z{�X�.8).8hH��َ8~8n{Jiz�8�X�n8(�8>8�8).��8�8.j�NYj�y�N8�8hX�[�n8).k�NX{�8�8(�hH�Y>8�8(.8�8(�8" �K賢6�R7G'V6�6��f�FV�B�6R&Vf�&RF�R��FW'f�Wr&Vv�� ���3�[��Z[>8���.h�^8�Zx�8�8(�X��8��z�K�8.8(�8.8�89�8;�8+�8).X�n8>8�8" ��8;����B�6V �yJ��	C�Xi�y��8{[^yK�8888;>8+�8��X�^8�8�8~8Y�8�Z{�X�.8).K�Z�i�.�i>K��8N8>8�8).��8�8" �K賢F�RF�6W"�V�BF�R�6RV�F��F�R�W6�27F�VB� ���3�8�8�888;>8+^8;�8���>j[�8�j�.8�8(�8�8~8�8�89�8;�8+�8).K��8>8�8" ��8;�F�B&V��VB�6V �yJ��	C�K�>8�X��8).h��8N8�8��8y�8N8�Z{�X�.8).X�n8(�8>8�8).��8�8" �K賢�RF�FVB&V��VB�6Rf�"F�Rf֖ǒ��F�w&�� ���3�[��8�Z�nix�Xi�y��8�8�8(8�8�8N8(�8N8Z{�X�.8).X�n8>8�8" ��8;��6Rf�"F�R6�W& �yJ��	C�8*�8:8:�8�Xi�8(�8>8�8).y��y�N8�8~8�Z{�X�.8).��8�8" �K賢F�RF��WFRf�V�BG&�F�2�6Rf�"F�R6�W&� ���3�8�8��h��8�8*�8:8:�8�Y	88nX�~y�N8�89�8;�8+�8).k�8(8�8" ��8;���v�F�6R�6V �yJ��	C�8:�8*�8(N888;>8+�8~Z�8(8(�8(�8����K�>8�[�.8;�Z{�X�.8).��8�8" �K賢F�R��7G'V7F�"FV���7G&FVBF�ff�7V�B��v�6R� ���3�8*N8;>8+�88�8:�8*�8+�8;�8���>8~8N8:�8*�8�89�8;�8+�8).Z��k�N8~8�8" ��8;�6��vR�G'��6V �yJ��	C�i*�[�8(Nk�Nh�8�8�8(8�8X�n8(�Z{�X�.8).ZH�8�8�8(�X�^8�Z{�X�.8).��n8~8�8(�8�8(�8>8�8).��8�8" �K賢G'�F�ffW&V�B�6R6�F�RƖv�B&V6�W2��W"f6R� ���3�XX�8ΚN8�[�>8�8(�8(�8n8�8X�^8�89�8;�8+�8).��n8~8n8�8n8" ��8	���k9^8;�k:�hH�8	�6V8��	�[���6V8�i[8�8F�&VRF�ffW&V�B�6W68�8(�8n8��H~i[[�.8�8~8�8(�8&�7GW&V8�i��j�^8�K�>8�jx�8�8(NX^[�~K��8�Z{�X�.8�6�F���8����K�>8���8(�8�8NK��{��XZ����87F�6V8�z��8ik�8�X�8�8nhH��h�8;�z��ZN8(.��8�8.8~8�8�8>8n8�Z{�X�.8�h*�8N8�8�8N8nK����y�N8����K�>x�nhX�8�8�&B�7GW&V8Έz�xKn8~8i*�[�8~K�i�.y�N8�X�n8(�Z{�X�.8�8��6V8Έz�xKn8~8.8(�8" ��7G&��R�6R��GF�GVFV8����K�>8�89�8;�8+�8�8(.8X�~iZ.8^8;�X��h�~8�8�8�hX�[�n8).k�N8�8(�j�NYj�8�8(.K��8�8(�8" ��8	��{꞊��8	��8;��7GW&R �Z�{ꓢK�>8�K��{��8(Njx�8�88�8�8�8�8�K��8�x��[�Ny�N8�K�>8�K��8ik�8" ���[�c�8���8� ��^8C��7GW&V8�{�.hZ>y�N8�Z{�X�.8(N���K�>8�X�X�~8�xJnx+�8�8.8(�8&�6V8�x��Z�8�ZN��.8~hH��َ8~8nX�n8(�K�i�.y�N8;���x��y�N8�Z{�X�.8�xJnx+�8�8.8(�8" �K賢v��B�7GW&R6�&VGV6R7G&����F�R�V6�� ���3����8NZ{�X�.8��in8�8�*h�^8).k��8(�8�8(�8" ��8;�7F�6R �Z�{ꓢz��8>8n8N8(�8�8�8�k>8(NK�>8�jx�8�88�8�8�hH��h�8;�z��ZN8" ���[�c�8���8� ��^8C����K�>8�8N8N8n8�7F�6V8�Z�Z�h
+~8(Njx�8�8).[�~���8~8�6V8�8(�8n8�i*�[�8;�k�NX{�8�Y
+�8�8�[�8N8.j�NYj�y�N8�hH��h�8�hH�Y>8��6V8(�8(�[�>8�Z�y�8~8n8N8(�8" �K賢F�R&��W"6��vVB��27F�6R&Vf�&RF�R�W�B&�V�B� ���3�8�8�89�8*�8+^8;�8�j�8�8:�8*n8;>88�8�X��8�jx�8�8).ZH�8�8�8" ��8;��6�F��� �Z�{ꓢK��8(Nx��8�{��8�8(�8n8N8(�ZNh�8;�Y	8�8;�x�nhX�8" ���[�c�8��8� ��^8C��6�F���8�8�8�8>8�8.8(�8�8�8�8N8nK��z��y�N8�K��{��8).h�~8�8&�6V8����K�>8).�h�8�8(�8�8(8�X�n8(�Z{�X�.8(N88�8�Z{�X�.8�K��8(�X��8).Y
+�8�8(N8�8N8" �K賢F�R6�W&&V6�&G2F�RW�7B�6�F����bV6�����B� ���3�8�8�8*�8:8:�8�YN�j.z�8�j�>z+�8�K��{��8).�����.8�8(�8" ��8;�GF�GVFR �Z�{ꓢK�>8�jx�8�88�8�8�K��8;�x��K��8�Z��8�8(�[�>yny�N8�hX�[�n8" ���[�c�8���8� ��^8C����K�>8�hH�Y>8�GF�GVFV8�8(N8(N[.�hy�N8;�����>y�N8~8iz^[��8�Xi�y��8�Z{�X�.8�8��6V8�i��	�8~8.8(�8.[�>yny�N8�hX�[�n8).��8�ZNY�8�8�6V8��^8>8ni��[�>8�X��8�8(��h�8�8�88).[�^8�8~8(.Y
+�8�8�8N8" �K賢F�R67V�GW&R�2�GF�GVFR�bV�WB��fV�V�B� ���3�8�8�[ھX��8�8��ٞ8�8�X�^8�8).hI�8�8^8�8(�Z{�X�.8�8.8(�8" ��r�8	Yފ��8;�X��z�~8;�8~88~8��މIy�N8	�h�8�8�88�hX�[�n8k	~X�n8>8�8^8(�8�8N889�8;�8+���8	iz^i�Ί�>8;�Z�{�8	i��[�>8�hI�h8^8;�h
+~j�8;�z��ZN8�8�X�^8�8K�nK��8�x��Z�8�X��8).K��8�8(�8�8(8�K��8>8�hX�[�n8(NK��x��X8�8.Z�����8�8�8�8nh	�8>8n8N8�8N8�8�8y�^y�N8X�~iZ.8xJ�j.[�>8�j�X�~8�8�8~8.8(�8�8�8(�8n8�h��8(����8n8>8�8).h��X�Ny�N8���8�8" ��8	��[�n8	8�b�8� ��8	8:�8+�8+�8+�8;���	�Y��8	j��k�n���8;�h��X�Ny�N8�K��x��h��Xi�8.��^��n8ih~Z�n8Kɮ��8iK�k+�8;�zK�Kɮy�N8�hX�[�n8�X�ni�8~K��8n8" ��8	ih~k9^898+�8;�8;>8	�W&R�6V���Xَ8�8(��h�8�8�8����6R�b8�VƗG��V��F���8����8	�8).�8^8nhX�[�n���7G&��R�6R��GF�GVFR�b8�VƗG�8����8	�8�hX�[�n8).k�N8�8(����6��V��Rw2�6R28�&��^8����8	�8).�8^8nK��8�h�8�8�8���6VRF�&�Vv��G&�F�R�6V��ފh�8�8�88).�h�h��8�8;�8(N8(8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;��W&R�6V �yJ��	C�����.K��8�hX�[�n8�i��[�>8~8�8�8�8X��i��8).x��8>8��h�8�8�88�8�8�8�8N8>8�8).��8�8" �K賢��26��6W&�f�"F�Rv�&�W'2v2�W&R�6R� ���3�[��8�X�NX8ވ^8�8�[�>�X�8�8Xَ8�8(��h�8�8�888>8�8" ��8;��6R�b6��f�FV�6V �yJ��	C�i��[�>8�z�K�8�8.8(�8�8�8n8�8�8�8�8(�8(�8�8�z�K�8�8.8(�8(�8n8��h�8�8(�hX�[�n8).��8�8" �K賢�W"�6R�b6��f�FV�6RF�6V&VBv�V�F�RVW7F���2&V6�RFV6��6�� ���3��:�YX�8�[.�hy�N8�8�8(�8�8[��Z[>8�z�K�8.8(�8.8��h�8�8�88�kh�8�8�8" ��8;�7G&��R�6R�b��F�ffW&V�6V �yJ��	C�xJ�j.[�>8~8.8(�8�8�8(�8n8�hX�[�n8).hH��َ8~8nK��8(�8>8�8).��8�8" �K賢�R7G'V6��6R�b��F�ffW&V�6R��F��Vv�F�R7&�F�6�6�6�V&ǒ�W'B���� ���3�8�8�h��X�N8�i��8(�8�8�[��8).X+~8N88�8�8[��8�xJ�j.[�>8).�8^8>8�8" ��8;��6R2�W�W'F �yJ��	C�[.�hZ�n8~8.8(�8�8�8(�8n8��h�8�8(�8Z��K�>8).K�N8(�8�8Nz��ZN8;�hX�[�n8).��8�8" �K賢�W"�6R2�W�W'B6���6VBv�V�6�R6�V�B��BW����F�R&6�2FW&�2� ���3�Y��i��yJ����8).���i��8~8�8�8�8>8�8�8(8[��Z[>8�[.�hZ�n8).�8^8nhX�[�n8�[J�8(�8�8" ��8;�6VRF�&�Vv�6��V��Rw2�6V �yJ��	C�K��8�K��8>8n8N8(�hX�[�n8�8�8�8.8(�i��[�>8(NZ��hX�8).�h�h��8�8>8�8).��8�8" �K賢F�RVF�V�6RV�6�ǒ6rF�&�Vv�F�R7V�W"w2�6R�b6W'F��G�� ���3��N�n8�8�8�^8�z+�K�8.8(�8.8��h�8�8�88).8�88��h�h��8N8�8" ��8;�G&��&�F��F�R�6V �yJ��	C�K��8>8n8N8�hX�[�n8).8(N8(8i��i�^8�hI�h8^8(NhX�[�n8).�h�8�8(�8>8�8).��8�8" �K賢��6RF�R6�W&2vW&Rv��R�6�RG&�VBF�R�6R�BF֗GFVBF�B6�Rv2v�'&�VB� ���3�8*�8:8:�8�8�8�8�8(�8�8[��Z[>8�X�n8(�{�^8n8�8).8(N8(8[�>�X�8~8n8N8�8����8(8�8" ��8	���k9^8;�k:�hH�8	8>8�Yފ��8��6V8�8Xَ8�8(�hH��h�8(NhX�[�n8).K��z��y�N8���8�GF�GVFV8�y[8�8(�8K��[z^y�N8�K��8(�8(�8�X��8�8N8nY
+�8�8).h�8N8&ffV7FF���8���8~ik�8(NK�^�؞8�8�8�K�ވz�xKn8�k	~X�n8(�8&WFV�6V8�K��Z��8;�hI�h8^8;����X�n8�8�8).X�8(��h�8�8�8XZ����8).��8�8.���K�>8�Z{�X�.8�8(����{�n8~8.8(�8&V��VB�6V8��	�[��8h��X�Ny�N8�8Ίh�8�8�88�8~8�8�8N8" ���6V8�X��z�~8~8��26���W72v2�6R�8�8(�8n8�8N8�hX�[�n8).h�~8�8(�8.h�ދy�N8�8Ίh�8�8�8K����8�8).��8�8(�ZNY�8~8(.8x��Z�8�hX�[�n8;�k�NX{�8).[�^�
+�8�{��8�8>8�8�ZI�8N8" ��8	��{꞊��8	��8;�ffV7FF��� �Z�{ꓢK�nK��8����8��h�8�8(�8n8�8~8nK��8(�8K�ވz�xKn8~8(�8n8�8(�8~8N��8~ik�8(NhX�[�n8" ���[�c�8�R�8� ��^8C�ffV7FF���8�x��Z�8�K�^�؞8y����>8�����>8N8�8�8�K�ވz�xKn8^8).h�~8~8(N8�8N8&�6V8�8(�8(�[�>8�8K��x��XZ�K�>8�[۞X�.8(Nz��ZN8).k�NX{�8�8(�8>8�8(.��8�8" �K賢�W"W�vvW&FVB66V�Bv2�ffV7FF���� ���3�[��Z[>8�ZJ~8.8^8�8*.8*�8+�8;>88�8�88(�8n8�8(�8~8Nk	~X�n8(�88>8�8" ��8;�&WFV�6R �Z�{ꓢi��[�>8~8�8�8N8(.8�8).i��[�>8(�8~8��h�8�8(�8>8�88�8�8�8�8�h�8�8�88" ���[�c�8�r�8� ��^8C�&WFV�6V8�K��Z��8hI�h8^8���X�n8�8�8�Xފ8^XZ����8).��8�8&�6V8�x��8�K��y��8).hH��َ8~8nK��8(�hX�[�n8;�K��x��X8�8�xJnx+�8�8.8(�8" �K賢��2&WFV�6R�b&V��r6��F�B��B6��f��6R���R� ���3�[��8�Xk~�ٞ8�8^8(�8).8~8n8(.8��8(.{H�[�~8~8�8�8>8�8" ��8;�g&��B �Z�{ꓢi��[�>8�hI�h8^8(N[�8^8).��8�8�8(8�ZInY	8�8��h�8�8(�hX�[�n8" ���[�c�8�r�8� ��^8C�g&��F8���.[�8;����K�8�8�8(8�ZIn��.8�xJnx+�8�8.8(�8&�6V8���.[�8���8(�8�8X��8).���8�8~8�8(�XJ�K��8��h�8�8�8(�8�8(�k�NX{�8�8(.K��8n8" �K賢��26�VW&gV����W"v2g&��Bf�"��2熖WG�� ���3�[��8�k	~8�hX�[�n8�K��Z�8).��8�8�8(8�ZIn��.88>8�8" ��8;�7B �Z�{ꓢi��[�>8�8�y[8�8(�hI�h8^8(NK��x��8).k�N8�8(�8>8�8" ���[�c�8���8� ��^8C�7F8�k�Nh�K����8).��8�X�>���y�N8����8~8���X�K��8�k�Nh�8�8(.K��8�8(�8&�6V8�y��8NhX�[�n8(N�h�8�8�88).h��X�Ny�N8�h�~8~8(N8�8N8" �K賢��2���w�6�V�FVBƖ�R�7B&F�W"F��6��6W&RF֗76���� ���3�[��8���{ڮ8�8��Z��8����8(ik�8�8N8n8(�8(�k�Nh�8�8(�8n8���8>8�8�8" ��8;��'2 �Z�{ꓢZ�����K�^K��8�kI~{{N8^8(�8�xފh8~8.8(�8�8�8(�8n8�h��8(����8nk	~X�n8(�8" ���[�c�8�B�8� ��^8C��'68�K��Y88^8(NXJ��h�hI�8).��~zK�8�8(�Y
+�8�8�[�~8N�H~i[[�.8��x��8~8.8(�8&�6V8�XJ��h�hI�8���8(�8�8X�~k	~8;�xJ�j.[�>8;�[.�hh
+~8�8�K��hH�8�hX�[�n8).�8^8�8(�8" �K賢6�RWG2���'2v�V�WfW"6V��"��vW'2V�FW"F�R&���� ���3�[��Z[>8�K��{I�z�yn�~8Θ:�[�8�XZ^8(�8�88N8N8(.k	~X�n8>8�hX�[�n8).X�n8(�8" ��8	X��hH����8	��8;�6��6W&�G� �Z�{ꓢi��[�>8�8(�X{�8�hI�h8^8(NhX�[�n8~8�h�8�8�88~8�8N8>8�8" ���[�c�8�r�8� ��^8C�6��6W&�G�8�8X��i��8).x��8>8nK��8>8��6V8�X��Z��8�8��X�^8�i��[�>8�Y��8^8�8>8�8).��8�8" �K賢F�R6��6W&�G��b�W"���w�v26�V"g&���W"7F���2� ���3�[��Z[>8���{ڮ8Ί�Z��8�8(.8�88�8N8n8>8�8�8��X�^8�8(�i��8(�8�88>8�8" ��8;�WF�V�F�6�G� �Z�{ꓢK��8�hI�h8^8;�hX�[�n8;�K��Y88�8�8�i��x��8~8K��x+�y�N8~8�8N8>8�8" ���[�c�8�b�8� ��^8C�WF�V�F�6�G�8�8�i��x��8(�8~8^8;�i��i�^8�z�X�n8(�8~8^8�8).[�~���8~8�6V8�K��[z^y�N8�K��8>8�K��x��X8�8�Z��z��8�8(�8" �K賢F�R6��vW"w2WF�V�F�6�G��GFW&VB��&RF�F�RVF�V�6RF���W"��vR� ���3�8�8�j��h��8�i��x��8(�8~8^8�88*N8:8;�8+�8(�8(�8(.�N�n8�8�8>8n�xފh88>8�8" ��8;�vV�V��V�W72 �Z�{ꓢhI�h8^8(NhX�[�n8�X�8(�8�8�8i��[�>8�8(�X{�8n8N8(�8>8�8" ���[�c�8�R�8� ��^8C�vV�V��V�W768�X�8^8�hI�h8^8;�X��[��8�i��x��8~8.8(�8>8�8).��8~8K�nK��8��h�8�8(�8�8(8�K��8(�8(�8��6V8�X��Z��8�h
+~�:�8~8.8(�8" �K賢F�RvV�V��V�W72�b��27W'&�6Rv2�'f��W2� ���3�[��8�8�8�i��x��8~8.8(�8>8�8�i��8(�8�88>8�8" ����8	X�^���8;�K�nX�^���8;�8�8(�8;�X�N�*�8	�ȎK��8).�ȞY�h98^8�8(�8h��8>8�8(�8�8(���8	iz^i�Ί�>8;�Z�{�8	��>8~8N�:�YX�8(NYX���8�8(�8>8n8K��8).Y�8(�8�8nz�N8�8�z��8^8�8(�8>8�8.x��K�>8�K���Έ����8~8�W���V8&ff�V8W'�W�8�8�8n8�i��	�8~88>8��6V8����i��8�j�8(�K���[�n8;�z�8NyJ�k9^8�8~8nyn�z>8�8(�8�8(�8N8" ��8	��[�n8	8�"�8� ��8	8:�8+�8+�8+�8;���	�Y��8	8�8(�8;�X�N�*�8�8�8�ih~���y�N8.X�N8Nih~z�8���i��8�yJ�K�8z�8NK��x��h��Xi�8�8�8~�h�8(�8(�8(�8�8Z�n{�.�^8Έz�X�n8~K��8n[�^�hh
+~8�K��8N8.���k�y�N8�8(.8���{�8	�~8��6V8�8�X�^{;�{[8~8.8(�8" ��8	ih~k9^898+�8;�8;>8	8���>YX�8;�YX���8��6R8�K��8���ޙ�>YX�8�K��8).Y�h98^8�8(� ��8	8+>8:�8+8;�8+~8:~8;>8	��8;�&R6���WFVǒ�6VB'�8�VW7F���8� �yJ��	C���>8~8N�:�YX�8�z�N8�8(�8(�8�88�8>8�8(�Y�h98~8n8N8(�8>8�8).X�N�*�8;�z�8���8�8" �K賢F�Rv�F�W72v26���WFVǒ�6VB'�F�RW�֖�W"w2f���VW7F���� ���3�8�8�K��8���n��>Z�8�i�[��8�:�YX�8�8�8>8�8(�Y�h98~8�8" ��8;�&�&�V�F�B�6W28�W'6��8� �yJ��	C�K��8).h��8>8�8(�8�8(�YX���8).8K���[�n8�K�nX�^���yJ�k9^8~��8�8" �K賢F�R&�FF�Rv2&�&�V�F�B�6VBWfV�F�R��7BW�W&�V�6VB6��fW"� ���3�8�8�8�8�8�8�8�8i�8(.{XΚ�>��Z��8��z>z�N�^8^8�h��8>8�8(�8�8(�YX���88>8�8" ��8	���k9^8;�k:�hH�8	8>8�hH�Y>8��6V8�8Xi�y��8�Z{�X�.8�:�YX�8�h��[~8X����8�y��yI�8�8�X�^8�{�8~8.8(�8&F�RVW7F����6VB���8�8(�8n8�K��8).y�Nh�^y��y�N���8�X�n8(�[�.8�x��K�>8~8����[��8�8�8(�8~8�	�[��8�F�RVW7F���W���VB����8(B�Rv2&ff�VB'�F�RVW7F����8���8n8" ��8	��{꞊��8	��8;�W���R �Z�{ꓢYX���8(Nx�nk88�K��8).Y�h98^8�8yn�z>8(N�z>k�8).��>8~8�8�8(�8" ���[�c�8���8� ��^8C�W���V8�x��K�>�����8~�z�xKn8�K���Ί��8~8Z[�ZX~[�>8).X��k�8�8(����8NY�h98�8(.8�z>88�8NYX���8�8(.K��8�8(�8" �K賢F�RV�W�V7FVB&W7V�BW���VBF�R&W6V&6�W'2� ���3�K��h;>ZIn8�{Yi��8�z	Nz�n�^8�88).Y�h98^8�8�8" ��8;�&ff�R �Z�{ꓢ��>8~8^8(NK��X���z>8^8�8(�8>8n8Z��XZ�8�Y�8(�8�8(�8" ���[�c�8�b�8� ��^8C�&ff�V8�W���V8(�8(�Y�h98�z��[�n8�[�~8�8z�N8�8(N���i��8Ίh�8N8�8(�8�8NY
+�8�8�8.8(�8" �K賢F�R7G&�vRGFW&�&ff�VBF�R�Ɩ6R� ���3�8�8�ZX~Zi�8�898+�8;�8;>8���nZ��8).Y�h98^8�8�8" ��8;�W'�W� �Z�{ꓢ�H~��8�YX���8(Ny��y��8�8(�8>8n8k{8�Y�h98^8�8(�8" ���[�c�8�R�8� ��^8C�W'�W�8�W���V8(�8(�ih~���y�N8~8�>8�8).i[Nyn8~8�8�8Nk{8NY�h98).��8~8(N8�8N8" �K賢F�R6��G&F�7F�'���7G'V7F���2W'�W�VBF�R�WrV����VW2� ���3�y��y��8~8�h�~zK�8�ikXZ^zK�Y:8�88).Y�h98^8�8�8 

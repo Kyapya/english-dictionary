@@ -1,0 +1,287 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 47,
+        "label": "1. 【動詞・他動詞】危険・問題・課題などを引き起こす、もたらす",
+        "definition": "事物や状況が、誰か・何かにとって対処を要する危険、リスク、問題、困難などを生じさせること。主語が意図的に脅すとは限らず、客観的に「〜という危険をもたらす」「〜の障害となる」と述べる硬めの表現である。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 123,
+        "label": "2. 【動詞・他動詞・やや硬い】質問・問題・仮説などを提起する、提示する",
+        "definition": "質問、問題、論点、仮説などを、他者が考えたり議論したりする対象として提示すること。単に発言するより、検討すべき論点を前に置く含みがあり、会議・論文・評論などで使われる。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 194,
+        "label": "3. 【動詞・他動詞／自動詞】（撮影・絵画のために）人・物を特定の位置に置く／自分がポーズを取る",
+        "definition": "人や物を写真、絵画、彫刻、舞台上の構図などに適した姿勢・位置に置くこと。また、人がそのような姿勢を保って写真家や画家のためにポーズを取ること。自分がポーズを取る場合は自動詞、モデルなどに姿勢を取らせる場合は他動詞になる。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 270,
+        "label": "4. 【動詞・自動詞・通例進行形・軽蔑的】人目を引くために気取った態度・格好をする",
+        "definition": "人に良く見せたり、印象づけたりする目的で、自然ではない態度、服装、振る舞いを意識的に演じること。写真撮影のために姿勢を取る語義3と違い、ここでは「気取っている」という批判的な評価が含まれやすい。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 322,
+        "label": "5. 【動詞・pose as + 名詞構文】（人・資格・立場など）を装う、〜になりすます",
+        "definition": "本当はそうではない人や立場であるかのように振る舞い、他人をだますこと。身分を隠して接近する場合や、資格・専門性を持つように見せる場合に使う。単なる遊びの演技にも使えるが、通常は欺きの含みがある。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 393,
+        "label": "6. 【名詞・可算】（写真・絵画・演技などの）姿勢、ポーズ",
+        "definition": "人が立つ・座る・体を構えるなどして保つ、特定の身体の姿勢。写真、絵画、彫刻、ダンス、演技、運動などのために意識して取る姿勢を指すことが多いが、写真以外の表現的な姿勢にも使う。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 469,
+        "label": "7. 【名詞・可算・しばしば軽蔑的】見せかけの態度、気取ったふるまい、ポーズ",
+        "definition": "本当の感情・性格・立場とは別に、他人に特定の印象を与えるために作った態度や人物像。実際にはそう思っていないのに、知的、勇敢、無関心、親切などであるかのように振る舞うことを批判的に表す。"
+      },
+      {
+        "sense_id": "sense:008",
+        "line": 575,
+        "label": "8. 【動詞・他動詞・まれ・古風】（人を）困惑させる、手こずらせる",
+        "definition": "難しい質問や問題によって、人を困らせて答えに窮させること。現代の一般英語では `puzzle`、`baffle`、`perplex` のほうが普通で、この `pose` は辞書に残る低頻度・硬い用法として理解するとよい。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-0af8eada4460",
+        "example": "He adopted a relaxed pose for the family photograph.",
+        "translation": "彼は家族写真のためにくつろいだ姿勢を取った。"
+      },
+      {
+        "example_id": "ex-061513b7ddbe",
+        "example": "The artist posed the model in a seated position.",
+        "translation": "その芸術家はモデルを座った姿勢に置いた。"
+      },
+      {
+        "example_id": "ex-2533255b90b8",
+        "example": "The riddle was a problem that posed even the most experienced solver.",
+        "translation": "そのなぞなぞは、最も経験豊富な解答者さえ手こずらせる問題だった。"
+      },
+      {
+        "example_id": "ex-ee36a8b07063",
+        "example": "The audience quickly saw through the speaker's pose of certainty.",
+        "translation": "聴衆はその話者の確信ありげな見せかけをすぐに見抜いた。"
+      },
+      {
+        "example_id": "ex-31a9b86eeb07",
+        "example": "The discovery poses the question of whether the species can survive in warmer seas.",
+        "translation": "その発見は、その種がより温暖な海で生き残れるのかという問題を提起する。"
+      },
+      {
+        "example_id": "ex-151abf88f292",
+        "example": "She struck a confident pose before the interview began.",
+        "translation": "彼女は面接が始まる前に自信ありげなポーズを取った。"
+      },
+      {
+        "example_id": "ex-d90f1e8d5150",
+        "example": "Officials assessed the risks posed by the overloaded electrical system.",
+        "translation": "当局は過負荷状態の電気系統がもたらすリスクを評価した。"
+      },
+      {
+        "example_id": "ex-f2bcb1c2bd8c",
+        "example": "The dancer held the pose until the music stopped.",
+        "translation": "そのダンサーは音楽が止まるまでそのポーズを保った。"
+      },
+      {
+        "example_id": "ex-6c872ff49a8c",
+        "example": "The moderator posed a question to the panel about the cost of reform.",
+        "translation": "司会者は改革の費用についてパネリストたちに質問を投げかけた。"
+      },
+      {
+        "example_id": "ex-34d31f13f4f1",
+        "example": "The visitors posed beside the old locomotive.",
+        "translation": "来場者たちは古い機関車の隣でポーズを取った。"
+      },
+      {
+        "example_id": "ex-c403c3b74758",
+        "example": "The award winner posed with her parents backstage.",
+        "translation": "その受賞者は舞台裏で両親と一緒にポーズを取った。"
+      },
+      {
+        "example_id": "ex-72a514afef4c",
+        "example": "The two actors posed for a photograph after the ceremony.",
+        "translation": "その2人の俳優は式典の後、写真撮影のためにポーズを取った。"
+      },
+      {
+        "example_id": "ex-83f50b89d643",
+        "example": "Her pose as an expert collapsed when she could not explain the basic terms.",
+        "translation": "基本用語を説明できなかったため、彼女の専門家を装う態度は崩れた。"
+      },
+      {
+        "example_id": "ex-51ebef88c469",
+        "example": "The athlete found a dramatic pose for the camera.",
+        "translation": "その選手はカメラに向けて劇的なポーズを決めた。"
+      },
+      {
+        "example_id": "ex-69b55186b500",
+        "example": "The teacher posed a problem for discussion before explaining the formula.",
+        "translation": "その教師は公式を説明する前に、議論する問題を提示した。"
+      },
+      {
+        "example_id": "ex-247dd65f3588",
+        "example": "She was posing to impress the investors, but the presentation lacked evidence.",
+        "translation": "彼女は投資家に好印象を与えようと気取っていたが、発表には根拠が欠けていた。"
+      },
+      {
+        "example_id": "ex-d050804f14d7",
+        "example": "Try a different pose so the light reaches your face.",
+        "translation": "光が顔に当たるように、別のポーズを試してみて。"
+      },
+      {
+        "example_id": "ex-696a832d81b6",
+        "example": "The invasive plant poses a serious threat to native species.",
+        "translation": "その外来植物は在来種に深刻な脅威をもたらしている。"
+      },
+      {
+        "example_id": "ex-ad0ecec17dbf",
+        "example": "The suspect was caught posing as a security guard.",
+        "translation": "その容疑者は警備員を装っていたところを捕まった。"
+      },
+      {
+        "example_id": "ex-f9dd43a4bb7c",
+        "example": "The results pose a serious challenge to the assumption that demand is stable.",
+        "translation": "その結果は、需要は安定しているという前提に重大な疑問を投げかける。"
+      },
+      {
+        "example_id": "ex-74dee102cfda",
+        "example": "He kept posing in a designer outfit instead of helping with the work.",
+        "translation": "彼は仕事を手伝わず、高級な服を着て気取ってばかりいた。"
+      },
+      {
+        "example_id": "ex-f72984ca318b",
+        "example": "They were out posing in a rented sports car all afternoon.",
+        "translation": "彼らは午後ずっと、借りたスポーツカーを見せびらかして外で気取っていた。"
+      },
+      {
+        "example_id": "ex-88c870d8a0f1",
+        "example": "Investigators posed as potential buyers to document the illegal sales.",
+        "translation": "調査員たちは違法販売を記録するため、購入希望者を装った。"
+      },
+      {
+        "example_id": "ex-c92fd6a1b903",
+        "example": "Long-term exposure to the chemical may pose a risk to workers' health.",
+        "translation": "その化学物質への長期的な曝露は、作業員の健康にリスクをもたらす可能性がある。"
+      },
+      {
+        "example_id": "ex-1ac0898e6b26",
+        "example": "Once the cameras were gone, she dropped the pose and admitted that she was worried.",
+        "translation": "カメラがなくなると、彼女は取り繕うのをやめ、心配していたと認めた。"
+      },
+      {
+        "example_id": "ex-7eb7b38e799a",
+        "example": "The final chapter poses a difficult question about personal responsibility.",
+        "translation": "最終章は、個人の責任について難しい問いを投げかけている。"
+      },
+      {
+        "example_id": "ex-1074f88ab8b7",
+        "example": "The caller posed as the director's assistant and requested confidential files.",
+        "translation": "その電話の相手は部長の助手を装い、機密ファイルを要求した。"
+      },
+      {
+        "example_id": "ex-bf001a180ab3",
+        "example": "The steep terrain posed a major challenge to the rescue team.",
+        "translation": "険しい地形は救助隊に大きな課題を突きつけた。"
+      },
+      {
+        "example_id": "ex-9d60abc9e362",
+        "example": "The instructor demonstrated a difficult yoga pose.",
+        "translation": "インストラクターは難しいヨガのポーズを実演した。"
+      },
+      {
+        "example_id": "ex-035d904faf22",
+        "example": "He struck a pose of indifference, although the criticism clearly hurt him.",
+        "translation": "その批判は明らかに彼を傷つけたが、彼は無関心を装った。"
+      },
+      {
+        "example_id": "ex-de0b35dcec78",
+        "example": "The damaged bridge could pose a danger to pedestrians.",
+        "translation": "損傷した橋は歩行者に危険を及ぼすおそれがある。"
+      },
+      {
+        "example_id": "ex-4ddb1203dc9a",
+        "example": "The children laughed and posed for the camera.",
+        "translation": "子どもたちは笑いながらカメラに向かってポーズを取った。"
+      },
+      {
+        "example_id": "ex-57732c30fe30",
+        "example": "The witness was completely posed by the examiner's final question.",
+        "translation": "その証人は試験官の最後の質問にすっかり困惑した。"
+      },
+      {
+        "example_id": "ex-e96a6b223b3d",
+        "example": "The sudden loss of data posed a serious problem for the research team.",
+        "translation": "突然のデータ消失は研究チームに深刻な問題をもたらした。"
+      },
+      {
+        "example_id": "ex-102d81bd1689",
+        "example": "Her pose of confidence disappeared when the questions became technical.",
+        "translation": "質問が専門的になると、彼女の自信ありげな見せかけは消えた。"
+      },
+      {
+        "example_id": "ex-191fa116ce7c",
+        "example": "The man posed as a doctor to gain access to the restricted ward.",
+        "translation": "その男は立入制限された病棟に入るため、医師を装った。"
+      },
+      {
+        "example_id": "ex-edc717df1cd1",
+        "example": "He posed as an expert on tax law and gave the client incorrect advice.",
+        "translation": "彼は税法の専門家を装い、顧客に誤った助言をした。"
+      },
+      {
+        "example_id": "ex-8916cf60559d",
+        "example": "The photographer posed the family for a formal portrait.",
+        "translation": "写真家は正式な家族写真のために、家族を配置した。"
+      },
+      {
+        "example_id": "ex-97af90510b14",
+        "example": "His concern for the workers was a mere pose.",
+        "translation": "彼の労働者への心配は、単なる見せかけだった。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

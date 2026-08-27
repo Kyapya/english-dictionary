@@ -1,0 +1,51 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "ecdf6518adf955d45f677a4e2c5e7d9356b4725cf87db77db64fbf1e69380614",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /poʊz/｜英: /pəʊz/。どちらも1音節で、語末は無声音 /s/ ではなく有声音の /z/ である。米音は二重母音 /oʊ/、英音は二重母音 /əʊ/ で、違いは主に第1音節の母音にある。  "
+      },
+      {
+        "line": 16,
+        "text": "三人称単数・複数形の `poses` は米 /ˈpoʊzɪz/・英 /ˈpəʊzɪz/。語末の /z/ に続くため、複数・三単現の語尾は /ɪz/ となる。過去形・過去分詞 `posed` は米 /poʊzd/・英 /pəʊzd/ で、語尾に母音を加えず1音節で発音する。  "
+      },
+      {
+        "line": 17,
+        "text": "現在分詞 `posing` は米 /ˈpoʊzɪŋ/・英 /ˈpəʊzɪŋ/。`pose` の語末の e は書かれないが、語幹の /z/ は保たれる。動詞・名詞とも基本形は同じ1音節で、品詞による強勢移動はない。  "
+      },
+      {
+        "line": 18,
+        "text": "`pose` /poʊz/（ポーズ）と `pause` /pɔːz/（ポーズ、休止）は、米音でも母音が異なる別語である。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
