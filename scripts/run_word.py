@@ -746,6 +746,13 @@ def ingest_handoff_review(
         else cycle_dir / "handoff" / f"{stage}.response.json"
     )
     if not response_path.is_file():
+        if checker_stage2:
+            stage2_handoff = cycle_dir / "handoff" / "checker_passes.stage2.request.md"
+            raise ValueError(
+                "checker stage 1 is already ingested; the second independent "
+                f"response is missing: {response_path}. Answer {stage2_handoff} "
+                "in a separate session instead of re-preparing stage 1"
+            )
         raise ValueError(f"handoff response is missing: {response_path}")
     value = json.loads(response_path.read_text(encoding="utf-8"))
     if not isinstance(value, dict):
@@ -1911,6 +1918,37 @@ def start_workflow(
     return run_path
 
 
+def _report_review_failure(
+    manifest: dict[str, Any],
+    run_path: Path,
+    *,
+    stage: str,
+    error: BaseException,
+) -> int:
+    """Charge a failed review ingestion to the guard instead of retrying blind.
+
+    Without this the orchestrator raised, the guard was never consulted for the
+    failed attempt, and an agent could re-prepare and re-ingest the same broken
+    handoff response indefinitely.
+    """
+    running = guard.record_review_ingest_failure(
+        manifest, stage=stage, error=str(error)
+    )
+    guard._write(run_path, manifest)
+    payload = {
+        "status": manifest["status"],
+        "stage": manifest["stage"],
+        "review_stage": stage,
+        "error": str(error),
+        "ingest_failure_count": manifest.get("review_ingest_failures", {}).get("count"),
+    }
+    if not running:
+        payload["reason"] = manifest.get("stop_reason", "")
+        payload["open_questions"] = manifest.get("open_questions", [])
+    print(json.dumps(payload, ensure_ascii=False, indent=2))
+    return 2 if not running else 1
+
+
 def _resume(
     path: Path,
     *,
@@ -1933,14 +1971,27 @@ def _resume(
     ingested_path: Path | None = None
     api_review_paths: list[Path] = []
     if ingest_review:
-        ingested_path = ingest_handoff_review(
-            manifest,
-            stage=ingest_review,
-            declared_model=declared_model,
-        )
+        try:
+            ingested_path = ingest_handoff_review(
+                manifest,
+                stage=ingest_review,
+                declared_model=declared_model,
+            )
+        except Exception as exc:  # the guard owns every failed ingestion
+            return _report_review_failure(
+                manifest, resolved, stage=ingest_review, error=exc
+            )
+        guard.clear_review_ingest_failures(manifest)
         guard._write(resolved, manifest)
     elif call_review:
-        api_review_paths = execute_api_review_stage(manifest)
+        stage_name = (next_stage_request(manifest) or {}).get("name", "review")
+        try:
+            api_review_paths = execute_api_review_stage(manifest)
+        except Exception as exc:  # the guard owns every failed review call
+            return _report_review_failure(
+                manifest, resolved, stage=str(stage_name), error=exc
+            )
+        guard.clear_review_ingest_failures(manifest)
     next_request = next_stage_request(manifest)
     handoff_path: Path | None = None
     review_request_paths: list[Path] = []

@@ -1,6 +1,8 @@
 from __future__ import annotations
 
+import fnmatch
 import json
+import re
 import subprocess
 import sys
 import unittest
@@ -8,6 +10,18 @@ from pathlib import Path
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
+sys.path.insert(0, str(REPO_ROOT / "scripts"))
+
+import check_passes  # noqa: E402
+
+
+def _routed_pass_specifications() -> list[str]:
+    router = check_passes.load_router(REPO_ROOT / "prompts" / "check_router_v6.md")
+    return [str(item["specification"]) for item in router["passes"]]
+
+
+def _documented_pass_specifications(text: str) -> set[str]:
+    return set(re.findall(r"prompts/check_pass_[A-Za-z0-9_*]+\.md", text))
 
 
 class PromptContractTests(unittest.TestCase):
@@ -153,6 +167,54 @@ class PromptContractTests(unittest.TestCase):
             "Pull Requestの機械検証が成功したら",
         ):
             self.assertNotIn(removed_procedure, text)
+
+    def test_process_documents_point_at_the_specifications_the_router_selects(
+        self,
+    ) -> None:
+        """AGENTS.md and README.md must not drift from check_router_v6.md.
+
+        A router bump the process documents miss sends an agent to the previous
+        pass specification, whose output the current ingestion contract rejects.
+        """
+        routed = _routed_pass_specifications()
+        self.assertIn("prompts/check_pass_frame_relation_v7.md", routed)
+        for name in ("AGENTS.md", "README.md"):
+            document = (REPO_ROOT / name).read_text(encoding="utf-8")
+            references = _documented_pass_specifications(document)
+            self.assertTrue(references, f"{name} names no checker pass specification")
+            for specification in routed:
+                with self.subTest(document=name, specification=specification):
+                    self.assertTrue(
+                        any(
+                            fnmatch.fnmatch(specification, reference)
+                            for reference in references
+                        ),
+                        f"{name} does not cover {specification}",
+                    )
+            for reference in references:
+                with self.subTest(document=name, reference=reference):
+                    self.assertTrue(
+                        any(
+                            fnmatch.fnmatch(specification, reference)
+                            for specification in routed
+                        ),
+                        f"{name} references {reference}, which the router does not select",
+                    )
+
+    def test_process_documents_describe_the_two_round_checker_handoff(self) -> None:
+        """The checker handoff needs two responses; a one-round reading loops."""
+        for name in ("AGENTS.md", "README.md"):
+            document = (REPO_ROOT / name).read_text(encoding="utf-8")
+            for marker in (
+                "2往復",
+                "checker_passes.stage1.json",
+                "checker_passes.stage2.request.md",
+                "checker_passes.stage2.response.json",
+                "antonym_axis_blind_record",
+                "budget_exhausted",
+            ):
+                with self.subTest(document=name, marker=marker):
+                    self.assertIn(marker, document)
 
     def test_readme_routes_instead_of_repeating_the_old_process_specs(self) -> None:
         text = (REPO_ROOT / "README.md").read_text(encoding="utf-8")

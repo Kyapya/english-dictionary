@@ -31,7 +31,7 @@
       "prompts/finding_resolution_v6.md",
       "prompts/final_review_spec_v2.md"
     ],
-    "required_instruction_bytes_per_word": 94533,
+    "required_instruction_bytes_per_word": 95666,
     "max_instruction_bytes_in_one_execution": 53277,
     "execution_bundles": [
       {
@@ -39,7 +39,7 @@
         "files": [
           "AGENTS.md"
         ],
-        "instruction_bytes": 3781
+        "instruction_bytes": 4914
       },
       {
         "execution": "generation",
@@ -136,8 +136,8 @@
     ]
   },
   "effect": {
-    "bytes_reduced_per_word": 73336,
-    "percent_reduced_per_word": 43.69,
+    "bytes_reduced_per_word": 72203,
+    "percent_reduced_per_word": 43.01,
     "max_execution_bytes_reduced": 114592,
     "max_execution_percent_reduced": 68.26
   }

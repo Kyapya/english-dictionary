@@ -48,6 +48,7 @@ STAGES = (
 
 TERMINAL_STATUSES = {"budget_exhausted", "completed"}
 COST_SCHEMA_VERSION = "workflow_cost_v1"
+MAX_REVIEW_INGEST_FAILURES = 3
 
 
 def _now() -> datetime:
@@ -240,6 +241,29 @@ def validate_manifest(manifest: dict[str, Any], *, merge_ready: bool = False) ->
             _parse_time(item.get("recorded_at"), f"stage_history[{index}].recorded_at", errors)
         if history and isinstance(history[-1], dict) and history[-1].get("stage") != stage:
             errors.append("stage must equal the last stage_history item")
+    failures = manifest.get("review_ingest_failures")
+    if failures is not None:
+        if not isinstance(failures, dict):
+            errors.append("review_ingest_failures must be an object")
+        else:
+            count = failures.get("count")
+            if not isinstance(failures.get("stage"), str) or not failures["stage"].strip():
+                errors.append("review_ingest_failures.stage is required")
+            if (
+                not isinstance(count, int)
+                or isinstance(count, bool)
+                or count < 1
+                or count > MAX_REVIEW_INGEST_FAILURES
+            ):
+                errors.append(
+                    "review_ingest_failures.count must be between 1 and "
+                    f"{MAX_REVIEW_INGEST_FAILURES}"
+                )
+            _parse_time(
+                failures.get("last_failed_at"),
+                "review_ingest_failures.last_failed_at",
+                errors,
+            )
     if status == "budget_exhausted":
         if not str(manifest.get("stop_reason", "")).strip():
             errors.append("budget_exhausted run requires stop_reason")
@@ -390,6 +414,57 @@ def enforce_budget(manifest: dict[str, Any], *, now: datetime | None = None) -> 
     max_gap = manifest["limits"]["max_heartbeat_gap_minutes"]
     if current - heartbeat > timedelta(minutes=max_gap):
         _stop(manifest, reason="heartbeat gap budget exhausted", now=current)
+        return False
+    return True
+
+
+def clear_review_ingest_failures(manifest: dict[str, Any]) -> None:
+    """Drop the failure streak after a review stage is ingested successfully."""
+    manifest.pop("review_ingest_failures", None)
+
+
+def record_review_ingest_failure(
+    manifest: dict[str, Any],
+    *,
+    stage: str,
+    error: str,
+    now: datetime | None = None,
+) -> bool:
+    """Charge a failed review ingestion to the budget and stop a retry loop.
+
+    The heartbeat is deliberately not refreshed: a failed ingestion is not
+    progress, so elapsed time and the heartbeat gap keep running against the
+    run. Returns False once the run is stopped, either because a budget is
+    exhausted or because the same stage failed MAX_REVIEW_INGEST_FAILURES times.
+    """
+    current = now or _now()
+    if manifest.get("status") in TERMINAL_STATUSES:
+        return False
+    failures = manifest.get("review_ingest_failures")
+    if not isinstance(failures, dict) or failures.get("stage") != stage:
+        failures = {"stage": stage, "count": 0, "last_error": "", "last_failed_at": ""}
+    count = failures.get("count")
+    if not isinstance(count, int) or isinstance(count, bool) or count < 0:
+        count = 0
+    failures = {
+        "stage": stage,
+        "count": count + 1,
+        "last_error": error.strip(),
+        "last_failed_at": _format_time(current),
+    }
+    manifest["review_ingest_failures"] = failures
+    if not enforce_budget(manifest, now=current):
+        return False
+    if failures["count"] >= MAX_REVIEW_INGEST_FAILURES:
+        _stop(
+            manifest,
+            reason=f"{stage} handoff ingestion failed {failures['count']} times",
+            now=current,
+            open_questions=[
+                f"last {stage} ingestion error: {failures['last_error']}",
+                "fix the handoff response contract before resuming this run",
+            ],
+        )
         return False
     return True
 

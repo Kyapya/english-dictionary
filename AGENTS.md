@@ -21,6 +21,16 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 
 レビュー段（checker pass、example-attribution、cold review、final blind、final review）の出力は、生成を行ったエージェントが作成してはならない。`scripts/review_call.py`（API）または handoff 取り込みのみを経路とし、`reviewer` フィールドのない出力は `scripts/check_passes.py` が拒否する。handoff応答は生成セッション外の別モデル・別セッションから人間が取り込む。
 
+### checker_passes handoffは2往復
+
+handoffモードの `checker_passes` は、反意語軸を盲検採取してから裁定する2段構成で、1往復では完了しない。
+
+1. 第1応答は7パスを過不足なく1回ずつ含む1個のJSON。frame-relationは `prompts/check_pass_frame_relation_v7.md` に従い `antonym_axis_blind_record` を含める。保存先は `handoff/checker_passes.response.json`。
+2. `--ingest-review checker_passes` は段階を完了させず、段階1を `check_passes/checker_passes.stage1.json` に保存し、次のhandoff `handoff/checker_passes.stage2.request.md` を返す。
+3. 第2応答は `antonym_axis_adjudication_record_v1` 1個を別セッションで作り `checker_passes.stage2.response.json` へ保存する。もう一度取り込むと段階が完了する。
+
+取り込みが `checker stage 1 is already ingested` で失敗したら、未作成なのは第2応答であり、作り直すのはhandoffではない。取り込み失敗はguardが記録し、同じ段が3回失敗するとrunは `budget_exhausted` になる。
+
 ## ファイル命名
 
 - 見出し語は `headword` と呼ぶ。
@@ -46,7 +56,7 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 | 用途 | 正本 |
 |---|---|
 | 記事内容・構成・表示 | `prompts/entry_spec_v5.md` |
-| 通常チェック | `prompts/check_router_v6.md` と7つの `prompts/check_pass_*_v6.md` |
+| 通常チェック | `prompts/check_router_v6.md`、`prompts/check_pass_frame_relation_v7.md`、6つの `prompts/check_pass_*_v6.md` |
 | コールドレビュー入力 | `prompts/cold_review_prompt_v1.md` |
 | 最終盲検入力 | `prompts/final_blind_prompt_v2.md` |
 | finding解決 | `prompts/finding_resolution_v6.md` |
