@@ -1,0 +1,15 @@
+{
+ "schema_version": "mechanical_validator_v1",
+ "stage": "mechanical_validator",
+ "entry_path": "entries/i/integrate.md",
+ "input_body_sha256": "f81f71e168187dbc968e77848fc623c5b7a1a06b513de11c30f7548088338629",
+ "validator": "scripts/validate_entry.py",
+ "decision": "pass",
+ "errors": [],
+ "warnings": [
+  "line 46: grammar frame could not be classified: be integrated into 〈全体〉＝全体の一部として組み込まれている",
+  "line 337: grammar frame could not be classified: be integrated into 〈the workforce〉＝働き手として受け入れられている"
+ ],
+ "run_count": 1,
+ "recorded_at": "2026-08-28T22:35:28Z"
+}
