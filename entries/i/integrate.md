@@ -379,7 +379,7 @@ tags: []
 例: Older workers are not always well integrated into the digital workforce.  
 訳: 高齢の労働者が、デジタル化した職場にいつもうまく受け入れられているとは限らない。  
 
-【語法・注意】受け入れる側が主語、加わる側が目的語になる。加わる側を主語にして「溶け込む」と言うときは目的語を取らない語義5を使う。○ The manager integrated him into the team.（語義4）と ○ He integrated into the team.（語義5）は主語と目的語の役割が入れ替わる最小対立で、× He integrated in the team. とは言わない。integrate oneself into は自動詞の integrate into よりやや硬く、本人の意識的な努力を含意する。受動態は be integrated into が中心だが、Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る。assimilate との違いにも注意する。assimilate は加わる側が元の文化的特徴を失うことを含意しやすく、社会政策の議論では integrate と対比して使われる。  
+【語法・注意】受け入れる側が主語、加わる側が目的語になる。加わる側を主語にして「溶け込む」と言うときは目的語を取らない語義5を使う。○ The manager integrated him into the team.（語義4）と ○ He integrated into the team.（語義5）は主語と目的語の役割が入れ替わる最小対立で、能動の自動詞では into を使い、× He integrated in the team. は避ける。integrate oneself into は自動詞の integrate into よりやや硬く、本人の意識的な努力を含意する。受動態は be integrated into が中心だが、Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る。assimilate との違いにも注意する。assimilate は加わる側が元の文化的特徴を失うことを含意しやすく、社会政策の議論では integrate と対比して使われる。  
 
 【類義語】
 
@@ -478,7 +478,7 @@ tags: []
 例: The report warned that some young arrivals fail to integrate socially.  
 訳: その報告書は、若い入国者の一部が社会的に溶け込めていないと警告した。  
 
-【語法・注意】この語義では目的語を取らない。She integrated the team. は文としては正しいが、語義1の他動詞（チームを統合した）と読まれ、「チームに溶け込んだ」の意味にはならない。入っていく先は into が標準で、× integrate to とは言わない。in は語義4の受動態 be integrated in 〈場〉 に見られ、自動詞でも integrate in the labour market のような報告書的な用例があるが、into のほうが安全である。会話では fit in のほうがはるかに普通で、integrate は社会政策や職場の評価など、やや客観的に述べる文脈で使う。主語が装置や仕組みの場合は語義3になる。  
+【語法・注意】この語義では目的語を取らない。She integrated the team. は文としては正しいが、語義1の他動詞（チームを統合した）と読まれ、「チームに溶け込んだ」の意味にはならない。入っていく先は into が標準で、× integrate to とは言わない。in は語義4の受動態 be integrated in 〈場〉 に辞書例があるが、この自動詞では into を使う。会話では fit in のほうがはるかに普通で、integrate は社会政策や職場の評価など、やや客観的に述べる文脈で使う。主語が装置や仕組みの場合は語義3になる。  
 
 【類義語】
 

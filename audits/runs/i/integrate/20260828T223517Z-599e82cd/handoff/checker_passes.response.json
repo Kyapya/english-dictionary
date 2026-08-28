@@ -1,0 +1,684 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "unrouted_observations": [],
+      "antonym_axis_blind_record": {
+        "pass_id": "frame-relation",
+        "axes": [
+          {
+            "item_id": "ant-7fb31d874f5c",
+            "axis": "全体性",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-03319d94d559",
+            "axis": "結合状態",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-7ec45a9d3d9a",
+            "axis": "分離状態",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-b4ccc5771c69",
+            "axis": "対人関与",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-f9cf5d525a09",
+            "axis": "一体性",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-d2ffd590cea3",
+            "axis": "社会的つながり",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-a1f14e81fe41",
+            "axis": "全体性",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-29bd1cd57814",
+            "axis": "結合",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-b5e57e2e1316",
+            "axis": "人種構成",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-42197b362a77",
+            "axis": "人種隔離",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-260ca2a38daf",
+            "axis": "微積分演算",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-58da553a6d63",
+            "axis": "接続性",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-b6bffed1f411",
+            "axis": "集団への包摂",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-4bc52afe6b1b",
+            "axis": "参加",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-d14235cdf9ef",
+            "axis": "集団への関与",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-ea1fcb84a890",
+            "axis": "制度上の人種分離",
+            "relation_type": "方向"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "findings": [],
+      "unrouted_observations": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "recorded_at": "2026-08-28T22:50:15+00:00",
+        "input_body_sha256": "f81f71e168187dbc968e77848fc623c5b7a1a06b513de11c30f7548088338629",
+        "blind_request_sha256": "5366ab937fefc43f95fd565f1698202ecb3f72864f477646f7a80e3d2995d71a",
+        "attributions": [
+          {
+            "example_id": "ex-b4f1dfa2f1b1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "with respect to x",
+              "treating y as a constant"
+            ],
+            "rationale": "The variable marker with respect to x fixes this as the calculus operation rather than any joining sense."
+          },
+          {
+            "example_id": "ex-54d67989db1f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "does not integrate with",
+              "module",
+              "database"
+            ],
+            "rationale": "A module and a database are machinery, and does not integrate with takes no object, so the systems reading is the only natural one."
+          },
+          {
+            "example_id": "ex-200c5afe9936",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "children",
+              "more quickly"
+            ],
+            "rationale": "Children as the subject of an objectless integrate can only be people settling into a group."
+          },
+          {
+            "example_id": "ex-f059ea5b8646",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "new employees into the team",
+              "mentor"
+            ],
+            "rationale": "A mentor is the receiving side acting on new employees into the team, which is the causative human-object frame."
+          },
+          {
+            "example_id": "ex-8629a4ed458e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "integrated circuit",
+              "transistors"
+            ],
+            "rationale": "Attributive integrated circuit is a fixed technical compound of the participial adjective."
+          },
+          {
+            "example_id": "ex-502fd239fa6b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "logistics network with",
+              "courier service"
+            ],
+            "rationale": "Joining a logistics network with an outside carrier has a thing as object and a thing as partner, so this is the general combining sense."
+          },
+          {
+            "example_id": "ex-d496ddaabba2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the two departments",
+              "merger"
+            ],
+            "rationale": "After a merger the object the two departments is an organizational unit being combined by an agent."
+          },
+          {
+            "example_id": "ex-17d7dfe91256",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrated into the primary school curriculum",
+              "digital skills"
+            ],
+            "rationale": "The goal phrase in integrated into the primary school curriculum marks the verbal passive of the combining frame, not a bare adjectival state."
+          },
+          {
+            "example_id": "ex-56fe06325457",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "an integrated school",
+              "first students"
+            ],
+            "rationale": "An integrated school that had its first students is the desegregation adjective, since the newness lies in who may attend."
+          },
+          {
+            "example_id": "ex-fc8b49beeaf9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "desegregation order",
+              "was integrated"
+            ],
+            "rationale": "Being placed under a desegregation order names the institutional race measure applied to a district."
+          },
+          {
+            "example_id": "ex-63f942cdb2b0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "networks will integrate into",
+              "ticketing system"
+            ],
+            "rationale": "Two transport networks will integrate into one scheme with no object and no human participant."
+          },
+          {
+            "example_id": "ex-0820332eb61e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "app integrates with",
+              "email clients"
+            ],
+            "rationale": "Product wording in which an app integrates with other software is the intransitive machinery use."
+          },
+          {
+            "example_id": "ex-1aacf260f79c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "vertically integrated",
+              "producer"
+            ],
+            "rationale": "The premodifier vertically integrated describes a standing company structure, so the adjective reading holds."
+          },
+          {
+            "example_id": "ex-fe02f3dd19c9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "integrate seamlessly with",
+              "sensors"
+            ],
+            "rationale": "Sensors that integrate seamlessly with control software are devices working together without an object."
+          },
+          {
+            "example_id": "ex-09485662fba9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "integrated lunch counters",
+              "sit-ins"
+            ],
+            "rationale": "Civil-rights sit-ins aiming at integrated lunch counters put the adjective in the racial-separation reading."
+          },
+          {
+            "example_id": "ex-f854790b6d1d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "are now fully integrated",
+              "two databases"
+            ],
+            "rationale": "The present copula in are now fully integrated reports a standing condition rather than an event with an agent."
+          },
+          {
+            "example_id": "ex-a6362157d326",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "integrate its public schools",
+              "federal court"
+            ],
+            "rationale": "A court ordering a state to integrate its public schools is the American desegregation use with an institution as object."
+          },
+          {
+            "example_id": "ex-08d0602f37d1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "an integrated neighborhood"
+            ],
+            "rationale": "Choosing an integrated neighborhood describes a residential area no longer separated by race."
+          },
+          {
+            "example_id": "ex-ec0d92023eac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "integrated well with her new colleagues"
+            ],
+            "rationale": "She has integrated well with her new colleagues has a personal subject and no object, so the joining party is the subject."
+          },
+          {
+            "example_id": "ex-63afda7994f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "racially integrate the suburbs",
+              "housing policies"
+            ],
+            "rationale": "Policies that racially integrate the suburbs act on a residential system by race."
+          },
+          {
+            "example_id": "ex-94fb74fac0d9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "closely integrated with",
+              "new terminal"
+            ],
+            "rationale": "The degree adverb in closely integrated with marks a predicative adjective describing how joined-up the terminal is."
+          },
+          {
+            "example_id": "ex-541b4b78f4a2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "children with disabilities into mainstream classrooms",
+              "district"
+            ],
+            "rationale": "The object is people: children with disabilities into mainstream classrooms is the membership causative."
+          },
+          {
+            "example_id": "ex-4bcc787af403",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrated into the digital workforce",
+              "older workers"
+            ],
+            "rationale": "Older workers stand as the passive subject of integrated into the digital workforce, which keeps a human undergoer."
+          },
+          {
+            "example_id": "ex-c49a16450781",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "an integrated transport network",
+              "single ticket"
+            ],
+            "rationale": "An integrated transport network usable on one ticket is the attributive adjective for joined-up services."
+          },
+          {
+            "example_id": "ex-9132e6c71bf8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrates data from multiple sources",
+              "dashboard"
+            ],
+            "rationale": "A dashboard that integrates data from multiple sources takes a direct object of things."
+          },
+          {
+            "example_id": "ex-f42ea7bff66b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrates theory and practice",
+              "fieldwork"
+            ],
+            "rationale": "Two abstract domains are joined where the course integrates theory and practice."
+          },
+          {
+            "example_id": "ex-8609ed819103",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "racially integrated",
+              "public schools"
+            ],
+            "rationale": "Schools said to be racially integrated today are described in their separation status, which is the adjective."
+          },
+          {
+            "example_id": "ex-e6db02aa1420",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "by parts",
+              "logarithm"
+            ],
+            "rationale": "Handling a product by parts to remove a logarithm names a standard calculus technique."
+          },
+          {
+            "example_id": "ex-912169f785eb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "recent immigrants into the local labor market",
+              "program"
+            ],
+            "rationale": "A program moving recent immigrants into the local labor market acts on people as its object."
+          },
+          {
+            "example_id": "ex-3d2ba82d0952",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "the university integrated in 1962",
+              "federal court ruling"
+            ],
+            "rationale": "The university integrated in 1962 has an institution as subject in a court-driven racial setting, so the desegregation reading is the only fit."
+          },
+          {
+            "example_id": "ex-3db88dcf2308",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "an integrated approach",
+              "chronic pain"
+            ],
+            "rationale": "An integrated approach to treatment is the attributive adjective applied to a method."
+          },
+          {
+            "example_id": "ex-b89db709ea62",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "editing software",
+              "integrate well"
+            ],
+            "rationale": "A camera and editing software that integrate well are two devices linking up on their own."
+          },
+          {
+            "example_id": "ex-5549b3f501a9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "payment methods into the existing checkout system"
+            ],
+            "rationale": "Building payment methods into the existing checkout system is the transitive combining frame with a thing as object."
+          },
+          {
+            "example_id": "ex-bb1fd7a315f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "the area under the curve",
+              "integrate the function"
+            ],
+            "rationale": "Finding the area under the curve between limits is unambiguously the mathematical operation."
+          },
+          {
+            "example_id": "ex-93171c3294ef",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "hard to integrate",
+              "moving to a new city"
+            ],
+            "rationale": "Someone who found it hard to integrate after a move is the person joining, with no object present."
+          },
+          {
+            "example_id": "ex-ce31d0c78703",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrated herself into the research group"
+            ],
+            "rationale": "The reflexive object in integrated herself into the research group makes the clause transitive, which the human-object definition explicitly covers."
+          },
+          {
+            "example_id": "ex-1e1da94f601e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "refugees into a new community"
+            ],
+            "rationale": "Bringing refugees into a new community over years is causative, with the joining party as object."
+          },
+          {
+            "example_id": "ex-5bd19e65d39e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "fail to integrate socially",
+              "young arrivals"
+            ],
+            "rationale": "Young arrivals who fail to integrate socially are themselves the joining party in an objectless clause."
+          },
+          {
+            "example_id": "ex-65ec4ef41de0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "integrating the armed forces",
+              "executive order"
+            ],
+            "rationale": "An executive order committing a government to integrating the armed forces is the institutional race measure."
+          },
+          {
+            "example_id": "ex-046c9da55592",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "families integrated into the local community"
+            ],
+            "rationale": "Where families integrated into the local community, the people themselves are the subject and no object appears."
+          },
+          {
+            "example_id": "ex-11d2cb4e3716",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "the velocity over time",
+              "total displacement"
+            ],
+            "rationale": "Taking the velocity over time to obtain displacement is the calculus operation on a function."
+          },
+          {
+            "example_id": "ex-fc73592260f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "numerically",
+              "closed form"
+            ],
+            "rationale": "Software working numerically when no closed form exists is doing numerical integration, not system building."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 382,
+            "line_end": 382,
+            "exact_quote": "× He integrated in the team. とは言わない"
+          },
+          "severity": "minor",
+          "rationale": "語義4の語法注記は自動詞の integrate in を × 付きで無条件に非文として排するが、同じ入力内の語義5の語法注記は「自動詞でも integrate in the labour market のような報告書的な用例があるが、into のほうが安全である」と述べ、同型の自動詞 in を実在する用法として認めている。into が標準という傾向を必須条件（禁止規則）として提示した結果、学習者は同一記事内で相反する指示を受け取り、in を含む実例に出会ったとき誤りと判断してしまう。",
+          "evidence_link_ids": [],
+          "suggested_direction": "× 表記を外し、「into が標準で、in を用いた自動詞例は報告書等に見られるが避けるのが安全」という傾向記述へ適用範囲を限定し、語義5の注記と強さをそろえる。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 55,
+            "line_end": 55,
+            "exact_quote": "ビジネス、技術、行政、教育、学術の説明文に多い"
+          },
+          "severity": "minor",
+          "rationale": "E-036〜E-041 は register:001〜008 すべてを対象に「the register and domain statements attached to each sense follow the labelled scope of the cited entries」と要約するが、束ねられた fact（F-009, F-010, F-019, F-024, F-038, F-039, F-040, F-043）が領域ラベルを与えるのは人種統合義と数学義だけで、語義1〜5の領域記述を支持する記述はどのfactにもない。inventory 自身の open_questions と register_region_and_frequency 軸の注記は「No fact in this set carries a register or domain label for those senses」と認めており、evidence link の要約だけが持たない支持を主張している。",
+          "evidence_link_ids": [
+            "E-036",
+            "E-037",
+            "E-038",
+            "E-039",
+            "E-040",
+            "E-041"
+          ],
+          "suggested_direction": "link 要約を語義6〜8のラベル済み領域に限定し、語義1〜5の領域記述は編集判断である旨を link 側にも明示する（主張限定）。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 481,
+            "line_end": 481,
+            "exact_quote": "integrate in the labour market のような報告書的な用例がある"
+          },
+          "severity": "blocking",
+          "rationale": "これは自動詞 integrate が in を伴う実例が報告書体の文章に存在するという肯定的な用例主張だが、語義5に結び付く E-014・E-015 の fact（F-002, F-006, F-022）はいずれも in を伴う自動詞例を含まず、F-006 は integrate with one's colleagues と integrate socially、F-022 は fully integrated into a local community しか示さない。in を含む唯一のfact F-020 は語義4の受動態 disabled students are integrated in regular classrooms であり、自動詞の主張には適用できない。open_questions はこの箇所を「prescriptive negative claims」（integrate in を否定する主張）として整理しており、肯定側の無根拠を開示していないため、開示済みの限界にも当たらない。",
+          "evidence_link_ids": [
+            "E-014",
+            "E-015",
+            "E-020"
+          ],
+          "suggested_direction": "自動詞 in の用例を直接示す資料を追加するか、当該記述を削って F-020 が支持する受動態 be integrated in 〈場〉 の範囲に主張を限定する。"
+        }
+      ],
+      "unrouted_observations": []
+    }
+  ]
+}
