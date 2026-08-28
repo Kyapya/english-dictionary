@@ -498,3 +498,132 @@
         "id": "finding_resolution",
         "instruction_bytes": 1492,
         "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": false
+      },
+      {
+        "id": "final_review",
+        "instruction_bytes": 3065,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": false
+      },
+      {
+        "id": "status_update",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": false
+      },
+      {
+        "id": "export",
+        "instruction_bytes": 0,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": false
+      }
+    ],
+    "checker_passes": [
+      {
+        "id": "translation",
+        "instruction_bytes": 2402,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "sense-structure",
+        "instruction_bytes": 3031,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "frame-relation",
+        "instruction_bytes": 8294,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "example-attribution",
+        "instruction_bytes": 4133,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "qualification",
+        "instruction_bytes": 2876,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "pronunciation",
+        "instruction_bytes": 1815,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "evidence",
+        "instruction_bytes": 2687,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      }
+    ],
+    "process_rules": [
+      {
+        "id": "PI-0002",
+        "status": "trial",
+        "instruction_bytes": 315,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "PI-0003",
+        "status": "trial",
+        "instruction_bytes": 557,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      },
+      {
+        "id": "PI-0004",
+        "status": "active",
+        "instruction_bytes": 276,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "completed": false
+      }
+    ]
+  },
+  "orchestrator_state": {
+    "next_stage_index": 1,
+    "completed_stages": [
+      "guard_start"
+    ],
+    "stage_outputs": {}
+  }
+}
