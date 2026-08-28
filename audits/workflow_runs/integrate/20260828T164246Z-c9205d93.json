@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 3,
-    "candidate_pages": 4
+    "research_queries": 6,
+    "candidate_pages": 8
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T16:42:46Z",
   "deadline_at": "2026-08-28T18:12:46Z",
   "pre_draft_deadline_at": "2026-08-28T17:12:46Z",
-  "last_heartbeat_at": "2026-08-28T16:46:00Z",
+  "last_heartbeat_at": "2026-08-28T17:04:39Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T16:42:48Z",
@@ -46,8 +46,11 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "independent checker passes returned two blocking and four other findings, all in the source inventory's bindings and disclosures plus one register overclaim; the inventory and body were revised, so the cycle restarts",
+  "open_questions": [
+    "bind frequency and register targets to a union that states they are editorial calibration",
+    "state precisely which relation entries the thesaurus facts attest"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",

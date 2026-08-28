@@ -1,0 +1,163 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "567f24c6c3cc099dac7d7fce10d720aeb424a13c51fc3deb47c943beb8a68f57",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-1921660a6e8e",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】過去分詞 integrated が形容詞として定着した用法で、多くの部分や機能が結び付き、一つのまとまりとして働くようになっていることを表す。限定用法と叙述用法の両方で使い、程度は fully、highly、closely、tightly などの副詞で示す。an integrated circuit（集積回路）、an integrated approach（統合的な取り組み）のように、専門的な複合表現も作る。",
+        "antonym": "fragmented",
+        "antonym_definition": "定義: 全体がばらばらの断片に分かれている。"
+      },
+      {
+        "item_id": "ant-28b1100db492",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】学校、軍、公共施設、居住地区などで、人種を主とし、性別や出身国などを理由に人を分けていた制度をやめ、分けられていた人々が同じ場所や組織に対等な構成員として属せるようにする。またそうなる。米国で公民権運動期の学校の人種統合をめぐって定着した用法で、現在も歴史的記述や社会・法律の議論で使う。典型的な目的語は学校や軍などの制度・施設である。",
+        "antonym": "segregate",
+        "antonym_definition": "定義: 人種などを理由に人を別の場所や制度へ分けて置く。"
+      },
+      {
+        "item_id": "ant-cf2e0f29c461",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】新しく加わった人や、これまで別扱いされてきた集団を、既存の共同体、組織、学級の対等な構成員として受け入れ、実際に活動へ加われるようにする。主語は受け入れる側の人、機関、制度で、目的語は加わる側の人や集団である。ただし再帰代名詞を目的語にとる integrate oneself into では、加わる側の人が主語と目的語を兼ねる。在籍させるだけでなく、周囲との関係が成り立つところまでを含意する。",
+        "antonym": "isolate",
+        "antonym_definition": "定義: 人を周囲から切り離して孤立させる。"
+      },
+      {
+        "item_id": "ant-e8a3c24d9e1a",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】微積分で、関数や式の積分を求める。微分の逆の操作で、微小な部分を足し合わせて面積、体積、総量などの全体量を得ることに当たる。目的語には積分の対象となる関数や式が来て、積分する変数は with respect to、範囲は from … to … や over で示す。",
+        "antonym": "differentiate",
+        "antonym_definition": "定義: 微積分で、関数の導関数を求める。"
+      },
+      {
+        "item_id": "ant-89425b0ca6a3",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】学校、軍、公共施設、居住地区などで、人種を主とし、性別や出身国などを理由に人を分けていた制度をやめ、分けられていた人々が同じ場所や組織に対等な構成員として属せるようにする。またそうなる。米国で公民権運動期の学校の人種統合をめぐって定着した用法で、現在も歴史的記述や社会・法律の議論で使う。典型的な目的語は学校や軍などの制度・施設である。",
+        "antonym": "resegregate",
+        "antonym_definition": "定義: いったん人種統合された制度を再び人種別に分かれた状態にする。"
+      },
+      {
+        "item_id": "ant-706ec2a4314c",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】過去分詞 integrated が形容詞として定着した用法で、多くの部分や機能が結び付き、一つのまとまりとして働くようになっていることを表す。限定用法と叙述用法の両方で使い、程度は fully、highly、closely、tightly などの副詞で示す。an integrated circuit（集積回路）、an integrated approach（統合的な取り組み）のように、専門的な複合表現も作る。",
+        "antonym": "disjointed",
+        "antonym_definition": "定義: 部分どうしのつながりを欠いてばらばらである。"
+      },
+      {
+        "item_id": "ant-30999b40b81e",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】別々に存在していた要素、機能、部門、制度などを組み合わせ、一つのまとまりとして働くようにする。同じ場所に集める、同じ一覧に載せるということではなく、組み合わせた後に全体として機能することまでを含意する。目的語は部品や路線のような具体物でも、方針、データ、部門のような抽象物でもよい。統合の結果として元の要素が識別できなくなることまでは必要としない。",
+        "antonym": "disintegrate",
+        "antonym_definition": "定義: まとまりを失ってばらばらに崩れる。"
+      },
+      {
+        "item_id": "ant-92564d4ce648",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】過去分詞 integrated が形容詞として定着した用法で、多くの部分や機能が結び付き、一つのまとまりとして働くようになっていることを表す。限定用法と叙述用法の両方で使い、程度は fully、highly、closely、tightly などの副詞で示す。an integrated circuit（集積回路）、an integrated approach（統合的な取り組み）のように、専門的な複合表現も作る。",
+        "antonym": "standalone",
+        "antonym_definition": "定義: 他と接続せずに単独で機能する。"
+      },
+      {
+        "item_id": "ant-7efafd943332",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】学校、地区、施設などが、人種、宗派、性別などを理由とする分離をやめ、これまで分けられていた人々が同じ場に属している状態であることを表す。語義6の動詞用法に対応する形容詞用法である。米国では人種についての用法が中心で、公民権運動以後の社会、教育、歴史の記述に定着している。北アイルランドではカトリックとプロテスタントの児童をともに教える学校を指す。名詞の前に置く限定用法が中心で、修飾する対象は制度、施設、地域であり、人ではない。",
+        "antonym": "segregated",
+        "antonym_definition": "定義: 人種などを理由に分けられている。"
+      },
+      {
+        "item_id": "ant-0c5c4aa8b995",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】新しく入った人が、集団や社会の一員として周囲と関係を築き、実際に活動へ加わるようになる。主語は加わる側の人や集団で、目的語は取らない。入っていく先は into、打ち解ける相手は with で示し、副詞を伴って程度や成否を述べることが多い。本人の側から見た変化を述べる点で、受け入れる側を主語にする語義4と役割が逆になる。",
+        "antonym": "keep to oneself",
+        "antonym_definition": "定義: 他人と関わらずに一人で過ごす。"
+      },
+      {
+        "item_id": "ant-e76b438d25f9",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】新しく加わった人や、これまで別扱いされてきた集団を、既存の共同体、組織、学級の対等な構成員として受け入れ、実際に活動へ加われるようにする。主語は受け入れる側の人、機関、制度で、目的語は加わる側の人や集団である。ただし再帰代名詞を目的語にとる integrate oneself into では、加わる側の人が主語と目的語を兼ねる。在籍させるだけでなく、周囲との関係が成り立つところまでを含意する。",
+        "antonym": "segregate",
+        "antonym_definition": "定義: 人種、性別、障害などを理由に人を別の場所や制度へ分けて置く。"
+      },
+      {
+        "item_id": "ant-f6223b21a985",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】新しく入った人が、集団や社会の一員として周囲と関係を築き、実際に活動へ加わるようになる。主語は加わる側の人や集団で、目的語は取らない。入っていく先は into、打ち解ける相手は with で示し、副詞を伴って程度や成否を述べることが多い。本人の側から見た変化を述べる点で、受け入れる側を主語にする語義4と役割が逆になる。",
+        "antonym": "withdraw",
+        "antonym_definition": "定義: 人との関わりを避けて集団から身を引く。"
+      },
+      {
+        "item_id": "ant-7290b24b8399",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】新しく加わった人や、これまで別扱いされてきた集団を、既存の共同体、組織、学級の対等な構成員として受け入れ、実際に活動へ加われるようにする。主語は受け入れる側の人、機関、制度で、目的語は加わる側の人や集団である。ただし再帰代名詞を目的語にとる integrate oneself into では、加わる側の人が主語と目的語を兼ねる。在籍させるだけでなく、周囲との関係が成り立つところまでを含意する。",
+        "antonym": "exclude",
+        "antonym_definition": "定義: 対象から外して参加させない。"
+      },
+      {
+        "item_id": "ant-95c79e930066",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】別々に存在していた要素、機能、部門、制度などを組み合わせ、一つのまとまりとして働くようにする。同じ場所に集める、同じ一覧に載せるということではなく、組み合わせた後に全体として機能することまでを含意する。目的語は部品や路線のような具体物でも、方針、データ、部門のような抽象物でもよい。統合の結果として元の要素が識別できなくなることまでは必要としない。",
+        "antonym": "separate",
+        "antonym_definition": "定義: 一つになっていたものを分けて別々にする。"
+      },
+      {
+        "item_id": "ant-feab58a406e2",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】別々に存在していた要素、機能、部門、制度などを組み合わせ、一つのまとまりとして働くようにする。同じ場所に集める、同じ一覧に載せるということではなく、組み合わせた後に全体として機能することまでを含意する。目的語は部品や路線のような具体物でも、方針、データ、部門のような抽象物でもよい。統合の結果として元の要素が識別できなくなることまでは必要としない。",
+        "antonym": "fragment",
+        "antonym_definition": "定義: 全体をいくつもの小さな断片に分ける。"
+      },
+      {
+        "item_id": "ant-dcaa67bb85bb",
+        "headword": "integrate",
+        "sense_definition": "【日本語訳・定義】学校、地区、施設などが、人種、宗派、性別などを理由とする分離をやめ、これまで分けられていた人々が同じ場に属している状態であることを表す。語義6の動詞用法に対応する形容詞用法である。米国では人種についての用法が中心で、公民権運動以後の社会、教育、歴史の記述に定着している。北アイルランドではカトリックとプロテスタントの児童をともに教える学校を指す。名詞の前に置く限定用法が中心で、修飾する対象は制度、施設、地域であり、人ではない。",
+        "antonym": "all-white",
+        "antonym_definition": "定義: 構成員が白人だけである。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
