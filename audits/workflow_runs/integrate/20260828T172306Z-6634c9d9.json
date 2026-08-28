@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 6,
-    "candidate_pages": 8
+    "research_queries": 8,
+    "candidate_pages": 10
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T17:23:06Z",
   "deadline_at": "2026-08-28T18:53:06Z",
   "pre_draft_deadline_at": "2026-08-28T17:53:06Z",
-  "last_heartbeat_at": "2026-08-28T17:24:03Z",
+  "last_heartbeat_at": "2026-08-28T17:46:42Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T17:23:08Z",
@@ -46,8 +46,10 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "independent checker passes returned one blocking and four minor findings; the unsupported British-English claim was removed, two missing facts were sourced, and the core-image branch and adjective scope were corrected, so the cycle restarts",
+  "open_questions": [
+    "none outstanding beyond the recorded source-inventory open questions"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",
