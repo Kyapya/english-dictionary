@@ -18,12 +18,12 @@
     "research_queries": 11,
     "candidate_pages": 17
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T15:37:52Z",
   "deadline_at": "2026-08-28T16:37:52Z",
   "pre_draft_deadline_at": "2026-08-28T15:57:52Z",
-  "last_heartbeat_at": "2026-08-28T15:54:05Z",
+  "last_heartbeat_at": "2026-08-28T15:58:13Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T15:37:54Z",
@@ -46,8 +46,10 @@
       "notes": "draft saved before independent review"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "coordinator recorded the draft checkpoint outside the orchestrator, so the orchestrator could not record the generation stage; draft preserved for a recovery run",
+  "open_questions": [
+    "re-run the orchestrated stages from generation on the saved draft under the extended profile"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",
