@@ -3,12 +3,22 @@
     {
       "pass_id": "translation",
       "findings": [],
-      "unrouted_observations": []
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
+      }
     },
     {
       "pass_id": "sense-structure",
       "findings": [],
-      "unrouted_observations": []
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
+      }
     },
     {
       "pass_id": "frame-relation",
@@ -97,13 +107,30 @@
             "axis": "全体性",
             "relation_type": "方向"
           }
-        ]
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "independent-checker-session-a",
+          "ingested_by": "human"
+        },
+        "schema_version": "antonym_axis_blind_record_v1",
+        "input_body_sha256": "eef7acfbee52416c7dd1c862a1d79ba685329c5f5b5887b7cff6abfb6a3332c2",
+        "blind_request_sha256": "8f47a4b635efe3c5389412c365de118cb97d8c714297572cf641bc4f510d5870",
+        "recorded_at": "2026-08-28T22:19:37.550121+00:00"
+      },
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
       }
     },
     {
       "pass_id": "example-attribution",
-      "findings": [],
-      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
+      },
       "blind_attribution_record": {
         "schema_version": "example_attribution_blind_record_v1",
         "pass_id": "example-attribution",
@@ -617,18 +644,36 @@
             ],
             "rationale": "integrate the function between the two limits は曲線下の面積を積分限界の間で求める用法。"
           }
-        ]
-      }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "independent-checker-session-a",
+          "ingested_by": "human"
+        }
+      },
+      "aligned_at": "2026-08-28T22:19:37.550644+00:00",
+      "findings": [],
+      "unrouted_observations": []
     },
     {
       "pass_id": "qualification",
       "findings": [],
-      "unrouted_observations": []
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
+      }
     },
     {
       "pass_id": "pronunciation",
       "findings": [],
-      "unrouted_observations": []
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
+      }
     },
     {
       "pass_id": "evidence",
@@ -667,7 +712,30 @@
           "suggested_direction": "主張限定。専門義のレジスター行の領域列挙も編集判断であるとopen_questionsへ含め、fact-backedと言える範囲を数学・米国という labelled scope に限定する。"
         }
       ],
-      "unrouted_observations": []
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "independent-checker-session-a",
+        "ingested_by": "human"
+      }
     }
-  ]
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "independent-checker-session-a",
+    "ingested_by": "human"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-integrate-20260828T215935Z-83114537",
+  "context_id": "normal-integrate-context-20260828T215935Z-83114537",
+  "input_body_sha256": "eef7acfbee52416c7dd1c862a1d79ba685329c5f5b5887b7cff6abfb6a3332c2",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-28T22:19:37.549905+00:00",
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 ingested by handoff."
 }
