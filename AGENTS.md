@@ -29,7 +29,7 @@ handoffモードの `checker_passes` は、反意語軸を盲検採取してか�
 2. `--ingest-review checker_passes` は段階を完了させず、段階1を `check_passes/checker_passes.stage1.json` に保存し、次のhandoff `handoff/checker_passes.stage2.request.md` を返す。
 3. 第2応答は `antonym_axis_adjudication_record_v1` 1個を別セッションで作り `checker_passes.stage2.response.json` へ保存する。もう一度取り込むと段階が完了する。
 
-取り込みが `checker stage 1 is already ingested` で失敗したら、未作成なのは第2応答であり、作り直すのはhandoffではない。取り込み失敗はguardが記録し、同じ段が3回失敗するとrunは `budget_exhausted` になる。
+`handoff response is missing: …stage2.response.json` は第2応答が未作成という意味で、handoffの作り直しではない。取り込み失敗はguardが記録し、同じ段が3回失敗するとrunは `budget_exhausted` になる。
 
 ## ファイル命名
 

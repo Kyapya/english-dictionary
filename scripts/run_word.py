@@ -746,13 +746,6 @@ def ingest_handoff_review(
         else cycle_dir / "handoff" / f"{stage}.response.json"
     )
     if not response_path.is_file():
-        if checker_stage2:
-            stage2_handoff = cycle_dir / "handoff" / "checker_passes.stage2.request.md"
-            raise ValueError(
-                "checker stage 1 is already ingested; the second independent "
-                f"response is missing: {response_path}. Answer {stage2_handoff} "
-                "in a separate session instead of re-preparing stage 1"
-            )
         raise ValueError(f"handoff response is missing: {response_path}")
     value = json.loads(response_path.read_text(encoding="utf-8"))
     if not isinstance(value, dict):

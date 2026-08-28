@@ -226,15 +226,6 @@ class RunWordTests(unittest.TestCase):
             self.assertEqual(
                 stage2_handoff.name, "checker_passes.stage2.request.md"
             )
-            with self.assertRaisesRegex(
-                ValueError, "stage 1 is already ingested"
-            ):
-                run_word.ingest_handoff_review(
-                    manifest,
-                    stage="checker_passes",
-                    declared_model="independent-reviewer",
-                    repo_root=root,
-                )
             stage2_request = json.loads(
                 (
                     check_dir
