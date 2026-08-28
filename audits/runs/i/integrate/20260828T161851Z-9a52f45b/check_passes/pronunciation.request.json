@@ -1,0 +1,55 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "526d185ba181054d395b3eb0e2004793ead680298ef2873ad8341b7f6fe62265",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /ˈɪntəˌɡreɪt/｜英: /ˈɪntɪɡreɪt/。3音節の in-te-grate で、第1音節 /ˈɪn/ に主強勢がある。  "
+      },
+      {
+        "line": 16,
+        "text": "米英の記号の差は2か所である。第1に第2音節の母音で、米は /ə/、英は /ɪ/ と表記する。第2に第3音節で、米の記号には第二強勢 /ˌ/ があり、英の記号にはこれがない。第2音節の母音は米英どちらも弱化した短い母音で、辞書によって英音を /ə/ と表記することもある。  "
+      },
+      {
+        "line": 17,
+        "text": "過去形・過去分詞 integrated は米 /ˈɪntəˌɡreɪtɪd/｜英 /ˈɪntɪɡreɪtɪd/ で、第3音節末の /t/ の後ろに /ɪd/ が加わって4音節になる。米音ではこの /t/ が母音にはさまれてフラッピングを受け、日本語のラ行に近い音で響くことがある。  "
+      },
+      {
+        "line": 18,
+        "text": "名詞 integration は米 /ˌɪntəˈɡreɪʃn/｜英 /ˌɪntɪˈɡreɪʃn/ で、主強勢が第3音節へ移り、第1音節が第二強勢になる。動詞との強勢位置の違いに注意する。  "
+      },
+      {
+        "line": 19,
+        "text": "同じ綴りで「一体化した」を表す古風でまれな形容詞 integrate があり、米 /ˈɪntəɡrət/｜英 /ˈɪntɪɡrət/ と発音する。動詞との差は2か所で、第3音節の母音が /eɪ/ ではなく弱い /ə/ になることと、米の記号にあった第3音節の第二強勢 /ˌ/ がなくなることである。第2音節の米英差は動詞と同じである。現代の一般英語では、この意味には integrated を使う。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
