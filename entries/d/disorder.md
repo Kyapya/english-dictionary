@@ -35,6 +35,7 @@ disorder の共通核は、物事・集団・心身の働きが、期待され�
 ・心身の働きが正常な状態から外れた状態 → 「（心身の）疾患、機能障害」（語義3）  
 ・物の配置やまとまりを整然とした状態から外す行為 → 「～を乱雑にする、～の秩序を乱す」（語義4）  
 ・心身の正常な働きを通常の状態から外す行為 → 「～の正常な機能を乱す、～を不調にする」（語義5）  
+・物・考え・機能が整った状態を失っている結果状態 → 「乱れた、まとまりのない」（語義6）  
 語義2は単なる意見の対立や一時的な騒音ではなく、公共の平穏・秩序を損なう騒乱に焦点がある。語義3の「疾患」は、語義1の物理的な乱雑さを比喩的に述べるものではなく、医学的な「正常な機能からのずれ」を表す。  
 
 ＃意味・用法・関連表現
@@ -49,11 +50,11 @@ disorder の共通核は、物事・集団・心身の働きが、期待され�
 
 【レジスター/領域】一般・やや硬い表現。部屋、書類、財務、組織、計画、経済など、物理・抽象の両方に使う。会話では mess の方がくだけている場合が多い。  
 
-【文法パターン】be/in a state of disorder＝無秩序な状態にある／throw・put 〈物・計画・組織〉 into disorder＝～を混乱状態に陥れる／fall・descend into disorder＝無秩序に陥る／leave 〈物・場所〉 in disorder＝～を乱雑なままにしておく／make order out of disorder＝無秩序な状態から秩序を作る  
+【文法パターン】be in a state of disorder＝無秩序な状態にある／throw・put 〈物・計画・組織〉 into disorder＝～を混乱状態に陥れる／fall・descend into disorder＝無秩序に陥る／leave 〈物・場所〉 in disorder＝～を乱雑なままにしておく／make order out of disorder＝無秩序な状態から秩序を作る  
 
 【コロケーション】
 
-・be/in disorder  
+・be in disorder  
 用途: 部屋・書類・業務などが整理されていない状態にあることを表す。in disorder は状態を示す定着した前置詞句。  
 例: The files were in disorder after the office moved to a new building.  
 訳: その事務所が新しい建物へ移転した後、書類は乱雑な状態になっていた。  
@@ -420,7 +421,7 @@ disorder の共通核は、物事・集団・心身の働きが、期待され�
 
 【コロケーション】
 
-・disorder the normal functioning of 〈an organ/system〉  
+・disorder the normal functioning of 〈an organ/a system〉  
 用途: 器官や系統の正常な働きを乱すことを、硬い医学的表現で述べる。現代文では disrupt the normal functioning of の方が普通。  
 例: Certain toxins can disorder the normal functioning of the nervous system.  
 訳: 特定の毒素は神経系の正常な機能を乱すことがある。  
@@ -471,3 +472,83 @@ disorder の共通核は、物事・集団・心身の働きが、期待され�
 違い: upset は日常的で、胃腸・体調・計画など幅広く使えるが、医学的な診断語としての精密さは disorder より低い。  
 例: Eating too quickly upset his stomach.  
 訳: 早食いで彼は胃の調子を崩した。  
+
+6. 【形容詞】乱れた、整理されていない、正常な機能を失った
+
+【日本語訳・定義】物の配置や情報のまとまりが崩れている、または考え・心身の働きが整った通常の状態から外れている。disordered は disorder の過去分詞から発達した形容詞で、物理的な乱れにも、思考や機能の乱れにも使う。医学的な診断名を示すとは限らず、文脈によって単に「整理されていない」「まとまりがない」という意味になる。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】一般・説明的表現。disordered thinking など心理・医療の文脈にも現れるが、診断名を断定する場合は個別の disorder 名を使う。  
+
+【文法パターン】be・become disordered＝乱れた状態にある・なる／disordered 〈物・情報〉＝乱れた～／disordered thinking＝まとまりのない思考／disordered 〈機能・過程〉＝正常でない～  
+
+【コロケーション】
+
+・become disordered  
+用途: 物・情報・考えなどが、整った状態から乱れた状態へ変化することを表す。  
+例: The records became disordered after several files were merged.  
+訳: 複数のファイルを統合した後、記録は乱れた状態になった。  
+
+・disordered information  
+用途: 情報が整理・分類されておらず、理解や利用が難しい状態を表す。  
+例: The analyst had to organize the disordered information before writing the report.  
+訳: その分析担当者は、報告書を書く前に整理されていない情報をまとめなければならなかった。  
+
+・disordered thinking  
+用途: 考えのつながりや構成がまとまっていない状態を、心理・医療の文脈で表す。  
+例: The clinician noted disordered thinking but made no diagnosis from that observation alone.  
+訳: 臨床家はまとまりのない思考に気づいたが、その観察だけで診断はしなかった。  
+
+・disordered function  
+用途: 身体や制度などの機能が正常な働きから外れている状態を、説明的に表す。  
+例: The study examined how disordered function affected the response to treatment.  
+訳: その研究は、機能の乱れが治療への反応にどう影響したかを調べた。  
+
+【語法・注意】disordered は状態や性質を表す形容詞で、名詞の disorder「疾患」と同じではない。disordered eating は広い食行動の乱れを指し、eating disorder は医学的な疾患名・診断カテゴリーを指しうる。単に部屋や記録が乱れている場合にも使えるため、医療的意味を文脈なしに推定しない。  
+
+【類義語】
+
+・disorganized  
+定義: 物・情報・活動の構成や手順が整理されていない。  
+頻度: 〈8/10〉  
+違い: disorganized は整理・運営の不足に焦点があり、disordered は思考や機能の乱れにも広がる。  
+例: The disorganized notes made the proposal difficult to follow.  
+訳: 整理されていないメモのため、その提案は理解しにくかった。  
+
+・untidy  
+定義: 物や場所がきちんと整頓されておらず、散らかっている。  
+頻度: 〈7/10〉  
+違い: untidy は主に見た目や物理的な整頓に使い、disordered の心理・機能の意味は持たない。  
+例: His desk was untidy but the documents were easy to find.  
+訳: 彼の机は散らかっていたが、書類は簡単に見つかった。  
+
+・deranged  
+定義: 思考や精神状態がひどく乱れている。  
+頻度: 〈4/10〉  
+違い: deranged は主に精神状態について使い、強い評価や古風・非臨床的な響きを帯びることがある。  
+例: The report avoided calling the witness deranged without clinical evidence.  
+訳: その報告書は、臨床的な証拠なしに証人を精神錯乱状態だとは呼ばなかった。  
+
+・abnormal  
+定義: 通常の範囲・基準・機能から外れている。  
+頻度: 〈8/10〉  
+違い: abnormal は正常からの逸脱を広く述べるが、disordered は配置・まとまり・機能の乱れをより具体的に示す。  
+例: The test showed abnormal but not necessarily disordered activity.  
+訳: 検査は異常な活動を示したが、必ずしも機能が乱れているとは限らなかった。  
+
+【反意語】
+
+・ordered  
+定義: 物・情報・考えなどが整った順序や構成になっている。  
+頻度: 〈7/10〉  
+違い: ordered は配置や構成が整っている結果状態を直接示し、disordered の最も近い反対語の一つ。  
+例: The ordered data made the pattern easy to detect.  
+訳: 整理されたデータのおかげで、そのパターンは見つけやすかった。  
+
+・organized  
+定義: 物事が体系的に整えられ、扱いやすい状態になっている。  
+頻度: 〈9/10〉  
+違い: organized は情報・活動・業務の構造化に焦点があり、disordered の乱れた状態に対する実用的な反対語。  
+例: The organized archive allowed the team to retrieve records quickly.  
+訳: 整理された書庫のおかげで、チームは記録をすぐに取り出せた。  
