@@ -1,0 +1,226 @@
+{
+  "summary": "integrate の記事を前提なしで通読し、内容上の問題候補を9件検出した（medium 4件、low 5件）。主なものは、(1)「× integrate in とは言わない」という断定が同記事内の辞書例および実際の用例と矛盾すること、(2) 文法的に正しい文（× The app integrates the calendar. など）に非文と同じ × 記号を付けて誤読させること、(3) 語義2の叙述用法に程度副詞が必要であるかのような記述が記事自身の例と食い違うこと、(4) 出身国による分離の扱いが語義4と語義6にまたがり境界基準が示されていないこと。ほかに語源の連続性の過大主張、integrator の記述の偏り、積分の前置詞説明の不正確さ、類義語 blend の使用域の過度な限定、自他による語義分割基準の不統一を指摘した。",
+  "findings": [
+    {
+      "id": "F01",
+      "location": {
+        "section": "意味・用法・関連表現 語義5 【語法・注意】",
+        "exact_quote": "× integrate to や × integrate in とは言わない",
+        "location_hint": "語義5（自動詞・人が溶け込む）の【語法・注意】2文目"
+      },
+      "severity": "medium",
+      "description": "自動詞 integrate の前置詞について in を非文として排除する断定が、同じ記事の語義4の記述および実際の用例と矛盾する。",
+      "reason": "語義5の【語法・注意】は「× integrate to や × integrate in とは言わない」と断定するが、同じ記事の語義4の【語法・注意】自身が「Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る」と述べており、内部で矛盾している。実際にも in は稀ではなく、社会政策や教育の文章では immigrants who integrate in the local labour market、children who integrate well in mainstream classes のように自動詞でも in が現れる。前置詞選択は into が中心という傾向の問題であって、in を非文扱いすると学習者は in を含む正しい実例に出会ったときに判断を誤る。",
+      "suggested_direction": "into が中心であるという頻度の記述に改め、in は場所・場面を表す文脈で実際に使われること（および受動態 be integrated in の辞書例）を注記して、語義4の記述と整合させる。",
+      "scope_anchors": [
+        {
+          "id": "F01-a1",
+          "exact_quote": "× integrate to や × integrate in とは言わない",
+          "location_hint": "語義5【語法・注意】の前置詞に関する断定"
+        },
+        {
+          "id": "F01-a2",
+          "exact_quote": "Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る",
+          "location_hint": "語義4【語法・注意】の後半、辞書例の引用箇所"
+        },
+        {
+          "id": "F01-a3",
+          "exact_quote": "× He integrated in the team. とは言わない",
+          "location_hint": "語義4【語法・注意】前半、最小対立の説明部分"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "location": {
+        "section": "意味・用法・関連表現 語義3 【語法・注意】",
+        "exact_quote": "× The app integrates the calendar.",
+        "location_hint": "語義3（自動詞・システムが連携する）の【語法・注意】冒頭"
+      },
+      "severity": "medium",
+      "description": "英語として完全に適格な文に、非文を示す × 記号を付けている。記号の意味が「非文法」と「その語義では読めない」で混用されている。",
+      "reason": "語義3は「× The app integrates the calendar.」と表記するが、この文は英語として完全に適格であり、語義1（カレンダーを組み込む）として自然に成立する。記事は同じ × を「× integrate to」のような本当の非文にも使っているため、記号が「文法的に誤り」を指すのか「その語義では読めない」を指すのか区別できない。語義5の「× She integrated the team.」も語義1・語義6では正しい文であり、学習者はこの構文自体が誤りだと一般化しかねない。",
+      "suggested_direction": "非文には × を残し、語義の取り違えを示す例には「この形は語義1として読まれる」など別の注記に変えて、記号の用法を統一する。",
+      "scope_anchors": [
+        {
+          "id": "F02-a1",
+          "exact_quote": "× The app integrates the calendar.",
+          "location_hint": "語義3【語法・注意】1〜2文目"
+        },
+        {
+          "id": "F02-a2",
+          "exact_quote": "× She integrated the team.",
+          "location_hint": "語義5【語法・注意】1〜2文目"
+        }
+      ]
+    },
+    {
+      "id": "F03",
+      "location": {
+        "section": "意味・用法・関連表現 語義2 【語法・注意】",
+        "exact_quote": "叙述用法では fully、closely、tightly などの副詞を伴うのが普通である",
+        "location_hint": "語義2（分詞形容詞）の【語法・注意】冒頭"
+      },
+      "severity": "medium",
+      "description": "叙述用法に程度副詞がほぼ必須であるかのような記述だが、無修飾の叙述用法は普通であり、記事自身の例と食い違う。",
+      "reason": "語義2は「叙述用法では fully、closely、tightly などの副詞を伴うのが普通である」とするが、副詞のない裸の叙述用法はごく一般的で、記事自身が数行後に「The systems are integrated.（統合されている、語義2）」を語義2の例として挙げている。Are the two systems integrated? / The billing module is not integrated yet. のような無修飾の疑問文・否定文も標準的であり、程度副詞が伴うのが普通だと書くと、学習者は無修飾の叙述用法を避けるべき形だと誤解する。",
+      "suggested_direction": "「程度を明示するときは fully / closely / tightly などを添える」という趣旨に書き換え、無修飾の叙述用法も標準であることを明記する。",
+      "scope_anchors": [
+        {
+          "id": "F03-a1",
+          "exact_quote": "叙述用法では fully、closely、tightly などの副詞を伴うのが普通である",
+          "location_hint": "語義2【語法・注意】1文目"
+        },
+        {
+          "id": "F03-a2",
+          "exact_quote": "The systems are integrated.（統合されている、語義2）",
+          "location_hint": "語義2【語法・注意】中ほど、受動態との対比の箇所"
+        },
+        {
+          "id": "F03-a3",
+          "exact_quote": "The system is very integrated. も皆無ではないが、程度を示す標準的な言い方としては選ばれにくい",
+          "location_hint": "語義2【語法・注意】2文目"
+        }
+      ]
+    },
+    {
+      "id": "F04",
+      "location": {
+        "section": "意味・用法・関連表現 語義6 【日本語訳・定義】",
+        "exact_quote": "人種を主とし、性別や出身国などを理由に人を分けていた制度をやめ",
+        "location_hint": "語義6（人種統合する）の定義1文目"
+      },
+      "severity": "medium",
+      "description": "出身国を理由とする分離の撤廃が語義6に含められる一方、移民の受け入れは語義4の中心コロケーションになっており、語義境界が重複したまま基準が示されていない。",
+      "reason": "語義6の定義は「人種を主とし、性別や出身国などを理由に人を分けていた制度をやめ」と、出身国による分離の撤廃まで語義6の守備範囲に入れている。ところが語義4は中心コロケーションとして「integrate 〈immigrants〉 into 〈society〉」を挙げ、出身国の異なる人々を社会の構成員にすることを語義4に置いている。同一の事象が2語義にまたがるのに、どちらを選ぶかの基準（制度上の分離撤廃か、個人・集団の受け入れか）が明示されていないため、学習者は移民統合の記述をどの語義で理解すべきか決められず、また語義6を米国の人種文脈に限定する後述（この語義は主に米国の用法である）とも整合しない。",
+      "suggested_direction": "語義6の定義を、米国を中心とする制度的な人種隔離撤廃（性別・宗派などの類推適用は付随的）に絞り、出身国による受け入れは語義4に属することを両語義の注記で相互参照する。",
+      "scope_anchors": [
+        {
+          "id": "F04-a1",
+          "exact_quote": "人種を主とし、性別や出身国などを理由に人を分けていた制度をやめ",
+          "location_hint": "語義6【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "F04-a2",
+          "exact_quote": "integrate 〈immigrants〉 into 〈society〉",
+          "location_hint": "語義4【コロケーション】1件目の見出し"
+        },
+        {
+          "id": "F04-a3",
+          "exact_quote": "これまで別扱いされてきた集団を、既存の共同体、組織、学級の対等な構成員として受け入れ",
+          "location_hint": "語義4【日本語訳・定義】1文目"
+        }
+      ]
+    },
+    {
+      "id": "F05",
+      "location": {
+        "section": "語源",
+        "exact_quote": "この「全体・完全」という語源上の意味核をそのまま保っている",
+        "location_hint": "語源節の第1段落末尾"
+      },
+      "severity": "low",
+      "description": "語源から現代義への連続性を過大に述べており、単一物の無傷性から複数物の結合へという意味変化が見えなくなっている。",
+      "reason": "語源節は「この「全体・完全」という語源上の意味核をそのまま保っている」と述べるが、ラテン語 integer は「手を触れられていない一つのものが損なわれていない」であり、integrare も同記事が訳すとおり「元どおりの全体にする、修復する」で、いずれも単一物の無傷性・回復を指す。現代の中心義「別々に存在するものを一つにまとめる」は、複数の要素の結合へと視点が移った変化の結果であり、「そのまま保っている」は連続性を言い過ぎている。この書き方だと、integrity（誠実さ、完全性）などの派生語が現代 integrate と同じ発想で理解できると誤解されやすい。",
+      "suggested_direction": "「無傷の全体」という核が「複数の部分を欠けのない全体にする」へ発展した、という変化を含む記述に改める。",
+      "scope_anchors": [
+        {
+          "id": "F05-a1",
+          "exact_quote": "この「全体・完全」という語源上の意味核をそのまま保っている",
+          "location_hint": "語源節 第1段落最終文"
+        },
+        {
+          "id": "F05-a2",
+          "exact_quote": "integrare「元どおりの全体にする、修復する」",
+          "location_hint": "語源節 第1段落中ほど、動詞の由来説明"
+        }
+      ]
+    },
+    {
+      "id": "F06",
+      "location": {
+        "section": "語形成",
+        "exact_quote": "辞書は特に、数学の積分に相当する加算を行う装置・計算機部品を挙げる",
+        "location_hint": "語形成節 integrator の項"
+      },
+      "severity": "low",
+      "description": "派生語 integrator の説明が積分器に偏り、現代で最も頻度の高い systems integrator の用法が欠けている。",
+      "reason": "語形成節の integrator は「辞書は特に、数学の積分に相当する加算を行う装置・計算機部品を挙げる」とだけ述べるが、現代英語で圧倒的に多いのは a systems integrator や an IT integrator のように、複数の機器・ソフト・業務を組み合わせて納入する企業や技術者を指す用法である。記事の中心語義である語義1（統合する、組み込む）に対応する派生語としてはこちらの学習価値が高く、現状の記述は integrator＝積分器という偏った一般化を招く。",
+      "suggested_direction": "「統合を担う企業・担当者（systems integrator）」を主用法として先に示し、積分器の語義は専門的な副次用法として添える。",
+      "scope_anchors": [
+        {
+          "id": "F06-a1",
+          "exact_quote": "辞書は特に、数学の積分に相当する加算を行う装置・計算機部品を挙げる",
+          "location_hint": "語形成節、integrator の箇条書き"
+        }
+      ]
+    },
+    {
+      "id": "F07",
+      "location": {
+        "section": "意味・用法・関連表現 語義8 【日本語訳・定義】",
+        "exact_quote": "範囲は from … to … や over で示す",
+        "location_hint": "語義8（積分する）の定義末尾"
+      },
+      "severity": "low",
+      "description": "積分の前置詞の役割分担が不正確で、over を範囲専用のように説明しているが、実際には積分変数も導く。",
+      "reason": "語義8の定義は「範囲は from … to … や over で示す」として over を範囲専用の前置詞のように扱うが、同じ語義のコロケーションに挙がる「integrate 〈the velocity〉 over 〈time〉」の time は範囲ではなく積分変数そのものである。integrate over x、integrate over the volume のように over は変数・積分領域を導くのが通例で、with respect to＝変数／over＝範囲という二分は実態と合わず、学習者は over the interval と over time の違いを説明できなくなる。",
+      "suggested_direction": "with respect to は変数を明示する定型、over は変数・領域・区間のいずれも導けること、from … to … は上下限を示すこと、と役割を整理し直す。",
+      "scope_anchors": [
+        {
+          "id": "F07-a1",
+          "exact_quote": "範囲は from … to … や over で示す",
+          "location_hint": "語義8【日本語訳・定義】最終文"
+        },
+        {
+          "id": "F07-a2",
+          "exact_quote": "integrate 〈the velocity〉 over 〈time〉",
+          "location_hint": "語義8【コロケーション】4件目の見出し"
+        }
+      ]
+    },
+    {
+      "id": "F08",
+      "location": {
+        "section": "意味・用法・関連表現 語義1 【類義語】blend",
+        "exact_quote": "制度やシステムの連携には使わない",
+        "location_hint": "語義1の類義語 blend の「違い」末尾"
+      },
+      "severity": "low",
+      "description": "blend の使用域を味・色・音・様式に限定する断定に反例がある。",
+      "reason": "語義1の類義語 blend について「制度やシステムの連携には使わない」と断定しているが、blended learning（対面と遠隔を組み合わせた教育方式）、blended finance（公的資金と民間資金を組み合わせた資金調達の仕組み）、blended workforce のように、方式・制度・組織的枠組みを指す定着表現が現に存在する。感覚的な調和が中心という傾向の指摘は妥当だが、制度・仕組みには使わないという言い切りは反例で崩れる。",
+      "suggested_direction": "「感覚的な調和や混ざり合いが中心で、機器やシステムの技術的連携には通常使わない」と範囲を限定し、blended learning のような複合語は例外として触れる。",
+      "scope_anchors": [
+        {
+          "id": "F08-a1",
+          "exact_quote": "制度やシステムの連携には使わない",
+          "location_hint": "語義1【類義語】blend の違いの説明"
+        }
+      ]
+    },
+    {
+      "id": "F09",
+      "location": {
+        "section": "意味・用法・関連表現 語義6 見出し",
+        "exact_quote": "6. 【他動詞・自動詞・主に米国・社会】人種統合する、人種隔離を撤廃する",
+        "location_hint": "語義6の番号付き見出し行"
+      },
+      "severity": "low",
+      "description": "自動詞・他動詞で語義を分ける基準が語義ごとに変わっており、分割の一貫性がない。",
+      "reason": "語義の立て方が不統一である。「3. 【自動詞】（システム・要素が）統合される、連携する」のように語義1と語義3、語義4と語義5では自他で別語義に分けているのに、「6. 【他動詞・自動詞・主に米国・社会】人種統合する、人種隔離を撤廃する」では他動詞用法と自動詞用法（The university integrated in 1962.）を1語義にまとめている。同じ辞書内で分割基準が入れ替わると、学習者は自他の別が語義の別に対応するのかどうかを一般化できず、語義6の自動詞用法が語義3や語義5とどう関係するのかも見えにくい。",
+      "suggested_direction": "自他を分ける方針か、意味領域で分けて自他を1語義内で扱う方針かを全語義で統一するか、語義6の見出しに「語義1・3、4・5とは異なり自他をまとめて扱う」旨の注記を入れる。",
+      "scope_anchors": [
+        {
+          "id": "F09-a1",
+          "exact_quote": "6. 【他動詞・自動詞・主に米国・社会】人種統合する、人種隔離を撤廃する",
+          "location_hint": "語義6の見出し行"
+        },
+        {
+          "id": "F09-a2",
+          "exact_quote": "3. 【自動詞】（システム・要素が）統合される、連携する",
+          "location_hint": "語義3の見出し行"
+        }
+      ]
+    }
+  ]
+}

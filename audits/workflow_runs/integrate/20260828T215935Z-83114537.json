@@ -18,12 +18,12 @@
     "research_queries": 12,
     "candidate_pages": 16
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "normal_review_complete",
   "started_at": "2026-08-28T21:59:35Z",
   "deadline_at": "2026-08-28T23:29:35Z",
   "pre_draft_deadline_at": "2026-08-28T22:29:35Z",
-  "last_heartbeat_at": "2026-08-28T22:26:42Z",
+  "last_heartbeat_at": "2026-08-28T22:35:10Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T21:59:38Z",
@@ -56,8 +56,10 @@
       "notes": "orchestrator completed checker_passes"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "the context-free cold review returned nine findings (four medium, five low) that required body revision, so the cycle restarts on the corrected body",
+  "open_questions": [
+    "re-run every review stage against the body revised for the cold review findings"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",
