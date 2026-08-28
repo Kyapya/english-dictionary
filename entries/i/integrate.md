@@ -16,7 +16,7 @@ tags: []
 米英の記号の差は2か所である。第1に第2音節の母音で、米は /ə/、英は /ɪ/ と表記する。第2に第3音節で、米の記号には第二強勢 /ˌ/ があり、英の記号にはこれがない。第2音節の母音は米英どちらも弱化した短い母音で、辞書によって英音を /ə/ と表記することもある。  
 過去形・過去分詞 integrated は米 /ˈɪntəˌɡreɪtɪd/｜英 /ˈɪntɪɡreɪtɪd/ で、第3音節末の /t/ の後ろに /ɪd/ が加わって4音節になる。米音ではこの /t/ が母音にはさまれてフラッピングを受け、日本語のラ行に近い音で響くことがある。  
 名詞 integration は米 /ˌɪntəˈɡreɪʃn/｜英 /ˌɪntɪˈɡreɪʃn/ で、主強勢が第3音節へ移り、第1音節が第二強勢になる。動詞との強勢位置の違いに注意する。  
-同じ綴りで「一体化した」を表す古風でまれな形容詞 integrate があり、これは米・英 /ˈɪntɪɡrət/ と発音して、動詞の語尾 /-ɡreɪt/ とは第3音節の母音が異なる。現代の一般英語では、この意味には integrated を使う。  
+同じ綴りで「一体化した」を表す古風でまれな形容詞 integrate があり、米 /ˈɪntəɡrət/｜英 /ˈɪntɪɡrət/ と発音する。動詞との差は2か所で、第3音節の母音が /eɪ/ ではなく弱い /ə/ になることと、米の記号にあった第3音節の第二強勢 /ˌ/ がなくなることである。第2音節の米英差は動詞と同じである。現代の一般英語では、この意味には integrated を使う。  
 
 ＃語源
 
@@ -41,7 +41,7 @@ tags: []
 ・別々の要素が一つの全体へまとまる変化 → 「統合される、連携する」（語義3）  
 ・別々の人を集団という全体へ加える働き → 「溶け込ませる、一員にする」（語義4）  
 ・別々の人が集団という全体へ加わる変化 → 「溶け込む、一員になる」（語義5）  
-・隔てられた人種集団を一つの全体へ戻す働き → 「人種統合する、人種隔離を撤廃する」（語義6）  
+・隔てられた人種集団を一つの全体へまとめる働き → 「人種統合する、人種隔離を撤廃する」（語義6）  
 ・隔てられた人種集団が一つの全体になった状態 → 「人種統合された」（語義7）  
 ・微小な部分を足し合わせて全体量を出す働き → 「積分する」（語義8）  
 
@@ -200,7 +200,7 @@ tags: []
 例: The city promised an integrated transport network with a single ticket for buses and trams.  
 訳: 市はバスと路面電車を一枚の切符で使える統合交通網を約束した。  
 
-【語法・注意】限定用法と叙述用法の両方で使えるが、叙述用法では fully、closely、tightly などの副詞を伴うのが普通で、× The system is very integrated. とは言わない。動詞の受動態 The systems were integrated last year.（昨年統合された、語義1の行為）と、状態を述べる The systems are integrated.（統合されている、語義2）は形が近いので、時制と副詞で区別する。an integrated curriculum（教科どうしを結び付けた教育課程、語義2）と an integrated school（人種統合された学校、語義7）は同じ形でも中心意味が異なり、修飾される名詞と文脈で判断する。  
+【語法・注意】限定用法と叙述用法の両方で使えるが、叙述用法では fully、closely、tightly などの副詞を伴うのが普通である。The system is very integrated. も皆無ではないが、程度を示す標準的な言い方としては選ばれにくい。動詞の受動態 The systems were integrated last year.（昨年統合された、語義1の行為）と、状態を述べる The systems are integrated.（統合されている、語義2）は形が近いので、時制と副詞で区別する。an integrated curriculum（教科どうしを結び付けた教育課程、語義2）と an integrated school（人種統合された学校、語義7）は同じ形でも中心意味が異なり、修飾される名詞と文脈で判断する。  
 
 【類義語】
 
@@ -380,7 +380,7 @@ tags: []
 例: Older workers are not always well integrated into the digital workforce.  
 訳: 高齢の労働者が、デジタル化した職場にいつもうまく受け入れられているとは限らない。  
 
-【語法・注意】受け入れる側が主語、加わる側が目的語になる。加わる側を主語にして「溶け込む」と言うときは目的語を取らない語義5を使う。○ The manager integrated him into the team.（語義4）と ○ He integrated into the team.（語義5）は主語と目的語の役割が入れ替わる最小対立で、× He integrated in the team. とは言わない。integrate oneself into は自動詞の integrate into よりやや硬く、本人の意識的な努力を含意する。assimilate との違いにも注意する。assimilate は加わる側が元の文化的特徴を失うことを含意しやすく、社会政策の議論では integrate と対比して使われる。  
+【語法・注意】受け入れる側が主語、加わる側が目的語になる。加わる側を主語にして「溶け込む」と言うときは目的語を取らない語義5を使う。○ The manager integrated him into the team.（語義4）と ○ He integrated into the team.（語義5）は主語と目的語の役割が入れ替わる最小対立で、× He integrated in the team. とは言わない。integrate oneself into は自動詞の integrate into よりやや硬く、本人の意識的な努力を含意する。受動態は be integrated into が中心だが、Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る。assimilate との違いにも注意する。assimilate は加わる側が元の文化的特徴を失うことを含意しやすく、社会政策の議論では integrate と対比して使われる。  
 
 【類義語】
 
@@ -479,7 +479,7 @@ tags: []
 例: The report warned that some young arrivals fail to integrate socially.  
 訳: その報告書は、若い入国者の一部が社会的に溶け込めていないと警告した。  
 
-【語法・注意】この語義では目的語を取らない。× She integrated the team. と書くと語義1の他動詞（チームを統合した）と読まれ、「チームに溶け込んだ」の意味にはならない。入っていく先は into が普通で、× integrate to や × integrate in とは言わない。ただし受動態では Disabled students are integrated in regular classrooms. のように in を使う例が辞書に載る。会話では fit in のほうがはるかに普通で、integrate は社会政策や職場の評価など、やや客観的に述べる文脈で使う。主語が装置や仕組みの場合は語義3になる。  
+【語法・注意】この語義では目的語を取らない。× She integrated the team. と書くと語義1の他動詞（チームを統合した）と読まれ、「チームに溶け込んだ」の意味にはならない。入っていく先は into が普通で、× integrate to や × integrate in とは言わない。会話では fit in のほうがはるかに普通で、integrate は社会政策や職場の評価など、やや客観的に述べる文脈で使う。主語が装置や仕組みの場合は語義3になる。  
 
 【類義語】
 
@@ -542,7 +542,7 @@ tags: []
 
 【レジスター/領域】主に米国。歴史、法律、社会学、報道の文脈で使う。日常会話で現在の話題として使うことは少ない。  
 
-【文法パターン】integrate 〈the public schools〉＝公立学校の人種隔離を撤廃する／〈the university〉 integrate in 〈1962〉＝大学が1962年に人種統合される／be integrated under 〈a court order〉＝裁判所の命令によって人種統合される  
+【文法パターン】integrate 〈the public schools〉＝公立学校の人種隔離を撤廃する／〈the university〉 integrate＝大学が人種統合される／be integrated under 〈a court order〉＝裁判所の命令によって人種統合される  
 
 【コロケーション】
 
@@ -553,25 +553,25 @@ tags: []
 
 ・integrate 〈the armed forces〉  
 用途: 軍隊の人種隔離撤廃について述べる、歴史的記述の定型。  
-例: An executive order in 1948 required the armed forces to be integrated.  
-訳: 1948年の大統領令は軍の人種隔離を撤廃することを求めた。  
+例: Truman's 1948 executive order committed the government to integrating the armed forces.  
+訳: トルーマンの1948年の大統領令は、軍の人種隔離を撤廃することを政府の方針として定めた。  
 
 ・racially integrate 〈the suburbs〉  
 用途: 居住地区の人種構成を統合することを表す。  
 例: Housing policies in the 1970s tried to racially integrate the suburbs.  
 訳: 1970年代の住宅政策は郊外の住宅地を人種的に統合しようとした。  
 
-・〈the university〉 integrated in 〈1962〉  
-用途: 施設や機関が人種統合された年を述べる自動詞用法。  
+・〈the university〉 integrated  
+用途: 施設や機関そのものを主語にして、人種統合されたことを述べる自動詞用法。  
 例: The university integrated in 1962 after a federal court ruling.  
 訳: その大学は連邦裁判所の判断を受けて1962年に人種統合された。  
 
 ・be integrated under 〈a desegregation order〉  
 用途: 受動態で、命令に基づいて人種統合が行われたことを述べる。  
 例: The district was integrated under a desegregation order that lasted thirty years.  
-訳: その学区は30年続いた人種差別撤廃命令のもとで人種統合された。  
+訳: その学区は30年続いた人種分離撤廃命令のもとで人種統合された。  
 
-【語法・注意】目的語は学校、軍、地区などの制度や組織であり、人ではない。× integrate the students はこの語義では不自然で、○ integrate the schools とする。人を目的語にすると語義4（一員として受け入れる）と読まれる。desegregate との違いも重要である。desegregate は法や規則による分離をやめさせる制度上の措置に焦点があり、integrate は分けられていた人々が実際に同じ場に属する状態になることまでを含意する。このため公民権運動の議論では The schools were desegregated but never integrated. のように対比して使われる。この語義は主に米国の用法で、英国英語では同じ話題でも一般義の語義4・語義5を使うことが多い。  
+【語法・注意】目的語は学校、軍、地区などの制度や組織であり、人ではない。× integrate the students はこの語義では不自然で、○ integrate the schools とする。人を目的語にすると語義4（一員として受け入れる）と読まれる。自動詞用法の The university integrated in 1962. の in は時を表す副詞句であり、語義5で避けるべきだとした × integrate in the team のような支配される前置詞ではない。desegregate との違いも重要である。desegregate は法や規則による分離をやめさせる制度上の措置に焦点があり、integrate は分けられていた人々が実際に同じ場に属する状態になることまでを含意する。このため公民権運動の議論では The schools were desegregated but never integrated. のように対比して使われる。この語義は主に米国の用法で、英国英語では同じ話題でも一般義の語義4・語義5を使うことが多い。  
 
 【類義語】
 
@@ -594,7 +594,7 @@ tags: []
 頻度: 〈6/10〉  
 違い: 利用資格を広げることが中心で、人種による分離の撤廃という限定はない。open A to B の形で使う。  
 例: The 1964 law opened public accommodations to all citizens regardless of race.  
-訳: 1964年の法律は公共施設を人種にかかわらずすべての市民に開放した。  
+訳: 1964年の法律は、ホテルや飲食店など一般公衆に開かれた事業所を、人種にかかわらずすべての市民に開放した。  
 
 【反意語】
 
