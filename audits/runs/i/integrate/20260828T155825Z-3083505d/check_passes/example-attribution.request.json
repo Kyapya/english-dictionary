@@ -1,0 +1,302 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "7c3a8c1f9923742c70bb6323a9e6c62bdea876315d3b5d1999beb6124d7a49e1",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 50,
+        "label": "1. 【他動詞】（要素・機能・組織などを）統合する、組み込む",
+        "definition": "別々に存在していた要素、機能、部門、制度などを組み合わせ、一つのまとまりとして働くようにする。同じ場所に集める、同じ一覧に載せるということではなく、組み合わせた後に全体として機能することまでを含意する。目的語は部品や路線のような具体物でも、方針、データ、部門のような抽象物でもよい。統合の結果として元の要素が識別できなくなることまでは必要としない。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 161,
+        "label": "2. 【分詞形容詞】統合された、一体型の",
+        "definition": "過去分詞 integrated が形容詞として定着した用法で、多くの部分や機能が結び付き、一つのまとまりとして働くようになっていることを表す。限定用法と叙述用法の両方で使い、程度は fully、highly、closely、tightly などの副詞で示す。an integrated circuit（集積回路）、an integrated approach（統合的な取り組み）のように、専門的な複合表現も作る。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 265,
+        "label": "3. 【自動詞】（システム・要素が）統合される、連携する",
+        "definition": "別々のシステム、機器、サービス、路線などが結び付いて、一つのまとまりとして働くようになる。主語は人ではなく、装置、ソフトウェア、制度などの物や仕組みである。目的語は取らず、結び付く相手は with、まとまって入る先は into で示す。ソフトウェアの説明では「他の製品と連携して動く」という意味の定型表現になっている。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 341,
+        "label": "4. 【他動詞】（人・集団を）溶け込ませる、一員にする",
+        "definition": "新しく加わった人や、これまで別扱いされてきた集団を、既存の共同体、組織、学級の対等な構成員として受け入れ、実際に活動へ加われるようにする。主語は受け入れる側の人、機関、制度で、目的語は加わる側の人や集団である。在籍させるだけでなく、周囲との関係が成り立つところまでを含意する。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 445,
+        "label": "5. 【自動詞】（人が）溶け込む、一員になる",
+        "definition": "新しく入った人が、集団や社会の一員として周囲と関係を築き、実際に活動へ加わるようになる。主語は加わる側の人や集団で、目的語は取らない。入っていく先は into、打ち解ける相手は with で示し、副詞を伴って程度や成否を述べることが多い。本人の側から見た変化を述べる点で、受け入れる側を主語にする語義4と役割が逆になる。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 537,
+        "label": "6. 【他動詞・自動詞・主に米国・社会】人種統合する、人種隔離を撤廃する",
+        "definition": "学校、軍、公共施設、居住地区などで、人種を理由に人を分けていた制度をやめ、すべての人種が同じ場所や組織に属せるようにする。またそうなる。米国で1950年代から1970年代の公民権運動と学校の人種統合をめぐって定着した用法で、現在も歴史的記述や社会・法律の議論で使う。目的語になるのは学校や軍などの制度・施設であり、統合される人ではない。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 615,
+        "label": "7. 【分詞形容詞・主に米国・社会】人種統合された",
+        "definition": "学校、地区、施設などが人種による分離をやめ、複数の人種の人が同じ場に属している状態であることを表す。語義6の動詞用法に対応する形容詞用法で、米国の公民権運動以後の社会、教育、歴史の記述に定着している。名詞の前に置く限定用法が中心で、修飾する対象は制度、施設、地域であり、人ではない。"
+      },
+      {
+        "sense_id": "sense:008",
+        "line": 688,
+        "label": "8. 【他動詞・数学】積分する",
+        "definition": "微積分で、関数や式の積分を求める。微分の逆の操作で、微小な部分を足し合わせて面積、体積、総量などの全体量を得ることに当たる。目的語には積分の対象となる関数や式が来て、積分する変数は with respect to、範囲は from … to … や over で示す。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-073d9725d4e9",
+        "example": "The new terminal is closely integrated with the rest of the airport's rail network.",
+        "translation": "新しいターミナルは空港の他の鉄道網と緊密につながっている。"
+      },
+      {
+        "example_id": "ex-f0705ef48c47",
+        "example": "Only a small share of the city's public schools are racially integrated today.",
+        "translation": "今日、その市の公立学校のうち人種統合されているのはごく一部にすぎない。"
+      },
+      {
+        "example_id": "ex-773769449b3b",
+        "example": "Children usually integrate more quickly than their parents.",
+        "translation": "子どもは普通、親よりも早く溶け込む。"
+      },
+      {
+        "example_id": "ex-a6ecb2d004ff",
+        "example": "She quickly integrated herself into the research group.",
+        "translation": "彼女はすぐに研究グループに入り込んでいった。"
+      },
+      {
+        "example_id": "ex-b96d934c6f8d",
+        "example": "The sit-ins of 1960 aimed to win integrated lunch counters across the South.",
+        "translation": "1960年の座り込みは、南部全域で人種を問わず利用できる軽食カウンターを実現することを目指していた。"
+      },
+      {
+        "example_id": "ex-aaf34df6661d",
+        "example": "The regional rail and bus networks will integrate into a single ticketing system next year.",
+        "translation": "地域の鉄道網とバス網は来年、一つの発券システムへまとまる。"
+      },
+      {
+        "example_id": "ex-f07f187cb0af",
+        "example": "Integrate the velocity over time to obtain the total displacement.",
+        "translation": "速度を時間で積分すれば全変位が得られる。"
+      },
+      {
+        "example_id": "ex-e319f49de1f8",
+        "example": "She has integrated well with her new colleagues.",
+        "translation": "彼女は新しい同僚たちとうまく打ち解けている。"
+      },
+      {
+        "example_id": "ex-ac36fffa804e",
+        "example": "Housing policies in the 1970s tried to racially integrate the suburbs.",
+        "translation": "1970年代の住宅政策は郊外の住宅地を人種的に統合しようとした。"
+      },
+      {
+        "example_id": "ex-e3bd358f2d1c",
+        "example": "The city promised an integrated transport network with a single ticket for buses and trams.",
+        "translation": "市はバスと路面電車を一枚の切符で使える統合交通網を約束した。"
+      },
+      {
+        "example_id": "ex-4a1784631c4a",
+        "example": "The new module does not integrate with the older version of the database.",
+        "translation": "新しいモジュールは旧版のデータベースとは連携しない。"
+      },
+      {
+        "example_id": "ex-3293b8eefab6",
+        "example": "The new sensors integrate seamlessly with the factory's existing control software.",
+        "translation": "新しいセンサーは工場の既存の制御ソフトと滑らかに連携する。"
+      },
+      {
+        "example_id": "ex-3cb155e62d6c",
+        "example": "A modern phone contains billions of transistors on a single integrated circuit.",
+        "translation": "現代の携帯電話は一つの集積回路の上に何十億個ものトランジスタを載せている。"
+      },
+      {
+        "example_id": "ex-083f464114e0",
+        "example": "The company integrated its logistics network with a regional courier service.",
+        "translation": "その会社は自社の物流網を地域の宅配業者と統合した。"
+      },
+      {
+        "example_id": "ex-f9f69838b00b",
+        "example": "Digital skills are now integrated into the primary school curriculum.",
+        "translation": "デジタル技能は今では小学校の教育課程に組み込まれている。"
+      },
+      {
+        "example_id": "ex-138071323651",
+        "example": "Older workers are not always well integrated into the digital workforce.",
+        "translation": "高齢の労働者が、デジタル化した職場にいつもうまく受け入れられているとは限らない。"
+      },
+      {
+        "example_id": "ex-b1992eaca616",
+        "example": "They deliberately chose an integrated neighborhood when they bought their house.",
+        "translation": "彼らは家を買うとき、意識して人種の混在する地区を選んだ。"
+      },
+      {
+        "example_id": "ex-52770513eaaf",
+        "example": "Many of the families integrated into the local community within a year.",
+        "translation": "その家族の多くは1年以内に地域社会に溶け込んだ。"
+      },
+      {
+        "example_id": "ex-061e620de3c4",
+        "example": "It took two years to fully integrate the two departments after the merger.",
+        "translation": "合併後、二つの部門を完全に統合するのに2年かかった。"
+      },
+      {
+        "example_id": "ex-e6acd44974b3",
+        "example": "A good mentor can integrate new employees into the team within weeks.",
+        "translation": "優れた指導役がいれば、新入社員を数週間でチームの一員にできる。"
+      },
+      {
+        "example_id": "ex-dc1d7009312f",
+        "example": "The program is designed to integrate recent immigrants into the local labor market.",
+        "translation": "その事業は、最近来た移民を地域の労働市場へ受け入れることを目的としている。"
+      },
+      {
+        "example_id": "ex-d718b4820d9b",
+        "example": "An executive order in 1948 required the armed forces to be integrated.",
+        "translation": "1948年の大統領令は軍の人種隔離を撤廃することを求めた。"
+      },
+      {
+        "example_id": "ex-ea687e1a2d0f",
+        "example": "The two databases are now fully integrated.",
+        "translation": "その二つのデータベースは今では完全に統合されている。"
+      },
+      {
+        "example_id": "ex-b478892039e7",
+        "example": "The dashboard integrates data from multiple sources into a single view.",
+        "translation": "そのダッシュボードは複数の出所のデータを一つの画面にまとめている。"
+      },
+      {
+        "example_id": "ex-5f93a277cd24",
+        "example": "The course integrates theory and practice through weekly fieldwork.",
+        "translation": "その講座は毎週の実地調査を通じて理論と実践を結び付けている。"
+      },
+      {
+        "example_id": "ex-e13b4c072aa0",
+        "example": "She was among the first students to attend an integrated school in the county.",
+        "translation": "彼女はその郡で人種統合された学校に通った最初の生徒の一人だった。"
+      },
+      {
+        "example_id": "ex-c6634efcb19b",
+        "example": "He found it hard to integrate after moving to a new city.",
+        "translation": "彼は新しい街に移ってから溶け込むのに苦労した。"
+      },
+      {
+        "example_id": "ex-044fe38e6d77",
+        "example": "The university integrated in 1962 after a federal court ruling.",
+        "translation": "その大学は連邦裁判所の判断を受けて1962年に人種統合された。"
+      },
+      {
+        "example_id": "ex-075190faf126",
+        "example": "The camera and the editing software integrate well, so files transfer without conversion.",
+        "translation": "そのカメラと編集ソフトはよく連携するので、ファイルは変換せずに移せる。"
+      },
+      {
+        "example_id": "ex-0268c104db11",
+        "example": "The district was integrated under a desegregation order that lasted thirty years.",
+        "translation": "その学区は30年続いた人種差別撤廃命令のもとで人種統合された。"
+      },
+      {
+        "example_id": "ex-b82a786ac2e6",
+        "example": "The software integrates the expression numerically when no closed form exists.",
+        "translation": "閉じた形の解が存在しない場合、そのソフトは式を数値的に積分する。"
+      },
+      {
+        "example_id": "ex-eca901567a01",
+        "example": "The report warned that some young arrivals fail to integrate socially.",
+        "translation": "その報告書は、若い入国者の一部が社会的に溶け込めていないと警告した。"
+      },
+      {
+        "example_id": "ex-b5715ae40a4d",
+        "example": "The group is a vertically integrated producer that grows, roasts, and sells its own coffee.",
+        "translation": "そのグループは、自社でコーヒーを栽培し焙煎し販売する垂直統合型の生産者である。"
+      },
+      {
+        "example_id": "ex-d3d06d7f4a65",
+        "example": "The scheduling app integrates with most email clients.",
+        "translation": "そのスケジュール管理アプリはほとんどのメールソフトと連携する。"
+      },
+      {
+        "example_id": "ex-4166047d56c1",
+        "example": "The district has integrated most children with disabilities into mainstream classrooms.",
+        "translation": "その学区は障害のある児童の大半を通常学級へ受け入れてきた。"
+      },
+      {
+        "example_id": "ex-d07299248f3c",
+        "example": "Integrate the expression with respect to x, treating y as a constant.",
+        "translation": "y を定数とみなして、その式を x について積分せよ。"
+      },
+      {
+        "example_id": "ex-bf7a3dd237f5",
+        "example": "It takes years to fully integrate refugees into a new community.",
+        "translation": "難民を新しい共同体に完全に受け入れるには何年もかかる。"
+      },
+      {
+        "example_id": "ex-5e5aa0a51afd",
+        "example": "To find the area under the curve, integrate the function between the two limits.",
+        "translation": "曲線の下の面積を求めるには、その関数を二つの積分限界の間で積分する。"
+      },
+      {
+        "example_id": "ex-e8a76b41e89b",
+        "example": "The team integrated two new payment methods into the existing checkout system.",
+        "translation": "チームは二つの新しい決済手段を既存の会計システムに組み込んだ。"
+      },
+      {
+        "example_id": "ex-c51f487d4216",
+        "example": "A federal court ordered the state to integrate its public schools.",
+        "translation": "連邦裁判所は州に対し、公立学校の人種隔離を撤廃するよう命じた。"
+      },
+      {
+        "example_id": "ex-21b73639f5cf",
+        "example": "You can integrate the product by parts to remove the logarithm.",
+        "translation": "その積は部分積分すれば対数を消すことができる。"
+      },
+      {
+        "example_id": "ex-e389240b009d",
+        "example": "The hospital has adopted an integrated approach to chronic pain.",
+        "translation": "その病院は慢性痛に対して統合的な取り組みを採用している。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
