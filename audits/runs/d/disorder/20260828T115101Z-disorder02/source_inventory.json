@@ -1,0 +1,621 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-disorder-20260828T115530Z",
+  "context_id": "source-disorder-context-20260828T115530Z",
+  "headword": "disorder",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "input_body_sha256": "06f63d39132dca6aa0929bb0b4a5a7c88e3a3377d1af8073e74902b0156e0a76",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "recorded_at": "2026-08-28T11:55:32Z",
+  "notes": "Inventory completed from four independent dictionary/pronunciation sources before article comparison.",
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004"
+  ],
+  "evidence_links": [
+    {
+      "id": "E-001",
+      "locator": "https://www.merriam-webster.com/dictionary/disorder",
+      "source_excerpt_or_summary": "Source evidence was used for the linked disorder claims, with rare or formal uses retained only when explicitly qualified.",
+      "source_fact_ids": [
+        "F-001",
+        "F-002",
+        "F-003",
+        "F-004"
+      ],
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "sense_boundary:002",
+        "definition:002",
+        "sense_boundary:003",
+        "definition:003"
+      ]
+    },
+    {
+      "id": "E-002",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/disorder",
+      "source_excerpt_or_summary": "Source evidence was used for the linked disorder claims, with rare or formal uses retained only when explicitly qualified.",
+      "source_fact_ids": [
+        "F-005",
+        "F-006",
+        "F-007",
+        "F-008"
+      ],
+      "article_target_ids": [
+        "sense_boundary:001",
+        "definition:001",
+        "sense_boundary:002",
+        "definition:002",
+        "sense_boundary:003",
+        "definition:003"
+      ]
+    },
+    {
+      "id": "E-003",
+      "locator": "https://www.collinsdictionary.com/dictionary/english/disorder",
+      "source_excerpt_or_summary": "Source evidence was used for the linked disorder claims, with rare or formal uses retained only when explicitly qualified.",
+      "source_fact_ids": [
+        "F-009",
+        "F-010",
+        "F-011",
+        "F-012",
+        "F-013",
+        "F-014"
+      ],
+      "article_target_ids": [
+        "grammar_pattern:017",
+        "grammar_pattern:021",
+        "word_formation:001",
+        "word_formation:002",
+        "etymology:001"
+      ]
+    },
+    {
+      "id": "E-004",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/disorder",
+      "source_excerpt_or_summary": "Source evidence was used for the linked disorder claims, with rare or formal uses retained only when explicitly qualified.",
+      "source_fact_ids": [
+        "F-015"
+      ],
+      "article_target_ids": [
+        "pronunciation:001"
+      ]
+    }
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "Standard bounded inventory for a common polysemous noun and rare transitive verb.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 4,
+      "facts_used": 15,
+      "research_rounds_used": 1,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-28T11:55:30Z",
+    "article_comparison_started_at": "2026-08-28T11:55:31Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-005",
+          "F-007",
+          "F-008",
+          "F-009"
+        ],
+        "notes": "The selected independent sources cover this axis for disorder; frequency labels remain editorial learning aids."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-006",
+          "F-010",
+          "F-011"
+        ],
+        "notes": "The selected independent sources cover this axis for disorder; frequency labels remain editorial learning aids."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-012",
+          "F-013",
+          "F-014"
+        ],
+        "notes": "The selected independent sources cover this axis for disorder; frequency labels remain editorial learning aids."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-007",
+          "F-008",
+          "F-009"
+        ],
+        "notes": "The selected independent sources cover this axis for disorder; frequency labels remain editorial learning aids."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-008",
+          "F-010",
+          "F-011"
+        ],
+        "notes": "The selected independent sources cover this axis for disorder; frequency labels remain editorial learning aids."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-012",
+          "F-015"
+        ],
+        "notes": "The selected independent sources cover this axis for disorder; frequency labels remain editorial learning aids."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Merriam-Webster Dictionary: disorder",
+        "locator": "https://www.merriam-webster.com/dictionary/disorder",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_merriam_webster",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "disorder",
+            "kind": "lexical_sense",
+            "statement": "means a lack of order or an untidy, confused state",
+            "source_detail": "Merriam-Webster defines the noun as a lack of order and Cambridge describes the state as untidy or unorganized."
+          },
+          {
+            "id": "F-002",
+            "form": "disorder",
+            "kind": "lexical_sense",
+            "statement": "can mean a breach of public peace or social order",
+            "source_detail": "Merriam-Webster records breach-of-peace and public-order uses, including public disorder."
+          },
+          {
+            "id": "F-003",
+            "form": "disorder",
+            "kind": "lexical_sense",
+            "statement": "can mean an abnormal physical or mental condition",
+            "source_detail": "Merriam-Webster records an abnormal physical or mental condition; this is the medical noun family."
+          },
+          {
+            "id": "F-004",
+            "form": "disorder",
+            "kind": "grammar",
+            "statement": "the verb can disturb order or normal functions transitively",
+            "source_detail": "Merriam-Webster lists the transitive verb senses of disturbing order and regular or normal functions."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner’s Dictionaries: disorder",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/disorder",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-005",
+            "form": "disorder",
+            "kind": "lexical_sense",
+            "statement": "has a formal noun sense meaning a lack of organization",
+            "source_detail": "Oxford Learner’s Dictionaries presents disorder as a formal state of being untidy or lacking organization."
+          },
+          {
+            "id": "F-006",
+            "form": "disorder",
+            "kind": "grammar",
+            "statement": "the medical noun occurs with have, suffer from, and be diagnosed with",
+            "source_detail": "Oxford Learner’s Dictionaries gives common medical frames around a disorder and disorders."
+          },
+          {
+            "id": "F-007",
+            "form": "disorder",
+            "kind": "lexical_sense",
+            "statement": "can refer to violent or unruly public group behavior",
+            "source_detail": "Oxford Learner’s Dictionaries distinguishes public violent behavior and official/news usage."
+          },
+          {
+            "id": "F-008",
+            "form": "disorder",
+            "kind": "register",
+            "statement": "public disorder is an official, news, or formal expression",
+            "source_detail": "Oxford marks the public-order sense in formal public and official contexts."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Collins English Dictionary: disorder",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/disorder",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-009",
+            "form": "lexical form",
+            "kind": "collocation",
+            "statement": "common combinations include public disorder, civil disorder, and violent disorder",
+            "source_detail": "Oxford and Collins entries give public-order compounds and collocations in this sense family."
+          },
+          {
+            "id": "F-010",
+            "form": "disorder",
+            "kind": "grammar",
+            "statement": "the rare verb can disarrange or throw something into disorder",
+            "source_detail": "Collins records the transitive verb meaning to disarrange or disturb the arrangement of something."
+          },
+          {
+            "id": "F-011",
+            "form": "disorder",
+            "kind": "grammar",
+            "statement": "the verb can disturb health or normal functions in formal usage",
+            "source_detail": "Collins records the transitive verb extension to disturb health or normal functions."
+          },
+          {
+            "id": "F-012",
+            "form": "disorder",
+            "kind": "etymology",
+            "statement": "is formed from dis- and order and is associated with a departure from order",
+            "source_detail": "Oxford and Collins give the dis- plus order formation and late-medieval history."
+          },
+          {
+            "id": "F-013",
+            "form": "disorderly",
+            "kind": "derived_form",
+            "statement": "disorderly is a directly related adjective",
+            "source_detail": "Collins records disorderly as the adjective meaning lacking order or disturbing public order."
+          },
+          {
+            "id": "F-014",
+            "form": "disordered",
+            "kind": "derived_form",
+            "statement": "disordered is a participial adjective related to disorder",
+            "source_detail": "The dictionaries support the regular past-participle form and adjective use in disordered arrangements or functions."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Cambridge Dictionary: disorder pronunciation",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/disorder",
+        "source_type": "pronunciation_reference",
+        "source_role": "pronunciation_reference",
+        "independence_group": "pronunciation_cambridge",
+        "facts": [
+          {
+            "id": "F-015",
+            "form": "disorder",
+            "kind": "pronunciation",
+            "statement": "has second-syllable stress in the standard US and UK pronunciations",
+            "source_detail": "Cambridge pronunciation provides the US /dɪsˈɔːrdər/ and UK /dɪsˈɔːdə/ transcriptions."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "canonical_statement": "disorder names a lack of order, public disorder, and medical disorder",
+        "disposition": "integrated",
+        "rationale": "The bounded independent sources support this claim family; the article keeps rare or formal extensions explicitly qualified.",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-005",
+          "F-007",
+          "F-008",
+          "F-009"
+        ]
+      },
+      {
+        "id": "U-002",
+        "canonical_statement": "disorder has established noun frames and rare transitive verb frames",
+        "disposition": "integrated",
+        "rationale": "The bounded independent sources support this claim family; the article keeps rare or formal extensions explicitly qualified.",
+        "source_fact_ids": [
+          "F-004",
+          "F-006",
+          "F-010",
+          "F-011"
+        ]
+      },
+      {
+        "id": "U-003",
+        "canonical_statement": "disorder is formed from dis- and order and has directly useful related forms",
+        "disposition": "integrated",
+        "rationale": "The bounded independent sources support this claim family; the article keeps rare or formal extensions explicitly qualified.",
+        "source_fact_ids": [
+          "F-012",
+          "F-013",
+          "F-014"
+        ]
+      },
+      {
+        "id": "U-004",
+        "canonical_statement": "the public-order sense is a formal specialist and official usage",
+        "disposition": "integrated",
+        "rationale": "The bounded independent sources support this claim family; the article keeps rare or formal extensions explicitly qualified.",
+        "source_fact_ids": [
+          "F-002",
+          "F-007",
+          "F-008",
+          "F-009"
+        ]
+      },
+      {
+        "id": "U-005",
+        "canonical_statement": "the article distinguishes ordinary, formal, and rare registers",
+        "disposition": "integrated",
+        "rationale": "The bounded independent sources support this claim family; the article keeps rare or formal extensions explicitly qualified.",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-008",
+          "F-010",
+          "F-011"
+        ]
+      },
+      {
+        "id": "U-006",
+        "canonical_statement": "disorder has the documented regional pronunciation and a cautious etymology",
+        "disposition": "integrated",
+        "rationale": "The bounded independent sources support this claim family; the article keeps rare or formal extensions explicitly qualified.",
+        "source_fact_ids": [
+          "F-012",
+          "F-015"
+        ]
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "disorder",
+        "claim_type": "lexical_sense",
+        "statement": "disorder names a lack of order, public disorder, and medical disorder",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "sense_boundary:002",
+          "definition:002",
+          "sense_boundary:003",
+          "definition:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "disorder",
+        "claim_type": "usage_distinction",
+        "statement": "disorder has established noun frames and rare transitive verb frames",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:006",
+          "grammar_pattern:011",
+          "grammar_pattern:017",
+          "grammar_pattern:021"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "disorder",
+        "claim_type": "derived_form",
+        "statement": "disorder is formed from dis- and order and has directly useful related forms",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "word_formation:001",
+          "word_formation:002",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "disorder",
+        "claim_type": "usage_distinction",
+        "statement": "the public-order sense is a formal specialist and official usage",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "register:002",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "disorder",
+        "claim_type": "usage_distinction",
+        "statement": "the article distinguishes ordinary, formal, and rare registers",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "frequency:001",
+          "frequency:002",
+          "frequency:003",
+          "frequency:004",
+          "frequency:005",
+          "register:001",
+          "register:002",
+          "register:003",
+          "register:004",
+          "register:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "disorder",
+        "claim_type": "usage_distinction",
+        "statement": "disorder has the documented regional pronunciation and a cautious etymology",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "The cited dictionary or pronunciation source directly supports this atomic claim."
+          }
+        ]
+      }
+    ]
+  }
+}
+
