@@ -1,0 +1,2674 @@
+{
+ "schema_version": "source_inventory_v2",
+ "stage": "source_inventory",
+ "run_id": "source-integrate-20260828T215935Z-83114537",
+ "context_id": "source-integrate-context-20260828T215935Z-83114537",
+ "headword": "integrate",
+ "input_body_sha256": "eef7acfbee52416c7dd1c862a1d79ba685329c5f5b5887b7cff6abfb6a3332c2",
+ "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+ "input_artifacts": [
+  "headword",
+  "source_first_spec"
+ ],
+ "recorded_at": "2026-08-28T21:59:54.083593+00:00",
+ "notes": "Inventory rebuilt after the previous cycle's evidence pass found article claims with no supporting fact. This round adds a second pronunciation reference for integrated and integration, the 1796 formation of disintegrate, the verb's inflected forms, and the attested synonym and antonym sets, and merges the two Wikipedia articles into one source because they share a publisher. That source spans School integration in the United States, Integrated education in Northern Ireland and Integral; each of its facts carries its own locator so that every evidence link points at the article that holds it.",
+ "evidence_link_ids": [
+  "E-001",
+  "E-002",
+  "E-003",
+  "E-004",
+  "E-005",
+  "E-006",
+  "E-007",
+  "E-008",
+  "E-009",
+  "E-010",
+  "E-011",
+  "E-012",
+  "E-013",
+  "E-014",
+  "E-015",
+  "E-016",
+  "E-017",
+  "E-018",
+  "E-019",
+  "E-020",
+  "E-021",
+  "E-022",
+  "E-023",
+  "E-024",
+  "E-025",
+  "E-026",
+  "E-027",
+  "E-028",
+  "E-029",
+  "E-030",
+  "E-031",
+  "E-032",
+  "E-033",
+  "E-034",
+  "E-035",
+  "E-036",
+  "E-037",
+  "E-038",
+  "E-039",
+  "E-040",
+  "E-041"
+ ],
+ "evidence_links": [
+  {
+   "id": "E-001",
+   "article_target_ids": [
+    "sense_boundary:001",
+    "definition:001",
+    "grammar_pattern:001",
+    "grammar_pattern:002",
+    "grammar_pattern:003",
+    "grammar_pattern:004",
+    "grammar_pattern:005",
+    "collocation:001",
+    "collocation:002",
+    "collocation:003",
+    "collocation:004",
+    "collocation:005",
+    "collocation:006",
+    "usage_note:001"
+   ],
+   "source_fact_ids": [
+    "F-001"
+   ],
+   "locator": "https://dictionary.cambridge.org/dictionary/english/integrate",
+   "source_excerpt_or_summary": "integrate combines separate elements, functions or units so that the whole works as one"
+  },
+  {
+   "id": "E-002",
+   "article_target_ids": [
+    "sense_boundary:001",
+    "definition:001",
+    "grammar_pattern:001",
+    "grammar_pattern:002",
+    "grammar_pattern:003",
+    "grammar_pattern:004",
+    "grammar_pattern:005",
+    "collocation:001",
+    "collocation:002",
+    "collocation:003",
+    "collocation:004",
+    "collocation:005",
+    "collocation:006",
+    "usage_note:001"
+   ],
+   "source_fact_ids": [
+    "F-007",
+    "F-008"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate combines separate elements, functions or units so that the whole works as one"
+  },
+  {
+   "id": "E-003",
+   "article_target_ids": [
+    "sense_boundary:001",
+    "definition:001",
+    "grammar_pattern:001",
+    "grammar_pattern:002",
+    "grammar_pattern:003",
+    "grammar_pattern:004",
+    "grammar_pattern:005",
+    "collocation:001",
+    "collocation:002",
+    "collocation:003",
+    "collocation:004",
+    "collocation:005",
+    "collocation:006",
+    "usage_note:001"
+   ],
+   "source_fact_ids": [
+    "F-017",
+    "F-018",
+    "F-019"
+   ],
+   "locator": "https://www.ldoceonline.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate combines separate elements, functions or units so that the whole works as one"
+  },
+  {
+   "id": "E-004",
+   "article_target_ids": [
+    "sense_boundary:002",
+    "definition:002",
+    "grammar_pattern:006",
+    "grammar_pattern:007",
+    "grammar_pattern:008",
+    "grammar_pattern:009",
+    "collocation:007",
+    "collocation:008",
+    "collocation:009",
+    "collocation:010",
+    "collocation:011",
+    "collocation:012",
+    "usage_note:002"
+   ],
+   "source_fact_ids": [
+    "F-021"
+   ],
+   "locator": "https://www.ldoceonline.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrated is an established adjective for a whole whose many parts are closely connected and work together"
+  },
+  {
+   "id": "E-005",
+   "article_target_ids": [
+    "sense_boundary:002",
+    "definition:002",
+    "grammar_pattern:006",
+    "grammar_pattern:007",
+    "grammar_pattern:008",
+    "grammar_pattern:009",
+    "collocation:007",
+    "collocation:008",
+    "collocation:009",
+    "collocation:010",
+    "collocation:011",
+    "collocation:012",
+    "usage_note:002"
+   ],
+   "source_fact_ids": [
+    "F-023"
+   ],
+   "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/integrated",
+   "source_excerpt_or_summary": "integrated is an established adjective for a whole whose many parts are closely connected and work together"
+  },
+  {
+   "id": "E-006",
+   "article_target_ids": [
+    "sense_boundary:002",
+    "definition:002",
+    "grammar_pattern:006",
+    "grammar_pattern:007",
+    "grammar_pattern:008",
+    "grammar_pattern:009",
+    "collocation:007",
+    "collocation:008",
+    "collocation:009",
+    "collocation:010",
+    "collocation:011",
+    "collocation:012",
+    "usage_note:002"
+   ],
+   "source_fact_ids": [
+    "F-025"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrated is an established adjective for a whole whose many parts are closely connected and work together"
+  },
+  {
+   "id": "E-007",
+   "article_target_ids": [
+    "sense_boundary:002",
+    "definition:002",
+    "grammar_pattern:006",
+    "grammar_pattern:007",
+    "grammar_pattern:008",
+    "grammar_pattern:009",
+    "collocation:007",
+    "collocation:008",
+    "collocation:009",
+    "collocation:010",
+    "collocation:011",
+    "collocation:012",
+    "usage_note:002"
+   ],
+   "source_fact_ids": [
+    "F-047"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integrated_circuit",
+   "source_excerpt_or_summary": "integrated is an established adjective for a whole whose many parts are closely connected and work together"
+  },
+  {
+   "id": "E-008",
+   "article_target_ids": [
+    "sense_boundary:003",
+    "definition:003",
+    "grammar_pattern:010",
+    "grammar_pattern:011",
+    "collocation:013",
+    "collocation:014",
+    "collocation:015",
+    "collocation:016",
+    "collocation:017",
+    "usage_note:003"
+   ],
+   "source_fact_ids": [
+    "F-003"
+   ],
+   "locator": "https://dictionary.cambridge.org/dictionary/english/integrate",
+   "source_excerpt_or_summary": "integrate is used without an object of systems and services that come to work together"
+  },
+  {
+   "id": "E-009",
+   "article_target_ids": [
+    "sense_boundary:003",
+    "definition:003",
+    "grammar_pattern:010",
+    "grammar_pattern:011",
+    "collocation:013",
+    "collocation:014",
+    "collocation:015",
+    "collocation:016",
+    "collocation:017",
+    "usage_note:003"
+   ],
+   "source_fact_ids": [
+    "F-011"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate is used without an object of systems and services that come to work together"
+  },
+  {
+   "id": "E-010",
+   "article_target_ids": [
+    "sense_boundary:003",
+    "definition:003",
+    "grammar_pattern:010",
+    "grammar_pattern:011",
+    "collocation:013",
+    "collocation:014",
+    "collocation:015",
+    "collocation:016",
+    "collocation:017",
+    "usage_note:003"
+   ],
+   "source_fact_ids": [
+    "F-049",
+    "F-050"
+   ],
+   "locator": "https://www.collinsdictionary.com/dictionary/english/integrate",
+   "source_excerpt_or_summary": "integrate is used without an object of systems and services that come to work together"
+  },
+  {
+   "id": "E-011",
+   "article_target_ids": [
+    "sense_boundary:004",
+    "definition:004",
+    "grammar_pattern:012",
+    "grammar_pattern:013",
+    "grammar_pattern:014",
+    "grammar_pattern:015",
+    "collocation:018",
+    "collocation:019",
+    "collocation:020",
+    "collocation:021",
+    "collocation:022",
+    "collocation:023",
+    "usage_note:004"
+   ],
+   "source_fact_ids": [
+    "F-002",
+    "F-005"
+   ],
+   "locator": "https://dictionary.cambridge.org/dictionary/english/integrate",
+   "source_excerpt_or_summary": "integrate takes a person or group as object when an institution makes them a full member of a community, and takes a reflexive object when the joining party acts on itself"
+  },
+  {
+   "id": "E-012",
+   "article_target_ids": [
+    "sense_boundary:004",
+    "definition:004",
+    "grammar_pattern:012",
+    "grammar_pattern:013",
+    "grammar_pattern:014",
+    "grammar_pattern:015",
+    "collocation:018",
+    "collocation:019",
+    "collocation:020",
+    "collocation:021",
+    "collocation:022",
+    "collocation:023",
+    "usage_note:004"
+   ],
+   "source_fact_ids": [
+    "F-008"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate takes a person or group as object when an institution makes them a full member of a community, and takes a reflexive object when the joining party acts on itself"
+  },
+  {
+   "id": "E-013",
+   "article_target_ids": [
+    "sense_boundary:004",
+    "definition:004",
+    "grammar_pattern:012",
+    "grammar_pattern:013",
+    "grammar_pattern:014",
+    "grammar_pattern:015",
+    "collocation:018",
+    "collocation:019",
+    "collocation:020",
+    "collocation:021",
+    "collocation:022",
+    "collocation:023",
+    "usage_note:004"
+   ],
+   "source_fact_ids": [
+    "F-020"
+   ],
+   "locator": "https://www.ldoceonline.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate takes a person or group as object when an institution makes them a full member of a community, and takes a reflexive object when the joining party acts on itself"
+  },
+  {
+   "id": "E-014",
+   "article_target_ids": [
+    "sense_boundary:005",
+    "definition:005",
+    "grammar_pattern:016",
+    "grammar_pattern:017",
+    "collocation:024",
+    "collocation:025",
+    "collocation:026",
+    "collocation:027",
+    "collocation:028",
+    "usage_note:005"
+   ],
+   "source_fact_ids": [
+    "F-002",
+    "F-006"
+   ],
+   "locator": "https://dictionary.cambridge.org/dictionary/english/integrate",
+   "source_excerpt_or_summary": "integrate is used without an object of a person who becomes a full member of a group or community"
+  },
+  {
+   "id": "E-015",
+   "article_target_ids": [
+    "sense_boundary:005",
+    "definition:005",
+    "grammar_pattern:016",
+    "grammar_pattern:017",
+    "collocation:024",
+    "collocation:025",
+    "collocation:026",
+    "collocation:027",
+    "collocation:028",
+    "usage_note:005"
+   ],
+   "source_fact_ids": [
+    "F-022"
+   ],
+   "locator": "https://www.ldoceonline.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate is used without an object of a person who becomes a full member of a group or community"
+  },
+  {
+   "id": "E-016",
+   "article_target_ids": [
+    "sense_boundary:006",
+    "definition:006",
+    "grammar_pattern:018",
+    "grammar_pattern:019",
+    "grammar_pattern:020",
+    "collocation:029",
+    "collocation:030",
+    "collocation:031",
+    "collocation:032",
+    "collocation:033",
+    "usage_note:006"
+   ],
+   "source_fact_ids": [
+    "F-004"
+   ],
+   "locator": "https://dictionary.cambridge.org/dictionary/english/integrate",
+   "source_excerpt_or_summary": "integrate ends a separation by race, sex or national origin in an institution and brings people into equal membership"
+  },
+  {
+   "id": "E-017",
+   "article_target_ids": [
+    "sense_boundary:006",
+    "definition:006",
+    "grammar_pattern:018",
+    "grammar_pattern:019",
+    "grammar_pattern:020",
+    "collocation:029",
+    "collocation:030",
+    "collocation:031",
+    "collocation:032",
+    "collocation:033",
+    "usage_note:006"
+   ],
+   "source_fact_ids": [
+    "F-009"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate ends a separation by race, sex or national origin in an institution and brings people into equal membership"
+  },
+  {
+   "id": "E-018",
+   "article_target_ids": [
+    "sense_boundary:006",
+    "definition:006",
+    "grammar_pattern:018",
+    "grammar_pattern:019",
+    "grammar_pattern:020",
+    "collocation:029",
+    "collocation:030",
+    "collocation:031",
+    "collocation:032",
+    "collocation:033",
+    "usage_note:006"
+   ],
+   "source_fact_ids": [
+    "F-038",
+    "F-040",
+    "F-045"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/School_integration_in_the_United_States",
+   "source_excerpt_or_summary": "integrate ends a separation by race, sex or national origin in an institution and brings people into equal membership"
+  },
+  {
+   "id": "E-019",
+   "article_target_ids": [
+    "sense_boundary:007",
+    "definition:007",
+    "grammar_pattern:021",
+    "grammar_pattern:022",
+    "collocation:034",
+    "collocation:035",
+    "collocation:036",
+    "collocation:037",
+    "usage_note:007"
+   ],
+   "source_fact_ids": [
+    "F-024"
+   ],
+   "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/integrated",
+   "source_excerpt_or_summary": "integrated describes a school, district or neighbourhood that no longer separates people by race or by religion"
+  },
+  {
+   "id": "E-020",
+   "article_target_ids": [
+    "sense_boundary:007",
+    "definition:007",
+    "grammar_pattern:021",
+    "grammar_pattern:022",
+    "collocation:034",
+    "collocation:035",
+    "collocation:036",
+    "collocation:037",
+    "usage_note:007"
+   ],
+   "source_fact_ids": [
+    "F-038"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/School_integration_in_the_United_States",
+   "source_excerpt_or_summary": "integrated describes a school, district or neighbourhood that no longer separates people by race or by religion"
+  },
+  {
+   "id": "E-021",
+   "article_target_ids": [
+    "sense_boundary:007",
+    "definition:007",
+    "grammar_pattern:021",
+    "grammar_pattern:022",
+    "collocation:034",
+    "collocation:035",
+    "collocation:036",
+    "collocation:037",
+    "usage_note:007"
+   ],
+   "source_fact_ids": [
+    "F-039"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integrated_education_in_Northern_Ireland",
+   "source_excerpt_or_summary": "integrated describes a school, district or neighbourhood that no longer separates people by race or by religion"
+  },
+  {
+   "id": "E-022",
+   "article_target_ids": [
+    "sense_boundary:008",
+    "definition:008",
+    "grammar_pattern:023",
+    "grammar_pattern:024",
+    "grammar_pattern:025",
+    "grammar_pattern:026",
+    "collocation:038",
+    "collocation:039",
+    "collocation:040",
+    "collocation:041",
+    "collocation:042",
+    "usage_note:008"
+   ],
+   "source_fact_ids": [
+    "F-010"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate finds the integral of a function with respect to a variable, over limits, by parts or numerically"
+  },
+  {
+   "id": "E-023",
+   "article_target_ids": [
+    "sense_boundary:008",
+    "definition:008",
+    "grammar_pattern:023",
+    "grammar_pattern:024",
+    "grammar_pattern:025",
+    "grammar_pattern:026",
+    "collocation:038",
+    "collocation:039",
+    "collocation:040",
+    "collocation:041",
+    "collocation:042",
+    "usage_note:008"
+   ],
+   "source_fact_ids": [
+    "F-041",
+    "F-042",
+    "F-043",
+    "F-044"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integral",
+   "source_excerpt_or_summary": "integrate finds the integral of a function with respect to a variable, over limits, by parts or numerically"
+  },
+  {
+   "id": "E-024",
+   "article_target_ids": [
+    "pronunciation:001",
+    "pronunciation:002",
+    "pronunciation:003",
+    "pronunciation:004"
+   ],
+   "source_fact_ids": [
+    "F-026",
+    "F-027",
+    "F-028"
+   ],
+   "locator": "https://en.wiktionary.org/wiki/integrate",
+   "source_excerpt_or_summary": "integrate carries first-syllable primary stress with a British and American difference in the second-syllable vowel and the third-syllable secondary stress, while integrated adds a syllable and integration shifts the primary stress"
+  },
+  {
+   "id": "E-025",
+   "article_target_ids": [
+    "pronunciation:001",
+    "pronunciation:002",
+    "pronunciation:003",
+    "pronunciation:004"
+   ],
+   "source_fact_ids": [
+    "F-036"
+   ],
+   "locator": "https://dictionary.cambridge.org/pronunciation/english/integration",
+   "source_excerpt_or_summary": "integrate carries first-syllable primary stress with a British and American difference in the second-syllable vowel and the third-syllable secondary stress, while integrated adds a syllable and integration shifts the primary stress"
+  },
+  {
+   "id": "E-026",
+   "article_target_ids": [
+    "pronunciation:001",
+    "pronunciation:002",
+    "pronunciation:003",
+    "pronunciation:004"
+   ],
+   "source_fact_ids": [
+    "F-037"
+   ],
+   "locator": "https://dictionary.cambridge.org/pronunciation/english/integrated",
+   "source_excerpt_or_summary": "integrate carries first-syllable primary stress with a British and American difference in the second-syllable vowel and the third-syllable secondary stress, while integrated adds a syllable and integration shifts the primary stress"
+  },
+  {
+   "id": "E-027",
+   "article_target_ids": [
+    "etymology:001",
+    "etymology:002",
+    "core_image:001",
+    "core_image:002",
+    "core_image:003",
+    "core_image:004",
+    "core_image:005",
+    "core_image:006",
+    "core_image:007",
+    "core_image:008",
+    "core_image:009"
+   ],
+   "source_fact_ids": [
+    "F-029"
+   ],
+   "locator": "https://en.wiktionary.org/wiki/integrate",
+   "source_excerpt_or_summary": "integrate descends from Latin integer whole and keeps a modern core of making separate things into one undivided whole"
+  },
+  {
+   "id": "E-028",
+   "article_target_ids": [
+    "etymology:001",
+    "etymology:002",
+    "core_image:001",
+    "core_image:002",
+    "core_image:003",
+    "core_image:004",
+    "core_image:005",
+    "core_image:006",
+    "core_image:007",
+    "core_image:008",
+    "core_image:009"
+   ],
+   "source_fact_ids": [
+    "F-030",
+    "F-031",
+    "F-032",
+    "F-034"
+   ],
+   "locator": "https://www.etymonline.com/word/integrate",
+   "source_excerpt_or_summary": "integrate descends from Latin integer whole and keeps a modern core of making separate things into one undivided whole"
+  },
+  {
+   "id": "E-029",
+   "article_target_ids": [
+    "etymology:001",
+    "etymology:002",
+    "core_image:001",
+    "core_image:002",
+    "core_image:003",
+    "core_image:004",
+    "core_image:005",
+    "core_image:006",
+    "core_image:007",
+    "core_image:008",
+    "core_image:009"
+   ],
+   "source_fact_ids": [
+    "F-046"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integral",
+   "source_excerpt_or_summary": "integrate descends from Latin integer whole and keeps a modern core of making separate things into one undivided whole"
+  },
+  {
+   "id": "E-030",
+   "article_target_ids": [
+    "etymology:001",
+    "etymology:002",
+    "core_image:001",
+    "core_image:002",
+    "core_image:003",
+    "core_image:004",
+    "core_image:005",
+    "core_image:006",
+    "core_image:007",
+    "core_image:008",
+    "core_image:009"
+   ],
+   "source_fact_ids": [
+    "F-048"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integer",
+   "source_excerpt_or_summary": "integrate descends from Latin integer whole and keeps a modern core of making separate things into one undivided whole"
+  },
+  {
+   "id": "E-031",
+   "article_target_ids": [
+    "word_formation:001",
+    "word_formation:002",
+    "word_formation:003",
+    "word_formation:004",
+    "word_formation:005",
+    "word_formation:006"
+   ],
+   "source_fact_ids": [
+    "F-012",
+    "F-013",
+    "F-014"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "the integrate family produces integration, integrated, integrating, integrator, integrative and disintegrate"
+  },
+  {
+   "id": "E-032",
+   "article_target_ids": [
+    "word_formation:001",
+    "word_formation:002",
+    "word_formation:003",
+    "word_formation:004",
+    "word_formation:005",
+    "word_formation:006"
+   ],
+   "source_fact_ids": [
+    "F-021"
+   ],
+   "locator": "https://www.ldoceonline.com/dictionary/integrate",
+   "source_excerpt_or_summary": "the integrate family produces integration, integrated, integrating, integrator, integrative and disintegrate"
+  },
+  {
+   "id": "E-033",
+   "article_target_ids": [
+    "word_formation:001",
+    "word_formation:002",
+    "word_formation:003",
+    "word_formation:004",
+    "word_formation:005",
+    "word_formation:006"
+   ],
+   "source_fact_ids": [
+    "F-033",
+    "F-035"
+   ],
+   "locator": "https://www.etymonline.com/word/integrate",
+   "source_excerpt_or_summary": "the integrate family produces integration, integrated, integrating, integrator, integrative and disintegrate"
+  },
+  {
+   "id": "E-034",
+   "article_target_ids": [
+    "synonym:001",
+    "synonym:002",
+    "synonym:003",
+    "synonym:004",
+    "synonym:005",
+    "synonym:006",
+    "antonym:001",
+    "antonym:002",
+    "antonym:003",
+    "synonym:007",
+    "synonym:008",
+    "synonym:009",
+    "synonym:010",
+    "synonym:011",
+    "antonym:004",
+    "antonym:005",
+    "antonym:006",
+    "synonym:012",
+    "synonym:013",
+    "synonym:014",
+    "synonym:015",
+    "synonym:016",
+    "synonym:017",
+    "synonym:018",
+    "synonym:019",
+    "synonym:020",
+    "synonym:021",
+    "antonym:007",
+    "antonym:008",
+    "antonym:009",
+    "synonym:022",
+    "synonym:023",
+    "synonym:024",
+    "synonym:025",
+    "synonym:026",
+    "antonym:010",
+    "antonym:011",
+    "synonym:027",
+    "synonym:028",
+    "synonym:029",
+    "antonym:012",
+    "antonym:013",
+    "synonym:030",
+    "synonym:031",
+    "synonym:032",
+    "antonym:014",
+    "antonym:015",
+    "synonym:033",
+    "synonym:034",
+    "antonym:016"
+   ],
+   "source_fact_ids": [
+    "F-015",
+    "F-016"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "integrate has a thesaurus-attested core of near-synonyms and opposites, which the article extends with further contrasts of its own"
+  },
+  {
+   "id": "E-035",
+   "article_target_ids": [
+    "synonym:001",
+    "synonym:002",
+    "synonym:003",
+    "synonym:004",
+    "synonym:005",
+    "synonym:006",
+    "antonym:001",
+    "antonym:002",
+    "antonym:003",
+    "synonym:007",
+    "synonym:008",
+    "synonym:009",
+    "synonym:010",
+    "synonym:011",
+    "antonym:004",
+    "antonym:005",
+    "antonym:006",
+    "synonym:012",
+    "synonym:013",
+    "synonym:014",
+    "synonym:015",
+    "synonym:016",
+    "synonym:017",
+    "synonym:018",
+    "synonym:019",
+    "synonym:020",
+    "synonym:021",
+    "antonym:007",
+    "antonym:008",
+    "antonym:009",
+    "synonym:022",
+    "synonym:023",
+    "synonym:024",
+    "synonym:025",
+    "synonym:026",
+    "antonym:010",
+    "antonym:011",
+    "synonym:027",
+    "synonym:028",
+    "synonym:029",
+    "antonym:012",
+    "antonym:013",
+    "synonym:030",
+    "synonym:031",
+    "synonym:032",
+    "antonym:014",
+    "antonym:015",
+    "synonym:033",
+    "synonym:034",
+    "antonym:016"
+   ],
+   "source_fact_ids": [
+    "F-044"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integral",
+   "source_excerpt_or_summary": "integrate has a thesaurus-attested core of near-synonyms and opposites, which the article extends with further contrasts of its own"
+  },
+  {
+   "id": "E-036",
+   "article_target_ids": [
+    "frequency:001",
+    "register:001",
+    "frequency:002",
+    "register:002",
+    "frequency:003",
+    "register:003",
+    "frequency:004",
+    "register:004",
+    "frequency:005",
+    "register:005",
+    "frequency:006",
+    "register:006",
+    "frequency:007",
+    "register:007",
+    "frequency:008",
+    "register:008"
+   ],
+   "source_fact_ids": [
+    "F-009",
+    "F-010"
+   ],
+   "locator": "https://www.merriam-webster.com/dictionary/integrate",
+   "source_excerpt_or_summary": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration"
+  },
+  {
+   "id": "E-037",
+   "article_target_ids": [
+    "frequency:001",
+    "register:001",
+    "frequency:002",
+    "register:002",
+    "frequency:003",
+    "register:003",
+    "frequency:004",
+    "register:004",
+    "frequency:005",
+    "register:005",
+    "frequency:006",
+    "register:006",
+    "frequency:007",
+    "register:007",
+    "frequency:008",
+    "register:008"
+   ],
+   "source_fact_ids": [
+    "F-019"
+   ],
+   "locator": "https://www.ldoceonline.com/dictionary/integrate",
+   "source_excerpt_or_summary": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration"
+  },
+  {
+   "id": "E-038",
+   "article_target_ids": [
+    "frequency:001",
+    "register:001",
+    "frequency:002",
+    "register:002",
+    "frequency:003",
+    "register:003",
+    "frequency:004",
+    "register:004",
+    "frequency:005",
+    "register:005",
+    "frequency:006",
+    "register:006",
+    "frequency:007",
+    "register:007",
+    "frequency:008",
+    "register:008"
+   ],
+   "source_fact_ids": [
+    "F-024"
+   ],
+   "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/integrated",
+   "source_excerpt_or_summary": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration"
+  },
+  {
+   "id": "E-039",
+   "article_target_ids": [
+    "frequency:001",
+    "register:001",
+    "frequency:002",
+    "register:002",
+    "frequency:003",
+    "register:003",
+    "frequency:004",
+    "register:004",
+    "frequency:005",
+    "register:005",
+    "frequency:006",
+    "register:006",
+    "frequency:007",
+    "register:007",
+    "frequency:008",
+    "register:008"
+   ],
+   "source_fact_ids": [
+    "F-038",
+    "F-040"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/School_integration_in_the_United_States",
+   "source_excerpt_or_summary": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration"
+  },
+  {
+   "id": "E-040",
+   "article_target_ids": [
+    "frequency:001",
+    "register:001",
+    "frequency:002",
+    "register:002",
+    "frequency:003",
+    "register:003",
+    "frequency:004",
+    "register:004",
+    "frequency:005",
+    "register:005",
+    "frequency:006",
+    "register:006",
+    "frequency:007",
+    "register:007",
+    "frequency:008",
+    "register:008"
+   ],
+   "source_fact_ids": [
+    "F-039"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integrated_education_in_Northern_Ireland",
+   "source_excerpt_or_summary": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration"
+  },
+  {
+   "id": "E-041",
+   "article_target_ids": [
+    "frequency:001",
+    "register:001",
+    "frequency:002",
+    "register:002",
+    "frequency:003",
+    "register:003",
+    "frequency:004",
+    "register:004",
+    "frequency:005",
+    "register:005",
+    "frequency:006",
+    "register:006",
+    "frequency:007",
+    "register:007",
+    "frequency:008",
+    "register:008"
+   ],
+   "source_fact_ids": [
+    "F-043"
+   ],
+   "locator": "https://en.wikipedia.org/wiki/Integral",
+   "source_excerpt_or_summary": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration"
+  }
+ ],
+ "source_first_audit": {
+  "version": "source_first_audit_v2",
+  "profile": "extended",
+  "profile_reason": "integrate carries eight article senses across general combining, social membership, desegregation, the participial adjective and calculus, so the bounded inventory needs the extended source and fact allowance.",
+  "limits": {
+   "max_sources": 8,
+   "max_facts": 80,
+   "max_research_rounds": 3,
+   "max_post_cold_rechecks": 2,
+   "max_final_attempts": 2
+  },
+  "usage": {
+   "sources_used": 8,
+   "facts_used": 50,
+   "research_rounds_used": 3,
+   "post_cold_rechecks_used": 0,
+   "final_attempts_used": 0
+  },
+  "research_status": "complete",
+  "stop_reason": "",
+  "open_questions": [
+   "The prescriptive negative claims in the usage notes (integrate A to B, integrate to, integrate in for the intransitive personal sense, and integrate by x for the calculus sense, and an integrated student for the adjective sense) rest on the absence of these patterns from the bounded source set. No dedicated counterexample search was run against a corpus within this budget.",
+   "No fact in this source set states a frequency band for any sense. Every numeric frequency score in the article is editorial calibration on the ten-point scale that entry_spec_v5 defines, not a corpus measurement. U-013 binds the frequency and register targets on that basis.",
+   "The register lines of senses 1 and 5 state that put together and combine, and fit in, are commoner than integrate in conversation. No fact in this source set compares the conversational frequency of two words, so these comparisons are the article's own judgment rather than source claims.",
+   "The register lines of the five general senses name business, technical, software, administrative, educational and personnel writing as the places integrate is common. No fact in this set carries a register or domain label for those senses, so those domain statements are the article's own judgment. The specialist labels on the desegregation and calculus senses and the regional labels are fact-backed.",
+   "The thesaurus facts F-015 and F-016 attest only the core synonym and antonym members. The article's other relation entries, among them interoperate, dovetail, standalone, all-white, keep to oneself, antidifferentiate and evaluate the integral, have no attesting fact in this set and are the article's own contrastive selection.",
+   "The transcriptions given for integrated and for the American form of integration are derived from the verb's transcription plus the regular -ed ending and the verb's second-syllable vowel, not quoted from a source. F-037 attests only that integrated has four syllables, and F-036 records only the British transcription of integration.",
+   "The etymology line glosses the cognate integral as both the calculus noun and the adjective meaning indispensable. F-046 attests the noun only; no fact in this set attests the adjectival sense. The same line glosses integrity with two readings; F-034 gives Latin integritatem as soundness, wholeness and completeness, which supports the completeness reading but not the modern moral one."
+  ],
+  "inventory_completed_before_article_comparison": true,
+  "inventory_completed_at": "2026-08-28T16:50:00+00:00",
+  "article_comparison_started_at": "2026-08-28T16:54:00+00:00",
+  "coverage_axes": [
+   {
+    "axis": "lexical_senses",
+    "status": "covered",
+    "source_fact_ids": [
+     "F-001",
+     "F-002",
+     "F-004",
+     "F-007",
+     "F-008",
+     "F-009",
+     "F-010",
+     "F-011",
+     "F-021",
+     "F-023",
+     "F-024",
+     "F-038",
+     "F-039"
+    ],
+    "notes": "Four independent general dictionaries cover the combining, social, desegregation and calculus senses and the adjective."
+   },
+   {
+    "axis": "part_of_speech_and_frames",
+    "status": "covered",
+    "source_fact_ids": [
+     "F-003",
+     "F-005",
+     "F-006",
+     "F-011",
+     "F-014",
+     "F-017",
+     "F-018",
+     "F-020",
+     "F-025",
+     "F-041",
+     "F-042",
+     "F-049",
+     "F-050"
+    ],
+    "notes": "Transitive, intransitive, reflexive, passive, attributive and calculus frames each have an independent source, and the inflected forms are listed."
+   },
+   {
+    "axis": "derived_and_related_forms",
+    "status": "covered",
+    "source_fact_ids": [
+     "F-012",
+     "F-013",
+     "F-014",
+     "F-021",
+     "F-033",
+     "F-034",
+     "F-035",
+     "F-044",
+     "F-046",
+     "F-048"
+    ],
+    "notes": "integration, integrated, integrating, integrator, integrative, integrity, disintegrate, differentiate and the noun integral are each attested separately. The adjectival sense of integral that the etymology line also glosses is not attested here, as the open questions record."
+   },
+   {
+    "axis": "specialist_and_legal_uses",
+    "status": "covered",
+    "source_fact_ids": [
+     "F-009",
+     "F-010",
+     "F-024",
+     "F-038",
+     "F-039",
+     "F-040",
+     "F-043",
+     "F-047"
+    ],
+    "notes": "The desegregation use, the calculus use and the electronics compound integrated circuit are each checked against a dictionary or a domain reference."
+   },
+   {
+    "axis": "register_region_and_frequency",
+    "status": "covered",
+    "source_fact_ids": [
+     "F-019",
+     "F-022",
+     "F-024",
+     "F-038",
+     "F-039",
+     "F-040",
+     "F-015",
+     "F-016"
+    ],
+    "notes": "Adverb collocations, the American centre of gravity, the Northern Irish reading and the attested relation sets are sourced. Region is covered, and domain is covered for the senses the sources label as specialist. No fact states a frequency band, compares two words' conversational frequency, or labels the domain of the five general senses, so those three are editorial judgment, as the open questions record."
+   },
+   {
+    "axis": "pronunciation_and_etymology",
+    "status": "covered",
+    "source_fact_ids": [
+     "F-026",
+     "F-027",
+     "F-028",
+     "F-029",
+     "F-030",
+     "F-031",
+     "F-032",
+     "F-036",
+     "F-037"
+    ],
+    "notes": "Two pronunciation references and one etymology reference cover the verb transcriptions, the syllable counts, the stress shift and the Latin origin. The transcriptions for integrated and the American form of integration are derived rather than sourced, as the open questions record."
+   }
+  ],
+  "sources": [
+   {
+    "id": "S-001",
+    "title": "Cambridge Dictionary: integrate, and the pronunciation entries for integrate, integrated and integration",
+    "locator": "https://dictionary.cambridge.org/dictionary/english/integrate",
+    "source_type": "general_dictionary",
+    "source_role": "general_lexicon",
+    "independence_group": "general_lexicon_cambridge",
+    "facts": [
+     {
+      "id": "F-001",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate combines two or more things so that they work as one more effective whole",
+      "source_detail": "Cambridge gives the transitive combining sense with the sales and marketing department example."
+     },
+     {
+      "id": "F-002",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate helps a person become part of a group, and is also used of the person becoming part of that group",
+      "source_detail": "Cambridge lists both the causative use for helping someone join a group and the plain use for becoming part of one."
+     },
+     {
+      "id": "F-003",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate is used both with a direct object and without one, and takes into and with",
+      "source_detail": "Cambridge marks transitive and intransitive uses and shows integrate into and integrate with."
+     },
+     {
+      "id": "F-004",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate ends the separation of people by race, sex or national origin in an organization or in society",
+      "source_detail": "Cambridge gives the desegregation sense with the armed forces example and names race, sex and national origin."
+     },
+     {
+      "id": "F-005",
+      "form": "integrate oneself",
+      "kind": "syntactic_frame",
+      "statement": "integrate oneself takes a reflexive object in integrate oneself into a group, where the joining party is the subject",
+      "source_detail": "Cambridge's induction-programme example shows new staff members integrating themselves into the team."
+     },
+     {
+      "id": "F-006",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate occurs without an object in integrate with one's colleagues and integrate socially",
+      "source_detail": "Cambridge shows Dave finding it hard to integrate with his colleagues and work that seems to have integrated socially."
+     },
+     {
+      "id": "F-036",
+      "form": "integration",
+      "kind": "pronunciation",
+      "statement": "integration is transcribed /ˌɪntɪˈɡreɪʃən/ with the primary stress on the third syllable, unlike the verb",
+      "source_detail": "Cambridge transcribes integration with primary stress on the GRAY syllable, the third of four.",
+      "locator": "https://dictionary.cambridge.org/pronunciation/english/integration"
+     },
+     {
+      "id": "F-037",
+      "form": "integrated",
+      "kind": "pronunciation",
+      "statement": "integrated has four syllables, one more than the three-syllable integrate, the extra syllable being the -ed ending",
+      "source_detail": "Cambridge's integrated pronunciation entry has four syllables against the three of its integrate entry.",
+      "locator": "https://dictionary.cambridge.org/pronunciation/english/integrated"
+     }
+    ]
+   },
+   {
+    "id": "S-002",
+    "title": "Merriam-Webster: integrate, integrative, integrator, and the integrate thesaurus entry",
+    "locator": "https://www.merriam-webster.com/dictionary/integrate",
+    "source_type": "general_dictionary",
+    "source_role": "general_lexicon",
+    "independence_group": "general_lexicon_merriam_webster",
+    "facts": [
+     {
+      "id": "F-007",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate forms, coordinates or blends separate things into a functioning or unified whole",
+      "source_detail": "Merriam-Webster's first transitive sense is to form, coordinate, or blend into a functioning or unified whole; unite."
+     },
+     {
+      "id": "F-008",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate incorporates something into a larger unit, or unites it with something else",
+      "source_detail": "Merriam-Webster's second transitive sense is to incorporate into a larger unit and to unite with something else."
+     },
+     {
+      "id": "F-009",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate desegregates an institution and brings people into equal membership in society or an organization",
+      "source_detail": "Merriam-Webster's third transitive sense is to desegregate, with the school-districts example, and to end the segregation of and bring into equal membership."
+     },
+     {
+      "id": "F-010",
+      "form": "integrate",
+      "kind": "lexical_sense",
+      "statement": "integrate finds the integral of a function or equation",
+      "source_detail": "Merriam-Webster's fourth transitive sense is to find the integral of something such as a function or equation."
+     },
+     {
+      "id": "F-011",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate has an intransitive use glossed as to become integrated",
+      "source_detail": "Merriam-Webster lists an intransitive entry for integrate meaning to become integrated."
+     },
+     {
+      "id": "F-012",
+      "form": "integrative",
+      "kind": "derived_form",
+      "statement": "integrative is an adjective meaning serving to integrate, favoring integration or directed toward integration",
+      "source_detail": "Merriam-Webster defines integrative as serving to integrate or favoring integration."
+     },
+     {
+      "id": "F-013",
+      "form": "integrator",
+      "kind": "derived_form",
+      "statement": "integrator is a noun for one that integrates, especially a device or computer unit that adds variable quantities in a manner comparable to mathematical integration",
+      "source_detail": "Merriam-Webster defines integrator as one that integrates, especially such a device or computer unit."
+     },
+     {
+      "id": "F-014",
+      "form": "integrated",
+      "kind": "derived_form",
+      "statement": "integrated and integrating are the inflected forms Merriam-Webster lists for the verb",
+      "source_detail": "Merriam-Webster's integrate entry lists the inflected forms integrated and integrating."
+     },
+     {
+      "id": "F-025",
+      "form": "vertically integrated",
+      "kind": "collocation",
+      "statement": "vertically integrated describes unified control of all stages of industrial production from raw materials to distribution",
+      "source_detail": "Merriam-Webster glosses vertically integrated as marked by unified control of all aspects of industrial production from raw materials through distribution."
+     },
+     {
+      "id": "F-015",
+      "form": "integrate",
+      "kind": "lexical_relation",
+      "statement": "integrate has join, unite, combine, blend, incorporate, merge, assimilate, amalgamate, coalesce, harmonize and meld listed as synonyms",
+      "source_detail": "The Merriam-Webster thesaurus entry for integrate lists these words among its synonyms."
+     },
+     {
+      "id": "F-016",
+      "form": "integrate",
+      "kind": "lexical_relation",
+      "statement": "integrate has separate, divide, part, segregate, split, decouple, detach, disperse and disband listed as antonyms",
+      "source_detail": "The Merriam-Webster thesaurus entry for integrate lists these words among its antonyms."
+     }
+    ]
+   },
+   {
+    "id": "S-003",
+    "title": "Longman Dictionary of Contemporary English: integrate, integrated",
+    "locator": "https://www.ldoceonline.com/dictionary/integrate",
+    "source_type": "general_dictionary",
+    "source_role": "general_lexicon",
+    "independence_group": "general_lexicon_longman",
+    "facts": [
+     {
+      "id": "F-017",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate takes into for the receiving whole, as in integrating new ideas into the traditional course structure",
+      "source_detail": "Longman's integrate into example is the department successfully integrating new ideas into the traditional course structure."
+     },
+     {
+      "id": "F-018",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate takes with for the matching counterpart, as in integrating one rail network with another",
+      "source_detail": "Longman's integrate with examples are the Italian railway network with other European networks and a computer program with existing programs."
+     },
+     {
+      "id": "F-019",
+      "form": "integrate",
+      "kind": "collocation",
+      "statement": "integrate is commonly modified by completely, fully, seamlessly, thoroughly, properly and successfully",
+      "source_detail": "Longman's corpus notes list these adverbs as the usual modifiers of integrate."
+     },
+     {
+      "id": "F-020",
+      "form": "integrated",
+      "kind": "syntactic_frame",
+      "statement": "integrated appears in the passive with in, as in disabled students are integrated in regular classrooms",
+      "source_detail": "Longman's corpus examples include disabled students being integrated in regular classrooms and bus and subway services being fully integrated."
+     },
+     {
+      "id": "F-021",
+      "form": "integrated",
+      "kind": "derived_form",
+      "statement": "integrated is an adjective for a system or institution that combines many different groups, ideas or parts so that they work well",
+      "source_detail": "Longman defines the adjective integrated with the integrated transport system example."
+     },
+     {
+      "id": "F-022",
+      "form": "integrate",
+      "kind": "collocation",
+      "statement": "integrate is used of people becoming fully integrated into a local community",
+      "source_detail": "Longman's example is that they soon became fully integrated into the local community."
+     }
+    ]
+   },
+   {
+    "id": "S-004",
+    "title": "Oxford Learner's Dictionaries: integrated (adjective)",
+    "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/integrated",
+    "source_type": "general_dictionary",
+    "source_role": "general_lexicon",
+    "independence_group": "general_lexicon_oxford",
+    "facts": [
+     {
+      "id": "F-023",
+      "form": "integrated",
+      "kind": "lexical_sense",
+      "statement": "integrated describes something in which many different parts are closely connected and work successfully together",
+      "source_detail": "Oxford's first adjective sense is in which many different parts are closely connected and work successfully together."
+     },
+     {
+      "id": "F-024",
+      "form": "integrated",
+      "kind": "lexical_sense",
+      "statement": "integrated describes an institution intended for use by all races or religious groups, including people from different races, sexes or religions who were previously separated",
+      "source_detail": "Oxford's second adjective sense covers integrated institutions intended for all races or religious groups, naming race, sex and religion rather than race alone."
+     }
+    ]
+   },
+   {
+    "id": "S-005",
+    "title": "Wiktionary: integrate",
+    "locator": "https://en.wiktionary.org/wiki/integrate",
+    "source_type": "pronunciation_reference",
+    "source_role": "pronunciation_reference",
+    "independence_group": "pronunciation_wiktionary",
+    "facts": [
+     {
+      "id": "F-026",
+      "form": "integrate",
+      "kind": "pronunciation",
+      "statement": "integrate is given for Standard Southern British as /ˈɪn.tɪ.ɡɹeɪt/ with an /ˈɪn.tə.ɡɹeɪt/ variant",
+      "source_detail": "Wiktionary lists the British pronunciation with the second-syllable vowel written /ɪ/ and a /ə/ variant."
+     },
+     {
+      "id": "F-027",
+      "form": "integrate",
+      "kind": "pronunciation",
+      "statement": "integrate is given for General American as /ˈɪn.təˌɡɹeɪt/ with secondary stress on the third syllable",
+      "source_detail": "Wiktionary lists the General American pronunciation with a secondary stress mark before the third syllable."
+     },
+     {
+      "id": "F-028",
+      "form": "integrate",
+      "kind": "pronunciation",
+      "statement": "integrate carries primary stress on the first syllable in both the British and the American transcription",
+      "source_detail": "Both Wiktionary transcriptions place the primary stress mark before the first syllable."
+     },
+     {
+      "id": "F-029",
+      "form": "integrate",
+      "kind": "etymology",
+      "statement": "integrate is attested as an adjective from the 1450s, earlier than the verb, which is seventeenth century",
+      "source_detail": "Wiktionary records the adjective from the 1450s and the verb from the seventeenth century."
+     }
+    ]
+   },
+   {
+    "id": "S-006",
+    "title": "Etymonline: integrate, integration, integrity, disintegrate",
+    "locator": "https://www.etymonline.com/word/integrate",
+    "source_type": "etymology_reference",
+    "source_role": "etymology_reference",
+    "independence_group": "etymology_reference_etymonline",
+    "facts": [
+     {
+      "id": "F-030",
+      "form": "integrate",
+      "kind": "etymology",
+      "statement": "integrate comes from Latin integratus, past participle of integrare to make whole, from integer whole",
+      "source_detail": "Etymonline derives integrate from Latin integratus, the past participle of integrare, from integer."
+     },
+     {
+      "id": "F-031",
+      "form": "integer",
+      "kind": "etymology",
+      "statement": "integer is literally untouched, from in- not plus the root of tangere to touch",
+      "source_detail": "Etymonline glosses Latin integer as whole, complete, literally untouched, from in- not and the root of tangere."
+     },
+     {
+      "id": "F-032",
+      "form": "integrate",
+      "kind": "etymology",
+      "statement": "integrate is recorded as a verb from the 1630s meaning to render something whole by bringing together its parts",
+      "source_detail": "Etymonline dates the verb to the 1630s with the sense to render (something) whole, bring together the parts of."
+     },
+     {
+      "id": "F-033",
+      "form": "integration",
+      "kind": "derived_form",
+      "statement": "integration is recorded from the 1610s as the act of bringing together the parts of a whole",
+      "source_detail": "Etymonline dates integration to the 1610s from Late Latin integrationem."
+     },
+     {
+      "id": "F-034",
+      "form": "integrity",
+      "kind": "derived_form",
+      "statement": "integrity is from about 1400, from Latin integritatem soundness, wholeness, completeness",
+      "source_detail": "Etymonline dates integrity to around 1400 from Old French integrite and Latin integritatem."
+     },
+     {
+      "id": "F-035",
+      "form": "disintegrate",
+      "kind": "derived_form",
+      "statement": "disintegrate is dated 1796, formed from dis- do the opposite of plus integrate, first used in geology for separating into component parts and destroying cohesion, with the intransitive break-apart sense by 1851",
+      "source_detail": "Etymonline dates disintegrate to 1796 from dis- plus integrate and records the intransitive sense from 1851."
+     }
+    ]
+   },
+   {
+    "id": "S-007",
+    "title": "Collins English Dictionary: integrate",
+    "locator": "https://www.collinsdictionary.com/dictionary/english/integrate",
+    "source_type": "general_dictionary",
+    "source_role": "general_lexicon",
+    "independence_group": "general_lexicon_collins",
+    "facts": [
+     {
+      "id": "F-049",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate is used intransitively of one thing integrating with another, the two becoming closely linked or forming part of one whole idea or system",
+      "source_detail": "Collins states that if you integrate one thing with another, or one thing integrates with another, the two things become closely linked or form part of a whole idea or system."
+     },
+     {
+      "id": "F-050",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate takes a non-human subject in the intransitive frame, as when one part of a building is to integrate with another",
+      "source_detail": "Collins illustrates the intransitive use with a non-human subject: Ann wanted the conservatory to integrate with the kitchen."
+     }
+    ]
+   },
+   {
+    "id": "S-008",
+    "title": "Wikipedia: School integration in the United States; Integrated education in Northern Ireland; Integral",
+    "locator": "https://en.wikipedia.org/wiki/School_integration_in_the_United_States",
+    "source_type": "reference_work",
+    "source_role": "domain_reference",
+    "independence_group": "reference_work_wikipedia",
+    "facts": [
+     {
+      "id": "F-038",
+      "form": "integrate",
+      "kind": "regional_usage",
+      "statement": "integrate names the American process of ending race-based segregation in public and private schools",
+      "source_detail": "The School integration in the United States article describes it as the process of ending race-based segregation in American schools."
+     },
+     {
+      "id": "F-045",
+      "form": "integrate",
+      "kind": "regional_usage",
+      "statement": "integrate is anchored in American usage to the civil-rights era opened by the 1954 Brown v. Board of Education ruling against school segregation",
+      "source_detail": "The School integration in the United States article treats the 1954 Brown v. Board of Education decision, which aimed to end school segregation, as the turning point of the process."
+     },
+     {
+      "id": "F-039",
+      "form": "integrated",
+      "kind": "regional_usage",
+      "statement": "integrated names schools in Northern Ireland that teach Catholic and Protestant children together, a religious rather than a racial separation",
+      "source_detail": "The Integrated education in Northern Ireland article describes integrated schools as bringing together children from Catholic, Protestant and other backgrounds.",
+      "locator": "https://en.wikipedia.org/wiki/Integrated_education_in_Northern_Ireland"
+     },
+     {
+      "id": "F-040",
+      "form": "integrate",
+      "kind": "regional_usage",
+      "statement": "integrate is contrasted in American writing with desegregation, which removes the legal separation without producing a mixed body",
+      "source_detail": "Writing on American schools distinguishes legally desegregated schools that remain almost entirely single-race from integrated ones."
+     },
+     {
+      "id": "F-041",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate is performed with respect to a named variable, written as an integral of f(x) with dx",
+      "source_detail": "The Integral article writes definite and indefinite integrals with respect to a variable of integration marked by dx.",
+      "locator": "https://en.wikipedia.org/wiki/Integral"
+     },
+     {
+      "id": "F-042",
+      "form": "integrate",
+      "kind": "syntactic_frame",
+      "statement": "integrate is performed over an interval from a lower limit to an upper limit for a definite integral",
+      "source_detail": "The Integral article defines the definite integral over an interval bounded by limits a and b.",
+      "locator": "https://en.wikipedia.org/wiki/Integral"
+     },
+     {
+      "id": "F-043",
+      "form": "integrate",
+      "kind": "collocation",
+      "statement": "integrate is done by parts as a named standard technique, and numerically when no closed form exists",
+      "source_detail": "The Integral article lists integration by parts among the standard techniques and numerical integration for cases without a closed form.",
+      "locator": "https://en.wikipedia.org/wiki/Integral"
+     },
+     {
+      "id": "F-044",
+      "form": "differentiate",
+      "kind": "derived_form",
+      "statement": "differentiate is the inverse operation of integration under the fundamental theorem of calculus",
+      "source_detail": "The Integral article states that integration is the inverse operation of differentiation.",
+      "locator": "https://en.wikipedia.org/wiki/Integral"
+     },
+     {
+      "id": "F-046",
+      "form": "integral",
+      "kind": "derived_form",
+      "statement": "integral is the noun for the object that integration produces, the quantity obtained by integrating a function",
+      "source_detail": "The Integral article defines the integral as the quantity produced by integration, assigning numbers to functions to describe area, volume and accumulation.",
+      "locator": "https://en.wikipedia.org/wiki/Integral"
+     },
+     {
+      "id": "F-047",
+      "form": "integrated circuit",
+      "kind": "collocation",
+      "statement": "integrated circuit is a set of electronic circuits on one small flat piece of semiconductor material, normally silicon",
+      "source_detail": "The Integrated circuit article defines it as a set of electronic circuits on one small flat piece of semiconductor material.",
+      "locator": "https://en.wikipedia.org/wiki/Integrated_circuit"
+     },
+     {
+      "id": "F-048",
+      "form": "integer",
+      "kind": "derived_form",
+      "statement": "integer is the mathematical term for a whole number, covering the natural numbers, their negatives and zero",
+      "source_detail": "The Integer article defines integers as the whole numbers: the natural numbers, their negatives and zero.",
+      "locator": "https://en.wikipedia.org/wiki/Integer"
+     }
+    ]
+   }
+  ],
+  "source_union": [
+   {
+    "id": "U-001",
+    "canonical_statement": "integrate combines separate elements, functions or units so that the whole works as one",
+    "disposition": "integrated",
+    "rationale": "Three independent general dictionaries give the transitive combining sense, both prepositional frames and the adverb collocations.",
+    "source_fact_ids": [
+     "F-001",
+     "F-007",
+     "F-008",
+     "F-017",
+     "F-018",
+     "F-019"
+    ],
+    "article_target_ids": [
+     "sense_boundary:001",
+     "definition:001",
+     "grammar_pattern:001",
+     "grammar_pattern:002",
+     "grammar_pattern:003",
+     "grammar_pattern:004",
+     "grammar_pattern:005",
+     "collocation:001",
+     "collocation:002",
+     "collocation:003",
+     "collocation:004",
+     "collocation:005",
+     "collocation:006",
+     "usage_note:001"
+    ]
+   },
+   {
+    "id": "U-002",
+    "canonical_statement": "integrated is an established adjective for a whole whose many parts are closely connected and work together",
+    "disposition": "integrated",
+    "rationale": "Two independent learner dictionaries list the adjective separately from the verb, which supports a numbered participial-adjective sense, and the electronics reference fixes the integrated circuit compound the block glosses.",
+    "source_fact_ids": [
+     "F-021",
+     "F-023",
+     "F-025",
+     "F-047"
+    ],
+    "article_target_ids": [
+     "sense_boundary:002",
+     "definition:002",
+     "grammar_pattern:006",
+     "grammar_pattern:007",
+     "grammar_pattern:008",
+     "grammar_pattern:009",
+     "collocation:007",
+     "collocation:008",
+     "collocation:009",
+     "collocation:010",
+     "collocation:011",
+     "collocation:012",
+     "usage_note:002"
+    ]
+   },
+   {
+    "id": "U-003",
+    "canonical_statement": "integrate is used without an object of systems and services that come to work together",
+    "disposition": "integrated",
+    "rationale": "Collins states the intransitive frame directly and illustrates it with a non-human subject, which is what separates this sense from the intransitive personal sense; the Merriam-Webster intransitive entry and the Cambridge transitivity note carry the rest.",
+    "source_fact_ids": [
+     "F-003",
+     "F-011",
+     "F-049",
+     "F-050"
+    ],
+    "article_target_ids": [
+     "sense_boundary:003",
+     "definition:003",
+     "grammar_pattern:010",
+     "grammar_pattern:011",
+     "collocation:013",
+     "collocation:014",
+     "collocation:015",
+     "collocation:016",
+     "collocation:017",
+     "usage_note:003"
+    ]
+   },
+   {
+    "id": "U-004",
+    "canonical_statement": "integrate takes a person or group as object when an institution makes them a full member of a community, and takes a reflexive object when the joining party acts on itself",
+    "disposition": "integrated",
+    "rationale": "The causative use with a personal object, the reflexive frame and the passive with in are attested independently of the combining sense.",
+    "source_fact_ids": [
+     "F-002",
+     "F-005",
+     "F-008",
+     "F-020"
+    ],
+    "article_target_ids": [
+     "sense_boundary:004",
+     "definition:004",
+     "grammar_pattern:012",
+     "grammar_pattern:013",
+     "grammar_pattern:014",
+     "grammar_pattern:015",
+     "collocation:018",
+     "collocation:019",
+     "collocation:020",
+     "collocation:021",
+     "collocation:022",
+     "collocation:023",
+     "usage_note:004"
+    ]
+   },
+   {
+    "id": "U-005",
+    "canonical_statement": "integrate is used without an object of a person who becomes a full member of a group or community",
+    "disposition": "integrated",
+    "rationale": "The objectless personal use and the fully integrated into a community example support a separate intransitive sense.",
+    "source_fact_ids": [
+     "F-002",
+     "F-006",
+     "F-022"
+    ],
+    "article_target_ids": [
+     "sense_boundary:005",
+     "definition:005",
+     "grammar_pattern:016",
+     "grammar_pattern:017",
+     "collocation:024",
+     "collocation:025",
+     "collocation:026",
+     "collocation:027",
+     "collocation:028",
+     "usage_note:005"
+    ]
+   },
+   {
+    "id": "U-006",
+    "canonical_statement": "integrate ends a separation by race, sex or national origin in an institution and brings people into equal membership",
+    "disposition": "integrated",
+    "rationale": "Two general dictionaries give a scope wider than race alone, and the domain reference supports the American centre of gravity and the contrast with desegregate.",
+    "source_fact_ids": [
+     "F-004",
+     "F-009",
+     "F-038",
+     "F-040",
+     "F-045"
+    ],
+    "article_target_ids": [
+     "sense_boundary:006",
+     "definition:006",
+     "grammar_pattern:018",
+     "grammar_pattern:019",
+     "grammar_pattern:020",
+     "collocation:029",
+     "collocation:030",
+     "collocation:031",
+     "collocation:032",
+     "collocation:033",
+     "usage_note:006"
+    ]
+   },
+   {
+    "id": "U-007",
+    "canonical_statement": "integrated describes a school, district or neighbourhood that no longer separates people by race or by religion",
+    "disposition": "integrated",
+    "rationale": "The learner dictionary adjective sense names race, sex and religion, and the domain reference supplies both the American racial reading and the Northern Irish religious one.",
+    "source_fact_ids": [
+     "F-024",
+     "F-038",
+     "F-039"
+    ],
+    "article_target_ids": [
+     "sense_boundary:007",
+     "definition:007",
+     "grammar_pattern:021",
+     "grammar_pattern:022",
+     "collocation:034",
+     "collocation:035",
+     "collocation:036",
+     "collocation:037",
+     "usage_note:007"
+    ]
+   },
+   {
+    "id": "U-008",
+    "canonical_statement": "integrate finds the integral of a function with respect to a variable, over limits, by parts or numerically",
+    "disposition": "integrated",
+    "rationale": "The dictionary sense fixes the lexical meaning and the domain reference fixes the frames and the inverse relation to differentiation.",
+    "source_fact_ids": [
+     "F-010",
+     "F-041",
+     "F-042",
+     "F-043",
+     "F-044"
+    ],
+    "article_target_ids": [
+     "sense_boundary:008",
+     "definition:008",
+     "grammar_pattern:023",
+     "grammar_pattern:024",
+     "grammar_pattern:025",
+     "grammar_pattern:026",
+     "collocation:038",
+     "collocation:039",
+     "collocation:040",
+     "collocation:041",
+     "collocation:042",
+     "usage_note:008"
+    ]
+   },
+   {
+    "id": "U-009",
+    "canonical_statement": "integrate carries first-syllable primary stress with a British and American difference in the second-syllable vowel and the third-syllable secondary stress, while integrated adds a syllable and integration shifts the primary stress",
+    "disposition": "integrated",
+    "rationale": "Two independent pronunciation references cover the verb transcriptions, the four-syllable count of integrated and the British transcription and stress shift of integration. They do not give a transcription for integrated or an American transcription for integration; the article derives those from the verb, and the open questions record it.",
+    "source_fact_ids": [
+     "F-026",
+     "F-027",
+     "F-028",
+     "F-036",
+     "F-037"
+    ],
+    "article_target_ids": [
+     "pronunciation:001",
+     "pronunciation:002",
+     "pronunciation:003",
+     "pronunciation:004"
+    ]
+   },
+   {
+    "id": "U-010",
+    "canonical_statement": "integrate descends from Latin integer whole and keeps a modern core of making separate things into one undivided whole",
+    "disposition": "integrated",
+    "rationale": "The etymology reference supports the origin, the two dates and the related words, the mathematical references fix the glosses given for integer and the noun integral, and the shared core is what the core-image branches use.",
+    "source_fact_ids": [
+     "F-029",
+     "F-030",
+     "F-031",
+     "F-032",
+     "F-034",
+     "F-046",
+     "F-048"
+    ],
+    "article_target_ids": [
+     "etymology:001",
+     "etymology:002",
+     "core_image:001",
+     "core_image:002",
+     "core_image:003",
+     "core_image:004",
+     "core_image:005",
+     "core_image:006",
+     "core_image:007",
+     "core_image:008",
+     "core_image:009"
+    ]
+   },
+   {
+    "id": "U-011",
+    "canonical_statement": "the integrate family produces integration, integrated, integrating, integrator, integrative and disintegrate",
+    "disposition": "integrated",
+    "rationale": "Each derived or inflected form listed in the article has its own dictionary or etymology fact, including the 1796 formation of disintegrate.",
+    "source_fact_ids": [
+     "F-012",
+     "F-013",
+     "F-014",
+     "F-021",
+     "F-033",
+     "F-035"
+    ],
+    "article_target_ids": [
+     "word_formation:001",
+     "word_formation:002",
+     "word_formation:003",
+     "word_formation:004",
+     "word_formation:005",
+     "word_formation:006"
+    ]
+   },
+   {
+    "id": "U-012",
+    "canonical_statement": "integrate has a thesaurus-attested core of near-synonyms and opposites, which the article extends with further contrasts of its own",
+    "disposition": "integrated",
+    "rationale": "F-015 and F-016 attest only the core members: combine, merge, incorporate, blend and assimilate among the synonyms, separate and segregate among the antonyms; F-044 attests differentiate as the inverse of integration. The article's remaining relation entries, among them interoperate, dovetail, standalone, all-white, keep to oneself, antidifferentiate and evaluate the integral, are contrasts the article selects to mark usage boundaries, and their definition, frequency and difference lines are the article's own analysis rather than claims taken from this source set. The open questions record that gap.",
+    "source_fact_ids": [
+     "F-015",
+     "F-016",
+     "F-044"
+    ],
+    "article_target_ids": [
+     "synonym:001",
+     "synonym:002",
+     "synonym:003",
+     "synonym:004",
+     "synonym:005",
+     "synonym:006",
+     "antonym:001",
+     "antonym:002",
+     "antonym:003",
+     "synonym:007",
+     "synonym:008",
+     "synonym:009",
+     "synonym:010",
+     "synonym:011",
+     "antonym:004",
+     "antonym:005",
+     "antonym:006",
+     "synonym:012",
+     "synonym:013",
+     "synonym:014",
+     "synonym:015",
+     "synonym:016",
+     "synonym:017",
+     "synonym:018",
+     "synonym:019",
+     "synonym:020",
+     "synonym:021",
+     "antonym:007",
+     "antonym:008",
+     "antonym:009",
+     "synonym:022",
+     "synonym:023",
+     "synonym:024",
+     "synonym:025",
+     "synonym:026",
+     "antonym:010",
+     "antonym:011",
+     "synonym:027",
+     "synonym:028",
+     "synonym:029",
+     "antonym:012",
+     "antonym:013",
+     "synonym:030",
+     "synonym:031",
+     "synonym:032",
+     "antonym:014",
+     "antonym:015",
+     "synonym:033",
+     "synonym:034",
+     "antonym:016"
+    ]
+   },
+   {
+    "id": "U-013",
+    "canonical_statement": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration",
+    "disposition": "integrated",
+    "rationale": "These facts fix the labelled parts of the register lines: the specialist scope of the desegregation and calculus senses, the adverb collocations, the institutional scope of the adjective, the American centre of gravity and the Northern Irish reading. Three things in these lines are the article's own judgment rather than source claims: the numeric scores, which are editorial calibration on the ten-point scale that entry_spec_v5 defines; the comparative statements that another word is commoner in conversation than integrate; and the domain statements attached to the five general senses, which name business, technical, software, administrative, educational and personnel writing without a labelling fact behind them. The open questions record all three.",
+    "source_fact_ids": [
+     "F-009",
+     "F-010",
+     "F-019",
+     "F-024",
+     "F-038",
+     "F-039",
+     "F-040",
+     "F-043"
+    ],
+    "article_target_ids": [
+     "frequency:001",
+     "register:001",
+     "frequency:002",
+     "register:002",
+     "frequency:003",
+     "register:003",
+     "frequency:004",
+     "register:004",
+     "frequency:005",
+     "register:005",
+     "frequency:006",
+     "register:006",
+     "frequency:007",
+     "register:007",
+     "frequency:008",
+     "register:008"
+    ]
+   }
+  ],
+  "claim_units": [
+   {
+    "id": "C-001",
+    "subject_form": "integrate",
+    "claim_type": "lexical_sense",
+    "statement": "integrate combines separate elements, functions or units so that the whole works as one",
+    "union_ids": [
+     "U-001"
+    ],
+    "source_fact_ids": [
+     "F-001",
+     "F-007",
+     "F-008",
+     "F-017",
+     "F-018",
+     "F-019"
+    ],
+    "article_target_ids": [
+     "sense_boundary:001",
+     "definition:001",
+     "grammar_pattern:001",
+     "grammar_pattern:002",
+     "grammar_pattern:003",
+     "grammar_pattern:004",
+     "grammar_pattern:005",
+     "collocation:001",
+     "collocation:002",
+     "collocation:003",
+     "collocation:004",
+     "collocation:005",
+     "collocation:006",
+     "usage_note:001"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-001",
+      "support_summary": "Cambridge gives the transitive combining sense with the sales and marketing department example. This fact is checked against U-001."
+     },
+     {
+      "source_fact_id": "F-007",
+      "support_summary": "Merriam-Webster's first transitive sense is to form, coordinate, or blend into a functioning or unified whole; unite. This fact is checked against U-001."
+     },
+     {
+      "source_fact_id": "F-008",
+      "support_summary": "Merriam-Webster's second transitive sense is to incorporate into a larger unit and to unite with something else. This fact is checked against U-001."
+     },
+     {
+      "source_fact_id": "F-017",
+      "support_summary": "Longman's integrate into example is the department successfully integrating new ideas into the traditional course structure. This fact is checked against U-001."
+     },
+     {
+      "source_fact_id": "F-018",
+      "support_summary": "Longman's integrate with examples are the Italian railway network with other European networks and a computer program with existing programs. This fact is checked against U-001."
+     },
+     {
+      "source_fact_id": "F-019",
+      "support_summary": "Longman's corpus notes list these adverbs as the usual modifiers of integrate. This fact is checked against U-001."
+     }
+    ]
+   },
+   {
+    "id": "C-002",
+    "subject_form": "integrated",
+    "claim_type": "derived_form",
+    "statement": "integrated is an established adjective for a whole whose many parts are closely connected and work together",
+    "union_ids": [
+     "U-002"
+    ],
+    "source_fact_ids": [
+     "F-021",
+     "F-023",
+     "F-025",
+     "F-047"
+    ],
+    "article_target_ids": [
+     "sense_boundary:002",
+     "definition:002",
+     "grammar_pattern:006",
+     "grammar_pattern:007",
+     "grammar_pattern:008",
+     "grammar_pattern:009",
+     "collocation:007",
+     "collocation:008",
+     "collocation:009",
+     "collocation:010",
+     "collocation:011",
+     "collocation:012",
+     "usage_note:002"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-021",
+      "support_summary": "Longman defines the adjective integrated with the integrated transport system example. This fact is checked against U-002."
+     },
+     {
+      "source_fact_id": "F-023",
+      "support_summary": "Oxford's first adjective sense is in which many different parts are closely connected and work successfully together. This fact is checked against U-002."
+     },
+     {
+      "source_fact_id": "F-025",
+      "support_summary": "Merriam-Webster glosses vertically integrated as marked by unified control of all aspects of industrial production from raw materials through distribution. This fact is checked against U-002."
+     },
+     {
+      "source_fact_id": "F-047",
+      "support_summary": "The Integrated circuit article defines it as a set of electronic circuits on one small flat piece of semiconductor material. This fact is checked against U-002."
+     }
+    ]
+   },
+   {
+    "id": "C-003",
+    "subject_form": "integrate",
+    "claim_type": "syntactic_frame",
+    "statement": "integrate is used without an object of systems and services that come to work together",
+    "union_ids": [
+     "U-003"
+    ],
+    "source_fact_ids": [
+     "F-003",
+     "F-011",
+     "F-049",
+     "F-050"
+    ],
+    "article_target_ids": [
+     "sense_boundary:003",
+     "definition:003",
+     "grammar_pattern:010",
+     "grammar_pattern:011",
+     "collocation:013",
+     "collocation:014",
+     "collocation:015",
+     "collocation:016",
+     "collocation:017",
+     "usage_note:003"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-003",
+      "support_summary": "Cambridge marks transitive and intransitive uses and shows integrate into and integrate with. This fact is checked against U-003."
+     },
+     {
+      "source_fact_id": "F-011",
+      "support_summary": "Merriam-Webster lists an intransitive entry for integrate meaning to become integrated. This fact is checked against U-003."
+     },
+     {
+      "source_fact_id": "F-049",
+      "support_summary": "Collins states that if you integrate one thing with another, or one thing integrates with another, the two things become closely linked or form part of a whole idea or system. This fact is checked against U-003."
+     },
+     {
+      "source_fact_id": "F-050",
+      "support_summary": "Collins illustrates the intransitive use with a non-human subject: Ann wanted the conservatory to integrate with the kitchen. This fact is checked against U-003."
+     }
+    ]
+   },
+   {
+    "id": "C-004",
+    "subject_form": "integrate",
+    "claim_type": "lexical_sense",
+    "statement": "integrate takes a person or group as object when an institution makes them a full member of a community, and takes a reflexive object when the joining party acts on itself",
+    "union_ids": [
+     "U-004"
+    ],
+    "source_fact_ids": [
+     "F-002",
+     "F-005",
+     "F-008",
+     "F-020"
+    ],
+    "article_target_ids": [
+     "sense_boundary:004",
+     "definition:004",
+     "grammar_pattern:012",
+     "grammar_pattern:013",
+     "grammar_pattern:014",
+     "grammar_pattern:015",
+     "collocation:018",
+     "collocation:019",
+     "collocation:020",
+     "collocation:021",
+     "collocation:022",
+     "collocation:023",
+     "usage_note:004"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-002",
+      "support_summary": "Cambridge lists both the causative use for helping someone join a group and the plain use for becoming part of one. This fact is checked against U-004."
+     },
+     {
+      "source_fact_id": "F-005",
+      "support_summary": "Cambridge's induction-programme example shows new staff members integrating themselves into the team. This fact is checked against U-004."
+     },
+     {
+      "source_fact_id": "F-008",
+      "support_summary": "Merriam-Webster's second transitive sense is to incorporate into a larger unit and to unite with something else. This fact is checked against U-004."
+     },
+     {
+      "source_fact_id": "F-020",
+      "support_summary": "Longman's corpus examples include disabled students being integrated in regular classrooms and bus and subway services being fully integrated. This fact is checked against U-004."
+     }
+    ]
+   },
+   {
+    "id": "C-005",
+    "subject_form": "integrate",
+    "claim_type": "syntactic_frame",
+    "statement": "integrate is used without an object of a person who becomes a full member of a group or community",
+    "union_ids": [
+     "U-005"
+    ],
+    "source_fact_ids": [
+     "F-002",
+     "F-006",
+     "F-022"
+    ],
+    "article_target_ids": [
+     "sense_boundary:005",
+     "definition:005",
+     "grammar_pattern:016",
+     "grammar_pattern:017",
+     "collocation:024",
+     "collocation:025",
+     "collocation:026",
+     "collocation:027",
+     "collocation:028",
+     "usage_note:005"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-002",
+      "support_summary": "Cambridge lists both the causative use for helping someone join a group and the plain use for becoming part of one. This fact is checked against U-005."
+     },
+     {
+      "source_fact_id": "F-006",
+      "support_summary": "Cambridge shows Dave finding it hard to integrate with his colleagues and work that seems to have integrated socially. This fact is checked against U-005."
+     },
+     {
+      "source_fact_id": "F-022",
+      "support_summary": "Longman's example is that they soon became fully integrated into the local community. This fact is checked against U-005."
+     }
+    ]
+   },
+   {
+    "id": "C-006",
+    "subject_form": "integrate",
+    "claim_type": "lexical_sense",
+    "statement": "integrate ends a separation by race, sex or national origin in an institution and brings people into equal membership",
+    "union_ids": [
+     "U-006"
+    ],
+    "source_fact_ids": [
+     "F-004",
+     "F-009",
+     "F-038",
+     "F-040",
+     "F-045"
+    ],
+    "article_target_ids": [
+     "sense_boundary:006",
+     "definition:006",
+     "grammar_pattern:018",
+     "grammar_pattern:019",
+     "grammar_pattern:020",
+     "collocation:029",
+     "collocation:030",
+     "collocation:031",
+     "collocation:032",
+     "collocation:033",
+     "usage_note:006"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-004",
+      "support_summary": "Cambridge gives the desegregation sense with the armed forces example and names race, sex and national origin. This fact is checked against U-006."
+     },
+     {
+      "source_fact_id": "F-009",
+      "support_summary": "Merriam-Webster's third transitive sense is to desegregate, with the school-districts example, and to end the segregation of and bring into equal membership. This fact is checked against U-006."
+     },
+     {
+      "source_fact_id": "F-038",
+      "support_summary": "The School integration in the United States article describes it as the process of ending race-based segregation in American schools. This fact is checked against U-006."
+     },
+     {
+      "source_fact_id": "F-040",
+      "support_summary": "Writing on American schools distinguishes legally desegregated schools that remain almost entirely single-race from integrated ones. This fact is checked against U-006."
+     },
+     {
+      "source_fact_id": "F-045",
+      "support_summary": "The School integration in the United States article treats the 1954 Brown v. Board of Education decision, which aimed to end school segregation, as the turning point of the process. This fact is checked against U-006."
+     }
+    ]
+   },
+   {
+    "id": "C-007",
+    "subject_form": "integrated",
+    "claim_type": "derived_form",
+    "statement": "integrated describes a school, district or neighbourhood that no longer separates people by race or by religion",
+    "union_ids": [
+     "U-007"
+    ],
+    "source_fact_ids": [
+     "F-024",
+     "F-038",
+     "F-039"
+    ],
+    "article_target_ids": [
+     "sense_boundary:007",
+     "definition:007",
+     "grammar_pattern:021",
+     "grammar_pattern:022",
+     "collocation:034",
+     "collocation:035",
+     "collocation:036",
+     "collocation:037",
+     "usage_note:007"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-024",
+      "support_summary": "Oxford's second adjective sense covers integrated institutions intended for all races or religious groups, naming race, sex and religion rather than race alone. This fact is checked against U-007."
+     },
+     {
+      "source_fact_id": "F-038",
+      "support_summary": "The School integration in the United States article describes it as the process of ending race-based segregation in American schools. This fact is checked against U-007."
+     },
+     {
+      "source_fact_id": "F-039",
+      "support_summary": "The Integrated education in Northern Ireland article describes integrated schools as bringing together children from Catholic, Protestant and other backgrounds. This fact is checked against U-007."
+     }
+    ]
+   },
+   {
+    "id": "C-008",
+    "subject_form": "integrate",
+    "claim_type": "lexical_sense",
+    "statement": "integrate finds the integral of a function with respect to a variable, over limits, by parts or numerically",
+    "union_ids": [
+     "U-008"
+    ],
+    "source_fact_ids": [
+     "F-010",
+     "F-041",
+     "F-042",
+     "F-043",
+     "F-044"
+    ],
+    "article_target_ids": [
+     "sense_boundary:008",
+     "definition:008",
+     "grammar_pattern:023",
+     "grammar_pattern:024",
+     "grammar_pattern:025",
+     "grammar_pattern:026",
+     "collocation:038",
+     "collocation:039",
+     "collocation:040",
+     "collocation:041",
+     "collocation:042",
+     "usage_note:008"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-010",
+      "support_summary": "Merriam-Webster's fourth transitive sense is to find the integral of something such as a function or equation. This fact is checked against U-008."
+     },
+     {
+      "source_fact_id": "F-041",
+      "support_summary": "The Integral article writes definite and indefinite integrals with respect to a variable of integration marked by dx. This fact is checked against U-008."
+     },
+     {
+      "source_fact_id": "F-042",
+      "support_summary": "The Integral article defines the definite integral over an interval bounded by limits a and b. This fact is checked against U-008."
+     },
+     {
+      "source_fact_id": "F-043",
+      "support_summary": "The Integral article lists integration by parts among the standard techniques and numerical integration for cases without a closed form. This fact is checked against U-008."
+     },
+     {
+      "source_fact_id": "F-044",
+      "support_summary": "The Integral article states that integration is the inverse operation of differentiation. This fact is checked against U-008."
+     }
+    ]
+   },
+   {
+    "id": "C-009",
+    "subject_form": "integrate",
+    "claim_type": "pronunciation",
+    "statement": "integrate carries first-syllable primary stress with a British and American difference in the second-syllable vowel and the third-syllable secondary stress, while integrated adds a syllable and integration shifts the primary stress",
+    "union_ids": [
+     "U-009"
+    ],
+    "source_fact_ids": [
+     "F-026",
+     "F-027",
+     "F-028",
+     "F-036",
+     "F-037"
+    ],
+    "article_target_ids": [
+     "pronunciation:001",
+     "pronunciation:002",
+     "pronunciation:003",
+     "pronunciation:004"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-026",
+      "support_summary": "Wiktionary lists the British pronunciation with the second-syllable vowel written /ɪ/ and a /ə/ variant. This fact is checked against U-009."
+     },
+     {
+      "source_fact_id": "F-027",
+      "support_summary": "Wiktionary lists the General American pronunciation with a secondary stress mark before the third syllable. This fact is checked against U-009."
+     },
+     {
+      "source_fact_id": "F-028",
+      "support_summary": "Both Wiktionary transcriptions place the primary stress mark before the first syllable. This fact is checked against U-009."
+     },
+     {
+      "source_fact_id": "F-036",
+      "support_summary": "Cambridge transcribes integration with primary stress on the GRAY syllable, the third of four. This fact is checked against U-009."
+     },
+     {
+      "source_fact_id": "F-037",
+      "support_summary": "Cambridge's integrated pronunciation entry has four syllables against the three of its integrate entry. This fact is checked against U-009."
+     }
+    ]
+   },
+   {
+    "id": "C-010",
+    "subject_form": "integrate",
+    "claim_type": "etymology",
+    "statement": "integrate descends from Latin integer whole and keeps a modern core of making separate things into one undivided whole",
+    "union_ids": [
+     "U-010"
+    ],
+    "source_fact_ids": [
+     "F-029",
+     "F-030",
+     "F-031",
+     "F-032",
+     "F-034",
+     "F-046",
+     "F-048"
+    ],
+    "article_target_ids": [
+     "etymology:001",
+     "etymology:002",
+     "core_image:001",
+     "core_image:002",
+     "core_image:003",
+     "core_image:004",
+     "core_image:005",
+     "core_image:006",
+     "core_image:007",
+     "core_image:008",
+     "core_image:009"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-029",
+      "support_summary": "Wiktionary records the adjective from the 1450s and the verb from the seventeenth century. This fact is checked against U-010."
+     },
+     {
+      "source_fact_id": "F-030",
+      "support_summary": "Etymonline derives integrate from Latin integratus, the past participle of integrare, from integer. This fact is checked against U-010."
+     },
+     {
+      "source_fact_id": "F-031",
+      "support_summary": "Etymonline glosses Latin integer as whole, complete, literally untouched, from in- not and the root of tangere. This fact is checked against U-010."
+     },
+     {
+      "source_fact_id": "F-032",
+      "support_summary": "Etymonline dates the verb to the 1630s with the sense to render (something) whole, bring together the parts of. This fact is checked against U-010."
+     },
+     {
+      "source_fact_id": "F-034",
+      "support_summary": "Etymonline dates integrity to around 1400 from Old French integrite and Latin integritatem. This fact is checked against U-010."
+     },
+     {
+      "source_fact_id": "F-046",
+      "support_summary": "The Integral article defines the integral as the quantity produced by integration, assigning numbers to functions to describe area, volume and accumulation. This fact is checked against U-010."
+     },
+     {
+      "source_fact_id": "F-048",
+      "support_summary": "The Integer article defines integers as the whole numbers: the natural numbers, their negatives and zero. This fact is checked against U-010."
+     }
+    ]
+   },
+   {
+    "id": "C-011",
+    "subject_form": "integration",
+    "claim_type": "derived_form",
+    "statement": "the integrate family produces integration, integrated, integrating, integrator, integrative and disintegrate",
+    "union_ids": [
+     "U-011"
+    ],
+    "source_fact_ids": [
+     "F-012",
+     "F-013",
+     "F-014",
+     "F-021",
+     "F-033",
+     "F-035"
+    ],
+    "article_target_ids": [
+     "word_formation:001",
+     "word_formation:002",
+     "word_formation:003",
+     "word_formation:004",
+     "word_formation:005",
+     "word_formation:006"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-012",
+      "support_summary": "Merriam-Webster defines integrative as serving to integrate or favoring integration. This fact is checked against U-011."
+     },
+     {
+      "source_fact_id": "F-013",
+      "support_summary": "Merriam-Webster defines integrator as one that integrates, especially such a device or computer unit. This fact is checked against U-011."
+     },
+     {
+      "source_fact_id": "F-014",
+      "support_summary": "Merriam-Webster's integrate entry lists the inflected forms integrated and integrating. This fact is checked against U-011."
+     },
+     {
+      "source_fact_id": "F-021",
+      "support_summary": "Longman defines the adjective integrated with the integrated transport system example. This fact is checked against U-011."
+     },
+     {
+      "source_fact_id": "F-033",
+      "support_summary": "Etymonline dates integration to the 1610s from Late Latin integrationem. This fact is checked against U-011."
+     },
+     {
+      "source_fact_id": "F-035",
+      "support_summary": "Etymonline dates disintegrate to 1796 from dis- plus integrate and records the intransitive sense from 1851. This fact is checked against U-011."
+     }
+    ]
+   },
+   {
+    "id": "C-012",
+    "subject_form": "integrate",
+    "claim_type": "lexical_relation",
+    "statement": "integrate has a thesaurus-attested core of near-synonyms and opposites, which the article extends with further contrasts of its own",
+    "union_ids": [
+     "U-012"
+    ],
+    "source_fact_ids": [
+     "F-015",
+     "F-016",
+     "F-044"
+    ],
+    "article_target_ids": [
+     "synonym:001",
+     "synonym:002",
+     "synonym:003",
+     "synonym:004",
+     "synonym:005",
+     "synonym:006",
+     "antonym:001",
+     "antonym:002",
+     "antonym:003",
+     "synonym:007",
+     "synonym:008",
+     "synonym:009",
+     "synonym:010",
+     "synonym:011",
+     "antonym:004",
+     "antonym:005",
+     "antonym:006",
+     "synonym:012",
+     "synonym:013",
+     "synonym:014",
+     "synonym:015",
+     "synonym:016",
+     "synonym:017",
+     "synonym:018",
+     "synonym:019",
+     "synonym:020",
+     "synonym:021",
+     "antonym:007",
+     "antonym:008",
+     "antonym:009",
+     "synonym:022",
+     "synonym:023",
+     "synonym:024",
+     "synonym:025",
+     "synonym:026",
+     "antonym:010",
+     "antonym:011",
+     "synonym:027",
+     "synonym:028",
+     "synonym:029",
+     "antonym:012",
+     "antonym:013",
+     "synonym:030",
+     "synonym:031",
+     "synonym:032",
+     "antonym:014",
+     "antonym:015",
+     "synonym:033",
+     "synonym:034",
+     "antonym:016"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-015",
+      "support_summary": "The Merriam-Webster thesaurus entry for integrate lists these words among its synonyms. This fact is checked against U-012."
+     },
+     {
+      "source_fact_id": "F-016",
+      "support_summary": "The Merriam-Webster thesaurus entry for integrate lists these words among its antonyms. This fact is checked against U-012."
+     },
+     {
+      "source_fact_id": "F-044",
+      "support_summary": "The Integral article states that integration is the inverse operation of differentiation. This fact is checked against U-012."
+     }
+    ]
+   },
+   {
+    "id": "C-013",
+    "subject_form": "integrate",
+    "claim_type": "register",
+    "statement": "the register and domain statements attached to each sense follow the labelled scope of the cited entries, while the ten-point frequency scores are the article's own calibration",
+    "union_ids": [
+     "U-013"
+    ],
+    "source_fact_ids": [
+     "F-009",
+     "F-010",
+     "F-019",
+     "F-024",
+     "F-038",
+     "F-039",
+     "F-040",
+     "F-043"
+    ],
+    "article_target_ids": [
+     "frequency:001",
+     "register:001",
+     "frequency:002",
+     "register:002",
+     "frequency:003",
+     "register:003",
+     "frequency:004",
+     "register:004",
+     "frequency:005",
+     "register:005",
+     "frequency:006",
+     "register:006",
+     "frequency:007",
+     "register:007",
+     "frequency:008",
+     "register:008"
+    ],
+    "source_supports": [
+     {
+      "source_fact_id": "F-009",
+      "support_summary": "Merriam-Webster's third transitive sense is to desegregate, with the school-districts example, and to end the segregation of and bring into equal membership. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-010",
+      "support_summary": "Merriam-Webster's fourth transitive sense is to find the integral of something such as a function or equation. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-019",
+      "support_summary": "Longman's corpus notes list these adverbs as the usual modifiers of integrate. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-024",
+      "support_summary": "Oxford's second adjective sense covers integrated institutions intended for all races or religious groups, naming race, sex and religion rather than race alone. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-038",
+      "support_summary": "The School integration in the United States article describes it as the process of ending race-based segregation in American schools. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-039",
+      "support_summary": "The Integrated education in Northern Ireland article describes integrated schools as bringing together children from Catholic, Protestant and other backgrounds. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-040",
+      "support_summary": "Writing on American schools distinguishes legally desegregated schools that remain almost entirely single-race from integrated ones. This fact is checked against U-013."
+     },
+     {
+      "source_fact_id": "F-043",
+      "support_summary": "The Integral article lists integration by parts among the standard techniques and numerical integration for cases without a closed form. This fact is checked against U-013."
+     }
+    ]
+   }
+  ]
+ }
+}
