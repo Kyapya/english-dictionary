@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 8,
-    "candidate_pages": 10
+    "research_queries": 10,
+    "candidate_pages": 13
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T17:46:42Z",
   "deadline_at": "2026-08-28T19:16:42Z",
   "pre_draft_deadline_at": "2026-08-28T18:16:42Z",
-  "last_heartbeat_at": "2026-08-28T17:47:39Z",
+  "last_heartbeat_at": "2026-08-28T18:03:33Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T17:46:44Z",
@@ -46,7 +46,7 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "independent checker passes returned one blocking and one minor evidence finding; the unsupported passive-in illustration was removed from sense 1 and Collins was added to attest the intransitive thing-subject frame, so the cycle restarts",
   "open_questions": [],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",

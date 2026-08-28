@@ -88,7 +88,7 @@ tags: []
 例: Digital skills are now integrated into the primary school curriculum.  
 訳: デジタル技能は今では小学校の教育課程に組み込まれている。  
 
-【語法・注意】前置詞で含意が変わる。into は「既にある大きな全体の中へ入れる」、with は「対等なものどうしを結び合わせる」を表し、integrate the new office into the group（新拠点をグループの一部にする）と integrate the new office with the head office（新拠点と本社を結び付ける）は述べていることが違う。× integrate A to B は誤りで、○ integrate A into B または ○ integrate A with B とする。受動態では be integrated in the curriculum のように in を使う例も辞書に載るが、能動態の目的語の後ろでは into と with が中心である。include との違いにも注意する。The list includes three names.（一覧に載っている）は integrate では置き換えられない。integrate は組み込んだ後に全体として機能することまで述べる。  
+【語法・注意】前置詞で含意が変わる。into は「既にある大きな全体の中へ入れる」、with は「対等なものどうしを結び合わせる」を表し、integrate the new office into the group（新拠点をグループの一部にする）と integrate the new office with the head office（新拠点と本社を結び付ける）は述べていることが違う。× integrate A to B は誤りで、○ integrate A into B または ○ integrate A with B とする。能動態の目的語の後ろでは into と with が中心である。include との違いにも注意する。The list includes three names.（一覧に載っている）は integrate では置き換えられない。integrate は組み込んだ後に全体として機能することまで述べる。  
 
 【類義語】
 
