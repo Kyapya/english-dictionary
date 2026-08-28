@@ -793,5 +793,64 @@ class RunWordTests(unittest.TestCase):
             self.assertFalse((root / "audits" / "runs").exists())
 
 
+class ResumeIngestFailureTests(unittest.TestCase):
+    def _manifest_path(self, root: Path) -> Path:
+        manifest = guard.new_manifest(
+            headword="sample",
+            entry_path="entries/s/sample.md",
+            branch="add/sample",
+            base_sha="a" * 40,
+            run_id="resume-run",
+        )
+        manifest["remote_checkpoint"] = {
+            "confirmed": True,
+            "confirmed_at": manifest["started_at"],
+            "commit_sha": "b" * 40,
+        }
+        path = root / "resume-run.json"
+        guard._write(path, manifest)
+        return path
+
+    def test_failed_ingestion_is_charged_to_the_guard_instead_of_raising(self) -> None:
+        with tempfile.TemporaryDirectory() as directory:
+            path = self._manifest_path(Path(directory))
+            failure = ValueError(
+                "handoff response is missing: handoff/checker_passes.stage2.response.json"
+            )
+            with mock.patch.object(
+                run_word, "ingest_handoff_review", side_effect=failure
+            ):
+                for attempt in range(1, guard.MAX_REVIEW_INGEST_FAILURES):
+                    code = run_word._resume(
+                        path,
+                        ingest_review="checker_passes",
+                        declared_model="independent-reviewer",
+                    )
+                    self.assertEqual(code, 1)
+                    manifest = guard._read(path)
+                    self.assertEqual(
+                        manifest["review_ingest_failures"]["count"], attempt
+                    )
+                    self.assertEqual(manifest["status"], "in_progress")
+                code = run_word._resume(
+                    path,
+                    ingest_review="checker_passes",
+                    declared_model="independent-reviewer",
+                )
+            self.assertEqual(code, 2)
+            manifest = guard._read(path)
+            self.assertEqual(manifest["status"], "budget_exhausted")
+            self.assertIn("checker_passes", manifest["stop_reason"])
+            self.assertEqual(guard.validate_manifest(manifest), [])
+            self.assertEqual(
+                run_word._resume(
+                    path,
+                    ingest_review="checker_passes",
+                    declared_model="independent-reviewer",
+                ),
+                2,
+            )
+
+
 if __name__ == "__main__":
     unittest.main()

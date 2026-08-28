@@ -13,13 +13,16 @@ REPO_ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(REPO_ROOT / "scripts"))
 
 from entry_workflow_guard import (  # noqa: E402
+    MAX_REVIEW_INGEST_FAILURES,
     PROFILES,
     _is_registered_review_demotion,
     advance_stage,
+    clear_review_ingest_failures,
     confirm_remote_checkpoint,
     enforce_budget,
     new_manifest,
     record_research,
+    record_review_ingest_failure,
     validate_manifest,
 )
 
@@ -325,6 +328,72 @@ class EntryWorkflowGuardTests(unittest.TestCase):
                     repo_root=root,
                 )
             )
+
+
+class ReviewIngestFailureTests(unittest.TestCase):
+    def test_repeated_ingestion_failures_stop_the_run(self) -> None:
+        value = manifest()
+        confirm_without_git(value)
+        for attempt in range(1, MAX_REVIEW_INGEST_FAILURES):
+            running = record_review_ingest_failure(
+                value,
+                stage="checker_passes",
+                error="handoff response is missing: checker_passes.stage2.response.json",
+                now=START + timedelta(minutes=attempt),
+            )
+            self.assertTrue(running)
+            self.assertEqual(value["review_ingest_failures"]["count"], attempt)
+            self.assertEqual(value["status"], "in_progress")
+        running = record_review_ingest_failure(
+            value,
+            stage="checker_passes",
+            error="handoff response is missing: checker_passes.stage2.response.json",
+            now=START + timedelta(minutes=MAX_REVIEW_INGEST_FAILURES),
+        )
+        self.assertFalse(running)
+        self.assertEqual(value["status"], "budget_exhausted")
+        self.assertIn("checker_passes", value["stop_reason"])
+        self.assertTrue(value["open_questions"])
+        self.assertEqual(validate_manifest(value), [])
+
+    def test_failed_ingestion_does_not_refresh_the_heartbeat(self) -> None:
+        value = manifest()
+        confirm_without_git(value)
+        heartbeat = value["last_heartbeat_at"]
+        self.assertTrue(
+            record_review_ingest_failure(
+                value, stage="cold_review", error="boom", now=START + timedelta(minutes=2)
+            )
+        )
+        self.assertEqual(value["last_heartbeat_at"], heartbeat)
+
+    def test_elapsed_budget_stops_the_run_even_while_ingestion_keeps_failing(self) -> None:
+        value = manifest()
+        confirm_without_git(value)
+        limit = PROFILES["standard"]["max_elapsed_minutes"]
+        running = record_review_ingest_failure(
+            value,
+            stage="checker_passes",
+            error="boom",
+            now=START + timedelta(minutes=limit + 1),
+        )
+        self.assertFalse(running)
+        self.assertEqual(value["status"], "budget_exhausted")
+        self.assertEqual(value["stop_reason"], "overall elapsed-time budget exhausted")
+
+    def test_a_new_stage_and_a_successful_ingestion_reset_the_streak(self) -> None:
+        value = manifest()
+        confirm_without_git(value)
+        record_review_ingest_failure(
+            value, stage="checker_passes", error="boom", now=START + timedelta(minutes=2)
+        )
+        record_review_ingest_failure(
+            value, stage="cold_review", error="boom", now=START + timedelta(minutes=3)
+        )
+        self.assertEqual(value["review_ingest_failures"]["stage"], "cold_review")
+        self.assertEqual(value["review_ingest_failures"]["count"], 1)
+        clear_review_ingest_failures(value)
+        self.assertNotIn("review_ingest_failures", value)
 
 
 if __name__ == "__main__":

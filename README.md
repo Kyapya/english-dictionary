@@ -31,6 +31,8 @@ python scripts/run_word.py --resume <workflow-run.json> \
   --ingest-review <stage> --declared-model <model-name>
 ```
 
+handoffモードの `checker_passes` だけは2往復です。1往復目の応答（7パスすべてを過不足なく1回ずつ含み、frame-relationには `antonym_axis_blind_record` を含む）を取り込むと、段階は完了せず `check_passes/checker_passes.stage1.json` にcheckpointが保存され、`--ingest-review` は第2往復のhandoffパス `handoff/checker_passes.stage2.request.md` を返します。2往復目の応答は `antonym_axis_adjudication_record_v1` 1個で、`handoff/checker_passes.stage2.response.json` という別ファイル名に保存し、同じ `--ingest-review checker_passes` をもう一度実行して段階を完了させます。第2応答が未作成のまま取り込むと `handoff response is missing: …checker_passes.stage2.response.json` で失敗します。この場合はhandoffを作り直さず、stage2応答だけを用意します。取り込み失敗はguardが記録し、同じ段が3回失敗した時点でrunを `budget_exhausted` で停止します。
+
 オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立cold review、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
 
 `process_improvement/ACTIVE.md` は生成段だけへ渡し、コールドレビューと最終盲検には渡しません。registryは `scripts/process_improvement.py` が検証し、単語固有のメモや「新しい知見なし」はrecordにしません。
@@ -43,7 +45,7 @@ python scripts/run_word.py --resume <workflow-run.json> \
 |---|---|
 | 辞書内容・表示 | `prompts/entry_spec_v5.md` |
 | checker routing | `prompts/check_router_v6.md` |
-| 内容checker | 7つの `prompts/check_pass_*_v6.md` |
+| 内容checker | ルーターが指す7つのパス仕様（frame-relationは `prompts/check_pass_frame_relation_v7.md`、他6パスは `prompts/check_pass_*_v6.md`） |
 | cold review | `prompts/cold_review_prompt_v1.md` |
 | final blind | `prompts/final_blind_prompt_v2.md` |
 | finding解決 | `prompts/finding_resolution_v6.md` |
@@ -55,7 +57,7 @@ python scripts/run_word.py --resume <workflow-run.json> \
 
 ## v6 checker
 
-通常チェックは13個の内容欠陥分類を7パスへ一意に割り当て、各パスへ必要なentry sectionだけを渡します。
+通常チェックは13個の内容欠陥分類を7パスへ一意に割り当て、各パスへ必要なentry sectionだけを渡します。frame-relationだけは `check_pass_frame_relation_v7.md` を使い、反意語軸の盲検採取と裁定を分けた2段構成です。
 
 - translation
 - example-attribution
