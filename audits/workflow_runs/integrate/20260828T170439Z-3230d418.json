@@ -18,12 +18,12 @@
     "research_queries": 6,
     "candidate_pages": 8
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T17:04:39Z",
   "deadline_at": "2026-08-28T18:34:39Z",
   "pre_draft_deadline_at": "2026-08-28T17:34:39Z",
-  "last_heartbeat_at": "2026-08-28T17:05:35Z",
+  "last_heartbeat_at": "2026-08-28T17:23:06Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T17:04:42Z",
@@ -46,8 +46,10 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "independent checker passes returned one blocking and five other findings, chiefly the merged Wikipedia source pointing evidence links at the wrong article; the inventory and body were revised, so the cycle restarts",
+  "open_questions": [
+    "give every merged-source fact its own locator"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",

@@ -629,9 +629,9 @@ tags: []
 訳: 彼女はその郡で人種統合された学校に通った最初の生徒の一人だった。  
 
 ・an integrated 〈neighborhood〉  
-用途: 複数の人種の住民が暮らす地区を指す。  
+用途: 人種による分離をやめ、複数の人種の住民がともに暮らす地区を指す。  
 例: They deliberately chose an integrated neighborhood when they bought their house.  
-訳: 彼らは家を買うとき、意識して人種の混在する地区を選んだ。  
+訳: 彼らは家を買うとき、意識して人種統合された地区を選んだ。  
 
 ・racially integrated  
 用途: racially を添えて、人種についての統合であることを明示する叙述用法。  
@@ -732,17 +732,10 @@ tags: []
 例: Students learn to antidifferentiate simple polynomials before studying definite integrals.  
 訳: 学生は定積分を学ぶ前に、簡単な多項式の原始関数を求めることを学ぶ。  
 
-・sum  
-定義: 複数の値を足し合わせて合計を出す。  
-頻度: 〈6/10〉  
-違い: 積分は細かい部分の和の極限として定義されるため操作の発想は重なるが、sum は有限個の値を足すことに限られ、連続的に変化する量は扱わない。  
-例: The program sums the daily totals at the end of each month.  
-訳: そのプログラムは毎月末に日ごとの合計を足し合わせる。  
-
 ・evaluate the integral  
 定義: 立てられた積分の値を計算して求める。  
 頻度: 〈3/10〉  
-違い: 積分を作る操作ではなく、すでに立式された積分の値を出し切るところに重点がある。integrate は関数から積分を作る操作そのものを指す。  
+違い: どちらも積分の計算を行うことを指すが、evaluate the integral は立式済みの積分の値を出す段階に限られる。integrate は関数から積分を作る操作そのものを含む。  
 例: Evaluate the integral by substituting u for the exponent.  
 訳: 指数部を u に置き換えて、その積分の値を求めよ。  
 
