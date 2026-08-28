@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T16:18:51Z",
   "deadline_at": "2026-08-28T17:48:51Z",
   "pre_draft_deadline_at": "2026-08-28T16:48:51Z",
-  "last_heartbeat_at": "2026-08-28T16:38:07Z",
+  "last_heartbeat_at": "2026-08-28T16:42:39Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T16:18:53Z",
@@ -46,8 +46,11 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "independent checker passes returned four blocking and six other findings, chiefly unsupported pronunciation and lexical-relation claims in the source inventory and an over-narrow regional label; the body was revised, so the cycle restarts",
+  "open_questions": [
+    "source the integration and integrated pronunciation claims and the disintegrate derivation",
+    "bind the synonym and antonym entries to facts that actually cover them"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",
