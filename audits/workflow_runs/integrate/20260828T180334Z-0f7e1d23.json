@@ -18,12 +18,12 @@
     "research_queries": 10,
     "candidate_pages": 13
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T18:03:34Z",
   "deadline_at": "2026-08-28T19:33:34Z",
   "pre_draft_deadline_at": "2026-08-28T18:33:34Z",
-  "last_heartbeat_at": "2026-08-28T18:05:44Z",
+  "last_heartbeat_at": "2026-08-28T18:20:33Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T18:03:36Z",
@@ -46,7 +46,7 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "independent checker passes returned one blocking and two minor findings; the integrated pronunciation locator was corrected, the comparative register statements were disclosed, and two article overreaches were softened, so the cycle restarts",
   "open_questions": [],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",

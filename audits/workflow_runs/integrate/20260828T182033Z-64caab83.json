@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 12,
+    "candidate_pages": 16
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-08-28T18:20:33Z",
   "deadline_at": "2026-08-28T19:50:33Z",
   "pre_draft_deadline_at": "2026-08-28T18:50:33Z",
-  "last_heartbeat_at": "2026-08-28T18:20:35Z",
+  "last_heartbeat_at": "2026-08-28T18:20:51Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T18:20:35Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-08-28T18:20:35Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-28T18:20:51Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -448,20 +453,20 @@
       {
         "id": "generation",
         "instruction_bytes": 53277,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 53277,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 3.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -600,35 +605,45 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0003",
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0004",
         "status": "active",
         "instruction_bytes": 276,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/i/integrate.md",
+        "audits/runs/i/integrate/20260828T182033Z-64caab83/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/i/integrate/20260828T182033Z-64caab83/validator.json"
+      ]
+    }
   }
 }

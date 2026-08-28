@@ -1,0 +1,51 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "b8159d0cf95ec217f7f5327abb2eff9fc3106df95ee977a73b16b73799d1dc29",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /ˈɪntəˌɡreɪt/｜英: /ˈɪntɪɡreɪt/。3音節の in-te-grate で、第1音節 /ˈɪn/ に主強勢がある。  "
+      },
+      {
+        "line": 16,
+        "text": "米英の記号の差は2か所である。第1に第2音節の母音で、米は /ə/、英は /ɪ/ と表記する。第2に第3音節で、米の記号には第二強勢 /ˌ/ があり、英の記号にはこれがない。第2音節の母音は米英どちらも弱化した短い母音で、辞書によって英音を /ə/ と表記することもある。  "
+      },
+      {
+        "line": 17,
+        "text": "過去形・過去分詞 integrated は、上の記号に規則的な -ed の /ɪd/ を加えた米 /ˈɪntəˌɡreɪtɪd/｜英 /ˈɪntɪɡreɪtɪd/ となり、4音節になる。辞書も integrated を4音節として扱う。母音の質と強勢の位置は動詞と変わらない。  "
+      },
+      {
+        "line": 18,
+        "text": "名詞 integration は英 /ˌɪntɪˈɡreɪʃən/ と記録され、主強勢が第3音節へ移って第1音節が第二強勢 /ˌ/ になる。米音では、動詞と同じく第2音節の母音が /ə/ になる。動詞と名詞で主強勢の位置が変わる点に注意する。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
