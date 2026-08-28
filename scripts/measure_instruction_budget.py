@@ -6,6 +6,8 @@ import sys
 from pathlib import Path
 from typing import Any
 
+import check_passes
+
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
 SCHEMA_VERSION = "instruction_budget_measurement_v1"
@@ -26,10 +28,8 @@ def measurement(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         "backups/2026-08-25-process-refactor/prompts/check_spec_v5.md",
         "backups/2026-08-25-process-refactor/prompts/final_review_spec_v1.md",
     ]
-    pass_files = [
-        path.relative_to(repo_root).as_posix()
-        for path in sorted((repo_root / "prompts").glob("check_pass_*_v6.md"))
-    ]
+    router = check_passes.load_router(repo_root / "prompts" / "check_router_v6.md")
+    pass_files = [str(item["specification"]) for item in router["passes"]]
     after_files = [
         "AGENTS.md",
         "prompts/entry_spec_v5.md",
@@ -92,7 +92,7 @@ def measurement(repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         "measured_at": "2026-08-26",
         "method": (
             "各構成で1語の処理に必読となる指示ファイルをbytesで合計し、"
-            "v6は実行境界ごとのbundleも同じファイル実体から計測する。"
+            "現行checkerはrouter参照先を使い、実行境界ごとのbundleも同じファイル実体から計測する。"
         ),
         "before": {
             "files": before_files,

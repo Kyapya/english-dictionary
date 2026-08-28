@@ -440,6 +440,28 @@ def generate_manifest(
         if attribution_alignment_path.is_file()
         else None
     )
+    antonym_request_path = cycle_dir / "check_passes" / "frame-relation.request.json"
+    antonym_stage2_path = (
+        cycle_dir
+        / "check_passes"
+        / "frame-relation.antonym-axis.stage2.request.json"
+    )
+    antonym_alignment_path = (
+        cycle_dir
+        / "check_passes"
+        / "frame-relation.antonym-axis.alignment-key.json"
+    )
+    antonym_request = (
+        _read_json(antonym_request_path) if antonym_request_path.is_file() else None
+    )
+    antonym_stage2_request = (
+        _read_json(antonym_stage2_path) if antonym_stage2_path.is_file() else None
+    )
+    antonym_alignment = (
+        _read_json(antonym_alignment_path)
+        if antonym_alignment_path.is_file()
+        else None
+    )
     if (
         _is_historical_cycle(cycle_dir)
         and attribution_request is None
@@ -462,17 +484,28 @@ def generate_manifest(
         actual_passes.add(pass_id)
         request_path = cycle_dir / "check_passes" / f"{pass_id}.request.json"
         request_payload = _read_json(request_path) if request_path.is_file() else None
+        if pass_id == "frame-relation" and antonym_stage2_request is not None:
+            request_payload = antonym_stage2_request
         errors = check_passes.validate_pass_output(
             output,
             router,
             entry_path=entry_path,
             repo_root=repo_root,
             example_request=attribution_request,
+            antonym_request=antonym_request,
+            antonym_stage2_request=antonym_stage2_request,
+            antonym_alignment_key=antonym_alignment,
             request_payload=request_payload,
             alignment_key=attribution_alignment,
             check_liveness=False,
             generation_model=generation_model,
             require_reviewer=provenance_contract,
+            require_antonym_axis=(
+                "antonym_axis_blind_record" in output
+                or antonym_request is not None
+                or antonym_stage2_request is not None
+                or antonym_alignment is not None
+            ),
         )
         if errors:
             raise ValueError(f"pass output {pass_id}: " + "; ".join(errors))

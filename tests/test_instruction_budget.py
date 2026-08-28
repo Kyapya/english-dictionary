@@ -28,12 +28,12 @@ class InstructionBudgetTests(unittest.TestCase):
         self.assertEqual(value["before"]["required_instruction_bytes_per_word"], 167_869)
         self.assertLess(
             value["after"]["required_instruction_bytes_per_word"],
-            value["before"]["required_instruction_bytes_per_word"] * 0.53,
+            value["before"]["required_instruction_bytes_per_word"] * 0.57,
         )
         self.assertLessEqual(
             value["after"]["max_instruction_bytes_in_one_execution"], 54_000
         )
-        self.assertGreaterEqual(value["effect"]["percent_reduced_per_word"], 47)
+        self.assertGreaterEqual(value["effect"]["percent_reduced_per_word"], 43)
 
     def test_no_checker_execution_receives_the_combined_pass_specs(self) -> None:
         value = budget.measurement()

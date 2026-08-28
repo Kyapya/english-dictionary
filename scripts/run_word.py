@@ -120,6 +120,7 @@ def build_plan(
             (check_spec,),
             (
                 "router-selected entry sections",
+                "frame-relation antonym-axis masked stage 1 before full-sense adjudication",
                 "example-attribution masked stage 1 before ownership alignment",
                 "source inventory for evidence pass",
                 "machine validator findings",
@@ -260,6 +261,27 @@ def plan_payload(
                         "alignment_key_path": (
                             f"{_artifact_root(headword)}/check_passes/"
                             "example-attribution.alignment-key.json"
+                        ),
+                    }
+                )
+            if item["id"] == "frame-relation":
+                pass_plan.update(
+                    {
+                        "stage1_output_path": (
+                            f"{_artifact_root(headword)}/check_passes/"
+                            "frame-relation.antonym-axis.blind-record.json"
+                        ),
+                        "stage2_request_path": (
+                            f"{_artifact_root(headword)}/check_passes/"
+                            "frame-relation.antonym-axis.stage2.request.json"
+                        ),
+                        "stage2_output_path": (
+                            f"{_artifact_root(headword)}/check_passes/"
+                            "frame-relation.antonym-axis.adjudication-record.json"
+                        ),
+                        "alignment_key_path": (
+                            f"{_artifact_root(headword)}/check_passes/"
+                            "frame-relation.antonym-axis.alignment-key.json"
                         ),
                     }
                 )
@@ -563,7 +585,21 @@ def prepare_review_inputs(
             json.dumps(alignment, ensure_ascii=False, indent=2) + "\n",
             encoding="utf-8",
         )
-        return [*paths, alignment_path], {"stage": stage, "requests": bundles}
+        antonym_alignment = check_passes.build_antonym_axis_alignment_key(
+            entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
+        )
+        antonym_alignment_path = (
+            check_dir / "frame-relation.antonym-axis.alignment-key.json"
+        )
+        antonym_alignment_path.write_text(
+            json.dumps(antonym_alignment, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        return [
+            *paths,
+            alignment_path,
+            antonym_alignment_path,
+        ], {"stage": stage, "requests": bundles}
 
     packet: dict[str, Any] = {
         "stage": stage,
@@ -612,6 +648,46 @@ def prepare_handoff(
     if request.get("reviewer_mode") != "handoff":
         raise ValueError("review handoff is only available in handoff mode")
     stage = str(request["name"])
+    output_paths = [repo_root / str(value) for value in request["output_paths"]]
+    cycle_dir = (
+        output_paths[-1].parent
+        if stage == "checker_passes"
+        else output_paths[0].parent
+    )
+    if stage == "checker_passes":
+        checkpoint = cycle_dir / "check_passes" / "checker_passes.stage1.json"
+        stage2_request_path = (
+            cycle_dir
+            / "check_passes"
+            / "frame-relation.antonym-axis.stage2.request.json"
+        )
+        if checkpoint.is_file():
+            if not stage2_request_path.is_file():
+                raise ValueError(
+                    "process defect: checker stage 1 checkpoint has no stage 2 request"
+                )
+            packet = json.loads(stage2_request_path.read_text(encoding="utf-8"))
+            prompt_text = (
+                repo_root / "prompts" / "check_pass_frame_relation_v7.md"
+            ).read_text(encoding="utf-8")
+            handoff_path = (
+                cycle_dir / "handoff" / "checker_passes.stage2.request.md"
+            )
+            handoff_path.parent.mkdir(parents=True, exist_ok=True)
+            handoff_path.write_text(
+                "# Independent review handoff\n\n"
+                "Stage: `checker_passes/frame-relation-antonym-axis-stage2`\n\n"
+                "The response must be one `antonym_axis_adjudication_record_v1` "
+                "JSON object and must be saved as "
+                "`checker_passes.stage2.response.json`.\n\n"
+                "## Prompt\n\n"
+                f"{prompt_text}\n\n"
+                "## Input packet\n\n```json\n"
+                + json.dumps(packet, ensure_ascii=False, indent=2)
+                + "\n```\n",
+                encoding="utf-8",
+            )
+            return handoff_path
     _, packet = prepare_review_inputs(manifest, repo_root=repo_root)
     if stage == "checker_passes":
         prompt_text = "\n\n".join(
@@ -656,7 +732,19 @@ def ingest_handoff_review(
         raise ValueError("handoff ingestion requires the independently used model name")
     output_paths = [repo_root / str(value) for value in request["output_paths"]]
     cycle_dir = output_paths[-1].parent if stage == "checker_passes" else output_paths[0].parent
-    response_path = cycle_dir / "handoff" / f"{stage}.response.json"
+    checker_checkpoint = (
+        cycle_dir / "check_passes" / "checker_passes.stage1.json"
+        if stage == "checker_passes"
+        else None
+    )
+    checker_stage2 = bool(
+        checker_checkpoint is not None and checker_checkpoint.is_file()
+    )
+    response_path = (
+        cycle_dir / "handoff" / "checker_passes.stage2.response.json"
+        if checker_stage2
+        else cycle_dir / "handoff" / f"{stage}.response.json"
+    )
     if not response_path.is_file():
         raise ValueError(f"handoff response is missing: {response_path}")
     value = json.loads(response_path.read_text(encoding="utf-8"))
@@ -677,12 +765,6 @@ def ingest_handoff_review(
     value["reviewer"] = reviewer
     liveness_errors: list[str] = []
     if stage == "checker_passes":
-        value.update(_normal_review_metadata(manifest, entry, repo_root=repo_root))
-        value.setdefault("independent_candidates", [])
-        value.setdefault("summary", "Independent checker passes ingested by handoff.")
-        outputs = value.get("pass_outputs")
-        if not isinstance(outputs, list):
-            raise ValueError("checker handoff response requires pass_outputs")
         router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
         check_dir = cycle_dir / "check_passes"
         attr_request = json.loads(
@@ -691,38 +773,164 @@ def ingest_handoff_review(
         alignment = json.loads(
             (check_dir / "example-attribution.alignment-key.json").read_text(encoding="utf-8")
         )
-        for index, output in enumerate(outputs):
-            if not isinstance(output, dict):
-                raise ValueError("checker pass output must be an object")
-            output["reviewer"] = reviewer
-            record = output.get("blind_attribution_record")
-            if isinstance(record, dict):
-                record["reviewer"] = reviewer
-            if output.get("pass_id") == "example-attribution":
-                if not isinstance(record, dict):
-                    raise ValueError(
-                        "example-attribution handoff requires blind_attribution_record"
-                    )
-                output = check_passes.reconcile_example_attribution(
-                    attr_request,
-                    record,
-                    alignment,
-                    aligned_at=datetime.now(timezone.utc).isoformat(),
-                )
-                outputs[index] = output
-            errors = check_passes.validate_pass_output(
-                output,
-                router,
-                entry_path=entry,
-                repo_root=repo_root,
-                example_request=attr_request,
-                alignment_key=alignment,
-                generation_model=generation_model,
+        antonym_request = json.loads(
+            (check_dir / "frame-relation.request.json").read_text(encoding="utf-8")
+        )
+        antonym_alignment = json.loads(
+            (
+                check_dir / "frame-relation.antonym-axis.alignment-key.json"
+            ).read_text(encoding="utf-8")
+        )
+        blind_record_path = (
+            check_dir / "frame-relation.antonym-axis.blind-record.json"
+        )
+        stage2_request_path = (
+            check_dir / "frame-relation.antonym-axis.stage2.request.json"
+        )
+        if not checker_stage2:
+            value.update(_normal_review_metadata(manifest, entry, repo_root=repo_root))
+            value.setdefault("independent_candidates", [])
+            value.setdefault(
+                "summary", "Independent checker stage 1 ingested by handoff."
             )
-            if errors:
-                raise ValueError(
-                    f"pass output {output.get('pass_id')}: " + "; ".join(errors)
+            outputs = value.get("pass_outputs")
+            if not isinstance(outputs, list):
+                raise ValueError("checker handoff response requires pass_outputs")
+            expected_passes = {item["id"] for item in router["passes"]}
+            actual_passes = {
+                str(item.get("pass_id"))
+                for item in outputs
+                if isinstance(item, dict)
+            }
+            if actual_passes != expected_passes or len(outputs) != len(expected_passes):
+                raise ValueError("checker handoff must cover every routed pass exactly once")
+            for index, output in enumerate(outputs):
+                if not isinstance(output, dict):
+                    raise ValueError("checker pass output must be an object")
+                output["reviewer"] = reviewer
+                pass_id = output.get("pass_id")
+                if pass_id == "frame-relation":
+                    blind_record = output.get("antonym_axis_blind_record")
+                    if not isinstance(blind_record, dict):
+                        raise ValueError(
+                            "frame-relation handoff stage 1 requires "
+                            "antonym_axis_blind_record"
+                        )
+                    blind_record["reviewer"] = reviewer
+                    blind_record = check_passes.bind_antonym_axis_blind_record(
+                        blind_record, antonym_request
+                    )
+                    output["antonym_axis_blind_record"] = blind_record
+                    blind_errors = check_passes.validate_antonym_axis_blind_record(
+                        blind_record,
+                        antonym_request,
+                        generation_model=generation_model,
+                    )
+                    if blind_errors:
+                        raise ValueError(
+                            "frame-relation stage 1: " + "; ".join(blind_errors)
+                        )
+                    blind_record_path.write_text(
+                        json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
+                        encoding="utf-8",
+                    )
+                    continue
+                record = output.get("blind_attribution_record")
+                if isinstance(record, dict):
+                    record["reviewer"] = reviewer
+                if pass_id == "example-attribution":
+                    if not isinstance(record, dict):
+                        raise ValueError(
+                            "example-attribution handoff requires blind_attribution_record"
+                        )
+                    output = check_passes.reconcile_example_attribution(
+                        attr_request,
+                        record,
+                        alignment,
+                        aligned_at=datetime.now(timezone.utc).isoformat(),
+                    )
+                    outputs[index] = output
+                errors = check_passes.validate_pass_output(
+                    output,
+                    router,
+                    entry_path=entry,
+                    repo_root=repo_root,
+                    example_request=attr_request,
+                    alignment_key=alignment,
+                    generation_model=generation_model,
                 )
+                if errors:
+                    raise ValueError(
+                        f"pass output {pass_id}: " + "; ".join(errors)
+                    )
+            stage2_request = check_passes.materialize_antonym_axis_stage2_request(
+                entry,
+                antonym_request,
+                blind_record_path,
+                antonym_alignment,
+                repo_root=repo_root,
+            )
+            stage2_request_path.write_text(
+                json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            assert checker_checkpoint is not None
+            checker_checkpoint.write_text(
+                json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            return prepare_handoff(manifest, repo_root=repo_root)
+
+        assert checker_checkpoint is not None
+        checkpoint = json.loads(checker_checkpoint.read_text(encoding="utf-8"))
+        outputs = checkpoint.get("pass_outputs")
+        if not isinstance(outputs, list):
+            raise ValueError("checker stage 1 checkpoint has no pass_outputs")
+        blind_record = json.loads(blind_record_path.read_text(encoding="utf-8"))
+        stage2_request = json.loads(stage2_request_path.read_text(encoding="utf-8"))
+        value["reviewer"] = reviewer
+        value = check_passes.bind_antonym_axis_adjudication_record(
+            value, stage2_request, blind_record
+        )
+        adjudication_path = (
+            check_dir / "frame-relation.antonym-axis.adjudication-record.json"
+        )
+        output = check_passes.reconcile_antonym_axis(
+            antonym_request,
+            blind_record,
+            stage2_request,
+            value,
+            antonym_alignment,
+            aligned_at=datetime.now(timezone.utc).isoformat(),
+            generation_model=generation_model,
+        )
+        adjudication_path.write_text(
+            json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        for index, candidate in enumerate(outputs):
+            if isinstance(candidate, dict) and candidate.get("pass_id") == "frame-relation":
+                outputs[index] = output
+                break
+        else:
+            raise ValueError("checker stage 1 checkpoint has no frame-relation output")
+        errors = check_passes.validate_pass_output(
+            output,
+            router,
+            entry_path=entry,
+            repo_root=repo_root,
+            antonym_request=antonym_request,
+            antonym_stage2_request=stage2_request,
+            antonym_alignment_key=antonym_alignment,
+            request_payload=stage2_request,
+            generation_model=generation_model,
+        )
+        if errors:
+            raise ValueError("pass output frame-relation: " + "; ".join(errors))
+        value = checkpoint
+        value["pass_outputs"] = outputs
+        value["reviewer"] = reviewer
+        value["summary"] = "Independent checker passes completed by two-stage handoff."
         target = output_paths[-1]
     else:
         request_packet_path = cycle_dir / f"{stage}.request.json"
@@ -838,6 +1046,12 @@ def execute_api_review_stage(
         router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
         alignment_path = check_dir / "example-attribution.alignment-key.json"
         alignment = json.loads(alignment_path.read_text(encoding="utf-8"))
+        antonym_alignment_path = (
+            check_dir / "frame-relation.antonym-axis.alignment-key.json"
+        )
+        antonym_alignment = json.loads(
+            antonym_alignment_path.read_text(encoding="utf-8")
+        )
         pass_outputs: list[dict[str, Any]] = []
         created: list[Path] = []
         for bundle in packet["requests"]:
@@ -845,6 +1059,109 @@ def execute_api_review_stage(
             request_path = check_dir / f"{pass_id}.request.json"
             prompt_path = repo_root / str(bundle["specification"])
             final_path = check_dir / f"{pass_id}.json"
+            if pass_id == "frame-relation":
+                blind_record_path = (
+                    check_dir / "frame-relation.antonym-axis.blind-record.json"
+                )
+                blind_record = review_call.execute_review(
+                    stage="checker-frame-relation-antonym-axis-stage1",
+                    request_path=request_path,
+                    prompt_path=prompt_path,
+                    cycle_dir=cycle_dir,
+                    output_path=blind_record_path,
+                    provider=resolved_provider,
+                    model=resolved_model,
+                    api_key=resolved_key,
+                    endpoint=resolved_endpoint,
+                    generation_model=generation_model,
+                )
+                blind_record = check_passes.bind_antonym_axis_blind_record(
+                    blind_record, bundle
+                )
+                blind_record_path.write_text(
+                    json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                blind_errors = check_passes.validate_antonym_axis_blind_record(
+                    blind_record,
+                    bundle,
+                    generation_model=generation_model,
+                )
+                if blind_errors:
+                    raise ValueError(
+                        "API pass output frame-relation stage 1: "
+                        + "; ".join(blind_errors)
+                    )
+                stage2_request = check_passes.materialize_antonym_axis_stage2_request(
+                    entry,
+                    bundle,
+                    blind_record_path,
+                    antonym_alignment,
+                    repo_root=repo_root,
+                )
+                stage2_request_path = (
+                    check_dir / "frame-relation.antonym-axis.stage2.request.json"
+                )
+                stage2_request_path.write_text(
+                    json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                adjudication_path = (
+                    check_dir
+                    / "frame-relation.antonym-axis.adjudication-record.json"
+                )
+                adjudication = review_call.execute_review(
+                    stage="checker-frame-relation-antonym-axis-stage2",
+                    request_path=stage2_request_path,
+                    prompt_path=prompt_path,
+                    cycle_dir=cycle_dir,
+                    output_path=adjudication_path,
+                    provider=resolved_provider,
+                    model=resolved_model,
+                    api_key=resolved_key,
+                    endpoint=resolved_endpoint,
+                    generation_model=generation_model,
+                )
+                adjudication = check_passes.bind_antonym_axis_adjudication_record(
+                    adjudication, stage2_request, blind_record
+                )
+                adjudication_path.write_text(
+                    json.dumps(adjudication, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                output = check_passes.reconcile_antonym_axis(
+                    bundle,
+                    blind_record,
+                    stage2_request,
+                    adjudication,
+                    antonym_alignment,
+                    aligned_at=datetime.now(timezone.utc).isoformat(),
+                    generation_model=generation_model,
+                )
+                final_path.write_text(
+                    json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+                    encoding="utf-8",
+                )
+                errors = check_passes.validate_pass_output(
+                    output,
+                    router,
+                    entry_path=entry,
+                    repo_root=repo_root,
+                    antonym_request=bundle,
+                    antonym_stage2_request=stage2_request,
+                    antonym_alignment_key=antonym_alignment,
+                    request_payload=stage2_request,
+                    generation_model=generation_model,
+                )
+                if errors:
+                    raise ValueError(
+                        "API pass output frame-relation: " + "; ".join(errors)
+                    )
+                pass_outputs.append(output)
+                created.extend(
+                    [blind_record_path, adjudication_path, final_path]
+                )
+                continue
             model_output_path = (
                 check_dir / "example-attribution.blind-record.json"
                 if pass_id == "example-attribution"
@@ -1071,12 +1388,107 @@ def run_yield_acceptance(*, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         json.dumps(alignment, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
+    antonym_alignment = check_passes.build_antonym_axis_alignment_key(
+        fixture, repo_root=repo_root, blind_seed=run_id
+    )
+    (
+        check_dir / "frame-relation.antonym-axis.alignment-key.json"
+    ).write_text(
+        json.dumps(antonym_alignment, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
     router = check_passes.load_router(repo_root / DEFAULT_CHECK_SPEC)
     pass_outputs: list[dict[str, Any]] = []
     for bundle in bundles:
         pass_id = str(bundle["pass_id"])
         request_path = check_dir / f"{pass_id}.request.json"
         prompt_path = repo_root / str(bundle["specification"])
+        if pass_id == "frame-relation":
+            blind_record_path = (
+                check_dir / "frame-relation.antonym-axis.blind-record.json"
+            )
+            blind_record = review_call.execute_review(
+                stage="checker-frame-relation-antonym-axis-stage1",
+                request_path=request_path,
+                prompt_path=prompt_path,
+                cycle_dir=cycle_dir,
+                output_path=blind_record_path,
+                provider=provider,
+                model=model,
+                api_key=api_key,
+                endpoint=endpoint,
+                generation_model=generation_model,
+            )
+            blind_record = check_passes.bind_antonym_axis_blind_record(
+                blind_record, bundle
+            )
+            blind_record_path.write_text(
+                json.dumps(blind_record, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            stage2_request = check_passes.materialize_antonym_axis_stage2_request(
+                fixture,
+                bundle,
+                blind_record_path,
+                antonym_alignment,
+                repo_root=repo_root,
+            )
+            stage2_request_path = (
+                check_dir / "frame-relation.antonym-axis.stage2.request.json"
+            )
+            stage2_request_path.write_text(
+                json.dumps(stage2_request, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            adjudication = review_call.execute_review(
+                stage="checker-frame-relation-antonym-axis-stage2",
+                request_path=stage2_request_path,
+                prompt_path=prompt_path,
+                cycle_dir=cycle_dir,
+                output_path=(
+                    check_dir
+                    / "frame-relation.antonym-axis.adjudication-record.json"
+                ),
+                provider=provider,
+                model=model,
+                api_key=api_key,
+                endpoint=endpoint,
+                generation_model=generation_model,
+            )
+            adjudication = check_passes.bind_antonym_axis_adjudication_record(
+                adjudication, stage2_request, blind_record
+            )
+            (
+                check_dir
+                / "frame-relation.antonym-axis.adjudication-record.json"
+            ).write_text(
+                json.dumps(adjudication, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
+            output = check_passes.reconcile_antonym_axis(
+                bundle,
+                blind_record,
+                stage2_request,
+                adjudication,
+                antonym_alignment,
+                aligned_at=datetime.now(timezone.utc).isoformat(),
+                generation_model=generation_model,
+            )
+            errors = check_passes.validate_pass_output(
+                output,
+                router,
+                entry_path=fixture,
+                repo_root=repo_root,
+                antonym_request=bundle,
+                antonym_stage2_request=stage2_request,
+                antonym_alignment_key=antonym_alignment,
+                request_payload=stage2_request,
+                generation_model=generation_model,
+            )
+            if errors:
+                raise ValueError(f"acceptance {pass_id}: " + "; ".join(errors))
+            pass_outputs.append(output)
+            continue
         raw_output = review_call.execute_review(
             stage=f"checker-{pass_id}",
             request_path=request_path,

@@ -21,6 +21,13 @@ ROUTER_BEGIN = "<!-- CHECK_ROUTER_V6_JSON_BEGIN -->"
 ROUTER_END = "<!-- CHECK_ROUTER_V6_JSON_END -->"
 SENSE_PATTERN = re.compile(r"^\d+\.\s+【")
 MAIN_HEADING_PATTERN = re.compile(r"^＃")
+ANTONYM_AXIS_TYPES = {"補完", "程度", "方向", "評価", "状態"}
+ANTONYM_AXIS_FLAGS = {"F1", "F2", "F3", "F4"}
+ANTONYM_DIRECTIONS = {
+    "削除",
+    "語法・注意への対照表現としての移動",
+    "対立軸修正",
+}
 
 
 @dataclass(frozen=True)
@@ -90,14 +97,27 @@ def _router_table_rows(path: Path) -> list[dict[str, Any]]:
         cells = [cell.strip() for cell in stripped.strip("|").split("|")]
         if len(cells) != 3 or cells[0] in {"pass", "---"}:
             continue
+        specification_match = re.search(
+            r"\s+\(`specification:\s+([^`]+)`\)$", cells[2]
+        )
+        section_cell = (
+            cells[2][: specification_match.start()].strip()
+            if specification_match is not None
+            else cells[2]
+        )
         rows.append(
             {
                 "id": cells[0],
+                "specification": (
+                    specification_match.group(1).strip()
+                    if specification_match is not None
+                    else None
+                ),
                 "taxonomy_ids": [
                     value.strip() for value in cells[1].split(",") if value.strip()
                 ],
                 "sections": [
-                    value.strip() for value in cells[2].split(",") if value.strip()
+                    value.strip() for value in section_cell.split(",") if value.strip()
                 ],
             }
         )
@@ -130,6 +150,14 @@ def validate_router(
     router_path = repo_root / "prompts" / "check_router_v6.md"
     if router_path.is_file():
         table_rows = _router_table_rows(router_path)
+        table_core = [
+            {
+                "id": item["id"],
+                "taxonomy_ids": item["taxonomy_ids"],
+                "sections": item["sections"],
+            }
+            for item in table_rows
+        ]
         json_rows = [
             {
                 "id": item.get("id"),
@@ -139,8 +167,27 @@ def validate_router(
             for item in passes
             if isinstance(item, dict)
         ]
-        if table_rows != json_rows:
+        if table_core != json_rows:
             errors.append("router pass table and machine-readable JSON must match exactly")
+        table_frame = next(
+            (item for item in table_rows if item["id"] == "frame-relation"), None
+        )
+        json_frame = next(
+            (
+                item
+                for item in passes
+                if isinstance(item, dict) and item.get("id") == "frame-relation"
+            ),
+            None,
+        )
+        if (
+            table_frame is None
+            or json_frame is None
+            or table_frame.get("specification") != json_frame.get("specification")
+        ):
+            errors.append(
+                "frame-relation specification must match in table and JSON"
+            )
     seen_passes: set[str] = set()
     owners: dict[str, str] = {}
     for item in passes:
@@ -304,6 +351,621 @@ def extract_sections(text: str) -> dict[str, list[dict[str, Any]]]:
             if item.text.strip()
         ]
         for key, value in result.items()
+    }
+
+
+def _front_matter_headword(text: str) -> str:
+    lines = text.splitlines()
+    if not lines or lines[0].strip() != "---":
+        return ""
+    for raw in lines[1:]:
+        if raw.strip() == "---":
+            break
+        if raw.startswith("headword:"):
+            return raw.split(":", 1)[1].strip().strip("'\"")
+    return ""
+
+
+def _clean_relation_term(value: str) -> str:
+    return value.strip().removeprefix("・").strip().strip("`")
+
+
+def _antonym_axis_material(text: str) -> dict[str, Any]:
+    """Extract public blind items and coordinator-private stage 2 material."""
+    body_start, body_lines = _split_front_matter(text)
+    main = _main_sections(body_start, body_lines)
+    blocks = _sense_blocks(main.get("senses", []))
+    items: list[dict[str, Any]] = []
+    senses: list[dict[str, Any]] = []
+    for sense_index, block in enumerate(blocks, start=1):
+        definition_line = next(
+            (
+                line
+                for line in block[1:]
+                if line.text.strip().startswith("【日本語訳・定義】")
+            ),
+            None,
+        )
+        if definition_line is None:
+            continue
+        senses.append(
+            {
+                "sense_id": f"sense:{sense_index:03d}",
+                "full_sense": [
+                    {"line": line.number, "text": line.text}
+                    for line in block
+                    if line.text.strip()
+                ],
+            }
+        )
+        in_antonyms = False
+        current: list[LocatedLine] = []
+
+        def flush_item() -> None:
+            nonlocal current
+            if not current:
+                return
+            term_line = current[0]
+            definition = next(
+                (
+                    line
+                    for line in current[1:]
+                    if line.text.strip().startswith("定義:")
+                ),
+                None,
+            )
+            if definition is not None:
+                difference = next(
+                    (
+                        line
+                        for line in current[1:]
+                        if line.text.strip().startswith("違い:")
+                    ),
+                    None,
+                )
+                items.append(
+                    {
+                        "source_item_id": f"antonym:{len(items) + 1:03d}",
+                        "sense_id": f"sense:{sense_index:03d}",
+                        "headword": _front_matter_headword(text),
+                        "sense_definition": definition_line.text.strip(),
+                        "antonym": _clean_relation_term(term_line.text),
+                        "antonym_definition": definition.text.strip(),
+                        "anchor": {
+                            "section": "lexical_relations",
+                            "line_start": term_line.number,
+                            "line_end": term_line.number,
+                            "exact_quote": term_line.text,
+                        },
+                        "difference_anchor": (
+                            {
+                                "section": "lexical_relations",
+                                "line_start": difference.number,
+                                "line_end": difference.number,
+                                "exact_quote": difference.text,
+                            }
+                            if difference is not None
+                            else None
+                        ),
+                    }
+                )
+            current = []
+
+        for line in block[1:]:
+            stripped = line.text.strip()
+            if stripped == "【反意語】":
+                flush_item()
+                in_antonyms = True
+                continue
+            if stripped.startswith("【"):
+                if in_antonyms:
+                    flush_item()
+                in_antonyms = False
+                continue
+            if not in_antonyms or not stripped:
+                continue
+            if stripped.startswith("・"):
+                flush_item()
+            current.append(line)
+        flush_item()
+    item_sense_ids = {str(item["sense_id"]) for item in items}
+    return {
+        "headword": _front_matter_headword(text),
+        "items": items,
+        "senses": [
+            sense for sense in senses if str(sense["sense_id"]) in item_sense_ids
+        ],
+    }
+
+
+def _antonym_opaque_ids(
+    material: dict[str, Any], blind_seed: str
+) -> dict[str, str]:
+    return {
+        str(item["source_item_id"]): "ant-"
+        + hashlib.sha256(
+            f"{blind_seed}\0{item['source_item_id']}".encode("utf-8")
+        ).hexdigest()[:12]
+        for item in material["items"]
+    }
+
+
+def _antonym_axis_blind_request(
+    text: str,
+    body_bytes: bytes,
+    check_pass: dict[str, Any],
+    finding_schema: dict[str, Any],
+    *,
+    blind_seed: str,
+) -> dict[str, Any]:
+    material = _antonym_axis_material(text)
+    opaque_ids = _antonym_opaque_ids(material, blind_seed)
+    items = [
+        {
+            "item_id": opaque_ids[str(item["source_item_id"])],
+            "headword": item["headword"],
+            "sense_definition": item["sense_definition"],
+            "antonym": item["antonym"],
+            "antonym_definition": item["antonym_definition"],
+        }
+        for item in material["items"]
+    ]
+    random.Random(blind_seed).shuffle(items)
+    return {
+        "schema_version": "antonym_axis_blind_request_v1",
+        "pass_id": check_pass["id"],
+        "taxonomy_ids": list(check_pass["taxonomy_ids"]),
+        "specification": check_pass["specification"],
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "input_sections": {"antonym_items": items},
+        "blind_protocol": {
+            "stage": 1,
+            "withheld_fields": [
+                "difference_line",
+                "frequency_line",
+                "example_line",
+                "translation_line",
+                "synonym_section",
+                "core_image",
+                "other_senses",
+                "document_order",
+            ],
+            "questions": [
+                "name_axis_as_one_noun",
+                "classify_as_補完_程度_方向_評価_状態",
+                "record_unnamable_with_one_sentence_reason",
+            ],
+            "required_output_schema": "antonym_axis_blind_record_v1",
+        },
+        "finding_schema": finding_schema,
+    }
+
+
+def build_antonym_axis_alignment_key(
+    entry_path: Path,
+    *,
+    repo_root: Path = REPO_ROOT,
+    router_path: Path | None = None,
+    blind_seed: str | None = None,
+) -> dict[str, Any]:
+    raw = entry_path.resolve().read_bytes()
+    text = raw.decode("utf-8")
+    _, body_lines = _split_front_matter(text)
+    body_bytes = "\n".join(body_lines).encode("utf-8")
+    router = load_router(router_path or (repo_root / "prompts" / "check_router_v6.md"))
+    check_pass = next(
+        item for item in router["passes"] if item["id"] == "frame-relation"
+    )
+    effective_seed = blind_seed or _digest_bytes(body_bytes)
+    request = _antonym_axis_blind_request(
+        text,
+        body_bytes,
+        check_pass,
+        router["finding_schema"],
+        blind_seed=effective_seed,
+    )
+    material = _antonym_axis_material(text)
+    opaque_ids = _antonym_opaque_ids(material, effective_seed)
+    return {
+        "schema_version": "antonym_axis_alignment_key_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "blind_request_sha256": _digest_json(request),
+        "shuffle_seed": effective_seed,
+        "items": [
+            {
+                **item,
+                "item_id": opaque_ids[str(item["source_item_id"])],
+            }
+            for item in material["items"]
+        ],
+        "senses": material["senses"],
+    }
+
+
+def validate_antonym_axis_blind_record(
+    record: Any,
+    request: dict[str, Any] | None = None,
+    *,
+    generation_model: str | None = None,
+    require_reviewer: bool = True,
+) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(record, dict):
+        return ["antonym_axis_blind_record must be an object"]
+    if record.get("schema_version") != "antonym_axis_blind_record_v1":
+        errors.append(
+            "antonym_axis_blind_record.schema_version must be "
+            "antonym_axis_blind_record_v1"
+        )
+    if record.get("pass_id") != "frame-relation":
+        errors.append("antonym_axis_blind_record.pass_id must be frame-relation")
+    if require_reviewer or record.get("reviewer") is not None:
+        errors.extend(
+            review_liveness.validate_reviewer(
+                record.get("reviewer"), generation_model=generation_model
+            )
+        )
+        errors.extend(
+            review_liveness.validate_api_request_binding(record.get("reviewer"), request)
+        )
+    recorded_at = _parse_timestamp(record.get("recorded_at"))
+    if recorded_at is None:
+        errors.append(
+            "antonym_axis_blind_record.recorded_at must be an aware ISO timestamp"
+        )
+    body_hash = record.get("input_body_sha256")
+    if not isinstance(body_hash, str) or re.fullmatch(r"[0-9a-f]{64}", body_hash) is None:
+        errors.append("antonym_axis_blind_record.input_body_sha256 must be a sha256")
+    request_hash = record.get("blind_request_sha256")
+    if not isinstance(request_hash, str) or re.fullmatch(r"[0-9a-f]{64}", request_hash) is None:
+        errors.append("antonym_axis_blind_record.blind_request_sha256 must be a sha256")
+    known_items: set[str] | None = None
+    if request is not None:
+        if request.get("schema_version") != "antonym_axis_blind_request_v1":
+            errors.append("stage 1 request must use antonym_axis_blind_request_v1")
+        if body_hash != request.get("input_body_sha256"):
+            errors.append("antonym axis body hash does not match its stage 1 request")
+        if request_hash != _digest_json(request):
+            errors.append("antonym axis request hash does not match stage 1 input")
+        sections = request.get("input_sections", {})
+        known_items = {
+            str(item.get("item_id"))
+            for item in sections.get("antonym_items", [])
+            if isinstance(item, dict) and item.get("item_id")
+        }
+    axes = record.get("axes")
+    if not isinstance(axes, list):
+        return [*errors, "antonym_axis_blind_record.axes must be a list"]
+    seen: set[str] = set()
+    for index, item in enumerate(axes):
+        label = f"antonym_axis_blind_record.axes[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        item_id = str(item.get("item_id", ""))
+        if not item_id or item_id in seen:
+            errors.append(f"{label}.item_id is missing or duplicated")
+        seen.add(item_id)
+        axis = item.get("axis")
+        if not isinstance(axis, str) or not axis.strip():
+            errors.append(f"{label}.axis must be a non-empty string")
+            continue
+        relation_type = item.get("relation_type")
+        reason = item.get("reason")
+        if axis == "unnamable":
+            if relation_type not in {None, ""}:
+                errors.append(f"{label}.relation_type must be empty for unnamable")
+            if not isinstance(reason, str) or not reason.strip():
+                errors.append(f"{label}.reason is required for unnamable")
+        elif relation_type not in ANTONYM_AXIS_TYPES:
+            errors.append(
+                f"{label}.relation_type must be one of {sorted(ANTONYM_AXIS_TYPES)}"
+            )
+    if known_items is not None and seen != known_items:
+        missing = sorted(known_items - seen)
+        extra = sorted(seen - known_items)
+        if missing:
+            errors.append("antonym axis record is missing items: " + ", ".join(missing))
+        if extra:
+            errors.append("antonym axis record has unknown items: " + ", ".join(extra))
+    return errors
+
+
+def bind_antonym_axis_blind_record(
+    record: dict[str, Any],
+    request: dict[str, Any],
+    *,
+    recorded_at: str | None = None,
+) -> dict[str, Any]:
+    """Bind reviewer-authored axes to the exact stage 1 artifact at save time."""
+    bound = dict(record)
+    bound["schema_version"] = "antonym_axis_blind_record_v1"
+    bound["pass_id"] = "frame-relation"
+    bound["input_body_sha256"] = request.get("input_body_sha256")
+    bound["blind_request_sha256"] = _digest_json(request)
+    bound["recorded_at"] = (
+        recorded_at
+        or str(record.get("recorded_at") or "")
+        or datetime.now(timezone.utc).isoformat()
+    )
+    return bound
+
+
+def materialize_antonym_axis_stage2_request(
+    entry_path: Path,
+    blind_request: dict[str, Any],
+    blind_record_path: Path,
+    alignment_key: dict[str, Any],
+    *,
+    repo_root: Path = REPO_ROOT,
+    require_reviewer: bool = True,
+) -> dict[str, Any]:
+    """Create stage 2 input only after the exact stage 1 record is persisted."""
+    if not blind_record_path.is_file():
+        raise ValueError(
+            "process defect: stage 2 disclosure requires a saved stage 1 record"
+        )
+    blind_record = json.loads(blind_record_path.read_text(encoding="utf-8"))
+    record_errors = validate_antonym_axis_blind_record(
+        blind_record, blind_request, require_reviewer=require_reviewer
+    )
+    if record_errors:
+        raise ValueError("; ".join(record_errors))
+    if alignment_key.get("schema_version") != "antonym_axis_alignment_key_v1":
+        raise ValueError("antonym axis alignment key schema_version is invalid")
+    if alignment_key.get("input_body_sha256") != blind_request.get(
+        "input_body_sha256"
+    ):
+        raise ValueError("antonym axis alignment key body hash mismatch")
+    if alignment_key.get("blind_request_sha256") != _digest_json(blind_request):
+        raise ValueError("antonym axis alignment key does not bind stage 1 request")
+    raw = entry_path.resolve().read_bytes()
+    text = raw.decode("utf-8")
+    _, body_lines = _split_front_matter(text)
+    body_bytes = "\n".join(body_lines).encode("utf-8")
+    if _digest_bytes(body_bytes) != blind_request.get("input_body_sha256"):
+        raise ValueError("entry body changed after antonym axis stage 1")
+    router = load_router(repo_root / "prompts" / "check_router_v6.md")
+    check_pass = next(
+        item for item in router["passes"] if item["id"] == "frame-relation"
+    )
+    sections = extract_sections(text)
+    axes = {
+        str(item["item_id"]): item for item in blind_record.get("axes", [])
+    }
+    aligned_items = []
+    for item in alignment_key.get("items", []):
+        item_id = str(item["item_id"])
+        aligned_items.append(
+            {
+                "item_id": item_id,
+                "stage1_axis": axes[item_id],
+                "sense_id": item["sense_id"],
+                "anchor": item["anchor"],
+                "difference_anchor": item.get("difference_anchor"),
+            }
+        )
+    return {
+        "schema_version": "antonym_axis_adjudication_request_v1",
+        "pass_id": "frame-relation",
+        "taxonomy_ids": list(check_pass["taxonomy_ids"]),
+        "specification": check_pass["specification"],
+        "input_body_sha256": _digest_bytes(body_bytes),
+        "blind_request_sha256": _digest_json(blind_request),
+        "blind_record_sha256": _digest_json(blind_record),
+        "input_sections": {
+            **{
+                section: sections.get(section, [])
+                for section in check_pass["sections"]
+            },
+            "antonym_axis_items": aligned_items,
+            "antonym_axis_senses": alignment_key.get("senses", []),
+        },
+        "blind_protocol": {
+            "stage": 2,
+            "stage1_record_saved": True,
+            "chronology_marker": "audits/BLIND_SEAL_CHRONOLOGY_REQUIRED",
+            "required_output_schema": "antonym_axis_adjudication_record_v1",
+        },
+        "finding_schema": router["finding_schema"],
+    }
+
+
+def validate_antonym_axis_adjudication_record(
+    record: Any,
+    stage2_request: dict[str, Any],
+    blind_record: dict[str, Any],
+    *,
+    generation_model: str | None = None,
+    require_reviewer: bool = True,
+) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(record, dict):
+        return ["antonym_axis_adjudication_record must be an object"]
+    if record.get("schema_version") != "antonym_axis_adjudication_record_v1":
+        errors.append(
+            "antonym_axis_adjudication_record.schema_version must be "
+            "antonym_axis_adjudication_record_v1"
+        )
+    if record.get("pass_id") != "frame-relation":
+        errors.append("antonym_axis_adjudication_record.pass_id must be frame-relation")
+    if require_reviewer or record.get("reviewer") is not None:
+        errors.extend(
+            review_liveness.validate_reviewer(
+                record.get("reviewer"), generation_model=generation_model
+            )
+        )
+        errors.extend(
+            review_liveness.validate_api_request_binding(
+                record.get("reviewer"), stage2_request
+            )
+        )
+    if record.get("input_body_sha256") != stage2_request.get("input_body_sha256"):
+        errors.append("antonym axis adjudication body hash mismatch")
+    if record.get("stage2_request_sha256") != _digest_json(stage2_request):
+        errors.append("antonym axis adjudication request hash mismatch")
+    if record.get("blind_record_sha256") != _digest_json(blind_record):
+        errors.append("antonym axis adjudication does not bind the sealed blind record")
+    request_items = stage2_request.get("input_sections", {}).get(
+        "antonym_axis_items", []
+    )
+    known_items = {
+        str(item.get("item_id"))
+        for item in request_items
+        if isinstance(item, dict) and item.get("item_id")
+    }
+    axes = {
+        str(item.get("item_id")): item
+        for item in blind_record.get("axes", [])
+        if isinstance(item, dict)
+    }
+    adjudications = record.get("adjudications")
+    if not isinstance(adjudications, list):
+        return [*errors, "antonym_axis_adjudication_record.adjudications must be a list"]
+    seen: set[str] = set()
+    for index, item in enumerate(adjudications):
+        label = f"antonym_axis_adjudication_record.adjudications[{index}]"
+        if not isinstance(item, dict):
+            errors.append(f"{label} must be an object")
+            continue
+        item_id = str(item.get("item_id", ""))
+        if not item_id or item_id in seen:
+            errors.append(f"{label}.item_id is missing or duplicated")
+        seen.add(item_id)
+        flags = item.get("flags")
+        if not isinstance(flags, list) or any(flag not in ANTONYM_AXIS_FLAGS for flag in flags):
+            errors.append(f"{label}.flags must contain only F1, F2, F3, F4")
+            flags = []
+        elif len(flags) != len(set(flags)):
+            errors.append(f"{label}.flags contains duplicates")
+        is_unnamable = axes.get(item_id, {}).get("axis") == "unnamable"
+        if is_unnamable != ("F1" in flags):
+            errors.append(f"{label}.flags must include F1 exactly for unnamable")
+        rationale = item.get("rationale")
+        if not isinstance(rationale, str) or not rationale.strip():
+            errors.append(f"{label}.rationale is required")
+        if flags:
+            if item.get("suggested_direction") not in ANTONYM_DIRECTIONS:
+                errors.append(f"{label}.suggested_direction is invalid")
+        if "F4" in flags:
+            if item.get("f4_severity") not in {"blocking", "minor"}:
+                errors.append(f"{label}.f4_severity must be blocking or minor")
+        elif item.get("f4_severity") not in {None, ""}:
+            errors.append(f"{label}.f4_severity is only valid with F4")
+    if seen != known_items:
+        missing = sorted(known_items - seen)
+        extra = sorted(seen - known_items)
+        if missing:
+            errors.append("antonym axis adjudication is missing items: " + ", ".join(missing))
+        if extra:
+            errors.append("antonym axis adjudication has unknown items: " + ", ".join(extra))
+    if not isinstance(record.get("frame_findings"), list):
+        errors.append("antonym_axis_adjudication_record.frame_findings must be a list")
+    if not isinstance(record.get("unrouted_observations"), list):
+        errors.append(
+            "antonym_axis_adjudication_record.unrouted_observations must be a list"
+        )
+    return errors
+
+
+def bind_antonym_axis_adjudication_record(
+    record: dict[str, Any],
+    stage2_request: dict[str, Any],
+    blind_record: dict[str, Any],
+) -> dict[str, Any]:
+    """Bind stage 2 judgments to the disclosed request and sealed stage 1 record."""
+    bound = dict(record)
+    bound["schema_version"] = "antonym_axis_adjudication_record_v1"
+    bound["pass_id"] = "frame-relation"
+    bound["input_body_sha256"] = stage2_request.get("input_body_sha256")
+    bound["stage2_request_sha256"] = _digest_json(stage2_request)
+    bound["blind_record_sha256"] = _digest_json(blind_record)
+    return bound
+
+
+def reconcile_antonym_axis(
+    blind_request: dict[str, Any],
+    blind_record: dict[str, Any],
+    stage2_request: dict[str, Any],
+    adjudication_record: dict[str, Any],
+    alignment_key: dict[str, Any],
+    *,
+    aligned_at: str,
+    generation_model: str | None = None,
+    require_reviewer: bool = True,
+) -> dict[str, Any]:
+    errors = validate_antonym_axis_blind_record(
+        blind_record,
+        blind_request,
+        generation_model=generation_model,
+        require_reviewer=require_reviewer,
+    )
+    errors.extend(
+        validate_antonym_axis_adjudication_record(
+            adjudication_record,
+            stage2_request,
+            blind_record,
+            generation_model=generation_model,
+            require_reviewer=require_reviewer,
+        )
+    )
+    recorded = _parse_timestamp(blind_record.get("recorded_at"))
+    aligned = _parse_timestamp(aligned_at)
+    if aligned is None:
+        errors.append("aligned_at must be an aware ISO timestamp")
+    elif recorded is not None and aligned <= recorded:
+        errors.append("aligned_at must be later than the antonym axis blind record")
+    if alignment_key.get("schema_version") != "antonym_axis_alignment_key_v1":
+        errors.append("antonym axis alignment key schema_version is invalid")
+    if alignment_key.get("blind_request_sha256") != _digest_json(blind_request):
+        errors.append("antonym axis alignment key does not bind stage 1 request")
+    if stage2_request.get("blind_record_sha256") != _digest_json(blind_record):
+        errors.append("stage 2 request does not bind the sealed blind record")
+    if errors:
+        raise ValueError("; ".join(errors))
+
+    anchors = {
+        str(item["item_id"]): item for item in alignment_key.get("items", [])
+    }
+    axis_findings: list[dict[str, Any]] = []
+    severity_by_flag = {"F1": "blocking", "F2": "blocking", "F3": "blocking"}
+    for adjudication in adjudication_record["adjudications"]:
+        item_id = str(adjudication["item_id"])
+        owner = anchors[item_id]
+        for flag in adjudication["flags"]:
+            location = (
+                owner.get("difference_anchor") or owner["anchor"]
+                if flag == "F4"
+                else owner["anchor"]
+            )
+            axis_findings.append(
+                {
+                    "taxonomy_id": "lexical_relation_mislabel",
+                    "location": dict(location),
+                    "severity": (
+                        adjudication["f4_severity"]
+                        if flag == "F4"
+                        else severity_by_flag[flag]
+                    ),
+                    "rationale": f"{flag}: {adjudication['rationale']}",
+                    "evidence_link_ids": [],
+                    "suggested_direction": adjudication["suggested_direction"],
+                }
+            )
+    return {
+        "pass_id": "frame-relation",
+        "reviewer": adjudication_record.get("reviewer"),
+        "antonym_axis_blind_record": blind_record,
+        "antonym_axis_adjudication_record": adjudication_record,
+        "aligned_at": aligned_at,
+        "findings": [
+            *adjudication_record.get("frame_findings", []),
+            *axis_findings,
+        ],
+        "unrouted_observations": adjudication_record.get(
+            "unrouted_observations", []
+        ),
     }
 
 
@@ -591,6 +1253,17 @@ def build_bundles(
         raise ValueError("; ".join(errors))
     bundles: list[dict[str, Any]] = []
     for check_pass in router["passes"]:
+        if check_pass["id"] == "frame-relation":
+            bundles.append(
+                _antonym_axis_blind_request(
+                    text,
+                    body_bytes,
+                    check_pass,
+                    router["finding_schema"],
+                    blind_seed=effective_seed,
+                )
+            )
+            continue
         if check_pass["id"] == "example-attribution":
             bundles.append(
                 _example_attribution_request(
@@ -816,11 +1489,15 @@ def validate_pass_output(
     entry_path: Path | None = None,
     repo_root: Path = REPO_ROOT,
     example_request: dict[str, Any] | None = None,
+    antonym_request: dict[str, Any] | None = None,
+    antonym_stage2_request: dict[str, Any] | None = None,
+    antonym_alignment_key: dict[str, Any] | None = None,
     request_payload: dict[str, Any] | None = None,
     alignment_key: dict[str, Any] | None = None,
     check_liveness: bool = True,
     generation_model: str | None = None,
     require_reviewer: bool = True,
+    require_antonym_axis: bool = True,
 ) -> list[str]:
     errors: list[str] = []
     by_id = {
@@ -839,7 +1516,8 @@ def validate_pass_output(
         )
         errors.extend(
             review_liveness.validate_api_request_binding(
-                output.get("reviewer"), request_payload or example_request
+                output.get("reviewer"),
+                antonym_stage2_request or request_payload or example_request,
             )
         )
     allowed = set(by_id[pass_id]["taxonomy_ids"])
@@ -877,6 +1555,78 @@ def validate_pass_output(
                 "判別語の追加",
             }:
                 errors.append(f"{label}.suggested_direction is invalid")
+    if pass_id == "frame-relation" and require_antonym_axis:
+        blind_record = output.get("antonym_axis_blind_record")
+        adjudication_record = output.get("antonym_axis_adjudication_record")
+        if antonym_request is None:
+            errors.append("frame-relation stage 1 request is required")
+        if antonym_stage2_request is None:
+            errors.append("frame-relation stage 2 request is required")
+        if antonym_alignment_key is None:
+            errors.append("frame-relation antonym alignment key is required")
+        if antonym_request is not None:
+            errors.extend(
+                validate_antonym_axis_blind_record(
+                    blind_record,
+                    antonym_request,
+                    generation_model=generation_model,
+                    require_reviewer=require_reviewer,
+                )
+            )
+        if (
+            antonym_stage2_request is not None
+            and isinstance(blind_record, dict)
+        ):
+            errors.extend(
+                validate_antonym_axis_adjudication_record(
+                    adjudication_record,
+                    antonym_stage2_request,
+                    blind_record,
+                    generation_model=generation_model,
+                    require_reviewer=require_reviewer,
+                )
+            )
+        recorded = _parse_timestamp(
+            blind_record.get("recorded_at")
+            if isinstance(blind_record, dict)
+            else None
+        )
+        aligned = _parse_timestamp(output.get("aligned_at"))
+        if aligned is None:
+            errors.append("aligned_at must be an aware ISO timestamp")
+        elif recorded is not None and aligned <= recorded:
+            errors.append("aligned_at must be later than antonym axis blind record")
+        if (
+            antonym_request is not None
+            and antonym_stage2_request is not None
+            and antonym_alignment_key is not None
+            and isinstance(blind_record, dict)
+            and isinstance(adjudication_record, dict)
+        ):
+            try:
+                expected = reconcile_antonym_axis(
+                    antonym_request,
+                    blind_record,
+                    antonym_stage2_request,
+                    adjudication_record,
+                    antonym_alignment_key,
+                    aligned_at=str(output.get("aligned_at", "")),
+                    generation_model=generation_model,
+                    require_reviewer=require_reviewer,
+                )
+            except ValueError as exc:
+                errors.append(str(exc))
+            else:
+                if output.get("findings") != expected["findings"]:
+                    errors.append(
+                        "frame-relation findings diverge from sealed axis adjudication"
+                    )
+                if output.get("unrouted_observations") != expected[
+                    "unrouted_observations"
+                ]:
+                    errors.append(
+                        "frame-relation unrouted_observations were modified"
+                    )
     if pass_id == "example-attribution":
         request: dict[str, Any] | None = example_request
         resolved_alignment: dict[str, Any] | None = alignment_key
@@ -1005,6 +1755,17 @@ def replay_regression_cases(
             }
         pass_id = owners[taxonomy_id]
         bundle = bundle_cache[word][pass_id]
+        if pass_id == "frame-relation":
+            full_sections = extract_sections(entry_path.read_text(encoding="utf-8"))
+            frame_spec = next(
+                item for item in router["passes"] if item["id"] == pass_id
+            )
+            bundle = {
+                "input_sections": {
+                    section: full_sections.get(section, [])
+                    for section in frame_spec["sections"]
+                }
+            }
         matches = [
             (section, line)
             for section, lines in bundle["input_sections"].items()
@@ -1037,7 +1798,9 @@ def replay_regression_cases(
                 }
             ],
         }
-        validation_errors = validate_pass_output(replay_output, router)
+        validation_errors = validate_pass_output(
+            replay_output, router, require_antonym_axis=False
+        )
         if validation_errors:
             raise ValueError(f"{case_id}: " + "; ".join(validation_errors))
         results.append(
@@ -1105,6 +1868,9 @@ def main() -> int:
     validate = sub.add_parser("validate-output")
     validate.add_argument("output", type=Path)
     validate.add_argument("--entry", type=Path)
+    validate.add_argument("--antonym-request", type=Path)
+    validate.add_argument("--antonym-stage2-request", type=Path)
+    validate.add_argument("--antonym-alignment-key", type=Path)
     blind = sub.add_parser("validate-blind-record")
     blind.add_argument("entry", type=Path)
     blind.add_argument("record", type=Path)
@@ -1113,6 +1879,20 @@ def main() -> int:
     reconcile.add_argument("record", type=Path)
     reconcile.add_argument("--output", required=True, type=Path)
     reconcile.add_argument("--aligned-at")
+    axis_stage2 = sub.add_parser("materialize-antonym-axis-stage2")
+    axis_stage2.add_argument("entry", type=Path)
+    axis_stage2.add_argument("blind_request", type=Path)
+    axis_stage2.add_argument("blind_record", type=Path)
+    axis_stage2.add_argument("alignment_key", type=Path)
+    axis_stage2.add_argument("--output", required=True, type=Path)
+    axis_reconcile = sub.add_parser("reconcile-antonym-axis")
+    axis_reconcile.add_argument("blind_request", type=Path)
+    axis_reconcile.add_argument("blind_record", type=Path)
+    axis_reconcile.add_argument("stage2_request", type=Path)
+    axis_reconcile.add_argument("adjudication_record", type=Path)
+    axis_reconcile.add_argument("alignment_key", type=Path)
+    axis_reconcile.add_argument("--output", required=True, type=Path)
+    axis_reconcile.add_argument("--aligned-at")
     regression = sub.add_parser("regression")
     regression.add_argument("cases", type=Path)
     regression.add_argument("--output", type=Path)
@@ -1137,6 +1917,21 @@ def main() -> int:
             encoding="utf-8",
         )
         paths.append(alignment_path)
+        antonym_alignment_path = (
+            args.output_dir / "frame-relation.antonym-axis.alignment-key.json"
+        )
+        antonym_alignment_path.write_text(
+            json.dumps(
+                build_antonym_axis_alignment_key(
+                    args.entry, blind_seed=args.seed
+                ),
+                ensure_ascii=False,
+                indent=2,
+            )
+            + "\n",
+            encoding="utf-8",
+        )
+        paths.append(antonym_alignment_path)
         for path in paths:
             print(path)
         return 0
@@ -1169,6 +1964,51 @@ def main() -> int:
         )
         print(args.output)
         return 0
+    if args.command == "materialize-antonym-axis-stage2":
+        request = json.loads(args.blind_request.read_text(encoding="utf-8"))
+        alignment = json.loads(args.alignment_key.read_text(encoding="utf-8"))
+        output = materialize_antonym_axis_stage2_request(
+            args.entry,
+            request,
+            args.blind_record,
+            alignment,
+        )
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(
+            json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(args.output)
+        return 0
+    if args.command == "reconcile-antonym-axis":
+        blind_request = json.loads(
+            args.blind_request.read_text(encoding="utf-8")
+        )
+        blind_record = json.loads(
+            args.blind_record.read_text(encoding="utf-8")
+        )
+        stage2_request = json.loads(
+            args.stage2_request.read_text(encoding="utf-8")
+        )
+        adjudication_record = json.loads(
+            args.adjudication_record.read_text(encoding="utf-8")
+        )
+        alignment = json.loads(args.alignment_key.read_text(encoding="utf-8"))
+        output = reconcile_antonym_axis(
+            blind_request,
+            blind_record,
+            stage2_request,
+            adjudication_record,
+            alignment,
+            aligned_at=args.aligned_at or datetime.now(timezone.utc).isoformat(),
+        )
+        args.output.parent.mkdir(parents=True, exist_ok=True)
+        args.output.write_text(
+            json.dumps(output, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+        print(args.output)
+        return 0
     if args.command == "regression":
         results = replay_regression_cases(args.cases)
         log = render_regression_log(results, args.cases)
@@ -1180,8 +2020,30 @@ def main() -> int:
             print(log, end="")
         return 0
     output = json.loads(args.output.read_text(encoding="utf-8"))
+    antonym_request = (
+        json.loads(args.antonym_request.read_text(encoding="utf-8"))
+        if args.antonym_request
+        else None
+    )
+    antonym_stage2_request = (
+        json.loads(args.antonym_stage2_request.read_text(encoding="utf-8"))
+        if args.antonym_stage2_request
+        else None
+    )
+    antonym_alignment_key = (
+        json.loads(args.antonym_alignment_key.read_text(encoding="utf-8"))
+        if args.antonym_alignment_key
+        else None
+    )
     return _print_errors(
-        validate_pass_output(output, router, entry_path=args.entry)
+        validate_pass_output(
+            output,
+            router,
+            entry_path=args.entry,
+            antonym_request=antonym_request,
+            antonym_stage2_request=antonym_stage2_request,
+            antonym_alignment_key=antonym_alignment_key,
+        )
     )
 
 
