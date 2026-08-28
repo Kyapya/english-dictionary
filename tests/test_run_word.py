@@ -81,6 +81,21 @@ class RunWordTests(unittest.TestCase):
         )
         self.assertIn("stage1_output_path", attribution)
         self.assertIn("alignment_key_path", attribution)
+        frame = next(
+            item
+            for item in payload["checker_passes"]
+            if item["id"] == "frame-relation"
+        )
+        self.assertEqual(
+            frame["specification"], "prompts/check_pass_frame_relation_v7.md"
+        )
+        for key in (
+            "stage1_output_path",
+            "stage2_request_path",
+            "stage2_output_path",
+            "alignment_key_path",
+        ):
+            self.assertIn(key, frame)
 
     def test_context_free_stages_receive_no_project_history(self) -> None:
         by_name = {
@@ -168,6 +183,19 @@ class RunWordTests(unittest.TestCase):
                 "recorded_at": "2020-01-01T00:00:00+00:00",
                 "attributions": attributions,
             }
+            antonym_request = json.loads(
+                (check_dir / "frame-relation.request.json").read_text()
+            )
+            antonym_record = {
+                "schema_version": "antonym_axis_blind_record_v1",
+                "pass_id": "frame-relation",
+                "input_body_sha256": antonym_request["input_body_sha256"],
+                "blind_request_sha256": check_passes._digest_json(
+                    antonym_request
+                ),
+                "recorded_at": "2020-01-01T00:00:00+00:00",
+                "axes": [],
+            }
             router = check_passes.load_router(root / "prompts" / "check_router_v6.md")
             outputs = [
                 (
@@ -176,12 +204,47 @@ class RunWordTests(unittest.TestCase):
                         "blind_attribution_record": record,
                     }
                     if item["id"] == "example-attribution"
-                    else {"pass_id": item["id"], "findings": []}
+                    else (
+                        {
+                            "pass_id": item["id"],
+                            "antonym_axis_blind_record": antonym_record,
+                        }
+                        if item["id"] == "frame-relation"
+                        else {"pass_id": item["id"], "findings": []}
+                    )
                 )
                 for item in router["passes"]
             ]
             response = cycle / "handoff" / "checker_passes.response.json"
             response.write_text(json.dumps({"pass_outputs": outputs}), encoding="utf-8")
+            stage2_handoff = run_word.ingest_handoff_review(
+                manifest,
+                stage="checker_passes",
+                declared_model="independent-reviewer",
+                repo_root=root,
+            )
+            self.assertEqual(
+                stage2_handoff.name, "checker_passes.stage2.request.md"
+            )
+            stage2_request = json.loads(
+                (
+                    check_dir
+                    / "frame-relation.antonym-axis.stage2.request.json"
+                ).read_text()
+            )
+            stage2_response = {
+                "schema_version": "antonym_axis_adjudication_record_v1",
+                "pass_id": "frame-relation",
+                "input_body_sha256": stage2_request["input_body_sha256"],
+                "stage2_request_sha256": check_passes._digest_json(stage2_request),
+                "blind_record_sha256": stage2_request["blind_record_sha256"],
+                "adjudications": [],
+                "frame_findings": [],
+                "unrouted_observations": [],
+            }
+            (cycle / "handoff" / "checker_passes.stage2.response.json").write_text(
+                json.dumps(stage2_response), encoding="utf-8"
+            )
             target = run_word.ingest_handoff_review(
                 manifest,
                 stage="checker_passes",
@@ -201,6 +264,13 @@ class RunWordTests(unittest.TestCase):
                     for row in attribution["blind_attribution_record"]["attributions"]
                 )
             )
+            frame = next(
+                item
+                for item in ingested["pass_outputs"]
+                if item["pass_id"] == "frame-relation"
+            )
+            self.assertIn("antonym_axis_blind_record", frame)
+            self.assertIn("antonym_axis_adjudication_record", frame)
             with self.assertRaisesRegex(ValueError, "must differ"):
                 run_word.ingest_handoff_review(
                     manifest,
@@ -247,6 +317,13 @@ class RunWordTests(unittest.TestCase):
             self.assertEqual(len([path for path in paths if path.name.endswith(".request.json")]), 7)
             self.assertTrue(
                 any(path.name == "example-attribution.alignment-key.json" for path in paths)
+            )
+            self.assertTrue(
+                any(
+                    path.name
+                    == "frame-relation.antonym-axis.alignment-key.json"
+                    for path in paths
+                )
             )
             attribution = next(
                 item for item in packet["requests"]
@@ -301,7 +378,57 @@ class RunWordTests(unittest.TestCase):
                 endpoint: str | None = None,
             ) -> dict[str, object]:
                 pass_id = str(request_payload["pass_id"])
-                if pass_id == "example-attribution":
+                schema = str(request_payload.get("schema_version", ""))
+                if schema == "antonym_axis_blind_request_v1":
+                    sections = request_payload["input_sections"]
+                    assert isinstance(sections, dict)
+                    items = sections["antonym_items"]
+                    assert isinstance(items, list)
+                    payload = {
+                        "schema_version": "antonym_axis_blind_record_v1",
+                        "pass_id": pass_id,
+                        "input_body_sha256": request_payload["input_body_sha256"],
+                        "blind_request_sha256": check_passes._digest_json(
+                            request_payload
+                        ),
+                        "recorded_at": "2020-01-01T00:00:00+00:00",
+                        "axes": [
+                            {
+                                "item_id": item["item_id"],
+                                "axis": "状態",
+                                "relation_type": "状態",
+                                "reason": "The definition supplies a state opposition.",
+                            }
+                            for item in items
+                        ],
+                    }
+                elif schema == "antonym_axis_adjudication_request_v1":
+                    sections = request_payload["input_sections"]
+                    assert isinstance(sections, dict)
+                    items = sections["antonym_axis_items"]
+                    assert isinstance(items, list)
+                    payload = {
+                        "schema_version": "antonym_axis_adjudication_record_v1",
+                        "pass_id": pass_id,
+                        "input_body_sha256": request_payload["input_body_sha256"],
+                        "stage2_request_sha256": check_passes._digest_json(
+                            request_payload
+                        ),
+                        "blind_record_sha256": request_payload[
+                            "blind_record_sha256"
+                        ],
+                        "adjudications": [
+                            {
+                                "item_id": item["item_id"],
+                                "flags": [],
+                                "rationale": "The named axis remains grounded after disclosure.",
+                            }
+                            for item in items
+                        ],
+                        "frame_findings": [],
+                        "unrouted_observations": [],
+                    }
+                elif pass_id == "example-attribution":
                     sections = request_payload["input_sections"]
                     assert isinstance(sections, dict)
                     senses = sections["sense_structure"]
@@ -363,7 +490,21 @@ class RunWordTests(unittest.TestCase):
             self.assertTrue(
                 (cycle / "check_passes" / "example-attribution.blind-record.json").is_file()
             )
-            self.assertEqual(len(list((cycle / "raw").glob("checker-*.response.json"))), 7)
+            self.assertTrue(
+                (
+                    cycle
+                    / "check_passes"
+                    / "frame-relation.antonym-axis.blind-record.json"
+                ).is_file()
+            )
+            self.assertTrue(
+                (
+                    cycle
+                    / "check_passes"
+                    / "frame-relation.antonym-axis.adjudication-record.json"
+                ).is_file()
+            )
+            self.assertEqual(len(list((cycle / "raw").glob("checker-*.response.json"))), 8)
             self.assertIn(cycle / "pass_findings.json", paths)
 
     def test_acceptance_d1_requires_blocking_example_attribution_finding(self) -> None:

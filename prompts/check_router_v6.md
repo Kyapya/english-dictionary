@@ -8,7 +8,7 @@
 |---|---|---|
 | translation | example_translation_alignment, semantic_direction_reversal | definitions, collocations_examples, lexical_relations |
 | sense-structure | sense_boundary_overlap, cross_section_internal_contradiction, compound_component_generalization | core_image, sense_structure, usage_notes, word_formation |
-| frame-relation | argument_slot_role_mismatch, lexical_relation_mislabel | sense_structure, frames, collocations_examples, lexical_relations |
+| frame-relation | argument_slot_role_mismatch, lexical_relation_mislabel | sense_structure, frames, collocations_examples, lexical_relations (`specification: prompts/check_pass_frame_relation_v7.md`) |
 | example-attribution | example_sense_attribution_mismatch | sense_structure, collocations_examples |
 | qualification | regional_qualification, absolute_scope_counterexample, technical_terminology_conventionality | etymology, word_formation, sense_structure, frequency_register, usage_notes, collocations_examples |
 | pronunciation | pronunciation_symbol_explanation | pronunciation |
@@ -44,7 +44,7 @@
     },
     {
       "id": "frame-relation",
-      "specification": "prompts/check_pass_frame_relation_v6.md",
+      "specification": "prompts/check_pass_frame_relation_v7.md",
       "taxonomy_ids": ["argument_slot_role_mismatch", "lexical_relation_mislabel"],
       "sections": ["sense_structure", "frames", "collocations_examples", "lexical_relations"]
     },

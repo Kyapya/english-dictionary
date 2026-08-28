@@ -1,8 +1,10 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import re
 import sys
+import tempfile
 import unittest
 from pathlib import Path
 
@@ -50,6 +52,20 @@ class CheckPassTests(unittest.TestCase):
                     "rationale",
                 ):
                     self.assertIn(marker, text)
+
+    def test_frame_relation_routes_to_v7_in_table_and_json(self) -> None:
+        frame = next(
+            item for item in self.router["passes"]
+            if item["id"] == "frame-relation"
+        )
+        self.assertEqual(
+            frame["specification"], "prompts/check_pass_frame_relation_v7.md"
+        )
+        rows = check_passes._router_table_rows(
+            REPO_ROOT / "prompts" / "check_router_v6.md"
+        )
+        frame_row = next(item for item in rows if item["id"] == "frame-relation")
+        self.assertEqual(frame_row["specification"], frame["specification"])
 
     def test_router_builds_section_limited_bundles(self) -> None:
         bundles = check_passes.build_bundles(
@@ -194,6 +210,199 @@ class CheckPassTests(unittest.TestCase):
                 record,
                 check_passes.build_example_attribution_alignment_key(entry),
                 aligned_at="2026-08-26T09:59:00+09:00",
+            )
+
+    def test_antonym_axis_acceptance_detects_change_without_false_blockers(self) -> None:
+        fixture_dir = REPO_ROOT / "tests" / "fixtures" / "acceptance"
+        entry = fixture_dir / "conservation_4f26c07b_defective.md"
+        blind_record = json.loads(
+            (fixture_dir / "conservation_antonym_axis_blind_record.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        stored_stage2 = json.loads(
+            (fixture_dir / "conservation_antonym_axis_stage2_request.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        adjudication = json.loads(
+            (
+                fixture_dir
+                / "conservation_antonym_axis_adjudication_record.json"
+            ).read_text(encoding="utf-8")
+        )
+        expected_result = json.loads(
+            (fixture_dir / "conservation_antonym_axis_result.json").read_text(
+                encoding="utf-8"
+            )
+        )
+        request = next(
+            item
+            for item in check_passes.build_bundles(
+                entry, blind_seed="acceptance-conservation-20260828"
+            )
+            if item["pass_id"] == "frame-relation"
+        )
+        alignment = check_passes.build_antonym_axis_alignment_key(
+            entry, blind_seed="acceptance-conservation-20260828"
+        )
+        self.assertEqual(
+            hashlib.sha256(entry.read_bytes()).hexdigest(),
+            "6ba1eb84a85f078c9d6fc842663eb7a02ea7d67e5e7d0ac4a5ec7b6a6299ea46",
+        )
+        self.assertEqual(request["schema_version"], "antonym_axis_blind_request_v1")
+        for item in request["input_sections"]["antonym_items"]:
+            self.assertEqual(
+                set(item),
+                {
+                    "item_id",
+                    "headword",
+                    "sense_definition",
+                    "antonym",
+                    "antonym_definition",
+                },
+            )
+            self.assertRegex(item["item_id"], r"^ant-[0-9a-f]{12}$")
+        shuffled_orders = []
+        opaque_id_sets = []
+        for seed in ("axis-shuffle-a", "axis-shuffle-b"):
+            seeded_request = next(
+                item
+                for item in check_passes.build_bundles(entry, blind_seed=seed)
+                if item["pass_id"] == "frame-relation"
+            )
+            seeded_alignment = check_passes.build_antonym_axis_alignment_key(
+                entry, blind_seed=seed
+            )
+            source_terms = {
+                item["item_id"]: item["antonym"]
+                for item in seeded_alignment["items"]
+            }
+            ids = [
+                item["item_id"]
+                for item in seeded_request["input_sections"]["antonym_items"]
+            ]
+            opaque_id_sets.append(set(ids))
+            shuffled_orders.append([source_terms[item_id] for item_id in ids])
+        self.assertNotEqual(shuffled_orders[0], shuffled_orders[1])
+        self.assertTrue(opaque_id_sets[0].isdisjoint(opaque_id_sets[1]))
+        serialized = json.dumps(request, ensure_ascii=False)
+        for forbidden in ("違い:", "頻度:", "例:", "訳:", "【類義語】", "＃コアイメージ"):
+            self.assertNotIn(forbidden, serialized)
+
+        materialized = check_passes.materialize_antonym_axis_stage2_request(
+            entry,
+            request,
+            fixture_dir / "conservation_antonym_axis_blind_record.json",
+            alignment,
+        )
+        self.assertEqual(materialized, stored_stage2)
+        result = check_passes.reconcile_antonym_axis(
+            request,
+            blind_record,
+            materialized,
+            adjudication,
+            alignment,
+            aligned_at="2026-08-28T10:01:00+00:00",
+        )
+        self.assertEqual(result, expected_result)
+        self.assertEqual(
+            check_passes.validate_pass_output(
+                result,
+                self.router,
+                entry_path=entry,
+                antonym_request=request,
+                antonym_stage2_request=materialized,
+                antonym_alignment_key=alignment,
+                request_payload=materialized,
+            ),
+            [],
+        )
+
+        source_by_id = {
+            item["item_id"]: item["antonym"] for item in alignment["items"]
+        }
+        flags_by_term = {
+            source_by_id[item["item_id"]]: set(item["flags"])
+            for item in adjudication["adjudications"]
+        }
+        self.assertIn("F1", flags_by_term["change"])
+        accepted = {
+            "exploitation",
+            "depletion",
+            "waste",
+            "neglect",
+            "deterioration",
+            "destruction",
+            "nonconservation",
+        }
+        self.assertTrue(
+            all(not (flags_by_term[term] & {"F1", "F2", "F3"}) for term in accepted)
+        )
+
+        repeated = check_passes.reconcile_antonym_axis(
+            request,
+            blind_record,
+            materialized,
+            adjudication,
+            alignment,
+            aligned_at="2026-08-28T10:01:00+00:00",
+        )
+        self.assertEqual(repeated, result)
+
+    def test_antonym_axis_stage2_disclosure_requires_saved_stage1_record(self) -> None:
+        fixture_dir = REPO_ROOT / "tests" / "fixtures" / "acceptance"
+        entry = fixture_dir / "conservation_4f26c07b_defective.md"
+        request = next(
+            item
+            for item in check_passes.build_bundles(
+                entry, blind_seed="acceptance-conservation-20260828"
+            )
+            if item["pass_id"] == "frame-relation"
+        )
+        alignment = check_passes.build_antonym_axis_alignment_key(
+            entry, blind_seed="acceptance-conservation-20260828"
+        )
+        with tempfile.TemporaryDirectory() as directory:
+            missing = Path(directory) / "not-saved.json"
+            with self.assertRaisesRegex(ValueError, "process defect"):
+                check_passes.materialize_antonym_axis_stage2_request(
+                    entry, request, missing, alignment
+                )
+
+    def test_antonym_axis_rejects_nonchronological_alignment(self) -> None:
+        fixture_dir = REPO_ROOT / "tests" / "fixtures" / "acceptance"
+        entry = fixture_dir / "conservation_4f26c07b_defective.md"
+        request = next(
+            item
+            for item in check_passes.build_bundles(
+                entry, blind_seed="acceptance-conservation-20260828"
+            )
+            if item["pass_id"] == "frame-relation"
+        )
+        blind = json.loads(
+            (fixture_dir / "conservation_antonym_axis_blind_record.json").read_text()
+        )
+        stage2 = json.loads(
+            (fixture_dir / "conservation_antonym_axis_stage2_request.json").read_text()
+        )
+        adjudication = json.loads(
+            (
+                fixture_dir
+                / "conservation_antonym_axis_adjudication_record.json"
+            ).read_text()
+        )
+        alignment = check_passes.build_antonym_axis_alignment_key(
+            entry, blind_seed="acceptance-conservation-20260828"
+        )
+        with self.assertRaisesRegex(ValueError, "later than"):
+            check_passes.reconcile_antonym_axis(
+                request,
+                blind,
+                stage2,
+                adjudication,
+                alignment,
+                aligned_at="2026-08-28T10:00:00+00:00",
             )
 
     def test_pass_cannot_emit_another_pass_taxonomy(self) -> None:

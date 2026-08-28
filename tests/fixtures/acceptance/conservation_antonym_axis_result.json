@@ -1,0 +1,178 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "acceptance-independent-reviewer",
+    "ingested_by": "human"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+    "blind_request_sha256": "8850194f1ca460d2e90cf0f3e27d89dbf98ce8b76981a22bf3e21dc176d80de6",
+    "recorded_at": "2026-08-28T10:00:00+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "acceptance-independent-reviewer",
+      "ingested_by": "human"
+    },
+    "axes": [
+      {
+        "item_id": "ant-b01822c44d59",
+        "axis": "資源利用",
+        "relation_type": "評価",
+        "reason": "資源を慎重に保つ利用と不必要に費やす利用の評価的対立である。"
+      },
+      {
+        "item_id": "ant-e94059816f0e",
+        "axis": "unnamable",
+        "relation_type": null,
+        "reason": "内部の状態変化と系全体の総量保存は両立し、同じ意味軸の両極にならない。"
+      },
+      {
+        "item_id": "ant-afd48849c60d",
+        "axis": "資源量",
+        "relation_type": "状態",
+        "reason": "資源を将来へ残す状態と資源が尽きる状態の対立である。"
+      },
+      {
+        "item_id": "ant-ffdd2665a5cb",
+        "axis": "資源利用",
+        "relation_type": "評価",
+        "reason": "長期的損失を避ける利用と限界まで消費する利用の評価的対立である。"
+      },
+      {
+        "item_id": "ant-c0bcbc3ae575",
+        "axis": "保存性",
+        "relation_type": "補完",
+        "reason": "定めた条件で物理量が保存されることと保存されないことの補完対立である。"
+      },
+      {
+        "item_id": "ant-a5187f922af5",
+        "axis": "保存状態",
+        "relation_type": "状態",
+        "reason": "文化財を安定して保つ状態と材料が劣化する状態の対立である。"
+      },
+      {
+        "item_id": "ant-8df656791531",
+        "axis": "存続",
+        "relation_type": "状態",
+        "reason": "文化財を将来へ残す状態と存在や形を失う状態の対立である。"
+      },
+      {
+        "item_id": "ant-e4dfb3795106",
+        "axis": "管理",
+        "relation_type": "評価",
+        "reason": "必要な保存管理を行うことと必要な管理を怠ることの評価的対立である。"
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "99c010ae8f8f62602a192bea14388cc7f90d0619cd4dc18c3488037344315c66",
+    "stage2_request_sha256": "fa9847beb2c176fcaa7f89f863bfb41bf03a2cc5d9c7198bd5fe6c4d531a7ed9",
+    "blind_record_sha256": "430bd584464d73c609a18b49bab6fe183d41c3e8e5a84bab369aafc51b9b8e02",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "acceptance-independent-reviewer",
+      "ingested_by": "human"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-b01822c44d59",
+        "flags": [],
+        "rationale": "資源を保つ利用と浪費する利用の対立は語義1の定義から導出できる。"
+      },
+      {
+        "item_id": "ant-e94059816f0e",
+        "flags": [
+          "F1",
+          "F4"
+        ],
+        "rationale": "段階1で軸を命名できず、違い行も内部変化と総量保存が両立すると明記して対立を否定している。",
+        "suggested_direction": "削除",
+        "f4_severity": "minor"
+      },
+      {
+        "item_id": "ant-afd48849c60d",
+        "flags": [],
+        "rationale": "資源を将来へ残すことと資源量が枯渇することの状態対立は語義1の定義から導出できる。"
+      },
+      {
+        "item_id": "ant-ffdd2665a5cb",
+        "flags": [],
+        "rationale": "長期的損失を避ける資源管理と限界まで消費する利用の評価対立は語義1の定義から導出できる。"
+      },
+      {
+        "item_id": "ant-c0bcbc3ae575",
+        "flags": [],
+        "rationale": "保存則が成立することと成立しないことの補完対立は語義3の定義から直接導出できる。"
+      },
+      {
+        "item_id": "ant-a5187f922af5",
+        "flags": [],
+        "rationale": "文化財を劣化から守ることと材料が劣化することの状態対立は語義2の定義から導出できる。"
+      },
+      {
+        "item_id": "ant-8df656791531",
+        "flags": [
+          "F4"
+        ],
+        "rationale": "違い行は保存修復が防ぐ損傷のすべてが完全な破壊になるわけではないと対立範囲を限定している。",
+        "suggested_direction": "語法・注意への対照表現としての移動",
+        "f4_severity": "minor"
+      },
+      {
+        "item_id": "ant-e4dfb3795106",
+        "flags": [],
+        "rationale": "必要な保存管理を行うことと管理を怠ることの評価対立は語義2の定義から導出できる。"
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-08-28T10:01:00+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 315,
+        "line_end": 315,
+        "exact_quote": "・change  "
+      },
+      "severity": "blocking",
+      "rationale": "F1: 段階1で軸を命名できず、違い行も内部変化と総量保存が両立すると明記して対立を否定している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 318,
+        "line_end": 318,
+        "exact_quote": "違い: `change` は変化一般を表すだけで、系全体の総量が失われたことまでは意味しない。保存則では、内部の変化が起きても総量は保たれうる。  "
+      },
+      "severity": "minor",
+      "rationale": "F4: 段階1で軸を命名できず、違い行も内部変化と総量保存が両立すると明記して対立を否定している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 237,
+        "line_end": 237,
+        "exact_quote": "違い: `destruction` は保存の目的と正反対の結果を表すが、保存修復が防ごうとするすべての損傷が完全な破壊に至るわけではない。  "
+      },
+      "severity": "minor",
+      "rationale": "F4: 違い行は保存修復が防ぐ損傷のすべてが完全な破壊になるわけではないと対立範囲を限定している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    }
+  ],
+  "unrouted_observations": []
+}
