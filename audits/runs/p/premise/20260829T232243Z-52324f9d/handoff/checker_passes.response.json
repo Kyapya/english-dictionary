@@ -1,0 +1,320 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "84c855eee79c12fcb69fa42cbe4e55d712be41ba6f6b8d9b17a8ba4b56fe5079",
+        "recorded_at": "2026-08-29T23:23:50.299754+00:00",
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "699c52856a880ece6efda0571d7f39866b6a7c60f732c2c9aa437da4869e322f",
+        "recorded_at": "2026-08-29T23:23:50.299754+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-0f2e7040f562",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "premises",
+              "security cameras"
+            ],
+            "rationale": "Uses 'premises' as physical buildings and facilities monitored by security, not abstract assumptions or creative work settings. 'The premises are protected by security cameras' indicates sense:004 (building/location)."
+          },
+          {
+            "example_id": "ex-03573b4d18c8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "proposal rests on the premise that"
+            ],
+            "rationale": "Expresses a foundational assumption for a proposal: 'The proposal rests on the premise that demand will continue to grow' shows sense:001 (presupposition for argument/judgment)."
+          },
+          {
+            "example_id": "ex-acf5b1e98b54",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "planned the schedule on the premise that"
+            ],
+            "rationale": "Describes planning based on an assumed condition: 'We planned the schedule on the premise that the parts would arrive by Friday' exemplifies sense:001 (assumption as starting point)."
+          },
+          {
+            "example_id": "ex-2340290cb9cb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise"
+            ],
+            "rationale": "Addresses questioning an underlying assumption: 'we should challenge the premise that the change is necessary' illustrates sense:001 (premise as basis for judgment that can be disputed)."
+          },
+          {
+            "example_id": "ex-d53364fbbb69",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "writers built the series around the premise"
+            ],
+            "rationale": "Describes the foundational concept of a creative work: 'The writers built the series around the premise that memories could be traded' exemplifies sense:002 (basic setting/central idea for narrative)."
+          },
+          {
+            "example_id": "ex-669762ec36cc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises"
+            ],
+            "rationale": "Refers to departing from a physical location: 'Visitors must leave the premises by 9 p.m.' uses sense:004 (building/location/premises)."
+          },
+          {
+            "example_id": "ex-2a3082309bb1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise",
+              "syllogism",
+              "subject term of the conclusion"
+            ],
+            "rationale": "Uses technical logical terminology: 'Copper is a metal is the minor premise because it contains the subject term of the conclusion' employs sense:003 (logical/philosophical premise in syllogism)."
+          },
+          {
+            "example_id": "ex-36545255bf7d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "starts from the premise that",
+              "report"
+            ],
+            "rationale": "Shows the starting assumption for analysis: 'The report starts from the premise that access to data should be limited by purpose' demonstrates sense:001 (departure point for reasoning)."
+          },
+          {
+            "example_id": "ex-596617945b5d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "on the premises"
+            ],
+            "rationale": "Indicates location-based restriction: 'Smoking is not permitted anywhere on the premises' uses sense:004 (physical location/building)."
+          },
+          {
+            "example_id": "ex-157d5f8fda82",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise of the policy"
+            ],
+            "rationale": "Identifies a foundational assumption in policy: 'An underlying premise of the policy is that most users will follow the rules voluntarily' exemplifies sense:001 (underlying assumption)."
+          },
+          {
+            "example_id": "ex-49ce2f346449",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "forecast is premised on the assumption"
+            ],
+            "rationale": "Employs verb form 'premised' indicating basis/foundation: 'The forecast is premised on the assumption that interest rates will remain unchanged' shows sense:005 (to base upon)."
+          },
+          {
+            "example_id": "ex-113a2dbeeb05",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "premise of the film",
+              "nobody in the town can tell a lie"
+            ],
+            "rationale": "Describes core narrative concept: 'The premise of the film is simple: nobody in the town can tell a lie' illustrates sense:002 (basic setting for creative work)."
+          },
+          {
+            "example_id": "ex-bdc7f7277c1d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "major premise",
+              "predicate term of the conclusion"
+            ],
+            "rationale": "Uses specialized logical language: 'the first statement is the major premise because it contains the predicate term of the conclusion' exemplifies sense:003 (logical premise in formal reasoning)."
+          },
+          {
+            "example_id": "ex-8bc0ab9aae1d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition"
+            ],
+            "rationale": "Shows verbal usage of putting forward a claim: 'The author premises a proposition about human motivation before turning to the main argument' uses sense:006 (to put forward as presupposition)."
+          },
+          {
+            "example_id": "ex-fb9da695a558",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "inferred from the premises"
+            ],
+            "rationale": "Applies logical terminology: 'The conclusion cannot be inferred from the premises without an additional assumption' demonstrates sense:003 (premises in formal logic)."
+          },
+          {
+            "example_id": "ex-e42f382016d0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that",
+              "participant has access"
+            ],
+            "rationale": "Shows verbal form establishing a proposition as presupposition: 'The author premises that each participant has access to the same information' exemplifies sense:006 (to posit/assume)."
+          },
+          {
+            "example_id": "ex-e065b6e1958a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "intriguing premise",
+              "novel"
+            ],
+            "rationale": "Describes engaging narrative foundation: 'The novel has an intriguing premise, even though the middle chapters move slowly' uses sense:002 (basic setting/concept for creative work)."
+          },
+          {
+            "example_id": "ex-2ad41153f3c7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "premises from its conclusion"
+            ],
+            "rationale": "Employs logical terminology: 'separate its premises from its conclusion' shows sense:003 (logical propositions in argumentation)."
+          },
+          {
+            "example_id": "ex-0973d989968f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises"
+            ],
+            "rationale": "Refers to commercial facility location: 'The company moved to larger business premises near the station' uses sense:004 (building/location)."
+          },
+          {
+            "example_id": "ex-d1b105e3ccc9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "off the premises"
+            ],
+            "rationale": "Indicates movement away from physical location: 'Confidential documents must not be taken off the premises without permission' exemplifies sense:004 (building/location)."
+          },
+          {
+            "example_id": "ex-34a447e11388",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "program is premised on the idea that"
+            ],
+            "rationale": "Applies verb form indicating basis: 'The program is premised on the idea that early support can prevent larger problems' uses sense:005 (to base upon)."
+          },
+          {
+            "example_id": "ex-969d3f810bd6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on a distinction"
+            ],
+            "rationale": "Uses active verb form with argument as object: 'The author premises the argument on a distinction between legal ownership and practical control' shows sense:005 (to base A on B)."
+          },
+          {
+            "example_id": "ex-27010140c479",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Let us premise that"
+            ],
+            "rationale": "Expresses formal presentation of proposition: 'Let us premise that the two measurements were taken under identical conditions' exemplifies sense:006 (to posit formally)."
+          },
+          {
+            "example_id": "ex-2461cca70b02",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "false premise",
+              "argument"
+            ],
+            "rationale": "Describes faulty assumption undermining reasoning: 'A convincing argument can still fail if it begins with a false premise' uses sense:001 (premise as foundation for argument)."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ]
+}
