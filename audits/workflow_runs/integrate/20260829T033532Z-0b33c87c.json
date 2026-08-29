@@ -19,11 +19,11 @@
     "candidate_pages": 18
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "normal_review_complete",
   "started_at": "2026-08-29T03:35:32Z",
   "deadline_at": "2026-08-29T05:05:32Z",
   "pre_draft_deadline_at": "2026-08-29T04:05:32Z",
-  "last_heartbeat_at": "2026-08-29T03:50:05Z",
+  "last_heartbeat_at": "2026-08-29T03:55:12Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-29T03:35:34Z",
@@ -44,6 +44,16 @@
       "stage": "draft_saved",
       "recorded_at": "2026-08-29T03:35:45Z",
       "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-29T03:55:03Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-29T03:55:03Z",
+      "notes": "orchestrator completed checker_passes"
     }
   ],
   "stop_reason": "",
@@ -471,11 +481,11 @@
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 173000,
+        "duration_seconds": 4800.0,
+        "defects_detected": 2,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "cold_review",
@@ -545,58 +555,58 @@
       {
         "id": "translation",
         "instruction_bytes": 2402,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 21000,
+        "duration_seconds": 700.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "sense-structure",
         "instruction_bytes": 3031,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 26000,
+        "duration_seconds": 700.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "frame-relation",
         "instruction_bytes": 8294,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 30000,
+        "duration_seconds": 900.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "example-attribution",
         "instruction_bytes": 4133,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 24000,
+        "duration_seconds": 900.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "qualification",
         "instruction_bytes": 2876,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 22000,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "pronunciation",
         "instruction_bytes": 1815,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 4000,
+        "duration_seconds": 300.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
         "instruction_bytes": 2687,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 46000,
+        "duration_seconds": 900.0,
+        "defects_detected": 2,
+        "completed": true
       }
     ],
     "process_rules": [
@@ -630,11 +640,12 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 3,
+    "next_stage_index": 4,
     "completed_stages": [
       "guard_start",
       "generation",
-      "mechanical_validator"
+      "mechanical_validator",
+      "checker_passes"
     ],
     "stage_outputs": {
       "generation": [
@@ -643,6 +654,11 @@
       ],
       "mechanical_validator": [
         "audits/runs/i/integrate/20260829T033532Z-0b33c87c/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/i/integrate/20260829T033532Z-0b33c87c/source_inventory.json",
+        "audits/runs/i/integrate/20260829T033532Z-0b33c87c/check_passes/",
+        "audits/runs/i/integrate/20260829T033532Z-0b33c87c/pass_findings.json"
       ]
     }
   }
