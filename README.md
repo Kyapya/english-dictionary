@@ -1,6 +1,6 @@
 # English Dictionary
 
-英単語・短い英語フレーズの学習用辞書を、1見出し語1 Markdownで管理するリポジトリです。記事は `entries/`、進捗は `queue/words.csv`、レビュー原出力と派生監査は `audits/` に保存します。本文生成にOpenAI APIキーは不要です。独立レビュー段には、レビューAPI用のキーまたは別モデル・別セッションを使うhandoffモードが必要です。
+英単語・短い英語フレーズの学習用辞書を、1見出し語1 Markdownで管理するリポジトリです。記事は `entries/`、進捗は `queue/words.csv`、レビュー原出力と派生監査は `audits/` に保存します。本文生成にOpenAI APIキーは不要です。独立レビュー段には、レビューAPI用のキーまたは生成担当とは独立した別エージェント・別セッションを使うhandoffモードが必要です。同じモデルを使っても、独立エージェントとして実行・記録されていれば構いません。
 
 ## 1語の処理
 
@@ -22,7 +22,7 @@ remote run状態を取得できない場合は fail closed で新規runを開始
 
 APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成された `handoff/<stage>.request.md` を別セッションへ渡します。応答を `handoff/<stage>.response.json` に保存後、次で取り込みます。
 
-APIレビューは、resume時に生成されるrequest JSONとdry-runに示されるpromptを `scripts/review_call.py` に渡します。通常は次の `--call-review` を使い、API応答の保存・検証、example-attributionの復元、7passの機械集約までをまとめて実行します。cold review / final blind のモデルは記事front matterの生成モデルと異なるものを既定とし、同一モデルを明示的に使う場合は出力provenanceへ `same_model_as_generation: true` が付きます。
+APIレビューは、resume時に生成されるrequest JSONとdry-runに示されるpromptを `scripts/review_call.py` に渡します。通常は次の `--call-review` を使い、API応答の保存・検証、example-attributionの復元、7passの機械集約までをまとめて実行します。cold review / final blind は生成担当とは独立したreview agent/contextで実行します。モデル差は必須条件ではありません。同一モデルを使う場合は出力provenanceへ `same_model_as_generation: true` と独立した `agent_id` を記録し、handoffでは `--reviewer-agent-id` を必須にします。APIモードではresponse idからagent provenanceを記録します。
 
 ```bash
 python scripts/run_word.py --resume <workflow-run.json> --call-review
@@ -36,7 +36,8 @@ python scripts/review_call.py <stage> <request.json> <prompt.md> \
 
 ```bash
 python scripts/run_word.py --resume <workflow-run.json> \
-  --ingest-review <stage> --declared-model <model-name>
+  --ingest-review <stage> --declared-model <model-name> \
+  --reviewer-agent-id <independent-agent-id>
 ```
 
 handoffモードの `checker_passes` だけは2往復です。1往復目の応答（7パスすべてを過不足なく1回ずつ含み、frame-relationには `antonym_axis_blind_record` を含む）を取り込むと、段階は完了せず `check_passes/checker_passes.stage1.json` にcheckpointが保存され、`--ingest-review` は第2往復のhandoffパス `handoff/checker_passes.stage2.request.md` を返します。2往復目の応答は `antonym_axis_adjudication_record_v1` 1個で、`handoff/checker_passes.stage2.response.json` という別ファイル名に保存し、同じ `--ingest-review checker_passes` をもう一度実行して段階を完了させます。第2応答が未作成のまま取り込むと `handoff response is missing: …checker_passes.stage2.response.json` で失敗します。この場合はhandoffを作り直さず、stage2応答だけを用意します。取り込み失敗はguardが記録し、同じ段が3回失敗した時点でrunを `budget_exhausted` で停止します。
