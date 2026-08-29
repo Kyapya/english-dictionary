@@ -1,0 +1,655 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "unrouted_observations": [],
+      "antonym_axis_blind_record": {
+        "pass_id": "frame-relation",
+        "axes": [
+          {
+            "item_id": "ant-7a6e2b5c30cc",
+            "axis": "包摂",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-b355e40fd043",
+            "axis": "微積分操作",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-ebb7cebe08ff",
+            "axis": "集団参加",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-8e583adfafb7",
+            "axis": "集団分離",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-36930d52b1c7",
+            "axis": "部分間結合",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-729aa1474a2b",
+            "axis": "対人交流",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-ddee09309d0d",
+            "axis": "外部接続",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-d0f3db3360c9",
+            "axis": "人種分離",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-92499abf0553",
+            "axis": "人種分離",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-48dde6a3a0c1",
+            "axis": "人間関係",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-f1d8bcb2b7ea",
+            "axis": "全体性",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-cc166f5ac4b5",
+            "axis": "人種構成",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-bc83cf35bdef",
+            "axis": "全体性",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-e52d5fdc3b9c",
+            "axis": "全体性",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-177c3345adb3",
+            "axis": "結合",
+            "relation_type": "方向"
+          },
+          {
+            "item_id": "ant-90bd46149cd0",
+            "axis": "人種分離",
+            "relation_type": "状態"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "findings": [],
+      "unrouted_observations": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "recorded_at": "2026-08-29T03:27:43.614778+00:00",
+        "input_body_sha256": "7a2219cc9b05f417fc26f425f4d9ddf0ae3aca33896227121ede18afa170acd8",
+        "blind_request_sha256": "ff6a96e37ceb2de11415dc721de328887e7bc63e7cfe764cd712bc4c4dfc3f03",
+        "attributions": [
+          {
+            "example_id": "ex-937123d2d73d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrates theory and practice",
+              "結び付けている"
+            ],
+            "rationale": "主語は講座、目的語は二つの領域で、integrates theory and practice は別々の要素を組み合わせて一体として扱う他動詞用法にあたる。人の受け入れも装置の連携も関与しない。"
+          },
+          {
+            "example_id": "ex-f2b7a3f0ad15",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "does not integrate with",
+              "module"
+            ],
+            "rationale": "does not integrate with は目的語を取らない形で、主語が module という仕組みであるから、機器・ソフトどうしの連携を否定する自動詞用法である。"
+          },
+          {
+            "example_id": "ex-b6ae02f3fdd1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrate recent immigrants into",
+              "移民"
+            ],
+            "rationale": "integrate recent immigrants into は人を目的語にとり、受け入れる側の事業を主語にする他動詞で、制度の分離撤廃ではなく個別の受け入れを述べる。"
+          },
+          {
+            "example_id": "ex-2bb1d68bdbf5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrate refugees into",
+              "難民"
+            ],
+            "rationale": "integrate refugees into は人の集団を目的語にとる他動詞で、加わる側を主語にする自動詞用法とは主語と目的語の役割が逆になる。"
+          },
+          {
+            "example_id": "ex-38648a82754f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "She has integrated well with",
+              "her new colleagues"
+            ],
+            "rationale": "She has integrated well with は目的語がなく主語が人であるため、装置の連携ではなく人が周囲と打ち解ける変化を述べている。"
+          },
+          {
+            "example_id": "ex-19589cfcc7e5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrated into the primary school curriculum",
+              "デジタル技能"
+            ],
+            "rationale": "integrated into the primary school curriculum という into 句を伴う受動態で、組み込まれるのは技能という抽象的な要素であり、人の受け入れではない。"
+          },
+          {
+            "example_id": "ex-7169350f17f0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrates data from multiple sources",
+              "一つの画面"
+            ],
+            "rationale": "integrates data from multiple sources は主語が装置でも目的語をとる他動詞で、情報を一つにまとめる働きを述べており、連携そのものではない。"
+          },
+          {
+            "example_id": "ex-557237564d6e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "with respect to x",
+              "積分せよ"
+            ],
+            "rationale": "with respect to x が積分変数を明示する数学の定型で、目的語が式であるから微積分の語義に限定される。"
+          },
+          {
+            "example_id": "ex-2750db229e5a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "are now fully integrated",
+              "完全に統合されている"
+            ],
+            "rationale": "are now fully integrated は現在形と程度副詞で状態を述べる叙述用法であり、過去の統合行為を述べる受動態とは区別できる。"
+          },
+          {
+            "example_id": "ex-b93f721cb4d2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "under a desegregation order",
+              "人種統合された"
+            ],
+            "rationale": "under a desegregation order が人種分離撤廃という制度上の文脈を示し、主語も学区という制度であるから社会的な語義に属する。"
+          },
+          {
+            "example_id": "ex-e1fda1fa674c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "are racially integrated",
+              "人種統合されているのは"
+            ],
+            "rationale": "are racially integrated は現在の状態を述べる叙述用法で、対象が学校という施設であるから、行為ではなく分離撤廃後の状態を表す形容詞用法である。"
+          },
+          {
+            "example_id": "ex-05fd921429c4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "an integrated neighborhood",
+              "人種統合された地区"
+            ],
+            "rationale": "an integrated neighborhood は名詞前位の限定用法で、地区が人種による分離をやめている状態を指している。"
+          },
+          {
+            "example_id": "ex-68c21b503a70",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "racially integrate the suburbs",
+              "住宅政策"
+            ],
+            "rationale": "racially integrate the suburbs は racially を伴う他動詞で、目的語が居住地区という制度・地域であるため人種統合の行為を述べる。"
+          },
+          {
+            "example_id": "ex-8a5b87b66d03",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "families integrated into the local community",
+              "溶け込んだ"
+            ],
+            "rationale": "families integrated into the local community は人が主語で目的語がなく、加わる側から見た変化を述べる自動詞である。"
+          },
+          {
+            "example_id": "ex-d03267b21cb4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "is closely integrated with",
+              "緊密につながっている"
+            ],
+            "rationale": "is closely integrated with は程度副詞を伴う叙述用法で、施設が他の部分と結び付いている状態を述べており、行為の受動態ではない。"
+          },
+          {
+            "example_id": "ex-5abb84af8dfe",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "integrating the armed forces",
+              "人種隔離を撤廃する"
+            ],
+            "rationale": "integrating the armed forces は軍という制度を目的語にとり、大統領令という文脈から人種隔離の撤廃を指すと定まる。"
+          },
+          {
+            "example_id": "ex-e53cc9939534",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "The university integrated in 1962",
+              "連邦裁判所"
+            ],
+            "rationale": "The university integrated in 1962 は機関を主語にした目的語なしの用法で、裁判所の判断という文脈から人種統合の自動詞用法と読める。"
+          },
+          {
+            "example_id": "ex-ae31bbfd7156",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "integrate well",
+              "editing software"
+            ],
+            "rationale": "integrate well は目的語を取らず、主語がカメラと editing software という物であるから、仕組みどうしの連携の良否を述べる。"
+          },
+          {
+            "example_id": "ex-4a957f0fae04",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "an integrated school",
+              "人種統合された学校"
+            ],
+            "rationale": "an integrated school は限定用法で、学校が分離をやめている状態を指す社会的な形容詞用法である。"
+          },
+          {
+            "example_id": "ex-ea2f5dc7c4e2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a vertically integrated producer",
+              "垂直統合型"
+            ],
+            "rationale": "a vertically integrated producer は経営上の複合表現で、企業の体制が一体である状態を限定用法で述べている。"
+          },
+          {
+            "example_id": "ex-8713eb360f34",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "fully integrate the two departments",
+              "合併後"
+            ],
+            "rationale": "fully integrate the two departments は部門を目的語にとる他動詞で、組織を一つにまとめる働きを表す。"
+          },
+          {
+            "example_id": "ex-971724c95911",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "hard to integrate",
+              "溶け込むのに苦労した"
+            ],
+            "rationale": "hard to integrate は目的語がなく主語が人であるため、本人の側から見た溶け込みの困難を述べている。"
+          },
+          {
+            "example_id": "ex-8019c8eee960",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "app integrates with",
+              "email clients"
+            ],
+            "rationale": "app integrates with は主語がアプリで目的語がなく、製品どうしが連携することを述べる自動詞用法である。"
+          },
+          {
+            "example_id": "ex-2a81e5f6e9c0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "integrate its public schools",
+              "人種隔離を撤廃する"
+            ],
+            "rationale": "integrate its public schools は公立学校という制度を目的語にとり、連邦裁判所の命令という文脈から分離撤廃を述べている。"
+          },
+          {
+            "example_id": "ex-0e8c449fa328",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "Children usually integrate more quickly",
+              "早く溶け込む"
+            ],
+            "rationale": "Children usually integrate more quickly は人を主語にして目的語を取らず、溶け込む速さを比較しているので自動詞の語義である。"
+          },
+          {
+            "example_id": "ex-31c5768613e5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "integrated lunch counters",
+              "人種を問わず利用できる"
+            ],
+            "rationale": "integrated lunch counters は施設を修飾する限定用法で、公民権運動期に分離をやめた状態を述べている。"
+          },
+          {
+            "example_id": "ex-7e630d89ab55",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "a single integrated circuit",
+              "集積回路"
+            ],
+            "rationale": "a single integrated circuit は電子工学の固定した複合語で、限定用法の分詞形容詞にあたる。"
+          },
+          {
+            "example_id": "ex-328f49724520",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "integrate the velocity over time",
+              "全変位"
+            ],
+            "rationale": "integrate the velocity over time は物理量を積分して別の量を導く数学的操作で、over が積分の対象領域を導いている。"
+          },
+          {
+            "example_id": "ex-0a5cf29414ea",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "integrate the function between the two limits",
+              "曲線の下の面積"
+            ],
+            "rationale": "integrate the function between the two limits は関数と積分限界を伴う定積分の言い方である。"
+          },
+          {
+            "example_id": "ex-8c2c6fbb73c0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrate new employees into the team",
+              "新入社員"
+            ],
+            "rationale": "integrate new employees into the team は人を目的語にとり、受け入れる側の指導役を主語にする他動詞用法である。"
+          },
+          {
+            "example_id": "ex-592720c4136b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrated most children with disabilities into",
+              "通常学級へ受け入れてきた"
+            ],
+            "rationale": "integrated most children with disabilities into は学区を主語、児童を目的語にとる他動詞で、制度の分離撤廃ではなく個々の児童の受け入れを述べる。"
+          },
+          {
+            "example_id": "ex-2c316169e977",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "well integrated into the digital workforce",
+              "高齢の労働者"
+            ],
+            "rationale": "well integrated into the digital workforce は人を主語にした受動態で、受け入れる側が含意されるため他動詞の語義に属する。"
+          },
+          {
+            "example_id": "ex-9bb1049f242a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "integrated herself into",
+              "研究グループ"
+            ],
+            "rationale": "integrated herself into は再帰代名詞を目的語にとる他動詞の形であり、加わる側が主語と目的語を兼ねる用法である。"
+          },
+          {
+            "example_id": "ex-de4d7bd332a2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "integrate the product by parts",
+              "部分積分"
+            ],
+            "rationale": "integrate the product by parts は部分積分という数学の手法を指定する固定表現である。"
+          },
+          {
+            "example_id": "ex-d1d1dded045d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "integrate seamlessly with",
+              "制御ソフト"
+            ],
+            "rationale": "integrate seamlessly with は目的語がなく、主語がセンサーという装置であるから機器どうしの連携を述べている。"
+          },
+          {
+            "example_id": "ex-a38dacff0dbf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "an integrated transport network",
+              "統合交通網"
+            ],
+            "rationale": "an integrated transport network は交通体系を修飾する限定用法で、複数の手段が一体として使える状態を述べる。"
+          },
+          {
+            "example_id": "ex-9ae4df989bae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrated its logistics network with",
+              "宅配業者"
+            ],
+            "rationale": "integrated its logistics network with は会社を主語、物流網を目的語にとる他動詞で、対等の相手と結び合わせる働きを述べる。"
+          },
+          {
+            "example_id": "ex-3060cd7d2150",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "networks will integrate into a single ticketing system",
+              "一つの発券システムへまとまる"
+            ],
+            "rationale": "networks will integrate into a single ticketing system は目的語がなく、仕組みが一つの体系へまとまる変化を述べる自動詞である。"
+          },
+          {
+            "example_id": "ex-3f2bfc17a71b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "an integrated approach",
+              "統合的な取り組み"
+            ],
+            "rationale": "an integrated approach は方法を修飾する限定用法の複合表現で、一体として働くという状態を述べている。"
+          },
+          {
+            "example_id": "ex-b6bfb829c239",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "integrated two new payment methods into",
+              "購入手続きの仕組み"
+            ],
+            "rationale": "integrated two new payment methods into は機能を目的語にとり、既存の全体へ組み込む他動詞用法である。"
+          },
+          {
+            "example_id": "ex-0507e69e5242",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "fail to integrate socially",
+              "溶け込めていない"
+            ],
+            "rationale": "fail to integrate socially は目的語がなく主語が人であり、社会に溶け込めない状態を述べる自動詞である。"
+          },
+          {
+            "example_id": "ex-492e33ce35f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "integrates the expression numerically",
+              "数値的に積分する"
+            ],
+            "rationale": "integrates the expression numerically は数値積分を述べる数学の言い方で、目的語は式である。"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 30,
+            "line_end": 30,
+            "exact_quote": "system integrator／systems integrator（複数の製品を組み合わせて一つの仕組みに構築する事業者）という複合語でも使う。"
+          },
+          "severity": "minor",
+          "rationale": "語形成欄の integrator 項に張られたlinkはE-031（F-012・F-013・F-014）、E-032（F-021）、E-033（F-033・F-035）で、F-013が支えるのは「one that integrates、特に数学の積分に相当する加算を行う装置・計算機部品」までである。system integrator／systems integrator という複合語の存在と「複数の製品を組み合わせて一つの仕組みに構築する事業者」という語義を支持するfactはsource inventoryのどこにも無く（sourcesとfacts全体にこの複合語の言及がない）、open_questionsにもこの欠落の開示がない。それどころかU-011のrationaleは「Each derived or inflected form listed in the article has its own dictionary or etymology fact」と述べ、derived_and_related_forms軸をcoveredとしているため、開示が実際の支持範囲を上回っている。",
+          "evidence_link_ids": [
+            "E-031",
+            "E-032",
+            "E-033"
+          ],
+          "suggested_direction": "この複合語とその事業者義を直接述べるfactを追加して根拠を差し替えるか、主張をF-013が支える装置・計算機部品の語義に限定して当該文を削除する。"
+        }
+      ],
+      "unrouted_observations": []
+    }
+  ]
+}
