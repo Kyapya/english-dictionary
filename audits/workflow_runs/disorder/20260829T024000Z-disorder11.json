@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260829T024000Z-disorder11",
+  "headword": "disorder",
+  "entry_path": "entries/d/disorder.md",
+  "branch": "disorder-final-20260829-v4",
+  "base_sha": "eeac3106fbb2089f4bf043ed8b95d540d0444ebf",
+  "profile": "standard",
+  "profile_reason": "re-run after correcting cause/create subject frame in sense 2",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-29T02:30:46Z",
+  "deadline_at": "2026-08-29T03:30:46Z",
+  "pre_draft_deadline_at": "2026-08-29T02:50:46Z",
+  "last_heartbeat_at": "2026-08-29T02:30:46Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-29T02:30:46Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
