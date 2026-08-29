@@ -10,12 +10,23 @@
 python scripts/run_word.py --dry-run <headword>
 ```
 
-実行または中断済みrunの再開は次を使う。
+新規runは必ず `scripts/start_word.py` を入口にする。`python scripts/run_word.py <headword>` を直接実行して新規runを作ってはならない。
 
 ```bash
-python scripts/run_word.py <headword>
+python scripts/start_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
+
+### 1見出し語1未完了run
+
+同じ見出し語に未完了runがある場合、新しいbranch/runを作らず既存runを再開する。`scripts/start_word.py` は、このガード導入後に作られたremote branch上の `audits/workflow_runs/<slug>/*.json` を走査し、次を強制する。
+
+- `in_progress` が1件でもあれば `resume_required` で停止し、既存branchとrun pathを返す。`v2` / `v3` / `final-vN` などの代替branchを作ってdeadlineや失敗回数をリセットしてはならない。
+- 最新の未完了runが `budget_exhausted` の場合、自動で新runへ移らない。原因を報告して停止し、再試行が必要と明示的に判断された場合だけ `python scripts/start_word.py <headword> --restart-after-budget-exhausted` を使う。
+- remote run状態を検証できない場合は fail closed とし、新runを開始しない。
+- completed runより古い失敗runは履歴として扱い、新しい通常作業を妨げない。
+
+実行環境や会話が変わってもこの規則は同じである。「前のローカル状態が見えない」「前回のセッションが終了した」は新規branchを作る理由にならない。remote branchとworkflow manifestを先に確認する。
 
 個別の手続きコマンドをLLMが組み立てず、オーケストレータが表示・保存する段階入力と出力先をそのまま使う。
 
@@ -63,6 +74,7 @@ handoffモードの `checker_passes` は、反意語軸を盲検採取してか�
 | 最終合否 | `prompts/final_review_spec_v2.md` |
 | source-first根拠収集 | `prompts/source_first_audit_v2.md`、`scripts/source_first_audit_gate.py` |
 | semantic constraint・blind seal・監査派生値 | `prompts/semantic_resolution_gate_v1.md`、`scripts/semantic_resolution_gate.py`、`scripts/generate_audit_manifest.py` |
+| 新規runの単一化・再開判定 | `scripts/start_word.py` |
 | 工程順序・入力分離・status・export | `scripts/run_word.py` |
 | heartbeat・budget・安全停止 | `scripts/entry_workflow_guard.py` |
 | Markdown形式検証 | `scripts/validate_entry.py` |
