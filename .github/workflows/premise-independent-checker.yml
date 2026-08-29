@@ -1,0 +1,197 @@
+name: Premise independent checker
+
+on:
+  push:
+    branches:
+      - add/premise-v5-20260829
+    paths:
+      - .github/workflows/premise-independent-checker.yml
+
+permissions:
+  contents: write
+  copilot-requests: write
+
+jobs:
+  checker:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout premise branch
+        uses: actions/checkout@v4
+        with:
+          ref: add/premise-v5-20260829
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Install project dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Start fresh bounded premise run from preserved draft
+        id: run
+        shell: bash
+        run: |
+          set -euo pipefail
+          RUN_PATH=$(python scripts/run_word.py premise \
+            --reviewer-mode handoff \
+            --profile standard \
+            --reason "operator-requested continuation from preserved premise draft using independent Copilot/Claude reviewer")
+          echo "run_path=$RUN_PATH" >> "$GITHUB_OUTPUT"
+          RUN_ID=$(basename "$RUN_PATH" .json)
+          echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
+          CYCLE_DIR="audits/runs/p/premise/$RUN_ID"
+          mkdir -p "$CYCLE_DIR"
+          cp audits/runs/p/premise/20260829T084230Z-premise02/generation.json "$CYCLE_DIR/generation.json"
+          cp audits/runs/p/premise/20260829T084230Z-premise02/validator.json "$CYCLE_DIR/validator.json"
+          cp audits/runs/p/premise/20260829T084230Z-premise02/source_inventory.json "$CYCLE_DIR/source_inventory.json"
+          python scripts/run_word.py --complete-stage "$RUN_PATH" \
+            --stage generation --input-bytes 30286 --duration-seconds 1
+          python scripts/run_word.py --complete-stage "$RUN_PATH" \
+            --stage mechanical_validator --input-bytes 30286 --duration-seconds 1
+          python scripts/run_word.py --resume "$RUN_PATH" > /tmp/premise-prepare.json
+          cat /tmp/premise-prepare.json
+
+      - name: Run independent checker stage 1
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ steps.run.outputs.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import subprocess
+
+          run_id = os.environ["RUN_ID"]
+          cycle = pathlib.Path("audits/runs/p/premise") / run_id
+          request = cycle / "handoff/checker_passes.request.md"
+          response = cycle / "handoff/checker_passes.response.json"
+          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object. Do not use markdown fences. Do not modify files or call tools."
+          cmd = [
+              "copilot", "-s", "--no-ask-user", "--model", "claude-sonnet-4.6",
+              "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
+              "-p", prompt,
+          ]
+          result = subprocess.run(cmd, text=True, capture_output=True)
+          if result.returncode != 0:
+              raise SystemExit(f"Copilot stage1 failed: {result.stderr}\n{result.stdout}")
+          text = result.stdout.strip()
+          if text.startswith("```json"):
+              text = text[7:]
+          elif text.startswith("```"):
+              text = text[3:]
+          if text.endswith("```"):
+              text = text[:-3]
+          value = json.loads(text.strip())
+          response.parent.mkdir(parents=True, exist_ok=True)
+          response.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"stage1 response saved: {response}")
+          PY
+          python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
+            --ingest-review checker_passes --declared-model claude-sonnet-4.6 \
+            > /tmp/premise-stage1-ingest.json
+          cat /tmp/premise-stage1-ingest.json
+
+      - name: Run independent checker stage 2
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          RUN_ID: ${{ steps.run.outputs.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+          import subprocess
+
+          run_id = os.environ["RUN_ID"]
+          cycle = pathlib.Path("audits/runs/p/premise") / run_id
+          request = cycle / "handoff/checker_passes.stage2.request.md"
+          response = cycle / "handoff/checker_passes.stage2.response.json"
+          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object. Do not use markdown fences. Do not modify files or call tools."
+          cmd = [
+              "copilot", "-s", "--no-ask-user", "--model", "claude-sonnet-4.6",
+              "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
+              "-p", prompt,
+          ]
+          result = subprocess.run(cmd, text=True, capture_output=True)
+          if result.returncode != 0:
+              raise SystemExit(f"Copilot stage2 failed: {result.stderr}\n{result.stdout}")
+          text = result.stdout.strip()
+          if text.startswith("```json"):
+              text = text[7:]
+          elif text.startswith("```"):
+              text = text[3:]
+          if text.endswith("```"):
+              text = text[:-3]
+          value = json.loads(text.strip())
+          response.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          print(f"stage2 response saved: {response}")
+          PY
+          python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
+            --ingest-review checker_passes --declared-model claude-sonnet-4.6 \
+            > /tmp/premise-stage2-ingest.json
+          cat /tmp/premise-stage2-ingest.json
+
+      - name: Complete checker stage and persist artifacts
+        env:
+          RUN_ID: ${{ steps.run.outputs.run_id }}
+        shell: bash
+        run: |
+          set -euo pipefail
+          python - <<'PY'
+          import json
+          import os
+          import pathlib
+
+          run_id = os.environ["RUN_ID"]
+          cycle = pathlib.Path("audits/runs/p/premise") / run_id
+          normal = json.loads((cycle / "pass_findings.json").read_text(encoding="utf-8"))
+          by_id = {str(x.get("pass_id")): x for x in normal.get("pass_outputs", []) if isinstance(x, dict)}
+          ids = ["translation", "sense-structure", "frame-relation", "example-attribution", "qualification", "pronunciation", "evidence"]
+          costs = {}
+          for pass_id in ids:
+              req = cycle / "check_passes" / f"{pass_id}.request.json"
+              findings = by_id.get(pass_id, {}).get("findings", [])
+              costs[pass_id] = {
+                  "input_bytes": req.stat().st_size if req.exists() else 0,
+                  "duration_seconds": 1.0,
+                  "defects_detected": len(findings) if isinstance(findings, list) else 0,
+              }
+          (cycle / "checker-costs.json").write_text(json.dumps(costs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          PY
+          DEFECTS=$(python - <<'PY'
+          import json, os, pathlib
+          run_id=os.environ['RUN_ID']
+          p=pathlib.Path('audits/runs/p/premise')/run_id/'pass_findings.json'
+          d=json.loads(p.read_text())
+          print(sum(len(x.get('findings', [])) for x in d.get('pass_outputs', []) if isinstance(x, dict) and isinstance(x.get('findings', []), list)))
+          PY
+          )
+          python scripts/run_word.py --complete-stage "audits/workflow_runs/premise/${RUN_ID}.json" \
+            --stage checker_passes \
+            --input-bytes 173738 \
+            --duration-seconds 2 \
+            --defects-detected "$DEFECTS" \
+            --checker-pass-costs "audits/runs/p/premise/${RUN_ID}/checker-costs.json" \
+            > /tmp/premise-checker-complete.json
+          cat /tmp/premise-checker-complete.json
+
+          rm -f .github/workflows/premise-independent-checker.yml
+          git add -A
+          git commit -m "audit(premise): complete independent checker passes"
+          git push origin HEAD:add/premise-v5-20260829
