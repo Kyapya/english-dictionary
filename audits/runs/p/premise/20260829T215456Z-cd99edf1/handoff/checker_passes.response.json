@@ -1,0 +1,357 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "84c855eee79c12fcb69fa42cbe4e55d712be41ba6f6b8d9b17a8ba4b56fe5079",
+        "recorded_at": "2026-08-29T21:55:34.595888+00:00",
+        "reviewer": {},
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "db7ba9d5b4bbfc3aeb70c3b7f0feaf3da39cccce2262e12a3d786bf749a463ee",
+        "recorded_at": "2026-08-29T21:55:34.595888+00:00",
+        "reviewer": {},
+        "attributions": [
+          {
+            "example_id": "ex-b394f5961801",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "false premise"
+            ],
+            "rationale": "Discussion of premise failing due to false foundation directly matches sense:001 definition of premise as foundation for argumentation."
+          },
+          {
+            "example_id": "ex-d9760da00dba",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "intriguing premise",
+              "novel",
+              "middle chapters"
+            ],
+            "rationale": "Fiction narrative context with evaluative framing of basic setting matches sense:002 (film/story premise)."
+          },
+          {
+            "example_id": "ex-588102a886c4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "premises",
+              "security cameras",
+              "facility"
+            ],
+            "rationale": "Plural 'premises' with physical building/facility context matches sense:004."
+          },
+          {
+            "example_id": "ex-c933ccbe5b77",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "on the premises",
+              "smoking",
+              "permitted"
+            ],
+            "rationale": "Location-based rule using 'on the premises' phrasing directly indicates sense:004."
+          },
+          {
+            "example_id": "ex-62aec05ab574",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premised on",
+              "idea",
+              "program",
+              "foundation"
+            ],
+            "rationale": "Passive structure 'premised on' with theoretical foundation matches sense:005 verb meaning."
+          },
+          {
+            "example_id": "ex-feb5cdf54d39",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise",
+              "syllogism",
+              "logical structure"
+            ],
+            "rationale": "Formal logic terminology with 'minor premise' in syllogism context matches sense:003."
+          },
+          {
+            "example_id": "ex-1d475b9dda70",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "off the premises",
+              "documents",
+              "permission"
+            ],
+            "rationale": "Physical location reference using 'premises' with property control matches sense:004."
+          },
+          {
+            "example_id": "ex-7d794c62b8b6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise",
+              "change necessary"
+            ],
+            "rationale": "Questioning foundational assumption before proceeding matches sense:001 argumentative context."
+          },
+          {
+            "example_id": "ex-964c331cb641",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "premise of the film",
+              "simple",
+              "nobody in town"
+            ],
+            "rationale": "Film narrative setup with central concept matches sense:002."
+          },
+          {
+            "example_id": "ex-8bbe4ca58c4f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises",
+              "visitors",
+              "9 p.m."
+            ],
+            "rationale": "Building occupancy regulation using 'premises' matches sense:004."
+          },
+          {
+            "example_id": "ex-64f6dcbf33d1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise",
+              "policy",
+              "voluntary"
+            ],
+            "rationale": "Foundational assumption supporting policy matches sense:001."
+          },
+          {
+            "example_id": "ex-379244359fac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "let us premise that",
+              "measurements",
+              "conditions"
+            ],
+            "rationale": "Formal verb usage introducing assumption for discussion matches sense:006."
+          },
+          {
+            "example_id": "ex-d7d83a342096",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "on the premise that",
+              "planned",
+              "parts arrive"
+            ],
+            "rationale": "Action based on conditional assumption matches sense:001."
+          },
+          {
+            "example_id": "ex-e364456094e2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premised on",
+              "forecast",
+              "assumption",
+              "interest rates"
+            ],
+            "rationale": "Passive 'premised on' with theoretical foundation matches sense:005."
+          },
+          {
+            "example_id": "ex-aff6f2f09023",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "rests on",
+              "premise",
+              "demand grow"
+            ],
+            "rationale": "Proposal foundation with explicit premise matches sense:001."
+          },
+          {
+            "example_id": "ex-171c95201479",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on",
+              "distinction",
+              "ownership"
+            ],
+            "rationale": "Active verb form building argument on foundation matches sense:005."
+          },
+          {
+            "example_id": "ex-c189ed8e0ab1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "premises from its conclusion",
+              "evaluate argument"
+            ],
+            "rationale": "Logical argument analysis separating premises matches sense:003."
+          },
+          {
+            "example_id": "ex-d8c6fec01565",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that",
+              "each participant",
+              "information"
+            ],
+            "rationale": "Verb form establishing assumption for discussion matches sense:006."
+          },
+          {
+            "example_id": "ex-245b7c2f2c78",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "major premise",
+              "copper",
+              "electricity"
+            ],
+            "rationale": "Formal logic with 'major premise' in categorical syllogism matches sense:003."
+          },
+          {
+            "example_id": "ex-c0776796bc16",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises",
+              "company",
+              "facility"
+            ],
+            "rationale": "Commercial property context matches sense:004."
+          },
+          {
+            "example_id": "ex-b55d35fc3985",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "inferred from the premises",
+              "conclusion",
+              "assumption"
+            ],
+            "rationale": "Logical inference from premises in formal argument matches sense:003."
+          },
+          {
+            "example_id": "ex-03584420169f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition",
+              "human motivation"
+            ],
+            "rationale": "Verb establishing proposition as foundation matches sense:006."
+          },
+          {
+            "example_id": "ex-f39e16ba8711",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "starts from the premise",
+              "data access",
+              "limited by purpose"
+            ],
+            "rationale": "Starting from foundational assumption matches sense:001."
+          },
+          {
+            "example_id": "ex-6fbbf6df3b63",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "built the series around the premise",
+              "memories traded"
+            ],
+            "rationale": "Narrative construction around central concept matches sense:002."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ]
+}
