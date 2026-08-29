@@ -45,6 +45,17 @@ jobs:
         shell: bash
         run: |
           set -uo pipefail
+          python - <<'PY'
+          from pathlib import Path
+
+          path = Path('.github/scripts/premise_independent_checker.py')
+          text = path.read_text(encoding='utf-8')
+          old = 'Every row has example_id, classification (unique or ambiguous), candidate_sense_ids (exactly one for unique, at least two for ambiguous), discriminating_terms (non-empty for unique, [] for ambiguous), and rationale. Never use blind_attribution, confidence, discriminative_terms, or alternative_candidates.'
+          new = 'Every row has example_id, classification (unique or ambiguous), candidate_sense_ids (exactly one for unique, at least two for ambiguous), discriminating_terms (non-empty for unique, [] for ambiguous), and rationale. LIVENESS GROUNDING IS MANDATORY: for every unique row, each discriminating_terms value must be copied verbatim from that row\'s supplied example or translation, and the rationale must literally repeat at least one such valid discriminating term. For every ambiguous row, discriminating_terms must be [] and the rationale must literally include the complete supplied English example text verbatim. Make each rationale item-specific rather than reusing a template so that the rationales remain substantively distinct. Copy grounding text only from the supplied request; never invent or normalize quotes. Never use blind_attribution, confidence, discriminative_terms, or alternative_candidates.'
+          if old not in text:
+              raise SystemExit('expected stage1 attribution contract text not found')
+          path.write_text(text.replace(old, new, 1), encoding='utf-8')
+          PY
           sed -i 's/MODEL = "claude-haiku-4.5"/MODEL = "auto"/' .github/scripts/premise_independent_checker.py
           mkdir -p audits/debug/premise
           LOG="audits/debug/premise/checker-${GITHUB_RUN_ID}.log"
