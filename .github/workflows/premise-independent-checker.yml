@@ -38,17 +38,14 @@ jobs:
       - name: Install Copilot CLI
         run: npm install -g @github/copilot
 
-      - name: Start fresh bounded premise run from preserved draft
+      - name: Resume bounded premise run from preserved draft
         id: run
         shell: bash
         run: |
           set -euo pipefail
-          RUN_PATH=$(python scripts/run_word.py premise \
-            --reviewer-mode handoff \
-            --profile standard \
-            --reason "operator-requested continuation from preserved premise draft using independent Copilot/Claude reviewer")
+          RUN_ID="20260829T163958Z-6fa1beca"
+          RUN_PATH="audits/workflow_runs/premise/${RUN_ID}.json"
           echo "run_path=$RUN_PATH" >> "$GITHUB_OUTPUT"
-          RUN_ID=$(basename "$RUN_PATH" .json)
           echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
           CYCLE_DIR="audits/runs/p/premise/$RUN_ID"
           mkdir -p "$CYCLE_DIR"
@@ -81,11 +78,11 @@ jobs:
           response = cycle / "handoff/checker_passes.response.json"
           prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object. Do not use markdown fences. Do not modify files or call tools."
           cmd = [
-              "copilot", "-s", "--no-ask-user", "--model", "claude-sonnet-4.6",
+              "copilot", "-s", "--no-ask-user", "--no-custom-instructions",
+              "--model", "claude-sonnet-4.6",
               "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
-              "-p", prompt,
           ]
-          result = subprocess.run(cmd, text=True, capture_output=True)
+          result = subprocess.run(cmd, input=prompt, text=True, capture_output=True)
           if result.returncode != 0:
               raise SystemExit(f"Copilot stage1 failed: {result.stderr}\n{result.stdout}")
           text = result.stdout.strip()
@@ -124,11 +121,11 @@ jobs:
           response = cycle / "handoff/checker_passes.stage2.response.json"
           prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object. Do not use markdown fences. Do not modify files or call tools."
           cmd = [
-              "copilot", "-s", "--no-ask-user", "--model", "claude-sonnet-4.6",
+              "copilot", "-s", "--no-ask-user", "--no-custom-instructions",
+              "--model", "claude-sonnet-4.6",
               "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
-              "-p", prompt,
           ]
-          result = subprocess.run(cmd, text=True, capture_output=True)
+          result = subprocess.run(cmd, input=prompt, text=True, capture_output=True)
           if result.returncode != 0:
               raise SystemExit(f"Copilot stage2 failed: {result.stderr}\n{result.stdout}")
           text = result.stdout.strip()
