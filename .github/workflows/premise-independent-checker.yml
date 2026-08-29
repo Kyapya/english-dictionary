@@ -42,4 +42,6 @@ jobs:
       - name: Run independent checker
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python .github/scripts/premise_independent_checker.py
+        run: |
+          sed -i 's/MODEL = "claude-haiku-4.5"/MODEL = "auto"/' .github/scripts/premise_independent_checker.py
+          python .github/scripts/premise_independent_checker.py
