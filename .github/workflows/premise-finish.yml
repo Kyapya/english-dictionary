@@ -42,3 +42,16 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ github.token }}
         run: python .github/scripts/premise_finish_phase_a.py
+
+      - name: Preserve premise finish diagnostics
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: premise-finish-${{ github.run_id }}
+          if-no-files-found: warn
+          path: |
+            audits/workflow_runs/premise/20260829T223614Z-5cbb1e5c.json
+            audits/runs/p/premise/20260829T223614Z-5cbb1e5c/handoff/
+            audits/runs/p/premise/20260829T223614Z-5cbb1e5c/cold_review.json
+            audits/runs/p/premise/20260829T223614Z-5cbb1e5c/final_blind.json
+            audits/runs/p/premise/20260829T223614Z-5cbb1e5c/blind_seal.json
