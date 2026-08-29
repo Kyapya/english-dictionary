@@ -126,6 +126,7 @@ def normalize_response(
         "model": model,
         "response_id": response_id,
         "request_sha256": canonical_sha256(request_payload),
+        "agent_id": f"api:{provider}:{response_id}",
     }
     if generation_model and model.strip().casefold() == generation_model.strip().casefold():
         reviewer["same_model_as_generation"] = True

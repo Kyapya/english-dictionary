@@ -721,6 +721,7 @@ def ingest_handoff_review(
     *,
     stage: str,
     declared_model: str,
+    reviewer_agent_id: str | None = None,
     repo_root: Path = REPO_ROOT,
 ) -> Path:
     request = next_stage_request(manifest)
@@ -750,18 +751,26 @@ def ingest_handoff_review(
     value = json.loads(response_path.read_text(encoding="utf-8"))
     if not isinstance(value, dict):
         raise ValueError("handoff response must be a JSON object")
+    agent_id = (reviewer_agent_id or "").strip()
     reviewer = {
         "mode": "handoff",
         "declared_model": declared_model.strip(),
         "ingested_by": "human",
     }
+    if agent_id:
+        reviewer["agent_id"] = agent_id
     entry = repo_root / str(manifest["entry_path"])
     front, _ = validate_entry._split_front_matter(entry.read_text(encoding="utf-8"))
     generation_model = validate_entry._front_matter_values(front or []).get("model", "")
-    if review_liveness.normalize_text(declared_model) == review_liveness.normalize_text(
+    same_model = review_liveness.normalize_text(declared_model) == review_liveness.normalize_text(
         generation_model
-    ):
-        raise ValueError("handoff review model must differ from the generation model")
+    )
+    if same_model:
+        if not agent_id:
+            raise ValueError(
+                "same-model handoff review requires reviewer_agent_id to prove independent-agent provenance"
+            )
+        reviewer["same_model_as_generation"] = True
     value["reviewer"] = reviewer
     liveness_errors: list[str] = []
     if stage == "checker_passes":
@@ -1947,6 +1956,7 @@ def _resume(
     *,
     ingest_review: str | None = None,
     declared_model: str = "",
+    reviewer_agent_id: str = "",
     call_review: bool = False,
 ) -> int:
     resolved = path.resolve()
@@ -1969,6 +1979,7 @@ def _resume(
                 manifest,
                 stage=ingest_review,
                 declared_model=declared_model,
+                reviewer_agent_id=reviewer_agent_id or None,
             )
         except Exception as exc:  # the guard owns every failed ingestion
             return _report_review_failure(
@@ -2041,6 +2052,7 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--ingest-review", choices=sorted(REVIEW_STAGES))
     parser.add_argument("--call-review", action="store_true")
     parser.add_argument("--declared-model", default="")
+    parser.add_argument("--reviewer-agent-id", default="")
     parser.add_argument("--acceptance", action="store_true")
     parser.add_argument("--complete-stage", type=Path)
     parser.add_argument("--stage")
@@ -2108,19 +2120,29 @@ def main() -> int:
             )
         if args.ingest_review and args.call_review:
             raise SystemExit("--ingest-review and --call-review are mutually exclusive")
-        if args.call_review and args.declared_model:
-            raise SystemExit("--declared-model is only used with --ingest-review")
+        if args.call_review and (args.declared_model or args.reviewer_agent_id):
+            raise SystemExit(
+                "--declared-model and --reviewer-agent-id are only used with --ingest-review"
+            )
+        if args.reviewer_agent_id and not args.ingest_review:
+            raise SystemExit("--reviewer-agent-id requires --ingest-review")
         return _resume(
             args.resume,
             ingest_review=args.ingest_review,
             declared_model=args.declared_model,
+            reviewer_agent_id=args.reviewer_agent_id,
             call_review=args.call_review,
         )
     if not args.headword:
         raise SystemExit("headword is required")
-    if args.call_review or args.ingest_review or args.declared_model:
+    if (
+        args.call_review
+        or args.ingest_review
+        or args.declared_model
+        or args.reviewer_agent_id
+    ):
         raise SystemExit(
-            "--call-review, --ingest-review, and --declared-model require --resume"
+            "--call-review, --ingest-review, --declared-model, and --reviewer-agent-id require --resume"
         )
     if args.dry_run:
         print(

@@ -74,6 +74,10 @@ def validate_reviewer(
         if value.get("ingested_by") not in {None, "human"}:
             errors.append("reviewer.ingested_by must be human")
 
+    agent_id = value.get("agent_id")
+    if agent_id is not None and (not isinstance(agent_id, str) or not agent_id.strip()):
+        errors.append("reviewer.agent_id must be a non-empty string when supplied")
+
     model = reviewer_model(value)
     if generation_model and model and model == normalize_text(generation_model):
         if value.get("same_model_as_generation") is not True:
@@ -88,6 +92,23 @@ def reviewer_model(value: Any) -> str | None:
         return None
     raw = value.get("model") if value.get("mode") == "api" else value.get("declared_model")
     return normalize_text(raw) or None
+
+
+def reviewer_agent_id(value: Any) -> str | None:
+    """Return independent reviewer-agent identity with legacy compatibility."""
+    if not isinstance(value, dict):
+        return None
+    explicit = normalize_text(value.get("agent_id"))
+    if explicit:
+        return explicit
+    if value.get("mode") == "api":
+        response_id = normalize_text(value.get("response_id"))
+        provider = normalize_text(value.get("provider"))
+        if response_id:
+            return f"api:{provider}:{response_id}"
+    # Historical handoff records predate agent_id. Keep their former
+    # model-based separation only as a compatibility fallback.
+    return reviewer_model(value)
 
 
 def _example_map(request: dict[str, Any]) -> dict[str, dict[str, Any]]:
@@ -372,8 +393,8 @@ def zero_finding_run_errors(
     attr_secondary = secondary.get("example_attribution")
     if not isinstance(cold_secondary, dict) or not isinstance(attr_secondary, dict):
         return [
-            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: a zero-finding run requires second-model "
-            "cold and example-attribution reviews"
+            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: a zero-finding run requires independent "
+            "secondary-agent cold and example-attribution reviews"
         ]
     if _finding_count(cold_secondary, "findings") or _finding_count(
         attr_secondary, "findings"
@@ -382,22 +403,22 @@ def zero_finding_run_errors(
             f"{B4_ZERO_FINDING_SINGLE_REVIEW}: second-review findings must enter "
             "the normal finding-resolution flow before approval"
         ]
-    primary_models = {
-        reviewer_model(cold_review.get("reviewer")),
+    primary_agents = {
+        reviewer_agent_id(cold_review.get("reviewer")),
         *(
-            reviewer_model(item.get("reviewer"))
+            reviewer_agent_id(item.get("reviewer"))
             for item in pass_findings.get("pass_outputs", [])
             if isinstance(item, dict) and item.get("pass_id") == "example-attribution"
         ),
     } - {None}
-    secondary_models = {
-        reviewer_model(cold_secondary.get("reviewer")),
-        reviewer_model(attr_secondary.get("reviewer")),
+    secondary_agents = {
+        reviewer_agent_id(cold_secondary.get("reviewer")),
+        reviewer_agent_id(attr_secondary.get("reviewer")),
     } - {None}
-    if not secondary_models or primary_models & secondary_models:
+    if not secondary_agents or primary_agents & secondary_agents:
         return [
-            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: second reviews must declare a model "
-            "different from the primary reviewers"
+            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: second reviews must declare an independent "
+            "reviewer agent different from the primary reviewers"
         ]
     return []
 
