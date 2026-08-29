@@ -6,6 +6,8 @@ on:
       - add/premise-v5-20260829
     paths:
       - .github/workflows/premise-finish.yml
+      - .github/scripts/premise_finish_phase_a.py
+      - .github/scripts/premise_finish_resilient.py
 
 permissions:
   contents: write
@@ -133,7 +135,18 @@ jobs:
       - name: Complete cold, secondary, blind and final review
         env:
           GITHUB_TOKEN: ${{ github.token }}
-        run: python .github/scripts/premise_finish_phase_a.py
+        run: python .github/scripts/premise_finish_resilient.py
+
+      - name: Remove resilient recovery helper after success
+        if: success()
+        shell: bash
+        run: |
+          set -euo pipefail
+          if [[ -e .github/scripts/premise_finish_resilient.py ]]; then
+            git rm .github/scripts/premise_finish_resilient.py
+            git commit -m "chore(premise): remove temporary resilient recovery helper"
+            git push origin HEAD:add/premise-v5-20260829
+          fi
 
       - name: Preserve premise finish diagnostics
         if: always()
