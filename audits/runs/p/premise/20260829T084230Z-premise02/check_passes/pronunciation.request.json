@@ -1,0 +1,47 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "名詞は米・英: /ˈpremɪs/。2音節の PREM-iss で、第1音節に主強勢がある。語末の `-ise` を /aɪz/ と読む語ではなく、名詞では /ɪs/ で終わる。  "
+      },
+      {
+        "line": 16,
+        "text": "動詞は米・英で /prɪˈmaɪz/ と /ˈpremɪs/ の両方が辞書に載る。/prɪˈmaɪz/ では第2音節に強勢があり、語末は /aɪz/、/ˈpremɪs/ では名詞と同じ発音になる。とくに `be premised on/upon ...` を聞くときは、話者によってこの二つがあり得る。  "
+      },
+      {
+        "line": 17,
+        "text": "複数形 premises は /ˈpremɪsɪz/。建物・敷地を表す `premises` も同じ発音で、綴りは複数形と同一である。動詞の過去形・過去分詞 premised、-ing形 premising は、採用する動詞発音に応じて発音も変わる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
