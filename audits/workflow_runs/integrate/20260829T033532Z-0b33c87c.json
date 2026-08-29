@@ -18,12 +18,12 @@
     "research_queries": 14,
     "candidate_pages": 18
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "normal_review_complete",
   "started_at": "2026-08-29T03:35:32Z",
   "deadline_at": "2026-08-29T05:05:32Z",
   "pre_draft_deadline_at": "2026-08-29T04:05:32Z",
-  "last_heartbeat_at": "2026-08-29T03:55:12Z",
+  "last_heartbeat_at": "2026-08-29T04:05:03Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-29T03:35:34Z",
@@ -56,7 +56,7 @@
       "notes": "orchestrator completed checker_passes"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "the context-free cold review returned five findings (two medium, three low) that required body revision, so the cycle restarts on the corrected body",
   "open_questions": [],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",

@@ -379,7 +379,7 @@ tags: []
 例: Older workers are not always well integrated into the digital workforce.  
 訳: 高齢の労働者が、デジタル化した職場にいつもうまく受け入れられているとは限らない。  
 
-【語法・注意】受け入れる側が主語、加わる側が目的語になる。加わる側を主語にして「溶け込む」と言うときは目的語を取らない語義5を使う。○ The manager integrated him into the team.（語義4）と ○ He integrated into the team.（語義5）は主語と目的語の役割が入れ替わる最小対立で、能動の自動詞では into を使い、× He integrated in the team. は避ける。integrate oneself into は自動詞の integrate into よりやや硬く、本人の意識的な努力を含意する。受動態は be integrated into が中心だが、Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る。assimilate との違いにも注意する。assimilate は加わる側が元の文化的特徴を失うことを含意しやすく、社会政策の議論では integrate と対比して使われる。  
+【語法・注意】受け入れる側が主語、加わる側が目的語になる。加わる側を主語にして「溶け込む」と言うときは目的語を取らない語義5を使う。○ The manager integrated him into the team.（語義4）と ○ He integrated into the team.（語義5）は主語と目的語の役割が入れ替わる最小対立で、能動の自動詞では行き先を into で示し、補語としての × He integrated in the team. は避ける。integrate oneself into は自動詞の integrate into よりやや硬く、本人の意識的な努力を含意する。受動態は be integrated into が中心だが、Disabled students are integrated in regular classrooms. のように in を使う例も辞書に載る。assimilate との違いにも注意する。assimilate は加わる側が元の文化的特徴を失うことを含意しやすく、社会政策の議論では integrate と対比して使われる。  
 
 【類義語】
 
@@ -478,7 +478,7 @@ tags: []
 例: The report warned that some young arrivals fail to integrate socially.  
 訳: その報告書は、若い入国者の一部が社会的に溶け込めていないと警告した。  
 
-【語法・注意】この語義では目的語を取らない。She integrated the team. は文としては正しいが、語義1の他動詞（チームを統合した）と読まれ、「チームに溶け込んだ」の意味にはならない。入っていく先は into が標準で、× integrate to とは言わない。in は語義4の受動態 be integrated in 〈場〉 に辞書例があるが、この自動詞では into を使う。会話では fit in のほうがはるかに普通で、integrate は社会政策や職場の評価など、やや客観的に述べる文脈で使う。主語が装置や仕組みの場合は語義3になる。  
+【語法・注意】この語義では目的語を取らない。She integrated the team. は文としては正しいが、語義1の他動詞（チームを統合した）か、語義6の人種統合（彼女がそのチームの人種統合を実現した）と読まれ、「チームに溶け込んだ」の意味にはならない。入っていく先は into が標準で、× integrate to とは言わない。行き先を示す補語として in を使うのは避けるが、場所を表す副詞句の in は別で、integrated well in their new school のような言い方は成り立つ。受動態の be integrated in 〈場〉 には語義4に辞書例がある。会話では fit in のほうがはるかに普通で、integrate は社会政策や職場の評価など、やや客観的に述べる文脈で使う。主語が装置や仕組みの場合は語義3になる。  
 
 【類義語】
 
@@ -570,7 +570,7 @@ tags: []
 例: The district was integrated under a desegregation order that lasted thirty years.  
 訳: その学区は30年続いた人種分離撤廃命令のもとで人種統合された。  
 
-【語法・注意】典型的な目的語は学校、軍、地区などの制度や組織である。辞書は「分離をやめて対等な構成員として迎える」という定義も与えており、人を目的語にとる用法もあるが、その場合は語義4（一員として受け入れる）と重なる。人種分離の撤廃そのものを述べたいときは integrate the schools のように制度を目的語にすると意味がはっきりする。自動詞用法の The university integrated in 1962. の in は時を表す副詞句であり、語義5で扱った支配される前置詞ではない。語義1と語義3、語義4と語義5は、他動詞と自動詞で主語の役割が入れ替わるため別語義に分けているが、この語義では他動詞も自動詞も同じ制度を主語または目的語に取り、出来事が同じなので一つの語義にまとめている。desegregate との違いも重要である。desegregate は法や規則による分離をやめさせる制度上の措置に焦点があり、integrate は分けられていた人々が実際に同じ場に属する状態になることまでを含意する。このため公民権運動の議論では The schools were desegregated but never integrated. のように対比して使われる。この語義は主に米国の用法である。  
+【語法・注意】典型的な目的語は学校、軍、地区などの制度や組織である。辞書は「分離をやめて対等な構成員として迎える」という定義も与えており、人を目的語にとる用法もあるが、その場合は語義4（一員として受け入れる）と重なる。人種分離の撤廃そのものを述べたいときは integrate the schools のように制度を目的語にすると意味がはっきりする。自動詞用法の The university integrated in 1962. の in は時を表す副詞句であり、語義5で扱った支配される前置詞ではない。語義1と語義3、語義4と語義5は、他動詞と自動詞で主語の役割が入れ替わるため別語義に分けているが、この語義では他動詞も自動詞も同じ制度を主語または目的語に取り、出来事が同じなので一つの語義にまとめている。desegregate との違いも重要である。desegregate は法や規則による分離をやめさせる制度上の措置に焦点があり、integrate は分けられていた人々が実際に同じ場に属する状態になることまでを含意する。このため公民権運動の議論では The schools were desegregated but never integrated. のように対比して使われる。この語義は主に米国の用法で、実際の用例は人種統合が中心である。北アイルランドの宗派統合のように別の分離を解消する場合も同じ動詞を使い、その状態を表す形容詞用法は語義7で扱う。  
 
 【類義語】
 
@@ -643,7 +643,7 @@ tags: []
 例: The sit-ins of 1960 aimed to win integrated lunch counters across the South.  
 訳: 1960年の座り込みは、南部全域で人種を問わず利用できる軽食カウンターを実現することを目指していた。  
 
-【語法・注意】この語義の integrated は制度、施設、地域や人の集団を修飾し、× an integrated student のように個人には使わない。個人について述べるときは語義5の自動詞を使い、○ a student who has integrated into the school とする。an integrated school（分離をやめて統合された学校、語義7）と an integrated curriculum（教科どうしを結び付けた教育課程、語義2）は形が同じでも中心意味が異なり、修飾される名詞と文脈で判断する。この語義が指す分離の種類は地域によって異なる。米国では人種を指し、北アイルランドでは宗派を指して、an integrated school はカトリックとプロテスタントの児童をともに教える学校になる。どちらの分離を指すかは文脈で決まるので、米国の記述をそのまま当てはめない。  
+【語法・注意】この語義の integrated は制度、施設、地域や人の集団を修飾し、× an integrated student のように個人には使わない。個人について述べるときは語義5の自動詞を使い、○ a student who has integrated into the school とする。an integrated school（分離をやめて統合された学校、語義7）と an integrated curriculum（教科どうしを結び付けた教育課程、語義2）は形が同じでも中心意味が異なり、修飾される名詞と文脈で判断する。この語義が指す分離の種類は地域によって異なる。米国では人種を指し、北アイルランドでは宗派を指して、an integrated school はカトリックとプロテスタントの児童をともに教える学校になる。どちらの分離を指すかは文脈で決まる。これ以外の地域では integrated school が別の制度を指すこともあるので、米国の記述をそのまま当てはめず、その地域の制度を確かめる。  
 
 【類義語】
 
@@ -684,15 +684,15 @@ tags: []
 例: The town's only high school remained all-white until 1965.  
 訳: その町の唯一の高校は1965年まで白人だけの学校のままだった。  
 
-8. 【他動詞・数学】積分する
+8. 【他動詞・自動詞・数学】積分する
 
-【日本語訳・定義】微積分で、関数や式の積分を求める。微分の逆の操作で、微小な部分を足し合わせて面積、体積、総量などの全体量を得ることに当たる。目的語には積分の対象となる関数や式が来る。積分する変数は with respect to で示し、over は積分する変数や領域を導く。積分区間の上下限は from … to … で示す。  
+【日本語訳・定義】微積分で、関数や式の積分を求める。微分の逆の操作で、微小な部分を足し合わせて面積、体積、総量などの全体量を得ることに当たる。目的語には積分の対象となる関数や式が来るが、integrate by parts や integrate over the region のように目的語を言わない形も書き言葉で普通に使う。積分する変数は with respect to で示し、over は積分する変数や領域を導く。積分区間の上下限は from … to … で示す。  
 
 【頻度】〈3/10〉  
 
 【レジスター/領域】数学、物理、工学の専門語。微積分を扱う教科書、論文、授業のほか、数値計算を行うソフトウェアの説明など、専門を前提とする技術文書でも使う。一般の文脈では使わない。  
 
-【文法パターン】integrate 〈the function〉＝関数を積分する／integrate 〈the expression〉 with respect to 〈x〉＝式を x について積分する／integrate 〈the function〉 from 〈a〉 to 〈b〉＝関数を a から b まで積分する／integrate 〈the velocity〉 over 〈time〉＝速度を時間にわたって積分する／integrate 〈the product〉 by parts＝積を部分積分する  
+【文法パターン】integrate 〈the function〉＝関数を積分する／integrate 〈the expression〉 with respect to 〈x〉＝式を x について積分する／integrate 〈the function〉 from 〈a〉 to 〈b〉＝関数を a から b まで積分する／integrate 〈the velocity〉 over 〈time〉＝速度を時間にわたって積分する／integrate 〈the product〉 by parts＝積を部分積分する／integrate over 〈the region〉＝領域にわたって積分する（目的語を言わない形）  
 
 【コロケーション】
 
@@ -721,7 +721,7 @@ tags: []
 例: The software integrates the expression numerically when no closed form exists.  
 訳: 閉じた形の解が存在しない場合、そのソフトは式を数値的に積分する。  
 
-【語法・注意】数学の専門語で、一般義の「統合する」とは別に覚える。逆の操作は differentiate（微分する）、結果として得られる量は integral（積分）、操作全体は integration（積分法）である。integration は語義1から語義6までの名詞形と同じ形なので、分野と文脈で読み分ける。積分する変数は with respect to x のように示し、× integrate by x とは言わない。口頭の説明では integrate over the interval のように対象を言わずに済ませることもあるが、書き言葉では積分する関数や式を目的語として示すのが標準的である。  
+【語法・注意】数学の専門語で、一般義の「統合する」とは別に覚える。逆の操作は differentiate（微分する）、結果として得られる量は integral（積分）、操作全体は integration（積分法）である。integration は語義1から語義6までの名詞形と同じ形なので、分野と文脈で読み分ける。積分する変数は with respect to x のように示し、× integrate by x とは言わない。対象の関数や式を目的語として示す形と、integrating by parts, we obtain … のように目的語を言わない形の両方が、教科書や論文で使われる。  
 
 【類義語】
 
