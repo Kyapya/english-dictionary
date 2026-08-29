@@ -31,11 +31,12 @@ jobs:
       - name: Execute independent two-stage checker
         env:
           GITHUB_TOKEN: ${{ github.token }}
-          RUN_ID: 20260829T163958Z-6fa1beca
         shell: bash
         run: |
           set -euo pipefail
-          RUN_PATH="audits/workflow_runs/premise/${RUN_ID}.json"
+          RUN_PATH=$(python scripts/run_word.py premise --reviewer-mode handoff --profile standard --reason "resume premise from preserved draft with independent GitHub Actions reviewer")
+          RUN_ID=$(basename "$RUN_PATH" .json)
+          export RUN_ID
           CYCLE="audits/runs/p/premise/${RUN_ID}"
           mkdir -p "$CYCLE"
           cp audits/runs/p/premise/20260829T084230Z-premise02/generation.json "$CYCLE/generation.json"
@@ -47,9 +48,12 @@ jobs:
           cat /tmp/prepare.json
 
           python - <<'PY'
-          import json, os, pathlib, subprocess
+          import hashlib, json, os, pathlib, subprocess
           from datetime import datetime, timezone
-          from scripts import check_passes
+
+          def digest_json(value):
+              encoded=json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf-8')
+              return hashlib.sha256(encoded).hexdigest()
 
           run_id=os.environ['RUN_ID']
           cycle=pathlib.Path('audits/runs/p/premise')/run_id
@@ -57,54 +61,33 @@ jobs:
           handoff=cycle/'handoff/checker_passes.request.md'
           frame=json.loads((check/'frame-relation.request.json').read_text())
           attr=json.loads((check/'example-attribution.request.json').read_text())
-          frame_hash=check_passes._digest_json(frame)
-          attr_hash=check_passes._digest_json(attr)
-          body_hash=attr['input_body_sha256']
+          frame_hash=digest_json(frame); attr_hash=digest_json(attr); body_hash=attr['input_body_sha256']
+          now=datetime.now(timezone.utc).isoformat()
           contract=f'''
 
-          CRITICAL MACHINE OUTPUT CONTRACT — this overrides any looser formatting interpretation above.
-          Return ONE JSON object whose top-level key is exactly "pass_outputs". Do NOT use "responses".
-          The array must contain exactly seven objects, one for each pass_id exactly once:
-          translation, sense-structure, frame-relation, example-attribution, qualification, pronunciation, evidence.
+CRITICAL MACHINE OUTPUT CONTRACT — this overrides any looser formatting interpretation above.
+Return ONE JSON object whose top-level key is exactly "pass_outputs". Do NOT use "responses".
+The array must contain exactly seven objects, one for each pass_id exactly once:
+translation, sense-structure, frame-relation, example-attribution, qualification, pronunciation, evidence.
 
-          For translation, sense-structure, qualification, pronunciation, evidence use exactly:
-          {{"pass_id":"PASS_ID","findings":[FINDINGS]}}
+For translation, sense-structure, qualification, pronunciation, evidence use exactly:
+{{"pass_id":"PASS_ID","findings":[FINDINGS]}}
 
-          For frame-relation use exactly:
-          {{"pass_id":"frame-relation","antonym_axis_blind_record":{{
-            "schema_version":"antonym_axis_blind_record_v1",
-            "pass_id":"frame-relation",
-            "input_body_sha256":"{body_hash}",
-            "blind_request_sha256":"{frame_hash}",
-            "recorded_at":"{datetime.now(timezone.utc).isoformat()}",
-            "axes":[AXIS_RECORDS]
-          }}}}
-          AXIS_RECORDS must cover every item_id in the masked frame-relation request exactly once. Each record has item_id, axis, relation_type, reason. axis must be a non-empty one-noun label; if axis is "unnamable", relation_type must be empty/null and reason must explain why. Otherwise relation_type must be one of 補完, 程度, 方向, 評価, 状態. If the request has zero antonym_items, axes must be [].
+For frame-relation use exactly:
+{{"pass_id":"frame-relation","antonym_axis_blind_record":{{"schema_version":"antonym_axis_blind_record_v1","pass_id":"frame-relation","input_body_sha256":"{body_hash}","blind_request_sha256":"{frame_hash}","recorded_at":"{now}","axes":[AXIS_RECORDS]}}}}
+AXIS_RECORDS must cover every item_id in the masked frame-relation request exactly once. Each record has item_id, axis, relation_type, reason. axis must be a non-empty one-noun label; if axis is "unnamable", relation_type must be empty/null and reason must explain why. Otherwise relation_type must be one of 補完, 程度, 方向, 評価, 状態. If the request has zero antonym_items, axes must be [].
 
-          For example-attribution use exactly:
-          {{"pass_id":"example-attribution","blind_attribution_record":{{
-            "schema_version":"example_attribution_blind_record_v1",
-            "pass_id":"example-attribution",
-            "input_body_sha256":"{body_hash}",
-            "blind_request_sha256":"{attr_hash}",
-            "recorded_at":"{datetime.now(timezone.utc).isoformat()}",
-            "attributions":[ATTRIBUTION_RECORDS]
-          }}}}
-          ATTRIBUTION_RECORDS must cover every opaque example_id exactly once. Each record MUST have exactly these semantic fields:
-          - example_id
-          - classification: "unique" or "ambiguous"
-          - candidate_sense_ids: non-empty list of sense IDs from the supplied sense inventory; exactly one for unique, at least two for ambiguous
-          - discriminating_terms: non-empty list of exact discriminating terms for unique; [] for ambiguous
-          - rationale: non-empty explanation of why the example belongs uniquely to that sense or why it is ambiguous
-          Never use the field names blind_attribution, confidence, discriminative_terms, or alternative_candidates.
+For example-attribution use exactly:
+{{"pass_id":"example-attribution","blind_attribution_record":{{"schema_version":"example_attribution_blind_record_v1","pass_id":"example-attribution","input_body_sha256":"{body_hash}","blind_request_sha256":"{attr_hash}","recorded_at":"{now}","attributions":[ATTRIBUTION_RECORDS]}}}}
+ATTRIBUTION_RECORDS must cover every opaque example_id exactly once. Each record MUST contain:
+example_id; classification ("unique" or "ambiguous"); candidate_sense_ids (exactly one for unique, at least two for ambiguous); discriminating_terms (non-empty for unique, [] for ambiguous); rationale (non-empty).
+Never use the field names blind_attribution, confidence, discriminative_terms, or alternative_candidates.
 
-          Findings must use only taxonomy IDs owned by their pass and must match the supplied finding schema. Do not invent hashes, IDs, lines, or quotes. Return JSON only, no markdown fences and no commentary.
-          '''
-          prompt=handoff.read_text(encoding='utf-8')+contract
+Findings must use only taxonomy IDs owned by their pass and must match the supplied finding schema. Do not invent IDs, lines, or quotes. Return JSON only, no markdown fences or commentary.
+'''
           cmd=['copilot','--no-ask-user','--no-custom-instructions','--model','claude-haiku-4.5','--output-format','json','--deny-tool=shell','--deny-tool=write','--deny-tool=url','--deny-tool=memory']
-          result=subprocess.run(cmd,input=prompt,text=True,capture_output=True)
-          if result.returncode:
-              raise SystemExit('Copilot stage1 failed: '+result.stderr+'\n'+result.stdout)
+          result=subprocess.run(cmd,input=handoff.read_text(encoding='utf-8')+contract,text=True,capture_output=True)
+          if result.returncode: raise SystemExit('Copilot stage1 failed: '+result.stderr+'\n'+result.stdout)
           messages=[]; models=[]
           for raw in result.stdout.splitlines():
               try: event=json.loads(raw)
@@ -122,32 +105,39 @@ jobs:
           value=json.loads(text.strip())
           outputs=value.get('pass_outputs')
           if not isinstance(outputs,list): raise SystemExit('stage1 response missing pass_outputs')
-          now=datetime.now(timezone.utc).isoformat()
+          bind_time=datetime.now(timezone.utc).isoformat()
           for out in outputs:
               if not isinstance(out,dict): continue
               if out.get('pass_id')=='frame-relation' and isinstance(out.get('antonym_axis_blind_record'),dict):
-                  rec=out['antonym_axis_blind_record']; rec['input_body_sha256']=body_hash; rec['blind_request_sha256']=frame_hash; rec['recorded_at']=now
+                  rec=out['antonym_axis_blind_record']; rec['input_body_sha256']=body_hash; rec['blind_request_sha256']=frame_hash; rec['recorded_at']=bind_time
               if out.get('pass_id')=='example-attribution' and isinstance(out.get('blind_attribution_record'),dict):
-                  rec=out['blind_attribution_record']; rec['input_body_sha256']=body_hash; rec['blind_request_sha256']=attr_hash; rec['recorded_at']=now
+                  rec=out['blind_attribution_record']; rec['input_body_sha256']=body_hash; rec['blind_request_sha256']=attr_hash; rec['recorded_at']=bind_time
           (cycle/'handoff/checker_passes.response.json').write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
           (cycle/'handoff/checker_passes.stage1.model.txt').write_text((models[-1] if models else 'claude-haiku-4.5')+'\n')
           PY
 
           MODEL1=$(cat "$CYCLE/handoff/checker_passes.stage1.model.txt")
-          python scripts/run_word.py --resume "$RUN_PATH" --ingest-review checker_passes \
-            --declared-model "$MODEL1" --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage1" \
-            > /tmp/ingest1.json
-          cat /tmp/ingest1.json
+          set +e
+          python scripts/run_word.py --resume "$RUN_PATH" --ingest-review checker_passes --declared-model "$MODEL1" --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage1" > /tmp/ingest1.out 2>&1
+          RC=$?
+          set -e
+          cat /tmp/ingest1.out
+          if [ "$RC" -ne 0 ]; then
+            echo '=== stage1 response ==='; cat "$CYCLE/handoff/checker_passes.response.json"; exit "$RC"
+          fi
 
           python - <<'PY'
-          import json, os, pathlib, subprocess
-          from scripts import check_passes
-          run_id=os.environ['RUN_ID']
-          cycle=pathlib.Path('audits/runs/p/premise')/run_id
-          check=cycle/'check_passes'
+          import hashlib, json, os, pathlib, subprocess
+
+          def digest_json(value):
+              encoded=json.dumps(value,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode('utf-8')
+              return hashlib.sha256(encoded).hexdigest()
+
+          run_id=os.environ['RUN_ID']; cycle=pathlib.Path('audits/runs/p/premise')/run_id; check=cycle/'check_passes'
           handoff=cycle/'handoff/checker_passes.stage2.request.md'
           req=json.loads((check/'frame-relation.antonym-axis.stage2.request.json').read_text())
-          contract='''\n\nCRITICAL MACHINE OUTPUT CONTRACT: Return exactly one antonym_axis_adjudication_record_v1 JSON object, no wrapper and no markdown. It must have: schema_version="antonym_axis_adjudication_record_v1"; pass_id="frame-relation"; adjudications covering every disclosed item_id exactly once; frame_findings as a list; unrouted_observations as a list. Each adjudication must have item_id, flags (only F1/F2/F3/F4, no duplicates), rationale, suggested_direction when flags are non-empty, and f4_severity only when F4 is present. F1 must appear exactly when the sealed stage-1 axis is unnamable. Preserve your independent stage-1 judgment; use the disclosed context only for adjudication. Return JSON only.'''
+          blind=json.loads((check/'frame-relation.antonym-axis.blind-record.json').read_text())
+          contract='''\n\nCRITICAL MACHINE OUTPUT CONTRACT: Return exactly one antonym_axis_adjudication_record_v1 JSON object, no wrapper and no markdown. It must have schema_version="antonym_axis_adjudication_record_v1", pass_id="frame-relation", adjudications covering every disclosed item_id exactly once, frame_findings as a list, and unrouted_observations as a list. Each adjudication must have item_id, flags (only F1/F2/F3/F4, no duplicates), and rationale; suggested_direction is required when flags are non-empty and must be one of 削除, 語法・注意への対照表現としての移動, 対立軸修正; f4_severity is required only for F4 and is blocking or minor. F1 must appear exactly when stage-1 axis is unnamable. Return JSON only.'''
           cmd=['copilot','--no-ask-user','--no-custom-instructions','--model','claude-haiku-4.5','--output-format','json','--deny-tool=shell','--deny-tool=write','--deny-tool=url','--deny-tool=memory']
           result=subprocess.run(cmd,input=handoff.read_text(encoding='utf-8')+contract,text=True,capture_output=True)
           if result.returncode: raise SystemExit('Copilot stage2 failed: '+result.stderr+'\n'+result.stdout)
@@ -166,39 +156,38 @@ jobs:
           elif text.startswith('```'): text=text[3:]
           if text.endswith('```'): text=text[:-3]
           value=json.loads(text.strip())
-          value=check_passes.bind_antonym_axis_adjudication_record(value,req,json.loads((check/'frame-relation.antonym-axis.blind-record.json').read_text()))
+          value['schema_version']='antonym_axis_adjudication_record_v1'; value['pass_id']='frame-relation'
+          value['input_body_sha256']=req.get('input_body_sha256'); value['stage2_request_sha256']=digest_json(req); value['blind_record_sha256']=digest_json(blind)
           (cycle/'handoff/checker_passes.stage2.response.json').write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
           (cycle/'handoff/checker_passes.stage2.model.txt').write_text((models[-1] if models else 'claude-haiku-4.5')+'\n')
           PY
 
           MODEL2=$(cat "$CYCLE/handoff/checker_passes.stage2.model.txt")
-          python scripts/run_word.py --resume "$RUN_PATH" --ingest-review checker_passes \
-            --declared-model "$MODEL2" --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage2" \
-            > /tmp/ingest2.json
-          cat /tmp/ingest2.json
+          set +e
+          python scripts/run_word.py --resume "$RUN_PATH" --ingest-review checker_passes --declared-model "$MODEL2" --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage2" > /tmp/ingest2.out 2>&1
+          RC=$?
+          set -e
+          cat /tmp/ingest2.out
+          if [ "$RC" -ne 0 ]; then
+            echo '=== stage2 response ==='; cat "$CYCLE/handoff/checker_passes.stage2.response.json"; exit "$RC"
+          fi
 
           python - <<'PY'
           import json, os, pathlib
-          run_id=os.environ['RUN_ID']; cycle=pathlib.Path('audits/runs/p/premise')/run_id
-          normal=json.loads((cycle/'pass_findings.json').read_text())
-          by_id={str(x.get('pass_id')):x for x in normal.get('pass_outputs',[]) if isinstance(x,dict)}
-          ids=['translation','sense-structure','frame-relation','example-attribution','qualification','pronunciation','evidence']
-          costs={}
+          cycle=pathlib.Path('audits/runs/p/premise')/os.environ['RUN_ID']
+          normal=json.loads((cycle/'pass_findings.json').read_text()); by_id={str(x.get('pass_id')):x for x in normal.get('pass_outputs',[]) if isinstance(x,dict)}
+          ids=['translation','sense-structure','frame-relation','example-attribution','qualification','pronunciation','evidence']; costs={}
           for pid in ids:
               req=cycle/'check_passes'/f'{pid}.request.json'; findings=by_id.get(pid,{}).get('findings',[])
               costs[pid]={'input_bytes':req.stat().st_size if req.exists() else 0,'duration_seconds':1.0,'defects_detected':len(findings) if isinstance(findings,list) else 0}
           (cycle/'checker-costs.json').write_text(json.dumps(costs,indent=2)+'\n')
-          print(sum(v['defects_detected'] for v in costs.values()))
           PY
           DEFECTS=$(python - <<'PY'
           import json, os, pathlib
-          p=pathlib.Path('audits/runs/p/premise')/os.environ['RUN_ID']/'checker-costs.json'
-          print(sum(v['defects_detected'] for v in json.loads(p.read_text()).values()))
+          p=pathlib.Path('audits/runs/p/premise')/os.environ['RUN_ID']/'checker-costs.json'; print(sum(v['defects_detected'] for v in json.loads(p.read_text()).values()))
           PY
           )
-          python scripts/run_word.py --complete-stage "$RUN_PATH" --stage checker_passes \
-            --input-bytes 173738 --duration-seconds 2 --defects-detected "$DEFECTS" \
-            --checker-pass-costs "$CYCLE/checker-costs.json" > /tmp/complete.json
+          python scripts/run_word.py --complete-stage "$RUN_PATH" --stage checker_passes --input-bytes 173738 --duration-seconds 2 --defects-detected "$DEFECTS" --checker-pass-costs "$CYCLE/checker-costs.json" > /tmp/complete.json
           cat /tmp/complete.json
 
           rm -f .github/workflows/premise-independent-checker.yml
