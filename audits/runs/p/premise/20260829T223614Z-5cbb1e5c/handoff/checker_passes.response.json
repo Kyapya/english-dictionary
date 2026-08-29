@@ -1,0 +1,322 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "84c855eee79c12fcb69fa42cbe4e55d712be41ba6f6b8d9b17a8ba4b56fe5079",
+        "recorded_at": "2026-08-29T22:36:58.743430+00:00",
+        "reviewer": {},
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "a9caef7812d4cc077b5ba7508f8b4f4b2887f76770f4a9086190be1f9061b76d",
+        "recorded_at": "2026-08-29T22:37:41.484409+00:00",
+        "reviewer": {},
+        "attributions": [
+          {
+            "example_id": "ex-37de8e4441c9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that each participant has access"
+            ],
+            "rationale": "The phrase 'premises that each participant has access' with a that-clause indicates the rare verb sense 006 of placing a proposition as premise."
+          },
+          {
+            "example_id": "ex-2c775cabb16b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "inferred from the premises",
+              "conclusion"
+            ],
+            "rationale": "The language 'inferred from the premises' combined with reference to conclusion directly indicates the logic sense 003."
+          },
+          {
+            "example_id": "ex-bbd3025a4bf3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "major premise",
+              "syllogism",
+              "predicate term of the conclusion"
+            ],
+            "rationale": "The use of 'major premise' and reference to 'syllogism' and formal logical structure clearly indicates sense 003."
+          },
+          {
+            "example_id": "ex-79b77fbfdd0c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises",
+              "Visitors"
+            ],
+            "rationale": "The phrase 'leave the premises' referring to a physical location where visitors must depart indicates sense 004."
+          },
+          {
+            "example_id": "ex-e2ec005c972b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Let us premise that"
+            ],
+            "rationale": "The archaic formal structure 'Let us premise that' setting up a proposition is the verb sense 006."
+          },
+          {
+            "example_id": "ex-d95f0821d77b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "false premise",
+              "argument can still fail"
+            ],
+            "rationale": "The noun phrase 'false premise' in the context of argument structure indicates sense 001."
+          },
+          {
+            "example_id": "ex-29a58005fb15",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "premise of the film",
+              "film is simple"
+            ],
+            "rationale": "The phrase 'premise of the film' describing story setting directly indicates sense 002."
+          },
+          {
+            "example_id": "ex-1e6eb094d4bc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise",
+              "subject term of the conclusion"
+            ],
+            "rationale": "The phrase 'minor premise' in syllogistic logic with reference to subject term clearly indicates sense 003."
+          },
+          {
+            "example_id": "ex-530dfa048198",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premised on the assumption"
+            ],
+            "rationale": "The passive construction 'premised on the assumption' indicates the verb sense 005 of basing something on a premise."
+          },
+          {
+            "example_id": "ex-0fc121efdbf1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "premise that memories could be traded",
+              "series"
+            ],
+            "rationale": "The construction 'built the series around the premise that' with fictional scenario clearly indicates sense 002."
+          },
+          {
+            "example_id": "ex-dc2c2e791169",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "on the premise that the parts would arrive"
+            ],
+            "rationale": "The phrase 'on the premise that the parts would arrive' concerning planning assumptions directly indicates sense 001."
+          },
+          {
+            "example_id": "ex-89b250234617",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "separate its premises from its conclusion"
+            ],
+            "rationale": "The phrasing 'separate its premises from its conclusion' in argumentative evaluation indicates sense 003."
+          },
+          {
+            "example_id": "ex-c71b2bd62662",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "starts from the premise that access to data"
+            ],
+            "rationale": "The phrase 'starts from the premise that access to data' with policy rationale indicates sense 001."
+          },
+          {
+            "example_id": "ex-4bb31411c52e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises near the station"
+            ],
+            "rationale": "The phrase 'business premises near the station' referring to physical facilities for commercial use indicates sense 004."
+          },
+          {
+            "example_id": "ex-7cd89f1ff33b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "taken off the premises"
+            ],
+            "rationale": "The phrase 'taken off the premises' in the context of physical location restriction indicates sense 004."
+          },
+          {
+            "example_id": "ex-251874ff1300",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "rests on the premise that demand will continue"
+            ],
+            "rationale": "The phrase 'rests on the premise that demand will continue' concerning proposal foundations indicates sense 001."
+          },
+          {
+            "example_id": "ex-42360ece6c4a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition about human motivation"
+            ],
+            "rationale": "The verb form 'premises a proposition about human motivation' placing a proposition as premise indicates sense 006."
+          },
+          {
+            "example_id": "ex-e816c2381ed9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "novel has an intriguing premise"
+            ],
+            "rationale": "The phrase 'novel has an intriguing premise' evaluating a work's central concept indicates sense 002."
+          },
+          {
+            "example_id": "ex-13ad60d8aa62",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise of the policy"
+            ],
+            "rationale": "The phrase 'underlying premise of the policy' concerning institutional foundation indicates sense 001."
+          },
+          {
+            "example_id": "ex-2727d1596df6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on a distinction"
+            ],
+            "rationale": "The active verb form 'premises the argument on a distinction' indicates sense 005 of basing an argument on premises."
+          },
+          {
+            "example_id": "ex-2dc52e271dda",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "anywhere on the premises",
+              "Smoking is not permitted"
+            ],
+            "rationale": "The phrase 'anywhere on the premises' in context of building/facility regulations indicates sense 004."
+          },
+          {
+            "example_id": "ex-3145b50c56fe",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "program is premised on the idea"
+            ],
+            "rationale": "The passive construction 'program is premised on the idea' indicates sense 005."
+          },
+          {
+            "example_id": "ex-10dd17f5224d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise that the change is necessary"
+            ],
+            "rationale": "The phrase 'challenge the premise that the change is necessary' concerning questioning foundational assumptions indicates sense 001."
+          },
+          {
+            "example_id": "ex-2242218df741",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "premises are protected by security cameras"
+            ],
+            "rationale": "The plural construction 'premises are protected by security cameras' treating premises as physical facilities indicates sense 004."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ]
+}
