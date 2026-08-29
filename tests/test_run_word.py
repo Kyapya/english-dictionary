@@ -271,13 +271,28 @@ class RunWordTests(unittest.TestCase):
             )
             self.assertIn("antonym_axis_blind_record", frame)
             self.assertIn("antonym_axis_adjudication_record", frame)
-            with self.assertRaisesRegex(ValueError, "must differ"):
+            with self.assertRaisesRegex(ValueError, "reviewer_agent_id"):
                 run_word.ingest_handoff_review(
                     manifest,
                     stage="checker_passes",
                     declared_model="synthetic-fixture",
                     repo_root=root,
                 )
+            same_model_target = run_word.ingest_handoff_review(
+                manifest,
+                stage="checker_passes",
+                declared_model="synthetic-fixture",
+                reviewer_agent_id="independent-checker-agent",
+                repo_root=root,
+            )
+            same_model_ingested = json.loads(same_model_target.read_text())
+            self.assertEqual(
+                same_model_ingested["reviewer"]["agent_id"],
+                "independent-checker-agent",
+            )
+            self.assertTrue(
+                same_model_ingested["reviewer"]["same_model_as_generation"]
+            )
 
     def test_api_mode_materializes_run_bound_checker_requests(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
