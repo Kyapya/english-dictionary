@@ -46,10 +46,15 @@ jobs:
         run: |
           set -uo pipefail
           sed -i 's/MODEL = "claude-haiku-4.5"/MODEL = "auto"/' .github/scripts/premise_independent_checker.py
-          python .github/scripts/premise_independent_checker.py
+          mkdir -p audits/debug/premise
+          LOG="audits/debug/premise/checker-${GITHUB_RUN_ID}.log"
+          set +e
+          python .github/scripts/premise_independent_checker.py > "$LOG" 2>&1
           RC=$?
+          set -e
+          cat "$LOG"
           if [ "$RC" -ne 0 ]; then
-            git add audits/workflow_runs/premise audits/runs/p/premise || true
+            git add "$LOG" audits/workflow_runs/premise audits/runs/p/premise || true
             if ! git diff --cached --quiet; then
               git commit -m "audit(premise): checkpoint independent checker failure"
               git push origin HEAD:add/premise-v5-20260829
