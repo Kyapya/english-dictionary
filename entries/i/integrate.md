@@ -692,7 +692,7 @@ tags: []
 
 【レジスター/領域】数学、物理、工学の専門語。微積分を扱う教科書、論文、授業のほか、数値計算を行うソフトウェアの説明など、専門を前提とする技術文書でも使う。一般の文脈では使わない。  
 
-【文法パターン】integrate 〈the function〉＝関数を積分する／integrate 〈the expression〉 with respect to 〈x〉＝式を x について積分する／integrate 〈the function〉 from 〈a〉 to 〈b〉＝関数を a から b まで積分する／integrate 〈the product〉 by parts＝積を部分積分する  
+【文法パターン】integrate 〈the function〉＝関数を積分する／integrate 〈the expression〉 with respect to 〈x〉＝式を x について積分する／integrate 〈the function〉 from 〈a〉 to 〈b〉＝関数を a から b まで積分する／integrate 〈the velocity〉 over 〈time〉＝速度を時間にわたって積分する／integrate 〈the product〉 by parts＝積を部分積分する  
 
 【コロケーション】
 
