@@ -22,11 +22,10 @@ jobs:
           ref: add/premise-v5-20260829
           fetch-depth: 0
 
-      - name: Configure Git and adopt current independence contract
+      - name: Configure Git
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git merge origin/main --no-edit
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -45,24 +44,6 @@ jobs:
         shell: bash
         run: |
           set -uo pipefail
-          python - <<'PY'
-          from pathlib import Path
-
-          path = Path('.github/scripts/premise_independent_checker.py')
-          text = path.read_text(encoding='utf-8')
-          old = 'Every row has example_id, classification (unique or ambiguous), candidate_sense_ids (exactly one for unique, at least two for ambiguous), discriminating_terms (non-empty for unique, [] for ambiguous), and rationale. Never use blind_attribution, confidence, discriminative_terms, or alternative_candidates.'
-          new = 'Every row has example_id, classification (unique or ambiguous), candidate_sense_ids (exactly one for unique, at least two for ambiguous), discriminating_terms (non-empty for unique, [] for ambiguous), and rationale. LIVENESS GROUNDING IS MANDATORY: for every unique row, each discriminating_terms value must be copied verbatim from that row\'s supplied example or translation, and the rationale must literally repeat at least one such valid discriminating term. For every ambiguous row, discriminating_terms must be [] and the rationale must literally include the complete supplied English example text verbatim. Make each rationale item-specific rather than reusing a template so that the rationales remain substantively distinct. Copy grounding text only from the supplied request; never invent or normalize quotes. Never use blind_attribution, confidence, discriminative_terms, or alternative_candidates.'
-          if old not in text:
-              raise SystemExit('expected stage1 attribution contract text not found')
-          text = text.replace(old, new, 1)
-
-          old_fail = '''    if ingest1.returncode != 0:\n        print("=== stage1 response ===")\n        print((handoff_dir / "checker_passes.response.json").read_text(encoding="utf-8"))\n        return ingest1.returncode\n'''
-          new_fail = '''    if ingest1.returncode != 0:\n        # Do not mechanically rewrite reviewer evidence. Ask a fresh external reviewer\n        # session to repair only the rejected blind attribution evidence while\n        # preserving the substantive classifications/candidate senses.\n        for retry_no in range(1, 4):\n            previous_attr = next(\n                (item for item in outputs if isinstance(item, dict) and item.get("pass_id") == "example-attribution"),\n                None,\n            )\n            retry_prompt = f"""\nYou are an independent checker repairing ONLY a machine-contract rejection in an already completed blind example-attribution review.\nDo not inspect the dictionary entry or any generation context. Use only the masked request below, the prior attribution output, and the machine rejection.\nPreserve every substantive classification and candidate_sense_ids judgment unless the machine rejection proves a field is structurally invalid.\nFor every unique row, discriminating_terms must be verbatim substrings of that row's supplied English example or translation, and rationale must literally repeat at least one of those exact terms.\nFor every ambiguous row, discriminating_terms must be [] and rationale must literally contain the complete supplied English example verbatim.\nKeep rationales item-specific. Return exactly one JSON object with pass_id=example-attribution and blind_attribution_record; no markdown or commentary.\n\nMASKED REQUEST:\n{json.dumps(attr_request, ensure_ascii=False, indent=2)}\n\nPRIOR OUTPUT:\n{json.dumps(previous_attr, ensure_ascii=False, indent=2)}\n\nMACHINE REJECTION:\n{(ingest1.stdout + ingest1.stderr)[-16000:]}\n"""\n            corrected, retry_model = call_reviewer(retry_prompt)\n            if corrected.get("pass_id") != "example-attribution" or not isinstance(corrected.get("blind_attribution_record"), dict):\n                continue\n            record = corrected["blind_attribution_record"]\n            record["schema_version"] = "example_attribution_blind_record_v1"\n            record["pass_id"] = "example-attribution"\n            record["input_body_sha256"] = body_hash\n            record["blind_request_sha256"] = attr_hash\n            record["recorded_at"] = datetime.now(timezone.utc).isoformat()\n            for idx, item in enumerate(outputs):\n                if isinstance(item, dict) and item.get("pass_id") == "example-attribution":\n                    outputs[idx] = corrected\n                    break\n            stage1["pass_outputs"] = outputs\n            (handoff_dir / "checker_passes.response.json").write_text(\n                json.dumps(stage1, ensure_ascii=False, indent=2) + "\\n", encoding="utf-8"\n            )\n            ingest1 = run(\n                [\n                    sys.executable,\n                    "scripts/run_word.py",\n                    "--resume",\n                    str(run_path),\n                    "--ingest-review",\n                    "checker_passes",\n                    "--declared-model",\n                    retry_model,\n                    "--reviewer-agent-id",\n                    agent_base + f":checker-stage1-retry{retry_no}",\n                ],\n                check=False,\n            )\n            if ingest1.returncode == 0:\n                model1 = retry_model\n                break\n        if ingest1.returncode != 0:\n            print("=== stage1 response after independent retries ===")\n            print((handoff_dir / "checker_passes.response.json").read_text(encoding="utf-8"))\n            return ingest1.returncode\n'''
-          if old_fail not in text:
-              raise SystemExit('expected stage1 failure block not found')
-          path.write_text(text.replace(old_fail, new_fail, 1), encoding='utf-8')
-          PY
-          sed -i 's/MODEL = "claude-haiku-4.5"/MODEL = "auto"/' .github/scripts/premise_independent_checker.py
           mkdir -p audits/debug/premise
           LOG="audits/debug/premise/checker-${GITHUB_RUN_ID}.log"
           set +e
