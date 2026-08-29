@@ -22,10 +22,11 @@ jobs:
           ref: add/premise-v5-20260829
           fetch-depth: 0
 
-      - name: Configure Git
+      - name: Configure Git and adopt current independence contract
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git merge origin/main --no-edit
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -76,16 +77,36 @@ jobs:
           cycle = pathlib.Path("audits/runs/p/premise") / run_id
           request = cycle / "handoff/checker_passes.request.md"
           response = cycle / "handoff/checker_passes.response.json"
-          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object. Do not use markdown fences. Do not modify files or call tools."
+          model_path = cycle / "handoff/checker_passes.stage1.model.txt"
+          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object as your final response. Do not use markdown fences. Do not modify files or call tools."
           cmd = [
-              "copilot", "-s", "--no-ask-user", "--no-custom-instructions",
-              "--model", "claude-sonnet-4.6",
+              "copilot", "--no-ask-user", "--no-custom-instructions",
+              "--model", "auto", "--output-format", "json",
               "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
           ]
           result = subprocess.run(cmd, input=prompt, text=True, capture_output=True)
           if result.returncode != 0:
               raise SystemExit(f"Copilot stage1 failed: {result.stderr}\n{result.stdout}")
-          text = result.stdout.strip()
+          messages = []
+          models = []
+          for raw in result.stdout.splitlines():
+              try:
+                  event = json.loads(raw)
+              except json.JSONDecodeError:
+                  continue
+              typ = event.get("type")
+              data = event.get("data") if isinstance(event.get("data"), dict) else {}
+              if typ == "assistant.message" and isinstance(data.get("content"), str) and data["content"].strip():
+                  messages.append(data["content"].strip())
+                  if isinstance(data.get("model"), str) and data["model"].strip():
+                      models.append(data["model"].strip())
+              if typ in {"session.start", "session.resume"} and isinstance(data.get("model"), str) and data["model"].strip():
+                  models.append(data["model"].strip())
+              if typ == "session.shutdown" and isinstance(data.get("currentModel"), str) and data["currentModel"].strip():
+                  models.append(data["currentModel"].strip())
+          if not messages:
+              raise SystemExit("Copilot stage1 produced no assistant.message content")
+          text = messages[-1]
           if text.startswith("```json"):
               text = text[7:]
           elif text.startswith("```"):
@@ -93,12 +114,19 @@ jobs:
           if text.endswith("```"):
               text = text[:-3]
           value = json.loads(text.strip())
+          if not models:
+              raise SystemExit("Copilot stage1 did not expose model provenance")
+          model = models[-1]
           response.parent.mkdir(parents=True, exist_ok=True)
           response.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          print(f"stage1 response saved: {response}")
+          model_path.write_text(model + "\n", encoding="utf-8")
+          print(f"stage1 response saved with model={model}")
           PY
+          MODEL_USED=$(cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.stage1.model.txt")
           python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
-            --ingest-review checker_passes --declared-model claude-sonnet-4.6 \
+            --ingest-review checker_passes \
+            --declared-model "$MODEL_USED" \
+            --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage1" \
             > /tmp/premise-stage1-ingest.json
           cat /tmp/premise-stage1-ingest.json
 
@@ -119,16 +147,36 @@ jobs:
           cycle = pathlib.Path("audits/runs/p/premise") / run_id
           request = cycle / "handoff/checker_passes.stage2.request.md"
           response = cycle / "handoff/checker_passes.stage2.response.json"
-          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object. Do not use markdown fences. Do not modify files or call tools."
+          model_path = cycle / "handoff/checker_passes.stage2.model.txt"
+          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object as your final response. Do not use markdown fences. Do not modify files or call tools."
           cmd = [
-              "copilot", "-s", "--no-ask-user", "--no-custom-instructions",
-              "--model", "claude-sonnet-4.6",
+              "copilot", "--no-ask-user", "--no-custom-instructions",
+              "--model", "auto", "--output-format", "json",
               "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
           ]
           result = subprocess.run(cmd, input=prompt, text=True, capture_output=True)
           if result.returncode != 0:
               raise SystemExit(f"Copilot stage2 failed: {result.stderr}\n{result.stdout}")
-          text = result.stdout.strip()
+          messages = []
+          models = []
+          for raw in result.stdout.splitlines():
+              try:
+                  event = json.loads(raw)
+              except json.JSONDecodeError:
+                  continue
+              typ = event.get("type")
+              data = event.get("data") if isinstance(event.get("data"), dict) else {}
+              if typ == "assistant.message" and isinstance(data.get("content"), str) and data["content"].strip():
+                  messages.append(data["content"].strip())
+                  if isinstance(data.get("model"), str) and data["model"].strip():
+                      models.append(data["model"].strip())
+              if typ in {"session.start", "session.resume"} and isinstance(data.get("model"), str) and data["model"].strip():
+                  models.append(data["model"].strip())
+              if typ == "session.shutdown" and isinstance(data.get("currentModel"), str) and data["currentModel"].strip():
+                  models.append(data["currentModel"].strip())
+          if not messages:
+              raise SystemExit("Copilot stage2 produced no assistant.message content")
+          text = messages[-1]
           if text.startswith("```json"):
               text = text[7:]
           elif text.startswith("```"):
@@ -136,11 +184,18 @@ jobs:
           if text.endswith("```"):
               text = text[:-3]
           value = json.loads(text.strip())
+          if not models:
+              raise SystemExit("Copilot stage2 did not expose model provenance")
+          model = models[-1]
           response.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          print(f"stage2 response saved: {response}")
+          model_path.write_text(model + "\n", encoding="utf-8")
+          print(f"stage2 response saved with model={model}")
           PY
+          MODEL_USED=$(cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.stage2.model.txt")
           python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
-            --ingest-review checker_passes --declared-model claude-sonnet-4.6 \
+            --ingest-review checker_passes \
+            --declared-model "$MODEL_USED" \
+            --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage2" \
             > /tmp/premise-stage2-ingest.json
           cat /tmp/premise-stage2-ingest.json
 
