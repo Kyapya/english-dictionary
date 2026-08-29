@@ -1,0 +1,44 @@
+name: Premise finish workflow
+
+on:
+  push:
+    branches:
+      - add/premise-v5-20260829
+    paths:
+      - .github/workflows/premise-finish.yml
+
+permissions:
+  contents: write
+  copilot-requests: write
+
+jobs:
+  phase-a:
+    runs-on: ubuntu-latest
+    timeout-minutes: 45
+    steps:
+      - name: Checkout premise branch
+        uses: actions/checkout@v4
+        with:
+          ref: add/premise-v5-20260829
+          fetch-depth: 0
+
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install project dependencies
+        run: python -m pip install -r requirements.txt
+
+      - name: Install Copilot CLI
+        run: npm install -g @github/copilot
+
+      - name: Continue premise through blind seal
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+        run: python .github/scripts/premise_finish_phase_a.py
