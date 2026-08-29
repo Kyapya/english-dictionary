@@ -123,12 +123,21 @@ jobs:
           print(f"stage1 response saved with model={model}")
           PY
           MODEL_USED=$(cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.stage1.model.txt")
+          set +e
           python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
             --ingest-review checker_passes \
             --declared-model "$MODEL_USED" \
             --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage1" \
-            > /tmp/premise-stage1-ingest.json
-          cat /tmp/premise-stage1-ingest.json
+            > /tmp/premise-stage1-ingest.json 2> /tmp/premise-stage1-ingest.err
+          INGEST_CODE=$?
+          set -e
+          cat /tmp/premise-stage1-ingest.json || true
+          cat /tmp/premise-stage1-ingest.err || true
+          if [ "$INGEST_CODE" -ne 0 ]; then
+            echo "=== checker stage1 response that failed validation ==="
+            cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.response.json"
+            exit "$INGEST_CODE"
+          fi
 
       - name: Run independent checker stage 2
         env:
