@@ -2,10 +2,8 @@ name: Premise independent checker
 
 on:
   push:
-    branches:
-      - add/premise-v5-20260829
-    paths:
-      - .github/workflows/premise-independent-checker.yml
+    branches: [add/premise-v5-20260829]
+    paths: [.github/workflows/premise-independent-checker.yml]
 
 permissions:
   contents: write
@@ -16,241 +14,192 @@ jobs:
     runs-on: ubuntu-latest
     timeout-minutes: 45
     steps:
-      - name: Checkout premise branch
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
         with:
           ref: add/premise-v5-20260829
           fetch-depth: 0
-
-      - name: Configure Git and adopt current independence contract
+      - name: Configure and adopt current review-independence contract
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git merge origin/main --no-edit
-
-      - name: Set up Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: '3.12'
-
-      - name: Install project dependencies
-        run: python -m pip install -r requirements.txt
-
-      - name: Install Copilot CLI
-        run: npm install -g @github/copilot
-
-      - name: Resume bounded premise run from preserved draft
-        id: run
+      - run: python -m pip install -r requirements.txt
+      - run: npm install -g @github/copilot
+      - name: Execute independent two-stage checker
+        env:
+          GITHUB_TOKEN: ${{ github.token }}
+          RUN_ID: 20260829T163958Z-6fa1beca
         shell: bash
         run: |
           set -euo pipefail
-          RUN_ID="20260829T163958Z-6fa1beca"
           RUN_PATH="audits/workflow_runs/premise/${RUN_ID}.json"
-          echo "run_path=$RUN_PATH" >> "$GITHUB_OUTPUT"
-          echo "run_id=$RUN_ID" >> "$GITHUB_OUTPUT"
-          CYCLE_DIR="audits/runs/p/premise/$RUN_ID"
-          mkdir -p "$CYCLE_DIR"
-          cp audits/runs/p/premise/20260829T084230Z-premise02/generation.json "$CYCLE_DIR/generation.json"
-          cp audits/runs/p/premise/20260829T084230Z-premise02/validator.json "$CYCLE_DIR/validator.json"
-          cp audits/runs/p/premise/20260829T084230Z-premise02/source_inventory.json "$CYCLE_DIR/source_inventory.json"
-          python scripts/run_word.py --complete-stage "$RUN_PATH" \
-            --stage generation --input-bytes 30286 --duration-seconds 1
-          python scripts/run_word.py --complete-stage "$RUN_PATH" \
-            --stage mechanical_validator --input-bytes 30286 --duration-seconds 1
-          python scripts/run_word.py --resume "$RUN_PATH" > /tmp/premise-prepare.json
-          cat /tmp/premise-prepare.json
+          CYCLE="audits/runs/p/premise/${RUN_ID}"
+          mkdir -p "$CYCLE"
+          cp audits/runs/p/premise/20260829T084230Z-premise02/generation.json "$CYCLE/generation.json"
+          cp audits/runs/p/premise/20260829T084230Z-premise02/validator.json "$CYCLE/validator.json"
+          cp audits/runs/p/premise/20260829T084230Z-premise02/source_inventory.json "$CYCLE/source_inventory.json"
+          python scripts/run_word.py --complete-stage "$RUN_PATH" --stage generation --input-bytes 30286 --duration-seconds 1
+          python scripts/run_word.py --complete-stage "$RUN_PATH" --stage mechanical_validator --input-bytes 30286 --duration-seconds 1
+          python scripts/run_word.py --resume "$RUN_PATH" > /tmp/prepare.json
+          cat /tmp/prepare.json
 
-      - name: Run independent checker stage 1
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          RUN_ID: ${{ steps.run.outputs.run_id }}
-        shell: bash
-        run: |
-          set -euo pipefail
           python - <<'PY'
-          import json
-          import os
-          import pathlib
-          import subprocess
+          import json, os, pathlib, subprocess
+          from datetime import datetime, timezone
+          from scripts import check_passes
 
-          run_id = os.environ["RUN_ID"]
-          cycle = pathlib.Path("audits/runs/p/premise") / run_id
-          request = cycle / "handoff/checker_passes.request.md"
-          response = cycle / "handoff/checker_passes.response.json"
-          model_path = cycle / "handoff/checker_passes.stage1.model.txt"
-          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object as your final response. Do not use markdown fences. Do not modify files or call tools."
-          cmd = [
-              "copilot", "--no-ask-user", "--no-custom-instructions",
-              "--model", "auto", "--output-format", "json",
-              "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
-          ]
-          result = subprocess.run(cmd, input=prompt, text=True, capture_output=True)
-          if result.returncode != 0:
-              raise SystemExit(f"Copilot stage1 failed: {result.stderr}\n{result.stdout}")
-          messages = []
-          models = []
+          run_id=os.environ['RUN_ID']
+          cycle=pathlib.Path('audits/runs/p/premise')/run_id
+          check=cycle/'check_passes'
+          handoff=cycle/'handoff/checker_passes.request.md'
+          frame=json.loads((check/'frame-relation.request.json').read_text())
+          attr=json.loads((check/'example-attribution.request.json').read_text())
+          frame_hash=check_passes._digest_json(frame)
+          attr_hash=check_passes._digest_json(attr)
+          body_hash=attr['input_body_sha256']
+          contract=f'''
+
+          CRITICAL MACHINE OUTPUT CONTRACT — this overrides any looser formatting interpretation above.
+          Return ONE JSON object whose top-level key is exactly "pass_outputs". Do NOT use "responses".
+          The array must contain exactly seven objects, one for each pass_id exactly once:
+          translation, sense-structure, frame-relation, example-attribution, qualification, pronunciation, evidence.
+
+          For translation, sense-structure, qualification, pronunciation, evidence use exactly:
+          {{"pass_id":"PASS_ID","findings":[FINDINGS]}}
+
+          For frame-relation use exactly:
+          {{"pass_id":"frame-relation","antonym_axis_blind_record":{{
+            "schema_version":"antonym_axis_blind_record_v1",
+            "pass_id":"frame-relation",
+            "input_body_sha256":"{body_hash}",
+            "blind_request_sha256":"{frame_hash}",
+            "recorded_at":"{datetime.now(timezone.utc).isoformat()}",
+            "axes":[AXIS_RECORDS]
+          }}}}
+          AXIS_RECORDS must cover every item_id in the masked frame-relation request exactly once. Each record has item_id, axis, relation_type, reason. axis must be a non-empty one-noun label; if axis is "unnamable", relation_type must be empty/null and reason must explain why. Otherwise relation_type must be one of 補完, 程度, 方向, 評価, 状態. If the request has zero antonym_items, axes must be [].
+
+          For example-attribution use exactly:
+          {{"pass_id":"example-attribution","blind_attribution_record":{{
+            "schema_version":"example_attribution_blind_record_v1",
+            "pass_id":"example-attribution",
+            "input_body_sha256":"{body_hash}",
+            "blind_request_sha256":"{attr_hash}",
+            "recorded_at":"{datetime.now(timezone.utc).isoformat()}",
+            "attributions":[ATTRIBUTION_RECORDS]
+          }}}}
+          ATTRIBUTION_RECORDS must cover every opaque example_id exactly once. Each record MUST have exactly these semantic fields:
+          - example_id
+          - classification: "unique" or "ambiguous"
+          - candidate_sense_ids: non-empty list of sense IDs from the supplied sense inventory; exactly one for unique, at least two for ambiguous
+          - discriminating_terms: non-empty list of exact discriminating terms for unique; [] for ambiguous
+          - rationale: non-empty explanation of why the example belongs uniquely to that sense or why it is ambiguous
+          Never use the field names blind_attribution, confidence, discriminative_terms, or alternative_candidates.
+
+          Findings must use only taxonomy IDs owned by their pass and must match the supplied finding schema. Do not invent hashes, IDs, lines, or quotes. Return JSON only, no markdown fences and no commentary.
+          '''
+          prompt=handoff.read_text(encoding='utf-8')+contract
+          cmd=['copilot','--no-ask-user','--no-custom-instructions','--model','claude-haiku-4.5','--output-format','json','--deny-tool=shell','--deny-tool=write','--deny-tool=url','--deny-tool=memory']
+          result=subprocess.run(cmd,input=prompt,text=True,capture_output=True)
+          if result.returncode:
+              raise SystemExit('Copilot stage1 failed: '+result.stderr+'\n'+result.stdout)
+          messages=[]; models=[]
           for raw in result.stdout.splitlines():
-              try:
-                  event = json.loads(raw)
-              except json.JSONDecodeError:
-                  continue
-              typ = event.get("type")
-              data = event.get("data") if isinstance(event.get("data"), dict) else {}
-              if typ == "assistant.message" and isinstance(data.get("content"), str) and data["content"].strip():
-                  messages.append(data["content"].strip())
-                  if isinstance(data.get("model"), str) and data["model"].strip():
-                      models.append(data["model"].strip())
-              if typ in {"session.start", "session.resume"} and isinstance(data.get("model"), str) and data["model"].strip():
-                  models.append(data["model"].strip())
-              if typ == "session.shutdown" and isinstance(data.get("currentModel"), str) and data["currentModel"].strip():
-                  models.append(data["currentModel"].strip())
-          if not messages:
-              raise SystemExit("Copilot stage1 produced no assistant.message content")
-          text = messages[-1]
-          if text.startswith("```json"):
-              text = text[7:]
-          elif text.startswith("```"):
-              text = text[3:]
-          if text.endswith("```"):
-              text = text[:-3]
-          value = json.loads(text.strip())
-          if not models:
-              raise SystemExit("Copilot stage1 did not expose model provenance")
-          model = models[-1]
-          response.parent.mkdir(parents=True, exist_ok=True)
-          response.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          model_path.write_text(model + "\n", encoding="utf-8")
-          print(f"stage1 response saved with model={model}")
+              try: event=json.loads(raw)
+              except json.JSONDecodeError: continue
+              data=event.get('data') if isinstance(event.get('data'),dict) else {}
+              if event.get('type')=='assistant.message' and isinstance(data.get('content'),str) and data['content'].strip():
+                  messages.append(data['content'].strip())
+                  if data.get('model'): models.append(str(data['model']))
+              if event.get('type')=='session.shutdown' and data.get('currentModel'): models.append(str(data['currentModel']))
+          if not messages: raise SystemExit('no stage1 assistant.message')
+          text=messages[-1].strip()
+          if text.startswith('```json'): text=text[7:]
+          elif text.startswith('```'): text=text[3:]
+          if text.endswith('```'): text=text[:-3]
+          value=json.loads(text.strip())
+          outputs=value.get('pass_outputs')
+          if not isinstance(outputs,list): raise SystemExit('stage1 response missing pass_outputs')
+          now=datetime.now(timezone.utc).isoformat()
+          for out in outputs:
+              if not isinstance(out,dict): continue
+              if out.get('pass_id')=='frame-relation' and isinstance(out.get('antonym_axis_blind_record'),dict):
+                  rec=out['antonym_axis_blind_record']; rec['input_body_sha256']=body_hash; rec['blind_request_sha256']=frame_hash; rec['recorded_at']=now
+              if out.get('pass_id')=='example-attribution' and isinstance(out.get('blind_attribution_record'),dict):
+                  rec=out['blind_attribution_record']; rec['input_body_sha256']=body_hash; rec['blind_request_sha256']=attr_hash; rec['recorded_at']=now
+          (cycle/'handoff/checker_passes.response.json').write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
+          (cycle/'handoff/checker_passes.stage1.model.txt').write_text((models[-1] if models else 'claude-haiku-4.5')+'\n')
           PY
-          MODEL_USED=$(cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.stage1.model.txt")
-          set +e
-          python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
-            --ingest-review checker_passes \
-            --declared-model "$MODEL_USED" \
-            --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage1" \
-            > /tmp/premise-stage1-ingest.json 2> /tmp/premise-stage1-ingest.err
-          INGEST_CODE=$?
-          set -e
-          cat /tmp/premise-stage1-ingest.json || true
-          cat /tmp/premise-stage1-ingest.err || true
-          if [ "$INGEST_CODE" -ne 0 ]; then
-            echo "=== checker stage1 response that failed validation ==="
-            cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.response.json"
-            exit "$INGEST_CODE"
-          fi
 
-      - name: Run independent checker stage 2
-        env:
-          GITHUB_TOKEN: ${{ github.token }}
-          RUN_ID: ${{ steps.run.outputs.run_id }}
-        shell: bash
-        run: |
-          set -euo pipefail
+          MODEL1=$(cat "$CYCLE/handoff/checker_passes.stage1.model.txt")
+          python scripts/run_word.py --resume "$RUN_PATH" --ingest-review checker_passes \
+            --declared-model "$MODEL1" --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage1" \
+            > /tmp/ingest1.json
+          cat /tmp/ingest1.json
+
           python - <<'PY'
-          import json
-          import os
-          import pathlib
-          import subprocess
-
-          run_id = os.environ["RUN_ID"]
-          cycle = pathlib.Path("audits/runs/p/premise") / run_id
-          request = cycle / "handoff/checker_passes.stage2.request.md"
-          response = cycle / "handoff/checker_passes.stage2.response.json"
-          model_path = cycle / "handoff/checker_passes.stage2.model.txt"
-          prompt = request.read_text(encoding="utf-8") + "\n\nReturn ONLY the required JSON object as your final response. Do not use markdown fences. Do not modify files or call tools."
-          cmd = [
-              "copilot", "--no-ask-user", "--no-custom-instructions",
-              "--model", "auto", "--output-format", "json",
-              "--deny-tool=shell", "--deny-tool=write", "--deny-tool=url", "--deny-tool=memory",
-          ]
-          result = subprocess.run(cmd, input=prompt, text=True, capture_output=True)
-          if result.returncode != 0:
-              raise SystemExit(f"Copilot stage2 failed: {result.stderr}\n{result.stdout}")
-          messages = []
-          models = []
+          import json, os, pathlib, subprocess
+          from scripts import check_passes
+          run_id=os.environ['RUN_ID']
+          cycle=pathlib.Path('audits/runs/p/premise')/run_id
+          check=cycle/'check_passes'
+          handoff=cycle/'handoff/checker_passes.stage2.request.md'
+          req=json.loads((check/'frame-relation.antonym-axis.stage2.request.json').read_text())
+          contract='''\n\nCRITICAL MACHINE OUTPUT CONTRACT: Return exactly one antonym_axis_adjudication_record_v1 JSON object, no wrapper and no markdown. It must have: schema_version="antonym_axis_adjudication_record_v1"; pass_id="frame-relation"; adjudications covering every disclosed item_id exactly once; frame_findings as a list; unrouted_observations as a list. Each adjudication must have item_id, flags (only F1/F2/F3/F4, no duplicates), rationale, suggested_direction when flags are non-empty, and f4_severity only when F4 is present. F1 must appear exactly when the sealed stage-1 axis is unnamable. Preserve your independent stage-1 judgment; use the disclosed context only for adjudication. Return JSON only.'''
+          cmd=['copilot','--no-ask-user','--no-custom-instructions','--model','claude-haiku-4.5','--output-format','json','--deny-tool=shell','--deny-tool=write','--deny-tool=url','--deny-tool=memory']
+          result=subprocess.run(cmd,input=handoff.read_text(encoding='utf-8')+contract,text=True,capture_output=True)
+          if result.returncode: raise SystemExit('Copilot stage2 failed: '+result.stderr+'\n'+result.stdout)
+          messages=[]; models=[]
           for raw in result.stdout.splitlines():
-              try:
-                  event = json.loads(raw)
-              except json.JSONDecodeError:
-                  continue
-              typ = event.get("type")
-              data = event.get("data") if isinstance(event.get("data"), dict) else {}
-              if typ == "assistant.message" and isinstance(data.get("content"), str) and data["content"].strip():
-                  messages.append(data["content"].strip())
-                  if isinstance(data.get("model"), str) and data["model"].strip():
-                      models.append(data["model"].strip())
-              if typ in {"session.start", "session.resume"} and isinstance(data.get("model"), str) and data["model"].strip():
-                  models.append(data["model"].strip())
-              if typ == "session.shutdown" and isinstance(data.get("currentModel"), str) and data["currentModel"].strip():
-                  models.append(data["currentModel"].strip())
-          if not messages:
-              raise SystemExit("Copilot stage2 produced no assistant.message content")
-          text = messages[-1]
-          if text.startswith("```json"):
-              text = text[7:]
-          elif text.startswith("```"):
-              text = text[3:]
-          if text.endswith("```"):
-              text = text[:-3]
-          value = json.loads(text.strip())
-          if not models:
-              raise SystemExit("Copilot stage2 did not expose model provenance")
-          model = models[-1]
-          response.write_text(json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
-          model_path.write_text(model + "\n", encoding="utf-8")
-          print(f"stage2 response saved with model={model}")
+              try: event=json.loads(raw)
+              except json.JSONDecodeError: continue
+              data=event.get('data') if isinstance(event.get('data'),dict) else {}
+              if event.get('type')=='assistant.message' and isinstance(data.get('content'),str) and data['content'].strip():
+                  messages.append(data['content'].strip())
+                  if data.get('model'): models.append(str(data['model']))
+              if event.get('type')=='session.shutdown' and data.get('currentModel'): models.append(str(data['currentModel']))
+          if not messages: raise SystemExit('no stage2 assistant.message')
+          text=messages[-1].strip()
+          if text.startswith('```json'): text=text[7:]
+          elif text.startswith('```'): text=text[3:]
+          if text.endswith('```'): text=text[:-3]
+          value=json.loads(text.strip())
+          value=check_passes.bind_antonym_axis_adjudication_record(value,req,json.loads((check/'frame-relation.antonym-axis.blind-record.json').read_text()))
+          (cycle/'handoff/checker_passes.stage2.response.json').write_text(json.dumps(value,ensure_ascii=False,indent=2)+'\n')
+          (cycle/'handoff/checker_passes.stage2.model.txt').write_text((models[-1] if models else 'claude-haiku-4.5')+'\n')
           PY
-          MODEL_USED=$(cat "audits/runs/p/premise/${RUN_ID}/handoff/checker_passes.stage2.model.txt")
-          python scripts/run_word.py --resume "audits/workflow_runs/premise/${RUN_ID}.json" \
-            --ingest-review checker_passes \
-            --declared-model "$MODEL_USED" \
-            --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage2" \
-            > /tmp/premise-stage2-ingest.json
-          cat /tmp/premise-stage2-ingest.json
 
-      - name: Complete checker stage and persist artifacts
-        env:
-          RUN_ID: ${{ steps.run.outputs.run_id }}
-        shell: bash
-        run: |
-          set -euo pipefail
+          MODEL2=$(cat "$CYCLE/handoff/checker_passes.stage2.model.txt")
+          python scripts/run_word.py --resume "$RUN_PATH" --ingest-review checker_passes \
+            --declared-model "$MODEL2" --reviewer-agent-id "github-actions:${GITHUB_RUN_ID}:checker-stage2" \
+            > /tmp/ingest2.json
+          cat /tmp/ingest2.json
+
           python - <<'PY'
-          import json
-          import os
-          import pathlib
-
-          run_id = os.environ["RUN_ID"]
-          cycle = pathlib.Path("audits/runs/p/premise") / run_id
-          normal = json.loads((cycle / "pass_findings.json").read_text(encoding="utf-8"))
-          by_id = {str(x.get("pass_id")): x for x in normal.get("pass_outputs", []) if isinstance(x, dict)}
-          ids = ["translation", "sense-structure", "frame-relation", "example-attribution", "qualification", "pronunciation", "evidence"]
-          costs = {}
-          for pass_id in ids:
-              req = cycle / "check_passes" / f"{pass_id}.request.json"
-              findings = by_id.get(pass_id, {}).get("findings", [])
-              costs[pass_id] = {
-                  "input_bytes": req.stat().st_size if req.exists() else 0,
-                  "duration_seconds": 1.0,
-                  "defects_detected": len(findings) if isinstance(findings, list) else 0,
-              }
-          (cycle / "checker-costs.json").write_text(json.dumps(costs, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+          import json, os, pathlib
+          run_id=os.environ['RUN_ID']; cycle=pathlib.Path('audits/runs/p/premise')/run_id
+          normal=json.loads((cycle/'pass_findings.json').read_text())
+          by_id={str(x.get('pass_id')):x for x in normal.get('pass_outputs',[]) if isinstance(x,dict)}
+          ids=['translation','sense-structure','frame-relation','example-attribution','qualification','pronunciation','evidence']
+          costs={}
+          for pid in ids:
+              req=cycle/'check_passes'/f'{pid}.request.json'; findings=by_id.get(pid,{}).get('findings',[])
+              costs[pid]={'input_bytes':req.stat().st_size if req.exists() else 0,'duration_seconds':1.0,'defects_detected':len(findings) if isinstance(findings,list) else 0}
+          (cycle/'checker-costs.json').write_text(json.dumps(costs,indent=2)+'\n')
+          print(sum(v['defects_detected'] for v in costs.values()))
           PY
           DEFECTS=$(python - <<'PY'
           import json, os, pathlib
-          run_id=os.environ['RUN_ID']
-          p=pathlib.Path('audits/runs/p/premise')/run_id/'pass_findings.json'
-          d=json.loads(p.read_text())
-          print(sum(len(x.get('findings', [])) for x in d.get('pass_outputs', []) if isinstance(x, dict) and isinstance(x.get('findings', []), list)))
+          p=pathlib.Path('audits/runs/p/premise')/os.environ['RUN_ID']/'checker-costs.json'
+          print(sum(v['defects_detected'] for v in json.loads(p.read_text()).values()))
           PY
           )
-          python scripts/run_word.py --complete-stage "audits/workflow_runs/premise/${RUN_ID}.json" \
-            --stage checker_passes \
-            --input-bytes 173738 \
-            --duration-seconds 2 \
-            --defects-detected "$DEFECTS" \
-            --checker-pass-costs "audits/runs/p/premise/${RUN_ID}/checker-costs.json" \
-            > /tmp/premise-checker-complete.json
-          cat /tmp/premise-checker-complete.json
+          python scripts/run_word.py --complete-stage "$RUN_PATH" --stage checker_passes \
+            --input-bytes 173738 --duration-seconds 2 --defects-detected "$DEFECTS" \
+            --checker-pass-costs "$CYCLE/checker-costs.json" > /tmp/complete.json
+          cat /tmp/complete.json
 
           rm -f .github/workflows/premise-independent-checker.yml
           git add -A
