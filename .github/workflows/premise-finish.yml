@@ -38,22 +38,35 @@ jobs:
       - name: Install Copilot CLI
         run: npm install -g @github/copilot
 
-      - name: Persist the expired predecessor state
+      - name: Persist all expired predecessor states
         shell: bash
         run: |
           set -euo pipefail
-          OLD_RUN="audits/workflow_runs/premise/20260829T223614Z-5cbb1e5c.json"
-          set +e
-          python scripts/run_word.py --resume "$OLD_RUN"
-          RC=$?
-          set -e
-          if [[ "$RC" -ne 2 ]]; then
-            echo "Expected expired predecessor to stop with guard code 2; got $RC" >&2
-            exit 1
-          fi
-          git add "$OLD_RUN"
+          mapfile -t OLD_RUNS < <(python - <<'PY'
+          import json
+          from pathlib import Path
+          for path in sorted(Path('audits/workflow_runs/premise').glob('*.json')):
+              try:
+                  value = json.loads(path.read_text(encoding='utf-8'))
+              except Exception:
+                  continue
+              if value.get('status') == 'in_progress':
+                  print(path.as_posix())
+          PY
+          )
+          for OLD_RUN in "${OLD_RUNS[@]}"; do
+            set +e
+            python scripts/run_word.py --resume "$OLD_RUN"
+            RC=$?
+            set -e
+            if [[ "$RC" -ne 2 ]]; then
+              echo "Expected stale run $OLD_RUN to stop with guard code 2; got $RC" >&2
+              exit 1
+            fi
+            git add "$OLD_RUN"
+          done
           if ! git diff --cached --quiet; then
-            git commit -m "workflow(premise): record exhausted predecessor run"
+            git commit -m "workflow(premise): record exhausted predecessor runs"
             git push origin HEAD:add/premise-v5-20260829
           fi
 
