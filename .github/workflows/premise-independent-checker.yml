@@ -42,6 +42,17 @@ jobs:
       - name: Run independent checker
         env:
           GITHUB_TOKEN: ${{ github.token }}
+        shell: bash
         run: |
+          set -uo pipefail
           sed -i 's/MODEL = "claude-haiku-4.5"/MODEL = "auto"/' .github/scripts/premise_independent_checker.py
           python .github/scripts/premise_independent_checker.py
+          RC=$?
+          if [ "$RC" -ne 0 ]; then
+            git add audits/workflow_runs/premise audits/runs/p/premise || true
+            if ! git diff --cached --quiet; then
+              git commit -m "audit(premise): checkpoint independent checker failure"
+              git push origin HEAD:add/premise-v5-20260829
+            fi
+          fi
+          exit "$RC"
