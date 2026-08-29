@@ -4,13 +4,21 @@
 
 ## 1語の処理
 
-工程は `scripts/run_word.py` が管理します。実行前に、各段の仕様、入力範囲、出力先、指示bytesを確認できます。
+工程本体は `scripts/run_word.py` が管理し、新規runの入口は `scripts/start_word.py` が管理します。実行前に、各段の仕様、入力範囲、出力先、指示bytesを確認できます。
 
 ```bash
 python scripts/run_word.py --dry-run <headword>
-python scripts/run_word.py <headword>
+python scripts/start_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
+
+新規runでは `python scripts/run_word.py <headword>` を直接実行しません。`scripts/start_word.py` は、このガード導入後に作られたremote branch上の同一見出し語のworkflow manifestを先に確認します。`in_progress` があれば `resume_required` で停止して既存branch/runを返すため、新しい `v2` / `v3` / `final-vN` branchへ逃げてdeadlineや失敗回数をリセットできません。`budget_exhausted` の後も自動再試行せず、原因確認後に明示的に再実行する場合だけ次を使います。
+
+```bash
+python scripts/start_word.py <headword> --restart-after-budget-exhausted
+```
+
+remote run状態を取得できない場合は fail closed で新規runを開始しません。completed runより古い失敗runは履歴扱いになるので、正常完了後の将来の改訂は妨げません。
 
 APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成された `handoff/<stage>.request.md` を別セッションへ渡します。応答を `handoff/<stage>.response.json` に保存後、次で取り込みます。
 
@@ -44,6 +52,7 @@ handoffモードの `checker_passes` だけは2往復です。1往復目の応�
 | 用途 | 正本 |
 |---|---|
 | 辞書内容・表示 | `prompts/entry_spec_v5.md` |
+| 新規runの単一化・再開判定 | `scripts/start_word.py` |
 | checker routing | `prompts/check_router_v6.md` |
 | 内容checker | ルーターが指す7つのパス仕様（frame-relationは `prompts/check_pass_frame_relation_v7.md`、他6パスは `prompts/check_pass_*_v6.md`） |
 | cold review | `prompts/cold_review_prompt_v1.md` |
