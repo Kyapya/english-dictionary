@@ -18,12 +18,12 @@
     "research_queries": 14,
     "candidate_pages": 18
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-08-28T22:51:56Z",
   "deadline_at": "2026-08-29T00:21:56Z",
   "pre_draft_deadline_at": "2026-08-28T23:21:56Z",
-  "last_heartbeat_at": "2026-08-28T22:52:40Z",
+  "last_heartbeat_at": "2026-08-29T03:14:08Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-28T22:51:58Z",
@@ -46,8 +46,10 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "the independent reviewer session hit an account rate limit before writing its response, and the run passed its elapsed budget while the limit held; the body is unchanged, so the cycle restarts and carries its artifacts forward",
+  "open_questions": [
+    "re-run the checker passes once the rate limit has reset"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "integrate",
