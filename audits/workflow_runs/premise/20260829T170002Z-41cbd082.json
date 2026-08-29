@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-08-29T17:00:02Z",
   "deadline_at": "2026-08-29T18:00:02Z",
   "pre_draft_deadline_at": "2026-08-29T17:20:02Z",
-  "last_heartbeat_at": "2026-08-29T17:00:04Z",
+  "last_heartbeat_at": "2026-08-29T17:00:56Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-29T17:00:04Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-08-29T17:00:04Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-29T17:00:06Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -448,20 +453,20 @@
       {
         "id": "generation",
         "instruction_bytes": 53277,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 30286,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 30286,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -600,35 +605,51 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0003",
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0004",
         "status": "active",
         "instruction_bytes": 276,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/p/premise.md",
+        "audits/runs/p/premise/20260829T170002Z-41cbd082/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/p/premise/20260829T170002Z-41cbd082/validator.json"
+      ]
+    }
+  },
+  "review_ingest_failures": {
+    "stage": "checker_passes",
+    "count": 1,
+    "last_error": "B2_rationale_not_grounded: attribution ex-3d05bf09c7df rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-608c4c8e5379 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-b97a04151628 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-578ceb1d3bcf rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-be6d9386a97e rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-92e31eafbcf2 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-92e0562e4017 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-3ccc254884ef rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-ff53e44338af rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-bf59c581578a rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-2b98e274228d rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-442d8344280d rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-596bf04af152 rationale contains neither an exact quote nor a valid discriminating term",
+    "last_failed_at": "2026-08-29T17:00:56Z"
   }
 }
