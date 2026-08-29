@@ -10,14 +10,14 @@
 python scripts/run_word.py --dry-run <headword>
 ```
 
-実行または中断済みrunの再開は次を使う。
+新規runと中断済みrunの再開は次を使う。同一見出し語の未完了runは新規作成しない。
 
 ```bash
-python scripts/run_word.py <headword>
+python scripts/start_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
 
-個別の手続きコマンドをLLMが組み立てず、オーケストレータが表示・保存する段階入力と出力先をそのまま使う。
+段階操作はオーケストレータの出力をそのまま使う。
 
 レビュー段（checker pass、example-attribution、cold review、final blind、final review）の出力は、生成を行ったエージェントが作成してはならない。`scripts/review_call.py`（API）または handoff 取り込みのみを経路とし、`reviewer` フィールドのない出力は `scripts/check_passes.py` が拒否する。handoff応答は生成セッション外の別モデル・別セッションから人間が取り込む。
 
