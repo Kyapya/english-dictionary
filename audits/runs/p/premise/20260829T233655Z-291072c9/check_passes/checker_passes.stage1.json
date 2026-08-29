@@ -1,0 +1,413 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "84c855eee79c12fcb69fa42cbe4e55d712be41ba6f6b8d9b17a8ba4b56fe5079",
+        "recorded_at": "2026-08-29T23:37:51.209348+00:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "claude-haiku-4.5",
+          "ingested_by": "human",
+          "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+        },
+        "axes": []
+      },
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "932449c78b5d5a49527c5bf4bb17c72748209e9704148f1b95c3cd7febcd46a0",
+        "recorded_at": "2026-08-29T23:38:39.672820+00:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "claude-haiku-4.5",
+          "ingested_by": "human",
+          "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-f25906f2e15a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "let us premise",
+              "before turning to the main argument"
+            ],
+            "rationale": "The phrase 'let us premise' and the structure of explicitly setting a proposition as a starting point before moving to main argument exclusively matches sense 6 (verb - rare - to assume/posit), distinguished by the formal phrasing and the goal of establishing a premise statement itself rather than basing something on a premise."
+          },
+          {
+            "example_id": "ex-6fe75bbe4ee8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "built the series around the premise",
+              "memories could be traded"
+            ],
+            "rationale": "Building a creative work around a central situation or concept where 'memories could be traded' is a foundational story element, directly matching sense 2 (noun - basic setting/central concept in narratives), not the logical or assumption meanings."
+          },
+          {
+            "example_id": "ex-aaf2c9f3989e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "The author premises that",
+              "has access to the same information"
+            ],
+            "rationale": "The author premises that each participant has access to the same information, stating a proposition as a premise itself, matching sense 6 (verb - rare - to state/assume a proposition), rather than basing something on a premise."
+          },
+          {
+            "example_id": "ex-3adb7a71ff17",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "off the premises",
+              "Confidential documents",
+              "without permission"
+            ],
+            "rationale": "The phrase 'off the premises' in a context of removing physical documents from a location clearly refers to sense 4 (noun, plural - building/facility), specifically the physical site or building grounds."
+          },
+          {
+            "example_id": "ex-6c1517462807",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "premise of the film",
+              "nobody in the town can tell a lie"
+            ],
+            "rationale": "Describing 'the premise of the film' as a foundational situation or rule that defines how the narrative operates matches sense 2 (noun - basic setting/central concept), which emphasizes the narrative's core idea."
+          },
+          {
+            "example_id": "ex-4a130475cdc7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise",
+              "that the change is necessary"
+            ],
+            "rationale": "Challenging 'the premise that the change is necessary' targets the foundational assumption underlying an argument, directly matching sense 1 (noun - premise/assumption underlying judgment or argument)."
+          },
+          {
+            "example_id": "ex-16f8c7273d63",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "rests on the premise",
+              "demand will continue to grow"
+            ],
+            "rationale": "The proposal rests on the premise that demand will continue to grow, showing a foundational assumption supporting the proposal, matching sense 1 (noun - premise/assumption underlying judgment)."
+          },
+          {
+            "example_id": "ex-24cb7fa4a3fc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "premises are protected",
+              "security cameras"
+            ],
+            "rationale": "Premises being protected by security cameras refers to a physical facility/building, matching sense 4 (noun, plural - building/premises), where the location itself is monitored."
+          },
+          {
+            "example_id": "ex-1ad399d07324",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise",
+              "subject term of the conclusion"
+            ],
+            "rationale": "Identifying 'minor premise' in a syllogism by its structural role (containing the subject term) uses specialized logical terminology in sense 3 (noun - logical premise in formal argument), not general assumptions."
+          },
+          {
+            "example_id": "ex-0068e2a6054c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise",
+              "users will follow the rules voluntarily"
+            ],
+            "rationale": "An underlying premise of a policy about user behavior is a foundational assumption, matching sense 1 (noun - premise/assumption), which emphasizes the implicit understanding supporting a system."
+          },
+          {
+            "example_id": "ex-9ac4da44cd08",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "major premise",
+              "predicate term of the conclusion"
+            ],
+            "rationale": "Identifying 'major premise' by its structural function in a syllogism uses sense 3 (noun - logical premise), the specialized domain of formal logic and argument structure."
+          },
+          {
+            "example_id": "ex-b461521150db",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on",
+              "distinction between legal ownership and practical control"
+            ],
+            "rationale": "The verb form 'premises the argument on' a conceptual distinction shows sense 5 (verb - to base/build on a premise), where an intellectual construct is grounded in specific principles."
+          },
+          {
+            "example_id": "ex-a53debdf9086",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "on the premises",
+              "anywhere on the premises"
+            ],
+            "rationale": "Smoking permission restrictions 'on the premises' refers to sense 4 (noun, plural - building/physical location), where the physical facility grounds are the referent."
+          },
+          {
+            "example_id": "ex-f30f2b6d5434",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "premises from its conclusion",
+              "evaluate the argument"
+            ],
+            "rationale": "Separating premises from its conclusion to evaluate the argument uses sense 3 (noun - logical premises), the domain of formal argument analysis."
+          },
+          {
+            "example_id": "ex-08ecc6cf3dc0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition",
+              "human motivation",
+              "before turning to the main argument"
+            ],
+            "rationale": "The verb construction 'premises a proposition about human motivation before turning to the main argument' shows sense 6 (verb - rare - to state as a premise), explicitly establishing a proposition as a starting point."
+          },
+          {
+            "example_id": "ex-f2f0828cd02e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "start from the premise",
+              "access to data should be limited by purpose"
+            ],
+            "rationale": "The report starts from the premise that access to data should be limited by purpose, representing sense 1 (noun - premise/assumption), the foundational thinking point for analysis or argument."
+          },
+          {
+            "example_id": "ex-1877a8a72d2b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "false premise",
+              "begins with a false premise"
+            ],
+            "rationale": "A 'false premise' is an incorrect assumption underlying an argument, matching sense 1 (noun - premise/assumption), emphasizing the foundational assumption role."
+          },
+          {
+            "example_id": "ex-39c035eb332c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "from the premises",
+              "conclusion cannot be inferred"
+            ],
+            "rationale": "The conclusion cannot be inferred from the premises without an additional assumption, using characteristic language of formal logic, matching sense 3 (noun - logical premises in formal argument systems)."
+          },
+          {
+            "example_id": "ex-482dbeef6029",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises",
+              "Visitors"
+            ],
+            "rationale": "Visitors leaving a facility by a deadline uses sense 4 (noun, plural - building/location), where the physical site is the reference."
+          },
+          {
+            "example_id": "ex-bc330a31619d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises",
+              "moved to larger business premises"
+            ],
+            "rationale": "Moving to 'larger business premises' near a station explicitly refers to sense 4 (noun, plural - building/facility for operations), the physical location."
+          },
+          {
+            "example_id": "ex-f1f6117f32c0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "program is premised on",
+              "early support can prevent larger problems"
+            ],
+            "rationale": "The program is premised on the idea that early support can prevent larger problems, where the program's design rests on this belief, using sense 5 (verb - to be grounded/based on)."
+          },
+          {
+            "example_id": "ex-0e3a098f1cac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "on the premise that",
+              "parts would arrive by Friday"
+            ],
+            "rationale": "We planned the schedule on the premise that the parts would arrive by Friday, using sense 1 (noun - premise/assumption), the foundational expectation supporting the plan."
+          },
+          {
+            "example_id": "ex-669618553365",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "intriguing premise",
+              "middle chapters move slowly"
+            ],
+            "rationale": "Describing a novel's central idea or setting concept as 'intriguing premise' while noting the execution quality separately matches sense 2 (noun - basic setting/central narrative idea)."
+          },
+          {
+            "example_id": "ex-2233cb8b63f9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "forecast is premised on",
+              "interest rates will remain unchanged"
+            ],
+            "rationale": "The forecast is premised on the assumption that interest rates will remain unchanged, using sense 5 (verb - passive form be premised on - to be grounded/based in), the primary usage of the verb form."
+          }
+        ]
+      },
+      "aligned_at": "2026-08-29T23:38:39.772466+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "claude-haiku-4.5",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+      }
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "claude-haiku-4.5",
+    "ingested_by": "human",
+    "agent_id": "github-actions:33281381534:checker-stage1-retry1"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-premise-20260829T233655Z-291072c9",
+  "context_id": "normal-premise-context-20260829T233655Z-291072c9",
+  "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-29T23:38:39.772147+00:00",
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 ingested by handoff."
+}
