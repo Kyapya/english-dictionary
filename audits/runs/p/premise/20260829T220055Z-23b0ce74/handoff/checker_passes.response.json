@@ -1,0 +1,313 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "84c855eee79c12fcb69fa42cbe4e55d712be41ba6f6b8d9b17a8ba4b56fe5079",
+        "recorded_at": "2026-08-29T22:01:53.291262+00:00",
+        "reviewer": {},
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "1853b935aa8af00051a2dc94003c0f331997f6110d9b6181471417254083d528",
+        "blind_request_sha256": "582c8cb7c8ad8eb59d0e599414ed6e088e4ea07f0c213d729a722a9cfbc629eb",
+        "recorded_at": "2026-08-29T22:01:53.291262+00:00",
+        "reviewer": {},
+        "attributions": [
+          {
+            "example_id": "ex-107b525b4f6e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The premise of the film is simple"
+            ],
+            "rationale": "The example explicitly identifies 'the premise of the film' which directly maps to sense:002 (基本設定、中心的な着想) concerning film narrative structure."
+          },
+          {
+            "example_id": "ex-5ce2d16d3209",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises"
+            ],
+            "rationale": "The phrase 'leave the premises' uses the plural form referring to a physical location/building that visitors must depart from, characteristic of sense:004 (建物・敷地)."
+          },
+          {
+            "example_id": "ex-9569157099b4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "The report starts from the premise that"
+            ],
+            "rationale": "The phrase 'starts from the premise that' introduces a foundational assumption for reasoning, directly exemplifying sense:001 (前提、仮定、議論・判断の出発点)."
+          },
+          {
+            "example_id": "ex-643e338328fc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The novel has an intriguing premise"
+            ],
+            "rationale": "The phrase 'an intriguing premise' applied to a novel describes the narrative concept, unambiguously matching sense:002 (基本設定、中心的な着想)."
+          },
+          {
+            "example_id": "ex-2c6b9b11fd9e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "is premised on the assumption"
+            ],
+            "rationale": "The passive verb construction 'is premised on' shows a theory based on a foundational assumption, exemplifying sense:005 (～に基づかせる) with verbal use."
+          },
+          {
+            "example_id": "ex-9fbcafd9746e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise that the change is necessary"
+            ],
+            "rationale": "The phrase 'challenge the premise' questions the foundational assumption supporting an argument, directly instantiating sense:001 (前提、仮定)."
+          },
+          {
+            "example_id": "ex-e513865a6243",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "rests on the premise that demand will continue"
+            ],
+            "rationale": "The phrase 'rests on the premise that' establishes a proposition serving as the foundation for a proposal, clearly sense:001 (前提、仮定、出発点)."
+          },
+          {
+            "example_id": "ex-400b31e95cb7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "taken off the premises"
+            ],
+            "rationale": "The phrase 'off the premises' refers to location outside a building or site boundary, directly denoting sense:004 (建物・敷地、構内)."
+          },
+          {
+            "example_id": "ex-fdb4e3560e90",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "is premised on the idea that"
+            ],
+            "rationale": "The verbal construction 'is premised on the idea' shows a program based on a foundational concept, exemplifying sense:005 (～に基づかせる)."
+          },
+          {
+            "example_id": "ex-2dae086662b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "built the series around the premise that memories could be traded"
+            ],
+            "rationale": "The phrase 'built the series around the premise' describes narrative construction from a central scenario, characteristic of sense:002 (基本設定、中心的な着想)."
+          },
+          {
+            "example_id": "ex-51e19ffc40ad",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that each participant has access"
+            ],
+            "rationale": "The active verb form 'premises that' with a that-clause presents a proposition as a foundational assumption, exemplifying sense:006 (～を前提として置く、仮定する)."
+          },
+          {
+            "example_id": "ex-a608e60a054e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise of the policy"
+            ],
+            "rationale": "The phrase 'underlying premise of the policy' describes an implicit foundational assumption, directly instantiating sense:001 (前提、仮定)."
+          },
+          {
+            "example_id": "ex-ddcd7eb1fc5b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "The premises are protected"
+            ],
+            "rationale": "The plural noun 'premises' taking plural verb agreement refers to a protected physical facility/location, exemplifying sense:004 (建物・敷地)."
+          },
+          {
+            "example_id": "ex-aec2c673e2d8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise because it contains the subject term"
+            ],
+            "rationale": "The phrase 'minor premise' in syllogistic logic refers to the foundational proposition containing the subject term, directly denoting sense:003 (前提命題、推論の前提)."
+          },
+          {
+            "example_id": "ex-8979caec15b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "on the premises"
+            ],
+            "rationale": "The phrase 'on the premises' indicates location within a building or bounded property, exemplifying sense:004 (建物・敷地)."
+          },
+          {
+            "example_id": "ex-601289b4a8e1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "inferred from the premises"
+            ],
+            "rationale": "The phrase 'from the premises' in inference context refers to foundational propositions in logical argument, instantiating sense:003 (前提命題、推論の前提)."
+          },
+          {
+            "example_id": "ex-e08b435806dc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises near the station"
+            ],
+            "rationale": "The phrase 'business premises' describes a commercial site or building location, directly exemplifying sense:004 (建物・敷地)."
+          },
+          {
+            "example_id": "ex-67aef276daa1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on a distinction"
+            ],
+            "rationale": "The active verb form 'premises the argument on' shows reasoning constructed upon a foundational distinction, exemplifying sense:005 (～を～に基づかせる)."
+          },
+          {
+            "example_id": "ex-86ac750dd144",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "planned the schedule on the premise that"
+            ],
+            "rationale": "The phrase 'on the premise that' establishes an assumption guiding action planning, directly instantiating sense:001 (前提、仮定、出発点)."
+          },
+          {
+            "example_id": "ex-28c460e64db8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition about human motivation"
+            ],
+            "rationale": "The active verb 'premises a proposition' presents a claim as a foundational premise prior to main argument, exemplifying sense:006 (命題を前提として置く)."
+          },
+          {
+            "example_id": "ex-1ee3d8032dc6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Let us premise that the two measurements"
+            ],
+            "rationale": "The formal phrase 'let us premise that' explicitly establishes a proposition as a foundational assumption, directly denoting sense:006 (～を前提として述べる・仮定する)."
+          },
+          {
+            "example_id": "ex-93ade0343c32",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "the first statement is the major premise because it contains the predicate term"
+            ],
+            "rationale": "The phrase 'major premise' in syllogistic logic structure refers to the proposition containing the predicate term of the conclusion, exemplifying sense:003 (前提命題、推論の前提)."
+          },
+          {
+            "example_id": "ex-48720ba6fed8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "separate its premises from its conclusion"
+            ],
+            "rationale": "The phrase 'premises from conclusion' in logical evaluation context refers to foundational propositions supporting reasoning, instantiating sense:003 (前提命題)."
+          },
+          {
+            "example_id": "ex-1ff122891fcf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "begins with a false premise"
+            ],
+            "rationale": "The phrase 'a false premise' describes an incorrect foundational assumption undermining argument validity, directly exemplifying sense:001 (前提、仮定)."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ]
+}

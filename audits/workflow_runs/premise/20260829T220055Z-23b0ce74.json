@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-08-29T22:00:55Z",
   "deadline_at": "2026-08-29T23:00:55Z",
   "pre_draft_deadline_at": "2026-08-29T22:20:55Z",
-  "last_heartbeat_at": "2026-08-29T22:00:56Z",
+  "last_heartbeat_at": "2026-08-29T22:01:53Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-29T22:00:56Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-08-29T22:00:56Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-29T22:00:57Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -448,20 +453,20 @@
       {
         "id": "generation",
         "instruction_bytes": 53277,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 30286,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 30286,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -600,35 +605,51 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0003",
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0004",
         "status": "active",
         "instruction_bytes": 276,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/p/premise.md",
+        "audits/runs/p/premise/20260829T220055Z-23b0ce74/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/p/premise/20260829T220055Z-23b0ce74/validator.json"
+      ]
+    }
+  },
+  "review_ingest_failures": {
+    "stage": "checker_passes",
+    "count": 1,
+    "last_error": "B2_rationale_not_grounded: attribution ex-107b525b4f6e rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-9569157099b4 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-643e338328fc rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-2c6b9b11fd9e rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-9fbcafd9746e rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-e513865a6243 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-400b31e95cb7 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-fdb4e3560e90 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-2dae086662b9 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-51e19ffc40ad rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-ddcd7eb1fc5b rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-aec2c673e2d8 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-601289b4a8e1 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-e08b435806dc rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-67aef276daa1 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-86ac750dd144 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-28c460e64db8 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-1ee3d8032dc6 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-93ade0343c32 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-48720ba6fed8 rationale contains neither an exact quote nor a valid discriminating term; B2_rationale_not_grounded: attribution ex-1ff122891fcf rationale contains neither an exact quote nor a valid discriminating term",
+    "last_failed_at": "2026-08-29T22:01:53Z"
   }
 }
