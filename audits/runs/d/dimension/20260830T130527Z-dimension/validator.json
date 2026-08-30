@@ -1,0 +1,15 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/d/dimension.md",
+  "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 497: grammar frame could not be classified: be dimensioned to fit 〈場所・部品〉＝～に合うよう寸法を定められている",
+    "line 497: grammar frame could not be classified: dimensioned drawing＝寸法記入図"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-08-30T13:27:31Z"
+}
