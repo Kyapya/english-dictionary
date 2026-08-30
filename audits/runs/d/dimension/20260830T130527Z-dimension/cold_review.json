@@ -1,0 +1,23 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-dimension-20260830",
+  "context_id": "ctx-cold-dimension",
+  "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
+  "prompt_sha256": "ed66c5b7bbcc7caf74a04c2e888d83ae4bca2669a7e4d9660b66a1ebc0f72c3e",
+  "recorded_at": "2026-08-30T13:27:00Z",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "cold-reviewer-v1",
+    "ingested_by": "human",
+    "agent_id": "dimension-cold-reviewer-20260830"
+  },
+  "findings": [],
+  "summary": "Context-free review found no blocking or minor article defects.",
+  "provisional_decision": "pass"
+}
