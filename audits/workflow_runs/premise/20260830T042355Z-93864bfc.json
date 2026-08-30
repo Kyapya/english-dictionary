@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "preflight_pushed",
   "started_at": "2026-08-30T04:23:55Z",
   "deadline_at": "2026-08-30T05:23:55Z",
   "pre_draft_deadline_at": "2026-08-30T04:43:55Z",
-  "last_heartbeat_at": "2026-08-30T04:23:57Z",
+  "last_heartbeat_at": "2026-08-30T04:28:50Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-30T04:23:57Z",
@@ -41,8 +41,10 @@
       "notes": "remote start checkpoint verified"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "independent reviewer model unavailable in Copilot CLI",
+  "open_questions": [
+    "Use a Copilot CLI model exposed by the current plan, then rerun the guarded review."
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "premise",
