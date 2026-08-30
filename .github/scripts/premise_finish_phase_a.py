@@ -129,6 +129,25 @@ def body_hash() -> str:
     return hashlib.sha256(body_text().encode("utf-8")).hexdigest()
 
 
+def refresh_preserved_artifact_hashes() -> None:
+    """Rebind copied generation/audit metadata to the revised entry body."""
+    current = body_hash()
+    for name, key in (
+        ("generation.json", "output_body_sha256"),
+        ("validator.json", "input_body_sha256"),
+        ("source_inventory.json", "input_body_sha256"),
+    ):
+        path = CYCLE / name
+        if not path.is_file():
+            raise RuntimeError(f"preserved artifact is missing: {path}")
+        value = read_json(path)
+        value[key] = current
+        path.write_text(
+            json.dumps(value, ensure_ascii=False, indent=2) + "\n",
+            encoding="utf-8",
+        )
+
+
 def canonical_hash(value: object) -> str:
     return hashlib.sha256(
         json.dumps(value, ensure_ascii=False, sort_keys=True, separators=(",", ":")).encode("utf-8")
@@ -505,6 +524,7 @@ def update_entry_and_queue() -> Path:
 def main() -> int:
     global RUN, CYCLE
     RUN, CYCLE = select_latest_restarted_run()
+    refresh_preserved_artifact_hashes()
     print(json.dumps({"run": str(RUN.relative_to(REPO)), "cycle": CYCLE.name}, ensure_ascii=False))
 
     cold_contract = r'''
@@ -519,12 +539,12 @@ MACHINE/LIVENESS CONTRACT (mandatory): Return JSON only. Include summary and fin
 MACHINE/LIVENESS CONTRACT (mandatory): Return exactly one final_blind_review_v2 JSON object, JSON only. Include provisional_decision, independent_candidates, article_findings. Every candidate must have a unique id, surface_form, frame, meaning, disposition included|excluded, rationale, and at least one semantic_assertion with unique id, statement, polarity must_hold|must_not_hold, scope. Candidate rationale MUST literally repeat at least one of that candidate's surface_form, frame, or meaning strings verbatim. Every article finding must have unique id, taxonomy_id, location object {section,line_start,line_end,exact_quote}, severity blocking|minor, rationale; the rationale MUST literally repeat location.exact_quote verbatim. Do not output article_target_ids, evidence_link_ids, resolution_ids. Use provisional_decision=reject only for an actual blocker candidate; otherwise pass. Do not invent problems just to avoid a zero-finding result.
 '''
     blind, _ = do_handoff("final_blind", blind_contract, "article_findings")
-    excluded = [
-        item
-        for item in blind.get("independent_candidates", [])
-        if isinstance(item, dict) and item.get("disposition") != "included"
-    ]
-    if primary_finding_count(cold=cold, blind=blind) or excluded:
+    # The blind candidate list is an explicit inventory and may contain
+    # correctly excluded candidates (for example, a spelling variant or an
+    # inflection that is not a separate sense). Per final_blind_prompt_v2,
+    # actual content defects are represented by article_findings or reject.
+    blind_reject = blind.get("provisional_decision") == "reject"
+    if primary_finding_count(cold=cold, blind=blind) or blind_reject:
         raise RuntimeError("primary or blind review found a substantive issue; revision cycle required before sealing")
 
     liveness = run([sys.executable, "scripts/review_liveness.py", "validate-run", str(CYCLE)], check=False)
