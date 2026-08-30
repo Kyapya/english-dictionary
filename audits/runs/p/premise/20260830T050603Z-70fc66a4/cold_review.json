@@ -1,0 +1,22 @@
+{
+  "summary": "Fresh context-free cold review found no learner-significant content defects.",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "multi_agent_v1 inherited (no model override)",
+    "ingested_by": "human",
+    "agent_id": "multi-agent:01a050fa-cafe-7700-a2b3-d33468c970b5:cold_review"
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-premise-20260830T050603Z-70fc66a4",
+  "context_id": "cold-premise-context-20260830T050603Z-70fc66a4",
+  "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-08-30T05:14:22.373084+00:00"
+}
