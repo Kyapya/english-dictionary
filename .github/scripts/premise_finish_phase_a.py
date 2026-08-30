@@ -22,7 +22,7 @@ import validate_entry  # noqa: E402
 
 HEADWORD = "premise"
 ENTRY = REPO / "entries/p/premise.md"
-MODEL = "gpt-5.3-codex"
+MODEL = "auto"
 RUN: Path
 CYCLE: Path
 
