@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "preflight_pushed",
   "started_at": "2026-08-30T04:18:58Z",
   "deadline_at": "2026-08-30T05:18:58Z",
   "pre_draft_deadline_at": "2026-08-30T04:38:58Z",
-  "last_heartbeat_at": "2026-08-30T04:18:59Z",
+  "last_heartbeat_at": "2026-08-30T04:21:13Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-30T04:18:59Z",
@@ -41,8 +41,10 @@
       "notes": "remote start checkpoint verified"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "independent reviewer unavailable: Copilot monthly quota exceeded (HTTP 402); guarded retry required",
+  "open_questions": [
+    "retry after reviewer quota reset or alternate independent reviewer capacity is available"
+  ],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
     "headword": "premise",
