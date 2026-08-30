@@ -1,0 +1,41 @@
+name: Stop quota-blocked premise run
+
+on:
+  push:
+    branches:
+      - add/premise-v5-20260829
+    paths:
+      - .github/workflows/stop-quota-blocked-premise.yml
+
+permissions:
+  contents: write
+
+jobs:
+  stop:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout premise branch
+        uses: actions/checkout@v4
+        with:
+          ref: add/premise-v5-20260829
+          fetch-depth: 0
+      - name: Configure Git
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install project dependencies
+        run: python -m pip install -r requirements.txt
+      - name: Record guarded stop
+        shell: bash
+        run: |
+          set -euo pipefail
+          python scripts/entry_workflow_guard.py stop audits/workflow_runs/premise/20260830T041858Z-f03515e9.json             --reason "independent reviewer unavailable: Copilot monthly quota exceeded (HTTP 402); guarded retry required"             --open-question "retry after reviewer quota reset or alternate independent reviewer capacity is available"
+          git add audits/workflow_runs/premise/20260830T041858Z-f03515e9.json
+          if ! git diff --cached --quiet; then
+            git commit -m "workflow(premise): record reviewer quota stop"
+            git push origin HEAD:add/premise-v5-20260829
+          fi
