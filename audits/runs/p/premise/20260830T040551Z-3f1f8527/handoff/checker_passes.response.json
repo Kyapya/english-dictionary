@@ -1,0 +1,311 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "c96b432f7722146273be218a4cf0e6ac1b8e8c4438707612299c09750a7abcd7",
+        "blind_request_sha256": "a2517bedd61e0dde3a221f58f8ffda4ae6622d88c39fd4559edf54bde342b00e",
+        "recorded_at": "2026-08-30T04:07:08.621342+00:00",
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "c96b432f7722146273be218a4cf0e6ac1b8e8c4438707612299c09750a7abcd7",
+        "blind_request_sha256": "59bc92073449c54eadfd14a1f7eb5a099c48289cc1bc533f5809e3991d956133",
+        "recorded_at": "2026-08-30T04:07:53.755222+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-c2a2210282d6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "an intriguing premise"
+            ],
+            "rationale": "sense:002 because the example says \"an intriguing premise\" and the translation adds \"興味を引く基本設定\"; that points to a story's central idea rather than an argumentative assumption."
+          },
+          {
+            "example_id": "ex-3ef7193b3fde",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "the premises are protected by security cameras at all times"
+            ],
+            "rationale": "sense:004 because \"the premises are protected by security cameras at all times\" describes a physical site under supervision, not a logical or narrative premise."
+          },
+          {
+            "example_id": "ex-e95ace48f9f0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the premise that access to data should be limited by purpose"
+            ],
+            "rationale": "sense:001 because the phrase \"the premise that access to data should be limited by purpose\" frames a starting assumption for reasoning or policy, rather than a story setup or building site."
+          },
+          {
+            "example_id": "ex-70938fb75fb7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "is premised on the assumption that interest rates will remain unchanged"
+            ],
+            "rationale": "sense:005 because \"is premised on the assumption that interest rates will remain unchanged\" expresses a theory or plan built on a stated assumption."
+          },
+          {
+            "example_id": "ex-e1f5f51211db",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "from the premises without an additional assumption"
+            ],
+            "rationale": "sense:003 because \"from the premises without an additional assumption\" depicts inference from a set of propositions, which is the logical-premise sense."
+          },
+          {
+            "example_id": "ex-c3daf46b802c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "the premise that memories could be traded"
+            ],
+            "rationale": "sense:002 because \"the premise that memories could be traded\" identifies the core setting that drives the narrative."
+          },
+          {
+            "example_id": "ex-5170c86842f7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Let us premise that the two measurements were taken under identical conditions"
+            ],
+            "rationale": "sense:006 because \"Let us premise that the two measurements were taken under identical conditions\" explicitly sets a proposition as a prior assumption for argument."
+          },
+          {
+            "example_id": "ex-39e00ff9c224",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "the major premise because it contains the predicate term of the conclusion"
+            ],
+            "rationale": "sense:003 because \"the major premise because it contains the predicate term of the conclusion\" is a textbook syllogistic definition of a logical premise."
+          },
+          {
+            "example_id": "ex-72e8188ca70d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "separate its premises from its conclusion"
+            ],
+            "rationale": "sense:003 because \"separate its premises from its conclusion\" is the standard logical structure of premises and conclusion."
+          },
+          {
+            "example_id": "ex-48f192eb2e9d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The premise of the film is simple"
+            ],
+            "rationale": "sense:002 because \"The premise of the film is simple\" names the foundational concept behind the story, not an inferential assumption."
+          },
+          {
+            "example_id": "ex-fcc3beb59a7d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "begins with a false premise"
+            ],
+            "rationale": "sense:001 because \"begins with a false premise\" makes the starting assumption itself the target of evaluation in an argument."
+          },
+          {
+            "example_id": "ex-5e54279e9477",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "the minor premise because it contains the subject term of the conclusion"
+            ],
+            "rationale": "sense:003 because \"the minor premise because it contains the subject term of the conclusion\" is exactly the mechanics of logical premise labeling."
+          },
+          {
+            "example_id": "ex-c4bbebaa9fc9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on a distinction between legal ownership and practical control"
+            ],
+            "rationale": "sense:005 because \"premises the argument on a distinction between legal ownership and practical control\" describes argument construction from a prior basis."
+          },
+          {
+            "example_id": "ex-8e90625ed0b5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises by 9 p.m."
+            ],
+            "rationale": "sense:004 because \"leave the premises by 9 p.m.\" refers to a building or site, not an abstract starting assumption."
+          },
+          {
+            "example_id": "ex-b3a2e812b214",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "is premised on the idea that early support can prevent larger problems later"
+            ],
+            "rationale": "sense:005 because \"is premised on the idea that early support can prevent larger problems later\" describes a program built on an underlying idea."
+          },
+          {
+            "example_id": "ex-6d5e9f49b338",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "anywhere on the premises"
+            ],
+            "rationale": "sense:004 because \"anywhere on the premises\" refers to a defined property or site area rather than a proposition or narrative premise."
+          },
+          {
+            "example_id": "ex-e7cb631a6c5b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition about human motivation"
+            ],
+            "rationale": "sense:006 because \"premises a proposition about human motivation\" explicitly presents an assertion as a starting assumption in an argument."
+          },
+          {
+            "example_id": "ex-8d46877d5c70",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "rests on the premise that demand will continue to grow"
+            ],
+            "rationale": "sense:001 because \"rests on the premise that demand will continue to grow\" is a practical assumption underlying a proposal."
+          },
+          {
+            "example_id": "ex-9da67fa1279f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "off the premises without permission"
+            ],
+            "rationale": "sense:004 because \"off the premises without permission\" clearly refers to leaving a facility or property area."
+          },
+          {
+            "example_id": "ex-21a3ebc18d41",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "An underlying premise of the policy"
+            ],
+            "rationale": "sense:001 because \"An underlying premise of the policy\" identifies a base assumption supporting a policy or plan."
+          },
+          {
+            "example_id": "ex-c9a787e38b0c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "on the premise that the parts would arrive by Friday"
+            ],
+            "rationale": "sense:001 because \"on the premise that the parts would arrive by Friday\" is an operative assumption governing scheduling."
+          },
+          {
+            "example_id": "ex-a8bd1656faf4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise that the change is necessary"
+            ],
+            "rationale": "sense:001 because \"challenge the premise that the change is necessary\" targets the underlying assumption, not a plot concept or a building."
+          },
+          {
+            "example_id": "ex-5f30d51ff08e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that each participant has access to the same information"
+            ],
+            "rationale": "sense:006 because \"premises that each participant has access to the same information\" states a proposition as the prior basis of discussion."
+          },
+          {
+            "example_id": "ex-e9b2f371beef",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "larger business premises near the station"
+            ],
+            "rationale": "sense:004 because \"larger business premises near the station\" denotes commercial property or premises, not a conceptual basis."
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "qualification",
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": []
+    }
+  ]
+}
