@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260830T130527Z-dimension",
+  "headword": "dimension",
+  "entry_path": "entries/d/dimension.md",
+  "branch": "add/dimension-v5-20260830",
+  "base_sha": "8585566ce2366bb59fc7e520a1efe7757a58786c",
+  "profile": "extended",
+  "profile_reason": "Polysemous noun/verb spanning physical measurement, abstract aspect and extent, mathematical/physical technical use, alternate-realm use, and technical drafting.",
+  "limits": {
+    "max_elapsed_minutes": 90,
+    "max_pre_draft_minutes": 30,
+    "max_research_queries": 18,
+    "max_candidate_pages": 26,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 7,
+    "candidate_pages": 7
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-08-30T13:05:27Z",
+  "deadline_at": "2026-08-30T14:35:27Z",
+  "pre_draft_deadline_at": "2026-08-30T13:35:27Z",
+  "last_heartbeat_at": "2026-08-30T13:05:27Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-30T13:05:27Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
