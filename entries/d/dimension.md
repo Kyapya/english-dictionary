@@ -168,7 +168,7 @@ dimensions は文脈によって、単なる数値の組合せだけでなく、
 頻度: 〈7/10〉  
 違い: proportions は形のバランスや部分間の比率に焦点がある。dimensions は比率に限らず、実際の測定値を表す。  
 例: The building has elegant proportions despite its large dimensions.  
-訳: その建物は大きな寸法を持つにもかかわらず、優雅な proportions をしている。  
+訳: その建物は大きな寸法を持つにもかかわらず、優雅な外形比率をしている。  
 
 ・measurements  
 定義: 測定して得られた数値。  
