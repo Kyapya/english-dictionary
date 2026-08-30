@@ -171,6 +171,7 @@ def reviewer_meta(model: str, agent_id: str) -> dict[str, object]:
     return value
 
 
+# This selector runs after the workflow has persisted any stale predecessor state.
 def select_latest_restarted_run() -> tuple[Path, Path]:
     candidates: list[tuple[str, Path, dict]] = []
     for path in (REPO / "audits/workflow_runs/premise").glob("*.json"):
