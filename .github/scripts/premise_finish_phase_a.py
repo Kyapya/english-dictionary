@@ -542,6 +542,8 @@ MACHINE/LIVENESS CONTRACT (mandatory): Return exactly one final_blind_review_v2 
     # The blind candidate list is an explicit inventory and may contain
     # correctly excluded candidates (for example, a spelling variant or an
     # inflection that is not a separate sense). Per final_blind_prompt_v2,
+    # Any article finding, including a minor one, must be resolved before sealing;
+    # the final blind's explicit candidate inventory is not itself a defect.
     # actual content defects are represented by article_findings or reject.
     blind_reject = blind.get("provisional_decision") == "reject"
     if primary_finding_count(cold=cold, blind=blind) or blind_reject:
