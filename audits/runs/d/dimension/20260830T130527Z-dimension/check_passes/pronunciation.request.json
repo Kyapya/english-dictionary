@@ -1,0 +1,43 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米・英: /dɪˈmenʃən/。3音節で、第2音節の /men/ に主強勢がある。最初の /dɪ/ は弱く、語末の /ʃən/ は「ション」に近い。辞書によっては米国英語で /daɪˈmenʃən/ という発音も載るが、/dɪˈmenʃən/ が一般的で安全な発音である。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  "
+      },
+      {
+        "line": 17,
+        "text": "複数形 dimensions は /dɪˈmenʃənz/。語末の -s は通常 /z/ で、dimensions of ... のように名詞の複数形として使う。動詞 dimension は同じく /dɪˈmenʃən/ で、過去形・過去分詞 dimensioned は /dɪˈmenʃənd/、-ing形 dimensioning は /dɪˈmenʃənɪŋ/ となる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

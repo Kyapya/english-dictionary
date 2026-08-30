@@ -1,0 +1,81 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260830T130527Z-dimension",
+  "headword": "dimension",
+  "entry_path": "entries/d/dimension.md",
+  "branch": "add/dimension-v5-20260830",
+  "base_sha": "8585566ce2366bb59fc7e520a1efe7757a58786c",
+  "profile": "extended",
+  "profile_reason": "Polysemous noun/verb spanning physical measurement, abstract aspect and extent, mathematical/physical technical use, alternate-realm use, and technical drafting.",
+  "limits": {
+    "max_elapsed_minutes": 90,
+    "max_pre_draft_minutes": 30,
+    "max_research_queries": 18,
+    "max_candidate_pages": 26,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 7,
+    "candidate_pages": 7
+  },
+  "status": "completed",
+  "stage": "completed",
+  "started_at": "2026-08-30T13:05:27Z",
+  "deadline_at": "2026-08-30T14:35:27Z",
+  "pre_draft_deadline_at": "2026-08-30T13:35:27Z",
+  "last_heartbeat_at": "2026-08-30T13:48:00Z",
+  "remote_checkpoint": {
+    "confirmed": true,
+    "confirmed_at": "2026-08-30T13:06:12Z",
+    "commit_sha": "1022518562ae9e3e720a3560cd467456f4be80e6"
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-08-30T13:05:27Z",
+      "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-08-30T13:06:12Z",
+      "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-30T13:18:40Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-08-30T13:33:00Z",
+      "notes": "source-first inventory persisted before article comparison"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-08-30T13:36:00Z",
+      "notes": "all routed checker passes and blind checker artifacts persisted"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-30T13:38:00Z",
+      "notes": "context-free cold review and independent secondary checks persisted"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-30T13:41:00Z",
+      "notes": "final blind output was sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-30T13:44:00Z",
+      "notes": "canonical content audit and final reconciliation persisted"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-30T13:48:00Z",
+      "notes": "all gates complete; ready for PR validation"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}

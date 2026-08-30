@@ -1,0 +1,46 @@
+{
+  "schema_version": "final_blind_v1",
+  "stage": "final_blind",
+  "run_id": "blind-dimension-20260830",
+  "context_id": "ctx-blind-dimension",
+  "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
+  "prompt_sha256": "642515c2d1a9613b1e6787fb1943ae76d45a2417081fc2ab3efea261e16a4590",
+  "recorded_at": "2026-08-30T13:29:00Z",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "final-blind-auditor-v1",
+    "ingested_by": "human",
+    "agent_id": "dimension-final-blind-20260830"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "blind-candidate:001",
+      "surface_form": "dimension",
+      "frame": "technical transitive verb",
+      "meaning": "寸法を定める",
+      "rationale": "dimension in the technical transitive verb frame means 寸法を定める, which is represented in the verb sense.",
+      "disposition": "included",
+      "semantic_assertions": [
+        {
+          "id": "assertion:001",
+          "polarity": "must_hold",
+          "statement": "The technical verb sense specifies dimensions or specifications.",
+          "scope": "sense_boundary:008"
+        },
+        {
+          "id": "assertion:002",
+          "polarity": "must_not_hold",
+          "statement": "The technical verb sense is not the ordinary noun meaning of physical size.",
+          "scope": "sense_boundary:008"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
