@@ -65,17 +65,27 @@ def parse_copilot(stdout: str) -> tuple[dict, str]:
             models.append(data["currentModel"].strip())
     if not messages:
         raise RuntimeError("independent reviewer returned no assistant message")
+
+    # Copilot's assistant.message content may contain a fenced JSON object
+    # followed by a short explanation. Decode the first complete object and
+    # let the stage-specific validators enforce its required schema.
     text = messages[-1].strip()
     if text.startswith("```json"):
         text = text[7:]
     elif text.startswith("```"):
         text = text[3:]
-    if text.endswith("```"):
-        text = text[:-3]
-    value = json.loads(text.strip())
-    if not isinstance(value, dict):
-        raise RuntimeError("review response must be one JSON object")
-    return value, (models[-1] if models else MODEL)
+    decoder = json.JSONDecoder()
+    start = text.find("{")
+    while start >= 0:
+        try:
+            value, _ = decoder.raw_decode(text[start:])
+        except json.JSONDecodeError:
+            start = text.find("{", start + 1)
+            continue
+        if isinstance(value, dict):
+            return value, (models[-1] if models else MODEL)
+        break
+    raise RuntimeError("review response must contain one JSON object")
 
 
 def review(prompt: str) -> tuple[dict, str]:
