@@ -1,0 +1,15 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/p/premise.md",
+  "input_body_sha256": "dca4d7da03bc78c26e17b5aaadb648bedb189386b8fa78713d4c48ae3e9ab791",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 280: grammar frame could not be classified: `〈理論・主張・計画〉 be premised on/upon 〈考え・仮定〉`＝理論などが考え・仮定を前提としている",
+    "line 335: grammar frame could not be classified: `let us premise that ...`＝～だと前提としておこう"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-08-30T04:49:00+00:00"
+}

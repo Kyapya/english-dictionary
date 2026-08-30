@@ -1,0 +1,134 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "noun-basis",
+      "surface_form": "premise",
+      "frame": "a/the premise; premises",
+      "meaning": "a proposition or assumption used as a basis for reasoning, judgment, planning, or action",
+      "disposition": "included",
+      "rationale": "The entry includes premise as a countable general noun for a proposition or assumption that supports reasoning and decisions.",
+      "semantic_assertions": [
+        {
+          "id": "sa-noun-basis",
+          "statement": "A premise must function as a proposition, assumption, or starting point supporting reasoning or judgment.",
+          "polarity": "must_hold",
+          "scope": "general noun sense"
+        }
+      ]
+    },
+    {
+      "id": "noun-content-clause",
+      "surface_form": "the premise that P / on the premise that P",
+      "frame": "the premise that P; on the premise that P; start from the premise that P",
+      "meaning": "a that-clause identifying the proposition used as an assumed basis",
+      "disposition": "included",
+      "rationale": "The frame the premise that P / on the premise that P is explicitly included for contentful assumptions.",
+      "semantic_assertions": [
+        {
+          "id": "sa-noun-content-clause",
+          "statement": "The that-clause must identify the proposition treated as the premise, while on the premise that P marks reasoning or action based on it.",
+          "polarity": "must_hold",
+          "scope": "noun content-clause constructions"
+        }
+      ]
+    },
+    {
+      "id": "noun-narrative",
+      "surface_form": "premise",
+      "frame": "the premise of a film/show/book; build a story around a premise",
+      "meaning": "the basic situation or central idea underlying a story, film, show, game, or project",
+      "disposition": "included",
+      "rationale": "The frame the premise of a film/show/book; build a story around a premise is included for the narrative sense, distinct from plot.",
+      "semantic_assertions": [
+        {
+          "id": "sa-noun-narrative",
+          "statement": "A story premise must denote its basic situation or central idea rather than the full sequence of plot events.",
+          "polarity": "must_hold",
+          "scope": "narrative and project usage"
+        }
+      ]
+    },
+    {
+      "id": "noun-logic",
+      "surface_form": "premise",
+      "frame": "major/minor premise; premises and conclusion; infer a conclusion from premises",
+      "meaning": "a proposition functioning as a premise in a logical argument or syllogism",
+      "disposition": "included",
+      "rationale": "The frame major/minor premise; premises and conclusion; infer a conclusion from premises is included for the specialized logic sense.",
+      "semantic_assertions": [
+        {
+          "id": "sa-noun-logic",
+          "statement": "In logic, a premise must function as a supporting proposition from which a conclusion is inferred.",
+          "polarity": "must_hold",
+          "scope": "logic and syllogistic usage"
+        }
+      ]
+    },
+    {
+      "id": "noun-property-plural",
+      "surface_form": "premises",
+      "frame": "on/off the premises; enter/leave/vacate the premises; the premises are ...",
+      "meaning": "the building, land, or property occupied or used by a business, organization, or other occupant",
+      "disposition": "included",
+      "rationale": "The frame on/off the premises; enter/leave/vacate the premises; the premises are ... is included for the property sense.",
+      "semantic_assertions": [
+        {
+          "id": "sa-noun-property-plural",
+          "statement": "In the property sense, premises must normally remain plural in form and take plural agreement even when one location is meant.",
+          "polarity": "must_hold",
+          "scope": "general property usage"
+        }
+      ]
+    },
+    {
+      "id": "noun-property-singular-rare",
+      "surface_form": "a premise / one premise",
+      "frame": "singular property usage in specialist legal, regulatory, real-estate, or document contexts",
+      "meaning": "a rare singular variant referring to one property or location",
+      "disposition": "included",
+      "rationale": "The surface form a premise / one premise is included descriptively as a rare, jurisdiction- and document-practice-dependent property variant, not as a spontaneous learner form.",
+      "semantic_assertions": [
+        {
+          "id": "sa-noun-property-singular-rare",
+          "statement": "The singular property use a premise / one premise must be rare and dependent on jurisdiction or document practice, and must not be treated as the default general-English form.",
+          "polarity": "must_hold",
+          "scope": "specialist property usage and learner guidance"
+        }
+      ]
+    },
+    {
+      "id": "verb-premise-on",
+      "surface_form": "premise",
+      "frame": "premise A on/upon B; A is premised on/upon B",
+      "meaning": "to base a theory, claim, plan, forecast, or action on an assumed proposition",
+      "disposition": "included",
+      "rationale": "The frame premise A on/upon B; A is premised on/upon B is explicitly included with the argument roles A as the based object and B as its foundation.",
+      "semantic_assertions": [
+        {
+          "id": "sa-verb-premise-on",
+          "statement": "In premise A on/upon B, A must be the object being based and B must be the premise or foundation; the roles must not be reversed.",
+          "polarity": "must_hold",
+          "scope": "transitive verb sense and passive construction"
+        }
+      ]
+    },
+    {
+      "id": "verb-premise-that",
+      "surface_form": "premise",
+      "frame": "premise that P; premise NP; let us premise that P",
+      "meaning": "to state or assume a proposition as a premise in very formal or rare usage",
+      "disposition": "included",
+      "rationale": "The frame premise that P; premise NP; let us premise that P is included and explicitly marked as formal and low-frequency.",
+      "semantic_assertions": [
+        {
+          "id": "sa-verb-premise-that",
+          "statement": "In premise that P, P must be the proposition being posited as a premise, unlike A in premise A on/upon B.",
+          "polarity": "must_hold",
+          "scope": "formal and rare transitive verb usage"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
