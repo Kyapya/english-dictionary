@@ -1,0 +1,917 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/p/premise.md",
+  "cycle_id": "20260830T050603Z-70fc66a4",
+  "cycle_dir": "audits/runs/p/premise/20260830T050603Z-70fc66a4",
+  "body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/source_inventory.json",
+      "sha256": "1687e49ee40fa6ff83a2aa449959c8652283ff698999750bf65e92fb504cc206",
+      "stage": "source_inventory",
+      "run_id": "source-premise-20260830T050603Z",
+      "context_id": "source-premise-context-20260830T050603Z",
+      "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+      "recorded_at": "2026-08-30T05:08:09.129319+00:00"
+    },
+    "normal_review": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/pass_findings.json",
+      "sha256": "3fda57e16a974303ee1bf7163c6f3ad60294895fe59285b82b2fd376ad5007c7",
+      "stage": "normal_review",
+      "run_id": "normal-premise-20260830T050603Z-70fc66a4",
+      "context_id": "normal-premise-context-20260830T050603Z-70fc66a4",
+      "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-08-30T05:13:11.473559+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/cold_review.json",
+      "sha256": "abfc0cfc7c15a9dcd01b696c221162b94908961d71dd9e67629988bd527b28a5",
+      "stage": "cold_review",
+      "run_id": "cold-premise-20260830T050603Z-70fc66a4",
+      "context_id": "cold-premise-context-20260830T050603Z-70fc66a4",
+      "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-08-30T05:14:22.373084+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/resolutions.json",
+      "sha256": "4dcc139fedb38318b4f1ab0a5f040c2768306f48fe858939590ddfdbd0c5e680",
+      "stage": "resolutions",
+      "run_id": "normal-premise-20260830T050603Z-70fc66a4",
+      "context_id": "normal-premise-context-20260830T050603Z-70fc66a4",
+      "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+      "prompt_sha256": "no-findings-empty-resolution",
+      "recorded_at": "2026-08-30T05:22:29.345765+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/final_blind.json",
+      "sha256": "f456e0adee0969ca647e38017fa3830f8b20e1235f8c70a252539571348d659b",
+      "stage": "final_blind",
+      "run_id": "blind-premise-20260830T050603Z-70fc66a4",
+      "context_id": "blind-premise-context-20260830T050603Z-70fc66a4",
+      "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+      "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+      "recorded_at": "2026-08-30T05:21:16.204437+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/blind_seal.json",
+      "sha256": "5d975d542e67f791bf00a0b9ac99a2e55b709d77f79bf37907c8a06dff652d9f",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/p/premise/20260830T050603Z-70fc66a4/final_review.json",
+      "sha256": "f193fdfac6046f597d91dde52009fd2eb1c332c049d42a92c4d449a870e160be",
+      "stage": "final_review",
+      "run_id": "blind-premise-20260830T050603Z-70fc66a4",
+      "context_id": "blind-premise-context-20260830T050603Z-70fc66a4",
+      "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+      "recorded_at": "2026-08-30T05:32:44.945044+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "Common polysemous noun/verb with bounded logic, property/legal, story, pronunciation, and etymology extensions.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 26,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-29T08:50:00+00:00",
+    "article_comparison_started_at": "2026-08-29T08:50:10+00:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-010",
+          "F-014",
+          "F-015",
+          "F-017",
+          "F-020",
+          "F-021"
+        ],
+        "notes": "Independent general and specialist dictionaries cover the six article sense families, including work-premise and property-premises uses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-011",
+          "F-013",
+          "F-016",
+          "F-024",
+          "F-025"
+        ],
+        "notes": "Sources cover noun/verb behavior, premise A on B, proposition-as-premise use, clause-taking use, and verb inflections."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-008",
+          "F-025",
+          "F-026"
+        ],
+        "notes": "The British spelling variant and the directly relevant inflected/plural forms are independently attested."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-014",
+          "F-019",
+          "F-020",
+          "F-021"
+        ],
+        "notes": "Logic and legal/property uses are explicitly covered by general and legal references."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-017",
+          "F-018"
+        ],
+        "notes": "Formal labeling, British spelling qualification, and UK/US pronunciation information provide the relevant register/region evidence; numeric learner frequency scores remain editorial estimates for later review."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-006",
+          "F-007",
+          "F-009",
+          "F-012",
+          "F-018",
+          "F-022",
+          "F-023",
+          "F-026"
+        ],
+        "notes": "Pronunciation variants, plural pronunciation, Latin origin, and the historical property-sense pathway are covered."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Merriam-Webster: premise",
+        "locator": "https://www.merriam-webster.com/dictionary/premise",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_mw",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "premise",
+            "kind": "lexical_sense",
+            "statement": "in logic, a proposition serves as a basis of argument or inference, including a syllogistic premise",
+            "source_detail": "Merriam-Webster defines the logic sense as a proposition supposed or proved prior as a basis of argument or inference."
+          },
+          {
+            "id": "F-002",
+            "form": "premise",
+            "kind": "lexical_sense",
+            "statement": "a premise can be something assumed or taken for granted",
+            "source_detail": "Merriam-Webster separately records the broader assumed-or-taken-for-granted sense."
+          },
+          {
+            "id": "F-003",
+            "form": "premise",
+            "kind": "lexical_sense",
+            "statement": "a literary or television premise can be the primary plot or storyline",
+            "source_detail": "Merriam-Webster records a primary plot or storyline sense for literary works and television shows."
+          },
+          {
+            "id": "F-004",
+            "form": "premises",
+            "kind": "lexical_sense",
+            "statement": "plural premises can denote land with buildings or a building or part of a building with associated grounds",
+            "source_detail": "Merriam-Webster gives both land-with-buildings and building-or-part-of-building formulations."
+          },
+          {
+            "id": "F-005",
+            "form": "premise",
+            "kind": "grammar",
+            "statement": "the verb can offer something as a premise and can base something on certain assumptions",
+            "source_detail": "Merriam-Webster records both proposition-as-premise and base-on-assumptions transitive verb senses."
+          },
+          {
+            "id": "F-006",
+            "form": "premise",
+            "kind": "etymology",
+            "statement": "the noun traces through Middle English and Anglo-French to Medieval Latin praemissa and Latin praemittere",
+            "source_detail": "The word-history section gives the Medieval Latin and Latin source and the sense-specific plural development."
+          },
+          {
+            "id": "F-025",
+            "form": "premise",
+            "kind": "inflection",
+            "statement": "the verb has the inflected forms premised and premising",
+            "source_detail": "Merriam-Webster lists premised and premising as the verb's inflected forms."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Advanced Learner's Dictionary: premise",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/premise",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "premise",
+            "kind": "pronunciation_and_sense",
+            "statement": "the noun is pronounced /ˈpremɪs/ and formally denotes a statement or idea forming the basis of a line of argument",
+            "source_detail": "Oxford lists /ˈpremɪs/ and defines the noun as a statement or idea forming the basis of a reasonable line of argument."
+          },
+          {
+            "id": "F-008",
+            "form": "premiss",
+            "kind": "variant_form",
+            "statement": "premiss is a less frequent British English variant spelling of the noun",
+            "source_detail": "Oxford labels premiss as a less frequent British English spelling variant."
+          },
+          {
+            "id": "F-009",
+            "form": "premise",
+            "kind": "etymology",
+            "statement": "the noun comes from Old French premisse and Medieval Latin praemissa (propositio), from Latin praemittere",
+            "source_detail": "Oxford's word-origin note explicitly gives this historical chain and the prae plus mittere composition."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Cambridge Dictionary: premise",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/premise",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_cambridge",
+        "facts": [
+          {
+            "id": "F-010",
+            "form": "premise",
+            "kind": "lexical_sense",
+            "statement": "the noun is an idea or theory on which a statement or action is based",
+            "source_detail": "Cambridge defines the countable noun in terms of an idea or theory serving as a basis."
+          },
+          {
+            "id": "F-011",
+            "form": "premise",
+            "kind": "grammar",
+            "statement": "the formal transitive verb can base a theory or argument on an idea, thought, or belief",
+            "source_detail": "Cambridge gives the verb sense and the pattern premise something on something."
+          },
+          {
+            "id": "F-012",
+            "form": "premise",
+            "kind": "pronunciation",
+            "statement": "the noun has /ˈprem.ɪs/ and the verb is listed with both /prɪˈmaɪz/ and /ˈprem.ɪs/ in UK and US pronunciation",
+            "source_detail": "Cambridge pronunciation material lists one noun pronunciation and two verb pronunciations for both UK and US."
+          },
+          {
+            "id": "F-013",
+            "form": "premise",
+            "kind": "grammar",
+            "statement": "premise something on something is an attested transitive frame",
+            "source_detail": "Cambridge explicitly illustrates the frame with an argument premised on assumptions."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Collins English Dictionary: premise",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/premise",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "premise",
+            "kind": "lexical_sense",
+            "statement": "in logic a premise is a statement assumed for an argument from which a conclusion is drawn",
+            "source_detail": "Collins British English explicitly defines the logical premise and its role in drawing a conclusion."
+          },
+          {
+            "id": "F-015",
+            "form": "premise",
+            "kind": "usage",
+            "statement": "current examples use premise for the central setup of a game, show, or programme",
+            "source_detail": "Collins examples include the premise of a game, a show's premise, and the basic premise of a time-machine programme."
+          },
+          {
+            "id": "F-016",
+            "form": "premise",
+            "kind": "grammar",
+            "statement": "the transitive verb may take a clause and can mean to state or assume a proposition as a premise",
+            "source_detail": "Collins marks the verb transitive, notes that it may take a clause as object, and defines proposition-as-premise use."
+          },
+          {
+            "id": "F-017",
+            "form": "premises",
+            "kind": "lexical_sense",
+            "statement": "plural premises can denote the buildings and land occupied by a business or institution",
+            "source_detail": "Collins COBUILD gives the buildings-and-land sense and on-the-premises examples."
+          },
+          {
+            "id": "F-018",
+            "form": "premise",
+            "kind": "pronunciation",
+            "statement": "Collins British English lists verb pronunciations /prɪˈmaɪz/ and /ˈprɛmɪs/",
+            "source_detail": "The British English entry explicitly lists both verb pronunciations."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Merriam-Webster Legal: premises",
+        "locator": "https://www.merriam-webster.com/legal/premises",
+        "source_type": "legal_dictionary",
+        "source_role": "specialist_reference",
+        "independence_group": "legal_reference_mw",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "premises",
+            "kind": "legal_history",
+            "statement": "legal premises can mean matters previously stated, including the preliminary part of a deed",
+            "source_detail": "Merriam-Webster Legal records the prior-matters and deed-section senses."
+          },
+          {
+            "id": "F-020",
+            "form": "premises",
+            "kind": "lexical_sense",
+            "statement": "premises can mean a tract of land with component parts such as buildings",
+            "source_detail": "The legal dictionary directly defines a tract of land with component buildings."
+          },
+          {
+            "id": "F-021",
+            "form": "premises",
+            "kind": "lexical_sense",
+            "statement": "premises can also mean a building or part of a building with appurtenances such as grounds or easements",
+            "source_detail": "The legal dictionary expressly includes a building or part of a building plus appurtenances."
+          },
+          {
+            "id": "F-026",
+            "form": "premises",
+            "kind": "pronunciation",
+            "statement": "the plural/property form premises is pronounced approximately /ˈpremɪsɪz/",
+            "source_detail": "Merriam-Webster Legal supplies the pronunciation ˈpre-mə-səz for premises, corresponding to the article's /ˈpremɪsɪz/ notation."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Online Etymology Dictionary: premise",
+        "locator": "https://www.etymonline.com/word/premise",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_reference_etymonline",
+        "facts": [
+          {
+            "id": "F-022",
+            "form": "premise",
+            "kind": "etymology",
+            "statement": "the logic noun is recorded in late Middle English from Old French and Medieval Latin praemissa, from Latin praemittere",
+            "source_detail": "Etymonline traces the late-14th-century logic noun through Old French and Medieval Latin to Latin praemittere."
+          },
+          {
+            "id": "F-023",
+            "form": "premises",
+            "kind": "historical_sense",
+            "statement": "legal 'matter previously stated' developed through deed descriptions into the property sense by the eighteenth century",
+            "source_detail": "Etymonline connects early legal-document use to descriptions of houses/buildings and dates the house-or-building-with-grounds sense to 1730."
+          },
+          {
+            "id": "F-024",
+            "form": "premise",
+            "kind": "historical_sense",
+            "statement": "the verb is recorded from the fifteenth century with the sense of stating or setting forth beforehand",
+            "source_detail": "Etymonline dates the verb to the mid-15th century and describes the introductory/set-forth sense."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-002",
+          "F-007",
+          "F-010"
+        ],
+        "canonical_statement": "a premise is an assumed statement, idea, or theory used as a basis for reasoning, statements, actions, or development",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-003",
+          "F-015"
+        ],
+        "canonical_statement": "premise is used for the central setup or primary storyline/plot idea of a work, show, game, or programme",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-001",
+          "F-014"
+        ],
+        "canonical_statement": "in logic a premise is a proposition or statement that functions as a basis from which a conclusion is drawn",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-017",
+          "F-020",
+          "F-021"
+        ],
+        "canonical_statement": "plural premises denotes land and buildings and can extend to a building or part of a building with associated grounds/appurtenances",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-005",
+          "F-011",
+          "F-013"
+        ],
+        "canonical_statement": "the transitive frame premise A on/upon B means to base A, such as a theory or argument, on assumptions, ideas, or beliefs B",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-005",
+          "F-016",
+          "F-024"
+        ],
+        "canonical_statement": "premise can also mean to state, assume, or set forth a proposition as a premise, including clause-taking formal use",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-018"
+        ],
+        "canonical_statement": "the noun is pronounced /ˈpremɪs/; the verb has both /prɪˈmaɪz/ and noun-like /ˈpremɪs/ variants; premiss is a less frequent British spelling",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-006",
+          "F-009",
+          "F-019",
+          "F-022",
+          "F-023"
+        ],
+        "canonical_statement": "premise derives from the idea of something set before, and the property sense of premises developed through legal-document reference to previously stated/described property",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-025"
+        ],
+        "canonical_statement": "premised and premising are the regular listed inflected forms of the verb premise",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-026"
+        ],
+        "canonical_statement": "the plural/property form premises has the regular plural pronunciation represented in the article as /ˈpremɪsɪz/",
+        "disposition": "integrated",
+        "rationale": "Independent source facts were reconciled conservatively; the article wording does not assert more than this combined evidence supports."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "subject_form": "premise",
+        "claim_type": "lexical_sense",
+        "statement": "a premise is an assumed statement, idea, or theory used as a basis for reasoning, statements, actions, or development",
+        "union_ids": [
+          "U-001"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "frequency:001",
+          "register:001",
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006",
+          "usage_note:001",
+          "usage_note:002",
+          "usage_note:003",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003",
+          "core_image:001",
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Merriam-Webster separately records the broader assumed-or-taken-for-granted sense."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford lists /ˈpremɪs/ and defines the noun as a statement or idea forming the basis of a reasonable line of argument."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Cambridge defines the countable noun in terms of an idea or theory serving as a basis."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "subject_form": "premise",
+        "claim_type": "lexical_sense",
+        "statement": "premise is used for the central setup or primary storyline/plot idea of a work, show, game, or programme",
+        "union_ids": [
+          "U-002"
+        ],
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "frequency:002",
+          "register:002",
+          "grammar_pattern:007",
+          "grammar_pattern:008",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "usage_note:004",
+          "synonym:004",
+          "synonym:005",
+          "synonym:006",
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Merriam-Webster records a primary plot or storyline sense for literary works and television shows."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Collins examples include the premise of a game, a show's premise, and the basic premise of a time-machine programme."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "subject_form": "premise",
+        "claim_type": "lexical_sense",
+        "statement": "in logic a premise is a proposition or statement that functions as a basis from which a conclusion is drawn",
+        "union_ids": [
+          "U-003"
+        ],
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "frequency:003",
+          "register:003",
+          "grammar_pattern:011",
+          "grammar_pattern:012",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012",
+          "collocation:013",
+          "usage_note:005",
+          "usage_note:006",
+          "synonym:007",
+          "synonym:008",
+          "core_image:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Merriam-Webster defines the logic sense as a proposition supposed or proved prior as a basis of argument or inference."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins British English explicitly defines the logical premise and its role in drawing a conclusion."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "subject_form": "premises",
+        "claim_type": "lexical_sense",
+        "statement": "plural premises denotes land and buildings and can extend to a building or part of a building with associated grounds/appurtenances",
+        "union_ids": [
+          "U-004"
+        ],
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "frequency:004",
+          "register:004",
+          "grammar_pattern:016",
+          "grammar_pattern:017",
+          "grammar_pattern:018",
+          "grammar_pattern:019",
+          "grammar_pattern:020",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018",
+          "usage_note:007",
+          "usage_note:008",
+          "synonym:009",
+          "synonym:010",
+          "synonym:011",
+          "word_formation:001",
+          "core_image:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Merriam-Webster gives both land-with-buildings and building-or-part-of-building formulations."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Collins COBUILD gives the buildings-and-land sense and on-the-premises examples."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "The legal dictionary directly defines a tract of land with component buildings."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "The legal dictionary expressly includes a building or part of a building plus appurtenances."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "subject_form": "premise",
+        "claim_type": "grammar",
+        "statement": "the transitive frame premise A on/upon B means to base A, such as a theory or argument, on assumptions, ideas, or beliefs B",
+        "union_ids": [
+          "U-005"
+        ],
+        "article_target_ids": [
+          "sense_boundary:005",
+          "definition:005",
+          "frequency:005",
+          "register:005",
+          "grammar_pattern:021",
+          "grammar_pattern:022",
+          "collocation:019",
+          "collocation:020",
+          "collocation:021",
+          "usage_note:009",
+          "usage_note:010",
+          "usage_note:011",
+          "synonym:012",
+          "synonym:013",
+          "synonym:014",
+          "word_formation:002",
+          "word_formation:003",
+          "core_image:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Merriam-Webster records both proposition-as-premise and base-on-assumptions transitive verb senses."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Cambridge gives the verb sense and the pattern premise something on something."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Cambridge explicitly illustrates the frame with an argument premised on assumptions."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "subject_form": "premise",
+        "claim_type": "grammar",
+        "statement": "premise can also mean to state, assume, or set forth a proposition as a premise, including clause-taking formal use",
+        "union_ids": [
+          "U-006"
+        ],
+        "article_target_ids": [
+          "sense_boundary:006",
+          "definition:006",
+          "frequency:006",
+          "register:006",
+          "grammar_pattern:023",
+          "grammar_pattern:024",
+          "grammar_pattern:025",
+          "collocation:022",
+          "collocation:023",
+          "collocation:024",
+          "usage_note:012",
+          "usage_note:013",
+          "synonym:015",
+          "synonym:016",
+          "synonym:017",
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Merriam-Webster records both proposition-as-premise and base-on-assumptions transitive verb senses."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins marks the verb transitive, notes that it may take a clause as object, and defines proposition-as-premise use."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Etymonline dates the verb to the mid-15th century and describes the introductory/set-forth sense."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "subject_form": "premiss",
+        "claim_type": "pronunciation_and_variant",
+        "statement": "the noun is pronounced /ˈpremɪs/; the verb has both /prɪˈmaɪz/ and noun-like /ˈpremɪs/ variants; premiss is a less frequent British spelling",
+        "union_ids": [
+          "U-007"
+        ],
+        "article_target_ids": [
+          "pronunciation:001",
+          "pronunciation:002",
+          "pronunciation:003",
+          "word_formation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford lists /ˈpremɪs/ and defines the noun as a statement or idea forming the basis of a reasonable line of argument."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Oxford labels premiss as a less frequent British English spelling variant."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Cambridge pronunciation material lists one noun pronunciation and two verb pronunciations for both UK and US."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "The British English entry explicitly lists both verb pronunciations."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "subject_form": "premises",
+        "claim_type": "etymology",
+        "statement": "premise derives from the idea of something set before, and the property sense of premises developed through legal-document reference to previously stated/described property",
+        "union_ids": [
+          "U-008"
+        ],
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002",
+          "word_formation:001",
+          "core_image:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "The word-history section gives the Medieval Latin and Latin source and the sense-specific plural development."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Oxford's word-origin note explicitly gives this historical chain and the prae plus mittere composition."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Merriam-Webster Legal records the prior-matters and deed-section senses."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline traces the late-14th-century logic noun through Old French and Medieval Latin to Latin praemittere."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Etymonline connects early legal-document use to descriptions of houses/buildings and dates the house-or-building-with-grounds sense to 1730."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "subject_form": "premise",
+        "claim_type": "inflection",
+        "statement": "premised and premising are the regular listed inflected forms of the verb premise",
+        "union_ids": [
+          "U-009"
+        ],
+        "article_target_ids": [
+          "word_formation:002",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "Merriam-Webster lists premised and premising as the verb's inflected forms."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "subject_form": "premises",
+        "claim_type": "pronunciation_and_variant",
+        "statement": "the plural/property form premises has the regular plural pronunciation represented in the article as /ˈpremɪsɪz/",
+        "union_ids": [
+          "U-010"
+        ],
+        "article_target_ids": [
+          "pronunciation:003",
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "Merriam-Webster Legal supplies the pronunciation ˈpre-mə-səz for premises, corresponding to the article's /ˈpremɪsɪz/ notation."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [],
+  "resolutions": [],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "The revised premise article passes target, relation, candidate, finding, evidence, and source-union reconciliation."
+    ],
+    "reviewed_at": "2026-08-30T05:32:44.945044+00:00",
+    "blind_output_sha256": "512bbc41fc38da0eb652d4204684af387a592246fd3ccdc0dbdc2dcbf06db16b"
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}
