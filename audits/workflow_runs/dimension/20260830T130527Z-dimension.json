@@ -19,11 +19,11 @@
     "candidate_pages": 7
   },
   "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "stage": "final_review_complete",
   "started_at": "2026-08-30T13:05:27Z",
   "deadline_at": "2026-08-30T14:35:27Z",
   "pre_draft_deadline_at": "2026-08-30T13:35:27Z",
-  "last_heartbeat_at": "2026-08-30T13:41:00Z",
+  "last_heartbeat_at": "2026-08-30T13:44:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-30T13:06:12Z",
@@ -64,6 +64,11 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-08-30T13:41:00Z",
       "notes": "final blind output was sealed before reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-30T13:44:00Z",
+      "notes": "canonical content audit and final reconciliation persisted"
     }
   ],
   "stop_reason": "",
