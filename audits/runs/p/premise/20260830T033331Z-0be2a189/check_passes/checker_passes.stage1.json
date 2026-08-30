@@ -1,0 +1,387 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "765de3e1f77f5e34fb3c3e0254a5a7020980cb28d8db0ed84a5d5d6fe3a1a357",
+        "blind_request_sha256": "b62074127cd2aff4252d20a0070cf7d12d1e77f9f698651426b9b43809ee5218",
+        "recorded_at": "2026-08-30T03:34:37.871336+00:00",
+        "axes": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "mai-code-1.1-flash",
+          "ingested_by": "human",
+          "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+        }
+      },
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "765de3e1f77f5e34fb3c3e0254a5a7020980cb28d8db0ed84a5d5d6fe3a1a357",
+        "blind_request_sha256": "daad0fb3901e939d003981fb57fcf284cb2560263400e7da75e57aa00b6c7432",
+        "recorded_at": "2026-08-30T03:36:25.907326+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-8b75b2825534",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "premises"
+            ],
+            "rationale": "The phrase \"premises\" and the security-camera context make this the property/facility sense, not the argument or story sense."
+          },
+          {
+            "example_id": "ex-16a2a42b9621",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise of the policy"
+            ],
+            "rationale": "The phrase \"underlying premise of the policy\" points to a general decision-making basis rather than a narrative setup or a formal argument."
+          },
+          {
+            "example_id": "ex-de99c056d42c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Let us premise that"
+            ],
+            "rationale": "The explicit invitation \"Let us premise that\" is the rare verb sense where a proposition is set forth as the starting assumption."
+          },
+          {
+            "example_id": "ex-877c6b31d538",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "premises"
+            ],
+            "rationale": "The contrast between \"premises\" and \"conclusion\" in the sentence is a direct logical-argument frame, so this belongs to the syllogistic premise sense."
+          },
+          {
+            "example_id": "ex-fb3d664d01ee",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "the premise of the film"
+            ],
+            "rationale": "The phrase \"the premise of the film\" and the description of the town's rule identify the narrative premise, not the abstract propositional premise."
+          },
+          {
+            "example_id": "ex-cf01da004258",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that each participant"
+            ],
+            "rationale": "The construction \"premises that each participant\" sets a proposition as the starting assumption, matching the formal assumptive verb sense."
+          },
+          {
+            "example_id": "ex-1f27115d946b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "the premise that memories could be traded"
+            ],
+            "rationale": "The phrase \"the premise that memories could be traded\" anchors the sentence in a story-generation setup, where the premise is the core idea of the series."
+          },
+          {
+            "example_id": "ex-042b6925a5e4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition"
+            ],
+            "rationale": "The construction \"premises a proposition\" names the act of setting a proposition as a starting point, which matches the formal assumptive verb sense."
+          },
+          {
+            "example_id": "ex-3a1eb19fb295",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the premise that access to data"
+            ],
+            "rationale": "The phrase \"the premise that access to data should be limited by purpose\" is a decision basis, so it belongs to the general abstract-premise sense."
+          },
+          {
+            "example_id": "ex-5147fd8088ad",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "on the premise that"
+            ],
+            "rationale": "The phrase \"on the premise that\" frames the schedule as built on an assumed fact, which is the everyday abstract-premise sense."
+          },
+          {
+            "example_id": "ex-741c5ad2be03",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise"
+            ],
+            "rationale": "The explicit label \"minor premise\" and the subject/predicate-term explanation place this squarely in the syllogism sense."
+          },
+          {
+            "example_id": "ex-7f824f124657",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises"
+            ],
+            "rationale": "The instruction to \"leave the premises\" denotes exiting a property or site, which is the building/land sense."
+          },
+          {
+            "example_id": "ex-6a189ef1a7ea",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premised on the assumption"
+            ],
+            "rationale": "The phrase \"premised on the assumption\" directly names the verb sense in which a theory, forecast, or system is built on a starting supposition."
+          },
+          {
+            "example_id": "ex-eab64f780669",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "false premise"
+            ],
+            "rationale": "The phrase \"false premise\" is a mistaken starting proposition in reasoning, so it belongs to the abstract argument-basis sense."
+          },
+          {
+            "example_id": "ex-2fd95af2098a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premised on the idea"
+            ],
+            "rationale": "The pattern \"premised on the idea\" describes a program whose structure is founded on a basic belief, which is the built-on sense."
+          },
+          {
+            "example_id": "ex-583dbeb6ec94",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "major premise"
+            ],
+            "rationale": "The explicit designation \"major premise\" and the mention of predicate term make this a clear logical-form premise example."
+          },
+          {
+            "example_id": "ex-40c264aea2c0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "off the premises"
+            ],
+            "rationale": "The phrase \"off the premises\" refers to moving outside a building or site, clearly denoting the property sense."
+          },
+          {
+            "example_id": "ex-3a8c2e87d258",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the premise that demand"
+            ],
+            "rationale": "The expression \"the premise that demand will continue to grow\" is a stated assumption supporting a proposal, matching the general abstract premise sense."
+          },
+          {
+            "example_id": "ex-8e56fe9f5971",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise that"
+            ],
+            "rationale": "The phrase \"challenge the premise that\" names a starting assumption whose truth is questioned, which is the abstract reasoning sense."
+          },
+          {
+            "example_id": "ex-51022f284f11",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "premises without an additional assumption"
+            ],
+            "rationale": "The phrase \"premises without an additional assumption\" names the formal logical relation between premises and conclusion, so this is the logical-argument sense."
+          },
+          {
+            "example_id": "ex-a13e78b6c49c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "on the premises"
+            ],
+            "rationale": "The phrase \"on the premises\" has the building/site reading because it concerns where smoking is allowed on a property."
+          },
+          {
+            "example_id": "ex-5a26c518a41e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises"
+            ],
+            "rationale": "The compound \"business premises\" unambiguously names commercial property, so this is the facility/site meaning."
+          },
+          {
+            "example_id": "ex-d0bf62ce0777",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on"
+            ],
+            "rationale": "The verb construction \"premises the argument on\" clearly denotes building an argument on a foundational distinction, which is the built-on sense."
+          },
+          {
+            "example_id": "ex-d5768f1d65ab",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "an intriguing premise"
+            ],
+            "rationale": "The phrase \"an intriguing premise\" describes the central idea of the novel, not a logical proposition or a property boundary."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "mai-code-1.1-flash",
+          "ingested_by": "human",
+          "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+        }
+      },
+      "aligned_at": "2026-08-30T03:36:26.000859+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "mai-code-1.1-flash",
+        "ingested_by": "human",
+        "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+      }
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "mai-code-1.1-flash",
+    "ingested_by": "human",
+    "agent_id": "github-actions:33290529719:checker-stage1-retry1"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-premise-20260830T033331Z-0be2a189",
+  "context_id": "normal-premise-context-20260830T033331Z-0be2a189",
+  "input_body_sha256": "765de3e1f77f5e34fb3c3e0254a5a7020980cb28d8db0ed84a5d5d6fe3a1a357",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-30T03:36:26.000543+00:00",
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 ingested by handoff."
+}
