@@ -1,0 +1,20 @@
+name: Cancel stuck premise runner
+
+on:
+  push:
+    branches:
+      - add/premise-v5-20260829
+    paths:
+      - .github/workflows/cancel-stuck-premise.yml
+
+permissions:
+  actions: write
+
+jobs:
+  cancel:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Cancel the stalled premise run
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: gh run cancel 33291141936 --repo Kyapya/english-dictionary || true
