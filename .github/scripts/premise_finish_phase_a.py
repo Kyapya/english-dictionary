@@ -22,7 +22,7 @@ import validate_entry  # noqa: E402
 
 HEADWORD = "premise"
 ENTRY = REPO / "entries/p/premise.md"
-MODEL = "gpt-5.6-luna"
+MODEL = "gpt-5.3-codex"
 RUN: Path
 CYCLE: Path
 
