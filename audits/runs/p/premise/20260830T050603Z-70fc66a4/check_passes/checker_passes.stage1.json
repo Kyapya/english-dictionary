@@ -1,0 +1,388 @@
+{
+  "summary": "Independent checker passes completed by a multi-agent handoff; the revised entry has no remaining routed content findings.",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "axes": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "multi_agent_v1 inherited (no model override)",
+          "ingested_by": "human",
+          "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+        },
+        "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+        "blind_request_sha256": "b67af89342a029acc7a531ad34c733b9f2617cfa41e7cd13f951ff6e5abf1f28",
+        "recorded_at": "2026-08-30T05:13:11.473622+00:00"
+      },
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+        "blind_request_sha256": "23d40d9ec5e790fe8e0a17b6dd1ed36309b36131b9f52f746c7dc13667813602",
+        "recorded_at": "2026-08-30T05:13:11.404653+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-35e3e3410780",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "false premise"
+            ],
+            "rationale": "The phrase \"false premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-542f57c9e399",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "intriguing premise"
+            ],
+            "rationale": "The phrase \"intriguing premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-90181657bf26",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "premises are protected"
+            ],
+            "rationale": "The phrase \"premises are protected\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-a26bfb673244",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "leave the premises"
+            ],
+            "rationale": "The phrase \"leave the premises\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-60c0d14e4b83",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "premise of the film"
+            ],
+            "rationale": "The phrase \"premise of the film\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-bcba7d0c7ecc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "around the premise that"
+            ],
+            "rationale": "The phrase \"around the premise that\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-9af159ff49a5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "challenge the premise that"
+            ],
+            "rationale": "The phrase \"challenge the premise that\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-90e286d2a0ab",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "underlying premise"
+            ],
+            "rationale": "The phrase \"underlying premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-1f6ec537a5dc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "on the premise that the parts"
+            ],
+            "rationale": "The phrase \"on the premise that the parts\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-29296cc96fc6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "is premised on the assumption"
+            ],
+            "rationale": "The phrase \"is premised on the assumption\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-6aee6bdd74b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "premises the argument on"
+            ],
+            "rationale": "The phrase \"premises the argument on\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-ac2c211c0d05",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "major premise"
+            ],
+            "rationale": "The phrase \"major premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-80db9366a9fc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "on the premises"
+            ],
+            "rationale": "The phrase \"on the premises\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-6631bf9d65c1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "is premised on the idea"
+            ],
+            "rationale": "The phrase \"is premised on the idea\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-44950d084e23",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "business premises"
+            ],
+            "rationale": "The phrase \"business premises\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-13697499d3ae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "off the premises"
+            ],
+            "rationale": "The phrase \"off the premises\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-251cafe6da52",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "its premises"
+            ],
+            "rationale": "The phrase \"its premises\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-1ba429b22f56",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises that each participant"
+            ],
+            "rationale": "The phrase \"premises that each participant\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-3701ae3f4776",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "rests on the premise"
+            ],
+            "rationale": "The phrase \"rests on the premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-7dc731c78855",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "starts from the premise"
+            ],
+            "rationale": "The phrase \"starts from the premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-9fb2d052bc49",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "minor premise"
+            ],
+            "rationale": "The phrase \"minor premise\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-2c6afed91986",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premises a proposition"
+            ],
+            "rationale": "The phrase \"premises a proposition\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-4fb411c06a9c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "inferred from the premises"
+            ],
+            "rationale": "The phrase \"inferred from the premises\" identifies the example's use of premise."
+          },
+          {
+            "example_id": "ex-5346afeaa3bd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "premise that the two measurements"
+            ],
+            "rationale": "The phrase \"premise that the two measurements\" identifies the example's use of premise."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "multi_agent_v1 inherited (no model override)",
+          "ingested_by": "human",
+          "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+        }
+      },
+      "aligned_at": "2026-08-30T05:13:11.473913+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "multi_agent_v1 inherited (no model override)",
+        "ingested_by": "human",
+        "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+      }
+    }
+  ],
+  "independent_candidates": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "multi_agent_v1 inherited (no model override)",
+    "ingested_by": "human",
+    "agent_id": "multi-agent:01a05101-2767-72b3-8b77-74a083df20b4:checker_passes"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-premise-20260830T050603Z-70fc66a4",
+  "context_id": "normal-premise-context-20260830T050603Z-70fc66a4",
+  "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-30T05:13:11.473559+00:00"
+}

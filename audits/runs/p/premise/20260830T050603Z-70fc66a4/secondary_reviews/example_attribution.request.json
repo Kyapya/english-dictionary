@@ -1,0 +1,200 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "aee242be6021273395bb3c43a5d3c50db5a4c830c70c9d2021b265adad4afe9a",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 43,
+        "label": "1. 【名詞・可算】前提、仮定、議論・判断の出発点",
+        "definition": "議論、推論、判断、計画、行動などを進める際に、真である、またはひとまず受け入れるものとして置かれる考え・命題・仮定。その前提自体が実際に正しいことを `premise` という語が保証するわけではなく、`false premise`「誤った前提」のようにも使える。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 113,
+        "label": "2. 【名詞・可算】（物語・映画・企画などの）基本設定、中心的な着想",
+        "definition": "映画、小説、ドラマ、ゲーム、企画などを成立させる基本的な状況・設定・中心アイデア。作品によっては主要な筋立て・ストーリーラインの核まで指し、細かな出来事の並びをすべて指す `plot` より「作品を一文程度で要約できる土台」に焦点がある。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 165,
+        "label": "3. 【名詞・可算・論理学】前提命題、推論の前提",
+        "definition": "論証・推論において、結論を導くための出発点として置かれる命題。三段論法では `major premise`「大前提」、`minor premise`「小前提」のように呼ぶ。語義1の「議論の土台」という意味が、論理学で論証の構成要素として具体化した用法であり、まったく別の概念ではない。ここでは学習上、`major premise` / `minor premise` などの専門語法をまとめて示す。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 217,
+        "label": "4. 【名詞・複数形】建物・敷地、構内（特に事業所・施設など）",
+        "definition": "人・会社・組織などが所有・占有・使用する土地、建物、建物の一部、およびそれに付随する敷地。会社・店舗・学校・病院・工場などの場所に特によく使うが、住宅や賃貸物件などにも使える。現代英語ではこの意味を通常 `premises` という複数形で表す。単一の施設でもこの複数形を使うのが一般的で、法務・規制・不動産管理などの限定された文脈に単数の `a premise` / `one premise` が現れることもあるが、まれで法域や文書慣行に依存する。学習者が一般文で単一の場所を言うなら `a building`、`a property`、`a site` のほうが安全で自然なことが多い。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 283,
+        "label": "5. 【他動詞・形式的】〈理論・主張・行動など〉を～という前提に置く、～に基づかせる",
+        "definition": "理論、議論、計画、判断などを、ある考え・仮定が真または受け入れられるものとして土台にして組み立てる。語義6と同じ「前提を置く」という核を持つが、ここでは目的語Aを前提Bの上に組み立てる `A on B` の構文に焦点を置く。現代英語では、とくに受動態 `be premised on/upon ...`「～を前提としている、～に基づいている」が重要である。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 338,
+        "label": "6. 【他動詞・形式的・まれ】〈命題・考え〉を前提として置く、～だと前提として述べる・仮定する",
+        "definition": "語義5と同じ「前提を置く」という核を持つが、ここでは目的語・that節の内容そのものを前提として提示する。議論や推論を始める前に、ある命題・考えを前提として提示したり、真であるものとして仮に置いたりする。語義5の `premise A on B` では A が前提に基づいて組み立てられる対象だが、この語義では目的語・that節の内容そのものが「前提として置かれる内容」になる。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-35e3e3410780",
+        "example": "A convincing argument can still fail if it begins with a false premise.",
+        "translation": "説得力のある議論でも、誤った前提から始まれば成り立たないことがある。"
+      },
+      {
+        "example_id": "ex-542f57c9e399",
+        "example": "The novel has an intriguing premise, even though the middle chapters move slowly.",
+        "translation": "中盤の展開は遅いものの、その小説には興味を引く基本設定がある。"
+      },
+      {
+        "example_id": "ex-90181657bf26",
+        "example": "The premises are protected by security cameras at all times.",
+        "translation": "その施設は常時、防犯カメラで監視されている。"
+      },
+      {
+        "example_id": "ex-a26bfb673244",
+        "example": "Visitors must leave the premises by 9 p.m.",
+        "translation": "来訪者は午後9時までに構内から退出しなければならない。"
+      },
+      {
+        "example_id": "ex-60c0d14e4b83",
+        "example": "The premise of the film is simple: nobody in the town can tell a lie.",
+        "translation": "その映画の基本設定は単純で、町の誰も嘘をつけないというものだ。"
+      },
+      {
+        "example_id": "ex-bcba7d0c7ecc",
+        "example": "The writers built the series around the premise that memories could be traded.",
+        "translation": "脚本家たちは、記憶を売買できるという設定を中心にシリーズを構成した。"
+      },
+      {
+        "example_id": "ex-9af159ff49a5",
+        "example": "Before discussing the cost, we should challenge the premise that the change is necessary.",
+        "translation": "費用を議論する前に、その変更が必要だという前提自体を検討し直すべきだ。"
+      },
+      {
+        "example_id": "ex-90e286d2a0ab",
+        "example": "An underlying premise of the policy is that most users will follow the rules voluntarily.",
+        "translation": "その方針の根底にある前提の一つは、大半の利用者が自発的に規則を守るということである。"
+      },
+      {
+        "example_id": "ex-1f6ec537a5dc",
+        "example": "We planned the schedule on the premise that the parts would arrive by Friday.",
+        "translation": "私たちは、部品が金曜日までに届くという前提で日程を組んだ。"
+      },
+      {
+        "example_id": "ex-29296cc96fc6",
+        "example": "The forecast is premised on the assumption that interest rates will remain unchanged.",
+        "translation": "その予測は、金利が据え置かれるという仮定を前提にしている。"
+      },
+      {
+        "example_id": "ex-6aee6bdd74b9",
+        "example": "The author premises the argument on a distinction between legal ownership and practical control.",
+        "translation": "著者は、法的所有と実質的支配の区別を前提としてその議論を組み立てている。"
+      },
+      {
+        "example_id": "ex-ac2c211c0d05",
+        "example": "In “All metals conduct electricity; copper is a metal; therefore copper conducts electricity,” the first statement is the major premise because it contains the predicate term of the conclusion.",
+        "translation": "「すべての金属は電気を通す。銅は金属である。したがって銅は電気を通す」という三段論法では、最初の命題が結論の述語となる大項を含むため大前提である。"
+      },
+      {
+        "example_id": "ex-80db9366a9fc",
+        "example": "Smoking is not permitted anywhere on the premises.",
+        "translation": "この敷地内では、どこであっても喫煙は認められていない。"
+      },
+      {
+        "example_id": "ex-6631bf9d65c1",
+        "example": "The program is premised on the idea that early support can prevent larger problems later.",
+        "translation": "そのプログラムは、早期支援によって後の大きな問題を防げるという考えに基づいている。"
+      },
+      {
+        "example_id": "ex-44950d084e23",
+        "example": "The company moved to larger business premises near the station.",
+        "translation": "その会社は駅の近くの、より広い事業用施設へ移転した。"
+      },
+      {
+        "example_id": "ex-13697499d3ae",
+        "example": "Confidential documents must not be taken off the premises without permission.",
+        "translation": "機密文書を許可なく構外へ持ち出してはならない。"
+      },
+      {
+        "example_id": "ex-251cafe6da52",
+        "example": "To evaluate the argument, separate its premises from its conclusion.",
+        "translation": "その論証を評価するには、前提群と結論を分けて考えなさい。"
+      },
+      {
+        "example_id": "ex-1ba429b22f56",
+        "example": "The author premises that each participant has access to the same information.",
+        "translation": "著者は、各参加者が同じ情報にアクセスできることを前提として置いている。"
+      },
+      {
+        "example_id": "ex-3701ae3f4776",
+        "example": "The proposal rests on the premise that demand will continue to grow.",
+        "translation": "その提案は、需要が今後も伸び続けるという前提に立っている。"
+      },
+      {
+        "example_id": "ex-7dc731c78855",
+        "example": "The report starts from the premise that access to data should be limited by purpose.",
+        "translation": "その報告書は、データへのアクセスは目的に応じて制限されるべきだという前提から出発している。"
+      },
+      {
+        "example_id": "ex-9fb2d052bc49",
+        "example": "In the same syllogism, “Copper is a metal” is the minor premise because it contains the subject term of the conclusion.",
+        "translation": "同じ三段論法では、「銅は金属である」が結論の主語となる小項を含むため小前提である。"
+      },
+      {
+        "example_id": "ex-2c6afed91986",
+        "example": "The author premises a proposition about human motivation before turning to the main argument.",
+        "translation": "著者は本論に入る前に、人間の動機に関する命題を前提として提示している。"
+      },
+      {
+        "example_id": "ex-4fb411c06a9c",
+        "example": "The conclusion cannot be inferred from the premises without an additional assumption.",
+        "translation": "追加の仮定がなければ、その前提群からその結論を導くことはできない。"
+      },
+      {
+        "example_id": "ex-5346afeaa3bd",
+        "example": "Let us premise that the two measurements were taken under identical conditions.",
+        "translation": "2回の測定は同一条件で行われたことを前提としておこう。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
