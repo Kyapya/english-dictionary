@@ -99,7 +99,8 @@ jobs:
           set -euo pipefail
           git show f0103e65826f2512ed76ffcf03b215e532ae551b:.github/scripts/premise_independent_checker.py \
             > .github/scripts/premise_independent_checker.py
-          python - <<'PY'
+          # Bound a stalled Copilot delta stream so the guarded run can stop and be resumed.
+          timeout --signal=TERM --kill-after=30s 8m python - <<'PY'
           import importlib.util
           import os
           from pathlib import Path
