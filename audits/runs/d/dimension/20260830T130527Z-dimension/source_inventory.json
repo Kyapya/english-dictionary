@@ -1,0 +1,1056 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-dimension-20260830",
+  "context_id": "ctx-source-dimension",
+  "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
+  "prompt_sha256": "d7ae6f455d895ce666ea317fa47a744a2b75b0bc0a778c480ea42bd824ebbe8f",
+  "recorded_at": "2026-08-30T13:19:00Z",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "headword": "dimension",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "extended",
+    "profile_reason": "Dimension is polysemous across everyday, abstract, mathematical, physical, and technical uses.",
+    "limits": {
+      "max_sources": 8,
+      "max_facts": 80,
+      "max_research_rounds": 3,
+      "max_post_cold_rechecks": 2,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 25,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 1,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "",
+    "open_questions": [],
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact:001",
+          "fact:002",
+          "fact:003",
+          "fact:004",
+          "fact:007",
+          "fact:008",
+          "fact:009",
+          "fact:011",
+          "fact:013",
+          "fact:014",
+          "fact:017",
+          "fact:018",
+          "fact:024"
+        ]
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact:012",
+          "fact:016"
+        ]
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact:024"
+        ]
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact:010",
+          "fact:015",
+          "fact:019",
+          "fact:020",
+          "fact:021",
+          "fact:022",
+          "fact:023",
+          "fact:025"
+        ]
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact:001",
+          "fact:006",
+          "fact:010"
+        ]
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "fact:005",
+          "fact:006"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "oxford",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/dimension",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford",
+        "facts": [
+          {
+            "id": "fact:001",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "a measurement in one direction, especially length, width, or height",
+            "source_detail": "Oxford Learner's definition of the physical measurement sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          },
+          {
+            "id": "fact:002",
+            "form": "dimensions",
+            "kind": "definition",
+            "statement": "the size and proportions of a person or thing, usually in plural",
+            "source_detail": "Oxford Learner's plural size/proportion sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          },
+          {
+            "id": "fact:003",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "an aspect or feature of a situation",
+            "source_detail": "Oxford Learner's abstract aspect sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          },
+          {
+            "id": "fact:004",
+            "form": "dimensions",
+            "kind": "definition",
+            "statement": "the extent or scope of a situation or problem",
+            "source_detail": "Oxford Learner's abstract extent sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          },
+          {
+            "id": "fact:005",
+            "form": "dimension",
+            "kind": "pronunciation",
+            "statement": "the dictionary lists /dɪˈmenʃn/ and a US /daɪˈmenʃn/ variant",
+            "source_detail": "Oxford Learner's pronunciation entry; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          },
+          {
+            "id": "fact:006",
+            "form": "dimension",
+            "kind": "etymology",
+            "statement": "the word comes through Old French from Latin",
+            "source_detail": "Oxford Learner's word-origin line; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          }
+        ]
+      },
+      {
+        "id": "merriam-webster",
+        "locator": "https://www.merriam-webster.com/dictionary/dimension",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "fact:007",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "a measurable extent of some kind such as length, area, or volume",
+            "source_detail": "Merriam-Webster noun definition; locator: https://www.merriam-webster.com/dictionary/dimension"
+          },
+          {
+            "id": "fact:008",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "an aspect or feature of a situation",
+            "source_detail": "Merriam-Webster abstract noun definition; locator: https://www.merriam-webster.com/dictionary/dimension"
+          },
+          {
+            "id": "fact:009",
+            "form": "dimensions",
+            "kind": "definition",
+            "statement": "the range or magnitude of something",
+            "source_detail": "Merriam-Webster plural range definition; locator: https://www.merriam-webster.com/dictionary/dimension"
+          },
+          {
+            "id": "fact:010",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "a mathematical or physical quantity expressed by dimensions",
+            "source_detail": "Merriam-Webster mathematics and physics senses; locator: https://www.merriam-webster.com/dictionary/dimension"
+          },
+          {
+            "id": "fact:011",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "a level or realm of existence",
+            "source_detail": "Merriam-Webster alternate-realm sense; locator: https://www.merriam-webster.com/dictionary/dimension"
+          },
+          {
+            "id": "fact:012",
+            "form": "dimension",
+            "kind": "verb",
+            "statement": "to shape or mark out according to specified dimensions",
+            "source_detail": "Merriam-Webster transitive verb definition; locator: https://www.merriam-webster.com/dictionary/dimension"
+          }
+        ]
+      },
+      {
+        "id": "collins",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/dimension",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "collins",
+        "facts": [
+          {
+            "id": "fact:013",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "a measurable extent or aspect of a thing",
+            "source_detail": "Collins broad noun definition; locator: https://www.collinsdictionary.com/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:014",
+            "form": "dimensions",
+            "kind": "definition",
+            "statement": "size, extent, or importance",
+            "source_detail": "Collins plural scope/size sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:015",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "a mathematical or physical quantity",
+            "source_detail": "Collins technical noun sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:016",
+            "form": "dimension",
+            "kind": "verb",
+            "statement": "to indicate or determine the dimensions of something",
+            "source_detail": "Collins technical verb sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension"
+          }
+        ]
+      },
+      {
+        "id": "cambridge",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/dimension",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge",
+        "facts": [
+          {
+            "id": "fact:017",
+            "form": "dimension",
+            "kind": "definition",
+            "statement": "a measurement of something in a particular direction",
+            "source_detail": "Cambridge physical measurement sense; locator: https://dictionary.cambridge.org/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:018",
+            "form": "dimensions",
+            "kind": "definition",
+            "statement": "the size or extent of something",
+            "source_detail": "Cambridge plural size/extent sense; locator: https://dictionary.cambridge.org/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:019",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "one of the measurable aspects used to describe a space",
+            "source_detail": "Cambridge technical framing; locator: https://dictionary.cambridge.org/dictionary/english/dimension"
+          }
+        ]
+      },
+      {
+        "id": "physics-info",
+        "locator": "https://physics.info/parametric/",
+        "source_type": "physics_reference",
+        "source_role": "specialist_reference",
+        "independence_group": "physics",
+        "facts": [
+          {
+            "id": "fact:020",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "a parameter or independent measurable quantity used to specify a physical system",
+            "source_detail": "Physics.info discussion of independent dimensions; locator: https://physics.info/parametric/"
+          },
+          {
+            "id": "fact:021",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "two-dimensional motion uses two independent coordinate directions",
+            "source_detail": "Physics.info two-dimensional kinematics; locator: https://physics.info/parametric/"
+          },
+          {
+            "id": "fact:022",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "physical quantities can be analyzed through dimensional relationships",
+            "source_detail": "Physics.info dimensional reasoning context; locator: https://physics.info/parametric/"
+          }
+        ]
+      },
+      {
+        "id": "wolfram-mathworld",
+        "locator": "https://mathworld.wolfram.com/Dimension.html",
+        "source_type": "mathematics_reference",
+        "source_role": "specialist_reference",
+        "independence_group": "mathematics",
+        "facts": [
+          {
+            "id": "fact:023",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "the dimension of a vector space is the number of independent basis directions",
+            "source_detail": "MathWorld mathematical definition; locator: https://mathworld.wolfram.com/Dimension.html"
+          },
+          {
+            "id": "fact:024",
+            "form": "dimensionless",
+            "kind": "derived_form",
+            "statement": "dimensionless describes a quantity with no physical dimensions",
+            "source_detail": "MathWorld related mathematical/physical terminology; locator: https://mathworld.wolfram.com/Dimension.html"
+          },
+          {
+            "id": "fact:025",
+            "form": "dimension",
+            "kind": "technical_use",
+            "statement": "geometric dimension distinguishes zero-, one-, two-, and higher-dimensional objects",
+            "source_detail": "MathWorld geometry context; locator: https://mathworld.wolfram.com/Dimension.html"
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "union:001",
+        "source_fact_ids": [
+          "fact:001"
+        ],
+        "canonical_statement": "a measurement in one direction, especially length, width, or height",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:001 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:002",
+        "source_fact_ids": [
+          "fact:002"
+        ],
+        "canonical_statement": "the size and proportions of a person or thing, usually in plural",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:002 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:003",
+        "source_fact_ids": [
+          "fact:003"
+        ],
+        "canonical_statement": "an aspect or feature of a situation",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:003 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:004",
+        "source_fact_ids": [
+          "fact:004"
+        ],
+        "canonical_statement": "the extent or scope of a situation or problem",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:004 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:005",
+        "source_fact_ids": [
+          "fact:005"
+        ],
+        "canonical_statement": "the dictionary lists /dɪˈmenʃn/ and a US /daɪˈmenʃn/ variant",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:005 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:006",
+        "source_fact_ids": [
+          "fact:006"
+        ],
+        "canonical_statement": "the word comes through Old French from Latin",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:006 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:007",
+        "source_fact_ids": [
+          "fact:007"
+        ],
+        "canonical_statement": "a measurable extent of some kind such as length, area, or volume",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:007 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:008",
+        "source_fact_ids": [
+          "fact:008"
+        ],
+        "canonical_statement": "an aspect or feature of a situation",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:008 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:009",
+        "source_fact_ids": [
+          "fact:009"
+        ],
+        "canonical_statement": "the range or magnitude of something",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:009 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:010",
+        "source_fact_ids": [
+          "fact:010"
+        ],
+        "canonical_statement": "a mathematical or physical quantity expressed by dimensions",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:010 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:011",
+        "source_fact_ids": [
+          "fact:011"
+        ],
+        "canonical_statement": "a level or realm of existence",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:011 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:012",
+        "source_fact_ids": [
+          "fact:012"
+        ],
+        "canonical_statement": "to shape or mark out according to specified dimensions",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:012 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:013",
+        "source_fact_ids": [
+          "fact:013"
+        ],
+        "canonical_statement": "a measurable extent or aspect of a thing",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:013 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:014",
+        "source_fact_ids": [
+          "fact:014"
+        ],
+        "canonical_statement": "size, extent, or importance",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:014 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:015",
+        "source_fact_ids": [
+          "fact:015"
+        ],
+        "canonical_statement": "a mathematical or physical quantity",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:015 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:016",
+        "source_fact_ids": [
+          "fact:016"
+        ],
+        "canonical_statement": "to indicate or determine the dimensions of something",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:016 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:017",
+        "source_fact_ids": [
+          "fact:017"
+        ],
+        "canonical_statement": "a measurement of something in a particular direction",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:017 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:018",
+        "source_fact_ids": [
+          "fact:018"
+        ],
+        "canonical_statement": "the size or extent of something",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:018 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:019",
+        "source_fact_ids": [
+          "fact:019"
+        ],
+        "canonical_statement": "one of the measurable aspects used to describe a space",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:019 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:020",
+        "source_fact_ids": [
+          "fact:020"
+        ],
+        "canonical_statement": "a parameter or independent measurable quantity used to specify a physical system",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:020 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:021",
+        "source_fact_ids": [
+          "fact:021"
+        ],
+        "canonical_statement": "two-dimensional motion uses two independent coordinate directions",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:021 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:022",
+        "source_fact_ids": [
+          "fact:022"
+        ],
+        "canonical_statement": "physical quantities can be analyzed through dimensional relationships",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:022 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:023",
+        "source_fact_ids": [
+          "fact:023"
+        ],
+        "canonical_statement": "the dimension of a vector space is the number of independent basis directions",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:023 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:024",
+        "source_fact_ids": [
+          "fact:024"
+        ],
+        "canonical_statement": "dimensionless describes a quantity with no physical dimensions",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:024 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:025",
+        "source_fact_ids": [
+          "fact:025"
+        ],
+        "canonical_statement": "geometric dimension distinguishes zero-, one-, two-, and higher-dimensional objects",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:025 is retained as a distinct lexical or technical claim for dimension."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "claim:001",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "a measurement in one direction, especially length, width, or height",
+        "union_ids": [
+          "union:001"
+        ],
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:001",
+            "support_summary": "Oxford Learner's definition of the physical measurement sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:002",
+        "subject_form": "dimensions",
+        "claim_type": "definition",
+        "statement": "the size and proportions of a person or thing, usually in plural",
+        "union_ids": [
+          "union:002"
+        ],
+        "article_target_ids": [
+          "pronunciation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:002",
+            "support_summary": "Oxford Learner's plural size/proportion sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:003",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "an aspect or feature of a situation",
+        "union_ids": [
+          "union:003"
+        ],
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:003",
+            "support_summary": "Oxford Learner's abstract aspect sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:004",
+        "subject_form": "dimensions",
+        "claim_type": "definition",
+        "statement": "the extent or scope of a situation or problem",
+        "union_ids": [
+          "union:004"
+        ],
+        "article_target_ids": [
+          "etymology:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:004",
+            "support_summary": "Oxford Learner's abstract extent sense; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:005",
+        "subject_form": "dimension",
+        "claim_type": "pronunciation",
+        "statement": "the dictionary lists /dɪˈmenʃn/ and a US /daɪˈmenʃn/ variant",
+        "union_ids": [
+          "union:005"
+        ],
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:005",
+            "support_summary": "Oxford Learner's pronunciation entry; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:006",
+        "subject_form": "dimension",
+        "claim_type": "etymology",
+        "statement": "the word comes through Old French from Latin",
+        "union_ids": [
+          "union:006"
+        ],
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:006",
+            "support_summary": "Oxford Learner's word-origin line; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:007",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "a measurable extent of some kind such as length, area, or volume",
+        "union_ids": [
+          "union:007"
+        ],
+        "article_target_ids": [
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:007",
+            "support_summary": "Merriam-Webster noun definition; locator: https://www.merriam-webster.com/dictionary/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:008",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "an aspect or feature of a situation",
+        "union_ids": [
+          "union:008"
+        ],
+        "article_target_ids": [
+          "word_formation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:008",
+            "support_summary": "Merriam-Webster abstract noun definition; locator: https://www.merriam-webster.com/dictionary/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:009",
+        "subject_form": "dimensions",
+        "claim_type": "definition",
+        "statement": "the range or magnitude of something",
+        "union_ids": [
+          "union:009"
+        ],
+        "article_target_ids": [
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:009",
+            "support_summary": "Merriam-Webster plural range definition; locator: https://www.merriam-webster.com/dictionary/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:010",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "a mathematical or physical quantity expressed by dimensions",
+        "union_ids": [
+          "union:010"
+        ],
+        "article_target_ids": [
+          "word_formation:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:010",
+            "support_summary": "Merriam-Webster mathematics and physics senses; locator: https://www.merriam-webster.com/dictionary/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:011",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "a level or realm of existence",
+        "union_ids": [
+          "union:011"
+        ],
+        "article_target_ids": [
+          "word_formation:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:011",
+            "support_summary": "Merriam-Webster alternate-realm sense; locator: https://www.merriam-webster.com/dictionary/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:012",
+        "subject_form": "dimension",
+        "claim_type": "verb",
+        "statement": "to shape or mark out according to specified dimensions",
+        "union_ids": [
+          "union:012"
+        ],
+        "article_target_ids": [
+          "core_image:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:012",
+            "support_summary": "Merriam-Webster transitive verb definition; locator: https://www.merriam-webster.com/dictionary/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:013",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "a measurable extent or aspect of a thing",
+        "union_ids": [
+          "union:013"
+        ],
+        "article_target_ids": [
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:013",
+            "support_summary": "Collins broad noun definition; locator: https://www.collinsdictionary.com/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:014",
+        "subject_form": "dimensions",
+        "claim_type": "definition",
+        "statement": "size, extent, or importance",
+        "union_ids": [
+          "union:014"
+        ],
+        "article_target_ids": [
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:014",
+            "support_summary": "Collins plural scope/size sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:015",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "a mathematical or physical quantity",
+        "union_ids": [
+          "union:015"
+        ],
+        "article_target_ids": [
+          "core_image:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:015",
+            "support_summary": "Collins technical noun sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:016",
+        "subject_form": "dimension",
+        "claim_type": "verb",
+        "statement": "to indicate or determine the dimensions of something",
+        "union_ids": [
+          "union:016"
+        ],
+        "article_target_ids": [
+          "core_image:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:016",
+            "support_summary": "Collins technical verb sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:017",
+        "subject_form": "dimension",
+        "claim_type": "definition",
+        "statement": "a measurement of something in a particular direction",
+        "union_ids": [
+          "union:017"
+        ],
+        "article_target_ids": [
+          "core_image:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:017",
+            "support_summary": "Cambridge physical measurement sense; locator: https://dictionary.cambridge.org/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:018",
+        "subject_form": "dimensions",
+        "claim_type": "definition",
+        "statement": "the size or extent of something",
+        "union_ids": [
+          "union:018"
+        ],
+        "article_target_ids": [
+          "core_image:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:018",
+            "support_summary": "Cambridge plural size/extent sense; locator: https://dictionary.cambridge.org/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:019",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "one of the measurable aspects used to describe a space",
+        "union_ids": [
+          "union:019"
+        ],
+        "article_target_ids": [
+          "core_image:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:019",
+            "support_summary": "Cambridge technical framing; locator: https://dictionary.cambridge.org/dictionary/english/dimension directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:020",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "a parameter or independent measurable quantity used to specify a physical system",
+        "union_ids": [
+          "union:020"
+        ],
+        "article_target_ids": [
+          "core_image:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:020",
+            "support_summary": "Physics.info discussion of independent dimensions; locator: https://physics.info/parametric/ directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:021",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "two-dimensional motion uses two independent coordinate directions",
+        "union_ids": [
+          "union:021"
+        ],
+        "article_target_ids": [
+          "core_image:010"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:021",
+            "support_summary": "Physics.info two-dimensional kinematics; locator: https://physics.info/parametric/ directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:022",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "physical quantities can be analyzed through dimensional relationships",
+        "union_ids": [
+          "union:022"
+        ],
+        "article_target_ids": [
+          "sense_boundary:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:022",
+            "support_summary": "Physics.info dimensional reasoning context; locator: https://physics.info/parametric/ directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:023",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "the dimension of a vector space is the number of independent basis directions",
+        "union_ids": [
+          "union:023"
+        ],
+        "article_target_ids": [
+          "definition:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:023",
+            "support_summary": "MathWorld mathematical definition; locator: https://mathworld.wolfram.com/Dimension.html directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:024",
+        "subject_form": "dimensionless",
+        "claim_type": "derived_form",
+        "statement": "dimensionless describes a quantity with no physical dimensions",
+        "union_ids": [
+          "union:024"
+        ],
+        "article_target_ids": [
+          "frequency:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:024",
+            "support_summary": "MathWorld related mathematical/physical terminology; locator: https://mathworld.wolfram.com/Dimension.html directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:025",
+        "subject_form": "dimension",
+        "claim_type": "technical_use",
+        "statement": "geometric dimension distinguishes zero-, one-, two-, and higher-dimensional objects",
+        "union_ids": [
+          "union:025"
+        ],
+        "article_target_ids": [
+          "register:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:025",
+            "support_summary": "MathWorld geometry context; locator: https://mathworld.wolfram.com/Dimension.html directly supports the recorded claim."
+          }
+        ]
+      }
+    ],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-30T13:16:00Z",
+    "article_comparison_started_at": "2026-08-30T13:20:00Z"
+  },
+  "evidence_link_ids": [
+    "evidence:oxford",
+    "evidence:merriam-webster",
+    "evidence:collins",
+    "evidence:cambridge",
+    "evidence:physics-info",
+    "evidence:wolfram-mathworld"
+  ],
+  "evidence_links": [
+    {
+      "id": "evidence:oxford",
+      "source_id": "oxford",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+    },
+    {
+      "id": "evidence:merriam-webster",
+      "source_id": "merriam-webster",
+      "locator": "https://www.merriam-webster.com/dictionary/dimension"
+    },
+    {
+      "id": "evidence:collins",
+      "source_id": "collins",
+      "locator": "https://www.collinsdictionary.com/dictionary/english/dimension"
+    },
+    {
+      "id": "evidence:cambridge",
+      "source_id": "cambridge",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/dimension"
+    },
+    {
+      "id": "evidence:physics-info",
+      "source_id": "physics-info",
+      "locator": "https://physics.info/parametric/"
+    },
+    {
+      "id": "evidence:wolfram-mathworld",
+      "source_id": "wolfram-mathworld",
+      "locator": "https://mathworld.wolfram.com/Dimension.html"
+    }
+  ]
+}
