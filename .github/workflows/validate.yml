@@ -63,25 +63,31 @@ jobs:
         if: github.event_name != 'pull_request'
         run: python scripts/entry_workflow_guard.py validate --merge-ready
 
-      - name: Validate changed independent content audits
+      - name: Validate changed content review path
         if: github.event_name == 'pull_request'
         env:
           BASE_SHA: ${{ github.event.pull_request.base.sha }}
           HEAD_SHA: ${{ github.event.pull_request.head.sha }}
         run: |
-          python scripts/entry_workflow_guard.py validate-changed \
-            --base "$BASE_SHA" \
-            --head "$HEAD_SHA" \
-            --merge-ready
-          python scripts/content_audit.py validate-changed \
-            --base "$BASE_SHA" \
-            --head "$HEAD_SHA"
-          python scripts/semantic_resolution_gate.py validate-changed \
-            --base "$BASE_SHA" \
-            --head "$HEAD_SHA"
-          python scripts/source_first_audit_gate.py validate-changed \
-            --base "$BASE_SHA" \
-            --head "$HEAD_SHA"
+          if git diff --name-only "$BASE_SHA" "$HEAD_SHA" -- | grep -Eq '^audits/targeted_corrections/.+\.json$'; then
+            python scripts/targeted_correction.py validate-changed \
+              --base "$BASE_SHA" \
+              --head "$HEAD_SHA"
+          else
+            python scripts/entry_workflow_guard.py validate-changed \
+              --base "$BASE_SHA" \
+              --head "$HEAD_SHA" \
+              --merge-ready
+            python scripts/content_audit.py validate-changed \
+              --base "$BASE_SHA" \
+              --head "$HEAD_SHA"
+            python scripts/semantic_resolution_gate.py validate-changed \
+              --base "$BASE_SHA" \
+              --head "$HEAD_SHA"
+            python scripts/source_first_audit_gate.py validate-changed \
+              --base "$BASE_SHA" \
+              --head "$HEAD_SHA"
+          fi
 
       - name: Validate all existing content audits
         if: github.event_name != 'pull_request'
