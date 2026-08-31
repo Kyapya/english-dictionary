@@ -21,15 +21,13 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 
 レビュー段（checker pass、example-attribution、cold review、final blind、final review）の出力は、生成を行ったエージェントが作成してはならない。`scripts/review_call.py`（API）または handoff 取り込みのみを経路とし、`reviewer` フィールドのない出力は `scripts/check_passes.py` が拒否する。handoff応答は生成セッション外の別モデル・別セッションから人間が取り込む。
 
+### ユーザー指定の局所修整
+
+`checked` / `final` の既存記事への具体的な修整依頼は `prompts/targeted_correction_review_v1.md` に従い、`scripts/run_word.py` を起動しない。変更hunkと必要最小限の周辺だけを確認し、`scripts/targeted_correction.py` で記録・検証して終了する。全面改稿・全体再評価・大規模な語義再編は通常工程を使う。
+
 ### checker_passes handoffは2往復
 
-handoffモードの `checker_passes` は、反意語軸を盲検採取してから裁定する2段構成で、1往復では完了しない。
-
-1. 第1応答は7パスを過不足なく1回ずつ含む1個のJSON。frame-relationは `prompts/check_pass_frame_relation_v7.md` に従い `antonym_axis_blind_record` を含める。保存先は `handoff/checker_passes.response.json`。
-2. `--ingest-review checker_passes` は段階を完了させず、段階1を `check_passes/checker_passes.stage1.json` に保存し、次のhandoff `handoff/checker_passes.stage2.request.md` を返す。
-3. 第2応答は `antonym_axis_adjudication_record_v1` 1個を別セッションで作り `checker_passes.stage2.response.json` へ保存する。もう一度取り込むと段階が完了する。
-
-`handoff response is missing: …stage2.response.json` は第2応答が未作成という意味で、handoffの作り直しではない。取り込み失敗はguardが記録し、同じ段が3回失敗するとrunは `budget_exhausted` になる。
+第1応答の `antonym_axis_blind_record` を `checker_passes.stage1.json` に保存して `checker_passes.stage2.request.md` を作り、第2応答を `checker_passes.stage2.response.json` に保存して再取り込みする。同じ段の取り込み失敗が3回で `budget_exhausted` になる。
 
 ## ファイル命名
 
@@ -61,6 +59,7 @@ handoffモードの `checker_passes` は、反意語軸を盲検採取してか�
 | 最終盲検入力 | `prompts/final_blind_prompt_v2.md` |
 | finding解決 | `prompts/finding_resolution_v6.md` |
 | 最終合否 | `prompts/final_review_spec_v2.md` |
+| 局所修整 | `prompts/targeted_correction_review_v1.md`、`scripts/targeted_correction.py` |
 | source-first根拠収集 | `prompts/source_first_audit_v2.md`、`scripts/source_first_audit_gate.py` |
 | semantic constraint・blind seal・監査派生値 | `prompts/semantic_resolution_gate_v1.md`、`scripts/semantic_resolution_gate.py`、`scripts/generate_audit_manifest.py` |
 | 工程順序・入力分離・status・export | `scripts/run_word.py` |
