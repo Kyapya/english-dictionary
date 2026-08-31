@@ -1,18 +1,18 @@
 ---
 headword: dimension
 type: word
-status: checked
+status: review_ready
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-08-30
-updated_at: 2026-08-30
-checked: true
+updated_at: 2026-08-31
+checked: false
 tags: []
 ---
 
 ＃発音記号
 
-米・英: /dɪˈmenʃən/。3音節で、第2音節の /men/ に主強勢がある。最初の /dɪ/ は弱く、語末の /ʃən/ は「ション」に近い。辞書によっては米国英語で /daɪˈmenʃən/ という発音も載るが、/dɪˈmenʃən/ が一般的で安全な発音である。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  
+米: /dɪˈmenʃən/ が主要な掲載形で、/daɪˈmenʃən/ も認められる。英: /daɪˈmenʃən/ を主要な掲載形として載せる辞書が多いが、/dɪˈmenʃən/ も認められる。いずれも3音節で、第2音節の /men/ に主強勢がある。最初の音節は弱く、語末の /ʃən/ は「ション」に近い。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  
 
 複数形 dimensions は /dɪˈmenʃənz/。語末の -s は通常 /z/ で、dimensions of ... のように名詞の複数形として使う。動詞 dimension は同じく /dɪˈmenʃən/ で、過去形・過去分詞 dimensioned は /dɪˈmenʃənd/、-ing形 dimensioning は /dɪˈmenʃənɪŋ/ となる。  
 
@@ -152,7 +152,7 @@ size は物体の全体的な大きさを表し、どの方向を測ったかを
 
 【語法・注意】寸法を複数まとめて表す dimensions は、単一の物体にも使う。The dimensions are ... のように複数扱いするが、これは複数の物体を意味しない。幅・高さ・奥行きを一組の仕様として示すための複数形である。  
 
-dimensions は文脈によって、単なる数値の組合せだけでなく、物体の外形・比例や建物の大きさを含む。数値を厳密に述べるときは measurements、収納や設計上の外側の大きさを述べるときは dimensions が自然である。  
+dimensions は文脈によって、単なる数値の組合せだけでなく、物体の外形・比例や建物の大きさを含む。measurements は実際に測定して得た値・測定値に焦点を置きやすく、dimensions は物体の長さ・幅・高さなどの空間的寸法やその組合せに焦点を置きやすい。物体の寸法値を述べる場面では両者が重なるため、exact dimensions、precise dimensions も普通に使う。  
 
 【類義語】
 
@@ -185,7 +185,7 @@ dimensions は文脈によって、単なる数値の組合せだけでなく、
 
 【レジスター/領域】標準～やや形式的。報道、評論、学術、ビジネス、政策、人物・作品の評価で非常によく使う。  
 
-【文法パターン】a dimension of 〈問題・活動〉＝～の一側面／a dimension to 〈問題・経験〉＝～に加わる一側面／add/give/bring a new dimension to 〈対象〉＝対象に新しい側面を加える／consider/explore the 〈社会・政治・倫理〉 dimension＝～の側面を考慮・探究する／have a personal/human dimension＝個人的・人間的な側面を持つ  
+【文法パターン】a dimension of 〈問題・活動〉＝～の一側面／a dimension to 〈問題・経験〉＝～に加わる一側面／add/give/bring a new dimension to 〈対象〉＝対象に新しい側面を加える／consider/explore the 〈社会・政治・倫理〉 dimension＝～の側面を考慮・探究する／have a personal/human dimension＝個人的・人間的な側面を持つ／a spiritual/psychological dimension＝精神的・心理的な側面  
 
 【コロケーション】
 
@@ -213,6 +213,16 @@ dimensions は文脈によって、単なる数値の組合せだけでなく、
 用途: 公的な問題などに、関係者個人の経験や感情が絡むことを示す。  
 例: The dispute took on a personal dimension after the two managers exchanged accusations.  
 訳: 2人の管理職が非難を交わした後、その対立は個人的な側面を帯びた。  
+
+・a spiritual dimension  
+用途: 物事に宗教的・精神的な側面があることを示す。  
+例: The ceremony has a spiritual dimension that is not captured by its formal rules.  
+訳: その儀式には、形式的な規則だけでは捉えられない精神的な側面がある。  
+
+・a different dimension of experience  
+用途: 経験や公演に新たな側面・質を加えることを比喩的に表す。  
+例: Live music brings a different dimension of experience to the performance.  
+訳: 生演奏は、その公演に異なる側面・新たな質を加える。  
 
 【語法・注意】この語義では dimension は aspect、side、facet と近いが、dimension のほうが対象を分析する軸や、問題に新たに加わる要素という響きを持つ。a new dimension to the problem は「問題に新たな側面が加わった」であり、物理的な大きさが増えたという意味ではない。  
 
@@ -349,7 +359,7 @@ ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-
 【類義語】
 
 ・coordinate  
-定義: 空間内の位置を表す数値または軸。  
+定義: 座標系において点の位置を指定するための数値・座標値。  
 頻度: 〈7/10〉  
 違い: coordinate は一つの位置変数を指す。dimension は位置を定めるために必要な独立した座標の数・方向の体系を指す。  
 例: Enter the x-coordinate and y-coordinate of the point.  
@@ -363,9 +373,9 @@ ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-
 訳: その機構には2つの自由度がある。  
 
 ・rank  
-定義: 線形代数で、ベクトル空間などの独立な基底の数に関係する量。  
+定義: 線形代数で、行列や線形写像などについて、その像・列空間などの次元として表される量。  
 頻度: 〈5/10〉  
-違い: rank は行列や線形写像の独立性を測る専門語。dimension は空間そのものの独立方向の数を表す一般的な数学用語である。  
+違い: rank は行列や線形写像の像・列空間などの次元を表す。dimension はベクトル空間などの独立方向・自由度の数を表す。  
 例: The rank of the matrix is equal to the dimension of its column space.  
 訳: その行列のランクは、その列空間の次元に等しい。  
 
@@ -396,8 +406,8 @@ ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-
 例: The ratio of two lengths is a dimensionless quantity.  
 訳: 2つの長さの比は無次元量である。  
 
-・have the dimensions of force  
-用途: ある量が力と同じ次元構造を持つことを表す。  
+・have the dimensions of force multiplied by length  
+用途: ある量が力に長さを掛けたものと同じ次元構造を持つことを表す。  
 例: Torque has the dimensions of force multiplied by length.  
 訳: トルクは力に長さを掛けたものと同じ次元を持つ。  
 
@@ -435,13 +445,13 @@ ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-
 
 7. 【名詞・可算】別の存在領域、異次元、現実とは異なる層
 
-【日本語訳・定義】通常の空間・現実とは別の存在の領域や、そこへ広がる世界。SF、ファンタジー、ゲームなどで並行世界・異世界を指すほか、比喩的に精神、宗教、経験などの別の層を表す。another dimension、a parallel dimension の形でよく使う。  
+【日本語訳・定義】通常の空間・現実とは別の存在の領域や、そこへ広がる世界。SF、ファンタジー、ゲームなどで並行世界・異世界を指す。another dimension、a parallel dimension の形でよく使う。  
 
 【頻度】〈6/10〉  
 
-【レジスター/領域】SF・ファンタジー、ゲーム、ポップカルチャーでは標準的。比喩用法は評論・文学・会話に現れる。科学的に実在が確認された領域を意味するとは限らない。  
+【レジスター/領域】SF・ファンタジー、ゲーム、ポップカルチャーでは標準的。現実とは別の世界を比喩的に指す用法は評論・文学・会話に現れる。科学的に実在が確認された領域を意味するとは限らない。  
 
-【文法パターン】another/a parallel dimension＝別の・並行する次元／travel/pass into another dimension＝別の次元へ移動する／a spiritual/psychological dimension＝精神的・心理的な別の層／exist in a different dimension＝異なる領域に存在する／open a portal to 〈dimension〉＝～への入口を開く  
+【文法パターン】another/an alternate/a parallel dimension＝別の・異なる・並行する次元／travel/pass into another dimension＝別の次元へ移動する／exist in a different dimension＝異なる領域に存在する／open a portal to 〈dimension〉＝～への入口を開く  
 
 【コロケーション】
 
@@ -455,24 +465,14 @@ ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-
 例: The novel imagines a parallel dimension in which history took a different path.  
 訳: その小説は、歴史が別の道をたどった並行世界を想像している。  
 
-・a spiritual dimension  
-用途: 物事に宗教的・精神的な別の層があることを示す。  
-例: The ceremony has a spiritual dimension that is not captured by its formal rules.  
-訳: その儀式には、形式的な規則だけでは捉えられない精神的な側面がある。  
-
 ・pass into another dimension  
 用途: 別の世界へ移ることを物語的に表す。  
 例: The characters pass into another dimension when the clock strikes twelve.  
 訳: 時計が12時を打つと、登場人物たちは別の次元へ移る。  
 
-・a different dimension of experience  
-用途: 通常とは異なる経験の層・質を比喩的に表す。  
-例: Live music brings a different dimension of experience to the performance.  
-訳: 生演奏は、その公演に異なる次元の体験をもたらす。  
-
 【語法・注意】この語義の dimension は、数学・物理学の次元を直接説明する語ではない。another dimension は「別の世界」や「別の存在領域」を表す定着した表現で、実在性を主張しない物語上の設定にも使える。  
 
-spiritual dimension、human dimension のような表現は語義3の「側面」と重なることがある。別世界・異次元という空間的な想像を指すときは another、parallel、portal などと結び付き、問題を分析する観点を指すときは social、political、ethical などと結び付きやすい。  
+別世界・異次元という空間的な想像を指すときは another、parallel、portal などと結び付きやすい。spiritual dimension、human dimension、a different dimension of experience のような「側面・要素」の用法は語義3で扱う。  
 
 【類義語】
 
