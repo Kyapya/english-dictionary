@@ -50,7 +50,12 @@ def add_correction(root: Path, base: str, *, extra_file: bool = False) -> str:
     entry = root / entry_path
     head_text = BASE_ENTRY.replace("Original explanation.", "Corrected explanation.")
     entry.write_text(head_text, encoding="utf-8")
-    diff_text = git(root, "diff", "--unified=3", base, "--", entry_path)
+    diff_text = subprocess.run(
+        ["git", "-C", str(root), "diff", "--unified=3", base, "--", entry_path],
+        check=True,
+        capture_output=True,
+        text=True,
+    ).stdout
     record = build_record(
         entry_path=entry_path,
         base_text=BASE_ENTRY,
