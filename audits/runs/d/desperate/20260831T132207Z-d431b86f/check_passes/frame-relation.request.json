@@ -1,0 +1,65 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-0309a40533f8",
+        "headword": "desperate",
+        "sense_definition": "【日本語訳・定義】ほとんど希望がなく、状況を変えるためなら危険や結果を十分に考えず何でもしようとする心理状態。人・集団について使うと「絶望した」「追い詰められた」「必死の」という意味になり、文脈によっては無謀さや暴力性を含むが、必ずしも暴力的とは限らない。",
+        "antonym": "hopeful",
+        "antonym_definition": "定義: よい結果や成功の可能性を信じ、希望を持っている。"
+      },
+      {
+        "item_id": "ant-33bd969bdb78",
+        "headword": "desperate",
+        "sense_definition": "【日本語訳・定義】状況、病状、経済状態、不足などが非常に悪く、改善の望みが薄い、または緊急の対処を要する状態。人の心理状態ではなく、対象となる状況そのものの深刻さを評価する。desperate need は「極度の必要・不足」、desperate shortage は「深刻な不足」を表す。",
+        "antonym": "promising",
+        "antonym_definition": "定義: よい結果や改善の見込みがあり、将来に希望を持たせる。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

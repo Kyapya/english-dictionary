@@ -1,0 +1,39 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /ˈdɛspərət/｜英: /ˈdespərət/。いずれも3音節で、第1音節に主強勢がある。米音では第1音節を /dɛs/、英音では /des/ と示す辞書がある。米英とも /ˈdespərət/ や /ˈdɛspərɪt/ に近い別表記が見られるが、語末の -ate はここでは /ət/ で、「エイト」とは読まない。第2音節の /pər/ は米音では r を伴う /pɚ/、英音では /pə/ に近い。desperately は /ˈdespərətli/、desperation は /ˌdespəˈreɪʃən/ で、名詞では強勢位置が変わる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
