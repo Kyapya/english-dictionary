@@ -19,11 +19,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-08-31T02:08:36Z",
   "deadline_at": "2026-08-31T03:08:36Z",
   "pre_draft_deadline_at": "2026-08-31T02:28:36Z",
-  "last_heartbeat_at": "2026-08-31T02:10:06Z",
+  "last_heartbeat_at": "2026-08-31T02:10:56Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-31T02:10:06Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-08-31T02:10:06Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-08-31T02:10:35Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -432,7 +437,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -448,20 +453,20 @@
       {
         "id": "generation",
         "instruction_bytes": 53277,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 40862,
+        "duration_seconds": 1.0,
+        "defects_detected": 5,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 40862,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -600,35 +605,45 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0003",
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0004",
         "status": "active",
         "instruction_bytes": 276,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/d/dimension.md",
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/validator.json"
+      ]
+    }
   }
 }
