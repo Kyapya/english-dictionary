@@ -1,0 +1,656 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-dimension-20260831T020836Z-8d068ab9",
+  "context_id": "normal-dimension-context-20260831T020836Z-8d068ab9",
+  "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-31T02:55:00Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a055b8-195a-77c0-acf9-f0ccce4590b9",
+    "same_model_as_generation": true
+  },
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+        "blind_request_sha256": "363d567d3ce5493cb9ad97f8345eb8cbb732050d3e795311b93ea9a0cbced720",
+        "recorded_at": "2026-08-31T02:20:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-luna-wm",
+          "ingested_by": "human",
+          "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+          "same_model_as_generation": true
+        },
+        "axes": []
+      },
+      "aligned_at": "2026-08-31T02:57:00Z",
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+        "stage2_request_sha256": "c023295e821d75863b576cf4d8653099549a02a2f8c6c0cb7ff7b1c9c6879ca9",
+        "blind_record_sha256": "609d60afba017a7cd5981c2b44391b287bdcaea7b69f4fb3e350f7c2fcc667a8",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-luna-wm",
+          "ingested_by": "human",
+          "agent_id": "01a055b8-195a-77c0-acf9-f0ccce4590b9",
+          "same_model_as_generation": true
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+        "blind_request_sha256": "be196de239aec75c3e8df6454f37d889b99616d1d1593860f125307ce717fde0",
+        "recorded_at": "2026-08-31T02:20:02Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-luna-wm",
+          "ingested_by": "human",
+          "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+          "same_model_as_generation": true
+        },
+        "attributions": [
+          {
+            "example_id": "ex-874ba234fcac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "in three dimensions"
+            ],
+            "rationale": "空間の次元数を示す表現で、幾何学的な次元義が自然である。"
+          },
+          {
+            "example_id": "ex-7b4953aee11d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "dimensions of the table"
+            ],
+            "rationale": "物体全体の寸法を表す。"
+          },
+          {
+            "example_id": "ex-1e0f7c535e15",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "parallel dimension",
+              "history took a different path"
+            ],
+            "rationale": "別の世界を想定する文脈である。"
+          },
+          {
+            "example_id": "ex-68f09f5bcff4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "exact dimensions of the doorway"
+            ],
+            "rationale": "出入口の寸法全体を表す。"
+          },
+          {
+            "example_id": "ex-e399cc41c7bc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "overall dimensions",
+              "weight"
+            ],
+            "rationale": "物体全体の外側の寸法を表す。"
+          },
+          {
+            "example_id": "ex-c05a2d8f5770",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "80 centimeters",
+              "longest side"
+            ],
+            "rationale": "一方向の具体的な測定値を表す。"
+          },
+          {
+            "example_id": "ex-10aa2b7cec4e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "machinist",
+              "dimensioned",
+              "fit the new housing"
+            ],
+            "rationale": "部品を必要寸法に仕上げる技術的な動詞用法である。"
+          },
+          {
+            "example_id": "ex-34ed792ddd24",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "dimensions of velocity",
+              "length divided by time"
+            ],
+            "rationale": "速度の物理的な次元式を表す。"
+          },
+          {
+            "example_id": "ex-d0e4eb0125d3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "dimension to the experience"
+            ],
+            "rationale": "経験に加わる側面を表す。"
+          },
+          {
+            "example_id": "ex-96cbdbb5486d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "local dispute",
+              "global dimensions"
+            ],
+            "rationale": "対立が持つ世界的な規模を表す。"
+          },
+          {
+            "example_id": "ex-ec7a1d5833db",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "package",
+              "fits within",
+              "carrier"
+            ],
+            "rationale": "荷物が許容寸法内に収まる用法である。"
+          },
+          {
+            "example_id": "ex-a6d24cfbcc3e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "maps its position",
+              "three-dimensional space"
+            ],
+            "rationale": "三次元空間内の位置を表す。"
+          },
+          {
+            "example_id": "ex-9272d827b004",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "pass into another dimension",
+              "characters"
+            ],
+            "rationale": "物語上の別世界へ移る用法である。"
+          },
+          {
+            "example_id": "ex-67b757a27b70",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "vector space",
+              "four"
+            ],
+            "rationale": "ベクトル空間の次元数を表す。"
+          },
+          {
+            "example_id": "ex-6fd2fd08fce1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "height dimension",
+              "cabinet"
+            ],
+            "rationale": "設置対象の一方向の高さ寸法を表す。"
+          },
+          {
+            "example_id": "ex-db810532ec4a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "financial costs",
+              "human dimension"
+            ],
+            "rationale": "費用とは別の人間的側面を表す。"
+          },
+          {
+            "example_id": "ex-2783f91047de",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "full dimensions of the problem"
+            ],
+            "rationale": "問題の全体的な規模・範囲を表す。"
+          },
+          {
+            "example_id": "ex-920de1b1f66c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "one-dimensional line",
+              "one coordinate"
+            ],
+            "rationale": "数学的な一次元と座標を表す。"
+          },
+          {
+            "example_id": "ex-481186b0b1c3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "particles",
+              "higher dimensions",
+              "theory"
+            ],
+            "rationale": "理論上の高次元空間を表す。"
+          },
+          {
+            "example_id": "ex-cf8885032f6d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "dimensioned to fit",
+              "existing frame"
+            ],
+            "rationale": "既存枠に合うよう寸法を定める技術用法である。"
+          },
+          {
+            "example_id": "ex-5f4cb952d818",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "crisis of enormous dimensions",
+              "drought"
+            ],
+            "rationale": "危機の大きさ・深刻さを表す。"
+          },
+          {
+            "example_id": "ex-9cdef1de1d5f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "fully dimensioned drawing",
+              "construction"
+            ],
+            "rationale": "寸法を全て記入した図面を表す。"
+          },
+          {
+            "example_id": "ex-cc06c99b8319",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "dimension the drawing"
+            ],
+            "rationale": "図面に寸法を記入する動詞用法である。"
+          },
+          {
+            "example_id": "ex-c20adefe2e79",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "structure",
+              "galleries on four floors"
+            ],
+            "rationale": "建物全体の大きさを表す。"
+          },
+          {
+            "example_id": "ex-c0712e4961d2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "problem of considerable dimensions"
+            ],
+            "rationale": "問題のかなり大きな規模を表す。"
+          },
+          {
+            "example_id": "ex-e4a14d3b771b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "serious social dimension"
+            ],
+            "rationale": "住宅不足の社会的側面を表す。"
+          },
+          {
+            "example_id": "ex-9dd3861d4973",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "game",
+              "enters another dimension"
+            ],
+            "rationale": "ゲーム内の別の存在領域を表す。"
+          },
+          {
+            "example_id": "ex-d99c49a7911a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "adds a new dimension to the debate"
+            ],
+            "rationale": "議論に新たな側面を加える用法である。"
+          },
+          {
+            "example_id": "ex-0f7a13684df8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "check the dimensions",
+              "numerical values"
+            ],
+            "rationale": "数式の次元整合性を確認する用法である。"
+          },
+          {
+            "example_id": "ex-d03d2d78bf24",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "measured each dimension",
+              "opening"
+            ],
+            "rationale": "開口部の各方向の寸法を測る用法である。"
+          },
+          {
+            "example_id": "ex-dbd99a53159e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Torque",
+              "force multiplied by length"
+            ],
+            "rationale": "トルクの物理的な次元を表す。"
+          },
+          {
+            "example_id": "ex-6a37e6a8cb8f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "personal dimension",
+              "exchanged accusations"
+            ],
+            "rationale": "対立が帯びる個人的側面を表す。"
+          },
+          {
+            "example_id": "ex-a2f41838988f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "dimensioned for use",
+              "boards",
+              "staircase"
+            ],
+            "rationale": "板材を用途に合わせて寸法加工する用法である。"
+          },
+          {
+            "example_id": "ex-a8850cdaa5a3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "spiritual dimension",
+              "ceremony"
+            ],
+            "rationale": "儀式の精神的側面を表す。"
+          },
+          {
+            "example_id": "ex-e215f7a92150",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "dimension of the opening",
+              "too small"
+            ],
+            "rationale": "開口部の一方向の寸法を表す。"
+          },
+          {
+            "example_id": "ex-e4740062b683",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "Dimensional analysis",
+              "proposed equation"
+            ],
+            "rationale": "物理式の次元解析を表す。"
+          },
+          {
+            "example_id": "ex-77f7020fc160",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "ratio of two lengths",
+              "dimensionless quantity"
+            ],
+            "rationale": "長さの比が無次元であることを表す。"
+          },
+          {
+            "example_id": "ex-5228b50c72ed",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "ethical dimension",
+              "reduced to profit"
+            ],
+            "rationale": "利益だけでは捉えられない倫理的側面を表す。"
+          },
+          {
+            "example_id": "ex-0de408e518e1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "full dimensions of the fraud",
+              "assessing"
+            ],
+            "rationale": "詐欺事件の全体的な規模を表す。"
+          },
+          {
+            "example_id": "ex-ba8146c80f1c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "two dimensions",
+              "solid model"
+            ],
+            "rationale": "二次元表現と立体モデルの対比で、空間次元を表す。"
+          }
+        ]
+      },
+      "aligned_at": "2026-08-31T02:20:03Z",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 81,
+            "line_end": 81,
+            "exact_quote": "例: The software lets students view the molecule in three dimensions.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1の最も自然な帰属はsense:005だが、実際の所属はsense:001である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義ブロック間の移動"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [
+        {
+          "taxonomy_id": "pronunciation_symbol_explanation",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "米: /dɪˈmenʃən/ が主要な掲載形で、/daɪˈmenʃən/ も認められる。英: /daɪˈmenʃən/ を主要な掲載形として載せる辞書が多いが、/dɪˈmenʃən/ も認められる。いずれも3音節で、第2音節の /men/ に主強勢がある。最初の音節は弱く、語末の /ʃən/ は「ション」に近い。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  "
+          },
+          "severity": "blocking",
+          "rationale": "dimension の米英標準発音として /daɪˈmenʃən/ を主要形・許容形に含め、米英の主要形を逆に割り当てている。IPAと地域説明を実際の発音差に整合させる必要がある。",
+          "evidence_link_ids": [],
+          "suggested_direction": "米英とも標準的な /dɪˈmenʃən/ 系に合わせてIPAと地域説明を修正する方向"
+        }
+      ],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "01a055a3-eda4-7411-ab7c-69c1005b20b7",
+        "same_model_as_generation": true
+      }
+    }
+  ],
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by two-stage handoff."
+}
