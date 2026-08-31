@@ -1,0 +1,105 @@
+{
+  "schema_version": "checker_passes_response_v1",
+  "summary": "Independent checker stage 1 review completed.",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+        "blind_request_sha256": "b93ecfda2a61762f0e329404dacbd1dea575720728b21299ab8c7e6e36de6290",
+        "recorded_at": "2026-08-31T13:30:00Z",
+        "axes": [
+          {
+            "item_id": "ant-0309a40533f8",
+            "axis": "希望",
+            "relation_type": "状態"
+          },
+          {
+            "item_id": "ant-33bd969bdb78",
+            "axis": "見込み",
+            "relation_type": "評価"
+          }
+        ]
+      },
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "findings": [],
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+        "blind_request_sha256": "a8461f509f219e5de04c0cce775f3c3f253fa6e5a144f12c59fd9747852d1b20",
+        "recorded_at": "2026-08-31T13:30:00Z",
+        "attributions": [
+          {"example_id":"ex-742c2078bd3d","classification":"unique","candidate_sense_ids":["sense:001"],"discriminating_terms":["felt desperate"],"rationale":"The phrase 'felt desperate' distinguishes the example's sense:001 use: After three days without news, the family felt desperate."},
+          {"example_id":"ex-85123abe4f5b","classification":"unique","candidate_sense_ids":["sense:001"],"discriminating_terms":["increasingly desperate"],"rationale":"The phrase 'increasingly desperate' distinguishes the example's sense:001 use: The trapped hikers grew increasingly desperate as night fell."},
+          {"example_id":"ex-d94e8dffb61b","classification":"unique","candidate_sense_ids":["sense:001"],"discriminating_terms":["lost everything"],"rationale":"The phrase 'lost everything' distinguishes the example's sense:001 use: The police were looking for a desperate man who had lost everything."},
+          {"example_id":"ex-cce642bb6b89","classification":"unique","candidate_sense_ids":["sense:001"],"discriminating_terms":["cry for help"],"rationale":"The phrase 'cry for help' distinguishes the example's sense:001 use: We heard a desperate cry for help from the riverbank."},
+          {"example_id":"ex-25b9380f20ef","classification":"unique","candidate_sense_ids":["sense:001"],"discriminating_terms":["anxiety"],"rationale":"The phrase 'anxiety' distinguishes the example's sense:001 use: Desperate with anxiety, she called every hospital in the city."},
+          {"example_id":"ex-1ef248cb386e","classification":"unique","candidate_sense_ids":["sense:002"],"discriminating_terms":["desperate attempt"],"rationale":"The phrase 'desperate attempt' distinguishes the example's sense:002 use: She made a desperate attempt to reach the child before the door closed."},
+          {"example_id":"ex-7b7a401c949e","classification":"unique","candidate_sense_ids":["sense:002"],"discriminating_terms":["bid for victory"],"rationale":"The phrase 'bid for victory' distinguishes the example's sense:002 use: The team made a desperate bid for victory in the final minute."},
+          {"example_id":"ex-2693b21bee5a","classification":"unique","candidate_sense_ids":["sense:002"],"discriminating_terms":["avoid bankruptcy"],"rationale":"The phrase 'avoid bankruptcy' distinguishes the example's sense:002 use: The company took desperate measures to avoid bankruptcy."},
+          {"example_id":"ex-7e7e30b1950c","classification":"unique","candidate_sense_ids":["sense:002"],"discriminating_terms":["save his life"],"rationale":"The phrase 'save his life' distinguishes the example's sense:002 use: The doctors began a desperate battle to save his life."},
+          {"example_id":"ex-3c2d5be4ceb6","classification":"unique","candidate_sense_ids":["sense:002"],"discriminating_terms":["missing child"],"rationale":"The phrase 'missing child' distinguishes the example's sense:002 use: Volunteers organized a desperate search for the missing child."},
+          {"example_id":"ex-40ab0764d1aa","classification":"unique","candidate_sense_ids":["sense:002"],"discriminating_terms":["medical treatment"],"rationale":"The phrase 'medical treatment' distinguishes the example's sense:002 use: The prisoner made a desperate plea for medical treatment."},
+          {"example_id":"ex-a6585d87a388","classification":"unique","candidate_sense_ids":["sense:003"],"discriminating_terms":["desperate for help"],"rationale":"The phrase 'desperate for help' distinguishes the example's sense:003 use: The villagers are desperate for help after the flood."},
+          {"example_id":"ex-cf4f9c5bf2fc","classification":"unique","candidate_sense_ids":["sense:003"],"discriminating_terms":["months of unemployment"],"rationale":"The phrase 'months of unemployment' distinguishes the example's sense:003 use: He was desperate for a job after months of unemployment."},
+          {"example_id":"ex-fff5f143c08c","classification":"unique","candidate_sense_ids":["sense:003"],"discriminating_terms":["desperate for attention"],"rationale":"The phrase 'desperate for attention' distinguishes the example's sense:003 use: The young performer seemed desperate for attention."},
+          {"example_id":"ex-1a7491967959","classification":"unique","candidate_sense_ids":["sense:003"],"discriminating_terms":["find a way home"],"rationale":"The phrase 'find a way home' distinguishes the example's sense:003 use: She was desperate to find a way home before dark."},
+          {"example_id":"ex-b900fc1e6783","classification":"unique","candidate_sense_ids":["sense:003"],"discriminating_terms":["come home safely"],"rationale":"The phrase 'come home safely' distinguishes the example's sense:003 use: The parents were desperate for their son to come home safely."},
+          {"example_id":"ex-817314680127","classification":"unique","candidate_sense_ids":["sense:003"],"discriminating_terms":["a coffee"],"rationale":"The phrase 'a coffee' distinguishes the example's sense:003 use: I'm desperate for a coffee after that early meeting."},
+          {"example_id":"ex-2b37c5251a9d","classification":"unique","candidate_sense_ids":["sense:004"],"discriminating_terms":["evacuate people"],"rationale":"The phrase 'evacuate people' distinguishes the example's sense:004 use: The aid workers were trying to evacuate people from a desperate situation."},
+          {"example_id":"ex-9db8f49fc581","classification":"unique","candidate_sense_ids":["sense:004"],"discriminating_terms":["blood supplies"],"rationale":"The phrase 'blood supplies' distinguishes the example's sense:004 use: The hospital is in desperate need of blood supplies."},
+          {"example_id":"ex-17ec882e6e48","classification":"unique","candidate_sense_ids":["sense:004"],"discriminating_terms":["clean water"],"rationale":"The phrase 'clean water' distinguishes the example's sense:004 use: The region is facing a desperate shortage of clean water."},
+          {"example_id":"ex-6c49be9d9506","classification":"unique","candidate_sense_ids":["sense:004"],"discriminating_terms":["prolonged drought"],"rationale":"The phrase 'prolonged drought' distinguishes the example's sense:004 use: Many small farms are in desperate straits after the prolonged drought."},
+          {"example_id":"ex-eabc4b114546","classification":"unique","candidate_sense_ids":["sense:004"],"discriminating_terms":["desperate poverty"],"rationale":"The phrase 'desperate poverty' distinguishes the example's sense:004 use: The report describes families living in desperate poverty."},
+          {"example_id":"ex-360039f17865","classification":"unique","candidate_sense_ids":["sense:004"],"discriminating_terms":["desperate condition"],"rationale":"The phrase 'desperate condition' distinguishes the example's sense:004 use: The patient was in a desperate condition when the ambulance arrived."}
+        ]
+      },
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "unrouted_observations": []
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "cand-desperate-core",
+      "surface_form": "desperate",
+      "frame": "adjective: be/feel desperate; desperate for NP; desperate to VP; attributive desperate attempt/situation",
+      "meaning": "希望や余裕がほとんどなく、必死・極度に切迫した",
+      "disposition": "included",
+      "rationale": "The surface form desperate in the adjective frame expresses the core meaning of extreme urgency and little hope.",
+      "article_target_ids": ["sense_boundary:001", "sense_boundary:002", "sense_boundary:003", "sense_boundary:004"],
+      "evidence_link_ids": ["E-001"]
+    }
+  ],
+  "unrouted_observations": []
+}
