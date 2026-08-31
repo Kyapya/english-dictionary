@@ -2,90 +2,90 @@
   "schema_version": "content_audit_v4",
   "generated_by": "generate_audit_manifest_v1",
   "entry_path": "entries/d/dimension.md",
-  "cycle_id": "20260830T130527Z-dimension",
-  "cycle_dir": "audits/runs/d/dimension/20260830T130527Z-dimension",
-  "body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
+  "cycle_id": "20260831T020836Z-8d068ab9",
+  "cycle_dir": "audits/runs/d/dimension/20260831T020836Z-8d068ab9",
+  "body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
   "raw_outputs": {
     "source_inventory": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/source_inventory.json",
-      "sha256": "86b177e90d64c83727ef8888da10696cda3c137742f8e273765ece175fdfc8d0",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/source_inventory.json",
+      "sha256": "9205d53cc219549a741bf12806060fd6aabaf82f6e7ba0c6df1b474fbc185960",
       "stage": "source_inventory",
-      "run_id": "source-dimension-20260830",
-      "context_id": "ctx-source-dimension",
-      "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
-      "prompt_sha256": "d7ae6f455d895ce666ea317fa47a744a2b75b0bc0a778c480ea42bd824ebbe8f",
-      "recorded_at": "2026-08-30T13:19:00Z"
+      "run_id": "source-dimension-20260831T020836Z-8d068ab9",
+      "context_id": "ctx-source-dimension-20260831T020836Z-8d068ab9",
+      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+      "recorded_at": "2026-08-31T02:13:00Z"
     },
     "normal_review": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/pass_findings.json",
-      "sha256": "82a33482f8bc1fa286c63b8b8d3d2444261b2e4575e49af5e89af1719219a88e",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/pass_findings.json",
+      "sha256": "1488a736aa9850c7844940c3fb46861497e85686eb3283f570761706f3e829f2",
       "stage": "normal_review",
-      "run_id": "normal-dimension-20260830",
-      "context_id": "ctx-normal-dimension",
-      "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
-      "prompt_sha256": "290a961fc76de9a6831f357a4f4d4d1eb83306ad51d48640da916cad6273a77a",
-      "recorded_at": "2026-08-30T13:26:00Z"
+      "run_id": "normal-dimension-20260831T020836Z-8d068ab9",
+      "context_id": "normal-dimension-context-20260831T020836Z-8d068ab9",
+      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-08-31T02:55:00Z"
     },
     "cold_review": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/cold_review.json",
-      "sha256": "f0931d437b28ca64ab5450d5130eb61ea04eb6fdc932c0bf687221f3d2922ee8",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/cold_review.json",
+      "sha256": "b7b71c7859a2828c6b715f41436f82105b20ef5caa990dae8b40aee92154e984",
       "stage": "cold_review",
-      "run_id": "cold-dimension-20260830",
-      "context_id": "ctx-cold-dimension",
-      "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
-      "prompt_sha256": "ed66c5b7bbcc7caf74a04c2e888d83ae4bca2669a7e4d9660b66a1ebc0f72c3e",
-      "recorded_at": "2026-08-30T13:27:00Z"
+      "run_id": "cold-dimension-20260831T020836Z-8d068ab9",
+      "context_id": "cold-dimension-context-20260831T020836Z-8d068ab9",
+      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+      "prompt_sha256": "3c8a274957603789525b277b89a929a198d661648e5cc4d42ba8d85929662fd1",
+      "recorded_at": "2026-08-31T03:10:00Z"
     },
     "resolutions": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/resolutions.json",
-      "sha256": "9b9cfe8b12f6f04f7007bfb88224fe6fd74fac8fffcfadb00092e11eab176613",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/resolutions.json",
+      "sha256": "7be74d10ad14640a79d12aff834bc68f7191678d8f444f050e986405522ff240",
       "stage": "resolutions",
-      "run_id": "resolve-dimension-20260830",
-      "context_id": "ctx-resolve-dimension",
-      "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
-      "prompt_sha256": "f7f17415040a7ed928d9aaa14f7434d11b5092e94043584b84b899c45af17dbc",
-      "recorded_at": "2026-08-30T13:30:30Z"
+      "run_id": "resolve-dimension-20260831T020836Z-8d068ab9",
+      "context_id": "resolve-dimension-context-20260831T020836Z-8d068ab9",
+      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+      "prompt_sha256": "90592c3a81f34ffc0317ab30b551bcac57b7c603ebe64ff6ffe6372fc8ca1579",
+      "recorded_at": "2026-08-31T03:35:00Z"
     },
     "final_blind": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/final_blind.json",
-      "sha256": "fe5bab56acf01e329560a44070d20f7962d597a677375e0b61e81688b3d7b31e",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_blind.json",
+      "sha256": "b5662716c18dcf24e35332d09585206e6eb1f53a211d3a1ecf315001a1b78e34",
       "stage": "final_blind",
-      "run_id": "blind-dimension-20260830",
-      "context_id": "ctx-blind-dimension",
-      "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
-      "prompt_sha256": "642515c2d1a9613b1e6787fb1943ae76d45a2417081fc2ab3efea261e16a4590",
-      "recorded_at": "2026-08-30T13:29:00Z"
+      "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
+      "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
+      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+      "prompt_sha256": "a17f2e600ec2d2084f33cac9d89e59fdc87a5f782bb7b99c1f211ea05d833710",
+      "recorded_at": "2026-08-31T03:22:00Z"
     },
     "blind_seal": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/blind_seal.json",
-      "sha256": "56e0d312fd71d870cb213c48b7843f20c8984fe1ae16c09510641b58430f47a4",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/blind_seal.json",
+      "sha256": "6ec840de34dc20b437901811da07ad38817775badfda58effc21f232a447696a",
       "stage": "blind_seal"
     },
     "final_review": {
-      "path": "audits/runs/d/dimension/20260830T130527Z-dimension/final_review.json",
-      "sha256": "313a78c5fd18c92cb085084424430d66d85ff478ab0dfa7fddfcb265b248df30",
+      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_review.json",
+      "sha256": "b32738406dfbfefce28209e873f77703f99c7bff54bbfd65db3f9c09017689f5",
       "stage": "final_review",
-      "run_id": "blind-dimension-20260830",
-      "context_id": "ctx-blind-dimension",
-      "input_body_sha256": "b41937750450237053ef66b4632637ee214cbb1083b636c39a1f9ba5e5c0ae7a",
-      "prompt_sha256": "c20ec4587c75b74573707d2d35eba2a2ec6a3d5a8e57aceb472cd245e08fd61d",
-      "recorded_at": "2026-08-30T13:31:00Z"
+      "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
+      "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
+      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+      "recorded_at": "2026-08-31T03:45:00Z"
     }
   },
   "source_first_audit": {
     "version": "source_first_audit_v2",
-    "profile": "extended",
-    "profile_reason": "Dimension is polysemous across everyday, abstract, mathematical, physical, and technical uses.",
+    "profile": "standard",
+    "profile_reason": "Targeted revision spans pronunciation variants, mathematical terminology, physical dimensions, and the dimensions/measurements boundary.",
     "limits": {
-      "max_sources": 8,
-      "max_facts": 80,
-      "max_research_rounds": 3,
-      "max_post_cold_rechecks": 2,
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
       "max_final_attempts": 2
     },
     "usage": {
       "sources_used": 6,
-      "facts_used": 25,
+      "facts_used": 30,
       "research_rounds_used": 2,
       "post_cold_rechecks_used": 1,
       "final_attempts_used": 1
@@ -110,7 +110,8 @@
           "fact:014",
           "fact:017",
           "fact:018",
-          "fact:024"
+          "fact:024",
+          "fact:030"
         ]
       },
       {
@@ -139,7 +140,10 @@
           "fact:021",
           "fact:022",
           "fact:023",
-          "fact:025"
+          "fact:025",
+          "fact:027",
+          "fact:028",
+          "fact:029"
         ]
       },
       {
@@ -156,7 +160,8 @@
         "status": "covered",
         "source_fact_ids": [
           "fact:005",
-          "fact:006"
+          "fact:006",
+          "fact:026"
         ]
       }
     ],
@@ -200,7 +205,7 @@
             "id": "fact:005",
             "form": "dimension",
             "kind": "pronunciation",
-            "statement": "the dictionary lists /dɪˈmenʃn/ and a US /daɪˈmenʃn/ variant",
+            "statement": "Oxford Learner's lists /dɪˈmenʃn/ as a pronunciation of dimension.",
             "source_detail": "Oxford Learner's pronunciation entry; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
           },
           {
@@ -209,6 +214,13 @@
             "kind": "etymology",
             "statement": "the word comes through Old French from Latin",
             "source_detail": "Oxford Learner's word-origin line; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
+          },
+          {
+            "id": "fact:030",
+            "form": "measurements",
+            "kind": "usage",
+            "statement": "measurements emphasize values obtained by measuring, while dimensions commonly refer to spatial extents or their combination; the uses overlap for an object’s dimensions.",
+            "source_detail": "Oxford Learner's measurement and dimension entries; locators: https://www.oxfordlearnersdictionaries.com/definition/english/measurement and https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
           }
         ]
       },
@@ -297,6 +309,13 @@
             "kind": "verb",
             "statement": "to indicate or determine the dimensions of something",
             "source_detail": "Collins technical verb sense; locator: https://www.collinsdictionary.com/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:026",
+            "form": "dimension",
+            "kind": "pronunciation",
+            "statement": "American and British English both recognize /dɪˈmenʃən/ and /daɪˈmenʃən/; /dɪ-/ is commonly listed first in American English and /daɪ-/ in British English.",
+            "source_detail": "Collins pronunciation entry gives both variants for American and British English; locator: https://www.collinsdictionary.com/us/dictionary/english-pronunciations/dimension"
           }
         ]
       },
@@ -327,6 +346,13 @@
             "kind": "technical_use",
             "statement": "one of the measurable aspects used to describe a space",
             "source_detail": "Cambridge technical framing; locator: https://dictionary.cambridge.org/dictionary/english/dimension"
+          },
+          {
+            "id": "fact:027",
+            "form": "coordinate",
+            "kind": "definition",
+            "statement": "a coordinate is one of a set of numbers or letters that specifies the position of a point on a map or graph.",
+            "source_detail": "Cambridge Dictionary coordinate entry; locator: https://dictionary.cambridge.org/dictionary/english/coordinate"
           }
         ]
       },
@@ -357,6 +383,13 @@
             "kind": "technical_use",
             "statement": "physical quantities can be analyzed through dimensional relationships",
             "source_detail": "Physics.info dimensional reasoning context; locator: https://physics.info/parametric/"
+          },
+          {
+            "id": "fact:029",
+            "form": "torque",
+            "kind": "technical_use",
+            "statement": "torque has the dimensions of force multiplied by length.",
+            "source_detail": "Physics.info work and torque discussion; locator: https://physics.info/work/"
           }
         ]
       },
@@ -387,6 +420,13 @@
             "kind": "technical_use",
             "statement": "geometric dimension distinguishes zero-, one-, two-, and higher-dimensional objects",
             "source_detail": "MathWorld geometry context; locator: https://mathworld.wolfram.com/Dimension.html"
+          },
+          {
+            "id": "fact:028",
+            "form": "rank",
+            "kind": "technical_use",
+            "statement": "the rank of a matrix or linear transformation is the dimension of its image, equivalently the dimension of its row or column space.",
+            "source_detail": "Wolfram MathWorld Matrix Rank entry; locator: https://mathworld.wolfram.com/MatrixRank.html"
           }
         ]
       }
@@ -433,7 +473,7 @@
         "source_fact_ids": [
           "fact:005"
         ],
-        "canonical_statement": "the dictionary lists /dɪˈmenʃn/ and a US /daɪˈmenʃn/ variant",
+        "canonical_statement": "Oxford Learner's lists /dɪˈmenʃn/ as a pronunciation of dimension.",
         "disposition": "integrated",
         "rationale": "Source fact fact:005 is retained as a distinct lexical or technical claim for dimension."
       },
@@ -616,6 +656,51 @@
         "canonical_statement": "geometric dimension distinguishes zero-, one-, two-, and higher-dimensional objects",
         "disposition": "integrated",
         "rationale": "Source fact fact:025 is retained as a distinct lexical or technical claim for dimension."
+      },
+      {
+        "id": "union:026",
+        "source_fact_ids": [
+          "fact:026"
+        ],
+        "canonical_statement": "American and British English both recognize /dɪˈmenʃən/ and /daɪˈmenʃən/; /dɪ-/ is commonly listed first in American English and /daɪ-/ in British English.",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:026 is retained as a targeted claim for the revised entry."
+      },
+      {
+        "id": "union:027",
+        "source_fact_ids": [
+          "fact:027"
+        ],
+        "canonical_statement": "a coordinate is one of a set of numbers or letters that specifies the position of a point on a map or graph.",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:027 is retained as a targeted claim for the revised entry."
+      },
+      {
+        "id": "union:028",
+        "source_fact_ids": [
+          "fact:028"
+        ],
+        "canonical_statement": "the rank of a matrix or linear transformation is the dimension of its image, equivalently the dimension of its row or column space.",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:028 is retained as a targeted claim for the revised entry."
+      },
+      {
+        "id": "union:029",
+        "source_fact_ids": [
+          "fact:029"
+        ],
+        "canonical_statement": "torque has the dimensions of force multiplied by length.",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:029 is retained as a targeted claim for the revised entry."
+      },
+      {
+        "id": "union:030",
+        "source_fact_ids": [
+          "fact:030"
+        ],
+        "canonical_statement": "measurements emphasize values obtained by measuring, while dimensions commonly refer to spatial extents or their combination; the uses overlap for an object’s dimensions.",
+        "disposition": "integrated",
+        "rationale": "Source fact fact:030 is retained as a targeted claim for the revised entry."
       }
     ],
     "claim_units": [
@@ -695,7 +780,7 @@
         "id": "claim:005",
         "subject_form": "dimension",
         "claim_type": "pronunciation",
-        "statement": "the dictionary lists /dɪˈmenʃn/ and a US /daɪˈmenʃn/ variant",
+        "statement": "Oxford Learner's lists /dɪˈmenʃn/ as a pronunciation of dimension.",
         "union_ids": [
           "union:005"
         ],
@@ -705,7 +790,7 @@
         "source_supports": [
           {
             "source_fact_id": "fact:005",
-            "support_summary": "Oxford Learner's pronunciation entry; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
+            "support_summary": "Oxford Learner's pronunciation entry lists /dɪˈmenʃn/; locator: https://www.oxfordlearnersdictionaries.com/definition/english/dimension directly supports the recorded claim."
           }
         ]
       },
@@ -1068,22 +1153,161 @@
             "support_summary": "MathWorld geometry context; locator: https://mathworld.wolfram.com/Dimension.html directly supports the recorded claim."
           }
         ]
+      },
+      {
+        "id": "claim:026",
+        "subject_form": "dimension",
+        "claim_type": "pronunciation",
+        "statement": "American and British English both recognize /dɪˈmenʃən/ and /daɪˈmenʃən/; /dɪ-/ is commonly listed first in American English and /daɪ-/ in British English.",
+        "union_ids": [
+          "union:026"
+        ],
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:026",
+            "support_summary": "Collins pronunciation entry gives both variants for American and British English; locator: https://www.collinsdictionary.com/us/dictionary/english-pronunciations/dimension Directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:027",
+        "subject_form": "coordinate",
+        "claim_type": "definition",
+        "statement": "a coordinate is one of a set of numbers or letters that specifies the position of a point on a map or graph.",
+        "union_ids": [
+          "union:027"
+        ],
+        "article_target_ids": [
+          "synonym:013"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:027",
+            "support_summary": "Cambridge Dictionary coordinate entry; locator: https://dictionary.cambridge.org/dictionary/english/coordinate Directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:028",
+        "subject_form": "rank",
+        "claim_type": "technical_use",
+        "statement": "the rank of a matrix or linear transformation is the dimension of its image, equivalently the dimension of its row or column space.",
+        "union_ids": [
+          "union:028"
+        ],
+        "article_target_ids": [
+          "synonym:015"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:028",
+            "support_summary": "Wolfram MathWorld Matrix Rank entry; locator: https://mathworld.wolfram.com/MatrixRank.html Directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:029",
+        "subject_form": "torque",
+        "claim_type": "technical_use",
+        "statement": "torque has the dimensions of force multiplied by length.",
+        "union_ids": [
+          "union:029"
+        ],
+        "article_target_ids": [
+          "collocation:031"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:029",
+            "support_summary": "Physics.info work and torque discussion; locator: https://physics.info/work/ Directly supports the recorded claim."
+          }
+        ]
+      },
+      {
+        "id": "claim:030",
+        "subject_form": "measurements",
+        "claim_type": "usage",
+        "statement": "measurements emphasize values obtained by measuring, while dimensions commonly refer to spatial extents or their combination; the uses overlap for an object’s dimensions.",
+        "union_ids": [
+          "union:030"
+        ],
+        "article_target_ids": [
+          "usage_note:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "fact:030",
+            "support_summary": "Oxford Learner's measurement and dimension entries; locators: https://www.oxfordlearnersdictionaries.com/definition/english/measurement and https://www.oxfordlearnersdictionaries.com/definition/english/dimension Directly supports the recorded claim."
+          }
+        ]
       }
     ],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-08-30T13:16:00Z",
-    "article_comparison_started_at": "2026-08-30T13:20:00Z"
+    "inventory_completed_at": "2026-08-31T02:13:00Z",
+    "article_comparison_started_at": "2026-08-31T02:14:00Z"
   },
-  "findings": [],
-  "resolutions": [],
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 81,
+        "line_end": 81,
+        "exact_quote": "例: The software lets students view the molecule in three dimensions.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1の最も自然な帰属はsense:005だが、実際の所属はsense:001である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義ブロック間の移動",
+      "id": "finding:normal:example-attribution:001",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /dɪˈmenʃən/ が主要な掲載形で、/daɪˈmenʃən/ も認められる。英: /daɪˈmenʃən/ を主要な掲載形として載せる辞書が多いが、/dɪˈmenʃən/ も認められる。いずれも3音節で、第2音節の /men/ に主強勢がある。最初の音節は弱く、語末の /ʃən/ は「ション」に近い。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  "
+      },
+      "severity": "blocking",
+      "rationale": "dimension の米英標準発音として /daɪˈmenʃən/ を主要形・許容形に含め、米英の主要形を逆に割り当てている。IPAと地域説明を実際の発音差に整合させる必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "米英とも標準的な /dɪˈmenʃən/ 系に合わせてIPAと地域説明を修正する方向",
+      "id": "finding:normal:pronunciation:001",
+      "origin": "check_pass:pronunciation"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "finding:normal:example-attribution:001",
+      "finding_id": "finding:normal:example-attribution:001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "ユーザーの改訂方針が in two/three dimensions の大規模な語義移動を原則変更しないと明示しており、この用例は空間次元として解釈可能だが、現行の分類を明確な誤りとは扱わないため。",
+      "resolved_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c"
+    },
+    {
+      "id": "finding:normal:pronunciation:001",
+      "finding_id": "finding:normal:pronunciation:001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "このfindingの/daɪ/を排除する方向は、米英とも/dɪ/と/daɪ/の両方を認める今回の明示要件と一致しない。現行本文は米英の主要掲載順の違いと双方の許容を記載しているため。",
+      "resolved_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c"
+    }
+  ],
   "final_decision": {
     "decision": "pass",
     "blockers": [],
     "notes": [
-      "All extracted article targets, relations, source unions, and sealed candidate assertions were independently reconciled."
+      "独立最終レビューで、指定修正事項に関する blocking な誤りはないと判定した。",
+      "発音派生語の網羅や表現の微調整に関する提案は、今回の明確な誤りだけを直す方針の範囲外として採用しなかった。"
     ],
-    "reviewed_at": "2026-08-30T13:31:00Z",
-    "blind_output_sha256": "9aa1c1f92e7859f61b0236606e7d1da28341eb31d8ad87e8cb6907e2a2d93e85"
+    "reviewed_at": "2026-08-31T03:45:00Z",
+    "blind_output_sha256": "6bc2f922872df042044634a58a775605999021c201f1f6eb1d7133bf57e30693"
   },
   "invalidated_by": [],
   "review_liveness_errors": []
