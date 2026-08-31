@@ -1,0 +1,44 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-001",
+      "surface_form": "desperate",
+      "frame": "adjective: be/feel desperate; desperate for NP; desperate to VP; attributive desperate attempt/situation",
+      "meaning": "希望や余裕がほとんどなく、必死・極度に切迫した",
+      "disposition": "included",
+      "rationale": "The candidate surface_form desperate in the frame adjective: be/feel desperate; desperate for NP; desperate to VP; attributive desperate attempt/situation has the meaning 希望や余裕がほとんどなく、必死・極度に切迫した, and the article preserves its boundaries across the listed uses.",
+      "semantic_assertions": [
+        {
+          "id": "FB-001:A1",
+          "statement": "the adjective preserves a boundary between a person's desperate state, a desperate last-resort attempt, strong desire, and a desperate situation",
+          "polarity": "must_hold",
+          "scope": "core image, numbered senses, and usage notes"
+        },
+        {
+          "id": "FB-001:A2",
+          "statement": "desperate for NP and desperate to VP express strong need or desire without necessarily asserting literal hopelessness or dangerous action",
+          "polarity": "must_hold",
+          "scope": "sense 3 frames and examples"
+        }
+      ]
+    },
+    {
+      "id": "FB-002",
+      "surface_form": "desperate (obsolete noun)",
+      "frame": "obsolete noun use meaning desperado",
+      "meaning": "desperado / 無法者",
+      "disposition": "excluded",
+      "rationale": "The candidate surface_form desperate (obsolete noun) with the frame obsolete noun use meaning desperado and the meaning desperado / 無法者 is excluded because the article treats desperado as a separate lexicalized word rather than a normal noun form of desperate.",
+      "semantic_assertions": [
+        {
+          "id": "FB-002:A1",
+          "statement": "the obsolete noun/desperado interpretation must not be generalized as the ordinary noun conversion of desperate",
+          "polarity": "must_not_hold",
+          "scope": "word formation and numbered senses"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

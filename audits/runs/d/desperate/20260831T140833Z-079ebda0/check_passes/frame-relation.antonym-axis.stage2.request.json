@@ -1,0 +1,1478 @@
+{
+  "schema_version": "antonym_axis_adjudication_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "blind_request_sha256": "ab43e9ced68fd43d7e2e1b8c4c456e6032d957eef1434533d2b54201f9d0dbef",
+  "blind_record_sha256": "8600b2013963c79d5a83a0990fb817a16126897643f8962d34060cb6e799b50b",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・叙述用法中心／限定用法も可】絶望して必死の、危険を顧みない"
+      },
+      {
+        "line": 45,
+        "text": "【日本語訳・定義】ほとんど希望がなく、状況を変えるためなら危険や結果を十分に考えず何でもしようとする心理状態。人・集団について使うと「絶望した」「追い詰められた」「必死の」という意味になり、文脈によっては無謀さや暴力性を含むが、必ずしも暴力的とは限らない。  "
+      },
+      {
+        "line": 114,
+        "text": "2. 【形容詞・通常限定用法】（行動・試みが）最後の手段の、成功の望みが薄い、必死の"
+      },
+      {
+        "line": 116,
+        "text": "【日本語訳・定義】他の方法が失敗した後、または成功の見込みがほとんどない状況で行われる行動・試み。危険を伴うことがあるが、語の必須条件は「追い詰められた状況での最後の努力」であり、結果が実際に失敗することまでは含まない。  "
+      },
+      {
+        "line": 188,
+        "text": "3. 【形容詞・叙述用法中心】～を非常に必要としている、～を切望している"
+      },
+      {
+        "line": 190,
+        "text": "【日本語訳・定義】人が何かを極度に必要としたり、強く欲しがったりしている状態。desperate for 〈名詞〉 と desperate to do の形を取り、対象は仕事・金・助けのような切実な必要から、愛情・注目・コーヒーのような強い欲求まで広い。この用法だけでは、実際に希望を失ったり危険な行動を取ったりしているとは限らない。  "
+      },
+      {
+        "line": 262,
+        "text": "4. 【形容詞・限定用法中心／叙述用法も可】（状況・状態が）非常に深刻な、危険な、極度の"
+      },
+      {
+        "line": 264,
+        "text": "【日本語訳・定義】状況、病状、経済状態、不足などが非常に悪く、改善の望みが薄い、または緊急の対処を要する状態。人の心理状態ではなく、対象となる状況そのものの深刻さを評価する。desperate need は「極度の必要・不足」、desperate shortage は「深刻な不足」を表す。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・叙述用法中心／限定用法も可】絶望して必死の、危険を顧みない"
+      },
+      {
+        "line": 51,
+        "text": "【文法パターン】be/feel/look/get/grow/become desperate＝絶望する・追い詰められた状態になる／be desperate about 〈事〉＝〈事〉に絶望・困り果てている／desperate with 〈感情・苦痛〉＝〈感情・苦痛〉で取り乱している／a desperate 〈人・集団〉＝絶望して必死の〈人・集団〉  "
+      },
+      {
+        "line": 114,
+        "text": "2. 【形容詞・通常限定用法】（行動・試みが）最後の手段の、成功の望みが薄い、必死の"
+      },
+      {
+        "line": 122,
+        "text": "【文法パターン】make a desperate attempt/bid/effort to do＝～するために必死の試み・努力をする／take desperate measures＝非常手段を取る／a desperate struggle/battle/search for 〈目的〉＝〈目的〉のための必死の闘い・捜索／a desperate plea/appeal for 〈援助・行動〉＝切迫した懇願・訴え  "
+      },
+      {
+        "line": 188,
+        "text": "3. 【形容詞・叙述用法中心】～を非常に必要としている、～を切望している"
+      },
+      {
+        "line": 196,
+        "text": "【文法パターン】be/feel desperate for 〈物・支援・機会〉＝～を非常に必要とする・切望する／be desperate to do＝どうしても～したい／be desperate for someone to do＝人にどうしても～してほしい／look desperate for 〈物・承認〉＝～を必死に求めているように見える  "
+      },
+      {
+        "line": 262,
+        "text": "4. 【形容詞・限定用法中心／叙述用法も可】（状況・状態が）非常に深刻な、危険な、極度の"
+      },
+      {
+        "line": 270,
+        "text": "【文法パターン】be in a desperate situation/condition/state＝非常に深刻な状況・状態にある／face a desperate shortage of 〈物〉＝〈物〉の深刻な不足に直面する／be in desperate need of 〈物・支援〉＝〈物・支援〉を極度に必要とする状況にある／be in desperate straits＝非常に困窮した状況にある／a desperate illness/crisis＝深刻な病気・危機  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・叙述用法中心／限定用法も可】絶望して必死の、危険を顧みない"
+      },
+      {
+        "line": 53,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 55,
+        "text": "・be/feel desperate  "
+      },
+      {
+        "line": 56,
+        "text": "用途: 人が希望を失い、追い詰められた心理状態にあることを表す。  "
+      },
+      {
+        "line": 57,
+        "text": "例: After three days without news, the family felt desperate.  "
+      },
+      {
+        "line": 58,
+        "text": "訳: 3日間知らせがなく、家族は絶望的な気持ちになった。  "
+      },
+      {
+        "line": 60,
+        "text": "・grow increasingly desperate  "
+      },
+      {
+        "line": 61,
+        "text": "用途: 時間の経過とともに、絶望や切迫感が強まることを表す。  "
+      },
+      {
+        "line": 62,
+        "text": "例: The trapped hikers grew increasingly desperate as night fell.  "
+      },
+      {
+        "line": 63,
+        "text": "訳: 閉じ込められたハイカーたちは、夜になるにつれてますます切迫した。  "
+      },
+      {
+        "line": 65,
+        "text": "・a desperate man/ woman/ family  "
+      },
+      {
+        "line": 66,
+        "text": "用途: 希望や余裕を失い、極端な行動に出かねない人や家族を描写する。  "
+      },
+      {
+        "line": 67,
+        "text": "例: The police were looking for a desperate man who had lost everything.  "
+      },
+      {
+        "line": 68,
+        "text": "訳: 警察は、すべてを失って追い詰められた男を捜していた。  "
+      },
+      {
+        "line": 70,
+        "text": "・a desperate cry/plea for help  "
+      },
+      {
+        "line": 71,
+        "text": "用途: 絶望や切迫感を示す助けの叫び・懇願を表す。  "
+      },
+      {
+        "line": 72,
+        "text": "例: We heard a desperate cry for help from the riverbank.  "
+      },
+      {
+        "line": 73,
+        "text": "訳: 私たちは川岸からの必死の助けを求める叫び声を聞いた。  "
+      },
+      {
+        "line": 75,
+        "text": "・desperate with anxiety/grief  "
+      },
+      {
+        "line": 76,
+        "text": "用途: 強い不安や悲嘆で平静を失いかけている状態を表す。  "
+      },
+      {
+        "line": 77,
+        "text": "例: Desperate with anxiety, she called every hospital in the city.  "
+      },
+      {
+        "line": 78,
+        "text": "訳: 彼女は不安で取り乱し、市内の病院すべてに電話をかけた。  "
+      },
+      {
+        "line": 114,
+        "text": "2. 【形容詞・通常限定用法】（行動・試みが）最後の手段の、成功の望みが薄い、必死の"
+      },
+      {
+        "line": 124,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 126,
+        "text": "・a desperate attempt to do  "
+      },
+      {
+        "line": 127,
+        "text": "用途: 成功の望みが薄くても、最後に何かをしようとする試みを表す。  "
+      },
+      {
+        "line": 128,
+        "text": "例: She made a desperate attempt to reach the child before the door closed.  "
+      },
+      {
+        "line": 129,
+        "text": "訳: 彼女は扉が閉まる前にその子に届こうと必死に試みた。  "
+      },
+      {
+        "line": 131,
+        "text": "・make a desperate bid for 〈自由・勝利・主導権〉  "
+      },
+      {
+        "line": 132,
+        "text": "用途: 重要な目標を得るための最後の、しばしば危険な努力を表す。  "
+      },
+      {
+        "line": 133,
+        "text": "例: The team made a desperate bid for victory in the final minute.  "
+      },
+      {
+        "line": 134,
+        "text": "訳: そのチームは最後の1分に勝利を懸けた必死の攻勢に出た。  "
+      },
+      {
+        "line": 136,
+        "text": "・take desperate measures  "
+      },
+      {
+        "line": 137,
+        "text": "用途: 通常の方法では解決できない問題に対して、非常手段を取ることを表す。  "
+      },
+      {
+        "line": 138,
+        "text": "例: The company took desperate measures to avoid bankruptcy.  "
+      },
+      {
+        "line": 139,
+        "text": "訳: その会社は破産を避けるために非常手段を取った。  "
+      },
+      {
+        "line": 141,
+        "text": "・a desperate struggle/battle to do  "
+      },
+      {
+        "line": 142,
+        "text": "用途: 勝ち目が薄くても、目的のために力を尽くす闘いを表す。  "
+      },
+      {
+        "line": 143,
+        "text": "例: The doctors began a desperate battle to save his life.  "
+      },
+      {
+        "line": 144,
+        "text": "訳: 医師たちは彼の命を救うための必死の闘いを始めた。  "
+      },
+      {
+        "line": 146,
+        "text": "・a desperate search for 〈人・解決策〉  "
+      },
+      {
+        "line": 147,
+        "text": "用途: 時間や可能性が限られた中で、最後まで行う切迫した捜索を表す。  "
+      },
+      {
+        "line": 148,
+        "text": "例: Volunteers organized a desperate search for the missing child.  "
+      },
+      {
+        "line": 149,
+        "text": "訳: ボランティアは行方不明の子どもを必死に捜す活動を組織した。  "
+      },
+      {
+        "line": 151,
+        "text": "・a desperate plea/appeal for 〈助け・平静〉  "
+      },
+      {
+        "line": 152,
+        "text": "用途: ほかに頼る手段がないような切迫した懇願・訴えを表す。  "
+      },
+      {
+        "line": 153,
+        "text": "例: The prisoner made a desperate plea for medical treatment.  "
+      },
+      {
+        "line": 154,
+        "text": "訳: その収監者は医療措置を求めて必死に懇願した。  "
+      },
+      {
+        "line": 188,
+        "text": "3. 【形容詞・叙述用法中心】～を非常に必要としている、～を切望している"
+      },
+      {
+        "line": 198,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 200,
+        "text": "・be desperate for help  "
+      },
+      {
+        "line": 201,
+        "text": "用途: 助けを極度に必要としていることを表す。  "
+      },
+      {
+        "line": 202,
+        "text": "例: The villagers are desperate for help after the flood.  "
+      },
+      {
+        "line": 203,
+        "text": "訳: その村人たちは洪水の後、助けを切実に必要としている。  "
+      },
+      {
+        "line": 205,
+        "text": "・be desperate for a job  "
+      },
+      {
+        "line": 206,
+        "text": "用途: 仕事を非常に必要としている、または何としても得たいと思っていることを表す。  "
+      },
+      {
+        "line": 207,
+        "text": "例: He was desperate for a job after months of unemployment.  "
+      },
+      {
+        "line": 208,
+        "text": "訳: 彼は何か月も失業した後、仕事を切実に求めていた。  "
+      },
+      {
+        "line": 210,
+        "text": "・be desperate for money/attention  "
+      },
+      {
+        "line": 211,
+        "text": "用途: 金銭や他人からの注目を極度に必要・欲求していることを表す。  "
+      },
+      {
+        "line": 212,
+        "text": "例: The young performer seemed desperate for attention.  "
+      },
+      {
+        "line": 213,
+        "text": "訳: その若い出演者は注目を必死に求めているようだった。  "
+      },
+      {
+        "line": 215,
+        "text": "・be desperate to do  "
+      },
+      {
+        "line": 216,
+        "text": "用途: 何かをどうしてもしたい、または何としても実現したいという強い欲求を表す。  "
+      },
+      {
+        "line": 217,
+        "text": "例: She was desperate to find a way home before dark.  "
+      },
+      {
+        "line": 218,
+        "text": "訳: 彼女は暗くなる前に帰る方法をどうしても見つけたかった。  "
+      },
+      {
+        "line": 220,
+        "text": "・be desperate for someone to do  "
+      },
+      {
+        "line": 221,
+        "text": "用途: 他人に特定の行動をどうしてもしてほしいと望むことを表す。  "
+      },
+      {
+        "line": 222,
+        "text": "例: The parents were desperate for their son to come home safely.  "
+      },
+      {
+        "line": 223,
+        "text": "訳: その両親は息子に無事帰ってきてほしいと切に願っていた。  "
+      },
+      {
+        "line": 225,
+        "text": "・be desperate for a coffee  "
+      },
+      {
+        "line": 226,
+        "text": "用途: 危機的な必要ではなく、日常的なものを「とても欲しい」とくだけて言う。  "
+      },
+      {
+        "line": 227,
+        "text": "例: I’m desperate for a coffee after that early meeting.  "
+      },
+      {
+        "line": 228,
+        "text": "訳: あの早朝の会議の後で、コーヒーがすごく飲みたい。  "
+      },
+      {
+        "line": 262,
+        "text": "4. 【形容詞・限定用法中心／叙述用法も可】（状況・状態が）非常に深刻な、危険な、極度の"
+      },
+      {
+        "line": 272,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 274,
+        "text": "・a desperate situation  "
+      },
+      {
+        "line": 275,
+        "text": "用途: 事態が非常に悪く、危険または絶望的に近いことを表す。  "
+      },
+      {
+        "line": 276,
+        "text": "例: The aid workers were trying to evacuate people from a desperate situation.  "
+      },
+      {
+        "line": 277,
+        "text": "訳: 救援隊員たちは、非常に危険な状況から人々を避難させようとしていた。  "
+      },
+      {
+        "line": 279,
+        "text": "・be in desperate need of 〈物・支援〉  "
+      },
+      {
+        "line": 280,
+        "text": "用途: 物・支援・対策が極度に不足し、緊急に必要であることを表す。  "
+      },
+      {
+        "line": 281,
+        "text": "例: The hospital is in desperate need of blood supplies.  "
+      },
+      {
+        "line": 282,
+        "text": "訳: その病院は血液の供給を極度に必要としている。  "
+      },
+      {
+        "line": 284,
+        "text": "・a desperate shortage of 〈物〉  "
+      },
+      {
+        "line": 285,
+        "text": "用途: 物資や資源が極端に不足していることを表す。  "
+      },
+      {
+        "line": 286,
+        "text": "例: The region is facing a desperate shortage of clean water.  "
+      },
+      {
+        "line": 287,
+        "text": "訳: その地域は清潔な水の深刻な不足に直面している。  "
+      },
+      {
+        "line": 289,
+        "text": "・be in desperate straits  "
+      },
+      {
+        "line": 290,
+        "text": "用途: 経済・生活・組織などが非常に困窮した状況にあることを表す。  "
+      },
+      {
+        "line": 291,
+        "text": "例: Many small farms are in desperate straits after the prolonged drought.  "
+      },
+      {
+        "line": 292,
+        "text": "訳: 長引く干ばつの後、多くの小規模農家が非常に困窮している。  "
+      },
+      {
+        "line": 294,
+        "text": "・desperate poverty  "
+      },
+      {
+        "line": 295,
+        "text": "用途: 貧困が極度で、生活を維持することが非常に難しい状態を表す。  "
+      },
+      {
+        "line": 296,
+        "text": "例: The report describes families living in desperate poverty.  "
+      },
+      {
+        "line": 297,
+        "text": "訳: その報告書は極度の貧困の中で暮らす家族について述べている。  "
+      },
+      {
+        "line": 299,
+        "text": "・a desperate illness/crisis  "
+      },
+      {
+        "line": 300,
+        "text": "用途: 病状や危機が非常に重く、改善や解決の見込みが薄いことを表す。  "
+      },
+      {
+        "line": 301,
+        "text": "例: The patient was in a desperate condition when the ambulance arrived.  "
+      },
+      {
+        "line": 302,
+        "text": "訳: 救急車が到着したとき、患者の状態は非常に深刻だった。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・叙述用法中心／限定用法も可】絶望して必死の、危険を顧みない"
+      },
+      {
+        "line": 82,
+        "text": "【類義語】"
+      },
+      {
+        "line": 84,
+        "text": "・despairing  "
+      },
+      {
+        "line": 85,
+        "text": "定義: 希望を失い、絶望を感じたり示したりしている。  "
+      },
+      {
+        "line": 86,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 87,
+        "text": "違い: despairing は内面的な絶望の表出に焦点があり、desperate のように危険を顧みない行動まで必ず含むわけではない。  "
+      },
+      {
+        "line": 88,
+        "text": "例: He gave me a despairing look when the plan failed.  "
+      },
+      {
+        "line": 89,
+        "text": "訳: 計画が失敗すると、彼は私に絶望したような顔を向けた。  "
+      },
+      {
+        "line": 91,
+        "text": "・hopeless  "
+      },
+      {
+        "line": 92,
+        "text": "定義: 希望や成功の見込みがない、またはそう感じている。  "
+      },
+      {
+        "line": 93,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 94,
+        "text": "違い: hopeless は望みのなさや諦めに焦点があり、desperate はその状態から生じる必死の行動・切迫感を強く示す。  "
+      },
+      {
+        "line": 95,
+        "text": "例: The rescue team refused to call the search hopeless.  "
+      },
+      {
+        "line": 96,
+        "text": "訳: 救助隊は捜索を見込みがないとは認めようとしなかった。  "
+      },
+      {
+        "line": 98,
+        "text": "・frantic  "
+      },
+      {
+        "line": 99,
+        "text": "定義: 恐怖・不安・急ぎで取り乱し、落ち着いて行動できない。  "
+      },
+      {
+        "line": 100,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 101,
+        "text": "違い: frantic は動揺や慌ただしさに焦点があり、desperate は希望のなさや極端な必要をより強く含む。  "
+      },
+      {
+        "line": 102,
+        "text": "例: Frantic parents searched the crowded station for their child.  "
+      },
+      {
+        "line": 103,
+        "text": "訳: 取り乱した両親は、混雑した駅で子どもを捜した。  "
+      },
+      {
+        "line": 105,
+        "text": "【反意語】"
+      },
+      {
+        "line": 107,
+        "text": "・hopeful  "
+      },
+      {
+        "line": 108,
+        "text": "定義: よい結果や成功の可能性を信じ、希望を持っている。  "
+      },
+      {
+        "line": 109,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 110,
+        "text": "違い: hopeful は希望が残っている状態、desperate は希望がほとんどなく追い詰められた状態を表す。両者は心理状態の軸で対立する。  "
+      },
+      {
+        "line": 111,
+        "text": "例: The family remained hopeful despite the long wait.  "
+      },
+      {
+        "line": 112,
+        "text": "訳: 長く待たされても、その家族は希望を失わなかった。  "
+      },
+      {
+        "line": 114,
+        "text": "2. 【形容詞・通常限定用法】（行動・試みが）最後の手段の、成功の望みが薄い、必死の"
+      },
+      {
+        "line": 158,
+        "text": "【類義語】"
+      },
+      {
+        "line": 160,
+        "text": "・last-ditch  "
+      },
+      {
+        "line": 161,
+        "text": "定義: ほかの手段が尽きた段階で行う、最後の。  "
+      },
+      {
+        "line": 162,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 163,
+        "text": "違い: last-ditch は最後の機会という順序に焦点があり、desperate は行為者の切迫感や成功の見込みの薄さをより強く示す。  "
+      },
+      {
+        "line": 164,
+        "text": "例: The board approved a last-ditch plan to save the project.  "
+      },
+      {
+        "line": 165,
+        "text": "訳: 取締役会はプロジェクトを救うための最後の計画を承認した。  "
+      },
+      {
+        "line": 167,
+        "text": "・frantic  "
+      },
+      {
+        "line": 168,
+        "text": "定義: 急ぎや不安で取り乱した、必死の。  "
+      },
+      {
+        "line": 169,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 170,
+        "text": "違い: frantic は行動の慌ただしさ・混乱を表し、desperate は追い詰められた状況と望みの薄さに焦点がある。  "
+      },
+      {
+        "line": 171,
+        "text": "例: They launched a frantic search before the storm arrived.  "
+      },
+      {
+        "line": 172,
+        "text": "訳: 彼らは嵐が来る前に大急ぎで捜索を始めた。  "
+      },
+      {
+        "line": 174,
+        "text": "・drastic  "
+      },
+      {
+        "line": 175,
+        "text": "定義: 問題を変えるために、通常より極端で大きな影響を及ぼす。  "
+      },
+      {
+        "line": 176,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 177,
+        "text": "違い: drastic は措置の強さ・規模を表すが、desperate のように希望のなさや切迫した動機を必ずしも含まない。  "
+      },
+      {
+        "line": 178,
+        "text": "例: The hospital introduced drastic changes to reduce infections.  "
+      },
+      {
+        "line": 179,
+        "text": "訳: その病院は感染を減らすために抜本的な変更を導入した。  "
+      },
+      {
+        "line": 181,
+        "text": "・do-or-die  "
+      },
+      {
+        "line": 182,
+        "text": "定義: 成功しなければ重大な結果になる、絶対に成功させなければならない。  "
+      },
+      {
+        "line": 183,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 184,
+        "text": "違い: do-or-die は成功か失敗かの重大な二択を強調し、desperate は試みの切迫感や成功の見込みの薄さを表す。  "
+      },
+      {
+        "line": 185,
+        "text": "例: This is a do-or-die match for the team.  "
+      },
+      {
+        "line": 186,
+        "text": "訳: これはそのチームにとって絶対に負けられない試合だ。  "
+      },
+      {
+        "line": 188,
+        "text": "3. 【形容詞・叙述用法中心】～を非常に必要としている、～を切望している"
+      },
+      {
+        "line": 232,
+        "text": "【類義語】"
+      },
+      {
+        "line": 234,
+        "text": "・in dire need of 〈物・支援〉  "
+      },
+      {
+        "line": 235,
+        "text": "定義: 物や支援を非常に深刻な状態で必要としている。  "
+      },
+      {
+        "line": 236,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 237,
+        "text": "違い: in dire need of は客観的な不足・困窮を強調し、desperate for は人の強い欲求・切望にも、くだけた欲しさにも使える。  "
+      },
+      {
+        "line": 238,
+        "text": "例: The clinic is in dire need of more nurses.  "
+      },
+      {
+        "line": 239,
+        "text": "訳: その診療所は看護師をもっと必要とする深刻な状況にある。  "
+      },
+      {
+        "line": 241,
+        "text": "・eager for 〈機会・知らせ〉  "
+      },
+      {
+        "line": 242,
+        "text": "定義: 何かを熱心に、楽しみにしながら強く望んでいる。  "
+      },
+      {
+        "line": 243,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 244,
+        "text": "違い: eager は期待や前向きな熱意を含みやすく、desperate のような困窮・焦り・追い詰められた感じは必須ではない。  "
+      },
+      {
+        "line": 245,
+        "text": "例: The students were eager for the results of the competition.  "
+      },
+      {
+        "line": 246,
+        "text": "訳: 学生たちは競技会の結果を心待ちにしていた。  "
+      },
+      {
+        "line": 248,
+        "text": "・longing for 〈人・場所・経験〉  "
+      },
+      {
+        "line": 249,
+        "text": "定義: 人・場所・過去の経験などを強く恋しく思い、切望している。  "
+      },
+      {
+        "line": 250,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 251,
+        "text": "違い: longing for は持続的で感情的なあこがれ・恋しさに焦点があり、desperate for は必要の切迫や欲求の極端な強さを広く表す。  "
+      },
+      {
+        "line": 252,
+        "text": "例: She felt a deep longing for her childhood home.  "
+      },
+      {
+        "line": 253,
+        "text": "訳: 彼女は子どもの頃の家を深く恋しく思った。  "
+      },
+      {
+        "line": 255,
+        "text": "・dying for 〈物・行動〉  "
+      },
+      {
+        "line": 256,
+        "text": "定義: くだけて、何かを非常に欲しい・したいと思っている。  "
+      },
+      {
+        "line": 257,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 258,
+        "text": "違い: dying for は強調的な口語表現で、文字どおり死ぬ危険や絶望を通常は含まない。desperate for は口語から報道まで使えるが、より切迫した響きが出やすい。  "
+      },
+      {
+        "line": 259,
+        "text": "例: I’m dying for a hot shower after the hike.  "
+      },
+      {
+        "line": 260,
+        "text": "訳: ハイキングの後で、熱いシャワーを浴びたくてたまらない。  "
+      },
+      {
+        "line": 262,
+        "text": "4. 【形容詞・限定用法中心／叙述用法も可】（状況・状態が）非常に深刻な、危険な、極度の"
+      },
+      {
+        "line": 306,
+        "text": "【類義語】"
+      },
+      {
+        "line": 308,
+        "text": "・dire  "
+      },
+      {
+        "line": 309,
+        "text": "定義: 状況が非常に深刻で、緊急の対処や救済を必要とする。  "
+      },
+      {
+        "line": 310,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 311,
+        "text": "違い: dire は状況の深刻さを硬く客観的に述べやすく、desperate はそこに絶望感・切迫感・極端さが加わる。  "
+      },
+      {
+        "line": 312,
+        "text": "例: The country is facing a dire shortage of food.  "
+      },
+      {
+        "line": 313,
+        "text": "訳: その国は食料の深刻な不足に直面している。  "
+      },
+      {
+        "line": 315,
+        "text": "・grave  "
+      },
+      {
+        "line": 316,
+        "text": "定義: 危険・結果・責任などが非常に重大で、軽視できない。  "
+      },
+      {
+        "line": 317,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 318,
+        "text": "違い: grave は重大さ・深刻さを改まって示し、desperate のように改善の望みの薄さや切迫した努力まで含むとは限らない。  "
+      },
+      {
+        "line": 319,
+        "text": "例: The accident raised grave concerns about safety.  "
+      },
+      {
+        "line": 320,
+        "text": "訳: その事故は安全性について重大な懸念を生じさせた。  "
+      },
+      {
+        "line": 322,
+        "text": "・critical  "
+      },
+      {
+        "line": 323,
+        "text": "定義: 状況が危機的で、直ちに判断・対応しなければならない。  "
+      },
+      {
+        "line": 324,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 325,
+        "text": "違い: critical は危機の段階や緊急性に焦点があり、desperate は極度の悪さや望みの薄さをより強く感じさせる。  "
+      },
+      {
+        "line": 326,
+        "text": "例: The patient remains in critical condition.  "
+      },
+      {
+        "line": 327,
+        "text": "訳: その患者は依然として危篤状態にある。  "
+      },
+      {
+        "line": 329,
+        "text": "・severe  "
+      },
+      {
+        "line": 330,
+        "text": "定義: 程度が非常に強く、苦痛・損害・不足などが大きい。  "
+      },
+      {
+        "line": 331,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 332,
+        "text": "違い: severe は強度の大きさを広く表す客観的な語で、desperate のような追い詰められた評価やほとんど望みのない感じは必須ではない。  "
+      },
+      {
+        "line": 333,
+        "text": "例: The area suffered severe water shortages.  "
+      },
+      {
+        "line": 334,
+        "text": "訳: その地域は深刻な水不足に苦しんだ。  "
+      },
+      {
+        "line": 336,
+        "text": "【反意語】"
+      },
+      {
+        "line": 338,
+        "text": "・promising  "
+      },
+      {
+        "line": 339,
+        "text": "定義: よい結果や改善の見込みがあり、将来に希望を持たせる。  "
+      },
+      {
+        "line": 340,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 341,
+        "text": "違い: promising は状況の明るい見込みを示し、desperate は状況が非常に悪く改善の望みが薄いことを示す。状況評価の軸で対立する。  "
+      },
+      {
+        "line": 342,
+        "text": "例: The latest figures give a more promising picture of the economy.  "
+      },
+      {
+        "line": 343,
+        "text": "訳: 最新の数字は経済についてより明るい見通しを示している。  "
+      }
+    ],
+    "antonym_axis_items": [
+      {
+        "item_id": "ant-4e7b502379ab",
+        "stage1_axis": {
+          "item_id": "ant-4e7b502379ab",
+          "axis": "希望",
+          "relation_type": "状態"
+        },
+        "sense_id": "sense:001",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 107,
+          "line_end": 107,
+          "exact_quote": "・hopeful  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 110,
+          "line_end": 110,
+          "exact_quote": "違い: hopeful は希望が残っている状態、desperate は希望がほとんどなく追い詰められた状態を表す。両者は心理状態の軸で対立する。  "
+        }
+      },
+      {
+        "item_id": "ant-c52aadd72499",
+        "stage1_axis": {
+          "item_id": "ant-c52aadd72499",
+          "axis": "見込み",
+          "relation_type": "評価"
+        },
+        "sense_id": "sense:004",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 338,
+          "line_end": 338,
+          "exact_quote": "・promising  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 341,
+          "line_end": 341,
+          "exact_quote": "違い: promising は状況の明るい見込みを示し、desperate は状況が非常に悪く改善の望みが薄いことを示す。状況評価の軸で対立する。  "
+        }
+      }
+    ],
+    "antonym_axis_senses": [
+      {
+        "sense_id": "sense:001",
+        "full_sense": [
+          {
+            "line": 43,
+            "text": "1. 【形容詞・叙述用法中心／限定用法も可】絶望して必死の、危険を顧みない"
+          },
+          {
+            "line": 45,
+            "text": "【日本語訳・定義】ほとんど希望がなく、状況を変えるためなら危険や結果を十分に考えず何でもしようとする心理状態。人・集団について使うと「絶望した」「追い詰められた」「必死の」という意味になり、文脈によっては無謀さや暴力性を含むが、必ずしも暴力的とは限らない。  "
+          },
+          {
+            "line": 47,
+            "text": "【頻度】〈9/10〉  "
+          },
+          {
+            "line": 49,
+            "text": "【レジスター/領域】標準的な一般語。感情描写、報道、物語、災害・救助、社会問題で広く使う。  "
+          },
+          {
+            "line": 51,
+            "text": "【文法パターン】be/feel/look/get/grow/become desperate＝絶望する・追い詰められた状態になる／be desperate about 〈事〉＝〈事〉に絶望・困り果てている／desperate with 〈感情・苦痛〉＝〈感情・苦痛〉で取り乱している／a desperate 〈人・集団〉＝絶望して必死の〈人・集団〉  "
+          },
+          {
+            "line": 53,
+            "text": "【コロケーション】"
+          },
+          {
+            "line": 55,
+            "text": "・be/feel desperate  "
+          },
+          {
+            "line": 56,
+            "text": "用途: 人が希望を失い、追い詰められた心理状態にあることを表す。  "
+          },
+          {
+            "line": 57,
+            "text": "例: After three days without news, the family felt desperate.  "
+          },
+          {
+            "line": 58,
+            "text": "訳: 3日間知らせがなく、家族は絶望的な気持ちになった。  "
+          },
+          {
+            "line": 60,
+            "text": "・grow increasingly desperate  "
+          },
+          {
+            "line": 61,
+            "text": "用途: 時間の経過とともに、絶望や切迫感が強まることを表す。  "
+          },
+          {
+            "line": 62,
+            "text": "例: The trapped hikers grew increasingly desperate as night fell.  "
+          },
+          {
+            "line": 63,
+            "text": "訳: 閉じ込められたハイカーたちは、夜になるにつれてますます切迫した。  "
+          },
+          {
+            "line": 65,
+            "text": "・a desperate man/ woman/ family  "
+          },
+          {
+            "line": 66,
+            "text": "用途: 希望や余裕を失い、極端な行動に出かねない人や家族を描写する。  "
+          },
+          {
+            "line": 67,
+            "text": "例: The police were looking for a desperate man who had lost everything.  "
+          },
+          {
+            "line": 68,
+            "text": "訳: 警察は、すべてを失って追い詰められた男を捜していた。  "
+          },
+          {
+            "line": 70,
+            "text": "・a desperate cry/plea for help  "
+          },
+          {
+            "line": 71,
+            "text": "用途: 絶望や切迫感を示す助けの叫び・懇願を表す。  "
+          },
+          {
+            "line": 72,
+            "text": "例: We heard a desperate cry for help from the riverbank.  "
+          },
+          {
+            "line": 73,
+            "text": "訳: 私たちは川岸からの必死の助けを求める叫び声を聞いた。  "
+          },
+          {
+            "line": 75,
+            "text": "・desperate with anxiety/grief  "
+          },
+          {
+            "line": 76,
+            "text": "用途: 強い不安や悲嘆で平静を失いかけている状態を表す。  "
+          },
+          {
+            "line": 77,
+            "text": "例: Desperate with anxiety, she called every hospital in the city.  "
+          },
+          {
+            "line": 78,
+            "text": "訳: 彼女は不安で取り乱し、市内の病院すべてに電話をかけた。  "
+          },
+          {
+            "line": 80,
+            "text": "【語法・注意】この語義の desperate は単なる「熱心な」「決意の固い」ではなく、希望のなさや追い詰められた余裕のなさを含む。be desperate to do は「～したくてたまらない／～することを切望している」という語義3になりやすく、後続の to不定詞だけで語義1の「絶望している」と決めつけない。  "
+          },
+          {
+            "line": 82,
+            "text": "【類義語】"
+          },
+          {
+            "line": 84,
+            "text": "・despairing  "
+          },
+          {
+            "line": 85,
+            "text": "定義: 希望を失い、絶望を感じたり示したりしている。  "
+          },
+          {
+            "line": 86,
+            "text": "頻度: 〈6/10〉  "
+          },
+          {
+            "line": 87,
+            "text": "違い: despairing は内面的な絶望の表出に焦点があり、desperate のように危険を顧みない行動まで必ず含むわけではない。  "
+          },
+          {
+            "line": 88,
+            "text": "例: He gave me a despairing look when the plan failed.  "
+          },
+          {
+            "line": 89,
+            "text": "訳: 計画が失敗すると、彼は私に絶望したような顔を向けた。  "
+          },
+          {
+            "line": 91,
+            "text": "・hopeless  "
+          },
+          {
+            "line": 92,
+            "text": "定義: 希望や成功の見込みがない、またはそう感じている。  "
+          },
+          {
+            "line": 93,
+            "text": "頻度: 〈9/10〉  "
+          },
+          {
+            "line": 94,
+            "text": "違い: hopeless は望みのなさや諦めに焦点があり、desperate はその状態から生じる必死の行動・切迫感を強く示す。  "
+          },
+          {
+            "line": 95,
+            "text": "例: The rescue team refused to call the search hopeless.  "
+          },
+          {
+            "line": 96,
+            "text": "訳: 救助隊は捜索を見込みがないとは認めようとしなかった。  "
+          },
+          {
+            "line": 98,
+            "text": "・frantic  "
+          },
+          {
+            "line": 99,
+            "text": "定義: 恐怖・不安・急ぎで取り乱し、落ち着いて行動できない。  "
+          },
+          {
+            "line": 100,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 101,
+            "text": "違い: frantic は動揺や慌ただしさに焦点があり、desperate は希望のなさや極端な必要をより強く含む。  "
+          },
+          {
+            "line": 102,
+            "text": "例: Frantic parents searched the crowded station for their child.  "
+          },
+          {
+            "line": 103,
+            "text": "訳: 取り乱した両親は、混雑した駅で子どもを捜した。  "
+          },
+          {
+            "line": 105,
+            "text": "【反意語】"
+          },
+          {
+            "line": 107,
+            "text": "・hopeful  "
+          },
+          {
+            "line": 108,
+            "text": "定義: よい結果や成功の可能性を信じ、希望を持っている。  "
+          },
+          {
+            "line": 109,
+            "text": "頻度: 〈9/10〉  "
+          },
+          {
+            "line": 110,
+            "text": "違い: hopeful は希望が残っている状態、desperate は希望がほとんどなく追い詰められた状態を表す。両者は心理状態の軸で対立する。  "
+          },
+          {
+            "line": 111,
+            "text": "例: The family remained hopeful despite the long wait.  "
+          },
+          {
+            "line": 112,
+            "text": "訳: 長く待たされても、その家族は希望を失わなかった。  "
+          }
+        ]
+      },
+      {
+        "sense_id": "sense:004",
+        "full_sense": [
+          {
+            "line": 262,
+            "text": "4. 【形容詞・限定用法中心／叙述用法も可】（状況・状態が）非常に深刻な、危険な、極度の"
+          },
+          {
+            "line": 264,
+            "text": "【日本語訳・定義】状況、病状、経済状態、不足などが非常に悪く、改善の望みが薄い、または緊急の対処を要する状態。人の心理状態ではなく、対象となる状況そのものの深刻さを評価する。desperate need は「極度の必要・不足」、desperate shortage は「深刻な不足」を表す。  "
+          },
+          {
+            "line": 266,
+            "text": "【頻度】〈9/10〉  "
+          },
+          {
+            "line": 268,
+            "text": "【レジスター/領域】標準的な一般語。報道、社会問題、医療、経済、災害、政策で広く使う。  "
+          },
+          {
+            "line": 270,
+            "text": "【文法パターン】be in a desperate situation/condition/state＝非常に深刻な状況・状態にある／face a desperate shortage of 〈物〉＝〈物〉の深刻な不足に直面する／be in desperate need of 〈物・支援〉＝〈物・支援〉を極度に必要とする状況にある／be in desperate straits＝非常に困窮した状況にある／a desperate illness/crisis＝深刻な病気・危機  "
+          },
+          {
+            "line": 272,
+            "text": "【コロケーション】"
+          },
+          {
+            "line": 274,
+            "text": "・a desperate situation  "
+          },
+          {
+            "line": 275,
+            "text": "用途: 事態が非常に悪く、危険または絶望的に近いことを表す。  "
+          },
+          {
+            "line": 276,
+            "text": "例: The aid workers were trying to evacuate people from a desperate situation.  "
+          },
+          {
+            "line": 277,
+            "text": "訳: 救援隊員たちは、非常に危険な状況から人々を避難させようとしていた。  "
+          },
+          {
+            "line": 279,
+            "text": "・be in desperate need of 〈物・支援〉  "
+          },
+          {
+            "line": 280,
+            "text": "用途: 物・支援・対策が極度に不足し、緊急に必要であることを表す。  "
+          },
+          {
+            "line": 281,
+            "text": "例: The hospital is in desperate need of blood supplies.  "
+          },
+          {
+            "line": 282,
+            "text": "訳: その病院は血液の供給を極度に必要としている。  "
+          },
+          {
+            "line": 284,
+            "text": "・a desperate shortage of 〈物〉  "
+          },
+          {
+            "line": 285,
+            "text": "用途: 物資や資源が極端に不足していることを表す。  "
+          },
+          {
+            "line": 286,
+            "text": "例: The region is facing a desperate shortage of clean water.  "
+          },
+          {
+            "line": 287,
+            "text": "訳: その地域は清潔な水の深刻な不足に直面している。  "
+          },
+          {
+            "line": 289,
+            "text": "・be in desperate straits  "
+          },
+          {
+            "line": 290,
+            "text": "用途: 経済・生活・組織などが非常に困窮した状況にあることを表す。  "
+          },
+          {
+            "line": 291,
+            "text": "例: Many small farms are in desperate straits after the prolonged drought.  "
+          },
+          {
+            "line": 292,
+            "text": "訳: 長引く干ばつの後、多くの小規模農家が非常に困窮している。  "
+          },
+          {
+            "line": 294,
+            "text": "・desperate poverty  "
+          },
+          {
+            "line": 295,
+            "text": "用途: 貧困が極度で、生活を維持することが非常に難しい状態を表す。  "
+          },
+          {
+            "line": 296,
+            "text": "例: The report describes families living in desperate poverty.  "
+          },
+          {
+            "line": 297,
+            "text": "訳: その報告書は極度の貧困の中で暮らす家族について述べている。  "
+          },
+          {
+            "line": 299,
+            "text": "・a desperate illness/crisis  "
+          },
+          {
+            "line": 300,
+            "text": "用途: 病状や危機が非常に重く、改善や解決の見込みが薄いことを表す。  "
+          },
+          {
+            "line": 301,
+            "text": "例: The patient was in a desperate condition when the ambulance arrived.  "
+          },
+          {
+            "line": 302,
+            "text": "訳: 救急車が到着したとき、患者の状態は非常に深刻だった。  "
+          },
+          {
+            "line": 304,
+            "text": "【語法・注意】in desperate need of 〈名詞〉は、状況や不足が深刻であることに焦点を置く。一方、be desperate for 〈名詞〉は、主語である人・組織が対象を強く必要・欲求していることに焦点を置く。たとえば The hospital is in desperate need of blood は病院の不足を、The patient is desperate for help は患者の切実な求めを表す。desperate は「必ず完全に絶望的」と断定する語ではなく、深刻さ・危険さ・緊急性を強く評価する語としても使う。  "
+          },
+          {
+            "line": 306,
+            "text": "【類義語】"
+          },
+          {
+            "line": 308,
+            "text": "・dire  "
+          },
+          {
+            "line": 309,
+            "text": "定義: 状況が非常に深刻で、緊急の対処や救済を必要とする。  "
+          },
+          {
+            "line": 310,
+            "text": "頻度: 〈8/10〉  "
+          },
+          {
+            "line": 311,
+            "text": "違い: dire は状況の深刻さを硬く客観的に述べやすく、desperate はそこに絶望感・切迫感・極端さが加わる。  "
+          },
+          {
+            "line": 312,
+            "text": "例: The country is facing a dire shortage of food.  "
+          },
+          {
+            "line": 313,
+            "text": "訳: その国は食料の深刻な不足に直面している。  "
+          },
+          {
+            "line": 315,
+            "text": "・grave  "
+          },
+          {
+            "line": 316,
+            "text": "定義: 危険・結果・責任などが非常に重大で、軽視できない。  "
+          },
+          {
+            "line": 317,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 318,
+            "text": "違い: grave は重大さ・深刻さを改まって示し、desperate のように改善の望みの薄さや切迫した努力まで含むとは限らない。  "
+          },
+          {
+            "line": 319,
+            "text": "例: The accident raised grave concerns about safety.  "
+          },
+          {
+            "line": 320,
+            "text": "訳: その事故は安全性について重大な懸念を生じさせた。  "
+          },
+          {
+            "line": 322,
+            "text": "・critical  "
+          },
+          {
+            "line": 323,
+            "text": "定義: 状況が危機的で、直ちに判断・対応しなければならない。  "
+          },
+          {
+            "line": 324,
+            "text": "頻度: 〈9/10〉  "
+          },
+          {
+            "line": 325,
+            "text": "違い: critical は危機の段階や緊急性に焦点があり、desperate は極度の悪さや望みの薄さをより強く感じさせる。  "
+          },
+          {
+            "line": 326,
+            "text": "例: The patient remains in critical condition.  "
+          },
+          {
+            "line": 327,
+            "text": "訳: その患者は依然として危篤状態にある。  "
+          },
+          {
+            "line": 329,
+            "text": "・severe  "
+          },
+          {
+            "line": 330,
+            "text": "定義: 程度が非常に強く、苦痛・損害・不足などが大きい。  "
+          },
+          {
+            "line": 331,
+            "text": "頻度: 〈9/10〉  "
+          },
+          {
+            "line": 332,
+            "text": "違い: severe は強度の大きさを広く表す客観的な語で、desperate のような追い詰められた評価やほとんど望みのない感じは必須ではない。  "
+          },
+          {
+            "line": 333,
+            "text": "例: The area suffered severe water shortages.  "
+          },
+          {
+            "line": 334,
+            "text": "訳: その地域は深刻な水不足に苦しんだ。  "
+          },
+          {
+            "line": 336,
+            "text": "【反意語】"
+          },
+          {
+            "line": 338,
+            "text": "・promising  "
+          },
+          {
+            "line": 339,
+            "text": "定義: よい結果や改善の見込みがあり、将来に希望を持たせる。  "
+          },
+          {
+            "line": 340,
+            "text": "頻度: 〈8/10〉  "
+          },
+          {
+            "line": 341,
+            "text": "違い: promising は状況の明るい見込みを示し、desperate は状況が非常に悪く改善の望みが薄いことを示す。状況評価の軸で対立する。  "
+          },
+          {
+            "line": 342,
+            "text": "例: The latest figures give a more promising picture of the economy.  "
+          },
+          {
+            "line": 343,
+            "text": "訳: 最新の数字は経済についてより明るい見通しを示している。  "
+          }
+        ]
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 2,
+    "stage1_record_saved": true,
+    "chronology_marker": "audits/BLIND_SEAL_CHRONOLOGY_REQUIRED",
+    "required_output_schema": "antonym_axis_adjudication_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

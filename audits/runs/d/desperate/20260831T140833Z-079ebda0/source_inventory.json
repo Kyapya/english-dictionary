@@ -1,0 +1,655 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-desperate-20260831T140833Z-079ebda0",
+  "context_id": "source-desperate-context-20260831T140833Z-079ebda0",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "evidence_link_ids": [
+    "E-001",
+    "E-002",
+    "E-003",
+    "E-004",
+    "E-005"
+  ],
+  "recorded_at": "2026-08-31T14:14:14Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "The common adjective has four modern sense families, related forms, regional pronunciation, and a bounded register-sensitive extension.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 24,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-08-31T13:42:30Z",
+    "article_comparison_started_at": "2026-08-31T13:43:10Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-010",
+          "F-011",
+          "F-017",
+          "F-018"
+        ],
+        "notes": "Independent general dictionaries converge on despair-driven, last-resort, urgent-desire, and critical-condition adjective uses; the less central shocking/outrageous extension is retained as an excluded candidate."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-019"
+        ],
+        "notes": "The adjective's attributive and predicative uses and the for-NP, to-infinitive, and for-NP-to-infinitive frames are represented."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-015"
+        ],
+        "notes": "The directly useful adverb and low-frequency noun derivative are recorded; desperado is treated separately as an etymologically related lexicalized noun."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The selected authoritative general-language sources reveal no independent specialist or legal sense requiring a domain-specific source for this common adjective."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-006",
+          "F-011"
+        ],
+        "notes": "The sources explicitly mark the coffee/cigarette desire use as informal and record a less central shocking or excessive extension; no unsupported numeric corpus frequency is imported."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-017",
+          "F-020",
+          "F-021",
+          "F-023",
+          "F-024"
+        ],
+        "notes": "Two dictionary pronunciation records and an etymological source cover the regional forms, Latin origin, and bounded historical extensions."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Learner's Dictionaries: desperate",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/desperate",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "a person can feel or show little hope and be ready to do anything",
+            "source_detail": "Oxford Learner's Dictionaries sense 1 describes a person with little hope who is ready to do anything."
+          },
+          {
+            "id": "F-002",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "a desperate action or attempt is made when other options have failed and success is doubtful",
+            "source_detail": "Oxford sense 2 covers desperate bids, attempts, measures, and battles tried when everything else has failed."
+          },
+          {
+            "id": "F-003",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "a person may need or want something very much, using desperate for a noun phrase or desperate to do",
+            "source_detail": "Oxford sense 3 gives desperate for something and desperate to do something, including strong everyday desire."
+          },
+          {
+            "id": "F-004",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "a desperate situation, shortage, or condition is extremely serious or dangerous",
+            "source_detail": "Oxford sense 4 covers desperate need, shortage, financial situations, poverty, and straits."
+          },
+          {
+            "id": "F-005",
+            "form": "desperate",
+            "kind": "pronunciation",
+            "statement": "the main dictionary pronunciation has first-syllable stress and a reduced final syllable",
+            "source_detail": "Oxford's pronunciation line gives the British and American forms with initial stress and final /ət/."
+          },
+          {
+            "id": "F-006",
+            "form": "desperate",
+            "kind": "register",
+            "statement": "desperate for a coffee or cigarette is marked informal in the strong-desire use",
+            "source_detail": "Oxford labels the everyday coffee/cigarette desire example informal rather than labeling the adjective as a whole informal."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Merriam-Webster: desperate",
+        "locator": "https://www.merriam-webster.com/dictionary/desperate",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_merriam_webster",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "desperate can mean having lost hope",
+            "source_detail": "Merriam-Webster's first adjective sense states that the person has lost hope."
+          },
+          {
+            "id": "F-008",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "desperation can prompt reckless or extreme measures",
+            "source_detail": "Merriam-Webster distinguishes being moved by despair to take extreme measures."
+          },
+          {
+            "id": "F-009",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "desperate can express extreme need, anxiety, or strong desire",
+            "source_detail": "Merriam-Webster gives desperate for money and desperate to prove examples under extreme need or anxiety."
+          },
+          {
+            "id": "F-010",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "desperate can describe extreme danger or the possibility of disaster",
+            "source_detail": "Merriam-Webster records an adjective sense involving extreme danger and possible disaster."
+          },
+          {
+            "id": "F-011",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "a less central extension can mean extreme, excessive, shocking, or outrageous",
+            "source_detail": "Merriam-Webster records extreme intensity and shocking or outrageous extensions; these are not made a separate core sense here."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Collins English Dictionary: desperate",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/desperate",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-012",
+            "form": "desperate",
+            "kind": "frame",
+            "statement": "desperate for is used before a noun phrase for something strongly needed or desired",
+            "source_detail": "Collins gives postpositive/followed-by-for constructions and examples such as desperate for help."
+          },
+          {
+            "id": "F-013",
+            "form": "desperate",
+            "kind": "frame",
+            "statement": "desperate to is used before a base verb for a strongly desired action",
+            "source_detail": "Collins records desperate to do something in the need or desire construction."
+          },
+          {
+            "id": "F-014",
+            "form": "desperate",
+            "kind": "frame",
+            "statement": "desperate for someone to do something has the experiencer plus infinitival-complement frame",
+            "source_detail": "Collins supplies the pattern desperate for someone to do something."
+          },
+          {
+            "id": "F-015",
+            "form": "desperately",
+            "kind": "derived_form",
+            "statement": "desperately and desperateness are dictionary-listed derivatives related to desperate",
+            "source_detail": "Collins lists derived forms including desperately and desperateness on the desperate entry."
+          },
+          {
+            "id": "F-016",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "an obsolete noun use can mean a desperado or bold reckless criminal",
+            "source_detail": "Collins American English records this noun use as obsolete; it is excluded from the modern adjective article."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Cambridge Dictionary: desperate",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/desperate",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_cambridge",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "desperate",
+            "kind": "pronunciation",
+            "statement": "the UK and US pronunciations have first-syllable stress with a reduced final syllable",
+            "source_detail": "Cambridge pronunciation gives UK /ˈdes.pər.ət/ and US /ˈdes.pɚ.ət/."
+          },
+          {
+            "id": "F-018",
+            "form": "desperate",
+            "kind": "lexical_sense",
+            "statement": "desperate can describe a very serious or bad condition and something very great or extreme",
+            "source_detail": "Cambridge's learner definition separates the serious/bad and very great/extreme condition descriptions."
+          },
+          {
+            "id": "F-019",
+            "form": "desperate",
+            "kind": "collocation",
+            "statement": "desperate is attested in collocations such as desperate attempt, desperate need, desperate plea, and desperate straits",
+            "source_detail": "Cambridge example pages provide independent examples for these collocations and their relevant noun complements."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Etymonline: desperate",
+        "locator": "https://www.etymonline.com/word/desperate",
+        "source_type": "etymology_reference",
+        "source_role": "etymology",
+        "independence_group": "etymology_etymonline",
+        "facts": [
+          {
+            "id": "F-020",
+            "form": "desperate",
+            "kind": "etymology",
+            "statement": "desperate comes from Latin desperatus, the past participle of desperare, from de- plus sperare",
+            "source_detail": "Etymonline traces the word through Middle English to Latin desperatus and the verb meaning to despair or lose hope."
+          },
+          {
+            "id": "F-021",
+            "form": "desperate",
+            "kind": "semantic_history",
+            "statement": "the historical core is being given up as hopeless or despairing",
+            "source_detail": "Etymonline glosses the Latin source as given up or despaired of and identifies the hope root."
+          },
+          {
+            "id": "F-022",
+            "form": "desperate",
+            "kind": "semantic_history",
+            "statement": "the strong-desire extension is a later weakened development recorded from the twentieth century",
+            "source_detail": "Etymonline dates the weakened great-desire sense to the 1950s."
+          },
+          {
+            "id": "F-023",
+            "form": "desperate",
+            "kind": "semantic_history",
+            "statement": "the reckless-action extension developed from the despair sense",
+            "source_detail": "Etymonline records the person-reckless and action-without-regard-for-consequences developments in later historical periods."
+          },
+          {
+            "id": "F-024",
+            "form": "desperately",
+            "kind": "derived_form",
+            "statement": "desperately and related forms belong to the same despair-rooted word family",
+            "source_detail": "Etymonline links the adjective to related forms in the desperate/despair family."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-007",
+          "F-008"
+        ],
+        "canonical_statement": "A person can be desperate when hope is nearly gone and despair drives urgent or risky action.",
+        "disposition": "included",
+        "rationale": "This is the central person-state sense and is directly represented by sense 1 and its examples."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-008",
+          "F-019",
+          "F-023"
+        ],
+        "canonical_statement": "A desperate attempt, measure, plea, or struggle is a last-resort action made under severe pressure or limited hope.",
+        "disposition": "included",
+        "rationale": "The article records the productive last-resort action family, while limiting reckless implications to context."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003",
+          "F-006",
+          "F-009",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-022"
+        ],
+        "canonical_statement": "Desperate for a noun phrase or desperate to do something expresses very strong need or desire, from urgent need to informal everyday wanting.",
+        "disposition": "included",
+        "rationale": "This construction is frequent and important for learners; the informal everyday extension is labeled rather than generalized to the whole adjective."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-009",
+          "F-010",
+          "F-018"
+        ],
+        "canonical_statement": "A desperate situation, shortage, or condition is extremely serious, dangerous, or otherwise at an extreme limit.",
+        "disposition": "included",
+        "rationale": "The article has a separate condition sense because the evaluation targets the situation itself rather than a person's desire."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-011"
+        ],
+        "canonical_statement": "A less central extension can describe something as extreme, excessive, shocking, or outrageous.",
+        "disposition": "excluded",
+        "rationale": "The extension is dictionary-attested but less central and variety-sensitive; its omission keeps the learner entry focused without claiming it does not exist."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-005",
+          "F-017"
+        ],
+        "canonical_statement": "The adjective has first-syllable stress and a reduced final syllable, with British and American pronunciation variants.",
+        "disposition": "integrated",
+        "rationale": "The pronunciation section explicitly compares the two regional forms and explains the reduced -ate ending."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-015",
+          "F-024"
+        ],
+        "canonical_statement": "Desperately and desperateness are related derivatives, with desperateness less common than the adverb.",
+        "disposition": "included",
+        "rationale": "The word-formation section records the useful adverb and the lower-frequency noun derivative separately."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-016"
+        ],
+        "canonical_statement": "An obsolete noun desperate can refer to a desperado.",
+        "disposition": "excluded",
+        "rationale": "This historical noun is not a modern core adjective use and is not needed for the learner-facing entry."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-020",
+          "F-021"
+        ],
+        "canonical_statement": "Desperate is rooted in Latin desperatus and the hope-rooted verb desperare, with the historical core of despair.",
+        "disposition": "integrated",
+        "rationale": "The etymology section gives the source, the morphemes, and the relationship to the present-day semantic core."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "desperate",
+        "claim_type": "lexical_sense",
+        "statement": "The person-state use describes near-loss of hope and pressure toward extreme action.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "grammar_pattern:001",
+          "collocation:001",
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford directly defines the little-hope person state and readiness to do anything."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster directly gives having lost hope as a core adjective sense."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster directly links despair to extreme measures, supporting the action implication."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "desperate attempt / measure / plea",
+        "claim_type": "lexical_sense",
+        "statement": "The action use marks a last-resort or high-pressure attempt without requiring actual failure.",
+        "article_target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "collocation:006",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford directly lists desperate attempts and measures tried when other options fail."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster supports the extreme-measure pressure component of the action use."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Cambridge examples directly attest attempt, need, plea, and straits collocations."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Etymonline supports the historical development toward reckless action without consequences."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "desperate for / desperate to",
+        "claim_type": "frame",
+        "statement": "The desire use takes for plus a noun phrase, to plus a base verb, and can take for someone to do something.",
+        "article_target_ids": [
+          "sense_boundary:003",
+          "definition:003",
+          "register:003",
+          "grammar_pattern:009",
+          "grammar_pattern:010",
+          "grammar_pattern:011",
+          "collocation:012",
+          "usage_note:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford directly supports very strong need or want with for and to constructions."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford directly labels the coffee desire example informal, supporting the register limitation."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster directly gives extreme need and anxiety examples for money and proof."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Collins directly records desperate for before the desired noun phrase."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Collins directly records desperate to before the desired base verb."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins directly records the for someone to do something complement frame."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline dates the later weakened strong-desire extension and supports its semantic status."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "desperate situation / shortage / condition",
+        "claim_type": "lexical_sense",
+        "statement": "The condition use evaluates a situation or shortage as extremely serious, dangerous, or extreme.",
+        "article_target_ids": [
+          "sense_boundary:004",
+          "definition:004",
+          "grammar_pattern:013",
+          "grammar_pattern:014",
+          "grammar_pattern:015",
+          "collocation:018",
+          "collocation:019",
+          "usage_note:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford directly supports desperate need, shortage, financial situations, poverty, and straits."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster supports extreme need as an objective or urgent condition."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster directly supports extreme danger and possible disaster."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Cambridge directly supports the very serious, bad, great, and extreme condition meanings."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "desperate",
+        "claim_type": "pronunciation",
+        "statement": "The entry's British and American pronunciation explanation uses first-syllable stress and a reduced final syllable.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford's pronunciation records support initial stress and the reduced final syllable."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Cambridge's UK and US pronunciation entries independently support the regional comparison."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "desperately",
+        "claim_type": "derived_form",
+        "statement": "Desperately is the useful adverb derivative and desperateness is a less common related noun.",
+        "article_target_ids": [
+          "word_formation:001",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Collins directly lists desperately and desperateness as derivatives of the entry."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Etymonline independently places the related adverb in the same despair-rooted family."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "desperate",
+        "claim_type": "etymology",
+        "statement": "The etymology runs through Latin desperatus and desperare, connected to hope and despair.",
+        "article_target_ids": [
+          "etymology:001",
+          "core_image:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Etymonline directly traces the word to Latin desperatus and desperare."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Etymonline directly glosses the historical core as given up as hopeless or despairing."
+          }
+        ]
+      }
+    ]
+  }
+}
