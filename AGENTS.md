@@ -25,9 +25,15 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 
 `checked` / `final` の既存記事への具体的な修整依頼は `prompts/targeted_correction_review_v1.md` に従い、`scripts/run_word.py` を起動しない。変更hunkと必要最小限の周辺だけを確認し、`scripts/targeted_correction.py` で記録・検証して終了する。全面改稿・全体再評価・大規模な語義再編は通常工程を使う。
 
-### checker_passes handoffは2往復
+### checker_passes handoffは7並列 + frame-relationのみ2往復
 
-第1応答の `antonym_axis_blind_record` を `checker_passes.stage1.json` に保存して `checker_passes.stage2.request.md` を作り、第2応答を `checker_passes.stage2.response.json` に保存して再取り込みする。同じ段の取り込み失敗が3回で `budget_exhausted` になる。
+checker段は7パスを一つの巨大promptへ連結せず、パスごとに独立実行する。APIモードでは最大7 workerで同時実行し、`frame-relation` だけは同じworker内で `antonym_axis_blind_record` のstage 1→stage 2を直列に行う。
+
+handoffモードの第1往復では `checker_passes.<pass-id>.request.md` を7個生成する。7個を同時に、1パス1独立agentで実行し、各応答を `checker_passes.<pass-id>.response.json` に保存する。各応答は自分の `pass_id` と一意な `reviewer.agent_id` を持つこと。7パスの欠落、pass ID不一致、agent ID重複はfan-in時に拒否する。
+
+7応答を取り込むと `check_passes/checker_passes.stage1.json` にcheckpointを作り、`frame-relation` のみ第2往復へ進む。互換用の `checker_passes.stage2.request.md` と並列用の `checker_passes.frame-relation.stage2.request.md` を生成し、stage 1と同じframe-relation agentが裁定する。並列用応答は `checker_passes.frame-relation.stage2.response.json`、旧v3 runでは `checker_passes.stage2.response.json` も受理する。第2応答のagent/modelがstage 1と異なる場合は拒否する。同じ段の取り込み失敗が3回で `budget_exhausted` になる。
+
+並列agent実行中もheartbeat・budgetは停止しない。guard上限に達したrunを別runへ自動再起動して回避しない。
 
 ## ファイル命名
 

@@ -12,27 +12,23 @@ python scripts/start_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
 
-新規runでは `python scripts/run_word.py <headword>` を直接実行しません。`scripts/start_word.py` は、このガード導入後に作られたremote branch上の同一見出し語のworkflow manifestを先に確認します。`in_progress` があれば `resume_required` で停止して既存branch/runを返すため、新しい `v2` / `v3` / `final-vN` branchへ逃げてdeadlineや失敗回数をリセットできません。`budget_exhausted` の後も自動再試行せず、原因確認後に明示的に再実行する場合だけ次を使います。
+新規runでは `python scripts/run_word.py <headword>` を直接実行しません。`scripts/start_word.py` はremote branch上の同一見出し語のworkflow manifestを先に確認し、`in_progress` があれば既存runの再開を要求します。`budget_exhausted` の後も自動再試行せず、原因確認後に明示的に再実行する場合だけ次を使います。
 
 ```bash
 python scripts/start_word.py <headword> --restart-after-budget-exhausted
 ```
 
-remote run状態を取得できない場合は fail closed で新規runを開始しません。completed runより古い失敗runは履歴扱いになるので、正常完了後の将来の改訂は妨げません。
+remote run状態を取得できない場合はfail closedで新規runを開始しません。completed runより古い失敗runは履歴扱いになるため、正常完了後の将来の改訂は妨げません。
 
-APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成された `handoff/<stage>.request.md` を別セッションへ渡します。応答を `handoff/<stage>.response.json` に保存後、次で取り込みます。
+## 独立レビュー
 
-APIレビューは、resume時に生成されるrequest JSONとdry-runに示されるpromptを `scripts/review_call.py` に渡します。通常は次の `--call-review` を使い、API応答の保存・検証、example-attributionの復元、7passの機械集約までをまとめて実行します。cold review / final blind は生成担当とは独立したreview agent/contextで実行します。モデル差は必須条件ではありません。同一モデルを使う場合は出力provenanceへ `same_model_as_generation: true` と独立した `agent_id` を記録し、handoffでは `--reviewer-agent-id` を必須にします。APIモードではresponse idからagent provenanceを記録します。
+APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成されたhandoff requestを生成担当とは別のagent/sessionへ渡します。
 
 ```bash
 python scripts/run_word.py --resume <workflow-run.json> --call-review
 ```
 
-```bash
-python scripts/review_call.py <stage> <request.json> <prompt.md> \
-  --cycle-dir <audits/runs/.../cycle-id> --output <stage-output.json> \
-  --generation-model <generation-model>
-```
+非checkerのhandoff応答は `handoff/<stage>.response.json` に保存し、次で取り込みます。同一モデルを使う場合は独立したagent provenanceを `--reviewer-agent-id` で記録します。
 
 ```bash
 python scripts/run_word.py --resume <workflow-run.json> \
@@ -40,9 +36,47 @@ python scripts/run_word.py --resume <workflow-run.json> \
   --reviewer-agent-id <independent-agent-id>
 ```
 
-handoffモードの `checker_passes` だけは2往復です。1往復目の応答（7パスすべてを過不足なく1回ずつ含み、frame-relationには `antonym_axis_blind_record` を含む）を取り込むと、段階は完了せず `check_passes/checker_passes.stage1.json` にcheckpointが保存され、`--ingest-review` は第2往復のhandoffパス `handoff/checker_passes.stage2.request.md` を返します。2往復目の応答は `antonym_axis_adjudication_record_v1` 1個で、`handoff/checker_passes.stage2.response.json` という別ファイル名に保存し、同じ `--ingest-review checker_passes` をもう一度実行して段階を完了させます。第2応答が未作成のまま取り込むと `handoff response is missing: …checker_passes.stage2.response.json` で失敗します。この場合はhandoffを作り直さず、stage2応答だけを用意します。取り込み失敗はguardが記録し、同じ段が3回失敗した時点でrunを `budget_exhausted` で停止します。
+cold review / final blind は生成担当とは独立したreview agent/contextで実行します。コールドレビューと最終盲検には生成時の `process_improvement/ACTIVE.md` や既存findingを渡しません。
 
-オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立cold review、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
+## checker_passes は7パス並列
+
+通常チェックは13個の内容欠陥分類を7パスへ一意に割り当てます。
+
+- translation
+- example-attribution
+- sense-structure
+- frame-relation
+- qualification
+- pronunciation
+- evidence
+
+APIモードの `--call-review` はこの7パスを最大7 workerで同時実行します。各workerはルーターが選んだ自分のrequest JSONとpromptだけを受け取ります。`frame-relation` だけは、同じworkerの中で `antonym_axis_blind_record` を作るstage 1と、その結果を開示して裁定するstage 2を順番に実行します。他の6パスはその待ち時間に独立して進みます。7結果は全worker終了後にルーター順へ機械的にfan-inし、`pass_findings.json` を作ります。
+
+### handoff: 7並列 + frame-relationのみ2往復
+
+handoffモードでchecker段へ到達すると、互換用index `handoff/checker_passes.request.md` と、次の7個の独立requestが生成されます。
+
+```text
+checker_passes.translation.request.md
+checker_passes.example-attribution.request.md
+checker_passes.sense-structure.request.md
+checker_passes.frame-relation.request.md
+checker_passes.qualification.request.md
+checker_passes.pronunciation.request.md
+checker_passes.evidence.request.md
+```
+
+これら7個を**同時に、1パス1独立agent**で実行します。七つのchecker promptを一つに連結して一つのagentへ渡してはいけません。各agentは対応する `checker_passes.<pass-id>.response.json` を返し、トップレベルに正しい `pass_id` と `reviewer` を含めます。`reviewer.agent_id` は7パスで一意でなければなりません。fan-inは7応答がすべて揃うまで完了せず、欠落、pass ID不一致、agent ID重複を拒否します。
+
+第1往復のfan-inで `check_passes/checker_passes.stage1.json` を保存します。この時点で6パスは完了し、`frame-relation` だけが第2往復へ進みます。stage 1の `antonym_axis_blind_record` を使って `handoff/checker_passes.stage2.request.md`（互換名）と `handoff/checker_passes.frame-relation.stage2.request.md` を生成します。第2往復はframe-relationのstage 1と**同じagent ID・同じdeclared model**で実行します。
+
+新しい並列handoffの第2応答は `handoff/checker_passes.frame-relation.stage2.response.json` に保存します。既存のrun_word_v3 runとの互換性のため、旧 `handoff/checker_passes.stage2.response.json` も取り込めます。第2応答を取り込むとframe-relationを裁定・復元し、7パスを `pass_findings.json` へ機械集約します。第2応答のagent/modelがstage 1と違う場合は拒否します。
+
+checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列agent実行中もheartbeat・budgetは進行します。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
+
+## オーケストレータ
+
+オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立コールドレビュー、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
 
 `process_improvement/ACTIVE.md` は生成段だけへ渡し、コールドレビューと最終盲検には渡しません。registryは `scripts/process_improvement.py` が検証し、単語固有のメモや「新しい知見なし」はrecordにしません。
 
@@ -55,7 +89,7 @@ handoffモードの `checker_passes` だけは2往復です。1往復目の応�
 | 辞書内容・表示 | `prompts/entry_spec_v5.md` |
 | 新規runの単一化・再開判定 | `scripts/start_word.py` |
 | checker routing | `prompts/check_router_v6.md` |
-| 内容checker | ルーターが指す7つのパス仕様（frame-relationは `prompts/check_pass_frame_relation_v7.md`、他6パスは `prompts/check_pass_*_v6.md`） |
+| 内容checker | frame-relationは `prompts/check_pass_frame_relation_v7.md`、他6パスは `prompts/check_pass_*_v6.md` |
 | cold review | `prompts/cold_review_prompt_v1.md` |
 | final blind | `prompts/final_blind_prompt_v2.md` |
 | finding解決 | `prompts/finding_resolution_v6.md` |
@@ -64,18 +98,6 @@ handoffモードの `checker_passes` だけは2往復です。1往復目の応�
 | Notion表示変換 | `prompts/notion_spec_v1.md` |
 
 `entry_spec_v5.md` の辞書学的な内容基準は変更していません。旧工程文書は `backups/2026-08-25-process-refactor/`、全規範の移設証跡は `prompts/migration_table_v5_to_v6.md` にあります。
-
-## v6 checker
-
-通常チェックは13個の内容欠陥分類を7パスへ一意に割り当て、各パスへ必要なentry sectionだけを渡します。frame-relationだけは `check_pass_frame_relation_v7.md` を使い、反意語軸の盲検採取と裁定を分けた2段構成です。
-
-- translation
-- example-attribution
-- sense-structure
-- frame-relation
-- qualification
-- pronunciation
-- evidence
 
 Markdown構造、front matter、固定行数、空行、行末、頻度表記などは `scripts/validate_entry.py` が先に検査し、checker promptには重複させません。`finding_scope_transfer_loss` と `raw_adjudication_manifest_divergence` は内容パスへ割り当てず、rawからの集合一致と完全再生成比較で防止します。
 
@@ -89,7 +111,7 @@ python scripts/generate_audit_manifest.py generate \
   --output audits/a/apple.json
 ```
 
-root manifestはrawのhash、finding、resolution、最終判定の派生物であり、手動値を正本にしません。既存のv1〜v3監査、過去raw、history、revision snapshotは互換資産として残します。詳細は `audits/README.md` を参照してください。
+root manifestはrawのhash、finding、resolution、最終判定の派生物であり、手動値を正本にしません。既存のv1〜v3監査、過去raw、history、revision snapshotは互換資産として残します。
 
 ## 検証
 
