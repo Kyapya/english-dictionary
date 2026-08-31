@@ -1,0 +1,453 @@
+{
+  "schema_version": "normal_review_v2",
+  "summary": "Independent checker passes completed by two-stage handoff.",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a05838-2a99-72b1-b906-5d4be7ecb097",
+        "same_model_as_generation": true
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+        "blind_request_sha256": "ab43e9ced68fd43d7e2e1b8c4c456e6032d957eef1434533d2b54201f9d0dbef",
+        "recorded_at": "2026-08-31T14:27:31Z",
+        "axes": [
+          {
+            "item_id": "ant-c52aadd72499",
+            "axis": "見込み",
+            "relation_type": "評価"
+          },
+          {
+            "item_id": "ant-4e7b502379ab",
+            "axis": "希望",
+            "relation_type": "状態"
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-sol",
+          "ingested_by": "human",
+          "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+          "same_model_as_generation": true
+        }
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+        "stage2_request_sha256": "f636ab0ea67509d1e41c25f55d63bbec404e3fb6d530bd7c656bf570b115d5ab",
+        "blind_record_sha256": "8600b2013963c79d5a83a0990fb817a16126897643f8962d34060cb6e799b50b",
+        "recorded_at": "2026-08-31T14:29:18Z",
+        "adjudications": [
+          {
+            "item_id": "ant-4e7b502379ab",
+            "flags": [],
+            "rationale": "希望 は 状態 の関係として本文のsense:001に対応し、補完・程度・方向・評価・状態の軸の取り違えは確認できない。"
+          },
+          {
+            "item_id": "ant-c52aadd72499",
+            "flags": [],
+            "rationale": "見込み は 評価 の関係として本文のsense:004に対応し、補完・程度・方向・評価・状態の軸の取り違えは確認できない。"
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": [],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-sol",
+          "ingested_by": "human",
+          "agent_id": "01a05838-2a99-72b1-b906-5d4be7ecb097",
+          "same_model_as_generation": true
+        }
+      },
+      "aligned_at": "2026-08-31T14:29:24.987840+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+        "same_model_as_generation": true
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+        "blind_request_sha256": "65733dcfc55184268802b6e34a1a462318f941586fdaaee5fc16b3493bba53e1",
+        "recorded_at": "2026-08-31T14:27:31Z",
+        "attributions": [
+          {
+            "example_id": "ex-efdcca9bd0a2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "felt desperate"
+            ],
+            "rationale": "The phrase 'felt desperate' distinguishes the example's sense:001 use: After three days without news, the family felt desperate."
+          },
+          {
+            "example_id": "ex-2f738c2261bb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "increasingly desperate"
+            ],
+            "rationale": "The phrase 'increasingly desperate' distinguishes the example's sense:001 use: The trapped hikers grew increasingly desperate as night fell."
+          },
+          {
+            "example_id": "ex-73e5453fdb1b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "lost everything"
+            ],
+            "rationale": "The phrase 'lost everything' distinguishes the example's sense:001 use: The police were looking for a desperate man who had lost everything."
+          },
+          {
+            "example_id": "ex-50c03426e5ad",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "cry for help"
+            ],
+            "rationale": "The phrase 'cry for help' distinguishes the example's sense:001 use: We heard a desperate cry for help from the riverbank."
+          },
+          {
+            "example_id": "ex-4b90d1e3fdfe",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "anxiety"
+            ],
+            "rationale": "The phrase 'anxiety' distinguishes the example's sense:001 use: Desperate with anxiety, she called every hospital in the city."
+          },
+          {
+            "example_id": "ex-b54f7c1b29fd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "desperate attempt"
+            ],
+            "rationale": "The phrase 'desperate attempt' distinguishes the example's sense:002 use: She made a desperate attempt to reach the child before the door closed."
+          },
+          {
+            "example_id": "ex-d03375fe01f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "bid for victory"
+            ],
+            "rationale": "The phrase 'bid for victory' distinguishes the example's sense:002 use: The team made a desperate bid for victory in the final minute."
+          },
+          {
+            "example_id": "ex-37d057ab67a3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "avoid bankruptcy"
+            ],
+            "rationale": "The phrase 'avoid bankruptcy' distinguishes the example's sense:002 use: The company took desperate measures to avoid bankruptcy."
+          },
+          {
+            "example_id": "ex-423ccf919216",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "save his life"
+            ],
+            "rationale": "The phrase 'save his life' distinguishes the example's sense:002 use: The doctors began a desperate battle to save his life."
+          },
+          {
+            "example_id": "ex-6b6ff41db9c1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "missing child"
+            ],
+            "rationale": "The phrase 'missing child' distinguishes the example's sense:002 use: Volunteers organized a desperate search for the missing child."
+          },
+          {
+            "example_id": "ex-43e15b8ac1f6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "medical treatment"
+            ],
+            "rationale": "The phrase 'medical treatment' distinguishes the example's sense:002 use: The prisoner made a desperate plea for medical treatment."
+          },
+          {
+            "example_id": "ex-2bebca4d3416",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "desperate for help"
+            ],
+            "rationale": "The phrase 'desperate for help' distinguishes the example's sense:003 use: The villagers are desperate for help after the flood."
+          },
+          {
+            "example_id": "ex-a2ffbda604ae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "months of unemployment"
+            ],
+            "rationale": "The phrase 'months of unemployment' distinguishes the example's sense:003 use: He was desperate for a job after months of unemployment."
+          },
+          {
+            "example_id": "ex-0756a6ae7003",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "desperate for attention"
+            ],
+            "rationale": "The phrase 'desperate for attention' distinguishes the example's sense:003 use: The young performer seemed desperate for attention."
+          },
+          {
+            "example_id": "ex-5ab925453dfc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "find a way home"
+            ],
+            "rationale": "The phrase 'find a way home' distinguishes the example's sense:003 use: She was desperate to find a way home before dark."
+          },
+          {
+            "example_id": "ex-2b4048fceda1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "come home safely"
+            ],
+            "rationale": "The phrase 'come home safely' distinguishes the example's sense:003 use: The parents were desperate for their son to come home safely."
+          },
+          {
+            "example_id": "ex-af7332920171",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a coffee"
+            ],
+            "rationale": "The phrase 'a coffee' distinguishes the example's sense:003 use: I'm desperate for a coffee after that early meeting."
+          },
+          {
+            "example_id": "ex-50988792e638",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "evacuate people"
+            ],
+            "rationale": "The phrase 'evacuate people' distinguishes the example's sense:004 use: The aid workers were trying to evacuate people from a desperate situation."
+          },
+          {
+            "example_id": "ex-06867b0211c5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "blood supplies"
+            ],
+            "rationale": "The phrase 'blood supplies' distinguishes the example's sense:004 use: The hospital is in desperate need of blood supplies."
+          },
+          {
+            "example_id": "ex-6f9f7ad3d52a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "clean water"
+            ],
+            "rationale": "The phrase 'clean water' distinguishes the example's sense:004 use: The region is facing a desperate shortage of clean water."
+          },
+          {
+            "example_id": "ex-09b1b472de18",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "prolonged drought"
+            ],
+            "rationale": "The phrase 'prolonged drought' distinguishes the example's sense:004 use: Many small farms are in desperate straits after the prolonged drought."
+          },
+          {
+            "example_id": "ex-f47fe96f6194",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "desperate poverty"
+            ],
+            "rationale": "The phrase 'desperate poverty' distinguishes the example's sense:004 use: The report describes families living in desperate poverty."
+          },
+          {
+            "example_id": "ex-70f341671955",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "desperate condition"
+            ],
+            "rationale": "The phrase 'desperate condition' distinguishes the example's sense:004 use: The patient was in a desperate condition when the ambulance arrived."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-sol",
+          "ingested_by": "human",
+          "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+          "same_model_as_generation": true
+        }
+      },
+      "aligned_at": "2026-08-31T14:27:39.452140+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "pronunciation",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+        "same_model_as_generation": true
+      }
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "unrouted_observations": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-sol",
+        "ingested_by": "human",
+        "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+        "same_model_as_generation": true
+      }
+    }
+  ],
+  "independent_candidates": [
+    {
+      "id": "cand-desperate-core",
+      "surface_form": "desperate",
+      "frame": "adjective: be/feel desperate; desperate for NP; desperate to VP; attributive desperate attempt/situation",
+      "meaning": "希望や余裕がほとんどなく、必死・極度に切迫した",
+      "disposition": "included",
+      "rationale": "The surface form desperate in the adjective frame expresses the core meaning of extreme urgency and little hope.",
+      "article_target_ids": [
+        "sense_boundary:001",
+        "sense_boundary:002",
+        "sense_boundary:003",
+        "sense_boundary:004"
+      ],
+      "evidence_link_ids": [
+        "E-001"
+      ]
+    }
+  ],
+  "unrouted_observations": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "01a05838-2a99-72b1-b906-5d4be7ecb097",
+    "same_model_as_generation": true
+  },
+  "stage": "normal_review",
+  "run_id": "normal-desperate-20260831T140833Z-079ebda0",
+  "context_id": "normal-desperate-context-20260831T140833Z-079ebda0",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-08-31T14:27:39.451818+00:00"
+}
