@@ -1,0 +1,292 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 52,
+        "label": "1. 【名詞・可算】寸法、ある方向への長さ・幅・高さ・深さ",
+        "definition": "物体や空間を、長さ、幅、高さ、深さ、直径などの一つの方向に沿って測った広がり。複数の方向の数値全体をいうときは dimensions と複数形にすることが多い。単位を伴う数値だけでなく、測定の軸そのものを指すこともある。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 116,
+        "label": "2. 【名詞・通常複数】寸法の組合せ、サイズ、外形",
+        "definition": "物体や場所の長さ・幅・高さ・深さなどを組み合わせて表す、全体的な大きさや比例関係。特定の一方向ではなく、物を収納・設計・比較するための寸法全体をいう。dimensions of 〈物体〉 の形が特に一般的である。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 180,
+        "label": "3. 【名詞・可算】（問題・経験などの）側面、局面、要素",
+        "definition": "複雑な問題、活動、経験、人物、計画などを理解するときの一つの観点・構成要素。単なる「部分」ではなく、社会的、政治的、倫理的、心理的など、対象を捉える分析上の軸を表す。dimension to 〈対象〉、dimension of 〈対象〉 の形が使われる。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 254,
+        "label": "4. 【名詞・通常複数】（問題・出来事などの）規模、範囲、程度、深刻さ",
+        "definition": "問題、災害、変化、市場などがどれほど広く、大きく、深刻に及ぶかという全体的な規模・範囲。dimensions は通常複数形で使われ、個別の側面ではなく、対象の広がりや重大さを評価する。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 318,
+        "label": "5. 【名詞・数学・幾何学】位置や空間を定める独立した方向の数、次元",
+        "definition": "点の位置や数学的対象を指定するために必要な、互いに独立した方向・自由度の数。直線は1次元、平面は2次元、通常の立体空間は3次元である。数学では、曲がった空間、ベクトル空間、抽象空間などにも一般化され、必ずしも目に見える方向だけを指さない。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 382,
+        "label": "6. 【名詞・物理学】物理量を構成する基本量の種類・指数、次元式",
+        "definition": "速度、力、エネルギーなどの物理量が、長さ、質量、時間などの基本量の組合せとしてどのような性質を持つかを示す関係。たとえば速度の次元は長さを時間で割ったものとして表され、単位そのものとは区別される。dimension はこの意味で、基本量の種類またはそれらに付く指数を指す。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 446,
+        "label": "7. 【名詞・可算】別の存在領域、異次元、現実とは異なる層",
+        "definition": "通常の空間・現実とは別の存在の領域や、そこへ広がる世界。SF、ファンタジー、ゲームなどで並行世界・異世界を指す。another dimension、a parallel dimension の形でよく使う。"
+      },
+      {
+        "sense_id": "sense:008",
+        "line": 500,
+        "label": "8. 【他動詞・技術・主に設計】必要な寸法に形作る、図面に寸法を記入する",
+        "definition": "部品、板材、空間などを必要な寸法になるよう設計・加工する。また、図面や計画書に、長さ・幅・高さなどの寸法を記入して示す。一般会話で「測る」という意味に広く使う動詞ではなく、製造、建築、設計、CADなどの技術文脈で使われる。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-874ba234fcac",
+        "example": "The software lets students view the molecule in three dimensions.",
+        "translation": "そのソフトウェアを使うと、学生は分子を三次元で見ることができる。"
+      },
+      {
+        "example_id": "ex-7b4953aee11d",
+        "example": "I checked the dimensions of the table before buying it.",
+        "translation": "私はそのテーブルを買う前に寸法を確認した。"
+      },
+      {
+        "example_id": "ex-1e0f7c535e15",
+        "example": "The novel imagines a parallel dimension in which history took a different path.",
+        "translation": "その小説は、歴史が別の道をたどった並行世界を想像している。"
+      },
+      {
+        "example_id": "ex-68f09f5bcff4",
+        "example": "Please send us the exact dimensions of the doorway.",
+        "translation": "出入口の正確な寸法を私たちに送ってください。"
+      },
+      {
+        "example_id": "ex-e399cc41c7bc",
+        "example": "The catalog lists the overall dimensions but not the weight.",
+        "translation": "カタログには全体寸法は載っているが、重量は載っていない。"
+      },
+      {
+        "example_id": "ex-c05a2d8f5770",
+        "example": "The panel has a dimension of 80 centimeters along its longest side.",
+        "translation": "そのパネルは最も長い辺の方向で80センチメートルの寸法がある。"
+      },
+      {
+        "example_id": "ex-10aa2b7cec4e",
+        "example": "The machinist dimensioned the bracket to fit the new housing.",
+        "translation": "機械工は新しい筐体に合うようブラケットの寸法を仕上げた。"
+      },
+      {
+        "example_id": "ex-34ed792ddd24",
+        "example": "The dimensions of velocity are length divided by time.",
+        "translation": "速度の次元は、長さを時間で割ったものである。"
+      },
+      {
+        "example_id": "ex-d0e4eb0125d3",
+        "example": "Live music brings a different dimension to the experience.",
+        "translation": "生演奏は、その体験に別の側面・新たな要素を加える。"
+      },
+      {
+        "example_id": "ex-96cbdbb5486d",
+        "example": "What began as a local dispute soon took on global dimensions.",
+        "translation": "地域的な対立として始まったものが、すぐに世界的な規模を帯びた。"
+      },
+      {
+        "example_id": "ex-ec7a1d5833db",
+        "example": "Make sure the package fits within the dimensions allowed by the carrier.",
+        "translation": "その荷物が配送業者の許容寸法内に収まることを確認してください。"
+      },
+      {
+        "example_id": "ex-a6d24cfbcc3e",
+        "example": "The robot maps its position in a three-dimensional space.",
+        "translation": "そのロボットは三次元空間内で自分の位置を地図化する。"
+      },
+      {
+        "example_id": "ex-9272d827b004",
+        "example": "The characters pass into another dimension when the clock strikes twelve.",
+        "translation": "時計が12時を打つと、登場人物たちは別の次元へ移る。"
+      },
+      {
+        "example_id": "ex-67b757a27b70",
+        "example": "The dimension of this vector space is four.",
+        "translation": "このベクトル空間の次元は4である。"
+      },
+      {
+        "example_id": "ex-6fd2fd08fce1",
+        "example": "Check the height dimension before you install the cabinet.",
+        "translation": "その戸棚を設置する前に、高さ方向の寸法を確認してください。"
+      },
+      {
+        "example_id": "ex-db810532ec4a",
+        "example": "The report explains the financial costs but ignores the human dimension.",
+        "translation": "その報告書は金銭的費用を説明しているが、人間的な側面を無視している。"
+      },
+      {
+        "example_id": "ex-2783f91047de",
+        "example": "We still do not understand the full dimensions of the problem.",
+        "translation": "私たちはその問題の全体的な規模をまだ理解していない。"
+      },
+      {
+        "example_id": "ex-920de1b1f66c",
+        "example": "A point on a one-dimensional line can be identified by one coordinate.",
+        "translation": "一次元の線上の点は、一つの座標で特定できる。"
+      },
+      {
+        "example_id": "ex-481186b0b1c3",
+        "example": "The theory describes particles moving through higher dimensions.",
+        "translation": "その理論は高次元を移動する粒子を記述する。"
+      },
+      {
+        "example_id": "ex-cf8885032f6d",
+        "example": "The replacement panel was dimensioned to fit the existing frame.",
+        "translation": "交換用パネルは既存の枠に合うよう寸法が定められていた。"
+      },
+      {
+        "example_id": "ex-5f4cb952d818",
+        "example": "The drought developed into a crisis of enormous dimensions.",
+        "translation": "その干ばつは非常に大規模な危機へ発展した。"
+      },
+      {
+        "example_id": "ex-9cdef1de1d5f",
+        "example": "The contractor requested a fully dimensioned drawing before construction began.",
+        "translation": "請負業者は工事開始前に、必要寸法をすべて記入した図面を求めた。"
+      },
+      {
+        "example_id": "ex-cc06c99b8319",
+        "example": "Please dimension the drawing before sending it to the supplier.",
+        "translation": "供給業者へ送る前に、その図面へ寸法を記入してください。"
+      },
+      {
+        "example_id": "ex-c20adefe2e79",
+        "example": "The museum is a structure of considerable dimensions, with galleries on four floors.",
+        "translation": "その博物館は4階にわたって展示室を持つ、かなり大きな建物である。"
+      },
+      {
+        "example_id": "ex-c0712e4961d2",
+        "example": "The company is facing a problem of considerable dimensions.",
+        "translation": "その会社はかなり大きな問題に直面している。"
+      },
+      {
+        "example_id": "ex-e4a14d3b771b",
+        "example": "The housing shortage has a serious social dimension.",
+        "translation": "住宅不足には深刻な社会的側面がある。"
+      },
+      {
+        "example_id": "ex-9dd3861d4973",
+        "example": "In the game, the hero enters another dimension through a hidden door.",
+        "translation": "そのゲームでは、主人公が隠し扉を通って別の次元へ入る。"
+      },
+      {
+        "example_id": "ex-d99c49a7911a",
+        "example": "Her research adds a new dimension to the debate about online privacy.",
+        "translation": "彼女の研究は、オンラインプライバシーをめぐる議論に新たな側面を加えている。"
+      },
+      {
+        "example_id": "ex-0f7a13684df8",
+        "example": "Always check the dimensions before substituting numerical values.",
+        "translation": "数値を代入する前に、必ず次元を確認しなさい。"
+      },
+      {
+        "example_id": "ex-d03d2d78bf24",
+        "example": "The technician measured each dimension of the opening before ordering the frame.",
+        "translation": "技術者は枠を注文する前に、開口部の各寸法を測った。"
+      },
+      {
+        "example_id": "ex-dbd99a53159e",
+        "example": "Torque has the dimensions of force multiplied by length.",
+        "translation": "トルクは力に長さを掛けたものと同じ次元を持つ。"
+      },
+      {
+        "example_id": "ex-6a37e6a8cb8f",
+        "example": "The dispute took on a personal dimension after the two managers exchanged accusations.",
+        "translation": "2人の管理職が非難を交わした後、その対立は個人的な側面を帯びた。"
+      },
+      {
+        "example_id": "ex-a2f41838988f",
+        "example": "The boards were dimensioned for use in the staircase.",
+        "translation": "その板材は階段に使うための寸法に加工された。"
+      },
+      {
+        "example_id": "ex-a8850cdaa5a3",
+        "example": "The ceremony has a spiritual dimension.",
+        "translation": "その儀式には精神的・宗教的な側面がある。"
+      },
+      {
+        "example_id": "ex-e215f7a92150",
+        "example": "The dimension of the opening is too small for the replacement part.",
+        "translation": "その開口部の寸法は交換部品には小さすぎる。"
+      },
+      {
+        "example_id": "ex-e4740062b683",
+        "example": "Dimensional analysis can reveal an error in the proposed equation.",
+        "translation": "次元解析によって、提案された式の誤りを明らかにできる。"
+      },
+      {
+        "example_id": "ex-77f7020fc160",
+        "example": "The ratio of two lengths is a dimensionless quantity.",
+        "translation": "2つの長さの比は無次元量である。"
+      },
+      {
+        "example_id": "ex-5228b50c72ed",
+        "example": "The decision has an important ethical dimension that cannot be reduced to profit.",
+        "translation": "その決定には、利益だけに還元できない重要な倫理的側面がある。"
+      },
+      {
+        "example_id": "ex-0de408e518e1",
+        "example": "Investigators are still assessing the full dimensions of the fraud.",
+        "translation": "捜査官たちは詐欺事件の全体的な規模をまだ評価している。"
+      },
+      {
+        "example_id": "ex-ba8146c80f1c",
+        "example": "The design can be viewed in two dimensions or as a solid model.",
+        "translation": "その設計は二次元で、または立体モデルとして見ることができる。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
