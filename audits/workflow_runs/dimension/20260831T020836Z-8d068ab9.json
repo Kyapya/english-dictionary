@@ -23,7 +23,7 @@
   "started_at": "2026-08-31T02:08:36Z",
   "deadline_at": "2026-08-31T03:08:36Z",
   "pre_draft_deadline_at": "2026-08-31T02:28:36Z",
-  "last_heartbeat_at": "2026-08-31T02:17:40Z",
+  "last_heartbeat_at": "2026-08-31T02:42:50Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-31T02:10:06Z",
@@ -438,14 +438,14 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 1,
-    "total_duration_seconds": 0.0,
+    "total_duration_seconds": 0,
     "completed_at": "",
     "stages": [
       {
         "id": "guard_start",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": true
@@ -454,7 +454,7 @@
         "id": "generation",
         "instruction_bytes": 53277,
         "input_bytes": 40862,
-        "duration_seconds": 1.0,
+        "duration_seconds": 1,
         "defects_detected": 5,
         "revision_count": 1,
         "completed": true
@@ -463,7 +463,7 @@
         "id": "mechanical_validator",
         "instruction_bytes": 0,
         "input_bytes": 40862,
-        "duration_seconds": 1.0,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": true
@@ -472,7 +472,7 @@
         "id": "checker_passes",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -481,7 +481,7 @@
         "id": "cold_review",
         "instruction_bytes": 1419,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -490,7 +490,7 @@
         "id": "final_blind",
         "instruction_bytes": 1735,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -499,7 +499,7 @@
         "id": "blind_seal",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -508,7 +508,7 @@
         "id": "finding_resolution",
         "instruction_bytes": 1492,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -517,7 +517,7 @@
         "id": "final_review",
         "instruction_bytes": 3065,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -526,7 +526,7 @@
         "id": "status_update",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -535,7 +535,7 @@
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -546,7 +546,7 @@
         "id": "translation",
         "instruction_bytes": 2402,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -554,7 +554,7 @@
         "id": "sense-structure",
         "instruction_bytes": 3031,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -562,7 +562,7 @@
         "id": "frame-relation",
         "instruction_bytes": 8294,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -570,7 +570,7 @@
         "id": "example-attribution",
         "instruction_bytes": 4133,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -578,7 +578,7 @@
         "id": "qualification",
         "instruction_bytes": 2876,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -586,7 +586,7 @@
         "id": "pronunciation",
         "instruction_bytes": 1815,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -594,7 +594,7 @@
         "id": "evidence",
         "instruction_bytes": 2687,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       }
@@ -605,7 +605,7 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 1.0,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "completed": true
       },
@@ -614,7 +614,7 @@
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 1.0,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "completed": true
       },
@@ -623,7 +623,7 @@
         "status": "active",
         "instruction_bytes": 276,
         "input_bytes": 0,
-        "duration_seconds": 1.0,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "completed": true
       }
