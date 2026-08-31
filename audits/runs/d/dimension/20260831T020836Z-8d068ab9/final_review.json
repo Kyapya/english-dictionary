@@ -1,0 +1,1777 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
+  "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
+  "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+  "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+  "recorded_at": "2026-08-31T03:45:00Z",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a055db-3071-72b0-b3f7-cbdd826a70a3",
+    "same_model_as_generation": true
+  },
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "独立最終レビューで、指定修正事項に関する blocking な誤りはないと判定した。",
+    "発音派生語の網羅や表現の微調整に関する提案は、今回の明確な誤りだけを直す方針の範囲外として採用しなかった。"
+  ],
+  "blind_output_sha256": "fec3eb4f17188b573160528eac5f220889bade8b1f295b2e04af1c95bbbd7803",
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark001]: 米: /dɪˈmenʃən/ が主要な掲載形で、/daɪˈmenʃən/ も認められる。英: /daɪˈmenʃən/ を主要な掲載形として載せる辞書が多いが、/dɪˈmenʃən/ も認められる。いずれも3音節で、第2音節の /men/ に主強勢がある。最初の音節は弱く、語末の /ʃən/ は「ション」に近い。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。"
+    },
+    {
+      "id": "pronunciation:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark002]: 複数形 dimensions は /dɪˈmenʃənz/、/daɪˈmenʃənz/。語末の -s は通常 /z/ で、dimensions of ... のように名詞の複数形として使う。動詞 dimension も /dɪˈmenʃən/、/daɪˈmenʃən/ があり、過去形・過去分詞 dimensioned は /dɪˈmenʃənd/、/daɪˈmenʃənd/、-ing形 dimensioning は /dɪˈmenʃənɪŋ/、/daɪˈmenʃənɪŋ/ となる。"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark003]: 中英語 dimensioun が古フランス語を経て、ラテン語 dimensio(n-)「測定、広がり」にさかのぼる。dimensio は dimetiri「測り出す、測定する」の過去分詞に関係し、dis-「離して、分けて」＋ metiri「測る」という構成を持つ。まず「ある方向へ測った広がり」という意味があり、そこから空間の広がり、物事の規模、抽象的な側面、数学・物理学の技術概念へ広がった。"
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark004]: 「問題の社会的側面」や「別の次元」のような抽象用法も、何かを一つの方向・軸から捉えるという発想と結び付く。ただし、物体の寸法と数学・物理学で定義される次元は、現代の用法では別の専門概念である。語源が共通するからといって、すべての用法を「大きさ」とだけ理解しない。"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark005]: ・dimensions：dimension の複数形。物体の長さ・幅・高さなどの寸法の集合、または問題・災害などの規模を表す。抽象的な側面を複数挙げる場合にも使う。"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark006]: ・dimensional：次元・寸法に関する。「三次元の」「多面的な」の意味で使う。"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark007]: ・dimensionless：物理量の次元を持たない。数学・物理の専門語で、単に「小さい」という意味ではない。"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark008]: ・multidimensional：複数の次元を持つ、または複数の側面を持つ。物理的・数学的にも比喩的にも使う。"
+    },
+    {
+      "id": "word_formation:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark009]: ・one-dimensional / two-dimensional / three-dimensional：1次元・2次元・3次元の。また、比喩的に「単面的な」「立体感のある」を表すことがある。"
+    },
+    {
+      "id": "word_formation:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark010]: ・dimensioned / dimensioning：動詞 dimension の過去分詞・現在分詞。図面に寸法を記入した、または必要寸法を定めているという技術用法で使う。"
+    },
+    {
+      "id": "word_formation:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark011]: ・dimension stone：建築用に所定の寸法へ切り出した石材を表す複合表現。dimension 単独の一般義と混同しない。"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark012]: dimension の中心には、「対象をある測定軸・広がり・観点に沿って捉える」という核がある。物体なら長さ・幅・高さのような空間上の軸、問題なら社会・政治・倫理のような分析軸、数学なら位置を決める独立した軸、物理学なら量を構成する基本量の組合せになる。"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark013]: ・物体を一方向に測った広がり → 「寸法、長さ・幅・高さなど」（語義1）"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark014]: ・物体の複数の寸法を合わせた大きさ・形 → 「寸法、サイズ、外形」（語義2）"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark015]: ・問題や経験を捉える一つの観点 → 「側面、局面、要素」（語義3）"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark016]: ・問題や出来事が広がる範囲・程度 → 「規模、範囲、深刻さ」（語義4）"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark017]: ・位置や空間を定める独立した方向・数 → 「次元」（語義5）"
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark018]: ・物理量を表す基本量の種類・指数 → 「次元、次元式」（語義6）"
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark019]: ・現実とは別の存在の領域 → 「異次元、別世界、層」（語義7）"
+    },
+    {
+      "id": "core_image:009",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark020]: ・必要な寸法に合わせ、または図面上に寸法を示す → 「寸法を定める、寸法を記入する」（語義8）"
+    },
+    {
+      "id": "core_image:010",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark021]: 語義3の「側面」と語義4の「規模」は、どちらも対象を別の軸から捉える比喩用法だが、語義3は「何の側面か」、語義4は「どの程度の広がりか」に焦点がある。語義5と語義6は専門概念として近いが、語義5は空間・数学的対象の独立方向や自由度、語義6は物理量を基本量で表す関係を指す。"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark022]: 1. 【名詞・可算】寸法、ある方向への長さ・幅・高さ・深さ"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark023]: 物体や空間を、長さ、幅、高さ、深さ、直径などの一つの方向に沿って測った広がり。複数の方向の数値全体をいうときは dimensions と複数形にすることが多い。単位を伴う数値だけでなく、測定の軸そのものを指すこともある。"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark024]: 〈9/10〉"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark025]: 標準的な一般語。日常の買い物、引っ越し、建築、製造、設計、数学・測定で広く使う。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark026]: the dimension of 〈物体・空間〉＝物体・空間の一方向の寸法"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark027]: measure/check a dimension＝寸法を測る・確認する"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark028]: the 〈長さ・幅・高さ〉 dimension＝長さ・幅・高さ方向の寸法"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark029]: in one/two/three dimensions＝1・2・3次元で"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark030]: a dimension of 〈数値〉＝〈数値〉の寸法"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark031]: ・the length/width/height dimension\n用途: 物体の長さ・幅・高さという特定の測定方向を表す。\n例: Check the height dimension before you install the cabinet.\n訳: その戸棚を設置する前に、高さ方向の寸法を確認してください。"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark032]: ・measure a dimension\n用途: 物体や空間の特定方向の広がりを測定する。\n例: The technician measured each dimension of the opening before ordering the frame.\n訳: 技術者は枠を注文する前に、開口部の各寸法を測った。"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark033]: ・the dimension of the opening\n用途: 窓、入口、穴などの一方向の大きさを表す。\n例: The dimension of the opening is too small for the replacement part.\n訳: その開口部の寸法は交換部品には小さすぎる。"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark034]: ・in three dimensions\n用途: 長さ・幅・高さを持つ通常の立体空間で扱うことを表す。\n例: The software lets students view the molecule in three dimensions.\n訳: そのソフトウェアを使うと、学生は分子を三次元で見ることができる。"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark035]: ・a dimension of 〈数値・単位〉\n用途: 特定方向の測定値を示す。\n例: The panel has a dimension of 80 centimeters along its longest side.\n訳: そのパネルは最も長い辺の方向で80センチメートルの寸法がある。"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark036]: 一方向の寸法を一つだけ指すなら a dimension of the room のように単数形が使える。長さ・幅・高さなどの数値をまとめて尋ねる場合は What are the dimensions of the room? が自然である。dimensions は「寸法の数が三つ」という意味に限らず、物体を規定する複数の測定値全体を表す。"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark037]: size は物体の全体的な大きさを表し、どの方向を測ったかを明示しない。dimension は特定の測定軸・数値に焦点がある。長さ・幅・高さを区別して伝える場面では size だけで済ませない。"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark038]: ・measurement\n定義: 何かを測って得た数値、または測定という行為。\n頻度: 〈9/10〉\n違い: measurement は測定結果一般を指し、温度や時間にも使える。dimension は特に空間的な広がりや測定方向を表す。\n例: Record the measurement to the nearest millimeter.\n訳: 測定値を1ミリメートル単位まで記録しなさい。"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark039]: ・length\n定義: 物体や距離の、通常は最も長い方向の寸法。\n頻度: 〈10/10〉\n違い: length は一つの具体的な方向を表す。dimension は length だけでなく width、height、depth なども含む上位の語である。\n例: The length of the cable is five meters.\n訳: そのケーブルの長さは5メートルである。"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark040]: ・extent\n定義: 何かが広がっている範囲・程度。\n頻度: 〈8/10〉\n違い: extent は空間だけでなく時間・影響の広がりにも使える。dimension は測定可能な方向や軸をより具体的に示す。\n例: We have not yet determined the full extent of the damage.\n訳: 被害の全範囲はまだ確定していない。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark041]: 2. 【名詞・通常複数】寸法の組合せ、サイズ、外形"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark042]: 物体や場所の長さ・幅・高さ・深さなどを組み合わせて表す、全体的な大きさや比例関係。特定の一方向ではなく、物を収納・設計・比較するための寸法全体をいう。dimensions of 〈物体〉 の形が特に一般的である。"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark043]: 〈9/10〉"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark044]: 標準的な一般語。家具、荷物、部屋、建築、製品仕様、設計、物流で広く使う。"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark045]: the dimensions of 〈物体・場所〉＝～の寸法"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark046]: exact/overall dimensions＝正確な・全体の寸法"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark047]: fit within 〈寸法〉＝～の寸法内に収まる"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark048]: be of modest/considerable dimensions＝小規模な・かなり大きな規模である"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark049]: give/provide the dimensions＝寸法を示す"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark050]: ・the exact dimensions of 〈物体・場所〉\n用途: 物体や空間の正確な長さ・幅・高さなどを表す。\n例: Please send us the exact dimensions of the doorway.\n訳: 出入口の正確な寸法を私たちに送ってください。"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark051]: ・fit within the dimensions\n用途: 指定された寸法の範囲内に物が収まることを表す。\n例: Make sure the package fits within the dimensions allowed by the carrier.\n訳: その荷物が配送業者の許容寸法内に収まることを確認してください。"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark052]: ・the overall dimensions\n用途: 個別の部品ではなく、物体全体の外側の寸法を表す。\n例: The catalog lists the overall dimensions but not the weight.\n訳: カタログには全体寸法は載っているが、重量は載っていない。"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark053]: ・a structure of considerable dimensions\n用途: 建物などがかなり大きいことをやや硬く述べる。\n例: The museum is a structure of considerable dimensions, with galleries on four floors.\n訳: その博物館は4階にわたって展示室を持つ、かなり大きな建物である。"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark054]: ・the dimensions of the table\n用途: 日常の家具などの縦・横・高さの寸法をまとめて尋ねる。\n例: I checked the dimensions of the table before buying it.\n訳: 私はそのテーブルを買う前に寸法を確認した。"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark055]: 寸法を複数まとめて表す dimensions は、単一の物体にも使う。The dimensions are ... のように複数扱いするが、これは複数の物体を意味しない。幅・高さ・奥行きを一組の仕様として示すための複数形である。"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark056]: dimensions は文脈によって、単なる数値の組合せだけでなく、物体の外形・比例や建物の大きさを含む。measurements は実際に測定して得た値・測定値に焦点を置きやすく、dimensions は物体の長さ・幅・高さなどの空間的寸法やその組合せに焦点を置きやすい。物体の寸法値を述べる場面では両者が重なるため、exact dimensions、precise dimensions も普通に使う。"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark057]: ・size\n定義: 人・物・場所がどの程度大きいかという全体的な大きさ。\n頻度: 〈10/10〉\n違い: size は衣服の規格や大・中・小の区分にも使える。dimensions は長さ・幅・高さなど、具体的な数値の組合せを示す。\n例: The box is the right size, but its dimensions are slightly different from the old one.\n訳: その箱は大きさは適切だが、寸法は古い箱と少し異なる。"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark058]: ・proportions\n定義: 各部分の大きさの相互関係、全体の縦横比。\n頻度: 〈7/10〉\n違い: proportions は形のバランスや部分間の比率に焦点がある。dimensions は比率に限らず、実際の測定値を表す。\n例: The building has elegant proportions despite its large dimensions.\n訳: その建物は大きな寸法を持つにもかかわらず、優雅な外形比率をしている。"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark059]: ・measurements\n定義: 測定して得られた数値。\n頻度: 〈9/10〉\n違い: measurements は身体、温度、時間などにも使える一般語。dimensions は特に物体・空間の大きさを規定する測定値の組合せに向く。\n例: The tailor took my measurements for the suit.\n訳: 仕立屋はスーツのために私の寸法を測った。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark060]: 3. 【名詞・可算】（問題・経験などの）側面、局面、要素"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark061]: 複雑な問題、活動、経験、人物、計画などを理解するときの一つの観点・構成要素。単なる「部分」ではなく、社会的、政治的、倫理的、心理的など、対象を捉える分析上の軸を表す。dimension to 〈対象〉、dimension of 〈対象〉 の形が使われる。"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark062]: 〈9/10〉"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark063]: 標準～やや形式的。報道、評論、学術、ビジネス、政策、人物・作品の評価で非常によく使う。"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark064]: a dimension of 〈問題・活動〉＝～の一側面"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark065]: a dimension to 〈問題・経験〉＝～に加わる一側面"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark066]: add/give/bring a new dimension to 〈対象〉＝対象に新しい側面を加える"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark067]: consider/explore the 〈社会・政治・倫理〉 dimension＝～の側面を考慮・探究する"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark068]: have a personal/human dimension＝個人的・人間的な側面を持つ"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark069]: a spiritual/psychological dimension＝精神的・心理的な側面"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark070]: ・a social/political dimension\n用途: 問題や計画に社会的・政治的な側面があることを示す。\n例: The housing shortage has a serious social dimension.\n訳: 住宅不足には深刻な社会的側面がある。"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark071]: ・add a new dimension to 〈対象〉\n用途: 新しい観点・要素を加えて、対象の捉え方を広げる。\n例: Her research adds a new dimension to the debate about online privacy.\n訳: 彼女の研究は、オンラインプライバシーをめぐる議論に新たな側面を加えている。"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark072]: ・the human dimension\n用途: 数字や制度だけでは捉えられない、人の感情・生活・経験に関わる側面を表す。\n例: The report explains the financial costs but ignores the human dimension.\n訳: その報告書は金銭的費用を説明しているが、人間的な側面を無視している。"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark073]: ・a moral/ethical dimension\n用途: 問題に道徳・倫理上の判断が関わることを示す。\n例: The decision has an important ethical dimension that cannot be reduced to profit.\n訳: その決定には、利益だけに還元できない重要な倫理的側面がある。"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark074]: ・a personal dimension to 〈出来事・問題〉\n用途: 公的な問題などに、関係者個人の経験や感情が絡むことを示す。\n例: The dispute took on a personal dimension after the two managers exchanged accusations.\n訳: 2人の管理職が非難を交わした後、その対立は個人的な側面を帯びた。"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark075]: ・a spiritual dimension\n用途: 物事に宗教的・精神的な側面があることを示す。\n例: The ceremony has a spiritual dimension.\n訳: その儀式には精神的・宗教的な側面がある。"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark076]: ・a different dimension of experience\n用途: 経験や公演に新たな側面・質を加えることを比喩的に表す。\n例: Live music brings a different dimension to the experience.\n訳: 生演奏は、その体験に別の側面・新たな要素を加える。"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark077]: この語義では dimension は aspect、side、facet と近いが、dimension のほうが対象を分析する軸や、問題に新たに加わる要素という響きを持つ。a new dimension to the problem は「問題に新たな側面が加わった」であり、物理的な大きさが増えたという意味ではない。"
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark078]: 通常、dimension to 〈対象〉では to の後ろに、側面が加わる問題・活動・経験などを置く。dimension of 〈対象〉では、対象を構成する一側面として述べる。どちらも可能な場合があるが、前置詞を機械的に入れ替えず、add a dimension to、the social dimension of のような定着した組合せで覚える。"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark079]: ・aspect\n定義: 物事を考えたり説明したりするときの一つの側面・観点。\n頻度: 〈10/10〉\n違い: aspect は最も中立的で広い。dimension は、その側面が問題の構造や分析軸として意味を持つことをやや強く示す。\n例: We need to examine every aspect of the proposal.\n訳: 私たちはその提案のあらゆる側面を検討する必要がある。"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark080]: ・facet\n定義: 複雑な物事を構成する一つの面・側面。\n頻度: 〈7/10〉\n違い: facet は多面的な対象の一面を視覚的に際立たせる。dimension は社会的・倫理的な分析軸や新しい要素にも自然に使える。\n例: Trust is an important facet of effective leadership.\n訳: 信頼は効果的なリーダーシップの重要な一面である。"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark081]: ・angle\n定義: 問題を検討・提示する特定の見方や切り口。\n頻度: 〈9/10〉\n違い: angle は議論や報道で選ぶ「切り口」という意図が強い。dimension は話者が選んだ切り口に限らず、問題に実際に存在する構成面も表せる。\n例: The article approaches the issue from an economic angle.\n訳: その記事はその問題を経済的な切り口から扱っている。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark082]: 4. 【名詞・通常複数】（問題・出来事などの）規模、範囲、程度、深刻さ"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark083]: 問題、災害、変化、市場などがどれほど広く、大きく、深刻に及ぶかという全体的な規模・範囲。dimensions は通常複数形で使われ、個別の側面ではなく、対象の広がりや重大さを評価する。"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark084]: 〈8/10〉"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark085]: 標準～やや形式的。報道、分析、政策、経済、災害・危機の説明で使う。重大性を強調する硬めの表現になりやすい。"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark086]: the dimensions of 〈問題・危機・市場〉＝～の規模・範囲"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark087]: a problem of considerable/enormous dimensions＝かなりの・非常に大規模な問題"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark088]: understand/grasp the dimensions of 〈出来事〉＝出来事の全体規模を理解する"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark089]: take on/acquire global dimensions＝世界的な規模を帯びる"
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark090]: ・the dimensions of the problem\n用途: 問題がどの範囲・程度に及ぶかをまとめて表す。\n例: We still do not understand the full dimensions of the problem.\n訳: 私たちはその問題の全体的な規模をまだ理解していない。"
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark091]: ・a crisis of enormous dimensions\n用途: 危機が非常に大きく深刻であることを強調する。\n例: The drought developed into a crisis of enormous dimensions.\n訳: その干ばつは非常に大規模な危機へ発展した。"
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark092]: ・the full dimensions of 〈出来事〉\n用途: 表面に見える部分を超えた全体の範囲・影響を表す。\n例: Investigators are still assessing the full dimensions of the fraud.\n訳: 捜査官たちは詐欺事件の全体的な規模をまだ評価している。"
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark093]: ・take on global dimensions\n用途: 問題や活動が世界的な広がりを持つようになることを表す。\n例: What began as a local dispute soon took on global dimensions.\n訳: 地域的な対立として始まったものが、すぐに世界的な規模を帯びた。"
+    },
+    {
+      "id": "collocation:022",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark094]: ・a problem of considerable dimensions\n用途: 問題がかなり大きいことを形式的に述べる。\n例: The company is facing a problem of considerable dimensions.\n訳: その会社はかなり大きな問題に直面している。"
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark095]: 語義3の dimension は「社会的・倫理的な側面」のように何の観点かを表すのに対し、語義4の dimensions は「どの程度の規模か」を表す。the political dimensions of the crisis は政治的側面、the dimensions of the crisis は危機全体の規模という違いがある。"
+    },
+    {
+      "id": "usage_note:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark096]: この語義では dimensions が複数形になるのが普通だが、物理的寸法を表しているとは限らない。問題の大きさを単純に size と言うより、広がり、複雑さ、影響の大きさをまとめて評価する硬い表現である。"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark097]: ・scope\n定義: 活動・問題・権限などが及ぶ範囲。\n頻度: 〈9/10〉\n違い: scope は「どこまで含むか」という境界・範囲に焦点がある。dimensions は範囲に加えて、規模や深刻さまで含めて捉えやすい。\n例: The scope of the investigation has been widened.\n訳: 調査の範囲が広げられた。"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark098]: ・scale\n定義: 物事の大きさ・広がり・程度を比較する尺度。\n頻度: 〈10/10〉\n違い: scale は実際の大きさや規模を直接的に表す。dimensions は問題が持つ複数の広がりや重大さを分析的に述べる、やや硬い語である。\n例: The scale of the operation surprised local officials.\n訳: その作戦の規模は地元当局を驚かせた。"
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark099]: ・magnitude\n定義: 事象の大きさ・強さ・重大さ。\n頻度: 〈7/10〉\n違い: magnitude は地震、損失、変化などの大きさを強く強調する。dimensions は大きさだけでなく、問題が展開する範囲や構造も含み得る。\n例: The magnitude of the loss was not clear at first.\n訳: 損失の大きさは当初は明らかでなかった。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark100]: 5. 【名詞・数学・幾何学】位置や空間を定める独立した方向の数、次元"
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark101]: 点の位置や数学的対象を指定するために必要な、互いに独立した方向・自由度の数。直線は1次元、平面は2次元、通常の立体空間は3次元である。数学では、曲がった空間、ベクトル空間、抽象空間などにも一般化され、必ずしも目に見える方向だけを指さない。"
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark102]: 〈7/10〉"
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark103]: 数学、幾何学、物理学、コンピューターグラフィックス、データ分析。専門用語として標準的。一般説明でも three dimensions、higher dimensions はよく使う。"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark104]: one/two/three dimensions＝1・2・3次元"
+    },
+    {
+      "id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark105]: an n-dimensional space＝n次元空間"
+    },
+    {
+      "id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark106]: the dimension of 〈空間・ベクトル空間〉＝～の次元"
+    },
+    {
+      "id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark107]: locate/represent 〈点・対象〉 in 〈次元〉＝～次元で位置を定める・表す"
+    },
+    {
+      "id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark108]: higher/extra dimensions＝高次元・余剰次元"
+    },
+    {
+      "id": "collocation:023",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark109]: ・a three-dimensional space\n用途: 長さ・幅・高さの三つの独立方向を持つ空間を表す。\n例: The robot maps its position in a three-dimensional space.\n訳: そのロボットは三次元空間内で自分の位置を地図化する。"
+    },
+    {
+      "id": "collocation:024",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark110]: ・in two dimensions\n用途: 平面上の図形やデータを、二つの独立方向で扱う。\n例: The design can be viewed in two dimensions or as a solid model.\n訳: その設計は二次元で、または立体モデルとして見ることができる。"
+    },
+    {
+      "id": "collocation:025",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark111]: ・the dimension of a vector space\n用途: ベクトル空間の基底に含まれる独立なベクトルの数を表す。\n例: The dimension of this vector space is four.\n訳: このベクトル空間の次元は4である。"
+    },
+    {
+      "id": "collocation:026",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark112]: ・higher dimensions\n用途: 通常の三次元を超える数学的・物理的な次元を表す。\n例: The theory describes particles moving through higher dimensions.\n訳: その理論は高次元を移動する粒子を記述する。"
+    },
+    {
+      "id": "collocation:027",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark113]: ・a one-dimensional line\n用途: 一つの独立方向だけで位置を表せる線を表す。\n例: A point on a one-dimensional line can be identified by one coordinate.\n訳: 一次元の線上の点は、一つの座標で特定できる。"
+    },
+    {
+      "id": "usage_note:009",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark114]: この語義の dimension は、単に「長さ」や「寸法」を意味しない。three dimensions は物体の寸法を三種類測ることにも、三次元空間そのものにも使えるため、文脈で区別する。数学では、次元は対象を一意に指定するための独立した自由度・座標の数と考えると理解しやすい。"
+    },
+    {
+      "id": "usage_note:010",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark115]: ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-time を four-dimensional と扱うこともある。higher dimension は分野によって定義や理論上の位置付けが異なるため、日常語の「別世界」と数学用語を同一視しない。"
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark116]: ・coordinate\n定義: 座標系において点の位置を指定するための数値・座標値。\n頻度: 〈7/10〉\n違い: coordinate は一つの位置変数を指す。dimension は位置を定めるために必要な独立した座標の数・方向の体系を指す。\n例: Enter the x-coordinate and y-coordinate of the point.\n訳: その点のx座標とy座標を入力しなさい。"
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark117]: ・degree of freedom\n定義: 系の状態を独立に変化させたり指定したりできる自由度。\n頻度: 〈6/10〉\n違い: degree of freedom は力学・統計などで独立な変数の数を数える概念。dimension と重なることがあるが、空間の幾何学的次元と常に同じではない。\n例: The mechanism has two degrees of freedom.\n訳: その機構には2つの自由度がある。"
+    },
+    {
+      "id": "synonym:015",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark118]: ・rank\n定義: 線形代数で、行列や線形写像などについて、その像・列空間などの次元として表される量。\n頻度: 〈5/10〉\n違い: rank は行列や線形写像の像・列空間などの次元を表す。dimension はベクトル空間などの独立方向・自由度の数を表す。\n例: The rank of the matrix is equal to the dimension of its column space.\n訳: その行列のランクは、その列空間の次元に等しい。"
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark119]: 6. 【名詞・物理学】物理量を構成する基本量の種類・指数、次元式"
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark120]: 速度、力、エネルギーなどの物理量が、長さ、質量、時間などの基本量の組合せとしてどのような性質を持つかを示す関係。たとえば速度の次元は長さを時間で割ったものとして表され、単位そのものとは区別される。dimension はこの意味で、基本量の種類またはそれらに付く指数を指す。"
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark121]: 〈5/10〉"
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark122]: 物理学、工学、数学、計量学。専門用語。dimensional analysis「次元解析」、dimensionless quantity「無次元量」とともに使われる。"
+    },
+    {
+      "id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark123]: the dimensions of 〈物理量〉＝～の次元"
+    },
+    {
+      "id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark124]: have the dimensions of 〈基本量の式〉＝～の次元を持つ"
+    },
+    {
+      "id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark125]: dimensional analysis＝次元解析"
+    },
+    {
+      "id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark126]: a dimensionless quantity＝無次元量"
+    },
+    {
+      "id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark127]: check dimensions＝次元を確認する"
+    },
+    {
+      "id": "collocation:028",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark128]: ・the dimensions of velocity\n用途: 速度が長さと時間の組合せで表されることを示す。\n例: The dimensions of velocity are length divided by time.\n訳: 速度の次元は、長さを時間で割ったものである。"
+    },
+    {
+      "id": "collocation:029",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark129]: ・dimensional analysis\n用途: 物理式の整合性や関係を、単位ではなく基本量の次元から検討する。\n例: Dimensional analysis can reveal an error in the proposed equation.\n訳: 次元解析によって、提案された式の誤りを明らかにできる。"
+    },
+    {
+      "id": "collocation:030",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark130]: ・a dimensionless quantity\n用途: 基本量の次元が相殺され、次元を持たない量を表す。\n例: The ratio of two lengths is a dimensionless quantity.\n訳: 2つの長さの比は無次元量である。"
+    },
+    {
+      "id": "collocation:031",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark131]: ・have the dimensions of force multiplied by length\n用途: ある量が力に長さを掛けたものと同じ次元構造を持つことを表す。\n例: Torque has the dimensions of force multiplied by length.\n訳: トルクは力に長さを掛けたものと同じ次元を持つ。"
+    },
+    {
+      "id": "collocation:032",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark132]: ・check the dimensions\n用途: 式の両辺や計算結果の次元が整合するかを確認する。\n例: Always check the dimensions before substituting numerical values.\n訳: 数値を代入する前に、必ず次元を確認しなさい。"
+    },
+    {
+      "id": "usage_note:011",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark133]: dimension と unit は同じではない。meter、second、newton のような unit は測定値を表す具体的な単位であり、dimension は長さ、時間、質量などの性質や、それらの組合せを表す。メートルとフィートは単位が異なっても、どちらも長さの次元を持つ。"
+    },
+    {
+      "id": "usage_note:012",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark134]: この語義の dimensions は、物体の寸法や問題の規模ではなく、物理量の構造を表す。the dimensions of velocity は「速度の大きさ」ではなく「速度が長さ／時間という次元を持つこと」を意味する。"
+    },
+    {
+      "id": "synonym:016",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark135]: ・dimensionality\n定義: 何次元であるかという性質・次数。\n頻度: 〈5/10〉\n違い: dimensionality は空間・データ・モデルが持つ次元数を抽象的に述べる名詞。dimension は個々の次元や物理量の次元式にも使える。\n例: The dimensionality of the dataset is reduced before modeling.\n訳: モデル化の前に、そのデータセットの次元数が削減される。"
+    },
+    {
+      "id": "synonym:017",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark136]: ・dimensional formula\n定義: 物理量を基本量とその指数で表す式。\n頻度: 〈4/10〉\n違い: dimensional formula は物理学で式そのものを指す定着語。dimension は式だけでなく、そこから示される性質も指す。\n例: Write the dimensional formula for pressure.\n訳: 圧力の次元式を書きなさい。"
+    },
+    {
+      "id": "synonym:018",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark137]: ・unit\n定義: 物理量を測定・表記するための標準的な量。\n頻度: 〈10/10〉\n違い: unit は meter や pascal のような具体的な測定基準。dimension は単位を変えても保たれる物理的な種類・構造であり、代用語ではない。\n例: The SI unit of force is the newton.\n訳: 力のSI単位はニュートンである。"
+    },
+    {
+      "id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark138]: 7. 【名詞・可算】別の存在領域、異次元、現実とは異なる層"
+    },
+    {
+      "id": "definition:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark139]: 通常の空間・現実とは別の存在の領域や、そこへ広がる世界。SF、ファンタジー、ゲームなどで並行世界・異世界を指す。another dimension、a parallel dimension の形でよく使う。"
+    },
+    {
+      "id": "frequency:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark140]: 〈6/10〉"
+    },
+    {
+      "id": "register:007",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark141]: SF・ファンタジー、ゲーム、ポップカルチャーでは標準的。現実とは別の世界を比喩的に指す用法は評論・文学・会話に現れる。科学的に実在が確認された領域を意味するとは限らない。"
+    },
+    {
+      "id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark142]: another/an alternate/a parallel dimension＝別の・異なる・並行する次元"
+    },
+    {
+      "id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark143]: travel/pass into another dimension＝別の次元へ移動する"
+    },
+    {
+      "id": "grammar_pattern:033",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark144]: exist in a different dimension＝異なる領域に存在する"
+    },
+    {
+      "id": "grammar_pattern:034",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark145]: open a portal to 〈dimension〉＝～への入口を開く"
+    },
+    {
+      "id": "collocation:033",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark146]: ・another dimension\n用途: 現実とは別の世界・存在領域を、SF・ファンタジーまたは比喩で表す。\n例: In the game, the hero enters another dimension through a hidden door.\n訳: そのゲームでは、主人公が隠し扉を通って別の次元へ入る。"
+    },
+    {
+      "id": "collocation:034",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark147]: ・a parallel dimension\n用途: 現実と並行して存在すると想定される別世界を表す。\n例: The novel imagines a parallel dimension in which history took a different path.\n訳: その小説は、歴史が別の道をたどった並行世界を想像している。"
+    },
+    {
+      "id": "collocation:035",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark148]: ・pass into another dimension\n用途: 別の世界へ移ることを物語的に表す。\n例: The characters pass into another dimension when the clock strikes twelve.\n訳: 時計が12時を打つと、登場人物たちは別の次元へ移る。"
+    },
+    {
+      "id": "usage_note:013",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark149]: この語義の dimension は、数学・物理学の次元を直接説明する語ではない。another dimension は「別の世界」や「別の存在領域」を表す定着した表現で、実在性を主張しない物語上の設定にも使える。"
+    },
+    {
+      "id": "usage_note:014",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark150]: 別世界・異次元という空間的な想像を指すときは another、parallel、portal などと結び付きやすい。spiritual dimension、human dimension、a different dimension of experience のような「側面・要素」の用法は語義3で扱う。"
+    },
+    {
+      "id": "synonym:019",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark151]: ・realm\n定義: 特定の性質や活動が支配する領域・世界。\n頻度: 〈7/10〉\n違い: realm は現実・想像上を問わず、独立した領域そのものを強く示す。dimension は別の空間軸や世界への広がりという含みを持つ。\n例: The story moves between the realms of the living and the dead.\n訳: その物語は生者の世界と死者の世界の間を行き来する。"
+    },
+    {
+      "id": "synonym:020",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark152]: ・universe\n定義: 一組の法則や存在を含む全体的な世界・宇宙。\n頻度: 〈9/10〉\n違い: universe は世界全体や作品内の設定体系を指す。dimension はその宇宙とは別の層・世界、または一つの空間的方向を指せる。\n例: The film is set in a universe where machines govern society.\n訳: その映画は機械が社会を支配する世界を舞台にしている。"
+    },
+    {
+      "id": "synonym:021",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark153]: ・plane\n定義: 存在・意識・活動などの異なる水準・領域。\n頻度: 〈6/10〉\n違い: plane は「水準・層」という縦の段階を強く示す。dimension は別の空間・存在領域を表し、plane より世界・領域の想像に焦点を置く。\n例: The novel shifts between the physical plane and the dream plane.\n訳: その小説は物質的な領域と夢の領域の間を移り変わる。"
+    },
+    {
+      "id": "sense_boundary:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark154]: 8. 【他動詞・技術・主に設計】必要な寸法に形作る、図面に寸法を記入する"
+    },
+    {
+      "id": "definition:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark155]: 部品、板材、空間などを必要な寸法になるよう設計・加工する。また、図面や計画書に、長さ・幅・高さなどの寸法を記入して示す。一般会話で「測る」という意味に広く使う動詞ではなく、製造、建築、設計、CADなどの技術文脈で使われる。"
+    },
+    {
+      "id": "frequency:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark156]: 〈4/10〉"
+    },
+    {
+      "id": "register:008",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark157]: 技術的。設計、建築、製造、木工、機械工学、CADで使う。過去分詞 dimensioned が形容詞的に図面・部品を修飾することが多い。"
+    },
+    {
+      "id": "grammar_pattern:035",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark158]: dimension 〈部品・材料〉 to 〈寸法・仕様〉＝部品などを～の寸法にする"
+    },
+    {
+      "id": "grammar_pattern:036",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark159]: dimension 〈部品・空間〉 for 〈用途・条件〉＝～用に寸法を定める"
+    },
+    {
+      "id": "grammar_pattern:037",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark160]: dimension 〈図面・計画〉＝図面などに寸法を記入する"
+    },
+    {
+      "id": "grammar_pattern:038",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark161]: be dimensioned to fit 〈場所・部品〉＝～に合うよう寸法を定められている"
+    },
+    {
+      "id": "grammar_pattern:039",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark162]: dimensioned drawing＝寸法記入図"
+    },
+    {
+      "id": "collocation:036",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark163]: ・dimension 〈部品〉 to size\n用途: 部品を指定された寸法に仕上げる。\n例: The machinist dimensioned the bracket to fit the new housing.\n訳: 機械工は新しい筐体に合うようブラケットの寸法を仕上げた。"
+    },
+    {
+      "id": "collocation:037",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark164]: ・dimension a drawing\n用途: 図面に寸法線や寸法値を記入する。\n例: Please dimension the drawing before sending it to the supplier.\n訳: 供給業者へ送る前に、その図面へ寸法を記入してください。"
+    },
+    {
+      "id": "collocation:038",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark165]: ・be dimensioned to fit 〈場所・部品〉\n用途: 特定の場所や部品に合う寸法になるよう設計されていることを表す。\n例: The replacement panel was dimensioned to fit the existing frame.\n訳: 交換用パネルは既存の枠に合うよう寸法が定められていた。"
+    },
+    {
+      "id": "collocation:039",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark166]: ・dimension 〈材料〉 for 〈用途〉\n用途: 材料を特定の用途に適した寸法へ加工・設計する。\n例: The boards were dimensioned for use in the staircase.\n訳: その板材は階段に使うための寸法に加工された。"
+    },
+    {
+      "id": "collocation:040",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark167]: ・a fully dimensioned drawing\n用途: 必要な寸法が一通り記入された図面を表す。\n例: The contractor requested a fully dimensioned drawing before construction began.\n訳: 請負業者は工事開始前に、必要寸法をすべて記入した図面を求めた。"
+    },
+    {
+      "id": "usage_note:015",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark168]: この動詞は、単に長さを測定する measure と異なる。dimension a drawing は図面上に寸法を示すこと、dimension a part は必要寸法に設計・加工することを表す。実際の寸法を測るだけなら measure the part が自然である。"
+    },
+    {
+      "id": "usage_note:016",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark169]: 過去分詞 dimensioned は、dimensioned drawing のように「寸法が記入された」、または dimensioned to fit のように「～に合う寸法にされた」という意味になる。文脈によって、図面への記入と物体の加工・設計を区別する。"
+    },
+    {
+      "id": "synonym:022",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark170]: ・measure\n定義: 大きさ・長さ・量などを測定して数値を得る。\n頻度: 〈10/10〉\n違い: measure は既にある対象の数値を調べること。dimension は技術上必要な寸法を定めたり、図面に記入したりすることまで含む。\n例: Measure the opening before ordering the door.\n訳: ドアを注文する前に開口部を測りなさい。"
+    },
+    {
+      "id": "synonym:023",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark171]: ・size\n定義: 物を特定の大きさに作る、または大きさを合わせる。\n頻度: 〈7/10〉\n違い: size は寸法を決める・大きさを合わせる意味で使えるが、図面に寸法を記入する意味は弱い。dimension は設計・図面の専門用語である。\n例: The shelves were sized to fit the alcove.\n訳: 棚はその壁龕に合う大きさにされた。"
+    },
+    {
+      "id": "synonym:024",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark172]: ・scale\n定義: 図面・模型などを一定の縮尺で作る、または大きさを調整する。\n頻度: 〈8/10〉\n違い: scale は実物との比率や全体サイズの調整に焦点がある。dimension は個々の長さ・幅・高さを明示・指定する。\n例: The architect scaled the model down for the presentation.\n訳: 建築家は発表用に模型を縮小した。"
+    },
+    {
+      "id": "synonym:025",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark173]: 【関連する対照表現】\n・dimension と size\nsize は全体の大きさ、dimension は具体的な測定軸・数値。What size is the package? は大きさの区分や全体感を尋ね、What are the dimensions of the package? は長さ・幅・高さなどの数値を尋ねる。\n・dimension と aspect\naspect は問題・経験の一側面を中立的に述べる。dimension はその側面を分析軸として扱う、または対象に新しい広がりを加える響きがある。\n・dimension と scope"
+    },
+    {
+      "id": "synonym:026",
+      "status": "pass",
+      "notes": "Reviewed current target [reconmark174]: scope は何がどこまで含まれるかという範囲。dimension は問題の規模・深刻さや、そこに含まれる複数の広がりまで評価しやすい。\n・dimension と unit\nunit は meter、second、newton のような具体的な単位。dimension は長さ、時間、質量などの物理的な種類や指数であり、単位を変えても保たれる。\n【まとめ】\ndimension は、物体の寸法から、問題の側面・規模、数学・物理学の次元、別世界まで、「対象を一つの広がり・軸から捉える」語である。日常では the dimensions of a room「部屋の寸法」、抽象論では add a new dimension to the problem「問題に新たな側面を加える」、技術文脈では dimension a drawing「図面に寸法を記入する」をまず押さえるとよい。数学・物理学では、空間の独立方向と物理量の次元式を区別し、単位 unit と混同しないことが重要である。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark001]: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:007 explicitly contrasts sense 4 with sense 3"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark002]: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:014 explicitly contrasts sense 7 with sense 3"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark003]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark004]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark005]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark006]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark007]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark008]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark009]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark010]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark011]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark012]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark013]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark014]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark015]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark016]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark017]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark018]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark019]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark020]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark021]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark022]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark023]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:022",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark024]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:023",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark025]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:024",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark026]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:025",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark027]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:026",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark028]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:027",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark029]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:028",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark030]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:029",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark031]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:030",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark032]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:031",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark033]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:032",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark034]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:033",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark035]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:034",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark036]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:035",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark037]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:036",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark038]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:037",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark039]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:038",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark040]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:039",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark041]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "example_translation:040",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark042]: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark043]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark044]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark045]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark046]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark047]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark048]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark049]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark050]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark051]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark052]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark053]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark054]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark055]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark056]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark057]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark058]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark059]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark060]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark061]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark062]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark063]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark064]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark065]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark066]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark067]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark068]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark069]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark070]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark071]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark072]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark073]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark074]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark075]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark076]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark077]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark078]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark079]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark080]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark081]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark082]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark083]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark084]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark085]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark086]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark087]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark088]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:011",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark089]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:012",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark090]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark091]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark092]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark093]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark094]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark095]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark096]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark097]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:013",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark098]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:014",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark099]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark100]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark101]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark102]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:033",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark103]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:034",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark104]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "sense_definition_consistency:008",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark105]: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:015",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark106]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_usage_consistency:016",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark107]: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:008",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark108]: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:035",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark109]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:036",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark110]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:037",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark111]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:038",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark112]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "pattern_example_coverage:039",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark113]: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark114]: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark115]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark116]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark117]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark118]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark119]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark120]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark121]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:008",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark122]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:009",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark123]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:010",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark124]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:011",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark125]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "core_sense_mapping:012",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark126]: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Reviewed current relation [relmark127]: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "cand_dimension_aspect",
+      "status": "pass",
+      "notes": "Sealed candidate “add a new dimension to the problem” is correctly reconciled as the aspect/element sense.",
+      "assertion_ids": [
+        "sa_dimension_aspect"
+      ],
+      "verified_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "finding:normal:example-attribution:001",
+      "status": "pass",
+      "notes": "Reconciled as rejected under the explicit instruction to retain the current classification of in three dimensions unless it is a clear error."
+    },
+    {
+      "id": "finding:normal:pronunciation:001",
+      "status": "pass",
+      "notes": "Reconciled as rejected because the proposed exclusion of /daɪ/ conflicts with the required AmE/BrE treatment of both variants."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "evidence:oxford",
+      "status": "pass",
+      "notes": "Checked current source record evidence:oxford."
+    },
+    {
+      "id": "evidence:merriam-webster",
+      "status": "pass",
+      "notes": "Checked current source record evidence:merriam-webster."
+    },
+    {
+      "id": "evidence:collins",
+      "status": "pass",
+      "notes": "Checked current source record evidence:collins."
+    },
+    {
+      "id": "evidence:cambridge",
+      "status": "pass",
+      "notes": "Checked current source record evidence:cambridge."
+    },
+    {
+      "id": "evidence:physics-info",
+      "status": "pass",
+      "notes": "Checked current source record evidence:physics-info."
+    },
+    {
+      "id": "evidence:wolfram-mathworld",
+      "status": "pass",
+      "notes": "Checked current source record evidence:wolfram-mathworld."
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "union:001",
+      "union_id": "union:001",
+      "status": "pass",
+      "notes": "Rechecked union:001: a measurement in one direction, especially length, width, or height"
+    },
+    {
+      "id": "union:002",
+      "union_id": "union:002",
+      "status": "pass",
+      "notes": "Rechecked union:002: the size and proportions of a person or thing, usually in plural"
+    },
+    {
+      "id": "union:003",
+      "union_id": "union:003",
+      "status": "pass",
+      "notes": "Rechecked union:003: an aspect or feature of a situation"
+    },
+    {
+      "id": "union:004",
+      "union_id": "union:004",
+      "status": "pass",
+      "notes": "Rechecked union:004: the extent or scope of a situation or problem"
+    },
+    {
+      "id": "union:005",
+      "union_id": "union:005",
+      "status": "pass",
+      "notes": "Rechecked union:005: Oxford Learner's lists /dɪˈmenʃn/ as a pronunciation of dimension."
+    },
+    {
+      "id": "union:006",
+      "union_id": "union:006",
+      "status": "pass",
+      "notes": "Rechecked union:006: the word comes through Old French from Latin"
+    },
+    {
+      "id": "union:007",
+      "union_id": "union:007",
+      "status": "pass",
+      "notes": "Rechecked union:007: a measurable extent of some kind such as length, area, or volume"
+    },
+    {
+      "id": "union:008",
+      "union_id": "union:008",
+      "status": "pass",
+      "notes": "Rechecked union:008: an aspect or feature of a situation"
+    },
+    {
+      "id": "union:009",
+      "union_id": "union:009",
+      "status": "pass",
+      "notes": "Rechecked union:009: the range or magnitude of something"
+    },
+    {
+      "id": "union:010",
+      "union_id": "union:010",
+      "status": "pass",
+      "notes": "Rechecked union:010: a mathematical or physical quantity expressed by dimensions"
+    },
+    {
+      "id": "union:011",
+      "union_id": "union:011",
+      "status": "pass",
+      "notes": "Rechecked union:011: a level or realm of existence"
+    },
+    {
+      "id": "union:012",
+      "union_id": "union:012",
+      "status": "pass",
+      "notes": "Rechecked union:012: to shape or mark out according to specified dimensions"
+    },
+    {
+      "id": "union:013",
+      "union_id": "union:013",
+      "status": "pass",
+      "notes": "Rechecked union:013: a measurable extent or aspect of a thing"
+    },
+    {
+      "id": "union:014",
+      "union_id": "union:014",
+      "status": "pass",
+      "notes": "Rechecked union:014: size, extent, or importance"
+    },
+    {
+      "id": "union:015",
+      "union_id": "union:015",
+      "status": "pass",
+      "notes": "Rechecked union:015: a mathematical or physical quantity"
+    },
+    {
+      "id": "union:016",
+      "union_id": "union:016",
+      "status": "pass",
+      "notes": "Rechecked union:016: to indicate or determine the dimensions of something"
+    },
+    {
+      "id": "union:017",
+      "union_id": "union:017",
+      "status": "pass",
+      "notes": "Rechecked union:017: a measurement of something in a particular direction"
+    },
+    {
+      "id": "union:018",
+      "union_id": "union:018",
+      "status": "pass",
+      "notes": "Rechecked union:018: the size or extent of something"
+    },
+    {
+      "id": "union:019",
+      "union_id": "union:019",
+      "status": "pass",
+      "notes": "Rechecked union:019: one of the measurable aspects used to describe a space"
+    },
+    {
+      "id": "union:020",
+      "union_id": "union:020",
+      "status": "pass",
+      "notes": "Rechecked union:020: a parameter or independent measurable quantity used to specify a physical system"
+    },
+    {
+      "id": "union:021",
+      "union_id": "union:021",
+      "status": "pass",
+      "notes": "Rechecked union:021: two-dimensional motion uses two independent coordinate directions"
+    },
+    {
+      "id": "union:022",
+      "union_id": "union:022",
+      "status": "pass",
+      "notes": "Rechecked union:022: physical quantities can be analyzed through dimensional relationships"
+    },
+    {
+      "id": "union:023",
+      "union_id": "union:023",
+      "status": "pass",
+      "notes": "Rechecked union:023: the dimension of a vector space is the number of independent basis directions"
+    },
+    {
+      "id": "union:024",
+      "union_id": "union:024",
+      "status": "pass",
+      "notes": "Rechecked union:024: dimensionless describes a quantity with no physical dimensions"
+    },
+    {
+      "id": "union:025",
+      "union_id": "union:025",
+      "status": "pass",
+      "notes": "Rechecked union:025: geometric dimension distinguishes zero-, one-, two-, and higher-dimensional objects"
+    },
+    {
+      "id": "union:026",
+      "union_id": "union:026",
+      "status": "pass",
+      "notes": "Rechecked union:026: American and British English both recognize /dɪˈmenʃən/ and /daɪˈmenʃən/; /dɪ-/ is commonly listed first in American English and /daɪ-/ in British English."
+    },
+    {
+      "id": "union:027",
+      "union_id": "union:027",
+      "status": "pass",
+      "notes": "Rechecked union:027: a coordinate is one of a set of numbers or letters that specifies the position of a point on a map or graph."
+    },
+    {
+      "id": "union:028",
+      "union_id": "union:028",
+      "status": "pass",
+      "notes": "Rechecked union:028: the rank of a matrix or linear transformation is the dimension of its image, equivalently the dimension of its row or column space."
+    },
+    {
+      "id": "union:029",
+      "union_id": "union:029",
+      "status": "pass",
+      "notes": "Rechecked union:029: torque has the dimensions of force multiplied by length."
+    },
+    {
+      "id": "union:030",
+      "union_id": "union:030",
+      "status": "pass",
+      "notes": "Rechecked union:030: measurements emphasize values obtained by measuring, while dimensions commonly refer to spatial extents or their combination; the uses overlap for an object’s dimensions."
+    }
+  ]
+}
