@@ -18,12 +18,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
-  "stage": "normal_review_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-08-31T02:08:36Z",
   "deadline_at": "2026-08-31T03:08:36Z",
   "pre_draft_deadline_at": "2026-08-31T02:28:36Z",
-  "last_heartbeat_at": "2026-08-31T03:05:57Z",
+  "last_heartbeat_at": "2026-08-31T03:50:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-08-31T02:10:06Z",
@@ -48,12 +48,32 @@
     {
       "stage": "source_inventory_complete",
       "recorded_at": "2026-08-31T03:00:00Z",
-      "notes": "orchestrator completed checker_passes"
+      "notes": "orchestrator completed source inventory and checker preparation"
     },
     {
       "stage": "normal_review_complete",
       "recorded_at": "2026-08-31T03:00:00Z",
-      "notes": "orchestrator completed checker_passes"
+      "notes": "seven checker passes ingested with independent stage-2 adjudication"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-08-31T03:26:00Z",
+      "notes": "independent context-free cold review completed"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-08-31T03:30:00Z",
+      "notes": "final blind output sealed"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-08-31T03:45:00Z",
+      "notes": "independent final reconciliation passed"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-08-31T03:50:00Z",
+      "notes": "status and exports synchronized"
     }
   ],
   "stop_reason": "",
@@ -448,14 +468,14 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 1,
-    "total_duration_seconds": 0,
-    "completed_at": "",
+    "total_duration_seconds": 6084,
+    "completed_at": "2026-08-31T03:50:00Z",
     "stages": [
       {
         "id": "guard_start",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": true
@@ -490,65 +510,65 @@
       {
         "id": "cold_review",
         "instruction_bytes": 1419,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 20500,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
         "instruction_bytes": 1735,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 1193,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 513,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "finding_resolution",
         "instruction_bytes": 1492,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 1132,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
         "instruction_bytes": 3065,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 62378,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0,
+        "input_bytes": 500,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -640,14 +660,24 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 4,
+    "next_stage_index": 11,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
-      "checker_passes"
+      "checker_passes",
+      "cold_review",
+      "final_blind",
+      "blind_seal",
+      "finding_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
+      "guard_start": [
+        "audits/workflow_runs/dimension/20260831T020836Z-8d068ab9.json"
+      ],
       "generation": [
         "entries/d/dimension.md",
         "audits/runs/d/dimension/20260831T020836Z-8d068ab9/generation.json"
@@ -659,6 +689,31 @@
         "audits/runs/d/dimension/20260831T020836Z-8d068ab9/source_inventory.json",
         "audits/runs/d/dimension/20260831T020836Z-8d068ab9/check_passes/",
         "audits/runs/d/dimension/20260831T020836Z-8d068ab9/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/cold_review.json"
+      ],
+      "final_blind": [
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/blind_seal.json"
+      ],
+      "finding_resolution": [
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_review.json",
+        "audits/d/dimension.json"
+      ],
+      "status_update": [
+        "entries/d/dimension.md",
+        "queue/words.csv",
+        "audits/runs/d/dimension/20260831T020836Z-8d068ab9/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   }
