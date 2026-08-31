@@ -687,7 +687,7 @@
       "run_id": "cold-dimension-20260831T020836Z-8d068ab9",
       "context_id": "cold-dimension-context-20260831T020836Z-8d068ab9",
       "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "3c8a274957603789525b277b89a929a198d661648e5cc4d42ba8d85929662fd1",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
       "input_artifacts": [
         "entry_body",
         "cold_review_prompt"
@@ -774,8 +774,8 @@
     "entry_path": "entries/d/dimension.md",
     "body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
     "final_blind_path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_blind.json",
-    "final_blind_sha256": "d8b4c1ede2f1c9ccd8f72d23e1bc3b3a5bf66cfd2bee9213258ea1804231b30c",
-    "blind_output_sha256": "417a7bc9e9a81d1f9032d12a22bd09065cd3c7c0b00fa496ca8077ded71ca196",
+    "final_blind_sha256": "a4a47b7f6be074fc57ce27158ef91bcbdae2a5da5b51fca4491916cba987843d",
+    "blind_output_sha256": "fec3eb4f17188b573160528eac5f220889bade8b1f295b2e04af1c95bbbd7803",
     "sealed_at": "2026-08-31T03:55:00+00:00"
   },
   "final_review_spec": "# final_review_spec_v2\n\nこの仕様は、最新版の記事本文、全checker/cold/final-blind finding、全resolution、固定済みblind inventoryを入力として、第三者最終審査が合否を判断するための意味基準だけを定める。入力分離、順序、hash、seal、記録、件数網羅、status同期は `scripts/run_word.py` と `scripts/generate_audit_manifest.py` が強制する。\n\n## PASSの意味基準\n\n次をすべて満たす場合だけ `PASS` とする。\n\n1. 記事の事実、語法、発音、例文、訳が正しく、見出し語の意味方向・意味役割・適用範囲を誤学習させない。\n2. 主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われ、語義境界、コアイメージ、定義、語法、コロケーション、語彙関係の間に矛盾がない。\n3. 例文と訳で、述語、主語・目的語・補語、行為者・経験者・対象・結果、肯否、比較基準、程度、数量、時制・相・法、条件・因果・目的、修飾範囲、焦点、情報構造、レジスター、話者評価が保存されている。\n4. 地域差、専門・制度用法、頻度、語源、語形成、語義境界、文法制約、絶対表現などの高リスク主張が、当該主張へ適用できる根拠に支えられ、反例・矛盾・適用範囲が確認されている。検索見出し、資料名だけ、別義の用例は根拠にしない。\n5. 通常棚卸しとblind棚卸しの差、すべてのfinding、採否理由、修正結果、残存リスクを個別に吟味し、問題確認済みfindingが最新版の本文全体で解決され、正しい意味関係が別箇所で再び破られていない。\n6. blind inventoryの各 `semantic_assertion` を最新版へ適用しても、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がない。\n\n## REJECTの意味基準\n\n上記のいずれかを満たさない場合は `REJECT` とする。blockerにできるのは、事実・語法・発音の誤り、例文/訳の誤り、主要語義・構文の欠落または過剰収録、根拠と本文の矛盾、内容仕様の必須項目違反、未判定・未解決項目である。各blockerには対象ID、問題、必要な修正を記録する。条件付き合格は使わない。\n\n本文と矛盾しない分類粒度・棚卸し構成の差、より良い表現の提案、任意の改善余地は、それだけを理由に `REJECT` にせず、非blocking noteとして記録する。`REJECT` は審査失敗ではなく、問題を検出して完了した正常な最終判定である。\n\n## 出力\n\n`final_review_v2` JSONとして、全target/relation/normal candidate/blind candidate/finding/evidence/source-unionの個別結果、`decision` (`pass | reject`)、`blockers`、非blocking `notes` を返す。`PASS` は全個別結果がpass、未解決・holdが0件、blockerが0件の場合に限る。本文は変更しない。\n",
@@ -793,6 +793,6 @@
       "sealed_final_blind",
       "final_review_spec"
     ],
-    "blind_output_sha256": "417a7bc9e9a81d1f9032d12a22bd09065cd3c7c0b00fa496ca8077ded71ca196"
+    "blind_output_sha256": "fec3eb4f17188b573160528eac5f220889bade8b1f295b2e04af1c95bbbd7803"
   }
 }
