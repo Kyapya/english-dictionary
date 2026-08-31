@@ -1,0 +1,31 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolve-dimension-20260831T020836Z-8d068ab9",
+  "context_id": "resolve-dimension-context-20260831T020836Z-8d068ab9",
+  "input_body_sha256": "612c0effc74e6a5030aeee4d08ba00b3bb2f174c1f3cb47596d440e4018becd0",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "recorded_at": "2026-08-31T03:35:00Z",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "resolutions": [
+    {
+      "id": "finding:normal:example-attribution:001",
+      "finding_id": "finding:normal:example-attribution:001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "ユーザーの改訂方針が in two/three dimensions の大規模な語義移動を原則変更しないと明示しており、この用例は空間次元として解釈可能だが、現行の分類を明確な誤りとは扱わないため。",
+      "resolved_body_sha256": "612c0effc74e6a5030aeee4d08ba00b3bb2f174c1f3cb47596d440e4018becd0"
+    },
+    {
+      "id": "finding:normal:pronunciation:001",
+      "finding_id": "finding:normal:pronunciation:001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "このfindingの/daɪ/を排除する方向は、米英とも/dɪ/と/daɪ/の両方を認める今回の明示要件と一致しない。現行本文は米英の主要掲載順の違いと双方の許容を記載しているため。",
+      "resolved_body_sha256": "612c0effc74e6a5030aeee4d08ba00b3bb2f174c1f3cb47596d440e4018becd0"
+    }
+  ]
+}
