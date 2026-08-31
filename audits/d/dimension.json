@@ -28,7 +28,7 @@
     },
     "cold_review": {
       "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/cold_review.json",
-      "sha256": "0e78cf810046e7bfd789f9fcbb4339473faf3554a577b35ee36c2886fc6dd724",
+      "sha256": "f1364cace3152cd493ebfb9b2f997b7d747a1338f3a232c31b86aa3e556b734f",
       "stage": "cold_review",
       "run_id": "cold-dimension-20260831T020836Z-8d068ab9",
       "context_id": "cold-dimension-context-20260831T020836Z-8d068ab9",
@@ -38,7 +38,7 @@
     },
     "resolutions": {
       "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/resolutions.json",
-      "sha256": "fd713d5459e4120be26b1b9499d3b67c1e840ca80f8ddf07a54c5891fd5321aa",
+      "sha256": "8b5c2e5f94e34f0ff62738efe5b5c44d48067072a45ddb1f1048392496254435",
       "stage": "resolutions",
       "run_id": "resolve-dimension-20260831T020836Z-8d068ab9",
       "context_id": "resolve-dimension-context-20260831T020836Z-8d068ab9",
@@ -48,7 +48,7 @@
     },
     "final_blind": {
       "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_blind.json",
-      "sha256": "3ec88f83ab4cc6fa03f38e639727e522b3e128f24188b316998560101e8b957e",
+      "sha256": "a4a47b7f6be074fc57ce27158ef91bcbdae2a5da5b51fca4491916cba987843d",
       "stage": "final_blind",
       "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
       "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
@@ -58,12 +58,12 @@
     },
     "blind_seal": {
       "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/blind_seal.json",
-      "sha256": "f8a42c66f97616b787a4281457bb9700162a08fab24c342533adeb1026218801",
+      "sha256": "af8e8b614380c46d09ae140a74bf3fd6f4c136b2b703c666172b1250a08f9733",
       "stage": "blind_seal"
     },
     "final_review": {
       "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_review.json",
-      "sha256": "1d7231379f000acf4be127338b2af6c58c7203599d2d7c4081a9ce145ef57df0",
+      "sha256": "f04534db83ccba0033eb6efac8f1090c88f1007ce8da9f9fce7ad620d3d61920",
       "stage": "final_review",
       "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
       "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
@@ -1307,7 +1307,7 @@
       "発音派生語の網羅や表現の微調整に関する提案は、今回の明確な誤りだけを直す方針の範囲外として採用しなかった。"
     ],
     "reviewed_at": "2026-08-31T03:45:00Z",
-    "blind_output_sha256": "6bc2f922872df042044634a58a775605999021c201f1f6eb1d7133bf57e30693"
+    "blind_output_sha256": "fec3eb4f17188b573160528eac5f220889bade8b1f295b2e04af1c95bbbd7803"
   },
   "invalidated_by": [],
   "review_liveness_errors": []
