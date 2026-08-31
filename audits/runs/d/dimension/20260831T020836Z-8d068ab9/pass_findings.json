@@ -598,7 +598,8 @@
           "severity": "blocking",
           "rationale": "段階1の最も自然な帰属はsense:005だが、実際の所属はsense:001である。",
           "evidence_link_ids": [],
-          "suggested_direction": "語義ブロック間の移動"
+          "suggested_direction": "語義ブロック間の移動",
+          "id": "finding:normal:example-attribution:001"
         }
       ],
       "unrouted_observations": []
@@ -628,7 +629,8 @@
           "severity": "blocking",
           "rationale": "dimension の米英標準発音として /daɪˈmenʃən/ を主要形・許容形に含め、米英の主要形を逆に割り当てている。IPAと地域説明を実際の発音差に整合させる必要がある。",
           "evidence_link_ids": [],
-          "suggested_direction": "米英とも標準的な /dɪˈmenʃən/ 系に合わせてIPAと地域説明を修正する方向"
+          "suggested_direction": "米英とも標準的な /dɪˈmenʃən/ 系に合わせてIPAと地域説明を修正する方向",
+          "id": "finding:normal:pronunciation:001"
         }
       ],
       "reviewer": {
