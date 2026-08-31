@@ -1,0 +1,26 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "blind_request_sha256": "ab43e9ced68fd43d7e2e1b8c4c456e6032d957eef1434533d2b54201f9d0dbef",
+  "recorded_at": "2026-08-31T14:27:31Z",
+  "axes": [
+    {
+      "item_id": "ant-c52aadd72499",
+      "axis": "見込み",
+      "relation_type": "評価"
+    },
+    {
+      "item_id": "ant-4e7b502379ab",
+      "axis": "希望",
+      "relation_type": "状態"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "01a0581c-4442-7e90-8187-7cb24461a0bf",
+    "same_model_as_generation": true
+  }
+}

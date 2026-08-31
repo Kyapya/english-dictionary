@@ -1,0 +1,29 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "c00b2207548c03e5eb31796c9607af43eb3c089dae2f9a8b96dc2bda9464a00e",
+  "stage2_request_sha256": "f636ab0ea67509d1e41c25f55d63bbec404e3fb6d530bd7c656bf570b115d5ab",
+  "blind_record_sha256": "8600b2013963c79d5a83a0990fb817a16126897643f8962d34060cb6e799b50b",
+  "recorded_at": "2026-08-31T14:29:18Z",
+  "adjudications": [
+    {
+      "item_id": "ant-4e7b502379ab",
+      "flags": [],
+      "rationale": "希望 は 状態 の関係として本文のsense:001に対応し、補完・程度・方向・評価・状態の軸の取り違えは確認できない。"
+    },
+    {
+      "item_id": "ant-c52aadd72499",
+      "flags": [],
+      "rationale": "見込み は 評価 の関係として本文のsense:004に対応し、補完・程度・方向・評価・状態の軸の取り違えは確認できない。"
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "01a05838-2a99-72b1-b906-5d4be7ecb097",
+    "same_model_as_generation": true
+  }
+}
