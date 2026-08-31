@@ -1,77 +1,16 @@
 {
-  "schema_version": "content_audit_v4",
-  "generated_by": "generate_audit_manifest_v1",
-  "entry_path": "entries/d/dimension.md",
-  "cycle_id": "20260831T020836Z-8d068ab9",
-  "cycle_dir": "audits/runs/d/dimension/20260831T020836Z-8d068ab9",
-  "body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-  "raw_outputs": {
-    "source_inventory": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/source_inventory.json",
-      "sha256": "5e7bbbcd0f2245a7d6d4f687d086978d887bf6ccd1414aaf8c802ccc2823b707",
-      "stage": "source_inventory",
-      "run_id": "source-dimension-20260831T020836Z-8d068ab9",
-      "context_id": "ctx-source-dimension-20260831T020836Z-8d068ab9",
-      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
-      "recorded_at": "2026-08-31T02:13:00Z"
-    },
-    "normal_review": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/pass_findings.json",
-      "sha256": "2028ac6281774ad5c00811fac852889252b2ee5bddbf6d33577b243c1e6a3835",
-      "stage": "normal_review",
-      "run_id": "normal-dimension-20260831T020836Z-8d068ab9",
-      "context_id": "normal-dimension-context-20260831T020836Z-8d068ab9",
-      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
-      "recorded_at": "2026-08-31T02:55:00Z"
-    },
-    "cold_review": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/cold_review.json",
-      "sha256": "f1364cace3152cd493ebfb9b2f997b7d747a1338f3a232c31b86aa3e556b734f",
-      "stage": "cold_review",
-      "run_id": "cold-dimension-20260831T020836Z-8d068ab9",
-      "context_id": "cold-dimension-context-20260831T020836Z-8d068ab9",
-      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
-      "recorded_at": "2026-08-31T03:10:00Z"
-    },
-    "resolutions": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/resolutions.json",
-      "sha256": "8b5c2e5f94e34f0ff62738efe5b5c44d48067072a45ddb1f1048392496254435",
-      "stage": "resolutions",
-      "run_id": "resolve-dimension-20260831T020836Z-8d068ab9",
-      "context_id": "resolve-dimension-context-20260831T020836Z-8d068ab9",
-      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
-      "recorded_at": "2026-08-31T03:35:00Z"
-    },
-    "final_blind": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_blind.json",
-      "sha256": "a4a47b7f6be074fc57ce27158ef91bcbdae2a5da5b51fca4491916cba987843d",
-      "stage": "final_blind",
-      "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
-      "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
-      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
-      "recorded_at": "2026-08-31T03:22:00Z"
-    },
-    "blind_seal": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/blind_seal.json",
-      "sha256": "af8e8b614380c46d09ae140a74bf3fd6f4c136b2b703c666172b1250a08f9733",
-      "stage": "blind_seal"
-    },
-    "final_review": {
-      "path": "audits/runs/d/dimension/20260831T020836Z-8d068ab9/final_review.json",
-      "sha256": "3caa48c0c5d507fb0dc7982dc7e5253d1808d549db654a1bf6f11df86a6d00bc",
-      "stage": "final_review",
-      "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
-      "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
-      "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
-      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
-      "recorded_at": "2026-08-31T04:00:00Z"
-    }
-  },
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-dimension-20260831T020836Z-8d068ab9",
+  "context_id": "ctx-source-dimension-20260831T020836Z-8d068ab9",
+  "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "recorded_at": "2026-08-31T02:13:00Z",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "headword": "dimension",
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -1249,66 +1188,44 @@
     "inventory_completed_at": "2026-08-31T02:13:00Z",
     "article_comparison_started_at": "2026-08-31T02:14:00Z"
   },
-  "findings": [
+  "evidence_link_ids": [
+    "evidence:oxford",
+    "evidence:merriam-webster",
+    "evidence:collins",
+    "evidence:cambridge",
+    "evidence:physics-info",
+    "evidence:wolfram-mathworld"
+  ],
+  "evidence_links": [
     {
-      "taxonomy_id": "example_sense_attribution_mismatch",
-      "location": {
-        "section": "collocations_examples",
-        "line_start": 81,
-        "line_end": 81,
-        "exact_quote": "例: The software lets students view the molecule in three dimensions.  "
-      },
-      "severity": "blocking",
-      "rationale": "段階1の最も自然な帰属はsense:005だが、実際の所属はsense:001である。",
-      "evidence_link_ids": [],
-      "suggested_direction": "語義ブロック間の移動",
-      "id": "finding:normal:example-attribution:001",
-      "origin": "check_pass:example-attribution"
+      "id": "evidence:oxford",
+      "source_id": "oxford",
+      "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/dimension"
     },
     {
-      "taxonomy_id": "pronunciation_symbol_explanation",
-      "location": {
-        "section": "pronunciation",
-        "line_start": 15,
-        "line_end": 15,
-        "exact_quote": "米: /dɪˈmenʃən/ が主要な掲載形で、/daɪˈmenʃən/ も認められる。英: /daɪˈmenʃən/ を主要な掲載形として載せる辞書が多いが、/dɪˈmenʃən/ も認められる。いずれも3音節で、第2音節の /men/ に主強勢がある。最初の音節は弱く、語末の /ʃən/ は「ション」に近い。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  "
-      },
-      "severity": "blocking",
-      "rationale": "dimension の米英標準発音として /daɪˈmenʃən/ を主要形・許容形に含め、米英の主要形を逆に割り当てている。IPAと地域説明を実際の発音差に整合させる必要がある。",
-      "evidence_link_ids": [],
-      "suggested_direction": "米英とも標準的な /dɪˈmenʃən/ 系に合わせてIPAと地域説明を修正する方向",
-      "id": "finding:normal:pronunciation:001",
-      "origin": "check_pass:pronunciation"
-    }
-  ],
-  "resolutions": [
-    {
-      "id": "finding:normal:example-attribution:001",
-      "finding_id": "finding:normal:example-attribution:001",
-      "status": "resolved",
-      "disposition": "rejected",
-      "rationale": "ユーザーの改訂方針が in two/three dimensions の大規模な語義移動を原則変更しないと明示しており、この用例は空間次元として解釈可能だが、現行の分類を明確な誤りとは扱わないため。",
-      "resolved_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c"
+      "id": "evidence:merriam-webster",
+      "source_id": "merriam-webster",
+      "locator": "https://www.merriam-webster.com/dictionary/dimension"
     },
     {
-      "id": "finding:normal:pronunciation:001",
-      "finding_id": "finding:normal:pronunciation:001",
-      "status": "resolved",
-      "disposition": "rejected",
-      "rationale": "このfindingの/daɪ/を排除する方向は、米英とも/dɪ/と/daɪ/の両方を認める今回の明示要件と一致しない。現行本文は米英の主要掲載順の違いと双方の許容を記載しているため。",
-      "resolved_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c"
+      "id": "evidence:collins",
+      "source_id": "collins",
+      "locator": "https://www.collinsdictionary.com/dictionary/english/dimension"
+    },
+    {
+      "id": "evidence:cambridge",
+      "source_id": "cambridge",
+      "locator": "https://dictionary.cambridge.org/dictionary/english/dimension"
+    },
+    {
+      "id": "evidence:physics-info",
+      "source_id": "physics-info",
+      "locator": "https://physics.info/parametric/"
+    },
+    {
+      "id": "evidence:wolfram-mathworld",
+      "source_id": "wolfram-mathworld",
+      "locator": "https://mathworld.wolfram.com/Dimension.html"
     }
-  ],
-  "final_decision": {
-    "decision": "pass",
-    "blockers": [],
-    "notes": [
-      "独立最終レビューで、指定修正事項に関する blocking な誤りはないと判定した。",
-      "発音派生語の網羅や表現の微調整に関する提案は、今回の明確な誤りだけを直す方針の範囲外として採用しなかった。"
-    ],
-    "reviewed_at": "2026-08-31T04:00:00Z",
-    "blind_output_sha256": "fec3eb4f17188b573160528eac5f220889bade8b1f295b2e04af1c95bbbd7803"
-  },
-  "invalidated_by": [],
-  "review_liveness_errors": []
+  ]
 }

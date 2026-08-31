@@ -1,0 +1,41 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-dimension-20260831T020836Z-8d068ab9",
+  "context_id": "blind-dimension-context-20260831T020836Z-8d068ab9",
+  "input_body_sha256": "db54e496ca23de7b14357ec3520849fd70316c8a6762b245d8219effe329fd3c",
+  "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-08-31T03:22:00Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a055cc-4073-7781-a2c6-e2a7d15530af",
+    "same_model_as_generation": true
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "cand_dimension_aspect",
+      "surface_form": "add a new dimension to the problem",
+      "frame": "add a new dimension to + object",
+      "meaning": "問題に新たな側面・要素を加える",
+      "rationale": "記事は「add a new dimension to the problem」を、物理的寸法ではなく新たな側面・要素を加える用法として説明している。",
+      "semantic_assertions": [
+        {
+          "id": "sa_dimension_aspect",
+          "statement": "In “add a new dimension to the problem,” dimension denotes an added aspect or element, not physical size.",
+          "polarity": "must_hold",
+          "scope": "語義3・該当コロケーション"
+        }
+      ],
+      "disposition": "included"
+    }
+  ],
+  "article_findings": []
+}
