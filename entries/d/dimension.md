@@ -14,7 +14,7 @@ tags: []
 
 米: /dɪˈmenʃən/ が主要な掲載形で、/daɪˈmenʃən/ も認められる。英: /daɪˈmenʃən/ を主要な掲載形として載せる辞書が多いが、/dɪˈmenʃən/ も認められる。いずれも3音節で、第2音節の /men/ に主強勢がある。最初の音節は弱く、語末の /ʃən/ は「ション」に近い。派生語 dimensional は /dɪˈmenʃənəl/、dimensionless は /dɪˈmenʃənləs/ となる。  
 
-複数形 dimensions は /dɪˈmenʃənz/。語末の -s は通常 /z/ で、dimensions of ... のように名詞の複数形として使う。動詞 dimension は同じく /dɪˈmenʃən/ で、過去形・過去分詞 dimensioned は /dɪˈmenʃənd/、-ing形 dimensioning は /dɪˈmenʃənɪŋ/ となる。  
+複数形 dimensions は /dɪˈmenʃənz/、/daɪˈmenʃənz/。語末の -s は通常 /z/ で、dimensions of ... のように名詞の複数形として使う。動詞 dimension も /dɪˈmenʃən/、/daɪˈmenʃən/ があり、過去形・過去分詞 dimensioned は /dɪˈmenʃənd/、/daɪˈmenʃənd/、-ing形 dimensioning は /dɪˈmenʃənɪŋ/、/daɪˈmenʃənɪŋ/ となる。  
 
 ＃語源
 
@@ -42,7 +42,7 @@ dimension の中心には、「対象をある測定軸・広がり・観点に�
 ・問題や出来事が広がる範囲・程度 → 「規模、範囲、深刻さ」（語義4）  
 ・位置や空間を定める独立した方向・数 → 「次元」（語義5）  
 ・物理量を表す基本量の種類・指数 → 「次元、次元式」（語義6）  
-・現実や経験とは別の存在の領域 → 「異次元、別世界、層」（語義7）  
+・現実とは別の存在の領域 → 「異次元、別世界、層」（語義7）  
 ・必要な寸法に合わせ、または図面上に寸法を示す → 「寸法を定める、寸法を記入する」（語義8）  
 
 語義3の「側面」と語義4の「規模」は、どちらも対象を別の軸から捉える比喩用法だが、語義3は「何の側面か」、語義4は「どの程度の広がりか」に焦点がある。語義5と語義6は専門概念として近いが、語義5は空間・数学的対象の独立方向や自由度、語義6は物理量を基本量で表す関係を指す。  
@@ -216,13 +216,13 @@ dimensions は文脈によって、単なる数値の組合せだけでなく、
 
 ・a spiritual dimension  
 用途: 物事に宗教的・精神的な側面があることを示す。  
-例: The ceremony has a spiritual dimension that is not captured by its formal rules.  
-訳: その儀式には、形式的な規則だけでは捉えられない精神的な側面がある。  
+例: The ceremony has a spiritual dimension.  
+訳: その儀式には精神的・宗教的な側面がある。  
 
 ・a different dimension of experience  
 用途: 経験や公演に新たな側面・質を加えることを比喩的に表す。  
-例: Live music brings a different dimension of experience to the performance.  
-訳: 生演奏は、その公演に異なる側面・新たな質を加える。  
+例: Live music brings a different dimension to the experience.  
+訳: 生演奏は、その体験に別の側面・新たな要素を加える。  
 
 【語法・注意】この語義では dimension は aspect、side、facet と近いが、dimension のほうが対象を分析する軸や、問題に新たに加わる要素という響きを持つ。a new dimension to the problem は「問題に新たな側面が加わった」であり、物理的な大きさが増えたという意味ではない。  
 
@@ -317,7 +317,7 @@ dimensions は文脈によって、単なる数値の組合せだけでなく、
 
 5. 【名詞・数学・幾何学】位置や空間を定める独立した方向の数、次元
 
-【日本語訳・定義】点の位置や数学的対象を指定するために必要な、互いに独立した座標・方向の数。直線は1次元、平面は2次元、通常の立体空間は3次元である。数学では、曲がった空間、ベクトル空間、抽象空間などにも一般化され、必ずしも目に見える方向だけを指さない。  
+【日本語訳・定義】点の位置や数学的対象を指定するために必要な、互いに独立した方向・自由度の数。直線は1次元、平面は2次元、通常の立体空間は3次元である。数学では、曲がった空間、ベクトル空間、抽象空間などにも一般化され、必ずしも目に見える方向だけを指さない。  
 
 【頻度】〈7/10〉  
 
@@ -493,7 +493,7 @@ ordinary space を three-dimensional と呼ぶ一方、時間を加えて space-
 ・plane  
 定義: 存在・意識・活動などの異なる水準・領域。  
 頻度: 〈6/10〉  
-違い: plane は「水準・層」という縦の段階を強く示す。dimension は別世界の広がり、または経験の新しい側面を示すことが多い。  
+違い: plane は「水準・層」という縦の段階を強く示す。dimension は別の空間・存在領域を表し、plane より世界・領域の想像に焦点を置く。  
 例: The novel shifts between the physical plane and the dream plane.  
 訳: その小説は物質的な領域と夢の領域の間を移り変わる。  
 
