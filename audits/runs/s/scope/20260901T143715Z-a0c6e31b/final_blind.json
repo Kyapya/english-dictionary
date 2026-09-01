@@ -1,0 +1,104 @@
+{
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "scope",
+      "frame": "scope for; plenty of scope for improvement; within somebody's scope",
+      "meaning": "行動・発展の余地、機会、自由裁量",
+      "disposition": "included",
+      "rationale": "The phrase scope for is a distinctive anchor for the opportunity sense, and the entry keeps it separate from subject range.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001-SA-001",
+          "statement": "The opportunity sense is uncountable in the core frame and does not guarantee that the opportunity will be used successfully.",
+          "polarity": "must_hold",
+          "scope": "語義1"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "scope",
+      "frame": "the scope of; within the scope of; broaden the scope of",
+      "meaning": "主題・活動・調査などが扱う範囲、対象領域",
+      "disposition": "included",
+      "rationale": "The anchor scope of marks a covered subject or activity boundary rather than physical size.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002-SA-001",
+          "statement": "The subject-range sense concerns included content, work, or impact and contrasts with scope for opportunity.",
+          "polarity": "must_hold",
+          "scope": "語義2-3"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "scope",
+      "frame": "scope out the area; scope the project; scope a solution",
+      "meaning": "詳しく調べる、下見する、作業範囲を定める",
+      "disposition": "included",
+      "rationale": "The anchor scope out identifies the informal inspection frame, while scope the project identifies the planning frame.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003-SA-001",
+          "statement": "The article distinguishes looking over a target from defining requirements and boundaries before work starts.",
+          "polarity": "must_hold",
+          "scope": "語義7-8"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "scope",
+      "frame": "a scope; scope the sky; scope a rifle",
+      "meaning": "観察器具、器具で観察する、スコープを取り付ける",
+      "disposition": "included",
+      "rationale": "The anchor a scope marks the countable viewing instrument, distinct from the verb scope a rifle that equips an object.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004-SA-001",
+          "statement": "Instrument and instrument-derived verb uses are qualified by their technical contexts and are not merged with ordinary range scope.",
+          "polarity": "must_hold",
+          "scope": "語義4,9-10"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "scope",
+      "frame": "scope of a quantifier; global scope; function scope",
+      "meaning": "作用域、プログラム内の可視範囲",
+      "disposition": "included",
+      "rationale": "The anchor global scope supports the programming extension, while scope of a quantifier supports the logic and linguistics extension.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005-SA-001",
+          "statement": "Logic and programming uses describe a structured domain of effect or visibility and require their specialist labels.",
+          "polarity": "must_hold",
+          "scope": "語義5-6"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-final-blind-reviewer",
+    "ingested_by": "human",
+    "agent_id": "scope-final-blind-20260901"
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-scope-20260901T143715Z-a0c6e31b",
+  "context_id": "blind-scope-context-20260901T143715Z-a0c6e31b",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-01T15:05:43.233973+00:00"
+}

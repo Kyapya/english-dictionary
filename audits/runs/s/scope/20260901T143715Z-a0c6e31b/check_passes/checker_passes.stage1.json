@@ -1,0 +1,687 @@
+{
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+        "blind_request_sha256": "319c8cdae5126d0349537d009b2e71ec7e2f60bccd507ed98c40f54ef37e5e39",
+        "recorded_at": "2026-09-01T15:02:22.336495+00:00",
+        "axes": [
+          {
+            "item_id": "ant-9509cb060732",
+            "axis": "available room",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-7c26b9b44a5f",
+            "axis": "available room",
+            "relation_type": "程度",
+            "reason": ""
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-independent-checker",
+          "ingested_by": "human",
+          "agent_id": "scope-checker-suite-20260901"
+        }
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+        "blind_request_sha256": "3d471baa95ab60a5792ee3ab7c4afa3e1277f966674d47b1059a74cd9e472c73",
+        "recorded_at": "2026-09-01T15:02:22.337085+00:00",
+        "attributions": [
+          {
+            "example_id": "ex-a2ae993f5b2a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "owner"
+            ],
+            "rationale": "The example's wording includes 'owner', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-41375c397c1e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "scoped"
+            ],
+            "rationale": "The example's wording includes 'scoped', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-253bb056adec",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "astronomer"
+            ],
+            "rationale": "The example's wording includes 'astronomer', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-75be596f75e5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "need"
+            ],
+            "rationale": "The example's wording includes 'need', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-fb04f78fdb3f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "surgeon"
+            ],
+            "rationale": "The example's wording includes 'surgeon', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-6de8905779b0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "variable"
+            ],
+            "rationale": "The example's wording includes 'variable', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-33402b73a628",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "safety"
+            ],
+            "rationale": "The example's wording includes 'safety', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-ce889c4916d0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "restoring"
+            ],
+            "rationale": "The example's wording includes 'restoring', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-f8537c15f504",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "avoid"
+            ],
+            "rationale": "The example's wording includes 'avoid', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-c22790a906f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "manual"
+            ],
+            "rationale": "The example's wording includes 'manual', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-bfe54043efb1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "policy"
+            ],
+            "rationale": "The example's wording includes 'policy', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-9fb3fb579644",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "parameter"
+            ],
+            "rationale": "The example's wording includes 'parameter', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-d5e0d9168856",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "quantifier"
+            ],
+            "rationale": "The example's wording includes 'quantifier', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-49117997bc66",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "clinic"
+            ],
+            "rationale": "The example's wording includes 'clinic', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-d226fa6f7761",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "adjusted"
+            ],
+            "rationale": "The example's wording includes 'adjusted', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-c6d234773106",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "textbook"
+            ],
+            "rationale": "The example's wording includes 'textbook', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-54b0597198d7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "scoped"
+            ],
+            "rationale": "The example's wording includes 'scoped', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-2d6e1f2941ae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "committee"
+            ],
+            "rationale": "The example's wording includes 'committee', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-dfdf9cc30419",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "first"
+            ],
+            "rationale": "The example's wording includes 'first', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-863cbafce951",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "assignment"
+            ],
+            "rationale": "The example's wording includes 'assignment', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-a6fd0f704884",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "routine"
+            ],
+            "rationale": "The example's wording includes 'routine', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-99802014c794",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "diagnosing"
+            ],
+            "rationale": "The example's wording includes 'diagnosing', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-fb7086c19662",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "doctor"
+            ],
+            "rationale": "The example's wording includes 'doctor', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-305f52b88bcd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "adverb"
+            ],
+            "rationale": "The example's wording includes 'adverb', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-ea7b36d18300",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "narrow"
+            ],
+            "rationale": "The example's wording includes 'narrow', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-61fd1a8c9193",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "team"
+            ],
+            "rationale": "The example's wording includes 'team', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-8ab2a19753a9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "evidence"
+            ],
+            "rationale": "The example's wording includes 'evidence', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-22083379f331",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "reading"
+            ],
+            "rationale": "The example's wording includes 'reading', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-9c560a888f62",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "scoped"
+            ],
+            "rationale": "The example's wording includes 'scoped', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-dd1d0d34a4e4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "causes"
+            ],
+            "rationale": "The example's wording includes 'causes', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-57dbedeb70ef",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "students"
+            ],
+            "rationale": "The example's wording includes 'students', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-e823f8fc8487",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "technician"
+            ],
+            "rationale": "The example's wording includes 'technician', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-4a36c566f7c0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "specialist"
+            ],
+            "rationale": "The example's wording includes 'specialist', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-303848d8a7a4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "consultant"
+            ],
+            "rationale": "The example's wording includes 'consultant', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-97ce1d6e20e3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "equipment"
+            ],
+            "rationale": "The example's wording includes 'equipment', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-21bd205b0863",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "cannot"
+            ],
+            "rationale": "The example's wording includes 'cannot', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-d017e0892427",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "helper"
+            ],
+            "rationale": "The example's wording includes 'helper', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-4d0cfdb1e863",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "flexible"
+            ],
+            "rationale": "The example's wording includes 'flexible', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-dcb1415a3a8a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "training"
+            ],
+            "rationale": "The example's wording includes 'training', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-6aece8c92a69",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "recruiter"
+            ],
+            "rationale": "The example's wording includes 'recruiter', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-265051c18500",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "narrowed"
+            ],
+            "rationale": "The example's wording includes 'narrowed', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-8cec1d0ad140",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "startup"
+            ],
+            "rationale": "The example's wording includes 'startup', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-fd87ad2d207c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "team"
+            ],
+            "rationale": "The example's wording includes 'team', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-caff79695733",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "choosing"
+            ],
+            "rationale": "The example's wording includes 'choosing', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-58e0a9677293",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "data"
+            ],
+            "rationale": "The example's wording includes 'data', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-60fd659feb66",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "scoped"
+            ],
+            "rationale": "The example's wording includes 'scoped', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-ff88772c4a02",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "catalog"
+            ],
+            "rationale": "The example's wording includes 'catalog', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-547ff0a59cc8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "feature"
+            ],
+            "rationale": "The example's wording includes 'feature', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-42d947b8d2ee",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "under"
+            ],
+            "rationale": "The example's wording includes 'under', which supports the selected sense."
+          },
+          {
+            "example_id": "ex-b27b2f17de42",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "language"
+            ],
+            "rationale": "The example's wording includes 'language', which supports the selected sense."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5.6-independent-checker",
+          "ingested_by": "human",
+          "agent_id": "scope-checker-suite-20260901"
+        }
+      },
+      "aligned_at": "2026-09-01T15:02:22.410694+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-independent-checker",
+        "ingested_by": "human",
+        "agent_id": "scope-checker-suite-20260901"
+      },
+      "findings": []
+    }
+  ],
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed through separate handoff roles.",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-independent-checker",
+    "ingested_by": "human",
+    "agent_id": "scope-checker-suite-20260901"
+  },
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-scope-20260901T143715Z-a0c6e31b",
+  "context_id": "normal-scope-context-20260901T143715Z-a0c6e31b",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-01T15:02:22.410436+00:00"
+}

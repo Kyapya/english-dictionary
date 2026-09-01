@@ -1,0 +1,354 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 53,
+        "label": "1. 【名詞・不可算】行動・発展の余地、機会、自由裁量",
+        "definition": "人が何かをしたり、能力を伸ばしたりするために残されている余地・機会。scope for + 名詞・動名詞 が最も定着しており、十分な余地にも、ほとんど余地がない状態にも使える。実際に成功する機会を保証する語ではなく、可能性を活かせる空間を表す。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 133,
+        "label": "2. 【名詞・不可算】主題・活動・調査などが扱う範囲、対象領域",
+        "definition": "本、議論、調査、計画、組織の活動などに含まれる主題・対象・作業の境界。scope of 〈対象〉、within/beyond/outside the scope of 〈対象〉、broad/narrow in scope の形で、何を含め何を含めないかを示す。物理的な大きさではなく、内容・活動・影響の広がりに焦点がある。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 209,
+        "label": "3. 【名詞・不可算】人・組織の能力、知識、権限が及ぶ範囲",
+        "definition": "人、職種、組織、制度などが知識・技能・責任・権限によって扱える範囲。語義2の「調査や計画が何を含むか」と似るが、ここでは主体側の能力・担当・許可された権限に焦点がある。my scope、the scope of the role、within/outside one's scope などで使う。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 273,
+        "label": "4. 【名詞・可算】望遠鏡・内視鏡・照準器などのスコープ、観察器具",
+        "definition": "遠くのもの、内部、または照準対象を見るための器具を指す短縮的な名詞。文脈により telescope、microscope、endoscope、rifle scope などを指し、scope 単独で器具の種類が決まるとは限らない。医療では検査用の内視鏡、射撃では銃に取り付ける照準望遠鏡を指すことがある。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 337,
+        "label": "5. 【名詞・論理学・言語学】量化子・否定・修飾語などの作用域",
+        "definition": "論理式や文の中で、量化子、否定、修飾語などが意味・真偽の解釈に影響を及ぼす部分。scope of a quantifier はその量化子が支配する領域を指し、文の構造によって複数の解釈が生じると scope ambiguity「作用域の曖昧性」になる。一般的な「主題の範囲」と違い、意味解釈を決める構造上の領域である。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 401,
+        "label": "6. 【名詞・コンピューター】プログラム内で名前や値を参照できる範囲、実行コンテキスト",
+        "definition": "変数、関数、値などがプログラムのどの部分から見え、参照できるかを決める実行上の範囲・文脈。global scope、function scope、block scope、lexical scope などがあり、内側の scope が外側の scope を参照できる階層構造を持つことがある。言語ごとの規則は異なるため、scope という一般概念と各言語の実装規則を分けて理解する。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 465,
+        "label": "7. 【他動詞・くだけた用法】場所・人・状況などを詳しく調べる、下見する",
+        "definition": "場所、人、競争相手、状況、可能性などを注意深く見て、情報を得たり評価したりする。scope something は調査対象を直接置く形、scope something/someone out は「詳しく下見する・情報を集める」という句動詞で、くだけた用法である。対象を見ただけで最終判断や実行まで済ませたことは含まない。"
+      },
+      {
+        "sense_id": "sense:008",
+        "line": 534,
+        "label": "8. 【他動詞・主にビジネス／技術】仕事・計画・解決策の範囲や必要条件を見積もり、定める",
+        "definition": "作業に着手する前に、プロジェクト、解決策、機能、要件などを調べて、必要な作業量・費用・範囲・条件を明確にする。scope the project/solution のように目的語を直接取る。scope out は同じ準備段階をより口語的に表すが、scope は計画上の境界を定義する意味が強い。"
+      },
+      {
+        "sense_id": "sense:009",
+        "line": 598,
+        "label": "9. 【他動詞・技術】望遠鏡・内視鏡などで見る、観察する",
+        "definition": "対象を望遠鏡で見たり、内視鏡・関節鏡などで体内や狭い部分を検査したりする。scope the sky、scope the knee のように直接目的語を取る。一般の「詳しく調べる」より、どの器具を使うかが文脈で明らかな技術・医療用法である。"
+      },
+      {
+        "sense_id": "sense:010",
+        "line": 657,
+        "label": "10. 【他動詞・技術】銃などにスコープを取り付ける、スコープ付きにする",
+        "definition": "銃などの器具に照準用のスコープを取り付け、スコープを使える状態にする。scope a rifle、a scoped rifle のように使う低頻度の技術用法で、語義4の器具名から品詞転換したもの。対象を調べる scope と異なり、目的語は装備される器具である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-eee26877714d",
+        "example": "The textbook uses a simple example of scope ambiguity.",
+        "translation": "その教科書は作用域の曖昧性の簡単な例を使っている。"
+      },
+      {
+        "example_id": "ex-9dd0e857e116",
+        "example": "We narrowed the scope of the study to three coastal towns.",
+        "translation": "私たちはその研究の対象を三つの沿岸都市に絞った。"
+      },
+      {
+        "example_id": "ex-b78fd810c76a",
+        "example": "The variable scope ends when the function returns.",
+        "translation": "その変数のスコープは関数が戻ると終わる。"
+      },
+      {
+        "example_id": "ex-a2da2984215d",
+        "example": "He scoped the room for an empty seat before the lecture began.",
+        "translation": "彼は講義が始まる前に、空いている席がないか部屋を見回した。"
+      },
+      {
+        "example_id": "ex-09b511739103",
+        "example": "The consultant scoped the work in three phases.",
+        "translation": "コンサルタントは作業を三段階に分けて範囲を定めた。"
+      },
+      {
+        "example_id": "ex-ff584399a0f5",
+        "example": "I cannot decide yet; let me scope it out first.",
+        "translation": "まだ決められない。まずそれを詳しく調べさせてください。"
+      },
+      {
+        "example_id": "ex-43dccf044ebc",
+        "example": "The doctor used a medical scope to examine the patient's throat.",
+        "translation": "医師は医療用スコープで患者の喉を調べた。"
+      },
+      {
+        "example_id": "ex-b22ebc735746",
+        "example": "In this language, a constant declared inside the block scope cannot be used outside it.",
+        "translation": "この言語では、ブロックスコープ内で宣言した定数を外では使えない。"
+      },
+      {
+        "example_id": "ex-8c0d6b4a2ae6",
+        "example": "The helper is out of scope here because it was declared inside another function.",
+        "translation": "そのヘルパーは別の関数内で宣言されたので、ここではスコープ外である。"
+      },
+      {
+        "example_id": "ex-407c23da8709",
+        "example": "The team spent a week scoping out the possibilities for a remote launch.",
+        "translation": "そのチームは遠隔での発売の可能性を一週間かけて検討した。"
+      },
+      {
+        "example_id": "ex-13003744ccfb",
+        "example": "The flexible schedule gives the designers scope to test several ideas.",
+        "translation": "柔軟な日程によって、デザイナーたちは複数の案を試す余地を得ている。"
+      },
+      {
+        "example_id": "ex-fbef1654fe27",
+        "example": "The owner had a specialist scope the rifle at a licensed range.",
+        "translation": "所有者は認可された射撃場で専門家にライフルへスコープを取り付けてもらった。"
+      },
+      {
+        "example_id": "ex-40803beda023",
+        "example": "The specialist scoped the joint with an arthroscope before repairing it.",
+        "translation": "専門医は修復する前に関節鏡でその関節を検査した。"
+      },
+      {
+        "example_id": "ex-c2614362f735",
+        "example": "The adverb has wide scope and modifies both clauses.",
+        "translation": "その副詞は広い作用域を持ち、二つの節を修飾する。"
+      },
+      {
+        "example_id": "ex-c730a8ab594e",
+        "example": "The astronomer looked through the scope and identified a faint ring around the planet.",
+        "translation": "天文学者はスコープをのぞき、その惑星の周りのかすかな輪を確認した。"
+      },
+      {
+        "example_id": "ex-c59692a63664",
+        "example": "The surgeon decided to scope the knee after the scan showed a possible tear.",
+        "translation": "スキャンで裂傷の可能性が示されたため、外科医は膝を関節鏡で検査することにした。"
+      },
+      {
+        "example_id": "ex-85a7fa274eb6",
+        "example": "The equipment was scoped for short-range observation rather than long-distance use.",
+        "translation": "その装備は長距離用ではなく、近距離観察用のスコープを備えていた。"
+      },
+      {
+        "example_id": "ex-1bfac9434778",
+        "example": "The assignment offers students considerable scope for creativity.",
+        "translation": "その課題には、学生が創造性を発揮するかなりの余地がある。"
+      },
+      {
+        "example_id": "ex-5506a55864e7",
+        "example": "The catalog lists the weight of the scoped rifle separately from the bare rifle.",
+        "translation": "そのカタログは、スコープ付きライフルの重量を、ライフル単体とは別に記載している。"
+      },
+      {
+        "example_id": "ex-82e39104d5cb",
+        "example": "We scoped out the area before choosing a hotel.",
+        "translation": "私たちはホテルを選ぶ前に、その地域を下見した。"
+      },
+      {
+        "example_id": "ex-c04077b97f3f",
+        "example": "They scoped out the requirements and costs before writing the proposal.",
+        "translation": "彼らは提案書を書く前に要件と費用を下調べした。"
+      },
+      {
+        "example_id": "ex-47d3fc5e8693",
+        "example": "Routine maintenance falls within the facilities team's scope.",
+        "translation": "定期的な保守は施設チームの担当範囲に入る。"
+      },
+      {
+        "example_id": "ex-f4f60d16e697",
+        "example": "She adjusted the scope until the distant marker came into focus.",
+        "translation": "彼女は遠くの標識に焦点が合うまでスコープを調整した。"
+      },
+      {
+        "example_id": "ex-85b791ba1f64",
+        "example": "Training new staff is within the scope of her role.",
+        "translation": "新しい職員の訓練は彼女の職務範囲に含まれる。"
+      },
+      {
+        "example_id": "ex-3dbe1e4eb82d",
+        "example": "The manual explains how to adjust the rifle scope safely.",
+        "translation": "その説明書はライフルスコープを安全に調整する方法を説明している。"
+      },
+      {
+        "example_id": "ex-ee6367114adf",
+        "example": "The parameter is available throughout the function scope.",
+        "translation": "その引数は関数スコープ全体で利用できる。"
+      },
+      {
+        "example_id": "ex-e4732ca7daaf",
+        "example": "The narrow budget leaves us with limited scope for experimentation.",
+        "translation": "予算が少ないため、私たちには試行の余地がほとんどない。"
+      },
+      {
+        "example_id": "ex-2f804875f36e",
+        "example": "The team scoped a solution that could be delivered within six weeks.",
+        "translation": "そのチームは6週間以内に提供できる解決策の範囲を定めた。"
+      },
+      {
+        "example_id": "ex-189ccb4eeead",
+        "example": "The recruiter quietly scoped the candidates out during the workshop.",
+        "translation": "採用担当者は研修中に候補者たちをひそかに観察した。"
+      },
+      {
+        "example_id": "ex-3039159cb377",
+        "example": "Diagnosing the hardware fault is outside my scope, so I called a technician.",
+        "translation": "ハードウェアの故障を診断するのは私の担当外なので、技術者を呼んだ。"
+      },
+      {
+        "example_id": "ex-a4f7f6820313",
+        "example": "The first draft is clear, but there is still plenty of scope for improvement.",
+        "translation": "初稿は明快だが、まだ改善の余地は十分にある。"
+      },
+      {
+        "example_id": "ex-e51420860eaf",
+        "example": "The causes of the conflict are beyond the scope of this short report.",
+        "translation": "その紛争の原因は、この短い報告書の扱う範囲を超えている。"
+      },
+      {
+        "example_id": "ex-6982f6a6c2d1",
+        "example": "The students scoped the sky for the comet after sunset.",
+        "translation": "学生たちは日没後、彗星を探して空を観察した。"
+      },
+      {
+        "example_id": "ex-15442ff94324",
+        "example": "In this reading, the negation takes scope over the entire conditional.",
+        "translation": "この解釈では、否定が条件文全体に作用域を及ぼす。"
+      },
+      {
+        "example_id": "ex-7b40d8033e69",
+        "example": "Avoid putting mutable configuration in the global scope.",
+        "translation": "変更可能な設定をグローバルスコープに置くのは避けなさい。"
+      },
+      {
+        "example_id": "ex-59b7353bbc6c",
+        "example": "Choosing the colors is within my scope, but changing the wiring is not.",
+        "translation": "色を選ぶのは私の裁量内だが、配線を変えるのは範囲外だ。"
+      },
+      {
+        "example_id": "ex-b902e0d5f59e",
+        "example": "The scope of the quantifier determines whether the sentence allows one reading or two.",
+        "translation": "量化子の作用域によって、その文が一つの解釈を許すか二つを許すかが決まる。"
+      },
+      {
+        "example_id": "ex-4275d482ba6e",
+        "example": "The startup is scoping out the competition before launching its product.",
+        "translation": "その新興企業は製品を発売する前に競合を調べている。"
+      },
+      {
+        "example_id": "ex-32d21f174bc7",
+        "example": "Restoring the wetlands is a project of considerable scope.",
+        "translation": "湿地を再生することは、かなり大規模なプロジェクトである。"
+      },
+      {
+        "example_id": "ex-bd6abaeb4118",
+        "example": "The clinic expanded the scope of its service to include evening appointments.",
+        "translation": "その診療所はサービスの範囲を広げ、夜間の予約も受け付けるようにした。"
+      },
+      {
+        "example_id": "ex-67532f69c09d",
+        "example": "The safety sheet describes the scope-equipped device in neutral technical terms.",
+        "translation": "その安全資料は、スコープ付き装置を中立的な技術用語で説明している。"
+      },
+      {
+        "example_id": "ex-d721dff322ee",
+        "example": "The technician mounted a scope on the surveying instrument.",
+        "translation": "技術者は測量機器にスコープを取り付けた。"
+      },
+      {
+        "example_id": "ex-8c0c10fd1f38",
+        "example": "The new evidence broadened the scope of the debate.",
+        "translation": "新しい証拠によって、その議論の範囲は広がった。"
+      },
+      {
+        "example_id": "ex-75d645289032",
+        "example": "She was scoped for internal bleeding after the accident.",
+        "translation": "彼女は事故の後、内出血がないか内視鏡検査を受けた。"
+      },
+      {
+        "example_id": "ex-0bed4570c496",
+        "example": "Data security is within the scope of the proposed audit.",
+        "translation": "データセキュリティは、提案された監査の対象範囲に含まれる。"
+      },
+      {
+        "example_id": "ex-8c58ac518ac8",
+        "example": "The feature is not fully scoped, so the estimate may change.",
+        "translation": "その機能の範囲はまだ十分に定義されていないので、見積もりは変わるかもしれない。"
+      },
+      {
+        "example_id": "ex-6ccc7a3c42b2",
+        "example": "The policy sets out the scope of authority for regional managers.",
+        "translation": "その方針は地域管理者の権限範囲を定めている。"
+      },
+      {
+        "example_id": "ex-9fa1bc594fb4",
+        "example": "Under the narrow-scope reading, the speaker denies only the final claim.",
+        "translation": "狭い作用域の解釈では、話者は最後の主張だけを否定している。"
+      },
+      {
+        "example_id": "ex-183903b7d17b",
+        "example": "We need to scope the project before we promise a delivery date.",
+        "translation": "納期を約束する前に、そのプロジェクトの範囲を定める必要がある。"
+      },
+      {
+        "example_id": "ex-e536a902d6a9",
+        "example": "The committee clarified the scope of the investigation before interviewing witnesses.",
+        "translation": "委員会は証人への聞き取りの前に、調査の範囲を明確にした。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

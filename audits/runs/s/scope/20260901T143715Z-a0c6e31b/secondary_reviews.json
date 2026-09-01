@@ -1,0 +1,591 @@
+{
+  "schema_version": "secondary_reviews_v1",
+  "stage": "secondary_reviews",
+  "run_id": "secondary-scope-20260901T151000Z",
+  "context_id": "secondary-scope-context-20260901T151000Z",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "recorded_at": "2026-09-01T15:08:58.384907+00:00",
+  "cold_review": {
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-secondary-cold-audit",
+      "ingested_by": "human",
+      "agent_id": "scope-secondary-cold-20260901"
+    },
+    "findings": []
+  },
+  "example_attribution": {
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-secondary-example-audit",
+      "ingested_by": "human",
+      "agent_id": "scope-secondary-example-20260901"
+    },
+    "blind_attribution_record": {
+      "schema_version": "example_attribution_blind_record_v1",
+      "pass_id": "example-attribution",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "blind_request_sha256": "b6b93b3a18bce01330d3796ef79d816d80509e9a335003bbe1e9308f7c70a659",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-secondary-example-audit",
+        "ingested_by": "human",
+        "agent_id": "scope-secondary-example-20260901"
+      },
+      "recorded_at": "2026-09-01T15:08:58.384546+00:00",
+      "attributions": [
+        {
+          "example_id": "ex-eee26877714d",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:005"
+          ],
+          "discriminating_terms": [
+            "textbook"
+          ],
+          "rationale": "The secondary review uses 'textbook' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-9dd0e857e116",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:002"
+          ],
+          "discriminating_terms": [
+            "narrowed"
+          ],
+          "rationale": "The secondary review uses 'narrowed' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-b78fd810c76a",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:006"
+          ],
+          "discriminating_terms": [
+            "variable"
+          ],
+          "rationale": "The secondary review uses 'variable' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-a2da2984215d",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:007"
+          ],
+          "discriminating_terms": [
+            "scoped"
+          ],
+          "rationale": "The secondary review uses 'scoped' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-09b511739103",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:008"
+          ],
+          "discriminating_terms": [
+            "consultant"
+          ],
+          "rationale": "The secondary review uses 'consultant' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-ff584399a0f5",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:007"
+          ],
+          "discriminating_terms": [
+            "cannot"
+          ],
+          "rationale": "The secondary review uses 'cannot' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-43dccf044ebc",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:004"
+          ],
+          "discriminating_terms": [
+            "doctor"
+          ],
+          "rationale": "The secondary review uses 'doctor' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-b22ebc735746",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:006"
+          ],
+          "discriminating_terms": [
+            "language"
+          ],
+          "rationale": "The secondary review uses 'language' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-8c0d6b4a2ae6",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:006"
+          ],
+          "discriminating_terms": [
+            "helper"
+          ],
+          "rationale": "The secondary review uses 'helper' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-407c23da8709",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:007"
+          ],
+          "discriminating_terms": [
+            "team"
+          ],
+          "rationale": "The secondary review uses 'team' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-13003744ccfb",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:001"
+          ],
+          "discriminating_terms": [
+            "flexible"
+          ],
+          "rationale": "The secondary review uses 'flexible' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-fbef1654fe27",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:010"
+          ],
+          "discriminating_terms": [
+            "owner"
+          ],
+          "rationale": "The secondary review uses 'owner' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-40803beda023",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:009"
+          ],
+          "discriminating_terms": [
+            "specialist"
+          ],
+          "rationale": "The secondary review uses 'specialist' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-c2614362f735",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:005"
+          ],
+          "discriminating_terms": [
+            "adverb"
+          ],
+          "rationale": "The secondary review uses 'adverb' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-c730a8ab594e",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:004"
+          ],
+          "discriminating_terms": [
+            "astronomer"
+          ],
+          "rationale": "The secondary review uses 'astronomer' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-c59692a63664",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:009"
+          ],
+          "discriminating_terms": [
+            "surgeon"
+          ],
+          "rationale": "The secondary review uses 'surgeon' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-85a7fa274eb6",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:010"
+          ],
+          "discriminating_terms": [
+            "equipment"
+          ],
+          "rationale": "The secondary review uses 'equipment' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-1bfac9434778",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:001"
+          ],
+          "discriminating_terms": [
+            "assignment"
+          ],
+          "rationale": "The secondary review uses 'assignment' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-5506a55864e7",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:010"
+          ],
+          "discriminating_terms": [
+            "catalog"
+          ],
+          "rationale": "The secondary review uses 'catalog' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-82e39104d5cb",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:007"
+          ],
+          "discriminating_terms": [
+            "scoped"
+          ],
+          "rationale": "The secondary review uses 'scoped' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-c04077b97f3f",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:008"
+          ],
+          "discriminating_terms": [
+            "scoped"
+          ],
+          "rationale": "The secondary review uses 'scoped' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-47d3fc5e8693",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:003"
+          ],
+          "discriminating_terms": [
+            "routine"
+          ],
+          "rationale": "The secondary review uses 'routine' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-f4f60d16e697",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:004"
+          ],
+          "discriminating_terms": [
+            "adjusted"
+          ],
+          "rationale": "The secondary review uses 'adjusted' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-85b791ba1f64",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:003"
+          ],
+          "discriminating_terms": [
+            "training"
+          ],
+          "rationale": "The secondary review uses 'training' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-3dbe1e4eb82d",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:004"
+          ],
+          "discriminating_terms": [
+            "manual"
+          ],
+          "rationale": "The secondary review uses 'manual' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-ee6367114adf",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:006"
+          ],
+          "discriminating_terms": [
+            "parameter"
+          ],
+          "rationale": "The secondary review uses 'parameter' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-e4732ca7daaf",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:001"
+          ],
+          "discriminating_terms": [
+            "narrow"
+          ],
+          "rationale": "The secondary review uses 'narrow' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-2f804875f36e",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:008"
+          ],
+          "discriminating_terms": [
+            "team"
+          ],
+          "rationale": "The secondary review uses 'team' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-189ccb4eeead",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:007"
+          ],
+          "discriminating_terms": [
+            "recruiter"
+          ],
+          "rationale": "The secondary review uses 'recruiter' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-3039159cb377",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:003"
+          ],
+          "discriminating_terms": [
+            "diagnosing"
+          ],
+          "rationale": "The secondary review uses 'diagnosing' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-a4f7f6820313",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:001"
+          ],
+          "discriminating_terms": [
+            "first"
+          ],
+          "rationale": "The secondary review uses 'first' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-e51420860eaf",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:002"
+          ],
+          "discriminating_terms": [
+            "causes"
+          ],
+          "rationale": "The secondary review uses 'causes' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-6982f6a6c2d1",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:009"
+          ],
+          "discriminating_terms": [
+            "students"
+          ],
+          "rationale": "The secondary review uses 'students' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-15442ff94324",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:005"
+          ],
+          "discriminating_terms": [
+            "reading"
+          ],
+          "rationale": "The secondary review uses 'reading' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-7b40d8033e69",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:006"
+          ],
+          "discriminating_terms": [
+            "avoid"
+          ],
+          "rationale": "The secondary review uses 'avoid' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-59b7353bbc6c",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:001"
+          ],
+          "discriminating_terms": [
+            "choosing"
+          ],
+          "rationale": "The secondary review uses 'choosing' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-b902e0d5f59e",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:005"
+          ],
+          "discriminating_terms": [
+            "quantifier"
+          ],
+          "rationale": "The secondary review uses 'quantifier' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-4275d482ba6e",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:007"
+          ],
+          "discriminating_terms": [
+            "startup"
+          ],
+          "rationale": "The secondary review uses 'startup' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-32d21f174bc7",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:002"
+          ],
+          "discriminating_terms": [
+            "restoring"
+          ],
+          "rationale": "The secondary review uses 'restoring' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-bd6abaeb4118",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:003"
+          ],
+          "discriminating_terms": [
+            "clinic"
+          ],
+          "rationale": "The secondary review uses 'clinic' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-67532f69c09d",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:010"
+          ],
+          "discriminating_terms": [
+            "safety"
+          ],
+          "rationale": "The secondary review uses 'safety' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-d721dff322ee",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:004"
+          ],
+          "discriminating_terms": [
+            "technician"
+          ],
+          "rationale": "The secondary review uses 'technician' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-8c0c10fd1f38",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:002"
+          ],
+          "discriminating_terms": [
+            "evidence"
+          ],
+          "rationale": "The secondary review uses 'evidence' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-75d645289032",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:009"
+          ],
+          "discriminating_terms": [
+            "scoped"
+          ],
+          "rationale": "The secondary review uses 'scoped' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-0bed4570c496",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:002"
+          ],
+          "discriminating_terms": [
+            "data"
+          ],
+          "rationale": "The secondary review uses 'data' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-8c58ac518ac8",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:008"
+          ],
+          "discriminating_terms": [
+            "feature"
+          ],
+          "rationale": "The secondary review uses 'feature' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-6ccc7a3c42b2",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:003"
+          ],
+          "discriminating_terms": [
+            "policy"
+          ],
+          "rationale": "The secondary review uses 'policy' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-9fa1bc594fb4",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:005"
+          ],
+          "discriminating_terms": [
+            "under"
+          ],
+          "rationale": "The secondary review uses 'under' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-183903b7d17b",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:008"
+          ],
+          "discriminating_terms": [
+            "need"
+          ],
+          "rationale": "The secondary review uses 'need' as an example-grounded cue for the selected sense."
+        },
+        {
+          "example_id": "ex-e536a902d6a9",
+          "classification": "unique",
+          "candidate_sense_ids": [
+            "sense:002"
+          ],
+          "discriminating_terms": [
+            "committee"
+          ],
+          "rationale": "The secondary review uses 'committee' as an example-grounded cue for the selected sense."
+        }
+      ]
+    },
+    "findings": []
+  }
+}

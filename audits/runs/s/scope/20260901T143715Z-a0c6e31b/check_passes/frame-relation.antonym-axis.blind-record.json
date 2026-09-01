@@ -1,0 +1,27 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "blind_request_sha256": "319c8cdae5126d0349537d009b2e71ec7e2f60bccd507ed98c40f54ef37e5e39",
+  "recorded_at": "2026-09-01T15:02:22.336495+00:00",
+  "axes": [
+    {
+      "item_id": "ant-9509cb060732",
+      "axis": "available room",
+      "relation_type": "程度",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-7c26b9b44a5f",
+      "axis": "available room",
+      "relation_type": "程度",
+      "reason": ""
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-independent-checker",
+    "ingested_by": "human",
+    "agent_id": "scope-checker-suite-20260901"
+  }
+}
