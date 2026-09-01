@@ -182,7 +182,7 @@ def _parallel_checker_handoff_body(
     if pass_id == "frame-relation":
         frame_note = (
             "\nThis is frame-relation stage 1 only. Keep this exact agent available. "
-            "After the coordinator fans in all seven stage-1 responses, the same "
+            "After the coordinator fans in all seven stage-1 responses, the same agent "
             "reviewer.agent_id and declared_model must execute the generated "
             "frame-relation stage-2 request before this pass is complete.\n"
         )
