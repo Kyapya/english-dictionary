@@ -1,0 +1,828 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/s/scope.md",
+  "cycle_id": "20260901T143715Z-a0c6e31b",
+  "cycle_dir": "audits/runs/s/scope/20260901T143715Z-a0c6e31b",
+  "body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/source_inventory.json",
+      "sha256": "6b56f47ebec327ad699c434d4a8947acb1107d7fad90f4da432bff4513b70e01",
+      "stage": "source_inventory",
+      "run_id": "source-scope-20260901T143715Z-a0c6e31b",
+      "context_id": "source-scope-context-20260901T143715Z-a0c6e31b",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+      "recorded_at": "2026-09-01T15:00:08.952754+00:00"
+    },
+    "normal_review": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/pass_findings.json",
+      "sha256": "c9bb6d477453ce1f44bff212ff8d518210f054e3052ae966b9716f188a7c5452",
+      "stage": "normal_review",
+      "run_id": "normal-scope-20260901T143715Z-a0c6e31b",
+      "context_id": "normal-scope-context-20260901T143715Z-a0c6e31b",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-01T15:02:22.410436+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/cold_review.json",
+      "sha256": "2be93255cf466a1d37a431ce2bd6bb8f897f6dce6b20a3618ac10f81ed2a0b54",
+      "stage": "cold_review",
+      "run_id": "cold-scope-20260901T143715Z-a0c6e31b",
+      "context_id": "cold-scope-context-20260901T143715Z-a0c6e31b",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-09-01T15:04:40.724167+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/resolutions.json",
+      "sha256": "705ba9926af32a36547a853f780097c80bcbcf249a5b50aaebb5d2e59ef83a8e",
+      "stage": "resolutions",
+      "run_id": "resolution-scope-20260901T143715Z-a0c6e31b",
+      "context_id": "resolution-scope-context-20260901T143715Z-a0c6e31b",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+      "recorded_at": "2026-09-01T15:06:29.589723+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/final_blind.json",
+      "sha256": "b77cf01eda3b605c56dffa0cc3c730b2c457ba6a6cb56e324fad3ee889104a37",
+      "stage": "final_blind",
+      "run_id": "blind-scope-20260901T143715Z-a0c6e31b",
+      "context_id": "blind-scope-context-20260901T143715Z-a0c6e31b",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "prompt_sha256": "fe20d444c973f78bd4f37856337d412cdcdf9860a761f523f93a3cefc8e58bee",
+      "recorded_at": "2026-09-01T15:05:43.233973+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/blind_seal.json",
+      "sha256": "29263ac80edc849a472230a0b42fa5d6d2e200f2ae3ff36c38a6771886456866",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/s/scope/20260901T143715Z-a0c6e31b/final_review.json",
+      "sha256": "6af5032a2be13a731febb29b87cb05004630c15b9ce947c4e9981042315a9ccd",
+      "stage": "final_review",
+      "run_id": "blind-scope-20260901T143715Z-a0c6e31b",
+      "context_id": "blind-scope-context-20260901T143715Z-a0c6e31b",
+      "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+      "recorded_at": "2026-09-01T15:07:35.399278+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "The headword combines high-frequency range and opportunity senses with separate planning, observation, logic, programming, and instrument uses.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 27,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-01T08:59:20.717855-06:00",
+    "article_comparison_started_at": "2026-09-01T08:59:31.095379-06:00",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-006",
+          "F-007",
+          "F-009",
+          "F-010",
+          "F-011",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-022",
+          "F-025"
+        ],
+        "notes": "Opportunity, range, purpose, nautical, instrument, logic, observation, planning, and programming senses are inventoried; rare source senses are explicitly excluded by union disposition."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-004",
+          "F-006",
+          "F-007",
+          "F-014",
+          "F-021"
+        ],
+        "notes": "Noun frames include scope for and within/beyond/outside scope; verb frames cover scope something, scope a project, and scope out."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-008",
+          "F-014"
+        ],
+        "notes": "The inventory records inflected verb forms and the productive phrasal form scope out."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-012",
+          "F-013",
+          "F-019",
+          "F-020",
+          "F-022",
+          "F-023",
+          "F-024",
+          "F-025",
+          "F-026",
+          "F-027"
+        ],
+        "notes": "Logic, linguistics, optical instruments, JavaScript scope, and Python name-resolution uses are covered."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-014",
+          "F-021"
+        ],
+        "notes": "Dictionary labels and usage notes distinguish core noun senses from informal scope out and technical uses."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-015"
+        ],
+        "notes": "Pronunciation and the Italian/Greek etymological path are recorded."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Learner's Dictionaries: scope (noun)",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/scope_1",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope is the opportunity or ability to do or achieve something.",
+            "source_detail": "The noun entry defines scope as opportunity or ability and gives scope for patterns."
+          },
+          {
+            "id": "F-002",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope is the range of subjects an organization, activity, book, or investigation deals with.",
+            "source_detail": "The noun entry defines the range of things a subject, organization, or activity deals with."
+          },
+          {
+            "id": "F-003",
+            "form": "scope for",
+            "kind": "grammar_pattern",
+            "statement": "Scope for introduces an opportunity or room for an action or development.",
+            "source_detail": "The entry explicitly lists scope for and scope for somebody to do something."
+          },
+          {
+            "id": "F-004",
+            "form": "within scope",
+            "kind": "grammar_pattern",
+            "statement": "Within scope, beyond scope, and outside scope locate an activity relative to a defined range.",
+            "source_detail": "The entry gives within/beyond/outside somebody's scope as common patterns."
+          },
+          {
+            "id": "F-005",
+            "form": "scope",
+            "kind": "pronunciation",
+            "statement": "The headword is pronounced UK /skəʊp/ and US /skoʊp/.",
+            "source_detail": "The learner pronunciation convention identifies the vowel difference by region."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner's Dictionaries: scope (verb)",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/scope_2",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-006",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Informally, to scope something is to look at or examine it carefully.",
+            "source_detail": "The verb entry labels this use informal and defines it as looking at or examining carefully."
+          },
+          {
+            "id": "F-007",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "To scope a project or task is to examine it before work begins to understand its size and requirements.",
+            "source_detail": "The entry describes examining a project before starting work so its size is known."
+          },
+          {
+            "id": "F-008",
+            "form": "scoped",
+            "kind": "derived_form",
+            "statement": "The verb inflects as scope, scopes, scoped, and scoping.",
+            "source_detail": "The entry's grammar box lists the regular third-person, past, and -ing forms."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Merriam-Webster: scope",
+        "locator": "https://www.merriam-webster.com/dictionary/scope",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_mw",
+        "facts": [
+          {
+            "id": "F-009",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope can denote an intention, object, or purpose.",
+            "source_detail": "The dictionary includes intention or object among noun senses; this is retained as an excluded source candidate."
+          },
+          {
+            "id": "F-010",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope can denote space or opportunity for action.",
+            "source_detail": "The noun senses include space or opportunity for action or thought."
+          },
+          {
+            "id": "F-011",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope can denote the extent of treatment, activity, or influence.",
+            "source_detail": "The noun entry defines scope as the extent of a treatment, activity, or influence."
+          },
+          {
+            "id": "F-012",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "In logic or grammar, scope is the range over which an operator or constituent has effect.",
+            "source_detail": "The entry includes logical operator and grammatical constituent uses."
+          },
+          {
+            "id": "F-013",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "A scope can be an optical instrument such as a telescope, endoscope, or rifle scope.",
+            "source_detail": "The countable instrument senses include telescope, endoscope, and a rifle scope."
+          },
+          {
+            "id": "F-014",
+            "form": "scope out",
+            "kind": "lexical_sense",
+            "statement": "To scope out is to look over or evaluate a person, place, or possibility; scope can also mean examine with an optical instrument or equip a weapon.",
+            "source_detail": "The verb entry includes scope out, telescope/endoscope examination, and equipping a rifle with a scope."
+          },
+          {
+            "id": "F-015",
+            "form": "scope",
+            "kind": "etymology",
+            "statement": "The noun comes through Italian scopo from Greek skopos, a watching or aim-related noun.",
+            "source_detail": "The dictionary etymology traces scope through Italian to Greek skopos."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Collins English Dictionary: scope",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/scope",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope can mean opportunity, capacity, or room for action.",
+            "source_detail": "The entry gives opportunity and capacity as noun senses."
+          },
+          {
+            "id": "F-017",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope can mean the range or area of application or operation.",
+            "source_detail": "The noun entry covers range, area, application, and operation."
+          },
+          {
+            "id": "F-018",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "In nautical use, scope can mean the slack or length of anchor cable paid out.",
+            "source_detail": "The entry records this specialized nautical sense; it is retained as an excluded source candidate."
+          },
+          {
+            "id": "F-019",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "In logic and linguistics, scope is the range over which a word or operator has effect.",
+            "source_detail": "The entry explicitly lists logic and linguistics usage."
+          },
+          {
+            "id": "F-020",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "Scope is also used as a short form for an optical instrument.",
+            "source_detail": "The entry records the short form and instrument use."
+          },
+          {
+            "id": "F-021",
+            "form": "scope",
+            "kind": "lexical_sense",
+            "statement": "As an American informal verb, scope means to look at, read, or investigate.",
+            "source_detail": "The verb entry labels this use American informal and gives look/read/investigate meanings."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "MDN Web Docs: Scope",
+        "locator": "https://developer.mozilla.org/en-US/docs/Glossary/Scope",
+        "source_type": "technical_reference",
+        "source_role": "specialist_technical",
+        "independence_group": "specialist_mdn",
+        "facts": [
+          {
+            "id": "F-022",
+            "form": "scope",
+            "kind": "specialist_use",
+            "statement": "In programming, scope is the current execution context in which values and expressions are visible or can be referenced.",
+            "source_detail": "MDN defines scope as the current context of execution and visibility of values and expressions."
+          },
+          {
+            "id": "F-023",
+            "form": "scope",
+            "kind": "specialist_use",
+            "statement": "Programming scopes can be layered; a child scope can access a parent scope, but a parent cannot access a child scope.",
+            "source_detail": "MDN describes nested scopes and the direction of visibility between them."
+          },
+          {
+            "id": "F-024",
+            "form": "scope",
+            "kind": "specialist_use",
+            "statement": "JavaScript includes global, module, function, and block scopes.",
+            "source_detail": "MDN lists the main JavaScript scope categories."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Python documentation: Naming and binding",
+        "locator": "https://docs.python.org/3/reference/executionmodel.html",
+        "source_type": "technical_reference",
+        "source_role": "specialist_technical",
+        "independence_group": "specialist_python",
+        "facts": [
+          {
+            "id": "F-025",
+            "form": "scope",
+            "kind": "specialist_use",
+            "statement": "In Python, a scope defines the visibility of a name within a block.",
+            "source_detail": "The execution model states that a scope defines the visibility of names within a block."
+          },
+          {
+            "id": "F-026",
+            "form": "scope",
+            "kind": "specialist_use",
+            "statement": "Python resolves a name by searching the nearest enclosing scope according to its name-resolution rules.",
+            "source_detail": "The execution model explains lookup through the nearest enclosing scope."
+          },
+          {
+            "id": "F-027",
+            "form": "scope",
+            "kind": "specialist_use",
+            "statement": "Python distinguishes local, global, and free-variable bindings when describing name resolution.",
+            "source_detail": "The execution model distinguishes local, global, and free variables in a code block."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-010",
+          "F-016"
+        ],
+        "canonical_statement": "Scope is available room or opportunity for action or achievement.",
+        "disposition": "included",
+        "rationale": "This central modern uncountable noun sense is represented by definition 1 and its frames."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-011",
+          "F-017"
+        ],
+        "canonical_statement": "Scope is the range or extent covered by a subject, activity, investigation, application, or influence.",
+        "disposition": "included",
+        "rationale": "This central noun sense is represented by definition 2 and boundary contrasts."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003",
+          "F-004"
+        ],
+        "canonical_statement": "Scope for expresses opportunity, while within, beyond, and outside scope position an activity relative to a boundary.",
+        "disposition": "included",
+        "rationale": "These recurrent noun frames are required for usable English and are represented in grammar patterns."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-006",
+          "F-014",
+          "F-021"
+        ],
+        "canonical_statement": "Informally, scope or scope out means to look over, investigate, or evaluate something.",
+        "disposition": "included",
+        "rationale": "The article separates the informal inspection verb from project planning."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-007"
+        ],
+        "canonical_statement": "To scope a project or task is to examine and define it before work begins.",
+        "disposition": "included",
+        "rationale": "The planning and requirements-management verb is common in business and technical contexts."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "canonical_statement": "The verb has the regular forms scopes, scoped, and scoping.",
+        "disposition": "included",
+        "rationale": "The article records the inflectional family without treating it as a separate lexical sense."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-013",
+          "F-020"
+        ],
+        "canonical_statement": "A scope can be an optical viewing instrument, including a telescope, endoscope, or rifle scope.",
+        "disposition": "included",
+        "rationale": "The countable instrument sense is standard and supports distinct collocations."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-012",
+          "F-019"
+        ],
+        "canonical_statement": "In logic and linguistics, scope is the range over which an operator or expression has effect.",
+        "disposition": "included",
+        "rationale": "This specialist noun use is distinct from ordinary subject-range scope and is included as a technical extension."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-005",
+          "F-015"
+        ],
+        "canonical_statement": "Scope is pronounced /skəʊp/ in UK English and /skoʊp/ in US English, and traces through Italian to Greek.",
+        "disposition": "included",
+        "rationale": "Pronunciation and etymology are explicit article sections and are source-grounded."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-022",
+          "F-023",
+          "F-024",
+          "F-025",
+          "F-026",
+          "F-027"
+        ],
+        "canonical_statement": "In programming, scope is the visibility context governing names and expressions, with nested language-specific rules.",
+        "disposition": "included",
+        "rationale": "The article includes a bounded programming sense with JavaScript and Python examples."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "canonical_statement": "Scope may denote intention, object, or purpose in a dictionary sense.",
+        "disposition": "excluded",
+        "rationale": "This historical or less productive synonymic extension is recorded as a source candidate but not given a separate modern learner sense."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-018"
+        ],
+        "canonical_statement": "Scope has a specialized nautical sense for the slack or length of anchor cable paid out.",
+        "disposition": "excluded",
+        "rationale": "This specialized nautical sense is outside the bounded standard learner profile and not productive in the target contexts."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "scope",
+        "claim_type": "lexical_sense",
+        "statement": "Scope means available room or opportunity for action or achievement.",
+        "article_target_ids": [
+          "definition:001",
+          "collocation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford defines scope as opportunity or ability to do or achieve something."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster includes space or opportunity for action or thought."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins records opportunity and capacity as core noun senses."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "scope",
+        "claim_type": "lexical_sense",
+        "statement": "Scope means the range or extent covered by a subject, activity, investigation, application, or influence.",
+        "article_target_ids": [
+          "definition:002",
+          "collocation:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford defines scope as the range of things a subject or activity deals with."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster defines scope as the extent of treatment, activity, or influence."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Collins gives range or area of application and operation."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "scope for",
+        "claim_type": "frame",
+        "statement": "Scope for expresses opportunity, while within, beyond, and outside scope express relation to a boundary.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "collocation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford lists scope for and scope for somebody to do something."
+          },
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford lists within, beyond, and outside somebody's scope."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "scope",
+        "claim_type": "lexical_sense",
+        "statement": "The informal inspection verb means to look over, investigate, or evaluate a target, often in scope out.",
+        "article_target_ids": [
+          "definition:007",
+          "collocation:032"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford labels scope something informal and defines careful examination."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Merriam-Webster describes scope out and optical examination uses."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Collins labels the American informal verb look, read, or investigate."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "scope",
+        "claim_type": "frame",
+        "statement": "To scope a project or task is to examine and define it before work begins.",
+        "article_target_ids": [
+          "definition:008",
+          "collocation:038"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford says to scope a project is to examine it before work to know its size."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "scoped",
+        "claim_type": "derived_form",
+        "statement": "Scope has the regular inflected forms scopes, scoped, and scoping.",
+        "article_target_ids": [
+          "word_formation:002",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Oxford's verb grammar box lists scopes, scoped, and scoping."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "scope",
+        "claim_type": "specialist_use",
+        "statement": "A scope can be an optical viewing instrument such as a telescope, endoscope, or rifle scope.",
+        "article_target_ids": [
+          "definition:004",
+          "collocation:017"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Merriam-Webster includes telescope, endoscope, and rifle scope instruments."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Collins records scope as a short form for an optical instrument."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "scope",
+        "claim_type": "specialist_use",
+        "statement": "In logic and linguistics, scope is the range over which an operator or expression has effect.",
+        "article_target_ids": [
+          "definition:005",
+          "collocation:022"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster includes logical operator and grammatical constituent scope."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Collins explicitly records logic and linguistics range of effect."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "scope",
+        "claim_type": "etymology",
+        "statement": "Scope has UK /skəʊp/ and US /skoʊp/ pronunciations and comes through Italian from Greek.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford pronunciation conventions distinguish UK /skəʊp/ and US /skoʊp/."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Merriam-Webster traces scope through Italian scopo to Greek skopos."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "scope",
+        "claim_type": "specialist_use",
+        "statement": "In programming, scope is the visibility context governing names and expressions, with nested and language-specific rules.",
+        "article_target_ids": [
+          "definition:006",
+          "collocation:027"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "MDN defines scope as the execution context where values and expressions are visible."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "MDN explains layered scopes and child-to-parent visibility."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "MDN lists JavaScript global, module, function, and block scopes."
+          },
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "Python documentation defines scope as name visibility within a block."
+          },
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "Python documentation describes nearest-enclosing-scope name resolution."
+          },
+          {
+            "source_fact_id": "F-027",
+            "support_summary": "Python documentation distinguishes local, global, and free-variable bindings."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [],
+  "resolutions": [],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All article targets and relations pass the final reconciliation.",
+      "No unresolved findings remain."
+    ],
+    "reviewed_at": "2026-09-01T15:07:35.399278+00:00",
+    "blind_output_sha256": "e57f95168e84c20bc40dbc9e88b76df79bff80f4e60e40f70436757a351c6337"
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}
