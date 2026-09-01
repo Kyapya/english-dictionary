@@ -1,0 +1,39 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /skoʊp/｜英: /skəʊp/。いずれも1音節で、子音群 /sk/ で始まり、母音に主強勢があり、語末を /p/ で閉じる。米音の /oʊ/ は「オウ」、英音の /əʊ/ は中央寄りの「オウ」に近い。名詞と動詞で発音は同じである。複数形 scopes は /skoʊps/、/skəʊps/、過去形・過去分詞 scoped は /skoʊpt/、/skəʊpt/、-ing形 scoping は /ˈskoʊpɪŋ/、/ˈskəʊpɪŋ/ となる。scope out では scope と out を分けて発音する。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

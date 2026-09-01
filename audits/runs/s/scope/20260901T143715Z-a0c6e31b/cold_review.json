@@ -1,0 +1,22 @@
+{
+  "findings": [],
+  "summary": "Independent cold review found no blocking or minor article findings.",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-cold-reviewer",
+    "ingested_by": "human",
+    "agent_id": "scope-cold-reviewer-20260901"
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-scope-20260901T143715Z-a0c6e31b",
+  "context_id": "cold-scope-context-20260901T143715Z-a0c6e31b",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-01T15:04:40.724167+00:00"
+}

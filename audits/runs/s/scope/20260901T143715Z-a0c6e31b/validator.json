@@ -1,0 +1,18 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/s/scope.md",
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 462: grammar frame could not be classified: be scoping out 〈対象〉＝～を調査中である",
+    "line 531: grammar frame could not be classified: be fully scoped＝範囲・要件が十分に定義されている",
+    "line 595: grammar frame could not be classified: be scoped＝スコープで検査される",
+    "line 654: grammar frame could not be classified: a scoped 〈rifle・weapon〉＝スコープ付きのライフルなど",
+    "line 654: grammar frame could not be classified: be scoped＝スコープを装備している"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-09-01T14:49:21Z"
+}

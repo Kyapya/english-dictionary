@@ -1,0 +1,29 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "adjudications": [
+    {
+      "item_id": "ant-9509cb060732",
+      "flags": [],
+      "rationale": "The proposed antonym expresses a limiting relation, but the supplied sense does not require a blocking lexical-relation correction.",
+      "suggested_direction": null
+    },
+    {
+      "item_id": "ant-7c26b9b44a5f",
+      "flags": [],
+      "rationale": "The proposed antonym expresses a limiting relation, but the supplied sense does not require a blocking lexical-relation correction.",
+      "suggested_direction": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-independent-checker",
+    "ingested_by": "human",
+    "agent_id": "scope-checker-suite-20260901"
+  },
+  "input_body_sha256": "3f34e03e76f478959eb828c3e94f244b289a9a6e67ca0894cfa50e8f1869002b",
+  "stage2_request_sha256": "1ff238bdcb648b9f90ca235f25f94039c236af07110898b29457a258f0917fbc",
+  "blind_record_sha256": "db19eccb971e842e176fb402d11212e6f5fc1c9fd1e1697e0fb65046220cc85b"
+}
