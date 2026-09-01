@@ -19,11 +19,11 @@
     "candidate_pages": 11
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-01T14:37:15Z",
   "deadline_at": "2026-09-01T15:37:15Z",
   "pre_draft_deadline_at": "2026-09-01T14:57:15Z",
-  "last_heartbeat_at": "2026-09-01T14:47:41Z",
+  "last_heartbeat_at": "2026-09-01T14:48:35Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-01T14:38:32Z",
@@ -39,6 +39,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-01T14:38:32Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-01T14:48:35Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -448,11 +453,11 @@
       {
         "id": "generation",
         "instruction_bytes": 53277,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 53277,
+        "duration_seconds": 480.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
@@ -600,35 +605,41 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 480.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0003",
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 480.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0004",
         "status": "active",
         "instruction_bytes": 276,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 480.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 2,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/s/scope.md",
+        "audits/runs/s/scope/20260901T143715Z-a0c6e31b/generation.json"
+      ]
+    }
   }
 }
