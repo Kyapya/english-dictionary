@@ -19,11 +19,11 @@
     "candidate_pages": 22
   },
   "status": "in_progress",
-  "stage": "normal_review_complete",
+  "stage": "cold_review_complete",
   "started_at": "2026-09-02T19:40:39Z",
   "deadline_at": "2026-09-02T21:10:39Z",
   "pre_draft_deadline_at": "2026-09-02T20:10:39Z",
-  "last_heartbeat_at": "2026-09-02T20:15:35Z",
+  "last_heartbeat_at": "2026-09-02T20:27:35Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-02T19:41:43Z",
@@ -54,6 +54,11 @@
       "stage": "normal_review_complete",
       "recorded_at": "2026-09-02T20:15:31Z",
       "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-02T20:21:50Z",
+      "notes": "orchestrator completed cold_review"
     }
   ],
   "stop_reason": "",
@@ -492,11 +497,11 @@
       {
         "id": "cold_review",
         "instruction_bytes": 1419,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 13454,
+        "duration_seconds": 420.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
@@ -642,12 +647,13 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 4,
+    "next_stage_index": 5,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
-      "checker_passes"
+      "checker_passes",
+      "cold_review"
     ],
     "stage_outputs": {
       "generation": [
@@ -661,6 +667,9 @@
         "audits/runs/p/publicity/20260902T194039Z-23d464b6/source_inventory.json",
         "audits/runs/p/publicity/20260902T194039Z-23d464b6/check_passes/",
         "audits/runs/p/publicity/20260902T194039Z-23d464b6/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/p/publicity/20260902T194039Z-23d464b6/cold_review.json"
       ]
     }
   }
