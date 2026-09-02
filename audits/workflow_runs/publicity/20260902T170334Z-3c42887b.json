@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 8,
+    "candidate_pages": 14
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "draft_saved",
   "started_at": "2026-09-02T17:03:34Z",
   "deadline_at": "2026-09-02T18:03:34Z",
   "pre_draft_deadline_at": "2026-09-02T17:23:34Z",
-  "last_heartbeat_at": "2026-09-02T17:05:51Z",
+  "last_heartbeat_at": "2026-09-02T17:23:07Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-02T17:05:07Z",
@@ -46,7 +46,7 @@
       "notes": "orchestrator completed generation"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "heartbeat gap budget exhausted",
   "open_questions": [],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
