@@ -15,15 +15,15 @@
     "max_heartbeat_gap_minutes": 10
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 6,
+    "candidate_pages": 10
   },
   "status": "in_progress",
   "stage": "preflight_pushed",
   "started_at": "2026-09-02T16:04:44Z",
   "deadline_at": "2026-09-02T17:04:44Z",
   "pre_draft_deadline_at": "2026-09-02T16:24:44Z",
-  "last_heartbeat_at": "2026-09-02T16:05:45Z",
+  "last_heartbeat_at": "2026-09-02T16:08:55Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-02T16:05:45Z",
@@ -498,3 +498,23 @@
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
+      },
+      {
+        "id": "finding_resolution",
+        "instruction_bytes": 1492,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": false
+      },
+      {
+        "id": "final_review",
+        "instruction_bytes": 3065,
+        "input_bytes": 0,
+        "duration_seconds": 0.0,
+        "defects_detected": 0,
+        "revision_count": 0,
+        "completed": false
+      },
+      {
