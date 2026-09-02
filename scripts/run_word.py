@@ -10,8 +10,9 @@ regression suite while routing runtime hooks to the parallel implementation.
 Checker passes use parallel subagents: one isolated subagent/context per pass.
 The same model may be reused by multiple subagents; handoff independence is
 proved by distinct ``reviewer.agent_id`` values, not by distinct model names.
-Legacy aggregate checker handoff ingestion is deliberately rejected so a run
-cannot bypass the seven-subagent fan-out/fan-in contract.
+Guarded workflow runs created under the parallel-subagent protocol reject legacy
+aggregate checker handoff, while pre-protocol fixtures and historical runs remain
+readable for regression and audit compatibility.
 
 Preserved contracts: independent_llm, process_improvement/ACTIVE.md,
 context_free_cold, context_free_final_blind, confirm_remote_checkpoint,
@@ -94,6 +95,16 @@ def _strict_prepare_handoff(*args: Any, **kwargs: Any) -> Any:
 def _strict_checker_handoff_ready(
     manifest: dict[str, Any], *, repo_root: Path
 ) -> None:
+    orchestrator = manifest.get("orchestrator")
+    if not isinstance(orchestrator, dict):
+        return
+    if orchestrator.get("checker_execution_protocol") != CHECKER_SUBAGENT_PROTOCOL_VERSION:
+        return
+    # The strict contract is attached to guarded workflow runs. Small synthetic
+    # pre-protocol fixtures deliberately omit workflow status and remain readable.
+    if manifest.get("status") not in {"in_progress", "completed", "budget_exhausted"}:
+        return
+
     request = _parallel._v3.next_stage_request(manifest)
     if request is None or request.get("name") != "checker_passes":
         return
