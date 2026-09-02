@@ -20,6 +20,11 @@ class SubagentReviewContractTests(unittest.TestCase):
     def _root_and_manifest(self, directory: str) -> tuple[Path, dict[str, object]]:
         root = Path(directory)
         shutil.copytree(REPO_ROOT / "prompts", root / "prompts")
+        (root / "audits").mkdir()
+        shutil.copy2(
+            REPO_ROOT / "audits" / "escaped_defect_taxonomy.json",
+            root / "audits" / "escaped_defect_taxonomy.json",
+        )
         entry = root / "entries" / "s" / "sample.md"
         entry.parent.mkdir(parents=True)
         entry.write_text(
@@ -29,6 +34,7 @@ class SubagentReviewContractTests(unittest.TestCase):
         manifest: dict[str, object] = {
             "entry_path": "entries/s/sample.md",
             "run_id": "subagent-contract-run",
+            "status": "in_progress",
             "orchestrator": run_word.plan_payload(
                 "sample", root, reviewer_mode="handoff"
             ),
