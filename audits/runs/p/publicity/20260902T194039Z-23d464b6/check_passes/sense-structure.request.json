@@ -1,0 +1,90 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+  "input_sections": {
+    "core_image": [],
+    "sense_structure": [
+      {
+        "line": 30,
+        "text": "1. 【名詞・不可算】公衆の注目、報道上の露出"
+      },
+      {
+        "line": 32,
+        "text": "【日本語訳・定義】人・企業・作品・出来事などが、新聞、テレビなどのメディアを通じて世間から受ける注目や報道上の露出。好意的とは限らず、good/bad/negative/unwanted publicity のように評価を添えられる。  "
+      },
+      {
+        "line": 101,
+        "text": "2. 【名詞・不可算】宣伝活動、広報"
+      },
+      {
+        "line": 103,
+        "text": "【日本語訳・定義】人、商品、作品、行事、主張などに世間の関心を集めるために行う広報・宣伝活動。広告に限らず、情報提供などの広報手段を含み得る。ここでは世間の注目を集める側の活動・手段に焦点を置く。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 30,
+        "text": "1. 【名詞・不可算】公衆の注目、報道上の露出"
+      },
+      {
+        "line": 67,
+        "text": "【語法・注意】現代の一般用法ではこの語義の publicity は通常不可算で、a publicity や publicities は一般に避け、a lot of publicity、the publicity surrounding the case のように使う。publicity は注目・報道を表し、好評や長期的な名声を必ず含むわけではない。good/bad/negative/unwanted publicity のように評価を添えられる。  "
+      },
+      {
+        "line": 101,
+        "text": "2. 【名詞・不可算】宣伝活動、広報"
+      },
+      {
+        "line": 133,
+        "text": "【語法・注意】この語義でも publicity は通常不可算で、a publicity campaign、a publicity stunt のように、数えられるのは campaign や stunt などの具体的な活動である。the publicity for the film は映画の宣伝・広報活動を指し得るが、文脈によっては映画が受ける注目・報道も指す。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・publicist：publicity を作り、扱い、広める仕事をする人。映画、作家、芸能人、企業などの広報担当者を指す。  "
+      },
+      {
+        "line": 24,
+        "text": "・publicity campaign：商品、作品、行事、主張などに注目を集めるための宣伝・広報キャンペーン。  "
+      },
+      {
+        "line": 25,
+        "text": "・publicity material：宣伝・広報用の資料。  "
+      },
+      {
+        "line": 26,
+        "text": "・publicity stunt：世間の注目を集めるために意図して行う行為・仕掛け。話題作りの含みを持つ。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
