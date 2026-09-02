@@ -1,0 +1,22 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-publicity-20260902T194039Z-23d464b6",
+  "context_id": "cold-publicity-context-20260902T194039Z-23d464b6",
+  "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-02T20:21:41.124968+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a063c3-6fed-7b53-8cc6-0d813213a0a0"
+  },
+  "summary": "問題候補なし",
+  "findings": []
+}
