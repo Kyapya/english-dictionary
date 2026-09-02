@@ -405,10 +405,11 @@ def enforce_budget(manifest: dict[str, Any], *, now: datetime | None = None) -> 
     if errors:
         raise ValueError("; ".join(errors))
     assert deadline and pre_draft_deadline and heartbeat
-    if current > deadline:
+    stage = manifest.get("stage")
+    if current > deadline and stage in {"preflight", "preflight_pushed"}:
         _stop(manifest, reason="overall elapsed-time budget exhausted", now=current)
         return False
-    if manifest.get("stage") in {"preflight", "preflight_pushed"} and current > pre_draft_deadline:
+    if stage in {"preflight", "preflight_pushed"} and current > pre_draft_deadline:
         _stop(manifest, reason="pre-draft elapsed-time budget exhausted", now=current)
         return False
     max_gap = manifest["limits"]["max_heartbeat_gap_minutes"]
