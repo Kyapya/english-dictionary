@@ -1,0 +1,25 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "20260902T194039Z-23d464b6",
+  "resolutions": [
+    {
+      "id": "finding-01",
+      "finding_id": "finding-01",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用する。元の文法パターンが publicity for/about を活動読みと結果読みの両方に束ねていたため、本文を改稿し、語義1では publicity about と publicity for の結果読み、語義2では publicity for の活動読みだけを明示した。語義2の語法注記でも結果読みを語義1へ戻し、同じ表面形の読み分けを明記した。",
+      "required_changes": "publicity for/about の活動読みと結果読みを別フレームとして明示し、語義ブロック間の境界を重複させない。",
+      "implemented_changes": "語義1の語法注記に結果読みを明記し、語義2の文法パターンを publicity for の活動読みへ限定し、語義2の語法注記と関連説明を同じ区別へ整合させた。",
+      "resolved_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d"
+    }
+  ],
+  "context_id": "normal-publicity-context-20260902T194039Z-23d464b6",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "recorded_at": "2026-09-02T21:05:38.231032+00:00",
+  "input_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ]
+}
