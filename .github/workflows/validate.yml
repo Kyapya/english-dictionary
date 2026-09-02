@@ -59,6 +59,9 @@ jobs:
           python scripts/process_improvement.py validate
           python scripts/measure_instruction_budget.py validate
 
+      - name: Validate checker subagent provenance
+        run: python scripts/checker_subagent_gate.py validate --merge-ready
+
       - name: Validate bounded entry workflow runs
         if: github.event_name != 'pull_request'
         run: python scripts/entry_workflow_guard.py validate --merge-ready
