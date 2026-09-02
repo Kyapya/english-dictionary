@@ -1,0 +1,41 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260902T162214Z-df4acb15",
+  "headword": "publicity",
+  "entry_path": "entries/p/publicity.md",
+  "branch": "add/publicity-20260902-v2",
+  "base_sha": "2a225f5fcf6d86b5a3cbb816cf8bc542afb886f0",
+  "profile": "standard",
+  "profile_reason": "fresh bounded rerun after heartbeat safe-stop",
+  "limits": {
+    "max_elapsed_minutes": 60,
+    "max_pre_draft_minutes": 20,
+    "max_research_queries": 12,
+    "max_candidate_pages": 18,
+    "max_heartbeat_gap_minutes": 10
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-09-02T16:22:14Z",
+  "deadline_at": "2026-09-02T17:22:14Z",
+  "pre_draft_deadline_at": "2026-09-02T16:42:14Z",
+  "last_heartbeat_at": "2026-09-02T16:22:14Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-09-02T16:22:14Z",
+      "notes": "run initialized"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
