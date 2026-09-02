@@ -1,0 +1,352 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-publicity-20260902T194039Z-23d464b6",
+  "context_id": "normal-publicity-context-20260902T194039Z-23d464b6",
+  "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-02T20:09:45.081144+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063a8-9a9e-78f1-9fca-ce0fe46e50b0"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063a8-a678-7083-b005-4bee3b3130ac"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063ad-98d2-7430-8a73-13aa483c109e"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+        "blind_request_sha256": "8e9b4d7dc0f727c40f58097f13aeb2bc780ac7c0d65ce94d7a482d33f740b124",
+        "recorded_at": "2026-09-02T19:52:26Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a063ad-98d2-7430-8a73-13aa483c109e"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+        "stage2_request_sha256": "4ab6bf4e682bffa4fa8a0912d9651a834b04f29f7fcb372b43be689d9e4d0d94",
+        "blind_record_sha256": "19206392037543fe2be8499c9b3fb24c77339a105bbbe24d932e6fa4b2297b41",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a063ad-98d2-7430-8a73-13aa483c109e"
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-02T20:15:04.119138+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063a8-abbe-7e13-a49a-10d7581f5085"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+        "blind_request_sha256": "a02539db6bd38eff541c3d6ef24b19a3871b2226c66f83945291a402cf55ef8a",
+        "recorded_at": "2026-09-02T19:48:52.119Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a063a8-abbe-7e13-a49a-10d7581f5085"
+        },
+        "sense_inventory": [
+          {
+            "definition": "人・企業・作品・出来事などが、新聞、テレビなどのメディアを通じて世間から受ける注目や報道上の露出。好意的とは限らず、good/bad/negative/unwanted publicity のように評価を添えられる。",
+            "label": "1. 【名詞・不可算】公衆の注目、報道上の露出",
+            "sense_id": "sense:001"
+          },
+          {
+            "definition": "人、商品、作品、行事、主張などに世間の関心を集めるために行う広報・宣伝活動。広告に限らず、情報提供などの広報手段を含み得る。ここでは世間の注目を集める側の活動・手段に焦点を置く。",
+            "label": "2. 【名詞・不可算】宣伝活動、広報",
+            "sense_id": "sense:002"
+          }
+        ],
+        "blind_order": [
+          "blind-01",
+          "blind-02",
+          "blind-03",
+          "blind-04",
+          "blind-05",
+          "blind-06",
+          "blind-07",
+          "blind-08",
+          "blind-09"
+        ],
+        "attributions": [
+          {
+            "classification": "unique",
+            "blind_id": "blind-01",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "gained widespread publicity",
+              "after the athlete supported"
+            ],
+            "example": "The charity gained widespread publicity after the athlete supported its campaign.",
+            "example_id": "ex-93e5ac564ed0",
+            "rationale": "\"gained widespread publicity\" は団体が publicity を獲得する結果状態を表し、widespread も広がった注目を示すため、最有力はsense:001（世間から受ける注目・報道上の露出）。sense:002（注目を集める広報活動）なら団体が活動を手配・実施する構文になるが、この文では publicity は支持後に団体が受けた結果であり、活動そのものとしては成立しない。",
+            "translation": "その慈善団体は、その選手がキャンペーンを支持した後、広く世間の注目を浴びた。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-02",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "staged a publicity stunt",
+              "by projecting its logo"
+            ],
+            "example": "The company staged a publicity stunt by projecting its logo onto the river bridge.",
+            "example_id": "ex-b3cd135cea73",
+            "rationale": "\"staged a publicity stunt\" は会社が意図的に行った仕掛けという活動・手段の構文を作るため、最有力はsense:002（世間の関心を集める宣伝・広報活動）。sense:001（受ける注目・報道露出）は通常その活動の結果として会社に生じるものだが、この文の publicity は会社が実施した stunt の目的・性質を表し、受けた注目としては同じ位置で成立しない。",
+            "translation": "その会社は川に架かる橋へロゴを投影する話題作りの仕掛けを行った。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-03",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "shuns publicity",
+              "rarely gives interviews"
+            ],
+            "example": "The novelist shuns publicity and rarely gives interviews.",
+            "example_id": "ex-ee610cdc723c",
+            "rationale": "\"shuns publicity\" は小説家が避ける対象として publicity を取り、rarely gives interviews は公的な露出を避ける行動を補強するため、最有力はsense:001（世間から受ける注目・報道露出）。sense:002（宣伝・広報活動）を避ける意味も抽象的には考えられるが、同じ文の publicity はインタビューと並ぶ本人への公衆の注目・露出であり、活動を運営する意味ではない。",
+            "translation": "その小説家は世間の注目を避け、めったにインタビューに応じない。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-04",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "prepared publicity material",
+              "for the product launch"
+            ],
+            "example": "The press office prepared publicity material for the product launch.",
+            "example_id": "ex-d9402edd47c2",
+            "rationale": "\"prepared publicity material\" の目的語である publicity material は発売を知らせるために作成する資料で、活動・手段側の意味を表すため、最有力はsense:002（世間の関心を集める広報・宣伝の手段）。sense:001（受ける注目・報道露出）は資料として準備できる物ではないため、この名詞句の構文では成立しない。",
+            "translation": "広報室は製品発売のための宣伝資料を用意した。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-05",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "launched a publicity campaign",
+              "for its new exhibition"
+            ],
+            "example": "The museum launched a publicity campaign for its new exhibition.",
+            "example_id": "ex-24c2620e3b89",
+            "rationale": "\"launched a publicity campaign\" の目的語 campaign は開始される活動であり、exhibition を知らせる手段としての publicity を指定するため、最有力はsense:002（宣伝・広報活動）。sense:001（受ける注目・報道露出）は開始できる campaign ではないため、この構文では競合しない。",
+            "translation": "その博物館は新しい展覧会の広報キャンペーンを始めた。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-06",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "arranged advance publicity",
+              "for the festival",
+              "several months before it opened"
+            ],
+            "example": "The organizers arranged advance publicity for the festival several months before it opened.",
+            "example_id": "ex-51c288100a2c",
+            "rationale": "\"arranged advance publicity\" は主催者が publicity を手配する活動側の構文で、advance と開幕前の時点も計画的な告知を示すため、最有力はsense:002（祭りへの関心を集める事前の広報活動・手段）。sense:001（受ける注目・報道露出）は主催者が数か月前に手配する対象としては結果状態であり、この文の目的語位置では自然でない。",
+            "translation": "主催者は祭りの開幕数か月前から事前広報を手配した。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-07",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "negative publicity",
+              "surrounding the safety complaint",
+              "responded quickly to"
+            ],
+            "example": "The restaurant responded quickly to the negative publicity surrounding the safety complaint.",
+            "example_id": "ex-89fae701bfc6",
+            "rationale": "\"negative publicity\" は publicity を問題に関する報道・反響として位置付け、responded to はレストランがその結果状態に対処する構文を作るため、最有力はsense:001（苦情をめぐって世間・メディアから受ける否定的な注目や報道）。sense:002（注目を集める広報活動）はレストランが行う対外活動を指せるが、同じ文では publicity は苦情をめぐって既に生じた否定的な反響であり、行う活動としては成立しない。",
+            "translation": "そのレストランは、安全性に関する苦情をめぐる否定的な報道にすぐ対応した。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-08",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "gave the company bad publicity"
+            ],
+            "example": "The scandal gave the company bad publicity.",
+            "example_id": "ex-b96ab1d45bb5",
+            "rationale": "\"gave the company bad publicity\" は不祥事が会社にもたらした結果としての悪評・露出を表すため、最有力はsense:001（会社が受ける否定的な世間の注目・報道露出）。sense:002（広報活動・手段）は不祥事が会社に与える実施行為ではなく、同じ使役的な結果構文では成立しない。",
+            "translation": "その不祥事は会社に否定的な世間の注目をもたらした。"
+          },
+          {
+            "classification": "unique",
+            "blind_id": "blind-09",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "received widespread publicity",
+              "in the national press"
+            ],
+            "example": "The discovery received widespread publicity in the national press.",
+            "example_id": "ex-67f583463d68",
+            "rationale": "\"received widespread publicity\" は発見を publicity の受け手にし、in the national press はその報道媒体を示すため、最有力はsense:001（発見がメディアを通じて受けた広い報道露出）。sense:002（宣伝・広報活動）は発見が受け取るものでも全国紙で発生する活動そのものでもなく、この受動的な構文では成立しない。",
+            "translation": "その発見は全国紙で広く報道された。"
+          }
+        ],
+        "aligned_at": "2026-09-02T19:51:00.890Z",
+        "findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-02T20:09:45.077833+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063ae-7397-7d11-bd3c-ef48120e90bf"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063ae-78de-7f20-94cb-0ba3bc5cd081"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a063b6-5f04-7b60-9594-770de9de6088"
+      },
+      "findings": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063a8-9a9e-78f1-9fca-ce0fe46e50b0"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063a8-a678-7083-b005-4bee3b3130ac"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063ad-98d2-7430-8a73-13aa483c109e"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063a8-abbe-7e13-a49a-10d7581f5085"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063ae-7397-7d11-bd3c-ef48120e90bf"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063ae-78de-7f20-94cb-0ba3bc5cd081"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a063b6-5f04-7b60-9594-770de9de6088"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}
