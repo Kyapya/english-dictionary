@@ -1,0 +1,389 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-publicity-20260902T194039Z-23d464b6",
+  "context_id": "blind-publicity-context-20260902T194039Z-23d464b6",
+  "input_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-02T20:25:50.327Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a063c9-2a02-7ab0-95b8-54e79803c087"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "cand-01",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; S gain/receive publicity",
+      "meaning": "主体が受ける公衆の注目・報道上の露出という結果",
+      "disposition": "included",
+      "rationale": "本文は「gain/receive publicity」を、publicity の結果として受ける注目・報道上の露出のフレームとして収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-01-a1",
+          "statement": "このフレームの publicity は主体が受ける公衆の注目・報道上の露出を指す。",
+          "polarity": "must_hold",
+          "scope": "gain/receive publicity; result reading"
+        },
+        {
+          "id": "cand-01-a2",
+          "statement": "この結果読みは好意的な評価を必須条件にしてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "gain/receive publicity; evaluation"
+        }
+      ]
+    },
+    {
+      "id": "cand-02",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; widespread/good/bad/negative/unwanted publicity",
+      "meaning": "広がりや評価を伴う公衆の注目・報道上の露出",
+      "disposition": "included",
+      "rationale": "本文は「widespread/good/bad/negative/unwanted publicity」を、結果としての注目・報道の程度や評価を示す修飾フレームとして扱っている。",
+      "semantic_assertions": [
+        {
+          "id": "cand-02-a1",
+          "statement": "これらの修飾語は publicity の広がりまたは評価を変更する。",
+          "polarity": "must_hold",
+          "scope": "widespread/good/bad/negative/unwanted publicity"
+        },
+        {
+          "id": "cand-02-a2",
+          "statement": "good/bad/negative/unwanted publicity は publicity が必ず名声を意味することを含意してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "evaluative publicity modifiers"
+        }
+      ]
+    },
+    {
+      "id": "cand-03",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; S shun publicity",
+      "meaning": "主体が避ける対象となる公衆の注目・報道",
+      "disposition": "included",
+      "rationale": "本文は「shun publicity」を、主体が世間の注目や報道を意図的に避けるフレームとして収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-03-a1",
+          "statement": "shun publicity では publicity は避けられる公衆の注目・報道を指す。",
+          "polarity": "must_hold",
+          "scope": "shun publicity"
+        },
+        {
+          "id": "cand-03-a2",
+          "statement": "このフレームは主体が宣伝活動を避けることだけを意味してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "shun publicity; activity/result boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-04",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; publicity about/surrounding 〈topic〉",
+      "meaning": "話題をめぐる公衆の注目・報道上の露出",
+      "disposition": "included",
+      "rationale": "本文は「publicity about 〈話題〉」と「the publicity surrounding the case」を、話題に関する注目・報道の結果読みとして説明している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-04-a1",
+          "statement": "about/surrounding の補語は publicity が扱う話題を指定する。",
+          "polarity": "must_hold",
+          "scope": "publicity about/surrounding 〈topic〉"
+        },
+        {
+          "id": "cand-04-a2",
+          "statement": "このフレームの publicity は話題を宣伝する活動そのものに限定されてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicity about/surrounding 〈topic〉; result/activity boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-05",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; publicity for 〈target〉（結果・受けた注目の読み）",
+      "meaning": "対象が受ける公衆の注目・報道上の露出",
+      "disposition": "included",
+      "rationale": "本文は「publicity for 〈対象〉」に、対象が受けた注目を表す結果読みがあり得ると明示している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-05-a1",
+          "statement": "この読みでは for の補語は注目・報道を受ける対象を指定する。",
+          "polarity": "must_hold",
+          "scope": "publicity for 〈target〉; result reading"
+        },
+        {
+          "id": "cand-05-a2",
+          "statement": "この読みの publicity は対象に注目を集める活動そのものを必須条件にしてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicity for 〈target〉; result/activity boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-06",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; publicity for/about 〈target〉（活動・手段の読み）",
+      "meaning": "対象に世間の関心を集める広報・宣伝活動",
+      "disposition": "included",
+      "rationale": "本文は「publicity for/about 〈映画・商品・行事〉＝～に関する広報・注目」を sense 2 の文法パターンに置き、対象への注目を集める活動の読みを収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-06-a1",
+          "statement": "この読みでは publicity は対象への注目を集める活動または手段を指す。",
+          "polarity": "must_hold",
+          "scope": "publicity for/about 〈target〉; activity reading"
+        },
+        {
+          "id": "cand-06-a2",
+          "statement": "paid advertising を含み得るという注記は、すべての publicity が有料広告であることを意味してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicity activity; advertising boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-07",
+      "surface_form": "publicity",
+      "frame": "不可算名詞; advance publicity for 〈launch/event〉",
+      "meaning": "発売・行事開始前に行う事前の宣伝・広報活動",
+      "disposition": "included",
+      "rationale": "本文は「advance publicity for 〈発売・行事〉」を、発売や行事の前に行う事前広報のフレームとして収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-07-a1",
+          "statement": "advance publicity は対象の発売・開始より前に行われる。",
+          "polarity": "must_hold",
+          "scope": "advance publicity for 〈launch/event〉"
+        },
+        {
+          "id": "cand-07-a2",
+          "statement": "このフレームは事前の広報・宣伝活動を指し、対象そのものを指してはならない。",
+          "polarity": "must_hold",
+          "scope": "advance publicity for 〈launch/event〉"
+        }
+      ]
+    },
+    {
+      "id": "cand-08",
+      "surface_form": "publicity campaign",
+      "frame": "可算名詞; a publicity campaign for 〈target〉",
+      "meaning": "対象への注目を集める計画的な宣伝・広報活動",
+      "disposition": "included",
+      "rationale": "本文は「a publicity campaign」を、商品・作品・行事・主張への注目を集める計画的活動として収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-08-a1",
+          "statement": "campaign が数えられる活動単位を表す。",
+          "polarity": "must_hold",
+          "scope": "a publicity campaign"
+        },
+        {
+          "id": "cand-08-a2",
+          "statement": "publicity campaign は対象への注目を集める目的を持つ。",
+          "polarity": "must_hold",
+          "scope": "a publicity campaign for 〈target〉"
+        }
+      ]
+    },
+    {
+      "id": "cand-09",
+      "surface_form": "publicity material",
+      "frame": "不可算名詞; publicity material for 〈target〉",
+      "meaning": "宣伝・広報に用いる資料",
+      "disposition": "included",
+      "rationale": "本文は「publicity material」を、メディアや一般の人に提供する宣伝・広報用資料として収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-09-a1",
+          "statement": "material は宣伝・広報に用いる資料を指す。",
+          "polarity": "must_hold",
+          "scope": "publicity material"
+        },
+        {
+          "id": "cand-09-a2",
+          "statement": "publicity material は公衆の注目そのものを指してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicity material; material/result boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-10",
+      "surface_form": "publicity stunt",
+      "frame": "可算名詞; a publicity stunt",
+      "meaning": "注目を集める意図で仕組まれた行為・仕掛け",
+      "disposition": "included",
+      "rationale": "本文は「a publicity stunt」を、メディアや世間の注目を集めるために意図して行う話題作りの行為として収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-10-a1",
+          "statement": "stunt は注目を集めるために行われる具体的な行為を表す。",
+          "polarity": "must_hold",
+          "scope": "a publicity stunt"
+        },
+        {
+          "id": "cand-10-a2",
+          "statement": "publicity stunt は publicity という結果だけを表す名詞句として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "a publicity stunt; activity/result boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-11",
+      "surface_form": "publicity",
+      "frame": "形式的・古風な不可算名詞; publicity as publicness",
+      "meaning": "公開性・公然性",
+      "disposition": "included",
+      "rationale": "本文の publicity について、古風・形式的には「公開性、公然性」の意味で使われることもある」として、現代の注目・宣伝とは別の歴史的用法を注記している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-11-a1",
+          "statement": "この用法の publicity は公開性・公然性を指す。",
+          "polarity": "must_hold",
+          "scope": "formal/archaic publicity"
+        },
+        {
+          "id": "cand-11-a2",
+          "statement": "この用法を現代のメディア露出または宣伝活動の通常用法として一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "formal/archaic publicity; register boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-12",
+      "surface_form": "publicist",
+      "frame": "可算名詞; a publicist for 〈person/organization/work〉",
+      "meaning": "人・組織・作品の publicity を獲得・管理・拡散する仕事をする人",
+      "disposition": "included",
+      "rationale": "本文は「publicist」を、映画・作家・芸能人・企業などの publicity を扱い広める広報担当者として語形成欄に収録している。",
+      "semantic_assertions": [
+        {
+          "id": "cand-12-a1",
+          "statement": "publicist は publicity を扱う人を指す。",
+          "polarity": "must_hold",
+          "scope": "a publicist for 〈person/organization/work〉"
+        },
+        {
+          "id": "cand-12-a2",
+          "statement": "publicist は publicity そのものを指す名詞として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicist; person/thing boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-13",
+      "surface_form": "publicize",
+      "frame": "他動詞; publicize 〈person/thing/event〉",
+      "meaning": "人・物・出来事を公に知らせ、注目を集める",
+      "disposition": "excluded",
+      "rationale": "「publicize」は publicity と関連する主要な語族候補だが、本文の語形成欄には publicize の動詞フレームがなく、見出し語 publicity 自体の用法としては収録されていない。",
+      "semantic_assertions": [
+        {
+          "id": "cand-13-a1",
+          "statement": "publicize は対象を公に知らせる他動詞である。",
+          "polarity": "must_hold",
+          "scope": "publicize 〈person/thing/event〉"
+        },
+        {
+          "id": "cand-13-a2",
+          "statement": "publicize の動詞用法を publicity の名詞用法として分類してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicize; part-of-speech boundary"
+        }
+      ]
+    },
+    {
+      "id": "cand-14",
+      "surface_form": "right of publicity",
+      "frame": "法的定着句; the right of publicity",
+      "meaning": "氏名・肖像などの商業利用を管理する法的権利",
+      "disposition": "excluded",
+      "rationale": "「right of publicity」は法的定着句としては候補になるが、本文はこの専門用法を扱わず、通常の publicity 単独の名詞フレームとしても提示していない。",
+      "semantic_assertions": [
+        {
+          "id": "cand-14-a1",
+          "statement": "the right of publicity は人格識別情報の商業利用に関する法的権利を指す。",
+          "polarity": "must_hold",
+          "scope": "the right of publicity; legal phrase"
+        },
+        {
+          "id": "cand-14-a2",
+          "statement": "通常の publicity 単独用法が法的権利そのものを指すと一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicity; legal specialization"
+        }
+      ]
+    },
+    {
+      "id": "cand-15",
+      "surface_form": "publicity",
+      "frame": "可算名詞としての a publicity / publicities",
+      "meaning": "現代一般用法で数えられる publicity の個体",
+      "disposition": "excluded",
+      "rationale": "本文は「a publicity や publicities は一般に避け」としており、現代の通常用法に可算名詞フレームを収録していない。",
+      "semantic_assertions": [
+        {
+          "id": "cand-15-a1",
+          "statement": "現代の一般用法では publicity は通常不可算である。",
+          "polarity": "must_hold",
+          "scope": "modern publicity countability"
+        },
+        {
+          "id": "cand-15-a2",
+          "statement": "a publicity や publicities を現代一般語の標準的な可算フレームとして扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "a publicity / publicities"
+        }
+      ]
+    },
+    {
+      "id": "cand-16",
+      "surface_form": "publicity",
+      "frame": "動詞・形容詞への転換用法; *publicity 〈object〉 / *a publicity noun",
+      "meaning": "見出し語 publicity 自体が動詞または通常の形容詞として機能する用法",
+      "disposition": "excluded",
+      "rationale": "本文全体は publicity を名詞として表示し、動詞・形容詞への転換用法を提示していない。publicity campaign のような前置修飾は名詞の attributive use であり、形容詞化の根拠にはならない。",
+      "semantic_assertions": [
+        {
+          "id": "cand-16-a1",
+          "statement": "見出し語 publicity は本文の通常用法では名詞である。",
+          "polarity": "must_hold",
+          "scope": "publicity part of speech"
+        },
+        {
+          "id": "cand-16-a2",
+          "statement": "publicity campaign の前置修飾を publicity の形容詞用法または動詞用法として分類してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "publicity campaign; conversion boundary"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "finding-01",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "意味・用法・関連表現 > 2 > 文法パターン",
+        "line_start": 109,
+        "line_end": 109,
+        "exact_quote": "publicity for/about 〈映画・商品・行事〉＝～に関する広報・注目／advance publicity for 〈発売・行事〉＝発売・行事の事前広報／publicity campaign/material/stunt＝宣伝キャンペーン・資料・仕掛け"
+      },
+      "severity": "blocking",
+      "rationale": "本文は「publicity for/about 〈映画・商品・行事〉＝～に関する広報・注目／advance publicity for 〈発売・行事〉＝発売・行事の事前広報／publicity campaign/material/stunt＝宣伝キャンペーン・資料・仕掛け」を宣伝・広報側の文法パターンとして掲げる一方、同じ publicity for/about の裸の名詞句について、対象が受ける注目・報道という結果読みと、対象に注目を集める活動読みの両方を認めている。for/about の表面形だけでは主体側の活動と対象側の結果を分離できず、sense 1 と sense 2 の境界が同一フレーム内で重なる。結果読みと活動読みを別フレームに分け、各前置詞と読みを明示的に割り当てる必要がある。"
+    }
+  ]
+}
