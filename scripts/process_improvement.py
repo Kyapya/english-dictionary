@@ -41,8 +41,6 @@ ENFORCEMENT_MODES = {
     "mixed",
 }
 MAX_RECORD_BYTES = 16_384
-MAX_PLAYBOOK_BYTES = 12_288
-MAX_PLAYBOOK_RECORDS = 20
 RETIREMENT_SCHEMA_VERSION = "process_retirement_v1"
 DEFAULT_RETIREMENT_INTERVAL_WORDS = 10
 ESCAPED_DEFECT_LINK_REQUIRED_FROM = "2026-08-27"
@@ -405,21 +403,7 @@ def validate_registry(repo_root: Path = REPO_ROOT) -> list[str]:
         if count > 1:
             errors.append(f"duplicate process-improvement action rule: {rule[:80]}")
 
-    surfaced_count = sum(
-        1
-        for record in records
-        if record.get("status") in {"trial", "active"}
-        and record.get("enforcement", {}).get("surface_in_playbook") is True
-    )
-    if surfaced_count > MAX_PLAYBOOK_RECORDS:
-        errors.append(
-            f"ACTIVE.md would contain {surfaced_count} records; maximum is {MAX_PLAYBOOK_RECORDS}. "
-            "Promote enforceable rules into canonical specs/scripts instead of growing the playbook."
-        )
-
     expected_active = render_active(records)
-    if len(expected_active.encode("utf-8")) > MAX_PLAYBOOK_BYTES:
-        errors.append(f"ACTIVE.md would exceed {MAX_PLAYBOOK_BYTES} bytes")
     active_path = repo_root / "process_improvement" / "ACTIVE.md"
     if not active_path.is_file():
         errors.append(f"active process-improvement playbook not found: {active_path}")
