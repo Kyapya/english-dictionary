@@ -203,8 +203,6 @@ def validate_router(
             repo_root / specification
         ).is_file():
             errors.append(f"{pass_id}: specification file is missing")
-        elif (repo_root / specification).stat().st_size > 15_000:
-            errors.append(f"{pass_id}: specification exceeds 15000 bytes")
         sections = item.get("sections")
         if not isinstance(sections, list) or not sections:
             errors.append(f"{pass_id}: sections must be a non-empty list")

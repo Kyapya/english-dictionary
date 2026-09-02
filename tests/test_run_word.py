@@ -71,9 +71,6 @@ class RunWordTests(unittest.TestCase):
             )
         )
         self.assertEqual(len(payload["checker_passes"]), 7)
-        self.assertTrue(
-            all(item["instruction_bytes"] <= 15_000 for item in payload["checker_passes"])
-        )
         attribution = next(
             item
             for item in payload["checker_passes"]

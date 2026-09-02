@@ -14,7 +14,7 @@ python scripts/run_word.py --resume <audits/workflow_runs/...json>
 
 同一見出し語の未完了runは新規作成せず、オーケストレータの出力どおりに再開する。
 checker、example-attribution、cold review、final blind、final reviewは生成担当と
-独立した `scripts/review_call.py` または handoff の出力だけを受け付ける。
+独立した `scripts/review_call.py` または handoff のサブエージェント出力だけを受け付ける。
 
 ### 局所修整
 
@@ -23,15 +23,20 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 
 ### checker_passes: 7並列 + frame-relationのみ2往復
 
-7パスを一つに連結せず独立実行する。APIは最大7 worker、`frame-relation`だけ同一worker
+7パスを一つに連結せず独立実行する。APIは最大7 workerで7つの独立サブエージェント呼び出しを行い、`frame-relation`だけ同一worker
 内で `antonym_axis_blind_record` のstage 1→2を直列化する。handoffは7個のrequestを
-同時に1パス1独立agentへ渡し、応答の正しい `pass_id`・一意な `reviewer.agent_id` を
-要求する。欠落・ID不一致・重複はfan-inで拒否する。
+同時に1パス1独立サブエージェントへ渡し、応答の正しい `pass_id`・一意な `reviewer.agent_id` を
+要求する。同じmodelを複数サブエージェントで使うことは許可し、model名の一意性は要求しない。欠落・ID不一致・agent ID重複はfan-inで拒否する。
 
 7応答を `checker_passes.stage1.json` に保存し、frame-relationだけ第2往復へ進める。
-`checker_passes.stage2.request.md` と並列名のrequestを作り、stage 1と同じagent/model
-のresponseを受け付ける（旧v3の `checker_passes.stage2.response.json` も可）。この
+`checker_passes.stage2.request.md` と並列名のrequestを作り、stage 1と同じサブエージェント/model
+のcanonical response `checker_passes.frame-relation.stage2.response.json` だけを受け付ける。旧aggregate checker handoffへのフォールバックは認めない。この
 2往復中の取り込み失敗3回は `budget_exhausted` とし、並列中もheartbeat・budgetを進める。
+
+新規runはmanifestに `checker_execution_protocol: parallel_subagents_v2` と
+`checker_subagent_count` を持つ。`scripts/checker_subagent_gate.py` はcompleted handoff runの
+7パス被覆と `reviewer.agent_id` 一意性をCIで再検証する。これはLLM checkerを追加する処理ではなく、
+既存レビューのprovenanceを機械検証するだけである。
 
 ## ファイル・status
 
@@ -50,7 +55,7 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 | finding解決・最終合否 | `prompts/finding_resolution_v6.md`、`prompts/final_review_spec_v2.md` |
 | 局所修整 | `prompts/targeted_correction_review_v1.md`、`scripts/targeted_correction.py` |
 | source-first・semantic gate | `prompts/source_first_audit_v2.md`、`prompts/semantic_resolution_gate_v1.md` |
-| 工程・形式・整合 | `scripts/run_word.py`、`scripts/entry_workflow_guard.py`、`scripts/validate_entry.py`、`scripts/validate_repository.py` |
+| 工程・形式・整合 | `scripts/run_word.py`、`scripts/checker_subagent_gate.py`、`scripts/entry_workflow_guard.py`、`scripts/validate_entry.py`、`scripts/validate_repository.py` |
 | Notion・改善 | `prompts/notion_spec_v1.md`、`process_improvement/ACTIVE.md`、`scripts/process_improvement.py` |
 
 旧工程文書は `backups/2026-08-25-process-refactor/`、規範移設表は

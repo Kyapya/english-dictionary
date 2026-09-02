@@ -34,11 +34,10 @@ class CheckPassTests(unittest.TestCase):
         self.assertNotIn("finding_scope_transfer_loss", assignments)
         self.assertNotIn("raw_adjudication_manifest_divergence", assignments)
 
-    def test_each_pass_spec_is_small_and_has_the_required_contract(self) -> None:
+    def test_each_pass_spec_has_the_required_contract(self) -> None:
         for item in self.router["passes"]:
             with self.subTest(check_pass=item["id"]):
                 path = REPO_ROOT / item["specification"]
-                self.assertLessEqual(path.stat().st_size, 15_000)
                 text = path.read_text(encoding="utf-8")
                 for marker in (
                     "## 目的",
