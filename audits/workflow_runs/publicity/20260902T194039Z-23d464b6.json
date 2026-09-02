@@ -18,12 +18,12 @@
     "research_queries": 8,
     "candidate_pages": 22
   },
-  "status": "in_progress",
-  "stage": "cold_review_complete",
+  "status": "budget_exhausted",
+  "stage": "blind_seal_complete",
   "started_at": "2026-09-02T19:40:39Z",
   "deadline_at": "2026-09-02T21:10:39Z",
   "pre_draft_deadline_at": "2026-09-02T20:10:39Z",
-  "last_heartbeat_at": "2026-09-02T20:27:35Z",
+  "last_heartbeat_at": "2026-09-02T21:10:47Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-02T19:41:43Z",
@@ -59,9 +59,14 @@
       "stage": "cold_review_complete",
       "recorded_at": "2026-09-02T20:21:50Z",
       "notes": "orchestrator completed cold_review"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-02T20:39:42Z",
+      "notes": "orchestrator completed blind_seal"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "overall elapsed-time budget exhausted",
   "open_questions": [],
   "orchestrator": {
     "orchestrator_version": "run_word_v3",
@@ -454,7 +459,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -506,29 +511,29 @@
       {
         "id": "final_blind",
         "instruction_bytes": 3161,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 15198,
+        "duration_seconds": 480.0,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 24215,
+        "duration_seconds": 2.0,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "finding_resolution",
         "instruction_bytes": 1492,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 12500,
+        "duration_seconds": 120.0,
+        "defects_detected": 1,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "final_review",
@@ -647,13 +652,16 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 8,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "final_blind",
+      "blind_seal",
+      "finding_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -670,6 +678,15 @@
       ],
       "cold_review": [
         "audits/runs/p/publicity/20260902T194039Z-23d464b6/cold_review.json"
+      ],
+      "final_blind": [
+        "audits/runs/p/publicity/20260902T194039Z-23d464b6/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/p/publicity/20260902T194039Z-23d464b6/blind_seal.json"
+      ],
+      "finding_resolution": [
+        "audits/runs/p/publicity/20260902T194039Z-23d464b6/resolutions.json"
       ]
     }
   }
