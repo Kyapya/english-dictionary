@@ -1,6 +1,6 @@
 # English Dictionary
 
-英単語・短い英語フレーズの学習用辞書を、1見出し語1 Markdownで管理するリポジトリです。記事は `entries/`、進捗は `queue/words.csv`、レビュー原出力と派生監査は `audits/` に保存します。本文生成にOpenAI APIキーは不要です。独立レビュー段には、レビューAPI用のキーまたは生成担当とは独立した別エージェント・別セッションを使うhandoffモードが必要です。同じモデルを使っても、独立エージェントとして実行・記録されていれば構いません。
+英単語・短い英語フレーズの学習用辞書を、1見出し語1 Markdownで管理するリポジトリです。記事は `entries/`、進捗は `queue/words.csv`、レビュー原出力と派生監査は `audits/` に保存します。本文生成にOpenAI APIキーは不要です。独立レビュー段には、レビューAPI用のキーまたは生成担当とは独立したサブエージェント・別セッションを使うhandoffモードが必要です。同じモデルを使っても、独立サブエージェントとして実行・記録されていれば構いません。
 
 ## 1語の処理
 
@@ -22,21 +22,21 @@ remote run状態を取得できない場合はfail closedで新規runを開始�
 
 ## 独立レビュー
 
-APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成されたhandoff requestを生成担当とは別のagent/sessionへ渡します。
+APIモードは `DICT_REVIEW_PROVIDER`（`openai` / `anthropic`）、`DICT_REVIEW_MODEL`、`DICT_REVIEW_API_KEY` を使います。APIキーがない場合は `--reviewer-mode handoff` を指定し、生成されたhandoff requestを生成担当とは独立したサブエージェント/sessionへ渡します。
 
 ```bash
 python scripts/run_word.py --resume <workflow-run.json> --call-review
 ```
 
-非checkerのhandoff応答は `handoff/<stage>.response.json` に保存し、次で取り込みます。同一モデルを使う場合は独立したagent provenanceを `--reviewer-agent-id` で記録します。
+非checkerのhandoff応答は `handoff/<stage>.response.json` に保存し、次で取り込みます。同一モデルを使う場合も、独立したサブエージェント provenanceを `--reviewer-agent-id` で記録します。`agent_id` は監査スキーマ上の安定したフィールド名であり、モデル名の一意性を要求するものではありません。
 
 ```bash
 python scripts/run_word.py --resume <workflow-run.json> \
   --ingest-review <stage> --declared-model <model-name> \
-  --reviewer-agent-id <independent-agent-id>
+  --reviewer-agent-id <independent-subagent-id>
 ```
 
-cold review / final blind は生成担当とは独立したreview agent/contextで実行します。コールドレビューと最終盲検には生成時の `process_improvement/ACTIVE.md` や既存findingを渡しません。
+cold review / final blind は生成担当とは独立したreview subagent/contextで実行します。コールドレビューと最終盲検には生成時の `process_improvement/ACTIVE.md` や既存findingを渡しません。
 
 ## checker_passes は7パス並列
 
@@ -50,7 +50,7 @@ cold review / final blind は生成担当とは独立したreview agent/context�
 - pronunciation
 - evidence
 
-APIモードの `--call-review` はこの7パスを最大7 workerで同時実行します。各workerはルーターが選んだ自分のrequest JSONとpromptだけを受け取ります。`frame-relation` だけは、同じworkerの中で `antonym_axis_blind_record` を作るstage 1と、その結果を開示して裁定するstage 2を順番に実行します。他の6パスはその待ち時間に独立して進みます。7結果は全worker終了後にルーター順へ機械的にfan-inし、`pass_findings.json` を作ります。
+APIモードの `--call-review` はこの7パスを最大7 workerで同時実行します。各workerはルーターが選んだ自分のrequest JSONとpromptだけを受け取り、独立したサブエージェント呼び出しとして処理します。同じモデルを7パスで再利用して構いません。`frame-relation` だけは、同じworkerの中で `antonym_axis_blind_record` を作るstage 1と、その結果を開示して裁定するstage 2を順番に実行します。他の6パスはその待ち時間に独立して進みます。7結果は全worker終了後にルーター順へ機械的にfan-inし、`pass_findings.json` を作ります。
 
 ### handoff: 7並列 + frame-relationのみ2往復
 
@@ -66,13 +66,15 @@ checker_passes.pronunciation.request.md
 checker_passes.evidence.request.md
 ```
 
-これら7個を**同時に、1パス1独立agent**で実行します。七つのchecker promptを一つに連結して一つのagentへ渡してはいけません。各agentは対応する `checker_passes.<pass-id>.response.json` を返し、トップレベルに正しい `pass_id` と `reviewer` を含めます。`reviewer.agent_id` は7パスで一意でなければなりません。fan-inは7応答がすべて揃うまで完了せず、欠落、pass ID不一致、agent ID重複を拒否します。
+これら7個を**同時に、1パス1独立サブエージェント**で実行します。七つのchecker promptを一つに連結して一つのサブエージェントへ渡してはいけません。各サブエージェントは対応する `checker_passes.<pass-id>.response.json` を返し、トップレベルに正しい `pass_id` と `reviewer` を含めます。`reviewer.agent_id` は7パスで一意でなければなりません。一方、`reviewer.declared_model` は重複して構いません。fan-inは7応答がすべて揃うまで完了せず、欠落、pass ID不一致、agent ID重複を拒否します。
 
-第1往復のfan-inで `check_passes/checker_passes.stage1.json` を保存します。この時点で6パスは完了し、`frame-relation` だけが第2往復へ進みます。stage 1の `antonym_axis_blind_record` を使って `handoff/checker_passes.stage2.request.md`（互換名）と `handoff/checker_passes.frame-relation.stage2.request.md` を生成します。第2往復はframe-relationのstage 1と**同じagent ID・同じdeclared model**で実行します。
+第1往復のfan-inで `check_passes/checker_passes.stage1.json` を保存します。この時点で6パスは完了し、`frame-relation` だけが第2往復へ進みます。stage 1の `antonym_axis_blind_record` を使って `handoff/checker_passes.stage2.request.md`（互換名）と `handoff/checker_passes.frame-relation.stage2.request.md` を生成します。第2往復はframe-relationのstage 1と**同じサブエージェント ID・同じdeclared model**で実行します。
 
-新しい並列handoffの第2応答は `handoff/checker_passes.frame-relation.stage2.response.json` に保存します。既存のrun_word_v3 runとの互換性のため、旧 `handoff/checker_passes.stage2.response.json` も取り込めます。第2応答を取り込むとframe-relationを裁定・復元し、7パスを `pass_findings.json` へ機械集約します。第2応答のagent/modelがstage 1と違う場合は拒否します。
+第2応答は `handoff/checker_passes.frame-relation.stage2.response.json` に保存します。checker段では旧aggregate handoffへのフォールバックを認めません。7個の個別stage-1応答がない場合、またはcanonicalなframe-relation stage-2応答がない場合はfail closedで停止します。第2応答を取り込むとframe-relationを裁定・復元し、7パスを `pass_findings.json` へ機械集約します。第2応答のsubagent/modelがstage 1と違う場合は拒否します。
 
-checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列agent実行中もheartbeat・budgetは進行します。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
+checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列サブエージェント実行中もheartbeat・budgetは進行します。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
+
+新規runのorchestrator manifestには `checker_execution_protocol: parallel_subagents_v2` と `checker_subagent_count` を記録します。CIの `scripts/checker_subagent_gate.py` は、このプロトコルを持つcompleted handoff runについて7パスの被覆と `reviewer.agent_id` の一意性を再検証します。モデル名の一意性は要求しません。旧runは過去の監査証跡を改変しないため、この新プロトコルを持たない限り遡及的に失敗させません。
 
 ## オーケストレータ
 
@@ -120,6 +122,7 @@ python -m pytest
 python scripts/validate_entry.py entries
 python scripts/validate_repository.py
 python scripts/check_passes.py validate-router
+python scripts/checker_subagent_gate.py validate --merge-ready
 python scripts/migration_table.py validate
 python scripts/process_improvement.py validate
 python scripts/review_liveness.py regression \
@@ -127,7 +130,7 @@ python scripts/review_liveness.py regression \
 python scripts/queue_status.py escaped-by-stage
 ```
 
-Pull Requestでは `.github/workflows/validate.yml` が変更記事と監査の整合、workflow guard、source-first、semantic resolution、blind chronology、raw→manifest一致も検証します。`checked` / `final` の記事だけがNotion同期と完成版exportの対象です。
+Pull Requestでは `.github/workflows/validate.yml` が変更記事と監査の整合、workflow guard、checker subagent provenance、source-first、semantic resolution、blind chronology、raw→manifest一致も検証します。`checked` / `final` の記事だけがNotion同期と完成版exportの対象です。
 
 ## 主なディレクトリ
 
