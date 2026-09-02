@@ -30,7 +30,7 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 
 7応答を `checker_passes.stage1.json` に保存し、frame-relationだけ第2往復へ進める。
 `checker_passes.stage2.request.md` と並列名のrequestを作り、stage 1と同じサブエージェント/model
-のcanonical responseだけを受け付ける。旧aggregate checker handoffへのフォールバックは認めない。この
+のcanonical response `checker_passes.frame-relation.stage2.response.json` だけを受け付ける。旧aggregate checker handoffへのフォールバックは認めない。この
 2往復中の取り込み失敗3回は `budget_exhausted` とし、並列中もheartbeat・budgetを進める。
 
 新規runはmanifestに `checker_execution_protocol: parallel_subagents_v2` と
