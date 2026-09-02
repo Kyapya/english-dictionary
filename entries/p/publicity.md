@@ -66,7 +66,7 @@ tags: []
 
 【語法・注意】現代の一般用法ではこの語義の publicity は通常不可算で、a publicity や publicities は一般に避け、a lot of publicity、the publicity surrounding the case のように使う。publicity は注目・報道を表し、好評や長期的な名声を必ず含むわけではない。good/bad/negative/unwanted publicity のように評価を添えられる。  
 
-publicity about 〈話題〉は話題に関する注目・報道、publicity for 〈対象〉は対象を知らせる活動または対象が受ける注目を指し得る。結果として受けた注目を明確にするなら gain/receive publicity for のように動詞で示す。古風・形式的には「公開性、公然性」の意味で使われることもある。  
+publicity about 〈話題〉は話題に関する注目・報道、publicity for 〈対象〉（結果読み）は対象が受ける注目・報道を指す。対象に注目を集める活動読みの publicity for 〈対象〉は語義2で扱う。結果として受けた注目を明確にするなら gain/receive publicity for のように動詞で示す。古風・形式的には「公開性、公然性」の意味で使われることもある。  
 
 【類義語】
 
@@ -106,7 +106,7 @@ publicity about 〈話題〉は話題に関する注目・報道、publicity for
 
 【レジスター/領域】標準的な一般語。複数の一般辞書で活動・情報に関わる名詞用法として扱われる。  
 
-【文法パターン】publicity for/about 〈映画・商品・行事〉＝～に関する広報・注目／advance publicity for 〈発売・行事〉＝発売・行事の事前広報／publicity campaign/material/stunt＝宣伝キャンペーン・資料・仕掛け  
+【文法パターン】publicity for 〈映画・商品・行事〉（活動読み）＝対象に注目を集める広報／advance publicity for 〈発売・行事〉＝発売・行事の事前広報／publicity campaign/material/stunt＝宣伝キャンペーン・資料・仕掛け  
 
 【コロケーション】
 
@@ -130,11 +130,11 @@ publicity about 〈話題〉は話題に関する注目・報道、publicity for
 例: The company staged a publicity stunt by projecting its logo onto the river bridge.  
 訳: その会社は川に架かる橋へロゴを投影する話題作りの仕掛けを行った。  
 
-【語法・注意】この語義でも publicity は通常不可算で、a publicity campaign、a publicity stunt のように、数えられるのは campaign や stunt などの具体的な活動である。the publicity for the film は映画の宣伝・広報活動を指し得るが、文脈によっては映画が受ける注目・報道も指す。  
+【語法・注意】この語義でも publicity は通常不可算で、a publicity campaign、a publicity stunt のように、数えられるのは campaign や stunt などの具体的な活動である。この語義の publicity for 〈対象〉は、対象に注目を集める活動を指す。対象が受ける注目・報道という結果読みは語義1に置く。  
 
 advertising は通常、料金を払って掲載・放送する広告やその活動に焦点がある。一般的な区別では publicity と paid advertising を分けるが、辞書や文脈によっては publicity が有料広告・宣伝まで指すこともある。  
 
-publicity stunt は、世間の注目を集める意図を前面に出す行為・仕掛けを指す。publicity for 〈対象〉は活動と受けた注目の両方に読めるため、結果としての注目を明確にするなら gain/receive publicity for のように動詞で示す。  
+publicity stunt は、世間の注目を集める意図を前面に出す行為・仕掛けを指す。publicity for 〈対象〉が対象の受けた注目・報道を表す結果読みになる場合は語義1の用法であり、この語義2の活動読みとは分ける。結果としての注目を明確にするなら、語義1の gain/receive publicity for のように動詞で示す。  
 
 【類義語】
 
