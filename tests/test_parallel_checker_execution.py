@@ -140,7 +140,7 @@ class ParallelCheckerExecutionTests(unittest.TestCase):
                 },
             )
             frame = handoff_dir / "checker_passes.frame-relation.request.md"
-            self.assertIn("same agent", frame.read_text(encoding="utf-8"))
+            self.assertIn("same subagent", frame.read_text(encoding="utf-8"))
 
     def test_parallel_handoff_rejects_partial_response_set(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
