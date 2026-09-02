@@ -1,0 +1,556 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-publicity-20260902T180842Z-51fb61bf",
+  "context_id": "source-publicity-context-20260902T180842Z-51fb61bf",
+  "input_body_sha256": "7570c072a775b7f8aa3e2212b34a38a4862e1969432a6ddabb818ab2a09fcc8b",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-02T18:11:32Z",
+  "evidence_link_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005",
+    "EVID-006"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "The headword has two high-frequency noun readings—public attention received and attention-attracting publicity activity/material—plus productive related forms; a bounded six-source inventory closes the required axes.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 23,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-02T18:11:32Z",
+    "article_comparison_started_at": "2026-09-02T18:11:33Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": ["F-001", "F-003", "F-004", "F-006", "F-008", "F-011", "F-012"],
+        "notes": "Independent dictionaries cover the outcome sense of public attention/coverage and the activity/material sense that attracts attention."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": ["F-003", "F-007", "F-009"],
+        "notes": "The inventory records the uncountable noun behavior and recurring publicity-for/about, advance publicity, campaign, material, and stunt frames."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": ["F-009", "F-016", "F-018"],
+        "notes": "Publicity compounds and publicist are inventoried as usable related forms; the related verb publicize/publicise was researched but kept outside this noun entry's selected scope."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "No specialist or legal standalone sense is claimed in this general-language entry; legal phrases such as right of publicity are outside the selected scope."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": ["F-007", "F-013", "F-020", "F-021", "F-022", "F-023"],
+        "notes": "Dictionary labels and independent general-lexicon entries support the uncountable noun, recurrent collocations, and the article's standard-vocabulary register labels; the numeric scores remain calibrated editorial estimates."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": ["F-010", "F-014", "F-015", "F-019"],
+        "notes": "Oxford supplies the pronunciation/origin path and Etymonline supplies the older public/open sense and later promotional development."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Cambridge Dictionary: publicity",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/publicity",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_cambridge",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity is the activity of making someone or something attract public interest or attention.",
+            "source_detail": "Cambridge defines publicity as the activity of making someone or something attract interest or attention."
+          },
+          {
+            "id": "F-020",
+            "form": "publicity",
+            "kind": "register_frequency",
+            "statement": "Cambridge presents publicity as an ordinary general-English noun entry without a regional or specialist restriction.",
+            "source_detail": "The Cambridge headword is presented in its general English dictionary without a regional or specialist label."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Merriam-Webster: publicity",
+        "locator": "https://www.merriam-webster.com/dictionary/publicity",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_merriam_webster",
+        "facts": [
+          {
+            "id": "F-002",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity can mean the quality or state of being public.",
+            "source_detail": "Merriam-Webster lists the quality or state of being public as a noun sense; this older/formal candidate is not made a central modern sense here."
+          },
+          {
+            "id": "F-003",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity can be an act or device designed to attract public interest, including newsworthy information issued to gain attention or support.",
+            "source_detail": "Merriam-Webster gives an act or device designed to attract public interest and specifically news-value information issued to gain public attention or support."
+          },
+          {
+            "id": "F-004",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity can mean the dissemination of information or promotional material.",
+            "source_detail": "Merriam-Webster lists dissemination of information or promotional material as a noun sense."
+          },
+          {
+            "id": "F-005",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster also records paid advertising as a possible sense of publicity.",
+            "source_detail": "The dictionary includes paid advertising; this candidate is retained as an excluded boundary so publicity is not equated with paid advertising in the article."
+          },
+          {
+            "id": "F-006",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity can mean public attention or acclaim, the attention gained by a person, place, or cause.",
+            "source_detail": "Merriam-Webster lists public attention or acclaim and its learner definition describes the attention gained."
+          },
+          {
+            "id": "F-021",
+            "form": "publicity",
+            "kind": "register_frequency",
+            "statement": "Merriam-Webster presents publicity as a general-English noun entry without a regional or specialist restriction.",
+            "source_detail": "The Merriam-Webster headword is presented in its general dictionary without a regional or specialist label."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Oxford Learner's Dictionaries: publicity",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/publicity",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford_learner",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "publicity",
+            "kind": "usage_constraint",
+            "statement": "Publicity is an uncountable noun and combines with evaluative modifiers such as good or bad publicity.",
+            "source_detail": "Oxford labels the noun uncountable and gives good/bad/adverse publicity and publicity surrounding examples."
+          },
+          {
+            "id": "F-008",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity is the attention given to somebody or something by newspapers, television, and similar media.",
+            "source_detail": "Oxford defines the noun as attention given by newspapers, television, etc."
+          },
+          {
+            "id": "F-009",
+            "form": "publicity",
+            "kind": "grammar_pattern",
+            "statement": "Publicity occurs in recurring compounds and frames such as publicity material, publicity campaign, publicity stunt, and advance publicity for an event or release.",
+            "source_detail": "Oxford examples and usage material list publicity material/campaign/stunt and advance publicity; the entry also shows publicity for/about patterns."
+          },
+          {
+            "id": "F-010",
+            "form": "publicity",
+            "kind": "etymology",
+            "statement": "Publicity comes through French publicité from public and ultimately Latin publicus.",
+            "source_detail": "Oxford gives the late-eighteenth-century French-to-Latin origin path."
+          },
+          {
+            "id": "F-019",
+            "form": "publicity",
+            "kind": "pronunciation",
+            "statement": "Oxford gives the NAmE pronunciation /pəˈblɪsəti/ and BrE /pʌbˈlɪsəti/ for publicity.",
+            "source_detail": "Oxford's pronunciation panel lists NAmE /pəˈblɪsəti/ and BrE /pʌbˈlɪsəti/."
+          },
+          {
+            "id": "F-022",
+            "form": "publicity",
+            "kind": "register_frequency",
+            "statement": "Oxford presents publicity as a general learner-dictionary noun entry without a regional or specialist restriction.",
+            "source_detail": "The Oxford Learner's Dictionaries headword is presented as a general English entry without a regional or specialist label."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Collins Dictionary: publicity",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/publicity",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity can be information or actions intended to attract attention.",
+            "source_detail": "Collins defines publicity as information or actions intended to attract attention."
+          },
+          {
+            "id": "F-012",
+            "form": "publicity",
+            "kind": "lexical_sense",
+            "statement": "Publicity can also be the public interest or media attention received by a person, event, or thing.",
+            "source_detail": "Collins distinguishes the attention or interest that publicity receives as a result from the attention-attracting information or actions."
+          },
+          {
+            "id": "F-013",
+            "form": "publicity",
+            "kind": "collocation",
+            "statement": "Common collocations include gain, receive, bad, negative, unwanted, widespread, and shun publicity.",
+            "source_detail": "Collins lists gain/receive/bad/negative/unwanted/widespread/shun publicity among its collocations and examples."
+          },
+          {
+            "id": "F-023",
+            "form": "publicity",
+            "kind": "register_frequency",
+            "statement": "Collins presents publicity as a general-English noun entry without a regional or specialist restriction.",
+            "source_detail": "The Collins headword is presented in its general dictionary without a regional or specialist label."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Etymonline: publicity",
+        "locator": "https://www.etymonline.com/word/publicity",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_etymonline",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "publicity",
+            "kind": "etymology",
+            "statement": "The older sense of publicity referred to the state of being public or open.",
+            "source_detail": "Etymonline traces an earlier public/open sense before the later making-known meaning."
+          },
+          {
+            "id": "F-015",
+            "form": "publicity",
+            "kind": "etymology",
+            "statement": "The meaning developed toward making something known and then advertising or promotion.",
+            "source_detail": "Etymonline describes the semantic movement from publicness to making known and advertising/promotion."
+          },
+          {
+            "id": "F-016",
+            "form": "publicity stunt",
+            "kind": "derived_form",
+            "statement": "Publicity stunt is attested from the early twentieth century, with a 1908 record.",
+            "source_detail": "Etymonline dates the expression publicity stunt to 1908."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Oxford Learner's Dictionaries: publicize and publicist",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/publicize",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford_learner",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "publicize",
+            "kind": "derived_form",
+            "statement": "To publicize something is to make it known to the public or advertise it; publicise is the British spelling variant.",
+            "source_detail": "Oxford defines publicize something as making it known to the public or advertising it; the related spelling publicise is used in British English."
+          },
+          {
+            "id": "F-018",
+            "form": "publicist",
+            "kind": "derived_form",
+            "statement": "A publicist is a person whose job is to make something known to the public.",
+            "source_detail": "Oxford's publicist entry defines the occupation as making a product, actor, or other subject known to the public."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": ["F-006", "F-008", "F-012"],
+        "canonical_statement": "Publicity can denote the public attention, media exposure, or interest received by a person, event, work, or cause.",
+        "disposition": "included",
+        "rationale": "This is the high-frequency outcome sense represented by sense 1 and its receive/gain/negative/widespread patterns."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": ["F-001", "F-003", "F-004", "F-009", "F-011"],
+        "canonical_statement": "Publicity can denote the activity, information, material, or deliberate device used to attract public attention.",
+        "disposition": "included",
+        "rationale": "This activity/material sense is distinct from attention received and is represented by sense 2, publicity compounds, and its activity and for/about frames."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": ["F-007"],
+        "canonical_statement": "Publicity is normally an uncountable noun in the selected modern senses.",
+        "disposition": "integrated",
+        "rationale": "The countability constraint is integrated into both sense labels and the usage note rather than treated as a separate lexical sense."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": ["F-013"],
+        "canonical_statement": "Publicity regularly combines with evaluative and quantity expressions such as good, bad, negative, unwanted, widespread, gain, receive, and shun.",
+        "disposition": "integrated",
+        "rationale": "These collocations operationalize the outcome sense's neutral-to-negative evaluation range and are included in the article's pattern and collocation blocks."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": ["F-002", "F-010", "F-014", "F-015"],
+        "canonical_statement": "Publicity developed from publicness/open publicity through making known to modern promotion and public-relations use.",
+        "disposition": "integrated",
+        "rationale": "The etymology section records the older public/open sense and the later promotional development while keeping historical publicness non-central to modern usage."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": ["F-003", "F-016"],
+        "canonical_statement": "Publicity stunt is a related compound for an act or device intended to attract public attention, attested from the early twentieth century.",
+        "disposition": "integrated",
+        "rationale": "The compound is a high-value learning item; the general attention-seeking meaning comes from the dictionary sense and the historical attestation is recorded separately."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": ["F-017"],
+        "canonical_statement": "Publicize/publicise means make something known to the public or advertise it.",
+        "disposition": "excluded",
+        "rationale": "The related verb was researched but is outside the selected scope of this noun entry; it is not claimed in the article."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": ["F-018"],
+        "canonical_statement": "Publicist denotes a person whose job is to make a person, product, or organization known to the public.",
+        "disposition": "integrated",
+        "rationale": "The occupational derivative is useful and directly related but is not treated as an additional sense of publicity."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": ["F-005"],
+        "canonical_statement": "Paid advertising is listed by Merriam-Webster as a possible broad sense of publicity.",
+        "disposition": "excluded",
+        "rationale": "The article distinguishes publicity from paid advertising: publicity can include promotion and may be unpaid media attention, so the broader dictionary candidate is retained as an explicit boundary rather than folded into the core definition."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": ["F-019"],
+        "canonical_statement": "Publicity has NAmE /pəˈblɪsəti/ and BrE /pʌbˈlɪsəti/ pronunciations in Oxford's entry.",
+        "disposition": "integrated",
+        "rationale": "The article records both regional IPA forms and explains only the symbol-level differences shown in those forms."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": ["F-020", "F-021", "F-022", "F-023"],
+        "canonical_statement": "Independent general dictionaries present publicity as standard general vocabulary without regional or specialist restriction; the article's 9/10 estimates are editorial calibrations rather than corpus counts.",
+        "disposition": "integrated",
+        "rationale": "The article must provide the v5 frequency fields, so the scores are bounded high-frequency estimates grounded in repeated general-dictionary coverage and kept separate from the register label."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": ["U-001"],
+        "subject_form": "publicity",
+        "claim_type": "lexical_sense",
+        "statement": "Publicity is public attention, media exposure, or public interest received by a person, event, work, or cause.",
+        "article_target_ids": ["definition:001", "grammar_pattern:001", "grammar_pattern:002", "grammar_pattern:003", "grammar_pattern:004", "collocation:001", "collocation:002", "collocation:003", "collocation:004", "collocation:005"],
+        "source_supports": [
+          {"source_fact_id": "F-006", "support_summary": "Merriam-Webster explicitly includes public attention or acclaim as a noun sense."},
+          {"source_fact_id": "F-008", "support_summary": "Oxford defines publicity as attention given by newspapers, television, and similar media."},
+          {"source_fact_id": "F-012", "support_summary": "Collins distinguishes publicity received as public interest or media attention."}
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": ["U-002"],
+        "subject_form": "publicity",
+        "claim_type": "lexical_sense",
+        "statement": "Publicity is the activity or deliberate device used to attract public attention; publicity material is a related compound for promotional material, not a standalone noun sense.",
+        "article_target_ids": ["definition:002", "grammar_pattern:005", "grammar_pattern:006", "grammar_pattern:007", "word_formation:002", "word_formation:003", "word_formation:004", "collocation:006", "collocation:007", "collocation:008", "collocation:009", "collocation:010"],
+        "source_supports": [
+          {"source_fact_id": "F-001", "support_summary": "Cambridge treats publicity as activity designed to make someone or something attract public interest."},
+          {"source_fact_id": "F-003", "support_summary": "Merriam-Webster includes an act or device designed to attract public interest."},
+          {"source_fact_id": "F-004", "support_summary": "Merriam-Webster lists dissemination of information or promotional material."},
+          {"source_fact_id": "F-009", "support_summary": "Oxford supplies publicity campaign, material, stunt, and advance publicity patterns."},
+          {"source_fact_id": "F-011", "support_summary": "Collins defines publicity as information or actions intended to attract attention."}
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": ["U-003"],
+        "subject_form": "publicity",
+        "claim_type": "usage_constraint",
+        "statement": "Publicity is normally uncountable in the modern senses, so the article uses a lot of publicity and the publicity surrounding the case rather than a publicity.",
+        "article_target_ids": ["usage_note:001"],
+        "source_supports": [
+          {"source_fact_id": "F-007", "support_summary": "Oxford labels publicity uncountable and illustrates ordinary uncountable uses."}
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": ["U-004"],
+        "subject_form": "publicity",
+        "claim_type": "collocation",
+        "statement": "Good, bad, negative, unwanted, widespread, gain, receive, and shun publicity are conventional ways to specify evaluation, extent, or stance toward publicity.",
+        "article_target_ids": ["grammar_pattern:001", "grammar_pattern:002", "grammar_pattern:003", "grammar_pattern:004", "collocation:001", "collocation:002", "collocation:003", "collocation:004", "collocation:005"],
+        "source_supports": [
+          {"source_fact_id": "F-013", "support_summary": "Collins lists the relevant evaluative, quantity, reception, and avoidance collocations."}
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": ["U-005"],
+        "subject_form": "publicity",
+        "claim_type": "etymology",
+        "statement": "Publicity traces through French publicité to Latin publicus and developed from publicness/open status toward making known and promotion.",
+        "article_target_ids": ["etymology:001"],
+        "source_supports": [
+          {"source_fact_id": "F-002", "support_summary": "Merriam-Webster preserves the publicness sense in the modern entry."},
+          {"source_fact_id": "F-010", "support_summary": "Oxford gives the French public and Latin publicus origin path."},
+          {"source_fact_id": "F-014", "support_summary": "Etymonline records the older public/open sense."},
+          {"source_fact_id": "F-015", "support_summary": "Etymonline records the later making-known and advertising development."}
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": ["U-006"],
+        "subject_form": "publicity stunt",
+        "claim_type": "derived_form",
+        "statement": "A publicity stunt is an act or device intended to attract public attention, with the compound attested from the early twentieth century.",
+        "article_target_ids": ["word_formation:004", "collocation:010"],
+        "source_supports": [
+          {"source_fact_id": "F-003", "support_summary": "Merriam-Webster defines publicity as an act or device designed to attract public interest, supporting the compound's attention-seeking activity meaning."},
+          {"source_fact_id": "F-016", "support_summary": "Etymonline directly records the publicity stunt compound and its early attestation."}
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": ["U-008"],
+        "subject_form": "publicist",
+        "claim_type": "derived_form",
+        "statement": "A publicist is a person whose job is to make a person, product, or organization known to the public.",
+        "article_target_ids": ["word_formation:001"],
+        "source_supports": [
+          {"source_fact_id": "F-018", "support_summary": "Oxford defines publicist as the occupation responsible for making a subject known to the public."}
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": ["U-010"],
+        "subject_form": "publicity",
+        "claim_type": "pronunciation",
+        "statement": "Publicity has the NAmE /pəˈblɪsəti/ and BrE /pʌbˈlɪsəti/ pronunciations shown in the article, with the regional stress and syllable-boundary differences described only where reflected in the IPA.",
+        "article_target_ids": ["pronunciation:001"],
+        "source_supports": [
+          {"source_fact_id": "F-019", "support_summary": "Oxford's pronunciation panel lists NAmE /pəˈblɪsəti/ and BrE /pʌbˈlɪsəti/, directly supporting the two forms recorded."}
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": ["U-011"],
+        "subject_form": "publicity",
+        "claim_type": "frequency_register",
+        "statement": "The article labels both modern noun readings as standard general vocabulary and gives high-frequency 9/10 editorial estimates grounded in their repeated treatment by independent general dictionaries, not as corpus counts.",
+        "article_target_ids": ["frequency:001", "register:001", "frequency:002", "register:002"],
+        "source_supports": [
+          {"source_fact_id": "F-020", "support_summary": "Cambridge presents publicity as an ordinary general-English noun entry without a regional or specialist restriction."},
+          {"source_fact_id": "F-021", "support_summary": "Merriam-Webster presents publicity as a general-English noun entry without a regional or specialist restriction."},
+          {"source_fact_id": "F-022", "support_summary": "Oxford presents publicity as a general learner-dictionary noun entry without a regional or specialist restriction."},
+          {"source_fact_id": "F-023", "support_summary": "Collins presents publicity as a general-English noun entry without a regional or specialist restriction."}
+        ]
+      },
+      {
+        "id": "C-011",
+        "union_ids": ["U-001"],
+        "subject_form": "publicity",
+        "claim_type": "lexical_relation",
+        "statement": "For the outcome sense, the article contrasts publicity with attention, exposure, coverage, and fame by the source-backed focus on public or media attention and on attention received rather than on a bare state of knowing.",
+        "article_target_ids": ["synonym:001", "synonym:002", "synonym:003", "synonym:004"],
+        "source_supports": [
+          {"source_fact_id": "F-006", "support_summary": "Merriam-Webster includes public attention or acclaim and the attention gained by a person, place, or cause."},
+          {"source_fact_id": "F-008", "support_summary": "Oxford ties publicity to attention given by newspapers, television, and similar media."},
+          {"source_fact_id": "F-012", "support_summary": "Collins distinguishes the public interest or media attention received as a result."}
+        ]
+      },
+      {
+        "id": "C-012",
+        "union_ids": ["U-002"],
+        "subject_form": "publicity",
+        "claim_type": "lexical_relation",
+        "statement": "For the activity sense, the article contrasts publicity with advertising, promotion, public relations, and marketing by limiting publicity to information or activity intended to attract public attention rather than the whole adjacent domain.",
+        "article_target_ids": ["synonym:005", "synonym:006", "synonym:007", "synonym:008"],
+        "source_supports": [
+          {"source_fact_id": "F-001", "support_summary": "Cambridge defines publicity as activity designed to make someone or something attract public interest or attention."},
+          {"source_fact_id": "F-003", "support_summary": "Merriam-Webster includes an act or device designed to attract public interest."},
+          {"source_fact_id": "F-004", "support_summary": "Merriam-Webster includes dissemination of information or promotional material."},
+          {"source_fact_id": "F-009", "support_summary": "Oxford supplies the publicity campaign, material, stunt, and advance-publicity patterns used to anchor the activity comparison."},
+          {"source_fact_id": "F-011", "support_summary": "Collins defines publicity as information or actions intended to attract attention."}
+        ]
+      },
+      {
+        "id": "C-013",
+        "union_ids": ["U-002"],
+        "subject_form": "publicity",
+        "claim_type": "grammar_pattern",
+        "statement": "The article treats publicity for/about patterns as compatible with the activity, information, material, and attention-attracting uses in the source inventory.",
+        "article_target_ids": ["usage_note:002"],
+        "source_supports": [
+          {"source_fact_id": "F-001", "support_summary": "Cambridge supplies the activity meaning of publicity as making something attract public interest."},
+          {"source_fact_id": "F-003", "support_summary": "Merriam-Webster supplies the deliberate act or device meaning used in the activity reading."},
+          {"source_fact_id": "F-004", "support_summary": "Merriam-Webster supplies the information or promotional-material component of the usage note."},
+          {"source_fact_id": "F-009", "support_summary": "Oxford records publicity for/about patterns in addition to advance publicity and related compounds."},
+          {"source_fact_id": "F-011", "support_summary": "Collins supplies the information-or-actions intended to attract attention component."}
+        ]
+      },
+      {
+        "id": "C-014",
+        "union_ids": ["U-001"],
+        "subject_form": "publicity",
+        "claim_type": "sense_boundary",
+        "statement": "The article explains that publicity for a target can describe attention received as well as the activity that makes the target known, and recommends gain/receive publicity when the outcome reading is intended.",
+        "article_target_ids": ["usage_note:002"],
+        "source_supports": [
+          {"source_fact_id": "F-006", "support_summary": "Merriam-Webster includes the attention gained by a person, place, or cause."},
+          {"source_fact_id": "F-008", "support_summary": "Oxford defines publicity as attention given by media."},
+          {"source_fact_id": "F-012", "support_summary": "Collins distinguishes attention received from attention-attracting information or actions."}
+        ]
+      }
+    ]
+  }
+}
