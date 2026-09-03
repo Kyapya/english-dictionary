@@ -1,0 +1,111 @@
+{
+  "pass_id": "example-attribution",
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "request_input_body_sha256": "3d410d15a07e5ede38ffe04fc9929e6ee735c87298a38c54ed813514dcdbd7be",
+    "recorded_at": "2026-09-03T13:48:46Z",
+    "examples": [
+      {
+        "example_id": "ex-484ad272dcb1",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "solid and dashed lines correspond to observed and predicted values",
+          "respectively"
+        ],
+        "rationale": "The paired subject and object lists are explicitly mapped in order: solid line to observed value and dashed line to predicted value. A merely separate or distributive reading would not express this first-to-first correspondence, so sense:001 is the only natural candidate."
+      },
+      {
+        "example_id": "ex-90d00b089e13",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "the editor and the designer",
+          "checked the text and prepared the layout",
+          "respectively"
+        ],
+        "rationale": "The two subjects are paired with two different subject-predicate frames in order: the editor checked the text and the designer prepared the layout. A non-ordered 'each/separately' reading would not specify that cross-list mapping, so sense:001 is the only natural candidate."
+      },
+      {
+        "example_id": "ex-32a6ada67cd5",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "finished first and second",
+          "respectively"
+        ],
+        "rationale": "The result states first and second are assigned to Brazil and Canada in that order. A merely distributive reading would not encode the country-to-rank pairing, so sense:001 is the only natural candidate."
+      },
+      {
+        "example_id": "ex-7a11a58ea15d",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "x and y respectively represent distance and time",
+          "respectively"
+        ],
+        "rationale": "The representation relation pairs x with distance and y with time in sequence. A reading meaning only that the variables represent values individually would omit the required ordered correspondence, so sense:001 is the only natural candidate."
+      },
+      {
+        "example_id": "ex-51ced4fafa1d",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "were 18 and 21 years old",
+          "respectively"
+        ],
+        "rationale": "The age predicates assign 18 to Mia and 21 to Leo in order. A merely individual or separate reading would not identify which age belongs to which person, so sense:001 is the only natural candidate."
+      },
+      {
+        "example_id": "ex-29a14300fdea",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "lower and higher rates apply to part-time and full-time employees",
+          "respectively"
+        ],
+        "rationale": "The apply-to relation maps the lower rate to part-time employees and the higher rate to full-time employees in order. A non-ordered distributive reading would not determine those rate-category pairings, so sense:001 is the only natural candidate."
+      },
+      {
+        "example_id": "ex-1139e8ed3a7c",
+        "judgment": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "next_best_candidate_sense_ids": [],
+        "discriminating_terms": [
+          "two stores had sales of $2 million and $1.4 million",
+          "respectively"
+        ],
+        "rationale": "The possession/measurement frame assigns the first sales amount to the first store and the second amount to the second store. A merely separate reading would not preserve that ordered store-to-amount relation, so sense:001 is the only natural candidate."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-03T13:49:55Z",
+  "findings": [],
+  "unrouted_observations": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a06785-4ff4-7521-930c-a25cd4af80ac"
+  }
+}
