@@ -47,7 +47,7 @@
     "orchestrator_version": "run_word_v3",
     "headword": "respectively",
     "entry_path": "entries/r/respectively.md",
-    "plan_sha256": "88d4755df71f588599e2d680277c0c9c2ab5a0d17bbe906bb915c6eb4884e8c8",
+    "plan_sha256": "5cdeda7bab9368fe201c00468142790f26847da86cdc7dc17e863639a4c8d552",
     "stages": [
       {
         "name": "guard_start",
@@ -138,8 +138,8 @@
           "normal_review_complete"
         ],
         "context_mode": "fresh_normal_context",
-        "reviewer_mode": "api",
-        "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/r/respectively/{run_id}/handoff/checker_passes.request.md",
         "instruction_bytes": 0
       },
       {
@@ -158,8 +158,8 @@
           "cold_review_complete"
         ],
         "context_mode": "context_free_cold",
-        "reviewer_mode": "api",
-        "input_packet_path": "audits/runs/r/respectively/{run_id}/cold_review.request.json",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/r/respectively/{run_id}/handoff/cold_review.request.md",
         "instruction_bytes": 1419
       },
       {
@@ -176,8 +176,8 @@
         ],
         "guard_checkpoints": [],
         "context_mode": "context_free_final_blind",
-        "reviewer_mode": "api",
-        "input_packet_path": "audits/runs/r/respectively/{run_id}/final_blind.request.json",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/r/respectively/{run_id}/handoff/final_blind.request.md",
         "instruction_bytes": 3161
       },
       {
@@ -242,8 +242,8 @@
           "final_review_complete"
         ],
         "context_mode": "final_reconciliation_context",
-        "reviewer_mode": "api",
-        "input_packet_path": "audits/runs/r/respectively/{run_id}/final_review.request.json",
+        "reviewer_mode": "handoff",
+        "input_packet_path": "audits/runs/r/respectively/{run_id}/handoff/final_review.request.md",
         "instruction_bytes": 3065
       },
       {
@@ -307,7 +307,7 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/translation.json",
         "instruction_bytes": 2402,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/translation.request.json"
       },
       {
@@ -326,7 +326,7 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/sense-structure.json",
         "instruction_bytes": 3031,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/sense-structure.request.json"
       },
       {
@@ -344,7 +344,7 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/frame-relation.json",
         "instruction_bytes": 8294,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/frame-relation.request.json",
         "stage1_output_path": "audits/runs/r/respectively/{run_id}/check_passes/frame-relation.antonym-axis.blind-record.json",
         "stage2_request_path": "audits/runs/r/respectively/{run_id}/check_passes/frame-relation.antonym-axis.stage2.request.json",
@@ -363,7 +363,7 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/example-attribution.json",
         "instruction_bytes": 5552,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/example-attribution.request.json",
         "stage1_output_path": "audits/runs/r/respectively/{run_id}/check_passes/example-attribution.blind-record.json",
         "alignment_key_path": "audits/runs/r/respectively/{run_id}/check_passes/example-attribution.alignment-key.json"
@@ -386,7 +386,7 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/qualification.json",
         "instruction_bytes": 2876,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/qualification.request.json"
       },
       {
@@ -400,7 +400,7 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/pronunciation.json",
         "instruction_bytes": 1815,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/pronunciation.request.json"
       },
       {
@@ -423,11 +423,11 @@
         ],
         "output_path": "audits/runs/r/respectively/{run_id}/check_passes/evidence.json",
         "instruction_bytes": 2687,
-        "reviewer_mode": "api",
+        "reviewer_mode": "handoff",
         "input_packet_path": "audits/runs/r/respectively/{run_id}/check_passes/evidence.request.json"
       }
     ],
-    "reviewer_mode": "api",
+    "reviewer_mode": "handoff",
     "checker_execution_protocol": "parallel_subagents_v2",
     "checker_subagent_count": 7
   },
@@ -633,4 +633,4 @@
     ],
     "stage_outputs": {}
   }
-}
+}\n
