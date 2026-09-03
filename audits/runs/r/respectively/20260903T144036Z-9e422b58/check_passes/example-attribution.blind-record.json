@@ -1,0 +1,104 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+  "blind_request_sha256": "2975459f98482f0408859d96eaa76a45e58f37a3806b43d0e348028d375225f2",
+  "recorded_at": "2026-09-03T15:00:21Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a067bc-23fa-7052-b6b5-6fc1f4f3f0a9"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-184d3b3d747b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "two stores",
+        "sales of $2 million and $1.4 million",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"sales of $2 million and $1.4 million\" supplies two ordered amounts for the two stores, paired in sequence. A plausible competing reading is a merely distributive each-separately use, but the ordered one-to-one pairing expressed by that amount sequence and respectively makes the competing reading unavailable."
+    },
+    {
+      "example_id": "ex-ec578238a2e9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "first and second",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"first and second\" maps the two countries to the first and second ranks in sequence. A plausible competing reading is an unordered distributive reading in which each country simply has a rank, but the ordered rank pair marked by respectively directly encodes the one-to-one correspondence required by sense:001."
+    },
+    {
+      "example_id": "ex-a9b5795148ce",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "the editor and the designer",
+        "checked the text and prepared the layout",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"checked the text and prepared the layout\" provides an ordered action pair matched to the editor and the designer. A plausible competing reading is that both people performed both actions or that the actions are only separately distributed, but the ordered subject-to-action pairing marked by respectively rules those readings out."
+    },
+    {
+      "example_id": "ex-38ff1caf4867",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "18 and 21 years old",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"18 and 21 years old\" assigns age 18 to the first person and age 21 to the second in the same order. A plausible competing reading is a simple each-person statement without ordered correspondence, but the paired age sequence and respectively establish the exact first-to-first and second-to-second mapping."
+    },
+    {
+      "example_id": "ex-8e855944514f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "x and y",
+        "represent distance and time",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"represent distance and time\" gives an ordered complement pair for x and y: x represents distance and y represents time. A plausible competing reading is that both variables represent both quantities or that the quantities are merely listed independently, but the ordered represent relation plus respectively requires the one-to-one correspondence of sense:001."
+    },
+    {
+      "example_id": "ex-f3db523fbb5c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "lower and higher rates",
+        "apply to part-time and full-time employees",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"apply to part-time and full-time employees\" supplies the ordered employee-group complements for the lower and higher rates. A plausible competing reading is an unordered statement that each rate applies to each employee group, but the ordered rate-to-group pairs marked by respectively exclude it."
+    },
+    {
+      "example_id": "ex-c67af793a77e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "solid and dashed lines",
+        "correspond to observed and predicted values",
+        "respectively"
+      ],
+      "rationale": "The exact phrase \"correspond to observed and predicted values\" gives an ordered value pair for the solid and dashed lines. A plausible competing reading is that the line types are only separately associated with the two value types without an ordered mapping, but the explicit pair order and respectively determine the one-to-one correspondence."
+    }
+  ]
+}

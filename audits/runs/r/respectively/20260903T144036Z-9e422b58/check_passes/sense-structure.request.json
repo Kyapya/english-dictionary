@@ -1,0 +1,70 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+  "input_sections": {
+    "core_image": [],
+    "sense_structure": [
+      {
+        "line": 31,
+        "text": "1. 【副詞】それぞれ、順に、各々"
+      },
+      {
+        "line": 33,
+        "text": "【日本語訳・定義】2つ以上の人・物・項目のリストと、それらに対応する同数の結果、性質、数値、行為などを示し、1番目同士、2番目同士というように提示された順番で1対1に対応させることを表す。日本語の「それぞれ」に相当するが、単に別々であるだけでなく、対応する項目の順序を指定する点が重要である。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 31,
+        "text": "1. 【副詞】それぞれ、順に、各々"
+      },
+      {
+        "line": 78,
+        "text": "【語法・注意】respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を伴う。The two samples weighed 8 and 11 grams, respectively. なら、先に挙げた第1試料が8グラム、第2試料が11グラムという対応である。項目数や順番から対応関係が明確でない場合は、各対応を明示して書き直す。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 23,
+        "text": "＃語形成"
+      },
+      {
+        "line": 25,
+        "text": "・respective + -ly → respectively：形容詞 respective「それぞれの、各自の」に副詞接尾辞 -ly が付いた形。並列する項目を順番どおりに対応づける。  "
+      },
+      {
+        "line": 26,
+        "text": "・respective：形容詞「それぞれの、各自の」。their respective roles「それぞれの役割」のように名詞を修飾し、対応する複数の名詞句を必ずしも同時に並べるとは限らない。これは respectively の別品詞の語義ではなく、respectively がそこから作られた基底形である。  "
+      },
+      {
+        "line": 27,
+        "text": "・respectfully：形容詞 respectful「礼儀正しい、敬意を示す」に -ly が付いた副詞。「謹んで、失礼ながら」の意味で、respectively とは綴りの一部が似るだけで用法が異なる。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

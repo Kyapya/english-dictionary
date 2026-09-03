@@ -1,0 +1,93 @@
+{
+  "schema_version": "example_attribution_alignment_key_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+  "blind_request_sha256": "2975459f98482f0408859d96eaa76a45e58f37a3806b43d0e348028d375225f2",
+  "shuffle_seed": "20260903T144036Z-9e422b58",
+  "examples": [
+    {
+      "example_id": "ex-38ff1caf4867",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 45,
+        "line_end": 45,
+        "exact_quote": "例: Mia and Leo were 18 and 21 years old, respectively.  "
+      },
+      "source_example_id": "example:001"
+    },
+    {
+      "example_id": "ex-184d3b3d747b",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 50,
+        "line_end": 50,
+        "exact_quote": "例: The two stores had sales of $2 million and $1.4 million, respectively.  "
+      },
+      "source_example_id": "example:002"
+    },
+    {
+      "example_id": "ex-c67af793a77e",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 55,
+        "line_end": 55,
+        "exact_quote": "例: In the diagram, the solid and dashed lines correspond to observed and predicted values, respectively.  "
+      },
+      "source_example_id": "example:003"
+    },
+    {
+      "example_id": "ex-f3db523fbb5c",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 60,
+        "line_end": 60,
+        "exact_quote": "例: The lower and higher rates apply to part-time and full-time employees, respectively.  "
+      },
+      "source_example_id": "example:004"
+    },
+    {
+      "example_id": "ex-ec578238a2e9",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 65,
+        "line_end": 65,
+        "exact_quote": "例: Brazil and Canada finished first and second, respectively, in the final ranking.  "
+      },
+      "source_example_id": "example:005"
+    },
+    {
+      "example_id": "ex-8e855944514f",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 70,
+        "line_end": 70,
+        "exact_quote": "例: In this equation, x and y respectively represent distance and time.  "
+      },
+      "source_example_id": "example:006"
+    },
+    {
+      "example_id": "ex-a9b5795148ce",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 75,
+        "line_end": 75,
+        "exact_quote": "例: The editor and the designer checked the text and prepared the layout, respectively.  "
+      },
+      "source_example_id": "example:007"
+    }
+  ],
+  "sense_usage_notes": [
+    {
+      "sense_id": "sense:001",
+      "line": 78,
+      "text": "respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を伴う。The two samples weighed 8 and 11 grams, respectively. なら、先に挙げた第1試料が8グラム、第2試料が11グラムという対応である。項目数や順番から対応関係が明確でない場合は、各対応を明示して書き直す。"
+    }
+  ]
+}

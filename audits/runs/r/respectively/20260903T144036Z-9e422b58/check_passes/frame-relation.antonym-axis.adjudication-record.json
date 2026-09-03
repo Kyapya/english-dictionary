@@ -1,0 +1,69 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+  "stage2_request_sha256": "59d013f25e21e2310fcc19b06fe2fb40ad0429292f10c2fcbfb538f5df6d1513",
+  "blind_record_sha256": "399142b3340cb4320e0b680a0c70308d0409163c3d3a9852c321e51dc391ff37",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5-codex",
+    "ingested_by": "human",
+    "agent_id": "01a067bc-1978-7791-b1dd-73326d6de0b9"
+  },
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 93,
+        "line_end": 93,
+        "exact_quote": "・correspondingly  "
+      },
+      "severity": "minor",
+      "rationale": "respectively のこの語義は明示された複数リストを提示順に対応づけるが、correspondingly は対応・比例を示すだけで順序対応を含意しないため、中心義が十分に重なる類義語ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 100,
+        "line_end": 100,
+        "exact_quote": "・separately  "
+      },
+      "severity": "minor",
+      "rationale": "separately は分離して扱うことを表すだけで、二つのリスト間の提示順の対応を表さないため、この語義の類義語ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 107,
+        "line_end": 107,
+        "exact_quote": "・individually  "
+      },
+      "severity": "minor",
+      "rationale": "individually は対象を個別に扱うことを表すだけで、別リストの同順位項目との対応を含まないため、この語義の類義語ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 114,
+        "line_end": 114,
+        "exact_quote": "・in turn  "
+      },
+      "severity": "minor",
+      "rationale": "in turn は時間的な順番や交代を表し、複数リストの項目を提示順に対応づける意味を表さないため、この語義の類義語ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    }
+  ],
+  "unrouted_observations": []
+}

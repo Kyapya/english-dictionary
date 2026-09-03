@@ -1,0 +1,161 @@
+{
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a067d0-4bad-70c2-842a-986add47408f"
+  },
+  "summary": "問題候補あり。主に対応リストの文脈条件、語順パターン、類義語の言い換え、頻度・レジスター表示、句読法、語源説明に修正候補がある。",
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "意味・用法・関連表現 > 1 > 日本語訳・定義／語法・注意",
+      "severity": "medium",
+      "description": "対応する二つのリストが同一文内に並ぶことを必須と読める説明になっている。",
+      "reason": "respectively は前後の文脈ですでに提示されたリストを受けることもある。Oxford Learner's Dictionary も「すでに言及された人・物と同じ順番」と説明している。孤立文では不自然な例を×にする趣旨は妥当だが、前文脈があれば成立する用例まで排除する一般化につながる。対象箇所は「2つ以上の人・物・項目のリストと、それらに対応する同数の結果、性質、数値、行為などを示し、1番目同士、2番目同士というように提示された順番で1対1に対応させることを表す。」である。",
+      "suggested_direction": "「同じ文または前後の文脈で対応先が明確な、同数のリスト」と説明し、×例には「対応先を示す文脈がない場合」と限定を付ける。",
+      "scope_anchors": [
+        {
+          "id": "CR-001-a",
+          "exact_quote": "2つ以上の人・物・項目のリストと、それらに対応する同数の結果、性質、数値、行為などを示し、1番目同士、2番目同士というように提示された順番で1対1に対応させることを表す。",
+          "location_hint": "意味・用法・関連表現 > 1 > 日本語訳・定義"
+        },
+        {
+          "id": "CR-001-b",
+          "exact_quote": "respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を伴う。",
+          "location_hint": "意味・用法・関連表現 > 1 > 語法・注意"
+        },
+        {
+          "id": "CR-001-c",
+          "exact_quote": "対応する対象のリストを示さず、単に別々の処理を表したい ×We used compounds A and B, respectively. のような文では、respectively ではなく separately などを使う方が自然である。",
+          "location_hint": "意味・用法・関連表現 > 1 > 語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "CR-002",
+      "location": "意味・用法・関連表現 > 1 > 文法パターン",
+      "severity": "medium",
+      "description": "主語リストの直後に respectively を置き、単一の述語が続く構文を一般パターンとして示しているが、対応先の構造が不明確である。",
+      "reason": "respectively は主語1・主語2を後続の並列する補語・動詞句、または前文のリストに対応させる必要がある。単一の共有述語だけが続く場合、対応先がなく、単に「それぞれ」の意味で使えると誤解されやすい。「対応先が明確な場合」という但し書きだけでは必要な構造条件を十分に示していない。対象箇所は「〈対象1〉 and 〈対象2〉, respectively, + 〈述語〉＝〈対象1〉と〈対象2〉についてそれぞれ（挿入位置。対応先が明確な場合に限る）」である。",
+      "suggested_direction": "対応する補語・動詞句または前文脈を含む完全な例に置き換え、対応先のない単一述語では使わないことを明記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-002-a",
+          "exact_quote": "〈対象1〉 and 〈対象2〉, respectively, + 〈述語〉＝〈対象1〉と〈対象2〉についてそれぞれ（挿入位置。対応先が明確な場合に限る）",
+          "location_hint": "意味・用法・関連表現 > 1 > 文法パターンの4番目"
+        }
+      ]
+    },
+    {
+      "id": "CR-003",
+      "location": "意味・用法・関連表現 > 1 > 類義語 > in the same order",
+      "severity": "medium",
+      "description": "in the same order を respectively の最も明確な言い換えとして扱っているが、一般的な置換関係ではない。",
+      "reason": "in the same order は、何と同じ順番なのかという比較対象が必要な説明的な句であり、respectively の一対一の対応・分配の意味を常に単独で担うわけではない。標準的な respectively の文に置き換えると不自然または曖昧になる場合がある。対象箇所は「違い: respectively の最も明確な言い換えで、順序対応を直接説明する。文中で副詞として使える respectively より長いが、対応関係を初めて説明するときに分かりやすい。」である。",
+      "suggested_direction": "「説明的な言い換えであり、常に置換できる同義語ではない」とし、in the order mentioned/listed など文脈に合う表現を示す。",
+      "scope_anchors": [
+        {
+          "id": "CR-003-a",
+          "exact_quote": "違い: respectively の最も明確な言い換えで、順序対応を直接説明する。文中で副詞として使える respectively より長いが、対応関係を初めて説明するときに分かりやすい。",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > in the same order"
+        },
+        {
+          "id": "CR-003-b",
+          "exact_quote": "例: The figures refer to the three regions in the same order。",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > in the same order"
+        }
+      ]
+    },
+    {
+      "id": "CR-004",
+      "location": "意味・用法・関連表現 > 1 > 頻度・レジスター／類義語の頻度",
+      "severity": "low",
+      "description": "頻度の数値評価と全体頻度・レジスターの断定に基準がない。",
+      "reason": "9/10、8/10などの尺度、母集団、コーパス、比較対象が示されておらず、数値が客観的な頻度情報に見える。respectively は形式的・説明的な文章で目立つ語なので、「英語全体でも頻度が高い」「標準語」という表現だけでは、会話での使用頻度やレジスターを誤認させる可能性がある。対象箇所は「【頻度】〈9/10〉」である。",
+      "suggested_direction": "数値を削除するか、対象コーパスと尺度を明記する。レジスターは「書き言葉・ややフォーマルな説明で特に多い」など、使用域を直接説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-004-a",
+          "exact_quote": "【頻度】〈9/10〉",
+          "location_hint": "意味・用法・関連表現 > 1 > 頻度"
+        },
+        {
+          "id": "CR-004-b",
+          "exact_quote": "【レジスター/領域】標準語。英語全体でも頻度が高く、説明文、学術・科学論文、統計、報告書、ニュース、ビジネス文書で特に多い。会話でも使えるが、対応関係が長くなると文が読みにくくなるため、表や2文に分けることも多い。",
+          "location_hint": "意味・用法・関連表現 > 1 > レジスター/領域"
+        },
+        {
+          "id": "CR-004-c",
+          "exact_quote": "頻度: 〈8/10〉",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > in the same order"
+        },
+        {
+          "id": "CR-004-d",
+          "exact_quote": "頻度: 〈6/10〉",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > correspondingly"
+        },
+        {
+          "id": "CR-004-e",
+          "exact_quote": "頻度: 〈10/10〉",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > separately"
+        },
+        {
+          "id": "CR-004-f",
+          "exact_quote": "頻度: 〈8/10〉",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > individually"
+        },
+        {
+          "id": "CR-004-g",
+          "exact_quote": "頻度: 〈9/10〉",
+          "location_hint": "意味・用法・関連表現 > 1 > 類義語 > in turn"
+        }
+      ]
+    },
+    {
+      "id": "CR-005",
+      "location": "意味・用法・関連表現 > 1 > 語法・注意",
+      "severity": "low",
+      "description": "文末の respectively の直前にコンマを置くことが、事実上の必須規則のように読める。",
+      "reason": "コンマで区切る用法は一般的だが、スタイルや文の構造により省略される。Oxford Learner's Dictionary と Merriam-Webster はコンマなしの例も示している（[Oxford Learner's Dictionary](https://www.oxfordlearnersdictionaries.com/definition/english/respectively)、[Merriam-Webster](https://www.merriam-webster.com/dictionary/respectively)）。対象箇所は「多くの場合、対応する後半のリストの末尾、つまり文末または節末に置き、その直前にコンマを置く。」である。",
+      "suggested_direction": "「明確さのためコンマを置くことが多いが、必須ではなく、スタイルによって省略される」と説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-005-a",
+          "exact_quote": "多くの場合、対応する後半のリストの末尾、つまり文末または節末に置き、その直前にコンマを置く。",
+          "location_hint": "意味・用法・関連表現 > 1 > 語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "CR-006",
+      "location": "語源 > 2段落",
+      "severity": "low",
+      "description": "語源的な形成と意味の歴史的発達を、単純な一段階の流れとして断定している。",
+      "reason": "historical accounts distinguish older senses of respectively, including 'relatively' and an archaic 'respectfully', from the later list-correspondence sense. The current wording omits that history and presents a direct development from the modern-looking sense of respective. ([Online Etymology Dictionary](https://www.etymonline.com/word/respectively)) 対象箇所は「「個々のものに関係する」という respective の意味に -ly が加わり、「個々のものに関係する形で」から、複数の対応項目を提示順に結び付ける現代の用法へ発達した。」である。",
+      "suggested_direction": "形態的な「respective + -ly」と意味史を分け、「古い『相対的に／個別に』の用法を経て現在の用法になった」など、断定を弱めて説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-006-a",
+          "exact_quote": "「個々のものに関係する」という respective の意味に -ly が加わり、「個々のものに関係する形で」から、複数の対応項目を提示順に結び付ける現代の用法へ発達した。",
+          "location_hint": "語源 > 2段落"
+        }
+      ]
+    },
+    {
+      "id": "CR-007",
+      "location": "語形成 > respectfully の箇条書き",
+      "severity": "low",
+      "description": "respectively と respectfully の関係を「綴りの一部が似るだけ」と表現しており、語源・形態上の共通性を否定するように読める。",
+      "reason": "両語は respect に由来し、それぞれ respective/respectful に -ly が付いた語である。現代の意味・用法が異なるという対比は正しいが、「だけ」は前段の語源説明とも整合しない。対象箇所は「・respectfully：形容詞 respectful「礼儀正しい、敬意を示す」に -ly が付いた副詞。「謹んで、失礼ながら」の意味で、respectively とは綴りの一部が似るだけで用法が異なる。」である。",
+      "suggested_direction": "「語源的には共通の respect に由来するが、現代の意味・用法は異なる」と書き換える。",
+      "scope_anchors": [
+        {
+          "id": "CR-007-a",
+          "exact_quote": "・respectfully：形容詞 respectful「礼儀正しい、敬意を示す」に -ly が付いた副詞。「謹んで、失礼ながら」の意味で、respectively とは綴りの一部が似るだけで用法が異なる。",
+          "location_hint": "語形成 > respectfully の箇条書き"
+        }
+      ]
+    }
+  ]
+}

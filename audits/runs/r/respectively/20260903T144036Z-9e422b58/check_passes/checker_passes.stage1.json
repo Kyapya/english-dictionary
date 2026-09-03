@@ -1,0 +1,280 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-respectively-20260903T144036Z-9e422b58",
+  "context_id": "normal-respectively-context-20260903T144036Z-9e422b58",
+  "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-03T15:02:06.522510+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a067bc-0ee1-7c73-8a29-ecabe65160b7"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a067bc-13e4-70a3-ad01-523804749082"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5-codex",
+        "ingested_by": "human",
+        "agent_id": "01a067bc-1978-7791-b1dd-73326d6de0b9"
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+        "blind_request_sha256": "5d64c78319f4bc7aaae147bf9dbe3c55dd16ff912a64dc07f7ae3d40d13c3c78",
+        "recorded_at": "2026-09-03T14:46:58Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5-codex",
+          "ingested_by": "human",
+          "agent_id": "01a067bc-1978-7791-b1dd-73326d6de0b9"
+        },
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a067bc-23fa-7052-b6b5-6fc1f4f3f0a9"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
+        "blind_request_sha256": "2975459f98482f0408859d96eaa76a45e58f37a3806b43d0e348028d375225f2",
+        "recorded_at": "2026-09-03T15:00:21Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a067bc-23fa-7052-b6b5-6fc1f4f3f0a9"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-184d3b3d747b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "two stores",
+              "sales of $2 million and $1.4 million",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"sales of $2 million and $1.4 million\" supplies two ordered amounts for the two stores, paired in sequence. A plausible competing reading is a merely distributive each-separately use, but the ordered one-to-one pairing expressed by that amount sequence and respectively makes the competing reading unavailable."
+          },
+          {
+            "example_id": "ex-ec578238a2e9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "first and second",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"first and second\" maps the two countries to the first and second ranks in sequence. A plausible competing reading is an unordered distributive reading in which each country simply has a rank, but the ordered rank pair marked by respectively directly encodes the one-to-one correspondence required by sense:001."
+          },
+          {
+            "example_id": "ex-a9b5795148ce",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the editor and the designer",
+              "checked the text and prepared the layout",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"checked the text and prepared the layout\" provides an ordered action pair matched to the editor and the designer. A plausible competing reading is that both people performed both actions or that the actions are only separately distributed, but the ordered subject-to-action pairing marked by respectively rules those readings out."
+          },
+          {
+            "example_id": "ex-38ff1caf4867",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "18 and 21 years old",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"18 and 21 years old\" assigns age 18 to the first person and age 21 to the second in the same order. A plausible competing reading is a simple each-person statement without ordered correspondence, but the paired age sequence and respectively establish the exact first-to-first and second-to-second mapping."
+          },
+          {
+            "example_id": "ex-8e855944514f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "x and y",
+              "represent distance and time",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"represent distance and time\" gives an ordered complement pair for x and y: x represents distance and y represents time. A plausible competing reading is that both variables represent both quantities or that the quantities are merely listed independently, but the ordered represent relation plus respectively requires the one-to-one correspondence of sense:001."
+          },
+          {
+            "example_id": "ex-f3db523fbb5c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "lower and higher rates",
+              "apply to part-time and full-time employees",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"apply to part-time and full-time employees\" supplies the ordered employee-group complements for the lower and higher rates. A plausible competing reading is an unordered statement that each rate applies to each employee group, but the ordered rate-to-group pairs marked by respectively exclude it."
+          },
+          {
+            "example_id": "ex-c67af793a77e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "solid and dashed lines",
+              "correspond to observed and predicted values",
+              "respectively"
+            ],
+            "rationale": "The exact phrase \"correspond to observed and predicted values\" gives an ordered value pair for the solid and dashed lines. A plausible competing reading is that the line types are only separately associated with the two value types without an ordered mapping, but the explicit pair order and respectively determine the one-to-one correspondence."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-03T15:02:06.519013+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a067bc-1ef0-7a43-93da-09ee30d300ad"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "regional_qualification",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 37,
+            "line_end": 37,
+            "exact_quote": "【レジスター/領域】標準語。英語全体でも頻度が高く、説明文、学術・科学論文、統計、報告書、ニュース、ビジネス文書で特に多い。会話でも使えるが、対応関係が長くなると文が読みにくくなるため、表や2文に分けることも多い。  "
+          },
+          "severity": "minor",
+          "rationale": "「英語全体でも頻度が高く」「会話でも使える」という記述では、学術・報告書などの書き言葉での頻出と日常会話での遭遇頻度が区別されず、〈9/10〉も過大評価に読める。respectively は主にフォーマルな書き言葉で使われ、会話では相対的に少ないというレジスター上の限定が必要である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "英語全体の頻度と媒体別の頻度を分け、英米共通であることを示す場合も地域差と混同しないようにしたうえで、「書き言葉・フォーマル寄りで頻出、日常会話では比較的まれ」程度に限定し、9/10の評価を再検討する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a067bc-28fa-7643-8bfc-3114d51ac0ba"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "pronunciation_symbol_explanation",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "米: /rɪˈspɛktɪvli/｜英: /rɪˈspɛktɪvli/"
+          },
+          "severity": "blocking",
+          "rationale": "米英を区別する代表的な転写では、米音のDRESS母音は /ɛ/、英音は /e/ として /rɪˈspɛktɪvli/ と示されることが多い。両方を同じ /ɛ/ としているため、米英差を表記上も説明上も取りこぼしている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "米音を /rɪˈspɛktɪvli/、英音を /rɪˈspektɪvli/ と分けるか、同一表記を採用する転写方式であることを明記する。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a067c0-aad9-7262-ac1b-a45d3bc48094"
+      },
+      "findings": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a067bc-0ee1-7c73-8a29-ecabe65160b7"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a067bc-13e4-70a3-ad01-523804749082"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5-codex",
+      "ingested_by": "human",
+      "agent_id": "01a067bc-1978-7791-b1dd-73326d6de0b9"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a067bc-23fa-7052-b6b5-6fc1f4f3f0a9"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a067bc-1ef0-7a43-93da-09ee30d300ad"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a067bc-28fa-7643-8bfc-3114d51ac0ba"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a067c0-aad9-7262-ac1b-a45d3bc48094"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}
