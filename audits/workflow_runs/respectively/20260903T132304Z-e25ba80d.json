@@ -25,15 +25,20 @@
   "pre_draft_deadline_at": "2026-09-03T13:43:04Z",
   "last_heartbeat_at": "2026-09-03T13:23:04Z",
   "remote_checkpoint": {
-    "confirmed": false,
-    "confirmed_at": null,
-    "commit_sha": ""
+    "confirmed": true,
+    "confirmed_at": "2026-09-03T13:25:02Z",
+    "commit_sha": "ff1520a6cec75717ed1c578df186570c633aff06"
   },
   "stage_history": [
     {
       "stage": "preflight",
       "recorded_at": "2026-09-03T13:23:04Z",
       "notes": "run initialized"
+    },
+    {
+      "stage": "preflight_pushed",
+      "recorded_at": "2026-09-03T13:25:02Z",
+      "notes": "remote start checkpoint verified"
     }
   ],
   "stop_reason": "",
