@@ -1,0 +1,785 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-publicity-20260902T194039Z-23d464b6",
+  "context_id": "blind-publicity-context-20260902T194039Z-23d464b6",
+  "decision": "pass",
+  "input_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+  "latest_revised_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+  "sealed_blind_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9",
+  "resolved_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+  "blind_output_sha256": "81d7efb4875ffe32d7b276ff53307bd3de2554f2360a0db45dd4e12d6dc56238",
+  "hash_check": {
+    "status": "pass",
+    "latest_revised_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+    "resolved_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+    "sealed_blind_body_sha256": "3a0ce9461fe52d0833bcf5f4e1b64c6237a9fcb2a1e1db9f117b0cec096d0fd9"
+  },
+  "resolution_check": {
+    "status": "pass",
+    "finding_id": "finding-01",
+    "resolution_status": "resolved",
+    "disposition": "adopted",
+    "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d"
+  },
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target pronunciation:001: 基本: /pʌbˈlɪsəti/。米語では /pəˈblɪsəti/ も使われる。いずれも4音節で、第2音節に主強勢がある。/pʌbˈlɪsəti/ では第1音節が /pʌb/、第2音節が /ˈlɪs/ となる。/pəˈblɪsəti/ では第1音節が弱い /pə/ となり、/b/ は第2音節頭の /bl/ と発音される。これは米英の絶対的な地域差というより、辞書や話者による発音差として覚えるとよい。語末は /əti/ で、綴りの -ity を /aɪti/ と読まない。"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target etymology:001: フランス語 publicité を経て、ラテン語 publicus「公の、人民の」にさかのぼる。英語ではもともと「公にされている状態・公開性」を表し、そこから「世間に知られるようにすること」や、現代の「宣伝・広報活動」へ意味が発展した。"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target word_formation:001: ・publicist：publicity を作り、扱い、広める仕事をする人。映画、作家、芸能人、企業などの広報担当者を指す。"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target word_formation:002: ・publicity campaign：商品、作品、行事、主張などに注目を集めるための宣伝・広報キャンペーン。"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target word_formation:003: ・publicity material：宣伝・広報用の資料。"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target word_formation:004: ・publicity stunt：世間の注目を集めるために意図して行う行為・仕掛け。話題作りの含みを持つ。"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target sense_boundary:001: 1. 【名詞・不可算】公衆の注目、報道上の露出"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target definition:001: 人・企業・作品・出来事などが、新聞、テレビなどのメディアを通じて世間から受ける注目や報道上の露出。好意的とは限らず、good/bad/negative/unwanted publicity のように評価を添えられる。"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target frequency:001: 〈9/10〉"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target register:001: 標準的な一般語。複数の一般辞書で主要な名詞として扱われる。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:001: gain/receive publicity＝世間の注目・報道を得る"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:002: widespread publicity＝広範な世間の注目・報道"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:003: good/bad/negative/unwanted publicity＝好意的な・悪い・否定的な・望まない注目"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:004: shun publicity＝世間の注目・報道を避ける"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:001: ・gain/receive publicity\n用途: 人・団体・作品・出来事が世間の注目や報道を受けることを表す。\n例: The charity gained widespread publicity after the athlete supported its campaign.\n訳: その慈善団体は、その選手がキャンペーンを支持した後、広く世間の注目を浴びた。"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:002: ・widespread publicity\n用途: 広い地域や多くの媒体に及ぶ世間の注目・報道を表す。\n例: The discovery received widespread publicity in the national press.\n訳: その発見は全国紙で広く報道された。"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:003: ・good/bad publicity\n用途: 注目が対象に好影響または悪影響を与えることを評価する。\n例: The scandal gave the company bad publicity.\n訳: その不祥事は会社に否定的な世間の注目をもたらした。"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:004: ・negative publicity\n用途: 批判、不祥事、悪い報道などによる否定的な世間の注目を表す。\n例: The restaurant responded quickly to the negative publicity surrounding the safety complaint.\n訳: そのレストランは、安全性に関する苦情をめぐる否定的な報道にすぐ対応した。"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:005: ・shun publicity\n用途: 世間の注目や報道を意図的に避けることを表す。\n例: The novelist shuns publicity and rarely gives interviews.\n訳: その小説家は世間の注目を避け、めったにインタビューに応じない。"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target usage_note:001: 現代の一般用法ではこの語義の publicity は通常不可算で、a publicity や publicities は一般に避け、a lot of publicity、the publicity surrounding the case のように使う。publicity は注目・報道を表し、好評や長期的な名声を必ず含むわけではない。good/bad/negative/unwanted publicity のように評価を添えられる。"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target usage_note:002: publicity about 〈話題〉は話題に関する注目・報道、publicity for 〈対象〉（結果読み）は対象が受ける注目・報道を指す。対象に注目を集める活動読みの publicity for 〈対象〉は語義2で扱う。結果として受けた注目を明確にするなら gain/receive publicity for のように動詞で示す。古風・形式的には「公開性、公然性」の意味で使われることもある。"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:001: ・attention\n定義: 人や話題に関心が向けられていること。\n頻度: 〈10/10〉\n違い: publicity は特に新聞・テレビなどを通じた公的な注目・露出に焦点があり、attention より媒体や公衆に寄る。\n例: The announcement attracted attention from local residents.\n訳: その発表は地元住民の注目を集めた。"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:002: ・exposure\n定義: 人・商品・活動などが公衆や媒体に知られること。\n頻度: 〈8/10〉\n違い: publicity は露出の機会一般より、世間の注目・報道を受けること、またはそれを集める活動を表す。\n例: The interview gave the small business valuable exposure.\n訳: そのインタビューは、その小企業に貴重な公的露出をもたらした。"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:003: ・coverage\n定義: 新聞、テレビ、ウェブなどによる報道。\n頻度: 〈9/10〉\n違い: coverage はメディアによる報道内容を指し、publicity は報道による注目や、注目を集める活動まで含む。\n例: The issue received extensive media coverage.\n訳: その問題はメディアで大きく報道された。"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:004: ・fame\n定義: 多くの人に知られている状態。\n頻度: 〈10/10〉\n違い: fame は知名度という状態を指すのに対し、publicity は一時的な注目・報道も表し、negative publicity のように評価中立である。\n例: The actor achieved international fame after the film won several awards.\n訳: その俳優は、その映画がいくつも賞を取った後、国際的な名声を得た。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target sense_boundary:002: 2. 【名詞・不可算】宣伝活動、広報"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target definition:002: 人、商品、作品、行事、主張などに世間の関心を集めるために行う広報・宣伝活動。広告に限らず、情報提供などの広報手段を含み得る。ここでは世間の注目を集める側の活動・手段に焦点を置く。"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target frequency:002: 〈9/10〉"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target register:002: 標準的な一般語。複数の一般辞書で活動・情報に関わる名詞用法として扱われる。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:005: publicity for 〈映画・商品・行事〉（活動読み）＝対象に注目を集める広報"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:006: advance publicity for 〈発売・行事〉＝発売・行事の事前広報"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target grammar_pattern:007: publicity campaign/material/stunt＝宣伝キャンペーン・資料・仕掛け"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:006: ・a publicity campaign\n用途: 商品、作品、行事、主張などへの注目を集める計画的な宣伝活動を表す。\n例: The museum launched a publicity campaign for its new exhibition.\n訳: その博物館は新しい展覧会の広報キャンペーンを始めた。"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:007: ・publicity material\n用途: メディアや一般の人に提供する広報・宣伝用の資料を表す。\n例: The press office prepared publicity material for the product launch.\n訳: 広報室は製品発売のための宣伝資料を用意した。"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:008: ・advance publicity for 〈発売・行事〉\n用途: 映画、書籍、製品、行事などの開始前に行う事前広報を表す。\n例: The organizers arranged advance publicity for the festival several months before it opened.\n訳: 主催者は祭りの開幕数か月前から事前広報を手配した。"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target collocation:009: ・a publicity stunt\n用途: メディアや世間の注目を集めるために意図して行う行為・仕掛けを表す。\n例: The company staged a publicity stunt by projecting its logo onto the river bridge.\n訳: その会社は川に架かる橋へロゴを投影する話題作りの仕掛けを行った。"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target usage_note:003: この語義でも publicity は通常不可算で、a publicity campaign、a publicity stunt のように、数えられるのは campaign や stunt などの具体的な活動である。この語義の publicity for 〈対象〉は、対象に注目を集める活動を指す。対象が受ける注目・報道という結果読みは語義1に置く。"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target usage_note:004: advertising は通常、料金を払って掲載・放送する広告やその活動に焦点がある。一般的な区別では publicity と paid advertising を分けるが、辞書や文脈によっては publicity が有料広告・宣伝まで指すこともある。"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target usage_note:005: publicity stunt は、世間の注目を集める意図を前面に出す行為・仕掛けを指す。publicity for 〈対象〉が対象の受けた注目・報道を表す結果読みになる場合は語義1の用法であり、この語義2の活動読みとは分ける。結果としての注目を明確にするなら、語義1の gain/receive publicity for のように動詞で示す。"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:005: ・advertising\n定義: 商品、サービス、組織などを広告によって公衆に知らせる活動。\n頻度: 〈10/10〉\n違い: advertising は有料の広告メッセージや広告業務に焦点がある。publicity は通常、情報・活動によって公衆の注目を集める語だが、辞書や文脈によって paid advertising を含むこともある。\n例: The company increased its advertising budget before the holiday season.\n訳: その会社は休暇シーズンの前に広告予算を増やした。"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:006: ・promotion\n定義: 商品、サービス、作品、考えなどの販売・普及・認知を高める活動。\n頻度: 〈9/10〉\n違い: promotion は販売・普及も含む広い活動語で、publicity は公衆の注目を集める情報・活動に焦点がある。\n例: The festival used social media promotion to sell more tickets.\n訳: その祭りは、より多くのチケットを売るためにSNSで販促を行った。"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:007: ・public relations\n定義: 企業・組織・人物と公衆との関係を管理する活動。\n頻度: 〈9/10〉\n違い: public relations は公衆との関係全体を扱う広い活動で、publicity は注目を集める広報活動やその結果を指しやすい。\n例: The company hired a public relations firm after the data breach.\n訳: その会社はデータ漏えいの後、広報会社を雇った。"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified target synonym:008: ・marketing\n定義: 市場調査、商品設計、価格設定、流通、宣伝などを通じて需要と販売を形成する活動。\n頻度: 〈10/10〉\n違い: marketing は市場活動全体を扱う広い語で、publicity と重なる場合もある。ただし publicity は人・作品・行事・主張にも用いられる、注目を集める情報発信や活動を指す。\n例: The marketing team tested the new packaging with several customer groups.\n訳: マーケティングチームは複数の顧客グループで新しい包装を試した。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation risk_sense_pair:001: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:002 explicitly contrasts sense 1 with sense 2; usage_note:003 explicitly contrasts sense 2 with sense 1; usage_note:005 explicitly contrasts sense 2 with sense 1 Distinct verification focus 1: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:001: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 2: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:002: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 3: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:003: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 4: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:004: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 5: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:005: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 6: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:006: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 7: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:007: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 8: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:008: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 9: relation-specific semantic scope checked."
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation example_translation:009: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Distinct verification focus 10: relation-specific semantic scope checked."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation sense_definition_consistency:001: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Distinct verification focus 11: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_usage_consistency:001: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Distinct verification focus 12: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_usage_consistency:002: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Distinct verification focus 13: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_lexical_relation_consistency:001: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Distinct verification focus 14: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:001: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 15: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:002: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 16: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:003: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 17: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:004: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 18: relation-specific semantic scope checked."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation sense_definition_consistency:002: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Distinct verification focus 19: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_usage_consistency:003: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Distinct verification focus 20: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_usage_consistency:004: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Distinct verification focus 21: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_usage_consistency:005: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Distinct verification focus 22: relation-specific semantic scope checked."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation definition_lexical_relation_consistency:002: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Distinct verification focus 23: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:005: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 24: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:006: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 25: relation-specific semantic scope checked."
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation pattern_example_coverage:007: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Distinct verification focus 26: relation-specific semantic scope checked."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified relation article_learning_risk:001: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 Distinct verification focus 27: relation-specific semantic scope checked."
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "cand-01",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-01-a1",
+        "cand-01-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-01 against the revised body."
+    },
+    {
+      "id": "cand-02",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-02-a1",
+        "cand-02-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-02 against the revised body."
+    },
+    {
+      "id": "cand-03",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-03-a1",
+        "cand-03-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-03 against the revised body."
+    },
+    {
+      "id": "cand-04",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-04-a1",
+        "cand-04-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-04 against the revised body."
+    },
+    {
+      "id": "cand-05",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-05-a1",
+        "cand-05-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-05 against the revised body."
+    },
+    {
+      "id": "cand-06",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-06-a1",
+        "cand-06-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-06 against the revised body."
+    },
+    {
+      "id": "cand-07",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-07-a1",
+        "cand-07-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-07 against the revised body."
+    },
+    {
+      "id": "cand-08",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-08-a1",
+        "cand-08-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-08 against the revised body."
+    },
+    {
+      "id": "cand-09",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-09-a1",
+        "cand-09-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-09 against the revised body."
+    },
+    {
+      "id": "cand-10",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-10-a1",
+        "cand-10-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-10 against the revised body."
+    },
+    {
+      "id": "cand-11",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-11-a1",
+        "cand-11-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-11 against the revised body."
+    },
+    {
+      "id": "cand-12",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "cand-12-a1",
+        "cand-12-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-12 against the revised body."
+    },
+    {
+      "id": "cand-13",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "cand-13-a1",
+        "cand-13-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-13 against the revised body."
+    },
+    {
+      "id": "cand-14",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "cand-14-a1",
+        "cand-14-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-14 against the revised body."
+    },
+    {
+      "id": "cand-15",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "cand-15-a1",
+        "cand-15-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-15 against the revised body."
+    },
+    {
+      "id": "cand-16",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "cand-16-a1",
+        "cand-16-a2"
+      ],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified sealed blind candidate cand-16 against the revised body."
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "finding-01",
+      "status": "pass",
+      "severity": "blocking",
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "resolved_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified finding-01: publicity for/about activity and result readings are separated in the revised body."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "EVID-001",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified evidence link EVID-001 against the revised body and source inventory."
+    },
+    {
+      "id": "EVID-002",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified evidence link EVID-002 against the revised body and source inventory."
+    },
+    {
+      "id": "EVID-003",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified evidence link EVID-003 against the revised body and source inventory."
+    },
+    {
+      "id": "EVID-004",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified evidence link EVID-004 against the revised body and source inventory."
+    },
+    {
+      "id": "EVID-005",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified evidence link EVID-005 against the revised body and source inventory."
+    },
+    {
+      "id": "EVID-006",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+      "notes": "Verified evidence link EVID-006 against the revised body and source inventory."
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "notes": "Verified source union U-001 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "pass",
+      "notes": "Verified source union U-002 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "pass",
+      "notes": "Verified source union U-003 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "notes": "Verified source union U-004 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "status": "pass",
+      "notes": "Verified source union U-005 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "status": "pass",
+      "notes": "Verified source union U-006 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "status": "pass",
+      "notes": "Verified source union U-007 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "status": "pass",
+      "notes": "Verified source union U-008 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "status": "pass",
+      "notes": "Verified source union U-009 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-010",
+      "union_id": "U-010",
+      "status": "pass",
+      "notes": "Verified source union U-010 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-011",
+      "union_id": "U-011",
+      "status": "pass",
+      "notes": "Verified source union U-011 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-012",
+      "union_id": "U-012",
+      "status": "pass",
+      "notes": "Verified source union U-012 and its cited facts against the revised body."
+    },
+    {
+      "id": "U-013",
+      "union_id": "U-013",
+      "status": "pass",
+      "notes": "Verified source union U-013 and its cited facts against the revised body."
+    }
+  ],
+  "blockers": [],
+  "notes": [
+    "Latest revised body hash matches the adopted resolution hash.",
+    "The adopted resolution separates result and activity readings for publicity for/about without remaining boundary overlap.",
+    "The sealed blind inventory, all candidate dispositions, every article target and relation, and the source union are reconciled against the revised body."
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a063e6-9a31-7eb2-a9a2-5f6460af5086"
+  },
+  "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-09-02T21:03:28.268890+00:00"
+}

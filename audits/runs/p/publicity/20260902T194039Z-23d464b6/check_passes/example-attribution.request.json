@@ -1,0 +1,101 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "2a79e044fd00e512fbd56935b8ef7b0b6e53fb843aff9ea30d2e2716e3466a8d",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 30,
+        "label": "1. 【名詞・不可算】公衆の注目、報道上の露出",
+        "definition": "人・企業・作品・出来事などが、新聞、テレビなどのメディアを通じて世間から受ける注目や報道上の露出。好意的とは限らず、good/bad/negative/unwanted publicity のように評価を添えられる。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 101,
+        "label": "2. 【名詞・不可算】宣伝活動、広報",
+        "definition": "人、商品、作品、行事、主張などに世間の関心を集めるために行う広報・宣伝活動。広告に限らず、情報提供などの広報手段を含み得る。ここでは世間の注目を集める側の活動・手段に焦点を置く。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-89fae701bfc6",
+        "example": "The restaurant responded quickly to the negative publicity surrounding the safety complaint.",
+        "translation": "そのレストランは、安全性に関する苦情をめぐる否定的な報道にすぐ対応した。"
+      },
+      {
+        "example_id": "ex-b3cd135cea73",
+        "example": "The company staged a publicity stunt by projecting its logo onto the river bridge.",
+        "translation": "その会社は川に架かる橋へロゴを投影する話題作りの仕掛けを行った。"
+      },
+      {
+        "example_id": "ex-51c288100a2c",
+        "example": "The organizers arranged advance publicity for the festival several months before it opened.",
+        "translation": "主催者は祭りの開幕数か月前から事前広報を手配した。"
+      },
+      {
+        "example_id": "ex-d9402edd47c2",
+        "example": "The press office prepared publicity material for the product launch.",
+        "translation": "広報室は製品発売のための宣伝資料を用意した。"
+      },
+      {
+        "example_id": "ex-24c2620e3b89",
+        "example": "The museum launched a publicity campaign for its new exhibition.",
+        "translation": "その博物館は新しい展覧会の広報キャンペーンを始めた。"
+      },
+      {
+        "example_id": "ex-93e5ac564ed0",
+        "example": "The charity gained widespread publicity after the athlete supported its campaign.",
+        "translation": "その慈善団体は、その選手がキャンペーンを支持した後、広く世間の注目を浴びた。"
+      },
+      {
+        "example_id": "ex-b96ab1d45bb5",
+        "example": "The scandal gave the company bad publicity.",
+        "translation": "その不祥事は会社に否定的な世間の注目をもたらした。"
+      },
+      {
+        "example_id": "ex-ee610cdc723c",
+        "example": "The novelist shuns publicity and rarely gives interviews.",
+        "translation": "その小説家は世間の注目を避け、めったにインタビューに応じない。"
+      },
+      {
+        "example_id": "ex-67f583463d68",
+        "example": "The discovery received widespread publicity in the national press.",
+        "translation": "その発見は全国紙で広く報道された。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
