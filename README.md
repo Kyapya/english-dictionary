@@ -72,13 +72,13 @@ checker_passes.evidence.request.md
 
 第2応答は `handoff/checker_passes.frame-relation.stage2.response.json` に保存します。checker段では旧aggregate handoffへのフォールバックを認めません。7個の個別stage-1応答がない場合、またはcanonicalなframe-relation stage-2応答がない場合はfail closedで停止します。第2応答を取り込むとframe-relationを裁定・復元し、7パスを `pass_findings.json` へ機械集約します。第2応答のsubagent/modelがstage 1と違う場合は拒否します。
 
-checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列サブエージェント実行中もheartbeat・budgetは進行します。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
+checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列サブエージェント実行中もbudgetは進行します。heartbeatは監査用の進捗時刻であり、間隔超過だけでは停止しません。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
 
 新規runのorchestrator manifestには `checker_execution_protocol: parallel_subagents_v2` と `checker_subagent_count` を記録します。CIの `scripts/checker_subagent_gate.py` は、このプロトコルを持つcompleted handoff runについて7パスの被覆と `reviewer.agent_id` の一意性を再検証します。モデル名の一意性は要求しません。旧runは過去の監査証跡を改変しないため、この新プロトコルを持たない限り遡及的に失敗させません。
 
 ## オーケストレータ
 
-オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立コールドレビュー、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。heartbeat、budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
+オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立コールドレビュー、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。heartbeatは監査用の進捗時刻として記録します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
 
 `process_improvement/ACTIVE.md` は生成段だけへ渡し、コールドレビューと最終盲検には渡しません。registryは `scripts/process_improvement.py` が検証し、単語固有のメモや「新しい知見なし」はrecordにしません。
 

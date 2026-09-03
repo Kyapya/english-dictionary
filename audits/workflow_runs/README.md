@@ -31,10 +31,10 @@ git push
 
 通常はstandardを使う。
 
-| profile | 全体時間 | draft保存 | 検索query | 候補page | heartbeat間隔 |
-|---|---:|---:|---:|---:|---:|
-| standard | 60分 | 20分 | 12 | 18 | 10分 |
-| extended | 90分 | 30分 | 18 | 26 | 10分 |
+| profile | 全体時間 | draft保存 | 検索query | 候補page |
+|---|---:|---:|---:|---:|
+| standard | 60分 | 20分 | 12 | 18 |
+| extended | 90分 | 30分 | 18 | 26 |
 
 extendedは多義性や専門領域の広さについて具体的理由を記録した場合だけ使用する。個別上限を引き上げない。
 
@@ -47,7 +47,7 @@ python scripts/entry_workflow_guard.py record-research \
   --candidate-pages 4
 ```
 
-外部調査の各batchの前後と、作業中少なくとも10分ごとにheartbeatを実行する。
+heartbeatは各batchの前後などで進捗時刻を残すために実行できるが、実行間隔に上限はなく、heartbeatが古いことだけを理由にrunを停止しない。
 
 ```bash
 python scripts/entry_workflow_guard.py heartbeat \

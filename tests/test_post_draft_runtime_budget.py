@@ -65,17 +65,17 @@ class PostDraftRuntimeBudgetTests(unittest.TestCase):
         self.assertEqual(value["status"], "in_progress")
         self.assertEqual(value["stop_reason"], "")
 
-    def test_stale_post_draft_run_still_stops_on_heartbeat(self) -> None:
+    def test_stale_post_draft_run_does_not_stop_on_heartbeat(self) -> None:
         value = post_draft_manifest()
         limit = PROFILES["extended"]["max_elapsed_minutes"]
         heartbeat = START + timedelta(minutes=limit - 1)
         value["last_heartbeat_at"] = heartbeat.isoformat().replace("+00:00", "Z")
 
-        self.assertFalse(
+        self.assertTrue(
             enforce_budget(value, now=START + timedelta(minutes=limit + 11))
         )
-        self.assertEqual(value["status"], "budget_exhausted")
-        self.assertEqual(value["stop_reason"], "heartbeat gap budget exhausted")
+        self.assertEqual(value["status"], "in_progress")
+        self.assertEqual(value["stop_reason"], "")
 
 
 if __name__ == "__main__":
