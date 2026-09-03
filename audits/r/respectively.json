@@ -1,7 +1,7 @@
 {
   "schema_version": "content_audit_v3",
   "entry_path": "entries/r/respectively.md",
-  "body_sha256": "3d410d15a07e5ede38ffe04fc9929e6ee735c87298a38c54ed813514dcdbd7be",
+  "body_sha256": "26cb15323105a5f53191ab8bffe12e1890ef2bf89d7587a1d12e97da3e56c157",
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -292,8 +292,8 @@
           "F-009"
         ],
         "canonical_statement": "US and British pronunciation variants are distinguished.",
-        "disposition": "integrated",
-        "rationale": "Regional IPA is directly represented in the pronunciation section."
+        "disposition": "excluded",
+        "rationale": "The draft keeps a single broad IPA presentation and does not assert a regional final-vowel distinction; the source fact is retained as an excluded candidate."
       },
       {
         "id": "U-008",
@@ -433,25 +433,6 @@
           {
             "source_fact_id": "F-004",
             "support_summary": "Oxford supplies the headword IPA in its pronunciation entry."
-          }
-        ]
-      },
-      {
-        "id": "C-006",
-        "union_ids": [
-          "U-007"
-        ],
-        "subject_form": "respectively",
-        "claim_type": "pronunciation",
-        "statement": "US and British pronunciations differ in the final weak vowel notation.",
-        "article_target_ids": [
-          "pronunciation:001",
-          "register:001"
-        ],
-        "source_supports": [
-          {
-            "source_fact_id": "F-009",
-            "support_summary": "Collins lists separate US and British IPA forms for the headword."
           }
         ]
       },
