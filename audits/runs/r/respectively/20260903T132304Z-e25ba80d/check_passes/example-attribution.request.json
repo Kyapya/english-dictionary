@@ -1,0 +1,85 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "3d410d15a07e5ede38ffe04fc9929e6ee735c87298a38c54ed813514dcdbd7be",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 31,
+        "label": "1. 【副詞】それぞれ、順に、各々",
+        "definition": "2つ以上の人・物・項目のリストと、それらに対応する同数の結果、性質、数値、行為などを示し、1番目同士、2番目同士というように提示された順番で1対1に対応させることを表す。日本語の「それぞれ」に相当するが、単に別々であるだけでなく、対応する項目の順序を指定する点が重要である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-484ad272dcb1",
+        "example": "In the diagram, the solid and dashed lines correspond to observed and predicted values, respectively.",
+        "translation": "図では、実線と破線がそれぞれ観測値と予測値に対応している。"
+      },
+      {
+        "example_id": "ex-90d00b089e13",
+        "example": "The editor and the designer checked the text and prepared the layout, respectively.",
+        "translation": "編集者とデザイナーは、それぞれ本文を確認し、レイアウトを準備した。"
+      },
+      {
+        "example_id": "ex-32a6ada67cd5",
+        "example": "Brazil and Canada finished first and second, respectively, in the final ranking.",
+        "translation": "最終順位では、ブラジルとカナダがそれぞれ1位と2位になった。"
+      },
+      {
+        "example_id": "ex-7a11a58ea15d",
+        "example": "In this equation, x and y respectively represent distance and time.",
+        "translation": "この式では、xとyがそれぞれ距離と時間を表す。"
+      },
+      {
+        "example_id": "ex-51ced4fafa1d",
+        "example": "Mia and Leo were 18 and 21 years old, respectively.",
+        "translation": "ミアとレオは、それぞれ18歳と21歳だった。"
+      },
+      {
+        "example_id": "ex-29a14300fdea",
+        "example": "The lower and higher rates apply to part-time and full-time employees, respectively.",
+        "translation": "低い料率と高い料率は、それぞれパートタイム従業員とフルタイム従業員に適用される。"
+      },
+      {
+        "example_id": "ex-1139e8ed3a7c",
+        "example": "The two stores had sales of $2 million and $1.4 million, respectively.",
+        "translation": "その2店舗の売上は、それぞれ200万ドルと140万ドルだった。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
