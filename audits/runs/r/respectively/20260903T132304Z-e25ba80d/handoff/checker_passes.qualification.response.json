@@ -1,0 +1,37 @@
+{
+  "pass_id": "qualification",
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "【頻度】〈9/10〉"
+      },
+      "severity": "minor",
+      "rationale": "〈9/10〉は英語全体での遭遇頻度を非常に高いものとして示す一方、同じ入力では説明文・学術論文・統計・報告書・ニュース・ビジネス文書など特定の書き言葉領域で特に多いとし、会話では対応が長いと分割する場合が多いと説明している。領域内の頻度を英語全体の頻度へ一般化した可能性があるため、全体頻度とフォーマルな書き言葉寄りのレジスターを分けて限定すべきである。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英語全体での遭遇頻度を再評価し、フォーマルな書き言葉での使用頻度と会話での自然さを別々に示す。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 78,
+        "line_end": 78,
+        "exact_quote": "【語法・注意】respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を必要とする。The two samples weighed 8 and 11 grams, respectively. なら、先に挙げた第1試料が8グラム、第2試料が11グラムという対応である。項目数が一致しない、対応する先がない、または順番が読み取れない場合は使わず、各対応を明示して書き直す。"
+      },
+      "severity": "minor",
+      "rationale": "冒頭の「通常」は典型的な同数リストの説明として妥当だが、末尾の「項目数が一致しない場合は使わず」は表面的な句やand節の数と意味上の対応対象を同一視する一律禁止になっている。集合・複合名詞句や別フレームでは文脈から対応関係を回収できる場合があり、避けるべきなのは対応が不明確な場合である。必要条件（明確な順序対応）と推奨（曖昧なら言い換える）を分けるべきである。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「通常は同数の対応項目を伴う」とし、対応が明確でない場合に避けるという助言へ改め、集合・複合名詞句や文脈で対応が明確な構文を一律に排除しない。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a06785-4a5d-7692-a53c-86e573445092"
+  }
+}
