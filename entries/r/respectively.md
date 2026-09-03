@@ -23,7 +23,7 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 ＃語形成
 
 ・respective + -ly → respectively：形容詞 respective「それぞれの、各自の」に副詞接尾辞 -ly が付いた形。並列する項目を順番どおりに対応づける。  
-・respective：形容詞「それぞれの、各自の」。their respective roles「それぞれの役割」のように名詞を修飾し、対応する複数の名詞句を必ずしも同時に並べるとは限らない。  
+・respective：形容詞「それぞれの、各自の」。their respective roles「それぞれの役割」のように名詞を修飾し、対応する複数の名詞句を必ずしも同時に並べるとは限らない。これは respectively の別品詞の語義ではなく、respectively がそこから作られた基底形である。  
 ・respectfully：形容詞 respectful「礼儀正しい、敬意を示す」に -ly が付いた副詞。「謹んで、失礼ながら」の意味で、respectively とは綴りの一部が似るだけで用法が異なる。  
 
 ＃意味・用法・関連表現
@@ -34,7 +34,7 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 
 【頻度】〈9/10〉  
 
-【レジスター/領域】標準語。説明文、学術・科学論文、統計、報告書、ニュース、ビジネス文書で特に多い。会話でも使えるが、対応関係が長くなると文が読みにくくなるため、表や2文に分けることも多い。  
+【レジスター/領域】標準語。英語全体でも頻度が高く、説明文、学術・科学論文、統計、報告書、ニュース、ビジネス文書で特に多い。会話でも使えるが、対応関係が長くなると文が読みにくくなるため、表や2文に分けることも多い。  
 
 【文法パターン】〈対象1〉 and 〈対象2〉 + be・動詞 + 〈対応項目1〉 and 〈対応項目2〉, respectively＝〈対象1〉には〈対応項目1〉、〈対象2〉には〈対応項目2〉／〈値1〉 and 〈値2〉 apply to 〈対象1〉 and 〈対象2〉, respectively＝〈値1〉と〈値2〉が〈対象1〉と〈対象2〉にそれぞれ当てはまる／〈対象1〉 and 〈対象2〉 respectively + 〈動詞句1〉 and 〈動詞句2〉＝〈対象1〉は〈動詞句1〉、〈対象2〉は〈動詞句2〉をそれぞれ行う（文が長くなりやすいため、通常は文末配置が明快）／〈対象1〉 and 〈対象2〉, respectively, + 〈述語〉＝〈対象1〉と〈対象2〉についてそれぞれ（挿入位置。対応先が明確な場合に限る）  
 
@@ -73,9 +73,9 @@ respectively は、形容詞 respective に副詞接尾辞 -ly が付いた語�
 ・〈主語1〉 and 〈主語2〉 + 〈動詞句1〉 and 〈動詞句2〉, respectively  
 用途: 二つの主語が異なる行為や役割を担うことを、行為の提示順に対応させる。主語と動詞句の数をそろえる。  
 例: The editor and the designer checked the text and prepared the layout, respectively.  
-訳: 編集者とデザイナーは、それぞれ本文を確認し、レイアウトを準備した。  
+訳: 編集者は本文を確認し、デザイナーはレイアウトを準備した。  
 
-【語法・注意】respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を必要とする。The two samples weighed 8 and 11 grams, respectively. なら、先に挙げた第1試料が8グラム、第2試料が11グラムという対応である。項目数が一致しない、対応する先がない、または順番が読み取れない場合は使わず、各対応を明示して書き直す。  
+【語法・注意】respectively は、通常、先に示した2つ以上の項目と、後から示す同数の対応項目を伴う。The two samples weighed 8 and 11 grams, respectively. なら、先に挙げた第1試料が8グラム、第2試料が11グラムという対応である。項目数や順番から対応関係が明確でない場合は、各対応を明示して書き直す。  
 
 多くの場合、対応する後半のリストの末尾、つまり文末または節末に置き、その直前にコンマを置く。文中の respectively も可能だが、The editor and the designer respectively checked the text and prepared the layout. のように、長い要素を挟むと対応関係が追いにくい。通常は The editor and the designer checked the text and prepared the layout, respectively. のように末尾へ置く方が明快である。  
 respectively は単なる「別々に」「個別に」を意味する語ではない。辞書で separately と説明される場合もあるが、学習上は「提示順に対応して、それぞれ」と理解すると誤用が少ない。対応する対象のリストを示さず、単に別々の処理を表したい ×We used compounds A and B, respectively. のような文では、respectively ではなく separately などを使う方が自然である。  
