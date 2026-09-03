@@ -23,7 +23,7 @@
   "started_at": "2026-09-03T14:40:36Z",
   "deadline_at": "2026-09-03T15:40:36Z",
   "pre_draft_deadline_at": "2026-09-03T15:00:36Z",
-  "last_heartbeat_at": "2026-09-03T14:44:57Z",
+  "last_heartbeat_at": "2026-09-03T14:57:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-03T14:42:19Z",
@@ -647,5 +647,11 @@
         "audits/runs/r/respectively/20260903T144036Z-9e422b58/validator.json"
       ]
     }
+  },
+  "review_ingest_failures": {
+    "stage": "checker_passes",
+    "count": 1,
+    "last_error": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+    "last_failed_at": "2026-09-03T14:53:30Z"
   }
 }
