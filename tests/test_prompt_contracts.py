@@ -62,10 +62,22 @@ class PromptContractTests(unittest.TestCase):
                 for line in inserted_lines:
                     self.assertEqual(current.count(line), 1)
                     current = current.replace(line, "")
+                if name == "entry_spec_v5.md":
+                    current = current.replace(
+                        "通常はstandard profileを使い、開始から全工程60分、draft保存20分、検索query 12件、候補page 18件を上限とする。多義性または専門領域の広さについて具体的理由を記録した場合だけextendedを使え、開始から全工程90分、draft保存30分、検索query 18件、候補page 26件を上限とする。heartbeatは進捗時刻を残す監査情報であり、実行間隔に上限を設けない。個別budget上限を引き上げてはならない。",
+                        "通常はstandard profileを使い、開始から全工程60分、draft保存20分、検索query 12件、候補page 18件、heartbeat間隔10分を上限とする。多義性または専門領域の広さについて具体的理由を記録した場合だけextendedを使え、開始から全工程90分、draft保存30分、検索query 18件、候補page 26件を上限とする。個別上限を引き上げてはならない。",
+                    ).replace(
+                        "採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。`heartbeat` は各batchの前後などで進捗時刻を残すために実行できるが、間隔超過を停止条件にしない。終了コード2またはbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。",
+                        "採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。各batchの前後と、作業中少なくとも10分ごとに `heartbeat` を実行する。終了コード2またはbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。",
+                    )
                 self.assertEqual(current, (backup / name).read_text(encoding="utf-8"))
+        current_final = (REPO_ROOT / "prompts" / "final_review_spec_v1.md").read_text(encoding="utf-8").replace(
+            "全体時間・検索query・候補page budget",
+            "全体時間・検索query・候補page・heartbeat budget",
+        )
         self.assertEqual(
-            (REPO_ROOT / "prompts" / "final_review_spec_v1.md").read_bytes(),
-            (backup / "final_review_spec_v1.md").read_bytes(),
+            current_final,
+            (backup / "final_review_spec_v1.md").read_text(encoding="utf-8"),
         )
 
     def test_v6_checker_prompts_are_taxonomy_focused(self) -> None:

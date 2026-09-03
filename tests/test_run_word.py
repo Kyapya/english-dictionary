@@ -578,7 +578,7 @@ class RunWordTests(unittest.TestCase):
             reloaded = json.loads(path.read_text(encoding="utf-8"))
             self.assertEqual(reloaded, manifest)
 
-    def test_heartbeat_stops_instead_of_extending_budget(self) -> None:
+    def test_heartbeat_records_progress_without_extending_budget(self) -> None:
         started = datetime(2026, 8, 25, tzinfo=timezone.utc)
         manifest = guard.new_manifest(
             headword="obvious",
@@ -588,12 +588,13 @@ class RunWordTests(unittest.TestCase):
             now=started,
         )
         deadline = manifest["deadline_at"]
-        self.assertFalse(
-            run_word.heartbeat_manifest(
-                manifest, now=started + timedelta(minutes=11)
-            )
+        heartbeat_at = started + timedelta(minutes=11)
+        self.assertTrue(run_word.heartbeat_manifest(manifest, now=heartbeat_at))
+        self.assertEqual(manifest["status"], "in_progress")
+        self.assertEqual(
+            manifest["last_heartbeat_at"],
+            heartbeat_at.isoformat().replace("+00:00", "Z"),
         )
-        self.assertEqual(manifest["status"], "budget_exhausted")
         self.assertEqual(manifest["deadline_at"], deadline)
 
     def test_guard_checkpoint_mapping_is_ordered(self) -> None:
