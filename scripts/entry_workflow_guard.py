@@ -23,14 +23,12 @@ PROFILES = {
         "max_pre_draft_minutes": 20,
         "max_research_queries": 12,
         "max_candidate_pages": 18,
-        "max_heartbeat_gap_minutes": 10,
     },
     "extended": {
         "max_elapsed_minutes": 90,
         "max_pre_draft_minutes": 30,
         "max_research_queries": 18,
         "max_candidate_pages": 26,
-        "max_heartbeat_gap_minutes": 10,
     },
 }
 
@@ -401,20 +399,15 @@ def enforce_budget(manifest: dict[str, Any], *, now: datetime | None = None) -> 
     pre_draft_deadline = _parse_time(
         manifest.get("pre_draft_deadline_at"), "pre_draft_deadline_at", errors
     )
-    heartbeat = _parse_time(manifest.get("last_heartbeat_at"), "last_heartbeat_at", errors)
     if errors:
         raise ValueError("; ".join(errors))
-    assert deadline and pre_draft_deadline and heartbeat
+    assert deadline and pre_draft_deadline
     stage = manifest.get("stage")
     if current > deadline and stage in {"preflight", "preflight_pushed"}:
         _stop(manifest, reason="overall elapsed-time budget exhausted", now=current)
         return False
     if stage in {"preflight", "preflight_pushed"} and current > pre_draft_deadline:
         _stop(manifest, reason="pre-draft elapsed-time budget exhausted", now=current)
-        return False
-    max_gap = manifest["limits"]["max_heartbeat_gap_minutes"]
-    if current - heartbeat > timedelta(minutes=max_gap):
-        _stop(manifest, reason="heartbeat gap budget exhausted", now=current)
         return False
     return True
 
@@ -433,10 +426,11 @@ def record_review_ingest_failure(
 ) -> bool:
     """Charge a failed review ingestion to the budget and stop a retry loop.
 
-    The heartbeat is deliberately not refreshed: a failed ingestion is not
-    progress, so elapsed time and the heartbeat gap keep running against the
-    run. Returns False once the run is stopped, either because a budget is
-    exhausted or because the same stage failed MAX_REVIEW_INGEST_FAILURES times.
+    The heartbeat is deliberately not refreshed because a failed ingestion is
+    not progress. Heartbeat timestamps remain audit metadata only and do not
+    impose a liveness timeout. Returns False once the run is stopped, either
+    because a budget is exhausted or because the same stage failed
+    MAX_REVIEW_INGEST_FAILURES times.
     """
     current = now or _now()
     if manifest.get("status") in TERMINAL_STATUSES:

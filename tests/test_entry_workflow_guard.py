@@ -120,12 +120,13 @@ class EntryWorkflowGuardTests(unittest.TestCase):
         self.assertEqual(value["stop_reason"], "research query budget exhausted")
         self.assertTrue(any("merge-ready" in error for error in validate_manifest(value, merge_ready=True)))
 
-    def test_missing_heartbeat_stops_run(self) -> None:
+    def test_missing_heartbeat_does_not_stop_run(self) -> None:
         value = manifest()
         confirm_without_git(value)
-        self.assertFalse(enforce_budget(value, now=START + timedelta(minutes=12)))
-        self.assertEqual(value["status"], "budget_exhausted")
-        self.assertEqual(value["stop_reason"], "heartbeat gap budget exhausted")
+        self.assertTrue(enforce_budget(value, now=START + timedelta(minutes=12)))
+        self.assertEqual(value["status"], "in_progress")
+        self.assertEqual(value["stop_reason"], "")
+        self.assertNotIn("max_heartbeat_gap_minutes", value["limits"])
 
     def test_late_draft_is_saved_as_terminal_safe_stop(self) -> None:
         value = manifest()
