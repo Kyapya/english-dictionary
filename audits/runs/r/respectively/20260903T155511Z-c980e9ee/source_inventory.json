@@ -1,77 +1,22 @@
 {
-  "schema_version": "content_audit_v4",
-  "generated_by": "generate_audit_manifest_v1",
-  "entry_path": "entries/r/respectively.md",
-  "cycle_id": "20260903T155511Z-c980e9ee",
-  "cycle_dir": "audits/runs/r/respectively/20260903T155511Z-c980e9ee",
-  "body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-  "raw_outputs": {
-    "source_inventory": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/source_inventory.json",
-      "sha256": "7ddca770315c9eb715fac9ca5b874cc56c7f5920fd28202fc609b143297a4c21",
-      "stage": "source_inventory",
-      "run_id": "source-respectively-20260904T042500Z",
-      "context_id": "source-respectively-context-20260904T042500Z",
-      "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-      "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
-      "recorded_at": "2026-09-04T04:25:30Z"
-    },
-    "normal_review": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/pass_findings.json",
-      "sha256": "2791064b7b61c0714b0677ea4297e63ac8dafb83c10f8c7aec6c81da80203162",
-      "stage": "normal_review",
-      "run_id": "normal-respectively-20260903T155511Z-c980e9ee",
-      "context_id": "normal-respectively-context-20260903T155511Z-c980e9ee",
-      "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-      "prompt_sha256": "350c98475fd33df543cf5689ce5f17f418fb99b6548cb3569a7087fb861d605b",
-      "recorded_at": "2026-09-04T04:25:42.840550+00:00"
-    },
-    "cold_review": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/cold_review.json",
-      "sha256": "dc528516bc439f9a1f491143364aa9cc5fbbac2127fde23284102914f9820a31",
-      "stage": "cold_review",
-      "run_id": "cold-respectively-20260903T155511Z-c980e9ee",
-      "context_id": "cold-respectively-context-20260903T155511Z-c980e9ee",
-      "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-      "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
-      "recorded_at": "2026-09-04T04:26:00Z"
-    },
-    "resolutions": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/resolutions.json",
-      "sha256": "23c3152938c876ebb828f1df43324ef0c871aadb6c3aa2dbebb0c3fa2cbb9969",
-      "stage": "resolutions",
-      "run_id": "20260903T155511Z-c980e9ee",
-      "context_id": "normal-respectively-context-20260903T155511Z-c980e9ee",
-      "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-      "prompt_sha256": "cfcb16d048cc805690f8f3449ecf52e26c41f71bc2aca05e65bb4f2d157aa376",
-      "recorded_at": "2026-09-04T04:40:00Z"
-    },
-    "final_blind": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/final_blind.json",
-      "sha256": "fc90b6fdef3112008391a05c1c9dc52b36bc23edcc50daf37244fb658453fd6f",
-      "stage": "final_blind",
-      "run_id": "blind-respectively-20260903T155511Z-c980e9ee",
-      "context_id": "blind-respectively-context-20260903T155511Z-c980e9ee",
-      "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-      "prompt_sha256": "d1cdacc3ac11c4e22f47063219613ee8c622ef2d2ef011f0cac0d2fb9238e2e5",
-      "recorded_at": "2026-09-04T04:30:00Z"
-    },
-    "blind_seal": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/blind_seal.json",
-      "sha256": "a4153c7b53063a3907b5dff9d0cce76024d5e00f383d51a39d4276c5d353f56a",
-      "stage": "blind_seal"
-    },
-    "final_review": {
-      "path": "audits/runs/r/respectively/20260903T155511Z-c980e9ee/final_review.json",
-      "sha256": "c2845890fc006ba65561dad8592171cd4d41f1bd3bc7e72f16dbe78b1f7e9124",
-      "stage": "final_review",
-      "run_id": "blind-respectively-20260903T155511Z-c980e9ee",
-      "context_id": "blind-respectively-context-20260903T155511Z-c980e9ee",
-      "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
-      "prompt_sha256": "dd068c4ca04bc5ccf122acab38af1ef8c6948e1ba54b3c5e83f3b4aaef5ffdad",
-      "recorded_at": "2026-09-04T04:45:00Z"
-    }
-  },
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-respectively-20260904T042500Z",
+  "context_id": "source-respectively-context-20260904T042500Z",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-04T04:25:30Z",
+  "evidence_link_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
   "source_first_audit": {
     "version": "source_first_audit_v2",
     "profile": "standard",
@@ -582,20 +527,5 @@
         ]
       }
     ]
-  },
-  "findings": [],
-  "resolutions": [],
-  "final_decision": {
-    "decision": "pass",
-    "blockers": [],
-    "notes": [
-      "The latest revised body hash matches the final-blind seal and the resolution-stage body hash.",
-      "The independent checker fan-in and context-free cold review found no unresolved current-body finding.",
-      "The sealed blind inventory, all candidate dispositions, every article target and relation, and the source union are reconciled against the revised body."
-    ],
-    "reviewed_at": "2026-09-04T04:45:00Z",
-    "blind_output_sha256": "09f4babe7de5d1d5bc66d21bdc16e83568768573fa8e5a8b58bdf8ad47c8cf7e"
-  },
-  "invalidated_by": [],
-  "review_liveness_errors": []
+  }
 }

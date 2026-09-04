@@ -1,0 +1,276 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-respectively-20260903T155511Z-c980e9ee",
+  "context_id": "normal-respectively-context-20260903T155511Z-c980e9ee",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "prompt_sha256": "350c98475fd33df543cf5689ce5f17f418fb99b6548cb3569a7087fb861d605b",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-04T04:25:42.840550+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06a93-a274-7101-aa71-42465c05d08c"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06a93-1e9b-74a0-a502-7c912f12f0a8"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06a93-187d-78e2-a368-2ce1d68aa084"
+      },
+      "antonym_axis_blind_record": {
+        "pass_id": "frame-relation",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a06a93-187d-78e2-a368-2ce1d68aa084"
+        },
+        "axes": [],
+        "schema_version": "antonym_axis_blind_record_v1",
+        "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+        "blind_request_sha256": "3a3da09b53e760a7ff71130df75d68743343bcf656f21359da673b145b34a84e",
+        "recorded_at": "2026-09-04T04:25:42.837735+00:00"
+      },
+      "antonym_axis_adjudication_record": {
+        "pass_id": "frame-relation",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a06a93-187d-78e2-a368-2ce1d68aa084"
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": [],
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+        "stage2_request_sha256": "3a5170bb8a4357bf08ee7fff916703652777dd544e8d3fdf314645184cef5227",
+        "blind_record_sha256": "d87fa55de7ba8a4e4b2b213096233d7db3cfcdd8606daac5859153d9cf8626c3"
+      },
+      "aligned_at": "2026-09-04T04:25:56.139078+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06a93-132a-7d83-ab17-e9c97cc60099"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+        "blind_request_sha256": "d5dd0ec4197acee03c683dc0c1022d63343b2139eddca8959432b0108003aac4",
+        "recorded_at": "2026-09-04T04:20:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a06a93-132a-7d83-ab17-e9c97cc60099"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-b38df5d3edae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Mia and Leo",
+              "18 and 21 years old",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"Mia and Leo\", the ordered pair \"18 and 21 years old\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          },
+          {
+            "example_id": "ex-f2c8777f1f47",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "two stores",
+              "$2 million and $1.4 million",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"two stores\", the ordered pair \"$2 million and $1.4 million\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          },
+          {
+            "example_id": "ex-5a75bcc1641f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Brazil and Canada",
+              "first and second",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"Brazil and Canada\", the ordered pair \"first and second\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          },
+          {
+            "example_id": "ex-013f19e969b5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "solid and dashed lines",
+              "observed and predicted values",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"solid and dashed lines\", the ordered pair \"observed and predicted values\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          },
+          {
+            "example_id": "ex-db03f199b107",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "editor and the designer",
+              "checked the text and prepared the layout",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"editor and the designer\", the ordered pair \"checked the text and prepared the layout\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          },
+          {
+            "example_id": "ex-f5d0a8e1ac87",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "x and y",
+              "distance and time",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"x and y\", the ordered pair \"distance and time\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          },
+          {
+            "example_id": "ex-030557661126",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "lower and higher rates",
+              "part-time and full-time employees",
+              "respectively"
+            ],
+            "rationale": "In the exact phrase \"lower and higher rates\", the ordered pair \"part-time and full-time employees\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-04T04:25:42.838169+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06a93-29f6-74e3-af61-1bb546bfb0ab"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06a93-242c-7d23-8375-6485364e608c"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06aa7-1132-74f1-a852-f2d0fad2c0ad"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-a274-7101-aa71-42465c05d08c"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-1e9b-74a0-a502-7c912f12f0a8"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-187d-78e2-a368-2ce1d68aa084"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-132a-7d83-ab17-e9c97cc60099"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-29f6-74e3-af61-1bb546bfb0ab"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-242c-7d23-8375-6485364e608c"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06aa7-1132-74f1-a852-f2d0fad2c0ad"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

@@ -1,0 +1,118 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06a93-132a-7d83-ab17-e9c97cc60099"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+    "blind_request_sha256": "d5dd0ec4197acee03c683dc0c1022d63343b2139eddca8959432b0108003aac4",
+    "recorded_at": "2026-09-04T04:20:00Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06a93-132a-7d83-ab17-e9c97cc60099"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-b38df5d3edae",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Mia and Leo",
+          "18 and 21 years old",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"Mia and Leo\", the ordered pair \"18 and 21 years old\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      },
+      {
+        "example_id": "ex-f2c8777f1f47",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "two stores",
+          "$2 million and $1.4 million",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"two stores\", the ordered pair \"$2 million and $1.4 million\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      },
+      {
+        "example_id": "ex-5a75bcc1641f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Brazil and Canada",
+          "first and second",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"Brazil and Canada\", the ordered pair \"first and second\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      },
+      {
+        "example_id": "ex-013f19e969b5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "solid and dashed lines",
+          "observed and predicted values",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"solid and dashed lines\", the ordered pair \"observed and predicted values\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      },
+      {
+        "example_id": "ex-db03f199b107",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "editor and the designer",
+          "checked the text and prepared the layout",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"editor and the designer\", the ordered pair \"checked the text and prepared the layout\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      },
+      {
+        "example_id": "ex-f5d0a8e1ac87",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "x and y",
+          "distance and time",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"x and y\", the ordered pair \"distance and time\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      },
+      {
+        "example_id": "ex-030557661126",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "lower and higher rates",
+          "part-time and full-time employees",
+          "respectively"
+        ],
+        "rationale": "In the exact phrase \"lower and higher rates\", the ordered pair \"part-time and full-time employees\" is marked by \"respectively\", so the first item maps to the first value and the second to the second."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-04T04:25:42.838169+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

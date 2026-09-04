@@ -1,12 +1,12 @@
 ---
 headword: respectively
 type: word
-status: draft
+status: checked
 prompt_version: entry_spec_v5
 model: gpt-5.6-luna-wm
 created_at: 2026-09-03
-updated_at: 2026-09-03
-checked: false
+updated_at: 2026-09-04
+checked: true
 tags: []
 ---
 
@@ -89,4 +89,5 @@ respective は形容詞で、それぞれの名詞を修飾する。The teams re
 違い: 順序対応を直接説明する説明的な言い換えだが、常に respectively と置換できるわけではない。文中で副詞として使える respectively より長いが、対応関係を初めて説明するときに分かりやすい。  
 例: The figures refer to the three regions in the same order.  
 訳: その数値は、三つの地域に先に示したのと同じ順番で対応している。  
+
 

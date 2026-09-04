@@ -1,0 +1,142 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-respectively-20260903T155511Z-c980e9ee",
+  "context_id": "blind-respectively-context-20260903T155511Z-c980e9ee",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "prompt_sha256": "d1cdacc3ac11c4e22f47063219613ee8c622ef2d2ef011f0cac0d2fb9238e2e5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06aaf-56e1-7a93-8da0-b88e15a9a08e"
+  },
+  "recorded_at": "2026-09-04T04:30:00Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "c1",
+      "surface_form": "respectively",
+      "frame": "A and B + predicate + X and Y, respectively",
+      "meaning": "順序に基づく1対1の対応",
+      "rationale": "surface_form=respectively、frame=対応する二つのリストを伴う文末配置、meaning=第1項目同士・第2項目同士を結び付ける副詞というアンカーで確認でき、本文の中心用法に含まれる。",
+      "disposition": "included",
+      "semantic_assertions": [
+        {
+          "id": "c1a",
+          "statement": "二つのリストは同数で、提示順に1対1対応しなければならない。",
+          "polarity": "must_hold",
+          "scope": "respectivelyの中心用法"
+        },
+        {
+          "id": "c1b",
+          "statement": "単に別々であることだけを表す用法ではない。",
+          "polarity": "must_not_hold",
+          "scope": "respectivelyの中心用法"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "surface_form": "respectively",
+      "frame": "A and B respectively + VP1 and VP2",
+      "meaning": "複数の主語を提示順の異なる行為に対応させる",
+      "rationale": "surface_form=respectively、frame=主語列の後で異なる動詞句を対応させる配置、meaning=主語1と動詞句1、主語2と動詞句2の対応というアンカーで独立した構文候補として含める。",
+      "disposition": "included",
+      "semantic_assertions": [
+        {
+          "id": "c2a",
+          "statement": "主語の提示順と動詞句の提示順が対応しなければならない。",
+          "polarity": "must_hold",
+          "scope": "主語・動詞句対応フレーム"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "surface_form": "respectively",
+      "frame": "X1 and X2 apply to Y1 and Y2, respectively",
+      "meaning": "値・条件・規則などを対象へ順序どおりに割り当てる",
+      "rationale": "surface_form=respectively、frame=値または条件の列と対象列をapply toで結ぶ構文、meaning=X1がY1、X2がY2に適用される方向性というアンカーで含める。",
+      "disposition": "included",
+      "semantic_assertions": [
+        {
+          "id": "c3a",
+          "statement": "第1の値・条件は第1の対象に、第2の値・条件は第2の対象に対応する。",
+          "polarity": "must_hold",
+          "scope": "apply to構文"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "surface_form": "respectively",
+      "frame": "明示された二つのリスト、または明確な前後文脈を受ける配置",
+      "meaning": "文脈上の二つのリストを提示順に対応づける",
+      "rationale": "surface_form=respectively、frame=対応リストが同一文または明確な前後文脈にある用法、meaning=省略された対応関係を順序で復元する機能というアンカーで含める。",
+      "disposition": "included",
+      "semantic_assertions": [
+        {
+          "id": "c4a",
+          "statement": "対応する二つのリストは文または文脈から明確に特定できなければならない。",
+          "polarity": "must_hold",
+          "scope": "文脈依存のrespectively"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "surface_form": "respective",
+      "frame": "their respective + 名詞",
+      "meaning": "各自の、それぞれに属する",
+      "rationale": "surface_form=respective、frame=所有限定詞の後で名詞を修飾する形、meaning=各主体に固有のものというアンカーはrespectivelyの副詞的な順序対応とは異なるため除外する。",
+      "disposition": "excluded",
+      "semantic_assertions": [
+        {
+          "id": "c5a",
+          "statement": "respectiveの形容詞フレームをrespectivelyの副詞フレームとして扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "品詞と語義の境界"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "surface_form": "respectfully",
+      "frame": "動詞 + respectfully",
+      "meaning": "礼儀正しく、敬意を示して",
+      "rationale": "surface_form=respectfully、frame=行為の態度を表す副詞配置、meaning=礼儀・敬意の様態というアンカーはrespectivelyの順序対応義ではないため除外する。",
+      "disposition": "excluded",
+      "semantic_assertions": [
+        {
+          "id": "c6a",
+          "statement": "respectfullyは項目間の順序対応を表してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "respectfullyとの境界"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "surface_form": "respectively",
+      "frame": "対応する対象リストなしでA and B, respectively",
+      "meaning": "単なる別々の処理",
+      "rationale": "surface_form=respectively、frame=対応先のリストを欠く単独配置、meaning=単に個別・別々にというアンカーは中心義の包含条件を満たさないため除外する。",
+      "disposition": "excluded",
+      "semantic_assertions": [
+        {
+          "id": "c7a",
+          "statement": "対応先のリストがない場合、respectivelyを単なるseparatelyの意味で一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "中心義の除外境界"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}
