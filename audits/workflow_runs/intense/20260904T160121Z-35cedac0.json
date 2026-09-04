@@ -18,11 +18,11 @@
     "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-04T16:01:21Z",
   "deadline_at": "2026-09-04T17:01:21Z",
   "pre_draft_deadline_at": "2026-09-04T16:21:21Z",
-  "last_heartbeat_at": "2026-09-04T16:03:32Z",
+  "last_heartbeat_at": "2026-09-04T16:10:56Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-04T16:02:23Z",
@@ -38,6 +38,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-04T16:02:23Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-04T16:10:56Z",
+      "notes": "draft entry, queue row, and generation record saved; format validation passed"
     }
   ],
   "stop_reason": "",
