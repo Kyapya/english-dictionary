@@ -65,6 +65,13 @@ def validate_manifest_subagents(
     if orchestrator.get("checker_execution_protocol") != PROTOCOL_VERSION:
         return errors
 
+    # The provenance contract is a merge-time check for completed handoff
+    # runs.  Abandoned or budget-exhausted runs are retained as history and
+    # are validated by the changed-run workflow guard when they are edited;
+    # they must not block an unrelated completed run in repository-wide CI.
+    if merge_ready and manifest.get("status") != "completed":
+        return errors
+
     label = str(manifest.get("run_id", "<unknown-run>"))
     expected = [
         str(item.get("id", "")).strip()
@@ -82,10 +89,6 @@ def validate_manifest_subagents(
         errors.append(
             f"{label}: checker_subagent_count must equal routed pass count {len(expected)}"
         )
-
-    if merge_ready and manifest.get("status") != "completed":
-        errors.append(f"{label}: merge-ready subagent validation requires completed run")
-        return errors
 
     target = _checker_output_path(manifest, repo_root=repo_root)
     if target is None:
