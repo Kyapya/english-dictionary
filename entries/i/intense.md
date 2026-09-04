@@ -365,4 +365,3 @@ intensive /ɪnˈtensɪv/ と発音の始まりは似ているが、intense は�
 違い: detached は感情や個人的な関与を抑えていることを表し、intense の強い感情的関与と対立する。  
 例: He remained detached while discussing the breakup.  
 訳: 彼は別れについて話している間も、感情的に距離を置いていた。  
-

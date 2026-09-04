@@ -14,15 +14,15 @@
     "max_candidate_pages": 18
   },
   "usage": {
-    "research_queries": 4,
-    "candidate_pages": 6
+    "research_queries": 8,
+    "candidate_pages": 12
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-04T16:01:21Z",
   "deadline_at": "2026-09-04T17:01:21Z",
   "pre_draft_deadline_at": "2026-09-04T16:21:21Z",
-  "last_heartbeat_at": "2026-09-04T16:02:23Z",
+  "last_heartbeat_at": "2026-09-04T16:52:52Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-04T16:02:23Z",
@@ -38,6 +38,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-04T16:02:23Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-04T16:12:33Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -431,7 +436,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -447,20 +452,20 @@
       {
         "id": "generation",
         "instruction_bytes": 53398,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 66000,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 10476,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -599,36 +604,45 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0003",
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "PI-0004",
         "status": "active",
         "instruction_bytes": 302,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/i/intense.md",
+        "audits/runs/i/intense/20260904T160121Z-35cedac0/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/i/intense/20260904T160121Z-35cedac0/validator.json"
+      ]
+    }
   }
 }
-
