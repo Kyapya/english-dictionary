@@ -1,0 +1,43 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米: /rɪˈspɛktɪvli/｜英: /rɪˈspektɪvlɪ/。4音節で、強勢は第2音節の /ˈspɛk/（英音の辞書表記では /ˈspek/）にある。おおよそ ri-SPEK-tiv-ly と区切って発音し、第1音節の /rɪ/、第3音節の /ɪ/、語末の /li/（英音では /lɪ/）は弱くなりやすい。辞書の転写方式により、英音の母音を /ɛ/ と表すこともある。  "
+      },
+      {
+        "line": 16,
+        "text": "綴りの -tively は /tɪvli/ で、respectfully /rɪˈspɛktfəli/ のように /f/ を入れない。respectively は副詞、respective は形容詞で、respectively に活用語尾はない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

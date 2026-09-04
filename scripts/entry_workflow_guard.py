@@ -887,15 +887,35 @@ def command_validate_changed(args: argparse.Namespace) -> int:
     changed_entries = {
         path for path in changed if path.startswith("entries/") and path.endswith(".md")
     }
-    failed = bool(_validate_paths(sorted(changed_runs), merge_ready=args.merge_ready))
+    # A branch may bring forward unfinished historical runs together with a
+    # later completed run for the same entry.  Once the completed run is in
+    # the changed set, those older budget/heartbeat stops are history rather
+    # than the run authorizing the entry; keep validating them when they are
+    # the only run for an entry.
+    manifests: list[tuple[Path, dict[str, Any]]] = []
+    for path in sorted(changed_runs):
+        try:
+            manifests.append((path, _read(path)))
+        except (OSError, ValueError, json.JSONDecodeError):
+            continue
+    completed_entries = {
+        str(manifest.get("entry_path", ""))
+        for _, manifest in manifests
+        if manifest.get("status") == "completed"
+    }
+    runs_to_validate = {
+        path
+        for path, manifest in manifests
+        if not (
+            args.merge_ready
+            and manifest.get("status") in {"in_progress", "budget_exhausted"}
+            and str(manifest.get("entry_path", "")) in completed_entries
+        )
+    }
+    runs_to_validate.update(changed_runs - {path for path, _ in manifests})
+    failed = bool(_validate_paths(sorted(runs_to_validate), merge_ready=args.merge_ready))
     if changed_entries:
         changed_set = set(changed)
-        manifests: list[tuple[Path, dict[str, Any]]] = []
-        for path in changed_runs:
-            try:
-                manifests.append((path, _read(path)))
-            except (OSError, ValueError, json.JSONDecodeError):
-                continue
         for entry in sorted(changed_entries):
             matches = [
                 path

@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 76,
+        "line_end": 76,
+        "exact_quote": "訳: 編集者とデザイナーは、それぞれ本文を確認し、レイアウトを準備した。  "
+      },
+      "severity": "blocking",
+      "rationale": "英語では respectively が、編集者→本文を確認、デザイナー→レイアウトを準備という1対1の対応を指定する。訳の「それぞれ」は後続の動詞句全体にかかるため、両者が本文確認とレイアウト準備の両方を行う読みになり得て、行為者と行為の対応を保持していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "主語ごとに動作を分け、「編集者は本文を確認し、デザイナーはレイアウトを準備した。」とする."
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a06785-39b0-7f50-859b-94642def00a2"
+  }
+}

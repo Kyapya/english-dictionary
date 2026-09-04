@@ -1,0 +1,39 @@
+{
+  "pass_id": "sense-structure",
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26,
+        "exact_quote": "・respective：形容詞「それぞれの、各自の」。their respective roles「それぞれの役割」のように名詞を修飾し、対応する複数の名詞句を必ずしも同時に並べるとは限らない。  "
+      },
+      "severity": "blocking",
+      "rationale": "語形成欄で、respectively とは品詞・構文が異なる主要な形容詞 respective を具体例付きで説明しているが、番号付き語義は副詞 respectively しか収録していない。respectively の順序付き一対一対応と respective の名詞修飾用法は統合できず、主要な派生形を語形成欄だけに置くのは語義欠落に当たる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "sense_structure に respective の形容詞義「それぞれの、各自の」を独立した番号付き候補として追加し、順序付きの並列対応を必須としないことを明記する."
+    }
+  ],
+  "candidates": [
+    {
+      "candidate_id": "respective-adjective",
+      "candidate_type": "missing_numbered_sense",
+      "lemma": "respective",
+      "part_of_speech": "形容詞",
+      "gloss": "それぞれの、各自の",
+      "rationale": "対応する各対象に属するものを個別に指し、名詞を修飾する。respectively のような順序付きの並列対応は必須ではない。",
+      "source_location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26
+      }
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a06785-4565-7ba1-85fb-88635147f097"
+  }
+}

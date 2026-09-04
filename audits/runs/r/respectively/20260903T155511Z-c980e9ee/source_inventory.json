@@ -1,0 +1,531 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "run_id": "source-respectively-20260904T042500Z",
+  "context_id": "source-respectively-context-20260904T042500Z",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "prompt_sha256": "87820da8e8fdbadf3c230ea4e1604810041f1ec3655894692fff6373776e107b",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-04T04:25:30Z",
+  "evidence_link_ids": [
+    "EVID-001",
+    "EVID-002",
+    "EVID-003",
+    "EVID-004",
+    "EVID-005"
+  ],
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile for a high-frequency adverb with one ordered-correspondence sense",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 5,
+      "facts_used": 13,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-04T04:25:00Z",
+    "article_comparison_started_at": "2026-09-04T04:25:15Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-006",
+          "F-008",
+          "F-011"
+        ],
+        "notes": "Independent general dictionaries agree on the ordered-correspondence sense; the secondary separately gloss and historical senses are explicitly dispositioned."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-005"
+        ],
+        "notes": "The adverb category and its list-pairing placement are covered by learner and general dictionaries."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-010",
+          "F-013"
+        ],
+        "notes": "The respective + -ly formation and the related adjective respective are recorded."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The bounded inventory found no distinct specialist or legal sense for this high-frequency adverb; specialist/legal source expansion is not warranted for the one-sense draft."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-008",
+          "F-009"
+        ],
+        "notes": "General dictionary coverage and Collins regional pronunciation information support the standard register and US/UK distinction."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-009",
+          "F-010",
+          "F-012",
+          "F-013"
+        ],
+        "notes": "Learner-dictionary pronunciation and historical etymology sources cover pronunciation, formation, and related form."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Cambridge Dictionary: respectively",
+        "locator": "https://dictionary.cambridge.org/us/dictionary/english/respectively",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_cambridge",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "respectively",
+            "kind": "lexical_sense",
+            "statement": "Respectively refers to two or more people or things in the same order as they were previously mentioned.",
+            "source_detail": "Cambridge's headword definition centers the same-order relation to previously mentioned items."
+          },
+          {
+            "id": "F-002",
+            "form": "respectively",
+            "kind": "grammar_pattern",
+            "statement": "The dictionary illustrates respectively after paired lists, such as Julie and Mark with the ages 17 and 19.",
+            "source_detail": "Cambridge supplies a paired-list age example showing first-to-first and second-to-second correspondence."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Oxford Learner's Dictionaries: respectively",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/respectively",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_oxford",
+        "facts": [
+          {
+            "id": "F-003",
+            "form": "respectively",
+            "kind": "part_of_speech",
+            "statement": "Respectively is an adverb meaning in the same order as people or things already mentioned.",
+            "source_detail": "Oxford labels the headword as an adverb and defines its ordered correspondence."
+          },
+          {
+            "id": "F-004",
+            "form": "respectively",
+            "kind": "pronunciation",
+            "statement": "Oxford gives the pronunciation /rɪˈspektɪvli/.",
+            "source_detail": "The learner dictionary provides the headword IPA in its pronunciation line."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Merriam-Webster: respectively",
+        "locator": "https://www.merriam-webster.com/dictionary/respectively",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_merriam_webster",
+        "facts": [
+          {
+            "id": "F-005",
+            "form": "respectively",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines the primary use as in the order given.",
+            "source_detail": "The primary adverb sense is stated as 'in the order given'."
+          },
+          {
+            "id": "F-006",
+            "form": "respectively",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster also records a secondary gloss, in particular: separately.",
+            "source_detail": "The dictionary includes separately as a secondary gloss, which is retained for an explicit usage distinction."
+          },
+          {
+            "id": "F-007",
+            "form": "respectively",
+            "kind": "historical_usage",
+            "statement": "Merriam-Webster dates the first known use of respectively to 1602.",
+            "source_detail": "The headword page supplies a first-known-use date; it is not needed in the learner-facing article."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Collins English Dictionary: respectively",
+        "locator": "https://www.collinsdictionary.com/us/dictionary/english/respectively",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "general_lexicon_collins",
+        "facts": [
+          {
+            "id": "F-008",
+            "form": "respectively",
+            "kind": "lexical_sense",
+            "statement": "Collins explains respectively as applying in the same order as the items just mentioned.",
+            "source_detail": "The COBUILD and general entries both describe the same-order pairing of two lists."
+          },
+          {
+            "id": "F-009",
+            "form": "respectively",
+            "kind": "pronunciation",
+            "statement": "Collins gives US /rɪˈspɛktɪvli/ and British /rɪˈspɛktɪvlɪ/ pronunciations.",
+            "source_detail": "The page distinguishes the US and British pronunciation forms."
+          },
+          {
+            "id": "F-010",
+            "form": "respectively",
+            "kind": "etymology",
+            "statement": "Collins gives the formation as respective plus the suffix -ly.",
+            "source_detail": "The origin line identifies respective + -ly."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Etymonline: respectively",
+        "locator": "https://www.etymonline.com/word/respectively",
+        "source_type": "etymology",
+        "source_role": "etymology_reference",
+        "independence_group": "etymology_etymonline",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "respectively",
+            "kind": "historical_usage",
+            "statement": "Historical records include a mid-fifteenth-century obsolete relatively sense, a 1580s archaic respectfully sense, and a 1620s sense meaning relatively to each of several singly.",
+            "source_detail": "The etymology entry separates earlier obsolete or archaic uses from the later each-of-several development."
+          },
+          {
+            "id": "F-012",
+            "form": "respectively",
+            "kind": "etymology",
+            "statement": "Respectively comes from respective plus -ly; respective is related to Medieval Latin respectivus and the Latin respicere stem respect-.",
+            "source_detail": "The etymology entry connects the suffixal formation to the Latin look-back/consideration root."
+          },
+          {
+            "id": "F-013",
+            "form": "respective",
+            "kind": "derived_form",
+            "statement": "Respective is the related adjective meaning considered individually or belonging to each person or thing.",
+            "source_detail": "The source explains the adjective base from which respectively is formed."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-005",
+          "F-008"
+        ],
+        "canonical_statement": "Respectively marks a one-to-one pairing in the order in which the two lists are given.",
+        "disposition": "integrated",
+        "rationale": "Three independent general dictionaries converge on the article's primary ordered-correspondence definition."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-006"
+        ],
+        "canonical_statement": "Some dictionaries include separately as a secondary gloss, but the article must distinguish separation from ordered pairing.",
+        "disposition": "integrated",
+        "rationale": "The article records the gloss while teaching the more reliable learner-facing distinction."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-002"
+        ],
+        "canonical_statement": "A paired-list example demonstrates first-to-first and second-to-second correspondence.",
+        "disposition": "integrated",
+        "rationale": "The article's paired-value examples instantiate the same frame without copying the dictionary example."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-003"
+        ],
+        "canonical_statement": "Respectively is an adverb used with matched lists.",
+        "disposition": "integrated",
+        "rationale": "This supports the part-of-speech label and the main grammar pattern."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-004"
+        ],
+        "canonical_statement": "The learner-dictionary pronunciation is /rɪˈspektɪvli/.",
+        "disposition": "integrated",
+        "rationale": "The pronunciation section records the corresponding IPA."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-007"
+        ],
+        "canonical_statement": "Merriam-Webster records 1602 as the first known use.",
+        "disposition": "excluded",
+        "rationale": "A precise first-use date is outside the scope of this learner-facing one-sense article and does not support a current usage claim."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "canonical_statement": "US and British pronunciation variants are distinguished.",
+        "disposition": "integrated",
+        "rationale": "Regional IPA is directly represented in the pronunciation section."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "Respectively is formed from respective plus -ly.",
+        "disposition": "integrated",
+        "rationale": "The word-formation and etymology sections state this formation."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-011"
+        ],
+        "canonical_statement": "Earlier obsolete and archaic uses precede the later each-of-several development.",
+        "disposition": "excluded",
+        "rationale": "The article prioritizes the current standard adverb and does not present obsolete historical senses as live meanings."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-012"
+        ],
+        "canonical_statement": "The formation is related to respective, Medieval Latin respectivus, and Latin respicere.",
+        "disposition": "integrated",
+        "rationale": "The current etymology paragraph presents the historical root relationship."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-013"
+        ],
+        "canonical_statement": "Respective is the related adjective base.",
+        "disposition": "integrated",
+        "rationale": "The word-formation section contrasts the adjective with the adverb."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "lexical_sense",
+        "statement": "Respectively pairs the first item in one list with the first item in another, the second with the second, and so on.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "definition:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Cambridge defines the same-order relation to previously mentioned people or things."
+          },
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Merriam-Webster's primary gloss is in the order given."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Collins describes the same order as items just mentioned."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "usage_note",
+        "statement": "Respectively is not a general substitute for separately; its core use preserves ordered correspondence.",
+        "article_target_ids": [
+          "usage_note:003",
+          "synonym:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster records separately as a secondary gloss, which the usage note qualifies."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "grammar_pattern",
+        "statement": "The word can follow two paired lists of subjects and values or outcomes.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Cambridge's age example pairs each subject with the value in the same position."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "part_of_speech",
+        "statement": "Respectively is an adverb used to mark the paired-list relation.",
+        "article_target_ids": [
+          "sense_boundary:001",
+          "grammar_pattern:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford labels respectively an adverb and defines its same-order function."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "pronunciation",
+        "statement": "The headword has the learner-dictionary pronunciation /rɪˈspektɪvli/.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford supplies the headword IPA in its pronunciation entry."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "pronunciation",
+        "statement": "US and British pronunciations differ in the final weak vowel notation.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "register:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Collins lists separate US and British IPA forms for the headword."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "word_formation",
+        "statement": "Respectively is the adverbial form made from respective plus -ly.",
+        "article_target_ids": [
+          "etymology:001",
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Collins explicitly gives respective plus -ly as the origin."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "respectively",
+        "claim_type": "etymology",
+        "statement": "The form is historically related to respective and the Latin respect-/respicere family.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Etymonline connects the suffixal form to respective and Latin respicere."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "respective",
+        "claim_type": "derived_form",
+        "statement": "Respective is the related adjective base and should be distinguished from the adverb respectively.",
+        "article_target_ids": [
+          "word_formation:002",
+          "usage_note:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "The etymology source identifies respective as the related adjective base."
+          }
+        ]
+      }
+    ]
+  }
+}

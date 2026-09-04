@@ -1,0 +1,105 @@
+{
+  "reviewer": {
+    "agent_id": "01a067df-0425-75b1-a8a8-42a4e08330a0",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "ind-01",
+      "surface_form": "respectively",
+      "frame": "〈対象1〉 and 〈対象2〉 + be・動詞 + 〈対応項目1〉 and 〈対応項目2〉, respectively",
+      "meaning": "提示順に、同数の二つ以上のリストを一対一対応させる副詞",
+      "disposition": "included",
+      "rationale": "「respectively」の中核用法として、年齢、売上、順位などの例に適合する。",
+      "semantic_assertions": [
+        {"id": "sa-01-01", "statement": "対応する二つ以上のリストは同数で、同順位の要素同士が一対一に対応しなければならない。", "polarity": "must_hold", "scope": "二つの名詞句・値・補語リストを対応させる用法"},
+        {"id": "sa-01-02", "statement": "対応は提示された順序に基づかなければならない。", "polarity": "must_hold", "scope": "respectively の順序対応"}
+      ]
+    },
+    {
+      "id": "ind-02",
+      "surface_form": "respectively",
+      "frame": "〈値1〉 and 〈値2〉 apply/correspond to 〈対象1〉 and 〈対象2〉, respectively",
+      "meaning": "値・記号・分類などのリストを、別の対象リストへ提示順に対応させる副詞",
+      "disposition": "included",
+      "rationale": "「respectively」は apply to、correspond to の例に示される対象側・対応項目側の構文に適合する。",
+      "semantic_assertions": [
+        {"id": "sa-02-01", "statement": "第一リストの各要素が第二リストの同順位の要素に対応しなければならない。", "polarity": "must_hold", "scope": "apply to/correspond to 構文"},
+        {"id": "sa-02-02", "statement": "単なる分離・個別処理ではなく、二つのリスト間の対応を表さなければならない。", "polarity": "must_hold", "scope": "apply to/correspond to 構文"}
+      ]
+    },
+    {
+      "id": "ind-03",
+      "surface_form": "respectively",
+      "frame": "〈主語1〉 and 〈主語2〉 + 〈動詞句1〉 and 〈動詞句2〉, respectively、または respectively を主語リストの後に置く構文",
+      "meaning": "複数の主語を、提示順に異なる動作・役割へ対応させる副詞",
+      "disposition": "included",
+      "rationale": "「respectively」は editor/designer の例のように、主語リストを提示順に異なる動詞句へ対応させる場合に使える。",
+      "semantic_assertions": [
+        {"id": "sa-03-01", "statement": "主語リストと動詞句リストは同数で、同順位同士が対応しなければならない。", "polarity": "must_hold", "scope": "主語と協調動詞句を対応させる構文"},
+        {"id": "sa-03-02", "statement": "respectively は時間的な交代や単なる個別実行を表すだけであってはならない。", "polarity": "must_not_hold", "scope": "主語と動詞句の対応"}
+      ]
+    },
+    {
+      "id": "ind-04",
+      "surface_form": "respectively",
+      "frame": "〈対象1〉 and 〈対象2〉, respectively, + 単一の共有述語で対応項目がない構文",
+      "meaning": "単に別々に・個別にという副詞用法",
+      "disposition": "excluded",
+      "rationale": "「respectively」は同数の対応先リストがない場合には使えず、通常は separately や individually が適切である。",
+      "semantic_assertions": [
+        {"id": "sa-04-01", "statement": "対応先リストなしに、respectively だけで単なる別々・個別の意味を担わせてはならない。", "polarity": "must_not_hold", "scope": "共有述語のみの構文"}
+      ]
+    },
+    {
+      "id": "ind-05",
+      "surface_form": "respective",
+      "frame": "respective + 複数名詞（their respective roles など）",
+      "meaning": "それぞれの、各自のという形容詞",
+      "disposition": "excluded",
+      "rationale": "「respective」は見出し語 respectively の副詞ではなく、その基底形の別品詞である。",
+      "semantic_assertions": [
+        {"id": "sa-05-01", "statement": "respective は名詞を修飾する形容詞であり、respectively の副詞用法として扱ってはならない。", "polarity": "must_not_hold", "scope": "respective の形容詞用法"}
+      ]
+    },
+    {
+      "id": "ind-06",
+      "surface_form": "respectfully",
+      "frame": "respectful + -ly、礼儀や敬意を示す副詞",
+      "meaning": "謹んで、敬意をもって",
+      "disposition": "excluded",
+      "rationale": "「respectfully」は respectively とは異なる語で、順序対応を表さない。",
+      "semantic_assertions": [
+        {"id": "sa-06-01", "statement": "respectfully はリスト間の順序対応を表してはならない。", "polarity": "must_not_hold", "scope": "respectfully の語義"}
+      ]
+    },
+    {
+      "id": "ind-07",
+      "surface_form": "respectively",
+      "frame": "二つの対応リストなしに in turn のような時間的順序・交代を表す用法",
+      "meaning": "順番に、交代で、次々に",
+      "disposition": "excluded",
+      "rationale": "「respectively」の中心は時間的な順番ではなく、二つ以上のリストの同順位対応である。",
+      "semantic_assertions": [
+        {"id": "sa-07-01", "statement": "対応する第二リストがない時間的な順番・交代だけを表してはならない。", "polarity": "must_not_hold", "scope": "in turn 型の意味"}
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "finding-01",
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "＃意味・用法・関連表現 > 1. 【副詞】それぞれ、順に、各々 > 【文法パターン】",
+        "line_start": 28,
+        "line_end": 28,
+        "exact_quote": "〈対象1〉 and 〈対象2〉, respectively, + 〈述語〉＝〈対象1〉と〈対象2〉についてそれぞれ（挿入位置。対応先が明確な場合に限る）"
+      },
+      "severity": "blocking",
+      "rationale": "本文には「〈対象1〉 and 〈対象2〉, respectively, + 〈述語〉＝〈対象1〉と〈対象2〉についてそれぞれ（挿入位置。対応先が明確な場合に限る）」とあり、単一の共有述語でも使える一般形に読める。しかし respectively には同数の対応先リストが必要である。述語側が P1 and P2 のように明示的な対応項目を含まない限り不自然または誤用となり、本文の定義および後段の「対応する対象のリストなしでは separately などを使う」という注意とも矛盾する。"
+    }
+  ]
+}

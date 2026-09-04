@@ -1,0 +1,24 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a067bc-1ef0-7a43-93da-09ee30d300ad"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 37,
+        "line_end": 37,
+        "exact_quote": "【レジスター/領域】標準語。英語全体でも頻度が高く、説明文、学術・科学論文、統計、報告書、ニュース、ビジネス文書で特に多い。会話でも使えるが、対応関係が長くなると文が読みにくくなるため、表や2文に分けることも多い。  "
+      },
+      "severity": "minor",
+      "rationale": "「英語全体でも頻度が高く」「会話でも使える」という記述では、学術・報告書などの書き言葉での頻出と日常会話での遭遇頻度が区別されず、〈9/10〉も過大評価に読める。respectively は主にフォーマルな書き言葉で使われ、会話では相対的に少ないというレジスター上の限定が必要である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英語全体の頻度と媒体別の頻度を分け、英米共通であることを示す場合も地域差と混同しないようにしたうえで、「書き言葉・フォーマル寄りで頻出、日常会話では比較的まれ」程度に限定し、9/10の評価を再検討する。"
+    }
+  ]
+}

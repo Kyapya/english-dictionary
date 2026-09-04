@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a067bc-28fa-7643-8bfc-3114d51ac0ba"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /rɪˈspɛktɪvli/｜英: /rɪˈspɛktɪvli/"
+      },
+      "severity": "blocking",
+      "rationale": "米英を区別する代表的な転写では、米音のDRESS母音は /ɛ/、英音は /e/ として /rɪˈspɛktɪvli/ と示されることが多い。両方を同じ /ɛ/ としているため、米英差を表記上も説明上も取りこぼしている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "米音を /rɪˈspɛktɪvli/、英音を /rɪˈspektɪvli/ と分けるか、同一表記を採用する転写方式であることを明記する。"
+    }
+  ]
+}

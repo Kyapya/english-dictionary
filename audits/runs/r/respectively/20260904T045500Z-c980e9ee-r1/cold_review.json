@@ -1,0 +1,22 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-respectively-20260903T155511Z-c980e9ee",
+  "context_id": "cold-respectively-context-20260903T155511Z-c980e9ee",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "prompt_sha256": "6781a5e18b55f26fd03159f2d19f764c902fc9303819687f0d1aae04180f66b6",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06aaa-ceff-7b21-aa27-a8cdd039b08d"
+  },
+  "summary": "問題候補なし。修正版本文を文脈なしで確認したが、具体的に指摘すべき内容上の問題は見当たらない。",
+  "findings": [],
+  "recorded_at": "2026-09-04T04:26:00Z"
+}
