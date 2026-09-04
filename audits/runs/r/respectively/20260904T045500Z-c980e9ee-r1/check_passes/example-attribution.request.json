@@ -1,0 +1,85 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "58022cced2f43061792f990efbc72f49cd43ba2f108c4a0bb038fa325c7f4890",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 31,
+        "label": "1. 【副詞】それぞれ、順に、各々",
+        "definition": "2つ以上の人・物・項目のリストと、それらに対応する同数の結果、性質、数値、行為などを、同じ文または前後の明確な文脈で示し、1番目同士、2番目同士というように提示された順番で1対1に対応させることを表す。日本語の「それぞれ」に相当するが、単に別々であるだけでなく、対応する項目の順序を指定する点が重要である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-b38df5d3edae",
+        "example": "Mia and Leo were 18 and 21 years old, respectively.",
+        "translation": "ミアとレオは、それぞれ18歳と21歳だった。"
+      },
+      {
+        "example_id": "ex-f2c8777f1f47",
+        "example": "The two stores had sales of $2 million and $1.4 million, respectively.",
+        "translation": "その2店舗の売上は、それぞれ200万ドルと140万ドルだった。"
+      },
+      {
+        "example_id": "ex-5a75bcc1641f",
+        "example": "Brazil and Canada finished first and second, respectively, in the final ranking.",
+        "translation": "最終順位では、ブラジルとカナダがそれぞれ1位と2位になった。"
+      },
+      {
+        "example_id": "ex-013f19e969b5",
+        "example": "In the diagram, the solid and dashed lines correspond to observed and predicted values, respectively.",
+        "translation": "図では、実線と破線がそれぞれ観測値と予測値に対応している。"
+      },
+      {
+        "example_id": "ex-db03f199b107",
+        "example": "The editor and the designer checked the text and prepared the layout, respectively.",
+        "translation": "編集者は本文を確認し、デザイナーはレイアウトを準備した。"
+      },
+      {
+        "example_id": "ex-f5d0a8e1ac87",
+        "example": "In this equation, x and y respectively represent distance and time.",
+        "translation": "この式では、xとyがそれぞれ距離と時間を表す。"
+      },
+      {
+        "example_id": "ex-030557661126",
+        "example": "The lower and higher rates apply to part-time and full-time employees, respectively.",
+        "translation": "低い料率と高い料率は、それぞれパートタイム従業員とフルタイム従業員に適用される。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
