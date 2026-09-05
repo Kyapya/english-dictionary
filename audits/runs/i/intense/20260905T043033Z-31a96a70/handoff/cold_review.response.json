@@ -1,0 +1,224 @@
+{
+  "reviewer_provenance": {
+    "reviewer_role": "independent_context_free_cold_reviewer",
+    "stage": "cold_review",
+    "review_basis": "entry_body_only",
+    "session_mode": "separate_model_session",
+    "run_id": "cold-intense-20260905T043033Z-31a96a70",
+    "context_id": "cold-intense-context-20260905T043033Z-31a96a70",
+    "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+  },
+  "summary": "問題候補9件。特に intensive との対比、語義1・2の境界、人物・関係に対する語義3の説明には、学習者の誤った一般化につながる余地がある。その他は語源年代、コロケーションの射程、訳語・類義語の精度に関する軽微な問題である。",
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "＃語源・英語への流入時期",
+      "severity": "low",
+      "description": "英語への流入時期を「15世紀初頭」と断定している点は、初出時期と後の比喩的用法の成立を混同している可能性がある。",
+      "reason": "intense は一般的な語源記述では14世紀後半から英語に見られ、15世紀には比喩的な用法が発達したと説明されることが多い。現在の文面のままだと、英語に入った時期を遅く伝える。 対象本文: 15世紀初頭に、フランス語を経てラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。",
+      "suggested_direction": "英語での初出を14世紀後半とし、15世紀の比喩義を述べたい場合は初出とは分けて記載する。フランス語経由とラテン語起源の関係も資料に即して整理する。",
+      "scope_anchors": [
+        {
+          "id": "CR-001-A1",
+          "exact_quote": "15世紀初頭に、フランス語を経てラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。",
+          "location_hint": "＃語源の最初の文"
+        }
+      ]
+    },
+    {
+      "id": "CR-002",
+      "location": "＃語形成・intensive／語義2・語法・注意",
+      "severity": "medium",
+      "description": "intensive を「限られた期間・範囲」への活動・資源の集中投入で特徴づけており、期間や範囲の限定が語の中核条件であるように読める。",
+      "reason": "intensive は活動・努力・資源投入の度合いが高い、集中的・徹底的であるという意味で、短期性や有限範囲は用法によって現れる特徴にすぎない。intensive research や intensive care などでは、この文面の期間・範囲の条件は一律には成立しない。 対象本文: intensive（形容詞）— 集中的な、徹底的な。限られた期間・範囲に活動や資源を集中投入することを表す。intense と活動用法で重なる場合があるが、intense は強度・力・緊張・感情の高さに、intensive は集中投入の範囲・期間に焦点を置きやすい。／intense は強度・力・緊張・感情が高いことを表し、intensive は限られた期間・範囲に活動や資源を集中投入することを表す傾向がある。活動用法では重なる場合があり、感情性・客観性だけを決め手にしない。",
+      "suggested_direction": "短期・限定範囲は典型例の一部として示し、intensive の中心を「集中・高密度・徹底性」に置く。intense との違いは、感じられる強烈さ・活動の高い強度と、集中や高密度・徹底性の対比として説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-002-A1",
+          "exact_quote": "intensive（形容詞）— 集中的な、徹底的な。限られた期間・範囲に活動や資源を集中投入することを表す。intense と活動用法で重なる場合があるが、intense は強度・力・緊張・感情の高さに、intensive は集中投入の範囲・期間に焦点を置きやすい。",
+          "location_hint": "＃語形成の intensive の項目"
+        },
+        {
+          "id": "CR-002-A2",
+          "exact_quote": "intense は強度・力・緊張・感情が高いことを表し、intensive は限られた期間・範囲に活動や資源を集中投入することを表す傾向がある。活動用法では重なる場合があり、感情性・客観性だけを決め手にしない。",
+          "location_hint": "語義2の【語法・注意】"
+        }
+      ]
+    },
+    {
+      "id": "CR-003",
+      "location": "コアイメージと語義1・語義2の区分",
+      "severity": "medium",
+      "description": "語義1と語義2の分割が、実際の対象の重なりを十分に示しておらず、互いに別の意味であるように見える。",
+      "reason": "intense は感覚・感情・心理状態・圧力・活動のいずれにも、基本的に「強度が高い」という同じ尺度的な意味で使われる。本文でも energy・determination・concentration を語義1に置く一方、activity・競争・訓練を語義2に置いており、どこからが別義なのかを判定する基準がないため、学習者が対象名詞ごとの固定的な訳語規則を作りやすい。 対象本文: ・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（語義1）／・活動や行動の強度・エネルギー・努力・緊張や負荷が非常に高い → 「激しい、活動量の多い」（語義2）／intense energy・determination・concentration＝エネルギー・決意・集中の強度が非常に高い／活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。",
+      "suggested_direction": "語義1・2は相互排他的な別義ではなく、同じ強度のコアイメージからの使用域のまとまりだと明示する。「経験される感覚・状態」と「活動のペース・努力・負荷」のように、何の強さを見ているかで整理し、concentration や pressure のような共有領域を注記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-003-A1",
+          "exact_quote": "・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（語義1）",
+          "location_hint": "＃コアイメージの語義1への矢印"
+        },
+        {
+          "id": "CR-003-A2",
+          "exact_quote": "・活動や行動の強度・エネルギー・努力・緊張や負荷が非常に高い → 「激しい、活動量の多い」（語義2）",
+          "location_hint": "＃コアイメージの語義2への矢印"
+        },
+        {
+          "id": "CR-003-A3",
+          "exact_quote": "intense energy・determination・concentration＝エネルギー・決意・集中の強度が非常に高い",
+          "location_hint": "語義1の【文法パターン】"
+        },
+        {
+          "id": "CR-003-A4",
+          "exact_quote": "活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。",
+          "location_hint": "語義2の【日本語訳・定義】"
+        }
+      ]
+    },
+    {
+      "id": "CR-004",
+      "location": "語義2・intense activity",
+      "severity": "low",
+      "description": "intense activity の説明が努力・緊張・負荷の高い活動に寄りすぎている。空港の例は、個々の活動が身体的に激しいというより、業務の量・ペース・忙しさが非常に高い用法である。",
+      "reason": "この定義と例文訳のずれにより、学習者が intense activity を必ず高負荷な活動と一般化し、「活動が盛ん・忙しい」という a period of intense activity の用法を取りこぼす。 対象本文: 活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。／用途: 活動の強度・エネルギー・負荷が非常に高いことを表す。／例: The airport experienced a period of intense activity before the holiday.／訳: その空港では休暇前に活動が非常に活発な時期があった。",
+      "suggested_direction": "活動量・忙しさ・活動の盛んな状態も説明に含め、空港の例は「業務が非常に忙しい時期」など、量やペースを含む訳にする。",
+      "scope_anchors": [
+        {
+          "id": "CR-004-A1",
+          "exact_quote": "活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。",
+          "location_hint": "語義2の【日本語訳・定義】"
+        },
+        {
+          "id": "CR-004-A2",
+          "exact_quote": "用途: 活動の強度・エネルギー・負荷が非常に高いことを表す。",
+          "location_hint": "語義2の intense activity の用途"
+        },
+        {
+          "id": "CR-004-A3",
+          "exact_quote": "例: The airport experienced a period of intense activity before the holiday.",
+          "location_hint": "語義2の intense activity の例文"
+        },
+        {
+          "id": "CR-004-A4",
+          "exact_quote": "訳: その空港では休暇前に活動が非常に活発な時期があった。",
+          "location_hint": "語義2の intense activity の訳"
+        }
+      ]
+    },
+    {
+      "id": "CR-005",
+      "location": "語義1・intense blue",
+      "severity": "low",
+      "description": "色について「濃さ」と説明すると、intense blue が必ず暗い色・濃い色を指すように読める。",
+      "reason": "色の intense は通常、鮮やかさ・彩度・鮮明さや視覚的な強い印象を表し、暗さや明度の低さを含意しない。訳の「鮮やかな青」は適切な方向だが、用途説明の「濃さ」と揃っていない。 対象本文: 用途: 色の強さや濃さが際立ち、強い印象を与えることを表す。／訳: 湖の鮮やかな青が白い雪を背景に際立っていた。",
+      "suggested_direction": "「鮮やかさ・彩度・鮮明さが際立つ」などに置き換え、暗い青に限らないことを明記する。",
+      "scope_anchors": [
+        {
+          "id": "CR-005-A1",
+          "exact_quote": "用途: 色の強さや濃さが際立ち、強い印象を与えることを表す。",
+          "location_hint": "語義1の intense blue の用途"
+        },
+        {
+          "id": "CR-005-A2",
+          "exact_quote": "訳: 湖の鮮やかな青が白い雪を背景に際立っていた。",
+          "location_hint": "語義1の intense blue の訳"
+        }
+      ]
+    },
+    {
+      "id": "CR-006",
+      "location": "語義1・文法パターン・scrutiny の訳",
+      "severity": "low",
+      "description": "scrutiny を「監視」と固定しているため、厳しい精査・吟味という広い意味が狭められている。",
+      "reason": "under intense scrutiny は、人物・発言・計画などが報道、世論、法的手続き、専門家などから厳しく調べられる状況にも使う。監視だけとすると、物理的な見張りに限定する誤解が生じる。 対象本文: under intense pressure/scrutiny＝強い圧力・厳しい監視の下で",
+      "suggested_direction": "「厳しい精査の下で」「厳しい目にさらされて」などを基本訳にし、文脈によって監視・吟味になると補足する。",
+      "scope_anchors": [
+        {
+          "id": "CR-006-A1",
+          "exact_quote": "under intense pressure/scrutiny＝強い圧力・厳しい監視の下で",
+          "location_hint": "語義1の【文法パターン】末尾"
+        }
+      ]
+    },
+    {
+      "id": "CR-007",
+      "location": "語義3・an intense person",
+      "severity": "medium",
+      "description": "人に対する intense を「存在感や圧のある人」と寄せすぎており、コアイメージの「感情が表れる」と後段の「必ず外に表出するとは限らない」も緊張している。",
+      "reason": "an intense person は、強い感情だけでなく、非常に真剣・熱心・集中している、感情的に圧倒される、あるいは一緒にいると負担に感じる、といった文脈依存の評価を表しうる。存在感や圧は一部の読みであり、外見上の表出も必須ではないため、現在の説明だけでは意味の幅を誤って固定しやすい。 対象本文: 対象により、経験される強さ、活動の負荷、または人・視線・関係に表れる強い感情として現れる。／【日本語訳・定義】人・視線・表情・関係などについて、強い感情や意見が表れる、強く感じられる、または強い感情的な結びつきがあること。人・表情の表出、人物への評価、関係の情緒的な強さを区別する。／an intense person＝感情や態度が強く、存在感や圧のある人（評価は文脈依存）／用途: 感情や態度が強く、存在感や圧のある人を表す。肯定・否定の評価は文脈で変わる。／【語法・注意】人への用法は強い感情や態度を持つという評価で、必ず外に表出するとは限らない。",
+      "suggested_direction": "「感情・性格・取り組み方が強烈で、真剣・熱心、または圧倒的に感じられる人への評価」と広げ、肯定・否定・負担感のいずれにもなりうることを例とともに示す。人の用法を感情の外的表出とは分けてコアイメージにも反映する。",
+      "scope_anchors": [
+        {
+          "id": "CR-007-A1",
+          "exact_quote": "対象により、経験される強さ、活動の負荷、または人・視線・関係に表れる強い感情として現れる。",
+          "location_hint": "＃コアイメージの説明文"
+        },
+        {
+          "id": "CR-007-A2",
+          "exact_quote": "【日本語訳・定義】人・視線・表情・関係などについて、強い感情や意見が表れる、強く感じられる、または強い感情的な結びつきがあること。人・表情の表出、人物への評価、関係の情緒的な強さを区別する。",
+          "location_hint": "語義3の【日本語訳・定義】"
+        },
+        {
+          "id": "CR-007-A3",
+          "exact_quote": "an intense person＝感情や態度が強く、存在感や圧のある人（評価は文脈依存）",
+          "location_hint": "語義3の【文法パターン】"
+        },
+        {
+          "id": "CR-007-A4",
+          "exact_quote": "用途: 感情や態度が強く、存在感や圧のある人を表す。肯定・否定の評価は文脈で変わる。",
+          "location_hint": "語義3の an intense person の用途"
+        },
+        {
+          "id": "CR-007-A5",
+          "exact_quote": "【語法・注意】人への用法は強い感情や態度を持つという評価で、必ず外に表出するとは限らない。",
+          "location_hint": "語義3の【語法・注意】冒頭"
+        }
+      ]
+    },
+    {
+      "id": "CR-008",
+      "location": "語義3・an intense relationship",
+      "severity": "medium",
+      "description": "intense relationship を主に「強い情緒的な結びつき」と説明しており、親密で肯定的な関係に寄りすぎている。",
+      "reason": "intense relationship は感情的に強烈・濃密であることを表すが、親密さや強い絆だけでなく、執着、緊張、衝突、不安定さなどを含む関係にも使える。intimate relationship や close relationship と同義だと誤解される余地がある。 対象本文: an intense relationship＝情緒的な結びつきや相互作用が強い関係／用途: 感情的な結びつきや相互作用が非常に強い関係を表す。／訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。／relationship では情緒的な結びつきや相互作用の強さを表す。",
+      "suggested_direction": "「感情的に強烈で、親密にも緊張をはらむこともある関係」とし、強い絆を必ずしも含意しないこと、肯定・否定の評価が文脈依存であることを補足する。",
+      "scope_anchors": [
+        {
+          "id": "CR-008-A1",
+          "exact_quote": "an intense relationship＝情緒的な結びつきや相互作用が強い関係",
+          "location_hint": "語義3の【文法パターン】"
+        },
+        {
+          "id": "CR-008-A2",
+          "exact_quote": "用途: 感情的な結びつきや相互作用が非常に強い関係を表す。",
+          "location_hint": "語義3の an intense relationship の用途"
+        },
+        {
+          "id": "CR-008-A3",
+          "exact_quote": "訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。",
+          "location_hint": "語義3の an intense relationship の訳"
+        },
+        {
+          "id": "CR-008-A4",
+          "exact_quote": "relationship では情緒的な結びつきや相互作用の強さを表す。",
+          "location_hint": "語義3の【語法・注意】末尾"
+        }
+      ]
+    },
+    {
+      "id": "CR-009",
+      "location": "語義1・類義語・extreme",
+      "severity": "low",
+      "description": "extreme と intense の違いを一方向に整理しており、extreme も感覚・感情・熱などの名詞を自然に修飾するという重なりが見えない。",
+      "reason": "extreme pain、extreme anger、extreme heat などは通常の用法であり、extreme が感情や体感に使えないわけではない。現在の対比だと、学習者が「感情には intense、限界には extreme」と固定的に一般化しやすい。 対象本文: 違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。",
+      "suggested_direction": "両語が痛み・感情・熱などで重なることを先に示し、extreme は尺度の端・通常範囲からの逸脱、intense は経験される強烈さや作用の強さに焦点を置く傾向として説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-009-A1",
+          "exact_quote": "違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。",
+          "location_hint": "語義1の extreme の【類義語】の違い"
+        }
+      ]
+    }
+  ]
+}

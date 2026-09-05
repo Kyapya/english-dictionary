@@ -1,0 +1,486 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-intense-20260905T043033Z-31a96a70",
+  "context_id": "normal-intense-context-20260905T043033Z-31a96a70",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-05T05:08:14.229080+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-translation-handoff-20260905T043033Z-31a96a70"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 122,
+            "line_end": 122,
+            "exact_quote": "用途: 競争が非常に激しく、参加者に大きな努力や緊張を求めることを表す。"
+          },
+          "severity": "blocking",
+          "rationale": "「intense competition」は競争の強度・激しさを表すが、参加者に大きな努力や緊張を求めることまで必ず含意しない。「参加者に…求める」とすると、原文の強度の説明に、参加者への要求という追加の関係を加えている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "競争の強度・激しさが非常に高いことを表す、とするなど、参加者への努力・緊張の要求を断定しない方向に直す。"
+        }
+      ]
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "sense-structure-20260905T043033Z-31a96a70"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 111,
+            "line_end": 111,
+            "exact_quote": "【日本語訳・定義】活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。  "
+          },
+          "severity": "blocking",
+          "rationale": "語義1も語義2も、対象の程度・強度が非常に高いという同じスカラー意味を述べている。語義2で短期間を必須条件から外しているため、現在の境界は活動・競争・議論・訓練という対象領域と、それに伴う努力・負荷を挙げただけになり、語義1の文法パターンにある intense energy・determination・concentration や pressure とも重なる。活動用法を独立語義として残すなら、対象分野以外の必須となる意味的差異が必要である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義1と2を統合し、活動・競争・訓練のコロケーションと intensive との対比を一般義の語法注記へ移す。分ける場合は、活動義に対象領域だけではない独立した中心意味・結果状態・負荷の条件を明示する。"
+        },
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "core_image",
+            "line_start": 36,
+            "line_end": 36,
+            "exact_quote": "・人・視線・表情・関係に強い感情や態度が表れる／強い結びつきがある → 「感情や態度の強い、張り詰めた」（語義3）  "
+          },
+          "severity": "minor",
+          "rationale": "コアイメージは人にも強い感情や態度が外に表れると記述しているが、語義3の語法注記は、人への用法が強い感情や態度を持つという人物評価であり、必ず外に表出するとは限らないと明示する。視線・表情の表出、人物への評価、関係の情緒的な強さを同じ表出条件で表すため、セクション間で人用法の意味範囲が一致していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "人については「強い感情や態度が感じられる／そうした人物と評価される」とし、外的な表出は視線・表情に限定するようコアイメージの枝を修正する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "agent-frame-relation-stage1-31a96a70"
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+        "blind_request_sha256": "12baa8d9929aa1dceed6f2ef9d86d8309df6ebe453a5077882e7e52252112d25",
+        "recorded_at": "2026-09-05T04:39:05Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "agent-frame-relation-stage1-31a96a70"
+        },
+        "axes": []
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06fe0-31a9-7a70-b6a0-4f8d2c91e3ab"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "stage": 1,
+        "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+        "blind_request_sha256": "fec74fdec576fbf8f3dee99795b187454db8c77f995275cee84ab2a18ac8d0e3",
+        "recorded_at": "2026-09-05T04:40:07Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a06fe0-31a9-7a70-b6a0-4f8d2c91e3ab"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-618b1e2d1835",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "intense activity"
+            ],
+            "rationale": "「intense activity」は activity という活動・出来事そのものの強度を述べる。sense:001なら痛み・熱・関心など対象の程度、sense:003なら人や関係の感情的な強さを述べるが、この文では intense が修飾するのは活動そのものなので sense:002 が最も自然である。"
+          },
+          {
+            "example_id": "ex-f10457dba432",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "under intense pressure"
+            ],
+            "rationale": "「under intense pressure」では pressure という重圧・心理的負担の強度が述べられている。sense:002は活動自体の強度、sense:003は人や表情の強い態度を表すが、managerや改善行動は背景であり、intense が直接修飾する pressure には sense:001 が適合する。"
+          },
+          {
+            "example_id": "ex-f137e090eaf0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "gave him an intense look"
+            ],
+            "rationale": "「gave him an intense look」は相手に向けられた look が告発への強い反応や緊張を伝える構文である。sense:001の一般的な程度の高さとして視覚的性質を述べる読みも考えられるが、この文で修飾されるのは色や感覚ではなく対人的な視線なので sense:003 が最も自然である。"
+          },
+          {
+            "example_id": "ex-aecfe7e4a6f2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "intense interest"
+            ],
+            "rationale": "「intense interest」は interest という関心・心理状態の強度を表す。sense:003なら研究者などの人や表情・関係を修飾するが、この文では researchers は関心の担い手にすぎず、intense の修飾対象は interest そのものなので sense:001 が適合する。"
+          },
+          {
+            "example_id": "ex-e0190302d4ac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "intense competition"
+            ],
+            "rationale": "「intense competition」は places をめぐって参加者が競い合う活動・過程の激しさを表す。sense:001の感情や感覚の強度として読む余地はあるが、この文で intense が修飾するのは感情ではなく competition という活動であり、sense:003の人物・関係用法でもないため sense:002 が最も自然である。"
+          },
+          {
+            "example_id": "ex-291ac3c2eaad",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "intense pain"
+            ],
+            "rationale": "「intense pain」は lower back に感じる pain という身体感覚の強度を表す。sense:002は活動・行動の負荷、sense:003は人や表情・関係の感情的な強さを表すが、ここで修飾されるのは人の態度ではなく痛みそのものなので sense:001 が適合する。"
+          },
+          {
+            "example_id": "ex-46cb08cdd57e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "intense anger"
+            ],
+            "rationale": "「intense anger」は decision が引き起こした anger という感情の強度を表す。sense:003なら residents の人やその表情が強い感情を示すことになるが、among local residents は感情の担い手を示すだけで、intense の修飾対象は anger なので sense:001 が最も自然である。"
+          },
+          {
+            "example_id": "ex-19eac558e240",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "intense blue"
+            ],
+            "rationale": "「intense blue」は lake の blue という色の視覚的な強さ・濃さを表し、white snow との対比で際立つ。sense:002の活動強度や sense:003の人・視線・関係の感情的強さでは、この色名を直接修飾する使われ方を説明できないため sense:001 が一意である。"
+          },
+          {
+            "example_id": "ex-b5f7e74a14c5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "intense person",
+              "very seriously"
+            ],
+            "rationale": "「intense person」と「very seriously」は、主語である人の性格・態度の真剣さと感情的な強さを直接述べる。sense:002なら project や取り組みという活動自体が intense になるはずだが、文の修飾対象は活動ではなく person なので sense:003 が最も自然である。"
+          },
+          {
+            "example_id": "ex-e7ed333e39d3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "intense relationship",
+              "emotional distance"
+            ],
+            "rationale": "「intense relationship」と「emotional distance」は、二者間の感情的な結びつきや相互作用の強さを示す。sense:001の個別の感情・感覚の強度や sense:002の活動の激しさでは、relationshipそのものと距離の置きにくさを修飾するこの構文を説明できないため sense:003 が一意である。"
+          },
+          {
+            "example_id": "ex-c01abcd41d78",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "intense heat"
+            ],
+            "rationale": "「intense heat」は屋外作業を危険にする heat という熱・暑さの強度を表す。sense:002の活動用法なら work 自体の負荷を修飾するが、work outside は結果に関わる背景行動であり、intense が直接かかる heat には sense:001 が適合する。"
+          }
+        ],
+        "findings": []
+      },
+      "aligned_at": "2026-09-05T05:08:14.225802+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-qualification-handoff-20260905T043033Z-31a96a70"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "regional_qualification",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 44,
+            "line_end": 44,
+            "exact_quote": "【頻度】〈5/10〉"
+          },
+          "severity": "minor",
+          "rationale": "「【頻度】〈5/10〉」を3語義に一律付しているが、直後の注記はこの数値を学習上の相対的な目安としており、英語全体での遭遇頻度を示す尺度・根拠になっていない。Oxford 5000のC1も学習到達度であって頻度ではなく、語義ごとの頻度差や主要構文の優先度を判断できない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "英語全体のコーパス頻度に基づく尺度と根拠を示すか、5/10とC1を学習レベル・学習上の目安として頻度欄から分離し、必要なら語義・構文ごとの頻度差を注記する。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-pronunciation-handoff-20260905T043033Z-31a96a70"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-evidence-handoff-20260905T043033Z-31a96a70"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 88,
+            "line_end": 93,
+            "exact_quote": "・strong  \\n定義: intense と比較される、幅広い「強い」を表す関連語。  \\n頻度: 〈5/10〉  \\n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。  \\n例: intense pain  \\n訳: 強い痛み。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-001の根拠はintenseの中心義を支えるが、strong自体の定義・頻度・例文およびstrongとintenseの差を直接支持しない。",
+          "evidence_link_ids": [
+            "EVID-001"
+          ],
+          "suggested_direction": "strongを直接扱う根拠へ差し替えるか、定義・頻度・比較を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 95,
+            "line_end": 100,
+            "exact_quote": "・extreme  \\n定義: intense と比較される、通常の範囲からの逸脱に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。  \\n例: intense heat  \\n訳: 強烈な暑さ。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-001はintenseが極端な強度を表すことは支えるが、extremeの定義・頻度・例文や両語の意味境界を直接支持しない。",
+          "evidence_link_ids": [
+            "EVID-001"
+          ],
+          "suggested_direction": "extremeの比較を直接支持する根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 102,
+            "line_end": 107,
+            "exact_quote": "・powerful  \\n定義: intense と比較される、作用する力や影響に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。  \\n例: intense interest  \\n訳: 強い関心。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-001の根拠にはpowerful自体の定義・頻度・例文、作用する力と経験される強度の対比を裏付ける事実がない。",
+          "evidence_link_ids": [
+            "EVID-001"
+          ],
+          "suggested_direction": "powerfulを直接扱う根拠へ差し替えるか、比較欄を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 135,
+            "line_end": 140,
+            "exact_quote": "・fierce  \\n定義: intense と比較される、競争・対立の激しさに焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。  \\n例: intense competition  \\n訳: 激しい競争。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-002はintenseの活動・競争用法を支えるが、fierceの定義・頻度・例文および攻撃性との対比を直接支持しない。",
+          "evidence_link_ids": [
+            "EVID-002"
+          ],
+          "suggested_direction": "fierceを直接扱う根拠へ差し替えるか、定義・頻度・比較を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 142,
+            "line_end": 147,
+            "exact_quote": "・vigorous  \\n定義: intense と比較される、活力や積極的なエネルギーに焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: vigorous は活力や積極的なエネルギーに焦点があり、intense は活動の緊張や負荷も表す。  \\n例: intense activity  \\n訳: 激しい活動。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-002の根拠にはvigorousの定義・頻度・例文やvigorousとintenseの焦点の差を裏付ける事実がない。",
+          "evidence_link_ids": [
+            "EVID-002"
+          ],
+          "suggested_direction": "vigorousを直接扱う根拠へ差し替えるか、比較欄を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 149,
+            "line_end": 154,
+            "exact_quote": "・strenuous  \\n定義: intense と比較される、大きな努力を要する行為に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: strenuous は行為がきつく多大な努力を要することに焦点があり、intense は活動の緊張感や負荷も表す。  \\n例: intense training  \\n訳: 激しい訓練。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-002はintenseの活動強度を支えるだけで、strenuousの定義・頻度・例文や両語の意味範囲を直接支持しない。",
+          "evidence_link_ids": [
+            "EVID-002"
+          ],
+          "suggested_direction": "strenuousを直接扱う根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 192,
+            "line_end": 197,
+            "exact_quote": "訳: 感情や態度の強い人。  \\n\\n・passionate  \\n定義: intense と比較される、熱意や強い関与に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: passionate は熱意や強い関与を表し、intense より肯定的な評価になりやすい。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-003はintenseの人・表情に関する用法を支えるが、seriousの定義・頻度・例文および両語の焦点の差を直接支持しない。",
+          "evidence_link_ids": [
+            "EVID-003"
+          ],
+          "suggested_direction": "seriousを直接扱う根拠へ差し替えるか、定義・頻度・比較を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 199,
+            "line_end": 204,
+            "exact_quote": "訳: 強い視線。  \\n\\n・earnest  \\n定義: intense と比較される、誠実さや真摯さに焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: earnest は誠実さや真摯さに焦点があり、intense は感情の強さや対人的な圧も表す。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-003の根拠にはpassionateの定義・頻度・例文や肯定的評価との対比を裏付ける事実がない。",
+          "evidence_link_ids": [
+            "EVID-003"
+          ],
+          "suggested_direction": "passionateを直接扱う根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 206,
+            "line_end": 211,
+            "exact_quote": "訳: 感情的な結びつきの強い関係。  "
+          },
+          "severity": "blocking",
+          "rationale": "EVID-003の根拠にあるearnestnessはintenseの説明の一部にすぎず、earnest自体の定義・頻度・例文や両語の差を直接支持しない。",
+          "evidence_link_ids": [
+            "EVID-003"
+          ],
+          "suggested_direction": "earnestを直接扱う根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "codex-translation-handoff-20260905T043033Z-31a96a70"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "sense-structure-20260905T043033Z-31a96a70"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "agent-frame-relation-stage1-31a96a70"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06fe0-31a9-7a70-b6a0-4f8d2c91e3ab"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "codex-qualification-handoff-20260905T043033Z-31a96a70"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "codex-pronunciation-handoff-20260905T043033Z-31a96a70"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "codex-evidence-handoff-20260905T043033Z-31a96a70"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

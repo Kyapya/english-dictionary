@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "stage2_request_sha256": "210fe411d58762321f5392a96277c932c1a509fbda617127282057279cbf208b",
+  "blind_record_sha256": "fe6c8b9bb0c53f45438baf55e045ee32989d28db77f1cada52386133a7f26c6d",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "agent-frame-relation-stage1-31a96a70"
+  },
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 201,
+        "line_end": 206,
+        "exact_quote": "・earnest\n定義: intense と比較される、誠実さや真摯さに焦点を置く関連語。\n頻度: 〈5/10〉\n違い: earnest は誠実さや真摯さに焦点があり、intense は感情の強さや対人的な圧も表す。\n例: an intense relationship\n訳: 感情的な結びつきの強い関係。"
+      },
+      "severity": "minor",
+      "rationale": "In sense 3, earnest centers on sincerity and earnestness rather than the sense's central emotional or attitudinal intensity and strong emotional bond. The example and translation repeat an intense relationship instead of realizing earnest, so this is only a related word, not a sufficiently central synonym for this entry.",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    }
+  ],
+  "unrouted_observations": []
+}

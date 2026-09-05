@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-translation-handoff-20260905T043033Z-31a96a70"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 122,
+        "line_end": 122,
+        "exact_quote": "用途: 競争が非常に激しく、参加者に大きな努力や緊張を求めることを表す。"
+      },
+      "severity": "blocking",
+      "rationale": "「intense competition」は競争の強度・激しさを表すが、参加者に大きな努力や緊張を求めることまで必ず含意しない。「参加者に…求める」とすると、原文の強度の説明に、参加者への要求という追加の関係を加えている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "競争の強度・激しさが非常に高いことを表す、とするなど、参加者への努力・緊張の要求を断定しない方向に直す。"
+    }
+  ]
+}

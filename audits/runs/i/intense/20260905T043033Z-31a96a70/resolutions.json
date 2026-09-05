@@ -1,0 +1,248 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-intense-20260905T043033Z-31a96a70",
+  "context_id": "resolution-intense-context-20260905T043033Z-31a96a70",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": ["entry_body", "all_findings"],
+  "recorded_at": "2026-09-05T05:51:51+00:00",
+  "reviewer_provenance": {
+    "reviewer_role": "independent_finding_resolution_agent",
+    "session_mode": "independent_resolution",
+    "reviewer": {
+      "mode": "independent",
+      "declared_model": "gpt-5",
+      "agent_id": "codex-independent-finding-resolution-20260905T043033Z-31a96a70"
+    },
+    "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+    "sealed_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+    "upstream_reviewers": [
+      {"stage": "normal_review", "pass_id": "translation", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "codex-translation-handoff-20260905T043033Z-31a96a70"},
+      {"stage": "normal_review", "pass_id": "sense-structure", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "sense-structure-20260905T043033Z-31a96a70"},
+      {"stage": "normal_review", "pass_id": "frame-relation", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "agent-frame-relation-stage1-31a96a70"},
+      {"stage": "normal_review", "pass_id": "qualification", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "codex-qualification-handoff-20260905T043033Z-31a96a70"},
+      {"stage": "normal_review", "pass_id": "evidence", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "codex-evidence-handoff-20260905T043033Z-31a96a70"},
+      {"stage": "cold_review", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "01a07002-2009-7a72-8c77-13175b5190b6"},
+      {"stage": "final_blind", "mode": "handoff", "declared_model": "gpt-5", "ingested_by": "human", "agent_id": "01a0700a-7831-79f1-9f58-d9e7cb4cf08c"}
+    ]
+  },
+  "resolutions": [
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: the competition note adds an unsupported entailment that participants must be made to exert effort or feel tension; retain only the high-intensity competition meaning.",
+      "evidence_link_ids": ["EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: the activity sense still overlaps the general high-degree sense through energy, determination, concentration, and pressure without an explicit shared-core boundary.",
+      "evidence_link_ids": ["EVID-001", "EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: the core image treats person-related intensity as outwardly manifested while the sense-3 note correctly says outward expression is not required for a person.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: the earnest comparison is not directly supported by the person/expression evidence and its example repeats an intense relationship instead of realizing earnest.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: F-021 supports Oxford C1, but the repeated 5/10 field is not a sourced corpus-frequency scale and should be relabeled or separately qualified.",
+      "evidence_link_ids": ["EVID-008"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-001 supports intense, not strong's definition, score, example, or contrast.",
+      "evidence_link_ids": ["EVID-001"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-001 supports intense, not extreme's definition, score, example, or contrast.",
+      "evidence_link_ids": ["EVID-001"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-001 does not directly support powerful's definition, score, example, or force-versus-experienced-intensity contrast.",
+      "evidence_link_ids": ["EVID-001"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-002 supports intense activity/competition, not fierce's definition, score, example, or aggression contrast.",
+      "evidence_link_ids": ["EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-002 does not directly support vigorous's definition, score, example, or comparison with intense.",
+      "evidence_link_ids": ["EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-002 supports intense activity, not strenuous's definition, score, example, or meaning boundary.",
+      "evidence_link_ids": ["EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-003 supports intense's person/expression use, not serious's definition, score, example, or comparison.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-003 does not directly support passionate's definition, score, example, or positive-evaluation contrast.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "normal-evidence-009",
+      "finding_id": "normal-evidence-009",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: EVID-003 does not directly support earnest's definition, score, example, or comparison.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-001",
+      "finding_id": "CR-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: clarify the etymological dating and distinguish first attestation from later semantic development.",
+      "evidence_link_ids": ["EVID-004"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-002",
+      "finding_id": "CR-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: describe intensive through concentration, density, and thoroughness, with limited period or scope as a tendency rather than a universal condition.",
+      "evidence_link_ids": ["EVID-005"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-003",
+      "finding_id": "CR-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: make explicit that senses 1 and 2 share the high-intensity core while grouping experienced states separately from activity effort, pace, and load.",
+      "evidence_link_ids": ["EVID-001", "EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-004",
+      "finding_id": "CR-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: include activity volume, pace, and busyness so intense activity is not taught as necessarily physically or effortfully demanding.",
+      "evidence_link_ids": ["EVID-002"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-005",
+      "finding_id": "CR-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: explain intense blue through visual vividness, saturation, or prominence without implying darkness or low lightness.",
+      "evidence_link_ids": ["EVID-001"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-006",
+      "finding_id": "CR-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: broaden scrutiny from physical surveillance to severe scrutiny, examination, or public/professional attention as context requires.",
+      "evidence_link_ids": ["EVID-001"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-007",
+      "finding_id": "CR-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: broaden intense person to context-dependent intensity in feeling, character, seriousness, focus, or interpersonal pressure without requiring outward display.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-008",
+      "finding_id": "CR-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: describe intense relationship as strong emotional involvement or interaction that may be intimate, tense, conflicted, or unstable, not necessarily positively bonded.",
+      "evidence_link_ids": ["EVID-003"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "CR-009",
+      "finding_id": "CR-009",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Adopted for the next cycle: show that extreme and intense overlap with pain, anger, and heat while distinguishing endpoint-of-scale emphasis from experienced or operative intensity.",
+      "evidence_link_ids": ["EVID-001"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    },
+    {
+      "id": "AF-001",
+      "finding_id": "AF-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The current source inventory's F-021 and U-008 explicitly support the article's Oxford 5000 C1 statement; the final-blind B2 claim is contradicted by that sealed inventory.",
+      "evidence_link_ids": ["EVID-008"],
+      "resolved_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241"
+    }
+  ]
+}

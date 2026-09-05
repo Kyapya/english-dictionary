@@ -1,0 +1,37 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "sense-structure-20260905T043033Z-31a96a70"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 111,
+        "line_end": 111,
+        "exact_quote": "【日本語訳・定義】活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義1も語義2も、対象の程度・強度が非常に高いという同じスカラー意味を述べている。語義2で短期間を必須条件から外しているため、現在の境界は活動・競争・議論・訓練という対象領域と、それに伴う努力・負荷を挙げただけになり、語義1の文法パターンにある intense energy・determination・concentration や pressure とも重なる。活動用法を独立語義として残すなら、対象分野以外の必須となる意味的差異が必要である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1と2を統合し、活動・競争・訓練のコロケーションと intensive との対比を一般義の語法注記へ移す。分ける場合は、活動義に対象領域だけではない独立した中心意味・結果状態・負荷の条件を明示する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 36,
+        "line_end": 36,
+        "exact_quote": "・人・視線・表情・関係に強い感情や態度が表れる／強い結びつきがある → 「感情や態度の強い、張り詰めた」（語義3）  "
+      },
+      "severity": "minor",
+      "rationale": "コアイメージは人にも強い感情や態度が外に表れると記述しているが、語義3の語法注記は、人への用法が強い感情や態度を持つという人物評価であり、必ず外に表出するとは限らないと明示する。視線・表情の表出、人物への評価、関係の情緒的な強さを同じ表出条件で表すため、セクション間で人用法の意味範囲が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "人については「強い感情や態度が感じられる／そうした人物と評価される」とし、外的な表出は視線・表情に限定するようコアイメージの枝を修正する。"
+    }
+  ]
+}
