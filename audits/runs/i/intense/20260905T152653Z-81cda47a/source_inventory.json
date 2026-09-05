@@ -3,13 +3,13 @@
   "stage": "source_inventory",
   "run_id": "20260905T152653Z-81cda47a",
   "context_id": "intense-source-first-20260905-r7",
-  "input_body_sha256": "74c35305dd25fa1a2689860ff2c630d961d685db2494ba30243d388d4a795cc4",
+  "input_body_sha256": "6f21f66fceacf0402a2c0934750de05c1ed24e66a4e76383e5db7627c71e3ddb",
   "prompt_sha256": "442c4856529d84bec57e45d353299ba56909631ab29dee1296afd701bc67df38",
   "input_artifacts": [
     "headword",
     "source_first_spec"
   ],
-  "recorded_at": "2026-09-05T16:25:00Z",
+  "recorded_at": "2026-09-05T16:35:00Z",
   "evidence_link_ids": [
     "EVID-001",
     "EVID-002",
@@ -44,8 +44,8 @@
     "stop_reason": "",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-09-05T16:25:00Z",
-    "article_comparison_started_at": "2026-09-05T16:25:01Z",
+    "inventory_completed_at": "2026-09-05T16:35:00Z",
+    "article_comparison_started_at": "2026-09-05T16:35:01Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -784,6 +784,7 @@
           }
         ]
       }
-    ]
+    ],
+    "input_body_sha256": "6f21f66fceacf0402a2c0934750de05c1ed24e66a4e76383e5db7627c71e3ddb"
   }
 }
