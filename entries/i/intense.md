@@ -1,7 +1,7 @@
 ---
 headword: intense  
 type: word  
-status: draft  
+status: needs_review  
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
 created_at: 2026-06-14  

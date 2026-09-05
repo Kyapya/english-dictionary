@@ -1,0 +1,221 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-intense-20260905T141130Z-ff81ed00",
+  "context_id": "blind-intense-context-20260905T141130Z-ff81ed00",
+  "reviewer_mode": "handoff",
+  "declared_model": "gpt-5",
+  "ingested_by": "human",
+  "agent_id": "final-blind-gpt5-20260905T141130Z-ff81ed00-7b4f3e2a",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "ibc-01",
+      "surface_form": "intense",
+      "frame": "形容詞・限定／叙述 + 身体感覚・物理的状態（pain, heat）",
+      "meaning": "身体的な感覚や熱などの強度が非常に高い",
+      "disposition": "included",
+      "rationale": "本文のアンカー「感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が非常に高いこと。」が、対象の強度を高い度合いとして述べるこのフレームを直接支持する。候補アンカー: 形容詞・限定／叙述 + 身体感覚・物理的状態（pain, heat）",
+      "semantic_assertions": [
+        {
+          "id": "ibc-01-sa-01",
+          "statement": "intense が身体感覚・熱などの対象の強度が非常に高いことを表すこと",
+          "polarity": "must_hold",
+          "scope": "intense pain / intense heat"
+        }
+      ]
+    },
+    {
+      "id": "ibc-02",
+      "surface_form": "intense",
+      "frame": "形容詞・限定／叙述 + 感情・関心・心理的性質（pleasure, anger, interest, determination, concentration）",
+      "meaning": "感情、関心、決意、集中などの心理的強度が非常に高い",
+      "disposition": "included",
+      "rationale": "本文のアンカー「intense energy・determination・concentration＝エネルギー・決意・集中の強度が非常に高い」が、心理的状態・関与の強度を表す独立フレームを示す。",
+      "semantic_assertions": [
+        {
+          "id": "ibc-02-sa-01",
+          "statement": "intense が感情・関心・決意・集中の強さを、肯定的対象にも否定的対象にも適用できること",
+          "polarity": "must_hold",
+          "scope": "intense pleasure / intense interest / intense anger"
+        }
+      ]
+    },
+    {
+      "id": "ibc-03",
+      "surface_form": "intense",
+      "frame": "形容詞・限定 + 色・色調（blue, colour）",
+      "meaning": "色の鮮やかさ・彩度が際立ち、視覚的な強い印象を与える",
+      "disposition": "included",
+      "rationale": "本文のアンカー「intense colour/blue では色の鮮やかさ・彩度」が、一般的な強度ではなく色調の鮮明さに関わるこの対象側フレームを明示する。",
+      "semantic_assertions": [
+        {
+          "id": "ibc-03-sa-01",
+          "statement": "intense blue / intense colour が色の鮮やかさ・彩度の際立ちを表すこと",
+          "polarity": "must_hold",
+          "scope": "intense blue / intense colour"
+        }
+      ]
+    },
+    {
+      "id": "ibc-04",
+      "surface_form": "intense",
+      "frame": "形容詞・限定／叙述 + 外部からの圧力（pressure）",
+      "meaning": "外部的・心理的な圧力や重圧の程度が非常に高い",
+      "disposition": "included",
+      "rationale": "本文のアンカー「外部からかかる重圧や心理的な圧力が非常に強いことを表す。」が、圧力を受ける側に作用する強さとしてこのフレームを特定する。候補アンカー: 形容詞・限定／叙述 + 外部からの圧力（pressure）",
+      "semantic_assertions": [
+        {
+          "id": "ibc-04-sa-01",
+          "statement": "intense pressure が外部的または心理的な圧力の強さを表すこと",
+          "polarity": "must_hold",
+          "scope": "under intense pressure / intense pressure"
+        }
+      ]
+    },
+    {
+      "id": "ibc-05",
+      "surface_form": "intense",
+      "frame": "形容詞・限定 + 精査・吟味（scrutiny）",
+      "meaning": "精査・吟味が厳しく、注意深く行われる度合いが非常に高い",
+      "disposition": "included",
+      "rationale": "本文のアンカー「intense scrutiny では精査・吟味の厳しさも表す。」が、単なる対象の感情強度とは異なる評価的・注意的プロセスの強度を個別に認めている。",
+      "semantic_assertions": [
+        {
+          "id": "ibc-05-sa-01",
+          "statement": "intense scrutiny が精査・吟味の厳しさまたは強度の高さを表すこと",
+          "polarity": "must_hold",
+          "scope": "under intense scrutiny / intense scrutiny"
+        }
+      ]
+    },
+    {
+      "id": "ibc-06",
+      "surface_form": "intense",
+      "frame": "形容詞・限定 + 活動・競争・議論・訓練（competition, activity）",
+      "meaning": "活動が高い強度で行われ、激しさ・活動量・速度・忙しさ・負荷が大きい",
+      "disposition": "included",
+      "rationale": "本文のアンカー「活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。」が、対象の性質や感情ではなく活動の進行強度を表すフレームを支持する。候補アンカー: 形容詞・限定 + 活動・競争・議論・訓練（competition, activity）",
+      "semantic_assertions": [
+        {
+          "id": "ibc-06-sa-01",
+          "statement": "intense が活動・競争・議論・訓練の高い強度を表し、短期間であることを必須条件にしないこと",
+          "polarity": "must_hold",
+          "scope": "intense competition / intense activity"
+        }
+      ]
+    },
+    {
+      "id": "ibc-07",
+      "surface_form": "intense",
+      "frame": "形容詞・人を修飾（an intense person）",
+      "meaning": "人が強い感情や態度を持つ、またはそうした強い印象を与える",
+      "disposition": "included",
+      "rationale": "本文のアンカー「人については強い感情や態度を持つ、またはそうした印象を与えること」が、人を主体とする評価フレームの意味と評価の文脈依存性を示す。候補アンカー: 形容詞・人を修飾（an intense person）",
+      "semantic_assertions": [
+        {
+          "id": "ibc-07-sa-01",
+          "statement": "an intense person が、強い感情・態度またはそのような印象を表し、必ず外的表出を意味しないこと",
+          "polarity": "must_hold",
+          "scope": "an intense person"
+        }
+      ]
+    },
+    {
+      "id": "ibc-08",
+      "surface_form": "intense",
+      "frame": "形容詞・視線や表情を修飾（an intense look / gaze）",
+      "meaning": "視線や表情に集中、鋭さ、または強い感情が感じられる",
+      "disposition": "included",
+      "rationale": "本文のアンカー「視線や表情については集中・鋭さ・強い感情が感じられること」が、知覚される表出を主体とする別フレームを明確にしている。候補アンカー: 形容詞・視線や表情を修飾（an intense look / gaze）",
+      "semantic_assertions": [
+        {
+          "id": "ibc-08-sa-01",
+          "statement": "an intense look / gaze が、視線・表情から感じられる集中、鋭さ、または強い感情を表すこと",
+          "polarity": "must_hold",
+          "scope": "an intense look / an intense gaze"
+        }
+      ]
+    },
+    {
+      "id": "ibc-09",
+      "surface_form": "intense",
+      "frame": "形容詞・関係を修飾（an intense relationship）",
+      "meaning": "関係の情緒的な結びつきや相互作用が強く、場合により緊張・衝突を伴う",
+      "disposition": "included",
+      "rationale": "本文のアンカー「関係については情緒的な結びつきや相互作用が強いことを表す。」が、関係を対象とする相互作用フレームを、人・視線フレームから分けて支持する。候補アンカー: 形容詞・関係を修飾（an intense relationship）",
+      "semantic_assertions": [
+        {
+          "id": "ibc-09-sa-01",
+          "statement": "an intense relationship が情緒的結びつきまたは相互作用の強さを表し、良好・安定であることを必須にしないこと",
+          "polarity": "must_hold",
+          "scope": "an intense relationship"
+        }
+      ]
+    },
+    {
+      "id": "ibc-10",
+      "surface_form": "intense",
+      "frame": "形容詞・活動を修飾し、短期間であることだけを意味する用法",
+      "meaning": "短期集中であることを必須条件とする意味",
+      "disposition": "excluded",
+      "rationale": "本文のアンカー「短期間であることは必須ではない。」により、短期間性だけを意味の核とする候補は除外される。候補アンカー: 形容詞・活動を修飾し、短期間であることだけを意味する用法",
+      "semantic_assertions": [
+        {
+          "id": "ibc-10-sa-01",
+          "statement": "intense の活動用法が短期間であることを必須条件とすること",
+          "polarity": "must_not_hold",
+          "scope": "活動用法全般"
+        }
+      ]
+    },
+    {
+      "id": "ibc-11",
+      "surface_form": "intense",
+      "frame": "形容詞・活動を修飾し、intensive と同じく集中度・密度・徹底性だけを意味する用法",
+      "meaning": "intensive と意味的に同一で、高い強度・活動量・速度・負荷を含まない",
+      "disposition": "excluded",
+      "rationale": "本文のアンカー「intense は高い強度・活動量・速度・負荷を前面に出す。」により、intensive と同一視して活動の集中度だけを表す候補は除外される。",
+      "semantic_assertions": [
+        {
+          "id": "ibc-11-sa-01",
+          "statement": "intense が intensive と同じく集中度・密度・徹底性だけを表し、高い強度・活動量・速度・負荷を区別しないこと",
+          "polarity": "must_not_hold",
+          "scope": "intense と intensive の活動用法の対比"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "_output_metadata": {
+    "schema_version": "final_blind_v2",
+    "stage": "final_blind",
+    "run_id": "blind-intense-20260905T141130Z-ff81ed00",
+    "context_id": "blind-intense-context-20260905T141130Z-ff81ed00",
+    "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+    "input_artifacts": [
+      "entry_body",
+      "final_blind_prompt"
+    ],
+    "audit_visible": false,
+    "reviewer_mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "final-blind-gpt5-20260905T141130Z-ff81ed00-7b4f3e2a"
+  },
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a07202-cbb6-72b0-a8fe-69dc4e5c0081"
+  },
+  "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-05T14:45:05.959045+00:00"
+}

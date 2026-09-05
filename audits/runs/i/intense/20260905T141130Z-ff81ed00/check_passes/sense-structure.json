@@ -1,0 +1,50 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-gpt5-sense-structure-20260905T141130Z-ff81ed00-9f3c7e1a"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 111,
+        "line_end": 113,
+        "exact_quote": "2. 【形容詞・限定／叙述】激しい、活動量の多い\n\n【日本語訳・定義】活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "この活動義は、一般義1の「程度・強度が非常に高い」の活動対象への文脈的具体化として記述されており、独立した中心意味・結果状態・評価の差が定義上示されていない。しかも努力・緊張・短期間を必須条件から外しているため、活動対象という主語・目的語の種類だけで分割した重複になっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1へ統合し、活動量・速度・負荷は用法・コロケーションとして限定する。独立義を残すなら、一般義と異なる語彙的な項構造または結果状態を明示する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 36,
+        "line_end": 38,
+        "exact_quote": "・人が強い感情や態度を持つ／そうした印象を与える → 「感情や態度の強い」（語義3）\n・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）\n・関係の感情的な結びつきや相互作用が強い → 「張り詰めた、濃密な」（語義3）"
+      },
+      "severity": "blocking",
+      "rationale": "コアイメージの列挙枝が三つとも語義3を指しており、同一語義への重複対応になっている。語義3を一つの中心意味として維持するなら、人・視線／表情・関係を一つの枝に束ねる必要があり、別義として維持するならsense_structureとusage_notesも対応して分割されなければならない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義3の共通核を一つの列挙枝に統合し、各対象は下位用法として説明する。対象ごとの独立した語義を主張する場合のみ、対応する見出し・定義・語法を分割する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 28,
+        "exact_quote": "・intensity（名詞）— 強度、激しさ。\n・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。\n・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。\n・intensification（名詞）— 強化、激化。"
+      },
+      "severity": "blocking",
+      "rationale": "語形成欄には名詞 intensity／intensification、他動詞・自動詞の intensify、さらに別の意味焦点を持つ形容詞 intensive が主要候補として明示されているが、番号付き語義は形容詞 intense の三義だけで、これらの品詞転換・派生形の収録先がない。指定ルール上、語形成欄だけにある主要候補は語義構成の欠落として扱う必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "各主要品詞転換・派生形を独立した番号付き項目へ追加するか、当該候補をこの見出しの対象外とする具体的な除外理由を明示する。intensify は自動詞・他動詞の項構造も分けて記載する。"
+    }
+  ]
+}

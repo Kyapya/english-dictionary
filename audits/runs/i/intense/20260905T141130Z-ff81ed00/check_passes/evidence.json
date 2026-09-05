@@ -1,0 +1,206 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-evidence-checker-20260905-ff81ed00"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 27,
+        "line_end": 27,
+        "exact_quote": "・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。  "
+      },
+      "severity": "blocking",
+      "rationale": "紐づくF-005はintense/intensiveの活動用法の重なり、短期間という一般的文脈、感情寄り対客観的記述の差を支持するが、密度・徹底性・範囲の限定や、intense側の速度・負荷までを直接支持していない。",
+      "evidence_link_ids": [
+        "EVID-003"
+      ],
+      "suggested_direction": "F-005で直接支えられる重なりと客観性の差に限定するか、追加の直接比較根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 113,
+        "line_end": 113,
+        "exact_quote": "【日本語訳・定義】活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-002は短期間に多くの活動がある用法を、F-007はエネルギー・決意・集中を支持するが、努力・緊張・短期間が必須ではないという否定的な境界、また速度・忙しさ・負荷の列挙を直接支持していない。",
+      "evidence_link_ids": [
+        "EVID-005"
+      ],
+      "suggested_direction": "根拠が明示する活動・エネルギー・短期間の文脈に限定するか、非必須性を示す反例・直接資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "core_image",
+        "line_start": 37,
+        "line_end": 37,
+        "exact_quote": "・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）  "
+      },
+      "severity": "blocking",
+      "rationale": "F-003はlook/gaze等が強い感情・意見・考えを示す用法を支持するが、視線・表情の『鋭さ』という語義までを直接支持していない。F-007のconcentrationも視線・表情への適用根拠としては記録されていない。",
+      "evidence_link_ids": [
+        "EVID-004"
+      ],
+      "suggested_direction": "強い感情・真剣さ・集中の印象に限定するか、『鋭さ』を直接説明する資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 162,
+        "line_end": 162,
+        "exact_quote": "【日本語訳・定義】人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-003/F-008/F-012は人・表現の強い感情、真剣さ、earnestness等とrelationshipの用例を支えるが、relationshipが緊張・衝突・不安定さを伴い得るという範囲を直接支持していない。また視線・表情の『鋭さ』も根拠記録にない。",
+      "evidence_link_ids": [
+        "EVID-005"
+      ],
+      "suggested_direction": "関係については強い情緒的相互作用という根拠範囲に限定し、否定的含意や鋭さには直接根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 46,
+        "line_end": 46,
+        "exact_quote": "【頻度】〈6/10〉  "
+      },
+      "severity": "blocking",
+      "rationale": "F-021はOxford C1ラベルを、F-026〜F-028はlemma・品詞単位の頻度資料と編集上の推定扱いを支えるが、この語義の6/10という数値自体を支持するデータや算定根拠はない。",
+      "evidence_link_ids": [
+        "EVID-006"
+      ],
+      "suggested_direction": "数値を削除して根拠が支える一般的頻度情報にするか、語義別スコアの直接算定根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 115,
+        "line_end": 115,
+        "exact_quote": "【頻度】〈5/10〉  "
+      },
+      "severity": "blocking",
+      "rationale": "F-021、F-026〜F-028はC1とlemma・品詞単位の頻度・分散情報を支えるだけで、この第2語義の5/10という数値を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-006"
+      ],
+      "suggested_direction": "語義別の5/10を保持するなら直接の比較・算定資料を付け、なければ編集上の数値を削除または明示的な無根拠推定にしない。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 164,
+        "line_end": 164,
+        "exact_quote": "【頻度】〈4/10〉  "
+      },
+      "severity": "blocking",
+      "rationale": "F-021、F-026〜F-028はC1とlemma・品詞単位の頻度・分散情報を支えるだけで、この第3語義の4/10という数値を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-006"
+      ],
+      "suggested_direction": "語義別の4/10を直接裏付ける資料を追加するか、数値を一般的頻度説明に置き換える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 86,
+        "line_end": 86,
+        "exact_quote": "【語法・注意】intense は感情、感覚、熱、色、関心、圧力など、強さの対象を表す名詞と結びつく。intense colour/blue では色の鮮やかさ・彩度、intense scrutiny では精査・吟味の厳しさも表す。extreme と重なる場合があるが、extreme は通常の範囲や限界からの逸脱、intense は経験される強さ・圧・力の高さに焦点を置きやすい。intense pleasure のような好ましい対象にも、intense pain や intense anger のような好ましくない対象にも使える。類義語欄の頻度スコアも、コーパス全体の頻度と辞書情報を参照した編集上の目安であり、各語義の厳密な順位ではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-001等は色・scrutiny・pleasant/unpleasantの対象と一般的な強度を支えるが、F-020のextremeは近接語の列挙にとどまり、通常範囲からの逸脱と経験される強さという対照を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-009"
+      ],
+      "suggested_direction": "extremeとの違いを根拠に即した近接関係へ限定するか、直接比較資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 135,
+        "line_end": 135,
+        "exact_quote": "【語法・注意】intense は活動の強度・活動量・速度・忙しさ・負荷が高いことを表し、intensive は活動・訓練の集中度・密度・徹底性を表す傾向がある。intensive に期間・範囲の限定が伴うことは多いが必須ではなく、両語は活動用法で重なる場合がある。感情性・客観性だけを決め手にしない。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-005は活動用法の重なり、短期間という文脈、intenseの感情寄り対intensiveの客観的記述を支持するが、速度・忙しさ・負荷、密度・徹底性、範囲、期間が必須でないこと、感情性・客観性を決め手にしないことまでは直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-009"
+      ],
+      "suggested_direction": "F-005で直接支持できる重なりと記述の客観性に限定するか、各境界を直接検証する資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 189,
+        "line_end": 189,
+        "exact_quote": "【語法・注意】人への用法は強い感情や態度を持つ、またはそうした印象を与えるという評価で、必ず外に表出するとは限らない。視線・表情では集中・鋭さ・感情の表れ、relationship では情緒的な結びつきや相互作用の強さを表し、緊張・衝突・不安定さも含み得る。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-003/F-008/F-012/F-014は強い感情・真剣さ・high-strung等と人/表現/関係の用例を支持するが、外に表出しない場合、視線・表情の鋭さ、関係の緊張・衝突・不安定さという限定・含意を直接支持していない。",
+      "evidence_link_ids": [
+        "EVID-009"
+      ],
+      "suggested_direction": "根拠が示す強い感情・真剣さ・関係の強い相互作用に限定し、追加の含意は直接資料が得られるまでholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 91,
+        "line_end": 109,
+        "exact_quote": "・strong  \n定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。  \n頻度: 〈8/10〉  \n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。  \n例: intense pain  \n訳: 強い痛み。  \n・extreme  \n定義: 通常の範囲や限界から大きく外れた状態を表す関連語。  \n頻度: 〈6/10〉  \n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。  \n例: intense heat  \n訳: 強烈な暑さ。  \n・powerful  \n定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。  \n頻度: 〈6/10〉  \n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。  \n例: intense interest  \n訳: 強い関心。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-020/F-023はstrong、extreme、powerfulをintense周辺の類似語として列挙するが、各語の定義差、intenseとの詳細なフレーム差、8/10・6/10の頻度値を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-010"
+      ],
+      "suggested_direction": "類似語としての列挙に限定するか、各比較定義と頻度値を直接裏付ける資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 139,
+        "line_end": 158,
+        "exact_quote": "・fierce  \n定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。  \n頻度: 〈6/10〉  \n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。  \n例: intense competition  \n訳: 激しい競争。  \n・intensive  \n定義: 活動・訓練などを集中して行うことを表す関連語。  \n頻度: 〈6/10〉  \n違い: intensive は集中度・密度・徹底性を、intense は高い強度・活動量・速度・負荷を前面に出す。期間・範囲限定は intensive に伴う傾向だが必須ではない。  \n例: intensive training  \n訳: 集中的な訓練。  \n・concentrated  \n定義: 活動・注意・資源などが一箇所や短期間に集められた状態を表す関連語。  \n頻度: 〈5/10〉  \n違い: concentrated は集中配置や密度に焦点があり、intense は活動そのものの強度・活動量・速度・負荷に焦点を置く。  \n例: concentrated training  \n訳: 集中的な訓練。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-020/F-023はfierce、intensive、concentratedを類似語として挙げるだけで、攻撃性・敵意の有無、各語の定義差、期間・範囲の必須性、各頻度値を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-010"
+      ],
+      "suggested_direction": "類似語の提示に限定し、比較差・非必須性・頻度値は直接根拠を追加できるまで削除またはholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 193,
+        "line_end": 212,
+        "exact_quote": "・passionate  \n定義: intense と同じく強い感情や関与を表すが、熱意や情熱を前面に出す関連語。  \n頻度: 〈5/10〉  \n違い: passionate は熱意・情熱や積極的な関与を含みやすく、intense は肯定・否定を問わず感情や態度の強さを表す。  \n例: a passionate advocate  \n訳: 熱心な擁護者。  \n・deep  \n定義: 感情・関係・結びつきなどの深さを表す関連語。  \n頻度: 〈8/10〉  \n違い: deep は内面の深さや持続する結びつきに焦点があり、intense はその場の強い感情や張り詰めた印象にも使う。  \n例: a deep emotional bond  \n訳: 深い感情的な結びつき。  \n・fervent  \n定義: 支持・願い・感情などの熱烈さを表す関連語。  \n頻度: 〈3/10〉  \n違い: fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。  \n例: fervent support  \n訳: 熱烈な支持。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-024/F-025はpassionateを深い感情の用法、passionate/ferventを類似語として支持するが、deepの定義、三語の評価極性・持続性・フレーム差、5/10・8/10・3/10の頻度値を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-010"
+      ],
+      "suggested_direction": "類似語としての範囲に限定するか、各語の比較差と頻度値を直接支える資料を追加する。"
+    }
+  ]
+}
