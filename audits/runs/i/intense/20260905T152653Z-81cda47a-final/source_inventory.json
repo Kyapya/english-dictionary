@@ -3,13 +3,13 @@
   "stage": "source_inventory",
   "run_id": "20260905T152653Z-81cda47a",
   "context_id": "intense-source-first-20260905-r7",
-  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+  "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
   "prompt_sha256": "442c4856529d84bec57e45d353299ba56909631ab29dee1296afd701bc67df38",
   "input_artifacts": [
     "headword",
     "source_first_spec"
   ],
-  "recorded_at": "2026-09-05T19:42:23Z",
+  "recorded_at": "2026-09-05T20:29:17.355Z",
   "evidence_link_ids": [
     "EVID-001",
     "EVID-002",
@@ -38,14 +38,14 @@
       "facts_used": 38,
       "research_rounds_used": 3,
       "post_cold_rechecks_used": 1,
-      "final_attempts_used": 0
+      "final_attempts_used": 1
     },
     "research_status": "complete",
     "stop_reason": "",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
     "inventory_completed_at": "2026-09-05T17:43:24Z",
-    "article_comparison_started_at": "2026-09-05T19:42:23Z",
+    "article_comparison_started_at": "2026-09-05T20:29:17.355Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -506,14 +506,16 @@
       {
         "id": "U-003",
         "source_fact_ids": [
+          "F-001",
           "F-003",
           "F-008",
           "F-012",
-          "F-014"
+          "F-014",
+          "F-020"
         ],
-        "canonical_statement": "Applied to people, looks, expressions, and relationships, intense signals strong feelings or attitudes or strong emotional interaction depending on the frame; the revised article does not generalize sharpness or conflict implications.",
+        "canonical_statement": "For people, looks, expressions, and relationships, intense conveys strong feelings or attitudes depending on the frame; for a look or gaze it can also signal strong concentration, scrutiny, or a penetrating impression; relationship use concerns strong emotional interaction.",
         "disposition": "integrated",
-        "rationale": "Learner and general dictionary sources attest the person/expression sense, while the etymology reference records the historical high-strung person use; the article separates person, look/expression, and relationship frames."
+        "rationale": "Dictionary and thesaurus evidence supports the person/expression and intensity framing; the article now distinguishes emotion from concentration or penetrating impression for look/gaze while keeping relationship interaction frame-specific."
       },
       {
         "id": "U-004",
@@ -684,14 +686,18 @@
         ],
         "subject_form": "intense",
         "claim_type": "lexical_sense",
-        "statement": "For people, looks, expressions, and relationships, intense conveys strong feelings or attitudes or strong emotional interaction depending on the frame.",
+        "statement": "For people, looks, expressions, and relationships, intense conveys strong feelings or attitudes depending on the frame; for a look or gaze it can also signal strong concentration, scrutiny, or a penetrating impression; relationship use concerns strong emotional interaction.",
         "article_target_ids": [
           "definition:001",
-          "collocation:009",
           "collocation:010",
-          "collocation:011"
+          "collocation:011",
+          "collocation:012"
         ],
         "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford includes strong scrutiny among intense intensity contexts, supporting a cautious non-emotional intensity framing."
+          },
           {
             "source_fact_id": "F-003",
             "support_summary": "Oxford lists very strong feelings, opinions, or thoughts and person/look/gaze/relationship examples."
@@ -707,13 +713,19 @@
           {
             "source_fact_id": "F-014",
             "support_summary": "Etymonline records the person-related high-strung sense."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Cambridge's thesaurus lists sharp among similar intensity words, supporting a cautious concentrated or penetrating impression comparison."
           }
         ],
         "source_fact_ids": [
+          "F-001",
           "F-003",
           "F-008",
           "F-012",
-          "F-014"
+          "F-014",
+          "F-020"
         ]
       },
       {
@@ -894,8 +906,7 @@
           "synonym:004",
           "synonym:005",
           "synonym:006",
-          "synonym:007",
-          "synonym:008"
+          "synonym:007"
         ],
         "source_supports": [
           {
@@ -958,6 +969,6 @@
         ]
       }
     ],
-    "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"
+    "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
   }
 }

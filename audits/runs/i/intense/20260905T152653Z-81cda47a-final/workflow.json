@@ -22,11 +22,11 @@
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-05T20:04:27.991Z",
+  "last_heartbeat_at": "2026-09-05T20:29:20.356Z",
   "remote_checkpoint": {
-    "confirmed": true,
-    "confirmed_at": "2026-09-05T20:04:27.991Z",
-    "commit_sha": "0ad5c70fe275a993f593e7da44f4d60cf8d13a13"
+    "confirmed": false,
+    "confirmed_at": "",
+    "commit_sha": ""
   },
   "stage_history": [
     {
@@ -85,24 +85,34 @@
       "notes": "類義語欄のintensiveを関連語位置へ戻し、頻度指標を米国英語限定・英語全体非該当と明示した最新版を保存"
     },
     {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T20:14:18.291Z",
+      "notes": "最終審査のblind assertionに対応し、視線・表情へ集中・鋭さなどの強い印象を追加し、既存根拠のC-003/U-003範囲を更新した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T20:16:48.313Z",
+      "notes": "look例文訳を拡張後の視線スコープへ整合した最新版を保存"
+    },
+    {
       "stage": "source_inventory_complete",
-      "recorded_at": "2026-09-05T20:03:03.261Z",
-      "notes": "source-first inventory refreshed for the fixed post-revision body"
+      "recorded_at": "2026-09-05T20:29:17.356Z",
+      "notes": "source-first inventory refreshed for fixed post-translation-scope body"
     },
     {
       "stage": "normal_review_complete",
-      "recorded_at": "2026-09-05T20:03:04.261Z",
+      "recorded_at": "2026-09-05T20:29:18.356Z",
       "notes": "7 independent checker passes completed with no findings"
     },
     {
       "stage": "cold_review_complete",
-      "recorded_at": "2026-09-05T20:03:05.261Z",
-      "notes": "fresh context-free cold review completed; four findings carried to main resolution"
+      "recorded_at": "2026-09-05T20:29:19.356Z",
+      "notes": "fresh context-free cold review completed; four findings resolved by main"
     },
     {
       "stage": "blind_seal_complete",
-      "recorded_at": "2026-09-05T20:03:06.261Z",
-      "notes": "fresh final-blind output sealed before main-authored resolutions and final review"
+      "recorded_at": "2026-09-05T20:29:20.356Z",
+      "notes": "fresh final-blind output passed with no article findings and was sealed before final review"
     }
   ],
   "stop_reason": "",
@@ -496,8 +506,8 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 12,
-    "total_duration_seconds": 786,
+    "total_revisions": 14,
+    "total_duration_seconds": 1001,
     "completed_at": "",
     "stages": [
       {
@@ -515,7 +525,7 @@
         "input_bytes": 10586,
         "duration_seconds": 306,
         "defects_detected": 0,
-        "revision_count": 12,
+        "revision_count": 14,
         "completed": true
       },
       {
@@ -730,6 +740,6 @@
         "audits/runs/i/intense/20260905T152653Z-81cda47a-final/blind_seal.json"
       ]
     },
-    "body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"
+    "body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
   }
 }

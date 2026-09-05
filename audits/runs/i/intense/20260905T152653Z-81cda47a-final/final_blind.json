@@ -3,7 +3,7 @@
   "stage": "final_blind",
   "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
   "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+  "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
   "prompt_sha256": "c40b02eed1a6823126bc14ce2e39fe5b4a498e1ee8a8fb9a0a7542d5789a267e",
   "input_artifacts": [
     "entry_body",
@@ -14,159 +14,177 @@
     "mode": "handoff",
     "declared_model": "gpt-5.6-luna-wm",
     "ingested_by": "main_orchestrator",
-    "agent_id": "01a07327-342e-7e72-a95e-5431689e3086",
+    "agent_id": "01a0733f-efeb-7b31-92f2-3172c6c3d097",
     "same_model_as_generation": true
   },
   "provisional_decision": "pass",
   "independent_candidates": [
     {
       "id": "c1",
-      "surface_form": "intense + sensation, emotion, quality, heat, colour, pressure",
-      "frame": "attributive adjective modifying an intensity-bearing noun",
-      "meaning": "Very high in degree, strength, or felt intensity.",
+      "surface_form": "intense + 感覚・感情・性質・熱・色・圧力などの名詞",
+      "frame": "intense + 感覚・感情・性質・熱・色・圧力などの名詞",
+      "meaning": "対象の程度・強度が非常に高い",
       "disposition": "included",
-      "rationale": "Central adjective use represented by the definition and examples.",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
       "semantic_assertions": [
         {
-          "id": "c1a",
-          "statement": "The modified entity is characterized as exceptionally high in degree, strength, or experienced intensity.",
+          "id": "a1",
+          "statement": "対象の程度または強度が非常に高いことを表す。",
           "polarity": "must_hold",
-          "scope": "central sensory, emotional, qualitative, thermal, chromatic, and pressure-related uses"
-        },
-        {
-          "id": "c1b",
-          "statement": "The modified entity is not required to be hostile, negative, or undesirable.",
-          "polarity": "must_not_hold",
-          "scope": "general adjective use"
+          "scope": "このフレームの定義・例文・訳"
         }
       ]
     },
     {
       "id": "c2",
-      "surface_form": "intense + activity, competition, debate",
-      "frame": "attributive adjective modifying an activity or interaction",
-      "meaning": "Very vigorous, demanding, forceful, or fiercely contested.",
+      "surface_form": "intense + 活動・競争・議論",
+      "frame": "intense + 活動・競争・議論",
+      "meaning": "活動の強度・激しさが非常に高い",
       "disposition": "included",
-      "rationale": "Activity-oriented use is explicitly covered with competition and activity examples.",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
       "semantic_assertions": [
         {
-          "id": "c2a",
-          "statement": "The activity or interaction has unusually high intensity or force, rather than merely a large quantity of activity.",
+          "id": "a2",
+          "statement": "活動または相互作用の強度・激しさが非常に高いことを表す。",
           "polarity": "must_hold",
-          "scope": "activity, competition, debate, and related interaction uses"
-        },
-        {
-          "id": "c2b",
-          "statement": "The frame is not restricted to short duration or temporal concentration.",
-          "polarity": "must_not_hold",
-          "scope": "general activity use"
+          "scope": "活動用法全体"
         }
       ]
     },
     {
       "id": "c3",
-      "surface_form": "an intense person",
-      "frame": "predicative or attributive adjective applied to a person",
-      "meaning": "Emotionally forceful, highly serious, or conveying a strong impression.",
+      "surface_form": "〈感覚・感情・活動など〉 be intense",
+      "frame": "〈感覚・感情・活動など〉 be intense",
+      "meaning": "主語の強度・激しさが非常に高い",
       "disposition": "included",
-      "rationale": "The entry covers person use and allows strong emotion, attitude, or impression.",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
       "semantic_assertions": [
         {
-          "id": "c3a",
-          "statement": "The description concerns the person's manner, emotional force, seriousness, or impression, not simply physical strength.",
+          "id": "a3",
+          "statement": "be intense の主語は、感覚・感情・活動など、強度を評価できる対象でなければならない。",
           "polarity": "must_hold",
-          "scope": "person use"
+          "scope": "叙述フレーム"
         }
       ]
     },
     {
       "id": "c4",
-      "surface_form": "an intense look/gaze",
-      "frame": "attributive adjective modifying a look or gaze",
-      "meaning": "A forceful or penetrating look or gaze.",
+      "surface_form": "an intense person",
+      "frame": "an intense person",
+      "meaning": "強い感情や態度を持つ、または強い印象を与える人",
       "disposition": "included",
-      "rationale": "The established frame is represented, with emotional expression as its stated interpretation.",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
       "semantic_assertions": [
         {
-          "id": "c4a",
-          "statement": "The look or gaze conveys unusually strong concentration, scrutiny, force, or emotion.",
+          "id": "a4",
+          "statement": "人そのものの物理的強度ではなく、その人の感情・態度または与える印象の強さを表す。",
           "polarity": "must_hold",
-          "scope": "look and gaze uses"
-        },
-        {
-          "id": "c4b",
-          "statement": "The frame is not limited to looks or gazes that visibly express emotion.",
-          "polarity": "must_not_hold",
-          "scope": "look and gaze uses"
+          "scope": "person 用法"
         }
       ]
     },
     {
       "id": "c5",
-      "surface_form": "an intense relationship",
-      "frame": "attributive adjective modifying an interpersonal relationship",
-      "meaning": "Emotionally powerful, close, or demanding in interpersonal interaction.",
+      "surface_form": "an intense look/gaze",
+      "frame": "an intense look/gaze",
+      "meaning": "強い感情、集中、鋭さが表れた視線・表情",
       "disposition": "included",
-      "rationale": "The entry identifies the collocation and explains emotional-interaction strength.",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
       "semantic_assertions": [
         {
-          "id": "c5a",
-          "statement": "The relationship has unusually strong emotional involvement or interpersonal interaction.",
+          "id": "a5",
+          "statement": "look または gaze の印象に、強い感情・集中・鋭さの少なくともいずれかが関係する。",
           "polarity": "must_hold",
-          "scope": "relationship use"
-        },
-        {
-          "id": "c5b",
-          "statement": "The use does not entail that the relationship is necessarily positive, romantic, or stable.",
-          "polarity": "must_not_hold",
-          "scope": "relationship use"
+          "scope": "look/gaze 用法"
         }
       ]
     },
     {
       "id": "c6",
-      "surface_form": "intense (predicative)",
-      "frame": "be intense with a sensation, emotion, activity, or comparable intensity-bearing subject",
-      "meaning": "Be very strong, forceful, or severe.",
+      "surface_form": "an intense relationship",
+      "frame": "an intense relationship",
+      "meaning": "情緒的な結びつきや相互作用が非常に強い関係",
       "disposition": "included",
-      "rationale": "The predicative construction is explicitly stated and exemplified with pain.",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
       "semantic_assertions": [
         {
-          "id": "c6a",
-          "statement": "The subject possesses or produces unusually high intensity or force.",
+          "id": "a6",
+          "statement": "relationship の情緒的結びつきまたは相互作用の強度が非常に高いことを表す。",
           "polarity": "must_hold",
-          "scope": "predicative be intense construction"
+          "scope": "relationship 用法"
+        }
+      ]
+    },
+    {
+      "id": "c7",
+      "surface_form": "intensity",
+      "frame": "intensity",
+      "meaning": "強度、激しさ",
+      "disposition": "included",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
+      "semantic_assertions": [
+        {
+          "id": "a7",
+          "statement": "intensity は強度または激しさを表す名詞である。",
+          "polarity": "must_hold",
+          "scope": "語形成欄"
+        }
+      ]
+    },
+    {
+      "id": "c8",
+      "surface_form": "intensify",
+      "frame": "intensify",
+      "meaning": "強まる、強める",
+      "disposition": "included",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
+      "semantic_assertions": [
+        {
+          "id": "a8",
+          "statement": "intensify は自動詞として強まる、他動詞として強めるの意で使える。",
+          "polarity": "must_hold",
+          "scope": "語形成欄"
+        }
+      ]
+    },
+    {
+      "id": "c9",
+      "surface_form": "intensive",
+      "frame": "intensive",
+      "meaning": "活動・訓練への努力・注意の集中投入を表す形容詞",
+      "disposition": "included",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
+      "semantic_assertions": [
+        {
+          "id": "a9",
+          "statement": "intensive は活動への努力・注意などの集中投入を記述し、intense と常に交換可能ではない。",
+          "polarity": "must_hold",
+          "scope": "語形成欄・語法欄"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "surface_form": "intensification",
+      "frame": "intensification",
+      "meaning": "強まる・強める過程または事例",
+      "disposition": "included",
+      "rationale": "本文と現在の語義・語形成の範囲に整合する。",
+      "semantic_assertions": [
+        {
+          "id": "a10",
+          "statement": "intensification は強まるまたは強める過程・事例を表す。",
+          "polarity": "must_hold",
+          "scope": "語形成欄"
         }
       ]
     }
   ],
-  "article_findings": [
-    {
-      "id": "FB-001",
-      "taxonomy_id": "sense_boundary_overlap",
-      "location": {
-        "section": "core_image",
-        "line_start": 1,
-        "line_end": 1,
-        "exact_quote": "短期間に多くの行動が集中する文脈にも使う。"
-      },
-      "severity": "minor",
-      "rationale": "The activity wording could make temporal concentration seem central or necessary, although the article also states that activity intensity or force is the focus and calls short-period concentration one common context.",
-      "suggested_direction": "Keep the existing qualification that this is one context and not a requirement; no scope expansion is necessary without a directly supporting source."
-    },
-    {
-      "id": "FB-002",
-      "taxonomy_id": "cross_section_internal_contradiction",
-      "location": {
-        "section": "grammar_pattern",
-        "line_start": 1,
-        "line_end": 1,
-        "exact_quote": "an intense look/gaze＝強い感情が表れた視線"
-      },
-      "severity": "minor",
-      "rationale": "The blind reviewer proposed a broader look/gaze range including concentration or scrutiny, but the present sourced entry intentionally states the emotion/attitude interpretation and does not claim to exhaust every possible corpus nuance.",
-      "suggested_direction": "Retain the source-grounded learner framing; do not add unsourced semantic branches in this audit cycle."
-    }
-  ],
-  "recorded_at": "2026-09-05T20:01:42.483Z"
+  "article_findings": [],
+  "reviewer_provenance": {
+    "reviewer_role": "fresh independent final-blind reviewer",
+    "method": "Reviewed only the current entry body and final-blind specification; no earlier audit context used.",
+    "audit_visibility": false
+  },
+  "recorded_at": "2026-09-05T20:28:04.777Z"
 }

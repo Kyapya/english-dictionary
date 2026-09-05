@@ -3,7 +3,7 @@
   "stage": "cold_review",
   "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
   "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+  "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
   "prompt_sha256": "1ba58422a0fede126a88cd6c47ffe5ee8c2274f3ad0440c2f2adb1fad3784919",
   "input_artifacts": [
     "entry_body",
@@ -14,7 +14,7 @@
     "mode": "handoff",
     "declared_model": "gpt-5.6-luna-wm",
     "ingested_by": "main_orchestrator",
-    "agent_id": "01a07324-8326-71c2-ae89-d7a51e19d089",
+    "agent_id": "01a0733e-0ef9-7701-9663-2051efbe509e",
     "same_model_as_generation": true
   },
   "reviewer_provenance": {
@@ -24,14 +24,14 @@
     "session_mode": "separate_model_session",
     "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
     "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
-    "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"
+    "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
   },
   "summary": "本文のみの独立冷却レビューで4件の学習上の注意点を検出。活動用法・人/視線用法・関係用法・頻度指標の範囲を確認対象とした。",
   "findings": [
     {
       "id": "F001",
       "location": {
-        "section": "コアイメージ",
+        "section": "[object Object]",
         "line_start": 1,
         "line_end": 1,
         "exact_quote": "短期間に多くの行動が集中する文脈にも使う。"
@@ -57,7 +57,7 @@
     {
       "id": "F002",
       "location": {
-        "section": "コアイメージ",
+        "section": "[object Object]",
         "line_start": 1,
         "line_end": 1,
         "exact_quote": "人・視線・表情・関係では、対象に応じた強い感情や態度、または強い感情的相互作用として現れる。"
@@ -88,10 +88,10 @@
     {
       "id": "F003",
       "location": {
-        "section": "意味・用法・関連表現",
+        "section": "[object Object]",
         "line_start": 1,
         "line_end": 1,
-        "exact_quote": "relationship では情緒的な結びつきや相互作用の強さを表す。"
+        "exact_quote": "an intense relationship＝情緒的な結びつきや相互作用が強い関係"
       },
       "severity": "low",
       "description": "intense relationship の意味を、情緒的な結びつきや相互作用の強さとして一方向に説明している。",
@@ -119,10 +119,10 @@
     {
       "id": "F004",
       "location": {
-        "section": "意味・用法・関連表現",
+        "section": "[object Object]",
         "line_start": 1,
         "line_end": 1,
-        "exact_quote": "この数値は形容詞lemma全体の基準値である。"
+        "exact_quote": "intense は順位2,315、出現数14,452、分散度0.97で、10段階は順位帯を1–500=10、501–1,000=9、1,001–1,500=8、1,501–2,500=7、2,501–3,500=6、3,501–4,500=5、4,501–5,000=4、上位5,000外=3と機械的に対応させた。"
       },
       "severity": "low",
       "description": "頻度指標の具体的な順位・出現数・分散度と10段階評価を、根拠資料への参照なしに断定している。",
@@ -138,5 +138,5 @@
       ]
     }
   ],
-  "recorded_at": "2026-09-05T19:58:56.508Z"
+  "recorded_at": "2026-09-05T20:25:57.483Z"
 }
