@@ -14,15 +14,15 @@
     "max_candidate_pages": 26
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 8,
+    "candidate_pages": 14
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-05T15:27:28Z",
+  "last_heartbeat_at": "2026-09-05T16:27:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-05T15:27:28Z",
@@ -38,6 +38,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-05T15:27:28Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T16:27:00Z",
+      "notes": "orchestrator completed generation after independent checker revisions"
     }
   ],
   "stop_reason": "",
@@ -431,15 +436,15 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
-    "total_duration_seconds": 0.0,
+    "total_revisions": 1,
+    "total_duration_seconds": 301,
     "completed_at": "",
     "stages": [
       {
         "id": "guard_start",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": true
@@ -447,26 +452,26 @@
       {
         "id": "generation",
         "instruction_bytes": 53398,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 10351,
+        "duration_seconds": 300,
+        "defects_detected": 4,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 120,
+        "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -475,7 +480,7 @@
         "id": "cold_review",
         "instruction_bytes": 1419,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -484,7 +489,7 @@
         "id": "final_blind",
         "instruction_bytes": 3161,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -493,7 +498,7 @@
         "id": "blind_seal",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -502,7 +507,7 @@
         "id": "finding_resolution",
         "instruction_bytes": 1492,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -511,7 +516,7 @@
         "id": "final_review",
         "instruction_bytes": 3065,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -520,7 +525,7 @@
         "id": "status_update",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -529,7 +534,7 @@
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "revision_count": 0,
         "completed": false
@@ -540,7 +545,7 @@
         "id": "translation",
         "instruction_bytes": 2402,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -548,7 +553,7 @@
         "id": "sense-structure",
         "instruction_bytes": 3031,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -556,7 +561,7 @@
         "id": "frame-relation",
         "instruction_bytes": 8294,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -564,7 +569,7 @@
         "id": "example-attribution",
         "instruction_bytes": 5552,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -572,7 +577,7 @@
         "id": "qualification",
         "instruction_bytes": 2876,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -580,7 +585,7 @@
         "id": "pronunciation",
         "instruction_bytes": 1815,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -588,7 +593,7 @@
         "id": "evidence",
         "instruction_bytes": 2687,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       }
@@ -599,7 +604,7 @@
         "status": "trial",
         "instruction_bytes": 315,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -608,7 +613,7 @@
         "status": "trial",
         "instruction_bytes": 557,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       },
@@ -617,17 +622,27 @@
         "status": "active",
         "instruction_bytes": 302,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 0,
         "defects_detected": 0,
         "completed": false
       }
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/i/intense.md",
+        "audits/runs/i/intense/20260905T152653Z-81cda47a/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a/validator.json"
+      ]
+    }
   }
 }
