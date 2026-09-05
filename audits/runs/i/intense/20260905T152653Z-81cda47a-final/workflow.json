@@ -22,11 +22,11 @@
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-05T19:09:58Z",
+  "last_heartbeat_at": "2026-09-05T20:03:06.261Z",
   "remote_checkpoint": {
-    "confirmed": true,
-    "confirmed_at": "2026-09-05T15:27:28Z",
-    "commit_sha": "0b6f065215c4ac25fce0bd18c5eee84a07b654b4"
+    "confirmed": false,
+    "confirmed_at": "",
+    "commit_sha": ""
   },
   "stage_history": [
     {
@@ -60,24 +60,49 @@
       "notes": "資格レビュー指摘に対応し、頻度指標の米国英語範囲と根拠外の表現を修正した最新版を保存"
     },
     {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:17:13Z",
+      "notes": "頻度見出しを標準ラベルへ戻し、米国英語スコープとsource U-008を整合した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:21:20Z",
+      "notes": "コアイメージの重複枝を統合し、単一語義との対応を整合した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:32:00Z",
+      "notes": "活動用法の非必須条件列挙を削除し、根拠が直接示す範囲へ限定した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:32:53Z",
+      "notes": "定義部にも残っていた根拠外の非必須条件列挙を削除した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:40:22Z",
+      "notes": "類義語欄のintensiveを関連語位置へ戻し、頻度指標を米国英語限定・英語全体非該当と明示した最新版を保存"
+    },
+    {
       "stage": "source_inventory_complete",
-      "recorded_at": "2026-09-05T19:09:58Z",
-      "notes": "source-first inventory complete; final attempt budget reserved"
+      "recorded_at": "2026-09-05T20:03:03.261Z",
+      "notes": "source-first inventory refreshed for the fixed post-revision body"
     },
     {
       "stage": "normal_review_complete",
-      "recorded_at": "2026-09-05T19:09:58Z",
+      "recorded_at": "2026-09-05T20:03:04.261Z",
       "notes": "7 independent checker passes completed with no findings"
     },
     {
       "stage": "cold_review_complete",
-      "recorded_at": "2026-09-05T19:09:58Z",
-      "notes": "independent cold review completed; two minor findings resolved in the next stage"
+      "recorded_at": "2026-09-05T20:03:05.261Z",
+      "notes": "fresh context-free cold review completed; four findings carried to main resolution"
     },
     {
       "stage": "blind_seal_complete",
-      "recorded_at": "2026-09-05T19:09:58Z",
-      "notes": "final blind output sealed before final review"
+      "recorded_at": "2026-09-05T20:03:06.261Z",
+      "notes": "fresh final-blind output sealed before main-authored resolutions and final review"
     }
   ],
   "stop_reason": "",
@@ -471,8 +496,8 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 6,
-    "total_duration_seconds": 611,
+    "total_revisions": 12,
+    "total_duration_seconds": 786,
     "completed_at": "",
     "stages": [
       {
@@ -488,9 +513,9 @@
         "id": "generation",
         "instruction_bytes": 53398,
         "input_bytes": 10586,
-        "duration_seconds": 301,
+        "duration_seconds": 306,
         "defects_detected": 0,
-        "revision_count": 6,
+        "revision_count": 12,
         "completed": true
       },
       {
@@ -582,7 +607,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       },
       {
         "id": "sense-structure",
@@ -590,7 +616,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       },
       {
         "id": "frame-relation",
@@ -598,7 +625,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       },
       {
         "id": "example-attribution",
@@ -606,7 +634,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       },
       {
         "id": "qualification",
@@ -614,7 +643,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       },
       {
         "id": "pronunciation",
@@ -622,7 +652,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       },
       {
         "id": "evidence",
@@ -630,7 +661,8 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": true
+        "completed": true,
+        "revision_count": 0
       }
     ],
     "process_rules": [
@@ -669,18 +701,21 @@
       "guard_start",
       "generation",
       "mechanical_validator",
-      "checker_passes",
+      "source_inventory",
+      "normal_review",
       "cold_review",
-      "final_blind",
       "blind_seal"
     ],
     "stage_outputs": {
       "generation": [
         "entries/i/intense.md",
-        "audits/runs/i/intense/20260905T152653Z-81cda47a/generation.json"
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/generation.json"
       ],
       "mechanical_validator": [
-        "audits/runs/i/intense/20260905T152653Z-81cda47a/validator.json"
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/validator.json"
+      ],
+      "source_inventory": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/source_inventory.json"
       ],
       "normal_review": [
         "audits/runs/i/intense/20260905T152653Z-81cda47a-final/pass_findings.json"
@@ -694,6 +729,7 @@
       "blind_seal": [
         "audits/runs/i/intense/20260905T152653Z-81cda47a-final/blind_seal.json"
       ]
-    }
+    },
+    "body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"
   }
 }

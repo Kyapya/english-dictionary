@@ -1,4 +1,22 @@
 {
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
+  "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
+  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+  "prompt_sha256": "1ba58422a0fede126a88cd6c47ffe5ee8c2274f3ad0440c2f2adb1fad3784919",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "main_orchestrator",
+    "agent_id": "01a07324-8326-71c2-ae89-d7a51e19d089",
+    "same_model_as_generation": true
+  },
   "reviewer_provenance": {
     "reviewer_role": "independent_context_free_cold_reviewer",
     "stage": "cold_review",
@@ -6,73 +24,119 @@
     "session_mode": "separate_model_session",
     "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
     "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
-    "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc"
+    "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"
   },
-  "summary": "明白な学習上の重大問題はないが、relationship と intensive の説明に軽微な誤解リスクがある。",
+  "summary": "本文のみの独立冷却レビューで4件の学習上の注意点を検出。活動用法・人/視線用法・関係用法・頻度指標の範囲を確認対象とした。",
   "findings": [
     {
       "id": "F001",
-      "location": "コアイメージ／文法パターン／コロケーション an intense relationship／語法・注意",
-      "severity": "low",
-      "description": "intense relationship を「濃密な関係」と中心的に訳し、情緒的な結びつきや相互作用の強さとして説明している。",
-      "reason": "intense relationship は感情的に強烈・緊迫した・波乱の多い関係も含み、必ずしも親密で濃密な関係とは限らない。「濃密」は肯定的で親密な含意を持ちやすい。",
-      "suggested_direction": "「感情の起伏が激しい関係」「感情的に強烈な関係」などを基本訳にし、親密さを含む場合に限って「濃密」とする。",
+      "location": {
+        "section": "コアイメージ",
+        "line_start": 1,
+        "line_end": 1,
+        "exact_quote": "短期間に多くの行動が集中する文脈にも使う。"
+      },
+      "severity": "medium",
+      "description": "intense が活動について使われる場合の典型例を、短期間への活動集中として強く一般化している。",
+      "reason": "intense activity や intense competition は、短期間に集中する場合だけでなく、活動・競争の強度や激しさが高い場合にも使われる。短期間性を必要条件のように学習者が受け取るおそれがある。",
+      "rationale": "活動用法の説明が時間的集中に偏っており、強度・激しさそのものとの境界が不明確になる。",
+      "suggested_direction": "「短期間に多くの行動が集中することもあるが、必須ではない」と補足し、活動用法の中心を強度・激しさに置く。",
       "scope_anchors": [
         {
-          "id": "F001-A1",
-          "exact_quote": "・an intense relationship",
-          "location_hint": "文法パターン／コロケーションの用法行"
+          "id": "F001-a",
+          "exact_quote": "短期間に多くの行動が集中する文脈にも使う。",
+          "location_hint": "コアイメージ冒頭段落"
         },
         {
-          "id": "F001-A2",
-          "exact_quote": "訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。",
-          "location_hint": "コロケーション an intense relationship の訳"
+          "id": "F001-b",
+          "exact_quote": "活動では強度・激しさが高いことを表し、短期間に多くの活動が集まる文脈にも使う。",
+          "location_hint": "意味・用法・関連表現 1 の日本語訳・定義"
         }
       ]
     },
     {
       "id": "F002",
-      "location": "語形成 intensive／語法・注意／類義語 intensive",
-      "severity": "low",
-      "description": "intensive と intense の違いを、主に「活動への努力・注意の集中投入を客観的に記述する」対「経験される強さ・負荷・感情」と整理している。",
-      "reason": "intensive は客観性そのものより、限られた期間・範囲に資源を集中的に投入すること、または徹底的・集中的に行う性質を表す。intense も活動の負荷や努力を修飾できるため、現在の対比だけでは境界がやや単純化される。",
-      "suggested_direction": "intensive の時間的・投入量的・計画的な集中（intensive course, intensive care, intensive training）を明示し、intense は活動・経験・感情の強烈さに焦点を置くと補足する。",
+      "location": {
+        "section": "コアイメージ",
+        "line_start": 1,
+        "line_end": 1,
+        "exact_quote": "人・視線・表情・関係では、対象に応じた強い感情や態度、または強い感情的相互作用として現れる。"
+      },
+      "severity": "medium",
+      "description": "人・視線・表情・関係の用法を、強い感情や感情的相互作用にほぼ限定している。",
+      "reason": "an intense person は感情的で極端、真剣、強烈な印象を与える人などを指し、必ずしも特定の強い感情や態度を持つという意味ではない。intense look も感情が表れた視線に限らず、凝視するような強い視線を表せる。",
+      "rationale": "複数の用法を一つの心理的説明にまとめたため、文脈に応じた意味の幅が狭くなっている。",
+      "suggested_direction": "人については「性格・存在感・取り組み方などが強烈」とし、視線については感情表出に加えて「集中した／鋭い」視線も含める。",
       "scope_anchors": [
         {
-          "id": "F002-A1",
-          "exact_quote": "・intensive（形容詞）",
-          "location_hint": "語形成の intensive の項目"
+          "id": "F002-a",
+          "exact_quote": "人・視線・表情・関係では、対象に応じた強い感情や態度、または強い感情的相互作用として現れる。",
+          "location_hint": "コアイメージ冒頭段落"
         },
         {
-          "id": "F002-A2",
-          "exact_quote": "intensive は活動への努力・注意などの集中投入を客観的に記述しやすく",
-          "location_hint": "語義2の語法・注意"
+          "id": "F002-b",
+          "exact_quote": "an intense person＝強い感情や態度を持つ、またはそうした印象を与える人",
+          "location_hint": "文法パターン"
         },
         {
-          "id": "F002-A3",
-          "exact_quote": "・intensive",
-          "location_hint": "類義語 intensive の項目"
+          "id": "F002-c",
+          "exact_quote": "an intense look/gaze＝強い感情が表れた視線",
+          "location_hint": "文法パターン"
+        }
+      ]
+    },
+    {
+      "id": "F003",
+      "location": {
+        "section": "意味・用法・関連表現",
+        "line_start": 1,
+        "line_end": 1,
+        "exact_quote": "relationship では情緒的な結びつきや相互作用の強さを表す。"
+      },
+      "severity": "low",
+      "description": "intense relationship の意味を、情緒的な結びつきや相互作用の強さとして一方向に説明している。",
+      "reason": "intense relationship は親密で深い関係にも、感情の起伏が激しく緊張を伴う関係にも使われる。必ずしも肯定的な情緒的結びつきや相互作用を含意しない。",
+      "rationale": "本文は「評価は対象と文脈により変わる」と述べる一方、relationship の個別説明では否定的・緊張的な用法が見えにくい。",
+      "suggested_direction": "「感情的な結びつきや関わりが強く、親密な場合にも緊張を伴う場合にも使う」と明示する。",
+      "scope_anchors": [
+        {
+          "id": "F003-a",
+          "exact_quote": "an intense relationship＝情緒的な結びつきや相互作用が強い関係",
+          "location_hint": "文法パターン"
+        },
+        {
+          "id": "F003-b",
+          "exact_quote": "relationship では情緒的な結びつきや相互作用の強さを表す。",
+          "location_hint": "語法・注意"
+        },
+        {
+          "id": "F003-c",
+          "exact_quote": "彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。",
+          "location_hint": "an intense relationship の例文訳"
+        }
+      ]
+    },
+    {
+      "id": "F004",
+      "location": {
+        "section": "意味・用法・関連表現",
+        "line_start": 1,
+        "line_end": 1,
+        "exact_quote": "この数値は形容詞lemma全体の基準値である。"
+      },
+      "severity": "low",
+      "description": "頻度指標の具体的な順位・出現数・分散度と10段階評価を、根拠資料への参照なしに断定している。",
+      "reason": "本文だけではCOCAの版、抽出条件、順位表、計算手順を検証できない。さらに語義別頻度ではないため、各用法の学習上の頻度と誤解される可能性がある。",
+      "rationale": "注意書きはあるものの、数値の再現性と指標の意味が読者にとって確認できない。",
+      "suggested_direction": "出典・対象データ・取得時点を示すか、検証可能な出典がない場合は数値を削除し、「比較的よく使われる一般語」程度に留める。",
+      "scope_anchors": [
+        {
+          "id": "F004-a",
+          "exact_quote": "intense は順位2,315、出現数14,452、分散度0.97で、10段階は順位帯を1–500=10、501–1,000=9、1,001–1,500=8、1,501–2,500=7、2,501–3,500=6、3,501–4,500=5、4,501–5,000=4、上位5,000外=3と機械的に対応させた。",
+          "location_hint": "頻度注記"
         }
       ]
     }
   ],
-  "reviewer": {
-    "mode": "handoff",
-    "declared_model": "gpt-5.6-luna-wm",
-    "ingested_by": "human",
-    "agent_id": "01a072f5-8052-70c3-ac01-3fc4e8cb50a0",
-    "same_model_as_generation": true
-  },
-  "schema_version": "cold_review_v1",
-  "stage": "cold_review",
-  "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
-  "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
-  "prompt_sha256": "1ba58422a0fede126a88cd6c47ffe5ee8c2274f3ad0440c2f2adb1fad3784919",
-  "input_artifacts": [
-    "entry_body",
-    "cold_review_prompt"
-  ],
-  "audit_visible": false,
-  "recorded_at": "2026-09-05T19:07:12Z"
+  "recorded_at": "2026-09-05T19:58:56.508Z"
 }

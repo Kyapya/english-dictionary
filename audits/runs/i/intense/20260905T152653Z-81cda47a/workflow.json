@@ -18,11 +18,11 @@
     "candidate_pages": 14
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "blind_seal_complete",
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-05T19:42:23Z",
+  "last_heartbeat_at": "2026-09-05T20:03:06.261Z",
   "remote_checkpoint": {
     "confirmed": false,
     "confirmed_at": "",
@@ -83,6 +83,26 @@
       "stage": "draft_saved",
       "recorded_at": "2026-09-05T19:40:22Z",
       "notes": "類義語欄のintensiveを関連語位置へ戻し、頻度指標を米国英語限定・英語全体非該当と明示した最新版を保存"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-05T20:03:03.261Z",
+      "notes": "source-first inventory refreshed for the fixed post-revision body"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-05T20:03:04.261Z",
+      "notes": "7 independent checker passes completed with no findings"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-05T20:03:05.261Z",
+      "notes": "fresh context-free cold review completed; four findings carried to main resolution"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-05T20:03:06.261Z",
+      "notes": "fresh final-blind output sealed before main-authored resolutions and final review"
     }
   ],
   "stop_reason": "",
@@ -477,7 +497,7 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 12,
-    "total_duration_seconds": 646,
+    "total_duration_seconds": 786,
     "completed_at": "",
     "stages": [
       {
@@ -514,7 +534,7 @@
         "duration_seconds": 240,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "cold_review",
@@ -523,7 +543,7 @@
         "duration_seconds": 45,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
@@ -532,7 +552,7 @@
         "duration_seconds": 20,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
@@ -541,7 +561,7 @@
         "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "finding_resolution",
@@ -587,7 +607,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       },
       {
@@ -596,7 +616,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       },
       {
@@ -605,7 +625,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       },
       {
@@ -614,7 +634,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       },
       {
@@ -623,7 +643,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       },
       {
@@ -632,7 +652,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       },
       {
@@ -641,7 +661,7 @@
         "input_bytes": 0,
         "duration_seconds": 30,
         "defects_detected": 0,
-        "completed": false,
+        "completed": true,
         "revision_count": 0
       }
     ],
@@ -676,19 +696,38 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 3,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
-      "mechanical_validator"
+      "mechanical_validator",
+      "source_inventory",
+      "normal_review",
+      "cold_review",
+      "blind_seal"
     ],
     "stage_outputs": {
       "generation": [
         "entries/i/intense.md",
-        "audits/runs/i/intense/20260905T152653Z-81cda47a/generation.json"
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/generation.json"
       ],
       "mechanical_validator": [
-        "audits/runs/i/intense/20260905T152653Z-81cda47a/validator.json"
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/validator.json"
+      ],
+      "source_inventory": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/source_inventory.json"
+      ],
+      "normal_review": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/cold_review.json"
+      ],
+      "final_blind": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/i/intense/20260905T152653Z-81cda47a-final/blind_seal.json"
       ]
     },
     "body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"

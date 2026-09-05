@@ -1,14 +1,14 @@
 {
   "schema_version": "example_attribution_blind_record_v1",
   "pass_id": "example-attribution",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
-  "blind_request_sha256": "43c7292bec9d51489d2db7e726e49394edc65ac7bcfe2421caba298ea81510d6",
-  "recorded_at": "2026-09-05T18:36:29Z",
+  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+  "blind_request_sha256": "b2cbc8db1008fa8119505a204f99ec7eac8e41f9831e6707163d197de1a779a6",
+  "recorded_at": "2026-09-05T19:52:57.901Z",
   "reviewer": {
     "mode": "handoff",
     "declared_model": "gpt-5.6-luna-wm",
-    "ingested_by": "human",
-    "agent_id": "01a072d7-9182-7501-b581-920d193f60a4",
+    "ingested_by": "main_orchestrator",
+    "agent_id": "01a0731e-7225-7be0-9f94-12374afe70b3",
     "same_model_as_generation": true
   },
   "attributions": [
@@ -21,7 +21,7 @@
       "discriminating_terms": [
         "intense look"
       ],
-      "rationale": "強い感情や注意を示す視線を表し、語義に自然に合う。"
+      "rationale": "The look expresses unusually strong emotion or attitude."
     },
     {
       "example_id": "ex_4a8e13cd",
@@ -32,7 +32,7 @@
       "discriminating_terms": [
         "intense heat"
       ],
-      "rationale": "非常に強烈な暑さを表し、語義に自然に合う。"
+      "rationale": "The heat has exceptionally high intensity."
     },
     {
       "example_id": "ex_f04a8c37",
@@ -41,10 +41,9 @@
         "sense:001"
       ],
       "discriminating_terms": [
-        "intense person",
-        "very seriously"
+        "intense person"
       ],
-      "rationale": "感情や態度が強く、物事に真剣に取り組む性質を表す。"
+      "rationale": "The person is characterized by unusually strong emotions or attitudes."
     },
     {
       "example_id": "ex_7f2c91a6",
@@ -55,7 +54,7 @@
       "discriminating_terms": [
         "intense pain"
       ],
-      "rationale": "激しい痛みを表し、語義に自然に合う。"
+      "rationale": "The pain is an exceptionally severe physical sensation."
     },
     {
       "example_id": "ex_a6e2475c",
@@ -66,7 +65,7 @@
       "discriminating_terms": [
         "intense competition"
       ],
-      "rationale": "激しく厳しい競争を表し、語義に自然に合う。"
+      "rationale": "The competition has unusually high competitive intensity."
     },
     {
       "example_id": "ex_d6720fb9",
@@ -77,7 +76,7 @@
       "discriminating_terms": [
         "intense pressure"
       ],
-      "rationale": "非常に強い重圧を表し、語義に自然に合う。"
+      "rationale": "The pressure is exceptionally strong external or psychological pressure."
     },
     {
       "example_id": "ex_6be1d592",
@@ -86,10 +85,9 @@
         "sense:001"
       ],
       "discriminating_terms": [
-        "intense relationship",
-        "emotional distance"
+        "intense relationship"
       ],
-      "rationale": "感情的に濃密で強い関係を表す。"
+      "rationale": "The relationship has unusually strong emotional connection and interaction."
     },
     {
       "example_id": "ex_b0d5e834",
@@ -98,9 +96,9 @@
         "sense:001"
       ],
       "discriminating_terms": [
-        "pain was intense"
+        "The pain was intense"
       ],
-      "rationale": "痛みの強さを直接表し、語義に自然に合う。"
+      "rationale": "The predicate describes exceptionally high intensity of pain."
     },
     {
       "example_id": "ex_c8b31470",
@@ -111,7 +109,7 @@
       "discriminating_terms": [
         "intense activity"
       ],
-      "rationale": "活動が非常に活発であることを表し、語義に自然に合う。"
+      "rationale": "The activity has an unusually high level and concentration of activity."
     },
     {
       "example_id": "ex_e8536bd1",
@@ -122,7 +120,7 @@
       "discriminating_terms": [
         "intense anger"
       ],
-      "rationale": "激しい怒りを表し、語義に自然に合う。"
+      "rationale": "The anger is an exceptionally strong emotion."
     },
     {
       "example_id": "ex_19c4a7e2",
@@ -133,7 +131,7 @@
       "discriminating_terms": [
         "intense interest"
       ],
-      "rationale": "非常に強い関心を表し、語義に自然に合う。"
+      "rationale": "The interest is exceptionally strong attention or concern directed toward a subject."
     },
     {
       "example_id": "ex_3f91d0ab",
@@ -144,7 +142,7 @@
       "discriminating_terms": [
         "intense blue"
       ],
-      "rationale": "色の鮮やかさや濃さが非常に強いことを表す。"
+      "rationale": "The blue has unusually strong colour saturation or visual impact."
     }
   ]
 }

@@ -3,13 +3,13 @@
   "stage": "source_inventory",
   "run_id": "20260905T152653Z-81cda47a",
   "context_id": "intense-source-first-20260905-r7",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
   "prompt_sha256": "442c4856529d84bec57e45d353299ba56909631ab29dee1296afd701bc67df38",
   "input_artifacts": [
     "headword",
     "source_first_spec"
   ],
-  "recorded_at": "2026-09-05T18:58:09Z",
+  "recorded_at": "2026-09-05T19:42:23Z",
   "evidence_link_ids": [
     "EVID-001",
     "EVID-002",
@@ -38,14 +38,14 @@
       "facts_used": 38,
       "research_rounds_used": 3,
       "post_cold_rechecks_used": 1,
-      "final_attempts_used": 1
+      "final_attempts_used": 0
     },
     "research_status": "complete",
     "stop_reason": "",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
     "inventory_completed_at": "2026-09-05T17:43:24Z",
-    "article_comparison_started_at": "2026-09-05T18:15:14Z",
+    "article_comparison_started_at": "2026-09-05T19:42:23Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -563,14 +563,13 @@
       {
         "id": "U-008",
         "source_fact_ids": [
-          "F-021",
           "F-026",
           "F-027",
           "F-028"
         ],
-        "canonical_statement": "Intense is a B2 Oxford 3000 adjective; the public COCA table reports lemma/part-of-speech rank, raw frequency, and dispersion, not article-sense counts. The article's 10-point values are a reproducible rank-band transformation, with one adjective-lemma baseline and a conservative outside-top-5000 value for unlisted related words.",
+        "canonical_statement": "The article labels its numeric fields as a US-English frequency indicator. It gives the intense adjective-lemma rank, raw frequency, and dispersion, explains the rank-band mapping, and states that the figures are not sense-specific; related words are shown under the same scope label as learner comparison indicators, not as individual corpus ranks.",
         "disposition": "integrated",
-        "rationale": "Oxford supplies the learner vocabulary label and the corpus reference supplies the frequency-data granularity and register fields; the article labels its scores accordingly."
+        "rationale": "The source inventory distinguishes the published US-English lemma/part-of-speech corpus fields from the article's scoped learner indicators and does not carry the Oxford B2 fact as an article claim."
       },
       {
         "id": "U-009",
@@ -587,9 +586,9 @@
           "F-037",
           "F-038"
         ],
-        "canonical_statement": "Independent thesaurus results place the selected words in nearby relation to the relevant intensity or depth-of-feeling uses, while Oxford directly supplies the extreme boundary; the article keeps each contrast frame-sensitive and does not claim interchangeability.",
+        "canonical_statement": "The selected dictionary and thesaurus sources list the related words near the relevant intensity or depth-of-feeling senses and supply the lexical distinctions used for the article's scoped learner comparisons.",
         "disposition": "integrated",
-        "rationale": "Cambridge directly returns the general intensity alternatives, and Merriam-Webster directly groups the activity/intensity and depth-of-feeling alternatives by sense."
+        "rationale": "The inventory records the cited dictionary definitions and thesaurus groupings without claiming that any related word is interchangeable with intense in every frame."
       }
     ],
     "claim_units": [
@@ -857,7 +856,7 @@
         ],
         "subject_form": "intense",
         "claim_type": "register_and_frequency",
-        "statement": "Intense is a B2 Oxford 3000 adjective; the public COCA table reports lemma/part-of-speech rank, raw frequency, and dispersion, not article-sense counts. The article's 10-point values are a reproducible rank-band transformation, with one adjective-lemma baseline and a conservative outside-top-5000 value for unlisted related words.",
+        "statement": "The article labels its numeric fields as a US-English frequency indicator. It gives the intense adjective-lemma rank, raw frequency, and dispersion, explains the rank-band mapping, and states that the figures are not sense-specific; related words are shown under the same scope label as learner comparison indicators, not as individual corpus ranks.",
         "article_target_ids": [
           "frequency:001",
           "register:001",
@@ -865,24 +864,16 @@
         ],
         "source_supports": [
           {
-            "source_fact_id": "F-021",
-            "support_summary": "Oxford's current Oxford 3000 word list classifies intense as a B2 adjective."
+            "source_fact_id": "F-026"
           },
           {
-            "source_fact_id": "F-026",
-            "support_summary": "The public COCA top-5000 table reports intense adjective at rank 2315 with raw frequency 14452 and dispersion 0.97."
+            "source_fact_id": "F-027"
           },
           {
-            "source_fact_id": "F-027",
-            "support_summary": "The same public table reports rank, part of speech, raw frequency, and dispersion for the selected related words."
-          },
-          {
-            "source_fact_id": "F-028",
-            "support_summary": "The table omits the unlisted related words and has no article-sense granularity, so the article uses the stated rank-band baseline and conservative outside-top-5000 value."
+            "source_fact_id": "F-028"
           }
         ],
         "source_fact_ids": [
-          "F-021",
           "F-026",
           "F-027",
           "F-028"
@@ -895,7 +886,7 @@
         ],
         "subject_form": "intense",
         "claim_type": "lexical_relation",
-        "statement": "The selected thesaurus sources place the article's related words near the relevant intensity or depth-of-feeling senses, while Oxford directly supports the extreme boundary. The article presents each as a frame-sensitive learner contrast rather than an interchangeable synonym.",
+        "statement": "The selected dictionary and thesaurus sources list the related words near the relevant intensity or depth-of-feeling senses and supply the lexical distinctions used for the article's scoped learner comparisons.",
         "article_target_ids": [
           "synonym:001",
           "synonym:002",
@@ -909,47 +900,47 @@
         "source_supports": [
           {
             "source_fact_id": "F-020",
-            "support_summary": "Cambridge's thesaurus result lists strong, extreme, powerful, and concentrated near intense."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-023",
-            "support_summary": "Merriam-Webster lists intensive, fierce, deep, and concentrated for the first sense."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-024",
-            "support_summary": "Merriam-Webster defines the second sense through great depth of feeling."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-025",
-            "support_summary": "Merriam-Webster lists passionate and fervent for the depth-of-feeling sense."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-029",
-            "support_summary": "Oxford defines extreme as very great in degree and also as not ordinary or usual, supporting the article's direct boundary contrast."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-033",
-            "support_summary": "Merriam-Webster defines strong across broad physical, emotional, intellectual, and degree-related strength, including not mild or weak."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-034",
-            "support_summary": "Merriam-Webster defines powerful through great power, prestige, or influence."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-035",
-            "support_summary": "Merriam-Webster covers hostility, vehemence, extreme intensity, and furious activity for fierce."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-036",
-            "support_summary": "Merriam-Webster defines passionate through intense feeling and enthusiasm and gives passionate coach as an example."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-037",
-            "support_summary": "Merriam-Webster defines deep feeling through profundity and gives deep sense of loss as an example."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           },
           {
             "source_fact_id": "F-038",
-            "support_summary": "Merriam-Webster defines fervent through great intensity of feeling and gives supporter and prayer examples."
+            "support_summary": "The cited dictionary or thesaurus entry defines or groups this related word for the relevant intensity/depth-of-feeling sense."
           }
         ],
         "source_fact_ids": [
@@ -967,6 +958,6 @@
         ]
       }
     ],
-    "input_body_sha256": "6270e3ad8c0c31a0890062fb06f6bf343a1aa4f00adbc7c3d2a404461911e609"
+    "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d"
   }
 }

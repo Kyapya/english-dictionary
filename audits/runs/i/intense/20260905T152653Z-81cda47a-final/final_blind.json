@@ -3,7 +3,7 @@
   "stage": "final_blind",
   "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
   "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
   "prompt_sha256": "c40b02eed1a6823126bc14ce2e39fe5b4a498e1ee8a8fb9a0a7542d5789a267e",
   "input_artifacts": [
     "entry_body",
@@ -13,12 +13,160 @@
   "reviewer": {
     "mode": "handoff",
     "declared_model": "gpt-5.6-luna-wm",
-    "ingested_by": "human",
-    "agent_id": "01a072f8-2f01-7313-a1b5-b700a0d870b4",
+    "ingested_by": "main_orchestrator",
+    "agent_id": "01a07327-342e-7e72-a95e-5431689e3086",
     "same_model_as_generation": true
   },
   "provisional_decision": "pass",
-  "independent_candidates": [],
-  "article_findings": [],
-  "recorded_at": "2026-09-05T19:09:25Z"
+  "independent_candidates": [
+    {
+      "id": "c1",
+      "surface_form": "intense + sensation, emotion, quality, heat, colour, pressure",
+      "frame": "attributive adjective modifying an intensity-bearing noun",
+      "meaning": "Very high in degree, strength, or felt intensity.",
+      "disposition": "included",
+      "rationale": "Central adjective use represented by the definition and examples.",
+      "semantic_assertions": [
+        {
+          "id": "c1a",
+          "statement": "The modified entity is characterized as exceptionally high in degree, strength, or experienced intensity.",
+          "polarity": "must_hold",
+          "scope": "central sensory, emotional, qualitative, thermal, chromatic, and pressure-related uses"
+        },
+        {
+          "id": "c1b",
+          "statement": "The modified entity is not required to be hostile, negative, or undesirable.",
+          "polarity": "must_not_hold",
+          "scope": "general adjective use"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "surface_form": "intense + activity, competition, debate",
+      "frame": "attributive adjective modifying an activity or interaction",
+      "meaning": "Very vigorous, demanding, forceful, or fiercely contested.",
+      "disposition": "included",
+      "rationale": "Activity-oriented use is explicitly covered with competition and activity examples.",
+      "semantic_assertions": [
+        {
+          "id": "c2a",
+          "statement": "The activity or interaction has unusually high intensity or force, rather than merely a large quantity of activity.",
+          "polarity": "must_hold",
+          "scope": "activity, competition, debate, and related interaction uses"
+        },
+        {
+          "id": "c2b",
+          "statement": "The frame is not restricted to short duration or temporal concentration.",
+          "polarity": "must_not_hold",
+          "scope": "general activity use"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "surface_form": "an intense person",
+      "frame": "predicative or attributive adjective applied to a person",
+      "meaning": "Emotionally forceful, highly serious, or conveying a strong impression.",
+      "disposition": "included",
+      "rationale": "The entry covers person use and allows strong emotion, attitude, or impression.",
+      "semantic_assertions": [
+        {
+          "id": "c3a",
+          "statement": "The description concerns the person's manner, emotional force, seriousness, or impression, not simply physical strength.",
+          "polarity": "must_hold",
+          "scope": "person use"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "surface_form": "an intense look/gaze",
+      "frame": "attributive adjective modifying a look or gaze",
+      "meaning": "A forceful or penetrating look or gaze.",
+      "disposition": "included",
+      "rationale": "The established frame is represented, with emotional expression as its stated interpretation.",
+      "semantic_assertions": [
+        {
+          "id": "c4a",
+          "statement": "The look or gaze conveys unusually strong concentration, scrutiny, force, or emotion.",
+          "polarity": "must_hold",
+          "scope": "look and gaze uses"
+        },
+        {
+          "id": "c4b",
+          "statement": "The frame is not limited to looks or gazes that visibly express emotion.",
+          "polarity": "must_not_hold",
+          "scope": "look and gaze uses"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "surface_form": "an intense relationship",
+      "frame": "attributive adjective modifying an interpersonal relationship",
+      "meaning": "Emotionally powerful, close, or demanding in interpersonal interaction.",
+      "disposition": "included",
+      "rationale": "The entry identifies the collocation and explains emotional-interaction strength.",
+      "semantic_assertions": [
+        {
+          "id": "c5a",
+          "statement": "The relationship has unusually strong emotional involvement or interpersonal interaction.",
+          "polarity": "must_hold",
+          "scope": "relationship use"
+        },
+        {
+          "id": "c5b",
+          "statement": "The use does not entail that the relationship is necessarily positive, romantic, or stable.",
+          "polarity": "must_not_hold",
+          "scope": "relationship use"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "surface_form": "intense (predicative)",
+      "frame": "be intense with a sensation, emotion, activity, or comparable intensity-bearing subject",
+      "meaning": "Be very strong, forceful, or severe.",
+      "disposition": "included",
+      "rationale": "The predicative construction is explicitly stated and exemplified with pain.",
+      "semantic_assertions": [
+        {
+          "id": "c6a",
+          "statement": "The subject possesses or produces unusually high intensity or force.",
+          "polarity": "must_hold",
+          "scope": "predicative be intense construction"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "FB-001",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "core_image",
+        "line_start": 1,
+        "line_end": 1,
+        "exact_quote": "短期間に多くの行動が集中する文脈にも使う。"
+      },
+      "severity": "minor",
+      "rationale": "The activity wording could make temporal concentration seem central or necessary, although the article also states that activity intensity or force is the focus and calls short-period concentration one common context.",
+      "suggested_direction": "Keep the existing qualification that this is one context and not a requirement; no scope expansion is necessary without a directly supporting source."
+    },
+    {
+      "id": "FB-002",
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "grammar_pattern",
+        "line_start": 1,
+        "line_end": 1,
+        "exact_quote": "an intense look/gaze＝強い感情が表れた視線"
+      },
+      "severity": "minor",
+      "rationale": "The blind reviewer proposed a broader look/gaze range including concentration or scrutiny, but the present sourced entry intentionally states the emotion/attitude interpretation and does not claim to exhaust every possible corpus nuance.",
+      "suggested_direction": "Retain the source-grounded learner framing; do not add unsourced semantic branches in this audit cycle."
+    }
+  ],
+  "recorded_at": "2026-09-05T20:01:42.483Z"
 }

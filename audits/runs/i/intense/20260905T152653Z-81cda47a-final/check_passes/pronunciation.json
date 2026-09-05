@@ -1,15 +1,1 @@
-{
-  "schema_version": "check_pass_output_v2",
-  "pass_id": "pronunciation",
-  "stage": "normal_review",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
-  "decision": "pass",
-  "findings": [],
-  "reviewer": {
-    "mode": "handoff",
-    "declared_model": "gpt-5.6-luna-wm",
-    "ingested_by": "human",
-    "agent_id": "01a072df-3b02-7152-9e34-ec658a202095",
-    "same_model_as_generation": true
-  }
-}
+{"schema_version":"check_pass_output_v2","pass_id":"pronunciation","stage":"normal_review","input_body_sha256":"5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d","decision":"pass","findings":[],"reviewer":{"mode":"handoff","declared_model":"gpt-5.6-luna-wm","ingested_by":"main_orchestrator","agent_id":"01a0731b-51e2-7983-a01e-17bd9fb0c089","same_model_as_generation":true}}

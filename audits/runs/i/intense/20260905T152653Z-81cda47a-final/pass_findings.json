@@ -3,26 +3,28 @@
   "stage": "normal_review",
   "run_id": "normal-intense-20260905T152653Z-81cda47a-final",
   "context_id": "normal-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+  "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
   "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
   "input_artifacts": [
+    "entry_body",
     "router_selected_sections",
-    "checker_pass_specs"
+    "checker_pass_specs",
+    "checker_pass_requests"
   ],
-  "recorded_at": "2026-09-05T18:58:09Z",
+  "recorded_at": "2026-09-05T19:55:51.801Z",
   "pass_outputs": [
     {
       "schema_version": "check_pass_output_v2",
       "pass_id": "translation",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072c9-1994-7b60-bab3-3295e8e590a1",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07318-7480-7313-8d78-d9f4234010a4",
         "same_model_as_generation": true
       }
     },
@@ -30,14 +32,14 @@
       "schema_version": "check_pass_output_v2",
       "pass_id": "sense-structure",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072cb-85b3-7760-8fb9-e3ea5649b093",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07318-9f4d-7c40-95f1-25d6cff5509e",
         "same_model_as_generation": true
       }
     },
@@ -45,14 +47,14 @@
       "schema_version": "check_pass_output_v2",
       "pass_id": "frame-relation",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072cc-f9af-7353-958c-ec13de34d0a0",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07319-b12e-7172-9468-de3a2f124094",
         "same_model_as_generation": true
       }
     },
@@ -60,27 +62,27 @@
       "schema_version": "check_pass_output_v2",
       "pass_id": "example-attribution",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072d7-9182-7501-b581-920d193f60a4",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0731e-7225-7be0-9f94-12374afe70b3",
         "same_model_as_generation": true
       },
       "blind_attribution_record": {
         "schema_version": "example_attribution_blind_record_v1",
         "pass_id": "example-attribution",
-        "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
-        "blind_request_sha256": "43c7292bec9d51489d2db7e726e49394edc65ac7bcfe2421caba298ea81510d6",
-        "recorded_at": "2026-09-05T18:36:29Z",
+        "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+        "blind_request_sha256": "b2cbc8db1008fa8119505a204f99ec7eac8e41f9831e6707163d197de1a779a6",
+        "recorded_at": "2026-09-05T19:52:57.901Z",
         "reviewer": {
           "mode": "handoff",
           "declared_model": "gpt-5.6-luna-wm",
-          "ingested_by": "human",
-          "agent_id": "01a072d7-9182-7501-b581-920d193f60a4",
+          "ingested_by": "main_orchestrator",
+          "agent_id": "01a0731e-7225-7be0-9f94-12374afe70b3",
           "same_model_as_generation": true
         },
         "attributions": [
@@ -93,7 +95,7 @@
             "discriminating_terms": [
               "intense look"
             ],
-            "rationale": "強い感情や注意を示す視線を表し、語義に自然に合う。"
+            "rationale": "The look expresses unusually strong emotion or attitude."
           },
           {
             "example_id": "ex_4a8e13cd",
@@ -104,7 +106,7 @@
             "discriminating_terms": [
               "intense heat"
             ],
-            "rationale": "非常に強烈な暑さを表し、語義に自然に合う。"
+            "rationale": "The heat has exceptionally high intensity."
           },
           {
             "example_id": "ex_f04a8c37",
@@ -113,10 +115,9 @@
               "sense:001"
             ],
             "discriminating_terms": [
-              "intense person",
-              "very seriously"
+              "intense person"
             ],
-            "rationale": "感情や態度が強く、物事に真剣に取り組む性質を表す。"
+            "rationale": "The person is characterized by unusually strong emotions or attitudes."
           },
           {
             "example_id": "ex_7f2c91a6",
@@ -127,7 +128,7 @@
             "discriminating_terms": [
               "intense pain"
             ],
-            "rationale": "激しい痛みを表し、語義に自然に合う。"
+            "rationale": "The pain is an exceptionally severe physical sensation."
           },
           {
             "example_id": "ex_a6e2475c",
@@ -138,7 +139,7 @@
             "discriminating_terms": [
               "intense competition"
             ],
-            "rationale": "激しく厳しい競争を表し、語義に自然に合う。"
+            "rationale": "The competition has unusually high competitive intensity."
           },
           {
             "example_id": "ex_d6720fb9",
@@ -149,7 +150,7 @@
             "discriminating_terms": [
               "intense pressure"
             ],
-            "rationale": "非常に強い重圧を表し、語義に自然に合う。"
+            "rationale": "The pressure is exceptionally strong external or psychological pressure."
           },
           {
             "example_id": "ex_6be1d592",
@@ -158,10 +159,9 @@
               "sense:001"
             ],
             "discriminating_terms": [
-              "intense relationship",
-              "emotional distance"
+              "intense relationship"
             ],
-            "rationale": "感情的に濃密で強い関係を表す。"
+            "rationale": "The relationship has unusually strong emotional connection and interaction."
           },
           {
             "example_id": "ex_b0d5e834",
@@ -170,9 +170,9 @@
               "sense:001"
             ],
             "discriminating_terms": [
-              "pain was intense"
+              "The pain was intense"
             ],
-            "rationale": "痛みの強さを直接表し、語義に自然に合う。"
+            "rationale": "The predicate describes exceptionally high intensity of pain."
           },
           {
             "example_id": "ex_c8b31470",
@@ -183,7 +183,7 @@
             "discriminating_terms": [
               "intense activity"
             ],
-            "rationale": "活動が非常に活発であることを表し、語義に自然に合う。"
+            "rationale": "The activity has an unusually high level and concentration of activity."
           },
           {
             "example_id": "ex_e8536bd1",
@@ -194,7 +194,7 @@
             "discriminating_terms": [
               "intense anger"
             ],
-            "rationale": "激しい怒りを表し、語義に自然に合う。"
+            "rationale": "The anger is an exceptionally strong emotion."
           },
           {
             "example_id": "ex_19c4a7e2",
@@ -205,7 +205,7 @@
             "discriminating_terms": [
               "intense interest"
             ],
-            "rationale": "非常に強い関心を表し、語義に自然に合う。"
+            "rationale": "The interest is exceptionally strong attention or concern directed toward a subject."
           },
           {
             "example_id": "ex_3f91d0ab",
@@ -216,16 +216,16 @@
             "discriminating_terms": [
               "intense blue"
             ],
-            "rationale": "色の鮮やかさや濃さが非常に強いことを表す。"
+            "rationale": "The blue has unusually strong colour saturation or visual impact."
           }
         ]
       },
-      "aligned_at": "2026-09-05T18:36:30Z",
+      "aligned_at": "2026-09-05T19:52:58.901Z",
       "blind_attribution_alignment": {
         "schema_version": "example_attribution_alignment_key_v1",
         "pass_id": "example-attribution",
-        "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
-        "blind_request_sha256": "43c7292bec9d51489d2db7e726e49394edc65ac7bcfe2421caba298ea81510d6",
+        "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
+        "blind_request_sha256": "b2cbc8db1008fa8119505a204f99ec7eac8e41f9831e6707163d197de1a779a6",
         "shuffle_seed": "run_6c18e4a9",
         "examples": [
           {
@@ -344,14 +344,14 @@
       "schema_version": "check_pass_output_v2",
       "pass_id": "qualification",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072db-b8c4-71b1-a89a-71a8df103091",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07319-daf7-7600-8efe-2ab863878091",
         "same_model_as_generation": true
       }
     },
@@ -359,14 +359,14 @@
       "schema_version": "check_pass_output_v2",
       "pass_id": "pronunciation",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072df-3b02-7152-9e34-ec658a202095",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0731b-51e2-7983-a01e-17bd9fb0c089",
         "same_model_as_generation": true
       }
     },
@@ -374,14 +374,14 @@
       "schema_version": "check_pass_output_v2",
       "pass_id": "evidence",
       "stage": "normal_review",
-      "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+      "input_body_sha256": "5e1bc455aba06295009ef1ed1df4fb6d1ca516ce9cc1e8ac2ff7d0db439e791d",
       "decision": "pass",
       "findings": [],
       "reviewer": {
         "mode": "handoff",
         "declared_model": "gpt-5.6-luna-wm",
-        "ingested_by": "human",
-        "agent_id": "01a072ec-0841-7b33-80e1-8bc666dd60be",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0731b-7d92-70e1-8340-97315acef094",
         "same_model_as_generation": true
       }
     }
@@ -390,50 +390,50 @@
     "translation": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072c9-1994-7b60-bab3-3295e8e590a1",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a07318-7480-7313-8d78-d9f4234010a4",
       "same_model_as_generation": true
     },
     "sense-structure": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072cb-85b3-7760-8fb9-e3ea5649b093",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a07318-9f4d-7c40-95f1-25d6cff5509e",
       "same_model_as_generation": true
     },
     "frame-relation": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072cc-f9af-7353-958c-ec13de34d0a0",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a07319-b12e-7172-9468-de3a2f124094",
       "same_model_as_generation": true
     },
     "example-attribution": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072d7-9182-7501-b581-920d193f60a4",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a0731e-7225-7be0-9f94-12374afe70b3",
       "same_model_as_generation": true
     },
     "qualification": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072db-b8c4-71b1-a89a-71a8df103091",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a07319-daf7-7600-8efe-2ab863878091",
       "same_model_as_generation": true
     },
     "pronunciation": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072df-3b02-7152-9e34-ec658a202095",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a0731b-51e2-7983-a01e-17bd9fb0c089",
       "same_model_as_generation": true
     },
     "evidence": {
       "mode": "handoff",
       "declared_model": "gpt-5.6-luna-wm",
-      "ingested_by": "human",
-      "agent_id": "01a072ec-0841-7b33-80e1-8bc666dd60be",
+      "ingested_by": "main_orchestrator",
+      "agent_id": "01a0731b-7d92-70e1-8340-97315acef094",
       "same_model_as_generation": true
     }
   },
