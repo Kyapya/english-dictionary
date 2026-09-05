@@ -36,7 +36,7 @@ python scripts/run_word.py --resume <workflow-run.json> \
   --reviewer-agent-id <independent-subagent-id>
 ```
 
-cold review / final blind は生成担当とは独立したreview subagent/contextで実行します。コールドレビューと最終盲検には生成時の `process_improvement/ACTIVE.md` や既存findingを渡しません。
+cold review / final blind は生成担当とは独立したreview subagent/contextで実行します。コールドレビューと最終盲検には生成時の `process_improvement/ACTIVE.md` や既存findingを渡しません。通常checkerとcold reviewは同じ固定draftを対象とし、API modeでは最大7 worker枠の中で同時進行します。
 
 ## checker_passes は7パス並列
 
@@ -76,9 +76,15 @@ checker_passes handoffは以上の意味で **2往復** ですが、最初の往
 
 新規runのorchestrator manifestには `checker_execution_protocol: parallel_subagents_v2` と `checker_subagent_count` を記録します。CIの `scripts/checker_subagent_gate.py` は、このプロトコルを持つcompleted handoff runについて7パスの被覆と `reviewer.agent_id` の一意性を再検証します。モデル名の一意性は要求しません。旧runは過去の監査証跡を改変しないため、この新プロトコルを持たない限り遡及的に失敗させません。
 
+evidence checker requestには、完成済みsource-first正本から対象claimに関係するsource、fact、source union、claim unit、source supportだけを抽出した `evidence_context_v1` を入れます。全artifactの丸ごと複製や再探索は行いません。source-first欠落・未完了・参照切れ・本文hash不一致はchecker開始前に拒否し、API/handoffはいずれも同じrequest JSONを使います。
+
 ## オーケストレータ
 
-オーケストレータはguard開始、生成、機械validator、7つのchecker pass、独立コールドレビュー、独立final blind、blind seal、finding解決、final review、status同期、exportの順序を記録します。budget、remote checkpoint、段階成果物の存在、blind入力分離、seal時系列、status遷移はスクリプトが強制します。heartbeatは監査用の進捗時刻として記録します。詳しい入力契約は `python scripts/run_word.py --dry-run <headword>` のJSONを正本とします。
+オーケストレータはguard開始、生成、機械validator、同一固定draftへの7 checker/cold、pre-blind resolution、一括修正、影響範囲checker再検査、最新版への独立final blind、blind seal、post-blind resolution、final review、status同期、exportの順序を記録します。final-blind修正を採用した場合は、影響pass再検査後に新本文でfinal blindを再実行します。budget、remote checkpoint、段階成果物の存在、blind入力分離、本文hash、seal時系列、status遷移はスクリプトが強制します。
+
+修正影響は `scripts/workflow_revision.py` が意味単位で判定します。pronunciationだけならpronunciation/evidence、例文・訳ならtranslation/example-attribution/frame-relation等を失効させます。spec hash、正規化入力hash、source-first hash、schema、reviewer independence、request bindingがすべて一致し、影響対象外のpassだけ再利用できます。分類不能、複数section、語義統合・分割、品詞追加削除は全7 checkerを再実行します。cold reviewは同じ目的で全面再実行しません。
+
+findingゼロだけを理由とする二次cold/example-attribution reviewは新規runでは行いません。必須pass欠落・hash不一致等は機械拒否し、具体的な判断衝突、明示的不確実性、未解決evidenceだけを争点単位の `targeted_adjudication` へ送ります。`insufficient_evidence` はPASSへ変換しません。
 
 `process_improvement/ACTIVE.md` は生成段だけへ渡し、コールドレビューと最終盲検には渡しません。registryは `scripts/process_improvement.py` が検証し、単語固有のメモや「新しい知見なし」はrecordにしません。
 
@@ -94,7 +100,9 @@ checker_passes handoffは以上の意味で **2往復** ですが、最初の往
 | 内容checker | frame-relationは `prompts/check_pass_frame_relation_v7.md`、他6パスは `prompts/check_pass_*_v6.md` |
 | cold review | `prompts/cold_review_prompt_v1.md` |
 | final blind | `prompts/final_blind_prompt_v2.md` |
-| finding解決 | `prompts/finding_resolution_v6.md` |
+| checker/cold finding解決 | `prompts/pre_blind_resolution_v1.md` |
+| final-blind finding解決 | `prompts/post_blind_resolution_v1.md` |
+| 争点別追加裁定 | `prompts/targeted_adjudication_v1.md` |
 | 最終合否 | `prompts/final_review_spec_v2.md` |
 | source-first | `prompts/source_first_audit_v2.md` |
 | Notion表示変換 | `prompts/notion_spec_v1.md` |
@@ -113,7 +121,7 @@ python scripts/generate_audit_manifest.py generate \
   --output audits/a/apple.json
 ```
 
-root manifestはrawのhash、finding、resolution、最終判定の派生物であり、手動値を正本にしません。既存のv1〜v3監査、過去raw、history、revision snapshotは互換資産として残します。
+root manifestはrawのhash、finding、pre/post resolution、checker再検査・再利用、最終判定の派生物であり、手動値を正本にしません。`workflow_improvement_v1` より前のcompleted runは旧resolution契約のまま読み取り可能で、遡及的に無効化・再生成しません。
 
 ## 検証
 

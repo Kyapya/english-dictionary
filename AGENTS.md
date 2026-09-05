@@ -38,6 +38,23 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 7パス被覆と `reviewer.agent_id` 一意性をCIで再検証する。これはLLM checkerを追加する処理ではなく、
 既存レビューのprovenanceを機械検証するだけである。
 
+evidence passは、同じrunの完成済み `source_inventory.json` を正本とする
+`evidence_context_v1` を受け取る。対象claimに必要なsource/fact/union/supportだけを
+機械抽出し、本文・正本hash、schema、参照整合が不正ならfail closedとする。再探索はしない。
+
+### 修正・final blind・追加裁定
+
+固定draftに通常7 checkerとcold reviewを実行し、APIではcoldも同じ最大7 worker枠へ
+投入する。checker/cold findingは `pre_blind_resolution` で一括反映し、
+`scripts/workflow_revision.py` が変更意味単位に依存するpassだけを失効させる。
+分類不能、複数section、語義統合・分割、品詞追加削除は全7 passへ倒す。
+
+影響passの再検査後、最新本文だけをfinal blindへ渡す。final-blind findingは
+`post_blind_resolution` だけで裁定し、採用修正時は影響pass再検査後に新本文で
+final blindを再実行する。findingゼロは追加レビュー理由にしない。具体的な判断衝突、
+明示的不確実性、未解決evidenceだけを独立 `targeted_adjudication` へ渡し、
+`insufficient_evidence` はPASSにしない。
+
 ## ファイル・status
 
 記事は `entries/{slugの先頭1文字}/{slug}.md`、run成果物は `audits/workflow_runs/` と
@@ -52,10 +69,10 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 | 通常チェック | `prompts/check_router_v6.md`、`prompts/check_pass_frame_relation_v7.md`、`prompts/check_pass_*_v6.md` |
 | コールドレビュー | `prompts/cold_review_prompt_v1.md` |
 | 最終盲検 | `prompts/final_blind_prompt_v2.md` |
-| finding解決・最終合否 | `prompts/finding_resolution_v6.md`、`prompts/final_review_spec_v2.md` |
+| finding解決・最終合否 | `prompts/pre_blind_resolution_v1.md`、`prompts/post_blind_resolution_v1.md`、`prompts/targeted_adjudication_v1.md`、`prompts/final_review_spec_v2.md` |
 | 局所修整 | `prompts/targeted_correction_review_v1.md`、`scripts/targeted_correction.py` |
 | source-first・semantic gate | `prompts/source_first_audit_v2.md`、`prompts/semantic_resolution_gate_v1.md` |
-| 工程・形式・整合 | `scripts/run_word.py`、`scripts/checker_subagent_gate.py`、`scripts/entry_workflow_guard.py`、`scripts/validate_entry.py`、`scripts/validate_repository.py` |
+| 工程・形式・整合 | `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/checker_subagent_gate.py`、`scripts/entry_workflow_guard.py`、`scripts/validate_entry.py`、`scripts/validate_repository.py` |
 | Notion・改善 | `prompts/notion_spec_v1.md`、`process_improvement/ACTIVE.md`、`scripts/process_improvement.py` |
 
 旧工程文書は `backups/2026-08-25-process-refactor/`、規範移設表は

@@ -10,6 +10,7 @@ from pathlib import Path
 from typing import Any
 
 import review_liveness
+import workflow_revision
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -40,6 +41,13 @@ CONTENT_TAXONOMY = {
     "evidence_claim_mismatch",
 }
 REVIEW_CONTRACT_START = "20260827"
+WORKFLOW_IMPROVEMENT_FILENAMES = {
+    "pre_blind_resolution": "pre_blind_resolution.json",
+    "pre_blind_revision": "pre_blind_revision.json",
+    "checker_recheck_manifest": "checker_recheck_manifest.json",
+    "post_blind_resolution": "post_blind_resolution.json",
+    "post_blind_verification": "post_blind_verification.json",
+}
 
 
 def _canonical(value: Any) -> bytes:
@@ -194,6 +202,188 @@ def _validate_metadata(
         raise ValueError(f"{stage}.recorded_at must be ISO-8601") from exc
 
 
+def _validate_workflow_improvement_artifacts(
+    *,
+    cycle_dir: Path,
+    repo_root: Path,
+    raw: dict[str, dict[str, Any]],
+    current_hash: str,
+    checker_and_cold_ids: set[str],
+    final_blind_ids: set[str],
+) -> dict[str, Any] | None:
+    paths = {
+        key: cycle_dir / filename
+        for key, filename in WORKFLOW_IMPROVEMENT_FILENAMES.items()
+    }
+    present = {key for key, path in paths.items() if path.is_file()}
+    if not present:
+        return None
+    if present != set(paths):
+        raise ValueError(
+            "workflow_improvement_v1 artifacts are incomplete; missing="
+            + ", ".join(sorted(set(paths) - present))
+        )
+    values = {key: _read_json(path) for key, path in paths.items()}
+    if values["pre_blind_resolution"].get("schema_version") != "pre_blind_resolution_v1":
+        raise ValueError(
+            "workflow_improvement_v1: pre_blind_resolution.schema_version must be "
+            "pre_blind_resolution_v1"
+        )
+    if values["post_blind_resolution"].get("schema_version") != "post_blind_resolution_v1":
+        raise ValueError(
+            "workflow_improvement_v1: post_blind_resolution.schema_version must be "
+            "post_blind_resolution_v1"
+        )
+    pre = values["pre_blind_resolution"].get("resolutions")
+    post = values["post_blind_resolution"].get("resolutions")
+    errors = workflow_revision.validate_resolution_partition(
+        checker_and_cold_ids=checker_and_cold_ids,
+        final_blind_ids=final_blind_ids,
+        pre_blind_resolutions=pre,
+        post_blind_resolutions=post,
+    )
+    revision = values["pre_blind_revision"]
+    if revision.get("schema_version") != "pre_blind_revision_v1":
+        errors.append("pre_blind_revision.schema_version must be pre_blind_revision_v1")
+    if revision.get("input_body_sha256") != raw["normal_review"].get(
+        "input_body_sha256"
+    ) or revision.get("input_body_sha256") != raw["cold_review"].get(
+        "input_body_sha256"
+    ):
+        errors.append("checker and cold review must inspect the same fixed draft")
+    if revision.get("output_body_sha256") != current_hash:
+        errors.append("pre-blind revision does not produce the current body")
+    errors.extend(
+        workflow_revision.validate_recheck_manifest(
+            values["checker_recheck_manifest"],
+            current_body_sha256=current_hash,
+        )
+    )
+    errors.extend(
+        workflow_revision.final_blind_chronology_errors(
+            cold_review=raw["cold_review"],
+            pre_blind_revision=revision,
+            final_blind=raw["final_blind"],
+        )
+    )
+    verification = values["post_blind_verification"]
+    if verification.get("schema_version") != "post_blind_verification_v1":
+        errors.append(
+            "post_blind_verification.schema_version must be post_blind_verification_v1"
+        )
+    if verification.get("verified_body_sha256") != current_hash:
+        errors.append("post-blind verification references an old body")
+    adopted_post = any(
+        isinstance(item, dict) and item.get("disposition") == "adopted"
+        for item in (post if isinstance(post, list) else [])
+    )
+    if adopted_post:
+        if verification.get("checker_recheck_completed") is not True:
+            errors.append("post-blind adopted changes require checker recheck")
+        if verification.get("final_blind_repeated") is not True:
+            errors.append("post-blind adopted changes require a repeated final blind")
+        if verification.get("final_blind_sha256") != _sha_bytes(
+            (cycle_dir / "final_blind.json").read_bytes()
+        ):
+            errors.append("post-blind verification does not bind the latest final blind")
+    targeted_path = cycle_dir / "targeted_adjudications.json"
+    targeted = _read_json(targeted_path) if targeted_path.is_file() else {
+        "requests": [],
+        "adjudications": []
+    }
+    declared_issues = workflow_revision.collect_declared_unresolved_issues(
+        [
+            *(
+                raw["normal_review"].get("pass_outputs", [])
+                if isinstance(raw["normal_review"].get("pass_outputs"), list)
+                else []
+            ),
+            raw["cold_review"],
+            raw["final_blind"],
+        ]
+    )
+    issue_actions = workflow_revision.unresolved_issue_actions(declared_issues)
+    mechanical = [
+        item["issue_id"]
+        for item in issue_actions
+        if item["action"] == "mechanical_reject"
+    ]
+    if mechanical:
+        errors.append(
+            "mechanically invalid reviews or revision impacts cannot be LLM-adjudicated: "
+            + ", ".join(mechanical)
+        )
+    requests = targeted.get("requests", [])
+    if not isinstance(requests, list):
+        errors.append("targeted_adjudications.requests must be a list")
+        requests = []
+    for request in requests:
+        errors.extend(workflow_revision.validate_targeted_adjudication_request(request))
+    request_ids = {
+        str(item.get("issue_id")) for item in requests if isinstance(item, dict)
+    }
+    required_targeted_ids = {
+        item["issue_id"]
+        for item in issue_actions
+        if item["action"] == "targeted_adjudication"
+    }
+    if request_ids != required_targeted_ids:
+        errors.append(
+            "targeted adjudication requests must cover concrete semantic issues exactly"
+        )
+    request_by_id = {
+        str(item.get("issue_id")): item for item in requests if isinstance(item, dict)
+    }
+    adjudications = targeted.get("adjudications", [])
+    if not isinstance(adjudications, list):
+        errors.append("targeted_adjudications.adjudications must be a list")
+        adjudications = []
+    adjudication_ids: set[str] = set()
+    for record in adjudications:
+        request_record = (
+            request_by_id.get(str(record.get("issue_id")))
+            if isinstance(record, dict)
+            else None
+        )
+        conflicting_ids = [
+            str(judgment.get("reviewer_agent_id"))
+            for judgment in (
+                request_record.get("judgments", [])
+                if isinstance(request_record, dict)
+                else []
+            )
+            if isinstance(judgment, dict) and judgment.get("reviewer_agent_id")
+        ]
+        record_errors = workflow_revision.validate_targeted_adjudication(
+            record, conflicting_agent_ids=conflicting_ids
+        )
+        if isinstance(record, dict):
+            adjudication_ids.add(str(record.get("issue_id")))
+        if record_errors:
+            errors.extend(record_errors)
+        if workflow_revision.targeted_adjudication_blocks_pass(record) and raw[
+            "final_review"
+        ].get("decision") == "pass":
+            errors.append("insufficient or invalid targeted adjudication cannot pass")
+    if adjudication_ids != required_targeted_ids:
+        errors.append(
+            "targeted adjudications must resolve each concrete semantic issue exactly once"
+        )
+    if errors:
+        raise ValueError("workflow_improvement_v1: " + "; ".join(errors))
+    return {
+        "schema_version": workflow_revision.SCHEMA_VERSION,
+        "artifacts": {
+            key: {
+                "path": _relative(path, repo_root),
+                "sha256": _sha_bytes(path.read_bytes()),
+            }
+            for key, path in paths.items()
+        },
+        "targeted_adjudications": targeted.get("adjudications", []),
+    }
+
+
 def _timestamp(value: Any, label: str) -> datetime:
     try:
         return datetime.fromisoformat(str(value).replace("Z", "+00:00"))
@@ -345,6 +535,15 @@ def generate_manifest(
     if missing:
         raise ValueError("required raw outputs are missing: " + ", ".join(missing))
     raw = {stage: _read_json(path) for stage, path in paths.items()}
+    revision_path = cycle_dir / WORKFLOW_IMPROVEMENT_FILENAMES["pre_blind_revision"]
+    workflow_revision_raw = (
+        _read_json(revision_path) if revision_path.is_file() else None
+    )
+    initial_body_hash = (
+        str(workflow_revision_raw.get("input_body_sha256", ""))
+        if isinstance(workflow_revision_raw, dict)
+        else current_hash
+    )
     generation_model = _entry_front_matter(entry_path).get("model")
     raw_pass_outputs = raw["normal_review"].get("pass_outputs", [])
     has_reviewer_provenance = any(
@@ -387,8 +586,24 @@ def generate_manifest(
             "final_review_spec",
         },
     }
+    if workflow_revision_raw is not None:
+        expected_inputs["final_review"] = {
+            "entry_body",
+            "sealed_final_blind",
+            "pre_blind_resolution",
+            "post_blind_resolution",
+            "checker_recheck_manifest",
+            "targeted_adjudications",
+            "final_review_spec",
+        }
     for stage, artifacts in expected_inputs.items():
-        _validate_metadata(raw[stage], stage, current_hash, artifacts)
+        expected_body_hash = (
+            initial_body_hash
+            if workflow_revision_raw is not None
+            and stage in {"normal_review", "cold_review"}
+            else current_hash
+        )
+        _validate_metadata(raw[stage], stage, expected_body_hash, artifacts)
     if raw["cold_review"].get("audit_visible") is not False:
         raise ValueError("cold_review.audit_visible must be false")
     if raw["final_blind"].get("audit_visible") is not False:
@@ -483,7 +698,29 @@ def generate_manifest(
             raise ValueError(f"normal_review has duplicate pass output: {pass_id}")
         actual_passes.add(pass_id)
         request_path = cycle_dir / "check_passes" / f"{pass_id}.request.json"
-        request_payload = _read_json(request_path) if request_path.is_file() else None
+        base_request_payload = (
+            _read_json(request_path) if request_path.is_file() else None
+        )
+        if workflow_revision_raw is not None and isinstance(base_request_payload, dict):
+            source_first = raw["source_inventory"].get("source_first_audit")
+            expected_source_hash = (
+                _sha_bytes(_canonical(source_first))
+                if isinstance(source_first, dict)
+                else None
+            )
+            if base_request_payload.get("source_artifact_sha256") != expected_source_hash:
+                raise ValueError(
+                    f"pass output {pass_id}: checker source artifact hash mismatch"
+                )
+            if pass_id == "evidence":
+                context = base_request_payload.get("evidence_context")
+                if not isinstance(context, dict) or context.get(
+                    "source_inventory_sha256"
+                ) != _sha_bytes(_canonical(raw["source_inventory"])):
+                    raise ValueError(
+                        "pass output evidence: source inventory hash mismatch"
+                    )
+        request_payload = base_request_payload
         if pass_id == "frame-relation" and antonym_stage2_request is not None:
             request_payload = antonym_stage2_request
         errors = check_passes.validate_pass_output(
@@ -544,6 +781,25 @@ def generate_manifest(
             raise ValueError(f"resolution {resolution_id} is stale")
         if not str(resolution.get("rationale", "")).strip():
             raise ValueError(f"resolution {resolution_id}.rationale is required")
+
+    checker_and_cold_ids = {
+        finding_id
+        for finding_id, finding in finding_index.items()
+        if finding.get("origin") != "final_blind"
+    }
+    final_blind_ids = {
+        finding_id
+        for finding_id, finding in finding_index.items()
+        if finding.get("origin") == "final_blind"
+    }
+    workflow_improvement = _validate_workflow_improvement_artifacts(
+        cycle_dir=cycle_dir,
+        repo_root=repo_root,
+        raw=raw,
+        current_hash=current_hash,
+        checker_and_cold_ids=checker_and_cold_ids,
+        final_blind_ids=final_blind_ids,
+    )
 
     seal = raw["blind_seal"]
     if seal.get("schema_version") != BLIND_SEAL_VERSION:
@@ -849,6 +1105,8 @@ def generate_manifest(
             "blind_output_sha256": blind_hash,
         },
     }
+    if workflow_improvement is not None:
+        manifest["workflow_revision"] = workflow_improvement
     if liveness_contract:
         manifest["invalidated_by"] = invalidated_by
         manifest["review_liveness_errors"] = review_liveness.summarize_errors(

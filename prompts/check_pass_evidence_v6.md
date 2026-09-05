@@ -11,6 +11,8 @@
 ## 検査ルール
 
 - source-first工程が固定したsource・fact・claim unit・対象sectionを入力として受け、claimと引用位置または忠実な要約の対応を確認する。
+- 入力は `evidence_context_v1` とし、対象claimに関係するsource、fact、source union、claim unit、`source_supports` だけを含む。`source_inventory_sha256`、`source_first_artifact_sha256`、本文hashの一致を機械検証済みでなければ開始しない。
+- source-first artifactが欠落、未完了、schema不正、参照切れ、本文hash不一致の場合はfail closedとし、再探索やfact追加で補わない。
 - 資料名や検索結果見出しが存在するだけで合格にせず、locator、該当箇所、支持内容、当該語義・構文への適用範囲を確認する。
 - 別義、別品詞、別法域、別地域、別時代の記述を現在の対象主張へ流用しない。
 - 高リスク主張に `two_sources_or_primary` が指定される場合、同一引用元を別IDにした重複を独立2資料として数えない。一次資料1件を使う場合は当該主張へ直接適用できることを確認する。
@@ -32,6 +34,7 @@
 - `usage_notes`
 - `lexical_relations`
 - source-first工程が生成したsource inventory、fact、claim unit、evidence link
+- API modeとhandoff modeはいずれも `scripts/check_passes.py` が生成した同一の正規化requestを使う。
 
 ## findingの出力スキーマ
 

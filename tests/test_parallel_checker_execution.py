@@ -72,10 +72,24 @@ class ParallelCheckerExecutionTests(unittest.TestCase):
                 barrier.wait()
                 return {"pass_id": str(bundle["pass_id"]), "findings": []}, []
 
+            def fake_cold(*_: object, **kwargs: object) -> Path:
+                cycle_dir = kwargs["cycle_dir"]
+                assert isinstance(cycle_dir, Path)
+                path = cycle_dir / "cold_review.json"
+                path.write_text(
+                    json.dumps({"stage": "cold_review", "findings": []}),
+                    encoding="utf-8",
+                )
+                return path
+
             with mock.patch.object(
                 run_word,
                 "_execute_checker_bundle_api",
                 side_effect=fake_worker,
+            ), mock.patch.object(
+                run_word._parallel,
+                "_execute_cold_api",
+                side_effect=fake_cold,
             ):
                 outputs = run_word.execute_api_review_stage(
                     manifest,
@@ -117,8 +131,9 @@ class ParallelCheckerExecutionTests(unittest.TestCase):
             index = run_word.prepare_handoff(manifest, repo_root=root)
             text = index.read_text(encoding="utf-8")
             self.assertIn("Independent review handoff", text)
-            self.assertIn("Launch all seven request files", text)
+            self.assertIn("seven checker requests", text)
             self.assertIn("heartbeat", text)
+            self.assertTrue((index.parent / "cold_review.request.md").is_file())
 
             handoff_dir = index.parent
             requests = sorted(

@@ -38,7 +38,7 @@ for _name, _value in vars(_v3).items():
 
 
 CHECKER_MAX_WORKERS = 7
-PARALLEL_CHECKER_PROTOCOL_VERSION = "parallel_checker_v1"
+PARALLEL_CHECKER_PROTOCOL_VERSION = "parallel_checker_cold_v2"
 
 _ORIGINAL_PREPARE_HANDOFF = _v3.prepare_handoff
 _ORIGINAL_INGEST_HANDOFF_REVIEW = _v3.ingest_handoff_review
@@ -70,6 +70,54 @@ def _parallel_frame_stage2_request_path(cycle_dir: Path) -> Path:
 
 def _parallel_frame_stage2_response_path(cycle_dir: Path) -> Path:
     return cycle_dir / "handoff" / "checker_passes.frame-relation.stage2.response.json"
+
+
+def _parallel_cold_request(
+    manifest: dict[str, Any], *, repo_root: Path, cycle_dir: Path
+) -> tuple[Path, dict[str, Any]]:
+    """Build the cold packet beside checker requests without exposing findings."""
+
+    entry = repo_root / str(manifest["entry_path"])
+    packet = {
+        "stage": "cold_review",
+        "entry_body": _v3._entry_body(entry),
+        "_output_metadata": _v3._review_output_metadata(
+            "cold_review",
+            manifest,
+            entry,
+            ["prompts/cold_review_prompt_v1.md"],
+            repo_root=repo_root,
+        ),
+    }
+    path = cycle_dir / "cold_review.request.json"
+    path.write_text(
+        json.dumps(packet, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return path, packet
+
+
+def _write_parallel_cold_handoff(
+    manifest: dict[str, Any], *, repo_root: Path, cycle_dir: Path
+) -> Path:
+    _, packet = _parallel_cold_request(
+        manifest, repo_root=repo_root, cycle_dir=cycle_dir
+    )
+    path = cycle_dir / "handoff" / "cold_review.request.md"
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        "# Independent cold-review handoff\n\n"
+        "Run concurrently with the seven checker subagents when a slot is available. "
+        "The input contains only the fixed entry body and cold-review prompt; checker "
+        "findings, source-first artifacts, and generation context are prohibited.\n\n"
+        "Save one JSON response as `cold_review.response.json`.\n\n"
+        "## Prompt\n\n"
+        + (repo_root / "prompts" / "cold_review_prompt_v1.md").read_text(encoding="utf-8")
+        + "\n\n## Input packet\n\n```json\n"
+        + json.dumps(packet, ensure_ascii=False, indent=2)
+        + "\n```\n",
+        encoding="utf-8",
+    )
+    return path
 
 
 def _checker_pass_ids(router: dict[str, Any]) -> list[str]:
@@ -310,15 +358,23 @@ def prepare_handoff(
         )
         rows.append(f"- `{pass_id}`: `{request_path.name}` -> `{response_name}`")
 
+    cold_path = _write_parallel_cold_handoff(
+        manifest, repo_root=repo_root, cycle_dir=cycle_dir
+    )
+    rows.append(
+        f"- `cold_review`: `{cold_path.name}` -> `cold_review.response.json`"
+    )
+
     index_path = repo_root / str(request["input_packet_path"])
     index_path.parent.mkdir(parents=True, exist_ok=True)
     index_path.write_text(
         "# Independent review handoff — parallel checker fan-out\n\n"
         "Stage: `checker_passes`\n\n"
         f"Protocol: `{PARALLEL_CHECKER_PROTOCOL_VERSION}`\n\n"
-        "Launch all seven request files below concurrently, one independent agent "
-        "per pass. Do not concatenate the seven checker specifications. Wait for "
-        "all seven response files before ingestion. The coordinator performs only "
+        "Launch the seven checker requests and the independent cold-review request "
+        "concurrently within the available worker limit: one independent subagent per pass "
+        "and one separate cold-review subagent. Do not concatenate specifications. Wait for all seven checker "
+        "response files before checker ingestion. The coordinator performs only "
         "mechanical validation/fan-in; it must not synthesize missing checker "
         "responses.\n\n"
         "Parallel execution does not pause the workflow guard: keep the normal "
@@ -802,6 +858,55 @@ def _execute_checker_bundle_api(
     return output, created
 
 
+def _execute_cold_api(
+    manifest: dict[str, Any],
+    *,
+    repo_root: Path,
+    cycle_dir: Path,
+    provider: str,
+    model: str,
+    api_key: str,
+    endpoint: str | None,
+    generation_model: str,
+) -> Path:
+    request_path, packet = _parallel_cold_request(
+        manifest, repo_root=repo_root, cycle_dir=cycle_dir
+    )
+    output_path = cycle_dir / "cold_review.json"
+    value = _v3.review_call.execute_review(
+        stage="cold_review",
+        request_path=request_path,
+        prompt_path=repo_root / "prompts" / "cold_review_prompt_v1.md",
+        cycle_dir=cycle_dir,
+        output_path=output_path,
+        provider=provider,
+        model=model,
+        api_key=api_key,
+        endpoint=endpoint,
+        generation_model=generation_model,
+    )
+    metadata = packet["_output_metadata"]
+    for key, item in metadata.items():
+        value.setdefault(key, item)
+    errors = _v3.review_liveness.validate_reviewer(
+        value.get("reviewer"), generation_model=generation_model
+    )
+    errors.extend(
+        _v3.review_liveness.validate_api_request_binding(value.get("reviewer"), packet)
+    )
+    errors.extend(
+        _v3.review_liveness.validate_finding_liveness(
+            value, field="findings", label="cold review findings"
+        )
+    )
+    if errors:
+        raise ValueError("cold review: " + "; ".join(errors))
+    output_path.write_text(
+        json.dumps(value, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
+    )
+    return output_path
+
+
 def execute_api_review_stage(
     manifest: dict[str, Any],
     *,
@@ -816,6 +921,18 @@ def execute_api_review_stage(
         raise ValueError("next stage is not an API review stage")
     if request.get("reviewer_mode") != "api":
         raise ValueError("API review execution requires reviewer mode api")
+    if request.get("name") == "cold_review":
+        output_path = (
+            repo_root / str(request["output_paths"][0])
+        )
+        if output_path.is_file():
+            value = json.loads(output_path.read_text(encoding="utf-8"))
+            entry = repo_root / str(manifest["entry_path"])
+            if value.get("input_body_sha256") != _v3.hashlib.sha256(
+                _v3._entry_body(entry).encode("utf-8")
+            ).hexdigest():
+                raise ValueError("precomputed cold review is bound to another body")
+            return [output_path]
     if request.get("name") != "checker_passes":
         return _ORIGINAL_EXECUTE_API_REVIEW_STAGE(
             manifest,
@@ -871,7 +988,7 @@ def execute_api_review_stage(
     )
 
     with ThreadPoolExecutor(
-        max_workers=min(CHECKER_MAX_WORKERS, len(bundles)),
+        max_workers=min(CHECKER_MAX_WORKERS, len(bundles) + 1),
         thread_name_prefix="checker-pass",
     ) as executor:
         futures = [
@@ -893,7 +1010,19 @@ def execute_api_review_stage(
             )
             for bundle in bundles
         ]
+        cold_future = executor.submit(
+            _execute_cold_api,
+            manifest,
+            repo_root=repo_root,
+            cycle_dir=cycle_dir,
+            provider=resolved_provider,
+            model=resolved_model,
+            api_key=resolved_key,
+            endpoint=resolved_endpoint,
+            generation_model=generation_model,
+        )
         results = [future.result() for future in futures]
+        cold_path = cold_future.result()
 
     pass_outputs = [output for output, _ in results]
     created = [path for _, paths in results for path in paths]
@@ -916,7 +1045,7 @@ def execute_api_review_stage(
         json.dumps(normal_review, ensure_ascii=False, indent=2) + "\n",
         encoding="utf-8",
     )
-    return [*created, pass_findings_path]
+    return [*created, pass_findings_path, cold_path]
 
 
 _v3.prepare_handoff = prepare_handoff

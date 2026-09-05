@@ -57,7 +57,7 @@ class ReviewerAgentIndependenceTests(unittest.TestCase):
             [],
         )
 
-    def test_zero_finding_rejects_same_agent_even_when_models_differ(self) -> None:
+    def test_zero_finding_does_not_create_a_secondary_agent_requirement(self) -> None:
         primary = _reviewer("model-a", "same-agent")
         secondary = _reviewer("model-b", "same-agent")
         normal, cold, blind = _zero_finding_inputs(primary)
@@ -70,10 +70,7 @@ class ReviewerAgentIndependenceTests(unittest.TestCase):
                 "example_attribution": {"reviewer": secondary, "findings": []},
             },
         )
-        self.assertTrue(
-            any("independent reviewer agent" in error for error in errors),
-            errors,
-        )
+        self.assertEqual(errors, [])
 
 
 if __name__ == "__main__":

@@ -371,55 +371,15 @@ def zero_finding_run_errors(
     *,
     secondary_reviews: dict[str, Any] | None = None,
 ) -> list[str]:
-    normal_count = sum(
-        _finding_count(item, "findings")
-        for item in pass_findings.get("pass_outputs", [])
-        if isinstance(item, dict)
-    )
-    total = normal_count + _finding_count(cold_review, "findings") + _finding_count(
-        final_blind, "article_findings"
-    )
-    candidates = final_blind.get("independent_candidates", [])
-    excluded = [
-        item
-        for item in candidates
-        if isinstance(item, dict) and item.get("disposition") != "included"
-    ]
-    if total or excluded:
-        return []
+    """Retained API for historical callers; finding count is no longer a gate.
 
-    secondary = secondary_reviews or {}
-    cold_secondary = secondary.get("cold_review")
-    attr_secondary = secondary.get("example_attribution")
-    if not isinstance(cold_secondary, dict) or not isinstance(attr_secondary, dict):
-        return [
-            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: a zero-finding run requires independent "
-            "secondary-agent cold and example-attribution reviews"
-        ]
-    if _finding_count(cold_secondary, "findings") or _finding_count(
-        attr_secondary, "findings"
-    ):
-        return [
-            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: second-review findings must enter "
-            "the normal finding-resolution flow before approval"
-        ]
-    primary_agents = {
-        reviewer_agent_id(cold_review.get("reviewer")),
-        *(
-            reviewer_agent_id(item.get("reviewer"))
-            for item in pass_findings.get("pass_outputs", [])
-            if isinstance(item, dict) and item.get("pass_id") == "example-attribution"
-        ),
-    } - {None}
-    secondary_agents = {
-        reviewer_agent_id(cold_secondary.get("reviewer")),
-        reviewer_agent_id(attr_secondary.get("reviewer")),
-    } - {None}
-    if not secondary_agents or primary_agents & secondary_agents:
-        return [
-            f"{B4_ZERO_FINDING_SINGLE_REVIEW}: second reviews must declare an independent "
-            "reviewer agent different from the primary reviewers"
-        ]
+    New runs fail mechanically for invalid/missing review or unverified revision
+    impact.  They request targeted adjudication only for a concrete judgment
+    conflict, explicit uncertainty, or unresolved evidence.  Existing completed
+    runs are never invalidated merely because their finding count is zero.
+    """
+
+    del pass_findings, cold_review, final_blind, secondary_reviews
     return []
 
 
@@ -542,7 +502,6 @@ def main(argv: list[str] | None = None) -> int:
         default=[
             B1_TERM_NOT_IN_EXAMPLE,
             B2_RATIONALE_NOT_DISTINCT,
-            B4_ZERO_FINDING_SINGLE_REVIEW,
         ],
     )
     args = parser.parse_args(argv)
