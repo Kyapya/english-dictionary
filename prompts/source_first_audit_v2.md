@@ -108,8 +108,10 @@ python scripts/source_first_audit_gate.py stop entries/a/apple.md \
 
 ## 再審査上限
 
-- コールドレビューは従来どおり1回だけ行う。
-- 採用修正後の全文再検査はprofileの `max_post_cold_rechecks` を超えない。
+- コールドレビューは固定draftに対して1回だけ行い、採用修正後に同じ目的で全面再実行しない。
+- 採用修正後は `scripts/workflow_revision.py` が意味上の影響範囲checkerだけを失効させる。分類不能、複数section、語義統合・分割、品詞追加削除は全checkerへ倒す。
+- `post_cold_rechecks_used` は影響範囲checkerの再検査roundを数え、未変更passの有効な結果再利用を再実行として数えない。
+- 再検査のためにsource、fact、research roundを自動追加しない。根拠対象claimを変更した場合は、同じ既存資料に基づくclaim/source support対応と本文hashを更新して検証する。
 - 最終審査は初回とREJECT後の再審査を合わせて最大2回とする。
 - 上限で問題が残る場合、同じ依頼内で新cycleを自動開始しない。`needs_review`、checked false、blocker付きで停止する。
 - 次の明示的なユーザー依頼で新cycleを開始できる。停止を避けるために合否基準を緩めてはならない。

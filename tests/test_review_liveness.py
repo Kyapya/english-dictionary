@@ -15,7 +15,7 @@ import review_liveness  # noqa: E402
 
 
 class ReviewLivenessTests(unittest.TestCase):
-    def test_known_yield_run_is_invalidated_by_b1_b2_b4(self) -> None:
+    def test_known_yield_run_keeps_content_invalidations_but_drops_zero_count_rule(self) -> None:
         cycle = (
             REPO_ROOT
             / "audits"
@@ -27,13 +27,10 @@ class ReviewLivenessTests(unittest.TestCase):
         errors = review_liveness.validate_run_directory(cycle)
         ids = review_liveness.invalidation_ids(errors)
         self.assertTrue(
-            {
-                review_liveness.B1_TERM_NOT_IN_EXAMPLE,
-                review_liveness.B2_RATIONALE_NOT_DISTINCT,
-                review_liveness.B4_ZERO_FINDING_SINGLE_REVIEW,
-            }
-            <= set(ids)
+            {review_liveness.B1_TERM_NOT_IN_EXAMPLE,
+             review_liveness.B2_RATIONALE_NOT_DISTINCT} <= set(ids)
         )
+        self.assertNotIn(review_liveness.B4_ZERO_FINDING_SINGLE_REVIEW, ids)
 
     def test_reviewer_provenance_is_mandatory_and_mode_is_closed(self) -> None:
         self.assertTrue(review_liveness.validate_reviewer(None))
@@ -60,7 +57,7 @@ class ReviewLivenessTests(unittest.TestCase):
             [],
         )
 
-    def test_zero_finding_run_requires_a_different_second_model(self) -> None:
+    def test_zero_finding_run_does_not_require_secondary_reviews(self) -> None:
         reviewer = {
             "mode": "handoff",
             "declared_model": "primary",
@@ -80,9 +77,7 @@ class ReviewLivenessTests(unittest.TestCase):
             "independent_candidates": [{"disposition": "included"}],
             "article_findings": [],
         }
-        self.assertTrue(
-            review_liveness.zero_finding_run_errors(normal, cold, blind)
-        )
+        self.assertEqual(review_liveness.zero_finding_run_errors(normal, cold, blind), [])
         secondary_reviewer = {
             "mode": "handoff",
             "declared_model": "secondary",
@@ -121,7 +116,18 @@ class ReviewLivenessTests(unittest.TestCase):
                 },
             },
         )
-        self.assertTrue(any("finding-resolution flow" in error for error in errors))
+        self.assertEqual(errors, [])
+
+    def test_regression_default_no_longer_expects_zero_finding_rule(self) -> None:
+        cycle = (
+            REPO_ROOT
+            / "audits"
+            / "runs"
+            / "y"
+            / "yield"
+            / "20260826T131200Z-yield02"
+        )
+        self.assertEqual(review_liveness.main(["regression", str(cycle)]), 0)
 
     def test_api_request_hash_must_bind_the_supplied_packet(self) -> None:
         request = {"stage": "cold_review", "entry_body": "sample"}

@@ -112,6 +112,9 @@ class SubagentReviewContractTests(unittest.TestCase):
     def test_generated_checker_handoff_uses_subagent_term(self) -> None:
         with tempfile.TemporaryDirectory() as directory:
             root, manifest = self._root_and_manifest(directory)
+            # This test isolates the subagent wording contract; source-first
+            # fail-closed behavior is covered by workflow-improvement tests.
+            manifest["orchestrator"].pop("workflow_contract_version")
             index = run_word.prepare_handoff(manifest, repo_root=root)
             text = index.read_text(encoding="utf-8")
             self.assertIn("one independent subagent per pass", text)

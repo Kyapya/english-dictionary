@@ -41,9 +41,11 @@ class RunWordTests(unittest.TestCase):
                 "mechanical_validator",
                 "checker_passes",
                 "cold_review",
+                "pre_blind_resolution",
+                "checker_recheck",
                 "final_blind",
                 "blind_seal",
-                "finding_resolution",
+                "post_blind_resolution",
                 "final_review",
                 "status_update",
                 "export",
@@ -103,7 +105,8 @@ class RunWordTests(unittest.TestCase):
             ("entry body without front matter",),
         )
         self.assertEqual(
-            by_name["final_blind"].input_scope, ("latest entry body only",)
+            by_name["final_blind"].input_scope,
+            ("post-pre-blind-resolution entry body only",),
         )
         for name in ("cold_review", "final_blind"):
             joined = " ".join(
@@ -389,6 +392,18 @@ class RunWordTests(unittest.TestCase):
                 request_payload: dict[str, object],
                 endpoint: str | None = None,
             ) -> dict[str, object]:
+                if request_payload.get("stage") == "cold_review":
+                    return {
+                        "id": "resp-cold-review",
+                        "output_text": json.dumps(
+                            {
+                                "schema_version": "cold_review_v1",
+                                "stage": "cold_review",
+                                "findings": [],
+                                "summary": "No findings.",
+                            }
+                        ),
+                    }
                 pass_id = str(request_payload["pass_id"])
                 schema = str(request_payload.get("schema_version", ""))
                 if schema == "antonym_axis_blind_request_v1":
@@ -492,6 +507,7 @@ class RunWordTests(unittest.TestCase):
             cycle = root / "audits" / "runs" / "s" / "sample" / "api-call-run"
             aggregate = json.loads((cycle / "pass_findings.json").read_text())
             self.assertEqual(len(aggregate["pass_outputs"]), 7)
+            self.assertTrue((cycle / "cold_review.json").is_file())
             self.assertTrue(all(item.get("reviewer") for item in aggregate["pass_outputs"]))
             attribution = next(
                 item
@@ -662,8 +678,9 @@ class RunWordTests(unittest.TestCase):
             (
                 "latest entry body",
                 "sealed final-blind output",
-                "all checker, cold, and sealed final-blind findings",
-                "finding resolution records",
+                "pre- and post-blind resolution records",
+                "checker recheck/reuse manifest",
+                "targeted adjudications for concrete unresolved issues",
             ),
         )
         self.assertEqual(

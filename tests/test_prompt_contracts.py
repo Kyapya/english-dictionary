@@ -104,14 +104,18 @@ class PromptContractTests(unittest.TestCase):
         )
         stages = {item["name"]: item for item in json.loads(completed.stdout)["stages"]}
         self.assertEqual(stages["cold_review"]["input_scope"], ["entry body without front matter"])
-        self.assertEqual(stages["final_blind"]["input_scope"], ["latest entry body only"])
+        self.assertEqual(
+            stages["final_blind"]["input_scope"],
+            ["post-pre-blind-resolution entry body only"],
+        )
         self.assertEqual(
             stages["final_review"]["input_scope"],
             [
                 "latest entry body",
                 "sealed final-blind output",
-                "all checker, cold, and sealed final-blind findings",
-                "finding resolution records",
+                "pre- and post-blind resolution records",
+                "checker recheck/reuse manifest",
+                "targeted adjudications for concrete unresolved issues",
             ],
         )
         self.assertEqual(stages["cold_review"]["context_mode"], "context_free_cold")

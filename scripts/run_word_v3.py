@@ -26,6 +26,7 @@ DEFAULT_CHECK_SPEC = "prompts/check_router_v6.md"
 DEFAULT_FINAL_SPEC = "prompts/final_review_spec_v2.md"
 DEFAULT_FINAL_BLIND_SPEC = "prompts/final_blind_prompt_v2.md"
 COST_SCHEMA_VERSION = "workflow_cost_v1"
+WORKFLOW_CONTRACT_VERSION = "workflow_improvement_v1"
 
 
 @dataclass(frozen=True)
@@ -147,10 +148,42 @@ def build_plan(
             _review_input_packet_path(root, "cold_review", reviewer_mode),
         ),
         StagePlan(
+            "pre_blind_resolution",
+            "llm",
+            ("prompts/pre_blind_resolution_v1.md",),
+            (
+                "fixed draft",
+                "checker findings",
+                "cold-review findings",
+                "source inventory",
+            ),
+            (
+                f"{root}/pre_blind_resolution.json",
+                f"{root}/pre_blind_revision.json",
+            ),
+            (),
+            "pre_blind_resolution_context",
+        ),
+        StagePlan(
+            "checker_recheck",
+            "router",
+            ("scripts/workflow_revision.py", check_spec),
+            (
+                "pre-blind before/after bodies",
+                "initial checker requests and valid outputs",
+                "unchanged source-first artifact",
+            ),
+            (f"{root}/checker_recheck_manifest.json",),
+            (),
+            "deterministic_impact_scope",
+            reviewer_mode,
+            _review_input_packet_path(root, "checker_passes", reviewer_mode),
+        ),
+        StagePlan(
             "final_blind",
             "independent_llm",
             (DEFAULT_FINAL_BLIND_SPEC,),
-            ("latest entry body only",),
+            ("post-pre-blind-resolution entry body only",),
             (f"{root}/final_blind.json",),
             (),
             "context_free_final_blind",
@@ -166,18 +199,21 @@ def build_plan(
             ("blind_seal_complete",),
         ),
         StagePlan(
-            "finding_resolution",
+            "post_blind_resolution",
             "llm",
-            ("prompts/finding_resolution_v6.md",),
+            ("prompts/post_blind_resolution_v1.md",),
             (
                 "latest entry body",
-                "all checker and cold findings",
-                "sealed final-blind findings",
+                "sealed final-blind findings only",
                 "source inventory",
             ),
-            (f"{root}/resolutions.json",),
+            (
+                f"{root}/post_blind_resolution.json",
+                f"{root}/post_blind_verification.json",
+                f"{root}/resolutions.json",
+            ),
             (),
-            "normal_resolution_context",
+            "post_blind_resolution_context",
         ),
         StagePlan(
             "final_review",
@@ -186,8 +222,9 @@ def build_plan(
             (
                 "latest entry body",
                 "sealed final-blind output",
-                "all checker, cold, and sealed final-blind findings",
-                "finding resolution records",
+                "pre- and post-blind resolution records",
+                "checker recheck/reuse manifest",
+                "targeted adjudications for concrete unresolved issues",
             ),
             (f"{root}/final_review.json", audit),
             ("final_review_complete",),
@@ -287,6 +324,7 @@ def plan_payload(
                 )
             pass_plans.append(pass_plan)
     return {
+        "workflow_contract_version": WORKFLOW_CONTRACT_VERSION,
         "orchestrator_version": ORCHESTRATOR_VERSION,
         "headword": headword,
         "entry_path": entry_path_for(headword),
@@ -508,9 +546,11 @@ def _review_output_metadata(
         "final_blind": ["entry_body", "final_blind_prompt"],
         "final_review": [
             "entry_body",
-            "all_findings",
-            "resolutions",
             "sealed_final_blind",
+            "pre_blind_resolution",
+            "post_blind_resolution",
+            "checker_recheck_manifest",
+            "targeted_adjudications",
             "final_review_spec",
         ],
     }
@@ -573,8 +613,29 @@ def prepare_review_inputs(
     )
     if stage == "checker_passes":
         check_dir = cycle_dir / "check_passes"
+        source_inventory_path = cycle_dir / "source_inventory.json"
+        source_inventory: dict[str, Any] | None = None
+        if source_inventory_path.is_file():
+            source_inventory = json.loads(
+                source_inventory_path.read_text(encoding="utf-8")
+            )
+        guarded_new_run = manifest.get("status") in {
+            "in_progress",
+            "completed",
+            "budget_exhausted",
+        } and manifest.get("orchestrator", {}).get(
+            "workflow_contract_version"
+        ) == WORKFLOW_CONTRACT_VERSION
+        if guarded_new_run and source_inventory is None:
+            raise ValueError(
+                "source-first artifact is required before checker requests are built"
+            )
         bundles = check_passes.build_bundles(
-            entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
+            entry,
+            repo_root=repo_root,
+            blind_seed=str(manifest["run_id"]),
+            source_inventory=source_inventory,
+            require_evidence_context=guarded_new_run,
         )
         paths = check_passes.write_bundles(bundles, check_dir)
         alignment = check_passes.build_example_attribution_alignment_key(
@@ -618,7 +679,12 @@ def prepare_review_inputs(
             "cold_review.json",
             "final_blind.json",
             "blind_seal.json",
-            "resolutions.json",
+            "pre_blind_resolution.json",
+            "pre_blind_revision.json",
+            "checker_recheck_manifest.json",
+            "post_blind_resolution.json",
+            "post_blind_verification.json",
+            "targeted_adjudications.json",
         ):
             path = cycle_dir / name
             if path.is_file():

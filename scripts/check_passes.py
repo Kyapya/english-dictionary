@@ -12,6 +12,7 @@ from pathlib import Path
 from typing import Any
 
 import review_liveness
+import source_first_audit_gate
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -27,6 +28,27 @@ ANTONYM_DIRECTIONS = {
     "削除",
     "語法・注意への対照表現としての移動",
     "対立軸修正",
+}
+EVIDENCE_CONTEXT_VERSION = "evidence_context_v1"
+TARGET_PREFIX_TO_SECTION = {
+    "pronunciation": "pronunciation",
+    "etymology": "etymology",
+    "word_formation": "word_formation",
+    "core_image": "core_image",
+    "sense_boundary": "sense_structure",
+    "definition": "sense_structure",
+    "register": "frequency_register",
+    "frequency": "frequency_register",
+    "grammar_pattern": "frames",
+    "collocation": "collocations_examples",
+    "example": "collocations_examples",
+    "translation": "collocations_examples",
+    "usage_note": "usage_notes",
+    "synonym": "lexical_relations",
+    "antonym": "lexical_relations",
+    "lexical_relation": "lexical_relations",
+    "specialist": "sense_structure",
+    "legal": "sense_structure",
 }
 
 
@@ -45,6 +67,286 @@ def _digest_json(value: Any) -> str:
         value, ensure_ascii=False, sort_keys=True, separators=(",", ":")
     ).encode("utf-8")
     return _digest_bytes(encoded)
+
+
+def _normalized_request_hash(request: dict[str, Any]) -> str:
+    """Hash only the semantic input of a pass, not unrelated body sections."""
+
+    return _digest_json(
+        {
+            "pass_id": request.get("pass_id"),
+            "taxonomy_ids": request.get("taxonomy_ids"),
+            "specification": request.get("specification"),
+            "input_sections": request.get("input_sections"),
+            "evidence_context": request.get("evidence_context"),
+            "blind_protocol": request.get("blind_protocol"),
+        }
+    )
+
+
+def _target_section(target_id: Any) -> str | None:
+    prefix = str(target_id).split(":", 1)[0]
+    return TARGET_PREFIX_TO_SECTION.get(prefix)
+
+
+def validate_evidence_context(packet: Any) -> list[str]:
+    errors: list[str] = []
+    if not isinstance(packet, dict):
+        return ["evidence context must be an object"]
+    if packet.get("schema_version") != EVIDENCE_CONTEXT_VERSION:
+        errors.append(f"evidence context schema_version must be {EVIDENCE_CONTEXT_VERSION}")
+    if packet.get("source_inventory_schema_version") != "source_inventory_v2":
+        errors.append("evidence context source inventory schema must be source_inventory_v2")
+    for field in (
+        "input_body_sha256",
+        "source_inventory_sha256",
+        "source_first_artifact_sha256",
+    ):
+        if not isinstance(packet.get(field), str) or re.fullmatch(
+            r"[0-9a-f]{64}", str(packet.get(field, ""))
+        ) is None:
+            errors.append(f"evidence context {field} must be a sha256")
+
+    def index(rows: Any, label: str) -> dict[str, dict[str, Any]]:
+        if not isinstance(rows, list):
+            errors.append(f"evidence context {label} must be a list")
+            return {}
+        result: dict[str, dict[str, Any]] = {}
+        for position, row in enumerate(rows):
+            if not isinstance(row, dict) or not str(row.get("id", "")).strip():
+                errors.append(f"evidence context {label}[{position}] requires id")
+                continue
+            item_id = str(row["id"])
+            if item_id in result:
+                errors.append(f"evidence context {label} contains duplicate {item_id}")
+            result[item_id] = row
+        return result
+
+    sources = index(packet.get("sources"), "sources")
+    facts: dict[str, dict[str, Any]] = {}
+    fact_owner: dict[str, str] = {}
+    for source_id, source in sources.items():
+        for field in ("locator", "source_type", "independence_group"):
+            if not str(source.get(field, "")).strip():
+                errors.append(f"evidence source {source_id}.{field} is required")
+        for fact_id, fact in index(source.get("facts"), f"source {source_id}.facts").items():
+            if fact_id in facts:
+                errors.append(f"evidence context contains duplicate fact {fact_id}")
+            facts[fact_id] = fact
+            fact_owner[fact_id] = source_id
+            for field in ("statement", "source_detail"):
+                if not str(fact.get(field, "")).strip():
+                    errors.append(f"evidence fact {fact_id}.{field} is required")
+    unions = index(packet.get("source_union"), "source_union")
+    for union_id, union in unions.items():
+        if union.get("disposition") not in {"included", "integrated"}:
+            errors.append(f"evidence union {union_id} must be included or integrated")
+        if not str(union.get("canonical_statement", "")).strip():
+            errors.append(f"evidence union {union_id}.canonical_statement is required")
+        for fact_id in union.get("source_fact_ids", []):
+            if fact_id not in facts:
+                errors.append(f"evidence union {union_id} references unknown fact {fact_id}")
+    claims = index(packet.get("claim_units"), "claim_units")
+    referenced_facts: set[str] = set()
+    referenced_unions: set[str] = set()
+    for claim_id, claim in claims.items():
+        for field in ("subject_form", "claim_type", "statement"):
+            if not str(claim.get(field, "")).strip():
+                errors.append(f"evidence claim {claim_id}.{field} is required")
+        targets = claim.get("article_target_ids")
+        if not isinstance(targets, list) or not targets:
+            errors.append(f"evidence claim {claim_id}.article_target_ids is required")
+        for union_id in claim.get("union_ids", []):
+            referenced_unions.add(str(union_id))
+            if union_id not in unions:
+                errors.append(f"evidence claim {claim_id} references unknown union {union_id}")
+        supports = claim.get("source_supports")
+        if not isinstance(supports, list) or not supports:
+            errors.append(f"evidence claim {claim_id}.source_supports is required")
+            continue
+        for support in supports:
+            fact_id = support.get("source_fact_id") if isinstance(support, dict) else None
+            if fact_id not in facts:
+                errors.append(f"evidence claim {claim_id} references unknown fact {fact_id}")
+            else:
+                referenced_facts.add(str(fact_id))
+            if not isinstance(support, dict) or not str(
+                support.get("support_summary", "")
+            ).strip():
+                errors.append(f"evidence claim {claim_id} support summary is required")
+    if set(unions) != referenced_unions:
+        errors.append("evidence context includes an unrelated or missing source union")
+    if set(facts) != referenced_facts:
+        errors.append("evidence context includes an unrelated or missing source fact")
+    if set(sources) != {fact_owner[fact] for fact in referenced_facts if fact in fact_owner}:
+        errors.append("evidence context includes an unrelated or missing source")
+    return errors
+
+
+def build_evidence_context(
+    source_inventory: dict[str, Any] | None,
+    *,
+    input_body_sha256: str,
+    relevant_sections: set[str],
+) -> dict[str, Any]:
+    """Extract only source-first rows used by claims in routed sections."""
+
+    if not isinstance(source_inventory, dict):
+        raise ValueError("source-first artifact is required for the evidence checker")
+    if source_inventory.get("schema_version") != "source_inventory_v2":
+        raise ValueError("source-first artifact schema_version must be source_inventory_v2")
+    if source_inventory.get("input_body_sha256") != input_body_sha256:
+        raise ValueError("source-first artifact body hash does not match the checker body hash")
+    gate = source_inventory.get("source_first_audit")
+    if not isinstance(gate, dict):
+        raise ValueError("source-first artifact has no source_first_audit object")
+    if gate.get("research_status") != "complete":
+        raise ValueError("source-first research_status must be complete before evidence review")
+    if gate.get("open_questions") not in ([], None):
+        raise ValueError("source-first artifact has unresolved open_questions")
+    gate_errors = source_first_audit_gate.validate_manifest(
+        {"source_first_audit": gate},
+        require_current=True,
+        allow_incomplete=True,
+    )
+    if gate_errors:
+        raise ValueError("source-first artifact is invalid: " + "; ".join(gate_errors))
+
+    all_sources = {
+        str(item["id"]): item
+        for item in gate.get("sources", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+    all_facts: dict[str, tuple[str, dict[str, Any]]] = {}
+    for source_id, source in all_sources.items():
+        for fact in source.get("facts", []):
+            if isinstance(fact, dict) and fact.get("id"):
+                all_facts[str(fact["id"])] = (source_id, fact)
+    all_unions = {
+        str(item["id"]): item
+        for item in gate.get("source_union", [])
+        if isinstance(item, dict) and item.get("id")
+    }
+    claims = [
+        item
+        for item in gate.get("claim_units", [])
+        if isinstance(item, dict)
+        and any(
+            _target_section(target_id) in relevant_sections
+            for target_id in item.get("article_target_ids", [])
+        )
+    ]
+    union_ids = {
+        str(union_id)
+        for claim in claims
+        for union_id in claim.get("union_ids", [])
+    }
+    selected_unions = [all_unions[union_id] for union_id in sorted(union_ids)]
+    fact_ids = {
+        str(support.get("source_fact_id"))
+        for claim in claims
+        for support in claim.get("source_supports", [])
+        if isinstance(support, dict) and support.get("source_fact_id")
+    }
+    source_ids = {all_facts[fact_id][0] for fact_id in fact_ids if fact_id in all_facts}
+    selected_sources = []
+    for source_id in sorted(source_ids):
+        source = all_sources[source_id]
+        selected_sources.append(
+            {
+                key: source.get(key)
+                for key in ("id", "locator", "source_type", "independence_group")
+            }
+            | {
+                "facts": [
+                    fact
+                    for fact in source.get("facts", [])
+                    if isinstance(fact, dict) and str(fact.get("id")) in fact_ids
+                ]
+            }
+        )
+    packet = {
+        "schema_version": EVIDENCE_CONTEXT_VERSION,
+        "input_body_sha256": input_body_sha256,
+        "source_inventory_schema_version": source_inventory.get("schema_version"),
+        "source_inventory_sha256": _digest_json(source_inventory),
+        "source_first_artifact_sha256": _digest_json(gate),
+        "relevant_sections": sorted(relevant_sections),
+        "sources": selected_sources,
+        "source_union": selected_unions,
+        "claim_units": claims,
+    }
+    errors = validate_evidence_context(packet)
+    if errors:
+        raise ValueError("evidence context is invalid: " + "; ".join(errors))
+    return packet
+
+
+def _bind_request_hashes(
+    request: dict[str, Any],
+    *,
+    source_artifact_sha256: str | None,
+    repo_root: Path = REPO_ROOT,
+) -> dict[str, Any]:
+    request["specification_sha256"] = _digest_bytes(
+        (repo_root / str(request["specification"])).read_bytes()
+    )
+    request["source_artifact_sha256"] = source_artifact_sha256
+    request["normalized_input_sha256"] = _normalized_request_hash(request)
+    return request
+
+
+def validate_request_integrity(
+    request: Any, *, repo_root: Path = REPO_ROOT
+) -> list[str]:
+    """Validate the deterministic hashes carried by a current checker request."""
+
+    if not isinstance(request, dict):
+        return ["checker request must be an object"]
+    binding_fields = {
+        "specification_sha256",
+        "source_artifact_sha256",
+        "normalized_input_sha256",
+    }
+    if not (binding_fields & set(request)):
+        return []  # legacy request read compatibility
+    errors: list[str] = []
+    missing = binding_fields - set(request)
+    if missing:
+        errors.append(f"checker request binding fields are missing: {sorted(missing)}")
+        return errors
+    specification = request.get("specification")
+    specification_path = (repo_root / str(specification)).resolve()
+    try:
+        specification_path.relative_to(repo_root.resolve())
+    except ValueError:
+        errors.append("checker specification path escapes the repository")
+    else:
+        if not specification_path.is_file():
+            errors.append("checker specification is missing")
+        elif request.get("specification_sha256") != _digest_bytes(
+            specification_path.read_bytes()
+        ):
+            errors.append("checker specification hash mismatch")
+    if request.get("normalized_input_sha256") != _normalized_request_hash(request):
+        errors.append("checker normalized input hash mismatch")
+    source_hash = request.get("source_artifact_sha256")
+    if source_hash is not None and (
+        not isinstance(source_hash, str)
+        or re.fullmatch(r"[0-9a-f]{64}", source_hash) is None
+    ):
+        errors.append("checker source artifact hash is missing or invalid")
+    if request.get("pass_id") == "evidence" and (
+        source_hash is not None or request.get("evidence_context") is not None
+    ):
+        context = request.get("evidence_context")
+        errors.extend(validate_evidence_context(context))
+        if isinstance(context, dict):
+            if context.get("input_body_sha256") != request.get("input_body_sha256"):
+                errors.append("evidence context is bound to another article body")
+            if context.get("source_first_artifact_sha256") != source_hash:
+                errors.append("evidence context source artifact hash mismatch")
+    return errors
 
 
 def _parse_timestamp(value: Any) -> datetime | None:
@@ -1233,6 +1535,8 @@ def build_bundles(
     repo_root: Path = REPO_ROOT,
     router_path: Path | None = None,
     blind_seed: str | None = None,
+    source_inventory: dict[str, Any] | None = None,
+    require_evidence_context: bool = False,
 ) -> list[dict[str, Any]]:
     resolved = entry_path.resolve()
     raw = resolved.read_bytes()
@@ -1249,6 +1553,12 @@ def build_bundles(
     errors = validate_router(router, repo_root=repo_root)
     if errors:
         raise ValueError("; ".join(errors))
+    source_artifact_sha256 = (
+        _digest_json(source_inventory.get("source_first_audit"))
+        if isinstance(source_inventory, dict)
+        and isinstance(source_inventory.get("source_first_audit"), dict)
+        else None
+    )
     bundles: list[dict[str, Any]] = []
     for check_pass in router["passes"]:
         if check_pass["id"] == "frame-relation":
@@ -1277,16 +1587,32 @@ def build_bundles(
             section: sections.get(section, [])
             for section in check_pass["sections"]
         }
+        request = {
+            "schema_version": "check_pass_request_v6",
+            "pass_id": check_pass["id"],
+            "taxonomy_ids": list(check_pass["taxonomy_ids"]),
+            "specification": check_pass["specification"],
+            "input_body_sha256": _digest_bytes(body_bytes),
+            "input_sections": selected,
+            "finding_schema": router["finding_schema"],
+        }
+        if check_pass["id"] == "evidence":
+            if source_inventory is None and require_evidence_context:
+                raise ValueError(
+                    "source-first artifact is required for the evidence checker"
+                )
+            if source_inventory is not None:
+                request["evidence_context"] = build_evidence_context(
+                    source_inventory,
+                    input_body_sha256=_digest_bytes(body_bytes),
+                    relevant_sections=set(check_pass["sections"]),
+                )
         bundles.append(
-            {
-                "schema_version": "check_pass_request_v6",
-                "pass_id": check_pass["id"],
-                "taxonomy_ids": list(check_pass["taxonomy_ids"]),
-                "specification": check_pass["specification"],
-                "input_body_sha256": _digest_bytes(body_bytes),
-                "input_sections": selected,
-                "finding_schema": router["finding_schema"],
-            }
+            _bind_request_hashes(
+                request,
+                source_artifact_sha256=source_artifact_sha256,
+                repo_root=repo_root,
+            )
         )
     return bundles
 
@@ -1506,6 +1832,8 @@ def validate_pass_output(
     pass_id = output.get("pass_id")
     if pass_id not in by_id:
         return [f"unknown pass_id: {pass_id}"]
+    if request_payload is not None:
+        errors.extend(validate_request_integrity(request_payload, repo_root=repo_root))
     if require_reviewer or output.get("reviewer") is not None:
         errors.extend(
             review_liveness.validate_reviewer(
