@@ -1,0 +1,50 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-translation-handoff-20260905-56603e47-7c2a"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "definitions",
+        "line_start": 111,
+        "line_end": 111,
+        "exact_quote": "【日本語訳・定義】活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。"
+      },
+      "severity": "blocking",
+      "rationale": "「intense」の活動・行動の語義は強度、負荷、エネルギー、集中の高さであり、「深刻」は重大さという別の評価を加えている。また「短い期間」を必須条件にし、「決意」も一般的な含意としているため、語義を狭めている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "活動や行動が非常に激しく、多くのエネルギー、努力、集中を伴うこととし、短期間や深刻さを必須にしない。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 127,
+        "line_end": 127,
+        "exact_quote": "用途: 活動が短期間に激しく展開し、多くの動きを伴うことを表す。"
+      },
+      "severity": "blocking",
+      "rationale": "「intense activity」に「短期間」を必須とする意味はなく、活動の強度・負荷が高いことを表す説明が時間的条件に狭められている。定義欄と同じ過剰な時間制約が再発している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "活動が非常に活発で、高いエネルギーや負荷、多くの動きを伴うことを表すとする。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 176,
+        "line_end": 176,
+        "exact_quote": "訳: 彼はどのプロジェクトにも非常に真剣に取り組む、熱意の強い人だ。"
+      },
+      "severity": "blocking",
+      "rationale": "「intense person」は強い感情や態度、張り詰めた真剣さを示す中立的な表現であり、「熱意の強い人」は肯定的な熱意に意味を狭め、原文にない評価を加えている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "熱意に限定せず、強い感情や態度、非常に真剣で張り詰めた印象を保つ訳にする。"
+    }
+  ]
+}

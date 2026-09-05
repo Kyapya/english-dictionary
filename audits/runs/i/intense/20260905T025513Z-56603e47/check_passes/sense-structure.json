@@ -1,0 +1,63 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "gpt5-sense-structure-20260905-7f1c8e4a"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 158,
+        "line_end": 158,
+        "exact_quote": "【日本語訳・定義】人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという印象や、感情が強く張り詰めた印象を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "語義1も感情の程度が極端に高い用法を含むため、語義3の「非常に強い感情」はそのままでは語義1の言い換えになる。人物の性格・態度、視線や表情による感情の顕現、関係の感情的な強さはフレームと評価が異なり得るが、現状は対象名詞の列挙だけで境界を示していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1へ統合するか、人物・態度、表情・視線、関係の各フレームを必要性に応じて再編し、感情状態の強度と表出・評価の差を明示する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 111,
+        "line_end": 111,
+        "exact_quote": "【日本語訳・定義】活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。"
+      },
+      "severity": "minor",
+      "rationale": "コアイメージの語義2は活動・行動の激しさとエネルギーを中心にしているが、定義の「深刻」は重大さ・真剣さを必須条件にし、語義3の評価と重なる。また「多くの動き」は活動量の条件を過度に狭める。intense の活動義は必ずしも深刻でも多数の動きを伴うものでもなく、中心意味の範囲が各セクションでずれている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「深刻」「多くの動き」を必須条件から外し、活動・行動に大きな力、努力、緊張、集中がかかる用法として定義する。短時間性や intensive との差は補助的な注記に限定する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 188,
+        "line_end": 188,
+        "exact_quote": "【語法・注意】人や表情に intense を使うと、強い感情・意見・考えが表に現れ、真剣で張り詰めた印象を表す。人、視線、関係、about 〈事柄〉など、何の強さを述べるかによって日本語訳を調整する。"
+      },
+      "severity": "minor",
+      "rationale": "前半は人・表情が強い感情等を表出するフレームだが、後半では関係と about 〈事柄〉を同じ「何の強さ」として追加している。関係は関係自体の感情的な強さを表し、about は人物の真剣さ・熱意が向く話題を示すため、表情のように感情が表に現れる構文とは項構造が異なる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "関係と intense about + 名詞をそれぞれの項構造で明示し、コアイメージにも対応する枝を加えるか、語義3を人物・態度の用法に限定する。"
+    },
+    {
+      "taxonomy_id": "compound_component_generalization",
+      "location": {
+        "section": "word_formation",
+        "line_start": 27,
+        "line_end": 27,
+        "exact_quote": "・intensive（形容詞）— 集中的な、徹底的な。intense と同じく短期間の多くの活動を表せるが、intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。"
+      },
+      "severity": "minor",
+      "rationale": "intensive は別語であり、その短期間・多量活動という性質を intense の活動義の一般則へ流し込むと、語義2が intensive と同じ範囲に見える。intense の活動用法で参加者の感情が示唆されることも傾向にとどまり、一般条件ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "intensive との対照は限定的な語法注記にとどめ、intense は極端な強度・力・努力を軸に独立して定義する。短時間・多量活動は両語が重なる場合だけ説明する。"
+    }
+  ]
+}

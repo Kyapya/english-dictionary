@@ -1,0 +1,25 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-evidence-56603e47-20260905T025513Z"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。"
+      },
+      "severity": "blocking",
+      "rationale": "Input packetにsource inventory、fact、claim unit、locator、またはevidence linkが含まれていないため、この主張を直接支持する根拠と適用範囲を確認できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "source-first工程のsource inventory・fact・claim unit・evidence linkを再投入し、根拠確認までhold"
+    }
+  ]
+}
+

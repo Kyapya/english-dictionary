@@ -1,0 +1,205 @@
+{
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "c1",
+      "surface_form": "intense",
+      "frame": "attributive or predicative adjective with nouns denoting sensations, emotions, qualities, physical conditions, colors, interest, pressure, or scrutiny",
+      "meaning": "having an extremely high degree or strength",
+      "disposition": "included",
+      "rationale": "This is a central and well-supported adjective use, covering examples such as intense pain, heat, pleasure, anger, interest, blue, pressure, and scrutiny.",
+      "semantic_assertions": [
+        {
+          "id": "a1",
+          "statement": "The modified experience, quality, condition, or sensation must be construed as exceptionally strong in degree or intensity.",
+          "polarity": "must_hold",
+          "scope": "general adjective use"
+        }
+      ]
+    },
+    {
+      "id": "c2",
+      "surface_form": "intense",
+      "frame": "attributive adjective with activity, competition, discussion, conflict, or other event nouns",
+      "meaning": "very vigorous, demanding, serious, or highly pressurized activity",
+      "disposition": "included",
+      "rationale": "The event/activity reading is independently identifiable, especially in intense competition and intense activity, but it does not inherently encode a short duration.",
+      "semantic_assertions": [
+        {
+          "id": "a2",
+          "statement": "The event or activity must be unusually vigorous, demanding, or highly pressurized, without requiring that it occur only over a short period.",
+          "polarity": "must_hold",
+          "scope": "activity and event nouns"
+        }
+      ]
+    },
+    {
+      "id": "c3",
+      "surface_form": "intense",
+      "frame": "attributive adjective with abstract nouns such as energy, determination, or concentration",
+      "meaning": "extremely strong energy, determination, or concentration",
+      "disposition": "included",
+      "rationale": "These nouns express a high degree of an abstract quality, not an activity itself, so they form a separate frame from the event/activity reading. The relevant article frame is intense + energy/determination/concentration.",
+      "semantic_assertions": [
+        {
+          "id": "a3",
+          "statement": "The adjective must describe the strength of the abstract quality itself rather than classify the noun as a short-term activity.",
+          "polarity": "must_hold",
+          "scope": "energy, determination, and concentration"
+        }
+      ]
+    },
+    {
+      "id": "c4",
+      "surface_form": "intense",
+      "frame": "attributive adjective with person, look, gaze, or expression nouns",
+      "meaning": "showing or conveying powerful feeling, seriousness, focus, or force of character",
+      "disposition": "included",
+      "rationale": "These uses describe an emotionally forceful or highly serious person or outward expression. The relevant article frame is intense person/look/gaze/expression.",
+      "semantic_assertions": [
+        {
+          "id": "a4",
+          "statement": "The person or outward expression must convey unusual emotional force, seriousness, focus, or force of character.",
+          "polarity": "must_hold",
+          "scope": "people and expressions"
+        }
+      ]
+    },
+    {
+      "id": "c5",
+      "surface_form": "intense",
+      "frame": "attributive adjective with relationship or interpersonal-connection nouns",
+      "meaning": "emotionally powerful or strongly involving relationship",
+      "disposition": "included",
+      "rationale": "An intense relationship is a distinct interpersonal frame involving strong emotional involvement or interaction.",
+      "semantic_assertions": [
+        {
+          "id": "a5",
+          "statement": "The relationship must involve unusually strong emotional involvement or interpersonal interaction, not merely high activity.",
+          "polarity": "must_hold",
+          "scope": "relationship nouns"
+        }
+      ]
+    },
+    {
+      "id": "c6",
+      "surface_form": "intense",
+      "frame": "be intense about + noun, gerund, or other complement",
+      "meaning": "having strong opinions or enthusiasm about a matter",
+      "disposition": "excluded",
+      "rationale": "This is not a reliable unmarked core frame for the adjective in learner-facing usage; the article presents be intense about too confidently and supplies an unnatural example. The relevant article frame is be intense about.",
+      "semantic_assertions": [
+        {
+          "id": "a6",
+          "statement": "The article must not present be intense about as a standard, general-purpose grammatical pattern without a markedness or usage qualification.",
+          "polarity": "must_not_hold",
+          "scope": "adjective complementation"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "f1",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {"section": "sense_structure", "line_start": 111, "line_end": 111, "exact_quote": "【日本語訳・定義】活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。"},
+      "severity": "blocking",
+      "rationale": "該当本文「活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。」。Intense does not lexically entail short duration. Activities, competition, discussion, and other events may be intense over extended periods. The short-term restriction materially narrows the meaning and misleads learners.",
+      "scope_anchors": [
+        {
+          "id": "final-anchor-001",
+          "exact_quote": "活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。",
+          "location_hint": "語義2・日本語訳・定義"
+        }
+      ]
+    },
+    {
+      "id": "f2",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {"section": "sense_structure", "line_start": 117, "line_end": 117, "exact_quote": "【文法パターン】intense + 〈活動・競争〉＝短期間に展開する非常に激しい活動・競争／intense + 〈energy・determination・concentration〉＝極端に強いエネルギー・決意・集中"},
+      "severity": "blocking",
+      "rationale": "該当本文「intense + 〈活動・競争〉＝短期間に展開する非常に激しい活動・競争／intense + 〈energy・determination・concentration〉＝極端に強いエネルギー・決意・集中」。Energy, determination, and concentration are abstract qualities whose intensity is being described. They naturally belong to the high-degree/strength meaning, not to an activity or action reading. Keeping them inside Meaning 2 blurs a central sense boundary.",
+      "scope_anchors": [
+        {
+          "id": "final-anchor-002",
+          "exact_quote": "intense + 〈活動・競争〉＝短期間に展開する非常に激しい活動・競争／intense + 〈energy・determination・concentration〉＝極端に強いエネルギー・決意・集中",
+          "location_hint": "語義2・文法パターン"
+        }
+      ]
+    },
+    {
+      "id": "f3",
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {"section": "sense_structure", "line_start": 164, "line_end": 164, "exact_quote": "【文法パターン】an intense person＝強い感情・意見・考えを示す人／an intense look/gaze＝強い感情を帯びた視線／be intense about 〈事柄〉＝〈事柄〉について強い意見や熱意を示す／an intense relationship＝感情的な結びつきの強い関係"},
+      "severity": "blocking",
+      "rationale": "該当本文「be intense about 〈事柄〉＝〈事柄〉について強い意見や熱意を示す」。The article treats be intense about as a normal productive frame and builds a teaching example around it, but the construction is at best marked and uncommon compared with be passionate about or be serious about. It requires an explicit usage qualification or removal.",
+      "scope_anchors": [
+        {
+          "id": "final-anchor-003",
+          "exact_quote": "be intense about 〈事柄〉＝〈事柄〉について強い意見や熱意を示す",
+          "location_hint": "語義3・文法パターン"
+        }
+      ]
+    },
+    {
+      "id": "f4",
+      "taxonomy_id": "compound_component_generalization",
+      "location": {"section": "word_formation", "line_start": 27, "line_end": 27, "exact_quote": "・intensive（形容詞）— 集中的な、徹底的な。intense と同じく短期間の多くの活動を表せるが、intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。"},
+      "severity": "blocking",
+      "rationale": "該当本文「・intensive（形容詞）— 集中的な、徹底的な。intense と同じく短期間の多くの活動を表せるが、intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。」。The contrast overstates that intense and intensive both encode short-term high activity and that intense tends to signal participants' emotions while intensive is objective. Intense primarily marks strong degree and can describe sustained or objectively measurable conditions; intensive conventionally emphasizes concentrated effort or activity, often in a limited period. The distinction needs to be rewritten.",
+      "scope_anchors": [
+        {
+          "id": "final-anchor-004",
+          "exact_quote": "・intensive（形容詞）— 集中的な、徹底的な。intense と同じく短期間の多くの活動を表せるが、intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。",
+          "location_hint": "語形成・intensive の項目"
+        }
+      ]
+    },
+    {
+      "id": "f5",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {"section": "frequency_register", "line_start": 46, "line_end": 46, "exact_quote": "※Oxford 5000ではC1レベルの学習語彙ラベルで、上の数値は語義別の厳密な順位ではない。"},
+      "severity": "blocking",
+      "rationale": "該当本文「※Oxford 5000ではC1レベルの学習語彙ラベルで、上の数値は語義別の厳密な順位ではない。」。The stated Oxford learner-vocabulary level is inaccurate; intense is generally classified at B2 in Oxford learner materials. Attributing an incorrect level to Oxford is a factual source claim and should be corrected.",
+      "scope_anchors": [
+        {
+          "id": "final-anchor-005",
+          "exact_quote": "※Oxford 5000ではC1レベルの学習語彙ラベルで、上の数値は語義別の厳密な順位ではない。",
+          "location_hint": "語義1・頻度注記"
+        }
+      ]
+    },
+    {
+      "id": "f6",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {"section": "sense_structure", "line_start": 158, "line_end": 158, "exact_quote": "【日本語訳・定義】人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという印象や、感情が強く張り詰めた印象を表す。"},
+      "severity": "blocking",
+      "rationale": "該当本文「人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという印象や、感情が強く張り詰めた印象を表す。」。The wording makes all uses primarily about displaying strong feelings, opinions, ideas, and purpose. Intense person can describe forceful or emotionally extreme character, while intense relationship describes strong emotional involvement and need not mean that opinions or feelings are outwardly displayed. The definition should distinguish possession, expression, and interpersonal intensity.",
+      "scope_anchors": [
+        {
+          "id": "final-anchor-006",
+          "exact_quote": "人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという印象や、感情が強く張り詰めた印象を表す。",
+          "location_hint": "語義3・日本語訳・定義"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06fae-8dc8-7a41-bd68-b080fc5ec0b8"
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-intense-20260905T025513Z-56603e47",
+  "context_id": "blind-intense-context-20260905T025513Z-56603e47",
+  "input_body_sha256": "775f1956389033859823911e7aa86ac43f54a7d67c8c24eda12de863b53444dc",
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-05T03:52:01.112278+00:00"
+}
