@@ -3,13 +3,13 @@
   "stage": "source_inventory",
   "run_id": "20260905T152653Z-81cda47a",
   "context_id": "intense-source-first-20260905-r7",
-  "input_body_sha256": "b88e6a2aa3d06ac75ffb4bf19faf6a15e94d1d3af3177f27da81431d15844697",
+  "input_body_sha256": "7344c5854e8b2278baa9099546bc388f686ba182fe08e8379222a9e9a1cf2a30",
   "prompt_sha256": "442c4856529d84bec57e45d353299ba56909631ab29dee1296afd701bc67df38",
   "input_artifacts": [
     "headword",
     "source_first_spec"
   ],
-  "recorded_at": "2026-09-05T16:42:00Z",
+  "recorded_at": "2026-09-05T17:36:41Z",
   "evidence_link_ids": [
     "EVID-001",
     "EVID-002",
@@ -35,17 +35,17 @@
     },
     "usage": {
       "sources_used": 8,
-      "facts_used": 29,
+      "facts_used": 38,
       "research_rounds_used": 3,
-      "post_cold_rechecks_used": 0,
+      "post_cold_rechecks_used": 1,
       "final_attempts_used": 0
     },
     "research_status": "complete",
     "stop_reason": "",
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
-    "inventory_completed_at": "2026-09-05T16:42:00Z",
-    "article_comparison_started_at": "2026-09-05T16:42:01Z",
+    "inventory_completed_at": "2026-09-05T17:36:38Z",
+    "article_comparison_started_at": "2026-09-05T17:36:41Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -61,7 +61,13 @@
           "F-012",
           "F-020",
           "F-022",
-          "F-024"
+          "F-024",
+          "F-033",
+          "F-034",
+          "F-035",
+          "F-036",
+          "F-037",
+          "F-038"
         ],
         "notes": "独立した学習者辞書・一般辞書・類義語辞書で、程度、活動、人/表現/関係、感情の主要用法を確認した。"
       },
@@ -73,7 +79,8 @@
           "F-003",
           "F-007",
           "F-008",
-          "F-012"
+          "F-012",
+          "F-030"
         ],
         "notes": "形容詞としての程度対象、活動対象、人・表現フレームを確認した。"
       },
@@ -86,7 +93,9 @@
           "F-016",
           "F-017",
           "F-018",
-          "F-019"
+          "F-019",
+          "F-031",
+          "F-032"
         ],
         "notes": "intensity、intensify、intensification、intensiveを原子的な表層形ごとに確認した。"
       },
@@ -114,7 +123,8 @@
           "F-004",
           "F-009",
           "F-010",
-          "F-013"
+          "F-013",
+          "F-030"
         ],
         "notes": "二つの辞書と独立した語源資料で発音・強勢・語源を確認した。"
       }
@@ -176,12 +186,19 @@
             "kind": "lexical_relation",
             "statement": "Oxford defines extreme as very great in degree and also as not ordinary or usual, serious, or severe.",
             "source_detail": "Oxford Learner's Dictionaries, extreme adjective, senses 1-2: https://www.oxfordlearnersdictionaries.com/definition/english/extreme_1."
+          },
+          {
+            "id": "F-030",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Oxford presents intense debate as a period of serious activity and displays /ɪnˈtens/ in both its English and American English views.",
+            "source_detail": "Oxford Learner's Dictionaries, intense entry, pronunciation and sense 2 extra example."
           }
         ]
       },
       {
         "id": "S-002",
-        "title": "intense Definition & Meaning - Merriam-Webster",
+        "title": "Merriam-Webster definitions for intense and related forms",
         "locator": "https://www.merriam-webster.com/dictionary/intense",
         "source_type": "dictionary",
         "source_role": "general_lexicon",
@@ -221,6 +238,62 @@
             "kind": "pronunciation",
             "statement": "Merriam-Webster's respelling indicates stress on the second syllable and a final /s/ sound: in-ˈten(t)s.",
             "source_detail": "Merriam-Webster headword pronunciation respelling."
+          },
+          {
+            "id": "F-031",
+            "form": "intensive",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines intensive as highly concentrated and as tending to strengthen or increase, and gives intensive study, course, and effort examples.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/intensive."
+          },
+          {
+            "id": "F-032",
+            "form": "intensification",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines intensification as the act, process, or instance of intensifying.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/intensification."
+          },
+          {
+            "id": "F-033",
+            "form": "strong",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines strong across physical, moral, emotional, intellectual, social, and degree-related strength, including not mild or weak and intense as a related word.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/strong, adjective definitions 1-2 and 7."
+          },
+          {
+            "id": "F-034",
+            "form": "powerful",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines powerful as having great power, prestige, or influence.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/powerful, adjective definition 1."
+          },
+          {
+            "id": "F-035",
+            "form": "fierce",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines fierce as violently hostile or aggressive, marked by unrestrained zeal or vehemence, extremely intense, and furiously active or determined.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/fierce, adjective definitions 1-3."
+          },
+          {
+            "id": "F-036",
+            "form": "passionate",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines passionate as capable of, affected by, or expressing intense feeling and also as enthusiastic or ardent; it gives passionate coach as an example.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/passionate, adjective definition 1."
+          },
+          {
+            "id": "F-037",
+            "form": "deep",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster includes characterized by profundity of feeling and gives deep sense of loss as an example.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/deep, adjective definition 3f."
+          },
+          {
+            "id": "F-038",
+            "form": "fervent",
+            "kind": "lexical_sense",
+            "statement": "Merriam-Webster defines fervent as exhibiting or marked by great intensity of feeling and gives fervent prayers and fervent admirer/supporter/proponent examples.",
+            "source_detail": "Merriam-Webster, https://www.merriam-webster.com/dictionary/fervent, adjective definition 1."
           }
         ]
       },
@@ -423,7 +496,8 @@
         "id": "U-002",
         "source_fact_ids": [
           "F-002",
-          "F-007"
+          "F-007",
+          "F-030"
         ],
         "canonical_statement": "Intense can describe activity or action whose strength or force is very high; many actions in a short period are a common Oxford context, not a requirement, and amount, speed, busyness, load, effort, or tension need not all be high.",
         "disposition": "integrated",
@@ -447,7 +521,8 @@
           "F-004",
           "F-009",
           "F-010",
-          "F-013"
+          "F-013",
+          "F-030"
         ],
         "canonical_statement": "Intense is pronounced with second-syllable stress in /ɪnˈtens/ and descends through French from Latin intensus and intendere.",
         "disposition": "integrated",
@@ -456,7 +531,8 @@
       {
         "id": "U-005",
         "source_fact_ids": [
-          "F-005"
+          "F-005",
+          "F-031"
         ],
         "canonical_statement": "Intense and intensive can overlap when describing a lot of activity in a short period; intense may suggest somebody's feelings, while intensive gives a more objective description.",
         "disposition": "integrated",
@@ -468,7 +544,8 @@
           "F-016",
           "F-017",
           "F-018",
-          "F-019"
+          "F-019",
+          "F-032"
         ],
         "canonical_statement": "Intensify is the related verb, usable intransitively for becoming stronger and transitively for making something intense; intensification is its related noun.",
         "disposition": "integrated",
@@ -502,7 +579,13 @@
           "F-023",
           "F-024",
           "F-025",
-          "F-029"
+          "F-029",
+          "F-033",
+          "F-034",
+          "F-035",
+          "F-036",
+          "F-037",
+          "F-038"
         ],
         "canonical_statement": "Independent thesaurus results place the selected words in nearby relation to the relevant intensity or depth-of-feeling uses, while Oxford directly supplies the extreme boundary; the article keeps each contrast frame-sensitive and does not claim interchangeability.",
         "disposition": "integrated",
@@ -552,6 +635,14 @@
             "source_fact_id": "F-029",
             "support_summary": "Oxford defines extreme as very great in degree and also as not ordinary or usual, supporting the direct boundary contrast."
           }
+        ],
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-011",
+          "F-020",
+          "F-022",
+          "F-029"
         ]
       },
       {
@@ -575,7 +666,16 @@
           {
             "source_fact_id": "F-007",
             "support_summary": "Merriam-Webster adds extreme energy, determination, and concentration to the activity boundary."
+          },
+          {
+            "source_fact_id": "F-030",
+            "support_summary": "Oxford gives intense debate as an activity example, extending the activity frame beyond competition."
           }
+        ],
+        "source_fact_ids": [
+          "F-002",
+          "F-007",
+          "F-030"
         ]
       },
       {
@@ -609,6 +709,12 @@
             "source_fact_id": "F-014",
             "support_summary": "Etymonline records the person-related high-strung sense."
           }
+        ],
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-012",
+          "F-014"
         ]
       },
       {
@@ -640,7 +746,18 @@
           {
             "source_fact_id": "F-013",
             "support_summary": "Etymonline independently gives the early fifteenth-century French and Latin history."
+          },
+          {
+            "source_fact_id": "F-030",
+            "support_summary": "Oxford's entry displays the same /ɪnˈtens/ dictionary transcription in its English and American English views."
           }
+        ],
+        "source_fact_ids": [
+          "F-004",
+          "F-009",
+          "F-010",
+          "F-013",
+          "F-030"
         ]
       },
       {
@@ -659,7 +776,15 @@
           {
             "source_fact_id": "F-005",
             "support_summary": "Oxford explicitly contrasts the overlap and the feeling-oriented versus objective descriptions."
+          },
+          {
+            "source_fact_id": "F-031",
+            "support_summary": "Merriam-Webster defines intensive as highly concentrated and gives intensive study, course, and effort examples."
           }
+        ],
+        "source_fact_ids": [
+          "F-005",
+          "F-031"
         ]
       },
       {
@@ -690,7 +815,18 @@
           {
             "source_fact_id": "F-019",
             "support_summary": "Merriam-Webster lists intensification as the noun related to intensify."
+          },
+          {
+            "source_fact_id": "F-032",
+            "support_summary": "Merriam-Webster directly defines intensification as the act, process, or instance of intensifying."
           }
+        ],
+        "source_fact_ids": [
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-032"
         ]
       },
       {
@@ -709,6 +845,9 @@
             "source_fact_id": "F-015",
             "support_summary": "Etymonline identifies intensity as the -ity noun related to intense."
           }
+        ],
+        "source_fact_ids": [
+          "F-015"
         ]
       },
       {
@@ -741,6 +880,12 @@
             "source_fact_id": "F-028",
             "support_summary": "The table omits the unlisted related words and has no article-sense granularity, so the article uses the stated rank-band baseline and conservative outside-top-5000 value."
           }
+        ],
+        "source_fact_ids": [
+          "F-021",
+          "F-026",
+          "F-027",
+          "F-028"
         ]
       },
       {
@@ -781,10 +926,47 @@
           {
             "source_fact_id": "F-029",
             "support_summary": "Oxford defines extreme as very great in degree and also as not ordinary or usual, supporting the article's direct boundary contrast."
+          },
+          {
+            "source_fact_id": "F-033",
+            "support_summary": "Merriam-Webster defines strong across broad physical, emotional, intellectual, and degree-related strength, including not mild or weak."
+          },
+          {
+            "source_fact_id": "F-034",
+            "support_summary": "Merriam-Webster defines powerful through great power, prestige, or influence."
+          },
+          {
+            "source_fact_id": "F-035",
+            "support_summary": "Merriam-Webster covers hostility, vehemence, extreme intensity, and furious activity for fierce."
+          },
+          {
+            "source_fact_id": "F-036",
+            "support_summary": "Merriam-Webster defines passionate through intense feeling and enthusiasm and gives passionate coach as an example."
+          },
+          {
+            "source_fact_id": "F-037",
+            "support_summary": "Merriam-Webster defines deep feeling through profundity and gives deep sense of loss as an example."
+          },
+          {
+            "source_fact_id": "F-038",
+            "support_summary": "Merriam-Webster defines fervent through great intensity of feeling and gives supporter and prayer examples."
           }
+        ],
+        "source_fact_ids": [
+          "F-020",
+          "F-023",
+          "F-024",
+          "F-025",
+          "F-029",
+          "F-033",
+          "F-034",
+          "F-035",
+          "F-036",
+          "F-037",
+          "F-038"
         ]
       }
     ],
-    "input_body_sha256": "b88e6a2aa3d06ac75ffb4bf19faf6a15e94d1d3af3177f27da81431d15844697"
+    "input_body_sha256": "7344c5854e8b2278baa9099546bc388f686ba182fe08e8379222a9e9a1cf2a30"
   }
 }
