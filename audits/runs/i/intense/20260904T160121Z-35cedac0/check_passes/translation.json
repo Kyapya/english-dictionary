@@ -1,0 +1,39 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d38-d628-7841-8e59-29308963a0b1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 278,
+        "line_end": 278,
+        "exact_quote": "訳: 彼はどのプロジェクトにも非常に真剣に取り組む、熱の強い人だ。"
+      },
+      "severity": "minor",
+      "rationale": "「熱の強い人」は定着した日本語表現ではなく、物理的な熱や発熱の含意も生じ得るため、intense person の人物における強い感情・意欲・存在感を明確に表せていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「熱意の強い人」「感情の強い人」「気迫のある人」など、人物の強い感情・意欲・存在感を表す表現に直す。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 100,
+        "line_end": 101,
+        "exact_quote": "例: The region experienced extreme temperatures last summer.\n訳: その地域は昨夏、極端な気温に見舞われた。"
+      },
+      "severity": "blocking",
+      "rationale": "experienced extreme temperatures は中立的な経験・観測を述べるだけだが、「見舞われた」はその地域が気温による被害や災難を受けたという否定的評価を加え、原文にない被害含意を生じさせている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その地域では昨夏、極端な気温が観測された」または「その地域は昨夏、極端な気温を経験した」のように中立に訳す。"
+    }
+  ]
+}

@@ -1,0 +1,554 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-intense-20260904T160121Z-35cedac0",
+  "context_id": "normal-intense-context-20260904T160121Z-35cedac0",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-04T16:52:52.562978+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d38-d628-7841-8e59-29308963a0b1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 278,
+            "line_end": 278,
+            "exact_quote": "訳: 彼はどのプロジェクトにも非常に真剣に取り組む、熱の強い人だ。"
+          },
+          "severity": "minor",
+          "rationale": "「熱の強い人」は定着した日本語表現ではなく、物理的な熱や発熱の含意も生じ得るため、intense person の人物における強い感情・意欲・存在感を明確に表せていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「熱意の強い人」「感情の強い人」「気迫のある人」など、人物の強い感情・意欲・存在感を表す表現に直す。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 100,
+            "line_end": 101,
+            "exact_quote": "例: The region experienced extreme temperatures last summer.\n訳: その地域は昨夏、極端な気温に見舞われた。"
+          },
+          "severity": "blocking",
+          "rationale": "experienced extreme temperatures は中立的な経験・観測を述べるだけだが、「見舞われた」はその地域が気温による被害や災難を受けたという否定的評価を加え、原文にない被害含意を生じさせている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「その地域では昨夏、極端な気温が観測された」または「その地域は昨夏、極端な気温を経験した」のように中立に訳す。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d38-db8e-7f13-a306-1332a3a1f0ac"
+      },
+      "findings": [],
+      "records": [
+        {
+          "record_type": "masked_antonym_axis",
+          "stage": 1,
+          "status": "masked",
+          "axis": "[MASKED]"
+        }
+      ]
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d38-eb50-7b73-a126-1ec01be250b5"
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+        "blind_request_sha256": "bb7ac6fe828f9b6c609d2665f7e237e63afc7832e4e313208d36d064a9d38225",
+        "recorded_at": "2026-09-04T16:22:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a06d38-eb50-7b73-a126-1ec01be250b5"
+        },
+        "axes": [
+          {
+            "item_id": "ant-af2cb1b9bd23",
+            "axis": "関与",
+            "relation_type": "状態",
+            "reason": "強い感情や目的意識の示し方と、感情的に距離を置くことの対立。"
+          },
+          {
+            "item_id": "ant-80779d1bfcd6",
+            "axis": "真剣さ",
+            "relation_type": "状態",
+            "reason": "真剣で集中した態度と、気軽で形式張らない態度の対立。"
+          },
+          {
+            "item_id": "ant-41690c7b43ad",
+            "axis": "負荷",
+            "relation_type": "程度",
+            "reason": "短時間に必要な力や注意の大きさと、仕事や運動の小さな負荷の対立。"
+          },
+          {
+            "item_id": "ant-f114c7dc9bc6",
+            "axis": "強度",
+            "relation_type": "程度",
+            "reason": "感情や感覚などの力の大きさと、力や効果の弱さの対立。"
+          },
+          {
+            "item_id": "ant-464499db347e",
+            "axis": "強度",
+            "relation_type": "程度",
+            "reason": "対象の極端な強さと、穏やかで強すぎない程度の対立。"
+          },
+          {
+            "item_id": "ant-1a4b697f8e4b",
+            "axis": "強度",
+            "relation_type": "程度",
+            "reason": "活動に必要な力や注意の強さと、中程度の強さの対立。"
+          },
+          {
+            "item_id": "ant-f870f7405e53",
+            "axis": "緊張",
+            "relation_type": "状態",
+            "reason": "重く圧のある集中状態と、緊張や気負いのない落ち着いた状態の対立。"
+          },
+          {
+            "item_id": "ant-06d30634b64f",
+            "axis": "強度",
+            "relation_type": "程度",
+            "reason": "光や音などの強さと、かすかな強さの対立。"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d4c-2571-7c50-b875-ca487c86c08e"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "stage": 1,
+        "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+        "blind_request_sha256": "edac8b06c708c78fa2d78a3fc9cd9ee5167264ccf72365a92b7dfb223046510c",
+        "recorded_at": "2026-09-04T16:49:10Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "01a06d4c-2571-7c50-b875-ca487c86c08e"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-f53769a5a6bc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "competition"
+            ],
+            "rationale": "Competition is an activity whose fierceness is intensified; sense:001 concerns sensations or properties, and sense:003 concerns people or charged interpersonal expressions."
+          },
+          {
+            "example_id": "ex-b28f6d7f1845",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "conversation"
+            ],
+            "rationale": "The conversation is emotionally serious and charged; this use emphasizes interpersonal and emotional force rather than intensive activity."
+          },
+          {
+            "example_id": "ex-05fbd8b092d1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "blue"
+            ],
+            "rationale": "Blue is a color whose perceptual strength is extreme; the other senses require activity or people and interpersonal expressions."
+          },
+          {
+            "example_id": "ex-2e6814e0327b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "training"
+            ],
+            "rationale": "Training is a concentrated activity demanding sustained effort; it is not a sensation or property being modified."
+          },
+          {
+            "example_id": "ex-24587d18761a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "emotional"
+            ],
+            "rationale": "The adjective characterizes the emotional closeness and pressure of an interpersonal bond, not activity intensity."
+          },
+          {
+            "example_id": "ex-fe8446a73293",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "negotiations"
+            ],
+            "rationale": "Negotiations are a sustained activity involving concentrated effort; the sentence does not characterize a person's disposition or relationship."
+          },
+          {
+            "example_id": "ex-eef6da74d93f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "person"
+            ],
+            "rationale": "Intense directly characterizes the person's serious disposition; the project is only the topic of that disposition."
+          },
+          {
+            "example_id": "ex-9aba6a848ed0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "look"
+            ],
+            "rationale": "The look is a directed interpersonal expression of a strong reaction, not the strength of a visual property."
+          },
+          {
+            "example_id": "ex-90020462b558",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "pain"
+            ],
+            "rationale": "Pain is the sensation whose degree is extreme; the other senses describe activities or people and interpersonal expressions."
+          },
+          {
+            "example_id": "ex-7c4d2f6942d9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "meeting"
+            ],
+            "rationale": "The meeting is socially and emotionally overcharged for an introduction; this emphasizes interpersonal pressure."
+          },
+          {
+            "example_id": "ex-82a3302b23ce",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "effort"
+            ],
+            "rationale": "Effort is the activity or exertion requiring great force and attention, not a sensation or property."
+          },
+          {
+            "example_id": "ex-ff0a1082d768",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "debate"
+            ],
+            "rationale": "Debate is a vigorous, demanding argumentative activity; the sentence describes discussion rather than a person's emotional expression."
+          },
+          {
+            "example_id": "ex-6751dd691f7b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "heat"
+            ],
+            "rationale": "Heat is a physical sensation or condition with extreme degree; the activity sense does not apply."
+          },
+          {
+            "example_id": "ex-2a4f0bdbf31e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "interest"
+            ],
+            "rationale": "Interest is the mental response whose strength is extreme; the other senses require activity or people and interpersonal expressions."
+          },
+          {
+            "example_id": "ex-8fcafcf693f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "activity"
+            ],
+            "rationale": "Activity is explicitly concentrated in the period, matching a high density of actions rather than sensory or interpersonal intensity."
+          },
+          {
+            "example_id": "ex-c9dfb6fde6ae",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "pressure"
+            ],
+            "rationale": "Pressure is the burden or force felt as extremely strong, explicitly covered by the first sense."
+          },
+          {
+            "example_id": "ex-c44f7f9515a3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "keeping"
+            ],
+            "rationale": "The predicate characterizes a serious, strongly purposeful attitude about keeping the details accurate; its object does not make the adjective an activity sense."
+          },
+          {
+            "example_id": "ex-67d25c6bd763",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "anger"
+            ],
+            "rationale": "Anger is the emotion whose strength is extreme; the third sense characterizes a person or expression, not the emotion noun itself."
+          }
+        ],
+        "findings": [],
+        "records": []
+      },
+      "aligned_at": "2026-09-04T16:52:52.557975+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d38-f0af-76a3-b732-755bbe16b0a1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 45,
+            "line_end": 45,
+            "exact_quote": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。"
+          },
+          "severity": "minor",
+          "rationale": "「対象にかかる力や感じられる圧」が中心的な条件のように読めるが、色・関心・喜びなどでは知覚的鮮明さや感情・関心の強度を表し、物理的・対人的な圧力を含まない場合がある。適用範囲が狭い。",
+          "evidence_link_ids": [],
+          "suggested_direction": "程度・感情・感覚・知覚的鮮明さなどの強さを中心義とし、力や圧力は一つの文脈例として限定する。"
+        },
+        {
+          "taxonomy_id": "regional_qualification",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 47,
+            "line_end": 47,
+            "exact_quote": "【頻度】〈9/10〉"
+          },
+          "severity": "minor",
+          "rationale": "9/10の尺度、コーパス、期間、英語変種の範囲が示されず、英語全体での遭遇頻度なのか、項目内の相対順位や特定領域の頻度なのか判定できない。同形式の8/10・7/10にも同じ問題がある。",
+          "evidence_link_ids": [],
+          "suggested_direction": "英語全体を対象にした頻度基準またはコーパス範囲を明示し、根拠を示せない場合は「高頻度」などの定性的表現にする。"
+        },
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 85,
+            "line_end": 85,
+            "exact_quote": "【語法・注意】intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。たとえば「雨が大量に降る」は heavy rain、「色が鮮やかで強い」は intense color のように、対象に応じて自然な語を選ぶ。"
+          },
+          "severity": "minor",
+          "rationale": "「量が多いことを表す語ではない」という一括否定は強すぎる。intense rain/rainfallは降水の強度・降水率・勢いを表す用法として成立し、heavy rainが総量や一般的な言い換えとして好まれる場合があるという区別にすべきである。",
+          "evidence_link_ids": [],
+          "suggested_direction": "総量そのものとは同義でないと説明しつつ、降水率や物理的強度を表す intense rain/rainfall を排除しない。"
+        },
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 156,
+            "line_end": 156,
+            "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。"
+          },
+          "severity": "minor",
+          "rationale": "「短い期間」と多くの行動・力・注意を必要とすることが定義上の条件のように置かれているが、intense competition、intense debate、intense activityなどは長期または持続的な状態の強度を表すこともあり、参加者の主観的負荷を必ず含まない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "活動量、対立、努力、注意の投入などが非常に大きいという中心を示し、短期間への集中や参加者の負荷は典型的な傾向として限定する。"
+        },
+        {
+          "taxonomy_id": "regional_qualification",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 280,
+            "line_end": 280,
+            "exact_quote": "・be intense about 〈事柄〉"
+          },
+          "severity": "minor",
+          "rationale": "be intense aboutは成立し得るが、passionate aboutやserious aboutより頻度が低く、文脈によってはやや marked／口語的で「過度に真剣」という評価を帯びる。標準的な一般パターンとして無標で提示すると自然さを過大評価し得る。",
+          "evidence_link_ids": [],
+          "suggested_direction": "低頻度・口語的または評価的な用法であることを注記し、必要に応じてより一般的な代替表現やintense commitment toなどを併記する。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d38-e0b1-7692-9ff4-bb671eee00a8"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "pronunciation_symbol_explanation",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 17,
+            "line_end": 17,
+            "exact_quote": "intensive /ɪnˈtensɪv/ と発音の始まりは似ているが、intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。  "
+          },
+          "severity": "blocking",
+          "rationale": "intense の提示IPA /ɪnˈtens/ の語末は /tens/ であり、/ens/ ではない。説明が語末の /t/ を落としており、IPAと矛盾する。",
+          "evidence_link_ids": [],
+          "suggested_direction": "intense の語末を /tens/ に修正し、intensive の語末 /ɪv/ との差分として説明する。"
+        }
+      ],
+      "records": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a06d38-e5c8-7000-8cf3-29302d8440a8"
+      },
+      "status": "hold",
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。第1音節は弱めの /ɪn/ で、綴りの -tense は /tens/ と発音する。  "
+          },
+          "severity": "blocking",
+          "rationale": "入力パケットには source inventory、fact、claim unit、evidence link ID、locator、反例・矛盾探索結果が含まれていないため、この発音主張への直接支持と適用範囲を確認できない。同じ欠落が全入力セクションに及ぶため、根拠対応の判定を完了できない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "source-firstのsource inventory・fact・claim unitと、各主張に直接適用できるlocator付きevidence linkを補充するまでhold。"
+        }
+      ],
+      "records": []
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d38-d628-7841-8e59-29308963a0b1"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d38-db8e-7f13-a306-1332a3a1f0ac"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d38-eb50-7b73-a126-1ec01be250b5"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d4c-2571-7c50-b875-ca487c86c08e"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d38-f0af-76a3-b732-755bbe16b0a1"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d38-e0b1-7692-9ff4-bb671eee00a8"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06d38-e5c8-7000-8cf3-29302d8440a8"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

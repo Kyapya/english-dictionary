@@ -1,0 +1,1201 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/i/intense.md",
+  "cycle_id": "20260904T160121Z-35cedac0",
+  "cycle_dir": "audits/runs/i/intense/20260904T160121Z-35cedac0",
+  "body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/source_inventory.json",
+      "sha256": "be6b1efe2c1ae84ced39d6e93b7ee04f92d0c805a68b7bb74d6b22129c5a0085",
+      "stage": "source_inventory",
+      "run_id": "20260904T160121Z-35cedac0",
+      "context_id": "intense-source-first-20260904",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "prompt_sha256": "442c4856529d84bec57e45d353299ba56909631ab29dee1296afd701bc67df38",
+      "recorded_at": "2026-09-04T16:23:55.040589Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/pass_findings.json",
+      "sha256": "b33a8af5ed6ced28db0a7e166ede386fd3c5949097f254fae1165db3455dbe45",
+      "stage": "normal_review",
+      "run_id": "normal-intense-20260904T160121Z-35cedac0",
+      "context_id": "normal-intense-context-20260904T160121Z-35cedac0",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-04T16:52:52.562978+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/cold_review.json",
+      "sha256": "6de9db8c6cebb1b6251652a47f1bc329b2a4d9e367f49831aab44d45638ce5fe",
+      "stage": "cold_review",
+      "run_id": "cold-intense-20260904T160121Z-35cedac0",
+      "context_id": "cold-intense-context-20260904T160121Z-35cedac0",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-09-04T17:12:38.123090+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/resolutions.json",
+      "sha256": "4131e62e9452179e083afb0191c47c9d4f0b8a0fae83ebb2057a25a1e574bf65",
+      "stage": "resolutions",
+      "run_id": "resolution-intense-20260904T160121Z-35cedac0",
+      "context_id": "resolution-intense-context-20260904T160121Z-35cedac0",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+      "recorded_at": "2026-09-05T02:30:00+09:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/final_blind.json",
+      "sha256": "28e24ce968b9c15d3ad39215afdd6bc2914a41f2bf2445534ab970d758bd7925",
+      "stage": "final_blind",
+      "run_id": "blind-intense-20260904T160121Z-35cedac0",
+      "context_id": "blind-intense-context-20260904T160121Z-35cedac0",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+      "recorded_at": "2026-09-04T17:24:24.299529+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/blind_seal.json",
+      "sha256": "366d6b32b09fada3814bcc76828479853e387dca784e2681e2b60e3975348cae",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/i/intense/20260904T160121Z-35cedac0/final_review.json",
+      "sha256": "04f0b45a84746e8b7faf1b7095a1d48adee9e29ecc3eefb6cf58a58d89b7a46e",
+      "stage": "final_review",
+      "run_id": "blind-intense-20260904T160121Z-35cedac0",
+      "context_id": "blind-intense-context-20260904T160121Z-35cedac0",
+      "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+      "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+      "recorded_at": "2026-09-04T17:52:04.561602+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "intense is a general adjective with three principal modern senses; the standard bounded inventory closes the applicable six coverage axes.",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 21,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-04T16:23:55.040589Z",
+    "article_comparison_started_at": "2026-09-04T16:23:56.040589Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-006",
+          "F-008",
+          "F-011",
+          "F-012"
+        ]
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-007",
+          "F-008"
+        ]
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-015",
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020"
+        ]
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "not_applicable",
+        "source_fact_ids": [],
+        "notes": "The requested entry is a general adjective; the selected dictionary senses do not establish a separate specialist or legal sense requiring inclusion."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-021"
+        ]
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-009",
+          "F-010",
+          "F-013"
+        ]
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "intense adjective - Oxford Learner's Dictionaries",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/intense",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford-learners-dictionaries",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "As an adjective, intense means very great or very strong, including strong heat, cold, pain, interest, pleasure, desire, anger, pressure, scrutiny, and colour.",
+            "source_detail": "Oxford Learner's Dictionaries, sense 1 and its examples."
+          },
+          {
+            "id": "F-002",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Intense can describe something serious and involving a lot of action in a short period, such as competition or activity.",
+            "source_detail": "Oxford Learner's Dictionaries, sense 2 and its examples."
+          },
+          {
+            "id": "F-003",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Intense can describe a person or expression having or showing very strong feelings, opinions, or thoughts; the entry includes intense look, intense about, intense man, and intense gaze.",
+            "source_detail": "Oxford Learner's Dictionaries, sense 3 and extra examples."
+          },
+          {
+            "id": "F-004",
+            "form": "intense",
+            "kind": "pronunciation",
+            "statement": "Oxford gives the pronunciation /ɪnˈtens/.",
+            "source_detail": "Oxford Learner's Dictionaries headword pronunciation."
+          },
+          {
+            "id": "F-005",
+            "form": "intense",
+            "kind": "usage",
+            "statement": "Intense and intensive can both describe a lot of action in a short period; intense often suggests somebody's feelings, while intensive gives a more objective description.",
+            "source_detail": "Oxford Learner's Dictionaries Which Word? note for intense/intensive."
+          },
+          {
+            "id": "F-021",
+            "form": "intense",
+            "kind": "register_frequency",
+            "statement": "Oxford places intense in the Oxford 5000 word list at C1 level.",
+            "source_detail": "Oxford Learner's Dictionaries word-list label on the intense entry."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "intense Definition & Meaning - Merriam-Webster",
+        "locator": "https://www.merriam-webster.com/dictionary/intense",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F-006",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Intense is used for something existing in an extreme degree.",
+            "source_detail": "Merriam-Webster, adjective definition 1."
+          },
+          {
+            "id": "F-007",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Intense can describe something marked by extreme zeal, energy, determination, or concentration.",
+            "source_detail": "Merriam-Webster, adjective definition 2."
+          },
+          {
+            "id": "F-008",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Intense can describe something showing strong feeling or earnestness and something deeply felt.",
+            "source_detail": "Merriam-Webster, adjective definitions 3-4."
+          },
+          {
+            "id": "F-009",
+            "form": "intense",
+            "kind": "etymology",
+            "statement": "Merriam-Webster traces intense through Middle French to Latin intensus, the past participle of intendere, and dates the word's first known use to the 15th century.",
+            "source_detail": "Merriam-Webster, word history and etymology."
+          },
+          {
+            "id": "F-010",
+            "form": "intense",
+            "kind": "pronunciation",
+            "statement": "Merriam-Webster's respelling indicates stress on the second syllable and a final /s/ sound: in-ˈten(t)s.",
+            "source_detail": "Merriam-Webster headword pronunciation respelling."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "intense - Cambridge Dictionary",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/intense",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge-dictionary",
+        "facts": [
+          {
+            "id": "F-011",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Cambridge defines intense as extreme and forceful, or very strong when referring to a feeling.",
+            "source_detail": "Cambridge Dictionary result for intense; the page was access-limited in this research environment, so the definition was recorded from the returned result snippet."
+          },
+          {
+            "id": "F-012",
+            "form": "intense",
+            "kind": "lexical_sense",
+            "statement": "Cambridge's returned result describes intense people as very serious and associates the adjective with strong emotions.",
+            "source_detail": "Cambridge Dictionary result snippet for intense; direct page access was 403 in this research environment."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "intense - Online Etymology Dictionary",
+        "locator": "https://www.etymonline.com/word/intense",
+        "source_type": "etymology_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-013",
+            "form": "intense",
+            "kind": "etymology",
+            "statement": "Etymonline dates intense to the early 15th century and traces it through Old French to Latin intensus, meaning stretched, strained, high-strung, or tight, from intendere.",
+            "source_detail": "Online Etymology Dictionary, intense word history."
+          },
+          {
+            "id": "F-014",
+            "form": "intense",
+            "kind": "usage",
+            "statement": "Etymonline records the sense applied to persons as high-strung from the 1630s.",
+            "source_detail": "Online Etymology Dictionary, intense word history."
+          },
+          {
+            "id": "F-015",
+            "form": "intensity",
+            "kind": "derived_form",
+            "statement": "Intensity is a related noun formed from intense with -ity.",
+            "source_detail": "Online Etymology Dictionary, intense word-family note."
+          },
+          {
+            "id": "F-016",
+            "form": "intensify",
+            "kind": "derived_form",
+            "statement": "Intensify is a related verb formed from intense with -ify.",
+            "source_detail": "Online Etymology Dictionary, intense word-family note."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "intensify Definition & Meaning - Merriam-Webster",
+        "locator": "https://www.merriam-webster.com/dictionary/intensify",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "intensify",
+            "kind": "derived_form",
+            "statement": "Intensify can be intransitive, meaning to become intense or more intensive, or to grow stronger or more acute.",
+            "source_detail": "Merriam-Webster, intransitive definition of intensify."
+          },
+          {
+            "id": "F-018",
+            "form": "intensify",
+            "kind": "derived_form",
+            "statement": "Intensify can be transitive, meaning to make intense or more intensive, or to strengthen.",
+            "source_detail": "Merriam-Webster, transitive definition of intensify."
+          },
+          {
+            "id": "F-019",
+            "form": "intensification",
+            "kind": "derived_form",
+            "statement": "Intensification is the noun listed with intensify.",
+            "source_detail": "Merriam-Webster, word-family entry under intensify."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "intensity Definition & Meaning - Merriam-Webster",
+        "locator": "https://www.merriam-webster.com/dictionary/intensity",
+        "source_type": "dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam-webster",
+        "facts": [
+          {
+            "id": "F-020",
+            "form": "intensity",
+            "kind": "derived_form",
+            "statement": "Intensity is the quality or state of being intense, especially an extreme degree of strength, force, energy, or feeling.",
+            "source_detail": "Merriam-Webster, intensity definition 1."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-011"
+        ],
+        "canonical_statement": "Intense describes an extreme or very strong degree of force, quality, or feeling.",
+        "disposition": "integrated",
+        "rationale": "The three independent general dictionaries converge on the central degree-of-strength sense and it is the first article sense."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-007"
+        ],
+        "canonical_statement": "Intense can describe serious, highly energetic, concentrated activity or action occurring in a short period.",
+        "disposition": "integrated",
+        "rationale": "Oxford supplies the activity frame and Merriam-Webster supplies the energy, determination, and concentration boundary."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003",
+          "F-008",
+          "F-012",
+          "F-014"
+        ],
+        "canonical_statement": "Applied to people, looks, and related expressions, intense signals very strong feelings, opinions, thoughts, or a high-strung serious impression.",
+        "disposition": "integrated",
+        "rationale": "The person-and-expression sense is independently attested by learner and general dictionaries and is retained as the third article sense."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-009",
+          "F-010",
+          "F-013"
+        ],
+        "canonical_statement": "Intense is pronounced with second-syllable stress and descends through French from Latin intensus and intendere.",
+        "disposition": "integrated",
+        "rationale": "Pronunciation and etymology claims are supported by two dictionary sources plus an independent etymology reference."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-005"
+        ],
+        "canonical_statement": "Intense and intensive overlap for concentrated activity, but intense more readily foregrounds a participant's feelings while intensive is more objective.",
+        "disposition": "integrated",
+        "rationale": "The distinction is explicitly given in Oxford's Which Word? note and is used as a learner-facing warning in the article."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019"
+        ],
+        "canonical_statement": "Intensify is the related intransitive/transitive verb and intensification is its noun.",
+        "disposition": "integrated",
+        "rationale": "The article's word-formation notes distinguish both valencies and the related noun, supported by two sources."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-015",
+          "F-020"
+        ],
+        "canonical_statement": "Intensity is the related noun for the quality or degree of being intense.",
+        "disposition": "integrated",
+        "rationale": "Etymonline supports the morphological relation and Merriam-Webster supplies the noun's core meaning."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "Intense is a standard learner-dictionary vocabulary item at Oxford C1 level.",
+        "disposition": "integrated",
+        "rationale": "The Oxford word-list label supports the article's broad general-use and frequency context, while exact sense scores remain editorial estimates."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "intense",
+        "claim_type": "lexical_sense",
+        "statement": "Intense describes extremely strong degrees of sensations, properties, feelings, and pressures, including both unpleasant and pleasant experiences.",
+        "article_target_ids": [
+          "definition:001",
+          "collocation:001",
+          "collocation:002",
+          "collocation:004",
+          "collocation:005",
+          "collocation:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford lists very strong heat, pain, interest, pleasure, anger, pressure, scrutiny, and colour."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster defines intense as existing in an extreme degree."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Cambridge returns the extreme and forceful or very strong-feeling definition."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "intense",
+        "claim_type": "lexical_sense",
+        "statement": "Intense describes serious, energetic, concentrated activity or action over a short period, such as competition, debate, training, or negotiations.",
+        "article_target_ids": [
+          "definition:002",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010",
+          "collocation:011",
+          "collocation:012"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford describes serious activity with a lot of action in a short period and gives competition and activity examples."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster adds extreme energy, determination, and concentration to the activity boundary."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "intense",
+        "claim_type": "lexical_sense",
+        "statement": "For people, looks, conversations, and relationships, intense conveys very strong feelings or opinions and a serious, high-pressure impression that may be positive or burdensome.",
+        "article_target_ids": [
+          "definition:003",
+          "collocation:013",
+          "collocation:014",
+          "collocation:015",
+          "collocation:016",
+          "collocation:017",
+          "collocation:018"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford lists very strong feelings, opinions, or thoughts and examples of an intense look, man, gaze, and relationship."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster includes strong feeling, earnestness, and deeply felt uses."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Cambridge's result associates intense people with seriousness and strong emotions."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Etymonline records the historical person-related high-strung sense from the 1630s."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "intense",
+        "claim_type": "pronunciation_and_etymology",
+        "statement": "Intense has second-syllable stress in /ɪnˈtens/ and is historically connected through French to Latin intensus and intendere.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001",
+          "etymology:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford gives the IPA /ɪnˈtens/ with stress on the second syllable."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster traces the word through Middle French to Latin intensus and intendere."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster's respelling shows second-syllable stress and final /s/."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Etymonline independently gives the early fifteenth-century Old French and Latin history."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "intense",
+        "claim_type": "usage",
+        "statement": "Intense and intensive overlap for short-period activity, but intense more readily suggests a participant's feelings while intensive is more objective.",
+        "article_target_ids": [
+          "word_formation:004",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford explicitly contrasts intense's possible feeling-oriented suggestion with intensive's objective description."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "intensify",
+        "claim_type": "derived_form",
+        "statement": "Intensify is the related verb, usable both intransitively for becoming stronger and transitively for making something intense; intensification is the related noun.",
+        "article_target_ids": [
+          "word_formation:002",
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Etymonline identifies intensify as intense plus the suffix -ify."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Merriam-Webster gives the intransitive become intense or grow stronger sense."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Merriam-Webster gives the transitive make intense or strengthen sense."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Merriam-Webster lists intensification as the noun related to intensify."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "intensity",
+        "claim_type": "derived_form",
+        "statement": "Intensity is the related noun naming the quality or extreme degree of strength, force, energy, or feeling.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Etymonline identifies intensity as a noun formed from intense with -ity."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Merriam-Webster defines intensity as the quality or state of being intense."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "intense",
+        "claim_type": "register_and_frequency",
+        "statement": "Intense is a standard, broadly used general adjective; the exact sense-level frequency scores in the article are editorial estimates rather than claims of corpus precision.",
+        "article_target_ids": [
+          "frequency:001",
+          "frequency:002",
+          "frequency:003",
+          "register:001",
+          "register:002",
+          "register:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Oxford places intense in the Oxford 5000 at C1, supporting its status as a common learner vocabulary item."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "id": "normal-translation-001",
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 278,
+        "line_end": 278,
+        "exact_quote": "訳: 彼はどのプロジェクトにも非常に真剣に取り組む、熱の強い人だ。"
+      },
+      "severity": "minor",
+      "rationale": "「熱の強い人」は定着した日本語表現ではなく、物理的な熱や発熱の含意も生じ得るため、intense person の人物における強い感情・意欲・存在感を明確に表せていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「熱意の強い人」「感情の強い人」「気迫のある人」など、人物の強い感情・意欲・存在感を表す表現に直す。",
+      "origin": "check_pass:translation"
+    },
+    {
+      "id": "normal-translation-002",
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 100,
+        "line_end": 101,
+        "exact_quote": "例: The region experienced extreme temperatures last summer.\n訳: その地域は昨夏、極端な気温に見舞われた。"
+      },
+      "severity": "blocking",
+      "rationale": "experienced extreme temperatures は中立的な経験・観測を述べるだけだが、「見舞われた」はその地域が気温による被害や災難を受けたという否定的評価を加え、原文にない被害含意を生じさせている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その地域では昨夏、極端な気温が観測された」または「その地域は昨夏、極端な気温を経験した」のように中立に訳す。",
+      "origin": "check_pass:translation"
+    },
+    {
+      "id": "normal-qualification-001",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 45,
+        "line_end": 45,
+        "exact_quote": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。"
+      },
+      "severity": "minor",
+      "rationale": "「対象にかかる力や感じられる圧」が中心的な条件のように読めるが、色・関心・喜びなどでは知覚的鮮明さや感情・関心の強度を表し、物理的・対人的な圧力を含まない場合がある。適用範囲が狭い。",
+      "evidence_link_ids": [],
+      "suggested_direction": "程度・感情・感覚・知覚的鮮明さなどの強さを中心義とし、力や圧力は一つの文脈例として限定する。",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "id": "normal-qualification-002",
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 47,
+        "line_end": 47,
+        "exact_quote": "【頻度】〈9/10〉"
+      },
+      "severity": "minor",
+      "rationale": "9/10の尺度、コーパス、期間、英語変種の範囲が示されず、英語全体での遭遇頻度なのか、項目内の相対順位や特定領域の頻度なのか判定できない。同形式の8/10・7/10にも同じ問題がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英語全体を対象にした頻度基準またはコーパス範囲を明示し、根拠を示せない場合は「高頻度」などの定性的表現にする。",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "id": "normal-qualification-003",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 85,
+        "line_end": 85,
+        "exact_quote": "【語法・注意】intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。たとえば「雨が大量に降る」は heavy rain、「色が鮮やかで強い」は intense color のように、対象に応じて自然な語を選ぶ。"
+      },
+      "severity": "minor",
+      "rationale": "「量が多いことを表す語ではない」という一括否定は強すぎる。intense rain/rainfallは降水の強度・降水率・勢いを表す用法として成立し、heavy rainが総量や一般的な言い換えとして好まれる場合があるという区別にすべきである。",
+      "evidence_link_ids": [],
+      "suggested_direction": "総量そのものとは同義でないと説明しつつ、降水率や物理的強度を表す intense rain/rainfall を排除しない。",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "id": "normal-qualification-004",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 156,
+        "line_end": 156,
+        "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。"
+      },
+      "severity": "minor",
+      "rationale": "「短い期間」と多くの行動・力・注意を必要とすることが定義上の条件のように置かれているが、intense competition、intense debate、intense activityなどは長期または持続的な状態の強度を表すこともあり、参加者の主観的負荷を必ず含まない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "活動量、対立、努力、注意の投入などが非常に大きいという中心を示し、短期間への集中や参加者の負荷は典型的な傾向として限定する。",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "id": "normal-qualification-005",
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 280,
+        "line_end": 280,
+        "exact_quote": "・be intense about 〈事柄〉"
+      },
+      "severity": "minor",
+      "rationale": "be intense aboutは成立し得るが、passionate aboutやserious aboutより頻度が低く、文脈によってはやや marked／口語的で「過度に真剣」という評価を帯びる。標準的な一般パターンとして無標で提示すると自然さを過大評価し得る。",
+      "evidence_link_ids": [],
+      "suggested_direction": "低頻度・口語的または評価的な用法であることを注記し、必要に応じてより一般的な代替表現やintense commitment toなどを併記する。",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "id": "normal-pronunciation-001",
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 17,
+        "line_end": 17,
+        "exact_quote": "intensive /ɪnˈtensɪv/ と発音の始まりは似ているが、intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。  "
+      },
+      "severity": "blocking",
+      "rationale": "intense の提示IPA /ɪnˈtens/ の語末は /tens/ であり、/ens/ ではない。説明が語末の /t/ を落としており、IPAと矛盾する。",
+      "evidence_link_ids": [],
+      "suggested_direction": "intense の語末を /tens/ に修正し、intensive の語末 /ɪv/ との差分として説明する。",
+      "origin": "check_pass:pronunciation"
+    },
+    {
+      "id": "normal-evidence-001",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。第1音節は弱めの /ɪn/ で、綴りの -tense は /tens/ と発音する。  "
+      },
+      "severity": "blocking",
+      "rationale": "入力パケットには source inventory、fact、claim unit、evidence link ID、locator、反例・矛盾探索結果が含まれていないため、この発音主張への直接支持と適用範囲を確認できない。同じ欠落が全入力セクションに及ぶため、根拠対応の判定を完了できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "source-firstのsource inventory・fact・claim unitと、各主張に直接適用できるlocator付きevidence linkを補充するまでhold。",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "f1",
+      "location": "コアイメージと詳細語義の対応",
+      "severity": "medium",
+      "description": "コアイメージで語義3を提示しているが、詳細な語義3の節が存在しない。",
+      "reason": "人・表情・態度に関する主要な用法が説明されず、記事内の構成も不一致になる。該当箇所: 「・人や表情に現れる感情・意見の圧 → 「真剣で感情の強い、張り詰めた」（語義3）」",
+      "suggested_direction": "人・表情・態度に現れる強い感情や張り詰めた印象の語義を独立して追加する。",
+      "scope_anchors": [
+        {
+          "id": "f1-a1",
+          "exact_quote": "・人や表情に現れる感情・意見の圧 → 「真剣で感情の強い、張り詰めた」（語義3）",
+          "location_hint": "＃コアイメージの第3項"
+        },
+        {
+          "id": "f1-a2",
+          "exact_quote": "2. 【形容詞・限定／叙述】激しい、集中的な",
+          "location_hint": "＃意味・用法・関連表現の最後の詳細語義見出し。語義3の本文がない"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "f2",
+      "location": "コアイメージ・語義1の定義",
+      "severity": "medium",
+      "description": "intense の中心を「一点への集中」「圧」「張り」として描きすぎている。",
+      "reason": "痛み、暑さ、色、喜びなどは、集中や圧力を伴わず単に程度・強度が非常に高い場合にも intense になるため、誤った一般化を招く。該当箇所: 「力・感情・注意が一点に強く集まり、圧や張りが大きい状態。」",
+      "suggested_direction": "基本義を「程度・強度・感情の強さが非常に高い」とし、集中や張りは一部の文脈で生じる含意として扱う。",
+      "scope_anchors": [
+        {
+          "id": "f2-a1",
+          "exact_quote": "力・感情・注意が一点に強く集まり、圧や張りが大きい状態。",
+          "location_hint": "＃コアイメージ冒頭"
+        },
+        {
+          "id": "f2-a2",
+          "exact_quote": "単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。",
+          "location_hint": "語義1の日本語訳・定義"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "f3",
+      "location": "語義2の定義・文法パターン・語法注意",
+      "severity": "medium",
+      "description": "語義2を短期間の集中や活動密度を必要条件のように説明している。",
+      "reason": "intense competition、debate、effort などは長期間続いても激しさや緊張が高ければ intense であり、短期間性は必須ではない。intensive との境界も曖昧になる。該当箇所: 「活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。」",
+      "suggested_direction": "活動・状況の強度、激しさ、負荷、緊張を中心に定義し、短期間の集中はよくある文脈にとどめる。",
+      "scope_anchors": [
+        {
+          "id": "f3-a1",
+          "exact_quote": "活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。",
+          "location_hint": "語義2の日本語訳・定義"
+        },
+        {
+          "id": "f3-a2",
+          "exact_quote": "intense + 〈活動〉 over 〈期間〉＝一定期間に集中して行われる激しい～",
+          "location_hint": "語義2の文法パターン"
+        },
+        {
+          "id": "f3-a3",
+          "exact_quote": "どちらも短期間に多くの活動や努力が集中する対象を修飾できる。",
+          "location_hint": "語義2の語法・注意"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "f4",
+      "location": "intensive との比較",
+      "severity": "medium",
+      "description": "intense は主観的な負荷、intensive は客観的な密度という対比を強く打ち出しすぎている。",
+      "reason": "両語の違いは傾向やコロケーションによることが多く、intense が客観的対象に使われたり、intensive が学習者に大きな負荷を与える内容を表したりするため、二分法では判断できない。該当箇所: 「intensive（形容詞）— 集中的な、徹底的な。intense と重なる場合もあるが、客観的な密度・集中を表しやすい。」",
+      "suggested_direction": "主観／客観を必要条件とせず、強度・厳しさと、短期間に内容や活動を集中的に投入する性質という傾向として説明する。",
+      "scope_anchors": [
+        {
+          "id": "f4-a1",
+          "exact_quote": "intensive（形容詞）— 集中的な、徹底的な。intense と重なる場合もあるが、客観的な密度・集中を表しやすい。",
+          "location_hint": "＃語形成の intensive の項目"
+        },
+        {
+          "id": "f4-a2",
+          "exact_quote": "intense は参加者が感じる厳しさ・圧・感情的な強さを含みやすく、intensive は計画や内容の密度を客観的に述べやすい。",
+          "location_hint": "語義2の語法・注意"
+        },
+        {
+          "id": "f4-a3",
+          "exact_quote": "intense training は訓練の負荷の大きさ、an intensive training course は短期間に内容を詰め込む制度・課程の性質に焦点がある。",
+          "location_hint": "語義2の語法・注意"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "f5",
+      "location": "語義1・語義2の境界",
+      "severity": "medium",
+      "description": "二つの語義がともに「程度・力・圧の強さ」を扱い、分類基準が十分に明示されていない。",
+      "reason": "activity、debate、pressure、interest などは感情的強度・状況の圧力・活動の激しさの複数の読みが可能で、学習者が語義を使い分けにくい。該当箇所: 「intense + 〈感情・感覚・性質を表す名詞〉＝非常に強い～」",
+      "suggested_direction": "一つの広い基本義にまとめて用法群を示すか、「経験される強度」と「活動・競争の激しさ」の境界を具体例付きで明示する。",
+      "scope_anchors": [
+        {
+          "id": "f5-a1",
+          "exact_quote": "intense + 〈感情・感覚・性質を表す名詞〉＝非常に強い～",
+          "location_hint": "語義1の文法パターン"
+        },
+        {
+          "id": "f5-a2",
+          "exact_quote": "intense + 〈活動・競争・議論・努力〉＝激しい・集中した～",
+          "location_hint": "語義2の文法パターン"
+        },
+        {
+          "id": "f5-a3",
+          "exact_quote": "短時間に集中的に現れる行為の圧 → 「激しい、集中的な」（語義2）",
+          "location_hint": "＃コアイメージの第2項"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "f6",
+      "location": "語義1の語法・注意",
+      "severity": "low",
+      "description": "intense は量を表さないという断定が強すぎる。",
+      "reason": "heavy rain が量の多さの標準表現である一方、intense rain／rainfall のように降雨の強度・率を表す用法もあり、量と強度を完全に切り離す説明は不正確。該当箇所: 「intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。」",
+      "suggested_direction": "「単純な大きさ・量より強度を表す」と弱め、heavy rain との違いを強度・降水量・率の観点で説明する。",
+      "scope_anchors": [
+        {
+          "id": "f6-a1",
+          "exact_quote": "intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。",
+          "location_hint": "語義1の語法・注意"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "f7",
+      "location": "語義2の intense negotiations",
+      "severity": "low",
+      "description": "intense negotiations の用途説明を、短期間の激しい意見交換に限定している。",
+      "reason": "交渉の重要性、緊張、利害、困難さ、圧力によって intense になる場合もあり、必ず短期間または激しい応酬とは限らない。該当箇所: 「用途: 短期間に意見を激しく交わし、妥結を目指す交渉を表す。」",
+      "suggested_direction": "高い緊張・利害・困難さを伴う交渉という広い説明にする。",
+      "scope_anchors": [
+        {
+          "id": "f7-a1",
+          "exact_quote": "用途: 短期間に意見を激しく交わし、妥結を目指す交渉を表す。",
+          "location_hint": "語義2のコロケーション intense negotiations"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "finding_1",
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "発音記号 > intensiveとの比較",
+        "line_start": 6,
+        "line_end": 6,
+        "exact_quote": "intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。"
+      },
+      "severity": "minor",
+      "rationale": "本文前半はintenseの第2音節を /tens/ と正しく示す一方、後半でintenseの語末を /ens/ としており、/t/を欠く誤記かつ内部矛盾になっている。該当箇所: 「intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。」",
+      "origin": "final_blind"
+    },
+    {
+      "id": "finding_2",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "語義2 > 日本語訳・定義",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。"
+      },
+      "severity": "blocking",
+      "rationale": "intense activity/effort/trainingを短期間に多くの行動が集中する用法として狭く定義しているが、intenseは活動の力・負荷・緊張の高さを表し、短い期間や客観的密度は必要条件ではない。該当箇所: 「【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。」",
+      "origin": "final_blind"
+    },
+    {
+      "id": "finding_3",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "語義3 > 文法パターン",
+        "line_start": 255,
+        "line_end": 255,
+        "exact_quote": "an intense conversation/relationship＝感情的な圧や結びつきの強い会話・関係"
+      },
+      "severity": "blocking",
+      "rationale": "an intense conversationは感情的で重大な会話という語義3にも、激しい議論・相互作用という語義2にも自然に適合する。本文はこのフレームを語義3だけに置き、別義としての境界または文脈差を明示していない。該当箇所: 「an intense conversation/relationship＝感情的な圧や結びつきの強い会話・関係」",
+      "origin": "final_blind"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。人物の強い感情・意欲を表す訳へ修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-translation-002",
+      "finding_id": "normal-translation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。原文にない被害評価を加えない中立的な訳へ修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。中心義を程度・強度の高さとして明示し、圧力を一例に限定する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-qualification-002",
+      "finding_id": "normal-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。10段階表示が編集上の目安であることを明記する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-qualification-003",
+      "finding_id": "normal-qualification-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。総量と降水の強度・率を区別する説明へ修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-qualification-004",
+      "finding_id": "normal-qualification-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。活動の強度を中心にし、短期間性と参加者の主観的負荷を必要条件から外す。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-qualification-005",
+      "finding_id": "normal-qualification-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。be intense about を低頻度・評価的な用法として注記する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-pronunciation-001",
+      "finding_id": "normal-pronunciation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。語末の説明を /tens/ に修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "棄却。これは本文内容ではなく、証拠パスケットへsource inventoryが追加される前の確認可能性に関する指摘であり、同一runのsource inventoryとevidence linkを最終審査で確認できる。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f1",
+      "finding_id": "f1",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "棄却。入力本文には語義3の詳細節、定義、例文、語法、語彙関係が実際に存在し、指摘の前提が本文全体と一致しない。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f2",
+      "finding_id": "f2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。コアイメージと語義1の定義を、集中や圧力を必須としない強度中心の説明へ修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f3",
+      "finding_id": "f3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。語義2では活動の強度・負荷を中心にし、短期間性を典型例に限定する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f4",
+      "finding_id": "f4",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。intense/intensiveの差を必要条件ではなく傾向とコロケーションの違いとして説明する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f5",
+      "finding_id": "f5",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。語義1と語義2の共通する強度と、対象領域による用法差を明示する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f6",
+      "finding_id": "f6",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。雨の総量と降水強度・率を区別する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "f7",
+      "finding_id": "f7",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。intense negotiationsを短期間性に限定せず、緊張・利害・困難さを含む説明へ修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "finding_1",
+      "finding_id": "finding_1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。intenseの語末表記を /tens/ に修正する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "finding_2",
+      "finding_id": "finding_2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。活動用法の定義から短期間性を必要条件として読める表現を除く。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    },
+    {
+      "id": "finding_3",
+      "finding_id": "finding_3",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "採用。conversationを活動・相互作用用法と人物・関係用法の両方から判断できるよう文脈差を明示する。",
+      "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"
+    }
+  ],
+  "final_decision": {
+    "decision": "reject",
+    "blockers": [
+      {
+        "id": "pronunciation-final-segment",
+        "issue": "intense is correctly transcribed as /ɪnˈtens/ but is incorrectly said to end in /ens/; its final sequence is /tens/.",
+        "required_fix": "Change the wording to state that intense ends in /tens/ and contrast it consistently with intensive /ɪnˈtensɪv/."
+      },
+      {
+        "id": "sense-2-duration-boundary",
+        "issue": "Sense 2 makes short duration and concentrated activity defining conditions, which incorrectly narrows intense competition, debate, training, and activity toward intensive.",
+        "required_fix": "Define sense 2 primarily as unusually high intensity, effort, force, or tension; present short duration and concentration as possible contexts, not requirements."
+      },
+      {
+        "id": "sense-2-3-interaction-boundary",
+        "issue": "Intense debate/negotiations and intense conversation are separated into senses 2 and 3, but both are explained through emotionally pressured, concentrated interaction without a clear semantic boundary.",
+        "required_fix": "State a consistent distinction between activity-level intensity and interpersonal/emotional intensity, or merge the overlapping treatment."
+      },
+      {
+        "id": "usage-rain-boundary",
+        "issue": "The claim that intense does not express quantity, followed by heavy rain as the prescribed choice, can wrongly exclude natural phrases such as intense rain or intense rainfall.",
+        "required_fix": "Distinguish heavy rain for amount/volume from intense rainfall for rate or force, without implying that intense rain is unsuitable."
+      },
+      {
+        "id": "core-image-scope",
+        "issue": "The core image treats concentration at one point and pressure/tension as inherent, which over-narrows ordinary uses involving heat, color, pain, pleasure, and other extreme degrees.",
+        "required_fix": "Center the image on unusually high degree or strength, treating focus, pressure, and tension as context-dependent implications."
+      }
+    ],
+    "notes": [
+      "Most examples are natural and appropriately cover both favorable and unfavorable intensity.",
+      "Independent concise adjudication found the current body requires a revision before approval; full per-ID result arrays were mechanically expanded from the packet and verdict."
+    ],
+    "reviewed_at": "2026-09-04T17:52:04.561602+00:00",
+    "blind_output_sha256": "018c8602883832eab184d1258670bf5df8957963ed71f77409b3cafdbd16c50d"
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

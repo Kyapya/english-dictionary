@@ -1,0 +1,1266 @@
+# Independent checker handoff
+
+Stage: `checker_passes/evidence`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.evidence.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_evidence_v6
+
+## 目的
+
+主張単位の根拠リンクが、対象主張を直接支持するかだけを検査する。source-first工程との二重チェックを避けるため、このパスは資料探索計画、source inventoryのcoverage、fact収集をやり直さない。
+
+## 担当タクソノミー分類
+
+- `evidence_claim_mismatch`
+
+## 検査ルール
+
+- source-first工程が固定したsource・fact・claim unit・対象sectionを入力として受け、claimと引用位置または忠実な要約の対応を確認する。
+- 資料名や検索結果見出しが存在するだけで合格にせず、locator、該当箇所、支持内容、当該語義・構文への適用範囲を確認する。
+- 別義、別品詞、別法域、別地域、別時代の記述を現在の対象主張へ流用しない。
+- 高リスク主張に `two_sources_or_primary` が指定される場合、同一引用元を別IDにした重複を独立2資料として数えない。一次資料1件を使う場合は当該主張へ直接適用できることを確認する。
+- 発音、語源、語義境界、文法制約、完全フレーム、例文の自然さ、絶対表現、地域差、頻度、専門説明、類義語・反意語差のevidence linkを個別に確認する。
+- 断定的主張では支持例だけでなく、source-first記録にある反例・矛盾探索の方法と結果が主張範囲に対応するか確認する。
+- 資料が食い違う場合、本文が差を反映して範囲を限定しているかを確認する。根拠から決められない内容をpassにしない。
+- このパスはclaimの辞書学的正しさを他パスの代わりに再判定せず、「提示された根拠がそのclaimを支えるか」に限定する。
+
+## 入力として受け取るセクション
+
+- `pronunciation`
+- `etymology`
+- `word_formation`
+- `core_image`
+- `sense_structure`
+- `frequency_register`
+- `frames`
+- `collocations_examples`
+- `usage_notes`
+- `lexical_relations`
+- source-first工程が生成したsource inventory、fact、claim unit、evidence link
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "evidence_claim_mismatch",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "根拠対象となる本文主張"
+  },
+  "severity": "blocking | minor",
+  "rationale": "source locator・支持内容・適用範囲の不一致",
+  "evidence_link_ids": ["問題のある既存link ID"],
+  "suggested_direction": "主張限定、根拠差替え、holdの方向"
+}
+```
+
+根拠が主張を支持しない状態は原則 `blocking` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "specification": "prompts/check_pass_evidence_v6.md",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。第1音節は弱めの /ɪn/ で、綴りの -tense は /tens/ と発音する。  "
+      },
+      {
+        "line": 17,
+        "text": "intensive /ɪnˈtensɪv/ と発音の始まりは似ているが、intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。  "
+      }
+    ],
+    "etymology": [
+      {
+        "line": 19,
+        "text": "＃語源"
+      },
+      {
+        "line": 21,
+        "text": "中英語期に、古フランス語 intense またはラテン語 intensus「きつく引き伸ばされた、張り詰めた、緊張した」から英語に入った。intensus は intendere「伸ばす、向ける、張る」の過去分詞で、in-「～へ」と tendere「伸ばす」に分解される。  "
+      },
+      {
+        "line": 23,
+        "text": "現代英語では、そこから「程度・力・感情・活動が極端に強い」という意味が発達した。intend「意図する」も語源上は同じラテン語系統に属するが、現代の意味は intense の派生義として理解しない。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 25,
+        "text": "＃語形成"
+      },
+      {
+        "line": 27,
+        "text": "・intensity（名詞）— 強度、激しさ。  "
+      },
+      {
+        "line": 28,
+        "text": "・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。  "
+      },
+      {
+        "line": 29,
+        "text": "・intensely（副詞）— 激しく、強烈に。  "
+      },
+      {
+        "line": 30,
+        "text": "・intensive（形容詞）— 集中的な、徹底的な。intense と重なる場合もあるが、客観的な密度・集中を表しやすい。  "
+      },
+      {
+        "line": 31,
+        "text": "・intensification（名詞）— 強化、激化。  "
+      }
+    ],
+    "core_image": [
+      {
+        "line": 33,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 35,
+        "text": "力・感情・注意が一点に強く集まり、圧や張りが大きい状態。  "
+      },
+      {
+        "line": 37,
+        "text": "・対象の性質や感覚に強く現れる圧 → 「強烈な、非常に強い」（語義1）  "
+      },
+      {
+        "line": 38,
+        "text": "・短時間に集中的に現れる行為の圧 → 「激しい、集中的な」（語義2）  "
+      },
+      {
+        "line": 39,
+        "text": "・人や表情に現れる感情・意見の圧 → 「真剣で感情の強い、張り詰めた」（語義3）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 45,
+        "text": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定／叙述】激しい、集中的な"
+      },
+      {
+        "line": 156,
+        "text": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。  "
+      },
+      {
+        "line": 258,
+        "text": "3. 【形容詞・人・表情・関係】真剣で感情の強い、張り詰めた"
+      },
+      {
+        "line": 260,
+        "text": "【日本語訳・定義】人、視線、表情、会話、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという肯定的な意味にも、重い・圧が強い・感情的に負担が大きいという否定的な評価にもなり得る。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 47,
+        "text": "【頻度】〈9/10〉  "
+      },
+      {
+        "line": 49,
+        "text": "【レジスター/領域】標準的な一般語。会話、ニュース、ビジネス、医学、スポーツ、文学などで広く使う。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定／叙述】激しい、集中的な"
+      },
+      {
+        "line": 158,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 160,
+        "text": "【レジスター/領域】標準的な一般語。仕事、学習、スポーツ、政治、ニュースなどで広く使う。  "
+      },
+      {
+        "line": 258,
+        "text": "3. 【形容詞・人・表情・関係】真剣で感情の強い、張り詰めた"
+      },
+      {
+        "line": 262,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 264,
+        "text": "【レジスター/領域】標準的な一般語。人物描写、会話、職場、文学、映画・演劇の批評などで使う。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 51,
+        "text": "【文法パターン】intense + 〈感情・感覚・性質を表す名詞〉＝非常に強い～／become/get/feel intense＝程度や感じ方が強くなる／under intense pressure/scrutiny＝強い圧力・厳しい監視の下で／intense + 〈色・光・熱など〉＝非常に鮮やかな・強烈な～  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定／叙述】激しい、集中的な"
+      },
+      {
+        "line": 162,
+        "text": "【文法パターン】intense + 〈活動・競争・議論・努力〉＝激しい・集中した～／an intense period of 〈活動〉＝激しい～の期間／become/get intense＝活動や状況が激しくなる／intense + 〈活動〉 over 〈期間〉＝一定期間に集中して行われる激しい～  "
+      },
+      {
+        "line": 258,
+        "text": "3. 【形容詞・人・表情・関係】真剣で感情の強い、張り詰めた"
+      },
+      {
+        "line": 266,
+        "text": "【文法パターン】an intense person＝感情や目的意識の強い人／an intense look/gaze/expression＝強い感情や集中を帯びた視線・表情／an intense conversation/relationship＝感情的な圧や結びつきの強い会話・関係／be intense about 〈事柄〉＝〈事柄〉に非常に熱心・真剣である／too intense＝人ややり取りが重すぎる、圧が強すぎる  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 53,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 55,
+        "text": "・intense pain  "
+      },
+      {
+        "line": 56,
+        "text": "用途: 身体的な痛みが非常に強いことを表す。  "
+      },
+      {
+        "line": 57,
+        "text": "例: He felt intense pain in his lower back.  "
+      },
+      {
+        "line": 58,
+        "text": "訳: 彼は腰の下部に激しい痛みを感じた。  "
+      },
+      {
+        "line": 60,
+        "text": "・intense heat  "
+      },
+      {
+        "line": 61,
+        "text": "用途: 暑さや熱が極端に強いことを表す。  "
+      },
+      {
+        "line": 62,
+        "text": "例: The intense heat made it dangerous to work outside.  "
+      },
+      {
+        "line": 63,
+        "text": "訳: 強烈な暑さのため、屋外で働くのは危険だった。  "
+      },
+      {
+        "line": 65,
+        "text": "・intense pressure  "
+      },
+      {
+        "line": 66,
+        "text": "用途: 外部からかかる重圧や心理的な圧力が非常に強いことを表す。  "
+      },
+      {
+        "line": 67,
+        "text": "例: The new manager is under intense pressure to improve the results.  "
+      },
+      {
+        "line": 68,
+        "text": "訳: 新しい管理職は、業績を改善するよう非常に強い重圧を受けている。  "
+      },
+      {
+        "line": 70,
+        "text": "・intense interest  "
+      },
+      {
+        "line": 71,
+        "text": "用途: ある対象に向けられる関心が非常に強いことを表す。  "
+      },
+      {
+        "line": 72,
+        "text": "例: The discovery attracted intense interest from researchers around the world.  "
+      },
+      {
+        "line": 73,
+        "text": "訳: その発見は世界中の研究者から強い関心を集めた。  "
+      },
+      {
+        "line": 75,
+        "text": "・intense anger  "
+      },
+      {
+        "line": 76,
+        "text": "用途: 怒りの感情が非常に強いことを表す。  "
+      },
+      {
+        "line": 77,
+        "text": "例: The decision provoked intense anger among local residents.  "
+      },
+      {
+        "line": 78,
+        "text": "訳: その決定は地元住民の激しい怒りを引き起こした。  "
+      },
+      {
+        "line": 80,
+        "text": "・intense blue  "
+      },
+      {
+        "line": 81,
+        "text": "用途: 色が非常に鮮やかで、見る人に強い印象を与えることを表す。  "
+      },
+      {
+        "line": 82,
+        "text": "例: The intense blue of the lake stood out against the white snow.  "
+      },
+      {
+        "line": 83,
+        "text": "訳: 湖の鮮やかな青が白い雪を背景に際立っていた。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定／叙述】激しい、集中的な"
+      },
+      {
+        "line": 164,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 166,
+        "text": "・intense competition  "
+      },
+      {
+        "line": 167,
+        "text": "用途: 競争が非常に激しく、参加者に大きな努力や緊張を求めることを表す。  "
+      },
+      {
+        "line": 168,
+        "text": "例: There is intense competition for places at the top universities.  "
+      },
+      {
+        "line": 169,
+        "text": "訳: 一流大学の枠をめぐって激しい競争がある。  "
+      },
+      {
+        "line": 171,
+        "text": "・intense debate  "
+      },
+      {
+        "line": 172,
+        "text": "用途: 議論が強い意見の対立や集中したやり取りを伴うことを表す。  "
+      },
+      {
+        "line": 173,
+        "text": "例: The proposal led to intense debate in parliament.  "
+      },
+      {
+        "line": 174,
+        "text": "訳: その提案は議会で激しい議論を引き起こした。  "
+      },
+      {
+        "line": 176,
+        "text": "・intense activity  "
+      },
+      {
+        "line": 177,
+        "text": "用途: 短期間に多くの活動が集中して行われることを表す。  "
+      },
+      {
+        "line": 178,
+        "text": "例: The airport experienced a period of intense activity before the holiday.  "
+      },
+      {
+        "line": 179,
+        "text": "訳: その空港では休暇前に活動が集中する時期があった。  "
+      },
+      {
+        "line": 181,
+        "text": "・intense effort  "
+      },
+      {
+        "line": 182,
+        "text": "用途: 目標達成のために大きな力と集中を注ぐ努力を表す。  "
+      },
+      {
+        "line": 183,
+        "text": "例: The rescue required intense effort from everyone on the team.  "
+      },
+      {
+        "line": 184,
+        "text": "訳: その救助にはチーム全員の大変な努力が必要だった。  "
+      },
+      {
+        "line": 186,
+        "text": "・intense negotiations  "
+      },
+      {
+        "line": 187,
+        "text": "用途: 短期間に意見を激しく交わし、妥結を目指す交渉を表す。  "
+      },
+      {
+        "line": 188,
+        "text": "例: The two sides held intense negotiations throughout the night.  "
+      },
+      {
+        "line": 189,
+        "text": "訳: 両陣営は一晩中、激しい交渉を続けた。  "
+      },
+      {
+        "line": 191,
+        "text": "・intense training  "
+      },
+      {
+        "line": 192,
+        "text": "用途: 参加者が大きな負荷や集中を感じる厳しい訓練を表す。  "
+      },
+      {
+        "line": 193,
+        "text": "例: The athletes completed an intense training camp before the tournament.  "
+      },
+      {
+        "line": 194,
+        "text": "訳: 選手たちは大会前に厳しい合宿を終えた。  "
+      },
+      {
+        "line": 258,
+        "text": "3. 【形容詞・人・表情・関係】真剣で感情の強い、張り詰めた"
+      },
+      {
+        "line": 268,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 270,
+        "text": "・an intense look  "
+      },
+      {
+        "line": 271,
+        "text": "用途: 強い感情や集中を帯びた視線・表情を表す。  "
+      },
+      {
+        "line": 272,
+        "text": "例: She gave him an intense look when he mentioned the accusation.  "
+      },
+      {
+        "line": 273,
+        "text": "訳: 彼がその告発について話すと、彼女は彼に鋭く強い視線を向けた。  "
+      },
+      {
+        "line": 275,
+        "text": "・an intense person  "
+      },
+      {
+        "line": 276,
+        "text": "用途: 感情、意見、目的意識などが強く、存在感や圧のある人を表す。  "
+      },
+      {
+        "line": 277,
+        "text": "例: He is an intense person who takes every project very seriously.  "
+      },
+      {
+        "line": 278,
+        "text": "訳: 彼はどのプロジェクトにも非常に真剣に取り組む、熱の強い人だ。  "
+      },
+      {
+        "line": 280,
+        "text": "・be intense about 〈事柄〉  "
+      },
+      {
+        "line": 281,
+        "text": "用途: ある事柄について強い意見や熱意を持ち、真剣にこだわることを表す。  "
+      },
+      {
+        "line": 282,
+        "text": "例: She is intense about keeping every detail of the experiment accurate.  "
+      },
+      {
+        "line": 283,
+        "text": "訳: 彼女は実験の細部をすべて正確に保つことに非常にこだわっている。  "
+      },
+      {
+        "line": 285,
+        "text": "・an intense conversation  "
+      },
+      {
+        "line": 286,
+        "text": "用途: 強い感情や重大な問題を伴う真剣な会話を表す。  "
+      },
+      {
+        "line": 287,
+        "text": "例: We had an intense conversation about whether to end the relationship.  "
+      },
+      {
+        "line": 288,
+        "text": "訳: 私たちはその関係を終わらせるべきかについて、感情のこもった真剣な話をした。  "
+      },
+      {
+        "line": 290,
+        "text": "・an intense relationship  "
+      },
+      {
+        "line": 291,
+        "text": "用途: 感情的な結びつきや相互作用が非常に強い関係を表す。  "
+      },
+      {
+        "line": 292,
+        "text": "例: Their intense relationship left little room for emotional distance.  "
+      },
+      {
+        "line": 293,
+        "text": "訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。  "
+      },
+      {
+        "line": 295,
+        "text": "・too intense  "
+      },
+      {
+        "line": 296,
+        "text": "用途: 人、会話、関係などが重すぎたり、圧が強すぎたりすることを表す。  "
+      },
+      {
+        "line": 297,
+        "text": "例: The first meeting felt too intense for a casual introduction.  "
+      },
+      {
+        "line": 298,
+        "text": "訳: 最初の会合は、気軽な顔合わせにしては重すぎる感じがした。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 85,
+        "text": "【語法・注意】intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。たとえば「雨が大量に降る」は heavy rain、「色が鮮やかで強い」は intense color のように、対象に応じて自然な語を選ぶ。intense pain/heat/interest のように、身体感覚・環境・感情のいずれにも使えるが、強さの対象を文脈から明確にする。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定／叙述】激しい、集中的な"
+      },
+      {
+        "line": 196,
+        "text": "【語法・注意】intense と intensive は、どちらも短期間に多くの活動や努力が集中する対象を修飾できる。intense は参加者が感じる厳しさ・圧・感情的な強さを含みやすく、intensive は計画や内容の密度を客観的に述べやすい。したがって intense training は訓練の負荷の大きさ、an intensive training course は短期間に内容を詰め込む制度・課程の性質に焦点がある。ただし、この区別は絶対的ではない。  "
+      },
+      {
+        "line": 258,
+        "text": "3. 【形容詞・人・表情・関係】真剣で感情の強い、張り詰めた"
+      },
+      {
+        "line": 300,
+        "text": "【語法・注意】人に intense を使う場合は、単に serious「真面目な」や focused「集中した」と同じではない。強い感情や意見が外に表れ、相手に強い存在感・圧力を感じさせる含みがある。褒め言葉として passionate「情熱的な」に近くなることもあれば、too intense のように「重い、付き合うのが大変」という評価になることもある。an intense look は必ず怒りを意味せず、強い集中や関心だけでも成立する。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 43,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 87,
+        "text": "【類義語】"
+      },
+      {
+        "line": 89,
+        "text": "・strong  "
+      },
+      {
+        "line": 90,
+        "text": "定義: 力、程度、効果などが大きい。  "
+      },
+      {
+        "line": 91,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 92,
+        "text": "違い: strong は最も広い「強い」で、intense は感覚・感情・圧力などが極端で、張り詰めた感じを伴いやすい。  "
+      },
+      {
+        "line": 93,
+        "text": "例: The coffee has a strong flavor.  "
+      },
+      {
+        "line": 94,
+        "text": "訳: そのコーヒーは味が濃い。  "
+      },
+      {
+        "line": 96,
+        "text": "・extreme  "
+      },
+      {
+        "line": 97,
+        "text": "定義: 普通の範囲を超え、極端な。  "
+      },
+      {
+        "line": 98,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 99,
+        "text": "違い: extreme は程度が限界に近いことに焦点があり、intense のような体感的な圧や集中を必ずしも含まない。  "
+      },
+      {
+        "line": 100,
+        "text": "例: The region experienced extreme temperatures last summer.  "
+      },
+      {
+        "line": 101,
+        "text": "訳: その地域は昨夏、極端な気温に見舞われた。  "
+      },
+      {
+        "line": 103,
+        "text": "・severe  "
+      },
+      {
+        "line": 104,
+        "text": "定義: 被害、痛み、問題などが深刻で重い。  "
+      },
+      {
+        "line": 105,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 106,
+        "text": "違い: severe は悪影響や深刻さに焦点があり、intense は好ましい感情や色など、害のない強さにも使える。  "
+      },
+      {
+        "line": 107,
+        "text": "例: The storm caused severe damage to the coast.  "
+      },
+      {
+        "line": 108,
+        "text": "訳: その嵐は沿岸部に深刻な被害をもたらした。  "
+      },
+      {
+        "line": 110,
+        "text": "・powerful  "
+      },
+      {
+        "line": 111,
+        "text": "定義: 大きな力や効果を持つ。  "
+      },
+      {
+        "line": 112,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 113,
+        "text": "違い: powerful は作用する力・影響力に焦点があり、intense は経験される強度や圧に焦点がある。  "
+      },
+      {
+        "line": 114,
+        "text": "例: The film presents a powerful image of life after the disaster.  "
+      },
+      {
+        "line": 115,
+        "text": "訳: その映画は災害後の生活を力強い映像で描いている。  "
+      },
+      {
+        "line": 117,
+        "text": "・acute  "
+      },
+      {
+        "line": 118,
+        "text": "定義: 痛み、問題、感覚などが激しく、差し迫っている。  "
+      },
+      {
+        "line": 119,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 120,
+        "text": "違い: acute は特に痛み・不足・問題などの鋭さや深刻さを表す硬い語で、intense より対象が限定されやすい。  "
+      },
+      {
+        "line": 121,
+        "text": "例: The shortage created an acute need for clean water.  "
+      },
+      {
+        "line": 122,
+        "text": "訳: その不足により、きれいな水が緊急に必要になった。  "
+      },
+      {
+        "line": 124,
+        "text": "・vivid  "
+      },
+      {
+        "line": 125,
+        "text": "定義: 色、記憶、描写などが鮮明で強く印象に残る。  "
+      },
+      {
+        "line": 126,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 127,
+        "text": "違い: vivid は目立つ鮮明さや心に浮かぶ明瞭さに焦点があり、intense のように圧力や痛みの強さ全般を表さない。  "
+      },
+      {
+        "line": 128,
+        "text": "例: She has a vivid memory of the accident.  "
+      },
+      {
+        "line": 129,
+        "text": "訳: 彼女はその事故を鮮明に覚えている。  "
+      },
+      {
+        "line": 131,
+        "text": "【反意語】"
+      },
+      {
+        "line": 133,
+        "text": "・mild  "
+      },
+      {
+        "line": 134,
+        "text": "定義: 程度が穏やかで、強すぎない。  "
+      },
+      {
+        "line": 135,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 136,
+        "text": "違い: mild は痛み、症状、天候、反応などの程度が低く穏やかなことを表し、intense と程度の軸で対立する。  "
+      },
+      {
+        "line": 137,
+        "text": "例: She had only mild pain after the treatment.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 治療後の痛みは軽いものだった。  "
+      },
+      {
+        "line": 140,
+        "text": "・weak  "
+      },
+      {
+        "line": 141,
+        "text": "定義: 力、効果、信号などが弱い。  "
+      },
+      {
+        "line": 142,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 143,
+        "text": "違い: weak は強さや作用が不足していることを表し、intense の極端な強さと反対方向にある。  "
+      },
+      {
+        "line": 144,
+        "text": "例: The radio signal was too weak to hear clearly.  "
+      },
+      {
+        "line": 145,
+        "text": "訳: その無線信号は弱すぎて、はっきり聞こえなかった。  "
+      },
+      {
+        "line": 147,
+        "text": "・faint  "
+      },
+      {
+        "line": 148,
+        "text": "定義: 光、音、色、においなどがかすかな。  "
+      },
+      {
+        "line": 149,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 150,
+        "text": "違い: faint は感覚刺激がほとんど感じ取れないほど弱いことに焦点があり、intense と特に光・色・音の強さで対立する。  "
+      },
+      {
+        "line": 151,
+        "text": "例: A faint light was visible through the fog.  "
+      },
+      {
+        "line": 152,
+        "text": "訳: 霧の中にかすかな光が見えた。  "
+      },
+      {
+        "line": 154,
+        "text": "2. 【形容詞・限定／叙述】激しい、集中的な"
+      },
+      {
+        "line": 198,
+        "text": "【類義語】"
+      },
+      {
+        "line": 200,
+        "text": "・fierce  "
+      },
+      {
+        "line": 201,
+        "text": "定義: 競争、対立、議論などが非常に激しい。  "
+      },
+      {
+        "line": 202,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 203,
+        "text": "違い: fierce は攻撃性・対立・荒々しさを含みやすく、intense は敵意のない努力や活動の集中にも使える。  "
+      },
+      {
+        "line": 204,
+        "text": "例: The teams are in fierce competition for the championship.  "
+      },
+      {
+        "line": 205,
+        "text": "訳: そのチームたちは優勝をめぐって激しく競い合っている。  "
+      },
+      {
+        "line": 207,
+        "text": "・vigorous  "
+      },
+      {
+        "line": 208,
+        "text": "定義: 活動や努力が精力的で力強い。  "
+      },
+      {
+        "line": 209,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 210,
+        "text": "違い: vigorous は活力や積極的なエネルギーに焦点があり、intense のような緊張・負荷・心理的圧力を必ずしも含まない。  "
+      },
+      {
+        "line": 211,
+        "text": "例: The proposal prompted vigorous discussion among the experts.  "
+      },
+      {
+        "line": 212,
+        "text": "訳: その提案は専門家の間で活発な議論を促した。  "
+      },
+      {
+        "line": 214,
+        "text": "・strenuous  "
+      },
+      {
+        "line": 215,
+        "text": "定義: 身体的・精神的に大きな努力を要する。  "
+      },
+      {
+        "line": 216,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 217,
+        "text": "違い: strenuous は行為がきつく、多大な努力を要することに焦点があり、intense は活動の集中度や緊張感も表す。  "
+      },
+      {
+        "line": 218,
+        "text": "例: The climbers faced a strenuous ascent in freezing weather.  "
+      },
+      {
+        "line": 219,
+        "text": "訳: 登山者たちは極寒の中で厳しい登りに挑んだ。  "
+      },
+      {
+        "line": 221,
+        "text": "・hectic  "
+      },
+      {
+        "line": 222,
+        "text": "定義: 活動や予定が非常に多く、慌ただしい。  "
+      },
+      {
+        "line": 223,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 224,
+        "text": "違い: hectic は忙しさや混乱を含む時間の状態に焦点があり、intense のように競争・感情・議論の強さ全般を表さない。  "
+      },
+      {
+        "line": 225,
+        "text": "例: It was a hectic week at the hospital.  "
+      },
+      {
+        "line": 226,
+        "text": "訳: 病院では慌ただしい一週間だった。  "
+      },
+      {
+        "line": 228,
+        "text": "・concentrated  "
+      },
+      {
+        "line": 229,
+        "text": "定義: 力、資源、活動などが一箇所や短期間に集中的に向けられた。  "
+      },
+      {
+        "line": 230,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 231,
+        "text": "違い: concentrated は分散していない配置や客観的な集中に焦点があり、intense のような体感的な激しさを必ずしも含まない。  "
+      },
+      {
+        "line": 232,
+        "text": "例: The program provides concentrated language practice over two weeks.  "
+      },
+      {
+        "line": 233,
+        "text": "訳: そのプログラムは2週間にわたり集中的な語学練習を提供する。  "
+      },
+      {
+        "line": 235,
+        "text": "・demanding  "
+      },
+      {
+        "line": 236,
+        "text": "定義: 多くの時間、技術、努力を要求する。  "
+      },
+      {
+        "line": 237,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 238,
+        "text": "違い: demanding は参加者にとって負担が大きいことに焦点があり、活動自体の対立や感情の強さまでは示さない。  "
+      },
+      {
+        "line": 239,
+        "text": "例: The job is demanding but rewarding.  "
+      },
+      {
+        "line": 240,
+        "text": "訳: その仕事は大変だが、やりがいがある。  "
+      },
+      {
+        "line": 242,
+        "text": "【反意語】"
+      },
+      {
+        "line": 244,
+        "text": "・moderate  "
+      },
+      {
+        "line": 245,
+        "text": "定義: 程度や強さが中程度の。  "
+      },
+      {
+        "line": 246,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 247,
+        "text": "違い: moderate は活動、負荷、競争などが極端ではないことを表し、intense と程度の軸で対立する。  "
+      },
+      {
+        "line": 248,
+        "text": "例: Start with moderate exercise and increase the load gradually.  "
+      },
+      {
+        "line": 249,
+        "text": "訳: 中程度の運動から始め、負荷を徐々に増やしなさい。  "
+      },
+      {
+        "line": 251,
+        "text": "・light  "
+      },
+      {
+        "line": 252,
+        "text": "定義: 仕事、運動、訓練などの負荷が小さい。  "
+      },
+      {
+        "line": 253,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 254,
+        "text": "違い: light は特に作業量や身体的負荷が少ないことを表し、intense の高い負荷と対立する。  "
+      },
+      {
+        "line": 255,
+        "text": "例: The doctor recommended light exercise for the first week.  "
+      },
+      {
+        "line": 256,
+        "text": "訳: 医師は最初の1週間、軽い運動を勧めた。  "
+      },
+      {
+        "line": 258,
+        "text": "3. 【形容詞・人・表情・関係】真剣で感情の強い、張り詰めた"
+      },
+      {
+        "line": 302,
+        "text": "【類義語】"
+      },
+      {
+        "line": 304,
+        "text": "・serious  "
+      },
+      {
+        "line": 305,
+        "text": "定義: ふざけておらず、真剣な、または重大な。  "
+      },
+      {
+        "line": 306,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 307,
+        "text": "違い: serious は真面目さや重要性に焦点があり、intense のような強い感情の圧や相手に与える重さを必ずしも含まない。  "
+      },
+      {
+        "line": 308,
+        "text": "例: She looked serious during the interview.  "
+      },
+      {
+        "line": 309,
+        "text": "訳: 面接中、彼女は真剣な表情をしていた。  "
+      },
+      {
+        "line": 311,
+        "text": "・passionate  "
+      },
+      {
+        "line": 312,
+        "text": "定義: 人や活動に強い熱意・愛着を持つ。  "
+      },
+      {
+        "line": 313,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 314,
+        "text": "違い: passionate は熱意や好意を示す肯定的な語で、intense のように緊張感や重い圧を含むとは限らない。  "
+      },
+      {
+        "line": 315,
+        "text": "例: He is passionate about improving access to education.  "
+      },
+      {
+        "line": 316,
+        "text": "訳: 彼は教育へのアクセス改善に情熱を注いでいる。  "
+      },
+      {
+        "line": 318,
+        "text": "・earnest  "
+      },
+      {
+        "line": 319,
+        "text": "定義: 目的や発言が誠実で、真剣な。  "
+      },
+      {
+        "line": 320,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 321,
+        "text": "違い: earnest は誠実さ・真摯さに焦点があり、intense より感情の強さや対人的な圧が弱い。  "
+      },
+      {
+        "line": 322,
+        "text": "例: She made an earnest appeal for help.  "
+      },
+      {
+        "line": 323,
+        "text": "訳: 彼女は助けを求めて真摯に訴えた。  "
+      },
+      {
+        "line": 325,
+        "text": "・focused  "
+      },
+      {
+        "line": 326,
+        "text": "定義: 注意や努力の対象が明確で、集中している。  "
+      },
+      {
+        "line": 327,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 328,
+        "text": "違い: focused は注意が一点に定まっていることを表す中立的な語で、intense のような強い感情や重い雰囲気を必ずしも含まない。  "
+      },
+      {
+        "line": 329,
+        "text": "例: The researcher remained focused on the data.  "
+      },
+      {
+        "line": 330,
+        "text": "訳: その研究者はデータに集中し続けた。  "
+      },
+      {
+        "line": 332,
+        "text": "・emotional  "
+      },
+      {
+        "line": 333,
+        "text": "定義: 強い感情を示す、感情に動かされた。  "
+      },
+      {
+        "line": 334,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 335,
+        "text": "違い: emotional は感情が表に出ていることに焦点があり、intense のような強い目的意識や集中だけを表す場合には使えない。  "
+      },
+      {
+        "line": 336,
+        "text": "例: His speech was emotional but carefully reasoned.  "
+      },
+      {
+        "line": 337,
+        "text": "訳: 彼のスピーチは感情的だったが、論理的によく考えられていた。  "
+      },
+      {
+        "line": 339,
+        "text": "・forceful  "
+      },
+      {
+        "line": 340,
+        "text": "定義: 意見、表現、態度などが力強く、強い影響を与える。  "
+      },
+      {
+        "line": 341,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 342,
+        "text": "違い: forceful は外に表れた主張や表現の押し出しに焦点があり、intense の内面的な感情の深さまで含むとは限らない。  "
+      },
+      {
+        "line": 343,
+        "text": "例: The lawyer gave a forceful argument in court.  "
+      },
+      {
+        "line": 344,
+        "text": "訳: その弁護士は法廷で力強い主張を展開した。  "
+      },
+      {
+        "line": 346,
+        "text": "【反意語】"
+      },
+      {
+        "line": 348,
+        "text": "・casual  "
+      },
+      {
+        "line": 349,
+        "text": "定義: 態度、会話、関係などが気軽で、形式張らない。  "
+      },
+      {
+        "line": 350,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 351,
+        "text": "違い: casual は深い感情的関与や張り詰めた圧が少ないことを表し、intense と対人的な雰囲気の軸で対立する。  "
+      },
+      {
+        "line": 352,
+        "text": "例: We had a casual conversation over coffee.  "
+      },
+      {
+        "line": 353,
+        "text": "訳: 私たちはコーヒーを飲みながら気軽な会話をした。  "
+      },
+      {
+        "line": 355,
+        "text": "・relaxed  "
+      },
+      {
+        "line": 356,
+        "text": "定義: 緊張や気負いがなく、落ち着いている。  "
+      },
+      {
+        "line": 357,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 358,
+        "text": "違い: relaxed は人、雰囲気、やり取りの力が抜けていることを表し、intense の張り詰めた圧と反対方向にある。  "
+      },
+      {
+        "line": 359,
+        "text": "例: The interview became more relaxed after the first few questions.  "
+      },
+      {
+        "line": 360,
+        "text": "訳: 最初の数問を過ぎると、面接はより和やかになった。  "
+      },
+      {
+        "line": 362,
+        "text": "・detached  "
+      },
+      {
+        "line": 363,
+        "text": "定義: 感情的に関与せず、距離を置いた。  "
+      },
+      {
+        "line": 364,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 365,
+        "text": "違い: detached は感情や個人的な関与を抑えていることを表し、intense の強い感情的関与と対立する。  "
+      },
+      {
+        "line": 366,
+        "text": "例: He remained detached while discussing the breakup.  "
+      },
+      {
+        "line": 367,
+        "text": "訳: 彼は別れについて話している間も、感情的に距離を置いていた。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
+```

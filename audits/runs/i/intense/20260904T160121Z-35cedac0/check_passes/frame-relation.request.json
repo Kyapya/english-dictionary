@@ -1,0 +1,107 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-af2cb1b9bd23",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】人、視線、表情、会話、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという肯定的な意味にも、重い・圧が強い・感情的に負担が大きいという否定的な評価にもなり得る。",
+        "antonym": "detached",
+        "antonym_definition": "定義: 感情的に関与せず、距離を置いた。"
+      },
+      {
+        "item_id": "ant-80779d1bfcd6",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】人、視線、表情、会話、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという肯定的な意味にも、重い・圧が強い・感情的に負担が大きいという否定的な評価にもなり得る。",
+        "antonym": "casual",
+        "antonym_definition": "定義: 態度、会話、関係などが気軽で、形式張らない。"
+      },
+      {
+        "item_id": "ant-41690c7b43ad",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。",
+        "antonym": "light",
+        "antonym_definition": "定義: 仕事、運動、訓練などの負荷が小さい。"
+      },
+      {
+        "item_id": "ant-f114c7dc9bc6",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。",
+        "antonym": "weak",
+        "antonym_definition": "定義: 力、効果、信号などが弱い。"
+      },
+      {
+        "item_id": "ant-464499db347e",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。",
+        "antonym": "mild",
+        "antonym_definition": "定義: 程度が穏やかで、強すぎない。"
+      },
+      {
+        "item_id": "ant-1a4b697f8e4b",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。",
+        "antonym": "moderate",
+        "antonym_definition": "定義: 程度や強さが中程度の。"
+      },
+      {
+        "item_id": "ant-f870f7405e53",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】人、視線、表情、会話、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという肯定的な意味にも、重い・圧が強い・感情的に負担が大きいという否定的な評価にもなり得る。",
+        "antonym": "relaxed",
+        "antonym_definition": "定義: 緊張や気負いがなく、落ち着いている。"
+      },
+      {
+        "item_id": "ant-06d30634b64f",
+        "headword": "intense",
+        "sense_definition": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。",
+        "antonym": "faint",
+        "antonym_definition": "定義: 光、音、色、においなどがかすかな。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

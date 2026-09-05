@@ -1,0 +1,216 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "blind_request_sha256": "edac8b06c708c78fa2d78a3fc9cd9ee5167264ccf72365a92b7dfb223046510c",
+  "recorded_at": "2026-09-04T16:49:10Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d4c-2571-7c50-b875-ca487c86c08e"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-f53769a5a6bc",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "competition"
+      ],
+      "rationale": "Competition is an activity whose fierceness is intensified; sense:001 concerns sensations or properties, and sense:003 concerns people or charged interpersonal expressions."
+    },
+    {
+      "example_id": "ex-b28f6d7f1845",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "conversation"
+      ],
+      "rationale": "The conversation is emotionally serious and charged; this use emphasizes interpersonal and emotional force rather than intensive activity."
+    },
+    {
+      "example_id": "ex-05fbd8b092d1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "blue"
+      ],
+      "rationale": "Blue is a color whose perceptual strength is extreme; the other senses require activity or people and interpersonal expressions."
+    },
+    {
+      "example_id": "ex-2e6814e0327b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "training"
+      ],
+      "rationale": "Training is a concentrated activity demanding sustained effort; it is not a sensation or property being modified."
+    },
+    {
+      "example_id": "ex-24587d18761a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "emotional"
+      ],
+      "rationale": "The adjective characterizes the emotional closeness and pressure of an interpersonal bond, not activity intensity."
+    },
+    {
+      "example_id": "ex-fe8446a73293",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "negotiations"
+      ],
+      "rationale": "Negotiations are a sustained activity involving concentrated effort; the sentence does not characterize a person's disposition or relationship."
+    },
+    {
+      "example_id": "ex-eef6da74d93f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "person"
+      ],
+      "rationale": "Intense directly characterizes the person's serious disposition; the project is only the topic of that disposition."
+    },
+    {
+      "example_id": "ex-9aba6a848ed0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "look"
+      ],
+      "rationale": "The look is a directed interpersonal expression of a strong reaction, not the strength of a visual property."
+    },
+    {
+      "example_id": "ex-90020462b558",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "pain"
+      ],
+      "rationale": "Pain is the sensation whose degree is extreme; the other senses describe activities or people and interpersonal expressions."
+    },
+    {
+      "example_id": "ex-7c4d2f6942d9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "meeting"
+      ],
+      "rationale": "The meeting is socially and emotionally overcharged for an introduction; this emphasizes interpersonal pressure."
+    },
+    {
+      "example_id": "ex-82a3302b23ce",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "effort"
+      ],
+      "rationale": "Effort is the activity or exertion requiring great force and attention, not a sensation or property."
+    },
+    {
+      "example_id": "ex-ff0a1082d768",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "debate"
+      ],
+      "rationale": "Debate is a vigorous, demanding argumentative activity; the sentence describes discussion rather than a person's emotional expression."
+    },
+    {
+      "example_id": "ex-6751dd691f7b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "heat"
+      ],
+      "rationale": "Heat is a physical sensation or condition with extreme degree; the activity sense does not apply."
+    },
+    {
+      "example_id": "ex-2a4f0bdbf31e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "interest"
+      ],
+      "rationale": "Interest is the mental response whose strength is extreme; the other senses require activity or people and interpersonal expressions."
+    },
+    {
+      "example_id": "ex-8fcafcf693f4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "activity"
+      ],
+      "rationale": "Activity is explicitly concentrated in the period, matching a high density of actions rather than sensory or interpersonal intensity."
+    },
+    {
+      "example_id": "ex-c9dfb6fde6ae",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "pressure"
+      ],
+      "rationale": "Pressure is the burden or force felt as extremely strong, explicitly covered by the first sense."
+    },
+    {
+      "example_id": "ex-c44f7f9515a3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "keeping"
+      ],
+      "rationale": "The predicate characterizes a serious, strongly purposeful attitude about keeping the details accurate; its object does not make the adjective an activity sense."
+    },
+    {
+      "example_id": "ex-67d25c6bd763",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "anger"
+      ],
+      "rationale": "Anger is the emotion whose strength is extreme; the third sense characterizes a person or expression, not the emotion noun itself."
+    }
+  ],
+  "findings": [],
+  "records": []
+}
