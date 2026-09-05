@@ -22,7 +22,7 @@
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-05T19:21:20Z",
+  "last_heartbeat_at": "2026-09-05T19:32:53Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-05T15:27:28Z",
@@ -88,6 +88,16 @@
       "stage": "draft_saved",
       "recorded_at": "2026-09-05T19:21:20Z",
       "notes": "コアイメージの重複枝を統合し、単一語義との対応を整合した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:32:00Z",
+      "notes": "活動用法の非必須条件列挙を削除し、根拠が直接示す範囲へ限定した最新版を保存"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-05T19:32:53Z",
+      "notes": "定義部にも残っていた根拠外の非必須条件列挙を削除した最新版を保存"
     }
   ],
   "stop_reason": "",
@@ -481,8 +491,8 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 8,
-    "total_duration_seconds": 613,
+    "total_revisions": 11,
+    "total_duration_seconds": 616,
     "completed_at": "",
     "stages": [
       {
@@ -498,9 +508,9 @@
         "id": "generation",
         "instruction_bytes": 53398,
         "input_bytes": 10586,
-        "duration_seconds": 303,
+        "duration_seconds": 306,
         "defects_detected": 0,
-        "revision_count": 8,
+        "revision_count": 11,
         "completed": true
       },
       {
