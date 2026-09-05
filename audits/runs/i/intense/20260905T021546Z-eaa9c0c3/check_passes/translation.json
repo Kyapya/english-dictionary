@@ -1,0 +1,63 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "independent-normal-checker-translation-20260905T021546Z-eaa9c0c3"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 185,
+        "line_end": 186,
+        "exact_quote": "例: The airport experienced a period of intense activity before the holiday.\n訳: その空港では休暇前に活動が集中する時期があった。"
+      },
+      "severity": "blocking",
+      "rationale": "原文の intense activity は活動の強度・活発さが非常に高いことを表すが、「活動が集中する」は活動が特定の時期に集まるという時間的含意を加え、強度を時間的集中へ置き換えている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その空港では休暇前に活動が非常に活発な時期があった」など、活動の強度を直接表す方向に直す。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 102,
+        "line_end": 103,
+        "exact_quote": "例: The region experienced extreme temperatures last summer.\n訳: その地域では昨夏、極端な気温が観測された。"
+      },
+      "severity": "blocking",
+      "rationale": "原文では the region が極端な気温を経験する側だが、「気温が観測された」では気温が観測対象となり、観測者による測定という別の出来事を加えて経験のフレームを変えている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その地域は昨夏、極端な気温に見舞われた」など、地域が極端な気温を経験した関係を保つ。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 139,
+        "line_end": 140,
+        "exact_quote": "例: She had only mild pain after the treatment.\n訳: 治療後の痛みは軽いものだった。"
+      },
+      "severity": "blocking",
+      "rationale": "only は痛みが mild の範囲に限られることを示す焦点・程度の限定だが、訳では単に痛みが軽かったと述べるだけで、その限定が失われている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「治療後、彼女には軽い痛みしかなかった」など、only の限定を明示する。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 225,
+        "line_end": 226,
+        "exact_quote": "例: The climbers faced a strenuous ascent in freezing weather.\n訳: 登山者たちは極寒の中で厳しい登りに挑んだ。"
+      },
+      "severity": "blocking",
+      "rationale": "faced は厳しい登りに直面した・ सामनाしたという意味で、必ずしも登山者が意図的に挑戦したことや登りを試みたことまでは述べない。「挑んだ」は意志と行為を追加し、出来事のフレームを強めている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「登山者たちは極寒の中で厳しい登りに直面した」など、直面したという関係を保つ。"
+    }
+  ]
+}

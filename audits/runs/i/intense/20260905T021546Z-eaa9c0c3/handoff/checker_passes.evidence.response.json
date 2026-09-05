@@ -1,0 +1,242 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "evidence-checker-20260905T021546Z-eaa9c0c3"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 17,
+        "line_end": 17,
+        "exact_quote": "intensive /ɪnˈtensɪv/ と発音の始まりは似ているが、intense は最後の音節 /tens/、intensive は /ɪv/ で終わる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-004/F-010はintenseの発音のみを支持し、intensiveの発音比較を支持する記録がない。",
+      "evidence_link_ids": [
+        "EVID-004"
+      ],
+      "suggested_direction": "intensiveの発音資料を追加するか比較を削除。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 21,
+        "line_end": 21,
+        "exact_quote": "中英語期に、古フランス語 intense またはラテン語 intensus「きつく引き伸ばされた、張り詰めた、緊張した」から英語に入った。intensus は intendere「伸ばす、向ける、張る」の過去分詞で、in-「～へ」と tendere「伸ばす」に分解される。"
+      },
+      "severity": "blocking",
+      "rationale": "F-009/F-013はフランス語を経由したラテン語由来を支持するが、ラテン語からの直接流入という「または」やin-/tendereへの分解は支持しない。",
+      "evidence_link_ids": [
+        "EVID-004"
+      ],
+      "suggested_direction": "フランス語経由の語源に限定し、未支持の分解を削除または別資料で補強。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 23,
+        "line_end": 23,
+        "exact_quote": "現代英語では、そこから「程度・力・感情・活動が極端に強い」という意味が発達した。intend「意図する」も語源上は同じラテン語系統に属するが、現代の意味は intense の派生義として理解しない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-009/F-013は語源経路を示すだけで、意味発達の因果やintendの現代語義との区別を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-004"
+      ],
+      "suggested_direction": "語源経路だけに限定するか、意味発達とintendを直接扱う資料を追加。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 29,
+        "line_end": 29,
+        "exact_quote": "・intensely（副詞）— 非常に、強く、極めて。"
+      },
+      "severity": "blocking",
+      "rationale": "source inventoryの派生形資料はintensity、intensify、intensificationを扱うが、intenselyの語形・語義を支持するfactがない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "intenselyの資料とevidence linkを追加するか項目を削除。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 67,
+        "line_end": 70,
+        "exact_quote": "・intense pressure  用途: 外部からかかる重圧や心理的な圧力が非常に強いことを表す。  例: The new manager is under intense pressure to improve the results."
+      },
+      "severity": "blocking",
+      "rationale": "F-001はpressureの語義適用自体を支持するが、C-001のarticle_target_idsにcollocation:003がなく、EVID-001の対象範囲から漏れている。",
+      "evidence_link_ids": [
+        "EVID-001"
+      ],
+      "suggested_direction": "pressureをEVID-001の対象に追加するか、別linkを付与。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 53,
+        "line_end": 53,
+        "exact_quote": "【文法パターン】intense + 〈感情・感覚・性質を表す名詞〉＝非常に強い～／become/get/feel intense＝程度や感じ方が強くなる／under intense pressure/scrutiny＝強い圧力・厳しい監視の下で／intense + 〈色・光・熱など〉＝非常に鮮やかな・強烈な～"
+      },
+      "severity": "blocking",
+      "rationale": "F-001は列挙された語義例を支持するが、become/get/feelやunderの完全フレーム、光への適用を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-001"
+      ],
+      "suggested_direction": "確認済みの語義例に限定するか、各フレームの資料を追加。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 87,
+        "line_end": 87,
+        "exact_quote": "【語法・注意】intense は単純な総量・大きさより、程度や強度を表す。雨では heavy rain が雨量の多さの通常表現だが、intense rain/rainfall は降り方の強さ・降水率を表し得る。"
+      },
+      "severity": "blocking",
+      "rationale": "source inventoryに雨量、intense rain/rainfall、heavy rainの対比を支持するfactやlinkがない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "この語法の資料を追加するか記述を削除。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 47,
+        "line_end": 47,
+        "exact_quote": "【頻度】〈9/10〉"
+      },
+      "severity": "blocking",
+      "rationale": "F-021はOxford 5000のC1ラベルのみを支持し、sense-levelの9/10（同様に8/10、7/10）を支持しない。編集上の目安という注記だけでは根拠linkにならない。",
+      "evidence_link_ids": [
+        "EVID-008"
+      ],
+      "suggested_direction": "頻度スコアを削除または独立した頻度資料で根拠付け。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 51,
+        "line_end": 51,
+        "exact_quote": "【レジスター/領域】標準的な一般語。会話、ニュース、ビジネス、医学、スポーツ、文学などで広く使う。"
+      },
+      "severity": "blocking",
+      "rationale": "F-021のC1語彙ラベルは一般的な学習語彙であることを示すが、標準語・列挙された各領域での広範な使用を直接支持しない。同じ問題がlines 162、271にもある。",
+      "evidence_link_ids": [
+        "EVID-008"
+      ],
+      "suggested_direction": "C1ラベル相当の限定表現にするか、領域別資料を追加。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 158,
+        "line_end": 158,
+        "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などの強度・激しさ・負荷・緊張が非常に高いこと。短期間に活動が集中する文脈もあるが、短期間であることや参加者の主観的な負荷は必要条件ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-002/F-005は活動を短期間の多量な行動として説明しており、短期間が必要条件ではないという範囲限定を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-002"
+      ],
+      "suggested_direction": "短期間性を資料に合わせて限定するか、非必要条件を別資料で補強。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 164,
+        "line_end": 164,
+        "exact_quote": "【文法パターン】intense + 〈活動・競争・議論・努力〉＝激しい・負荷の大きい～／an intense period of 〈活動〉＝激しい～の期間／become/get intense＝活動や状況が激しくなる／intense + 〈活動〉 over 〈期間〉＝一定期間にわたる活動の激しさを述べる～"
+      },
+      "severity": "blocking",
+      "rationale": "F-002/F-007は活動の強度・短期間性を支持するが、列挙された完全フレーム全体を支持する該当箇所がない。",
+      "evidence_link_ids": [
+        "EVID-002"
+      ],
+      "suggested_direction": "確認済みの活動用法に限定するかフレーム別の証拠を追加。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 173,
+        "line_end": 173,
+        "exact_quote": "・intense debate"
+      },
+      "severity": "blocking",
+      "rationale": "F-002の記録例はcompetitionとactivityで、F-007はenergy、determination、concentrationの境界を示すのみで、debateや同列のconversation、negotiations、trainingを直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-002"
+      ],
+      "suggested_direction": "各コロケーションの直接例を追加するか、確認済みのcompetition/activityに限定。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 273,
+        "line_end": 273,
+        "exact_quote": "【文法パターン】an intense person＝感情や目的意識の強い人／an intense look/gaze/expression＝強い感情や集中を帯びた視線・表情／an intense conversation/relationship＝感情的な圧や結びつきの強い会話・関係／be intense about 〈事柄〉＝〈事柄〉に非常に熱心・真剣である（比較的まれで、強くこだわる評価を帯びやすい）／too intense＝人ややり取りが重すぎる、圧が強すぎる"
+      },
+      "severity": "blocking",
+      "rationale": "F-003/F-012/F-014はperson、look/gaze、strong feelings、about等を支持するが、too intenseの評価用法とconversationの完全フレームを直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-003"
+      ],
+      "suggested_direction": "資料が直接支持するperson/look/about等に限定するか不足用法の証拠を追加。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 94,
+        "line_end": 94,
+        "exact_quote": "違い: strong は最も広い「強い」で、intense は感覚・感情・圧力などが極端で、張り詰めた感じを伴いやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "source inventoryにstrong等の類義語比較を支持するfactまたはevidence linkがなく、sense 1の類義語・反意語全体（lines 89-154）が未根拠。",
+      "evidence_link_ids": [],
+      "suggested_direction": "類義語・反意語比較の資料とlinkを追加するか関係記述を削除。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 210,
+        "line_end": 210,
+        "exact_quote": "違い: fierce は攻撃性・対立・荒々しさを含みやすく、intense は敵意のない努力や活動の集中にも使える。"
+      },
+      "severity": "blocking",
+      "rationale": "sense 2の類義語・反意語（lines 205-263）を支持するsource factやevidence linkがsource inventoryにない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "比較の直接資料を追加するか関係記述を削除。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 314,
+        "line_end": 314,
+        "exact_quote": "違い: serious は真面目さや重要性に焦点があり、intense のような強い感情の圧や相手に与える重さを必ずしも含まない。"
+      },
+      "severity": "blocking",
+      "rationale": "sense 3の類義語・反意語（lines 309-374）を支持するsource factやevidence linkがsource inventoryにない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "比較の直接資料を追加するか関係記述を削除。"
+    }
+  ]
+}
+
