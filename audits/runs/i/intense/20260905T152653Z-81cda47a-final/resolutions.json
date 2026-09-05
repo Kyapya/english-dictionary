@@ -1,0 +1,144 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-intense-20260905T152653Z-81cda47a-final",
+  "context_id": "resolution-intense-context-20260905T152653Z-81cda47a-final",
+  "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "sealed_final_blind"
+  ],
+  "recorded_at": "2026-09-05T21:16:00Z",
+  "reviewer_provenance": {
+    "reviewer_role": "main_orchestrator_finding_resolution",
+    "session_mode": "main_authoring_allowed_for_resolutions",
+    "reviewer": {
+      "mode": "main",
+      "declared_model": "gpt-5.6-luna-wm",
+      "agent_id": "main-orchestrator-intense-20260905T152653Z-81cda47a-final-r3"
+    },
+    "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
+    "sealed_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
+    "upstream_reviewers": [
+      {
+        "stage": "normal_review",
+        "pass_id": "translation",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07337-8ca1-71a2-a74b-92155ccb708f",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "sense-structure",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07337-b7e1-7943-bc19-31a79e30f0b6",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "frame-relation",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07338-ba8f-7452-97bb-88eba7f6b0a2",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "example-attribution",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0733b-fece-7092-b83b-1540eaf7909b",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "qualification",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a07338-e5d6-7f81-a8e8-4ac0b8eb80bb",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "pronunciation",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0733a-2096-7b33-b14b-9cf885f2c086",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "evidence",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0733a-4c29-7e51-9360-efebe1e77088",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "cold_review",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0733e-0ef9-7701-9663-2051efbe509e",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "final_blind",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "main_orchestrator",
+        "agent_id": "01a0733f-efeb-7b31-92f2-3172c6c3d097",
+        "same_model_as_generation": true
+      }
+    ]
+  },
+  "resolutions": [
+    {
+      "id": "F001",
+      "finding_id": "F001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "本文は活動・行動の強度や激しさを先に示し、短期間の集中を一例として記述している。語法・注意でも典型的な文脈の一つと明記しているため、短期間を必要条件化していない。",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+    },
+    {
+      "id": "F002",
+      "finding_id": "F002",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "本文は人の感情・態度または印象、視線・表情の感情・集中・鋭さ、関係の相互作用をそれぞれ明示し、評価は文脈依存と限定している。現行の区別でblind候補の意味範囲も満たしている。",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+    },
+    {
+      "id": "F003",
+      "finding_id": "F003",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "関係の例文訳は、その具体的な「感情的距離を置けない」文脈を自然に訳しており、すべての intense relationship の含意として断定していない。語法・注意にも文脈依存の評価を明記している。",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+    },
+    {
+      "id": "F004",
+      "finding_id": "F004",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "本文は米国英語を中心とするCOCA上位5,000語の形容詞lemma表に基づくと明記し、順位2,315・出現数14,452・分散度0.97と順位帯から7/10を算定する手順を本文内で開示している。また公開CSVミラーと公式リスト説明に対応するsource-first facts F-026〜F-028/U-008があり、語義別集計ではなく形容詞lemma全体の基準値であることも明示している。したがってF004の懸念は現行本文の範囲限定と監査 packet の再現可能なlocatorで解消され、頻度数値を削除する必要はない。",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+    }
+  ]
+}
