@@ -1,0 +1,50 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "sense-structure-independent-20260905T133502Z-28ea6d51"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 36,
+        "line_end": 38,
+        "exact_quote": "・人が強い感情や態度を持つ／そうした印象を与える → 「感情や態度の強い」（語義3）  \n・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）  \n・関係の感情的な結びつきや相互作用が強い → 「張り詰めた、濃密な」（語義3）  "
+      },
+      "severity": "blocking",
+      "rationale": "コアイメージの列挙枝が、人・視線／表情・関係という3つの枝をすべて語義3へ対応付けており、列挙枝と語義の対応が一対一になっていない。語義3を単一の『感情・態度・相互作用の強度』という枝に統合するか、項構造・結果状態・評価が学習上異なる用法として分割するかを明示しない限り、コアイメージと語義構造の範囲が不整合になる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "人・視線／表情・関係を一つの共有核へまとめて語義3に一度だけ対応させるか、学習上重要なフレーム差がある場合のみ独立語義へ分割する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 160,
+        "line_end": 162,
+        "exact_quote": "3. 【形容詞・人・視線・表情・関係】感情や態度の強い、張り詰めた\n\n【日本語訳・定義】人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。  "
+      },
+      "severity": "minor",
+      "rationale": "見出しの『張り詰めた』は緊張を中心義のように提示するが、定義と語法注記では関係の緊張・衝突・不安定さは『伴う場合もある』『含み得る』にとどまり、強い感情的結びつきや相互作用には必須でない。訳語が語彙的範囲を狭め、定義・語法との評価の強さを揃えていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "見出しを『感情や態度の強い、感情的に濃密な』などに改め、緊張を含む場合だけ『張り詰めた』と限定する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 23,
+        "line_end": 28,
+        "exact_quote": "＃語形成\n\n・intensity（名詞）— 強度、激しさ。  \n・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。  \n・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。  \n・intensification（名詞）— 強化、激化。  "
+      },
+      "severity": "blocking",
+      "rationale": "主要な派生による品詞転換を列挙している一方、学習価値の高い副詞形 intensely が語形成にも番号付き語義にもなく、候補集合の収録先がない。指定ルール上、語形成欄だけで主要な品詞転換・派生形を扱わず、追加候補として収録するか、除外理由を明示する必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "intensely（副詞）を独立候補として追加し、強度の高いさま・非常に強くという用法と主要な構文を番号付きで収録する。"
+    }
+  ]
+}

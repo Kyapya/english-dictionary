@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-gpt5-pronunciation-20260905T133502Z-28ea6d51"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。  "
+      },
+      "severity": "blocking",
+      "rationale": "米英を同一の /ɪnˈtens/ としているが、米語では強勢母音を /ɛ/ とする /ɪnˈtɛns/ も標準的な表記であり、英語の /e/ 表記との差分がある。したがって、米英差を示さず一つの記号を両変種に割り当てる説明は不完全である。なお、2音節で第2音節に主強勢という説明は記号と一致する。",
+      "evidence_link_ids": [],
+      "suggested_direction": "米語を /ɪnˈtɛns/、英語を /ɪnˈtens/ と分けて示すか、採用する転写方式を明記し、米英差を説明する。"
+    }
+  ]
+}

@@ -1,0 +1,144 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "blind_request_sha256": "7505874756e1077905ebb67121e02c2b000e912e371ec77b911e1976d04dcff5",
+  "recorded_at": "2026-09-05T14:00:07Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-handoff-repair-example-attribution-20260905T140007Z-28ea6d51"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-0f1867eef19e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense blue",
+        "blue of the lake"
+      ],
+      "rationale": "色の鮮やかさ・強度を表す用法で、intense は湖の blue を直接修飾している。sense:002 は活動・競争の強度、sense:003 は人・視線・表情・関係の強さなので、色を表す blue には成立しない。"
+    },
+    {
+      "example_id": "ex-29532c50d553",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense heat"
+      ],
+      "rationale": "intense は heat という暑さの程度を直接修飾しているため、暑さの強さを表す sense:001 である。sense:002 は活動そのものの強度、sense:003 は人・視線・表情・関係の強さであり、heat の修飾には適合しない。"
+    },
+    {
+      "example_id": "ex-b2853317fcbd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "intense relationship",
+        "emotional distance"
+      ],
+      "rationale": "intense は relationship という人同士の関係における情緒的な結びつき・相互作用の強さを表す。sense:001 の感情や感覚など単一対象の程度、sense:002 の活動・競争の強度では、この関係性を表す使われ方にならない。"
+    },
+    {
+      "example_id": "ex-66977fd2db11",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense pain",
+        "felt intense pain"
+      ],
+      "rationale": "intense は felt の対象である pain という感覚の強さを直接表す。sense:002 の活動強度でも、sense:003 の人・視線・表情・関係の強さでもなく、pain の程度を述べる用法である。"
+    },
+    {
+      "example_id": "ex-929304c95b6b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "intense person"
+      ],
+      "rationale": "intense は person 自体が強い感情や態度を持つ、または強い印象を与えるという性質を表す。sense:001 は感情・感覚など対象の程度、sense:002 は活動の強度を表すため、人を直接修飾するこの使われ方にはならない。"
+    },
+    {
+      "example_id": "ex-a3ab373f46d9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "an intense look",
+        "gave him an intense look"
+      ],
+      "rationale": "intense は look という視線の集中・鋭さやそこに表れる強い感情を直接表す。sense:001 の一般的な対象の程度や sense:002 の活動量・活動強度では、視線を向けるこの使われ方を説明できない。"
+    },
+    {
+      "example_id": "ex-03696fa3fbd3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "period of intense activity",
+        "activity"
+      ],
+      "rationale": "intense は activity の活動量・忙しさが高いことを表す。sense:001 の感情・感覚・色などの対象の強度でも、sense:003 の人・視線・表情・関係の強さでもなく、活動を直接修飾している。"
+    },
+    {
+      "example_id": "ex-6ea85f7df34f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense anger"
+      ],
+      "rationale": "intense は provoked された anger という感情そのものの強さを表す。sense:003 は人の態度や印象、視線・表情・関係の強さを表すが、ここでは人や関係ではなく怒りという感情を直接修飾しているため該当しない。sense:002 の活動強度でもない。"
+    },
+    {
+      "example_id": "ex-8a4f276e1dfe",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense interest"
+      ],
+      "rationale": "intense は attracted の対象である interest という心理的状態の程度を直接表すので sense:001 である。sense:002 は活動・競争の強度、sense:003 は人・視線・表情・関係の強さであり、関心そのものの修飾にはならない。"
+    },
+    {
+      "example_id": "ex-23b2e5468fb0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under intense pressure",
+        "intense pressure"
+      ],
+      "rationale": "intense は under の対象である pressure という重圧の強さを直接表すため sense:001 である。sense:002 は活動そのものの負荷・強度を表す語義、sense:003 は人・視線・表情・関係の語義なので、この pressure の修飾にはならない。"
+    },
+    {
+      "example_id": "ex-af1e25fb8688",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "intense competition",
+        "competition for places"
+      ],
+      "rationale": "intense は places をめぐって行われる competition という競争活動の激しさを表す。sense:001 の感情・感覚・色などの対象の程度でも、sense:003 の人・視線・表情・関係の強さでもなく、競争活動を直接修飾している。"
+    }
+  ]
+}

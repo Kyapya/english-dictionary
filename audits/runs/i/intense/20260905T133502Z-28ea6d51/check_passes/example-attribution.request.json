@@ -1,0 +1,117 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 42,
+        "label": "1. 【形容詞・限定／叙述】強烈な、非常に強い",
+        "definition": "感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が非常に高いこと。intense pleasure「非常に強い喜び」のように、好ましい対象にも使う。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 111,
+        "label": "2. 【形容詞・限定／叙述】激しい、活動量の多い",
+        "definition": "活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 160,
+        "label": "3. 【形容詞・人・視線・表情・関係】感情や態度の強い、張り詰めた",
+        "definition": "人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-0f1867eef19e",
+        "example": "The intense blue of the lake stood out against the white snow.",
+        "translation": "湖の鮮やかな青が白い雪を背景に際立っていた。"
+      },
+      {
+        "example_id": "ex-29532c50d553",
+        "example": "The intense heat made it dangerous to work outside.",
+        "translation": "強烈な暑さのため、屋外で働くのは危険だった。"
+      },
+      {
+        "example_id": "ex-b2853317fcbd",
+        "example": "Their intense relationship left little room for emotional distance.",
+        "translation": "彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。"
+      },
+      {
+        "example_id": "ex-66977fd2db11",
+        "example": "He felt intense pain in his lower back.",
+        "translation": "彼は腰の下部に激しい痛みを感じた。"
+      },
+      {
+        "example_id": "ex-929304c95b6b",
+        "example": "He is an intense person who takes every project very seriously.",
+        "translation": "彼はどのプロジェクトにも非常に真剣に取り組む、強い存在感のある人だ。"
+      },
+      {
+        "example_id": "ex-a3ab373f46d9",
+        "example": "She gave him an intense look when he mentioned the accusation.",
+        "translation": "彼がその告発について話すと、彼女は彼に鋭く強い視線を向けた。"
+      },
+      {
+        "example_id": "ex-03696fa3fbd3",
+        "example": "The airport experienced a period of intense activity before the holiday.",
+        "translation": "その空港では休暇前に活動が非常に活発な時期があった。"
+      },
+      {
+        "example_id": "ex-6ea85f7df34f",
+        "example": "The decision provoked intense anger among local residents.",
+        "translation": "その決定は地元住民の激しい怒りを引き起こした。"
+      },
+      {
+        "example_id": "ex-8a4f276e1dfe",
+        "example": "The discovery attracted intense interest from researchers around the world.",
+        "translation": "その発見は世界中の研究者から強い関心を集めた。"
+      },
+      {
+        "example_id": "ex-23b2e5468fb0",
+        "example": "The new manager is under intense pressure to improve the results.",
+        "translation": "新しい管理職は、業績を改善するよう非常に強い重圧を受けている。"
+      },
+      {
+        "example_id": "ex-af1e25fb8688",
+        "example": "There is intense competition for places at the top universities.",
+        "translation": "一流大学の枠をめぐって激しい競争がある。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
