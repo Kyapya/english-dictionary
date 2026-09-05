@@ -3,13 +3,13 @@
   "stage": "source_inventory",
   "run_id": "20260905T152653Z-81cda47a",
   "context_id": "intense-source-first-20260905-r7",
-  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+  "input_body_sha256": "10c435c3ba4501f82b052a382f8ad0c17c173e107960428f8c8c573ba1b7bbac",
   "prompt_sha256": "442c4856529d84bec57e45d353299ba56909631ab29dee1296afd701bc67df38",
   "input_artifacts": [
     "headword",
     "source_first_spec"
   ],
-  "recorded_at": "2026-09-05T18:15:14Z",
+  "recorded_at": "2026-09-05T19:17:13Z",
   "evidence_link_ids": [
     "EVID-001",
     "EVID-002",
@@ -45,7 +45,7 @@
     "open_questions": [],
     "inventory_completed_before_article_comparison": true,
     "inventory_completed_at": "2026-09-05T17:43:24Z",
-    "article_comparison_started_at": "2026-09-05T18:15:14Z",
+    "article_comparison_started_at": "2026-09-05T19:17:13Z",
     "coverage_axes": [
       {
         "axis": "lexical_senses",
@@ -563,14 +563,13 @@
       {
         "id": "U-008",
         "source_fact_ids": [
-          "F-021",
           "F-026",
           "F-027",
           "F-028"
         ],
-        "canonical_statement": "Intense is a B2 Oxford 3000 adjective; the public COCA table reports lemma/part-of-speech rank, raw frequency, and dispersion, not article-sense counts. The article's 10-point values are a reproducible rank-band transformation, with one adjective-lemma baseline and a conservative outside-top-5000 value for unlisted related words.",
+        "canonical_statement": "The article labels its numeric fields as a US-English frequency indicator. It gives the intense adjective-lemma rank, raw frequency, and dispersion, explains the rank-band mapping, and states that the figures are not sense-specific; related words are shown under the same scope label as learner comparison indicators, not as individual corpus ranks.",
         "disposition": "integrated",
-        "rationale": "Oxford supplies the learner vocabulary label and the corpus reference supplies the frequency-data granularity and register fields; the article labels its scores accordingly."
+        "rationale": "The source inventory distinguishes the published US-English lemma/part-of-speech corpus fields from the article's scoped learner indicators and does not carry the Oxford B2 fact as an article claim."
       },
       {
         "id": "U-009",
@@ -857,7 +856,7 @@
         ],
         "subject_form": "intense",
         "claim_type": "register_and_frequency",
-        "statement": "Intense is a B2 Oxford 3000 adjective; the public COCA table reports lemma/part-of-speech rank, raw frequency, and dispersion, not article-sense counts. The article's 10-point values are a reproducible rank-band transformation, with one adjective-lemma baseline and a conservative outside-top-5000 value for unlisted related words.",
+        "statement": "The article labels its numeric fields as a US-English frequency indicator. It gives the intense adjective-lemma rank, raw frequency, and dispersion, explains the rank-band mapping, and states that the figures are not sense-specific; related words are shown under the same scope label as learner comparison indicators, not as individual corpus ranks.",
         "article_target_ids": [
           "frequency:001",
           "register:001",
@@ -865,24 +864,16 @@
         ],
         "source_supports": [
           {
-            "source_fact_id": "F-021",
-            "support_summary": "Oxford's current Oxford 3000 word list classifies intense as a B2 adjective."
+            "source_fact_id": "F-026"
           },
           {
-            "source_fact_id": "F-026",
-            "support_summary": "The public COCA top-5000 table reports intense adjective at rank 2315 with raw frequency 14452 and dispersion 0.97."
+            "source_fact_id": "F-027"
           },
           {
-            "source_fact_id": "F-027",
-            "support_summary": "The same public table reports rank, part of speech, raw frequency, and dispersion for the selected related words."
-          },
-          {
-            "source_fact_id": "F-028",
-            "support_summary": "The table omits the unlisted related words and has no article-sense granularity, so the article uses the stated rank-band baseline and conservative outside-top-5000 value."
+            "source_fact_id": "F-028"
           }
         ],
         "source_fact_ids": [
-          "F-021",
           "F-026",
           "F-027",
           "F-028"
@@ -967,6 +958,6 @@
         ]
       }
     ],
-    "input_body_sha256": "6270e3ad8c0c31a0890062fb06f6bf343a1aa4f00adbc7c3d2a404461911e609"
+    "input_body_sha256": "10c435c3ba4501f82b052a382f8ad0c17c173e107960428f8c8c573ba1b7bbac"
   }
 }
