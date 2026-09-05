@@ -6,7 +6,7 @@ The response must be one JSON object matching `final_review_v2`. Run this in a s
 
 ## Current input binding
 
-- entry body SHA-256: `f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43`
+- entry body SHA-256: `22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310`
 - sealed final-blind output SHA-256: `5a4c3ad9f425440282bd96469d553a1c75470469bdb30047e9c817273f88ec18`
 - run/context: `blind-intense-20260905T152653Z-81cda47a-final` / `blind-intense-context-20260905T152653Z-81cda47a-final`
 - targets: 42

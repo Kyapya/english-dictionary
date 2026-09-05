@@ -3,8 +3,8 @@
   "stage": "final_review",
   "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
   "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
-  "blind_output_sha256": "5a4c3ad9f425440282bd96469d553a1c75470469bdb30047e9c817273f88ec18",
+  "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
+  "blind_output_sha256": "b67ece346b9461f339973bfc5d757db9ef292eda8e3fb0ba5d1ddb321d31297e",
   "decision": "pass",
   "target_results": [
     {
@@ -364,7 +364,7 @@
       "assertion_ids": [
         "a1"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c2",
@@ -373,7 +373,7 @@
       "assertion_ids": [
         "a2"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c3",
@@ -382,7 +382,7 @@
       "assertion_ids": [
         "a3"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c4",
@@ -391,7 +391,7 @@
       "assertion_ids": [
         "a4"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c5",
@@ -400,7 +400,7 @@
       "assertion_ids": [
         "a5"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c6",
@@ -409,7 +409,7 @@
       "assertion_ids": [
         "a6"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c7",
@@ -418,7 +418,7 @@
       "assertion_ids": [
         "a7"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c8",
@@ -427,7 +427,7 @@
       "assertion_ids": [
         "a8"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c9",
@@ -436,7 +436,7 @@
       "assertion_ids": [
         "a9"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "c10",
@@ -445,7 +445,7 @@
       "assertion_ids": [
         "a10"
       ],
-      "verified_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     }
   ],
   "finding_results": [
@@ -526,47 +526,56 @@
     {
       "id": "U-001",
       "status": "pass",
-      "notes": "中心的な非常に高い強度義と extreme との境界は複数の辞書・類義語資料に収束する。"
+      "notes": "中心的な非常に高い強度義と extreme との境界は複数の辞書・類義語資料に収束する。",
+      "union_id": "U-001"
     },
     {
       "id": "U-002",
       "status": "pass",
-      "notes": "活動・行動の強度義、短期間集中が典型例であって必須でない範囲が本文に正しく反映されている。"
+      "notes": "活動・行動の強度義、短期間集中が典型例であって必須でない範囲が本文に正しく反映されている。",
+      "union_id": "U-002"
     },
     {
       "id": "U-003",
       "status": "pass",
-      "notes": "人・look/gaze・表情・relationship の文脈別意味と、感情・集中・鋭さの区別が出典と本文で一致する。"
+      "notes": "人・look/gaze・表情・relationship の文脈別意味と、感情・集中・鋭さの区別が出典と本文で一致する。",
+      "union_id": "U-003"
     },
     {
       "id": "U-004",
       "status": "pass",
-      "notes": "第2音節強勢の発音とフランス語・ラテン語に遡る語源は独立資料で一致する。"
+      "notes": "第2音節強勢の発音とフランス語・ラテン語に遡る語源は独立資料で一致する。",
+      "union_id": "U-004"
     },
     {
       "id": "U-005",
       "status": "pass",
-      "notes": "intense と intensive の活動用法の重なりと、感情志向・客観的集中投入の対比は正確である。"
+      "notes": "intense と intensive の活動用法の重なりと、感情志向・客観的集中投入の対比は正確である。",
+      "union_id": "U-005"
     },
     {
       "id": "U-006",
       "status": "pass",
-      "notes": "intensify の自動詞・他動詞用法と intensification の関連名詞義は資料に支持される。"
+      "notes": "intensify の自動詞・他動詞用法と intensification の関連名詞義は資料に支持される。",
+      "union_id": "U-006"
     },
     {
       "id": "U-007",
       "status": "pass",
-      "notes": "intensity を intense に関連する名詞とする説明は資料に支持される。"
+      "notes": "intensity を intense に関連する名詞とする説明は資料に支持される。",
+      "union_id": "U-007"
     },
     {
       "id": "U-008",
       "status": "pass",
-      "notes": "米国英語の頻度指標、形容詞lemma・品詞単位、数値、順位帯、非語義別という範囲が本文と資料に一致する。"
+      "notes": "米国英語の頻度指標、形容詞lemma・品詞単位、数値、順位帯、非語義別という範囲が本文と資料に一致する。",
+      "union_id": "U-008"
     },
     {
       "id": "U-009",
       "status": "pass",
-      "notes": "類義語の関連性と個別の意味差は提示された辞書・類義語資料に支持され、過剰な同義性はない。"
+      "notes": "類義語の関連性と個別の意味差は提示された辞書・類義語資料に支持され、過剰な同義性はない。",
+      "union_id": "U-009"
     }
   ],
   "blockers": [],

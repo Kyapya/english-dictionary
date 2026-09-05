@@ -3,7 +3,7 @@
   "stage": "resolutions",
   "run_id": "resolution-intense-20260905T152653Z-81cda47a-final",
   "context_id": "resolution-intense-context-20260905T152653Z-81cda47a-final",
-  "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
+  "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
   "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
   "input_artifacts": [
     "entry_body",
@@ -19,8 +19,8 @@
       "declared_model": "gpt-5.6-luna-wm",
       "agent_id": "main-orchestrator-intense-20260905T152653Z-81cda47a-final-r3"
     },
-    "input_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
-    "sealed_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43",
+    "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
+    "sealed_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
     "upstream_reviewers": [
       {
         "stage": "normal_review",
@@ -111,7 +111,7 @@
       "disposition": "rejected",
       "rationale": "本文は活動・行動の強度や激しさを先に示し、短期間の集中を一例として記述している。語法・注意でも典型的な文脈の一つと明記しているため、短期間を必要条件化していない。",
       "evidence_link_ids": [],
-      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "resolved_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "F002",
@@ -120,7 +120,7 @@
       "disposition": "rejected",
       "rationale": "本文は人の感情・態度または印象、視線・表情の感情・集中・鋭さ、関係の相互作用をそれぞれ明示し、評価は文脈依存と限定している。現行の区別でblind候補の意味範囲も満たしている。",
       "evidence_link_ids": [],
-      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "resolved_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "F003",
@@ -129,7 +129,7 @@
       "disposition": "rejected",
       "rationale": "関係の例文訳は、その具体的な「感情的距離を置けない」文脈を自然に訳しており、すべての intense relationship の含意として断定していない。語法・注意にも文脈依存の評価を明記している。",
       "evidence_link_ids": [],
-      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "resolved_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     },
     {
       "id": "F004",
@@ -138,7 +138,7 @@
       "disposition": "rejected",
       "rationale": "本文は米国英語を中心とするCOCA上位5,000語の形容詞lemma表に基づくと明記し、順位2,315・出現数14,452・分散度0.97と順位帯から7/10を算定する手順を本文内で開示している。また公開CSVミラーと公式リスト説明に対応するsource-first facts F-026〜F-028/U-008があり、語義別集計ではなく形容詞lemma全体の基準値であることも明示している。したがってF004の懸念は現行本文の範囲限定と監査 packet の再現可能なlocatorで解消され、頻度数値を削除する必要はない。",
       "evidence_link_ids": [],
-      "resolved_body_sha256": "f08e09817b50f420b70b039842600beaf49e1b8fc46535d28a6ebdb454a5cf43"
+      "resolved_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
     }
   ]
 }
