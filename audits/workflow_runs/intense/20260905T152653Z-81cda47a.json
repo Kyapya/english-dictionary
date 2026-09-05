@@ -22,7 +22,7 @@
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-05T16:35:01Z",
+  "last_heartbeat_at": "2026-09-05T16:42:01Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-05T15:27:28Z",
@@ -436,8 +436,8 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 2,
-    "total_duration_seconds": 302,
+    "total_revisions": 3,
+    "total_duration_seconds": 303,
     "completed_at": "",
     "stages": [
       {
@@ -452,10 +452,10 @@
       {
         "id": "generation",
         "instruction_bytes": 53398,
-        "input_bytes": 10540,
+        "input_bytes": 10586,
         "duration_seconds": 300,
-        "defects_detected": 1,
-        "revision_count": 2,
+        "defects_detected": 0,
+        "revision_count": 3,
         "completed": true
       },
       {
