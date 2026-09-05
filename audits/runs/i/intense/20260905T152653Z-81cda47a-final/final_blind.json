@@ -1,0 +1,24 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
+  "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
+  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+  "prompt_sha256": "c40b02eed1a6823126bc14ce2e39fe5b4a498e1ee8a8fb9a0a7542d5789a267e",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a072f8-2f01-7313-a1b5-b700a0d870b4",
+    "same_model_as_generation": true
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [],
+  "article_findings": [],
+  "recorded_at": "2026-09-05T19:09:25Z"
+}

@@ -1,0 +1,78 @@
+{
+  "reviewer_provenance": {
+    "reviewer_role": "independent_context_free_cold_reviewer",
+    "stage": "cold_review",
+    "review_basis": "entry_body_only",
+    "session_mode": "separate_model_session",
+    "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
+    "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
+    "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc"
+  },
+  "summary": "明白な学習上の重大問題はないが、relationship と intensive の説明に軽微な誤解リスクがある。",
+  "findings": [
+    {
+      "id": "F001",
+      "location": "コアイメージ／文法パターン／コロケーション an intense relationship／語法・注意",
+      "severity": "low",
+      "description": "intense relationship を「濃密な関係」と中心的に訳し、情緒的な結びつきや相互作用の強さとして説明している。",
+      "reason": "intense relationship は感情的に強烈・緊迫した・波乱の多い関係も含み、必ずしも親密で濃密な関係とは限らない。「濃密」は肯定的で親密な含意を持ちやすい。",
+      "suggested_direction": "「感情の起伏が激しい関係」「感情的に強烈な関係」などを基本訳にし、親密さを含む場合に限って「濃密」とする。",
+      "scope_anchors": [
+        {
+          "id": "F001-A1",
+          "exact_quote": "・an intense relationship",
+          "location_hint": "文法パターン／コロケーションの用法行"
+        },
+        {
+          "id": "F001-A2",
+          "exact_quote": "訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。",
+          "location_hint": "コロケーション an intense relationship の訳"
+        }
+      ]
+    },
+    {
+      "id": "F002",
+      "location": "語形成 intensive／語法・注意／類義語 intensive",
+      "severity": "low",
+      "description": "intensive と intense の違いを、主に「活動への努力・注意の集中投入を客観的に記述する」対「経験される強さ・負荷・感情」と整理している。",
+      "reason": "intensive は客観性そのものより、限られた期間・範囲に資源を集中的に投入すること、または徹底的・集中的に行う性質を表す。intense も活動の負荷や努力を修飾できるため、現在の対比だけでは境界がやや単純化される。",
+      "suggested_direction": "intensive の時間的・投入量的・計画的な集中（intensive course, intensive care, intensive training）を明示し、intense は活動・経験・感情の強烈さに焦点を置くと補足する。",
+      "scope_anchors": [
+        {
+          "id": "F002-A1",
+          "exact_quote": "・intensive（形容詞）",
+          "location_hint": "語形成の intensive の項目"
+        },
+        {
+          "id": "F002-A2",
+          "exact_quote": "intensive は活動への努力・注意などの集中投入を客観的に記述しやすく",
+          "location_hint": "語義2の語法・注意"
+        },
+        {
+          "id": "F002-A3",
+          "exact_quote": "・intensive",
+          "location_hint": "類義語 intensive の項目"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "01a072f5-8052-70c3-ac01-3fc4e8cb50a0",
+    "same_model_as_generation": true
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
+  "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
+  "input_body_sha256": "9f9258c385863a9739f7a0b079ab43c6ca2c442d954fb890ae039fbc5cc178cc",
+  "prompt_sha256": "1ba58422a0fede126a88cd6c47ffe5ee8c2274f3ad0440c2f2adb1fad3784919",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-05T19:07:12Z"
+}
