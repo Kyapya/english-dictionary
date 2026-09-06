@@ -274,3 +274,4 @@ tags: []
 違い: fervent は特定の信念や支持への熱烈さを表す比較的硬い語で、intense は人・視線・関係などにも広く使える。  
 例: a fervent supporter  
 訳: 熱烈な支持者。  
+
