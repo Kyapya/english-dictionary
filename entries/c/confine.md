@@ -1,7 +1,7 @@
 ---
 headword: confine  
 type: word  
-status: draft  
+status: needs_review  
 prompt_version: entry_spec_v5  
 model: gpt-5  
 created_at: 2026-09-06  
