@@ -1,0 +1,96 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "stage2_request_sha256": "7bd91d9f4a08d9043d13e87479bb64d9e9cd03645fc95210514d6c575da5450a",
+  "blind_record_sha256": "9bf4abbe323fc006532b31c3d4f399918f56f3133ce85c459326c3ce8a0fff32",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-r2-frame-reviewer",
+    "same_model_as_generation": true
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-feae1bb49aaa",
+      "flags": [],
+      "rationale": "語義1は対象を一定範囲の内側に限定することを表し、broaden は同じ範囲軸で外側へ広げるため方向対立が成立する。違い行も対立を否定または限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-5c13f3df07ec",
+      "flags": [],
+      "rationale": "語義1で到達・適用範囲を内側に止める confine と、その範囲を先まで広げる extend は範囲軸上の方向対立である。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7700f7ce4e98",
+      "flags": [],
+      "rationale": "語義2の confine は人・動物を拘束状態に置き、release は拘束された対象を外へ出られる状態にするため、拘束軸上の方向対立として成立する。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-2ff0cbbd0f84",
+      "flags": [],
+      "rationale": "語義2の confine は移動の自由を奪い、free はその拘束を取り除くため、拘束軸上の方向対立として成立する。適用範囲に関する補足も対立自体を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-cd0cd6b18ff8",
+      "flags": [],
+      "rationale": "語義4は空間が狭く動ける余地が少ないことを含み、spacious は十分な余地があることを表すため、広さ軸上の程度対立になる。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-c0dc5dadb561",
+      "flags": [],
+      "rationale": "語義4は壁や境界に囲まれた閉鎖性を含み、open は閉鎖されず外へ開かれた状態を表すため、開放性軸上の状態対立になる。出入り可能性への言及はこの対立を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-3b54469f1e25",
+      "flags": [],
+      "rationale": "語義5の confining は人の自由や選択を狭める性質を表し、liberating は制約を取り除いて自由を感じさせるため、自由軸上の方向対立として成立する。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 127,
+        "line_end": 127,
+        "exact_quote": "【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/something within 〈境界・区域〉＝人・物を～の境界内にとどめる／confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／be confined within 〈境界・区域〉＝～の境界内に閉じ込められている／be confined to quarters＝兵舎・自室待機を命じられている  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2の見出しと定義は目的語を人・動物に限定しているが、within の能動フレームだけが something を許して無生物まで同語義に取り込んでいる。項の意味役割が語義定義および同語義の他フレームと一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2の目的語slotを someone/an animal に揃えるか、無生物の within フレームを無生物対象を定義に含む語義へ移して完全フレーム化する。",
+      "id": "NR-frame-relation-1"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 255,
+        "line_end": 255,
+        "exact_quote": "【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で／feel confined＝閉じ込められたように感じる  "
+      },
+      "severity": "blocking",
+      "rationale": "語義4の定義は confined が空間・区域の狭さや閉鎖性を表す用法だけを記述しているが、feel confined は人を経験者として「自由を制限されていると感じる」用法であり、その定義と項の意味役割が適用できない。また、この主要フレームに対応するコロケーションもない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "feel confined を人の被拘束状態を扱う語義へ移すか、語義4の定義とコロケーションを人の経験者用法まで一貫して拡張する。",
+      "id": "NR-frame-relation-2"
+    }
+  ],
+  "unrouted_observations": []
+}

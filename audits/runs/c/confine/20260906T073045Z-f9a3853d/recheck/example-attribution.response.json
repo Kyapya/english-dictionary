@@ -1,0 +1,163 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+  "blind_request_sha256": "79075a28d97ce1b898f824e2f468bce4fa3509a34076e8e6e5f3b0e922d332c4",
+  "recorded_at": "2026-09-06T08:09:00Z",
+  "reviewer": {
+    "agent_id": "confine-recheck-example",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "same_model_as_generation": true
+  },
+  "attributions": [
+    {
+      "example_id": "ex-9fa9db2f6533",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["within the confines of the embassy"],
+      "rationale": "The negotiations took place within the confines of the embassy. Here confines is a plural noun naming the bounded area of the embassy, so sense:005 is natural; sense:001 would require verbal confine expressing an act or state of limiting scope, which this nominal within the confines of construction does not provide."
+    },
+    {
+      "example_id": "ex-962978051ea4",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["confined to bed", "with a severe infection"],
+      "rationale": "She was confined to bed for a week with a severe infection. The illness-caused inability to leave bed directly selects sense:003; sense:002 would denote imposed physical restraint or detention of a person or animal, but the headword construction here presents infection and bed-bound incapacity rather than a restraining agent or barrier."
+    },
+    {
+      "example_id": "ex-3ee2a2e1a726",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["beyond the confines of the university"],
+      "rationale": "Her influence extended far beyond the confines of the university. The plural noun confines denotes the university's figurative institutional boundaries, selecting sense:005; sense:001 would require confine as a verb that limits influence, whereas the sentence instead makes confines the object of beyond."
+    },
+    {
+      "example_id": "ex-525a3f8470ed",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["After the operation", "confined to his home"],
+      "rationale": "After the operation, he was confined to his home for several days. The medical circumstance and resulting home-bound state select sense:003; sense:002 would express detention or externally imposed restraint, but the use of confined to his home here is explicitly framed as postoperative incapacity."
+    },
+    {
+      "example_id": "ex-4f3ca7dd8d8f",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["confine the discussion to the issues on today's agenda"],
+      "rationale": "Please confine the discussion to the issues on today's agenda. The verb limits the subject matter of the discussion to a stated scope, selecting sense:001; sense:002 concerns restricting the movement of a person or animal and cannot take discussion as the entity physically detained in this use."
+    },
+    {
+      "example_id": "ex-5eda42534e76",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["work in confined conditions"],
+      "rationale": "The technicians had to work in confined conditions beneath the stage. Confined adjectivally characterizes the working conditions as spatially restricted, selecting sense:004; sense:002 would require a verbal/passive relation in which people or animals are kept from leaving, which the attributive phrase confined conditions does not express."
+    },
+    {
+      "example_id": "ex-d4ead82fb9f7",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["A knee injury confined her to the apartment"],
+      "rationale": "A knee injury confined her to the apartment for most of the winter. The injury is the grammatical cause of her inability to leave home, directly selecting sense:003; sense:002 would involve detention or an imposed barrier, but the headword's subject here is a bodily injury producing home-bound incapacity."
+    },
+    {
+      "example_id": "ex-5124887bd727",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["confined her remarks to the financial risks"],
+      "rationale": "She confined her remarks to the financial risks of the proposal. The verb restricts the thematic scope of remarks, selecting sense:001; sense:002 cannot apply because remarks are not a person or animal whose physical movement is being restrained."
+    },
+    {
+      "example_id": "ex-986b69697c19",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["The order kept the soldiers confined to their barracks"],
+      "rationale": "The order kept the soldiers confined to their barracks overnight. The order imposes a restriction keeping people from leaving barracks, selecting sense:002; sense:003 concerns illness, injury, or bodily condition causing a person to remain at home or in bed, whereas the headword relation here is disciplinary or command-based restraint."
+    },
+    {
+      "example_id": "ex-819087cb4e1f",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["confined to quarters for disobeying the order"],
+      "rationale": "He was confined to quarters for disobeying the order. Confined to quarters is imposed as a disciplinary restriction for misconduct, selecting sense:002; sense:003 would require illness, injury, or bodily condition as the cause of being unable to leave, which the for disobeying rationale excludes."
+    },
+    {
+      "example_id": "ex-a011415a9ef5",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["in a confined space", "without adequate ventilation"],
+      "rationale": "The machine should not be operated in a confined space without adequate ventilation. Confined is an attributive adjective describing an enclosed, restricted space, selecting sense:004; sense:001 would require a verb limiting some activity or phenomenon to a scope, but here confined directly modifies the noun space."
+    },
+    {
+      "example_id": "ex-5e821d5ca458",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["lived in confined quarters"],
+      "rationale": "The crew lived in confined quarters during the voyage. Confined adjectivally describes the quarters as cramped or spatially restricted, selecting sense:004; sense:002 would require the crew themselves to be the object of confinement and unable to leave, which lived in confined quarters does not entail."
+    },
+    {
+      "example_id": "ex-71f90de725aa",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["The prisoner was confined in a windowless cell"],
+      "rationale": "The prisoner was confined in a windowless cell for several days. The passive verb describes a person detained inside a cell, selecting sense:002; sense:003 would concern being kept in bed, at home, or in a room by illness or injury, while this headword use encodes custodial physical restraint."
+    },
+    {
+      "example_id": "ex-24005e068c24",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["beyond the narrow confines of a family dispute"],
+      "rationale": "The story moves beyond the narrow confines of a family dispute. The plural noun confines names the figurative boundaries of the dispute's subject domain, selecting sense:005; sense:001 would require a verbal act or state of limiting the story, whereas beyond takes the noun confines as the boundary crossed."
+    },
+    {
+      "example_id": "ex-321a5565cdb6",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["bird was temporarily confined to a large enclosure"],
+      "rationale": "The injured bird was temporarily confined to a large enclosure. The passive verb describes an animal kept inside an enclosure and unable to leave, selecting sense:002; sense:003 is defined for a person made bed- or home-bound by a medical condition, and the headword relation here instead has an animal placed within a physical containment area."
+    },
+    {
+      "example_id": "ex-17e57acccdad",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["confine myself to examining the short-term effects"],
+      "rationale": "In this chapter, I will confine myself to examining the short-term effects. The reflexive verb construction voluntarily restricts the scope of examination, selecting sense:001; sense:002 would mean physically detaining a person or animal, which is incompatible with the complement to examining that specifies an intellectual task rather than a place of restraint."
+    },
+    {
+      "example_id": "ex-58ff405fbf79",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["confined to his room by complications from the operation"],
+      "rationale": "He is temporarily confined to his room by complications from the operation. The by-phrase identifies medical complications as the cause of his room-bound state, selecting sense:003; sense:002 would encode external detention or physical restraint, but the headword's causal relation here is explicitly medical incapacity."
+    },
+    {
+      "example_id": "ex-f9bcb2ef3ac2",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["not confined to rural areas"],
+      "rationale": "The shortage is not confined to rural areas. The passive verb states that the phenomenon's geographic scope is not limited to one class of area, selecting sense:001; sense:004 would use confined adjectivally to describe an enclosed or cramped space itself, whereas here the to-phrase supplies the range over which a shortage occurs."
+    },
+    {
+      "example_id": "ex-003e34080fd9",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["confines the plasma to the center of the chamber"],
+      "rationale": "The magnetic field confines the plasma to the center of the chamber. The verb limits a nonliving physical phenomenon or material to a specified spatial range, selecting sense:001; sense:002 is restricted to preventing a person or animal from leaving, so the headword's plasma object rules that competitor out."
+    },
+    {
+      "example_id": "ex-94a058709df0",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["outside the confines of the formal organization"],
+      "rationale": "The group continued its work outside the confines of the formal organization. The plural noun confines denotes the organization's figurative institutional boundaries, selecting sense:005; sense:001 would require confine as a verb that limits work, but outside takes confines as the nominal boundary beyond which the work continues."
+    },
+    {
+      "example_id": "ex-485a080c68c8",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["a confined interior with little room to move"],
+      "rationale": "The vehicle has a confined interior with little room to move. Confined is an attributive adjective describing an enclosed interior with restricted movement space, selecting sense:004; sense:002 would describe a person or animal being detained, while the headword here modifies the spatial interior itself."
+    }
+  ]
+}

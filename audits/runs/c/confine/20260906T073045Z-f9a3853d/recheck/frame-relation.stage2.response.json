@@ -1,0 +1,73 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+  "stage2_request_sha256": "17584820f5117df074aa16a5320caa37f2ddca9cab85861ae40dbfab26b7ecea",
+  "blind_record_sha256": "1a80e3a7e58dea989c9121156cdede7e77ef8c24bdb83a45cee9acafa429e1a2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-recheck-frame"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-4d40928a7b3f",
+      "flags": [],
+      "rationale": "語義定義から範囲軸を直接導出でき、限定と拡張は同軸上の反対方向として成立する。違い行も対立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-91e40fa85588",
+      "flags": [],
+      "rationale": "語義定義から範囲軸を直接導出でき、到達範囲を内側に止めることと先まで広げることは方向対立として成立する。違い行も対立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-4326d783d82a",
+      "flags": [],
+      "rationale": "語義定義から拘束軸を直接導出でき、閉鎖場所内にとどめることと解放することは反対方向として成立する。違い行も対立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-6f80f8839e2a",
+      "flags": [],
+      "rationale": "語義定義から拘束軸を直接導出でき、拘束を課すことと取り除くことは反対方向として成立する。適用範囲の差の説明もこの対立を自己否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-1f641581b102",
+      "flags": [],
+      "rationale": "語義定義が動ける余地の少なさを明示しており、spacious との広さの程度対立を直接導出できる。違い行も対立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-3ac7107a40f7",
+      "flags": [],
+      "rationale": "語義定義が閉鎖性を明示しており、open との開放性の状態対立を直接導出できる。文脈により出入り可能性として現れるとの補足は対立の不成立を認めるものではない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 140,
+        "line_end": 140,
+        "exact_quote": "・keep 〈人・動物〉 confined  "
+      },
+      "severity": "blocking",
+      "rationale": "このコロケーションは keep を主要動詞、〈人・動物〉を目的語、confined を目的格補語とする V+O+C 構文だが、当該語義の文法パターンは confine の能動・受動フレームだけを列挙しており、この完全フレームと各項の役割を宣言していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "keep 〈人・動物〉 confined (to 〈場所〉) を V+O+C の完全フレームとして文法パターンに追加し、keep の行為者、目的語の被拘束者、confined の結果状態、任意の場所句を明示する。"
+    }
+  ],
+  "unrouted_observations": []
+}

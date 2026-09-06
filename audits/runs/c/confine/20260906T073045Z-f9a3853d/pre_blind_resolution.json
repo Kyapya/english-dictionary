@@ -1,0 +1,80 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "resolutions": [
+    {
+      "id": "NR-sense-structure-1",
+      "finding_id": "NR-sense-structure-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The object scope of the within frame overlapped the material-containment use in sense 1.",
+      "required_changes": [
+        "The object scope of the within frame overlapped the material-containment use in sense 1."
+      ],
+      "implemented_changes": [
+        "Narrowed the sense-2 within frame and collocation to people and animals, and explicitly assigned material or effect containment to sense 1."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "NR-frame-relation-1",
+      "finding_id": "NR-frame-relation-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The active within frame allowed inanimate objects although sense 2 is limited to people and animals.",
+      "required_changes": [
+        "The active within frame allowed inanimate objects although sense 2 is limited to people and animals."
+      ],
+      "implemented_changes": [
+        "Changed someone/something to someone/an animal and aligned the Japanese gloss."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "NR-frame-relation-2",
+      "finding_id": "NR-frame-relation-2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "feel confined introduced a human experiencer frame into a sense defined for narrow spaces and areas.",
+      "required_changes": [
+        "feel confined introduced a human experiencer frame into a sense defined for narrow spaces and areas."
+      ],
+      "implemented_changes": [
+        "Removed feel confined from the spatial adjective grammar inventory."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "confine-cold-r2-001",
+      "finding_id": "confine-cold-r2-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The sense-2 within frame allowed inanimate objects despite the sense heading and definition.",
+      "required_changes": [
+        "The sense-2 within frame allowed inanimate objects despite the sense heading and definition."
+      ],
+      "implemented_changes": [
+        "Narrowed both active and passive within frames to people and animals and clarified the boundary with sense 1."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "confine-cold-r2-002",
+      "finding_id": "confine-cold-r2-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Two confining collocation examples did not contain their stated collocations.",
+      "required_changes": [
+        "Two confining collocation examples did not contain their stated collocations."
+      ],
+      "implemented_changes": [
+        "Replaced the two mismatched examples so their headings appear verbatim, and added a separate find O confining collocation with its own object-complement example."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

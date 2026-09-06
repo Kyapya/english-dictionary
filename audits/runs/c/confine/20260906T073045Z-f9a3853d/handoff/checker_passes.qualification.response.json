@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-qualification-agent",
+    "started_at": "2026-09-06T07:48:25Z",
+    "completed_at": "2026-09-06T07:48:35Z"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "confine oneself to は「自分を物理的に閉じ込める」ではなく、通常「話題・活動を自分で限定する」という再帰構文である。"
+      },
+      "severity": "blocking",
+      "rationale": "再帰形の物理的用法を一律に否定しているが、文脈によっては confine oneself to one's room のように、自らを物理的な場所にとどめる意味でも成立する。「通常」が後半の典型用法を限定していても、前半の「ではなく」という絶対的な排除は反例によって成り立たない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "再帰形は典型的には話題・活動の自主的な限定を表すが、場所を補語に取る場合は物理的に自分をその場所にとどめる意味にもなり得る、と適用範囲を修正する。"
+    }
+  ]
+}

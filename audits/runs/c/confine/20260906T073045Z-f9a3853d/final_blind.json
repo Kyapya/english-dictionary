@@ -1,0 +1,286 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-confine-20260906T073045Z-f9a3853d",
+  "context_id": "blind-confine-context-20260906T073045Z-f9a3853d",
+  "reviewer": {
+    "agent_id": "confine-stable-final-blind-grounded",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human",
+    "same_model_as_generation": true
+  },
+  "generation": {
+    "model": "gpt-5"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "FB-C001",
+      "surface_form": "confine",
+      "frame": "confine <topic/activity/remarks/inquiry> to <subject/domain/period>",
+      "meaning": "An agent deliberately limits the scope of an abstract activity or content to a stated domain.",
+      "disposition": "included",
+      "rationale": "This is a major current transitive use and is independently represented by the discussion, remarks, and inquiry-style material in sense 1. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine <topic/activity/remarks/inquiry> to <subject/domain/period>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C001-A1",
+          "statement": "The complement of to denotes the permitted scope within which the abstract object is kept.",
+          "polarity": "must_hold",
+          "scope": "definition, grammar, collocations, and examples for deliberate abstract limitation"
+        },
+        {
+          "id": "FB-C001-A2",
+          "statement": "The frame must not imply physical imprisonment merely because its complement can be a place or group.",
+          "polarity": "must_not_hold",
+          "scope": "sense boundary between abstract scope restriction and physical confinement"
+        }
+      ]
+    },
+    {
+      "id": "FB-C002",
+      "surface_form": "be confined",
+      "frame": "<problem/feature/phenomenon> be confined to <place/group/period>",
+      "meaning": "The distribution or occurrence of a phenomenon does not extend beyond a specified domain.",
+      "disposition": "included",
+      "rationale": "This stative distributional frame has a different subject role from deliberate restriction and is independently covered in sense 1 by the shortage example. Candidate-specific anchor: surface form \"be confined\"; exact frame \"<problem/feature/phenomenon> be confined to <place/group/period>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C002-A1",
+          "statement": "The grammatical subject is the phenomenon whose observed or applicable range is bounded.",
+          "polarity": "must_hold",
+          "scope": "distributional passive frame"
+        },
+        {
+          "id": "FB-C002-A2",
+          "statement": "The construction need not assert that an agent intentionally imposed the boundary.",
+          "polarity": "must_not_hold",
+          "scope": "agentivity of the distributional reading"
+        }
+      ]
+    },
+    {
+      "id": "FB-C003",
+      "surface_form": "confine oneself",
+      "frame": "confine oneself to <noun/doing>",
+      "meaning": "A person voluntarily restricts what they discuss, examine, or do to one stated scope.",
+      "disposition": "included",
+      "rationale": "The reflexive frame is productive and current; the article gives its voluntary abstract reading and an appropriate example. Candidate-specific anchor: surface form \"confine oneself\"; exact frame \"confine oneself to <noun/doing>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C003-A1",
+          "statement": "The referent of oneself both chooses and undergoes the restriction of scope.",
+          "polarity": "must_hold",
+          "scope": "voluntary reflexive use"
+        },
+        {
+          "id": "FB-C003-A2",
+          "statement": "A following gerund denotes the only activity admitted within the chosen scope.",
+          "polarity": "must_hold",
+          "scope": "confine oneself to doing"
+        }
+      ]
+    },
+    {
+      "id": "FB-C004",
+      "surface_form": "confine",
+      "frame": "confine <person/animal> in/to/within <cell/enclosure/area>; <person/animal> be confined in/to/within <place>",
+      "meaning": "An animate being is prevented from leaving a bounded place or permitted area.",
+      "disposition": "included",
+      "rationale": "This is a central current physical sense, and sense 2 covers active and passive variants, the preposition contrasts, and representative human and animal examples. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine <person/animal> in/to/within <cell/enclosure/area>; <person/animal> be confined in/to/within <place>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C004-A1",
+          "statement": "The animate patient loses freedom to move outside the stated physical boundary.",
+          "polarity": "must_hold",
+          "scope": "physical confinement of people and animals"
+        },
+        {
+          "id": "FB-C004-A2",
+          "statement": "The use must not be reduced to a mere statement that the patient happens to be located in the place.",
+          "polarity": "must_not_hold",
+          "scope": "distinction between confinement and neutral location"
+        }
+      ]
+    },
+    {
+      "id": "FB-C005",
+      "surface_form": "confine",
+      "frame": "confine <substance/heat/fire/plasma> to/within <region/device>",
+      "meaning": "A physical force, barrier, or device prevents matter or energy from moving or spreading beyond a region.",
+      "disposition": "included",
+      "rationale": "This technical containment use has a non-animate patient and spread-prevention profile distinct from loss of personal freedom; sense 2 explicitly covers it with a plasma example. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine <substance/heat/fire/plasma> to/within <region/device>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C005-A1",
+          "statement": "The bounded entity is matter, energy, or a physical effect whose movement or diffusion is prevented beyond the boundary.",
+          "polarity": "must_hold",
+          "scope": "scientific and technical containment"
+        },
+        {
+          "id": "FB-C005-A2",
+          "statement": "The frame must not attribute personal freedom, punishment, or volition to the contained entity.",
+          "polarity": "must_not_hold",
+          "scope": "role boundary from animate confinement"
+        }
+      ]
+    },
+    {
+      "id": "FB-C006",
+      "surface_form": "confine",
+      "frame": "<illness/injury/physical condition> confine <person> to <bed/home/room>; <person> be confined to <bed/home/room> with/by <condition>",
+      "meaning": "A health condition prevents a person from leaving a bed, home, room, or similarly restricted place.",
+      "disposition": "included",
+      "rationale": "The health-caused frame is current and conventional enough to merit its own treatment; sense 3 accurately separates causative and passive realizations. Candidate-specific anchor: surface form \"confine\"; exact frame \"<illness/injury/physical condition> confine <person> to <bed/home/room>; <person> be confined to <bed/home/room> with/by <condition>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C006-A1",
+          "statement": "The confinement is caused by illness, injury, recovery, or another bodily condition.",
+          "polarity": "must_hold",
+          "scope": "health-related confinement"
+        },
+        {
+          "id": "FB-C006-A2",
+          "statement": "The frame must not imply detention or punishment unless additional context independently supplies it.",
+          "polarity": "must_not_hold",
+          "scope": "boundary from custodial confinement"
+        }
+      ]
+    },
+    {
+      "id": "FB-C007",
+      "surface_form": "confined",
+      "frame": "a confined <space/area/interior>; in confined <quarters/conditions>",
+      "meaning": "A space or setting is enclosed or narrowly bounded so that movement or usable room is limited.",
+      "disposition": "included",
+      "rationale": "This established adjectival result-state use is independently covered in sense 4, including general use and the narrower occupational-safety term confined space. Candidate-specific anchor: surface form \"confined\"; exact frame \"a confined <space/area/interior>; in confined <quarters/conditions>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C007-A1",
+          "statement": "The adjective characterizes the space or setting as enclosed or spatially restrictive.",
+          "polarity": "must_hold",
+          "scope": "adjectival confined modifying spaces and conditions"
+        },
+        {
+          "id": "FB-C007-A2",
+          "statement": "In occupational-safety usage, confined space must not be equated with every merely small room.",
+          "polarity": "must_not_hold",
+          "scope": "specialized confined-space terminology"
+        }
+      ]
+    },
+    {
+      "id": "FB-C008",
+      "surface_form": "confining",
+      "frame": "a confining <environment/space/routine>; confining <clothes>; find <place/life> confining",
+      "meaning": "Something restricts a person's movement, action, or choice and consequently feels constricting.",
+      "disposition": "included",
+      "rationale": "This active-property adjective is current though less frequent and is separately and consistently covered in sense 5. Candidate-specific anchor: surface form \"confining\"; exact frame \"a confining <environment/space/routine>; confining <clothes>; find <place/life> confining\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C008-A1",
+          "statement": "The modified or predicated entity is the source of restriction experienced by a person.",
+          "polarity": "must_hold",
+          "scope": "adjectival confining"
+        },
+        {
+          "id": "FB-C008-A2",
+          "statement": "The adjective must not be treated as interchangeable with confined, which normally profiles the restricted result or setting.",
+          "polarity": "must_not_hold",
+          "scope": "confining versus confined"
+        }
+      ]
+    },
+    {
+      "id": "FB-C009",
+      "surface_form": "confines",
+      "frame": "the confines of <place/institution/field>; beyond/outside the confines of <domain>",
+      "meaning": "The outer boundaries or limits that separate a place, institution, or domain from what lies beyond it.",
+      "disposition": "included",
+      "rationale": "The formal plural noun has a live boundary reading, and sense 6 covers it through beyond and outside frames. Candidate-specific anchor: surface form \"confines\"; exact frame \"the confines of <place/institution/field>; beyond/outside the confines of <domain>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C009-A1",
+          "statement": "The plural noun can profile the limits separating the inside of a domain from the outside.",
+          "polarity": "must_hold",
+          "scope": "boundary reading of plural noun confines"
+        },
+        {
+          "id": "FB-C009-A2",
+          "statement": "The noun must not be analyzed as the third-person singular form of the verb in this frame.",
+          "polarity": "must_not_hold",
+          "scope": "part-of-speech identification"
+        }
+      ]
+    },
+    {
+      "id": "FB-C010",
+      "surface_form": "confines",
+      "frame": "within/in the confines of <place/institution>; the narrow confines of <place/framework>",
+      "meaning": "The enclosed area or restricted internal scope lying inside stated boundaries.",
+      "disposition": "included",
+      "rationale": "This metonymic area reading differs from the boundary-line reading and is independently represented in sense 6 by within and narrow-confines examples. Candidate-specific anchor: surface form \"confines\"; exact frame \"within/in the confines of <place/institution>; the narrow confines of <place/framework>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C010-A1",
+          "statement": "The phrase can denote the internal territory or scope enclosed by the limits, rather than only the limits themselves.",
+          "polarity": "must_hold",
+          "scope": "enclosed-area reading of plural noun confines"
+        },
+        {
+          "id": "FB-C010-A2",
+          "statement": "The complement of of identifies the place, system, or subject whose internal extent is at issue.",
+          "polarity": "must_hold",
+          "scope": "within/in the confines of construction"
+        }
+      ]
+    },
+    {
+      "id": "FB-C011",
+      "surface_form": "confine",
+      "frame": "confine with/on/upon <neighboring territory>",
+      "meaning": "To share a boundary with or border on another territory.",
+      "disposition": "excluded",
+      "rationale": "This is an obsolete or historical continuation of the etymological bordering sense, not a major productive meaning for a contemporary learner entry; mentioning it in the etymological development is sufficient. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine with/on/upon <neighboring territory>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C011-A1",
+          "statement": "If presented as a current sense, the frame would have to denote mutual adjacency or a shared boundary rather than containment inside a boundary.",
+          "polarity": "must_hold",
+          "scope": "historical bordering sense"
+        },
+        {
+          "id": "FB-C011-A2",
+          "statement": "The historical adjacency sense must not be represented as a productive neutral modern use without an obsolescence label.",
+          "polarity": "must_not_hold",
+          "scope": "currency and register"
+        }
+      ]
+    },
+    {
+      "id": "FB-C012",
+      "surface_form": "a confine",
+      "frame": "a confine of/between <place/domain>",
+      "meaning": "A single boundary or limit.",
+      "disposition": "excluded",
+      "rationale": "The singular noun is rare and non-central in present-day English; the article correctly prioritizes the conventional plural confines while noting the singular's rarity. Candidate-specific anchor: surface form \"a confine\"; exact frame \"a confine of/between <place/domain>\".",
+      "semantic_assertions": [
+        {
+          "id": "FB-C012-A1",
+          "statement": "Any included treatment would have to mark the singular count noun as rare rather than imply parity with plural confines.",
+          "polarity": "must_hold",
+          "scope": "singular noun currency"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "recorded_at": "2026-09-06T13:48:02.617014Z",
+  "audit_visible": false
+}

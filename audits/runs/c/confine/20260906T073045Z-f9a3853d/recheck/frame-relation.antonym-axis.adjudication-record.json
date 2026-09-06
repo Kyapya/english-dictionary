@@ -1,0 +1,67 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "stage2_request_sha256": "b543d1ca3128366d5d4eb221ca04046c3b68a56cfaca380484d554be05e96cb4",
+  "blind_record_sha256": "09539de5a9f3abe4b3f752323330ba80376260f1c3924a3b5c7555a4e2b31210",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-stable-frame-bound",
+    "same_model_as_generation": true
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-feae1bb49aaa",
+      "flags": [],
+      "rationale": "語義1は抽象的な対象範囲を内側に限定し、broaden は同じ範囲を外側へ広げるため、範囲軸上の方向対立が成立する。違い行も対立を否定または限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-5c13f3df07ec",
+      "flags": [],
+      "rationale": "語義1で到達・適用範囲を内側に止める confine と、その範囲を先まで広げる extend は範囲軸上の方向対立である。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7700f7ce4e98",
+      "flags": [],
+      "rationale": "語義2のうち人・動物を拘束状態に置く confine と、その対象を外へ出られる状態にする release は、拘束軸上の方向対立として成立する。語義に物質の封じ込めも含まれることは、この対立を否定しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-2ff0cbbd0f84",
+      "flags": [],
+      "rationale": "語義2のうち人・動物の移動の自由を奪う confine と、その拘束を取り除く free は、拘束軸上の方向対立として成立する。適用対象の広さに関する補足も対立自体を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-cd0cd6b18ff8",
+      "flags": [],
+      "rationale": "語義4は空間が狭く動ける余地が少ないことを含み、spacious は十分な余地を表すため、広さ軸上の程度対立になる。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-c0dc5dadb561",
+      "flags": [],
+      "rationale": "語義4は壁や境界に囲まれた閉鎖性を含み、open は閉鎖されず外へ開かれた状態を表すため、開放性軸上の状態対立になる。出入り可能性への言及はこの対立を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-3b54469f1e25",
+      "flags": [],
+      "rationale": "語義5の confining は人の自由や選択を狭める性質を表し、liberating は制約を取り除いて自由を感じさせるため、自由軸上の方向対立として成立する。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

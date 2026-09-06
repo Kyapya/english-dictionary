@@ -1,12 +1,12 @@
 ---
 headword: confine  
 type: word  
-status: needs_review  
+status: checked  
 prompt_version: entry_spec_v5  
 model: gpt-5  
 created_at: 2026-09-06  
 updated_at: 2026-09-06  
-checked: false  
+checked: true  
 tags: []  
 ---
 
@@ -22,30 +22,31 @@ tags: []
 
 ・confinement（名詞）— 閉じ込めること、閉じ込められた状態、拘禁。  
 ・confined（形容詞）— 狭く囲まれた、限られた。単なる過去分詞としての受動用法と、confined space のような形容詞用法がある。  
-・confining（現在分詞）— confine の -ing 形。  
+・confining（形容詞・現在分詞）— 現在分詞のほか、自由な動きや行動を制限して窮屈に感じさせるものを表す形容詞として使う。  
 ・unconfined（形容詞）— 閉じ込められていない、境界内に制限されていない。  
 
 ＃コアイメージ
 
-人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined ではその結果の状態や窮屈さを、名詞では境界そのものを表す。  
+人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined では制限された結果の状態を、confining では自由や行動を制限する性質を、名詞では境界または境界に囲まれた領域を表す。  
 
 ・対象の範囲を一定の境界内にとどめる → 「～を…に限る、限定する」（語義1）  
-・人や動物を一定の場所から出られなくする → 「閉じ込める、拘束する」（語義2）  
+・人・動物・物質などを一定の場所や区域から出ないようにする → 「閉じ込める、拘束する」（語義2）  
 ・病気やけがで生活場所を狭い範囲にとどめる → 「～を寝床・自宅などにとどめる」（語義3）  
 ・空間や区域が狭い境界内に収まった状態 → 「狭く囲まれた、限られた」（語義4）  
-・内外を分けて範囲を画する境界 → 「境界、範囲、領域」（語義5）  
+・物や環境が人の自由や行動を制限する性質 → 「窮屈な、自由を制限する」（語義5）  
+・内外を分けて範囲を画する境界 → 「境界、範囲、領域」（語義6）  
 
 ＃意味・用法・関連表現
 
 1. 【他動詞】～を…に限る、限定する
 
-【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ範囲を、特定の対象・場所・期間・分野などの内側に限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。  
+【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ抽象的な範囲を、特定の対象、期間、分野などに限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。  
 
 【頻度】〈8/10〉  
 
 【レジスター/領域】一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。  
 
-【文法パターン】confine something to 〈範囲・場所・期間・活動〉＝何かを～の範囲内に限る／confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする／be confined to 〈範囲・場所・集団〉＝～に限られている／confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る  
+【文法パターン】confine 〈話題・活動・影響・検討〉 to 〈対象・期間・分野・範囲〉＝話題などを～の範囲内に限る／confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする／〈問題・特徴・現象〉 be confined to 〈地域・集団・期間〉＝問題などが～だけに限られている／confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る  
 
 【コロケーション】
 
@@ -69,12 +70,7 @@ tags: []
 例: The shortage is not confined to rural areas.  
 訳: その不足は農村部だけに限られた問題ではない。  
 
-・confine 〈物質・作用〉 to 〈区域・装置〉  
-用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。  
-例: The magnetic field confines the plasma to the center of the chamber.  
-訳: その磁場はプラズマを容器の中心部に閉じ込める。  
-
-【語法・注意】基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ物理的に閉じ込める語義2では confine someone in a cell のように in も使う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。  
+【語法・注意】基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ人・動物・物質などを物理的に閉じ込める用法は語義2で扱う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。  
 
 【類義語】
 
@@ -115,15 +111,15 @@ tags: []
 例: The program was extended to smaller communities.  
 訳: その制度はより小さな地域にも拡大された。  
 
-2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する
+2. 【他動詞・通常受動】人・動物・物質などを閉じ込める、拘束する
 
-【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。  
+【日本語訳・定義】人や動物を部屋、施設、囲い、刑務所などから出られないようにする。また、物質、熱、火、プラズマなどが物理的な境界の外へ移動・拡散しないように保つ。物理的な障壁、命令、拘禁、装置の作用などによる移動の制限を表す。  
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理の文脈でよく使われる。  
+【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理のほか、物質やエネルギーを一定領域内に保つ科学・技術の説明でも使われる。  
 
-【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／be confined to quarters＝兵舎・自室待機を命じられている  
+【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/something within 〈境界・区域〉＝人・動物・物を～の境界内にとどめる／confine someone/something to 〈場所・区域〉＝人・動物・物を～から出ないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／someone/something be confined within 〈境界・区域〉＝人・動物・物が～の境界内に閉じ込められている／be confined to quarters＝兵舎・自室待機を命じられている  
 
 【コロケーション】
 
@@ -137,6 +133,16 @@ tags: []
 例: The injured bird was temporarily confined to a large enclosure.  
 訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。  
 
+・confine 〈人・動物・物〉 within 〈境界・区域〉  
+用途: 明示された境界や区域の内側から人・動物・物が出ないようにする。  
+例: The barrier confines the cattle within a designated area.  
+訳: その柵は牛を指定区域内にとどめている。  
+
+・confine 〈物質・作用〉 to 〈区域・装置〉  
+用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。  
+例: The magnetic field confines the plasma to the center of the chamber.  
+訳: その磁場はプラズマを容器の中心部に閉じ込める。  
+
 ・keep 〈人・動物〉 confined  
 用途: 人や動物を外へ出られない状態に保つ。  
 例: The order kept the soldiers confined to their barracks overnight.  
@@ -147,7 +153,7 @@ tags: []
 例: He was confined to quarters for disobeying the order.  
 訳: 彼は命令に従わなかったため、兵舎待機を命じられた。  
 
-【語法・注意】この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。  
+【語法・注意】この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。within は壁・境界・区域の内側に収めることを明示し、confine A within B と A be confined within B の両方で使える。人・動物では外へ出る自由の制限に焦点があり、物質や作用では境界外への移動・拡散を防ぐことに焦点がある。  
 
 【類義語】
 
@@ -246,7 +252,7 @@ tags: []
 
 【レジスター/領域】一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。  
 
-【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で／feel confined＝閉じ込められたように感じる  
+【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で  
 
 【コロケーション】
 
@@ -311,7 +317,66 @@ tags: []
 例: We moved the meeting to an open area outside.  
 訳: 私たちは会議を屋外の開けた場所に移した。  
 
-5. 【名詞・通常複数・格式／文学的】境界、範囲、領域
+5. 【現在分詞由来の形容詞 confining】窮屈な、自由を制限する
+
+【日本語訳・定義】環境、規則、衣服、生活様式などが、人の自由な動き、行動、選択を制限し、窮屈さや圧迫感を感じさせることを表す。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】一般語。物理的な動きの制限にも、環境や生活による心理的・社会的な制約にも使う。  
+
+【文法パターン】a confining 〈environment/space/routine〉＝自由を制限する環境・空間・生活／confining 〈clothes/footwear〉＝動きにくい窮屈な衣服・履物／find 〈場所・生活〉 confining＝場所・生活を窮屈だと感じる  
+
+【コロケーション】
+
+・confine の形容詞形 confining: a confining environment  
+用途: 行動や選択の自由が制限され、窮屈に感じられる環境を表す。  
+例: A confining environment can reduce employees' sense of autonomy.  
+訳: 自由を制限する環境は、従業員の自律性の感覚を弱めることがある。  
+
+・confine の形容詞形 confining: confining clothes  
+用途: 体の動きを制限する窮屈な衣服を表す。  
+例: He changed out of his confining formal clothes after the ceremony.  
+訳: 彼は式の後、動きにくい礼服から着替えた。  
+
+・confine の形容詞形 confining: a confining routine  
+用途: 行動や生活の選択肢を狭める決まり切った生活を表す。  
+例: A confining routine left him little time to explore new interests.  
+訳: 自由を制限する決まり切った生活のため、彼には新しい関心事を探る時間がほとんどなかった。  
+
+・confine の形容詞形 confining: find 〈場所・生活〉 confining  
+用途: 場所や生活環境が自分の自由を制限して窮屈だと感じることを表す。  
+例: She found the highly regulated workplace confining.  
+訳: 彼女は規則の多いその職場を窮屈だと感じた。  
+
+【語法・注意】confined は「制限された側の状態」を、confining は「人の自由や動きを制限する側の性質」を表す。したがって a confined space は「狭く囲まれた空間」、a confining space は「人を窮屈に感じさせる空間」という焦点の違いがある。confining は動詞 confine の進行形・分詞として使われる場合もあるため、文中で名詞の性質を表しているか、動作を表しているかを文脈で判断する。  
+
+【類義語】
+
+・restrictive  
+定義: 行動、選択、利用などに制限を課す。  
+頻度: 〈6/10〉  
+違い: restrictive は規則や条件による制限にも広く使う。confining は制限による窮屈さや閉塞感を含みやすい。  
+例: The new dress code is unnecessarily restrictive.  
+訳: 新しい服装規定は不必要に制限が厳しい。  
+
+・oppressive  
+定義: 強い支配や圧力によって人を苦しめる、息苦しい。  
+頻度: 〈6/10〉  
+違い: oppressive は苦痛や不当な抑圧を強く示す。confining は自由や行動範囲が狭められることに焦点がある。  
+例: Employees complained about the oppressive working conditions.  
+訳: 従業員は抑圧的な労働環境に不満を訴えた。  
+
+【反意語】
+
+・liberating  
+定義: 制約から解放し、自由になったと感じさせる。  
+頻度: 〈5/10〉  
+違い: 自由や選択を狭める confining に対し、liberating は制約を取り除いて自由を感じさせる。  
+例: She found the move to a new city liberating.  
+訳: 彼女は新しい都市への引っ越しを解放的だと感じた。  
+
+6. 【名詞・通常複数・格式／文学的】境界、範囲、領域
 
 【日本語訳・定義】通常 confines の形で、場所・組織・分野などの外縁をなす境界、またはその境界に囲まれた内部の領域を表す。  
 

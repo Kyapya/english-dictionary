@@ -196,6 +196,18 @@ class EvidenceContextTests(unittest.TestCase):
         handoff_evidence = next(row for row in handoff if row["pass_id"] == "evidence")
         self.assertEqual(api_evidence, handoff_evidence)
         self.assertIn("evidence_context", api_evidence)
+        expected_source_hash = check_passes._digest_json(
+            self.inventory["source_first_audit"]
+        )
+        for request in api:
+            self.assertEqual(
+                request.get("source_artifact_sha256"), expected_source_hash
+            )
+            self.assertIn("specification_sha256", request)
+            self.assertIn("normalized_input_sha256", request)
+            self.assertEqual(
+                check_passes.validate_request_integrity(request, repo_root=ROOT), []
+            )
 
     def test_evidence_context_fails_closed_for_missing_incomplete_or_stale_inventory(self) -> None:
         with self.assertRaisesRegex(ValueError, "source-first artifact is required"):

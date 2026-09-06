@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-recheck-sense"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "・confining（現在分詞）— confine の -ing 形。  "
+      },
+      "severity": "blocking",
+      "rationale": "confining には単なる進行形・動名詞を作る -ing 形だけでなく、「自由・活動・動きを制限する、窮屈な」という現在分詞由来の形容詞用法がある。対応する confined の形容詞用法は語義4として独立している一方、この能動的・制限的な評価を表す主要な品詞転換には収録先がなく、語形成欄でも現在分詞とだけ処理されているため、派生形を含む語義棚卸しが不完全である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "confining の形容詞用法を独立候補として頻度と学習価値を確認し、主要用法と判断できる場合は「制限的な、窮屈な」などの番号付き語義を追加する。少なくとも語形成欄では現在分詞用法と形容詞用法を区別する。"
+    }
+  ]
+}

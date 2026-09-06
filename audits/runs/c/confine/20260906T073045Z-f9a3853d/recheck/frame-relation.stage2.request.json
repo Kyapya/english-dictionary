@@ -1,0 +1,1837 @@
+{
+  "schema_version": "antonym_axis_adjudication_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+  "blind_request_sha256": "9e6db0c57a0bde27379009516a2f7b33a482b56998738f9108e89de26be4bf9c",
+  "blind_record_sha256": "1a80e3a7e58dea989c9121156cdede7e77ef8c24bdb83a45cee9acafa429e1a2",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "line": 40,
+        "text": "1. 【他動詞】～を…に限る、限定する"
+      },
+      {
+        "line": 42,
+        "text": "【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ範囲を、特定の対象・場所・期間・分野などの内側に限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する"
+      },
+      {
+        "line": 120,
+        "text": "【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。  "
+      },
+      {
+        "line": 184,
+        "text": "3. 【他動詞・通常受動】～を寝床・自宅などにとどめる"
+      },
+      {
+        "line": 186,
+        "text": "【日本語訳・定義】病気、けが、身体状態などが原因で、人がベッド、自宅、病室など限られた場所から動けない、または外出できない状態にする。原因を主語にする能動文と、本人を主語にした be confined to の形がある。  "
+      },
+      {
+        "line": 241,
+        "text": "4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+      },
+      {
+        "line": 243,
+        "text": "【日本語訳・定義】confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。  "
+      },
+      {
+        "line": 314,
+        "text": "5. 【名詞・通常複数・格式／文学的】境界、範囲、領域"
+      },
+      {
+        "line": 316,
+        "text": "【日本語訳・定義】通常 confines の形で、場所・組織・分野などの外縁をなす境界、またはその境界に囲まれた内部の領域を表す。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 40,
+        "text": "1. 【他動詞】～を…に限る、限定する"
+      },
+      {
+        "line": 48,
+        "text": "【文法パターン】confine something to 〈範囲・場所・期間・活動〉＝何かを～の範囲内に限る／confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする／be confined to 〈範囲・場所・集団〉＝～に限られている／confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する"
+      },
+      {
+        "line": 126,
+        "text": "【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／be confined to quarters＝兵舎・自室待機を命じられている  "
+      },
+      {
+        "line": 184,
+        "text": "3. 【他動詞・通常受動】～を寝床・自宅などにとどめる"
+      },
+      {
+        "line": 192,
+        "text": "【文法パターン】〈病気・けが・身体状態〉 confine someone to 〈bed/home/a room〉＝病気などが人を～から動けない状態にする／someone be confined to bed/home＝人が病気などで寝床・自宅から動けない／someone be confined to bed with 〈病気〉＝病気により寝床にとどまっている  "
+      },
+      {
+        "line": 241,
+        "text": "4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+      },
+      {
+        "line": 249,
+        "text": "【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で／feel confined＝閉じ込められたように感じる  "
+      },
+      {
+        "line": 314,
+        "text": "5. 【名詞・通常複数・格式／文学的】境界、範囲、領域"
+      },
+      {
+        "line": 322,
+        "text": "【文法パターン】within the confines of 〈場所・制度・分野〉＝～の範囲内で／beyond the confines of 〈場所・制度・分野〉＝～の境界を越えて／outside the confines of 〈場所・制度・分野〉＝～の範囲外で／the narrow confines of 〈場所・枠組み〉＝～という狭い範囲  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 40,
+        "text": "1. 【他動詞】～を…に限る、限定する"
+      },
+      {
+        "line": 50,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 52,
+        "text": "・confine the discussion to 〈話題〉  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 議論で扱う範囲を特定の話題に限定する。  "
+      },
+      {
+        "line": 54,
+        "text": "例: Please confine the discussion to the issues on today's agenda.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: 議論は本日の議題にある問題だけに絞ってください。  "
+      },
+      {
+        "line": 57,
+        "text": "・confine one's remarks to 〈対象〉  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 発言する内容を特定の対象に限る。  "
+      },
+      {
+        "line": 59,
+        "text": "例: She confined her remarks to the financial risks of the proposal.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 彼女は発言をその提案の財務上のリスクに限定した。  "
+      },
+      {
+        "line": 62,
+        "text": "・confine oneself to 〈名詞・doing〉  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 自分が扱う話題や行う活動を意識的に一つの範囲へ絞る。  "
+      },
+      {
+        "line": 64,
+        "text": "例: In this chapter, I will confine myself to examining the short-term effects.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: この章では、短期的な影響の検討だけに対象を絞る。  "
+      },
+      {
+        "line": 67,
+        "text": "・be confined to 〈場所・集団〉  "
+      },
+      {
+        "line": 68,
+        "text": "用途: 問題、特徴、現象などが特定の場所や集団だけに見られることを表す。  "
+      },
+      {
+        "line": 69,
+        "text": "例: The shortage is not confined to rural areas.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: その不足は農村部だけに限られた問題ではない。  "
+      },
+      {
+        "line": 72,
+        "text": "・confine 〈物質・作用〉 to 〈区域・装置〉  "
+      },
+      {
+        "line": 73,
+        "text": "用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。  "
+      },
+      {
+        "line": 74,
+        "text": "例: The magnetic field confines the plasma to the center of the chamber.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: その磁場はプラズマを容器の中心部に閉じ込める。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する"
+      },
+      {
+        "line": 128,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 130,
+        "text": "・confine someone in a cell  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 人を独房などの閉鎖された空間から出られないようにする。  "
+      },
+      {
+        "line": 132,
+        "text": "例: The prisoner was confined in a windowless cell for several days.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: その囚人は数日間、窓のない独房に拘禁された。  "
+      },
+      {
+        "line": 135,
+        "text": "・confine an animal to 〈囲い・ケージ〉  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 動物が指定された囲いの外へ出ないようにする。  "
+      },
+      {
+        "line": 137,
+        "text": "例: The injured bird was temporarily confined to a large enclosure.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。  "
+      },
+      {
+        "line": 140,
+        "text": "・keep 〈人・動物〉 confined  "
+      },
+      {
+        "line": 141,
+        "text": "用途: 人や動物を外へ出られない状態に保つ。  "
+      },
+      {
+        "line": 142,
+        "text": "例: The order kept the soldiers confined to their barracks overnight.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: その命令により兵士たちは一晩、兵舎から出られなかった。  "
+      },
+      {
+        "line": 145,
+        "text": "・be confined to quarters  "
+      },
+      {
+        "line": 146,
+        "text": "用途: 軍人などが処罰・命令により兵舎や指定場所から出ないよう命じられた状態を表す。  "
+      },
+      {
+        "line": 147,
+        "text": "例: He was confined to quarters for disobeying the order.  "
+      },
+      {
+        "line": 148,
+        "text": "訳: 彼は命令に従わなかったため、兵舎待機を命じられた。  "
+      },
+      {
+        "line": 184,
+        "text": "3. 【他動詞・通常受動】～を寝床・自宅などにとどめる"
+      },
+      {
+        "line": 194,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 196,
+        "text": "・be confined to bed  "
+      },
+      {
+        "line": 197,
+        "text": "用途: 病気やけがのため起きて普段どおり活動できず、寝床にとどまる。  "
+      },
+      {
+        "line": 198,
+        "text": "例: She was confined to bed for a week with a severe infection.  "
+      },
+      {
+        "line": 199,
+        "text": "訳: 彼女は重い感染症のため1週間、寝床から起きられなかった。  "
+      },
+      {
+        "line": 201,
+        "text": "・be confined to one's home  "
+      },
+      {
+        "line": 202,
+        "text": "用途: 健康上の理由などで外出できず、自宅にとどまる。  "
+      },
+      {
+        "line": 203,
+        "text": "例: After the operation, he was confined to his home for several days.  "
+      },
+      {
+        "line": 204,
+        "text": "訳: 手術後、彼は数日間、自宅から出られなかった。  "
+      },
+      {
+        "line": 206,
+        "text": "・〈病気・けが〉 confine someone to 〈場所〉  "
+      },
+      {
+        "line": 207,
+        "text": "用途: 病気やけがを原因として、人の行動範囲が特定の場所に限られることを表す。  "
+      },
+      {
+        "line": 208,
+        "text": "例: A knee injury confined her to the apartment for most of the winter.  "
+      },
+      {
+        "line": 209,
+        "text": "訳: 膝のけがのため、彼女は冬の大半をアパートから出られずに過ごした。  "
+      },
+      {
+        "line": 211,
+        "text": "・be temporarily confined to 〈場所〉  "
+      },
+      {
+        "line": 212,
+        "text": "用途: 限られた期間だけ、健康上の理由で一定の場所にとどまることを表す。  "
+      },
+      {
+        "line": 213,
+        "text": "例: He is temporarily confined to his room by complications from the operation.  "
+      },
+      {
+        "line": 214,
+        "text": "訳: 彼は手術の合併症のため、一時的に自室から出られない状態にある。  "
+      },
+      {
+        "line": 241,
+        "text": "4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+      },
+      {
+        "line": 251,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 253,
+        "text": "・a confined space  "
+      },
+      {
+        "line": 254,
+        "text": "用途: 壁や境界に囲まれ、動きや出入りが制限されやすい空間を表す。  "
+      },
+      {
+        "line": 255,
+        "text": "例: The machine should not be operated in a confined space without adequate ventilation.  "
+      },
+      {
+        "line": 256,
+        "text": "訳: その機械は、十分な換気のない閉鎖空間で作動させるべきではない。  "
+      },
+      {
+        "line": 258,
+        "text": "・in confined quarters  "
+      },
+      {
+        "line": 259,
+        "text": "用途: 人が動ける余地の少ない狭い居住・作業場所にいることを表す。  "
+      },
+      {
+        "line": 260,
+        "text": "例: The crew lived in confined quarters during the voyage.  "
+      },
+      {
+        "line": 261,
+        "text": "訳: 乗組員は航海中、狭い居住区で暮らした。  "
+      },
+      {
+        "line": 263,
+        "text": "・work in confined conditions  "
+      },
+      {
+        "line": 264,
+        "text": "用途: 動作や移動の余地が限られた環境で作業する。  "
+      },
+      {
+        "line": 265,
+        "text": "例: The technicians had to work in confined conditions beneath the stage.  "
+      },
+      {
+        "line": 266,
+        "text": "訳: 技術者たちは舞台の下の狭い環境で作業しなければならなかった。  "
+      },
+      {
+        "line": 268,
+        "text": "・a confined interior  "
+      },
+      {
+        "line": 269,
+        "text": "用途: 内部が囲まれて狭く、動ける余地が少ないことを表す。  "
+      },
+      {
+        "line": 270,
+        "text": "例: The vehicle has a confined interior with little room to move.  "
+      },
+      {
+        "line": 271,
+        "text": "訳: その車両の内部は狭く、動ける余地がほとんどない。  "
+      },
+      {
+        "line": 314,
+        "text": "5. 【名詞・通常複数・格式／文学的】境界、範囲、領域"
+      },
+      {
+        "line": 324,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 326,
+        "text": "・within the confines of 〈場所・制度〉  "
+      },
+      {
+        "line": 327,
+        "text": "用途: 物理的または制度的な境界の内側にあることを表す。  "
+      },
+      {
+        "line": 328,
+        "text": "例: The negotiations took place within the confines of the embassy.  "
+      },
+      {
+        "line": 329,
+        "text": "訳: 交渉は大使館の敷地内で行われた。  "
+      },
+      {
+        "line": 331,
+        "text": "・beyond the confines of 〈場所・分野〉  "
+      },
+      {
+        "line": 332,
+        "text": "用途: 場所や分野の既存の境界を越えて及ぶことを表す。  "
+      },
+      {
+        "line": 333,
+        "text": "例: Her influence extended far beyond the confines of the university.  "
+      },
+      {
+        "line": 334,
+        "text": "訳: 彼女の影響力は大学の枠をはるかに越えて広がった。  "
+      },
+      {
+        "line": 336,
+        "text": "・outside the confines of 〈制度・枠組み〉  "
+      },
+      {
+        "line": 337,
+        "text": "用途: 制度や枠組みが定める範囲の外側にあることを表す。  "
+      },
+      {
+        "line": 338,
+        "text": "例: The group continued its work outside the confines of the formal organization.  "
+      },
+      {
+        "line": 339,
+        "text": "訳: そのグループは正式な組織の枠外でも活動を続けた。  "
+      },
+      {
+        "line": 341,
+        "text": "・the narrow confines of 〈場所・枠組み〉  "
+      },
+      {
+        "line": 342,
+        "text": "用途: 物理的・抽象的な範囲が狭く、制約的であることを強調する。  "
+      },
+      {
+        "line": 343,
+        "text": "例: The story moves beyond the narrow confines of a family dispute.  "
+      },
+      {
+        "line": 344,
+        "text": "訳: その物語は家族間の争いという狭い枠を越えて展開する。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 40,
+        "text": "1. 【他動詞】～を…に限る、限定する"
+      },
+      {
+        "line": 79,
+        "text": "【類義語】"
+      },
+      {
+        "line": 81,
+        "text": "・limit  "
+      },
+      {
+        "line": 82,
+        "text": "定義: 数量、範囲、程度、時間などに限度を設ける。  "
+      },
+      {
+        "line": 83,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 84,
+        "text": "違い: limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。  "
+      },
+      {
+        "line": 85,
+        "text": "例: The policy limits each application to two pages.  "
+      },
+      {
+        "line": 86,
+        "text": "訳: その方針では各申請書を2ページまでに制限している。  "
+      },
+      {
+        "line": 88,
+        "text": "・restrict  "
+      },
+      {
+        "line": 89,
+        "text": "定義: 規則、条件、権限などによって範囲や自由を制限する。  "
+      },
+      {
+        "line": 90,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 91,
+        "text": "違い: restrict は許可・利用・行動への制約を広く表す。confine A to B は、AがBの外へ及ばないという境界を特に示す。  "
+      },
+      {
+        "line": 92,
+        "text": "例: Access is restricted to authorized staff.  "
+      },
+      {
+        "line": 93,
+        "text": "訳: 立ち入りは権限のある職員に制限されている。  "
+      },
+      {
+        "line": 95,
+        "text": "・circumscribe  "
+      },
+      {
+        "line": 96,
+        "text": "定義: 活動、権限、可能性などの範囲を狭く限定する。  "
+      },
+      {
+        "line": 97,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 98,
+        "text": "違い: circumscribe は非常に硬い語で、抽象的な権限・選択肢・行動範囲が制約される文脈に多い。confine の方が一般的で、具体的な場所にも使える。  "
+      },
+      {
+        "line": 99,
+        "text": "例: The constitution circumscribes the powers of the executive.  "
+      },
+      {
+        "line": 100,
+        "text": "訳: 憲法は行政府の権限の範囲を限定している。  "
+      },
+      {
+        "line": 102,
+        "text": "【反意語】"
+      },
+      {
+        "line": 104,
+        "text": "・broaden  "
+      },
+      {
+        "line": 105,
+        "text": "定義: 話題、活動、対象などの範囲を広げる。  "
+      },
+      {
+        "line": 106,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 107,
+        "text": "違い: 範囲を狭く限定する confine と、同じ範囲軸上で外側へ広げる方向の対立をなす。  "
+      },
+      {
+        "line": 108,
+        "text": "例: The committee broadened the inquiry to include safety concerns.  "
+      },
+      {
+        "line": 109,
+        "text": "訳: 委員会は安全上の懸念も含めるよう調査範囲を広げた。  "
+      },
+      {
+        "line": 111,
+        "text": "・extend  "
+      },
+      {
+        "line": 112,
+        "text": "定義: 対象となる範囲、期間、適用先などをさらに先まで広げる。  "
+      },
+      {
+        "line": 113,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 114,
+        "text": "違い: confine A to B がAの到達範囲をB内に止めるのに対し、extend A to B はAの到達範囲をBまで広げる。  "
+      },
+      {
+        "line": 115,
+        "text": "例: The program was extended to smaller communities.  "
+      },
+      {
+        "line": 116,
+        "text": "訳: その制度はより小さな地域にも拡大された。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する"
+      },
+      {
+        "line": 152,
+        "text": "【類義語】"
+      },
+      {
+        "line": 154,
+        "text": "・imprison  "
+      },
+      {
+        "line": 155,
+        "text": "定義: 人を刑務所などに入れて自由を奪う。  "
+      },
+      {
+        "line": 156,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 157,
+        "text": "違い: imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。  "
+      },
+      {
+        "line": 158,
+        "text": "例: The regime imprisoned several opposition leaders.  "
+      },
+      {
+        "line": 159,
+        "text": "訳: その政権は複数の反対派指導者を投獄した。  "
+      },
+      {
+        "line": 161,
+        "text": "・detain  "
+      },
+      {
+        "line": 162,
+        "text": "定義: 当局などが人を一定時間引き留め、立ち去れないようにする。  "
+      },
+      {
+        "line": 163,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 164,
+        "text": "違い: detain は一時的な身柄拘束や事情聴取のための留置に焦点がある。confine は場所の境界内に置かれる状態を強く示す。  "
+      },
+      {
+        "line": 165,
+        "text": "例: Police detained the suspect for questioning.  "
+      },
+      {
+        "line": 166,
+        "text": "訳: 警察は事情聴取のため容疑者を拘束した。  "
+      },
+      {
+        "line": 168,
+        "text": "【反意語】"
+      },
+      {
+        "line": 170,
+        "text": "・release  "
+      },
+      {
+        "line": 171,
+        "text": "定義: 拘束・収容されている人や動物を自由にする。  "
+      },
+      {
+        "line": 172,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 173,
+        "text": "違い: 閉鎖場所内にとどめる confine に対し、そこから出ることを許す方向の対立をなす。  "
+      },
+      {
+        "line": 174,
+        "text": "例: The authorities released the detainees the next morning.  "
+      },
+      {
+        "line": 175,
+        "text": "訳: 当局は翌朝、被拘束者たちを解放した。  "
+      },
+      {
+        "line": 177,
+        "text": "・free  "
+      },
+      {
+        "line": 178,
+        "text": "定義: 束縛、監禁、拘束などから自由にする。  "
+      },
+      {
+        "line": 179,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 180,
+        "text": "違い: confine が移動の自由を奪うのに対し、free はその拘束自体を取り除く。release より広く、物理的・制度的・比喩的拘束に使える。  "
+      },
+      {
+        "line": 181,
+        "text": "例: The rescue team freed the animals from the locked shed.  "
+      },
+      {
+        "line": 182,
+        "text": "訳: 救助隊は鍵のかかった小屋から動物たちを解放した。  "
+      },
+      {
+        "line": 184,
+        "text": "3. 【他動詞・通常受動】～を寝床・自宅などにとどめる"
+      },
+      {
+        "line": 218,
+        "text": "【類義語】"
+      },
+      {
+        "line": 220,
+        "text": "・be bedridden  "
+      },
+      {
+        "line": 221,
+        "text": "定義: 病気、けが、高齢などで寝床から離れられない状態にある。  "
+      },
+      {
+        "line": 222,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 223,
+        "text": "違い: be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。  "
+      },
+      {
+        "line": 224,
+        "text": "例: He was bedridden for months after the stroke.  "
+      },
+      {
+        "line": 225,
+        "text": "訳: 彼は脳卒中の後、何か月も寝たきりだった。  "
+      },
+      {
+        "line": 227,
+        "text": "・be housebound  "
+      },
+      {
+        "line": 228,
+        "text": "定義: 身体状態などのため自宅から外出することが難しい。  "
+      },
+      {
+        "line": 229,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 230,
+        "text": "違い: be housebound は自宅の外へ出にくい状態そのものを表す。be confined to one's home は原因によって行動範囲が自宅内に限られたことを描く。  "
+      },
+      {
+        "line": 231,
+        "text": "例: The service delivers meals to older people who are housebound.  "
+      },
+      {
+        "line": 232,
+        "text": "訳: そのサービスは外出困難な高齢者に食事を届ける。  "
+      },
+      {
+        "line": 234,
+        "text": "・be restricted to 〈場所・活動〉  "
+      },
+      {
+        "line": 235,
+        "text": "定義: 許可や身体状態などにより、場所・活動の範囲が限られている。  "
+      },
+      {
+        "line": 236,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 237,
+        "text": "違い: be restricted to は原因を問わない中立的な制限表現である。be confined to は移動できない、または外へ出られないという強い制約を示しやすい。  "
+      },
+      {
+        "line": 238,
+        "text": "例: During recovery, she was restricted to light indoor activities.  "
+      },
+      {
+        "line": 239,
+        "text": "訳: 回復中、彼女の活動は屋内での軽いものに限られた。  "
+      },
+      {
+        "line": 241,
+        "text": "4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+      },
+      {
+        "line": 275,
+        "text": "【類義語】"
+      },
+      {
+        "line": 277,
+        "text": "・enclosed  "
+      },
+      {
+        "line": 278,
+        "text": "定義: 壁、柵、覆いなどによって周囲を囲まれた。  "
+      },
+      {
+        "line": 279,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 280,
+        "text": "違い: enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。  "
+      },
+      {
+        "line": 281,
+        "text": "例: The garden is surrounded by an enclosed walkway.  "
+      },
+      {
+        "line": 282,
+        "text": "訳: その庭は囲われた通路に取り囲まれている。  "
+      },
+      {
+        "line": 284,
+        "text": "・cramped  "
+      },
+      {
+        "line": 285,
+        "text": "定義: 人や物に対して利用できる空間が足りず、窮屈な。  "
+      },
+      {
+        "line": 286,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 287,
+        "text": "違い: cramped は狭さによる不快さを直接強調する。confined は境界に囲まれ、動きが制限される構造に焦点がある。  "
+      },
+      {
+        "line": 288,
+        "text": "例: Four people shared a cramped cabin.  "
+      },
+      {
+        "line": 289,
+        "text": "訳: 4人が窮屈な船室を共有した。  "
+      },
+      {
+        "line": 291,
+        "text": "・restricted  "
+      },
+      {
+        "line": 292,
+        "text": "定義: 利用、移動、範囲などが制限された。  "
+      },
+      {
+        "line": 293,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 294,
+        "text": "違い: restricted は規則や条件による抽象的制限にも広く使う。confined は特に空間的な閉鎖性を示しやすい。  "
+      },
+      {
+        "line": 295,
+        "text": "例: The equipment operates in a restricted area.  "
+      },
+      {
+        "line": 296,
+        "text": "訳: その装置は立ち入り制限区域で稼働している。  "
+      },
+      {
+        "line": 298,
+        "text": "【反意語】"
+      },
+      {
+        "line": 300,
+        "text": "・spacious  "
+      },
+      {
+        "line": 301,
+        "text": "定義: 人や物がゆったり動ける十分な空間がある。  "
+      },
+      {
+        "line": 302,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 303,
+        "text": "違い: 動ける余地が少ない confined と、空間に十分な余裕がある spacious は広さ・窮屈さの軸で対立する。  "
+      },
+      {
+        "line": 304,
+        "text": "例: The new cabin is bright and spacious.  "
+      },
+      {
+        "line": 305,
+        "text": "訳: 新しい船室は明るく広々としている。  "
+      },
+      {
+        "line": 307,
+        "text": "・open  "
+      },
+      {
+        "line": 308,
+        "text": "定義: 閉鎖されず、周囲や上部が広く開けている。  "
+      },
+      {
+        "line": 309,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 310,
+        "text": "違い: 境界に囲まれた confined に対し、open は閉鎖性が少なく外へ開かれた状態を表す。文脈によっては広さではなく出入り可能性の対立になる。  "
+      },
+      {
+        "line": 311,
+        "text": "例: We moved the meeting to an open area outside.  "
+      },
+      {
+        "line": 312,
+        "text": "訳: 私たちは会議を屋外の開けた場所に移した。  "
+      },
+      {
+        "line": 314,
+        "text": "5. 【名詞・通常複数・格式／文学的】境界、範囲、領域"
+      },
+      {
+        "line": 348,
+        "text": "【類義語】"
+      },
+      {
+        "line": 350,
+        "text": "・bounds  "
+      },
+      {
+        "line": 351,
+        "text": "定義: 許容範囲、領域、行動などの境界・限界。  "
+      },
+      {
+        "line": 352,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 353,
+        "text": "違い: bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。  "
+      },
+      {
+        "line": 354,
+        "text": "例: The proposal falls outside the bounds of the agreement.  "
+      },
+      {
+        "line": 355,
+        "text": "訳: その提案は合意の範囲外である。  "
+      },
+      {
+        "line": 357,
+        "text": "・limits  "
+      },
+      {
+        "line": 358,
+        "text": "定義: 範囲、能力、権限などがそれ以上及ばない境界。  "
+      },
+      {
+        "line": 359,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 360,
+        "text": "違い: limits は最も一般的で、数量的な上限にも使える。confines は場所・制度・分野を囲む境界や領域を表す格式的な語である。  "
+      },
+      {
+        "line": 361,
+        "text": "例: The plan remains within the limits of the current budget.  "
+      },
+      {
+        "line": 362,
+        "text": "訳: その計画は現在の予算の範囲内に収まっている。  "
+      },
+      {
+        "line": 364,
+        "text": "・boundaries  "
+      },
+      {
+        "line": 365,
+        "text": "定義: 場所、分野、関係などを内外に分ける境界。  "
+      },
+      {
+        "line": 366,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 367,
+        "text": "違い: boundaries は境界線や区分そのものに焦点がある。confines はその線で囲まれた範囲を含めて指すことがある。  "
+      },
+      {
+        "line": 368,
+        "text": "例: The research crosses traditional disciplinary boundaries.  "
+      },
+      {
+        "line": 369,
+        "text": "訳: その研究は従来の学問分野の境界を越えている。  "
+      }
+    ],
+    "antonym_axis_items": [
+      {
+        "item_id": "ant-4d40928a7b3f",
+        "stage1_axis": {
+          "item_id": "ant-4d40928a7b3f",
+          "axis": "範囲",
+          "relation_type": "方向",
+          "reason": ""
+        },
+        "sense_id": "sense:001",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 104,
+          "line_end": 104,
+          "exact_quote": "・broaden  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 107,
+          "line_end": 107,
+          "exact_quote": "違い: 範囲を狭く限定する confine と、同じ範囲軸上で外側へ広げる方向の対立をなす。  "
+        }
+      },
+      {
+        "item_id": "ant-91e40fa85588",
+        "stage1_axis": {
+          "item_id": "ant-91e40fa85588",
+          "axis": "範囲",
+          "relation_type": "方向",
+          "reason": ""
+        },
+        "sense_id": "sense:001",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 111,
+          "line_end": 111,
+          "exact_quote": "・extend  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 114,
+          "line_end": 114,
+          "exact_quote": "違い: confine A to B がAの到達範囲をB内に止めるのに対し、extend A to B はAの到達範囲をBまで広げる。  "
+        }
+      },
+      {
+        "item_id": "ant-4326d783d82a",
+        "stage1_axis": {
+          "item_id": "ant-4326d783d82a",
+          "axis": "拘束",
+          "relation_type": "方向",
+          "reason": ""
+        },
+        "sense_id": "sense:002",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 170,
+          "line_end": 170,
+          "exact_quote": "・release  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 173,
+          "line_end": 173,
+          "exact_quote": "違い: 閉鎖場所内にとどめる confine に対し、そこから出ることを許す方向の対立をなす。  "
+        }
+      },
+      {
+        "item_id": "ant-6f80f8839e2a",
+        "stage1_axis": {
+          "item_id": "ant-6f80f8839e2a",
+          "axis": "拘束",
+          "relation_type": "方向",
+          "reason": ""
+        },
+        "sense_id": "sense:002",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 177,
+          "line_end": 177,
+          "exact_quote": "・free  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 180,
+          "line_end": 180,
+          "exact_quote": "違い: confine が移動の自由を奪うのに対し、free はその拘束自体を取り除く。release より広く、物理的・制度的・比喩的拘束に使える。  "
+        }
+      },
+      {
+        "item_id": "ant-1f641581b102",
+        "stage1_axis": {
+          "item_id": "ant-1f641581b102",
+          "axis": "広さ",
+          "relation_type": "程度",
+          "reason": ""
+        },
+        "sense_id": "sense:004",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 300,
+          "line_end": 300,
+          "exact_quote": "・spacious  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 303,
+          "line_end": 303,
+          "exact_quote": "違い: 動ける余地が少ない confined と、空間に十分な余裕がある spacious は広さ・窮屈さの軸で対立する。  "
+        }
+      },
+      {
+        "item_id": "ant-3ac7107a40f7",
+        "stage1_axis": {
+          "item_id": "ant-3ac7107a40f7",
+          "axis": "開放性",
+          "relation_type": "状態",
+          "reason": ""
+        },
+        "sense_id": "sense:004",
+        "anchor": {
+          "section": "lexical_relations",
+          "line_start": 307,
+          "line_end": 307,
+          "exact_quote": "・open  "
+        },
+        "difference_anchor": {
+          "section": "lexical_relations",
+          "line_start": 310,
+          "line_end": 310,
+          "exact_quote": "違い: 境界に囲まれた confined に対し、open は閉鎖性が少なく外へ開かれた状態を表す。文脈によっては広さではなく出入り可能性の対立になる。  "
+        }
+      }
+    ],
+    "antonym_axis_senses": [
+      {
+        "sense_id": "sense:001",
+        "full_sense": [
+          {
+            "line": 40,
+            "text": "1. 【他動詞】～を…に限る、限定する"
+          },
+          {
+            "line": 42,
+            "text": "【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ範囲を、特定の対象・場所・期間・分野などの内側に限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。  "
+          },
+          {
+            "line": 44,
+            "text": "【頻度】〈8/10〉  "
+          },
+          {
+            "line": 46,
+            "text": "【レジスター/領域】一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。  "
+          },
+          {
+            "line": 48,
+            "text": "【文法パターン】confine something to 〈範囲・場所・期間・活動〉＝何かを～の範囲内に限る／confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする／be confined to 〈範囲・場所・集団〉＝～に限られている／confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る  "
+          },
+          {
+            "line": 50,
+            "text": "【コロケーション】"
+          },
+          {
+            "line": 52,
+            "text": "・confine the discussion to 〈話題〉  "
+          },
+          {
+            "line": 53,
+            "text": "用途: 議論で扱う範囲を特定の話題に限定する。  "
+          },
+          {
+            "line": 54,
+            "text": "例: Please confine the discussion to the issues on today's agenda.  "
+          },
+          {
+            "line": 55,
+            "text": "訳: 議論は本日の議題にある問題だけに絞ってください。  "
+          },
+          {
+            "line": 57,
+            "text": "・confine one's remarks to 〈対象〉  "
+          },
+          {
+            "line": 58,
+            "text": "用途: 発言する内容を特定の対象に限る。  "
+          },
+          {
+            "line": 59,
+            "text": "例: She confined her remarks to the financial risks of the proposal.  "
+          },
+          {
+            "line": 60,
+            "text": "訳: 彼女は発言をその提案の財務上のリスクに限定した。  "
+          },
+          {
+            "line": 62,
+            "text": "・confine oneself to 〈名詞・doing〉  "
+          },
+          {
+            "line": 63,
+            "text": "用途: 自分が扱う話題や行う活動を意識的に一つの範囲へ絞る。  "
+          },
+          {
+            "line": 64,
+            "text": "例: In this chapter, I will confine myself to examining the short-term effects.  "
+          },
+          {
+            "line": 65,
+            "text": "訳: この章では、短期的な影響の検討だけに対象を絞る。  "
+          },
+          {
+            "line": 67,
+            "text": "・be confined to 〈場所・集団〉  "
+          },
+          {
+            "line": 68,
+            "text": "用途: 問題、特徴、現象などが特定の場所や集団だけに見られることを表す。  "
+          },
+          {
+            "line": 69,
+            "text": "例: The shortage is not confined to rural areas.  "
+          },
+          {
+            "line": 70,
+            "text": "訳: その不足は農村部だけに限られた問題ではない。  "
+          },
+          {
+            "line": 72,
+            "text": "・confine 〈物質・作用〉 to 〈区域・装置〉  "
+          },
+          {
+            "line": 73,
+            "text": "用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。  "
+          },
+          {
+            "line": 74,
+            "text": "例: The magnetic field confines the plasma to the center of the chamber.  "
+          },
+          {
+            "line": 75,
+            "text": "訳: その磁場はプラズマを容器の中心部に閉じ込める。  "
+          },
+          {
+            "line": 77,
+            "text": "【語法・注意】基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ物理的に閉じ込める語義2では confine someone in a cell のように in も使う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。  "
+          },
+          {
+            "line": 79,
+            "text": "【類義語】"
+          },
+          {
+            "line": 81,
+            "text": "・limit  "
+          },
+          {
+            "line": 82,
+            "text": "定義: 数量、範囲、程度、時間などに限度を設ける。  "
+          },
+          {
+            "line": 83,
+            "text": "頻度: 〈9/10〉  "
+          },
+          {
+            "line": 84,
+            "text": "違い: limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。  "
+          },
+          {
+            "line": 85,
+            "text": "例: The policy limits each application to two pages.  "
+          },
+          {
+            "line": 86,
+            "text": "訳: その方針では各申請書を2ページまでに制限している。  "
+          },
+          {
+            "line": 88,
+            "text": "・restrict  "
+          },
+          {
+            "line": 89,
+            "text": "定義: 規則、条件、権限などによって範囲や自由を制限する。  "
+          },
+          {
+            "line": 90,
+            "text": "頻度: 〈8/10〉  "
+          },
+          {
+            "line": 91,
+            "text": "違い: restrict は許可・利用・行動への制約を広く表す。confine A to B は、AがBの外へ及ばないという境界を特に示す。  "
+          },
+          {
+            "line": 92,
+            "text": "例: Access is restricted to authorized staff.  "
+          },
+          {
+            "line": 93,
+            "text": "訳: 立ち入りは権限のある職員に制限されている。  "
+          },
+          {
+            "line": 95,
+            "text": "・circumscribe  "
+          },
+          {
+            "line": 96,
+            "text": "定義: 活動、権限、可能性などの範囲を狭く限定する。  "
+          },
+          {
+            "line": 97,
+            "text": "頻度: 〈3/10〉  "
+          },
+          {
+            "line": 98,
+            "text": "違い: circumscribe は非常に硬い語で、抽象的な権限・選択肢・行動範囲が制約される文脈に多い。confine の方が一般的で、具体的な場所にも使える。  "
+          },
+          {
+            "line": 99,
+            "text": "例: The constitution circumscribes the powers of the executive.  "
+          },
+          {
+            "line": 100,
+            "text": "訳: 憲法は行政府の権限の範囲を限定している。  "
+          },
+          {
+            "line": 102,
+            "text": "【反意語】"
+          },
+          {
+            "line": 104,
+            "text": "・broaden  "
+          },
+          {
+            "line": 105,
+            "text": "定義: 話題、活動、対象などの範囲を広げる。  "
+          },
+          {
+            "line": 106,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 107,
+            "text": "違い: 範囲を狭く限定する confine と、同じ範囲軸上で外側へ広げる方向の対立をなす。  "
+          },
+          {
+            "line": 108,
+            "text": "例: The committee broadened the inquiry to include safety concerns.  "
+          },
+          {
+            "line": 109,
+            "text": "訳: 委員会は安全上の懸念も含めるよう調査範囲を広げた。  "
+          },
+          {
+            "line": 111,
+            "text": "・extend  "
+          },
+          {
+            "line": 112,
+            "text": "定義: 対象となる範囲、期間、適用先などをさらに先まで広げる。  "
+          },
+          {
+            "line": 113,
+            "text": "頻度: 〈8/10〉  "
+          },
+          {
+            "line": 114,
+            "text": "違い: confine A to B がAの到達範囲をB内に止めるのに対し、extend A to B はAの到達範囲をBまで広げる。  "
+          },
+          {
+            "line": 115,
+            "text": "例: The program was extended to smaller communities.  "
+          },
+          {
+            "line": 116,
+            "text": "訳: その制度はより小さな地域にも拡大された。  "
+          }
+        ]
+      },
+      {
+        "sense_id": "sense:002",
+        "full_sense": [
+          {
+            "line": 118,
+            "text": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する"
+          },
+          {
+            "line": 120,
+            "text": "【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。  "
+          },
+          {
+            "line": 122,
+            "text": "【頻度】〈7/10〉  "
+          },
+          {
+            "line": 124,
+            "text": "【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理の文脈でよく使われる。  "
+          },
+          {
+            "line": 126,
+            "text": "【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／be confined to quarters＝兵舎・自室待機を命じられている  "
+          },
+          {
+            "line": 128,
+            "text": "【コロケーション】"
+          },
+          {
+            "line": 130,
+            "text": "・confine someone in a cell  "
+          },
+          {
+            "line": 131,
+            "text": "用途: 人を独房などの閉鎖された空間から出られないようにする。  "
+          },
+          {
+            "line": 132,
+            "text": "例: The prisoner was confined in a windowless cell for several days.  "
+          },
+          {
+            "line": 133,
+            "text": "訳: その囚人は数日間、窓のない独房に拘禁された。  "
+          },
+          {
+            "line": 135,
+            "text": "・confine an animal to 〈囲い・ケージ〉  "
+          },
+          {
+            "line": 136,
+            "text": "用途: 動物が指定された囲いの外へ出ないようにする。  "
+          },
+          {
+            "line": 137,
+            "text": "例: The injured bird was temporarily confined to a large enclosure.  "
+          },
+          {
+            "line": 138,
+            "text": "訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。  "
+          },
+          {
+            "line": 140,
+            "text": "・keep 〈人・動物〉 confined  "
+          },
+          {
+            "line": 141,
+            "text": "用途: 人や動物を外へ出られない状態に保つ。  "
+          },
+          {
+            "line": 142,
+            "text": "例: The order kept the soldiers confined to their barracks overnight.  "
+          },
+          {
+            "line": 143,
+            "text": "訳: その命令により兵士たちは一晩、兵舎から出られなかった。  "
+          },
+          {
+            "line": 145,
+            "text": "・be confined to quarters  "
+          },
+          {
+            "line": 146,
+            "text": "用途: 軍人などが処罰・命令により兵舎や指定場所から出ないよう命じられた状態を表す。  "
+          },
+          {
+            "line": 147,
+            "text": "例: He was confined to quarters for disobeying the order.  "
+          },
+          {
+            "line": 148,
+            "text": "訳: 彼は命令に従わなかったため、兵舎待機を命じられた。  "
+          },
+          {
+            "line": 150,
+            "text": "【語法・注意】この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。  "
+          },
+          {
+            "line": 152,
+            "text": "【類義語】"
+          },
+          {
+            "line": 154,
+            "text": "・imprison  "
+          },
+          {
+            "line": 155,
+            "text": "定義: 人を刑務所などに入れて自由を奪う。  "
+          },
+          {
+            "line": 156,
+            "text": "頻度: 〈6/10〉  "
+          },
+          {
+            "line": 157,
+            "text": "違い: imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。  "
+          },
+          {
+            "line": 158,
+            "text": "例: The regime imprisoned several opposition leaders.  "
+          },
+          {
+            "line": 159,
+            "text": "訳: その政権は複数の反対派指導者を投獄した。  "
+          },
+          {
+            "line": 161,
+            "text": "・detain  "
+          },
+          {
+            "line": 162,
+            "text": "定義: 当局などが人を一定時間引き留め、立ち去れないようにする。  "
+          },
+          {
+            "line": 163,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 164,
+            "text": "違い: detain は一時的な身柄拘束や事情聴取のための留置に焦点がある。confine は場所の境界内に置かれる状態を強く示す。  "
+          },
+          {
+            "line": 165,
+            "text": "例: Police detained the suspect for questioning.  "
+          },
+          {
+            "line": 166,
+            "text": "訳: 警察は事情聴取のため容疑者を拘束した。  "
+          },
+          {
+            "line": 168,
+            "text": "【反意語】"
+          },
+          {
+            "line": 170,
+            "text": "・release  "
+          },
+          {
+            "line": 171,
+            "text": "定義: 拘束・収容されている人や動物を自由にする。  "
+          },
+          {
+            "line": 172,
+            "text": "頻度: 〈8/10〉  "
+          },
+          {
+            "line": 173,
+            "text": "違い: 閉鎖場所内にとどめる confine に対し、そこから出ることを許す方向の対立をなす。  "
+          },
+          {
+            "line": 174,
+            "text": "例: The authorities released the detainees the next morning.  "
+          },
+          {
+            "line": 175,
+            "text": "訳: 当局は翌朝、被拘束者たちを解放した。  "
+          },
+          {
+            "line": 177,
+            "text": "・free  "
+          },
+          {
+            "line": 178,
+            "text": "定義: 束縛、監禁、拘束などから自由にする。  "
+          },
+          {
+            "line": 179,
+            "text": "頻度: 〈8/10〉  "
+          },
+          {
+            "line": 180,
+            "text": "違い: confine が移動の自由を奪うのに対し、free はその拘束自体を取り除く。release より広く、物理的・制度的・比喩的拘束に使える。  "
+          },
+          {
+            "line": 181,
+            "text": "例: The rescue team freed the animals from the locked shed.  "
+          },
+          {
+            "line": 182,
+            "text": "訳: 救助隊は鍵のかかった小屋から動物たちを解放した。  "
+          }
+        ]
+      },
+      {
+        "sense_id": "sense:004",
+        "full_sense": [
+          {
+            "line": 241,
+            "text": "4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+          },
+          {
+            "line": 243,
+            "text": "【日本語訳・定義】confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。  "
+          },
+          {
+            "line": 245,
+            "text": "【頻度】〈6/10〉  "
+          },
+          {
+            "line": 247,
+            "text": "【レジスター/領域】一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。  "
+          },
+          {
+            "line": 249,
+            "text": "【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で／feel confined＝閉じ込められたように感じる  "
+          },
+          {
+            "line": 251,
+            "text": "【コロケーション】"
+          },
+          {
+            "line": 253,
+            "text": "・a confined space  "
+          },
+          {
+            "line": 254,
+            "text": "用途: 壁や境界に囲まれ、動きや出入りが制限されやすい空間を表す。  "
+          },
+          {
+            "line": 255,
+            "text": "例: The machine should not be operated in a confined space without adequate ventilation.  "
+          },
+          {
+            "line": 256,
+            "text": "訳: その機械は、十分な換気のない閉鎖空間で作動させるべきではない。  "
+          },
+          {
+            "line": 258,
+            "text": "・in confined quarters  "
+          },
+          {
+            "line": 259,
+            "text": "用途: 人が動ける余地の少ない狭い居住・作業場所にいることを表す。  "
+          },
+          {
+            "line": 260,
+            "text": "例: The crew lived in confined quarters during the voyage.  "
+          },
+          {
+            "line": 261,
+            "text": "訳: 乗組員は航海中、狭い居住区で暮らした。  "
+          },
+          {
+            "line": 263,
+            "text": "・work in confined conditions  "
+          },
+          {
+            "line": 264,
+            "text": "用途: 動作や移動の余地が限られた環境で作業する。  "
+          },
+          {
+            "line": 265,
+            "text": "例: The technicians had to work in confined conditions beneath the stage.  "
+          },
+          {
+            "line": 266,
+            "text": "訳: 技術者たちは舞台の下の狭い環境で作業しなければならなかった。  "
+          },
+          {
+            "line": 268,
+            "text": "・a confined interior  "
+          },
+          {
+            "line": 269,
+            "text": "用途: 内部が囲まれて狭く、動ける余地が少ないことを表す。  "
+          },
+          {
+            "line": 270,
+            "text": "例: The vehicle has a confined interior with little room to move.  "
+          },
+          {
+            "line": 271,
+            "text": "訳: その車両の内部は狭く、動ける余地がほとんどない。  "
+          },
+          {
+            "line": 273,
+            "text": "【語法・注意】confined space は一般には狭く囲まれた空間を表す。米国 OSHA の労働安全上の定義では、出入りが制限され、継続的な在室を目的に設計されていないことなども要件になるため、小さい部屋がすべて専門上の confined space になるわけではない。be confined to 〈場所・範囲〉は動詞 confine の受動形で「～に限定・拘束されている」、a confined space は形容詞 confined が名詞を修飾して「狭く囲まれた空間」である。  "
+          },
+          {
+            "line": 275,
+            "text": "【類義語】"
+          },
+          {
+            "line": 277,
+            "text": "・enclosed  "
+          },
+          {
+            "line": 278,
+            "text": "定義: 壁、柵、覆いなどによって周囲を囲まれた。  "
+          },
+          {
+            "line": 279,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 280,
+            "text": "違い: enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。  "
+          },
+          {
+            "line": 281,
+            "text": "例: The garden is surrounded by an enclosed walkway.  "
+          },
+          {
+            "line": 282,
+            "text": "訳: その庭は囲われた通路に取り囲まれている。  "
+          },
+          {
+            "line": 284,
+            "text": "・cramped  "
+          },
+          {
+            "line": 285,
+            "text": "定義: 人や物に対して利用できる空間が足りず、窮屈な。  "
+          },
+          {
+            "line": 286,
+            "text": "頻度: 〈6/10〉  "
+          },
+          {
+            "line": 287,
+            "text": "違い: cramped は狭さによる不快さを直接強調する。confined は境界に囲まれ、動きが制限される構造に焦点がある。  "
+          },
+          {
+            "line": 288,
+            "text": "例: Four people shared a cramped cabin.  "
+          },
+          {
+            "line": 289,
+            "text": "訳: 4人が窮屈な船室を共有した。  "
+          },
+          {
+            "line": 291,
+            "text": "・restricted  "
+          },
+          {
+            "line": 292,
+            "text": "定義: 利用、移動、範囲などが制限された。  "
+          },
+          {
+            "line": 293,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 294,
+            "text": "違い: restricted は規則や条件による抽象的制限にも広く使う。confined は特に空間的な閉鎖性を示しやすい。  "
+          },
+          {
+            "line": 295,
+            "text": "例: The equipment operates in a restricted area.  "
+          },
+          {
+            "line": 296,
+            "text": "訳: その装置は立ち入り制限区域で稼働している。  "
+          },
+          {
+            "line": 298,
+            "text": "【反意語】"
+          },
+          {
+            "line": 300,
+            "text": "・spacious  "
+          },
+          {
+            "line": 301,
+            "text": "定義: 人や物がゆったり動ける十分な空間がある。  "
+          },
+          {
+            "line": 302,
+            "text": "頻度: 〈7/10〉  "
+          },
+          {
+            "line": 303,
+            "text": "違い: 動ける余地が少ない confined と、空間に十分な余裕がある spacious は広さ・窮屈さの軸で対立する。  "
+          },
+          {
+            "line": 304,
+            "text": "例: The new cabin is bright and spacious.  "
+          },
+          {
+            "line": 305,
+            "text": "訳: 新しい船室は明るく広々としている。  "
+          },
+          {
+            "line": 307,
+            "text": "・open  "
+          },
+          {
+            "line": 308,
+            "text": "定義: 閉鎖されず、周囲や上部が広く開けている。  "
+          },
+          {
+            "line": 309,
+            "text": "頻度: 〈9/10〉  "
+          },
+          {
+            "line": 310,
+            "text": "違い: 境界に囲まれた confined に対し、open は閉鎖性が少なく外へ開かれた状態を表す。文脈によっては広さではなく出入り可能性の対立になる。  "
+          },
+          {
+            "line": 311,
+            "text": "例: We moved the meeting to an open area outside.  "
+          },
+          {
+            "line": 312,
+            "text": "訳: 私たちは会議を屋外の開けた場所に移した。  "
+          }
+        ]
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 2,
+    "stage1_record_saved": true,
+    "chronology_marker": "audits/BLIND_SEAL_CHRONOLOGY_REQUIRED",
+    "required_output_schema": "antonym_axis_adjudication_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

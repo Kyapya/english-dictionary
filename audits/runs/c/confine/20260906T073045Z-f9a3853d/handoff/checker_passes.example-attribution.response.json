@@ -1,0 +1,255 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "262b2e492890cf2d4d7112ac806acf3d9a664cf3a5e3ed7beba313ba13c64ed2",
+  "blind_request_sha256": "ba73ca7a3fb7fc8f81d5a3bb6dbd113c74b492a3c5ddcc1e6d3aa5c016ec70f1",
+  "recorded_at": "2026-09-06T07:49:00Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "same_model_as_generation": true,
+    "ingested_by": "human",
+    "agent_id": "confine-example-agent",
+    "started_at": "2026-09-06T07:48:00Z",
+    "completed_at": "2026-09-06T07:49:00Z"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-ab9dc4cef69c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "the confines of the university",
+        "beyond"
+      ],
+      "rationale": "Her influence extended far beyond the confines of the university. 複数名詞 confines が of the university と結び付き、越えられる境界・領域を表すため sense:005。競合する sense:001 は他動詞 confine が対象の範囲を限定する用法であり、この例の名詞句構造では成立しない。"
+    },
+    {
+      "example_id": "ex-48d231fdefb7",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "within the confines of the embassy"
+      ],
+      "rationale": "The negotiations took place within the confines of the embassy. within と of the embassy に支配された複数名詞 confines が大使館の境界内の領域を表すため sense:005。競合する sense:004 は confined が空間を修飾する形容詞用法であり、定冠詞付き複数名詞のこの構造には当てはまらない。"
+    },
+    {
+      "example_id": "ex-f6323709feaa",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confines the plasma to the center of the chamber"
+      ],
+      "rationale": "The magnetic field confines the plasma to the center of the chamber. 磁場が plasma の存在範囲を chamber の center に限定する他動詞フレームなので sense:001。競合する sense:002 は移動の自由を奪われる人・動物を目的語に取るが、ここでは非生物の plasma の空間的分布を限定しており成立しない。"
+    },
+    {
+      "example_id": "ex-19fbcd0bb31e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "in confined conditions"
+      ],
+      "rationale": "The technicians had to work in confined conditions beneath the stage. confined が conditions を前置修飾し、作業時の狭く動きにくい環境を表すため sense:004。競合する sense:002 は人・動物を閉じ込める他動詞・受動の関係を必要とするが、ここでは人ではなく環境の性質を表している。"
+    },
+    {
+      "example_id": "ex-9d35134efbf3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "outside the confines of the formal organization"
+      ],
+      "rationale": "The group continued its work outside the confines of the formal organization. outside と of the formal organization に結び付く複数名詞 confines が組織の枠・領域を表すため sense:005。競合する sense:001 は動詞として活動等の範囲を限定する用法であり、ここでの名詞句には帰属しない。"
+    },
+    {
+      "example_id": "ex-20027313c181",
+      "classification": "ambiguous",
+      "candidate_sense_ids": [
+        "sense:002",
+        "sense:003"
+      ],
+      "discriminating_terms": [],
+      "rationale": "He is temporarily confined to his room while he recovers. be confined to + 部屋という見出し語の構文と結果状態だけでは、命令・拘束による sense:002 と、病気や身体状態による sense:003 の双方が自然に成立する。while he recovers は医療的解釈を促すが、回復中の人物が別理由で行動を制限される読みも排除せず、見出し語自体の意味関係から一意化できない。"
+    },
+    {
+      "example_id": "ex-2b8d20bee0ac",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "A knee injury confined her",
+        "to the apartment"
+      ],
+      "rationale": "A knee injury confined her to the apartment for most of the winter. 身体状態である A knee injury が原因主語となり、人を apartment にとどめるため sense:003。競合する sense:002 なら障壁・命令・拘禁主体による自由の剥奪が必要だが、ここではけがそのものが confine の原因項である。"
+    },
+    {
+      "example_id": "ex-9577d742cfe7",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "confined to quarters",
+        "for disobeying the order"
+      ],
+      "rationale": "He was confined to quarters for disobeying the order. 規律違反を理由に quarters への滞在を強制される拘束なので sense:002。競合する sense:003 は病気・けが・身体状態を原因とするが、同じ文では処分理由が明示され、その原因関係と両立しない。"
+    },
+    {
+      "example_id": "ex-d5a6da675b13",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "was confined in a windowless cell"
+      ],
+      "rationale": "The prisoner was confined in a windowless cell for several days. 人が cell 内に拘禁され自由に出られない受動フレームなので sense:002。競合する sense:003 は身体状態により bed や home 等にとどまる用法だが、この例の拘禁場所 cell と in による収容関係はそれに合わない。"
+    },
+    {
+      "example_id": "ex-afda08153c24",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "I felt confined in the tiny room"
+      ],
+      "rationale": "I felt confined in the tiny room after only a few hours. 人を意味する I が confined の状態主体で、in the room が閉じ込められた場所を示すため sense:002 の拘束状態として読むのが自然。競合する sense:004 は confined が空間・区域そのものの狭さを叙述・修飾する用法であり、人を主語にした felt confined には直接帰属しない。"
+    },
+    {
+      "example_id": "ex-f36507fc3020",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:005"
+      ],
+      "discriminating_terms": [
+        "beyond the narrow confines of a family dispute"
+      ],
+      "rationale": "The story moves beyond the narrow confines of a family dispute. 複数名詞 confines が of a family dispute と結び付き、物語が越える抽象的な枠・領域を表すため sense:005。競合する sense:001 は動詞が対象をある範囲に限定する用法であり、この名詞句構造では成立しない。"
+    },
+    {
+      "example_id": "ex-50ac6b0a7623",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confine the discussion to the issues"
+      ],
+      "rationale": "Please confine the discussion to the issues on today's agenda. discussion を issues に限定する confine + 対象 + to + 範囲の能動フレームなので sense:001。競合する sense:002 は目的語が自由を制限される人・動物である必要があり、discussion の話題範囲を絞るこの関係には成立しない。"
+    },
+    {
+      "example_id": "ex-32e4c7c37db5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "in a confined space"
+      ],
+      "rationale": "The machine should not be operated in a confined space without adequate ventilation. confined が space を直接修飾し、換気上問題となる閉鎖的で狭い空間を表すため sense:004。競合する sense:002 は閉じ込められる人・動物を項に取るが、この例では space 自体の性質を表す。"
+    },
+    {
+      "example_id": "ex-2132e30d65f2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "After the operation",
+        "was confined to his home"
+      ],
+      "rationale": "After the operation, he was confined to his home for several days. 手術後という身体的原因のもとで人が home から出られない状態を表すため sense:003。競合する sense:002 は命令・障壁・拘禁による拘束だが、同じ文が示す operation と home の原因・結果関係には適合しない。"
+    },
+    {
+      "example_id": "ex-cb86d2ef723d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "The order kept the soldiers confined",
+        "to their barracks"
+      ],
+      "rationale": "The order kept the soldiers confined to their barracks overnight. The order が兵士の移動を barracks に強制的に制限するため sense:002。競合する sense:003 は病気・けが等の身体原因を必要とするが、ここでは命令が拘束の原因項として明示されている。"
+    },
+    {
+      "example_id": "ex-cead63c39f1a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confine myself to examining the short-term effects"
+      ],
+      "rationale": "In this chapter, I will confine myself to examining the short-term effects. 再帰目的語 myself と to examining が、話し手が扱う範囲を意識的に限定する関係を作るため sense:001。競合する sense:002 なら人物の物理的移動を場所内に制限する必要があるが、補語は行為 examining であり物理的拘束ではない。"
+    },
+    {
+      "example_id": "ex-d7b45d249ca7",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "confined her remarks to the financial risks"
+      ],
+      "rationale": "She confined her remarks to the financial risks of the proposal. remarks の内容範囲を financial risks に限定する能動フレームなので sense:001。競合する sense:002 は人・動物の移動を制限する用法であり、発言内容を目的語とするこの意味関係には成立しない。"
+    },
+    {
+      "example_id": "ex-2ee60453400b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "confined to bed",
+        "with a severe infection"
+      ],
+      "rationale": "She was confined to bed for a week with a severe infection. 人が severe infection により bed から動けない状態を表すため sense:003。競合する sense:002 は命令・障壁等による拘束だが、to bed という結果場所と感染症という身体原因がその読みを排除する。"
+    },
+    {
+      "example_id": "ex-4c6a8b45a115",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "lived in confined quarters"
+      ],
+      "rationale": "The crew lived in confined quarters during the voyage. confined が quarters を前置修飾し、居住区そのものが狭く閉鎖的であることを表すため sense:004。競合する sense:002 の confined to quarters なら人が quarters に拘束されるが、この例は in confined quarters で場所の性質を述べている。"
+    },
+    {
+      "example_id": "ex-ed31d79c879d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The shortage is not confined to rural areas"
+      ],
+      "rationale": "The shortage is not confined to rural areas. shortage という現象の及ぶ範囲が rural areas に限定されないことを示すため sense:001。競合する sense:002 は移動を奪われる人・動物を対象とするが、非生物的現象 shortage の分布範囲を述べるこの例では成立しない。"
+    },
+    {
+      "example_id": "ex-04a757c12fe1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "The injured bird was temporarily confined",
+        "to a large enclosure"
+      ],
+      "rationale": "The injured bird was temporarily confined to a large enclosure. 動物 bird が enclosure の外へ出られないようにされた受動フレームなので sense:002。競合する sense:003 は身体状態により人が bed・home 等にとどまる語義であり、injured という背景があっても、動物を enclosure に収容する見出し語の項関係は sense:002 に対応する。"
+    }
+  ]
+}

@@ -1004,9 +1004,13 @@ def prepare_review_inputs(
             source_inventory=source_inventory,
             require_evidence_context=guarded_new_run,
         )
+        bundles_by_id = {str(item["pass_id"]): item for item in bundles}
         paths = check_passes.write_bundles(bundles, check_dir)
         alignment = check_passes.build_example_attribution_alignment_key(
             entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
+        )
+        alignment["blind_request_sha256"] = check_passes._digest_json(
+            bundles_by_id["example-attribution"]
         )
         alignment_path = check_dir / "example-attribution.alignment-key.json"
         alignment_path.write_text(
@@ -1015,6 +1019,9 @@ def prepare_review_inputs(
         )
         antonym_alignment = check_passes.build_antonym_axis_alignment_key(
             entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
+        )
+        antonym_alignment["blind_request_sha256"] = check_passes._digest_json(
+            bundles_by_id["frame-relation"]
         )
         antonym_alignment_path = (
             check_dir / "frame-relation.antonym-axis.alignment-key.json"

@@ -1,0 +1,194 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "confine-recheck-evidence",
+    "model": "gpt-5"
+  },
+  "execution_mode": "handoff",
+  "reviewer_type": "human",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "低頻度の名詞"
+      },
+      "severity": "blocking",
+      "rationale": "C-006のF-005・F-011・F-014は動詞と名詞の発音・強勢・母音差を支持するが、名詞が低頻度であることは述べていない。",
+      "evidence_link_ids": ["F-005", "F-011", "F-014"],
+      "suggested_direction": "「低頻度の」を削除するか、名詞頻度を直接示す根拠に差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 186,
+        "line_end": 186,
+        "exact_quote": "病気、けが、身体状態などが原因で、人がベッド、自宅、病室など限られた場所から動けない、または外出できない状態にする。原因を主語にする能動文と、本人を主語にした be confined to の形がある。"
+      },
+      "severity": "blocking",
+      "rationale": "C-004/F-004が直接支持するのは病気による be confined to bed である。けが・身体状態、自宅・病室、外出不能、原因主語の能動文まで一般化する直接根拠はinventoryのfacts/source_supportsにない。",
+      "evidence_link_ids": ["F-004"],
+      "suggested_direction": "定義を病気による be confined to bed に限定するか、追加した原因・場所・能動構文を直接支持する根拠を用意する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 46,
+        "exact_quote": "【頻度】〈8/10〉\n【レジスター/領域】一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。"
+      },
+      "severity": "blocking",
+      "rationale": "C-001のF-001・F-006・F-012は範囲限定の語義を支持するだけで、8/10という尺度値や会話対文章、ニュース・ビジネス・学術での相対頻度を支持しない。",
+      "evidence_link_ids": ["F-001", "F-006", "F-012"],
+      "suggested_direction": "数値と領域別頻度を削除するか、それぞれを直接測定・明記する頻度／レジスター根拠へリンクする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 122,
+        "line_end": 124,
+        "exact_quote": "【頻度】〈7/10〉\n【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理の文脈でよく使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "C-003のF-003・F-007は人・動物の閉じ込め／拘禁語義を支持するが、7/10や列挙された各領域で「よく使われる」という分布は支持しない。",
+      "evidence_link_ids": ["F-003", "F-007"],
+      "suggested_direction": "数値・領域頻度を削除するか、分布を直接示す根拠へ差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 188,
+        "line_end": 190,
+        "exact_quote": "【頻度】〈6/10〉\n【レジスター/領域】一般語・医療関連。病状や回復期間を述べるやや硬い表現。"
+      },
+      "severity": "blocking",
+      "rationale": "F-004は病気による bed 構文を示すが、6/10、医療領域での分布、「やや硬い」というレジスター評価を直接支持しない。",
+      "evidence_link_ids": ["F-004"],
+      "suggested_direction": "数値とレジスター評価を削除するか、直接の頻度・レジスター資料を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 245,
+        "line_end": 247,
+        "exact_quote": "【頻度】〈6/10〉\n【レジスター/領域】一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-018は形容詞語義、F-019は米国OSHAでの専門用法を支持するが、6/10と「一般語」「日常的説明」での分布は直接支持しない。専門用語部分だけでは文全体の根拠にならない。",
+      "evidence_link_ids": ["F-018", "F-019"],
+      "suggested_direction": "OSHAでの専門用法だけに限定し、数値・一般域の分布には別の直接根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 318,
+        "line_end": 320,
+        "exact_quote": "【頻度】〈4/10〉\n【レジスター/領域】格式的・文学的。within/beyond/outside the confines of の形で、抽象的・物理的な範囲を述べる文章に使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-008・F-013は通常／しばしば複数の名詞語義と句例を支持するが、4/10および「格式的・文学的」というレジスター評価はfacts/source_supportsにない。",
+      "evidence_link_ids": ["F-008", "F-013"],
+      "suggested_direction": "支持済みの複数形・句型に限定し、数値とレジスター評価は直接根拠がなければ削除する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 192,
+        "line_end": 192,
+        "exact_quote": "〈病気・けが・身体状態〉 confine someone to 〈bed/home/a room〉＝病気などが人を～から動けない状態にする／someone be confined to bed/home＝人が病気などで寝床・自宅から動けない／someone be confined to bed with 〈病気〉＝病気により寝床にとどまっている"
+      },
+      "severity": "blocking",
+      "rationale": "F-004が直接示すのは be confined to bed の病気用法であり、原因主語の能動構文、けが・身体状態、home/a room への拡張を支持しない。",
+      "evidence_link_ids": ["F-004"],
+      "suggested_direction": "be confined to bed の病気用法だけを残すか、列挙した各フレームを直接例証する根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 150,
+        "line_end": 150,
+        "exact_quote": "in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。"
+      },
+      "severity": "blocking",
+      "rationale": "F-003には cage と barracks の例があるが、in と to の選択をこの意味対立として一般化するsource_supportはない。個別例の存在だけでは前置詞選択の規則を直接支持しない。",
+      "evidence_link_ids": ["F-003"],
+      "suggested_direction": "一般則を削除するか、in/to の補部選択と意味差を明記する文法資料に差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 84,
+        "line_end": 84,
+        "exact_quote": "limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。"
+      },
+      "severity": "blocking",
+      "rationale": "inventoryにlimitとの意味・中立性・適用範囲を比較するfact/source_supportがなく、confine自体の語義根拠だけでは語間差を直接支持できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "比較を削除するか、両語の語義境界を直接比較できる根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 157,
+        "line_end": 157,
+        "exact_quote": "imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。"
+      },
+      "severity": "blocking",
+      "rationale": "F-003・F-007はconfineの人・動物／imprisoning用法を示すが、imprison側の中心領域や両語の対照範囲を直接裏付けるfact/source_supportはない。",
+      "evidence_link_ids": ["F-003", "F-007"],
+      "suggested_direction": "比較をconfineの支持済み範囲に限定するか、imprisonとの直接比較根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 223,
+        "line_end": 223,
+        "exact_quote": "be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。"
+      },
+      "severity": "blocking",
+      "rationale": "F-004はbe confined to bedの病気用法だけを支持し、bedriddenとの期間・重症度対比や一時的な病気への適用を直接支持しない。",
+      "evidence_link_ids": ["F-004"],
+      "suggested_direction": "期間・重症度の比較を削除するか、両表現を直接扱う根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 280,
+        "line_end": 280,
+        "exact_quote": "enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "F-018はconfinedのbounded/very smallという形容詞語義を支持するだけで、enclosedとの含意差を直接比較していない。",
+      "evidence_link_ids": ["F-018"],
+      "suggested_direction": "enclosedとの比較を削除するか、両形容詞の語義境界を直接支持する根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 353,
+        "line_end": 353,
+        "exact_quote": "bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。"
+      },
+      "severity": "blocking",
+      "rationale": "F-008・F-013はconfinesの複数性と境界／領域語義を支持するが、boundsの複数性・定着表現、両語の含意差、confinesの相対的格式性を直接支持しない。",
+      "evidence_link_ids": ["F-008", "F-013"],
+      "suggested_direction": "boundsとの比較を削除するか、形態・定着句・レジスター差を直接扱う根拠を追加する。"
+    }
+  ]
+}

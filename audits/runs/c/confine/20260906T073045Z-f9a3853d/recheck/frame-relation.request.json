@@ -1,0 +1,103 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-3b54469f1e25",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】環境、規則、衣服、生活様式などが、人の自由な動き、行動、選択を制限し、窮屈さや圧迫感を感じさせることを表す。",
+        "antonym": "liberating",
+        "antonym_definition": "定義: 制約から解放し、自由になったと感じさせる。"
+      },
+      {
+        "item_id": "ant-cd0cd6b18ff8",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。",
+        "antonym": "spacious",
+        "antonym_definition": "定義: 人や物がゆったり動ける十分な空間がある。"
+      },
+      {
+        "item_id": "ant-c0dc5dadb561",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。",
+        "antonym": "open",
+        "antonym_definition": "定義: 閉鎖されず、周囲や上部が広く開けている。"
+      },
+      {
+        "item_id": "ant-7700f7ce4e98",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】人や動物を部屋、施設、囲い、刑務所などから出られないようにする。また、物質、熱、火、プラズマなどが物理的な境界の外へ移動・拡散しないように保つ。物理的な障壁、命令、拘禁、装置の作用などによる移動の制限を表す。",
+        "antonym": "release",
+        "antonym_definition": "定義: 拘束・収容されている人や動物を自由にする。"
+      },
+      {
+        "item_id": "ant-2ff0cbbd0f84",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】人や動物を部屋、施設、囲い、刑務所などから出られないようにする。また、物質、熱、火、プラズマなどが物理的な境界の外へ移動・拡散しないように保つ。物理的な障壁、命令、拘禁、装置の作用などによる移動の制限を表す。",
+        "antonym": "free",
+        "antonym_definition": "定義: 束縛、監禁、拘束などから自由にする。"
+      },
+      {
+        "item_id": "ant-feae1bb49aaa",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ抽象的な範囲を、特定の対象、期間、分野などに限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。",
+        "antonym": "broaden",
+        "antonym_definition": "定義: 話題、活動、対象などの範囲を広げる。"
+      },
+      {
+        "item_id": "ant-5c13f3df07ec",
+        "headword": "confine",
+        "sense_definition": "【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ抽象的な範囲を、特定の対象、期間、分野などに限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。",
+        "antonym": "extend",
+        "antonym_definition": "定義: 対象となる範囲、期間、適用先などをさらに先まで広げる。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a",
+  "normalized_input_sha256": "b198b6c5f902619ed54e2b32f8b7d5b764881d6ab14db83924480e188ae0d012"
+}

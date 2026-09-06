@@ -1,0 +1,53 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-translation-agent",
+    "started_at": "2026-09-06T07:47:55Z",
+    "completed_at": "2026-09-06T07:48:09Z"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "訳: けがをした鳥は一時的に大きな囲いの中で保護された。  "
+      },
+      "severity": "blocking",
+      "rationale": "The English says that the injured bird was confined to an enclosure, i.e. kept from leaving it. 「保護された」recasts that restriction as protection and adds a beneficial purpose/evaluation not stated in the English, so it fails to preserve both the predicate and the affected participant's relation to the enclosure.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Translate the confinement directly, for example 「けがをした鳥は一時的に大きな囲いの中に閉じ込められた」, without adding a protective purpose."
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 221,
+        "line_end": 221,
+        "exact_quote": "訳: 彼は回復するまで一時的に自室で過ごさなければならない。  "
+      },
+      "severity": "blocking",
+      "rationale": "The English describes his current constrained state while he recovers; it does not assert a deontic obligation. 「過ごさなければならない」adds a must/requirement reading and 「回復するまで」presents recovery as the endpoint more categorically than while he recovers.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Preserve the state and contemporaneous recovery clause, for example 「彼は回復中、一時的に自室から出られない状態にある」."
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 289,
+        "line_end": 289,
+        "exact_quote": "訳: その庭は屋根と壁のある通路に囲まれている。  "
+      },
+      "severity": "blocking",
+      "rationale": "The English only characterizes the walkway as enclosed. The translation specifies that it has both a roof and walls, introducing concrete structural facts that enclosed does not entail and narrowing the adjective's meaning beyond the example.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Use a non-specifying rendering such as 「その庭は囲われた通路に取り囲まれている」 so the enclosure is preserved without inventing its construction."
+    }
+  ]
+}

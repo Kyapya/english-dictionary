@@ -1,0 +1,323 @@
+{
+  "schema_version": "final_blind_review_v2",
+  "agent_id": "confine-final-blind-agent",
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "c01",
+      "surface_form": "confine",
+      "frame": "confine A to B, where A is a topic, inquiry, activity, effort, effect, or other abstract domain",
+      "meaning": "restrict the scope or reach of A so that it does not extend beyond B",
+      "disposition": "included",
+      "rationale": "confine is a central productive transitive use and must be kept distinct from physically containing matter or detaining an animate being.",
+      "semantic_assertions": [
+        {
+          "id": "c01-a1",
+          "statement": "B sets the outer scope within which A is allowed to operate or apply.",
+          "polarity": "must_hold",
+          "scope": "all abstract-scope uses of confine A to B"
+        },
+        {
+          "id": "c01-a2",
+          "statement": "The construction entails that A is physically imprisoned as an animate detainee.",
+          "polarity": "must_not_hold",
+          "scope": "all abstract-scope uses of confine A to B"
+        }
+      ]
+    },
+    {
+      "id": "c02",
+      "surface_form": "confine oneself",
+      "frame": "confine oneself to NP or doing",
+      "meaning": "deliberately restrict one's subject matter or activity to a stated range",
+      "disposition": "included",
+      "rationale": "confine oneself is a productive reflexive construction and adds voluntary self-limitation to the abstract restriction sense.",
+      "semantic_assertions": [
+        {
+          "id": "c02-a1",
+          "statement": "The subject and the restricted participant are coreferential.",
+          "polarity": "must_hold",
+          "scope": "confine oneself to NP or doing"
+        },
+        {
+          "id": "c02-a2",
+          "statement": "The complement after to identifies the selected topic or activity range.",
+          "polarity": "must_hold",
+          "scope": "abstract reflexive uses"
+        }
+      ]
+    },
+    {
+      "id": "c03",
+      "surface_form": "be confined",
+      "frame": "phenomenon, feature, problem, or distribution + be confined to B",
+      "meaning": "occur or be found only within a particular place, group, period, or domain",
+      "disposition": "included",
+      "rationale": "be confined is common in this stative passive-like distributional frame and differs from an event of detaining a person.",
+      "semantic_assertions": [
+        {
+          "id": "c03-a1",
+          "statement": "Instances outside B are excluded or denied in the relevant context.",
+          "polarity": "must_hold",
+          "scope": "distributional be confined to B"
+        },
+        {
+          "id": "c03-a2",
+          "statement": "The grammatical subject must be an animate prisoner.",
+          "polarity": "must_not_hold",
+          "scope": "distributional be confined to B"
+        }
+      ]
+    },
+    {
+      "id": "c04",
+      "surface_form": "confine",
+      "frame": "confine a substance, energy, fire, fluid, or similar entity to or within a bounded area or apparatus",
+      "meaning": "physically contain something so that it cannot escape or spread beyond a boundary",
+      "disposition": "included",
+      "rationale": "confine in the physical-containment sense is productive in ordinary and technical prose and merits its own candidate because its patient and causal mechanism differ from abstract scope limitation.",
+      "semantic_assertions": [
+        {
+          "id": "c04-a1",
+          "statement": "The contained entity is prevented from physically escaping or spreading beyond the stated boundary.",
+          "polarity": "must_hold",
+          "scope": "physical containment of matter, energy, fire, fluid, or similar entities"
+        },
+        {
+          "id": "c04-a2",
+          "statement": "The frame is limited to the preposition to and excludes within.",
+          "polarity": "must_not_hold",
+          "scope": "physical containment syntax"
+        }
+      ]
+    },
+    {
+      "id": "c05",
+      "surface_form": "confine",
+      "frame": "confine a person or animal in an enclosure or to a place; be confined in or to such a place",
+      "meaning": "deprive an animate being of freedom to leave a bounded place",
+      "disposition": "included",
+      "rationale": "confine has a major animate-detention sense with a distinct affected participant, loss of liberty, and in/to alternation.",
+      "semantic_assertions": [
+        {
+          "id": "c05-a1",
+          "statement": "The affected person or animal lacks ordinary freedom to leave the place.",
+          "polarity": "must_hold",
+          "scope": "animate detention uses"
+        },
+        {
+          "id": "c05-a2",
+          "statement": "In profiles the interior of an enclosure, while to profiles the permitted range of movement.",
+          "polarity": "must_hold",
+          "scope": "the in/to alternation in animate detention uses"
+        }
+      ]
+    },
+    {
+      "id": "c06",
+      "surface_form": "confine",
+      "frame": "illness, injury, or physical condition confines a person to bed, home, or a room; a person is confined to that place by or with the condition",
+      "meaning": "cause a person, through ill health or injury, to remain in a restricted living place",
+      "disposition": "included",
+      "rationale": "confine has a conventional health-caused frame that is semantically narrower than detention by authority or barriers.",
+      "semantic_assertions": [
+        {
+          "id": "c06-a1",
+          "statement": "Illness, injury, recovery, or another bodily condition supplies the reason for the restricted location.",
+          "polarity": "must_hold",
+          "scope": "health-caused confinement uses"
+        },
+        {
+          "id": "c06-a2",
+          "statement": "The restriction necessarily results from punishment or legal custody.",
+          "polarity": "must_not_hold",
+          "scope": "health-caused confinement uses"
+        }
+      ]
+    },
+    {
+      "id": "c07",
+      "surface_form": "confined",
+      "frame": "a confined space, area, interior, condition, or quarters; feel confined",
+      "meaning": "enclosed or spatially restricted, often with little room for movement and a sense of constraint",
+      "disposition": "included",
+      "rationale": "confined is an established participial adjective with ordinary spatial uses beyond a transparent event passive.",
+      "semantic_assertions": [
+        {
+          "id": "c07-a1",
+          "statement": "Usable space, movement, or openness is restricted by surrounding limits.",
+          "polarity": "must_hold",
+          "scope": "ordinary adjectival confined"
+        },
+        {
+          "id": "c07-a2",
+          "statement": "Merely being enclosed always entails that the area is physically small.",
+          "polarity": "must_not_hold",
+          "scope": "ordinary adjectival confined"
+        }
+      ]
+    },
+    {
+      "id": "c08",
+      "surface_form": "confined space",
+      "frame": "a confined space in occupational-safety terminology",
+      "meaning": "a space large enough to enter, with limited or restricted entry or exit, and not designed for continuous occupancy; regulatory systems may add further conditions for particular subcategories",
+      "disposition": "included",
+      "rationale": "confined space as a technical term must be separated from the everyday sense because physical smallness alone is neither its definition nor its decisive boundary.",
+      "semantic_assertions": [
+        {
+          "id": "c08-a1",
+          "statement": "The space has limited or restricted means of entry or exit and is not designed for continuous occupancy.",
+          "polarity": "must_hold",
+          "scope": "occupational-safety use of confined space"
+        },
+        {
+          "id": "c08-a2",
+          "statement": "Every small room qualifies solely because it is small.",
+          "polarity": "must_not_hold",
+          "scope": "occupational-safety use of confined space"
+        }
+      ]
+    },
+    {
+      "id": "c09",
+      "surface_form": "confines",
+      "frame": "within, beyond, or outside the confines of NP; the narrow confines of NP",
+      "meaning": "formal plural noun denoting enclosing limits or the area or conceptual domain inside them",
+      "disposition": "included",
+      "rationale": "confines is an established plural noun in physical, institutional, and conceptual boundary expressions and differs in stress and category from the verb.",
+      "semantic_assertions": [
+        {
+          "id": "c09-a1",
+          "statement": "The complement NP supplies the place, system, or domain whose limiting boundary or enclosed extent is meant.",
+          "polarity": "must_hold",
+          "scope": "plural noun confines of NP"
+        },
+        {
+          "id": "c09-a2",
+          "statement": "The plural form can denote only boundary lines and never the enclosed domain.",
+          "polarity": "must_not_hold",
+          "scope": "plural noun confines"
+        }
+      ]
+    },
+    {
+      "id": "c10",
+      "surface_form": "confining",
+      "frame": "a confining job, role, routine, environment, garment, or other circumstance; find something confining",
+      "meaning": "restricting freedom, movement, choice, or scope in an uncomfortable or oppressive way",
+      "disposition": "included",
+      "rationale": "Besides serving as the verb's present participle, confining has a productive adjectival use that describes the restrictive effect or felt quality of a circumstance or object.",
+      "semantic_assertions": [
+        {
+          "id": "c10-a1",
+          "statement": "The modified or predicatively described item restricts a person's freedom, movement, choice, or scope.",
+          "polarity": "must_hold",
+          "scope": "adjectival confining"
+        },
+        {
+          "id": "c10-a2",
+          "statement": "Every occurrence of confining must be analyzed only as a progressive participle with an overt patient.",
+          "polarity": "must_not_hold",
+          "scope": "adjectival confining"
+        }
+      ]
+    },
+    {
+      "id": "c11",
+      "surface_form": "confinement",
+      "frame": "confinement of a person or thing; a period or state of confinement",
+      "meaning": "the act of confining or the state of being confined, including custody and enforced restriction",
+      "disposition": "included",
+      "rationale": "confinement is the principal deverbal noun and transparently preserves both event and result-state readings.",
+      "semantic_assertions": [
+        {
+          "id": "c11-a1",
+          "statement": "The noun denotes either an act or period of restriction or the resulting restricted state.",
+          "polarity": "must_hold",
+          "scope": "current general uses of confinement"
+        }
+      ]
+    },
+    {
+      "id": "c12",
+      "surface_form": "unconfined",
+      "frame": "unconfined person, space, substance, movement, or activity",
+      "meaning": "not enclosed or not restricted within a limiting boundary",
+      "disposition": "included",
+      "rationale": "unconfined is the productive negative adjective and reverses the relevant bounded-state component of confined.",
+      "semantic_assertions": [
+        {
+          "id": "c12-a1",
+          "statement": "A contextually relevant enclosing or restricting boundary does not apply.",
+          "polarity": "must_hold",
+          "scope": "ordinary uses of unconfined"
+        }
+      ]
+    },
+    {
+      "id": "c13",
+      "surface_form": "confine",
+      "frame": "one territory confines with or on another",
+      "meaning": "share a boundary or border on another territory",
+      "disposition": "excluded",
+      "rationale": "confine in this intransitive border sense is historical or obsolete in present general English and does not merit full current-use treatment, though it is relevant to etymology.",
+      "semantic_assertions": [
+        {
+          "id": "c13-a1",
+          "statement": "The two territories share or meet at a boundary.",
+          "polarity": "must_hold",
+          "scope": "historical intransitive confine with or on"
+        },
+        {
+          "id": "c13-a2",
+          "statement": "One participant necessarily imprisons the other.",
+          "polarity": "must_not_hold",
+          "scope": "historical intransitive confine with or on"
+        }
+      ]
+    },
+    {
+      "id": "c14",
+      "surface_form": "confinement",
+      "frame": "a woman's confinement",
+      "meaning": "dated reference to childbirth or the period around childbirth",
+      "disposition": "excluded",
+      "rationale": "confinement in this specialized historical euphemism is dated and need not be presented as a current major sense in a general entry.",
+      "semantic_assertions": [
+        {
+          "id": "c14-a1",
+          "statement": "The expression refers to childbirth or the traditional period of seclusion associated with it.",
+          "polarity": "must_hold",
+          "scope": "dated childbirth sense of confinement"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "f01",
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "・confining（現在分詞）— confine の -ing 形。  "
+      },
+      "severity": "blocking",
+      "rationale": "The entry reduces this form to morphology alone: ・confining（現在分詞）— confine の -ing 形。  It therefore omits the productive adjective meaning ‘restricting freedom, movement, choice, or scope; oppressive’, as in a confining job, role, garment, or environment. Because this is a distinct lexicalized adjectival use rather than merely an ongoing verb form, the inventory of major derivation/conversion is incomplete."
+    },
+    {
+      "id": "f02",
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "【語法・注意】基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ物理的に閉じ込める語義2では confine someone in a cell のように in も使う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。  "
+      },
+      "severity": "blocking",
+      "rationale": "The syntax summary says: 【語法・注意】基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ物理的に閉じ込める語義2では confine someone in a cell のように in も使う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。  This omits the productive transitive and passive frame confine A within B / A be confined within B, especially common for physical containment within boundaries, walls, an area, or an apparatus. The omission is material because the entry itself treats physical containment as productive but presents only to for that inanimate frame and reserves in for animate confinement, leaving the construction inventory incomplete."
+    }
+  ]
+}
