@@ -1,0 +1,609 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
+  "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
+  "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
+  "blind_output_sha256": "e849fe19af4dddd946c0de10602e9dd9a296636afeddfb710e665fff4d5a04cf",
+  "decision": "pass",
+  "target_results": [
+    {
+     "id": "pronunciation:001",
+     "status": "pass",
+      "notes": "IPA、2音節、第2音節強勢はいずれも正確で、出典と一致する。 原文: 発音（辞書表記）: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。"
+    },
+    {
+     "id": "etymology:001",
+     "status": "pass",
+      "notes": "15世紀初頭、フランス語経由のラテン語 intensus、intendere の過去分詞という説明は出典に一致する。 原文: 15世紀初頭に、フランス語を経てラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。intensus は intendere の過去分詞に由来する。"
+    },
+    {
+     "id": "etymology:002",
+     "status": "pass",
+      "notes": "程度・力・感情の強度が非常に高いという現代義の要約は複数辞書に支持される。 原文: 現在の intense は、程度・力・感情などの強度や度合いが非常に高いことを表す。"
+    },
+    {
+     "id": "word_formation:001",
+     "status": "pass",
+      "notes": "intensity の名詞用法と「強度、激しさ」の説明は正確である。 原文: ・intensity（名詞）— 強度、激しさ。"
+    },
+    {
+     "id": "word_formation:002",
+     "status": "pass",
+      "notes": "intensify の「強まる／強める」と自動詞・他動詞の両用は出典に一致する。 原文: ・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。"
+    },
+    {
+     "id": "word_formation:003",
+     "status": "pass",
+      "notes": "intensive の集中投入義、intense との重なりと非交換性の説明は出典に整合する。 原文: ・intensive（形容詞）— 集中的な、重点的な。活動・訓練などに多くの努力や注意を集中的に投入することを表す。intense と活動用法で重なるが、常に交換できるわけではない。intense は経験される強さや緊迫感を前面に出しやすく、intensive は活動への集中投入を記述しやすい。"
+    },
+    {
+     "id": "word_formation:004",
+     "status": "pass",
+      "notes": "intensification を intensify に関連する過程・事例の名詞とする説明は正確である。 原文: ・intensification（名詞）— intensify に由来する関連名詞。強まる／強める過程や事例を表す。"
+    },
+    {
+     "id": "core_image:001",
+     "status": "pass",
+      "notes": "強度を中心軸に各対象へ適用し、活動の短期間集中を必須条件としていない。人・視線・表情・関係の文脈差も保持されている。 原文: 程度・力・エネルギー・感情の強度や度合いが非常に高い。活動や行動では、その強度や激しさが非常に高い。短期間に多くの行動が集中する文脈にも使う。何が高いかは文脈によって異なる。人・視線・表情・関係では、対象に応じた強い感情や態度として、視線・表情では集中・鋭さなどの強い印象として、または強い感情的相互作用として現れる。"
+    },
+    {
+     "id": "core_image:002",
+     "status": "pass",
+      "notes": "中心義を対象の程度・感覚・感情の非常に高い強度として正しく要約している。 原文: ・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（中心義）"
+    },
+    {
+     "id": "core_image:003",
+     "status": "pass",
+      "notes": "活動・競争・議論の強度や激しさを表す活動用法の説明は正確である。 原文: ・活動・競争・議論の活動量・強度・激しさが非常に高い → 「激しい」（活動用法）"
+    },
+    {
+     "id": "core_image:004",
+     "status": "pass",
+      "notes": "人・視線・表情・関係について、感情、態度、集中、鋭さ、相互作用の強さを文脈に応じて区別している。 原文: ・人・視線・表情・関係では、対象に応じた強い感情や態度、視線・表情の集中・鋭さなどの強い印象、または強い感情的相互作用を表す → 「感情や態度の強い、強い感情や集中・鋭さが表れた、感情的に強い」（人・視線・関係の用法）"
+    },
+    {
+     "id": "sense_boundary:001",
+     "status": "pass",
+      "notes": "形容詞の限定用法・叙述用法と訳語範囲に欠落や過剰な意味拡張はない。 原文: 1. 【形容詞・限定／叙述】強烈な、非常に強い、激しい"
+    },
+    {
+     "id": "definition:001",
+     "status": "pass",
+      "notes": "対象別の強度、活動、人、視線・表情、関係、肯定・否定の適用範囲を正確に記述している。 原文: 感覚、感情、性質、色、圧力、活動、人の態度、視線・表情、関係など、対象の強度や程度が非常に高いこと。活動では強度・激しさが高いことを表し、短期間に多くの活動が集まる文脈にも使う。人・視線・表情・関係では、対象に応じた強い感情や態度、視線・表情では集中・鋭さなどの強い印象、または強い感情的相互作用が焦点になる。好ましい対象にも好ましくない対象にも使う。"
+    },
+    {
+     "id": "frequency:001",
+     "status": "pass",
+      "notes": "米国英語中心・形容詞lemma全体・非語義別という限定、順位・頻度・分散度・7/10算定が出典データと一致する。 原文: 〈7/10〉"
+    },
+    {
+     "id": "usage_note:001",
+     "status": "pass",
+      "notes": "頻度指標の対象、数値、順位帯マッピング、非語義別集計という範囲が明示されている。 原文: ※頻度は米国英語を中心とするCOCA上位5,000語の形容詞lemma表に基づく。intense は順位2,315、出現数14,452、分散度0.97で、10段階は順位帯を1–500=10、501–1,000=9、1,001–1,500=8、1,501–2,500=7、2,501–3,500=6、3,501–4,500=5、4,501–5,000=4、上位5,000外=3と機械的に対応させた。公開表は語義別集計をしないため、この数値は形容詞lemma全体の基準値である。"
+    },
+    {
+     "id": "register:001",
+     "status": "pass",
+      "notes": "一般語としての形容詞というレジスター記述に専門用法の誤混入はない。 原文: 一般語として使われる形容詞。"
+    },
+    {
+     "id": "grammar_pattern:001",
+     "status": "pass",
+      "notes": "感情・感覚・性質・熱・色・圧力などに対する限定用法の意味範囲は例文群と一致する。 原文: intense + 〈感情・感覚・性質・熱・色・圧力など〉＝程度・強度が非常に高い～"
+    },
+    {
+     "id": "grammar_pattern:002",
+     "status": "pass",
+      "notes": "活動・競争・議論の強度や激しさを表すフレームとして正確である。短期間集中は必要条件化されていない。 原文: intense + 〈活動・競争・議論など〉＝活動・競争・議論の強度や激しさが非常に高い"
+    },
+    {
+     "id": "grammar_pattern:003",
+     "status": "pass",
+      "notes": "an intense person を物理的強さではなく感情・態度または印象の強さとして扱っている。 原文: an intense person＝強い感情や態度を持つ、またはそうした印象を与える人"
+    },
+    {
+     "id": "grammar_pattern:004",
+     "status": "pass",
+      "notes": "an intense look/gaze に強い感情、集中、鋭い印象を含める説明は出典とblind assertionに適合する。 原文: an intense look/gaze＝強い感情が表れた、集中した、鋭い印象を与える視線"
+    },
+    {
+     "id": "grammar_pattern:005",
+     "status": "pass",
+      "notes": "an intense relationship を情緒的結びつき・相互作用の強さとして、文脈依存の用法に整合する形で記述している。 原文: an intense relationship＝情緒的な結びつきや相互作用が強い関係"
+    },
+    {
+     "id": "grammar_pattern:006",
+     "status": "pass",
+      "notes": "be intense の主語範囲と強度・激しさの叙述機能は正確である。 原文: 〈感覚・感情・活動など〉 be intense＝感覚・感情・活動などが非常に強い・激しい"
+    },
+    {
+     "id": "collocation:001",
+     "status": "pass",
+      "notes": "intense pain、身体部位、経験者、程度が正確で、訳も意味役割を保持する。 原文: ・intense pain\n用途: 身体的な痛みが非常に強いことを表す。\n例: He felt intense pain in his lower back。\n訳: 彼は腰の下部に激しい痛みを感じた。"
+    },
+    {
+     "id": "collocation:002",
+     "status": "pass",
+      "notes": "The pain was intense の叙述構文と程度の訳は正確である。 原文: ・〈感覚・感情・活動など〉 be intense\n用途: 主語となる感覚・感情・活動などの強度が非常に高いことを叙述する。\n例: The pain was intense。\n訳: その痛みは激しかった。"
+    },
+    {
+     "id": "collocation:003",
+     "status": "pass",
+      "notes": "intense heat の原因・結果関係と訳の修飾範囲は保持されている。 原文: ・intense heat\n用途: 暑さや熱が非常に強いことを表す。\n例: The intense heat made it dangerous to work outside。\n訳: 強烈な暑さのため、屋外で働くのは危険だった。"
+    },
+    {
+     "id": "collocation:004",
+     "status": "pass",
+      "notes": "under intense pressure、改善目的、管理職の被圧力関係が正確に訳されている。 原文: ・intense pressure\n用途: 外部からかかる重圧や心理的な圧力が非常に強いことを表す。\n例: The new manager is under intense pressure to improve the results。\n訳: 新しい管理職は、業績を改善するよう非常に強い重圧を受けている。"
+    },
+    {
+     "id": "collocation:005",
+     "status": "pass",
+      "notes": "発見が研究者から関心を集めるという作用方向と対象範囲が保持されている。 原文: ・intense interest\n用途: ある対象に向けられる関心が非常に強いことを表す。\n例: The discovery attracted intense interest from researchers around the world。\n訳: その発見は世界中の研究者から強い関心を集めた。"
+    },
+    {
+     "id": "collocation:006",
+     "status": "pass",
+      "notes": "決定が住民に怒りを引き起こす因果・経験者関係が正確である。 原文: ・intense anger\n用途: 怒りの感情が非常に強いことを表す。\n例: The decision provoked intense anger among local residents。\n訳: その決定は地元住民の間に激しい怒りを引き起こした。"
+    },
+    {
+     "id": "collocation:007",
+     "status": "pass",
+      "notes": "色の強さ・鮮やかさと背景との対比が自然かつ正確に訳されている。 原文: ・intense blue\n用途: 色の強さや鮮やかさが際立ち、強い印象を与えることを表す。\n例: The intense blue of the lake stood out against the white snow。\n訳: 湖の鮮やかな青が白い雪を背景に際立っていた。"
+    },
+    {
+     "id": "collocation:008",
+     "status": "pass",
+      "notes": "競争の激しさ、対象となる大学枠、存在構文の意味が保持されている。 原文: ・intense competition\n用途: 競争の強度や激しさが非常に高いことを表す。\n例: There is intense competition for places at the top universities。\n訳: 一流大学の枠をめぐって激しい競争がある。"
+    },
+    {
+     "id": "collocation:009",
+     "status": "pass",
+      "notes": "空港の活動が非常に活発な期間という意味で、短期間を一般的必要条件とせず自然に示している。 原文: ・intense activity\n用途: 活動の強度や激しさが非常に高いことを表す。\n例: The airport experienced a period of intense activity before the holiday。\n訳: その空港では休暇前に活動が非常に活発な時期があった。"
+    },
+    {
+     "id": "collocation:010",
+     "status": "pass",
+      "notes": "look の対象・条件と、強い感情、集中、鋭さの印象が訳に保存されている。 原文: ・an intense look\n用途: 強い感情、集中、鋭さなどの印象を示す視線・表情を表す。\n例: She gave him an intense look when he mentioned the accusation。\n訳: 彼がその告発に言及すると、彼女は感情や集中の強さが表れた、鋭い視線を彼に向けた。"
+    },
+    {
+     "id": "collocation:011",
+     "status": "pass",
+      "notes": "intense person の感情・態度の強さと、真剣に取り組む補足節が正確に対応する。 原文: ・an intense person\n用途: 感情や態度が強く、強い印象を与える人を表す。\n例: He is an intense person who takes every project very seriously。\n訳: 彼は感情や態度が強く、どのプロジェクトにも非常に真剣に取り組む人だ。"
+    },
+    {
+     "id": "collocation:012",
+     "status": "pass",
+      "notes": "関係の強さと感情的距離の少なさという具体的帰結が自然に訳され、一般的含意へ過剰拡張されていない。 原文: ・an intense relationship\n用途: 感情的な結びつきや相互作用が非常に強い関係を表す。\n例: Their intense relationship left little room for emotional distance。\n訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。"
+    },
+    {
+     "id": "usage_note:002",
+     "status": "pass",
+      "notes": "中心義、活動、人、look/gaze、relationship、評価、extreme・intensiveとの対比が相互に矛盾しない。 原文: intense は対象の強度・程度が非常に高いことを表す中心義で、活動・人・視線・表情・関係への用法もこの強度の軸から理解できる。活動では短期間に多くの行動が集まることが典型的な文脈の一つであり、活動の強度・激しさに焦点を置く。人では強い感情や態度またはそうした印象、視線・表情では強い感情の表れや集中・鋭さなどの強い印象、relationship では情緒的な結びつきや相互作用の強さを表す。評価は対象と文脈により変わる。extreme は程度の大きさや通常の範囲を超える側面、intense は経験・作用・感情の強さを前面に出しやすい。intensive は活動への努力・注意などの集中投入を客観的に記述しやすく、intense は経験される強さ・負荷・感情・緊迫感を前面に出しやすい。両語は活動用法で重なるが、常に交換できるわけではない。"
+    },
+    {
+     "id": "synonym:001",
+     "status": "pass",
+      "notes": "strong の広い強さと intense の経験・作用・感情の強度の対比、例文訳、頻度指標は正確である。 原文: ・strong\n定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。\n頻度: 〈10/10〉\n違い: strong は力・能力・程度など広い範囲に使い、intense は経験・作用・感情などの強度が非常に高いことに焦点を置く。\n例: strong pain\n訳: 強い痛み。"
+    },
+    {
+     "id": "synonym:002",
+     "status": "pass",
+      "notes": "extreme の通常範囲超過と intense の経験・作用・感情の強さの対比は出典に支持される。 原文: ・extreme\n定義: 通常の範囲や限界から大きく外れた状態を表す関連語。\n頻度: 〈6/10〉\n違い: extreme は程度が非常に大きいことや通常・予想の範囲を超える側面を表し、intense は経験・作用・感情の強さを前面に出しやすい。\n例: extreme heat\n訳: 強烈な暑さ。"
+    },
+    {
+     "id": "synonym:003",
+     "status": "pass",
+      "notes": "powerful の作用・影響力中心の意味と intense の経験・圧への適用の差が正確である。 原文: ・powerful\n定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。\n頻度: 〈8/10〉\n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。\n例: a powerful influence\n訳: 大きな影響力。"
+    },
+    {
+     "id": "synonym:004",
+     "status": "pass",
+      "notes": "fierce の敵対性・攻撃性と intense の非敵対的活動への適用可能性の区別は妥当である。 原文: ・fierce\n定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。\n頻度: 〈5/10〉\n違い: fierce は競争・対立の激しさや攻撃性を前面に出し、intense は敵意のない活動の激しさにも使える。\n例: fierce competition\n訳: 激しい競争。"
+    },
+    {
+     "id": "synonym:005",
+     "status": "pass",
+      "notes": "passionate の情熱中心の意味と intense のより広い感情・態度の強さの差、例文訳は正確である。 原文: ・passionate\n定義: 強い感情や熱意・情熱を示す関連語。\n頻度: 〈3/10〉\n違い: passionate は熱意・情熱を前面に出し、intense は感情や態度の強さをより広く表す。\n例: a passionate coach\n訳: 情熱的なコーチ。"
+    },
+    {
+     "id": "synonym:006",
+     "status": "pass",
+      "notes": "deep の感情の深さと intense の感情・相互作用の強さの対比は正確である。 原文: ・deep\n定義: 感情の深さを表す関連語。\n頻度: 〈9/10〉\n違い: deep は感情の深さを前面に出し、intense は感情や相互作用の強さを前面に出す。\n例: a deep sense of loss\n訳: 深い喪失感。"
+    },
+    {
+     "id": "synonym:007",
+     "status": "pass",
+      "notes": "fervent の特定対象への熱意と intense の広い適用範囲の対比、例文訳は正確である。 原文: ・fervent\n定義: 特定の対象への強い感情・熱意を示す関連語。\n頻度: 〈3/10〉\n違い: fervent は支持や願いなど特定の対象への熱意を前面に出し、intense は人・視線・関係を含むより広い対象に使う。\n例: a fervent supporter\n訳: 熱烈な支持者。"
+    }
+  ],
+  "relation_results": [
+    {
+     "id": "example_translation:001",
+     "status": "pass",
+      "notes": "経験者、痛み、身体部位、程度が訳で保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:002",
+     "status": "pass",
+      "notes": "叙述主語と痛みの強度が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:003",
+     "status": "pass",
+      "notes": "強い暑さが屋外作業を危険にする因果関係が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:004",
+     "status": "pass",
+      "notes": "管理職、重圧、改善目的の関係が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:005",
+     "status": "pass",
+      "notes": "発見、研究者、関心を集める作用方向が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:006",
+     "status": "pass",
+      "notes": "決定、住民、激しい怒りの因果・経験者関係が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:007",
+     "status": "pass",
+      "notes": "青の視覚的強度と白い雪との対比が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:008",
+     "status": "pass",
+      "notes": "大学枠をめぐる競争の対象・程度が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:009",
+     "status": "pass",
+      "notes": "空港で活動が高まる期間と時期の修飾が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:010",
+     "status": "pass",
+      "notes": "視線の対象、条件、感情・集中・鋭さの印象が保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:011",
+     "status": "pass",
+      "notes": "人の性質とプロジェクトへの真剣な取り組みが保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "example_translation:012",
+     "status": "pass",
+      "notes": "関係の強さと感情的距離の少なさが具体的文脈として保持されている。 原文: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。"
+    },
+    {
+     "id": "sense_definition_consistency:001",
+     "status": "pass",
+      "notes": "語義見出しと詳細定義は同じ強度軸にあり、範囲上の矛盾はない。 原文: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。"
+    },
+    {
+     "id": "definition_usage_consistency:001",
+     "status": "pass",
+      "notes": "活動の強度・激しさが中心で、短期間集中は典型的文脈の一つに限定されている。 原文: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+     "id": "definition_usage_consistency:002",
+     "status": "pass",
+      "notes": "人・視線・表情・関係の文脈依存性と詳細定義は整合している。 原文: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。"
+    },
+    {
+     "id": "definition_lexical_relation_consistency:001",
+     "status": "pass",
+      "notes": "類義語は関連語として区別され、同義・交換可能性を過剰に主張していない。 原文: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。"
+    },
+    {
+     "id": "pattern_example_coverage:001",
+     "status": "pass",
+      "notes": "感覚・感情・熱・圧力・色などの限定フレームに自然な実例が対応している。 原文: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+     "id": "pattern_example_coverage:002",
+     "status": "pass",
+      "notes": "活動・競争の例が活動用法の強度・激しさを具体化している。 原文: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+     "id": "pattern_example_coverage:003",
+     "status": "pass",
+      "notes": "an intense person のフレームと例文が一致している。 原文: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+     "id": "pattern_example_coverage:004",
+     "status": "pass",
+      "notes": "an intense look/gaze の感情・集中・鋭さの範囲と例文が一致している。 原文: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+     "id": "pattern_example_coverage:005",
+     "status": "pass",
+      "notes": "an intense relationship の情緒的結びつき・相互作用と例文が一致している。 原文: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+     "id": "pattern_example_coverage:006",
+     "status": "pass",
+      "notes": "be intense の叙述フレームと The pain was intense が一致している。 原文: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。"
+    },
+    {
+     "id": "core_inventory_consistency:001",
+     "status": "pass",
+      "notes": "総括的コアイメージは語義全体を強度軸で統合し、過剰な一般化をしていない。 原文: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。"
+    },
+    {
+     "id": "core_inventory_consistency:002",
+     "status": "pass",
+      "notes": "中心義の「非常に高い強度」は感覚・感情・程度対象の説明と一致する。 原文: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。"
+    },
+    {
+     "id": "core_inventory_consistency:003",
+     "status": "pass",
+      "notes": "活動用法の強度・激しさと短期間集中の任意性が語義目録と一致する。 原文: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。"
+    },
+    {
+     "id": "core_inventory_consistency:004",
+     "status": "pass",
+      "notes": "人・視線・表情・関係の用法が対象別に限定され、意味を一方向へ固定していない。 原文: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。"
+    },
+    {
+     "id": "article_learning_risk:001",
+     "status": "pass",
+      "notes": "本文全体の定義、例文、訳、対比、限定表現は誤った短期間必須化・感情限定化・肯定含意を防いでいる。 原文: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "c1",
+      "status": "pass",
+      "notes": "対象の程度・強度が非常に高いという assertion は定義、例文、訳に適合する。",
+      "assertion_ids": [
+        "a1"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c2",
+      "status": "pass",
+      "notes": "活動・相互作用の強度や激しさが高いという assertion に適合し、短期間集中は必須とされていない。",
+      "assertion_ids": [
+        "a2"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c3",
+      "status": "pass",
+      "notes": "be intense の主語を強度評価可能な感覚・感情・活動等に限定する本文記述と一致する。",
+      "assertion_ids": [
+        "a3"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c4",
+      "status": "pass",
+      "notes": "人そのものの物理的強度ではなく、感情・態度または与える印象の強さという本文記述と一致する。",
+      "assertion_ids": [
+        "a4"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c5",
+      "status": "pass",
+      "notes": "look/gaze について強い感情・集中・鋭さの少なくとも一つを含める本文記述と出典に適合する。",
+      "assertion_ids": [
+        "a5"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c6",
+      "status": "pass",
+      "notes": "relationship の情緒的結びつきまたは相互作用の強度を表し、評価は文脈依存とする本文に適合する。",
+      "assertion_ids": [
+        "a6"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c7",
+      "status": "pass",
+      "notes": "intensity を強度・激しさの名詞とする語形成欄に適合する。",
+      "assertion_ids": [
+        "a7"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c8",
+      "status": "pass",
+      "notes": "intensify の自動詞「強まる」と他動詞「強める」の記述に適合する。",
+      "assertion_ids": [
+        "a8"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c9",
+      "status": "pass",
+      "notes": "intensive の努力・注意の集中投入と intense との非交換性の記述に適合する。",
+      "assertion_ids": [
+        "a9"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    },
+    {
+      "id": "c10",
+      "status": "pass",
+      "notes": "intensification を強まる・強める過程または事例とする語形成欄に適合する。",
+      "assertion_ids": [
+        "a10"
+      ],
+      "verified_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "F001",
+      "status": "pass",
+      "notes": "resolution は resolved。本文は活動の強度・激しさを中心に置き、短期間集中を一例・典型的文脈として扱っており、必要条件化していない。"
+    },
+    {
+      "id": "F002",
+      "status": "pass",
+      "notes": "resolution は resolved。本文は人の感情・態度・印象、look/gaze の感情・集中・鋭さを区別して明示している。"
+    },
+    {
+      "id": "F003",
+      "status": "pass",
+      "notes": "resolution は resolved。relationship の例文訳は具体的文脈を訳したもので、全用法を肯定的結びつきに限定していない。"
+    },
+    {
+      "id": "F004",
+      "status": "pass",
+      "notes": "resolution は resolved。頻度の対象地域、lemma・品詞単位、数値、順位帯算定、非語義別範囲が本文とsource packetで明示されている。"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "EVID-001",
+      "status": "pass",
+      "notes": "発音・強勢の主張は提示された辞書のIPA・発音情報で支持される。"
+    },
+    {
+      "id": "EVID-002",
+      "status": "pass",
+      "notes": "語源の年代、フランス語経由、ラテン語形、intendereとの関係は提示された語源資料・辞書で支持される。"
+    },
+    {
+      "id": "EVID-003",
+      "status": "pass",
+      "notes": "中心的な強度義と感覚・感情・性質等への適用は複数の辞書資料で支持される。"
+    },
+    {
+      "id": "EVID-004",
+      "status": "pass",
+      "notes": "活動・競争・議論の強度義と短期間集中が必須でない範囲は、提示された辞書資料に適合する。"
+    },
+    {
+      "id": "EVID-005",
+      "status": "pass",
+      "notes": "人・視線・表情・関係の用法、感情・態度・集中・鋭さの区別は提示された辞書・類義語資料で支持される。"
+    },
+    {
+      "id": "EVID-006",
+      "status": "pass",
+      "notes": "intensive との重なり、客観的集中投入、非交換性の説明は提示された辞書資料で支持される。"
+    },
+    {
+      "id": "EVID-007",
+      "status": "pass",
+      "notes": "intensity、intensify、intensification の語形成・品詞・意味は提示された語源辞書および辞書資料で支持される。"
+    },
+    {
+      "id": "EVID-008",
+      "status": "pass",
+      "notes": "intense の順位、出現数、分散度、順位帯マッピング、lemma・品詞単位という頻度範囲は提示されたCOCA表で支持される。"
+    },
+    {
+      "id": "EVID-009",
+      "status": "pass",
+      "notes": "類義語の定義・例文・意味差は提示された辞書・類義語資料で支持され、全面的交換可能性は主張されていない。"
+    },
+    {
+      "id": "EVID-010",
+      "status": "pass",
+      "notes": "本文全体の例文、訳、文法フレーム、語義境界への出典適用はsource-first packetの該当facts・locatorsと整合する。"
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "status": "pass",
+      "notes": "中心的な非常に高い強度義と extreme との境界は複数の辞書・類義語資料に収束する。",
+      "union_id": "U-001"
+    },
+    {
+      "id": "U-002",
+      "status": "pass",
+      "notes": "活動・行動の強度義、短期間集中が典型例であって必須でない範囲が本文に正しく反映されている。",
+      "union_id": "U-002"
+    },
+    {
+      "id": "U-003",
+      "status": "pass",
+      "notes": "人・look/gaze・表情・relationship の文脈別意味と、感情・集中・鋭さの区別が出典と本文で一致する。",
+      "union_id": "U-003"
+    },
+    {
+      "id": "U-004",
+      "status": "pass",
+      "notes": "第2音節強勢の発音とフランス語・ラテン語に遡る語源は独立資料で一致する。",
+      "union_id": "U-004"
+    },
+    {
+      "id": "U-005",
+      "status": "pass",
+      "notes": "intense と intensive の活動用法の重なりと、感情志向・客観的集中投入の対比は正確である。",
+      "union_id": "U-005"
+    },
+    {
+      "id": "U-006",
+      "status": "pass",
+      "notes": "intensify の自動詞・他動詞用法と intensification の関連名詞義は資料に支持される。",
+      "union_id": "U-006"
+    },
+    {
+      "id": "U-007",
+      "status": "pass",
+      "notes": "intensity を intense に関連する名詞とする説明は資料に支持される。",
+      "union_id": "U-007"
+    },
+    {
+      "id": "U-008",
+      "status": "pass",
+      "notes": "米国英語の頻度指標、形容詞lemma・品詞単位、数値、順位帯、非語義別という範囲が本文と資料に一致する。",
+      "union_id": "U-008"
+    },
+    {
+      "id": "U-009",
+      "status": "pass",
+      "notes": "類義語の関連性と個別の意味差は提示された辞書・類義語資料に支持され、過剰な同義性はない。",
+      "union_id": "U-009"
+    },
+    {
+      "id": "U-010",
+      "status": "pass",
+      "notes": "Oxford 3000 の B2 ラベルは監査上のソースメタデータとして確認したが、本文の一般レジスター主張には持ち込んでいない。",
+      "union_id": "U-010"
+    }
+  ],
+  "blockers": [],
+  "notes": [
+    "全42 target、全27 relation、normal candidate 0件、blind candidate c1-c10、finding F001-F004、evidence EVID-001〜EVID-010、source-union U-001〜U-010を各1回判定した。",
+    "活動の短期間集中は必須条件ではなく、look/gazeの強い感情・集中・鋭さ、人・関係の文脈依存性はいずれも本文・出典・blind assertionに整合する。"
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "reviewer_role": "independent_final_adjudicator",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "codex-independent-final-adjudicator-blind-intense-20260905T152653Z-81cda47a-final",
+    "same_model_as_generation": true
+  },
+  "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "recorded_at": "2026-09-05T21:30:00Z"
+}
