@@ -1,0 +1,98 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-20260906T025220Z-intense-r0",
+  "context_id": "resolution-20260906T025220Z-intense-r0-context",
+  "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": [
+    "all_findings",
+    "entry_body"
+  ],
+  "recorded_at": "2026-09-06T03:14:00Z",
+  "reviewer_provenance": {
+    "reviewer_role": "main_orchestrator_finding_resolution",
+    "session_mode": "main_authoring_allowed_for_resolutions",
+    "reviewer": {
+      "mode": "main",
+      "declared_model": "gpt-5.6-luna-wm",
+      "agent_id": "resolution-20260906T025220Z-intense-r0"
+    },
+    "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+    "sealed_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+    "upstream_reviewers": [
+      {
+        "stage": "normal_review",
+        "pass_id": "translation",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-translation-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "sense-structure",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-sense_structure-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "frame-relation",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-frame_relation-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "example-attribution",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-example_attribution-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "qualification",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-qualification-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "pronunciation",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-pronunciation-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "normal_review",
+        "pass_id": "evidence",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "checker-evidence-20260906T025220Z-r0",
+        "same_model_as_generation": true
+      },
+      {
+        "stage": "cold_review",
+        "mode": "handoff",
+        "declared_model": "gpt-5.6-luna-wm",
+        "ingested_by": "human",
+        "agent_id": "cold-20260906T025220Z-intense-r0",
+        "same_model_as_generation": true
+      }
+    ]
+  },
+  "resolutions": []
+}
