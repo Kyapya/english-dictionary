@@ -18,11 +18,11 @@
     "candidate_pages": 14
   },
   "status": "in_progress",
-  "stage": "cold_review_complete",
+  "stage": "blind_seal_complete",
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-06T03:13:00Z",
+  "last_heartbeat_at": "2026-09-06T03:16:30Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-06T02:52:34Z",
@@ -58,6 +58,11 @@
       "stage": "cold_review_complete",
       "recorded_at": "2026-09-06T03:13:00Z",
       "notes": "context-free cold review completed with no unresolved findings"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-06T03:16:30Z",
+      "notes": "final blind output sealed before final reconciliation"
     }
   ],
   "stop_reason": "",
@@ -507,7 +512,7 @@
         "duration_seconds": 20,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
@@ -516,7 +521,7 @@
         "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "finding_resolution",
@@ -651,13 +656,15 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "final_blind",
+      "blind_seal"
     ],
     "stage_outputs": {
       "generation": [
