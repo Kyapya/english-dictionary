@@ -3,11 +3,14 @@ from __future__ import annotations
 import argparse
 import hashlib
 import json
+import re
 import subprocess
 import sys
 from datetime import datetime, timezone
 from pathlib import Path
 from typing import Any
+
+import process_improvement
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -90,6 +93,7 @@ def build_record(
     user_request: str,
     reviewer: str,
     review_notes: str = "",
+    pi_processing: dict[str, Any] | None = None,
     created_at: str | None = None,
 ) -> dict[str, Any]:
     base_front, _ = _split_front_matter(base_text)
@@ -119,6 +123,11 @@ def build_record(
             "reviewer": reviewer.strip(),
             "verdict": "pass",
             "notes": review_notes.strip(),
+        },
+        "pi_processing": pi_processing
+        or {
+            "status": "pending",
+            "reason": "no coordinator learning_delta was supplied",
         },
     }
 
@@ -171,6 +180,11 @@ def validate_record(
             errors.append("review.verdict must be pass")
         if not isinstance(review.get("notes", ""), str):
             errors.append("review.notes must be a string")
+    pi_processing = record.get("pi_processing")
+    if not isinstance(pi_processing, dict):
+        errors.append("pi_processing must be an object")
+    elif pi_processing.get("status") not in process_improvement.PI_PROCESSING_STATUSES:
+        errors.append("pi_processing.status is invalid")
     return errors
 
 
@@ -194,14 +208,6 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
     entry_path = entries[0]
     record_path = records[0]
     allowed = {entry_path, record_path}
-    extras = sorted(set(changed) - allowed)
-    if extras:
-        errors.append(
-            "targeted correction PR may only change the entry and its correction record: "
-            + ", ".join(extras)
-        )
-        return errors
-
     try:
         base_text = _git_show(repo_root, base, entry_path)
     except subprocess.CalledProcessError:
@@ -216,6 +222,77 @@ def validate_changed(base: str, head: str, repo_root: Path = REPO_ROOT) -> list[
         return [f"correction record is not valid JSON: {exc}"]
     if not isinstance(record, dict):
         return ["correction record must be a JSON object"]
+
+    pi_changed = {
+        path for path in changed if path.startswith("process_improvement/")
+    }
+    pi_processing = record.get("pi_processing")
+    pi_allowed: set[str] = set()
+    if pi_changed and not isinstance(pi_processing, dict):
+        errors.append("process-improvement changes require bound pi_processing data")
+    elif pi_changed:
+        status = pi_processing.get("status")
+        event_id = str(pi_processing.get("event_id", ""))
+        if status not in {"processed", "no_applicable"} or not event_id:
+            errors.append(
+                "process-improvement changes require a processed/no_applicable event receipt"
+            )
+        else:
+            safe_event = re.sub(r"[^A-Za-z0-9_.-]+", "-", event_id)
+            receipt_path = f"process_improvement/receipts/{safe_event}.json"
+            pi_allowed.add(receipt_path)
+            try:
+                receipt = json.loads(_git_show(repo_root, head, receipt_path))
+            except (subprocess.CalledProcessError, json.JSONDecodeError) as exc:
+                errors.append(f"cannot read bound PI receipt: {exc}")
+                receipt = {}
+            for item in receipt.get("applied", []) if isinstance(receipt, dict) else []:
+                if not isinstance(item, dict):
+                    continue
+                knowledge_id = str(item.get("knowledge_id", ""))
+                version = item.get("version")
+                action = item.get("action")
+                if action in {"create", "revise"}:
+                    pi_allowed.add(
+                        f"process_improvement/records/{knowledge_id}.json"
+                    )
+                if action == "revise" and isinstance(version, int):
+                    pi_allowed.add(
+                        f"process_improvement/history/{knowledge_id}.v{version - 1}.json"
+                    )
+            for path in pi_changed:
+                if not path.startswith("process_improvement/observations/"):
+                    continue
+                try:
+                    observation = json.loads(_git_show(repo_root, head, path))
+                except (subprocess.CalledProcessError, json.JSONDecodeError):
+                    continue
+                if isinstance(observation, dict) and observation.get("event_id") == event_id:
+                    pi_allowed.add(path)
+            pi_allowed.update(
+                {
+                    "process_improvement/index.json",
+                    "process_improvement/ACTIVE.md",
+                }
+            )
+            unexpected_pi = sorted(pi_changed - pi_allowed)
+            if unexpected_pi:
+                errors.append(
+                    "targeted correction contains PI changes not bound to its receipt: "
+                    + ", ".join(unexpected_pi)
+                )
+            registry_errors = process_improvement.validate_registry(repo_root)
+            errors.extend(
+                f"process-improvement registry: {error}"
+                for error in registry_errors
+            )
+    extras = sorted(set(changed) - allowed - pi_changed)
+    if extras:
+        errors.append(
+            "targeted correction PR may only change the entry, its correction record, "
+            "and receipt-bound PI files: "
+            + ", ".join(extras)
+        )
 
     diff_text = _entry_diff(repo_root, base, head, entry_path)
     if not diff_text.strip():
@@ -248,6 +325,44 @@ def command_record(args: argparse.Namespace) -> int:
     base_text = _git_show(repo_root, args.base, entry_path)
     head_text = current_path.read_text(encoding="utf-8")
     diff_text = _git(repo_root, "diff", "--unified=3", args.base, "--", entry_path)
+    created_at = _timestamp()
+    output = repo_root / _record_path(entry_path, created_at)
+    pi_result: dict[str, Any] = {
+        "status": "pending",
+        "reason": "no coordinator learning_delta was supplied",
+    }
+    if args.learning_delta:
+        try:
+            container = json.loads(args.learning_delta.read_text(encoding="utf-8"))
+            delta = (
+                container.get("learning_delta")
+                if isinstance(container, dict)
+                else None
+            )
+            if not isinstance(delta, dict):
+                delta = container if isinstance(container, dict) else None
+            if not isinstance(delta, dict):
+                raise ValueError("learning delta must be a JSON object")
+            source = {
+                "event_id": (
+                    f"targeted:{Path(entry_path).stem}:"
+                    f"{_sha256(diff_text)[:12]}"
+                ),
+                "knowledge_epoch": process_improvement.current_epoch(repo_root),
+                "origin_kind": "targeted_correction",
+                "source_ref": output.relative_to(repo_root).as_posix(),
+                "observed_at": created_at,
+                "content_sha256": _sha256(diff_text),
+            }
+            receipt = process_improvement.ingest_learning_delta(
+                source, delta, repo_root=repo_root
+            )
+            pi_result = {
+                "status": receipt.get("status", "save_error"),
+                "event_id": receipt.get("event_id"),
+            }
+        except (OSError, ValueError, json.JSONDecodeError) as exc:
+            pi_result = {"status": "save_error", "reason": str(exc)}
     record = build_record(
         entry_path=entry_path,
         base_text=base_text,
@@ -256,8 +371,9 @@ def command_record(args: argparse.Namespace) -> int:
         user_request=args.request,
         reviewer=args.reviewer,
         review_notes=args.review_notes,
+        pi_processing=pi_result,
+        created_at=created_at,
     )
-    output = repo_root / _record_path(entry_path, str(record["created_at"]))
     output.parent.mkdir(parents=True, exist_ok=True)
     output.write_text(json.dumps(record, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
     print(output.relative_to(repo_root).as_posix())
@@ -284,6 +400,7 @@ def build_parser() -> argparse.ArgumentParser:
     record.add_argument("--request", required=True)
     record.add_argument("--reviewer", required=True)
     record.add_argument("--review-notes", default="")
+    record.add_argument("--learning-delta", type=Path)
     record.set_defaults(func=command_record)
 
     changed = sub.add_parser("validate-changed")

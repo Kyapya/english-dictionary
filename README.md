@@ -36,7 +36,7 @@ python scripts/run_word.py --resume <workflow-run.json> \
   --reviewer-agent-id <independent-subagent-id>
 ```
 
-cold review / final blind は生成担当とは独立したreview subagent/contextで実行します。コールドレビューと最終盲検には生成時の `process_improvement/ACTIVE.md` や既存findingを渡しません。通常checkerとcold reviewは同じ固定draftを対象とし、API modeでは最大7 worker枠の中で同時進行します。
+cold review / final blind は生成担当とは独立したreview subagent/contextで実行します。コールドレビュー、通常checker、最終盲検には生成側のprocess-improvement入力スナップショットや既存findingを渡しません。通常checkerとcold reviewは同じ固定draftを対象とし、API modeでは最大7 worker枠の中で同時進行します。
 
 ## checker_passes は7パス並列
 
@@ -86,7 +86,29 @@ evidence checker requestには、完成済みsource-first正本から対象claim
 
 findingゼロだけを理由とする二次cold/example-attribution reviewは新規runでは行いません。必須pass欠落・hash不一致等は機械拒否し、具体的な判断衝突、明示的不確実性、未解決evidenceだけを争点単位の `targeted_adjudication` へ送ります。`insufficient_evidence` はPASSへ変換しません。
 
-`process_improvement/ACTIVE.md` は生成段だけへ渡し、コールドレビューと最終盲検には渡しません。registryは `scripts/process_improvement.py` が検証し、単語固有のメモや「新しい知見なし」はrecordにしません。
+## Process improvement v2
+
+`process_improvement/records/` の構造化JSONが知見の正本です。新世代 `pi2-2026-09-06` は空台帳から開始し、旧PI本文・旧 `ACTIVE.md`・旧退役状態は通常検索、入力、集計へ戻しません。`epoch.json` は移行前SHAと除外した旧パス／IDだけを保持し、旧本文はGit履歴で参照します。
+
+公開入口はrun作成時に、同じ世代・`active`・仕様依存が有効で、担当・工程・特徴条件が一致する知見だけを選び、`audits/runs/.../process_improvement/*.snapshot.md` へ固定します。初期上限は8件・8 KiBです。これは一般的な作業知見を数件渡せる一方、記事仕様やレビュー入力を圧迫しない保守的な初期値です。上限超過時はpriority、ID、版の決定順で知見単位に選び、条件・例外を途中切断しません。選択ID・版・届け先・hash・実bytes・機械処理秒・PI専用追加LLM呼び出し数をsnapshotとrun metricsへ保存します。
+
+生成担当と既存調整役は、既存工程の出力に小さな `learning_delta` を含めます。完了・checkpoint・resumeが同じ冪等取込を実行し、結果を `processed` / `no_applicable` / `pending` / `save_error` としてrunへ残します。局所修整も `--learning-delta` から同じ取込へ接続します。知見抽出専用のLLM工程はありません。入力に渡した事実、行動確認、再発、非再発、負担、結果不明は版別のimmutable observationとして分離し、未計測は `null` のまま集計します。
+
+意味判断は既存調整役が行います。初回の有用な事象でも候補化でき、escaped defectや固定回数は必須ではありません。未裁定findingや原因推測は `active` にできません。仕様依存が変わった知見は次回入力から外れ、根拠と再確認理由を伴う版更新だけが復活できます。`integrated` と `retired` は入力へ重複配信せず、PI状態からcheckerや正式実装を削除する処理はありません。
+
+主要操作は次のとおりです。`ACTIVE.md` と `index.json` は派生表示であり、実行入力の正本ではありません。
+
+```bash
+python scripts/process_improvement.py validate
+python scripts/process_improvement.py summary --json
+python scripts/process_improvement.py select \
+  --recipient generator --phase generation --run-id <run-id> \
+  --feature <confirmed-feature> --output <snapshot.md>
+python scripts/process_improvement.py ingest --source <event.json> --delta <delta.json>
+python scripts/process_improvement.py reconfirm \
+  --record-id <PI2-ID> --expected-version <N> \
+  --evidence-ref <fixed-reference> --rationale <reviewed-reason>
+```
 
 記事本文を改稿した場合は、オーケストレータが記事だけの個別Git commitを作り、Gitを改稿履歴の正本にします。新規runでは `revision-00N.md` を生成しません。
 
@@ -105,6 +127,7 @@ findingゼロだけを理由とする二次cold/example-attribution reviewは新
 | 争点別追加裁定 | `prompts/targeted_adjudication_v1.md` |
 | 最終合否 | `prompts/final_review_spec_v2.md` |
 | source-first | `prompts/source_first_audit_v2.md` |
+| process improvement | `process_improvement/README.md`、`prompts/process_improvement_learning_delta_v2.md`、`scripts/process_improvement.py` |
 | Notion表示変換 | `prompts/notion_spec_v1.md` |
 
 `entry_spec_v5.md` の辞書学的な内容基準は変更していません。旧工程文書は `backups/2026-08-25-process-refactor/`、全規範の移設証跡は `prompts/migration_table_v5_to_v6.md` にあります。
@@ -147,7 +170,7 @@ Pull Requestでは `.github/workflows/validate.yml` が変更記事と監査の�
 - `prompts/`: 内容仕様と小型review prompt
 - `scripts/`: オーケストレータと機械gate
 - `audits/`: workflow run、review raw、派生manifest、過去互換監査
-- `process_improvement/`: active/trial/retiredの工程改善record
+- `process_improvement/`: v2知見、版履歴、観測、冪等取込receipt、派生index
 - `logs/`: 試行・計測ログ
 - `tests/`: 契約・回帰テスト
 - `exports/`: 結合Markdownと索引

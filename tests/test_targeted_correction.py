@@ -107,6 +107,25 @@ class TargetedCorrectionTests(unittest.TestCase):
                 reviewer="unit-test-reviewer",
             )
 
+    def test_a12_local_review_records_pi_state_without_full_review(self) -> None:
+        corrected = BASE_ENTRY.replace(
+            "Original explanation.", "Corrected explanation."
+        )
+        record = build_record(
+            entry_path="entries/s/sample.md",
+            base_text=BASE_ENTRY,
+            head_text=corrected,
+            diff_text="diff --git a/sample b/sample\n",
+            user_request="Correct one sentence.",
+            reviewer="unit-test-reviewer",
+        )
+        self.assertEqual(record["pi_processing"]["status"], "pending")
+        prompt = (
+            REPO_ROOT / "prompts" / "targeted_correction_review_v1.md"
+        ).read_text(encoding="utf-8")
+        self.assertIn("same v2 ingestion path", prompt)
+        self.assertIn("do not add a full-entry review", prompt)
+
 
 if __name__ == "__main__":
     unittest.main()

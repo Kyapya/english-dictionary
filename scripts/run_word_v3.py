@@ -40,6 +40,7 @@ class StagePlan:
     context_mode: str = "coordinator"
     reviewer_mode: str | None = None
     input_packet_path: str | None = None
+    process_improvement_input_path: str | None = None
 
     def to_dict(self, repo_root: Path = REPO_ROOT) -> dict[str, Any]:
         value = asdict(self)
@@ -103,10 +104,20 @@ def build_plan(
         StagePlan(
             "generation",
             "llm",
-            ("prompts/entry_spec_v5.md", "process_improvement/ACTIVE.md"),
-            ("headword", "entry specification", "active process rules"),
+            (
+                "prompts/entry_spec_v5.md",
+                "prompts/process_improvement_learning_delta_v2.md",
+            ),
+            (
+                "headword",
+                "entry specification",
+                "selected process-improvement input snapshot",
+            ),
             (entry, f"{root}/generation.json"),
             ("draft_saved",),
+            process_improvement_input_path=(
+                f"{root}/process_improvement/generator-generation.snapshot.md"
+            ),
         ),
         StagePlan(
             "mechanical_validator",
@@ -150,7 +161,10 @@ def build_plan(
         StagePlan(
             "pre_blind_resolution",
             "llm",
-            ("prompts/pre_blind_resolution_v1.md",),
+            (
+                "prompts/pre_blind_resolution_v1.md",
+                "prompts/process_improvement_learning_delta_v2.md",
+            ),
             (
                 "fixed draft",
                 "checker findings",
@@ -163,6 +177,10 @@ def build_plan(
             ),
             (),
             "pre_blind_resolution_context",
+            process_improvement_input_path=(
+                f"{root}/process_improvement/"
+                "coordinator-pre_blind_resolution.snapshot.md"
+            ),
         ),
         StagePlan(
             "checker_recheck",
@@ -201,7 +219,10 @@ def build_plan(
         StagePlan(
             "post_blind_resolution",
             "llm",
-            ("prompts/post_blind_resolution_v1.md",),
+            (
+                "prompts/post_blind_resolution_v1.md",
+                "prompts/process_improvement_learning_delta_v2.md",
+            ),
             (
                 "latest entry body",
                 "sealed final-blind findings only",
@@ -214,6 +235,10 @@ def build_plan(
             ),
             (),
             "post_blind_resolution_context",
+            process_improvement_input_path=(
+                f"{root}/process_improvement/"
+                "coordinator-post_blind_resolution.snapshot.md"
+            ),
         ),
         StagePlan(
             "final_review",
@@ -336,33 +361,14 @@ def plan_payload(
 
 
 def initialize_cost_metrics(
-    plan: dict[str, Any], *, repo_root: Path = REPO_ROOT
+    plan: dict[str, Any],
+    *,
+    repo_root: Path = REPO_ROOT,
+    pi_context: dict[str, Any] | None = None,
 ) -> dict[str, Any]:
-    if (repo_root / "process_improvement" / "retirement_state.json").is_file():
-        retirement_errors = process_improvement.validate_retirement_state(repo_root)
-        if retirement_errors:
-            raise ValueError("; ".join(retirement_errors))
-    records, errors = process_improvement._load_records(repo_root)
-    if errors and (repo_root / "process_improvement" / "records").exists():
-        raise ValueError("; ".join(errors))
-    if errors:
-        records = []
-    process_rules = []
-    for record in records:
-        if record.get("status") not in {"trial", "active"}:
-            continue
-        rule_bytes = len(str(record.get("action_rule", "")).encode("utf-8"))
-        process_rules.append(
-            {
-                "id": str(record["id"]),
-                "status": str(record["status"]),
-                "instruction_bytes": rule_bytes,
-                "input_bytes": 0,
-                "duration_seconds": 0.0,
-                "defects_detected": 0,
-                "completed": False,
-            }
-        )
+    snapshots = (
+        pi_context.get("snapshots", []) if isinstance(pi_context, dict) else []
+    )
     stages = []
     for item in plan["stages"]:
         stages.append(
@@ -395,7 +401,22 @@ def initialize_cost_metrics(
         "completed_at": "",
         "stages": stages,
         "checker_passes": checker_passes,
-        "process_rules": process_rules,
+        # Kept as an empty compatibility collection for historical
+        # workflow_cost_v1 readers. v2 never encodes unmeasured results as zero.
+        "process_rules": [],
+        "process_improvement": {
+            "selection_input_bytes": sum(
+                int(item.get("input_bytes", 0))
+                for item in snapshots
+                if isinstance(item, dict)
+            ),
+            "machine_duration_seconds": sum(
+                float(item.get("machine_duration_seconds", 0.0))
+                for item in snapshots
+                if isinstance(item, dict)
+            ),
+            "additional_llm_calls": 0,
+        },
     }
 
 
@@ -405,6 +426,348 @@ def initialize_orchestrator_state(plan: dict[str, Any]) -> dict[str, Any]:
         "completed_stages": ["guard_start"],
         "stage_outputs": {},
     }
+
+
+PI_WORKFLOW_SCHEMA_VERSION = "workflow_process_improvement_v2"
+PI_LEARNING_STAGES = {
+    "generation",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+}
+
+
+def _pi_stage_definition(
+    manifest: dict[str, Any], stage_name: str
+) -> dict[str, Any] | None:
+    orchestrator = manifest.get("orchestrator")
+    if not isinstance(orchestrator, dict):
+        return None
+    for stage in orchestrator.get("stages", []):
+        if isinstance(stage, dict) and stage.get("name") == stage_name:
+            return stage
+    return None
+
+
+def _pi_snapshot_path(
+    manifest: dict[str, Any], stage_name: str, repo_root: Path
+) -> Path | None:
+    stage = _pi_stage_definition(manifest, stage_name)
+    if not isinstance(stage, dict) or not stage.get(
+        "process_improvement_input_path"
+    ):
+        return None
+    relative = str(stage["process_improvement_input_path"]).replace(
+        "{run_id}", str(manifest["run_id"])
+    )
+    return repo_root / relative
+
+
+def _pi_recipient(stage_name: str) -> str:
+    return "generator" if stage_name == "generation" else "coordinator"
+
+
+def _fallback_pi_snapshot(
+    *,
+    manifest: dict[str, Any],
+    stage_name: str,
+    path: Path,
+    error: str,
+    repo_root: Path,
+) -> dict[str, Any]:
+    created_at = guard._format_time(datetime.now(timezone.utc))
+    text = (
+        "# Process-improvement fallback\n\n"
+        "PIの選択または読込に失敗したため、この工程はPIなしで続行します。"
+        "既存の品質検証・レビュー・公開条件はすべて維持します。\n"
+    )
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(text, encoding="utf-8")
+    snapshot = {
+        "schema_version": process_improvement.SNAPSHOT_SCHEMA_VERSION,
+        "knowledge_epoch": manifest.get("process_improvement", {}).get(
+            "knowledge_epoch", "unavailable"
+        ),
+        "recipient": _pi_recipient(stage_name),
+        "phase": stage_name,
+        "features": [],
+        "limits": {
+            "max_items": process_improvement.DEFAULT_MAX_ITEMS,
+            "max_bytes": process_improvement.DEFAULT_MAX_BYTES,
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": len(text.encode("utf-8")),
+        "input_sha256": hashlib.sha256(text.encode("utf-8")).hexdigest(),
+        "run_id": str(manifest["run_id"]),
+        "created_at": created_at,
+        "snapshot_path": path.relative_to(repo_root).as_posix(),
+        "machine_duration_seconds": 0.0,
+        "additional_llm_calls": 0,
+        "fallback": {"status": "selection_error", "reason": error},
+    }
+    path.with_suffix(".json").write_text(
+        json.dumps(snapshot, ensure_ascii=False, indent=2) + "\n",
+        encoding="utf-8",
+    )
+    return snapshot
+
+
+def refresh_process_improvement_input(
+    manifest: dict[str, Any],
+    *,
+    stage_name: str,
+    features: Iterable[str] = (),
+    repo_root: Path = REPO_ROOT,
+) -> dict[str, Any] | None:
+    """Select and freeze the actual PI input for one generator/coordinator stage."""
+
+    path = _pi_snapshot_path(manifest, stage_name, repo_root)
+    if path is None:
+        return None
+    context = manifest.setdefault(
+        "process_improvement",
+        {
+            "schema_version": PI_WORKFLOW_SCHEMA_VERSION,
+            "knowledge_epoch": "unavailable",
+            "features": [],
+            "snapshots": [],
+            "processing": {},
+            "pending_events": [],
+            "selection_errors": [],
+        },
+    )
+    feature_set = {str(item) for item in features if str(item).strip()}
+    context["features"] = sorted(feature_set)
+    try:
+        snapshot = process_improvement.create_input_snapshot(
+            run_id=str(manifest["run_id"]),
+            recipient=_pi_recipient(stage_name),
+            phase=stage_name,
+            output_path=path,
+            features=feature_set,
+            repo_root=repo_root,
+        )
+    except (OSError, ValueError) as exc:
+        snapshot = _fallback_pi_snapshot(
+            manifest=manifest,
+            stage_name=stage_name,
+            path=path,
+            error=str(exc),
+            repo_root=repo_root,
+        )
+        context["selection_errors"].append(
+            {"stage": stage_name, "error": str(exc), "recorded_at": snapshot["created_at"]}
+        )
+    snapshot["stage"] = stage_name
+    existing = [
+        item
+        for item in context["snapshots"]
+        if not isinstance(item, dict) or item.get("stage") != stage_name
+    ]
+    context["snapshots"] = [*existing, snapshot]
+    return snapshot
+
+
+def initialize_process_improvement_context(
+    manifest: dict[str, Any], *, repo_root: Path = REPO_ROOT
+) -> dict[str, Any]:
+    try:
+        epoch = process_improvement.current_epoch(repo_root)
+    except ValueError:
+        epoch = "unavailable"
+    context = {
+        "schema_version": PI_WORKFLOW_SCHEMA_VERSION,
+        "knowledge_epoch": epoch,
+        "features": [],
+        "snapshots": [],
+        "processing": {},
+        "pending_events": [],
+        "selection_errors": [],
+    }
+    manifest["process_improvement"] = context
+    refresh_process_improvement_input(
+        manifest,
+        stage_name="generation",
+        features={f"workflow:{manifest.get('profile', 'standard')}"},
+        repo_root=repo_root,
+    )
+    return context
+
+
+def _snapshot_for_stage(
+    manifest: dict[str, Any], stage_name: str
+) -> dict[str, Any] | None:
+    context = manifest.get("process_improvement")
+    if not isinstance(context, dict):
+        return None
+    for snapshot in context.get("snapshots", []):
+        if isinstance(snapshot, dict) and snapshot.get("stage") == stage_name:
+            return snapshot
+    return None
+
+
+def ensure_process_improvement_input(
+    manifest: dict[str, Any], *, stage_name: str, repo_root: Path = REPO_ROOT
+) -> dict[str, Any] | None:
+    existing = _snapshot_for_stage(manifest, stage_name)
+    if existing is not None:
+        return existing
+    context = manifest.get("process_improvement", {})
+    features = context.get("features", []) if isinstance(context, dict) else []
+    return refresh_process_improvement_input(
+        manifest,
+        stage_name=stage_name,
+        features=features if isinstance(features, list) else [],
+        repo_root=repo_root,
+    )
+
+
+def _learning_source(
+    manifest: dict[str, Any], *, stage: str, path: Path, repo_root: Path
+) -> dict[str, Any]:
+    content = path.read_bytes()
+    digest = hashlib.sha256(content).hexdigest()
+    return {
+        "event_id": f"workflow:{manifest['run_id']}:{stage}:{digest[:12]}",
+        "knowledge_epoch": manifest["process_improvement"]["knowledge_epoch"],
+        "origin_kind": "workflow",
+        "source_ref": path.relative_to(repo_root).as_posix(),
+        "observed_at": guard._format_time(datetime.now(timezone.utc)),
+        "content_sha256": digest,
+    }
+
+
+def process_stage_learning(
+    manifest: dict[str, Any],
+    *,
+    stage: str,
+    output_paths: Iterable[str],
+    repo_root: Path = REPO_ROOT,
+) -> dict[str, Any] | None:
+    if stage not in PI_LEARNING_STAGES:
+        return None
+    context = manifest.get("process_improvement")
+    if not isinstance(context, dict) or context.get("schema_version") != PI_WORKFLOW_SCHEMA_VERSION:
+        return None
+    candidates: list[tuple[Path, dict[str, Any]]] = []
+    source_refs: list[str] = []
+    for relative in output_paths:
+        path = repo_root / relative.rstrip("/")
+        if path.suffix != ".json" or not path.is_file():
+            continue
+        source_refs.append(relative)
+        try:
+            value = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            continue
+        if isinstance(value, dict) and isinstance(value.get("learning_delta"), dict):
+            candidates.append((path, value["learning_delta"]))
+    processing = context.setdefault("processing", {})
+    if not candidates:
+        result = {
+            "status": "pending",
+            "source_refs": source_refs,
+            "reason": "saved stage output has no coordinator learning_delta decision",
+            "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+        }
+        processing[stage] = result
+        return result
+    if len(candidates) > 1:
+        result = {
+            "status": "save_error",
+            "source_refs": [path.relative_to(repo_root).as_posix() for path, _ in candidates],
+            "reason": "multiple learning_delta payloads found for one stage",
+            "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+        }
+        processing[stage] = result
+        return result
+    path, delta = candidates[0]
+    try:
+        receipt = process_improvement.ingest_learning_delta(
+            _learning_source(manifest, stage=stage, path=path, repo_root=repo_root),
+            delta,
+            repo_root=repo_root,
+        )
+    except (OSError, ValueError) as exc:
+        result = {
+            "status": "save_error",
+            "source_refs": [path.relative_to(repo_root).as_posix()],
+            "reason": str(exc),
+            "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+        }
+    else:
+        status = str(receipt.get("status"))
+        result = {
+            "status": (
+                status
+                if status in process_improvement.PI_PROCESSING_STATUSES
+                else "save_error"
+            ),
+            "source_refs": [path.relative_to(repo_root).as_posix()],
+            "receipt_event_id": receipt.get("event_id"),
+            "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+        }
+    processing[stage] = result
+    return result
+
+
+def retry_pending_process_improvement(
+    manifest: dict[str, Any], *, repo_root: Path = REPO_ROOT
+) -> None:
+    context = manifest.get("process_improvement")
+    state = manifest.get("orchestrator_state")
+    if not isinstance(context, dict) or not isinstance(state, dict):
+        return
+    outputs = state.get("stage_outputs", {})
+    for stage, result in list(context.get("processing", {}).items()):
+        if (
+            isinstance(result, dict)
+            and result.get("status") in {"pending", "save_error"}
+            and isinstance(outputs, dict)
+            and isinstance(outputs.get(stage), list)
+        ):
+            process_stage_learning(
+                manifest,
+                stage=stage,
+                output_paths=outputs[stage],
+                repo_root=repo_root,
+            )
+
+
+def record_pending_process_event(
+    manifest: dict[str, Any], *, kind: str, stage: str, fact: str
+) -> None:
+    context = manifest.get("process_improvement")
+    if not isinstance(context, dict):
+        return
+    event = {
+        "event_id": (
+            f"pending:{manifest.get('run_id')}:{stage}:"
+            f"{hashlib.sha256(fact.encode('utf-8')).hexdigest()[:12]}"
+        ),
+        "knowledge_epoch": context.get("knowledge_epoch"),
+        "kind": kind,
+        "stage": stage,
+        "fact": fact,
+        "status": "pending",
+        "recorded_at": guard._format_time(datetime.now(timezone.utc)),
+    }
+    pending = context.setdefault("pending_events", [])
+    if not any(
+        isinstance(item, dict) and item.get("event_id") == event["event_id"]
+        for item in pending
+    ):
+        pending.append(event)
+
+
+def _pending_stage_name(manifest: dict[str, Any]) -> str:
+    try:
+        request = next_stage_request(manifest)
+    except ValueError:
+        request = None
+    if isinstance(request, dict) and request.get("name"):
+        return str(request["name"])
+    return str(manifest.get("stage", "unknown"))
 
 
 def _cost_row(metrics: dict[str, Any], collection: str, item_id: str) -> dict[str, Any]:
@@ -509,6 +872,10 @@ def next_stage_request(manifest: dict[str, Any]) -> dict[str, Any] | None:
         stage["input_packet_path"] = str(stage["input_packet_path"]).replace(
             "{run_id}", run_id
         )
+    if stage.get("process_improvement_input_path"):
+        stage["process_improvement_input_path"] = str(
+            stage["process_improvement_input_path"]
+        ).replace("{run_id}", run_id)
     return stage
 
 
@@ -1755,6 +2122,51 @@ def complete_orchestrated_stage(
             raise ValueError(
                 "stage outputs do not exist: " + ", ".join(missing)
             )
+    snapshot = _snapshot_for_stage(manifest, stage)
+    if snapshot is not None and not snapshot.get("fallback"):
+        try:
+            process_improvement.record_snapshot_delivery(
+                snapshot, repo_root=repo_root
+            )
+        except (OSError, ValueError) as exc:
+            context = manifest.get("process_improvement")
+            if isinstance(context, dict):
+                context.setdefault("selection_errors", []).append(
+                    {
+                        "stage": stage,
+                        "error": f"delivery observation save failed: {exc}",
+                        "recorded_at": guard._format_time(
+                            datetime.now(timezone.utc)
+                        ),
+                    }
+                )
+    process_stage_learning(
+        manifest,
+        stage=stage,
+        output_paths=expected_outputs,
+        repo_root=repo_root,
+    )
+    if stage == "generation":
+        for relative in expected_outputs:
+            path = repo_root / relative
+            if path.suffix != ".json" or not path.is_file():
+                continue
+            try:
+                generation_output = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            features = (
+                generation_output.get("entry_features")
+                if isinstance(generation_output, dict)
+                else None
+            )
+            if isinstance(features, list) and all(
+                isinstance(item, str) for item in features
+            ):
+                context = manifest.get("process_improvement")
+                if isinstance(context, dict):
+                    context["features"] = sorted(set(features))
+                break
     record_cost(
         manifest,
         collection="stages",
@@ -1809,6 +2221,28 @@ def complete_orchestrated_stage(
     state["completed_stages"].append(stage)
     state["next_stage_index"] = int(state["next_stage_index"]) + 1
     state["stage_outputs"][stage] = expected_outputs
+    next_request = next_stage_request(manifest)
+    if next_request is not None:
+        ensure_process_improvement_input(
+            manifest,
+            stage_name=str(next_request["name"]),
+            repo_root=repo_root,
+        )
+    pi_context = manifest.get("process_improvement")
+    pi_metrics = manifest.get("metrics", {}).get("process_improvement")
+    if isinstance(pi_context, dict) and isinstance(pi_metrics, dict):
+        snapshots = [
+            item
+            for item in pi_context.get("snapshots", [])
+            if isinstance(item, dict)
+        ]
+        pi_metrics["selection_input_bytes"] = sum(
+            int(item.get("input_bytes", 0)) for item in snapshots
+        )
+        pi_metrics["machine_duration_seconds"] = sum(
+            float(item.get("machine_duration_seconds", 0.0))
+            for item in snapshots
+        )
     if stage == "export":
         finalize_cost_metrics(manifest, now=current)
 
@@ -1863,8 +2297,11 @@ def create_guard_manifest(
     manifest["orchestrator"] = plan_payload(
         headword, repo_root, reviewer_mode=reviewer_mode
     )
+    initialize_process_improvement_context(manifest, repo_root=repo_root)
     manifest["metrics"] = initialize_cost_metrics(
-        manifest["orchestrator"], repo_root=repo_root
+        manifest["orchestrator"],
+        repo_root=repo_root,
+        pi_context=manifest["process_improvement"],
     )
     manifest["orchestrator_state"] = initialize_orchestrator_state(
         manifest["orchestrator"]
@@ -1964,9 +2401,17 @@ def start_workflow(
         reason=reason,
         reviewer_mode=reviewer_mode,
     )
+    pi_paths: list[Path] = []
+    pi_context = manifest.get("process_improvement")
+    if isinstance(pi_context, dict):
+        for snapshot in pi_context.get("snapshots", []):
+            if not isinstance(snapshot, dict) or not snapshot.get("snapshot_path"):
+                continue
+            snapshot_path = repo_root / str(snapshot["snapshot_path"])
+            pi_paths.extend((snapshot_path, snapshot_path.with_suffix(".json")))
     start_sha = _commit_and_push(
         repo_root,
-        (run_path,),
+        (run_path, *pi_paths),
         f"workflow({slugify(headword)}): initialize guarded run",
     )
     if not guard.confirm_remote_checkpoint(
@@ -2002,6 +2447,12 @@ def _report_review_failure(
     running = guard.record_review_ingest_failure(
         manifest, stage=stage, error=str(error)
     )
+    record_pending_process_event(
+        manifest,
+        kind="review_failure",
+        stage=stage,
+        fact=str(error),
+    )
     guard._write(run_path, manifest)
     payload = {
         "status": manifest["status"],
@@ -2027,7 +2478,38 @@ def _resume(
 ) -> int:
     resolved = path.resolve()
     manifest = guard._read(resolved)
+    if not isinstance(manifest.get("process_improvement"), dict):
+        try:
+            epoch = process_improvement.current_epoch(REPO_ROOT)
+        except ValueError:
+            epoch = "unavailable"
+        manifest["process_improvement"] = {
+            "schema_version": PI_WORKFLOW_SCHEMA_VERSION,
+            "knowledge_epoch": epoch,
+            "features": [],
+            "snapshots": [],
+            "processing": {},
+            "pending_events": [],
+            "selection_errors": [],
+        }
+        record_pending_process_event(
+            manifest,
+            kind="legacy_run_resume",
+            stage=_pending_stage_name(manifest),
+            fact=(
+                "Run began before the current knowledge epoch; only newly saved "
+                "post-resume events may be ingested."
+            ),
+        )
+    retry_pending_process_improvement(manifest, repo_root=REPO_ROOT)
     ok = heartbeat_manifest(manifest)
+    if not ok:
+        record_pending_process_event(
+            manifest,
+            kind="budget_exhausted",
+            stage=_pending_stage_name(manifest),
+            fact=str(manifest.get("stop_reason", "workflow budget exhausted")),
+        )
     guard._write(resolved, manifest)
     if not ok:
         print(
@@ -2063,6 +2545,13 @@ def _resume(
             )
         guard.clear_review_ingest_failures(manifest)
     next_request = next_stage_request(manifest)
+    if next_request is not None:
+        ensure_process_improvement_input(
+            manifest,
+            stage_name=str(next_request["name"]),
+            repo_root=REPO_ROOT,
+        )
+        guard._write(resolved, manifest)
     handoff_path: Path | None = None
     review_request_paths: list[Path] = []
     if (

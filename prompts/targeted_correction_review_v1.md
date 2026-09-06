@@ -47,3 +47,7 @@ A passing targeted review is recorded under `audits/targeted_corrections/<slug>/
 - `review.verdict: pass`
 
 The record is an audit receipt for the scoped check; it is not evidence that untouched entry content was re-reviewed.
+
+## Process-improvement output
+
+Review the changed hunks for a reusable learning only as part of this existing targeted review; do not add a full-entry review or another LLM call. Return the `learning_delta` contract from `prompts/process_improvement_learning_delta_v2.md`. An empty `items` array is valid. Omitting the decision means PI processing is pending, not that no learning exists. The correction CLI feeds this field through the same v2 ingestion path used by normal workflow runs.
