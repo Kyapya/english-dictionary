@@ -1,0 +1,92 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "recorded_at": "2026-09-05T14:28:55Z",
+  "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "blind_request_sha256": "de4d5a22d5f36bb68a180272f77e755896c97574fdf8df6b6c020e3e5fd33136",
+  "reviewer": {
+    "agent_id": "codex-example-attribution-20260905T141130Z-ff81ed00",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-25e1d12d51fa",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["intense pain"],
+      "rationale": "intense pain directly denotes a very high degree of physical sensation, so sense:001 is the natural attribution. Sense:002 concerns high-intensity activity, and sense:003 concerns a person, gaze, expression, or relationship; neither explains pain itself."
+    },
+    {
+      "example_id": "ex-b3f2ac65d7bf",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["intense look"],
+      "rationale": "intense look describes a focused, sharp, emotionally charged gaze, which selects sense:003. Sense:001 can describe a high degree of a sensation or emotion, but it does not account for the gaze noun here; sense:002 is about activities rather than a look."
+    },
+    {
+      "example_id": "ex-cb04af21db8d",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["intense person"],
+      "rationale": "intense person applies the adjective directly to a person with a strong presence and forceful disposition, selecting sense:003. Sense:001 describes the degree of an emotion or sensation rather than a person, while sense:002 would require an intense activity, not an intense person."
+    },
+    {
+      "example_id": "ex-c7a779959227",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["intense anger"],
+      "rationale": "intense anger names an emotion at very high strength, selecting sense:001. Sense:003 could describe an angry person's attitude, but the adjective modifies anger itself here rather than a person or relationship; sense:002 does not describe an activity."
+    },
+    {
+      "example_id": "ex-bc35cf22ddfe",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["intense competition"],
+      "rationale": "intense competition describes a high-intensity competitive activity, selecting sense:002. Sense:001 is a plausible degree-based competitor, but it is less natural because intense modifies an activity or contest process here, not a sensation, emotion, or other scalar property; sense:003 concerns people, gaze, expression, or relationships."
+    },
+    {
+      "example_id": "ex-c78d325b6a7d",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["intense heat"],
+      "rationale": "intense heat denotes heat at an exceptionally high degree, selecting sense:001. Sense:002 is a plausible competitor only because working outside is an activity, but intense modifies the heat rather than the work; sense:003 does not apply to heat."
+    },
+    {
+      "example_id": "ex-c58314b47f3f",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["intense relationship"],
+      "rationale": "intense relationship describes a strongly bound, emotionally close relationship with little emotional distance, selecting sense:003. Sense:001 could describe the degree of an emotion within the relationship, but it does not describe the relationship as the grammatical target; sense:002 concerns activities rather than relationships."
+    },
+    {
+      "example_id": "ex-f1e955ad00f8",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["under intense pressure"],
+      "rationale": "under intense pressure describes pressure exerted at very high strength on the manager, selecting sense:001. Sense:002 is a plausible competitor because pressure can accompany heavy workload, but the adjective modifies the pressure state itself, not an activity; sense:003 does not describe this noun phrase."
+    },
+    {
+      "example_id": "ex-c0515c965203",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["intense activity"],
+      "rationale": "intense activity describes a period in which activity is very high and busy, selecting sense:002. Sense:001 could express a high degree in the abstract, but its emotion, sensation, pain, heat, color, interest, or pressure uses do not fit activity as the target; sense:003 concerns people or relationships."
+    },
+    {
+      "example_id": "ex-33ef2dd0d600",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["intense interest"],
+      "rationale": "intense interest denotes very strong attention or concern, selecting sense:001. Sense:003 might be considered because researchers are people, but intense modifies their interest rather than their attitude or expression; sense:002 concerns high-intensity activities, not interest itself."
+    },
+    {
+      "example_id": "ex-c7f6b746a601",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["intense blue"],
+      "rationale": "intense blue describes the color as highly saturated or vivid, selecting sense:001. Sense:002 concerns activities and sense:003 concerns people, gaze, expression, or relationships; neither can account for blue as the noun phrase's color target."
+    }
+  ]
+}

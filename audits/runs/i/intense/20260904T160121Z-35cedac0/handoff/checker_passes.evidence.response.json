@@ -1,0 +1,28 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d38-e5c8-7000-8cf3-29302d8440a8"
+  },
+  "status": "hold",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。第1音節は弱めの /ɪn/ で、綴りの -tense は /tens/ と発音する。  "
+      },
+      "severity": "blocking",
+      "rationale": "入力パケットには source inventory、fact、claim unit、evidence link ID、locator、反例・矛盾探索結果が含まれていないため、この発音主張への直接支持と適用範囲を確認できない。同じ欠落が全入力セクションに及ぶため、根拠対応の判定を完了できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "source-firstのsource inventory・fact・claim unitと、各主張に直接適用できるlocator付きevidence linkを補充するまでhold。"
+    }
+  ],
+  "records": []
+}

@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "pronunciation",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d38-e0b1-7692-9ff4-bb671eee00a8"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 17,
+        "line_end": 17,
+        "exact_quote": "intensive /ɪnˈtensɪv/ と発音の始まりは似ているが、intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。  "
+      },
+      "severity": "blocking",
+      "rationale": "intense の提示IPA /ɪnˈtens/ の語末は /tens/ であり、/ens/ ではない。説明が語末の /t/ を落としており、IPAと矛盾する。",
+      "evidence_link_ids": [],
+      "suggested_direction": "intense の語末を /tens/ に修正し、intensive の語末 /ɪv/ との差分として説明する。"
+    }
+  ],
+  "records": []
+}

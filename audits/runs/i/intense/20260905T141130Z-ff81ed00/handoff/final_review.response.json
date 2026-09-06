@@ -1,0 +1,1553 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-intense-20260905T141130Z-ff81ed00",
+  "context_id": "blind-intense-context-20260905T141130Z-ff81ed00",
+  "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "prompt_sha256": "3158e690b19b0f822a032dffa1cbfe1d38d64a0de2c1dba582554fa2b729f117",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings",
+    "resolutions",
+    "sealed_final_blind",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "65ec4b01afb4bf86022fffa6316dc3ea04cae7e810476878200676b59c88614d",
+  "recorded_at": "2026-09-05T23:59:00+09:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-final-review-intense-20260905T141130Z-ff81ed00"
+  },
+  "latest_revised_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "sealed_blind_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "hash_check": {
+    "status": "pass",
+    "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "latest_revised_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "sealed_blind_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "blind_output_sha256": "65ec4b01afb4bf86022fffa6316dc3ea04cae7e810476878200676b59c88614d",
+    "seal_blind_output_sha256": "65ec4b01afb4bf86022fffa6316dc3ea04cae7e810476878200676b59c88614d"
+  },
+  "resolution_check": {
+    "status": "fail",
+    "total": 21,
+    "resolved_records": 21,
+    "hold_records": 0,
+    "final_failed_findings": 16,
+    "notes": "21件の resolution record は形式上 resolved だが、16件は採否理由または根拠が本文 blocker を解消せず、最終 finding result が fail である。"
+  },
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。Oxford と Merriam-Webster の発音情報に一致し、第2音節強勢と /s/ を正しく示す。",
+      "notes": "exact_quote「米・英: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。Oxford と Merriam-Webster の発音情報に一致し、第2音節強勢と /s/ を正しく示す。"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「15世紀初頭に、フランス語を経てラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。intensus は intendere の過去分詞に由来する。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。F-009/F-013 または中心義の複数辞書記録と整合し、時代・経路・現代義の方向を誤らせない。",
+      "notes": "exact_quote「15世紀初頭に、フランス語を経てラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。intensus は intendere の過去分詞に由来する。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。F-009/F-013 または中心義の複数辞書記録と整合し、時代・経路・現代義の方向を誤らせない。"
+    },
+    {
+      "id": "etymology:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「現在の intense は、程度・力・感情などの強度や度合いが非常に高いことを表す。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。F-009/F-013 または中心義の複数辞書記録と整合し、時代・経路・現代義の方向を誤らせない。",
+      "notes": "exact_quote「現在の intense は、程度・力・感情などの強度や度合いが非常に高いことを表す。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。F-009/F-013 または中心義の複数辞書記録と整合し、時代・経路・現代義の方向を誤らせない。"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intensity（名詞）— 強度、激しさ。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。当該派生形の品詞・基本義は F-015〜F-019 の対応 fact と一致する。",
+      "notes": "exact_quote「・intensity（名詞）— 強度、激しさ。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。当該派生形の品詞・基本義は F-015〜F-019 の対応 fact と一致する。"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。当該派生形の品詞・基本義は F-015〜F-019 の対応 fact と一致する。",
+      "notes": "exact_quote「・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。当該派生形の品詞・基本義は F-015〜F-019 の対応 fact と一致する。"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense/intensive の対比は、F-005 が直接示す「感情を示唆し得る intense／より客観的な intensive」と短期活動での重なりを越え、速度・負荷対密度・徹底性・範囲という境界まで一般化している。",
+      "notes": "exact_quote「・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense/intensive の対比は、F-005 が直接示す「感情を示唆し得る intense／より客観的な intensive」と短期活動での重なりを越え、速度・負荷対密度・徹底性・範囲という境界まで一般化している。"
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intensification（名詞）— 強化、激化。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。当該派生形の品詞・基本義は F-015〜F-019 の対応 fact と一致する。",
+      "notes": "exact_quote「・intensification（名詞）— 強化、激化。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。当該派生形の品詞・基本義は F-015〜F-019 の対応 fact と一致する。"
+    },
+    {
+      "id": "core_image:001",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「程度・力・エネルギー・感情の強度や度合いが非常に高い。活動や行動では、その高強度が活動量・速度・忙しさ・負荷の大きさとして現れる。人・視線・表情・関係では、強い感情や態度、鋭さ、または強い相互作用として現れる。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。活動用法について活動量・速度・忙しさ・負荷を一括して高強度の現れとするため、intense competition/debate の激しさを速度や量へ誤一般化させる。",
+      "notes": "exact_quote「程度・力・エネルギー・感情の強度や度合いが非常に高い。活動や行動では、その高強度が活動量・速度・忙しさ・負荷の大きさとして現れる。人・視線・表情・関係では、強い感情や態度、鋭さ、または強い相互作用として現れる。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。活動用法について活動量・速度・忙しさ・負荷を一括して高強度の現れとするため、intense competition/debate の激しさを速度や量へ誤一般化させる。"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（語義1）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。",
+      "notes": "exact_quote「・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（語義1）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。"
+    },
+    {
+      "id": "core_image:003",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・活動や行動の強度・活動量・速度・忙しさ・負荷が非常に高い → 「激しい、活動量の多い」（語義2）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。活動・行動の強度に加えて活動量・速度・忙しさ・負荷のすべてを「非常に高い」と並列し、対象ごとの作用範囲を区別していない。",
+      "notes": "exact_quote「・活動や行動の強度・活動量・速度・忙しさ・負荷が非常に高い → 「激しい、活動量の多い」（語義2）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。活動・行動の強度に加えて活動量・速度・忙しさ・負荷のすべてを「非常に高い」と並列し、対象ごとの作用範囲を区別していない。"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・人が強い感情や態度を持つ／そうした印象を与える → 「感情や態度の強い」（語義3）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。",
+      "notes": "exact_quote「・人が強い感情や態度を持つ／そうした印象を与える → 「感情や態度の強い」（語義3）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。",
+      "notes": "exact_quote「・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・関係の感情的な結びつきや相互作用が強い → 「張り詰めた、濃密な」（語義3）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。",
+      "notes": "exact_quote「・関係の感情的な結びつきや相互作用が強い → 「張り詰めた、濃密な」（語義3）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対応する語義の強度方向を保ち、肯否や対象役割を逆転させていない。"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「1. 【形容詞・限定／叙述】強烈な、非常に強い」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。見出しは後続定義の対象範囲と整合し、独立義の粒度自体は学習上許容できる。",
+      "notes": "exact_quote「1. 【形容詞・限定／叙述】強烈な、非常に強い」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。見出しは後続定義の対象範囲と整合し、独立義の粒度自体は学習上許容できる。"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が非常に高いこと。intense pleasure「非常に強い喜び」のように、好ましい対象にも使う。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対象、程度、評価方向が辞書の中心義と一致し、好ましい／好ましくない対象を不当に限定しない。",
+      "notes": "exact_quote「感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が非常に高いこと。intense pleasure「非常に強い喜び」のように、好ましい対象にも使う。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。対象、程度、評価方向が辞書の中心義と一致し、好ましい／好ましくない対象を不当に限定しない。"
+    },
+    {
+      "id": "frequency:001",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「〈6/10〉」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈6/10〉を再現できる corpus rank、算定式、語義別データが入力根拠に記録されていない。",
+      "notes": "exact_quote「〈6/10〉」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈6/10〉を再現できる corpus rank、算定式、語義別データが入力根拠に記録されていない。"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「※Oxford 5000ではC1レベル。〈6/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。Oxford 公式の現行 word list は intense adjective を B2 と表示しており、「Oxford 5000ではC1レベル」と F-021/U-008 は一致しない。6/10 の算定根拠も未提示である。",
+      "notes": "exact_quote「※Oxford 5000ではC1レベル。〈6/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。Oxford 公式の現行 word list は intense adjective を B2 と表示しており、「Oxford 5000ではC1レベル」と F-021/U-008 は一致しない。6/10 の算定根拠も未提示である。"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「一般語として使われる形容詞。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。一般形容詞という分類に反する地域・専門・制度限定は確認されない。",
+      "notes": "exact_quote「一般語として使われる形容詞。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。一般形容詞という分類に反する地域・専門・制度限定は確認されない。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「intense + 〈感情・感覚・性質・熱・色などを表す名詞〉＝程度・強度が非常に高い～」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。",
+      "notes": "exact_quote「intense + 〈感情・感覚・性質・熱・色などを表す名詞〉＝程度・強度が非常に高い～」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「intense energy・determination・concentration＝エネルギー・決意・集中の強度が非常に高い」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。",
+      "notes": "exact_quote「intense energy・determination・concentration＝エネルギー・決意・集中の強度が非常に高い」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「under intense pressure/scrutiny＝強い圧力・厳しい監視・精査の下で」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。",
+      "notes": "exact_quote「under intense pressure/scrutiny＝強い圧力・厳しい監視・精査の下で」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense pain\n用途: 身体的な痛みが非常に強いことを表す。\n例: He felt intense pain in his lower back.\n訳: 彼は腰の下部に激しい痛みを感じた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense pain\n用途: 身体的な痛みが非常に強いことを表す。\n例: He felt intense pain in his lower back.\n訳: 彼は腰の下部に激しい痛みを感じた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense heat\n用途: 暑さや熱が非常に強いことを表す。\n例: The intense heat made it dangerous to work outside.\n訳: 強烈な暑さのため、屋外で働くのは危険だった。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense heat\n用途: 暑さや熱が非常に強いことを表す。\n例: The intense heat made it dangerous to work outside.\n訳: 強烈な暑さのため、屋外で働くのは危険だった。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense pressure\n用途: 外部からかかる重圧や心理的な圧力が非常に強いことを表す。\n例: The new manager is under intense pressure to improve the results.\n訳: 新しい管理職は、業績を改善するよう非常に強い重圧を受けている。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense pressure\n用途: 外部からかかる重圧や心理的な圧力が非常に強いことを表す。\n例: The new manager is under intense pressure to improve the results.\n訳: 新しい管理職は、業績を改善するよう非常に強い重圧を受けている。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense interest\n用途: ある対象に向けられる関心が非常に強いことを表す。\n例: The discovery attracted intense interest from researchers around the world.\n訳: その発見は世界中の研究者から強い関心を集めた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense interest\n用途: ある対象に向けられる関心が非常に強いことを表す。\n例: The discovery attracted intense interest from researchers around the world.\n訳: その発見は世界中の研究者から強い関心を集めた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense anger\n用途: 怒りの感情が非常に強いことを表す。\n例: The decision provoked intense anger among local residents.\n訳: その決定は地元住民の激しい怒りを引き起こした。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense anger\n用途: 怒りの感情が非常に強いことを表す。\n例: The decision provoked intense anger among local residents.\n訳: その決定は地元住民の激しい怒りを引き起こした。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense blue\n用途: 色の鮮やかさや彩度が際立ち、強い印象を与えることを表す。\n例: The intense blue of the lake stood out against the white snow.\n訳: 湖の鮮やかな青が白い雪を背景に際立っていた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense blue\n用途: 色の鮮やかさや彩度が際立ち、強い印象を与えることを表す。\n例: The intense blue of the lake stood out against the white snow.\n訳: 湖の鮮やかな青が白い雪を背景に際立っていた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「intense は感情、感覚、熱、色、関心、圧力など、強さの対象を表す名詞と結びつく。intense colour/blue では色の鮮やかさ・彩度、intense scrutiny では精査・吟味の厳しさも表す。extreme と重なる場合があるが、extreme は通常の範囲や限界からの逸脱、intense は経験される強さ・圧・力の高さに焦点を置きやすい。intense pleasure のような好ましい対象にも、intense pain や intense anger のような好ましくない対象にも使える。類義語欄の頻度スコアも、コーパス全体の頻度と辞書情報を参照した編集上の目安であり、各語義の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。extreme と intense の詳細な焦点差および類義語頻度スコアについて、U-001/U-009 は近接語集合までしか直接支えず、主張単位の根拠が不足する。",
+      "notes": "exact_quote「intense は感情、感覚、熱、色、関心、圧力など、強さの対象を表す名詞と結びつく。intense colour/blue では色の鮮やかさ・彩度、intense scrutiny では精査・吟味の厳しさも表す。extreme と重なる場合があるが、extreme は通常の範囲や限界からの逸脱、intense は経験される強さ・圧・力の高さに焦点を置きやすい。intense pleasure のような好ましい対象にも、intense pain や intense anger のような好ましくない対象にも使える。類義語欄の頻度スコアも、コーパス全体の頻度と辞書情報を参照した編集上の目安であり、各語義の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。extreme と intense の詳細な焦点差および類義語頻度スコアについて、U-001/U-009 は近接語集合までしか直接支えず、主張単位の根拠が不足する。"
+    },
+    {
+      "id": "synonym:001",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・strong\n定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。\n頻度: 〈8/10〉\n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。\n例: intense pain\n訳: 強い痛み。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・strong\n定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。\n頻度: 〈8/10〉\n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。\n例: intense pain\n訳: 強い痛み。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "synonym:002",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・extreme\n定義: 通常の範囲や限界から大きく外れた状態を表す関連語。\n頻度: 〈6/10〉\n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。\n例: intense heat\n訳: 強烈な暑さ。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・extreme\n定義: 通常の範囲や限界から大きく外れた状態を表す関連語。\n頻度: 〈6/10〉\n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。\n例: intense heat\n訳: 強烈な暑さ。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "synonym:003",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・powerful\n定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。\n頻度: 〈6/10〉\n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。\n例: intense interest\n訳: 強い関心。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・powerful\n定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。\n頻度: 〈6/10〉\n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。\n例: intense interest\n訳: 強い関心。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「2. 【形容詞・限定／叙述】激しい、活動量の多い」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。見出しは後続定義の対象範囲と整合し、独立義の粒度自体は学習上許容できる。",
+      "notes": "exact_quote「2. 【形容詞・限定／叙述】激しい、活動量の多い」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。見出しは後続定義の対象範囲と整合し、独立義の粒度自体は学習上許容できる。"
+    },
+    {
+      "id": "definition:002",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense competition/debate では激しさ・関与・緊張が中心になり得るのに、活動量・速度・忙しさ・負荷が大きいことを無限定に述べている。",
+      "notes": "exact_quote「活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense competition/debate では激しさ・関与・緊張が中心になり得るのに、活動量・速度・忙しさ・負荷が大きいことを無限定に述べている。"
+    },
+    {
+      "id": "frequency:002",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「〈5/10〉」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈5/10〉を裏づける語義別頻度または編集スコアの算定手順がなく、「目安」という注記だけでは頻度主張を検証できない。",
+      "notes": "exact_quote「〈5/10〉」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈5/10〉を裏づける語義別頻度または編集スコアの算定手順がなく、「目安」という注記だけでは頻度主張を検証できない。"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「※〈5/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈5/10〉が corpus に基づくという主張に対し、入力は corpus の項目形式しか示さず intense の実測値や語義配分を示していない。",
+      "notes": "exact_quote「※〈5/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈5/10〉が corpus に基づくという主張に対し、入力は corpus の項目形式しか示さず intense の実測値や語義配分を示していない。"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「一般語として使われる形容詞。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。一般形容詞という分類に反する地域・専門・制度限定は確認されない。",
+      "notes": "exact_quote「一般語として使われる形容詞。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。一般形容詞という分類に反する地域・専門・制度限定は確認されない。"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「intense + 〈活動・競争・議論・訓練など〉＝高い強度で行われ、活動量・速度・忙しさ・負荷が大きい活動・競争など」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense competition/debate を含むフレーム全体に活動量・速度・忙しさ・負荷の大きさを及ぼし、文脈依存の側面を必須のように提示する。",
+      "notes": "exact_quote「intense + 〈活動・競争・議論・訓練など〉＝高い強度で行われ、活動量・速度・忙しさ・負荷が大きい活動・競争など」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense competition/debate を含むフレーム全体に活動量・速度・忙しさ・負荷の大きさを及ぼし、文脈依存の側面を必須のように提示する。"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense competition\n用途: 競争の強度や激しさが非常に高いことを表す。\n例: There is intense competition for places at the top universities.\n訳: 一流大学の枠をめぐって激しい競争がある。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・intense competition\n用途: 競争の強度や激しさが非常に高いことを表す。\n例: There is intense competition for places at the top universities.\n訳: 一流大学の枠をめぐって激しい競争がある。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:008",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intense activity\n用途: 活動の強度・活動量・速度・忙しさ・負荷が非常に高いことを表す。\n例: The airport experienced a period of intense activity before the holiday.\n訳: その空港では休暇前に活動が非常に活発な時期があった。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense activity の用途説明で強度・活動量・速度・忙しさ・負荷をすべて非常に高いとし、例文が実現する「活発な時期」の範囲を越える。",
+      "notes": "exact_quote「・intense activity\n用途: 活動の強度・活動量・速度・忙しさ・負荷が非常に高いことを表す。\n例: The airport experienced a period of intense activity before the holiday.\n訳: その空港では休暇前に活動が非常に活発な時期があった。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense activity の用途説明で強度・活動量・速度・忙しさ・負荷をすべて非常に高いとし、例文が実現する「活発な時期」の範囲を越える。"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「intense は活動の強度・活動量・速度・忙しさ・負荷が高いことを表し、intensive は活動・訓練の集中度・密度・徹底性を表す傾向がある。intensive に期間・範囲の限定が伴うことは多いが必須ではなく、両語は活動用法で重なる場合がある。感情性・客観性だけを決め手にしない。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense/intensive の対比と活動側の速度・忙しさ・負荷、intensive 側の密度・徹底性・範囲について直接適用できる根拠が揃っていない。",
+      "notes": "exact_quote「intense は活動の強度・活動量・速度・忙しさ・負荷が高いことを表し、intensive は活動・訓練の集中度・密度・徹底性を表す傾向がある。intensive に期間・範囲の限定が伴うことは多いが必須ではなく、両語は活動用法で重なる場合がある。感情性・客観性だけを決め手にしない。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。intense/intensive の対比と活動側の速度・忙しさ・負荷、intensive 側の密度・徹底性・範囲について直接適用できる根拠が揃っていない。"
+    },
+    {
+      "id": "synonym:004",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・fierce\n定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。\n頻度: 〈6/10〉\n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。\n例: intense competition\n訳: 激しい競争。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・fierce\n定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。\n頻度: 〈6/10〉\n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。\n例: intense competition\n訳: 激しい競争。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "synonym:005",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・intensive\n定義: 活動・訓練などを集中して行うことを表す関連語。\n頻度: 〈6/10〉\n違い: intensive は集中度・密度・徹底性を、intense は高い強度・活動量・速度・負荷を前面に出す。期間・範囲限定は intensive に伴う傾向だが必須ではない。\n例: intensive training\n訳: 集中的な訓練。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・intensive\n定義: 活動・訓練などを集中して行うことを表す関連語。\n頻度: 〈6/10〉\n違い: intensive は集中度・密度・徹底性を、intense は高い強度・活動量・速度・負荷を前面に出す。期間・範囲限定は intensive に伴う傾向だが必須ではない。\n例: intensive training\n訳: 集中的な訓練。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "synonym:006",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・concentrated\n定義: 活動・注意・資源などが一箇所や短期間に集められた状態を表す関連語。\n頻度: 〈5/10〉\n違い: concentrated は集中配置や密度に焦点があり、intense は活動そのものの強度・活動量・速度・負荷に焦点を置く。\n例: concentrated training\n訳: 集中的な訓練。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・concentrated\n定義: 活動・注意・資源などが一箇所や短期間に集められた状態を表す関連語。\n頻度: 〈5/10〉\n違い: concentrated は集中配置や密度に焦点があり、intense は活動そのものの強度・活動量・速度・負荷に焦点を置く。\n例: concentrated training\n訳: 集中的な訓練。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「3. 【形容詞・人・視線・表情・関係】感情や態度の強い、張り詰めた」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。見出しは後続定義の対象範囲と整合し、独立義の粒度自体は学習上許容できる。",
+      "notes": "exact_quote「3. 【形容詞・人・視線・表情・関係】感情や態度の強い、張り詰めた」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。見出しは後続定義の対象範囲と整合し、独立義の粒度自体は学習上許容できる。"
+    },
+    {
+      "id": "definition:003",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。relationship の緊張・衝突・不安定さ、および look/expression の「鋭さ」までを支える直接の source fact がなく、F-003 の例示だけでは主張範囲を検証できない。",
+      "notes": "exact_quote「人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。relationship の緊張・衝突・不安定さ、および look/expression の「鋭さ」までを支える直接の source fact がなく、F-003 の例示だけでは主張範囲を検証できない。"
+    },
+    {
+      "id": "frequency:003",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「〈4/10〉」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈4/10〉を支える語義別 corpus データまたは編集上の算定式が記録されていない。",
+      "notes": "exact_quote「〈4/10〉」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈4/10〉を支える語義別 corpus データまたは編集上の算定式が記録されていない。"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「※〈4/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈4/10〉の corpus 根拠は lemma/品詞単位の資料説明だけで、当該語義のスコアへ接続されていない。",
+      "notes": "exact_quote「※〈4/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。〈4/10〉の corpus 根拠は lemma/品詞単位の資料説明だけで、当該語義のスコアへ接続されていない。"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「一般語として使われる形容詞。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。一般形容詞という分類に反する地域・専門・制度限定は確認されない。",
+      "notes": "exact_quote「一般語として使われる形容詞。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。一般形容詞という分類に反する地域・専門・制度限定は確認されない。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「an intense person＝強い感情や態度を持つ、またはそうした印象を与える人（評価は文脈依存）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。",
+      "notes": "exact_quote「an intense person＝強い感情や態度を持つ、またはそうした印象を与える人（評価は文脈依存）」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「an intense look/gaze＝集中・鋭さ・強い感情を帯びた視線」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。",
+      "notes": "exact_quote「an intense look/gaze＝集中・鋭さ・強い感情を帯びた視線」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「an intense relationship＝情緒的な結びつきや相互作用が強く、緊張や衝突を伴うこともある関係」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。",
+      "notes": "exact_quote「an intense relationship＝情緒的な結びつきや相互作用が強く、緊張や衝突を伴うこともある関係」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。修飾対象と intense の意味役割が自然で、対応する例と統語的に整合する。"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・an intense look\n用途: 強い感情や集中を帯びた視線・表情を表す。\n例: She gave him an intense look when he mentioned the accusation.\n訳: 彼がその告発について話すと、彼女は彼に鋭く強い視線を向けた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・an intense look\n用途: 強い感情や集中を帯びた視線・表情を表す。\n例: She gave him an intense look when he mentioned the accusation.\n訳: 彼がその告発について話すと、彼女は彼に鋭く強い視線を向けた。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・an intense person\n用途: 感情や態度が強く、存在感や圧のある人を表す。肯定・否定の評価は文脈で変わる。\n例: He is an intense person who takes every project very seriously.\n訳: 彼はどのプロジェクトにも非常に真剣に取り組む、強い存在感のある人だ。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・an intense person\n用途: 感情や態度が強く、存在感や圧のある人を表す。肯定・否定の評価は文脈で変わる。\n例: He is an intense person who takes every project very seriously.\n訳: 彼はどのプロジェクトにも非常に真剣に取り組む、強い存在感のある人だ。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・an intense relationship\n用途: 感情的な結びつきや相互作用が非常に強い関係を表す。必ずしも良好・安定とは限らない。\n例: Their intense relationship left little room for emotional distance.\n訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。",
+      "notes": "exact_quote「・an intense relationship\n用途: 感情的な結びつきや相互作用が非常に強い関係を表す。必ずしも良好・安定とは限らない。\n例: Their intense relationship left little room for emotional distance.\n訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。英語コロケーションは自然で、用途と日本語訳が主語・対象・程度・時制を保っている。"
+    },
+    {
+      "id": "usage_note:006",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「人への用法は強い感情や態度を持つ、またはそうした印象を与えるという評価で、必ず外に表出するとは限らない。視線・表情では集中・鋭さ・感情の表れ、relationship では情緒的な結びつきや相互作用の強さを表し、緊張・衝突・不安定さも含み得る。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。人物の非表出可能性は dictionary の having/showing と整合するが、視線の鋭さと relationship の緊張・衝突・不安定さ、類義語スコアの全範囲を直接支える根拠がない。",
+      "notes": "exact_quote「人への用法は強い感情や態度を持つ、またはそうした印象を与えるという評価で、必ず外に表出するとは限らない。視線・表情では集中・鋭さ・感情の表れ、relationship では情緒的な結びつきや相互作用の強さを表し、緊張・衝突・不安定さも含み得る。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。人物の非表出可能性は dictionary の having/showing と整合するが、視線の鋭さと relationship の緊張・衝突・不安定さ、類義語スコアの全範囲を直接支える根拠がない。"
+    },
+    {
+      "id": "synonym:007",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・passionate\n定義: intense と同じく強い感情や関与を表すが、熱意や情熱を前面に出す関連語。\n頻度: 〈5/10〉\n違い: passionate は熱意・情熱や積極的な関与を含みやすく、intense は肯定・否定を問わず感情や態度の強さを表す。\n例: a passionate advocate\n訳: 熱心な擁護者。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・passionate\n定義: intense と同じく強い感情や関与を表すが、熱意や情熱を前面に出す関連語。\n頻度: 〈5/10〉\n違い: passionate は熱意・情熱や積極的な関与を含みやすく、intense は肯定・否定を問わず感情や態度の強さを表す。\n例: a passionate advocate\n訳: 熱心な擁護者。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "synonym:008",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・deep\n定義: 感情・関係・結びつきなどの深さを表す関連語。\n頻度: 〈8/10〉\n違い: deep は内面の深さや持続する結びつきに焦点があり、intense はその場の強い感情や張り詰めた印象にも使う。\n例: a deep emotional bond\n訳: 深い感情的な結びつき。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。",
+      "notes": "exact_quote「・deep\n定義: 感情・関係・結びつきなどの深さを表す関連語。\n頻度: 〈8/10〉\n違い: deep は内面の深さや持続する結びつきに焦点があり、intense はその場の強い感情や張り詰めた印象にも使う。\n例: a deep emotional bond\n訳: 深い感情的な結びつき。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語集合への掲載は確認できるが、この項目固有の定義差・適用フレーム・10点頻度を直接支える source fact と算定根拠が不足する。"
+    },
+    {
+      "id": "synonym:009",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "exact_quote「・fervent\n定義: 支持・願い・感情などの熱烈さを表す関連語。\n頻度: 〈3/10〉\n違い: fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。\n例: fervent support\n訳: 熱烈な支持。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語としての fervent は確認できるが、肯定的評価へ傾くという対立軸と 3/10 の頻度を支える資料がなく、fervent opposition/criticism の自然な用法を誤って狭める。",
+      "notes": "exact_quote「・fervent\n定義: 支持・願い・感情などの熱烈さを表す関連語。\n頻度: 〈3/10〉\n違い: fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。\n例: fervent support\n訳: 熱烈な支持。」を最新版 3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7 で個別照合した。近接語としての fervent は確認できるが、肯定的評価へ傾くという対立軸と 3/10 の頻度を支える資料がなく、fervent opposition/criticism の自然な用法を誤って狭める。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:001 の target_ids [collocation:001] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:001 の target_ids [collocation:001] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:002 の target_ids [collocation:002] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:002 の target_ids [collocation:002] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:003 の target_ids [collocation:003] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:003 の target_ids [collocation:003] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:004 の target_ids [collocation:004] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:004 の target_ids [collocation:004] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:005 の target_ids [collocation:005] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:005 の target_ids [collocation:005] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:006 の target_ids [collocation:006] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:006 の target_ids [collocation:006] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:007 の target_ids [collocation:007] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:007 の target_ids [collocation:007] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:008 の target_ids [collocation:008] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:008 の target_ids [collocation:008] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:009 の target_ids [collocation:009] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:009 の target_ids [collocation:009] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:010 の target_ids [collocation:010] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:010 の target_ids [collocation:010] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:011 の target_ids [collocation:011] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。",
+      "notes": "relation exact_quote「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を example_translation:011 の target_ids [collocation:011] について個別照合した。指定コロケーションの英文と訳は、述語・参与者・程度・因果または修飾範囲を保持する。"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を sense_definition_consistency:001 の target_ids [sense_boundary:001, definition:001] について個別照合した。語義見出しと詳細定義の意味方向・対象範囲は整合する。",
+      "notes": "relation exact_quote「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を sense_definition_consistency:001 の target_ids [sense_boundary:001, definition:001] について個別照合した。語義見出しと詳細定義の意味方向・対象範囲は整合する。"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:001 の target_ids [sense_boundary:001, definition:001, usage_note:001] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。",
+      "notes": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:001 の target_ids [sense_boundary:001, definition:001, usage_note:001] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:002 の target_ids [sense_boundary:001, definition:001, usage_note:002] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。",
+      "notes": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:002 の target_ids [sense_boundary:001, definition:001, usage_note:002] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を definition_lexical_relation_consistency:001 の target_ids [sense_boundary:001, definition:001, synonym:001, synonym:002, synonym:003] について個別照合した。本文内部では関連語を同一語と断定せず、定義との関係方向は一貫する。",
+      "notes": "relation exact_quote「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を definition_lexical_relation_consistency:001 の target_ids [sense_boundary:001, definition:001, synonym:001, synonym:002, synonym:003] について個別照合した。本文内部では関連語を同一語と断定せず、定義との関係方向は一貫する。"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:001 の target_ids [grammar_pattern:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:001 の target_ids [grammar_pattern:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:002 の target_ids [grammar_pattern:002, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:002 の target_ids [grammar_pattern:002, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:003 の target_ids [grammar_pattern:003, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:003 の target_ids [grammar_pattern:003, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を sense_definition_consistency:002 の target_ids [sense_boundary:002, definition:002] について個別照合した。見出し「活動量の多い」と定義の列挙が相互に強化され、競争・議論にも量・速度・忙しさ・負荷を一般化する。",
+      "notes": "relation exact_quote「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を sense_definition_consistency:002 の target_ids [sense_boundary:002, definition:002] について個別照合した。見出し「活動量の多い」と定義の列挙が相互に強化され、競争・議論にも量・速度・忙しさ・負荷を一般化する。"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:003 の target_ids [sense_boundary:002, definition:002, usage_note:003] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。",
+      "notes": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:003 の target_ids [sense_boundary:002, definition:002, usage_note:003] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:004 の target_ids [sense_boundary:002, definition:002, usage_note:004] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。",
+      "notes": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:004 の target_ids [sense_boundary:002, definition:002, usage_note:004] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を definition_lexical_relation_consistency:002 の target_ids [sense_boundary:002, definition:002, synonym:004, synonym:005, synonym:006] について個別照合した。本文内部では関連語を同一語と断定せず、定義との関係方向は一貫する。",
+      "notes": "relation exact_quote「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を definition_lexical_relation_consistency:002 の target_ids [sense_boundary:002, definition:002, synonym:004, synonym:005, synonym:006] について個別照合した。本文内部では関連語を同一語と断定せず、定義との関係方向は一貫する。"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:004 の target_ids [grammar_pattern:004, collocation:007, collocation:008] について個別照合した。grammar_pattern:004 の活動量・速度・忙しさ・負荷という全称的範囲を、competition/activity の二例は実現していない。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:004 の target_ids [grammar_pattern:004, collocation:007, collocation:008] について個別照合した。grammar_pattern:004 の活動量・速度・忙しさ・負荷という全称的範囲を、competition/activity の二例は実現していない。"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を sense_definition_consistency:003 の target_ids [sense_boundary:003, definition:003] について個別照合した。語義見出しと詳細定義の意味方向・対象範囲は整合する。",
+      "notes": "relation exact_quote「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を sense_definition_consistency:003 の target_ids [sense_boundary:003, definition:003] について個別照合した。語義見出しと詳細定義の意味方向・対象範囲は整合する。"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:005 の target_ids [sense_boundary:003, definition:003, usage_note:005] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。",
+      "notes": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:005 の target_ids [sense_boundary:003, definition:003, usage_note:005] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:006 の target_ids [sense_boundary:003, definition:003, usage_note:006] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。",
+      "notes": "relation exact_quote「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を definition_usage_consistency:006 の target_ids [sense_boundary:003, definition:003, usage_note:006] について個別照合した。定義と注意書きの肯否・必須性・作用範囲に内部矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を definition_lexical_relation_consistency:003 の target_ids [sense_boundary:003, definition:003, synonym:007, synonym:008, synonym:009] について個別照合した。本文内部では関連語を同一語と断定せず、定義との関係方向は一貫する。",
+      "notes": "relation exact_quote「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を definition_lexical_relation_consistency:003 の target_ids [sense_boundary:003, definition:003, synonym:007, synonym:008, synonym:009] について個別照合した。本文内部では関連語を同一語と断定せず、定義との関係方向は一貫する。"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:005 の target_ids [grammar_pattern:005, collocation:009, collocation:010, collocation:011] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:005 の target_ids [grammar_pattern:005, collocation:009, collocation:010, collocation:011] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:006 の target_ids [grammar_pattern:006, collocation:009, collocation:010, collocation:011] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:006 の target_ids [grammar_pattern:006, collocation:009, collocation:010, collocation:011] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:007 の target_ids [grammar_pattern:007, collocation:009, collocation:010, collocation:011] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。",
+      "notes": "relation exact_quote「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を pattern_example_coverage:007 の target_ids [grammar_pattern:007, collocation:009, collocation:010, collocation:011] について個別照合した。文法パターンの主要フレームを同一語義の自然な例が実現する。"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。」を core_inventory_consistency:001 の target_ids [core_image:001, sense_boundary:001, sense_boundary:002, sense_boundary:003] について個別照合した。総括 core_image:001 が活動用法の文脈依存側面を一括して一般化するため、目録全体の安全な上位概念になっていない。",
+      "notes": "relation exact_quote「語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。」を core_inventory_consistency:001 の target_ids [core_image:001, sense_boundary:001, sense_boundary:002, sense_boundary:003] について個別照合した。総括 core_image:001 が活動用法の文脈依存側面を一括して一般化するため、目録全体の安全な上位概念になっていない。"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:001 の target_ids [core_image:002, sense_boundary:001, definition:001, usage_note:001, usage_note:002] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。",
+      "notes": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:001 の target_ids [core_image:002, sense_boundary:001, definition:001, usage_note:001, usage_note:002] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:002 の target_ids [core_image:003, sense_boundary:002, definition:002, usage_note:003, usage_note:004] について個別照合した。core_image:003 と definition:002/usage_note:004 が、活動の高強度から速度・忙しさ・負荷へ無限定に写像している。",
+      "notes": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:002 の target_ids [core_image:003, sense_boundary:002, definition:002, usage_note:003, usage_note:004] について個別照合した。core_image:003 と definition:002/usage_note:004 が、活動の高強度から速度・忙しさ・負荷へ無限定に写像している。"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:003 の target_ids [core_image:004, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。",
+      "notes": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:003 の target_ids [core_image:004, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:004 の target_ids [core_image:005, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。",
+      "notes": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:004 の target_ids [core_image:005, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:005 の target_ids [core_image:006, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。",
+      "notes": "relation exact_quote「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を core_sense_mapping:005 の target_ids [core_image:006, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。コアイメージの枝と指定語義・定義・注意の意味方向が対応する。"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "relation exact_quote「記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。」を article_learning_risk:001 の target_ids [core_image:001, core_image:002, core_image:003, core_image:004, core_image:005, core_image:006, sense_boundary:001, definition:001, usage_note:001, usage_note:002, sense_boundary:002, definition:002, usage_note:003, usage_note:004, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。活動用法、Oxford レベル、頻度スコア、intense/intensive と類義語の境界に未解決の誤学習リスクが残る。",
+      "notes": "relation exact_quote「記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。」を article_learning_risk:001 の target_ids [core_image:001, core_image:002, core_image:003, core_image:004, core_image:005, core_image:006, sense_boundary:001, definition:001, usage_note:001, usage_note:002, sense_boundary:002, definition:002, usage_note:003, usage_note:004, sense_boundary:003, definition:003, usage_note:005, usage_note:006] について個別照合した。活動用法、Oxford レベル、頻度スコア、intense/intensive と類義語の境界に未解決の誤学習リスクが残る。"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "ibc-01",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-01-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・限定／叙述 + 身体感覚・物理的状態（pain, heat）」を最新版で再照合した。ibc-01-sa-01:must_hold:intense が身体感覚・熱などの対象の強度が非常に高いことを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・限定／叙述 + 身体感覚・物理的状態（pain, heat）」を最新版で再照合した。ibc-01-sa-01:must_hold:intense が身体感覚・熱などの対象の強度が非常に高いことを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-02",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-02-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・限定／叙述 + 感情・関心・心理的性質（pleasure, anger, interest, determination, concentration）」を最新版で再照合した。ibc-02-sa-01:must_hold:intense が感情・関心・決意・集中の強さを、肯定的対象にも否定的対象にも適用できること は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・限定／叙述 + 感情・関心・心理的性質（pleasure, anger, interest, determination, concentration）」を最新版で再照合した。ibc-02-sa-01:must_hold:intense が感情・関心・決意・集中の強さを、肯定的対象にも否定的対象にも適用できること は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-03",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-03-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・限定 + 色・色調（blue, colour）」を最新版で再照合した。ibc-03-sa-01:must_hold:intense blue / intense colour が色の鮮やかさ・彩度の際立ちを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・限定 + 色・色調（blue, colour）」を最新版で再照合した。ibc-03-sa-01:must_hold:intense blue / intense colour が色の鮮やかさ・彩度の際立ちを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-04",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-04-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・限定／叙述 + 外部からの圧力（pressure）」を最新版で再照合した。ibc-04-sa-01:must_hold:intense pressure が外部的または心理的な圧力の強さを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・限定／叙述 + 外部からの圧力（pressure）」を最新版で再照合した。ibc-04-sa-01:must_hold:intense pressure が外部的または心理的な圧力の強さを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-05",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-05-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・限定 + 精査・吟味（scrutiny）」を最新版で再照合した。ibc-05-sa-01:must_hold:intense scrutiny が精査・吟味の厳しさまたは強度の高さを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・限定 + 精査・吟味（scrutiny）」を最新版で再照合した。ibc-05-sa-01:must_hold:intense scrutiny が精査・吟味の厳しさまたは強度の高さを表すこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-06",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-06-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・限定 + 活動・競争・議論・訓練（competition, activity）」を最新版で再照合した。ibc-06-sa-01:must_hold:intense が活動・競争・議論・訓練の高い強度を表し、短期間であることを必須条件にしないこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・限定 + 活動・競争・議論・訓練（competition, activity）」を最新版で再照合した。ibc-06-sa-01:must_hold:intense が活動・競争・議論・訓練の高い強度を表し、短期間であることを必須条件にしないこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-07",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-07-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・人を修飾（an intense person）」を最新版で再照合した。ibc-07-sa-01:must_hold:an intense person が、強い感情・態度またはそのような印象を表し、必ず外的表出を意味しないこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・人を修飾（an intense person）」を最新版で再照合した。ibc-07-sa-01:must_hold:an intense person が、強い感情・態度またはそのような印象を表し、必ず外的表出を意味しないこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-08",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-08-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・視線や表情を修飾（an intense look / gaze）」を最新版で再照合した。ibc-08-sa-01:must_hold:an intense look / gaze が、視線・表情から感じられる集中、鋭さ、または強い感情を表すこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・視線や表情を修飾（an intense look / gaze）」を最新版で再照合した。ibc-08-sa-01:must_hold:an intense look / gaze が、視線・表情から感じられる集中、鋭さ、または強い感情を表すこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-09",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "ibc-09-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・関係を修飾（an intense relationship）」を最新版で再照合した。ibc-09-sa-01:must_hold:an intense relationship が情緒的結びつきまたは相互作用の強さを表し、良好・安定であることを必須にしないこと は本文の該当フレームと一致し、disposition=included を維持できる。",
+      "notes": "候補固有アンカー「形容詞・関係を修飾（an intense relationship）」を最新版で再照合した。ibc-09-sa-01:must_hold:an intense relationship が情緒的結びつきまたは相互作用の強さを表し、良好・安定であることを必須にしないこと は本文の該当フレームと一致し、disposition=included を維持できる。"
+    },
+    {
+      "id": "ibc-10",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "ibc-10-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・活動を修飾し、短期間であることだけを意味する用法」を最新版で再照合した。ibc-10-sa-01:must_not_hold:intense の活動用法が短期間であることを必須条件とすること は本文の該当フレームと一致し、disposition=excluded を維持できる。",
+      "notes": "候補固有アンカー「形容詞・活動を修飾し、短期間であることだけを意味する用法」を最新版で再照合した。ibc-10-sa-01:must_not_hold:intense の活動用法が短期間であることを必須条件とすること は本文の該当フレームと一致し、disposition=excluded を維持できる。"
+    },
+    {
+      "id": "ibc-11",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "ibc-11-sa-01"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "候補固有アンカー「形容詞・活動を修飾し、intensive と同じく集中度・密度・徹底性だけを意味する用法」を最新版で再照合した。ibc-11-sa-01:must_not_hold:intense が intensive と同じく集中度・密度・徹底性だけを表し、高い強度・活動量・速度・負荷を区別しないこと は本文の該当フレームと一致し、disposition=excluded を維持できる。",
+      "notes": "候補固有アンカー「形容詞・活動を修飾し、intensive と同じく集中度・密度・徹底性だけを意味する用法」を最新版で再照合した。ibc-11-sa-01:must_not_hold:intense が intensive と同じく集中度・密度・徹底性だけを表し、高い強度・活動量・速度・負荷を区別しないこと は本文の該当フレームと一致し、disposition=excluded を維持できる。"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-sense-structure-001",
+      "origin": "check_pass:sense-structure",
+      "severity": "blocking",
+      "finding_validity": "invalid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "",
+      "rationale": "finding anchor「2. 【形容詞・限定／叙述】激しい、活動量の多い\n\n【日本語訳・定義】活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。」を最新版で再照合した。活動義は Oxford の独立した sense 2 と対応し、共有コアを持つこと自体は重複 blocker ではない。粒度差は非blocking である。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。",
+      "notes": "finding anchor「2. 【形容詞・限定／叙述】激しい、活動量の多い\n\n【日本語訳・定義】活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。」を最新版で再照合した。活動義は Oxford の独立した sense 2 と対応し、共有コアを持つこと自体は重複 blocker ではない。粒度差は非blocking である。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "origin": "check_pass:sense-structure",
+      "severity": "blocking",
+      "finding_validity": "invalid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "",
+      "rationale": "finding anchor「・人が強い感情や態度を持つ／そうした印象を与える → 「感情や態度の強い」（語義3）\n・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）\n・関係の感情的な結びつきや相互作用が強い → 「張り詰めた、濃密な」（語義3）」を最新版で再照合した。三つの箇条書きは同一語義の人・視線／表情・関係という下位フレームを明示するもので、一対多の写像は内部矛盾ではない。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。",
+      "notes": "finding anchor「・人が強い感情や態度を持つ／そうした印象を与える → 「感情や態度の強い」（語義3）\n・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）\n・関係の感情的な結びつきや相互作用が強い → 「張り詰めた、濃密な」（語義3）」を最新版で再照合した。三つの箇条書きは同一語義の人・視線／表情・関係という下位フレームを明示するもので、一対多の写像は内部矛盾ではない。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。"
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "origin": "check_pass:sense-structure",
+      "severity": "blocking",
+      "finding_validity": "invalid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "",
+      "rationale": "finding anchor「・intensity（名詞）— 強度、激しさ。\n・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。\n・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。\n・intensification（名詞）— 強化、激化。」を最新版で再照合した。intensity/intensify/intensive/intensification は見出し語 intense の屈折語義ではなく、語形成欄に置く別 lexeme である。番号付き語義への追加要求は不適切である。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。",
+      "notes": "finding anchor「・intensity（名詞）— 強度、激しさ。\n・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。\n・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。\n・intensification（名詞）— 強化、激化。」を最新版で再照合した。intensity/intensify/intensive/intensification は見出し語 intense の屈折語義ではなく、語形成欄に置く別 lexeme である。番号付き語義への追加要求は不適切である。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。"
+    },
+    {
+      "id": "normal-evidence-001",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "F-005 は短期活動での重なりと feeling/objective の傾向までしか直接支えず、速度・負荷対密度・徹底性・範囲の対比を支えない。",
+      "rationale": "finding anchor「・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。  」を最新版で再照合した。F-005 は短期活動での重なりと feeling/objective の傾向までしか直接支えず、速度・負荷対密度・徹底性・範囲の対比を支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「・intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。  」を最新版で再照合した。F-005 は短期活動での重なりと feeling/objective の傾向までしか直接支えず、速度・負荷対密度・徹底性・範囲の対比を支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-002",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "F-002/F-007 は activity/action/energy/concentration を支えるが、競争・議論を含む全フレームの速度・忙しさ・負荷や全非必須境界を直接支えない。",
+      "rationale": "finding anchor「【日本語訳・定義】活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。  」を最新版で再照合した。F-002/F-007 は activity/action/energy/concentration を支えるが、競争・議論を含む全フレームの速度・忙しさ・負荷や全非必須境界を直接支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【日本語訳・定義】活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。強い努力や緊張を伴う場合もあるが、それらは必須ではない。短期集中を伴う場合にも使うが、短期間であることは必須ではない。  」を最新版で再照合した。F-002/F-007 は activity/action/energy/concentration を支えるが、競争・議論を含む全フレームの速度・忙しさ・負荷や全非必須境界を直接支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-003",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "invalid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "",
+      "rationale": "finding anchor「・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）  」を最新版で再照合した。an intense look/gaze の文脈的な日本語 gloss「鋭い」は、F-003 の very strong feelings/opinions/thoughts と実例から許容でき、独立語義の断定ではない。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。",
+      "notes": "finding anchor「・視線・表情に鋭さや強い感情が感じられる → 「鋭い、強い」（語義3）  」を最新版で再照合した。an intense look/gaze の文脈的な日本語 gloss「鋭い」は、F-003 の very strong feelings/opinions/thoughts と実例から許容でき、独立語義の断定ではない。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。"
+    },
+    {
+      "id": "normal-evidence-004",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "partial",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "人・表情・relationship 自体は F-003/F-008/F-012 が支えるが、relationship の緊張・衝突・不安定さまでの範囲は直接確認できない。",
+      "rationale": "finding anchor「【日本語訳・定義】人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。  」を最新版で再照合した。人・表情・relationship 自体は F-003/F-008/F-012 が支えるが、relationship の緊張・衝突・不安定さまでの範囲は直接確認できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【日本語訳・定義】人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。  」を最新版で再照合した。人・表情・relationship 自体は F-003/F-008/F-012 が支えるが、relationship の緊張・衝突・不安定さまでの範囲は直接確認できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-005",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "editorial estimate というラベルは数値根拠の代替にならず、6/10 を導く rank・算定式・語義配分がない。",
+      "rationale": "finding anchor「【頻度】〈6/10〉  」を最新版で再照合した。editorial estimate というラベルは数値根拠の代替にならず、6/10 を導く rank・算定式・語義配分がない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【頻度】〈6/10〉  」を最新版で再照合した。editorial estimate というラベルは数値根拠の代替にならず、6/10 を導く rank・算定式・語義配分がない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-006",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "5/10 の当該語義スコアは lemma/品詞単位の corpus 形式説明から再現できない。",
+      "rationale": "finding anchor「【頻度】〈5/10〉  」を最新版で再照合した。5/10 の当該語義スコアは lemma/品詞単位の corpus 形式説明から再現できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【頻度】〈5/10〉  」を最新版で再照合した。5/10 の当該語義スコアは lemma/品詞単位の corpus 形式説明から再現できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-007",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "4/10 の当該語義スコアは F-026〜F-028 の一般的な資料説明だけでは検証できない。",
+      "rationale": "finding anchor「【頻度】〈4/10〉  」を最新版で再照合した。4/10 の当該語義スコアは F-026〜F-028 の一般的な資料説明だけでは検証できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【頻度】〈4/10〉  」を最新版で再照合した。4/10 の当該語義スコアは F-026〜F-028 の一般的な資料説明だけでは検証できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-008",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "U-001/U-009 は extreme の近接性を支えるが、逸脱対経験強度という詳細な対立軸を直接支えない。",
+      "rationale": "finding anchor「【語法・注意】intense は感情、感覚、熱、色、関心、圧力など、強さの対象を表す名詞と結びつく。intense colour/blue では色の鮮やかさ・彩度、intense scrutiny では精査・吟味の厳しさも表す。extreme と重なる場合があるが、extreme は通常の範囲や限界からの逸脱、intense は経験される強さ・圧・力の高さに焦点を置きやすい。intense pleasure のような好ましい対象にも、intense pain や intense anger のような好ましくない対象にも使える。類義語欄の頻度スコアも、コーパス全体の頻度と辞書情報を参照した編集上の目安であり、各語義の厳密な順位ではない。  」を最新版で再照合した。U-001/U-009 は extreme の近接性を支えるが、逸脱対経験強度という詳細な対立軸を直接支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【語法・注意】intense は感情、感覚、熱、色、関心、圧力など、強さの対象を表す名詞と結びつく。intense colour/blue では色の鮮やかさ・彩度、intense scrutiny では精査・吟味の厳しさも表す。extreme と重なる場合があるが、extreme は通常の範囲や限界からの逸脱、intense は経験される強さ・圧・力の高さに焦点を置きやすい。intense pleasure のような好ましい対象にも、intense pain や intense anger のような好ましくない対象にも使える。類義語欄の頻度スコアも、コーパス全体の頻度と辞書情報を参照した編集上の目安であり、各語義の厳密な順位ではない。  」を最新版で再照合した。U-001/U-009 は extreme の近接性を支えるが、逸脱対経験強度という詳細な対立軸を直接支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-009",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "F-005/U-005 は feeling/objective と短期活動の重なりを支えるだけで、本文の速度・負荷対密度・徹底性・範囲という総合対比を支えない。",
+      "rationale": "finding anchor「【語法・注意】intense は活動の強度・活動量・速度・忙しさ・負荷が高いことを表し、intensive は活動・訓練の集中度・密度・徹底性を表す傾向がある。intensive に期間・範囲の限定が伴うことは多いが必須ではなく、両語は活動用法で重なる場合がある。感情性・客観性だけを決め手にしない。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。  」を最新版で再照合した。F-005/U-005 は feeling/objective と短期活動の重なりを支えるだけで、本文の速度・負荷対密度・徹底性・範囲という総合対比を支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【語法・注意】intense は活動の強度・活動量・速度・忙しさ・負荷が高いことを表し、intensive は活動・訓練の集中度・密度・徹底性を表す傾向がある。intensive に期間・範囲の限定が伴うことは多いが必須ではなく、両語は活動用法で重なる場合がある。感情性・客観性だけを決め手にしない。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。  」を最新版で再照合した。F-005/U-005 は feeling/objective と短期活動の重なりを支えるだけで、本文の速度・負荷対密度・徹底性・範囲という総合対比を支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-010",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "partial",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "having/showing により人物の非表出可能性は整合するが、視線の鋭さと relationship の緊張・衝突・不安定さの全範囲は source facts から確認できない。",
+      "rationale": "finding anchor「【語法・注意】人への用法は強い感情や態度を持つ、またはそうした印象を与えるという評価で、必ず外に表出するとは限らない。視線・表情では集中・鋭さ・感情の表れ、relationship では情緒的な結びつきや相互作用の強さを表し、緊張・衝突・不安定さも含み得る。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。  」を最新版で再照合した。having/showing により人物の非表出可能性は整合するが、視線の鋭さと relationship の緊張・衝突・不安定さの全範囲は source facts から確認できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「【語法・注意】人への用法は強い感情や態度を持つ、またはそうした印象を与えるという評価で、必ず外に表出するとは限らない。視線・表情では集中・鋭さ・感情の表れ、relationship では情緒的な結びつきや相互作用の強さを表し、緊張・衝突・不安定さも含み得る。類義語欄の頻度スコアは、コーパス全体の頻度と辞書情報を参照した編集上の目安である。  」を最新版で再照合した。having/showing により人物の非表出可能性は整合するが、視線の鋭さと relationship の緊張・衝突・不安定さの全範囲は source facts から確認できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-011",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "thesaurus は strong/extreme/powerful の近接性までを支えるが、各定義差・フレーム差・8/10/6/10 の値を支えない。",
+      "rationale": "finding anchor「・strong  \n定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。  \n頻度: 〈8/10〉  \n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。  \n例: intense pain  \n訳: 強い痛み。  \n・extreme  \n定義: 通常の範囲や限界から大きく外れた状態を表す関連語。  \n頻度: 〈6/10〉  \n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。  \n例: intense heat  \n訳: 強烈な暑さ。  \n・powerful  \n定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。  \n頻度: 〈6/10〉  \n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。  \n例: intense interest  \n訳: 強い関心。  」を最新版で再照合した。thesaurus は strong/extreme/powerful の近接性までを支えるが、各定義差・フレーム差・8/10/6/10 の値を支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「・strong  \n定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。  \n頻度: 〈8/10〉  \n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。  \n例: intense pain  \n訳: 強い痛み。  \n・extreme  \n定義: 通常の範囲や限界から大きく外れた状態を表す関連語。  \n頻度: 〈6/10〉  \n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。  \n例: intense heat  \n訳: 強烈な暑さ。  \n・powerful  \n定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。  \n頻度: 〈6/10〉  \n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。  \n例: intense interest  \n訳: 強い関心。  」を最新版で再照合した。thesaurus は strong/extreme/powerful の近接性までを支えるが、各定義差・フレーム差・8/10/6/10 の値を支えない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-012",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "fierce/intensive/concentrated の近接性だけでは、攻撃性、期間・範囲、集中配置、および各頻度値の詳細対比を検証できない。",
+      "rationale": "finding anchor「・fierce  \n定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。  \n頻度: 〈6/10〉  \n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。  \n例: intense competition  \n訳: 激しい競争。  \n・intensive  \n定義: 活動・訓練などを集中して行うことを表す関連語。  \n頻度: 〈6/10〉  \n違い: intensive は集中度・密度・徹底性を、intense は高い強度・活動量・速度・負荷を前面に出す。期間・範囲限定は intensive に伴う傾向だが必須ではない。  \n例: intensive training  \n訳: 集中的な訓練。  \n・concentrated  \n定義: 活動・注意・資源などが一箇所や短期間に集められた状態を表す関連語。  \n頻度: 〈5/10〉  \n違い: concentrated は集中配置や密度に焦点があり、intense は活動そのものの強度・活動量・速度・負荷に焦点を置く。  \n例: concentrated training  \n訳: 集中的な訓練。  」を最新版で再照合した。fierce/intensive/concentrated の近接性だけでは、攻撃性、期間・範囲、集中配置、および各頻度値の詳細対比を検証できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「・fierce  \n定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。  \n頻度: 〈6/10〉  \n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。  \n例: intense competition  \n訳: 激しい競争。  \n・intensive  \n定義: 活動・訓練などを集中して行うことを表す関連語。  \n頻度: 〈6/10〉  \n違い: intensive は集中度・密度・徹底性を、intense は高い強度・活動量・速度・負荷を前面に出す。期間・範囲限定は intensive に伴う傾向だが必須ではない。  \n例: intensive training  \n訳: 集中的な訓練。  \n・concentrated  \n定義: 活動・注意・資源などが一箇所や短期間に集められた状態を表す関連語。  \n頻度: 〈5/10〉  \n違い: concentrated は集中配置や密度に焦点があり、intense は活動そのものの強度・活動量・速度・負荷に焦点を置く。  \n例: concentrated training  \n訳: 集中的な訓練。  」を最新版で再照合した。fierce/intensive/concentrated の近接性だけでは、攻撃性、期間・範囲、集中配置、および各頻度値の詳細対比を検証できない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "normal-evidence-013",
+      "origin": "check_pass:evidence",
+      "severity": "blocking",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "passionate/deep/fervent の近接性だけでは、持続性・評価極性・各頻度値を支えず、fervent を肯定方向へ寄せる境界も不十分である。",
+      "rationale": "finding anchor「・passionate  \n定義: intense と同じく強い感情や関与を表すが、熱意や情熱を前面に出す関連語。  \n頻度: 〈5/10〉  \n違い: passionate は熱意・情熱や積極的な関与を含みやすく、intense は肯定・否定を問わず感情や態度の強さを表す。  \n例: a passionate advocate  \n訳: 熱心な擁護者。  \n・deep  \n定義: 感情・関係・結びつきなどの深さを表す関連語。  \n頻度: 〈8/10〉  \n違い: deep は内面の深さや持続する結びつきに焦点があり、intense はその場の強い感情や張り詰めた印象にも使う。  \n例: a deep emotional bond  \n訳: 深い感情的な結びつき。  \n・fervent  \n定義: 支持・願い・感情などの熱烈さを表す関連語。  \n頻度: 〈3/10〉  \n違い: fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。  \n例: fervent support  \n訳: 熱烈な支持。  」を最新版で再照合した。passionate/deep/fervent の近接性だけでは、持続性・評価極性・各頻度値を支えず、fervent を肯定方向へ寄せる境界も不十分である。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「・passionate  \n定義: intense と同じく強い感情や関与を表すが、熱意や情熱を前面に出す関連語。  \n頻度: 〈5/10〉  \n違い: passionate は熱意・情熱や積極的な関与を含みやすく、intense は肯定・否定を問わず感情や態度の強さを表す。  \n例: a passionate advocate  \n訳: 熱心な擁護者。  \n・deep  \n定義: 感情・関係・結びつきなどの深さを表す関連語。  \n頻度: 〈8/10〉  \n違い: deep は内面の深さや持続する結びつきに焦点があり、intense はその場の強い感情や張り詰めた印象にも使う。  \n例: a deep emotional bond  \n訳: 深い感情的な結びつき。  \n・fervent  \n定義: 支持・願い・感情などの熱烈さを表す関連語。  \n頻度: 〈3/10〉  \n違い: fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。  \n例: fervent support  \n訳: 熱烈な支持。  」を最新版で再照合した。passionate/deep/fervent の近接性だけでは、持続性・評価極性・各頻度値を支えず、fervent を肯定方向へ寄せる境界も不十分である。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "cold-001",
+      "origin": "cold_review",
+      "severity": "medium",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "Oxford 公式の現行 word list は intense adjective を B2 と表示するため、F-021/U-008 と本文の C1 断定は反証された。",
+      "rationale": "finding anchor「※Oxford 5000ではC1レベル。〈6/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版で再照合した。Oxford 公式の現行 word list は intense adjective を B2 と表示するため、F-021/U-008 と本文の C1 断定は反証された。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「※Oxford 5000ではC1レベル。〈6/10〉はコーパスに基づく全体頻度と辞書情報を参照した編集上の目安であり、語義別の厳密な順位ではない。」を最新版で再照合した。Oxford 公式の現行 word list は intense adjective を B2 と表示するため、F-021/U-008 と本文の C1 断定は反証された。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "cold-002",
+      "origin": "cold_review",
+      "severity": "medium",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "本文は傾向表現を使うが、速度・負荷対密度・徹底性という学習規則の根拠不足は残り、resolution は適用可能な追加資料を示していない。",
+      "rationale": "finding anchor「intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。」を最新版で再照合した。本文は傾向表現を使うが、速度・負荷対密度・徹底性という学習規則の根拠不足は残り、resolution は適用可能な追加資料を示していない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「intensive（形容詞）— 集中的な、徹底的な。活動・訓練などの集中度・密度・徹底性が高いことを表し、限られた期間・範囲に集中する傾向もある。intense と活動用法で重なる場合があるが、intense は高い強度・活動量・速度・負荷などに、intensive は集中度・密度・徹底性に焦点を置きやすい。」を最新版で再照合した。本文は傾向表現を使うが、速度・負荷対密度・徹底性という学習規則の根拠不足は残り、resolution は適用可能な追加資料を示していない。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "cold-003",
+      "origin": "cold_review",
+      "severity": "medium",
+      "finding_validity": "valid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "intense competition/debate が速度・活動量を必ず含意しないため、列挙を文脈依存の例示へ限定する必要がある。",
+      "rationale": "finding anchor「活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。」を最新版で再照合した。intense competition/debate が速度・活動量を必ず含意しないため、列挙を文脈依存の例示へ限定する必要がある。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「活動・競争・議論・訓練などが高い強度で行われ、活動量・速度・忙しさ・負荷が大きいこと。」を最新版で再照合した。intense competition/debate が速度・活動量を必ず含意しないため、列挙を文脈依存の例示へ限定する必要がある。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    },
+    {
+      "id": "cold-004",
+      "origin": "cold_review",
+      "severity": "medium",
+      "finding_validity": "invalid",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "pass",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "",
+      "rationale": "finding anchor「人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。」を最新版で再照合した。本文は評価の文脈依存と relationship が良好・安定とは限らないことを明示しており、典型含意の欠落だけでは独立 blocker にならない。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。",
+      "notes": "finding anchor「人については強い感情や態度を持つ、またはそうした印象を与えること、視線や表情については集中・鋭さ・強い感情が感じられること、関係については情緒的な結びつきや相互作用が強いことを表す。関係は緊張・衝突・不安定さを伴う場合もある。」を最新版で再照合した。本文は評価の文脈依存と relationship が良好・安定とは限らないことを明示しており、典型含意の欠落だけでは独立 blocker にならない。 入力 resolution は resolved/rejected だが、最終結果 status=pass とする。"
+    },
+    {
+      "id": "cold-005",
+      "origin": "cold_review",
+      "severity": "low",
+      "finding_validity": "partial",
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "status": "fail",
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "unresolved_problem": "「表しやすく」は絶対制約ではないが、fervent の主要差を肯定評価へ置く根拠がなく、fervent opposition/criticism を学習上狭める。",
+      "rationale": "finding anchor「fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。」を最新版で再照合した。「表しやすく」は絶対制約ではないが、fervent の主要差を肯定評価へ置く根拠がなく、fervent opposition/criticism を学習上狭める。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。",
+      "notes": "finding anchor「fervent は熱意や支持の強さを肯定的に表しやすく、intense は人・視線・関係の張り詰めた印象など、より広い対象に使う。」を最新版で再照合した。「表しやすく」は絶対制約ではないが、fervent の主要差を肯定評価へ置く根拠がなく、fervent opposition/criticism を学習上狭める。 入力 resolution は resolved/rejected だが、最終結果 status=fail とする。"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "EVID-001",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-001 の候補固有アンカーを source fact/claim unit と再照合した。中心的な high-degree sense の独立辞書照合として有効で、本文の一般強度義に適用できる。",
+      "notes": "EVID-001 の候補固有アンカーを source fact/claim unit と再照合した。中心的な high-degree sense の独立辞書照合として有効で、本文の一般強度義に適用できる。"
+    },
+    {
+      "id": "EVID-002",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-002 の候補固有アンカーを source fact/claim unit と再照合した。pronunciation/etymology または関連する基礎 claim の照合で反証はなく、対応範囲では有効である。",
+      "notes": "EVID-002 の候補固有アンカーを source fact/claim unit と再照合した。pronunciation/etymology または関連する基礎 claim の照合で反証はなく、対応範囲では有効である。"
+    },
+    {
+      "id": "EVID-003",
+      "status": "fail",
+      "finding_ids": [
+        "normal-evidence-001"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-003 の候補固有アンカーを source fact/claim unit と再照合した。normal-evidence-001 が示す intense/intensive の詳細対比を F-005 単独では支えない。",
+      "notes": "EVID-003 の候補固有アンカーを source fact/claim unit と再照合した。normal-evidence-001 が示す intense/intensive の詳細対比を F-005 単独では支えない。"
+    },
+    {
+      "id": "EVID-004",
+      "status": "pass",
+      "finding_ids": [
+        "normal-evidence-003"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-004 の候補固有アンカーを source fact/claim unit と再照合した。人・look/gaze の strong-feeling frame と文脈的 gloss を支える範囲では適用可能である。",
+      "notes": "EVID-004 の候補固有アンカーを source fact/claim unit と再照合した。人・look/gaze の strong-feeling frame と文脈的 gloss を支える範囲では適用可能である。"
+    },
+    {
+      "id": "EVID-005",
+      "status": "fail",
+      "finding_ids": [
+        "normal-evidence-002",
+        "normal-evidence-004"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-005 の候補固有アンカーを source fact/claim unit と再照合した。活動フレームと person/relationship の存在は支えるが、速度・負荷や緊張・衝突・不安定さの全範囲を直接支えない。",
+      "notes": "EVID-005 の候補固有アンカーを source fact/claim unit と再照合した。活動フレームと person/relationship の存在は支えるが、速度・負荷や緊張・衝突・不安定さの全範囲を直接支えない。"
+    },
+    {
+      "id": "EVID-006",
+      "status": "fail",
+      "finding_ids": [
+        "normal-evidence-005",
+        "normal-evidence-006",
+        "normal-evidence-007"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-006 の候補固有アンカーを source fact/claim unit と再照合した。現行 Oxford 公式 B2 と F-021 の C1 が矛盾し、6/10・5/10・4/10 の算定資料もない。",
+      "notes": "EVID-006 の候補固有アンカーを source fact/claim unit と再照合した。現行 Oxford 公式 B2 と F-021 の C1 が矛盾し、6/10・5/10・4/10 の算定資料もない。"
+    },
+    {
+      "id": "EVID-007",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-007 の候補固有アンカーを source fact/claim unit と再照合した。intensify の自動詞・他動詞および intensification の派生関係を F-016〜F-019 が直接支える。",
+      "notes": "EVID-007 の候補固有アンカーを source fact/claim unit と再照合した。intensify の自動詞・他動詞および intensification の派生関係を F-016〜F-019 が直接支える。"
+    },
+    {
+      "id": "EVID-008",
+      "status": "pass",
+      "finding_ids": [],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-008 の候補固有アンカーを source fact/claim unit と再照合した。intensity の派生名詞関係と「強度」の基本義を F-015 が対応範囲で支える。",
+      "notes": "EVID-008 の候補固有アンカーを source fact/claim unit と再照合した。intensity の派生名詞関係と「強度」の基本義を F-015 が対応範囲で支える。"
+    },
+    {
+      "id": "EVID-009",
+      "status": "fail",
+      "finding_ids": [
+        "normal-evidence-008",
+        "normal-evidence-009",
+        "normal-evidence-010"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-009 の候補固有アンカーを source fact/claim unit と再照合した。usage-note 群の extreme 対比、intense/intensive 境界、relationship の含意までを source facts が直接覆わない。",
+      "notes": "EVID-009 の候補固有アンカーを source fact/claim unit と再照合した。usage-note 群の extreme 対比、intense/intensive 境界、relationship の含意までを source facts が直接覆わない。"
+    },
+    {
+      "id": "EVID-010",
+      "status": "fail",
+      "finding_ids": [
+        "normal-evidence-011",
+        "normal-evidence-012",
+        "normal-evidence-013"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "EVID-010 の候補固有アンカーを source fact/claim unit と再照合した。thesaurus の近接語集合は確認できるが、9項目の個別定義差・評価軸・10点頻度を支えない。",
+      "notes": "EVID-010 の候補固有アンカーを source fact/claim unit と再照合した。thesaurus の近接語集合は確認できるが、9項目の個別定義差・評価軸・10点頻度を支えない。"
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "source_fact_ids_checked": [
+        "F-001",
+        "F-006",
+        "F-011",
+        "F-020",
+        "F-022"
+      ],
+      "article_target_ids_checked": [
+        "definition:001",
+        "collocation:001",
+        "collocation:002",
+        "collocation:003",
+        "collocation:004",
+        "collocation:005",
+        "collocation:006"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intense describes an extreme, forceful, or very strong degree of quality, power, effect, or feeling.」を source_fact_ids [F-001, F-006, F-011, F-020, F-022] と article_target_ids [definition:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] に個別適用した。中心義の canonical_statement は F-001/F-006/F-011/F-020/F-022 の収束と一致する。",
+      "notes": "source-union anchor「Intense describes an extreme, forceful, or very strong degree of quality, power, effect, or feeling.」を source_fact_ids [F-001, F-006, F-011, F-020, F-022] と article_target_ids [definition:001, collocation:001, collocation:002, collocation:003, collocation:004, collocation:005, collocation:006] に個別適用した。中心義の canonical_statement は F-001/F-006/F-011/F-020/F-022 の収束と一致する。"
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "fail",
+      "source_fact_ids_checked": [
+        "F-002",
+        "F-007"
+      ],
+      "article_target_ids_checked": [
+        "definition:002",
+        "collocation:007",
+        "collocation:008"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intense can describe serious, highly energetic activity or action involving a lot of action, energy, determination, or concentration; a short period is a common context but not a necessary condition.」を source_fact_ids [F-002, F-007] と article_target_ids [definition:002, collocation:007, collocation:008] に個別適用した。canonical_statement の活動・energy/concentration は支持されるが、article target の pace/busyness/load までの一般化を支えず、対応 claim C-002 の適用範囲が過大である。",
+      "notes": "source-union anchor「Intense can describe serious, highly energetic activity or action involving a lot of action, energy, determination, or concentration; a short period is a common context but not a necessary condition.」を source_fact_ids [F-002, F-007] と article_target_ids [definition:002, collocation:007, collocation:008] に個別適用した。canonical_statement の活動・energy/concentration は支持されるが、article target の pace/busyness/load までの一般化を支えず、対応 claim C-002 の適用範囲が過大である。"
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "fail",
+      "source_fact_ids_checked": [
+        "F-003",
+        "F-008",
+        "F-012",
+        "F-014"
+      ],
+      "article_target_ids_checked": [
+        "definition:003",
+        "collocation:009",
+        "collocation:010",
+        "collocation:011"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Applied to people, looks, expressions, and relationships, intense signals strong feelings or attitudes, a serious or high-pressure impression, or strong emotional interaction depending on the frame.」を source_fact_ids [F-003, F-008, F-012, F-014] と article_target_ids [definition:003, collocation:009, collocation:010, collocation:011] に個別適用した。人・look/expression/relationship の存在は支持されるが、article target が加えた relationship の conflict/instability と gaze の sharpness の全範囲を直接支えない。",
+      "notes": "source-union anchor「Applied to people, looks, expressions, and relationships, intense signals strong feelings or attitudes, a serious or high-pressure impression, or strong emotional interaction depending on the frame.」を source_fact_ids [F-003, F-008, F-012, F-014] と article_target_ids [definition:003, collocation:009, collocation:010, collocation:011] に個別適用した。人・look/expression/relationship の存在は支持されるが、article target が加えた relationship の conflict/instability と gaze の sharpness の全範囲を直接支えない。"
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "source_fact_ids_checked": [
+        "F-004",
+        "F-009",
+        "F-010",
+        "F-013"
+      ],
+      "article_target_ids_checked": [
+        "pronunciation:001",
+        "etymology:001",
+        "etymology:002"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intense is pronounced with second-syllable stress in /ɪnˈtens/ and descends through French from Latin intensus and intendere.」を source_fact_ids [F-004, F-009, F-010, F-013] と article_target_ids [pronunciation:001, etymology:001, etymology:002] に個別適用した。発音・第2音節強勢・French/Latin intensus/intendere の経路を F-004/F-009/F-010/F-013 が独立に支える。",
+      "notes": "source-union anchor「Intense is pronounced with second-syllable stress in /ɪnˈtens/ and descends through French from Latin intensus and intendere.」を source_fact_ids [F-004, F-009, F-010, F-013] と article_target_ids [pronunciation:001, etymology:001, etymology:002] に個別適用した。発音・第2音節強勢・French/Latin intensus/intendere の経路を F-004/F-009/F-010/F-013 が独立に支える。"
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "status": "fail",
+      "source_fact_ids_checked": [
+        "F-005"
+      ],
+      "article_target_ids_checked": [
+        "word_formation:003",
+        "usage_note:003"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intense and intensive overlap for concentrated activity; intense foregrounds high strength or force, while intensive presents concentrated activity more objectively and often over a limited period or scope.」を source_fact_ids [F-005] と article_target_ids [word_formation:003, usage_note:003] に個別適用した。F-005 は短期活動での overlap と feelings/objective を示すが、limited scope、density、thoroughness、speed/load という本文対比へは不足する。",
+      "notes": "source-union anchor「Intense and intensive overlap for concentrated activity; intense foregrounds high strength or force, while intensive presents concentrated activity more objectively and often over a limited period or scope.」を source_fact_ids [F-005] と article_target_ids [word_formation:003, usage_note:003] に個別適用した。F-005 は短期活動での overlap と feelings/objective を示すが、limited scope、density、thoroughness、speed/load という本文対比へは不足する。"
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "status": "pass",
+      "source_fact_ids_checked": [
+        "F-016",
+        "F-017",
+        "F-018",
+        "F-019"
+      ],
+      "article_target_ids_checked": [
+        "word_formation:002",
+        "word_formation:004"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intensify is the related verb, usable intransitively for becoming stronger and transitively for making something intense; intensification is its related noun.」を source_fact_ids [F-016, F-017, F-018, F-019] と article_target_ids [word_formation:002, word_formation:004] に個別適用した。intensify の自他両用と intensification の派生名詞を F-016〜F-019 が完全に覆う。",
+      "notes": "source-union anchor「Intensify is the related verb, usable intransitively for becoming stronger and transitively for making something intense; intensification is its related noun.」を source_fact_ids [F-016, F-017, F-018, F-019] と article_target_ids [word_formation:002, word_formation:004] に個別適用した。intensify の自他両用と intensification の派生名詞を F-016〜F-019 が完全に覆う。"
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "status": "pass",
+      "source_fact_ids_checked": [
+        "F-015"
+      ],
+      "article_target_ids_checked": [
+        "word_formation:001"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intensity is the related noun for the quality or degree of being intense.」を source_fact_ids [F-015] と article_target_ids [word_formation:001] に個別適用した。intensity の関連名詞関係と quality/degree の意味を F-015 が直接覆う。",
+      "notes": "source-union anchor「Intensity is the related noun for the quality or degree of being intense.」を source_fact_ids [F-015] と article_target_ids [word_formation:001] に個別適用した。intensity の関連名詞関係と quality/degree の意味を F-015 が直接覆う。"
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "status": "fail",
+      "source_fact_ids_checked": [
+        "F-021",
+        "F-026",
+        "F-027",
+        "F-028"
+      ],
+      "article_target_ids_checked": [
+        "frequency:001",
+        "frequency:002",
+        "frequency:003",
+        "register:001",
+        "register:002",
+        "register:003",
+        "usage_note:001"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Intense is a C1 learner-dictionary item, and corpus frequency resources report lemma- and part-of-speech-level rank, frequency, dispersion, and register variation rather than exact sense-level rankings; the article's 10-point values are editorial estimates.」を source_fact_ids [F-021, F-026, F-027, F-028] と article_target_ids [frequency:001, frequency:002, frequency:003, register:001, register:002, register:003, usage_note:001] に個別適用した。canonical_statement の C1 は現行 Oxford 公式 B2 と矛盾し、10点スコアを導く実測値・算定式もない。",
+      "notes": "source-union anchor「Intense is a C1 learner-dictionary item, and corpus frequency resources report lemma- and part-of-speech-level rank, frequency, dispersion, and register variation rather than exact sense-level rankings; the article's 10-point values are editorial estimates.」を source_fact_ids [F-021, F-026, F-027, F-028] と article_target_ids [frequency:001, frequency:002, frequency:003, register:001, register:002, register:003, usage_note:001] に個別適用した。canonical_statement の C1 は現行 Oxford 公式 B2 と矛盾し、10点スコアを導く実測値・算定式もない。"
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "status": "fail",
+      "source_fact_ids_checked": [
+        "F-020",
+        "F-023",
+        "F-024",
+        "F-025"
+      ],
+      "article_target_ids_checked": [
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "synonym:009"
+      ],
+      "verified_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+      "rationale": "source-union anchor「Independent thesaurus results place strong, extreme, powerful, fierce, intensive, concentrated, passionate, deep, and fervent in nearby relation to the relevant intensity or depth-of-feeling uses; the article presents them as related learner contrasts, not interchangeable words in every frame.」を source_fact_ids [F-020, F-023, F-024, F-025] と article_target_ids [synonym:001, synonym:002, synonym:003, synonym:004, synonym:005, synonym:006, synonym:007, synonym:008, synonym:009] に個別適用した。近接語集合は F-020/F-023/F-024/F-025 が支えるが、article target 9件の個別定義差・極性・頻度値までは支えない。",
+      "notes": "source-union anchor「Independent thesaurus results place strong, extreme, powerful, fierce, intensive, concentrated, passionate, deep, and fervent in nearby relation to the relevant intensity or depth-of-feeling uses; the article presents them as related learner contrasts, not interchangeable words in every frame.」を source_fact_ids [F-020, F-023, F-024, F-025] と article_target_ids [synonym:001, synonym:002, synonym:003, synonym:004, synonym:005, synonym:006, synonym:007, synonym:008, synonym:009] に個別適用した。近接語集合は F-020/F-023/F-024/F-025 が支えるが、article target 9件の個別定義差・極性・頻度値までは支えない。"
+    }
+  ],
+  "decision": "reject",
+  "blockers": [
+    {
+      "id": "B-001",
+      "target_id": "usage_note:001",
+      "target_ids": [
+        "usage_note:001"
+      ],
+      "finding_ids": [
+        "cold-001"
+      ],
+      "problem": "exact_quote「※Oxford 5000ではC1レベル。」は現行 Oxford 公式 word list の intense adjective = B2 と矛盾し、F-021/U-008 も同じ誤りを含む。",
+      "required_fix": "Oxford の現行分類に合わせて B2（Oxford 3000）へ修正し、F-021/C-008/U-008 も同じ根拠へ同期する。"
+    },
+    {
+      "id": "B-002",
+      "target_id": "frequency:001",
+      "target_ids": [
+        "frequency:001",
+        "frequency:002",
+        "frequency:003",
+        "usage_note:003",
+        "usage_note:005"
+      ],
+      "finding_ids": [
+        "normal-evidence-005",
+        "normal-evidence-006",
+        "normal-evidence-007"
+      ],
+      "problem": "〈6/10〉〈5/10〉〈4/10〉は editorial estimate と注記されるだけで、intense の実測 rank、語義配分、算定式がなく検証不能である。",
+      "required_fix": "再現可能な corpus 値と10点換算方法を記録するか、根拠のない数値スコアを削除する。"
+    },
+    {
+      "id": "B-003",
+      "target_id": "definition:002",
+      "target_ids": [
+        "core_image:001",
+        "core_image:003",
+        "definition:002",
+        "grammar_pattern:004",
+        "collocation:008"
+      ],
+      "finding_ids": [
+        "normal-evidence-002",
+        "cold-003"
+      ],
+      "problem": "exact_quote「活動量・速度・忙しさ・負荷が大きいこと」が competition/debate/activity 全般へ及び、激しさだけの用法を誤って量・速度へ一般化する。",
+      "required_fix": "高い強度・激しさを核にし、活動量・速度・忙しさ・負荷は文脈により現れる非必須の側面として明示する。"
+    },
+    {
+      "id": "B-004",
+      "target_id": "word_formation:003",
+      "target_ids": [
+        "word_formation:003",
+        "usage_note:004",
+        "synonym:005",
+        "synonym:006"
+      ],
+      "finding_ids": [
+        "normal-evidence-001",
+        "normal-evidence-009",
+        "cold-002"
+      ],
+      "problem": "intense/intensive を速度・負荷対密度・徹底性・範囲で対比する主張は F-005/U-005 の直接範囲を越える。",
+      "required_fix": "Oxford が直接示す overlap と feelings/objective の傾向へ限定するか、各焦点差を直接支える追加根拠を採用する。"
+    },
+    {
+      "id": "B-005",
+      "target_id": "synonym:001",
+      "target_ids": [
+        "synonym:001",
+        "synonym:002",
+        "synonym:003",
+        "synonym:004",
+        "synonym:005",
+        "synonym:006",
+        "synonym:007",
+        "synonym:008",
+        "synonym:009"
+      ],
+      "finding_ids": [
+        "normal-evidence-011",
+        "normal-evidence-012",
+        "normal-evidence-013",
+        "cold-005"
+      ],
+      "problem": "U-009 は近接語集合しか支えず、各語の詳細な意味差・評価極性・10点頻度を支えない。fervent の肯定方向への対比も過度に狭い。",
+      "required_fix": "各関連語の定義・対立軸・頻度に直接適用できる根拠を追加し、fervent は opposition/criticism にも使える非極性の熱烈さとして修正する。"
+    },
+    {
+      "id": "B-006",
+      "target_id": "definition:003",
+      "target_ids": [
+        "definition:003",
+        "usage_note:006"
+      ],
+      "finding_ids": [
+        "normal-evidence-004",
+        "normal-evidence-010"
+      ],
+      "problem": "F-003/F-008/F-012 は人・表情・relationship の強い感情を支えるが、relationship の緊張・衝突・不安定さと gaze の鋭さの全範囲を直接支えない。",
+      "required_fix": "直接根拠を追加するか、定義を strong feelings/attitudes と strong emotional interaction の確認済み範囲へ限定する。"
+    },
+    {
+      "id": "B-007",
+      "target_id": "usage_note:002",
+      "target_ids": [
+        "usage_note:002"
+      ],
+      "finding_ids": [
+        "normal-evidence-008"
+      ],
+      "problem": "extreme の通常範囲からの逸脱対 intense の経験強度という詳細境界は、近接語としての収録だけでは裏づけられない。",
+      "required_fix": "意味境界を直接記述する辞書・用法資料を追加するか、近接語であるという確認済み範囲へ表現を限定する。"
+    }
+  ],
+  "notes": [
+    {
+      "id": "N-001",
+      "status": "nonblocking",
+      "text": "語義2を独立項目にする分類粒度は Oxford の sense 2 と対応し、語義1との共有コアだけを理由に blocker としない。"
+    },
+    {
+      "id": "N-002",
+      "status": "nonblocking",
+      "text": "語義3の人・視線／表情・関係を一つの語義の下位フレームとして並べる構成は内部矛盾ではない。"
+    },
+    {
+      "id": "N-003",
+      "status": "nonblocking",
+      "text": "intensity、intensify、intensive、intensification は別 lexeme の語形成情報であり、intense の番号付き語義に追加する必要はない。"
+    },
+    {
+      "id": "N-004",
+      "status": "nonblocking",
+      "text": "発音、語源、主要コロケーション、11例の英文・訳は個別照合で問題を認めなかった。"
+    },
+    {
+      "id": "N-005",
+      "status": "nonblocking",
+      "text": "sealed blind inventory 11候補・11 semantic assertion はすべて本文に対して再確認できたが、blind inventory 外の頻度・根拠 blocker を解消するものではない。"
+    }
+  ]
+}

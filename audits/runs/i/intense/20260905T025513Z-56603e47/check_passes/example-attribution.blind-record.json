@@ -1,0 +1,151 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "input_body_sha256": "775f1956389033859823911e7aa86ac43f54a7d67c8c24eda12de863b53444dc",
+  "blind_request_sha256": "1c96329db07381c093b634a5a772c72441f0cf059f90e2e5de69796dfed9d5bc",
+  "recorded_at": "2026-09-05T03:22:09Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06f94-a985-7af1-b90b-e52dd99de097"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-e321fa3cac8e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "intense look"
+      ],
+      "rationale": "判別語「intense look」。最有力は sense:003。intense は人の look（視線）にかかり、強い感情を示す張り詰めた視線を表す。sense:001 の一般的な強度も候補になり得るが、この文では感情や感覚そのものではなく、人の視線・表情的な現れが修飾対象なので sense:001 ではない。"
+    },
+    {
+      "example_id": "ex-f91a6a25a411",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "intense relationship",
+        "emotional distance"
+      ],
+      "rationale": "判別語「intense relationship」「emotional distance」。最有力は sense:003。intense は relationship という関係にかかり、感情的な距離のない張り詰めた関係を表す。sense:001 は感情や感覚などの程度を表す語義だが、ここで修飾されているのは個別の感情ではなく関係そのものなので成立しにくい。"
+    },
+    {
+      "example_id": "ex-9bf026cc032b",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense heat"
+      ],
+      "rationale": "判別語「intense heat」。最有力は sense:001。intense は heat という暑さの程度を極端に高いものとして表す。sense:002 は活動や行動の激しさを表すが、work outside は背景となる行動であり、修飾対象の heat は活動ではない。"
+    },
+    {
+      "example_id": "ex-9f908915fc96",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense anger"
+      ],
+      "rationale": "判別語「intense anger」。最有力は sense:001。intense は anger という感情の強度を表す。sense:003 は人・視線・表情・関係が強い感情を示す場合の語義だが、ここでは住民や決定ではなく、怒りそのものを修飾しているため sense:003 ではない。"
+    },
+    {
+      "example_id": "ex-a3f84b05defd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "is intense about",
+        "keeping every detail of the experiment accurate"
+      ],
+      "rationale": "判別語「is intense about」「keeping every detail of the experiment accurate」。最有力は sense:003。is intense about という構文が、主語の人の強い集中・真剣さや目的意識を表す。sense:001 なら感情・感覚などの強度を修飾する対象が必要だが、ここでは人の態度を述べている。sense:002 は行為自体の活動量を表すが、intense が直接示すのは keeping の活動量ではなく She の取り組み方である。"
+    },
+    {
+      "example_id": "ex-b8ad6488966f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense pain"
+      ],
+      "rationale": "判別語「intense pain」。最有力は sense:001。intense は pain という身体感覚の強度を表す。sense:003 は人や表情などが強い感情を示す場合だが、ここで修飾されるのは人ではなく痛みそのものなので該当しない。"
+    },
+    {
+      "example_id": "ex-3643e6284618",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under intense pressure"
+      ],
+      "rationale": "判別語「under intense pressure」。最有力は sense:001。intense は pressure という重圧の程度を極端に高いものとして表す。sense:003 なら管理職本人の表情や態度を修飾するはずだが、文の修飾対象は pressure であり、sense:002 の活動・行動でもない。"
+    },
+    {
+      "example_id": "ex-49330ad2f843",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense blue"
+      ],
+      "rationale": "判別語「intense blue」。最有力は sense:001。intense は blue という色の鮮やかさ・強度を表す。sense:002 は活動の激しさ、sense:003 は人・視線・表情・関係の感情的な強さを表すため、色を修飾するこの用法には当てはまらない。"
+    },
+    {
+      "example_id": "ex-327f9c0a8fed",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense interest"
+      ],
+      "rationale": "判別語「intense interest」。最有力は sense:001。intense は interest という関心の強度を表す。sense:003 は研究者などの人やその表情・関係を修飾する語義だが、ここでは修飾対象が関心そのものなので成立しない。"
+    },
+    {
+      "example_id": "ex-8ae26744271a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "intense person",
+        "very seriously"
+      ],
+      "rationale": "判別語「intense person」「very seriously」。最有力は sense:003。intense person が直接、人の性格・態度の真剣さと感情的な強さを表し、very seriously がその目的意識を補強する。sense:002 は活動自体の激しさを表すが、project は対象領域にすぎず、intense が修飾するのはプロジェクトではなく person である。"
+    },
+    {
+      "example_id": "ex-2712c0dd5b34",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "period of intense activity"
+      ],
+      "rationale": "判別語「period of intense activity」。最有力は sense:002。intense は activity という活動の量・動きの激しさを、period という一定期間内の現象として表す。sense:001 の一般的な強度も抽象的には考えられるが、この文では感情・感覚・色などではなく、期間内の活動状態そのものが修飾対象なので sense:002 が適切である。"
+    },
+    {
+      "example_id": "ex-90b6d2f8dcab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "intense competition"
+      ],
+      "rationale": "判別語「intense competition」。最有力は sense:002。competition は参加者が競い合う活動・過程を表し、intense はその競争の激しさを示す。sense:001 の単なる一般的な高強度として読む余地はあるが、ここでの修飾対象は感情・感覚・色・関心・圧力ではなく、競争という活動なので sense:002 が他候補を上回る。"
+    }
+  ]
+}

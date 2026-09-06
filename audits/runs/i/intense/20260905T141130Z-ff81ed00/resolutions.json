@@ -1,0 +1,307 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-intense-20260905T141130Z-ff81ed00",
+  "context_id": "resolution-intense-context-20260905T141130Z-ff81ed00",
+  "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "recorded_at": "2026-09-05T14:54:43.167365Z",
+  "reviewer_provenance": {
+    "reviewer_role": "independent_finding_resolution_agent",
+    "session_mode": "independent_resolution",
+    "reviewer": {
+      "mode": "independent",
+      "declared_model": "gpt-5.6-luna-wm",
+      "agent_id": "codex-independent-finding-resolution-20260905T141130Z-ff81ed00"
+    },
+    "input_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "sealed_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7",
+    "upstream_reviewers": [
+      {
+        "stage": "translation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "translation-checker-20260905T141130Z-ff81ed00-7c4e9b2a"
+      },
+      {
+        "stage": "sense-structure",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-gpt5-sense-structure-20260905T141130Z-ff81ed00-9f3c7e1a"
+      },
+      {
+        "stage": "frame-relation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "frame-relation-stage1-20260905T141723Z-7c6f2b1e"
+      },
+      {
+        "stage": "example-attribution",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-example-attribution-20260905T141130Z-ff81ed00"
+      },
+      {
+        "stage": "qualification",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-qualification-handoff-ff81ed00"
+      },
+      {
+        "stage": "pronunciation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "pronunciation-checker-ff81ed00"
+      },
+      {
+        "stage": "evidence",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "codex-evidence-checker-20260905-ff81ed00"
+      },
+      {
+        "stage": "cold_review",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a071fd-cd45-7762-9c5f-e6b46080a093"
+      },
+      {
+        "stage": "final_blind",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "01a07202-cbb6-72b0-a8fe-69dc4e5c0081"
+      }
+    ]
+  },
+  "resolutions": [
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The activity block is not split by topic alone: it states the shared high-intensity core separately and supplies an event/activity frame with activity amount, pace, busyness, and load as learner-relevant manifestations. The sealed final-blind inventory independently retained this activity frame, so the finding does not establish a boundary error.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The three core-image bullets are intentionally three subframes of one sense-3 block, and each explicitly maps to sense 3. One-to-many coverage of person, look/expression, and relationship is not an internal contradiction; the detailed definition and usage note provide their distinctions.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "finding_id": "normal-sense-structure-003",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. intensity, intensify, intensification, and intensive are separately labeled related forms or a contrast lexeme, not additional inflectional senses of the adjective intense. A word-formation section is the appropriate place to record those lexemes; the finding would incorrectly require unrelated headword entries inside this entry.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The article does not present the intensive comparison as a quotation from EVID-003; it presents a cautious learner-facing synthesis, using overlap and tendency language. The source-first U-005/C-005 record explicitly covers the intense–intensive contrast, so a demand that every gloss word occur literally in one fact is not an evidence mismatch.",
+      "evidence_link_ids": [
+        "EVID-003"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The activity definition combines the positive coverage of F-002 and F-007 with explicit conservative qualifications that effort, tension, and short duration are not requirements. The source-first C-002 claim records that scope, and the article does not assert that every listed manifestation is universal.",
+      "evidence_link_ids": [
+        "EVID-005"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. “鋭さ” is the Japanese learner-facing gloss for the focused or forceful impression of an intense look/expression, while the same block anchors the use in look/gaze and strong feeling. The finding treats a contextual gloss as an unsupported separate lexical claim.",
+      "evidence_link_ids": [
+        "EVID-004"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The relationship wording is deliberately qualified as a possible accompaniment (“場合もある” and “含み得る”), not a necessary entailment. F-003/F-008/F-012/F-014 support relationship, strong feeling, and the person-related high-strung frame; the finding does not show that this cautious contextual range is inapplicable.",
+      "evidence_link_ids": [
+        "EVID-005"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The three numeric fields are explicitly labeled editorial estimates, not exact sense-level corpus rankings, and the surrounding note states the corpus resource is lemma/part-of-speech based. EVID-006 and F-026–F-028 therefore support the stated status of the numbers even though they cannot reproduce a fictional exact sense score.",
+      "evidence_link_ids": [
+        "EVID-006"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The second numeric field carries the same explicit editorial-estimate qualification and is not claimed to be directly observed as an exact corpus rank. The finding asks for evidence of a claim the article expressly disclaims.",
+      "evidence_link_ids": [
+        "EVID-006"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The third numeric field carries the same explicit editorial-estimate qualification and is not claimed to be directly observed as an exact corpus rank. The finding asks for evidence of a claim the article expressly disclaims.",
+      "evidence_link_ids": [
+        "EVID-006"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The extreme comparison is stated as an overlap and a tendency (“重なる場合” and “焦点を置きやすい”), not as an absolute dictionary definition. F-006/F-020 and the source-first U-001/U-009 support the adjacent relation; the finding overstates the evidentiary burden for a qualified learner contrast.",
+      "evidence_link_ids": [
+        "EVID-009"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-009",
+      "finding_id": "normal-evidence-009",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The activity comparison is explicitly framed as a tendency with overlap, and the article separately states that period/scope are not required and that emotion/objectivity alone is not decisive. F-005 and U-005 cover the comparison at that qualified level.",
+      "evidence_link_ids": [
+        "EVID-009"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-010",
+      "finding_id": "normal-evidence-010",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The person/look/relationship note uses possible and non-necessary language, including “必ず外に表出するとは限らない” and “含み得る.” The source-first U-003/C-003 supports the common strong-feeling/interpersonal frame, so the finding cannot convert cautious contextual qualifications into unsupported categorical claims.",
+      "evidence_link_ids": [
+        "EVID-009"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-011",
+      "finding_id": "normal-evidence-011",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The lexical-relations block labels these as related learner contrasts, not interchangeable synonyms, and the frequency fields are explicitly editorial estimates. U-009/C-009 and F-020/F-023 support the selected nearby set; the finding conflates the set-level evidence claim with every pedagogical contrast sentence.",
+      "evidence_link_ids": [
+        "EVID-010"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-012",
+      "finding_id": "normal-evidence-012",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The activity relation block is likewise explicitly a related-word comparison rather than an interchangeability claim, and its scores are editorial estimates. U-009/C-009 and F-023 support the nearby relation set; the finding does not establish a mismatch with the article’s stated scope.",
+      "evidence_link_ids": [
+        "EVID-010"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "normal-evidence-013",
+      "finding_id": "normal-evidence-013",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The depth-of-feeling block is explicitly framed as a related learner contrast, while F-024/F-025 and U-009/C-009 support the passionate/fervent neighborhood. The article does not claim that the three words are interchangeable or that the editorial scores are exact corpus ranks.",
+      "evidence_link_ids": [
+        "EVID-010"
+      ],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "cold-001",
+      "finding_id": "cold-001",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The cold reviewer supplied no source for the alleged B2 variant, while the current source-first inventory records the consulted Oxford 5000 result as C1 (F-021/U-008). The article identifies the source/classification as Oxford 5000, so the unsubstantiated alternative does not invalidate the current claim.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "cold-002",
+      "finding_id": "cold-002",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The article repeatedly uses “焦点を置きやすい,” “傾向,” and “重なる場合がある,” and it expressly says period/scope are not necessary. Those qualifications prevent the fixed substitution rule alleged by the finding.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "cold-003",
+      "finding_id": "cold-003",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The activity definition first requires high intensity and then names activity amount, pace, busyness, and load as observable dimensions, while expressly denying that effort, tension, or short duration is required. It is a bounded learner description, not a claim that all listed dimensions must be high in every use.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "cold-004",
+      "finding_id": "cold-004",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. The person and relationship wording preserves context dependence and explicitly allows tension, conflict, and instability without requiring them; the relationship example is not described as necessarily good or stable. The alleged missing qualification is already present in the quoted anchors.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    },
+    {
+      "id": "cold-005",
+      "finding_id": "cold-005",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Rejected. “肯定的に表しやすく” is a tendency, not an absolute positive-polarity restriction. The contrast immediately states that intense covers a wider range, so the finding does not demonstrate a misleading categorical rule.",
+      "evidence_link_ids": [],
+      "resolved_body_sha256": "3a1ecd39179a54df37a738e19b1b01cfb3f4fc1ccfad52e3eed9dcbf378473a7"
+    }
+  ]
+}
+

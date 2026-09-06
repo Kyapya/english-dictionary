@@ -1,0 +1,74 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "stage2_request_sha256": "0646203f1fc9897898e765c6478868c086b8ce2f6a28d51fa5c7672a120f6d79",
+  "blind_record_sha256": "83807b503479733863986124a338274049a4caa16c19d3492b892fa6e4d75e04",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d38-eb50-7b73-a126-1ec01be250b5"
+  },
+  "aligned_at": "2026-09-04T16:23:00Z",
+  "adjudications": [
+    {
+      "item_id": "ant-464499db347e",
+      "flags": [],
+      "rationale": "sense:001の定義が程度の極端な強さを直接示し、mildの穏やかさとの程度対立が違い行にも明記されている。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f114c7dc9bc6",
+      "flags": [],
+      "rationale": "sense:001の対象にかかる力や圧の大きさと、weakの力・作用の不足が同じ強度の程度軸で対応する。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-06d30634b64f",
+      "flags": [],
+      "rationale": "sense:001の光や色などの強さと、faintの感覚刺激の弱さが同じ強度軸で対応し、違い行も対立を明記している。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-1a4b697f8e4b",
+      "flags": [],
+      "rationale": "sense:002の活動・負荷の激しさに対し、moderateの中程度が同じ強度の程度軸で対応する。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-41690c7b43ad",
+      "flags": [],
+      "rationale": "sense:002が参加者の圧や負荷を含む活動強度を定義し、lightの小さい作業・身体負荷が同じ負荷の程度軸で対応する。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-80779d1bfcd6",
+      "flags": [],
+      "rationale": "sense:003の真剣さ・感情的圧力から真剣さの軸を導出でき、casualの気軽さとの対立を違い行が明記している。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f870f7405e53",
+      "flags": [],
+      "rationale": "sense:003の張り詰めた圧から緊張軸を導出でき、relaxedの緊張のない状態との対立が成立する。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-af2cb1b9bd23",
+      "flags": [],
+      "rationale": "sense:003の強い感情や関係性から関与軸を導出でき、detachedの感情的距離との対立を違い行が明記している。F1〜F4なし。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

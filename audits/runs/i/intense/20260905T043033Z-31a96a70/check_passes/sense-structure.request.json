@@ -1,0 +1,127 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "input_sections": {
+    "core_image": [
+      {
+        "line": 30,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 32,
+        "text": "程度・力・エネルギー・感情の強度や度合いが非常に高い。対象により、経験される強さ、活動の負荷、または人・視線・関係に表れる強い感情として現れる。  "
+      },
+      {
+        "line": 34,
+        "text": "・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（語義1）  "
+      },
+      {
+        "line": 35,
+        "text": "・活動や行動の強度・エネルギー・努力・緊張や負荷が非常に高い → 「激しい、活動量の多い」（語義2）  "
+      },
+      {
+        "line": 36,
+        "text": "・人・視線・表情・関係に強い感情や態度が表れる／強い結びつきがある → 「感情や態度の強い、張り詰めた」（語義3）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 42,
+        "text": "【日本語訳・定義】感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が非常に高いこと。intense pleasure「非常に強い喜び」のように、好ましい対象にも使う。  "
+      },
+      {
+        "line": 109,
+        "text": "2. 【形容詞・限定／叙述】激しい、活動量の多い"
+      },
+      {
+        "line": 111,
+        "text": "【日本語訳・定義】活動・競争・議論・訓練などの強度、エネルギー、努力、緊張や負荷が非常に高いこと。短期集中を伴う場合にも使うが、短期間であることは必須ではない。  "
+      },
+      {
+        "line": 156,
+        "text": "3. 【形容詞・人・視線・表情・関係】感情や態度の強い、張り詰めた"
+      },
+      {
+        "line": 158,
+        "text": "【日本語訳・定義】人・視線・表情・関係などについて、強い感情や意見が表れる、強く感じられる、または強い感情的な結びつきがあること。人・表情の表出、人物への評価、関係の情緒的な強さを区別する。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞・限定／叙述】強烈な、非常に強い"
+      },
+      {
+        "line": 84,
+        "text": "【語法・注意】intense は感情、感覚、熱、色、関心、圧力など、強さの対象を表す名詞と結びつく。intense pleasure のような好ましい対象にも、intense pain や intense anger のような好ましくない対象にも使える。  "
+      },
+      {
+        "line": 109,
+        "text": "2. 【形容詞・限定／叙述】激しい、活動量の多い"
+      },
+      {
+        "line": 131,
+        "text": "【語法・注意】intense は強度・力・緊張・感情が高いことを表し、intensive は限られた期間・範囲に活動や資源を集中投入することを表す傾向がある。活動用法では重なる場合があり、感情性・客観性だけを決め手にしない。  "
+      },
+      {
+        "line": 156,
+        "text": "3. 【形容詞・人・視線・表情・関係】感情や態度の強い、張り詰めた"
+      },
+      {
+        "line": 183,
+        "text": "【語法・注意】人への用法は強い感情や態度を持つという評価で、必ず外に表出するとは限らない。視線・表情では集中・鋭さ・感情の表れ、relationship では情緒的な結びつきや相互作用の強さを表す。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 23,
+        "text": "＃語形成"
+      },
+      {
+        "line": 25,
+        "text": "・intensity（名詞）— 強度、激しさ。  "
+      },
+      {
+        "line": 26,
+        "text": "・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。  "
+      },
+      {
+        "line": 27,
+        "text": "・intensive（形容詞）— 集中的な、徹底的な。限られた期間・範囲に活動や資源を集中投入することを表す。intense と活動用法で重なる場合があるが、intense は強度・力・緊張・感情の高さに、intensive は集中投入の範囲・期間に焦点を置きやすい。  "
+      },
+      {
+        "line": 28,
+        "text": "・intensification（名詞）— 強化、激化。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}

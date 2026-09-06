@@ -1,0 +1,231 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "stage": 1,
+  "input_body_sha256": "d9de6fa1c329e56869587ad1d22ba4bb95aba79b2d19d36eb494ea69d91b5bbf",
+  "recorded_at": "2026-09-05T02:20:24Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "example-attribution-normal-checker-20260905T021546Z-eaa9c0c3"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-d6cbe4ed3151",
+      "classification": "ambiguous",
+      "candidate_sense_ids": [
+        "sense:002",
+        "sense:003"
+      ],
+      "discriminating_terms": [],
+      "rationale": "「conversation」は議論・活動としての語義2にも、強い感情や対人的な圧を帯びる会話としての語義3にも自然で、「about the proposal」「committee」は話題・参加者を示すだけで見出し語の意味選択を一意化しない。"
+    },
+    {
+      "example_id": "ex-f4be5d0f4b3a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "period of intense activity"
+      ],
+      "rationale": "最有力は語義2。intense は「period of intense activity」で活動そのものの強度を修飾する。語義1の感覚・環境・感情の強度ではなく、語義3の人・表情・感情的関係でもないため、他候補は成立しにくい。"
+    },
+    {
+      "example_id": "ex-92cf9aa4b2ab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "held intense negotiations",
+        "throughout the night"
+      ],
+      "rationale": "最有力は語義2。held intense negotiations は交渉という継続的な活動の激しさを表し、throughout the night も活動の展開を示す。語義3の個人間の感情的な会話・関係ではなく、語義1の感覚等の程度でもない。"
+    },
+    {
+      "example_id": "ex-15e1963f4acc",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "intense training camp"
+      ],
+      "rationale": "最有力は語義2。intense training camp は訓練活動の負荷・厳しさを修飾する。語義1の感覚・性質の強度や語義3の人・感情的関係の強さとして読む構文ではない。"
+    },
+    {
+      "example_id": "ex-a98dde12a015",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "an intense person",
+        "takes every project very seriously"
+      ],
+      "rationale": "最有力は語義3。an intense person が人の感情・目的意識の強さを直接表し、takes every project very seriously がその性格的な用法を補強する。語義1なら痛み等の対象の強度、語義2なら活動の負荷を修飾するはずで、この人を直接修飾する使い方にはならない。"
+    },
+    {
+      "example_id": "ex-bac95662d763",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "felt too intense",
+        "for a casual introduction"
+      ],
+      "rationale": "最有力は語義3。felt too intense for a casual introduction は初対面のやり取りが重く圧を感じさせるという評価で、語義3の対人的な負担・張り詰めを示す。語義2の活動負荷としても meeting は理論上読めるが、同じ文には作業量、議論、競争などを示す構造がなく、語義3を自然に選ぶ。"
+    },
+    {
+      "example_id": "ex-18ccfc5aad15",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "intense relationship",
+        "emotional distance"
+      ],
+      "rationale": "最有力は語義3。intense relationship が関係の感情的結びつきの強さを表し、little room for emotional distance がその結果状態を明示する。語義1の単なる感覚・色・圧力の程度では関係の対人的含意を説明できず、語義2の活動強度でもない。"
+    },
+    {
+      "example_id": "ex-57aeaea779b4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "attracted intense interest"
+      ],
+      "rationale": "最有力は語義1。attracted intense interest では interest という関心の程度を直接修飾している。語義2の活動や努力、語義3の人・会話・関係ではなく、researchers は関心の向け手にすぎない。"
+    },
+    {
+      "example_id": "ex-57c07e793bd1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "under intense pressure"
+      ],
+      "rationale": "最有力は語義1。under intense pressure の under + pressure はかかる圧力の強度を表し、to improve the results は圧力の目的を示す。語義2の活動強度や語義3の人・対話の感情表現ではない。"
+    },
+    {
+      "example_id": "ex-9fad748ae1de",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "required intense effort"
+      ],
+      "rationale": "最有力は語義2。required intense effort で目標に向ける努力の投入量・負荷を修飾している。語義1の感覚や環境の程度、語義3の人・関係の感情的強さではこの項構造を説明できない。"
+    },
+    {
+      "example_id": "ex-2dde507c2ae3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "whether to end the relationship"
+      ],
+      "rationale": "最有力は語義3。intense conversation が whether to end the relationship という個人的で重大な関係問題をめぐる感情的な会話を表す。語義2の単なる討議活動としても conversation は候補になり得るが、この文の対人的な結果・感情負荷が活動の負荷より直接的で、語義3を選ぶ。"
+    },
+    {
+      "example_id": "ex-34fd5d22d53d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense heat"
+      ],
+      "rationale": "最有力は語義1。intense heat は環境の熱の強度を直接修飾する。語義2なら活動の強度、語義3なら人や対話の感情的圧を示す必要があり、この名詞句にはない。"
+    },
+    {
+      "example_id": "ex-7dd91576ba84",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "intense competition",
+        "for places at the top universities"
+      ],
+      "rationale": "最有力は語義2。intense competition は places をめぐる競争という活動・対立の強度を表す。語義1の感覚等や語義3の人・感情的関係を修飾する構文ではない。"
+    },
+    {
+      "example_id": "ex-449ea6e829c5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "gave him an intense look"
+      ],
+      "rationale": "最有力は語義3。gave him an intense look の give + 人 + look は相手に向けた視線・表情で、強い感情・集中の表出を表す。語義1の色・光などの視覚刺激の強度ならこの対人方向の項構造にならず、語義2の活動でもない。"
+    },
+    {
+      "example_id": "ex-e812e4d1abdc",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "provoked intense anger"
+      ],
+      "rationale": "最有力は語義1。provoked intense anger で anger という感情の程度を直接修飾する。語義3の人・表情・会話ではなく、語義2の活動強度でもない。"
+    },
+    {
+      "example_id": "ex-a9aeb0a34b82",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense blue"
+      ],
+      "rationale": "最有力は語義1。intense blue は湖の色の鮮やかさを直接表し、against the white snow との対比は色の見え方を結果づける。語義2の活動や語義3の人・関係の強さではない。"
+    },
+    {
+      "example_id": "ex-c07c6b53a312",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "felt intense pain",
+        "in his lower back"
+      ],
+      "rationale": "最有力は語義1。felt intense pain で身体感覚の強さを直接修飾し、in his lower back は痛みの部位を示す。語義2の活動負荷や語義3の対人的な感情表現ではない。"
+    },
+    {
+      "example_id": "ex-a7f1d7447bb5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "is intense about",
+        "keeping every detail of the experiment accurate"
+      ],
+      "rationale": "最有力は語義3。is intense about + keeping every detail of the experiment accurate は人の強いこだわり・目的意識を表す構文である。語義2なら intense は訓練や努力など活動名詞を修飾し、語義1なら感覚等の強度を表すので、この人の態度を述べる用法にはならない。"
+    },
+    {
+      "example_id": "ex-626a14a2532d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "intense debate"
+      ],
+      "rationale": "最有力は語義2。intense debate は提案をめぐる議論活動の強度を表す。語義3の個人・表情・関係の感情的圧ではなく、語義1の感覚・環境・感情の対象の程度でもない。"
+    }
+  ],
+  "blind_request_sha256": "952bf680d103ca85bdf16823f0d2424b5480a7e2b94179869511c56d7a37017e"
+}

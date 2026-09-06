@@ -1,0 +1,63 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "d9de6fa1c329e56869587ad1d22ba4bb95aba79b2d19d36eb494ea69d91b5bbf",
+  "blind_request_sha256": "4b861110aad8e86352da3083d1a82286b78b8b42316993518d97d8df416a610f",
+  "recorded_at": "2026-09-05T02:22:47Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "independent-frame-relation-stage1-20260905T022247Z"
+  },
+  "axes": [
+    {
+      "item_id": "ant-13179e3a39cd",
+      "axis": "強度",
+      "relation_type": "程度",
+      "reason": "intense と weak はいずれも力や作用の強さの高低を表す。"
+    },
+    {
+      "item_id": "ant-232f19f9301d",
+      "axis": "強度",
+      "relation_type": "程度",
+      "reason": "両語とも光や色などの感覚刺激の強さを表す。"
+    },
+    {
+      "item_id": "ant-63c49467b7ea",
+      "axis": "強度",
+      "relation_type": "程度",
+      "reason": "両語とも程度や強さの高低を表す。"
+    },
+    {
+      "item_id": "ant-86225a7ea71c",
+      "axis": "関与",
+      "relation_type": "状態",
+      "reason": "intense は強い感情や目的意識を示す状態、detached は感情的関与を避ける状態を表す。"
+    },
+    {
+      "item_id": "ant-24c389fc86f4",
+      "axis": "緊張",
+      "relation_type": "状態",
+      "reason": "intense は圧力や感情的負担を伴う状態、relaxed は緊張のない落ち着いた状態を表す。"
+    },
+    {
+      "item_id": "ant-4563cb57beb4",
+      "axis": "負荷",
+      "relation_type": "程度",
+      "reason": "両語とも仕事や運動などにかかる負荷の大小を表す。"
+    },
+    {
+      "item_id": "ant-be2e0275840b",
+      "axis": "真剣さ",
+      "relation_type": "状態",
+      "reason": "intense は人や会話などの真剣で強い関与を示し、casual はそれらの気軽で形式張らない状態を示す。"
+    },
+    {
+      "item_id": "ant-7777977e2951",
+      "axis": "強度",
+      "relation_type": "程度",
+      "reason": "両語とも活動などの程度や強さの高低を表す。"
+    }
+  ]
+}

@@ -1,0 +1,152 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06fe0-31a9-7a70-b6a0-4f8d2c91e3ab"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "stage": 1,
+    "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+    "blind_request_sha256": "fec74fdec576fbf8f3dee99795b187454db8c77f995275cee84ab2a18ac8d0e3",
+    "recorded_at": "2026-09-05T04:40:07Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "01a06fe0-31a9-7a70-b6a0-4f8d2c91e3ab"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-618b1e2d1835",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense activity"
+        ],
+        "rationale": "「intense activity」は activity という活動・出来事そのものの強度を述べる。sense:001なら痛み・熱・関心など対象の程度、sense:003なら人や関係の感情的な強さを述べるが、この文では intense が修飾するのは活動そのものなので sense:002 が最も自然である。"
+      },
+      {
+        "example_id": "ex-f10457dba432",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "under intense pressure"
+        ],
+        "rationale": "「under intense pressure」では pressure という重圧・心理的負担の強度が述べられている。sense:002は活動自体の強度、sense:003は人や表情の強い態度を表すが、managerや改善行動は背景であり、intense が直接修飾する pressure には sense:001 が適合する。"
+      },
+      {
+        "example_id": "ex-f137e090eaf0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "gave him an intense look"
+        ],
+        "rationale": "「gave him an intense look」は相手に向けられた look が告発への強い反応や緊張を伝える構文である。sense:001の一般的な程度の高さとして視覚的性質を述べる読みも考えられるが、この文で修飾されるのは色や感覚ではなく対人的な視線なので sense:003 が最も自然である。"
+      },
+      {
+        "example_id": "ex-aecfe7e4a6f2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense interest"
+        ],
+        "rationale": "「intense interest」は interest という関心・心理状態の強度を表す。sense:003なら研究者などの人や表情・関係を修飾するが、この文では researchers は関心の担い手にすぎず、intense の修飾対象は interest そのものなので sense:001 が適合する。"
+      },
+      {
+        "example_id": "ex-e0190302d4ac",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense competition"
+        ],
+        "rationale": "「intense competition」は places をめぐって参加者が競い合う活動・過程の激しさを表す。sense:001の感情や感覚の強度として読む余地はあるが、この文で intense が修飾するのは感情ではなく competition という活動であり、sense:003の人物・関係用法でもないため sense:002 が最も自然である。"
+      },
+      {
+        "example_id": "ex-291ac3c2eaad",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense pain"
+        ],
+        "rationale": "「intense pain」は lower back に感じる pain という身体感覚の強度を表す。sense:002は活動・行動の負荷、sense:003は人や表情・関係の感情的な強さを表すが、ここで修飾されるのは人の態度ではなく痛みそのものなので sense:001 が適合する。"
+      },
+      {
+        "example_id": "ex-46cb08cdd57e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense anger"
+        ],
+        "rationale": "「intense anger」は decision が引き起こした anger という感情の強度を表す。sense:003なら residents の人やその表情が強い感情を示すことになるが、among local residents は感情の担い手を示すだけで、intense の修飾対象は anger なので sense:001 が最も自然である。"
+      },
+      {
+        "example_id": "ex-19eac558e240",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense blue"
+        ],
+        "rationale": "「intense blue」は lake の blue という色の視覚的な強さ・濃さを表し、white snow との対比で際立つ。sense:002の活動強度や sense:003の人・視線・関係の感情的強さでは、この色名を直接修飾する使われ方を説明できないため sense:001 が一意である。"
+      },
+      {
+        "example_id": "ex-b5f7e74a14c5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense person",
+          "very seriously"
+        ],
+        "rationale": "「intense person」と「very seriously」は、主語である人の性格・態度の真剣さと感情的な強さを直接述べる。sense:002なら project や取り組みという活動自体が intense になるはずだが、文の修飾対象は活動ではなく person なので sense:003 が最も自然である。"
+      },
+      {
+        "example_id": "ex-e7ed333e39d3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense relationship",
+          "emotional distance"
+        ],
+        "rationale": "「intense relationship」と「emotional distance」は、二者間の感情的な結びつきや相互作用の強さを示す。sense:001の個別の感情・感覚の強度や sense:002の活動の激しさでは、relationshipそのものと距離の置きにくさを修飾するこの構文を説明できないため sense:003 が一意である。"
+      },
+      {
+        "example_id": "ex-c01abcd41d78",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense heat"
+        ],
+        "rationale": "「intense heat」は屋外作業を危険にする heat という熱・暑さの強度を表す。sense:002の活動用法なら work 自体の負荷を修飾するが、work outside は結果に関わる背景行動であり、intense が直接かかる heat には sense:001 が適合する。"
+      }
+    ],
+    "findings": []
+  },
+  "aligned_at": "2026-09-05T05:08:14.225802+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

@@ -1,0 +1,253 @@
+{
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "candidate_1",
+      "surface_form": "intense",
+      "frame": "intense + pain, heat, light, colorなど",
+      "meaning": "感覚・物理的性質の程度や強度が極端に高い",
+      "disposition": "included",
+      "rationale": "語義1と例文がこの用法を明示している。対象フレーム: intense + pain, heat, light, colorなど",
+      "semantic_assertions": [
+        {
+          "id": "candidate_1_assertion_1",
+          "statement": "強度の高さを表し、単純な量や大きさの多さを必須条件としない。",
+          "polarity": "must_hold",
+          "scope": "感覚・物理的性質名詞"
+        }
+      ]
+    },
+    {
+      "id": "candidate_2",
+      "surface_form": "intense",
+      "frame": "intense + interest, anger, pleasureなど",
+      "meaning": "感情・関心・心理状態が非常に強い",
+      "disposition": "included",
+      "rationale": "肯定的・否定的な感情の双方を含めて語義1に記載されている。対象フレーム: intense + interest, anger, pleasureなど",
+      "semantic_assertions": [
+        {
+          "id": "candidate_2_assertion_1",
+          "statement": "感情または関心の強度が高いことを表し、不快・否定的な対象に限定されない。",
+          "polarity": "must_hold",
+          "scope": "感情・関心名詞"
+        }
+      ]
+    },
+    {
+      "id": "candidate_3",
+      "surface_form": "intense",
+      "frame": "under intense pressure/scrutiny",
+      "meaning": "非常に強い圧力または厳しい監視・精査",
+      "disposition": "included",
+      "rationale": "語義1の文法パターンとして明示されている。対象フレーム: under intense pressure/scrutiny",
+      "semantic_assertions": [
+        {
+          "id": "candidate_3_assertion_1",
+          "statement": "対象に作用する圧力が強い、または対象への監視・精査が非常に厳しい。",
+          "polarity": "must_hold",
+          "scope": "under + intense + pressure/scrutiny"
+        }
+      ]
+    },
+    {
+      "id": "candidate_4",
+      "surface_form": "intense",
+      "frame": "intense + competition, debate, negotiations",
+      "meaning": "競争・議論・交渉が激しく緊張度の高い",
+      "disposition": "included",
+      "rationale": "語義2の活動・相互作用用法として例示されている。対象フレーム: intense + competition, debate, negotiations",
+      "semantic_assertions": [
+        {
+          "id": "candidate_4_assertion_1",
+          "statement": "相互作用に通常以上の対立・力・緊張または集中したやり取りがある。",
+          "polarity": "must_hold",
+          "scope": "競争・議論・交渉"
+        }
+      ]
+    },
+    {
+      "id": "candidate_5",
+      "surface_form": "intense",
+      "frame": "intense + activity, effort, training",
+      "meaning": "活動・努力・訓練が非常に激しく負荷が大きい",
+      "disposition": "included",
+      "rationale": "語義2の定義とコロケーションがこの用法をカバーしている。対象フレーム: intense + activity, effort, training",
+      "semantic_assertions": [
+        {
+          "id": "candidate_5_assertion_1",
+          "statement": "活動や努力のエネルギー・負荷・要求水準が高く、短期間であること自体は必要条件ではない。",
+          "polarity": "must_hold",
+          "scope": "活動・努力・訓練"
+        }
+      ]
+    },
+    {
+      "id": "candidate_6",
+      "surface_form": "intense",
+      "frame": "an intense person; be intense about X",
+      "meaning": "強い感情・意見・目的意識を示し、存在感や圧のある人・態度",
+      "disposition": "included",
+      "rationale": "語義3の人物・態度用法として記載されている。対象フレーム: an intense person; be intense about X",
+      "semantic_assertions": [
+        {
+          "id": "candidate_6_assertion_1",
+          "statement": "人またはその態度が強い感情・意見・目的意識を示し、単なる真面目さだけに還元されない。",
+          "polarity": "must_hold",
+          "scope": "人物・態度"
+        }
+      ]
+    },
+    {
+      "id": "candidate_7",
+      "surface_form": "intense",
+      "frame": "an intense look/gaze/expression",
+      "meaning": "強い感情または集中を帯びた視線・表情",
+      "disposition": "included",
+      "rationale": "語義3の視線・表情用法と例文がある。対象フレーム: an intense look/gaze/expression",
+      "semantic_assertions": [
+        {
+          "id": "candidate_7_assertion_1",
+          "statement": "視線または表情が強い感情・集中を伝えるが、怒りだけを意味しない。",
+          "polarity": "must_hold",
+          "scope": "look/gaze/expression"
+        }
+      ]
+    },
+    {
+      "id": "candidate_8",
+      "surface_form": "intense",
+      "frame": "an intense conversation",
+      "meaning": "感情的または重大な問題を伴う、張り詰めた会話",
+      "disposition": "included",
+      "rationale": "語義3に明示され、関係の終了をめぐる例文で具体化されている。対象フレーム: an intense conversation",
+      "semantic_assertions": [
+        {
+          "id": "candidate_8_assertion_1",
+          "statement": "会話に強い感情・重大な利害または心理的緊張があり、単なる長さや発話量を意味しない。",
+          "polarity": "must_hold",
+          "scope": "conversation"
+        }
+      ]
+    },
+    {
+      "id": "candidate_9",
+      "surface_form": "intense",
+      "frame": "an intense relationship",
+      "meaning": "感情的な結びつきや相互作用が非常に強い関係",
+      "disposition": "included",
+      "rationale": "語義3に明示され、感情的距離の少なさとして説明されている。対象フレーム: an intense relationship",
+      "semantic_assertions": [
+        {
+          "id": "candidate_9_assertion_1",
+          "statement": "関係の感情的関与または相互作用の強さが高い。",
+          "polarity": "must_hold",
+          "scope": "relationship"
+        }
+      ]
+    },
+    {
+      "id": "candidate_10",
+      "surface_form": "intense",
+      "frame": "too intense（人・会話・関係）",
+      "meaning": "対人的な圧や感情的負荷が強すぎる",
+      "disposition": "included",
+      "rationale": "語義3の評価的な用法として例文がある。対象フレーム: too intense（人・会話・関係）",
+      "semantic_assertions": [
+        {
+          "id": "candidate_10_assertion_1",
+          "statement": "文脈上、人物または対人的相互作用が受け手にとって過度に重く、圧が強い。",
+          "polarity": "must_hold",
+          "scope": "too intense"
+        }
+      ]
+    },
+    {
+      "id": "candidate_11",
+      "surface_form": "intense",
+      "frame": "objective short-duration concentration as a strict synonym of intensive",
+      "meaning": "客観的密度・短時間集中だけを表す用法",
+      "disposition": "excluded",
+      "rationale": "intenseとintensiveの重なりは説明されるが、厳密な同義語とは扱われていない。",
+      "semantic_assertions": [
+        {
+          "id": "candidate_11_assertion_1",
+          "statement": "intenseは短期間または客観的密度を必須とするintensiveの完全な同義語であってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "intense/intensive distinction"
+        }
+      ]
+    },
+    {
+      "id": "candidate_12",
+      "surface_form": "intense",
+      "frame": "noun, verb, or adverb use",
+      "meaning": "形容詞以外の主要品詞用法",
+      "disposition": "excluded",
+      "rationale": "本文は標準的な形容詞としてのみ扱っている。対象フレーム: noun, verb, or adverb use",
+      "semantic_assertions": [
+        {
+          "id": "candidate_12_assertion_1",
+          "statement": "標準的な見出し語用法を名詞・動詞・副詞として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "品詞"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "finding_1",
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "発音記号 > intensiveとの比較",
+        "line_start": 6,
+        "line_end": 6,
+        "exact_quote": "intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。"
+      },
+      "severity": "minor",
+      "rationale": "本文前半はintenseの第2音節を /tens/ と正しく示す一方、後半でintenseの語末を /ens/ としており、/t/を欠く誤記かつ内部矛盾になっている。該当箇所: 「intense は形容詞の語末が /ens/、intensive は /ɪv/ で終わる。」"
+    },
+    {
+      "id": "finding_2",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "語義2 > 日本語訳・定義",
+        "line_start": 145,
+        "line_end": 145,
+        "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。"
+      },
+      "severity": "blocking",
+      "rationale": "intense activity/effort/trainingを短期間に多くの行動が集中する用法として狭く定義しているが、intenseは活動の力・負荷・緊張の高さを表し、短い期間や客観的密度は必要条件ではない。該当箇所: 「【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。対象の客観的な密度だけでなく、それに参加・直面する人が感じる圧や負荷を表すことがある。」"
+    },
+    {
+      "id": "finding_3",
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "語義3 > 文法パターン",
+        "line_start": 255,
+        "line_end": 255,
+        "exact_quote": "an intense conversation/relationship＝感情的な圧や結びつきの強い会話・関係"
+      },
+      "severity": "blocking",
+      "rationale": "an intense conversationは感情的で重大な会話という語義3にも、激しい議論・相互作用という語義2にも自然に適合する。本文はこのフレームを語義3だけに置き、別義としての境界または文脈差を明示していない。該当箇所: 「an intense conversation/relationship＝感情的な圧や結びつきの強い会話・関係」"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d68-e815-78a1-a11b-74e1925c5084"
+  },
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-intense-20260904T160121Z-35cedac0",
+  "context_id": "blind-intense-context-20260904T160121Z-35cedac0",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-04T17:24:24.299529+00:00"
+}

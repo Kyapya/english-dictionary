@@ -1,0 +1,90 @@
+{
+  "summary": "語義3の欠落、語義境界の曖昧さ、intense と intensive の区別および「短期間・集中」への過度な限定がある。",
+  "findings": [
+    {
+      "id": "f1",
+      "location": "コアイメージと詳細語義の対応",
+      "severity": "medium",
+      "description": "コアイメージで語義3を提示しているが、詳細な語義3の節が存在しない。",
+      "reason": "人・表情・態度に関する主要な用法が説明されず、記事内の構成も不一致になる。該当箇所: 「・人や表情に現れる感情・意見の圧 → 「真剣で感情の強い、張り詰めた」（語義3）」",
+      "suggested_direction": "人・表情・態度に現れる強い感情や張り詰めた印象の語義を独立して追加する。",
+      "scope_anchors": [
+        {"id": "f1-a1", "exact_quote": "・人や表情に現れる感情・意見の圧 → 「真剣で感情の強い、張り詰めた」（語義3）", "location_hint": "＃コアイメージの第3項"},
+        {"id": "f1-a2", "exact_quote": "2. 【形容詞・限定／叙述】激しい、集中的な", "location_hint": "＃意味・用法・関連表現の最後の詳細語義見出し。語義3の本文がない"}
+      ]
+    },
+    {
+      "id": "f2",
+      "location": "コアイメージ・語義1の定義",
+      "severity": "medium",
+      "description": "intense の中心を「一点への集中」「圧」「張り」として描きすぎている。",
+      "reason": "痛み、暑さ、色、喜びなどは、集中や圧力を伴わず単に程度・強度が非常に高い場合にも intense になるため、誤った一般化を招く。該当箇所: 「力・感情・注意が一点に強く集まり、圧や張りが大きい状態。」",
+      "suggested_direction": "基本義を「程度・強度・感情の強さが非常に高い」とし、集中や張りは一部の文脈で生じる含意として扱う。",
+      "scope_anchors": [
+        {"id": "f2-a1", "exact_quote": "力・感情・注意が一点に強く集まり、圧や張りが大きい状態。", "location_hint": "＃コアイメージ冒頭"},
+        {"id": "f2-a2", "exact_quote": "単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。", "location_hint": "語義1の日本語訳・定義"}
+      ]
+    },
+    {
+      "id": "f3",
+      "location": "語義2の定義・文法パターン・語法注意",
+      "severity": "medium",
+      "description": "語義2を短期間の集中や活動密度を必要条件のように説明している。",
+      "reason": "intense competition、debate、effort などは長期間続いても激しさや緊張が高ければ intense であり、短期間性は必須ではない。intensive との境界も曖昧になる。該当箇所: 「活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。」",
+      "suggested_direction": "活動・状況の強度、激しさ、負荷、緊張を中心に定義し、短期間の集中はよくある文脈にとどめる。",
+      "scope_anchors": [
+        {"id": "f3-a1", "exact_quote": "活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。", "location_hint": "語義2の日本語訳・定義"},
+        {"id": "f3-a2", "exact_quote": "intense + 〈活動〉 over 〈期間〉＝一定期間に集中して行われる激しい～", "location_hint": "語義2の文法パターン"},
+        {"id": "f3-a3", "exact_quote": "どちらも短期間に多くの活動や努力が集中する対象を修飾できる。", "location_hint": "語義2の語法・注意"}
+      ]
+    },
+    {
+      "id": "f4",
+      "location": "intensive との比較",
+      "severity": "medium",
+      "description": "intense は主観的な負荷、intensive は客観的な密度という対比を強く打ち出しすぎている。",
+      "reason": "両語の違いは傾向やコロケーションによることが多く、intense が客観的対象に使われたり、intensive が学習者に大きな負荷を与える内容を表したりするため、二分法では判断できない。該当箇所: 「intensive（形容詞）— 集中的な、徹底的な。intense と重なる場合もあるが、客観的な密度・集中を表しやすい。」",
+      "suggested_direction": "主観／客観を必要条件とせず、強度・厳しさと、短期間に内容や活動を集中的に投入する性質という傾向として説明する。",
+      "scope_anchors": [
+        {"id": "f4-a1", "exact_quote": "intensive（形容詞）— 集中的な、徹底的な。intense と重なる場合もあるが、客観的な密度・集中を表しやすい。", "location_hint": "＃語形成の intensive の項目"},
+        {"id": "f4-a2", "exact_quote": "intense は参加者が感じる厳しさ・圧・感情的な強さを含みやすく、intensive は計画や内容の密度を客観的に述べやすい。", "location_hint": "語義2の語法・注意"},
+        {"id": "f4-a3", "exact_quote": "intense training は訓練の負荷の大きさ、an intensive training course は短期間に内容を詰め込む制度・課程の性質に焦点がある。", "location_hint": "語義2の語法・注意"}
+      ]
+    },
+    {
+      "id": "f5",
+      "location": "語義1・語義2の境界",
+      "severity": "medium",
+      "description": "二つの語義がともに「程度・力・圧の強さ」を扱い、分類基準が十分に明示されていない。",
+      "reason": "activity、debate、pressure、interest などは感情的強度・状況の圧力・活動の激しさの複数の読みが可能で、学習者が語義を使い分けにくい。該当箇所: 「intense + 〈感情・感覚・性質を表す名詞〉＝非常に強い～」",
+      "suggested_direction": "一つの広い基本義にまとめて用法群を示すか、「経験される強度」と「活動・競争の激しさ」の境界を具体例付きで明示する。",
+      "scope_anchors": [
+        {"id": "f5-a1", "exact_quote": "intense + 〈感情・感覚・性質を表す名詞〉＝非常に強い～", "location_hint": "語義1の文法パターン"},
+        {"id": "f5-a2", "exact_quote": "intense + 〈活動・競争・議論・努力〉＝激しい・集中した～", "location_hint": "語義2の文法パターン"},
+        {"id": "f5-a3", "exact_quote": "短時間に集中的に現れる行為の圧 → 「激しい、集中的な」（語義2）", "location_hint": "＃コアイメージの第2項"}
+      ]
+    },
+    {
+      "id": "f6",
+      "location": "語義1の語法・注意",
+      "severity": "low",
+      "description": "intense は量を表さないという断定が強すぎる。",
+      "reason": "heavy rain が量の多さの標準表現である一方、intense rain／rainfall のように降雨の強度・率を表す用法もあり、量と強度を完全に切り離す説明は不正確。該当箇所: 「intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。」",
+      "suggested_direction": "「単純な大きさ・量より強度を表す」と弱め、heavy rain との違いを強度・降水量・率の観点で説明する。",
+      "scope_anchors": [
+        {"id": "f6-a1", "exact_quote": "intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。", "location_hint": "語義1の語法・注意"}
+      ]
+    },
+    {
+      "id": "f7",
+      "location": "語義2の intense negotiations",
+      "severity": "low",
+      "description": "intense negotiations の用途説明を、短期間の激しい意見交換に限定している。",
+      "reason": "交渉の重要性、緊張、利害、困難さ、圧力によって intense になる場合もあり、必ず短期間または激しい応酬とは限らない。該当箇所: 「用途: 短期間に意見を激しく交わし、妥結を目指す交渉を表す。」",
+      "suggested_direction": "高い緊張・利害・困難さを伴う交渉という広い説明にする。",
+      "scope_anchors": [
+        {"id": "f7-a1", "exact_quote": "用途: 短期間に意見を激しく交わし、妥結を目指す交渉を表す。", "location_hint": "語義2のコロケーション intense negotiations"}
+      ]
+    }
+  ]
+}

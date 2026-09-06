@@ -1,0 +1,148 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
+  "blind_request_sha256": "51e4110a9872115c890bcfb782dcea72b7d65ae4b7d072b1e7adf74dc95f3a4e",
+  "recorded_at": "2026-09-05T20:23:39.543Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "main_orchestrator",
+    "agent_id": "01a0733b-fece-7092-b83b-1540eaf7909b",
+    "same_model_as_generation": true
+  },
+  "attributions": [
+    {
+      "example_id": "ex_52d9f6e1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense look"
+      ],
+      "rationale": "The look expresses unusually strong emotion or attitude."
+    },
+    {
+      "example_id": "ex_4a8e13cd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense heat"
+      ],
+      "rationale": "The heat has exceptionally high intensity."
+    },
+    {
+      "example_id": "ex_f04a8c37",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense person"
+      ],
+      "rationale": "The person is characterized by unusually strong emotions or attitudes."
+    },
+    {
+      "example_id": "ex_7f2c91a6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense pain"
+      ],
+      "rationale": "The pain is an exceptionally severe physical sensation."
+    },
+    {
+      "example_id": "ex_a6e2475c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense competition"
+      ],
+      "rationale": "The competition has unusually high competitive intensity."
+    },
+    {
+      "example_id": "ex_d6720fb9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense pressure"
+      ],
+      "rationale": "The pressure is exceptionally strong external or psychological pressure."
+    },
+    {
+      "example_id": "ex_6be1d592",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense relationship"
+      ],
+      "rationale": "The relationship has unusually strong emotional connection and interaction."
+    },
+    {
+      "example_id": "ex_b0d5e834",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "The pain was intense"
+      ],
+      "rationale": "The predicate describes exceptionally high intensity of pain."
+    },
+    {
+      "example_id": "ex_c8b31470",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense activity"
+      ],
+      "rationale": "The activity has an unusually high level and concentration of activity."
+    },
+    {
+      "example_id": "ex_e8536bd1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense anger"
+      ],
+      "rationale": "The anger is an exceptionally strong emotion."
+    },
+    {
+      "example_id": "ex_19c4a7e2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense interest"
+      ],
+      "rationale": "The interest is exceptionally strong attention or concern directed toward a subject."
+    },
+    {
+      "example_id": "ex_3f91d0ab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "intense blue"
+      ],
+      "rationale": "The blue has unusually strong colour saturation or visual impact."
+    }
+  ]
+}

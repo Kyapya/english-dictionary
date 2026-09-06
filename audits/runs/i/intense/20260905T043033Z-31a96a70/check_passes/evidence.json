@@ -1,0 +1,148 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "codex-evidence-handoff-20260905T043033Z-31a96a70"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 88,
+        "line_end": 93,
+        "exact_quote": "・strong  \\n定義: intense と比較される、幅広い「強い」を表す関連語。  \\n頻度: 〈5/10〉  \\n違い: strong は幅広い強さを表し、intense は感覚・感情などの強度が非常に高いことに焦点を置く。  \\n例: intense pain  \\n訳: 強い痛み。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-001の根拠はintenseの中心義を支えるが、strong自体の定義・頻度・例文およびstrongとintenseの差を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-001"
+      ],
+      "suggested_direction": "strongを直接扱う根拠へ差し替えるか、定義・頻度・比較を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 95,
+        "line_end": 100,
+        "exact_quote": "・extreme  \\n定義: intense と比較される、通常の範囲からの逸脱に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: extreme は通常の範囲や限界からの逸脱に焦点があり、intense は体感や感情の強さにも使う。  \\n例: intense heat  \\n訳: 強烈な暑さ。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-001はintenseが極端な強度を表すことは支えるが、extremeの定義・頻度・例文や両語の意味境界を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-001"
+      ],
+      "suggested_direction": "extremeの比較を直接支持する根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 102,
+        "line_end": 107,
+        "exact_quote": "・powerful  \\n定義: intense と比較される、作用する力や影響に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。  \\n例: intense interest  \\n訳: 強い関心。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-001の根拠にはpowerful自体の定義・頻度・例文、作用する力と経験される強度の対比を裏付ける事実がない。",
+      "evidence_link_ids": [
+        "EVID-001"
+      ],
+      "suggested_direction": "powerfulを直接扱う根拠へ差し替えるか、比較欄を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 135,
+        "line_end": 140,
+        "exact_quote": "・fierce  \\n定義: intense と比較される、競争・対立の激しさに焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: fierce は攻撃性や対立を含みやすく、intense は敵意のない活動の強さにも使える。  \\n例: intense competition  \\n訳: 激しい競争。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-002はintenseの活動・競争用法を支えるが、fierceの定義・頻度・例文および攻撃性との対比を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-002"
+      ],
+      "suggested_direction": "fierceを直接扱う根拠へ差し替えるか、定義・頻度・比較を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 142,
+        "line_end": 147,
+        "exact_quote": "・vigorous  \\n定義: intense と比較される、活力や積極的なエネルギーに焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: vigorous は活力や積極的なエネルギーに焦点があり、intense は活動の緊張や負荷も表す。  \\n例: intense activity  \\n訳: 激しい活動。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-002の根拠にはvigorousの定義・頻度・例文やvigorousとintenseの焦点の差を裏付ける事実がない。",
+      "evidence_link_ids": [
+        "EVID-002"
+      ],
+      "suggested_direction": "vigorousを直接扱う根拠へ差し替えるか、比較欄を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 149,
+        "line_end": 154,
+        "exact_quote": "・strenuous  \\n定義: intense と比較される、大きな努力を要する行為に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: strenuous は行為がきつく多大な努力を要することに焦点があり、intense は活動の緊張感や負荷も表す。  \\n例: intense training  \\n訳: 激しい訓練。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-002はintenseの活動強度を支えるだけで、strenuousの定義・頻度・例文や両語の意味範囲を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-002"
+      ],
+      "suggested_direction": "strenuousを直接扱う根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 192,
+        "line_end": 197,
+        "exact_quote": "訳: 感情や態度の強い人。  \\n\\n・passionate  \\n定義: intense と比較される、熱意や強い関与に焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: passionate は熱意や強い関与を表し、intense より肯定的な評価になりやすい。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-003はintenseの人・表情に関する用法を支えるが、seriousの定義・頻度・例文および両語の焦点の差を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-003"
+      ],
+      "suggested_direction": "seriousを直接扱う根拠へ差し替えるか、定義・頻度・比較を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 199,
+        "line_end": 204,
+        "exact_quote": "訳: 強い視線。  \\n\\n・earnest  \\n定義: intense と比較される、誠実さや真摯さに焦点を置く関連語。  \\n頻度: 〈5/10〉  \\n違い: earnest は誠実さや真摯さに焦点があり、intense は感情の強さや対人的な圧も表す。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-003の根拠にはpassionateの定義・頻度・例文や肯定的評価との対比を裏付ける事実がない。",
+      "evidence_link_ids": [
+        "EVID-003"
+      ],
+      "suggested_direction": "passionateを直接扱う根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 206,
+        "line_end": 211,
+        "exact_quote": "訳: 感情的な結びつきの強い関係。  "
+      },
+      "severity": "blocking",
+      "rationale": "EVID-003の根拠にあるearnestnessはintenseの説明の一部にすぎず、earnest自体の定義・頻度・例文や両語の差を直接支持しない。",
+      "evidence_link_ids": [
+        "EVID-003"
+      ],
+      "suggested_direction": "earnestを直接扱う根拠へ差し替えるか、比較・頻度・例文を削除または限定してholdする。"
+    }
+  ]
+}

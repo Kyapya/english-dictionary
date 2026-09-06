@@ -1,0 +1,53 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "01a06d38-f0af-76a3-b732-755bbe16b0a1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {"section": "sense_structure", "line_start": 45, "line_end": 45, "exact_quote": "【日本語訳・定義】感情、感覚、痛み、暑さ、光、色、関心、圧力などの程度が極端に強いこと。単に「強い」というより、対象にかかる力や感じられる圧が大きいことを表す。必ず不快・否定的とは限らず、intense pleasure「非常に強い喜び」のように好ましい対象にも使う。"},
+      "severity": "minor",
+      "rationale": "「対象にかかる力や感じられる圧」が中心的な条件のように読めるが、色・関心・喜びなどでは知覚的鮮明さや感情・関心の強度を表し、物理的・対人的な圧力を含まない場合がある。適用範囲が狭い。",
+      "evidence_link_ids": [],
+      "suggested_direction": "程度・感情・感覚・知覚的鮮明さなどの強さを中心義とし、力や圧力は一つの文脈例として限定する。"
+    },
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {"section": "frequency_register", "line_start": 47, "line_end": 47, "exact_quote": "【頻度】〈9/10〉"},
+      "severity": "minor",
+      "rationale": "9/10の尺度、コーパス、期間、英語変種の範囲が示されず、英語全体での遭遇頻度なのか、項目内の相対順位や特定領域の頻度なのか判定できない。同形式の8/10・7/10にも同じ問題がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英語全体を対象にした頻度基準またはコーパス範囲を明示し、根拠を示せない場合は「高頻度」などの定性的表現にする。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {"section": "usage_notes", "line_start": 85, "line_end": 85, "exact_quote": "【語法・注意】intense は程度の高さを表す形容詞で、対象が大きいことや量が多いことを表す語ではない。たとえば「雨が大量に降る」は heavy rain、「色が鮮やかで強い」は intense color のように、対象に応じて自然な語を選ぶ。"},
+      "severity": "minor",
+      "rationale": "「量が多いことを表す語ではない」という一括否定は強すぎる。intense rain/rainfallは降水の強度・降水率・勢いを表す用法として成立し、heavy rainが総量や一般的な言い換えとして好まれる場合があるという区別にすべきである。",
+      "evidence_link_ids": [],
+      "suggested_direction": "総量そのものとは同義でないと説明しつつ、降水率や物理的強度を表す intense rain/rainfall を排除しない。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {"section": "sense_structure", "line_start": 156, "line_end": 156, "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などが、短い期間に多くの行動・力・注意を必要とするほど激しいこと。"},
+      "severity": "minor",
+      "rationale": "「短い期間」と多くの行動・力・注意を必要とすることが定義上の条件のように置かれているが、intense competition、intense debate、intense activityなどは長期または持続的な状態の強度を表すこともあり、参加者の主観的負荷を必ず含まない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "活動量、対立、努力、注意の投入などが非常に大きいという中心を示し、短期間への集中や参加者の負荷は典型的な傾向として限定する。"
+    },
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {"section": "collocations_examples", "line_start": 280, "line_end": 280, "exact_quote": "・be intense about 〈事柄〉"},
+      "severity": "minor",
+      "rationale": "be intense aboutは成立し得るが、passionate aboutやserious aboutより頻度が低く、文脈によってはやや marked／口語的で「過度に真剣」という評価を帯びる。標準的な一般パターンとして無標で提示すると自然さを過大評価し得る。",
+      "evidence_link_ids": [],
+      "suggested_direction": "低頻度・口語的または評価的な用法であることを注記し、必要に応じてより一般的な代替表現やintense commitment toなどを併記する。"
+    }
+  ]
+}

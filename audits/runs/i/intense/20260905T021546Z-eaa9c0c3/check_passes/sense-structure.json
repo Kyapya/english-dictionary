@@ -1,0 +1,63 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "sense-structure-normal-checker-20260905"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 158,
+        "line_end": 158,
+        "exact_quote": "【日本語訳・定義】活動、競争、議論、努力、訓練などの強度・激しさ・負荷・緊張が非常に高いこと。短期間に活動が集中する文脈もあるが、短期間であることや参加者の主観的な負荷は必要条件ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "語義1も語義2も、対象の程度・強度が極端に高いという同じ中心意味を持ち、差は痛み・感情等か活動・競争等かという名詞クラスだけである。語義2は短期間や主観的負荷を必要条件から外しており、独自の結果状態・項構造・評価も示さない。対象名詞による過剰分割なので、活動系用例は語義1へ統合できる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "統合：語義2を語義1の活動・競争・努力への拡張として統合し、活動系コロケーションを例・注記に移す。"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 178,
+        "line_end": 179,
+        "exact_quote": "・intense conversation\n用途: 意見の対立や高い緊張を伴う、張り詰めた会話を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "intense conversation が語義2と語義3の両方に掲載され、語義2では意見対立・緊張、語義3では強い感情・重大な問題という文脈で振り分けられている。しかし中心意味はどちらも会話の強度・緊張であり、話題や場面の差は独立した語義境界にならない。語義3側の同じ用例と、語法注記の読み分けも文脈依存の過剰分割を示す。",
+      "evidence_link_ids": [],
+      "suggested_direction": "統合：intense conversation を一つの高強度・緊張を伴う会話用法として一箇所に収め、個人的問題か意見対立かを語義分けの基準にしない。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 203,
+        "line_end": 203,
+        "exact_quote": "【語法・注意】intense と intensive は、どちらも training、activity、effort などを修飾できる。intense は活動・体験の強度や厳しさに、intensive は短期間に内容や活動を集中的に投入する課程・計画の性質に傾く。ただし境界は絶対ではなく、期間や主観／客観だけで機械的に区別しない。"
+      },
+      "severity": "minor",
+      "rationale": "語形成欄と語法注記は、短期間に内容や活動を投入する集中性を intensive 側に寄せ、intense は強度・厳しさで短期間を必要条件としないと説明している。一方、コアイメージと語義2の見出しは intense の直接訳として「集中的な」を無限定に掲げており、intensive の特徴を intense の中心義へ取り込むように読めるため、セクション間で意味範囲の方向が揃っていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "限定・修正：intense の見出しとコア枝は「激しい」「高強度の」などに寄せ、「集中的な」を残す場合は短期間の集中投入を意味しないことを明示する。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "core_image",
+        "line_start": 39,
+        "line_end": 39,
+        "exact_quote": "・人・表情・会話・関係に強い感情や張り詰めた印象が現れる → 「真剣で感情の強い、張り詰めた」（語義3）"
+      },
+      "severity": "minor",
+      "rationale": "コアイメージでは「会話」を語義3へ一括対応させているが、意味・用法では intense conversation が語義2にも語義3にも置かれ、語法注記は話題や関係性に応じて後付けで振り分けている。コア枝に明示的な除外がないため、列挙枝と番号付き語義が一対一で対応せず、セクション間の範囲が食い違う。",
+      "evidence_link_ids": [],
+      "suggested_direction": "整合：会話用例を一つの語義へ集約するか、コア枝と各語義で会話の扱いを明示的に限定し、各枝が全用法を重複なく一度だけ対応するようにする。"
+    }
+  ]
+}

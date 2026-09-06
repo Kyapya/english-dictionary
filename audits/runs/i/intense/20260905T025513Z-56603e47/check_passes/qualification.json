@@ -1,0 +1,89 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "qualification-handoff-20260905-8e7d6b2c"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 44,
+        "exact_quote": "【頻度】〈9/10〉"
+      },
+      "severity": "minor",
+      "rationale": "9/10、8/10、7/10の尺度定義、母集団、コーパス根拠が示されず、英語全体の頻度か同一見出し語内の相対順位か判定できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "10段階の基準と英語全体の頻度根拠を示し、根拠がない場合は定性的な評価に下げる。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 42,
+        "line_end": 42,
+        "exact_quote": "【日本語訳・定義】感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が極端に高いこと。intense pleasure「非常に強い喜び」のように、好ましい対象にも使う。"
+      },
+      "severity": "minor",
+      "rationale": "「極端に高い」を必須条件にすると、文脈依存の「非常に強い・激しい」という用法を客観的な極限値に狭める。色、関心、圧力などでは比較対象や文脈によりintenseと評価される。",
+      "evidence_link_ids": [],
+      "suggested_direction": "中核定義を「程度・強度が非常に高い／強い」とし、「極端」は典型的な強調として扱う。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 111,
+        "line_end": 111,
+        "exact_quote": "【日本語訳・定義】活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。"
+      },
+      "severity": "blocking",
+      "rationale": "「深刻」「短い期間」「多くの動き・決意・集中」が活動用法の必要条件のように並ぶが、intense competition、exercise、debate、trainingなどは必ずしも短期間でも深刻でもない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "活動・競争・議論・訓練などに大きな強度、勢い、努力、緊張があることを中核にし、短期集中や深刻さは文脈上の傾向として分ける。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 131,
+        "line_end": 131,
+        "exact_quote": "【語法・注意】intense と intensive は、どちらも短期間に多くの活動があることを表せる。intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。"
+      },
+      "severity": "minor",
+      "rationale": "intenseとintensiveの対比が単純化されており、感情的／客観的が安定した判別条件のように読める。両語には活動用法で重なりがあり、intenseが参加者の感情を必ず含むわけでもない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "intenseは強度・力・感情、intensiveは集中・徹底した活動を中心とする傾向として説明し、重複と例外を明示する。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 158,
+        "line_end": 158,
+        "exact_quote": "【日本語訳・定義】人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。真剣で集中しているという印象や、感情が強く張り詰めた印象を表す。"
+      },
+      "severity": "minor",
+      "rationale": "人、視線、表情、関係を一つの「示す」構文でまとめており、intense relationshipの情熱的・親密・不安定な関係や、intense personの圧の強さ・過度な真剣さを十分に捉えない。張り詰めた印象も必須ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "人・視線／表情・関係ごとに意味範囲と訳を分け、真剣さ、集中、情緒的強さ、緊張、肯定／否定の含みを傾向として記述する。"
+    },
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 178,
+        "line_end": 178,
+        "exact_quote": "・be intense about 〈事柄〉"
+      },
+      "severity": "minor",
+      "rationale": "be intense aboutは理解可能だが、代表的な一般コロケーションとして扱うには頻度・自然さの確認が必要で、レジスターや稀な用法の注記がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "頻度・レジスターを注記するか、be intensely concerned about、have an intense focus onなど、より確立した表現に置き換える。"
+    }
+  ]
+}

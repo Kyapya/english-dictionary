@@ -1,0 +1,113 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-intense-20260905T043033Z-31a96a70",
+  "context_id": "blind-intense-context-20260905T043033Z-31a96a70",
+  "input_body_sha256": "b356fbc16ee2ee211dadf76a50a0cfc0f6293f42676b40e33ec3052b444a8241",
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": ["entry_body", "final_blind_prompt"],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "agent_id": "codex-independent-final-blind-cycle4",
+    "ingested_by": "human"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "IC-001",
+      "surface_form": "intense",
+      "frame": "intense + <sensation, emotion, quality, or physical-property noun>",
+      "meaning": "very great or very strong degree",
+      "disposition": "included",
+      "rationale": "The intense + <sensation, emotion, quality, or physical-property noun> frame is covered by the article's general high-degree sense.",
+      "semantic_assertions": [
+        {
+          "id": "IC-001:A1",
+          "statement": "The modified referent must have an extreme degree of strength, force, or amount, without intensity alone fixing positive or negative valence.",
+          "polarity": "must_hold",
+          "scope": "core image, first sense, usage note, and examples"
+        }
+      ]
+    },
+    {
+      "id": "IC-002",
+      "surface_form": "intense",
+      "frame": "intense + <activity, competition, discussion, or training noun>",
+      "meaning": "very high activity or effort intensity",
+      "disposition": "included",
+      "rationale": "The intense + <activity, competition, discussion, or training noun> frame is explicitly represented with competition and activity examples.",
+      "semantic_assertions": [
+        {
+          "id": "IC-002:A1",
+          "statement": "The activity frame must express high action, effort, energy, tension, or load and must not make short duration a requirement.",
+          "polarity": "must_hold",
+          "scope": "second sense and its usage note"
+        }
+      ]
+    },
+    {
+      "id": "IC-003",
+      "surface_form": "intense",
+      "frame": "an intense person / be intense about <topic>",
+      "meaning": "a person with strong feelings, opinions, or attitudes",
+      "disposition": "included",
+      "rationale": "The intense person frame is covered by the article's person-related sense and its context-dependent evaluation.",
+      "semantic_assertions": [
+        {
+          "id": "IC-003:A1",
+          "statement": "The person frame must describe strong feelings, opinions, or attitudes and must not entail either negative evaluation or outward expression in every context.",
+          "polarity": "must_hold",
+          "scope": "person-related definition, grammar pattern, and usage note"
+        }
+      ]
+    },
+    {
+      "id": "IC-004",
+      "surface_form": "intense",
+      "frame": "an intense look/gaze/expression",
+      "meaning": "a look or expression conveying strong concentration or feeling",
+      "disposition": "included",
+      "rationale": "The intense look/gaze/expression frame is covered by the article's gaze and expression pattern and example.",
+      "semantic_assertions": [
+        {
+          "id": "IC-004:A1",
+          "statement": "The look or expression frame must describe conveyed concentration, sharpness, or feeling rather than automatically the observer's personality.",
+          "polarity": "must_hold",
+          "scope": "third sense grammar pattern, look example, and usage note"
+        }
+      ]
+    },
+    {
+      "id": "IC-005",
+      "surface_form": "intense",
+      "frame": "an intense relationship",
+      "meaning": "a relationship with strong emotional connection or interaction",
+      "disposition": "included",
+      "rationale": "The intense relationship frame is separately covered as a strong emotional bond and interaction.",
+      "semantic_assertions": [
+        {
+          "id": "IC-005:A1",
+          "statement": "The relationship frame must concern emotional connection or interaction strength, not merely duration or frequency.",
+          "polarity": "must_hold",
+          "scope": "third sense relationship definition, example, and usage note"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "AF-001",
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "意味・用法・関連表現 / 語義1 / 頻度注記",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "※Oxford 5000ではC1レベルの学習語彙。"
+      },
+      "severity": "blocking",
+      "rationale": "The statement 「※Oxford 5000ではC1レベルの学習語彙。」 misclassifies intense: the Oxford 3000/5000 CEFR list places it at B2, not C1."
+    }
+  ]
+}

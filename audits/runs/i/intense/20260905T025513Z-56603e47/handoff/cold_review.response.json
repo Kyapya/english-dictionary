@@ -1,0 +1,115 @@
+{
+  "summary": "問題候補あり。intense と intensive の区別、短期間という条件、語義2・3の境界、be intense about の自然さに、学習者の誤一般化につながる記述がある。",
+  "findings": [
+    {
+      "id": "CR-001",
+      "location": "コアイメージ、語義1の日本語訳・定義",
+      "severity": "medium",
+      "description": "intense の意味を一貫して「極端に高い」と説明しており、必要以上に extreme と同一視させるおそれがある。",
+      "reason": "該当本文「程度・力・エネルギー・感情の強さが高く、対象に応じて「非常に強い」「活動が激しい」「強い感情が表に出る」と枝分かれする。」。intense は文脈上「非常に強い」「度合いが高い」を表すが、必ず通常の限界を超えることまでは含意しない。intense interest などにも程度の連続性がある。",
+      "suggested_direction": "「非常に強い」「度合いが高い」などに緩和し、extreme との違いは限界超過の含意の有無として説明する。",
+      "scope_anchors": [
+        {"id": "anchor-001", "exact_quote": "程度・力・エネルギー・感情の強さが高く、対象に応じて「非常に強い」「活動が激しい」「強い感情が表に出る」と枝分かれする。", "location_hint": "コアイメージ冒頭"},
+        {"id": "anchor-002", "exact_quote": "感情、感覚、痛み、暑さ、色、関心、圧力などの程度・強度が極端に高いこと。", "location_hint": "語義1・日本語訳・定義"}
+      ]
+    },
+    {
+      "id": "CR-002",
+      "location": "コアイメージ語義2、語義2の定義・文法パターン",
+      "severity": "medium",
+      "description": "活動や行動の intense に「短期間」を必須に近い形で含めている。",
+      "reason": "該当本文「活動や行動が短期間に激しく展開する → 「激しい、活動量の多い」（語義2）」。intense は活動の強度・エネルギー・緊張感が高いことを表すが、短期間であることは語の必須条件ではない。期間を定義に組み込むと、長時間続く intense activity や intense exercise などを誤って排除しうる。",
+      "suggested_direction": "「短期間」を必須条件から外し、「高い強度・エネルギー・緊張感を伴う活動」と説明する。期間に関する含みは文脈依存として補足する。",
+      "scope_anchors": [
+        {"id": "anchor-003", "exact_quote": "活動や行動が短期間に激しく展開する → 「激しい、活動量の多い」（語義2）", "location_hint": "コアイメージの語義2箇条書き"},
+        {"id": "anchor-004", "exact_quote": "活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。", "location_hint": "語義2・日本語訳・定義"},
+        {"id": "anchor-005", "exact_quote": "intense + 〈活動・競争〉＝短期間に展開する非常に激しい活動・競争", "location_hint": "語義2・文法パターン"}
+      ]
+    },
+    {
+      "id": "CR-003",
+      "location": "語形成の intensive 説明、語義2の語法・注意",
+      "severity": "high",
+      "description": "intense と intensive の違いを、参加者の感情対客観性という一般則として説明している。",
+      "reason": "該当本文「intense と同じく短期間の多くの活動を表せるが、intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。」。intense は intense competition や intense activity のように、参加者の感情を前提としない活動にも普通に使われる。一方 intensive は客観的という性質そのものを意味せず、集中性・集中的な投入・範囲や密度を表す。現在の説明では誤った選択基準を学習者に与える。",
+      "suggested_direction": "intensive は「限られた期間・範囲に資源や活動を集中させる」こと、intense は「強度・力・感情・緊張感が高い」ことを中心に説明し、感情性・客観性は傾向としても断定しない。",
+      "scope_anchors": [
+        {"id": "anchor-006", "exact_quote": "intense と同じく短期間の多くの活動を表せるが、intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。", "location_hint": "語形成・intensive の説明"},
+        {"id": "anchor-007", "exact_quote": "intense と intensive は、どちらも短期間に多くの活動があることを表せる。intense は参加者の感情を示唆しやすく、intensive はより客観的な説明になりやすい。", "location_hint": "語義2・語法・注意"}
+      ]
+    },
+    {
+      "id": "CR-004",
+      "location": "語義2の定義・文法パターン",
+      "severity": "medium",
+      "description": "語義2に「決意」「集中」「エネルギー」まで一括して含めたため、語義1との境界が不明確になっている。また「深刻で」は intense activity の核心ではない。",
+      "reason": "該当本文「活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。」。intense determination や intense concentration は活動そのものではなく、抽象名詞の強度を表す用法として語義1と連続している。「深刻」は serious や severe に近い含みを加え、intense の意味を狭く誤解させる可能性がある。",
+      "suggested_direction": "語義2を活動・競争・対立などの強度に絞るか、抽象名詞を語義1に戻す。「深刻で」は削り、「強度・エネルギー・緊張感が高い」とする。",
+      "scope_anchors": [
+        {"id": "anchor-008", "exact_quote": "活動や行動が深刻で、短い期間に多くの動き・エネルギー・決意・集中を伴うこと。", "location_hint": "語義2・日本語訳・定義"},
+        {"id": "anchor-009", "exact_quote": "intense + 〈energy・determination・concentration〉＝極端に強いエネルギー・決意・集中", "location_hint": "語義2・文法パターン"}
+      ]
+    },
+    {
+      "id": "CR-005",
+      "location": "語義3の定義、文法パターン、語法・注意",
+      "severity": "medium",
+      "description": "人・視線・表情・関係に使う intense を、強い感情や意見が「表に現れる」こととして一般化しすぎている。",
+      "reason": "該当本文「人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。」。intense person は感情的・真剣・強烈な印象を与える人という評価で、意見や感情が必ず外に現れるとは限らない。intense look/gaze は感情だけでなく、集中した・鋭い・圧のある視線を指しうる。intense relationship も単純な「感情的な結びつき」や親密さに限らず、情緒的に激しい・消耗させる・不安定な関係を含みうる。",
+      "suggested_direction": "人・視線・関係を分け、各用法で「強い感情の表出」「集中・鋭さ」「情緒的な激しさ」などを区別する。人への用法は肯定・否定の評価が文脈で変わることも補足する。",
+      "scope_anchors": [
+        {"id": "anchor-010", "exact_quote": "人、視線、表情、関係などが、非常に強い感情、意見、考え、目的意識を示すこと。", "location_hint": "語義3・日本語訳・定義"},
+        {"id": "anchor-011", "exact_quote": "人や表情に intense を使うと、強い感情・意見・考えが表に現れ、真剣で張り詰めた印象を表す。", "location_hint": "語義3・語法・注意"},
+        {"id": "anchor-012", "exact_quote": "感情、意見、目的意識などが強く、存在感のある人を表す。", "location_hint": "語義3・an intense person の用途"}
+      ]
+    },
+    {
+      "id": "CR-006",
+      "location": "語義3の文法パターン、be intense about の例",
+      "severity": "medium",
+      "description": "be intense about 〈事柄〉を一般的な文法パターン・コロケーションとして提示しているが、通常の学習者向け表現としては不自然または強く文脈依存である。",
+      "reason": "該当本文「be intense about 〈事柄〉＝〈事柄〉について強い意見や熱意を示す」。intense は about と自由に結びついて単に「熱意を持つ」「こだわる」を表す形容詞ではない。提示例も、意図によって be passionate/serious about、be intensely focused on、be particular about などの方が自然で、誤用を誘発しうる。",
+      "suggested_direction": "このパターンを削除するか、使用域が限定的・評価的であると明示する。意図別により自然な代替表現を示す。",
+      "scope_anchors": [
+        {"id": "anchor-013", "exact_quote": "be intense about 〈事柄〉＝〈事柄〉について強い意見や熱意を示す", "location_hint": "語義3・文法パターン"},
+        {"id": "anchor-014", "exact_quote": "She is intense about keeping every detail of the experiment accurate.", "location_hint": "語義3・be intense about の例文"}
+      ]
+    },
+    {
+      "id": "CR-007",
+      "location": "語義1・intense pressure の用途",
+      "severity": "low",
+      "description": "intense pressure を「外部からかかる」圧力と限定している。",
+      "reason": "該当本文「外部からかかる重圧や心理的な圧力が非常に強いことを表す。」。under intense pressure のような例では外部からの要求を指しやすいが、pressure は自己 imposed な心理的圧力や状況全体の圧迫感を指す場合もある。限定すると用法の範囲を狭く誤解させる。",
+      "suggested_direction": "「外部からの要求や自分にかかる心理的負担など、圧力の強さ」と広げ、under pressure to の構文上の意味を別に説明する。",
+      "scope_anchors": [
+        {"id": "anchor-015", "exact_quote": "外部からかかる重圧や心理的な圧力が非常に強いことを表す。", "location_hint": "語義1・intense pressure の用途"}
+      ]
+    },
+    {
+      "id": "CR-008",
+      "location": "語義1〜3の頻度・Oxford 5000 の注記",
+      "severity": "low",
+      "description": "語義ごとの頻度を9・8・7と提示しているが、数値の尺度や根拠が示されていない。",
+      "reason": "該当本文「【頻度】〈9/10〉」。Oxford 5000 の語彙レベルは通常、語義別の順位や頻度スコアそのものではない。注記で厳密な順位ではないと断っていても、語義間の頻度差を示す数値として読まれやすく、検証不能な精密さが残る。",
+      "suggested_direction": "出典と算出方法を明示するか、語義別の相対的な頻度傾向だけにする。Oxford 5000 のレベル表記も使用する版・資料に合わせて確認する。",
+      "scope_anchors": [
+        {"id": "anchor-016", "exact_quote": "【頻度】〈9/10〉", "location_hint": "語義1・頻度"},
+        {"id": "anchor-017", "exact_quote": "※Oxford 5000ではC1レベルの学習語彙ラベルで、上の数値は語義別の厳密な順位ではない。", "location_hint": "語義1・頻度の注記"},
+        {"id": "anchor-018", "exact_quote": "【頻度】〈8/10〉", "location_hint": "語義2・頻度"},
+        {"id": "anchor-019", "exact_quote": "【頻度】〈7/10〉", "location_hint": "語義3・頻度"}
+      ]
+    },
+    {
+      "id": "CR-009",
+      "location": "語義1・intense blue の用途",
+      "severity": "low",
+      "description": "intense blue を「非常に鮮やか」とほぼ同一視している。",
+      "reason": "該当本文「色が非常に鮮やかで、強い印象を与えることを表す。」。色についての intense は鮮やかさだけでなく、彩度・濃さ・深さ・視覚的な強さを表しうる。鮮やかさに限定すると、deep or highly saturated blue などの用例を誤って解釈する可能性がある。",
+      "suggested_direction": "「色の強さ・濃さ・鮮やかさが際立つ」などと幅を持たせ、文脈により「濃い」「鮮やかな」「強い色合いの」と訳し分ける。",
+      "scope_anchors": [
+        {"id": "anchor-020", "exact_quote": "色が非常に鮮やかで、強い印象を与えることを表す。", "location_hint": "語義1・intense blue の用途"}
+      ]
+    }
+  ]
+}

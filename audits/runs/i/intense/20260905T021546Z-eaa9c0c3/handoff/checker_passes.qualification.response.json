@@ -1,0 +1,24 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "qualification-independent-normal-checker-20260905"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 179,
+        "line_end": 179,
+        "exact_quote": "用途: 意見の対立や高い緊張を伴う、張り詰めた会話を表す。"
+      },
+      "severity": "minor",
+      "rationale": "intense conversation は、意見の対立や高い緊張がなくても、重大な話題について感情的・真剣に行う会話を表せる。この説明はその一般的な用法を排除し、意見の対立・緊張を必要条件のように狭く示している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "強い感情・真剣さ・重要性・緊張などが感じられる会話と広げ、意見の対立や高い緊張は一つの文脈上の含みとして限定する。"
+    }
+  ]
+}

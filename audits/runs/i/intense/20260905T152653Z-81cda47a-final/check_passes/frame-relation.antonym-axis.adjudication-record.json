@@ -1,0 +1,31 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
+  "stage2_request_sha256": "e1d1084f7a317595eb5efd5da801e4a4f848cb79e374e7711cfbe82b697f8d3a",
+  "blind_record_sha256": "64e9b3278f76d458691292532380b41f966aa2148cdc8fe3031976d14fa4b87b",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "frame-relation-stage1-20260905T202919Z-81cda47a"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
+    "blind_request_sha256": "3c6136058de091dc653ce7183cd8d0d0caec49369845316192f410b2b11191cc",
+    "recorded_at": "2026-09-05T20:29:19Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "frame-relation-stage1-20260905T202919Z-81cda47a"
+    },
+    "axes": []
+  },
+  "aligned_at": "2026-09-05T20:29:20Z",
+  "adjudications": [],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

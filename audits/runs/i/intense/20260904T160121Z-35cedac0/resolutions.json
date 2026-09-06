@@ -1,0 +1,31 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-intense-20260904T160121Z-35cedac0",
+  "context_id": "resolution-intense-context-20260904T160121Z-35cedac0",
+  "input_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315",
+  "prompt_sha256": "04ab1fe768a576a6f376dbb82c98e96d9d3cf1938ad860af031a5ca86538b86d",
+  "recorded_at": "2026-09-05T02:30:00+09:00",
+  "input_artifacts": ["entry_body", "all_findings"],
+  "resolutions": [
+    {"id": "normal-translation-001", "finding_id": "normal-translation-001", "status": "resolved", "disposition": "adopted", "rationale": "採用。人物の強い感情・意欲を表す訳へ修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-translation-002", "finding_id": "normal-translation-002", "status": "resolved", "disposition": "adopted", "rationale": "採用。原文にない被害評価を加えない中立的な訳へ修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-qualification-001", "finding_id": "normal-qualification-001", "status": "resolved", "disposition": "adopted", "rationale": "採用。中心義を程度・強度の高さとして明示し、圧力を一例に限定する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-qualification-002", "finding_id": "normal-qualification-002", "status": "resolved", "disposition": "adopted", "rationale": "採用。10段階表示が編集上の目安であることを明記する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-qualification-003", "finding_id": "normal-qualification-003", "status": "resolved", "disposition": "adopted", "rationale": "採用。総量と降水の強度・率を区別する説明へ修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-qualification-004", "finding_id": "normal-qualification-004", "status": "resolved", "disposition": "adopted", "rationale": "採用。活動の強度を中心にし、短期間性と参加者の主観的負荷を必要条件から外す。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-qualification-005", "finding_id": "normal-qualification-005", "status": "resolved", "disposition": "adopted", "rationale": "採用。be intense about を低頻度・評価的な用法として注記する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-pronunciation-001", "finding_id": "normal-pronunciation-001", "status": "resolved", "disposition": "adopted", "rationale": "採用。語末の説明を /tens/ に修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "normal-evidence-001", "finding_id": "normal-evidence-001", "status": "resolved", "disposition": "rejected", "rationale": "棄却。これは本文内容ではなく、証拠パスケットへsource inventoryが追加される前の確認可能性に関する指摘であり、同一runのsource inventoryとevidence linkを最終審査で確認できる。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f1", "finding_id": "f1", "status": "resolved", "disposition": "rejected", "rationale": "棄却。入力本文には語義3の詳細節、定義、例文、語法、語彙関係が実際に存在し、指摘の前提が本文全体と一致しない。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f2", "finding_id": "f2", "status": "resolved", "disposition": "adopted", "rationale": "採用。コアイメージと語義1の定義を、集中や圧力を必須としない強度中心の説明へ修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f3", "finding_id": "f3", "status": "resolved", "disposition": "adopted", "rationale": "採用。語義2では活動の強度・負荷を中心にし、短期間性を典型例に限定する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f4", "finding_id": "f4", "status": "resolved", "disposition": "adopted", "rationale": "採用。intense/intensiveの差を必要条件ではなく傾向とコロケーションの違いとして説明する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f5", "finding_id": "f5", "status": "resolved", "disposition": "adopted", "rationale": "採用。語義1と語義2の共通する強度と、対象領域による用法差を明示する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f6", "finding_id": "f6", "status": "resolved", "disposition": "adopted", "rationale": "採用。雨の総量と降水強度・率を区別する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "f7", "finding_id": "f7", "status": "resolved", "disposition": "adopted", "rationale": "採用。intense negotiationsを短期間性に限定せず、緊張・利害・困難さを含む説明へ修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "finding_1", "finding_id": "finding_1", "status": "resolved", "disposition": "adopted", "rationale": "採用。intenseの語末表記を /tens/ に修正する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "finding_2", "finding_id": "finding_2", "status": "resolved", "disposition": "adopted", "rationale": "採用。活動用法の定義から短期間性を必要条件として読める表現を除く。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"},
+    {"id": "finding_3", "finding_id": "finding_3", "status": "resolved", "disposition": "adopted", "rationale": "採用。conversationを活動・相互作用用法と人物・関係用法の両方から判断できるよう文脈差を明示する。", "resolved_body_sha256": "5ba75d0fe18b071aca651e357d6042fee5605d5781140b398381ab1b004c8315"}
+  ]
+}

@@ -1,0 +1,573 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-intense-20260905T025513Z-56603e47",
+  "context_id": "blind-intense-context-20260905T025513Z-56603e47",
+  "input_body_sha256": "775f1956389033859823911e7aa86ac43f54a7d67c8c24eda12de863b53444dc",
+  "decision": "reject",
+  "target_results": [
+    {
+      "id": "target:intense",
+      "status": "fail",
+      "rationale": "The latest sealed body still contains multiple unresolved blocking semantic, usage, translation, and evidence defects."
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "strong",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-001."
+    },
+    {
+      "id": "extreme",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-001."
+    },
+    {
+      "id": "powerful",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-001."
+    },
+    {
+      "id": "fierce",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-002."
+    },
+    {
+      "id": "vigorous",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-002."
+    },
+    {
+      "id": "strenuous",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-002."
+    },
+    {
+      "id": "serious",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-003."
+    },
+    {
+      "id": "passionate",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-003."
+    },
+    {
+      "id": "earnest",
+      "status": "fail",
+      "rationale": "The comparison and frequency claims are not directly supported by EVID-003."
+    },
+    {
+      "id": "antonym-axis",
+      "status": "pass",
+      "rationale": "The sealed frame-relation record contains no antonym axes or unresolved frame findings."
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "c1",
+      "status": "pass",
+      "rationale": "The body states that the relevant degree or strength is extremely high."
+    },
+    {
+      "id": "c2",
+      "status": "fail",
+      "rationale": "The activity sense repeatedly requires or foregrounds short duration, contradicting the blind assertion that short duration is not required."
+    },
+    {
+      "id": "c3",
+      "status": "fail",
+      "rationale": "Energy, determination, and concentration are placed inside the activity sense and tied to the short-term framing rather than being cleanly separated as abstract-quality intensity."
+    },
+    {
+      "id": "c4",
+      "status": "pass",
+      "rationale": "The body covers strong feeling, seriousness, focus, and forceful character for people and outward expressions, although its grouping is overgeneralized."
+    },
+    {
+      "id": "c5",
+      "status": "pass",
+      "rationale": "The body explicitly describes intense relationships as involving very strong emotional connection or interaction."
+    },
+    {
+      "id": "c6",
+      "status": "fail",
+      "rationale": "The body presents be intense about as a general grammatical pattern and supplies a teaching example without an adequate markedness qualification."
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-translation-001",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The resolution was deferred to a future cycle; the sealed body still defines the activity use with deep seriousness and short duration."
+    },
+    {
+      "id": "normal-translation-002",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The resolution was deferred to a future cycle; the intense activity explanation still requires short duration and many movements."
+    },
+    {
+      "id": "normal-translation-003",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The resolution was deferred to a future cycle; the intense person translation still narrows the meaning to strong enthusiasm."
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The resolution was deferred; the body still does not adequately separate general intensity from person, expression, and relationship uses."
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The activity definition still contains seriousness, short duration, and excessive activity conditions."
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The distinct argument structures of person, expression, relationship, and intense about remain insufficiently separated."
+    },
+    {
+      "id": "normal-sense-structure-004",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The intensive comparison still states the problematic short-term and emotion-versus-objectivity contrast."
+    },
+    {
+      "id": "normal-qualification-001",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The body still uses extreme wording as a core definition without the promised qualification."
+    },
+    {
+      "id": "normal-qualification-002",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The frequency scale remains unexplained and unsupported."
+    },
+    {
+      "id": "normal-qualification-003",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The related qualification correction is not reflected in the sealed body."
+    },
+    {
+      "id": "normal-qualification-004",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The activity use still implies short duration and participant burden as necessary conditions."
+    },
+    {
+      "id": "normal-qualification-005",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Be intense about remains presented as a general learner-facing pattern without sufficient usage qualification."
+    },
+    {
+      "id": "normal-qualification-006",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The intense blue explanation still chiefly equates intensity with vividness."
+    },
+    {
+      "id": "normal-evidence-001",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The strong entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-002",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The extreme entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-003",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The powerful entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-004",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fierce entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-005",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The vigorous entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-006",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The strenuous entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-007",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The serious entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-008",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The passionate entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "normal-evidence-009",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The earnest entry remains unsupported by the cited evidence."
+    },
+    {
+      "id": "CR-001",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The body still risks equating intense with extreme rather than presenting context-dependent high intensity."
+    },
+    {
+      "id": "CR-002",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The body still treats short duration as central to the activity use."
+    },
+    {
+      "id": "CR-003",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The intense/intensive contrast remains an overgeneralized emotion-versus-objectivity rule."
+    },
+    {
+      "id": "CR-004",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The activity definition still mixes activity intensity with abstract-quality intensity and seriousness."
+    },
+    {
+      "id": "CR-005",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The person, expression, and relationship uses remain overgeneralized as outward display of strong feelings."
+    },
+    {
+      "id": "CR-006",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Be intense about remains insufficiently qualified for learner-facing use."
+    },
+    {
+      "id": "CR-007",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The pressure explanation remains narrower than the full range of possible pressure sources."
+    },
+    {
+      "id": "CR-008",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The frequency numbers remain unverifiable from the supplied packet."
+    },
+    {
+      "id": "CR-009",
+      "status": "fail",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The color explanation remains narrower than intensity, depth, saturation, or visual strength."
+    },
+    {
+      "id": "f1",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The activity definition still imposes short duration and seriousness."
+    },
+    {
+      "id": "f2",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Abstract qualities remain grouped within the activity pattern."
+    },
+    {
+      "id": "f3",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Be intense about remains taught as a normal productive frame."
+    },
+    {
+      "id": "f4",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The intensive contrast remains materially overgeneralized."
+    },
+    {
+      "id": "f5",
+      "status": "pass",
+      "blocking": false,
+      "resolution_status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The finding was rejected, and the supplied resolution identifies F-021/U-008 as direct support for the C1 claim."
+    },
+    {
+      "id": "f6",
+      "status": "fail",
+      "blocking": true,
+      "resolution_status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The third sense still conflates possession, expression, focus, and interpersonal intensity."
+    }
+  ],
+  "evidence_results": [
+    {
+      "id": "EVID-001",
+      "status": "fail",
+      "rationale": "It supports intense's central degree meaning but does not directly support the strong, extreme, or powerful definitions, frequencies, examples, or contrasts."
+    },
+    {
+      "id": "EVID-002",
+      "status": "fail",
+      "rationale": "It supports intense activity and competition but does not directly support the fierce, vigorous, or strenuous entries."
+    },
+    {
+      "id": "EVID-003",
+      "status": "fail",
+      "rationale": "It supports intense person or expression usage but does not directly support the serious, passionate, or earnest entries."
+    }
+  ],
+  "source_union_results": [
+    {
+      "id": "F-021/U-008",
+      "status": "pass",
+      "rationale": "The supplied resolution records this source union as directly supporting the Oxford 5000 C1 classification; the contrary B2 blind finding is rejected."
+    }
+  ],
+  "blockers": [
+    {
+      "id": "B-001",
+      "target_id": "target:intense",
+      "finding_ids": [
+        "normal-translation-001",
+        "normal-translation-002",
+        "normal-qualification-002",
+        "CR-002",
+        "f1"
+      ],
+      "problem": "The activity sense still imposes short duration and extra conditions such as seriousness or many movements, and the frequency scale remains unsupported.",
+      "required_fix": "Define activity intensity in terms of unusually high strength, energy, effort, demand, or pressure without making short duration or seriousness necessary; remove or substantiate the frequency scale."
+    },
+    {
+      "id": "B-002",
+      "target_id": "target:intense",
+      "finding_ids": [
+        "normal-sense-structure-001",
+        "normal-sense-structure-002",
+        "normal-sense-structure-003",
+        "CR-004",
+        "CR-005",
+        "f2",
+        "f6"
+      ],
+      "problem": "The sense structure still blurs general intensity, abstract qualities, people or expressions, and relationships.",
+      "required_fix": "Separate abstract-quality intensity from event/activity intensity and distinguish possession, expression, focus, force of character, and interpersonal emotional intensity."
+    },
+    {
+      "id": "B-003",
+      "target_id": "target:intense",
+      "finding_ids": [
+        "normal-translation-003",
+        "normal-qualification-005",
+        "CR-006",
+        "f3"
+      ],
+      "problem": "Be intense about is presented as a standard productive pattern with an unqualified teaching example.",
+      "required_fix": "Remove it or clearly mark it as limited, marked, and context-dependent, with more established alternatives where appropriate."
+    },
+    {
+      "id": "B-004",
+      "target_id": "target:intense",
+      "finding_ids": [
+        "normal-sense-structure-004",
+        "CR-003",
+        "f4"
+      ],
+      "problem": "The intense/intensive comparison still incorrectly relies on participant emotion versus objectivity and short-term activity.",
+      "required_fix": "Explain intense through high strength or intensity and intensive through concentrated or comprehensive allocation of activity or resources, noting overlap without a binary rule."
+    },
+    {
+      "id": "B-005",
+      "target_id": "relation:strong",
+      "finding_ids": [
+        "normal-evidence-001"
+      ],
+      "problem": "The strong comparison is not directly supported by EVID-001.",
+      "required_fix": "Add direct evidence for strong or remove or limit the unsupported definition, frequency, example, and contrast."
+    },
+    {
+      "id": "B-006",
+      "target_id": "relation:extreme",
+      "finding_ids": [
+        "normal-evidence-002"
+      ],
+      "problem": "The extreme comparison is not directly supported by EVID-001.",
+      "required_fix": "Add direct evidence for extreme or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-007",
+      "target_id": "relation:powerful",
+      "finding_ids": [
+        "normal-evidence-003"
+      ],
+      "problem": "The powerful comparison is not directly supported by EVID-001.",
+      "required_fix": "Add direct evidence for powerful or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-008",
+      "target_id": "relation:fierce",
+      "finding_ids": [
+        "normal-evidence-004"
+      ],
+      "problem": "The fierce comparison is not directly supported by EVID-002.",
+      "required_fix": "Add direct evidence for fierce or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-009",
+      "target_id": "relation:vigorous",
+      "finding_ids": [
+        "normal-evidence-005"
+      ],
+      "problem": "The vigorous comparison is not directly supported by EVID-002.",
+      "required_fix": "Add direct evidence for vigorous or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-010",
+      "target_id": "relation:strenuous",
+      "finding_ids": [
+        "normal-evidence-006"
+      ],
+      "problem": "The strenuous comparison is not directly supported by EVID-002.",
+      "required_fix": "Add direct evidence for strenuous or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-011",
+      "target_id": "relation:serious",
+      "finding_ids": [
+        "normal-evidence-007"
+      ],
+      "problem": "The serious comparison is not directly supported by EVID-003.",
+      "required_fix": "Add direct evidence for serious or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-012",
+      "target_id": "relation:passionate",
+      "finding_ids": [
+        "normal-evidence-008"
+      ],
+      "problem": "The passionate comparison is not directly supported by EVID-003.",
+      "required_fix": "Add direct evidence for passionate or remove or limit the unsupported claims."
+    },
+    {
+      "id": "B-013",
+      "target_id": "relation:earnest",
+      "finding_ids": [
+        "normal-evidence-009"
+      ],
+      "problem": "The earnest comparison is not directly supported by EVID-003.",
+      "required_fix": "Add direct evidence for earnest or remove or limit the unsupported claims."
+    }
+  ],
+  "notes": [
+    {
+      "id": "N-001",
+      "status": "nonblocking",
+      "text": "CR-007 and CR-009 remain narrower than ideal but are secondary to the blocking sense and usage defects."
+    },
+    {
+      "id": "N-002",
+      "status": "nonblocking",
+      "text": "The pronunciation review and frame-relation review reported no findings."
+    },
+    {
+      "id": "N-003",
+      "status": "nonblocking",
+      "text": "All adopted resolutions retain the original body hash and explicitly defer edits to a future cycle; therefore they cannot be treated as applied fixes in this final review."
+    }
+  ]
+}
