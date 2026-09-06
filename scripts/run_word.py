@@ -14,7 +14,7 @@ Guarded workflow runs created under the parallel-subagent protocol reject legacy
 aggregate checker handoff, while pre-protocol fixtures and historical runs remain
 readable for regression and audit compatibility.
 
-Preserved contracts: independent_llm, process_improvement/ACTIVE.md,
+Preserved contracts: independent_llm, per-run process-improvement snapshot,
 context_free_cold, context_free_final_blind, confirm_remote_checkpoint,
 heartbeat_manifest, entry_workflow_guard, source_inventory_complete.
 """

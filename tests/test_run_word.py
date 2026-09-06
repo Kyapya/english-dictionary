@@ -738,6 +738,7 @@ class RunWordTests(unittest.TestCase):
                     revision_count=1 if request["name"] == "generation" else 0,
                     checker_pass_costs=pass_costs,
                     now=started + timedelta(minutes=2),
+                    repo_root=root,
                     verify_outputs=False,
                 )
             self.assertEqual(value["status"], "completed")

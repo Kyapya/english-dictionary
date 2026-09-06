@@ -1,0 +1,25 @@
+{
+  "schema_version": "process_improvement_epoch_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "migration": {
+    "pre_migration_sha": "7cca3bc28b43d7e81940dadf84cb67e0ac8e3a80",
+    "migrated_at": "2026-09-06T05:48:15Z",
+    "legacy_paths": [
+      "process_improvement/records/PI-0001.json",
+      "process_improvement/records/PI-0002.json",
+      "process_improvement/records/PI-0003.json",
+      "process_improvement/records/PI-0004.json",
+      "process_improvement/records/process-refactor-v1.json",
+      "process_improvement/ACTIVE.md",
+      "process_improvement/retirement_state.json"
+    ],
+    "legacy_ids": [
+      "PI-0001",
+      "PI-0002",
+      "PI-0003",
+      "PI-0004",
+      "process-refactor-v1"
+    ],
+    "reason": "Reset obsolete pre-v2 knowledge; retain history only through Git commits."
+  }
+}

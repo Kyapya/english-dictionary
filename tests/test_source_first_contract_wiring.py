@@ -8,13 +8,17 @@ ROOT = Path(__file__).resolve().parents[1]
 
 
 class SourceFirstContractWiringTests(unittest.TestCase):
-    def test_active_process_rule_references_contract(self) -> None:
+    def test_reset_active_view_is_empty_but_formal_contract_is_preserved(self) -> None:
         active = (ROOT / "process_improvement" / "ACTIVE.md").read_text(encoding="utf-8")
-        self.assertIn("prompts/source_first_audit_v2.md", active)
-        self.assertIn("外部資料から先に候補", active)
-        self.assertIn("claim-centric", active)
-        self.assertIn("source union直接照合", active)
-        self.assertIn("最大2回", active)
+        self.assertIn("現在、使用可能な知見はありません", active)
+        self.assertNotIn("PI-000", active)
+        source = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(
+            encoding="utf-8"
+        )
+        self.assertIn("本文の分類を見る前に、外部資料から", source)
+        self.assertIn("claim unit", source)
+        self.assertIn("source unionを直接確認", source)
+        self.assertIn("最大2回", source)
 
     def test_contract_contains_all_four_hardening_requirements(self) -> None:
         spec = (ROOT / "prompts" / "source_first_audit_v2.md").read_text(encoding="utf-8")

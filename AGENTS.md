@@ -21,6 +21,24 @@ checker、example-attribution、cold review、final blind、final reviewは生�
 `checked` / `final` の具体的な修整は `prompts/targeted_correction_review_v1.md`
 と `scripts/targeted_correction.py` の局所経路を使う。全面改稿は通常工程で行う。
 
+局所reviewの既存出力に `learning_delta` を含め、`targeted_correction.py record --learning-delta`
+から通常runと同じPI取込へ渡す。知見がなければ明示的な空配列、
+未判断なら `pending` とし、PIのために全体reviewへ戻したり追加LLMを呼んだりしない。
+
+### process improvement v2
+
+公開入口は、同じknowledge epochで `active`、仕様依存・担当・工程・既知特徴が一致する
+知見だけをrun内の `process_improvement_input_path` へ固定する。生成担当と既存調整役は
+`prompts/process_improvement_learning_delta_v2.md` に従い、既存出力へ小さな
+`learning_delta` を含める。完了・checkpoint・resumeは自動取込し、処理済み、該当なし、
+整理未了、保存エラーを区別する。追加のPI専用LLM工程は作らない。
+
+通常checker、cold review、final blindへ、PI snapshot、元の失敗例、過去finding、期待結論を
+渡さない。PIは正式仕様やユーザー指示を上書きせず、品質guard・レビュー・公開条件を
+変更しない。仕様依存が変わった知見は入力から外し、根拠付き再確認による版更新だけで
+再利用する。配信、行動、再発、非再発、負担、結果不明は別の観測として版別集計する。
+配信回数や欠陥0件だけで自動退役せず、PI操作からcheckerや統合済み安全策を削除しない。
+
 ### checker_passes: 7並列 + frame-relationのみ2往復
 
 7パスを一つに連結せず独立実行する。APIは最大7 workerで7つの独立サブエージェント呼び出しを行い、`frame-relation`だけ同一worker
@@ -73,7 +91,7 @@ final blindを再実行する。findingゼロは追加レビュー理由にし�
 | 局所修整 | `prompts/targeted_correction_review_v1.md`、`scripts/targeted_correction.py` |
 | source-first・semantic gate | `prompts/source_first_audit_v2.md`、`prompts/semantic_resolution_gate_v1.md` |
 | 工程・形式・整合 | `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/checker_subagent_gate.py`、`scripts/entry_workflow_guard.py`、`scripts/validate_entry.py`、`scripts/validate_repository.py` |
-| Notion・改善 | `prompts/notion_spec_v1.md`、`process_improvement/ACTIVE.md`、`scripts/process_improvement.py` |
+| Notion・改善 | `prompts/notion_spec_v1.md`、`process_improvement/README.md`、`prompts/process_improvement_learning_delta_v2.md`、`scripts/process_improvement.py` |
 
 旧工程文書は `backups/2026-08-25-process-refactor/`、規範移設表は
 `prompts/migration_table_v5_to_v6.md` を参照する。
