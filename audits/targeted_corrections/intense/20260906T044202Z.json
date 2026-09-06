@@ -1,0 +1,15 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/i/intense.md",
+  "created_at": "2026-09-06T04:42:02Z",
+  "base_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+  "head_body_sha256": "ddea777ef8dcfa6e47e8366e801f8bfa662a124bd22611ee04a080cf39627773",
+  "diff_sha256": "0d64f922ec9a03f9427dd00ee9af9c003991535d5e3c33489187c6b7294efbaa",
+  "user_request": "intense-revision-request.md の修正1〜5を指定どおり反映し、指定箇所以外の本文・構造・メタデータは変更しない。",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Codex targeted correction review",
+    "verdict": "pass",
+    "notes": "指定5点の適用、各変更の局所整合、対象外差分がないことを確認。intently/intensely の意味差と両用例は Oxford Learner’s Dictionaries および Cambridge Dictionary で確認。"
+  }
+}
