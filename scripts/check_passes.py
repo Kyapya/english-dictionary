@@ -1562,26 +1562,36 @@ def build_bundles(
     bundles: list[dict[str, Any]] = []
     for check_pass in router["passes"]:
         if check_pass["id"] == "frame-relation":
-            bundles.append(
-                _antonym_axis_blind_request(
-                    text,
-                    body_bytes,
-                    check_pass,
-                    router["finding_schema"],
-                    blind_seed=effective_seed,
-                )
+            request = _antonym_axis_blind_request(
+                text,
+                body_bytes,
+                check_pass,
+                router["finding_schema"],
+                blind_seed=effective_seed,
             )
+            if source_inventory is not None:
+                request = _bind_request_hashes(
+                    request,
+                    source_artifact_sha256=source_artifact_sha256,
+                    repo_root=repo_root,
+                )
+            bundles.append(request)
             continue
         if check_pass["id"] == "example-attribution":
-            bundles.append(
-                _example_attribution_request(
-                    text,
-                    body_bytes,
-                    check_pass,
-                    router["finding_schema"],
-                    blind_seed=effective_seed,
-                )
+            request = _example_attribution_request(
+                text,
+                body_bytes,
+                check_pass,
+                router["finding_schema"],
+                blind_seed=effective_seed,
             )
+            if source_inventory is not None:
+                request = _bind_request_hashes(
+                    request,
+                    source_artifact_sha256=source_artifact_sha256,
+                    repo_root=repo_root,
+                )
+            bundles.append(request)
             continue
         selected = {
             section: sections.get(section, [])

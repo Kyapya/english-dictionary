@@ -1,0 +1,213 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 41,
+        "label": "1. 【他動詞】～を…に限る、限定する",
+        "definition": "話題、活動、作業、影響、現象などが及ぶ抽象的な範囲を、特定の対象、期間、分野などに限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 114,
+        "label": "2. 【他動詞・通常受動】人・動物・物質などを閉じ込める、拘束する",
+        "definition": "人や動物を部屋、施設、囲い、刑務所などから出られないようにする。また、物質、熱、火、プラズマなどが物理的な境界の外へ移動・拡散しないように保つ。物理的な障壁、命令、拘禁、装置の作用などによる移動の制限を表す。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 190,
+        "label": "3. 【他動詞・通常受動】～を寝床・自宅などにとどめる",
+        "definition": "病気、けが、身体状態などが原因で、人がベッド、自宅、病室など限られた場所から動けない、または外出できない状態にする。原因を主語にする能動文と、本人を主語にした be confined to の形がある。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 247,
+        "label": "4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた",
+        "definition": "confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 320,
+        "label": "5. 【現在分詞由来の形容詞 confining】窮屈な、自由を制限する",
+        "definition": "環境、規則、衣服、生活様式などが、人の自由な動き、行動、選択を制限し、窮屈さや圧迫感を感じさせることを表す。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 379,
+        "label": "6. 【名詞・通常複数・格式／文学的】境界、範囲、領域",
+        "definition": "通常 confines の形で、場所・組織・分野などの外縁をなす境界、またはその境界に囲まれた内部の領域を表す。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-c129c552fcb0",
+        "example": "The group continued its work outside the confines of the formal organization.",
+        "translation": "そのグループは正式な組織の枠外でも活動を続けた。"
+      },
+      {
+        "example_id": "ex-50ac6b0a7623",
+        "example": "Please confine the discussion to the issues on today's agenda.",
+        "translation": "議論は本日の議題にある問題だけに絞ってください。"
+      },
+      {
+        "example_id": "ex-ab9dc4cef69c",
+        "example": "A confining environment can reduce employees' sense of autonomy.",
+        "translation": "自由を制限する環境は、従業員の自律性の感覚を弱めることがある。"
+      },
+      {
+        "example_id": "ex-9577d742cfe7",
+        "example": "The order kept the soldiers confined to their barracks overnight.",
+        "translation": "その命令により兵士たちは一晩、兵舎から出られなかった。"
+      },
+      {
+        "example_id": "ex-cb86d2ef723d",
+        "example": "The magnetic field confines the plasma to the center of the chamber.",
+        "translation": "その磁場はプラズマを容器の中心部に閉じ込める。"
+      },
+      {
+        "example_id": "ex-f6323709feaa",
+        "example": "The prisoner was confined in a windowless cell for several days.",
+        "translation": "その囚人は数日間、窓のない独房に拘禁された。"
+      },
+      {
+        "example_id": "ex-2132e30d65f2",
+        "example": "She was confined to bed for a week with a severe infection.",
+        "translation": "彼女は重い感染症のため1週間、寝床から起きられなかった。"
+      },
+      {
+        "example_id": "ex-67f20ae1e132",
+        "example": "The negotiations took place within the confines of the embassy.",
+        "translation": "交渉は大使館の敷地内で行われた。"
+      },
+      {
+        "example_id": "ex-19fbcd0bb31e",
+        "example": "The crew lived in confined quarters during the voyage.",
+        "translation": "乗組員は航海中、狭い居住区で暮らした。"
+      },
+      {
+        "example_id": "ex-34fbb3f3212a",
+        "example": "The story moves beyond the narrow confines of a family dispute.",
+        "translation": "その物語は家族間の争いという狭い枠を越えて展開する。"
+      },
+      {
+        "example_id": "ex-2b8d20bee0ac",
+        "example": "After the operation, he was confined to his home for several days.",
+        "translation": "手術後、彼は数日間、自宅から出られなかった。"
+      },
+      {
+        "example_id": "ex-48d231fdefb7",
+        "example": "The vehicle has a confined interior with little room to move.",
+        "translation": "その車両の内部は狭く、動ける余地がほとんどない。"
+      },
+      {
+        "example_id": "ex-32e4c7c37db5",
+        "example": "He is temporarily confined to his room by complications from the operation.",
+        "translation": "彼は手術の合併症のため、一時的に自室から出られない状態にある。"
+      },
+      {
+        "example_id": "ex-d5a6da675b13",
+        "example": "The injured bird was temporarily confined to a large enclosure.",
+        "translation": "けがをした鳥は一時的に大きな囲いの中に閉じ込められた。"
+      },
+      {
+        "example_id": "ex-9d35134efbf3",
+        "example": "He changed out of his confining formal clothes after the ceremony.",
+        "translation": "彼は式の後、動きにくい礼服から着替えた。"
+      },
+      {
+        "example_id": "ex-20027313c181",
+        "example": "A knee injury confined her to the apartment for most of the winter.",
+        "translation": "膝のけがのため、彼女は冬の大半をアパートから出られずに過ごした。"
+      },
+      {
+        "example_id": "ex-d83fc8e9066e",
+        "example": "She found the highly regulated workplace confining.",
+        "translation": "彼女は規則の多いその職場を窮屈だと感じた。"
+      },
+      {
+        "example_id": "ex-ccd7a42fe2ff",
+        "example": "Her influence extended far beyond the confines of the university.",
+        "translation": "彼女の影響力は大学の枠をはるかに越えて広がった。"
+      },
+      {
+        "example_id": "ex-cead63c39f1a",
+        "example": "In this chapter, I will confine myself to examining the short-term effects.",
+        "translation": "この章では、短期的な影響の検討だけに対象を絞る。"
+      },
+      {
+        "example_id": "ex-afda08153c24",
+        "example": "The technicians had to work in confined conditions beneath the stage.",
+        "translation": "技術者たちは舞台の下の狭い環境で作業しなければならなかった。"
+      },
+      {
+        "example_id": "ex-f36507fc3020",
+        "example": "A confining routine left him little time to explore new interests.",
+        "translation": "自由を制限する決まり切った生活のため、彼には新しい関心事を探る時間がほとんどなかった。"
+      },
+      {
+        "example_id": "ex-d7b45d249ca7",
+        "example": "She confined her remarks to the financial risks of the proposal.",
+        "translation": "彼女は発言をその提案の財務上のリスクに限定した。"
+      },
+      {
+        "example_id": "ex-2ee60453400b",
+        "example": "He was confined to quarters for disobeying the order.",
+        "translation": "彼は命令に従わなかったため、兵舎待機を命じられた。"
+      },
+      {
+        "example_id": "ex-4c6a8b45a115",
+        "example": "The machine should not be operated in a confined space without adequate ventilation.",
+        "translation": "その機械は、十分な換気のない閉鎖空間で作動させるべきではない。"
+      },
+      {
+        "example_id": "ex-ed31d79c879d",
+        "example": "The shortage is not confined to rural areas.",
+        "translation": "その不足は農村部だけに限られた問題ではない。"
+      },
+      {
+        "example_id": "ex-04a757c12fe1",
+        "example": "The barrier confines the cattle within a designated area.",
+        "translation": "その柵は牛を指定区域内にとどめている。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a",
+  "normalized_input_sha256": "bd00ff98182fde6f9fca87eb5d26a2d68b9f4f6bf73b69a65eb90724449486db"
+}

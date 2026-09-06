@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "GPT-5",
+    "ingested_by": "human",
+    "agent_id": "confine-sense-agent",
+    "started_at": "2026-09-06T07:47:46Z",
+    "completed_at": "2026-09-06T07:47:59Z"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "・confining（形容詞）— 自由な動きや活動を妨げる、窮屈な。物理的な狭さだけでなく、服装・役割・生活環境などの制約にも使う。  "
+      },
+      "severity": "blocking",
+      "rationale": "主要な分詞形容詞 confining は、自由な動き・活動を妨げるという作用・評価を表し、結果状態を表す confined（語義4）とは中心意味と評価方向が異なる。しかし、この用法は語形成欄にしかなく、番号付き語義にもコアイメージの列挙枝にも収録先がない。主要な品詞転換を語形成欄だけに置く構成は、セクション横断で意味範囲が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "confining の形容詞用法を独立した番号付き語義として追加し、コアイメージにも「人・物・環境が動きや活動を妨げ、窮屈に感じさせる」という対応枝を追加する。"
+    }
+  ]
+}

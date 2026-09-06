@@ -1,0 +1,906 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-confine-20260906T073045Z-f9a3853d",
+  "context_id": "normal-confine-context-20260906T073045Z-f9a3853d",
+  "input_body_sha256": "262b2e492890cf2d4d7112ac806acf3d9a664cf3a5e3ed7beba313ba13c64ed2",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-06T07:56:26.006279+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "confine-translation-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 138,
+            "line_end": 138,
+            "exact_quote": "訳: けがをした鳥は一時的に大きな囲いの中で保護された。  "
+          },
+          "severity": "blocking",
+          "rationale": "The English says that the injured bird was confined to an enclosure, i.e. kept from leaving it. 「保護された」recasts that restriction as protection and adds a beneficial purpose/evaluation not stated in the English, so it fails to preserve both the predicate and the affected participant's relation to the enclosure.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Translate the confinement directly, for example 「けがをした鳥は一時的に大きな囲いの中に閉じ込められた」, without adding a protective purpose."
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 221,
+            "line_end": 221,
+            "exact_quote": "訳: 彼は回復するまで一時的に自室で過ごさなければならない。  "
+          },
+          "severity": "blocking",
+          "rationale": "The English describes his current constrained state while he recovers; it does not assert a deontic obligation. 「過ごさなければならない」adds a must/requirement reading and 「回復するまで」presents recovery as the endpoint more categorically than while he recovers.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Preserve the state and contemporaneous recovery clause, for example 「彼は回復中、一時的に自室から出られない状態にある」."
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 289,
+            "line_end": 289,
+            "exact_quote": "訳: その庭は屋根と壁のある通路に囲まれている。  "
+          },
+          "severity": "blocking",
+          "rationale": "The English only characterizes the walkway as enclosed. The translation specifies that it has both a roof and walls, introducing concrete structural facts that enclosed does not entail and narrowing the adjective's meaning beyond the example.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Use a non-specifying rendering such as 「その庭は囲われた通路に取り囲まれている」 so the enclosure is preserved without inventing its construction."
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "GPT-5",
+        "ingested_by": "human",
+        "agent_id": "confine-sense-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "word_formation",
+            "line_start": 25,
+            "line_end": 25,
+            "exact_quote": "・confining（形容詞）— 自由な動きや活動を妨げる、窮屈な。物理的な狭さだけでなく、服装・役割・生活環境などの制約にも使う。  "
+          },
+          "severity": "blocking",
+          "rationale": "主要な分詞形容詞 confining は、自由な動き・活動を妨げるという作用・評価を表し、結果状態を表す confined（語義4）とは中心意味と評価方向が異なる。しかし、この用法は語形成欄にしかなく、番号付き語義にもコアイメージの列挙枝にも収録先がない。主要な品詞転換を語形成欄だけに置く構成は、セクション横断で意味範囲が一致していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "confining の形容詞用法を独立した番号付き語義として追加し、コアイメージにも「人・物・環境が動きや活動を妨げ、窮屈に感じさせる」という対応枝を追加する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "confine-frame-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "262b2e492890cf2d4d7112ac806acf3d9a664cf3a5e3ed7beba313ba13c64ed2",
+        "blind_request_sha256": "5def1e3cf8eef0d3e5e016fbe7c68964f4dfa8359e9cd80a72373fa6a22150d8",
+        "recorded_at": "2026-09-06T00:47:49-07:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "confine-frame-agent",
+          "same_model_as_generation": true
+        },
+        "axes": [
+          {
+            "item_id": "ant-7700f7ce4e98",
+            "axis": "拘束",
+            "relation_type": "方向",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-cd0cd6b18ff8",
+            "axis": "広さ",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-c0dc5dadb561",
+            "axis": "開放性",
+            "relation_type": "状態",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-2ff0cbbd0f84",
+            "axis": "拘束",
+            "relation_type": "方向",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-feae1bb49aaa",
+            "axis": "範囲",
+            "relation_type": "方向",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-5c13f3df07ec",
+            "axis": "範囲",
+            "relation_type": "方向",
+            "reason": ""
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "confine-example-agent",
+        "same_model_as_generation": true
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "262b2e492890cf2d4d7112ac806acf3d9a664cf3a5e3ed7beba313ba13c64ed2",
+        "blind_request_sha256": "ba73ca7a3fb7fc8f81d5a3bb6dbd113c74b492a3c5ddcc1e6d3aa5c016ec70f1",
+        "recorded_at": "2026-09-06T07:49:00Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "confine-example-agent",
+          "same_model_as_generation": true
+        },
+        "attributions": [
+          {
+            "example_id": "ex-ab9dc4cef69c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "the confines of the university",
+              "beyond"
+            ],
+            "rationale": "Her influence extended far beyond the confines of the university. 複数名詞 confines が of the university と結び付き、越えられる境界・領域を表すため sense:005。競合する sense:001 は他動詞 confine が対象の範囲を限定する用法であり、この例の名詞句構造では成立しない。"
+          },
+          {
+            "example_id": "ex-48d231fdefb7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "within the confines of the embassy"
+            ],
+            "rationale": "The negotiations took place within the confines of the embassy. within と of the embassy に支配された複数名詞 confines が大使館の境界内の領域を表すため sense:005。競合する sense:004 は confined が空間を修飾する形容詞用法であり、定冠詞付き複数名詞のこの構造には当てはまらない。"
+          },
+          {
+            "example_id": "ex-f6323709feaa",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "confines the plasma to the center of the chamber"
+            ],
+            "rationale": "The magnetic field confines the plasma to the center of the chamber. 磁場が plasma の存在範囲を chamber の center に限定する他動詞フレームなので sense:001。競合する sense:002 は移動の自由を奪われる人・動物を目的語に取るが、ここでは非生物の plasma の空間的分布を限定しており成立しない。"
+          },
+          {
+            "example_id": "ex-19fbcd0bb31e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "in confined conditions"
+            ],
+            "rationale": "The technicians had to work in confined conditions beneath the stage. confined が conditions を前置修飾し、作業時の狭く動きにくい環境を表すため sense:004。競合する sense:002 は人・動物を閉じ込める他動詞・受動の関係を必要とするが、ここでは人ではなく環境の性質を表している。"
+          },
+          {
+            "example_id": "ex-9d35134efbf3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "outside the confines of the formal organization"
+            ],
+            "rationale": "The group continued its work outside the confines of the formal organization. outside と of the formal organization に結び付く複数名詞 confines が組織の枠・領域を表すため sense:005。競合する sense:001 は動詞として活動等の範囲を限定する用法であり、ここでの名詞句には帰属しない。"
+          },
+          {
+            "example_id": "ex-20027313c181",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:002",
+              "sense:003"
+            ],
+            "discriminating_terms": [],
+            "rationale": "He is temporarily confined to his room while he recovers. be confined to + 部屋という見出し語の構文と結果状態だけでは、命令・拘束による sense:002 と、病気や身体状態による sense:003 の双方が自然に成立する。while he recovers は医療的解釈を促すが、回復中の人物が別理由で行動を制限される読みも排除せず、見出し語自体の意味関係から一意化できない。"
+          },
+          {
+            "example_id": "ex-2b8d20bee0ac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "A knee injury confined her",
+              "to the apartment"
+            ],
+            "rationale": "A knee injury confined her to the apartment for most of the winter. 身体状態である A knee injury が原因主語となり、人を apartment にとどめるため sense:003。競合する sense:002 なら障壁・命令・拘禁主体による自由の剥奪が必要だが、ここではけがそのものが confine の原因項である。"
+          },
+          {
+            "example_id": "ex-9577d742cfe7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "confined to quarters",
+              "for disobeying the order"
+            ],
+            "rationale": "He was confined to quarters for disobeying the order. 規律違反を理由に quarters への滞在を強制される拘束なので sense:002。競合する sense:003 は病気・けが・身体状態を原因とするが、同じ文では処分理由が明示され、その原因関係と両立しない。"
+          },
+          {
+            "example_id": "ex-d5a6da675b13",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "was confined in a windowless cell"
+            ],
+            "rationale": "The prisoner was confined in a windowless cell for several days. 人が cell 内に拘禁され自由に出られない受動フレームなので sense:002。競合する sense:003 は身体状態により bed や home 等にとどまる用法だが、この例の拘禁場所 cell と in による収容関係はそれに合わない。"
+          },
+          {
+            "example_id": "ex-afda08153c24",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "I felt confined in the tiny room"
+            ],
+            "rationale": "I felt confined in the tiny room after only a few hours. 人を意味する I が confined の状態主体で、in the room が閉じ込められた場所を示すため sense:002 の拘束状態として読むのが自然。競合する sense:004 は confined が空間・区域そのものの狭さを叙述・修飾する用法であり、人を主語にした felt confined には直接帰属しない。"
+          },
+          {
+            "example_id": "ex-f36507fc3020",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "beyond the narrow confines of a family dispute"
+            ],
+            "rationale": "The story moves beyond the narrow confines of a family dispute. 複数名詞 confines が of a family dispute と結び付き、物語が越える抽象的な枠・領域を表すため sense:005。競合する sense:001 は動詞が対象をある範囲に限定する用法であり、この名詞句構造では成立しない。"
+          },
+          {
+            "example_id": "ex-50ac6b0a7623",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "confine the discussion to the issues"
+            ],
+            "rationale": "Please confine the discussion to the issues on today's agenda. discussion を issues に限定する confine + 対象 + to + 範囲の能動フレームなので sense:001。競合する sense:002 は目的語が自由を制限される人・動物である必要があり、discussion の話題範囲を絞るこの関係には成立しない。"
+          },
+          {
+            "example_id": "ex-32e4c7c37db5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "in a confined space"
+            ],
+            "rationale": "The machine should not be operated in a confined space without adequate ventilation. confined が space を直接修飾し、換気上問題となる閉鎖的で狭い空間を表すため sense:004。競合する sense:002 は閉じ込められる人・動物を項に取るが、この例では space 自体の性質を表す。"
+          },
+          {
+            "example_id": "ex-2132e30d65f2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "After the operation",
+              "was confined to his home"
+            ],
+            "rationale": "After the operation, he was confined to his home for several days. 手術後という身体的原因のもとで人が home から出られない状態を表すため sense:003。競合する sense:002 は命令・障壁・拘禁による拘束だが、同じ文が示す operation と home の原因・結果関係には適合しない。"
+          },
+          {
+            "example_id": "ex-cb86d2ef723d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The order kept the soldiers confined",
+              "to their barracks"
+            ],
+            "rationale": "The order kept the soldiers confined to their barracks overnight. The order が兵士の移動を barracks に強制的に制限するため sense:002。競合する sense:003 は病気・けが等の身体原因を必要とするが、ここでは命令が拘束の原因項として明示されている。"
+          },
+          {
+            "example_id": "ex-cead63c39f1a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "confine myself to examining the short-term effects"
+            ],
+            "rationale": "In this chapter, I will confine myself to examining the short-term effects. 再帰目的語 myself と to examining が、話し手が扱う範囲を意識的に限定する関係を作るため sense:001。競合する sense:002 なら人物の物理的移動を場所内に制限する必要があるが、補語は行為 examining であり物理的拘束ではない。"
+          },
+          {
+            "example_id": "ex-d7b45d249ca7",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "confined her remarks to the financial risks"
+            ],
+            "rationale": "She confined her remarks to the financial risks of the proposal. remarks の内容範囲を financial risks に限定する能動フレームなので sense:001。競合する sense:002 は人・動物の移動を制限する用法であり、発言内容を目的語とするこの意味関係には成立しない。"
+          },
+          {
+            "example_id": "ex-2ee60453400b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "confined to bed",
+              "with a severe infection"
+            ],
+            "rationale": "She was confined to bed for a week with a severe infection. 人が severe infection により bed から動けない状態を表すため sense:003。競合する sense:002 は命令・障壁等による拘束だが、to bed という結果場所と感染症という身体原因がその読みを排除する。"
+          },
+          {
+            "example_id": "ex-4c6a8b45a115",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "lived in confined quarters"
+            ],
+            "rationale": "The crew lived in confined quarters during the voyage. confined が quarters を前置修飾し、居住区そのものが狭く閉鎖的であることを表すため sense:004。競合する sense:002 の confined to quarters なら人が quarters に拘束されるが、この例は in confined quarters で場所の性質を述べている。"
+          },
+          {
+            "example_id": "ex-ed31d79c879d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "The shortage is not confined to rural areas"
+            ],
+            "rationale": "The shortage is not confined to rural areas. shortage という現象の及ぶ範囲が rural areas に限定されないことを示すため sense:001。競合する sense:002 は移動を奪われる人・動物を対象とするが、非生物的現象 shortage の分布範囲を述べるこの例では成立しない。"
+          },
+          {
+            "example_id": "ex-04a757c12fe1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The injured bird was temporarily confined",
+              "to a large enclosure"
+            ],
+            "rationale": "The injured bird was temporarily confined to a large enclosure. 動物 bird が enclosure の外へ出られないようにされた受動フレームなので sense:002。競合する sense:003 は身体状態により人が bed・home 等にとどまる語義であり、injured という背景があっても、動物を enclosure に収容する見出し語の項関係は sense:002 に対応する。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-06T07:56:25.992725+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 220,
+            "line_end": 220,
+            "exact_quote": "例: He is temporarily confined to his room while he recovers.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        },
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 277,
+            "line_end": 277,
+            "exact_quote": "例: I felt confined in the tiny room after only a few hours.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1の最も自然な帰属はsense:002だが、実際の所属はsense:004である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義ブロック間の移動"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "confine-qualification-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 77,
+            "line_end": 77,
+            "exact_quote": "confine oneself to は「自分を物理的に閉じ込める」ではなく、通常「話題・活動を自分で限定する」という再帰構文である。"
+          },
+          "severity": "blocking",
+          "rationale": "再帰形の物理的用法を一律に否定しているが、文脈によっては confine oneself to one's room のように、自らを物理的な場所にとどめる意味でも成立する。「通常」が後半の典型用法を限定していても、前半の「ではなく」という絶対的な排除は反例によって成り立たない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "再帰形は典型的には話題・活動の自主的な限定を表すが、場所を補語に取る場合は物理的に自分をその場所にとどめる意味にもなり得る、と適用範囲を修正する。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "confine-pronunciation-agent",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "confine-evidence-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "動詞の三人称単数形 confines は /kənˈfaɪnz/、過去形・過去分詞 confined は /kənˈfaɪnd/、-ing形 confining は /kənˈfaɪnɪŋ/ と発音する。"
+          },
+          "severity": "blocking",
+          "rationale": "F-005、F-011、F-014 は基本形の動詞・名詞の発音と強勢を支持するが、各屈折形の完全な IPA は示していない。F-009 と F-010 は綴り上の屈折形を列挙するだけで、/z/、/d/、/ɪŋ/ を含む発音主張を直接支持しない。",
+          "evidence_link_ids": [
+            "F-005",
+            "F-009",
+            "F-010",
+            "F-011",
+            "F-014"
+          ],
+          "suggested_direction": "屈折形の発音を直接示す根拠に差し替えるか、根拠がある基本形の発音と強勢対立だけに主張を限定する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "etymology",
+            "line_start": 19,
+            "line_end": 19,
+            "exact_quote": "名詞はフランス語の複数形 confins「境界」などを経て英語に入った。finite「有限の」、final「最後の」もラテン語 finis と関係する。"
+          },
+          "severity": "blocking",
+          "rationale": "唯一の語源 fact F-015 は動詞 confine の French confiner と Latin confinis/com + finis の系譜だけを記録している。名詞の French confins 経由説および finite・final との関係は、固定された fact や source_supports に含まれない。",
+          "evidence_link_ids": [
+            "F-015"
+          ],
+          "suggested_direction": "F-015 が直接支持する動詞の系譜に限定するか、名詞史と関連語を明示する別の語源根拠へ差し替える。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 23,
+            "line_end": 23,
+            "exact_quote": "文脈によって物理的拘束、病気による外出不能、限定された環境などを表す。"
+          },
+          "severity": "blocking",
+          "rationale": "F-016 は confinement を confine される行為・状態および restraint として支持するが、病気による外出不能や限定された環境という列挙された適用範囲までは示していない。",
+          "evidence_link_ids": [
+            "F-016"
+          ],
+          "suggested_direction": "act/state of being confined 程度に限定するか、各文脈を直接例証する根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 25,
+            "line_end": 25,
+            "exact_quote": "confining（形容詞）— 自由な動きや活動を妨げる、窮屈な。物理的な狭さだけでなく、服装・役割・生活環境などの制約にも使う。"
+          },
+          "severity": "blocking",
+          "rationale": "C-009/F-010 が支持するのは confining が規則的な現在分詞であることだけであり、独立した形容詞語義や服装・役割・生活環境への適用範囲ではない。",
+          "evidence_link_ids": [
+            "F-010"
+          ],
+          "suggested_direction": "現在分詞としての記述に限定するか、形容詞語義と各適用範囲を直接記載する辞書根拠へ差し替える。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 26,
+            "line_end": 26,
+            "exact_quote": "一般語としては limited や restricted ほど頻繁ではない。"
+          },
+          "severity": "blocking",
+          "rationale": "F-017 は unconfined の意味と形成のみを支持し、limited・restricted との相対頻度を扱っていない。頻度比較に対応する corpus fact もない。",
+          "evidence_link_ids": [
+            "F-017"
+          ],
+          "suggested_direction": "頻度比較を削除するか、比較可能なコーパス根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 42,
+            "line_end": 42,
+            "exact_quote": "対象がすでにその範囲に収まっていることを述べる受動形と、話し手が意識的に扱う範囲を絞る能動形・再帰形の両方がよく使われる。"
+          },
+          "severity": "blocking",
+          "rationale": "F-002 は受動形・再帰形・object + to の存在を例示するが、『両方がよく使われる』という使用頻度・分布までは示さない。",
+          "evidence_link_ids": [
+            "F-002"
+          ],
+          "suggested_direction": "構文が存在するという記述に限定し、頻度表現を外すか分布を示す根拠を追加する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 120,
+            "line_end": 120,
+            "exact_quote": "本人の自由意思で滞在している場合には通常使わない。"
+          },
+          "severity": "blocking",
+          "rationale": "F-003 と F-007 は閉鎖空間への拘束・収監の語義を支持するが、自由意思による滞在との対照を明示した usage constraint は提供していない。",
+          "evidence_link_ids": [
+            "F-003",
+            "F-007"
+          ],
+          "suggested_direction": "直接支持される『自由に出られないようにする』までに限定するか、この語用制約を明示する根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 193,
+            "line_end": 193,
+            "exact_quote": "原因を主語にする能動文も可能だが、本人を主語にした be confined to が特に多い。"
+          },
+          "severity": "blocking",
+          "rationale": "F-004 は be confined to bed の疾病用法を支持するが、原因主語の能動構文や能動・受動間の相対頻度を示していない。",
+          "evidence_link_ids": [
+            "F-004"
+          ],
+          "suggested_direction": "be confined to bed の疾病用法に限定するか、原因主語構文と分布を直接示す根拠を追加する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 323,
+            "line_end": 323,
+            "exact_quote": "現代の一般的な文章では単数形 confine より複数形 confines が圧倒的に普通である。"
+          },
+          "severity": "blocking",
+          "rationale": "F-008 は noun を normally plural、F-013 は often plural とするため複数優勢は支持するが、『現代の一般的な文章』『圧倒的に普通』という強い分布主張までは支持しない。",
+          "evidence_link_ids": [
+            "F-008",
+            "F-013"
+          ],
+          "suggested_direction": "『通常／しばしば複数形』に限定し、圧倒的という強度表現を外す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 44,
+            "line_end": 46,
+            "exact_quote": "【頻度】〈8/10〉  【レジスター/領域】一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。"
+          },
+          "severity": "blocking",
+          "rationale": "C-001/F-001・F-006・F-012 は語義を支持するだけで、8/10 の尺度、会話対文章の分布、ニュース・ビジネス・学術での相対頻度を扱っていない。",
+          "evidence_link_ids": [
+            "F-001",
+            "F-006",
+            "F-012"
+          ],
+          "suggested_direction": "頻度・レジスター主張を hold にするか、尺度の校正方法とコーパス根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 122,
+            "line_end": 124,
+            "exact_quote": "【頻度】〈7/10〉  【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理の文脈でよく使われる。"
+          },
+          "severity": "blocking",
+          "rationale": "F-003 と F-007 は拘束語義を支持するが、7/10 の頻度や列挙された領域で『よく使われる』ことを示す頻度・register fact はない。",
+          "evidence_link_ids": [
+            "F-003",
+            "F-007"
+          ],
+          "suggested_direction": "頻度・領域主張を削除するか、各領域を比較可能に示す根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 195,
+            "line_end": 197,
+            "exact_quote": "【頻度】〈6/10〉  【レジスター/領域】一般語・医療関連。病状や回復期間を述べるやや硬い表現。"
+          },
+          "severity": "blocking",
+          "rationale": "F-004 は疾病により bed にとどまる用法を支持するが、6/10、医療領域での分布、または『やや硬い』という register 評価を支持しない。",
+          "evidence_link_ids": [
+            "F-004"
+          ],
+          "suggested_direction": "語義・構文だけに限定するか、頻度と register を直接評価できる根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 252,
+            "line_end": 254,
+            "exact_quote": "【頻度】〈6/10〉  【レジスター/領域】一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。"
+          },
+          "severity": "blocking",
+          "rationale": "F-018 は形容詞語義、F-019 は米国 OSHA の専門定義を支持するが、6/10 の頻度や日常的説明と専門領域にまたがる register 分布は示していない。",
+          "evidence_link_ids": [
+            "F-018",
+            "F-019"
+          ],
+          "suggested_direction": "OSHA の枠組みにおける専門用法だけに限定し、頻度・一般領域の主張は別根拠が得られるまで hold にする。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 325,
+            "line_end": 327,
+            "exact_quote": "【頻度】〈4/10〉  【レジスター/領域】格式的・文学的。within/beyond/outside the confines of の形で、抽象的・物理的な範囲を述べる文章に使われる。"
+          },
+          "severity": "blocking",
+          "rationale": "F-008 と F-013 は複数名詞の意味および一部の前置詞句を支持するが、4/10 の尺度や『格式的・文学的』という register は固定 fact にない。",
+          "evidence_link_ids": [
+            "F-008",
+            "F-013"
+          ],
+          "suggested_direction": "支持される複数名詞の意味と句型だけに限定し、頻度・register は対応根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 199,
+            "line_end": 199,
+            "exact_quote": "someone be confined to 〈場所〉 with/by 〈病気・けが〉＝病気・けがにより～にとどまっている"
+          },
+          "severity": "blocking",
+          "rationale": "疾病用法の C-004/F-004 は be confined to bed を支持するが、場所一般への拡張や with/by を伴う完全フレームは示していない。また grammar_pattern:003 はどの claim unit の article_target_ids にもない。",
+          "evidence_link_ids": [
+            "F-004"
+          ],
+          "suggested_direction": "直接支持される be confined to bed に限定するか、with/by を含む完全フレームを明示する根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 77,
+            "line_end": 77,
+            "exact_quote": "×confine A in doing B のように範囲を示す前置詞を機械的に in に替えない。confine oneself to は「自分を物理的に閉じ込める」ではなく、通常「話題・活動を自分で限定する」という再帰構文である。受動形 be confined to は、否定や mainly、largely などと結び付き、「～だけに限られる／限られない」を表しやすい。"
+          },
+          "severity": "blocking",
+          "rationale": "F-002 は to を伴う受動・再帰・目的語構文を例示するが、in doing を誤用とする否定証拠、再帰形の物理用法排除を含む『通常』の範囲、否定・mainly・largely との結び付きやすさを支持していない。",
+          "evidence_link_ids": [
+            "F-002"
+          ],
+          "suggested_direction": "確認済みの肯定フレームだけを提示し、誤用断定と分布主張は直接の用法根拠が得られるまで外す。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 150,
+            "line_end": 150,
+            "exact_quote": "imprison は人を刑務所に入れる法的・物理的な拘禁に焦点があり、動物や一時的な行動制限には使いにくい。confine は刑罰に限らず、命令や安全上の理由による拘束にも使える。"
+          },
+          "severity": "blocking",
+          "rationale": "F-003 と F-007 は confine の拘束語義を支持するが、imprison との適用範囲の差、動物・一時的制限での使いにくさ、命令・安全理由までを比較する lexical-relation fact はない。usage_note:002 も claim unit の target に含まれない。",
+          "evidence_link_ids": [
+            "F-003",
+            "F-007"
+          ],
+          "suggested_direction": "confine の直接支持された拘束語義に限定するか、imprison との比較を明示する辞書・用法根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 280,
+            "line_end": 280,
+            "exact_quote": "労働安全上の専門用語では法域や制度ごとに定義・要件があるため、小さい部屋をすべて専門上の confined space と断定しない。"
+          },
+          "severity": "blocking",
+          "rationale": "F-019 は米国 OSHA 枠組みの具体的要件と、単なる小ささでは足りないことを支持する。しかし単一法域の一次資料だけでは『法域や制度ごとに定義・要件がある』という法域間比較を直接支持しない。",
+          "evidence_link_ids": [
+            "F-019"
+          ],
+          "suggested_direction": "『米国 OSHA の枠組みでは』と法域を限定するか、複数法域・制度の定義差を示す根拠を追加する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 84,
+            "line_end": 84,
+            "exact_quote": "limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。"
+          },
+          "severity": "blocking",
+          "rationale": "source inventory と claim_units には limit、restrict、circumscribe、broaden、extend の定義・頻度・confine との差を扱う fact や article target がない。語義1の lexical-relations 全体（81～115行）の比較主張は固定根拠から検証できない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義1の類義語・反意語比較を hold にするか、各比較軸と頻度を直接支持する fact/link を作成する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 157,
+            "line_end": 157,
+            "exact_quote": "imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。"
+          },
+          "severity": "blocking",
+          "rationale": "source inventory と claim_units は confine 自体の拘束語義を支持するだけで、imprison、detain、enclose、release、free の定義・頻度・対比を扱わない。語義2の lexical-relations 全体（154～188行）に evidence link がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義2の語彙関係を hold にするか、各語の適用範囲と比較軸を直接支持する根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 230,
+            "line_end": 230,
+            "exact_quote": "be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。"
+          },
+          "severity": "blocking",
+          "rationale": "F-004 は be confined to bed の疾病用法を支持するが、bedridden、housebound、be restricted to の意味・頻度・期間や強度の対比を扱わない。語義3の lexical-relations 全体（227～244行）に evidence link がない。",
+          "evidence_link_ids": [
+            "F-004"
+          ],
+          "suggested_direction": "語義3の類義表現比較を hold にするか、各表現の分布と意味差を直接支持する根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 287,
+            "line_end": 287,
+            "exact_quote": "enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。"
+          },
+          "severity": "blocking",
+          "rationale": "F-018 は confined の形容詞語義を支持するが、enclosed、cramped、restricted、spacious、open の定義・頻度・対比は固定 fact にない。語義4の lexical-relations 全体（284～317行）に evidence link がない。",
+          "evidence_link_ids": [
+            "F-018"
+          ],
+          "suggested_direction": "語義4の類義語・反意語比較を hold にするか、各比較を直接支持する根拠を付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 360,
+            "line_end": 360,
+            "exact_quote": "bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。"
+          },
+          "severity": "blocking",
+          "rationale": "F-008 と F-013 は confines の複数性と意味を支持するが、bounds、limits、boundaries の定義・頻度・定着表現・register 差を扱わない。語義5の lexical-relations 全体（357～374行）に evidence link がない。",
+          "evidence_link_ids": [
+            "F-008",
+            "F-013"
+          ],
+          "suggested_direction": "語義5の類義語比較を hold にするか、各語の register と意味範囲を直接比較する根拠を付ける。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "confine-translation-agent",
+      "same_model_as_generation": true
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "GPT-5",
+      "ingested_by": "human",
+      "agent_id": "confine-sense-agent",
+      "same_model_as_generation": true
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "confine-frame-agent",
+      "same_model_as_generation": true
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "confine-example-agent",
+      "same_model_as_generation": true
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "confine-qualification-agent",
+      "same_model_as_generation": true
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "confine-pronunciation-agent",
+      "same_model_as_generation": true
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "confine-evidence-agent",
+      "same_model_as_generation": true
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

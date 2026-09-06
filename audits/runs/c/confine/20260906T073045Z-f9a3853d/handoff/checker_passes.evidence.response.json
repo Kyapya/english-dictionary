@@ -1,0 +1,365 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-evidence-agent"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "動詞の三人称単数形 confines は /kənˈfaɪnz/、過去形・過去分詞 confined は /kənˈfaɪnd/、-ing形 confining は /kənˈfaɪnɪŋ/ と発音する。"
+      },
+      "severity": "blocking",
+      "rationale": "F-005、F-011、F-014 は基本形の動詞・名詞の発音と強勢を支持するが、各屈折形の完全な IPA は示していない。F-009 と F-010 は綴り上の屈折形を列挙するだけで、/z/、/d/、/ɪŋ/ を含む発音主張を直接支持しない。",
+      "evidence_link_ids": [
+        "F-005",
+        "F-009",
+        "F-010",
+        "F-011",
+        "F-014"
+      ],
+      "suggested_direction": "屈折形の発音を直接示す根拠に差し替えるか、根拠がある基本形の発音と強勢対立だけに主張を限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "名詞はフランス語の複数形 confins「境界」などを経て英語に入った。finite「有限の」、final「最後の」もラテン語 finis と関係する。"
+      },
+      "severity": "blocking",
+      "rationale": "唯一の語源 fact F-015 は動詞 confine の French confiner と Latin confinis/com + finis の系譜だけを記録している。名詞の French confins 経由説および finite・final との関係は、固定された fact や source_supports に含まれない。",
+      "evidence_link_ids": [
+        "F-015"
+      ],
+      "suggested_direction": "F-015 が直接支持する動詞の系譜に限定するか、名詞史と関連語を明示する別の語源根拠へ差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 23,
+        "line_end": 23,
+        "exact_quote": "文脈によって物理的拘束、病気による外出不能、限定された環境などを表す。"
+      },
+      "severity": "blocking",
+      "rationale": "F-016 は confinement を confine される行為・状態および restraint として支持するが、病気による外出不能や限定された環境という列挙された適用範囲までは示していない。",
+      "evidence_link_ids": [
+        "F-016"
+      ],
+      "suggested_direction": "act/state of being confined 程度に限定するか、各文脈を直接例証する根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "confining（形容詞）— 自由な動きや活動を妨げる、窮屈な。物理的な狭さだけでなく、服装・役割・生活環境などの制約にも使う。"
+      },
+      "severity": "blocking",
+      "rationale": "C-009/F-010 が支持するのは confining が規則的な現在分詞であることだけであり、独立した形容詞語義や服装・役割・生活環境への適用範囲ではない。",
+      "evidence_link_ids": [
+        "F-010"
+      ],
+      "suggested_direction": "現在分詞としての記述に限定するか、形容詞語義と各適用範囲を直接記載する辞書根拠へ差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26,
+        "exact_quote": "一般語としては limited や restricted ほど頻繁ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-017 は unconfined の意味と形成のみを支持し、limited・restricted との相対頻度を扱っていない。頻度比較に対応する corpus fact もない。",
+      "evidence_link_ids": [
+        "F-017"
+      ],
+      "suggested_direction": "頻度比較を削除するか、比較可能なコーパス根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 42,
+        "line_end": 42,
+        "exact_quote": "対象がすでにその範囲に収まっていることを述べる受動形と、話し手が意識的に扱う範囲を絞る能動形・再帰形の両方がよく使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-002 は受動形・再帰形・object + to の存在を例示するが、『両方がよく使われる』という使用頻度・分布までは示さない。",
+      "evidence_link_ids": [
+        "F-002"
+      ],
+      "suggested_direction": "構文が存在するという記述に限定し、頻度表現を外すか分布を示す根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 120,
+        "line_end": 120,
+        "exact_quote": "本人の自由意思で滞在している場合には通常使わない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-003 と F-007 は閉鎖空間への拘束・収監の語義を支持するが、自由意思による滞在との対照を明示した usage constraint は提供していない。",
+      "evidence_link_ids": [
+        "F-003",
+        "F-007"
+      ],
+      "suggested_direction": "直接支持される『自由に出られないようにする』までに限定するか、この語用制約を明示する根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 193,
+        "line_end": 193,
+        "exact_quote": "原因を主語にする能動文も可能だが、本人を主語にした be confined to が特に多い。"
+      },
+      "severity": "blocking",
+      "rationale": "F-004 は be confined to bed の疾病用法を支持するが、原因主語の能動構文や能動・受動間の相対頻度を示していない。",
+      "evidence_link_ids": [
+        "F-004"
+      ],
+      "suggested_direction": "be confined to bed の疾病用法に限定するか、原因主語構文と分布を直接示す根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 323,
+        "line_end": 323,
+        "exact_quote": "現代の一般的な文章では単数形 confine より複数形 confines が圧倒的に普通である。"
+      },
+      "severity": "blocking",
+      "rationale": "F-008 は noun を normally plural、F-013 は often plural とするため複数優勢は支持するが、『現代の一般的な文章』『圧倒的に普通』という強い分布主張までは支持しない。",
+      "evidence_link_ids": [
+        "F-008",
+        "F-013"
+      ],
+      "suggested_direction": "『通常／しばしば複数形』に限定し、圧倒的という強度表現を外す。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 44,
+        "line_end": 46,
+        "exact_quote": "【頻度】〈8/10〉  【レジスター/領域】一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。"
+      },
+      "severity": "blocking",
+      "rationale": "C-001/F-001・F-006・F-012 は語義を支持するだけで、8/10 の尺度、会話対文章の分布、ニュース・ビジネス・学術での相対頻度を扱っていない。",
+      "evidence_link_ids": [
+        "F-001",
+        "F-006",
+        "F-012"
+      ],
+      "suggested_direction": "頻度・レジスター主張を hold にするか、尺度の校正方法とコーパス根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 122,
+        "line_end": 124,
+        "exact_quote": "【頻度】〈7/10〉  【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理の文脈でよく使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-003 と F-007 は拘束語義を支持するが、7/10 の頻度や列挙された領域で『よく使われる』ことを示す頻度・register fact はない。",
+      "evidence_link_ids": [
+        "F-003",
+        "F-007"
+      ],
+      "suggested_direction": "頻度・領域主張を削除するか、各領域を比較可能に示す根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 195,
+        "line_end": 197,
+        "exact_quote": "【頻度】〈6/10〉  【レジスター/領域】一般語・医療関連。病状や回復期間を述べるやや硬い表現。"
+      },
+      "severity": "blocking",
+      "rationale": "F-004 は疾病により bed にとどまる用法を支持するが、6/10、医療領域での分布、または『やや硬い』という register 評価を支持しない。",
+      "evidence_link_ids": [
+        "F-004"
+      ],
+      "suggested_direction": "語義・構文だけに限定するか、頻度と register を直接評価できる根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 252,
+        "line_end": 254,
+        "exact_quote": "【頻度】〈6/10〉  【レジスター/領域】一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-018 は形容詞語義、F-019 は米国 OSHA の専門定義を支持するが、6/10 の頻度や日常的説明と専門領域にまたがる register 分布は示していない。",
+      "evidence_link_ids": [
+        "F-018",
+        "F-019"
+      ],
+      "suggested_direction": "OSHA の枠組みにおける専門用法だけに限定し、頻度・一般領域の主張は別根拠が得られるまで hold にする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 325,
+        "line_end": 327,
+        "exact_quote": "【頻度】〈4/10〉  【レジスター/領域】格式的・文学的。within/beyond/outside the confines of の形で、抽象的・物理的な範囲を述べる文章に使われる。"
+      },
+      "severity": "blocking",
+      "rationale": "F-008 と F-013 は複数名詞の意味および一部の前置詞句を支持するが、4/10 の尺度や『格式的・文学的』という register は固定 fact にない。",
+      "evidence_link_ids": [
+        "F-008",
+        "F-013"
+      ],
+      "suggested_direction": "支持される複数名詞の意味と句型だけに限定し、頻度・register は対応根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 199,
+        "line_end": 199,
+        "exact_quote": "someone be confined to 〈場所〉 with/by 〈病気・けが〉＝病気・けがにより～にとどまっている"
+      },
+      "severity": "blocking",
+      "rationale": "疾病用法の C-004/F-004 は be confined to bed を支持するが、場所一般への拡張や with/by を伴う完全フレームは示していない。また grammar_pattern:003 はどの claim unit の article_target_ids にもない。",
+      "evidence_link_ids": [
+        "F-004"
+      ],
+      "suggested_direction": "直接支持される be confined to bed に限定するか、with/by を含む完全フレームを明示する根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 77,
+        "line_end": 77,
+        "exact_quote": "×confine A in doing B のように範囲を示す前置詞を機械的に in に替えない。confine oneself to は「自分を物理的に閉じ込める」ではなく、通常「話題・活動を自分で限定する」という再帰構文である。受動形 be confined to は、否定や mainly、largely などと結び付き、「～だけに限られる／限られない」を表しやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "F-002 は to を伴う受動・再帰・目的語構文を例示するが、in doing を誤用とする否定証拠、再帰形の物理用法排除を含む『通常』の範囲、否定・mainly・largely との結び付きやすさを支持していない。",
+      "evidence_link_ids": [
+        "F-002"
+      ],
+      "suggested_direction": "確認済みの肯定フレームだけを提示し、誤用断定と分布主張は直接の用法根拠が得られるまで外す。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 150,
+        "line_end": 150,
+        "exact_quote": "imprison は人を刑務所に入れる法的・物理的な拘禁に焦点があり、動物や一時的な行動制限には使いにくい。confine は刑罰に限らず、命令や安全上の理由による拘束にも使える。"
+      },
+      "severity": "blocking",
+      "rationale": "F-003 と F-007 は confine の拘束語義を支持するが、imprison との適用範囲の差、動物・一時的制限での使いにくさ、命令・安全理由までを比較する lexical-relation fact はない。usage_note:002 も claim unit の target に含まれない。",
+      "evidence_link_ids": [
+        "F-003",
+        "F-007"
+      ],
+      "suggested_direction": "confine の直接支持された拘束語義に限定するか、imprison との比較を明示する辞書・用法根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 280,
+        "line_end": 280,
+        "exact_quote": "労働安全上の専門用語では法域や制度ごとに定義・要件があるため、小さい部屋をすべて専門上の confined space と断定しない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-019 は米国 OSHA 枠組みの具体的要件と、単なる小ささでは足りないことを支持する。しかし単一法域の一次資料だけでは『法域や制度ごとに定義・要件がある』という法域間比較を直接支持しない。",
+      "evidence_link_ids": [
+        "F-019"
+      ],
+      "suggested_direction": "『米国 OSHA の枠組みでは』と法域を限定するか、複数法域・制度の定義差を示す根拠を追加する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 84,
+        "line_end": 84,
+        "exact_quote": "limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。"
+      },
+      "severity": "blocking",
+      "rationale": "source inventory と claim_units には limit、restrict、circumscribe、broaden、extend の定義・頻度・confine との差を扱う fact や article target がない。語義1の lexical-relations 全体（81～115行）の比較主張は固定根拠から検証できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1の類義語・反意語比較を hold にするか、各比較軸と頻度を直接支持する fact/link を作成する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 157,
+        "line_end": 157,
+        "exact_quote": "imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。"
+      },
+      "severity": "blocking",
+      "rationale": "source inventory と claim_units は confine 自体の拘束語義を支持するだけで、imprison、detain、enclose、release、free の定義・頻度・対比を扱わない。語義2の lexical-relations 全体（154～188行）に evidence link がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2の語彙関係を hold にするか、各語の適用範囲と比較軸を直接支持する根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 230,
+        "line_end": 230,
+        "exact_quote": "be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。"
+      },
+      "severity": "blocking",
+      "rationale": "F-004 は be confined to bed の疾病用法を支持するが、bedridden、housebound、be restricted to の意味・頻度・期間や強度の対比を扱わない。語義3の lexical-relations 全体（227～244行）に evidence link がない。",
+      "evidence_link_ids": [
+        "F-004"
+      ],
+      "suggested_direction": "語義3の類義表現比較を hold にするか、各表現の分布と意味差を直接支持する根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 287,
+        "line_end": 287,
+        "exact_quote": "enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "F-018 は confined の形容詞語義を支持するが、enclosed、cramped、restricted、spacious、open の定義・頻度・対比は固定 fact にない。語義4の lexical-relations 全体（284～317行）に evidence link がない。",
+      "evidence_link_ids": [
+        "F-018"
+      ],
+      "suggested_direction": "語義4の類義語・反意語比較を hold にするか、各比較を直接支持する根拠を付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 360,
+        "line_end": 360,
+        "exact_quote": "bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。"
+      },
+      "severity": "blocking",
+      "rationale": "F-008 と F-013 は confines の複数性と意味を支持するが、bounds、limits、boundaries の定義・頻度・定着表現・register 差を扱わない。語義5の lexical-relations 全体（357～374行）に evidence link がない。",
+      "evidence_link_ids": [
+        "F-008",
+        "F-013"
+      ],
+      "suggested_direction": "語義5の類義語比較を hold にするか、各語の register と意味範囲を直接比較する根拠を付ける。"
+    }
+  ]
+}

@@ -1,0 +1,79 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-confine-20260906T073045Z-f9a3853d",
+  "context_id": "cold-confine-context-20260906T073045Z-f9a3853d",
+  "input_body_sha256": "6c7417db19cd4d8cf9460638663be6f588b134d10112d07cb3cc7d56ffef2509",
+  "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-06T12:42:15.135190+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-r2-cold-reviewer",
+    "same_model_as_generation": true
+  },
+  "summary": "語義2の対象範囲と文法パターンの不整合、および語義5で掲げたコロケーションと例文の形式的不一致を問題候補として検出した。",
+  "findings": [
+    {
+      "id": "confine-cold-r2-001",
+      "location": "語義2の見出し・日本語訳／定義と文法パターン",
+      "severity": "medium",
+      "description": "語義2は対象を人・動物に限定している一方、within の文法パターンだけが無生物の something まで含めており、語義1との境界が曖昧になっている。",
+      "reason": "「2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する」と「【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。」は対象を人・動物に限っているが、「confine someone/something within 〈境界・区域〉＝人・物を～の境界内にとどめる」は物一般まで含める。このままでは、物質・作用の物理的な封じ込めを扱う語義1と語義2のどちらに無生物の within 構文を帰属させるのか学習者が判断できない。",
+      "suggested_direction": "語義2を人・動物に限定するなら within の目的語も someone/an animal にそろえる。無生物も語義2に含めるなら、見出しと定義を広げたうえで、語義1の物質・作用の用法との区別を明記する。",
+      "scope_anchors": [
+        {
+          "id": "confine-cold-r2-001-a",
+          "exact_quote": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する",
+          "location_hint": "語義2の見出し"
+        },
+        {
+          "id": "confine-cold-r2-001-b",
+          "exact_quote": "【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。",
+          "location_hint": "語義2の日本語訳・定義"
+        },
+        {
+          "id": "confine-cold-r2-001-c",
+          "exact_quote": "confine someone/something within 〈境界・区域〉＝人・物を～の境界内にとどめる",
+          "location_hint": "語義2の文法パターン"
+        }
+      ]
+    },
+    {
+      "id": "confine-cold-r2-002",
+      "location": "語義5のコロケーション a confining environment / a confining routine",
+      "severity": "medium",
+      "description": "掲げた二つの限定用法のコロケーションが、それぞれの例文に現れず、例文は別の叙述用法を示している。",
+      "reason": "「・confine の形容詞形 confining: a confining environment」に対する例は「例: She found the highly regulated workplace confining.」であり、a confining environment ではなく find O confining を示す。また、「・confine の形容詞形 confining: a confining routine」に対する例も「例: Working from the same small room every day began to feel confining.」で、a confining routine ではなく feel confining を示す。語義自体は通じるが、学習者は掲出された連語が実際の文中でどう使われるか確認できない。",
+      "suggested_direction": "コロケーション名を例文が実際に示す find O confining / feel confining に変更するか、例文を a confining environment / a confining routine がそのまま現れる文に差し替える。",
+      "scope_anchors": [
+        {
+          "id": "confine-cold-r2-002-a",
+          "exact_quote": "・confine の形容詞形 confining: a confining environment",
+          "location_hint": "語義5のコロケーション1見出し"
+        },
+        {
+          "id": "confine-cold-r2-002-b",
+          "exact_quote": "例: She found the highly regulated workplace confining.",
+          "location_hint": "語義5のコロケーション1例文"
+        },
+        {
+          "id": "confine-cold-r2-002-c",
+          "exact_quote": "・confine の形容詞形 confining: a confining routine",
+          "location_hint": "語義5のコロケーション3見出し"
+        },
+        {
+          "id": "confine-cold-r2-002-d",
+          "exact_quote": "例: Working from the same small room every day began to feel confining.",
+          "location_hint": "語義5のコロケーション3例文"
+        }
+      ]
+    }
+  ]
+}

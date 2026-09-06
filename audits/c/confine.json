@@ -1,0 +1,1039 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/c/confine.md",
+  "cycle_id": "20260906T073045Z-f9a3853d",
+  "cycle_dir": "audits/runs/c/confine/20260906T073045Z-f9a3853d",
+  "body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/source_inventory.json",
+      "sha256": "c338c155d98138b0bafc793f533a38cf5c60a17a78648721f8c8dd1e319a34e1",
+      "stage": "source_inventory",
+      "run_id": "source-confine-20260906T073045Z-f9a3853d",
+      "context_id": "source-confine-context-20260906T073045Z-f9a3853d",
+      "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+      "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
+      "recorded_at": "2026-09-06T07:44:10Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/pass_findings.json",
+      "sha256": "ce9bee35ab58e4b1066bfc1a363005c7f4bd17b806c579c37cb7c608aef46207",
+      "stage": "normal_review",
+      "run_id": "normal-confine-20260906T073045Z-f9a3853d-r2",
+      "context_id": "normal-confine-context-20260906T073045Z-f9a3853d-r2",
+      "input_body_sha256": "6c7417db19cd4d8cf9460638663be6f588b134d10112d07cb3cc7d56ffef2509",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-06T12:44:15.141041+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/cold_review.json",
+      "sha256": "7ced79dd37ac68441fbdbcb0a3ad56517e0eafe7f77b6e286fa6455fe59f79ff",
+      "stage": "cold_review",
+      "run_id": "cold-confine-20260906T073045Z-f9a3853d",
+      "context_id": "cold-confine-context-20260906T073045Z-f9a3853d",
+      "input_body_sha256": "6c7417db19cd4d8cf9460638663be6f588b134d10112d07cb3cc7d56ffef2509",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-09-06T12:42:15.135190+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/resolutions.json",
+      "sha256": "5bb176eac2a5e1775c64b59653336bef1e27d0afdbaa13d3989309292d0db199",
+      "stage": "resolutions",
+      "run_id": "resolution-confine-20260906T073045Z-f9a3853d",
+      "context_id": "resolution-confine-context-20260906T073045Z-f9a3853d",
+      "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+      "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+      "recorded_at": "2026-09-06T13:16:44.098167+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/final_blind.json",
+      "sha256": "d90e124b48f402686548640bf162f603a8e1acc0b8af0f038a287301d6327c38",
+      "stage": "final_blind",
+      "run_id": "blind-confine-20260906T073045Z-f9a3853d",
+      "context_id": "blind-confine-context-20260906T073045Z-f9a3853d",
+      "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+      "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+      "recorded_at": "2026-09-06T13:48:02.617014Z"
+    },
+    "blind_seal": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/blind_seal.json",
+      "sha256": "e7907ce2d636d7ee9a3a4391f6cacbf2dfb5a8c03037dd781ed0a0001b47b383",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/final_review.json",
+      "sha256": "58b05a30cb2f8d206777dd131723c4bb76c2889b5e0e88c2eeda05f6db992539",
+      "stage": "final_review",
+      "run_id": "blind-confine-20260906T073045Z-f9a3853d",
+      "context_id": "blind-confine-context-20260906T073045Z-f9a3853d",
+      "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+      "prompt_sha256": "af6ad4a77bbe63f6ace93a9080d138fa63efc2d40b6490cdd3bc70756783102a",
+      "recorded_at": "2026-09-06T13:50:51.757395+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "extended",
+    "profile_reason": "The final blind review exposed two uncovered learning-value claims—lexicalized adjectival confining and the physical-containment within frame—so two directly applicable lexicographic sources were required beyond the six-source standard inventory.",
+    "limits": {
+      "max_sources": 8,
+      "max_facts": 80,
+      "max_research_rounds": 3,
+      "max_post_cold_rechecks": 2,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 8,
+      "facts_used": 21,
+      "research_rounds_used": 3,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-06T20:00:00Z",
+    "article_comparison_started_at": "2026-09-06T20:00:01Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-003",
+          "F-004",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-013",
+          "F-018",
+          "F-020"
+        ],
+        "notes": "Independent dictionaries cover restriction, physical confinement, illness-related confinement, the adjective, and the usually plural noun."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-010",
+          "F-018",
+          "F-020",
+          "F-021"
+        ],
+        "notes": "Transitive, reflexive, passive, adjectival, and noun patterns are represented."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009",
+          "F-010",
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-020"
+        ],
+        "notes": "Confined, confining, confinement, and unconfined are recorded as atomic forms."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "notes": "OSHA supplies a directly applicable U.S. occupational-safety definition for confined space; the article explicitly warns that specialist definitions are jurisdiction-specific."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-008",
+          "F-011",
+          "F-012",
+          "F-013",
+          "F-018",
+          "F-020"
+        ],
+        "notes": "Sources distinguish ordinary verb uses, the often offensive wheelchair wording, the lexicalized adjective, and the formal usually plural noun."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-011",
+          "F-014",
+          "F-015"
+        ],
+        "notes": "Verb and noun stress, noun vowel variation, inflection, and the French and Latin history are covered."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Learner's Dictionaries — confine",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/confine",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_languages",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "confine",
+            "kind": "lexical_sense",
+            "statement": "to keep something inside the limits of an activity, subject, area, or other range",
+            "source_detail": "Oxford sense 1 defines the range-limiting use and examples show work, discussion, and geographical distribution."
+          },
+          {
+            "id": "F-002",
+            "form": "confine A to B",
+            "kind": "argument_structure",
+            "statement": "the range-limiting verb uses be confined to, confine oneself to, and confine attention or remarks to a subject",
+            "source_detail": "Oxford examples explicitly distinguish passive be confined to and reflexive confine yourself to doing something."
+          },
+          {
+            "id": "F-003",
+            "form": "confine",
+            "kind": "lexical_sense",
+            "statement": "to keep a person or animal in a small or closed space",
+            "source_detail": "Oxford sense 2 gives passive confinement in a cage and confinement to barracks."
+          },
+          {
+            "id": "F-004",
+            "form": "be confined to bed",
+            "kind": "usage_constraint",
+            "statement": "be confined to bed expresses inability to leave because of illness, while confined to a wheelchair is often considered offensive and wheelchair user is preferred",
+            "source_detail": "Oxford sense 3 supplies the bed example and an explicit disability-language usage note."
+          },
+          {
+            "id": "F-005",
+            "form": "confine",
+            "kind": "pronunciation",
+            "statement": "the verb is pronounced /kənˈfaɪn/ with stress on the second syllable",
+            "source_detail": "Oxford's pronunciation entry gives the two-syllable verb pronunciation."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Merriam-Webster — confine",
+        "locator": "https://www.merriam-webster.com/dictionary/confine",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-006",
+            "form": "confine",
+            "kind": "lexical_sense",
+            "statement": "the transitive verb can hold something within a location or keep it within limits",
+            "source_detail": "Merriam-Webster separates holding within a location, imprisoning, and keeping within limits."
+          },
+          {
+            "id": "F-007",
+            "form": "confine",
+            "kind": "lexical_sense",
+            "statement": "the transitive verb can imprison a person or otherwise deprive the person of free movement",
+            "source_detail": "Merriam-Webster lists imprison as a central transitive use."
+          },
+          {
+            "id": "F-008",
+            "form": "confines",
+            "kind": "lexical_sense",
+            "statement": "the noun is normally plural and denotes enclosing boundaries, restraints, or scope",
+            "source_detail": "Merriam-Webster's noun entry marks confines plural and illustrates within and outside the confines of a place or authority."
+          },
+          {
+            "id": "F-009",
+            "form": "confined",
+            "kind": "derived_form",
+            "statement": "confined is the regular past tense and past participle of confine",
+            "source_detail": "The Merriam-Webster inflection line lists confined."
+          },
+          {
+            "id": "F-010",
+            "form": "confining",
+            "kind": "derived_form",
+            "statement": "confining is the regular present participle of confine",
+            "source_detail": "The Merriam-Webster inflection line lists confining."
+          },
+          {
+            "id": "F-011",
+            "form": "confine",
+            "kind": "pronunciation",
+            "statement": "the verb has final stress while the noun also has an initial-stress pronunciation",
+            "source_detail": "Merriam-Webster gives verb kən-ˈfīn and noun ˈkän-ˌfīn, with a secondary noun variant."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Collins English Dictionary — confine",
+        "locator": "https://www.collinsdictionary.com/us/dictionary/english/confine",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F-012",
+            "form": "confine",
+            "kind": "lexical_sense",
+            "statement": "the verb means to keep within limits or to keep shut in and restrict free movement",
+            "source_detail": "Collins lists the limiting and physical-confinement transitive senses with examples."
+          },
+          {
+            "id": "F-013",
+            "form": "confines",
+            "kind": "lexical_sense",
+            "statement": "the noun, often plural, means a limit, boundary, region, or territory",
+            "source_detail": "Collins labels the noun often plural and gives boundary and territory meanings."
+          },
+          {
+            "id": "F-014",
+            "form": "confine",
+            "kind": "pronunciation",
+            "statement": "British verb /kənˈfaɪn/ contrasts with British noun /ˈkɒnfaɪn/, and American reference forms show the same stress contrast with /ɑ/ in the noun",
+            "source_detail": "Collins provides separate verb and noun pronunciations in British and American sections."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Online Etymology Dictionary — confine",
+        "locator": "https://www.etymonline.com/word/confine",
+        "source_type": "etymological_dictionary",
+        "source_role": "etymology",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-015",
+            "form": "confine",
+            "kind": "etymology",
+            "statement": "the verb entered from French confiner and ultimately relates to Latin confinis, built from com and finis for a shared boundary",
+            "source_detail": "Etymonline traces the obsolete bordering sense and the later restrict-within-bounds sense through French and Medieval Latin."
+          },
+          {
+            "id": "F-016",
+            "form": "confinement",
+            "kind": "derived_form",
+            "statement": "confinement is a noun for the state or act of being confined",
+            "source_detail": "Etymonline traces confinement from French confinement and records the restraint sense."
+          },
+          {
+            "id": "F-017",
+            "form": "unconfined",
+            "kind": "derived_form",
+            "statement": "unconfined means not confined or free from restraint or control",
+            "source_detail": "Etymonline analyzes unconfined as un- plus the past participle of confine."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Merriam-Webster — confined",
+        "locator": "https://www.merriam-webster.com/dictionary/confined",
+        "source_type": "general_dictionary",
+        "source_role": "derived_form_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-018",
+            "form": "confined",
+            "kind": "derived_form",
+            "statement": "the adjective confined can mean kept within bounds or very small, as in confined spaces and compartments",
+            "source_detail": "Merriam-Webster has a separate adjective entry covering location, captivity, and very small spaces."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "U.S. Occupational Safety and Health Administration — Confined Spaces",
+        "locator": "https://www.osha.gov/confined-spaces",
+        "source_type": "government_primary",
+        "source_role": "specialist_primary",
+        "independence_group": "us_osha",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "confined space",
+            "kind": "specialist_use",
+            "statement": "under the cited U.S. OSHA framework a confined space has limited or restricted entry or exit and is not designed for continuous occupancy",
+            "source_detail": "OSHA's overview states the occupational-safety criteria and distinguishes confined spaces from permit-required confined spaces."
+          }
+        ]
+      },
+      {
+        "id": "S-007",
+        "title": "Vocabulary.com — confining",
+        "locator": "https://www.vocabulary.com/dictionary/confining",
+        "source_type": "general_dictionary",
+        "source_role": "derived_form_lexicon",
+        "independence_group": "vocabulary_com",
+        "facts": [
+          {
+            "id": "F-020",
+            "form": "confining",
+            "kind": "lexical_sense",
+            "statement": "as an adjective, confining means restricting the scope or freedom of action and can also describe a crowded condition",
+            "source_detail": "The entry labels confining as an adjective and defines the restrictive sense separately from the verb inflection."
+          }
+        ]
+      },
+      {
+        "id": "S-008",
+        "title": "Cambridge Dictionary — examples of confine",
+        "locator": "https://dictionary.cambridge.org/example/english/confine",
+        "source_type": "general_dictionary",
+        "source_role": "usage_examples",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F-021",
+            "form": "confine A within B / A be confined within B",
+            "kind": "argument_structure",
+            "statement": "within can introduce the boundary or area inside which the subject is confined",
+            "source_detail": "The Cambridge example corpus includes passive confined within followed by a bounded domain, directly attesting the within frame."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-006",
+          "F-012"
+        ],
+        "canonical_statement": "Confine can limit an abstract subject, activity, effect, or phenomenon to a stated range.",
+        "disposition": "included",
+        "rationale": "This is the first major verb sense and is independently supported."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002"
+        ],
+        "canonical_statement": "The main limiting frames are confine A to B, be confined to B, and confine oneself to a noun or gerund.",
+        "disposition": "included",
+        "rationale": "The frames are high-value and difficult for learners to infer safely."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-003",
+          "F-007",
+          "F-021",
+          "F-006",
+          "F-012"
+        ],
+        "canonical_statement": "Confine can keep a person, animal, substance, or physical effect from leaving or spreading beyond a bounded place, including confine A within B / A be confined within B.",
+        "disposition": "included",
+        "rationale": "This physical-containment sense and its within frame differ from abstract scope restriction and have direct learner value."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004"
+        ],
+        "canonical_statement": "Be confined to bed describes illness-related restriction, while confined to a wheelchair carries an often-offensive framing.",
+        "disposition": "included",
+        "rationale": "The construction and disability-language warning have direct learner value."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-008",
+          "F-013"
+        ],
+        "canonical_statement": "The usually plural noun confines denotes boundaries, restraints, scope, or the territory within boundaries.",
+        "disposition": "included",
+        "rationale": "The noun is lower-frequency but recurrent in fixed prepositional phrases."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-005",
+          "F-011",
+          "F-014"
+        ],
+        "canonical_statement": "The verb has second-syllable stress; the noun commonly has first-syllable stress and a British-American vowel difference.",
+        "disposition": "included",
+        "rationale": "The heteronymic stress contrast is essential pronunciation information."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-015"
+        ],
+        "canonical_statement": "Confine comes through French from a Latin boundary expression related to con- and finis.",
+        "disposition": "included",
+        "rationale": "The historical boundary sense directly explains the modern semantic connection."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-009",
+          "F-018"
+        ],
+        "canonical_statement": "Confined is both the regular past participle and a lexicalized adjective for bounded, captive, or very small conditions.",
+        "disposition": "included",
+        "rationale": "The adjective confined space is frequent and not adequately covered by an inflection note alone."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-010",
+          "F-020"
+        ],
+        "canonical_statement": "Confining is the regular present participle and a lexicalized adjective meaning restrictive or freedom-limiting.",
+        "disposition": "included",
+        "rationale": "The adjective has an independently defined meaning that is not adequately covered by an inflection note alone."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-016"
+        ],
+        "canonical_statement": "Confinement is the noun for the act or state of confining.",
+        "disposition": "included",
+        "rationale": "This is the principal noun derivative."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-017"
+        ],
+        "canonical_statement": "Unconfined means not confined or free from restraint.",
+        "disposition": "included",
+        "rationale": "This is the transparent negative derivative included in word formation."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "canonical_statement": "Confined space has a defined occupational-safety use whose criteria go beyond merely being a small room.",
+        "disposition": "included",
+        "rationale": "The article warns learners not to infer the specialist classification from ordinary size alone."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "confine",
+        "claim_type": "lexical_sense",
+        "statement": "Confine means to limit an abstract subject, activity, phenomenon, or effect to a stated scope.",
+        "article_target_ids": [
+          "definition:001",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford defines the activity, subject, and area limiting use."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster distinguishes location and limit uses."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Collins records keeping within limits and physical bounds."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "confine A to B",
+        "claim_type": "frame",
+        "statement": "Confine A to B, be confined to B, and confine oneself to a noun or gerund are central frames.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "grammar_pattern:002",
+          "grammar_pattern:003",
+          "grammar_pattern:004",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford supplies passive, reflexive, and object-plus-to examples."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "confine",
+        "claim_type": "lexical_sense",
+        "statement": "Confine can keep a person, animal, substance, or physical effect from leaving or spreading beyond an enclosed place; within marks the containing boundary.",
+        "article_target_ids": [
+          "definition:002",
+          "grammar_pattern:005",
+          "grammar_pattern:006",
+          "grammar_pattern:007",
+          "grammar_pattern:009",
+          "collocation:005",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford defines keeping people or animals in a closed space."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster directly lists the imprisoning use."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Cambridge corpus examples directly attest confined within followed by a bounded domain."
+          },
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster explicitly covers holding something within a location or within limits."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Collins covers keeping something within limits or shut in so movement is restricted."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "be confined to bed",
+        "claim_type": "usage_constraint",
+        "statement": "Be confined to bed is an illness construction; wheelchair wording can be offensive and should be replaced when only the mobility aid is meant.",
+        "article_target_ids": [
+          "definition:003",
+          "collocation:011",
+          "usage_note:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford gives both the bed construction and the explicit wheelchair-language warning."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "confines",
+        "claim_type": "lexical_sense",
+        "statement": "The usually plural noun confines denotes boundaries, scope, or the area within boundaries.",
+        "article_target_ids": [
+          "definition:006",
+          "grammar_pattern:019",
+          "collocation:023",
+          "collocation:024"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster marks the noun plural and gives boundary and scope meanings."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Collins marks the noun often plural and gives boundary and territory meanings."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "confine",
+        "claim_type": "pronunciation",
+        "statement": "The verb and noun differ in stress, and the initial-stress noun has a British-American first-vowel contrast.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford gives final stress for the two-syllable verb."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster distinguishes common verb and noun stress patterns."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins supplies British and American verb-noun pronunciations."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "confine",
+        "claim_type": "etymology",
+        "statement": "Confine entered through French and derives from a Latin expression for sharing a boundary.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Etymonline traces French confiner to Medieval Latin and Latin boundary forms."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "confined",
+        "claim_type": "derived_form",
+        "statement": "Confined is a past participle and an adjective for bounded or very small spaces.",
+        "article_target_ids": [
+          "word_formation:002",
+          "definition:004",
+          "collocation:015"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster lists confined as the regular past form."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Merriam-Webster's adjective entry covers limited and very small spaces."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "confining",
+        "claim_type": "derived_form",
+        "statement": "Confining is the regular present participle and an adjective for something that restricts freedom or movement.",
+        "article_target_ids": [
+          "word_formation:003",
+          "definition:005",
+          "collocation:019",
+          "collocation:022",
+          "usage_note:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster explicitly lists confining among the inflected forms."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Vocabulary.com separately labels and defines the restrictive adjectival use."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "confinement",
+        "claim_type": "derived_form",
+        "statement": "Confinement names the act or state of being confined.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Etymonline records confinement as restraint or the state of being confined."
+          }
+        ]
+      },
+      {
+        "id": "C-011",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "unconfined",
+        "claim_type": "derived_form",
+        "statement": "Unconfined means free from confinement or restraint.",
+        "article_target_ids": [
+          "word_formation:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Etymonline defines unconfined as not confined or free from restraint."
+          }
+        ]
+      },
+      {
+        "id": "C-012",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "confined space",
+        "claim_type": "specialist_use",
+        "statement": "Occupational-safety definitions of confined space use specific criteria beyond ordinary smallness.",
+        "article_target_ids": [
+          "definition:004",
+          "collocation:015",
+          "usage_note:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "OSHA requires restricted entry or exit and no design for continuous occupancy under its framework."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 156,
+        "line_end": 156,
+        "exact_quote": "【語法・注意】この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。within は壁・境界・区域の内側に収めることを明示し、confine A within B と A be confined within B の両方で使える。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2の見出しと定義は対象を「人・動物」に限定しているが、同じ語義の文法パターンは confine someone/something within として物も含め、コロケーションも「人・物」を対象にしている。一方、語義1には物質・作用を区域内に保つ用法がすでに収録されているため、物理的な物の封じ込めが語義1と語義2の双方にまたがり、どちらへ帰属するか一貫しない。対象物の種類だけで語義を分ける形にもなっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "抽象的な話題・活動・影響などの範囲限定を語義1、物理的な境界内への人・動物・物の封じ込めを語義2として切り分け、物質・作用の文法パターンと例を語義2へ移す。別の境界を採る場合も、語義2の見出し・定義・文法パターン・コロケーションの対象範囲を一致させる。",
+      "id": "NR-sense-structure-1",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 127,
+        "line_end": 127,
+        "exact_quote": "【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/something within 〈境界・区域〉＝人・物を～の境界内にとどめる／confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／be confined within 〈境界・区域〉＝～の境界内に閉じ込められている／be confined to quarters＝兵舎・自室待機を命じられている  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2の見出しと定義は目的語を人・動物に限定しているが、within の能動フレームだけが something を許して無生物まで同語義に取り込んでいる。項の意味役割が語義定義および同語義の他フレームと一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2の目的語slotを someone/an animal に揃えるか、無生物の within フレームを無生物対象を定義に含む語義へ移して完全フレーム化する。",
+      "id": "NR-frame-relation-1",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 255,
+        "line_end": 255,
+        "exact_quote": "【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で／feel confined＝閉じ込められたように感じる  "
+      },
+      "severity": "blocking",
+      "rationale": "語義4の定義は confined が空間・区域の狭さや閉鎖性を表す用法だけを記述しているが、feel confined は人を経験者として「自由を制限されていると感じる」用法であり、その定義と項の意味役割が適用できない。また、この主要フレームに対応するコロケーションもない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "feel confined を人の被拘束状態を扱う語義へ移すか、語義4の定義とコロケーションを人の経験者用法まで一貫して拡張する。",
+      "id": "NR-frame-relation-2",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "id": "confine-cold-r2-001",
+      "location": "語義2の見出し・日本語訳／定義と文法パターン",
+      "severity": "medium",
+      "description": "語義2は対象を人・動物に限定している一方、within の文法パターンだけが無生物の something まで含めており、語義1との境界が曖昧になっている。",
+      "reason": "「2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する」と「【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。」は対象を人・動物に限っているが、「confine someone/something within 〈境界・区域〉＝人・物を～の境界内にとどめる」は物一般まで含める。このままでは、物質・作用の物理的な封じ込めを扱う語義1と語義2のどちらに無生物の within 構文を帰属させるのか学習者が判断できない。",
+      "suggested_direction": "語義2を人・動物に限定するなら within の目的語も someone/an animal にそろえる。無生物も語義2に含めるなら、見出しと定義を広げたうえで、語義1の物質・作用の用法との区別を明記する。",
+      "scope_anchors": [
+        {
+          "id": "confine-cold-r2-001-a",
+          "exact_quote": "2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する",
+          "location_hint": "語義2の見出し"
+        },
+        {
+          "id": "confine-cold-r2-001-b",
+          "exact_quote": "【日本語訳・定義】人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。",
+          "location_hint": "語義2の日本語訳・定義"
+        },
+        {
+          "id": "confine-cold-r2-001-c",
+          "exact_quote": "confine someone/something within 〈境界・区域〉＝人・物を～の境界内にとどめる",
+          "location_hint": "語義2の文法パターン"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "confine-cold-r2-002",
+      "location": "語義5のコロケーション a confining environment / a confining routine",
+      "severity": "medium",
+      "description": "掲げた二つの限定用法のコロケーションが、それぞれの例文に現れず、例文は別の叙述用法を示している。",
+      "reason": "「・confine の形容詞形 confining: a confining environment」に対する例は「例: She found the highly regulated workplace confining.」であり、a confining environment ではなく find O confining を示す。また、「・confine の形容詞形 confining: a confining routine」に対する例も「例: Working from the same small room every day began to feel confining.」で、a confining routine ではなく feel confining を示す。語義自体は通じるが、学習者は掲出された連語が実際の文中でどう使われるか確認できない。",
+      "suggested_direction": "コロケーション名を例文が実際に示す find O confining / feel confining に変更するか、例文を a confining environment / a confining routine がそのまま現れる文に差し替える。",
+      "scope_anchors": [
+        {
+          "id": "confine-cold-r2-002-a",
+          "exact_quote": "・confine の形容詞形 confining: a confining environment",
+          "location_hint": "語義5のコロケーション1見出し"
+        },
+        {
+          "id": "confine-cold-r2-002-b",
+          "exact_quote": "例: She found the highly regulated workplace confining.",
+          "location_hint": "語義5のコロケーション1例文"
+        },
+        {
+          "id": "confine-cold-r2-002-c",
+          "exact_quote": "・confine の形容詞形 confining: a confining routine",
+          "location_hint": "語義5のコロケーション3見出し"
+        },
+        {
+          "id": "confine-cold-r2-002-d",
+          "exact_quote": "例: Working from the same small room every day began to feel confining.",
+          "location_hint": "語義5のコロケーション3例文"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "NR-sense-structure-1",
+      "finding_id": "NR-sense-structure-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The object scope of the within frame overlapped the material-containment use in sense 1.",
+      "required_changes": [
+        "The object scope of the within frame overlapped the material-containment use in sense 1."
+      ],
+      "implemented_changes": [
+        "Narrowed the sense-2 within frame and collocation to people and animals, and explicitly assigned material or effect containment to sense 1."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "NR-frame-relation-1",
+      "finding_id": "NR-frame-relation-1",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The active within frame allowed inanimate objects although sense 2 is limited to people and animals.",
+      "required_changes": [
+        "The active within frame allowed inanimate objects although sense 2 is limited to people and animals."
+      ],
+      "implemented_changes": [
+        "Changed someone/something to someone/an animal and aligned the Japanese gloss."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "NR-frame-relation-2",
+      "finding_id": "NR-frame-relation-2",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "feel confined introduced a human experiencer frame into a sense defined for narrow spaces and areas.",
+      "required_changes": [
+        "feel confined introduced a human experiencer frame into a sense defined for narrow spaces and areas."
+      ],
+      "implemented_changes": [
+        "Removed feel confined from the spatial adjective grammar inventory."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "confine-cold-r2-001",
+      "finding_id": "confine-cold-r2-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The sense-2 within frame allowed inanimate objects despite the sense heading and definition.",
+      "required_changes": [
+        "The sense-2 within frame allowed inanimate objects despite the sense heading and definition."
+      ],
+      "implemented_changes": [
+        "Narrowed both active and passive within frames to people and animals and clarified the boundary with sense 1."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "confine-cold-r2-002",
+      "finding_id": "confine-cold-r2-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Two confining collocation examples did not contain their stated collocations.",
+      "required_changes": [
+        "Two confining collocation examples did not contain their stated collocations."
+      ],
+      "implemented_changes": [
+        "Replaced the two mismatched examples so their headings appear verbatim, and added a separate find O confining collocation with its own object-complement example."
+      ],
+      "resolved_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "All 114 content targets, 75 content relations, 12 blind candidates and every sealed assertion, 5 resolved findings, 12 source-union items, and 7 checker rechecks were individually reconciled. Evidence-link checks, normal independent candidates, final-blind article findings, post-blind resolutions, and targeted adjudications are empty. Content, source binding, hash, seal, and chronology checks pass."
+    ],
+    "reviewed_at": "2026-09-06T13:50:51.757395+00:00",
+    "blind_output_sha256": "097da746c24849b2a1acaea037e3d8c5d4acd563587ed84d43dbced59660a850"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/pre_blind_resolution.json",
+        "sha256": "0545fe7a9ec8abe37240db95b5d93ae92444c506f50e53ef78459514b73bc38f"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/pre_blind_revision.json",
+        "sha256": "71f333b84b2f3d77d3f940294e9dfe7ebedee3d65150248cfb4bbe209630480c"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/checker_recheck_manifest.json",
+        "sha256": "82cd58c164de748f0c63cdec563a35fcaa95204170041c4d2914916f5fefb1fb"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/post_blind_resolution.json",
+        "sha256": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/c/confine/20260906T073045Z-f9a3853d/post_blind_verification.json",
+        "sha256": "4739bab19f21fbcb91f692c5c93aa9d30035c015cc95da7faa3ce0bc8fcb59d1"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

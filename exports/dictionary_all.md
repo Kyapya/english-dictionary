@@ -5889,163 +5889,274 @@ type: word
 status: checked  
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
-created_at: 2026-06-14  
-updated_at: 2026-09-05  
+created_at: 2026-09-06  
+updated_at: 2026-09-06  
 checked: true  
 tags: []  
 ---
 
 ＃発音記号
 
-発音（辞書表記）: /ɪnˈtens/。2音節で、第2音節の /tens/ に主強勢がある。  
+発音（辞書表記）: /ɪnˈtens/。2音節で、第2音節に主強勢がある。英米で基本発音に大きな違いはない。  
 
 ＃語源
 
-15世紀初頭に、フランス語を経てラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。intensus は intendere の過去分詞に由来する。  
-
-現在の intense は、程度・力・感情などの強度や度合いが非常に高いことを表す。  
+中英語期に、古フランス語またはラテン語 intensus「引き伸ばされた、張り詰めた」から英語に入った。intensus は intendere「引き伸ばす、張り詰める、意識を向ける」の過去分詞に由来する。  
 
 ＃語形成
 
-・intensity（名詞）— 強度、激しさ。  
-・intensify（動詞）— 強まる、強める。自動詞・他動詞の両方で使う。  
-・intensive（形容詞）— 集中的な、重点的な。活動・訓練などに多くの努力や注意を集中的に投入することを表す。intense と活動用法で重なるが、常に交換できるわけではない。intense は経験される強さや緊迫感を前面に出しやすく、intensive は活動への集中投入を記述しやすい。  
-・intensification（名詞）— intensify に由来する関連名詞。強まる／強める過程や事例を表す。  
+・intensity（名詞）— 強度、激しさ。感覚・感情・作用などがどの程度強いかを表す。  
+・intensify（動詞）— 強まる、強める。自動詞では「強まる」、他動詞では「～を強める」と使う。  
+・intensely（副詞）— 強く、激しく。感情や注意の向け方を強調することもある。  
+・intensive（形容詞）— 短期間に多くの努力・作業・活動を集中的に行う、または非常に詳細な。intense と重なる場合があるが、intensive は計画された投入量や客観的な集中を表しやすい。  
 
 ＃コアイメージ
 
-程度・力・エネルギー・感情の強度や度合いが非常に高い。活動や行動では、その強度や激しさが非常に高い。短期間に多くの行動が集中する文脈にも使う。何が高いかは文脈によって異なる。人・視線・表情・関係では、対象に応じた強い感情や態度として、視線・表情では集中・鋭さなどの強い印象として、または強い感情的相互作用として現れる。  
+強さ・程度・エネルギー・感情が、通常よりはるかに高い。  
 
-・対象の程度・感覚・感情の強度が非常に高い → 「強烈な、非常に強い」（中心義）  
-・活動・競争・議論の活動量・強度・激しさが非常に高い → 「激しい」（活動用法）  
-・人・視線・表情・関係では、対象に応じた強い感情や態度、視線・表情の集中・鋭さなどの強い印象、または強い感情的相互作用を表す → 「感情や態度の強い、強い感情や集中・鋭さが表れた、感情的に強い」（人・視線・関係の用法）  
+・感覚・感情・性質などの強さが非常に高い → 「強烈な、非常に強い」  
+・活動・競争・議論などの動きや負荷が非常に大きい → 「激しい、集中した」  
+・人・表情・視線・関係に強い感情、集中、真剣さが表れている → 「感情や態度の強い、強い印象を与える」  
 
 ＃意味・用法・関連表現
 
-1. 【形容詞・限定／叙述】強烈な、非常に強い、激しい
+1. 【形容詞・限定／叙述】強烈な、非常に強い、程度の高い
 
-【日本語訳・定義】感覚、感情、性質、色、圧力、活動、人の態度、視線・表情、関係など、対象の強度や程度が非常に高いこと。活動では強度・激しさが高いことを表し、短期間に多くの活動が集まる文脈にも使う。人・視線・表情・関係では、対象に応じた強い感情や態度、視線・表情では集中・鋭さなどの強い印象、または強い感情的相互作用が焦点になる。好ましい対象にも好ましくない対象にも使う。  
+【日本語訳・定義】感覚、感情、性質、光、色、熱、寒さ、圧力などの強さや程度が非常に高いこと。好ましいものにも好ましくないものにも使い、何が強いのかは修飾される名詞や文脈で決まる。〈感覚・感情・影響など〉 be intense のように、主語そのものの強さを述べることもできる。  
 
-【頻度】〈7/10〉  
+【頻度】〈8/10〉  
 
-※頻度は米国英語を中心とするCOCA上位5,000語の形容詞lemma表に基づく。intense は順位2,315、出現数14,452、分散度0.97で、10段階は順位帯を1–500=10、501–1,000=9、1,001–1,500=8、1,501–2,500=7、2,501–3,500=6、3,501–4,500=5、4,501–5,000=4、上位5,000外=3と機械的に対応させた。公開表は語義別集計をしないため、この数値は形容詞lemma全体の基準値である。  
+【レジスター/領域】一般語。会話、ニュース、ビジネス、学術的な文章まで広く使われる。  
 
-【レジスター/領域】一般語として使われる形容詞。  
-
-【文法パターン】intense + 〈感情・感覚・性質・熱・色・圧力など〉＝程度・強度が非常に高い～／intense + 〈活動・競争・議論など〉＝活動・競争・議論の強度や激しさが非常に高い／an intense person＝強い感情や態度を持つ、またはそうした印象を与える人／an intense look/gaze＝強い感情が表れた、集中した、鋭い印象を与える視線／an intense relationship＝情緒的な結びつきや相互作用が強い関係／〈感覚・感情・活動など〉 be intense＝感覚・感情・活動などが非常に強い・激しい  
+【文法パターン】intense + 〈感覚・感情・性質・色・光・熱など〉＝強さや程度が非常に高い～／under intense pressure to do 〈O〉＝〈O〉するよう非常に強い圧力を受けて／intense interest in 〈対象〉＝〈対象〉への非常に強い関心／〈感覚・感情・影響など〉 be/become/get intense＝感覚・感情・影響などが非常に強い／intense enough to do 〈O〉＝〈O〉するほど強烈な  
 
 【コロケーション】
 
 ・intense pain  
 用途: 身体的な痛みが非常に強いことを表す。  
-例: He felt intense pain in his lower back。  
-訳: 彼は腰の下部に激しい痛みを感じた。  
+例: She was in intense pain after the accident.  
+訳: 彼女は事故の後、激しい痛みに苦しんでいた。  
 
-・〈感覚・感情・活動など〉 be intense  
-用途: 主語となる感覚・感情・活動などの強度が非常に高いことを叙述する。  
-例: The pain was intense。  
-訳: その痛みは激しかった。  
-
-・intense heat  
-用途: 暑さや熱が非常に強いことを表す。  
-例: The intense heat made it dangerous to work outside。  
+・intense heat/cold  
+用途: 暑さや寒さが非常に厳しいことを表す。  
+例: The intense heat made it unsafe to work outside.  
 訳: 強烈な暑さのため、屋外で働くのは危険だった。  
 
-・intense pressure  
-用途: 外部からかかる重圧や心理的な圧力が非常に強いことを表す。  
-例: The new manager is under intense pressure to improve the results。  
-訳: 新しい管理職は、業績を改善するよう非常に強い重圧を受けている。  
+・intense interest in 〈対象〉  
+用途: 〈対象〉に向けられる関心が非常に強いことを表す。  
+例: The discovery attracted intense interest from researchers.  
+訳: その発見は研究者から強い関心を集めた。  
 
-・intense interest  
-用途: ある対象に向けられる関心が非常に強いことを表す。  
-例: The discovery attracted intense interest from researchers around the world。  
-訳: その発見は世界中の研究者から強い関心を集めた。  
+・under intense pressure to do 〈O〉  
+用途: 〈O〉するよう非常に強い心理的・社会的圧力を受けていることを表す。  
+例: The manager was under intense pressure to meet the deadline.  
+訳: その管理職は期限に間に合わせるよう非常に強い重圧を受けていた。  
 
-・intense anger  
-用途: 怒りの感情が非常に強いことを表す。  
-例: The decision provoked intense anger among local residents。  
+・intense anger/joy  
+用途: 怒りや喜びなどの感情が非常に強いことを表す。  
+例: The decision caused intense anger among local residents.  
 訳: その決定は地元住民の間に激しい怒りを引き起こした。  
 
-・intense blue  
-用途: 色の強さや鮮やかさが際立ち、強い印象を与えることを表す。  
-例: The intense blue of the lake stood out against the white snow。  
-訳: 湖の鮮やかな青が白い雪を背景に際立っていた。  
+・intense blue/light  
+用途: 色や光の鮮やかさ・強さが際立っていることを表す。  
+例: The intense blue of the sky stood out after the storm.  
+訳: 嵐の後、空の鮮やかな青が際立っていた。  
 
-・intense competition  
-用途: 競争の強度や激しさが非常に高いことを表す。  
-例: There is intense competition for places at the top universities。  
-訳: 一流大学の枠をめぐって激しい競争がある。  
-
-・intense activity  
-用途: 活動の強度や激しさが非常に高いことを表す。  
-例: The airport experienced a period of intense activity before the holiday。  
-訳: その空港では休暇前に活動が非常に活発な時期があった。  
-
-・an intense look  
-用途: 強い感情、集中、鋭さなどの印象を示す視線・表情を表す。  
-例: She gave him an intense look when he mentioned the accusation。  
-訳: 彼がその告発に言及すると、彼女は感情や集中の強さが表れた、鋭い視線を彼に向けた。  
-
-・an intense person  
-用途: 感情や態度が強く、強い印象を与える人を表す。  
-例: He is an intense person who takes every project very seriously。  
-訳: 彼は感情や態度が強く、どのプロジェクトにも非常に真剣に取り組む人だ。  
-
-・an intense relationship  
-用途: 感情的な結びつきや相互作用が非常に強い関係を表す。  
-例: Their intense relationship left little room for emotional distance。  
-訳: 彼らの濃密な関係には、感情的な距離を置く余地がほとんどなかった。  
-
-【語法・注意】intense は対象の強度・程度が非常に高いことを表す中心義で、活動・人・視線・表情・関係への用法もこの強度の軸から理解できる。活動では短期間に多くの行動が集まることが典型的な文脈の一つであり、活動の強度・激しさに焦点を置く。人では強い感情や態度またはそうした印象、視線・表情では強い感情の表れや集中・鋭さなどの強い印象、relationship では情緒的な結びつきや相互作用の強さを表す。評価は対象と文脈により変わる。extreme は程度の大きさや通常の範囲を超える側面、intense は経験・作用・感情の強さを前面に出しやすい。intensive は活動への努力・注意などの集中投入を客観的に記述しやすく、intense は経験される強さ・負荷・感情・緊迫感を前面に出しやすい。両語は活動用法で重なるが、常に交換できるわけではない。  
+【語法・注意】intense は「強度・程度が高い」ことに焦点があり、必ずしも通常の限界を超えた異常さを表すわけではない。extreme は通常の範囲や限界から外れている側面を強調しやすい。痛み・暑さ・怒りなどでは両語が近くなるが、`intense pain` は感じられる強さ、`extreme pain` は極端な程度を前面に出しやすい。また、`intense` の副詞は `intensely` で、`intently` は `intent` の副詞である。`look/stare intently` は注意を集中して「じっと見る」ことを表す。一方、`look at someone intensely` も使われ、視線の強さや真剣さ、感情の強さなどを表す。両者を機械的に置き換えない。  
 
 【類義語】
 
 ・strong  
-定義: intense と同じく、力・程度・感情などが大きいことを表す基本語。  
+定義: 力、程度、感情、作用などが大きいことを広く表す基本語。  
 頻度: 〈10/10〉  
-違い: strong は力・能力・程度など広い範囲に使い、intense は経験・作用・感情などの強度が非常に高いことに焦点を置く。  
-例: strong pain  
-訳: 強い痛み。  
+違い: strong は対象の範囲が非常に広く、intense は感覚・感情・作用などが一時的または集中的に強く感じられることを前面に出しやすい。  
+例: strong feelings  
+訳: 強い感情。  
 
 ・extreme  
-定義: 通常の範囲や限界から大きく外れた状態を表す関連語。  
-頻度: 〈6/10〉  
-違い: extreme は程度が非常に大きいことや通常・予想の範囲を超える側面を表し、intense は経験・作用・感情の強さを前面に出しやすい。  
+定義: 程度が非常に大きい、または通常の範囲・限界から外れている。  
+頻度: 〈7/10〉  
+違い: extreme は「通常からの隔たり」や極端さ、intense は経験・作用・感情の強度を中心に表す。  
 例: extreme heat  
-訳: 強烈な暑さ。  
+訳: 極端な暑さ。  
 
 ・powerful  
-定義: 物理的・心理的な力や他者への影響が大きいことを表す関連語。  
+定義: 物理的・心理的な力や、他者への影響が大きい。  
 頻度: 〈8/10〉  
-違い: powerful は作用する力や影響力に焦点があり、intense は経験される強度や圧にも使う。  
-例: a powerful influence  
-訳: 大きな影響力。  
+違い: powerful は力や影響を及ぼす側に焦点があり、intense は痛み・感情・圧力のように受け手が強く感じる対象にも広く使う。  
+例: a powerful effect  
+訳: 強力な効果。  
+
+・severe  
+定義: 痛み、症状、天候、損害などが非常に厳しい・深刻な。  
+頻度: 〈7/10〉  
+違い: severe は好ましくない深刻さを含みやすく、intense は喜び、関心、色など肯定的または中立的な対象にも使える。  
+例: severe pain  
+訳: 激しい痛み。  
+
+【反意語】
+
+・mild  
+定義: 強さ、刺激、症状、気候などが穏やかで、程度が高くない。  
+頻度: 〈8/10〉  
+違い: 痛み・暑さ・反応などの強度という軸で、mild は低い側、intense は高い側を表す。  
+例: mild pain  
+訳: 軽い痛み。  
+
+・weak  
+定義: 力、作用、信号、影響などが弱く、十分な強さを持たない。  
+頻度: 〈9/10〉  
+違い: 力や作用の強さという軸では反対になるが、weak は「強く感じられるか」よりも力の不足に焦点を置く。  
+例: a weak signal  
+訳: 弱い信号。  
+
+2. 【形容詞・限定／叙述】激しい、集中した（活動・競争・議論など）
+
+【日本語訳・定義】活動、競争、議論、努力、勉強などの動き・負荷・真剣さが非常に大きいこと。短い期間に多くの行動が集中する場面でよく使うが、短期間であること自体は必須条件ではない。活動を経験する側の負荷や緊迫感を含めて表すことが多い。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般語。仕事、学習、競技、政治・社会上の議論などで使われる。  
+
+【文法パターン】intense + 〈activity・competition・debate・effort・studyなど〉＝活動・競争・議論・努力などが非常に激しい／intense competition for 〈地位・機会〉＝〈地位・機会〉をめぐる激しい競争／a period of intense 〈活動・作業〉＝活動・作業が非常に集中する期間／〈activity・debate・competition〉 be/remain intense＝活動・議論・競争が激しい状態である／intense effort to do 〈O〉＝〈O〉するための大きな努力  
+
+【コロケーション】
+
+・intense competition for 〈地位・機会〉  
+用途: 〈地位・機会〉をめぐる競争が非常に激しいことを表す。  
+例: There is intense competition for places at the top universities.  
+訳: 一流大学の枠をめぐって激しい競争がある。  
+
+・intense debate over/about 〈問題〉  
+用途: 〈問題〉について意見の対立や議論が非常に激しいことを表す。  
+例: The proposal has sparked intense debate over data privacy.  
+訳: その提案はデータプライバシーをめぐる激しい議論を引き起こした。  
+
+・a period of intense activity  
+用途: 活動量や動きが非常に大きい期間を表す。  
+例: The airport experienced a period of intense activity before the holiday.  
+訳: その空港では休暇前に活動が非常に活発な時期があった。  
+
+・intense effort to do 〈O〉  
+用途: 〈O〉するために大きな力を注ぐ努力を表す。  
+例: The team made an intense effort to restore the service.  
+訳: チームはサービスを復旧させるために全力を尽くした。  
+
+・intense study/training  
+用途: 勉強や訓練が非常に厳しく、参加者が強い負荷を感じることを表す。  
+例: After months of intense study, she passed the examination.  
+訳: 何か月もの厳しい勉強の末、彼女は試験に合格した。  
+
+【語法・注意】`intense` と `intensive` はどちらも短期間に多くの活動が行われる場合に使える。`intense debate` は議論の熱さ・緊迫感・対立の強さを、`intensive training` は計画的に多くの訓練を投入する性質を表しやすい。したがって、`intensive course`、`intensive investigation`、`intensive farming` のように、方法や投入を客観的・組織的に述べる場合は `intensive` が自然である。`intense` を「短時間である」という意味だけで覚えると、活動の激しさという中心を取り違える。  
+
+【類義語】
 
 ・fierce  
-定義: 競争・対立・攻撃性などの激しさが非常に強いことを表す関連語。  
-頻度: 〈5/10〉  
-違い: fierce は競争・対立の激しさや攻撃性を前面に出し、intense は敵意のない活動の激しさにも使える。  
+定義: 競争、対立、議論などが激しく、しばしば攻撃性や敵対性を帯びている。  
+頻度: 〈6/10〉  
+違い: fierce は競争・対立の敵対的な激しさを強調し、intense は敵意のない活動や努力の高い負荷にも使える。  
 例: fierce competition  
 訳: 激しい競争。  
 
-・passionate  
-定義: 強い感情や熱意・情熱を示す関連語。  
-頻度: 〈3/10〉  
-違い: passionate は熱意・情熱を前面に出し、intense は感情や態度の強さをより広く表す。  
-例: a passionate coach  
-訳: 情熱的なコーチ。  
+・strenuous  
+定義: 大きな力や体力を必要とし、非常にきつい。  
+頻度: 〈5/10〉  
+違い: strenuous は努力する側の身体的・精神的な負荷に焦点があり、intense は活動全体の激しさや緊迫感にも使える。  
+例: strenuous training  
+訳: きつい訓練。  
 
-・deep  
-定義: 感情の深さを表す関連語。  
-頻度: 〈9/10〉  
-違い: deep は感情の深さを前面に出し、intense は感情や相互作用の強さを前面に出す。  
-例: a deep sense of loss  
-訳: 深い喪失感。  
+・vigorous  
+定義: 力強く、活発で、エネルギーに満ちている。  
+頻度: 〈6/10〉  
+違い: vigorous は活動の活発さやエネルギーを肯定的に示しやすく、intense は緊張や負荷を含む強烈さにも使える。  
+例: vigorous exercise  
+訳: 激しい運動。  
+
+・concentrated  
+定義: 注意、努力、資源などが一つの対象に集中的に向けられている。  
+頻度: 〈7/10〉  
+違い: concentrated は何がどこへ集まっているかという投入の集中に焦点があり、intense は経験される強さや活動の激しさを広く表す。  
+例: concentrated study  
+訳: 集中的な勉強。  
+
+3. 【形容詞・限定／叙述】感情や態度、集中の強い；強い印象を与える
+
+【日本語訳・定義】人、表情、視線、態度、または関係について、強い感情・意見・真剣さ・集中が表れていること。人については感情的、強く没頭する、存在感が強いなどの印象を表し、必ずしも怒りや不快感を意味しない。視線や表情では、感情の強さに加えて、直接的・集中した・鋭い印象を表す。関係では感情的な関わりが強いことを表し、親密な場合にも緊張や圧迫感を伴う場合にも使える。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】一般語。人の性格・態度、視線・表情、対人関係を評価・描写する文脈で使われる。文脈によって賞賛にも戸惑いにもなりうる。人を評する場合、文脈によっては「熱が入りすぎている」「少し圧が強い」という否定的な含みを持つこともある。  
+
+【文法パターン】an intense person/man/player＝感情・態度・取り組み方が強烈な人／be intense about 〈物事〉＝〈物事〉に非常に強い態度や感情を示す／an intense look/gaze/expression＝強い感情、集中、鋭さなどが表れた視線・表情／give 〈人〉 an intense look＝〈人〉に強い印象を与える視線を向ける／an intense relationship between 〈人〉＝〈人〉の間の感情的な関わりが強い関係／〈人〉 be intense＝人が強い感情・態度・存在感を持つ、またはそうした印象を与える  
+
+【コロケーション】
+
+・an intense person  
+用途: 感情、態度、集中、存在感などが強く、周囲に強い印象を与える人を表す。  
+例: He is an intense person who takes every project seriously.  
+訳: 彼はどのプロジェクトにも真剣に取り組む、強い印象を与える人だ。  
+
+・be intense about 〈物事〉  
+用途: 〈物事〉に対して非常に強い関心・意見・態度を示すことを表す。  
+例: She is intense about protecting the local forest.  
+訳: 彼女は地域の森を守ることに強い思いを抱いている。  
+
+・an intense look/gaze  
+用途: 強い感情、集中、鋭さなどが感じられる視線を表す。  
+例: I felt uneasy under his intense gaze.  
+訳: 彼の強い視線を受けて、私は落ち着かなかった。  
+
+・give 〈人〉 an intense look  
+用途: 〈人〉に感情や集中の強さが伝わる視線を向けることを表す。  
+例: She gave me an intense look when I mentioned the mistake.  
+訳: 私がそのミスに言及すると、彼女は強い視線を私に向けた。  
+
+・an intense expression  
+用途: 強い感情や真剣さが表情にはっきり表れていることを表す。  
+例: His intense expression made the conversation feel serious.  
+訳: 彼の真剣な表情で、会話は重い雰囲気になった。  
+
+・an intense relationship between 〈人〉  
+用途: 〈人〉の間の感情的な関わりが非常に強い関係を表す。  
+例: The two actors developed an intense working relationship during the production.  
+訳: その2人の俳優は制作期間中に感情的な結びつきの強い仕事上の関係を築いた。  
+
+【語法・注意】`an intense person` は「怒りっぽい人」に限定されず、強く集中する、真剣である、感情を強く示す、または存在感が強い人を指す。`intense look/gaze` は視線そのものの強さ・直接性・集中を表し、見る動作を「じっと、熱心に」と述べる `look intently` とは品詞も焦点も異なる。`intense relationship` は必ずしも親密で肯定的な関係を意味せず、強い結びつきや緊張を文脈に応じて表す。  
+
+【類義語】
+
+・passionate  
+定義: 強い情熱や熱意を持ち、それを表す。  
+頻度: 〈7/10〉  
+違い: passionate は熱意・情熱を前向きに示すことが多く、intense は情熱に限らず、真剣さ、感情の強さ、圧迫感も表せる。  
+例: a passionate teacher  
+訳: 情熱的な教師。  
+
+・earnest  
+定義: 目的や態度が真剣で、冗談や軽さではない。  
+頻度: 〈5/10〉  
+違い: earnest は誠実さ・真剣さを中心に表し、intense のような感情や存在感の強烈さまでは必ずしも含まない。  
+例: an earnest appeal  
+訳: 真剣な訴え。  
+
+・emotional  
+定義: 感情を強く感じたり、感情が表に出たりする。  
+頻度: 〈8/10〉  
+違い: emotional は感情が関わることに焦点があり、intense は感情が必ずしも中心でない集中・圧力・存在感にも使える。  
+例: an emotional speech  
+訳: 感情のこもったスピーチ。  
+
+・focused  
+定義: 注意や努力が一つの対象にしっかり向けられている。  
+頻度: 〈8/10〉  
+違い: focused は集中の方向と持続に焦点があり、intense は集中に加えて感情や雰囲気の強さも表せる。  
+例: a focused expression  
+訳: 集中した表情。  
 
 ・fervent  
-定義: 特定の対象への強い感情・熱意を示す関連語。  
-頻度: 〈3/10〉  
-違い: fervent は支持や願いなど特定の対象への熱意を前面に出し、intense は人・視線・関係を含むより広い対象に使う。  
+定義: 支持、信念、願いなどに非常に強い熱意を示す。  
+頻度: 〈4/10〉  
+違い: fervent は特定の信念や支持への熱烈さを表す比較的硬い語で、intense は人・視線・関係などにも広く使える。  
 例: a fervent supporter  
 訳: 熱烈な支持者。
 
@@ -21963,3 +22074,442 @@ respective は形容詞で、それぞれの名詞を修飾する。The teams re
 違い: 順序対応を直接説明する説明的な言い換えだが、常に respectively と置換できるわけではない。文中で副詞として使える respectively より長いが、対応関係を初めて説明するときに分かりやすい。  
 例: The figures refer to the three regions in the same order.  
 訳: その数値は、三つの地域に先に示したのと同じ順番で対応している。
+
+---
+
+# confine
+
+---
+headword: confine  
+type: word  
+status: checked  
+prompt_version: entry_spec_v5  
+model: gpt-5  
+created_at: 2026-09-06  
+updated_at: 2026-09-06  
+checked: true  
+tags: []  
+---
+
+＃発音記号
+
+動詞は米・英: /kənˈfaɪn/。2音節で第2音節に主強勢があり、第1音節の母音は弱い /ə/ になる。低頻度の名詞は、米: /ˈkɑːnfaɪn/｜英: /ˈkɒnfaɪn/ で、第1音節に主強勢が移り、第1音節の母音にも米英差がある。  
+
+＃語源
+
+動詞は中期フランス語 confiner「境を接する、限界内にとどめる」から英語に入り、さらにラテン語 confinis「境を接する」にさかのぼる。con-「共に」と finis「境界、終わり」が結び付いた語で、「境界を共有する・隣接する」という古い意味から、境界を定めてその内側にとどめる現代の「範囲を限る」「閉じ込める」へ発達した。  
+
+＃語形成
+
+・confinement（名詞）— 閉じ込めること、閉じ込められた状態、拘禁。  
+・confined（形容詞）— 狭く囲まれた、限られた。単なる過去分詞としての受動用法と、confined space のような形容詞用法がある。  
+・confining（形容詞・現在分詞）— 現在分詞のほか、自由な動きや行動を制限して窮屈に感じさせるものを表す形容詞として使う。  
+・unconfined（形容詞）— 閉じ込められていない、境界内に制限されていない。  
+
+＃コアイメージ
+
+人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined では制限された結果の状態を、confining では自由や行動を制限する性質を、名詞では境界または境界に囲まれた領域を表す。  
+
+・対象の範囲を一定の境界内にとどめる → 「～を…に限る、限定する」（語義1）  
+・人・動物・物質などを一定の場所や区域から出ないようにする → 「閉じ込める、拘束する」（語義2）  
+・病気やけがで生活場所を狭い範囲にとどめる → 「～を寝床・自宅などにとどめる」（語義3）  
+・空間や区域が狭い境界内に収まった状態 → 「狭く囲まれた、限られた」（語義4）  
+・物や環境が人の自由や行動を制限する性質 → 「窮屈な、自由を制限する」（語義5）  
+・内外を分けて範囲を画する境界 → 「境界、範囲、領域」（語義6）  
+
+＃意味・用法・関連表現
+
+1. 【他動詞】～を…に限る、限定する
+
+【日本語訳・定義】話題、活動、作業、影響、現象などが及ぶ抽象的な範囲を、特定の対象、期間、分野などに限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。  
+
+【文法パターン】confine 〈話題・活動・影響・検討〉 to 〈対象・期間・分野・範囲〉＝話題などを～の範囲内に限る／confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする／〈問題・特徴・現象〉 be confined to 〈地域・集団・期間〉＝問題などが～だけに限られている／confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る  
+
+【コロケーション】
+
+・confine the discussion to 〈話題〉  
+用途: 議論で扱う範囲を特定の話題に限定する。  
+例: Please confine the discussion to the issues on today's agenda.  
+訳: 議論は本日の議題にある問題だけに絞ってください。  
+
+・confine one's remarks to 〈対象〉  
+用途: 発言する内容を特定の対象に限る。  
+例: She confined her remarks to the financial risks of the proposal.  
+訳: 彼女は発言をその提案の財務上のリスクに限定した。  
+
+・confine oneself to 〈名詞・doing〉  
+用途: 自分が扱う話題や行う活動を意識的に一つの範囲へ絞る。  
+例: In this chapter, I will confine myself to examining the short-term effects.  
+訳: この章では、短期的な影響の検討だけに対象を絞る。  
+
+・be confined to 〈場所・集団〉  
+用途: 問題、特徴、現象などが特定の場所や集団だけに見られることを表す。  
+例: The shortage is not confined to rural areas.  
+訳: その不足は農村部だけに限られた問題ではない。  
+
+【語法・注意】基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ人・動物・物質などを物理的に閉じ込める用法は語義2で扱う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。  
+
+【類義語】
+
+・limit  
+定義: 数量、範囲、程度、時間などに限度を設ける。  
+頻度: 〈9/10〉  
+違い: limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。  
+例: The policy limits each application to two pages.  
+訳: その方針では各申請書を2ページまでに制限している。  
+
+・restrict  
+定義: 規則、条件、権限などによって範囲や自由を制限する。  
+頻度: 〈8/10〉  
+違い: restrict は許可・利用・行動への制約を広く表す。confine A to B は、AがBの外へ及ばないという境界を特に示す。  
+例: Access is restricted to authorized staff.  
+訳: 立ち入りは権限のある職員に制限されている。  
+
+・circumscribe  
+定義: 活動、権限、可能性などの範囲を狭く限定する。  
+頻度: 〈3/10〉  
+違い: circumscribe は非常に硬い語で、抽象的な権限・選択肢・行動範囲が制約される文脈に多い。confine の方が一般的で、具体的な場所にも使える。  
+例: The constitution circumscribes the powers of the executive.  
+訳: 憲法は行政府の権限の範囲を限定している。  
+
+【反意語】
+
+・broaden  
+定義: 話題、活動、対象などの範囲を広げる。  
+頻度: 〈7/10〉  
+違い: 範囲を狭く限定する confine と、同じ範囲軸上で外側へ広げる方向の対立をなす。  
+例: The committee broadened the inquiry to include safety concerns.  
+訳: 委員会は安全上の懸念も含めるよう調査範囲を広げた。  
+
+・extend  
+定義: 対象となる範囲、期間、適用先などをさらに先まで広げる。  
+頻度: 〈8/10〉  
+違い: confine A to B がAの到達範囲をB内に止めるのに対し、extend A to B はAの到達範囲をBまで広げる。  
+例: The program was extended to smaller communities.  
+訳: その制度はより小さな地域にも拡大された。  
+
+2. 【他動詞・通常受動】人・動物・物質などを閉じ込める、拘束する
+
+【日本語訳・定義】人や動物を部屋、施設、囲い、刑務所などから出られないようにする。また、物質、熱、火、プラズマなどが物理的な境界の外へ移動・拡散しないように保つ。物理的な障壁、命令、拘禁、装置の作用などによる移動の制限を表す。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】一般語。ニュース、法律・刑事、軍事、動物管理のほか、物質やエネルギーを一定領域内に保つ科学・技術の説明でも使われる。  
+
+【文法パターン】confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/something within 〈境界・区域〉＝人・動物・物を～の境界内にとどめる／confine someone/something to 〈場所・区域〉＝人・動物・物を～から出ないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／someone/something be confined within 〈境界・区域〉＝人・動物・物が～の境界内に閉じ込められている／be confined to quarters＝兵舎・自室待機を命じられている  
+
+【コロケーション】
+
+・confine someone in a cell  
+用途: 人を独房などの閉鎖された空間から出られないようにする。  
+例: The prisoner was confined in a windowless cell for several days.  
+訳: その囚人は数日間、窓のない独房に拘禁された。  
+
+・confine an animal to 〈囲い・ケージ〉  
+用途: 動物が指定された囲いの外へ出ないようにする。  
+例: The injured bird was temporarily confined to a large enclosure.  
+訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。  
+
+・confine 〈人・動物・物〉 within 〈境界・区域〉  
+用途: 明示された境界や区域の内側から人・動物・物が出ないようにする。  
+例: The barrier confines the cattle within a designated area.  
+訳: その柵は牛を指定区域内にとどめている。  
+
+・confine 〈物質・作用〉 to 〈区域・装置〉  
+用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。  
+例: The magnetic field confines the plasma to the center of the chamber.  
+訳: その磁場はプラズマを容器の中心部に閉じ込める。  
+
+・keep 〈人・動物〉 confined  
+用途: 人や動物を外へ出られない状態に保つ。  
+例: The order kept the soldiers confined to their barracks overnight.  
+訳: その命令により兵士たちは一晩、兵舎から出られなかった。  
+
+・be confined to quarters  
+用途: 軍人などが処罰・命令により兵舎や指定場所から出ないよう命じられた状態を表す。  
+例: He was confined to quarters for disobeying the order.  
+訳: 彼は命令に従わなかったため、兵舎待機を命じられた。  
+
+【語法・注意】この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。within は壁・境界・区域の内側に収めることを明示し、confine A within B と A be confined within B の両方で使える。人・動物では外へ出る自由の制限に焦点があり、物質や作用では境界外への移動・拡散を防ぐことに焦点がある。  
+
+【類義語】
+
+・imprison  
+定義: 人を刑務所などに入れて自由を奪う。  
+頻度: 〈6/10〉  
+違い: imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。  
+例: The regime imprisoned several opposition leaders.  
+訳: その政権は複数の反対派指導者を投獄した。  
+
+・detain  
+定義: 当局などが人を一定時間引き留め、立ち去れないようにする。  
+頻度: 〈7/10〉  
+違い: detain は一時的な身柄拘束や事情聴取のための留置に焦点がある。confine は場所の境界内に置かれる状態を強く示す。  
+例: Police detained the suspect for questioning.  
+訳: 警察は事情聴取のため容疑者を拘束した。  
+
+【反意語】
+
+・release  
+定義: 拘束・収容されている人や動物を自由にする。  
+頻度: 〈8/10〉  
+違い: 閉鎖場所内にとどめる confine に対し、そこから出ることを許す方向の対立をなす。  
+例: The authorities released the detainees the next morning.  
+訳: 当局は翌朝、被拘束者たちを解放した。  
+
+・free  
+定義: 束縛、監禁、拘束などから自由にする。  
+頻度: 〈8/10〉  
+違い: confine が移動の自由を奪うのに対し、free はその拘束自体を取り除く。release より広く、物理的・制度的・比喩的拘束に使える。  
+例: The rescue team freed the animals from the locked shed.  
+訳: 救助隊は鍵のかかった小屋から動物たちを解放した。  
+
+3. 【他動詞・通常受動】～を寝床・自宅などにとどめる
+
+【日本語訳・定義】病気、けが、身体状態などが原因で、人がベッド、自宅、病室など限られた場所から動けない、または外出できない状態にする。原因を主語にする能動文と、本人を主語にした be confined to の形がある。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】一般語・医療関連。病状や回復期間を述べるやや硬い表現。  
+
+【文法パターン】〈病気・けが・身体状態〉 confine someone to 〈bed/home/a room〉＝病気などが人を～から動けない状態にする／someone be confined to bed/home＝人が病気などで寝床・自宅から動けない／someone be confined to bed with 〈病気〉＝病気により寝床にとどまっている  
+
+【コロケーション】
+
+・be confined to bed  
+用途: 病気やけがのため起きて普段どおり活動できず、寝床にとどまる。  
+例: She was confined to bed for a week with a severe infection.  
+訳: 彼女は重い感染症のため1週間、寝床から起きられなかった。  
+
+・be confined to one's home  
+用途: 健康上の理由などで外出できず、自宅にとどまる。  
+例: After the operation, he was confined to his home for several days.  
+訳: 手術後、彼は数日間、自宅から出られなかった。  
+
+・〈病気・けが〉 confine someone to 〈場所〉  
+用途: 病気やけがを原因として、人の行動範囲が特定の場所に限られることを表す。  
+例: A knee injury confined her to the apartment for most of the winter.  
+訳: 膝のけがのため、彼女は冬の大半をアパートから出られずに過ごした。  
+
+・be temporarily confined to 〈場所〉  
+用途: 限られた期間だけ、健康上の理由で一定の場所にとどまることを表す。  
+例: He is temporarily confined to his room by complications from the operation.  
+訳: 彼は手術の合併症のため、一時的に自室から出られない状態にある。  
+
+【語法・注意】be confined to a wheelchair は従来から見られる表現だが、車いすを人を閉じ込める物として否定的に描くため、不快・不適切と受け取られることがある。単に移動手段を述べるなら use a wheelchair または be a wheelchair user を用いる。be confined to bed は病気などで起きられない状態を表し、単にベッドで休む choose to stay in bed とは異なる。  
+
+【類義語】
+
+・be bedridden  
+定義: 病気、けが、高齢などで寝床から離れられない状態にある。  
+頻度: 〈5/10〉  
+違い: be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。  
+例: He was bedridden for months after the stroke.  
+訳: 彼は脳卒中の後、何か月も寝たきりだった。  
+
+・be housebound  
+定義: 身体状態などのため自宅から外出することが難しい。  
+頻度: 〈4/10〉  
+違い: be housebound は自宅の外へ出にくい状態そのものを表す。be confined to one's home は原因によって行動範囲が自宅内に限られたことを描く。  
+例: The service delivers meals to older people who are housebound.  
+訳: そのサービスは外出困難な高齢者に食事を届ける。  
+
+・be restricted to 〈場所・活動〉  
+定義: 許可や身体状態などにより、場所・活動の範囲が限られている。  
+頻度: 〈7/10〉  
+違い: be restricted to は原因を問わない中立的な制限表現である。be confined to は移動できない、または外へ出られないという強い制約を示しやすい。  
+例: During recovery, she was restricted to light indoor activities.  
+訳: 回復中、彼女の活動は屋内での軽いものに限られた。  
+
+4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた
+
+【日本語訳・定義】confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。  
+
+【頻度】〈6/10〉  
+
+【レジスター/領域】一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。  
+
+【文法パターン】a confined 〈space/area/place〉＝狭く囲まれた空間・区域／in confined 〈conditions/quarters〉＝狭く限られた環境で  
+
+【コロケーション】
+
+・a confined space  
+用途: 壁や境界に囲まれ、動きや出入りが制限されやすい空間を表す。  
+例: The machine should not be operated in a confined space without adequate ventilation.  
+訳: その機械は、十分な換気のない閉鎖空間で作動させるべきではない。  
+
+・in confined quarters  
+用途: 人が動ける余地の少ない狭い居住・作業場所にいることを表す。  
+例: The crew lived in confined quarters during the voyage.  
+訳: 乗組員は航海中、狭い居住区で暮らした。  
+
+・work in confined conditions  
+用途: 動作や移動の余地が限られた環境で作業する。  
+例: The technicians had to work in confined conditions beneath the stage.  
+訳: 技術者たちは舞台の下の狭い環境で作業しなければならなかった。  
+
+・a confined interior  
+用途: 内部が囲まれて狭く、動ける余地が少ないことを表す。  
+例: The vehicle has a confined interior with little room to move.  
+訳: その車両の内部は狭く、動ける余地がほとんどない。  
+
+【語法・注意】confined space は一般には狭く囲まれた空間を表す。米国 OSHA の労働安全上の定義では、出入りが制限され、継続的な在室を目的に設計されていないことなども要件になるため、小さい部屋がすべて専門上の confined space になるわけではない。be confined to 〈場所・範囲〉は動詞 confine の受動形で「～に限定・拘束されている」、a confined space は形容詞 confined が名詞を修飾して「狭く囲まれた空間」である。  
+
+【類義語】
+
+・enclosed  
+定義: 壁、柵、覆いなどによって周囲を囲まれた。  
+頻度: 〈7/10〉  
+違い: enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。  
+例: The garden is surrounded by an enclosed walkway.  
+訳: その庭は囲われた通路に取り囲まれている。  
+
+・cramped  
+定義: 人や物に対して利用できる空間が足りず、窮屈な。  
+頻度: 〈6/10〉  
+違い: cramped は狭さによる不快さを直接強調する。confined は境界に囲まれ、動きが制限される構造に焦点がある。  
+例: Four people shared a cramped cabin.  
+訳: 4人が窮屈な船室を共有した。  
+
+・restricted  
+定義: 利用、移動、範囲などが制限された。  
+頻度: 〈7/10〉  
+違い: restricted は規則や条件による抽象的制限にも広く使う。confined は特に空間的な閉鎖性を示しやすい。  
+例: The equipment operates in a restricted area.  
+訳: その装置は立ち入り制限区域で稼働している。  
+
+【反意語】
+
+・spacious  
+定義: 人や物がゆったり動ける十分な空間がある。  
+頻度: 〈7/10〉  
+違い: 動ける余地が少ない confined と、空間に十分な余裕がある spacious は広さ・窮屈さの軸で対立する。  
+例: The new cabin is bright and spacious.  
+訳: 新しい船室は明るく広々としている。  
+
+・open  
+定義: 閉鎖されず、周囲や上部が広く開けている。  
+頻度: 〈9/10〉  
+違い: 境界に囲まれた confined に対し、open は閉鎖性が少なく外へ開かれた状態を表す。文脈によっては広さではなく出入り可能性の対立になる。  
+例: We moved the meeting to an open area outside.  
+訳: 私たちは会議を屋外の開けた場所に移した。  
+
+5. 【現在分詞由来の形容詞 confining】窮屈な、自由を制限する
+
+【日本語訳・定義】環境、規則、衣服、生活様式などが、人の自由な動き、行動、選択を制限し、窮屈さや圧迫感を感じさせることを表す。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】一般語。物理的な動きの制限にも、環境や生活による心理的・社会的な制約にも使う。  
+
+【文法パターン】a confining 〈environment/space/routine〉＝自由を制限する環境・空間・生活／confining 〈clothes/footwear〉＝動きにくい窮屈な衣服・履物／find 〈場所・生活〉 confining＝場所・生活を窮屈だと感じる  
+
+【コロケーション】
+
+・confine の形容詞形 confining: a confining environment  
+用途: 行動や選択の自由が制限され、窮屈に感じられる環境を表す。  
+例: A confining environment can reduce employees' sense of autonomy.  
+訳: 自由を制限する環境は、従業員の自律性の感覚を弱めることがある。  
+
+・confine の形容詞形 confining: confining clothes  
+用途: 体の動きを制限する窮屈な衣服を表す。  
+例: He changed out of his confining formal clothes after the ceremony.  
+訳: 彼は式の後、動きにくい礼服から着替えた。  
+
+・confine の形容詞形 confining: a confining routine  
+用途: 行動や生活の選択肢を狭める決まり切った生活を表す。  
+例: A confining routine left him little time to explore new interests.  
+訳: 自由を制限する決まり切った生活のため、彼には新しい関心事を探る時間がほとんどなかった。  
+
+・confine の形容詞形 confining: find 〈場所・生活〉 confining  
+用途: 場所や生活環境が自分の自由を制限して窮屈だと感じることを表す。  
+例: She found the highly regulated workplace confining.  
+訳: 彼女は規則の多いその職場を窮屈だと感じた。  
+
+【語法・注意】confined は「制限された側の状態」を、confining は「人の自由や動きを制限する側の性質」を表す。したがって a confined space は「狭く囲まれた空間」、a confining space は「人を窮屈に感じさせる空間」という焦点の違いがある。confining は動詞 confine の進行形・分詞として使われる場合もあるため、文中で名詞の性質を表しているか、動作を表しているかを文脈で判断する。  
+
+【類義語】
+
+・restrictive  
+定義: 行動、選択、利用などに制限を課す。  
+頻度: 〈6/10〉  
+違い: restrictive は規則や条件による制限にも広く使う。confining は制限による窮屈さや閉塞感を含みやすい。  
+例: The new dress code is unnecessarily restrictive.  
+訳: 新しい服装規定は不必要に制限が厳しい。  
+
+・oppressive  
+定義: 強い支配や圧力によって人を苦しめる、息苦しい。  
+頻度: 〈6/10〉  
+違い: oppressive は苦痛や不当な抑圧を強く示す。confining は自由や行動範囲が狭められることに焦点がある。  
+例: Employees complained about the oppressive working conditions.  
+訳: 従業員は抑圧的な労働環境に不満を訴えた。  
+
+【反意語】
+
+・liberating  
+定義: 制約から解放し、自由になったと感じさせる。  
+頻度: 〈5/10〉  
+違い: 自由や選択を狭める confining に対し、liberating は制約を取り除いて自由を感じさせる。  
+例: She found the move to a new city liberating.  
+訳: 彼女は新しい都市への引っ越しを解放的だと感じた。  
+
+6. 【名詞・通常複数・格式／文学的】境界、範囲、領域
+
+【日本語訳・定義】通常 confines の形で、場所・組織・分野などの外縁をなす境界、またはその境界に囲まれた内部の領域を表す。  
+
+【頻度】〈4/10〉  
+
+【レジスター/領域】格式的・文学的。within/beyond/outside the confines of の形で、抽象的・物理的な範囲を述べる文章に使われる。  
+
+【文法パターン】within the confines of 〈場所・制度・分野〉＝～の範囲内で／beyond the confines of 〈場所・制度・分野〉＝～の境界を越えて／outside the confines of 〈場所・制度・分野〉＝～の範囲外で／the narrow confines of 〈場所・枠組み〉＝～という狭い範囲  
+
+【コロケーション】
+
+・within the confines of 〈場所・制度〉  
+用途: 物理的または制度的な境界の内側にあることを表す。  
+例: The negotiations took place within the confines of the embassy.  
+訳: 交渉は大使館の敷地内で行われた。  
+
+・beyond the confines of 〈場所・分野〉  
+用途: 場所や分野の既存の境界を越えて及ぶことを表す。  
+例: Her influence extended far beyond the confines of the university.  
+訳: 彼女の影響力は大学の枠をはるかに越えて広がった。  
+
+・outside the confines of 〈制度・枠組み〉  
+用途: 制度や枠組みが定める範囲の外側にあることを表す。  
+例: The group continued its work outside the confines of the formal organization.  
+訳: そのグループは正式な組織の枠外でも活動を続けた。  
+
+・the narrow confines of 〈場所・枠組み〉  
+用途: 物理的・抽象的な範囲が狭く、制約的であることを強調する。  
+例: The story moves beyond the narrow confines of a family dispute.  
+訳: その物語は家族間の争いという狭い枠を越えて展開する。  
+
+【語法・注意】名詞では動詞と強勢位置が異なる。現代英語では通常 the confines of ... の複数形で使い、単数の a confine はまれである。confines は「境界線」そのものと「境界に囲まれた領域」の両方を表し得るため、within the confines of the park は通常「公園の区域内」、beyond the confines of the law は比喩的に「法の枠を越えて」と理解する。  
+
+【類義語】
+
+・bounds  
+定義: 許容範囲、領域、行動などの境界・限界。  
+頻度: 〈6/10〉  
+違い: bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。  
+例: The proposal falls outside the bounds of the agreement.  
+訳: その提案は合意の範囲外である。  
+
+・limits  
+定義: 範囲、能力、権限などがそれ以上及ばない境界。  
+頻度: 〈8/10〉  
+違い: limits は最も一般的で、数量的な上限にも使える。confines は場所・制度・分野を囲む境界や領域を表す格式的な語である。  
+例: The plan remains within the limits of the current budget.  
+訳: その計画は現在の予算の範囲内に収まっている。  
+
+・boundaries  
+定義: 場所、分野、関係などを内外に分ける境界。  
+頻度: 〈7/10〉  
+違い: boundaries は境界線や区分そのものに焦点がある。confines はその線で囲まれた範囲を含めて指すことがある。  
+例: The research crosses traditional disciplinary boundaries.  
+訳: その研究は従来の学問分野の境界を越えている。

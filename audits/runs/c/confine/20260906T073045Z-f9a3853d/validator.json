@@ -1,0 +1,18 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/c/confine.md",
+  "input_body_sha256": "262b2e492890cf2d4d7112ac806acf3d9a664cf3a5e3ed7beba313ba13c64ed2",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 37: grammar frame could not be classified: be confined to 〈範囲・場所・集団〉＝～に限られている",
+    "line 115: grammar frame could not be classified: be confined in 〈施設・部屋〉＝～に収容・拘束されている",
+    "line 115: grammar frame could not be classified: be confined to quarters＝兵舎・自室待機を命じられている",
+    "line 188: grammar frame could not be classified: someone be confined to bed/home＝人が病気などで寝床・自宅から動けない",
+    "line 188: grammar frame could not be classified: someone be confined to 〈場所〉 with/by 〈病気・けが〉＝病気・けがにより～にとどまっている"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-09-06T07:40:00Z"
+}

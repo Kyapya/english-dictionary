@@ -1,0 +1,58 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "blind_request_sha256": "72a6cd30b60b9832872316f5271f5f45527435e47dc14b90b0cc7c34052295f8",
+  "recorded_at": "2026-09-06T12:38:17.296277+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-r2-frame-reviewer",
+    "same_model_as_generation": true
+  },
+  "axes": [
+    {
+      "item_id": "ant-3b54469f1e25",
+      "axis": "自由",
+      "relation_type": "方向",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-5c13f3df07ec",
+      "axis": "範囲",
+      "relation_type": "方向",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-2ff0cbbd0f84",
+      "axis": "拘束",
+      "relation_type": "方向",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-cd0cd6b18ff8",
+      "axis": "広さ",
+      "relation_type": "程度",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-c0dc5dadb561",
+      "axis": "開放性",
+      "relation_type": "状態",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-7700f7ce4e98",
+      "axis": "拘束",
+      "relation_type": "方向",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-feae1bb49aaa",
+      "axis": "範囲",
+      "relation_type": "方向",
+      "reason": ""
+    }
+  ]
+}

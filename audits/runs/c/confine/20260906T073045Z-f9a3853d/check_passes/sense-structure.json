@@ -1,0 +1,31 @@
+{
+  "schema_version": "check_pass_result_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-r2-sense-reviewer",
+    "same_model_as_generation": true
+  },
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "9b6913fd5daf94dd94643957e6fbafe10479726b6dba92ba1b2f77181b5e07d7",
+  "normalized_input_sha256": "bb4c9b648b2cd53a792fa52d2b969e35749913787a8dc2a4e4e93fb9ed58a29b",
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 156,
+        "line_end": 156,
+        "exact_quote": "【語法・注意】この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。within は壁・境界・区域の内側に収めることを明示し、confine A within B と A be confined within B の両方で使える。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2の見出しと定義は対象を「人・動物」に限定しているが、同じ語義の文法パターンは confine someone/something within として物も含め、コロケーションも「人・物」を対象にしている。一方、語義1には物質・作用を区域内に保つ用法がすでに収録されているため、物理的な物の封じ込めが語義1と語義2の双方にまたがり、どちらへ帰属するか一貫しない。対象物の種類だけで語義を分ける形にもなっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "抽象的な話題・活動・影響などの範囲限定を語義1、物理的な境界内への人・動物・物の封じ込めを語義2として切り分け、物質・作用の文法パターンと例を語義2へ移す。別の境界を採る場合も、語義2の見出し・定義・文法パターン・コロケーションの対象範囲を一致させる。",
+      "id": "NR-sense-structure-1"
+    }
+  ]
+}

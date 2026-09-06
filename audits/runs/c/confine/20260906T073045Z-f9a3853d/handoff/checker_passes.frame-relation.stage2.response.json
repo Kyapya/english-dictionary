@@ -1,0 +1,86 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "262b2e492890cf2d4d7112ac806acf3d9a664cf3a5e3ed7beba313ba13c64ed2",
+  "stage2_request_sha256": "9c271a2927626af8d177246c62e46c8fd6b866b6b1c8327b2f1c60de3d66fc5d",
+  "blind_record_sha256": "6720b8ad129a6d66692d8cc6e740190fc5e12648893d23a0a7b87d0baf520233",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-frame-agent"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-feae1bb49aaa",
+      "flags": [],
+      "rationale": "語義1は対象を一定の範囲内に限定することを中心義とし、broaden は同じ範囲軸で外側へ広げる逆方向の変化を表す。違い行も対立を否定・限定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-5c13f3df07ec",
+      "flags": [],
+      "rationale": "語義1の到達・適用範囲を内側に止める confine と、範囲を先まで広げる extend は範囲軸上の方向対立である。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7700f7ce4e98",
+      "flags": [],
+      "rationale": "語義2は人・動物を拘束状態に置くことを表し、release はその拘束から外へ出ることを許すため、拘束軸上の方向対立になる。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-2ff0cbbd0f84",
+      "flags": [],
+      "rationale": "語義2の confine は移動の自由を奪って拘束し、free はその拘束を除くので、拘束軸上の方向対立として成立する。適用範囲の広さに関する補足は対立自体を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-cd0cd6b18ff8",
+      "flags": [],
+      "rationale": "語義4は空間が狭く動ける余地が少ないことを含み、spacious は十分な余地を表すため、広さ軸上の程度対立になる。違い行に自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-c0dc5dadb561",
+      "flags": [],
+      "rationale": "語義4は壁や境界による閉鎖性を明示し、open は閉鎖されず外へ開かれた状態を表すため、開放性軸上の状態対立になる。出入り可能性にも関わるという違い行の補足は、この対立を否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 126,
+        "line_end": 126,
+        "exact_quote": "【文法パターン】confine someone/something in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める／confine someone/something to 〈場所〉＝人・動物を～から出られないようにする／be confined in 〈施設・部屋〉＝～に収容・拘束されている／be confined to quarters＝兵舎・自室待機を命じられている  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2は対象を人・動物に限定し、右辺の説明と全コロケーションも人・動物だけを実現しているのに、二つの能動フレームが something を許して無生物対象まで同語義に取り込んでいる。物質・作用の物理的封じ込めは語義1に置かれており、slot の意味役割と語義区分が一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2の目的語slotを someone/an animal に限定し、無生物を許すフレームは該当語義へ分離して完全フレーム化する。"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 168,
+        "line_end": 171,
+        "exact_quote": "・enclose  \n定義: 物や場所の周囲を囲い、その内側に収める。  \n頻度: 〈6/10〉  \n違い: enclose は囲いを作ることに焦点があり、対象の自由を奪う含みは必須ではない。confine は外へ出られないという制限を前面に出す。  "
+      },
+      "severity": "blocking",
+      "rationale": "この語義の confine は人・動物の移動の自由を奪うことが中心だが、提示された enclose の定義は物や場所を囲うことを中心とし、違い行も自由を奪う含みが必須でないと認めている。中心義が十分に重ならず、拘束の手段として関連する語を類義語扱いしている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    }
+  ],
+  "unrouted_observations": []
+}
