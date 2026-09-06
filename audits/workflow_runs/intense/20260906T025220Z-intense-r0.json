@@ -17,12 +17,12 @@
     "research_queries": 8,
     "candidate_pages": 14
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-05T15:26:53Z",
   "deadline_at": "2026-09-05T16:56:53Z",
   "pre_draft_deadline_at": "2026-09-05T15:56:53Z",
-  "last_heartbeat_at": "2026-09-06T03:16:30Z",
+  "last_heartbeat_at": "2026-09-06T03:19:00Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-06T02:52:34Z",
@@ -63,6 +63,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-06T03:16:30Z",
       "notes": "final blind output sealed before final reconciliation"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-06T03:18:00Z",
+      "notes": "independent final adjudication passed all targets, relations, evidence and source unions"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-06T03:19:00Z",
+      "notes": "status synchronized after final pass"
     }
   ],
   "stop_reason": "",
@@ -457,8 +467,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 14,
-    "total_duration_seconds": 660,
-    "completed_at": "",
+    "total_duration_seconds": 1600,
+    "completed_at": "2026-09-06T03:19:00Z",
     "stages": [
       {
         "id": "guard_start",
@@ -530,7 +540,7 @@
         "duration_seconds": 5,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
@@ -539,7 +549,7 @@
         "duration_seconds": 120,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
@@ -548,7 +558,7 @@
         "duration_seconds": 1,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
@@ -557,7 +567,7 @@
         "duration_seconds": 3,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -656,7 +666,7 @@
     ]
   },
   "orchestrator_state": {
-    "next_stage_index": 7,
+    "next_stage_index": 11,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -664,7 +674,11 @@
       "checker_passes",
       "cold_review",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "finding_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [

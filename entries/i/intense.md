@@ -1,12 +1,12 @@
 ---
 headword: intense  
 type: word  
-status: review_ready  
+status: checked  
 prompt_version: entry_spec_v5  
 model: gpt-5.6-luna-wm  
 created_at: 2026-09-06  
 updated_at: 2026-09-06  
-checked: false  
+checked: true  
 tags: []  
 ---
 
