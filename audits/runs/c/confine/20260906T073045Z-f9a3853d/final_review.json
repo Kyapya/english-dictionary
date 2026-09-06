@@ -1,0 +1,1663 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-confine-20260906T073045Z-f9a3853d",
+  "context_id": "blind-confine-context-20260906T073045Z-f9a3853d",
+  "input_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc",
+  "prompt_sha256": "af6ad4a77bbe63f6ace93a9080d138fa63efc2d40b6490cdd3bc70756783102a",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "097da746c24849b2a1acaea037e3d8c5d4acd563587ed84d43dbced59660a850",
+  "reviewer": {
+    "agent_id": "confine-stable-final-review-r3",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human",
+    "same_model_as_generation": true
+  },
+  "generation": {
+    "model": "gpt-5"
+  },
+  "recorded_at": "2026-09-06T13:50:51.757395+00:00",
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:4: 動詞は米・英: /kənˈfaɪn/。2音節で第2音節に主強勢があり、第1音節の母音は弱い /ə/ になる。低頻度の名詞は、米: /ˈkɑːnfaɪn/｜英: /ˈkɒnfaɪn/ で、第1音節に主強勢が移り、第1音節の母音にも米英差がある。"
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:8: 動詞は中期フランス語 confiner「境を接する、限界内にとどめる」から英語に入り、さらにラテン語 confinis「境を接する」にさかのぼる。con-「共に」と finis「境界、終わり」が結び付いた語で、「境界を共有する・隣接する」という古い意味から、境界を定めてその内側にとどめる現代の「範囲を限る」「閉じ込める」へ発達した。"
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:12: ・confinement（名詞）— 閉じ込めること、閉じ込められた状態、拘禁。"
+    },
+    {
+      "id": "word_formation:002",
+      "target_id": "word_formation:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:13: ・confined（形容詞）— 狭く囲まれた、限られた。単なる過去分詞としての受動用法と、confined space のような形容詞用法がある。"
+    },
+    {
+      "id": "word_formation:003",
+      "target_id": "word_formation:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:14: ・confining（形容詞・現在分詞）— 現在分詞のほか、自由な動きや行動を制限して窮屈に感じさせるものを表す形容詞として使う。"
+    },
+    {
+      "id": "word_formation:004",
+      "target_id": "word_formation:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:15: ・unconfined（形容詞）— 閉じ込められていない、境界内に制限されていない。"
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:19: 人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined では制限された結果の状態を、confining では自由や行動を制限する性質を、名詞では境界または境界に囲まれた領域を表す。"
+    },
+    {
+      "id": "core_image:002",
+      "target_id": "core_image:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:21: ・対象の範囲を一定の境界内にとどめる → 「～を…に限る、限定する」（語義1）"
+    },
+    {
+      "id": "core_image:003",
+      "target_id": "core_image:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:22: ・人・動物・物質などを一定の場所や区域から出ないようにする → 「閉じ込める、拘束する」（語義2）"
+    },
+    {
+      "id": "core_image:004",
+      "target_id": "core_image:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:23: ・病気やけがで生活場所を狭い範囲にとどめる → 「～を寝床・自宅などにとどめる」（語義3）"
+    },
+    {
+      "id": "core_image:005",
+      "target_id": "core_image:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:24: ・空間や区域が狭い境界内に収まった状態 → 「狭く囲まれた、限られた」（語義4）"
+    },
+    {
+      "id": "core_image:006",
+      "target_id": "core_image:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:25: ・物や環境が人の自由や行動を制限する性質 → 「窮屈な、自由を制限する」（語義5）"
+    },
+    {
+      "id": "core_image:007",
+      "target_id": "core_image:007",
+      "status": "pass",
+      "notes": "Verified exact current target at line:26: ・内外を分けて範囲を画する境界 → 「境界、範囲、領域」（語義6）"
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:30: 1. 【他動詞】～を…に限る、限定する"
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:32: 話題、活動、作業、影響、現象などが及ぶ抽象的な範囲を、特定の対象、期間、分野などに限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。"
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:34: 〈8/10〉"
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:36: 一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:38: confine 〈話題・活動・影響・検討〉 to 〈対象・期間・分野・範囲〉＝話題などを～の範囲内に限る"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:38: confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "target_id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:38: 〈問題・特徴・現象〉 be confined to 〈地域・集団・期間〉＝問題などが～だけに限られている"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "target_id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:38: confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る"
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:42-45: ・confine the discussion to 〈話題〉\n用途: 議論で扱う範囲を特定の話題に限定する。\n例: Please confine the discussion to the issues on today's agenda.\n訳: 議論は本日の議題にある問題だけに絞ってください。"
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:47-50: ・confine one's remarks to 〈対象〉\n用途: 発言する内容を特定の対象に限る。\n例: She confined her remarks to the financial risks of the proposal.\n訳: 彼女は発言をその提案の財務上のリスクに限定した。"
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:52-55: ・confine oneself to 〈名詞・doing〉\n用途: 自分が扱う話題や行う活動を意識的に一つの範囲へ絞る。\n例: In this chapter, I will confine myself to examining the short-term effects.\n訳: この章では、短期的な影響の検討だけに対象を絞る。"
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:57-60: ・be confined to 〈場所・集団〉\n用途: 問題、特徴、現象などが特定の場所や集団だけに見られることを表す。\n例: The shortage is not confined to rural areas.\n訳: その不足は農村部だけに限られた問題ではない。"
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "Verified exact current target at line:62: 基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ人・動物・物質などを物理的に閉じ込める用法は語義2で扱う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。"
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:66-71: ・limit\n定義: 数量、範囲、程度、時間などに限度を設ける。\n頻度: 〈9/10〉\n違い: limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。\n例: The policy limits each application to two pages.\n訳: その方針では各申請書を2ページまでに制限している。"
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:73-78: ・restrict\n定義: 規則、条件、権限などによって範囲や自由を制限する。\n頻度: 〈8/10〉\n違い: restrict は許可・利用・行動への制約を広く表す。confine A to B は、AがBの外へ及ばないという境界を特に示す。\n例: Access is restricted to authorized staff.\n訳: 立ち入りは権限のある職員に制限されている。"
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:80-85: ・circumscribe\n定義: 活動、権限、可能性などの範囲を狭く限定する。\n頻度: 〈3/10〉\n違い: circumscribe は非常に硬い語で、抽象的な権限・選択肢・行動範囲が制約される文脈に多い。confine の方が一般的で、具体的な場所にも使える。\n例: The constitution circumscribes the powers of the executive.\n訳: 憲法は行政府の権限の範囲を限定している。"
+    },
+    {
+      "id": "antonym:001",
+      "target_id": "antonym:001",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:89-94: ・broaden\n定義: 話題、活動、対象などの範囲を広げる。\n頻度: 〈7/10〉\n違い: 範囲を狭く限定する confine と、同じ範囲軸上で外側へ広げる方向の対立をなす。\n例: The committee broadened the inquiry to include safety concerns.\n訳: 委員会は安全上の懸念も含めるよう調査範囲を広げた。"
+    },
+    {
+      "id": "antonym:002",
+      "target_id": "antonym:002",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:96-101: ・extend\n定義: 対象となる範囲、期間、適用先などをさらに先まで広げる。\n頻度: 〈8/10〉\n違い: confine A to B がAの到達範囲をB内に止めるのに対し、extend A to B はAの到達範囲をBまで広げる。\n例: The program was extended to smaller communities.\n訳: その制度はより小さな地域にも拡大された。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:103: 2. 【他動詞・通常受動】人・動物・物質などを閉じ込める、拘束する"
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:105: 人や動物を部屋、施設、囲い、刑務所などから出られないようにする。また、物質、熱、火、プラズマなどが物理的な境界の外へ移動・拡散しないように保つ。物理的な障壁、命令、拘禁、装置の作用などによる移動の制限を表す。"
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:107: 〈7/10〉"
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:109: 一般語。ニュース、法律・刑事、軍事、動物管理のほか、物質やエネルギーを一定領域内に保つ科学・技術の説明でも使われる。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "target_id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:111: confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "target_id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:111: confine someone/something within 〈境界・区域〉＝人・動物・物を～の境界内にとどめる"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "target_id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Verified exact current target at line:111: confine someone/something to 〈場所・区域〉＝人・動物・物を～から出ないようにする"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "target_id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Verified exact current target at line:111: be confined in 〈施設・部屋〉＝～に収容・拘束されている"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "target_id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Verified exact current target at line:111: someone/something be confined within 〈境界・区域〉＝人・動物・物が～の境界内に閉じ込められている"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "target_id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Verified exact current target at line:111: be confined to quarters＝兵舎・自室待機を命じられている"
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:115-118: ・confine someone in a cell\n用途: 人を独房などの閉鎖された空間から出られないようにする。\n例: The prisoner was confined in a windowless cell for several days.\n訳: その囚人は数日間、窓のない独房に拘禁された。"
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:120-123: ・confine an animal to 〈囲い・ケージ〉\n用途: 動物が指定された囲いの外へ出ないようにする。\n例: The injured bird was temporarily confined to a large enclosure.\n訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。"
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:125-128: ・confine 〈人・動物・物〉 within 〈境界・区域〉\n用途: 明示された境界や区域の内側から人・動物・物が出ないようにする。\n例: The barrier confines the cattle within a designated area.\n訳: その柵は牛を指定区域内にとどめている。"
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:130-133: ・confine 〈物質・作用〉 to 〈区域・装置〉\n用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。\n例: The magnetic field confines the plasma to the center of the chamber.\n訳: その磁場はプラズマを容器の中心部に閉じ込める。"
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:135-138: ・keep 〈人・動物〉 confined\n用途: 人や動物を外へ出られない状態に保つ。\n例: The order kept the soldiers confined to their barracks overnight.\n訳: その命令により兵士たちは一晩、兵舎から出られなかった。"
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:140-143: ・be confined to quarters\n用途: 軍人などが処罰・命令により兵舎や指定場所から出ないよう命じられた状態を表す。\n例: He was confined to quarters for disobeying the order.\n訳: 彼は命令に従わなかったため、兵舎待機を命じられた。"
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "Verified exact current target at line:145: この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。within は壁・境界・区域の内側に収めることを明示し、confine A within B と A be confined within B の両方で使える。人・動物では外へ出る自由の制限に焦点があり、物質や作用では境界外への移動・拡散を防ぐことに焦点がある。"
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:149-154: ・imprison\n定義: 人を刑務所などに入れて自由を奪う。\n頻度: 〈6/10〉\n違い: imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。\n例: The regime imprisoned several opposition leaders.\n訳: その政権は複数の反対派指導者を投獄した。"
+    },
+    {
+      "id": "synonym:005",
+      "target_id": "synonym:005",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:156-161: ・detain\n定義: 当局などが人を一定時間引き留め、立ち去れないようにする。\n頻度: 〈7/10〉\n違い: detain は一時的な身柄拘束や事情聴取のための留置に焦点がある。confine は場所の境界内に置かれる状態を強く示す。\n例: Police detained the suspect for questioning.\n訳: 警察は事情聴取のため容疑者を拘束した。"
+    },
+    {
+      "id": "antonym:003",
+      "target_id": "antonym:003",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:165-170: ・release\n定義: 拘束・収容されている人や動物を自由にする。\n頻度: 〈8/10〉\n違い: 閉鎖場所内にとどめる confine に対し、そこから出ることを許す方向の対立をなす。\n例: The authorities released the detainees the next morning.\n訳: 当局は翌朝、被拘束者たちを解放した。"
+    },
+    {
+      "id": "antonym:004",
+      "target_id": "antonym:004",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:172-177: ・free\n定義: 束縛、監禁、拘束などから自由にする。\n頻度: 〈8/10〉\n違い: confine が移動の自由を奪うのに対し、free はその拘束自体を取り除く。release より広く、物理的・制度的・比喩的拘束に使える。\n例: The rescue team freed the animals from the locked shed.\n訳: 救助隊は鍵のかかった小屋から動物たちを解放した。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "target_id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:179: 3. 【他動詞・通常受動】～を寝床・自宅などにとどめる"
+    },
+    {
+      "id": "definition:003",
+      "target_id": "definition:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:181: 病気、けが、身体状態などが原因で、人がベッド、自宅、病室など限られた場所から動けない、または外出できない状態にする。原因を主語にする能動文と、本人を主語にした be confined to の形がある。"
+    },
+    {
+      "id": "frequency:003",
+      "target_id": "frequency:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:183: 〈6/10〉"
+    },
+    {
+      "id": "register:003",
+      "target_id": "register:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:185: 一般語・医療関連。病状や回復期間を述べるやや硬い表現。"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "target_id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Verified exact current target at line:187: 〈病気・けが・身体状態〉 confine someone to 〈bed/home/a room〉＝病気などが人を～から動けない状態にする"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "target_id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Verified exact current target at line:187: someone be confined to bed/home＝人が病気などで寝床・自宅から動けない"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "target_id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Verified exact current target at line:187: someone be confined to bed with 〈病気〉＝病気により寝床にとどまっている"
+    },
+    {
+      "id": "collocation:011",
+      "target_id": "collocation:011",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:191-194: ・be confined to bed\n用途: 病気やけがのため起きて普段どおり活動できず、寝床にとどまる。\n例: She was confined to bed for a week with a severe infection.\n訳: 彼女は重い感染症のため1週間、寝床から起きられなかった。"
+    },
+    {
+      "id": "collocation:012",
+      "target_id": "collocation:012",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:196-199: ・be confined to one's home\n用途: 健康上の理由などで外出できず、自宅にとどまる。\n例: After the operation, he was confined to his home for several days.\n訳: 手術後、彼は数日間、自宅から出られなかった。"
+    },
+    {
+      "id": "collocation:013",
+      "target_id": "collocation:013",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:201-204: ・〈病気・けが〉 confine someone to 〈場所〉\n用途: 病気やけがを原因として、人の行動範囲が特定の場所に限られることを表す。\n例: A knee injury confined her to the apartment for most of the winter.\n訳: 膝のけがのため、彼女は冬の大半をアパートから出られずに過ごした。"
+    },
+    {
+      "id": "collocation:014",
+      "target_id": "collocation:014",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:206-209: ・be temporarily confined to 〈場所〉\n用途: 限られた期間だけ、健康上の理由で一定の場所にとどまることを表す。\n例: He is temporarily confined to his room by complications from the operation.\n訳: 彼は手術の合併症のため、一時的に自室から出られない状態にある。"
+    },
+    {
+      "id": "usage_note:003",
+      "target_id": "usage_note:003",
+      "status": "pass",
+      "notes": "Verified exact current target at line:211: be confined to a wheelchair は従来から見られる表現だが、車いすを人を閉じ込める物として否定的に描くため、不快・不適切と受け取られることがある。単に移動手段を述べるなら use a wheelchair または be a wheelchair user を用いる。be confined to bed は病気などで起きられない状態を表し、単にベッドで休む choose to stay in bed とは異なる。"
+    },
+    {
+      "id": "synonym:006",
+      "target_id": "synonym:006",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:215-220: ・be bedridden\n定義: 病気、けが、高齢などで寝床から離れられない状態にある。\n頻度: 〈5/10〉\n違い: be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。\n例: He was bedridden for months after the stroke.\n訳: 彼は脳卒中の後、何か月も寝たきりだった。"
+    },
+    {
+      "id": "synonym:007",
+      "target_id": "synonym:007",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:222-227: ・be housebound\n定義: 身体状態などのため自宅から外出することが難しい。\n頻度: 〈4/10〉\n違い: be housebound は自宅の外へ出にくい状態そのものを表す。be confined to one's home は原因によって行動範囲が自宅内に限られたことを描く。\n例: The service delivers meals to older people who are housebound.\n訳: そのサービスは外出困難な高齢者に食事を届ける。"
+    },
+    {
+      "id": "synonym:008",
+      "target_id": "synonym:008",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:229-234: ・be restricted to 〈場所・活動〉\n定義: 許可や身体状態などにより、場所・活動の範囲が限られている。\n頻度: 〈7/10〉\n違い: be restricted to は原因を問わない中立的な制限表現である。be confined to は移動できない、または外へ出られないという強い制約を示しやすい。\n例: During recovery, she was restricted to light indoor activities.\n訳: 回復中、彼女の活動は屋内での軽いものに限られた。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "target_id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:236: 4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+    },
+    {
+      "id": "definition:004",
+      "target_id": "definition:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:238: confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。"
+    },
+    {
+      "id": "frequency:004",
+      "target_id": "frequency:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:240: 〈6/10〉"
+    },
+    {
+      "id": "register:004",
+      "target_id": "register:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:242: 一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "target_id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Verified exact current target at line:244: a confined 〈space/area/place〉＝狭く囲まれた空間・区域"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "target_id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Verified exact current target at line:244: in confined 〈conditions/quarters〉＝狭く限られた環境で"
+    },
+    {
+      "id": "collocation:015",
+      "target_id": "collocation:015",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:248-251: ・a confined space\n用途: 壁や境界に囲まれ、動きや出入りが制限されやすい空間を表す。\n例: The machine should not be operated in a confined space without adequate ventilation.\n訳: その機械は、十分な換気のない閉鎖空間で作動させるべきではない。"
+    },
+    {
+      "id": "collocation:016",
+      "target_id": "collocation:016",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:253-256: ・in confined quarters\n用途: 人が動ける余地の少ない狭い居住・作業場所にいることを表す。\n例: The crew lived in confined quarters during the voyage.\n訳: 乗組員は航海中、狭い居住区で暮らした。"
+    },
+    {
+      "id": "collocation:017",
+      "target_id": "collocation:017",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:258-261: ・work in confined conditions\n用途: 動作や移動の余地が限られた環境で作業する。\n例: The technicians had to work in confined conditions beneath the stage.\n訳: 技術者たちは舞台の下の狭い環境で作業しなければならなかった。"
+    },
+    {
+      "id": "collocation:018",
+      "target_id": "collocation:018",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:263-266: ・a confined interior\n用途: 内部が囲まれて狭く、動ける余地が少ないことを表す。\n例: The vehicle has a confined interior with little room to move.\n訳: その車両の内部は狭く、動ける余地がほとんどない。"
+    },
+    {
+      "id": "usage_note:004",
+      "target_id": "usage_note:004",
+      "status": "pass",
+      "notes": "Verified exact current target at line:268: confined space は一般には狭く囲まれた空間を表す。米国 OSHA の労働安全上の定義では、出入りが制限され、継続的な在室を目的に設計されていないことなども要件になるため、小さい部屋がすべて専門上の confined space になるわけではない。be confined to 〈場所・範囲〉は動詞 confine の受動形で「～に限定・拘束されている」、a confined space は形容詞 confined が名詞を修飾して「狭く囲まれた空間」である。"
+    },
+    {
+      "id": "synonym:009",
+      "target_id": "synonym:009",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:272-277: ・enclosed\n定義: 壁、柵、覆いなどによって周囲を囲まれた。\n頻度: 〈7/10〉\n違い: enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。\n例: The garden is surrounded by an enclosed walkway.\n訳: その庭は囲われた通路に取り囲まれている。"
+    },
+    {
+      "id": "synonym:010",
+      "target_id": "synonym:010",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:279-284: ・cramped\n定義: 人や物に対して利用できる空間が足りず、窮屈な。\n頻度: 〈6/10〉\n違い: cramped は狭さによる不快さを直接強調する。confined は境界に囲まれ、動きが制限される構造に焦点がある。\n例: Four people shared a cramped cabin.\n訳: 4人が窮屈な船室を共有した。"
+    },
+    {
+      "id": "synonym:011",
+      "target_id": "synonym:011",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:286-291: ・restricted\n定義: 利用、移動、範囲などが制限された。\n頻度: 〈7/10〉\n違い: restricted は規則や条件による抽象的制限にも広く使う。confined は特に空間的な閉鎖性を示しやすい。\n例: The equipment operates in a restricted area.\n訳: その装置は立ち入り制限区域で稼働している。"
+    },
+    {
+      "id": "antonym:005",
+      "target_id": "antonym:005",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:295-300: ・spacious\n定義: 人や物がゆったり動ける十分な空間がある。\n頻度: 〈7/10〉\n違い: 動ける余地が少ない confined と、空間に十分な余裕がある spacious は広さ・窮屈さの軸で対立する。\n例: The new cabin is bright and spacious.\n訳: 新しい船室は明るく広々としている。"
+    },
+    {
+      "id": "antonym:006",
+      "target_id": "antonym:006",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:302-307: ・open\n定義: 閉鎖されず、周囲や上部が広く開けている。\n頻度: 〈9/10〉\n違い: 境界に囲まれた confined に対し、open は閉鎖性が少なく外へ開かれた状態を表す。文脈によっては広さではなく出入り可能性の対立になる。\n例: We moved the meeting to an open area outside.\n訳: 私たちは会議を屋外の開けた場所に移した。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "target_id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:309: 5. 【現在分詞由来の形容詞 confining】窮屈な、自由を制限する"
+    },
+    {
+      "id": "definition:005",
+      "target_id": "definition:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:311: 環境、規則、衣服、生活様式などが、人の自由な動き、行動、選択を制限し、窮屈さや圧迫感を感じさせることを表す。"
+    },
+    {
+      "id": "frequency:005",
+      "target_id": "frequency:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:313: 〈4/10〉"
+    },
+    {
+      "id": "register:005",
+      "target_id": "register:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:315: 一般語。物理的な動きの制限にも、環境や生活による心理的・社会的な制約にも使う。"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "target_id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Verified exact current target at line:317: a confining 〈environment/space/routine〉＝自由を制限する環境・空間・生活"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "target_id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Verified exact current target at line:317: confining 〈clothes/footwear〉＝動きにくい窮屈な衣服・履物"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "target_id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "Verified exact current target at line:317: find 〈場所・生活〉 confining＝場所・生活を窮屈だと感じる"
+    },
+    {
+      "id": "collocation:019",
+      "target_id": "collocation:019",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:321-324: ・confine の形容詞形 confining: a confining environment\n用途: 行動や選択の自由が制限され、窮屈に感じられる環境を表す。\n例: A confining environment can reduce employees' sense of autonomy.\n訳: 自由を制限する環境は、従業員の自律性の感覚を弱めることがある。"
+    },
+    {
+      "id": "collocation:020",
+      "target_id": "collocation:020",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:326-329: ・confine の形容詞形 confining: confining clothes\n用途: 体の動きを制限する窮屈な衣服を表す。\n例: He changed out of his confining formal clothes after the ceremony.\n訳: 彼は式の後、動きにくい礼服から着替えた。"
+    },
+    {
+      "id": "collocation:021",
+      "target_id": "collocation:021",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:331-334: ・confine の形容詞形 confining: a confining routine\n用途: 行動や生活の選択肢を狭める決まり切った生活を表す。\n例: A confining routine left him little time to explore new interests.\n訳: 自由を制限する決まり切った生活のため、彼には新しい関心事を探る時間がほとんどなかった。"
+    },
+    {
+      "id": "collocation:022",
+      "target_id": "collocation:022",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:336-339: ・confine の形容詞形 confining: find 〈場所・生活〉 confining\n用途: 場所や生活環境が自分の自由を制限して窮屈だと感じることを表す。\n例: She found the highly regulated workplace confining.\n訳: 彼女は規則の多いその職場を窮屈だと感じた。"
+    },
+    {
+      "id": "usage_note:005",
+      "target_id": "usage_note:005",
+      "status": "pass",
+      "notes": "Verified exact current target at line:341: confined は「制限された側の状態」を、confining は「人の自由や動きを制限する側の性質」を表す。したがって a confined space は「狭く囲まれた空間」、a confining space は「人を窮屈に感じさせる空間」という焦点の違いがある。confining は動詞 confine の進行形・分詞として使われる場合もあるため、文中で名詞の性質を表しているか、動作を表しているかを文脈で判断する。"
+    },
+    {
+      "id": "synonym:012",
+      "target_id": "synonym:012",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:345-350: ・restrictive\n定義: 行動、選択、利用などに制限を課す。\n頻度: 〈6/10〉\n違い: restrictive は規則や条件による制限にも広く使う。confining は制限による窮屈さや閉塞感を含みやすい。\n例: The new dress code is unnecessarily restrictive.\n訳: 新しい服装規定は不必要に制限が厳しい。"
+    },
+    {
+      "id": "synonym:013",
+      "target_id": "synonym:013",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:352-357: ・oppressive\n定義: 強い支配や圧力によって人を苦しめる、息苦しい。\n頻度: 〈6/10〉\n違い: oppressive は苦痛や不当な抑圧を強く示す。confining は自由や行動範囲が狭められることに焦点がある。\n例: Employees complained about the oppressive working conditions.\n訳: 従業員は抑圧的な労働環境に不満を訴えた。"
+    },
+    {
+      "id": "antonym:007",
+      "target_id": "antonym:007",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:361-366: ・liberating\n定義: 制約から解放し、自由になったと感じさせる。\n頻度: 〈5/10〉\n違い: 自由や選択を狭める confining に対し、liberating は制約を取り除いて自由を感じさせる。\n例: She found the move to a new city liberating.\n訳: 彼女は新しい都市への引っ越しを解放的だと感じた。"
+    },
+    {
+      "id": "sense_boundary:006",
+      "target_id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:368: 6. 【名詞・通常複数・格式／文学的】境界、範囲、領域"
+    },
+    {
+      "id": "definition:006",
+      "target_id": "definition:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:370: 通常 confines の形で、場所・組織・分野などの外縁をなす境界、またはその境界に囲まれた内部の領域を表す。"
+    },
+    {
+      "id": "frequency:006",
+      "target_id": "frequency:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:372: 〈4/10〉"
+    },
+    {
+      "id": "register:006",
+      "target_id": "register:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:374: 格式的・文学的。within/beyond/outside the confines of の形で、抽象的・物理的な範囲を述べる文章に使われる。"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "target_id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "Verified exact current target at line:376: within the confines of 〈場所・制度・分野〉＝～の範囲内で"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "target_id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "Verified exact current target at line:376: beyond the confines of 〈場所・制度・分野〉＝～の境界を越えて"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "target_id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "Verified exact current target at line:376: outside the confines of 〈場所・制度・分野〉＝～の範囲外で"
+    },
+    {
+      "id": "grammar_pattern:022",
+      "target_id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "Verified exact current target at line:376: the narrow confines of 〈場所・枠組み〉＝～という狭い範囲"
+    },
+    {
+      "id": "collocation:023",
+      "target_id": "collocation:023",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:380-383: ・within the confines of 〈場所・制度〉\n用途: 物理的または制度的な境界の内側にあることを表す。\n例: The negotiations took place within the confines of the embassy.\n訳: 交渉は大使館の敷地内で行われた。"
+    },
+    {
+      "id": "collocation:024",
+      "target_id": "collocation:024",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:385-388: ・beyond the confines of 〈場所・分野〉\n用途: 場所や分野の既存の境界を越えて及ぶことを表す。\n例: Her influence extended far beyond the confines of the university.\n訳: 彼女の影響力は大学の枠をはるかに越えて広がった。"
+    },
+    {
+      "id": "collocation:025",
+      "target_id": "collocation:025",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:390-393: ・outside the confines of 〈制度・枠組み〉\n用途: 制度や枠組みが定める範囲の外側にあることを表す。\n例: The group continued its work outside the confines of the formal organization.\n訳: そのグループは正式な組織の枠外でも活動を続けた。"
+    },
+    {
+      "id": "collocation:026",
+      "target_id": "collocation:026",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:395-398: ・the narrow confines of 〈場所・枠組み〉\n用途: 物理的・抽象的な範囲が狭く、制約的であることを強調する。\n例: The story moves beyond the narrow confines of a family dispute.\n訳: その物語は家族間の争いという狭い枠を越えて展開する。"
+    },
+    {
+      "id": "usage_note:006",
+      "target_id": "usage_note:006",
+      "status": "pass",
+      "notes": "Verified exact current target at line:400: 名詞では動詞と強勢位置が異なる。現代英語では通常 the confines of ... の複数形で使い、単数の a confine はまれである。confines は「境界線」そのものと「境界に囲まれた領域」の両方を表し得るため、within the confines of the park は通常「公園の区域内」、beyond the confines of the law は比喩的に「法の枠を越えて」と理解する。"
+    },
+    {
+      "id": "synonym:014",
+      "target_id": "synonym:014",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:404-409: ・bounds\n定義: 許容範囲、領域、行動などの境界・限界。\n頻度: 〈6/10〉\n違い: bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。\n例: The proposal falls outside the bounds of the agreement.\n訳: その提案は合意の範囲外である。"
+    },
+    {
+      "id": "synonym:015",
+      "target_id": "synonym:015",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:411-416: ・limits\n定義: 範囲、能力、権限などがそれ以上及ばない境界。\n頻度: 〈8/10〉\n違い: limits は最も一般的で、数量的な上限にも使える。confines は場所・制度・分野を囲む境界や領域を表す格式的な語である。\n例: The plan remains within the limits of the current budget.\n訳: その計画は現在の予算の範囲内に収まっている。"
+    },
+    {
+      "id": "synonym:016",
+      "target_id": "synonym:016",
+      "status": "pass",
+      "notes": "Verified exact current target at lines:418-423: ・boundaries\n定義: 場所、分野、関係などを内外に分ける境界。\n頻度: 〈7/10〉\n違い: boundaries は境界線や区分そのものに焦点がある。confines はその線で囲まれた範囲を含めて指すことがある。\n例: The research crosses traditional disciplinary boundaries.\n訳: その研究は従来の学問分野の境界を越えている。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "relation_id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:001 explicitly contrasts sense 1 with sense 2 Verified across target_ids=sense_boundary:001, sense_boundary:002; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:001; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:002; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:003; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:005; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:007; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:008; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:009; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:011",
+      "relation_id": "example_translation:011",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:011; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:012",
+      "relation_id": "example_translation:012",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:012; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:013",
+      "relation_id": "example_translation:013",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:013; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:014",
+      "relation_id": "example_translation:014",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:014; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:015",
+      "relation_id": "example_translation:015",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:015; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:016",
+      "relation_id": "example_translation:016",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:016; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:017",
+      "relation_id": "example_translation:017",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:017; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:018",
+      "relation_id": "example_translation:018",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:018; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:019",
+      "relation_id": "example_translation:019",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:019; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:020",
+      "relation_id": "example_translation:020",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:020; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:021",
+      "relation_id": "example_translation:021",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:021; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:022",
+      "relation_id": "example_translation:022",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:022; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:023",
+      "relation_id": "example_translation:023",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:023; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:024",
+      "relation_id": "example_translation:024",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:024; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:025",
+      "relation_id": "example_translation:025",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:025; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "example_translation:026",
+      "relation_id": "example_translation:026",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Verified across target_ids=collocation:026; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Verified across target_ids=sense_boundary:001, definition:001; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Verified across target_ids=sense_boundary:001, definition:001, usage_note:001; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Verified across target_ids=sense_boundary:001, definition:001, synonym:001, synonym:002, synonym:003, antonym:001, antonym:002; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:001, collocation:001, collocation:002, collocation:003, collocation:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:002, collocation:001, collocation:002, collocation:003, collocation:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "relation_id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:003, collocation:001, collocation:002, collocation:003, collocation:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "relation_id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:004, collocation:001, collocation:002, collocation:003, collocation:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Verified across target_ids=sense_boundary:002, definition:002; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Verified across target_ids=sense_boundary:002, definition:002, usage_note:002; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Verified across target_ids=sense_boundary:002, definition:002, synonym:004, synonym:005, antonym:003, antonym:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "relation_id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:005, collocation:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "relation_id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:006, collocation:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "relation_id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:007, collocation:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "relation_id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:008, collocation:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "relation_id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:009, collocation:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "relation_id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:010, collocation:005, collocation:006, collocation:007, collocation:008, collocation:009, collocation:010; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "relation_id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Verified across target_ids=sense_boundary:003, definition:003; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "relation_id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Verified across target_ids=sense_boundary:003, definition:003, usage_note:003; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "relation_id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Verified across target_ids=sense_boundary:003, definition:003, synonym:006, synonym:007, synonym:008; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "relation_id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:011, collocation:011, collocation:012, collocation:013, collocation:014; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "relation_id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:012, collocation:011, collocation:012, collocation:013, collocation:014; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "relation_id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:013, collocation:011, collocation:012, collocation:013, collocation:014; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "relation_id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Verified across target_ids=sense_boundary:004, definition:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "relation_id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Verified across target_ids=sense_boundary:004, definition:004, usage_note:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "relation_id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Verified across target_ids=sense_boundary:004, definition:004, synonym:009, synonym:010, synonym:011, antonym:005, antonym:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "relation_id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:014, collocation:015, collocation:016, collocation:017, collocation:018; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "relation_id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:015, collocation:015, collocation:016, collocation:017, collocation:018; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "relation_id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Verified across target_ids=sense_boundary:005, definition:005; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "relation_id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Verified across target_ids=sense_boundary:005, definition:005, usage_note:005; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "relation_id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Verified across target_ids=sense_boundary:005, definition:005, synonym:012, synonym:013, antonym:007; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "relation_id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:016, collocation:019, collocation:020, collocation:021, collocation:022; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "relation_id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:017, collocation:019, collocation:020, collocation:021, collocation:022; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "relation_id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:018, collocation:019, collocation:020, collocation:021, collocation:022; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "relation_id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Verified across target_ids=sense_boundary:006, definition:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "relation_id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Verified across target_ids=sense_boundary:006, definition:006, usage_note:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "relation_id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Verified across target_ids=sense_boundary:006, definition:006, synonym:014, synonym:015, synonym:016; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "relation_id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:019, collocation:023, collocation:024, collocation:025, collocation:026; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "relation_id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:020, collocation:023, collocation:024, collocation:025, collocation:026; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "relation_id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:021, collocation:023, collocation:024, collocation:025, collocation:026; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "relation_id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Verified across target_ids=grammar_pattern:022, collocation:023, collocation:024, collocation:025, collocation:026; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "relation_id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。 Verified across target_ids=core_image:001, sense_boundary:001, sense_boundary:002, sense_boundary:003, sense_boundary:004, sense_boundary:005, sense_boundary:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "relation_id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Verified across target_ids=core_image:002, sense_boundary:001, definition:001, usage_note:001; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "relation_id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Verified across target_ids=core_image:003, sense_boundary:002, definition:002, usage_note:002; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "relation_id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Verified across target_ids=core_image:004, sense_boundary:003, definition:003, usage_note:003; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "relation_id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Verified across target_ids=core_image:005, sense_boundary:004, definition:004, usage_note:004; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "relation_id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Verified across target_ids=core_image:006, sense_boundary:005, definition:005, usage_note:005; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "relation_id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Verified across target_ids=core_image:007, sense_boundary:006, definition:006, usage_note:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 Verified across target_ids=core_image:001, core_image:002, core_image:003, core_image:004, core_image:005, core_image:006, core_image:007, sense_boundary:001, definition:001, usage_note:001, sense_boundary:002, definition:002, usage_note:002, sense_boundary:003, definition:003, usage_note:003, sense_boundary:004, definition:004, usage_note:004, sense_boundary:005, definition:005, usage_note:005, sense_boundary:006, definition:006, usage_note:006; their meaning direction, roles, scope, grammar, examples, and translations are consistent on body 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "FB-C001",
+      "candidate_id": "FB-C001",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C001-A1",
+        "FB-C001-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C001-A1",
+          "assertion_id": "FB-C001-A1",
+          "status": "pass",
+          "notes": "The complement of to denotes the permitted scope within which the abstract object is kept. Polarity=must_hold; scope=definition, grammar, collocations, and examples for deliberate abstract limitation; verified against the current entry."
+        },
+        {
+          "id": "FB-C001-A2",
+          "assertion_id": "FB-C001-A2",
+          "status": "pass",
+          "notes": "The frame must not imply physical imprisonment merely because its complement can be a place or group. Polarity=must_not_hold; scope=sense boundary between abstract scope restriction and physical confinement; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: confine <topic/activity/remarks/inquiry> to <subject/domain/period> Meaning: An agent deliberately limits the scope of an abstract activity or content to a stated domain. Disposition: included. Rationale: This is a major current transitive use and is independently represented by the discussion, remarks, and inquiry-style material in sense 1. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine <topic/activity/remarks/inquiry> to <subject/domain/period>\". The complement of to denotes the permitted scope within which the abstract object is kept. Polarity=must_hold; scope=definition, grammar, collocations, and examples for deliberate abstract limitation; verified against the current entry. The frame must not imply physical imprisonment merely because its complement can be a place or group. Polarity=must_not_hold; scope=sense boundary between abstract scope restriction and physical confinement; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C002",
+      "candidate_id": "FB-C002",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C002-A1",
+        "FB-C002-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C002-A1",
+          "assertion_id": "FB-C002-A1",
+          "status": "pass",
+          "notes": "The grammatical subject is the phenomenon whose observed or applicable range is bounded. Polarity=must_hold; scope=distributional passive frame; verified against the current entry."
+        },
+        {
+          "id": "FB-C002-A2",
+          "assertion_id": "FB-C002-A2",
+          "status": "pass",
+          "notes": "The construction need not assert that an agent intentionally imposed the boundary. Polarity=must_not_hold; scope=agentivity of the distributional reading; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: <problem/feature/phenomenon> be confined to <place/group/period> Meaning: The distribution or occurrence of a phenomenon does not extend beyond a specified domain. Disposition: included. Rationale: This stative distributional frame has a different subject role from deliberate restriction and is independently covered in sense 1 by the shortage example. Candidate-specific anchor: surface form \"be confined\"; exact frame \"<problem/feature/phenomenon> be confined to <place/group/period>\". The grammatical subject is the phenomenon whose observed or applicable range is bounded. Polarity=must_hold; scope=distributional passive frame; verified against the current entry. The construction need not assert that an agent intentionally imposed the boundary. Polarity=must_not_hold; scope=agentivity of the distributional reading; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C003",
+      "candidate_id": "FB-C003",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C003-A1",
+        "FB-C003-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C003-A1",
+          "assertion_id": "FB-C003-A1",
+          "status": "pass",
+          "notes": "The referent of oneself both chooses and undergoes the restriction of scope. Polarity=must_hold; scope=voluntary reflexive use; verified against the current entry."
+        },
+        {
+          "id": "FB-C003-A2",
+          "assertion_id": "FB-C003-A2",
+          "status": "pass",
+          "notes": "A following gerund denotes the only activity admitted within the chosen scope. Polarity=must_hold; scope=confine oneself to doing; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: confine oneself to <noun/doing> Meaning: A person voluntarily restricts what they discuss, examine, or do to one stated scope. Disposition: included. Rationale: The reflexive frame is productive and current; the article gives its voluntary abstract reading and an appropriate example. Candidate-specific anchor: surface form \"confine oneself\"; exact frame \"confine oneself to <noun/doing>\". The referent of oneself both chooses and undergoes the restriction of scope. Polarity=must_hold; scope=voluntary reflexive use; verified against the current entry. A following gerund denotes the only activity admitted within the chosen scope. Polarity=must_hold; scope=confine oneself to doing; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C004",
+      "candidate_id": "FB-C004",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C004-A1",
+        "FB-C004-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C004-A1",
+          "assertion_id": "FB-C004-A1",
+          "status": "pass",
+          "notes": "The animate patient loses freedom to move outside the stated physical boundary. Polarity=must_hold; scope=physical confinement of people and animals; verified against the current entry."
+        },
+        {
+          "id": "FB-C004-A2",
+          "assertion_id": "FB-C004-A2",
+          "status": "pass",
+          "notes": "The use must not be reduced to a mere statement that the patient happens to be located in the place. Polarity=must_not_hold; scope=distinction between confinement and neutral location; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: confine <person/animal> in/to/within <cell/enclosure/area>; <person/animal> be confined in/to/within <place> Meaning: An animate being is prevented from leaving a bounded place or permitted area. Disposition: included. Rationale: This is a central current physical sense, and sense 2 covers active and passive variants, the preposition contrasts, and representative human and animal examples. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine <person/animal> in/to/within <cell/enclosure/area>; <person/animal> be confined in/to/within <place>\". The animate patient loses freedom to move outside the stated physical boundary. Polarity=must_hold; scope=physical confinement of people and animals; verified against the current entry. The use must not be reduced to a mere statement that the patient happens to be located in the place. Polarity=must_not_hold; scope=distinction between confinement and neutral location; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C005",
+      "candidate_id": "FB-C005",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C005-A1",
+        "FB-C005-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C005-A1",
+          "assertion_id": "FB-C005-A1",
+          "status": "pass",
+          "notes": "The bounded entity is matter, energy, or a physical effect whose movement or diffusion is prevented beyond the boundary. Polarity=must_hold; scope=scientific and technical containment; verified against the current entry."
+        },
+        {
+          "id": "FB-C005-A2",
+          "assertion_id": "FB-C005-A2",
+          "status": "pass",
+          "notes": "The frame must not attribute personal freedom, punishment, or volition to the contained entity. Polarity=must_not_hold; scope=role boundary from animate confinement; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: confine <substance/heat/fire/plasma> to/within <region/device> Meaning: A physical force, barrier, or device prevents matter or energy from moving or spreading beyond a region. Disposition: included. Rationale: This technical containment use has a non-animate patient and spread-prevention profile distinct from loss of personal freedom; sense 2 explicitly covers it with a plasma example. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine <substance/heat/fire/plasma> to/within <region/device>\". The bounded entity is matter, energy, or a physical effect whose movement or diffusion is prevented beyond the boundary. Polarity=must_hold; scope=scientific and technical containment; verified against the current entry. The frame must not attribute personal freedom, punishment, or volition to the contained entity. Polarity=must_not_hold; scope=role boundary from animate confinement; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C006",
+      "candidate_id": "FB-C006",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C006-A1",
+        "FB-C006-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C006-A1",
+          "assertion_id": "FB-C006-A1",
+          "status": "pass",
+          "notes": "The confinement is caused by illness, injury, recovery, or another bodily condition. Polarity=must_hold; scope=health-related confinement; verified against the current entry."
+        },
+        {
+          "id": "FB-C006-A2",
+          "assertion_id": "FB-C006-A2",
+          "status": "pass",
+          "notes": "The frame must not imply detention or punishment unless additional context independently supplies it. Polarity=must_not_hold; scope=boundary from custodial confinement; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: <illness/injury/physical condition> confine <person> to <bed/home/room>; <person> be confined to <bed/home/room> with/by <condition> Meaning: A health condition prevents a person from leaving a bed, home, room, or similarly restricted place. Disposition: included. Rationale: The health-caused frame is current and conventional enough to merit its own treatment; sense 3 accurately separates causative and passive realizations. Candidate-specific anchor: surface form \"confine\"; exact frame \"<illness/injury/physical condition> confine <person> to <bed/home/room>; <person> be confined to <bed/home/room> with/by <condition>\". The confinement is caused by illness, injury, recovery, or another bodily condition. Polarity=must_hold; scope=health-related confinement; verified against the current entry. The frame must not imply detention or punishment unless additional context independently supplies it. Polarity=must_not_hold; scope=boundary from custodial confinement; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C007",
+      "candidate_id": "FB-C007",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C007-A1",
+        "FB-C007-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C007-A1",
+          "assertion_id": "FB-C007-A1",
+          "status": "pass",
+          "notes": "The adjective characterizes the space or setting as enclosed or spatially restrictive. Polarity=must_hold; scope=adjectival confined modifying spaces and conditions; verified against the current entry."
+        },
+        {
+          "id": "FB-C007-A2",
+          "assertion_id": "FB-C007-A2",
+          "status": "pass",
+          "notes": "In occupational-safety usage, confined space must not be equated with every merely small room. Polarity=must_not_hold; scope=specialized confined-space terminology; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: a confined <space/area/interior>; in confined <quarters/conditions> Meaning: A space or setting is enclosed or narrowly bounded so that movement or usable room is limited. Disposition: included. Rationale: This established adjectival result-state use is independently covered in sense 4, including general use and the narrower occupational-safety term confined space. Candidate-specific anchor: surface form \"confined\"; exact frame \"a confined <space/area/interior>; in confined <quarters/conditions>\". The adjective characterizes the space or setting as enclosed or spatially restrictive. Polarity=must_hold; scope=adjectival confined modifying spaces and conditions; verified against the current entry. In occupational-safety usage, confined space must not be equated with every merely small room. Polarity=must_not_hold; scope=specialized confined-space terminology; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C008",
+      "candidate_id": "FB-C008",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C008-A1",
+        "FB-C008-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C008-A1",
+          "assertion_id": "FB-C008-A1",
+          "status": "pass",
+          "notes": "The modified or predicated entity is the source of restriction experienced by a person. Polarity=must_hold; scope=adjectival confining; verified against the current entry."
+        },
+        {
+          "id": "FB-C008-A2",
+          "assertion_id": "FB-C008-A2",
+          "status": "pass",
+          "notes": "The adjective must not be treated as interchangeable with confined, which normally profiles the restricted result or setting. Polarity=must_not_hold; scope=confining versus confined; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: a confining <environment/space/routine>; confining <clothes>; find <place/life> confining Meaning: Something restricts a person's movement, action, or choice and consequently feels constricting. Disposition: included. Rationale: This active-property adjective is current though less frequent and is separately and consistently covered in sense 5. Candidate-specific anchor: surface form \"confining\"; exact frame \"a confining <environment/space/routine>; confining <clothes>; find <place/life> confining\". The modified or predicated entity is the source of restriction experienced by a person. Polarity=must_hold; scope=adjectival confining; verified against the current entry. The adjective must not be treated as interchangeable with confined, which normally profiles the restricted result or setting. Polarity=must_not_hold; scope=confining versus confined; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C009",
+      "candidate_id": "FB-C009",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C009-A1",
+        "FB-C009-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C009-A1",
+          "assertion_id": "FB-C009-A1",
+          "status": "pass",
+          "notes": "The plural noun can profile the limits separating the inside of a domain from the outside. Polarity=must_hold; scope=boundary reading of plural noun confines; verified against the current entry."
+        },
+        {
+          "id": "FB-C009-A2",
+          "assertion_id": "FB-C009-A2",
+          "status": "pass",
+          "notes": "The noun must not be analyzed as the third-person singular form of the verb in this frame. Polarity=must_not_hold; scope=part-of-speech identification; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: the confines of <place/institution/field>; beyond/outside the confines of <domain> Meaning: The outer boundaries or limits that separate a place, institution, or domain from what lies beyond it. Disposition: included. Rationale: The formal plural noun has a live boundary reading, and sense 6 covers it through beyond and outside frames. Candidate-specific anchor: surface form \"confines\"; exact frame \"the confines of <place/institution/field>; beyond/outside the confines of <domain>\". The plural noun can profile the limits separating the inside of a domain from the outside. Polarity=must_hold; scope=boundary reading of plural noun confines; verified against the current entry. The noun must not be analyzed as the third-person singular form of the verb in this frame. Polarity=must_not_hold; scope=part-of-speech identification; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C010",
+      "candidate_id": "FB-C010",
+      "status": "pass",
+      "disposition": "included",
+      "assertion_ids": [
+        "FB-C010-A1",
+        "FB-C010-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C010-A1",
+          "assertion_id": "FB-C010-A1",
+          "status": "pass",
+          "notes": "The phrase can denote the internal territory or scope enclosed by the limits, rather than only the limits themselves. Polarity=must_hold; scope=enclosed-area reading of plural noun confines; verified against the current entry."
+        },
+        {
+          "id": "FB-C010-A2",
+          "assertion_id": "FB-C010-A2",
+          "status": "pass",
+          "notes": "The complement of of identifies the place, system, or subject whose internal extent is at issue. Polarity=must_hold; scope=within/in the confines of construction; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: within/in the confines of <place/institution>; the narrow confines of <place/framework> Meaning: The enclosed area or restricted internal scope lying inside stated boundaries. Disposition: included. Rationale: This metonymic area reading differs from the boundary-line reading and is independently represented in sense 6 by within and narrow-confines examples. Candidate-specific anchor: surface form \"confines\"; exact frame \"within/in the confines of <place/institution>; the narrow confines of <place/framework>\". The phrase can denote the internal territory or scope enclosed by the limits, rather than only the limits themselves. Polarity=must_hold; scope=enclosed-area reading of plural noun confines; verified against the current entry. The complement of of identifies the place, system, or subject whose internal extent is at issue. Polarity=must_hold; scope=within/in the confines of construction; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C011",
+      "candidate_id": "FB-C011",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "FB-C011-A1",
+        "FB-C011-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C011-A1",
+          "assertion_id": "FB-C011-A1",
+          "status": "pass",
+          "notes": "If presented as a current sense, the frame would have to denote mutual adjacency or a shared boundary rather than containment inside a boundary. Polarity=must_hold; scope=historical bordering sense; verified against the current entry."
+        },
+        {
+          "id": "FB-C011-A2",
+          "assertion_id": "FB-C011-A2",
+          "status": "pass",
+          "notes": "The historical adjacency sense must not be represented as a productive neutral modern use without an obsolescence label. Polarity=must_not_hold; scope=currency and register; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: confine with/on/upon <neighboring territory> Meaning: To share a boundary with or border on another territory. Disposition: excluded. Rationale: This is an obsolete or historical continuation of the etymological bordering sense, not a major productive meaning for a contemporary learner entry; mentioning it in the etymological development is sufficient. Candidate-specific anchor: surface form \"confine\"; exact frame \"confine with/on/upon <neighboring territory>\". If presented as a current sense, the frame would have to denote mutual adjacency or a shared boundary rather than containment inside a boundary. Polarity=must_hold; scope=historical bordering sense; verified against the current entry. The historical adjacency sense must not be represented as a productive neutral modern use without an obsolescence label. Polarity=must_not_hold; scope=currency and register; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    },
+    {
+      "id": "FB-C012",
+      "candidate_id": "FB-C012",
+      "status": "pass",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "FB-C012-A1"
+      ],
+      "assertion_results": [
+        {
+          "id": "FB-C012-A1",
+          "assertion_id": "FB-C012-A1",
+          "status": "pass",
+          "notes": "Any included treatment would have to mark the singular count noun as rare rather than imply parity with plural confines. Polarity=must_hold; scope=singular noun currency; verified against the current entry."
+        }
+      ],
+      "notes": "Frame: a confine of/between <place/domain> Meaning: A single boundary or limit. Disposition: excluded. Rationale: The singular noun is rare and non-central in present-day English; the article correctly prioritizes the conventional plural confines while noting the singular's rarity. Candidate-specific anchor: surface form \"a confine\"; exact frame \"a confine of/between <place/domain>\". Any included treatment would have to mark the singular count noun as rare rather than imply parity with plural confines. Polarity=must_hold; scope=singular noun currency; verified against the current entry.",
+      "verified_body_sha256": "22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "NR-sense-structure-1",
+      "finding_id": "NR-sense-structure-1",
+      "status": "pass",
+      "notes": "resolved/adopted; resolved_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; required=The object scope of the within frame overlapped the material-containment use in sense 1.; implemented=Narrowed the sense-2 within frame and collocation to people and animals, and explicitly assigned material or effect containment to sense 1."
+    },
+    {
+      "id": "NR-frame-relation-1",
+      "finding_id": "NR-frame-relation-1",
+      "status": "pass",
+      "notes": "resolved/adopted; resolved_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; required=The active within frame allowed inanimate objects although sense 2 is limited to people and animals.; implemented=Changed someone/something to someone/an animal and aligned the Japanese gloss."
+    },
+    {
+      "id": "NR-frame-relation-2",
+      "finding_id": "NR-frame-relation-2",
+      "status": "pass",
+      "notes": "resolved/adopted; resolved_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; required=feel confined introduced a human experiencer frame into a sense defined for narrow spaces and areas.; implemented=Removed feel confined from the spatial adjective grammar inventory."
+    },
+    {
+      "id": "confine-cold-r2-001",
+      "finding_id": "confine-cold-r2-001",
+      "status": "pass",
+      "notes": "resolved/adopted; resolved_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; required=The sense-2 within frame allowed inanimate objects despite the sense heading and definition.; implemented=Narrowed both active and passive within frames to people and animals and clarified the boundary with sense 1."
+    },
+    {
+      "id": "confine-cold-r2-002",
+      "finding_id": "confine-cold-r2-002",
+      "status": "pass",
+      "notes": "resolved/adopted; resolved_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; required=Two confining collocation examples did not contain their stated collocations.; implemented=Replaced the two mismatched examples so their headings appear verbatim, and added a separate find O confining collocation with its own object-complement example."
+    }
+  ],
+  "evidence_checks": [],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "notes": "U-001 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "pass",
+      "notes": "U-002 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "pass",
+      "notes": "U-003 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "notes": "U-004 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "status": "pass",
+      "notes": "U-005 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "status": "pass",
+      "notes": "U-006 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "status": "pass",
+      "notes": "U-007 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "status": "pass",
+      "notes": "U-008 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "status": "pass",
+      "notes": "U-009 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-010",
+      "union_id": "U-010",
+      "status": "pass",
+      "notes": "U-010 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-011",
+      "union_id": "U-011",
+      "status": "pass",
+      "notes": "U-011 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    },
+    {
+      "id": "U-012",
+      "union_id": "U-012",
+      "status": "pass",
+      "notes": "U-012 の統合出典「」は、最終本文の根拠範囲と整合している。"
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3; normalized_input_sha256=617820b67b051a3306f00116136139a8a0a403739873650009b302ca5f7a8eb4; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=ff17b1012f166792cb155e080485344666cae610f69e7b5ace3a3dff5aacdf03"
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c; normalized_input_sha256=bb4c9b648b2cd53a792fa52d2b969e35749913787a8dc2a4e4e93fb9ed58a29b; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=c6ced30249d07b1c60e7340407f0cf1479c80cda4c164558210175c19d542d95"
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef; normalized_input_sha256=b198b6c5f902619ed54e2b32f8b7d5b764881d6ab14db83924480e188ae0d012; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=e2b0236b2a3dc13a442aaf87d07aadc5bac0fc330bdcd44150018615acbe42bc"
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017; normalized_input_sha256=bd00ff98182fde6f9fca87eb5d26a2d68b9f4f6bf73b69a65eb90724449486db; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=62057f1ec54154b3ddb5377959ccf7b58f2e5894f173979bdd63293c4df9588e"
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2; normalized_input_sha256=625a3d1cea70b48595cabaae6ede9113c212895b5de1128b3f288080b19c0a15; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=0f473b9f498e2109945daccf1ee4330da595a017c46154ffdb0a0c34a336a93c"
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a; normalized_input_sha256=c01619e5d9fb2a372ddc284b5ac6132ab5a97cf73a8cbe1438a953036582eac5; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=668a135326182ea2f55c15bff08539da92726c5bb69586062017db36a2237bae"
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "mode=rechecked; schema_valid=true; reviewer_independent=true; request_binding_valid=true; validated_on_body_sha256=22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc; spec_sha256=dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d; normalized_input_sha256=1ab69a30a02e21b3463ad75441afcd113877d13d455cd0eb124c5a564d342b74; source_artifact_sha256=18e3093ac6f43dcb648dea6293ddb2624c0b9addd93b0cce95a5a20dbc36554a; output_sha256=6809da8ae42e52a133d3dd2284dd1a162110801d7ada73131924067a3dc99e70"
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "pre-blind revision output, all checker rechecks, final blind, blind seal, and post-blind verification bind to 22644a9fa957783832e74155aa68d4556c5058e2813f47c02b97708358cf71fc."
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "cold=2026-09-06T12:42:15.135190+00:00 and normal=2026-09-06T12:44:15.141041+00:00 precede pre-blind revision=2026-09-06T13:15:00Z."
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "pre-blind revision=2026-09-06T13:15:00Z precedes final blind=2026-09-06T13:48:02.617014Z."
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "final blind=2026-09-06T13:48:02.617014Z precedes seal=2026-09-06T06:48:08.946800-07:00; sealed body and blind-output hashes match request metadata."
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "Final-blind article_findings and post-blind resolutions are empty; checker_recheck_completed=true and final_blind_repeated=true."
+    }
+  ],
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "All 114 content targets, 75 content relations, 12 blind candidates and every sealed assertion, 5 resolved findings, 12 source-union items, and 7 checker rechecks were individually reconciled. Evidence-link checks, normal independent candidates, final-blind article findings, post-blind resolutions, and targeted adjudications are empty. Content, source binding, hash, seal, and chronology checks pass."
+  ]
+}

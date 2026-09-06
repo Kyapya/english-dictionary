@@ -1,0 +1,1332 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-confine-20260906T073045Z-f9a3853d",
+  "context_id": "blind-confine-context-20260906T073045Z-f9a3853d",
+  "input_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+  "prompt_sha256": "af6ad4a77bbe63f6ace93a9080d138fa63efc2d40b6490cdd3bc70756783102a",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "a5c53f22e734db025ef7fb6089566988be4631cc11c500c62545912ac57bff3e",
+  "recorded_at": "2026-09-06T08:30:00Z",
+  "agent_id": "confine-final-review-agent",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "confine-final-review-agent",
+    "same_model_as_generation": true
+  },
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Exact target quote: 動詞は米・英: /kənˈfaɪn/。2音節で第2音節に主強勢があり、第1音節の母音は弱い /ə/ になる。低頻度の名詞は、米: /ˈkɑːnfaɪn/｜英: /ˈkɒnfaɪn/ で、第1音節に主強勢が移り、第1音節の母音にも米英差がある。"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "Exact target quote: 動詞は中期フランス語 confiner「境を接する、限界内にとどめる」から英語に入り、さらにラテン語 confinis「境を接する」にさかのぼる。con-「共に」と finis「境界、終わり」が結び付いた語で、「境界を共有する・隣接する」という古い意味から、境界を定めてその内側にとどめる現代の「範囲を限る」「閉じ込める」へ発達した。"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "Exact target quote: ・confinement（名詞）— 閉じ込めること、閉じ込められた状態、拘禁。"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "Exact target quote: ・confined（形容詞）— 狭く囲まれた、限られた。単なる過去分詞としての受動用法と、confined space のような形容詞用法がある。"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "fail",
+      "notes": "Exact target quote: ・confining（現在分詞）— confine の -ing 形。 This exact target wrongly reduces confining to a present participle and omits its productive adjectival use."
+    },
+    {
+      "id": "word_formation:004",
+      "status": "pass",
+      "notes": "Exact target quote: ・unconfined（形容詞）— 閉じ込められていない、境界内に制限されていない。"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "Exact target quote: 人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined ではその結果の状態や窮屈さを、名詞では境界そのものを表す。"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "Exact target quote: ・対象の範囲を一定の境界内にとどめる → 「～を…に限る、限定する」（語義1）"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "Exact target quote: ・人や動物を一定の場所から出られなくする → 「閉じ込める、拘束する」（語義2）"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "Exact target quote: ・病気やけがで生活場所を狭い範囲にとどめる → 「～を寝床・自宅などにとどめる」（語義3）"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "Exact target quote: ・空間や区域が狭い境界内に収まった状態 → 「狭く囲まれた、限られた」（語義4）"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "Exact target quote: ・内外を分けて範囲を画する境界 → 「境界、範囲、領域」（語義5）"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Exact target quote: 1. 【他動詞】～を…に限る、限定する"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "Exact target quote: 話題、活動、作業、影響、現象などが及ぶ範囲を、特定の対象・場所・期間・分野などの内側に限定する。対象がすでにその範囲に収まっていることを述べる受動形のほか、話し手が意識的に扱う範囲を絞る能動形・再帰形でも使われる。"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "Exact target quote: 〈8/10〉"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "Exact target quote: 一般語だが、日常会話より文章、ニュース、ビジネス、学術的説明でやや多い。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "fail",
+      "notes": "Exact target quote: confine something to 〈範囲・場所・期間・活動〉＝何かを～の範囲内に限る This exact target participates in an incomplete physical-containment frame inventory because confine A within B / A be confined within B is omitted."
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Exact target quote: confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "Exact target quote: be confined to 〈範囲・場所・集団〉＝～に限られている"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "Exact target quote: confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "Exact target quote: ・confine the discussion to 〈話題〉\n用途: 議論で扱う範囲を特定の話題に限定する。\n例: Please confine the discussion to the issues on today's agenda.\n訳: 議論は本日の議題にある問題だけに絞ってください。"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "Exact target quote: ・confine one's remarks to 〈対象〉\n用途: 発言する内容を特定の対象に限る。\n例: She confined her remarks to the financial risks of the proposal.\n訳: 彼女は発言をその提案の財務上のリスクに限定した。"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "Exact target quote: ・confine oneself to 〈名詞・doing〉\n用途: 自分が扱う話題や行う活動を意識的に一つの範囲へ絞る。\n例: In this chapter, I will confine myself to examining the short-term effects.\n訳: この章では、短期的な影響の検討だけに対象を絞る。"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "Exact target quote: ・be confined to 〈場所・集団〉\n用途: 問題、特徴、現象などが特定の場所や集団だけに見られることを表す。\n例: The shortage is not confined to rural areas.\n訳: その不足は農村部だけに限られた問題ではない。"
+    },
+    {
+      "id": "collocation:005",
+      "status": "fail",
+      "notes": "Exact target quote: ・confine 〈物質・作用〉 to 〈区域・装置〉\n用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。\n例: The magnetic field confines the plasma to the center of the chamber.\n訳: その磁場はプラズマを容器の中心部に閉じ込める。 This exact target participates in an incomplete physical-containment frame inventory because confine A within B / A be confined within B is omitted."
+    },
+    {
+      "id": "usage_note:001",
+      "status": "fail",
+      "notes": "Exact target quote: 基本形は confine A to B であり、to の後ろには名詞または動名詞を置く。場所の内部へ物理的に閉じ込める語義2では confine someone in a cell のように in も使う。confine oneself to は話題・活動の自主的な限定によく使うが、confine oneself to one's room のように場所を示す語が続けば、物理的に自分をその場所にとどめる意味にもなる。 This exact target participates in an incomplete physical-containment frame inventory because confine A within B / A be confined within B is omitted."
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "Exact target quote: ・limit\n定義: 数量、範囲、程度、時間などに限度を設ける。\n頻度: 〈9/10〉\n違い: limit は最も広く中立的で、上限を設ける場合にも使う。confine は対象をある境界の内側にとどめ、外へ広げないイメージが強い。\n例: The policy limits each application to two pages.\n訳: その方針では各申請書を2ページまでに制限している。"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "Exact target quote: ・restrict\n定義: 規則、条件、権限などによって範囲や自由を制限する。\n頻度: 〈8/10〉\n違い: restrict は許可・利用・行動への制約を広く表す。confine A to B は、AがBの外へ及ばないという境界を特に示す。\n例: Access is restricted to authorized staff.\n訳: 立ち入りは権限のある職員に制限されている。"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "Exact target quote: ・circumscribe\n定義: 活動、権限、可能性などの範囲を狭く限定する。\n頻度: 〈3/10〉\n違い: circumscribe は非常に硬い語で、抽象的な権限・選択肢・行動範囲が制約される文脈に多い。confine の方が一般的で、具体的な場所にも使える。\n例: The constitution circumscribes the powers of the executive.\n訳: 憲法は行政府の権限の範囲を限定している。"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "Exact target quote: ・broaden\n定義: 話題、活動、対象などの範囲を広げる。\n頻度: 〈7/10〉\n違い: 範囲を狭く限定する confine と、同じ範囲軸上で外側へ広げる方向の対立をなす。\n例: The committee broadened the inquiry to include safety concerns.\n訳: 委員会は安全上の懸念も含めるよう調査範囲を広げた。"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "Exact target quote: ・extend\n定義: 対象となる範囲、期間、適用先などをさらに先まで広げる。\n頻度: 〈8/10〉\n違い: confine A to B がAの到達範囲をB内に止めるのに対し、extend A to B はAの到達範囲をBまで広げる。\n例: The program was extended to smaller communities.\n訳: その制度はより小さな地域にも拡大された。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Exact target quote: 2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "Exact target quote: 人や動物を、部屋、施設、囲い、刑務所などの外へ自由に出られないようにする。物理的な障壁、命令、拘禁などによる移動の制限を表す。"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "Exact target quote: 〈7/10〉"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "Exact target quote: 一般語。ニュース、法律・刑事、軍事、動物管理の文脈でよく使われる。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "Exact target quote: confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "Exact target quote: confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "Exact target quote: be confined in 〈施設・部屋〉＝～に収容・拘束されている"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "Exact target quote: be confined to quarters＝兵舎・自室待機を命じられている"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "Exact target quote: ・confine someone in a cell\n用途: 人を独房などの閉鎖された空間から出られないようにする。\n例: The prisoner was confined in a windowless cell for several days.\n訳: その囚人は数日間、窓のない独房に拘禁された。"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "Exact target quote: ・confine an animal to 〈囲い・ケージ〉\n用途: 動物が指定された囲いの外へ出ないようにする。\n例: The injured bird was temporarily confined to a large enclosure.\n訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "Exact target quote: ・keep 〈人・動物〉 confined\n用途: 人や動物を外へ出られない状態に保つ。\n例: The order kept the soldiers confined to their barracks overnight.\n訳: その命令により兵士たちは一晩、兵舎から出られなかった。"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "Exact target quote: ・be confined to quarters\n用途: 軍人などが処罰・命令により兵舎や指定場所から出ないよう命じられた状態を表す。\n例: He was confined to quarters for disobeying the order.\n訳: 彼は命令に従わなかったため、兵舎待機を命じられた。"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "Exact target quote: この語義では能動形と受動形の両方を使う。in は容器・部屋・施設の「内部」を、to は移動可能な「範囲」を示す。"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "Exact target quote: ・imprison\n定義: 人を刑務所などに入れて自由を奪う。\n頻度: 〈6/10〉\n違い: imprison は刑罰・政治的拘禁など人の収監を中心とする。confine は人以外の動物や、刑務所以外の限定された場所にも使える。\n例: The regime imprisoned several opposition leaders.\n訳: その政権は複数の反対派指導者を投獄した。"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "Exact target quote: ・detain\n定義: 当局などが人を一定時間引き留め、立ち去れないようにする。\n頻度: 〈7/10〉\n違い: detain は一時的な身柄拘束や事情聴取のための留置に焦点がある。confine は場所の境界内に置かれる状態を強く示す。\n例: Police detained the suspect for questioning.\n訳: 警察は事情聴取のため容疑者を拘束した。"
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "Exact target quote: ・release\n定義: 拘束・収容されている人や動物を自由にする。\n頻度: 〈8/10〉\n違い: 閉鎖場所内にとどめる confine に対し、そこから出ることを許す方向の対立をなす。\n例: The authorities released the detainees the next morning.\n訳: 当局は翌朝、被拘束者たちを解放した。"
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "Exact target quote: ・free\n定義: 束縛、監禁、拘束などから自由にする。\n頻度: 〈8/10〉\n違い: confine が移動の自由を奪うのに対し、free はその拘束自体を取り除く。release より広く、物理的・制度的・比喩的拘束に使える。\n例: The rescue team freed the animals from the locked shed.\n訳: 救助隊は鍵のかかった小屋から動物たちを解放した。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "Exact target quote: 3. 【他動詞・通常受動】～を寝床・自宅などにとどめる"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "Exact target quote: 病気、けが、身体状態などが原因で、人がベッド、自宅、病室など限られた場所から動けない、または外出できない状態にする。原因を主語にする能動文と、本人を主語にした be confined to の形がある。"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "Exact target quote: 〈6/10〉"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "Exact target quote: 一般語・医療関連。病状や回復期間を述べるやや硬い表現。"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "Exact target quote: 〈病気・けが・身体状態〉 confine someone to 〈bed/home/a room〉＝病気などが人を～から動けない状態にする"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "Exact target quote: someone be confined to bed/home＝人が病気などで寝床・自宅から動けない"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "Exact target quote: someone be confined to bed with 〈病気〉＝病気により寝床にとどまっている"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "Exact target quote: ・be confined to bed\n用途: 病気やけがのため起きて普段どおり活動できず、寝床にとどまる。\n例: She was confined to bed for a week with a severe infection.\n訳: 彼女は重い感染症のため1週間、寝床から起きられなかった。"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "Exact target quote: ・be confined to one's home\n用途: 健康上の理由などで外出できず、自宅にとどまる。\n例: After the operation, he was confined to his home for several days.\n訳: 手術後、彼は数日間、自宅から出られなかった。"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "Exact target quote: ・〈病気・けが〉 confine someone to 〈場所〉\n用途: 病気やけがを原因として、人の行動範囲が特定の場所に限られることを表す。\n例: A knee injury confined her to the apartment for most of the winter.\n訳: 膝のけがのため、彼女は冬の大半をアパートから出られずに過ごした。"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "Exact target quote: ・be temporarily confined to 〈場所〉\n用途: 限られた期間だけ、健康上の理由で一定の場所にとどまることを表す。\n例: He is temporarily confined to his room by complications from the operation.\n訳: 彼は手術の合併症のため、一時的に自室から出られない状態にある。"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "Exact target quote: be confined to a wheelchair は従来から見られる表現だが、車いすを人を閉じ込める物として否定的に描くため、不快・不適切と受け取られることがある。単に移動手段を述べるなら use a wheelchair または be a wheelchair user を用いる。be confined to bed は病気などで起きられない状態を表し、単にベッドで休む choose to stay in bed とは異なる。"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "Exact target quote: ・be bedridden\n定義: 病気、けが、高齢などで寝床から離れられない状態にある。\n頻度: 〈5/10〉\n違い: be bedridden は比較的長い・重い状態を表しやすい形容詞表現である。be confined to bed は一時的な病気にも使える。\n例: He was bedridden for months after the stroke.\n訳: 彼は脳卒中の後、何か月も寝たきりだった。"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "Exact target quote: ・be housebound\n定義: 身体状態などのため自宅から外出することが難しい。\n頻度: 〈4/10〉\n違い: be housebound は自宅の外へ出にくい状態そのものを表す。be confined to one's home は原因によって行動範囲が自宅内に限られたことを描く。\n例: The service delivers meals to older people who are housebound.\n訳: そのサービスは外出困難な高齢者に食事を届ける。"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "Exact target quote: ・be restricted to 〈場所・活動〉\n定義: 許可や身体状態などにより、場所・活動の範囲が限られている。\n頻度: 〈7/10〉\n違い: be restricted to は原因を問わない中立的な制限表現である。be confined to は移動できない、または外へ出られないという強い制約を示しやすい。\n例: During recovery, she was restricted to light indoor activities.\n訳: 回復中、彼女の活動は屋内での軽いものに限られた。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "Exact target quote: 4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "Exact target quote: confined の形で、空間や区域が壁や境界に囲まれて狭い、または内部で動ける余地が少ないことを表す。単に面積が小さいだけでなく、閉鎖性や動きにくさを含みやすい。"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "Exact target quote: 〈6/10〉"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "Exact target quote: 一般語。confined space は日常的説明のほか、労働安全の専門用語としても使われる。"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "Exact target quote: a confined 〈space/area/place〉＝狭く囲まれた空間・区域"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "Exact target quote: in confined 〈conditions/quarters〉＝狭く限られた環境で"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "Exact target quote: feel confined＝閉じ込められたように感じる"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "Exact target quote: ・a confined space\n用途: 壁や境界に囲まれ、動きや出入りが制限されやすい空間を表す。\n例: The machine should not be operated in a confined space without adequate ventilation.\n訳: その機械は、十分な換気のない閉鎖空間で作動させるべきではない。"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "Exact target quote: ・in confined quarters\n用途: 人が動ける余地の少ない狭い居住・作業場所にいることを表す。\n例: The crew lived in confined quarters during the voyage.\n訳: 乗組員は航海中、狭い居住区で暮らした。"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "Exact target quote: ・work in confined conditions\n用途: 動作や移動の余地が限られた環境で作業する。\n例: The technicians had to work in confined conditions beneath the stage.\n訳: 技術者たちは舞台の下の狭い環境で作業しなければならなかった。"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "Exact target quote: ・a confined interior\n用途: 内部が囲まれて狭く、動ける余地が少ないことを表す。\n例: The vehicle has a confined interior with little room to move.\n訳: その車両の内部は狭く、動ける余地がほとんどない。"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "Exact target quote: confined space は一般には狭く囲まれた空間を表す。米国 OSHA の労働安全上の定義では、出入りが制限され、継続的な在室を目的に設計されていないことなども要件になるため、小さい部屋がすべて専門上の confined space になるわけではない。be confined to 〈場所・範囲〉は動詞 confine の受動形で「～に限定・拘束されている」、a confined space は形容詞 confined が名詞を修飾して「狭く囲まれた空間」である。"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "Exact target quote: ・enclosed\n定義: 壁、柵、覆いなどによって周囲を囲まれた。\n頻度: 〈7/10〉\n違い: enclosed は囲いの存在を表すが、狭さや窮屈さは必須ではない。confined は空間や動きが限られる含みを持ちやすい。\n例: The garden is surrounded by an enclosed walkway.\n訳: その庭は囲われた通路に取り囲まれている。"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "Exact target quote: ・cramped\n定義: 人や物に対して利用できる空間が足りず、窮屈な。\n頻度: 〈6/10〉\n違い: cramped は狭さによる不快さを直接強調する。confined は境界に囲まれ、動きが制限される構造に焦点がある。\n例: Four people shared a cramped cabin.\n訳: 4人が窮屈な船室を共有した。"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "Exact target quote: ・restricted\n定義: 利用、移動、範囲などが制限された。\n頻度: 〈7/10〉\n違い: restricted は規則や条件による抽象的制限にも広く使う。confined は特に空間的な閉鎖性を示しやすい。\n例: The equipment operates in a restricted area.\n訳: その装置は立ち入り制限区域で稼働している。"
+    },
+    {
+      "id": "antonym:005",
+      "status": "pass",
+      "notes": "Exact target quote: ・spacious\n定義: 人や物がゆったり動ける十分な空間がある。\n頻度: 〈7/10〉\n違い: 動ける余地が少ない confined と、空間に十分な余裕がある spacious は広さ・窮屈さの軸で対立する。\n例: The new cabin is bright and spacious.\n訳: 新しい船室は明るく広々としている。"
+    },
+    {
+      "id": "antonym:006",
+      "status": "pass",
+      "notes": "Exact target quote: ・open\n定義: 閉鎖されず、周囲や上部が広く開けている。\n頻度: 〈9/10〉\n違い: 境界に囲まれた confined に対し、open は閉鎖性が少なく外へ開かれた状態を表す。文脈によっては広さではなく出入り可能性の対立になる。\n例: We moved the meeting to an open area outside.\n訳: 私たちは会議を屋外の開けた場所に移した。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "Exact target quote: 5. 【名詞・通常複数・格式／文学的】境界、範囲、領域"
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "Exact target quote: 通常 confines の形で、場所・組織・分野などの外縁をなす境界、またはその境界に囲まれた内部の領域を表す。"
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "Exact target quote: 〈4/10〉"
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "Exact target quote: 格式的・文学的。within/beyond/outside the confines of の形で、抽象的・物理的な範囲を述べる文章に使われる。"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "Exact target quote: within the confines of 〈場所・制度・分野〉＝～の範囲内で"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "Exact target quote: beyond the confines of 〈場所・制度・分野〉＝～の境界を越えて"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "Exact target quote: outside the confines of 〈場所・制度・分野〉＝～の範囲外で"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "Exact target quote: the narrow confines of 〈場所・枠組み〉＝～という狭い範囲"
+    },
+    {
+      "id": "collocation:018",
+      "status": "pass",
+      "notes": "Exact target quote: ・within the confines of 〈場所・制度〉\n用途: 物理的または制度的な境界の内側にあることを表す。\n例: The negotiations took place within the confines of the embassy.\n訳: 交渉は大使館の敷地内で行われた。"
+    },
+    {
+      "id": "collocation:019",
+      "status": "pass",
+      "notes": "Exact target quote: ・beyond the confines of 〈場所・分野〉\n用途: 場所や分野の既存の境界を越えて及ぶことを表す。\n例: Her influence extended far beyond the confines of the university.\n訳: 彼女の影響力は大学の枠をはるかに越えて広がった。"
+    },
+    {
+      "id": "collocation:020",
+      "status": "pass",
+      "notes": "Exact target quote: ・outside the confines of 〈制度・枠組み〉\n用途: 制度や枠組みが定める範囲の外側にあることを表す。\n例: The group continued its work outside the confines of the formal organization.\n訳: そのグループは正式な組織の枠外でも活動を続けた。"
+    },
+    {
+      "id": "collocation:021",
+      "status": "pass",
+      "notes": "Exact target quote: ・the narrow confines of 〈場所・枠組み〉\n用途: 物理的・抽象的な範囲が狭く、制約的であることを強調する。\n例: The story moves beyond the narrow confines of a family dispute.\n訳: その物語は家族間の争いという狭い枠を越えて展開する。"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "Exact target quote: 名詞では動詞と強勢位置が異なる。現代英語では通常 the confines of ... の複数形で使い、単数の a confine はまれである。confines は「境界線」そのものと「境界に囲まれた領域」の両方を表し得るため、within the confines of the park は通常「公園の区域内」、beyond the confines of the law は比喩的に「法の枠を越えて」と理解する。"
+    },
+    {
+      "id": "synonym:012",
+      "status": "pass",
+      "notes": "Exact target quote: ・bounds\n定義: 許容範囲、領域、行動などの境界・限界。\n頻度: 〈6/10〉\n違い: bounds も通常複数で、out of bounds など定着表現が多い。confines は境界に囲まれた内部の領域まで意識させやすく、より格式的である。\n例: The proposal falls outside the bounds of the agreement.\n訳: その提案は合意の範囲外である。"
+    },
+    {
+      "id": "synonym:013",
+      "status": "pass",
+      "notes": "Exact target quote: ・limits\n定義: 範囲、能力、権限などがそれ以上及ばない境界。\n頻度: 〈8/10〉\n違い: limits は最も一般的で、数量的な上限にも使える。confines は場所・制度・分野を囲む境界や領域を表す格式的な語である。\n例: The plan remains within the limits of the current budget.\n訳: その計画は現在の予算の範囲内に収まっている。"
+    },
+    {
+      "id": "synonym:014",
+      "status": "pass",
+      "notes": "Exact target quote: ・boundaries\n定義: 場所、分野、関係などを内外に分ける境界。\n頻度: 〈7/10〉\n違い: boundaries は境界線や区分そのものに焦点がある。confines はその線で囲まれた範囲を含めて指すことがある。\n例: The research crosses traditional disciplinary boundaries.\n訳: その研究は従来の学問分野の境界を越えている。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:001 explicitly contrasts sense 1 with sense 2 個別照合では「1. 【他動詞】～を…に限る、限定する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・confine the discussion to 〈話題〉\n用途: 議論で扱う範囲を特定の話題に限定する。\n例: Please confine the discussion to the issues on today's agenda.\n訳: 議論は本日の議題にある問題だけに絞ってください。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・confine one's remarks to 〈対象〉\n用途: 発言する内容を特定の対象に限る。\n例: She confined her remarks to the financial risks of the proposal.\n訳: 彼女は発言をその提案の財務上のリスクに限定した。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・confine oneself to 〈名詞・doing〉\n用途: 自分が扱う話題や行う活動を意識的に一つの範囲へ絞る。\n例: In this chapter, I will confine myself to examining the short-term effects.\n訳: この章では、短期的な影響の検討だけに対象を絞る。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・be confined to 〈場所・集団〉\n用途: 問題、特徴、現象などが特定の場所や集団だけに見られることを表す。\n例: The shortage is not confined to rural areas.\n訳: その不足は農村部だけに限られた問題ではない。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・confine 〈物質・作用〉 to 〈区域・装置〉\n用途: 物質、熱、火、プラズマなどが外へ広がらないよう一定の区域内に保つ。\n例: The magnetic field confines the plasma to the center of the chamber.\n訳: その磁場はプラズマを容器の中心部に閉じ込める。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・confine someone in a cell\n用途: 人を独房などの閉鎖された空間から出られないようにする。\n例: The prisoner was confined in a windowless cell for several days.\n訳: その囚人は数日間、窓のない独房に拘禁された。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・confine an animal to 〈囲い・ケージ〉\n用途: 動物が指定された囲いの外へ出ないようにする。\n例: The injured bird was temporarily confined to a large enclosure.\n訳: けがをした鳥は一時的に大きな囲いの中に閉じ込められた。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・keep 〈人・動物〉 confined\n用途: 人や動物を外へ出られない状態に保つ。\n例: The order kept the soldiers confined to their barracks overnight.\n訳: その命令により兵士たちは一晩、兵舎から出られなかった。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・be confined to quarters\n用途: 軍人などが処罰・命令により兵舎や指定場所から出ないよう命じられた状態を表す。\n例: He was confined to quarters for disobeying the order.\n訳: 彼は命令に従わなかったため、兵舎待機を命じられた。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・be confined to bed\n用途: 病気やけがのため起きて普段どおり活動できず、寝床にとどまる。\n例: She was confined to bed for a week with a severe infection.\n訳: 彼女は重い感染症のため1週間、寝床から起きられなかった。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・be confined to one's home\n用途: 健康上の理由などで外出できず、自宅にとどまる。\n例: After the operation, he was confined to his home for several days.\n訳: 手術後、彼は数日間、自宅から出られなかった。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・〈病気・けが〉 confine someone to 〈場所〉\n用途: 病気やけがを原因として、人の行動範囲が特定の場所に限られることを表す。\n例: A knee injury confined her to the apartment for most of the winter.\n訳: 膝のけがのため、彼女は冬の大半をアパートから出られずに過ごした。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・be temporarily confined to 〈場所〉\n用途: 限られた期間だけ、健康上の理由で一定の場所にとどまることを表す。\n例: He is temporarily confined to his room by complications from the operation.\n訳: 彼は手術の合併症のため、一時的に自室から出られない状態にある。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・a confined space\n用途: 壁や境界に囲まれ、動きや出入りが制限されやすい空間を表す。\n例: The machine should not be operated in a confined space without adequate ventilation.\n訳: その機械は、十分な換気のない閉鎖空間で作動させるべきではない。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・in confined quarters\n用途: 人が動ける余地の少ない狭い居住・作業場所にいることを表す。\n例: The crew lived in confined quarters during the voyage.\n訳: 乗組員は航海中、狭い居住区で暮らした。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・work in confined conditions\n用途: 動作や移動の余地が限られた環境で作業する。\n例: The technicians had to work in confined conditions beneath the stage.\n訳: 技術者たちは舞台の下の狭い環境で作業しなければならなかった。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・a confined interior\n用途: 内部が囲まれて狭く、動ける余地が少ないことを表す。\n例: The vehicle has a confined interior with little room to move.\n訳: その車両の内部は狭く、動ける余地がほとんどない。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:018",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・within the confines of 〈場所・制度〉\n用途: 物理的または制度的な境界の内側にあることを表す。\n例: The negotiations took place within the confines of the embassy.\n訳: 交渉は大使館の敷地内で行われた。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:019",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・beyond the confines of 〈場所・分野〉\n用途: 場所や分野の既存の境界を越えて及ぶことを表す。\n例: Her influence extended far beyond the confines of the university.\n訳: 彼女の影響力は大学の枠をはるかに越えて広がった。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:020",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・outside the confines of 〈制度・枠組み〉\n用途: 制度や枠組みが定める範囲の外側にあることを表す。\n例: The group continued its work outside the confines of the formal organization.\n訳: そのグループは正式な組織の枠外でも活動を続けた。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "example_translation:021",
+      "status": "pass",
+      "notes": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 個別照合では「・the narrow confines of 〈場所・枠組み〉\n用途: 物理的・抽象的な範囲が狭く、制約的であることを強調する。\n例: The story moves beyond the narrow confines of a family dispute.\n訳: その物語は家族間の争いという狭い枠を越えて展開する。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 個別照合では「1. 【他動詞】～を…に限る、限定する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 個別照合では「1. 【他動詞】～を…に限る、限定する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 個別照合では「1. 【他動詞】～を…に限る、限定する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「confine something to 〈範囲・場所・期間・活動〉＝何かを～の範囲内に限る」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「confine oneself to 〈名詞・doing〉＝自分が扱う内容・行うことを～だけにする」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「be confined to 〈範囲・場所・集団〉＝～に限られている」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「confine 〈発言・検討・努力〉 to 〈対象〉＝発言・検討・努力の対象を～に絞る」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 個別照合では「2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 個別照合では「2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 個別照合では「2. 【他動詞・通常受動】人・動物を閉じ込める、拘束する」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「confine someone/an animal in 〈閉鎖場所〉＝人・動物を～の中に閉じ込める」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「confine someone/an animal to 〈場所〉＝人・動物を～から出られないようにする」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「be confined in 〈施設・部屋〉＝～に収容・拘束されている」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「be confined to quarters＝兵舎・自室待機を命じられている」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 個別照合では「3. 【他動詞・通常受動】～を寝床・自宅などにとどめる」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 個別照合では「3. 【他動詞・通常受動】～を寝床・自宅などにとどめる」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 個別照合では「3. 【他動詞・通常受動】～を寝床・自宅などにとどめる」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「〈病気・けが・身体状態〉 confine someone to 〈bed/home/a room〉＝病気などが人を～から動けない状態にする」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「someone be confined to bed/home＝人が病気などで寝床・自宅から動けない」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「someone be confined to bed with 〈病気〉＝病気により寝床にとどまっている」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 個別照合では「4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 個別照合では「4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 個別照合では「4. 【過去分詞由来の形容詞 confined】狭く囲まれた、限られた」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「a confined 〈space/area/place〉＝狭く囲まれた空間・区域」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「in confined 〈conditions/quarters〉＝狭く限られた環境で」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「feel confined＝閉じ込められたように感じる」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 個別照合では「5. 【名詞・通常複数・格式／文学的】境界、範囲、領域」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 個別照合では「5. 【名詞・通常複数・格式／文学的】境界、範囲、領域」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 個別照合では「5. 【名詞・通常複数・格式／文学的】境界、範囲、領域」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「within the confines of 〈場所・制度・分野〉＝～の範囲内で」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「beyond the confines of 〈場所・制度・分野〉＝～の境界を越えて」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「outside the confines of 〈場所・制度・分野〉＝～の範囲外で」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 個別照合では「the narrow confines of 〈場所・枠組み〉＝～という狭い範囲」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。 個別照合では「人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined ではその結果の状態や窮屈さを、名詞では境界そのものを表す。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 個別照合では「・対象の範囲を一定の境界内にとどめる → 「～を…に限る、限定する」（語義1）」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 個別照合では「・人や動物を一定の場所から出られなくする → 「閉じ込める、拘束する」（語義2）」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 個別照合では「・病気やけがで生活場所を狭い範囲にとどめる → 「～を寝床・自宅などにとどめる」（語義3）」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 個別照合では「・空間や区域が狭い境界内に収まった状態 → 「狭く囲まれた、限られた」（語義4）」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 個別照合では「・内外を分けて範囲を画する境界 → 「境界、範囲、領域」（語義5）」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 個別照合では「人・物・活動・内容などを、ある境界の内側にとどめ、外へ出たり広がったりしないようにする。形容詞形 confined ではその結果の状態や窮屈さを、名詞では境界そのものを表す。」を起点に、結び付けられた対象間の意味・構文・訳の対応を確認し、この関係は現行本文で成立すると判定した。"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "c01",
+      "status": "pass",
+      "assertion_ids": [
+        "c01-a1",
+        "c01-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c02",
+      "status": "pass",
+      "assertion_ids": [
+        "c02-a1",
+        "c02-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c03",
+      "status": "pass",
+      "assertion_ids": [
+        "c03-a1",
+        "c03-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c04",
+      "status": "fail",
+      "assertion_ids": [
+        "c04-a1",
+        "c04-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "Fails complete-frame coverage: the entry does not record the productive within variant required by the sealed physical-containment candidate."
+    },
+    {
+      "id": "c05",
+      "status": "pass",
+      "assertion_ids": [
+        "c05-a1",
+        "c05-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c06",
+      "status": "pass",
+      "assertion_ids": [
+        "c06-a1",
+        "c06-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c07",
+      "status": "pass",
+      "assertion_ids": [
+        "c07-a1",
+        "c07-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c08",
+      "status": "pass",
+      "assertion_ids": [
+        "c08-a1",
+        "c08-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c09",
+      "status": "pass",
+      "assertion_ids": [
+        "c09-a1",
+        "c09-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c10",
+      "status": "fail",
+      "assertion_ids": [
+        "c10-a1",
+        "c10-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "Fails inventory coverage: the entry labels confining only as a present participle and omits the sealed productive adjectival use."
+    },
+    {
+      "id": "c11",
+      "status": "pass",
+      "assertion_ids": [
+        "c11-a1"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c12",
+      "status": "pass",
+      "assertion_ids": [
+        "c12-a1"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c13",
+      "status": "pass",
+      "assertion_ids": [
+        "c13-a1",
+        "c13-a2"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    },
+    {
+      "id": "c14",
+      "status": "pass",
+      "assertion_ids": [
+        "c14-a1"
+      ],
+      "verified_body_sha256": "02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66",
+      "notes": "All sealed semantic assertions were checked against the current body and are respected, including the candidate disposition."
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "NR-translation-1",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-translation-2",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-translation-3",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-sense-structure-1",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-frame-relation-1",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-frame-relation-2",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-example-attribution-1",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-example-attribution-2",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-qualification-1",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-1",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-2",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-3",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-4",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-5",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-6",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-7",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-8",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-9",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-10",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-11",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-12",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-13",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-14",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-15",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-16",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-17",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-18",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-19",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-20",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-21",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-22",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "NR-evidence-23",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "CR-001",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "CR-002",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "CR-003",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "CR-004",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "CR-005",
+      "status": "pass",
+      "notes": "Pass: the pre-blind resolution is complete on the revised body and the full checker recheck manifest is current."
+    },
+    {
+      "id": "f01",
+      "status": "fail",
+      "notes": "Fail: the rejected disposition does not cure the article-level omission of the productive adjectival use of confining."
+    },
+    {
+      "id": "f02",
+      "status": "fail",
+      "notes": "Fail: the rejected disposition does not cure the missing productive confine A within B / A be confined within B frame."
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "F-001",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-002",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-003",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-004",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-005",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-006",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-007",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-008",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-009",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-010",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-011",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-012",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-013",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-014",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-015",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-016",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-017",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-018",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    },
+    {
+      "id": "F-019",
+      "status": "pass",
+      "notes": "The current evidence recheck is schema-valid, independently reviewed, request-bound, and validated on the sealed body hash."
+    }
+  ],
+  "source_inventory_results": [],
+  "checker_recheck_results": [
+    {
+      "id": "evidence",
+      "status": "pass",
+      "notes": "evidence was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    },
+    {
+      "id": "example-attribution",
+      "status": "pass",
+      "notes": "example-attribution was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    },
+    {
+      "id": "frame-relation",
+      "status": "pass",
+      "notes": "frame-relation was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    },
+    {
+      "id": "pronunciation",
+      "status": "pass",
+      "notes": "pronunciation was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    },
+    {
+      "id": "qualification",
+      "status": "pass",
+      "notes": "qualification was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    },
+    {
+      "id": "sense-structure",
+      "status": "pass",
+      "notes": "sense-structure was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    },
+    {
+      "id": "translation",
+      "status": "pass",
+      "notes": "translation was rechecked on 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66; schema_valid, reviewer_independent, and request_binding_valid are all true."
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "final_blind_after_pre_blind_revision",
+      "status": "pass",
+      "notes": "pre_blind_revision was recorded at 2026-09-06T08:05:23Z and final_blind at 2026-09-06T08:18:56.507025+00:00."
+    },
+    {
+      "id": "seal_after_final_blind",
+      "status": "pass",
+      "notes": "blind_seal was recorded after final_blind and binds body hash 02ebd3098956d9255fc2a4205e0ea6b9d60200d4b8c9474cbfdef58ff75add66."
+    },
+    {
+      "id": "no_post_blind_body_change",
+      "status": "pass",
+      "notes": "Both post_blind_resolution dispositions were rejected, so no body change required checker recheck or a repeated final blind."
+    }
+  ],
+  "decision": "reject",
+  "blockers": [
+    {
+      "id": "FR-B01",
+      "target_id": "word_formation:003",
+      "finding_id": "f01",
+      "issue": "The article omits the productive adjectival use of confining, contradicting sealed included candidate c10 and leaving a major conversion uncovered.",
+      "required_fix": "Add the adjectival sense of confining with its restrictive or oppressive meaning and supported usage, then rerun affected checker passes and a new independent final blind on the revised body."
+    },
+    {
+      "id": "FR-B02",
+      "target_id": "grammar_pattern:001",
+      "finding_id": "f02",
+      "issue": "The physical-containment syntax inventory omits confine A within B / A be confined within B, so sealed candidate c04 is not fully represented.",
+      "required_fix": "Add and support the productive within frame for physical containment, then rerun affected checker passes and a new independent final blind on the revised body."
+    }
+  ],
+  "notes": [
+    "All 32 normal checker findings and 5 cold-review findings have complete pre-blind resolutions on the revised body.",
+    "The seven invalidated checker passes were fully rechecked on the sealed current body with valid schema, independence, request binding, and a common current source artifact.",
+    "There are no unresolved or hold statuses in the supplied resolutions; rejection is based solely on two substantive post-blind blockers."
+  ]
+}
