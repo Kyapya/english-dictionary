@@ -59,7 +59,7 @@
         "schema_version": "antonym_axis_blind_record_v1",
         "pass_id": "frame-relation",
         "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
-        "blind_request_sha256": "0d11008cfa90fa57bce9a884cfe1c8d1f715cecf31ad5e890e7406d159367e5f",
+        "blind_request_sha256": "3c6136058de091dc653ce7183cd8d0d0caec49369845316192f410b2b11191cc",
         "recorded_at": "2026-09-05T20:29:19Z",
         "reviewer": {
           "mode": "handoff",
@@ -73,8 +73,8 @@
         "schema_version": "antonym_axis_adjudication_record_v1",
         "pass_id": "frame-relation",
         "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
-        "stage2_request_sha256": "f1880bdab481f6cdcc282a9905c8863c0478db526bc5a281400cb4ba8f81793e",
-        "blind_record_sha256": "f0f575a75b0ed0d2ac6af4946421f921aead3b1cc21fd9a3e7718b97bcc8d946",
+        "stage2_request_sha256": "e1d1084f7a317595eb5efd5da801e4a4f848cb79e374e7711cfbe82b697f8d3a",
+        "blind_record_sha256": "64e9b3278f76d458691292532380b41f966aa2148cdc8fe3031976d14fa4b87b",
         "reviewer": {
           "mode": "handoff",
           "declared_model": "gpt-5",
@@ -85,7 +85,7 @@
           "schema_version": "antonym_axis_blind_record_v1",
           "pass_id": "frame-relation",
           "input_body_sha256": "22f45936b17d73702e084f80c1c2bf69e594dca053207f1eefe5670a1ba60310",
-          "blind_request_sha256": "0d11008cfa90fa57bce9a884cfe1c8d1f715cecf31ad5e890e7406d159367e5f",
+          "blind_request_sha256": "3c6136058de091dc653ce7183cd8d0d0caec49369845316192f410b2b11191cc",
           "recorded_at": "2026-09-05T20:29:19Z",
           "reviewer": {
             "mode": "handoff",
@@ -126,7 +126,7 @@
         "reviewer": {
           "mode": "handoff",
           "declared_model": "gpt-5.6-luna-wm",
-          "ingested_by": "main_orchestrator",
+          "ingested_by": "human",
           "agent_id": "01a0733b-fece-7092-b83b-1540eaf7909b",
           "same_model_as_generation": true
         },
@@ -140,7 +140,7 @@
             "discriminating_terms": [
               "intense look"
             ],
-            "rationale": "The look expresses unusually strong emotion or attitude."
+            "rationale": "The phrase intense look identifies a look expressing unusually strong emotion or attitude."
           },
           {
             "example_id": "ex_4a8e13cd",
@@ -151,7 +151,7 @@
             "discriminating_terms": [
               "intense heat"
             ],
-            "rationale": "The heat has exceptionally high intensity."
+            "rationale": "The phrase intense heat identifies heat with exceptionally high intensity."
           },
           {
             "example_id": "ex_f04a8c37",
@@ -162,7 +162,7 @@
             "discriminating_terms": [
               "intense person"
             ],
-            "rationale": "The person is characterized by unusually strong emotions or attitudes."
+            "rationale": "The phrase intense person identifies a person characterized by unusually strong emotions or attitudes."
           },
           {
             "example_id": "ex_7f2c91a6",
@@ -173,7 +173,7 @@
             "discriminating_terms": [
               "intense pain"
             ],
-            "rationale": "The pain is an exceptionally severe physical sensation."
+            "rationale": "The phrase intense pain identifies an exceptionally severe physical sensation."
           },
           {
             "example_id": "ex_a6e2475c",
@@ -184,7 +184,7 @@
             "discriminating_terms": [
               "intense competition"
             ],
-            "rationale": "The competition has unusually high competitive intensity."
+            "rationale": "The phrase intense competition identifies competition with unusually high competitive intensity."
           },
           {
             "example_id": "ex_d6720fb9",
@@ -195,7 +195,7 @@
             "discriminating_terms": [
               "intense pressure"
             ],
-            "rationale": "The pressure is exceptionally strong external or psychological pressure."
+            "rationale": "The phrase intense pressure identifies exceptionally strong external or psychological pressure."
           },
           {
             "example_id": "ex_6be1d592",
@@ -206,7 +206,7 @@
             "discriminating_terms": [
               "intense relationship"
             ],
-            "rationale": "The relationship has unusually strong emotional connection and interaction."
+            "rationale": "The phrase intense relationship identifies a relationship with unusually strong emotional connection and interaction."
           },
           {
             "example_id": "ex_b0d5e834",
@@ -217,7 +217,7 @@
             "discriminating_terms": [
               "The pain was intense"
             ],
-            "rationale": "The predicate describes exceptionally high intensity of pain."
+            "rationale": "The exact sentence The pain was intense predicates exceptionally high intensity of pain."
           },
           {
             "example_id": "ex_c8b31470",
@@ -228,7 +228,7 @@
             "discriminating_terms": [
               "intense activity"
             ],
-            "rationale": "The activity has an unusually high level and concentration of activity."
+            "rationale": "The phrase intense activity identifies activity with an unusually high level and concentration."
           },
           {
             "example_id": "ex_e8536bd1",
@@ -239,7 +239,7 @@
             "discriminating_terms": [
               "intense anger"
             ],
-            "rationale": "The anger is an exceptionally strong emotion."
+            "rationale": "The phrase intense anger identifies anger as an exceptionally strong emotion."
           },
           {
             "example_id": "ex_19c4a7e2",
@@ -250,7 +250,7 @@
             "discriminating_terms": [
               "intense interest"
             ],
-            "rationale": "The interest is exceptionally strong attention or concern directed toward a subject."
+            "rationale": "The phrase intense interest identifies exceptionally strong attention or concern directed toward a subject."
           },
           {
             "example_id": "ex_3f91d0ab",
@@ -261,7 +261,7 @@
             "discriminating_terms": [
               "intense blue"
             ],
-            "rationale": "The blue has unusually strong colour saturation or visual impact."
+            "rationale": "The phrase intense blue identifies blue with unusually strong colour saturation or visual impact."
           }
         ]
       },

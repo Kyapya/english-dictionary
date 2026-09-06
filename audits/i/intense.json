@@ -8,7 +8,7 @@
   "raw_outputs": {
     "source_inventory": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/source_inventory.json",
-      "sha256": "8f686fce6603e059b2bde7f1660f6f63e395acd1b7e66b2e67aa246674b8cacc",
+      "sha256": "85cb6663af90f309cf72d2534d77e1f36a6be1380b1770437bacae6738575fdf",
       "stage": "source_inventory",
       "run_id": "20260905T152653Z-81cda47a",
       "context_id": "intense-source-first-20260905-r7",
@@ -18,7 +18,7 @@
     },
     "normal_review": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/pass_findings.json",
-      "sha256": "048fc867cf680b6863efe9736682e5795eed26b85c3d155af2c53e1b1d940a9e",
+      "sha256": "f876fa17df679360d591cc8e03879cf52b4296ad644a7c55dfc09e11dc741c09",
       "stage": "normal_review",
       "run_id": "normal-intense-20260905T152653Z-81cda47a-final",
       "context_id": "normal-intense-context-20260905T152653Z-81cda47a-final",
@@ -28,7 +28,7 @@
     },
     "cold_review": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/cold_review.json",
-      "sha256": "22752ca96a4d16ef35d5b2b939030d0c1605f68920609e7991f0b51821e05cba",
+      "sha256": "4db449776abfaf4b87412ec9b5cae31ffa2ae4e33343a4acd8990bfc01872458",
       "stage": "cold_review",
       "run_id": "cold-intense-20260905T152653Z-81cda47a-final",
       "context_id": "cold-intense-context-20260905T152653Z-81cda47a-final",
@@ -38,7 +38,7 @@
     },
     "resolutions": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/resolutions.json",
-      "sha256": "a5c8ac6381068b7003b7ba571108b8579a5270be7f5aaa253352ecd31bf10351",
+      "sha256": "9c30a47ffe9cfd23376ae1a1971d5bd21f1731b0a48ff78fc9fce740bd6b5952",
       "stage": "resolutions",
       "run_id": "resolution-intense-20260905T152653Z-81cda47a-final",
       "context_id": "resolution-intense-context-20260905T152653Z-81cda47a-final",
@@ -48,7 +48,7 @@
     },
     "final_blind": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/final_blind.json",
-      "sha256": "d4115650d0c7458648cf1d92636fff80f2a80969a2c7630b62ccaeed13811396",
+      "sha256": "7a59efb3d33f6a7ebb8c96e773201cff317b7c03b53dd90e0cd9224e1ff2082e",
       "stage": "final_blind",
       "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
       "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
@@ -58,12 +58,12 @@
     },
     "blind_seal": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/blind_seal.json",
-      "sha256": "eaf3e6330fb1c9a0a6b50a5178ad5414ac6b9e5e6d9a22741f4af22b4b9d6c52",
+      "sha256": "fb1b374956383ed297dbdebf73f9905fa04551418a44e64cef0b4f11daa42521",
       "stage": "blind_seal"
     },
     "final_review": {
       "path": "audits/runs/i/intense/20260905T152653Z-81cda47a-final/final_review.json",
-      "sha256": "117b81240836b7c045c26bb86456c6d21940012cc1a6b2e991a9d8875231a048",
+      "sha256": "c392083c42a22f3dd7c270c8633afe9c32d710617720e66b032780bd39fcba6f",
       "stage": "final_review",
       "run_id": "blind-intense-20260905T152653Z-81cda47a-final",
       "context_id": "blind-intense-context-20260905T152653Z-81cda47a-final",
@@ -624,6 +624,15 @@
         "rationale": "The source inventory distinguishes the published US-English lemma/part-of-speech corpus fields from the article's scoped learner indicators and does not carry the Oxford B2 fact as an article claim."
       },
       {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "Oxford's current Oxford 3000 classification labels intense as a B2 adjective.",
+        "disposition": "excluded",
+        "rationale": "The label is retained as source metadata, but the article does not present an Oxford 3000 or B2 proficiency claim; excluding it avoids implying that the general register line is an Oxford level label."
+      },
+      {
         "id": "U-009",
         "source_fact_ids": [
           "F-020",
@@ -926,13 +935,16 @@
         ],
         "source_supports": [
           {
-            "source_fact_id": "F-026"
+            "source_fact_id": "F-026",
+            "support_summary": "The public COCA table gives intense adjective-lemma rank 2315, raw frequency 14452, and dispersion 0.97, supplying the article's numeric fields."
           },
           {
-            "source_fact_id": "F-027"
+            "source_fact_id": "F-027",
+            "support_summary": "The same table supplies the comparison-lemma ranks and values used for strong, extreme, powerful, fierce, and deep."
           },
           {
-            "source_fact_id": "F-028"
+            "source_fact_id": "F-028",
+            "support_summary": "The absence of intensive, passionate, and fervent in the public top-5000 table supports the outside-range score of 3 and the non-sense-specific caveat."
           }
         ],
         "source_fact_ids": [
@@ -1033,7 +1045,7 @@
       "severity": "medium",
       "description": "intense が活動について使われる場合の典型例を、短期間への活動集中として強く一般化している。",
       "reason": "intense activity や intense competition は、短期間に集中する場合だけでなく、活動・競争の強度や激しさが高い場合にも使われる。短期間性を必要条件のように学習者が受け取るおそれがある。",
-      "rationale": "活動用法の説明が時間的集中に偏っており、強度・激しさそのものとの境界が不明確になる。",
+      "rationale": "「短期間に多くの行動が集中する文脈にも使う。」という活動用法の説明が時間的集中に偏っており、強度・激しさそのものとの境界が不明確になる。",
       "suggested_direction": "「短期間に多くの行動が集中することもあるが、必須ではない」と補足し、活動用法の中心を強度・激しさに置く。",
       "scope_anchors": [
         {
@@ -1060,7 +1072,7 @@
       "severity": "medium",
       "description": "人・視線・表情・関係の用法を、強い感情や感情的相互作用にほぼ限定している。",
       "reason": "an intense person は感情的で極端、真剣、強烈な印象を与える人などを指し、必ずしも特定の強い感情や態度を持つという意味ではない。intense look も感情が表れた視線に限らず、凝視するような強い視線を表せる。",
-      "rationale": "複数の用法を一つの心理的説明にまとめたため、文脈に応じた意味の幅が狭くなっている。",
+      "rationale": "「人・視線・表情・関係では、対象に応じた強い感情や態度、または強い感情的相互作用として現れる。」と複数の用法を一つの心理的説明にまとめたため、文脈に応じた意味の幅が狭くなっている。",
       "suggested_direction": "人については「性格・存在感・取り組み方などが強烈」とし、視線については感情表出に加えて「集中した／鋭い」視線も含める。",
       "scope_anchors": [
         {
@@ -1092,7 +1104,7 @@
       "severity": "low",
       "description": "intense relationship の意味を、情緒的な結びつきや相互作用の強さとして一方向に説明している。",
       "reason": "intense relationship は親密で深い関係にも、感情の起伏が激しく緊張を伴う関係にも使われる。必ずしも肯定的な情緒的結びつきや相互作用を含意しない。",
-      "rationale": "本文は「評価は対象と文脈により変わる」と述べる一方、relationship の個別説明では否定的・緊張的な用法が見えにくい。",
+      "rationale": "本文は「an intense relationship＝情緒的な結びつきや相互作用が強い関係」と述べる一方、relationship の個別説明では否定的・緊張的な用法が見えにくい。",
       "suggested_direction": "「感情的な結びつきや関わりが強く、親密な場合にも緊張を伴う場合にも使う」と明示する。",
       "scope_anchors": [
         {
@@ -1124,7 +1136,7 @@
       "severity": "low",
       "description": "頻度指標の具体的な順位・出現数・分散度と10段階評価を、根拠資料への参照なしに断定している。",
       "reason": "本文だけではCOCAの版、抽出条件、順位表、計算手順を検証できない。さらに語義別頻度ではないため、各用法の学習上の頻度と誤解される可能性がある。",
-      "rationale": "注意書きはあるものの、数値の再現性と指標の意味が読者にとって確認できない。",
+      "rationale": "「intense は順位2,315、出現数14,452、分散度0.97で、10段階は順位帯を1–500=10、501–1,000=9、1,001–1,500=8、1,501–2,500=7、2,501–3,500=6、3,501–4,500=5、4,501–5,000=4、上位5,000外=3と機械的に対応させた。」という数値について、注意書きはあるものの再現性と指標の意味が読者にとって確認できない。",
       "suggested_direction": "出典・対象データ・取得時点を示すか、検証可能な出典がない場合は数値を削除し、「比較的よく使われる一般語」程度に留める。",
       "scope_anchors": [
         {
@@ -1178,11 +1190,11 @@
     "decision": "pass",
     "blockers": [],
     "notes": [
-      "全42 target、全27 relation、normal candidate 0件、blind candidate c1-c10、finding F001-F004、evidence EVID-001〜EVID-010、source-union U-001〜U-009を各1回判定した。",
+      "全42 target、全27 relation、normal candidate 0件、blind candidate c1-c10、finding F001-F004、evidence EVID-001〜EVID-010、source-union U-001〜U-010を各1回判定した。",
       "活動の短期間集中は必須条件ではなく、look/gazeの強い感情・集中・鋭さ、人・関係の文脈依存性はいずれも本文・出典・blind assertionに整合する。"
     ],
     "reviewed_at": "2026-09-05T21:30:00Z",
-    "blind_output_sha256": "b67ece346b9461f339973bfc5d757db9ef292eda8e3fb0ba5d1ddb321d31297e"
+    "blind_output_sha256": "e849fe19af4dddd946c0de10602e9dd9a296636afeddfb710e665fff4d5a04cf"
   },
   "invalidated_by": [],
   "review_liveness_errors": []

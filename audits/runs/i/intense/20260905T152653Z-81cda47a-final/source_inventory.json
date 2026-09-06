@@ -574,6 +574,15 @@
         "rationale": "The source inventory distinguishes the published US-English lemma/part-of-speech corpus fields from the article's scoped learner indicators and does not carry the Oxford B2 fact as an article claim."
       },
       {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "Oxford's current Oxford 3000 classification labels intense as a B2 adjective.",
+        "disposition": "excluded",
+        "rationale": "The label is retained as source metadata, but the article does not present an Oxford 3000 or B2 proficiency claim; excluding it avoids implying that the general register line is an Oxford level label."
+      },
+      {
         "id": "U-009",
         "source_fact_ids": [
           "F-020",
@@ -876,13 +885,16 @@
         ],
         "source_supports": [
           {
-            "source_fact_id": "F-026"
+            "source_fact_id": "F-026",
+            "support_summary": "The public COCA table gives intense adjective-lemma rank 2315, raw frequency 14452, and dispersion 0.97, supplying the article's numeric fields."
           },
           {
-            "source_fact_id": "F-027"
+            "source_fact_id": "F-027",
+            "support_summary": "The same table supplies the comparison-lemma ranks and values used for strong, extreme, powerful, fierce, and deep."
           },
           {
-            "source_fact_id": "F-028"
+            "source_fact_id": "F-028",
+            "support_summary": "The absence of intensive, passionate, and fervent in the public top-5000 table supports the outside-range score of 3 and the non-sense-specific caveat."
           }
         ],
         "source_fact_ids": [
