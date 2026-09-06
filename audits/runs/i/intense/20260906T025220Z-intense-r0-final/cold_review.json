@@ -1,0 +1,32 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-20260906T025220Z-intense-r0",
+  "context_id": "cold-20260906T025220Z-intense-r0-context",
+  "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+  "prompt_sha256": "1ba58422a0fede126a88cd6c47ffe5ee8c2274f3ad0440c2f2adb1fad3784919",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "cold-20260906T025220Z-intense-r0",
+    "same_model_as_generation": true
+  },
+  "reviewer_provenance": {
+    "reviewer_role": "independent_context_free_cold_reviewer",
+    "stage": "cold_review",
+    "review_basis": "entry_body_only",
+    "session_mode": "separate_model_session",
+    "run_id": "cold-20260906T025220Z-intense-r0",
+    "context_id": "cold-20260906T025220Z-intense-r0-context",
+    "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738"
+  },
+  "summary": "本文だけを対象にした独立冷却レビューを完了。主要語義の境界、活動用法とintensiveの対比、人・視線・関係の評価範囲、例文の対応を確認し、問題候補は見つからなかった。",
+  "findings": [],
+  "recorded_at": "2026-09-06T03:12:00Z"
+}

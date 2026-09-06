@@ -1,0 +1,382 @@
+{
+  "schema_version": "check_pass_output_v2",
+  "pass_id": "example-attribution",
+  "stage": "normal_review",
+  "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+  "decision": "pass",
+  "findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-luna-wm",
+    "ingested_by": "human",
+    "agent_id": "checker-example_attribution-20260906T025220Z-r0",
+    "same_model_as_generation": true
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+    "blind_request_sha256": "db7ea972265b8ba9a48cbe45b24909cd93348b06abbd2278d1e717e9dcf6ac81",
+    "recorded_at": "2026-09-06T03:10:30Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5.6-luna-wm",
+      "ingested_by": "human",
+      "agent_id": "checker-example_attribution-20260906T025220Z-r0",
+      "same_model_as_generation": true
+    },
+    "attributions": [
+      {
+        "example_id": "ex-cac6fbd01b66",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense pain after"
+        ],
+        "rationale": "「intense pain after」を含む例文「She was in intense pain after the accident.」が、語義1の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-c7448a0187fe",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense heat made"
+        ],
+        "rationale": "「intense heat made」を含む例文「The intense heat made it unsafe to work outside.」が、語義1の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-68cf7ffcf7c5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense interest from"
+        ],
+        "rationale": "「intense interest from」を含む例文「The discovery attracted intense interest from researchers.」が、語義1の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-ef47c5dce952",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense pressure to"
+        ],
+        "rationale": "「intense pressure to」を含む例文「The manager was under intense pressure to meet the deadline.」が、語義1の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-3f3e7ef55646",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense anger among"
+        ],
+        "rationale": "「intense anger among」を含む例文「The decision caused intense anger among local residents.」が、語義1の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-2e5358e3704e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "intense blue of"
+        ],
+        "rationale": "「intense blue of」を含む例文「The intense blue of the sky stood out after the storm.」が、語義1の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-58dc326e3551",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense competition for"
+        ],
+        "rationale": "「intense competition for」を含む例文「There is intense competition for places at the top universities.」が、語義2の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-3eedf64ae06d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense debate over"
+        ],
+        "rationale": "「intense debate over」を含む例文「The proposal has sparked intense debate over data privacy.」が、語義2の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-e490e09ae468",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense activity before"
+        ],
+        "rationale": "「intense activity before」を含む例文「The airport experienced a period of intense activity before the holiday.」が、語義2の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-ca5aaa9525aa",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense effort to"
+        ],
+        "rationale": "「intense effort to」を含む例文「The team made an intense effort to restore the service.」が、語義2の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-a4440686146e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "intense study"
+        ],
+        "rationale": "「intense study」を含む例文「After months of intense study, she passed the examination.」が、語義2の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-2d8fb5542a02",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense person who"
+        ],
+        "rationale": "「intense person who」を含む例文「He is an intense person who takes every project seriously.」が、語義3の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-6b81460a95b8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense about protecting"
+        ],
+        "rationale": "「intense about protecting」を含む例文「She is intense about protecting the local forest.」が、語義3の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-0ca05f6cd532",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense gaze"
+        ],
+        "rationale": "「intense gaze」を含む例文「I felt uneasy under his intense gaze.」が、語義3の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-2468dcad1266",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense look when"
+        ],
+        "rationale": "「intense look when」を含む例文「She gave me an intense look when I mentioned the mistake.」が、語義3の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-137294550a9a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense expression made"
+        ],
+        "rationale": "「intense expression made」を含む例文「His intense expression made the conversation feel serious.」が、語義3の用法を具体的に示す。"
+      },
+      {
+        "example_id": "ex-a7979744aff7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "intense working relationship"
+        ],
+        "rationale": "「intense working relationship」を含む例文「The two actors developed an intense working relationship during the production.」が、語義3の用法を具体的に示す。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-06T03:10:45Z",
+  "blind_attribution_alignment": {
+    "schema_version": "example_attribution_alignment_key_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+    "blind_request_sha256": "db7ea972265b8ba9a48cbe45b24909cd93348b06abbd2278d1e717e9dcf6ac81",
+    "shuffle_seed": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+    "examples": [
+      {
+        "example_id": "ex-cac6fbd01b66",
+        "source_example_id": "collocation:001",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: She was in intense pain after the accident."
+        }
+      },
+      {
+        "example_id": "ex-c7448a0187fe",
+        "source_example_id": "collocation:002",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The intense heat made it unsafe to work outside."
+        }
+      },
+      {
+        "example_id": "ex-68cf7ffcf7c5",
+        "source_example_id": "collocation:003",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The discovery attracted intense interest from researchers."
+        }
+      },
+      {
+        "example_id": "ex-ef47c5dce952",
+        "source_example_id": "collocation:004",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The manager was under intense pressure to meet the deadline."
+        }
+      },
+      {
+        "example_id": "ex-3f3e7ef55646",
+        "source_example_id": "collocation:005",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The decision caused intense anger among local residents."
+        }
+      },
+      {
+        "example_id": "ex-2e5358e3704e",
+        "source_example_id": "collocation:006",
+        "assigned_sense_id": "sense:001",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The intense blue of the sky stood out after the storm."
+        }
+      },
+      {
+        "example_id": "ex-58dc326e3551",
+        "source_example_id": "collocation:007",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: There is intense competition for places at the top universities."
+        }
+      },
+      {
+        "example_id": "ex-3eedf64ae06d",
+        "source_example_id": "collocation:008",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The proposal has sparked intense debate over data privacy."
+        }
+      },
+      {
+        "example_id": "ex-e490e09ae468",
+        "source_example_id": "collocation:009",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The airport experienced a period of intense activity before the holiday."
+        }
+      },
+      {
+        "example_id": "ex-ca5aaa9525aa",
+        "source_example_id": "collocation:010",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The team made an intense effort to restore the service."
+        }
+      },
+      {
+        "example_id": "ex-a4440686146e",
+        "source_example_id": "collocation:011",
+        "assigned_sense_id": "sense:002",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: After months of intense study, she passed the examination."
+        }
+      },
+      {
+        "example_id": "ex-2d8fb5542a02",
+        "source_example_id": "collocation:012",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: He is an intense person who takes every project seriously."
+        }
+      },
+      {
+        "example_id": "ex-6b81460a95b8",
+        "source_example_id": "collocation:013",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: She is intense about protecting the local forest."
+        }
+      },
+      {
+        "example_id": "ex-0ca05f6cd532",
+        "source_example_id": "collocation:014",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: I felt uneasy under his intense gaze."
+        }
+      },
+      {
+        "example_id": "ex-2468dcad1266",
+        "source_example_id": "collocation:015",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: She gave me an intense look when I mentioned the mistake."
+        }
+      },
+      {
+        "example_id": "ex-137294550a9a",
+        "source_example_id": "collocation:016",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: His intense expression made the conversation feel serious."
+        }
+      },
+      {
+        "example_id": "ex-a7979744aff7",
+        "source_example_id": "collocation:017",
+        "assigned_sense_id": "sense:003",
+        "anchor": {
+          "section": "collocations_examples",
+          "exact_quote": "例: The two actors developed an intense working relationship during the production."
+        }
+      }
+    ],
+    "sense_usage_notes": []
+  }
+}

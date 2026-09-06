@@ -1,0 +1,224 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "019fa76dd6eb31cb85d79c4e9892280f6f6259576a1a4de4fb45bb52558f3738",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "part_of_speech": "形容詞",
+        "labels": [
+          "限定",
+          "叙述"
+        ],
+        "meaning_area_labels": [
+          "程度",
+          "感覚",
+          "感情",
+          "性質",
+          "色",
+          "光",
+          "熱",
+          "寒さ",
+          "圧力"
+        ],
+        "glosses": [
+          "強烈な",
+          "非常に強い"
+        ]
+      },
+      {
+        "sense_id": "sense:002",
+        "part_of_speech": "形容詞",
+        "labels": [
+          "限定"
+        ],
+        "meaning_area_labels": [
+          "活動",
+          "競争",
+          "議論",
+          "努力",
+          "勉強",
+          "訓練"
+        ],
+        "glosses": [
+          "激しい",
+          "集中した"
+        ]
+      },
+      {
+        "sense_id": "sense:003",
+        "part_of_speech": "形容詞",
+        "labels": [
+          "限定",
+          "叙述"
+        ],
+        "meaning_area_labels": [
+          "人",
+          "態度",
+          "表情",
+          "視線",
+          "関係"
+        ],
+        "glosses": [
+          "感情や態度の強い",
+          "強い印象を与える"
+        ]
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-a7979744aff7",
+        "source_example_id": "collocation:017",
+        "example": "The two actors developed an intense working relationship during the production.",
+        "translation": "その2人の俳優は制作期間中に感情的な結びつきの強い仕事上の関係を築いた。",
+        "exact_quote": "例: The two actors developed an intense working relationship during the production."
+      },
+      {
+        "example_id": "ex-137294550a9a",
+        "source_example_id": "collocation:016",
+        "example": "His intense expression made the conversation feel serious.",
+        "translation": "彼の険しい真剣な表情で、会話は重い雰囲気になった。",
+        "exact_quote": "例: His intense expression made the conversation feel serious."
+      },
+      {
+        "example_id": "ex-2468dcad1266",
+        "source_example_id": "collocation:015",
+        "example": "She gave me an intense look when I mentioned the mistake.",
+        "translation": "私がそのミスに言及すると、彼女は強い視線を私に向けた。",
+        "exact_quote": "例: She gave me an intense look when I mentioned the mistake."
+      },
+      {
+        "example_id": "ex-0ca05f6cd532",
+        "source_example_id": "collocation:014",
+        "example": "I felt uneasy under his intense gaze.",
+        "translation": "彼の強い視線を受けて、私は落ち着かなかった。",
+        "exact_quote": "例: I felt uneasy under his intense gaze."
+      },
+      {
+        "example_id": "ex-6b81460a95b8",
+        "source_example_id": "collocation:013",
+        "example": "She is intense about protecting the local forest.",
+        "translation": "彼女は地域の森を守ることに強い思いを抱いている。",
+        "exact_quote": "例: She is intense about protecting the local forest."
+      },
+      {
+        "example_id": "ex-2d8fb5542a02",
+        "source_example_id": "collocation:012",
+        "example": "He is an intense person who takes every project seriously.",
+        "translation": "彼はどのプロジェクトにも真剣に取り組む、強い印象を与える人だ。",
+        "exact_quote": "例: He is an intense person who takes every project seriously."
+      },
+      {
+        "example_id": "ex-a4440686146e",
+        "source_example_id": "collocation:011",
+        "example": "After months of intense study, she passed the examination.",
+        "translation": "何か月もの厳しい勉強の末、彼女は試験に合格した。",
+        "exact_quote": "例: After months of intense study, she passed the examination."
+      },
+      {
+        "example_id": "ex-ca5aaa9525aa",
+        "source_example_id": "collocation:010",
+        "example": "The team made an intense effort to restore the service.",
+        "translation": "チームはサービスを復旧させるために全力を尽くした。",
+        "exact_quote": "例: The team made an intense effort to restore the service."
+      },
+      {
+        "example_id": "ex-e490e09ae468",
+        "source_example_id": "collocation:009",
+        "example": "The airport experienced a period of intense activity before the holiday.",
+        "translation": "その空港では休暇前に活動が非常に活発な時期があった。",
+        "exact_quote": "例: The airport experienced a period of intense activity before the holiday."
+      },
+      {
+        "example_id": "ex-3eedf64ae06d",
+        "source_example_id": "collocation:008",
+        "example": "The proposal has sparked intense debate over data privacy.",
+        "translation": "その提案はデータプライバシーをめぐる激しい議論を引き起こした。",
+        "exact_quote": "例: The proposal has sparked intense debate over data privacy."
+      },
+      {
+        "example_id": "ex-58dc326e3551",
+        "source_example_id": "collocation:007",
+        "example": "There is intense competition for places at the top universities.",
+        "translation": "一流大学の枠をめぐって激しい競争がある。",
+        "exact_quote": "例: There is intense competition for places at the top universities."
+      },
+      {
+        "example_id": "ex-2e5358e3704e",
+        "source_example_id": "collocation:006",
+        "example": "The intense blue of the sky stood out after the storm.",
+        "translation": "嵐の後、空の鮮やかな青が際立っていた。",
+        "exact_quote": "例: The intense blue of the sky stood out after the storm."
+      },
+      {
+        "example_id": "ex-3f3e7ef55646",
+        "source_example_id": "collocation:005",
+        "example": "The decision caused intense anger among local residents.",
+        "translation": "その決定は地元住民の間に激しい怒りを引き起こした。",
+        "exact_quote": "例: The decision caused intense anger among local residents."
+      },
+      {
+        "example_id": "ex-ef47c5dce952",
+        "source_example_id": "collocation:004",
+        "example": "The manager was under intense pressure to meet the deadline.",
+        "translation": "その管理職は期限に間に合わせるよう非常に強い重圧を受けていた。",
+        "exact_quote": "例: The manager was under intense pressure to meet the deadline."
+      },
+      {
+        "example_id": "ex-68cf7ffcf7c5",
+        "source_example_id": "collocation:003",
+        "example": "The discovery attracted intense interest from researchers.",
+        "translation": "その発見は研究者から強い関心を集めた。",
+        "exact_quote": "例: The discovery attracted intense interest from researchers."
+      },
+      {
+        "example_id": "ex-c7448a0187fe",
+        "source_example_id": "collocation:002",
+        "example": "The intense heat made it unsafe to work outside.",
+        "translation": "強烈な暑さのため、屋外で働くのは危険だった。",
+        "exact_quote": "例: The intense heat made it unsafe to work outside."
+      },
+      {
+        "example_id": "ex-cac6fbd01b66",
+        "source_example_id": "collocation:001",
+        "example": "She was in intense pain after the accident.",
+        "translation": "彼女は事故の後、激しい痛みに苦しんでいた。",
+        "exact_quote": "例: She was in intense pain after the accident."
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  }
+}
