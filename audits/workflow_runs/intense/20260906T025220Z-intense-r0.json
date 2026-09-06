@@ -1,0 +1,40 @@
+{
+  "schema_version": "entry_workflow_run_v1",
+  "run_id": "20260906T025220Z-intense-r0",
+  "headword": "intense",
+  "entry_path": "entries/i/intense.md",
+  "branch": "recreate/intense-v5-20260906",
+  "base_sha": "a07b05ffdbfee5304031045bb45a43ebe3f25147",
+  "profile": "extended",
+  "profile_reason": "ゼロベース再作成で、intense の程度・活動・人／表現・関係の主要用法を既存本文から独立して棚卸しし、前回の一語義への過密な統合を再評価するため",
+  "limits": {
+    "max_elapsed_minutes": 90,
+    "max_pre_draft_minutes": 30,
+    "max_research_queries": 18,
+    "max_candidate_pages": 26
+  },
+  "usage": {
+    "research_queries": 0,
+    "candidate_pages": 0
+  },
+  "status": "in_progress",
+  "stage": "preflight",
+  "started_at": "2026-09-06T02:52:20Z",
+  "deadline_at": "2026-09-06T04:22:20Z",
+  "pre_draft_deadline_at": "2026-09-06T03:22:20Z",
+  "last_heartbeat_at": "2026-09-06T02:52:20Z",
+  "remote_checkpoint": {
+    "confirmed": false,
+    "confirmed_at": null,
+    "commit_sha": ""
+  },
+  "stage_history": [
+    {
+      "stage": "preflight",
+      "recorded_at": "2026-09-06T02:52:20Z",
+      "notes": "run initialized for zero-based recreation"
+    }
+  ],
+  "stop_reason": "",
+  "open_questions": []
+}
