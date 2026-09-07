@@ -7,7 +7,7 @@ on:
       - "audits/**"
       - "process_improvement/**"
       - "queue/**"
-      - "docs/multiword_workflow.md"
+      - "docs/multi_word*.md"
       - "prompts/**/*.md"
       - "scripts/**/*.py"
       - "scripts/**/*.js"
@@ -43,9 +43,6 @@ jobs:
 
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
-
-      - name: Validate word batch intake
-        run: python scripts/run_words.py validate
 
       - name: Validate entry formats
         run: python scripts/validate_entry.py entries

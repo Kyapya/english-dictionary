@@ -4,25 +4,27 @@
 `prompts/entry_spec_v5.md`、工程・入力分離・checkpoint・budget・statusは
 `scripts/run_word.py` と参照スクリプトが正本である。
 
-## 1語・複数語の依頼受付（調整役）
+## 複数語・1語の依頼受付
 
-新規作成は1語でも複数語でも `scripts/run_words.py enqueue <word> [<word> ...]`
-で全件を先に保存する。詳細運用は調整役だけが `docs/multiword_workflow.md` を読む。
-受付台帳をcommit・GitHub接続で保存し、`prepare <batch-id>` で空き枠へ配分する。
-単語側workdirの予約commitを既存publisherで保存してから、担当が実際に着手できる語を
-`start <batch-id> <slug>` で開始する。単語ごとのworkdir・branch・runを混ぜない。
+通常の単語追加依頼は1語でも複数語でも `scripts/start_words.py` の共通入口を使う。
+カンマ・読点・改行の一覧を受け付け、短いフレーズは1項目として渡す。
+ユーザーに一語の完了を待って次を再依頼させない。具体的な局所修整は従来経路のまま。
 
-初期値は同時2語。枠不足時は未開始のまま待機し、1語ずつの実行も許可する。
-受付だけで依頼を完了扱いにせず、利用可能な担当で既存の単語別フローを進める。
-1語の停止を理由に他語を打ち切らず、`refresh` → `prepare` で残りも処理する。
-独立担当の実行機能がない場合はその限界と保存済みの残件を明示し、並列実行を装わない。
+```bash
+python scripts/start_words.py alpha beta "take off" --enqueue-only
+python scripts/start_words.py --dispatch --max-active 2
+python scripts/start_words.py --status
+```
 
-開始済みrunは同じrunを再開する。待機語にdeadlineを作らず、失敗回数のリセットや
-別batchによる重複開始をしない。`status` は読取り専用、`refresh` は既存結果の反映だけ。
-記事の合否は既存guardに委ねる。`review_complete`、GitHubへのマージ、Notion同期の
-完了を区別する。`checked` 済み語への具体的な修整・明示的全面再作成は下記の既存経路を使う。
+`docs/multi_word_workflow.md` をcontrol担当だけが読む。受付票とjob状態をcontrol branchへ
+保存し、利用可能な語担当の数だけdispatchする。枠を確認できない環境はmax-active 1とし、
+受付だけはまとめる。各語担当には独立したworkspace/割当票を渡し、その場所で下記の
+既存1語フローを最後まで進める。一語の停止で他語を止めず、空き枠へ待機語を渡す。
+複数語の本文・監査を同じ生成contextに束ねない。start_wordsはLLMを自動起動しないため、
+実行枠がない環境で並列生成済みと報告しない。旧1語CLIの互換性と全品質gateを維持する。
+別cloneを独立したcontrolとして二重起動せず、既存controlとremote状態を先に確認する。
 
-## 単語別オーケストレータ（既存run・各word worker）
+## オーケストレータ
 
 ```bash
 python scripts/run_word.py --dry-run <headword>
@@ -118,7 +120,6 @@ final blindを再実行する。findingゼロは追加レビュー理由にし�
 
 | 用途 | 正本 |
 |---|---|
-| 単語受付・配分 | `scripts/run_words.py`、`queue/batch_config.json`、`docs/multiword_workflow.md` |
 | 記事内容 | `prompts/entry_spec_v5.md` |
 | 通常チェック | `prompts/check_router_v6.md`、`prompts/check_pass_frame_relation_v7.md`、`prompts/check_pass_*_v6.md` |
 | コールドレビュー | `prompts/cold_review_prompt_v1.md` |
