@@ -2,9 +2,14 @@
 // File bytes stay inside tool orchestration; only the verified receipt is returned.
 const quote = value => "'" + value.replaceAll("'", "'\\''") + "'";
 const command = async args => {
-  const result = await tools.exec_command({cmd: "python scripts/publish_checkpoint.py " + args, workdir: root, max_output_tokens: 10000});
-  if (result.exit_code !== 0) throw new Error(result.output);
-  return JSON.parse(result.output);
+  let result = await tools.exec_command({cmd: "python scripts/publish_checkpoint.py " + args, workdir: root, max_output_tokens: 10000});
+  let output = result.output;
+  while (result.session_id && result.exit_code == null) {
+    result = await tools.write_stdin({session_id: result.session_id, chars: "", yield_time_ms: 1000, max_output_tokens: 10000});
+    output += result.output;
+  }
+  if (result.exit_code !== 0) throw new Error(output || "Publication command failed");
+  return JSON.parse(output);
 };
 const shaOf = result => {
   if (result.isError) throw new Error(JSON.stringify(result));
