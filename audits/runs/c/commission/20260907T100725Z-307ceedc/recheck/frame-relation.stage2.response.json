@@ -1,0 +1,25 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "stage2_request_sha256": "8b179612f1676037da1dc457646c5029922a567130e427d8ee7729627f4b623c",
+  "blind_record_sha256": "6b9726a6d0081363e246f88b97a54b5d165e92345316b30e992bc529fd3d80fd",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "same_model_as_generation": true,
+    "agent_id": "commission-frame-agent"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-3ef7c9eefc08",
+      "flags": [],
+      "rationale": "commission は船舶の就役、または設備を検証して運用可能な側へ移す工程を表し、decommission は同じ運用移行軸上で運用から外す逆方向を表す。軸は当該語義から導出でき、方向型に収まり、違い行にも対立の不成立を自認する記述はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

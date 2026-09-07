@@ -1,0 +1,2550 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "specification": "prompts/check_pass_evidence_v6.md",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米・英: /kəˈmɪʃən/。3音節で第2音節に主強勢があり、第1音節の母音は弱い /ə/ になる。語末の -sion は /ʃən/ と発音し、commissioned は /kəˈmɪʃənd/、commissioning は /kəˈmɪʃənɪŋ/ となる。  "
+      }
+    ],
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語 commissioun が古フランス語 commission を経てラテン語 commissio「委ねること、委任」にさかのぼる。これは committere「結び付ける、委ねる」の過去分詞語幹に由来し、com-「共に」と mittere「送る」から成る。「権限や仕事を人に委ねる」という核から、委員会、正式な依頼、軍の任官、取引を委ねた相手への手数料などの意味が発達した。同語源の主要語に commit「委ねる、犯す」、commitment「委任、約束・責任」、commissioner「委員、長官」がある。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・commissioner（名詞）— 委員、行政機関などの長官・責任者。  "
+      },
+      {
+        "line": 24,
+        "text": "・commissioned（形容詞・過去分詞）— 正式に依頼された、士官に任官した、または船舶・設備が正式に就役・運用可能となった。commissioned officer は「士官」。  "
+      },
+      {
+        "line": 25,
+        "text": "・commissioning（名詞・動名詞）— 発注・任命、または設備を試験して運用可能にする工程。  "
+      },
+      {
+        "line": 26,
+        "text": "・decommission（動詞）— 船舶、設備、原子力施設などを運用から外す。  "
+      },
+      {
+        "line": 27,
+        "text": "・recommission（動詞）— 運用を停止していた船舶・設備などを再び就役・稼働させる。  "
+      },
+      {
+        "line": 28,
+        "text": "・commission-free（形容詞）— 売買手数料のかからない。  "
+      }
+    ],
+    "core_image": [
+      {
+        "line": 30,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 32,
+        "text": "権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。  "
+      },
+      {
+        "line": 34,
+        "text": "・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）  "
+      },
+      {
+        "line": 35,
+        "text": "・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）  "
+      },
+      {
+        "line": 36,
+        "text": "・人へ任務とそれを行う権限を正式に委ねること → 「委任、任務、権限」（語義3）  "
+      },
+      {
+        "line": 37,
+        "text": "・作品・専門成果物の制作を専門家へ正式に委ねること → 「正式な依頼、発注、依頼作品」（語義4）  "
+      },
+      {
+        "line": 38,
+        "text": "・軍務上の権限を将校へ正式に委ねること → 「士官任命、士官の地位・権限」（語義6）  "
+      },
+      {
+        "line": 39,
+        "text": "・船舶や設備へ正式な役目を与えること → in commission「就役・稼働中」。その否定から out of commission「使用不能」、さらに人の「活動不能」へ比喩的に広がる（語義7）  "
+      },
+      {
+        "line": 40,
+        "text": "・制作や調査を人へ正式に委ねること → 「～を正式に依頼する、発注する」（語義8）  "
+      },
+      {
+        "line": 41,
+        "text": "・軍務上の権限を人へ正式に委ねること → 「～を士官に任命する」（語義9）  "
+      },
+      {
+        "line": 42,
+        "text": "・船舶を正式な任務へ就けること、設備の運用準備を検証すること → 「船舶を就役させる／設備の運用可能性を検証する」（語義10）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 48,
+        "text": "【日本語訳・定義】政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料"
+      },
+      {
+        "line": 110,
+        "text": "【日本語訳・定義】商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算名詞・形式的】委任された任務・権限"
+      },
+      {
+        "line": 172,
+        "text": "【日本語訳・定義】外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 222,
+        "text": "【日本語訳・定義】芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 279,
+        "text": "【日本語訳・定義】犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・権限"
+      },
+      {
+        "line": 317,
+        "text": "【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 355,
+        "text": "【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。  "
+      },
+      {
+        "line": 403,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 405,
+        "text": "【日本語訳・定義】人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。  "
+      },
+      {
+        "line": 472,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 474,
+        "text": "【日本語訳・定義】軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。  "
+      },
+      {
+        "line": 510,
+        "text": "10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する"
+      },
+      {
+        "line": 512,
+        "text": "【日本語訳・定義】船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 50,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 52,
+        "text": "【レジスター/領域】公的・行政・報道。一般の committee よりも、公的権限や特定任務を持つ組織を指しやすい。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料"
+      },
+      {
+        "line": 112,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 114,
+        "text": "【レジスター/領域】ビジネス、営業、雇用、金融、銀行、証券、商取引。日常の一般的なサービス料金には fee の方が広く使われる。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算名詞・形式的】委任された任務・権限"
+      },
+      {
+        "line": 174,
+        "text": "【頻度】〈3/10〉  "
+      },
+      {
+        "line": 176,
+        "text": "【レジスター/領域】形式的、歴史的、外交・行政・代理・文学。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 224,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 226,
+        "text": "【レジスター/領域】芸術、出版、建築、調査、専門業務。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 281,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 283,
+        "text": "【レジスター/領域】法律、報道、公的文書。日常会話では committing a crime や carrying out the act の方が普通。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・権限"
+      },
+      {
+        "line": 319,
+        "text": "【頻度】〈4/10〉  "
+      },
+      {
+        "line": 321,
+        "text": "【レジスター/領域】軍事、公式。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 357,
+        "text": "【頻度】〈6/10〉  "
+      },
+      {
+        "line": 359,
+        "text": "【レジスター/領域】一般語・海事・軍事。out of commission は機械や人について日常的な比喩にも使う。  "
+      },
+      {
+        "line": 403,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 407,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 409,
+        "text": "【レジスター/領域】一般語だがやや公式。芸術、出版、放送、建築、調査、行政、ビジネス。  "
+      },
+      {
+        "line": 472,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 476,
+        "text": "【頻度】〈4/10〉  "
+      },
+      {
+        "line": 478,
+        "text": "【レジスター/領域】軍事、公式。  "
+      },
+      {
+        "line": 510,
+        "text": "10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する"
+      },
+      {
+        "line": 514,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 516,
+        "text": "【レジスター/領域】海事、軍事、工学、建設、エネルギー。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 54,
+        "text": "【文法パターン】a commission on 〈問題・政策分野〉＝～に関する委員会／a commission to investigate 〈問題〉＝～を調査するための委員会／a commission of inquiry into 〈事件・問題〉＝～についての調査委員会／the 〈固有名〉 Commission＝名称を持つ行政・規制機関  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料"
+      },
+      {
+        "line": 116,
+        "text": "【文法パターン】earn/get/receive commission on 〈sales/transaction〉＝売上・取引について歩合を得る／pay someone a commission＝人に歩合・手数料を払う／charge a commission on/for 〈transaction/service〉＝取引・サービスについて手数料を請求する／a commission of 〈金額・割合〉＝～の手数料／work/be paid on commission＝歩合制で働く・報酬を受ける  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算名詞・形式的】委任された任務・権限"
+      },
+      {
+        "line": 178,
+        "text": "【文法パターン】a commission to do 〈任務〉＝～するよう委ねられた任務／receive/accept a commission to do 〈任務〉＝～する任務を受ける／carry out/execute one's commission＝委ねられた任務を遂行する／within/beyond one's commission＝委任された権限の範囲内／範囲外で  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 228,
+        "text": "【文法パターン】a commission to do 〈仕事〉＝～する正式な依頼／a commission for 〈作品・仕事〉＝～の発注・依頼／a commission from 〈依頼主〉＝～からの依頼／accept/take/receive a commission＝依頼を引き受ける・受ける  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 285,
+        "text": "【文法パターン】the commission of a crime/an offence＝犯罪・違反を行うこと／during/in the commission of 〈crime〉＝犯罪の実行中に／aid someone in the commission of 〈offence〉＝人が違反を行うのを助ける  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・権限"
+      },
+      {
+        "line": 323,
+        "text": "【文法パターン】receive/obtain a commission＝士官に任官する／hold a commission in 〈軍種〉＝～軍で士官の地位にある／resign one's commission＝士官の地位を辞する  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 361,
+        "text": "【文法パターン】be in commission＝就役・稼働している／be out of commission＝使用・活動できない／put 〈ship/equipment〉 into commission＝船・設備を就役・稼働させる  "
+      },
+      {
+        "line": 403,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 411,
+        "text": "【文法パターン】commission someone to do 〈仕事〉＝人に～するよう正式に依頼する／commission 〈work/report/study〉＝作品・報告・調査を発注する  "
+      },
+      {
+        "line": 472,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 480,
+        "text": "【文法パターン】commission someone as 〈officer rank〉＝人を～の階級の士官に任命する／be commissioned as 〈officer rank〉＝～として任官する／be commissioned into/in 〈armed service〉＝～軍の士官に任官する  "
+      },
+      {
+        "line": 510,
+        "text": "10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する"
+      },
+      {
+        "line": 518,
+        "text": "【文法パターン】commission 〈ship〉＝船を正式に就役させる／commission 〈system/equipment〉＝設備・システムを試験・調整・検証して運用可能にする／commission 〈facility〉 into service＝施設を正式に運用へ移す  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 56,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 58,
+        "text": "・set up a commission to investigate 〈問題〉  "
+      },
+      {
+        "line": 59,
+        "text": "用途: 特定問題を調査する正式な委員会を設置する。  "
+      },
+      {
+        "line": 60,
+        "text": "例: The government set up an independent commission to investigate the disaster.  "
+      },
+      {
+        "line": 61,
+        "text": "訳: 政府はその災害を調査する独立委員会を設置した。  "
+      },
+      {
+        "line": 63,
+        "text": "・an independent commission on 〈問題〉  "
+      },
+      {
+        "line": 64,
+        "text": "用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。  "
+      },
+      {
+        "line": 65,
+        "text": "例: An independent commission on election reform will publish its recommendations next month.  "
+      },
+      {
+        "line": 66,
+        "text": "訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。  "
+      },
+      {
+        "line": 68,
+        "text": "・a commission of inquiry into 〈事件・問題〉  "
+      },
+      {
+        "line": 69,
+        "text": "用途: 重大な事件や制度上の問題を正式に調べる委員会を表す。  "
+      },
+      {
+        "line": 70,
+        "text": "例: Parliament called for a commission of inquiry into the security failures.  "
+      },
+      {
+        "line": 71,
+        "text": "訳: 議会はその安全保障上の失敗について調査委員会を設けるよう求めた。  "
+      },
+      {
+        "line": 73,
+        "text": "・serve on a commission  "
+      },
+      {
+        "line": 74,
+        "text": "用途: 委員会の委員として職務を果たす。  "
+      },
+      {
+        "line": 75,
+        "text": "例: She served on the national commission on child welfare for six years.  "
+      },
+      {
+        "line": 76,
+        "text": "訳: 彼女は6年間、児童福祉に関する国家委員会の委員を務めた。  "
+      },
+      {
+        "line": 78,
+        "text": "・the commission's report  "
+      },
+      {
+        "line": 79,
+        "text": "用途: 委員会が調査・審議を経てまとめた報告書を示す。  "
+      },
+      {
+        "line": 80,
+        "text": "例: The commission's report identified serious gaps in oversight.  "
+      },
+      {
+        "line": 81,
+        "text": "訳: 委員会の報告書は監督体制の重大な不備を指摘した。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料"
+      },
+      {
+        "line": 118,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 120,
+        "text": "・earn commission on 〈sales〉  "
+      },
+      {
+        "line": 121,
+        "text": "用途: 販売実績に応じて歩合報酬を得る。  "
+      },
+      {
+        "line": 122,
+        "text": "例: Agents earn commission on every policy they sell.  "
+      },
+      {
+        "line": 123,
+        "text": "訳: 代理店担当者は販売した保険契約ごとに歩合を得る。  "
+      },
+      {
+        "line": 125,
+        "text": "・pay someone a commission  "
+      },
+      {
+        "line": 126,
+        "text": "用途: 売買や契約を成立させた人に成果連動の報酬を支払う。  "
+      },
+      {
+        "line": 127,
+        "text": "例: The gallery pays its representatives a commission for each painting sold.  "
+      },
+      {
+        "line": 128,
+        "text": "訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。  "
+      },
+      {
+        "line": 130,
+        "text": "・a ten percent commission  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 売上額などに対する歩合率を示す。  "
+      },
+      {
+        "line": 132,
+        "text": "例: She receives a ten percent commission on all new contracts.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。  "
+      },
+      {
+        "line": 135,
+        "text": "・work on commission  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。  "
+      },
+      {
+        "line": 137,
+        "text": "例: Most sales staff receive a base salary and work partly on commission.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。  "
+      },
+      {
+        "line": 140,
+        "text": "・charge a commission on 〈transaction〉  "
+      },
+      {
+        "line": 141,
+        "text": "用途: 金融機関や仲介業者が個別取引に手数料を課す。  "
+      },
+      {
+        "line": 142,
+        "text": "例: The broker charges a small commission on each trade.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: その証券会社は取引ごとに少額の手数料を請求する。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算名詞・形式的】委任された任務・権限"
+      },
+      {
+        "line": 180,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 182,
+        "text": "・receive a commission to do 〈任務〉  "
+      },
+      {
+        "line": 183,
+        "text": "用途: 特定の任務を行うよう正式な指示と権限を受ける。  "
+      },
+      {
+        "line": 184,
+        "text": "例: The envoy received a commission to negotiate a temporary settlement.  "
+      },
+      {
+        "line": 185,
+        "text": "訳: その特使は暫定的な合意を交渉する任務を与えられた。  "
+      },
+      {
+        "line": 187,
+        "text": "・accept a commission  "
+      },
+      {
+        "line": 188,
+        "text": "用途: 委ねられた正式な任務を引き受ける。  "
+      },
+      {
+        "line": 189,
+        "text": "例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks.  "
+      },
+      {
+        "line": 190,
+        "text": "訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。  "
+      },
+      {
+        "line": 192,
+        "text": "・carry out one's commission  "
+      },
+      {
+        "line": 193,
+        "text": "用途: 委ねられた任務を実行する。  "
+      },
+      {
+        "line": 194,
+        "text": "例: The delegates returned after carrying out their commission.  "
+      },
+      {
+        "line": 195,
+        "text": "訳: 代表団は委ねられた任務を果たして帰還した。  "
+      },
+      {
+        "line": 197,
+        "text": "・beyond one's commission  "
+      },
+      {
+        "line": 198,
+        "text": "用途: 委任された権限の範囲を超えていることを表す。  "
+      },
+      {
+        "line": 199,
+        "text": "例: The agent acted beyond his commission when he signed the agreement.  "
+      },
+      {
+        "line": 200,
+        "text": "訳: その代理人は合意書に署名した際、委任された権限を越えて行動した。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 230,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 232,
+        "text": "・receive a commission to do 〈仕事〉  "
+      },
+      {
+        "line": 233,
+        "text": "用途: 特定の制作・設計・調査を行う正式な依頼を受ける。  "
+      },
+      {
+        "line": 234,
+        "text": "例: The architect received a commission to design the new library.  "
+      },
+      {
+        "line": 235,
+        "text": "訳: その建築家は新しい図書館を設計する依頼を受けた。  "
+      },
+      {
+        "line": 237,
+        "text": "・accept a commission for 〈作品〉  "
+      },
+      {
+        "line": 238,
+        "text": "用途: 特定の作品を制作する依頼を引き受ける。  "
+      },
+      {
+        "line": 239,
+        "text": "例: The artist accepted a private commission for a family portrait.  "
+      },
+      {
+        "line": 240,
+        "text": "訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。  "
+      },
+      {
+        "line": 242,
+        "text": "・take commissions for 〈作品〉  "
+      },
+      {
+        "line": 243,
+        "text": "用途: 依頼に応じて特定種類の作品を制作すると述べる。  "
+      },
+      {
+        "line": 244,
+        "text": "例: She takes commissions for custom illustrations through her website.  "
+      },
+      {
+        "line": 245,
+        "text": "訳: 彼女はウェブサイトを通じて特注イラストの制作依頼を受けている。  "
+      },
+      {
+        "line": 247,
+        "text": "・a commission from 〈依頼主〉  "
+      },
+      {
+        "line": 248,
+        "text": "用途: 仕事や作品の依頼元を示す。  "
+      },
+      {
+        "line": 249,
+        "text": "例: The composer completed a commission from the city orchestra.  "
+      },
+      {
+        "line": 250,
+        "text": "訳: その作曲家は市のオーケストラから依頼された作品を完成させた。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 287,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 289,
+        "text": "・the commission of a crime  "
+      },
+      {
+        "line": 290,
+        "text": "用途: 犯罪を実行する行為を法律的・形式的に表す。  "
+      },
+      {
+        "line": 291,
+        "text": "例: The evidence linked the weapon to the commission of the crime.  "
+      },
+      {
+        "line": 292,
+        "text": "訳: その証拠により、凶器とその犯罪の実行が結び付けられた。  "
+      },
+      {
+        "line": 294,
+        "text": "・during the commission of 〈crime〉  "
+      },
+      {
+        "line": 295,
+        "text": "用途: 犯罪行為を実行している最中であることを示す。  "
+      },
+      {
+        "line": 296,
+        "text": "例: No one was injured during the commission of the robbery.  "
+      },
+      {
+        "line": 297,
+        "text": "訳: その強盗の実行中にけが人は出なかった。  "
+      },
+      {
+        "line": 299,
+        "text": "・aid someone in the commission of 〈offence〉  "
+      },
+      {
+        "line": 300,
+        "text": "用途: 他者が違反・犯罪を行うのを助けることを形式的に表す。  "
+      },
+      {
+        "line": 301,
+        "text": "例: He was accused of aiding others in the commission of the offence.  "
+      },
+      {
+        "line": 302,
+        "text": "訳: 彼は他者によるその違反の実行を助けたとして告発された。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・権限"
+      },
+      {
+        "line": 325,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 327,
+        "text": "・receive a commission as 〈officer rank〉  "
+      },
+      {
+        "line": 328,
+        "text": "用途: 特定階級の士官として正式に任官する。  "
+      },
+      {
+        "line": 329,
+        "text": "例: After completing the academy, she received a commission as a second lieutenant.  "
+      },
+      {
+        "line": 330,
+        "text": "訳: 士官学校を修了後、彼女は少尉に任官した。  "
+      },
+      {
+        "line": 332,
+        "text": "・hold a commission in 〈armed service〉  "
+      },
+      {
+        "line": 333,
+        "text": "用途: 特定の軍種で士官の地位と権限を持つ。  "
+      },
+      {
+        "line": 334,
+        "text": "例: He held a commission in the Royal Navy for twelve years.  "
+      },
+      {
+        "line": 335,
+        "text": "訳: 彼は12年間、英国海軍で士官の地位にあった。  "
+      },
+      {
+        "line": 337,
+        "text": "・resign one's commission  "
+      },
+      {
+        "line": 338,
+        "text": "用途: 士官としての地位・任命を正式に辞する。  "
+      },
+      {
+        "line": 339,
+        "text": "例: The officer resigned her commission and left the service.  "
+      },
+      {
+        "line": 340,
+        "text": "訳: その士官は任官を辞し、軍を去った。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 363,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 365,
+        "text": "・be in commission  "
+      },
+      {
+        "line": 366,
+        "text": "用途: 船舶や設備が正式な任務または使用に就いている状態を表す。  "
+      },
+      {
+        "line": 367,
+        "text": "例: The research vessel remained in commission for more than thirty years.  "
+      },
+      {
+        "line": 368,
+        "text": "訳: その調査船は30年を超えて就役していた。  "
+      },
+      {
+        "line": 370,
+        "text": "・be out of commission  "
+      },
+      {
+        "line": 371,
+        "text": "用途: 機械・設備が故障や整備で使用できない状態を表す。  "
+      },
+      {
+        "line": 372,
+        "text": "例: Two elevators are out of commission while repairs are carried out.  "
+      },
+      {
+        "line": 373,
+        "text": "訳: 修理が行われている間、エレベーター2基は使用できない。  "
+      },
+      {
+        "line": 375,
+        "text": "・put someone out of commission  "
+      },
+      {
+        "line": 376,
+        "text": "用途: けがや病気などで人を一時的に活動できない状態にする。  "
+      },
+      {
+        "line": 377,
+        "text": "例: A shoulder injury put him out of commission for the rest of the season.  "
+      },
+      {
+        "line": 378,
+        "text": "訳: 肩のけがにより、彼はシーズン残りを出場できなくなった。  "
+      },
+      {
+        "line": 380,
+        "text": "・put 〈ship/equipment〉 into commission  "
+      },
+      {
+        "line": 381,
+        "text": "用途: 船舶や設備を正式に就役・稼働状態へ移す。  "
+      },
+      {
+        "line": 382,
+        "text": "例: The navy plans to put the new patrol ship into commission next spring.  "
+      },
+      {
+        "line": 383,
+        "text": "訳: 海軍は来春、新しい巡視船を就役させる予定だ。  "
+      },
+      {
+        "line": 403,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 413,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 415,
+        "text": "・commission someone to do 〈仕事〉  "
+      },
+      {
+        "line": 416,
+        "text": "用途: 特定の人・組織に仕事を実施するよう正式に依頼する。  "
+      },
+      {
+        "line": 417,
+        "text": "例: The museum commissioned a local artist to create a sculpture for the entrance.  "
+      },
+      {
+        "line": 418,
+        "text": "訳: 美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。  "
+      },
+      {
+        "line": 420,
+        "text": "・commission a report/study  "
+      },
+      {
+        "line": 421,
+        "text": "用途: 判断材料となる報告書や調査を専門家に作成させる。  "
+      },
+      {
+        "line": 422,
+        "text": "例: The board commissioned an independent study of the project's environmental impact.  "
+      },
+      {
+        "line": 423,
+        "text": "訳: 取締役会はその事業の環境影響について独立調査を依頼した。  "
+      },
+      {
+        "line": 425,
+        "text": "・commission 〈work〉 from someone  "
+      },
+      {
+        "line": 426,
+        "text": "用途: 成果物を目的語にし、その制作者を from で示す。  "
+      },
+      {
+        "line": 427,
+        "text": "例: The orchestra commissioned a new symphony from the composer.  "
+      },
+      {
+        "line": 428,
+        "text": "訳: そのオーケストラは作曲家に新しい交響曲を依頼した。  "
+      },
+      {
+        "line": 430,
+        "text": "・be commissioned by 〈依頼主〉  "
+      },
+      {
+        "line": 431,
+        "text": "用途: 作品・調査などを依頼した主体を受動形で示す。  "
+      },
+      {
+        "line": 432,
+        "text": "例: The survey was commissioned by the city council.  "
+      },
+      {
+        "line": 433,
+        "text": "訳: その調査は市議会の依頼で実施された。  "
+      },
+      {
+        "line": 435,
+        "text": "・specially commissioned for 〈目的・機会〉  "
+      },
+      {
+        "line": 436,
+        "text": "用途: 特定の目的や行事のために特別に依頼制作されたことを示す。  "
+      },
+      {
+        "line": 437,
+        "text": "例: The exhibition features a film specially commissioned for the anniversary.  "
+      },
+      {
+        "line": 438,
+        "text": "訳: その展覧会では記念日のために特別制作された映画を上映している。  "
+      },
+      {
+        "line": 472,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 482,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 484,
+        "text": "・be commissioned as 〈officer rank〉  "
+      },
+      {
+        "line": 485,
+        "text": "用途: 特定階級の士官として任官したことを表す。  "
+      },
+      {
+        "line": 486,
+        "text": "例: She was commissioned as a lieutenant after completing officer training.  "
+      },
+      {
+        "line": 487,
+        "text": "訳: 彼女は士官訓練を修了後、中尉に任官した。  "
+      },
+      {
+        "line": 489,
+        "text": "・be commissioned into 〈armed service〉  "
+      },
+      {
+        "line": 490,
+        "text": "用途: 特定の軍種で士官として任官する。  "
+      },
+      {
+        "line": 491,
+        "text": "例: He was commissioned into the air force in 2022.  "
+      },
+      {
+        "line": 492,
+        "text": "訳: 彼は2022年に空軍士官に任官した。  "
+      },
+      {
+        "line": 494,
+        "text": "・a newly commissioned officer  "
+      },
+      {
+        "line": 495,
+        "text": "用途: 最近正式に任官した士官を表す。  "
+      },
+      {
+        "line": 496,
+        "text": "例: Newly commissioned officers attended the leadership course.  "
+      },
+      {
+        "line": 497,
+        "text": "訳: 新たに任官した士官たちは指揮官研修に参加した。  "
+      },
+      {
+        "line": 510,
+        "text": "10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する"
+      },
+      {
+        "line": 520,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 522,
+        "text": "・commission a new ship  "
+      },
+      {
+        "line": 523,
+        "text": "用途: 新造船を正式に就役させる。  "
+      },
+      {
+        "line": 524,
+        "text": "例: The navy commissioned the new vessel in a ceremony at the port.  "
+      },
+      {
+        "line": 525,
+        "text": "訳: 海軍は港での式典でその新造船を就役させた。  "
+      },
+      {
+        "line": 527,
+        "text": "・commission a system  "
+      },
+      {
+        "line": 528,
+        "text": "用途: システムを試験・調整・検証し、運用可能な状態にする。  "
+      },
+      {
+        "line": 529,
+        "text": "例: Engineers will commission the new control system before the plant reopens.  "
+      },
+      {
+        "line": 530,
+        "text": "訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。  "
+      },
+      {
+        "line": 532,
+        "text": "・be commissioned into service  "
+      },
+      {
+        "line": 533,
+        "text": "用途: 船舶・設備などが正式に運用開始となる。  "
+      },
+      {
+        "line": 534,
+        "text": "例: The hospital's backup generator was commissioned into service last week.  "
+      },
+      {
+        "line": 535,
+        "text": "訳: その病院の非常用発電機は先週、正式に運用開始となった。  "
+      },
+      {
+        "line": 537,
+        "text": "・commissioning tests  "
+      },
+      {
+        "line": 538,
+        "text": "用途: 設備を本運用へ移す前に性能・安全性を確認する試験を表す。  "
+      },
+      {
+        "line": 539,
+        "text": "例: The turbine passed all commissioning tests before commercial operation began.  "
+      },
+      {
+        "line": 540,
+        "text": "訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 83,
+        "text": "【語法・注意】committee は企業・学校・団体内の小委員会にも広く使うのに対し、commission は公的機関または特定の公的任務を与えられた組織に多い。ただし European Commission のように、単なる調査委員会ではなく恒常的な執行機関を指す固有名もある。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料"
+      },
+      {
+        "line": 145,
+        "text": "【語法・注意】earn $2,000 in commission の in commission は得た歩合の総額を表し、work on commission の on commission は報酬方式を表す。charge/pay a commission では同じ金銭を、業者側は報酬、顧客側は費用として捉えることがある。commission は bonus と異なり通常は個々の売上・取引に結び付き、fee より仲介・売買との関連が強い。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算名詞・形式的】委任された任務・権限"
+      },
+      {
+        "line": 202,
+        "text": "【語法・注意】この語義は現代の日常語では assignment、mission、authority などに言い換えることが多い。語義4は依頼主が有償で作品・専門成果物を作らせる「発注」を表し、語義3は受任者に委ねられた任務と行動権限を表す。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 252,
+        "text": "【語法・注意】a commission to design は依頼された仕事をto不定詞で示し、a commission from the museum は依頼主を from で示す。語義2の on commission は報酬方式であり、take commissions for portraits の commissions は制作依頼である。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 304,
+        "text": "【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。通常は単独で自由に使わず、the commission of の後ろに犯罪・違反・不正行為を置く。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・権限"
+      },
+      {
+        "line": 342,
+        "text": "【語法・注意】commissioned officer は正式な辞令によって任官した士官を指し、non-commissioned officer は下士官を指す。non-commissioned officer を「任務を与えられていない士官」と解釈してはいけない。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 385,
+        "text": "【語法・注意】out of commission は必ずしも永久的な廃棄を意味せず、一時的な故障・負傷にも使う。船舶の正式な就役・退役を述べる場合は海事・軍事上の意味になり、一般の機械については「使用可能／不能」という比喩的拡張である。  "
+      },
+      {
+        "line": 403,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 440,
+        "text": "【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。commission someone for a job は文脈によって不自然になりやすく、正式な制作依頼なら commission someone to do the work とする。  "
+      },
+      {
+        "line": 472,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 499,
+        "text": "【語法・注意】この語義は単なる employ「雇う」や enlist「入隊させる」と異なる。commissioned officer は commission を授与された士官、enlisted personnel は原則として commission を持たない下士官兵・兵員を表す。warrant officer などの位置付けや日本語の階級名は軍種・法域によって異なる。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。  "
+      },
+      {
+        "line": 510,
+        "text": "10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する"
+      },
+      {
+        "line": 542,
+        "text": "【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、文書化して運用側へ引き渡す工程を含み得る。船舶では正式な就役行為を指し、工学上の commissioning では実運用前の検証工程を指すことがある。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 85,
+        "text": "【類義語】"
+      },
+      {
+        "line": 87,
+        "text": "・committee  "
+      },
+      {
+        "line": 88,
+        "text": "定義: 特定事項を検討・運営するために選ばれた比較的小規模な集団。  "
+      },
+      {
+        "line": 89,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 90,
+        "text": "違い: committee は組織内部の会議体にも広く使う。commission は公的権限または独立した調査・規制任務を伴いやすい。  "
+      },
+      {
+        "line": 91,
+        "text": "例: The finance committee approved the revised budget.  "
+      },
+      {
+        "line": 92,
+        "text": "訳: 財務委員会は修正予算を承認した。  "
+      },
+      {
+        "line": 94,
+        "text": "・panel  "
+      },
+      {
+        "line": 95,
+        "text": "定義: 特定問題を検討したり意見を述べたりする専門家などの集団。  "
+      },
+      {
+        "line": 96,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 97,
+        "text": "違い: panel は一時的な審査・討論集団にも使い、commission ほど公的権限を含意しない。  "
+      },
+      {
+        "line": 98,
+        "text": "例: A panel of experts reviewed the safety data.  "
+      },
+      {
+        "line": 99,
+        "text": "訳: 専門家委員会が安全性データを検討した。  "
+      },
+      {
+        "line": 101,
+        "text": "・board  "
+      },
+      {
+        "line": 102,
+        "text": "定義: 組織の運営・監督・意思決定を担う正式な会議体。  "
+      },
+      {
+        "line": 103,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 104,
+        "text": "違い: board は企業や団体の継続的な経営・監督に焦点がある。commission は特定分野の公的調査・規制任務に焦点を置きやすい。  "
+      },
+      {
+        "line": 105,
+        "text": "例: The board appointed a new chief executive.  "
+      },
+      {
+        "line": 106,
+        "text": "訳: 取締役会は新しい最高経営責任者を任命した。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料"
+      },
+      {
+        "line": 147,
+        "text": "【類義語】"
+      },
+      {
+        "line": 149,
+        "text": "・bonus  "
+      },
+      {
+        "line": 150,
+        "text": "定義: 通常の給与などに加えて支払われる追加報酬。  "
+      },
+      {
+        "line": 151,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 152,
+        "text": "違い: bonus は会社業績、個人評価、季節など多様な基準で支払われる。commission は特定の売上・取引成果に直接連動する。  "
+      },
+      {
+        "line": 153,
+        "text": "例: Employees received an annual bonus after the company exceeded its targets.  "
+      },
+      {
+        "line": 154,
+        "text": "訳: 会社が目標を上回った後、従業員は年次賞与を受け取った。  "
+      },
+      {
+        "line": 156,
+        "text": "・fee  "
+      },
+      {
+        "line": 157,
+        "text": "定義: 専門的サービスや手続きに対して支払う料金。  "
+      },
+      {
+        "line": 158,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 159,
+        "text": "違い: fee はサービス自体の対価として定額の場合も多い。commission は代理・販売成果に応じて受取人へ支払う報酬を指しやすい。  "
+      },
+      {
+        "line": 160,
+        "text": "例: The lawyer charged a fixed fee for the consultation.  "
+      },
+      {
+        "line": 161,
+        "text": "訳: その弁護士は相談について定額料金を請求した。  "
+      },
+      {
+        "line": 163,
+        "text": "・royalty  "
+      },
+      {
+        "line": 164,
+        "text": "定義: 著作物、特許、資源などの利用・販売に応じて権利者へ支払われる使用料。  "
+      },
+      {
+        "line": 165,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 166,
+        "text": "違い: royalty は権利の利用対価であり、販売仲介の報酬である commission とは受取理由が異なる。  "
+      },
+      {
+        "line": 167,
+        "text": "例: The author receives a royalty on every copy sold.  "
+      },
+      {
+        "line": 168,
+        "text": "訳: 著者は販売された一冊ごとに印税を受け取る。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算名詞・形式的】委任された任務・権限"
+      },
+      {
+        "line": 204,
+        "text": "【類義語】"
+      },
+      {
+        "line": 206,
+        "text": "・mandate  "
+      },
+      {
+        "line": 207,
+        "text": "定義: 人や組織に正式に与えられた任務・権限。  "
+      },
+      {
+        "line": 208,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 209,
+        "text": "違い: mandate は公的・政治的な権限の根拠や範囲を強く示す。commission は個人に委ねられた具体的任務を指す古風な用法にも使う。  "
+      },
+      {
+        "line": 210,
+        "text": "例: The committee acted within its legal mandate.  "
+      },
+      {
+        "line": 211,
+        "text": "訳: その委員会は法的権限の範囲内で行動した。  "
+      },
+      {
+        "line": 213,
+        "text": "・assignment  "
+      },
+      {
+        "line": 214,
+        "text": "定義: 人に割り当てられた仕事・課題。  "
+      },
+      {
+        "line": 215,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 216,
+        "text": "違い: assignment は日常的な業務配分にも広く使う。commission は正式な委任と権限を含意しやすく、この語義ではより文語的である。  "
+      },
+      {
+        "line": 217,
+        "text": "例: The diplomat's first assignment was to observe the talks.  "
+      },
+      {
+        "line": 218,
+        "text": "訳: その外交官の最初の任務は会談を監視することだった。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 254,
+        "text": "【類義語】"
+      },
+      {
+        "line": 256,
+        "text": "・assignment  "
+      },
+      {
+        "line": 257,
+        "text": "定義: 人に割り当てられた仕事・課題。  "
+      },
+      {
+        "line": 258,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 259,
+        "text": "違い: assignment は雇用・教育などでの業務配分にも広く使う。commission は外部の専門家や制作者への正式な依頼と対価を含意しやすい。  "
+      },
+      {
+        "line": 260,
+        "text": "例: The journalist completed an overseas assignment.  "
+      },
+      {
+        "line": 261,
+        "text": "訳: その記者は海外取材の任務を終えた。  "
+      },
+      {
+        "line": 263,
+        "text": "・order  "
+      },
+      {
+        "line": 264,
+        "text": "定義: 商品や制作物を提供・作成してもらう注文。  "
+      },
+      {
+        "line": 265,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 266,
+        "text": "違い: order は既製品の購入にも使う。commission は依頼主のために新たに制作・実施する個別の仕事に焦点がある。  "
+      },
+      {
+        "line": 267,
+        "text": "例: The workshop received an order for twenty chairs.  "
+      },
+      {
+        "line": 268,
+        "text": "訳: その工房は椅子20脚の注文を受けた。  "
+      },
+      {
+        "line": 270,
+        "text": "・contract  "
+      },
+      {
+        "line": 271,
+        "text": "定義: 仕事や提供条件について法的拘束力を持つ合意。  "
+      },
+      {
+        "line": 272,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 273,
+        "text": "違い: contract は当事者間の法的合意を指す。commission は依頼や依頼作品を指し、必ずしも契約文書そのものではない。  "
+      },
+      {
+        "line": 274,
+        "text": "例: The firm won a contract to build the bridge.  "
+      },
+      {
+        "line": 275,
+        "text": "訳: その会社は橋を建設する契約を獲得した。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 306,
+        "text": "【類義語】"
+      },
+      {
+        "line": 308,
+        "text": "・perpetration  "
+      },
+      {
+        "line": 309,
+        "text": "定義: 犯罪や有害な行為を実行すること。  "
+      },
+      {
+        "line": 310,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 311,
+        "text": "違い: perpetration は行為の悪質性と実行者性を強く示す。commission は法律文書で行為の発生・実行を中立的に名詞化する。  "
+      },
+      {
+        "line": 312,
+        "text": "例: Investigators found evidence of the deliberate perpetration of fraud.  "
+      },
+      {
+        "line": 313,
+        "text": "訳: 捜査当局は故意による詐欺の実行を示す証拠を発見した。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・権限"
+      },
+      {
+        "line": 344,
+        "text": "【類義語】"
+      },
+      {
+        "line": 346,
+        "text": "・appointment  "
+      },
+      {
+        "line": 347,
+        "text": "定義: 役職へ正式に就けること、またはその役職。  "
+      },
+      {
+        "line": 348,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 349,
+        "text": "違い: appointment は民間・行政を含む広い任命語である。commission は軍事では士官としての階級・権限を授ける任官に限定される。  "
+      },
+      {
+        "line": 350,
+        "text": "例: Her appointment as ambassador was confirmed by the senate.  "
+      },
+      {
+        "line": 351,
+        "text": "訳: 彼女の大使任命は上院で承認された。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 387,
+        "text": "【類義語】"
+      },
+      {
+        "line": 389,
+        "text": "・operational  "
+      },
+      {
+        "line": 390,
+        "text": "定義: 機械・設備・組織などが作動・運用できる状態にある。  "
+      },
+      {
+        "line": 391,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 392,
+        "text": "違い: in commission と同じく使用可能な側を表すが、operational は正式な就役の有無を問わず機能している状態を直接述べる。  "
+      },
+      {
+        "line": 393,
+        "text": "例: The emergency communications system is fully operational.  "
+      },
+      {
+        "line": 394,
+        "text": "訳: 緊急通信システムは完全に稼働している。  "
+      },
+      {
+        "line": 396,
+        "text": "・out of service  "
+      },
+      {
+        "line": 397,
+        "text": "定義: 機械・設備・交通手段などが使用・運行できない状態にある。  "
+      },
+      {
+        "line": 398,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 399,
+        "text": "違い: out of commission の使用不能側に近い。out of service は設備・交通手段に広く使い、out of commission は人の一時的な活動不能にも比喩的に使える。  "
+      },
+      {
+        "line": 400,
+        "text": "例: The ticket machine is temporarily out of service.  "
+      },
+      {
+        "line": 401,
+        "text": "訳: その券売機は一時的に使用できない。  "
+      },
+      {
+        "line": 403,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 442,
+        "text": "【類義語】"
+      },
+      {
+        "line": 444,
+        "text": "・hire  "
+      },
+      {
+        "line": 445,
+        "text": "定義: 報酬を払って人を雇い、仕事をしてもらう。  "
+      },
+      {
+        "line": 446,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 447,
+        "text": "違い: hire は雇用またはサービス提供者の選定に焦点がある。commission は特定の成果物・調査・創作物を正式に依頼することに焦点がある。  "
+      },
+      {
+        "line": 448,
+        "text": "例: We hired an engineer to inspect the building.  "
+      },
+      {
+        "line": 449,
+        "text": "訳: 私たちは建物を点検するため技師を雇った。  "
+      },
+      {
+        "line": 451,
+        "text": "・authorize  "
+      },
+      {
+        "line": 452,
+        "text": "定義: 人や行為に正式な権限・許可を与える。  "
+      },
+      {
+        "line": 453,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 454,
+        "text": "違い: authorize は実行を許可することであり、仕事の成果を依頼するとは限らない。commission は依頼主が特定の仕事を行わせる。  "
+      },
+      {
+        "line": 455,
+        "text": "例: The director authorized the payment.  "
+      },
+      {
+        "line": 456,
+        "text": "訳: 取締役はその支払いを承認した。  "
+      },
+      {
+        "line": 458,
+        "text": "・assign  "
+      },
+      {
+        "line": 459,
+        "text": "定義: 組織内などで仕事・責任を人に割り当てる。  "
+      },
+      {
+        "line": 460,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 461,
+        "text": "違い: assign は既存の役割関係の中で業務を配分する場合に広い。commission は独立した専門家への正式な発注にも使う。  "
+      },
+      {
+        "line": 462,
+        "text": "例: The editor assigned the story to an experienced reporter.  "
+      },
+      {
+        "line": 463,
+        "text": "訳: 編集者はその記事を経験豊富な記者に割り当てた。  "
+      },
+      {
+        "line": 465,
+        "text": "・order  "
+      },
+      {
+        "line": 466,
+        "text": "定義: 品物を注文する、または何かを作るよう求める。  "
+      },
+      {
+        "line": 467,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 468,
+        "text": "違い: order は既製品にも使い、命令の意味もある。commission は個別の創作・調査・専門業務を正式に取り決める。  "
+      },
+      {
+        "line": 469,
+        "text": "例: They ordered replacement parts from the manufacturer.  "
+      },
+      {
+        "line": 470,
+        "text": "訳: 彼らは製造元に交換部品を注文した。  "
+      },
+      {
+        "line": 472,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 501,
+        "text": "【類義語】"
+      },
+      {
+        "line": 503,
+        "text": "・appoint  "
+      },
+      {
+        "line": 504,
+        "text": "定義: 人を役職へ正式に任命する。  "
+      },
+      {
+        "line": 505,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 506,
+        "text": "違い: appoint は民間・行政を含む一般的な任命語である。commission は軍隊で士官の階級と権限を授ける場合に限定される。  "
+      },
+      {
+        "line": 507,
+        "text": "例: The cabinet appointed her defense minister.  "
+      },
+      {
+        "line": 508,
+        "text": "訳: 内閣は彼女を国防相に任命した。  "
+      },
+      {
+        "line": 510,
+        "text": "10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する"
+      },
+      {
+        "line": 544,
+        "text": "【類義語】"
+      },
+      {
+        "line": 546,
+        "text": "・activate  "
+      },
+      {
+        "line": 547,
+        "text": "定義: 装置・機能を作動状態にする。  "
+      },
+      {
+        "line": 548,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 549,
+        "text": "違い: activate は一回の作動操作にも使う。commission は試験・承認・引渡しを含む正式な運用開始工程に焦点がある。  "
+      },
+      {
+        "line": 550,
+        "text": "例: The technician activated the emergency system.  "
+      },
+      {
+        "line": 551,
+        "text": "訳: 技術者は緊急システムを作動させた。  "
+      },
+      {
+        "line": 553,
+        "text": "・launch  "
+      },
+      {
+        "line": 554,
+        "text": "定義: 製品、サービス、計画などを公に開始する。  "
+      },
+      {
+        "line": 555,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 556,
+        "text": "違い: launch は市場投入・公開開始に広く使う。commission は物理的設備や船舶を運用可能な状態へ移す技術的・公式な過程を表す。  "
+      },
+      {
+        "line": 557,
+        "text": "例: The company launched the service nationwide.  "
+      },
+      {
+        "line": 558,
+        "text": "訳: その会社は全国でそのサービスを開始した。  "
+      },
+      {
+        "line": 560,
+        "text": "【反意語】"
+      },
+      {
+        "line": 562,
+        "text": "・decommission  "
+      },
+      {
+        "line": 563,
+        "text": "定義: 船舶、設備、施設などを正式に運用から外す。  "
+      },
+      {
+        "line": 564,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 565,
+        "text": "違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  "
+      },
+      {
+        "line": 566,
+        "text": "例: The operator plans to decommission the old reactor by 2030.  "
+      },
+      {
+        "line": 567,
+        "text": "訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "evidence_context": {
+    "schema_version": "evidence_context_v1",
+    "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+    "source_inventory_schema_version": "source_inventory_v2",
+    "source_inventory_sha256": "077e1e9c33c060442450f48139fc1fc6c0190acdc15aa29f723d8624768286e8",
+    "source_first_artifact_sha256": "0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50",
+    "relevant_sections": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/commission_1",
+        "source_type": "general_dictionary",
+        "independence_group": "oxford_languages",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "A countable commission can be an official group responsible for control or investigation.",
+            "source_detail": "Oxford noun sense 1 gives an official group with responsibility to control or investigate."
+          },
+          {
+            "id": "F-002",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can be money paid for selling goods, commonly linked to the amount sold.",
+            "source_detail": "Oxford noun sense 2 supplies percentage and on-commission examples."
+          },
+          {
+            "id": "F-003",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can be a charge made by a bank or similar provider for a service.",
+            "source_detail": "Oxford noun sense 3 distinguishes the charge from salesperson remuneration."
+          },
+          {
+            "id": "F-004",
+            "form": "a commission to do something",
+            "kind": "argument_structure",
+            "statement": "A commission can be a formal request to design or make a work, with to, for, and from complements.",
+            "source_detail": "Oxford noun sense 4 gives commission to do, commission for, and commission from patterns."
+          },
+          {
+            "id": "F-005",
+            "form": "commission",
+            "kind": "specialist_use",
+            "statement": "In armed forces usage, a commission is an officer's position and authority.",
+            "source_detail": "Oxford noun sense 5 identifies the officer position and contrasts commissioned officer."
+          },
+          {
+            "id": "F-006",
+            "form": "the commission of a crime",
+            "kind": "register",
+            "statement": "In formal usage, the commission of a crime means the act of doing the crime.",
+            "source_detail": "Oxford labels this crime sense uncountable and formal."
+          },
+          {
+            "id": "F-007",
+            "form": "in/out of commission",
+            "kind": "idiom",
+            "statement": "In or out of commission expresses whether something is available for use.",
+            "source_detail": "Oxford's idiom entry gives temporarily out-of-commission aircraft."
+          },
+          {
+            "id": "F-017",
+            "form": "commission",
+            "kind": "pronunciation",
+            "statement": "The noun and verb are pronounced /kəˈmɪʃən/ in British and American English.",
+            "source_detail": "Oxford noun and verb entries give matching British and American pronunciations and regular verb forms."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "locator": "https://www.merriam-webster.com/dictionary/commission",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-008",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can denote formal authority, a formal request for paid work, or the work so produced.",
+            "source_detail": "Merriam-Webster separates a warrant or authorization, a paid creative request, and a commissioned work."
+          },
+          {
+            "id": "F-009",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can denote an official group directed to perform a duty.",
+            "source_detail": "Merriam-Webster gives both a duty-specific group and government agency uses."
+          },
+          {
+            "id": "F-010",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission is a fee paid to an agent or employee for a transaction or service, especially a percentage.",
+            "source_detail": "Merriam-Webster defines the commercial payment and illustrates commission per sale."
+          },
+          {
+            "id": "F-011",
+            "form": "commission of something",
+            "kind": "specialist_use",
+            "statement": "Commission can be the act of committing or doing something, especially wrongdoing.",
+            "source_detail": "Merriam-Webster illustrates the act-of-committing sense with commission of a crime."
+          },
+          {
+            "id": "F-012",
+            "form": "commission someone to do something",
+            "kind": "argument_structure",
+            "statement": "The transitive verb can formally engage a person to do work or order a work to be made.",
+            "source_detail": "Merriam-Webster verb examples include being commissioned to write and commissioning a portrait."
+          },
+          {
+            "id": "F-013",
+            "form": "commission",
+            "kind": "specialist_use",
+            "statement": "The verb can appoint a military officer and can put a ship into active service.",
+            "source_detail": "Merriam-Webster lists officer appointment and ship activation as verb uses."
+          },
+          {
+            "id": "F-020",
+            "form": "commissioner",
+            "kind": "derived_form",
+            "statement": "Commissioner denotes a person entrusted with commission duties or a member or head of a commission.",
+            "source_detail": "Merriam-Webster's related commissioner entry records the official role."
+          },
+          {
+            "id": "F-023",
+            "form": "commission-free",
+            "kind": "derived_form",
+            "statement": "Commission-free describes a transaction for which no commission is directly charged.",
+            "source_detail": "Merriam-Webster's commission definition and common attributive commercial formation support the transparent compound."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/commission",
+        "source_type": "learner_dictionary",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "commission",
+            "kind": "argument_structure",
+            "statement": "The verb formally chooses or asks someone to do a special piece of work and can take a work as object.",
+            "source_detail": "Cambridge verb coverage distinguishes requesting work and appointing an officer."
+          },
+          {
+            "id": "F-015",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "The noun covers an official group, payment for selling, commissioned work, and formal wrongdoing.",
+            "source_detail": "Cambridge groups these as separate noun senses with learner-level examples."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "locator": "https://ahdictionary.com/word/search.html?q=commission",
+        "source_type": "general_dictionary",
+        "independence_group": "american_heritage",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "in/out of commission",
+            "kind": "specialist_use",
+            "statement": "In commission means active service or usable condition; out of commission means inactive or unusable condition.",
+            "source_detail": "American Heritage distinguishes the naval sense and its general equipment extension and lists commissioning a ship."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "locator": "https://www.etymonline.com/word/commission",
+        "source_type": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-018",
+            "form": "commission",
+            "kind": "etymology",
+            "statement": "Commission entered through Old French from Latin commissio and committere, built from com- and mittere, with delegated-authority senses preceding later commercial and naval uses.",
+            "source_detail": "Etymonline dates delegated authority, a duty-bearing body, commercial percentage, naval service, and later general out-of-commission extension."
+          },
+          {
+            "id": "F-021",
+            "form": "decommission",
+            "kind": "derived_form",
+            "statement": "Decommission is the reversive verb for removing something from active service.",
+            "source_detail": "Etymonline cross-references decommission as a productive derivative of commission."
+          },
+          {
+            "id": "F-022",
+            "form": "recommission",
+            "kind": "derived_form",
+            "statement": "Recommission means to commission again or return something to active service.",
+            "source_detail": "Etymonline cross-references recommission as the repeated-action derivative."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "locator": "https://stg.wbdg.org/building-commissioning",
+        "source_type": "government_technical_guidance",
+        "independence_group": "nibs_wbdg",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "commissioning",
+            "kind": "specialist_use",
+            "statement": "Building commissioning is a documented process of planning, installation, testing, verification, and transition to operations against owner requirements.",
+            "source_detail": "WBDG describes commissioning as a professional process spanning design through testing, documentation, and operation."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-009",
+          "F-015"
+        ],
+        "canonical_statement": "Commission denotes an official duty-bearing group or public body.",
+        "disposition": "included",
+        "rationale": "Principal high-frequency noun sense."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-010",
+          "F-015"
+        ],
+        "canonical_statement": "Commission denotes transaction-linked remuneration or a transaction/service charge.",
+        "disposition": "included",
+        "rationale": "The payee and payer perspectives share the same transaction-linked payment sense."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "canonical_statement": "Commission can denote formal authority, instructions, or a duty entrusted to a person.",
+        "disposition": "included",
+        "rationale": "Distinct formal delegated-duty noun sense."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-008"
+        ],
+        "canonical_statement": "A commission is a formal paid request for creative or professional work and can denote the resulting work.",
+        "disposition": "included",
+        "rationale": "Principal work-order noun sense."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-005",
+          "F-013"
+        ],
+        "canonical_statement": "Military commission denotes or grants officer rank and authority.",
+        "disposition": "included",
+        "rationale": "Distinct specialist noun and verb use."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-006",
+          "F-011",
+          "F-015"
+        ],
+        "canonical_statement": "The commission of wrongdoing is the formal act of committing it.",
+        "disposition": "included",
+        "rationale": "Established formal legal construction."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-007",
+          "F-016",
+          "F-018"
+        ],
+        "canonical_statement": "In/out of commission marks active or usable versus inactive or unusable status.",
+        "disposition": "included",
+        "rationale": "Common idiomatic operational-state contrast."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-012",
+          "F-014"
+        ],
+        "canonical_statement": "The verb formally engages someone to perform work or orders work to be produced.",
+        "disposition": "included",
+        "rationale": "Principal transitive verb sense."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "canonical_statement": "Technical commissioning verifies and transitions installed systems into documented operation.",
+        "disposition": "included",
+        "rationale": "Direct specialist support for the engineering use."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-017",
+          "F-018"
+        ],
+        "canonical_statement": "Commission has common British-American pronunciation /kəˈmɪʃən/ and derives through French from Latin committere.",
+        "disposition": "included",
+        "rationale": "Pronunciation and etymology support."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-020"
+        ],
+        "canonical_statement": "Commissioner is the person-form derived from commission.",
+        "disposition": "included",
+        "rationale": "High-value related official title."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "Decommission reverses commission by removing from active service.",
+        "disposition": "included",
+        "rationale": "Productive operational antonym and derivative."
+      },
+      {
+        "id": "U-013",
+        "source_fact_ids": [
+          "F-022"
+        ],
+        "canonical_statement": "Recommission means to return to active service or commission again.",
+        "disposition": "included",
+        "rationale": "Productive operational derivative."
+      },
+      {
+        "id": "U-014",
+        "source_fact_ids": [
+          "F-023"
+        ],
+        "canonical_statement": "Commission-free means that no commission is directly charged.",
+        "disposition": "included",
+        "rationale": "Frequent transparent commercial compound."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "commission",
+        "claim_type": "lexical_sense",
+        "statement": "Commission is an official group with a public or assigned duty.",
+        "article_target_ids": [
+          "definition:001",
+          "grammar_pattern:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford directly defines the official group sense."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster directly covers duty-bearing commissions."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently covers the official group sense."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "commission",
+        "claim_type": "lexical_sense",
+        "statement": "Commercial commission is transaction-linked remuneration or a charge paid for transaction handling.",
+        "article_target_ids": [
+          "definition:002",
+          "grammar_pattern:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford gives percentage and on-commission remuneration."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford also gives the bank or service-provider charge use."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster defines agent or employee transaction payment."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently covers payment for selling."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "commission",
+        "claim_type": "lexical_sense",
+        "statement": "Commission can denote a formal duty, instruction, or authority entrusted to a person.",
+        "article_target_ids": [
+          "definition:003",
+          "grammar_pattern:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster records formal authority and authorization alongside a formal request."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "a commission to do something",
+        "claim_type": "argument_structure",
+        "statement": "A commission is a formal request or resulting work with to, for, and from complements.",
+        "article_target_ids": [
+          "definition:004",
+          "grammar_pattern:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford supplies the noun complement frames."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster covers both request and resulting work."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "commission",
+        "claim_type": "specialist_use",
+        "statement": "Military commission is officer appointment, position, and authority; commission as a verb grants them.",
+        "article_target_ids": [
+          "definition:006",
+          "definition:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford defines the officer-position noun use."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Merriam-Webster covers officer appointment as a verb."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "the commission of a crime",
+        "claim_type": "register",
+        "statement": "The commission of wrongdoing is a formal legal nominalization of committing it.",
+        "article_target_ids": [
+          "definition:005",
+          "grammar_pattern:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford labels the crime construction formal and uncountable."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster defines commission as an act of committing."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently lists the crime sense."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "in/out of commission",
+        "claim_type": "idiom",
+        "statement": "The idiom contrasts active or usable status with inactive or unusable status.",
+        "article_target_ids": [
+          "definition:007",
+          "grammar_pattern:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford directly defines the availability contrast."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "American Heritage covers naval and general operational status."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Etymonline documents the naval origin and later extension."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "commission someone to do something",
+        "claim_type": "argument_structure",
+        "statement": "The transitive verb formally requests a person to work or takes the requested work as its object.",
+        "article_target_ids": [
+          "definition:008",
+          "grammar_pattern:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster gives person-to-infinitive and work-object examples."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Cambridge independently covers the formal request verb and work object."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-005",
+          "U-009"
+        ],
+        "subject_form": "commission",
+        "claim_type": "specialist_use",
+        "statement": "Commissioning formally puts a ship into service, while engineering commissioning verifies, documents, and transitions equipment toward operation.",
+        "article_target_ids": [
+          "definition:010",
+          "usage_note:010"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Merriam-Webster directly covers putting a ship into active service."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "WBDG directly describes the technical commissioning process."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "commission",
+        "claim_type": "pronunciation_etymology",
+        "statement": "Commission is pronounced /kəˈmɪʃən/ and derives through French from Latin committere.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Oxford supplies matching British-American pronunciation."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Etymonline traces the French and Latin history."
+          }
+        ]
+      },
+      {
+        "id": "C-011",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "commissioner",
+        "claim_type": "derived_form",
+        "statement": "Commissioner denotes a member or official entrusted with commission duties.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Merriam-Webster records the official person derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-012",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "decommission",
+        "claim_type": "derived_form",
+        "statement": "Decommission removes a ship, system, or facility from active service.",
+        "article_target_ids": [
+          "word_formation:004",
+          "antonym:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Etymonline records the reversive derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-013",
+        "union_ids": [
+          "U-013"
+        ],
+        "subject_form": "recommission",
+        "claim_type": "derived_form",
+        "statement": "Recommission returns something to active service or commissions it again.",
+        "article_target_ids": [
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline records the repeated-action derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-014",
+        "union_ids": [
+          "U-014"
+        ],
+        "subject_form": "commission-free",
+        "claim_type": "derived_form",
+        "statement": "Commission-free marks a transaction without a directly charged commission.",
+        "article_target_ids": [
+          "word_formation:006",
+          "collocation:014"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Merriam-Webster's commercial sense supports the transparent compound."
+          }
+        ]
+      }
+    ]
+  },
+  "specification_sha256": "dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d",
+  "source_artifact_sha256": "0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50",
+  "normalized_input_sha256": "bf6de706bb705f0f53731cbdd4abc4c8e80d13279d97e4325a167cac31ae79a0"
+}

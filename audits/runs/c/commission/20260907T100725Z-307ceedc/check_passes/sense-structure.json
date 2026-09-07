@@ -1,0 +1,39 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-sense-agent",
+    "same_model_as_generation": true
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 202,
+        "line_end": 202,
+        "exact_quote": "【語法・注意】語義2は販売員・代理人が受け取る報酬の側から、語義3は顧客が業者へ支払う取引費用の側から捉える。実際の取引では同じ金銭を双方の立場から commission と呼ぶこともあり、誰が誰に何の対価を支払うかを確認する。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2と語義3の最小差が語彙的な中心意味ではなく、同じ取引対価を受取人側と支払人側のどちらから見るかに置かれている。本文自身も同じ金銭を双方が commission と呼べると認めており、どちらも定額・割合の可能性があるため、参与者の視点と対象分野だけによる過剰分割になっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2と語義3を、販売・仲介・取引処理に対して支払われる報酬・手数料という一つの語義へ統合し、典型的な受取人・支払人と成果連動性の違いは語法内の下位区分として示す。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。  "
+      },
+      "severity": "blocking",
+      "rationale": "語形成欄では commissioned を形容詞として明示し、特に commissioned officer という定着した用法まで挙げているが、語義構造には動詞の語義8・9しかなく、この主要な分詞形容詞の収録先がない。主要な品詞転換を語形成欄だけに置く状態は、セクション横断で品詞範囲が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "commissioned の主要な分詞形容詞用法を番号付き語義として追加し、「正式に依頼された」と軍事上の「任官した」を区別して示す。"
+    }
+  ],
+  "unrouted_observations": []
+}

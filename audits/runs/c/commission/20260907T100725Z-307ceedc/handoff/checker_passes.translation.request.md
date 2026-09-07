@@ -1,0 +1,1567 @@
+# Independent checker handoff
+
+Stage: `checker_passes/translation`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.translation.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_translation_v6
+
+## 目的
+
+英文・訳文・定義における意味の保存と方向を検査する。自然な意訳は認めるが、見出し語の構文差・含意・作用関係を誤学習させる変化は認めない。
+
+## 担当タクソノミー分類
+
+- `example_translation_alignment`
+- `semantic_direction_reversal`
+
+## 検査ルール
+
+- 各例文と訳について、述語、主語・目的語・補語、行為者・経験者・対象・結果の意味役割を対応させる。
+- 肯定・否定、比較基準、程度、数量、時制、相、法、条件、因果、目的を保存する。
+- 修飾範囲、焦点、対比、情報構造、明示内容と文脈推論の境界、レジスターと話者評価を保存する。
+- コロケーションのpattern・用途・英文・訳が同じ語義、品詞、完全フレームを表すか確認する。英文が別語義でも成立するだけでは合格にしない。
+- 作用する側／される側、上位／下位、原因／結果、全体／部分、評価主体／評価対象を逆転させない。
+- 日本語訳が自然でも、英文にない必然性・意図・結果・専門的効果を追加していればfindingとする。
+- 同じ例文を異なる構文や語義の証明に使い回していないか確認する。
+- 問題が1箇所に見える場合も、同じ訳語・関係が入力section内の別箇所で再発していないか確認する。
+
+## 入力として受け取るセクション
+
+- `definitions`
+- `collocations_examples`
+- `lexical_relations`
+
+front matter、生成過程、通常チェックの過去判断、ACTIVE.mdは受け取らない。
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "example_translation_alignment | semantic_direction_reversal",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "何がどの方向・範囲・強さで不一致か",
+  "evidence_link_ids": [],
+  "suggested_direction": "意味を変えずに直す方向"
+}
+```
+
+`taxonomy_id`、位置、severity、根拠を必須とする。事実・語法・例文/訳の正誤に関わるものは `blocking`、事実関係を変えない局所的な日本語調整だけを `minor` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 48,
+        "text": "【日本語訳・定義】政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。固有の機関名では Commission と大文字で書くことがある。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売手数料"
+      },
+      {
+        "line": 110,
+        "text": "【日本語訳・定義】商品やサービスの販売、契約成立などの成果に応じて、販売員や代理人へ支払われる報酬。売上額の一定割合であることが多いが、必ず割合とは限らない。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算・不可算名詞】取扱手数料、仲介手数料"
+      },
+      {
+        "line": 172,
+        "text": "【日本語訳・定義】銀行、証券会社、仲介業者などが、両替、売買、送金その他の取引を処理する対価として顧客に請求する金額。取引額の一定割合の場合も定額の場合もある。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 222,
+        "text": "【日本語訳・定義】芸術作品、建築、文章、調査などを特定の人・組織に作成・実施してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 279,
+        "text": "【日本語訳・定義】犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・辞令"
+      },
+      {
+        "line": 317,
+        "text": "【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、その地位、またはそれを証明する文書を表す。一般的な入隊や配属そのものではない。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 355,
+        "text": "【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。  "
+      },
+      {
+        "line": 412,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 414,
+        "text": "【日本語訳・定義】人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。  "
+      },
+      {
+        "line": 481,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 483,
+        "text": "【日本語訳・定義】軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。  "
+      },
+      {
+        "line": 519,
+        "text": "10. 【他動詞】船舶・設備などを就役・稼働させる"
+      },
+      {
+        "line": 521,
+        "text": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 56,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 58,
+        "text": "・set up a commission to investigate 〈問題〉  "
+      },
+      {
+        "line": 59,
+        "text": "用途: 特定問題を調査する正式な委員会を設置する。  "
+      },
+      {
+        "line": 60,
+        "text": "例: The government set up an independent commission to investigate the disaster.  "
+      },
+      {
+        "line": 61,
+        "text": "訳: 政府はその災害を調査する独立委員会を設置した。  "
+      },
+      {
+        "line": 63,
+        "text": "・an independent commission on 〈問題〉  "
+      },
+      {
+        "line": 64,
+        "text": "用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。  "
+      },
+      {
+        "line": 65,
+        "text": "例: An independent commission on election reform will publish its recommendations next month.  "
+      },
+      {
+        "line": 66,
+        "text": "訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。  "
+      },
+      {
+        "line": 68,
+        "text": "・a commission of inquiry into 〈事件・問題〉  "
+      },
+      {
+        "line": 69,
+        "text": "用途: 重大な事件や制度上の問題を正式に調べる委員会を表す。  "
+      },
+      {
+        "line": 70,
+        "text": "例: Parliament called for a commission of inquiry into the security failures.  "
+      },
+      {
+        "line": 71,
+        "text": "訳: 議会はその安全保障上の失敗について調査委員会を設けるよう求めた。  "
+      },
+      {
+        "line": 73,
+        "text": "・serve on a commission  "
+      },
+      {
+        "line": 74,
+        "text": "用途: 委員会の委員として職務を果たす。  "
+      },
+      {
+        "line": 75,
+        "text": "例: She served on the national commission on child welfare for six years.  "
+      },
+      {
+        "line": 76,
+        "text": "訳: 彼女は6年間、児童福祉に関する国家委員会の委員を務めた。  "
+      },
+      {
+        "line": 78,
+        "text": "・the commission's report  "
+      },
+      {
+        "line": 79,
+        "text": "用途: 委員会が調査・審議を経てまとめた報告書を示す。  "
+      },
+      {
+        "line": 80,
+        "text": "例: The commission's report identified serious gaps in oversight.  "
+      },
+      {
+        "line": 81,
+        "text": "訳: 委員会の報告書は監督体制の重大な不備を指摘した。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売手数料"
+      },
+      {
+        "line": 118,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 120,
+        "text": "・earn commission on 〈sales〉  "
+      },
+      {
+        "line": 121,
+        "text": "用途: 販売実績に応じて歩合報酬を得る。  "
+      },
+      {
+        "line": 122,
+        "text": "例: Agents earn commission on every policy they sell.  "
+      },
+      {
+        "line": 123,
+        "text": "訳: 代理店担当者は販売した保険契約ごとに歩合を得る。  "
+      },
+      {
+        "line": 125,
+        "text": "・pay someone a commission  "
+      },
+      {
+        "line": 126,
+        "text": "用途: 売買や契約を成立させた人に成果連動の報酬を支払う。  "
+      },
+      {
+        "line": 127,
+        "text": "例: The gallery pays its representatives a commission for each painting sold.  "
+      },
+      {
+        "line": 128,
+        "text": "訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。  "
+      },
+      {
+        "line": 130,
+        "text": "・a ten percent commission  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 売上額などに対する歩合率を示す。  "
+      },
+      {
+        "line": 132,
+        "text": "例: She receives a ten percent commission on all new contracts.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。  "
+      },
+      {
+        "line": 135,
+        "text": "・work on commission  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。  "
+      },
+      {
+        "line": 137,
+        "text": "例: Most sales staff receive a base salary and work partly on commission.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 営業担当者の多くは基本給を受け取り、一部は歩合制で働いている。  "
+      },
+      {
+        "line": 140,
+        "text": "・commission-based pay  "
+      },
+      {
+        "line": 141,
+        "text": "用途: 歩合を中心とした報酬制度を表す。  "
+      },
+      {
+        "line": 142,
+        "text": "例: Commission-based pay can create strong incentives to close deals quickly.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: 歩合中心の報酬制度は、取引を早く成立させる強い動機を生むことがある。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算・不可算名詞】取扱手数料、仲介手数料"
+      },
+      {
+        "line": 180,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 182,
+        "text": "・charge a commission on 〈transaction〉  "
+      },
+      {
+        "line": 183,
+        "text": "用途: 金融機関などが取引額に対して手数料を課す。  "
+      },
+      {
+        "line": 184,
+        "text": "例: The broker charges a small commission on each trade.  "
+      },
+      {
+        "line": 185,
+        "text": "訳: その証券会社は取引ごとに少額の手数料を請求する。  "
+      },
+      {
+        "line": 187,
+        "text": "・pay a commission to 〈broker/agent〉  "
+      },
+      {
+        "line": 188,
+        "text": "用途: 取引を仲介した業者へ手数料を支払う。  "
+      },
+      {
+        "line": 189,
+        "text": "例: The buyer paid a commission to the broker who arranged the sale.  "
+      },
+      {
+        "line": 190,
+        "text": "訳: 買い手は売買を取りまとめた仲介業者に手数料を支払った。  "
+      },
+      {
+        "line": 192,
+        "text": "・a commission of 〈金額・割合〉  "
+      },
+      {
+        "line": 193,
+        "text": "用途: 取引処理について請求される具体的な手数料金額・率を示す。  "
+      },
+      {
+        "line": 194,
+        "text": "例: The exchange service applies a commission of one percent.  "
+      },
+      {
+        "line": 195,
+        "text": "訳: その両替サービスでは1パーセントの手数料がかかる。  "
+      },
+      {
+        "line": 197,
+        "text": "・commission-free trading  "
+      },
+      {
+        "line": 198,
+        "text": "用途: 売買委託手数料を直接請求しない取引サービスを表す。  "
+      },
+      {
+        "line": 199,
+        "text": "例: The platform advertises commission-free trading in selected funds.  "
+      },
+      {
+        "line": 200,
+        "text": "訳: そのプラットフォームは一部のファンドについて売買手数料無料をうたっている。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 230,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 232,
+        "text": "・receive a commission to do 〈仕事〉  "
+      },
+      {
+        "line": 233,
+        "text": "用途: 特定の制作・設計・調査を行う正式な依頼を受ける。  "
+      },
+      {
+        "line": 234,
+        "text": "例: The architect received a commission to design the new library.  "
+      },
+      {
+        "line": 235,
+        "text": "訳: その建築家は新しい図書館を設計する依頼を受けた。  "
+      },
+      {
+        "line": 237,
+        "text": "・accept a commission for 〈作品〉  "
+      },
+      {
+        "line": 238,
+        "text": "用途: 特定の作品を制作する依頼を引き受ける。  "
+      },
+      {
+        "line": 239,
+        "text": "例: The artist accepted a private commission for a family portrait.  "
+      },
+      {
+        "line": 240,
+        "text": "訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。  "
+      },
+      {
+        "line": 242,
+        "text": "・take commissions for 〈作品〉  "
+      },
+      {
+        "line": 243,
+        "text": "用途: 依頼に応じて特定種類の作品を制作すると述べる。  "
+      },
+      {
+        "line": 244,
+        "text": "例: She takes commissions for custom illustrations through her website.  "
+      },
+      {
+        "line": 245,
+        "text": "訳: 彼女はウェブサイトを通じて特注イラストの制作依頼を受けている。  "
+      },
+      {
+        "line": 247,
+        "text": "・a commission from 〈依頼主〉  "
+      },
+      {
+        "line": 248,
+        "text": "用途: 仕事や作品の依頼元を示す。  "
+      },
+      {
+        "line": 249,
+        "text": "例: The composer completed a commission from the city orchestra.  "
+      },
+      {
+        "line": 250,
+        "text": "訳: その作曲家は市のオーケストラから依頼された作品を完成させた。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 287,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 289,
+        "text": "・the commission of a crime  "
+      },
+      {
+        "line": 290,
+        "text": "用途: 犯罪を実行する行為を法律的・形式的に表す。  "
+      },
+      {
+        "line": 291,
+        "text": "例: The evidence linked the weapon to the commission of the crime.  "
+      },
+      {
+        "line": 292,
+        "text": "訳: その証拠により、凶器とその犯罪の実行が結び付けられた。  "
+      },
+      {
+        "line": 294,
+        "text": "・during the commission of 〈crime〉  "
+      },
+      {
+        "line": 295,
+        "text": "用途: 犯罪行為を実行している最中であることを示す。  "
+      },
+      {
+        "line": 296,
+        "text": "例: No one was injured during the commission of the robbery.  "
+      },
+      {
+        "line": 297,
+        "text": "訳: その強盗の実行中にけが人は出なかった。  "
+      },
+      {
+        "line": 299,
+        "text": "・aid someone in the commission of 〈offence〉  "
+      },
+      {
+        "line": 300,
+        "text": "用途: 他者が違反・犯罪を行うのを助けることを形式的に表す。  "
+      },
+      {
+        "line": 301,
+        "text": "例: He was accused of aiding others in the commission of the offence.  "
+      },
+      {
+        "line": 302,
+        "text": "訳: 彼は他者によるその違反の実行を助けたとして告発された。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・辞令"
+      },
+      {
+        "line": 325,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 327,
+        "text": "・receive a commission as 〈officer rank〉  "
+      },
+      {
+        "line": 328,
+        "text": "用途: 特定階級の士官として正式に任官する。  "
+      },
+      {
+        "line": 329,
+        "text": "例: After completing the academy, she received a commission as a second lieutenant.  "
+      },
+      {
+        "line": 330,
+        "text": "訳: 士官学校を修了後、彼女は少尉に任官した。  "
+      },
+      {
+        "line": 332,
+        "text": "・hold a commission in 〈armed service〉  "
+      },
+      {
+        "line": 333,
+        "text": "用途: 特定の軍種で士官の地位と権限を持つ。  "
+      },
+      {
+        "line": 334,
+        "text": "例: He held a commission in the Royal Navy for twelve years.  "
+      },
+      {
+        "line": 335,
+        "text": "訳: 彼は12年間、英国海軍で士官の地位にあった。  "
+      },
+      {
+        "line": 337,
+        "text": "・resign one's commission  "
+      },
+      {
+        "line": 338,
+        "text": "用途: 士官としての地位・任命を正式に辞する。  "
+      },
+      {
+        "line": 339,
+        "text": "例: The officer resigned her commission and left the service.  "
+      },
+      {
+        "line": 340,
+        "text": "訳: その士官は任官を辞し、軍を去った。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 363,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 365,
+        "text": "・be in commission  "
+      },
+      {
+        "line": 366,
+        "text": "用途: 船舶や設備が正式な任務または使用に就いている状態を表す。  "
+      },
+      {
+        "line": 367,
+        "text": "例: The research vessel remained in commission for more than thirty years.  "
+      },
+      {
+        "line": 368,
+        "text": "訳: その調査船は30年以上にわたり就役していた。  "
+      },
+      {
+        "line": 370,
+        "text": "・be out of commission  "
+      },
+      {
+        "line": 371,
+        "text": "用途: 機械・設備が故障や整備で使用できない状態を表す。  "
+      },
+      {
+        "line": 372,
+        "text": "例: Two elevators are out of commission while repairs are carried out.  "
+      },
+      {
+        "line": 373,
+        "text": "訳: 修理中のため、エレベーター2基が使用できない。  "
+      },
+      {
+        "line": 375,
+        "text": "・put someone out of commission  "
+      },
+      {
+        "line": 376,
+        "text": "用途: けがや病気などで人を一時的に活動できない状態にする。  "
+      },
+      {
+        "line": 377,
+        "text": "例: A shoulder injury put him out of commission for the rest of the season.  "
+      },
+      {
+        "line": 378,
+        "text": "訳: 肩のけがにより、彼はシーズン残りを出場できなくなった。  "
+      },
+      {
+        "line": 380,
+        "text": "・put 〈ship/equipment〉 into commission  "
+      },
+      {
+        "line": 381,
+        "text": "用途: 船舶や設備を正式に就役・稼働状態へ移す。  "
+      },
+      {
+        "line": 382,
+        "text": "例: The navy plans to put the new patrol ship into commission next spring.  "
+      },
+      {
+        "line": 383,
+        "text": "訳: 海軍は来春、新しい巡視船を就役させる予定だ。  "
+      },
+      {
+        "line": 412,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 422,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 424,
+        "text": "・commission someone to do 〈仕事〉  "
+      },
+      {
+        "line": 425,
+        "text": "用途: 特定の人・組織に仕事を実施するよう正式に依頼する。  "
+      },
+      {
+        "line": 426,
+        "text": "例: The museum commissioned a local artist to create a sculpture for the entrance.  "
+      },
+      {
+        "line": 427,
+        "text": "訳: 美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。  "
+      },
+      {
+        "line": 429,
+        "text": "・commission a report/study  "
+      },
+      {
+        "line": 430,
+        "text": "用途: 判断材料となる報告書や調査を専門家に作成させる。  "
+      },
+      {
+        "line": 431,
+        "text": "例: The board commissioned an independent study of the project's environmental impact.  "
+      },
+      {
+        "line": 432,
+        "text": "訳: 取締役会はその事業の環境影響について独立調査を依頼した。  "
+      },
+      {
+        "line": 434,
+        "text": "・commission 〈work〉 from someone  "
+      },
+      {
+        "line": 435,
+        "text": "用途: 成果物を目的語にし、その制作者を from で示す。  "
+      },
+      {
+        "line": 436,
+        "text": "例: The orchestra commissioned a new symphony from the composer.  "
+      },
+      {
+        "line": 437,
+        "text": "訳: そのオーケストラは作曲家に新しい交響曲を依頼した。  "
+      },
+      {
+        "line": 439,
+        "text": "・be commissioned by 〈依頼主〉  "
+      },
+      {
+        "line": 440,
+        "text": "用途: 作品・調査などを依頼した主体を受動形で示す。  "
+      },
+      {
+        "line": 441,
+        "text": "例: The survey was commissioned by the city council.  "
+      },
+      {
+        "line": 442,
+        "text": "訳: その調査は市議会の依頼で実施された。  "
+      },
+      {
+        "line": 444,
+        "text": "・specially commissioned for 〈目的・機会〉  "
+      },
+      {
+        "line": 445,
+        "text": "用途: 特定の目的や行事のために特別に依頼制作されたことを示す。  "
+      },
+      {
+        "line": 446,
+        "text": "例: The exhibition features a film specially commissioned for the anniversary.  "
+      },
+      {
+        "line": 447,
+        "text": "訳: その展覧会では記念日のために特別制作された映画を上映している。  "
+      },
+      {
+        "line": 481,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 491,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 493,
+        "text": "・be commissioned as 〈officer rank〉  "
+      },
+      {
+        "line": 494,
+        "text": "用途: 特定階級の士官として任官したことを表す。  "
+      },
+      {
+        "line": 495,
+        "text": "例: She was commissioned as a lieutenant after completing officer training.  "
+      },
+      {
+        "line": 496,
+        "text": "訳: 彼女は士官訓練を修了後、中尉に任官した。  "
+      },
+      {
+        "line": 498,
+        "text": "・be commissioned into 〈armed service〉  "
+      },
+      {
+        "line": 499,
+        "text": "用途: 特定の軍種で士官として任官する。  "
+      },
+      {
+        "line": 500,
+        "text": "例: He was commissioned into the air force in 2022.  "
+      },
+      {
+        "line": 501,
+        "text": "訳: 彼は2022年に空軍士官に任官した。  "
+      },
+      {
+        "line": 503,
+        "text": "・a newly commissioned officer  "
+      },
+      {
+        "line": 504,
+        "text": "用途: 最近正式に任官した士官を表す。  "
+      },
+      {
+        "line": 505,
+        "text": "例: Newly commissioned officers attended the leadership course.  "
+      },
+      {
+        "line": 506,
+        "text": "訳: 新たに任官した士官たちは指揮官研修に参加した。  "
+      },
+      {
+        "line": 519,
+        "text": "10. 【他動詞】船舶・設備などを就役・稼働させる"
+      },
+      {
+        "line": 529,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 531,
+        "text": "・commission a new ship  "
+      },
+      {
+        "line": 532,
+        "text": "用途: 新造船を正式に就役させる。  "
+      },
+      {
+        "line": 533,
+        "text": "例: The navy commissioned the new vessel in a ceremony at the port.  "
+      },
+      {
+        "line": 534,
+        "text": "訳: 海軍は港での式典でその新造船を就役させた。  "
+      },
+      {
+        "line": 536,
+        "text": "・commission a system  "
+      },
+      {
+        "line": 537,
+        "text": "用途: システムを試験・調整し、正式な運用を開始する。  "
+      },
+      {
+        "line": 538,
+        "text": "例: Engineers will commission the new control system before the plant reopens.  "
+      },
+      {
+        "line": 539,
+        "text": "訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。  "
+      },
+      {
+        "line": 541,
+        "text": "・be commissioned into service  "
+      },
+      {
+        "line": 542,
+        "text": "用途: 船舶・設備などが正式に運用開始となる。  "
+      },
+      {
+        "line": 543,
+        "text": "例: The hospital's backup generator was commissioned into service last week.  "
+      },
+      {
+        "line": 544,
+        "text": "訳: その病院の非常用発電機は先週、正式に運用開始となった。  "
+      },
+      {
+        "line": 546,
+        "text": "・commissioning tests  "
+      },
+      {
+        "line": 547,
+        "text": "用途: 設備を本運用へ移す前に性能・安全性を確認する試験を表す。  "
+      },
+      {
+        "line": 548,
+        "text": "例: The turbine passed all commissioning tests before commercial operation began.  "
+      },
+      {
+        "line": 549,
+        "text": "訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 46,
+        "text": "1. 【可算名詞】委員会、調査委員会、行政委員会"
+      },
+      {
+        "line": 85,
+        "text": "【類義語】"
+      },
+      {
+        "line": 87,
+        "text": "・committee  "
+      },
+      {
+        "line": 88,
+        "text": "定義: 特定事項を検討・運営するために選ばれた比較的小規模な集団。  "
+      },
+      {
+        "line": 89,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 90,
+        "text": "違い: committee は組織内部の会議体にも広く使う。commission は公的権限または独立した調査・規制任務を伴いやすい。  "
+      },
+      {
+        "line": 91,
+        "text": "例: The finance committee approved the revised budget.  "
+      },
+      {
+        "line": 92,
+        "text": "訳: 財務委員会は修正予算を承認した。  "
+      },
+      {
+        "line": 94,
+        "text": "・panel  "
+      },
+      {
+        "line": 95,
+        "text": "定義: 特定問題を検討したり意見を述べたりする専門家などの集団。  "
+      },
+      {
+        "line": 96,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 97,
+        "text": "違い: panel は一時的な審査・討論集団にも使い、commission ほど公的権限を含意しない。  "
+      },
+      {
+        "line": 98,
+        "text": "例: A panel of experts reviewed the safety data.  "
+      },
+      {
+        "line": 99,
+        "text": "訳: 専門家委員会が安全性データを検討した。  "
+      },
+      {
+        "line": 101,
+        "text": "・board  "
+      },
+      {
+        "line": 102,
+        "text": "定義: 組織の運営・監督・意思決定を担う正式な会議体。  "
+      },
+      {
+        "line": 103,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 104,
+        "text": "違い: board は企業や団体の継続的な経営・監督に焦点がある。commission は特定分野の公的調査・規制任務に焦点を置きやすい。  "
+      },
+      {
+        "line": 105,
+        "text": "例: The board appointed a new chief executive.  "
+      },
+      {
+        "line": 106,
+        "text": "訳: 取締役会は新しい最高経営責任者を任命した。  "
+      },
+      {
+        "line": 108,
+        "text": "2. 【可算・不可算名詞】歩合、販売手数料"
+      },
+      {
+        "line": 147,
+        "text": "【類義語】"
+      },
+      {
+        "line": 149,
+        "text": "・bonus  "
+      },
+      {
+        "line": 150,
+        "text": "定義: 通常の給与などに加えて支払われる追加報酬。  "
+      },
+      {
+        "line": 151,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 152,
+        "text": "違い: bonus は会社業績、個人評価、季節など多様な基準で支払われる。commission は特定の売上・取引成果に直接連動する。  "
+      },
+      {
+        "line": 153,
+        "text": "例: Employees received an annual bonus after the company exceeded its targets.  "
+      },
+      {
+        "line": 154,
+        "text": "訳: 会社が目標を上回ったため、従業員は年次賞与を受け取った。  "
+      },
+      {
+        "line": 156,
+        "text": "・fee  "
+      },
+      {
+        "line": 157,
+        "text": "定義: 専門的サービスや手続きに対して支払う料金。  "
+      },
+      {
+        "line": 158,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 159,
+        "text": "違い: fee はサービス自体の対価として定額の場合も多い。commission は代理・販売成果に応じて受取人へ支払う報酬を指しやすい。  "
+      },
+      {
+        "line": 160,
+        "text": "例: The lawyer charged a fixed fee for the consultation.  "
+      },
+      {
+        "line": 161,
+        "text": "訳: その弁護士は相談について定額料金を請求した。  "
+      },
+      {
+        "line": 163,
+        "text": "・royalty  "
+      },
+      {
+        "line": 164,
+        "text": "定義: 著作物、特許、資源などの利用・販売に応じて権利者へ支払われる使用料。  "
+      },
+      {
+        "line": 165,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 166,
+        "text": "違い: royalty は権利の利用対価であり、販売仲介の報酬である commission とは受取理由が異なる。  "
+      },
+      {
+        "line": 167,
+        "text": "例: The author receives a royalty on every copy sold.  "
+      },
+      {
+        "line": 168,
+        "text": "訳: 著者は販売された一冊ごとに印税を受け取る。  "
+      },
+      {
+        "line": 170,
+        "text": "3. 【可算・不可算名詞】取扱手数料、仲介手数料"
+      },
+      {
+        "line": 204,
+        "text": "【類義語】"
+      },
+      {
+        "line": 206,
+        "text": "・fee  "
+      },
+      {
+        "line": 207,
+        "text": "定義: サービス、手続き、専門業務などに対して請求される料金。  "
+      },
+      {
+        "line": 208,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 209,
+        "text": "違い: fee は最も広い一般語で、取引額と無関係な定額料金も含む。commission は仲介・売買など特定の取引との結び付きが強い。  "
+      },
+      {
+        "line": 210,
+        "text": "例: The bank charges a monthly account fee.  "
+      },
+      {
+        "line": 211,
+        "text": "訳: その銀行は毎月の口座維持手数料を請求する。  "
+      },
+      {
+        "line": 213,
+        "text": "・brokerage  "
+      },
+      {
+        "line": 214,
+        "text": "定義: 仲介業務、または証券などの売買仲介に対する料金。  "
+      },
+      {
+        "line": 215,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 216,
+        "text": "違い: brokerage は仲介事業・サービス自体も指す。commission は個別取引について発生する具体的報酬・手数料を指しやすい。  "
+      },
+      {
+        "line": 217,
+        "text": "例: The investor compared brokerage fees across several platforms.  "
+      },
+      {
+        "line": 218,
+        "text": "訳: その投資家は複数のプラットフォームで仲介手数料を比較した。  "
+      },
+      {
+        "line": 220,
+        "text": "4. 【可算名詞】正式な依頼、発注、依頼作品"
+      },
+      {
+        "line": 254,
+        "text": "【類義語】"
+      },
+      {
+        "line": 256,
+        "text": "・assignment  "
+      },
+      {
+        "line": 257,
+        "text": "定義: 人に割り当てられた仕事・課題。  "
+      },
+      {
+        "line": 258,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 259,
+        "text": "違い: assignment は雇用・教育などでの業務配分にも広く使う。commission は外部の専門家や制作者への正式な依頼と対価を含意しやすい。  "
+      },
+      {
+        "line": 260,
+        "text": "例: The journalist completed an overseas assignment.  "
+      },
+      {
+        "line": 261,
+        "text": "訳: その記者は海外取材の任務を終えた。  "
+      },
+      {
+        "line": 263,
+        "text": "・order  "
+      },
+      {
+        "line": 264,
+        "text": "定義: 商品や制作物を提供・作成してもらう注文。  "
+      },
+      {
+        "line": 265,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 266,
+        "text": "違い: order は既製品の購入にも使う。commission は依頼主のために新たに制作・実施する個別の仕事に焦点がある。  "
+      },
+      {
+        "line": 267,
+        "text": "例: The workshop received an order for twenty chairs.  "
+      },
+      {
+        "line": 268,
+        "text": "訳: その工房は椅子20脚の注文を受けた。  "
+      },
+      {
+        "line": 270,
+        "text": "・contract  "
+      },
+      {
+        "line": 271,
+        "text": "定義: 仕事や提供条件について法的拘束力を持つ合意。  "
+      },
+      {
+        "line": 272,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 273,
+        "text": "違い: contract は当事者間の法的合意を指す。commission は依頼や依頼作品を指し、必ずしも契約文書そのものではない。  "
+      },
+      {
+        "line": 274,
+        "text": "例: The firm won a contract to build the bridge.  "
+      },
+      {
+        "line": 275,
+        "text": "訳: その会社は橋を建設する契約を獲得した。  "
+      },
+      {
+        "line": 277,
+        "text": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと"
+      },
+      {
+        "line": 306,
+        "text": "【類義語】"
+      },
+      {
+        "line": 308,
+        "text": "・perpetration  "
+      },
+      {
+        "line": 309,
+        "text": "定義: 犯罪や有害な行為を実行すること。  "
+      },
+      {
+        "line": 310,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 311,
+        "text": "違い: perpetration は行為の悪質性と実行者性を強く示す。commission は法律文書で行為の発生・実行を中立的に名詞化する。  "
+      },
+      {
+        "line": 312,
+        "text": "例: Investigators found evidence of the deliberate perpetration of fraud.  "
+      },
+      {
+        "line": 313,
+        "text": "訳: 捜査当局は故意による詐欺の実行を示す証拠を発見した。  "
+      },
+      {
+        "line": 315,
+        "text": "6. 【可算名詞・軍事】士官任命、士官の地位・辞令"
+      },
+      {
+        "line": 344,
+        "text": "【類義語】"
+      },
+      {
+        "line": 346,
+        "text": "・appointment  "
+      },
+      {
+        "line": 347,
+        "text": "定義: 役職へ正式に就けること、またはその役職。  "
+      },
+      {
+        "line": 348,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 349,
+        "text": "違い: appointment は民間・行政を含む広い任命語である。commission は軍事では士官としての階級・権限を授ける任官に限定される。  "
+      },
+      {
+        "line": 350,
+        "text": "例: Her appointment as ambassador was confirmed by the senate.  "
+      },
+      {
+        "line": 351,
+        "text": "訳: 彼女の大使任命は上院で承認された。  "
+      },
+      {
+        "line": 353,
+        "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+      },
+      {
+        "line": 387,
+        "text": "【類義語】"
+      },
+      {
+        "line": 389,
+        "text": "・operational  "
+      },
+      {
+        "line": 390,
+        "text": "定義: 機械・設備・組織などが作動・運用できる状態にある。  "
+      },
+      {
+        "line": 391,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 392,
+        "text": "違い: in commission と同じく使用可能な側を表すが、operational は正式な就役の有無を問わず機能している状態を直接述べる。  "
+      },
+      {
+        "line": 393,
+        "text": "例: The emergency communications system is fully operational.  "
+      },
+      {
+        "line": 394,
+        "text": "訳: 緊急通信システムは完全に稼働している。  "
+      },
+      {
+        "line": 396,
+        "text": "・out of service  "
+      },
+      {
+        "line": 397,
+        "text": "定義: 機械・設備・交通手段などが使用・運行できない状態にある。  "
+      },
+      {
+        "line": 398,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 399,
+        "text": "違い: out of commission の使用不能側に近い。out of service は設備・交通手段に広く使い、out of commission は人の一時的な活動不能にも比喩的に使える。  "
+      },
+      {
+        "line": 400,
+        "text": "例: The ticket machine is temporarily out of service.  "
+      },
+      {
+        "line": 401,
+        "text": "訳: その券売機は一時的に使用できない。  "
+      },
+      {
+        "line": 403,
+        "text": "【反意語】"
+      },
+      {
+        "line": 405,
+        "text": "・in service  "
+      },
+      {
+        "line": 406,
+        "text": "定義: 機械、車両、船舶などが使用・運行されている状態にある。  "
+      },
+      {
+        "line": 407,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 408,
+        "text": "違い: out of commission と使用可能性・稼働状態の軸で反対方向にある。in service は正式な軍事上の就役に限らず、公共交通や設備にも広く使う。  "
+      },
+      {
+        "line": 409,
+        "text": "例: All trains were back in service by noon.  "
+      },
+      {
+        "line": 410,
+        "text": "訳: 正午までにすべての列車が運行を再開した。  "
+      },
+      {
+        "line": 412,
+        "text": "8. 【他動詞】～を正式に依頼する、発注する"
+      },
+      {
+        "line": 451,
+        "text": "【類義語】"
+      },
+      {
+        "line": 453,
+        "text": "・hire  "
+      },
+      {
+        "line": 454,
+        "text": "定義: 報酬を払って人を雇い、仕事をしてもらう。  "
+      },
+      {
+        "line": 455,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 456,
+        "text": "違い: hire は雇用またはサービス提供者の選定に焦点がある。commission は特定の成果物・調査・創作物を正式に依頼することに焦点がある。  "
+      },
+      {
+        "line": 457,
+        "text": "例: We hired an engineer to inspect the building.  "
+      },
+      {
+        "line": 458,
+        "text": "訳: 私たちは建物を点検するため技師を雇った。  "
+      },
+      {
+        "line": 460,
+        "text": "・authorize  "
+      },
+      {
+        "line": 461,
+        "text": "定義: 人や行為に正式な権限・許可を与える。  "
+      },
+      {
+        "line": 462,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 463,
+        "text": "違い: authorize は実行を許可することであり、仕事の成果を依頼するとは限らない。commission は依頼主が特定の仕事を行わせる。  "
+      },
+      {
+        "line": 464,
+        "text": "例: The director authorized the payment.  "
+      },
+      {
+        "line": 465,
+        "text": "訳: 取締役はその支払いを承認した。  "
+      },
+      {
+        "line": 467,
+        "text": "・assign  "
+      },
+      {
+        "line": 468,
+        "text": "定義: 組織内などで仕事・責任を人に割り当てる。  "
+      },
+      {
+        "line": 469,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 470,
+        "text": "違い: assign は既存の役割関係の中で業務を配分する場合に広い。commission は独立した専門家への正式な発注にも使う。  "
+      },
+      {
+        "line": 471,
+        "text": "例: The editor assigned the story to an experienced reporter.  "
+      },
+      {
+        "line": 472,
+        "text": "訳: 編集者はその記事を経験豊富な記者に割り当てた。  "
+      },
+      {
+        "line": 474,
+        "text": "・order  "
+      },
+      {
+        "line": 475,
+        "text": "定義: 品物を注文する、または何かを作るよう求める。  "
+      },
+      {
+        "line": 476,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 477,
+        "text": "違い: order は既製品にも使い、命令の意味もある。commission は個別の創作・調査・専門業務を正式に取り決める。  "
+      },
+      {
+        "line": 478,
+        "text": "例: They ordered replacement parts from the manufacturer.  "
+      },
+      {
+        "line": 479,
+        "text": "訳: 彼らは製造元に交換部品を注文した。  "
+      },
+      {
+        "line": 481,
+        "text": "9. 【他動詞・通常受動・軍事】～を士官に任命する"
+      },
+      {
+        "line": 510,
+        "text": "【類義語】"
+      },
+      {
+        "line": 512,
+        "text": "・appoint  "
+      },
+      {
+        "line": 513,
+        "text": "定義: 人を役職へ正式に任命する。  "
+      },
+      {
+        "line": 514,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 515,
+        "text": "違い: appoint は民間・行政を含む一般的な任命語である。commission は軍隊で士官の階級と権限を授ける場合に限定される。  "
+      },
+      {
+        "line": 516,
+        "text": "例: The cabinet appointed her defense minister.  "
+      },
+      {
+        "line": 517,
+        "text": "訳: 内閣は彼女を国防相に任命した。  "
+      },
+      {
+        "line": 519,
+        "text": "10. 【他動詞】船舶・設備などを就役・稼働させる"
+      },
+      {
+        "line": 553,
+        "text": "【類義語】"
+      },
+      {
+        "line": 555,
+        "text": "・activate  "
+      },
+      {
+        "line": 556,
+        "text": "定義: 装置・機能を作動状態にする。  "
+      },
+      {
+        "line": 557,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 558,
+        "text": "違い: activate は一回の作動操作にも使う。commission は試験・承認・引渡しを含む正式な運用開始工程に焦点がある。  "
+      },
+      {
+        "line": 559,
+        "text": "例: The technician activated the emergency system.  "
+      },
+      {
+        "line": 560,
+        "text": "訳: 技術者は緊急システムを作動させた。  "
+      },
+      {
+        "line": 562,
+        "text": "・launch  "
+      },
+      {
+        "line": 563,
+        "text": "定義: 製品、サービス、計画などを公に開始する。  "
+      },
+      {
+        "line": 564,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 565,
+        "text": "違い: launch は市場投入・公開開始に広く使う。commission は物理的設備や船舶を運用可能な状態へ移す技術的・公式な過程を表す。  "
+      },
+      {
+        "line": 566,
+        "text": "例: The company launched the service nationwide.  "
+      },
+      {
+        "line": 567,
+        "text": "訳: その会社は全国でそのサービスを開始した。  "
+      },
+      {
+        "line": 569,
+        "text": "【反意語】"
+      },
+      {
+        "line": 571,
+        "text": "・decommission  "
+      },
+      {
+        "line": 572,
+        "text": "定義: 船舶、設備、施設などを正式に運用から外す。  "
+      },
+      {
+        "line": 573,
+        "text": "頻度: 〈5/10〉  "
+      },
+      {
+        "line": 574,
+        "text": "違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  "
+      },
+      {
+        "line": 575,
+        "text": "例: The operator plans to decommission the old reactor by 2030.  "
+      },
+      {
+        "line": 576,
+        "text": "訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+  "source_artifact_sha256": "8518a3adc40ce4cbce1cb5cb38779fdae3e2432ff08a459a570ae20078ed7630",
+  "normalized_input_sha256": "723c4eeaff477dcc1a4a62dd4c850e9daabc94a2926c1e36659cb4c6ca5202a3"
+}
+```

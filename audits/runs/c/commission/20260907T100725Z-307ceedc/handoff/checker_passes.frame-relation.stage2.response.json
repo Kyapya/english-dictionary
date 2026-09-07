@@ -1,0 +1,33 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "stage2_request_sha256": "4dc262a005e23ce8dfd5aaee4be70ca568e4ea277f01e64ff431f2e89733dac8",
+  "blind_record_sha256": "d04c93ba81f36dcdd8a343753e312717e732b3948f520af411109ad55e6b652c",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-frame-agent"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-e74218a8b264",
+      "flags": [
+        "F1"
+      ],
+      "rationale": "封印済み stage 1 が unnamable であるため F1 は解除できない。in service は当該語義の in commission と同じ使用・運用中の側にあり、違い行は比較対象を out of commission に限定して初めて対立が成立すると示している。",
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-fb78bd32f311",
+      "flags": [],
+      "rationale": "運用可能な状態へ正式に移す commission と運用から正式に外す decommission は、当該語義から導出できる運用移行軸上の逆方向を表し、違い行も対立を自己否定していない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

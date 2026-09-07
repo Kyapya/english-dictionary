@@ -1,0 +1,1543 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/c/commission.md",
+  "cycle_id": "20260907T100725Z-307ceedc",
+  "cycle_dir": "audits/runs/c/commission/20260907T100725Z-307ceedc",
+  "body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/source_inventory.json",
+      "sha256": "4cdd6d22423055c9f477d7aedd56cf93e703fa59677ef8e1421b796fb4bd6270",
+      "stage": "source_inventory",
+      "run_id": "source-commission-20260907T100725Z-307ceedc",
+      "context_id": "source-commission-context-20260907T100725Z-307ceedc",
+      "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+      "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
+      "recorded_at": "2026-09-07T09:31:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/pass_findings.json",
+      "sha256": "f8377a994b28240106ea8c505bf6570eb640fe9776123c935786a10ba1789f05",
+      "stage": "normal_review",
+      "run_id": "normal-commission-20260907T100725Z-307ceedc",
+      "context_id": "normal-commission-context-20260907T100725Z-307ceedc",
+      "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-07T10:16:45.146263+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/cold_review.json",
+      "sha256": "6792acd621e75179e231dfd1c7b9b38145d7dc70af11f7ec09a0bd2f24d7f5b1",
+      "stage": "cold_review",
+      "run_id": "cold-commission-20260907T100725Z-307ceedc",
+      "context_id": "cold-commission-context-20260907T100725Z-307ceedc",
+      "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+      "prompt_sha256": "0ed4409a73095a9a2968bdcdb20bc397be345af84bff2c3558a48f08a5488aae",
+      "recorded_at": "2026-09-07T10:18:49.271094+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/resolutions.json",
+      "sha256": "fb11b6234629d1b51d1fbfeaeded99b6f9d6cd688bb76d6367b802cda85243d5",
+      "stage": "resolutions",
+      "run_id": "resolution-commission-20260907T100725Z-307ceedc",
+      "context_id": "resolution-commission-context-20260907T100725Z-307ceedc",
+      "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+      "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+      "recorded_at": "2026-09-07T11:12:01Z"
+    },
+    "final_blind": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/final_blind.json",
+      "sha256": "8ca975daa61230fd84b0352b5d2d501695b45c376b181558884b060aadae4278",
+      "stage": "final_blind",
+      "run_id": "blind-commission-20260907T100725Z-307ceedc",
+      "context_id": "blind-commission-context-20260907T100725Z-307ceedc",
+      "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+      "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+      "recorded_at": "2026-09-07T11:09:10.797255+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/blind_seal.json",
+      "sha256": "c839e2cbba883efac76aafac0e7a073c93cadb13679914b151dcf250c664b36b",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/final_review.json",
+      "sha256": "d9a9e18bc9c06cded0a8d774ef1354fb158e0350972d369f56d8adf429f80f5e",
+      "stage": "final_review",
+      "run_id": "blind-commission-20260907T100725Z-307ceedc",
+      "context_id": "blind-commission-context-20260907T100725Z-307ceedc",
+      "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+      "prompt_sha256": "af6ad4a77bbe63f6ace93a9080d138fa63efc2d40b6490cdd3bc70756783102a",
+      "recorded_at": "2026-09-07T11:41:02.264391+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 23,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 1
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-07T09:30:00Z",
+    "article_comparison_started_at": "2026-09-07T09:30:01Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-009",
+          "F-010",
+          "F-011",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-015",
+          "F-016"
+        ],
+        "notes": "Independent learner and general dictionaries cover the principal noun, verb, military, crime, and operational uses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-005",
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-013",
+          "F-014",
+          "F-016"
+        ],
+        "notes": "Countability, noun complements, transitive frames, passive military frames, and operational idioms are represented."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-020",
+          "F-021",
+          "F-022",
+          "F-023"
+        ],
+        "notes": "Commissioner, decommission, recommission, and commission-free are represented as atomic forms; regular inflections are covered by the headword verb sources."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-006",
+          "F-011",
+          "F-013",
+          "F-016",
+          "F-019"
+        ],
+        "notes": "Military appointment, formal crime language, naval service, and engineering commissioning are directly covered."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-006",
+          "F-007",
+          "F-015"
+        ],
+        "notes": "Learner dictionaries identify formal, public, commercial, artistic, and crime-domain uses and their countability."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-017",
+          "F-018"
+        ],
+        "notes": "Oxford supplies pronunciation and Etymonline supplies the French and Latin history and semantic development."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Advanced Learner's Dictionary — commission",
+        "locator": "https://www.oxfordlearnersdictionaries.com/us/definition/english/commission_1",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_languages",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "A countable commission can be an official group responsible for control or investigation.",
+            "source_detail": "Oxford noun sense 1 gives an official group with responsibility to control or investigate."
+          },
+          {
+            "id": "F-002",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can be money paid for selling goods, commonly linked to the amount sold.",
+            "source_detail": "Oxford noun sense 2 supplies percentage and on-commission examples."
+          },
+          {
+            "id": "F-003",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can be a charge made by a bank or similar provider for a service.",
+            "source_detail": "Oxford noun sense 3 distinguishes the charge from salesperson remuneration."
+          },
+          {
+            "id": "F-004",
+            "form": "a commission to do something",
+            "kind": "argument_structure",
+            "statement": "A commission can be a formal request to design or make a work, with to, for, and from complements.",
+            "source_detail": "Oxford noun sense 4 gives commission to do, commission for, and commission from patterns."
+          },
+          {
+            "id": "F-005",
+            "form": "commission",
+            "kind": "specialist_use",
+            "statement": "In armed forces usage, a commission is an officer's position and authority.",
+            "source_detail": "Oxford noun sense 5 identifies the officer position and contrasts commissioned officer."
+          },
+          {
+            "id": "F-006",
+            "form": "the commission of a crime",
+            "kind": "register",
+            "statement": "In formal usage, the commission of a crime means the act of doing the crime.",
+            "source_detail": "Oxford labels this crime sense uncountable and formal."
+          },
+          {
+            "id": "F-007",
+            "form": "in/out of commission",
+            "kind": "idiom",
+            "statement": "In or out of commission expresses whether something is available for use.",
+            "source_detail": "Oxford's idiom entry gives temporarily out-of-commission aircraft."
+          },
+          {
+            "id": "F-017",
+            "form": "commission",
+            "kind": "pronunciation",
+            "statement": "The noun and verb are pronounced /kəˈmɪʃən/ in British and American English.",
+            "source_detail": "Oxford noun and verb entries give matching British and American pronunciations and regular verb forms."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Merriam-Webster — commission",
+        "locator": "https://www.merriam-webster.com/dictionary/commission",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-008",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can denote formal authority, a formal request for paid work, or the work so produced.",
+            "source_detail": "Merriam-Webster separates a warrant or authorization, a paid creative request, and a commissioned work."
+          },
+          {
+            "id": "F-009",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission can denote an official group directed to perform a duty.",
+            "source_detail": "Merriam-Webster gives both a duty-specific group and government agency uses."
+          },
+          {
+            "id": "F-010",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "Commission is a fee paid to an agent or employee for a transaction or service, especially a percentage.",
+            "source_detail": "Merriam-Webster defines the commercial payment and illustrates commission per sale."
+          },
+          {
+            "id": "F-011",
+            "form": "commission of something",
+            "kind": "specialist_use",
+            "statement": "Commission can be the act of committing or doing something, especially wrongdoing.",
+            "source_detail": "Merriam-Webster illustrates the act-of-committing sense with commission of a crime."
+          },
+          {
+            "id": "F-012",
+            "form": "commission someone to do something",
+            "kind": "argument_structure",
+            "statement": "The transitive verb can formally engage a person to do work or order a work to be made.",
+            "source_detail": "Merriam-Webster verb examples include being commissioned to write and commissioning a portrait."
+          },
+          {
+            "id": "F-013",
+            "form": "commission",
+            "kind": "specialist_use",
+            "statement": "The verb can appoint a military officer and can put a ship into active service.",
+            "source_detail": "Merriam-Webster lists officer appointment and ship activation as verb uses."
+          },
+          {
+            "id": "F-020",
+            "form": "commissioner",
+            "kind": "derived_form",
+            "statement": "Commissioner denotes a person entrusted with commission duties or a member or head of a commission.",
+            "source_detail": "Merriam-Webster's related commissioner entry records the official role."
+          },
+          {
+            "id": "F-023",
+            "form": "commission-free",
+            "kind": "derived_form",
+            "statement": "Commission-free describes a transaction for which no commission is directly charged.",
+            "source_detail": "Merriam-Webster's commission definition and common attributive commercial formation support the transparent compound."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Cambridge Dictionary — commission",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/commission",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F-014",
+            "form": "commission",
+            "kind": "argument_structure",
+            "statement": "The verb formally chooses or asks someone to do a special piece of work and can take a work as object.",
+            "source_detail": "Cambridge verb coverage distinguishes requesting work and appointing an officer."
+          },
+          {
+            "id": "F-015",
+            "form": "commission",
+            "kind": "lexical_sense",
+            "statement": "The noun covers an official group, payment for selling, commissioned work, and formal wrongdoing.",
+            "source_detail": "Cambridge groups these as separate noun senses with learner-level examples."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "American Heritage Dictionary — commission",
+        "locator": "https://ahdictionary.com/word/search.html?q=commission",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "american_heritage",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "in/out of commission",
+            "kind": "specialist_use",
+            "statement": "In commission means active service or usable condition; out of commission means inactive or unusable condition.",
+            "source_detail": "American Heritage distinguishes the naval sense and its general equipment extension and lists commissioning a ship."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Online Etymology Dictionary — commission",
+        "locator": "https://www.etymonline.com/word/commission",
+        "source_type": "etymology_reference",
+        "source_role": "etymology",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-018",
+            "form": "commission",
+            "kind": "etymology",
+            "statement": "Commission entered through Old French from Latin commissio and committere, built from com- and mittere, with delegated-authority senses preceding later commercial and naval uses.",
+            "source_detail": "Etymonline dates delegated authority, a duty-bearing body, commercial percentage, naval service, and later general out-of-commission extension."
+          },
+          {
+            "id": "F-021",
+            "form": "decommission",
+            "kind": "derived_form",
+            "statement": "Decommission is the reversive verb for removing something from active service.",
+            "source_detail": "Etymonline cross-references decommission as a productive derivative of commission."
+          },
+          {
+            "id": "F-022",
+            "form": "recommission",
+            "kind": "derived_form",
+            "statement": "Recommission means to commission again or return something to active service.",
+            "source_detail": "Etymonline cross-references recommission as the repeated-action derivative."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Whole Building Design Guide — Building Commissioning",
+        "locator": "https://stg.wbdg.org/building-commissioning",
+        "source_type": "government_technical_guidance",
+        "source_role": "specialist_reference",
+        "independence_group": "nibs_wbdg",
+        "facts": [
+          {
+            "id": "F-019",
+            "form": "commissioning",
+            "kind": "specialist_use",
+            "statement": "Building commissioning is a documented process of planning, installation, testing, verification, and transition to operations against owner requirements.",
+            "source_detail": "WBDG describes commissioning as a professional process spanning design through testing, documentation, and operation."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-009",
+          "F-015"
+        ],
+        "canonical_statement": "Commission denotes an official duty-bearing group or public body.",
+        "disposition": "included",
+        "rationale": "Principal high-frequency noun sense."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-010",
+          "F-015"
+        ],
+        "canonical_statement": "Commission denotes transaction-linked remuneration or a transaction/service charge.",
+        "disposition": "included",
+        "rationale": "The payee and payer perspectives share the same transaction-linked payment sense."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "canonical_statement": "Commission can denote formal authority, instructions, or a duty entrusted to a person.",
+        "disposition": "included",
+        "rationale": "Distinct formal delegated-duty noun sense."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-004",
+          "F-008"
+        ],
+        "canonical_statement": "A commission is a formal paid request for creative or professional work and can denote the resulting work.",
+        "disposition": "included",
+        "rationale": "Principal work-order noun sense."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-005",
+          "F-013"
+        ],
+        "canonical_statement": "Military commission denotes or grants officer rank and authority.",
+        "disposition": "included",
+        "rationale": "Distinct specialist noun and verb use."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-006",
+          "F-011",
+          "F-015"
+        ],
+        "canonical_statement": "The commission of wrongdoing is the formal act of committing it.",
+        "disposition": "included",
+        "rationale": "Established formal legal construction."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-007",
+          "F-016",
+          "F-018"
+        ],
+        "canonical_statement": "In/out of commission marks active or usable versus inactive or unusable status.",
+        "disposition": "included",
+        "rationale": "Common idiomatic operational-state contrast."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-012",
+          "F-014"
+        ],
+        "canonical_statement": "The verb formally engages someone to perform work or orders work to be produced.",
+        "disposition": "included",
+        "rationale": "Principal transitive verb sense."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "canonical_statement": "Technical commissioning verifies and transitions installed systems into documented operation.",
+        "disposition": "included",
+        "rationale": "Direct specialist support for the engineering use."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-017",
+          "F-018"
+        ],
+        "canonical_statement": "Commission has common British-American pronunciation /kəˈmɪʃən/ and derives through French from Latin committere.",
+        "disposition": "included",
+        "rationale": "Pronunciation and etymology support."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-020"
+        ],
+        "canonical_statement": "Commissioner is the person-form derived from commission.",
+        "disposition": "included",
+        "rationale": "High-value related official title."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "Decommission reverses commission by removing from active service.",
+        "disposition": "included",
+        "rationale": "Productive operational antonym and derivative."
+      },
+      {
+        "id": "U-013",
+        "source_fact_ids": [
+          "F-022"
+        ],
+        "canonical_statement": "Recommission means to return to active service or commission again.",
+        "disposition": "included",
+        "rationale": "Productive operational derivative."
+      },
+      {
+        "id": "U-014",
+        "source_fact_ids": [
+          "F-023"
+        ],
+        "canonical_statement": "Commission-free means that no commission is directly charged.",
+        "disposition": "included",
+        "rationale": "Frequent transparent commercial compound."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "commission",
+        "claim_type": "lexical_sense",
+        "statement": "Commission is an official group with a public or assigned duty.",
+        "article_target_ids": [
+          "definition:001",
+          "grammar_pattern:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford directly defines the official group sense."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster directly covers duty-bearing commissions."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently covers the official group sense."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "commission",
+        "claim_type": "lexical_sense",
+        "statement": "Commercial commission is transaction-linked remuneration or a charge paid for transaction handling.",
+        "article_target_ids": [
+          "definition:002",
+          "grammar_pattern:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford gives percentage and on-commission remuneration."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford also gives the bank or service-provider charge use."
+          },
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster defines agent or employee transaction payment."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently covers payment for selling."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "commission",
+        "claim_type": "lexical_sense",
+        "statement": "Commission can denote a formal duty, instruction, or authority entrusted to a person.",
+        "article_target_ids": [
+          "definition:003",
+          "grammar_pattern:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster records formal authority and authorization alongside a formal request."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "a commission to do something",
+        "claim_type": "argument_structure",
+        "statement": "A commission is a formal request or resulting work with to, for, and from complements.",
+        "article_target_ids": [
+          "definition:004",
+          "grammar_pattern:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford supplies the noun complement frames."
+          },
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster covers both request and resulting work."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "commission",
+        "claim_type": "specialist_use",
+        "statement": "Military commission is officer appointment, position, and authority; commission as a verb grants them.",
+        "article_target_ids": [
+          "definition:006",
+          "definition:009"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford defines the officer-position noun use."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Merriam-Webster covers officer appointment as a verb."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "the commission of a crime",
+        "claim_type": "register",
+        "statement": "The commission of wrongdoing is a formal legal nominalization of committing it.",
+        "article_target_ids": [
+          "definition:005",
+          "grammar_pattern:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford labels the crime construction formal and uncountable."
+          },
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster defines commission as an act of committing."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently lists the crime sense."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "in/out of commission",
+        "claim_type": "idiom",
+        "statement": "The idiom contrasts active or usable status with inactive or unusable status.",
+        "article_target_ids": [
+          "definition:007",
+          "grammar_pattern:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Oxford directly defines the availability contrast."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "American Heritage covers naval and general operational status."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Etymonline documents the naval origin and later extension."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "commission someone to do something",
+        "claim_type": "argument_structure",
+        "statement": "The transitive verb formally requests a person to work or takes the requested work as its object.",
+        "article_target_ids": [
+          "definition:008",
+          "grammar_pattern:008"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster gives person-to-infinitive and work-object examples."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Cambridge independently covers the formal request verb and work object."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-005",
+          "U-009"
+        ],
+        "subject_form": "commission",
+        "claim_type": "specialist_use",
+        "statement": "Commissioning formally puts a ship into service, while engineering commissioning verifies, documents, and transitions equipment toward operation.",
+        "article_target_ids": [
+          "definition:010",
+          "usage_note:010"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Merriam-Webster directly covers putting a ship into active service."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "WBDG directly describes the technical commissioning process."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "commission",
+        "claim_type": "pronunciation_etymology",
+        "statement": "Commission is pronounced /kəˈmɪʃən/ and derives through French from Latin committere.",
+        "article_target_ids": [
+          "pronunciation:001",
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Oxford supplies matching British-American pronunciation."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Etymonline traces the French and Latin history."
+          }
+        ]
+      },
+      {
+        "id": "C-011",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "commissioner",
+        "claim_type": "derived_form",
+        "statement": "Commissioner denotes a member or official entrusted with commission duties.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Merriam-Webster records the official person derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-012",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "decommission",
+        "claim_type": "derived_form",
+        "statement": "Decommission removes a ship, system, or facility from active service.",
+        "article_target_ids": [
+          "word_formation:004",
+          "antonym:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Etymonline records the reversive derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-013",
+        "union_ids": [
+          "U-013"
+        ],
+        "subject_form": "recommission",
+        "claim_type": "derived_form",
+        "statement": "Recommission returns something to active service or commissions it again.",
+        "article_target_ids": [
+          "word_formation:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline records the repeated-action derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-014",
+        "union_ids": [
+          "U-014"
+        ],
+        "subject_form": "commission-free",
+        "claim_type": "derived_form",
+        "statement": "Commission-free marks a transaction without a directly charged commission.",
+        "article_target_ids": [
+          "word_formation:006",
+          "collocation:014"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Merriam-Webster's commercial sense supports the transparent compound."
+          }
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "訳: 営業担当者の多くは基本給を受け取り、一部は歩合制で働いている。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の partly は、多くの営業担当者それぞれの働き方・報酬体系が部分的に歩合制であることを表す。一方、訳文の「一部は」は営業担当者の一部だけが歩合制で働くという別の数量範囲を作り、partly の修飾先を報酬体系から人の部分集合へ移している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている」など、partly が歩合制の割合を修飾する訳にする。",
+      "id": "normal-translation-001",
+      "origin": "check_pass:translation"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 368,
+        "line_end": 368,
+        "exact_quote": "訳: その調査船は30年以上にわたり就役していた。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の more than thirty years は30年を含まない厳密な超過を表すが、「30年以上」は30年ちょうども含む。期間の境界条件が保存されていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「30年を超えて」または「30年余りにわたり」とし、more than の超過方向を保存する。",
+      "id": "normal-translation-002",
+      "origin": "check_pass:translation"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 373,
+        "line_end": 373,
+        "exact_quote": "訳: 修理中のため、エレベーター2基が使用できない。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の while repairs are carried out は修理が行われている期間との時間的な同時性を述べるが、「修理中のため」は修理を使用不能の原因として明示する。英文が明示していない因果関係を追加している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「修理が行われている間、エレベーター2基は使用できない」など、時間関係として訳す。",
+      "id": "normal-translation-003",
+      "origin": "check_pass:translation"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 154,
+        "line_end": 154,
+        "exact_quote": "訳: 会社が目標を上回ったため、従業員は年次賞与を受け取った。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の after は会社が目標を上回った出来事と賞与受領の時間的前後関係だけを明示するが、訳文の「ため」は前者を後者の原因として断定する。文脈上推測できても、英文にない因果関係が追加されている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「会社が目標を上回った後、従業員は年次賞与を受け取った」など、明示された時間関係を保つ。",
+      "id": "normal-translation-004",
+      "origin": "check_pass:translation"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 202,
+        "line_end": 202,
+        "exact_quote": "【語法・注意】語義2は販売員・代理人が受け取る報酬の側から、語義3は顧客が業者へ支払う取引費用の側から捉える。実際の取引では同じ金銭を双方の立場から commission と呼ぶこともあり、誰が誰に何の対価を支払うかを確認する。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2と語義3の最小差が語彙的な中心意味ではなく、同じ取引対価を受取人側と支払人側のどちらから見るかに置かれている。本文自身も同じ金銭を双方が commission と呼べると認めており、どちらも定額・割合の可能性があるため、参与者の視点と対象分野だけによる過剰分割になっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2と語義3を、販売・仲介・取引処理に対して支払われる報酬・手数料という一つの語義へ統合し、典型的な受取人・支払人と成果連動性の違いは語法内の下位区分として示す。",
+      "id": "normal-sense-structure-001",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。  "
+      },
+      "severity": "blocking",
+      "rationale": "語形成欄では commissioned を形容詞として明示し、特に commissioned officer という定着した用法まで挙げているが、語義構造には動詞の語義8・9しかなく、この主要な分詞形容詞の収録先がない。主要な品詞転換を語形成欄だけに置く状態は、セクション横断で品詞範囲が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "commissioned の主要な分詞形容詞用法を番号付き語義として追加し、「正式に依頼された」と軍事上の「任官した」を区別して示す。",
+      "id": "normal-sense-structure-002",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 405,
+        "line_end": 405,
+        "exact_quote": "・in service  "
+      },
+      "severity": "blocking",
+      "rationale": "F1: 封印済み stage 1 が unnamable であるため F1 は解除できない。in service は当該語義の in commission と同じ使用・運用中の側にあり、違い行は比較対象を out of commission に限定して初めて対立が成立すると示している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "id": "normal-frame-relation-001",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 189,
+        "line_end": 189,
+        "exact_quote": "例: The buyer paid a commission to the broker who arranged the sale.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "normal-example-attribution-001",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 521,
+        "line_end": 521,
+        "exact_quote": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+      },
+      "severity": "blocking",
+      "rationale": "船舶を正式に就役させる用法と工学上の commissioning を一つの必須条件列にまとめたため、「新しい」対象であること、必要な試験・確認を経ること、直ちに使用を開始することが全フレームに含意される定義になっている。海事の commission は正式な就役行為を指し、試験自体を語彙的に必須とはしない。一方、工学の commissioning は既設・改修設備にも行われ得て、試験・調整・検証から引渡しまでの工程を指し、実運用開始そのものと常に同一ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "海事では「船舶を正式に就役させる」、工学では「設備・システムを試験・調整・検証して運用可能であることを確認し、引渡しへ進める」のように適用範囲を分け、「新しい」「使用を開始する」を全用法の必須条件にしない。",
+      "id": "normal-qualification-001",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 508,
+        "line_end": 508,
+        "exact_quote": "【語法・注意】この語義は単なる employ「雇う」や enlist「兵として入隊させる」と異なる。commissioned officer は士官、enlisted personnel は志願・徴募によって入隊した兵を表す。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。  "
+      },
+      "severity": "blocking",
+      "rationale": "enlisted personnel を「志願・徴募という入隊経路で入った兵」と定義すると、commissioned / enlisted という身分上の区分を採用経路と混同する。enlisted personnel には軍種により水兵・航空兵等や non-commissioned officers も含まれ、「兵」だけでは専門的な範囲が狭すぎる。また区分や訳語は軍種・法域で異なるため、英語全体に一律の制度説明として提示できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "commissioned officer は commission を保持する士官、enlisted personnel は原則として commission を保持しない下士官兵・兵員という身分上の対照として説明し、warrant officer 等の境界や日本語訳は軍種・法域により異なることを明記する。",
+      "id": "normal-qualification-002",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 317,
+        "line_end": 317,
+        "exact_quote": "【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、その地位、またはそれを証明する文書を表す。一般的な入隊や配属そのものではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-005 links this target only to F-005 and F-013. F-005 supports an officer's position and authority, and F-013 supports appointment as a verb, but neither supplied fact supports the additional claim that commission denotes the document proving that status. The recorded evidence therefore does not directly support the full linked definition.",
+      "evidence_link_ids": [
+        "F-005",
+        "F-013"
+      ],
+      "suggested_direction": "Remove or qualify the document sense, or link a recorded fact that explicitly defines a military commission as the warrant/document itself.",
+      "id": "normal-evidence-001",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 420,
+        "line_end": 420,
+        "exact_quote": "【文法パターン】commission someone to do 〈仕事〉＝人に～するよう正式に依頼する／commission 〈work/report/study〉＝作品・報告・調査を発注する／commission 〈work〉 from someone＝人に作品を発注する／〈work〉 be commissioned by 〈依頼主〉＝仕事が～によって依頼される／commission 〈work〉 for 〈目的・機会〉＝～のために仕事を発注する  "
+      },
+      "severity": "blocking",
+      "rationale": "C-008's F-012 and F-014 support commission someone to do something and taking a work as direct object. The supplied facts do not record the from-complement, passive by-complement, or for-purpose frames asserted in the same linked target, so those complete-frame claims exceed the documented support.",
+      "evidence_link_ids": [
+        "F-012",
+        "F-014"
+      ],
+      "suggested_direction": "Limit the pattern list to the person-to-infinitive and work-object frames, or add direct recorded support for commission work from someone, be commissioned by, and commission work for a purpose.",
+      "id": "normal-evidence-002",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 521,
+        "line_end": 521,
+        "exact_quote": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-009 links definition:010 only to F-019, which documents technical building commissioning and transition of installed systems to operation. It does not support the maritime claim that the same target covers formally putting ships into service. F-013 elsewhere in the inventory mentions ship activation, but it is not an evidence support on C-009.",
+      "evidence_link_ids": [
+        "F-019"
+      ],
+      "suggested_direction": "Attach direct ship-commissioning support to this target or restrict the definition to the supported engineering process.",
+      "id": "normal-evidence-003",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 551,
+        "line_end": 551,
+        "exact_quote": "【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。decommission は運用から外すことで、必ずしも直ちに解体することを意味しない。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-019 directly supports the first sentence about verification and transition to operation, but C-009 provides no support for the second sentence's separate decommissioning-versus-immediate-dismantling distinction. F-021 is linked to C-012 targets, not this usage-note target, and it does not explicitly address dismantling timing.",
+      "evidence_link_ids": [
+        "F-019"
+      ],
+      "suggested_direction": "Remove the decommissioning sentence from this linked target or add a direct fact and link establishing that decommissioning does not necessarily entail immediate dismantling.",
+      "id": "normal-evidence-004",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 23,
+        "line_end": 23,
+        "exact_quote": "・commissioner（名詞）— 委員、行政機関などの長官、スポーツ組織の最高責任者。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-011 links this target only to F-020, whose recorded statement supports a person entrusted with commission duties or a member/head of a commission. That fact does not directly support the additional sports-organization chief sense stated in the target.",
+      "evidence_link_ids": [
+        "F-020"
+      ],
+      "suggested_direction": "Limit the gloss to the supported commission-member or official senses, or add direct recorded support for commissioner as the head of a sports organization.",
+      "id": "normal-evidence-005",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "COLD-001",
+      "location": "語義4（正式な依頼・発注）および記事全体の語義構成",
+      "severity": "medium",
+      "description": "名詞 commission の「人に正式に委ねられた任務・権限・指示」という、制作物の発注に限られない抽象的な用法が独立して扱われていない。",
+      "reason": "コアイメージは「権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。」と述べる一方、語義4は制作・実施依頼に限定しているため、外交交渉、調査遂行、代理行為などについて人が正式な任務・権限を与えられる用法を、学習者が不自然に「作品の発注」と解釈するおそれがある。その一般的な名詞用法が語義一覧で十分に回収されていない。",
+      "suggested_direction": "語義4を「正式な依頼・任務・権限」として適切に広げ、制作物・専門業務の発注はその代表的な下位用法として示すか、頻度を確認したうえで一般的な任務・権限義を別項目にする。",
+      "scope_anchors": [
+        {
+          "id": "COLD-001-A",
+          "exact_quote": "権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。",
+          "location_hint": "コアイメージ冒頭"
+        },
+        {
+          "id": "COLD-001-B",
+          "exact_quote": "芸術作品、建築、文章、調査などを特定の人・組織に作成・実施してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。",
+          "location_hint": "語義4の日本語訳・定義"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "COLD-002",
+      "location": "語義1（委員会）の定義・レジスター説明",
+      "severity": "low",
+      "description": "commission を構成する主体と領域を政府・公的機関に寄せすぎており、民間団体、国際組織、宗教団体などが特定任務のために設ける commission を読み取りにくい。",
+      "reason": "本文の「政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。」は公的権限を伴う典型例を示す一方、設置主体が必ず政府・公的機関であるとは限らない。現在の定義とレジスター表示を合わせて読むと、非公的組織には commission を使わないという誤った一般化につながり得る。",
+      "suggested_direction": "公的機関が典型であることは維持しつつ、「組織・団体から特定任務と権限を委ねられた正式な集団」まで含むことを明示し、設置主体が公的機関に限定されないと補足する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-002-A",
+          "exact_quote": "政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。",
+          "location_hint": "語義1の日本語訳・定義"
+        },
+        {
+          "id": "COLD-002-B",
+          "exact_quote": "公的・行政・報道。一般の committee よりも、公的権限や特定任務を持つ組織を指しやすい。",
+          "location_hint": "語義1のレジスター/領域"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "COLD-003",
+      "location": "語義10（船舶・設備などを就役・稼働させる）の定義・例",
+      "severity": "medium",
+      "description": "工学上の commission を、運用可能性の検証・引渡しだけでなく「実際に使用を開始すること」まで必ず含むように定義しており、commissioning と商業運転・日常運用開始の境界が曖昧である。",
+      "reason": "設備の commissioning は試験、調整、性能確認、受入れ、引渡しなどを指し、完了後ただちに実運用へ入るとは限らない。記事自身も「The turbine passed all commissioning tests before commercial operation began.」と実運用前の例を示しており、定義の「使用を開始する」と緊張関係がある。船舶の正式就役と設備の技術的 commissioning も同一の開始点とは限らない。",
+      "suggested_direction": "共通部分を「必要な試験・確認を経て運用できる状態にし、正式に受け入れ・引き渡す」とし、船舶では正式な就役、設備では実運用前の検証工程を指し得るという領域差を明示する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-003-A",
+          "exact_quote": "新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。",
+          "location_hint": "語義10の日本語訳・定義"
+        },
+        {
+          "id": "COLD-003-B",
+          "exact_quote": "The turbine passed all commissioning tests before commercial operation began.",
+          "location_hint": "語義10の commissioning tests の例文"
+        },
+        {
+          "id": "COLD-003-C",
+          "exact_quote": "工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。",
+          "location_hint": "語義10の語法・注意"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "COLD-004",
+      "location": "語形成の commissioned の説明",
+      "severity": "low",
+      "description": "commissioned の説明が依頼と軍の任官だけに限定され、記事後半で扱う船舶・設備の「就役した／稼働可能になった」という用法を落としている。",
+      "reason": "語形成には「・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。」とあり、ここだけ読むと commissioned ship/system の解釈に到達できない。語義10との内部的な範囲不一致である。",
+      "suggested_direction": "commissioned の説明に「船舶・設備が正式に就役・運用可能となった」を加える。",
+      "scope_anchors": [
+        {
+          "id": "COLD-004-A",
+          "exact_quote": "・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。",
+          "location_hint": "語形成"
+        },
+        {
+          "id": "COLD-004-B",
+          "exact_quote": "10. 【他動詞】船舶・設備などを就役・稼働させる",
+          "location_hint": "語義10の見出し"
+        }
+      ],
+      "origin": "cold_review"
+    },
+    {
+      "id": "COLD-005",
+      "location": "コアイメージの語義7対応箇所",
+      "severity": "low",
+      "description": "語義7のコアイメージ対応が in commission の肯定側だけを示し、out of commission の使用不能・活動不能、とくに人への比喩用法を説明していない。",
+      "reason": "語義7の本文は「out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」と肯定側・否定側・人の一時的活動不能を扱う。コアイメージの一覧だけでは out of commission が故障・負傷による一時的不能まで含む慣用的拡張なのかが分からず、記事の概念整理として不完全である。",
+      "suggested_direction": "語義7の対応行に、out of commission は就役状態の否定から「使用不能」、さらに人の「活動不能」へ比喩的に拡張した慣用句であることを短く加える。",
+      "scope_anchors": [
+        {
+          "id": "COLD-005-A",
+          "exact_quote": "・船舶や設備へ正式な役目を与えること → 「就役中、稼働中」（語義7）",
+          "location_hint": "コアイメージの語義対応一覧"
+        },
+        {
+          "id": "COLD-005-B",
+          "exact_quote": "out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。",
+          "location_hint": "語義7の日本語訳・定義"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "partly の作用域を報酬の一部として訳し直した。",
+      "required_changes": [
+        "partly の数量範囲を保持する。"
+      ],
+      "implemented_changes": [
+        "「報酬の一部が歩合」とした。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-translation-002",
+      "finding_id": "normal-translation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "more than の厳密な超過を訳文に復元した。",
+      "required_changes": [
+        "30年を含まない境界を示す。"
+      ],
+      "implemented_changes": [
+        "「30年を超えて」に変更した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-translation-003",
+      "finding_id": "normal-translation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "while の時間関係を因果関係へ変えない訳にした。",
+      "required_changes": [
+        "同時性を保持する。"
+      ],
+      "implemented_changes": [
+        "「修理が行われている間」とした。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-translation-004",
+      "finding_id": "normal-translation-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "after の時間的前後関係を保存した。",
+      "required_changes": [
+        "英文にない因果を加えない。"
+      ],
+      "implemented_changes": [
+        "「目標を上回った後」に変更した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "受取人・支払人という視点だけで分かれていた金銭義を一つに統合した。",
+      "required_changes": [
+        "語義2と旧語義3を統合する。"
+      ],
+      "implemented_changes": [
+        "販売報酬と取引手数料を語義2で扱い、語法で視点差を説明した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "commissioned は見出し語 commission の規則的分詞・派生形なので独立語義にはせず、語形成欄を全動詞義と整合させた。",
+      "required_changes": [
+        "語形成と本文の範囲を一致させる。"
+      ],
+      "implemented_changes": [
+        "依頼・任官・船舶設備の就役を commissioned の説明に含めた。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "in service は in commission と同方向で、見出し語全体の反意語ではなかった。",
+      "required_changes": [
+        "誤った反意語表示を除く。"
+      ],
+      "implemented_changes": [
+        "in service の反意語ブロックを削除した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "旧語義2・3の金銭義を統合し、帰属競合を解消した。",
+      "required_changes": [
+        "曖昧な二語義境界を解消する。"
+      ],
+      "implemented_changes": [
+        "brokerへの支払いを統合後の語義2へ収めた。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "海事の就役と工学の検証・引渡し工程を分け、新設と即時使用開始を必須条件から外した。",
+      "required_changes": [
+        "領域別の必要条件を分ける。"
+      ],
+      "implemented_changes": [
+        "既設・改修設備と実運用前の commissioning を明記した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-qualification-002",
+      "finding_id": "normal-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "enlisted を採用経路ではなく commission の有無による身分区分として説明した。",
+      "required_changes": [
+        "軍種・法域差を限定する。"
+      ],
+      "implemented_changes": [
+        "下士官兵・兵員とし、warrant officer 等の差異を注記した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "根拠が直接支えない軍事辞令文書の主張を除いた。",
+      "required_changes": [
+        "軍事名詞義を根拠範囲へ限定する。"
+      ],
+      "implemented_changes": [
+        "任命・地位・権限のみを定義した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "動詞の文法欄を既存根拠が直接支える二フレームへ限定した。",
+      "required_changes": [
+        "未記録の補部フレームを主張しない。"
+      ],
+      "implemented_changes": [
+        "person-to-infinitive と work-object のみを文法パターンに残した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存の船舶根拠F-013と工学根拠F-019を領域別定義へ対応付けた。",
+      "required_changes": [
+        "船舶と工学の双方を直接根拠付ける。"
+      ],
+      "implemented_changes": [
+        "定義を二分しsource inventoryのC-009へF-013を追加した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "即時解体との対比は既存事実が直接支えないため削除した。",
+      "required_changes": [
+        "usage noteをF-019の範囲へ限定する。"
+      ],
+      "implemented_changes": [
+        "検証・文書化・引渡しと海事差だけを残した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "sports organization の責任者という未根拠の派生義を削除した。",
+      "required_changes": [
+        "commissionerをF-020の範囲へ限定する。"
+      ],
+      "implemented_changes": [
+        "委員および行政機関等の長官・責任者とした。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "COLD-001",
+      "finding_id": "COLD-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "一般的な正式任務・権限義は独立して有用で、既存F-008も支える。",
+      "required_changes": [
+        "制作発注以外の委任義を追加する。"
+      ],
+      "implemented_changes": [
+        "語義3として正式な任務・権限を追加した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "COLD-002",
+      "finding_id": "COLD-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "commissionの設置主体は政府だけに限定されない。",
+      "required_changes": [
+        "典型性を保ちつつ主体範囲を広げる。"
+      ],
+      "implemented_changes": [
+        "国際機関その他の組織・団体を含めた。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "COLD-003",
+      "finding_id": "COLD-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "工学commissioningは実運用開始前の検証・引渡しを指し得る。",
+      "required_changes": [
+        "実運用開始を必須としない。"
+      ],
+      "implemented_changes": [
+        "海事と工学を分け、実運用前工程を明記した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "COLD-004",
+      "finding_id": "COLD-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "派生形の説明を船舶・設備の用法まで広げた。",
+      "required_changes": [
+        "commissionedと語義10を整合させる。"
+      ],
+      "implemented_changes": [
+        "就役・運用可能となった用法を追加した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "COLD-005",
+      "finding_id": "COLD-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "コアイメージにout of commissionの否定側と人への比喩を追加した。",
+      "required_changes": [
+        "語義7の両方向を概念整理へ反映する。"
+      ],
+      "implemented_changes": [
+        "使用不能・活動不能への拡張を明記した。"
+      ],
+      "resolved_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "最新版本文、166 target、118 relation、18 blind candidateと31 semantic assertion、20 finding、14 source-union、7 checker recheck、および5 chronology checkに未解決・hold・insufficient_evidenceはない。",
+      "normal candidate inventoryと個別evidence-check inventoryは入力上ともに空であり、対応結果集合も空集合として完全一致した。"
+    ],
+    "reviewed_at": "2026-09-07T11:41:02.264391+00:00",
+    "blind_output_sha256": "188bae4c7f3bd8fd58de627d7bfb2801bcaeb8d520f1c0605b9c658f17d2d0d6"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/pre_blind_resolution.json",
+        "sha256": "a0a1e11f95454d664b30d0244ce9e66ccea7b15b5baa49f55eedd17e2147ac77"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/pre_blind_revision.json",
+        "sha256": "1ce638ee53cda82c5d8de5868a34c886c2f916f51d0c078e6da942ad9281fb72"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/checker_recheck_manifest.json",
+        "sha256": "16e77fe34b267b387e7865c9f6d75db6400b1e0e3c23e33890ccfbb75915a33a"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/post_blind_resolution.json",
+        "sha256": "7dc2f920057bc5fa6ac3d76f75e2d66c3a0b209dd3c849f5a7dcb88dd57d0e51"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/c/commission/20260907T100725Z-307ceedc/post_blind_verification.json",
+        "sha256": "d77b1bf677d8c48c7f0bd58f5ca82d5e97f72137fc2fe037f5c93fdc7bf8d145"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

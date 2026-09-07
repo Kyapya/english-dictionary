@@ -1,0 +1,61 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-3ef7c9eefc08",
+        "headword": "commission",
+        "sense_definition": "【日本語訳・定義】船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。",
+        "antonym": "decommission",
+        "antonym_definition": "定義: 船舶、設備、施設などを正式に運用から外す。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50",
+  "normalized_input_sha256": "05da4eae932531d56d6d8c2fc0a299ec01f9b23f12043c89e366f4d3a2edd99a"
+}

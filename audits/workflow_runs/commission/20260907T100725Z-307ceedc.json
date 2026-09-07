@@ -14,15 +14,15 @@
     "max_candidate_pages": 18
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 5,
+    "candidate_pages": 9
   },
-  "status": "in_progress",
-  "stage": "preflight_pushed",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-07T10:07:25Z",
   "deadline_at": "2026-09-07T11:07:25Z",
   "pre_draft_deadline_at": "2026-09-07T10:27:25Z",
-  "last_heartbeat_at": "2026-09-07T10:09:45Z",
+  "last_heartbeat_at": "2026-09-07T11:42:40Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-07T10:09:45Z",
@@ -38,6 +38,41 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-07T10:09:45Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-07T10:11:21Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-07T10:18:48Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-07T10:18:48Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "cold_review_complete",
+      "recorded_at": "2026-09-07T10:18:49Z",
+      "notes": "orchestrator completed cold_review"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-07T11:10:07Z",
+      "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-07T11:41:18Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-07T11:42:40Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -495,7 +530,14 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:standard"
+      "construction:idiom",
+      "domain:engineering",
+      "domain:finance",
+      "domain:military",
+      "headword:commission",
+      "part_of_speech:noun",
+      "part_of_speech:transitive_verb",
+      "polysemy:high"
     ],
     "snapshots": [
       {
@@ -520,18 +562,123 @@
         "machine_duration_seconds": 0.001738,
         "additional_llm_calls": 0,
         "stage": "generation"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "pre_blind_resolution",
+        "features": [
+          "construction:idiom",
+          "domain:engineering",
+          "domain:finance",
+          "domain:military",
+          "headword:commission",
+          "part_of_speech:noun",
+          "part_of_speech:transitive_verb",
+          "polysemy:high"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 348,
+        "input_sha256": "15f14c2d725291b96b5dbe2db56cbb7491829119f31878ea570d69fa5ff91e14",
+        "run_id": "20260907T100725Z-307ceedc",
+        "created_at": "2026-09-07T10:18:49Z",
+        "snapshot_path": "audits/runs/c/commission/20260907T100725Z-307ceedc/process_improvement/coordinator-pre_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.003276,
+        "additional_llm_calls": 0,
+        "stage": "pre_blind_resolution"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "post_blind_resolution",
+        "features": [
+          "construction:idiom",
+          "domain:engineering",
+          "domain:finance",
+          "domain:military",
+          "headword:commission",
+          "part_of_speech:noun",
+          "part_of_speech:transitive_verb",
+          "polysemy:high"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 349,
+        "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+        "run_id": "20260907T100725Z-307ceedc",
+        "created_at": "2026-09-07T11:10:07Z",
+        "snapshot_path": "audits/runs/c/commission/20260907T100725Z-307ceedc/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.001513,
+        "additional_llm_calls": 0,
+        "stage": "post_blind_resolution"
       }
     ],
-    "processing": {},
-    "pending_events": [],
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/c/commission/20260907T100725Z-307ceedc/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260907T100725Z-307ceedc:generation:0884ba1b501c",
+        "recorded_at": "2026-09-07T10:11:21Z"
+      },
+      "pre_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/c/commission/20260907T100725Z-307ceedc/pre_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260907T100725Z-307ceedc:pre_blind_resolution:22a5bda85107",
+        "recorded_at": "2026-09-07T10:29:39Z"
+      },
+      "post_blind_resolution": {
+        "status": "save_error",
+        "source_refs": [
+          "audits/runs/c/commission/20260907T100725Z-307ceedc/post_blind_resolution.json",
+          "audits/runs/c/commission/20260907T100725Z-307ceedc/resolutions.json"
+        ],
+        "reason": "multiple learning_delta payloads found for one stage",
+        "recorded_at": "2026-09-07T11:41:02Z"
+      }
+    },
+    "pending_events": [
+      {
+        "event_id": "pending:20260907T100725Z-307ceedc:final_blind:b08465db00e4",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_blind",
+        "fact": "B2_rationale_not_grounded: final blind candidates item IC01 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC02 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC03 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC04 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC05 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC06 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC07 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC08 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC09 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC10 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC11 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC12 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC13 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC14 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC15 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC16 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC17 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC18 rationale contains no candidate-specific anchor",
+        "status": "pending",
+        "recorded_at": "2026-09-07T11:05:16Z"
+      },
+      {
+        "event_id": "pending:20260907T100725Z-307ceedc:final_blind:310ad393c588",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_blind",
+        "fact": "B2_rationale_not_grounded: final blind candidates item IC01 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC06 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC17 rationale contains no candidate-specific anchor; B2_rationale_not_grounded: final blind candidates item IC18 rationale contains no candidate-specific anchor",
+        "status": "pending",
+        "recorded_at": "2026-09-07T11:07:20Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_revisions": 1,
+    "total_duration_seconds": 5715.525431,
+    "completed_at": "2026-09-07T11:42:40Z",
     "stages": [
       {
         "id": "guard_start",
@@ -546,181 +693,240 @@
         "id": "generation",
         "instruction_bytes": 55034,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "duration_seconds": 300.0,
+        "defects_detected": 15,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "cold_review",
         "instruction_bytes": 1419,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 70000,
+        "duration_seconds": 240.0,
+        "defects_detected": 5,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "pre_blind_resolution",
         "instruction_bytes": 5491,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 100000,
+        "duration_seconds": 600.0,
+        "defects_detected": 20,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 210000,
+        "duration_seconds": 900.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
         "instruction_bytes": 3161,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 40027,
+        "duration_seconds": 180.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 15587,
+        "duration_seconds": 2.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "post_blind_resolution",
         "instruction_bytes": 5411,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 5411,
+        "duration_seconds": 90.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
         "instruction_bytes": 4149,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 140807,
+        "duration_seconds": 900.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 10.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 5.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
       {
         "id": "translation",
         "instruction_bytes": 2402,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 47065,
+        "duration_seconds": 180.0,
+        "defects_detected": 4,
+        "completed": true
       },
       {
         "id": "sense-structure",
         "instruction_bytes": 3031,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 13500,
+        "duration_seconds": 180.0,
+        "defects_detected": 2,
+        "completed": true
       },
       {
         "id": "frame-relation",
         "instruction_bytes": 8294,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 2574,
+        "duration_seconds": 300.0,
+        "defects_detected": 1,
+        "completed": true
       },
       {
         "id": "example-attribution",
         "instruction_bytes": 5552,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 15289,
+        "duration_seconds": 240.0,
+        "defects_detected": 1,
+        "completed": true
       },
       {
         "id": "qualification",
         "instruction_bytes": 2876,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 37761,
+        "duration_seconds": 180.0,
+        "defects_detected": 2,
+        "completed": true
       },
       {
         "id": "pronunciation",
         "instruction_bytes": 1815,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1305,
+        "duration_seconds": 120.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
         "instruction_bytes": 3260,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 89804,
+        "duration_seconds": 240.0,
+        "defects_detected": 5,
+        "completed": true
       }
     ],
     "process_rules": [],
     "process_improvement": {
-      "selection_input_bytes": 336,
-      "machine_duration_seconds": 0.001738,
+      "selection_input_bytes": 1033,
+      "machine_duration_seconds": 0.006527,
       "additional_llm_calls": 0
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 13,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator",
+      "checker_passes",
+      "cold_review",
+      "pre_blind_resolution",
+      "checker_recheck",
+      "final_blind",
+      "blind_seal",
+      "post_blind_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/c/commission.md",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/source_inventory.json",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/check_passes/",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/pass_findings.json"
+      ],
+      "cold_review": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/pre_blind_resolution.json",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/checker_recheck_manifest.json"
+      ],
+      "final_blind": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/post_blind_resolution.json",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/post_blind_verification.json",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/final_review.json",
+        "audits/c/commission.json"
+      ],
+      "status_update": [
+        "entries/c/commission.md",
+        "queue/words.csv",
+        "audits/runs/c/commission/20260907T100725Z-307ceedc/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
+      ]
+    }
   }
 }

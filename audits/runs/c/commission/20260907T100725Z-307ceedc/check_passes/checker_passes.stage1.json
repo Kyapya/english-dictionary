@@ -1,0 +1,863 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-commission-20260907T100725Z-307ceedc",
+  "context_id": "normal-commission-context-20260907T100725Z-307ceedc",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-07T10:16:45.146263+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-translation-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 138,
+            "line_end": 138,
+            "exact_quote": "訳: 営業担当者の多くは基本給を受け取り、一部は歩合制で働いている。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の partly は、多くの営業担当者それぞれの働き方・報酬体系が部分的に歩合制であることを表す。一方、訳文の「一部は」は営業担当者の一部だけが歩合制で働くという別の数量範囲を作り、partly の修飾先を報酬体系から人の部分集合へ移している。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている」など、partly が歩合制の割合を修飾する訳にする。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 368,
+            "line_end": 368,
+            "exact_quote": "訳: その調査船は30年以上にわたり就役していた。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の more than thirty years は30年を含まない厳密な超過を表すが、「30年以上」は30年ちょうども含む。期間の境界条件が保存されていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「30年を超えて」または「30年余りにわたり」とし、more than の超過方向を保存する。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 373,
+            "line_end": 373,
+            "exact_quote": "訳: 修理中のため、エレベーター2基が使用できない。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の while repairs are carried out は修理が行われている期間との時間的な同時性を述べるが、「修理中のため」は修理を使用不能の原因として明示する。英文が明示していない因果関係を追加している。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「修理が行われている間、エレベーター2基は使用できない」など、時間関係として訳す。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 154,
+            "line_end": 154,
+            "exact_quote": "訳: 会社が目標を上回ったため、従業員は年次賞与を受け取った。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の after は会社が目標を上回った出来事と賞与受領の時間的前後関係だけを明示するが、訳文の「ため」は前者を後者の原因として断定する。文脈上推測できても、英文にない因果関係が追加されている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「会社が目標を上回った後、従業員は年次賞与を受け取った」など、明示された時間関係を保つ。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-sense-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 202,
+            "line_end": 202,
+            "exact_quote": "【語法・注意】語義2は販売員・代理人が受け取る報酬の側から、語義3は顧客が業者へ支払う取引費用の側から捉える。実際の取引では同じ金銭を双方の立場から commission と呼ぶこともあり、誰が誰に何の対価を支払うかを確認する。  "
+          },
+          "severity": "blocking",
+          "rationale": "語義2と語義3の最小差が語彙的な中心意味ではなく、同じ取引対価を受取人側と支払人側のどちらから見るかに置かれている。本文自身も同じ金銭を双方が commission と呼べると認めており、どちらも定額・割合の可能性があるため、参与者の視点と対象分野だけによる過剰分割になっている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義2と語義3を、販売・仲介・取引処理に対して支払われる報酬・手数料という一つの語義へ統合し、典型的な受取人・支払人と成果連動性の違いは語法内の下位区分として示す。"
+        },
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "word_formation",
+            "line_start": 24,
+            "line_end": 24,
+            "exact_quote": "・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。  "
+          },
+          "severity": "blocking",
+          "rationale": "語形成欄では commissioned を形容詞として明示し、特に commissioned officer という定着した用法まで挙げているが、語義構造には動詞の語義8・9しかなく、この主要な分詞形容詞の収録先がない。主要な品詞転換を語形成欄だけに置く状態は、セクション横断で品詞範囲が一致していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "commissioned の主要な分詞形容詞用法を番号付き語義として追加し、「正式に依頼された」と軍事上の「任官した」を区別して示す。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-frame-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+        "blind_request_sha256": "347e0e95e5208ed7fdaca94ff86292cdbd6e2630eb6d840fb38be39bfc9dd4d4",
+        "recorded_at": "2026-09-07T05:13:07-05:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "commission-frame-agent",
+          "same_model_as_generation": true
+        },
+        "axes": [
+          {
+            "item_id": "ant-fb78bd32f311",
+            "axis": "運用移行",
+            "relation_type": "方向",
+            "reason": "commission は運用可能な状態へ移す方向、decommission は運用から外す方向を表す。"
+          },
+          {
+            "item_id": "ant-e74218a8b264",
+            "axis": "unnamable",
+            "relation_type": null,
+            "reason": "当該語義の in commission と in service はともに使用・運用中の状態を表し、二語間の対立を構成しない。"
+          }
+        ]
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-example-agent",
+        "same_model_as_generation": true
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "recorded_at": "2026-09-07T10:15:00Z",
+        "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+        "blind_request_sha256": "db6b3c85d12b6027b5c5426989fb789c5cc6f3458877cef5a89f9d2781839dab",
+        "attributions": [
+          {
+            "example_id": "ex-37900200767c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "remained in commission"
+            ],
+            "rationale": "remained in commission は継続的な就役状態を表す慣用句であり、sense:010 の他動詞的な稼働開始なら、設備を目的語として運用可能にする出来事を表すため、この用法にはならない。"
+          },
+          {
+            "example_id": "ex-f4b239008945",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "work partly on commission"
+            ],
+            "rationale": "work partly on commission は勤務者の成果連動報酬を表す。sense:003 の取引処理手数料なら顧客に請求・適用される料金となり、staff の給与形態を表すこの構文には適合しない。"
+          },
+          {
+            "example_id": "ex-995718f57434",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "commissioned an independent study"
+            ],
+            "rationale": "commissioned an independent study は調査を成果物として正式に依頼した他動詞用法である。sense:010 なら設備を運用可能にすることを表し、study を立ち上げるこの依頼関係にはならない。"
+          },
+          {
+            "example_id": "ex-4705b5c85953",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "set up an independent commission",
+              "to investigate the disaster"
+            ],
+            "rationale": "set up an independent commission と to investigate the disaster は、調査のために組織を設置する関係を示す。sense:004 の依頼・仕事そのものは委員から成る組織として set up されない。"
+          },
+          {
+            "example_id": "ex-8ca572df3a94",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "charges a small commission",
+              "on each trade"
+            ],
+            "rationale": "charges a small commission on each trade は取引を処理する仲介業者が料金を課す関係である。sense:002 なら販売員側が成果報酬として受け取るため、broker が各取引に charges するこの用法とは異なる。"
+          },
+          {
+            "example_id": "ex-d74e835edab2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "completed a commission",
+              "from the city orchestra"
+            ],
+            "rationale": "completed a commission from the city orchestra は依頼を受けた作品・仕事を完成した意味である。sense:002 の販売歩合は completed の目的語となる制作物ではない。"
+          },
+          {
+            "example_id": "ex-972d2d22bf20",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "takes commissions",
+              "for custom illustrations"
+            ],
+            "rationale": "takes commissions for custom illustrations は特注制作の依頼を受けることを表す。sense:002 の歩合なら販売成果に対して earn または receive する報酬であり、illustrations を制作対象とする commissions にはならない。"
+          },
+          {
+            "example_id": "ex-1ff3229b317a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "put the new patrol ship into commission"
+            ],
+            "rationale": "put the new patrol ship into commission は船を就役状態へ置く固定的な名詞句である。sense:010 は commission the ship のような他動詞用法なので、into commission という補語構文のこの例には当たらない。"
+          },
+          {
+            "example_id": "ex-583e212fda6d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "commissioning tests",
+              "before commercial operation began"
+            ],
+            "rationale": "commissioning tests before commercial operation began は設備を商業運転可能にするための立上げ試験を指す。sense:008 の正式依頼なら仕事の発注関係を表し、運転開始前の試験という結果状態を表さない。"
+          },
+          {
+            "example_id": "ex-0cfcca27e6bf",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:002",
+              "sense:003"
+            ],
+            "discriminating_terms": [],
+            "rationale": "The buyer paid a commission to the broker who arranged the sale. は、成立した売買への成果報酬を代理人へ払う sense:002 と、取引を仲介した業者へ顧客が払う sense:003 のどちらにも自然である。buyer と broker は当事者を示すが、commission 自体が成果報酬か取引処理料金かを一意に決める料率・請求構造はない。"
+          },
+          {
+            "example_id": "ex-8b60b84b3879",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "exchange service applies a commission",
+              "of one percent"
+            ],
+            "rationale": "exchange service applies a commission of one percent は両替サービスが取引料金を適用する関係である。sense:002 なら販売員・代理人が成果報酬を得るため、service が料金を applies するこの用法とは合わない。"
+          },
+          {
+            "example_id": "ex-5cbd8d8921c8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "out of commission",
+              "while repairs are carried out"
+            ],
+            "rationale": "out of commission while repairs are carried out は故障修理中で使用不能な状態を表す。sense:010 は設備を稼働開始させる他動詞であり、out of commission という状態句ではない。"
+          },
+          {
+            "example_id": "ex-a7bc39f50e54",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "commission of inquiry",
+              "into the security failures"
+            ],
+            "rationale": "commission of inquiry into the security failures は調査を行う正式組織を指す。sense:005 の commission of an offence は犯罪行為の実行を表す固定枠であり、inquiry を行う機関を設ける意味にはならない。"
+          },
+          {
+            "example_id": "ex-5214394401bc",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "Newly commissioned officers"
+            ],
+            "rationale": "Newly commissioned officers は人が士官という地位を正式に与えられた結果状態を表す。sense:008 で人に仕事を依頼するなら実施すべき仕事の関係が必要で、officers という任官済み身分を作るこの用法とは異なる。"
+          },
+          {
+            "example_id": "ex-d1f41e6b9160",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "received a commission as a second lieutenant"
+            ],
+            "rationale": "received a commission as a second lieutenant は少尉としての士官任命・地位を受けた意味である。sense:004 の正式依頼なら as a second lieutenant という階級の結果補語を取らない。"
+          },
+          {
+            "example_id": "ex-cc08f5b7405a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "commissioned the new vessel",
+              "in a ceremony"
+            ],
+            "rationale": "commissioned the new vessel in a ceremony は船を正式に就役させた出来事を表す。sense:008 なら船の建造などを依頼する意味になるが、完成した vessel を式典で運用開始するこの構文・結果とは合わない。"
+          },
+          {
+            "example_id": "ex-775b9a321d7b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "earn commission",
+              "on every policy they sell"
+            ],
+            "rationale": "earn commission on every policy they sell は販売成果ごとに代理店担当者が得る報酬である。sense:003 は顧客に請求される取引処理料金なので、Agents が earn するこの意味関係ではない。"
+          },
+          {
+            "example_id": "ex-5a85577b03c3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "commission of the offence",
+              "aiding others"
+            ],
+            "rationale": "commission of the offence は違反行為を実行することを表し、aiding others はその実行への加担を示す。sense:001 の委員会なら offence の実行という of 補語関係を取らない。"
+          },
+          {
+            "example_id": "ex-5f3c9b15a9b2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "held a commission",
+              "in the Royal Navy"
+            ],
+            "rationale": "held a commission in the Royal Navy は一定期間士官の地位を保持した意味である。sense:004 の依頼仕事なら海軍内の地位として十二年間 held するものではない。"
+          },
+          {
+            "example_id": "ex-4d857fd21c9e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "commissioned a local artist",
+              "to create a sculpture"
+            ],
+            "rationale": "commissioned a local artist to create a sculpture は人に成果物の制作を正式依頼する他動詞構文である。sense:009 の任官なら to create a sculpture という委託作業を与える関係にはならない。"
+          },
+          {
+            "example_id": "ex-5fac862539ac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "put him out of commission",
+              "for the rest of the season"
+            ],
+            "rationale": "put him out of commission for the rest of the season は負傷によって人を一時的に活動不能にした慣用表現である。sense:010 は船舶・設備を稼働開始させる他動詞で、人を out of commission にする状態句ではない。"
+          },
+          {
+            "example_id": "ex-5a4cd110ea25",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "commission's report",
+              "identified serious gaps in oversight"
+            ],
+            "rationale": "commission's report identified serious gaps in oversight は、組織が調査報告を公表・作成する主体であることを示す。sense:004 の依頼作品そのものは report の所有主体として監督上の不備を指摘しない。"
+          },
+          {
+            "example_id": "ex-3dba23bca91d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "commission-free trading",
+              "in selected funds"
+            ],
+            "rationale": "commission-free trading in selected funds は顧客の売買取引に課される手数料がないことを表す。sense:002 の販売員向け歩合なら trading サービスの料金属性として -free になるこの関係ではない。"
+          },
+          {
+            "example_id": "ex-ceea6584aa21",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "resigned her commission",
+              "left the service"
+            ],
+            "rationale": "resigned her commission and left the service は士官の地位・任命を辞した意味である。sense:004 の依頼仕事は軍務から離れる際に resign する身分ではない。"
+          },
+          {
+            "example_id": "ex-20995b6d160f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "commissioned into the air force"
+            ],
+            "rationale": "commissioned into the air force は人を軍組織の士官へ任命する受動構文である。sense:008 の仕事依頼なら into the air force という所属・地位の結果を与えない。"
+          },
+          {
+            "example_id": "ex-cae3198ad788",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "commission on election reform",
+              "publish its recommendations"
+            ],
+            "rationale": "commission on election reform が publish its recommendations するため、調査・助言組織が行為主体である。sense:004 の依頼・作品は提言を公表する集合的主体にならない。"
+          },
+          {
+            "example_id": "ex-48d6969b82f8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "served on the national commission"
+            ],
+            "rationale": "served on the national commission は人が委員会の構成員として務めた関係を表す。sense:004 の依頼・発注は、人物が served on する組織ではない。"
+          },
+          {
+            "example_id": "ex-a5e96e9f6913",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "film specially commissioned",
+              "for the anniversary"
+            ],
+            "rationale": "film specially commissioned for the anniversary は映画が特定目的のため制作依頼された受動用法である。sense:010 は設備を運用可能にする結果を表し、film の特別制作を発注する関係にはならない。"
+          },
+          {
+            "example_id": "ex-359d6a857108",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:009"
+            ],
+            "discriminating_terms": [
+              "commissioned as a lieutenant",
+              "after completing officer training"
+            ],
+            "rationale": "commissioned as a lieutenant は lieutenant という士官階級を結果として与える受動構文である。sense:008 の仕事依頼なら as a lieutenant という軍階級への任命を表さない。"
+          },
+          {
+            "example_id": "ex-aae3505091f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "survey was commissioned",
+              "by the city council"
+            ],
+            "rationale": "survey was commissioned by the city council は調査が正式に依頼された受動関係を表す。sense:010 なら設備・システムを運用開始させるため、survey という作業の依頼にはならない。"
+          },
+          {
+            "example_id": "ex-996658cc981e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "commission of the crime",
+              "linked the weapon"
+            ],
+            "rationale": "commission of the crime は犯罪の実行行為を表し、linked the weapon は凶器をその行為に結び付けている。sense:001 の委員会なら crime を of 補語にして犯罪実行を指さない。"
+          },
+          {
+            "example_id": "ex-31bf55a02d75",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "receives a ten percent commission",
+              "on all new contracts"
+            ],
+            "rationale": "receives a ten percent commission on all new contracts は契約獲得成果に応じ本人が受け取る歩合である。sense:003 は取引サービス側が顧客に課す処理料金なので、この受領報酬の関係とは異なる。"
+          },
+          {
+            "example_id": "ex-973ec557dac0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:008"
+            ],
+            "discriminating_terms": [
+              "commissioned a new symphony",
+              "from the composer"
+            ],
+            "rationale": "commissioned a new symphony from the composer は成果物を制作者へ正式発注する他動詞構文である。sense:010 は設備を稼働状態へ移すため、symphony を composer から依頼する関係を表さない。"
+          },
+          {
+            "example_id": "ex-1c9a1e88207a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "accepted a private commission",
+              "for a family portrait"
+            ],
+            "rationale": "accepted a private commission for a family portrait は肖像画制作の正式依頼を引き受けた意味である。sense:002 の販売歩合は制作対象を for で指定して accepted する仕事ではない。"
+          },
+          {
+            "example_id": "ex-0b69157f22d1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "Commission-based pay",
+              "incentives to close deals"
+            ],
+            "rationale": "Commission-based pay と incentives to close deals は成約成果に連動する報酬制度を示す。sense:003 の取引手数料は顧客側の処理コストであり、働き手の pay を構成して成約を促すこの関係ではない。"
+          },
+          {
+            "example_id": "ex-6036e37b49e3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "pays its representatives a commission",
+              "for each painting sold"
+            ],
+            "rationale": "pays its representatives a commission for each painting sold は、売上成果ごとに販売担当者へ支払う報酬である。sense:003 なら取引を処理する業者が顧客に請求するため、gallery が representatives に pays するこの役割配置とは逆である。"
+          },
+          {
+            "example_id": "ex-6309934a643c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "commission the new control system",
+              "before the plant reopens"
+            ],
+            "rationale": "commission the new control system before the plant reopens は制御設備を検証して運用可能にする意味である。sense:008 の正式依頼なら system を発注する関係になり、再開前に技術者が稼働化するという結果を表さない。"
+          },
+          {
+            "example_id": "ex-1315daf1062d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:010"
+            ],
+            "discriminating_terms": [
+              "generator was commissioned into service"
+            ],
+            "rationale": "generator was commissioned into service は発電機を正式に運用開始状態へ移した受動構文である。sense:009 の任官なら人に士官階級を与えるため、generator を into service にするこの用法にはならない。"
+          },
+          {
+            "example_id": "ex-10a127eec334",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "received a commission to design",
+              "the new library"
+            ],
+            "rationale": "received a commission to design the new library は設計業務の正式依頼を受けた意味である。sense:006 の士官任命なら to design という依頼作業や library という成果対象を伴わない。"
+          },
+          {
+            "example_id": "ex-2105998ace1e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "during the commission of the robbery"
+            ],
+            "rationale": "during the commission of the robbery は強盗行為を実行している時間を表す。sense:001 の委員会なら robbery を実行行為として of 補語に取り、during でその行為中を示すことはできない。"
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "commission-example-agent",
+          "same_model_as_generation": true
+        }
+      },
+      "aligned_at": "2026-09-07T10:16:45.119850+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 189,
+            "line_end": 189,
+            "exact_quote": "例: The buyer paid a commission to the broker who arranged the sale.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:002, sense:003が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-qualification-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 521,
+            "line_end": 521,
+            "exact_quote": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+          },
+          "severity": "blocking",
+          "rationale": "船舶を正式に就役させる用法と工学上の commissioning を一つの必須条件列にまとめたため、「新しい」対象であること、必要な試験・確認を経ること、直ちに使用を開始することが全フレームに含意される定義になっている。海事の commission は正式な就役行為を指し、試験自体を語彙的に必須とはしない。一方、工学の commissioning は既設・改修設備にも行われ得て、試験・調整・検証から引渡しまでの工程を指し、実運用開始そのものと常に同一ではない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "海事では「船舶を正式に就役させる」、工学では「設備・システムを試験・調整・検証して運用可能であることを確認し、引渡しへ進める」のように適用範囲を分け、「新しい」「使用を開始する」を全用法の必須条件にしない。"
+        },
+        {
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 508,
+            "line_end": 508,
+            "exact_quote": "【語法・注意】この語義は単なる employ「雇う」や enlist「兵として入隊させる」と異なる。commissioned officer は士官、enlisted personnel は志願・徴募によって入隊した兵を表す。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。  "
+          },
+          "severity": "blocking",
+          "rationale": "enlisted personnel を「志願・徴募という入隊経路で入った兵」と定義すると、commissioned / enlisted という身分上の区分を採用経路と混同する。enlisted personnel には軍種により水兵・航空兵等や non-commissioned officers も含まれ、「兵」だけでは専門的な範囲が狭すぎる。また区分や訳語は軍種・法域で異なるため、英語全体に一律の制度説明として提示できない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "commissioned officer は commission を保持する士官、enlisted personnel は原則として commission を保持しない下士官兵・兵員という身分上の対照として説明し、warrant officer 等の境界や日本語訳は軍種・法域により異なることを明記する。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-pronunciation-agent",
+        "same_model_as_generation": true
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "commission-evidence-agent",
+        "same_model_as_generation": true
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 317,
+            "line_end": 317,
+            "exact_quote": "【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、その地位、またはそれを証明する文書を表す。一般的な入隊や配属そのものではない。  "
+          },
+          "severity": "blocking",
+          "rationale": "C-005 links this target only to F-005 and F-013. F-005 supports an officer's position and authority, and F-013 supports appointment as a verb, but neither supplied fact supports the additional claim that commission denotes the document proving that status. The recorded evidence therefore does not directly support the full linked definition.",
+          "evidence_link_ids": [
+            "F-005",
+            "F-013"
+          ],
+          "suggested_direction": "Remove or qualify the document sense, or link a recorded fact that explicitly defines a military commission as the warrant/document itself."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 420,
+            "line_end": 420,
+            "exact_quote": "【文法パターン】commission someone to do 〈仕事〉＝人に～するよう正式に依頼する／commission 〈work/report/study〉＝作品・報告・調査を発注する／commission 〈work〉 from someone＝人に作品を発注する／〈work〉 be commissioned by 〈依頼主〉＝仕事が～によって依頼される／commission 〈work〉 for 〈目的・機会〉＝～のために仕事を発注する  "
+          },
+          "severity": "blocking",
+          "rationale": "C-008's F-012 and F-014 support commission someone to do something and taking a work as direct object. The supplied facts do not record the from-complement, passive by-complement, or for-purpose frames asserted in the same linked target, so those complete-frame claims exceed the documented support.",
+          "evidence_link_ids": [
+            "F-012",
+            "F-014"
+          ],
+          "suggested_direction": "Limit the pattern list to the person-to-infinitive and work-object frames, or add direct recorded support for commission work from someone, be commissioned by, and commission work for a purpose."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 521,
+            "line_end": 521,
+            "exact_quote": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+          },
+          "severity": "blocking",
+          "rationale": "C-009 links definition:010 only to F-019, which documents technical building commissioning and transition of installed systems to operation. It does not support the maritime claim that the same target covers formally putting ships into service. F-013 elsewhere in the inventory mentions ship activation, but it is not an evidence support on C-009.",
+          "evidence_link_ids": [
+            "F-019"
+          ],
+          "suggested_direction": "Attach direct ship-commissioning support to this target or restrict the definition to the supported engineering process."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 551,
+            "line_end": 551,
+            "exact_quote": "【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。decommission は運用から外すことで、必ずしも直ちに解体することを意味しない。  "
+          },
+          "severity": "blocking",
+          "rationale": "F-019 directly supports the first sentence about verification and transition to operation, but C-009 provides no support for the second sentence's separate decommissioning-versus-immediate-dismantling distinction. F-021 is linked to C-012 targets, not this usage-note target, and it does not explicitly address dismantling timing.",
+          "evidence_link_ids": [
+            "F-019"
+          ],
+          "suggested_direction": "Remove the decommissioning sentence from this linked target or add a direct fact and link establishing that decommissioning does not necessarily entail immediate dismantling."
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 23,
+            "line_end": 23,
+            "exact_quote": "・commissioner（名詞）— 委員、行政機関などの長官、スポーツ組織の最高責任者。  "
+          },
+          "severity": "blocking",
+          "rationale": "C-011 links this target only to F-020, whose recorded statement supports a person entrusted with commission duties or a member/head of a commission. That fact does not directly support the additional sports-organization chief sense stated in the target.",
+          "evidence_link_ids": [
+            "F-020"
+          ],
+          "suggested_direction": "Limit the gloss to the supported commission-member or official senses, or add direct recorded support for commissioner as the head of a sports organization."
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-translation-agent",
+      "same_model_as_generation": true
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-sense-agent",
+      "same_model_as_generation": true
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-frame-agent",
+      "same_model_as_generation": true
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-example-agent",
+      "same_model_as_generation": true
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-qualification-agent",
+      "same_model_as_generation": true
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-pronunciation-agent",
+      "same_model_as_generation": true
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "commission-evidence-agent",
+      "same_model_as_generation": true
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}
