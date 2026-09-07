@@ -20,8 +20,8 @@ tags: []
 
 ＃語形成
 
-・commissioner（名詞）— 委員、行政機関などの長官、スポーツ組織の最高責任者。  
-・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。  
+・commissioner（名詞）— 委員、行政機関などの長官・責任者。  
+・commissioned（形容詞・過去分詞）— 正式に依頼された、士官に任官した、または船舶・設備が正式に就役・運用可能となった。commissioned officer は「士官」。  
 ・commissioning（名詞・動名詞）— 発注・任命、または設備を試験して運用可能にする工程。  
 ・decommission（動詞）— 船舶、設備、原子力施設などを運用から外す。  
 ・recommission（動詞）— 運用を停止していた船舶・設備などを再び就役・稼働させる。  
@@ -32,20 +32,20 @@ tags: []
 権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。  
 
 ・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）  
-・売買を担う人へ成果連動の対価を渡すこと → 「歩合、販売手数料」（語義2）  
-・取引処理を担う業者へ対価を渡すこと → 「取扱手数料、仲介手数料」（語義3）  
-・制作や調査を専門家へ正式に委ねること → 「正式な依頼、発注、依頼作品」（語義4）  
-・軍務上の権限を将校へ正式に委ねること → 「士官任命、士官の地位・辞令」（語義6）  
-・船舶や設備へ正式な役目を与えること → 「就役中、稼働中」（語義7）  
+・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）  
+・人へ任務とそれを行う権限を正式に委ねること → 「委任、任務、権限」（語義3）  
+・作品・専門成果物の制作を専門家へ正式に委ねること → 「正式な依頼、発注、依頼作品」（語義4）  
+・軍務上の権限を将校へ正式に委ねること → 「士官任命、士官の地位・権限」（語義6）  
+・船舶や設備へ正式な役目を与えること → in commission「就役・稼働中」。その否定から out of commission「使用不能」、さらに人の「活動不能」へ比喩的に広がる（語義7）  
 ・制作や調査を人へ正式に委ねること → 「～を正式に依頼する、発注する」（語義8）  
 ・軍務上の権限を人へ正式に委ねること → 「～を士官に任命する」（語義9）  
-・船舶や設備へ正式な役目を与えること → 「～を就役・稼働させる」（語義10）  
+・船舶を正式な任務へ就けること、設備の運用準備を検証すること → 「船舶を就役させる／設備の運用可能性を検証する」（語義10）  
 
 ＃意味・用法・関連表現
 
 1. 【可算名詞】委員会、調査委員会、行政委員会
 
-【日本語訳・定義】政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。固有の機関名では Commission と大文字で書くことがある。  
+【日本語訳・定義】政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。  
 
 【頻度】〈8/10〉  
 
@@ -105,15 +105,15 @@ tags: []
 例: The board appointed a new chief executive.  
 訳: 取締役会は新しい最高経営責任者を任命した。  
 
-2. 【可算・不可算名詞】歩合、販売手数料
+2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料
 
-【日本語訳・定義】商品やサービスの販売、契約成立などの成果に応じて、販売員や代理人へ支払われる報酬。売上額の一定割合であることが多いが、必ず割合とは限らない。  
+【日本語訳・定義】商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。  
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】ビジネス、営業、雇用、金融。  
+【レジスター/領域】ビジネス、営業、雇用、金融、銀行、証券、商取引。日常の一般的なサービス料金には fee の方が広く使われる。  
 
-【文法パターン】earn/get/receive commission on 〈sales/transaction〉＝売上・取引について歩合を得る／pay someone a commission＝人に歩合を払う／a 〈数値〉 percent commission＝～パーセントの歩合／work/be paid on commission＝歩合制で働く・報酬を受ける  
+【文法パターン】earn/get/receive commission on 〈sales/transaction〉＝売上・取引について歩合を得る／pay someone a commission＝人に歩合・手数料を払う／charge a commission on/for 〈transaction/service〉＝取引・サービスについて手数料を請求する／a commission of 〈金額・割合〉＝～の手数料／work/be paid on commission＝歩合制で働く・報酬を受ける  
 
 【コロケーション】
 
@@ -135,14 +135,14 @@ tags: []
 ・work on commission  
 用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。  
 例: Most sales staff receive a base salary and work partly on commission.  
-訳: 営業担当者の多くは基本給を受け取り、一部は歩合制で働いている。  
+訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。  
 
-・commission-based pay  
-用途: 歩合を中心とした報酬制度を表す。  
-例: Commission-based pay can create strong incentives to close deals quickly.  
-訳: 歩合中心の報酬制度は、取引を早く成立させる強い動機を生むことがある。  
+・charge a commission on 〈transaction〉  
+用途: 金融機関や仲介業者が個別取引に手数料を課す。  
+例: The broker charges a small commission on each trade.  
+訳: その証券会社は取引ごとに少額の手数料を請求する。  
 
-【語法・注意】earn $2,000 in commission の in commission は得た歩合の総額を表す。一方、work on commission の on commission は報酬方式を表す。commission は bonus と異なり、通常は個々の売上・取引に直接連動する。  
+【語法・注意】earn $2,000 in commission の in commission は得た歩合の総額を表し、work on commission の on commission は報酬方式を表す。charge/pay a commission では同じ金銭を、業者側は報酬、顧客側は費用として捉えることがある。commission は bonus と異なり通常は個々の売上・取引に結び付き、fee より仲介・売買との関連が強い。  
 
 【類義語】
 
@@ -151,7 +151,7 @@ tags: []
 頻度: 〈8/10〉  
 違い: bonus は会社業績、個人評価、季節など多様な基準で支払われる。commission は特定の売上・取引成果に直接連動する。  
 例: Employees received an annual bonus after the company exceeded its targets.  
-訳: 会社が目標を上回ったため、従業員は年次賞与を受け取った。  
+訳: 会社が目標を上回った後、従業員は年次賞与を受け取った。  
 
 ・fee  
 定義: 専門的サービスや手続きに対して支払う料金。  
@@ -167,59 +167,59 @@ tags: []
 例: The author receives a royalty on every copy sold.  
 訳: 著者は販売された一冊ごとに印税を受け取る。  
 
-3. 【可算・不可算名詞】取扱手数料、仲介手数料
+3. 【可算名詞・形式的】委任された任務・権限
 
-【日本語訳・定義】銀行、証券会社、仲介業者などが、両替、売買、送金その他の取引を処理する対価として顧客に請求する金額。取引額の一定割合の場合も定額の場合もある。  
+【日本語訳・定義】外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。  
 
-【頻度】〈6/10〉  
+【頻度】〈3/10〉  
 
-【レジスター/領域】金融、銀行、証券、商取引。日常の一般的なサービス料金には fee の方が広く使われる。  
+【レジスター/領域】形式的、歴史的、外交・行政・代理・文学。  
 
-【文法パターン】charge a commission on/for 〈transaction/service〉＝取引・サービスについて手数料を請求する／pay a commission to 〈broker/agent〉＝仲介者へ手数料を払う／a commission of 〈金額・割合〉＝～の手数料  
+【文法パターン】a commission to do 〈任務〉＝～するよう委ねられた任務／receive/accept a commission to do 〈任務〉＝～する任務を受ける／carry out/execute one's commission＝委ねられた任務を遂行する／within/beyond one's commission＝委任された権限の範囲内／範囲外で  
 
 【コロケーション】
 
-・charge a commission on 〈transaction〉  
-用途: 金融機関などが取引額に対して手数料を課す。  
-例: The broker charges a small commission on each trade.  
-訳: その証券会社は取引ごとに少額の手数料を請求する。  
+・receive a commission to do 〈任務〉  
+用途: 特定の任務を行うよう正式な指示と権限を受ける。  
+例: The envoy received a commission to negotiate a temporary settlement.  
+訳: その特使は暫定的な合意を交渉する任務を与えられた。  
 
-・pay a commission to 〈broker/agent〉  
-用途: 取引を仲介した業者へ手数料を支払う。  
-例: The buyer paid a commission to the broker who arranged the sale.  
-訳: 買い手は売買を取りまとめた仲介業者に手数料を支払った。  
+・accept a commission  
+用途: 委ねられた正式な任務を引き受ける。  
+例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks.  
+訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。  
 
-・a commission of 〈金額・割合〉  
-用途: 取引処理について請求される具体的な手数料金額・率を示す。  
-例: The exchange service applies a commission of one percent.  
-訳: その両替サービスでは1パーセントの手数料がかかる。  
+・carry out one's commission  
+用途: 委ねられた任務を実行する。  
+例: The delegates returned after carrying out their commission.  
+訳: 代表団は委ねられた任務を果たして帰還した。  
 
-・commission-free trading  
-用途: 売買委託手数料を直接請求しない取引サービスを表す。  
-例: The platform advertises commission-free trading in selected funds.  
-訳: そのプラットフォームは一部のファンドについて売買手数料無料をうたっている。  
+・beyond one's commission  
+用途: 委任された権限の範囲を超えていることを表す。  
+例: The agent acted beyond his commission when he signed the agreement.  
+訳: その代理人は合意書に署名した際、委任された権限を越えて行動した。  
 
-【語法・注意】語義2は販売員・代理人が受け取る報酬の側から、語義3は顧客が業者へ支払う取引費用の側から捉える。実際の取引では同じ金銭を双方の立場から commission と呼ぶこともあり、誰が誰に何の対価を支払うかを確認する。  
+【語法・注意】この語義は現代の日常語では assignment、mission、authority などに言い換えることが多い。語義4は依頼主が有償で作品・専門成果物を作らせる「発注」を表し、語義3は受任者に委ねられた任務と行動権限を表す。  
 
 【類義語】
 
-・fee  
-定義: サービス、手続き、専門業務などに対して請求される料金。  
-頻度: 〈9/10〉  
-違い: fee は最も広い一般語で、取引額と無関係な定額料金も含む。commission は仲介・売買など特定の取引との結び付きが強い。  
-例: The bank charges a monthly account fee.  
-訳: その銀行は毎月の口座維持手数料を請求する。  
+・mandate  
+定義: 人や組織に正式に与えられた任務・権限。  
+頻度: 〈6/10〉  
+違い: mandate は公的・政治的な権限の根拠や範囲を強く示す。commission は個人に委ねられた具体的任務を指す古風な用法にも使う。  
+例: The committee acted within its legal mandate.  
+訳: その委員会は法的権限の範囲内で行動した。  
 
-・brokerage  
-定義: 仲介業務、または証券などの売買仲介に対する料金。  
-頻度: 〈4/10〉  
-違い: brokerage は仲介事業・サービス自体も指す。commission は個別取引について発生する具体的報酬・手数料を指しやすい。  
-例: The investor compared brokerage fees across several platforms.  
-訳: その投資家は複数のプラットフォームで仲介手数料を比較した。  
+・assignment  
+定義: 人に割り当てられた仕事・課題。  
+頻度: 〈8/10〉  
+違い: assignment は日常的な業務配分にも広く使う。commission は正式な委任と権限を含意しやすく、この語義ではより文語的である。  
+例: The diplomat's first assignment was to observe the talks.  
+訳: その外交官の最初の任務は会談を監視することだった。  
 
 4. 【可算名詞】正式な依頼、発注、依頼作品
 
-【日本語訳・定義】芸術作品、建築、文章、調査などを特定の人・組織に作成・実施してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。  
+【日本語訳・定義】芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。  
 
 【頻度】〈7/10〉  
 
@@ -312,9 +312,9 @@ tags: []
 例: Investigators found evidence of the deliberate perpetration of fraud.  
 訳: 捜査当局は故意による詐欺の実行を示す証拠を発見した。  
 
-6. 【可算名詞・軍事】士官任命、士官の地位・辞令
+6. 【可算名詞・軍事】士官任命、士官の地位・権限
 
-【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、その地位、またはそれを証明する文書を表す。一般的な入隊や配属そのものではない。  
+【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。  
 
 【頻度】〈4/10〉  
 
@@ -365,12 +365,12 @@ tags: []
 ・be in commission  
 用途: 船舶や設備が正式な任務または使用に就いている状態を表す。  
 例: The research vessel remained in commission for more than thirty years.  
-訳: その調査船は30年以上にわたり就役していた。  
+訳: その調査船は30年を超えて就役していた。  
 
 ・be out of commission  
 用途: 機械・設備が故障や整備で使用できない状態を表す。  
 例: Two elevators are out of commission while repairs are carried out.  
-訳: 修理中のため、エレベーター2基が使用できない。  
+訳: 修理が行われている間、エレベーター2基は使用できない。  
 
 ・put someone out of commission  
 用途: けがや病気などで人を一時的に活動できない状態にする。  
@@ -400,15 +400,6 @@ tags: []
 例: The ticket machine is temporarily out of service.  
 訳: その券売機は一時的に使用できない。  
 
-【反意語】
-
-・in service  
-定義: 機械、車両、船舶などが使用・運行されている状態にある。  
-頻度: 〈7/10〉  
-違い: out of commission と使用可能性・稼働状態の軸で反対方向にある。in service は正式な軍事上の就役に限らず、公共交通や設備にも広く使う。  
-例: All trains were back in service by noon.  
-訳: 正午までにすべての列車が運行を再開した。  
-
 8. 【他動詞】～を正式に依頼する、発注する
 
 【日本語訳・定義】人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。  
@@ -417,7 +408,7 @@ tags: []
 
 【レジスター/領域】一般語だがやや公式。芸術、出版、放送、建築、調査、行政、ビジネス。  
 
-【文法パターン】commission someone to do 〈仕事〉＝人に～するよう正式に依頼する／commission 〈work/report/study〉＝作品・報告・調査を発注する／commission 〈work〉 from someone＝人に作品を発注する／〈work〉 be commissioned by 〈依頼主〉＝仕事が～によって依頼される／commission 〈work〉 for 〈目的・機会〉＝～のために仕事を発注する  
+【文法パターン】commission someone to do 〈仕事〉＝人に～するよう正式に依頼する／commission 〈work/report/study〉＝作品・報告・調査を発注する  
 
 【コロケーション】
 
@@ -486,7 +477,7 @@ tags: []
 
 【レジスター/領域】軍事、公式。  
 
-【文法パターン】commission someone as 〈officer rank〉＝人を～の階級の士官に任命する／someone be commissioned as 〈officer rank〉＝人が～として任官する／someone be commissioned into/in 〈armed service〉＝人が～軍の士官に任官する  
+【文法パターン】commission someone as 〈officer rank〉＝人を～の階級の士官に任命する／be commissioned as 〈officer rank〉＝～として任官する／be commissioned into/in 〈armed service〉＝～軍の士官に任官する  
 
 【コロケーション】
 
@@ -505,7 +496,7 @@ tags: []
 例: Newly commissioned officers attended the leadership course.  
 訳: 新たに任官した士官たちは指揮官研修に参加した。  
 
-【語法・注意】この語義は単なる employ「雇う」や enlist「兵として入隊させる」と異なる。commissioned officer は士官、enlisted personnel は志願・徴募によって入隊した兵を表す。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。  
+【語法・注意】この語義は単なる employ「雇う」や enlist「入隊させる」と異なる。commissioned officer は commission を授与された士官、enlisted personnel は原則として commission を持たない下士官兵・兵員を表す。warrant officer などの位置付けや日本語の階級名は軍種・法域によって異なる。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。  
 
 【類義語】
 
@@ -516,15 +507,15 @@ tags: []
 例: The cabinet appointed her defense minister.  
 訳: 内閣は彼女を国防相に任命した。  
 
-10. 【他動詞】船舶・設備などを就役・稼働させる
+10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する
 
-【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  
+【日本語訳・定義】船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。  
 
 【頻度】〈5/10〉  
 
 【レジスター/領域】海事、軍事、工学、建設、エネルギー。  
 
-【文法パターン】commission 〈ship/system/equipment〉＝船・設備・システムを正式に就役・稼働させる／〈ship/system〉 be commissioned＝船・システムが就役・稼働する／commission 〈facility〉 into service＝施設を運用開始する  
+【文法パターン】commission 〈ship〉＝船を正式に就役させる／commission 〈system/equipment〉＝設備・システムを試験・調整・検証して運用可能にする／commission 〈facility〉 into service＝施設を正式に運用へ移す  
 
 【コロケーション】
 
@@ -534,7 +525,7 @@ tags: []
 訳: 海軍は港での式典でその新造船を就役させた。  
 
 ・commission a system  
-用途: システムを試験・調整し、正式な運用を開始する。  
+用途: システムを試験・調整・検証し、運用可能な状態にする。  
 例: Engineers will commission the new control system before the plant reopens.  
 訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。  
 
@@ -548,7 +539,7 @@ tags: []
 例: The turbine passed all commissioning tests before commercial operation began.  
 訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。  
 
-【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。decommission は運用から外すことで、必ずしも直ちに解体することを意味しない。  
+【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、文書化して運用側へ引き渡す工程を含み得る。船舶では正式な就役行為を指し、工学上の commissioning では実運用前の検証工程を指すことがある。  
 
 【類義語】
 
