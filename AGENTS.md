@@ -4,6 +4,26 @@
 `prompts/entry_spec_v5.md`、工程・入力分離・checkpoint・budget・statusは
 `scripts/run_word.py` と参照スクリプトが正本である。
 
+## 複数語・1語の依頼受付
+
+通常の単語追加依頼は1語でも複数語でも `scripts/start_words.py` の共通入口を使う。
+カンマ・読点・改行の一覧を受け付け、短いフレーズは1項目として渡す。
+ユーザーに一語の完了を待って次を再依頼させない。具体的な局所修整は従来経路のまま。
+
+```bash
+python scripts/start_words.py alpha beta "take off" --enqueue-only
+python scripts/start_words.py --dispatch --max-active 2
+python scripts/start_words.py --status
+```
+
+`docs/multi_word_workflow.md` をcontrol担当だけが読む。受付票とjob状態をcontrol branchへ
+保存し、利用可能な語担当の数だけdispatchする。枠を確認できない環境はmax-active 1とし、
+受付だけはまとめる。各語担当には独立したworkspace/割当票を渡し、その場所で下記の
+既存1語フローを最後まで進める。一語の停止で他語を止めず、空き枠へ待機語を渡す。
+複数語の本文・監査を同じ生成contextに束ねない。start_wordsはLLMを自動起動しないため、
+実行枠がない環境で並列生成済みと報告しない。旧1語CLIの互換性と全品質gateを維持する。
+別cloneを独立したcontrolとして二重起動せず、既存controlとremote状態を先に確認する。
+
 ## オーケストレータ
 
 ```bash
