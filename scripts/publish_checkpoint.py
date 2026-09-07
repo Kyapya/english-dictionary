@@ -77,7 +77,7 @@ def plan(root: Path, *, check_remote: bool = True) -> dict:
                 raise ValueError("unsupported tree mode: " + new_mode)
             entries.append({"path": path, "mode": old_mode.lstrip(":") if new_mode == "000000" else new_mode, "type": "blob", "sha": None if new_mode == "000000" else new_sha})
         commits.append({"local_sha": sha, "tree_sha": git(root, "rev-parse", sha + "^{tree}"), "base_tree_sha": git(root, "rev-parse", parents[0] + "^{tree}"), "message": git(root, "show", "-s", "--format=%B", sha), "entries": entries})
-    return {"branch": branch, "remote_base": remote_base, "local_head": git(root, "rev-parse", "HEAD"), "commits": commits}
+    return {"branch": branch, "branch_exists": bool(remote_rows), "remote_base": remote_base, "local_head": git(root, "rev-parse", "HEAD"), "commits": commits}
 
 
 def accept(root: Path, remote_head: str) -> dict:

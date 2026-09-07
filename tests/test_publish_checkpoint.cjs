@@ -6,9 +6,9 @@ const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor;
 const run = new AsyncFunction('tools', 'root', 'repository', fs.readFileSync(path.join(__dirname, '../scripts/publish_checkpoint.js'), 'utf8'));
 const sha = n => String(n).repeat(40);
 
-function fixture(corrupt = false) {
+function fixture(corrupt = false, branchExists = true) {
   const content = Buffer.alloc(70000, 173).toString('base64');
-  const plan = JSON.stringify({branch: 'entry/test', remote_base: sha(1), commits: [{message: 'x'.repeat(25000), tree_sha: sha(2), base_tree_sha: sha(3), entries: [{path: 'binary.xlsx', mode: '100644', type: 'blob', sha: sha(4)}]}]});
+  const plan = JSON.stringify({branch: 'entry/test', branch_exists: branchExists, remote_base: sha(1), commits: [{message: 'x'.repeat(25000), tree_sha: sha(2), base_tree_sha: sha(3), entries: [{path: 'binary.xlsx', mode: '100644', type: 'blob', sha: sha(4)}]}]});
   const calls = [];
   const tools = {
     async exec_command({cmd}) {
@@ -32,6 +32,9 @@ function fixture(corrupt = false) {
       assert.equal(args.force, false);
       calls.push('ref'); return {};
     },
+    async mcp__codex_apps__github_create_branch(args) {
+      assert.equal(args.sha, sha(5)); calls.push('create'); return {};
+    },
   };
   return {tools, calls};
 }
@@ -46,4 +49,10 @@ test('hash mismatch never updates branch', async () => {
   const {tools, calls} = fixture(true);
   await assert.rejects(run(tools, '/repo', 'owner/repo'), /blob hash mismatch/);
   assert.deepEqual(calls, ['blob']);
+});
+
+test('new branches are created directly without a failed ref update', async () => {
+  const {tools, calls} = fixture(false, false);
+  await run(tools, '/repo', 'owner/repo');
+  assert.deepEqual(calls, ['blob', 'tree', 'commit', 'create']);
 });

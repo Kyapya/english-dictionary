@@ -48,7 +48,9 @@ for (const commit of plan.commits) {
   parent = shaOf(await tools.mcp__codex_apps__github_create_commit({repository_full_name: repository, parent_sha: parent, tree_sha: tree, message: commit.message}));
 }
 if (plan.commits.length) {
-  const result = await tools.mcp__codex_apps__github_update_ref({repository_full_name: repository, branch_name: plan.branch, sha: parent, force: false});
-  if (result.isError) throw new Error(JSON.stringify(result));
+  const result = plan.branch_exists
+    ? await tools.mcp__codex_apps__github_update_ref({repository_full_name: repository, branch_name: plan.branch, sha: parent, force: false})
+    : await tools.mcp__codex_apps__github_create_branch({repository_full_name: repository, branch_name: plan.branch, sha: parent});
+  if (result.isError) throw new Error("Publication commit " + parent + ": " + JSON.stringify(result));
 }
 return await command("accept --sha " + quote(parent));
