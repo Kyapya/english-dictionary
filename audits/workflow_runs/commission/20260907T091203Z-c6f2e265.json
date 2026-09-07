@@ -14,15 +14,15 @@
     "max_candidate_pages": 18
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 4,
+    "candidate_pages": 8
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-07T09:12:03Z",
   "deadline_at": "2026-09-07T10:12:03Z",
   "pre_draft_deadline_at": "2026-09-07T09:32:03Z",
-  "last_heartbeat_at": "2026-09-07T09:14:53Z",
+  "last_heartbeat_at": "2026-09-07T09:25:43Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-07T09:14:53Z",
@@ -38,6 +38,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-07T09:14:53Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-07T09:25:43Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -495,7 +500,14 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:standard"
+      "construction:idiom",
+      "domain:engineering",
+      "domain:finance",
+      "domain:military",
+      "headword:commission",
+      "part_of_speech:noun",
+      "part_of_speech:transitive_verb",
+      "polysemy:high"
     ],
     "snapshots": [
       {
@@ -522,7 +534,16 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/c/commission/20260907T091203Z-c6f2e265/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260907T091203Z-c6f2e265:generation:a69560ac3f76",
+        "recorded_at": "2026-09-07T09:25:43Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
@@ -545,11 +566,11 @@
       {
         "id": "generation",
         "instruction_bytes": 55034,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 34138,
+        "duration_seconds": 780.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
@@ -717,10 +738,16 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 2,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/c/commission.md",
+        "audits/runs/c/commission/20260907T091203Z-c6f2e265/generation.json"
+      ]
+    }
   }
 }
