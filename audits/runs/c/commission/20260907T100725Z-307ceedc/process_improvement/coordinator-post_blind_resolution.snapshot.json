@@ -1,0 +1,29 @@
+{
+  "schema_version": "process_improvement_input_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "recipient": "coordinator",
+  "phase": "post_blind_resolution",
+  "features": [
+    "construction:idiom",
+    "domain:engineering",
+    "domain:finance",
+    "domain:military",
+    "headword:commission",
+    "part_of_speech:noun",
+    "part_of_speech:transitive_verb",
+    "polysemy:high"
+  ],
+  "limits": {
+    "max_items": 8,
+    "max_bytes": 8192
+  },
+  "selected": [],
+  "skipped": [],
+  "input_bytes": 349,
+  "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+  "run_id": "20260907T100725Z-307ceedc",
+  "created_at": "2026-09-07T11:10:07Z",
+  "snapshot_path": "audits/runs/c/commission/20260907T100725Z-307ceedc/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+  "machine_duration_seconds": 0.001513,
+  "additional_llm_calls": 0
+}

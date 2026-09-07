@@ -1,0 +1,407 @@
+{
+  "schema_version": "antonym_axis_alignment_key_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "blind_request_sha256": "77355af0e58c804130f62c90bf9e2b3f35a6cf1b75452e992fa215301c88af49",
+  "shuffle_seed": "20260907T094627Z-7fe74815",
+  "items": [
+    {
+      "source_item_id": "antonym:001",
+      "sense_id": "sense:007",
+      "headword": "commission",
+      "sense_definition": "【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。",
+      "antonym": "in service",
+      "antonym_definition": "定義: 機械、車両、船舶などが使用・運行されている状態にある。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 405,
+        "line_end": 405,
+        "exact_quote": "・in service  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 408,
+        "line_end": 408,
+        "exact_quote": "違い: out of commission と使用可能性・稼働状態の軸で反対方向にある。in service は正式な軍事上の就役に限らず、公共交通や設備にも広く使う。  "
+      },
+      "item_id": "ant-9cb1596f2b7f"
+    },
+    {
+      "source_item_id": "antonym:002",
+      "sense_id": "sense:010",
+      "headword": "commission",
+      "sense_definition": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。",
+      "antonym": "decommission",
+      "antonym_definition": "定義: 船舶、設備、施設などを正式に運用から外す。",
+      "anchor": {
+        "section": "lexical_relations",
+        "line_start": 571,
+        "line_end": 571,
+        "exact_quote": "・decommission  "
+      },
+      "difference_anchor": {
+        "section": "lexical_relations",
+        "line_start": 574,
+        "line_end": 574,
+        "exact_quote": "違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  "
+      },
+      "item_id": "ant-3f058ca86292"
+    }
+  ],
+  "senses": [
+    {
+      "sense_id": "sense:007",
+      "full_sense": [
+        {
+          "line": 353,
+          "text": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能"
+        },
+        {
+          "line": 355,
+          "text": "【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。  "
+        },
+        {
+          "line": 357,
+          "text": "【頻度】〈6/10〉  "
+        },
+        {
+          "line": 359,
+          "text": "【レジスター/領域】一般語・海事・軍事。out of commission は機械や人について日常的な比喩にも使う。  "
+        },
+        {
+          "line": 361,
+          "text": "【文法パターン】be in commission＝就役・稼働している／be out of commission＝使用・活動できない／put 〈ship/equipment〉 into commission＝船・設備を就役・稼働させる  "
+        },
+        {
+          "line": 363,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 365,
+          "text": "・be in commission  "
+        },
+        {
+          "line": 366,
+          "text": "用途: 船舶や設備が正式な任務または使用に就いている状態を表す。  "
+        },
+        {
+          "line": 367,
+          "text": "例: The research vessel remained in commission for more than thirty years.  "
+        },
+        {
+          "line": 368,
+          "text": "訳: その調査船は30年以上にわたり就役していた。  "
+        },
+        {
+          "line": 370,
+          "text": "・be out of commission  "
+        },
+        {
+          "line": 371,
+          "text": "用途: 機械・設備が故障や整備で使用できない状態を表す。  "
+        },
+        {
+          "line": 372,
+          "text": "例: Two elevators are out of commission while repairs are carried out.  "
+        },
+        {
+          "line": 373,
+          "text": "訳: 修理中のため、エレベーター2基が使用できない。  "
+        },
+        {
+          "line": 375,
+          "text": "・put someone out of commission  "
+        },
+        {
+          "line": 376,
+          "text": "用途: けがや病気などで人を一時的に活動できない状態にする。  "
+        },
+        {
+          "line": 377,
+          "text": "例: A shoulder injury put him out of commission for the rest of the season.  "
+        },
+        {
+          "line": 378,
+          "text": "訳: 肩のけがにより、彼はシーズン残りを出場できなくなった。  "
+        },
+        {
+          "line": 380,
+          "text": "・put 〈ship/equipment〉 into commission  "
+        },
+        {
+          "line": 381,
+          "text": "用途: 船舶や設備を正式に就役・稼働状態へ移す。  "
+        },
+        {
+          "line": 382,
+          "text": "例: The navy plans to put the new patrol ship into commission next spring.  "
+        },
+        {
+          "line": 383,
+          "text": "訳: 海軍は来春、新しい巡視船を就役させる予定だ。  "
+        },
+        {
+          "line": 385,
+          "text": "【語法・注意】out of commission は必ずしも永久的な廃棄を意味せず、一時的な故障・負傷にも使う。船舶の正式な就役・退役を述べる場合は海事・軍事上の意味になり、一般の機械については「使用可能／不能」という比喩的拡張である。  "
+        },
+        {
+          "line": 387,
+          "text": "【類義語】"
+        },
+        {
+          "line": 389,
+          "text": "・operational  "
+        },
+        {
+          "line": 390,
+          "text": "定義: 機械・設備・組織などが作動・運用できる状態にある。  "
+        },
+        {
+          "line": 391,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 392,
+          "text": "違い: in commission と同じく使用可能な側を表すが、operational は正式な就役の有無を問わず機能している状態を直接述べる。  "
+        },
+        {
+          "line": 393,
+          "text": "例: The emergency communications system is fully operational.  "
+        },
+        {
+          "line": 394,
+          "text": "訳: 緊急通信システムは完全に稼働している。  "
+        },
+        {
+          "line": 396,
+          "text": "・out of service  "
+        },
+        {
+          "line": 397,
+          "text": "定義: 機械・設備・交通手段などが使用・運行できない状態にある。  "
+        },
+        {
+          "line": 398,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 399,
+          "text": "違い: out of commission の使用不能側に近い。out of service は設備・交通手段に広く使い、out of commission は人の一時的な活動不能にも比喩的に使える。  "
+        },
+        {
+          "line": 400,
+          "text": "例: The ticket machine is temporarily out of service.  "
+        },
+        {
+          "line": 401,
+          "text": "訳: その券売機は一時的に使用できない。  "
+        },
+        {
+          "line": 403,
+          "text": "【反意語】"
+        },
+        {
+          "line": 405,
+          "text": "・in service  "
+        },
+        {
+          "line": 406,
+          "text": "定義: 機械、車両、船舶などが使用・運行されている状態にある。  "
+        },
+        {
+          "line": 407,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 408,
+          "text": "違い: out of commission と使用可能性・稼働状態の軸で反対方向にある。in service は正式な軍事上の就役に限らず、公共交通や設備にも広く使う。  "
+        },
+        {
+          "line": 409,
+          "text": "例: All trains were back in service by noon.  "
+        },
+        {
+          "line": 410,
+          "text": "訳: 正午までにすべての列車が運行を再開した。  "
+        }
+      ]
+    },
+    {
+      "sense_id": "sense:010",
+      "full_sense": [
+        {
+          "line": 519,
+          "text": "10. 【他動詞】船舶・設備などを就役・稼働させる"
+        },
+        {
+          "line": 521,
+          "text": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+        },
+        {
+          "line": 523,
+          "text": "【頻度】〈5/10〉  "
+        },
+        {
+          "line": 525,
+          "text": "【レジスター/領域】海事、軍事、工学、建設、エネルギー。  "
+        },
+        {
+          "line": 527,
+          "text": "【文法パターン】commission 〈ship/system/equipment〉＝船・設備・システムを正式に就役・稼働させる／〈ship/system〉 be commissioned＝船・システムが就役・稼働する／commission 〈facility〉 into service＝施設を運用開始する  "
+        },
+        {
+          "line": 529,
+          "text": "【コロケーション】"
+        },
+        {
+          "line": 531,
+          "text": "・commission a new ship  "
+        },
+        {
+          "line": 532,
+          "text": "用途: 新造船を正式に就役させる。  "
+        },
+        {
+          "line": 533,
+          "text": "例: The navy commissioned the new vessel in a ceremony at the port.  "
+        },
+        {
+          "line": 534,
+          "text": "訳: 海軍は港での式典でその新造船を就役させた。  "
+        },
+        {
+          "line": 536,
+          "text": "・commission a system  "
+        },
+        {
+          "line": 537,
+          "text": "用途: システムを試験・調整し、正式な運用を開始する。  "
+        },
+        {
+          "line": 538,
+          "text": "例: Engineers will commission the new control system before the plant reopens.  "
+        },
+        {
+          "line": 539,
+          "text": "訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。  "
+        },
+        {
+          "line": 541,
+          "text": "・be commissioned into service  "
+        },
+        {
+          "line": 542,
+          "text": "用途: 船舶・設備などが正式に運用開始となる。  "
+        },
+        {
+          "line": 543,
+          "text": "例: The hospital's backup generator was commissioned into service last week.  "
+        },
+        {
+          "line": 544,
+          "text": "訳: その病院の非常用発電機は先週、正式に運用開始となった。  "
+        },
+        {
+          "line": 546,
+          "text": "・commissioning tests  "
+        },
+        {
+          "line": 547,
+          "text": "用途: 設備を本運用へ移す前に性能・安全性を確認する試験を表す。  "
+        },
+        {
+          "line": 548,
+          "text": "例: The turbine passed all commissioning tests before commercial operation began.  "
+        },
+        {
+          "line": 549,
+          "text": "訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。  "
+        },
+        {
+          "line": 551,
+          "text": "【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。decommission は運用から外すことで、必ずしも直ちに解体することを意味しない。  "
+        },
+        {
+          "line": 553,
+          "text": "【類義語】"
+        },
+        {
+          "line": 555,
+          "text": "・activate  "
+        },
+        {
+          "line": 556,
+          "text": "定義: 装置・機能を作動状態にする。  "
+        },
+        {
+          "line": 557,
+          "text": "頻度: 〈7/10〉  "
+        },
+        {
+          "line": 558,
+          "text": "違い: activate は一回の作動操作にも使う。commission は試験・承認・引渡しを含む正式な運用開始工程に焦点がある。  "
+        },
+        {
+          "line": 559,
+          "text": "例: The technician activated the emergency system.  "
+        },
+        {
+          "line": 560,
+          "text": "訳: 技術者は緊急システムを作動させた。  "
+        },
+        {
+          "line": 562,
+          "text": "・launch  "
+        },
+        {
+          "line": 563,
+          "text": "定義: 製品、サービス、計画などを公に開始する。  "
+        },
+        {
+          "line": 564,
+          "text": "頻度: 〈8/10〉  "
+        },
+        {
+          "line": 565,
+          "text": "違い: launch は市場投入・公開開始に広く使う。commission は物理的設備や船舶を運用可能な状態へ移す技術的・公式な過程を表す。  "
+        },
+        {
+          "line": 566,
+          "text": "例: The company launched the service nationwide.  "
+        },
+        {
+          "line": 567,
+          "text": "訳: その会社は全国でそのサービスを開始した。  "
+        },
+        {
+          "line": 569,
+          "text": "【反意語】"
+        },
+        {
+          "line": 571,
+          "text": "・decommission  "
+        },
+        {
+          "line": 572,
+          "text": "定義: 船舶、設備、施設などを正式に運用から外す。  "
+        },
+        {
+          "line": 573,
+          "text": "頻度: 〈5/10〉  "
+        },
+        {
+          "line": 574,
+          "text": "違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  "
+        },
+        {
+          "line": 575,
+          "text": "例: The operator plans to decommission the old reactor by 2030.  "
+        },
+        {
+          "line": 576,
+          "text": "訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。  "
+        }
+      ]
+    }
+  ]
+}

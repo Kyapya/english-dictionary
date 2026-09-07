@@ -1,0 +1,23 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "blind_request_sha256": "e4cc7ad61c96863af082f458304d404d586d0add117cfa4ab03a313b5d3346ee",
+  "recorded_at": "2026-09-07T05:54:38-05:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "same_model_as_generation": true,
+    "agent_id": "commission-frame-agent",
+    "same_model_as_generation": true
+  },
+  "axes": [
+    {
+      "item_id": "ant-3ef7c9eefc08",
+      "axis": "運用移行",
+      "relation_type": "方向",
+      "reason": "commission は設備等を検証して運用可能な側へ移す方向、decommission は運用から外す方向を表す。"
+    }
+  ]
+}

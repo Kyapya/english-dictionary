@@ -1,0 +1,2463 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-commission-20260907T100725Z-307ceedc",
+  "context_id": "blind-commission-context-20260907T100725Z-307ceedc",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "prompt_sha256": "af6ad4a77bbe63f6ace93a9080d138fa63efc2d40b6490cdd3bc70756783102a",
+  "recorded_at": "2026-09-07T11:37:59Z",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "188bae4c7f3bd8fd58de627d7bfb2801bcaeb8d520f1c0605b9c658f17d2d0d6",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-final-review-agent"
+  },
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "pronunciation対象の原文引用「米・英: /kəˈmɪʃən/。3音節で第2音節に主強勢があり、第1音節の母音は弱い /ə/ になる。語末の -sion は /ʃən/ と発音し、commissioned は /kəˈmɪʃənd/、commissioning は /kəˈmɪʃənɪŋ/ となる。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、pronunciation:001をpassとする。"
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "etymology対象の原文引用「中英語 commissioun が古フランス語 commission を経てラテン語 commissio「委ねること、委任」にさかのぼる。これは committere「結び付ける、委ねる」の過去分詞語幹に由来し、com-「共に」と mittere「送る」から成る。「権限や仕事を人に委ねる」という核から、委員会、正式な依頼、軍の任官、取引を委ねた相手への手数料などの意味が発達した。同語源の主要語に commit「委ねる、犯す」、commitment「委任、約束・責任」、commissioner「委員、長官」がある。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、etymology:001をpassとする。"
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "word_formation対象の原文引用「・commissioner（名詞）— 委員、行政機関などの長官・責任者。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、word_formation:001をpassとする。"
+    },
+    {
+      "id": "word_formation:002",
+      "target_id": "word_formation:002",
+      "status": "pass",
+      "notes": "word_formation対象の原文引用「・commissioned（形容詞・過去分詞）— 正式に依頼された、士官に任官した、または船舶・設備が正式に就役・運用可能となった。commissioned officer は「士官」。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、word_formation:002をpassとする。"
+    },
+    {
+      "id": "word_formation:003",
+      "target_id": "word_formation:003",
+      "status": "pass",
+      "notes": "word_formation対象の原文引用「・commissioning（名詞・動名詞）— 発注・任命、または設備を試験して運用可能にする工程。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、word_formation:003をpassとする。"
+    },
+    {
+      "id": "word_formation:004",
+      "target_id": "word_formation:004",
+      "status": "pass",
+      "notes": "word_formation対象の原文引用「・decommission（動詞）— 船舶、設備、原子力施設などを運用から外す。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、word_formation:004をpassとする。"
+    },
+    {
+      "id": "word_formation:005",
+      "target_id": "word_formation:005",
+      "status": "pass",
+      "notes": "word_formation対象の原文引用「・recommission（動詞）— 運用を停止していた船舶・設備などを再び就役・稼働させる。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、word_formation:005をpassとする。"
+    },
+    {
+      "id": "word_formation:006",
+      "target_id": "word_formation:006",
+      "status": "pass",
+      "notes": "word_formation対象の原文引用「・commission-free（形容詞）— 売買手数料のかからない。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、word_formation:006をpassとする。"
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:001をpassとする。"
+    },
+    {
+      "id": "core_image:002",
+      "target_id": "core_image:002",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:002をpassとする。"
+    },
+    {
+      "id": "core_image:003",
+      "target_id": "core_image:003",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:003をpassとする。"
+    },
+    {
+      "id": "core_image:004",
+      "target_id": "core_image:004",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・人へ任務とそれを行う権限を正式に委ねること → 「委任、任務、権限」（語義3）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:004をpassとする。"
+    },
+    {
+      "id": "core_image:005",
+      "target_id": "core_image:005",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・作品・専門成果物の制作を専門家へ正式に委ねること → 「正式な依頼、発注、依頼作品」（語義4）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:005をpassとする。"
+    },
+    {
+      "id": "core_image:006",
+      "target_id": "core_image:006",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・軍務上の権限を将校へ正式に委ねること → 「士官任命、士官の地位・権限」（語義6）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:006をpassとする。"
+    },
+    {
+      "id": "core_image:007",
+      "target_id": "core_image:007",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・船舶や設備へ正式な役目を与えること → in commission「就役・稼働中」。その否定から out of commission「使用不能」、さらに人の「活動不能」へ比喩的に広がる（語義7）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:007をpassとする。"
+    },
+    {
+      "id": "core_image:008",
+      "target_id": "core_image:008",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・制作や調査を人へ正式に委ねること → 「～を正式に依頼する、発注する」（語義8）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:008をpassとする。"
+    },
+    {
+      "id": "core_image:009",
+      "target_id": "core_image:009",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・軍務上の権限を人へ正式に委ねること → 「～を士官に任命する」（語義9）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:009をpassとする。"
+    },
+    {
+      "id": "core_image:010",
+      "target_id": "core_image:010",
+      "status": "pass",
+      "notes": "core_image対象の原文引用「・船舶を正式な任務へ就けること、設備の運用準備を検証すること → 「船舶を就役させる／設備の運用可能性を検証する」（語義10）」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、core_image:010をpassとする。"
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「1. 【可算名詞】委員会、調査委員会、行政委員会」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:001をpassとする。"
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "definition対象の原文引用「政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:001をpassとする。"
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈8/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:001をpassとする。"
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "register対象の原文引用「公的・行政・報道。一般の committee よりも、公的権限や特定任務を持つ組織を指しやすい。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:001をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission on 〈問題・政策分野〉＝～に関する委員会」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:001をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission to investigate 〈問題〉＝～を調査するための委員会」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:002をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "target_id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission of inquiry into 〈事件・問題〉＝～についての調査委員会」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:003をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "target_id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「the 〈固有名〉 Commission＝名称を持つ行政・規制機関」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:004をpassとする。"
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・set up a commission to investigate 〈問題〉\n用途: 特定問題を調査する正式な委員会を設置する。\n例: The government set up an independent commission to investigate the disaster.\n訳: 政府はその災害を調査する独立委員会を設置した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:001をpassとする。"
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・an independent commission on 〈問題〉\n用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。\n例: An independent commission on election reform will publish its recommendations next month.\n訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:002をpassとする。"
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・a commission of inquiry into 〈事件・問題〉\n用途: 重大な事件や制度上の問題を正式に調べる委員会を表す。\n例: Parliament called for a commission of inquiry into the security failures.\n訳: 議会はその安全保障上の失敗について調査委員会を設けるよう求めた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:003をpassとする。"
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・serve on a commission\n用途: 委員会の委員として職務を果たす。\n例: She served on the national commission on child welfare for six years.\n訳: 彼女は6年間、児童福祉に関する国家委員会の委員を務めた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:004をpassとする。"
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・the commission's report\n用途: 委員会が調査・審議を経てまとめた報告書を示す。\n例: The commission's report identified serious gaps in oversight.\n訳: 委員会の報告書は監督体制の重大な不備を指摘した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:005をpassとする。"
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「committee は企業・学校・団体内の小委員会にも広く使うのに対し、commission は公的機関または特定の公的任務を与えられた組織に多い。ただし European Commission のように、単なる調査委員会ではなく恒常的な執行機関を指す固有名もある。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:001をpassとする。"
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・committee\n定義: 特定事項を検討・運営するために選ばれた比較的小規模な集団。\n頻度: 〈9/10〉\n違い: committee は組織内部の会議体にも広く使う。commission は公的権限または独立した調査・規制任務を伴いやすい。\n例: The finance committee approved the revised budget.\n訳: 財務委員会は修正予算を承認した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:001をpassとする。"
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・panel\n定義: 特定問題を検討したり意見を述べたりする専門家などの集団。\n頻度: 〈7/10〉\n違い: panel は一時的な審査・討論集団にも使い、commission ほど公的権限を含意しない。\n例: A panel of experts reviewed the safety data.\n訳: 専門家委員会が安全性データを検討した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:002をpassとする。"
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・board\n定義: 組織の運営・監督・意思決定を担う正式な会議体。\n頻度: 〈8/10〉\n違い: board は企業や団体の継続的な経営・監督に焦点がある。commission は特定分野の公的調査・規制任務に焦点を置きやすい。\n例: The board appointed a new chief executive.\n訳: 取締役会は新しい最高経営責任者を任命した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:003をpassとする。"
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:002をpassとする。"
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "definition対象の原文引用「商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:002をpassとする。"
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈8/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:002をpassとする。"
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "register対象の原文引用「ビジネス、営業、雇用、金融、銀行、証券、商取引。日常の一般的なサービス料金には fee の方が広く使われる。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:002をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "target_id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「earn/get/receive commission on 〈sales/transaction〉＝売上・取引について歩合を得る」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:005をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "target_id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「pay someone a commission＝人に歩合・手数料を払う」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:006をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "target_id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「charge a commission on/for 〈transaction/service〉＝取引・サービスについて手数料を請求する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:007をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "target_id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission of 〈金額・割合〉＝～の手数料」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:008をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "target_id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「work/be paid on commission＝歩合制で働く・報酬を受ける」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:009をpassとする。"
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・earn commission on 〈sales〉\n用途: 販売実績に応じて歩合報酬を得る。\n例: Agents earn commission on every policy they sell.\n訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:006をpassとする。"
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・pay someone a commission\n用途: 売買や契約を成立させた人に成果連動の報酬を支払う。\n例: The gallery pays its representatives a commission for each painting sold.\n訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:007をpassとする。"
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・a ten percent commission\n用途: 売上額などに対する歩合率を示す。\n例: She receives a ten percent commission on all new contracts.\n訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:008をpassとする。"
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・work on commission\n用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。\n例: Most sales staff receive a base salary and work partly on commission.\n訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:009をpassとする。"
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・charge a commission on 〈transaction〉\n用途: 金融機関や仲介業者が個別取引に手数料を課す。\n例: The broker charges a small commission on each trade.\n訳: その証券会社は取引ごとに少額の手数料を請求する。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:010をpassとする。"
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「earn $2,000 in commission の in commission は得た歩合の総額を表し、work on commission の on commission は報酬方式を表す。charge/pay a commission では同じ金銭を、業者側は報酬、顧客側は費用として捉えることがある。commission は bonus と異なり通常は個々の売上・取引に結び付き、fee より仲介・売買との関連が強い。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:002をpassとする。"
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・bonus\n定義: 通常の給与などに加えて支払われる追加報酬。\n頻度: 〈8/10〉\n違い: bonus は会社業績、個人評価、季節など多様な基準で支払われる。commission は特定の売上・取引成果に直接連動する。\n例: Employees received an annual bonus after the company exceeded its targets.\n訳: 会社が目標を上回った後、従業員は年次賞与を受け取った。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:004をpassとする。"
+    },
+    {
+      "id": "synonym:005",
+      "target_id": "synonym:005",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・fee\n定義: 専門的サービスや手続きに対して支払う料金。\n頻度: 〈9/10〉\n違い: fee はサービス自体の対価として定額の場合も多い。commission は代理・販売成果に応じて受取人へ支払う報酬を指しやすい。\n例: The lawyer charged a fixed fee for the consultation.\n訳: その弁護士は相談について定額料金を請求した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:005をpassとする。"
+    },
+    {
+      "id": "synonym:006",
+      "target_id": "synonym:006",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・royalty\n定義: 著作物、特許、資源などの利用・販売に応じて権利者へ支払われる使用料。\n頻度: 〈6/10〉\n違い: royalty は権利の利用対価であり、販売仲介の報酬である commission とは受取理由が異なる。\n例: The author receives a royalty on every copy sold.\n訳: 著者は販売された一冊ごとに印税を受け取る。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:006をpassとする。"
+    },
+    {
+      "id": "sense_boundary:003",
+      "target_id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「3. 【可算名詞・形式的】委任された任務・権限」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:003をpassとする。"
+    },
+    {
+      "id": "definition:003",
+      "target_id": "definition:003",
+      "status": "pass",
+      "notes": "definition対象の原文引用「外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:003をpassとする。"
+    },
+    {
+      "id": "frequency:003",
+      "target_id": "frequency:003",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈3/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:003をpassとする。"
+    },
+    {
+      "id": "register:003",
+      "target_id": "register:003",
+      "status": "pass",
+      "notes": "register対象の原文引用「形式的、歴史的、外交・行政・代理・文学。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:003をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "target_id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission to do 〈任務〉＝～するよう委ねられた任務」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:010をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:011",
+      "target_id": "grammar_pattern:011",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「receive/accept a commission to do 〈任務〉＝～する任務を受ける」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:011をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:012",
+      "target_id": "grammar_pattern:012",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「carry out/execute one's commission＝委ねられた任務を遂行する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:012をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:013",
+      "target_id": "grammar_pattern:013",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「within/beyond one's commission＝委任された権限の範囲内」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:013をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:014",
+      "target_id": "grammar_pattern:014",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「範囲外で」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:014をpassとする。"
+    },
+    {
+      "id": "collocation:011",
+      "target_id": "collocation:011",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・receive a commission to do 〈任務〉\n用途: 特定の任務を行うよう正式な指示と権限を受ける。\n例: The envoy received a commission to negotiate a temporary settlement.\n訳: その特使は暫定的な合意を交渉する任務を与えられた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:011をpassとする。"
+    },
+    {
+      "id": "collocation:012",
+      "target_id": "collocation:012",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・accept a commission\n用途: 委ねられた正式な任務を引き受ける。\n例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks.\n訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:012をpassとする。"
+    },
+    {
+      "id": "collocation:013",
+      "target_id": "collocation:013",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・carry out one's commission\n用途: 委ねられた任務を実行する。\n例: The delegates returned after carrying out their commission.\n訳: 代表団は委ねられた任務を果たして帰還した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:013をpassとする。"
+    },
+    {
+      "id": "collocation:014",
+      "target_id": "collocation:014",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・beyond one's commission\n用途: 委任された権限の範囲を超えていることを表す。\n例: The agent acted beyond his commission when he signed the agreement.\n訳: その代理人は合意書に署名した際、委任された権限を越えて行動した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:014をpassとする。"
+    },
+    {
+      "id": "usage_note:003",
+      "target_id": "usage_note:003",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「この語義は現代の日常語では assignment、mission、authority などに言い換えることが多い。語義4は依頼主が有償で作品・専門成果物を作らせる「発注」を表し、語義3は受任者に委ねられた任務と行動権限を表す。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:003をpassとする。"
+    },
+    {
+      "id": "synonym:007",
+      "target_id": "synonym:007",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・mandate\n定義: 人や組織に正式に与えられた任務・権限。\n頻度: 〈6/10〉\n違い: mandate は公的・政治的な権限の根拠や範囲を強く示す。commission は個人に委ねられた具体的任務を指す古風な用法にも使う。\n例: The committee acted within its legal mandate.\n訳: その委員会は法的権限の範囲内で行動した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:007をpassとする。"
+    },
+    {
+      "id": "synonym:008",
+      "target_id": "synonym:008",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・assignment\n定義: 人に割り当てられた仕事・課題。\n頻度: 〈8/10〉\n違い: assignment は日常的な業務配分にも広く使う。commission は正式な委任と権限を含意しやすく、この語義ではより文語的である。\n例: The diplomat's first assignment was to observe the talks.\n訳: その外交官の最初の任務は会談を監視することだった。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:008をpassとする。"
+    },
+    {
+      "id": "sense_boundary:004",
+      "target_id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「4. 【可算名詞】正式な依頼、発注、依頼作品」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:004をpassとする。"
+    },
+    {
+      "id": "definition:004",
+      "target_id": "definition:004",
+      "status": "pass",
+      "notes": "definition対象の原文引用「芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:004をpassとする。"
+    },
+    {
+      "id": "frequency:004",
+      "target_id": "frequency:004",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈7/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:004をpassとする。"
+    },
+    {
+      "id": "register:004",
+      "target_id": "register:004",
+      "status": "pass",
+      "notes": "register対象の原文引用「芸術、出版、建築、調査、専門業務。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:004をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:015",
+      "target_id": "grammar_pattern:015",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission to do 〈仕事〉＝～する正式な依頼」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:015をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:016",
+      "target_id": "grammar_pattern:016",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission for 〈作品・仕事〉＝～の発注・依頼」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:016をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:017",
+      "target_id": "grammar_pattern:017",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「a commission from 〈依頼主〉＝～からの依頼」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:017をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:018",
+      "target_id": "grammar_pattern:018",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「accept/take/receive a commission＝依頼を引き受ける・受ける」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:018をpassとする。"
+    },
+    {
+      "id": "collocation:015",
+      "target_id": "collocation:015",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・receive a commission to do 〈仕事〉\n用途: 特定の制作・設計・調査を行う正式な依頼を受ける。\n例: The architect received a commission to design the new library.\n訳: その建築家は新しい図書館を設計する依頼を受けた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:015をpassとする。"
+    },
+    {
+      "id": "collocation:016",
+      "target_id": "collocation:016",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・accept a commission for 〈作品〉\n用途: 特定の作品を制作する依頼を引き受ける。\n例: The artist accepted a private commission for a family portrait.\n訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:016をpassとする。"
+    },
+    {
+      "id": "collocation:017",
+      "target_id": "collocation:017",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・take commissions for 〈作品〉\n用途: 依頼に応じて特定種類の作品を制作すると述べる。\n例: She takes commissions for custom illustrations through her website.\n訳: 彼女はウェブサイトを通じて特注イラストの制作依頼を受けている。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:017をpassとする。"
+    },
+    {
+      "id": "collocation:018",
+      "target_id": "collocation:018",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・a commission from 〈依頼主〉\n用途: 仕事や作品の依頼元を示す。\n例: The composer completed a commission from the city orchestra.\n訳: その作曲家は市のオーケストラから依頼された作品を完成させた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:018をpassとする。"
+    },
+    {
+      "id": "usage_note:004",
+      "target_id": "usage_note:004",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「a commission to design は依頼された仕事をto不定詞で示し、a commission from the museum は依頼主を from で示す。語義2の on commission は報酬方式であり、take commissions for portraits の commissions は制作依頼である。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:004をpassとする。"
+    },
+    {
+      "id": "synonym:009",
+      "target_id": "synonym:009",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・assignment\n定義: 人に割り当てられた仕事・課題。\n頻度: 〈8/10〉\n違い: assignment は雇用・教育などでの業務配分にも広く使う。commission は外部の専門家や制作者への正式な依頼と対価を含意しやすい。\n例: The journalist completed an overseas assignment.\n訳: その記者は海外取材の任務を終えた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:009をpassとする。"
+    },
+    {
+      "id": "synonym:010",
+      "target_id": "synonym:010",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・order\n定義: 商品や制作物を提供・作成してもらう注文。\n頻度: 〈9/10〉\n違い: order は既製品の購入にも使う。commission は依頼主のために新たに制作・実施する個別の仕事に焦点がある。\n例: The workshop received an order for twenty chairs.\n訳: その工房は椅子20脚の注文を受けた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:010をpassとする。"
+    },
+    {
+      "id": "synonym:011",
+      "target_id": "synonym:011",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・contract\n定義: 仕事や提供条件について法的拘束力を持つ合意。\n頻度: 〈8/10〉\n違い: contract は当事者間の法的合意を指す。commission は依頼や依頼作品を指し、必ずしも契約文書そのものではない。\n例: The firm won a contract to build the bridge.\n訳: その会社は橋を建設する契約を獲得した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:011をpassとする。"
+    },
+    {
+      "id": "sense_boundary:005",
+      "target_id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「5. 【不可算名詞・形式的】犯罪・不正行為を行うこと」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:005をpassとする。"
+    },
+    {
+      "id": "definition:005",
+      "target_id": "definition:005",
+      "status": "pass",
+      "notes": "definition対象の原文引用「犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:005をpassとする。"
+    },
+    {
+      "id": "frequency:005",
+      "target_id": "frequency:005",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈5/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:005をpassとする。"
+    },
+    {
+      "id": "register:005",
+      "target_id": "register:005",
+      "status": "pass",
+      "notes": "register対象の原文引用「法律、報道、公的文書。日常会話では committing a crime や carrying out the act の方が普通。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:005をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:019",
+      "target_id": "grammar_pattern:019",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「the commission of a crime/an offence＝犯罪・違反を行うこと」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:019をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:020",
+      "target_id": "grammar_pattern:020",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「during/in the commission of 〈crime〉＝犯罪の実行中に」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:020をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:021",
+      "target_id": "grammar_pattern:021",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「aid someone in the commission of 〈offence〉＝人が違反を行うのを助ける」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:021をpassとする。"
+    },
+    {
+      "id": "collocation:019",
+      "target_id": "collocation:019",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・the commission of a crime\n用途: 犯罪を実行する行為を法律的・形式的に表す。\n例: The evidence linked the weapon to the commission of the crime.\n訳: その証拠により、凶器とその犯罪の実行が結び付けられた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:019をpassとする。"
+    },
+    {
+      "id": "collocation:020",
+      "target_id": "collocation:020",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・during the commission of 〈crime〉\n用途: 犯罪行為を実行している最中であることを示す。\n例: No one was injured during the commission of the robbery.\n訳: その強盗の実行中にけが人は出なかった。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:020をpassとする。"
+    },
+    {
+      "id": "collocation:021",
+      "target_id": "collocation:021",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・aid someone in the commission of 〈offence〉\n用途: 他者が違反・犯罪を行うのを助けることを形式的に表す。\n例: He was accused of aiding others in the commission of the offence.\n訳: 彼は他者によるその違反の実行を助けたとして告発された。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:021をpassとする。"
+    },
+    {
+      "id": "usage_note:005",
+      "target_id": "usage_note:005",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。通常は単独で自由に使わず、the commission of の後ろに犯罪・違反・不正行為を置く。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:005をpassとする。"
+    },
+    {
+      "id": "synonym:012",
+      "target_id": "synonym:012",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・perpetration\n定義: 犯罪や有害な行為を実行すること。\n頻度: 〈4/10〉\n違い: perpetration は行為の悪質性と実行者性を強く示す。commission は法律文書で行為の発生・実行を中立的に名詞化する。\n例: Investigators found evidence of the deliberate perpetration of fraud.\n訳: 捜査当局は故意による詐欺の実行を示す証拠を発見した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:012をpassとする。"
+    },
+    {
+      "id": "sense_boundary:006",
+      "target_id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「6. 【可算名詞・軍事】士官任命、士官の地位・権限」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:006をpassとする。"
+    },
+    {
+      "id": "definition:006",
+      "target_id": "definition:006",
+      "status": "pass",
+      "notes": "definition対象の原文引用「軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:006をpassとする。"
+    },
+    {
+      "id": "frequency:006",
+      "target_id": "frequency:006",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈4/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:006をpassとする。"
+    },
+    {
+      "id": "register:006",
+      "target_id": "register:006",
+      "status": "pass",
+      "notes": "register対象の原文引用「軍事、公式。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:006をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:022",
+      "target_id": "grammar_pattern:022",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「receive/obtain a commission＝士官に任官する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:022をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:023",
+      "target_id": "grammar_pattern:023",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「hold a commission in 〈軍種〉＝～軍で士官の地位にある」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:023をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:024",
+      "target_id": "grammar_pattern:024",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「resign one's commission＝士官の地位を辞する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:024をpassとする。"
+    },
+    {
+      "id": "collocation:022",
+      "target_id": "collocation:022",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・receive a commission as 〈officer rank〉\n用途: 特定階級の士官として正式に任官する。\n例: After completing the academy, she received a commission as a second lieutenant.\n訳: 士官学校を修了後、彼女は少尉に任官した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:022をpassとする。"
+    },
+    {
+      "id": "collocation:023",
+      "target_id": "collocation:023",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・hold a commission in 〈armed service〉\n用途: 特定の軍種で士官の地位と権限を持つ。\n例: He held a commission in the Royal Navy for twelve years.\n訳: 彼は12年間、英国海軍で士官の地位にあった。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:023をpassとする。"
+    },
+    {
+      "id": "collocation:024",
+      "target_id": "collocation:024",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・resign one's commission\n用途: 士官としての地位・任命を正式に辞する。\n例: The officer resigned her commission and left the service.\n訳: その士官は任官を辞し、軍を去った。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:024をpassとする。"
+    },
+    {
+      "id": "usage_note:006",
+      "target_id": "usage_note:006",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「commissioned officer は正式な辞令によって任官した士官を指し、non-commissioned officer は下士官を指す。non-commissioned officer を「任務を与えられていない士官」と解釈してはいけない。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:006をpassとする。"
+    },
+    {
+      "id": "synonym:013",
+      "target_id": "synonym:013",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・appointment\n定義: 役職へ正式に就けること、またはその役職。\n頻度: 〈7/10〉\n違い: appointment は民間・行政を含む広い任命語である。commission は軍事では士官としての階級・権限を授ける任官に限定される。\n例: Her appointment as ambassador was confirmed by the senate.\n訳: 彼女の大使任命は上院で承認された。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:013をpassとする。"
+    },
+    {
+      "id": "sense_boundary:007",
+      "target_id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:007をpassとする。"
+    },
+    {
+      "id": "definition:007",
+      "target_id": "definition:007",
+      "status": "pass",
+      "notes": "definition対象の原文引用「in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:007をpassとする。"
+    },
+    {
+      "id": "frequency:007",
+      "target_id": "frequency:007",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈6/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:007をpassとする。"
+    },
+    {
+      "id": "register:007",
+      "target_id": "register:007",
+      "status": "pass",
+      "notes": "register対象の原文引用「一般語・海事・軍事。out of commission は機械や人について日常的な比喩にも使う。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:007をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:025",
+      "target_id": "grammar_pattern:025",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「be in commission＝就役・稼働している」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:025をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:026",
+      "target_id": "grammar_pattern:026",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「be out of commission＝使用・活動できない」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:026をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:027",
+      "target_id": "grammar_pattern:027",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「put 〈ship/equipment〉 into commission＝船・設備を就役・稼働させる」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:027をpassとする。"
+    },
+    {
+      "id": "collocation:025",
+      "target_id": "collocation:025",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・be in commission\n用途: 船舶や設備が正式な任務または使用に就いている状態を表す。\n例: The research vessel remained in commission for more than thirty years.\n訳: その調査船は30年を超えて就役していた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:025をpassとする。"
+    },
+    {
+      "id": "collocation:026",
+      "target_id": "collocation:026",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・be out of commission\n用途: 機械・設備が故障や整備で使用できない状態を表す。\n例: Two elevators are out of commission while repairs are carried out.\n訳: 修理が行われている間、エレベーター2基は使用できない。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:026をpassとする。"
+    },
+    {
+      "id": "collocation:027",
+      "target_id": "collocation:027",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・put someone out of commission\n用途: けがや病気などで人を一時的に活動できない状態にする。\n例: A shoulder injury put him out of commission for the rest of the season.\n訳: 肩のけがにより、彼はシーズン残りを出場できなくなった。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:027をpassとする。"
+    },
+    {
+      "id": "collocation:028",
+      "target_id": "collocation:028",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・put 〈ship/equipment〉 into commission\n用途: 船舶や設備を正式に就役・稼働状態へ移す。\n例: The navy plans to put the new patrol ship into commission next spring.\n訳: 海軍は来春、新しい巡視船を就役させる予定だ。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:028をpassとする。"
+    },
+    {
+      "id": "usage_note:007",
+      "target_id": "usage_note:007",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「out of commission は必ずしも永久的な廃棄を意味せず、一時的な故障・負傷にも使う。船舶の正式な就役・退役を述べる場合は海事・軍事上の意味になり、一般の機械については「使用可能／不能」という比喩的拡張である。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:007をpassとする。"
+    },
+    {
+      "id": "synonym:014",
+      "target_id": "synonym:014",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・operational\n定義: 機械・設備・組織などが作動・運用できる状態にある。\n頻度: 〈7/10〉\n違い: in commission と同じく使用可能な側を表すが、operational は正式な就役の有無を問わず機能している状態を直接述べる。\n例: The emergency communications system is fully operational.\n訳: 緊急通信システムは完全に稼働している。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:014をpassとする。"
+    },
+    {
+      "id": "synonym:015",
+      "target_id": "synonym:015",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・out of service\n定義: 機械・設備・交通手段などが使用・運行できない状態にある。\n頻度: 〈7/10〉\n違い: out of commission の使用不能側に近い。out of service は設備・交通手段に広く使い、out of commission は人の一時的な活動不能にも比喩的に使える。\n例: The ticket machine is temporarily out of service.\n訳: その券売機は一時的に使用できない。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:015をpassとする。"
+    },
+    {
+      "id": "sense_boundary:008",
+      "target_id": "sense_boundary:008",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「8. 【他動詞】～を正式に依頼する、発注する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:008をpassとする。"
+    },
+    {
+      "id": "definition:008",
+      "target_id": "definition:008",
+      "status": "pass",
+      "notes": "definition対象の原文引用「人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:008をpassとする。"
+    },
+    {
+      "id": "frequency:008",
+      "target_id": "frequency:008",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈7/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:008をpassとする。"
+    },
+    {
+      "id": "register:008",
+      "target_id": "register:008",
+      "status": "pass",
+      "notes": "register対象の原文引用「一般語だがやや公式。芸術、出版、放送、建築、調査、行政、ビジネス。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:008をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:028",
+      "target_id": "grammar_pattern:028",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「commission someone to do 〈仕事〉＝人に～するよう正式に依頼する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:028をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:029",
+      "target_id": "grammar_pattern:029",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「commission 〈work/report/study〉＝作品・報告・調査を発注する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:029をpassとする。"
+    },
+    {
+      "id": "collocation:029",
+      "target_id": "collocation:029",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・commission someone to do 〈仕事〉\n用途: 特定の人・組織に仕事を実施するよう正式に依頼する。\n例: The museum commissioned a local artist to create a sculpture for the entrance.\n訳: 美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:029をpassとする。"
+    },
+    {
+      "id": "collocation:030",
+      "target_id": "collocation:030",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・commission a report/study\n用途: 判断材料となる報告書や調査を専門家に作成させる。\n例: The board commissioned an independent study of the project's environmental impact.\n訳: 取締役会はその事業の環境影響について独立調査を依頼した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:030をpassとする。"
+    },
+    {
+      "id": "collocation:031",
+      "target_id": "collocation:031",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・commission 〈work〉 from someone\n用途: 成果物を目的語にし、その制作者を from で示す。\n例: The orchestra commissioned a new symphony from the composer.\n訳: そのオーケストラは作曲家に新しい交響曲を依頼した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:031をpassとする。"
+    },
+    {
+      "id": "collocation:032",
+      "target_id": "collocation:032",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・be commissioned by 〈依頼主〉\n用途: 作品・調査などを依頼した主体を受動形で示す。\n例: The survey was commissioned by the city council.\n訳: その調査は市議会の依頼で実施された。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:032をpassとする。"
+    },
+    {
+      "id": "collocation:033",
+      "target_id": "collocation:033",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・specially commissioned for 〈目的・機会〉\n用途: 特定の目的や行事のために特別に依頼制作されたことを示す。\n例: The exhibition features a film specially commissioned for the anniversary.\n訳: その展覧会では記念日のために特別制作された映画を上映している。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:033をpassとする。"
+    },
+    {
+      "id": "usage_note:008",
+      "target_id": "usage_note:008",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。commission someone for a job は文脈によって不自然になりやすく、正式な制作依頼なら commission someone to do the work とする。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:008をpassとする。"
+    },
+    {
+      "id": "synonym:016",
+      "target_id": "synonym:016",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・hire\n定義: 報酬を払って人を雇い、仕事をしてもらう。\n頻度: 〈9/10〉\n違い: hire は雇用またはサービス提供者の選定に焦点がある。commission は特定の成果物・調査・創作物を正式に依頼することに焦点がある。\n例: We hired an engineer to inspect the building.\n訳: 私たちは建物を点検するため技師を雇った。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:016をpassとする。"
+    },
+    {
+      "id": "synonym:017",
+      "target_id": "synonym:017",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・authorize\n定義: 人や行為に正式な権限・許可を与える。\n頻度: 〈7/10〉\n違い: authorize は実行を許可することであり、仕事の成果を依頼するとは限らない。commission は依頼主が特定の仕事を行わせる。\n例: The director authorized the payment.\n訳: 取締役はその支払いを承認した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:017をpassとする。"
+    },
+    {
+      "id": "synonym:018",
+      "target_id": "synonym:018",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・assign\n定義: 組織内などで仕事・責任を人に割り当てる。\n頻度: 〈8/10〉\n違い: assign は既存の役割関係の中で業務を配分する場合に広い。commission は独立した専門家への正式な発注にも使う。\n例: The editor assigned the story to an experienced reporter.\n訳: 編集者はその記事を経験豊富な記者に割り当てた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:018をpassとする。"
+    },
+    {
+      "id": "synonym:019",
+      "target_id": "synonym:019",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・order\n定義: 品物を注文する、または何かを作るよう求める。\n頻度: 〈9/10〉\n違い: order は既製品にも使い、命令の意味もある。commission は個別の創作・調査・専門業務を正式に取り決める。\n例: They ordered replacement parts from the manufacturer.\n訳: 彼らは製造元に交換部品を注文した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:019をpassとする。"
+    },
+    {
+      "id": "sense_boundary:009",
+      "target_id": "sense_boundary:009",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「9. 【他動詞・通常受動・軍事】～を士官に任命する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:009をpassとする。"
+    },
+    {
+      "id": "definition:009",
+      "target_id": "definition:009",
+      "status": "pass",
+      "notes": "definition対象の原文引用「軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:009をpassとする。"
+    },
+    {
+      "id": "frequency:009",
+      "target_id": "frequency:009",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈4/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:009をpassとする。"
+    },
+    {
+      "id": "register:009",
+      "target_id": "register:009",
+      "status": "pass",
+      "notes": "register対象の原文引用「軍事、公式。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:009をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:030",
+      "target_id": "grammar_pattern:030",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「commission someone as 〈officer rank〉＝人を～の階級の士官に任命する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:030をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:031",
+      "target_id": "grammar_pattern:031",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「be commissioned as 〈officer rank〉＝～として任官する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:031をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:032",
+      "target_id": "grammar_pattern:032",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「be commissioned into/in 〈armed service〉＝～軍の士官に任官する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:032をpassとする。"
+    },
+    {
+      "id": "collocation:034",
+      "target_id": "collocation:034",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・be commissioned as 〈officer rank〉\n用途: 特定階級の士官として任官したことを表す。\n例: She was commissioned as a lieutenant after completing officer training.\n訳: 彼女は士官訓練を修了後、中尉に任官した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:034をpassとする。"
+    },
+    {
+      "id": "collocation:035",
+      "target_id": "collocation:035",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・be commissioned into 〈armed service〉\n用途: 特定の軍種で士官として任官する。\n例: He was commissioned into the air force in 2022.\n訳: 彼は2022年に空軍士官に任官した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:035をpassとする。"
+    },
+    {
+      "id": "collocation:036",
+      "target_id": "collocation:036",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・a newly commissioned officer\n用途: 最近正式に任官した士官を表す。\n例: Newly commissioned officers attended the leadership course.\n訳: 新たに任官した士官たちは指揮官研修に参加した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:036をpassとする。"
+    },
+    {
+      "id": "usage_note:009",
+      "target_id": "usage_note:009",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「この語義は単なる employ「雇う」や enlist「入隊させる」と異なる。commissioned officer は commission を授与された士官、enlisted personnel は原則として commission を持たない下士官兵・兵員を表す。warrant officer などの位置付けや日本語の階級名は軍種・法域によって異なる。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:009をpassとする。"
+    },
+    {
+      "id": "synonym:020",
+      "target_id": "synonym:020",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・appoint\n定義: 人を役職へ正式に任命する。\n頻度: 〈8/10〉\n違い: appoint は民間・行政を含む一般的な任命語である。commission は軍隊で士官の階級と権限を授ける場合に限定される。\n例: The cabinet appointed her defense minister.\n訳: 内閣は彼女を国防相に任命した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:020をpassとする。"
+    },
+    {
+      "id": "sense_boundary:010",
+      "target_id": "sense_boundary:010",
+      "status": "pass",
+      "notes": "sense_boundary対象の原文引用「10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、sense_boundary:010をpassとする。"
+    },
+    {
+      "id": "definition:010",
+      "target_id": "definition:010",
+      "status": "pass",
+      "notes": "definition対象の原文引用「船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、definition:010をpassとする。"
+    },
+    {
+      "id": "frequency:010",
+      "target_id": "frequency:010",
+      "status": "pass",
+      "notes": "frequency対象の原文引用「〈5/10〉」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、frequency:010をpassとする。"
+    },
+    {
+      "id": "register:010",
+      "target_id": "register:010",
+      "status": "pass",
+      "notes": "register対象の原文引用「海事、軍事、工学、建設、エネルギー。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、register:010をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:033",
+      "target_id": "grammar_pattern:033",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「commission 〈ship〉＝船を正式に就役させる」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:033をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:034",
+      "target_id": "grammar_pattern:034",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「commission 〈system/equipment〉＝設備・システムを試験・調整・検証して運用可能にする」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:034をpassとする。"
+    },
+    {
+      "id": "grammar_pattern:035",
+      "target_id": "grammar_pattern:035",
+      "status": "pass",
+      "notes": "grammar_pattern対象の原文引用「commission 〈facility〉 into service＝施設を正式に運用へ移す」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、grammar_pattern:035をpassとする。"
+    },
+    {
+      "id": "collocation:037",
+      "target_id": "collocation:037",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・commission a new ship\n用途: 新造船を正式に就役させる。\n例: The navy commissioned the new vessel in a ceremony at the port.\n訳: 海軍は港での式典でその新造船を就役させた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:037をpassとする。"
+    },
+    {
+      "id": "collocation:038",
+      "target_id": "collocation:038",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・commission a system\n用途: システムを試験・調整・検証し、運用可能な状態にする。\n例: Engineers will commission the new control system before the plant reopens.\n訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:038をpassとする。"
+    },
+    {
+      "id": "collocation:039",
+      "target_id": "collocation:039",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・be commissioned into service\n用途: 船舶・設備などが正式に運用開始となる。\n例: The hospital's backup generator was commissioned into service last week.\n訳: その病院の非常用発電機は先週、正式に運用開始となった。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:039をpassとする。"
+    },
+    {
+      "id": "collocation:040",
+      "target_id": "collocation:040",
+      "status": "pass",
+      "notes": "collocation対象の原文引用「・commissioning tests\n用途: 設備を本運用へ移す前に性能・安全性を確認する試験を表す。\n例: The turbine passed all commissioning tests before commercial operation began.\n訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、collocation:040をpassとする。"
+    },
+    {
+      "id": "usage_note:010",
+      "target_id": "usage_note:010",
+      "status": "pass",
+      "notes": "usage_note対象の原文引用「工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、文書化して運用側へ引き渡す工程を含み得る。船舶では正式な就役行為を指し、工学上の commissioning では実運用前の検証工程を指すことがある。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、usage_note:010をpassとする。"
+    },
+    {
+      "id": "synonym:021",
+      "target_id": "synonym:021",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・activate\n定義: 装置・機能を作動状態にする。\n頻度: 〈7/10〉\n違い: activate は一回の作動操作にも使う。commission は試験・承認・引渡しを含む正式な運用開始工程に焦点がある。\n例: The technician activated the emergency system.\n訳: 技術者は緊急システムを作動させた。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:021をpassとする。"
+    },
+    {
+      "id": "synonym:022",
+      "target_id": "synonym:022",
+      "status": "pass",
+      "notes": "synonym対象の原文引用「・launch\n定義: 製品、サービス、計画などを公に開始する。\n頻度: 〈8/10〉\n違い: launch は市場投入・公開開始に広く使う。commission は物理的設備や船舶を運用可能な状態へ移す技術的・公式な過程を表す。\n例: The company launched the service nationwide.\n訳: その会社は全国でそのサービスを開始した。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、synonym:022をpassとする。"
+    },
+    {
+      "id": "antonym:001",
+      "target_id": "antonym:001",
+      "status": "pass",
+      "notes": "antonym対象の原文引用「・decommission\n定義: 船舶、設備、施設などを正式に運用から外す。\n頻度: 〈5/10〉\n違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。\n例: The operator plans to decommission the old reactor by 2030.\n訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。」を最新版本文上で照合した。語義境界・作用方向・統語役割・訳の対応に未解決の矛盾はなく、antonym:001をpassとする。"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "relation_id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "risk_sense_pair関係の固有基準「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:004 explicitly contrasts sense 4 with sense 2」を、sense_boundary:002「2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料」／sense_boundary:004「4. 【可算名詞】正式な依頼、発注、依頼作品」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "relation_id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "risk_sense_pair関係の固有基準「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:003 explicitly contrasts sense 3 with sense 4」を、sense_boundary:003「3. 【可算名詞・形式的】委任された任務・権限」／sense_boundary:004「4. 【可算名詞】正式な依頼、発注、依頼作品」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:001「・set up a commission to investigate 〈問題〉 用途: 特定問題を調査する正式な委員会を設置する。 例: The government set up an independent commission to investigate the disaster. 訳: 政府はその災害を調査する独立委員会を設置した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:002「・an independent commission on 〈問題〉 用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。 例: An independent commission on election reform will publish its recommendations next month. 訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:003「・a commission of inquiry into 〈事件・問題〉 用途: 重大な事件や制度上の問題を正式に調べる委員会を表す。 例: Parliament called for a commission of inquiry into the security failures. 訳: 議会はその安全保障上の失敗について調査委員会を設けるよう求めた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:004「・serve on a commission 用途: 委員会の委員として職務を果たす。 例: She served on the national commission on child welfare for six years. 訳: 彼女は6年間、児童福祉に関する国家委員会の委員を務めた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:005「・the commission's report 用途: 委員会が調査・審議を経てまとめた報告書を示す。 例: The commission's report identified serious gaps in oversight. 訳: 委員会の報告書は監督体制の重大な不備を指摘した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:006「・earn commission on 〈sales〉 用途: 販売実績に応じて歩合報酬を得る。 例: Agents earn commission on every policy they sell. 訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:007「・pay someone a commission 用途: 売買や契約を成立させた人に成果連動の報酬を支払う。 例: The gallery pays its representatives a commission for each painting sold. 訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:008「・a ten percent commission 用途: 売上額などに対する歩合率を示す。 例: She receives a ten percent commission on all new contracts. 訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:009「・work on commission 用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。 例: Most sales staff receive a base salary and work partly on commission. 訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:010「・charge a commission on 〈transaction〉 用途: 金融機関や仲介業者が個別取引に手数料を課す。 例: The broker charges a small commission on each trade. 訳: その証券会社は取引ごとに少額の手数料を請求する。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:011",
+      "relation_id": "example_translation:011",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:011「・receive a commission to do 〈任務〉 用途: 特定の任務を行うよう正式な指示と権限を受ける。 例: The envoy received a commission to negotiate a temporary settlement. 訳: その特使は暫定的な合意を交渉する任務を与えられた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:012",
+      "relation_id": "example_translation:012",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:012「・accept a commission 用途: 委ねられた正式な任務を引き受ける。 例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks. 訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:013",
+      "relation_id": "example_translation:013",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:013「・carry out one's commission 用途: 委ねられた任務を実行する。 例: The delegates returned after carrying out their commission. 訳: 代表団は委ねられた任務を果たして帰還した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:014",
+      "relation_id": "example_translation:014",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:014「・beyond one's commission 用途: 委任された権限の範囲を超えていることを表す。 例: The agent acted beyond his commission when he signed the agreement. 訳: その代理人は合意書に署名した際、委任された権限を越えて行動した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:015",
+      "relation_id": "example_translation:015",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:015「・receive a commission to do 〈仕事〉 用途: 特定の制作・設計・調査を行う正式な依頼を受ける。 例: The architect received a commission to design the new library. 訳: その建築家は新しい図書館を設計する依頼を受けた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:016",
+      "relation_id": "example_translation:016",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:016「・accept a commission for 〈作品〉 用途: 特定の作品を制作する依頼を引き受ける。 例: The artist accepted a private commission for a family portrait. 訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:017",
+      "relation_id": "example_translation:017",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:017「・take commissions for 〈作品〉 用途: 依頼に応じて特定種類の作品を制作すると述べる。 例: She takes commissions for custom illustrations through her website. 訳: 彼女はウェブサイトを通じて特注イラストの制作依頼を受けている。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:018",
+      "relation_id": "example_translation:018",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:018「・a commission from 〈依頼主〉 用途: 仕事や作品の依頼元を示す。 例: The composer completed a commission from the city orchestra. 訳: その作曲家は市のオーケストラから依頼された作品を完成させた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:019",
+      "relation_id": "example_translation:019",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:019「・the commission of a crime 用途: 犯罪を実行する行為を法律的・形式的に表す。 例: The evidence linked the weapon to the commission of the crime. 訳: その証拠により、凶器とその犯罪の実行が結び付けられた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:020",
+      "relation_id": "example_translation:020",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:020「・during the commission of 〈crime〉 用途: 犯罪行為を実行している最中であることを示す。 例: No one was injured during the commission of the robbery. 訳: その強盗の実行中にけが人は出なかった。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:021",
+      "relation_id": "example_translation:021",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:021「・aid someone in the commission of 〈offence〉 用途: 他者が違反・犯罪を行うのを助けることを形式的に表す。 例: He was accused of aiding others in the commission of the offence. 訳: 彼は他者によるその違反の実行を助けたとして告発された。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:022",
+      "relation_id": "example_translation:022",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:022「・receive a commission as 〈officer rank〉 用途: 特定階級の士官として正式に任官する。 例: After completing the academy, she received a commission as a second lieutenant. 訳: 士官学校を修了後、彼女は少尉に任官した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:023",
+      "relation_id": "example_translation:023",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:023「・hold a commission in 〈armed service〉 用途: 特定の軍種で士官の地位と権限を持つ。 例: He held a commission in the Royal Navy for twelve years. 訳: 彼は12年間、英国海軍で士官の地位にあった。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:024",
+      "relation_id": "example_translation:024",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:024「・resign one's commission 用途: 士官としての地位・任命を正式に辞する。 例: The officer resigned her commission and left the service. 訳: その士官は任官を辞し、軍を去った。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:025",
+      "relation_id": "example_translation:025",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:025「・be in commission 用途: 船舶や設備が正式な任務または使用に就いている状態を表す。 例: The research vessel remained in commission for more than thirty years. 訳: その調査船は30年を超えて就役していた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:026",
+      "relation_id": "example_translation:026",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:026「・be out of commission 用途: 機械・設備が故障や整備で使用できない状態を表す。 例: Two elevators are out of commission while repairs are carried out. 訳: 修理が行われている間、エレベーター2基は使用できない。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:027",
+      "relation_id": "example_translation:027",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:027「・put someone out of commission 用途: けがや病気などで人を一時的に活動できない状態にする。 例: A shoulder injury put him out of commission for the rest of the season. 訳: 肩のけがにより、彼はシーズン残りを出場できなくなった。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:028",
+      "relation_id": "example_translation:028",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:028「・put 〈ship/equipment〉 into commission 用途: 船舶や設備を正式に就役・稼働状態へ移す。 例: The navy plans to put the new patrol ship into commission next spring. 訳: 海軍は来春、新しい巡視船を就役させる予定だ。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:029",
+      "relation_id": "example_translation:029",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:029「・commission someone to do 〈仕事〉 用途: 特定の人・組織に仕事を実施するよう正式に依頼する。 例: The museum commissioned a local artist to create a sculpture for the entrance. 訳: 美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:030",
+      "relation_id": "example_translation:030",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:030「・commission a report/study 用途: 判断材料となる報告書や調査を専門家に作成させる。 例: The board commissioned an independent study of the project's environmental impact. 訳: 取締役会はその事業の環境影響について独立調査を依頼した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:031",
+      "relation_id": "example_translation:031",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:031「・commission 〈work〉 from someone 用途: 成果物を目的語にし、その制作者を from で示す。 例: The orchestra commissioned a new symphony from the composer. 訳: そのオーケストラは作曲家に新しい交響曲を依頼した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:032",
+      "relation_id": "example_translation:032",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:032「・be commissioned by 〈依頼主〉 用途: 作品・調査などを依頼した主体を受動形で示す。 例: The survey was commissioned by the city council. 訳: その調査は市議会の依頼で実施された。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:033",
+      "relation_id": "example_translation:033",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:033「・specially commissioned for 〈目的・機会〉 用途: 特定の目的や行事のために特別に依頼制作されたことを示す。 例: The exhibition features a film specially commissioned for the anniversary. 訳: その展覧会では記念日のために特別制作された映画を上映している。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:034",
+      "relation_id": "example_translation:034",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:034「・be commissioned as 〈officer rank〉 用途: 特定階級の士官として任官したことを表す。 例: She was commissioned as a lieutenant after completing officer training. 訳: 彼女は士官訓練を修了後、中尉に任官した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:035",
+      "relation_id": "example_translation:035",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:035「・be commissioned into 〈armed service〉 用途: 特定の軍種で士官として任官する。 例: He was commissioned into the air force in 2022. 訳: 彼は2022年に空軍士官に任官した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:036",
+      "relation_id": "example_translation:036",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:036「・a newly commissioned officer 用途: 最近正式に任官した士官を表す。 例: Newly commissioned officers attended the leadership course. 訳: 新たに任官した士官たちは指揮官研修に参加した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:037",
+      "relation_id": "example_translation:037",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:037「・commission a new ship 用途: 新造船を正式に就役させる。 例: The navy commissioned the new vessel in a ceremony at the port. 訳: 海軍は港での式典でその新造船を就役させた。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:038",
+      "relation_id": "example_translation:038",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:038「・commission a system 用途: システムを試験・調整・検証し、運用可能な状態にする。 例: Engineers will commission the new control system before the plant reopens. 訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:039",
+      "relation_id": "example_translation:039",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:039「・be commissioned into service 用途: 船舶・設備などが正式に運用開始となる。 例: The hospital's backup generator was commissioned into service last week. 訳: その病院の非常用発電機は先週、正式に運用開始となった。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "example_translation:040",
+      "relation_id": "example_translation:040",
+      "status": "pass",
+      "notes": "example_translation関係の固有基準「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を、collocation:040「・commissioning tests 用途: 設備を本運用へ移す前に性能・安全性を確認する試験を表す。 例: The turbine passed all commissioning tests before commercial operation began. 訳: そのタービンは商業運転開始前に、すべての試運転試験に合格した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:001「1. 【可算名詞】委員会、調査委員会、行政委員会」／definition:001「政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:001「1. 【可算名詞】委員会、調査委員会、行政委員会」／definition:001「政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。」／usage_note:001「committee は企業・学校・団体内の小委員会にも広く使うのに対し、commission は公的機関または特定の公的任務を与えられた組織に多い。ただし European Commission のように、単なる調査委員会ではなく恒常的な執行機関を指す固有名もある。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:001「1. 【可算名詞】委員会、調査委員会、行政委員会」／definition:001「政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。」／synonym:001「・committee 定義: 特定事項を検討・運営するために選ばれた比較的小規模な集団。 頻度: 〈9/10〉 違い: committee は組織内部の会議体にも広く使う。commission は公的権限または独立した調査・規制任務を伴いやすい。 例: The finance committee approved the revised budget. 訳: 財務委員会は修正予算を承認した。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:001「a commission on 〈問題・政策分野〉＝～に関する委員会」／collocation:001「・set up a commission to investigate 〈問題〉 用途: 特定問題を調査する正式な委員会を設置する。 例: The government set up an independent commission to investigate the disaster. 訳: 政府はその災害を調査する独立委員会を設置した。」／collocation:002「・an independent commission on 〈問題〉 用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。 例: An independent commission on election reform will publish its recommendations next month. 訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:002「a commission to investigate 〈問題〉＝～を調査するための委員会」／collocation:001「・set up a commission to investigate 〈問題〉 用途: 特定問題を調査する正式な委員会を設置する。 例: The government set up an independent commission to investigate the disaster. 訳: 政府はその災害を調査する独立委員会を設置した。」／collocation:002「・an independent commission on 〈問題〉 用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。 例: An independent commission on election reform will publish its recommendations next month. 訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "relation_id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:003「a commission of inquiry into 〈事件・問題〉＝～についての調査委員会」／collocation:001「・set up a commission to investigate 〈問題〉 用途: 特定問題を調査する正式な委員会を設置する。 例: The government set up an independent commission to investigate the disaster. 訳: 政府はその災害を調査する独立委員会を設置した。」／collocation:002「・an independent commission on 〈問題〉 用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。 例: An independent commission on election reform will publish its recommendations next month. 訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "relation_id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:004「the 〈固有名〉 Commission＝名称を持つ行政・規制機関」／collocation:001「・set up a commission to investigate 〈問題〉 用途: 特定問題を調査する正式な委員会を設置する。 例: The government set up an independent commission to investigate the disaster. 訳: 政府はその災害を調査する独立委員会を設置した。」／collocation:002「・an independent commission on 〈問題〉 用途: 政府などから一定の独立性を持って特定分野を扱う委員会を示す。 例: An independent commission on election reform will publish its recommendations next month. 訳: 選挙制度改革に関する独立委員会は来月、提言を公表する。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:002「2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料」／definition:002「商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:002「2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料」／definition:002「商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。」／usage_note:002「earn $2,000 in commission の in commission は得た歩合の総額を表し、work on commission の on commission は報酬方式を表す。charge/pay a commission では同じ金銭を、業者側は報酬、顧客側は費用として捉えることがある。commission は bonus と異なり通常は個々の売上・取引に結び付き、fee より仲介・売買との関連が強い。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:002「2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料」／definition:002「商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。」／synonym:004「・bonus 定義: 通常の給与などに加えて支払われる追加報酬。 頻度: 〈8/10〉 違い: bonus は会社業績、個人評価、季節など多様な基準で支払われる。commission は特定の売上・取引成果に直接連動する。 例: Employees received an annual bonus after the company exceeded its targets. 訳: 会社が目標を上回った後、従業員は年次賞与を受け取った。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "relation_id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:005「earn/get/receive commission on 〈sales/transaction〉＝売上・取引について歩合を得る」／collocation:006「・earn commission on 〈sales〉 用途: 販売実績に応じて歩合報酬を得る。 例: Agents earn commission on every policy they sell. 訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」／collocation:007「・pay someone a commission 用途: 売買や契約を成立させた人に成果連動の報酬を支払う。 例: The gallery pays its representatives a commission for each painting sold. 訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "relation_id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:006「pay someone a commission＝人に歩合・手数料を払う」／collocation:006「・earn commission on 〈sales〉 用途: 販売実績に応じて歩合報酬を得る。 例: Agents earn commission on every policy they sell. 訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」／collocation:007「・pay someone a commission 用途: 売買や契約を成立させた人に成果連動の報酬を支払う。 例: The gallery pays its representatives a commission for each painting sold. 訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "relation_id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:007「charge a commission on/for 〈transaction/service〉＝取引・サービスについて手数料を請求する」／collocation:006「・earn commission on 〈sales〉 用途: 販売実績に応じて歩合報酬を得る。 例: Agents earn commission on every policy they sell. 訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」／collocation:007「・pay someone a commission 用途: 売買や契約を成立させた人に成果連動の報酬を支払う。 例: The gallery pays its representatives a commission for each painting sold. 訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "relation_id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:008「a commission of 〈金額・割合〉＝～の手数料」／collocation:006「・earn commission on 〈sales〉 用途: 販売実績に応じて歩合報酬を得る。 例: Agents earn commission on every policy they sell. 訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」／collocation:007「・pay someone a commission 用途: 売買や契約を成立させた人に成果連動の報酬を支払う。 例: The gallery pays its representatives a commission for each painting sold. 訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "relation_id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:009「work/be paid on commission＝歩合制で働く・報酬を受ける」／collocation:006「・earn commission on 〈sales〉 用途: 販売実績に応じて歩合報酬を得る。 例: Agents earn commission on every policy they sell. 訳: 代理店担当者は販売した保険契約ごとに歩合を得る。」／collocation:007「・pay someone a commission 用途: 売買や契約を成立させた人に成果連動の報酬を支払う。 例: The gallery pays its representatives a commission for each painting sold. 訳: その画廊は絵が売れるたびに販売担当者へ歩合を支払う。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "relation_id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:003「3. 【可算名詞・形式的】委任された任務・権限」／definition:003「外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "relation_id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:003「3. 【可算名詞・形式的】委任された任務・権限」／definition:003「外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。」／usage_note:003「この語義は現代の日常語では assignment、mission、authority などに言い換えることが多い。語義4は依頼主が有償で作品・専門成果物を作らせる「発注」を表し、語義3は受任者に委ねられた任務と行動権限を表す。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "relation_id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:003「3. 【可算名詞・形式的】委任された任務・権限」／definition:003「外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。」／synonym:007「・mandate 定義: 人や組織に正式に与えられた任務・権限。 頻度: 〈6/10〉 違い: mandate は公的・政治的な権限の根拠や範囲を強く示す。commission は個人に委ねられた具体的任務を指す古風な用法にも使う。 例: The committee acted within its legal mandate. 訳: その委員会は法的権限の範囲内で行動した。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "relation_id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:010「a commission to do 〈任務〉＝～するよう委ねられた任務」／collocation:011「・receive a commission to do 〈任務〉 用途: 特定の任務を行うよう正式な指示と権限を受ける。 例: The envoy received a commission to negotiate a temporary settlement. 訳: その特使は暫定的な合意を交渉する任務を与えられた。」／collocation:012「・accept a commission 用途: 委ねられた正式な任務を引き受ける。 例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks. 訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:011",
+      "relation_id": "pattern_example_coverage:011",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:011「receive/accept a commission to do 〈任務〉＝～する任務を受ける」／collocation:011「・receive a commission to do 〈任務〉 用途: 特定の任務を行うよう正式な指示と権限を受ける。 例: The envoy received a commission to negotiate a temporary settlement. 訳: その特使は暫定的な合意を交渉する任務を与えられた。」／collocation:012「・accept a commission 用途: 委ねられた正式な任務を引き受ける。 例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks. 訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:012",
+      "relation_id": "pattern_example_coverage:012",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:012「carry out/execute one's commission＝委ねられた任務を遂行する」／collocation:011「・receive a commission to do 〈任務〉 用途: 特定の任務を行うよう正式な指示と権限を受ける。 例: The envoy received a commission to negotiate a temporary settlement. 訳: その特使は暫定的な合意を交渉する任務を与えられた。」／collocation:012「・accept a commission 用途: 委ねられた正式な任務を引き受ける。 例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks. 訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:013",
+      "relation_id": "pattern_example_coverage:013",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:013「within/beyond one's commission＝委任された権限の範囲内」／collocation:011「・receive a commission to do 〈任務〉 用途: 特定の任務を行うよう正式な指示と権限を受ける。 例: The envoy received a commission to negotiate a temporary settlement. 訳: その特使は暫定的な合意を交渉する任務を与えられた。」／collocation:012「・accept a commission 用途: 委ねられた正式な任務を引き受ける。 例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks. 訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:014",
+      "relation_id": "pattern_example_coverage:014",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:014「範囲外で」／collocation:011「・receive a commission to do 〈任務〉 用途: 特定の任務を行うよう正式な指示と権限を受ける。 例: The envoy received a commission to negotiate a temporary settlement. 訳: その特使は暫定的な合意を交渉する任務を与えられた。」／collocation:012「・accept a commission 用途: 委ねられた正式な任務を引き受ける。 例: The envoy accepted the commission to negotiate on behalf of the crown despite the political risks. 訳: その特使は政治的な危険があるにもかかわらず、国王を代表して交渉する任務を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "relation_id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:004「4. 【可算名詞】正式な依頼、発注、依頼作品」／definition:004「芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "relation_id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:004「4. 【可算名詞】正式な依頼、発注、依頼作品」／definition:004「芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。」／usage_note:004「a commission to design は依頼された仕事をto不定詞で示し、a commission from the museum は依頼主を from で示す。語義2の on commission は報酬方式であり、take commissions for portraits の commissions は制作依頼である。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "relation_id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:004「4. 【可算名詞】正式な依頼、発注、依頼作品」／definition:004「芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。」／synonym:009「・assignment 定義: 人に割り当てられた仕事・課題。 頻度: 〈8/10〉 違い: assignment は雇用・教育などでの業務配分にも広く使う。commission は外部の専門家や制作者への正式な依頼と対価を含意しやすい。 例: The journalist completed an overseas assignment. 訳: その記者は海外取材の任務を終えた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:015",
+      "relation_id": "pattern_example_coverage:015",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:015「a commission to do 〈仕事〉＝～する正式な依頼」／collocation:015「・receive a commission to do 〈仕事〉 用途: 特定の制作・設計・調査を行う正式な依頼を受ける。 例: The architect received a commission to design the new library. 訳: その建築家は新しい図書館を設計する依頼を受けた。」／collocation:016「・accept a commission for 〈作品〉 用途: 特定の作品を制作する依頼を引き受ける。 例: The artist accepted a private commission for a family portrait. 訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:016",
+      "relation_id": "pattern_example_coverage:016",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:016「a commission for 〈作品・仕事〉＝～の発注・依頼」／collocation:015「・receive a commission to do 〈仕事〉 用途: 特定の制作・設計・調査を行う正式な依頼を受ける。 例: The architect received a commission to design the new library. 訳: その建築家は新しい図書館を設計する依頼を受けた。」／collocation:016「・accept a commission for 〈作品〉 用途: 特定の作品を制作する依頼を引き受ける。 例: The artist accepted a private commission for a family portrait. 訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:017",
+      "relation_id": "pattern_example_coverage:017",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:017「a commission from 〈依頼主〉＝～からの依頼」／collocation:015「・receive a commission to do 〈仕事〉 用途: 特定の制作・設計・調査を行う正式な依頼を受ける。 例: The architect received a commission to design the new library. 訳: その建築家は新しい図書館を設計する依頼を受けた。」／collocation:016「・accept a commission for 〈作品〉 用途: 特定の作品を制作する依頼を引き受ける。 例: The artist accepted a private commission for a family portrait. 訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:018",
+      "relation_id": "pattern_example_coverage:018",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:018「accept/take/receive a commission＝依頼を引き受ける・受ける」／collocation:015「・receive a commission to do 〈仕事〉 用途: 特定の制作・設計・調査を行う正式な依頼を受ける。 例: The architect received a commission to design the new library. 訳: その建築家は新しい図書館を設計する依頼を受けた。」／collocation:016「・accept a commission for 〈作品〉 用途: 特定の作品を制作する依頼を引き受ける。 例: The artist accepted a private commission for a family portrait. 訳: その画家は家族肖像画の個人的な制作依頼を引き受けた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "relation_id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:005「5. 【不可算名詞・形式的】犯罪・不正行為を行うこと」／definition:005「犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "relation_id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:005「5. 【不可算名詞・形式的】犯罪・不正行為を行うこと」／definition:005「犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。」／usage_note:005「この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。通常は単独で自由に使わず、the commission of の後ろに犯罪・違反・不正行為を置く。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "relation_id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:005「5. 【不可算名詞・形式的】犯罪・不正行為を行うこと」／definition:005「犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。」／synonym:012「・perpetration 定義: 犯罪や有害な行為を実行すること。 頻度: 〈4/10〉 違い: perpetration は行為の悪質性と実行者性を強く示す。commission は法律文書で行為の発生・実行を中立的に名詞化する。 例: Investigators found evidence of the deliberate perpetration of fraud. 訳: 捜査当局は故意による詐欺の実行を示す証拠を発見した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:019",
+      "relation_id": "pattern_example_coverage:019",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:019「the commission of a crime/an offence＝犯罪・違反を行うこと」／collocation:019「・the commission of a crime 用途: 犯罪を実行する行為を法律的・形式的に表す。 例: The evidence linked the weapon to the commission of the crime. 訳: その証拠により、凶器とその犯罪の実行が結び付けられた。」／collocation:020「・during the commission of 〈crime〉 用途: 犯罪行為を実行している最中であることを示す。 例: No one was injured during the commission of the robbery. 訳: その強盗の実行中にけが人は出なかった。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:020",
+      "relation_id": "pattern_example_coverage:020",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:020「during/in the commission of 〈crime〉＝犯罪の実行中に」／collocation:019「・the commission of a crime 用途: 犯罪を実行する行為を法律的・形式的に表す。 例: The evidence linked the weapon to the commission of the crime. 訳: その証拠により、凶器とその犯罪の実行が結び付けられた。」／collocation:020「・during the commission of 〈crime〉 用途: 犯罪行為を実行している最中であることを示す。 例: No one was injured during the commission of the robbery. 訳: その強盗の実行中にけが人は出なかった。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:021",
+      "relation_id": "pattern_example_coverage:021",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:021「aid someone in the commission of 〈offence〉＝人が違反を行うのを助ける」／collocation:019「・the commission of a crime 用途: 犯罪を実行する行為を法律的・形式的に表す。 例: The evidence linked the weapon to the commission of the crime. 訳: その証拠により、凶器とその犯罪の実行が結び付けられた。」／collocation:020「・during the commission of 〈crime〉 用途: 犯罪行為を実行している最中であることを示す。 例: No one was injured during the commission of the robbery. 訳: その強盗の実行中にけが人は出なかった。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "relation_id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:006「6. 【可算名詞・軍事】士官任命、士官の地位・権限」／definition:006「軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "relation_id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:006「6. 【可算名詞・軍事】士官任命、士官の地位・権限」／definition:006「軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。」／usage_note:006「commissioned officer は正式な辞令によって任官した士官を指し、non-commissioned officer は下士官を指す。non-commissioned officer を「任務を与えられていない士官」と解釈してはいけない。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "relation_id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:006「6. 【可算名詞・軍事】士官任命、士官の地位・権限」／definition:006「軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。」／synonym:013「・appointment 定義: 役職へ正式に就けること、またはその役職。 頻度: 〈7/10〉 違い: appointment は民間・行政を含む広い任命語である。commission は軍事では士官としての階級・権限を授ける任官に限定される。 例: Her appointment as ambassador was confirmed by the senate. 訳: 彼女の大使任命は上院で承認された。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:022",
+      "relation_id": "pattern_example_coverage:022",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:022「receive/obtain a commission＝士官に任官する」／collocation:022「・receive a commission as 〈officer rank〉 用途: 特定階級の士官として正式に任官する。 例: After completing the academy, she received a commission as a second lieutenant. 訳: 士官学校を修了後、彼女は少尉に任官した。」／collocation:023「・hold a commission in 〈armed service〉 用途: 特定の軍種で士官の地位と権限を持つ。 例: He held a commission in the Royal Navy for twelve years. 訳: 彼は12年間、英国海軍で士官の地位にあった。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:023",
+      "relation_id": "pattern_example_coverage:023",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:023「hold a commission in 〈軍種〉＝～軍で士官の地位にある」／collocation:022「・receive a commission as 〈officer rank〉 用途: 特定階級の士官として正式に任官する。 例: After completing the academy, she received a commission as a second lieutenant. 訳: 士官学校を修了後、彼女は少尉に任官した。」／collocation:023「・hold a commission in 〈armed service〉 用途: 特定の軍種で士官の地位と権限を持つ。 例: He held a commission in the Royal Navy for twelve years. 訳: 彼は12年間、英国海軍で士官の地位にあった。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:024",
+      "relation_id": "pattern_example_coverage:024",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:024「resign one's commission＝士官の地位を辞する」／collocation:022「・receive a commission as 〈officer rank〉 用途: 特定階級の士官として正式に任官する。 例: After completing the academy, she received a commission as a second lieutenant. 訳: 士官学校を修了後、彼女は少尉に任官した。」／collocation:023「・hold a commission in 〈armed service〉 用途: 特定の軍種で士官の地位と権限を持つ。 例: He held a commission in the Royal Navy for twelve years. 訳: 彼は12年間、英国海軍で士官の地位にあった。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "relation_id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:007「7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能」／definition:007「in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "relation_id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:007「7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能」／definition:007「in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」／usage_note:007「out of commission は必ずしも永久的な廃棄を意味せず、一時的な故障・負傷にも使う。船舶の正式な就役・退役を述べる場合は海事・軍事上の意味になり、一般の機械については「使用可能／不能」という比喩的拡張である。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "relation_id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:007「7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能」／definition:007「in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」／synonym:014「・operational 定義: 機械・設備・組織などが作動・運用できる状態にある。 頻度: 〈7/10〉 違い: in commission と同じく使用可能な側を表すが、operational は正式な就役の有無を問わず機能している状態を直接述べる。 例: The emergency communications system is fully operational. 訳: 緊急通信システムは完全に稼働している。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:025",
+      "relation_id": "pattern_example_coverage:025",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:025「be in commission＝就役・稼働している」／collocation:025「・be in commission 用途: 船舶や設備が正式な任務または使用に就いている状態を表す。 例: The research vessel remained in commission for more than thirty years. 訳: その調査船は30年を超えて就役していた。」／collocation:026「・be out of commission 用途: 機械・設備が故障や整備で使用できない状態を表す。 例: Two elevators are out of commission while repairs are carried out. 訳: 修理が行われている間、エレベーター2基は使用できない。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:026",
+      "relation_id": "pattern_example_coverage:026",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:026「be out of commission＝使用・活動できない」／collocation:025「・be in commission 用途: 船舶や設備が正式な任務または使用に就いている状態を表す。 例: The research vessel remained in commission for more than thirty years. 訳: その調査船は30年を超えて就役していた。」／collocation:026「・be out of commission 用途: 機械・設備が故障や整備で使用できない状態を表す。 例: Two elevators are out of commission while repairs are carried out. 訳: 修理が行われている間、エレベーター2基は使用できない。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:027",
+      "relation_id": "pattern_example_coverage:027",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:027「put 〈ship/equipment〉 into commission＝船・設備を就役・稼働させる」／collocation:025「・be in commission 用途: 船舶や設備が正式な任務または使用に就いている状態を表す。 例: The research vessel remained in commission for more than thirty years. 訳: その調査船は30年を超えて就役していた。」／collocation:026「・be out of commission 用途: 機械・設備が故障や整備で使用できない状態を表す。 例: Two elevators are out of commission while repairs are carried out. 訳: 修理が行われている間、エレベーター2基は使用できない。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:008",
+      "relation_id": "sense_definition_consistency:008",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:008「8. 【他動詞】～を正式に依頼する、発注する」／definition:008「人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:008",
+      "relation_id": "definition_usage_consistency:008",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:008「8. 【他動詞】～を正式に依頼する、発注する」／definition:008「人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。」／usage_note:008「commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。commission someone for a job は文脈によって不自然になりやすく、正式な制作依頼なら commission someone to do the work とする。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:008",
+      "relation_id": "definition_lexical_relation_consistency:008",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:008「8. 【他動詞】～を正式に依頼する、発注する」／definition:008「人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。」／synonym:016「・hire 定義: 報酬を払って人を雇い、仕事をしてもらう。 頻度: 〈9/10〉 違い: hire は雇用またはサービス提供者の選定に焦点がある。commission は特定の成果物・調査・創作物を正式に依頼することに焦点がある。 例: We hired an engineer to inspect the building. 訳: 私たちは建物を点検するため技師を雇った。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:028",
+      "relation_id": "pattern_example_coverage:028",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:028「commission someone to do 〈仕事〉＝人に～するよう正式に依頼する」／collocation:029「・commission someone to do 〈仕事〉 用途: 特定の人・組織に仕事を実施するよう正式に依頼する。 例: The museum commissioned a local artist to create a sculpture for the entrance. 訳: 美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。」／collocation:030「・commission a report/study 用途: 判断材料となる報告書や調査を専門家に作成させる。 例: The board commissioned an independent study of the project's environmental impact. 訳: 取締役会はその事業の環境影響について独立調査を依頼した。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:029",
+      "relation_id": "pattern_example_coverage:029",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:029「commission 〈work/report/study〉＝作品・報告・調査を発注する」／collocation:029「・commission someone to do 〈仕事〉 用途: 特定の人・組織に仕事を実施するよう正式に依頼する。 例: The museum commissioned a local artist to create a sculpture for the entrance. 訳: 美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。」／collocation:030「・commission a report/study 用途: 判断材料となる報告書や調査を専門家に作成させる。 例: The board commissioned an independent study of the project's environmental impact. 訳: 取締役会はその事業の環境影響について独立調査を依頼した。」／ほか3対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:009",
+      "relation_id": "sense_definition_consistency:009",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:009「9. 【他動詞・通常受動・軍事】～を士官に任命する」／definition:009「軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:009",
+      "relation_id": "definition_usage_consistency:009",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:009「9. 【他動詞・通常受動・軍事】～を士官に任命する」／definition:009「軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。」／usage_note:009「この語義は単なる employ「雇う」や enlist「入隊させる」と異なる。commissioned officer は commission を授与された士官、enlisted personnel は原則として commission を持たない下士官兵・兵員を表す。warrant officer などの位置付けや日本語の階級名は軍種・法域によって異なる。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:009",
+      "relation_id": "definition_lexical_relation_consistency:009",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:009「9. 【他動詞・通常受動・軍事】～を士官に任命する」／definition:009「軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。」／synonym:020「・appoint 定義: 人を役職へ正式に任命する。 頻度: 〈8/10〉 違い: appoint は民間・行政を含む一般的な任命語である。commission は軍隊で士官の階級と権限を授ける場合に限定される。 例: The cabinet appointed her defense minister. 訳: 内閣は彼女を国防相に任命した。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:030",
+      "relation_id": "pattern_example_coverage:030",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:030「commission someone as 〈officer rank〉＝人を～の階級の士官に任命する」／collocation:034「・be commissioned as 〈officer rank〉 用途: 特定階級の士官として任官したことを表す。 例: She was commissioned as a lieutenant after completing officer training. 訳: 彼女は士官訓練を修了後、中尉に任官した。」／collocation:035「・be commissioned into 〈armed service〉 用途: 特定の軍種で士官として任官する。 例: He was commissioned into the air force in 2022. 訳: 彼は2022年に空軍士官に任官した。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:031",
+      "relation_id": "pattern_example_coverage:031",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:031「be commissioned as 〈officer rank〉＝～として任官する」／collocation:034「・be commissioned as 〈officer rank〉 用途: 特定階級の士官として任官したことを表す。 例: She was commissioned as a lieutenant after completing officer training. 訳: 彼女は士官訓練を修了後、中尉に任官した。」／collocation:035「・be commissioned into 〈armed service〉 用途: 特定の軍種で士官として任官する。 例: He was commissioned into the air force in 2022. 訳: 彼は2022年に空軍士官に任官した。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:032",
+      "relation_id": "pattern_example_coverage:032",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:032「be commissioned into/in 〈armed service〉＝～軍の士官に任官する」／collocation:034「・be commissioned as 〈officer rank〉 用途: 特定階級の士官として任官したことを表す。 例: She was commissioned as a lieutenant after completing officer training. 訳: 彼女は士官訓練を修了後、中尉に任官した。」／collocation:035「・be commissioned into 〈armed service〉 用途: 特定の軍種で士官として任官する。 例: He was commissioned into the air force in 2022. 訳: 彼は2022年に空軍士官に任官した。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "sense_definition_consistency:010",
+      "relation_id": "sense_definition_consistency:010",
+      "status": "pass",
+      "notes": "sense_definition_consistency関係の固有基準「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を、sense_boundary:010「10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する」／definition:010「船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_usage_consistency:010",
+      "relation_id": "definition_usage_consistency:010",
+      "status": "pass",
+      "notes": "definition_usage_consistency関係の固有基準「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を、sense_boundary:010「10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する」／definition:010「船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。」／usage_note:010「工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、文書化して運用側へ引き渡す工程を含み得る。船舶では正式な就役行為を指し、工学上の commissioning では実運用前の検証工程を指すことがある。」の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:010",
+      "relation_id": "definition_lexical_relation_consistency:010",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency関係の固有基準「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を、sense_boundary:010「10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する」／definition:010「船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。」／synonym:021「・activate 定義: 装置・機能を作動状態にする。 頻度: 〈7/10〉 違い: activate は一回の作動操作にも使う。commission は試験・承認・引渡しを含む正式な運用開始工程に焦点がある。 例: The technician activated the emergency system. 訳: 技術者は緊急システムを作動させた。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:033",
+      "relation_id": "pattern_example_coverage:033",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:033「commission 〈ship〉＝船を正式に就役させる」／collocation:037「・commission a new ship 用途: 新造船を正式に就役させる。 例: The navy commissioned the new vessel in a ceremony at the port. 訳: 海軍は港での式典でその新造船を就役させた。」／collocation:038「・commission a system 用途: システムを試験・調整・検証し、運用可能な状態にする。 例: Engineers will commission the new control system before the plant reopens. 訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:034",
+      "relation_id": "pattern_example_coverage:034",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:034「commission 〈system/equipment〉＝設備・システムを試験・調整・検証して運用可能にする」／collocation:037「・commission a new ship 用途: 新造船を正式に就役させる。 例: The navy commissioned the new vessel in a ceremony at the port. 訳: 海軍は港での式典でその新造船を就役させた。」／collocation:038「・commission a system 用途: システムを試験・調整・検証し、運用可能な状態にする。 例: Engineers will commission the new control system before the plant reopens. 訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "pattern_example_coverage:035",
+      "relation_id": "pattern_example_coverage:035",
+      "status": "pass",
+      "notes": "pattern_example_coverage関係の固有基準「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を、grammar_pattern:035「commission 〈facility〉 into service＝施設を正式に運用へ移す」／collocation:037「・commission a new ship 用途: 新造船を正式に就役させる。 例: The navy commissioned the new vessel in a ceremony at the port. 訳: 海軍は港での式典でその新造船を就役させた。」／collocation:038「・commission a system 用途: システムを試験・調整・検証し、運用可能な状態にする。 例: Engineers will commission the new control system before the plant reopens. 訳: 工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。」／ほか2対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "relation_id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:001「権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。」／sense_boundary:005「5. 【不可算名詞・形式的】犯罪・不正行為を行うこと」／definition:005「犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "relation_id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:002「・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）」／sense_boundary:001「1. 【可算名詞】委員会、調査委員会、行政委員会」／definition:001「政府、公的機関、国際機関その他の組織・団体から、特定分野の調査、監督、規制、助言などを行う正式な任務と権限を与えられた人々の組織を表す。公的機関が典型だが、設置主体は政府に限られない。固有の機関名では Commission と大文字で書くことがある。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "relation_id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:003「・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）」／sense_boundary:002「2. 【可算・不可算名詞】歩合、販売・仲介・取扱手数料」／definition:002「商品・サービスの販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる報酬・手数料。販売員や代理人が受け取る成果連動報酬にも、銀行・証券会社・仲介業者などが顧客に請求する取引費用にも使う。取引額の一定割合であることが多いが、定額の場合もある。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "relation_id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:004「・人へ任務とそれを行う権限を正式に委ねること → 「委任、任務、権限」（語義3）」／sense_boundary:003「3. 【可算名詞・形式的】委任された任務・権限」／definition:003「外交・行政・代理行為などで、人に正式に委ねられた任務、指示、またはその任務を遂行する権限。有償の作品・専門成果物を作らせる発注ではなく、受任者が何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つかに焦点がある。現代ではやや形式的・文語的である。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "relation_id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:005「・作品・専門成果物の制作を専門家へ正式に委ねること → 「正式な依頼、発注、依頼作品」（語義4）」／sense_boundary:004「4. 【可算名詞】正式な依頼、発注、依頼作品」／definition:004「芸術作品、建築、文章、調査報告などの作品・専門成果物を、通常は報酬を支払って特定の人・組織に作成してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "relation_id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:006「・軍務上の権限を将校へ正式に委ねること → 「士官任命、士官の地位・権限」（語義6）」／sense_boundary:006「6. 【可算名詞・軍事】士官任命、士官の地位・権限」／definition:006「軍で士官としての階級と権限を正式に与える任命、またはその地位・権限を表す。一般的な入隊や配属そのものではない。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "relation_id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:007「・船舶や設備へ正式な役目を与えること → in commission「就役・稼働中」。その否定から out of commission「使用不能」、さらに人の「活動不能」へ比喩的に広がる（語義7）」／sense_boundary:007「7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能」／definition:007「in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:008",
+      "relation_id": "core_sense_mapping:008",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:008「・制作や調査を人へ正式に委ねること → 「～を正式に依頼する、発注する」（語義8）」／sense_boundary:008「8. 【他動詞】～を正式に依頼する、発注する」／definition:008「人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:009",
+      "relation_id": "core_sense_mapping:009",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:009「・軍務上の権限を人へ正式に委ねること → 「～を士官に任命する」（語義9）」／sense_boundary:009「9. 【他動詞・通常受動・軍事】～を士官に任命する」／definition:009「軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "core_sense_mapping:010",
+      "relation_id": "core_sense_mapping:010",
+      "status": "pass",
+      "notes": "core_sense_mapping関係の固有基準「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を、core_image:010「・船舶を正式な任務へ就けること、設備の運用準備を検証すること → 「船舶を就役させる／設備の運用可能性を検証する」（語義10）」／sense_boundary:010「10. 【他動詞】船舶を就役させる／設備の運用可能性を検証する」／definition:010「船舶を正式に就役させる。また工学では、設備・システムが要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認して引き渡す。既設・改修設備にも使い、必ずしも実運用の開始そのものを意味しない。」／ほか1対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "article_learning_risk関係の固有基準「記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。」を、core_image:001「権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。」／core_image:002「・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）」／core_image:003「・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）」／ほか37対象の組合せで照合した。相互の意味範囲・役割・方向・例示に矛盾はない。"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "IC01",
+      "candidate_id": "IC01",
+      "status": "pass",
+      "notes": "frame『a/the commission on X; a commission to investigate X; a commission of inquiry into X; serve on a commission』と meaning『正式な委員会・機関』は、最新版語義1の同一構文群と『正式な任務と権限を与えられた人々の組織』に明示されている。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC01-A1",
+        "IC01-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC01-A1",
+          "assertion_id": "IC01-A1",
+          "status": "pass",
+          "notes": "『正式な任務と権限を与えられた人々の組織』は、複数人から成る正式組織という must_hold を満たす。"
+        },
+        {
+          "id": "IC01-A2",
+          "assertion_id": "IC01-A2",
+          "status": "pass",
+          "notes": "語義1は『委員会、調査委員会、行政委員会』に限定され、作品発注と手数料は語義4・2に分離されている。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC02",
+      "candidate_id": "IC02",
+      "status": "pass",
+      "notes": "frame『earn/get/receive commission on sales; be paid/work on commission; pay someone a commission』と meaning『成果に連動して代理人や販売者が受け取る報酬・歩合』は、統合後の語義2で独立した受取側フレームとして網羅される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC02-A1",
+        "IC02-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC02-A1",
+          "assertion_id": "IC02-A1",
+          "status": "pass",
+          "notes": "『販売、契約の成立、売買の仲介、金融取引の処理などに対して支払われる』との定義が、成果との結び付きを保持する。"
+        },
+        {
+          "id": "IC02-A2",
+          "assertion_id": "IC02-A2",
+          "status": "pass",
+          "notes": "bonus との差を『特定の売上・取引成果に直接連動』と示し、固定給や一般賞与との同一視を避けている。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC03",
+      "candidate_id": "IC03",
+      "status": "pass",
+      "notes": "frame『charge/pay a commission on/for a transaction; a commission of X percent』と meaning『業者が顧客へ課す手数料』は、語義2の取引費用側の定義・文法・broker例に明示され、語義統合後も作用方向が説明される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC03-A1",
+        "IC03-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC03-A1",
+          "assertion_id": "IC03-A1",
+          "status": "pass",
+          "notes": "『銀行・証券会社・仲介業者などが顧客に請求する取引費用』が、業者から顧客への課金関係を明示する。"
+        },
+        {
+          "id": "IC03-A2",
+          "assertion_id": "IC03-A2",
+          "status": "pass",
+          "notes": "『日常の一般的なサービス料金には fee の方が広く使われる』という限定が、一般料金全体への過剰一般化を防ぐ。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC04",
+      "candidate_id": "IC04",
+      "status": "pass",
+      "notes": "frame『a commission to do X; receive/accept/carry out one's commission; within/beyond one's commission』と meaning『正式に委ねられた任務・指示・代表権限』は、新設された語義3で完全に扱われる。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC04-A1",
+        "IC04-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC04-A1",
+          "assertion_id": "IC04-A1",
+          "status": "pass",
+          "notes": "『何を行うよう命じられ、どこまで代表・交渉・調査する権限を持つか』が任務・権限範囲を明示する。"
+        },
+        {
+          "id": "IC04-A2",
+          "assertion_id": "IC04-A2",
+          "status": "pass",
+          "notes": "語法が語義4の有償制作発注と語義3の任務・行動権限を明確に対置し、発注義への限定を回避する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC05",
+      "candidate_id": "IC05",
+      "status": "pass",
+      "notes": "frame『a commission to produce/design X; a commission for X; a commission from a client; accept/take/receive a commission』と meaning『作品・設計・調査などを作成させる正式な依頼・発注』は語義4に一致する。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC05-A1",
+        "IC05-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC05-A1",
+          "assertion_id": "IC05-A1",
+          "status": "pass",
+          "notes": "『作品・専門成果物を…作成してもらう正式な依頼または発注』が新規成果物・専門業務の関係を保持する。"
+        },
+        {
+          "id": "IC05-A2",
+          "assertion_id": "IC05-A2",
+          "status": "pass",
+          "notes": "order との差を『既製品の購入にも使う』対『新たに制作・実施する個別の仕事』として示し、単純購入を除外する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC06",
+      "candidate_id": "IC06",
+      "status": "pass",
+      "notes": "frame『complete/deliver a commission; a commissioned work』と meaning『依頼によって制作された作品、または請け負った個別仕事』は、語義4の『依頼作品』および composer の completed 例で回収される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC06-A1"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC06-A1",
+          "assertion_id": "IC06-A1",
+          "status": "pass",
+          "notes": "『依頼を受けて制作された作品や、請け負った仕事そのものも指す』が、依頼行為から成果物・仕事への換喩を明記する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC07",
+      "candidate_id": "IC07",
+      "status": "pass",
+      "notes": "frame『the commission of a crime/offence/wrongful act; during/in the commission of X; aid in the commission of X』と meaning『犯罪・違反・不正行為を実行すること』は語義5で独立収録される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC07-A1",
+        "IC07-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC07-A1",
+          "assertion_id": "IC07-A1",
+          "status": "pass",
+          "notes": "『the commission of 〈crime/offence/act〉』という固定枠と三例が、of補部を実行対象の犯罪・違反に限定する。"
+        },
+        {
+          "id": "IC07-A2",
+          "assertion_id": "IC07-A2",
+          "status": "pass",
+          "notes": "語法が『委員会や手数料ではなく』と明記し、設置・支払いとの混同を直接排除する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC08",
+      "candidate_id": "IC08",
+      "status": "pass",
+      "notes": "frame『receive/obtain a commission as an officer; hold a commission in a service; resign one's commission』と meaning『軍の士官への任官、または地位・権限』は語義6の定義・全構文に一致する。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC08-A1",
+        "IC08-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC08-A1",
+          "assertion_id": "IC08-A1",
+          "status": "pass",
+          "notes": "『軍で士官としての階級と権限を正式に与える任命、またはその地位・権限』が軍務上の士官性を保持する。"
+        },
+        {
+          "id": "IC08-A2",
+          "assertion_id": "IC08-A2",
+          "status": "pass",
+          "notes": "『一般的な入隊や配属そのものではない』という明示的限定が、下士官兵への配属との混同を防ぐ。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC09",
+      "candidate_id": "IC09",
+      "status": "pass",
+      "notes": "frame『ship/equipment be or remain in commission; put ship/equipment into commission』と meaning『正式に就役中または使用可能な状態』は語義7の肯定側で定義・例示される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC09-A1"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC09-A1",
+          "assertion_id": "IC09-A1",
+          "status": "pass",
+          "notes": "『正式な任務または使用に就いている状態』という用途説明が、就役・実用状態の must_hold を満たす。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC10",
+      "candidate_id": "IC10",
+      "status": "pass",
+      "notes": "frame『machine/equipment be out of commission』と meaning『故障・整備などで使用不能の状態』は語義7の elevators 例を含む物対象の否定側に明示される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC10-A1",
+        "IC10-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC10-A1",
+          "assertion_id": "IC10-A1",
+          "status": "pass",
+          "notes": "『故障などで使用できない』および修理中の elevators 例が、機械・設備の使用不能状態を示す。"
+        },
+        {
+          "id": "IC10-A2",
+          "assertion_id": "IC10-A2",
+          "status": "pass",
+          "notes": "『必ずしも永久的な廃棄を意味せず、一時的な故障…にも使う』が永久廃棄限定を明示的に退ける。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC11",
+      "candidate_id": "IC11",
+      "status": "pass",
+      "notes": "frame『person be out of commission; put someone out of commission』と meaning『人が負傷・病気などで一時的に活動不能』は、語義7の人への比喩拡張と shoulder injury 例に一致する。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC11-A1"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC11-A1",
+          "assertion_id": "IC11-A1",
+          "status": "pass",
+          "notes": "『人が負傷・病気で一時的に活動できない状態』との定義が、通常の活動・任務不能を正確に表す。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC12",
+      "candidate_id": "IC12",
+      "status": "pass",
+      "notes": "frame『commission someone to do X』と meaning『人・組織に制作・調査・専門業務を正式に依頼する』は語義8の定義・第一文法パターン・artist例に直接対応する。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC12-A1",
+        "IC12-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC12-A1",
+          "assertion_id": "IC12-A1",
+          "status": "pass",
+          "notes": "『人または成果物・仕事を目的語に取る』と artist to create 例が、人目的語とto不定詞業務の役割を保存する。"
+        },
+        {
+          "id": "IC12-A2",
+          "assertion_id": "IC12-A2",
+          "status": "pass",
+          "notes": "hire との差を『雇用…に焦点』対『特定の成果物…を正式に依頼』と説明し、単なる雇用への縮約を防ぐ。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC13",
+      "candidate_id": "IC13",
+      "status": "pass",
+      "notes": "frame『commission a work/report/study; commission X from someone; X be commissioned by someone』と meaning『成果物を正式に発注する』は語義8の構文・三つの対応例で扱われる。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC13-A1",
+        "IC13-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC13-A1",
+          "assertion_id": "IC13-A1",
+          "status": "pass",
+          "notes": "『commission 〈work/report/study〉＝作品・報告・調査を発注する』が成果物・専門業務の直接目的語を示す。"
+        },
+        {
+          "id": "IC13-A2",
+          "assertion_id": "IC13-A2",
+          "status": "pass",
+          "notes": "語法の『制作者を from で示す』と受動例『commissioned by the city council』が制作者・依頼主の役割対応を保存する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC14",
+      "candidate_id": "IC14",
+      "status": "pass",
+      "notes": "frame『commission someone as rank; be commissioned as rank; be commissioned into/in an armed service』と meaning『人を軍の士官に正式に任官させる』は語義9にそのまま収録される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC14-A1",
+        "IC14-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC14-A1",
+          "assertion_id": "IC14-A1",
+          "status": "pass",
+          "notes": "『正式に士官として任官させ、階級と権限を与える』が対象者への身分・権限授与を明示する。"
+        },
+        {
+          "id": "IC14-A2",
+          "assertion_id": "IC14-A2",
+          "status": "pass",
+          "notes": "『employ「雇う」や enlist「入隊させる」と異なる』との注意が、一般任命・単なる入隊を除外する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC15",
+      "candidate_id": "IC15",
+      "status": "pass",
+      "notes": "frame『commission a ship; ship be commissioned into service』と meaning『船舶を正式に就役させる』は、語義10で工学義と条件を混同せず独立に定義・例示される。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC15-A1"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC15-A1",
+          "assertion_id": "IC15-A1",
+          "status": "pass",
+          "notes": "『船舶を正式に就役させる』および navy の ceremony 例が、船を正式な現役・任務状態へ移す行為を示す。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC16",
+      "candidate_id": "IC16",
+      "status": "pass",
+      "notes": "frame『commission a system/equipment/facility; commissioning tests』と meaning『試験・調整・検証して運用可能と確認する』は語義10の工学定義・試験例に一致する。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC16-A1",
+        "IC16-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC16-A1",
+          "assertion_id": "IC16-A1",
+          "status": "pass",
+          "notes": "『要求どおり安全に作動するかを試験・調整・検証し、運用可能であることを確認』が安全性・性能・運用可能性の工程を含む。"
+        },
+        {
+          "id": "IC16-A2",
+          "assertion_id": "IC16-A2",
+          "status": "pass",
+          "notes": "語法の『単に電源を入れることではなく』という否定が、一回的起動操作との同一視を直接排除する。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC17",
+      "candidate_id": "IC17",
+      "status": "pass",
+      "notes": "frame『主要な派生語・分詞形・複合形』と meaning『委員・長官、依頼済み・任官済み・就役済み、発注・任命・試運転工程、運用停止・再就役、手数料無料』は語形成欄の六項目で過不足なく対応する。",
+      "disposition": "included",
+      "assertion_ids": [
+        "IC17-A1",
+        "IC17-A2"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC17-A1",
+          "assertion_id": "IC17-A1",
+          "status": "pass",
+          "notes": "commissioner、commissioned、commissioning、decommission、recommission、commission-free の各説明が基体の対応語義を保持している。"
+        },
+        {
+          "id": "IC17-A2",
+          "assertion_id": "IC17-A2",
+          "status": "pass",
+          "notes": "decommission は『運用から外す』、commission-free は『売買手数料のかからない』と限定され、故障だけ・全費用無料への一般化がない。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    },
+    {
+      "id": "IC18",
+      "candidate_id": "IC18",
+      "status": "pass",
+      "notes": "frame『an official written commission or warrant』と meaning『権限・任官を付与する公式文書そのもの』は disposition『excluded』どおり独立語義化されず、最新版語義6は『任命、またはその地位・権限』に限定されている。",
+      "disposition": "excluded",
+      "assertion_ids": [
+        "IC18-A1"
+      ],
+      "assertion_results": [
+        {
+          "id": "IC18-A1",
+          "assertion_id": "IC18-A1",
+          "status": "pass",
+          "notes": "文書義は独立採用されていないため条件付き assertion は発火せず、任官・権限と文書を同一指示対象とする定義も残っていない。"
+        }
+      ],
+      "verified_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "pass",
+      "notes": "旧訳の『一部は歩合制』は最新版で『報酬の一部が歩合』となり、partly の数量範囲が報酬体系へ戻された。"
+    },
+    {
+      "id": "normal-translation-002",
+      "finding_id": "normal-translation-002",
+      "status": "pass",
+      "notes": "more than thirty years は最新版の『30年を超えて』で厳密な超過方向が保存されている。"
+    },
+    {
+      "id": "normal-translation-003",
+      "finding_id": "normal-translation-003",
+      "status": "pass",
+      "notes": "while repairs are carried out は最新版で『修理が行われている間』となり、英文にない因果を加えていない。"
+    },
+    {
+      "id": "normal-translation-004",
+      "finding_id": "normal-translation-004",
+      "status": "pass",
+      "notes": "after the company exceeded its targets は『目標を上回った後』となり、時間的前後関係が保持される。"
+    },
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "pass",
+      "notes": "旧語義2・3は最新版の語義2『歩合、販売・仲介・取扱手数料』へ統合され、受取側と支払側は語法内の視点差として処理された。"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "pass",
+      "notes": "語形成の commissioned は『正式に依頼された、士官に任官した、または船舶・設備が正式に就役・運用可能となった』へ拡張され、動詞義全体と整合する。"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "pass",
+      "notes": "誤って反意語に置かれた『in service』は最新版の反意語欄から削除され、decommission のみが運用移行軸の逆方向として残る。"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "pass",
+      "notes": "『The buyer paid a commission to the broker』の旧二語義競合は金銭義統合により単一の語義2内へ収まり、帰属不一致が解消した。"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "pass",
+      "notes": "語義10は海事の『正式に就役』と工学の『試験・調整・検証』を分け、既設・改修設備と実運用前工程を明記している。"
+    },
+    {
+      "id": "normal-qualification-002",
+      "finding_id": "normal-qualification-002",
+      "status": "pass",
+      "notes": "enlisted personnel は『原則として commission を持たない下士官兵・兵員』とされ、warrant officer 等の軍種・法域差も限定された。"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "pass",
+      "notes": "語義6の定義から旧『それを証明する文書』が除かれ、現在は根拠範囲の『任命、またはその地位・権限』に限定される。"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "pass",
+      "notes": "語義8の文法パターン欄は『commission someone to do』と『commission work/report/study』の二フレームに限定され、再検査済みである。"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "pass",
+      "notes": "語義10の船舶主張は『船舶を正式に就役させる』として工学工程と分離され、resolution は既存F-013追加を記録している。"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "pass",
+      "notes": "旧 decommissioning と即時解体の対比は語義10の語法から削除され、現在の説明は検証・文書化・引渡しと領域差に限定される。"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "pass",
+      "notes": "commissioner の旧『スポーツ組織の最高責任者』は削除され、語形成欄は『委員、行政機関などの長官・責任者』に限定された。"
+    },
+    {
+      "id": "COLD-001",
+      "finding_id": "COLD-001",
+      "status": "pass",
+      "notes": "冷査が求めた制作発注以外の抽象義は、語義3『委任された任務・権限』として独立追加され、外交・行政・代理の例も備える。"
+    },
+    {
+      "id": "COLD-002",
+      "finding_id": "COLD-002",
+      "status": "pass",
+      "notes": "語義1は『国際機関その他の組織・団体』を設置主体に含め、『設置主体は政府に限られない』と公的限定を修正した。"
+    },
+    {
+      "id": "COLD-003",
+      "finding_id": "COLD-003",
+      "status": "pass",
+      "notes": "工学 commissioning は『必ずしも実運用の開始そのものを意味しない』と明記され、commercial operation 前の tests 例との緊張が解消した。"
+    },
+    {
+      "id": "COLD-004",
+      "finding_id": "COLD-004",
+      "status": "pass",
+      "notes": "commissioned の語形成説明へ『船舶・設備が正式に就役・運用可能となった』が追加され、語義10との範囲不一致が解消した。"
+    },
+    {
+      "id": "COLD-005",
+      "finding_id": "COLD-005",
+      "status": "pass",
+      "notes": "コアイメージの語義7行は out of commission の『使用不能』と人の『活動不能』への比喩拡張まで明記する。"
+    }
+  ],
+  "evidence_checks": [],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "notes": "canonical statement「Commission denotes an official duty-bearing group or public body.」は source facts F-001, F-009, F-015 に統合され、disposition「included」および根拠「Principal high-frequency noun sense.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "pass",
+      "notes": "canonical statement「Commission denotes transaction-linked remuneration or a transaction/service charge.」は source facts F-002, F-003, F-010, F-015 に統合され、disposition「included」および根拠「The payee and payer perspectives share the same transaction-linked payment sense.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "pass",
+      "notes": "canonical statement「Commission can denote formal authority, instructions, or a duty entrusted to a person.」は source facts F-008 に統合され、disposition「included」および根拠「Distinct formal delegated-duty noun sense.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "notes": "canonical statement「A commission is a formal paid request for creative or professional work and can denote the resulting work.」は source facts F-004, F-008 に統合され、disposition「included」および根拠「Principal work-order noun sense.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "status": "pass",
+      "notes": "canonical statement「Military commission denotes or grants officer rank and authority.」は source facts F-005, F-013 に統合され、disposition「included」および根拠「Distinct specialist noun and verb use.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "status": "pass",
+      "notes": "canonical statement「The commission of wrongdoing is the formal act of committing it.」は source facts F-006, F-011, F-015 に統合され、disposition「included」および根拠「Established formal legal construction.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "status": "pass",
+      "notes": "canonical statement「In/out of commission marks active or usable versus inactive or unusable status.」は source facts F-007, F-016, F-018 に統合され、disposition「included」および根拠「Common idiomatic operational-state contrast.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "status": "pass",
+      "notes": "canonical statement「The verb formally engages someone to perform work or orders work to be produced.」は source facts F-012, F-014 に統合され、disposition「included」および根拠「Principal transitive verb sense.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "status": "pass",
+      "notes": "canonical statement「Technical commissioning verifies and transitions installed systems into documented operation.」は source facts F-019 に統合され、disposition「included」および根拠「Direct specialist support for the engineering use.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-010",
+      "union_id": "U-010",
+      "status": "pass",
+      "notes": "canonical statement「Commission has common British-American pronunciation /kəˈmɪʃən/ and derives through French from Latin committere.」は source facts F-017, F-018 に統合され、disposition「included」および根拠「Pronunciation and etymology support.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-011",
+      "union_id": "U-011",
+      "status": "pass",
+      "notes": "canonical statement「Commissioner is the person-form derived from commission.」は source facts F-020 に統合され、disposition「included」および根拠「High-value related official title.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-012",
+      "union_id": "U-012",
+      "status": "pass",
+      "notes": "canonical statement「Decommission reverses commission by removing from active service.」は source facts F-021 に統合され、disposition「included」および根拠「Productive operational antonym and derivative.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-013",
+      "union_id": "U-013",
+      "status": "pass",
+      "notes": "canonical statement「Recommission means to return to active service or commission again.」は source facts F-022 に統合され、disposition「included」および根拠「Productive operational derivative.」と最新版の対応記述が一致する。"
+    },
+    {
+      "id": "U-014",
+      "union_id": "U-014",
+      "status": "pass",
+      "notes": "canonical statement「Commission-free means that no commission is directly charged.」は source facts F-023 に統合され、disposition「included」および根拠「Frequent transparent commercial compound.」と最新版の対応記述が一致する。"
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3、normalized_input_sha256=653d2f8cca415366851c6102d4e02c952eed3f13a4cd6b23e67466d323baf79d、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=a3e98daa41b94875b8902a288e081ed16cdbf08b679a6fb8244a2bd5a5269fd1、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c、normalized_input_sha256=3a9c4f107602716bf82b095b710af4ae0ae6340637bf1293f2b945ca2d7bb5b1、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=c89274c1387edd1891958161fcd9d269c41a25612ae55459cc30ea30fedf0a7c、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef、normalized_input_sha256=05da4eae932531d56d6d8c2fc0a299ec01f9b23f12043c89e366f4d3a2edd99a、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=390eaed737240a211c093474eb67d0c4052fcdd99d0bef8ec3b9f1ce4aa59a1c、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017、normalized_input_sha256=aa6aabce94113a9e7fffc85efb5281b25480b6d66af7f95ef6896149278b48fd、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=e145a92c1caf38cda38791a5c47bea003346324f2788bd8a6dc20a2406a4f93f、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2、normalized_input_sha256=bf3ab4c0b251094b0057c64f0b31212e834a234a935bcf47ca739c269911b727、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=4017cfa3d1de2b24ef1b88318eef4453b3eec7c48a2f32a9db5b4a6cdb23f61a、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a、normalized_input_sha256=01c9a66038ae74e92a351793cc24fb9322b51afb767dbf1ff47b7cdef1face36、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=b3481a8af02457c35b483c51fcc918a00d35e924425b9d66ecc20cc00288dadc、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "mode「rechecked」を照合した。spec_sha256=dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d、normalized_input_sha256=bf6de706bb705f0f53731cbdd4abc4c8e80d13279d97e4325a167cac31ae79a0、source_artifact_sha256=0c270453cfdb96076298ec8f2eb2487b4c6c286ba4940c86e0e83dc15f1b7a50、output_sha256=c8b0e7844c5fee519696db38d2be824a29e3b5b57a0a13c5a683bd36cf0c2050、validated_on_body_sha256=5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3。schema_valid=true、reviewer_independent=true、request_binding_valid=trueで、刷新後manifestとの結合は有効である。"
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "entries/c/commission.md の機械計算hash、final_blind.input_body_sha256、blind_seal.body_sha256、checker manifest current_body_sha256 はすべて 5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3 で一致する。"
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "normal review は 2026-09-07T10:16:45Z頃、cold review は 2026-09-07T10:18:49.271094Zに記録され、pre-blind revision の 2026-09-07T10:24:00Zより前である。"
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "pre-blind revision の recorded_at 2026-09-07T10:24:00Z は final blind の 2026-09-07T11:09:10.797255Zより前で、final blind は修正後本文hashに束縛される。"
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "final blind の記録時刻 2026-09-07T11:09:10.797255Z は blind seal の 2026-09-07T06:10:06.992251-05:00（11:10:06.992251Z）より前で、seal順序が成立する。"
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "post_blind_resolution.resolutions は0件で採用修正がなく、post_blind_verification は同一本文hash上で checker_recheck_completed と final_blind_repeated をともに true とする。刷新後checker manifestの7 passもすべて rechecked かつ有効である。"
+    }
+  ],
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "最新版本文、166 target、118 relation、18 blind candidateと31 semantic assertion、20 finding、14 source-union、7 checker recheck、および5 chronology checkに未解決・hold・insufficient_evidenceはない。",
+    "normal candidate inventoryと個別evidence-check inventoryは入力上ともに空であり、対応結果集合も空集合として完全一致した。"
+  ],
+  "generation": {
+    "model": "gpt-5"
+  }
+}

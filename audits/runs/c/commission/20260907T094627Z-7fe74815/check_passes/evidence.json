@@ -1,0 +1,90 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-evidence-agent",
+    "same_model_as_generation": true
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 317,
+        "line_end": 317,
+        "exact_quote": "【日本語訳・定義】軍で士官としての階級と権限を正式に与える任命、その地位、またはそれを証明する文書を表す。一般的な入隊や配属そのものではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-005 links this target only to F-005 and F-013. F-005 supports an officer's position and authority, and F-013 supports appointment as a verb, but neither supplied fact supports the additional claim that commission denotes the document proving that status. The recorded evidence therefore does not directly support the full linked definition.",
+      "evidence_link_ids": [
+        "F-005",
+        "F-013"
+      ],
+      "suggested_direction": "Remove or qualify the document sense, or link a recorded fact that explicitly defines a military commission as the warrant/document itself."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 420,
+        "line_end": 420,
+        "exact_quote": "【文法パターン】commission someone to do 〈仕事〉＝人に～するよう正式に依頼する／commission 〈work/report/study〉＝作品・報告・調査を発注する／commission 〈work〉 from someone＝人に作品を発注する／〈work〉 be commissioned by 〈依頼主〉＝仕事が～によって依頼される／commission 〈work〉 for 〈目的・機会〉＝～のために仕事を発注する  "
+      },
+      "severity": "blocking",
+      "rationale": "C-008's F-012 and F-014 support commission someone to do something and taking a work as direct object. The supplied facts do not record the from-complement, passive by-complement, or for-purpose frames asserted in the same linked target, so those complete-frame claims exceed the documented support.",
+      "evidence_link_ids": [
+        "F-012",
+        "F-014"
+      ],
+      "suggested_direction": "Limit the pattern list to the person-to-infinitive and work-object frames, or add direct recorded support for commission work from someone, be commissioned by, and commission work for a purpose."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 521,
+        "line_end": 521,
+        "exact_quote": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-009 links definition:010 only to F-019, which documents technical building commissioning and transition of installed systems to operation. It does not support the maritime claim that the same target covers formally putting ships into service. F-013 elsewhere in the inventory mentions ship activation, but it is not an evidence support on C-009.",
+      "evidence_link_ids": [
+        "F-019"
+      ],
+      "suggested_direction": "Attach direct ship-commissioning support to this target or restrict the definition to the supported engineering process."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 551,
+        "line_end": 551,
+        "exact_quote": "【語法・注意】工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。decommission は運用から外すことで、必ずしも直ちに解体することを意味しない。  "
+      },
+      "severity": "blocking",
+      "rationale": "F-019 directly supports the first sentence about verification and transition to operation, but C-009 provides no support for the second sentence's separate decommissioning-versus-immediate-dismantling distinction. F-021 is linked to C-012 targets, not this usage-note target, and it does not explicitly address dismantling timing.",
+      "evidence_link_ids": [
+        "F-019"
+      ],
+      "suggested_direction": "Remove the decommissioning sentence from this linked target or add a direct fact and link establishing that decommissioning does not necessarily entail immediate dismantling."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 23,
+        "line_end": 23,
+        "exact_quote": "・commissioner（名詞）— 委員、行政機関などの長官、スポーツ組織の最高責任者。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-011 links this target only to F-020, whose recorded statement supports a person entrusted with commission duties or a member/head of a commission. That fact does not directly support the additional sports-organization chief sense stated in the target.",
+      "evidence_link_ids": [
+        "F-020"
+      ],
+      "suggested_direction": "Limit the gloss to the supported commission-member or official senses, or add direct recorded support for commissioner as the head of a sports organization."
+    }
+  ]
+}

@@ -1,0 +1,116 @@
+{
+  "summary": "重大な誤りは見当たらないが、中核的な抽象名詞義の取りこぼし、委員会義の範囲を公的機関へ寄せすぎる説明、工学上の commissioning と実運用開始の境界、派生形とコアイメージの内部整合性に問題候補がある。",
+  "findings": [
+    {
+      "id": "COLD-001",
+      "location": "語義4（正式な依頼・発注）および記事全体の語義構成",
+      "severity": "medium",
+      "description": "名詞 commission の「人に正式に委ねられた任務・権限・指示」という、制作物の発注に限られない抽象的な用法が独立して扱われていない。",
+      "reason": "コアイメージは「権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。」と述べる一方、語義4は制作・実施依頼に限定しているため、外交交渉、調査遂行、代理行為などについて人が正式な任務・権限を与えられる用法を、学習者が不自然に「作品の発注」と解釈するおそれがある。その一般的な名詞用法が語義一覧で十分に回収されていない。",
+      "suggested_direction": "語義4を「正式な依頼・任務・権限」として適切に広げ、制作物・専門業務の発注はその代表的な下位用法として示すか、頻度を確認したうえで一般的な任務・権限義を別項目にする。",
+      "scope_anchors": [
+        {
+          "id": "COLD-001-A",
+          "exact_quote": "権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。",
+          "location_hint": "コアイメージ冒頭"
+        },
+        {
+          "id": "COLD-001-B",
+          "exact_quote": "芸術作品、建築、文章、調査などを特定の人・組織に作成・実施してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。",
+          "location_hint": "語義4の日本語訳・定義"
+        }
+      ]
+    },
+    {
+      "id": "COLD-002",
+      "location": "語義1（委員会）の定義・レジスター説明",
+      "severity": "low",
+      "description": "commission を構成する主体と領域を政府・公的機関に寄せすぎており、民間団体、国際組織、宗教団体などが特定任務のために設ける commission を読み取りにくい。",
+      "reason": "本文の「政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。」は公的権限を伴う典型例を示す一方、設置主体が必ず政府・公的機関であるとは限らない。現在の定義とレジスター表示を合わせて読むと、非公的組織には commission を使わないという誤った一般化につながり得る。",
+      "suggested_direction": "公的機関が典型であることは維持しつつ、「組織・団体から特定任務と権限を委ねられた正式な集団」まで含むことを明示し、設置主体が公的機関に限定されないと補足する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-002-A",
+          "exact_quote": "政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。",
+          "location_hint": "語義1の日本語訳・定義"
+        },
+        {
+          "id": "COLD-002-B",
+          "exact_quote": "公的・行政・報道。一般の committee よりも、公的権限や特定任務を持つ組織を指しやすい。",
+          "location_hint": "語義1のレジスター/領域"
+        }
+      ]
+    },
+    {
+      "id": "COLD-003",
+      "location": "語義10（船舶・設備などを就役・稼働させる）の定義・例",
+      "severity": "medium",
+      "description": "工学上の commission を、運用可能性の検証・引渡しだけでなく「実際に使用を開始すること」まで必ず含むように定義しており、commissioning と商業運転・日常運用開始の境界が曖昧である。",
+      "reason": "設備の commissioning は試験、調整、性能確認、受入れ、引渡しなどを指し、完了後ただちに実運用へ入るとは限らない。記事自身も「The turbine passed all commissioning tests before commercial operation began.」と実運用前の例を示しており、定義の「使用を開始する」と緊張関係がある。船舶の正式就役と設備の技術的 commissioning も同一の開始点とは限らない。",
+      "suggested_direction": "共通部分を「必要な試験・確認を経て運用できる状態にし、正式に受け入れ・引き渡す」とし、船舶では正式な就役、設備では実運用前の検証工程を指し得るという領域差を明示する。",
+      "scope_anchors": [
+        {
+          "id": "COLD-003-A",
+          "exact_quote": "新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。",
+          "location_hint": "語義10の日本語訳・定義"
+        },
+        {
+          "id": "COLD-003-B",
+          "exact_quote": "The turbine passed all commissioning tests before commercial operation began.",
+          "location_hint": "語義10の commissioning tests の例文"
+        },
+        {
+          "id": "COLD-003-C",
+          "exact_quote": "工学で commission は単に電源を入れることではなく、設置済み設備が設計どおり安全に作動するかを検証し、運用へ引き渡す工程を含み得る。",
+          "location_hint": "語義10の語法・注意"
+        }
+      ]
+    },
+    {
+      "id": "COLD-004",
+      "location": "語形成の commissioned の説明",
+      "severity": "low",
+      "description": "commissioned の説明が依頼と軍の任官だけに限定され、記事後半で扱う船舶・設備の「就役した／稼働可能になった」という用法を落としている。",
+      "reason": "語形成には「・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。」とあり、ここだけ読むと commissioned ship/system の解釈に到達できない。語義10との内部的な範囲不一致である。",
+      "suggested_direction": "commissioned の説明に「船舶・設備が正式に就役・運用可能となった」を加える。",
+      "scope_anchors": [
+        {
+          "id": "COLD-004-A",
+          "exact_quote": "・commissioned（形容詞・過去分詞）— 正式に依頼された、または任官した。commissioned officer は「士官」。",
+          "location_hint": "語形成"
+        },
+        {
+          "id": "COLD-004-B",
+          "exact_quote": "10. 【他動詞】船舶・設備などを就役・稼働させる",
+          "location_hint": "語義10の見出し"
+        }
+      ]
+    },
+    {
+      "id": "COLD-005",
+      "location": "コアイメージの語義7対応箇所",
+      "severity": "low",
+      "description": "語義7のコアイメージ対応が in commission の肯定側だけを示し、out of commission の使用不能・活動不能、とくに人への比喩用法を説明していない。",
+      "reason": "語義7の本文は「out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。」と肯定側・否定側・人の一時的活動不能を扱う。コアイメージの一覧だけでは out of commission が故障・負傷による一時的不能まで含む慣用的拡張なのかが分からず、記事の概念整理として不完全である。",
+      "suggested_direction": "語義7の対応行に、out of commission は就役状態の否定から「使用不能」、さらに人の「活動不能」へ比喩的に拡張した慣用句であることを短く加える。",
+      "scope_anchors": [
+        {
+          "id": "COLD-005-A",
+          "exact_quote": "・船舶や設備へ正式な役目を与えること → 「就役中、稼働中」（語義7）",
+          "location_hint": "コアイメージの語義対応一覧"
+        },
+        {
+          "id": "COLD-005-B",
+          "exact_quote": "out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。",
+          "location_hint": "語義7の日本語訳・定義"
+        }
+      ]
+    }
+  ],
+  "reviewer": {
+    "agent_id": "commission-cold-agent",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human"
+  }
+}

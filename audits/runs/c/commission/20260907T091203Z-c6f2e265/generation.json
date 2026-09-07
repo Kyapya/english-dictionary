@@ -1,0 +1,28 @@
+{
+  "schema_version": "generation_v1",
+  "stage": "generation",
+  "headword": "commission",
+  "entry_path": "entries/c/commission.md",
+  "input_artifacts": [
+    "headword",
+    "prompts/entry_spec_v5.md",
+    "prompts/process_improvement_learning_delta_v2.md",
+    "audits/runs/c/commission/20260907T091203Z-c6f2e265/process_improvement/generator-generation.snapshot.md"
+  ],
+  "output_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "entry_features": [
+    "headword:commission",
+    "part_of_speech:noun",
+    "part_of_speech:transitive_verb",
+    "polysemy:high",
+    "domain:finance",
+    "domain:military",
+    "domain:engineering",
+    "construction:idiom"
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

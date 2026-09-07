@@ -1,0 +1,391 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-commission-20260907T100725Z-307ceedc",
+  "context_id": "blind-commission-context-20260907T100725Z-307ceedc",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-final-blind-agent",
+    "same_model_as_generation": true
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC01",
+      "surface_form": "commission",
+      "frame": "a/the commission on X; a commission to investigate X; a commission of inquiry into X; serve on a commission",
+      "meaning": "特定の調査・監督・規制・助言を担う正式な委員会・機関",
+      "disposition": "included",
+      "rationale": "本文の「委員会、調査委員会、行政委員会」がこの候補の直接的な根拠である。候補の意味「特定の調査・監督・規制・助言を担う正式な委員会・機関」に対応する。現代英語で頻度が高い可算名詞義であり、公的権限または正式な任務を帯びる組織という境界が明確である。",
+      "semantic_assertions": [
+        {
+          "id": "IC01-A1",
+          "statement": "指示対象は通常、正式な任務または権限を与えられた複数人から成る組織でなければならない。",
+          "polarity": "must_hold",
+          "scope": "commission の委員会・機関義"
+        },
+        {
+          "id": "IC01-A2",
+          "statement": "単なる作品制作の依頼や売買手数料を意味してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "commission の委員会・機関義"
+        }
+      ]
+    },
+    {
+      "id": "IC02",
+      "surface_form": "commission",
+      "frame": "earn/get/receive commission on sales; be paid/work on commission; pay someone a commission",
+      "meaning": "販売・契約成立などの成果に連動して代理人や販売者が受け取る報酬・歩合",
+      "disposition": "included",
+      "rationale": "本文の「work on commission」がこの候補の直接的な根拠である。受取人側の成果連動報酬を表す主要名詞義であり、個別の売上・成約との結び付きが意味の中心になる。",
+      "semantic_assertions": [
+        {
+          "id": "IC02-A1",
+          "statement": "報酬は販売・契約・仲介などの成果に結び付いていなければならない。",
+          "polarity": "must_hold",
+          "scope": "成果報酬としての commission"
+        },
+        {
+          "id": "IC02-A2",
+          "statement": "一般的な固定給や業績と無関係の賞与と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "成果報酬としての commission"
+        }
+      ]
+    },
+    {
+      "id": "IC03",
+      "surface_form": "commission",
+      "frame": "charge/pay a commission on/for a transaction; a commission of X percent",
+      "meaning": "金融・仲介取引の処理に対して業者が顧客へ課す手数料",
+      "disposition": "included",
+      "rationale": "本文の「charge a commission on/for 〈transaction/service〉」がこの候補の直接的な根拠である。IC02と経済的起源は共通するが、請求主体と支払主体の作用方向が異なるため独立フレームとして扱うべき主要用法である。",
+      "semantic_assertions": [
+        {
+          "id": "IC03-A1",
+          "statement": "業者または仲介者が取引に伴う費用を顧客側へ課す関係でなければならない。",
+          "polarity": "must_hold",
+          "scope": "取引手数料としての commission"
+        },
+        {
+          "id": "IC03-A2",
+          "statement": "日常サービス一般の料金すべてに無制限に一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "取引手数料としての commission"
+        }
+      ]
+    },
+    {
+      "id": "IC04",
+      "surface_form": "commission",
+      "frame": "a commission to do X; receive/accept/carry out one's commission; within/beyond one's commission",
+      "meaning": "人に正式に委ねられた任務・指示・代表権限",
+      "disposition": "included",
+      "rationale": "本文の「within/beyond one's commission」がこの候補の直接的な根拠である。形式的・歴史的ではあるが、受任者の任務と権限範囲を表す独立した名詞義である。",
+      "semantic_assertions": [
+        {
+          "id": "IC04-A1",
+          "statement": "受任者が遂行すべき任務または行使できる権限の範囲を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "委任任務・権限義"
+        },
+        {
+          "id": "IC04-A2",
+          "statement": "制作物を有償で注文する発注義に限定してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "委任任務・権限義"
+        }
+      ]
+    },
+    {
+      "id": "IC05",
+      "surface_form": "commission",
+      "frame": "a commission to produce/design X; a commission for X; a commission from a client; accept/take/receive a commission",
+      "meaning": "作品・設計・調査などを作成させる正式な依頼・発注",
+      "disposition": "included",
+      "rationale": "本文の「a commission for 〈作品・仕事〉」がこの候補の直接的な根拠である。依頼主から専門家への個別成果物の発注を表す、生産的で現代的な可算名詞義である。",
+      "semantic_assertions": [
+        {
+          "id": "IC05-A1",
+          "statement": "依頼主が特定の成果物または専門業務を新たに作成・実施させる関係でなければならない。",
+          "polarity": "must_hold",
+          "scope": "正式な依頼・発注義"
+        },
+        {
+          "id": "IC05-A2",
+          "statement": "既製品の単純購入だけを表してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "正式な依頼・発注義"
+        }
+      ]
+    },
+    {
+      "id": "IC06",
+      "surface_form": "commission",
+      "frame": "complete/deliver a commission; a commissioned work",
+      "meaning": "依頼によって制作された作品、または請け負った個別仕事",
+      "disposition": "included",
+      "rationale": "本文の「正式な依頼、発注、依頼作品」がこの候補の直接的な根拠である。候補の意味「依頼によって制作された作品、または請け負った個別仕事」に対応する。依頼行為からその結果物へ焦点が移る換喩的用法で、依頼そのものとは指示対象が異なるため分離する。",
+      "semantic_assertions": [
+        {
+          "id": "IC06-A1",
+          "statement": "指示対象は依頼行為ではなく、その依頼に基づく成果物または請負仕事でなければならない。",
+          "polarity": "must_hold",
+          "scope": "依頼作品・請負仕事義"
+        }
+      ]
+    },
+    {
+      "id": "IC07",
+      "surface_form": "commission",
+      "frame": "the commission of a crime/offence/wrongful act; during/in the commission of X; aid in the commission of X",
+      "meaning": "犯罪・違反・不正行為を実行すること",
+      "disposition": "included",
+      "rationale": "本文の「the commission of a crime/an offence」がこの候補の直接的な根拠である。法律・報道で定着した形式的な行為名詞義であり、委任を中心とする諸義から独立して扱う必要がある。",
+      "semantic_assertions": [
+        {
+          "id": "IC07-A1",
+          "statement": "of の補部は典型的に犯罪・違反・不正行為など実行される行為でなければならない。",
+          "polarity": "must_hold",
+          "scope": "犯罪等の実行義"
+        },
+        {
+          "id": "IC07-A2",
+          "statement": "委員会の設置や手数料支払いを表してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "犯罪等の実行義"
+        }
+      ]
+    },
+    {
+      "id": "IC08",
+      "surface_form": "commission",
+      "frame": "receive/obtain a commission as an officer; hold a commission in a service; resign one's commission",
+      "meaning": "軍の士官への任官、または任官に伴う地位・権限",
+      "disposition": "included",
+      "rationale": "本文の「resign one's commission」がこの候補の直接的な根拠である。一般の任命ではなく士官身分の授与・保有・辞任を表す軍事上の独立義である。",
+      "semantic_assertions": [
+        {
+          "id": "IC08-A1",
+          "statement": "軍務上の士官としての地位または権限に関係しなければならない。",
+          "polarity": "must_hold",
+          "scope": "軍事名詞義"
+        },
+        {
+          "id": "IC08-A2",
+          "statement": "一般的な入隊や下士官兵への配属を意味してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "軍事名詞義"
+        }
+      ]
+    },
+    {
+      "id": "IC09",
+      "surface_form": "in commission",
+      "frame": "ship/equipment be or remain in commission; put ship/equipment into commission",
+      "meaning": "船舶・設備が正式に就役中または使用可能な状態",
+      "disposition": "included",
+      "rationale": "本文の「be in commission」がこの候補の直接的な根拠である。状態を表す定着前置詞句であり、動詞の就役行為とは時間的な焦点が異なる。",
+      "semantic_assertions": [
+        {
+          "id": "IC09-A1",
+          "statement": "対象が正式な任務または実用に供されている状態でなければならない。",
+          "polarity": "must_hold",
+          "scope": "in commission"
+        }
+      ]
+    },
+    {
+      "id": "IC10",
+      "surface_form": "out of commission",
+      "frame": "machine/equipment be out of commission",
+      "meaning": "機械・設備が故障・整備などで使用不能の状態",
+      "disposition": "included",
+      "rationale": "本文の「be out of commission」がこの候補の直接的な根拠である。物理的対象の非稼働を表す生産的な慣用句である。",
+      "semantic_assertions": [
+        {
+          "id": "IC10-A1",
+          "statement": "機械・設備が一時的または継続的に使用できない状態を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "物についての out of commission"
+        },
+        {
+          "id": "IC10-A2",
+          "statement": "永久廃棄だけに限定してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "物についての out of commission"
+        }
+      ]
+    },
+    {
+      "id": "IC11",
+      "surface_form": "out of commission",
+      "frame": "person be out of commission; put someone out of commission",
+      "meaning": "人が負傷・病気などで一時的に活動不能の状態",
+      "disposition": "included",
+      "rationale": "本文の「put someone out of commission」がこの候補の直接的な根拠である。IC10からの比喩拡張だが、対象が人で活動能力を問題にするため独立フレームにする。",
+      "semantic_assertions": [
+        {
+          "id": "IC11-A1",
+          "statement": "人が通常の活動や任務を遂行できない状態を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "人についての out of commission"
+        }
+      ]
+    },
+    {
+      "id": "IC12",
+      "surface_form": "commission",
+      "frame": "commission someone to do X",
+      "meaning": "人・組織に特定の制作・調査・専門業務を正式に依頼する",
+      "disposition": "included",
+      "rationale": "本文の「commission someone to do 〈仕事〉」がこの候補の直接的な根拠である。依頼主を主語、実施者を目的語に置く主要な他動詞フレームである。",
+      "semantic_assertions": [
+        {
+          "id": "IC12-A1",
+          "statement": "直接目的語は依頼を受ける人または組織で、to不定詞は依頼業務を示さなければならない。",
+          "polarity": "must_hold",
+          "scope": "commission someone to do X"
+        },
+        {
+          "id": "IC12-A2",
+          "statement": "目的語を単に雇用することだけを意味してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "commission someone to do X"
+        }
+      ]
+    },
+    {
+      "id": "IC13",
+      "surface_form": "commission",
+      "frame": "commission a work/report/study; commission X from someone; X be commissioned by someone",
+      "meaning": "作品・報告・調査などの成果物を正式に発注する",
+      "disposition": "included",
+      "rationale": "本文の「commission 〈work〉 from someone」がこの候補の直接的な根拠である。成果物を直接目的語とし、制作者をfromで、依頼主を受動文のbyで示す他動詞フレームである。",
+      "semantic_assertions": [
+        {
+          "id": "IC13-A1",
+          "statement": "直接目的語は発注される成果物または専門業務でなければならない。",
+          "polarity": "must_hold",
+          "scope": "commission a work/report/study"
+        },
+        {
+          "id": "IC13-A2",
+          "statement": "from句は制作者、受動文のby句は依頼主という役割対応を保たなければならない。",
+          "polarity": "must_hold",
+          "scope": "commission X from Y / X be commissioned by Y"
+        }
+      ]
+    },
+    {
+      "id": "IC14",
+      "surface_form": "commission",
+      "frame": "commission someone as rank; be commissioned as rank; be commissioned into/in an armed service",
+      "meaning": "人を軍の士官に正式に任官させる",
+      "disposition": "included",
+      "rationale": "本文の「be commissioned as 〈officer rank〉」がこの候補の直接的な根拠である。一般的な仕事の依頼とは異なり、士官階級と権限を授与する軍事他動詞義である。",
+      "semantic_assertions": [
+        {
+          "id": "IC14-A1",
+          "statement": "対象者に軍の士官としての身分と権限を正式に与える関係でなければならない。",
+          "polarity": "must_hold",
+          "scope": "軍事動詞義"
+        },
+        {
+          "id": "IC14-A2",
+          "statement": "単なる軍への入隊や一般職への任命を意味してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "軍事動詞義"
+        }
+      ]
+    },
+    {
+      "id": "IC15",
+      "surface_form": "commission",
+      "frame": "commission a ship; ship be commissioned into service",
+      "meaning": "船舶を正式に就役させる",
+      "disposition": "included",
+      "rationale": "本文の「commission 〈ship〉」がこの候補の直接的な根拠である。公式な就役という制度的変化を表し、工学設備の検証工程とは作用内容が異なるため分離する。",
+      "semantic_assertions": [
+        {
+          "id": "IC15-A1",
+          "statement": "船舶を正式な現役・任務状態へ移す行為でなければならない。",
+          "polarity": "must_hold",
+          "scope": "船舶の就役義"
+        }
+      ]
+    },
+    {
+      "id": "IC16",
+      "surface_form": "commission",
+      "frame": "commission a system/equipment/facility; commissioning tests",
+      "meaning": "設備・システムを試験・調整・検証して運用可能と確認する",
+      "disposition": "included",
+      "rationale": "本文の「commission 〈system/equipment〉」がこの候補の直接的な根拠である。単なる起動ではなく、設計要件に対する試験・調整・検証を含み得る工学専門義である。",
+      "semantic_assertions": [
+        {
+          "id": "IC16-A1",
+          "statement": "設備・システムの安全性・性能・運用可能性を確認する工程を含まなければならない。",
+          "polarity": "must_hold",
+          "scope": "工学の commissioning 義"
+        },
+        {
+          "id": "IC16-A2",
+          "statement": "単にスイッチを入れる一回的操作と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "工学の commissioning 義"
+        }
+      ]
+    },
+    {
+      "id": "IC17",
+      "surface_form": "commissioner / commissioned / commissioning / decommission / recommission / commission-free",
+      "frame": "主要な派生語・分詞形・複合形",
+      "meaning": "委員・長官、依頼済み・任官済み・就役済み、発注・任命・試運転工程、運用停止・再就役、手数料無料",
+      "disposition": "included",
+      "rationale": "本文の「commission-free（形容詞）— 売買手数料のかからない。」がこの候補の直接的な根拠である。候補の意味「委員・長官、依頼済み・任官済み・就役済み、発注・任命・試運転工程、運用停止・再就役、手数料無料」に対応する。見出し語から規則的または定着的に派生し、現代の行政・軍事・工学・商取引で有用な語群である。",
+      "semantic_assertions": [
+        {
+          "id": "IC17-A1",
+          "statement": "各派生語は基体 commission の該当語義との意味関係を保持しなければならない。",
+          "polarity": "must_hold",
+          "scope": "派生語群"
+        },
+        {
+          "id": "IC17-A2",
+          "statement": "decommission を一時的な故障だけ、commission-free をあらゆる費用が無料という意味に一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "派生語群"
+        }
+      ]
+    },
+    {
+      "id": "IC18",
+      "surface_form": "commission",
+      "frame": "an official written commission or warrant",
+      "meaning": "権限・任官を付与する公式文書そのもの",
+      "disposition": "excluded",
+      "rationale": "本文の「士官任命、士官の地位・権限」がこの候補に隣接する記事上の根拠である。候補の意味「権限・任官を付与する公式文書そのもの」に対応する。歴史的・制度的には独立した換喩用法だが、現代一般学習者向け記事では軍事上の任官・地位・権限義に包摂して差し支えない周辺的用法である。",
+      "semantic_assertions": [
+        {
+          "id": "IC18-A1",
+          "statement": "独立採用する場合、指示対象は任官・権限そのものではなくそれを付与・証明する文書でなければならない。",
+          "polarity": "must_hold",
+          "scope": "公式文書義の採否"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "prompt_sha256": "1bb7b1a1c7f589a50a704d1ce6c1ecd0bfb1c9fb689fd481d21bf608438eb7b5",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-07T11:09:10.797255+00:00"
+}

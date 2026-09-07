@@ -1,0 +1,27 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "blind_request_sha256": "347e0e95e5208ed7fdaca94ff86292cdbd6e2630eb6d840fb38be39bfc9dd4d4",
+  "recorded_at": "2026-09-07T05:13:07-05:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-frame-agent"
+  },
+  "axes": [
+    {
+      "item_id": "ant-fb78bd32f311",
+      "axis": "運用移行",
+      "relation_type": "方向",
+      "reason": "commission は運用可能な状態へ移す方向、decommission は運用から外す方向を表す。"
+    },
+    {
+      "item_id": "ant-e74218a8b264",
+      "axis": "unnamable",
+      "relation_type": null,
+      "reason": "当該語義の in commission と in service はともに使用・運用中の状態を表し、二語間の対立を構成しない。"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/c/commission.md",
+  "input_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 469: grammar frame could not be classified: someone be commissioned as 〈officer rank〉＝人が～として任官する",
+    "line 469: grammar frame could not be classified: someone be commissioned into/in 〈armed service〉＝人が～軍の士官に任官する"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-09-07T09:49:00Z"
+}

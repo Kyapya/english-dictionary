@@ -1,0 +1,64 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-translation-agent"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 138,
+        "line_end": 138,
+        "exact_quote": "訳: 営業担当者の多くは基本給を受け取り、一部は歩合制で働いている。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の partly は、多くの営業担当者それぞれの働き方・報酬体系が部分的に歩合制であることを表す。一方、訳文の「一部は」は営業担当者の一部だけが歩合制で働くという別の数量範囲を作り、partly の修飾先を報酬体系から人の部分集合へ移している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている」など、partly が歩合制の割合を修飾する訳にする。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 368,
+        "line_end": 368,
+        "exact_quote": "訳: その調査船は30年以上にわたり就役していた。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の more than thirty years は30年を含まない厳密な超過を表すが、「30年以上」は30年ちょうども含む。期間の境界条件が保存されていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「30年を超えて」または「30年余りにわたり」とし、more than の超過方向を保存する。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 373,
+        "line_end": 373,
+        "exact_quote": "訳: 修理中のため、エレベーター2基が使用できない。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の while repairs are carried out は修理が行われている期間との時間的な同時性を述べるが、「修理中のため」は修理を使用不能の原因として明示する。英文が明示していない因果関係を追加している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「修理が行われている間、エレベーター2基は使用できない」など、時間関係として訳す。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 154,
+        "line_end": 154,
+        "exact_quote": "訳: 会社が目標を上回ったため、従業員は年次賞与を受け取った。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の after は会社が目標を上回った出来事と賞与受領の時間的前後関係だけを明示するが、訳文の「ため」は前者を後者の原因として断定する。文脈上推測できても、英文にない因果関係が追加されている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「会社が目標を上回った後、従業員は年次賞与を受け取った」など、明示された時間関係を保つ。"
+    }
+  ],
+  "unrouted_observations": []
+}

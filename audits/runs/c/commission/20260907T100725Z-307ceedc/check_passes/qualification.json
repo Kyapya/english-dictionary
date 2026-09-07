@@ -1,0 +1,39 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "commission-qualification-agent",
+    "same_model_as_generation": true
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 521,
+        "line_end": 521,
+        "exact_quote": "【日本語訳・定義】新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。  "
+      },
+      "severity": "blocking",
+      "rationale": "船舶を正式に就役させる用法と工学上の commissioning を一つの必須条件列にまとめたため、「新しい」対象であること、必要な試験・確認を経ること、直ちに使用を開始することが全フレームに含意される定義になっている。海事の commission は正式な就役行為を指し、試験自体を語彙的に必須とはしない。一方、工学の commissioning は既設・改修設備にも行われ得て、試験・調整・検証から引渡しまでの工程を指し、実運用開始そのものと常に同一ではない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "海事では「船舶を正式に就役させる」、工学では「設備・システムを試験・調整・検証して運用可能であることを確認し、引渡しへ進める」のように適用範囲を分け、「新しい」「使用を開始する」を全用法の必須条件にしない。"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 508,
+        "line_end": 508,
+        "exact_quote": "【語法・注意】この語義は単なる employ「雇う」や enlist「兵として入隊させる」と異なる。commissioned officer は士官、enlisted personnel は志願・徴募によって入隊した兵を表す。階級名の前の as は省略されることもあるが、学習者は be commissioned as a lieutenant の形を基本として覚えるとよい。  "
+      },
+      "severity": "blocking",
+      "rationale": "enlisted personnel を「志願・徴募という入隊経路で入った兵」と定義すると、commissioned / enlisted という身分上の区分を採用経路と混同する。enlisted personnel には軍種により水兵・航空兵等や non-commissioned officers も含まれ、「兵」だけでは専門的な範囲が狭すぎる。また区分や訳語は軍種・法域で異なるため、英語全体に一律の制度説明として提示できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "commissioned officer は commission を保持する士官、enlisted personnel は原則として commission を保持しない下士官兵・兵員という身分上の対照として説明し、warrant officer 等の境界や日本語訳は軍種・法域により異なることを明記する。"
+    }
+  ],
+  "unrouted_observations": []
+}
