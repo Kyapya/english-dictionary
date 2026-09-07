@@ -1,0 +1,307 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 46,
+        "label": "1. 【可算名詞】委員会、調査委員会、行政委員会",
+        "definition": "政府や公的機関などから、特定分野の調査、監督、規制、助言を行う正式な権限と責任を与えられた人々の組織を表す。固有の機関名では Commission と大文字で書くことがある。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 108,
+        "label": "2. 【可算・不可算名詞】歩合、販売手数料",
+        "definition": "商品やサービスの販売、契約成立などの成果に応じて、販売員や代理人へ支払われる報酬。売上額の一定割合であることが多いが、必ず割合とは限らない。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 170,
+        "label": "3. 【可算・不可算名詞】取扱手数料、仲介手数料",
+        "definition": "銀行、証券会社、仲介業者などが、両替、売買、送金その他の取引を処理する対価として顧客に請求する金額。取引額の一定割合の場合も定額の場合もある。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 220,
+        "label": "4. 【可算名詞】正式な依頼、発注、依頼作品",
+        "definition": "芸術作品、建築、文章、調査などを特定の人・組織に作成・実施してもらう正式な依頼または発注。文脈によって、その依頼を受けて制作された作品や、請け負った仕事そのものも指す。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 277,
+        "label": "5. 【不可算名詞・形式的】犯罪・不正行為を行うこと",
+        "definition": "犯罪、違反、不正行為などを実行することを表す形式的な名詞用法。通常、the commission of 〈crime/offence/act〉という固定的な形で使う。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 315,
+        "label": "6. 【可算名詞・軍事】士官任命、士官の地位・辞令",
+        "definition": "軍で士官としての階級と権限を正式に与える任命、その地位、またはそれを証明する文書を表す。一般的な入隊や配属そのものではない。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 353,
+        "label": "7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能",
+        "definition": "in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。"
+      },
+      {
+        "sense_id": "sense:008",
+        "line": 412,
+        "label": "8. 【他動詞】～を正式に依頼する、発注する",
+        "definition": "人や組織に、作品の制作、報告書・調査の作成、設計その他の専門的な仕事を正式に依頼し、実施するよう取り決める。依頼主を主語にし、人または成果物・仕事を目的語に取る。"
+      },
+      {
+        "sense_id": "sense:009",
+        "line": 481,
+        "label": "9. 【他動詞・通常受動・軍事】～を士官に任命する",
+        "definition": "軍で人を正式に士官として任官させ、階級と権限を与える。本人を主語にした受動形が特に多い。"
+      },
+      {
+        "sense_id": "sense:010",
+        "line": 519,
+        "label": "10. 【他動詞】船舶・設備などを就役・稼働させる",
+        "definition": "新しい船舶、機械、設備、システムなどについて、必要な試験・確認を経て正式に運用可能な状態へ移し、使用を開始する。船舶の正式な就役と、工学上の設備立ち上げの両方に使う。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-a5c4da363a92",
+        "example": "The research vessel remained in commission for more than thirty years.",
+        "translation": "その調査船は30年以上にわたり就役していた。"
+      },
+      {
+        "example_id": "ex-fc614ed77085",
+        "example": "Most sales staff receive a base salary and work partly on commission.",
+        "translation": "営業担当者の多くは基本給を受け取り、一部は歩合制で働いている。"
+      },
+      {
+        "example_id": "ex-d57f93583adf",
+        "example": "The board commissioned an independent study of the project's environmental impact.",
+        "translation": "取締役会はその事業の環境影響について独立調査を依頼した。"
+      },
+      {
+        "example_id": "ex-907048a41d6e",
+        "example": "The government set up an independent commission to investigate the disaster.",
+        "translation": "政府はその災害を調査する独立委員会を設置した。"
+      },
+      {
+        "example_id": "ex-0e502e3d65f7",
+        "example": "The broker charges a small commission on each trade.",
+        "translation": "その証券会社は取引ごとに少額の手数料を請求する。"
+      },
+      {
+        "example_id": "ex-85674a8757da",
+        "example": "The composer completed a commission from the city orchestra.",
+        "translation": "その作曲家は市のオーケストラから依頼された作品を完成させた。"
+      },
+      {
+        "example_id": "ex-a003e164c90b",
+        "example": "She takes commissions for custom illustrations through her website.",
+        "translation": "彼女はウェブサイトを通じて特注イラストの制作依頼を受けている。"
+      },
+      {
+        "example_id": "ex-1c473e506914",
+        "example": "The navy plans to put the new patrol ship into commission next spring.",
+        "translation": "海軍は来春、新しい巡視船を就役させる予定だ。"
+      },
+      {
+        "example_id": "ex-71fda7344426",
+        "example": "The turbine passed all commissioning tests before commercial operation began.",
+        "translation": "そのタービンは商業運転開始前に、すべての試運転試験に合格した。"
+      },
+      {
+        "example_id": "ex-7a374258ba05",
+        "example": "The buyer paid a commission to the broker who arranged the sale.",
+        "translation": "買い手は売買を取りまとめた仲介業者に手数料を支払った。"
+      },
+      {
+        "example_id": "ex-2c73e32fcea8",
+        "example": "The exchange service applies a commission of one percent.",
+        "translation": "その両替サービスでは1パーセントの手数料がかかる。"
+      },
+      {
+        "example_id": "ex-e6e4990f6c9e",
+        "example": "Two elevators are out of commission while repairs are carried out.",
+        "translation": "修理中のため、エレベーター2基が使用できない。"
+      },
+      {
+        "example_id": "ex-eac1f998f29c",
+        "example": "Parliament called for a commission of inquiry into the security failures.",
+        "translation": "議会はその安全保障上の失敗について調査委員会を設けるよう求めた。"
+      },
+      {
+        "example_id": "ex-e8e659368142",
+        "example": "Newly commissioned officers attended the leadership course.",
+        "translation": "新たに任官した士官たちは指揮官研修に参加した。"
+      },
+      {
+        "example_id": "ex-7639d5fa0780",
+        "example": "After completing the academy, she received a commission as a second lieutenant.",
+        "translation": "士官学校を修了後、彼女は少尉に任官した。"
+      },
+      {
+        "example_id": "ex-652e66d7d70c",
+        "example": "The navy commissioned the new vessel in a ceremony at the port.",
+        "translation": "海軍は港での式典でその新造船を就役させた。"
+      },
+      {
+        "example_id": "ex-ce626ab4464b",
+        "example": "Agents earn commission on every policy they sell.",
+        "translation": "代理店担当者は販売した保険契約ごとに歩合を得る。"
+      },
+      {
+        "example_id": "ex-9dcf2c462946",
+        "example": "He was accused of aiding others in the commission of the offence.",
+        "translation": "彼は他者によるその違反の実行を助けたとして告発された。"
+      },
+      {
+        "example_id": "ex-d2a3b86d83f8",
+        "example": "He held a commission in the Royal Navy for twelve years.",
+        "translation": "彼は12年間、英国海軍で士官の地位にあった。"
+      },
+      {
+        "example_id": "ex-56764891069f",
+        "example": "The museum commissioned a local artist to create a sculpture for the entrance.",
+        "translation": "美術館は地元の芸術家に、入口用の彫刻を制作するよう依頼した。"
+      },
+      {
+        "example_id": "ex-9e7d13baf4c3",
+        "example": "A shoulder injury put him out of commission for the rest of the season.",
+        "translation": "肩のけがにより、彼はシーズン残りを出場できなくなった。"
+      },
+      {
+        "example_id": "ex-701e768a650c",
+        "example": "The commission's report identified serious gaps in oversight.",
+        "translation": "委員会の報告書は監督体制の重大な不備を指摘した。"
+      },
+      {
+        "example_id": "ex-22cabc9b537c",
+        "example": "The platform advertises commission-free trading in selected funds.",
+        "translation": "そのプラットフォームは一部のファンドについて売買手数料無料をうたっている。"
+      },
+      {
+        "example_id": "ex-6f985669861b",
+        "example": "The officer resigned her commission and left the service.",
+        "translation": "その士官は任官を辞し、軍を去った。"
+      },
+      {
+        "example_id": "ex-59fa2e1bb7f2",
+        "example": "He was commissioned into the air force in 2022.",
+        "translation": "彼は2022年に空軍士官に任官した。"
+      },
+      {
+        "example_id": "ex-d1703408a234",
+        "example": "An independent commission on election reform will publish its recommendations next month.",
+        "translation": "選挙制度改革に関する独立委員会は来月、提言を公表する。"
+      },
+      {
+        "example_id": "ex-e6fc4ffc38cb",
+        "example": "She served on the national commission on child welfare for six years.",
+        "translation": "彼女は6年間、児童福祉に関する国家委員会の委員を務めた。"
+      },
+      {
+        "example_id": "ex-2322dd07b045",
+        "example": "The exhibition features a film specially commissioned for the anniversary.",
+        "translation": "その展覧会では記念日のために特別制作された映画を上映している。"
+      },
+      {
+        "example_id": "ex-3e6bcbd67e0c",
+        "example": "She was commissioned as a lieutenant after completing officer training.",
+        "translation": "彼女は士官訓練を修了後、中尉に任官した。"
+      },
+      {
+        "example_id": "ex-c7f63868edd3",
+        "example": "The survey was commissioned by the city council.",
+        "translation": "その調査は市議会の依頼で実施された。"
+      },
+      {
+        "example_id": "ex-a71d4077484d",
+        "example": "The evidence linked the weapon to the commission of the crime.",
+        "translation": "その証拠により、凶器とその犯罪の実行が結び付けられた。"
+      },
+      {
+        "example_id": "ex-24206022a43c",
+        "example": "She receives a ten percent commission on all new contracts.",
+        "translation": "彼女はすべての新規契約について10パーセントの歩合を受け取る。"
+      },
+      {
+        "example_id": "ex-8b04c841fcdb",
+        "example": "The orchestra commissioned a new symphony from the composer.",
+        "translation": "そのオーケストラは作曲家に新しい交響曲を依頼した。"
+      },
+      {
+        "example_id": "ex-0d9e912f17d2",
+        "example": "The artist accepted a private commission for a family portrait.",
+        "translation": "その画家は家族肖像画の個人的な制作依頼を引き受けた。"
+      },
+      {
+        "example_id": "ex-aa07e1aaff3a",
+        "example": "Commission-based pay can create strong incentives to close deals quickly.",
+        "translation": "歩合中心の報酬制度は、取引を早く成立させる強い動機を生むことがある。"
+      },
+      {
+        "example_id": "ex-9132813d1b31",
+        "example": "The gallery pays its representatives a commission for each painting sold.",
+        "translation": "その画廊は絵が売れるたびに販売担当者へ歩合を支払う。"
+      },
+      {
+        "example_id": "ex-9a2fcdf323a2",
+        "example": "Engineers will commission the new control system before the plant reopens.",
+        "translation": "工場の再開前に、技術者が新しい制御システムを立ち上げて運用可能にする。"
+      },
+      {
+        "example_id": "ex-44bc911c7839",
+        "example": "The hospital's backup generator was commissioned into service last week.",
+        "translation": "その病院の非常用発電機は先週、正式に運用開始となった。"
+      },
+      {
+        "example_id": "ex-c5f575a2c63d",
+        "example": "The architect received a commission to design the new library.",
+        "translation": "その建築家は新しい図書館を設計する依頼を受けた。"
+      },
+      {
+        "example_id": "ex-0b8f9c274264",
+        "example": "No one was injured during the commission of the robbery.",
+        "translation": "その強盗の実行中にけが人は出なかった。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "8518a3adc40ce4cbce1cb5cb38779fdae3e2432ff08a459a570ae20078ed7630",
+  "normalized_input_sha256": "bf766473ec8b2ef259122018499a8849bb64c9f3708f26ff8f8baada027349f8"
+}

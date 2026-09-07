@@ -384,6 +384,22 @@ tags: []
 
 【語法・注意】out of commission は必ずしも永久的な廃棄を意味せず、一時的な故障・負傷にも使う。船舶の正式な就役・退役を述べる場合は海事・軍事上の意味になり、一般の機械については「使用可能／不能」という比喩的拡張である。  
 
+【類義語】
+
+・operational  
+定義: 機械・設備・組織などが作動・運用できる状態にある。  
+頻度: 〈7/10〉  
+違い: in commission と同じく使用可能な側を表すが、operational は正式な就役の有無を問わず機能している状態を直接述べる。  
+例: The emergency communications system is fully operational.  
+訳: 緊急通信システムは完全に稼働している。  
+
+・out of service  
+定義: 機械・設備・交通手段などが使用・運行できない状態にある。  
+頻度: 〈7/10〉  
+違い: out of commission の使用不能側に近い。out of service は設備・交通手段に広く使い、out of commission は人の一時的な活動不能にも比喩的に使える。  
+例: The ticket machine is temporarily out of service.  
+訳: その券売機は一時的に使用できない。  
+
 【反意語】
 
 ・in service  
