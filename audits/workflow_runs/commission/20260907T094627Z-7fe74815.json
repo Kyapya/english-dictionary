@@ -14,15 +14,15 @@
     "max_candidate_pages": 18
   },
   "usage": {
-    "research_queries": 0,
-    "candidate_pages": 0
+    "research_queries": 5,
+    "candidate_pages": 9
   },
-  "status": "in_progress",
-  "stage": "preflight_pushed",
+  "status": "budget_exhausted",
+  "stage": "normal_review_complete",
   "started_at": "2026-09-07T09:46:27Z",
   "deadline_at": "2026-09-07T10:46:27Z",
   "pre_draft_deadline_at": "2026-09-07T10:06:27Z",
-  "last_heartbeat_at": "2026-09-07T09:47:59Z",
+  "last_heartbeat_at": "2026-09-07T10:03:57Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-07T09:47:59Z",
@@ -38,10 +38,28 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-07T09:47:59Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-07T09:51:01Z",
+      "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-07T10:03:46Z",
+      "notes": "orchestrator completed checker_passes"
+    },
+    {
+      "stage": "normal_review_complete",
+      "recorded_at": "2026-09-07T10:03:46Z",
+      "notes": "orchestrator completed checker_passes"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "cold_review handoff ingestion failed 3 times",
+  "open_questions": [
+    "last cold_review ingestion error: B2_rationale_not_grounded: cold review findings item COLD-001 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-003 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-004 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-005 rationale does not contain a target exact quote",
+    "fix the handoff response contract before resuming this run"
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
@@ -495,7 +513,14 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:standard"
+      "construction:idiom",
+      "domain:engineering",
+      "domain:finance",
+      "domain:military",
+      "headword:commission",
+      "part_of_speech:noun",
+      "part_of_speech:transitive_verb",
+      "polysemy:high"
     ],
     "snapshots": [
       {
@@ -522,8 +547,54 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
-    "pending_events": [],
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/c/commission/20260907T094627Z-7fe74815/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260907T094627Z-7fe74815:generation:68d73fe28a0a",
+        "recorded_at": "2026-09-07T09:51:01Z"
+      }
+    },
+    "pending_events": [
+      {
+        "event_id": "pending:20260907T094627Z-7fe74815:checker_passes:19fbb9665db9",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "frame-relation stage 1: antonym axis record is missing items: ant-3f058ca86292, ant-9cb1596f2b7f; antonym axis record has unknown items: ant-10019e6cc058, ant-6bbebf439d3d",
+        "status": "pending",
+        "recorded_at": "2026-09-07T09:52:16Z"
+      },
+      {
+        "event_id": "pending:20260907T094627Z-7fe74815:checker_passes:7971a87717a6",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "checker_passes",
+        "fact": "blind_attribution_record.schema_version must be example_attribution_blind_record_v1; blind_attribution_record.recorded_at must be an aware ISO timestamp; blind_attribution_record.input_body_sha256 must be a sha256; blind_attribution_record.blind_request_sha256 must be a sha256; blind attribution body hash does not match its stage 1 request; blind attribution request hash does not match stage 1 input; blind_attribution_record.attributions must be a list",
+        "status": "pending",
+        "recorded_at": "2026-09-07T09:55:56Z"
+      },
+      {
+        "event_id": "pending:20260907T094627Z-7fe74815:cold_review:8698074667ee",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "cold_review",
+        "fact": "next stage is not cold_review",
+        "status": "pending",
+        "recorded_at": "2026-09-07T10:02:07Z"
+      },
+      {
+        "event_id": "pending:20260907T094627Z-7fe74815:cold_review:219df4cefbf9",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "cold_review",
+        "fact": "B2_rationale_not_grounded: cold review findings item COLD-001 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-003 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-004 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-005 rationale does not contain a target exact quote",
+        "status": "pending",
+        "recorded_at": "2026-09-07T10:03:57Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
@@ -546,28 +617,28 @@
         "id": "generation",
         "instruction_bytes": 55034,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "duration_seconds": 300.0,
+        "defects_detected": 15,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "cold_review",
@@ -655,58 +726,58 @@
       {
         "id": "translation",
         "instruction_bytes": 2402,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 47065,
+        "duration_seconds": 180.0,
+        "defects_detected": 4,
+        "completed": true
       },
       {
         "id": "sense-structure",
         "instruction_bytes": 3031,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 13500,
+        "duration_seconds": 180.0,
+        "defects_detected": 2,
+        "completed": true
       },
       {
         "id": "frame-relation",
         "instruction_bytes": 8294,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 2574,
+        "duration_seconds": 300.0,
+        "defects_detected": 1,
+        "completed": true
       },
       {
         "id": "example-attribution",
         "instruction_bytes": 5552,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 15289,
+        "duration_seconds": 240.0,
+        "defects_detected": 1,
+        "completed": true
       },
       {
         "id": "qualification",
         "instruction_bytes": 2876,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 37761,
+        "duration_seconds": 180.0,
+        "defects_detected": 2,
+        "completed": true
       },
       {
         "id": "pronunciation",
         "instruction_bytes": 1815,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1305,
+        "duration_seconds": 120.0,
         "defects_detected": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "evidence",
         "instruction_bytes": 3260,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "completed": false
+        "input_bytes": 89804,
+        "duration_seconds": 240.0,
+        "defects_detected": 5,
+        "completed": true
       }
     ],
     "process_rules": [],
@@ -717,10 +788,32 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 4,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator",
+      "checker_passes"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/c/commission.md",
+        "audits/runs/c/commission/20260907T094627Z-7fe74815/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/c/commission/20260907T094627Z-7fe74815/validator.json"
+      ],
+      "checker_passes": [
+        "audits/runs/c/commission/20260907T094627Z-7fe74815/source_inventory.json",
+        "audits/runs/c/commission/20260907T094627Z-7fe74815/check_passes/",
+        "audits/runs/c/commission/20260907T094627Z-7fe74815/pass_findings.json"
+      ]
+    }
+  },
+  "review_ingest_failures": {
+    "stage": "cold_review",
+    "count": 3,
+    "last_error": "B2_rationale_not_grounded: cold review findings item COLD-001 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-002 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-003 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-004 rationale does not contain a target exact quote; B2_rationale_not_grounded: cold review findings item COLD-005 rationale does not contain a target exact quote",
+    "last_failed_at": "2026-09-07T10:03:57Z"
   }
 }

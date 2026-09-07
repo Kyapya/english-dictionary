@@ -1,0 +1,17 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/c/commission.md",
+  "input_body_sha256": "4ab58d0a9b82ee8b0ade3bc81ddbd1b7a34b2d50961f3dbe201fd02a0f6e5ab8",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 409: grammar frame could not be classified: 〈work〉 be commissioned by 〈依頼主〉＝仕事が～によって依頼される",
+    "line 478: grammar frame could not be classified: someone be commissioned as 〈officer rank〉＝人が～として任官する",
+    "line 478: grammar frame could not be classified: someone be commissioned into/in 〈armed service〉＝人が～軍の士官に任官する",
+    "line 516: grammar frame could not be classified: 〈ship/system〉 be commissioned＝船・システムが就役・稼働する"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-09-07T09:49:00Z"
+}
