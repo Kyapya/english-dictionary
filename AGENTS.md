@@ -12,6 +12,23 @@ python scripts/start_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
 
+実行環境の保存経路は開始前に決める。WorkのGitHub接続を使う場合は
+`start_word.py <headword> --publish-mode connector --reviewer-mode handoff` を使う。
+`publication_pending` は正常な引き渡しであり、`scripts/publish_checkpoint.js` を
+GitHub接続で実行してから同じrunをresumeする（手順はREADME）。通常pushの資格情報が
+ないことが既知なら `git push` を試さない。認証済みGitを使う環境だけ `--publish-mode git`
+を指定する。権限・保護ルールの拒否を別経路で回避しない。
+
+handoffの担当は応答保存後、`--resume <run> --validate-review <stage>` と担当ID・モデルを
+指定して事前検証し、指摘をまとめて修正したうえで正式取り込みする。事前検証はLLMを
+呼ばず、正式取り込みと同じ処理を一時コピーで実行する。検証の反復を新たな無制限の
+修正ループにしない。同じ未修正応答の再投入、失敗回数を戻すための新run作成は禁止。
+
+新runの検査入力は固定される。`check_passes/input_snapshot.json` と元のrequestを
+上書きせず、変更後は既存のrevision/recheck経路を使う。出典の使用回数等も再検査前に
+確定させる。最終レビュー前にblind/sealを先行commit・反映し、必須入力の存在、
+最新版の検査、対象IDと回答ひな形を機械確認する。ひな形の未判定をpassとみなさない。
+
 同一見出し語の未完了runは新規作成せず、オーケストレータの出力どおりに再開する。
 checker、example-attribution、cold review、final blind、final reviewは生成担当と
 独立した `scripts/review_call.py` または handoff のサブエージェント出力だけを受け付ける。

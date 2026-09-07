@@ -4,6 +4,10 @@
 
 ## 開始順序
 
+現在の公開入口は `scripts/start_word.py` である。以下の低水準コマンドはguardの説明用。
+WorkのGitHub接続ではREADMEの `--publish-mode connector` と転送処理を使い、
+各箇所の「push」は選択済み経路での保存を意味する。資格情報のない通常pushは試さない。
+
 外部資料の検索、本文の語義判断、サブエージェント起動より先に、専用branchを作り、次を実行する。
 
 ```bash

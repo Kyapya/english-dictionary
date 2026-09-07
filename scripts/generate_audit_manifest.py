@@ -259,6 +259,11 @@ def _validate_workflow_improvement_artifacts(
             current_body_sha256=current_hash,
         )
     )
+    if (cycle_dir / "check_passes" / "input_snapshot.json").is_file():
+        current_source_hash = _sha_bytes(_canonical(raw["source_inventory"].get("source_first_audit")))
+        for result in values["checker_recheck_manifest"].get("pass_results", []):
+            if result.get("source_artifact_sha256") != current_source_hash:
+                errors.append(f"{result.get('pass_id')}: recheck/reuse source is stale")
     errors.extend(
         workflow_revision.final_blind_chronology_errors(
             cold_review=raw["cold_review"],
@@ -702,7 +707,14 @@ def generate_manifest(
             _read_json(request_path) if request_path.is_file() else None
         )
         if workflow_revision_raw is not None and isinstance(base_request_payload, dict):
-            source_first = raw["source_inventory"].get("source_first_audit")
+            snapshot_path = cycle_dir / "check_passes" / "input_snapshot.json"
+            bound_source = raw["source_inventory"]
+            if snapshot_path.is_file():
+                snapshot = _read_json(snapshot_path)
+                bound_source = snapshot["source_inventory"]
+                if snapshot["request_hashes"].get(pass_id) != _sha_bytes(_canonical(base_request_payload)):
+                    raise ValueError(f"pass output {pass_id}: original request changed after dispatch")
+            source_first = bound_source.get("source_first_audit")
             expected_source_hash = (
                 _sha_bytes(_canonical(source_first))
                 if isinstance(source_first, dict)
@@ -716,7 +728,7 @@ def generate_manifest(
                 context = base_request_payload.get("evidence_context")
                 if not isinstance(context, dict) or context.get(
                     "source_inventory_sha256"
-                ) != _sha_bytes(_canonical(raw["source_inventory"])):
+                ) != _sha_bytes(_canonical(bound_source)):
                     raise ValueError(
                         "pass output evidence: source inventory hash mismatch"
                     )
