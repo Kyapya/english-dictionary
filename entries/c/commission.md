@@ -29,7 +29,7 @@ tags: []
 
 ＃コアイメージ
 
-権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。  
+権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は commit「行う、犯す」に対応する「行為の実行」の意味で、特に犯罪・違反などについて使われる。現代の「委ねる」という核から導きにくいため個別に参照する。  
 
 ・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）  
 ・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）  
@@ -133,7 +133,7 @@ tags: []
 訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。  
 
 ・work on commission  
-用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。  
+用途: 報酬の全部または一部が、売上・取引成果に応じて決まる形で働く。  
 例: Most sales staff receive a base salary and work partly on commission.  
 訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。  
 
@@ -301,7 +301,7 @@ tags: []
 例: He was accused of aiding others in the commission of the offence.  
 訳: 彼は他者によるその違反の実行を助けたとして告発された。  
 
-【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。通常は単独で自由に使わず、the commission of の後ろに犯罪・違反・不正行為を置く。  
+【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。特に the commission of a crime/an offence のように、犯罪・違反などの実行を表す形で使う。errors of commission は、誤ったことをしてしまうタイプのミスを指し、犯罪や故意の不正に限らない。  
 
 【類義語】
 
@@ -350,7 +350,7 @@ tags: []
 例: Her appointment as ambassador was confirmed by the senate.  
 訳: 彼女の大使任命は上院で承認された。  
 
-7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能
+7. 【慣用表現】就役中・稼働中／使用不能・任務不能
 
 【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。  
 
@@ -430,14 +430,14 @@ tags: []
 ・be commissioned by 〈依頼主〉  
 用途: 作品・調査などを依頼した主体を受動形で示す。  
 例: The survey was commissioned by the city council.  
-訳: その調査は市議会の依頼で実施された。  
+訳: その調査は市議会によって正式に依頼された。  
 
 ・specially commissioned for 〈目的・機会〉  
 用途: 特定の目的や行事のために特別に依頼制作されたことを示す。  
 例: The exhibition features a film specially commissioned for the anniversary.  
 訳: その展覧会では記念日のために特別制作された映画を上映している。  
 
-【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。commission someone for a job は文脈によって不自然になりやすく、正式な制作依頼なら commission someone to do the work とする。  
+【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。  
 
 【類義語】
 
@@ -562,6 +562,6 @@ tags: []
 ・decommission  
 定義: 船舶、設備、施設などを正式に運用から外す。  
 頻度: 〈5/10〉  
-違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  
+違い: commission が船舶・設備を就役・運用に入れる意味で使われる場合、decommission はそれらを正式に運用から外すことを表す。  
 例: The operator plans to decommission the old reactor by 2030.  
 訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。  
