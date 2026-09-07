@@ -6,13 +6,15 @@ on:
       - "entries/**/*.md"
       - "audits/**"
       - "process_improvement/**"
-      - "queue/words.csv"
+      - "queue/**"
+      - "docs/multiword_workflow.md"
       - "prompts/**/*.md"
       - "scripts/**/*.py"
       - "scripts/**/*.js"
       - "tests/**/*.py"
       - "tests/**/*.cjs"
       - ".github/workflows/validate.yml"
+      - ".github/workflows/sync-notion.yml"
       - "AGENTS.md"
       - "README.md"
   workflow_dispatch:
@@ -41,6 +43,9 @@ jobs:
 
       - name: Run unit tests
         run: python -m unittest discover -s tests -v
+
+      - name: Validate word batch intake
+        run: python scripts/run_words.py validate
 
       - name: Validate entry formats
         run: python scripts/validate_entry.py entries
