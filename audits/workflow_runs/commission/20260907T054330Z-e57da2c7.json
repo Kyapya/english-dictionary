@@ -17,12 +17,12 @@
     "research_queries": 0,
     "candidate_pages": 0
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "preflight",
   "started_at": "2026-09-07T05:43:30Z",
   "deadline_at": "2026-09-07T06:43:30Z",
   "pre_draft_deadline_at": "2026-09-07T06:03:30Z",
-  "last_heartbeat_at": "2026-09-07T05:43:30Z",
+  "last_heartbeat_at": "2026-09-07T09:09:46Z",
   "remote_checkpoint": {
     "confirmed": false,
     "confirmed_at": null,
@@ -35,7 +35,7 @@
       "notes": "run initialized"
     }
   ],
-  "stop_reason": "",
+  "stop_reason": "overall elapsed-time budget exhausted",
   "open_questions": [],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
@@ -518,7 +518,17 @@
       }
     ],
     "processing": {},
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260907T054330Z-e57da2c7:generation:878fa750798b",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "budget_exhausted",
+        "stage": "generation",
+        "fact": "overall elapsed-time budget exhausted",
+        "status": "pending",
+        "recorded_at": "2026-09-07T09:09:46Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
