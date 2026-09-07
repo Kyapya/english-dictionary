@@ -103,6 +103,21 @@ class ReviewPreflightTests(unittest.TestCase):
         self.assertTrue(result["valid"])
         self.assertEqual(hashes, {p: p.read_bytes() for p in self.cycle.rglob("*.json")})
 
+    def test_same_invalid_response_does_not_exhaust_three_attempts(self):
+        manifest = json.loads(self.manifest.read_text())
+        manifest.update(status="in_progress", stage="normal_review_complete", review_preflight=preflight.VERSION)
+        manifest["orchestrator_state"]["next_stage_index"] = 4
+        path = self.root / "retry.json"
+        path.write_text(json.dumps(manifest))
+        implementation = run_word._parallel._v3
+        with mock.patch.object(implementation, "REPO_ROOT", self.root), mock.patch.object(implementation, "retry_pending_process_improvement"), mock.patch.object(implementation, "record_pending_process_event"), mock.patch.object(preflight, "validate", side_effect=ValueError("fixture format error")) as validation, mock.patch("sys.stdout", new_callable=io.StringIO):
+            for _ in range(3):
+                self.assertEqual(implementation._resume(path, ingest_review="cold_review", declared_model="gpt-5", reviewer_agent_id="independent"), 1)
+        result = json.loads(path.read_text())
+        self.assertEqual(result["status"], "in_progress")
+        self.assertEqual(result["review_ingest_failures"]["count"], 1)
+        self.assertEqual(validation.call_count, 1)
+
 
 class PublishTests(unittest.TestCase):
     @unittest.skipUnless(shutil.which("node"), "Node is needed only for the Work connector adapter")

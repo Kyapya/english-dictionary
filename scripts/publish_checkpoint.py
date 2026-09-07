@@ -14,7 +14,7 @@ from pathlib import Path
 
 
 def git(root: Path, *args: str) -> str:
-    return subprocess.check_output(["git", "-C", str(root), *args], text=True).strip()
+    return subprocess.check_output(["git", "-C", str(root), *args], text=True, stderr=subprocess.PIPE).strip()
 
 
 def mode(root: Path) -> str:
@@ -49,8 +49,8 @@ def publish(root: Path) -> bool:
     return True
 
 
-def plan(root: Path, *, check_remote: bool = True) -> dict:
-    if git(root, "status", "--porcelain"):
+def plan(root: Path, *, check_remote: bool = True, check_clean: bool = True) -> dict:
+    if check_clean and git(root, "status", "--porcelain"):
         raise ValueError("commit the intended changes before publishing")
     previous = receipt(root)
     branch = git(root, "branch", "--show-current")
@@ -81,7 +81,7 @@ def plan(root: Path, *, check_remote: bool = True) -> dict:
 
 
 def accept(root: Path, remote_head: str) -> dict:
-    publication = plan(root, check_remote=False)
+    publication = plan(root, check_remote=False, check_clean=False)
     branch = publication["branch"]
     actual = git(root, "ls-remote", "--heads", "origin", "refs/heads/" + branch).split()
     if not actual or actual[0] != remote_head:
