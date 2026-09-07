@@ -90,6 +90,10 @@ def _parallel_cold_request(
         ),
     }
     path = cycle_dir / "cold_review.request.json"
+    if manifest.get("review_preflight") == _v3.review_preflight.VERSION:
+        packet["contract_version"] = _v3.review_preflight.VERSION
+        _v3.review_preflight.freeze(path, packet)
+        return path, packet
     path.write_text(
         json.dumps(packet, ensure_ascii=False, indent=2) + "\n", encoding="utf-8"
     )

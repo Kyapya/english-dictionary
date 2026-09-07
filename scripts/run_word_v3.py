@@ -17,6 +17,8 @@ import process_improvement
 import review_liveness
 import review_call
 import validate_entry
+import publish_checkpoint
+import review_preflight
 from slugify import slugify
 
 
@@ -1005,6 +1007,14 @@ def prepare_review_inputs(
             require_evidence_context=guarded_new_run,
         )
         bundles_by_id = {str(item["pass_id"]): item for item in bundles}
+        if manifest.get("review_preflight") == review_preflight.VERSION:
+            review_preflight.freeze(check_dir / "input_snapshot.json", {
+                "source_inventory": source_inventory,
+                "input_body_sha256": hashlib.sha256(_entry_body(entry).encode()).hexdigest(),
+                "request_hashes": {item["pass_id"]: review_preflight.digest(item) for item in bundles},
+            })
+            for item in bundles:
+                review_preflight.freeze(check_dir / f"{item['pass_id']}.request.json", item)
         paths = check_passes.write_bundles(bundles, check_dir)
         alignment = check_passes.build_example_attribution_alignment_key(
             entry, repo_root=repo_root, blind_seed=str(manifest["run_id"])
@@ -1048,6 +1058,8 @@ def prepare_review_inputs(
         ),
     }
     if stage == "final_review":
+        if manifest.get("review_preflight") == review_preflight.VERSION:
+            packet.update(review_preflight.final_inputs(entry, cycle_dir, repo_root))
         for name in (
             "pass_findings.json",
             "cold_review.json",
@@ -1071,6 +1083,10 @@ def prepare_review_inputs(
                 "blind_output_sha256"
             ]
     packet_path = cycle_dir / f"{stage}.request.json"
+    if manifest.get("review_preflight") == review_preflight.VERSION:
+        packet["contract_version"] = review_preflight.VERSION
+        review_preflight.freeze(packet_path, packet)
+        return [packet_path], packet
     packet_path.parent.mkdir(parents=True, exist_ok=True)
     packet_path.write_text(
         json.dumps(packet, ensure_ascii=False, indent=2) + "\n",
@@ -1388,6 +1404,8 @@ def ingest_handoff_review(
         request_packet = json.loads(
             request_packet_path.read_text(encoding="utf-8")
         )
+        if request_packet.get("contract_version") == review_preflight.VERSION:
+            review_preflight.check_bindings(request_packet, entry, cycle_dir)
         metadata = request_packet.get("_output_metadata")
         if not isinstance(metadata, dict):
             raise ValueError("review request has no output metadata")
@@ -2344,7 +2362,7 @@ def _commit_and_push(repo_root: Path, paths: Iterable[Path], message: str) -> st
     _git(repo_root, "commit", "-m", message)
     sha = _git(repo_root, "rev-parse", "HEAD")
     branch = _current_branch(repo_root)
-    _git(repo_root, "push", "-u", "origin", f"HEAD:{branch}")
+    publish_checkpoint.publish(repo_root)
     return sha
 
 
@@ -2384,8 +2402,7 @@ def record_entry_revision(
     _git(repo_root, "commit", "-m", f"entry({slug}): {reason.strip()}")
     sha = _git(repo_root, "rev-parse", "HEAD")
     if push:
-        branch = _current_branch(repo_root)
-        _git(repo_root, "push", "-u", "origin", f"HEAD:{branch}")
+        publish_checkpoint.publish(repo_root)
     return sha
 
 
@@ -2396,7 +2413,9 @@ def start_workflow(
     profile: str = "standard",
     reason: str = "",
     reviewer_mode: str = "api",
+    publish_mode: str = "connector",
 ) -> Path:
+    publish_checkpoint.select(repo_root, publish_mode)
     branch = _current_branch(repo_root)
     base = _base_sha(repo_root)
     run_path, manifest = create_guard_manifest(
@@ -2408,6 +2427,9 @@ def start_workflow(
         reason=reason,
         reviewer_mode=reviewer_mode,
     )
+    manifest["publication"] = {"mode": publish_mode}
+    manifest["review_preflight"] = review_preflight.VERSION
+    guard._write(run_path, manifest)
     pi_paths: list[Path] = []
     pi_context = manifest.get("process_improvement")
     if isinstance(pi_context, dict):
@@ -2421,6 +2443,8 @@ def start_workflow(
         (run_path, *pi_paths),
         f"workflow({slugify(headword)}): initialize guarded run",
     )
+    if publish_mode == "connector":
+        return run_path
     if not guard.confirm_remote_checkpoint(
         manifest,
         manifest_path=run_path,
@@ -2485,6 +2509,22 @@ def _resume(
 ) -> int:
     resolved = path.resolve()
     manifest = guard._read(resolved)
+    publication = manifest.get("publication", {})
+    if publication.get("mode") in {"git", "connector"}:
+        publish_checkpoint.select(REPO_ROOT, publication["mode"])
+    if publication.get("mode") == "connector":
+        if not publish_checkpoint.publish(REPO_ROOT):
+            print(json.dumps({"status": "publication_pending", "run": str(resolved), "action": "run scripts/publish_checkpoint.js through the GitHub connector"}))
+            return 0
+        if manifest.get("stage") == "preflight":
+            receipt = publish_checkpoint.receipt(REPO_ROOT)
+            if not guard.confirm_remote_checkpoint(manifest, manifest_path=resolved, commit_sha=receipt["remote_head"], repo_root=REPO_ROOT):
+                guard._write(resolved, manifest)
+                return 2
+            guard._write(resolved, manifest)
+            _commit_and_push(REPO_ROOT, (resolved,), "Confirm connector workflow checkpoint")
+            print(json.dumps({"status": "publication_pending", "action": "publish confirmation checkpoint, then resume the same run"}))
+            return 0
     if not isinstance(manifest.get("process_improvement"), dict):
         try:
             epoch = process_improvement.current_epoch(REPO_ROOT)
@@ -2530,6 +2570,23 @@ def _resume(
     api_review_paths: list[Path] = []
     if ingest_review:
         try:
+            if manifest.get("review_preflight") == review_preflight.VERSION:
+                pending = next_stage_request(manifest)
+                cycle = (REPO_ROOT / pending["output_paths"][-1 if ingest_review == "checker_passes" else 0]).parent
+                fingerprint = review_preflight.digest({
+                    "stage": ingest_review, "model": declared_model, "agent": reviewer_agent_id,
+                    "files": {str(p.relative_to(cycle)): hashlib.sha256(p.read_bytes()).hexdigest() for p in sorted(cycle.rglob("*.json"))},
+                    "body": _entry_body(REPO_ROOT / manifest["entry_path"]),
+                })
+                failed = manifest.get("last_rejected_review", {})
+                if failed.get("fingerprint") == fingerprint:
+                    print(json.dumps({"status": "unchanged_invalid_response", "error": failed["error"]}, ensure_ascii=False))
+                    return 1
+                try:
+                    review_preflight.validate(manifest, stage=ingest_review, declared_model=declared_model, reviewer_agent_id=reviewer_agent_id or None, repo_root=REPO_ROOT, ingest=ingest_handoff_review)
+                except Exception as exc:
+                    manifest["last_rejected_review"] = {"fingerprint": fingerprint, "error": str(exc)}
+                    raise
             ingested_path = ingest_handoff_review(
                 manifest,
                 stage=ingest_review,
@@ -2541,6 +2598,7 @@ def _resume(
                 manifest, resolved, stage=ingest_review, error=exc
             )
         guard.clear_review_ingest_failures(manifest)
+        manifest.pop("last_rejected_review", None)
         guard._write(resolved, manifest)
     elif call_review:
         stage_name = (next_stage_request(manifest) or {}).get("name", "review")
@@ -2609,8 +2667,10 @@ def build_parser() -> argparse.ArgumentParser:
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--resume", type=Path)
     parser.add_argument(
-        "--reviewer-mode", choices=("api", "handoff"), default="api"
+        "--reviewer-mode", choices=("api", "handoff"), default="api" if os.environ.get("DICT_REVIEW_API_KEY") else "handoff"
     )
+    parser.add_argument("--publish-mode", choices=("git", "connector"), default="connector")
+    parser.add_argument("--validate-review", choices=sorted(REVIEW_STAGES))
     parser.add_argument("--ingest-review", choices=sorted(REVIEW_STAGES))
     parser.add_argument("--call-review", action="store_true")
     parser.add_argument("--declared-model", default="")
@@ -2633,6 +2693,16 @@ def build_parser() -> argparse.ArgumentParser:
 
 def main() -> int:
     args = build_parser().parse_args()
+    if args.validate_review:
+        if not args.resume or args.ingest_review or args.call_review or args.headword:
+            raise SystemExit("--validate-review requires only --resume and reviewer identity options")
+        try:
+            result = review_preflight.validate(guard._read(args.resume.resolve()), stage=args.validate_review, declared_model=args.declared_model, reviewer_agent_id=args.reviewer_agent_id or None, repo_root=REPO_ROOT, ingest=ingest_handoff_review)
+        except Exception as exc:
+            print(json.dumps({"valid": False, "error": str(exc)}, ensure_ascii=False))
+            return 1
+        print(json.dumps(result))
+        return 0
     if args.complete_stage:
         if (
             args.headword
@@ -2733,6 +2803,7 @@ def main() -> int:
         profile=args.profile,
         reason=args.reason,
         reviewer_mode=args.reviewer_mode,
+        publish_mode=args.publish_mode,
     )
     print(path.relative_to(REPO_ROOT))
     return 0

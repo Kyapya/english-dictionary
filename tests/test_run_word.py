@@ -25,7 +25,7 @@ class RunWordTests(unittest.TestCase):
     def test_dry_run_prints_complete_stage_contract_without_writing(self) -> None:
         before = set((REPO_ROOT / "audits" / "workflow_runs").rglob("*.json"))
         completed = subprocess.run(
-            [sys.executable, "scripts/run_word.py", "--dry-run", "test word"],
+            [sys.executable, "scripts/run_word.py", "--dry-run", "test word", "--reviewer-mode", "api"],
             cwd=REPO_ROOT,
             check=True,
             stdout=subprocess.PIPE,

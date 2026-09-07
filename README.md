@@ -12,6 +12,60 @@ python scripts/start_word.py <headword>
 python scripts/run_word.py --resume <audits/workflow_runs/...json>
 ```
 
+### 実行前の保存経路・レビュー方式
+
+新規runはAPIキーがなければhandoffを選ぶ。GitHub接続で作業するWorkでは、明示的に
+`python scripts/start_word.py <headword> --publish-mode connector --reviewer-mode handoff`
+を使う。通常のGit認証が設定済みの環境は `--publish-mode git` を指定する。
+保存経路はrunにも記録される。開始後の `publication_pending` はエラーではなく、
+ローカルcommitを接続APIへ渡す状態である。
+
+Workのcode modeでは、以下の要領でchecked-inの転送処理を呼ぶ。`root` は実際の
+checkoutの絶対パスにする。スクリプトを読む前に現在のcheckoutと変更内容を確認する。
+
+```javascript
+const root = "/absolute/path/to/english-dictionary";
+const loaded = await tools.exec_command({
+  cmd: "sed -n '1,240p' scripts/publish_checkpoint.js",
+  workdir: root, max_output_tokens: 10000
+});
+if (loaded.exit_code !== 0) throw new Error(loaded.output);
+const AsyncFunction = Object.getPrototypeOf(async function () {}).constructor;
+const receipt = await new AsyncFunction("tools", "root", "repository", loaded.output)(
+  tools, root, "Kyapya/english-dictionary"
+);
+text(receipt);
+```
+
+この処理はコミット順を保ち、ファイルをbase64の分割読取りで転送してblob/treeのSHAを
+照合する。ファイル本文をモデルの会話へ出力・再入力しない。refは非force更新し、
+反映後にfetchして全commitのtreeと親を照合する。APIで作られたcommitはローカルとSHAが
+異なり得るため、対応表をGit管理領域へ保存する。cloneし直した場合は再送を始めず、
+remoteの実在checkpointを確認して再開する。
+
+反映成功後は同じrunをresumeし、開始確認commitの `publication_pending` も同様に反映する。
+以降のcheckpointもcommit後に同じ転送処理を使う。通信断でref更新だけ成功した場合は、
+remote headを確認して `python scripts/publish_checkpoint.py accept --sha <remote-head>` で
+内容・順序を照合してから再開する。資格情報を接続から抽出せず、権限拒否を迂回しない。
+
+### 取り込み前の検証
+
+```bash
+python scripts/run_word.py --resume <workflow-run.json> \
+  --validate-review cold_review --declared-model <model-name> \
+  --reviewer-agent-id <independent-subagent-id>
+```
+
+checker/final_blind/final_reviewも同じ指定形式を使う。検証は一時コピーで正式取り込みを
+実行し、実runの応答・時刻・失敗回数を変更しない。最終レビューは監査生成まで確認する。
+新runの正式取り込みにもこの検証を組み込み、同じ入力・応答の失敗を再計上しない。
+修正した応答も不正なら既存の有限な失敗budgetに計上し、新runで回避しない。
+
+最終レビューは必須入力が揃い、盲検の先行commitが存在してから準備する。対象一覧と
+未判定の回答ひな形を同梱し、入力不足を空集合として扱わない。元の検査入力はsnapshotに
+保存し、後からハッシュを付け替えない。出典の内容・使用回数の更新を再検査より前に済ませ、
+最終入力の固定後に変更があればレビュー開始前／取り込み前に検出する。
+
 新規runでは `python scripts/run_word.py <headword>` を直接実行しません。`scripts/start_word.py` はremote branch上の同一見出し語のworkflow manifestを先に確認し、`in_progress` があれば既存runの再開を要求します。`budget_exhausted` の後も自動再試行せず、原因確認後に明示的に再実行する場合だけ次を使います。
 
 ```bash
