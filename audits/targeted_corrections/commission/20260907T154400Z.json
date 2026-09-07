@@ -1,0 +1,19 @@
+{
+  "schema_version": "targeted_correction_v1",
+  "entry_path": "entries/c/commission.md",
+  "created_at": "2026-09-07T15:44:00Z",
+  "base_body_sha256": "5e33c6f67ec37b95f1512da508dbe719270f12322e859f17f1e7c0b5f18aedf3",
+  "head_body_sha256": "7c5bba6f5d4351152d529062f8115e5815e1383f88390c6ae224a5742bd06edc",
+  "diff_sha256": "a401c982efdb10a35e9078c68cc906766d9f615afd80d647c2ddcd89ca52bfc9",
+  "user_request": "Apply R1-R6 from commission-revision-request.md as a localized correction; preserve all English examples, change only the specified Japanese translation, do not implement R7, and do not modify unrelated content.",
+  "review": {
+    "scope": "changed_hunks_and_local_context",
+    "reviewer": "Codex Work targeted-review",
+    "verdict": "pass",
+    "notes": "R1-R6 changed hunks and immediate context reviewed against the request. English examples remain unchanged; the only Japanese translation change is R1; sense numbering and surrounding explanations remain consistent; R7 and unrelated content were not changed."
+  },
+  "pi_processing": {
+    "status": "no_applicable",
+    "event_id": "targeted:commission:a401c982efdb"
+  }
+}
