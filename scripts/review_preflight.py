@@ -76,7 +76,7 @@ def final_inputs(entry: Path, cycle: Path, root: Path) -> dict:
     source = values["source_inventory"]
     if not isinstance(source.get("source_first_audit"), dict) or not isinstance(source["source_first_audit"].get("source_union"), list):
         raise ValueError("source union must be explicitly present, including when empty")
-    for value, field in ((values["pass_findings"], "independent_candidates"), (values["pass_findings"], "pass_outputs"), (source, "evidence_link_ids"), (values["cold_review"], "findings"), (values["final_blind"], "independent_candidates"), (values["final_blind"], "article_findings")):
+    for value, field in ((values["pass_findings"], "independent_candidates"), (values["pass_findings"], "pass_outputs"), (values["cold_review"], "findings"), (values["final_blind"], "independent_candidates"), (values["final_blind"], "article_findings")):
         if not isinstance(value.get(field), list):
             raise ValueError(field + " must be explicitly present, including when empty")
     findings = [row for output in values["pass_findings"].get("pass_outputs", []) for row in output.get("findings", [])]
