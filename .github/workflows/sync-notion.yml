@@ -19,6 +19,7 @@ permissions:
 concurrency:
   group: notion-sync-${{ github.ref }}
   cancel-in-progress: false
+  queue: max
 
 jobs:
   sync-notion:

@@ -141,8 +141,17 @@ class Queue:
         words = parse_words(words)
         if publish_mode not in {"git", "connector"} or reviewer_mode not in {"api", "handoff"}:
             raise ValueError("invalid execution mode")
+        # Pin the published main, not the control branch containing queue records.
+        # Resolve outside the queue lock; a slow remote must not hold the dispatcher.
+        remote = git(self.root, "ls-remote", "--exit-code", "origin", "refs/heads/main").split()
+        if len(remote) != 2 or remote[1] != "refs/heads/main" or not re.fullmatch(r"[0-9a-f]{40}", remote[0]):
+            raise ValueError("cannot resolve the published main commit")
+        base = remote[0]
+        try:
+            git(self.root, "cat-file", "-e", base + "^{commit}")
+        except subprocess.CalledProcessError as exc:
+            raise ValueError("published main is not available locally; fetch origin main before intake") from exc
         with self.lock():
-            base = git(self.root, "rev-parse", "HEAD")
             batch_id = uuid.uuid4().hex
             batch = {"schema_version": VERSION, "batch_id": batch_id,
                      "received_at": now(), "jobs": []}
