@@ -23,17 +23,17 @@ tags: []
 
 ・principally：`principal` の副詞形。  
 ・principalship：`principal` の名詞派生形。  
-・principal-agent relationship：本人・代理人関係を表す複合表現。  
+・principal-agent relationship：法律上の本人・代理人関係を表す複合表現。  
 
 ＃コアイメージ
 
 `principal` の中心は、「重要度・権限・責任・金額の土台として第一に位置する」である。形容詞では主要なものを選び出し、名詞では組織や行為の中心人物、利息に対する元の金額、代理関係などの主要当事者を指す。  
 ・重要度で第一に位置するもの → 「主要な、最も重要な」（語義1）  
 ・学校組織の権限で第一に位置する人 → 「校長、学長」（語義2）  
-・活動・組織内の地位で第一に位置する人 → 「責任者、中心人物、首席」（語義3）  
+・専門組織の正式な上級地位または舞台芸術の首席を占める人 → 「上級責任者、首席出演者・奏者」（語義3）  
 ・利息・収益の土台となる金額または信託財産の本体 → 「元金、元本、信託元本」（語義4）  
 ・代理関係で権限の源として第一に位置する当事者 → 「本人、依頼者」（語義5）  
-・犯罪について主要な刑事責任を負う者 → 「正犯、犯罪の主要関与者」（語義6）  
+・適用法上 `principal` と分類される犯罪関与者 → 「犯罪関与者」（語義6）  
 ・債務・保証関係で第一次的責任を負う者 → 「主たる債務者・義務者」（語義7）  
 
 ＃意味・用法・関連表現
@@ -75,7 +75,7 @@ tags: []
 例: The company moved its principal place of business to Osaka.  
 訳: その会社は主たる事業所を大阪に移した。  
 
-【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principal` は形容詞で「最も重要な」を表す一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。  
+【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principal` には形容詞で「最も重要な」を表す用法があり、別に人や金額などを指す名詞用法もある。一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。  
 
 【類義語】
 
@@ -129,13 +129,13 @@ tags: []
 
 【頻度】〈8/10〉  
 
-【レジスター/領域】標準語。米国・カナダなどでは小中高校の「校長」に一般的。イギリスでは学校の長には `head teacher` または `head` が一般的で、`principal` はカレッジなど特定の教育機関の長に使われることがある。  
+【レジスター/領域】標準語。米国・カナダなどでは小中高校の「校長」に一般的。イングランドでは学校の長には `head teacher` または `head` が一般的で、`principal` はカレッジなど特定の教育機関の長に使われることがある。  
 
-【文法パターン】`the principal of 〈学校・教育機関〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長  
+【文法パターン】`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長  
 
 【コロケーション】
 
-・`the principal of 〈学校・教育機関〉`  
+・`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`  
 用途: どの教育機関の長かを `of` で示す。  
 例: The principal of the college welcomed the new students.  
 訳: そのカレッジの学長は新入生を歓迎した。  
@@ -157,7 +157,7 @@ tags: []
 ・head teacher  
 定義: 学校の運営を統括する教員・責任者。  
 頻度: 〈7/10〉  
-違い: 主にイギリス英語で学校の「校長」に使う。`principal` は北米などで一般的で、イギリスではカレッジ等の長を指す場合がある。  
+違い: 主にイングランドで学校の「校長」に使う。`principal` は北米などで一般的で、イングランドではカレッジ等の長を指す場合がある。  
 例: The head teacher spoke at the assembly.  
 訳: 校長は全校集会で話した。  
 
@@ -175,22 +175,22 @@ tags: []
 例: The former headmaster returned for the anniversary ceremony.  
 訳: 元校長が記念式典のために戻ってきた。  
 
-3. 【名詞・可算】責任者、中心人物、首席・主要メンバー
+3. 【名詞・可算】専門組織の上級責任者、舞台芸術の首席出演者・奏者
 
-【日本語訳・定義】専門業務や舞台芸術などで、指導的地位または主要な役割を持つ人。企業・専門組織の上級責任者や、バレエ団・オペラ団の首席出演者、オーケストラのセクションを率いる奏者などを指す。  
+【日本語訳・定義】分野ごとに確立した上級地位や首席の役割を持つ人。企業・専門組織で支配権または指導的地位を持つ人や、バレエ団・オペラ団の首席出演者、オーケストラのセクションを率いる奏者などを指し、重要人物一般の呼称ではない。  
 
 【頻度】〈6/10〉  
 
 【レジスター/領域】ビジネス、コンサルティング、専門職、舞台芸術・音楽で用いる。一般会話で単に「リーダー」と言うなら `leader` や `head` のほうが普通。  
 
-【文法パターン】この語義では `principal` を、指導的地位または主要な役割を持つ人を指す名詞として用いる。  
+【文法パターン】この語義では `principal` を、分野固有の上級地位または首席の役割を持つ人を指す名詞として用いる。  
 
 【コロケーション】
 
 ・`a principal`  
-用途: 専門組織や舞台芸術で指導的地位または主要な役割を持つ人を名詞で指す。  
-例: The concert program lists her as a principal.  
-訳: そのプログラムには彼女が首席出演者として載っている。  
+用途: オーケストラで各セクションを率いる奏者を名詞で指す。  
+例: The concert program lists her as one of the orchestra's principals.  
+訳: その演奏会プログラムには、彼女がオーケストラの首席奏者の一人として載っている。  
 
 【語法・注意】会社・専門組織では「責任者」「上級職」、舞台芸術では「首席出演者」「首席奏者」など、領域に合わせて訳し分ける。  
 
@@ -203,13 +203,6 @@ tags: []
 例: The team leader assigned the tasks.  
 訳: チームリーダーが作業を割り当てた。  
 
-・director  
-定義: 組織・部門・活動を管理または統括する人。  
-頻度: 〈9/10〉  
-違い: `director` は特定の管理職・取締役・芸術監督などの正式役職を指す。`principal` は別の職階であり、肩書きは相互に置換できない。  
-例: The artistic director announced the new season.  
-訳: 芸術監督が新シーズンを発表した。  
-
 ・chief  
 定義: 組織・集団で最上位の責任者。  
 頻度: 〈8/10〉  
@@ -219,7 +212,7 @@ tags: []
 
 4. 【名詞・金融／信託】元金、元本、信託財産の本体
 
-【日本語訳・定義】金融では、借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。返済文脈では、元金への支払いは未返済債務の基礎額を減らす。信託では、収益を生む財産本体または `corpus` を指し、そこから生じる収益と区別する。  
+【日本語訳・定義】金融では、借入・貸付・投資で利息・利益・収益と区別される資本部分を指す。当初の元本金額を指す場合と、返済を反映した現在の未返済元金を指す場合があり、元金への支払いは未返済債務の基礎額を減らす。信託では、収益を生む財産本体または `corpus` を指し、そこから生じる収益と区別する。  
 
 【頻度】〈7/10〉  
 
@@ -280,7 +273,7 @@ tags: []
 
 【頻度】〈5/10〉  
 
-【レジスター/領域】法律、保険、不動産、商取引、経済学。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  
+【レジスター/領域】法律、保険、不動産、商取引。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  
 
 【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  
 
@@ -305,13 +298,6 @@ tags: []
 
 【類義語】
 
-・client  
-定義: 専門家や事業者からサービスを受ける顧客・依頼人。  
-頻度: 〈9/10〉  
-違い: `client` はサービス関係を表す広い語で、代理権の付与を必要としない。`principal` は代理人が権限を得る法律関係上の本人に焦点がある。  
-例: The lawyer advised the client to seek a second opinion.  
-訳: 弁護士は依頼人にセカンドオピニオンを求めるよう助言した。  
-
 ・mandator  
 定義: 他人に委任・代理の権限を与える者。  
 頻度: 〈2/10〉  
@@ -328,7 +314,7 @@ tags: []
 例: The agent negotiated the sale for the owner.  
 訳: 代理人は所有者のために売却交渉を行った。  
 
-6. 【名詞・可算・刑事法】正犯、犯罪の主要関与者
+6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者
 
 【日本語訳・定義】刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。  
 
@@ -336,26 +322,26 @@ tags: []
 
 【レジスター/領域】刑事法の専門語。犯罪に関するこの語義は法域によって分類法が異なり、`principal in the first/second degree` はとくに歴史的なコモンロー分類として現れる。  
 
-【文法パターン】`a principal in a crime`＝犯罪の正犯・主要関与者／`treat someone as a principal`＝人を正犯として扱う／`a principal in the first/second degree`＝第一級・第二級正犯  
+【文法パターン】`a principal in a crime`＝犯罪について `principal` とされる関与者／`treat someone as a principal`＝人を `principal` として扱う／`a principal in the first/second degree`＝歴史的分類上の第一級・第二級 `principal`  
 
 【コロケーション】
 
 ・`a principal in a crime`  
 用途: 犯罪について直接の刑事責任を負う者を指す。  
 例: The court identified him as a principal in the crime.  
-訳: 裁判所は彼をその犯罪の正犯と認定した。  
+訳: 裁判所は彼をその犯罪について `principal` に当たる者と認定した。  
 
 ・`treat someone as a principal`  
-用途: 一定の関与者を法的分類上の正犯として扱うことを表す。  
+用途: 一定の関与者を適用法上 `principal` として扱うことを表す。  
 例: The statute treats a person who knowingly assists the offense as a principal.  
-訳: その制定法は、情を知って犯罪を援助する者を正犯として扱う。  
+訳: その制定法は、情を知って犯罪を援助する者を `principal` として扱う。  
 
 ・`a principal in the first degree`  
-用途: 歴史的なコモンローで、第一級正犯という分類を表す。  
+用途: 歴史的なコモンローで、第一級 `principal` という分類を表す。  
 例: The older judgment classified the defendant as a principal in the first degree.  
-訳: その古い判決は被告人を第一級正犯に分類した。  
+訳: その古い判決は被告人を第一級 `principal` に分類した。  
 
-【語法・注意】刑事法の `principal` は、適用される法的分類に従って犯罪の主要関与者を指し、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。  
+【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。日本法上の「正犯」と範囲が必ず一致するとは限らない。債務・保証関係の第一次的責任者は別の語義7である。  
 
 【類義語】
 
