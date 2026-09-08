@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-final-recheck-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 175,
+        "line_end": 176,
+        "exact_quote": "例: The former headmaster returned for the anniversary ceremony.  \n訳: 元校長が記念式典のために戻ってきた。  "
+      },
+      "severity": "blocking",
+      "rationale": "英語の `headmaster` は男性であることを明示する語だが、訳の「元校長」は性別中立であり、その意味成分を落としている。同じ項目の定義・差分説明も性別の明示を `headmaster` の中心的な相違点としているため、例文と訳がその語義上の対比を保存していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その男性の元校長が記念式典のために戻ってきた」のように男性であることを訳に残す。性別を含めない訳を維持するなら、英文側を `former head teacher` など性別中立の語に替える。"
+    }
+  ]
+}

@@ -1,0 +1,54 @@
+{
+  "schema_version": "checker_recheck_resolutions_v1",
+  "stage": "checker_recheck_resolution",
+  "run_id": "20260908T023939Z-033e5da8",
+  "input_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f",
+  "resolved_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced",
+  "recorded_at": "2026-09-08T04:08:46Z",
+  "resolutions": [
+    {
+      "id": "recheck-translation-001",
+      "finding_id": "recheck-translation-001",
+      "origin_pass": "translation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The lexical contrast explicitly identifies headmaster as male, so the example translation should preserve that semantic component.",
+      "required_changes": ["Retain the male reference in the Japanese example translation."],
+      "implemented_changes": ["Changed the translation to 男性の元校長."],
+      "resolved_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced"
+    },
+    {
+      "id": "recheck-sense-structure-001",
+      "finding_id": "recheck-sense-structure-001",
+      "origin_pass": "sense-structure",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The fixed inventory records the finance use as a noun in F-008 and the existing earlier adjudication deliberately treats principal amount and principal balance as noun compounds; no fixed fact supports adding a separate finance adjective sense.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced"
+    },
+    {
+      "id": "recheck-qualification-001",
+      "finding_id": "recheck-qualification-001",
+      "origin_pass": "qualification",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed sources support the finance sense but do not provide a regional comparison establishing that it is especially common in US English.",
+      "required_changes": ["Remove the unsupported comparative regional-frequency claim."],
+      "implemented_changes": ["Removed 米国英語で特に一般的 while retaining the supported finance-domain description."],
+      "resolved_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced"
+    },
+    {
+      "id": "recheck-evidence-001",
+      "finding_id": "recheck-evidence-001",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-005 and F-021 support the applicable-law classification and principal-accessory contrast, but do not directly support a comparison with the Japanese-law category 正犯.",
+      "required_changes": ["Remove the unsupported Japanese-law comparison without restoring a one-to-one translation."],
+      "implemented_changes": ["Removed the comparative-law sentence and retained descriptive principal wording throughout the sense."],
+      "resolved_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-final-recheck-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 344,
+        "line_end": 344,
+        "exact_quote": "【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。日本法上の「正犯」と範囲が必ず一致するとは限らない。債務・保証関係の第一次的責任者は別の語義7である。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-007 が参照する F-005 と F-021 は英語圏の刑事法上の principal と accessory の対比および法的分類への依存は支持するが、日本法上の「正犯」との範囲比較を扱っていない。したがって、既存の根拠位置からは『範囲が必ず一致するとは限らない』という比較法上の主張を直接確認できない。",
+      "evidence_link_ids": [
+        "C-007"
+      ],
+      "suggested_direction": "日本法との範囲比較を削除・保留するか、その比較に直接適用できる専門資料へ根拠を差し替える。"
+    }
+  ],
+  "unrouted_observations": []
+}
