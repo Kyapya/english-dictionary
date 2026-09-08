@@ -18,10 +18,6 @@
     "candidate_pages": 14
   },
   "status": "budget_exhausted",
-  "stop_reason": "post-cold recheck budget exhausted after evidence-driven revision; fresh validation required before merge",
-  "open_questions": [
-    "Complete a fresh extended validation cycle against the current entry body and fixed source inventory before merge."
-  ],
   "stage": "cold_review_complete",
   "started_at": "2026-09-07T23:32:57Z",
   "deadline_at": "2026-09-08T00:32:57Z",
@@ -64,8 +60,10 @@
       "notes": "orchestrator completed cold_review"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "post-cold recheck budget exhausted after evidence-driven revision; fresh validation required before merge",
+  "open_questions": [
+    "Complete a fresh extended validation cycle against the current entry body and fixed source inventory before merge."
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",

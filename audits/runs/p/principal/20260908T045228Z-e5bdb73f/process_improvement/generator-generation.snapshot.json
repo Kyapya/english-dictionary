@@ -1,0 +1,22 @@
+{
+  "schema_version": "process_improvement_input_v2",
+  "knowledge_epoch": "pi2-2026-09-06",
+  "recipient": "generator",
+  "phase": "generation",
+  "features": [
+    "workflow:extended"
+  ],
+  "limits": {
+    "max_items": 8,
+    "max_bytes": 8192
+  },
+  "selected": [],
+  "skipped": [],
+  "input_bytes": 336,
+  "input_sha256": "3577866af783f1a8898ee817aec1181eeb39a0b09131c1bd175f236a591d8d36",
+  "run_id": "20260908T045228Z-e5bdb73f",
+  "created_at": "2026-09-08T04:52:28Z",
+  "snapshot_path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/process_improvement/generator-generation.snapshot.md",
+  "machine_duration_seconds": 0.001616,
+  "additional_llm_calls": 0
+}
