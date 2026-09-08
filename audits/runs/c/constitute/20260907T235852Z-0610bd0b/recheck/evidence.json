@@ -1,0 +1,28 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "input_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0",
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-recheck-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "`constituted / constituting` — 過去形／過去分詞・現在分詞。  "
+      },
+      "severity": "blocking",
+      "rationale": "C002の唯一の根拠F002が指すMerriam-Websterのlocatorは `constituted; constituting` を語形欄に列挙するだけで、constitutedを過去形・過去分詞、constitutingを現在分詞と明示していない。またF002とC002はいずれも form/subject_form を constituted としながら、別表層形 constituting まで一つのderived_form fact/claimに束ねており、source_first_audit_v2の原子的表層形要件にも反する。このリンクのままでは本文の対応づけ全体を直接支持したとは判定できない。",
+      "evidence_link_ids": [
+        "F002"
+      ],
+      "suggested_direction": "source-firstをholdにし、constitutedとconstitutingを原子的に分割した上で、それぞれの文法区分を明示する既存資料箇所へ根拠を結び直して再検査する。"
+    }
+  ]
+}

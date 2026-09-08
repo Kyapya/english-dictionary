@@ -1,0 +1,112 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-round2-frame-relation-1"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+    "blind_request_sha256": "762dfea1e619a046009c854e8b4e2ba59711a1b13fc90a52f196c4ff0f032317",
+    "recorded_at": "2026-09-08T02:16:14Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-round2-frame-relation-1"
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+    "stage2_request_sha256": "2072bae712023ce6300a49d6949e5bb461f89be346e49edd1d524bc0df1340a9",
+    "blind_record_sha256": "dcc0a88315b5152bbb72c240ba143d50e456b28d3ac230b110ffa0a56886c8a4",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-round2-frame-relation-1"
+    },
+    "adjudications": [],
+    "frame_findings": [
+      {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 196,
+          "line_end": 196,
+          "exact_quote": "`constitute 〈committee/body/court/government〉`＝委員会・機関・裁判所・政府を正式に設ける"
+        },
+        "severity": "blocking",
+        "rationale": "語義3の能動フレームには、委員会・政府などを成立させる必須の主語スロット（機関・当事者などの設立主体）がない。例文では The ministry / The parties がその役割を実現しているため、pattern と例文の項が一対一に対応していない。",
+        "evidence_link_ids": [
+          "F004",
+          "F012",
+          "F016"
+        ],
+        "suggested_direction": "完全フレーム化"
+      },
+      {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 261,
+          "line_end": 261,
+          "exact_quote": "`constitute someone 〈office/role〉`＝人を役職・役割に任命する"
+        },
+        "severity": "blocking",
+        "rationale": "語義4の能動 V+O+C フレームには、人を任命する必須の主語スロット（権限者・法律・公式文書）がない。定義と例文の The charter が明示する任命主体を pattern に含める必要がある。",
+        "evidence_link_ids": [
+          "F006",
+          "F013",
+          "F019"
+        ],
+        "suggested_direction": "完全フレーム化"
+      }
+    ],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T02:16:15+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 196,
+        "line_end": 196,
+        "exact_quote": "`constitute 〈committee/body/court/government〉`＝委員会・機関・裁判所・政府を正式に設ける"
+      },
+      "severity": "blocking",
+      "rationale": "語義3の能動フレームには、委員会・政府などを成立させる必須の主語スロット（機関・当事者などの設立主体）がない。例文では The ministry / The parties がその役割を実現しているため、pattern と例文の項が一対一に対応していない。",
+      "evidence_link_ids": [
+        "F004",
+        "F012",
+        "F016"
+      ],
+      "suggested_direction": "完全フレーム化"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 261,
+        "line_end": 261,
+        "exact_quote": "`constitute someone 〈office/role〉`＝人を役職・役割に任命する"
+      },
+      "severity": "blocking",
+      "rationale": "語義4の能動 V+O+C フレームには、人を任命する必須の主語スロット（権限者・法律・公式文書）がない。定義と例文の The charter が明示する任命主体を pattern に含める必要がある。",
+      "evidence_link_ids": [
+        "F006",
+        "F013",
+        "F019"
+      ],
+      "suggested_direction": "完全フレーム化"
+    }
+  ],
+  "unrouted_observations": []
+}

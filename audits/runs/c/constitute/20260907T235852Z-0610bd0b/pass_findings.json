@@ -1,0 +1,636 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-constitute-20260907T235852Z-0610bd0b",
+  "context_id": "normal-constitute-context-20260907T235852Z-0610bd0b",
+  "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T00:47:45.262275+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-translation-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 61,
+            "line_end": 61,
+            "exact_quote": "訳: 非常勤職員が夜間スタッフの大半を占めている。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の the majority は過半数・多数派であることだけを表し、圧倒的多数までは含意しない。一方「大半」は全体のかなり大きな部分という強い程度を通常表すため、割合の強さが上がっている。同じ項目の用途説明も「過半数」としており、例文の訳だけがその範囲からずれている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「非常勤職員が夜間スタッフの過半数を占めている」など、the majority の下限を過度に強めない訳にする。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 153,
+            "line_end": 153,
+            "exact_quote": "訳: その指針は、何がシステムの許容される使用に当たるかを説明している。  "
+          },
+          "severity": "minor",
+          "rationale": "acceptable use の分類関係は保存されているが、「システムの許容される使用」は連体修飾が不自然で、用法の説明として読み取りにくい。事実関係や意味役割を変えない局所的な日本語調整で解消できる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「その指針は、どのようなシステム利用が許容されるかを説明している」など、what constitutes の分類判断を自然な日本語で表す。"
+        },
+        {
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 215,
+            "line_end": 215,
+            "exact_quote": "訳: 各党は暫定政府を発足させることで合意した。  "
+          },
+          "severity": "blocking",
+          "rationale": "英文の the parties は合意の当事者を表すだけで、それらが政党であるとは明示していない。「各党」は主体を複数の政党に限定し、文脈推論を明示内容として追加している。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「当事者らは暫定政府を発足させることで合意した」など、主体を政党に限定しない訳にする。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-sense-structure-1"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-frame-relation-1"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+        "blind_request_sha256": "b1465869f00097d1621b373151b3324f57a3a7120bccc25086af715fe7c2c623",
+        "recorded_at": "2026-09-08T00:32:11Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "constitute-frame-relation-1"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+        "stage2_request_sha256": "21db9f884e1f032d6852f335fa59608dd99db4954a5926822e3d1aec61e04d53",
+        "blind_record_sha256": "16da9ce68a7e740d2864c1a3394b514d91b454e13bd9b6788691124b2158dad2",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "constitute-frame-relation-1"
+        },
+        "aligned_at": "2026-09-08T00:48:28Z",
+        "adjudications": [],
+        "frame_findings": [
+          {
+            "taxonomy_id": "lexical_relation_mislabel",
+            "location": {
+              "section": "lexical_relations",
+              "line_start": 255,
+              "line_end": 255,
+              "exact_quote": "・institute  "
+            },
+            "severity": "blocking",
+            "rationale": "institute は制度・手続き・調査などを開始する語であり、組織体を正式に設立する constitute の中心義とは十分に重ならない。提示された定義と例文も組織の設立ではなく inquiry の開始を扱っており、関連語を類義語として置いている。",
+            "evidence_link_ids": [],
+            "suggested_direction": "類義語欄から削除するか、語法・注意で制度や手続きの開始との違いを示す関連語へ移動する。"
+          }
+        ],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T00:49:59.436335+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "lexical_relation_mislabel",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 255,
+            "line_end": 255,
+            "exact_quote": "・institute  "
+          },
+          "severity": "blocking",
+          "rationale": "institute は制度・手続き・調査などを開始する語であり、組織体を正式に設立する constitute の中心義とは十分に重ならない。提示された定義と例文も組織の設立ではなく inquiry の開始を扱っており、関連語を類義語として置いている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "類義語欄から削除するか、語法・注意で制度や手続きの開始との違いを示す関連語へ移動する。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-example-attribution-1"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "constitute-example-attribution-1"
+        },
+        "recorded_at": "2026-09-08T00:36:32Z",
+        "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+        "blind_request_sha256": "6aa1559a92ff17d484457fde871be41e128f4a89038ae35c6103ad48c7d728a3",
+        "attributions": [
+          {
+            "example_id": "ex-76cf987bb398",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "was constituted under the new environmental law"
+            ],
+            "rationale": "例文「The commission was constituted under the new environmental law.」では、委員会が法律に基づく手続きによって成立させられる受動の出来事であり、sense:003 が自然である。sense:001 なら構成要素と全体の関係、典型的には要素を示す of/by 句が必要だが、この文では commission 自体が設立対象であり、その関係は表されていない。"
+          },
+          {
+            "example_id": "ex-060906da8c5e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a tribunal to be constituted when a dispute arises"
+            ],
+            "rationale": "例文「The treaty provides for a tribunal to be constituted when a dispute arises.」では、紛争発生時に tribunal を活動可能な機関として設置するという出来事なので sense:003 である。sense:001 の部分・全体関係なら tribunal を構成する要素が示されるはずだが、この文の constitute は tribunal 自体を成立させる。"
+          },
+          {
+            "example_id": "ex-79d102967f5f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitutes a serious risk to public safety"
+            ],
+            "rationale": "例文「The damaged bridge constitutes a serious risk to public safety.」では、damaged bridge という状況が serious risk という評価・分類に当たるため sense:002 である。sense:001 なら主語が目的語という全体の構成要素になるが、橋が risk の部分を構成する関係ではなく、橋そのものを危険と評価している。"
+          },
+          {
+            "example_id": "ex-f6ff62de7b79",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:003",
+              "sense:004"
+            ],
+            "discriminating_terms": [],
+            "rationale": "例文「Citizens were urged to report the matter to the constituted authorities.」の constituted authorities は、正式に成立した当局・組織なら sense:003、適法に権限や資格を付与された公職者・権限者なら sense:004 と自然に読める。constitute の項や役職補語が participial modifier 内で省略されており、report the matter は報告先を示すだけで、組織の設立と人への資格付与を排除し合う判別材料にならない。"
+          },
+          {
+            "example_id": "ex-a03c950f7bb2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the majority of the evening staff"
+            ],
+            "rationale": "例文「Part-time employees constitute the majority of the evening staff.」では、part-time employees が evening staff という全体の majority を占める明示的な割合・部分関係なので sense:001 である。sense:002 の分類判断として単に『多数派に当たる』のではなく、of the evening staff が constitute の目的語内で全体を指定している。"
+          },
+          {
+            "example_id": "ex-52c3c9db6f4e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "The ministry constituted an independent panel"
+            ],
+            "rationale": "例文「The ministry constituted an independent panel to investigate the accident.」では、ministry が行為者として independent panel を公式に作る他動詞構文なので sense:003 である。sense:001 なら構成要素が主語になるが、ministry は panel の一部分として述べられておらず、設立主体である。"
+          },
+          {
+            "example_id": "ex-7fe67a6fa3b1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "35 percent of the company's revenue"
+            ],
+            "rationale": "例文「Online sales now constitute 35 percent of the company's revenue.」では、online sales が revenue 全体の 35 percent を占める数量的な部分・全体関係なので sense:001 である。sense:002 の評価・分類ではなく、割合とその母集団が constitute の目的語として明示されている。"
+          },
+          {
+            "example_id": "ex-2eb66523ba23",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "agreed to constitute a transitional government"
+            ],
+            "rationale": "例文「The parties agreed to constitute a transitional government.」では、agreed to constitute は将来の意図的な行為として transitional government を発足させることを表し、sense:003 である。sense:001 なら parties が政府を構成する静的な部分・全体関係にもなり得るが、この文の agree to と不定詞の出来事性はその読みを排除する。"
+          },
+          {
+            "example_id": "ex-be1514c35111",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitute a breach of the agreement"
+            ],
+            "rationale": "例文「Sharing the data without permission would constitute a breach of the agreement.」では、無許可のデータ共有という行為が breach という法的・規範的分類に当たるため sense:002 である。sense:001 なら共有行為が breach の構成部分になる関係だが、ここでは行為全体が違反の成立条件を満たすとの判断である。"
+          },
+          {
+            "example_id": "ex-f608faff7d3b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitutes a significant change in the company's approach"
+            ],
+            "rationale": "例文「The revised policy constitutes a significant change in the company's approach.」では、revised policy を significant change と評価・同定しているため sense:002 である。sense:001 の読みなら policy は change を構成する複数要素の一つになるが、この単数主語は改訂方針そのものが変化に当たると述べている。"
+          },
+          {
+            "example_id": "ex-dcceb5047139",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a duly constituted board"
+            ],
+            "rationale": "例文「Only a duly constituted board may approve the transaction.」では、duly が、board が所定の手続きに従い正式に成立していることを直接示すため sense:003 である。sense:001 なら board の成員・部分による構成関係が必要だが、この文にはその要素がなく、取引を承認できる機関としての適法な成立が焦点である。"
+          },
+          {
+            "example_id": "ex-6240c8626f5d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a significant part of the annual budget"
+            ],
+            "rationale": "例文「Maintenance costs constitute a significant part of the annual budget.」では、maintenance costs が annual budget という全体の significant part を占める明示的な部分・全体関係なので sense:001 である。sense:002 の分類なら costs をある評価カテゴリーに当てはめるが、ここでは part of が全体内の割合を直接示す。"
+          },
+          {
+            "example_id": "ex-f253ac5d8aac",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "what constitutes acceptable use"
+            ],
+            "rationale": "例文「The guidelines explain what constitutes acceptable use of the system.」では、what が acceptable use という分類の成立条件を満たすかを問う構文で、sense:002 である。sense:001 なら複数の要素が use 全体を作る関係になるが、この自由関係節は許容可能と判定される境界を表す。"
+          },
+          {
+            "example_id": "ex-8119474852b4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Twelve jurors constitute the full jury"
+            ],
+            "rationale": "例文「Twelve jurors constitute the full jury in this court.」では、twelve jurors という複数の構成員が full jury という全体を形作るため sense:001 である。sense:003 なら外部の設立主体が jury を公式に作る出来事になるが、ここでは jurors 自身が主語で、構成員と全体の関係を述べる。"
+          },
+          {
+            "example_id": "ex-858aeb7bdb72",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "She was constituted guardian"
+            ],
+            "rationale": "例文「She was constituted guardian for the limited purpose stated in the order.」では、人を主語にした受動構文で guardian という役職・資格の補語を取るため sense:004 である。sense:003 は組織体を設立対象にするが、ここでは個人が限定目的の後見人という地位に就けられている。"
+          },
+          {
+            "example_id": "ex-042066032358",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitute a criminal offence"
+            ],
+            "rationale": "例文「Deliberately altering the records may constitute a criminal offence.」では、記録改ざんという行為が criminal offence に当たり得るという法的分類なので sense:002 である。sense:001 ならその行為が犯罪全体の構成要素になるが、ここでは行為そのものが犯罪の成立条件を満たすかを述べる。"
+          },
+          {
+            "example_id": "ex-2245ca0a0a06",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "constituted her as the owner's legal representative"
+            ],
+            "rationale": "例文「The document constituted her as the owner's legal representative.」では、her という人の目的語と as the owner's legal representative という役職・資格補語があり、文書がその資格を付与するため sense:004 である。sense:003 なら設立される組織が目的語になるが、この文は個人を役割に就けている。"
+          },
+          {
+            "example_id": "ex-c3a5e1819cb1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "is constituted of experts"
+            ],
+            "rationale": "例文「The panel is constituted of experts from five different fields.」では、of experts が panel の構成要素を明示する部分・全体構文なので sense:001 である。sense:003 の受動なら panel が設立された出来事と設立主体・根拠を表すが、ここでは専門家という材料・成員による構成だけを述べる。"
+          },
+          {
+            "example_id": "ex-a4b67aa47f4b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "constituted him treasurer of the association"
+            ],
+            "rationale": "例文「The charter constituted him treasurer of the association.」では、him という人の目的語と treasurer という役職補語を取り、charter がその地位を付与するため sense:004 である。sense:003 なら組織体が設立対象になるが、ここで成立するのは組織ではなく個人の職務資格である。"
+          },
+          {
+            "example_id": "ex-9758973dd74b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "does not constitute proof of fraud"
+            ],
+            "rationale": "例文「A single anonymous message does not constitute proof of fraud.」では、single anonymous message が proof と見なせる成立条件を満たさないという証拠評価なので sense:002 である。sense:001 なら message が proof の一構成部分だという関係になるが、does not constitute は一通だけでは証明として成立しないという分類判断を表す。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T00:47:45.250224+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 291,
+            "line_end": 291,
+            "exact_quote": "例: Citizens were urged to report the matter to the constituted authorities.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:003, sense:004が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-qualification-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 192,
+            "line_end": 192,
+            "exact_quote": "【日本語訳・定義】組織、委員会、裁判所、政府などを、所定の手続き・権限・構成によって正式に作り、活動できる形にする。単に人を集めるだけでなく、公式の組織体として成立させる意味を持つ。設立手続きや法的効果の具体的内容は制度・法域によって異なる。  "
+          },
+          "severity": "blocking",
+          "rationale": "この語義は正式な設置・編成を表し得るが、constitute 自体が常に「所定の手続き・権限・構成」を満たすことや、組織を実際に活動可能にすることまでを必須条件として含意するわけではない。たとえば当事者が government や committee を constitute するという一般的・政治的な文脈では、法的成立要件や運用可能性は別問題になり得る。末尾で法域差に触れていても、冒頭の定義が制度上の成立・効果を語彙的意味へ取り込んでいる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "中心義を「組織・委員会などを正式に形成・設置する」にとどめ、所定手続き、権限、活動可能性は文脈や制度によって伴うことがある条件として分離する。"
+        },
+        {
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 264,
+            "line_end": 264,
+            "exact_quote": "【日本語訳・定義】権限をもつ者・法律・公式文書などが、人を特定の職務・地位・役割に就け、その資格で行動できるようにする。現代の日常英語ではまれで、appoint や designate が普通である。  "
+          },
+          "severity": "blocking",
+          "rationale": "appoint/designate に近いこの古風・法律的用法は、人を役職・法的地位に正式に任命・指定することを表すが、constitute という語だけで有効な資格や権限が付与され、その立場で行動可能になることまで一律に保証しない。権限の有無と範囲は文書、委任、適用法などに依存するため、「その資格で行動できるようにする」は制度上の効果を語彙的意味として過剰に一般化している。また「資格」は免許・専門資格の授与とも読め、通常の専門訳として範囲が広すぎる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「人を特定の役職・地位・役割に正式に任命・指定する」とし、資格・権限の有効性や範囲は該当文書・制度・法域によって決まると明示する。「資格を与える」は一般的な免許・専門資格の取得を意味しないよう限定する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-pronunciation-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "pronunciation_symbol_explanation",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 16,
+            "line_end": 16,
+            "exact_quote": "三人称単数 constitutes の語尾は /s/ ではなく、直前の /t/ と続いて /ts/ となる。"
+          },
+          "severity": "blocking",
+          "rationale": "constitutes の屈折接辞 -s の発音は /s/ であり、語幹末の /t/ に続くため語全体の末尾が /ts/ になる。「語尾は /s/ ではなく /ts/」という説明は、接辞そのものの発音と、語幹末子音を含む語末連続を混同している。",
+          "evidence_link_ids": [],
+          "suggested_direction": "三人称単数の接辞 -s は /s/ と発音され、語幹末 /t/ と合わせた語末が /ts/ になる、と区別して説明する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-evidence-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "辞書や話者によっては英音の /tj/ が融合して /tʃ/ に近く発音される。"
+          },
+          "severity": "blocking",
+          "rationale": "C001 の根拠 F001 と F009 は英米の母音・語末 /tuːt, tjuːt/ および強勢を支持するが、英音の /tj/ が /tʃ/ に融合するという変異は記録していない。提示された locator の支持内容より本文主張の範囲が広い。",
+          "evidence_link_ids": [
+            "F001",
+            "F009"
+          ],
+          "suggested_direction": "融合変異の記述を削るか、その変異を直接記録する根拠へ差し替えて claim unit を限定する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 16,
+            "line_end": 16,
+            "exact_quote": "三人称単数 constitutes の語尾は /s/ ではなく、直前の /t/ と続いて /ts/ となる。過去形・過去分詞 constituted の -ed は /ɪd/、-ing形 constituting は /ɪŋ/ と発音する。"
+          },
+          "severity": "blocking",
+          "rationale": "C002 が参照する F002 は constituted と constituting を屈折形として列挙するだけで、constitutes の /ts/、constituted の /ɪd/、constituting の /ɪŋ/ という発音を支持していない。屈折形の存在を示す根拠を発音規則の根拠として流用している。",
+          "evidence_link_ids": [
+            "F002"
+          ],
+          "suggested_direction": "各屈折形の発音を直接示す資料に差し替えるか、根拠で確認できる屈折形の列挙だけに限定する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 25,
+            "line_end": 25,
+            "exact_quote": "`constitutes / constituted / constituting` — 三人称単数現在形・過去形／過去分詞・現在分詞。語末の無音の e を取って constituting とする。"
+          },
+          "severity": "blocking",
+          "rationale": "C002/F002 は constituted と constituting の形と文法機能を支持するが、constitutes の列挙も、constituting を作る際に無音の e を取るという綴り規則も source detail に含まれない。article target 全体に対して support が部分的である。",
+          "evidence_link_ids": [
+            "F002"
+          ],
+          "suggested_direction": "F002 が直接支える constituted/constituting の列挙に主張を狭めるか、constitutes と e 脱落規則を明示する根拠を追加してリンクを分ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "etymology",
+            "line_start": 20,
+            "line_end": 20,
+            "exact_quote": "これは con-（ここでは強意、または「共に」）と statuere「立てる、置く」から成り、statuere は「立つ」を表す語根につながる。"
+          },
+          "severity": "blocking",
+          "rationale": "C009 の F008 と F020 は com-/con- と statuere への形態分析および stand 語根との関係を支持するが、この語における接頭辞の機能を「強意、または共に」とする二択の意味分析は支持内容にない。",
+          "evidence_link_ids": [
+            "F008",
+            "F020"
+          ],
+          "suggested_direction": "接頭辞の意味機能を断定せず形態構成だけに限定するか、constitute に適用される接頭辞機能を直接説明する語源資料へ差し替える。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 49,
+            "line_end": 49,
+            "exact_quote": "`〈whole〉 be constituted of/from/by 〈parts〉`＝全体が部分から構成されている"
+          },
+          "severity": "blocking",
+          "rationale": "C008 の唯一の根拠 F014 は constituted of と材料要素の例だけを示す。本文ターゲットは同じリンクで constituted from と constituted by まで完全フレームとして提示しており、根拠の適用範囲を超えている。",
+          "evidence_link_ids": [
+            "F014"
+          ],
+          "suggested_direction": "フレームを be constituted of に限定するか、from と by の各構文を直接記録する根拠を別リンクで付ける。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 270,
+            "line_end": 270,
+            "exact_quote": "`constitute someone as 〈agent/representative〉`＝人を代理人・代表者として任命する"
+          },
+          "severity": "blocking",
+          "rationale": "C006 の F006 は office/function への任命を定義し、F013 は legally constituted officer と constituted treasurer を挙げるが、いずれも constitute someone as agent/representative という as 補部の構文を示していない。一般的な任命義の根拠だけでは、この完全フレームを直接支持しない。",
+          "evidence_link_ids": [
+            "F006",
+            "F013",
+            "F019"
+          ],
+          "suggested_direction": "as 補部を実例・構文情報で直接示す資料に差し替えるか、根拠のある直接目的語＋目的格補語のフレームに限定する。"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 264,
+            "line_end": 264,
+            "exact_quote": "現代の日常英語ではまれで、appoint や designate が普通である。"
+          },
+          "severity": "blocking",
+          "rationale": "C006 の F006 と F013 は任命義の存在を支持し、F019 はこの語義が約1400年から記録されることを示す。しかし、歴史的に古いことは現代の日常英語での希少性や appoint/designate との相対頻度を直接立証しない。register:004 に結び付けられた根拠の支持範囲が不足している。",
+          "evidence_link_ids": [
+            "F006",
+            "F013",
+            "F019"
+          ],
+          "suggested_direction": "現代の使用域と比較頻度を明示する辞書・用法資料へ差し替えるか、根拠で確認できる任命義だけに主張を限定する。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-translation-1"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-sense-structure-1"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-frame-relation-1"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-example-attribution-1"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-qualification-1"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-pronunciation-1"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-evidence-1"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

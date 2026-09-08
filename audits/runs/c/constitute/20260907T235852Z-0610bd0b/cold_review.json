@@ -1,0 +1,103 @@
+{
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-constitute-20260907T235852Z-0610bd0b",
+  "context_id": "cold-constitute-context-20260907T235852Z-0610bd0b",
+  "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-cold-review-1"
+  },
+  "summary": "問題候補4件。三人称単数語尾の音価と語全体の末尾連続が混同されている点、語義1の主語・目的語に関する説明が単数要素や割合構文を十分に扱えていない点、さらに受動形の by の役割について記事内で説明が食い違う点が、学習者の誤一般化につながり得る。",
+  "findings": [
+    {
+      "id": "cold-constitute-001",
+      "location": "発音記号：三人称単数 constitutes の説明",
+      "severity": "medium",
+      "description": "三人称単数の屈折語尾そのものの発音と、語幹末 /t/ を含む語末の音列 /ts/ が混同されている。",
+      "reason": "「三人称単数 constitutes の語尾は /s/ ではなく、直前の /t/ と続いて /ts/ となる。」という説明では、-s の音価自体が /ts/ であるかのように読める。しかし、語幹 constitute の末尾 /t/ に三人称単数語尾 /s/ が続くため、単語末の連続が /ts/ になるのであり、接辞の異形態は /s/ である。この区別を曖昧にすると、学習者が /t/ で終わる動詞では三人称単数語尾が /ts/ という一単位に変化すると誤一般化しかねない。",
+      "suggested_direction": "三人称単数語尾 -s 自体は /s/ と発音され、語幹末の /t/ と合わせた語末の音列が /ts/ になる、と明示する。",
+      "scope_anchors": [
+        {
+          "id": "cold-constitute-001-a1",
+          "exact_quote": "三人称単数 constitutes の語尾は /s/ ではなく、直前の /t/ と続いて /ts/ となる。",
+          "location_hint": "「＃発音記号」の箇条書き冒頭"
+        }
+      ]
+    },
+    {
+      "id": "cold-constitute-002",
+      "location": "語義1：日本語訳・定義と文法パターン",
+      "severity": "low",
+      "description": "語義1の定義が構成主語を複数に限定するように読め、単数名詞や不可算名詞が割合・部分を占める用法を狭く捉えさせる。",
+      "reason": "「複数の人・物・部分・期間などが、集まって一つの全体を形作る、またはその全体の一定割合・重要部分を占めることを表す。」は主語を「複数」に限定しているが、同じ記事の Online sales のような集合的・不可算的な主語のほか、単一の費目・期間・要因なども a significant part や一定割合を constitute できる。全体を余すところなく構成する場合には複数要素が典型でも、割合・重要部分の用法まで複数性を成立条件のように示すのは範囲が狭い。",
+      "suggested_direction": "「一つまたは複数の人・物・部分・期間など」とするか、全体形成では複数要素が典型だが、割合・部分の用法では単数・不可算の主語も可能だと分けて述べる。",
+      "scope_anchors": [
+        {
+          "id": "cold-constitute-002-a1",
+          "exact_quote": "複数の人・物・部分・期間などが、集まって一つの全体を形作る、またはその全体の一定割合・重要部分を占めることを表す。",
+          "location_hint": "語義1「日本語訳・定義」の第1文"
+        },
+        {
+          "id": "cold-constitute-002-a2",
+          "exact_quote": "Maintenance costs constitute a significant part of the annual budget.",
+          "location_hint": "語義1「constitute a large/significant part of 〈whole〉」の例文"
+        }
+      ]
+    },
+    {
+      "id": "cold-constitute-003",
+      "location": "語義1：日本語訳・定義と割合構文",
+      "severity": "medium",
+      "description": "能動構文では目的語が常に構成後の全体だとする説明が、直後に示される割合構文には当てはまらない。",
+      "reason": "「基本の能動構文では、主語が構成要素、目的語がそれらによってできる全体である。」という一般化に対し、記事自身が示す「〈group/category〉 constitute 〈割合〉 of 〈whole〉」では直接目的語に当たるのは割合表現で、全体は of 句の中に置かれる。Online sales now constitute 35 percent of the company's revenue. でも目的語は 35 percent であり、the company's revenue 全体そのものが目的語ではないため、現在の記述のままでは学習者が割合構文の項構造を誤って理解するおそれがある。",
+      "suggested_direction": "parts-to-whole 構文では目的語が全体になる一方、割合構文では目的語が割合・部分量で全体は of 句に現れる、と二つの型を分けて説明する。",
+      "scope_anchors": [
+        {
+          "id": "cold-constitute-003-a1",
+          "exact_quote": "基本の能動構文では、主語が構成要素、目的語がそれらによってできる全体である。",
+          "location_hint": "語義1「日本語訳・定義」の第2文"
+        },
+        {
+          "id": "cold-constitute-003-a2",
+          "exact_quote": "〈group/category〉 constitute 〈割合〉 of 〈whole〉",
+          "location_hint": "語義1「文法パターン」の第2パターン"
+        },
+        {
+          "id": "cold-constitute-003-a3",
+          "exact_quote": "Online sales now constitute 35 percent of the company's revenue.",
+          "location_hint": "語義1「constitute 〈percentage〉 of 〈whole〉」の例文"
+        }
+      ]
+    },
+    {
+      "id": "cold-constitute-004",
+      "location": "語義1の文法パターンと語義3の語法・注意",
+      "severity": "medium",
+      "description": "be constituted by の by 句を、構成要素にも設立主体にも使えるものとして整理せず、別々の箇所で相反する説明をしている。",
+      "reason": "語義1では「〈whole〉 be constituted of/from/by 〈parts〉」とし、by が構成要素を導けると明示している。一方、語義3の「be constituted under/by ... は設立根拠・設立主体を示す。一方、be constituted of ... は語義1で構成要素を示すため、under/by と of の役割を混同しない。」は by を設立側だけに割り当てるように断定しており、先の説明と両立しない。受動の by は文脈により、能動文で全体を constitute する構成要素にも、組織を設立する行為者にも対応し得るため、前置詞だけで語義を機械的に判定させる説明は危険である。",
+      "suggested_direction": "under は通常設立根拠を示すが、by は設立主体と構成要素のどちらも導き得ると訂正し、名詞句の意味と文脈で判別するよう説明する。",
+      "scope_anchors": [
+        {
+          "id": "cold-constitute-004-a1",
+          "exact_quote": "〈whole〉 be constituted of/from/by 〈parts〉",
+          "location_hint": "語義1「文法パターン」の第3パターン"
+        },
+        {
+          "id": "cold-constitute-004-a2",
+          "exact_quote": "`be constituted under/by ...` は設立根拠・設立主体を示す。一方、`be constituted of ...` は語義1で構成要素を示すため、under/by と of の役割を混同しない。",
+          "location_hint": "語義3「語法・注意」の第2段落冒頭"
+        }
+      ]
+    }
+  ],
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-08T01:01:26.443752+00:00"
+}

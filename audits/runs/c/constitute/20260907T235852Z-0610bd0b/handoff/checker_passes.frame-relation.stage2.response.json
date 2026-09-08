@@ -1,0 +1,31 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+  "stage2_request_sha256": "21db9f884e1f032d6852f335fa59608dd99db4954a5926822e3d1aec61e04d53",
+  "blind_record_sha256": "16da9ce68a7e740d2864c1a3394b514d91b454e13bd9b6788691124b2158dad2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-frame-relation-1"
+  },
+  "aligned_at": "2026-09-08T00:48:28Z",
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 255,
+        "line_end": 255,
+        "exact_quote": "・institute  "
+      },
+      "severity": "blocking",
+      "rationale": "institute は制度・手続き・調査などを開始する語であり、組織体を正式に設立する constitute の中心義とは十分に重ならない。提示された定義と例文も組織の設立ではなく inquiry の開始を扱っており、関連語を類義語として置いている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "類義語欄から削除するか、語法・注意で制度や手続きの開始との違いを示す関連語へ移動する。"
+    }
+  ],
+  "unrouted_observations": []
+}

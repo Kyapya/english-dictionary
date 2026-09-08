@@ -1,0 +1,19 @@
+{
+  "schema_version": "mechanical_validator_v1",
+  "stage": "mechanical_validator",
+  "entry_path": "entries/c/constitute.md",
+  "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "validator": "scripts/validate_entry.py",
+  "decision": "pass",
+  "errors": [],
+  "warnings": [
+    "line 36: grammar frame could not be classified: `〈whole〉 be constituted of 〈parts〉`＝全体が部分から構成されている",
+    "line 108: grammar frame could not be classified: `what constitutes 〈category〉`＝何がその分類を成り立たせるか",
+    "line 185: grammar frame could not be classified: `〈body〉 be constituted under/by 〈law/authority〉`＝機関が法律・権限に基づいて設立される",
+    "line 185: grammar frame could not be classified: `a properly/legally/duly constituted 〈body/authority〉`＝適切・合法・正式に成立した機関・権限主体",
+    "line 250: grammar frame could not be classified: `someone be constituted 〈office/role〉`＝人が役職に任命される",
+    "line 250: grammar frame could not be classified: `a legally constituted 〈officer/official〉`＝法に基づいて正式に任命された役職者"
+  ],
+  "run_count": 1,
+  "recorded_at": "2026-09-08T02:58:43.659006Z"
+}

@@ -1,0 +1,32 @@
+{
+  "schema_version": "checker_recheck_round2_revision_v1",
+  "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+  "output_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "recorded_at": "2026-09-08T02:30:11.322002Z",
+  "changed_units": [
+    "collocations_examples",
+    "frames",
+    "lexical_relations"
+  ],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "multiple_semantic_sections_changed"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [],
+  "source_binding_changed": false,
+  "source_artifact_sha256": "f63969a81cebb477471a1f01a3a087b0a9c85d94795a22dc1626229395687f76",
+  "post_cold_rechecks_used": 2,
+  "max_post_cold_rechecks": 2,
+  "further_recheck_required": true,
+  "further_recheck_budget_available": false,
+  "stop_reason": "adopted round-2 corrections invalidate all seven passes, but the extended post-cold recheck budget is exhausted at 2/2; a new explicit cycle is required after publication"
+}

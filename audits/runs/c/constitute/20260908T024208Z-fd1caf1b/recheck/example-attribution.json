@@ -1,0 +1,255 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-final-recheck-example-attribution-1"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+    "blind_request_sha256": "b4c8b99b5d8109933fbecc6e7cc374d2f244865e5e8ad931dd4a7634a8dab0d2",
+    "recorded_at": "2026-09-08T03:59:30+00:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-final-recheck-example-attribution-1"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-629033c7fb97",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "constituted an independent panel",
+          "to investigate the accident"
+        ],
+        "rationale": "「constituted an independent panel」は ministry を意図的な設置主体、panel を新設される組織体として結び、「to investigate the accident」はその設置目的を示すため sense:003 に一意に帰属する。競合する sense:001 なら主語が目的語の全体を成す構成要素でなければならないが、この用法の ministry は panel の構成部分ではない。"
+      },
+      {
+        "example_id": "ex-484186a2f85e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "is constituted of experts",
+          "experts from five different fields"
+        ],
+        "rationale": "「is constituted of experts」は panel という全体から experts という構成部分へ向かう受動の whole-to-parts 関係なので sense:001 に一意に帰属する。競合する sense:003 の正式設立なら設立主体・根拠・成立行為を表すはずだが、「of experts from five different fields」は成立行為ではなく構成要素を直接示している。"
+      },
+      {
+        "example_id": "ex-7cd44d3279b3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "constitute a breach of the agreement",
+          "Sharing the data without permission"
+        ],
+        "rationale": "「Sharing the data without permission」を「a breach of the agreement」という規範上の分類に直接当てはめる「constitute a breach of the agreement」は sense:002 に一意に帰属する。競合する sense:001 では breach が sharing を部分として含む全体である必要があるが、ここで述べるのは部分・全体ではなく行為の違反該当性である。"
+      },
+      {
+        "example_id": "ex-ebdb0cc6318e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a tribunal to be constituted",
+          "when a dispute arises"
+        ],
+        "rationale": "条約が「a tribunal to be constituted」と規定し、その成立時点を「when a dispute arises」とするため、constituted は審判機関を制度的に設置する sense:003 に一意に帰属する。競合する sense:001 の構成関係なら tribunal の構成部分を of/by 句などで示すはずだが、この文は紛争発生時の設置という出来事を表す。"
+      },
+      {
+        "example_id": "ex-96e5febec649",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "constitutes a significant change",
+          "in the company's approach"
+        ],
+        "rationale": "「constitutes a significant change」は revised policy を会社の方針上の「a significant change」と評価・分類するため sense:002 に一意に帰属する。競合する sense:001 なら change が policy を構成部分として含む全体である必要があるが、「in the company's approach」は変化の領域を示し、部分・全体関係を作らない。"
+      },
+      {
+        "example_id": "ex-428cb7e0ff27",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "a legally constituted officer",
+          "the treasurer"
+        ],
+        "rationale": "「the treasurer」を「a legally constituted officer」と呼ぶ constituted は、人である役職者が法に基づき正式にその地位へ就けられた結果状態を示すため sense:004 に一意に帰属する。競合する sense:003 は組織・機関・契約自体を正式に成立させる語義であり、個人の officer という役職上の身分を表すこの修飾関係には合わない。"
+      },
+      {
+        "example_id": "ex-f4295bc35c20",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "does not constitute proof of fraud",
+          "A single anonymous message"
+        ],
+        "rationale": "「A single anonymous message」が「does not constitute proof of fraud」とされ、証明として十分かという分類境界を否定しているため sense:002 に一意に帰属する。競合する sense:001 の部分・全体関係なら message が proof 全体の一部を構成すると述べるはずだが、does not constitute は証拠能力・十分性そのものを判定している。"
+      },
+      {
+        "example_id": "ex-deff610ea107",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "what constitutes acceptable use",
+          "acceptable use of the system"
+        ],
+        "rationale": "「what constitutes acceptable use」は、どの行為が「acceptable use of the system」という基準・分類を満たすかを問う埋込み疑問なので sense:002 に一意に帰属する。競合する sense:001 なら what が use という全体の構成部分を指す必要があるが、acceptable が示すのは構成ではなく許容性の判定である。"
+      },
+      {
+        "example_id": "ex-92f022026bc0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "constitute 35 percent of the company's revenue",
+          "35 percent of"
+        ],
+        "rationale": "「constitute 35 percent of the company's revenue」は Online sales が revenue 全体に占める数量的割合を「35 percent of」で明示するため sense:001 に一意に帰属する。競合する sense:002 の分類・評価なら目的語は主語が該当するカテゴリーになるが、35 percent はカテゴリーではなく全体に対する部分量である。"
+      },
+      {
+        "example_id": "ex-605bb124b12f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "was constituted guardian",
+          "for the limited purpose stated in the order"
+        ],
+        "rationale": "「She was constituted guardian」は人を表す She を guardian という役職・地位に就ける受動の person-plus-role-complement 構文であり、sense:004 に一意に帰属する。「for the limited purpose stated in the order」も任命範囲を限定する。競合する sense:003 は組織体を設立する語義なので、人に guardian という補語を与えるこの項構造では成立しない。"
+      },
+      {
+        "example_id": "ex-b98b3b7738ed",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a duly constituted board",
+          "Only a duly constituted board"
+        ],
+        "rationale": "「a duly constituted board」の duly は board が所定の手続きに従って正式に成立し権限を持つ結果状態を直接修飾するため sense:003 に一意に帰属する。競合する sense:001 の「部分から構成される」なら構成員を示す of/by 句や parts-to-whole 関係が必要だが、「Only a duly constituted board」はそのような構成要素ではなく組織の正式な成立資格を表す。"
+      },
+      {
+        "example_id": "ex-f17976845907",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "constituted him treasurer",
+          "treasurer of the association"
+        ],
+        "rationale": "「constituted him treasurer」は him を直接目的語、treasurer を目的格補語に置いて人を役職へ任命する構文なので sense:004 に一意に帰属する。競合する sense:003 では直接目的語が設立される組織体になるが、ここでは him が人、treasurer of the association が付与される役職である。"
+      },
+      {
+        "example_id": "ex-6ea3b9f1669e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Twelve jurors constitute the full jury",
+          "the full jury"
+        ],
+        "rationale": "「Twelve jurors constitute the full jury」は Twelve jurors という構成員から the full jury という全体へ向かう明示的な parts-to-whole 関係なので sense:001 に一意に帰属する。競合する sense:003 なら主語は組織を意図的に設置する権限主体となるが、jurors は設置者ではなく jury の構成要素である。"
+      },
+      {
+        "example_id": "ex-f44c96c9a558",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "agreed to constitute a transitional government",
+          "a transitional government"
+        ],
+        "rationale": "「agreed to constitute a transitional government」は parties が合意に基づき government を意図的に発足させる行為を表すため sense:003 に一意に帰属する。競合する sense:001 なら parties 自身が government の構成部分であるという状態関係になるが、「agreed to constitute」という意思決定を表す不定詞構文は設立行為を示す。"
+      },
+      {
+        "example_id": "ex-bd8ec604773b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "constitute the majority of the evening staff",
+          "the majority of"
+        ],
+        "rationale": "「constitute the majority of the evening staff」は Part-time employees が staff 全体に占める部分量を「the majority of」で示すため sense:001 に一意に帰属する。競合する sense:002 の分類関係なら majority が主語への評価カテゴリーになるが、ここでは of the evening staff が基準となる全体を明示している。"
+      },
+      {
+        "example_id": "ex-e426441ef3ae",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "constitutes a serious risk to public safety",
+          "a serious risk to"
+        ],
+        "rationale": "「constitutes a serious risk to public safety」は damaged bridge を公共安全上の「a serious risk」と評価・分類するため sense:002 に一意に帰属する。競合する sense:001 なら risk が bridge を部分として含む全体でなければならないが、「risk to public safety」は対象への危険という評価関係であり構成関係ではない。"
+      },
+      {
+        "example_id": "ex-dd9bf4281a77",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "was constituted under the new environmental law",
+          "under the new environmental law"
+        ],
+        "rationale": "「was constituted under the new environmental law」は commission の成立根拠を under 句で示し、法律に基づく制度的設置を表すため sense:003 に一意に帰属する。競合する sense:001 の構成関係なら by/of 句などが構成部分を担うが、「under the new environmental law」は部分ではなく法的根拠を示している。"
+      },
+      {
+        "example_id": "ex-7d462860dca1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "constitute a criminal offence",
+          "Deliberately altering the records"
+        ],
+        "rationale": "「Deliberately altering the records」という行為が「constitute a criminal offence」に該当し得るという法的分類を述べるため sense:002 に一意に帰属する。競合する sense:001 では offence が altering を構成部分として含む全体となるはずだが、may constitute が表すのは行為が犯罪要件を満たす可能性である。"
+      },
+      {
+        "example_id": "ex-53e54952d688",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "constitute a significant part of the annual budget",
+          "a significant part of"
+        ],
+        "rationale": "「constitute a significant part of the annual budget」は Maintenance costs が budget 全体に占める部分を「a significant part of」で明示するため sense:001 に一意に帰属する。競合する sense:002 の分類・評価なら目的語は主語が該当するカテゴリーになるが、ここでは part of the annual budget が全体に対する部分量を表す。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T03:59:31+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

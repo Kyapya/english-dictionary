@@ -1,0 +1,24 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-fresh-qualification-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26,
+        "exact_quote": "`constituent` — 名詞「構成要素、選挙区民」、形容詞「構成する」。政治の「選挙区民」は constitute の目的語ではなく、代表者を選ぶ constituency の構成員を指す。  "
+      },
+      "severity": "blocking",
+      "rationale": "「選挙区民」は constitute の目的語ではない、という無限定の統語的主張には反例がある。たとえば `These voters constitute the senator's constituents.` では政治義の constituents が constitute の直接目的語になる。ここで説明すべきなのは constituent の語義・名称が『constitute の目的語』という関係から定義されるのではないことだが、現状の文は実際の文中で目的語にできないという禁止にも読め、誤った一般化を生む。",
+      "evidence_link_ids": [],
+      "suggested_direction": "絶対的な構文制約を削除し、「政治義の constituent は『constitute の目的語』を意味する名称ではなく、constituency の構成員を指す」のように語形成上の関係だけへ限定する。"
+    }
+  ]
+}

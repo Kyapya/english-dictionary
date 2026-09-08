@@ -1,0 +1,394 @@
+{
+  "schema_version": "final_blind_review_v2",
+  "stage": "final_blind",
+  "reviewer_agent_id": "constitute-final-blind-1",
+  "model": "gpt-5",
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "constitute",
+      "frame": "〈parts/members〉 constitute 〈whole/group〉",
+      "meaning": "複数の部分・構成員が全体を構成する",
+      "disposition": "included",
+      "rationale": "〈parts/members〉 constitute 〈whole/group〉 は、主語側の要素から目的語側の全体へ向かう基本的な部分―全体関係を表し、記事はその方向を正しく区別している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-01-A1",
+          "statement": "主語は目的語で表される全体の構成要素または構成員でなければならない。",
+          "polarity": "must_hold",
+          "scope": "能動態の parts-to-whole 構文"
+        },
+        {
+          "id": "IC-01-A2",
+          "statement": "このフレームを、全体を主語にして部分を目的語に取る方向として説明してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "能動態の意味役割"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "constitute",
+      "frame": "〈group/category/item〉 constitute 〈percentage/majority/minority/part〉 (of 〈whole〉)",
+      "meaning": "ある集団・項目が全体に占める割合または部分量を表す",
+      "disposition": "included",
+      "rationale": "〈group/category/item〉 constitute 〈percentage/majority/minority/part〉 (of 〈whole〉) は、完全な全体形成ではなく量的な占有関係を表す独立フレームであり、記事の用例と説明はこの境界を満たす。",
+      "semantic_assertions": [
+        {
+          "id": "IC-02-A1",
+          "statement": "目的語は主語が占める割合・多数／少数区分・部分量を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "割合・部分量フレーム"
+        },
+        {
+          "id": "IC-02-A2",
+          "statement": "of 句の全体は、文脈から回復できる場合に限って省略可能である。",
+          "polarity": "must_hold",
+          "scope": "割合・部分量フレームの省略"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "be constituted of",
+      "frame": "〈whole〉 be constituted of 〈parts/materials〉",
+      "meaning": "全体が複数の部分・材料から構成されている",
+      "disposition": "included",
+      "rationale": "〈whole〉 be constituted of 〈parts/materials〉 は硬いが成立する受動的な構成表現であり、記事はより普通の be composed of / consist of とのレジスター差も示している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-03-A1",
+          "statement": "主語は全体で、of 句はその構成要素または材料でなければならない。",
+          "polarity": "must_hold",
+          "scope": "be constituted of 構文"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "constitute",
+      "frame": "〈act/fact/situation/result〉 constitute 〈category/evaluation/state〉",
+      "meaning": "行為・事実・状況などが分類・評価・状態に該当する",
+      "disposition": "included",
+      "rationale": "〈act/fact/situation/result〉 constitute 〈category/evaluation/state〉 は、部分―全体関係ではなく、主語が目的語の定義・評価に当たるという同定関係であり、記事は crime、breach、risk、change などを適切に扱う。",
+      "semantic_assertions": [
+        {
+          "id": "IC-04-A1",
+          "statement": "主語は目的語が表す分類・評価・状態の成立条件に該当すると判断されなければならない。",
+          "polarity": "must_hold",
+          "scope": "分類・評価用法"
+        },
+        {
+          "id": "IC-04-A2",
+          "statement": "constitute 自体を、その分類対象を引き起こす cause の意味として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "分類・評価用法"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "does not constitute",
+      "frame": "〈evidence/act/silence/etc.〉 does not constitute 〈proof/consent/approval/etc.〉",
+      "meaning": "ある材料や行為だけでは所定の証明・同意・承認に該当するほど十分ではない",
+      "disposition": "included",
+      "rationale": "〈evidence/act/silence/etc.〉 does not constitute 〈proof/consent/approval/etc.〉 は分類境界の不充足を明示する定着した否定フレームであり、記事は prove という行為との混同も避けている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-05-A1",
+          "statement": "否定は、主語が目的語の分類に達するための十分条件を満たさないことに作用しなければならない。",
+          "polarity": "must_hold",
+          "scope": "否定された分類フレーム"
+        },
+        {
+          "id": "IC-05-A2",
+          "statement": "このフレームを、主語が証拠によって何かを証明するという他動的な prove の意味にしてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "proof/evidence を伴う否定フレーム"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "what constitutes",
+      "frame": "what constitutes 〈category/standard〉",
+      "meaning": "何が特定の分類・基準を成立させるかを問う・定義する",
+      "disposition": "included",
+      "rationale": "what constitutes 〈category/standard〉 は、分類の境界や要件を問う埋込み疑問・自由関係節のフレームとして記事に正しく含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-06-A1",
+          "statement": "what は、目的語の分類・基準に該当する内容または条件を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "what constitutes フレーム"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "constitute an agreement",
+      "frame": "〈communications/documents/conduct/terms〉 constitute 〈agreement/contract〉",
+      "meaning": "複数の言動・文書・条項などが総体として合意・契約に当たる",
+      "disposition": "included",
+      "rationale": "〈communications/documents/conduct/terms〉 constitute 〈agreement/contract〉 は分類・成立条件の用法であり、主語となる事実群が目的語の agreement / contract に該当するという方向で理解する必要がある。",
+      "semantic_assertions": [
+        {
+          "id": "IC-07-A1",
+          "statement": "主語となる言動・文書・条項が、目的語の合意・契約に該当するか、その成立条件を満たす関係でなければならない。",
+          "polarity": "must_hold",
+          "scope": "agreement/contract を目的語にする分類フレーム"
+        },
+        {
+          "id": "IC-07-A2",
+          "statement": "agreement/contract を、権限主体が目的語として法的形式に整える組織設立フレームへ自動的に移してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "agreement/contract の語義帰属"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "constitute",
+      "frame": "〈authority/institution/parties〉 constitute 〈committee/body/court/government〉",
+      "meaning": "権限主体などが組織・機関を公式に設立する",
+      "disposition": "included",
+      "rationale": "〈authority/institution/parties〉 constitute 〈committee/body/court/government〉 は、既存部分の構成関係ではなく、主体が制度的行為によって新たな組織体を成立させる用法として記事に適切に含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-08-A1",
+          "statement": "主語は組織体を公式に設ける行為主体で、目的語はその行為により成立する組織体でなければならない。",
+          "polarity": "must_hold",
+          "scope": "組織設立の能動フレーム"
+        },
+        {
+          "id": "IC-08-A2",
+          "statement": "単なる構成員と全体の静的関係を、公式な設立行為として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "組織設立と部分―全体の境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "be constituted under/by",
+      "frame": "〈body〉 be constituted under/by 〈law/charter/authority〉",
+      "meaning": "機関が法律・憲章・権限主体を根拠または設立主体として公式に成立する",
+      "disposition": "included",
+      "rationale": "〈body〉 be constituted under/by 〈law/charter/authority〉 は設立根拠または設立主体を示す受動フレームであり、記事は by が構成要素を示す別解釈も持ち得ると注意している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-09-A1",
+          "statement": "under 句は通常、機関の設立根拠となる法・憲章を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "be constituted under フレーム"
+        },
+        {
+          "id": "IC-09-A2",
+          "statement": "by 句は文脈により設立主体または構成要素となるため、前置詞だけで語義を固定してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "be constituted by の曖昧性"
+        }
+      ]
+    },
+    {
+      "id": "IC-10",
+      "surface_form": "constituted",
+      "frame": "a duly/properly/legally constituted 〈body/authority/meeting〉",
+      "meaning": "機関・権限主体・会議が必要な手続きや構成要件を満たして正式に成立している",
+      "disposition": "included",
+      "rationale": "a duly/properly/legally constituted 〈body/authority/meeting〉 は、適式な設立・招集・構成を表す過去分詞修飾であり、個々の決定の適法性まで保証しないという記事の限定も適切である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-10-A1",
+          "statement": "修飾対象そのものが必要な法的・手続的・構成上の要件を満たして成立していなければならない。",
+          "polarity": "must_hold",
+          "scope": "duly/properly/legally constituted の分詞修飾"
+        },
+        {
+          "id": "IC-10-A2",
+          "statement": "その修飾対象が行うすべての個別行為の適法性まで含意してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "分詞修飾の含意範囲"
+        }
+      ]
+    },
+    {
+      "id": "IC-11",
+      "surface_form": "constitute",
+      "frame": "〈authority/law/document〉 constitute someone 〈office/role〉",
+      "meaning": "権限者・法・公式文書が人を役職・役割に正式に任命する",
+      "disposition": "included",
+      "rationale": "〈authority/law/document〉 constitute someone 〈office/role〉 は、人を直接目的語、役職を目的格補語とする古風・法律的な任命フレームであり、組織そのものを設立する用法とは意味役割が異なる。",
+      "semantic_assertions": [
+        {
+          "id": "IC-11-A1",
+          "statement": "直接目的語は任命される人、目的格補語はその人に付与される役職・役割でなければならない。",
+          "polarity": "must_hold",
+          "scope": "人の任命を表す能動フレーム"
+        },
+        {
+          "id": "IC-11-A2",
+          "statement": "一般的な現代文体で appoint と同程度に無標な表現として扱ってはならない。",
+          "polarity": "must_not_hold",
+          "scope": "任命用法のレジスター"
+        }
+      ]
+    },
+    {
+      "id": "IC-12",
+      "surface_form": "be constituted",
+      "frame": "someone be constituted 〈office/role〉",
+      "meaning": "人が役職・役割に正式に任命される",
+      "disposition": "included",
+      "rationale": "someone be constituted 〈office/role〉 は任命用法の受動フレームであり、記事は人と役職の意味役割を維持したまま限定的・公式な用法として示している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-12-A1",
+          "statement": "主語は任命される人で、補語は付与される役職・役割でなければならない。",
+          "polarity": "must_hold",
+          "scope": "人の任命を表す受動フレーム"
+        }
+      ]
+    },
+    {
+      "id": "IC-13",
+      "surface_form": "legally constituted",
+      "frame": "a legally constituted 〈officer/official〉",
+      "meaning": "法や制度に基づいて正式な地位・権限を与えられた役職者",
+      "disposition": "included",
+      "rationale": "a legally constituted 〈officer/official〉 は、役職者が適法な根拠によりその地位・権限を得ていることを表す分詞修飾として記事に適切に含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-13-A1",
+          "statement": "修飾される役職者は、法または制度上の正規の根拠により地位・権限を得ていなければならない。",
+          "polarity": "must_hold",
+          "scope": "役職者を修飾する legally constituted"
+        }
+      ]
+    },
+    {
+      "id": "IC-14",
+      "surface_form": "constitute",
+      "frame": "constitute as 〈category/role〉",
+      "meaning": "as を介して分類・評価または任命を表す一般的な基本構文",
+      "disposition": "excluded",
+      "rationale": "constitute as 〈category/role〉 は通常の基本構文としては採らず、分類用法では直接目的語、任命用法では人＋役職補語を取るという記事の境界が妥当である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-14-A1",
+          "statement": "分類・評価用法の標準フレームに as を必須要素として立ててはならない。",
+          "polarity": "must_not_hold",
+          "scope": "分類・評価用法の補文型"
+        }
+      ]
+    },
+    {
+      "id": "IC-15",
+      "surface_form": "constitute",
+      "frame": "〈authority/parties〉 constitute 〈agreement/contract〉",
+      "meaning": "権限主体・当事者が契約を目的語に取り、それに所定の法的形式を与える",
+      "disposition": "excluded",
+      "rationale": "権限主体・当事者が契約を目的語に取り、それに所定の法的形式を与える という独立した使役的法律フレームは、組織を公式に設立する用法から agreement/contract へ一般化できず、通常の constitute an agreement は IC-07 の分類関係として扱うべきである。",
+      "semantic_assertions": [
+        {
+          "id": "IC-15-A1",
+          "statement": "agreement/contract を目的語とするだけで、主語がその法的形式を整える使役的設立用法が成立するとしてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "agreement/contract を目的語にする想定上の使役フレーム"
+        }
+      ]
+    },
+    {
+      "id": "IC-16",
+      "surface_form": "constitution",
+      "frame": "派生名詞 constitution",
+      "meaning": "構成・体質、または国家・組織の基本原則を定める憲法・規約",
+      "disposition": "included",
+      "rationale": "constitution は constitute と同じ語族の主要な派生名詞であり、記事の「構成・体質」と「憲法・規約」という意味範囲は妥当である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-16-A1",
+          "statement": "派生名詞は構成・体質の意味と、基本原則を定める憲法・規約の意味を区別して含まなければならない。",
+          "polarity": "must_hold",
+          "scope": "語形成欄の constitution"
+        }
+      ]
+    },
+    {
+      "id": "IC-17",
+      "surface_form": "constitutional / constitutionally",
+      "frame": "派生形容詞 constitutional と派生副詞 constitutionally",
+      "meaning": "構成上・体質上・憲法上の性質、またはその様態",
+      "disposition": "included",
+      "rationale": "constitutional / constitutionally は構成・体質・憲法に関わる形容詞／副詞として記事の語形成欄に適切に含まれている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-17-A1",
+          "statement": "形容詞と副詞の品詞差を保ち、体質的意味と憲法上の意味の双方を文脈に応じて認めなければならない。",
+          "polarity": "must_hold",
+          "scope": "語形成欄の constitutional / constitutionally"
+        }
+      ]
+    },
+    {
+      "id": "IC-18",
+      "surface_form": "constituent",
+      "frame": "派生名詞・形容詞 constituent",
+      "meaning": "構成要素・選挙区民、または構成する性質",
+      "disposition": "included",
+      "rationale": "constituent は名詞「構成要素・選挙区民」と形容詞「構成する」を持ち、政治義を constituency の構成員として説明する記事の境界も適切である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-18-A1",
+          "statement": "政治義の constituent は代表者を選ぶ constituency の構成員を指さなければならない。",
+          "polarity": "must_hold",
+          "scope": "語形成欄の政治義 constituent"
+        },
+        {
+          "id": "IC-18-A2",
+          "statement": "政治義を constitute の文法上の目的語という関係から定義してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語形成欄の政治義 constituent"
+        }
+      ]
+    },
+    {
+      "id": "IC-19",
+      "surface_form": "reconstitute",
+      "frame": "派生動詞 reconstitute 〈thing/substance〉",
+      "meaning": "再構成する、元の状態へ戻す、または乾燥品などを液体で戻す",
+      "disposition": "included",
+      "rationale": "reconstitute は再構成・復元に加え、乾燥食品や薬剤などへ液体を加えて使用可能な状態へ戻す専門的用法を持ち、記事の説明は妥当である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-19-A1",
+          "statement": "液体を加える専門用法では、乾燥・濃縮された対象を所定の状態または濃度へ戻す作用でなければならない。",
+          "polarity": "must_hold",
+          "scope": "語形成欄の reconstitute"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "AF-01",
+      "taxonomy_id": "sense_frame_overextension",
+      "location": "語義3の日本語訳・定義、文法パターン、語法・注意",
+      "severity": "blocker",
+      "rationale": "「`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える」は、正当な組織設立フレームと、agreement を目的語にする別の意味関係を一括している。さらに「法律文脈の `constitute an agreement/body` は、契約や組織体に必要な法的形式を与える意味になり得る。」と反復しているが、通常の constitute an agreement/contract は、言動・文書・条項などが合意・契約に「当たる／それを成す」という語義2の分類・成立条件フレームである。authority/parties が agreement を目的語に取って法的形式を付与するという使役的フレームを、constitute a body から一般化して教えるのは語義混入であり、学習者に不自然な産出を促すため修正が必要である。agreement/contract は語義2側へ再分類し、語義3は committee/body/court/government など公式に成立させる対象に限定すべきである。",
+      "scope_anchors": [
+        {
+          "id": "AF-01-S1",
+          "exact_quote": "`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える",
+          "location_hint": "語義3・文法パターン"
+        },
+        {
+          "id": "AF-01-S2",
+          "exact_quote": "法律文脈の `constitute an agreement/body` は、契約や組織体に必要な法的形式を与える意味になり得る。",
+          "location_hint": "語義3・語法・注意"
+        }
+      ]
+    }
+  ]
+}

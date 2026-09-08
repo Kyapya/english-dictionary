@@ -1,0 +1,166 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "stage": "pre_blind_resolution",
+  "input_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+  "output_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0",
+  "recorded_at": "2026-09-08T01:10:35Z",
+  "resolutions": [
+    {
+      "id": "check-translation-001",
+      "finding_id": "check-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "the majority は過半数を表し、大半では程度を不必要に強めるため、訳を「過半数」に改めた。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-translation-002",
+      "finding_id": "check-translation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "分類関係を保ったまま不自然な連体修飾を避け、「どのようなシステム利用が許容されるか」とした。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-translation-003",
+      "finding_id": "check-translation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "the parties は政党に限定されないため、主体を「当事者ら」と訳した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-frame-relation-001",
+      "finding_id": "check-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "institute の提示定義・例は制度や調査の開始で、組織体の正式な成立という語義3の置換語にならないため、類義語欄から削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-example-attribution-001",
+      "finding_id": "check-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "constituted authorities は組織設立と人への任命の両方に読めるため、語義4では人を明示する a legally constituted officer のパターンと例へ置換した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-qualification-001",
+      "finding_id": "check-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "constitute 単独が所定手続の充足、権限付与、活動可能性を常に含意するとの過剰一般化を除き、中心義を正式な形成・設置に限定した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-qualification-002",
+      "finding_id": "check-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "任命語義を正式な任命・指定に限定し、法的有効性や権限範囲は文書・制度・法域に依存すると明記した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-pronunciation-001",
+      "finding_id": "check-pronunciation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "接辞 /s/ と語幹末を含む /ts/ の混同があり、かつ直接根拠も不足していたため、該当する屈折形発音の一文を削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-001",
+      "finding_id": "check-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存の発音根拠は英音 /tj/ の融合変異を記録していないため、その主張を削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-002",
+      "finding_id": "check-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F002 は屈折形を列挙するだけで各発音を支えないため、constitutes・constituted・constituting の発音説明を削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-003",
+      "finding_id": "check-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F002 が直接支える constituted と constituting の形・文法機能だけを残し、constitutes と e 脱落規則を削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-004",
+      "finding_id": "check-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F008・F020 は con-/com- と statuere の形態構成を支えるが接頭辞機能の二択は支えないため、「強意、または共に」を削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-005",
+      "finding_id": "check-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F014 が直接示す受動フレームは constituted of のみであるため、一覧と基本語法を be constituted of に限定した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-006",
+      "finding_id": "check-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存根拠は constitute someone as agent/representative の as 補部を直接示さないため、そのフレーム・例・説明を削除し、直接目的語＋目的格補語に限定した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "check-evidence-007",
+      "finding_id": "check-evidence-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "既存根拠は現代の日常英語での希少性や appoint/designate との相対頻度を直接支えないため、その比較断定を定義から削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "cold-constitute-001",
+      "finding_id": "cold-constitute-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "三人称単数接辞 /s/ と語末連続 /ts/ を混同する説明であり、直接根拠も不足していたため一文を削除した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "cold-constitute-002",
+      "finding_id": "cold-constitute-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "割合・部分量では単数・不可算の主語も可能なので、主語を「一つまたは複数」として複数性を成立条件にしない定義へ改めた。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "cold-constitute-003",
+      "finding_id": "cold-constitute-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "全体構成では目的語が全体、割合構文では目的語が割合・部分量で全体が of 句に現れる、と二つの項構造を分けた。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    },
+    {
+      "id": "cold-constitute-004",
+      "finding_id": "cold-constitute-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "by 句は設立主体にも構成要素にもなり得るため、under・by・of の役割を文脈依存で区別する説明に改め、基本フレームは根拠のある constituted of に限定した。",
+      "resolved_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}
