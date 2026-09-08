@@ -11,6 +11,7 @@ resolution phases and targeted adjudications.
 import argparse
 import hashlib
 import json
+import re
 from datetime import datetime
 from pathlib import Path
 from typing import Any, Iterable
@@ -126,6 +127,7 @@ def _semantic_snapshot(text: str) -> tuple[dict[str, list[str]], list[str]]:
     unclassified: list[str] = []
     main: str | None = None
     sense_unit: str | None = None
+    sense_owner = ""
     heading_map = {
         "＃発音記号": "pronunciation",
         "＃発音": "pronunciation",
@@ -163,6 +165,7 @@ def _semantic_snapshot(text: str) -> tuple[dict[str, list[str]], list[str]]:
         if stripped.startswith("＃"):
             main = heading_map.get(compact)
             sense_unit = None
+            sense_owner = ""
             if main is None:
                 unclassified.append(stripped)
             elif main != "senses":
@@ -171,6 +174,7 @@ def _semantic_snapshot(text: str) -> tuple[dict[str, list[str]], list[str]]:
         if main == "senses":
             if stripped[:1].isdigit() and "【" in stripped:
                 sense_unit = "sense_structure"
+                sense_owner = stripped
                 units[sense_unit].append(stripped)
                 continue
             matched = next(
@@ -179,9 +183,9 @@ def _semantic_snapshot(text: str) -> tuple[dict[str, list[str]], list[str]]:
             )
             if matched is not None:
                 sense_unit = matched
-                units[matched].append(stripped)
+                units[matched].append("@" + sense_owner + "\0" + stripped)
             elif sense_unit is not None:
-                units[sense_unit].append(stripped)
+                units[sense_unit].append("@" + sense_owner + "\0" + stripped)
             else:
                 unclassified.append(stripped)
         elif main in units:
@@ -199,6 +203,14 @@ def _sense_count(snapshot: dict[str, list[str]]) -> int:
     )
 
 
+def _sense_topology(snapshot: dict[str, list[str]]) -> list[tuple[str, str, str]]:
+    # Keep ordered IDs and POS: counting senses alone misses POS substitutions
+    # and renumbering/reordering without a count change. Include the title so
+    # swapping meanings and then renumbering also takes the conservative path.
+    return [match.groups() for line in snapshot["sense_structure"]
+            if (match := re.match(r"^(\d+)[.．、]?\s*【([^】]+)】(.*)$", line))]
+
+
 def plan_rechecks(before_text: str, after_text: str) -> dict[str, Any]:
     before_body = _body(before_text)
     after_body = _body(after_text)
@@ -206,10 +218,11 @@ def plan_rechecks(before_text: str, after_text: str) -> dict[str, Any]:
     after, after_unknown = _semantic_snapshot(after_text)
     changed = sorted(key for key in UNIT_TO_PASSES if before[key] != after[key])
     unknown_changed = before_unknown != after_unknown
-    sense_topology_changed = _sense_count(before) != _sense_count(after)
-    # More than one semantic section or anything not safely classified falls
-    # back to all passes.  This is deliberately conservative.
-    full = unknown_changed or sense_topology_changed or len(changed) > 1
+    sense_topology_changed = (_sense_count(before) != _sense_count(after)
+                              or _sense_topology(before) != _sense_topology(after))
+    # Classified local edits compose by dependency union, not by section count.
+    # Unknown or structural edits still fail closed to the entire checker set.
+    full = unknown_changed or sense_topology_changed
     invalidated = set(ALL_CHECKER_PASSES) if full else set()
     if not full:
         for unit in changed:
@@ -225,7 +238,6 @@ def plan_rechecks(before_text: str, after_text: str) -> dict[str, Any]:
             for condition, reason in (
                 (unknown_changed, "unclassified_change"),
                 (sense_topology_changed, "sense_or_part_of_speech_topology_changed"),
-                (len(changed) > 1, "multiple_semantic_sections_changed"),
             )
             if condition
         ],

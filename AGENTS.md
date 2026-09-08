@@ -50,6 +50,12 @@ handoffの担当は応答保存後、`--resume <run> --validate-review <stage>` 
 最新版の検査、対象IDと回答ひな形を機械確認する。ひな形の未判定をpassとみなさない。
 
 同一見出し語の未完了runは新規作成せず、オーケストレータの出力どおりに再開する。
+全工程60/90分・draft20/30分は警告目安であり、超過を理由に停止・新run作成・
+通常checker/coldの全面再実行をしない。`time_warnings` に超過時刻と工程を記録し、
+調整役は遅延原因を報告して同じrunの未完了工程へ進む。旧時間切れだけの停止は
+`--resume` が履歴を残して復帰する。開始時刻、期限目安、失敗回数、検査入力は戻さない。
+検索・再審査回数の上限、通信・コマンドtimeout、公開条件は維持する。時間停止と
+回数上限停止を混同せず、後者を新runで回避しない。heartbeatの古さだけで停止と断定しない。
 checker、example-attribution、cold review、final blind、final reviewは生成担当と
 独立した `scripts/review_call.py` または handoff のサブエージェント出力だけを受け付ける。
 
@@ -102,7 +108,8 @@ evidence passは、同じrunの完成済み `source_inventory.json` を正本と
 固定draftに通常7 checkerとcold reviewを実行し、APIではcoldも同じ最大7 worker枠へ
 投入する。checker/cold findingは `pre_blind_resolution` で一括反映し、
 `scripts/workflow_revision.py` が変更意味単位に依存するpassだけを失効させる。
-分類不能、複数section、語義統合・分割、品詞追加削除は全7 passへ倒す。
+複数sectionでも分類できる局所修正は依存passの和集合だけを失効させる。
+分類不能、語義統合・分割、品詞・語義順序の変更は全7 passへ倒す。
 
 影響passの再検査後、最新本文だけをfinal blindへ渡す。final-blind findingは
 `post_blind_resolution` だけで裁定し、採用修正時は影響pass再検査後に新本文で

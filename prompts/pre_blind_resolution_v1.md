@@ -9,7 +9,7 @@ final blindの入力・出力・findingはこの段階へ渡さない。
 - `adopted` を一括して本文へ反映し、修正前後の本文SHA-256と記録時刻を保存する。
 - 未判定、hold、条件付き解決は完了扱いにしない。
 - 修正前後を `scripts/workflow_revision.py` で比較し、変更意味単位と失効checkerをコードで決める。LLMの自己申告だけで再検査範囲を狭めない。
-- 分類不能、複数section、語義統合・分割、品詞追加削除は全7 checkerを失効させる。
+- 複数sectionの局所修正は依存passの和集合だけを失効させる。分類不能、語義統合・分割、品詞・語義順序の変更は全7 checkerを失効させる。
 - source-first資料・fact・research roundを自動追加しない。既存根拠で解決不能なら未解決事項として停止する。
 
 ## 出力
