@@ -1,0 +1,47 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cycle2-round2-sense-structure-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 122,
+        "line_end": 122,
+        "exact_quote": "【日本語訳・定義】学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。  "
+      },
+      "severity": "blocking",
+      "rationale": "この改訂で語義2は教育機関の長だけに再限定されたが、凍結 source union の U-002 は、教育上の役職名に加えて、支配的権限または主導的地位を持つ人物という名詞用法も収録対象としている。ほかの番号付き語義にもこの人物用法の収録先はなく、コアイメージからも対応枝が消えているため、主要な名詞候補が再び欠落している。",
+      "evidence_link_ids": [
+        "F-002",
+        "F-003",
+        "F-014",
+        "F-017"
+      ],
+      "suggested_direction": "一般の人物を無制限に広げず、根拠が支える『支配的権限または主導的地位を持つ人』の範囲を番号付き語義とコアイメージに戻す。完全フレームが不足するなら、既存語義へ無理に拡張せず、独立した構造上の候補として裁定する。"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 160,
+        "line_end": 160,
+        "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、音楽分野で確立した役割名を指す。  "
+      },
+      "severity": "blocking",
+      "rationale": "この改訂で語義3はオーケストラの首席奏者だけに再限定されたが、凍結 source union の U-003 は principal artist を含む舞台芸術の leading performer も収録対象としている。現行のコアイメージ、語義見出し、定義、領域はすべてオーケストラに閉じており、裏付けられた舞台芸術の主要演者用法に収録先がない。",
+      "evidence_link_ids": [
+        "F-007",
+        "F-018"
+      ],
+      "suggested_direction": "オーケストラの実現形は維持しつつ、根拠が支える舞台芸術の主要演者を語義構造とコアイメージに戻す。完全フレームの不足と収録対象の衝突は、語義を削除して解消せず、独立裁定の対象にする。"
+    }
+  ],
+  "unrouted_observations": []
+}

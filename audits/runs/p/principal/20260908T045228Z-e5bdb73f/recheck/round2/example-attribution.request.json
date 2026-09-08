@@ -1,0 +1,189 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 40,
+        "label": "1. 【形容詞】主要な、最も重要な、第一の",
+        "definition": "複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 120,
+        "label": "2. 【名詞・可算】校長、学長、教育機関の長",
+        "definition": "学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 158,
+        "label": "3. 【名詞・可算】オーケストラの首席奏者",
+        "definition": "オーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、音楽分野で確立した役割名を指す。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 186,
+        "label": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本",
+        "definition": "借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。信託法では、収益と区別される信託財産そのもの、すなわち信託元本・corpusを指す。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 234,
+        "label": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者",
+        "definition": "別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 276,
+        "label": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者",
+        "definition": "刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 309,
+        "label": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者",
+        "definition": "債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-7e4f06e75adc",
+        "example": "The principal of the college welcomed the new students.",
+        "translation": "そのカレッジの学長は新入生を歓迎した。"
+      },
+      {
+        "example_id": "ex-cb39d828d4bb",
+        "example": "The trust document distinguishes principal from income.",
+        "translation": "その信託文書は元本と収益を区別している。"
+      },
+      {
+        "example_id": "ex-15e017188e46",
+        "example": "The principal reason for the delay was a shortage of parts.",
+        "translation": "遅延の主な理由は部品不足だった。"
+      },
+      {
+        "example_id": "ex-901752ded57d",
+        "example": "The contract created a principal-agent relationship between the owner and the broker.",
+        "translation": "その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。"
+      },
+      {
+        "example_id": "ex-2bc8b1fce376",
+        "example": "She is one of the principal architects of the reform.",
+        "translation": "彼女はその改革の主要な立案者の一人である。"
+      },
+      {
+        "example_id": "ex-1a920077e1af",
+        "example": "The guarantee does not replace the obligation of the principal.",
+        "translation": "その保証は主たる義務者の義務に取って代わるものではない。"
+      },
+      {
+        "example_id": "ex-cebedbea1b32",
+        "example": "The borrower will begin repaying principal next year.",
+        "translation": "借り手は来年、元金の返済を開始する。"
+      },
+      {
+        "example_id": "ex-0dcd029188fe",
+        "example": "The agreement states the duties of the principal and the surety.",
+        "translation": "その契約は主たる義務者と保証人の義務を定めている。"
+      },
+      {
+        "example_id": "ex-67683438a955",
+        "example": "The school principal met with parents after the incident.",
+        "translation": "校長はその出来事の後、保護者と面会した。"
+      },
+      {
+        "example_id": "ex-0abb34e550e1",
+        "example": "The fund aims to protect the principal while generating modest returns.",
+        "translation": "そのファンドは、控えめな収益を生みながら元本を保全することを目指している。"
+      },
+      {
+        "example_id": "ex-da7653f64aca",
+        "example": "Extra payments can help you pay down the principal faster.",
+        "translation": "追加返済をすれば、元金をより早く減らせる。"
+      },
+      {
+        "example_id": "ex-068d6c2a7047",
+        "example": "Investigators identified corrosion as the principal cause of the failure.",
+        "translation": "調査担当者は、腐食をその故障の主因と特定した。"
+      },
+      {
+        "example_id": "ex-6ce5186381ff",
+        "example": "The agent may sign the document on behalf of the principal.",
+        "translation": "代理人は本人を代理してその書類に署名できる。"
+      },
+      {
+        "example_id": "ex-00bf241dfbd4",
+        "example": "A college principal addressed the graduating class.",
+        "translation": "カレッジの学長が卒業生に向けて話した。"
+      },
+      {
+        "example_id": "ex-02c092bc62c9",
+        "example": "Under the agreement, the company remains liable as principal for the debt, while the guarantor is only secondarily liable.",
+        "translation": "その契約の下で、会社はその債務について主たる当事者として引き続き責任を負い、保証人は二次的にのみ責任を負う。"
+      },
+      {
+        "example_id": "ex-b588b86cd20d",
+        "example": "The statute treats a person who knowingly assists the offense as a principal.",
+        "translation": "その制定法は、情を知って犯罪を援助する者を `principal` として扱う。"
+      },
+      {
+        "example_id": "ex-ab69e297c185",
+        "example": "The monthly payment includes both principal and interest.",
+        "translation": "毎月の返済額には元金と利息の両方が含まれる。"
+      },
+      {
+        "example_id": "ex-e5eed5dd7f58",
+        "example": "The court identified him as a principal in the crime.",
+        "translation": "裁判所は彼をその犯罪について `principal` に当たる者と認定した。"
+      },
+      {
+        "example_id": "ex-d8808e972e59",
+        "example": "The concert program lists her as one of the orchestra's principals.",
+        "translation": "その演奏会プログラムには、彼女がオーケストラの首席奏者の一人として載っている。"
+      },
+      {
+        "example_id": "ex-bb27c1771d34",
+        "example": "Tourism is a principal source of income for the island.",
+        "translation": "観光はその島の主要な収入源の一つである。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "c67fbd1790a51734d06c4ce7bf5e479b9b6d376b3161f9cb216d7d37a456a218",
+  "normalized_input_sha256": "6745c95b0ae2a3a7929f35eda59008147c47602bbc39af794aa54f7c199b15c8"
+}

@@ -1,0 +1,92 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh2-frame-relation-recheck2"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035",
+    "blind_request_sha256": "2802b8bf63e0c548a960cbf484848cac06b408d52ee7959dc3190249a80eb04d",
+    "recorded_at": "2026-09-08T16:10:10+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-fresh2-frame-relation-recheck2"
+    },
+    "axes": [
+      {
+        "item_id": "ant-07666573d6b8",
+        "axis": "代理役割",
+        "relation_type": "補完",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-97dafc6cd022",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-a3f8cd10f6c0",
+        "axis": "責任順位",
+        "relation_type": "補完",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-2e24839ff60d",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "c248d0720ab4d77bd1b783bb179af32632c7d790b95da43621c684feb1d3d035",
+    "stage2_request_sha256": "bc048099843c26b850008ff94a68558156478aefd084e52874f0cfb605897217",
+    "blind_record_sha256": "bddf7662ef827279b1bd761e8f082072315ffed83af87297eeed9e6c5ba8258e",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-fresh2-frame-relation-recheck2"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-2e24839ff60d",
+        "flags": [],
+        "rationale": "`principal` の最重要・高順位と `secondary` の二次的重要性は、当該語義の定義から重要度の程度対立として直接導出でき、違い行も対立を否定または限定していない。",
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-97dafc6cd022",
+        "flags": [],
+        "rationale": "`principal` の高い重要性と `minor` の比較的小さい重要性は、当該語義に属する重要度の程度対立であり、違い行に自己否定はない。",
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-07666573d6b8",
+        "flags": [],
+        "rationale": "権限を与える `principal` と、その権限で本人のために行動する `agent` は、当該定義に明示された同一代理関係内の補完的役割であり、違い行も対立の不成立を示していない。",
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-a3f8cd10f6c0",
+        "flags": [],
+        "rationale": "第一次的に責任を負う `principal` と、不履行時に保証責任を負う `surety` は、当該債務・保証語義から導出できる責任順位上の補完対立であり、違い行にも自己否定はない。",
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T07:19:38.972257+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

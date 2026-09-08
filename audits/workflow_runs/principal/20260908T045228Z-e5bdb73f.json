@@ -17,12 +17,12 @@
     "research_queries": 0,
     "candidate_pages": 6
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "cold_review_complete",
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
   "pre_draft_deadline_at": "2026-09-08T05:22:28Z",
-  "last_heartbeat_at": "2026-09-08T06:23:30Z",
+  "last_heartbeat_at": "2026-09-08T07:26:05Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T05:01:10Z",
@@ -60,8 +60,10 @@
       "notes": "orchestrator completed cold_review"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "second fresh validation cycle exhausted its second post-cold recheck round after topology-restoring revision; fresh clean validation required before merge",
+  "open_questions": [
+    "Complete a fresh clean extended validation cycle against the revised entry body and fixed source inventory before merge."
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
