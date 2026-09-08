@@ -185,8 +185,8 @@ tags: []
 
 ・`protect the principal`  
 用途: 投資で、元本そのものの毀損を避けることを表す。  
-例: The fund aims to protect the principal—the amount originally invested—while generating modest returns.  
-訳: そのファンドは、控えめな収益を生みながら元本、すなわち当初の投資額を保全することを目指している。  
+例: The fund aims to protect the principal while generating modest returns.  
+訳: そのファンドは、控えめな収益を生みながら元本を保全することを目指している。  
 
 ・`repay principal`  
 用途: 利息とは別に借入の元金を返済することを表す。  
@@ -237,6 +237,15 @@ tags: []
 例: The mandator may revoke the mandate subject to the agreement.  
 訳: 委任者は、契約の定めに従い、委任を撤回できる。  
 
+【反意語】
+
+・agent  
+定義: 他者から権限を与えられ、その者のために行動する人または法人。  
+頻度: 〈8/10〉  
+違い: 同じ代理関係の役割軸で、`principal` が権限を与える側、`agent` が与えられた権限で行動する側である。  
+例: The agent negotiated the sale for the owner.  
+訳: 代理人は所有者のために売却交渉を行った。  
+
 5. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者
 
 【日本語訳・定義】舞台芸術で主要な役を担う演者、またはオーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、芸術分野で確立した役割名を指す。  
@@ -251,8 +260,8 @@ tags: []
 
 ・`one of the orchestra's principals`  
 用途: オーケストラで各セクションを率いる奏者を名詞で指す。  
-例: As one of the orchestra's principals, she leads the cello section.  
-訳: オーケストラの首席奏者の一人として、彼女はチェロのセクションを率いている。  
+例: The concert program lists her as one of the orchestra's principals.  
+訳: その演奏会プログラムには、彼女がオーケストラの首席奏者の一人として載っている。  
 
 【語法・注意】舞台芸術やオーケストラ内で確立した役割名として用い、一般の「重要人物」には広げない。  
 
@@ -317,13 +326,13 @@ tags: []
 
 ・`the obligation of the principal`  
 用途: 主たる当事者が第一次的に負う義務を示す。  
-例: The obligation of the principal is to repay the debt; the guarantor is only secondarily liable.  
-訳: 主たる義務者の義務は債務を返済することであり、保証人は二次的にのみ責任を負う。  
+例: The guarantee does not replace the obligation of the principal.  
+訳: その保証は主たる義務者の義務に取って代わるものではない。  
 
 ・`the principal and the surety`  
 用途: 第一次的責任を負う当事者と、保証する側を対で示す。  
-例: Under the agreement, the principal and the surety are primarily and secondarily liable for the debt, respectively.  
-訳: その契約の下で、主たる義務者と保証人は、その債務についてそれぞれ第一次的責任と二次的責任を負う。  
+例: The agreement states the duties of the principal and the surety.  
+訳: その契約は主たる義務者と保証人の義務を定めている。  
 
 【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。`principal debtor` や `principal obligor` では語義1の形容詞が `debtor`・`obligor` を修飾するため、名詞単独の構造と区別する。また、金額を指す語義3の「元金」とも区別する。  
 
@@ -342,3 +351,12 @@ tags: []
 違い: `debtor` は債務者一般を指す。`principal` は保証関係で第一次的責任を負う当事者という役割を強調する。  
 例: The debtor made the payment on time.  
 訳: 債務者は期限どおりに支払った。  
+
+【反意語】
+
+・surety  
+定義: 主たる債務者が履行しない場合に責任を負う保証人。  
+頻度: 〈3/10〉  
+違い: 責任順位の軸で、`principal` が第一次的に責任を負うのに対し、`surety` は他人の義務を担保する側に立つ。  
+例: The surety paid after the borrower defaulted.  
+訳: 借り手が債務不履行となった後、保証人が支払った。  

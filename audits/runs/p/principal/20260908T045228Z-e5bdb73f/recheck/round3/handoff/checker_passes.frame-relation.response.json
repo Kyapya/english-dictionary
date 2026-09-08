@@ -1,0 +1,25 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/frame3"
+  },
+  "axes": [
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "axis": "重要性",
+      "relation_type": "程度",
+      "reason": "principalの高い重要性とminorの低い重要性が同一軸上で対立する。"
+    },
+    {
+      "item_id": "ant-7a5355b6c049",
+      "axis": "順位",
+      "relation_type": "程度",
+      "reason": "principalの最上位または高位とsecondaryの二次的な順位が同一軸上で対立する。"
+    }
+  ]
+}

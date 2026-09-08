@@ -61,9 +61,7 @@
     }
   ],
   "stop_reason": "",
-  "open_questions": [
-    "Corrected translation continuity and sense ordering require another independent checker round; no valid final blind or final review exists for corrected body."
-  ],
+  "open_questions": [],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
@@ -605,7 +603,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 1,
+    "total_revisions": 3,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -666,11 +664,11 @@
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
+        "input_bytes": 958019,
         "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "defects_detected": 10,
+        "revision_count": 2,
+        "completed": true
       },
       {
         "id": "final_blind",
@@ -793,14 +791,15 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 6,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
       "cold_review",
-      "pre_blind_resolution"
+      "pre_blind_resolution",
+      "checker_recheck"
     ],
     "stage_outputs": {
       "generation": [
@@ -821,6 +820,9 @@
       "pre_blind_resolution": [
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/pre_blind_resolution.json",
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/checker_recheck_manifest.json"
       ]
     }
   },
@@ -839,7 +841,14 @@
     "source_inventory_sha256": "76053cbb610a8fc02573e7578745f55164a5629c794e27128b77ec753c7eebea",
     "research_reopened": false
   },
-  "time_warnings": {},
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-08T07:25:00Z",
+      "target_at": "2026-09-08T06:22:28Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  },
   "takeover_relocation": {
     "recorded_at": "2026-09-08T06:33:23.955903+00:00",
     "original_branch": "words/principal-6be39d6e99f3",
@@ -857,5 +866,13 @@
       "stage": "cold_review_complete"
     }
   ],
-  "recheck_policy": "unlimited_v1"
+  "recheck_policy": "unlimited_v1",
+  "review_ingest_history": [
+    {
+      "stage": "checker_recheck",
+      "count": 1,
+      "last_error": "Round2 helper fan-in invoked once after failed preflight; rejected example-attribution record required empty ambiguous discriminating_terms and exact rationale anchors. No output accepted. Same independent reviewer repaired schema; subsequent sandbox validation passed.",
+      "last_failed_at": "2026-09-08T07:25:00Z"
+    }
+  ]
 }
