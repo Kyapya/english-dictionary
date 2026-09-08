@@ -1,0 +1,623 @@
+# Independent checker handoff
+
+Stage: `checker_passes/translation`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.translation.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_translation_v6
+
+## 目的
+
+英文・訳文・定義における意味の保存と方向を検査する。自然な意訳は認めるが、見出し語の構文差・含意・作用関係を誤学習させる変化は認めない。
+
+## 担当タクソノミー分類
+
+- `example_translation_alignment`
+- `semantic_direction_reversal`
+
+## 検査ルール
+
+- 各例文と訳について、述語、主語・目的語・補語、行為者・経験者・対象・結果の意味役割を対応させる。
+- 肯定・否定、比較基準、程度、数量、時制、相、法、条件、因果、目的を保存する。
+- 修飾範囲、焦点、対比、情報構造、明示内容と文脈推論の境界、レジスターと話者評価を保存する。
+- コロケーションのpattern・用途・英文・訳が同じ語義、品詞、完全フレームを表すか確認する。英文が別語義でも成立するだけでは合格にしない。
+- 作用する側／される側、上位／下位、原因／結果、全体／部分、評価主体／評価対象を逆転させない。
+- 日本語訳が自然でも、英文にない必然性・意図・結果・専門的効果を追加していればfindingとする。
+- 同じ例文を異なる構文や語義の証明に使い回していないか確認する。
+- 問題が1箇所に見える場合も、同じ訳語・関係が入力section内の別箇所で再発していないか確認する。
+
+## 入力として受け取るセクション
+
+- `definitions`
+- `collocations_examples`
+- `lexical_relations`
+
+front matter、生成過程、通常チェックの過去判断、ACTIVE.mdは受け取らない。
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "example_translation_alignment | semantic_direction_reversal",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "何がどの方向・範囲・強さで不一致か",
+  "evidence_link_ids": [],
+  "suggested_direction": "意味を変えずに直す方向"
+}
+```
+
+`taxonomy_id`、位置、severity、根拠を必須とする。事実・語法・例文/訳の正誤に関わるものは `blocking`、事実関係を変えない局所的な日本語調整だけを `minor` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 28,
+        "text": "1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な"
+      },
+      {
+        "line": 30,
+        "text": "【日本語訳・定義】建物、景色、部屋、衣装、動物などが、規模、美しさ、豪華さ、威厳によって見る人に強い感銘を与えることを表す。単に大きいだけでなく、目を見張るほど見事だという肯定的評価を含む。  "
+      },
+      {
+        "line": 113,
+        "text": "2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた"
+      },
+      {
+        "line": 115,
+        "text": "【日本語訳・定義】成果、演技、仕事、行為、機会、出来事などの質や価値が非常に高く、強く称賛したくなることを表す。外見の壮麗さを必要とせず、能力、出来、効果、経験の満足度などを高く評価する。単独の `Magnificent!` は「見事だ」「すばらしい」という感嘆になる。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 28,
+        "text": "1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な"
+      },
+      {
+        "line": 38,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 40,
+        "text": "・`a magnificent building/palace`  "
+      },
+      {
+        "line": 41,
+        "text": "用途: 規模、美しさ、威厳によって強い印象を与える建築物を表す。  "
+      },
+      {
+        "line": 42,
+        "text": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+      },
+      {
+        "line": 43,
+        "text": "訳: 修復されたその宮殿は、18世紀建築の壮麗な一例である。  "
+      },
+      {
+        "line": 45,
+        "text": "・`a magnificent view of 〈場所・景色〉`  "
+      },
+      {
+        "line": 46,
+        "text": "用途: 広がりや美しさが際立ち、見る人を感動させる眺めを表す。  "
+      },
+      {
+        "line": 47,
+        "text": "例: From the terrace, we had a magnificent view of the snow-covered mountains.  "
+      },
+      {
+        "line": 48,
+        "text": "訳: テラスからは、雪に覆われた山々のすばらしい眺めが広がっていた。  "
+      },
+      {
+        "line": 50,
+        "text": "・`a magnificent 〈animal/bird〉`  "
+      },
+      {
+        "line": 51,
+        "text": "用途: 動物の大きさ、美しさ、威厳のある姿を称賛する。  "
+      },
+      {
+        "line": 52,
+        "text": "例: A magnificent eagle circled above the valley.  "
+      },
+      {
+        "line": 53,
+        "text": "訳: 一羽の堂々たるワシが谷の上空を旋回していた。  "
+      },
+      {
+        "line": 55,
+        "text": "・`look magnificent in 〈服・色〉`  "
+      },
+      {
+        "line": 56,
+        "text": "用途: ある服装や色によって、人が非常に美しく堂々として見えることを表す。  "
+      },
+      {
+        "line": 57,
+        "text": "例: She looked magnificent in the deep blue gown.  "
+      },
+      {
+        "line": 58,
+        "text": "訳: 彼女は濃い青のドレスをまとい、実に華やかで堂々として見えた。  "
+      },
+      {
+        "line": 60,
+        "text": "・`a magnificent interior/display`  "
+      },
+      {
+        "line": 61,
+        "text": "用途: 室内装飾や展示が豪華で、視覚的に強い感銘を与えることを表す。  "
+      },
+      {
+        "line": 62,
+        "text": "例: Visitors stopped to admire the cathedral's magnificent interior.  "
+      },
+      {
+        "line": 63,
+        "text": "訳: 来訪者たちは足を止めて、その大聖堂の壮麗な内部を眺めた。  "
+      },
+      {
+        "line": 113,
+        "text": "2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた"
+      },
+      {
+        "line": 123,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 125,
+        "text": "・`a magnificent achievement`  "
+      },
+      {
+        "line": 126,
+        "text": "用途: 困難さや規模を踏まえて、成果を非常に高く評価する。  "
+      },
+      {
+        "line": 127,
+        "text": "例: Completing the bridge ahead of schedule was a magnificent achievement.  "
+      },
+      {
+        "line": 128,
+        "text": "訳: 予定より早く橋を完成させたことは、見事な偉業だった。  "
+      },
+      {
+        "line": 130,
+        "text": "・`a magnificent performance`  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 演技、演奏、競技などの出来が極めて優れていることを表す。  "
+      },
+      {
+        "line": 132,
+        "text": "例: The violinist gave a magnificent performance in the final movement.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: そのバイオリニストは最終楽章で見事な演奏を披露した。  "
+      },
+      {
+        "line": 135,
+        "text": "・`do a magnificent job`  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 人や組織が仕事を非常にうまく成し遂げたことを称賛する。  "
+      },
+      {
+        "line": 137,
+        "text": "例: The rescue team did a magnificent job under dangerous conditions.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 救助隊は危険な状況下で実に見事な働きをした。  "
+      },
+      {
+        "line": 140,
+        "text": "・`a magnificent opportunity`  "
+      },
+      {
+        "line": 141,
+        "text": "用途: 価値や可能性が非常に大きい機会を強く肯定的に評価する。  "
+      },
+      {
+        "line": 142,
+        "text": "例: The scholarship gave her a magnificent opportunity to study abroad.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: その奨学金は、彼女に留学するすばらしい機会を与えた。  "
+      },
+      {
+        "line": 145,
+        "text": "・`feel magnificent`  "
+      },
+      {
+        "line": 146,
+        "text": "用途: 心身の調子が非常によく、気分がすばらしいことを表す。  "
+      },
+      {
+        "line": 147,
+        "text": "例: After a full night's sleep, I felt magnificent.  "
+      },
+      {
+        "line": 148,
+        "text": "訳: 一晩ぐっすり眠った後、私は最高の気分だった。  "
+      },
+      {
+        "line": 150,
+        "text": "・`Magnificent!`  "
+      },
+      {
+        "line": 151,
+        "text": "用途: 出来事、成果、演技などに対する強い称賛を単独で表す。  "
+      },
+      {
+        "line": 152,
+        "text": "例: “We finished the repairs.” “Magnificent! We can reopen tomorrow.”  "
+      },
+      {
+        "line": 153,
+        "text": "訳: 「修理が終わりました」「すばらしい！ 明日には再開できる」  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 28,
+        "text": "1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な"
+      },
+      {
+        "line": 67,
+        "text": "【類義語】"
+      },
+      {
+        "line": 69,
+        "text": "・splendid  "
+      },
+      {
+        "line": 70,
+        "text": "定義: 見た目、質、成果などが非常にすばらしく、称賛に値する。  "
+      },
+      {
+        "line": 71,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 72,
+        "text": "違い: `splendid` は外観にも出来にも広く使える。`magnificent` は特に壮大さ、豪華さ、強い感銘を伴いやすい。  "
+      },
+      {
+        "line": 73,
+        "text": "例: The hall was decorated with splendid tapestries.  "
+      },
+      {
+        "line": 74,
+        "text": "訳: その広間は見事なタペストリーで飾られていた。  "
+      },
+      {
+        "line": 76,
+        "text": "・majestic  "
+      },
+      {
+        "line": 77,
+        "text": "定義: 王侯のような威厳や堂々とした壮大さを感じさせる。  "
+      },
+      {
+        "line": 78,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 79,
+        "text": "違い: `majestic` は威厳と堂々とした姿に焦点を置く。`magnificent` は威厳がなくても豪華さや美しさによる感銘を表せる。  "
+      },
+      {
+        "line": 80,
+        "text": "例: We watched the majestic mountains turn red at sunset.  "
+      },
+      {
+        "line": 81,
+        "text": "訳: 私たちは雄大な山々が夕日に赤く染まるのを眺めた。  "
+      },
+      {
+        "line": 83,
+        "text": "・grand  "
+      },
+      {
+        "line": 84,
+        "text": "定義: 規模、設計、外観が大きく立派で、重要さや格式を感じさせる。  "
+      },
+      {
+        "line": 85,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 86,
+        "text": "違い: `grand` は規模や格式を中心に表し、ときに誇張された大げささも含む。`magnificent` は話者の強い称賛をより直接に示す。  "
+      },
+      {
+        "line": 87,
+        "text": "例: A grand staircase led to the reception rooms.  "
+      },
+      {
+        "line": 88,
+        "text": "訳: 壮大な階段が応接室へと続いていた。  "
+      },
+      {
+        "line": 90,
+        "text": "・glorious  "
+      },
+      {
+        "line": 91,
+        "text": "定義: 美しさ、輝かしさ、喜ばしさによって非常にすばらしい。  "
+      },
+      {
+        "line": 92,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 93,
+        "text": "違い: `glorious` は光、色、天候などの輝かしさや、体験の喜びを表しやすい。`magnificent` は建物や景観の規模・威容にも強く結びつく。  "
+      },
+      {
+        "line": 94,
+        "text": "例: The garden was filled with glorious autumn colors.  "
+      },
+      {
+        "line": 95,
+        "text": "訳: 庭は見事な秋の色彩で満ちていた。  "
+      },
+      {
+        "line": 97,
+        "text": "【反意語】"
+      },
+      {
+        "line": 99,
+        "text": "・unimpressive  "
+      },
+      {
+        "line": 100,
+        "text": "定義: 特に感銘を与えず、目立った美点や迫力がない。  "
+      },
+      {
+        "line": 101,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 102,
+        "text": "違い: 見る人に与える印象の強さという軸で、`magnificent` が非常に強い肯定的な感銘を表すのに対し、`unimpressive` は感銘を与えないことを表す。  "
+      },
+      {
+        "line": 103,
+        "text": "例: The building's plain exterior was rather unimpressive.  "
+      },
+      {
+        "line": 104,
+        "text": "訳: その建物の簡素な外観は、あまり印象的ではなかった。  "
+      },
+      {
+        "line": 106,
+        "text": "・plain  "
+      },
+      {
+        "line": 107,
+        "text": "定義: 装飾や華やかさがなく、簡素な。  "
+      },
+      {
+        "line": 108,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 109,
+        "text": "違い: 豪華さ・華やかさという限定された軸で対照をなす。`plain` は必ずしも質が悪いという否定的評価を含まず、`magnificent` の全面的な反対語ではない。  "
+      },
+      {
+        "line": 110,
+        "text": "例: The chapel has a plain wooden interior.  "
+      },
+      {
+        "line": 111,
+        "text": "訳: その礼拝堂の内部は簡素な木造である。  "
+      },
+      {
+        "line": 113,
+        "text": "2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた"
+      },
+      {
+        "line": 157,
+        "text": "【類義語】"
+      },
+      {
+        "line": 159,
+        "text": "・excellent  "
+      },
+      {
+        "line": 160,
+        "text": "定義: 質、能力、出来が非常に高い。  "
+      },
+      {
+        "line": 161,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 162,
+        "text": "違い: `excellent` は評価基準に照らして質が高いことを比較的中立に述べる。`magnificent` は話者の感動や熱烈な称賛を強く表す。  "
+      },
+      {
+        "line": 163,
+        "text": "例: She submitted an excellent final report.  "
+      },
+      {
+        "line": 164,
+        "text": "訳: 彼女は非常に優れた最終報告書を提出した。  "
+      },
+      {
+        "line": 166,
+        "text": "・superb  "
+      },
+      {
+        "line": 167,
+        "text": "定義: 質や出来が最高水準である。  "
+      },
+      {
+        "line": 168,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 169,
+        "text": "違い: `superb` は洗練された出来や卓越した質に焦点を置く。`magnificent` は質に加えて規模や感銘の大きさを含みやすい。  "
+      },
+      {
+        "line": 170,
+        "text": "例: The chef prepared a superb meal using local ingredients.  "
+      },
+      {
+        "line": 171,
+        "text": "訳: その料理人は地元の食材で最高の料理を用意した。  "
+      },
+      {
+        "line": 173,
+        "text": "・outstanding  "
+      },
+      {
+        "line": 174,
+        "text": "定義: 同種のものの中で際立って優れている。  "
+      },
+      {
+        "line": 175,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 176,
+        "text": "違い: `outstanding` は比較集団の中で抜きん出ていることを示す。`magnificent` は比較対象を明示せず、強い感銘を直接表せる。  "
+      },
+      {
+        "line": 177,
+        "text": "例: Her outstanding leadership kept the project on track.  "
+      },
+      {
+        "line": 178,
+        "text": "訳: 彼女の卓越した指導力によって、プロジェクトは予定どおり進んだ。  "
+      },
+      {
+        "line": 180,
+        "text": "・wonderful  "
+      },
+      {
+        "line": 181,
+        "text": "定義: 喜び、満足、感嘆をもたらすほどすばらしい。  "
+      },
+      {
+        "line": 182,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 183,
+        "text": "違い: `wonderful` は楽しい経験や好ましい人・物に日常的に使う。`magnificent` はより強く、堂々とした、または劇的な称賛を帯びやすい。  "
+      },
+      {
+        "line": 184,
+        "text": "例: We had a wonderful evening with old friends.  "
+      },
+      {
+        "line": 185,
+        "text": "訳: 私たちは旧友たちとすばらしい夜を過ごした。  "
+      },
+      {
+        "line": 187,
+        "text": "【反意語】"
+      },
+      {
+        "line": 189,
+        "text": "・mediocre  "
+      },
+      {
+        "line": 190,
+        "text": "定義: 質や能力が平凡で、特に優れていない。  "
+      },
+      {
+        "line": 191,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 192,
+        "text": "違い: 質の高さという軸で、`magnificent` が極めて高い評価を表すのに対し、`mediocre` は平均的で期待を満たさない評価を表す。  "
+      },
+      {
+        "line": 193,
+        "text": "例: The sequel received mediocre reviews from critics.  "
+      },
+      {
+        "line": 194,
+        "text": "訳: その続編は批評家から凡庸だという評価を受けた。  "
+      },
+      {
+        "line": 196,
+        "text": "・terrible  "
+      },
+      {
+        "line": 197,
+        "text": "定義: 質や出来が非常に悪い。  "
+      },
+      {
+        "line": 198,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 199,
+        "text": "違い: 質の評価という軸で、`terrible` は非常に低い側、`magnificent` は非常に高い側を表す。  "
+      },
+      {
+        "line": 200,
+        "text": "例: The team gave a terrible performance in the second half.  "
+      },
+      {
+        "line": 201,
+        "text": "訳: そのチームは後半にひどい出来のプレーをした。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+  "source_artifact_sha256": "681a574947ead18b804096165079a4800c3edc22edfc1d7189d38bc0e6cafbb6",
+  "normalized_input_sha256": "8618ab1170b8230826788fbcf73dcbf3a61136768f16975686a809c15f355683"
+}
+```

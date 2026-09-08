@@ -19,11 +19,11 @@
     "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "draft_saved",
+  "stage": "source_inventory_complete",
   "started_at": "2026-09-08T08:44:01Z",
   "deadline_at": "2026-09-08T09:44:01Z",
   "pre_draft_deadline_at": "2026-09-08T09:04:01Z",
-  "last_heartbeat_at": "2026-09-08T09:01:53Z",
+  "last_heartbeat_at": "2026-09-08T09:02:42Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T08:47:47Z",
@@ -44,6 +44,11 @@
       "stage": "draft_saved",
       "recorded_at": "2026-09-08T08:54:51Z",
       "notes": "orchestrator completed generation"
+    },
+    {
+      "stage": "source_inventory_complete",
+      "recorded_at": "2026-09-08T09:02:42Z",
+      "notes": "Six-source source-first inventory completed before article comparison; six coverage axes closed."
     }
   ],
   "stop_reason": "",
