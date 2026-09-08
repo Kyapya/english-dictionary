@@ -22549,7 +22549,7 @@ tags: []
 
 ＃コアイメージ
 
-権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。  
+権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は commit「行う、犯す」に対応する「行為の実行」の意味で、特に犯罪・違反などについて使われる。現代の「委ねる」という核から導きにくいため個別に参照する。  
 
 ・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）  
 ・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）  
@@ -22653,7 +22653,7 @@ tags: []
 訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。  
 
 ・work on commission  
-用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。  
+用途: 報酬の全部または一部が、売上・取引成果に応じて決まる形で働く。  
 例: Most sales staff receive a base salary and work partly on commission.  
 訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。  
 
@@ -22821,7 +22821,7 @@ tags: []
 例: He was accused of aiding others in the commission of the offence.  
 訳: 彼は他者によるその違反の実行を助けたとして告発された。  
 
-【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。通常は単独で自由に使わず、the commission of の後ろに犯罪・違反・不正行為を置く。  
+【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。特に the commission of a crime/an offence のように、犯罪・違反などの実行を表す形で使う。errors of commission は、誤ったことをしてしまうタイプのミスを指し、犯罪や故意の不正に限らない。  
 
 【類義語】
 
@@ -22870,7 +22870,7 @@ tags: []
 例: Her appointment as ambassador was confirmed by the senate.  
 訳: 彼女の大使任命は上院で承認された。  
 
-7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能
+7. 【慣用表現】就役中・稼働中／使用不能・任務不能
 
 【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。  
 
@@ -22950,14 +22950,14 @@ tags: []
 ・be commissioned by 〈依頼主〉  
 用途: 作品・調査などを依頼した主体を受動形で示す。  
 例: The survey was commissioned by the city council.  
-訳: その調査は市議会の依頼で実施された。  
+訳: その調査は市議会によって正式に依頼された。  
 
 ・specially commissioned for 〈目的・機会〉  
 用途: 特定の目的や行事のために特別に依頼制作されたことを示す。  
 例: The exhibition features a film specially commissioned for the anniversary.  
 訳: その展覧会では記念日のために特別制作された映画を上映している。  
 
-【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。commission someone for a job は文脈によって不自然になりやすく、正式な制作依頼なら commission someone to do the work とする。  
+【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。  
 
 【類義語】
 
@@ -23082,6 +23082,357 @@ tags: []
 ・decommission  
 定義: 船舶、設備、施設などを正式に運用から外す。  
 頻度: 〈5/10〉  
-違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  
+違い: commission が船舶・設備を就役・運用に入れる意味で使われる場合、decommission はそれらを正式に運用から外すことを表す。  
 例: The operator plans to decommission the old reactor by 2030.  
 訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。
+
+---
+
+# principal
+
+---
+headword: principal
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra
+created_at: 2026-09-08
+updated_at: 2026-09-08
+checked: true
+tags: []
+---
+
+＃発音記号
+
+発音: /ˈprɪnsəpəl/。形容詞と名詞で同じ発音を用いる。  
+
+＃語源
+
+中英語・古フランス語を経て、ラテン語 *principalis*「第一の、主要な」にさかのぼる。その基になった *princeps* は、*primus*「第一の」と *capere*「取る」に関係し、「第一の位置を占める者」という発想を持つ。語源には「第一の、主要な」という意味的なつながりがある。  
+
+＃語形成
+
+・principally：`principal` の副詞形。  
+・principalship：`principal` の名詞派生形。  
+・principal-agent relationship：法律上の本人・代理人関係を表す複合表現。  
+
+＃コアイメージ
+
+`principal` の中心は、「重要度・権限・責任・金額の土台として第一に位置する」である。形容詞では主要なものを選び出し、名詞では権限・主導的地位を持つ人や教育機関の長、舞台芸術の主要演者やオーケストラの首席奏者、利息・収益に対する元の金額や信託収益に対する財産本体、法的関係の主要当事者を指す。  
+・重要度で第一に位置するもの → 「主要な、最も重要な」（語義1）  
+・組織で権限・主導的地位を持つ人、特に教育機関の長 → 「上級責任者、校長、学長」（語義2）  
+・舞台芸術の主要演者、またはオーケストラで一つのセクションを率いる奏者 → 「主要演者、首席奏者」（語義3）  
+・利息・収益に対する基礎額、または信託収益に対する財産本体 → 「元金、元本、信託元本」（語義4）  
+・代理関係で権限の源として第一に位置する当事者 → 「本人、依頼者」（語義5）  
+・適用法上 `principal` と分類される犯罪関与者 → 「犯罪関与者」（語義6）  
+・債務・保証関係で第一次的責任を負う者 → 「主たる債務者・義務者」（語義7）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞】主要な、最も重要な、第一の
+
+【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準～やや形式的。報道、ビジネス、学術、行政で広く使う。日常会話では `main` がより普通なことが多い。  
+
+【文法パターン】限定用法で `principal + 〈名詞〉` の形を取り、「主要な～」を表す。  
+
+【コロケーション】
+
+・`the principal reason for ...`  
+用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。  
+例: The principal reason for the delay was a shortage of parts.  
+訳: 遅延の主な理由は部品不足だった。  
+
+・`the principal cause of ...`  
+用途: 出来事を引き起こした最も重要な原因を示す。  
+例: Investigators identified corrosion as the principal cause of the failure.  
+訳: 調査担当者は、腐食をその故障の主因と特定した。  
+
+・`a principal source of ...`  
+用途: 物・情報・収入などの主要な供給源を示す。  
+例: Tourism is a principal source of income for the island.  
+訳: 観光はその島の主要な収入源の一つである。  
+
+・`one of the principal 〈複数名詞〉`  
+用途: 最重要候補が複数ある中の一つであることを示す。  
+例: She is one of the principal architects of the reform.  
+訳: 彼女はその改革の主要な立案者の一人である。  
+
+・`a principal dancer`  
+用途: `principal` を限定用法の形容詞として用い、舞台芸術で主要な役を担うダンサーを表す。  
+例: She is a principal dancer.  
+訳: 彼女は主要な役を担うダンサーである。  
+
+【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principle` は「基本的な規則・法則」を表す名詞で、`principal` は「最も重要な」を表す形容詞にもなるため、両者を混同しない。  
+
+【類義語】
+
+・main  
+定義: 複数のものの中で中心的・最重要である。  
+頻度: 〈10/10〉  
+違い: `main` は日常語で範囲が広い。`principal` はより形式的で、順位・重要性・影響力が高いことを意識させる。  
+例: Our main goal is to reduce waiting times.  
+訳: 私たちの主な目標は待ち時間を減らすことだ。  
+
+・primary  
+定義: 第一順位・第一段階である、または最も基本的である。  
+頻度: 〈9/10〉  
+違い: `primary` は重要性に加え、順序・段階・基本性にも焦点を置ける。`principal` は主として相対的な重要度や地位を表す。  
+例: Safety is our primary concern.  
+訳: 安全が私たちの最優先事項である。  
+
+・chief  
+定義: 同種の中で最上位・最重要である。  
+頻度: 〈8/10〉  
+違い: `chief` は役職名や「最大の原因・懸念」によく使われ、最上位性を強く示す。`principal` は文章語として原因・目的・人物・場所などに幅広く使う。  
+例: Cost remains the chief obstacle to expansion.  
+訳: 費用が依然として拡大の最大の障害である。  
+
+・leading  
+定義: ある分野で先頭に立ち、大きな影響力や高い評価を持つ。  
+頻度: 〈9/10〉  
+違い: `leading` は人・企業・研究機関などの実績や影響力を強調しやすい。`principal` は実績評価を必須とせず、対象内での中心性を示す。  
+例: She is a leading expert on marine ecosystems.  
+訳: 彼女は海洋生態系の第一人者である。  
+
+【反意語】
+
+・secondary  
+定義: 第一ではなく、重要度・順位が二次的である。  
+頻度: 〈8/10〉  
+違い: 重要度・順位の軸で `principal` と方向が反対になり、主要なものに対する従属的・補助的なものを表す。  
+例: Price was only a secondary consideration.  
+訳: 価格は二次的な考慮事項にすぎなかった。  
+
+・minor  
+定義: 重要性・規模・影響が比較的小さい。  
+頻度: 〈9/10〉  
+違い: `principal` との程度軸上の対立で、最重要・主要ではない小さな要素を表す。  
+例: The report contains a few minor errors.  
+訳: その報告書には小さな誤りがいくつかある。  
+
+2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長
+
+【日本語訳・定義】組織で支配的権限または主導的地位を持つ人。特に、学校、カレッジ、その他の教育機関を管理する最高責任者を指す。教育上どの種類の機関を指すかは地域と制度によって異なる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準～やや形式的。企業・専門組織では権限または主導的地位を持つ人を表す。教育分野では学校・教育機関の長を表し、イングランドではカレッジの長を指す場合がある。  
+
+【文法パターン】一般の権限者は `a principal with controlling authority`。教育機関の長は `the principal + be + in charge of 〈学校〉`。  
+
+【コロケーション】
+
+・`a principal with controlling authority`  
+用途: 支配的権限を持つ人という一般の人物用法を表す。  
+例: A principal with controlling authority approved the proposal.  
+訳: 支配的権限を持つ責任者がその提案を承認した。  
+
+・`the principal + be + in charge of 〈学校〉`  
+用途: 教育機関を管理する長であることを表す。  
+例: The principal is in charge of the school.  
+訳: その校長が学校の管理を担っている。  
+
+【語法・注意】一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。教育上の役職名は地域や制度によって異なるため、日本語の「校長」を機械的にすべて `principal` としない。  
+
+【類義語】
+
+・head  
+定義: 学校・組織などの長。  
+頻度: 〈9/10〉  
+違い: `head` は組織の長を広く表す。`principal` は権限・主導的地位を持つ人を表し、特に教育機関で役職名として用いられる。  
+例: She is the head of a large secondary school.  
+訳: 彼女は大規模な中等学校の校長である。  
+
+3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者
+
+【日本語訳・定義】舞台芸術で主要な役を担う演者、またはオーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、芸術分野で確立した役割名を指す。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】舞台芸術・オーケストラ・音楽の専門語。  
+
+【文法パターン】舞台芸術の主要演者を名詞で表す場合は `〈演者〉 + be + a principal`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  
+
+【コロケーション】
+
+・`be a principal`  
+用途: 舞台芸術の文脈で、主要な役を担う演者を名詞 `principal` で表す。  
+例: In this ballet company, she is a principal.  
+訳: このバレエ団で、彼女は主要な役を担う演者である。  
+
+・`the principal + be + the first player of 〈オーケストラのセクション〉`  
+用途: オーケストラのセクションで首席を務める奏者を表す。  
+例: The principal is the first player of the violin section.  
+訳: その首席奏者はバイオリン・セクションの第一奏者である。  
+
+【語法・注意】舞台芸術団体やオーケストラ内で確立した役割名として用い、一般の「重要人物」には広げない。  
+
+【類義語】
+
+・section leader  
+定義: オーケストラで一つのセクションを率いる奏者。  
+頻度: 〈4/10〉  
+違い: 役割を説明する一般的な表現で、`principal` は確立した役職名として用いられる。  
+例: The section leader rehearsed the difficult passage.  
+訳: セクションの首席奏者は難しい楽節を練習した。  
+
+4. 【名詞・金融／信託法】元金、元本、信託財産の元本
+
+【日本語訳・定義】借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。信託法では、収益と区別される信託財産そのもの、すなわち信託元本・corpusを指す。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】金融、融資、投資、会計、信託法。金融義は日常的なローン説明にも現れ、信託義は専門的である。  
+
+【文法パターン】金融では `principal + be + the initial amount invested`／`principal + be + distinct from interest`。信託法では `trust principal + be + distinct from income`。  
+
+【コロケーション】
+
+・`principal + be + the initial amount invested`  
+用途: 投資で、収益の基礎となる最初の金額を表す。  
+例: The principal is the initial amount invested.  
+訳: 元本とは最初に投資された金額である。  
+
+・`principal + be + distinct from interest`  
+用途: 借入・貸付の元金を利息と区別して表す。  
+例: Principal is distinct from interest on the loan.  
+訳: 元金はその融資の利息とは別のものである。  
+
+・`trust principal + be + distinct from income`  
+用途: 信託財産の元本を、そこから生じる収益と区別する。  
+例: Trust principal is distinct from income.  
+訳: 信託元本は収益とは別のものである。  
+
+【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる追加額であり、反意語ではなく関連する別の金額構成要素である。信託では `principal` が財産本体、`income` がそこから生じる収益を指す。`repay the principal` では `principal` 自体が目的語の名詞になる。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。  
+
+【類義語】
+
+・capital  
+定義: 投資・事業に用いられる資金または資産。  
+頻度: 〈9/10〉  
+違い: `capital` は事業資金・生産資産まで広く表す。`principal` は特定の貸付・借入・投資で利息や収益の基礎となる元の額を指す。  
+例: The company raised additional capital from investors.  
+訳: その会社は投資家から追加資金を調達した。  
+
+5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者
+
+【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】法律、保険、不動産、商取引。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  
+
+【文法パターン】`a principal-agent relationship`＝本人・代理人関係／`act on behalf of the principal`＝本人を代理して行動する  
+
+【コロケーション】
+
+・`a principal-agent relationship`  
+用途: 権限を与える本人と、そのために行動する代理人との関係を表す。  
+例: The contract created a principal-agent relationship between the owner and the broker.  
+訳: その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。  
+
+・`act on behalf of the principal`  
+用途: 代理人が本人を代理して行動することを表す。  
+例: The agent may sign the document on behalf of the principal.  
+訳: 代理人は本人を代理してその書類に署名できる。  
+
+【語法・注意】法律用語の `principal` は、`agent` に権限を与える側を表す関係上の役割名である。`principal` が権限の源となり、`agent` は本人のためにその権限の範囲で行動する。  
+
+【類義語】
+
+・mandator  
+定義: 他人に委任・代理の権限を与える者。  
+頻度: 〈2/10〉  
+違い: 特定の法体系や専門文脈で使われる低頻度語である。  
+例: The mandator may revoke the mandate subject to the agreement.  
+訳: 委任者は、契約の定めに従い、委任を撤回できる。  
+
+【反意語】
+
+・agent  
+定義: 他者から権限を与えられ、その者のために行動する人または法人。  
+頻度: 〈8/10〉  
+違い: 同じ代理関係の役割軸で、`principal` が権限を与える側、`agent` が与えられた権限で行動する側である。  
+例: The agent negotiated the sale for the owner.  
+訳: 代理人は所有者のために売却交渉を行った。  
+
+6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者
+
+【日本語訳・定義】刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】刑事法の専門語。犯罪に関するこの語義は法域によって分類法が異なる。  
+
+【文法パターン】`the principal + be + directly responsible for 〈犯罪〉`  
+
+【コロケーション】
+
+・`the principal + be + directly responsible for 〈犯罪〉`  
+用途: 適用法上、犯罪について直接責任を負う者を表す。  
+例: Under the statute, the principal is directly responsible for the crime.  
+訳: その制定法の下で、当該 `principal` はその犯罪について直接責任を負う。  
+
+【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。  
+
+【類義語】
+
+・perpetrator  
+定義: 犯罪・不正行為を実際に行った者。  
+頻度: 〈6/10〉  
+違い: `perpetrator` は実行者に焦点を置く一般的な法律・報道語。`principal` は適用される法的分類によって、実行者以外の一定の関与者を含む場合がある。  
+例: Police are still trying to identify the perpetrator.  
+訳: 警察は今も犯人の特定を進めている。  
+
+7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者
+
+【日本語訳・定義】債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】債務法・保証法の専門語。  
+
+【文法パターン】`the principal + be + primarily liable for 〈債務・義務〉`／`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`  
+
+【コロケーション】
+
+・`the principal + be + primarily liable for 〈債務・義務〉`  
+用途: 主たる当事者が義務について第一次的責任を負うことを示す。  
+例: The principal is primarily liable for the debt.  
+訳: 主たる債務者はその債務について第一次的責任を負う。  
+
+・`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`  
+用途: 第一次的責任者を、二次的責任を負う保証人と区別する。  
+例: The principal is distinct from the surety, who has secondary liability.  
+訳: 主たる債務者は、二次的責任を負う保証人とは別の当事者である。  
+
+【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。金額を指す語義4の「元金」とは区別する。  
+
+【類義語】
+
+・obligor  
+定義: 契約や法律上の義務を負う者。  
+頻度: 〈3/10〉  
+違い: `obligor` は義務を負う者を広く表す。`principal` は保証人などと対比して、その義務について第一次的に責任を負う側を示す。  
+例: The obligor must perform the duty by the stated date.  
+訳: 義務者は定められた日までに義務を履行しなければならない。  
+
+・debtor  
+定義: 金銭その他の債務を負う者。  
+頻度: 〈6/10〉  
+違い: `debtor` は債務者一般を指す。`principal` は保証関係で第一次的責任を負う当事者という役割を強調する。  
+例: The debtor made the payment on time.  
+訳: 債務者は期限どおりに支払った。  
+
+【反意語】
+
+・surety  
+定義: 主たる債務者が履行しない場合に責任を負う保証人。  
+頻度: 〈3/10〉  
+違い: 責任順位の軸で、`principal` が第一次的に責任を負うのに対し、`surety` は他人の義務を担保する側に立つ。  
+例: The surety paid after the borrower defaulted.  
+訳: 借り手が債務不履行となった後、保証人が支払った。
