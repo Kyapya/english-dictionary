@@ -1,0 +1,60 @@
+{
+  "summary": "問題候補3件。一般的な人物を表す名詞義と舞台芸術の用法が詳細な語義一覧から抜け、局所的な否定説明と衝突している。また、元金と利息の関係表示、刑事法義の説明の循環性に改善余地がある。",
+  "findings": [
+    {
+      "id": "cold-1",
+      "location": "コアイメージ、語義2のheadとの比較、語義3の定義、語義5の注意、および名詞の語義構成",
+      "severity": "medium",
+      "description": "主要人物・組織の責任者や主要当事者を表す一般名詞義が独立して説明されず、舞台の主役・主要出演者の用法も欠落している。教育機関・オーケストラに限定するように読める説明がその欠落を強める。",
+      "reason": "「【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。」は、当該音楽用法だけを限定する趣旨なら理解できるが、一般の人物義を設けない記事構成では、principalという名詞自体が重要人物一般を指せないとの誤解を招く。例えば企業・事務所の責任者を指すa principal of the firm、交渉などの主要当事者を指すthe principals、舞台の主要出演者を指すthe principals in the productionは校長・首席奏者・代理法上の本人のいずれにも限定されない。コアイメージと語義5では一般義の存在を認めているため、詳細語義との対応も欠けている。",
+      "suggested_direction": "主要人物・組織の責任者・主要当事者の名詞義を明示し、舞台芸術の主要出演者の用法も適切に配置する。語義2と3の限定説明は「この用法では」と明記し、語全体についての排他的説明にしない。",
+      "scope_anchors": [
+        {"id": "cold-1-a", "exact_quote": "形容詞では主要なものを選び出し、名詞では組織や行為の中心人物、利息に対する元の金額、代理関係などの主要当事者を指す。", "location_hint": "コアイメージ冒頭"},
+        {"id": "cold-1-b", "exact_quote": "違い: `head` は組織の長を広く表すが、`principal` は教育機関で用いられる役職名である。", "location_hint": "語義2・類義語head"},
+        {"id": "cold-1-c", "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。", "location_hint": "語義3・定義"},
+        {"id": "cold-1-d", "exact_quote": "法律用語の `principal` は「重要人物」という一般義だけでなく、`agent` に対する特定の関係上の役割名である。", "location_hint": "語義5・語法注意"}
+      ]
+    },
+    {
+      "id": "cold-2",
+      "location": "語義4・反意語interest",
+      "severity": "low",
+      "description": "interestを反意語と分類しているが、元金と利息は金額の構成要素として区別される関連語である。",
+      "reason": "「違い: 金額構成の軸で、`principal` が基礎となる元の額なのに対し、`interest` は時間の経過と利率に応じて生じる追加額である。」という説明自体は両者の区別を示しているが、この相違を反意関係とする根拠にはならない。元金ではない金額は利息とは限らず、手数料などもあり、principal and interestのように両者は同じ支払額の併存する成分になる。反意語欄への配置は対照される関連語を反意語と一般化させる。",
+      "suggested_direction": "interestは「対照語」「関連語」などに移し、元金に対して利息を区別する用語と説明する。",
+      "scope_anchors": [
+        {"id": "cold-2-a", "exact_quote": "【反意語】\n\n・interest", "location_hint": "語義4・interestの分類見出し"},
+        {"id": "cold-2-b", "exact_quote": "違い: 金額構成の軸で、`principal` が基礎となる元の額なのに対し、`interest` は時間の経過と利率に応じて生じる追加額である。", "location_hint": "語義4・interestとの違い"}
+      ]
+    },
+    {
+      "id": "cold-3",
+      "location": "コアイメージの語義6対応項目、語義6の見出し・定義・例文訳",
+      "severity": "medium",
+      "description": "刑事法義の中心的な意味が「principalと分類される者」という循環的説明に後退しており、例文の訳も未訳のprincipalを残すため、学習者が語を理解するための説明として不十分。",
+      "reason": "「6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者」は法域差への慎重さを示す一方、見出し語を既に知っていることを要求する。定義の「直接の刑事責任」だけでは、独自に刑事責任を負うaccessory等と何が異なるかも分からない。「訳: 裁判所は彼をその犯罪について `principal` に当たる者と認定した。」も同じ未知語を繰り返しており、例文によって意味を具体化できていない。法域差があることと、典型的な意味を日本語で説明することは両立できる。",
+      "suggested_direction": "典型的には犯罪の実行者・正犯として扱われる者を指すことを説明し、その範囲や日本語法概念との対応は法域によって異なると補足する。歴史的な第一級・第二級を掲げるなら、それぞれの典型的な区別も説明する。日本語訳では文脈上の意味を示し、必要に応じて原語を併記する。",
+      "scope_anchors": [
+        {"id": "cold-3-a", "exact_quote": "・適用法上 `principal` と分類される犯罪関与者 → 「犯罪関与者」（語義6）", "location_hint": "コアイメージ・語義6対応項目"},
+        {"id": "cold-3-b", "exact_quote": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者", "location_hint": "語義6・見出し"},
+        {"id": "cold-3-c", "exact_quote": "【日本語訳・定義】刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。", "location_hint": "語義6・定義"},
+        {"id": "cold-3-d", "exact_quote": "訳: 裁判所は彼をその犯罪について `principal` に当たる者と認定した。", "location_hint": "語義6・a principal in a crime例文訳"},
+        {"id": "cold-3-e", "exact_quote": "訳: その制定法は、情を知って犯罪を援助する者を `principal` として扱う。", "location_hint": "語義6・treat someone as a principal例文訳"},
+        {"id": "cold-3-f", "exact_quote": "訳: その古い判決は被告人を第一級 `principal` に分類した。", "location_hint": "語義6・a principal in the first degree例文訳"}
+      ]
+    }
+  ],
+  "agent_id": "/root/principal/cold",
+  "model": "inherited session model (not exposed)",
+  "_output_metadata": {
+    "schema_version": "cold_review_v1",
+    "stage": "cold_review",
+    "run_id": "cold-principal-20260908T045228Z-e5bdb73f",
+    "context_id": "cold-principal-context-20260908T045228Z-e5bdb73f",
+    "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+    "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+    "input_artifacts": ["entry_body", "cold_review_prompt"],
+    "audit_visible": false
+  },
+  "contract_version": "review_preflight_v1"
+}

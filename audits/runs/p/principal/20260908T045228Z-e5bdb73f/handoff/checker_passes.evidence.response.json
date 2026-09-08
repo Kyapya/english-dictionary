@@ -1,0 +1,121 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "inherited session model (not exposed)",
+    "ingested_by": "human",
+    "agent_id": "/root/principal/evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 166,
+        "line_end": 166,
+        "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "C-002 routes the education/authority claim to definition:003 (the orchestral definition). Its F-002/F-003/F-014/F-017 sources concern general authority or educational heads and do not directly support this orchestral role. C-003 has separately relevant performer evidence, but that does not make C-002's cross-sense link valid. No link IDs are supplied; this identifies the existing C-002 article_target_ids/source_supports relationship.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Remove definition:003 from C-002's targets; retain the directly applicable C-003/F-018 support for the orchestral definition."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 49,
+        "line_end": 49,
+        "exact_quote": "【文法パターン】`the principal 〈名詞〉`＝主要な～／`a principal 〈名詞〉`＝主な～の一つ／`one of the principal 〈複数名詞〉`＝主要な～の一つ／`the principal cause of ...`＝～の主因／`a principal source of ...`＝～の主要源の一つ／`the principal reason for ...`＝～の主な理由"
+      },
+      "severity": "blocking",
+      "rationale": "C-001 targets this grammar_pattern, but F-001 (Merriam-Webster adjective sense 1), F-013 (Cambridge learner definition), F-016 (Collins American adjective definition) establish adjective meaning and a few noun combinations. They do not document the complete article/number/preposition frames or the proposed a-principal versus the-principal interpretation. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 134,
+        "line_end": 134,
+        "exact_quote": "【文法パターン】`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長"
+      },
+      "severity": "blocking",
+      "rationale": "C-002 targets this grammar_pattern, but F-002/F-003 (Merriam-Webster noun senses 1/1b), F-014 (Cambridge school-person definition), and F-017 (Collins title definition) establish school/college leadership meanings and one regional qualification. Their supplied passages do not establish the complete principal of determiner-containing NP, a school principal, and a college principal frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 172,
+        "line_end": 172,
+        "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人"
+      },
+      "severity": "blocking",
+      "rationale": "C-003 targets this grammar_pattern, but F-007 (Merriam-Webster noun sense 1f) and F-018 (Collins performer/first-player uses) establish the performer meaning. Neither supplied passage documents one of + orchestra possessive + plural principals or the proposed possessive-slot generalization. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 200,
+        "line_end": 200,
+        "exact_quote": "【文法パターン】`principal and interest`＝元金と利息／`pay down the principal`＝元金を減らす／`repay principal`＝元金を返済する／`protect the principal`＝元本を保全する"
+      },
+      "severity": "blocking",
+      "rationale": "C-004 targets this grammar_pattern, but F-008/F-015/F-019/F-024/F-027 establish financial principal and, for F-024, repayment reducing the obligation. They do not document the complete pay down the principal, repay principal, or protect the principal frames, including their article choices. Semantic compatibility alone does not verify these as evidenced complete frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 252,
+        "line_end": 252,
+        "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係"
+      },
+      "severity": "blocking",
+      "rationale": "C-006 targets this grammar_pattern, but F-004/F-020/F-023 establish authority, behalf, control, and unspecified agent duties. The supplied passages do not establish the full appoints/authorizes an agent to do frame or the complete owe a duty to the principal construction. Wex's mention of duties is not a recorded syntax example. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 299,
+        "line_end": 299,
+        "exact_quote": "【文法パターン】`a principal in a crime`＝犯罪について `principal` とされる関与者／`treat someone as a principal`＝人を `principal` として扱う／`a principal in the first/second degree`＝歴史的分類上の第一級・第二級 `principal`"
+      },
+      "severity": "blocking",
+      "rationale": "C-007 targets this grammar_pattern, but F-005 (Merriam-Webster noun sense 1d/legal definition) and F-021 (Collins criminal-law sense) support criminal participation and the accessory contrast. Neither fact statement nor source_detail records first/second degree, historical common-law scope, or the supplied complete frames. C-007's support_summary asserts historical degree classifications beyond the underlying F-005 passage summary. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 337,
+        "line_end": 337,
+        "exact_quote": "【文法パターン】`be liable as principal`＝主たる当事者として責任を負う／`the obligation of the principal`＝主たる義務者の義務／`the principal and the surety`＝主たる義務者と保証人"
+      },
+      "severity": "blocking",
+      "rationale": "C-008 targets this grammar_pattern, but F-006/F-022/F-026 establish primary liability and the surety/guarantor contrast. They do not document the zero-article be liable as principal frame or the other complete obligation/surety phrases. Their definition-level support does not establish those grammatical constructions. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
+    }
+  ],
+  "notes": [
+    "Read the complete fixed request only; no source exploration, inventory coverage assessment, or independent dictionary-correctness adjudication was performed.",
+    "Internal packet hash-field equality and fact/union references were checked. Parent confirmed validate_request_integrity and validate_evidence_context returned no errors, rebuilt evidence_context from the real inventory equals this packet, and inventory body binding agrees. External digest verification was performed by the parent, not this reviewer.",
+    "The request supplies source_supports without independent evidence-link IDs. Empty evidence_link_ids arrays avoid inventing IDs; rationales identify the affected existing claim/fact relationships.",
+    "The source summaries support the central pronunciation, etymological path, derivatives, and most sense definitions. These findings address mapped evidence relationships and construction support, not missing source-inventory coverage."
+  ]
+}

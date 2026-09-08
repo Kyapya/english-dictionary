@@ -1,0 +1,13 @@
+{
+  "schema_version": "workflow_takeover_record_v1",
+  "run_id": "20260908T045228Z-e5bdb73f",
+  "authorization": ["constitute principalを完成させてほしい", "止まってるので引き継いてください"],
+  "basis": "source_first_audit_v2 permits the next explicit user request to authorize a fresh validation cycle. Continue the already prepared cycle; preserve exhausted parent runs and counters.",
+  "frame_reviewer_replacement": {
+    "reason": "Previous chat stopped; original reviewer unavailable for same-agent stage 2.",
+    "archived_response": "handoff/checker_passes.frame-relation.superseded.response.json",
+    "archived_sha256": "83602eb85229babd271be9769d364a21828c8dfbcf753e273cefb94507d7428a",
+    "replacement_agent_id": "/root/principal/frame",
+    "method": "Independent replacement reads unchanged masked request and performs both stages. Original request/input snapshot preserved; no stage-1 ingestion had occurred."
+  }
+}

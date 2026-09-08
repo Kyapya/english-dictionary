@@ -18,11 +18,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "preflight_pushed",
+  "stage": "draft_saved",
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
   "pre_draft_deadline_at": "2026-09-08T05:22:28Z",
-  "last_heartbeat_at": "2026-09-08T05:01:10Z",
+  "last_heartbeat_at": "2026-09-08T05:18:54Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T05:01:10Z",
@@ -38,6 +38,11 @@
       "stage": "preflight_pushed",
       "recorded_at": "2026-09-08T05:01:10Z",
       "notes": "remote start checkpoint verified"
+    },
+    {
+      "stage": "draft_saved",
+      "recorded_at": "2026-09-08T05:08:02Z",
+      "notes": "orchestrator completed generation"
     }
   ],
   "stop_reason": "",
@@ -495,7 +500,14 @@
     "schema_version": "workflow_process_improvement_v2",
     "knowledge_epoch": "pi2-2026-09-06",
     "features": [
-      "workflow:extended"
+      "domain:agency-law",
+      "domain:criminal-law",
+      "domain:education",
+      "domain:finance",
+      "part_of_speech:adjective",
+      "part_of_speech:noun",
+      "polysemy:multiple-senses",
+      "register:formal"
     ],
     "snapshots": [
       {
@@ -522,7 +534,16 @@
         "stage": "generation"
       }
     ],
-    "processing": {},
+    "processing": {
+      "generation": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/p/principal/20260908T045228Z-e5bdb73f/generation.json"
+        ],
+        "receipt_event_id": "workflow:20260908T045228Z-e5bdb73f:generation:ec5c0975c742",
+        "recorded_at": "2026-09-08T05:08:02Z"
+      }
+    },
     "pending_events": [],
     "selection_errors": []
   },
@@ -549,7 +570,7 @@
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "mechanical_validator",
@@ -558,7 +579,7 @@
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "checker_passes",
@@ -717,11 +738,21 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 1,
+    "next_stage_index": 3,
     "completed_stages": [
-      "guard_start"
+      "guard_start",
+      "generation",
+      "mechanical_validator"
     ],
-    "stage_outputs": {}
+    "stage_outputs": {
+      "generation": [
+        "entries/p/principal.md",
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/generation.json"
+      ],
+      "mechanical_validator": [
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/validator.json"
+      ]
+    }
   },
   "publication": {
     "mode": "connector"
