@@ -43,7 +43,7 @@ tags: []
 【コロケーション】
 
 ・`a member of parliament`  
-用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。  
+用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。この役職名・略称は下院議員を指し、上院議員は通常 `MP` とは呼ばない。  
 例: She was elected as a member of parliament for the first time last year.  
 訳: 彼女は昨年、初めて国会議員に選出された。  
 
@@ -81,7 +81,7 @@ tags: []
 ・lawmaking body  
 定義: 法律を制定・改正する機関。  
 頻度: 〈4/10〉  
-違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。  
+違い: `lawmaking body` は、法律を制定する機能に注目した一般的な説明句である。`parliament` は、特定の国・地域の制度における議会を指す名称である。  
 例: The lawmaking body debated the proposed change.  
 訳: その立法機関は提案された変更を審議した。  
 
@@ -105,7 +105,7 @@ tags: []
 【コロケーション】
 
 ・`a hung parliament`  
-用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。  
+用途: どの政党も単独で議席の過半数を持たない議会を表す。主にイギリス英語で用い、イギリスでは下院の議席についていう。  
 例: The general election produced a hung parliament.  
 訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。  
 
@@ -134,8 +134,8 @@ tags: []
 【類義語】
 
 ・legislative body  
-定義: 立法機関として見た、特定回の議会体。  
+定義: 立法機関。  
 頻度: 〈5/10〉  
-違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。  
+違い: `legislative body` は機関・会議体を指す。語義2の `parliament` が特定回の議会体を指す文脈では対応するが、その存続期間を指す場合には置き換えられない。  
 例: The newly elected legislative body met for the first time.  
 訳: 新たに選ばれた立法機関が初めて開会した。  
