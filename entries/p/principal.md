@@ -69,6 +69,11 @@ tags: []
 例: She is one of the principal architects of the reform.  
 訳: 彼女はその改革の主要な立案者の一人である。  
 
+・`a principal dancer`  
+用途: `principal` を限定用法の形容詞として用い、舞台芸術で主要な役を担うダンサーを表す。  
+例: She is a principal dancer.  
+訳: 彼女は主要な役を担うダンサーである。  
+
 【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principle` は「基本的な規則・法則」を表す名詞で、`principal` は「最も重要な」を表す形容詞にもなるため、両者を混同しない。  
 
 【類義語】
@@ -158,14 +163,14 @@ tags: []
 
 【レジスター/領域】舞台芸術・オーケストラ・音楽の専門語。  
 
-【文法パターン】舞台芸術の役職は `a principal dancer`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  
+【文法パターン】舞台芸術の主要演者を名詞で表す場合は `〈演者〉 + be + a principal`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  
 
 【コロケーション】
 
-・`a principal dancer`  
-用途: 舞台芸術で主要な役を担う演者を表す。  
-例: She is a principal dancer.  
-訳: 彼女は主要な役を担うダンサーである。  
+・`be a principal`  
+用途: 舞台芸術の文脈で、主要な役を担う演者を名詞 `principal` で表す。  
+例: In this ballet company, she is a principal.  
+訳: このバレエ団で、彼女は主要な役を担う演者である。  
 
 ・`the principal + be + the first player of 〈オーケストラのセクション〉`  
 用途: オーケストラのセクションで首席を務める奏者を表す。  
