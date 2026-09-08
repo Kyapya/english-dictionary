@@ -1,0 +1,77 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "stage2_request_sha256": "50770a916065ab6f698689123d409a46fd13973528ba57d37ae4f77ac67ac6b3",
+  "blind_record_sha256": "9fcca29dc650677e5a5581eaacd8bad4a6a62a636395066b1189707d80641346",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh2-frame-relation-1"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "`principal` の最重要・高順位と `secondary` の二次的重要性は、当該語義の定義から重要度の程度対立として直接導出でき、違い行も対立を否定または限定していない。",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "`principal` の高い重要性と `minor` の比較的小さい重要性は、当該語義に属する重要度の程度対立であり、違い行に自己否定はない。",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7477e18058ee",
+      "flags": [
+        "F3"
+      ],
+      "rationale": "`principal` と `interest` は一つの返済額に含まれ得る別々の金額構成要素であり、基礎額とそこから生じる追加額という関連はあっても、補完・程度・方向・評価・状態のいずれかの反意対立ではない。違い行も両者を構成カテゴリーとして説明している。",
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-28424ac40a56",
+      "flags": [],
+      "rationale": "権限を与える `principal` と、その権限で本人のために行動する `agent` は、当該定義に明示された同一代理関係内の補完的役割であり、違い行も対立の不成立を示していない。",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-eb9ac1e6e466",
+      "flags": [],
+      "rationale": "第一次的に責任を負う `principal` と、不履行時に保証責任を負う `surety` は、当該債務・保証語義から導出できる責任順位上の補完対立であり、違い行にも自己否定はない。",
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 172,
+        "line_end": 172,
+        "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人  "
+      },
+      "severity": "blocking",
+      "rationale": "当該語義はオーケストラの各セクションを率いる奏者に限定されているのに、所有格スロットの「など」と訳の「団体」が、バレエ団や企業などを含む無限定な団体名の代入を許す。すると `principal` が首席奏者ではない別の役職・身分を表す候補までこの語義の完全フレームとして生成され、定義とスロットの意味役割が一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "所有格スロットと訳をオーケストラ（必要なら定義で明示した音楽アンサンブル）に限定する。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 252,
+        "line_end": 252,
+        "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  "
+      },
+      "severity": "blocking",
+      "rationale": "代理権を与える側を主語、代理人を目的語、行為を不定詞補部に置く能動フレームだけが、この語義のコロケーションと例文に実現されていない。他の三つの主要パターンには対応例があるため、主要構文とコロケーションの相互対応がこのフレームで欠けている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`a principal authorizes an agent to do ...` を独立したコロケーションとして、本人・代理人・許可された行為の三スロットが明示された例文で実現する。"
+    }
+  ],
+  "unrouted_observations": []
+}

@@ -21,5 +21,23 @@
         }
       ]
     }
-  ]
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal_cycle2_cold"
+  },
+  "schema_version": "cold_review_v1",
+  "stage": "cold_review",
+  "run_id": "cold-principal-20260908T045228Z-e5bdb73f",
+  "context_id": "cold-principal-context-20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+  "input_artifacts": [
+    "entry_body",
+    "cold_review_prompt"
+  ],
+  "audit_visible": false,
+  "recorded_at": "2026-09-08T05:56:50.966099+00:00"
 }
