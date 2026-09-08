@@ -1,0 +1,166 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 39,
+        "label": "1. 【他動詞】構成する、（全体の一定割合を）占める",
+        "definition": "一つまたは複数の人・物・部分・期間などが、一つの全体を形作る、またはその全体の一定割合・重要部分を占めることを表す。全体構成の能動構文では主語が構成要素、目的語がそれらによってできる全体である。一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は of 句に現れる。意図的に組み立てる行為ではなく、部分と全体の関係を記述することが多い。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 111,
+        "label": "2. 【他動詞・連結的用法】～に当たる、～を意味する、～となる",
+        "definition": "行為、状況、事実、結果などが、ある分類・評価・状態の定義や成立条件を満たし、そのものと見なせることを表す。目的語には crime、breach、threat、evidence、change、problem などが来る。法律用語だけではなく一般の評価にも使うが、何がその分類に当たるかをやや改まって判断する響きがある。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 188,
+        "label": "3. 【他動詞】（組織・委員会・政府などを）正式に設立する、組織する",
+        "definition": "組織、委員会、裁判所、政府などを正式に形成・設置し、公式の組織体として成立させることを表す。制度や文脈によって所定の手続きや権限付与を伴うことはあるが、constitute という語だけで法的有効性や実際の活動可能性まで一律に保証するわけではない。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 253,
+        "label": "4. 【他動詞・公式・法律】（人を役職・地位に）正式に任命・指定する",
+        "definition": "権限をもつ者・法律・公式文書などが、人を特定の役職・地位・役割に正式に任命・指定することを表す。任命の法的有効性、付与される権限、その立場で行動できる範囲は、該当する文書・制度・法域によって決まる。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-23930260be95",
+        "example": "The revised policy constitutes a significant change in the company's approach.",
+        "translation": "改訂された方針は、その会社の取り組み方の大きな変化に当たる。"
+      },
+      {
+        "example_id": "ex-2a9689d0e0a1",
+        "example": "The ministry constituted an independent panel to investigate the accident.",
+        "translation": "同省は、その事故を調査する独立委員会を正式に設置した。"
+      },
+      {
+        "example_id": "ex-b9d3b05fe680",
+        "example": "The guidelines explain what constitutes acceptable use of the system.",
+        "translation": "その指針は、どのようなシステム利用が許容されるかを説明している。"
+      },
+      {
+        "example_id": "ex-785eacbac539",
+        "example": "The charter constituted him treasurer of the association.",
+        "translation": "その憲章によって、彼は協会の会計役に任命された。"
+      },
+      {
+        "example_id": "ex-0e84143bcfeb",
+        "example": "Only a duly constituted board may approve the transaction.",
+        "translation": "正式に構成された取締役会だけが、その取引を承認できる。"
+      },
+      {
+        "example_id": "ex-c70477ed65f9",
+        "example": "Maintenance costs constitute a significant part of the annual budget.",
+        "translation": "維持費は年間予算のかなりの部分を占める。"
+      },
+      {
+        "example_id": "ex-f8010c6ae504",
+        "example": "Sharing the data without permission would constitute a breach of the agreement.",
+        "translation": "許可なくデータを共有すれば、その契約への違反に当たる。"
+      },
+      {
+        "example_id": "ex-8509740850fc",
+        "example": "Deliberately altering the records may constitute a criminal offence.",
+        "translation": "記録を故意に改ざんすることは、刑事犯罪に当たる可能性がある。"
+      },
+      {
+        "example_id": "ex-92d41e4f967f",
+        "example": "The commission was constituted under the new environmental law.",
+        "translation": "その委員会は新しい環境法に基づいて設置された。"
+      },
+      {
+        "example_id": "ex-304980744e8c",
+        "example": "The damaged bridge constitutes a serious risk to public safety.",
+        "translation": "その損傷した橋は公共の安全に対する重大な危険となっている。"
+      },
+      {
+        "example_id": "ex-2a5aa13d861c",
+        "example": "She was constituted guardian for the limited purpose stated in the order.",
+        "translation": "彼女は、その命令に記された限定的な目的のための後見人に任命された。"
+      },
+      {
+        "example_id": "ex-276dd9432db1",
+        "example": "The panel is constituted of experts from five different fields.",
+        "translation": "その委員会は5つの異なる分野の専門家で構成されている。"
+      },
+      {
+        "example_id": "ex-00772a996929",
+        "example": "Twelve jurors constitute the full jury in this court.",
+        "translation": "この裁判所では、12人の陪審員が陪審全体を構成する。"
+      },
+      {
+        "example_id": "ex-54c44b515a91",
+        "example": "The parties agreed to constitute a transitional government.",
+        "translation": "当事者らは暫定政府を発足させることで合意した。"
+      },
+      {
+        "example_id": "ex-42dc6bcb5b9f",
+        "example": "Online sales now constitute 35 percent of the company's revenue.",
+        "translation": "オンライン販売は現在、その会社の売上高の35パーセントを占めている。"
+      },
+      {
+        "example_id": "ex-15e9ec698a1c",
+        "example": "A single anonymous message does not constitute proof of fraud.",
+        "translation": "匿名のメッセージ一通だけでは、詐欺の証明にはならない。"
+      },
+      {
+        "example_id": "ex-c8b3eedf0c48",
+        "example": "Part-time employees constitute the majority of the evening staff.",
+        "translation": "非常勤職員が夜間スタッフの過半数を占めている。"
+      },
+      {
+        "example_id": "ex-717a80c805df",
+        "example": "The treaty provides for a tribunal to be constituted when a dispute arises.",
+        "translation": "その条約は、紛争が生じた際に審判機関を設置することを定めている。"
+      },
+      {
+        "example_id": "ex-1152f8f88354",
+        "example": "The charter identifies the treasurer as a legally constituted officer of the association.",
+        "translation": "その憲章は、会計役を協会の正式に任命された役職者として定めている。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "f63969a81cebb477471a1f01a3a087b0a9c85d94795a22dc1626229395687f76",
+  "normalized_input_sha256": "555d5cf5f0a3eec74eb8eaa5f4825a23610db22cd4ce1eac8d32f0aca95d6b79"
+}

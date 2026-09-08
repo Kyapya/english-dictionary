@@ -1,0 +1,89 @@
+{
+  "schema_version": "checker_recheck_round2_resolution_v1",
+  "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+  "output_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "input_checker_recheck_manifest_sha256": "a4e2a482a4f50c83941f46d3babb86dfdb05dd63d9130e2c6588f61e371b7169",
+  "recorded_at": "2026-09-08T02:30:11.322002Z",
+  "resolutions": [
+    {
+      "id": "round2-translation-001",
+      "finding_id": "round2-translation-001",
+      "pass_id": "translation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The English states only a composition relation; 合流して adds an unasserted joining process.",
+      "required_changes": [
+        "Remove the added joining process from the Japanese translation."
+      ],
+      "implemented_changes": [
+        "Changed the translation to これらの小川が本流を形作っている。"
+      ],
+      "resolved_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389"
+    },
+    {
+      "id": "round2-translation-002",
+      "finding_id": "round2-translation-002",
+      "pass_id": "translation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "structure is broader than building, and translating it as 建物 presupposes the classification expressed by qualifies as.",
+      "required_changes": [
+        "Preserve the broader subject noun in Japanese."
+      ],
+      "implemented_changes": [
+        "Changed 建物 to 構造物."
+      ],
+      "resolved_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389"
+    },
+    {
+      "id": "round2-translation-003",
+      "finding_id": "round2-translation-003",
+      "pass_id": "translation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "identifies describes identification or record, whereas 定めている can imply that the charter creates the appointment.",
+      "required_changes": [
+        "Translate identifies without adding a constitutive act."
+      ],
+      "implemented_changes": [
+        "Changed the main predicate to 明記している while retaining the constituted-officer description."
+      ],
+      "resolved_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389"
+    },
+    {
+      "id": "round2-frame-relation-001",
+      "finding_id": "round2-frame-relation-001",
+      "pass_id": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The active institutional-establishment frame omitted the subject that performs or authorizes constitution, although the definition and examples realize it.",
+      "required_changes": [
+        "Add the establishing authority/institution/parties subject slot."
+      ],
+      "implemented_changes": [
+        "Expanded the pattern to 〈authority/institution/parties〉 constitute 〈committee/body/court/government〉."
+      ],
+      "resolved_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389"
+    },
+    {
+      "id": "round2-frame-relation-002",
+      "finding_id": "round2-frame-relation-002",
+      "pass_id": "frame-relation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The active appointment frame omitted the authority, law, or official document that performs the constituting act.",
+      "required_changes": [
+        "Add the appointment-source subject slot."
+      ],
+      "implemented_changes": [
+        "Expanded the pattern to 〈authority/law/document〉 constitute someone 〈office/role〉."
+      ],
+      "resolved_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389"
+    }
+  ],
+  "summary": {
+    "adopted": 5,
+    "rejected": 0,
+    "unresolved": 0
+  }
+}

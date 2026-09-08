@@ -1,0 +1,224 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+  "blind_request_sha256": "e9aeb1eef53411f6e0ddc17cb20efff8ca10be9a4dce53ca34cdf0a5cff27521",
+  "recorded_at": "2026-09-08T11:17:01+09:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-round2-example-attribution-1"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-23930260be95",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitutes a significant change"
+      ],
+      "rationale": "「constitutes a significant change」は方針という事実を change という評価分類に当てはめる sense:002 の連結的関係である。sense:001 なら主語が目的語の構成要素となる部分・全体関係が必要だが、この用例では policy が change の構成部分なのではなく、方針改訂そのものが変化に当たるため成立しない。"
+    },
+    {
+      "example_id": "ex-2a9689d0e0a1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "constituted an independent panel"
+      ],
+      "rationale": "「constituted an independent panel」は省が意図的な行為者となって新しい委員会を設置する sense:003 の項構造である。sense:001 なら ministry 自体が panel を成す構成要素になる読みになるが、ここでは省が設置主体なので競合しない。"
+    },
+    {
+      "example_id": "ex-b9d3b05fe680",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitutes acceptable use"
+      ],
+      "rationale": "「what constitutes acceptable use」は、どの行為が acceptable use の成立条件を満たすかを問う sense:002 の分類フレームである。sense:001 の部分が全体を構成する読みでは acceptable という規範評価を伴う成立条件の問いを表せない。"
+    },
+    {
+      "example_id": "ex-785eacbac539",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "constituted him treasurer"
+      ],
+      "rationale": "「constituted him treasurer」は人を目的語、役職を目的格補語に取って正式に任命する sense:004 固有の構文である。sense:003 は panel や government など組織体を目的語として設立する語義であり、him と treasurer の人・役職関係には適合しない。"
+    },
+    {
+      "example_id": "ex-0e84143bcfeb",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "duly constituted board"
+      ],
+      "rationale": "「duly constituted board」の duly は所定の手続で正式に成立させられた結果状態を直接示すため sense:003 である。sense:001 の構成読みなら通常は board を成す要素や of/by 句が必要で、duly が示す手続的成立だけではその部分・全体関係にならない。"
+    },
+    {
+      "example_id": "ex-c70477ed65f9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a significant part of the annual budget"
+      ],
+      "rationale": "「a significant part of the annual budget」は目的語が部分量、of 句が全体を表す sense:001 の明示的な部分・全体フレームである。sense:002 の分類・成立条件読みと違い、maintenance costs が予算に占める量的部分を述べている。"
+    },
+    {
+      "example_id": "ex-f8010c6ae504",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitute a breach of the agreement"
+      ],
+      "rationale": "「constitute a breach of the agreement」は無許可共有という行為を契約違反に分類する sense:002 である。sense:001 なら共有行為が breach の構成部分となる関係を述べるはずだが、ここでは違反の成立該当性そのものを判断している。"
+    },
+    {
+      "example_id": "ex-8509740850fc",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitute a criminal offence"
+      ],
+      "rationale": "「constitute a criminal offence」は記録改ざんという行為が犯罪の定義に当たる可能性を述べる sense:002 である。sense:001 の構成関係なら offence を作る複数の部分という読みになるが、この文の may は分類成立の可能性にかかっており、その読みを排除する。"
+    },
+    {
+      "example_id": "ex-92d41e4f967f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "was constituted under the new environmental law"
+      ],
+      "rationale": "「was constituted under the new environmental law」は法を根拠に commission が設置された受動の成立フレームであり sense:003 である。sense:001 の構成読みなら構成要素を示す of/by 句が自然で、under the law という設置根拠は部分・全体関係を表さない。"
+    },
+    {
+      "example_id": "ex-304980744e8c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitutes a serious risk to public safety"
+      ],
+      "rationale": "「constitutes a serious risk to public safety」は損傷した橋という状況を risk という評価状態に当てはめる sense:002 である。sense:001 の部分・全体関係では橋が risk を構成する要素という量的・構造的関係が必要だが、この文は危険性の評価を述べる。"
+    },
+    {
+      "example_id": "ex-2a5aa13d861c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "was constituted guardian"
+      ],
+      "rationale": "「was constituted guardian」は人である she が guardian という役職に任命された受動の人・役職フレームで、sense:004 に一意である。sense:003 は組織体を成立させる語義であり、人を guardian の地位に置くこの補語関係には使えない。"
+    },
+    {
+      "example_id": "ex-276dd9432db1",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "is constituted of experts"
+      ],
+      "rationale": "「is constituted of experts」は panel という全体と experts という構成要素を of 句で結ぶ sense:001 の部分・全体関係である。sense:003 の正式設立なら設立主体・根拠・時点などを取るが、この of 句は誰が設置したかではなく何から成るかを示す。"
+    },
+    {
+      "example_id": "ex-00772a996929",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Twelve jurors constitute the full jury"
+      ],
+      "rationale": "「Twelve jurors constitute the full jury」は数えられた構成要素を主語、完成した全体を目的語に置く sense:001 の能動構文である。sense:003 なら jurors が jury を正式設立する行為者となるが、この文は twelve と full により人数上の構成関係を述べており、その行為読みは成立しない。"
+    },
+    {
+      "example_id": "ex-54c44b515a91",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "agreed to constitute a transitional government"
+      ],
+      "rationale": "「agreed to constitute a transitional government」は当事者が合意後に新しい政府を発足させる意図的行為を表し sense:003 である。sense:001 なら parties が既存 government の構成要素である静的関係になるが、agreed to と不定冠詞 a が示す将来の成立行為とは両立しない。"
+    },
+    {
+      "example_id": "ex-42dc6bcb5b9f",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "constitute 35 percent of the company's revenue"
+      ],
+      "rationale": "「constitute 35 percent of the company's revenue」は目的語に割合、of 句に全体を置く sense:001 の量的部分フレームである。sense:002 の評価分類と違い、online sales が revenue に占める比率を 35 percent と明示している。"
+    },
+    {
+      "example_id": "ex-15e9ec698a1c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "does not constitute proof of fraud"
+      ],
+      "rationale": "「does not constitute proof of fraud」は単一のメッセージが proof の成立条件を満たさないという否定の分類判断で sense:002 である。sense:001 ならメッセージを証拠全体の一部として述べ得るが、does not constitute proof は証明として認定できないこと自体を述べており、その部分・全体読みではない。"
+    },
+    {
+      "example_id": "ex-c8b3eedf0c48",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "constitute the majority of the evening staff"
+      ],
+      "rationale": "「constitute the majority of the evening staff」は part-time employees が staff 全体に占める過半部分を表す sense:001 である。sense:002 の分類読みなら employees を majority という類型に認定することになるが、of the evening staff が全体、majority が部分量を明示するため該当しない。"
+    },
+    {
+      "example_id": "ex-717a80c805df",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a tribunal to be constituted when a dispute arises"
+      ],
+      "rationale": "「a tribunal to be constituted when a dispute arises」は紛争発生を契機に tribunal が新たに設置される受動の出来事を表し sense:003 である。sense:001 の構成読みなら tribunal の構成要素を述べるはずだが、この文の to be constituted と when 節は将来の設立時点を示す。"
+    },
+    {
+      "example_id": "ex-1152f8f88354",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "a legally constituted officer of the association"
+      ],
+      "rationale": "「a legally constituted officer of the association」は人である treasurer を法的に任命された officer という地位で捉える結果状態であり sense:004 である。sense:003 は組織・機関そのものを設立する語義なので、個人を officer として正式指定するこの人・役職関係には適合しない。"
+    }
+  ]
+}
