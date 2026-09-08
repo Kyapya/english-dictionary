@@ -1,0 +1,79 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced",
+  "stage2_request_sha256": "84143e503b3ff33cf61c8d3dbb2cca370ddd4b361eeaec860b27a9755aaadcbf",
+  "blind_record_sha256": "40338741ce20a0f79967160b9cc9258eeaa45607d8963b2035901da36f05a706",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-clean-frame-relation-1"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-03104497ec86",
+      "flags": [],
+      "rationale": "段階1の「重要度」は語義定義の重要度・順位から直接導け、principal の高い重要度と secondary の二次的な重要度は程度対立として成立する。違い行も対立を肯定しており、自己否定を含まない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-4d5c558bcc5b",
+      "flags": [],
+      "rationale": "段階1の「重要度」は語義定義から直接導け、principal の高い重要度・影響力と minor の比較的小さい重要性・影響は程度対立として成立する。違い行もその程度対立を明示し、自己否定を含まない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-bf79fd7d2b44",
+      "flags": [],
+      "rationale": "段階1の「金額区分」は、語義定義が元金を利息等から区別することから直接導ける。貸借の金額構成における基礎額とそれに対して生じる利息は補完的な区分として成立し、違い行にも対立の不成立を示す限定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-eb001c3b2959",
+      "flags": [],
+      "rationale": "段階1の「代理関係役割」は語義定義から直接導け、権限を与える principal と、その権限で本人のために行動する agent は同一代理関係内の補完的役割である。違い行もこの対照を肯定し、自己否定を含まない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-e1f853a2f550",
+      "flags": [],
+      "rationale": "段階1の「責任順位」は語義定義の第一次的責任者と二次的責任者の対比から直接導け、principal と surety は保証関係における補完的な責任役割として成立する。違い行もこの対照を肯定し、自己否定を含まない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 186,
+        "line_end": 186,
+        "exact_quote": "【文法パターン】この語義では `principal` を、分野固有の上級地位または首席の役割を持つ人を指す名詞として用いる。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義3の文法欄は語義説明を反復するだけで実在する構文を示しておらず、企業・専門組織の上級職、バレエ・オペラの首席出演者、オーケストラの首席奏者という主要下位用法の完全フレームを検証できない。さらに唯一のコロケーション見出し `a principal` は例文の `one of the orchestra's principals` と数・限定構造が一致せず、slot と実現の一対一対応もない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`a principal at/in 〈組織〉`、`a principal dancer/singer`、`the principal 〈楽器名〉` など分野別の実在フレームを明示し、それぞれと同形のコロケーション・例文を対応させる。"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 221,
+        "line_end": 221,
+        "exact_quote": "【文法パターン】`pay/repay 〈金額〉 of principal`＝元金を～返済する／`pay down/reduce the principal`＝元金を減らす／`principal and interest`＝元利金／`the principal on a loan`＝ローンの元金／`an outstanding principal balance`＝未返済元金残高／`the principal amount`＝元本金額  "
+      },
+      "severity": "blocking",
+      "rationale": "語義4は金融と信託の双方を宣言し、定義も信託財産本体の用法を含むが、文法パターンと全コロケーションは貸付・投資の金額用法だけで、信託での主要フレームが一つもない。またコロケーションの `repay principal` と `protect the principal` に対応する直接目的語フレームも文法欄に明示されていないため、宣言された全主要構文を被覆していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`allocate 〈金額・資産〉 to principal`、`distribute/retain trust principal`、`principal and income` など信託用法の完全フレームと例を追加し、金融用法にも `repay/protect principal` の直接目的語フレームを明示する。"
+    }
+  ],
+  "unrouted_observations": []
+}

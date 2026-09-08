@@ -1,0 +1,202 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh-example-attribution-1"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a",
+    "blind_request_sha256": "bb0a1da7f329225805d03e436bda6e110de1a6c8ff7f171064cee2065219afb0",
+    "recorded_at": "2026-09-08T02:55:04.054917Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-fresh-example-attribution-1"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-068582a79ab4",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["liable as principal for the debt"],
+        "rationale": "“liable as principal for the debt” は principal を債務について第一次的に責任を負う者として項づけるため sense:007 に一意である。sense:005 の本人なら agent に権限を与える関係が必要だが、この principal の使い方は代理ではなく債務への liability を直接表す。"
+      },
+      {
+        "example_id": "ex-a3e9d38fd630",
+        "classification": "ambiguous",
+        "candidate_sense_ids": ["sense:003", "sense:002"],
+        "discriminating_terms": [],
+        "rationale": "“The concert program lists her as a principal.” では周辺語 concert program が sense:003 の首席出演者を強く示唆するが、principal 自体は無補語の可算人物名詞であり、同じ “lists her as a principal” は sense:002 の教育機関の長についても成立する。見出し語に結び付く dancer、soprano、of the school などの判別語がなく、sense:003 と sense:002 を一意化できない。"
+      },
+      {
+        "example_id": "ex-106f906f3688",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["agent generally owes duties", "to the principal"],
+        "rationale": "“agent generally owes duties” と “to the principal” が agent から principal への忠実・注意義務という代理関係を実現するため sense:005 に一意である。sense:007 なら surety と第一次的債務者の責任対比になり、agent が義務を負うこの関係では成立しない。"
+      },
+      {
+        "example_id": "ex-05a59938faf4",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["agent may sign", "on behalf of the principal"],
+        "rationale": "“agent may sign” と “on behalf of the principal” は principal が代理人による署名の本人であることを直接示すので sense:005 に一意である。sense:007 の主たる債務者は on behalf of による代理権の源という役割を持たず、この構文関係には合わない。"
+      },
+      {
+        "example_id": "ex-9fe6ee876f34",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["assists the offense as a principal"],
+        "rationale": "“assists the offense as a principal” は犯罪への関与に基づきその人物を principal と法的分類するので sense:006 に一意である。sense:003 の主要メンバーなら offense への刑事責任を表す as-a-principal 分類にはならない。"
+      },
+      {
+        "example_id": "ex-9db45c659710",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["principal of the college"],
+        "rationale": "“principal of the college” は principal の of 補部が教育機関を指定し、その長を表すので sense:002 に一意である。sense:003 の専門組織の責任者・首席者なら college そのものを of 補部に取る教育職名の読みにはならない。"
+      },
+      {
+        "example_id": "ex-dbce9575fdc6",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["Interest is calculated on", "outstanding principal amount"],
+        "rationale": "“Interest is calculated on” と “outstanding principal amount” は利息の計算基礎となる未返済元金を表すため sense:004 に一意である。sense:007 の債務者は人・法人であり、interest の計算対象となる amount にはなれない。"
+      },
+      {
+        "example_id": "ex-73756f8c4b52",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["classified the defendant as a principal in the first degree"],
+        "rationale": "“classified the defendant as a principal in the first degree” は被告人を歴史的な刑事法上の正犯等級に分類するため sense:006 に一意である。sense:003 の主要人物には in the first degree という犯罪責任の等級表現が結び付かない。"
+      },
+      {
+        "example_id": "ex-74ede27dd5fe",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["guarantee", "obligation of the principal"],
+        "rationale": "“guarantee” と “obligation of the principal” は保証に対する主たる義務者の第一次的義務を表すので sense:007 に一意である。sense:005 の本人は agent との権限関係で定義され、guarantee が置換しない obligation の担い手という対比にはならない。"
+      },
+      {
+        "example_id": "ex-407a25efd202",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["borrower", "repaying principal"],
+        "rationale": "“repaying principal” は borrower が借入の基礎額を返すという結果方向を表すため sense:004 に一意である。sense:007 は返済される金額ではなく第一次的に責任を負う当事者なので repay の目的語にはならない。"
+      },
+      {
+        "example_id": "ex-316df231c54b",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal cause of the failure"],
+        "rationale": "“principal cause of the failure” では principal が cause を前置修飾して相対的重要性の最高位を示すため形容詞 sense:001 に一意である。人物名詞 sense:003 は同じ位置で cause の評価属性として働けず、構文上成立しない。"
+      },
+      {
+        "example_id": "ex-71d0ef2c6725",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["school principal"],
+        "rationale": "“school principal” は school が principal の教育機関を直接限定する複合職名なので sense:002 に一意である。sense:003 の一般的責任者・首席者なら school と結合して慣用的な教育機関の長を表すこの職名読みにはならない。"
+      },
+      {
+        "example_id": "ex-130e9cf2d866",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal place of business"],
+        "rationale": "“principal place of business” では principal が place を前置修飾し、複数拠点中の主たる場所を示すため sense:001 に一意である。人物名詞 sense:003 は place をこの位置で修飾する同じ構文関係を取れない。"
+      },
+      {
+        "example_id": "ex-c0f731528d52",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["principal-agent relationship"],
+        "rationale": "“principal-agent relationship” は principal を agent と対になる代理関係の本人役として明示するので sense:005 に一意である。sense:007 は surety または guarantor と対比される債務役であり、agent と対になるこの関係名には合わない。"
+      },
+      {
+        "example_id": "ex-2ee92f3f0e36",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["a principal source of income"],
+        "rationale": "“a principal source of income” では principal が source の重要度を評価する前置修飾語なので形容詞 sense:001 に一意である。元本名詞 sense:004 は a source を修飾するこの統語位置・意味関係では成立しない。"
+      },
+      {
+        "example_id": "ex-cf1a3b295a31",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["both principal and interest"],
+        "rationale": "“both principal and interest” は principal を利息と並列し、利息から区別される借入元金を表すので sense:004 に一意である。sense:007 の当事者名詞は payment に含まれる金額として interest と並列できない。"
+      },
+      {
+        "example_id": "ex-50a15f273d24",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["protect the principal", "generating modest returns"],
+        "rationale": "“protect the principal” と “generating modest returns” は投資元本を保全しつつそこから収益を生む対比を示すので sense:004 に一意である。sense:007 の主たる義務者は returns を生む保全対象の金額ではない。"
+      },
+      {
+        "example_id": "ex-b0a365cfb2a4",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal reason for the delay"],
+        "rationale": "“principal reason for the delay” では principal が reason の相対的重要性を指定するため形容詞 sense:001 に一意である。人物を表す sense:003 は reason を前置修飾して「主な理由」という評価を作れない。"
+      },
+      {
+        "example_id": "ex-7c22353ee734",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["identified him as a principal in the crime"],
+        "rationale": "“identified him as a principal in the crime” は人物を当該犯罪の直接責任を負う正犯として認定するので sense:006 に一意である。sense:003 の中心人物なら criminal classification を担う as a principal in the crime という法的役割指定にはならない。"
+      },
+      {
+        "example_id": "ex-548023610953",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["duties of the principal and the surety"],
+        "rationale": "“duties of the principal and the surety” は principal を二次的責任者 surety と並べ、第一次的義務者を表すので sense:007 に一意である。sense:005 の本人なら自然な対概念は agent であり、surety との責任対比には合わない。"
+      },
+      {
+        "example_id": "ex-05a82805b410",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["Extra payments", "pay down the principal"],
+        "rationale": "“Extra payments” と “pay down the principal” は追加返済が元金残高を減少させる結果を表すため sense:004 に一意である。sense:007 は支払いで減らせる金額ではなく義務を負う当事者なので pay down の目的語にはならない。"
+      },
+      {
+        "example_id": "ex-8c949b4111cd",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal architects of the reform"],
+        "rationale": "“principal architects of the reform” では principal が複数の architects の中で主要な者を選ぶ前置修飾語なので形容詞 sense:001 に一意である。人物名詞 sense:003 なら principal 自体が中心人物を指すため、このように architects を修飾する同じ構文にはならない。"
+      },
+      {
+        "example_id": "ex-722b8a6d495b",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["college principal"],
+        "rationale": "“college principal” は college が教育機関を直接限定する職名で、その長を表すため sense:002 に一意である。sense:003 の一般的責任者・首席者なら college と結合してこの制度的な教育職名を作らない。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T02:59:12.000000Z",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 192,
+        "line_end": 192,
+        "exact_quote": "例: The concert program lists her as a principal.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1では sense:003 と sense:002 が同程度に成立すると判定した。実際の所属は sense:003 であり、訳文の「首席出演者」もその所属を選んでいるが、英文の「例: The concert program lists her as a principal.  」では principal 自体は無補語の可算人物名詞にとどまる。concert program は周辺的な領域語であって、“as a principal” の意味関係から教育機関の長を排除できず、英文内に dancer、soprano、of the school などの判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    }
+  ],
+  "unrouted_observations": []
+}

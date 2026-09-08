@@ -1,0 +1,499 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-principal-20260908T045228Z-e5bdb73f",
+  "context_id": "blind-principal-context-20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "agent_id": "/root/finish_principal/finalblind"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "C01",
+      "surface_form": "principal",
+      "frame": "principal + noun",
+      "meaning": "chief or most important",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: principal + noun; meaning: chief or most important. The adjective covers relative importance rather than mere chronological priority.",
+      "semantic_assertions": [
+        {
+          "id": "A01",
+          "statement": "The adjective covers relative importance rather than mere chronological priority.",
+          "polarity": "must_hold",
+          "scope": "principal + noun"
+        }
+      ]
+    },
+    {
+      "id": "C02",
+      "surface_form": "principal",
+      "frame": "one of the principal + plural noun",
+      "meaning": "one of several leading members of a set",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: one of the principal + plural noun; meaning: one of several leading members of a set. Plural leading members need not each be uniquely first.",
+      "semantic_assertions": [
+        {
+          "id": "A02",
+          "statement": "Plural leading members need not each be uniquely first.",
+          "polarity": "must_hold",
+          "scope": "one of the principal + plural noun"
+        }
+      ]
+    },
+    {
+      "id": "C03",
+      "surface_form": "principal",
+      "frame": "principal place of business",
+      "meaning": "main business location",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: principal place of business; meaning: main business location. This is an adjectival legal collocation whose legal criteria vary.",
+      "semantic_assertions": [
+        {
+          "id": "A03",
+          "statement": "This is an adjectival legal collocation whose legal criteria vary.",
+          "polarity": "must_hold",
+          "scope": "principal place of business"
+        }
+      ]
+    },
+    {
+      "id": "C04",
+      "surface_form": "principal",
+      "frame": "principal debtor / principal obligor",
+      "meaning": "primarily responsible debtor or obligor",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: principal debtor / principal obligor; meaning: primarily responsible debtor or obligor. The adjective modifies the role noun; it does not denote an amount.",
+      "semantic_assertions": [
+        {
+          "id": "A04",
+          "statement": "The adjective modifies the role noun; it does not denote an amount.",
+          "polarity": "must_hold",
+          "scope": "principal debtor / principal obligor"
+        }
+      ]
+    },
+    {
+      "id": "C05",
+      "surface_form": "principal",
+      "frame": "a principal of an organization",
+      "meaning": "person holding controlling authority or a leading organizational position",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: a principal of an organization; meaning: person holding controlling authority or a leading organizational position. Organizational authority licenses this noun beyond schools.",
+      "semantic_assertions": [
+        {
+          "id": "A05",
+          "statement": "Organizational authority licenses this noun beyond schools.",
+          "polarity": "must_hold",
+          "scope": "a principal of an organization"
+        }
+      ]
+    },
+    {
+      "id": "C06",
+      "surface_form": "principal",
+      "frame": "the principal of a school or college",
+      "meaning": "head of an educational institution",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: the principal of a school or college; meaning: head of an educational institution. Institutional and regional conventions determine the title.",
+      "semantic_assertions": [
+        {
+          "id": "A06",
+          "statement": "Institutional and regional conventions determine the title.",
+          "polarity": "must_hold",
+          "scope": "the principal of a school or college"
+        }
+      ]
+    },
+    {
+      "id": "C07",
+      "surface_form": "principal",
+      "frame": "principal and interest",
+      "meaning": "capital amount contrasted with interest",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: principal and interest; meaning: capital amount contrasted with interest. The two terms denote distinct components rather than opposites.",
+      "semantic_assertions": [
+        {
+          "id": "A07",
+          "statement": "The two terms denote distinct components rather than opposites.",
+          "polarity": "must_hold",
+          "scope": "principal and interest"
+        }
+      ]
+    },
+    {
+      "id": "C08",
+      "surface_form": "principal",
+      "frame": "pay down the principal",
+      "meaning": "reduce the outstanding capital balance",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: pay down the principal; meaning: reduce the outstanding capital balance. Repayment acts on the remaining balance, not permanently on an immutable original amount.",
+      "semantic_assertions": [
+        {
+          "id": "A08",
+          "statement": "Repayment acts on the remaining balance, not permanently on an immutable original amount.",
+          "polarity": "must_hold",
+          "scope": "pay down the principal"
+        }
+      ]
+    },
+    {
+      "id": "C09",
+      "surface_form": "principal",
+      "frame": "repay principal",
+      "meaning": "repay the capital component of a loan",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: repay principal; meaning: repay the capital component of a loan. Principal is the noun object of repayment.",
+      "semantic_assertions": [
+        {
+          "id": "A09",
+          "statement": "Principal is the noun object of repayment.",
+          "polarity": "must_hold",
+          "scope": "repay principal"
+        }
+      ]
+    },
+    {
+      "id": "C10",
+      "surface_form": "principal",
+      "frame": "protect the principal",
+      "meaning": "preserve invested capital",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: protect the principal; meaning: preserve invested capital. The investment amount is distinguished from returns.",
+      "semantic_assertions": [
+        {
+          "id": "A10",
+          "statement": "The investment amount is distinguished from returns.",
+          "polarity": "must_hold",
+          "scope": "protect the principal"
+        }
+      ]
+    },
+    {
+      "id": "C11",
+      "surface_form": "principal",
+      "frame": "trust principal",
+      "meaning": "trust property or corpus distinguished from income",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: trust principal; meaning: trust property or corpus distinguished from income. Property need not be confined to a cash amount.",
+      "semantic_assertions": [
+        {
+          "id": "A11",
+          "statement": "Property need not be confined to a cash amount.",
+          "polarity": "must_hold",
+          "scope": "trust principal"
+        }
+      ]
+    },
+    {
+      "id": "C12",
+      "surface_form": "principal",
+      "frame": "principal-agent relationship",
+      "meaning": "relationship between a represented party and an authorized representative",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: principal-agent relationship; meaning: relationship between a represented party and an authorized representative. The principal occupies the represented side of the relationship.",
+      "semantic_assertions": [
+        {
+          "id": "A12",
+          "statement": "The principal occupies the represented side of the relationship.",
+          "polarity": "must_hold",
+          "scope": "principal-agent relationship"
+        }
+      ]
+    },
+    {
+      "id": "C13",
+      "surface_form": "principal",
+      "frame": "act on behalf of the principal",
+      "meaning": "act for the represented party",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: act on behalf of the principal; meaning: act for the represented party. The acting agent and the represented principal have different roles.",
+      "semantic_assertions": [
+        {
+          "id": "A13",
+          "statement": "The acting agent and the represented principal have different roles.",
+          "polarity": "must_hold",
+          "scope": "act on behalf of the principal"
+        }
+      ]
+    },
+    {
+      "id": "C14",
+      "surface_form": "principal",
+      "frame": "act as principal in a transaction",
+      "meaning": "transact on one's own account rather than as an agent",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: act as principal in a transaction; meaning: transact on one's own account rather than as an agent. This established commercial frame concerns the capacity in which a party transacts, without requiring that party to appoint an agent.",
+      "semantic_assertions": [
+        {
+          "id": "A14",
+          "statement": "This established commercial frame concerns the capacity in which a party transacts, without requiring that party to appoint an agent.",
+          "polarity": "must_hold",
+          "scope": "act as principal in a transaction"
+        }
+      ]
+    },
+    {
+      "id": "C15",
+      "surface_form": "principal",
+      "frame": "the principals in a negotiation",
+      "meaning": "main parties directly involved in an undertaking or negotiation",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: the principals in a negotiation; meaning: main parties directly involved in an undertaking or negotiation. Direct participation does not itself require organizational control or an agency appointment.",
+      "semantic_assertions": [
+        {
+          "id": "A15",
+          "statement": "Direct participation does not itself require organizational control or an agency appointment.",
+          "polarity": "must_hold",
+          "scope": "the principals in a negotiation"
+        }
+      ]
+    },
+    {
+      "id": "C16",
+      "surface_form": "principal",
+      "frame": "a principal in a theatrical or ballet company",
+      "meaning": "performer with a leading role or rank",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: a principal in a theatrical or ballet company; meaning: performer with a leading role or rank. The established performance role is distinct from general personal importance.",
+      "semantic_assertions": [
+        {
+          "id": "A16",
+          "statement": "The established performance role is distinct from general personal importance.",
+          "polarity": "must_hold",
+          "scope": "a principal in a theatrical or ballet company"
+        }
+      ]
+    },
+    {
+      "id": "C17",
+      "surface_form": "principal",
+      "frame": "one of the orchestra's principals",
+      "meaning": "player leading an orchestral section",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: one of the orchestra's principals; meaning: player leading an orchestral section. Section leadership distinguishes this musical role.",
+      "semantic_assertions": [
+        {
+          "id": "A17",
+          "statement": "Section leadership distinguishes this musical role.",
+          "polarity": "must_hold",
+          "scope": "one of the orchestra's principals"
+        }
+      ]
+    },
+    {
+      "id": "C18",
+      "surface_form": "principal",
+      "frame": "a principal in a crime",
+      "meaning": "participant classified as a principal under the applicable criminal law",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: a principal in a crime; meaning: participant classified as a principal under the applicable criminal law. The legal category can encompass more than the physical perpetrator.",
+      "semantic_assertions": [
+        {
+          "id": "A18",
+          "statement": "The legal category can encompass more than the physical perpetrator.",
+          "polarity": "must_hold",
+          "scope": "a principal in a crime"
+        }
+      ]
+    },
+    {
+      "id": "C19",
+      "surface_form": "principal",
+      "frame": "treat someone as a principal",
+      "meaning": "classify a participant as a criminal principal",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: treat someone as a principal; meaning: classify a participant as a criminal principal. In a criminal context the construction assigns legal status rather than school or organizational rank.",
+      "semantic_assertions": [
+        {
+          "id": "A19",
+          "statement": "In a criminal context the construction assigns legal status rather than school or organizational rank.",
+          "polarity": "must_hold",
+          "scope": "treat someone as a principal"
+        }
+      ]
+    },
+    {
+      "id": "C20",
+      "surface_form": "principal",
+      "frame": "be liable as principal",
+      "meaning": "bear primary responsibility for an obligation",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: be liable as principal; meaning: bear primary responsibility for an obligation. The principal is a person or entity rather than the capital owed.",
+      "semantic_assertions": [
+        {
+          "id": "A20",
+          "statement": "The principal is a person or entity rather than the capital owed.",
+          "polarity": "must_hold",
+          "scope": "be liable as principal"
+        }
+      ]
+    },
+    {
+      "id": "C21",
+      "surface_form": "principal",
+      "frame": "the obligation of the principal",
+      "meaning": "obligation borne by the primary obligor",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: the obligation of the principal; meaning: obligation borne by the primary obligor. Debt context selects the obligor role rather than the agency role.",
+      "semantic_assertions": [
+        {
+          "id": "A21",
+          "statement": "Debt context selects the obligor role rather than the agency role.",
+          "polarity": "must_hold",
+          "scope": "the obligation of the principal"
+        }
+      ]
+    },
+    {
+      "id": "C22",
+      "surface_form": "principal",
+      "frame": "the principal and the surety",
+      "meaning": "primary obligor contrasted with the guaranteeing party",
+      "disposition": "included",
+      "rationale": "surface_form: principal; frame: the principal and the surety; meaning: primary obligor contrasted with the guaranteeing party. The relation is primary obligation versus guarantee, subject to the agreement and applicable law.",
+      "semantic_assertions": [
+        {
+          "id": "A22",
+          "statement": "The relation is primary obligation versus guarantee, subject to the agreement and applicable law.",
+          "polarity": "must_hold",
+          "scope": "the principal and the surety"
+        }
+      ]
+    },
+    {
+      "id": "C23",
+      "surface_form": "principally",
+      "frame": "principally + predicate or constituent",
+      "meaning": "mainly or chiefly",
+      "disposition": "included",
+      "rationale": "surface_form: principally; frame: principally + predicate or constituent; meaning: mainly or chiefly. This productive derived adverb merits identification, not a separate full entry here.",
+      "semantic_assertions": [
+        {
+          "id": "A23",
+          "statement": "This productive derived adverb merits identification, not a separate full entry here.",
+          "polarity": "must_hold",
+          "scope": "principally + predicate or constituent"
+        }
+      ]
+    },
+    {
+      "id": "C24",
+      "surface_form": "principalship",
+      "frame": "the principalship of an institution",
+      "meaning": "office or tenure of a principal",
+      "disposition": "included",
+      "rationale": "surface_form: principalship; frame: the principalship of an institution; meaning: office or tenure of a principal. The derived noun names an office rather than its holder.",
+      "semantic_assertions": [
+        {
+          "id": "A24",
+          "statement": "The derived noun names an office rather than its holder.",
+          "polarity": "must_hold",
+          "scope": "the principalship of an institution"
+        }
+      ]
+    },
+    {
+      "id": "C25",
+      "surface_form": "principal",
+      "frame": "an organ principal",
+      "meaning": "organ stop of the principal or diapason family",
+      "disposition": "excluded",
+      "rationale": "surface_form: principal; frame: an organ principal; meaning: organ stop of the principal or diapason family. A specialized organ-building sense is outside the necessary general learner coverage.",
+      "semantic_assertions": [
+        {
+          "id": "A25",
+          "statement": "A specialized organ-building sense is outside the necessary general learner coverage.",
+          "polarity": "must_hold",
+          "scope": "an organ principal"
+        }
+      ]
+    },
+    {
+      "id": "C26",
+      "surface_form": "principal",
+      "frame": "a principal in a roof truss",
+      "meaning": "main structural member of a roof truss",
+      "disposition": "excluded",
+      "rationale": "surface_form: principal; frame: a principal in a roof truss; meaning: main structural member of a roof truss. The highly specialized construction noun can reasonably be omitted from general coverage.",
+      "semantic_assertions": [
+        {
+          "id": "A26",
+          "statement": "The highly specialized construction noun can reasonably be omitted from general coverage.",
+          "polarity": "must_hold",
+          "scope": "a principal in a roof truss"
+        }
+      ]
+    },
+    {
+      "id": "C27",
+      "surface_form": "principal",
+      "frame": "principal as a verb",
+      "meaning": "ordinary productive verb derived from principal",
+      "disposition": "excluded",
+      "rationale": "surface_form: principal; frame: principal as a verb; meaning: ordinary productive verb derived from principal. No major contemporary general-English verb sense requires a block.",
+      "semantic_assertions": [
+        {
+          "id": "A27",
+          "statement": "No major contemporary general-English verb sense requires a block.",
+          "polarity": "must_hold",
+          "scope": "principal as a verb"
+        }
+      ]
+    },
+    {
+      "id": "C28",
+      "surface_form": "principle",
+      "frame": "a basic principle",
+      "meaning": "fundamental rule or doctrine",
+      "disposition": "excluded",
+      "rationale": "surface_form: principle; frame: a basic principle; meaning: fundamental rule or doctrine. The homophone is a separate lexeme and belongs only in a spelling contrast.",
+      "semantic_assertions": [
+        {
+          "id": "A28",
+          "statement": "The homophone is a separate lexeme and belongs only in a spelling contrast.",
+          "polarity": "must_hold",
+          "scope": "a basic principle"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "F01",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {"section": "語義4【日本語訳・定義】", "line_start": 198, "line_end": 198, "exact_quote": "別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。"},
+      "severity": "blocking",
+      "rationale": "「別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。」は代理関係の本人を説明するが、商取引で act as principal が表す「代理人としてではなく自己の勘定・当事者の資格で取引する」を含まない。この用法は代理人への授権を必要とせず、記事の他の語義にも金額・教育・芸術・犯罪・保証関係としてしか受け皿がない。自己勘定で行動する当事者という主要な商業用法を追加し、代理人を任命する本人との必要条件の違いを明示する必要がある。",
+      "scope_anchors": [
+        {
+          "id": "Q01",
+          "exact_quote": "別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。",
+          "location_hint": "語義4【日本語訳・定義】冒頭"
+        }
+      ]
+    },
+    {
+      "id": "F02",
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {"section": "語義2【語法・注意】", "line_start": 142, "line_end": 142, "exact_quote": "一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。"},
+      "severity": "blocking",
+      "rationale": "「一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。」自体は単に重要な人なら何でも principal と呼べるわけではないという注意として妥当だが、語義2が組織上の権限に限定され、他の語義も専門的役割に限定されるため、the principals in a negotiation のような「交渉・事業などの主要な直接当事者」の受け皿が欠ける。これは無制限の重要人物ではなく、特定の出来事における主要当事者という確立した関係的用法であり、組織を支配する権限や代理人への授権を要件としない。",
+      "scope_anchors": [
+        {
+          "id": "Q02",
+          "exact_quote": "一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。",
+          "location_hint": "語義2【語法・注意】冒頭"
+        }
+      ]
+    }
+  ]
+}

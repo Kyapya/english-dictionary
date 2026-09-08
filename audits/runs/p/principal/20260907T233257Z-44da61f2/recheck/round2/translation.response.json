@@ -1,0 +1,25 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-round2-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 175,
+        "line_end": 176,
+        "exact_quote": "例: The former headmaster returned for the anniversary ceremony.  \n訳: 元校長が創立記念式典のために戻ってきた。  "
+      },
+      "severity": "blocking",
+      "rationale": "英語の `the anniversary ceremony` は何の周年・記念日かを明示していないが、訳は `創立記念式典` として学校の創立周年に限定している。文脈上あり得る推論を明示内容へ格上げし、式典の対象範囲を狭めている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`記念式典` または `周年記念式典` など、英語と同じく記念対象を特定しない訳にする。"
+    }
+  ],
+  "unrouted_observations": []
+}

@@ -1,0 +1,130 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "resolutions": [
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The displayed of-slot otherwise licenses an incomplete bare school noun, contrary to the complete noun phrase in the example.",
+      "required_changes": ["Specify that the of-complement is a complete institution noun phrase including its determiner."],
+      "implemented_changes": ["Changed the grammar pattern and collocation slot to a determiner-bearing school or institution noun phrase."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "normal-frame-relation-002",
+      "finding_id": "normal-frame-relation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Director names a distinct office and is not a substitutable synonym for the domain-specific principal roles described here.",
+      "required_changes": ["Remove director from the synonym block."],
+      "implemented_changes": ["Deleted the director synonym block."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "normal-frame-relation-003",
+      "finding_id": "normal-frame-relation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Client denotes a service recipient and does not entail the authority-conferring legal role of an agency principal.",
+      "required_changes": ["Remove client from the synonym block while preserving the useful usage contrast."],
+      "implemented_changes": ["Deleted the client synonym block; the existing usage note continues to distinguish ordinary client contexts."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Concert program alone does not make the bare person noun uniquely attributable to the performing-arts sense.",
+      "required_changes": ["Add a discriminating domain and role phrase to the example."],
+      "implemented_changes": ["Replaced the example with one identifying the person as one of an orchestra's principals and aligned the Japanese translation."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed regional fact supports an England-specific college-head qualification, not a uniform United Kingdom contrast.",
+      "required_changes": ["Narrow the regional statement from Britain to England."],
+      "implemented_changes": ["Changed both regional notes from Britain to England without adding an unsupported Northern Ireland claim."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "normal-qualification-002",
+      "finding_id": "normal-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The spelling note's unqualified part-of-speech contrast conflicts with the entry's supported person and money noun uses of principal.",
+      "required_changes": ["Make the adjective statement non-exclusive and acknowledge principal's noun uses."],
+      "implemented_changes": ["Reworded the note to identify an adjective use plus separate noun uses for people and amounts."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "normal-qualification-003",
+      "finding_id": "normal-qualification-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "A bare principal in a concert-program sentence fails to demonstrate a conventional specialized role precisely.",
+      "required_changes": ["Use an example that identifies an established performing-arts role."],
+      "implemented_changes": ["The new example explicitly identifies the orchestra and its principals; the collocation explanation specifies section-leading players."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "F001",
+      "finding_id": "F001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The prior definition overgeneralized domain-specific titles into any leading or important person.",
+      "required_changes": ["Restrict the sense to established senior professional and performing-arts roles and disallow the generic important-person reading."],
+      "implemented_changes": ["Narrowed the heading, definition, grammar, core image, and example to established domain-specific positions."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "F002",
+      "finding_id": "F002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The article defines the legal authority-conferring agency role and the fixed inventory does not support extending that definition to the broader economics model.",
+      "required_changes": ["Keep this sense legal and remove the economics label and ambiguous compound gloss."],
+      "implemented_changes": ["Removed economics from the domain list and described principal-agent relationship explicitly as a legal relationship."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "F003",
+      "finding_id": "F003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Principal may refer to the original capital amount or to the outstanding amount after principal repayments; the existing repayment fact supports that distinction.",
+      "required_changes": ["State the capital-component superordinate meaning and distinguish original from current outstanding principal."],
+      "implemented_changes": ["Revised the finance definition to state both original and repayment-adjusted outstanding principal without adding claims about deposits or withdrawals."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "F004",
+      "finding_id": "F004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Presenting principal as simply an adjective creates a false rule contradicted by the entry's independently supported noun senses.",
+      "required_changes": ["Clarify that principal has both the relevant adjective use and separate noun uses."],
+      "implemented_changes": ["Added the supported person and amount noun uses to the spelling note while retaining the principle contrast."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    },
+    {
+      "id": "F005",
+      "finding_id": "F005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "A jurisdiction-dependent principal classification is not guaranteed to coincide with the Japanese-law category 正犯, particularly where assistance is treated as principal liability.",
+      "required_changes": ["Use descriptive principal wording and expressly qualify the Japanese-law mapping."],
+      "implemented_changes": ["Reworked the heading, core image, frames, examples, translations, and usage note to retain principal as the applicable-law classification and disclaim one-to-one equivalence with 正犯."],
+      "resolved_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

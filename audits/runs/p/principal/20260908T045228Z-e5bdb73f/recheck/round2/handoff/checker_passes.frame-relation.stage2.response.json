@@ -1,0 +1,44 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "47db07a69e3698ae66b7c812b2f29f81a68c614b65cdc359c4603bdbb685fddd",
+  "blind_record_sha256": "14951a8ade6aac0d1171a034415b4cc16b6ff7dd69e778dd68941b7b8acdc6c6",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/frame2"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "段階1の重要度・程度という判定は語義1の定義自体から導ける。違い行も主要性と二次的重要性の対立を説明し、対立不成立の自認はない。",
+      "suggested_direction": "対立軸修正",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7477e18058ee",
+      "flags": ["F1", "F3"],
+      "rationale": "段階1のunnamableを維持する。違い行の『役割軸』は権限を与える本人と代理して行動する者という関係の両当事者を示すが、同じ属性の補完・程度・方向・評価・状態の反対値にはならない。代理関係の関連役割を反意語とする分類である。違い行に対立不成立の自認はないためF4は付けない。",
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-28424ac40a56",
+      "flags": ["F1", "F3"],
+      "rationale": "段階1のunnamableを維持する。違い行は『責任順位』と呼ぶが、第一次的義務者と他人の義務を担保する保証人という関連役割の区別であり、同一属性の反対値ではない。第一次的責任と保証責任の関係説明は有用でも、この二つの役割名を反意語とする根拠にはならない。違い行に対立不成立の自認はないためF4は付けない。",
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "段階1の重要度・程度という判定は語義1の定義自体から導ける。違い行も主要なものと重要性の小さい要素の程度対立を述べ、対立不成立の自認はない。",
+      "suggested_direction": "対立軸修正",
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

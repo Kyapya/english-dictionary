@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+  "blind_record_sha256": "e90c901ccce07a413d47a62a85326f72fbf313d35968ec1098b3b1831054a23e",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/frame5"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "封印済みの重要性・程度の軸は当該定義の重要性評価から直接導出でき、minor の低い重要性と対立する。違い行は対立を説明しており、対立の不成立や限定を自認していない。F1–F4には該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "封印済みの重要度・程度の軸は当該定義に明記され、secondary の二次的な重要度との対立として成立する。違い行の方向が反対という表現は同じ尺度の高低を説明しており、軸転移や対立の自己否定ではない。F1–F4には該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

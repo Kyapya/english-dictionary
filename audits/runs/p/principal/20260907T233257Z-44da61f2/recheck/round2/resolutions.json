@@ -1,0 +1,20 @@
+{
+  "schema_version": "checker_recheck_resolutions_v1",
+  "stage": "checker_recheck_resolution",
+  "round": 2,
+  "run_id": "20260907T233257Z-44da61f2",
+  "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+  "resolved_body_sha256": "a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a",
+  "recorded_at": "2026-09-08T02:22:00Z",
+  "resolutions": [
+    {"id":"round2-translation-001","finding_id":"round2-translation-001","origin_pass":"translation","status":"resolved","disposition":"adopted","rationale":"anniversary ceremonyは記念対象を創立に限定しない。","required_changes":["訳の未明示限定を除く。"],"implemented_changes":["「創立記念式典」を「記念式典」にした。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-sense-structure-001","finding_id":"round2-sense-structure-001","origin_pass":"sense-structure","status":"resolved","disposition":"adopted","rationale":"固定F-025が支える信託財産本体を語義4の定義とコアイメージへ統合した。","required_changes":["語義4の外延を信託corpusまで明示する。"],"implemented_changes":["見出し・定義・コアイメージに信託元本を追加した。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-qualification-001","finding_id":"round2-qualification-001","origin_pass":"qualification","status":"resolved","disposition":"adopted","rationale":"固定F-023は米国代理法の説明として本人の支配要素も記録する。","required_changes":["一般役割と法的成立要件を分けて限定する。"],"implemented_changes":["米国の一般的説明として支配要素を加え、適用法による差を明記した。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-evidence-001","finding_id":"round2-evidence-001","origin_pass":"evidence","status":"resolved","disposition":"adopted","rationale":"F-029/F-030は現代の教育機関範囲・地域差を直接支えない歴史factである。","required_changes":["現代用法claimから歴史factを外す。"],"implemented_changes":["F-029/F-030をC-002から除き、固定inventory内のexcluded historical unionへ移した。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-evidence-002","finding_id":"round2-evidence-002","origin_pass":"evidence","status":"resolved","disposition":"adopted","rationale":"固定factはat/in/withの完全補部フレームを直接記録しない。","required_changes":["未支持の完全フレームを除く。"],"implemented_changes":["特定前置詞フレームと対応コロケーションを削除し、支えられる名詞用法だけに狭めた。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-evidence-003","finding_id":"round2-evidence-003","origin_pass":"evidence","status":"resolved","disposition":"adopted","rationale":"固定finance factsは不可算中心・可算用法という分布を直接記録しない。","required_changes":["未支持countability claimを除く。"],"implemented_changes":["語義見出しと定義からcountability断定を削除した。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-evidence-004","finding_id":"round2-evidence-004","origin_pass":"evidence","status":"resolved","disposition":"adopted","rationale":"F-031は歴史的初出を記録するだけで現代finance claimを直接支えない。","required_changes":["現代用法claimからF-031を外す。"],"implemented_changes":["F-031をC-004から除き、excluded historical unionへ移した。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-evidence-005","finding_id":"round2-evidence-005","origin_pass":"evidence","status":"resolved","disposition":"adopted","rationale":"固定F-005/F-021は比較法一般やringleader比較を直接支えない。","required_changes":["usage noteをparticipant/accessory対比へ限定する。"],"implemented_changes":["比較法・ringleader主張を削除し、適用分類とaccessory対比だけを残した。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"},
+    {"id":"round2-evidence-006","finding_id":"round2-evidence-006","origin_pass":"evidence","status":"resolved","disposition":"adopted","rationale":"固定F-032はprincipal/principleの狭い品詞・意味対比だけを直接支える。","required_changes":["余剰の名詞・冠詞・構文分析を除く。"],"implemented_changes":["usage noteとC-013をF-032が直接支える対比へ狭めた。"],"resolved_body_sha256":"a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a"}
+  ]
+}

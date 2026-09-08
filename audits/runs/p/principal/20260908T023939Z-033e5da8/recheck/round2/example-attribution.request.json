@@ -1,0 +1,204 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 41,
+        "label": "1. 【形容詞】主要な、最も重要な、第一の",
+        "definition": "複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 126,
+        "label": "2. 【名詞・可算】校長、学長、教育機関の長",
+        "definition": "学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。"
+      },
+      {
+        "sense_id": "sense:003",
+        "line": 178,
+        "label": "3. 【名詞・可算】専門組織の上級責任者、舞台芸術の首席出演者・奏者",
+        "definition": "分野ごとに確立した上級地位や首席の役割を持つ人。企業・専門組織で支配権または指導的地位を持つ人や、バレエ団・オペラ団の首席出演者、オーケストラのセクションを率いる奏者などを指し、重要人物一般の呼称ではない。"
+      },
+      {
+        "sense_id": "sense:004",
+        "line": 213,
+        "label": "4. 【名詞・金融／信託】元金、元本、信託財産の本体",
+        "definition": "金融では、借入・貸付・投資で利息・利益・収益と区別される資本部分を指す。当初の元本金額を指す場合と、返済を反映した現在の未返済元金を指す場合があり、元金への支払いは未返済債務の基礎額を減らす。信託では、収益を生む財産本体または `corpus` を指し、そこから生じる収益と区別する。"
+      },
+      {
+        "sense_id": "sense:005",
+        "line": 270,
+        "label": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者",
+        "definition": "別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。具体的な成立要件は適用法によって異なり得る。"
+      },
+      {
+        "sense_id": "sense:006",
+        "line": 317,
+        "label": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者",
+        "definition": "刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。"
+      },
+      {
+        "sense_id": "sense:007",
+        "line": 355,
+        "label": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者",
+        "definition": "債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-5312b9bfb443",
+        "example": "The agent may sign the document on behalf of the principal.",
+        "translation": "代理人は本人を代理してその書類に署名できる。"
+      },
+      {
+        "example_id": "ex-001d0ad431c7",
+        "example": "Interest is calculated on the outstanding principal amount.",
+        "translation": "利息は未返済の元本金額に対して計算される。"
+      },
+      {
+        "example_id": "ex-7b7485a2a328",
+        "example": "The company moved its principal place of business to Osaka.",
+        "translation": "その会社は主たる事業所を大阪に移した。"
+      },
+      {
+        "example_id": "ex-c83aaf435d30",
+        "example": "The older judgment classified the defendant as a principal in the first degree.",
+        "translation": "その古い判決は被告人を第一級 `principal` に分類した。"
+      },
+      {
+        "example_id": "ex-99c7262e9810",
+        "example": "A college principal addressed the graduating class.",
+        "translation": "カレッジの学長が卒業生に向けて話した。"
+      },
+      {
+        "example_id": "ex-ee3c885f7edb",
+        "example": "The borrower will begin repaying principal next year.",
+        "translation": "借り手は来年、元金の返済を開始する。"
+      },
+      {
+        "example_id": "ex-ccf64f0da635",
+        "example": "The principal reason for the delay was a shortage of parts.",
+        "translation": "遅延の主な理由は部品不足だった。"
+      },
+      {
+        "example_id": "ex-5ced718dc5f9",
+        "example": "The agreement states the duties of the principal and the surety.",
+        "translation": "その契約は主たる義務者と保証人の義務を定めている。"
+      },
+      {
+        "example_id": "ex-585103ff0c21",
+        "example": "The guarantee does not replace the obligation of the principal.",
+        "translation": "その保証は主たる義務者の義務に取って代わるものではない。"
+      },
+      {
+        "example_id": "ex-77700748bf91",
+        "example": "Investigators identified corrosion as the principal cause of the failure.",
+        "translation": "調査担当者は、腐食をその故障の主因と特定した。"
+      },
+      {
+        "example_id": "ex-f1a584dd070d",
+        "example": "The statute treats a person who knowingly assists the offense as a principal.",
+        "translation": "その制定法は、情を知って犯罪を援助する者を `principal` として扱う。"
+      },
+      {
+        "example_id": "ex-0f578609c91f",
+        "example": "She is one of the principal architects of the reform.",
+        "translation": "彼女はその改革の主要な立案者の一人である。"
+      },
+      {
+        "example_id": "ex-5b4829d5582e",
+        "example": "An agent generally owes duties of loyalty and care to the principal.",
+        "translation": "代理人は一般に、本人に対して忠実義務と注意義務を負う。"
+      },
+      {
+        "example_id": "ex-358edfa7f859",
+        "example": "The school principal met with parents after the incident.",
+        "translation": "校長はその出来事の後、保護者と面会した。"
+      },
+      {
+        "example_id": "ex-e202d5c344ab",
+        "example": "The contract created a principal-agent relationship between the owner and the broker.",
+        "translation": "その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。"
+      },
+      {
+        "example_id": "ex-69c7c690be1f",
+        "example": "The principal of the college welcomed the new students.",
+        "translation": "そのカレッジの学長は新入生を歓迎した。"
+      },
+      {
+        "example_id": "ex-f5b1e8baab6a",
+        "example": "The court identified him as a principal in the crime.",
+        "translation": "裁判所は彼をその犯罪について `principal` に当たる者と認定した。"
+      },
+      {
+        "example_id": "ex-d3c65bf0e7af",
+        "example": "The concert program lists her as one of the orchestra's principals.",
+        "translation": "その演奏会プログラムには、彼女がオーケストラの首席奏者の一人として載っている。"
+      },
+      {
+        "example_id": "ex-061b5ea1ee09",
+        "example": "The monthly payment includes both principal and interest.",
+        "translation": "毎月の返済額には元金と利息の両方が含まれる。"
+      },
+      {
+        "example_id": "ex-be183b96bc73",
+        "example": "Tourism is a principal source of income for the island.",
+        "translation": "観光はその島の主要な収入源の一つである。"
+      },
+      {
+        "example_id": "ex-94c560b6a857",
+        "example": "Extra payments can help you pay down the principal faster.",
+        "translation": "追加返済をすれば、元金をより早く減らせる。"
+      },
+      {
+        "example_id": "ex-83e36ba79da4",
+        "example": "The fund aims to protect the principal while generating modest returns.",
+        "translation": "そのファンドは、控えめな収益を生みながら元本を保全することを目指している。"
+      },
+      {
+        "example_id": "ex-4a65eca1c670",
+        "example": "Under the agreement, the company remains liable as principal for the debt.",
+        "translation": "その契約の下で、会社はその債務について主たる当事者として引き続き責任を負う。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "73206c4356f34b1227178ef9b9aa91ef4d19dc7cfe6350aec19b6b06db9cb8c8",
+  "normalized_input_sha256": "1f851aa70b477058493bd4fa9660a0ff5cbffdd202b6126c1f20620ed0a15590"
+}

@@ -1,0 +1,117 @@
+{
+  "reviewer_agent_id": "principal-fresh-cold-review-1",
+  "model": "gpt-5",
+  "summary": "問題候補5件。職業・芸術分野の名詞用法を一つの汎用的な『責任者・中心人物』にまとめたため過剰適用を招く点、法律上の代理関係と経済学上のprincipal-agentモデルを同一視している点、金融上のprincipalを常に当初額と読める定義、principal/principleの品詞対比がprincipalの名詞用法を隠す点、刑事法上のprincipalを日本法の『正犯』と単純対応させやすい点を指摘する。",
+  "findings": [
+    {
+      "id": "F001",
+      "location": "語義3（責任者、中心人物、首席・主要メンバー）の定義・文法パターン",
+      "severity": "medium",
+      "description": "職業上の正式な肩書き、企業の所有者・上級者、舞台の主要出演者、オーケストラの首席奏者という性質の異なる用法が、単なる『指導的地位または主要な役割を持つ人』としてまとめられており、普通のleaderや重要人物一般にも名詞principalを使えるように読める。",
+      "reason": "「専門業務や舞台芸術などで、指導的地位または主要な役割を持つ人。」という定義は使用条件が広すぎる。名詞の principal は、企業・法律事務所等では所有・支配関係や固有の職階を表すことがあり、バレエ、オペラ、オーケストラでは各分野に固有の正式な地位・役割を表すため、単に指導的または重要な人であるだけでは成立しない。さらに「この語義では `principal` を、指導的地位または主要な役割を持つ人を指す名詞として用いる。」も同じ一般化を反復しており、学習者が manager、leader、lead performer の汎用的な言い換えとして使う危険がある。",
+      "suggested_direction": "企業・専門職（所有者・partner級・組織固有のsenior title）と舞台芸術・音楽（principal dancer、principal singer、principal oboe等）を少なくとも小区分に分け、いずれも分野ごとの確立した役職・地位を表し、重要人物一般の呼称ではないと明記する。裸の `a principal` の例も、どの分野・肩書きか分かる例に置き換える。",
+      "scope_anchors": [
+        {
+          "id": "F001-A1",
+          "exact_quote": "専門業務や舞台芸術などで、指導的地位または主要な役割を持つ人。",
+          "location_hint": "語義3の【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "F001-A2",
+          "exact_quote": "この語義では `principal` を、指導的地位または主要な役割を持つ人を指す名詞として用いる。",
+          "location_hint": "語義3の【文法パターン】"
+        },
+        {
+          "id": "F001-A3",
+          "exact_quote": "The concert program lists her as a principal.",
+          "location_hint": "語義3のコロケーション `a principal` の例文"
+        }
+      ]
+    },
+    {
+      "id": "F002",
+      "location": "語義5（法律／代理関係）の定義・領域表示",
+      "severity": "medium",
+      "description": "法律上のagencyのprincipalと、経済学のprincipal-agentモデルにおけるprincipalを区別せず、経済学でも必ず代理権を与える法律上の本人であるかのように示している。",
+      "reason": "領域に「法律、保険、不動産、商取引、経済学。」を掲げながら、定義を「別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。」に限定している。経済学・組織論の principal-agent 関係は、ある主体が別の主体に仕事や意思決定を委ね、その利害・情報の非対称性を扱うモデルであり、個々の用例が法律上の代理権や本人のための対外的法律行為を伴うとは限らない。このままでは経済用語を法律上のagencyと誤同定する。",
+      "suggested_direction": "法律上のagency（本人・代理人）と経済学・組織論上のprincipal-agent関係（委託者・代理人、依頼者・実行者など文脈依存）を別の小区分にし、後者は法律上の代理関係と一致しない場合があると明記する。法律義だけを扱うなら領域表示から経済学を外す。",
+      "scope_anchors": [
+        {
+          "id": "F002-A1",
+          "exact_quote": "別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。",
+          "location_hint": "語義5の【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "F002-A2",
+          "exact_quote": "法律、保険、不動産、商取引、経済学。",
+          "location_hint": "語義5の【レジスター/領域】"
+        },
+        {
+          "id": "F002-A3",
+          "exact_quote": "principal-agent relationship：本人・代理人関係を表す複合表現。",
+          "location_hint": "【語形成】の複合表現の説明"
+        }
+      ]
+    },
+    {
+      "id": "F003",
+      "location": "語義4（金融／信託）の日本語訳・定義",
+      "severity": "low",
+      "description": "principalを常に当初の金額とする書き方が、返済後のoutstanding principalや追加投資・一部払戻し後のprincipalまで当初額のままだという誤読を招く。",
+      "reason": "「金融では、借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。」だけでは、principal が文脈により当初元本と現在残っている元本の双方を指すことが伝わらない。記事自身が後で「返済文脈では、元金への支払いは未返済債務の基礎額を減らす。」と説明し、`outstanding principal amount` も挙げているため、冒頭定義の『当初の金額』との境界が不明確である。",
+      "suggested_direction": "利息・収益と区別される資本部分という上位定義にし、当初元本（original principal）と、返済・追加拠出・払戻し等を反映した未返済／現在元本（outstanding/current principal）を明示的に分ける。",
+      "scope_anchors": [
+        {
+          "id": "F003-A1",
+          "exact_quote": "金融では、借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。",
+          "location_hint": "語義4の【日本語訳・定義】冒頭"
+        },
+        {
+          "id": "F003-A2",
+          "exact_quote": "返済文脈では、元金への支払いは未返済債務の基礎額を減らす。",
+          "location_hint": "語義4の【日本語訳・定義】第2文"
+        }
+      ]
+    },
+    {
+      "id": "F004",
+      "location": "語義1のprincipalとprincipleの語法対比",
+      "severity": "low",
+      "description": "綴りの対比でprincipalを形容詞、principleを名詞とだけ対置しており、principalにも記事後半で詳述する多数の名詞用法があることを否定するように読める。",
+      "reason": "「`principal` は形容詞で「最も重要な」を表す一方、`principle` は「原理・原則」を表す名詞である。」は、当該綴りを見分ける一例ではなく両語の品詞を一般化した断定に見える。principal は校長、元金、法律上の本人などの名詞でもあり、本文全体とも表面上矛盾するため、学習者が『principalは形容詞、principleは名詞』という不正確な規則を覚えるおそれがある。",
+      "suggested_direction": "『「主要な」という形容詞にはprincipalを使い、「原理・原則」という名詞にはprincipleを使う』という意味対応の説明に変え、principal自体にも名詞用法があると一言添える。",
+      "scope_anchors": [
+        {
+          "id": "F004-A1",
+          "exact_quote": "`principal` は形容詞で「最も重要な」を表す一方、`principle` は「原理・原則」を表す名詞である。",
+          "location_hint": "語義1の【語法・注意】第2文"
+        }
+      ]
+    },
+    {
+      "id": "F005",
+      "location": "語義6（刑事法）の見出し・訳語・説明",
+      "severity": "medium",
+      "description": "法域依存のprincipalという分類を日本語の『正犯』に繰り返し直訳しており、幇助者等もprincipalとして処罰する制度と日本法上の正犯概念が一致するかのような比較法上の誤解を招く。",
+      "reason": "見出しの「正犯、犯罪の主要関与者」は、後段の「`principal` は適用される法的分類によって、実行者以外の一定の関与者を含む場合がある。」と緊張する。principalとして処罰・分類される範囲は法域・時代・制定法によって異なり、記事の例のように knowingly assists した者をprincipalとして扱う場合、その者を日本法の体系上当然に『正犯』と分類できるとは限らない。また『主要関与者』も関与の重要度を要件とするかのように読める。",
+      "suggested_direction": "基本訳を『（当該法域で）principalとして扱われる犯罪関与者』など説明的にし、歴史的コモンローのfirst/second degreeや、制定法により幇助者等をas a principalとして処罰する用法を分ける。『正犯』を使う場合は日本法上の分類との一対一対応ではないと明記する。",
+      "scope_anchors": [
+        {
+          "id": "F005-A1",
+          "exact_quote": "正犯、犯罪の主要関与者",
+          "location_hint": "語義6の見出し"
+        },
+        {
+          "id": "F005-A2",
+          "exact_quote": "その制定法は、情を知って犯罪を援助する者を正犯として扱う。",
+          "location_hint": "語義6のコロケーション `treat someone as a principal` の訳"
+        },
+        {
+          "id": "F005-A3",
+          "exact_quote": "`principal` は適用される法的分類によって、実行者以外の一定の関与者を含む場合がある。",
+          "location_hint": "語義6の類義語 `perpetrator` との違い"
+        }
+      ]
+    }
+  ]
+}

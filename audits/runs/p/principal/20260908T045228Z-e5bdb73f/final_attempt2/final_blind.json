@@ -1,0 +1,477 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-principal-20260908T045228Z-e5bdb73f",
+  "context_id": "blind-principal-context-20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "contract_version": "review_preflight_v1",
+  "reviewer_handoff": {
+    "declared_model": "Codex (inherited session model)",
+    "agent_id": "/root/finish_principal/finalblind2"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "independent-1",
+      "surface_form": "principal",
+      "frame": "principal + noun",
+      "meaning": "主要な、最も重要な、第一の",
+      "disposition": "included",
+      "rationale": "principal の「principal + noun」は「主要な、最も重要な、第一の」。重要性・地位の形容詞義が定義と例文に一貫して現れる。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-1",
+          "statement": "時間的に最初であることだけを意味しない",
+          "polarity": "must_hold",
+          "scope": "principal + noun"
+        }
+      ]
+    },
+    {
+      "id": "independent-2",
+      "surface_form": "principal",
+      "frame": "a principal source of income",
+      "meaning": "複数ある主要な供給源の一つ",
+      "disposition": "included",
+      "rationale": "principal の「a principal source of income」は「複数ある主要な供給源の一つ」。不定冠詞の例も主要性を表し、唯一性を要求していない。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-2",
+          "statement": "主要な供給源は一つに限定されない",
+          "polarity": "must_hold",
+          "scope": "a principal source of income"
+        }
+      ]
+    },
+    {
+      "id": "independent-3",
+      "surface_form": "principal",
+      "frame": "one of the principal + plural noun",
+      "meaning": "主要な複数の対象のうちの一つ",
+      "disposition": "included",
+      "rationale": "principal の「one of the principal + plural noun」は「主要な複数の対象のうちの一つ」。改革の立案者の例は最重要対象の複数性を保つ。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-3",
+          "statement": "principal は複数の主要対象に適用できる",
+          "polarity": "must_hold",
+          "scope": "one of the principal + plural noun"
+        }
+      ]
+    },
+    {
+      "id": "independent-4",
+      "surface_form": "principal",
+      "frame": "the principal place of business",
+      "meaning": "主たる事業所",
+      "disposition": "included",
+      "rationale": "principal の「the principal place of business」は「主たる事業所」。形容詞と事業所名詞句の定着表現で、適用法による判定差も明示する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-4",
+          "statement": "この複合表現から principal 単独に事業所の名詞義を導かない",
+          "polarity": "must_hold",
+          "scope": "the principal place of business"
+        }
+      ]
+    },
+    {
+      "id": "independent-5",
+      "surface_form": "principal",
+      "frame": "a principal of an organization",
+      "meaning": "組織の主要人物・責任者",
+      "disposition": "included",
+      "rationale": "principal の「a principal of an organization」は「組織の主要人物・責任者」。組織・事業の主導的地位を持つ人という定義に含まれる。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-5",
+          "statement": "組織を支配する者だけに限定しない",
+          "polarity": "must_hold",
+          "scope": "a principal of an organization"
+        }
+      ]
+    },
+    {
+      "id": "independent-6",
+      "surface_form": "principal",
+      "frame": "the principals in a negotiation",
+      "meaning": "交渉・活動の主要当事者",
+      "disposition": "included",
+      "rationale": "principal の「the principals in a negotiation」は「交渉・活動の主要当事者」。交渉などの主要な当事者が明示されている。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-6",
+          "statement": "単に世間で有名な人物であることだけでは足りない",
+          "polarity": "must_hold",
+          "scope": "the principals in a negotiation"
+        }
+      ]
+    },
+    {
+      "id": "independent-7",
+      "surface_form": "principal",
+      "frame": "the principal of a school or college",
+      "meaning": "学校・教育機関の長",
+      "disposition": "included",
+      "rationale": "principal の「the principal of a school or college」は「学校・教育機関の長」。教育機関の長の定義と校長・カレッジの例が対応する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-7",
+          "statement": "教育機関の種類と役職呼称には地域・制度差がある",
+          "polarity": "must_hold",
+          "scope": "the principal of a school or college"
+        }
+      ]
+    },
+    {
+      "id": "independent-8",
+      "surface_form": "principal",
+      "frame": "act as principal",
+      "meaning": "取引の当事者本人として行動する",
+      "disposition": "included",
+      "rationale": "principal の「act as principal」は「取引の当事者本人として行動する」。自己勘定で購入する例により代理関係上の本人とは独立に具体化される。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-8",
+          "statement": "代理人を任命することを必要条件にしない",
+          "polarity": "must_hold",
+          "scope": "act as principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-9",
+      "surface_form": "principal",
+      "frame": "principal and interest",
+      "meaning": "利息と区別される借入・貸付の元金",
+      "disposition": "included",
+      "rationale": "principal の「principal and interest」は「利息と区別される借入・貸付の元金」。返済の構成要素として元金と利息を区別する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-9",
+          "statement": "元金と利息は金額構成要素の区別であり反意語ではない",
+          "polarity": "must_hold",
+          "scope": "principal and interest"
+        }
+      ]
+    },
+    {
+      "id": "independent-10",
+      "surface_form": "principal",
+      "frame": "pay down the principal",
+      "meaning": "未返済元金を返済により減らす",
+      "disposition": "included",
+      "rationale": "principal の「pay down the principal」は「未返済元金を返済により減らす」。残額が減る作用方向を用途と訳がともに保つ。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-10",
+          "statement": "元金への支払いは未返済元金を減らす",
+          "polarity": "must_hold",
+          "scope": "pay down the principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-11",
+      "surface_form": "principal",
+      "frame": "repay principal",
+      "meaning": "借入の元金を返済する",
+      "disposition": "included",
+      "rationale": "principal の「repay principal」は「借入の元金を返済する」。principal は返済の対象となる金額の名詞である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-11",
+          "statement": "返済する主体と返済される金額を入れ替えない",
+          "polarity": "must_hold",
+          "scope": "repay principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-12",
+      "surface_form": "principal",
+      "frame": "protect the principal",
+      "meaning": "投資の元本を保全する",
+      "disposition": "included",
+      "rationale": "principal の「protect the principal」は「投資の元本を保全する」。投資額の保全目標を述べ、保証の存在までは主張しない。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-12",
+          "statement": "投資元本はそこから生じる収益と区別される",
+          "polarity": "must_hold",
+          "scope": "protect the principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-13",
+      "surface_form": "principal",
+      "frame": "the principal of a trust",
+      "meaning": "信託収益と区別される信託財産本体",
+      "disposition": "included",
+      "rationale": "principal の「the principal of a trust」は「信託収益と区別される信託財産本体」。金額義だけに還元せず財産本体・corpus として明示する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-13",
+          "statement": "信託元本は現金額だけに限定されない",
+          "polarity": "must_hold",
+          "scope": "the principal of a trust"
+        }
+      ]
+    },
+    {
+      "id": "independent-14",
+      "surface_form": "principal",
+      "frame": "a principal-agent relationship",
+      "meaning": "本人と代理人の権限関係",
+      "disposition": "included",
+      "rationale": "principal の「a principal-agent relationship」は「本人と代理人の権限関係」。権限を与える側と本人のために行動する側の区別が保たれる。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-14",
+          "statement": "principal は agent のために代理行為をする側ではなく権限の源となる",
+          "polarity": "must_hold",
+          "scope": "a principal-agent relationship"
+        }
+      ]
+    },
+    {
+      "id": "independent-15",
+      "surface_form": "principal",
+      "frame": "act on behalf of the principal",
+      "meaning": "代理人が本人のために行動する",
+      "disposition": "included",
+      "rationale": "principal の「act on behalf of the principal」は「代理人が本人のために行動する」。例文の主語は agent であり principal は代理される側である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-15",
+          "statement": "on behalf of の補語はこの例で本人を指す",
+          "polarity": "must_hold",
+          "scope": "act on behalf of the principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-16",
+      "surface_form": "principal",
+      "frame": "a principal in a stage production",
+      "meaning": "舞台芸術で主要な役を担う演者",
+      "disposition": "included",
+      "rationale": "principal の「a principal in a stage production」は「舞台芸術で主要な役を担う演者」。舞台芸術で確立した役割として定義されている。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-16",
+          "statement": "一般の重要人物と舞台芸術の役割名を同一視しない",
+          "polarity": "must_hold",
+          "scope": "a principal in a stage production"
+        }
+      ]
+    },
+    {
+      "id": "independent-17",
+      "surface_form": "principal",
+      "frame": "one of the orchestra's principals",
+      "meaning": "オーケストラのセクションを率いる首席奏者",
+      "disposition": "included",
+      "rationale": "principal の「one of the orchestra's principals」は「オーケストラのセクションを率いる首席奏者」。チェロのセクションを率いる例が名詞の役割と合致する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-17",
+          "statement": "オーケストラ全体の唯一の長であることを要求しない",
+          "polarity": "must_hold",
+          "scope": "one of the orchestra's principals"
+        }
+      ]
+    },
+    {
+      "id": "independent-18",
+      "surface_form": "principal",
+      "frame": "a principal in a crime",
+      "meaning": "刑事法の分類における犯罪関与者",
+      "disposition": "included",
+      "rationale": "principal の「a principal in a crime」は「刑事法の分類における犯罪関与者」。実行者と一定の関与者を適用法に即して扱う。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-18",
+          "statement": "すべての法域で直接実行者だけを指すと断定しない",
+          "polarity": "must_hold",
+          "scope": "a principal in a crime"
+        }
+      ]
+    },
+    {
+      "id": "independent-19",
+      "surface_form": "principal",
+      "frame": "treat someone as a principal",
+      "meaning": "関与者を適用法上 principal に分類する",
+      "disposition": "included",
+      "rationale": "principal の「treat someone as a principal」は「関与者を適用法上 principal に分類する」。援助者を含める制定法の例として範囲が限定される。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-19",
+          "statement": "援助者が含まれるかどうかは適用される分類による",
+          "polarity": "must_hold",
+          "scope": "treat someone as a principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-20",
+      "surface_form": "principal",
+      "frame": "be liable as principal",
+      "meaning": "義務について第一次的責任を負う当事者",
+      "disposition": "included",
+      "rationale": "principal の「be liable as principal」は「義務について第一次的責任を負う当事者」。債務例で名詞の義務者を示し金額義や刑事義と分離する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-20",
+          "statement": "この用例で principal は元金という金額ではない",
+          "polarity": "must_hold",
+          "scope": "be liable as principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-21",
+      "surface_form": "principal",
+      "frame": "the obligation of the principal",
+      "meaning": "主たる義務者が負う義務",
+      "disposition": "included",
+      "rationale": "principal の「the obligation of the principal」は「主たる義務者が負う義務」。of の補語は義務を負う人・法人である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-21",
+          "statement": "principal はこの義務を負う側であり義務の受益者とは限らない",
+          "polarity": "must_hold",
+          "scope": "the obligation of the principal"
+        }
+      ]
+    },
+    {
+      "id": "independent-22",
+      "surface_form": "principal",
+      "frame": "the principal and the surety",
+      "meaning": "主たる義務者と保証する側",
+      "disposition": "included",
+      "rationale": "principal の「the principal and the surety」は「主たる義務者と保証する側」。対比される役割と例文の respectively の対応が一致する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-22",
+          "statement": "例文では第一次的責任が principal に、二次的責任が surety に対応する",
+          "polarity": "must_hold",
+          "scope": "the principal and the surety"
+        }
+      ]
+    },
+    {
+      "id": "independent-23",
+      "surface_form": "principal",
+      "frame": "principal debtor / principal obligor",
+      "meaning": "主たる債務者・義務者を修飾する形容詞",
+      "disposition": "included",
+      "rationale": "principal の「principal debtor / principal obligor」は「主たる債務者・義務者を修飾する形容詞」。名詞単独の役割と形容詞による修飾を明示的に区別する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-23",
+          "statement": "複合表現の debtor・obligor の意味を形容詞 principal 単独へ移さない",
+          "polarity": "must_hold",
+          "scope": "principal debtor / principal obligor"
+        }
+      ]
+    },
+    {
+      "id": "independent-24",
+      "surface_form": "principally",
+      "frame": "principally + predicate",
+      "meaning": "主として、主に",
+      "disposition": "included",
+      "rationale": "principally の「principally + predicate」は「主として、主に」。副詞派生形として語形成に含まれ、独立した principal の品詞とはされていない。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-24",
+          "statement": "principally は principal そのものの副詞用法ではなく派生語である",
+          "polarity": "must_hold",
+          "scope": "principally + predicate"
+        }
+      ]
+    },
+    {
+      "id": "independent-25",
+      "surface_form": "principalship",
+      "frame": "the principalship of an institution",
+      "meaning": "校長・学長などの職または在職",
+      "disposition": "included",
+      "rationale": "principalship の「the principalship of an institution」は「校長・学長などの職または在職」。名詞派生形として列挙される範囲は適切である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-25",
+          "statement": "principalship は役職者本人を表す principal と同一の語形ではない",
+          "polarity": "must_hold",
+          "scope": "the principalship of an institution"
+        }
+      ]
+    },
+    {
+      "id": "independent-26",
+      "surface_form": "principal",
+      "frame": "a principal in an organ",
+      "meaning": "オルガンの主要なストップまたはそのパイプ",
+      "disposition": "excluded",
+      "rationale": "principal の「a principal in an organ」は「オルガンの主要なストップまたはそのパイプ」。オルガン構造の低頻度専門義は一般学習記事に必須の主要用法ではない。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-26",
+          "statement": "オーケストラの首席奏者義から楽器部品義を推論しない",
+          "polarity": "must_hold",
+          "scope": "a principal in an organ"
+        }
+      ]
+    },
+    {
+      "id": "independent-27",
+      "surface_form": "principal",
+      "frame": "a principal in a roof truss",
+      "meaning": "屋根組の主要な垂木・支持部材",
+      "disposition": "excluded",
+      "rationale": "principal の「a principal in a roof truss」は「屋根組の主要な垂木・支持部材」。建築部材の低頻度専門義は本記事の主要な学習範囲外と判断する。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-27",
+          "statement": "人物名詞義から建築部材義へ一般化しない",
+          "polarity": "must_hold",
+          "scope": "a principal in a roof truss"
+        }
+      ]
+    },
+    {
+      "id": "independent-28",
+      "surface_form": "principle",
+      "frame": "a basic principle",
+      "meaning": "原理・原則",
+      "disposition": "excluded",
+      "rationale": "principle の「a basic principle」は「原理・原則」。別の見出し語であり、混同注意としてのみ扱うのが適切である。",
+      "semantic_assertions": [
+        {
+          "id": "assertion-28",
+          "statement": "同音・近い綴りを理由に principal の原則義を設けない",
+          "polarity": "must_hold",
+          "scope": "a basic principle"
+        }
+      ]
+    }
+  ],
+  "article_findings": [],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/finalblind2"
+  },
+  "recorded_at": "2026-09-08T07:55:14.679388+00:00"
+}

@@ -1,0 +1,192 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-clean-example-attribution-1",
+    "started_at": "2026-09-08T04:19:02Z",
+    "completed_at": "2026-09-08T04:19:02Z"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced",
+    "blind_request_sha256": "6bc37c1f335738130b02531a79bde53d28c150f2c40ef94af1ff0aafbbf45514",
+    "recorded_at": "2026-09-08T04:19:02Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-clean-example-attribution-1",
+      "started_at": "2026-09-08T04:19:02Z",
+      "completed_at": "2026-09-08T04:19:02Z"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-5312b9bfb443",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["The agent", "on behalf of the principal"],
+        "rationale": "\"The agent\" が \"on behalf of the principal\" で署名するという代理の意味関係なので sense:005。一応の競合 sense:007 は保証人に対する第一次債務者を表すが、この文の principal は agent が代理して行為する権限主体であり、債務の第一次責任者という用法では成立しない。"
+      },
+      {
+        "example_id": "ex-001d0ad431c7",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["Interest is calculated on", "outstanding principal amount"],
+        "rationale": "\"Interest is calculated on\" の基礎となる \"outstanding principal amount\" は利息と区別される未返済元金なので sense:004。一応の競合 sense:007 は第一次責任を負う人・法人だが、ここでは principal が amount の金額内容を限定し利息計算の基礎になるため、人である sense:007 では成立しない。"
+      },
+      {
+        "example_id": "ex-7b7485a2a328",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal place of business"],
+        "rationale": "\"principal place of business\" で principal は place を前置修飾し、複数拠点中の主たる事業所を表す形容詞なので sense:001。一応の競合 sense:002 は教育機関の長を表す可算名詞だが、この文では冠詞を伴う人物名詞でなく place の属性であるため成立しない。"
+      },
+      {
+        "example_id": "ex-c83aaf435d30",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["classified the defendant as a principal", "in the first degree"],
+        "rationale": "\"classified the defendant as a principal\" と \"in the first degree\" は犯罪関与者の法的分類を述べるので sense:006。一応の競合 sense:005 も法律上の人を表すが、agent への権限付与ではなく defendant を degree 付きで principal に分類する構文であり、代理法の本人では成立しない。"
+      },
+      {
+        "example_id": "ex-99c7262e9810",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["A college principal"],
+        "rationale": "\"A college principal\" は教育機関 college の長を表す可算人物名詞なので sense:002。一応の競合 sense:003 は専門組織の上級責任者・首席出演者だが、principal が college という教育機関種別に直接結び付く役職名であり、一般の専門組織または舞台芸術の首席という用法では成立しない。"
+      },
+      {
+        "example_id": "ex-ee3c885f7edb",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["The borrower", "repaying principal"],
+        "rationale": "借り手が \"repaying principal\" する対象は返済される元金なので sense:004。一応の競合 sense:007 は主たる債務者だが、principal は repay の無冠詞目的語であって返済をする人ではなく返済される資本額なので、sense:007 では成立しない。"
+      },
+      {
+        "example_id": "ex-ccf64f0da635",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal reason"],
+        "rationale": "\"principal reason\" で principal は reason を前置修飾し、複数原因中で重要度が最も高い理由を示すので sense:001。一応の競合 sense:004 は元金という名詞だが、ここでは reason の修飾語であり金融上の資本額を指す名詞として成立しない。"
+      },
+      {
+        "example_id": "ex-5ced718dc5f9",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["the principal and the surety"],
+        "rationale": "\"the principal and the surety\" という対置において principal は surety に対する第一次義務者なので sense:007。一応の競合 sense:005 は agent に権限を与える本人だが、この文では対になる役割が agent ではなく surety で、比較されるのも債務上の duties であるため代理関係の本人では成立しない。"
+      },
+      {
+        "example_id": "ex-585103ff0c21",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["The guarantee", "the obligation of the principal"],
+        "rationale": "\"The guarantee\" が置換しない \"the obligation of the principal\" は、保証とは別に存続する第一次義務者の債務を表すので sense:007。一応の競合 sense:005 では principal は agent に権限を与える本人だが、この文の principal は guarantee によって代替されない obligation の担い手として項を満たし、代理行為の権限主体ではない。"
+      },
+      {
+        "example_id": "ex-77700748bf91",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal cause"],
+        "rationale": "\"principal cause\" で principal は cause を前置修飾し、複数原因中の主因という重要性を表すため sense:001。一応の競合 sense:006 は犯罪関与者の可算名詞だが、ここでは人物を指さず cause の程度・中心性を限定する形容詞なので成立しない。"
+      },
+      {
+        "example_id": "ex-f1a584dd070d",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["knowingly assists the offense", "treats ... as a principal"],
+        "rationale": "\"knowingly assists the offense\" した者を制定法が \"as a principal\" と扱うため、犯罪への関与に基づく分類である sense:006。一応の競合 sense:005 も法的な人物名詞だが、agent による代理行為や権限付与ではなく offense への加担を principal 認定の条件にしており、代理法の本人では成立しない。"
+      },
+      {
+        "example_id": "ex-0f578609c91f",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal architects"],
+        "rationale": "\"principal architects\" で principal は architects を前置修飾し、改革立案者の中で主要な者を示す形容詞なので sense:001。一応の競合 sense:003 は確立した上級職・首席を表す名詞だが、ここでは複数名詞 architects の修飾語であって principal 自体が職位名ではないため成立しない。"
+      },
+      {
+        "example_id": "ex-5b4829d5582e",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["An agent", "owes duties of loyalty and care to the principal"],
+        "rationale": "\"An agent\" が \"duties of loyalty and care to the principal\" を負うという役割関係は代理人と本人の関係なので sense:005。一応の競合 sense:007 は主たる義務者だが、この文では principal は agent の忠実・注意義務の相手方であり、surety 等に対する第一次債務者ではない。"
+      },
+      {
+        "example_id": "ex-358edfa7f859",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["The school principal"],
+        "rationale": "\"The school principal\" は school の管理責任者という役職を直接表す可算人物名詞なので sense:002。一応の競合 sense:003 は専門組織・舞台芸術の上級職だが、principal が school という教育機関種別に結び付く固有の長の役割であり、sense:003 の職域では成立しない。"
+      },
+      {
+        "example_id": "ex-e202d5c344ab",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["principal-agent relationship"],
+        "rationale": "\"principal-agent relationship\" は principal と agent の代理関係を明示する複合表現なので sense:005。一応の競合 sense:007 は surety 等と対置される第一次義務者だが、この文が成立させる役割対は principal-agent であり、債務の一次・二次責任関係ではない。"
+      },
+      {
+        "example_id": "ex-69c7c690be1f",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["The principal of the college"],
+        "rationale": "\"The principal of the college\" は of 句で教育機関 college を統括する人物を指定するので sense:002。一応の競合 sense:003 は専門組織の上級責任者を含むが、この文の補部が教育機関そのもので、その制度上の長を表す sense:002 が適合し、舞台芸術・専門組織の首席役割では成立しない。"
+      },
+      {
+        "example_id": "ex-f5b1e8baab6a",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["identified him as a principal in the crime"],
+        "rationale": "\"identified him as a principal in the crime\" は crime への関与者として principal に法的分類する構文なので sense:006。一応の競合 sense:005 も人の法的役割だが、\"in the crime\" が principal の関与領域を直接補い、agent を介する権限主体という代理法上の関係では成立しない。"
+      },
+      {
+        "example_id": "ex-d3c65bf0e7af",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:003"],
+        "discriminating_terms": ["one of the orchestra's principals"],
+        "rationale": "\"one of the orchestra's principals\" はオーケストラ内の複数の首席奏者という確立した役割を表すので sense:003。一応の競合 sense:002 は教育機関の長だが、principal が orchestra の所有格に支配され複数形で奏者の首席職を表し、学校・大学の長では成立しない。"
+      },
+      {
+        "example_id": "ex-061b5ea1ee09",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["both principal and interest"],
+        "rationale": "\"both principal and interest\" という明示的対置により、principal は利息と区別される元金なので sense:004。一応の競合 sense:007 は主たる債務者だが、monthly payment に含まれる金額要素として interest と等位接続されており、人・法人である sense:007 では成立しない。"
+      },
+      {
+        "example_id": "ex-be183b96bc73",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["a principal source of income"],
+        "rationale": "\"a principal source of income\" で principal は source を前置修飾し、重要な収入源の一つを表す形容詞なので sense:001。一応の競合 sense:004 は投資・貸付の元本を表す名詞だが、ここでは source の重要度を限定し、income と区別される元本そのものを指してはいない。"
+      },
+      {
+        "example_id": "ex-94c560b6a857",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["pay down the principal", "Extra payments"],
+        "rationale": "\"pay down the principal\" は追加返済によって未返済元金を減らす結果を表すので sense:004。一応の競合 sense:007 は主たる債務者だが、principal は pay down の被動作対象で減額される金額であり、支払い責任を負う人物・法人では成立しない。"
+      },
+      {
+        "example_id": "ex-83e36ba79da4",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["protect the principal", "generating modest returns"],
+        "rationale": "\"protect the principal\" と \"generating modest returns\" の対照は、収益を生みながら保全される投資元本を指すので sense:004。一応の競合 sense:005 は代理関係の本人だが、principal は fund が protect する資産額で returns と対照され、人の権限主体では成立しない。"
+      },
+      {
+        "example_id": "ex-4a65eca1c670",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["liable as principal for the debt"],
+        "rationale": "\"liable as principal for the debt\" は債務について第一次的に責任を負う当事者という役割を表すので sense:007。一応の競合 sense:005 は agent に対する権限主体だが、この文で principal に直接結び付く関係は \"liable ... for the debt\" であり、代理権の付与ではないため成立しない。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T04:22:06Z",
+  "findings": [],
+  "unrouted_observations": []
+}

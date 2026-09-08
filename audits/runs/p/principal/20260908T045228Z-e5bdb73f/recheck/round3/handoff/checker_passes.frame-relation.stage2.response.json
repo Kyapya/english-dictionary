@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
+  "blind_record_sha256": "3d8fcf93f3833fb81ebc4ee619f9181e6114ea893246ffddba782c5fb03eabac",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/frame3"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "封印済みの順位・程度という判定を維持する。順位は当該principalの定義自体に明記され、secondaryの二次的順位と対立する。類義語からの軸転移ではなく、違い行も対立の不成立や限定を自認していない。方向が反対という一般的説明は、この順位上の程度対立と両立する。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "封印済みの重要性・程度という判定を維持する。当該principalの高い重要性とminorの小さい重要性の対立が定義から直接導ける。違い行の主要ではないという記述は対立内容を説明しており、対立の不成立や限定を自認するものではない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

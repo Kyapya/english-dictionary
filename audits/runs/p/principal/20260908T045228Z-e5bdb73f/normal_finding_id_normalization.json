@@ -1,0 +1,89 @@
+{
+  "schema_version": "finding_id_normalization_v1",
+  "reason": "Initial canonical fan-in lacked IDs already used in pre-blind resolutions; assign deterministic pass/index IDs without modifying judgments, reviewer identity, original requests or response files.",
+  "original_sha256": "36707ed8c914e46afe4ca0eb0c3df1dc1b0069d49aee0f3af48594d3a47a17e0",
+  "canonical_sha256": "7eddf77f95c5e8f0d6c1c7ed162d9e391188f92e5f650051caf6c596b4062405",
+  "mapping": [
+    {
+      "pass_id": "sense-structure",
+      "finding_index": 0,
+      "id": "normal-sense-structure-001"
+    },
+    {
+      "pass_id": "sense-structure",
+      "finding_index": 1,
+      "id": "normal-sense-structure-002"
+    },
+    {
+      "pass_id": "sense-structure",
+      "finding_index": 2,
+      "id": "normal-sense-structure-003"
+    },
+    {
+      "pass_id": "frame-relation",
+      "finding_index": 0,
+      "id": "normal-frame-relation-001"
+    },
+    {
+      "pass_id": "frame-relation",
+      "finding_index": 1,
+      "id": "normal-frame-relation-002"
+    },
+    {
+      "pass_id": "frame-relation",
+      "finding_index": 2,
+      "id": "normal-frame-relation-003"
+    },
+    {
+      "pass_id": "example-attribution",
+      "finding_index": 0,
+      "id": "normal-example-attribution-001"
+    },
+    {
+      "pass_id": "qualification",
+      "finding_index": 0,
+      "id": "normal-qualification-001"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 0,
+      "id": "normal-evidence-001"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 1,
+      "id": "normal-evidence-002"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 2,
+      "id": "normal-evidence-003"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 3,
+      "id": "normal-evidence-004"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 4,
+      "id": "normal-evidence-005"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 5,
+      "id": "normal-evidence-006"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 6,
+      "id": "normal-evidence-007"
+    },
+    {
+      "pass_id": "evidence",
+      "finding_index": 7,
+      "id": "normal-evidence-008"
+    }
+  ],
+  "finding_content_unchanged": true
+}

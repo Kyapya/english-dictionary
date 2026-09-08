@@ -1,0 +1,25 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-recheck-qualification-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 325,
+        "line_end": 325,
+        "exact_quote": "用途: 代理人が取引相手に存在または身元を明らかにしていない本人を指す。  "
+      },
+      "severity": "blocking",
+      "rationale": "代理法上の `undisclosed principal` は、取引相手が代理人が本人のために行動していること自体を知らない場合の本人を指す。本人の存在は知られているが身元だけが明らかでない場合は通常 `unidentified principal`（または `partially disclosed principal`）として区別されるため、「存在または身元」を選言で並べると二つの専門分類を混同する。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`undisclosed principal` は「取引相手に代理関係の存在が開示されていない本人」と定義し、必要なら、本人の存在は開示されているが身元が不明な `unidentified/partially disclosed principal` とは区別する。"
+    }
+  ],
+  "unrouted_observations": []
+}

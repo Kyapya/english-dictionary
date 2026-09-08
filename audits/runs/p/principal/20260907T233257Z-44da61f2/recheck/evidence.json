@@ -1,0 +1,109 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-recheck-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米・英: /ˈprɪnsəpəl/。3音節の PRIN-ci-pal で、第1音節に主強勢がある。第2・第3音節の母音はいずれも弱い /ə/ で、語末の `-pal` を強く /pæl/ と読まない。"
+      },
+      "severity": "blocking",
+      "rationale": "F-009 is based on the Merriam-Webster respelling, which records optional segments and variants and establishes only that adjective and noun share the entry's pronunciation. It does not directly establish identical US and UK IPA, invariant three-syllable realization, schwa in both later syllables, or the categorical rejection of /pæl/. The linked fact therefore supports only a narrower pronunciation claim than the article target.",
+      "evidence_link_ids": [
+        "F-009"
+      ],
+      "suggested_direction": "Limit the target to the shared pronunciation actually documented by F-009, or replace/add pronunciation facts with explicit US/UK IPA and syllabification evidence."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "・principalship：名詞。校長・学長など `principal` の職・地位を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "At the fixed S-001 locator, the cited passage merely lists `principalship` as a noun derivative. F-011's source detail likewise says only that the derivative is listed; it does not supply the asserted semantic gloss 'office or position of a principal.' The evidence location is therefore insufficient for the meaning claimed in the target.",
+      "evidence_link_ids": [
+        "F-011"
+      ],
+      "suggested_direction": "Replace F-011 with a direct dictionary definition of `principalship`, or narrow the target to the fact that it is a listed noun derivative."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 185,
+        "line_end": 185,
+        "exact_quote": "バレエ団・オペラ団の首席出演者、オーケストラのセクションを率いる奏者などを指す。"
+      },
+      "severity": "blocking",
+      "rationale": "The C-003 support link to F-029 is out of scope: F-029 records the historical noun meanings 'chief person' and 'leading representative' and an early legal use, but it does not document a performer or orchestral-section-player sense. F-007 and F-018 do support those specialist applications; F-029 does not.",
+      "evidence_link_ids": [
+        "F-029"
+      ],
+      "suggested_direction": "Remove F-029 from C-003's performer/orchestral support, or limit any claim linked to F-029 to the historical chief-person/representative sense."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 134,
+        "line_end": 134,
+        "exact_quote": "`appoint someone principal`＝人を校長・学長に任命する／`serve/work as principal`＝校長・学長を務める"
+      },
+      "severity": "blocking",
+      "rationale": "C-002's fixed facts document the school/education-head sense and the `principal of` title, but none of F-002, F-003, F-014, F-017, or F-030 records the bare-complement appointment frame or the `serve/work as principal` frame. General sense evidence cannot directly support these complete syntactic frames.",
+      "evidence_link_ids": [
+        "F-002",
+        "F-003",
+        "F-014",
+        "F-017",
+        "F-030"
+      ],
+      "suggested_direction": "Add a fixed source fact that directly attests each frame, or remove the unattested frames from the linked target."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 305,
+        "line_end": 305,
+        "exact_quote": "`a disclosed/undisclosed principal`＝顕名された・非顕名の本人"
+      },
+      "severity": "blocking",
+      "rationale": "F-004, F-020, and F-023 directly support the principal-agent role, authorization, acting on behalf, control, and duties. None of their fixed passages or fact statements supports the separate disclosed/undisclosed-principal classification or this lexical frame, so C-006 is overextended at this target.",
+      "evidence_link_ids": [
+        "F-004",
+        "F-020",
+        "F-023"
+      ],
+      "suggested_direction": "Add a direct agency-law source fact for disclosed and undisclosed principals, or delete that frame from the target."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 402,
+        "line_end": 402,
+        "exact_quote": "`recover from the principal`＝主たる義務者から回収する"
+      },
+      "severity": "blocking",
+      "rationale": "F-006, F-022, and F-026 establish primary liability and the contrast with a secondarily liable surety or guarantor. They do not state a surety's post-payment recourse against the principal or attest the `recover from the principal` frame. That doctrine and frame are not directly supported by the linked evidence.",
+      "evidence_link_ids": [
+        "F-006",
+        "F-022",
+        "F-026"
+      ],
+      "suggested_direction": "Add a direct surety-law source fact for recourse/reimbursement and the frame, or remove this frame from the target."
+    }
+  ]
+}

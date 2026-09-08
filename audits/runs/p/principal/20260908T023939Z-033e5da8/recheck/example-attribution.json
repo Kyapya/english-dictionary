@@ -1,0 +1,286 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "same_model_as_generation": false,
+    "ingested_by": "human",
+    "agent_id": "principal-final-recheck-example-attribution-1",
+    "started_at": "2026-09-08T03:46:00Z",
+    "completed_at": "2026-09-08T03:51:00Z"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f",
+    "blind_request_sha256": "d75f87fdfaf93d1315f97b31c70352275eeeee86a6d92eb7aadc5672d27e691b",
+    "recorded_at": "2026-09-08T03:48:30Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "same_model_as_generation": false,
+      "ingested_by": "human",
+      "agent_id": "principal-final-recheck-example-attribution-1",
+      "started_at": "2026-09-08T03:46:00Z",
+      "completed_at": "2026-09-08T03:51:00Z"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-60f311009435",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "Interest is calculated on the outstanding principal amount"
+        ],
+        "rationale": "Interest is calculated on the outstanding principal amount. では principal amount が利息計算の基礎となる未返済額を表すため sense:004 に一意に帰属する。競合する sense:001 の『主要な』という重要度評価では、principal が amount の金融上の種類を指定し、Interest がその額に対して calculated on となる同じ関係を説明できない。"
+      },
+      {
+        "example_id": "ex-3fe79c52dfaa",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "school principal"
+        ],
+        "rationale": "The school principal met with parents after the incident. の school principal は教育機関の長という役職名なので sense:002 に一意に帰属する。競合する sense:003 は専門組織の上級職・首席者を表す名詞だが、principal が school と直接複合して表す教育機関の長には当てはまらない。"
+      },
+      {
+        "example_id": "ex-1ce9a0ebdbe0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a principal source of income"
+        ],
+        "rationale": "Tourism is a principal source of income for the island. では principal が source を前置修飾し、複数ある収入源のうち重要度の高い一つを表すため sense:001 に一意に帰属する。競合する sense:004 は元金・元本を指す名詞であり、a principal source of income という形容詞修飾構造では成立しない。"
+      },
+      {
+        "example_id": "ex-9e633ef3983a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "An agent generally owes duties of loyalty and care to the principal"
+        ],
+        "rationale": "An agent generally owes duties of loyalty and care to the principal. では agent が忠実義務・注意義務を principal に負う代理関係の役割対が明示されるため sense:005 に一意に帰属する。競合する sense:007 の主たる義務者は surety 等との第一次的責任の対比であり、agent が loyalty and care を owe to する相手という同じ意味関係にはならない。"
+      },
+      {
+        "example_id": "ex-ad6bfc831e35",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "repaying principal"
+        ],
+        "rationale": "The borrower will begin repaying principal next year. では repay の目的語 principal が借り手の返済する元金を表すため sense:004 に一意に帰属する。競合する sense:007 は第一次的責任を負う人・法人であり、無冠詞の principal が repaying の金額目的語となるこの構造では成立しない。"
+      },
+      {
+        "example_id": "ex-b71ed0b8124e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "pay down the principal"
+        ],
+        "rationale": "Extra payments can help you pay down the principal faster. の pay down the principal は追加返済によって基礎債務額を減らす結果関係なので sense:004 に一意に帰属する。競合する sense:007 は主たる義務者という人・法人を指し、その人物を pay down して減額する読みにはならない。"
+      },
+      {
+        "example_id": "ex-0b2ef60144d3",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "protect the principal while generating modest returns"
+        ],
+        "rationale": "The fund aims to protect the principal while generating modest returns. では守る基礎投資額 principal とそこから生じる returns が対置されるため sense:004 に一意に帰属する。競合する sense:005 は代理権を与える本人であり、fund が modest returns を生みながら protect する投資額という同じ関係を取れない。"
+      },
+      {
+        "example_id": "ex-64fe3147364d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "principal of the college"
+        ],
+        "rationale": "The principal of the college welcomed the new students. の principal of the college は of 句で長を務める教育機関を指定するため sense:002 に一意に帰属する。競合する sense:003 の専門組織上級職・首席者は、principal が college の制度上の長を表すこの直接関係には当てはまらない。"
+      },
+      {
+        "example_id": "ex-c9d7ede28470",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "a principal in the crime"
+        ],
+        "rationale": "The court identified him as a principal in the crime. では人が a principal in the crime と刑事上の関与者に分類されるため sense:006 に一意に帰属する。競合する sense:005 の代理関係上の本人なら agent への授権関係が必要であり、in the crime を伴う犯罪関与者という同じ補語関係にはならない。"
+      },
+      {
+        "example_id": "ex-84f9814d83e9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "the principal and the surety"
+        ],
+        "rationale": "The agreement states the duties of the principal and the surety. では principal と surety が並列され、第一次的責任者と二次的保証人の役割対を作るため sense:007 に一意に帰属する。競合する sense:005 は agent と principal の授権関係を表す語義であり、surety との責任順位の対比には成立しない。"
+      },
+      {
+        "example_id": "ex-39f9f9a60ef1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "college principal"
+        ],
+        "rationale": "A college principal addressed the graduating class. の college principal はカレッジの長という教育上の役職名なので sense:002 に一意に帰属する。競合する sense:003 の専門組織上級職・首席者では、principal が college と直接複合して教育機関の長を指す同じ語彙関係を説明できない。"
+      },
+      {
+        "example_id": "ex-a93540d9c097",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The principal reason for the delay"
+        ],
+        "rationale": "The principal reason for the delay was a shortage of parts. では principal が reason を前置修飾し、遅延理由の中で最も重要なものを示すため sense:001 に一意に帰属する。競合する sense:002 は教育機関の長を指す名詞であり、the principal reason という形容詞修飾構造では成立しない。"
+      },
+      {
+        "example_id": "ex-6353a4dccc3f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "a principal in the first degree"
+        ],
+        "rationale": "The older judgment classified the defendant as a principal in the first degree. の a principal in the first degree は被告人に刑事法上の等級分類を付与するため sense:006 に一意に帰属する。競合する sense:007 の主たる義務者には in the first degree という犯罪関与の分類補語が付かない。"
+      },
+      {
+        "example_id": "ex-812094fe1b48",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "knowingly assists the offense as a principal"
+        ],
+        "rationale": "The statute treats a person who knowingly assists the offense as a principal. では犯罪を故意に援助した人を statute が as a principal と刑事分類するため sense:006 に一意に帰属する。競合する sense:005 の本人は agent に権限を与える側であり、offense を assists した者に付されるこの法的分類にはならない。"
+      },
+      {
+        "example_id": "ex-a619793663ad",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "The guarantee does not replace the obligation of the principal"
+        ],
+        "rationale": "The guarantee does not replace the obligation of the principal. では guarantee が代替しない基礎的 obligation の担い手を principal と呼び、保証責任に対する第一次的責任者を表すため sense:007 に一意に帰属する。競合する sense:005 でも本人が一般に義務を負い得るが、この文の principal は guarantee と replace の否定関係によって保証の背後に残る主たる義務者として直接位置付けられ、代理権授与者の読みは成立しない。"
+      },
+      {
+        "example_id": "ex-4c47bf72e766",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "principal-agent relationship"
+        ],
+        "rationale": "The contract created a principal-agent relationship between the owner and the broker. の principal-agent relationship は権限を与える側と代理する側の役割対を名称として明示するため sense:005 に一意に帰属する。競合する sense:007 は principal と surety の第一次・二次責任関係であり、agent と対を成すこの複合語には成立しない。"
+      },
+      {
+        "example_id": "ex-91205f0835a5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "the principal cause of the failure"
+        ],
+        "rationale": "Investigators identified corrosion as the principal cause of the failure. では principal が cause を前置修飾し、故障を引き起こした原因のうち最重要のものを表すため sense:001 に一意に帰属する。競合する sense:006 は犯罪関与者を指す名詞であり、the principal cause という形容詞修飾構造には入れない。"
+      },
+      {
+        "example_id": "ex-9e4d856d6548",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "The agent may sign the document on behalf of the principal"
+        ],
+        "rationale": "The agent may sign the document on behalf of the principal. では agent が principal を代理して署名する授権・代理の方向性が on behalf of により明示されるため sense:005 に一意に帰属する。競合する sense:007 の主たる義務者は surety 等と責任順位で対立し、agent が on behalf of して行動する相手という同じ役割にはならない。"
+      },
+      {
+        "example_id": "ex-30d6e5c6fc7e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "liable as principal for the debt"
+        ],
+        "rationale": "Under the agreement, the company remains liable as principal for the debt. の liable as principal for the debt は会社が債務について第一次的責任を負うことを直接叙述するため sense:007 に一意に帰属する。競合する sense:005 の本人は agent に対する授権上の役割であり、as principal が liable for the debt の責任資格を示す同じ構文関係にはならない。"
+      },
+      {
+        "example_id": "ex-73018abe90b4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal place of business"
+        ],
+        "rationale": "The company moved its principal place of business to Osaka. の principal place of business は複数の拠点の中で主たる事業所を指定し、principal が place を重要度・中心性で修飾するため sense:001 に一意に帰属する。競合する sense:003 は上級責任者・首席者を表す人名詞であり、place of business を前置修飾するこの構造では成立しない。"
+      },
+      {
+        "example_id": "ex-19f6dd8adf42",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "both principal and interest"
+        ],
+        "rationale": "The monthly payment includes both principal and interest. では支払額の構成要素として principal と interest が対置され、前者が利息を除く元金を表すため sense:004 に一意に帰属する。競合する sense:001 の形容詞用法は both principal and interest で名詞同士として並列される同じ構造に成立しない。"
+      },
+      {
+        "example_id": "ex-b88d214bcfdc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "one of the orchestra's principals"
+        ],
+        "rationale": "The concert program lists her as one of the orchestra's principals. では人が orchestra の複数 principals の一人として記載され、オーケストラの首席奏者という制度的地位を表すため sense:003 に一意に帰属する。競合する sense:002 は教育機関の長であり、orchestra's principals という所有関係と複数首席の構造には成立しない。"
+      },
+      {
+        "example_id": "ex-b0333b43014a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "one of the principal architects"
+        ],
+        "rationale": "She is one of the principal architects of the reform. では principal が複数形 architects を前置修飾し、改革の主要な立案者の一人を表すため sense:001 に一意に帰属する。競合する sense:003 は principal 自体が上級責任者・首席者を指す名詞だが、one of the principal architects では architects が主要部で principal は形容詞として働くため成立しない。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T04:07:13.089426+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

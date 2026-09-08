@@ -1,0 +1,38 @@
+{
+  "schema_version": "recheck_resolution_checkpoint_v1",
+  "recorded_at": "2026-09-08T07:49:36.917847+00:00",
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "3f2f84868c94b5c51500c393869063d224f4262bcf03371e265c84b135b4fd13",
+    "after_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+    "changed_units": [
+      "collocations_examples"
+    ],
+    "full_recheck": false,
+    "fallback_reasons": [],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "translation"
+    ],
+    "reusable_passes": [
+      "pronunciation",
+      "sense-structure"
+    ],
+    "additional_invalidation_reasons": {
+      "qualification": "Routed request includes changed example; normalized input hash mismatch prevents reuse."
+    }
+  },
+  "resolutions": [
+    {
+      "pass_id": "example-attribution",
+      "finding_index": 0,
+      "disposition": "adopted",
+      "rationale": "Specified direct criminal liability and accessory contrast to separate legal classification from a general leading participant.",
+      "verification_status": "verified"
+    }
+  ],
+  "verification_completed_at": "2026-09-08T07:53:40.144305+00:00"
+}

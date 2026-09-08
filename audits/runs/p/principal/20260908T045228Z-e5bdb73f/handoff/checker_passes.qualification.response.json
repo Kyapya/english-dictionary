@@ -1,0 +1,31 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cycle2-qualification-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 168,
+        "line_end": 168,
+        "exact_quote": "【頻度】〈6/10〉"
+      },
+      "severity": "minor",
+      "rationale": "この語義は直後に「オーケストラ・音楽の専門語」と限定され、一般英語では遭遇場面が狭い。6/10は仕様上「中頻度（場面・分野・レジスターがやや限定）」に当たるため、オーケストラ領域内での定着度を英語全体の遭遇頻度へ一般化している。",
+      "evidence_link_ids": [
+        "F-007",
+        "F-018",
+        "U-003",
+        "C-003"
+      ],
+      "suggested_direction": "英語全体を基準に2～3/10程度の低頻度へ下げ、専門領域内では確立した役割名であることはレジスター欄で維持する。"
+    }
+  ]
+}

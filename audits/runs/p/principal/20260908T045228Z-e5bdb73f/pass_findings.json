@@ -1,0 +1,767 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-principal-20260908T045228Z-e5bdb73f",
+  "context_id": "normal-principal-context-20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T05:41:52.222294+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-cycle2-translation-1"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-cycle2-sense-structure-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 128,
+            "line_end": 128,
+            "exact_quote": "【日本語訳・定義】学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。  "
+          },
+          "severity": "blocking",
+          "rationale": "固定済み source union の U-002 は、教育機関の長だけでなく、組織で支配的権限または主導的地位を持つ人物という名詞用法も収録対象としている。しかし語義2は教育機関の最高責任者に限定され、他の番号付き名詞語義もこの一般的な権限・主導者用法を受け入れない。コアイメージ本文の「組織や行為の中心人物」に対応する収録先も学校・オーケストラ以外にはなく、主要な名詞候補が語義構造から欠落している。",
+          "evidence_link_ids": [
+            "F-002",
+            "F-003",
+            "F-014",
+            "F-017"
+          ],
+          "suggested_direction": "人物を指す一般的な権限・主導者用法を、教育機関の役職名と学習上区別できる番号付き語義として追加するか、語義2をその用法まで明示的に含む構造へ再編し、コアイメージ枝・フレーム・例も対応させる。",
+          "id": "normal-sense-structure-001"
+        },
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 166,
+            "line_end": 166,
+            "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。  "
+          },
+          "severity": "blocking",
+          "rationale": "固定済み source union の U-003 は、オーケストラのセクション首席だけでなく、舞台芸術の principal artist や leading performer まで含む確立した名詞用法を収録対象としている。現行語義3はオーケストラに限定し、レジスター、フレーム、コアイメージ枝もその範囲だけなので、裏付けられた舞台芸術上の主要用法に収録先がない。",
+          "evidence_link_ids": [
+            "F-007",
+            "F-018"
+          ],
+          "suggested_direction": "語義3を、根拠が支える舞台芸術の主役・主要演者とオーケストラの首席奏者を包含する範囲へ広げ、各下位用法のフレームと例を区別して示す。",
+          "id": "normal-sense-structure-002"
+        },
+        {
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 194,
+            "line_end": 194,
+            "exact_quote": "【日本語訳・定義】借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。  "
+          },
+          "severity": "blocking",
+          "rationale": "固定済み source union の U-005 は、信託で income と区別される財産本体・corpus の用法を、金融上の principal に統合する収録対象としている。現行語義4は借入・貸付・投資の「金額」に限定され、信託財産は金銭以外も含み得るため、この専門用法を包含しない。コアイメージ枝、領域、フレームにも信託用法の収録先がない。",
+          "evidence_link_ids": [
+            "F-025"
+          ],
+          "suggested_direction": "語義4へ、信託の income と対比される財産本体・corpus の専門用法を明示的に統合し、見出し・コアイメージ枝・領域・フレームを金額だけに閉じない形へ広げる。学習上別フレームと判断するなら独立語義に分ける。",
+          "id": "normal-sense-structure-003"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-fresh2-frame-relation-1"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+        "blind_request_sha256": "2f30dd68c37f53e653cf370543e1026cd9e61beb7fd75f2dca4ad3d566ab02a4",
+        "recorded_at": "2026-09-08T14:12:42+09:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "principal-fresh2-frame-relation-1"
+        },
+        "axes": [
+          {
+            "item_id": "ant-28424ac40a56",
+            "axis": "代理役割",
+            "relation_type": "補完",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-7a5355b6c049",
+            "axis": "重要度",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-eb9ac1e6e466",
+            "axis": "責任順位",
+            "relation_type": "補完",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-7477e18058ee",
+            "axis": "元利区分",
+            "relation_type": "補完",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-f5f13e9b951b",
+            "axis": "重要度",
+            "relation_type": "程度",
+            "reason": ""
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+        "stage2_request_sha256": "200b7308d27c8938b31c0439961998e66162304372ae83d7181ea71661be70c6",
+        "blind_record_sha256": "9fcca29dc650677e5a5581eaacd8bad4a6a62a636395066b1189707d80641346",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "principal-fresh2-frame-relation-1"
+        },
+        "adjudications": [
+          {
+            "item_id": "ant-7a5355b6c049",
+            "flags": [],
+            "rationale": "`principal` の最重要・高順位と `secondary` の二次的重要性は、当該語義の定義から重要度の程度対立として直接導出でき、違い行も対立を否定または限定していない。",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-f5f13e9b951b",
+            "flags": [],
+            "rationale": "`principal` の高い重要性と `minor` の比較的小さい重要性は、当該語義に属する重要度の程度対立であり、違い行に自己否定はない。",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-7477e18058ee",
+            "flags": [
+              "F3"
+            ],
+            "rationale": "`principal` と `interest` は一つの返済額に含まれ得る別々の金額構成要素であり、基礎額とそこから生じる追加額という関連はあっても、補完・程度・方向・評価・状態のいずれかの反意対立ではない。違い行も両者を構成カテゴリーとして説明している。",
+            "suggested_direction": "語法・注意への対照表現としての移動",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-28424ac40a56",
+            "flags": [],
+            "rationale": "権限を与える `principal` と、その権限で本人のために行動する `agent` は、当該定義に明示された同一代理関係内の補完的役割であり、違い行も対立の不成立を示していない。",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-eb9ac1e6e466",
+            "flags": [],
+            "rationale": "第一次的に責任を負う `principal` と、不履行時に保証責任を負う `surety` は、当該債務・保証語義から導出できる責任順位上の補完対立であり、違い行にも自己否定はない。",
+            "f4_severity": null
+          }
+        ],
+        "frame_findings": [
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 172,
+              "line_end": 172,
+              "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人  "
+            },
+            "severity": "blocking",
+            "rationale": "当該語義はオーケストラの各セクションを率いる奏者に限定されているのに、所有格スロットの「など」と訳の「団体」が、バレエ団や企業などを含む無限定な団体名の代入を許す。すると `principal` が首席奏者ではない別の役職・身分を表す候補までこの語義の完全フレームとして生成され、定義とスロットの意味役割が一致しない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "所有格スロットと訳をオーケストラ（必要なら定義で明示した音楽アンサンブル）に限定する。"
+          },
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 252,
+              "line_end": 252,
+              "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  "
+            },
+            "severity": "blocking",
+            "rationale": "代理権を与える側を主語、代理人を目的語、行為を不定詞補部に置く能動フレームだけが、この語義のコロケーションと例文に実現されていない。他の三つの主要パターンには対応例があるため、主要構文とコロケーションの相互対応がこのフレームで欠けている。",
+            "evidence_link_ids": [],
+            "suggested_direction": "`a principal authorizes an agent to do ...` を独立したコロケーションとして、本人・代理人・許可された行為の三スロットが明示された例文で実現する。"
+          }
+        ],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T05:47:40.744632+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 172,
+            "line_end": 172,
+            "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人  "
+          },
+          "severity": "blocking",
+          "rationale": "当該語義はオーケストラの各セクションを率いる奏者に限定されているのに、所有格スロットの「など」と訳の「団体」が、バレエ団や企業などを含む無限定な団体名の代入を許す。すると `principal` が首席奏者ではない別の役職・身分を表す候補までこの語義の完全フレームとして生成され、定義とスロットの意味役割が一致しない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "所有格スロットと訳をオーケストラ（必要なら定義で明示した音楽アンサンブル）に限定する。",
+          "id": "normal-frame-relation-001"
+        },
+        {
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 252,
+            "line_end": 252,
+            "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  "
+          },
+          "severity": "blocking",
+          "rationale": "代理権を与える側を主語、代理人を目的語、行為を不定詞補部に置く能動フレームだけが、この語義のコロケーションと例文に実現されていない。他の三つの主要パターンには対応例があるため、主要構文とコロケーションの相互対応がこのフレームで欠けている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`a principal authorizes an agent to do ...` を独立したコロケーションとして、本人・代理人・許可された行為の三スロットが明示された例文で実現する。",
+          "id": "normal-frame-relation-002"
+        },
+        {
+          "taxonomy_id": "lexical_relation_mislabel",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 237,
+            "line_end": 237,
+            "exact_quote": "・interest  "
+          },
+          "severity": "blocking",
+          "rationale": "F3: `principal` と `interest` は一つの返済額に含まれ得る別々の金額構成要素であり、基礎額とそこから生じる追加額という関連はあっても、補完・程度・方向・評価・状態のいずれかの反意対立ではない。違い行も両者を構成カテゴリーとして説明している。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語法・注意への対照表現としての移動",
+          "id": "normal-frame-relation-003"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "inherited session model (not exposed)",
+        "ingested_by": "human",
+        "agent_id": "/root/principal/example"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+        "recorded_at": "2026-09-08T05:25:10.719Z",
+        "attributions": [
+          {
+            "example_id": "ex-7dab22053856",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a principal source of income"
+            ],
+            "rationale": "In \"Tourism is a principal source of income for the island.\" Principal adjectivally ranks a source by importance. Financial sense 004 would denote capital itself, not modify source.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-520ae0c81995",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "a principal in the crime"
+            ],
+            "rationale": "In \"The court identified him as a principal in the crime.\" The complement in the crime classifies criminal participation. Agency sense 005 requires a represented party, which this criminal-role complement does not express.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-49355501caac",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "repaying principal"
+            ],
+            "rationale": "In \"The borrower will begin repaying principal next year.\" Principal is the amount repaid. Debtor sense 007 denotes the obligor, not the repayment amount.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-1e57e2430a98",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "owes duties of loyalty and care to the principal"
+            ],
+            "rationale": "In \"An agent generally owes duties of loyalty and care to the principal.\" Principal is the beneficiary of an agent's fiduciary duties. Sense 007 concerns primary liability contrasted with a surety, not the represented party to whom an agent owes loyalty.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-9dbc67db030d",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The principal of the college"
+            ],
+            "rationale": "In \"The principal of the college welcomed the new students.\" The definite institutional-head construction principal of the college denotes its head. Agency sense 005 would require an agent representing this party; the institutional office construction does not express that relationship.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-a643dfd29d91",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "principal-agent relationship"
+            ],
+            "rationale": "In \"The contract created a principal-agent relationship between the owner and the broker.\" The compound explicitly identifies the represented-party/agent relationship. Sense 007 instead pairs a primary obligor with a surety and is not the principal-agent relationship.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-157beac2d8f2",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "one of the principal architects"
+            ],
+            "rationale": "In \"She is one of the principal architects of the reform.\" Principal adjectivally ranks architects in importance. Sense 002 is a noun for an institutional head, not this modifier of plural architects.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-59d4fc91ccdf",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "as a principal in the first degree"
+            ],
+            "rationale": "In \"The older judgment classified the defendant as a principal in the first degree.\" Principal in the first degree is a criminal-participation classification. Agency sense 005 does not classify represented parties into criminal degrees.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-2a415e1227b0",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "principal reason for the delay"
+            ],
+            "rationale": "In \"The principal reason for the delay was a shortage of parts.\" Principal modifies reason to rank its importance. Capital sense 004 is a nominal monetary amount and cannot supply this attributive meaning.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-29b0de50abd4",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The school principal"
+            ],
+            "rationale": "In \"The school principal met with parents after the incident.\" School principal is the institutional-head office noun. Agency sense 005 is a represented party, not the office denoted by school principal.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-18bb0ddb5ba9",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "treats a person who knowingly assists the offense as a principal"
+            ],
+            "rationale": "In \"The statute treats a person who knowingly assists the offense as a principal.\" The classification is predicated directly on knowing participation in an offense. Agency sense 005 instead depends on authorizing representation; assistance in an offense is not that semantic relation.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-da8e5eeb0a02",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "guarantee does not replace the obligation of the principal"
+            ],
+            "rationale": "In \"The guarantee does not replace the obligation of the principal.\" Principal bears the underlying obligation contrasted with its guarantee. Agency sense 005 identifies the party represented by an agent, not the underlying obligor in this guarantee/obligation opposition.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-fe17b24d87b1",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "one of the orchestra's principals"
+            ],
+            "rationale": "In \"The concert program lists her as one of the orchestra's principals.\" The plural possessive construction names members holding principal-player positions in an orchestra. Sense 002 denotes the head of an educational institution, incompatible with these orchestra positions; agency sense 005 would denote represented parties rather than orchestral offices.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-96969658d75c",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "its principal place of business"
+            ],
+            "rationale": "In \"The company moved its principal place of business to Osaka.\" Principal ranks a place of business as primary. Agency sense 005 is a represented party and cannot supply this adjectival relation to place.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-9f21a9f9e7ab",
+            "candidate_sense_ids": [
+              "sense:007",
+              "sense:005"
+            ],
+            "discriminating_terms": [],
+            "rationale": "In \"Under the agreement, the company remains liable as principal for the debt.\" Most naturally principal denotes the primary obligor (007), but liability as principal for a debt also naturally denotes a represented party's liability for debt incurred through an agent (005). Neither a surety contrast nor an agent relationship is specified; liable as principal for the debt alone cannot exclude either reading.",
+            "classification": "ambiguous"
+          },
+          {
+            "example_id": "ex-09c5a98499dd",
+            "candidate_sense_ids": [
+              "sense:005"
+            ],
+            "discriminating_terms": [
+              "on behalf of the principal"
+            ],
+            "rationale": "In \"The agent may sign the document on behalf of the principal.\" Principal is explicitly the party represented in the agent's signing. Sense 007 is primary obligation relative to a surety, not the on-behalf-of relationship expressed here.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-2d3d6de2e03f",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "protect the principal while generating modest returns"
+            ],
+            "rationale": "In \"The fund aims to protect the principal while generating modest returns.\" Principal is capital preserved while returns are generated, contrasting original amount with earnings. Sense 005 would denote a represented person or entity, not the investment base contrasted with returns.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-d08371ee31ca",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "duties of the principal and the surety"
+            ],
+            "rationale": "In \"The agreement states the duties of the principal and the surety.\" The principal/surety pairing directly contrasts primary and secondary obligors. Agency sense 005 requires a principal/agent relationship, not this surety-role pairing.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-3b81e36f6569",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the principal cause of the failure"
+            ],
+            "rationale": "In \"Investigators identified corrosion as the principal cause of the failure.\" Principal modifies cause to rank causal importance. Criminal noun sense 006 denotes an offender, not a ranking adjective applied to cause.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-40742cac4b7e",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "payment includes both principal and interest"
+            ],
+            "rationale": "In \"The monthly payment includes both principal and interest.\" Principal is a payment component opposed to interest. Sense 007 denotes the debtor, not an amount included in a payment.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-a33f869a820c",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "pay down the principal"
+            ],
+            "rationale": "In \"Extra payments can help you pay down the principal faster.\" The pay down construction makes principal a reducible outstanding amount. Sense 007 denotes the obligor and cannot be paid down.",
+            "classification": "unique"
+          },
+          {
+            "example_id": "ex-f4720456a0d5",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "A college principal"
+            ],
+            "rationale": "In \"A college principal addressed the graduating class.\" College principal is an institutional-head office title. Agency sense 005 denotes a represented party, not the office named by the compound.",
+            "classification": "unique"
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "inherited session model (not exposed)",
+          "ingested_by": "human",
+          "agent_id": "/root/principal/example"
+        },
+        "blind_request_sha256": "ba5b490ac2eeec9df2c1124affd127421a1b4188ac18824da0e1e40ef575ce94"
+      },
+      "aligned_at": "2026-09-08T05:41:52.208159+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 343,
+            "line_end": 343,
+            "exact_quote": "例: Under the agreement, the company remains liable as principal for the debt.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:007, sense:005が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加",
+          "id": "normal-example-attribution-001"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-cycle2-qualification-1"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "regional_qualification",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 168,
+            "line_end": 168,
+            "exact_quote": "【頻度】〈6/10〉"
+          },
+          "severity": "minor",
+          "rationale": "この語義は直後に「オーケストラ・音楽の専門語」と限定され、一般英語では遭遇場面が狭い。6/10は仕様上「中頻度（場面・分野・レジスターがやや限定）」に当たるため、オーケストラ領域内での定着度を英語全体の遭遇頻度へ一般化している。",
+          "evidence_link_ids": [
+            "F-007",
+            "F-018",
+            "U-003",
+            "C-003"
+          ],
+          "suggested_direction": "英語全体を基準に2～3/10程度の低頻度へ下げ、専門領域内では確立した役割名であることはレジスター欄で維持する。",
+          "id": "normal-qualification-001"
+        }
+      ]
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "principal-pronunciation-1"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "inherited session model (not exposed)",
+        "ingested_by": "human",
+        "agent_id": "/root/principal/evidence"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 166,
+            "line_end": 166,
+            "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。"
+          },
+          "severity": "blocking",
+          "rationale": "C-002 routes the education/authority claim to definition:003 (the orchestral definition). Its F-002/F-003/F-014/F-017 sources concern general authority or educational heads and do not directly support this orchestral role. C-003 has separately relevant performer evidence, but that does not make C-002's cross-sense link valid. No link IDs are supplied; this identifies the existing C-002 article_target_ids/source_supports relationship.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Remove definition:003 from C-002's targets; retain the directly applicable C-003/F-018 support for the orchestral definition.",
+          "id": "normal-evidence-001"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 49,
+            "line_end": 49,
+            "exact_quote": "【文法パターン】`the principal 〈名詞〉`＝主要な～／`a principal 〈名詞〉`＝主な～の一つ／`one of the principal 〈複数名詞〉`＝主要な～の一つ／`the principal cause of ...`＝～の主因／`a principal source of ...`＝～の主要源の一つ／`the principal reason for ...`＝～の主な理由"
+          },
+          "severity": "blocking",
+          "rationale": "C-001 targets this grammar_pattern, but F-001 (Merriam-Webster adjective sense 1), F-013 (Cambridge learner definition), F-016 (Collins American adjective definition) establish adjective meaning and a few noun combinations. They do not document the complete article/number/preposition frames or the proposed a-principal versus the-principal interpretation. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-002"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 134,
+            "line_end": 134,
+            "exact_quote": "【文法パターン】`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長"
+          },
+          "severity": "blocking",
+          "rationale": "C-002 targets this grammar_pattern, but F-002/F-003 (Merriam-Webster noun senses 1/1b), F-014 (Cambridge school-person definition), and F-017 (Collins title definition) establish school/college leadership meanings and one regional qualification. Their supplied passages do not establish the complete principal of determiner-containing NP, a school principal, and a college principal frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-003"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 172,
+            "line_end": 172,
+            "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人"
+          },
+          "severity": "blocking",
+          "rationale": "C-003 targets this grammar_pattern, but F-007 (Merriam-Webster noun sense 1f) and F-018 (Collins performer/first-player uses) establish the performer meaning. Neither supplied passage documents one of + orchestra possessive + plural principals or the proposed possessive-slot generalization. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-004"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 200,
+            "line_end": 200,
+            "exact_quote": "【文法パターン】`principal and interest`＝元金と利息／`pay down the principal`＝元金を減らす／`repay principal`＝元金を返済する／`protect the principal`＝元本を保全する"
+          },
+          "severity": "blocking",
+          "rationale": "C-004 targets this grammar_pattern, but F-008/F-015/F-019/F-024/F-027 establish financial principal and, for F-024, repayment reducing the obligation. They do not document the complete pay down the principal, repay principal, or protect the principal frames, including their article choices. Semantic compatibility alone does not verify these as evidenced complete frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-005"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 252,
+            "line_end": 252,
+            "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係"
+          },
+          "severity": "blocking",
+          "rationale": "C-006 targets this grammar_pattern, but F-004/F-020/F-023 establish authority, behalf, control, and unspecified agent duties. The supplied passages do not establish the full appoints/authorizes an agent to do frame or the complete owe a duty to the principal construction. Wex's mention of duties is not a recorded syntax example. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-006"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 299,
+            "line_end": 299,
+            "exact_quote": "【文法パターン】`a principal in a crime`＝犯罪について `principal` とされる関与者／`treat someone as a principal`＝人を `principal` として扱う／`a principal in the first/second degree`＝歴史的分類上の第一級・第二級 `principal`"
+          },
+          "severity": "blocking",
+          "rationale": "C-007 targets this grammar_pattern, but F-005 (Merriam-Webster noun sense 1d/legal definition) and F-021 (Collins criminal-law sense) support criminal participation and the accessory contrast. Neither fact statement nor source_detail records first/second degree, historical common-law scope, or the supplied complete frames. C-007's support_summary asserts historical degree classifications beyond the underlying F-005 passage summary. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-007"
+        },
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 337,
+            "line_end": 337,
+            "exact_quote": "【文法パターン】`be liable as principal`＝主たる当事者として責任を負う／`the obligation of the principal`＝主たる義務者の義務／`the principal and the surety`＝主たる義務者と保証人"
+          },
+          "severity": "blocking",
+          "rationale": "C-008 targets this grammar_pattern, but F-006/F-022/F-026 establish primary liability and the surety/guarantor contrast. They do not document the zero-article be liable as principal frame or the other complete obligation/surety phrases. Their definition-level support does not establish those grammatical constructions. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+          "id": "normal-evidence-008"
+        }
+      ],
+      "notes": [
+        "Read the complete fixed request only; no source exploration, inventory coverage assessment, or independent dictionary-correctness adjudication was performed.",
+        "Internal packet hash-field equality and fact/union references were checked. Parent confirmed validate_request_integrity and validate_evidence_context returned no errors, rebuilt evidence_context from the real inventory equals this packet, and inventory body binding agrees. External digest verification was performed by the parent, not this reviewer.",
+        "The request supplies source_supports without independent evidence-link IDs. Empty evidence_link_ids arrays avoid inventing IDs; rationales identify the affected existing claim/fact relationships.",
+        "The source summaries support the central pronunciation, etymological path, derivatives, and most sense definitions. These findings address mapped evidence relationships and construction support, not missing source-inventory coverage."
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-cycle2-translation-1"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-cycle2-sense-structure-1"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-fresh2-frame-relation-1"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "inherited session model (not exposed)",
+      "ingested_by": "human",
+      "agent_id": "/root/principal/example"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-cycle2-qualification-1"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-pronunciation-1"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "inherited session model (not exposed)",
+      "ingested_by": "human",
+      "agent_id": "/root/principal/evidence"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

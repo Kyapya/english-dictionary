@@ -1,0 +1,37 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-sense-structure-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 362,
+        "line_end": 362,
+        "exact_quote": "6. 【名詞・可算・法律】正犯、犯罪の主要関与者；主たる債務者・第一次的責任者"
+      },
+      "severity": "blocking",
+      "rationale": "刑事法上の principal（犯罪を実行する、または一定の法体系で実行に主要な形で関与する者）と、債務・保証関係の principal（保証人などに対して第一次的に義務を負う者）は、対立項も成立する法的フレームも異なる。両者を「第一義的責任」という抽象化だけで一語義にまとめると、学習上重要な項構造と用域境界が失われる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義6を刑事法の用法と債務・保証の用法に分割し、コアイメージの対応枝もそれぞれ一度ずつ対応する形に分ける。"
+    },
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 276,
+        "line_end": 276,
+        "exact_quote": "【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる収益であり、同じ金額を指さない。`principal amount` では `principal` が形容詞として `amount` を修飾する一方、`repay the principal` では名詞である。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。信託・遺産の文脈では、収益を生む財産本体を `principal` または `corpus` と呼び、そこから生じる `income` と区別する。この用法も「収益に対する元の財産」という同じ金融・財産上の対立に属する。  "
+      },
+      "severity": "blocking",
+      "rationale": "語法欄は `principal amount` の `principal` を形容詞と明示しているが、番号付きの形容詞語義1は重要度・影響力・順位の高さだけを定義し、金融上の「元の／利息を除く」という意味は名詞語義4にしか収録していない。したがって本文自身が認定する主要な品詞用法が語法欄にだけ存在し、語義構造とコアイメージの品詞対応が一致していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`principal amount` の分析を確定し、形容詞用法とするなら金融上の「元の、利息を除く」を番号付き形容詞語義として追加してコアイメージにも対応させる。名詞の連体修飾とするなら、形容詞と断定する記述を修正して語義4との関係を明示する。"
+    }
+  ]
+}

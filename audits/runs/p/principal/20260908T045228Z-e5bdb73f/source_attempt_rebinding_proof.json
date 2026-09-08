@@ -1,0 +1,20 @@
+{
+  "schema_version": "source_attempt_rebinding_proof_v1",
+  "recorded_at": "2026-09-08T07:32:31.710410+00:00",
+  "original_source_path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/recheck/round3/source_inventory.json",
+  "original_source_sha256": "8205bdac77aed7f65af42e780f0fde308171e9a049f111eb5a2db5f8803cf1a0",
+  "current_source_sha256": "2cd6e963e9e219d944ecf40017f5db732397001561155cc8e5a5995be1cc5023",
+  "only_changed_field": "source_first_audit.usage.final_attempts_used",
+  "before": 0,
+  "after": 1,
+  "reason": "Start final blind/reconciliation attempt after all correction checks passed; source facts, claims, support, body and original raw responses unchanged.",
+  "original_response_sha256": {
+    "translation": "c8085c7b809ea1cc0a99f7e2183372770001df871001a36690be88377835ff89",
+    "sense-structure": "9bb78d1f0bf31cc41804d589012abf9756af8c60a24eee8bf60618a56e1425e5",
+    "frame-relation": "f24946e9630e685b6884ba40eedd7298936fd7c7f184df14753ea2966351bf55",
+    "example-attribution": "e4e3970dae7e0e083bbcd800345a16305ce3cb0cb0ba0cf5265db4a5e5dc57c2",
+    "qualification": "476ccb371a1530f8479023ee965ee956a13ac19746fe4a44f6ac5cdbb3c4ed02",
+    "pronunciation": "7b8efaa0e4f65945c48bc0d6fd87f1d4e4dac300208d1dcb2cb6f35b76054136",
+    "evidence": "e7ff1c0750c9449945f393ef51404cc598840dece28634b1b90516b6845e4677"
+  }
+}

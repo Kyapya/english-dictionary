@@ -1,0 +1,43 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "inherited session model (not exposed)",
+    "ingested_by": "human",
+    "agent_id": "/root/principal/frame"
+  },
+  "axes": [
+    {
+      "item_id": "ant-28424ac40a56",
+      "axis": "unnamable",
+      "relation_type": null,
+      "reason": "本人と代理人は授権関係の異なる当事者を指す相関的役割名であり、同一意味軸上の補完・程度・方向・評価・状態の反対を表さない。"
+    },
+    {
+      "item_id": "ant-7a5355b6c049",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-eb9ac1e6e466",
+      "axis": "unnamable",
+      "relation_type": null,
+      "reason": "主たる債務者と保証人は同一義務に関係する異なる責任役割であり、第一次責任と条件付き保証責任の関係は責任量の反対や相互排他的な補完対立ではない。"
+    },
+    {
+      "item_id": "ant-7477e18058ee",
+      "axis": "unnamable",
+      "relation_type": null,
+      "reason": "元金と利息は資本とそれに基づいて生じる支払額という関連概念であり、同一意味軸上の反対を表さない。"
+    },
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": ""
+    }
+  ]
+}

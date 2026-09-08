@@ -1,0 +1,180 @@
+{
+  "schema_version": "pre_blind_resolution_v1",
+  "resolutions": [
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "刑事法の正犯と債務・保証法の第一次的責任者は、正本F-005/F-021とF-006/F-022/F-026が別の法的役割として支えるため、同一語義に置くべきでない。",
+      "required_changes": ["旧語義6を刑事法と債務・保証法に分割する。"],
+      "implemented_changes": ["刑事法を語義6、債務・保証法を語義7とし、コアイメージも二枝に分割した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定factは金融上のprincipalを元金名詞として支える一方、独立した金融形容詞義を直接記録していないため、principal amountを形容詞と断定せず語義4の名詞による複合名詞句として説明する。",
+      "required_changes": ["principal amountの品詞分析と番号付き語義の矛盾を解消する。"],
+      "implemented_changes": ["principal amountとprincipal balanceを語義4の名詞が前から種類を限定する複合的名詞句と明記した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "cause/source/reasonとof/forの全組合せを許す一括表記は不正確である。",
+      "required_changes": ["名詞ごとに完全フレームを分ける。"],
+      "implemented_changes": ["the principal cause of、a principal source of、the principal reason forに分離した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-frame-relation-002",
+      "finding_id": "normal-frame-relation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "principal balanceは見出し語を含む複合表現であり、principalの別語類義語ではない。",
+      "required_changes": ["principal balanceを類義語欄から外す。"],
+      "implemented_changes": ["類義語ブロックを削除し、語義4の語法で複合的名詞句として扱った。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-frame-relation-003",
+      "finding_id": "normal-frame-relation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "principal debtorは見出し語を含む複合表現であり、principalの類義語ではない。",
+      "required_changes": ["principal debtorを類義語欄から外して品詞境界を示す。"],
+      "implemented_changes": ["類義語欄から削除し、語義7の語法で形容詞principalがdebtorを修飾する構造として説明した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "元例文は教育機関を示さず、学校長と一般の専門職principalを判別できない。",
+      "required_changes": ["学校長語義を一意にする判別語を加える。"],
+      "implemented_changes": ["served as principal of the high schoolとし、所属教育機関を明示した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "学校長の呼称には正本F-017が支える英米差があり、英語全体の遭遇頻度9/10は地域内頻度を過度に一般化する。",
+      "required_changes": ["地域差と整合する頻度に再評価する。"],
+      "implemented_changes": ["学校長語義の頻度を8/10へ調整した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-qualification-002",
+      "finding_id": "normal-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "principal place of businessという語彙表現から制度上の一律な判定基準を導くことはできない。",
+      "required_changes": ["法律上の基準と効果の法域依存を限定する。"],
+      "implemented_changes": ["一般訳を主たる事業所とし、法的基準・効果は適用法や法域で異なると注記した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-001/F-013/F-016は重要度・順位の意味だけを直接支え、限定用法中心や叙述用法の不自然さ・代替表現を支えない。",
+      "required_changes": ["根拠外の位置制約と代替表現を除く。"],
+      "implemented_changes": ["見出しの主に限定用法と、叙述用法・置換案の記述を削除した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-002は指導的地位、F-007/F-018は主要出演者・首席奏者を支えるが、現代の共同所有者、交渉当事者、大文字表記は直接支えない。",
+      "required_changes": ["語義3を固定factが直接支える範囲へ絞る。"],
+      "implemented_changes": ["定義から共同所有、交渉当事者、大小文字の主張を除き、指導的地位と舞台芸術の用法に限定した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-004/F-020/F-023は授権、本人のための行動、権限の源を支えるが、法域差や実際・外観上の権限の区別を直接支えない。",
+      "required_changes": ["代理法定義を固定factの範囲へ限定する。"],
+      "implemented_changes": ["法域、法的効果、実際の権限、外観上の権限に関する文を削除した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-011はprincipalshipの職・地位だけを支え、任期は支えない。",
+      "required_changes": ["任期の意味を除く。"],
+      "implemented_changes": ["principalshipをprincipalの職・地位とだけ説明した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-012はprincipallyがprincipalの副詞形であることだけを支え、意味訳とmainlyとのレジスター差を支えない。",
+      "required_changes": ["principallyを根拠済みの派生関係だけに限定する。"],
+      "implemented_changes": ["語形成をprincipalの副詞形という記述だけにした。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-009はprincipalの発音だけを支え、F-032はprincipalとprincipleの綴り・意味・品詞差だけを支えるため、同音の主張は固定factを越える。",
+      "required_changes": ["principleとの同音主張を除く。"],
+      "implemented_changes": ["発音欄から同音の記述を削除し、語法ではF-032が支える綴り・意味の区別だけを残した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "principal-cold-001",
+      "finding_id": "principal-cold-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "checkerのframe findingと同じく、スラッシュ一括表記が誤った前置詞結合を生成する問題は妥当である。",
+      "required_changes": ["cause/source/reasonの完全フレームを分ける。"],
+      "implemented_changes": ["cause of、source of、reason forを別々に記載した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "principal-cold-002",
+      "finding_id": "principal-cold-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "名詞ブロックに形容詞principalの連語を主要構文として置くと、固定factが支える名詞義と形容詞義の境界が崩れる。",
+      "required_changes": ["名詞単独のprincipalと形容詞修飾のprincipalを分離する。"],
+      "implemented_changes": ["語義3をa principal等の名詞フレームへ統一し、principal dancer/clarinetistを語義1の形容詞用法として相互参照した。語義7も名詞フレームへ統一し、principal debtor/obligorを形容詞構造と明記した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    },
+    {
+      "id": "principal-cold-003",
+      "finding_id": "principal-cold-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "「犯罪義」は日本語として意味を成さない誤記である。",
+      "required_changes": ["意図が明確な日本語へ修正する。"],
+      "implemented_changes": ["「犯罪に関するこの語義」に修正した。"],
+      "resolved_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca"
+    }
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

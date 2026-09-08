@@ -1,0 +1,40 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f",
+  "blind_request_sha256": "2d21e686ed83f976721741d109feccde7f1682bf57b41610d9a13326632300d7",
+  "recorded_at": "2026-09-08T03:49:31+00:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-final-recheck-frame-relation-1"
+  },
+  "axes": [
+    {
+      "item_id": "ant-1001fd1d49e8",
+      "axis": "代理関係役割",
+      "relation_type": "補完"
+    },
+    {
+      "item_id": "ant-2618ec6d86dd",
+      "axis": "債務責任順位",
+      "relation_type": "補完"
+    },
+    {
+      "item_id": "ant-4f4b290b35ed",
+      "axis": "重要度",
+      "relation_type": "程度"
+    },
+    {
+      "item_id": "ant-a1ed243cd083",
+      "axis": "元利区分",
+      "relation_type": "補完"
+    },
+    {
+      "item_id": "ant-afcd2f5cda71",
+      "axis": "重要順位",
+      "relation_type": "程度"
+    }
+  ]
+}

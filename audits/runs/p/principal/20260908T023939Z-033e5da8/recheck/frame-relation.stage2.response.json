@@ -1,0 +1,53 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "68a6ce15a94a74e25430ea93531d1e728f4e6ce3b4b28dc57105fbe79f80026f",
+  "stage2_request_sha256": "b003ff360fe31e7ccf5f1cd95449eb3ac64c92c71f2f9e7ed58b822de4a03210",
+  "blind_record_sha256": "9d1dcd75cdaa7bb635e01ed9bebd4791fb6880ecbbc79ea60291f3a7dd9d022c",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-final-recheck-frame-relation-1",
+    "same_model_as_generation": true
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-afcd2f5cda71",
+      "flags": [],
+      "rationale": "「重要順位」は当該語義の重要度・影響力・順位の記述から直接導け、最上位・主要と二次的・従属的という程度対立に収まる。違い行も対立を肯定しており、F1からF4のいずれにも該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-4f4b290b35ed",
+      "flags": [],
+      "rationale": "「重要度」は当該語義が明示する評価軸であり、最重要・主要と比較的小さいという段階的な程度対立が成立する。違い行に対立の不成立や限定の自己認定はなく、F1からF4の対象ではない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-a1ed243cd083",
+      "flags": [],
+      "rationale": "「元利区分」は、利息・収益と区別される基礎資本という語義定義から導出できる。principal と interest は同一金融関係内の元額と追加額という補完的な区分で、違い行もその対立を維持しているためF1からF4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-1001fd1d49e8",
+      "flags": [],
+      "rationale": "「代理関係役割」は、権限を与える principal と与えられた権限で行動する agent を明示した語義から直接得られる。両者は同一代理関係における補完的役割であり、違い行にも対立を否定する記述はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-2618ec6d86dd",
+      "flags": [],
+      "rationale": "「債務責任順位」は、第一次的責任者を保証人などの二次的責任者と対比する語義そのものに属する。principal と surety は同一保証関係内の補完的な責任役割で、違い行も対立を自己否定していないためF1からF4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

@@ -1,0 +1,179 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-fresh-frame-relation-1"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a",
+    "blind_request_sha256": "61363a87390e72ffe9113ad719a31fb0abd1531207c1d2d4fc7b83877b568b0c",
+    "recorded_at": "2026-09-08T11:53:32+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-fresh-frame-relation-1"
+    },
+    "axes": [
+      {
+        "item_id": "ant-220cded44507",
+        "axis": "元利区分",
+        "relation_type": "補完",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-285f80b0eaa6",
+        "axis": "代理役割",
+        "relation_type": "補完",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-1e2001c886a0",
+        "axis": "責任順位",
+        "relation_type": "補完",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-717ad7790f82",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-c58ad771f55a",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "a5b1c713557927dd314fa13cbb7145566d17126a469d53625959d1c764e65a5a",
+    "stage2_request_sha256": "7a754cc557add53c4199d110b0344c80dba5e0f22ac9441decf728644fc2acc3",
+    "blind_record_sha256": "fa2a196d76162f2688c726fe4c43a49a1c1827a1036d343eb9a130228cf47765",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-fresh-frame-relation-1"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-717ad7790f82",
+        "flags": [],
+        "rationale": "`principal` の最重要・高順位と `secondary` の二次的重要性は、当該語義の定義から重要度の程度対立として直接導出でき、違い行も対立を否定・限定していない。"
+      },
+      {
+        "item_id": "ant-c58ad771f55a",
+        "flags": [],
+        "rationale": "`principal` の高い重要性と `minor` の比較的小さい重要性は、当該語義に属する重要度の程度対立であり、違い行に自己否定はない。"
+      },
+      {
+        "item_id": "ant-220cded44507",
+        "flags": [],
+        "rationale": "基礎となる元金とそこから生じる利息は、金融語義の定義自体が区別する元利区分上の補完的な金額カテゴリーで、違い行もその対照を一貫して説明している。"
+      },
+      {
+        "item_id": "ant-285f80b0eaa6",
+        "flags": [],
+        "rationale": "権限を与える `principal` とその権限で行動する `agent` は、定義に明示された同一代理関係内の補完的役割であり、違い行も対立の不成立を示していない。"
+      },
+      {
+        "item_id": "ant-1e2001c886a0",
+        "flags": [],
+        "rationale": "第一次的に責任を負う `principal` と不履行時に保証責任を負う `surety` は、当該債務・保証語義から導出できる責任順位上の補完対立で、違い行にも自己否定はない。"
+      }
+    ],
+    "frame_findings": [
+      {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 134,
+          "line_end": 134,
+          "exact_quote": "【文法パターン】`the principal of 〈学校・教育機関〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長  "
+        },
+        "severity": "blocking",
+        "rationale": "`of` 後のスロットを裸の学校・教育機関名詞として提示しているため、`school` や `college` をそのまま代入すると `the principal of school/college` となり、例文で実現している限定詞付き名詞句 `the college` と一致しない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "`the principal of 〈限定詞を含む学校・教育機関の名詞句〉` のように、`of` の目的語を完全な名詞句として示す。"
+      },
+      {
+        "taxonomy_id": "lexical_relation_mislabel",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 206,
+          "line_end": 206,
+          "exact_quote": "・director  "
+        },
+        "severity": "blocking",
+        "rationale": "`director` は管理・統括という別の正式役職を表し、この語義の `principal` が含む専門職上級者や首席出演者・首席奏者という中心義と十分に重ならない。直後の違い行も別職階で肩書きを相互置換できないと明記しており、類義語ではなく関連役職である。",
+        "evidence_link_ids": [],
+        "suggested_direction": "語法・注意への対照表現としての移動"
+      },
+      {
+        "taxonomy_id": "lexical_relation_mislabel",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 308,
+          "line_end": 308,
+          "exact_quote": "・client  "
+        },
+        "severity": "blocking",
+        "rationale": "`client` の中心義はサービスを受ける顧客であり、代理権を与える法律上の本人という `principal` の中心義を含意しない。両者が同一人物になり得るだけの関連語で、直後の違い行も代理権付与が不要だと認めているため類義語表示は不適切である。",
+        "evidence_link_ids": [],
+        "suggested_direction": "語法・注意への対照表現としての移動"
+      }
+    ],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T03:10:22.640915+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 134,
+        "line_end": 134,
+        "exact_quote": "【文法パターン】`the principal of 〈学校・教育機関〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長  "
+      },
+      "severity": "blocking",
+      "rationale": "`of` 後のスロットを裸の学校・教育機関名詞として提示しているため、`school` や `college` をそのまま代入すると `the principal of school/college` となり、例文で実現している限定詞付き名詞句 `the college` と一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`the principal of 〈限定詞を含む学校・教育機関の名詞句〉` のように、`of` の目的語を完全な名詞句として示す。"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 206,
+        "line_end": 206,
+        "exact_quote": "・director  "
+      },
+      "severity": "blocking",
+      "rationale": "`director` は管理・統括という別の正式役職を表し、この語義の `principal` が含む専門職上級者や首席出演者・首席奏者という中心義と十分に重ならない。直後の違い行も別職階で肩書きを相互置換できないと明記しており、類義語ではなく関連役職である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 308,
+        "line_end": 308,
+        "exact_quote": "・client  "
+      },
+      "severity": "blocking",
+      "rationale": "`client` の中心義はサービスを受ける顧客であり、代理権を与える法律上の本人という `principal` の中心義を含意しない。両者が同一人物になり得るだけの関連語で、直後の違い行も代理権付与が不要だと認めているため類義語表示は不適切である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動"
+    }
+  ],
+  "unrouted_observations": []
+}

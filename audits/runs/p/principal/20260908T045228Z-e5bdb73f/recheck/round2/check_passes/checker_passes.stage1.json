@@ -1,0 +1,480 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-principal-20260908T045228Z-e5bdb73f",
+  "context_id": "normal-principal-context-20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "47db07a69e3698ae66b7c812b2f29f81a68c614b65cdc359c4603bdbb685fddd",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T07:24:10.829444+00:00",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/translation2"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/sense2"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/frame2"
+      },
+      "findings": [],
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "47db07a69e3698ae66b7c812b2f29f81a68c614b65cdc359c4603bdbb685fddd",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "Codex (inherited session model)",
+          "ingested_by": "human",
+          "agent_id": "/root/finish_principal/frame2"
+        },
+        "axes": [
+          {
+            "item_id": "ant-7a5355b6c049",
+            "axis": "重要度",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-7477e18058ee",
+            "axis": "unnamable",
+            "relation_type": null,
+            "reason": "権限を与える本人とその権限で行動する代理人は代理関係の相関する役割であり、同じ属性の反対値を表す二語ではない。"
+          },
+          {
+            "item_id": "ant-28424ac40a56",
+            "axis": "unnamable",
+            "relation_type": null,
+            "reason": "第一次的義務者とその不履行を保証する者は異なる責任を担う関連役割であり、責任の有無や大小を反対方向に表す二語ではない。"
+          },
+          {
+            "item_id": "ant-f5f13e9b951b",
+            "axis": "重要度",
+            "relation_type": "程度",
+            "reason": ""
+          }
+        ],
+        "blind_request_sha256": "355b63ccfbfd389c128c75cba460efe0a635eb7b0f00aa6adee34701156aa5ec",
+        "recorded_at": "2026-09-08T07:24:10.811979+00:00"
+      }
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/example2"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "47db07a69e3698ae66b7c812b2f29f81a68c614b65cdc359c4603bdbb685fddd",
+        "recorded_at": "2026-09-08T07:19:54Z",
+        "blind_request_sha256": "68c1e1cd83eac715065c6dda3503fe0b7e0ddccda6d3d05357929563c574b0fc",
+        "attributions": [
+          {
+            "example_id": "ex-fe17b24d87b1",
+            "classification": "unique",
+            "best_sense_id": "sense:003",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "includes both principal and interest"
+            ],
+            "rationale": "\"The monthly payment includes both principal and interest.\": Payment components coordinate principal with interest, selecting capital amount. Sense:007 is an obligor, not an amount included in a payment."
+          },
+          {
+            "example_id": "ex-520ae0c81995",
+            "classification": "unique",
+            "best_sense_id": "sense:006",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "treats a person who knowingly assists the offense as a principal"
+            ],
+            "rationale": "\"The statute treats a person who knowingly assists the offense as a principal.\": The statutory classification is expressly based on knowing assistance to an offense. Sense:004 requires authority granted to an agent; classification for offense assistance does not express that relation."
+          },
+          {
+            "example_id": "ex-7dab22053856",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a principal source of income"
+            ],
+            "rationale": "\"Tourism is a principal source of income for the island.\": Principal modifies source attributively and ranks its importance. Sense:003 would itself denote the capital amount rather than qualify source."
+          },
+          {
+            "example_id": "ex-29b0de50abd4",
+            "classification": "unique",
+            "best_sense_id": "sense:002",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The school principal"
+            ],
+            "rationale": "\"The school principal met with parents after the incident.\": The compound names the school's institutional head. Sense:004 names the authorizing party to agency, a relation not expressed by the institutional office compound school principal."
+          },
+          {
+            "example_id": "ex-2d3d6de2e03f",
+            "classification": "unique",
+            "best_sense_id": "sense:003",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "repaying principal"
+            ],
+            "rationale": "\"The borrower will begin repaying principal next year.\": Bare mass principal is the amount repaid. Sense:007 is a countable person or entity bearing the debt and cannot supply this bare mass amount object."
+          },
+          {
+            "example_id": "ex-2a415e1227b0",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "The principal reason"
+            ],
+            "rationale": "\"The principal reason for the delay was a shortage of parts.\": Principal is an attributive importance modifier of reason. Sense:002 is a person noun and cannot express this reason-ranking relation."
+          },
+          {
+            "example_id": "ex-157beac2d8f2",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "one of the principal architects"
+            ],
+            "rationale": "\"She is one of the principal architects of the reform.\": Principal modifies the plural head architects, indicating importance among architects. Sense:002 would head the person-denoting noun phrase rather than modify architects in this construction."
+          },
+          {
+            "example_id": "ex-18bb0ddb5ba9",
+            "classification": "unique",
+            "best_sense_id": "sense:007",
+            "candidate_sense_ids": [
+              "sense:007"
+            ],
+            "discriminating_terms": [
+              "liable as principal for the debt",
+              "guarantor is only secondarily liable"
+            ],
+            "rationale": "\"Under the agreement, the company remains liable as principal for the debt, while the guarantor is only secondarily liable.\": Explicit primary-versus-secondary debt liability identifies sense:007. Sense:004 authorizes an agent and does not itself establish this contrast of liability with a guarantor."
+          },
+          {
+            "example_id": "ex-96969658d75c",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "its principal place of business"
+            ],
+            "rationale": "\"The company moved its principal place of business to Osaka.\": Principal ranks a place of business as main. Sense:002 denotes an institutional person, not an attributive ranking of a place."
+          },
+          {
+            "example_id": "ex-1e57e2430a98",
+            "classification": "unique",
+            "best_sense_id": "sense:006",
+            "candidate_sense_ids": [
+              "sense:006"
+            ],
+            "discriminating_terms": [
+              "as a principal in the crime"
+            ],
+            "rationale": "\"The court identified him as a principal in the crime.\": The complement in the crime attaches principal to a person's role in committing an offense. Sense:004 concerns an agent's authorizing party, not classification of the person as participant in the crime."
+          },
+          {
+            "example_id": "ex-59d4fc91ccdf",
+            "classification": "ambiguous",
+            "best_sense_id": "sense:007",
+            "candidate_sense_ids": [
+              "sense:007",
+              "sense:004"
+            ],
+            "discriminating_terms": [],
+            "rationale": "\"The guarantee does not replace the obligation of the principal.\": The guarantee and principal's continuing obligation naturally suggest a primary obligor, but no primary/secondary liability contrast or guaranteed debt relation is specified. An agency principal's obligation could also remain despite a guarantee; the same principal use does not exclude sense:004."
+          },
+          {
+            "example_id": "ex-9dbc67db030d",
+            "classification": "unique",
+            "best_sense_id": "sense:002",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "The principal of the college"
+            ],
+            "rationale": "\"The principal of the college welcomed the new students.\": The of-complement forms an institutional head title. Sense:005 requires a performing or sectional orchestral role and does not name the head of a college with this construction."
+          },
+          {
+            "example_id": "ex-49355501caac",
+            "classification": "unique",
+            "best_sense_id": "sense:004",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "created a principal-agent relationship"
+            ],
+            "rationale": "\"The contract created a principal-agent relationship between the owner and the broker.\": The relational compound explicitly opposes the principal to its agent. Sense:007 requires primary liability opposite a surety, not the principal-agent authority relation."
+          },
+          {
+            "example_id": "ex-09c5a98499dd",
+            "classification": "ambiguous",
+            "best_sense_id": "sense:005",
+            "candidate_sense_ids": [
+              "sense:005",
+              "sense:002"
+            ],
+            "discriminating_terms": [],
+            "rationale": "\"The concert program lists her as one of the orchestra's principals.\": The possessive plural role name naturally suggests leading orchestral players, but the sentence supplies no playing, instrument-section, or performer function. Sense:002 organizational leaders also fits the same noun use; appearance in a concert program alone cannot exclude it."
+          },
+          {
+            "example_id": "ex-a643dfd29d91",
+            "classification": "unique",
+            "best_sense_id": "sense:004",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "agent may sign",
+              "on behalf of the principal"
+            ],
+            "rationale": "\"The agent may sign the document on behalf of the principal.\": Principal is the represented party on whose behalf an agent signs. Sense:007 primary debt liability does not express this representation relation."
+          },
+          {
+            "example_id": "ex-9f21a9f9e7ab",
+            "classification": "ambiguous",
+            "best_sense_id": "sense:007",
+            "candidate_sense_ids": [
+              "sense:007",
+              "sense:004"
+            ],
+            "discriminating_terms": [],
+            "rationale": "\"The agreement states the duties of the principal and the surety.\": Coordination with surety favors primary obligor, but duties are unspecified and coordination alone does not state that the principal bears the secured obligation. An agency principal and a surety can both have duties in an agreement, leaving sense:004 viable."
+          },
+          {
+            "example_id": "ex-3b81e36f6569",
+            "classification": "unique",
+            "best_sense_id": "sense:001",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "as the principal cause"
+            ],
+            "rationale": "\"Investigators identified corrosion as the principal cause of the failure.\": Principal attributively ranks cause. Sense:006 denotes a criminally responsible person, not a ranking modifier of a cause."
+          },
+          {
+            "example_id": "ex-40742cac4b7e",
+            "classification": "unique",
+            "best_sense_id": "sense:003",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "Extra payments",
+              "pay down the principal"
+            ],
+            "rationale": "\"Extra payments can help you pay down the principal faster.\": Pay down denotes reducing an outstanding capital amount through payments. Sense:007 is an obligor, which cannot itself be reduced in amount by paying down."
+          },
+          {
+            "example_id": "ex-a33f869a820c",
+            "classification": "ambiguous",
+            "best_sense_id": "sense:003",
+            "candidate_sense_ids": [
+              "sense:003",
+              "sense:004"
+            ],
+            "discriminating_terms": [],
+            "rationale": "\"The fund aims to protect the principal while generating modest returns.\": The translation explicitly selects capital, but English protecting a principal while generating returns can mean protecting an agency client as well as preserving capital. No explicit capital-loss or principal-versus-income distinction excludes sense:004."
+          },
+          {
+            "example_id": "ex-f4720456a0d5",
+            "classification": "unique",
+            "best_sense_id": "sense:002",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "A college principal"
+            ],
+            "rationale": "\"A college principal addressed the graduating class.\": College principal is an institutional head title. Sense:005 denotes a performer or orchestral section leader, a role not expressed by the college-head compound."
+          }
+        ],
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "Codex (inherited session model)",
+          "ingested_by": "human",
+          "agent_id": "/root/finish_principal/example2"
+        }
+      },
+      "aligned_at": "2026-09-08T07:24:10.813419+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 188,
+            "line_end": 188,
+            "exact_quote": "例: The fund aims to protect the principal while generating modest returns.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:003, sense:004が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        },
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 263,
+            "line_end": 263,
+            "exact_quote": "例: The concert program lists her as one of the orchestra's principals.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:005, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        },
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 329,
+            "line_end": 329,
+            "exact_quote": "例: The guarantee does not replace the obligation of the principal.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:007, sense:004が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        },
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 334,
+            "line_end": 334,
+            "exact_quote": "例: The agreement states the duties of the principal and the surety.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:007, sense:004が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/qualification2"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/pronunciation2"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "Codex (inherited session model)",
+        "ingested_by": "human",
+        "agent_id": "/root/finish_principal/evidence2"
+      },
+      "findings": [],
+      "scope_note": "Reviewed the supplied evidence_context_v1 claim units C-001 through C-013 against their source_supports, source facts, source locators, and corresponding article claims. The supplied summaries directly support those claim units, including the qualified US agency-control account, jurisdiction-sensitive criminal sense, broadened authority noun, and financial repayment statement. Distinct dictionary independence groups were preserved. The packet body and source-first hash references agree internally. No new research, source-inventory coverage audit, or independent verification of source-page transcription was performed. This result assesses the supplied claim links, not whether every additional article assertion has an evidence link."
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/translation2"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/sense2"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/frame2"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/example2"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/qualification2"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/pronunciation2"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/evidence2"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker stage 1 completed by seven parallel handoff agents; frame-relation stage 2 remains pending."
+}

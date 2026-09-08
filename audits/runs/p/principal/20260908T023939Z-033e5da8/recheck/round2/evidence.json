@@ -1,0 +1,57 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-clean-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "「重要度や責任において第一」という核が、形容詞の「主要な」、組織の長、元金、法律上の主要当事者という現代の用法につながっている。"
+      },
+      "severity": "blocking",
+      "rationale": "C-010 の F-010 と F-028 は French/Latin の伝来、princeps の形態分析、first/chief という意味を直接支持するが、そこから組織の長・元金・法律上の主要当事者の各現代語義へ発展したという列挙された意味史までは支持しない。対応する歴史 fact F-029〜F-031 は固定 inventory では excluded で、この evidence context にも C-010 の source_supports にも含まれていない。",
+      "evidence_link_ids": [
+        "C-010"
+      ],
+      "suggested_direction": "主張を資料が直接示す語源経路と first/chief の意味的連関に限定するか、各現代語義への歴史的展開を直接支える included fact と claim unit に差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 132,
+        "line_end": 132,
+        "exact_quote": "【レジスター/領域】標準語。米国・カナダなどでは小中高校の「校長」に一般的。イングランドでは学校の長には `head teacher` または `head` が一般的で、`principal` はカレッジなど特定の教育機関の長に使われることがある。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-002 の F-003/F-014 は school/educational-institution head の語義を示し、F-017 は England で college head を指し得ることを示すが、米国・カナダの小中高校で一般的であること、また England の学校では head teacher/head が一般的であることを直接示さない。一般的な地域差の存在という claim から、この二地域の選好と学校段階を断定することはできない。",
+      "evidence_link_ids": [
+        "C-002"
+      ],
+      "suggested_direction": "F-017 が直接支える school/England-college の差まで主張を限定するか、北米・England の役職名選好を直接記述する地域別資料へ根拠を差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 215,
+        "line_end": 215,
+        "exact_quote": "当初の元本金額を指す場合と、返済を反映した現在の未返済元金を指す場合があり、元金への支払いは未返済債務の基礎額を減らす。"
+      },
+      "severity": "blocking",
+      "rationale": "C-004 の資料は principal を original/initial/total borrowed, lent, or invested amount と定義し、F-024 は元金返済が underlying obligation を減らすと説明する。しかし、同じ語が『当初額』と『返済後の現在の未返済額』という二つの指示対象を持つという本文の対比を直接記述する source fact はない。返済で債務が減ることから別の語義境界を推論している。",
+      "evidence_link_ids": [
+        "C-004"
+      ],
+      "suggested_direction": "original/underlying amount と返済による obligation の減少という資料記載に限定するか、outstanding principal/current principal balance を明示的に定義する資料へ根拠を差し替える。"
+    }
+  ],
+  "unrouted_observations": []
+}

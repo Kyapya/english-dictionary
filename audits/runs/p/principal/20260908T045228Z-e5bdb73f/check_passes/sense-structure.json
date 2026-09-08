@@ -1,0 +1,62 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cycle2-sense-structure-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 128,
+        "line_end": 128,
+        "exact_quote": "【日本語訳・定義】学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。  "
+      },
+      "severity": "blocking",
+      "rationale": "固定済み source union の U-002 は、教育機関の長だけでなく、組織で支配的権限または主導的地位を持つ人物という名詞用法も収録対象としている。しかし語義2は教育機関の最高責任者に限定され、他の番号付き名詞語義もこの一般的な権限・主導者用法を受け入れない。コアイメージ本文の「組織や行為の中心人物」に対応する収録先も学校・オーケストラ以外にはなく、主要な名詞候補が語義構造から欠落している。",
+      "evidence_link_ids": [
+        "F-002",
+        "F-003",
+        "F-014",
+        "F-017"
+      ],
+      "suggested_direction": "人物を指す一般的な権限・主導者用法を、教育機関の役職名と学習上区別できる番号付き語義として追加するか、語義2をその用法まで明示的に含む構造へ再編し、コアイメージ枝・フレーム・例も対応させる。"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 166,
+        "line_end": 166,
+        "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "固定済み source union の U-003 は、オーケストラのセクション首席だけでなく、舞台芸術の principal artist や leading performer まで含む確立した名詞用法を収録対象としている。現行語義3はオーケストラに限定し、レジスター、フレーム、コアイメージ枝もその範囲だけなので、裏付けられた舞台芸術上の主要用法に収録先がない。",
+      "evidence_link_ids": [
+        "F-007",
+        "F-018"
+      ],
+      "suggested_direction": "語義3を、根拠が支える舞台芸術の主役・主要演者とオーケストラの首席奏者を包含する範囲へ広げ、各下位用法のフレームと例を区別して示す。"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 194,
+        "line_end": 194,
+        "exact_quote": "【日本語訳・定義】借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。  "
+      },
+      "severity": "blocking",
+      "rationale": "固定済み source union の U-005 は、信託で income と区別される財産本体・corpus の用法を、金融上の principal に統合する収録対象としている。現行語義4は借入・貸付・投資の「金額」に限定され、信託財産は金銭以外も含み得るため、この専門用法を包含しない。コアイメージ枝、領域、フレームにも信託用法の収録先がない。",
+      "evidence_link_ids": [
+        "F-025"
+      ],
+      "suggested_direction": "語義4へ、信託の income と対比される財産本体・corpus の専門用法を明示的に統合し、見出し・コアイメージ枝・領域・フレームを金額だけに閉じない形へ広げる。学習上別フレームと判断するなら独立語義に分ける。"
+    }
+  ],
+  "unrouted_observations": []
+}

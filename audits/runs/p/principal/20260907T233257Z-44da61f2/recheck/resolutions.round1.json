@@ -1,0 +1,120 @@
+{
+  "schema_version": "checker_recheck_resolutions_v1",
+  "stage": "checker_recheck_resolution",
+  "run_id": "20260907T233257Z-44da61f2",
+  "input_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca",
+  "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+  "recorded_at": "2026-09-08T01:44:39Z",
+  "resolutions": [
+    {
+      "id": "recheck-translation-001",
+      "finding_id": "recheck-translation-001",
+      "origin_pass": "translation",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "用途説明が例文の遅延という出来事を含まず、完全な意味フレームが一致していなかった。",
+      "required_changes": ["principal reason for の対象範囲を例文と整合させる。"],
+      "implemented_changes": ["用途を出来事・状況・判断・行動などの主要理由へ一般化した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-sense-structure-001",
+      "finding_id": "recheck-sense-structure-001",
+      "origin_pass": "sense-structure",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "無限定の a principal を語義3だけへ割り当てると他の可算名詞義と衝突する。",
+      "required_changes": ["語義3への参照を舞台芸術・専門職の文脈に限定する。"],
+      "implemented_changes": ["当該文脈に限定し、他の名詞義は文脈で判別すると明記した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-sense-structure-002",
+      "finding_id": "recheck-sense-structure-002",
+      "origin_pass": "sense-structure",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定根拠が支える完全形は principal-agent relationship であり、構成要素だけへ関係の意味を一般化していた。",
+      "required_changes": ["複合形を固定根拠が支える完全形にする。"],
+      "implemented_changes": ["principal-agent relationship として本人・代理人関係を説明した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-qualification-001",
+      "finding_id": "recheck-qualification-001",
+      "origin_pass": "qualification",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "undisclosed principal と身元のみ不明な分類を混同し、固定根拠にも分類自体の直接記録がない。",
+      "required_changes": ["固定根拠外の分類説明を除く。"],
+      "implemented_changes": ["disclosed/undisclosed principal のフレームと説明を削除した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-evidence-001",
+      "finding_id": "recheck-evidence-001",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定F-009は詳細な米英IPA・音節・母音断定を直接支えない。",
+      "required_changes": ["発音主張をF-009の直接範囲へ狭める。"],
+      "implemented_changes": ["共有発音 /ˈprɪnsəpəl/ と形容詞・名詞で同じ発音という記述だけにした。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-evidence-002",
+      "finding_id": "recheck-evidence-002",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定locatorはprincipalshipを名詞派生語として列挙するだけで職・地位の意味を直接定義しない。",
+      "required_changes": ["本文とF-011を列挙事実の範囲へ狭める。"],
+      "implemented_changes": ["本文・F-011・U-011・C-011を名詞派生語としての掲載へ限定した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-evidence-003",
+      "finding_id": "recheck-evidence-003",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F-029は歴史的なchief person等を支えるが出演者・オーケストラ奏者を支えない。",
+      "required_changes": ["出演者・奏者targetからF-029結合を除く。"],
+      "implemented_changes": ["U-003/C-003のF-029 supportを除き、直接支えるF-007/F-018だけを残した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-evidence-004",
+      "finding_id": "recheck-evidence-004",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定factはappoint someone principalとserve/work as principalの完全フレームを直接記録しない。",
+      "required_changes": ["未記録フレームを削除する。"],
+      "implemented_changes": ["両フレームと対応例を削除し、直接支えられるthe principal of、a school principal、a college principalに限定した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-evidence-005",
+      "finding_id": "recheck-evidence-005",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定F-004/F-020/F-023はdisclosed/undisclosed分類や完全フレームを直接支えない。",
+      "required_changes": ["根拠外の分類フレームを削除する。"],
+      "implemented_changes": ["disclosed/undisclosed principal のフレームを削除した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    },
+    {
+      "id": "recheck-evidence-006",
+      "finding_id": "recheck-evidence-006",
+      "origin_pass": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "固定F-006/F-022/F-026は主債務者の第一次的責任を支えるがrecover from the principalを直接記録しない。",
+      "required_changes": ["未記録のrecourseフレームを削除する。"],
+      "implemented_changes": ["recover from the principalのフレームとその含意を削除した。"],
+      "resolved_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87"
+    }
+  ]
+}

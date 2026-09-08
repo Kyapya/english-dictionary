@@ -1,0 +1,438 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-round2-example-attribution-1"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "a90e8ce4e9b278894c354be6358063e378816073104700b90e9a801635efff87",
+    "blind_request_sha256": "c7ad64fe45096affd125d399c8f92c5969515bdc4def296dd666ff05960f72b1",
+    "recorded_at": "2026-09-08T02:01:49.901Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-round2-example-attribution-1"
+    },
+    "sense_inventory": [
+      {
+        "sense_id": "sense:001",
+        "label": "1. 【形容詞】主要な、最も重要な、第一の",
+        "definition": "複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。"
+      },
+      {
+        "sense_id": "sense:002",
+        "label": "2. 【名詞・可算】校長、学長、教育機関の長",
+        "definition": "学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。"
+      },
+      {
+        "sense_id": "sense:003",
+        "label": "3. 【名詞・可算】責任者、中心人物、首席・主要メンバー",
+        "definition": "専門業務や舞台芸術などで、指導的地位または主要な役割を持つ人。企業・専門組織の上級責任者や、バレエ団・オペラ団の首席出演者、オーケストラのセクションを率いる奏者などを指す。"
+      },
+      {
+        "sense_id": "sense:004",
+        "label": "4. 【名詞・不可算を中心に可算用法もある】元金、元本、利息計算の基礎額",
+        "definition": "借入・貸付の元の金額、または投資された当初の金額で、そこから生じる利息・利益・収益とは区別される金額。返済文脈では、元金への支払いは未返済債務の基礎額を減らす。個別の元本額や複数の契約上の元金を数える専門文脈では可算的にも扱われる。"
+      },
+      {
+        "sense_id": "sense:005",
+        "label": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者",
+        "definition": "別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。"
+      },
+      {
+        "sense_id": "sense:006",
+        "label": "6. 【名詞・可算・刑事法】正犯、犯罪の主要関与者",
+        "definition": "刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。"
+      },
+      {
+        "sense_id": "sense:007",
+        "label": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者",
+        "definition": "債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。"
+      }
+    ],
+    "blind_order": [
+      "ex-23fe8d7e34bf",
+      "ex-7ce3fa1928bd",
+      "ex-787d0d6e604a",
+      "ex-035cd7286efe",
+      "ex-29fd6f25cc1d",
+      "ex-a94a0174e491",
+      "ex-0db1de1b4782",
+      "ex-fed63e3bf73a",
+      "ex-dba3de7fc584",
+      "ex-d1cf0e1fddea",
+      "ex-bde62bf7a130",
+      "ex-6fbfdb45d221",
+      "ex-e0a2e0af437e",
+      "ex-181144716c84",
+      "ex-a0554027ce5e",
+      "ex-7a1a27925b14",
+      "ex-e8a814c503f9",
+      "ex-9c7ba15916eb",
+      "ex-ff780494e5e1",
+      "ex-af66cb8f8f3a",
+      "ex-c399046add65",
+      "ex-816ce171bee8",
+      "ex-c6407dca31ed",
+      "ex-bb98e40caf9a",
+      "ex-6b912d4db4e1",
+      "ex-b17b31c5e33f"
+    ],
+    "attributions": [
+      {
+        "example_id": "ex-23fe8d7e34bf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal cause"
+        ],
+        "example": "Investigators identified corrosion as the principal cause of the failure.",
+        "translation": "調査担当者は、腐食をその故障の主因と特定した。",
+        "rationale": "\"the principal cause of the failure\" では principal が cause の重要度を限定する形容詞なのでsense:001。競合するsense:006（犯罪の正犯）は人を指す可算名詞だが、同じ例文では principal は cause を修飾しており、その名詞用法では成立しない。"
+      },
+      {
+        "example_id": "ex-7ce3fa1928bd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal architects"
+        ],
+        "example": "She is one of the principal architects of the reform.",
+        "translation": "彼女はその改革の主要な立案者の一人である。",
+        "rationale": "\"the principal architects of the reform\" では principal が複数の architects の中で主要な者を選ぶ形容詞なのでsense:001。競合するsense:003（上級責任者・主要メンバー）は principal 自体が人を指す名詞だが、この例文では人を指す中心名詞は architects であり、principal の名詞用法では成立しない。"
+      },
+      {
+        "example_id": "ex-787d0d6e604a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal reason"
+        ],
+        "example": "The principal reason for the delay was a shortage of parts.",
+        "translation": "遅延の主な理由は部品不足だった。",
+        "rationale": "\"The principal reason for the delay\" では principal が reason の重要度を表す形容詞なのでsense:001。競合するsense:004（元金・元本）は principal 自体を金額として指す名詞だが、ここでは reason を修飾しており成立しない。"
+      },
+      {
+        "example_id": "ex-035cd7286efe",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "college principal"
+        ],
+        "example": "A college principal addressed the graduating class.",
+        "translation": "カレッジの学長が卒業生に向けて話した。",
+        "rationale": "\"A college principal\" は principal が college という教育機関の長を指す名詞なのでsense:002。競合するsense:003（専門組織の責任者）は一般の専門組織内の役職だが、同じ名詞句は担当組織を教育機関 college として直接指定するため、その一般職用法ではない。"
+      },
+      {
+        "example_id": "ex-29fd6f25cc1d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "assists the offense as a principal"
+        ],
+        "example": "The statute treats a person who knowingly assists the offense as a principal.",
+        "translation": "その制定法は、情を知って犯罪を援助する者を正犯として扱う。",
+        "rationale": "\"treats a person who knowingly assists the offense as a principal\" は犯罪への関与者を法的に principal と分類するのでsense:006。競合するsense:005（代理関係の本人）なら agent に権限を与える関係が必要だが、この例文の principal は offense への関与を根拠にするため成立しない。"
+      },
+      {
+        "example_id": "ex-a94a0174e491",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "orchestra's section principals"
+        ],
+        "example": "The orchestra's section principals met before rehearsal.",
+        "translation": "そのオーケストラの各セクションの首席奏者はリハーサル前に集まった。",
+        "rationale": "\"The orchestra's section principals\" は各楽器セクションを率いる奏者を principal と呼ぶのでsense:003。競合するsense:002（教育機関の長）は principal が学校・カレッジを管理する者を指すが、この例文では section が役割範囲で orchestra が組織なので成立しない。"
+      },
+      {
+        "example_id": "ex-0db1de1b4782",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "a principal in the crime"
+        ],
+        "example": "The court identified him as a principal in the crime.",
+        "translation": "裁判所は彼をその犯罪の正犯と認定した。",
+        "rationale": "\"identified him as a principal in the crime\" は principal の関与領域を crime として直接指定し、刑事上の主要関与者を表すのでsense:006。競合するsense:007（主たる債務者）なら責任対象は debt や obligation になるが、この例文は crime への関与なので成立しない。"
+      },
+      {
+        "example_id": "ex-fed63e3bf73a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "school principal"
+        ],
+        "example": "The school principal met with parents after the incident.",
+        "translation": "校長はその出来事の後、保護者と面会した。",
+        "rationale": "\"The school principal\" は school という教育機関の長を指す複合名詞なのでsense:002。競合するsense:003（一般の組織責任者）は非教育機関にも広がる役職だが、この例文では principal の管理対象が school と直接指定されるため成立しない。"
+      },
+      {
+        "example_id": "ex-dba3de7fc584",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "principal in the first degree"
+        ],
+        "example": "The older judgment classified the defendant as a principal in the first degree.",
+        "translation": "その古い判決は被告人を第一級正犯に分類した。",
+        "rationale": "\"classified the defendant as a principal in the first degree\" は刑事責任上の等級を伴って defendant を principal と分類するのでsense:006。競合するsense:005（代理関係の本人）は agent との権限関係を表すが、\"in the first degree\" という刑事分類と結び付かず成立しない。"
+      },
+      {
+        "example_id": "ex-d1cf0e1fddea",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "An agent",
+          "owes duties ... to the principal"
+        ],
+        "example": "An agent generally owes duties of loyalty and care to the principal.",
+        "translation": "代理人は一般に、本人に対して忠実義務と注意義務を負う。",
+        "rationale": "\"An agent generally owes duties of loyalty and care to the principal\" は agent から principal への代理関係上の義務方向を表すのでsense:005。競合するsense:007（主たる債務者）なら surety との一次・二次責任が必要だが、この例文は agent の忠実・注意義務の相手なので成立しない。"
+      },
+      {
+        "example_id": "ex-bde62bf7a130",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal source of income"
+        ],
+        "example": "Tourism is a principal source of income for the island.",
+        "translation": "観光はその島の主要な収入源の一つである。",
+        "rationale": "\"a principal source of income\" では principal が source の重要度を表す形容詞なのでsense:001。競合するsense:004（元金・元本）は principal 自体が利息等と対比される金額名詞だが、この例文では source を修飾しており成立しない。"
+      },
+      {
+        "example_id": "ex-6fbfdb45d221",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "pay down the principal"
+        ],
+        "example": "Extra payments can help you pay down the principal faster.",
+        "translation": "追加返済をすれば、元金をより早く減らせる。",
+        "rationale": "\"pay down the principal\" は返済によって減少する基礎債務額を principal の目的語として取るのでsense:004。競合するsense:007（主たる債務者）は人・法人を指し、pay down の対象となる金額ではないため成立しない。"
+      },
+      {
+        "example_id": "ex-e0a2e0af437e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "principal-agent relationship"
+        ],
+        "example": "The contract created a principal-agent relationship between the owner and the broker.",
+        "translation": "その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。",
+        "rationale": "\"created a principal-agent relationship\" は principal と agent の権限授受関係を明示するのでsense:005。競合するsense:007（主たる債務者）は surety と対比される債務上の一次責任者であり、agent と対になるこの関係名では成立しない。"
+      },
+      {
+        "example_id": "ex-181144716c84",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a principal at an engineering consultancy"
+        ],
+        "example": "She is a principal at an engineering consultancy.",
+        "translation": "彼女はエンジニアリング・コンサルティング会社の上級責任者である。",
+        "rationale": "\"a principal at an engineering consultancy\" は consultancy 内の上級職を principal という人名詞で表すのでsense:003。競合するsense:002（校長・学長）は教育機関を管理する長だが、at の補語は engineering consultancy であり、同じ役職関係では成立しない。"
+      },
+      {
+        "example_id": "ex-a0554027ce5e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "protect the principal",
+          "generating modest returns"
+        ],
+        "example": "The fund aims to protect the principal while generating modest returns.",
+        "translation": "そのファンドは、控えめな収益を生みながら元本を保全することを目指している。",
+        "rationale": "\"protect the principal while generating modest returns\" は投資元本を収益と対比して保全対象にするのでsense:004。競合するsense:005（代理関係の本人）は保護される人・法人を指し得るが、同じ例文で principal と returns が元本対収益の関係を作るため成立しない。"
+      },
+      {
+        "example_id": "ex-7a1a27925b14",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "liable as principal for the debt"
+        ],
+        "example": "Under the agreement, the company remains liable as principal for the debt.",
+        "translation": "その契約の下で、会社はその債務について主たる当事者として引き続き責任を負う。",
+        "rationale": "\"liable as principal for the debt\" は principal が debt について第一次的に責任を負う主体という関係を直接表すのでsense:007。競合するsense:005（代理関係の本人）は agent への権限付与で定義され、principal であること自体が debt への一次責任を表す用法ではないため、この補語構造では成立しない。"
+      },
+      {
+        "example_id": "ex-e8a814c503f9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "Interest is calculated on",
+          "outstanding principal amount"
+        ],
+        "example": "Interest is calculated on the outstanding principal amount.",
+        "translation": "利息は未返済の元本金額に対して計算される。",
+        "rationale": "\"Interest is calculated on the outstanding principal amount\" は利息計算の基礎となる未返済元本金額を表すのでsense:004。競合するsense:001（主要な）は形容詞として重要度を示すが、ここでは principal amount が interest の算定基礎という金融上の特定関係を担うため、単なる重要度用法では成立しない。"
+      },
+      {
+        "example_id": "ex-9c7ba15916eb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "The agent",
+          "on behalf of the principal"
+        ],
+        "example": "The agent may sign the document on behalf of the principal.",
+        "translation": "代理人は本人を代理してその書類に署名できる。",
+        "rationale": "\"The agent may sign the document on behalf of the principal\" は agent が principal のために権限を行使する代理関係を直接表すのでsense:005。競合するsense:007（主たる債務者）は surety に対する一次責任者だが、on behalf of が示す代理権の源という役割では成立しない。"
+      },
+      {
+        "example_id": "ex-ff780494e5e1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "The guarantee",
+          "obligation of the principal"
+        ],
+        "example": "The guarantee does not replace the obligation of the principal.",
+        "translation": "その保証は主たる義務者の義務に取って代わるものではない。",
+        "rationale": "\"The guarantee does not replace the obligation of the principal\" は保証と principal 自身の第一次的義務を対比するのでsense:007。競合するsense:005（代理関係の本人）なら agent の行為・権限との関係が必要だが、この例文では guarantee と obligation の責任構造なので成立しない。"
+      },
+      {
+        "example_id": "ex-af66cb8f8f3a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "borrower",
+          "repaying principal"
+        ],
+        "example": "The borrower will begin repaying principal next year.",
+        "translation": "借り手は来年、元金の返済を開始する。",
+        "rationale": "\"The borrower will begin repaying principal\" は borrower が返す金額を principal とするのでsense:004。競合するsense:007（主たる債務者）は返済主体になり得る人・法人だが、この例文の principal は repaying の目的語である金額なので成立しない。"
+      },
+      {
+        "example_id": "ex-c399046add65",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal place of business"
+        ],
+        "example": "The company moved its principal place of business to Osaka.",
+        "translation": "その会社は主たる事業所を大阪に移した。",
+        "rationale": "\"its principal place of business\" では principal が複数の事業場所の中で主要な place を限定する形容詞なのでsense:001。競合するsense:003（組織の上級責任者）は人を指す名詞だが、ここでは place を修飾しており成立しない。"
+      },
+      {
+        "example_id": "ex-816ce171bee8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "promoted to principal",
+          "with the ballet company"
+        ],
+        "example": "She was promoted to principal with the ballet company.",
+        "translation": "彼女はそのバレエ団の首席に昇格した。",
+        "rationale": "\"promoted to principal with the ballet company\" は昇格後の舞台芸術上の首席役職を表すのでsense:003。競合するsense:002（教育機関の長）は学校・カレッジの管理職だが、principal への昇格先が ballet company 内の役割なので成立しない。"
+      },
+      {
+        "example_id": "ex-c6407dca31ed",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "duties of the principal and the surety"
+        ],
+        "example": "The agreement states the duties of the principal and the surety.",
+        "translation": "その契約は主たる義務者と保証人の義務を定めている。",
+        "rationale": "\"the duties of the principal and the surety\" は principal を surety と並置し、第一次的義務者と二次的保証人の責任関係を表すのでsense:007。競合するsense:005（代理関係の本人）は agent と対になるが、この例文の対項は surety なので成立しない。"
+      },
+      {
+        "example_id": "ex-bb98e40caf9a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "principal of the college"
+        ],
+        "example": "The principal of the college welcomed the new students.",
+        "translation": "そのカレッジの学長は新入生を歓迎した。",
+        "rationale": "\"The principal of the college\" は of 句で principal が長を務める教育機関を直接指定するのでsense:002。競合するsense:003（一般の組織責任者）は専門組織の役職も指すが、同じ例文では被管理組織が college と明示されるため、その一般職用法ではない。"
+      },
+      {
+        "example_id": "ex-6b912d4db4e1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "both principal and interest"
+        ],
+        "example": "The monthly payment includes both principal and interest.",
+        "translation": "毎月の返済額には元金と利息の両方が含まれる。",
+        "rationale": "\"both principal and interest\" は返済額の二成分として元金を利息と明示的に対比するのでsense:004。競合するsense:001（主要な）は名詞 interest と並列される金額名詞になれず、この構文では成立しない。"
+      },
+      {
+        "example_id": "ex-b17b31c5e33f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "works as a principal",
+          "in an architecture firm"
+        ],
+        "example": "He works as a principal in an architecture firm.",
+        "translation": "彼は建築事務所で上級責任者として働いている。",
+        "rationale": "\"works as a principal in an architecture firm\" は firm 内の上級専門職を principal という役職名で表すのでsense:003。競合するsense:002（校長・学長）は教育機関の長だが、principal として働く組織が architecture firm なので成立しない。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T02:06:26.220Z",
+  "findings": [],
+  "unrouted_observations": []
+}

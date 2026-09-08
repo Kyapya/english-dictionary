@@ -1,0 +1,45 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+  "blind_request_sha256": "3fdb797482ccfd3387a58b1afa8327955d4a2e35291e680a3d404abea89804a8",
+  "recorded_at": "2026-09-08T00:07:46Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-frame-relation-1"
+  },
+  "axes": [
+    {
+      "item_id": "ant-5215a334cb31",
+      "axis": "元利区分",
+      "relation_type": "補完",
+      "reason": "貸付・投資額の元の部分と、その元金から生じる利息部分の対立。"
+    },
+    {
+      "item_id": "ant-74b19a19d243",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": "重要性や影響力が特に高いものと比較的小さいものの対立。"
+    },
+    {
+      "item_id": "ant-80c206000217",
+      "axis": "責任順位",
+      "relation_type": "状態",
+      "reason": "義務について第一次的に責任を負う者と不履行時に二次的責任を負う者の対立。"
+    },
+    {
+      "item_id": "ant-8959d5c10634",
+      "axis": "順位",
+      "relation_type": "程度",
+      "reason": "重要度や順位が第一のものと二次的なものの対立。"
+    },
+    {
+      "item_id": "ant-f6cb375aa51a",
+      "axis": "代理関係",
+      "relation_type": "補完",
+      "reason": "代理権を与える本人と、その権限に基づいて本人のために行動する代理人の対立。"
+    }
+  ]
+}

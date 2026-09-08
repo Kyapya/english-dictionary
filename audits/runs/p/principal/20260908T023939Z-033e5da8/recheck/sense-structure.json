@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-final-recheck-sense-structure-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 250,
+        "line_end": 250,
+        "exact_quote": "`principal amount` や `principal balance` は、語義4の名詞が前から金額・残高の種類を限定する複合的な名詞句として扱い、`repay the principal` では `principal` 自体が目的語の名詞になる。"
+      },
+      "severity": "blocking",
+      "rationale": "`principal amount` や `principal balance` の `principal` は、単に語義4の名詞を前置したものとして処理するだけでは不十分で、現代の主要辞書が独立して立てる「元金・元本を成す／それに関する」という専門的な形容詞義に当たる。本文の番号付き形容詞義1は重要度・影響力・順位の高さに限定され、この金融形容詞義を収容できない一方、語法欄だけが当該用法を名詞として処理しているため、品詞・語義境界が欠落している。主要な品詞・語義の追加を要するため blocking とする。",
+      "evidence_link_ids": [],
+      "suggested_direction": "金融の形容詞義として「元金・元本を成す／元金・元本に関する」を番号付きで追加し、`principal amount`・`principal balance` をそこへ移す。語義1・語義4との境界とコアイメージの枝も合わせて更新する。"
+    }
+  ]
+}

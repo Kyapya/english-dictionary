@@ -1,0 +1,42 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "pronunciation",
+  "taxonomy_ids": [
+    "pronunciation_symbol_explanation"
+  ],
+  "specification": "prompts/check_pass_pronunciation_v6.md",
+  "input_body_sha256": "0ce3b3f2256f78d6a313ae1445d684390dfb421a0112c14efeaaec945bd42057",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "米・英: /ˈprɪnsəpəl/。3音節の PRIN-ci-pal で、第1音節に主強勢がある。第2・第3音節の母音はいずれも弱い /ə/ で、語末の `-pal` を強く /pæl/ と読まない。`principle` も通常まったく同じ /ˈprɪnsəpəl/ なので、音だけでは区別できない。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+  "source_artifact_sha256": "716ae619355b7e599eb5e976d897049d038933873f4f3902aa220ecdbdddd065",
+  "normalized_input_sha256": "a980480992b53856a7b6aaee6a2ba54f71575531de9f0c08bbcc075f99d921c8"
+}

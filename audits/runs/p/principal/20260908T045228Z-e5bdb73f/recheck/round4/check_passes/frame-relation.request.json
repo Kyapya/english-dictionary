@@ -1,0 +1,68 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "3f2f84868c94b5c51500c393869063d224f4262bcf03371e265c84b135b4fd13",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-f5f13e9b951b",
+        "headword": "principal",
+        "sense_definition": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。",
+        "antonym": "minor",
+        "antonym_definition": "定義: 重要性・規模・影響が比較的小さい。"
+      },
+      {
+        "item_id": "ant-7a5355b6c049",
+        "headword": "principal",
+        "sense_definition": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。",
+        "antonym": "secondary",
+        "antonym_definition": "定義: 第一ではなく、重要度・順位が二次的である。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "c4f9a40250cfee21fff7a9d7cc927d0ef68739f3eb7aef30dc95defd63e42948",
+  "normalized_input_sha256": "45b49aa2f05b3e87e0bb641c7a9b62bed88d52fca70048386cbd0cd6b6bf209e"
+}
