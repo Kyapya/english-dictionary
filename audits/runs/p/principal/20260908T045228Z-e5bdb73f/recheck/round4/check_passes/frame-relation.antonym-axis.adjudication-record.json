@@ -1,0 +1,31 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "3f2f84868c94b5c51500c393869063d224f4262bcf03371e265c84b135b4fd13",
+  "blind_record_sha256": "dc08b713983fd0a03d06ce6861365f79e1748013c1000080724244073bf5af54",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/frame4"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "段階1の重要度・程度を維持する。定義の主要・最重要と比較的小さい重要性が同じ程度軸の上位と下位を表す。軸は見出し語の定義から直接導出でき、違い行にも対立の不成立を自認する限定はない。F1〜F4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "段階1の順位・程度を維持する。見出し語の定義自体に高い順位が明記され、secondary の二次的順位との上下対立が成立する。違い行の方向が反対という表現はこの上下を説明しており、対立の不成立・限定を述べていない。類義語からの軸転移ではなく、F1〜F4に該当しない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "stage2_request_sha256": "9e1969e3c33df50d7dac2287c52ffc4747b54e8ae4b3ac14593429dcae26806c"
+}

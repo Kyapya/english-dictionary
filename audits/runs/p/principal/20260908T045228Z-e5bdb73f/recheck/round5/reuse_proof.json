@@ -1,0 +1,28 @@
+{
+  "schema_version": "checker_metadata_reuse_proof_v1",
+  "reason": "Both selected semantic input packets and specs unchanged; source differs only overall body binding and post-cold counter.",
+  "results": [
+    {
+      "pass_id": "pronunciation",
+      "original_request_sha256": "36b82f733cfbcc5e9015c87a8645b37217d47fb1ecd84e8f1f9ecc2f6dffe22c",
+      "current_request_sha256": "2912ec995a5a0dcbbdbc2c86a07438ea237f4c44b883ffef13db32d78ed77d2d",
+      "normalized_input_sha256": "ee10ead66e05a1ae925e7c3a11f269975c98c542ec08d1b8f2ad9c2159d3ca70",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "b34f79a86c878714accf4fe57903d5fab329a4e126cb67af6fc4baeaed422b06"
+    },
+    {
+      "pass_id": "sense-structure",
+      "original_request_sha256": "0437b5c99933ee49b5bb3f14199b863351f786515c55e240571df5cd8c462853",
+      "current_request_sha256": "98bba66669c6a119f3e73cc39b59b32f953ba2ddb41aa1bb3d2a2460f59331ba",
+      "normalized_input_sha256": "5da7b8bcb9bc7d555df0b9cb68b0502cb887aeaeef1bef72fef16c0d20508c72",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "14ac7847071b716a29074931ae89094d9fc602a56ab501a0553243c64c56474d"
+    }
+  ]
+}

@@ -4,7 +4,7 @@
   "headword": "principal",
   "run_id": "source-principal-20260907T233257Z-44da61f2",
   "context_id": "source-principal-context-20260907T233257Z-44da61f2",
-  "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+  "input_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
   "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
   "input_artifacts": [
     "headword",
@@ -26,8 +26,8 @@
       "sources_used": 6,
       "facts_used": 32,
       "research_rounds_used": 2,
-      "post_cold_rechecks_used": 5,
-      "final_attempts_used": 2
+      "post_cold_rechecks_used": 3,
+      "final_attempts_used": 1
     },
     "research_status": "complete",
     "stop_reason": "coverage_axes_closed",
@@ -177,8 +177,8 @@
             "id": "F-002",
             "form": "principal",
             "kind": "lexical_sense",
-            "statement": "As a noun, principal can denote a person in a leading position or a main participant in an action or transaction, especially one having control or authority.",
-            "source_detail": "General noun sense1 and Legal Definition noun sense1 of the same Merriam-Webster entry: the broad person/participant sense precedes the specialized subtypes. Control or authority is typical rather than mandatory."
+            "statement": "As a noun, principal can be a person with controlling authority or a leading position.",
+            "source_detail": "Noun sense 1 introduces the authority and leading-position group."
           },
           {
             "id": "F-003",
@@ -623,7 +623,7 @@
         ],
         "subject_form": "principal",
         "claim_type": "lexical_sense",
-        "statement": "Principal denotes a leading person or main party in an activity/transaction and conventionally an education head; the direct-party usage does not itself require appointing an agent.",
+        "statement": "Principal is a person in authority and conventionally a school or education head, with the institution and preferred title varying by region.",
         "article_target_ids": [
           "definition:002",
           "usage_note:002"
@@ -631,7 +631,7 @@
         "source_supports": [
           {
             "source_fact_id": "F-002",
-            "support_summary": "Merriam-Webster general noun1 and Legal Definition noun1 give the broad leading-person/direct participant range; authority is typical, not required."
+            "support_summary": "Merriam-Webster supplies the broader authority and leading-position sense."
           },
           {
             "source_fact_id": "F-003",

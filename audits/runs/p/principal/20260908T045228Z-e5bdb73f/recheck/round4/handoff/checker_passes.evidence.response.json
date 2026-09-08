@@ -1,0 +1,11 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/evidence4"
+  },
+  "findings": [],
+  "review_notes": "Reviewed the supplied evidence_context_v1 only, comparing C-001 through C-013 with their fixed source_supports, source-detail summaries, and targeted article passages. The packet body hash and source-first artifact hash agree with their corresponding request fields. No evidence_claim_mismatch was established for these supplied claim links. The legal claims retain the qualifications present in their supporting summaries, and the independent dictionary supports are not duplicate IDs for a single source. This result does not certify source-inventory coverage or introduce evidence for article statements outside the fixed claim units. No external sources or other artifacts were consulted."
+}

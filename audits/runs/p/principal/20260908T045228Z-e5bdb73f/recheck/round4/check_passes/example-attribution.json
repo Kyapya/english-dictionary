@@ -1,0 +1,275 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/finish_principal/example4"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/finish_principal/example4"
+    },
+    "input_body_sha256": "3f2f84868c94b5c51500c393869063d224f4262bcf03371e265c84b135b4fd13",
+    "blind_request_sha256": "e3534e0ee0286273a4c7bb0be93a81e9c3647751b64e039e03ce16a7a3aeb86d",
+    "recorded_at": "2026-09-08T07:45:51.207698+00:00",
+    "attributions": [
+      {
+        "example_id": "ex-7dab22053856",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a principal source of income"
+        ],
+        "rationale": "In \"Tourism is a principal source of income for the island.\", principal modifies source and ranks its importance. Unlike sense:003, it does not denote the capital amount itself; source is the noun head."
+      },
+      {
+        "example_id": "ex-18bb0ddb5ba9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "treats a person who knowingly assists the offense as a principal"
+        ],
+        "rationale": "In \"The statute treats a person who knowingly assists the offense as a principal.\", principal is a statutory classification based on knowing assistance in an offense. Sense:002 would denote a leading person, but this classification is explicitly predicated on assistance rather than leadership."
+      },
+      {
+        "example_id": "ex-09c5a98499dd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "The agent may sign",
+          "on behalf of the principal"
+        ],
+        "rationale": "In \"The agent may sign the document on behalf of the principal.\", principal is the represented party in an agent's authorized signing. Sense:002's generic main party does not capture the explicitly paired representative and represented roles."
+      },
+      {
+        "example_id": "ex-1e57e2430a98",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "As one of the orchestra's principals",
+          "she leads the cello section"
+        ],
+        "rationale": "In \"As one of the orchestra's principals, she leads the cello section.\", the as-clause equates principal status with leading an instrumental section. Sense:002's generic leading person lacks this explicit section-leading performance role."
+      },
+      {
+        "example_id": "ex-157beac2d8f2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "one of the principal architects"
+        ],
+        "rationale": "In \"She is one of the principal architects of the reform.\", principal adjectivally selects the most important architects. Sense:002 is a plausible semantic neighbor but would be a person-denoting noun, whereas architects is the noun head here."
+      },
+      {
+        "example_id": "ex-49355501caac",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "repaying principal"
+        ],
+        "rationale": "In \"The borrower will begin repaying principal next year.\", principal is the bare mass-noun amount repaid. Sense:007 denotes the liable debtor, which cannot occupy this amount slot as a bare mass noun."
+      },
+      {
+        "example_id": "ex-9dbc67db030d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "The principal of the college"
+        ],
+        "rationale": "In \"The principal of the college welcomed the new students.\", principal of the college names the institutional head. Sense:004 would require the college's represented party or authorizing party, a relation not expressed by this institutional office construction."
+      },
+      {
+        "example_id": "ex-2a415e1227b0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The principal reason"
+        ],
+        "rationale": "In \"The principal reason for the delay was a shortage of parts.\", principal ranks the importance of a reason. Sense:002 denotes a person rather than an adjective modifying the head noun reason."
+      },
+      {
+        "example_id": "ex-29b0de50abd4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "The school principal"
+        ],
+        "rationale": "In \"The school principal met with parents after the incident.\", school principal is the established institutional office title. Sense:004 would describe a party authorizing an agent, whereas this compound names the school head and expresses no representation relation."
+      },
+      {
+        "example_id": "ex-a643dfd29d91",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "created a principal-agent relationship"
+        ],
+        "rationale": "In \"The contract created a principal-agent relationship between the owner and the broker.\", principal is defined relationally opposite agent in the relationship created. Sense:002's generic transaction party does not supply this paired agency role."
+      },
+      {
+        "example_id": "ex-fe17b24d87b1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "buying the goods for its own account rather than as another company's agent"
+        ],
+        "rationale": "In \"In this transaction, the firm acts as principal, buying the goods for its own account rather than as another company's agent.\", principal means the actual transacting party on its own account. Sense:004 requires authorizing another to act, while the explanatory phrase defines this firm's own purchasing capacity and supplies no delegated action."
+      },
+      {
+        "example_id": "ex-96969658d75c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "its principal place of business"
+        ],
+        "rationale": "In \"The company moved its principal place of business to Osaka.\", principal modifies place to identify its chief business location. Sense:002 would name a person, whereas place remains the noun head and object of moved."
+      },
+      {
+        "example_id": "ex-59d4fc91ccdf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "liable as principal for the debt",
+          "the guarantor is only secondarily liable"
+        ],
+        "rationale": "In \"Under the agreement, the company remains liable as principal for the debt, while the guarantor is only secondarily liable.\", principal marks primary liability in explicit contrast with secondary guarantee liability. Sense:004 concerns authority to represent a party, which this liability contrast does not express."
+      },
+      {
+        "example_id": "ex-520ae0c81995",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:002",
+          "sense:006"
+        ],
+        "discriminating_terms": [],
+        "rationale": "In \"The court identified him as a principal in the crime.\", principal can be a criminal-law participant classification (sense:006) or a leading participant (sense:002). Identified as and in the crime do not specify execution, assistance, direct liability, or leadership, so the court context alone cannot exclude the competing reading."
+      },
+      {
+        "example_id": "ex-9f21a9f9e7ab",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "The obligation of the principal is to repay the debt",
+          "the guarantor is only secondarily liable"
+        ],
+        "rationale": "In \"The obligation of the principal is to repay the debt; the guarantor is only secondarily liable.\", principal is the primary obligor in a two-tier liability relation. Sense:003 names the amount owed, which cannot itself bear the obligation to repay in this construction."
+      },
+      {
+        "example_id": "ex-2d3d6de2e03f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "the principal—the amount originally invested—"
+        ],
+        "rationale": "In \"The fund aims to protect the principal—the amount originally invested—while generating modest returns.\", the apposition explicitly defines principal as the invested amount. Sense:002 could be a protected person in another sentence, but the apposition excludes that person reading."
+      },
+      {
+        "example_id": "ex-da8e5eeb0a02",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "the principal and the surety are primarily and secondarily liable for the debt, respectively"
+        ],
+        "rationale": "In \"Under the agreement, the principal and the surety are primarily and secondarily liable for the debt, respectively.\", respectively expressly assigns primary debt liability to principal. Sense:004's represented party is not defined by this primary-versus-secondary obligation structure."
+      },
+      {
+        "example_id": "ex-3b81e36f6569",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "the principal cause"
+        ],
+        "rationale": "In \"Investigators identified corrosion as the principal cause of the failure.\", principal modifies cause to rank causal importance. Sense:006 may be a classification after identified as, but here cause is the noun head and corrosion is not a person classified for criminal liability."
+      },
+      {
+        "example_id": "ex-40742cac4b7e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "payment includes both principal and interest"
+        ],
+        "rationale": "In \"The monthly payment includes both principal and interest.\", principal is a component of an amount paid, coordinated with interest. Sense:007 denotes an obligor rather than a monetary payment component and cannot satisfy this relation."
+      },
+      {
+        "example_id": "ex-a33f869a820c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "pay down the principal"
+        ],
+        "rationale": "In \"Extra payments can help you pay down the principal faster.\", pay down takes principal as the decreasing outstanding capital amount. Sense:007 would be a debtor, which cannot be reduced in amount by the pay-down construction."
+      },
+      {
+        "example_id": "ex-f4720456a0d5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "A college principal"
+        ],
+        "rationale": "In \"A college principal addressed the graduating class.\", college principal names an educational office holder. Sense:004 would name a represented or authorizing party, whereas the compound directly designates the college head rather than an agency role."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T07:48:04.744036+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 287,
+        "line_end": 287,
+        "exact_quote": "例: The court identified him as a principal in the crime.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:002, sense:006が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    }
+  ],
+  "unrouted_observations": []
+}

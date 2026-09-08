@@ -1,8 +1,8 @@
 {
   "schema_version": "pre_blind_revision_v1",
   "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
-  "output_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
-  "recorded_at": "2026-09-08T07:53:40.144305+00:00",
+  "output_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
+  "recorded_at": "2026-09-08T07:32:31.710410+00:00",
   "changed_units": [
     "collocations_examples",
     "core_image",
@@ -25,10 +25,6 @@
   "revision_history_paths": [
     "recheck/round2/pre_blind_revision.before.json",
     "recheck_resolution_checkpoint.json",
-    "recheck/round2/resolution.json",
-    "final_attempt1/pre_blind_revision.json",
-    "final_attempt1/post_blind_resolution.json",
-    "recheck/round4/resolution.json"
-  ],
-  "notes": "Cumulative revision binding for latest final blind; original pre-blind and subsequent post-blind correction chronology preserved in history artifacts."
+    "recheck/round2/resolution.json"
+  ]
 }

@@ -1,0 +1,55 @@
+{
+  "schema_version": "post_blind_resolution_v1",
+  "recorded_at": "2026-09-08T07:45:06.410153+00:00",
+  "input_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
+  "output_body_sha256": "3f2f84868c94b5c51500c393869063d224f4262bcf03371e265c84b135b4fd13",
+  "resolutions": [
+    {
+      "id": "F01",
+      "finding_id": "F01",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Expanded the existing broad person/participant sense using the same Merriam-Webster source general noun1 and legal noun1, and distinguished own-party action from an appointed-agent relation. No source/fact/research round added."
+    },
+    {
+      "id": "F02",
+      "finding_id": "F02",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Expanded the existing broad person/participant sense using the same Merriam-Webster source general noun1 and legal noun1, and distinguished own-party action from an appointed-agent relation. No source/fact/research round added."
+    }
+  ],
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "ab4f5e80d9bb3a91810ed5a9de22c2f3e3430a454ff6635d6a94a701f2ae9fe4",
+    "after_body_sha256": "3f2f84868c94b5c51500c393869063d224f4262bcf03371e265c84b135b4fd13",
+    "changed_units": [
+      "collocations_examples",
+      "core_image",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "sense_structure",
+      "usage_notes"
+    ],
+    "full_recheck": true,
+    "fallback_reasons": [
+      "sense_or_part_of_speech_topology_changed"
+    ],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "pronunciation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "reusable_passes": []
+  },
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

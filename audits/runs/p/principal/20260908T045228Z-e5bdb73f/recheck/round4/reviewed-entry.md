@@ -284,8 +284,8 @@ tags: []
 
 ・`a principal in a crime`  
 用途: 犯罪について直接の刑事責任を負う者を指す。  
-例: The court held him directly criminally liable as a principal in the crime, rather than classifying him as an accessory.  
-訳: 裁判所は彼をその犯罪の `accessory` と分類するのではなく、`principal` として直接の刑事責任を負うものとした。  
+例: The court identified him as a principal in the crime.  
+訳: 裁判所は彼をその犯罪について `principal` に当たる者と認定した。  
 
 ・`treat someone as a principal`  
 用途: 一定の関与者を適用法上 `principal` として扱うことを表す。  
