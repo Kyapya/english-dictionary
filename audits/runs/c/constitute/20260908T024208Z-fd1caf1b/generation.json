@@ -1,0 +1,74 @@
+{
+  "schema_version": "generation_v1",
+  "stage": "generation",
+  "headword": "constitute",
+  "entry_path": "entries/c/constitute.md",
+  "input_artifacts": [
+    "headword",
+    "prompts/entry_spec_v5.md",
+    "prompts/process_improvement_learning_delta_v2.md",
+    "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/process_improvement/generator-generation.snapshot.md",
+    "audits/runs/c/constitute/20260907T235852Z-0610bd0b/checker_recheck_round2_resolution.json",
+    "audits/runs/c/constitute/20260907T235852Z-0610bd0b/source_inventory.json",
+    "entries/c/constitute.md"
+  ],
+  "output_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "status": "draft_saved",
+  "recorded_at": "2026-09-08T02:48:55Z",
+  "notes": "Explicit fresh validation cycle reuses the fixed current entry and completed source-first inventory after the prior post-cold recheck budget was exhausted; no research or prose generation was repeated.",
+  "candidate_inventory": [
+    {
+      "id": "GEN-01",
+      "surface_form": "parts constitute a whole; a category constitutes a percentage; a whole is constituted of/from/by parts",
+      "frame": "parts-to-whole active; whole-to-parts passive",
+      "meaning": "構成する、占める",
+      "disposition": "included",
+      "article_sense": 1
+    },
+    {
+      "id": "GEN-02",
+      "surface_form": "an act or fact constitutes a category, offence, threat, or proof",
+      "frame": "〈act/fact/situation〉 constitute 〈category/result〉",
+      "meaning": "～に当たる、～を意味する、～となる",
+      "disposition": "included",
+      "article_sense": 2
+    },
+    {
+      "id": "GEN-03",
+      "surface_form": "an authority, institution, or parties constitute a committee, court, government, or authority; duly constituted body",
+      "frame": "〈authority/institution/parties〉 constitute 〈organization〉; 〈body〉 be constituted under/by 〈authority〉",
+      "meaning": "正式に設立する、組織する",
+      "disposition": "included",
+      "article_sense": 3
+    },
+    {
+      "id": "GEN-04",
+      "surface_form": "an authority, law, or document constitutes someone an officer; constituted authorities",
+      "frame": "〈authority/law/document〉 constitute someone 〈office/role〉",
+      "meaning": "任命する、資格を与える",
+      "disposition": "included",
+      "article_sense": 4
+    },
+    {
+      "id": "GEN-X01",
+      "surface_form": "archaic physical placement sense",
+      "frame": "constitute 〈person/thing〉 in a place",
+      "meaning": "据える、置く",
+      "disposition": "excluded",
+      "rationale": "Obsolete physical-placement sense has negligible modern learner value."
+    }
+  ],
+  "entry_features": [
+    "part-of-speech:verb",
+    "polysemy:four-senses",
+    "frame:parts-to-whole",
+    "frame:linking-like-transitive",
+    "domain:legal-and-official",
+    "register:formal"
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}
