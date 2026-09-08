@@ -47,8 +47,7 @@
             "F-014",
             "F-017"
           ],
-          "suggested_direction": "人物を指す一般的な権限・主導者用法を、教育機関の役職名と学習上区別できる番号付き語義として追加するか、語義2をその用法まで明示的に含む構造へ再編し、コアイメージ枝・フレーム・例も対応させる。",
-          "id": "normal-sense-structure-001"
+          "suggested_direction": "人物を指す一般的な権限・主導者用法を、教育機関の役職名と学習上区別できる番号付き語義として追加するか、語義2をその用法まで明示的に含む構造へ再編し、コアイメージ枝・フレーム・例も対応させる。"
         },
         {
           "taxonomy_id": "sense_boundary_overlap",
@@ -64,8 +63,7 @@
             "F-007",
             "F-018"
           ],
-          "suggested_direction": "語義3を、根拠が支える舞台芸術の主役・主要演者とオーケストラの首席奏者を包含する範囲へ広げ、各下位用法のフレームと例を区別して示す。",
-          "id": "normal-sense-structure-002"
+          "suggested_direction": "語義3を、根拠が支える舞台芸術の主役・主要演者とオーケストラの首席奏者を包含する範囲へ広げ、各下位用法のフレームと例を区別して示す。"
         },
         {
           "taxonomy_id": "sense_boundary_overlap",
@@ -80,8 +78,7 @@
           "evidence_link_ids": [
             "F-025"
           ],
-          "suggested_direction": "語義4へ、信託の income と対比される財産本体・corpus の専門用法を明示的に統合し、見出し・コアイメージ枝・領域・フレームを金額だけに閉じない形へ広げる。学習上別フレームと判断するなら独立語義に分ける。",
-          "id": "normal-sense-structure-003"
+          "suggested_direction": "語義4へ、信託の income と対比される財産本体・corpus の専門用法を明示的に統合し、見出し・コアイメージ枝・領域・フレームを金額だけに閉じない形へ広げる。学習上別フレームと判断するなら独立語義に分ける。"
         }
       ],
       "unrouted_observations": []
@@ -229,8 +226,7 @@
           "severity": "blocking",
           "rationale": "当該語義はオーケストラの各セクションを率いる奏者に限定されているのに、所有格スロットの「など」と訳の「団体」が、バレエ団や企業などを含む無限定な団体名の代入を許す。すると `principal` が首席奏者ではない別の役職・身分を表す候補までこの語義の完全フレームとして生成され、定義とスロットの意味役割が一致しない。",
           "evidence_link_ids": [],
-          "suggested_direction": "所有格スロットと訳をオーケストラ（必要なら定義で明示した音楽アンサンブル）に限定する。",
-          "id": "normal-frame-relation-001"
+          "suggested_direction": "所有格スロットと訳をオーケストラ（必要なら定義で明示した音楽アンサンブル）に限定する。"
         },
         {
           "taxonomy_id": "argument_slot_role_mismatch",
@@ -243,8 +239,7 @@
           "severity": "blocking",
           "rationale": "代理権を与える側を主語、代理人を目的語、行為を不定詞補部に置く能動フレームだけが、この語義のコロケーションと例文に実現されていない。他の三つの主要パターンには対応例があるため、主要構文とコロケーションの相互対応がこのフレームで欠けている。",
           "evidence_link_ids": [],
-          "suggested_direction": "`a principal authorizes an agent to do ...` を独立したコロケーションとして、本人・代理人・許可された行為の三スロットが明示された例文で実現する。",
-          "id": "normal-frame-relation-002"
+          "suggested_direction": "`a principal authorizes an agent to do ...` を独立したコロケーションとして、本人・代理人・許可された行為の三スロットが明示された例文で実現する。"
         },
         {
           "taxonomy_id": "lexical_relation_mislabel",
@@ -257,8 +252,7 @@
           "severity": "blocking",
           "rationale": "F3: `principal` と `interest` は一つの返済額に含まれ得る別々の金額構成要素であり、基礎額とそこから生じる追加額という関連はあっても、補完・程度・方向・評価・状態のいずれかの反意対立ではない。違い行も両者を構成カテゴリーとして説明している。",
           "evidence_link_ids": [],
-          "suggested_direction": "語法・注意への対照表現としての移動",
-          "id": "normal-frame-relation-003"
+          "suggested_direction": "語法・注意への対照表現としての移動"
         }
       ],
       "unrouted_observations": []
@@ -540,8 +534,7 @@
           "severity": "blocking",
           "rationale": "段階1でsense:007, sense:005が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
           "evidence_link_ids": [],
-          "suggested_direction": "判別語の追加",
-          "id": "normal-example-attribution-001"
+          "suggested_direction": "判別語の追加"
         }
       ],
       "unrouted_observations": []
@@ -573,8 +566,7 @@
             "U-003",
             "C-003"
           ],
-          "suggested_direction": "英語全体を基準に2～3/10程度の低頻度へ下げ、専門領域内では確立した役割名であることはレジスター欄で維持する。",
-          "id": "normal-qualification-001"
+          "suggested_direction": "英語全体を基準に2～3/10程度の低頻度へ下げ、専門領域内では確立した役割名であることはレジスター欄で維持する。"
         }
       ]
     },
@@ -608,8 +600,7 @@
           "severity": "blocking",
           "rationale": "C-002 routes the education/authority claim to definition:003 (the orchestral definition). Its F-002/F-003/F-014/F-017 sources concern general authority or educational heads and do not directly support this orchestral role. C-003 has separately relevant performer evidence, but that does not make C-002's cross-sense link valid. No link IDs are supplied; this identifies the existing C-002 article_target_ids/source_supports relationship.",
           "evidence_link_ids": [],
-          "suggested_direction": "Remove definition:003 from C-002's targets; retain the directly applicable C-003/F-018 support for the orchestral definition.",
-          "id": "normal-evidence-001"
+          "suggested_direction": "Remove definition:003 from C-002's targets; retain the directly applicable C-003/F-018 support for the orchestral definition."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -622,8 +613,7 @@
           "severity": "blocking",
           "rationale": "C-001 targets this grammar_pattern, but F-001 (Merriam-Webster adjective sense 1), F-013 (Cambridge learner definition), F-016 (Collins American adjective definition) establish adjective meaning and a few noun combinations. They do not document the complete article/number/preposition frames or the proposed a-principal versus the-principal interpretation. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-002"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -636,8 +626,7 @@
           "severity": "blocking",
           "rationale": "C-002 targets this grammar_pattern, but F-002/F-003 (Merriam-Webster noun senses 1/1b), F-014 (Cambridge school-person definition), and F-017 (Collins title definition) establish school/college leadership meanings and one regional qualification. Their supplied passages do not establish the complete principal of determiner-containing NP, a school principal, and a college principal frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-003"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -650,8 +639,7 @@
           "severity": "blocking",
           "rationale": "C-003 targets this grammar_pattern, but F-007 (Merriam-Webster noun sense 1f) and F-018 (Collins performer/first-player uses) establish the performer meaning. Neither supplied passage documents one of + orchestra possessive + plural principals or the proposed possessive-slot generalization. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-004"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -664,8 +652,7 @@
           "severity": "blocking",
           "rationale": "C-004 targets this grammar_pattern, but F-008/F-015/F-019/F-024/F-027 establish financial principal and, for F-024, repayment reducing the obligation. They do not document the complete pay down the principal, repay principal, or protect the principal frames, including their article choices. Semantic compatibility alone does not verify these as evidenced complete frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-005"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -678,8 +665,7 @@
           "severity": "blocking",
           "rationale": "C-006 targets this grammar_pattern, but F-004/F-020/F-023 establish authority, behalf, control, and unspecified agent duties. The supplied passages do not establish the full appoints/authorizes an agent to do frame or the complete owe a duty to the principal construction. Wex's mention of duties is not a recorded syntax example. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-006"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -692,8 +678,7 @@
           "severity": "blocking",
           "rationale": "C-007 targets this grammar_pattern, but F-005 (Merriam-Webster noun sense 1d/legal definition) and F-021 (Collins criminal-law sense) support criminal participation and the accessory contrast. Neither fact statement nor source_detail records first/second degree, historical common-law scope, or the supplied complete frames. C-007's support_summary asserts historical degree classifications beyond the underlying F-005 passage summary. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-007"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         },
         {
           "taxonomy_id": "evidence_claim_mismatch",
@@ -706,8 +691,7 @@
           "severity": "blocking",
           "rationale": "C-008 targets this grammar_pattern, but F-006/F-022/F-026 establish primary liability and the surety/guarantor contrast. They do not document the zero-article be liable as principal frame or the other complete obligation/surety phrases. Their definition-level support does not establish those grammatical constructions. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
           "evidence_link_ids": [],
-          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
-          "id": "normal-evidence-008"
+          "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames."
         }
       ],
       "notes": [
