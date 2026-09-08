@@ -5,7 +5,7 @@
   "headword": "magnificent",
   "base_sha": "65fe6adffef5f8e7e2b92e0b107d50a587671196",
   "queued_at": "2026-09-08T08:41:45.917071+00:00",
-  "status": "active",
+  "status": "completed",
   "branch": "words/magnificent-3e8b43f5c35a",
   "publish_mode": "connector",
   "reviewer_mode": "handoff",
@@ -14,8 +14,15 @@
   "baseline_runs": [],
   "prepared_at": "2026-09-08T08:43:40.858075+00:00",
   "start_exit_code": 0,
-  "workflow_status": "in_progress",
-  "stage": "preflight",
-  "last_heartbeat_at": "2026-09-08T08:44:01Z",
-  "time_warnings": {}
+  "workflow_status": "completed",
+  "stage": "completed",
+  "last_heartbeat_at": "2026-09-08T10:54:14Z",
+  "time_warnings": {
+    "elapsed_target_exceeded": {
+      "first_observed_at": "2026-09-08T09:48:33Z",
+      "target_at": "2026-09-08T09:44:01Z",
+      "stage": "cold_review_complete",
+      "action": "record the delay cause and resume the same run; do not restart reviews"
+    }
+  }
 }
