@@ -1,0 +1,26 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_finish/qualification",
+    "independent": true
+  },
+  "independent": true,
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 164,
+        "line_end": 164,
+        "exact_quote": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      "severity": "minor",
+      "rationale": "入力自体が舞台芸術義を頻度3/10の専門語、後続の金融義を頻度7/10で日常的なローン説明にも現れる語義としているため、低頻度の専門義を高頻度の主要名詞義より先に置いている。主要品詞・主要構文を低頻度の専門語より先に置くという本パスの検査ルールと整合しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "金融の元金・元本義を舞台芸術義より前に配置し、語義番号と相互参照を連動して更新する。信託義の専門性の限定は維持する。"
+    }
+  ]
+}

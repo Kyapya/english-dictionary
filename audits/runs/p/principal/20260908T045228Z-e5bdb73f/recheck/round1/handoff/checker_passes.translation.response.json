@@ -1,0 +1,25 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_finish/translation",
+    "independent": true
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 325,
+        "line_end": 325,
+        "exact_quote": "訳: その契約の下で、会社はその債務について主たる当事者として責任を負い、保証人は二次的にのみ責任を負う。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の remains liable は会社が引き続き責任を負うという状態の継続を明示しているが、訳文の『責任を負い』は単なる現在の責任関係だけを示し、その継続相を落としている。主たる責任と二次的責任の方向自体は保存されている。入力内の別の remains の例（line 100–101）では『依然として』により継続が保存されており、同じ脱落は認められない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "会社について『その債務について主たる当事者として引き続き責任を負い』とし、remains の継続を保存する。"
+    }
+  ]
+}

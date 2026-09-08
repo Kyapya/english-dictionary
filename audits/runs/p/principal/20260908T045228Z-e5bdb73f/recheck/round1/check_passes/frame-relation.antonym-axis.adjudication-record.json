@@ -1,0 +1,45 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "cdfd31b9e0407f51f99397eda23de6ad98b0113bd74d922527ec37125ae83694",
+  "blind_record_sha256": "2509e34816da4107e52c9d6ac169baa63bbea8aa5076ad8299ee1dad15b823a6",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_finish/frame"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-7a5355b6c049",
+      "flags": [],
+      "rationale": "段階1の重要度・程度を維持する。主要・最重要と二次的という高低は語義自体から導出でき、違い行もこの対立を説明している。類義語からの軸転移や対立の自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-7477e18058ee",
+      "flags": [],
+      "rationale": "段階1の権限委譲・方向を維持する。本人が権限を与え、代理人が受けて行動するという同一関係の与え手・受け手の方向対立は双方の定義から直接導出できる。違い行はその相関的な役割対立を確認しており、単なる関連概念への置換でも自己否定でもない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-28424ac40a56",
+      "flags": [],
+      "rationale": "段階1の責任順位・程度を維持する。この語義は第一次的責任者を二次的責任者と明示的に対比しており、保証人の定義も主債務者の不履行時に負う責任を示す。したがって当該保証関係内の第一次・第二次という順位の対立が成立する。違い行にこの対立の否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-f5f13e9b951b",
+      "flags": [],
+      "rationale": "段階1の重要度・程度を維持する。principal の高い重要性と minor の小さい重要性は語義定義に共有された尺度の両側に位置する。違い行も程度対立を説明しており、軸転移や自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": [],
+  "stage2_request_sha256": "af8187d9fde8bde5d33c3afa8d61525608809ffb2552a803419699f663ae6253"
+}

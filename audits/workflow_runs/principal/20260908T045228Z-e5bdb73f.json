@@ -3,7 +3,7 @@
   "run_id": "20260908T045228Z-e5bdb73f",
   "headword": "principal",
   "entry_path": "entries/p/principal.md",
-  "branch": "words/principal-6be39d6e99f3",
+  "branch": "words/principal-takeover-20260908",
   "base_sha": "874857dea4c2726823b0efdd48ac9334521241f4",
   "profile": "extended",
   "profile_reason": "second post-cold recheck budget exhausted after final source-narrowing revision; fresh clean validation required before merge",
@@ -17,12 +17,12 @@
     "research_queries": 0,
     "candidate_pages": 6
   },
-  "status": "in_progress",
+  "status": "budget_exhausted",
   "stage": "cold_review_complete",
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
   "pre_draft_deadline_at": "2026-09-08T05:22:28Z",
-  "last_heartbeat_at": "2026-09-08T05:57:31Z",
+  "last_heartbeat_at": "2026-09-08T06:33:54Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T05:01:10Z",
@@ -60,8 +60,10 @@
       "notes": "orchestrator completed cold_review"
     }
   ],
-  "stop_reason": "",
-  "open_questions": [],
+  "stop_reason": "Source-first standard post-cold recheck limit reached (1/1); accepted corrections still require verification",
+  "open_questions": [
+    "Corrected translation continuity and sense ordering require another independent checker round; no valid final blind or final review exists for corrected body."
+  ],
   "orchestrator": {
     "workflow_contract_version": "workflow_improvement_v1",
     "orchestrator_version": "run_word_v3",
@@ -837,5 +839,12 @@
     "source_inventory_sha256": "76053cbb610a8fc02573e7578745f55164a5629c794e27128b77ec753c7eebea",
     "research_reopened": false
   },
-  "time_warnings": {}
+  "time_warnings": {},
+  "takeover_relocation": {
+    "recorded_at": "2026-09-08T06:33:23.955903+00:00",
+    "original_branch": "words/principal-6be39d6e99f3",
+    "new_branch": "words/principal-takeover-20260908",
+    "reason": "Concurrent writes continued in original worker; isolated snapshot prevents overwrite. Run identity, start time and existing usage preserved.",
+    "checkpoint": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/recheck_resolution_checkpoint.json"
+  }
 }

@@ -1,0 +1,292 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "Codex (inherited session model)",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_finish/example"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "Codex (inherited session model)",
+      "ingested_by": "human",
+      "agent_id": "/root/principal_finish/example"
+    },
+    "recorded_at": "2026-09-08T06:23:04Z",
+    "input_body_sha256": "cdfd31b9e0407f51f99397eda23de6ad98b0113bd74d922527ec37125ae83694",
+    "normalized_input_sha256": "a0b19d66788bcf5663176948ca5094fff000de57d826503758df3f2aef385746",
+    "attributions": [
+      {
+        "example_id": "ex-fe17b24d87b1",
+        "best_sense_id": "sense:003",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "one of the orchestra's principals",
+          "lists her as"
+        ],
+        "rationale": "Lexical anchor: \"one of the orchestra's principals\"; \"lists her as\". The predicative professional role 'one of the orchestra’s principals' denotes a ranked performer. Sense 002 would denote governing authority over the organization, whereas this concert-program role attribution names membership in its set of principals.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-520ae0c81995",
+        "best_sense_id": "sense:006",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "treats a person who knowingly assists the offense as a principal"
+        ],
+        "rationale": "Lexical anchor: \"treats a person who knowingly assists the offense as a principal\". Classification as principal is explicitly predicated on knowing assistance of an offense, giving the criminal responsibility relation of 006. Sense 005 requires someone authorizing an agent to act for them; the sentence instead classifies the assisting offender.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-7dab22053856",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "a principal source of income"
+        ],
+        "rationale": "Lexical anchor: \"a principal source of income\". Principal attributively ranks the income source. Sense 004 would name invested capital itself, not modify the count noun source.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-29b0de50abd4",
+        "best_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "The school principal"
+        ],
+        "rationale": "Lexical anchor: \"The school principal\". The lexical role construction school principal denotes the person heading the school. Sense 001 cannot supply the nominal head of this noun phrase, and sense 003 would require a performer role rather than this institutional head title.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-2d3d6de2e03f",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "protect the principal while generating modest returns"
+        ],
+        "rationale": "Lexical anchor: \"protect the principal while generating modest returns\". Principal is the preserved capital contrasted with generated returns. Sense 007 denotes an obligor, not a capital stock maintained while it earns returns.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-2a415e1227b0",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "The principal reason"
+        ],
+        "rationale": "Lexical anchor: \"The principal reason\". Principal modifies and ranks reason. Sense 002 is a person-denoting noun and cannot provide this scalar modification of reason.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-157beac2d8f2",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "one of the principal architects of the reform"
+        ],
+        "rationale": "Lexical anchor: \"one of the principal architects of the reform\". Principal modifies architects, ranking the reform's creators. Sense 002 would itself name a leader rather than function as the adjective modifying the plural head architects.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-18bb0ddb5ba9",
+        "best_sense_id": "sense:007",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "liable as principal for the debt",
+          "guarantor is only secondarily liable"
+        ],
+        "rationale": "Lexical anchor: \"liable as principal for the debt\"; \"guarantor is only secondarily liable\". Primary debt liability is expressly contrasted with the guarantor's secondary liability. Sense 005 concerns authorization of an agent, which does not explain this explicit ordering of liability.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-96969658d75c",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "its principal place of business"
+        ],
+        "rationale": "Lexical anchor: \"its principal place of business\". Principal modifies place and identifies its central rank. Sense 004 would denote capital, not adjectivally rank a business location.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-1e57e2430a98",
+        "best_sense_id": "sense:006",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "identified him as a principal in the crime"
+        ],
+        "rationale": "Lexical anchor: \"identified him as a principal in the crime\". The complement in the crime identifies principal as a criminal-participation classification. Sense 005 would classify him relative to an authorized agent, not directly as a participant in the crime.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-59d4fc91ccdf",
+        "best_sense_id": "sense:007",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "guarantee does not replace the obligation of the principal"
+        ],
+        "rationale": "Lexical anchor: \"guarantee does not replace the obligation of the principal\". Principal is the holder of the underlying obligation retained alongside its guarantee. Sense 005 denotes the source of an agent's authority; that relation does not explain the guarantee's nonreplacement of this underlying obligation.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-9dbc67db030d",
+        "best_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "The principal of the college"
+        ],
+        "rationale": "Lexical anchor: \"The principal of the college\". Principal of the college is an institutional head title. Sense 003 would require a leading performance role; principal here heads an of-phrase identifying the institution governed rather than a performing section.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-49355501caac",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "repaying principal"
+        ],
+        "rationale": "Lexical anchor: \"repaying principal\". Principal is the uncountable amount repaid, selecting capital. Sense 007 is a countable debtor who owes repayment, not the monetary object of repaying.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-09c5a98499dd",
+        "best_sense_id": "sense:005",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "agent may sign",
+          "on behalf of the principal"
+        ],
+        "rationale": "Lexical anchor: \"agent may sign\"; \"on behalf of the principal\". The signing agent acts on behalf of principal, explicitly realizing the represented party relation. Sense 007 concerns first-order debt liability, absent from this signing-for-another construction.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-a643dfd29d91",
+        "best_sense_id": "sense:005",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "created a principal-agent relationship"
+        ],
+        "rationale": "Lexical anchor: \"created a principal-agent relationship\". The compound principal-agent relationship directly names the reciprocal authorization roles. Sense 002 denotes organizational leadership, not the counterparty role paired with agent in this established relation.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-9f21a9f9e7ab",
+        "best_sense_id": "sense:007",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "duties of the principal and the surety"
+        ],
+        "rationale": "Lexical anchor: \"duties of the principal and the surety\". Principal and surety form the paired primary-obligor and guarantor roles whose duties are specified. Sense 005 would pair principal with an agent on an authorization axis, whereas the expressly paired counter-role here is surety.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-3b81e36f6569",
+        "best_sense_id": "sense:001",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "the principal cause of the failure"
+        ],
+        "rationale": "Lexical anchor: \"the principal cause of the failure\". Principal adjectivally ranks cause. Sense 006 denotes an offender, not an adjective modifying an abstract cause.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-40742cac4b7e",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "payment includes both principal and interest"
+        ],
+        "rationale": "Lexical anchor: \"payment includes both principal and interest\". Principal is a component of payment explicitly contrasted with interest. Sense 007 names a liable party and cannot constitute the amount included in a payment alongside interest.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-a33f869a820c",
+        "best_sense_id": "sense:004",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "payments",
+          "pay down the principal"
+        ],
+        "rationale": "Lexical anchor: \"payments\"; \"pay down the principal\". The pay down construction selects a reducible outstanding capital amount. Sense 007 names an obligor, who cannot be the amount reduced by paying down.",
+        "classification": "unique"
+      },
+      {
+        "example_id": "ex-f4720456a0d5",
+        "best_sense_id": "sense:002",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "runner_up_sense_id": null,
+        "discriminating_terms": [
+          "A college principal"
+        ],
+        "rationale": "Lexical anchor: \"A college principal\". College principal is a compound institutional head title. Sense 001 would require a following nominal head and cannot itself head this count noun phrase; sense 003 names a performance role rather than the institutional head title present here.",
+        "classification": "unique"
+      }
+    ],
+    "blind_request_sha256": "a6b861a2b61b5d58ee387e395f69b945be95be448e28ddda125e265b7acc71d9"
+  },
+  "aligned_at": "2026-09-08T06:28:32.779632+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

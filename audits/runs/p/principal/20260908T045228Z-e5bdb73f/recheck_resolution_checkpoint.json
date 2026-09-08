@@ -1,0 +1,63 @@
+{
+  "schema_version": "recheck_resolution_checkpoint_v1",
+  "run_id": "20260908T045228Z-e5bdb73f",
+  "recorded_at": "2026-09-08T06:33:23.955903+00:00",
+  "review_output": "recheck/round1/pass_findings.json",
+  "input_body_sha256": "cdfd31b9e0407f51f99397eda23de6ad98b0113bd74d922527ec37125ae83694",
+  "output_body_sha256": "47db07a69e3698ae66b7c812b2f29f81a68c614b65cdc359c4603bdbb685fddd",
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "cdfd31b9e0407f51f99397eda23de6ad98b0113bd74d922527ec37125ae83694",
+    "after_body_sha256": "47db07a69e3698ae66b7c812b2f29f81a68c614b65cdc359c4603bdbb685fddd",
+    "changed_units": [
+      "collocations_examples",
+      "core_image",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "sense_structure",
+      "usage_notes"
+    ],
+    "full_recheck": true,
+    "fallback_reasons": [
+      "sense_or_part_of_speech_topology_changed"
+    ],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "pronunciation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "reusable_passes": []
+  },
+  "resolutions": [
+    {
+      "pass_id": "translation",
+      "finding_index": 0,
+      "disposition": "adopted",
+      "implemented_change": "Added 引き続き to preserve remains liable.",
+      "verification_status": "pending"
+    },
+    {
+      "pass_id": "qualification",
+      "finding_index": 0,
+      "disposition": "adopted",
+      "implemented_change": "Placed finance and agency before low-frequency performing arts; remapped sense numbers and source target references.",
+      "verification_status": "pending"
+    }
+  ],
+  "completed_recheck_rounds": 1,
+  "allowed_recheck_rounds": 1,
+  "stop_reason": "post-cold recheck limit reached with adopted corrections awaiting verification",
+  "open_questions": [
+    "Translation continuity and sense-order corrections need a second checker round; source-first standard profile permits only one."
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}
