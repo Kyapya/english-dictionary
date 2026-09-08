@@ -1,0 +1,169 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "blind_request_sha256": "ba5b490ac2eeec9df2c1124affd127421a1b4188ac18824da0e1e40ef575ce94",
+  "recorded_at": "2026-09-08T05:13:53.709944Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-cycle2-example-attribution-1"
+  },
+  "attributions": [
+      {
+        "example_id": "ex-7dab22053856",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["a principal source of income"],
+        "rationale": "“a principal source of income” では principal が source を前置修飾し、複数の収入源の中で重要度の高いものを表すため sense:001 に一意である。元本金額を表す sense:004 は可算名詞句 a source を修飾するこの統語位置・意味関係では成立しない。"
+      },
+      {
+        "example_id": "ex-520ae0c81995",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["identified him as a principal in the crime"],
+        "rationale": "“identified him as a principal in the crime” は him を当該犯罪について principal という法的資格に分類するため sense:006 に一意である。オーケストラ首席奏者の sense:003 は in the crime を伴う犯罪関与者の認定という意味関係では成立しない。"
+      },
+      {
+        "example_id": "ex-49355501caac",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["borrower", "repaying principal"],
+        "rationale": "“repaying principal” は borrower が借入の元の資本額を返す方向性を表すため sense:004 に一意である。sense:007 は返済対象の金額ではなく第一次的に義務を負う当事者なので repay の目的語にならない。"
+      },
+      {
+        "example_id": "ex-1e57e2430a98",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["agent generally owes duties", "to the principal"],
+        "rationale": "“agent generally owes duties ... to the principal” は agent から principal への忠実・注意義務という代理関係を直接実現するため sense:005 に一意である。sense:007 なら surety と主たる義務者の責任関係であり、agent が義務を負う相手という関係には合わない。"
+      },
+      {
+        "example_id": "ex-9dbc67db030d",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["principal of the college"],
+        "rationale": "“principal of the college” は of 補部が教育機関を指定し、その管理責任者を表すため sense:002 に一意である。オーケストラの首席奏者を表す sense:003 では college そのものを率いるこの教育職名の関係は成立しない。"
+      },
+      {
+        "example_id": "ex-a643dfd29d91",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["principal-agent relationship"],
+        "rationale": "“principal-agent relationship” は principal を agent と対になる代理関係の本人役として明示するため sense:005 に一意である。sense:007 の principal は surety など二次的責任者と対比される債務役であり、agent と対を作るこの関係名には合わない。"
+      },
+      {
+        "example_id": "ex-157beac2d8f2",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal architects of the reform"],
+        "rationale": "“principal architects of the reform” では principal が architects を前置修飾し、複数の立案者の中で主要な者を示すため sense:001 に一意である。人物名詞の sense:003 は principal 自体が奏者を指し、architects を評価的に修飾する同じ構文にはならない。"
+      },
+      {
+        "example_id": "ex-59d4fc91ccdf",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["classified the defendant as a principal in the first degree"],
+        "rationale": "“classified the defendant as a principal in the first degree” は defendant を刑事法上の等級付き分類に置くため sense:006 に一意である。sense:003 のオーケストラ役職には in the first degree という犯罪責任の分類表現が結び付かない。"
+      },
+      {
+        "example_id": "ex-2a415e1227b0",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal reason for the delay"],
+        "rationale": "“principal reason for the delay” では principal が reason を前置修飾して相対的重要性の高い理由を示すため sense:001 に一意である。人物名詞 sense:003 は reason をこの位置で修飾して評価属性を作れない。"
+      },
+      {
+        "example_id": "ex-29b0de50abd4",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["school principal"],
+        "rationale": "“school principal” は school が教育機関を直接限定する複合職名で、その長を表すため sense:002 に一意である。オーケストラ首席奏者の sense:003 は school と結合してこの教育職名を作らない。"
+      },
+      {
+        "example_id": "ex-18bb0ddb5ba9",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:006"],
+        "discriminating_terms": ["assists the offense as a principal"],
+        "rationale": "“assists the offense as a principal” は犯罪への関与によって person を principal と法的に分類するため sense:006 に一意である。sense:003 のオーケストラ内役職は offense への関与を根拠とする as-a-principal 分類にはならない。"
+      },
+      {
+        "example_id": "ex-da8e5eeb0a02",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["guarantee", "obligation of the principal"],
+        "rationale": "“The guarantee does not replace the obligation of the principal” は保証と、principal が負う第一次的義務を対置するため sense:007 に一意である。sense:005 なら agent と権限を与えた本人の関係が必要だが、この principal は guarantee によって置き換わらない obligation の担い手として使われている。"
+      },
+      {
+        "example_id": "ex-fe17b24d87b1",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:003"],
+        "discriminating_terms": ["one of the orchestra's principals"],
+        "rationale": "“one of the orchestra's principals” は possessive の orchestra's が principal をオーケストラ内の役職者として直接関係付けるため sense:003 に一意である。教育機関の長を表す sense:002 は orchestra に所属する複数の principals という同じ関係では成立しない。"
+      },
+      {
+        "example_id": "ex-96969658d75c",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal place of business"],
+        "rationale": "“principal place of business” では principal が place を前置修飾し、複数拠点中の主たる場所を示すため sense:001 に一意である。人物名詞 sense:003 は place をこの統語位置で修飾する同じ構文関係を取れない。"
+      },
+      {
+        "example_id": "ex-9f21a9f9e7ab",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["liable as principal for the debt"],
+        "rationale": "“liable as principal for the debt” は principal を債務について第一次的に責任を負う者として項づけるため sense:007 に一意である。sense:005 の本人なら agent に権限を与える関係が必要だが、この principal の使い方は代理ではなく debt への liability を直接表す。"
+      },
+      {
+        "example_id": "ex-09c5a98499dd",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:005"],
+        "discriminating_terms": ["agent may sign", "on behalf of the principal"],
+        "rationale": "“agent may sign ... on behalf of the principal” は principal が代理人による署名の本人であることを直接示すため sense:005 に一意である。sense:007 の主たる債務者は on behalf of による代理権の源という役割を持たず、この関係には合わない。"
+      },
+      {
+        "example_id": "ex-2d3d6de2e03f",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["protect the principal", "generating modest returns"],
+        "rationale": "“protect the principal while generating modest returns” は投資元本を保全しつつ収益を生む対比を表すため sense:004 に一意である。sense:007 の主たる義務者は returns を生む保全対象の資本額ではない。"
+      },
+      {
+        "example_id": "ex-d08371ee31ca",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:007"],
+        "discriminating_terms": ["duties of the principal and the surety"],
+        "rationale": "“duties of the principal and the surety” は principal を二次的責任者 surety と並べ、第一次的義務者を表すため sense:007 に一意である。sense:005 の本人であれば自然な対概念は agent であり、surety との責任対比には合わない。"
+      },
+      {
+        "example_id": "ex-3b81e36f6569",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:001"],
+        "discriminating_terms": ["principal cause of the failure"],
+        "rationale": "“principal cause of the failure” では principal が cause を前置修飾して重要度の高い原因を示すため sense:001 に一意である。人物名詞 sense:003 は cause の評価属性としてこの位置で働けない。"
+      },
+      {
+        "example_id": "ex-40742cac4b7e",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["both principal and interest"],
+        "rationale": "“both principal and interest” は principal を interest と並列し、利息から区別される元金を表すため sense:004 に一意である。sense:007 の当事者名詞は payment に含まれる金額として interest と並列できない。"
+      },
+      {
+        "example_id": "ex-a33f869a820c",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:004"],
+        "discriminating_terms": ["Extra payments", "pay down the principal"],
+        "rationale": "“Extra payments ... pay down the principal” は追加返済が元金残高を減少させる結果を表すため sense:004 に一意である。sense:007 は支払いで減らせる金額ではなく義務を負う当事者なので pay down の目的語にはならない。"
+      },
+      {
+        "example_id": "ex-f4720456a0d5",
+        "classification": "unique",
+        "candidate_sense_ids": ["sense:002"],
+        "discriminating_terms": ["college principal"],
+        "rationale": "“college principal” は college が教育機関を直接限定する職名で、その長を表すため sense:002 に一意である。オーケストラ首席奏者の sense:003 は college と結合してこの制度的な教育職名を作らない。"
+      }
+  ]
+}
