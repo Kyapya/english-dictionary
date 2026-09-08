@@ -19,11 +19,11 @@
     "candidate_pages": 12
   },
   "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "stage": "final_review_complete",
   "started_at": "2026-09-08T08:43:38Z",
   "deadline_at": "2026-09-08T09:43:38Z",
   "pre_draft_deadline_at": "2026-09-08T09:03:38Z",
-  "last_heartbeat_at": "2026-09-08T13:27:56Z",
+  "last_heartbeat_at": "2026-09-08T13:46:15Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T08:48:24Z",
@@ -64,6 +64,11 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-08T10:15:53Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-08T13:46:15Z",
+      "notes": "orchestrator completed final_review"
     }
   ],
   "stop_reason": "",
@@ -601,7 +606,7 @@
           "audits/runs/p/parliament/20260908T084338Z-d549b547/generation.json"
         ],
         "reason": "saved stage output has no coordinator learning_delta decision",
-        "recorded_at": "2026-09-08T13:27:56Z"
+        "recorded_at": "2026-09-08T13:44:35Z"
       },
       "pre_blind_resolution": {
         "status": "no_applicable",
@@ -618,7 +623,7 @@
           "audits/runs/p/parliament/20260908T084338Z-d549b547/resolutions.json"
         ],
         "reason": "multiple learning_delta payloads found for one stage",
-        "recorded_at": "2026-09-08T13:27:56Z"
+        "recorded_at": "2026-09-08T13:44:35Z"
       }
     },
     "pending_events": [],
@@ -724,20 +729,20 @@
       {
         "id": "final_review",
         "instruction_bytes": 4597,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 229348,
+        "duration_seconds": 240.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
@@ -815,7 +820,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 10,
+    "next_stage_index": 12,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -826,7 +831,9 @@
       "checker_recheck",
       "final_blind",
       "blind_seal",
-      "post_blind_resolution"
+      "post_blind_resolution",
+      "final_review",
+      "status_update"
     ],
     "stage_outputs": {
       "generation": [
@@ -861,6 +868,15 @@
         "audits/runs/p/parliament/20260908T084338Z-d549b547/post_blind_resolution.json",
         "audits/runs/p/parliament/20260908T084338Z-d549b547/post_blind_verification.json",
         "audits/runs/p/parliament/20260908T084338Z-d549b547/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/p/parliament/20260908T084338Z-d549b547/final_review.json",
+        "audits/p/parliament.json"
+      ],
+      "status_update": [
+        "entries/p/parliament.md",
+        "queue/words.csv",
+        "audits/runs/p/parliament/20260908T084338Z-d549b547/status_update.json"
       ]
     }
   },
