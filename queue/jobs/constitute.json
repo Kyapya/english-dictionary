@@ -5,15 +5,22 @@
   "headword": "constitute",
   "base_sha": "874857dea4c2726823b0efdd48ac9334521241f4",
   "queued_at": "2026-09-07T23:24:34.432146+00:00",
-  "status": "active",
+  "status": "completed",
   "branch": "words/constitute-5d18c5a59831",
   "publish_mode": "connector",
   "reviewer_mode": "handoff",
-  "run_path": "audits/workflow_runs/constitute/20260907T233241Z-b939dd56.json",
+  "run_path": "audits/workflow_runs/constitute/20260908T024208Z-fd1caf1b.json",
+  "takeover_previous_run_path": "audits/workflow_runs/constitute/20260907T233241Z-b939dd56.json",
+  "publication_result": {
+    "pull_request": "https://github.com/Kyapya/english-dictionary/pull/153",
+    "merge_sha": "c851cdfdab4f51a888771eeb0fab8bd878c344a0",
+    "notion_sync_run": "https://github.com/Kyapya/english-dictionary/actions/runs/34189607137",
+    "notion_sync_conclusion": "success"
+  },
   "error": null,
   "baseline_runs": [],
   "prepared_at": "2026-09-07T23:32:25.145844+00:00",
   "start_exit_code": 0,
-  "workflow_status": "in_progress",
-  "stage": "preflight"
+  "workflow_status": "completed",
+  "stage": "completed"
 }

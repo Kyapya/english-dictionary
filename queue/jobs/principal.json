@@ -9,11 +9,13 @@
   "branch": "words/principal-6be39d6e99f3",
   "publish_mode": "connector",
   "reviewer_mode": "handoff",
-  "run_path": "audits/workflow_runs/principal/20260907T233257Z-44da61f2.json",
+  "run_path": "audits/workflow_runs/principal/20260908T045228Z-e5bdb73f.json",
+  "takeover_previous_run_path": "audits/workflow_runs/principal/20260907T233257Z-44da61f2.json",
+  "takeover_authorization": "User explicitly requested completion and confirmed previous worker stopped: 止まってるので引き継いてください. Resume the existing prepared validation cycle under source_first_audit_v2 next explicit request rule; retain exhausted parent history and all existing counters.",
   "error": null,
   "baseline_runs": [],
   "prepared_at": "2026-09-07T23:32:42.666617+00:00",
   "start_exit_code": 0,
   "workflow_status": "in_progress",
-  "stage": "preflight"
+  "stage": "draft_saved"
 }
