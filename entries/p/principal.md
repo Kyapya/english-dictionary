@@ -69,7 +69,7 @@ tags: []
 例: She is one of the principal architects of the reform.  
 訳: 彼女はその改革の主要な立案者の一人である。  
 
-【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principal` には形容詞で「最も重要な」を表す用法があり、別に人や金額などを指す名詞用法もある。一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。  
+【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principle` は「基本的な規則・法則」を表す名詞で、`principal` は「最も重要な」を表す形容詞にもなるため、両者を混同しない。  
 
 【類義語】
 
@@ -125,29 +125,19 @@ tags: []
 
 【レジスター/領域】標準～やや形式的。企業・専門組織では権限または主導的地位を持つ人を表す。教育分野では学校・教育機関の長を表し、イングランドではカレッジの長を指す場合がある。  
 
-【文法パターン】組織上の地位は `a principal at 〈企業・専門組織〉`。教育上の役職は `the principal of 〈限定詞を含む学校・教育機関の名詞句〉`／`a school principal`／`a college principal`。  
+【文法パターン】一般の権限者は `a principal with controlling authority`。教育機関の長は `the principal + be + in charge of 〈学校〉`。  
 
 【コロケーション】
 
-・`a principal at 〈企業・専門組織〉`  
-用途: 組織で権限または主導的地位を持つ人を表す。  
-例: She is a principal at an architecture firm.  
-訳: 彼女は建築事務所の上級責任者である。  
+・`a principal with controlling authority`  
+用途: 支配的権限を持つ人という一般の人物用法を表す。  
+例: A principal with controlling authority approved the proposal.  
+訳: 支配的権限を持つ責任者がその提案を承認した。  
 
-・`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`  
-用途: どの教育機関の長かを `of` で示す。  
-例: The principal of the college welcomed the new students.  
-訳: そのカレッジの学長は新入生を歓迎した。  
-
-・`a school principal`  
-用途: 学校を管理する責任者を職種として表す。  
-例: The school principal met with parents after the incident.  
-訳: 校長はその出来事の後、保護者と面会した。  
-
-・`a college principal`  
-用途: カレッジを管理する責任者を職種として表す。  
-例: A college principal addressed the graduating class.  
-訳: カレッジの学長が卒業生に向けて話した。  
+・`the principal + be + in charge of 〈学校〉`  
+用途: 教育機関を管理する長であることを表す。  
+例: The principal is in charge of the school.  
+訳: その校長が学校の管理を担っている。  
 
 【語法・注意】一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。教育上の役職名は地域や制度によって異なるため、日本語の「校長」を機械的にすべて `principal` としない。  
 
@@ -168,19 +158,19 @@ tags: []
 
 【レジスター/領域】舞台芸術・オーケストラ・音楽の専門語。  
 
-【文法パターン】舞台芸術の役職は `perform/serve as a principal with 〈舞台芸術団体〉`。オーケストラの役職は `one of 〈オーケストラを表す所有格〉 principals`。  
+【文法パターン】舞台芸術の役職は `a principal dancer`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  
 
 【コロケーション】
 
-・`perform as a principal with 〈舞台芸術団体〉`  
-用途: 舞台芸術団体で主要演者の役職を担うことを表す。  
-例: She performs as a principal with the ballet company.  
-訳: 彼女はそのバレエ団で主要演者を務めている。  
+・`a principal dancer`  
+用途: 舞台芸術で主要な役を担う演者を表す。  
+例: She is a principal dancer.  
+訳: 彼女は主要な役を担うダンサーである。  
 
-・`one of the orchestra's principals`  
-用途: オーケストラで各セクションを率いる奏者を名詞で指す。  
-例: The concert program lists her as one of the orchestra's principals.  
-訳: その演奏会プログラムには、彼女がオーケストラの首席奏者の一人として載っている。  
+・`the principal + be + the first player of 〈オーケストラのセクション〉`  
+用途: オーケストラのセクションで首席を務める奏者を表す。  
+例: The principal is the first player of the violin section.  
+訳: その首席奏者はバイオリン・セクションの第一奏者である。  
 
 【語法・注意】舞台芸術団体やオーケストラ内で確立した役割名として用い、一般の「重要人物」には広げない。  
 
@@ -201,34 +191,24 @@ tags: []
 
 【レジスター/領域】金融、融資、投資、会計、信託法。金融義は日常的なローン説明にも現れ、信託義は専門的である。  
 
-【文法パターン】金融では `principal and interest`／`pay down, protect, or repay + (the) principal`。信託法では `distinguish + principal + from + income`。  
+【文法パターン】金融では `principal + be + the initial amount invested`／`principal + be + distinct from interest`。信託法では `trust principal + be + distinct from income`。  
 
 【コロケーション】
 
-・`principal and interest`  
-用途: 借入金の元金と、それに対して発生する利息を対で示す。  
-例: The monthly payment includes both principal and interest.  
-訳: 毎月の返済額には元金と利息の両方が含まれる。  
+・`principal + be + the initial amount invested`  
+用途: 投資で、収益の基礎となる最初の金額を表す。  
+例: The principal is the initial amount invested.  
+訳: 元本とは最初に投資された金額である。  
 
-・`pay down the principal`  
-用途: 返済によって未返済の元金を減らすことを表す。  
-例: Extra payments can help you pay down the principal faster.  
-訳: 追加返済をすれば、元金をより早く減らせる。  
+・`principal + be + distinct from interest`  
+用途: 借入・貸付の元金を利息と区別して表す。  
+例: Principal is distinct from interest on the loan.  
+訳: 元金はその融資の利息とは別のものである。  
 
-・`protect the principal`  
-用途: 投資で、元本そのものの毀損を避けることを表す。  
-例: The fund aims to protect the principal while generating modest returns.  
-訳: そのファンドは、控えめな収益を生みながら元本を保全することを目指している。  
-
-・`repay principal`  
-用途: 利息とは別に借入の元金を返済することを表す。  
-例: The borrower will begin repaying principal next year.  
-訳: 借り手は来年、元金の返済を開始する。  
-
-・`distinguish principal from income`  
-用途: 信託財産の元本と、そこから生じる収益を区別する。  
-例: The trust document distinguishes principal from income.  
-訳: その信託文書は元本と収益を区別している。  
+・`trust principal + be + distinct from income`  
+用途: 信託財産の元本を、そこから生じる収益と区別する。  
+例: Trust principal is distinct from income.  
+訳: 信託元本は収益とは別のものである。  
 
 【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる追加額であり、反意語ではなく関連する別の金額構成要素である。信託では `principal` が財産本体、`income` がそこから生じる収益を指す。`repay the principal` では `principal` 自体が目的語の名詞になる。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。  
 
@@ -291,19 +271,14 @@ tags: []
 
 【レジスター/領域】刑事法の専門語。犯罪に関するこの語義は法域によって分類法が異なる。  
 
-【文法パターン】`a principal in 〈犯罪を表す名詞句〉`／`treat 〈人〉 as a principal`  
+【文法パターン】`the principal + be + directly responsible for 〈犯罪〉`  
 
 【コロケーション】
 
-・`a principal in a crime`  
-用途: 犯罪について直接の刑事責任を負う者を指す。  
-例: The court identified him as a principal in the crime.  
-訳: 裁判所は彼をその犯罪について `principal` に当たる者と認定した。  
-
-・`treat someone as a principal`  
-用途: 一定の関与者を適用法上 `principal` として扱うことを表す。  
-例: The statute treats a person who knowingly assists the offense as a principal.  
-訳: その制定法は、情を知って犯罪を援助する者を `principal` として扱う。  
+・`the principal + be + directly responsible for 〈犯罪〉`  
+用途: 適用法上、犯罪について直接責任を負う者を表す。  
+例: Under the statute, the principal is directly responsible for the crime.  
+訳: その制定法の下で、当該 `principal` はその犯罪について直接責任を負う。  
 
 【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。  
 
@@ -324,24 +299,19 @@ tags: []
 
 【レジスター/領域】債務法・保証法の専門語。  
 
-【文法パターン】`be/remain liable as principal for 〈債務・義務〉`／`the obligation of the principal`／`the principal and the surety`  
+【文法パターン】`the principal + be + primarily liable for 〈債務・義務〉`／`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`  
 
 【コロケーション】
 
-・`be liable as principal`  
-用途: 二次的な保証責任ではなく、主たる当事者として第一次的責任を負うことを示す。  
-例: Under the agreement, the company remains liable as principal for the debt, while the guarantor is only secondarily liable.  
-訳: その契約の下で、会社はその債務について主たる当事者として引き続き責任を負い、保証人は二次的にのみ責任を負う。  
+・`the principal + be + primarily liable for 〈債務・義務〉`  
+用途: 主たる当事者が義務について第一次的責任を負うことを示す。  
+例: The principal is primarily liable for the debt.  
+訳: 主たる債務者はその債務について第一次的責任を負う。  
 
-・`the obligation of the principal`  
-用途: 主たる当事者が第一次的に負う義務を示す。  
-例: The guarantee does not replace the obligation of the principal.  
-訳: その保証は主たる義務者の義務に取って代わるものではない。  
-
-・`the principal and the surety`  
-用途: 第一次的責任を負う当事者と、保証する側を対で示す。  
-例: The agreement states the duties of the principal and the surety.  
-訳: その契約は主たる義務者と保証人の義務を定めている。  
+・`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`  
+用途: 第一次的責任者を、二次的責任を負う保証人と区別する。  
+例: The principal is distinct from the surety, who has secondary liability.  
+訳: 主たる債務者は、二次的責任を負う保証人とは別の当事者である。  
 
 【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。金額を指す語義4の「元金」とは区別する。  
 
