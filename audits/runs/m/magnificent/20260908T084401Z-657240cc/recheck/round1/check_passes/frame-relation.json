@@ -1,0 +1,85 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "recheck-frame-magnificent-20260908"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+    "blind_request_sha256": "f19adb0a595ea8958111517db3b991c19ee5dda7233f16cd379a7a67cff85dc9",
+    "recorded_at": "2026-09-08T19:03:30+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-frame-magnificent-20260908",
+      "same_model_as_generation": true
+    },
+    "axes": [
+      {
+        "item_id": "ant-656b417488cf",
+        "axis": "品質",
+        "relation_type": "評価",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-a16b293b479e",
+        "axis": "卓越性",
+        "relation_type": "程度",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-83c51c8dba18",
+        "axis": "印象力",
+        "relation_type": "程度",
+        "reason": ""
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+    "stage2_request_sha256": "0af2d1caef5b7ab61626669a1b6e36b952223c885be2891999347ce7865edb80",
+    "blind_record_sha256": "73cae3ec9c32a91011c6be9bdc89ce9ef2a8881e909f73c2160656804c937a55",
+    "recorded_at": "2026-09-08T19:06:52+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-frame-magnificent-20260908"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-83c51c8dba18",
+        "flags": [],
+        "rationale": "印象力の軸は、見る人に強い感銘を与えるという当該語義の定義から直接導出でき、強い感銘と感銘の欠如は程度対立として成立する。違い行にも対立の不成立や限定を自認する記述はない。",
+        "suggested_direction": "対立軸修正",
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-a16b293b479e",
+        "flags": [],
+        "rationale": "卓越性の軸は、質や価値が非常に高いという当該語義の定義から導出でき、極めて高い評価と平凡な評価は程度対立として成立する。違い行にも対立の不成立や限定を自認する記述はない。",
+        "suggested_direction": "対立軸修正",
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-656b417488cf",
+        "flags": [],
+        "rationale": "品質の軸は、質や出来を高く評価する当該語義から導出でき、非常に高い側と非常に低い側は評価対立として成立する。違い行にも対立の不成立や限定を自認する記述はない。",
+        "suggested_direction": "対立軸修正",
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T10:11:43.182500+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

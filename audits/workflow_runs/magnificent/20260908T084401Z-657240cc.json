@@ -23,7 +23,7 @@
   "started_at": "2026-09-08T08:44:01Z",
   "deadline_at": "2026-09-08T09:44:01Z",
   "pre_draft_deadline_at": "2026-09-08T09:04:01Z",
-  "last_heartbeat_at": "2026-09-08T09:48:33Z",
+  "last_heartbeat_at": "2026-09-08T10:24:18Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T08:47:47Z",
@@ -594,7 +594,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 1,
+    "total_revisions": 2,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -655,11 +655,11 @@
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 4096,
+        "duration_seconds": 2100.0,
+        "defects_detected": 1,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "final_blind",
@@ -782,14 +782,15 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 6,
+    "next_stage_index": 7,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
       "cold_review",
-      "pre_blind_resolution"
+      "pre_blind_resolution",
+      "checker_recheck"
     ],
     "stage_outputs": {
       "generation": [
@@ -810,6 +811,9 @@
       "pre_blind_resolution": [
         "audits/runs/m/magnificent/20260908T084401Z-657240cc/pre_blind_resolution.json",
         "audits/runs/m/magnificent/20260908T084401Z-657240cc/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/checker_recheck_manifest.json"
       ]
     }
   },

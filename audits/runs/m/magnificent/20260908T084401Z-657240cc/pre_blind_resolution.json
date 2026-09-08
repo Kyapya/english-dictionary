@@ -2,53 +2,521 @@
   "schema_version": "pre_blind_resolution_v1",
   "stage": "pre_blind_resolution",
   "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
-  "output_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
-  "recorded_at": "2026-09-08T09:43:30Z",
+  "output_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+  "recorded_at": "2026-09-08T10:18:30Z",
   "resolutions": [
-    {"id":"normal-translation-001","finding_id":"normal-translation-001","status":"resolved","disposition":"adopted","rationale":"The example modified example rather than building/palace, so it did not instantiate its displayed collocation.","required_changes":["Make magnificent directly modify building or palace."],"implemented_changes":["Replaced it with a magnificent eighteenth-century building and aligned the translation."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-translation-002","finding_id":"normal-translation-002","status":"resolved","disposition":"adopted","rationale":"眺めた weakened admire's appreciative meaning.","required_changes":["Preserve the appreciation expressed by admire."],"implemented_changes":["Changed the translation to 壮麗な内部に見入った."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-frame-relation-001","finding_id":"normal-frame-relation-001","status":"resolved","disposition":"adopted","rationale":"The example failed to fill the displayed modified-noun slot.","required_changes":["Align the example with the collocation."],"implemented_changes":["Magnificent now directly modifies building."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-frame-relation-002","finding_id":"normal-frame-relation-002","status":"resolved","disposition":"adopted","rationale":"The human-subject look frame was absent from the frame inventory.","required_changes":["Add the complete human-subject look ... in frame."],"implemented_changes":["Added 〈人〉 + look magnificent in 〈服・色〉."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-frame-relation-003","finding_id":"normal-frame-relation-003","status":"resolved","disposition":"adopted","rationale":"A derived adverb frame did not belong in an adjective sense's grammar contract.","required_changes":["Remove the magnificently adverb frame from the adjective grammar line."],"implemented_changes":["Removed do/play/perform magnificently from sense 2 grammar patterns."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-frame-relation-004","finding_id":"normal-frame-relation-004","status":"resolved","disposition":"adopted","rationale":"The person-subject feel frame lacked a matching grammar pattern and direct fixed evidence.","required_changes":["Remove or fully frame and support feel magnificent."],"implemented_changes":["Removed the feel magnificent collocation and its usage-note claim."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-frame-relation-005","finding_id":"normal-frame-relation-005","status":"resolved","disposition":"adopted","rationale":"Plain was only a contrast on ornamentation and was explicitly not a full antonym.","required_changes":["Do not list plain as an antonym."],"implemented_changes":["Removed the plain antonym block."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-example-attribution-001","finding_id":"normal-example-attribution-001","status":"resolved","disposition":"adopted","rationale":"Magnificent example belonged to the quality sense rather than the visual-appearance block.","required_changes":["Make the example uniquely instantiate the appearance sense."],"implemented_changes":["Replaced it with magnificent directly modifying building."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-qualification-001","finding_id":"normal-qualification-001","status":"resolved","disposition":"adopted","rationale":"The unqualified feel claim had an inanimate-subject counterexample.","required_changes":["Limit the claim or remove the unsupported frame."],"implemented_changes":["Removed the feel magnificent item and its categorical explanation."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-
-    {"id":"normal-evidence-001","finding_id":"normal-evidence-001","status":"resolved","disposition":"adopted","rationale":"The etymology sentence included an unsupported alternative path, semantic narrative, and related-word claims.","required_changes":["Limit etymology to the fixed French and Latin evidence."],"implemented_changes":["Rewrote the etymology to the French route and magnus/facere analysis only."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-002","finding_id":"normal-evidence-002","status":"resolved","disposition":"adopted","rationale":"The inventory directly supported magnificence as the corresponding noun, not every asserted domain of use.","required_changes":["Narrow the word-formation note."],"implemented_changes":["Limited it to meaning and corresponding-noun status."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-003","finding_id":"normal-evidence-003","status":"resolved","disposition":"adopted","rationale":"The inventory directly supported magnificently as the derived adverb, not the added perform frame.","required_changes":["Narrow the word-formation note."],"implemented_changes":["Removed the perform example and limited the note to corresponding-adverb status."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-004","finding_id":"normal-evidence-004","status":"resolved","disposition":"rejected","rationale":"The mandatory 1–10 learner-frequency field is an editorial pedagogic estimate under entry_spec_v5, not a claimed corpus statistic; the article makes no quantitative corpus claim.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-005","finding_id":"normal-evidence-005","status":"resolved","disposition":"adopted","rationale":"The detailed domain list and beautiful comparison exceeded the fixed source facts.","required_changes":["Keep only the supported strong positive evaluation and register characterization."],"implemented_changes":["Simplified the sense 1 register note."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-006","finding_id":"normal-evidence-006","status":"resolved","disposition":"rejected","rationale":"As with normal-evidence-004, the required frequency score is a documented editorial learner aid and is not presented as a measured statistic.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-007","finding_id":"normal-evidence-007","status":"resolved","disposition":"adopted","rationale":"The detailed media distribution and comparative-frequency claim exceeded F018.","required_changes":["Limit the note to high admiration and possible exaggeration."],"implemented_changes":["Simplified the sense 2 register note to those supported properties."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-008","finding_id":"normal-evidence-008","status":"resolved","disposition":"adopted","rationale":"Seem was not directly attested, while F010 supports before-noun, be, look, and its wedding-dress example supports the human look frame; the Cambridge source detail covers magnificent view.","required_changes":["Remove unsupported seem and make the attested human look frame explicit."],"implemented_changes":["Removed seem and added 〈人〉 + look magnificent in 〈服・色〉."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-009","finding_id":"normal-evidence-009","status":"resolved","disposition":"adopted","rationale":"The adjective block mixed in an adverb frame and an unattested seem frame.","required_changes":["Retain the supported adjective and exclamation frames only."],"implemented_changes":["Removed seem and the magnificently verb-modification frame."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-010","finding_id":"normal-evidence-010","status":"resolved","disposition":"rejected","rationale":"The eagle example is a transparent realization of the independently supported people-or-things appearance sense, not a new lexical sense or constraint requiring a separate union.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-011","finding_id":"normal-evidence-011","status":"resolved","disposition":"rejected","rationale":"F010's recorded source detail explicitly includes Oxford's looked magnificent in her wedding dress example, directly supporting the look ... in clothing frame.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-012","finding_id":"normal-evidence-012","status":"resolved","disposition":"rejected","rationale":"Interior/display is a transparent noun-slot realization of the sourced splendid-or-impressive-in-appearance sense; the article does not assert an additional lexicalized construction.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-013","finding_id":"normal-evidence-013","status":"resolved","disposition":"rejected","rationale":"Achievement is a direct realization of the sourced exceptionally-fine/result sense and the source-first claim explicitly maps achievement to article sense 2.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-014","finding_id":"normal-evidence-014","status":"resolved","disposition":"rejected","rationale":"The fixed Dictionary.com/Collins locator directly exemplifies magnificent opportunity and the source union records the exceptionally-fine sense; this is not an unsupported semantic extension.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-015","finding_id":"normal-evidence-015","status":"resolved","disposition":"adopted","rationale":"The feel construction lacked a mapped source fact and was dispensable to the core sense.","required_changes":["Remove the unsupported feel collocation."],"implemented_changes":["Removed feel magnificent and its example."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-016","finding_id":"normal-evidence-016","status":"resolved","disposition":"adopted","rationale":"The comparative-form usage claim was not represented in the fixed inventory.","required_changes":["Remove the unsupported comparison claim."],"implemented_changes":["Deleted the more/most sentence."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-017","finding_id":"normal-evidence-017","status":"resolved","disposition":"adopted","rationale":"The categorical interpretation of feel magnificent lacked direct support and had a subject-type counterexample.","required_changes":["Remove the categorical feel claim."],"implemented_changes":["Deleted the feel magnificent explanation."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-018","finding_id":"normal-evidence-018","status":"resolved","disposition":"adopted","rationale":"F018 supports high admiration and informal exaggeration, but not the added humor-or-warmth alternatives.","required_changes":["Narrow the pragmatic note to exaggeration."],"implemented_changes":["Removed humorous and emotionally warm alternatives."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-019","finding_id":"normal-evidence-019","status":"resolved","disposition":"rejected","rationale":"Splendid is independently listed as a synonym and gloss in Oxford, Collins, and Merriam-Webster; the concise learner contrast explicates that sourced relation rather than adding a magnificent sense.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-020","finding_id":"normal-evidence-020","status":"resolved","disposition":"rejected","rationale":"Merriam-Webster's fixed synonym discussion directly distinguishes majestic by solemn grandeur and supports the stated learner contrast.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-021","finding_id":"normal-evidence-021","status":"resolved","disposition":"rejected","rationale":"Merriam-Webster's fixed synonym discussion directly characterizes grand by size, handsomeness, and dignity and contrasts it with magnificent.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-022","finding_id":"normal-evidence-022","status":"resolved","disposition":"rejected","rationale":"Glorious is recorded as a close synonym by the fixed general sources; the definition and example preserve the visual high-admiration relation without creating a new headword claim.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-023","finding_id":"normal-evidence-023","status":"resolved","disposition":"rejected","rationale":"Unimpressive is a direct same-axis negation of the entry's sourced impressive sense; its definition states that transparent opposition and does not require a separate magnificent source union.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-024","finding_id":"normal-evidence-024","status":"resolved","disposition":"adopted","rationale":"Plain was only a limited ornamentation contrast and the direct inventory did not establish it as an antonym.","required_changes":["Remove plain from the antonym section."],"implemented_changes":["Removed the plain block."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-025","finding_id":"normal-evidence-025","status":"resolved","disposition":"rejected","rationale":"Excellent directly glosses the quality sense in the fixed Collins and Dictionary.com sources; the neutral quality-focused contrast is a standard explication of that source relation.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-026","finding_id":"normal-evidence-026","status":"resolved","disposition":"rejected","rationale":"Superb directly glosses magnificent's quality sense in two fixed sources; the entry's concise distinction does not alter the headword's sourced meaning.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-027","finding_id":"normal-evidence-027","status":"resolved","disposition":"rejected","rationale":"Outstanding is a standard quality-ranking synonym used to contrast explicit comparative salience with magnificent's direct admiration; no unsupported magnificent constraint is inferred.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-028","finding_id":"normal-evidence-028","status":"resolved","disposition":"rejected","rationale":"Wonderful is a general high-positive synonym used only for a learner-facing register contrast and does not constitute an additional source-dependent sense claim.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-029","finding_id":"normal-evidence-029","status":"resolved","disposition":"rejected","rationale":"Mediocre is a transparent low-quality contrast on the explicitly stated quality axis; the entry does not claim a lexical complement relation.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"normal-evidence-030","finding_id":"normal-evidence-030","status":"resolved","disposition":"rejected","rationale":"Terrible is a transparent very-low-quality opposite to the sourced exceptionally-fine sense and the explanation expressly limits the relation to quality evaluation.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-
-    {"id":"CR-MAGNIFICENT-001","finding_id":"CR-MAGNIFICENT-001","status":"resolved","disposition":"adopted","rationale":"The prior wording could make /sənt/ sound like the only possible realization despite the fixed sources also recording /snt/.","required_changes":["Distinguish the dictionary variants and further vowel weakening."],"implemented_changes":["Revised the UK form to /snt/ and explained /sənt/ versus /snt/."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"CR-MAGNIFICENT-002","finding_id":"CR-MAGNIFICENT-002","status":"resolved","disposition":"adopted","rationale":"The example modified example, so it demonstrated the quality sense rather than the displayed building/palace collocation.","required_changes":["Make magnificent directly modify the building noun."],"implemented_changes":["Replaced the sentence and translation with a magnificent eighteenth-century building."],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"},
-    {"id":"CR-MAGNIFICENT-003","finding_id":"CR-MAGNIFICENT-003","status":"resolved","disposition":"rejected","rationale":"entry_spec_v5 mandates the 1–10 pedagogical frequency convention throughout sense and relation blocks; these scores are qualitative editorial aids, not corpus estimates, and the article makes no claim that equal scores prove equal measured frequency.","required_changes":[],"implemented_changes":[],"resolved_body_sha256":"68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162"}
+    {
+      "id": "normal-translation-001",
+      "finding_id": "normal-translation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The example modified example rather than building/palace, so it did not instantiate its displayed collocation.",
+      "required_changes": [
+        "Make magnificent directly modify building or palace."
+      ],
+      "implemented_changes": [
+        "Replaced it with a magnificent eighteenth-century building and aligned the translation."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-translation-002",
+      "finding_id": "normal-translation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "眺めた weakened admire's appreciative meaning.",
+      "required_changes": [
+        "Preserve the appreciation expressed by admire."
+      ],
+      "implemented_changes": [
+        "Changed the translation to 壮麗な内部に見入った."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The example failed to fill the displayed modified-noun slot.",
+      "required_changes": [
+        "Align the example with the collocation."
+      ],
+      "implemented_changes": [
+        "Magnificent now directly modifies building."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-002",
+      "finding_id": "normal-frame-relation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The human-subject look frame was absent from the frame inventory.",
+      "required_changes": [
+        "Add the complete human-subject look ... in frame."
+      ],
+      "implemented_changes": [
+        "Added 〈人〉 + look magnificent in 〈服・色〉."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-003",
+      "finding_id": "normal-frame-relation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "A derived adverb frame did not belong in an adjective sense's grammar contract.",
+      "required_changes": [
+        "Remove the magnificently adverb frame from the adjective grammar line."
+      ],
+      "implemented_changes": [
+        "Removed do/play/perform magnificently from sense 2 grammar patterns."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-004",
+      "finding_id": "normal-frame-relation-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The person-subject feel frame lacked a matching grammar pattern and direct fixed evidence.",
+      "required_changes": [
+        "Remove or fully frame and support feel magnificent."
+      ],
+      "implemented_changes": [
+        "Removed the feel magnificent collocation and its usage-note claim."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-005",
+      "finding_id": "normal-frame-relation-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Plain was only a contrast on ornamentation and was explicitly not a full antonym.",
+      "required_changes": [
+        "Do not list plain as an antonym."
+      ],
+      "implemented_changes": [
+        "Removed the plain antonym block."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Magnificent example belonged to the quality sense rather than the visual-appearance block.",
+      "required_changes": [
+        "Make the example uniquely instantiate the appearance sense."
+      ],
+      "implemented_changes": [
+        "Replaced it with magnificent directly modifying building."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The unqualified feel claim had an inanimate-subject counterexample.",
+      "required_changes": [
+        "Limit the claim or remove the unsupported frame."
+      ],
+      "implemented_changes": [
+        "Removed the feel magnificent item and its categorical explanation."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The etymology sentence included an unsupported alternative path, semantic narrative, and related-word claims.",
+      "required_changes": [
+        "Limit etymology to the fixed French and Latin evidence."
+      ],
+      "implemented_changes": [
+        "Rewrote the etymology to the French route and magnus/facere analysis only."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The inventory directly supported magnificence as the corresponding noun, not every asserted domain of use.",
+      "required_changes": [
+        "Narrow the word-formation note."
+      ],
+      "implemented_changes": [
+        "Limited it to meaning and corresponding-noun status."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The inventory directly supported magnificently as the derived adverb, not the added perform frame.",
+      "required_changes": [
+        "Narrow the word-formation note."
+      ],
+      "implemented_changes": [
+        "Removed the perform example and limited the note to corresponding-adverb status."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The mandatory 1–10 learner-frequency field is an editorial pedagogic estimate under entry_spec_v5, not a claimed corpus statistic; the article makes no quantitative corpus claim.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The detailed domain list and beautiful comparison exceeded the fixed source facts.",
+      "required_changes": [
+        "Keep only the supported strong positive evaluation and register characterization."
+      ],
+      "implemented_changes": [
+        "Simplified the sense 1 register note."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "As with normal-evidence-004, the required frequency score is a documented editorial learner aid and is not presented as a measured statistic.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The detailed media distribution and comparative-frequency claim exceeded F018.",
+      "required_changes": [
+        "Limit the note to high admiration and possible exaggeration."
+      ],
+      "implemented_changes": [
+        "Simplified the sense 2 register note to those supported properties."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Seem was not directly attested, while F010 supports before-noun, be, look, and its wedding-dress example supports the human look frame; the Cambridge source detail covers magnificent view.",
+      "required_changes": [
+        "Remove unsupported seem and make the attested human look frame explicit."
+      ],
+      "implemented_changes": [
+        "Removed seem and added 〈人〉 + look magnificent in 〈服・色〉."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-009",
+      "finding_id": "normal-evidence-009",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The adjective block mixed in an adverb frame and an unattested seem frame.",
+      "required_changes": [
+        "Retain the supported adjective and exclamation frames only."
+      ],
+      "implemented_changes": [
+        "Removed seem and the magnificently verb-modification frame."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-010",
+      "finding_id": "normal-evidence-010",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The eagle example is a transparent realization of the independently supported people-or-things appearance sense, not a new lexical sense or constraint requiring a separate union.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-011",
+      "finding_id": "normal-evidence-011",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "F010's recorded source detail explicitly includes Oxford's looked magnificent in her wedding dress example, directly supporting the look ... in clothing frame.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-012",
+      "finding_id": "normal-evidence-012",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Interior/display is a transparent noun-slot realization of the sourced splendid-or-impressive-in-appearance sense; the article does not assert an additional lexicalized construction.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-013",
+      "finding_id": "normal-evidence-013",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Achievement is a direct realization of the sourced exceptionally-fine/result sense and the source-first claim explicitly maps achievement to article sense 2.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-014",
+      "finding_id": "normal-evidence-014",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "The fixed Dictionary.com/Collins locator directly exemplifies magnificent opportunity and the source union records the exceptionally-fine sense; this is not an unsupported semantic extension.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-015",
+      "finding_id": "normal-evidence-015",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The feel construction lacked a mapped source fact and was dispensable to the core sense.",
+      "required_changes": [
+        "Remove the unsupported feel collocation."
+      ],
+      "implemented_changes": [
+        "Removed feel magnificent and its example."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-016",
+      "finding_id": "normal-evidence-016",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The comparative-form usage claim was not represented in the fixed inventory.",
+      "required_changes": [
+        "Remove the unsupported comparison claim."
+      ],
+      "implemented_changes": [
+        "Deleted the more/most sentence."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-017",
+      "finding_id": "normal-evidence-017",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The categorical interpretation of feel magnificent lacked direct support and had a subject-type counterexample.",
+      "required_changes": [
+        "Remove the categorical feel claim."
+      ],
+      "implemented_changes": [
+        "Deleted the feel magnificent explanation."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-018",
+      "finding_id": "normal-evidence-018",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F018 supports high admiration and informal exaggeration, but not the added humor-or-warmth alternatives.",
+      "required_changes": [
+        "Narrow the pragmatic note to exaggeration."
+      ],
+      "implemented_changes": [
+        "Removed humorous and emotionally warm alternatives."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-019",
+      "finding_id": "normal-evidence-019",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Splendid is independently listed as a synonym and gloss in Oxford, Collins, and Merriam-Webster; the concise learner contrast explicates that sourced relation rather than adding a magnificent sense.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-020",
+      "finding_id": "normal-evidence-020",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Merriam-Webster's fixed synonym discussion directly distinguishes majestic by solemn grandeur and supports the stated learner contrast.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-021",
+      "finding_id": "normal-evidence-021",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Merriam-Webster's fixed synonym discussion directly characterizes grand by size, handsomeness, and dignity and contrasts it with magnificent.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-022",
+      "finding_id": "normal-evidence-022",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Glorious is recorded as a close synonym by the fixed general sources; the definition and example preserve the visual high-admiration relation without creating a new headword claim.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-023",
+      "finding_id": "normal-evidence-023",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Unimpressive is a direct same-axis negation of the entry's sourced impressive sense; its definition states that transparent opposition and does not require a separate magnificent source union.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-024",
+      "finding_id": "normal-evidence-024",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Plain was only a limited ornamentation contrast and the direct inventory did not establish it as an antonym.",
+      "required_changes": [
+        "Remove plain from the antonym section."
+      ],
+      "implemented_changes": [
+        "Removed the plain block."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-025",
+      "finding_id": "normal-evidence-025",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Excellent directly glosses the quality sense in the fixed Collins and Dictionary.com sources; the neutral quality-focused contrast is a standard explication of that source relation.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-026",
+      "finding_id": "normal-evidence-026",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Superb directly glosses magnificent's quality sense in two fixed sources; the entry's concise distinction does not alter the headword's sourced meaning.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-027",
+      "finding_id": "normal-evidence-027",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Outstanding is a standard quality-ranking synonym used to contrast explicit comparative salience with magnificent's direct admiration; no unsupported magnificent constraint is inferred.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-028",
+      "finding_id": "normal-evidence-028",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Wonderful is a general high-positive synonym used only for a learner-facing register contrast and does not constitute an additional source-dependent sense claim.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-029",
+      "finding_id": "normal-evidence-029",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Mediocre is a transparent low-quality contrast on the explicitly stated quality axis; the entry does not claim a lexical complement relation.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-030",
+      "finding_id": "normal-evidence-030",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "Terrible is a transparent very-low-quality opposite to the sourced exceptionally-fine sense and the explanation expressly limits the relation to quality evaluation.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "CR-MAGNIFICENT-001",
+      "finding_id": "CR-MAGNIFICENT-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The prior wording could make /sənt/ sound like the only possible realization despite the fixed sources also recording /snt/.",
+      "required_changes": [
+        "Distinguish the dictionary variants and further vowel weakening."
+      ],
+      "implemented_changes": [
+        "Revised the UK form to /snt/ and explained /sənt/ versus /snt/."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "CR-MAGNIFICENT-002",
+      "finding_id": "CR-MAGNIFICENT-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The example modified example, so it demonstrated the quality sense rather than the displayed building/palace collocation.",
+      "required_changes": [
+        "Make magnificent directly modify the building noun."
+      ],
+      "implemented_changes": [
+        "Replaced the sentence and translation with a magnificent eighteenth-century building."
+      ],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "CR-MAGNIFICENT-003",
+      "finding_id": "CR-MAGNIFICENT-003",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "entry_spec_v5 mandates the 1–10 pedagogical frequency convention throughout sense and relation blocks; these scores are qualitative editorial aids, not corpus estimates, and the article makes no claim that equal scores prove equal measured frequency.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    }
   ],
   "learning_delta": {
     "schema_version": "process_improvement_learning_delta_v2",

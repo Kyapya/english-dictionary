@@ -1,0 +1,46 @@
+{
+  "schema_version": "recheck_resolution_checkpoint_v1",
+  "run_id": "20260908T084401Z-657240cc",
+  "recorded_at": "2026-09-08T10:12:30Z",
+  "review_output": "recheck/round1/pass_findings.json",
+  "revision_plan": {
+    "schema_version": "workflow_revision_v1",
+    "before_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+    "after_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+    "changed_units": [
+      "pronunciation"
+    ],
+    "full_recheck": false,
+    "fallback_reasons": [],
+    "invalidated_passes": [
+      "evidence",
+      "pronunciation"
+    ],
+    "reusable_passes": [
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ]
+  },
+  "resolutions": [
+    {
+      "pass_id": "pronunciation",
+      "finding_index": 0,
+      "disposition": "adopted",
+      "rationale": "The default UK transcription now retains final /ə/, so the four-syllable statement matches both displayed default forms; the /snt/ variant is explicitly identified as schwa weakening or deletion rather than another four-vowel form.",
+      "verification_status": "verified"
+    }
+  ],
+  "completed_recheck_rounds": 2,
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  },
+  "verification_completed_at": "2026-09-08T10:18:00Z",
+  "verified_by_round": 2,
+  "open_questions": [],
+  "stop_reason": ""
+}
