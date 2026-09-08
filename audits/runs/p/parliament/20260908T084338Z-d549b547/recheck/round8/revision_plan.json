@@ -1,0 +1,26 @@
+{
+  "schema_version": "workflow_revision_v1",
+  "before_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "after_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+  "changed_units": [
+    "collocations_examples",
+    "core_image",
+    "frames",
+    "lexical_relations",
+    "sense_structure",
+    "usage_notes"
+  ],
+  "full_recheck": false,
+  "fallback_reasons": [],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "reusable_passes": [
+    "pronunciation"
+  ]
+}

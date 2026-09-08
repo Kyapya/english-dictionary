@@ -1,0 +1,70 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/recheck4_frame",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041",
+    "blind_request_sha256": "ab761aabda99414232cdacd53514dcc39f9af8d3a7e95cbdae1036ec5669ae68",
+    "recorded_at": "2026-09-08T20:11:41+09:00",
+    "reviewer": {
+      "agent": "/root/parliament_word/recheck4_frame",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041",
+    "stage2_request_sha256": "b2505158285847fb860f9432944b1edaf34ce9b8075b0dbc5ca925a50eab8ac3",
+    "blind_record_sha256": "adbb787afa8a9a4bfd5ea836feaf03b289868d06eaab105aa6710e16cb643ba5",
+    "reviewer": {
+      "agent_id": "/root/parliament_word/recheck4_frame",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "adjudications": [],
+    "frame_findings": [
+      {
+        "taxonomy_id": "lexical_relation_mislabel",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 136,
+          "line_end": 136,
+          "exact_quote": "・period between elections"
+        },
+        "severity": "blocking",
+        "rationale": "`period between elections` は選挙間の時間範囲をそのまま述べる非定着の説明句であり、解散で終了する `parliament` と境界も一致しないため、この語義の類義語として扱えない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "削除"
+      }
+    ],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T11:18:02.410536+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 136,
+        "line_end": 136,
+        "exact_quote": "・period between elections"
+      },
+      "severity": "blocking",
+      "rationale": "`period between elections` は選挙間の時間範囲をそのまま述べる非定着の説明句であり、解散で終了する `parliament` と境界も一致しないため、この語義の類義語として扱えない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "削除"
+    }
+  ],
+  "unrouted_observations": []
+}

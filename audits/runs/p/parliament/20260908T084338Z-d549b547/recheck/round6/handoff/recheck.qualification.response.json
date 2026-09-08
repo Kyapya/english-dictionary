@@ -1,0 +1,30 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/r6_qualification",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 35,
+        "line_end": 35,
+        "exact_quote": "代表者から成り、法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。"
+      },
+      "severity": "blocking",
+      "rationale": "「代表者から成り」を parliament 一般の必須条件として無限定に置いているが、議会には任命制・世襲制の議員を含む院があり得るため、主要語義の適用範囲を狭める反例がある。とりわけ英国議会を含む用例を同じブロックで扱う以上、構成員がすべて代表者であるかのような定義は制度上も不正確である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「国または地域の立法機関」などを中心に定義し、構成員の選出・任命・世襲などの方式は制度によって異なると限定する。"
+    }
+  ],
+  "unresolved_issues": [],
+  "notes": [
+    "指定された固定入力と qualification 仕様だけを用いて独立に判定した。"
+  ]
+}

@@ -1,0 +1,150 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/recheck2_example"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "6b0819554952c90b2fe65496fac81733c340fd4bd9f43527676c8b964a1d986c",
+    "blind_request_sha256": "940132b35dc0fde6f9e39f9f2079c370cd666bf9ae59445ebf823b4cabf9255d",
+    "recorded_at": "2026-09-08T10:52:58Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/recheck2_example"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-9dd1c17e59d0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "before Parliament"
+        ],
+        "rationale": "判別語は `before Parliament`。ここで Parliament は法案を審議する機関・議員集団を表す。競合する sense:002 の議会期は法案の対面する審議主体にならないため、この用法では成立しない。"
+      },
+      {
+        "example_id": "ex-27285170b288",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a member of parliament"
+        ],
+        "rationale": "判別語は `a member of parliament`。parliament は人物が member として所属する議員集団・機関を表す。競合する sense:002 の期間そのものに membership を持つとは解せない。"
+      },
+      {
+        "example_id": "ex-9e813a686ac5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "elected to Parliament"
+        ],
+        "rationale": "判別語は `elected to Parliament`。選出先としての Parliament は制度的機関またはその議員集団である。競合する sense:002 の議会期・期間は人の選出先にならない。"
+      },
+      {
+        "example_id": "ex-e9fe6741c620",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during the current parliament"
+        ],
+        "rationale": "判別語は `during the current parliament`。parliament は可決可能性を評価する現在の一議会期を表す。競合する sense:001 の恒常的な制度機関は `during` が区切る有限の期間そのものではない。"
+      },
+      {
+        "example_id": "ex-9a21c91ca2f9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during this parliament"
+        ],
+        "rationale": "判別語は `during this parliament`。措置導入の期限となる特定の議会期を指す。競合する sense:001 の機関・議員集団は、この `during` 構文で政策実施の期間としては解されない。"
+      },
+      {
+        "example_id": "ex-1c936f7d5221",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "dissolve Parliament",
+          "ending its current term"
+        ],
+        "rationale": "解散によって現在の回・存続期間が終了する特定議会を表す。競合する sense:001 の恒常的制度としての議会は選挙後も制度自体が存続し、`ending its current term` が明示する対象とは一致しない。"
+      },
+      {
+        "example_id": "ex-a3da1a7d8376",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "an Act of Parliament"
+        ],
+        "rationale": "判別語は `an Act of Parliament`。Parliament は法律を制定する制度的機関を表す。競合する sense:002 の議会期は Act の制定主体または制度的出所としては成立しない。"
+      },
+      {
+        "example_id": "ex-23c6c5c66884",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "in the next parliament"
+        ],
+        "rationale": "判別語は `in the next parliament`。再検討が行われる次回の特定議会を指す。競合する sense:001 の同一制度機関には現在・次回という交替単位がなく、`next` による順序づけが適合しない。"
+      },
+      {
+        "example_id": "ex-297474be2d7b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "general election produced",
+          "for the new term"
+        ],
+        "rationale": "判別語は `general election produced` と `for the new term`。総選挙の結果として成立し、新しい任期に対応する特定回の議会を表す。競合する sense:001 の恒常的制度機関そのものは総選挙によって新たに produced されず、new term ごとに別の回として成立するという関係を表せない。"
+      },
+      {
+        "example_id": "ex-baa86e423fc5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "the lifetime of a parliament"
+        ],
+        "rationale": "判別語は `the lifetime of a parliament`。parliament は開始から正式な終了までの一議会期を表す。競合する sense:001 の制度機関にはこの文脈で改革所要期間と比較される有限の lifetime がない。"
+      },
+      {
+        "example_id": "ex-00ecdf216a41",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Parliament passed the bill"
+        ],
+        "rationale": "判別語は `Parliament passed the bill`。Parliament は法案を可決する行為主体である制度機関・議員集団を表す。競合する sense:002 の議会期という時間的単位は法案を可決する主体にならない。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T10:57:59.235060+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

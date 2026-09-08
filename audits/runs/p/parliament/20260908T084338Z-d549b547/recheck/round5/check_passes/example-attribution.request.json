@@ -1,0 +1,109 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "2e91f7f7ec02932b0cc482d736a6872be0ab32cd48e6a26e54e8abc94bd3a93e",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 33,
+        "label": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "definition": "代表者から成り、法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 100,
+        "label": "2. 【名詞・可算】一議会期、総選挙後に成立した特定回の議会",
+        "definition": "主にイギリスの用法で、総選挙後に成立し、解散など制度上の正式な終了まで同じ回として存続する特定の議会、またはその期間を指す。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-12a0195ce027",
+        "example": "The country was left with a hung parliament, so the parties began coalition talks.",
+        "translation": "その国ではどの政党も単独過半数を持たない議会となり、各党は連立協議を始めた。"
+      },
+      {
+        "example_id": "ex-4c4873a72ff5",
+        "example": "The proposal is unlikely to pass during the current parliament.",
+        "translation": "その提案が今議会期中に可決される可能性は低い。"
+      },
+      {
+        "example_id": "ex-7852d6c8987c",
+        "example": "He was elected to Parliament at the age of thirty-two.",
+        "translation": "彼は32歳で国会議員に選出された。"
+      },
+      {
+        "example_id": "ex-c24002f2357e",
+        "example": "Parliament passed the bill after months of debate.",
+        "translation": "国会は数か月にわたる審議の末、その法案を可決した。"
+      },
+      {
+        "example_id": "ex-5f1415a23b20",
+        "example": "The bill currently before Parliament would strengthen consumer protections.",
+        "translation": "現在国会で審議中のその法案は、消費者保護を強化するものだ。"
+      },
+      {
+        "example_id": "ex-bb57aabf8d18",
+        "example": "She was elected as a member of parliament for the first time last year.",
+        "translation": "彼女は昨年、初めて国会議員に選出された。"
+      },
+      {
+        "example_id": "ex-f2a7c22be4ee",
+        "example": "The requirement was introduced by an Act of Parliament.",
+        "translation": "その要件は議会制定法によって導入された。"
+      },
+      {
+        "example_id": "ex-6832635613e4",
+        "example": "The government promised to introduce the measure during this parliament.",
+        "translation": "政府は今議会期中にその措置を導入すると約束した。"
+      },
+      {
+        "example_id": "ex-1171b9fb29f6",
+        "example": "The committee recommended that the issue be reconsidered in the next parliament.",
+        "translation": "委員会は、その問題を次の議会期に再検討するよう勧告した。"
+      },
+      {
+        "example_id": "ex-48a039829f62",
+        "example": "Major constitutional reform may take the lifetime of a parliament to complete.",
+        "translation": "大規模な憲法改革は、一議会期を通じてようやく完了することもある。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "99baae80a6fbda533d653e97d813e669c80de339062934216999330488e1a754",
+  "normalized_input_sha256": "888811f272d1e153fae35a1e8ccaf7e3695b77e37b3f650e7eddf123d01e7c4d"
+}

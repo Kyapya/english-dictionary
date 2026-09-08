@@ -1,9 +1,15 @@
 {
   "schema_version": "post_blind_resolution_v1",
-  "recorded_at": "2026-09-08T10:17:03Z",
-  "input_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
-  "output_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+  "stage": "post_blind_resolution",
+  "attempt_number": 3,
+  "recorded_at": "2026-09-08T12:51:00.633656+00:00",
+  "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "output_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
   "resolutions": [],
-  "rationale": "The independent final blind found no article defects, so no post-blind article change was required and the sealed blind remains the terminal body review.",
-  "learning_delta": {"schema_version":"process_improvement_learning_delta_v2","reviewed":true,"items":[]}
+  "rationale": "The fresh independent third final blind review found no article defects after all adopted attempt-two and recheck findings were resolved, so no further article change was required.",
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
 }

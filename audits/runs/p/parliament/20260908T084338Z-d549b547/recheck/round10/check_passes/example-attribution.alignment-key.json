@@ -1,0 +1,131 @@
+{
+  "schema_version": "example_attribution_alignment_key_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "blind_request_sha256": "728189aa82149f5660da1970bd579dbfbb516ae87c272ffcf7fa398f393ca6e0",
+  "shuffle_seed": "parliament-round10-20260908",
+  "examples": [
+    {
+      "example_id": "ex-e44f6ab90bfd",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 47,
+        "line_end": 47,
+        "exact_quote": "例: She was elected as a member of parliament for the first time last year.  "
+      },
+      "source_example_id": "example:001"
+    },
+    {
+      "example_id": "ex-7feac96674ae",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 52,
+        "line_end": 52,
+        "exact_quote": "例: He was elected to Parliament at the age of thirty-two.  "
+      },
+      "source_example_id": "example:002"
+    },
+    {
+      "example_id": "ex-59ebfcabca74",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 57,
+        "line_end": 57,
+        "exact_quote": "例: The bill currently before Parliament would strengthen consumer protections.  "
+      },
+      "source_example_id": "example:003"
+    },
+    {
+      "example_id": "ex-efa333c75700",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 62,
+        "line_end": 62,
+        "exact_quote": "例: The Scottish Parliament passed the bill after months of debate.  "
+      },
+      "source_example_id": "example:004"
+    },
+    {
+      "example_id": "ex-f10dcc848633",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 67,
+        "line_end": 67,
+        "exact_quote": "例: The requirement was introduced by an Act of Parliament.  "
+      },
+      "source_example_id": "example:005"
+    },
+    {
+      "example_id": "ex-5f6c1595fb6d",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 109,
+        "line_end": 109,
+        "exact_quote": "例: The general election produced a hung parliament.  "
+      },
+      "source_example_id": "example:006"
+    },
+    {
+      "example_id": "ex-cb549620d2a2",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 114,
+        "line_end": 114,
+        "exact_quote": "例: The proposal is unlikely to pass during the current parliament.  "
+      },
+      "source_example_id": "example:007"
+    },
+    {
+      "example_id": "ex-f688a23d16e0",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 119,
+        "line_end": 119,
+        "exact_quote": "例: The committee recommended that the issue be reconsidered in the next parliament.  "
+      },
+      "source_example_id": "example:008"
+    },
+    {
+      "example_id": "ex-4d5ccb51363f",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 124,
+        "line_end": 124,
+        "exact_quote": "例: Major constitutional reform may take the lifetime of a parliament to complete.  "
+      },
+      "source_example_id": "example:009"
+    },
+    {
+      "example_id": "ex-2588ba464714",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 129,
+        "line_end": 129,
+        "exact_quote": "例: The government promised to introduce the measure during this parliament.  "
+      },
+      "source_example_id": "example:010"
+    }
+  ],
+  "sense_usage_notes": [
+    {
+      "sense_id": "sense:001",
+      "line": 70,
+      "text": "この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。"
+    },
+    {
+      "sense_id": "sense:002",
+      "line": 132,
+      "text": "語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。"
+    }
+  ]
+}

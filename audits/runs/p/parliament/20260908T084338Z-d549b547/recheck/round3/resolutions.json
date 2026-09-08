@@ -1,0 +1,33 @@
+{
+  "schema_version": "recheck_resolution_v1",
+  "stage": "checker_recheck",
+  "round": 3,
+  "input_body_sha256": "bdc3cb22935e1d935d7e37298f3652cccc9fd999391de631e94fccc47eeff9f5",
+  "output_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041",
+  "resolutions": [
+    {
+      "id": "round3-evidence-001",
+      "finding_id": "round3-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Separated Old French speaking/talk meaning from the attested c.1300 English consultation, conference, and assembly meanings.",
+      "resolved_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041"
+    },
+    {
+      "id": "round3-evidence-002",
+      "finding_id": "round3-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed the unsupported exclusive sense-2 analysis and moved hung parliament to sense 1 with only the fixed no-majority meaning.",
+      "resolved_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041"
+    },
+    {
+      "id": "round3-evidence-003",
+      "finding_id": "round3-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed the unattested dissolve Parliament frame and example, retaining only sourced dissolution semantics in prose.",
+      "resolved_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041"
+    }
+  ]
+}

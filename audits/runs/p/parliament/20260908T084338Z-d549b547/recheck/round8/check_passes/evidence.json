@@ -1,0 +1,29 @@
+{
+  "pass_id": "evidence",
+  "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/r8_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "【日本語訳・定義】主にイギリスの用法で、総選挙を区切りとして成立する特定回の議会、またはその存続期間を指す。一つの `Parliament` は複数の `session` に分かれる。  "
+      },
+      "severity": "blocking",
+      "rationale": "C-007 に結び付けられた F-013 は選挙間の期間という語義を、F-018 は英国でのその定義を支持するが、いずれも他地域との比較や地域ラベルを提示しておらず、『主にイギリスの用法』という分布上の限定を直接支持しない。英国政府資料に当該用法があることだけでは、その用法が主として英国に限られるとは判定できない。期間の語義と session との区別自体は F-013/F-018/F-019 が支持する。",
+      "evidence_link_ids": [
+        "C-007",
+        "F-013",
+        "F-018"
+      ],
+      "suggested_direction": "固定済み根拠の範囲では地域限定を削除し、総選挙間の特定回・期間という直接支持された内容に限定する。地域限定を残すなら、それを明示する既存の固定根拠へリンクを差し替える。"
+    }
+  ]
+}

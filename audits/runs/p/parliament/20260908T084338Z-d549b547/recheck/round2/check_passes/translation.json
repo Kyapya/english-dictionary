@@ -1,0 +1,14 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "6b0819554952c90b2fe65496fac81733c340fd4bd9f43527676c8b964a1d986c",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/recheck2_translation",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [],
+  "unresolved_issues": [],
+  "notes": "入力範囲の定義、コロケーション例、類義語例を照合した。英文と日本語訳の間で、述語、意味役割、否定・法・時制、修飾範囲、意味の方向に指摘対象となる不一致は認められなかった。"
+}

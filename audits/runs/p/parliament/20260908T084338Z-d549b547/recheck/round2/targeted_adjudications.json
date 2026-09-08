@@ -1,0 +1,46 @@
+{
+  "schema_version": "targeted_adjudications_v1",
+  "requests": [
+    {
+      "schema_version": "targeted_adjudication_request_v1",
+      "issue_id": "frequency-calibration-conflict",
+      "question": "Does entry_spec_v5 require the retained n/10 values to be treated as consistently calibrated editorial ratings even though the fixed source inventory contains no corpus measurement for the exact values, or must every exact rating be removed as an unsupported evidence claim?",
+      "article_excerpt": "Sense 1: 〈8/10〉; legislative body: 〈5/10〉; lawmaking body: 〈4/10〉; representative assembly: 〈4/10〉; sense 2: 〈5/10〉; period between elections: 〈3/10〉.",
+      "judgments": [
+        {
+          "reviewer_agent_id": "/root/parliament_word/check_evidence",
+          "conclusion": "Exact numeric frequency values are blocking evidence mismatches without a fixed corpus fact.",
+          "basis": "The original evidence pass applied direct source-support requirements to the frequency rows."
+        },
+        {
+          "reviewer_agent_id": "/root/parliament_word/final_review",
+          "conclusion": "The retained exact ratings cannot pass final review without corpus or direct-fact support.",
+          "basis": "The first final review rejected normal-evidence-004 and normal-evidence-009 on this ground."
+        },
+        {
+          "authority": "entry_spec_v5",
+          "conclusion": "Each sense and each listed synonym or antonym sense must receive an English-wide n/10 encounter-frequency rating, calibrated consistently even when strict statistical evidence is unavailable.",
+          "basis": "entry_spec_v5 §頻度, especially lines 433–447."
+        }
+      ],
+      "source_material": [
+        "entry_spec_v5 §頻度: English-wide encounter frequency is rated on a ten-point scale for every sense and for the specific sense of every synonym or antonym.",
+        "entry_spec_v5 §頻度: when strict statistical evidence is unavailable, keep the calibration criteria consistent and do not overrate regional or archaic uses.",
+        "The fixed source inventory establishes that sense 1 is the principal modern legislative-institution sense and sense 2 is an election-to-election institutional period, but provides no exact corpus counts.",
+        "The revised relation rows are descriptive phrases directly derived from fixed lexical facts; their ratings remain editorial encounter-frequency classifications rather than reported measurements."
+      ]
+    }
+  ],
+  "adjudications": [
+    {
+      "schema_version": "targeted_adjudication_v1",
+      "issue_id": "frequency-calibration-conflict",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/frequency_adjudicator"
+      },
+      "decision": "resolved_correct",
+      "rationale": "entry_spec_v5 §頻度 requires an English-wide ten-point encounter-frequency rating for every sense and for the relevant sense of every listed synonym or antonym. It expressly instructs editors to keep the calibration criteria consistent when strict statistical evidence is unavailable. The n/10 values are therefore mandated editorial classifications, not assertions that an exact corpus measurement was observed. Because the supplied facts distinguish the principal modern institutional sense from the less frequent election-to-election sense and identify the relation rows as sense-specific descriptive phrases, the absence of exact corpus counts is not, by itself, grounds to remove the retained ratings. A rating could still require change if it conflicted with the scale or available lexical facts, but neither conflicting review identifies such a calibration inconsistency.",
+      "applicable_scope": "Only the frequency values in the supplied excerpt and the stated objection that they lack exact corpus support. This ruling does not validate unrelated article content or establish that frequency ratings are immune from review for inconsistent calibration."
+    }
+  ]
+}

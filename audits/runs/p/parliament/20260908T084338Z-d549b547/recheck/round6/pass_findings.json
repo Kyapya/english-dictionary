@@ -1,0 +1,347 @@
+{
+  "schema_version": "checker_pass_fan_in_v2",
+  "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_translation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unresolved_issues": [],
+      "notes": "入力された definitions、collocations_examples、lexical_relations を全件照合した。英文・訳文・定義の間で、意味役割、肯否、時制・法、条件・因果、修飾範囲、意味方向を変える不一致は確認されなかった。"
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_sense",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+      "findings": [],
+      "unresolved_issues": [],
+      "notes": "Independent inventory identified the institutional legislature/its members acting corporately and the countable, election-bounded Parliament or its duration as the principal learning-relevant senses. The supplied core image, definitions, and usage notes distinguish those scopes consistently; the parliamentary derivative is kept in word formation without being generalized into a separate headword sense. No routed taxonomy finding was identified."
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_frame",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+        "blind_request_sha256": "c8c3a0249ff9b0c0591ae18df5a9582b99c5c1f98426d70b3c8dc1b21d801d16",
+        "recorded_at": "2026-09-08T20:40:40+09:00",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r6_frame",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+        "stage2_request_sha256": "8ba063666e835eb5b9b5ed4829350826ff1fe27292290d946181570fcdc6a98b",
+        "blind_record_sha256": "dfe301ac8352e58c26de4030a33ed2b81cb08406a064d60c938bca714c12a902",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r6_frame",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T11:44:02.918802+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_example",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "blind_request_sha256": "6f2cb6f3a42ce9cb5123e87eed36a37c0079642f2c13ab3e302ac4f1a3410512",
+        "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+        "recorded_at": "2026-09-08T11:40:52Z",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r6_example",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-f83d56ccf458",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a member of parliament",
+              "was elected as a member"
+            ],
+            "rationale": "In the fixed membership expression “a member of parliament,” parliament denotes the legislative institution or its body of members (sense:001). The competing sense:002 denotes a particular parliamentary term or its duration; parliament is not temporally framed here, and a person is elected as a member of an institution, not as a member of a duration."
+          },
+          {
+            "example_id": "ex-52076a6bf0bd",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:001",
+              "sense:002"
+            ],
+            "discriminating_terms": [],
+            "rationale": "The country was left with a hung parliament, so the parties began coalition talks. In this sentence, parliament most directly characterizes the party composition of the representative legislature, supporting sense:001, but it can equally denote the particular parliament produced by an election, supporting sense:002. Nothing in parliament’s own semantic relation here identifies either institutional membership as such or the duration of that parliament strongly enough to exclude the other candidate."
+          },
+          {
+            "example_id": "ex-4bd1e42f58fb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during the current parliament"
+            ],
+            "rationale": "The temporal frame “during the current parliament” presents parliament as the bounded current parliamentary term (sense:002). The competing institutional sense:001 can take part in deliberating or passing a proposal, but parliament as an institution is not the bounded interval selected by “during.”"
+          },
+          {
+            "example_id": "ex-f44626f4aa5b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "the lifetime of a parliament"
+            ],
+            "rationale": "“The lifetime of a parliament” explicitly denotes the span from the formation to the formal end of a particular parliament, so sense:002 is selected. The competing sense:001 treats parliament as an institution or collective actor and does not supply the bounded term whose full lifetime measures completion time here."
+          },
+          {
+            "example_id": "ex-18fd70782971",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "an Act of Parliament",
+              "introduced by"
+            ],
+            "rationale": "In “an Act of Parliament,” parliament is the legislative institution whose enactment gives the Act its status, selecting sense:001. The competing sense:002 is a particular parliamentary term or its duration; that temporal unit is not the institutional source expressed by “of” in this established legal phrase."
+          },
+          {
+            "example_id": "ex-79a015614436",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the bill currently before Parliament",
+              "before Parliament"
+            ],
+            "rationale": "“Before Parliament” places the bill before the legislative institution for consideration, so parliament realizes sense:001. The competing sense:002 names a particular term or duration, but a bill is not presented for deliberation before a duration; the complement of “before” here is the institutional decision-making body."
+          },
+          {
+            "example_id": "ex-440658c94833",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "in the next parliament"
+            ],
+            "rationale": "“In the next parliament” schedules reconsideration within the next distinct parliamentary term, selecting sense:002. Although sense:001 can denote the institution that reconsiders an issue, parliament here is individuated as “next” and functions as the future term in which the action is to occur, not as the acting body itself."
+          },
+          {
+            "example_id": "ex-c2affd1e45f1",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Parliament passed the bill"
+            ],
+            "rationale": "In Parliament passed the bill, parliament is the grammatical agent and denotes the legislature acting collectively, which is sense:001. The competing sense:002 denotes a particular parliamentary term or duration, and such a time unit cannot itself perform the legislative act of passing a bill."
+          },
+          {
+            "example_id": "ex-686bb5178498",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during this parliament"
+            ],
+            "rationale": "The temporal adjunct “during this parliament” uses parliament as the bounded current parliamentary term in which the measure is to be introduced, selecting sense:002. The competing sense:001 is an institution or collective actor, but the government’s action is located within a period rather than performed during an institutional agent."
+          },
+          {
+            "example_id": "ex-6c3dc7300bbf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "was elected to Parliament"
+            ],
+            "rationale": "“Was elected to Parliament” makes Parliament the institution or representative body that the person joins, selecting sense:001. The competing sense:002 denotes a particular parliamentary term or its duration; parliament is not used here as a bounded interval into which someone can be elected."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T12:06:08.366313+00:00",
+      "findings": [
+        {
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 72,
+            "line_end": 72,
+            "exact_quote": "例: The country was left with a hung parliament, so the parties began coalition talks.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_qualification",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 35,
+            "line_end": 35,
+            "exact_quote": "代表者から成り、法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。"
+          },
+          "severity": "blocking",
+          "rationale": "「代表者から成り」を parliament 一般の必須条件として無限定に置いているが、議会には任命制・世襲制の議員を含む院があり得るため、主要語義の適用範囲を狭める反例がある。とりわけ英国議会を含む用例を同じブロックで扱う以上、構成員がすべて代表者であるかのような定義は制度上も不正確である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「国または地域の立法機関」などを中心に定義し、構成員の選出・任命・世襲などの方式は制度によって異なると限定する。"
+        }
+      ],
+      "unresolved_issues": [],
+      "notes": [
+        "指定された固定入力と qualification 仕様だけを用いて独立に判定した。"
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_pronunciation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+      "findings": [],
+      "unresolved_issues": [],
+      "notes": "No pronunciation_symbol_explanation findings. The two displayed IPA forms are each consistent with a three-syllable pronunciation, and their sole displayed segmental difference—the post-vocalic /r/ in the American form—is explicitly explained. The separately identified /-ljə-/ dictionary variant is not conflated with either displayed standard form."
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r6_evidence",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 136,
+            "line_end": 139,
+            "exact_quote": "・term of Parliament  \n定義: 特定回の `Parliament` が存続する期間。  \n頻度: 〈3/10〉  \n違い: `term of Parliament` は期間であることを明示する制度的な句である。`parliament` はその期間に加え、その期間に存続する特定回の議会も指せる。  "
+          },
+          "severity": "blocking",
+          "rationale": "Claim unit C-011 links this lexical definition and contrast only to F-021 at https://www.gov.uk/government/publications/guide-to-parliamentary-work/guide-to-parliamentary-work-html. F-021 states the current UK maximum Parliament term and its starting point. That jurisdiction-specific limit presupposes a duration, but it does not directly define the expression `term of Parliament`, establish it as a lexical relation, support the 3/10 frequency rating, or support the asserted contrast that `parliament` can denote both the period and the particular body. The evidence link therefore does not directly support the full targeted claim.",
+          "evidence_link_ids": [
+            "C-011:F-021"
+          ],
+          "suggested_direction": "Replace the link with a source that directly defines `term of Parliament` and supports the stated contrast, or narrow/remove the lexical-relation entry and unsupported frequency claim."
+        }
+      ],
+      "unresolved_issues": [],
+      "notes": "Audited only the normalized round-six evidence request, its embedded evidence_context_v1, and the specified evidence-pass rules. No external browsing, source re-discovery, prior-round response review, or article-file inspection was performed."
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "agent_id": "/root/parliament_word/r6_translation",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "sense-structure": {
+      "agent_id": "/root/parliament_word/r6_sense",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "frame-relation": {
+      "agent_id": "/root/parliament_word/r6_frame",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "example-attribution": {
+      "agent_id": "/root/parliament_word/r6_example",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "qualification": {
+      "agent_id": "/root/parliament_word/r6_qualification",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "pronunciation": {
+      "agent_id": "/root/parliament_word/r6_pronunciation",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "evidence": {
+      "agent_id": "/root/parliament_word/r6_evidence",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    }
+  }
+}

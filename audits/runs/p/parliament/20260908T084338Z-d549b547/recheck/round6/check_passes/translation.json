@@ -1,0 +1,14 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/r6_translation",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "findings": [],
+  "unresolved_issues": [],
+  "notes": "入力された definitions、collocations_examples、lexical_relations を全件照合した。英文・訳文・定義の間で、意味役割、肯否、時制・法、条件・因果、修飾範囲、意味方向を変える不一致は確認されなかった。"
+}

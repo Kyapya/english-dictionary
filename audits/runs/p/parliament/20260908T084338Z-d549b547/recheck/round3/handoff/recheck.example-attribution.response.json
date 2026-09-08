@@ -1,0 +1,139 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "bdc3cb22935e1d935d7e37298f3652cccc9fd999391de631e94fccc47eeff9f5",
+  "blind_request_sha256": "7ae6a81fa5471e6ce09491a77250add8b6eafa15fea099a7d186bfd92f4abcc4",
+  "recorded_at": "2026-09-08T11:01:39Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/recheck3_example"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-09d644cc533c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "dissolve Parliament",
+        "ending its current term",
+        "call an election"
+      ],
+      "rationale": "The sequence `dissolve Parliament`, `ending its current term`, and `call an election` presents Parliament as the particular elected legislature whose bounded term ends at dissolution, so sense:002 is the natural attribution. Sense:001 can denote the continuing institution, but that institutional reading does not itself supply the explicitly terminated current term attached to the headword here."
+    },
+    {
+      "example_id": "ex-aa72f27d4e05",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "member of parliament"
+      ],
+      "rationale": "In `member of parliament`, parliament is the institution or representative body of which she becomes a member, selecting sense:001. Sense:002 denotes a particular parliamentary term or post-election parliament and cannot by itself express the institutional membership relation encoded by `member of parliament`."
+    },
+    {
+      "example_id": "ex-0434bd058d6a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "general election produced a hung parliament",
+        "for the new term"
+      ],
+      "rationale": "The wording `general election produced a hung parliament` identifies a particular legislature constituted by that election, and `for the new term` explicitly bounds it as the new parliamentary term, selecting sense:002. Sense:001 describes Parliament as an enduring institution or collective actor, but does not capture this election-created, term-specific instance of the headword."
+    },
+    {
+      "example_id": "ex-5c67914d547c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Parliament passed the bill"
+      ],
+      "rationale": "In `Parliament passed the bill`, the headword is the institutional legislative body acting as agent of passage, which directly selects sense:001. Sense:002 is a bounded parliament or its duration; the temporal unit itself is not what performs the legislative act in this unqualified institutional-agent construction."
+    },
+    {
+      "example_id": "ex-8b43a4027818",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "during the current parliament"
+      ],
+      "rationale": "The prepositional frame `during the current parliament` makes parliament the bounded time span within which passage may occur, selecting sense:002. Sense:001 is an institution or collective participant, not the duration supplied as the complement of `during` here."
+    },
+    {
+      "example_id": "ex-8fd4f7a6c9ed",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "during this parliament"
+      ],
+      "rationale": "The phrase `during this parliament` uses the headword as a delimited period in which the measure will be introduced, so sense:002 is uniquely natural. Sense:001 denotes the institutional body and does not furnish the temporal interval required by `during this parliament`."
+    },
+    {
+      "example_id": "ex-20db47ed6537",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "in the next parliament"
+      ],
+      "rationale": "In `in the next parliament`, next orders parliament as the subsequent post-election legislative term in which reconsideration should happen, selecting sense:002. Sense:001 is the standing institution and is not naturally one member of a sequential series marked by `the next parliament` in this temporal frame."
+    },
+    {
+      "example_id": "ex-3c865676d639",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "before Parliament"
+      ],
+      "rationale": "The complement `before Parliament` presents Parliament as the institutional deliberative body before which a bill is formally pending, selecting sense:001. Sense:002 denotes a particular parliament or its duration, but that time-bounded sense does not supply the institutional forum relation expressed by `before Parliament`."
+    },
+    {
+      "example_id": "ex-ce72858662c2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "elected to Parliament"
+      ],
+      "rationale": "The construction `elected to Parliament` makes Parliament the representative institution to which he gains membership, so sense:001 is the natural attribution. Sense:002 refers to a particular parliamentary term or instance, but it does not independently express the destination-of-membership relation carried by `to Parliament`."
+    },
+    {
+      "example_id": "ex-3dad28c4b925",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Act of Parliament"
+      ],
+      "rationale": "In the fixed legislative expression `Act of Parliament`, Parliament denotes the institution whose enactment gives the Act its authority, selecting sense:001. Sense:002 denotes a bounded parliament or its lifespan and does not express the institutional source relation in `Act of Parliament`."
+    },
+    {
+      "example_id": "ex-c507da14b8c8",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "the lifetime of a parliament"
+      ],
+      "rationale": "The duration expression `the lifetime of a parliament` treats a parliament as a bounded post-election existence over which reform may be completed, selecting sense:002. Sense:001 is the continuing institution or collective actor and does not naturally have the finite institutional term measured by `lifetime` here."
+    }
+  ]
+}

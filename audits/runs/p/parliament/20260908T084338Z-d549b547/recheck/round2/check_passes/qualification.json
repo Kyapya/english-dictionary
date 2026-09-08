@@ -1,0 +1,55 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/recheck2_qualification",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "mode": "handoff",
+  "input_body_sha256": "6b0819554952c90b2fe65496fac81733c340fd4bd9f43527676c8b964a1d986c",
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "【日本語訳・定義】総選挙後に成立し、解散など制度上の正式な終了まで同じ回として存続する特定の議会、またはその期間を指す。個々の議員の顔ぶれが不変だという意味ではない。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。  "
+      },
+      "severity": "blocking",
+      "rationale": "総選挙から制度上の終了までを一つの `Parliament` と数える語義を、地域・制度の限定なしに英語一般の語義として定義している。この用法は特にイギリスおよび一部のウェストミンスター型制度で中心的であり、各国の議会・立法期にそのまま一般化できない。語義見出しと定義の双方で適用地域・制度を明示する必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「主にイギリス英語／ウェストミンスター型の制度で」などの限定を語義見出しまたは定義冒頭に加え、他制度の legislature や legislative term へ無条件に一般化しない。"
+    },
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 99,
+        "line_end": 99,
+        "exact_quote": "【頻度】〈5/10〉  "
+      },
+      "severity": "minor",
+      "rationale": "語義2は政治制度に限られるうえ地域・制度依存性の高い可算用法であるため、英語全体での遭遇頻度として 5/10 とするのは過大に見える。専門領域内や同一見出し語内の相対頻度ではなく、英語全体での頻度として再評価が必要である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英語全体での遭遇頻度に合わせて数値を下げるか、少なくとも地域・制度ラベルを付したうえで頻度を再評価する。"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 107,
+        "line_end": 110,
+        "exact_quote": "・`a hung parliament`  \n用途: 総選挙後に成立した特定回の議会で、単独で過半数を持つ政党がない状態を指す。主にイギリス英語の政治報道で用いる。  \n例: That general election produced a hung parliament for the new term, so the parties began coalition talks.  \n訳: その総選挙の結果、新しい議会期はどの政党も単独過半数を持たない議会となり、各党は連立協議を始めた。  "
+      },
+      "severity": "minor",
+      "rationale": "`a hung parliament` は選挙後の議会の党派構成（単独過半数がない状態）を表す慣用表現であり、「一議会期／その期間」という語義2を明確に実例化するとは限らない。`for the new term` を加えた例でも、中心的に表されるのは期間ではなく議会体の構成であるため、専門義ブロックの例として語義1にも同程度に読める。",
+      "evidence_link_ids": [],
+      "suggested_direction": "このコロケーションを議会機関・議員構成を扱う語義1へ移すか、語義2では `during this Parliament` や `the lifetime of a Parliament` のように特定回・期間を不可欠に表す例を中心にする。"
+    }
+  ],
+  "unresolved_issues": [],
+  "notes": "固定された qualification request の抜粋と指定仕様だけを用いて独立に判定した。記事本文、過去の findings/resolutions、他 pass の出力は参照していない。"
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "post_blind_resolution_v1",
+  "stage": "post_blind_resolution",
+  "attempt_number": 2,
+  "input_body_sha256": "2e91f7f7ec02932b0cc482d736a6872be0ab32cd48e6a26e54e8abc94bd3a93e",
+  "output_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "recorded_at": "2026-09-08T11:38:14.149115+00:00",
+  "resolutions": [
+    {
+      "id": "AF-01",
+      "finding_id": "AF-01",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Moved hung parliament into the particular-Parliament sense and revised the example to an election-result context; a fresh independent attribution pass then assigned it uniquely to sense 2.",
+      "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+    },
+    {
+      "id": "AF-02",
+      "finding_id": "AF-02",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed the unnatural Parliament term relation; after a later evidence challenge also removed term of Parliament, the sense-specific relation now uses legislative body with direct fixed-fact support.",
+      "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+    }
+  ]
+}

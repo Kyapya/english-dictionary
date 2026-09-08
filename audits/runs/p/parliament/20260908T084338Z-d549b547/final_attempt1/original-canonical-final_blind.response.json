@@ -1,0 +1,198 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "run_id": "blind-parliament-20260908T084338Z-d549b547",
+  "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+  "input_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "/root/parliament_word/final_blind",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "parliament / Parliament",
+      "frame": "a parliament; the parliament of a country; Parliament as the continuing legislative institution",
+      "meaning": "a representative institutional body that debates public affairs and makes or changes laws",
+      "disposition": "included",
+      "rationale": "The article directly and accurately covers a representative institutional body that debates public affairs and makes or changes laws as the central contemporary nominal sense, including ordinary count use and proper-name use.",
+      "semantic_assertions": [
+        {
+          "id": "SA-01-01",
+          "statement": "The referent must be a representative political institution or legislature, not merely any meeting or assembly.",
+          "polarity": "must_hold",
+          "scope": "institution sense"
+        },
+        {
+          "id": "SA-01-02",
+          "statement": "A proper institutional name may occur as Parliament without an article, while generic count use must retain ordinary count-noun behavior.",
+          "polarity": "must_hold",
+          "scope": "capitalization and count syntax"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "Parliament",
+      "frame": "Parliament + institutional action verb, especially pass, approve, debate, or decide",
+      "meaning": "the legislature construed metonymically as the members acting collectively",
+      "disposition": "included",
+      "rationale": "The frame Parliament + institutional action verb, especially pass, approve, debate, or decide is covered by the definition's explicit treatment of the institution and its members as one acting body and by the bill-passing example.",
+      "semantic_assertions": [
+        {
+          "id": "SA-02-01",
+          "statement": "An institutional action predicated of Parliament must be understood as action performed through its members or procedures.",
+          "polarity": "must_hold",
+          "scope": "institution-as-agent frame"
+        },
+        {
+          "id": "SA-02-02",
+          "statement": "The agentive use must not be presented as a separate physical-person sense of the noun.",
+          "polarity": "must_not_hold",
+          "scope": "sense boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "Parliament",
+      "frame": "in Parliament; before Parliament; be elected to Parliament",
+      "meaning": "the named legislative institution construed as an institutional forum or destination of membership",
+      "disposition": "included",
+      "rationale": "The article separately explains the established frame in Parliament; before Parliament; be elected to Parliament, including the required preposition in the election construction and the articleless proper-name pattern.",
+      "semantic_assertions": [
+        {
+          "id": "SA-03-01",
+          "statement": "In be elected to Parliament, to must mark entry into membership of the institution.",
+          "polarity": "must_hold",
+          "scope": "election frame"
+        },
+        {
+          "id": "SA-03-02",
+          "statement": "Before Parliament must denote being formally under the institution's consideration rather than simple physical position in front of a building.",
+          "polarity": "must_hold",
+          "scope": "legislative-consideration frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "a parliament / the current parliament / the next parliament",
+      "frame": "an election produces a parliament; dissolve Parliament; a hung parliament; the current or next parliament",
+      "meaning": "one particular constitution of the legislature formed after an election and ending at dissolution or another formal endpoint",
+      "disposition": "included",
+      "rationale": "The meaning one particular constitution of the legislature formed after an election and ending at dissolution or another formal endpoint is explicitly distinguished from the continuing institution and is illustrated with election, hung-parliament, current/next-parliament, and dissolution frames.",
+      "semantic_assertions": [
+        {
+          "id": "SA-04-01",
+          "statement": "The countable referent must be one institutionally delimited incarnation of the legislature rather than the permanent legislature in the abstract.",
+          "polarity": "must_hold",
+          "scope": "particular-parliament body sense"
+        },
+        {
+          "id": "SA-04-02",
+          "statement": "Dissolution must terminate that particular Parliament, not abolish the continuing parliamentary institution itself.",
+          "polarity": "must_hold",
+          "scope": "dissolution frame"
+        },
+        {
+          "id": "SA-04-03",
+          "statement": "Hung parliament must describe the elected body's distribution of seats in which no party has an overall majority.",
+          "polarity": "must_hold",
+          "scope": "hung-parliament frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "parliament",
+      "frame": "during this parliament; during the current parliament; the lifetime of a parliament",
+      "meaning": "the duration for which one particular Parliament exists",
+      "disposition": "included",
+      "rationale": "The duration for which one particular Parliament exists is accurately presented as a temporal extension of the particular-Parliament sense, with its boundary distinguished from a shorter session.",
+      "semantic_assertions": [
+        {
+          "id": "SA-05-01",
+          "statement": "The temporal reading must span the life of the particular Parliament from its constitution to its formal end.",
+          "polarity": "must_hold",
+          "scope": "duration frame"
+        },
+        {
+          "id": "SA-05-02",
+          "statement": "The period denoted by parliament must not be equated with a single sitting, day of proceedings, or parliamentary session.",
+          "polarity": "must_not_hold",
+          "scope": "parliament-versus-session boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "parliamentary",
+      "frame": "parliamentary + noun, including parliamentary procedure",
+      "meaning": "relating to a parliament, a parliamentary system, or the conduct of legislative proceedings",
+      "disposition": "included",
+      "rationale": "The derivative parliamentary is included with both its general institutional senses and the procedural specialization in parliamentary procedure.",
+      "semantic_assertions": [
+        {
+          "id": "SA-06-01",
+          "statement": "Parliamentary must express a relation to a parliament, parliamentary government, or parliamentary proceedings according to its head noun.",
+          "polarity": "must_hold",
+          "scope": "derived adjective"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "parliament",
+      "frame": "a parliament of owls",
+      "meaning": "a fanciful collective noun for a group of owls",
+      "disposition": "excluded",
+      "rationale": "The frame a parliament of owls is a playful and comparatively rare collective-noun expression rather than a major contemporary sense required in a general learner entry, so its omission is appropriate.",
+      "semantic_assertions": [
+        {
+          "id": "SA-07-01",
+          "statement": "If included, this expression must be marked as a rare or playful collective term and kept separate from the political senses.",
+          "polarity": "must_hold",
+          "scope": "rare collective expression"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "parliament",
+      "frame": "historical parliament meaning a conference, consultation, or formal assembly",
+      "meaning": "an obsolete or historical non-legislative conference or council",
+      "disposition": "excluded",
+      "rationale": "The meaning an obsolete or historical non-legislative conference or council is relevant to the etymological development but is not a major current use, so the article appropriately does not promote it to a numbered modern sense.",
+      "semantic_assertions": [
+        {
+          "id": "SA-08-01",
+          "statement": "If treated as a lexical sense, the non-legislative conference meaning must be labeled historical or obsolete.",
+          "polarity": "must_hold",
+          "scope": "historical sense"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "Parliament",
+      "frame": "at, outside, or near Parliament where the intended referent is a building or site",
+      "meaning": "a physical parliament building or parliamentary precinct by metonymy",
+      "disposition": "excluded",
+      "rationale": "The physical parliament building or parliamentary precinct by metonymy is context-dependent place metonymy, not a clearly necessary independent core sense; the article's institutional treatment is sufficient without a separate building sense.",
+      "semantic_assertions": [
+        {
+          "id": "SA-09-01",
+          "statement": "A location reading must be distinguished from institutional uses such as in Parliament when physical place is not the intended meaning.",
+          "polarity": "must_hold",
+          "scope": "place metonymy"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

@@ -1,0 +1,153 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/r6_example",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "blind_request_sha256": "6f2cb6f3a42ce9cb5123e87eed36a37c0079642f2c13ab3e302ac4f1a3410512",
+    "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+    "recorded_at": "2026-09-08T11:40:52Z",
+    "reviewer": {
+      "agent_id": "/root/parliament_word/r6_example",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-f83d56ccf458",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a member of parliament",
+          "was elected as a member"
+        ],
+        "rationale": "In the fixed membership expression “a member of parliament,” parliament denotes the legislative institution or its body of members (sense:001). The competing sense:002 denotes a particular parliamentary term or its duration; parliament is not temporally framed here, and a person is elected as a member of an institution, not as a member of a duration."
+      },
+      {
+        "example_id": "ex-52076a6bf0bd",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The country was left with a hung parliament, so the parties began coalition talks. In this sentence, parliament most directly characterizes the party composition of the representative legislature, supporting sense:001, but it can equally denote the particular parliament produced by an election, supporting sense:002. Nothing in parliament’s own semantic relation here identifies either institutional membership as such or the duration of that parliament strongly enough to exclude the other candidate."
+      },
+      {
+        "example_id": "ex-4bd1e42f58fb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during the current parliament"
+        ],
+        "rationale": "The temporal frame “during the current parliament” presents parliament as the bounded current parliamentary term (sense:002). The competing institutional sense:001 can take part in deliberating or passing a proposal, but parliament as an institution is not the bounded interval selected by “during.”"
+      },
+      {
+        "example_id": "ex-f44626f4aa5b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "the lifetime of a parliament"
+        ],
+        "rationale": "“The lifetime of a parliament” explicitly denotes the span from the formation to the formal end of a particular parliament, so sense:002 is selected. The competing sense:001 treats parliament as an institution or collective actor and does not supply the bounded term whose full lifetime measures completion time here."
+      },
+      {
+        "example_id": "ex-18fd70782971",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "an Act of Parliament",
+          "introduced by"
+        ],
+        "rationale": "In “an Act of Parliament,” parliament is the legislative institution whose enactment gives the Act its status, selecting sense:001. The competing sense:002 is a particular parliamentary term or its duration; that temporal unit is not the institutional source expressed by “of” in this established legal phrase."
+      },
+      {
+        "example_id": "ex-79a015614436",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "the bill currently before Parliament",
+          "before Parliament"
+        ],
+        "rationale": "“Before Parliament” places the bill before the legislative institution for consideration, so parliament realizes sense:001. The competing sense:002 names a particular term or duration, but a bill is not presented for deliberation before a duration; the complement of “before” here is the institutional decision-making body."
+      },
+      {
+        "example_id": "ex-440658c94833",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "in the next parliament"
+        ],
+        "rationale": "“In the next parliament” schedules reconsideration within the next distinct parliamentary term, selecting sense:002. Although sense:001 can denote the institution that reconsiders an issue, parliament here is individuated as “next” and functions as the future term in which the action is to occur, not as the acting body itself."
+      },
+      {
+        "example_id": "ex-c2affd1e45f1",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Parliament passed the bill"
+        ],
+        "rationale": "In Parliament passed the bill, parliament is the grammatical agent and denotes the legislature acting collectively, which is sense:001. The competing sense:002 denotes a particular parliamentary term or duration, and such a time unit cannot itself perform the legislative act of passing a bill."
+      },
+      {
+        "example_id": "ex-686bb5178498",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during this parliament"
+        ],
+        "rationale": "The temporal adjunct “during this parliament” uses parliament as the bounded current parliamentary term in which the measure is to be introduced, selecting sense:002. The competing sense:001 is an institution or collective actor, but the government’s action is located within a period rather than performed during an institutional agent."
+      },
+      {
+        "example_id": "ex-6c3dc7300bbf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "was elected to Parliament"
+        ],
+        "rationale": "“Was elected to Parliament” makes Parliament the institution or representative body that the person joins, selecting sense:001. The competing sense:002 denotes a particular parliamentary term or its duration; parliament is not used here as a bounded interval into which someone can be elected."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T12:06:08.366313+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 72,
+        "line_end": 72,
+        "exact_quote": "例: The country was left with a hung parliament, so the parties began coalition talks.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    }
+  ],
+  "unrouted_observations": []
+}

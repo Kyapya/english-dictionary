@@ -1,0 +1,137 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/recheck4_example",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "e0fd8f6dd0c1598b6dec8b92e2fd5389b03787c1745f5eb789e031d4bc0dd041",
+    "blind_request_sha256": "c7041b646902c50700d1038727c5d9313a31bebcdb836809a5b854e059837741",
+    "recorded_at": "2026-09-08T20:13:06+09:00",
+    "reviewer": {
+      "agent_id": "/root/parliament_word/recheck4_example",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-c7fe1672f8a2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "hung parliament"
+        ],
+        "rationale": "The construction \"hung parliament\" classifies the legislature by its distribution of seats, so parliament denotes the representative body in sense:001; sense:002 denotes the term or duration of a particular parliament and cannot itself have a hung composition."
+      },
+      {
+        "example_id": "ex-a8599c9f02fc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "in the next parliament"
+        ],
+        "rationale": "The temporal frame \"in the next parliament\" locates reconsideration in the next parliamentary term, selecting sense:002; sense:001 identifies the legislative institution or body and does not provide the successive time unit meant here."
+      },
+      {
+        "example_id": "ex-5e3f1516dfec",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "before Parliament"
+        ],
+        "rationale": "In \"before Parliament\", Parliament is the institutional body before which the bill has been formally placed, selecting sense:001; sense:002 is a parliamentary term or duration and cannot serve as the institutional recipient of a bill."
+      },
+      {
+        "example_id": "ex-be8e7f86d1a9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "lifetime of a parliament"
+        ],
+        "rationale": "The phrase \"lifetime of a parliament\" measures the span from a parliament's formation to its formal end, directly selecting the term sense:002; sense:001 denotes the institution or collective body and is not the bounded duration measured by lifetime here."
+      },
+      {
+        "example_id": "ex-cb02e0a9b77e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during the current parliament"
+        ],
+        "rationale": "The preposition in \"during the current parliament\" makes parliament the time span within which passage might occur, selecting sense:002; sense:001 is the legislative institution or body, not the bounded period selected by during."
+      },
+      {
+        "example_id": "ex-e6e76eb56a93",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Act of Parliament"
+        ],
+        "rationale": "The institutional source relation in \"Act of Parliament\" identifies Parliament as the lawmaking authority, selecting sense:001; sense:002 denotes a particular parliamentary term, which is not the enacting institution expressed by this construction."
+      },
+      {
+        "example_id": "ex-93e9fb8492f2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "member of parliament"
+        ],
+        "rationale": "The membership relation in \"member of parliament\" requires parliament to denote the representative body or institution in sense:001; sense:002 is a term or duration and cannot be the organization of which she is an elected member."
+      },
+      {
+        "example_id": "ex-192be17ff123",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during this parliament"
+        ],
+        "rationale": "The phrase \"during this parliament\" uses parliament as the bounded interval for introducing the measure, selecting sense:002; sense:001 denotes the legislature as an institution or body rather than the time span licensed by during."
+      },
+      {
+        "example_id": "ex-c2a88b8527f6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "elected to Parliament"
+        ],
+        "rationale": "The complement in \"elected to Parliament\" makes Parliament the institution or representative body entered through election, selecting sense:001; sense:002 is a parliamentary term and cannot be the body to which a person is elected."
+      },
+      {
+        "example_id": "ex-cb4b6fd94f67",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Parliament passed the bill"
+        ],
+        "rationale": "As the agentive subject in \"Parliament passed the bill\", Parliament denotes the lawmaking institution or its members collectively in sense:001; sense:002 denotes a term or duration, which cannot itself perform the act of passing a bill."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T11:18:25.369641+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}
