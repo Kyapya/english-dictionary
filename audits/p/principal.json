@@ -1,0 +1,1528 @@
+{
+  "schema_version": "content_audit_v4",
+  "generated_by": "generate_audit_manifest_v1",
+  "entry_path": "entries/p/principal.md",
+  "cycle_id": "20260908T045228Z-e5bdb73f",
+  "cycle_dir": "audits/runs/p/principal/20260908T045228Z-e5bdb73f",
+  "body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+  "raw_outputs": {
+    "source_inventory": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/source_inventory.json",
+      "sha256": "71e14e961e1592b84b5a651295f424b42fb44231a82f17cb7d10a27350b8fef4",
+      "stage": "source_inventory",
+      "run_id": "source-principal-20260907T233257Z-44da61f2",
+      "context_id": "source-principal-context-20260907T233257Z-44da61f2",
+      "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+      "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
+      "recorded_at": "2026-09-07T23:55:00Z"
+    },
+    "normal_review": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/pass_findings.json",
+      "sha256": "7eddf77f95c5e8f0d6c1c7ed162d9e391188f92e5f650051caf6c596b4062405",
+      "stage": "normal_review",
+      "run_id": "normal-principal-20260908T045228Z-e5bdb73f",
+      "context_id": "normal-principal-context-20260908T045228Z-e5bdb73f",
+      "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+      "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+      "recorded_at": "2026-09-08T05:41:52.222294+00:00"
+    },
+    "cold_review": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/cold_review.json",
+      "sha256": "4c203585c7f6ce2cbe1167f94df71541cdb20eabc25b8d1de6252f1413f6124f",
+      "stage": "cold_review",
+      "run_id": "cold-principal-20260908T045228Z-e5bdb73f",
+      "context_id": "cold-principal-context-20260908T045228Z-e5bdb73f",
+      "input_body_sha256": "bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+      "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+      "recorded_at": "2026-09-08T05:56:50.966099+00:00"
+    },
+    "resolutions": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/resolutions.json",
+      "sha256": "10f89b818fcf481019c022a991f46d52d18091ef6ff782e44070bffae16c5c6f",
+      "stage": "resolutions",
+      "run_id": "resolution-principal-20260908T045228Z-e5bdb73f",
+      "context_id": "resolution-principal-context-20260908T045228Z-e5bdb73f",
+      "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+      "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+      "recorded_at": "2026-09-08T08:01:13.797000+00:00"
+    },
+    "final_blind": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/final_blind.json",
+      "sha256": "4399f0a1afc2f6cac2c7961d36136c108e5ae7e771d5b274566bf645be561b33",
+      "stage": "final_blind",
+      "run_id": "blind-principal-20260908T045228Z-e5bdb73f",
+      "context_id": "blind-principal-context-20260908T045228Z-e5bdb73f",
+      "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+      "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+      "recorded_at": "2026-09-08T07:55:14.679388+00:00"
+    },
+    "blind_seal": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/blind_seal.json",
+      "sha256": "c1e53b2442e0dd34362d48882c7b13ad664dc2e7582fdb5c61b37794976f6150",
+      "stage": "blind_seal"
+    },
+    "final_review": {
+      "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/final_review.json",
+      "sha256": "0e8771f5368a713264eb849b93580353a53b10fb9ea2fac5bff4f732e35f6805",
+      "stage": "final_review",
+      "run_id": "blind-principal-20260908T045228Z-e5bdb73f",
+      "context_id": "blind-principal-context-20260908T045228Z-e5bdb73f",
+      "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+      "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+      "recorded_at": "2026-09-08T08:16:53.236635+00:00"
+    }
+  },
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": 1,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 32,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 5,
+      "final_attempts_used": 2
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-07T23:55:00Z",
+    "article_comparison_started_at": "2026-09-07T23:55:01Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-008",
+          "F-013",
+          "F-014",
+          "F-015",
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-022",
+          "F-023",
+          "F-024",
+          "F-025",
+          "F-026",
+          "F-027",
+          "F-029",
+          "F-030",
+          "F-031"
+        ],
+        "notes": "Three independent general dictionaries cover the adjective and the education, leadership, performance, finance, agency, criminal, and obligation noun uses."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-004",
+          "F-008",
+          "F-013",
+          "F-014",
+          "F-015",
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-020",
+          "F-023",
+          "F-027"
+        ],
+        "notes": "Adjective premodification, countable person nouns, and mass/count uses of the finance noun are directly represented."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-011",
+          "F-012",
+          "F-032",
+          "F-023"
+        ],
+        "notes": "Principalship and principally are atomic derivative facts; principal-agent and the principal/principle distinction are also represented."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-004",
+          "F-005",
+          "F-006",
+          "F-008",
+          "F-018",
+          "F-019",
+          "F-020",
+          "F-021",
+          "F-022",
+          "F-023",
+          "F-024",
+          "F-025",
+          "F-026",
+          "F-027"
+        ],
+        "notes": "Cornell Wex and Investor.gov directly cover agency, primary liability, trust corpus, and financial principal; general dictionaries corroborate criminal and performance uses."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-003",
+          "F-005",
+          "F-006",
+          "F-007",
+          "F-013",
+          "F-014",
+          "F-016",
+          "F-017",
+          "F-018",
+          "F-019",
+          "F-021",
+          "F-022"
+        ],
+        "notes": "Learner and general dictionaries distinguish ordinary attributive use, regional education titles, professional performance, and specialist legal-financial uses."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-009",
+          "F-010",
+          "F-028",
+          "F-029",
+          "F-030",
+          "F-031"
+        ],
+        "notes": "Merriam-Webster supplies pronunciation and a concise Latin lineage; Etymonline independently documents the adjective, person, education, and money histories."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Merriam-Webster — principal",
+        "locator": "https://www.merriam-webster.com/dictionary/principal",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "As an adjective, principal means most important, consequential, or influential.",
+            "source_detail": "Adjective sense 1 and examples principal ingredient and principal city."
+          },
+          {
+            "id": "F-002",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "As a noun, principal can denote a person in a leading position or a main participant in an action or transaction, especially one having control or authority.",
+            "source_detail": "General noun sense1 and Legal Definition noun sense1 of the same Merriam-Webster entry: the broad person/participant sense precedes the specialized subtypes. Control or authority is typical rather than mandatory."
+          },
+          {
+            "id": "F-003",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "Principal can denote the chief executive of an educational institution.",
+            "source_detail": "Noun sense 1b directly defines the education-head use."
+          },
+          {
+            "id": "F-004",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In agency, a principal engages another to act as an agent and is the source of the agent's authority.",
+            "source_detail": "Noun sense 1c states both engagement and derivation of authority."
+          },
+          {
+            "id": "F-005",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In criminal-law usage, principal can denote a chief or actual participant in a crime.",
+            "source_detail": "Noun sense 1d and the legal definition distinguish principal participation from accessory status."
+          },
+          {
+            "id": "F-006",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal can denote the person primarily or ultimately liable on a legal obligation.",
+            "source_detail": "Noun sense 1e and legal sense 1c contrast primary and secondary liability."
+          },
+          {
+            "id": "F-007",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "Principal can denote a leading performer or star.",
+            "source_detail": "Noun sense 1f directly records the performer use."
+          },
+          {
+            "id": "F-008",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Financial principal is a capital sum earning interest, due as debt, or used as a fund.",
+            "source_detail": "Noun sense 2a and the legal definition distinguish principal from interest."
+          },
+          {
+            "id": "F-009",
+            "form": "principal",
+            "kind": "pronunciation",
+            "statement": "Principal is pronounced /ˈprɪnsəpəl/, with optional phonetic variants represented in the dictionary respelling.",
+            "source_detail": "The adjective and noun share the same pronunciation entry."
+          },
+          {
+            "id": "F-010",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "Principal entered Middle English through Anglo-French from Latin principalis and princeps.",
+            "source_detail": "Merriam-Webster word history gives the Anglo-French and Latin lineage."
+          },
+          {
+            "id": "F-011",
+            "form": "principalship",
+            "kind": "derived_form",
+            "statement": "Principalship is listed as a noun derivative of principal.",
+            "source_detail": "Merriam-Webster lists principalship as a derived noun."
+          },
+          {
+            "id": "F-012",
+            "form": "principally",
+            "kind": "derived_form",
+            "statement": "Principally is the adverb formed from principal.",
+            "source_detail": "Merriam-Webster lists principally directly after the adjective."
+          },
+          {
+            "id": "F-032",
+            "form": "principle",
+            "kind": "usage_distinction",
+            "statement": "Principle is a noun for a fundamental rule or law, whereas principal is also an adjective for most important.",
+            "source_detail": "The usage note explicitly warns against confusing principal with principle."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Cambridge Dictionary — principal",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/principal",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F-013",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "The adjective principal means first in order of importance.",
+            "source_detail": "Cambridge learner definition and examples cover principal aim and principal reason."
+          },
+          {
+            "id": "F-014",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "The noun principal denotes a person in charge of a school.",
+            "source_detail": "Cambridge's school-person noun sense directly records the title."
+          },
+          {
+            "id": "F-015",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In finance, principal is an amount lent, borrowed, or invested apart from additional money such as interest.",
+            "source_detail": "Cambridge's finance noun sense separates the underlying amount from additions."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Collins English Dictionary — principal",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/principal",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "The adjective principal marks the highest or among the highest in rank, authority, importance, or degree.",
+            "source_detail": "The American English adjective definition gives the rank-and-importance range."
+          },
+          {
+            "id": "F-017",
+            "form": "principal",
+            "kind": "register_region",
+            "statement": "Principal denotes the head of a school and, especially in England, may denote the head of a college.",
+            "source_detail": "Collins distinguishes the school title and the English college use."
+          },
+          {
+            "id": "F-018",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In performing arts and orchestras, principal can denote a leading performer or the first player of a section.",
+            "source_detail": "Collins lists leading actor, principal dancer, and orchestral first-player uses."
+          },
+          {
+            "id": "F-019",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In finance, principal is a capital sum distinguished from interest or profit and can include bond face value.",
+            "source_detail": "The finance senses distinguish debt or investment amount from interest and income."
+          },
+          {
+            "id": "F-020",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In law, principal can be the person who employs or authorizes an agent.",
+            "source_detail": "The law sense directly gives the principal-agent role."
+          },
+          {
+            "id": "F-021",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In law, principal can be a person directly responsible for a crime, including specified participation under the applicable classification.",
+            "source_detail": "The criminal-law sense compares principal with accessory."
+          },
+          {
+            "id": "F-022",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal can be the person primarily liable for an obligation.",
+            "source_detail": "The liability sense contrasts the principal with an endorser or similar secondary party."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Cornell Legal Information Institute Wex — principal",
+        "locator": "https://www.law.cornell.edu/wex/principal",
+        "source_type": "legal_reference",
+        "source_role": "specialist_reference",
+        "independence_group": "cornell_lii",
+        "facts": [
+          {
+            "id": "F-023",
+            "form": "principal-agent relationship",
+            "kind": "specialist_use",
+            "statement": "An agency-law principal is a person or entity authorizing an agent to act on its behalf and subject to its control.",
+            "source_detail": "Wex states the authority, behalf, and control elements and notes duties owed by the agent."
+          },
+          {
+            "id": "F-024",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Financial principal is the original debt or investment amount excluding interest, profit, or other earnings.",
+            "source_detail": "Wex separates the underlying amount from additions and explains that repayment reduces the obligation."
+          },
+          {
+            "id": "F-025",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In trust law, principal is the trust corpus or property itself, distinct from its income or earnings.",
+            "source_detail": "Wex directly defines the trust-law corpus contrast."
+          },
+          {
+            "id": "F-026",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal can denote the party bearing primary responsibility for an obligation, as distinct from a surety or guarantor with secondary liability.",
+            "source_detail": "Wex directly states the primary-versus-secondary liability contrast."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "Investor.gov — Principal",
+        "locator": "https://www.investor.gov/introduction-investing/investing-basics/glossary/principal",
+        "source_type": "government_finance_glossary",
+        "source_role": "specialist_reference",
+        "independence_group": "us_sec_investor_gov",
+        "facts": [
+          {
+            "id": "F-027",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal is the total amount borrowed or lent, or the initial amount invested.",
+            "source_detail": "Investor.gov gives this concise finance glossary definition."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Online Etymology Dictionary — principal",
+        "locator": "https://www.etymonline.com/word/principal",
+        "source_type": "etymology_reference",
+        "source_role": "etymology",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-028",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "The adjective is attested around 1300 from Old French principal and Latin principalis, ultimately connected with princeps, primus, and capere.",
+            "source_detail": "Etymonline records the main/chief adjective and analyzes princeps as first plus take."
+          },
+          {
+            "id": "F-029",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "The noun is attested around 1300 for a chief person or leading representative and also had an early legal use.",
+            "source_detail": "Etymonline's noun history records chief-person and law senses from the early period."
+          },
+          {
+            "id": "F-030",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "The public-school-head use is recorded from 1827, while a college-head use is older.",
+            "source_detail": "Etymonline distinguishes the nineteenth-century school use from the mid-fifteenth-century college use."
+          },
+          {
+            "id": "F-031",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "The main-sum-of-money noun use is recorded from the early fifteenth century.",
+            "source_detail": "Etymonline connects this sense with money on which interest is paid."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-013",
+          "F-016"
+        ],
+        "canonical_statement": "The adjective principal marks something first or especially high in importance, rank, or influence.",
+        "disposition": "included",
+        "rationale": "High-frequency adjective sense supported by three independent dictionaries."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-014",
+          "F-017"
+        ],
+        "canonical_statement": "Principal denotes a person in authority and conventionally the head of specified educational institutions, with regional title differences.",
+        "disposition": "included",
+        "rationale": "Major person noun and education title supported by current dictionary facts."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-007",
+          "F-018"
+        ],
+        "canonical_statement": "Principal can denote a leading performer, including a principal artist or orchestral section leader.",
+        "disposition": "included",
+        "rationale": "Established performing-arts noun use."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-008",
+          "F-015",
+          "F-019",
+          "F-024",
+          "F-027"
+        ],
+        "canonical_statement": "Financial principal is the underlying debt, loan, or investment amount distinguished from interest, profit, or later earnings.",
+        "disposition": "included",
+        "rationale": "Major specialist sense corroborated by current general and government-specialist sources."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-025"
+        ],
+        "canonical_statement": "Trust principal is the property or corpus distinguished from income earned by it.",
+        "disposition": "integrated",
+        "rationale": "Direct specialist extension of the finance/property sense."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-004",
+          "F-020",
+          "F-023"
+        ],
+        "canonical_statement": "An agency principal authorizes an agent to act on the principal's behalf and is the source of the agent's authority; the US-law account in Wex also specifies the principal's control.",
+        "disposition": "included",
+        "rationale": "Important legal and economics role supported by two dictionaries, with the control element qualified to the Wex account."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-005",
+          "F-021"
+        ],
+        "canonical_statement": "Criminal-law principal denotes a person treated as a primary participant under the applicable legal classification.",
+        "disposition": "included",
+        "rationale": "Low-frequency but encounterable specialist legal use; scope is explicitly jurisdiction-sensitive."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-006",
+          "F-022",
+          "F-026"
+        ],
+        "canonical_statement": "In obligation law, principal denotes the primarily liable party, contrasted with a secondarily liable surety or guarantor.",
+        "disposition": "included",
+        "rationale": "Directly supported specialist responsibility contrast."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "canonical_statement": "The adjective and noun principal share the pronunciation /ˈprɪnsəpəl/.",
+        "disposition": "included",
+        "rationale": "Pronunciation support for the entry."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-010",
+          "F-028"
+        ],
+        "canonical_statement": "Principal came through French from Latin principalis and princeps, with a semantic core of first or chief.",
+        "disposition": "included",
+        "rationale": "Etymology is supported by two references."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-011"
+        ],
+        "canonical_statement": "Principalship is listed as a noun derivative of principal.",
+        "disposition": "included",
+        "rationale": "Recorded noun derivative."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-012"
+        ],
+        "canonical_statement": "Principally is the adverb formed from principal.",
+        "disposition": "included",
+        "rationale": "Recorded adverb derivative."
+      },
+      {
+        "id": "U-013",
+        "source_fact_ids": [
+          "F-032"
+        ],
+        "canonical_statement": "Principal and principle differ in spelling, parts of speech, and current meanings.",
+        "disposition": "included",
+        "rationale": "Major learner confusion directly addressed by dictionary usage guidance."
+      },
+      {
+        "id": "U-014",
+        "source_fact_ids": [
+          "F-029",
+          "F-030",
+          "F-031"
+        ],
+        "canonical_statement": "Etymonline records historical attestation dates for chief-person, education-head, and money senses.",
+        "disposition": "excluded",
+        "rationale": "These historical facts are retained in the fixed inventory but are not used to support current lexical scope or grammar claims."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "principal",
+        "claim_type": "lexical_sense",
+        "statement": "The adjective means principal, main, or first in relative importance.",
+        "article_target_ids": [
+          "definition:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Merriam-Webster directly defines the adjective."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Cambridge independently supplies the importance definition."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins adds rank, authority, and degree."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "principal",
+        "claim_type": "lexical_sense",
+        "statement": "Principal denotes a leading person or main party in an activity/transaction and conventionally an education head; the direct-party usage does not itself require appointing an agent.",
+        "article_target_ids": [
+          "definition:002",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Merriam-Webster general noun1 and Legal Definition noun1 give the broad leading-person/direct participant range; authority is typical, not required."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Merriam-Webster directly gives the educational executive sense."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Cambridge independently gives school head."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Collins supplies the English college qualification."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "principal",
+        "claim_type": "lexical_sense",
+        "statement": "Principal can denote an established leading performer or orchestral section-player role rather than an important person generally.",
+        "article_target_ids": [
+          "definition:005",
+          "usage_note:005"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster gives leading performer."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Collins supplies performer and orchestral uses."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "principal",
+        "claim_type": "specialist_use",
+        "statement": "Financial principal is the original or underlying borrowed, lent, or invested capital amount, distinct from interest and returns; principal repayment reduces the obligation.",
+        "article_target_ids": [
+          "definition:003",
+          "usage_note:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster defines the capital-sum sense."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge independently covers lending, borrowing, and investment."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Collins independently distinguishes capital sum and bond face value from interest or profit."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Wex states the original-amount contrast and explains that repayment reduces the principal obligation."
+          },
+          {
+            "source_fact_id": "F-027",
+            "support_summary": "Investor.gov supplies the government finance definition."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "principal",
+        "claim_type": "specialist_use",
+        "statement": "Trust principal is property or corpus distinct from the income it produces.",
+        "article_target_ids": [
+          "definition:003",
+          "usage_note:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "Wex directly defines trust principal and its income contrast."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "principal-agent relationship",
+        "claim_type": "specialist_use",
+        "statement": "An agency principal gives authority to an agent acting on its behalf and is the source of that authority; Wex's US-law account additionally states that the agent is subject to the principal's control.",
+        "article_target_ids": [
+          "definition:004",
+          "usage_note:004",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Merriam-Webster identifies the source-of-authority role."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Collins independently gives the agent-employing principal."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Wex gives authority, behalf, and control elements."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "principal",
+        "claim_type": "specialist_use",
+        "statement": "Criminal-law principal denotes a participant treated as a principal under the applicable legal classification and contrasted with an accessory.",
+        "article_target_ids": [
+          "definition:006",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Merriam-Webster supplies the criminal-participant sense."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Collins independently compares principal and accessory and makes the classification context explicit."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "principal obligor",
+        "claim_type": "specialist_use",
+        "statement": "An obligation-law principal is primarily liable, in contrast with a surety or guarantor with secondary liability.",
+        "article_target_ids": [
+          "definition:007",
+          "usage_note:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster gives primary or ultimate liability."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Collins independently gives the obligation sense."
+          },
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "Wex directly states the surety and guarantor contrast."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "principal",
+        "claim_type": "pronunciation",
+        "statement": "Principal is pronounced /ˈprɪnsəpəl/ as both adjective and noun.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster supplies the shared pronunciation."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "principal",
+        "claim_type": "etymology",
+        "statement": "Principal derives through French from Latin principalis and princeps and retains a first-or-chief semantic connection.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster supplies the transmission path."
+          },
+          {
+            "source_fact_id": "F-028",
+            "support_summary": "Etymonline supplies the semantic and morphological analysis."
+          }
+        ]
+      },
+      {
+        "id": "C-011",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "principalship",
+        "claim_type": "derived_form",
+        "statement": "Principalship is listed as a noun derivative of principal.",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster records principalship as the noun derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-012",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "principally",
+        "claim_type": "derived_form",
+        "statement": "Principally is the adverb formed from principal.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster records the adverb derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-013",
+        "union_ids": [
+          "U-013"
+        ],
+        "subject_form": "principle",
+        "claim_type": "usage_distinction",
+        "statement": "Principle is a noun for a rule or fundamental truth, whereas principal is an adjective for the most important item.",
+        "article_target_ids": [
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-032",
+            "support_summary": "Merriam-Webster directly explains this spelling, meaning, and part-of-speech contrast."
+          }
+        ]
+      }
+    ],
+    "recheck_stop_recoveries": [
+      {
+        "recovered_at": "2026-09-08T16:17:22.084712+09:00",
+        "previous_stop_reason": "post-cold recheck limit reached with adopted corrections awaiting verification",
+        "previous_open_questions": [
+          "Translation continuity and sense-order corrections need a second checker round; source-first standard profile permits only one."
+        ]
+      }
+    ]
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 128,
+        "line_end": 128,
+        "exact_quote": "【日本語訳・定義】学校、カレッジ、その他の教育機関を管理する最高責任者。どの種類の教育機関を指すかは地域と制度によって異なる。  "
+      },
+      "severity": "blocking",
+      "rationale": "固定済み source union の U-002 は、教育機関の長だけでなく、組織で支配的権限または主導的地位を持つ人物という名詞用法も収録対象としている。しかし語義2は教育機関の最高責任者に限定され、他の番号付き名詞語義もこの一般的な権限・主導者用法を受け入れない。コアイメージ本文の「組織や行為の中心人物」に対応する収録先も学校・オーケストラ以外にはなく、主要な名詞候補が語義構造から欠落している。",
+      "evidence_link_ids": [
+        "F-002",
+        "F-003",
+        "F-014",
+        "F-017"
+      ],
+      "suggested_direction": "人物を指す一般的な権限・主導者用法を、教育機関の役職名と学習上区別できる番号付き語義として追加するか、語義2をその用法まで明示的に含む構造へ再編し、コアイメージ枝・フレーム・例も対応させる。",
+      "id": "normal-sense-structure-001",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 166,
+        "line_end": 166,
+        "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "固定済み source union の U-003 は、オーケストラのセクション首席だけでなく、舞台芸術の principal artist や leading performer まで含む確立した名詞用法を収録対象としている。現行語義3はオーケストラに限定し、レジスター、フレーム、コアイメージ枝もその範囲だけなので、裏付けられた舞台芸術上の主要用法に収録先がない。",
+      "evidence_link_ids": [
+        "F-007",
+        "F-018"
+      ],
+      "suggested_direction": "語義3を、根拠が支える舞台芸術の主役・主要演者とオーケストラの首席奏者を包含する範囲へ広げ、各下位用法のフレームと例を区別して示す。",
+      "id": "normal-sense-structure-002",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 194,
+        "line_end": 194,
+        "exact_quote": "【日本語訳・定義】借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。  "
+      },
+      "severity": "blocking",
+      "rationale": "固定済み source union の U-005 は、信託で income と区別される財産本体・corpus の用法を、金融上の principal に統合する収録対象としている。現行語義4は借入・貸付・投資の「金額」に限定され、信託財産は金銭以外も含み得るため、この専門用法を包含しない。コアイメージ枝、領域、フレームにも信託用法の収録先がない。",
+      "evidence_link_ids": [
+        "F-025"
+      ],
+      "suggested_direction": "語義4へ、信託の income と対比される財産本体・corpus の専門用法を明示的に統合し、見出し・コアイメージ枝・領域・フレームを金額だけに閉じない形へ広げる。学習上別フレームと判断するなら独立語義に分ける。",
+      "id": "normal-sense-structure-003",
+      "origin": "check_pass:sense-structure"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 172,
+        "line_end": 172,
+        "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人  "
+      },
+      "severity": "blocking",
+      "rationale": "当該語義はオーケストラの各セクションを率いる奏者に限定されているのに、所有格スロットの「など」と訳の「団体」が、バレエ団や企業などを含む無限定な団体名の代入を許す。すると `principal` が首席奏者ではない別の役職・身分を表す候補までこの語義の完全フレームとして生成され、定義とスロットの意味役割が一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "所有格スロットと訳をオーケストラ（必要なら定義で明示した音楽アンサンブル）に限定する。",
+      "id": "normal-frame-relation-001",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 252,
+        "line_end": 252,
+        "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  "
+      },
+      "severity": "blocking",
+      "rationale": "代理権を与える側を主語、代理人を目的語、行為を不定詞補部に置く能動フレームだけが、この語義のコロケーションと例文に実現されていない。他の三つの主要パターンには対応例があるため、主要構文とコロケーションの相互対応がこのフレームで欠けている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`a principal authorizes an agent to do ...` を独立したコロケーションとして、本人・代理人・許可された行為の三スロットが明示された例文で実現する。",
+      "id": "normal-frame-relation-002",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "lexical_relation_mislabel",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 237,
+        "line_end": 237,
+        "exact_quote": "・interest  "
+      },
+      "severity": "blocking",
+      "rationale": "F3: `principal` と `interest` は一つの返済額に含まれ得る別々の金額構成要素であり、基礎額とそこから生じる追加額という関連はあっても、補完・程度・方向・評価・状態のいずれかの反意対立ではない。違い行も両者を構成カテゴリーとして説明している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語法・注意への対照表現としての移動",
+      "id": "normal-frame-relation-003",
+      "origin": "check_pass:frame-relation"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 343,
+        "line_end": 343,
+        "exact_quote": "例: Under the agreement, the company remains liable as principal for the debt.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:007, sense:005が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加",
+      "id": "normal-example-attribution-001",
+      "origin": "check_pass:example-attribution"
+    },
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 168,
+        "line_end": 168,
+        "exact_quote": "【頻度】〈6/10〉"
+      },
+      "severity": "minor",
+      "rationale": "この語義は直後に「オーケストラ・音楽の専門語」と限定され、一般英語では遭遇場面が狭い。6/10は仕様上「中頻度（場面・分野・レジスターがやや限定）」に当たるため、オーケストラ領域内での定着度を英語全体の遭遇頻度へ一般化している。",
+      "evidence_link_ids": [
+        "F-007",
+        "F-018",
+        "U-003",
+        "C-003"
+      ],
+      "suggested_direction": "英語全体を基準に2～3/10程度の低頻度へ下げ、専門領域内では確立した役割名であることはレジスター欄で維持する。",
+      "id": "normal-qualification-001",
+      "origin": "check_pass:qualification"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 166,
+        "line_end": 166,
+        "exact_quote": "【日本語訳・定義】オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "C-002 routes the education/authority claim to definition:003 (the orchestral definition). Its F-002/F-003/F-014/F-017 sources concern general authority or educational heads and do not directly support this orchestral role. C-003 has separately relevant performer evidence, but that does not make C-002's cross-sense link valid. No link IDs are supplied; this identifies the existing C-002 article_target_ids/source_supports relationship.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Remove definition:003 from C-002's targets; retain the directly applicable C-003/F-018 support for the orchestral definition.",
+      "id": "normal-evidence-001",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 49,
+        "line_end": 49,
+        "exact_quote": "【文法パターン】`the principal 〈名詞〉`＝主要な～／`a principal 〈名詞〉`＝主な～の一つ／`one of the principal 〈複数名詞〉`＝主要な～の一つ／`the principal cause of ...`＝～の主因／`a principal source of ...`＝～の主要源の一つ／`the principal reason for ...`＝～の主な理由"
+      },
+      "severity": "blocking",
+      "rationale": "C-001 targets this grammar_pattern, but F-001 (Merriam-Webster adjective sense 1), F-013 (Cambridge learner definition), F-016 (Collins American adjective definition) establish adjective meaning and a few noun combinations. They do not document the complete article/number/preposition frames or the proposed a-principal versus the-principal interpretation. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-002",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 134,
+        "line_end": 134,
+        "exact_quote": "【文法パターン】`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長"
+      },
+      "severity": "blocking",
+      "rationale": "C-002 targets this grammar_pattern, but F-002/F-003 (Merriam-Webster noun senses 1/1b), F-014 (Cambridge school-person definition), and F-017 (Collins title definition) establish school/college leadership meanings and one regional qualification. Their supplied passages do not establish the complete principal of determiner-containing NP, a school principal, and a college principal frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-003",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 172,
+        "line_end": 172,
+        "exact_quote": "【文法パターン】`one of 〈オーケストラなどの所有格〉 principals`＝その団体の首席奏者の一人"
+      },
+      "severity": "blocking",
+      "rationale": "C-003 targets this grammar_pattern, but F-007 (Merriam-Webster noun sense 1f) and F-018 (Collins performer/first-player uses) establish the performer meaning. Neither supplied passage documents one of + orchestra possessive + plural principals or the proposed possessive-slot generalization. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-004",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 200,
+        "line_end": 200,
+        "exact_quote": "【文法パターン】`principal and interest`＝元金と利息／`pay down the principal`＝元金を減らす／`repay principal`＝元金を返済する／`protect the principal`＝元本を保全する"
+      },
+      "severity": "blocking",
+      "rationale": "C-004 targets this grammar_pattern, but F-008/F-015/F-019/F-024/F-027 establish financial principal and, for F-024, repayment reducing the obligation. They do not document the complete pay down the principal, repay principal, or protect the principal frames, including their article choices. Semantic compatibility alone does not verify these as evidenced complete frames. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-005",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 252,
+        "line_end": 252,
+        "exact_quote": "【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係"
+      },
+      "severity": "blocking",
+      "rationale": "C-006 targets this grammar_pattern, but F-004/F-020/F-023 establish authority, behalf, control, and unspecified agent duties. The supplied passages do not establish the full appoints/authorizes an agent to do frame or the complete owe a duty to the principal construction. Wex's mention of duties is not a recorded syntax example. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-006",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 299,
+        "line_end": 299,
+        "exact_quote": "【文法パターン】`a principal in a crime`＝犯罪について `principal` とされる関与者／`treat someone as a principal`＝人を `principal` として扱う／`a principal in the first/second degree`＝歴史的分類上の第一級・第二級 `principal`"
+      },
+      "severity": "blocking",
+      "rationale": "C-007 targets this grammar_pattern, but F-005 (Merriam-Webster noun sense 1d/legal definition) and F-021 (Collins criminal-law sense) support criminal participation and the accessory contrast. Neither fact statement nor source_detail records first/second degree, historical common-law scope, or the supplied complete frames. C-007's support_summary asserts historical degree classifications beyond the underlying F-005 passage summary. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-007",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 337,
+        "line_end": 337,
+        "exact_quote": "【文法パターン】`be liable as principal`＝主たる当事者として責任を負う／`the obligation of the principal`＝主たる義務者の義務／`the principal and the surety`＝主たる義務者と保証人"
+      },
+      "severity": "blocking",
+      "rationale": "C-008 targets this grammar_pattern, but F-006/F-022/F-026 establish primary liability and the surety/guarantor contrast. They do not document the zero-article be liable as principal frame or the other complete obligation/surety phrases. Their definition-level support does not establish those grammatical constructions. No independent evidence-link IDs are supplied in this normalized packet; the existing source_supports relationship is identified here by claim/fact IDs.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the unsupported complete-frame claims, or restrict them to what the fixed evidence directly supports. Have the source-first owner provide directly applicable construction evidence before restoring the full frames.",
+      "id": "normal-evidence-008",
+      "origin": "check_pass:evidence"
+    },
+    {
+      "id": "COLD-001",
+      "location": "コアイメージ（名詞用法の総括）と語義3（適用範囲の限定）",
+      "severity": "medium",
+      "description": "コアイメージの「組織や行為の中心人物」という表現は、名詞の principal を重要人物一般に使えるかのように読めるが、列挙された具体的語義は教育機関の長、首席奏者、法律上の当事者など役割ごとに限定され、語義3では重要人物一般ではないと明記している。この範囲差により、学習者が任意の組織の中心人物を a principal と呼べると誤って一般化するおそれがある。",
+      "reason": "コアイメージは「形容詞では主要なものを選び出し、名詞では組織や行為の中心人物、利息に対する元の金額、代理関係などの主要当事者を指す。」と名詞の人物用法を広く総括している。しかし本文の人物語義は役職・法的関係ごとに限定され、語義3はさらに「重要人物一般の呼称ではない。」と反例を明示しているため、総括だけを読んだ学習者には適用範囲が実際の説明より広く見える。",
+      "suggested_direction": "コアイメージを「教育機関の長やオーケストラの首席奏者など、特定の制度・役割で中心となる人物」のように、本文で立てた語義へ対応する表現に狭める。重要人物一般を表す独立した名詞語義も扱う意図がある場合は、適用できる文脈と用例を明示した別語義として検証のうえ追加し、コアイメージだけで暗示しない。",
+      "scope_anchors": [
+        {
+          "id": "COLD-001-A1",
+          "exact_quote": "形容詞では主要なものを選び出し、名詞では組織や行為の中心人物、利息に対する元の金額、代理関係などの主要当事者を指す。",
+          "location_hint": "＃コアイメージの第1段落、第2文"
+        },
+        {
+          "id": "COLD-001-A2",
+          "exact_quote": "オーケストラで一つのセクションを率いる奏者。重要人物一般の呼称ではない。",
+          "location_hint": "語義3【日本語訳・定義】"
+        }
+      ],
+      "origin": "cold_review"
+    }
+  ],
+  "resolutions": [
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Fixed union U-002 and fact F-002 directly support a person with controlling authority or a leading position, while the draft confined the person sense to education titles.",
+      "required_changes": [
+        "Give the supported authority or leading-position noun use an explicit home without inventing a new frame."
+      ],
+      "implemented_changes": [
+        "Broadened sense 2's heading and definition to the supported authority or leading-position use while retaining education as its prominent conventional title use."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "U-003, F-007, and F-018 support an established leading-performer use beyond orchestral section leaders.",
+      "required_changes": [
+        "Extend sense 3 only to the directly supported performing-arts range."
+      ],
+      "implemented_changes": [
+        "Expanded sense 3's heading, definition, register, grammar note, core-image branch, and usage note to leading performers in the performing arts and orchestral principals."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "finding_id": "normal-sense-structure-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "U-005 and F-025 directly define trust principal as the property or corpus distinct from income.",
+      "required_changes": [
+        "Integrate the supported trust-corpus use without treating all principal as a money amount."
+      ],
+      "implemented_changes": [
+        "Added trust principal to sense 4's heading, definition, domain note, grammar note, usage note, and core-image branch."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The generic possessive slot licensed organizations outside the performing-arts role described by the sense.",
+      "required_changes": [
+        "Do not expose an unrestricted organization slot for this specialized noun."
+      ],
+      "implemented_changes": [
+        "Removed the generic possessive construction from the grammar line; the remaining collocation explicitly names an orchestra."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-frame-relation-002",
+      "finding_id": "normal-frame-relation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The missing-example symptom came from an asserted authorize/appoint frame that the frozen facts did not establish as a complete construction; adding another unevidenced example would compound the issue.",
+      "required_changes": [
+        "Remove the unsupported complete frame rather than manufacture a matching example."
+      ],
+      "implemented_changes": [
+        "Reduced the agency grammar line to the directly grounded principal-agent relationship and on-behalf relationship, and removed the unsupported duty collocation."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-frame-relation-003",
+      "finding_id": "normal-frame-relation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Principal and interest are related components, not opposites on an accepted lexical opposition axis.",
+      "required_changes": [
+        "Remove interest from the antonym inventory and retain the useful contrast as usage guidance."
+      ],
+      "implemented_changes": [
+        "Deleted the interest antonym block and stated the related-component contrast in the finance usage note."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The original liable-as-principal example did not distinguish obligation liability from an agency principal.",
+      "required_changes": [
+        "Add a directly supported surety or guarantor contrast to disambiguate the role."
+      ],
+      "implemented_changes": [
+        "Extended the example and translation with the guarantor's secondary liability, binding it to the obligation-law sense."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The performing-arts noun is a specialized low-frequency use in English overall, so 6/10 overstated its encounter frequency.",
+      "required_changes": [
+        "Lower the English-wide frequency while retaining the established specialist label."
+      ],
+      "implemented_changes": [
+        "Changed sense 3 from 6/10 to 3/10 and retained its performing-arts and orchestral domain qualification."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "C-002's education and authority facts did not support the performing-arts definition target.",
+      "required_changes": [
+        "Remove the cross-sense target while preserving C-003's performer support."
+      ],
+      "implemented_changes": [
+        "Removed definition:003 from C-002 and kept performing-arts support exclusively under C-003."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed adjective facts support meaning and attested noun combinations, not the draft's full article, number, and preposition system.",
+      "required_changes": [
+        "Restrict the grammar claim to the supported attributive shape and stop binding definition evidence to the full frame."
+      ],
+      "implemented_changes": [
+        "Simplified sense 1 grammar to attributive principal plus noun and removed grammar_pattern:001 from C-001's source binding."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The education facts establish the role but do not establish the complete determiner and of-complement templates as quoted.",
+      "required_changes": [
+        "Replace the unevidenced complete frame with a count-noun role note and narrow its source binding."
+      ],
+      "implemented_changes": [
+        "Replaced the sense 2 grammar templates with a count-noun role description and removed grammar_pattern:002 from C-002."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The performer facts establish the specialist role but not an unrestricted possessive-plus-plural frame.",
+      "required_changes": [
+        "Remove the generalized possessive template and narrow its source binding."
+      ],
+      "implemented_changes": [
+        "Replaced the sense 3 grammar template with a specialist count-noun role note and removed grammar_pattern:003 from C-003."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The finance facts establish the capital-versus-interest concept and repayment effect, not every article-bearing construction listed in the grammar line.",
+      "required_changes": [
+        "Replace the complete construction list with a meaning-and-countability note grounded in the fixed facts."
+      ],
+      "implemented_changes": [
+        "Replaced sense 4's grammar list with a finance/trust noun-use note and removed grammar_pattern:004 from C-004."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The agency facts support authority and acting on behalf but not the full appoint/authorize and owe-a-duty syntax asserted by the draft.",
+      "required_changes": [
+        "Keep only directly grounded relations and remove the grammar target from C-006."
+      ],
+      "implemented_changes": [
+        "Removed the appoint/authorize and duty frames, retained the directly grounded relationship expressions, and removed grammar_pattern:005 from C-006."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The criminal-law facts support participant classification and the accessory contrast, but the inventory did not support the historical degree claim or the complete quoted frames.",
+      "required_changes": [
+        "Remove the historical-degree material and narrow the grammar/source binding to the supported classification."
+      ],
+      "implemented_changes": [
+        "Removed the degree statement and example, simplified the grammar note, removed grammar_pattern:006 from C-007, and corrected F-005's support summary to omit historical degrees."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The obligation facts establish primary liability and the surety/guarantor contrast, not each complete phrase in the former grammar list.",
+      "required_changes": [
+        "State the directly supported role contrast without claiming the full constructions are source-attested."
+      ],
+      "implemented_changes": [
+        "Replaced sense 7's grammar list with a count-noun role contrast and removed grammar_pattern:007 from C-008."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "COLD-001",
+      "finding_id": "COLD-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The core image's generic central-person wording licensed uses broader than either the directly supported authority sense or the draft's established institutional and specialist roles.",
+      "required_changes": [
+        "Tie the core image to the supported authority, education, performing-arts, finance/trust, and legal roles."
+      ],
+      "implemented_changes": [
+        "Rewrote the core summary and branches to name the supported roles and to avoid presenting principal as a free synonym for any important person."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    }
+  ],
+  "final_decision": {
+    "decision": "pass",
+    "blockers": [],
+    "notes": [
+      "独立最終照合として91対象・63関係・28 blind候補/28 assertions・17 finding・14 source unionを判定。normal candidateとevidence_checksは入力正本に明示的に空集合であり欠落を推定していない。",
+      "初回blindの二つの修正は歴史artifactに保持され、最新blindの空findingによって消去された未解決項目ではない。",
+      "頻度は編集上の相対尺度。舞台芸術・信託下位用法を別番号や追加例へ分割する案は任意の構成改善であり、現行の明示的包含を否定するblockerではない。"
+    ],
+    "reviewed_at": "2026-09-08T08:16:53.236635+00:00",
+    "blind_output_sha256": "c716b5a23c9bd56fb0631dc6129f4ff9f21897df7f209d4eaaec428f0c77d65b"
+  },
+  "workflow_revision": {
+    "schema_version": "workflow_revision_v1",
+    "artifacts": {
+      "pre_blind_resolution": {
+        "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/pre_blind_resolution.json",
+        "sha256": "62550a294aa5077cb81cc24497aef445765b39188ee1d3d0a33003e3018c28ac"
+      },
+      "pre_blind_revision": {
+        "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/pre_blind_revision.json",
+        "sha256": "b9897b96c2d623b08c1c6eddf20e093f4f1592cd22a911129f5bb41ba9ee8f19"
+      },
+      "checker_recheck_manifest": {
+        "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/checker_recheck_manifest.json",
+        "sha256": "13c0daf50b6e128eade7f500a7fd53210ceb6cebd4f05773da7735f0aee19917"
+      },
+      "post_blind_resolution": {
+        "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_resolution.json",
+        "sha256": "9caa4cb41b8144ba6c7b1107941eb70a3ee5f5ee8a95c5f8ab74d76de499db3f"
+      },
+      "post_blind_verification": {
+        "path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_verification.json",
+        "sha256": "3fdeb10344479f3e3e8ef0b650ade38c1d970932c46786998427741e17cf28ad"
+      }
+    },
+    "targeted_adjudications": []
+  },
+  "invalidated_by": [],
+  "review_liveness_errors": []
+}

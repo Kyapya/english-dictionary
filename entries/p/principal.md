@@ -1,12 +1,12 @@
 ---
 headword: principal
 type: word
-status: needs_review
+status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra
 created_at: 2026-09-08
 updated_at: 2026-09-08
-checked: false
+checked: true
 tags: []
 ---
 

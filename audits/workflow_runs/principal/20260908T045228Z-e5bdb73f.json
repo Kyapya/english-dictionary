@@ -18,11 +18,11 @@
     "candidate_pages": 6
   },
   "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "stage": "final_review_complete",
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
   "pre_draft_deadline_at": "2026-09-08T05:22:28Z",
-  "last_heartbeat_at": "2026-09-08T08:04:49Z",
+  "last_heartbeat_at": "2026-09-08T08:19:10Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T05:01:10Z",
@@ -63,6 +63,11 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-08T07:42:53Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-08T08:19:10Z",
+      "notes": "orchestrator completed final_review"
     }
   ],
   "stop_reason": "",
@@ -747,7 +752,7 @@
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
@@ -756,7 +761,7 @@
         "duration_seconds": 0.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
@@ -834,7 +839,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 10,
+    "next_stage_index": 12,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -845,7 +850,9 @@
       "checker_recheck",
       "final_blind",
       "blind_seal",
-      "post_blind_resolution"
+      "post_blind_resolution",
+      "final_review",
+      "status_update"
     ],
     "stage_outputs": {
       "generation": [
@@ -880,6 +887,15 @@
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_resolution.json",
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_verification.json",
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/final_review.json",
+        "audits/p/principal.json"
+      ],
+      "status_update": [
+        "entries/p/principal.md",
+        "queue/words.csv",
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/status_update.json"
       ]
     }
   },
