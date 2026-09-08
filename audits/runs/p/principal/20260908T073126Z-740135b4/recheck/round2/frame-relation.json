@@ -1,0 +1,96 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_cycle3_frame"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+    "blind_request_sha256": "b6b9ab3a1db146e974a3d0540da59779bd5c30f5e22e456c176f3079ca365109",
+    "recorded_at": "2026-09-08T18:07:40+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/principal_cycle3_frame"
+    },
+    "axes": [
+      {
+        "item_id": "ant-4d0e6b6103c3",
+        "axis": "授権方向",
+        "relation_type": "方向",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-a3db997e4cb0",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-6a7603f128f6",
+        "axis": "責任順位",
+        "relation_type": "補完",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-7519223f3c13",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+    "stage2_request_sha256": "7a5959bda1555cccbc191bdc73aa7d4a0c3a92c322432da3f6cc82c413320246",
+    "blind_record_sha256": "988e4f9ab414edc934825046529f4c54053e63f83abbf163428bddcf5f55dd68",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/principal_cycle3_frame"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-a3db997e4cb0",
+        "flags": [],
+        "rationale": "重要度は当該語義の定義に明示され、principal と secondary はその高低を表す程度対立であり、違い行も対立の成立を否定・限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-7519223f3c13",
+        "flags": [],
+        "rationale": "重要度は当該語義から直接導け、principal と minor は重要性・影響の大小を表す程度対立であり、違い行に自己否定はない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-4d0e6b6103c3",
+        "flags": [],
+        "rationale": "授権方向は本人が権限を与え代理人がその権限で行動するという当該語義そのものから導け、両者は同一代理関係における方向対立であり、違い行もその対立を明確にしている。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-6a7603f128f6",
+        "flags": [],
+        "rationale": "責任順位は第一次的責任者という当該語義から導け、保証関係で principal と surety は第一次責任側と二次的保証側という補完的役割を表し、違い行に対立の不成立を示す記述はない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T09:16:23.119904+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

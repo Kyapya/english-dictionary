@@ -1,0 +1,1857 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "specification": "prompts/check_pass_evidence_v6.md",
+  "input_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "発音: /ˈprɪnsəpəl/。形容詞と名詞で同じ発音を用いる。  "
+      }
+    ],
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語・古フランス語を経て、ラテン語 *principalis*「第一の、主要な」にさかのぼる。その基になった *princeps* は、*primus*「第一の」と *capere*「取る」に関係し、「第一の位置を占める者」という発想を持つ。語源には「第一の、主要な」という意味的なつながりがある。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・principally：`principal` の副詞形。  "
+      },
+      {
+        "line": 24,
+        "text": "・principalship：`principal` の名詞派生形。  "
+      },
+      {
+        "line": 25,
+        "text": "・principal-agent relationship：法律上の本人・代理人関係を表す複合表現。  "
+      }
+    ],
+    "core_image": [
+      {
+        "line": 27,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 29,
+        "text": "`principal` の中心は、「重要度・権限・責任・金額の土台として第一に位置する」である。形容詞では主要なものを選び出し、名詞では権限・主導的地位を持つ人や教育機関の長、舞台芸術の主要演者やオーケストラの首席奏者、利息・収益に対する元の金額や信託収益に対する財産本体、法的関係の主要当事者を指す。  "
+      },
+      {
+        "line": 30,
+        "text": "・重要度で第一に位置するもの → 「主要な、最も重要な」（語義1）  "
+      },
+      {
+        "line": 31,
+        "text": "・組織で権限・主導的地位を持つ人、特に教育機関の長 → 「上級責任者、校長、学長」（語義2）  "
+      },
+      {
+        "line": 32,
+        "text": "・舞台芸術の主要演者、またはオーケストラで一つのセクションを率いる奏者 → 「主要演者、首席奏者」（語義3）  "
+      },
+      {
+        "line": 33,
+        "text": "・利息・収益に対する基礎額、または信託収益に対する財産本体 → 「元金、元本、信託元本」（語義4）  "
+      },
+      {
+        "line": 34,
+        "text": "・代理関係で権限の源として第一に位置する当事者 → 「本人、依頼者」（語義5）  "
+      },
+      {
+        "line": 35,
+        "text": "・適用法上 `principal` と分類される犯罪関与者 → 「犯罪関与者」（語義6）  "
+      },
+      {
+        "line": 36,
+        "text": "・債務・保証関係で第一次的責任を負う者 → 「主たる債務者・義務者」（語義7）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞】主要な、最も重要な、第一の"
+      },
+      {
+        "line": 42,
+        "text": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。  "
+      },
+      {
+        "line": 125,
+        "text": "2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長"
+      },
+      {
+        "line": 127,
+        "text": "【日本語訳・定義】組織で支配的権限または主導的地位を持つ人。特に、学校、カレッジ、その他の教育機関を管理する最高責任者を指す。教育上どの種類の機関を指すかは地域と制度によって異なる。  "
+      },
+      {
+        "line": 158,
+        "text": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      {
+        "line": 160,
+        "text": "【日本語訳・定義】舞台芸術で主要な役を担う演者、またはオーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、芸術分野で確立した役割名を指す。  "
+      },
+      {
+        "line": 191,
+        "text": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本"
+      },
+      {
+        "line": 193,
+        "text": "【日本語訳・定義】借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。信託法では、収益と区別される信託財産そのもの、すなわち信託元本・corpusを指す。  "
+      },
+      {
+        "line": 229,
+        "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+      },
+      {
+        "line": 231,
+        "text": "【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。  "
+      },
+      {
+        "line": 271,
+        "text": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者"
+      },
+      {
+        "line": 273,
+        "text": "【日本語訳・定義】刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。  "
+      },
+      {
+        "line": 299,
+        "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+      },
+      {
+        "line": 301,
+        "text": "【日本語訳・定義】債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞】主要な、最も重要な、第一の"
+      },
+      {
+        "line": 44,
+        "text": "【頻度】〈9/10〉  "
+      },
+      {
+        "line": 46,
+        "text": "【レジスター/領域】標準～やや形式的。報道、ビジネス、学術、行政で広く使う。日常会話では `main` がより普通なことが多い。  "
+      },
+      {
+        "line": 125,
+        "text": "2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長"
+      },
+      {
+        "line": 129,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 131,
+        "text": "【レジスター/領域】標準～やや形式的。企業・専門組織では権限または主導的地位を持つ人を表す。教育分野では学校・教育機関の長を表し、イングランドではカレッジの長を指す場合がある。  "
+      },
+      {
+        "line": 158,
+        "text": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      {
+        "line": 162,
+        "text": "【頻度】〈3/10〉  "
+      },
+      {
+        "line": 164,
+        "text": "【レジスター/領域】舞台芸術・オーケストラ・音楽の専門語。  "
+      },
+      {
+        "line": 191,
+        "text": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本"
+      },
+      {
+        "line": 195,
+        "text": "【頻度】〈7/10〉  "
+      },
+      {
+        "line": 197,
+        "text": "【レジスター/領域】金融、融資、投資、会計、信託法。金融義は日常的なローン説明にも現れ、信託義は専門的である。  "
+      },
+      {
+        "line": 229,
+        "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+      },
+      {
+        "line": 233,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 235,
+        "text": "【レジスター/領域】法律、保険、不動産、商取引。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  "
+      },
+      {
+        "line": 271,
+        "text": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者"
+      },
+      {
+        "line": 275,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 277,
+        "text": "【レジスター/領域】刑事法の専門語。犯罪に関するこの語義は法域によって分類法が異なる。  "
+      },
+      {
+        "line": 299,
+        "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+      },
+      {
+        "line": 303,
+        "text": "【頻度】〈2/10〉  "
+      },
+      {
+        "line": 305,
+        "text": "【レジスター/領域】債務法・保証法の専門語。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞】主要な、最も重要な、第一の"
+      },
+      {
+        "line": 48,
+        "text": "【文法パターン】限定用法で `principal + 〈名詞〉` の形を取り、「主要な～」を表す。  "
+      },
+      {
+        "line": 125,
+        "text": "2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長"
+      },
+      {
+        "line": 133,
+        "text": "【文法パターン】一般の権限者は `a principal with controlling authority`。教育機関の長は `the principal + be + in charge of 〈学校〉`。  "
+      },
+      {
+        "line": 158,
+        "text": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      {
+        "line": 166,
+        "text": "【文法パターン】舞台芸術の主要演者を名詞で表す場合は `〈演者〉 + be + a principal`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  "
+      },
+      {
+        "line": 191,
+        "text": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本"
+      },
+      {
+        "line": 199,
+        "text": "【文法パターン】金融では `principal + be + the initial amount invested`／`principal + be + distinct from interest`。信託法では `trust principal + be + distinct from income`。  "
+      },
+      {
+        "line": 229,
+        "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+      },
+      {
+        "line": 237,
+        "text": "【文法パターン】`a principal-agent relationship`＝本人・代理人関係／`act on behalf of the principal`＝本人を代理して行動する  "
+      },
+      {
+        "line": 271,
+        "text": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者"
+      },
+      {
+        "line": 279,
+        "text": "【文法パターン】`the principal + be + directly responsible for 〈犯罪〉`  "
+      },
+      {
+        "line": 299,
+        "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+      },
+      {
+        "line": 307,
+        "text": "【文法パターン】`the principal + be + primarily liable for 〈債務・義務〉`／`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞】主要な、最も重要な、第一の"
+      },
+      {
+        "line": 50,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 52,
+        "text": "・`the principal reason for ...`  "
+      },
+      {
+        "line": 53,
+        "text": "用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。  "
+      },
+      {
+        "line": 54,
+        "text": "例: The principal reason for the delay was a shortage of parts.  "
+      },
+      {
+        "line": 55,
+        "text": "訳: 遅延の主な理由は部品不足だった。  "
+      },
+      {
+        "line": 57,
+        "text": "・`the principal cause of ...`  "
+      },
+      {
+        "line": 58,
+        "text": "用途: 出来事を引き起こした最も重要な原因を示す。  "
+      },
+      {
+        "line": 59,
+        "text": "例: Investigators identified corrosion as the principal cause of the failure.  "
+      },
+      {
+        "line": 60,
+        "text": "訳: 調査担当者は、腐食をその故障の主因と特定した。  "
+      },
+      {
+        "line": 62,
+        "text": "・`a principal source of ...`  "
+      },
+      {
+        "line": 63,
+        "text": "用途: 物・情報・収入などの主要な供給源を示す。  "
+      },
+      {
+        "line": 64,
+        "text": "例: Tourism is a principal source of income for the island.  "
+      },
+      {
+        "line": 65,
+        "text": "訳: 観光はその島の主要な収入源の一つである。  "
+      },
+      {
+        "line": 67,
+        "text": "・`one of the principal 〈複数名詞〉`  "
+      },
+      {
+        "line": 68,
+        "text": "用途: 最重要候補が複数ある中の一つであることを示す。  "
+      },
+      {
+        "line": 69,
+        "text": "例: She is one of the principal architects of the reform.  "
+      },
+      {
+        "line": 70,
+        "text": "訳: 彼女はその改革の主要な立案者の一人である。  "
+      },
+      {
+        "line": 72,
+        "text": "・`a principal dancer`  "
+      },
+      {
+        "line": 73,
+        "text": "用途: `principal` を限定用法の形容詞として用い、舞台芸術で主要な役を担うダンサーを表す。  "
+      },
+      {
+        "line": 74,
+        "text": "例: She is a principal dancer.  "
+      },
+      {
+        "line": 75,
+        "text": "訳: 彼女は主要な役を担うダンサーである。  "
+      },
+      {
+        "line": 125,
+        "text": "2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長"
+      },
+      {
+        "line": 135,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 137,
+        "text": "・`a principal with controlling authority`  "
+      },
+      {
+        "line": 138,
+        "text": "用途: 支配的権限を持つ人という一般の人物用法を表す。  "
+      },
+      {
+        "line": 139,
+        "text": "例: A principal with controlling authority approved the proposal.  "
+      },
+      {
+        "line": 140,
+        "text": "訳: 支配的権限を持つ責任者がその提案を承認した。  "
+      },
+      {
+        "line": 142,
+        "text": "・`the principal + be + in charge of 〈学校〉`  "
+      },
+      {
+        "line": 143,
+        "text": "用途: 教育機関を管理する長であることを表す。  "
+      },
+      {
+        "line": 144,
+        "text": "例: The principal is in charge of the school.  "
+      },
+      {
+        "line": 145,
+        "text": "訳: その校長が学校の管理を担っている。  "
+      },
+      {
+        "line": 158,
+        "text": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      {
+        "line": 168,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 170,
+        "text": "・`be a principal`  "
+      },
+      {
+        "line": 171,
+        "text": "用途: 舞台芸術の文脈で、主要な役を担う演者を名詞 `principal` で表す。  "
+      },
+      {
+        "line": 172,
+        "text": "例: In this ballet company, she is a principal.  "
+      },
+      {
+        "line": 173,
+        "text": "訳: このバレエ団で、彼女は主要な役を担う演者である。  "
+      },
+      {
+        "line": 175,
+        "text": "・`the principal + be + the first player of 〈オーケストラのセクション〉`  "
+      },
+      {
+        "line": 176,
+        "text": "用途: オーケストラのセクションで首席を務める奏者を表す。  "
+      },
+      {
+        "line": 177,
+        "text": "例: The principal is the first player of the violin section.  "
+      },
+      {
+        "line": 178,
+        "text": "訳: その首席奏者はバイオリン・セクションの第一奏者である。  "
+      },
+      {
+        "line": 191,
+        "text": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本"
+      },
+      {
+        "line": 201,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 203,
+        "text": "・`principal + be + the initial amount invested`  "
+      },
+      {
+        "line": 204,
+        "text": "用途: 投資で、収益の基礎となる最初の金額を表す。  "
+      },
+      {
+        "line": 205,
+        "text": "例: The principal is the initial amount invested.  "
+      },
+      {
+        "line": 206,
+        "text": "訳: 元本とは最初に投資された金額である。  "
+      },
+      {
+        "line": 208,
+        "text": "・`principal + be + distinct from interest`  "
+      },
+      {
+        "line": 209,
+        "text": "用途: 借入・貸付の元金を利息と区別して表す。  "
+      },
+      {
+        "line": 210,
+        "text": "例: Principal is distinct from interest on the loan.  "
+      },
+      {
+        "line": 211,
+        "text": "訳: 元金はその融資の利息とは別のものである。  "
+      },
+      {
+        "line": 213,
+        "text": "・`trust principal + be + distinct from income`  "
+      },
+      {
+        "line": 214,
+        "text": "用途: 信託財産の元本を、そこから生じる収益と区別する。  "
+      },
+      {
+        "line": 215,
+        "text": "例: Trust principal is distinct from income.  "
+      },
+      {
+        "line": 216,
+        "text": "訳: 信託元本は収益とは別のものである。  "
+      },
+      {
+        "line": 229,
+        "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+      },
+      {
+        "line": 239,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 241,
+        "text": "・`a principal-agent relationship`  "
+      },
+      {
+        "line": 242,
+        "text": "用途: 権限を与える本人と、そのために行動する代理人との関係を表す。  "
+      },
+      {
+        "line": 243,
+        "text": "例: The contract created a principal-agent relationship between the owner and the broker.  "
+      },
+      {
+        "line": 244,
+        "text": "訳: その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。  "
+      },
+      {
+        "line": 246,
+        "text": "・`act on behalf of the principal`  "
+      },
+      {
+        "line": 247,
+        "text": "用途: 代理人が本人を代理して行動することを表す。  "
+      },
+      {
+        "line": 248,
+        "text": "例: The agent may sign the document on behalf of the principal.  "
+      },
+      {
+        "line": 249,
+        "text": "訳: 代理人は本人を代理してその書類に署名できる。  "
+      },
+      {
+        "line": 271,
+        "text": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者"
+      },
+      {
+        "line": 281,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 283,
+        "text": "・`the principal + be + directly responsible for 〈犯罪〉`  "
+      },
+      {
+        "line": 284,
+        "text": "用途: 適用法上、犯罪について直接責任を負う者を表す。  "
+      },
+      {
+        "line": 285,
+        "text": "例: Under the statute, the principal is directly responsible for the crime.  "
+      },
+      {
+        "line": 286,
+        "text": "訳: その制定法の下で、当該 `principal` はその犯罪について直接責任を負う。  "
+      },
+      {
+        "line": 299,
+        "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+      },
+      {
+        "line": 309,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 311,
+        "text": "・`the principal + be + primarily liable for 〈債務・義務〉`  "
+      },
+      {
+        "line": 312,
+        "text": "用途: 主たる当事者が義務について第一次的責任を負うことを示す。  "
+      },
+      {
+        "line": 313,
+        "text": "例: The principal is primarily liable for the debt.  "
+      },
+      {
+        "line": 314,
+        "text": "訳: 主たる債務者はその債務について第一次的責任を負う。  "
+      },
+      {
+        "line": 316,
+        "text": "・`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`  "
+      },
+      {
+        "line": 317,
+        "text": "用途: 第一次的責任者を、二次的責任を負う保証人と区別する。  "
+      },
+      {
+        "line": 318,
+        "text": "例: The principal is distinct from the surety, who has secondary liability.  "
+      },
+      {
+        "line": 319,
+        "text": "訳: 主たる債務者は、二次的責任を負う保証人とは別の当事者である。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞】主要な、最も重要な、第一の"
+      },
+      {
+        "line": 77,
+        "text": "【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principle` は「基本的な規則・法則」を表す名詞で、`principal` は「最も重要な」を表す形容詞にもなるため、両者を混同しない。  "
+      },
+      {
+        "line": 125,
+        "text": "2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長"
+      },
+      {
+        "line": 147,
+        "text": "【語法・注意】一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。教育上の役職名は地域や制度によって異なるため、日本語の「校長」を機械的にすべて `principal` としない。  "
+      },
+      {
+        "line": 158,
+        "text": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      {
+        "line": 180,
+        "text": "【語法・注意】舞台芸術団体やオーケストラ内で確立した役割名として用い、一般の「重要人物」には広げない。  "
+      },
+      {
+        "line": 191,
+        "text": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本"
+      },
+      {
+        "line": 218,
+        "text": "【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる追加額であり、反意語ではなく関連する別の金額構成要素である。信託では `principal` が財産本体、`income` がそこから生じる収益を指す。`repay the principal` では `principal` 自体が目的語の名詞になる。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。  "
+      },
+      {
+        "line": 229,
+        "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+      },
+      {
+        "line": 251,
+        "text": "【語法・注意】法律用語の `principal` は、`agent` に権限を与える側を表す関係上の役割名である。`principal` が権限の源となり、`agent` は本人のためにその権限の範囲で行動する。  "
+      },
+      {
+        "line": 271,
+        "text": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者"
+      },
+      {
+        "line": 288,
+        "text": "【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。  "
+      },
+      {
+        "line": 299,
+        "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+      },
+      {
+        "line": 321,
+        "text": "【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。金額を指す語義4の「元金」とは区別する。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 40,
+        "text": "1. 【形容詞】主要な、最も重要な、第一の"
+      },
+      {
+        "line": 79,
+        "text": "【類義語】"
+      },
+      {
+        "line": 81,
+        "text": "・main  "
+      },
+      {
+        "line": 82,
+        "text": "定義: 複数のものの中で中心的・最重要である。  "
+      },
+      {
+        "line": 83,
+        "text": "頻度: 〈10/10〉  "
+      },
+      {
+        "line": 84,
+        "text": "違い: `main` は日常語で範囲が広い。`principal` はより形式的で、順位・重要性・影響力が高いことを意識させる。  "
+      },
+      {
+        "line": 85,
+        "text": "例: Our main goal is to reduce waiting times.  "
+      },
+      {
+        "line": 86,
+        "text": "訳: 私たちの主な目標は待ち時間を減らすことだ。  "
+      },
+      {
+        "line": 88,
+        "text": "・primary  "
+      },
+      {
+        "line": 89,
+        "text": "定義: 第一順位・第一段階である、または最も基本的である。  "
+      },
+      {
+        "line": 90,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 91,
+        "text": "違い: `primary` は重要性に加え、順序・段階・基本性にも焦点を置ける。`principal` は主として相対的な重要度や地位を表す。  "
+      },
+      {
+        "line": 92,
+        "text": "例: Safety is our primary concern.  "
+      },
+      {
+        "line": 93,
+        "text": "訳: 安全が私たちの最優先事項である。  "
+      },
+      {
+        "line": 95,
+        "text": "・chief  "
+      },
+      {
+        "line": 96,
+        "text": "定義: 同種の中で最上位・最重要である。  "
+      },
+      {
+        "line": 97,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 98,
+        "text": "違い: `chief` は役職名や「最大の原因・懸念」によく使われ、最上位性を強く示す。`principal` は文章語として原因・目的・人物・場所などに幅広く使う。  "
+      },
+      {
+        "line": 99,
+        "text": "例: Cost remains the chief obstacle to expansion.  "
+      },
+      {
+        "line": 100,
+        "text": "訳: 費用が依然として拡大の最大の障害である。  "
+      },
+      {
+        "line": 102,
+        "text": "・leading  "
+      },
+      {
+        "line": 103,
+        "text": "定義: ある分野で先頭に立ち、大きな影響力や高い評価を持つ。  "
+      },
+      {
+        "line": 104,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 105,
+        "text": "違い: `leading` は人・企業・研究機関などの実績や影響力を強調しやすい。`principal` は実績評価を必須とせず、対象内での中心性を示す。  "
+      },
+      {
+        "line": 106,
+        "text": "例: She is a leading expert on marine ecosystems.  "
+      },
+      {
+        "line": 107,
+        "text": "訳: 彼女は海洋生態系の第一人者である。  "
+      },
+      {
+        "line": 109,
+        "text": "【反意語】"
+      },
+      {
+        "line": 111,
+        "text": "・secondary  "
+      },
+      {
+        "line": 112,
+        "text": "定義: 第一ではなく、重要度・順位が二次的である。  "
+      },
+      {
+        "line": 113,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 114,
+        "text": "違い: 重要度・順位の軸で `principal` と方向が反対になり、主要なものに対する従属的・補助的なものを表す。  "
+      },
+      {
+        "line": 115,
+        "text": "例: Price was only a secondary consideration.  "
+      },
+      {
+        "line": 116,
+        "text": "訳: 価格は二次的な考慮事項にすぎなかった。  "
+      },
+      {
+        "line": 118,
+        "text": "・minor  "
+      },
+      {
+        "line": 119,
+        "text": "定義: 重要性・規模・影響が比較的小さい。  "
+      },
+      {
+        "line": 120,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 121,
+        "text": "違い: `principal` との程度軸上の対立で、最重要・主要ではない小さな要素を表す。  "
+      },
+      {
+        "line": 122,
+        "text": "例: The report contains a few minor errors.  "
+      },
+      {
+        "line": 123,
+        "text": "訳: その報告書には小さな誤りがいくつかある。  "
+      },
+      {
+        "line": 125,
+        "text": "2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長"
+      },
+      {
+        "line": 149,
+        "text": "【類義語】"
+      },
+      {
+        "line": 151,
+        "text": "・head  "
+      },
+      {
+        "line": 152,
+        "text": "定義: 学校・組織などの長。  "
+      },
+      {
+        "line": 153,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 154,
+        "text": "違い: `head` は組織の長を広く表す。`principal` は権限・主導的地位を持つ人を表し、特に教育機関で役職名として用いられる。  "
+      },
+      {
+        "line": 155,
+        "text": "例: She is the head of a large secondary school.  "
+      },
+      {
+        "line": 156,
+        "text": "訳: 彼女は大規模な中等学校の校長である。  "
+      },
+      {
+        "line": 158,
+        "text": "3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者"
+      },
+      {
+        "line": 182,
+        "text": "【類義語】"
+      },
+      {
+        "line": 184,
+        "text": "・section leader  "
+      },
+      {
+        "line": 185,
+        "text": "定義: オーケストラで一つのセクションを率いる奏者。  "
+      },
+      {
+        "line": 186,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 187,
+        "text": "違い: 役割を説明する一般的な表現で、`principal` は確立した役職名として用いられる。  "
+      },
+      {
+        "line": 188,
+        "text": "例: The section leader rehearsed the difficult passage.  "
+      },
+      {
+        "line": 189,
+        "text": "訳: セクションの首席奏者は難しい楽節を練習した。  "
+      },
+      {
+        "line": 191,
+        "text": "4. 【名詞・金融／信託法】元金、元本、信託財産の元本"
+      },
+      {
+        "line": 220,
+        "text": "【類義語】"
+      },
+      {
+        "line": 222,
+        "text": "・capital  "
+      },
+      {
+        "line": 223,
+        "text": "定義: 投資・事業に用いられる資金または資産。  "
+      },
+      {
+        "line": 224,
+        "text": "頻度: 〈9/10〉  "
+      },
+      {
+        "line": 225,
+        "text": "違い: `capital` は事業資金・生産資産まで広く表す。`principal` は特定の貸付・借入・投資で利息や収益の基礎となる元の額を指す。  "
+      },
+      {
+        "line": 226,
+        "text": "例: The company raised additional capital from investors.  "
+      },
+      {
+        "line": 227,
+        "text": "訳: その会社は投資家から追加資金を調達した。  "
+      },
+      {
+        "line": 229,
+        "text": "5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者"
+      },
+      {
+        "line": 253,
+        "text": "【類義語】"
+      },
+      {
+        "line": 255,
+        "text": "・mandator  "
+      },
+      {
+        "line": 256,
+        "text": "定義: 他人に委任・代理の権限を与える者。  "
+      },
+      {
+        "line": 257,
+        "text": "頻度: 〈2/10〉  "
+      },
+      {
+        "line": 258,
+        "text": "違い: 特定の法体系や専門文脈で使われる低頻度語である。  "
+      },
+      {
+        "line": 259,
+        "text": "例: The mandator may revoke the mandate subject to the agreement.  "
+      },
+      {
+        "line": 260,
+        "text": "訳: 委任者は、契約の定めに従い、委任を撤回できる。  "
+      },
+      {
+        "line": 262,
+        "text": "【反意語】"
+      },
+      {
+        "line": 264,
+        "text": "・agent  "
+      },
+      {
+        "line": 265,
+        "text": "定義: 他者から権限を与えられ、その者のために行動する人または法人。  "
+      },
+      {
+        "line": 266,
+        "text": "頻度: 〈8/10〉  "
+      },
+      {
+        "line": 267,
+        "text": "違い: 同じ代理関係の役割軸で、`principal` が権限を与える側、`agent` が与えられた権限で行動する側である。  "
+      },
+      {
+        "line": 268,
+        "text": "例: The agent negotiated the sale for the owner.  "
+      },
+      {
+        "line": 269,
+        "text": "訳: 代理人は所有者のために売却交渉を行った。  "
+      },
+      {
+        "line": 271,
+        "text": "6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者"
+      },
+      {
+        "line": 290,
+        "text": "【類義語】"
+      },
+      {
+        "line": 292,
+        "text": "・perpetrator  "
+      },
+      {
+        "line": 293,
+        "text": "定義: 犯罪・不正行為を実際に行った者。  "
+      },
+      {
+        "line": 294,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 295,
+        "text": "違い: `perpetrator` は実行者に焦点を置く一般的な法律・報道語。`principal` は適用される法的分類によって、実行者以外の一定の関与者を含む場合がある。  "
+      },
+      {
+        "line": 296,
+        "text": "例: Police are still trying to identify the perpetrator.  "
+      },
+      {
+        "line": 297,
+        "text": "訳: 警察は今も犯人の特定を進めている。  "
+      },
+      {
+        "line": 299,
+        "text": "7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者"
+      },
+      {
+        "line": 323,
+        "text": "【類義語】"
+      },
+      {
+        "line": 325,
+        "text": "・obligor  "
+      },
+      {
+        "line": 326,
+        "text": "定義: 契約や法律上の義務を負う者。  "
+      },
+      {
+        "line": 327,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 328,
+        "text": "違い: `obligor` は義務を負う者を広く表す。`principal` は保証人などと対比して、その義務について第一次的に責任を負う側を示す。  "
+      },
+      {
+        "line": 329,
+        "text": "例: The obligor must perform the duty by the stated date.  "
+      },
+      {
+        "line": 330,
+        "text": "訳: 義務者は定められた日までに義務を履行しなければならない。  "
+      },
+      {
+        "line": 332,
+        "text": "・debtor  "
+      },
+      {
+        "line": 333,
+        "text": "定義: 金銭その他の債務を負う者。  "
+      },
+      {
+        "line": 334,
+        "text": "頻度: 〈6/10〉  "
+      },
+      {
+        "line": 335,
+        "text": "違い: `debtor` は債務者一般を指す。`principal` は保証関係で第一次的責任を負う当事者という役割を強調する。  "
+      },
+      {
+        "line": 336,
+        "text": "例: The debtor made the payment on time.  "
+      },
+      {
+        "line": 337,
+        "text": "訳: 債務者は期限どおりに支払った。  "
+      },
+      {
+        "line": 339,
+        "text": "【反意語】"
+      },
+      {
+        "line": 341,
+        "text": "・surety  "
+      },
+      {
+        "line": 342,
+        "text": "定義: 主たる債務者が履行しない場合に責任を負う保証人。  "
+      },
+      {
+        "line": 343,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 344,
+        "text": "違い: 責任順位の軸で、`principal` が第一次的に責任を負うのに対し、`surety` は他人の義務を担保する側に立つ。  "
+      },
+      {
+        "line": 345,
+        "text": "例: The surety paid after the borrower defaulted.  "
+      },
+      {
+        "line": 346,
+        "text": "訳: 借り手が債務不履行となった後、保証人が支払った。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "evidence_context": {
+    "schema_version": "evidence_context_v1",
+    "input_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+    "source_inventory_schema_version": "source_inventory_v2",
+    "source_inventory_sha256": "776ea1b6ddf2815bce9c118149353f01e6d72ce0c65c78bec76e1f673ab47690",
+    "source_first_artifact_sha256": "c139d76a10fe8ab9f7b9260af92633cbb87b421f5298d05c5786109fadd5d9e6",
+    "relevant_sections": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "locator": "https://www.merriam-webster.com/dictionary/principal",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "As an adjective, principal means most important, consequential, or influential.",
+            "source_detail": "Adjective sense 1 and examples principal ingredient and principal city."
+          },
+          {
+            "id": "F-002",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "As a noun, principal can be a person with controlling authority or a leading position.",
+            "source_detail": "Noun sense 1 introduces the authority and leading-position group."
+          },
+          {
+            "id": "F-003",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "Principal can denote the chief executive of an educational institution.",
+            "source_detail": "Noun sense 1b directly defines the education-head use."
+          },
+          {
+            "id": "F-004",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In agency, a principal engages another to act as an agent and is the source of the agent's authority.",
+            "source_detail": "Noun sense 1c states both engagement and derivation of authority."
+          },
+          {
+            "id": "F-005",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In criminal-law usage, principal can denote a chief or actual participant in a crime.",
+            "source_detail": "Noun sense 1d and the legal definition distinguish principal participation from accessory status."
+          },
+          {
+            "id": "F-006",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal can denote the person primarily or ultimately liable on a legal obligation.",
+            "source_detail": "Noun sense 1e and legal sense 1c contrast primary and secondary liability."
+          },
+          {
+            "id": "F-007",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "Principal can denote a leading performer or star.",
+            "source_detail": "Noun sense 1f directly records the performer use."
+          },
+          {
+            "id": "F-008",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Financial principal is a capital sum earning interest, due as debt, or used as a fund.",
+            "source_detail": "Noun sense 2a and the legal definition distinguish principal from interest."
+          },
+          {
+            "id": "F-009",
+            "form": "principal",
+            "kind": "pronunciation",
+            "statement": "Principal is pronounced /ˈprɪnsəpəl/, with optional phonetic variants represented in the dictionary respelling.",
+            "source_detail": "The adjective and noun share the same pronunciation entry."
+          },
+          {
+            "id": "F-010",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "Principal entered Middle English through Anglo-French from Latin principalis and princeps.",
+            "source_detail": "Merriam-Webster word history gives the Anglo-French and Latin lineage."
+          },
+          {
+            "id": "F-011",
+            "form": "principalship",
+            "kind": "derived_form",
+            "statement": "Principalship is listed as a noun derivative of principal.",
+            "source_detail": "Merriam-Webster lists principalship as a derived noun."
+          },
+          {
+            "id": "F-012",
+            "form": "principally",
+            "kind": "derived_form",
+            "statement": "Principally is the adverb formed from principal.",
+            "source_detail": "Merriam-Webster lists principally directly after the adjective."
+          },
+          {
+            "id": "F-032",
+            "form": "principle",
+            "kind": "usage_distinction",
+            "statement": "Principle is a noun for a fundamental rule or law, whereas principal is also an adjective for most important.",
+            "source_detail": "The usage note explicitly warns against confusing principal with principle."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "locator": "https://dictionary.cambridge.org/dictionary/english/principal",
+        "source_type": "learner_dictionary",
+        "independence_group": "cambridge_university_press",
+        "facts": [
+          {
+            "id": "F-013",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "The adjective principal means first in order of importance.",
+            "source_detail": "Cambridge learner definition and examples cover principal aim and principal reason."
+          },
+          {
+            "id": "F-014",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "The noun principal denotes a person in charge of a school.",
+            "source_detail": "Cambridge's school-person noun sense directly records the title."
+          },
+          {
+            "id": "F-015",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In finance, principal is an amount lent, borrowed, or invested apart from additional money such as interest.",
+            "source_detail": "Cambridge's finance noun sense separates the underlying amount from additions."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/principal",
+        "source_type": "general_dictionary",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F-016",
+            "form": "principal",
+            "kind": "lexical_sense",
+            "statement": "The adjective principal marks the highest or among the highest in rank, authority, importance, or degree.",
+            "source_detail": "The American English adjective definition gives the rank-and-importance range."
+          },
+          {
+            "id": "F-017",
+            "form": "principal",
+            "kind": "register_region",
+            "statement": "Principal denotes the head of a school and, especially in England, may denote the head of a college.",
+            "source_detail": "Collins distinguishes the school title and the English college use."
+          },
+          {
+            "id": "F-018",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In performing arts and orchestras, principal can denote a leading performer or the first player of a section.",
+            "source_detail": "Collins lists leading actor, principal dancer, and orchestral first-player uses."
+          },
+          {
+            "id": "F-019",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In finance, principal is a capital sum distinguished from interest or profit and can include bond face value.",
+            "source_detail": "The finance senses distinguish debt or investment amount from interest and income."
+          },
+          {
+            "id": "F-020",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In law, principal can be the person who employs or authorizes an agent.",
+            "source_detail": "The law sense directly gives the principal-agent role."
+          },
+          {
+            "id": "F-021",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In law, principal can be a person directly responsible for a crime, including specified participation under the applicable classification.",
+            "source_detail": "The criminal-law sense compares principal with accessory."
+          },
+          {
+            "id": "F-022",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal can be the person primarily liable for an obligation.",
+            "source_detail": "The liability sense contrasts the principal with an endorser or similar secondary party."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "locator": "https://www.law.cornell.edu/wex/principal",
+        "source_type": "legal_reference",
+        "independence_group": "cornell_lii",
+        "facts": [
+          {
+            "id": "F-023",
+            "form": "principal-agent relationship",
+            "kind": "specialist_use",
+            "statement": "An agency-law principal is a person or entity authorizing an agent to act on its behalf and subject to its control.",
+            "source_detail": "Wex states the authority, behalf, and control elements and notes duties owed by the agent."
+          },
+          {
+            "id": "F-024",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Financial principal is the original debt or investment amount excluding interest, profit, or other earnings.",
+            "source_detail": "Wex separates the underlying amount from additions and explains that repayment reduces the obligation."
+          },
+          {
+            "id": "F-025",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "In trust law, principal is the trust corpus or property itself, distinct from its income or earnings.",
+            "source_detail": "Wex directly defines the trust-law corpus contrast."
+          },
+          {
+            "id": "F-026",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal can denote the party bearing primary responsibility for an obligation, as distinct from a surety or guarantor with secondary liability.",
+            "source_detail": "Wex directly states the primary-versus-secondary liability contrast."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "locator": "https://www.investor.gov/introduction-investing/investing-basics/glossary/principal",
+        "source_type": "government_finance_glossary",
+        "independence_group": "us_sec_investor_gov",
+        "facts": [
+          {
+            "id": "F-027",
+            "form": "principal",
+            "kind": "specialist_use",
+            "statement": "Principal is the total amount borrowed or lent, or the initial amount invested.",
+            "source_detail": "Investor.gov gives this concise finance glossary definition."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "locator": "https://www.etymonline.com/word/principal",
+        "source_type": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-028",
+            "form": "principal",
+            "kind": "etymology",
+            "statement": "The adjective is attested around 1300 from Old French principal and Latin principalis, ultimately connected with princeps, primus, and capere.",
+            "source_detail": "Etymonline records the main/chief adjective and analyzes princeps as first plus take."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-013",
+          "F-016"
+        ],
+        "canonical_statement": "The adjective principal marks something first or especially high in importance, rank, or influence.",
+        "disposition": "included",
+        "rationale": "High-frequency adjective sense supported by three independent dictionaries."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-014",
+          "F-017"
+        ],
+        "canonical_statement": "Principal denotes a person in authority and conventionally the head of specified educational institutions, with regional title differences.",
+        "disposition": "included",
+        "rationale": "Major person noun and education title supported by current dictionary facts."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-007",
+          "F-018"
+        ],
+        "canonical_statement": "Principal can denote a leading performer, including a principal artist or orchestral section leader.",
+        "disposition": "included",
+        "rationale": "Established performing-arts noun use."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-008",
+          "F-015",
+          "F-019",
+          "F-024",
+          "F-027"
+        ],
+        "canonical_statement": "Financial principal is the underlying debt, loan, or investment amount distinguished from interest, profit, or later earnings.",
+        "disposition": "included",
+        "rationale": "Major specialist sense corroborated by current general and government-specialist sources."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-025"
+        ],
+        "canonical_statement": "Trust principal is the property or corpus distinguished from income earned by it.",
+        "disposition": "integrated",
+        "rationale": "Direct specialist extension of the finance/property sense."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-004",
+          "F-020",
+          "F-023"
+        ],
+        "canonical_statement": "An agency principal authorizes an agent to act on the principal's behalf and is the source of the agent's authority; the US-law account in Wex also specifies the principal's control.",
+        "disposition": "included",
+        "rationale": "Important legal and economics role supported by two dictionaries, with the control element qualified to the Wex account."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-005",
+          "F-021"
+        ],
+        "canonical_statement": "Criminal-law principal denotes a person treated as a primary participant under the applicable legal classification.",
+        "disposition": "included",
+        "rationale": "Low-frequency but encounterable specialist legal use; scope is explicitly jurisdiction-sensitive."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-006",
+          "F-022",
+          "F-026"
+        ],
+        "canonical_statement": "In obligation law, principal denotes the primarily liable party, contrasted with a secondarily liable surety or guarantor.",
+        "disposition": "included",
+        "rationale": "Directly supported specialist responsibility contrast."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-009"
+        ],
+        "canonical_statement": "The adjective and noun principal share the pronunciation /ˈprɪnsəpəl/.",
+        "disposition": "included",
+        "rationale": "Pronunciation support for the entry."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-010",
+          "F-028"
+        ],
+        "canonical_statement": "Principal came through French from Latin principalis and princeps, with a semantic core of first or chief.",
+        "disposition": "included",
+        "rationale": "Etymology is supported by two references."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-011"
+        ],
+        "canonical_statement": "Principalship is listed as a noun derivative of principal.",
+        "disposition": "included",
+        "rationale": "Recorded noun derivative."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-012"
+        ],
+        "canonical_statement": "Principally is the adverb formed from principal.",
+        "disposition": "included",
+        "rationale": "Recorded adverb derivative."
+      },
+      {
+        "id": "U-013",
+        "source_fact_ids": [
+          "F-032"
+        ],
+        "canonical_statement": "Principal and principle differ in spelling, parts of speech, and current meanings.",
+        "disposition": "included",
+        "rationale": "Major learner confusion directly addressed by dictionary usage guidance."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "principal",
+        "claim_type": "lexical_sense",
+        "statement": "The adjective means principal, main, or first in relative importance.",
+        "article_target_ids": [
+          "definition:001",
+          "grammar_pattern:001",
+          "collocation:principal-dancer",
+          "example:principal-dancer"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Merriam-Webster directly defines the adjective."
+          },
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Cambridge independently supplies the importance definition."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins adds rank, authority, and degree."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "principal",
+        "claim_type": "lexical_sense",
+        "statement": "Principal is a person in authority and conventionally a school or education head, with the institution and preferred title varying by region.",
+        "article_target_ids": [
+          "definition:002",
+          "grammar_pattern:002",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Merriam-Webster directly supports the person-with-controlling-authority wording used by the general person frame."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Merriam-Webster directly gives the educational executive sense."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Cambridge directly supports describing a principal as the person in charge of a school."
+          },
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Collins supplies the English college qualification."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "principal",
+        "claim_type": "lexical_sense",
+        "statement": "Principal can denote an established leading performer or orchestral section-player role rather than an important person generally.",
+        "article_target_ids": [
+          "definition:003",
+          "grammar_pattern:003",
+          "usage_note:003",
+          "collocation:performing-arts-principal",
+          "example:performing-arts-principal",
+          "collocation:orchestra-principal",
+          "example:orchestra-principal"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster's noun sense directly supports using principal as the head of a copular noun phrase for a leading performer."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "Collins directly records the leading-performer and orchestral first-player uses, supporting the displayed noun-headed performing-arts realization and orchestral role frame."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "principal",
+        "claim_type": "specialist_use",
+        "statement": "Financial principal is the original or underlying borrowed, lent, or invested capital amount, distinct from interest and returns; principal repayment reduces the obligation.",
+        "article_target_ids": [
+          "definition:004",
+          "grammar_pattern:004",
+          "usage_note:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-008",
+            "support_summary": "Merriam-Webster defines the capital-sum sense and distinguishes principal from interest."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Cambridge directly supports principal as an amount lent, borrowed, or invested apart from interest."
+          },
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Collins independently distinguishes capital sum and bond face value from interest or profit."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Wex states the original-amount contrast and explains that repayment reduces the principal obligation."
+          },
+          {
+            "source_fact_id": "F-027",
+            "support_summary": "Investor.gov directly supports the initial-amount-invested frame."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "principal",
+        "claim_type": "specialist_use",
+        "statement": "Trust principal is property or corpus distinct from the income it produces.",
+        "article_target_ids": [
+          "definition:004",
+          "grammar_pattern:004",
+          "usage_note:004"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-025",
+            "support_summary": "Wex directly supports trust principal as property or corpus distinct from income."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "principal-agent relationship",
+        "claim_type": "specialist_use",
+        "statement": "An agency principal gives authority to an agent acting on its behalf and is the source of that authority; Wex's US-law account additionally states that the agent is subject to the principal's control.",
+        "article_target_ids": [
+          "definition:005",
+          "grammar_pattern:005",
+          "usage_note:005",
+          "word_formation:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Merriam-Webster identifies the source-of-authority role."
+          },
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Collins independently gives the agent-employing principal."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Wex gives authority, behalf, and control elements."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-007"
+        ],
+        "subject_form": "principal",
+        "claim_type": "specialist_use",
+        "statement": "Criminal-law principal denotes a participant treated as a principal under the applicable legal classification and contrasted with an accessory.",
+        "article_target_ids": [
+          "definition:006",
+          "grammar_pattern:006",
+          "usage_note:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Merriam-Webster supplies the criminal-participant sense."
+          },
+          {
+            "source_fact_id": "F-021",
+            "support_summary": "Collins directly supports the displayed directly-responsible-for-a-crime frame and the classification context."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-008"
+        ],
+        "subject_form": "principal obligor",
+        "claim_type": "specialist_use",
+        "statement": "An obligation-law principal is primarily liable, in contrast with a surety or guarantor with secondary liability.",
+        "article_target_ids": [
+          "definition:007",
+          "grammar_pattern:007",
+          "usage_note:007"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Merriam-Webster directly supports describing the principal as primarily liable for an obligation."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Collins independently gives the obligation sense."
+          },
+          {
+            "source_fact_id": "F-026",
+            "support_summary": "Wex directly supports the displayed distinction between a primarily responsible principal and a surety or guarantor with secondary liability."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "principal",
+        "claim_type": "pronunciation",
+        "statement": "Principal is pronounced /ˈprɪnsəpəl/ as both adjective and noun.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster supplies the shared pronunciation."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "principal",
+        "claim_type": "etymology",
+        "statement": "Principal derives through French from Latin principalis and princeps and retains a first-or-chief semantic connection.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-010",
+            "support_summary": "Merriam-Webster supplies the transmission path."
+          },
+          {
+            "source_fact_id": "F-028",
+            "support_summary": "Etymonline supplies the semantic and morphological analysis."
+          }
+        ]
+      },
+      {
+        "id": "C-011",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "principalship",
+        "claim_type": "derived_form",
+        "statement": "Principalship is listed as a noun derivative of principal.",
+        "article_target_ids": [
+          "word_formation:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster records principalship as the noun derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-012",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "principally",
+        "claim_type": "derived_form",
+        "statement": "Principally is the adverb formed from principal.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Merriam-Webster records the adverb derivative."
+          }
+        ]
+      },
+      {
+        "id": "C-013",
+        "union_ids": [
+          "U-013"
+        ],
+        "subject_form": "principle",
+        "claim_type": "usage_distinction",
+        "statement": "Principle is a noun for a rule or fundamental truth, whereas principal is an adjective for the most important item.",
+        "article_target_ids": [
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-032",
+            "support_summary": "Merriam-Webster directly explains this spelling, meaning, and part-of-speech contrast."
+          }
+        ]
+      }
+    ]
+  },
+  "specification_sha256": "dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d",
+  "source_artifact_sha256": "c139d76a10fe8ab9f7b9260af92633cbb87b421f5298d05c5786109fadd5d9e6",
+  "normalized_input_sha256": "cb2815c6577bd7e932f8e7750254931ddd06fed16a16911ba2be59e4cf2c15bc"
+}

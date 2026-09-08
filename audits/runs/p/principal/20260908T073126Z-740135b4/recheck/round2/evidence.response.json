@@ -1,0 +1,26 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5.6-sol",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_cycle3_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 72,
+        "line_end": 75,
+        "exact_quote": "・`a principal dancer`"
+      },
+      "severity": "blocking",
+      "rationale": "The new adjective-sense target collocation:principal-dancer/example:principal-dancer is linked through C-001 only to F-001, F-013, and F-016 at Merriam-Webster, Cambridge, and Collins. Those recorded facts support the general adjective meaning and cite ingredient/city or aim/reason examples, but none directly attests the performing-arts collocation a principal dancer or its sense-specific application. F-018 does record principal dancer in its source detail, but it is linked only through C-003 to the separate noun-performing-arts and orchestral targets. The fixed evidence therefore contains the needed fact but does not link it to this adjective target.",
+      "evidence_link_ids": [
+        "C-001"
+      ],
+      "suggested_direction": "Bind F-018 directly to the adjective principal-dancer target (with its part-of-speech scope made explicit), or remove/hold this collocation and example from sense 1."
+    }
+  ]
+}
