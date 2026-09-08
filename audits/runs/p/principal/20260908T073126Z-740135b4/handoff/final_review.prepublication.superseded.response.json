@@ -1,0 +1,1492 @@
+{
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "最新版本文を独立に照合し、90 target・59 relation・15 blind candidate（27 semantic assertions）・6 normal finding・14 source-union item・7 checker pass・5 chronology checkをすべてpassと判定した。",
+    "未解決finding、hold、insufficient_evidence、無効pass、判断衝突、未確認の本文変更は0件であり、最終合否を妨げる内容上または工程上のblockerはない。",
+    "source-first監査の最終試行カウンターは final_attempts_used=1 / max_final_attempts=2 として記録され、最終判断の予算条件を満たす。"
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "pronunciation:001 の原文全文「発音: /ˈprɪnsəpəl/。形容詞と名詞で同じ発音を用いる。」を最新版本文で照合した。発音表記・品詞間の同一性はU-009/F-009と一致し、誤学習を生む差異はない。",
+      "target_id": "pronunciation:001"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "etymology:001 の原文全文「中英語・古フランス語を経て、ラテン語 *principalis*「第一の、主要な」にさかのぼる。その基になった *princeps* は、*primus*「第一の」と *capere*「取る」に関係し、「第一の位置を占める者」という発想を持つ。語源には「第一の、主要な」という意味的なつながりがある。」を最新版本文で照合した。伝播経路・ラテン語形・first/chiefの意味連関はU-010の二資料に整合する。",
+      "target_id": "etymology:001"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "word_formation:001 の原文全文「・principally：`principal` の副詞形。」を最新版本文で照合した。派生・複合関係は該当source-unionと対応し、基語との方向を取り違えていない。",
+      "target_id": "word_formation:001"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "word_formation:002 の原文全文「・principalship：`principal` の名詞派生形。」を最新版本文で照合した。派生・複合関係は該当source-unionと対応し、基語との方向を取り違えていない。",
+      "target_id": "word_formation:002"
+    },
+    {
+      "id": "word_formation:003",
+      "status": "pass",
+      "notes": "word_formation:003 の原文全文「・principal-agent relationship：法律上の本人・代理人関係を表す複合表現。」を最新版本文で照合した。派生・複合関係は該当source-unionと対応し、基語との方向を取り違えていない。",
+      "target_id": "word_formation:003"
+    },
+    {
+      "id": "core_image:001",
+      "status": "pass",
+      "notes": "core_image:001 の原文全文「`principal` の中心は、「重要度・権限・責任・金額の土台として第一に位置する」である。形容詞では主要なものを選び出し、名詞では権限・主導的地位を持つ人や教育機関の長、舞台芸術の主要演者やオーケストラの首席奏者、利息・収益に対する元の金額や信託収益に対する財産本体、法的関係の主要当事者を指す。」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:001"
+    },
+    {
+      "id": "core_image:002",
+      "status": "pass",
+      "notes": "core_image:002 の原文全文「・重要度で第一に位置するもの → 「主要な、最も重要な」（語義1）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:002"
+    },
+    {
+      "id": "core_image:003",
+      "status": "pass",
+      "notes": "core_image:003 の原文全文「・組織で権限・主導的地位を持つ人、特に教育機関の長 → 「上級責任者、校長、学長」（語義2）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:003"
+    },
+    {
+      "id": "core_image:004",
+      "status": "pass",
+      "notes": "core_image:004 の原文全文「・舞台芸術の主要演者、またはオーケストラで一つのセクションを率いる奏者 → 「主要演者、首席奏者」（語義3）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:004"
+    },
+    {
+      "id": "core_image:005",
+      "status": "pass",
+      "notes": "core_image:005 の原文全文「・利息・収益に対する基礎額、または信託収益に対する財産本体 → 「元金、元本、信託元本」（語義4）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:005"
+    },
+    {
+      "id": "core_image:006",
+      "status": "pass",
+      "notes": "core_image:006 の原文全文「・代理関係で権限の源として第一に位置する当事者 → 「本人、依頼者」（語義5）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:006"
+    },
+    {
+      "id": "core_image:007",
+      "status": "pass",
+      "notes": "core_image:007 の原文全文「・適用法上 `principal` と分類される犯罪関与者 → 「犯罪関与者」（語義6）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:007"
+    },
+    {
+      "id": "core_image:008",
+      "status": "pass",
+      "notes": "core_image:008 の原文全文「・債務・保証関係で第一次的責任を負う者 → 「主たる債務者・義務者」（語義7）」を最新版本文で照合した。総括は語義目録の重要度・権限・役割・基礎額という共通性を保ちつつ各専門義を区別する。",
+      "target_id": "core_image:008"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "sense_boundary:001 の原文全文「1. 【形容詞】主要な、最も重要な、第一の」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:001"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "definition:001 の原文全文「複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:001"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "frequency:001 の原文全文「〈9/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:001"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "register:001 の原文全文「標準～やや形式的。報道、ビジネス、学術、行政で広く使う。日常会話では `main` がより普通なことが多い。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:001"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "grammar_pattern:001 の原文全文「限定用法で `principal + 〈名詞〉` の形を取り、「主要な～」を表す。」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:001"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "collocation:001 の原文全文「・`the principal reason for ...`\n用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。\n例: The principal reason for the delay was a shortage of parts.\n訳: 遅延の主な理由は部品不足だった。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:001"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "collocation:002 の原文全文「・`the principal cause of ...`\n用途: 出来事を引き起こした最も重要な原因を示す。\n例: Investigators identified corrosion as the principal cause of the failure.\n訳: 調査担当者は、腐食をその故障の主因と特定した。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:002"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "collocation:003 の原文全文「・`a principal source of ...`\n用途: 物・情報・収入などの主要な供給源を示す。\n例: Tourism is a principal source of income for the island.\n訳: 観光はその島の主要な収入源の一つである。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:003"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "collocation:004 の原文全文「・`one of the principal 〈複数名詞〉`\n用途: 最重要候補が複数ある中の一つであることを示す。\n例: She is one of the principal architects of the reform.\n訳: 彼女はその改革の主要な立案者の一人である。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:004"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "collocation:005 の原文全文「・`a principal dancer`\n用途: `principal` を限定用法の形容詞として用い、舞台芸術で主要な役を担うダンサーを表す。\n例: She is a principal dancer.\n訳: 彼女は主要な役を担うダンサーである。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:005"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "usage_note:001 の原文全文「`principal` と `principle` は綴りも意味も異なる。`principle` は「基本的な規則・法則」を表す名詞で、`principal` は「最も重要な」を表す形容詞にもなるため、両者を混同しない。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:001"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "synonym:001 の原文全文「・main\n定義: 複数のものの中で中心的・最重要である。\n頻度: 〈10/10〉\n違い: `main` は日常語で範囲が広い。`principal` はより形式的で、順位・重要性・影響力が高いことを意識させる。\n例: Our main goal is to reduce waiting times.\n訳: 私たちの主な目標は待ち時間を減らすことだ。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:001"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "synonym:002 の原文全文「・primary\n定義: 第一順位・第一段階である、または最も基本的である。\n頻度: 〈9/10〉\n違い: `primary` は重要性に加え、順序・段階・基本性にも焦点を置ける。`principal` は主として相対的な重要度や地位を表す。\n例: Safety is our primary concern.\n訳: 安全が私たちの最優先事項である。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:002"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "synonym:003 の原文全文「・chief\n定義: 同種の中で最上位・最重要である。\n頻度: 〈8/10〉\n違い: `chief` は役職名や「最大の原因・懸念」によく使われ、最上位性を強く示す。`principal` は文章語として原因・目的・人物・場所などに幅広く使う。\n例: Cost remains the chief obstacle to expansion.\n訳: 費用が依然として拡大の最大の障害である。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:003"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "synonym:004 の原文全文「・leading\n定義: ある分野で先頭に立ち、大きな影響力や高い評価を持つ。\n頻度: 〈9/10〉\n違い: `leading` は人・企業・研究機関などの実績や影響力を強調しやすい。`principal` は実績評価を必須とせず、対象内での中心性を示す。\n例: She is a leading expert on marine ecosystems.\n訳: 彼女は海洋生態系の第一人者である。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:004"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "antonym:001 の原文全文「・secondary\n定義: 第一ではなく、重要度・順位が二次的である。\n頻度: 〈8/10〉\n違い: 重要度・順位の軸で `principal` と方向が反対になり、主要なものに対する従属的・補助的なものを表す。\n例: Price was only a secondary consideration.\n訳: 価格は二次的な考慮事項にすぎなかった。」を最新版本文で照合した。対立語は明示された軸上の方向または補完関係を保ち、例文・訳もその対立を損なわない。",
+      "target_id": "antonym:001"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "antonym:002 の原文全文「・minor\n定義: 重要性・規模・影響が比較的小さい。\n頻度: 〈9/10〉\n違い: `principal` との程度軸上の対立で、最重要・主要ではない小さな要素を表す。\n例: The report contains a few minor errors.\n訳: その報告書には小さな誤りがいくつかある。」を最新版本文で照合した。対立語は明示された軸上の方向または補完関係を保ち、例文・訳もその対立を損なわない。",
+      "target_id": "antonym:002"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "sense_boundary:002 の原文全文「2. 【名詞・可算】権限・主導的地位を持つ人；特に校長、学長」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:002"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "definition:002 の原文全文「組織で支配的権限または主導的地位を持つ人。特に、学校、カレッジ、その他の教育機関を管理する最高責任者を指す。教育上どの種類の機関を指すかは地域と制度によって異なる。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:002"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "frequency:002 の原文全文「〈8/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:002"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "register:002 の原文全文「標準～やや形式的。企業・専門組織では権限または主導的地位を持つ人を表す。教育分野では学校・教育機関の長を表し、イングランドではカレッジの長を指す場合がある。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:002"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "grammar_pattern:002 の原文全文「一般の権限者は `a principal with controlling authority`。教育機関の長は `the principal + be + in charge of 〈学校〉`。」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:002"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "collocation:006 の原文全文「・`a principal with controlling authority`\n用途: 支配的権限を持つ人という一般の人物用法を表す。\n例: A principal with controlling authority approved the proposal.\n訳: 支配的権限を持つ責任者がその提案を承認した。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:006"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "collocation:007 の原文全文「・`the principal + be + in charge of 〈学校〉`\n用途: 教育機関を管理する長であることを表す。\n例: The principal is in charge of the school.\n訳: その校長が学校の管理を担っている。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:007"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "usage_note:002 の原文全文「一般の「重要人物」を自由に指す語ではなく、権限や主導的地位が文脈上確立した人に用いる。教育上の役職名は地域や制度によって異なるため、日本語の「校長」を機械的にすべて `principal` としない。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:002"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "synonym:005 の原文全文「・head\n定義: 学校・組織などの長。\n頻度: 〈9/10〉\n違い: `head` は組織の長を広く表す。`principal` は権限・主導的地位を持つ人を表し、特に教育機関で役職名として用いられる。\n例: She is the head of a large secondary school.\n訳: 彼女は大規模な中等学校の校長である。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:005"
+    },
+    {
+      "id": "sense_boundary:003",
+      "status": "pass",
+      "notes": "sense_boundary:003 の原文全文「3. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:003"
+    },
+    {
+      "id": "definition:003",
+      "status": "pass",
+      "notes": "definition:003 の原文全文「舞台芸術で主要な役を担う演者、またはオーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、芸術分野で確立した役割名を指す。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:003"
+    },
+    {
+      "id": "frequency:003",
+      "status": "pass",
+      "notes": "frequency:003 の原文全文「〈3/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:003"
+    },
+    {
+      "id": "register:003",
+      "status": "pass",
+      "notes": "register:003 の原文全文「舞台芸術・オーケストラ・音楽の専門語。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:003"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "grammar_pattern:003 の原文全文「舞台芸術の主要演者を名詞で表す場合は `〈演者〉 + be + a principal`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:003"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "collocation:008 の原文全文「・`be a principal`\n用途: 舞台芸術の文脈で、主要な役を担う演者を名詞 `principal` で表す。\n例: In this ballet company, she is a principal.\n訳: このバレエ団で、彼女は主要な役を担う演者である。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:008"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "collocation:009 の原文全文「・`the principal + be + the first player of 〈オーケストラのセクション〉`\n用途: オーケストラのセクションで首席を務める奏者を表す。\n例: The principal is the first player of the violin section.\n訳: その首席奏者はバイオリン・セクションの第一奏者である。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:009"
+    },
+    {
+      "id": "usage_note:003",
+      "status": "pass",
+      "notes": "usage_note:003 の原文全文「舞台芸術団体やオーケストラ内で確立した役割名として用い、一般の「重要人物」には広げない。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:003"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "synonym:006 の原文全文「・section leader\n定義: オーケストラで一つのセクションを率いる奏者。\n頻度: 〈4/10〉\n違い: 役割を説明する一般的な表現で、`principal` は確立した役職名として用いられる。\n例: The section leader rehearsed the difficult passage.\n訳: セクションの首席奏者は難しい楽節を練習した。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:006"
+    },
+    {
+      "id": "sense_boundary:004",
+      "status": "pass",
+      "notes": "sense_boundary:004 の原文全文「4. 【名詞・金融／信託法】元金、元本、信託財産の元本」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:004"
+    },
+    {
+      "id": "definition:004",
+      "status": "pass",
+      "notes": "definition:004 の原文全文「借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。信託法では、収益と区別される信託財産そのもの、すなわち信託元本・corpusを指す。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:004"
+    },
+    {
+      "id": "frequency:004",
+      "status": "pass",
+      "notes": "frequency:004 の原文全文「〈7/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:004"
+    },
+    {
+      "id": "register:004",
+      "status": "pass",
+      "notes": "register:004 の原文全文「金融、融資、投資、会計、信託法。金融義は日常的なローン説明にも現れ、信託義は専門的である。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:004"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "grammar_pattern:004 の原文全文「金融では `principal + be + the initial amount invested`」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:004"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "grammar_pattern:005 の原文全文「`principal + be + distinct from interest`。信託法では `trust principal + be + distinct from income`。」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:005"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "collocation:010 の原文全文「・`principal + be + the initial amount invested`\n用途: 投資で、収益の基礎となる最初の金額を表す。\n例: The principal is the initial amount invested.\n訳: 元本とは最初に投資された金額である。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:010"
+    },
+    {
+      "id": "collocation:011",
+      "status": "pass",
+      "notes": "collocation:011 の原文全文「・`principal + be + distinct from interest`\n用途: 借入・貸付の元金を利息と区別して表す。\n例: Principal is distinct from interest on the loan.\n訳: 元金はその融資の利息とは別のものである。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:011"
+    },
+    {
+      "id": "collocation:012",
+      "status": "pass",
+      "notes": "collocation:012 の原文全文「・`trust principal + be + distinct from income`\n用途: 信託財産の元本を、そこから生じる収益と区別する。\n例: Trust principal is distinct from income.\n訳: 信託元本は収益とは別のものである。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:012"
+    },
+    {
+      "id": "usage_note:004",
+      "status": "pass",
+      "notes": "usage_note:004 の原文全文「`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる追加額であり、反意語ではなく関連する別の金額構成要素である。信託では `principal` が財産本体、`income` がそこから生じる収益を指す。`repay the principal` では `principal` 自体が目的語の名詞になる。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:004"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "synonym:007 の原文全文「・capital\n定義: 投資・事業に用いられる資金または資産。\n頻度: 〈9/10〉\n違い: `capital` は事業資金・生産資産まで広く表す。`principal` は特定の貸付・借入・投資で利息や収益の基礎となる元の額を指す。\n例: The company raised additional capital from investors.\n訳: その会社は投資家から追加資金を調達した。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:007"
+    },
+    {
+      "id": "sense_boundary:005",
+      "status": "pass",
+      "notes": "sense_boundary:005 の原文全文「5. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:005"
+    },
+    {
+      "id": "definition:005",
+      "status": "pass",
+      "notes": "definition:005 の原文全文「別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:005"
+    },
+    {
+      "id": "frequency:005",
+      "status": "pass",
+      "notes": "frequency:005 の原文全文「〈5/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:005"
+    },
+    {
+      "id": "register:005",
+      "status": "pass",
+      "notes": "register:005 の原文全文「法律、保険、不動産、商取引。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:005"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "grammar_pattern:006 の原文全文「`a principal-agent relationship`＝本人・代理人関係」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:006"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "grammar_pattern:007 の原文全文「`act on behalf of the principal`＝本人を代理して行動する」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:007"
+    },
+    {
+      "id": "collocation:013",
+      "status": "pass",
+      "notes": "collocation:013 の原文全文「・`a principal-agent relationship`\n用途: 権限を与える本人と、そのために行動する代理人との関係を表す。\n例: The contract created a principal-agent relationship between the owner and the broker.\n訳: その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:013"
+    },
+    {
+      "id": "collocation:014",
+      "status": "pass",
+      "notes": "collocation:014 の原文全文「・`act on behalf of the principal`\n用途: 代理人が本人を代理して行動することを表す。\n例: The agent may sign the document on behalf of the principal.\n訳: 代理人は本人を代理してその書類に署名できる。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:014"
+    },
+    {
+      "id": "usage_note:005",
+      "status": "pass",
+      "notes": "usage_note:005 の原文全文「法律用語の `principal` は、`agent` に権限を与える側を表す関係上の役割名である。`principal` が権限の源となり、`agent` は本人のためにその権限の範囲で行動する。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:005"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "synonym:008 の原文全文「・mandator\n定義: 他人に委任・代理の権限を与える者。\n頻度: 〈2/10〉\n違い: 特定の法体系や専門文脈で使われる低頻度語である。\n例: The mandator may revoke the mandate subject to the agreement.\n訳: 委任者は、契約の定めに従い、委任を撤回できる。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:008"
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "antonym:003 の原文全文「・agent\n定義: 他者から権限を与えられ、その者のために行動する人または法人。\n頻度: 〈8/10〉\n違い: 同じ代理関係の役割軸で、`principal` が権限を与える側、`agent` が与えられた権限で行動する側である。\n例: The agent negotiated the sale for the owner.\n訳: 代理人は所有者のために売却交渉を行った。」を最新版本文で照合した。対立語は明示された軸上の方向または補完関係を保ち、例文・訳もその対立を損なわない。",
+      "target_id": "antonym:003"
+    },
+    {
+      "id": "sense_boundary:006",
+      "status": "pass",
+      "notes": "sense_boundary:006 の原文全文「6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:006"
+    },
+    {
+      "id": "definition:006",
+      "status": "pass",
+      "notes": "definition:006 の原文全文「刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:006"
+    },
+    {
+      "id": "frequency:006",
+      "status": "pass",
+      "notes": "frequency:006 の原文全文「〈2/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:006"
+    },
+    {
+      "id": "register:006",
+      "status": "pass",
+      "notes": "register:006 の原文全文「刑事法の専門語。犯罪に関するこの語義は法域によって分類法が異なる。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:006"
+    },
+    {
+      "id": "grammar_pattern:008",
+      "status": "pass",
+      "notes": "grammar_pattern:008 の原文全文「`the principal + be + directly responsible for 〈犯罪〉`」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:008"
+    },
+    {
+      "id": "collocation:015",
+      "status": "pass",
+      "notes": "collocation:015 の原文全文「・`the principal + be + directly responsible for 〈犯罪〉`\n用途: 適用法上、犯罪について直接責任を負う者を表す。\n例: Under the statute, the principal is directly responsible for the crime.\n訳: その制定法の下で、当該 `principal` はその犯罪について直接責任を負う。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:015"
+    },
+    {
+      "id": "usage_note:006",
+      "status": "pass",
+      "notes": "usage_note:006 の原文全文「刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:006"
+    },
+    {
+      "id": "synonym:009",
+      "status": "pass",
+      "notes": "synonym:009 の原文全文「・perpetrator\n定義: 犯罪・不正行為を実際に行った者。\n頻度: 〈6/10〉\n違い: `perpetrator` は実行者に焦点を置く一般的な法律・報道語。`principal` は適用される法的分類によって、実行者以外の一定の関与者を含む場合がある。\n例: Police are still trying to identify the perpetrator.\n訳: 警察は今も犯人の特定を進めている。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:009"
+    },
+    {
+      "id": "sense_boundary:007",
+      "status": "pass",
+      "notes": "sense_boundary:007 の原文全文「7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者」を最新版本文で照合した。品詞・可算性・領域・訳語の境界は直後の定義と一致し、隣接語義を過剰に包含しない。",
+      "target_id": "sense_boundary:007"
+    },
+    {
+      "id": "definition:007",
+      "status": "pass",
+      "notes": "definition:007 の原文全文「債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。」を最新版本文で照合した。定義は主語・対象・権限・責任・金額の役割を正しく限定し、対応するsource-unionに整合する。",
+      "target_id": "definition:007"
+    },
+    {
+      "id": "frequency:007",
+      "status": "pass",
+      "notes": "frequency:007 の原文全文「〈2/10〉」を最新版本文で照合した。頻度値は一般義と専門義の相対差を適切に示し、専門義の一般性を誇張していない。",
+      "target_id": "frequency:007"
+    },
+    {
+      "id": "register:007",
+      "status": "pass",
+      "notes": "register:007 の原文全文「債務法・保証法の専門語。」を最新版本文で照合した。領域・形式性・地域または制度上の限定が明示され、適用範囲を不当に一般化していない。",
+      "target_id": "register:007"
+    },
+    {
+      "id": "grammar_pattern:009",
+      "status": "pass",
+      "notes": "grammar_pattern:009 の原文全文「`the principal + be + primarily liable for 〈債務・義務〉`」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:009"
+    },
+    {
+      "id": "grammar_pattern:010",
+      "status": "pass",
+      "notes": "grammar_pattern:010 の原文全文「`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`」を最新版本文で照合した。完全フレームは当該語義の品詞と意味役割を実現し、対応例文と一致する。",
+      "target_id": "grammar_pattern:010"
+    },
+    {
+      "id": "collocation:016",
+      "status": "pass",
+      "notes": "collocation:016 の原文全文「・`the principal + be + primarily liable for 〈債務・義務〉`\n用途: 主たる当事者が義務について第一次的責任を負うことを示す。\n例: The principal is primarily liable for the debt.\n訳: 主たる債務者はその債務について第一次的責任を負う。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:016"
+    },
+    {
+      "id": "collocation:017",
+      "status": "pass",
+      "notes": "collocation:017 の原文全文「・`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`\n用途: 第一次的責任者を、二次的責任を負う保証人と区別する。\n例: The principal is distinct from the surety, who has secondary liability.\n訳: 主たる債務者は、二次的責任を負う保証人とは別の当事者である。」を最新版本文で照合した。用途・英文・日本語訳は当該語義の役割、修飾範囲、時制、数量、肯否を保存している。",
+      "target_id": "collocation:017"
+    },
+    {
+      "id": "usage_note:007",
+      "status": "pass",
+      "notes": "usage_note:007 の原文全文「この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。金額を指す語義4の「元金」とは区別する。」を最新版本文で照合した。注意は隣接語義・綴り・役割方向の混同を正しく防ぎ、定義と矛盾しない。",
+      "target_id": "usage_note:007"
+    },
+    {
+      "id": "synonym:010",
+      "status": "pass",
+      "notes": "synonym:010 の原文全文「・obligor\n定義: 契約や法律上の義務を負う者。\n頻度: 〈3/10〉\n違い: `obligor` は義務を負う者を広く表す。`principal` は保証人などと対比して、その義務について第一次的に責任を負う側を示す。\n例: The obligor must perform the duty by the stated date.\n訳: 義務者は定められた日までに義務を履行しなければならない。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:010"
+    },
+    {
+      "id": "synonym:011",
+      "status": "pass",
+      "notes": "synonym:011 の原文全文「・debtor\n定義: 金銭その他の債務を負う者。\n頻度: 〈6/10〉\n違い: `debtor` は債務者一般を指す。`principal` は保証関係で第一次的責任を負う当事者という役割を強調する。\n例: The debtor made the payment on time.\n訳: 債務者は期限どおりに支払った。」を最新版本文で照合した。類義関係は共通範囲と相違点を区別し、例文・訳も比較対象語の意味を保存する。",
+      "target_id": "synonym:011"
+    },
+    {
+      "id": "antonym:004",
+      "status": "pass",
+      "notes": "antonym:004 の原文全文「・surety\n定義: 主たる債務者が履行しない場合に責任を負う保証人。\n頻度: 〈3/10〉\n違い: 責任順位の軸で、`principal` が第一次的に責任を負うのに対し、`surety` は他人の義務を担保する側に立つ。\n例: The surety paid after the borrower defaulted.\n訳: 借り手が債務不履行となった後、保証人が支払った。」を最新版本文で照合した。対立語は明示された軸上の方向または補完関係を保ち、例文・訳もその対立を損なわない。",
+      "target_id": "antonym:004"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "risk_sense_pair:001 の関係記述全文「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:007 explicitly contrasts sense 7 with sense 4」を照合した。語義4は金額・財産、語義7は第一次的責任を負う人・法人であり、usage_note:007の相互参照どおり最小差が保たれる。",
+      "relation_id": "risk_sense_pair:001"
+    },
+    {
+      "id": "risk_sense_pair:002",
+      "status": "pass",
+      "notes": "risk_sense_pair:002 の関係記述全文「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:006 explicitly contrasts sense 6 with sense 7」を照合した。語義6は刑事法上の犯罪関与者、語義7は債務・保証法上の第一次的責任者であり、usage_note:006どおり領域と責任対象が分離される。",
+      "relation_id": "risk_sense_pair:002"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "example_translation:001 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:001「・`the principal reason for ...`\n用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。\n例: The principal reason for the delay was a shortage of parts.\n訳: 遅延の主な理由は部品不足だった。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:001"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "example_translation:002 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:002「・`the principal cause of ...`\n用途: 出来事を引き起こした最も重要な原因を示す。\n例: Investigators identified corrosion as the principal cause of the failure.\n訳: 調査担当者は、腐食をその故障の主因と特定した。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:002"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "example_translation:003 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:003「・`a principal source of ...`\n用途: 物・情報・収入などの主要な供給源を示す。\n例: Tourism is a principal source of income for the island.\n訳: 観光はその島の主要な収入源の一つである。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:003"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "example_translation:004 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:004「・`one of the principal 〈複数名詞〉`\n用途: 最重要候補が複数ある中の一つであることを示す。\n例: She is one of the principal architects of the reform.\n訳: 彼女はその改革の主要な立案者の一人である。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:004"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "example_translation:005 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:005「・`a principal dancer`\n用途: `principal` を限定用法の形容詞として用い、舞台芸術で主要な役を担うダンサーを表す。\n例: She is a principal dancer.\n訳: 彼女は主要な役を担うダンサーである。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:005"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "example_translation:006 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:006「・`a principal with controlling authority`\n用途: 支配的権限を持つ人という一般の人物用法を表す。\n例: A principal with controlling authority approved the proposal.\n訳: 支配的権限を持つ責任者がその提案を承認した。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:006"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "example_translation:007 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:007「・`the principal + be + in charge of 〈学校〉`\n用途: 教育機関を管理する長であることを表す。\n例: The principal is in charge of the school.\n訳: その校長が学校の管理を担っている。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:007"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "example_translation:008 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:008「・`be a principal`\n用途: 舞台芸術の文脈で、主要な役を担う演者を名詞 `principal` で表す。\n例: In this ballet company, she is a principal.\n訳: このバレエ団で、彼女は主要な役を担う演者である。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:008"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "example_translation:009 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:009「・`the principal + be + the first player of 〈オーケストラのセクション〉`\n用途: オーケストラのセクションで首席を務める奏者を表す。\n例: The principal is the first player of the violin section.\n訳: その首席奏者はバイオリン・セクションの第一奏者である。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:009"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "example_translation:010 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:010「・`principal + be + the initial amount invested`\n用途: 投資で、収益の基礎となる最初の金額を表す。\n例: The principal is the initial amount invested.\n訳: 元本とは最初に投資された金額である。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:010"
+    },
+    {
+      "id": "example_translation:011",
+      "status": "pass",
+      "notes": "example_translation:011 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:011「・`principal + be + distinct from interest`\n用途: 借入・貸付の元金を利息と区別して表す。\n例: Principal is distinct from interest on the loan.\n訳: 元金はその融資の利息とは別のものである。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:011"
+    },
+    {
+      "id": "example_translation:012",
+      "status": "pass",
+      "notes": "example_translation:012 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:012「・`trust principal + be + distinct from income`\n用途: 信託財産の元本を、そこから生じる収益と区別する。\n例: Trust principal is distinct from income.\n訳: 信託元本は収益とは別のものである。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:012"
+    },
+    {
+      "id": "example_translation:013",
+      "status": "pass",
+      "notes": "example_translation:013 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:013「・`a principal-agent relationship`\n用途: 権限を与える本人と、そのために行動する代理人との関係を表す。\n例: The contract created a principal-agent relationship between the owner and the broker.\n訳: その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:013"
+    },
+    {
+      "id": "example_translation:014",
+      "status": "pass",
+      "notes": "example_translation:014 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:014「・`act on behalf of the principal`\n用途: 代理人が本人を代理して行動することを表す。\n例: The agent may sign the document on behalf of the principal.\n訳: 代理人は本人を代理してその書類に署名できる。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:014"
+    },
+    {
+      "id": "example_translation:015",
+      "status": "pass",
+      "notes": "example_translation:015 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:015「・`the principal + be + directly responsible for 〈犯罪〉`\n用途: 適用法上、犯罪について直接責任を負う者を表す。\n例: Under the statute, the principal is directly responsible for the crime.\n訳: その制定法の下で、当該 `principal` はその犯罪について直接責任を負う。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:015"
+    },
+    {
+      "id": "example_translation:016",
+      "status": "pass",
+      "notes": "example_translation:016 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:016「・`the principal + be + primarily liable for 〈債務・義務〉`\n用途: 主たる当事者が義務について第一次的責任を負うことを示す。\n例: The principal is primarily liable for the debt.\n訳: 主たる債務者はその債務について第一次的責任を負う。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:016"
+    },
+    {
+      "id": "example_translation:017",
+      "status": "pass",
+      "notes": "example_translation:017 の関係記述全文「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」を照合した。対応する collocation:017「・`the principal + be + distinct from 〈surety/guarantor〉 with secondary liability`\n用途: 第一次的責任者を、二次的責任を負う保証人と区別する。\n例: The principal is distinct from the surety, who has secondary liability.\n訳: 主たる債務者は、二次的責任を負う保証人とは別の当事者である。」で英語例・用途・訳の参与者、修飾範囲、数量、時制が保存されている。",
+      "relation_id": "example_translation:017"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "sense_definition_consistency:001 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:001 と definition:001 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "definition_usage_consistency:001 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:001 と usage_note:001 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:001"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:001 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義1の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "pattern_example_coverage:001 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:001 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:001"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "sense_definition_consistency:002 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:002 と definition:002 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "definition_usage_consistency:002 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:002 と usage_note:002 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:002"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:002 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義2の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:002"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "pattern_example_coverage:002 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:002 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:002"
+    },
+    {
+      "id": "sense_definition_consistency:003",
+      "status": "pass",
+      "notes": "sense_definition_consistency:003 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:003 と definition:003 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:003"
+    },
+    {
+      "id": "definition_usage_consistency:003",
+      "status": "pass",
+      "notes": "definition_usage_consistency:003 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:003 と usage_note:003 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:003"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:003",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:003 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義3の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:003"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "pattern_example_coverage:003 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:003 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:003"
+    },
+    {
+      "id": "sense_definition_consistency:004",
+      "status": "pass",
+      "notes": "sense_definition_consistency:004 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:004 と definition:004 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:004"
+    },
+    {
+      "id": "definition_usage_consistency:004",
+      "status": "pass",
+      "notes": "definition_usage_consistency:004 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:004 と usage_note:004 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:004"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:004",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:004 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義4の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:004"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "pattern_example_coverage:004 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:004 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:004"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "pattern_example_coverage:005 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:005 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:005"
+    },
+    {
+      "id": "sense_definition_consistency:005",
+      "status": "pass",
+      "notes": "sense_definition_consistency:005 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:005 と definition:005 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:005"
+    },
+    {
+      "id": "definition_usage_consistency:005",
+      "status": "pass",
+      "notes": "definition_usage_consistency:005 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:005 と usage_note:005 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:005"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:005",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:005 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義5の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:005"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "pattern_example_coverage:006 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:006 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:006"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "pattern_example_coverage:007 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:007 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:007"
+    },
+    {
+      "id": "sense_definition_consistency:006",
+      "status": "pass",
+      "notes": "sense_definition_consistency:006 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:006 と definition:006 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:006"
+    },
+    {
+      "id": "definition_usage_consistency:006",
+      "status": "pass",
+      "notes": "definition_usage_consistency:006 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:006 と usage_note:006 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:006"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:006",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:006 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義6の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:006"
+    },
+    {
+      "id": "pattern_example_coverage:008",
+      "status": "pass",
+      "notes": "pattern_example_coverage:008 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:008 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:008"
+    },
+    {
+      "id": "sense_definition_consistency:007",
+      "status": "pass",
+      "notes": "sense_definition_consistency:007 の関係記述全文「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」を照合した。sense_boundary:007 と definition:007 は品詞・領域・対象範囲を同じ境界で示す。",
+      "relation_id": "sense_definition_consistency:007"
+    },
+    {
+      "id": "definition_usage_consistency:007",
+      "status": "pass",
+      "notes": "definition_usage_consistency:007 の関係記述全文「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」を照合した。definition:007 と usage_note:007 は同じ役割方向と除外境界を保持する。",
+      "relation_id": "definition_usage_consistency:007"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:007",
+      "status": "pass",
+      "notes": "definition_lexical_relation_consistency:007 の関係記述全文「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」を照合した。語義7の定義と同ブロックの類義語・反意語は上下関係または対立軸を明示し、同一視していない。",
+      "relation_id": "definition_lexical_relation_consistency:007"
+    },
+    {
+      "id": "pattern_example_coverage:009",
+      "status": "pass",
+      "notes": "pattern_example_coverage:009 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:009 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:009"
+    },
+    {
+      "id": "pattern_example_coverage:010",
+      "status": "pass",
+      "notes": "pattern_example_coverage:010 の関係記述全文「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」を照合した。grammar_pattern:010 には同一語義内の対応コロケーションと自然な完全例文があり、必須項を欠かない。",
+      "relation_id": "pattern_example_coverage:010"
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "core_inventory_consistency:001 の関係記述全文「語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。」を照合した。コアイメージは形容詞義、人・芸術役割、金額・信託財産、三つの法的役割を列挙し、七語義全体を落とさず区別する。",
+      "relation_id": "core_inventory_consistency:001"
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "core_sense_mapping:001 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義1マッピングは sense_boundary:001 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:001"
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "core_sense_mapping:002 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義2マッピングは sense_boundary:002 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:002"
+    },
+    {
+      "id": "core_sense_mapping:003",
+      "status": "pass",
+      "notes": "core_sense_mapping:003 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義3マッピングは sense_boundary:003 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:003"
+    },
+    {
+      "id": "core_sense_mapping:004",
+      "status": "pass",
+      "notes": "core_sense_mapping:004 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義4マッピングは sense_boundary:004 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:004"
+    },
+    {
+      "id": "core_sense_mapping:005",
+      "status": "pass",
+      "notes": "core_sense_mapping:005 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義5マッピングは sense_boundary:005 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:005"
+    },
+    {
+      "id": "core_sense_mapping:006",
+      "status": "pass",
+      "notes": "core_sense_mapping:006 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義6マッピングは sense_boundary:006 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:006"
+    },
+    {
+      "id": "core_sense_mapping:007",
+      "status": "pass",
+      "notes": "core_sense_mapping:007 の関係記述全文「コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。」を照合した。core image の語義7マッピングは sense_boundary:007 と一致し、歴史説明を現代義の制約に流用していない。",
+      "relation_id": "core_sense_mapping:007"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "article_learning_risk:001 の関係記述全文「記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。」を照合した。記事全体は principal/principle、形容詞/人物、元金/責任者、principal/agent、principal/surety の混同を明示的に防ぐ。",
+      "relation_id": "article_learning_risk:001"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "FB-C001",
+      "status": "pass",
+      "notes": "FB-C001 の frame「principal + noun」、meaning「複数の候補の中で重要性・中心性・順位が第一級の、主要な」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A001",
+        "FB-A002"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A001",
+          "status": "pass",
+          "notes": "FB-A001「形容詞 principal は原則として同じ集合内での相対的重要性または中心性を表す。」（must_hold、scope: 形容詞の定義、文法パターン、コロケーション、類義語比較）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A001"
+        },
+        {
+          "id": "FB-A002",
+          "status": "pass",
+          "notes": "FB-A002「形容詞 principal を単なる時間順の『最初の』と同一視してはならない。」（must_not_hold、scope: 形容詞の定義と語法）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A002"
+        }
+      ],
+      "candidate_id": "FB-C001",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C002",
+      "status": "pass",
+      "notes": "FB-C002 の frame「a principal with controlling authority」、meaning「組織で支配的権限または主導的地位を持つ人物」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A003",
+        "FB-A004"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A003",
+          "status": "pass",
+          "notes": "FB-A003「人物名詞 principal の一般用法には、その組織内での権限または主導的地位が必要である。」（must_hold、scope: 一般人物用法の定義、用例、注意）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A003"
+        },
+        {
+          "id": "FB-A004",
+          "status": "pass",
+          "notes": "FB-A004「人物名詞 principal を文脈上の地位を問わない一般的な『重要人物』として扱ってはならない。」（must_not_hold、scope: 一般人物用法の包含・除外境界）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A004"
+        }
+      ],
+      "candidate_id": "FB-C002",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C003",
+      "status": "pass",
+      "notes": "FB-C003 の frame「the principal + be + in charge of a school or educational institution」、meaning「学校・カレッジなど教育機関を管理する長」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A005",
+        "FB-A006"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A005",
+          "status": "pass",
+          "notes": "FB-A005「教育用法の principal は教育機関を管理する長という制度上の役職を表す。」（must_hold、scope: 教育用法の定義、レジスター、文法パターン）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A005"
+        },
+        {
+          "id": "FB-A006",
+          "status": "pass",
+          "notes": "FB-A006「あらゆる地域・制度の日本語『校長』を無条件に principal と訳せると一般化してはならない。」（must_not_hold、scope: 教育用法の地域・制度上の限定）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A006"
+        }
+      ],
+      "candidate_id": "FB-C003",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C004",
+      "status": "pass",
+      "notes": "FB-C004 の frame「performer + be + a principal」、meaning「舞台芸術団体で主要な役を担う演者」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A007",
+        "FB-A008"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A007",
+          "status": "pass",
+          "notes": "FB-A007「舞台芸術の名詞 principal は団体内で主要な役を担う演者を指す。」（must_hold、scope: 舞台芸術用法の定義、文法パターン、用例）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A007"
+        },
+        {
+          "id": "FB-A008",
+          "status": "pass",
+          "notes": "FB-A008「舞台芸術の役割名を芸術分野外の重要人物一般へ拡張してはならない。」（must_not_hold、scope: 舞台芸術用法の除外境界）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A008"
+        }
+      ],
+      "candidate_id": "FB-C004",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C005",
+      "status": "pass",
+      "notes": "FB-C005 の frame「the principal + be + the first player of an orchestra section」、meaning「オーケストラの一つのセクションを率いる首席奏者」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A009",
+        "FB-A010"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A009",
+          "status": "pass",
+          "notes": "FB-A009「オーケストラ用法の principal は特定セクションの第一奏者または首席という役割を表す。」（must_hold、scope: オーケストラ用法の定義、文法パターン、用例）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A009"
+        },
+        {
+          "id": "FB-A010",
+          "status": "pass",
+          "notes": "FB-A010「オーケストラの principal を団体全体の管理責任者という意味に取り違えてはならない。」（must_not_hold、scope: オーケストラ用法の意味役割）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A010"
+        }
+      ],
+      "candidate_id": "FB-C005",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C006",
+      "status": "pass",
+      "notes": "FB-C006 の frame「principal + be + distinct from interest」、meaning「貸付・借入・投資で利息や収益の基礎となる元金または元本」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A011",
+        "FB-A012"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A011",
+          "status": "pass",
+          "notes": "FB-A011「金融用法の principal は利息・利益・収益の計算または発生の基礎となる資本額を指す。」（must_hold、scope: 金融用法の定義、文法パターン、用例）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A011"
+        },
+        {
+          "id": "FB-A012",
+          "status": "pass",
+          "notes": "FB-A012「principal と interest を反意語として扱ってはならない。」（must_not_hold、scope: 金融用法の語法と関係分類）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A012"
+        }
+      ],
+      "candidate_id": "FB-C006",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C007",
+      "status": "pass",
+      "notes": "FB-C007 の frame「trust principal + be + distinct from income」、meaning「信託で収益と区別される財産本体または corpus」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A013",
+        "FB-A014"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A013",
+          "status": "pass",
+          "notes": "FB-A013「信託用法の principal は信託財産の本体を指し、そこから生じる income と区別される。」（must_hold、scope: 信託法用法の定義、文法パターン、用例）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A013"
+        },
+        {
+          "id": "FB-A014",
+          "status": "pass",
+          "notes": "FB-A014「trust principal を信託から発生する収益そのものとして扱ってはならない。」（must_not_hold、scope: 信託法用法の作用方向と除外境界）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A014"
+        }
+      ],
+      "candidate_id": "FB-C007",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C008",
+      "status": "pass",
+      "notes": "FB-C008 の frame「agent + act on behalf of the principal」、meaning「代理人に自分のために行動する権限を与える本人または法人」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A015",
+        "FB-A016"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A015",
+          "status": "pass",
+          "notes": "FB-A015「代理法上の principal は agent がその者のために行動する側であり、代理権の源となる。」（must_hold、scope: 代理関係用法の定義、文法パターン、用例）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A015"
+        },
+        {
+          "id": "FB-A016",
+          "status": "pass",
+          "notes": "FB-A016「代理関係で principal と agent の権限付与側・行動側を逆転させてはならない。」（must_not_hold、scope: 代理関係の役割軸と反意関係）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A016"
+        }
+      ],
+      "candidate_id": "FB-C008",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C009",
+      "status": "pass",
+      "notes": "FB-C009 の frame「act or trade as principal rather than as agent」、meaning「取引で他人の代理ではなく自己の計算・責任で当事者として行動する」、disposition「excluded」を照合した。最新版はこれを独立した主要語義として過剰収録せず、条件付きassertionにも矛盾する記述を置いていない。",
+      "assertion_ids": [
+        "FB-A017",
+        "FB-A018"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A017",
+          "status": "pass",
+          "notes": "FB-A017「自己勘定取引で as principal と言う場合は、他人の agent としてではなく自己の計算・責任で行動する対比が中心となる。」（must_hold、scope: 取引上の文脈的拡張を説明する場合）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A017"
+        },
+        {
+          "id": "FB-A018",
+          "status": "pass",
+          "notes": "FB-A018「この取引表現を教育機関の長や元金の語義へ帰属させてはならない。」（must_not_hold、scope: 取引表現の語義境界）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A018"
+        }
+      ],
+      "candidate_id": "FB-C009",
+      "disposition": "excluded"
+    },
+    {
+      "id": "FB-C010",
+      "status": "pass",
+      "notes": "FB-C010 の frame「the principal + be + directly responsible for a crime under applicable law」、meaning「適用法の分類により犯罪について直接の刑事責任を負う関与者」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A019",
+        "FB-A020"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A019",
+          "status": "pass",
+          "notes": "FB-A019「刑事法上の principal の範囲は適用法の分類に従い、犯罪への一定の関与による直接責任を表す。」（must_hold、scope: 刑事法用法の定義、レジスター、注意）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A019"
+        },
+        {
+          "id": "FB-A020",
+          "status": "pass",
+          "notes": "FB-A020「すべての法域で principal が物理的実行者だけを指すと絶対化してはならない。」（must_not_hold、scope: 刑事法用法の一般化範囲）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A020"
+        }
+      ],
+      "candidate_id": "FB-C010",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C011",
+      "status": "pass",
+      "notes": "FB-C011 の frame「the principal + be + primarily liable for a debt or obligation」、meaning「保証人などと対比して義務に第一次的責任を負う主たる債務者・義務者」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A021",
+        "FB-A022"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A021",
+          "status": "pass",
+          "notes": "FB-A021「債務・保証法上の principal は当該義務について第一次的責任を負う者を指す。」（must_hold、scope: 債務・保証法用法の定義、文法パターン、用例）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A021"
+        },
+        {
+          "id": "FB-A022",
+          "status": "pass",
+          "notes": "FB-A022「第一次的責任者を二次的責任を負う surety または guarantor と同一視してはならない。」（must_not_hold、scope: 債務・保証関係の責任順位軸）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A022"
+        }
+      ],
+      "candidate_id": "FB-C011",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C012",
+      "status": "pass",
+      "notes": "FB-C012 の frame「principally + verb, adjective, or clause」、meaning「主として、主にという副詞派生」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A023"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A023",
+          "status": "pass",
+          "notes": "FB-A023「principally は『主として、主に』という割合または中心性を表す副詞派生である。」（must_hold、scope: 語形成欄）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A023"
+        }
+      ],
+      "candidate_id": "FB-C012",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C013",
+      "status": "pass",
+      "notes": "FB-C013 の frame「the principalship of an institution」、meaning「principal の地位・職、特に教育機関の長の職」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A024"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A024",
+          "status": "pass",
+          "notes": "FB-A024「principalship は principal の役職またはその在職を表す名詞派生である。」（must_hold、scope: 語形成欄）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A024"
+        }
+      ],
+      "candidate_id": "FB-C013",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C014",
+      "status": "pass",
+      "notes": "FB-C014 の frame「a principal-agent relationship between principal and agent」、meaning「本人と代理人の権限・行動関係を表す法律上の複合表現」、disposition「included」を照合した。最新版の該当語義・語形成欄がこの意味とフレームを同じ役割方向で明示し、除外境界にも反しない。",
+      "assertion_ids": [
+        "FB-A025",
+        "FB-A026"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A025",
+          "status": "pass",
+          "notes": "FB-A025「principal-agent relationship は本人と、その本人のために行動する代理人との関係を表す。」（must_hold、scope: 語形成欄と代理関係用法）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A025"
+        },
+        {
+          "id": "FB-A026",
+          "status": "pass",
+          "notes": "FB-A026「複合表現内の principal と agent の意味役割を交換してはならない。」（must_not_hold、scope: 複合表現の構成要素と役割方向）を照合した。最新版は禁じられた役割逆転・過剰一般化・誤った語義帰属を行っていない。",
+          "assertion_id": "FB-A026"
+        }
+      ],
+      "candidate_id": "FB-C014",
+      "disposition": "included"
+    },
+    {
+      "id": "FB-C015",
+      "status": "pass",
+      "notes": "FB-C015 の frame「principal rafter or another historically lexicalized technical noun」、meaning「建築などで主部材を指す歴史的・限定的な名詞用法」、disposition「excluded」を照合した。最新版はこれを独立した主要語義として過剰収録せず、条件付きassertionにも矛盾する記述を置いていない。",
+      "assertion_ids": [
+        "FB-A027"
+      ],
+      "verified_body_sha256": "f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4",
+      "assertion_results": [
+        {
+          "id": "FB-A027",
+          "status": "pass",
+          "notes": "FB-A027「歴史的・分野限定の部材名を扱う場合は、現代一般語の主要名詞用法と区別する。」（must_hold、scope: 稀な専門用法を追加する場合の語義境界）を照合した。最新版の該当範囲に明示されるか、除外候補では条件付き範囲に反する記述がなく、意味方向が保たれる。",
+          "assertion_id": "FB-A027"
+        }
+      ],
+      "candidate_id": "FB-C015",
+      "disposition": "excluded"
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-evidence-001",
+      "status": "pass",
+      "notes": "normal-evidence-001 の旧指摘「C-013 links this whole usage note only to F-032 at the Merriam-Webster locator. F-032 directly supports the principle-as-rule versus principal-as-adjective distinction, but its recorded statement and source detail do not directly support the added claim that principal has noun uses for people and amounts, nor do they preserve the specific basic principle/basic principal substitution example. Those noun assertions are supported elsewhere in the inventory (for example C-002 and C-004), but they are not linked to usage_note:001, so the existing link's scope is narrower than the target claim.」は disposition=adopted / status=resolved で裁定され、実装「Removed the unbound person-and-amount noun summary and the unsupported basic principle/basic principal example; retained only F-032's rule-noun versus most-important-adjective contrast.」が最新版hash f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 に束縛されている。",
+      "finding_id": "normal-evidence-001",
+      "resolution_status": "resolved",
+      "disposition": "adopted"
+    },
+    {
+      "id": "normal-evidence-002",
+      "status": "pass",
+      "notes": "normal-evidence-002 の旧指摘「C-002 maps F-002, F-003, F-014, and F-017 to grammar_pattern:002. At the Merriam-Webster, Cambridge, and Collins locators, the fixed fact statements support the authority/person sense, the school-head title, and the England-college qualification. None of the recorded source details directly attests the promised business at-frame or establishes all three education constructions as grammatical frames. A lexical definition cannot by itself support these exact complements and compounds.」は disposition=adopted / status=resolved で裁定され、実装「Replaced the at/of/school-principal/college-principal set with a principal with controlling authority and the principal be in charge of a school, each with a matching example; tightened the C-002 support summaries without changing facts or U-002.」が最新版hash f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 に束縛されている。",
+      "finding_id": "normal-evidence-002",
+      "resolution_status": "resolved",
+      "disposition": "adopted"
+    },
+    {
+      "id": "normal-evidence-003",
+      "status": "pass",
+      "notes": "normal-evidence-003 の旧指摘「C-003 links grammar_pattern:003 to F-007 and F-018. The Merriam-Webster and Collins facts directly establish the leading-performer and orchestral-section-player senses, but their recorded source details do not attest perform/serve as ... with or the possessive one-of-principals construction. The evidence therefore supports the role meaning, not the complete syntactic frames stated here.」は disposition=adopted / status=resolved で裁定され、実装「Replaced the perform/serve-with and possessive frames with a principal dancer and the principal be the first player of an orchestral section, each with a matching example; tightened C-003's F-018 binding without changing facts or U-003.」が最新版hash f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 に束縛されている。",
+      "finding_id": "normal-evidence-003",
+      "resolution_status": "resolved",
+      "disposition": "adopted"
+    },
+    {
+      "id": "normal-evidence-004",
+      "status": "pass",
+      "notes": "normal-evidence-004 の旧指摘「C-004 and C-005 map the finance and trust facts to grammar_pattern:004. The facts directly support the principal-versus-interest/income contrasts and F-024 supports repayment reducing the obligation. However, none of F-008, F-015, F-019, F-024, F-025, or F-027 at the listed dictionary, Wex, and Investor.gov locators records protect the principal as a supported collocation or validates the bundled verb-frame pay down, protect, or repay + (the) principal. The target is broader than the linked evidence even though its underlying senses are supported.」は disposition=adopted / status=resolved で裁定され、実装「Replaced the former finance/trust construction set with principal as the initial amount invested, principal distinct from interest, and trust principal distinct from income, with matching examples; tightened the C-004/C-005 binding summaries without adding facts.」が最新版hash f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 に束縛されている。",
+      "finding_id": "normal-evidence-004",
+      "resolution_status": "resolved",
+      "disposition": "adopted"
+    },
+    {
+      "id": "normal-evidence-005",
+      "status": "pass",
+      "notes": "normal-evidence-005 の旧指摘「C-007 links F-005 and F-021 to grammar_pattern:006. Those fixed Merriam-Webster and Collins facts support the jurisdiction-sensitive criminal-participant classification and the accessory contrast, but their recorded passages do not directly attest both complete syntactic frames. Treating the legal classification as evidence for the exact in-complement and treat-as constructions exceeds the recorded support.」は disposition=adopted / status=resolved で裁定され、実装「Replaced the in and treat-as frames and examples with the principal be directly responsible for a crime, and tightened C-007's F-021 binding summary.」が最新版hash f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 に束縛されている。",
+      "finding_id": "normal-evidence-005",
+      "resolution_status": "resolved",
+      "disposition": "adopted"
+    },
+    {
+      "id": "normal-evidence-006",
+      "status": "pass",
+      "notes": "normal-evidence-006 の旧指摘「C-008 maps F-006, F-022, and F-026 to grammar_pattern:007. These facts at Merriam-Webster, Collins, and Wex directly support primary liability and the contrast with a surety or guarantor, but the fixed source details do not attest the full be/remain liable as principal for frame or all two noun-phrase patterns. The responsibility contrast supports the definition, not every specific construction bundled here.」は disposition=adopted / status=resolved で裁定され、実装「Replaced the former three-template set with the principal be primarily liable for an obligation and the principal distinct from a surety or guarantor with secondary liability, with matching examples; tightened C-008's binding summaries without adding facts.」が最新版hash f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 に束縛されている。",
+      "finding_id": "normal-evidence-006",
+      "resolution_status": "resolved",
+      "disposition": "adopted"
+    }
+  ],
+  "evidence_checks": [],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "status": "pass",
+      "notes": "U-001 canonical statement「The adjective principal marks something first or especially high in importance, rank, or influence.」を facts F-001, F-013, F-016、disposition「included」、rationale「High-frequency adjective sense supported by three independent dictionaries.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-001"
+    },
+    {
+      "id": "U-002",
+      "status": "pass",
+      "notes": "U-002 canonical statement「Principal denotes a person in authority and conventionally the head of specified educational institutions, with regional title differences.」を facts F-002, F-003, F-014, F-017、disposition「included」、rationale「Major person noun and education title supported by current dictionary facts.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-002"
+    },
+    {
+      "id": "U-003",
+      "status": "pass",
+      "notes": "U-003 canonical statement「Principal can denote a leading performer, including a principal artist or orchestral section leader.」を facts F-007, F-018、disposition「included」、rationale「Established performing-arts noun use.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-003"
+    },
+    {
+      "id": "U-004",
+      "status": "pass",
+      "notes": "U-004 canonical statement「Financial principal is the underlying debt, loan, or investment amount distinguished from interest, profit, or later earnings.」を facts F-008, F-015, F-019, F-024, F-027、disposition「included」、rationale「Major specialist sense corroborated by current general and government-specialist sources.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-004"
+    },
+    {
+      "id": "U-005",
+      "status": "pass",
+      "notes": "U-005 canonical statement「Trust principal is the property or corpus distinguished from income earned by it.」を facts F-025、disposition「integrated」、rationale「Direct specialist extension of the finance/property sense.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-005"
+    },
+    {
+      "id": "U-006",
+      "status": "pass",
+      "notes": "U-006 canonical statement「An agency principal authorizes an agent to act on the principal's behalf and is the source of the agent's authority; the US-law account in Wex also specifies the principal's control.」を facts F-004, F-020, F-023、disposition「included」、rationale「Important legal and economics role supported by two dictionaries, with the control element qualified to the Wex account.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-006"
+    },
+    {
+      "id": "U-007",
+      "status": "pass",
+      "notes": "U-007 canonical statement「Criminal-law principal denotes a person treated as a primary participant under the applicable legal classification.」を facts F-005, F-021、disposition「included」、rationale「Low-frequency but encounterable specialist legal use; scope is explicitly jurisdiction-sensitive.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-007"
+    },
+    {
+      "id": "U-008",
+      "status": "pass",
+      "notes": "U-008 canonical statement「In obligation law, principal denotes the primarily liable party, contrasted with a secondarily liable surety or guarantor.」を facts F-006, F-022, F-026、disposition「included」、rationale「Directly supported specialist responsibility contrast.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-008"
+    },
+    {
+      "id": "U-009",
+      "status": "pass",
+      "notes": "U-009 canonical statement「The adjective and noun principal share the pronunciation /ˈprɪnsəpəl/.」を facts F-009、disposition「included」、rationale「Pronunciation support for the entry.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-009"
+    },
+    {
+      "id": "U-010",
+      "status": "pass",
+      "notes": "U-010 canonical statement「Principal came through French from Latin principalis and princeps, with a semantic core of first or chief.」を facts F-010, F-028、disposition「included」、rationale「Etymology is supported by two references.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-010"
+    },
+    {
+      "id": "U-011",
+      "status": "pass",
+      "notes": "U-011 canonical statement「Principalship is listed as a noun derivative of principal.」を facts F-011、disposition「included」、rationale「Recorded noun derivative.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-011"
+    },
+    {
+      "id": "U-012",
+      "status": "pass",
+      "notes": "U-012 canonical statement「Principally is the adverb formed from principal.」を facts F-012、disposition「included」、rationale「Recorded adverb derivative.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-012"
+    },
+    {
+      "id": "U-013",
+      "status": "pass",
+      "notes": "U-013 canonical statement「Principal and principle differ in spelling, parts of speech, and current meanings.」を facts F-032、disposition「included」、rationale「Major learner confusion directly addressed by dictionary usage guidance.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-013"
+    },
+    {
+      "id": "U-014",
+      "status": "pass",
+      "notes": "U-014 canonical statement「Etymonline records historical attestation dates for chief-person, education-head, and money senses.」を facts F-029, F-030, F-031、disposition「excluded」、rationale「These historical facts are retained in the fixed inventory but are not used to support current lexical scope or grammar claims.」と照合した。最新版の採用・統合・除外範囲はこのunionと一致する。",
+      "union_id": "U-014"
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "translation は mode=rechecked。spec_sha256=d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3、normalized_input_sha256=d49a1c8d2572bb7422c8c4f921efbad44e328c94c6815c43a2026565821fc917、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=8950e8c3210d823c742d43f9c4e41b71fa052776613e9aa2e3d4384633df0150、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "frame-relation は mode=rechecked。spec_sha256=3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef、normalized_input_sha256=974758b8ad1e7d277a14445e865ced0b8f59e1fff68c8f7ffd09f0488febe458、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=70c1f08a0fff66a0868ca537780defe7c34704177ed7a83160c9596bf517ee91、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "example-attribution は mode=rechecked。spec_sha256=e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017、normalized_input_sha256=82691fc6ce329a30e9ba6bdffcd549e900eb64b27a7ea60b2a24de1e52805031、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=475b6fd90bbdb3eef1b79eded9046abccec267c289d3400463e69f2420c8d073、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "qualification は mode=rechecked。spec_sha256=1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2、normalized_input_sha256=83a943844ec459b731a9e47ac646de3ea482aa121f9f8f3bcb9016649d07efe9、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=134c86b5bac03f9981af5eff2fdcbb8bf2f6f714555cf2085135059c333e2fc8、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "evidence は mode=rechecked。spec_sha256=dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d、normalized_input_sha256=cb2815c6577bd7e932f8e7750254931ddd06fed16a16911ba2be59e4cf2c15bc、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=3497a2b02b024e6761c5150fc64b8884d0a55253c95ecc1391fb064405394242、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "sense-structure は mode=reused。spec_sha256=a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c、normalized_input_sha256=f97adfcc059c3b2aeece8fe04691e392254c53587b983988be7059e784f91506、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=b3afd58b9a7425aa327a91163bed467378a09f2c4baa7e031c616e0f4937dd78、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true、reuse_validated=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "pronunciation は mode=reused。spec_sha256=7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a、normalized_input_sha256=ee10ead66e05a1ae925e7c3a11f269975c98c542ec08d1b8f2ad9c2159d3ca70、source_artifact_sha256=b7ad9f9260729c9293656412444ea814fe2ad637f5f91c8971f21da83410f590、output_sha256=bce4a8c4a134031a0ae262f3f1568d48d51732624bd6b8a900c2beaba1ae3054、validated_on_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を照合した。schema_valid=true、reviewer_independent=true、request_binding_valid=true、reuse_validated=true で、最新版hashへの検査または再利用条件はすべて有効である。"
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "entry_body、final_blind.input_body_sha256、blind_seal.body_sha256、checker_recheck_manifest.current_body_sha256、post_blind_verification.verified_body_sha256 はすべて f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 で一致する。"
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "normal review は 2026-09-08T07:58:14.299583+00:00、cold review は 2026-09-08T08:09:22.635150+00:00 に固定本文 1a52681200f8151d905196cfb05550ddc423af07e1d4fee6da8e752e0a523528 を確認し、pre-blind resolution 2026-09-08T08:18:57Z より前である。"
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "pre-blind revision は 2026-09-08T08:53:08Z に最新版 f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を確定し、round-2 checker と source binding revalidation（最終 2026-09-08T09:17:53Z）を経て、final blind 2026-09-08T09:40:41.654023+00:00 が同hashを確認した。"
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "final blind は 2026-09-08T09:40:41.654023+00:00、blind seal は 2026-09-08T18:44:11.856351+09:00（09:44:11.856351+00:00）であり、final_blind_sha256=4014793983931bc282a1e2c606b86e047f047d5b1d306673b43ba1ddf85aca65 がsealに固定されている。"
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "final blind article_findings は0件、post_blind_resolution.resolutions は0件、targeted adjudications は0件で、post_blind_verification は checker_recheck_completed=true、final_blind_repeated=true、verified_body_sha256=f54ace66c12f4781a172fbc2c1411245def9fed82b18b54471a45218306679b4 を記録する。"
+    }
+  ]
+}
