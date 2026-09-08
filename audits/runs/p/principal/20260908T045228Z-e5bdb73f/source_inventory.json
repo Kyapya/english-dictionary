@@ -29,8 +29,8 @@
       "post_cold_rechecks_used": 1,
       "final_attempts_used": 0
     },
-    "research_status": "budget_exhausted",
-    "stop_reason": "post-cold recheck limit reached with adopted corrections awaiting verification",
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
     "open_questions": [
       "Translation continuity and sense-order corrections need a second checker round; source-first standard profile permits only one."
     ],
@@ -896,6 +896,15 @@
             "source_fact_id": "F-032",
             "support_summary": "Merriam-Webster directly explains this spelling, meaning, and part-of-speech contrast."
           }
+        ]
+      }
+    ],
+    "recheck_stop_recoveries": [
+      {
+        "recovered_at": "2026-09-08T16:17:22.084712+09:00",
+        "previous_stop_reason": "post-cold recheck limit reached with adopted corrections awaiting verification",
+        "previous_open_questions": [
+          "Translation continuity and sense-order corrections need a second checker round; source-first standard profile permits only one."
         ]
       }
     ]

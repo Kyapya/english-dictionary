@@ -17,7 +17,7 @@
     "research_queries": 0,
     "candidate_pages": 6
   },
-  "status": "budget_exhausted",
+  "status": "in_progress",
   "stage": "cold_review_complete",
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
@@ -60,7 +60,7 @@
       "notes": "orchestrator completed cold_review"
     }
   ],
-  "stop_reason": "Source-first standard post-cold recheck limit reached (1/1); accepted corrections still require verification",
+  "stop_reason": "",
   "open_questions": [
     "Corrected translation continuity and sense ordering require another independent checker round; no valid final blind or final review exists for corrected body."
   ],
@@ -846,5 +846,16 @@
     "new_branch": "words/principal-takeover-20260908",
     "reason": "Concurrent writes continued in original worker; isolated snapshot prevents overwrite. Run identity, start time and existing usage preserved.",
     "checkpoint": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/recheck_resolution_checkpoint.json"
-  }
+  },
+  "recheck_stop_recoveries": [
+    {
+      "recovered_at": "2026-09-08T07:17:22Z",
+      "previous_stop_reason": "Source-first standard post-cold recheck limit reached (1/1); accepted corrections still require verification",
+      "previous_open_questions": [
+        "Corrected translation continuity and sense ordering require another independent checker round; no valid final blind or final review exists for corrected body."
+      ],
+      "stage": "cold_review_complete"
+    }
+  ],
+  "recheck_policy": "unlimited_v1"
 }
