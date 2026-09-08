@@ -173,7 +173,7 @@ tags: []
 頻度: 〈4/10〉  
 違い: 性別を明示する伝統的な語で、現在は性別中立の `head teacher` や `head` が選ばれることも多い。`principal` は性別を示さない。  
 例: The former headmaster returned for the anniversary ceremony.  
-訳: 元校長が記念式典のために戻ってきた。  
+訳: 男性の元校長が記念式典のために戻ってきた。  
 
 3. 【名詞・可算】専門組織の上級責任者、舞台芸術の首席出演者・奏者
 
@@ -216,7 +216,7 @@ tags: []
 
 【頻度】〈7/10〉  
 
-【レジスター/領域】金融、融資、投資、会計、信託。米国英語で特に一般的で、日常的なローン説明にも現れる。  
+【レジスター/領域】金融、融資、投資、会計、信託。日常的なローン説明にも現れる。  
 
 【文法パターン】`pay/repay 〈金額〉 of principal`＝元金を～返済する／`pay down/reduce the principal`＝元金を減らす／`principal and interest`＝元利金／`the principal on a loan`＝ローンの元金／`an outstanding principal balance`＝未返済元金残高／`the principal amount`＝元本金額  
 
@@ -341,7 +341,7 @@ tags: []
 例: The older judgment classified the defendant as a principal in the first degree.  
 訳: その古い判決は被告人を第一級 `principal` に分類した。  
 
-【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。日本法上の「正犯」と範囲が必ず一致するとは限らない。債務・保証関係の第一次的責任者は別の語義7である。  
+【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。  
 
 【類義語】
 
