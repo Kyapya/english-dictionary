@@ -47,6 +47,12 @@ STAGES = (
 TERMINAL_STATUSES = {"budget_exhausted", "completed"}
 COST_SCHEMA_VERSION = "workflow_cost_v1"
 MAX_REVIEW_INGEST_FAILURES = 3
+TIME_POLICY = "advisory_v1"
+LEGACY_TIME_STOP_REASONS = frozenset({
+    "overall elapsed-time budget exhausted",
+    "pre-draft elapsed-time budget exhausted",
+    "draft saved after pre-draft budget expired",
+})
 
 
 def _now() -> datetime:
@@ -130,6 +136,7 @@ def new_manifest(
         "profile": profile,
         "profile_reason": profile_reason or "bounded default profile",
         "limits": limits,
+        "time_policy": TIME_POLICY,
         "usage": {"research_queries": 0, "candidate_pages": 0},
         "status": "in_progress",
         "stage": "preflight",
@@ -403,12 +410,56 @@ def enforce_budget(manifest: dict[str, Any], *, now: datetime | None = None) -> 
         raise ValueError("; ".join(errors))
     assert deadline and pre_draft_deadline
     stage = manifest.get("stage")
-    if current > deadline and stage in {"preflight", "preflight_pushed"}:
-        _stop(manifest, reason="overall elapsed-time budget exhausted", now=current)
+    # These timestamps remain fixed for historical compatibility and measurement,
+    # not permission to work. Crossing them must never discard a valid checkpoint.
+    warnings = manifest.setdefault("time_warnings", {})
+    for code, target, applicable in (
+        ("elapsed_target_exceeded", deadline, True),
+        ("pre_draft_target_exceeded", pre_draft_deadline,
+         stage in {"preflight", "preflight_pushed"}),
+    ):
+        if applicable and current > target and code not in warnings:
+            warnings[code] = {
+                "first_observed_at": _format_time(current),
+                "target_at": _format_time(target),
+                "stage": stage,
+                "action": "record the delay cause and resume the same run; do not restart reviews",
+            }
+    return True
+
+
+def is_legacy_time_stop(manifest: dict[str, Any]) -> bool:
+    """Only known clock stops qualify; research/review/unknown stops stay closed."""
+    failures = manifest.get("review_ingest_failures", {})
+    return (
+        manifest.get("status") == "budget_exhausted"
+        and manifest.get("stop_reason") in LEGACY_TIME_STOP_REASONS
+        and isinstance(failures, dict)
+        and isinstance(failures.get("count", 0), int)
+        and failures.get("count", 0) < MAX_REVIEW_INGEST_FAILURES
+    )
+
+
+def resume_legacy_time_stop(manifest: dict[str, Any], *, now: datetime | None = None) -> bool:
+    """Migrate only the stop state, preserving run identity, counters and reviews."""
+    if not is_legacy_time_stop(manifest):
         return False
-    if stage in {"preflight", "preflight_pushed"} and current > pre_draft_deadline:
-        _stop(manifest, reason="pre-draft elapsed-time budget exhausted", now=current)
-        return False
+    errors = validate_manifest(manifest)
+    if errors:
+        raise ValueError("cannot resume invalid time-stopped run: " + "; ".join(errors))
+    current = now or _now()
+    manifest.setdefault("time_stop_recoveries", []).append({
+        "recovered_at": _format_time(current),
+        "previous_stop_reason": manifest["stop_reason"],
+        "previous_open_questions": list(manifest.get("open_questions", [])),
+        "previous_heartbeat_at": manifest.get("last_heartbeat_at"),
+        "stage": manifest["stage"],
+    })
+    manifest["time_policy"] = TIME_POLICY
+    manifest["status"] = "in_progress"
+    manifest["stop_reason"] = ""
+    # Questions remain available to the coordinator, not silently resolved.
+    enforce_budget(manifest, now=current)
     return True
 
 
@@ -505,40 +556,18 @@ def advance_stage(
     if stage != "preflight_pushed" and not manifest.get("remote_checkpoint", {}).get("confirmed"):
         raise ValueError("remote checkpoint must be confirmed before work advances")
     budget_ok = enforce_budget(manifest, now=current)
-    if not budget_ok and stage != "draft_saved":
+    if not budget_ok:
         return False
     manifest["stage"] = stage
     manifest["stage_history"].append(
         {"stage": stage, "recorded_at": _format_time(current), "notes": notes}
     )
     manifest["last_heartbeat_at"] = _format_time(current)
-    if not budget_ok:
-        errors: list[str] = []
-        pre_draft_deadline = _parse_time(
-            manifest.get("pre_draft_deadline_at"), "pre_draft_deadline_at", errors
-        )
-        if errors:
-            raise ValueError("; ".join(errors))
-        assert pre_draft_deadline
-        if current > pre_draft_deadline:
-            manifest["stop_reason"] = "draft saved after pre-draft budget expired"
-        return False
     if stage == "completed":
         manifest["status"] = "completed"
         manifest["stop_reason"] = ""
         manifest["open_questions"] = []
         return True
-    if stage == "draft_saved":
-        errors: list[str] = []
-        pre_draft_deadline = _parse_time(
-            manifest.get("pre_draft_deadline_at"), "pre_draft_deadline_at", errors
-        )
-        if errors:
-            raise ValueError("; ".join(errors))
-        assert pre_draft_deadline
-        if current > pre_draft_deadline:
-            _stop(manifest, reason="draft saved after pre-draft budget expired", now=current)
-            return False
     return enforce_budget(manifest, now=current)
 
 
@@ -806,6 +835,8 @@ def command_heartbeat(args: argparse.Namespace) -> int:
         print(f"STOPPED {manifest['stop_reason']}", file=sys.stderr)
         return 2
     print(f"OK {manifest['stage']}")
+    if manifest.get("time_warnings"):
+        print(json.dumps({"time_warnings": manifest["time_warnings"]}, ensure_ascii=False))
     return 0
 
 

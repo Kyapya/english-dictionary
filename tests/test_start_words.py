@@ -175,6 +175,25 @@ class WordBatchTests(unittest.TestCase):
         self.assertEqual("active", self.job("beta")["status"])
         self.assertEqual(before, path.read_bytes())
 
+    def test_time_warning_is_visible_without_restarting_or_changing_worker(self):
+        self.queue.enqueue(["alpha", "beta"])
+        self.queue.dispatch(max_active=1)
+        job = self.job("alpha")
+        path = self.queue.workspace(job) / job["run_path"]
+        value = batch.read(path)
+        value["last_heartbeat_at"] = "2030-01-02T00:00:00Z"
+        value["time_warnings"] = {"elapsed_target_exceeded": {"stage": "cold_review_complete"}}
+        batch.write(path, value)
+        before = path.read_bytes()
+        with patch.object(self.queue, "_prepare", side_effect=AssertionError("do not restart")):
+            result = self.queue.dispatch(max_active=1)
+        row = next(row for row in result["jobs"] if row["slug"] == "alpha")
+        self.assertEqual(row["time_warnings"], value["time_warnings"])
+        self.assertEqual(row["last_heartbeat_at"], value["last_heartbeat_at"])
+        self.assertEqual(row["status"], "active")
+        self.assertEqual(result["counts"]["queued"], 1)
+        self.assertEqual(before, path.read_bytes())
+
     def test_existing_remote_run_is_not_bypassed(self):
         self.queue.enqueue(["existing", "alpha"])
         result = self.queue.dispatch()

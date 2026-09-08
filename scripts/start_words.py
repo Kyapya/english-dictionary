@@ -225,6 +225,8 @@ class Queue:
             job["run_path"] = path.relative_to(self.workspace(job)).as_posix()
             job["workflow_status"] = manifest["status"]
             job["stage"] = manifest.get("stage")
+            job["last_heartbeat_at"] = manifest.get("last_heartbeat_at")
+            job["time_warnings"] = manifest.get("time_warnings", {})
             job["status"] = {"in_progress": "active", "completed": "completed",
                              "budget_exhausted": "blocked"}[manifest["status"]]
             job["error"] = manifest.get("stop_reason") or None
@@ -240,7 +242,8 @@ class Queue:
             summaries = []
             for job in jobs:
                 row = {key: job.get(key) for key in
-                       ("slug", "headword", "job_id", "status", "branch", "run_path", "stage", "error")}
+                       ("slug", "headword", "job_id", "status", "branch", "run_path", "stage", "error",
+                        "last_heartbeat_at", "time_warnings")}
                 row["workspace"] = str(self.workspace(job)) if job["status"] != "queued" else None
                 row["workspace_available"] = self.workspace(job).is_dir()
                 row["assignment_path"] = str(self.workspace(job).parent / f"{job['job_id']}.request.md") if job.get("run_path") else None
