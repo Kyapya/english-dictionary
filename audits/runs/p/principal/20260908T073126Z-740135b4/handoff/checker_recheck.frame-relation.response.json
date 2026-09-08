@@ -1,0 +1,39 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "6d041d286fafcecc6d481e96bbf12f866ef901403ae837acea66431d99e70cc9",
+  "blind_request_sha256": "d5a9112aeaecb07821f244bd55fa01169406f690cdbf223b07a5f7cfb1e73457",
+  "recorded_at": "2026-09-08T17:32:57+09:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_cycle3_frame"
+  },
+  "axes": [
+    {
+      "item_id": "ant-5babbf8dea7e",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-922a5d043e2b",
+      "axis": "授権方向",
+      "relation_type": "方向",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-f6e64f8b93f4",
+      "axis": "重要度",
+      "relation_type": "程度",
+      "reason": ""
+    },
+    {
+      "item_id": "ant-7565f759c1ea",
+      "axis": "責任順位",
+      "relation_type": "補完",
+      "reason": ""
+    }
+  ]
+}

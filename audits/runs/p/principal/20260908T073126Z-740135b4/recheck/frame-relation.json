@@ -1,0 +1,124 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/principal_cycle3_frame"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "6d041d286fafcecc6d481e96bbf12f866ef901403ae837acea66431d99e70cc9",
+    "blind_request_sha256": "d5a9112aeaecb07821f244bd55fa01169406f690cdbf223b07a5f7cfb1e73457",
+    "recorded_at": "2026-09-08T17:32:57+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/principal_cycle3_frame"
+    },
+    "axes": [
+      {
+        "item_id": "ant-5babbf8dea7e",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-922a5d043e2b",
+        "axis": "授権方向",
+        "relation_type": "方向",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-f6e64f8b93f4",
+        "axis": "重要度",
+        "relation_type": "程度",
+        "reason": ""
+      },
+      {
+        "item_id": "ant-7565f759c1ea",
+        "axis": "責任順位",
+        "relation_type": "補完",
+        "reason": ""
+      }
+    ]
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "6d041d286fafcecc6d481e96bbf12f866ef901403ae837acea66431d99e70cc9",
+    "stage2_request_sha256": "d28a7451ab43c03f134397cebf1d548927fbb70a326c84c40513a7304df2b6b4",
+    "blind_record_sha256": "7bb761f968d23af93f54d25fddf40cbc153634e8438502cd9330d66222359621",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/principal_cycle3_frame"
+    },
+    "adjudications": [
+      {
+        "item_id": "ant-5babbf8dea7e",
+        "flags": [],
+        "rationale": "重要度は当該語義の定義に明示され、principal と secondary はその高低を表す程度対立であり、違い行も対立の成立を否定・限定していない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-f6e64f8b93f4",
+        "flags": [],
+        "rationale": "重要度は当該語義から直接導け、principal と minor は重要性・影響の大小を表す程度対立であり、違い行に自己否定はない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-922a5d043e2b",
+        "flags": [],
+        "rationale": "授権方向は本人が権限を与え代理人がその権限で行動するという当該語義そのものから導け、両者は同一代理関係における方向対立であり、違い行もその対立を明確にしている。",
+        "suggested_direction": null,
+        "f4_severity": null
+      },
+      {
+        "item_id": "ant-7565f759c1ea",
+        "flags": [],
+        "rationale": "責任順位は第一次的責任者という当該語義から導け、保証関係で principal と surety は第一次責任側と二次的保証側という補完的役割を表し、違い行に対立の不成立を示す記述はない。",
+        "suggested_direction": null,
+        "f4_severity": null
+      }
+    ],
+    "frame_findings": [
+      {
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 161,
+          "line_end": 161,
+          "exact_quote": "【文法パターン】舞台芸術の役職は `a principal dancer`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  "
+        },
+        "severity": "blocking",
+        "rationale": "語義3は名詞 principal の用法として宣言されているが、`a principal dancer` では principal は名詞ではなく形容詞として dancer を修飾している。同じ形を用いるコロケーションと例文も名詞語義を実現せず、舞台芸術側の主要フレームが品詞・語義と一致しない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "舞台芸術側を名詞 principal が中心語になる完全フレーム（例: `a principal with 〈舞台芸術団体〉`）と、そのフレームを実現する例文へ修正する。"
+      }
+    ],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T08:50:35.246004+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 161,
+        "line_end": 161,
+        "exact_quote": "【文法パターン】舞台芸術の役職は `a principal dancer`。オーケストラの役職は `the principal + be + the first player of 〈セクション〉`。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義3は名詞 principal の用法として宣言されているが、`a principal dancer` では principal は名詞ではなく形容詞として dancer を修飾している。同じ形を用いるコロケーションと例文も名詞語義を実現せず、舞台芸術側の主要フレームが品詞・語義と一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "舞台芸術側を名詞 principal が中心語になる完全フレーム（例: `a principal with 〈舞台芸術団体〉`）と、そのフレームを実現する例文へ修正する。"
+    }
+  ],
+  "unrouted_observations": []
+}

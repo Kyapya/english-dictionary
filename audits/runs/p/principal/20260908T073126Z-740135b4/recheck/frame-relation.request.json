@@ -1,0 +1,82 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "6d041d286fafcecc6d481e96bbf12f866ef901403ae837acea66431d99e70cc9",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-5babbf8dea7e",
+        "headword": "principal",
+        "sense_definition": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。",
+        "antonym": "secondary",
+        "antonym_definition": "定義: 第一ではなく、重要度・順位が二次的である。"
+      },
+      {
+        "item_id": "ant-922a5d043e2b",
+        "headword": "principal",
+        "sense_definition": "【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。",
+        "antonym": "agent",
+        "antonym_definition": "定義: 他者から権限を与えられ、その者のために行動する人または法人。"
+      },
+      {
+        "item_id": "ant-f6e64f8b93f4",
+        "headword": "principal",
+        "sense_definition": "【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。",
+        "antonym": "minor",
+        "antonym_definition": "定義: 重要性・規模・影響が比較的小さい。"
+      },
+      {
+        "item_id": "ant-7565f759c1ea",
+        "headword": "principal",
+        "sense_definition": "【日本語訳・定義】債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。",
+        "antonym": "surety",
+        "antonym_definition": "定義: 主たる債務者が履行しない場合に責任を負う保証人。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "e97de23f48433c92c1418c79368c269f37025be735dd52c0dced6832eb2c7705",
+  "normalized_input_sha256": "02feb3f7c018d668faa5f581ec770201cb145e3351381db3fad4b0c6f6face77"
+}

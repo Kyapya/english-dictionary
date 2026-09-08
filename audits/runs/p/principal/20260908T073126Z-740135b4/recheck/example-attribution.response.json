@@ -1,0 +1,127 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal_cycle3_example"
+  },
+  "recorded_at": "2026-09-08T08:33:37Z",
+  "input_body_sha256": "6d041d286fafcecc6d481e96bbf12f866ef901403ae837acea66431d99e70cc9",
+  "blind_request_sha256": "24d323c51a009690ac8497d41da3c62e009118c079cd39c8a83b3901c0e15a17",
+  "attributions": [
+    {
+      "example_id": "ex-8ca9f0f7fb75",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["principal cause of the failure", "identified corrosion as the principal cause"],
+      "rationale": "\"principal cause of the failure\" では principal が cause の重要度を限定する形容詞なので sense:001。犯罪関与者を表す名詞 sense:006 なら principal は人を指し、\"identified corrosion as the principal cause\" の補語内で cause を修飾する構造にはならない。"
+    },
+    {
+      "example_id": "ex-38069d83ef5e",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["A principal with controlling authority", "approved the proposal"],
+      "rationale": "\"A principal with controlling authority\" は principal 自体が可算名詞で、支配的権限を持つ責任者を指すため sense:002。主要性の形容詞 sense:001 なら principal が後続名詞を修飾する必要があり、ここでの \"A principal\" という名詞句にはならない。"
+    },
+    {
+      "example_id": "ex-9cfdbc4c2144",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["one of the principal architects", "principal architects of the reform"],
+      "rationale": "\"one of the principal architects\" では principal が architects を前置修飾し、重要な立案者という評価を表すため sense:001。組織責任者の名詞 sense:002 なら principal 自体が one of の中心名詞となり、この修飾構造にはならない。"
+    },
+    {
+      "example_id": "ex-f4568670c1d0",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["Trust principal", "distinct from income"],
+      "rationale": "\"Trust principal\" が \"distinct from income\" とされており、信託財産の元本と収益の区別を直接表すので sense:004。主要人物の名詞 sense:002 では income と対置される同種の財産区分にならない。"
+    },
+    {
+      "example_id": "ex-8ece0513fcc7",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["principal-agent relationship", "between the owner and the broker"],
+      "rationale": "\"principal-agent relationship\" が本人と代理人の権限関係を名称として明示し、\"between the owner and the broker\" が当事者を具体化するので sense:005。主たる債務者 sense:007 で対になるのは surety や guarantor であり、agent との関係ではない。"
+    },
+    {
+      "example_id": "ex-2ca65afc4e96",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["distinct from interest", "on the loan"],
+      "rationale": "principal が \"distinct from interest\" かつ \"on the loan\" と定義され、利息と区別される融資元金を指すため sense:004。主たる債務者 sense:007 は人・法人で、interest と並列比較される金額にはならない。"
+    },
+    {
+      "example_id": "ex-db4b59de548e",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:007"],
+      "discriminating_terms": ["distinct from the surety", "secondary liability"],
+      "rationale": "principal が \"distinct from the surety\" とされ、surety は \"secondary liability\" を負うという責任順位の対比なので sense:007。代理関係の本人 sense:005 の相手は agent であり、保証人との第一次・第二次責任の区別を表さない。"
+    },
+    {
+      "example_id": "ex-92ade043c583",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:003"],
+      "discriminating_terms": ["the first player", "of the violin section"],
+      "rationale": "principal が \"the first player\" かつ \"of the violin section\" と同定され、オーケストラのセクションを率いる奏者を表すため sense:003。組織責任者の sense:002 では player という演奏者役割と violin section 内の順位を説明できない。"
+    },
+    {
+      "example_id": "ex-0f398057ecca",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:007"],
+      "discriminating_terms": ["primarily liable for the debt", "for the debt"],
+      "rationale": "principal が \"primarily liable for the debt\" とされ、債務について第一次的責任を負う当事者を表すので sense:007。代理法上の本人 sense:005 では agent への権限付与が中心であり、この primary liability for debt という関係にならない。"
+    },
+    {
+      "example_id": "ex-97117752dad4",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:004"],
+      "discriminating_terms": ["initial amount invested", "The principal is the initial amount"],
+      "rationale": "\"The principal is the initial amount\" かつ \"initial amount invested\" と定義され、投資収益とは別の元本額を表すため sense:004。重要人物の名詞 sense:002 なら amount と同一視できず、invested の対象となる金額でもない。"
+    },
+    {
+      "example_id": "ex-c02d25a31625",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["principal reason for the delay", "was a shortage of parts"],
+      "rationale": "\"principal reason for the delay\" では principal が複数の理由中の主要性を示す形容詞なので sense:001。人を指す名詞 sense:002 なら reason を直接修飾できず、\"was a shortage of parts\" という理由内容を受ける構造にもならない。"
+    },
+    {
+      "example_id": "ex-e17424d5a189",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["a principal source of income", "principal source"],
+      "rationale": "\"a principal source of income\" では principal が source の重要性を表す形容詞なので sense:001。金融元本の名詞 sense:004 は income と区別される principal 自体を指すが、ここでは income を生む source を修飾している。"
+    },
+    {
+      "example_id": "ex-391b762438b0",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:001"],
+      "discriminating_terms": ["a principal dancer", "principal dancer"],
+      "rationale": "\"a principal dancer\" では principal が dancer を前置修飾する形容詞として現れているため sense:001。舞台芸術の主要演者を表す名詞 sense:003 なら \"She is a principal\" のように principal 自体が中心名詞となるが、この例では中心名詞は dancer である。"
+    },
+    {
+      "example_id": "ex-8ba8399dc1d4",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:006"],
+      "discriminating_terms": ["Under the statute", "directly responsible for the crime"],
+      "rationale": "\"Under the statute\" の分類として principal が \"directly responsible for the crime\" とされるため、犯罪関与者の法的区分 sense:006。組織責任者 sense:002 なら crime に対する直接責任という補部で犯罪法上の身分を示さない。"
+    },
+    {
+      "example_id": "ex-d0531d4fbc57",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:002"],
+      "discriminating_terms": ["in charge of the school", "The principal is in charge"],
+      "rationale": "\"The principal is in charge\" かつ \"of the school\" という管理権限の関係なので、教育機関の最高責任者 sense:002。主要性を表す形容詞 sense:001 なら principal は名詞を修飾し、ここでの主語名詞にはならない。"
+    },
+    {
+      "example_id": "ex-f83a76d740f8",
+      "classification": "unique",
+      "candidate_sense_ids": ["sense:005"],
+      "discriminating_terms": ["The agent", "on behalf of the principal", "may sign the document"],
+      "rationale": "\"The agent\" が \"on behalf of the principal\" 書類へ署名するという代理権行使を表すため sense:005。主たる債務者 sense:007 では agent が本人を代理して行動する権限関係を説明できない。"
+    }
+  ]
+}
