@@ -12,7 +12,7 @@ tags: []
 
 ＃発音記号
 
-米・英: /ˈprɪnsəpəl/。3音節の PRIN-ci-pal で、第1音節に主強勢がある。第2・第3音節の母音はいずれも弱い /ə/ で、語末の `-pal` を強く /pæl/ と読まない。  
+発音: /ˈprɪnsəpəl/。形容詞と名詞で同じ発音を用いる。  
 
 ＃語源
 
@@ -22,8 +22,8 @@ tags: []
 ＃語形成
 
 ・principally：`principal` の副詞形。  
-・principalship：名詞。校長・学長など `principal` の職・地位を表す。  
-・principal-agent：複合形。本人と代理人の関係を表す。  
+・principalship：`principal` の名詞派生形。  
+・principal-agent relationship：本人・代理人関係を表す複合表現。  
 
 ＃コアイメージ
 
@@ -51,7 +51,7 @@ tags: []
 【コロケーション】
 
 ・`the principal reason for ...`  
-用途: 判断や行動を生じさせた最も重要な理由を示す。  
+用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。  
 例: The principal reason for the delay was a shortage of parts.  
 訳: 遅延の主な理由は部品不足だった。  
 
@@ -75,7 +75,7 @@ tags: []
 例: The company moved its principal place of business to Osaka.  
 訳: その会社は主たる事業所を大阪に移した。  
 
-【語法・注意】`principal` と `principle` は綴りも意味も異なる。前者は形容詞「主要な」または人・金額などを指す名詞、後者は名詞「原理・原則」である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。`a principal reason` は「主な理由の一つ」、`the principal reason` は通常「最も重要な理由」を表す。`principal` が常に唯一性を保証するわけではなく、`one of the principal reasons` のように複数の主要項目を認めることもできる。`principal dancer` や `principal clarinetist` では、この形容詞が人を表す名詞を修飾する。一方、名詞単独の `a principal` は語義3を参照する。  
+【語法・注意】`principal` と `principle` は綴りも意味も異なる。前者は形容詞「主要な」または人・金額などを指す名詞、後者は名詞「原理・原則」である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。`a principal reason` は「主な理由の一つ」、`the principal reason` は通常「最も重要な理由」を表す。`principal` が常に唯一性を保証するわけではなく、`one of the principal reasons` のように複数の主要項目を認めることもできる。`principal dancer` や `principal clarinetist` では、この形容詞が人を表す名詞を修飾する。専門職・舞台芸術の当該文脈で名詞単独の `a principal` と言う場合は語義3を参照し、ほかの名詞語義は文脈で判別する。  
 
 【類義語】
 
@@ -131,7 +131,7 @@ tags: []
 
 【レジスター/領域】標準語。米国・カナダなどでは小中高校の「校長」に一般的。イギリスでは学校の長には `head teacher` または `head` が一般的で、`principal` はカレッジなど特定の教育機関の長に使われることがある。  
 
-【文法パターン】`the principal of 〈学校・教育機関〉`＝～の校長・学長／`a school/high-school principal`＝学校・高校の校長／`appoint someone principal`＝人を校長・学長に任命する／`serve/work as principal`＝校長・学長を務める  
+【文法パターン】`the principal of 〈学校・教育機関〉`＝～の校長・学長／`a school principal`＝学校の校長／`a college principal`＝カレッジの学長  
 
 【コロケーション】
 
@@ -145,17 +145,12 @@ tags: []
 例: The school principal met with parents after the incident.  
 訳: 校長はその出来事の後、保護者と面会した。  
 
-・`appoint someone principal`  
-用途: 人を校長・学長の職に就けることを表す。  
-例: The board appointed Dr. Lee principal of the academy.  
-訳: 理事会はリー博士をそのアカデミーの学長に任命した。  
+・`a college principal`  
+用途: カレッジを管理する責任者を職種として表す。  
+例: A college principal addressed the graduating class.  
+訳: カレッジの学長が卒業生に向けて話した。  
 
-・`serve as principal`  
-用途: 校長・学長の職務を務めることを表す。  
-例: She served as principal of the high school for twelve years.  
-訳: 彼女はその高校の校長を12年間務めた。  
-
-【語法・注意】単数の職名として一般的に `the principal` と言えるが、補語として役職を表すときは `She became principal in 2024.` のように冠詞を省くことがある。地域によって対応する役職名が異なるため、日本語の「校長」を機械的にすべて `principal` とせず、英米差と学校種を確認する。  
+【語法・注意】地域によって対応する役職名が異なるため、日本語の「校長」を機械的にすべて `principal` とせず、英米差と学校種を確認する。  
 
 【類義語】
 
@@ -302,7 +297,7 @@ tags: []
 
 【レジスター/領域】法律、保険、不動産、商取引、経済学。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  
 
-【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係／`a disclosed/undisclosed principal`＝顕名された・非顕名の本人  
+【文法パターン】`a principal appoints/authorizes an agent to do ...`＝本人が代理人に～する権限を与える／`act on behalf of the principal`＝本人を代理して行動する／`owe a duty to the principal`＝本人に対して義務を負う／`a principal-agent relationship`＝本人・代理人関係  
 
 【コロケーション】
 
@@ -320,11 +315,6 @@ tags: []
 用途: 代理人が本人に対して忠実義務・注意義務などを負うことを示す。  
 例: An agent generally owes duties of loyalty and care to the principal.  
 訳: 代理人は一般に、本人に対して忠実義務と注意義務を負う。  
-
-・`an undisclosed principal`  
-用途: 代理人が取引相手に存在または身元を明らかにしていない本人を指す。  
-例: The seller later learned that the buyer had acted for an undisclosed principal.  
-訳: 売主は後に、買主が非顕名の本人のために行動していたことを知った。  
 
 【語法・注意】法律用語の `principal` は「重要人物」という一般義だけでなく、`agent` に対する特定の関係上の役割名である。`client` はサービスを受ける顧客・依頼人を広く指すが、必ずしも代理権を与える法律上の本人ではない。`the principal's agent` は「本人の代理人」であり、「校長の代理人」と決めつけない。  
 
@@ -399,7 +389,7 @@ tags: []
 
 【レジスター/領域】債務法・保証法の専門語。  
 
-【文法パターン】`be liable as principal`＝主たる当事者として責任を負う／`the obligation of the principal`＝主たる義務者の義務／`recover from the principal`＝主たる義務者から回収する／`the principal and the surety`＝主たる義務者と保証人  
+【文法パターン】`be liable as principal`＝主たる当事者として責任を負う／`the obligation of the principal`＝主たる義務者の義務／`the principal and the surety`＝主たる義務者と保証人  
 
 【コロケーション】
 
@@ -413,17 +403,12 @@ tags: []
 例: The guarantee does not replace the obligation of the principal.  
 訳: その保証は主たる義務者の義務に取って代わるものではない。  
 
-・`recover from the principal`  
-用途: 保証人などが支払い後に主たる義務者へ償還を求めることを表す。  
-例: After payment, the surety sought to recover from the principal.  
-訳: 支払い後、保証人は主たる義務者からの償還を求めた。  
-
 ・`the principal and the surety`  
 用途: 第一次的責任を負う当事者と、保証する側を対で示す。  
 例: The agreement states the duties of the principal and the surety.  
 訳: その契約は主たる義務者と保証人の義務を定めている。  
 
-【語法・注意】この語義では、`principal` は `be liable as principal` や `recover from the principal` のように人・法人を指す名詞である。`principal debtor` や `principal obligor` では語義1の形容詞が `debtor`・`obligor` を修飾するため、名詞単独の構造と区別する。また、金額を指す語義4の「元金」とも区別する。  
+【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。`principal debtor` や `principal obligor` では語義1の形容詞が `debtor`・`obligor` を修飾するため、名詞単独の構造と区別する。また、金額を指す語義4の「元金」とも区別する。  
 
 【類義語】
 
