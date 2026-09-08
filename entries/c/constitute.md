@@ -92,7 +92,7 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 頻度: 〈10/10〉  
 違い: form は中立的で、構成関係にも実際に作る過程にも使える。constitute は硬く、部分と全体の関係を分類・統計として述べることが多い。  
 例: These streams form the main river.  
-訳: これらの小川が合流して本流を形作る。  
+訳: これらの小川が本流を形作っている。  
 
 ・compose  
 定義: 複数の要素が全体を構成する。  
@@ -169,7 +169,7 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 頻度: 〈7/10〉  
 違い: qualify as は明示的な条件を満たす点を強調する。constitute は条件が厳密に列挙されていない一般評価にも使える。  
 例: The structure qualifies as a protected historic building.  
-訳: その建物は、保護対象の歴史的建造物に該当する。  
+訳: その構造物は、保護対象の歴史的建造物に該当する。  
 
 ・count as  
 定義: 規則・判断・一般的理解の上で、あるものとして数えられる。  
@@ -193,7 +193,7 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 
 【レジスター/領域】非常に硬い公式・行政・法律・組織運営の用法。一般的な会社・団体の設立では establish、form、set up がより広く使われる。  
 
-【文法パターン】`constitute 〈committee/body/court/government〉`＝委員会・機関・裁判所・政府を正式に設ける／`〈body〉 be constituted under/by 〈law/authority〉`＝機関が法律・権限に基づいて設立される／`a properly/legally/duly constituted 〈body/authority〉`＝適切・合法・正式に成立した機関・権限主体  
+【文法パターン】`〈authority/institution/parties〉 constitute 〈committee/body/court/government〉`＝権限主体・機関・当事者が委員会・機関・裁判所・政府を正式に設ける／`〈body〉 be constituted under/by 〈law/authority〉`＝機関が法律・権限に基づいて設立される／`a properly/legally/duly constituted 〈body/authority〉`＝適切・合法・正式に成立した機関・権限主体  
 
 【コロケーション】
 
@@ -258,7 +258,7 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 
 【レジスター/領域】法律・公文書などの公式文体。`a legally constituted officer` のような表現では、法や制度に基づいて正式に任命された役職者を指す。  
 
-【文法パターン】`constitute someone 〈office/role〉`＝人を役職・役割に任命する／`someone be constituted 〈office/role〉`＝人が役職に任命される／`a legally constituted 〈officer/official〉`＝法に基づいて正式に任命された役職者  
+【文法パターン】`〈authority/law/document〉 constitute someone 〈office/role〉`＝権限者・法律・公式文書が人を役職・役割に任命する／`someone be constituted 〈office/role〉`＝人が役職に任命される／`a legally constituted 〈officer/official〉`＝法に基づいて正式に任命された役職者  
 
 【コロケーション】
 
@@ -275,7 +275,7 @@ constitute の共通核は、要素・行為・組織・人を、ある全体・
 ・`a legally constituted 〈officer/official〉`  
 用途: 法や制度に基づいて正式に任命された役職者を指す。  
 例: The charter identifies the treasurer as a legally constituted officer of the association.  
-訳: その憲章は、会計役を協会の正式に任命された役職者として定めている。  
+訳: その憲章は、会計役を協会において法に基づき正式に任命された役職者として明記している。  
 
 【語法・注意】人を直接目的語にし、役職を目的格補語として置く `constitute someone treasurer` のような形で使う。現代の一般文では非常に硬いため、通常は `appoint someone treasurer` などとする。  
 
