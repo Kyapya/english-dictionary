@@ -1,0 +1,52 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca",
+  "stage2_request_sha256": "32f4949db8e6493b41e47ff962be393c6c3107f8f41f1e49677becb87ffd0c64",
+  "blind_record_sha256": "683387cc99beade1d9270a0d8fe4a5739acac23aa74b62ba4ef02f157a72cadc",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-recheck-frame-relation-1"
+  },
+  "adjudications": [
+    {
+      "item_id": "ant-0a73bbbbbef4",
+      "flags": [],
+      "rationale": "「優先順位」は当該語義の重要度・順位から直接導出でき、principal と secondary はその尺度上の高低として程度対立を成す。違い行にも対立を否定・限定する記述はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-ee790b401584",
+      "flags": [],
+      "rationale": "「重要度」は当該語義の定義に明示され、principal と minor は重要性・影響の尺度上の程度対立を成す。違い行にも自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-58cd21b191e5",
+      "flags": [],
+      "rationale": "当該語義は元の基礎額を利息・収益と区別しており、「元利区分」は定義から直接導出できる。principal と interest は元利を構成する補完的な金額区分で、違い行も対立を明確にしている。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-4aba931f7f28",
+      "flags": [],
+      "rationale": "当該語義は権限を与える principal と権限を受けて行動する agent を同じ代理関係の役割として定義しているため、「代理関係役割」の補完対立が成立する。違い行にも自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    },
+    {
+      "item_id": "ant-388042e62340",
+      "flags": [],
+      "rationale": "当該語義は第一次的責任者を保証人などの二次的責任者と対比しているため、「債務責任順位」は定義から導出でき、principal と surety は保証関係上の補完的役割を成す。違い行にも自己否定はない。",
+      "suggested_direction": null,
+      "f4_severity": null
+    }
+  ],
+  "frame_findings": [],
+  "unrouted_observations": []
+}

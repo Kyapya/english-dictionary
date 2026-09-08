@@ -1,0 +1,357 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-recheck-example-attribution-1"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "2b3b6dd3f94b88f1e95996ccb124e6098140e05c5e401b90503892d4368c3fca",
+    "blind_request_sha256": "951c5bc13ef868d541d7ccf61e602ff7b919fd9cd7d87978adf0a4be0b3d7aba",
+    "recorded_at": "2026-09-08T01:13:58Z",
+    "attributions": [
+      {
+        "example_id": "ex-fb8b5f2b7e29",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "The agent",
+          "on behalf of the principal"
+        ],
+        "rationale": "In \"The agent may sign the document on behalf of the principal\", the agent's authorized action \"on behalf of\" the principal directly instantiates sense:005's principal-agent relation. Sense:003's senior organizational member cannot serve as the authorizing counterparty of \"the agent\" in this frame."
+      },
+      {
+        "example_id": "ex-7c41eb4164f8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "repaying principal"
+        ],
+        "rationale": "In \"The borrower will begin repaying principal next year\", bare mass-noun \"principal\" is the amount repaid, directly selecting sense:004. Sense:007 denotes a liable person or entity and cannot be the bare monetary object of \"repaying\" in this construction."
+      },
+      {
+        "example_id": "ex-c5d165c523dc",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "a principal at an engineering consultancy"
+        ],
+        "rationale": "In \"She is a principal at an engineering consultancy\", the role-denoting noun and its direct organizational complement \"at an engineering consultancy\" select sense:003's senior professional position. Sense:002 requires leadership of an educational institution, which this consultancy-role relation does not provide."
+      },
+      {
+        "example_id": "ex-25ff55b72be5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "protect the principal",
+          "generating modest returns"
+        ],
+        "rationale": "In \"protect the principal while generating modest returns\", \"principal\" is the capital preserved in contrast with the returns it generates, directly selecting sense:004. Sense:005's authorizing party cannot stand in this capital-versus-return relation."
+      },
+      {
+        "example_id": "ex-d957f6dce97a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "acted for",
+          "an undisclosed principal"
+        ],
+        "rationale": "In \"the buyer had acted for an undisclosed principal\", \"acted for\" makes the principal the party represented by another actor, directly selecting sense:005. Sense:003's senior member is not the represented legal party in the fixed \"undisclosed principal\" relation."
+      },
+      {
+        "example_id": "ex-b39426e6689e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal cause"
+        ],
+        "rationale": "In \"corrosion as the principal cause of the failure\", \"principal\" attributively ranks \"cause\" as the most important cause, directly selecting adjectival sense:001. Sense:003 is a count noun for a person and cannot modify \"cause\" in this adjective slot."
+      },
+      {
+        "example_id": "ex-32da5a833797",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "knowingly assists the offense",
+          "as a principal"
+        ],
+        "rationale": "In \"treats a person who knowingly assists the offense as a principal\", the statute assigns criminal liability on the basis of assistance to an offense, directly selecting sense:006. Sense:005 requires authorization of an agent and cannot classify offense assistance in the \"as a principal\" predicate."
+      },
+      {
+        "example_id": "ex-46d3d0b225e5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The principal reason"
+        ],
+        "rationale": "In \"The principal reason for the delay\", \"principal\" is an attributive adjective ranking one reason by importance, directly selecting sense:001. Sense:004 is a monetary noun and cannot modify \"reason\" with this meaning."
+      },
+      {
+        "example_id": "ex-cff79d90c1f8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "identified him as a principal",
+          "in the crime"
+        ],
+        "rationale": "In \"identified him as a principal in the crime\", the complement \"in the crime\" makes the principal a directly liable criminal participant, selecting sense:006. Sense:003's senior professional or performing member cannot fill this crime-participant relation."
+      },
+      {
+        "example_id": "ex-73afb0566b61",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "appointed Dr. Lee principal of the academy"
+        ],
+        "rationale": "In \"appointed Dr. Lee principal of the academy\", the object-complement role \"principal of the academy\" denotes the head of an educational institution, directly selecting sense:002. Sense:003's professional or performing principal is not the head-of-academy role expressed by this complement."
+      },
+      {
+        "example_id": "ex-49e8020495d2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "principal place of business"
+        ],
+        "rationale": "In \"its principal place of business\", \"principal\" attributively identifies the company's chief or primary business location, directly selecting sense:001. Sense:002 is a count noun denoting an educational head and cannot modify \"place\" in this adjective slot."
+      },
+      {
+        "example_id": "ex-1f50a17d9750",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "section principals"
+        ],
+        "rationale": "In \"The orchestra's section principals\", plural noun \"principals\" names the people leading the orchestra's sections, directly selecting sense:003. Sense:002 denotes heads of educational institutions and cannot denote several section leaders possessed by one orchestra."
+      },
+      {
+        "example_id": "ex-07d2b1f4dcae",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "includes both principal and interest"
+        ],
+        "rationale": "In \"includes both principal and interest\", the coordination explicitly contrasts the underlying amount with interest, directly selecting sense:004. Sense:007's primary obligor cannot be a monetary component included in a monthly payment alongside interest."
+      },
+      {
+        "example_id": "ex-145ff7bc8efb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "The principal of the college"
+        ],
+        "rationale": "In \"The principal of the college\", the \"principal of\" relation makes the referent the college's institutional head, directly selecting sense:002. Sense:003's senior professional or performing member does not denote the head of an educational institution in this frame."
+      },
+      {
+        "example_id": "ex-ed35cbccae8e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:006"
+        ],
+        "discriminating_terms": [
+          "classified the defendant as a principal",
+          "in the first degree"
+        ],
+        "rationale": "In \"classified the defendant as a principal in the first degree\", the legally graded classification of a defendant directly selects criminal sense:006. Sense:003's senior-role noun does not take the criminal-law grade \"in the first degree\" in this predicate."
+      },
+      {
+        "example_id": "ex-5eb5c50a09a9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "The guarantee",
+          "the obligation of the principal"
+        ],
+        "rationale": "In \"The guarantee does not replace the obligation of the principal\", the principal bears the primary obligation that the guarantee leaves in place, directly selecting sense:007. Sense:005's authorizing party is defined by relation to an agent, not by this guarantee-versus-primary-obligation relation."
+      },
+      {
+        "example_id": "ex-80ce8e36d58a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "served as principal of the high school"
+        ],
+        "rationale": "In \"served as principal of the high school\", the role complement \"principal of the high school\" denotes its educational head, directly selecting sense:002. Sense:003's senior professional or performer cannot express this head-of-school relation."
+      },
+      {
+        "example_id": "ex-aa99acd56cb6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "Interest is calculated on",
+          "outstanding principal amount"
+        ],
+        "rationale": "In \"Interest is calculated on the outstanding principal amount\", \"principal\" identifies the outstanding base amount on which interest is calculated, directly selecting sense:004. Sense:007 denotes an obligor and cannot be the amount serving as the calculation base."
+      },
+      {
+        "example_id": "ex-cf6f5228a1d7",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "An agent",
+          "owes duties of loyalty and care to the principal"
+        ],
+        "rationale": "In \"An agent generally owes duties of loyalty and care to the principal\", the agent's duties run directly to the represented party, selecting sense:005. Sense:003's senior organizational person does not, merely by that status, occupy the counterparty role of an agent's loyalty and care duties."
+      },
+      {
+        "example_id": "ex-d455758e6e1c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a principal source of income"
+        ],
+        "rationale": "In \"Tourism is a principal source of income\", \"principal\" attributively ranks the source among the island's important income sources, directly selecting sense:001. Sense:004 is a noun for capital and cannot modify \"source\" with this evaluative meaning."
+      },
+      {
+        "example_id": "ex-fc53a5d9984f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "works as a principal in an architecture firm"
+        ],
+        "rationale": "In \"works as a principal in an architecture firm\", the occupational predicate and direct organization complement select sense:003's senior professional role. Sense:002 requires an educational institution head and cannot denote this role within an architecture firm."
+      },
+      {
+        "example_id": "ex-20428e537206",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "liable as principal",
+          "for the debt"
+        ],
+        "rationale": "In \"the company remains liable as principal for the debt\", the frame \"liable as principal for\" makes the company primarily responsible for the debt, directly selecting sense:007. Sense:005's represented party is not selected merely by direct liability for a debt and would require an agent relation."
+      },
+      {
+        "example_id": "ex-15bcd66a9a6a",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:004"
+        ],
+        "discriminating_terms": [
+          "pay down the principal"
+        ],
+        "rationale": "In \"pay down the principal faster\", phrasal verb \"pay down\" makes \"principal\" the debt amount reduced by payments, directly selecting sense:004. Sense:007's obligor is a person or entity and cannot be the amount reduced by \"pay down\"."
+      },
+      {
+        "example_id": "ex-d453eb4b327c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "school principal"
+        ],
+        "rationale": "In \"The school principal met with parents\", the compound \"school principal\" directly names the head of a school, selecting sense:002. Sense:003's senior professional or performing member is not a school-head role in this compound."
+      },
+      {
+        "example_id": "ex-7e354595a4c2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:003"
+        ],
+        "discriminating_terms": [
+          "promoted to principal",
+          "with the ballet company"
+        ],
+        "rationale": "In \"promoted to principal with the ballet company\", promotion to the noun role \"principal\" within the ballet company directly selects sense:003's principal performer. Sense:002's educational head cannot be a promoted role within a ballet company."
+      },
+      {
+        "example_id": "ex-1ed58dd70451",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "the principal and the surety"
+        ],
+        "rationale": "In \"the duties of the principal and the surety\", coordination contrasts the primarily liable party with the secondarily liable surety, directly selecting sense:007. Sense:005's represented party contrasts with an agent, not with a surety in this duty relation."
+      },
+      {
+        "example_id": "ex-fa542c65f954",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:005"
+        ],
+        "discriminating_terms": [
+          "principal-agent relationship"
+        ],
+        "rationale": "In \"a principal-agent relationship between the owner and the broker\", the compound explicitly pairs principal with agent as the two roles in an authorization relation, directly selecting sense:005. Sense:007 instead contrasts a principal obligor with a surety and cannot name this principal-agent relation."
+      },
+      {
+        "example_id": "ex-c78097c7ddaf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:007"
+        ],
+        "discriminating_terms": [
+          "the surety sought to recover from the principal"
+        ],
+        "rationale": "In \"the surety sought to recover from the principal\", the surety's recourse runs against the primarily liable party, directly selecting sense:007. Sense:005's authorizing party is paired with an agent, not the party from whom a paying surety recovers."
+      },
+      {
+        "example_id": "ex-2c2e3f467b14",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "one of the principal architects"
+        ],
+        "rationale": "In \"one of the principal architects of the reform\", \"principal\" is an attributive adjective marking the architects as leading or especially important, directly selecting sense:001. Sense:003 is a count noun and cannot occupy this attributive adjective position before plural \"architects\"."
+      }
+    ],
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "principal-recheck-example-attribution-1"
+    }
+  },
+  "aligned_at": "2026-09-08T01:37:48.644772+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

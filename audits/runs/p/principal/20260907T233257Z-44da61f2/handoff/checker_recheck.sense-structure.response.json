@@ -1,0 +1,39 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-recheck-sense-structure-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 78,
+        "line_end": 78,
+        "exact_quote": "一方、名詞単独の `a principal` は語義3を参照する。"
+      },
+      "severity": "minor",
+      "rationale": "この無限定の相互参照は、可算名詞として立項されている語義2・5・6・7でも `a principal` が成立するという語義構成と衝突する。直前の `principal dancer` / `principal clarinetist` との対比に限れば語義3への参照は妥当だが、現状の文面は名詞単独形一般を語義3だけに割り当てている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "舞台芸術・専門職の当該文脈で名詞単独の `a principal` と言う場合に限って語義3を参照すると限定し、他の名詞語義は文脈で判別することを明示する。"
+    },
+    {
+      "taxonomy_id": "compound_component_generalization",
+      "location": {
+        "section": "word_formation",
+        "line_start": 26,
+        "line_end": 26,
+        "exact_quote": "・principal-agent：複合形。本人と代理人の関係を表す。  "
+      },
+      "severity": "minor",
+      "rationale": "根拠が直接支えるのは `principal-agent relationship` という完全な専門句であり、`principal-agent` は通常 `relationship`・`problem` などを前から限定して二つの役割の組合せを示す複合修飾部である。構成要素だけを見出しにして、それ自体が「関係」を表すとすると、完全句の意味を複合修飾部へ一般化してしまう。",
+      "evidence_link_ids": [
+        "C-006"
+      ],
+      "suggested_direction": "見出しを完全形 `principal-agent relationship` にして「本人・代理人関係」と定義するか、`principal-agent` は `relationship` / `problem` などを修飾する複合形だと限定する。"
+    }
+  ]
+}

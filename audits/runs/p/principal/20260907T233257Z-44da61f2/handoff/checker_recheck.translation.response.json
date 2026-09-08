@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-recheck-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 53,
+        "line_end": 56,
+        "exact_quote": "・`the principal reason for ...`  \n用途: 判断や行動を生じさせた最も重要な理由を示す。  \n例: The principal reason for the delay was a shortage of parts.  \n訳: 遅延の主な理由は部品不足だった。  "
+      },
+      "severity": "blocking",
+      "rationale": "用途説明は `reason for ...` の対象を「判断や行動」に限定しているが、例文の対象は遅延という出来事であり、pattern・用途・例文が同じ完全な意味フレームを表していない。`principal reason for ...` は判断や行動に限らず、出来事や状況などの主要理由にも用いられる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "用途を「出来事・状況・判断・行動などについて、最も重要な理由を示す」のように一般化し、例文が示す補部の範囲と一致させる。"
+    }
+  ],
+  "unrouted_observations": []
+}
