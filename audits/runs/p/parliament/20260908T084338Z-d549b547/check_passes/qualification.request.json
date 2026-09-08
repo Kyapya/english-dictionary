@@ -1,0 +1,330 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "qualification",
+  "taxonomy_ids": [
+    "regional_qualification",
+    "absolute_scope_counterexample",
+    "technical_terminology_conventionality"
+  ],
+  "specification": "prompts/check_pass_qualification_v6.md",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "input_sections": {
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語 *parlement* を経て、古フランス語 *parlement*「話し合い、会議」にさかのぼり、その基になった *parler* は「話す」を意味する。もともとの「話し合う場」から、公的事項を審議する会議、さらに立法を担う代表者の機関という意味へ発達した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。  "
+      },
+      {
+        "line": 20,
+        "text": "同語源語には `parley`「交渉、会談」があり、派生語には `parliamentary`「議会の」がある。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 22,
+        "text": "＃語形成"
+      },
+      {
+        "line": 24,
+        "text": "・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 36,
+        "text": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 120,
+        "text": "【日本語訳・定義】一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 38,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 40,
+        "text": "【レジスター/領域】標準。政治、法律、報道で高頻度。特にイギリスや議会制を採る国・地域について用いられ、アメリカ合衆国の連邦議会の通常の固有名は `Congress` である。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 122,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 124,
+        "text": "【レジスター/領域】政治・行政の形式的用法。特にイギリスおよび関連する議会制度の説明・報道で用いる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 86,
+        "text": "【語法・注意】`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 150,
+        "text": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 44,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 46,
+        "text": "・`a member of parliament`  "
+      },
+      {
+        "line": 47,
+        "text": "用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。  "
+      },
+      {
+        "line": 48,
+        "text": "例: She was elected as a member of parliament for the first time last year.  "
+      },
+      {
+        "line": 49,
+        "text": "訳: 彼女は昨年、初めて国会議員に選出された。  "
+      },
+      {
+        "line": 51,
+        "text": "・`be elected to Parliament`  "
+      },
+      {
+        "line": 52,
+        "text": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+      },
+      {
+        "line": 53,
+        "text": "例: He was elected to Parliament at the age of thirty-two.  "
+      },
+      {
+        "line": 54,
+        "text": "訳: 彼は32歳で国会議員に選出された。  "
+      },
+      {
+        "line": 56,
+        "text": "・`a bill before Parliament`  "
+      },
+      {
+        "line": 57,
+        "text": "用途: 法案が国会に提出され、審議対象となっていることを表す。  "
+      },
+      {
+        "line": 58,
+        "text": "例: The bill currently before Parliament would strengthen consumer protections.  "
+      },
+      {
+        "line": 59,
+        "text": "訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。  "
+      },
+      {
+        "line": 61,
+        "text": "・`Parliament passes 〈a bill/an Act〉`  "
+      },
+      {
+        "line": 62,
+        "text": "用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。  "
+      },
+      {
+        "line": 63,
+        "text": "例: Parliament passed the bill after months of debate.  "
+      },
+      {
+        "line": 64,
+        "text": "訳: 国会は数か月にわたる審議の末、その法案を可決した。  "
+      },
+      {
+        "line": 66,
+        "text": "・`an Act of Parliament`  "
+      },
+      {
+        "line": 67,
+        "text": "用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。  "
+      },
+      {
+        "line": 68,
+        "text": "例: The requirement was introduced by an Act of Parliament.  "
+      },
+      {
+        "line": 69,
+        "text": "訳: その要件は議会制定法によって導入された。  "
+      },
+      {
+        "line": 71,
+        "text": "・`a hung parliament`  "
+      },
+      {
+        "line": 72,
+        "text": "用途: 選挙後、単独で過半数を持つ政党がない議会を指す。主にイギリス英語および議会制の政治報道で用いる。  "
+      },
+      {
+        "line": 73,
+        "text": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+      },
+      {
+        "line": 74,
+        "text": "訳: 選挙の結果、どの政党も単独過半数を持たない議会となり、各党は連立協議を始めた。  "
+      },
+      {
+        "line": 76,
+        "text": "・`dissolve Parliament`  "
+      },
+      {
+        "line": 77,
+        "text": "用途: 選挙などに先立ち、制度上の手続きによって特定期の議会を正式に終了させることを表す。  "
+      },
+      {
+        "line": 78,
+        "text": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+      },
+      {
+        "line": 79,
+        "text": "訳: 首相は国家元首に国会を解散して選挙を実施するよう求めた。  "
+      },
+      {
+        "line": 81,
+        "text": "・`a seat in Parliament`  "
+      },
+      {
+        "line": 82,
+        "text": "用途: 国会での議席、または議員としての地位を表す。  "
+      },
+      {
+        "line": 83,
+        "text": "例: The party won twelve additional seats in Parliament.  "
+      },
+      {
+        "line": 84,
+        "text": "訳: その政党は国会でさらに12議席を獲得した。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 128,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 130,
+        "text": "・`the current parliament`  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 現在の選挙で構成され、活動中の議会期または議員構成を指す。  "
+      },
+      {
+        "line": 132,
+        "text": "例: The proposal is unlikely to pass during the current parliament.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: その提案が今議会期中に可決される可能性は低い。  "
+      },
+      {
+        "line": 135,
+        "text": "・`the next parliament`  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 次の選挙後に成立する議会期または議員構成を指す。  "
+      },
+      {
+        "line": 137,
+        "text": "例: The committee recommended that the issue be reconsidered in the next parliament.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。  "
+      },
+      {
+        "line": 140,
+        "text": "・`the lifetime of a parliament`  "
+      },
+      {
+        "line": 141,
+        "text": "用途: ある議会が成立してから解散・終了するまでの存続期間を指す。  "
+      },
+      {
+        "line": 142,
+        "text": "例: Major constitutional reform may take the lifetime of a parliament to complete.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。  "
+      },
+      {
+        "line": 145,
+        "text": "・`during this parliament`  "
+      },
+      {
+        "line": 146,
+        "text": "用途: 現在の議会期・議員構成が存続している間に、という期間を表す。  "
+      },
+      {
+        "line": 147,
+        "text": "例: The government promised to introduce the measure during this parliament.  "
+      },
+      {
+        "line": 148,
+        "text": "訳: 政府は今議会期中にその措置を導入すると約束した。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+  "source_artifact_sha256": "8c3d3e8bc2bb85f93e6c7bd3c0bd855e1fcdc3416d4e6aac306d4c0d2c2683e4",
+  "normalized_input_sha256": "83d024578c5ce59648a6aaee611a775d836ce5a77ac739c39ff955b7cfb67e68"
+}

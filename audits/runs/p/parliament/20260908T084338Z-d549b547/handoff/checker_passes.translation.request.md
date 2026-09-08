@@ -1,0 +1,463 @@
+# Independent checker handoff
+
+Stage: `checker_passes/translation`
+
+Run this request in its own independent subagent/session. The seven checker pass requests are designed to run concurrently; do not concatenate them into one prompt or reuse one subagent for multiple passes.
+
+Save exactly one JSON response as `checker_passes.translation.response.json`. The top-level JSON must include the routed `pass_id` and a `reviewer` object with `mode: "handoff"`, the actual `declared_model`, `ingested_by: "human"`, and a non-empty `agent_id`. Each checker pass must use a different agent_id.
+## Prompt
+
+# check_pass_translation_v6
+
+## 目的
+
+英文・訳文・定義における意味の保存と方向を検査する。自然な意訳は認めるが、見出し語の構文差・含意・作用関係を誤学習させる変化は認めない。
+
+## 担当タクソノミー分類
+
+- `example_translation_alignment`
+- `semantic_direction_reversal`
+
+## 検査ルール
+
+- 各例文と訳について、述語、主語・目的語・補語、行為者・経験者・対象・結果の意味役割を対応させる。
+- 肯定・否定、比較基準、程度、数量、時制、相、法、条件、因果、目的を保存する。
+- 修飾範囲、焦点、対比、情報構造、明示内容と文脈推論の境界、レジスターと話者評価を保存する。
+- コロケーションのpattern・用途・英文・訳が同じ語義、品詞、完全フレームを表すか確認する。英文が別語義でも成立するだけでは合格にしない。
+- 作用する側／される側、上位／下位、原因／結果、全体／部分、評価主体／評価対象を逆転させない。
+- 日本語訳が自然でも、英文にない必然性・意図・結果・専門的効果を追加していればfindingとする。
+- 同じ例文を異なる構文や語義の証明に使い回していないか確認する。
+- 問題が1箇所に見える場合も、同じ訳語・関係が入力section内の別箇所で再発していないか確認する。
+
+## 入力として受け取るセクション
+
+- `definitions`
+- `collocations_examples`
+- `lexical_relations`
+
+front matter、生成過程、通常チェックの過去判断、ACTIVE.mdは受け取らない。
+
+## findingの出力スキーマ
+
+```json
+{
+  "taxonomy_id": "example_translation_alignment | semantic_direction_reversal",
+  "location": {
+    "section": "router section selector",
+    "line_start": 1,
+    "line_end": 1,
+    "exact_quote": "本文からの改変していない引用"
+  },
+  "severity": "blocking | minor",
+  "rationale": "何がどの方向・範囲・強さで不一致か",
+  "evidence_link_ids": [],
+  "suggested_direction": "意味を変えずに直す方向"
+}
+```
+
+`taxonomy_id`、位置、severity、根拠を必須とする。事実・語法・例文/訳の正誤に関わるものは `blocking`、事実関係を変えない局所的な日本語調整だけを `minor` とする。
+
+
+## Input packet
+
+```json
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "translation",
+  "taxonomy_ids": [
+    "example_translation_alignment",
+    "semantic_direction_reversal"
+  ],
+  "specification": "prompts/check_pass_translation_v6.md",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "input_sections": {
+    "definitions": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 36,
+        "text": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 120,
+        "text": "【日本語訳・定義】一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 44,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 46,
+        "text": "・`a member of parliament`  "
+      },
+      {
+        "line": 47,
+        "text": "用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。  "
+      },
+      {
+        "line": 48,
+        "text": "例: She was elected as a member of parliament for the first time last year.  "
+      },
+      {
+        "line": 49,
+        "text": "訳: 彼女は昨年、初めて国会議員に選出された。  "
+      },
+      {
+        "line": 51,
+        "text": "・`be elected to Parliament`  "
+      },
+      {
+        "line": 52,
+        "text": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+      },
+      {
+        "line": 53,
+        "text": "例: He was elected to Parliament at the age of thirty-two.  "
+      },
+      {
+        "line": 54,
+        "text": "訳: 彼は32歳で国会議員に選出された。  "
+      },
+      {
+        "line": 56,
+        "text": "・`a bill before Parliament`  "
+      },
+      {
+        "line": 57,
+        "text": "用途: 法案が国会に提出され、審議対象となっていることを表す。  "
+      },
+      {
+        "line": 58,
+        "text": "例: The bill currently before Parliament would strengthen consumer protections.  "
+      },
+      {
+        "line": 59,
+        "text": "訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。  "
+      },
+      {
+        "line": 61,
+        "text": "・`Parliament passes 〈a bill/an Act〉`  "
+      },
+      {
+        "line": 62,
+        "text": "用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。  "
+      },
+      {
+        "line": 63,
+        "text": "例: Parliament passed the bill after months of debate.  "
+      },
+      {
+        "line": 64,
+        "text": "訳: 国会は数か月にわたる審議の末、その法案を可決した。  "
+      },
+      {
+        "line": 66,
+        "text": "・`an Act of Parliament`  "
+      },
+      {
+        "line": 67,
+        "text": "用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。  "
+      },
+      {
+        "line": 68,
+        "text": "例: The requirement was introduced by an Act of Parliament.  "
+      },
+      {
+        "line": 69,
+        "text": "訳: その要件は議会制定法によって導入された。  "
+      },
+      {
+        "line": 71,
+        "text": "・`a hung parliament`  "
+      },
+      {
+        "line": 72,
+        "text": "用途: 選挙後、単独で過半数を持つ政党がない議会を指す。主にイギリス英語および議会制の政治報道で用いる。  "
+      },
+      {
+        "line": 73,
+        "text": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+      },
+      {
+        "line": 74,
+        "text": "訳: 選挙の結果、どの政党も単独過半数を持たない議会となり、各党は連立協議を始めた。  "
+      },
+      {
+        "line": 76,
+        "text": "・`dissolve Parliament`  "
+      },
+      {
+        "line": 77,
+        "text": "用途: 選挙などに先立ち、制度上の手続きによって特定期の議会を正式に終了させることを表す。  "
+      },
+      {
+        "line": 78,
+        "text": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+      },
+      {
+        "line": 79,
+        "text": "訳: 首相は国家元首に国会を解散して選挙を実施するよう求めた。  "
+      },
+      {
+        "line": 81,
+        "text": "・`a seat in Parliament`  "
+      },
+      {
+        "line": 82,
+        "text": "用途: 国会での議席、または議員としての地位を表す。  "
+      },
+      {
+        "line": 83,
+        "text": "例: The party won twelve additional seats in Parliament.  "
+      },
+      {
+        "line": 84,
+        "text": "訳: その政党は国会でさらに12議席を獲得した。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 128,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 130,
+        "text": "・`the current parliament`  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 現在の選挙で構成され、活動中の議会期または議員構成を指す。  "
+      },
+      {
+        "line": 132,
+        "text": "例: The proposal is unlikely to pass during the current parliament.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: その提案が今議会期中に可決される可能性は低い。  "
+      },
+      {
+        "line": 135,
+        "text": "・`the next parliament`  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 次の選挙後に成立する議会期または議員構成を指す。  "
+      },
+      {
+        "line": 137,
+        "text": "例: The committee recommended that the issue be reconsidered in the next parliament.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。  "
+      },
+      {
+        "line": 140,
+        "text": "・`the lifetime of a parliament`  "
+      },
+      {
+        "line": 141,
+        "text": "用途: ある議会が成立してから解散・終了するまでの存続期間を指す。  "
+      },
+      {
+        "line": 142,
+        "text": "例: Major constitutional reform may take the lifetime of a parliament to complete.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。  "
+      },
+      {
+        "line": 145,
+        "text": "・`during this parliament`  "
+      },
+      {
+        "line": 146,
+        "text": "用途: 現在の議会期・議員構成が存続している間に、という期間を表す。  "
+      },
+      {
+        "line": 147,
+        "text": "例: The government promised to introduce the measure during this parliament.  "
+      },
+      {
+        "line": 148,
+        "text": "訳: 政府は今議会期中にその措置を導入すると約束した。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 88,
+        "text": "【類義語】"
+      },
+      {
+        "line": 90,
+        "text": "・legislature  "
+      },
+      {
+        "line": 91,
+        "text": "定義: 法律を制定する権限を持つ機関。  "
+      },
+      {
+        "line": 92,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 93,
+        "text": "違い: `legislature` は制度名にかかわらず立法機関を機能面から指す一般語である。`parliament` は特定の政治制度・正式名称と結びつき、審議機関やその議員集団としての側面も表しやすい。  "
+      },
+      {
+        "line": 94,
+        "text": "例: The state legislature approved the revised budget.  "
+      },
+      {
+        "line": 95,
+        "text": "訳: 州議会は修正予算を承認した。  "
+      },
+      {
+        "line": 97,
+        "text": "・congress  "
+      },
+      {
+        "line": 98,
+        "text": "定義: 代表者が集まる会議または立法機関。特に大文字の `Congress` はアメリカ合衆国の連邦議会を指す。  "
+      },
+      {
+        "line": 99,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 100,
+        "text": "違い: `parliament` と近い立法機関名だが、どちらを使うかは各国・機関の正式名称と制度上の慣用で決まる。任意に置き換えられる一般的な同義語ではない。  "
+      },
+      {
+        "line": 101,
+        "text": "例: Congress approved the spending package late Friday.  "
+      },
+      {
+        "line": 102,
+        "text": "訳: 連邦議会は金曜遅く、その歳出法案一式を承認した。  "
+      },
+      {
+        "line": 104,
+        "text": "・assembly  "
+      },
+      {
+        "line": 105,
+        "text": "定義: 特定の目的のために集まる人々、または名称に `Assembly` を持つ審議・立法機関。  "
+      },
+      {
+        "line": 106,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 107,
+        "text": "違い: `assembly` は会合一般や地方・国際機関の名称にも使える広い語で、立法権を必ず含まない。`parliament` は政治的な代表制議会を中心に指す。  "
+      },
+      {
+        "line": 108,
+        "text": "例: The regional assembly debated the transport plan.  "
+      },
+      {
+        "line": 109,
+        "text": "訳: 地域議会はその交通計画を審議した。  "
+      },
+      {
+        "line": 111,
+        "text": "・diet  "
+      },
+      {
+        "line": 112,
+        "text": "定義: 日本など一部の国の立法機関を指す伝統的な英語名称。  "
+      },
+      {
+        "line": 113,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 114,
+        "text": "違い: この意味の `diet` は特定国の機関名に限られる。一般名詞として各国の議会を指す `parliament` より適用範囲が狭く、日本では `the National Diet` が正式な英語名称として使われる。  "
+      },
+      {
+        "line": 115,
+        "text": "例: The bill was submitted to the National Diet.  "
+      },
+      {
+        "line": 116,
+        "text": "訳: その法案は国会に提出された。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 152,
+        "text": "【類義語】"
+      },
+      {
+        "line": 154,
+        "text": "・legislative term  "
+      },
+      {
+        "line": 155,
+        "text": "定義: 選挙された立法機関または議員が職務を行う一定の期間。  "
+      },
+      {
+        "line": 156,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 157,
+        "text": "違い: `legislative term` は制度を問わず期間を説明する一般的な句である。`parliament` のこの語義は、特定の議会制度における選挙から次の選挙・解散までの会議体と期間を一語で表せる。  "
+      },
+      {
+        "line": 158,
+        "text": "例: Several tax reforms were enacted during the legislative term.  "
+      },
+      {
+        "line": 159,
+        "text": "訳: その議会任期中に複数の税制改革が制定された。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+  "source_artifact_sha256": "8c3d3e8bc2bb85f93e6c7bd3c0bd855e1fcdc3416d4e6aac306d4c0d2c2683e4",
+  "normalized_input_sha256": "64932c29e1503ff988a9356e31ad7a0f20f2c3631cd0389e333aaef797a9afde"
+}
+```

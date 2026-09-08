@@ -1,0 +1,30 @@
+{
+  "schema_version": "antonym_axis_adjudication_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "stage2_request_sha256": "16739599011556ff190b4d12e0839430fe6ca1e9e2e10759e1a20c5cd3f0f834",
+  "blind_record_sha256": "386a86a3c5027c55851da5762d4910edf883e2f99064f75b5cca399f796418e7",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/check_frame_relation"
+  },
+  "adjudications": [],
+  "frame_findings": [
+    {
+      "taxonomy_id": "argument_slot_role_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 76,
+        "line_end": 76,
+        "exact_quote": "・`dissolve Parliament`  "
+      },
+      "severity": "blocking",
+      "rationale": "語義1は選挙を越えて継続する制度的機関またはその構成員全体を中心とするのに対し、このフレームの目的語は解散によって終了する選挙単位の特定期 Parliament である。直後の用途説明も「特定期の議会を正式に終了させる」と明記しており、語義2の項役割を語義1に配置している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "このコロケーションと用途・例文を語義2へ移動し、語義2の文法パターンに `dissolve + Parliament` を完全フレームとして対応させる。"
+    }
+  ],
+  "unrouted_observations": []
+}

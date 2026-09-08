@@ -1,0 +1,184 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/check_example_attribution"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+    "blind_request_sha256": "d38049f14d73141c6ec0138cf92773a011274eb92b9da1664b58ee861c3d1831",
+    "recorded_at": "2026-09-08T09:18:47Z",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_example_attribution"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-b8cd9fdc0171",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during the current parliament"
+        ],
+        "rationale": "during the current parliament が current parliament 全体を提案可決の時間枠として取るため、選挙から次の選挙・解散までの議会期を表す sense:002 が自然である。競合する sense:001 の制度的機関・議員集団はそのままでは during の時間的補語にならず、current によって区切られた存続期間という同じ用法を説明できない。"
+      },
+      {
+        "example_id": "ex-b146a53dd60b",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "in the next parliament"
+        ],
+        "rationale": "in the next parliament は、next が選挙後に成立する次の制度上の単位を指し、その中で再検討するという時間的枠を作るため sense:002。競合する sense:001 は継続する制度・機関を指し、同じ機関に next という交替順序を付けるこの用法を直接説明しない。"
+      },
+      {
+        "example_id": "ex-601110af9a87",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The prime minister asked the head of state to dissolve Parliament and call an election. の dissolve Parliament and call an election は、制度上の議会を解散する sense:001 の通常表現としても、選挙で成立した現議会の構成・存続単位を終了させる sense:002 としても自然である。dissolve と call an election は後者を強く促すが、sense:001 が構成員全体も含む定義であるため、見出し語の項関係から一方を排除できない。"
+      },
+      {
+        "example_id": "ex-9538770a763d",
+        "classification": "ambiguous",
+        "candidate_sense_ids": [
+          "sense:001",
+          "sense:002"
+        ],
+        "discriminating_terms": [],
+        "rationale": "The election resulted in a hung parliament, so the parties began coalition talks. の an election resulted in a hung parliament は、過半数政党のない議会・議員集団という sense:001 と、当該選挙で成立した特定の議員構成という sense:002 の双方に同程度に適合する。hung は構成上の結果を表すが、両定義が構成員全体を含むため、見出し語自体の意味関係から一意に分けられない。"
+      },
+      {
+        "example_id": "ex-c5f33fd7accb",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "elected to Parliament"
+        ],
+        "rationale": "elected to Parliament は選出先となる制度的機関を表し sense:001。競合する sense:002 は選挙で区切られた議会期または特定期の構成を指すが、この例は期間内の出来事や特定期の交替を表さず、個人と機関の構成員関係を表している。"
+      },
+      {
+        "example_id": "ex-0e3c86dc7257",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "a member of parliament"
+        ],
+        "rationale": "a member of parliament は人と議会機関との構成員関係を直接表すため sense:001。競合する sense:002 の一議会期は member の所属先としての中心義ではなく、文中にも特定期・選挙間単位を選ぶ修飾がない。"
+      },
+      {
+        "example_id": "ex-8f5e2ac8d6fa",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during this parliament"
+        ],
+        "rationale": "during this parliament が this parliament を措置導入の期間として用いるため、選挙間の一議会期を表す sense:002。競合する sense:001 の制度的機関・議員集団はそれ自体ではこの時間的補語を満たさず、this による存続単位の限定も説明しない。"
+      },
+      {
+        "example_id": "ex-4ca26aab1f40",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "the bill currently before Parliament"
+        ],
+        "rationale": "the bill currently before Parliament は法案が審議のため制度的機関の前にあるという関係を表し sense:001。競合する sense:002 は選挙間の期間・特定構成を表すが、before の補語としてここで実現しているのは時間枠ではなく審議主体となる機関である。"
+      },
+      {
+        "example_id": "ex-fa0be8ce5cf8",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "won twelve additional seats in Parliament"
+        ],
+        "rationale": "won twelve additional seats in Parliament は政党が議会機関内で得る議席・構成員枠を表すため sense:001。競合する sense:002 の一議会期は seats の所在・所属先ではなく、特定期を示す current・next 等も文中にない。"
+      },
+      {
+        "example_id": "ex-ba3af3198ddf",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "the lifetime of a parliament"
+        ],
+        "rationale": "the lifetime of a parliament は、その成立から解散・次選挙までの存続期間を直接指すため sense:002。競合する sense:001 の恒常的な制度機関は各選挙ごとに寿命が尽きる対象ではなく、ここで数えられる lifetime を説明できない。"
+      },
+      {
+        "example_id": "ex-90a5a06d1da9",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "an Act of Parliament"
+        ],
+        "rationale": "an Act of Parliament は議会という立法機関が制定する法律という固定した機関関係を表すため sense:001。競合する sense:002 の一議会期・特定期の構成は、Act の制度的制定主体を指すこの of 関係の中心義ではなく、期間限定の修飾もない。"
+      },
+      {
+        "example_id": "ex-afc5f66e3165",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Parliament passed the bill"
+        ],
+        "rationale": "Parliament passed the bill では Parliament が可決の行為主体となり、立法機関またはその構成員全体として機能するため sense:001。競合する sense:002 の議会期は法案を可決する主体にはならず、特定の選挙期を選ぶ語句もないため、この文の主語用法を説明しない。"
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T09:30:30.899991+00:00",
+  "findings": [
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 73,
+        "line_end": 73,
+        "exact_quote": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    },
+    {
+      "taxonomy_id": "example_sense_attribution_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 78,
+        "line_end": 78,
+        "exact_quote": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+      },
+      "severity": "blocking",
+      "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "判別語の追加"
+    }
+  ],
+  "unrouted_observations": []
+}

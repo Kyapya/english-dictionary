@@ -1,0 +1,707 @@
+{
+  "schema_version": "source_inventory_v2",
+  "stage": "source_inventory",
+  "headword": "parliament",
+  "run_id": "source-parliament-20260908T084338Z-d549b547",
+  "context_id": "source-parliament-context-20260908T084338Z-d549b547",
+  "input_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+  "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+  "input_artifacts": [
+    "headword",
+    "source_first_spec"
+  ],
+  "recorded_at": "2026-09-08T09:08:02Z",
+  "source_first_audit": {
+    "version": "source_first_audit_v2",
+    "profile": "standard",
+    "profile_reason": "bounded default profile",
+    "limits": {
+      "max_sources": 6,
+      "max_facts": 48,
+      "max_research_rounds": 2,
+      "max_post_cold_rechecks": null,
+      "max_final_attempts": 2
+    },
+    "usage": {
+      "sources_used": 6,
+      "facts_used": 24,
+      "research_rounds_used": 2,
+      "post_cold_rechecks_used": 0,
+      "final_attempts_used": 0
+    },
+    "research_status": "complete",
+    "stop_reason": "coverage_axes_closed",
+    "open_questions": [],
+    "inventory_completed_before_article_comparison": true,
+    "inventory_completed_at": "2026-09-08T09:08:00Z",
+    "article_comparison_started_at": "2026-09-08T09:08:01Z",
+    "coverage_axes": [
+      {
+        "axis": "lexical_senses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-007",
+          "F-008",
+          "F-012",
+          "F-013",
+          "F-016"
+        ],
+        "notes": "Three independent general dictionaries cover the legislative institution, its membership, and the election-defined parliament."
+      },
+      {
+        "axis": "part_of_speech_and_frames",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-001",
+          "F-002",
+          "F-003",
+          "F-007",
+          "F-012",
+          "F-014",
+          "F-015"
+        ],
+        "notes": "Countability, proper-name capitalization, and the main in/before/to and collocational frames are directly represented."
+      },
+      {
+        "axis": "derived_and_related_forms",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-017"
+        ],
+        "notes": "The atomic derived form parliamentary and its procedural use are directly covered."
+      },
+      {
+        "axis": "specialist_and_legal_uses",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-018",
+          "F-019",
+          "F-020",
+          "F-021"
+        ],
+        "notes": "Official UK government guidance covers Parliament, sessions, dissolution, and the maximum term; the last is excluded from the general article as jurisdiction-specific detail."
+      },
+      {
+        "axis": "register_region_and_frequency",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-003",
+          "F-004",
+          "F-010",
+          "F-014",
+          "F-015",
+          "F-018"
+        ],
+        "notes": "Learner dictionaries and official UK guidance establish capitalization, UK institutional frames, and the formal election-to-election period use."
+      },
+      {
+        "axis": "pronunciation_and_etymology",
+        "status": "covered",
+        "source_fact_ids": [
+          "F-005",
+          "F-006",
+          "F-009",
+          "F-011",
+          "F-022",
+          "F-023",
+          "F-024"
+        ],
+        "notes": "Oxford, Merriam-Webster, Collins, and Etymonline converge on pronunciation and the French speaking/conference lineage, including the later ia spelling."
+      }
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "title": "Oxford Advanced Learner's Dictionary — parliament",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/parliament",
+        "source_type": "learner_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "Parliament is a countable noun for the elected group that makes and changes a country's laws.",
+            "source_detail": "Sense 1 gives the elected lawmaking group and examples with German and Scottish parliament."
+          },
+          {
+            "id": "F-002",
+            "form": "Parliament",
+            "kind": "lexical_sense",
+            "statement": "Capitalized Parliament can denote the national parliament of the United Kingdom and certain other countries.",
+            "source_detail": "Sense 2 labels the proper institutional use and gives UK composition context."
+          },
+          {
+            "id": "F-003",
+            "form": "Parliament",
+            "kind": "grammar_frame",
+            "statement": "The UK institutional use occurs without an article in in Parliament, before Parliament, and elected to Parliament.",
+            "source_detail": "Sense 2 examples directly attest these three frames."
+          },
+          {
+            "id": "F-004",
+            "form": "parliament",
+            "kind": "collocation",
+            "statement": "Hung parliament denotes a parliament in which no political party has an overall majority.",
+            "source_detail": "Sense 1 marks the expression as British English and defines the no-majority condition."
+          },
+          {
+            "id": "F-005",
+            "form": "parliament",
+            "kind": "pronunciation",
+            "statement": "Oxford gives British /ˈpɑːləmənt/ and American /ˈpɑːrləmənt/.",
+            "source_detail": "The entry displays separate UK and US IPA forms."
+          },
+          {
+            "id": "F-006",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "Parliament comes through Middle English from Old French parlement, meaning speaking, from parler.",
+            "source_detail": "Oxford's Word Origin gives the Middle English, Old French, and parler lineage."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "title": "Merriam-Webster — parliament",
+        "locator": "https://www.merriam-webster.com/dictionary/parliament",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "Parliament can denote a supreme legislative body understood as a continuing institution comprising successive assemblies.",
+            "source_detail": "Sense 3a expressly distinguishes the continuing institution from its individual assemblies."
+          },
+          {
+            "id": "F-008",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "Parliament can denote a formal conference for discussing public affairs, especially an early medieval council.",
+            "source_detail": "Sense 1 records the older conference and council use."
+          },
+          {
+            "id": "F-009",
+            "form": "parliament",
+            "kind": "pronunciation",
+            "statement": "Merriam-Webster gives /ˈpär-lə-mənt/ and also a variant with /-lyə-/.",
+            "source_detail": "The headword pronunciation gives the ordinary three-syllable form and a less common variant."
+          },
+          {
+            "id": "F-010",
+            "form": "parliament",
+            "kind": "historical_use",
+            "statement": "Parliament historically also names a principal court of justice in pre-Revolutionary France.",
+            "source_detail": "Sense 4 confines this use to France before 1789."
+          },
+          {
+            "id": "F-011",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "The internal ia spelling was influenced by the Latinized forms parlamentum or parliamentum.",
+            "source_detail": "The etymology note explains the uncertain but Latin-comparative internal ia spelling."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "title": "Collins English Dictionary — parliament",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/parliament",
+        "source_type": "general_dictionary",
+        "source_role": "general_lexicon",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F-012",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "A parliament is the group that makes or changes a country's laws and decides policy.",
+            "source_detail": "COBUILD sense 1 gives the lawmaking and policy-deciding body."
+          },
+          {
+            "id": "F-013",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "A particular parliament can mean the period in which that parliament works between elections.",
+            "source_detail": "COBUILD sense 3 gives the particular period between elections."
+          },
+          {
+            "id": "F-014",
+            "form": "parliament",
+            "kind": "grammar_frame",
+            "statement": "Parliament is countable in the general and election-period senses and has plural parliaments.",
+            "source_detail": "The entry labels the senses countable and supplies the plural form."
+          },
+          {
+            "id": "F-015",
+            "form": "parliament",
+            "kind": "pronunciation",
+            "statement": "Collins gives British /ˈpɑːləmənt/ and American /ˈpɑːrləmənt/.",
+            "source_detail": "British and American sections display the regional IPA forms."
+          },
+          {
+            "id": "F-016",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "A parliament is an assembly of political representatives, often the supreme legislative authority.",
+            "source_detail": "The general British English sense emphasizes representative assembly and legislative authority."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "title": "Merriam-Webster — parliamentary",
+        "locator": "https://www.merriam-webster.com/dictionary/parliamentary",
+        "source_type": "general_dictionary",
+        "source_role": "supporting_lexicon",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "parliamentary",
+            "kind": "derived_form",
+            "statement": "Parliamentary is an adjective meaning of or relating to parliament, parliamentary government, or parliamentary procedure.",
+            "source_detail": "The entry separately records parliament-related, government-system, and procedural senses."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "title": "UK Government — Guide to Parliamentary Work",
+        "locator": "https://www.gov.uk/government/publications/guide-to-parliamentary-work/guide-to-parliamentary-work-html",
+        "source_type": "government_guidance",
+        "source_role": "specialist_reference",
+        "independence_group": "uk_cabinet_office",
+        "facts": [
+          {
+            "id": "F-018",
+            "form": "Parliament",
+            "kind": "specialist_use",
+            "statement": "In UK usage, a Parliament is the period between one general election and the next.",
+            "source_detail": "Parliamentary Calendar paragraph 1 directly defines the election-to-election unit."
+          },
+          {
+            "id": "F-019",
+            "form": "session",
+            "kind": "usage_distinction",
+            "statement": "A UK Parliament is normally divided into sessions lasting roughly a year.",
+            "source_detail": "Parliamentary Calendar paragraph 1 distinguishes Parliament from its sessions."
+          },
+          {
+            "id": "F-020",
+            "form": "dissolution",
+            "kind": "usage_distinction",
+            "statement": "Dissolution separates Parliaments and ends all business in both Houses.",
+            "source_detail": "Paragraphs 3 and 18 explain dissolution as the end of a Parliament and its pending business."
+          },
+          {
+            "id": "F-021",
+            "form": "Parliament",
+            "kind": "specialist_use",
+            "statement": "The maximum UK Parliament term is five years from its first meeting under current guidance.",
+            "source_detail": "General Elections paragraph 17 states the present jurisdiction-specific maximum term."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "title": "Online Etymology Dictionary — parliament",
+        "locator": "https://www.etymonline.com/word/parliament",
+        "source_type": "etymological_reference",
+        "source_role": "etymology_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-022",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "Around 1300, parlement meant consultation, formal conference, or assembly.",
+            "source_detail": "The entry gives the c.1300 English senses."
+          },
+          {
+            "id": "F-023",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "Old French parlement originally meant a speaking or talk and came from parler, to speak.",
+            "source_detail": "The source explicitly supplies the Old French noun and verb."
+          },
+          {
+            "id": "F-024",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "The spelling was altered around 1400 under influence from Medieval Latin parliamentum.",
+            "source_detail": "The source directly dates and explains the spelling alteration."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-007",
+          "F-012",
+          "F-016"
+        ],
+        "canonical_statement": "Parliament denotes a representative legislative institution or its assembled membership.",
+        "disposition": "included",
+        "rationale": "This is the principal modern sense and anchors sense 1."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-014"
+        ],
+        "canonical_statement": "Parliament has countable common-noun uses and capitalized institutional uses with characteristic zero-article frames.",
+        "disposition": "included",
+        "rationale": "The distinction is essential for article use and capitalization."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-004"
+        ],
+        "canonical_statement": "Hung parliament means a parliament without a party holding an overall majority.",
+        "disposition": "included",
+        "rationale": "This is a frequent and opaque political collocation."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-005",
+          "F-009",
+          "F-015"
+        ],
+        "canonical_statement": "The standard British and American pronunciations are three-syllable forms differing primarily in post-vocalic r.",
+        "disposition": "included",
+        "rationale": "This supports the learner pronunciation note while not denying the recorded /lj/ variant."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-006",
+          "F-022",
+          "F-023"
+        ],
+        "canonical_statement": "Parliament comes from a French word for speaking, consultation, or conference, based on parler.",
+        "disposition": "included",
+        "rationale": "This directly explains the semantic development."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-011",
+          "F-024"
+        ],
+        "canonical_statement": "The modern internal ia spelling reflects Medieval Latin influence.",
+        "disposition": "included",
+        "rationale": "This explains the mismatch between spelling and ordinary pronunciation."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "canonical_statement": "Parliament has an older formal-conference or medieval-council use.",
+        "disposition": "excluded",
+        "rationale": "The historical source sense is retained in etymology but does not warrant a modern learner sense block."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "Parliament historically named certain French courts before 1789.",
+        "disposition": "excluded",
+        "rationale": "This obsolete foreign-historical homographic use has little current learner value and is not part of the modern core."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-013",
+          "F-018"
+        ],
+        "canonical_statement": "A particular parliament can denote the election-to-election body and period.",
+        "disposition": "included",
+        "rationale": "This distinct countable sense requires its own sense block."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-017"
+        ],
+        "canonical_statement": "Parliamentary is the adjective for parliament, parliamentary government, and parliamentary procedure.",
+        "disposition": "included",
+        "rationale": "This is the principal productive derivative."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "canonical_statement": "A Parliament can contain multiple shorter sessions.",
+        "disposition": "included",
+        "rationale": "The contrast prevents confusion between Parliament and session."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-020"
+        ],
+        "canonical_statement": "Dissolution ends a particular Parliament, unlike the end of an individual session.",
+        "disposition": "included",
+        "rationale": "This supports the key institutional contrast in sense 2."
+      },
+      {
+        "id": "U-013",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "The current UK maximum Parliament term is five years.",
+        "disposition": "excluded",
+        "rationale": "This current jurisdiction-specific legal duration is unnecessary for the lexical definition and could become stale."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "lexical_sense",
+        "statement": "The main sense is a representative legislative institution or membership.",
+        "article_target_ids": [
+          "definition:001",
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford defines the elected lawmaking group."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster distinguishes the continuing legislative institution."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Collins gives the lawmaking and policy-deciding group."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins also gives the representative legislative assembly."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "grammar_frame",
+        "statement": "Common countable and proper institutional uses differ in capitalization and article behavior.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford labels the capitalized institutional sense."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford directly attests the zero-article frames."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins labels the noun countable and supplies its plural."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "hung parliament",
+        "claim_type": "collocation",
+        "statement": "Hung parliament denotes a no-overall-majority result.",
+        "article_target_ids": [
+          "collocation:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford defines the British political collocation and majority condition."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "pronunciation",
+        "statement": "Standard British and American forms are normally three syllables, with regional r behavior.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford prints separate British and American IPA."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster supports the ordinary three-syllable form and a variant."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Collins independently prints British and American IPA."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "etymology",
+        "statement": "The word descends from French speaking and conference vocabulary based on parler.",
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford supplies the Old French parler lineage."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline supplies the early consultation and assembly meanings."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Etymonline expressly connects parlement with parler."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "etymology",
+        "statement": "Medieval Latin influenced the internal ia spelling.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster notes the Latinized forms behind the spelling."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Etymonline dates the Latin-influenced spelling change."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "lexical_sense",
+        "statement": "A particular parliament is an election-defined body and period.",
+        "article_target_ids": [
+          "definition:002",
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Collins directly defines the period between elections."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "UK government guidance independently defines the same period."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "parliamentary",
+        "claim_type": "derived_form",
+        "statement": "Parliamentary is the adjective for parliament and its system or procedure.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Merriam-Webster lists parliament, government, and procedure senses."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "session",
+        "claim_type": "usage_distinction",
+        "statement": "A Parliament can comprise multiple shorter sessions.",
+        "article_target_ids": [
+          "definition:002",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Official guidance states that Parliament is divided into sessions."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "dissolution",
+        "claim_type": "usage_distinction",
+        "statement": "Dissolution ends a particular Parliament and its pending business.",
+        "article_target_ids": [
+          "collocation:007",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Official guidance describes dissolution and the end of business."
+          }
+        ]
+      }
+    ]
+  }
+}

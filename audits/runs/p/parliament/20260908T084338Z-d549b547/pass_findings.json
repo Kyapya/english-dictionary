@@ -1,0 +1,610 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-parliament-20260908T084338Z-d549b547",
+  "context_id": "normal-parliament-context-20260908T084338Z-d549b547",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T09:30:30.907723+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_translation"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_sense_structure"
+      },
+      "findings": [
+        {
+          "id": "normal-sense-structure-001",
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 36,
+            "line_end": 36,
+            "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+          },
+          "severity": "blocking",
+          "rationale": "語義1が「構成員全体」を無限定に含む一方、語義2も「その期間に活動する特定の議員構成」を含むため、選挙後の現議員集団という同じ指示対象が両語義に入る。現状では `the current parliament` のような用例を、機関・議員集団としての語義1と、選挙で区切られた構成としての語義2のどちらに置くかを中心意味だけでは判定できず、コアイメージが掲げる二枝も一対一対応になっていない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義1の「構成員全体」は、機関を行為主体として表す通常の集合名詞的用法だと限定する。語義2は選挙・解散で制度的に区切られる特定の Parliament（およびその存続期間）に限定し、単に現在の議員たちを指すだけの用法を含めないよう、見出し・定義・`the current parliament` の説明をそろえて境界を明示する。"
+        }
+      ]
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_frame_relation"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "blind_request_sha256": "d35b886db23447d86da4e3b300d8a531e76d3f79394b170ad98e3af93ac496a5",
+        "recorded_at": "2026-09-08T09:14:51Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_frame_relation"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "stage2_request_sha256": "16739599011556ff190b4d12e0839430fe6ca1e9e2e10759e1a20c5cd3f0f834",
+        "blind_record_sha256": "386a86a3c5027c55851da5762d4910edf883e2f99064f75b5cca399f796418e7",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_frame_relation"
+        },
+        "adjudications": [],
+        "frame_findings": [
+          {
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 76,
+              "line_end": 76,
+              "exact_quote": "・`dissolve Parliament`  "
+            },
+            "severity": "blocking",
+            "rationale": "語義1は選挙を越えて継続する制度的機関またはその構成員全体を中心とするのに対し、このフレームの目的語は解散によって終了する選挙単位の特定期 Parliament である。直後の用途説明も「特定期の議会を正式に終了させる」と明記しており、語義2の項役割を語義1に配置している。",
+            "evidence_link_ids": [],
+            "suggested_direction": "このコロケーションと用途・例文を語義2へ移動し、語義2の文法パターンに `dissolve + Parliament` を完全フレームとして対応させる。"
+          }
+        ],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T09:34:25.640240+00:00",
+      "findings": [
+        {
+          "id": "normal-frame-relation-001",
+          "taxonomy_id": "argument_slot_role_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 76,
+            "line_end": 76,
+            "exact_quote": "・`dissolve Parliament`  "
+          },
+          "severity": "blocking",
+          "rationale": "語義1は選挙を越えて継続する制度的機関またはその構成員全体を中心とするのに対し、このフレームの目的語は解散によって終了する選挙単位の特定期 Parliament である。直後の用途説明も「特定期の議会を正式に終了させる」と明記しており、語義2の項役割を語義1に配置している。",
+          "evidence_link_ids": [],
+          "suggested_direction": "このコロケーションと用途・例文を語義2へ移動し、語義2の文法パターンに `dissolve + Parliament` を完全フレームとして対応させる。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_example_attribution"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "blind_request_sha256": "d38049f14d73141c6ec0138cf92773a011274eb92b9da1664b58ee861c3d1831",
+        "recorded_at": "2026-09-08T09:18:47Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_example_attribution"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-b8cd9fdc0171",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during the current parliament"
+            ],
+            "rationale": "during the current parliament が current parliament 全体を提案可決の時間枠として取るため、選挙から次の選挙・解散までの議会期を表す sense:002 が自然である。競合する sense:001 の制度的機関・議員集団はそのままでは during の時間的補語にならず、current によって区切られた存続期間という同じ用法を説明できない。"
+          },
+          {
+            "example_id": "ex-b146a53dd60b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "in the next parliament"
+            ],
+            "rationale": "in the next parliament は、next が選挙後に成立する次の制度上の単位を指し、その中で再検討するという時間的枠を作るため sense:002。競合する sense:001 は継続する制度・機関を指し、同じ機関に next という交替順序を付けるこの用法を直接説明しない。"
+          },
+          {
+            "example_id": "ex-601110af9a87",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:001",
+              "sense:002"
+            ],
+            "discriminating_terms": [],
+            "rationale": "The prime minister asked the head of state to dissolve Parliament and call an election. の dissolve Parliament and call an election は、制度上の議会を解散する sense:001 の通常表現としても、選挙で成立した現議会の構成・存続単位を終了させる sense:002 としても自然である。dissolve と call an election は後者を強く促すが、sense:001 が構成員全体も含む定義であるため、見出し語の項関係から一方を排除できない。"
+          },
+          {
+            "example_id": "ex-9538770a763d",
+            "classification": "ambiguous",
+            "candidate_sense_ids": [
+              "sense:001",
+              "sense:002"
+            ],
+            "discriminating_terms": [],
+            "rationale": "The election resulted in a hung parliament, so the parties began coalition talks. の an election resulted in a hung parliament は、過半数政党のない議会・議員集団という sense:001 と、当該選挙で成立した特定の議員構成という sense:002 の双方に同程度に適合する。hung は構成上の結果を表すが、両定義が構成員全体を含むため、見出し語自体の意味関係から一意に分けられない。"
+          },
+          {
+            "example_id": "ex-c5f33fd7accb",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "elected to Parliament"
+            ],
+            "rationale": "elected to Parliament は選出先となる制度的機関を表し sense:001。競合する sense:002 は選挙で区切られた議会期または特定期の構成を指すが、この例は期間内の出来事や特定期の交替を表さず、個人と機関の構成員関係を表している。"
+          },
+          {
+            "example_id": "ex-0e3c86dc7257",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a member of parliament"
+            ],
+            "rationale": "a member of parliament は人と議会機関との構成員関係を直接表すため sense:001。競合する sense:002 の一議会期は member の所属先としての中心義ではなく、文中にも特定期・選挙間単位を選ぶ修飾がない。"
+          },
+          {
+            "example_id": "ex-8f5e2ac8d6fa",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during this parliament"
+            ],
+            "rationale": "during this parliament が this parliament を措置導入の期間として用いるため、選挙間の一議会期を表す sense:002。競合する sense:001 の制度的機関・議員集団はそれ自体ではこの時間的補語を満たさず、this による存続単位の限定も説明しない。"
+          },
+          {
+            "example_id": "ex-4ca26aab1f40",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the bill currently before Parliament"
+            ],
+            "rationale": "the bill currently before Parliament は法案が審議のため制度的機関の前にあるという関係を表し sense:001。競合する sense:002 は選挙間の期間・特定構成を表すが、before の補語としてここで実現しているのは時間枠ではなく審議主体となる機関である。"
+          },
+          {
+            "example_id": "ex-fa0be8ce5cf8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "won twelve additional seats in Parliament"
+            ],
+            "rationale": "won twelve additional seats in Parliament は政党が議会機関内で得る議席・構成員枠を表すため sense:001。競合する sense:002 の一議会期は seats の所在・所属先ではなく、特定期を示す current・next 等も文中にない。"
+          },
+          {
+            "example_id": "ex-ba3af3198ddf",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "the lifetime of a parliament"
+            ],
+            "rationale": "the lifetime of a parliament は、その成立から解散・次選挙までの存続期間を直接指すため sense:002。競合する sense:001 の恒常的な制度機関は各選挙ごとに寿命が尽きる対象ではなく、ここで数えられる lifetime を説明できない。"
+          },
+          {
+            "example_id": "ex-90a5a06d1da9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "an Act of Parliament"
+            ],
+            "rationale": "an Act of Parliament は議会という立法機関が制定する法律という固定した機関関係を表すため sense:001。競合する sense:002 の一議会期・特定期の構成は、Act の制度的制定主体を指すこの of 関係の中心義ではなく、期間限定の修飾もない。"
+          },
+          {
+            "example_id": "ex-afc5f66e3165",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Parliament passed the bill"
+            ],
+            "rationale": "Parliament passed the bill では Parliament が可決の行為主体となり、立法機関またはその構成員全体として機能するため sense:001。競合する sense:002 の議会期は法案を可決する主体にはならず、特定の選挙期を選ぶ語句もないため、この文の主語用法を説明しない。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T09:30:30.899991+00:00",
+      "findings": [
+        {
+          "id": "normal-example-attribution-001",
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 73,
+            "line_end": 73,
+            "exact_quote": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        },
+        {
+          "id": "normal-example-attribution-002",
+          "taxonomy_id": "example_sense_attribution_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 78,
+            "line_end": 78,
+            "exact_quote": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+          },
+          "severity": "blocking",
+          "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "判別語の追加"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_qualification"
+      },
+      "findings": [
+        {
+          "id": "normal-qualification-001",
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 52,
+            "line_end": 52,
+            "exact_quote": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+          },
+          "severity": "minor",
+          "rationale": "人が議員に選ばれる意味では `elect someone to Parliament` とするという対比自体は正しいが、`elect Parliament` を無限定に不可とすると、選挙民が議会全体を選出する別の他動詞フレーム（例えば `elect a new parliament` や `a parliament was elected`）が反例になる。直前の「ここでの」によって意図は推測できるものの、不可なのが同じ意味で `to` を落とす場合に限られることを明示した方がよい。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「人を主語にして『議員として選出された』と言うこの意味では、`be elected Parliament` ではなく `be elected to Parliament` とする」と適用範囲を限定し、議会全体を目的語に取る `elect a parliament` は別フレームとして成立することを妨げない書き方にする。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_pronunciation"
+      },
+      "findings": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_evidence"
+      },
+      "findings": [
+        {
+          "id": "normal-evidence-001",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "etymology",
+            "line_start": 20,
+            "line_end": 20,
+            "exact_quote": "同語源語には `parley`「交渉、会談」があり、派生語には `parliamentary`「議会の」がある。"
+          },
+          "severity": "blocking",
+          "rationale": "C-005 links etymology:002 to F-006/F-022/F-023, which establish the French parlement/parler lineage of parliament but do not state that parley is cognate or give its meaning. F-017 supports parliamentary elsewhere, but it is not linked to this etymology target and does not repair the parley claim.",
+          "evidence_link_ids": [
+            "F-006",
+            "F-022",
+            "F-023"
+          ],
+          "suggested_direction": "Remove the parley assertion or attach a fixed etymological fact that directly establishes the relationship; map the parliamentary statement to its directly applicable derived-form evidence."
+        },
+        {
+          "id": "normal-evidence-002",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "word_formation",
+            "line_start": 24,
+            "line_end": 24,
+            "exact_quote": "・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。"
+          },
+          "severity": "blocking",
+          "rationale": "C-008/F-017 directly supports the adjective's parliament-related, parliamentary-government, and procedure senses, but the supplied fact does not analyze parliamentary synchronically as parliament plus the suffix -ary. The linked evidence therefore supports the glosses but not the stated word-formation mechanism.",
+          "evidence_link_ids": [
+            "F-017"
+          ],
+          "suggested_direction": "Limit the target to the evidenced adjective meanings, or add a morphology source that directly supports the suffix analysis."
+        },
+        {
+          "id": "normal-evidence-003",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 36,
+            "line_end": 36,
+            "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。"
+          },
+          "severity": "blocking",
+          "rationale": "C-001's F-001/F-007/F-012/F-016 support a representative lawmaking institution or its assembled membership, and F-012 also mentions deciding policy. They do not directly support the added budget-review and government-oversight functions or the full cross-country claims about formal names, composition, powers, and Japanese translation choice. The linked target is broader than the recorded evidence.",
+          "evidence_link_ids": [
+            "F-001",
+            "F-007",
+            "F-012",
+            "F-016"
+          ],
+          "suggested_direction": "Restrict the definition to the evidenced representative legislative body/membership and policy role, or add directly applicable institutional evidence for each additional function and cross-country qualification."
+        },
+        {
+          "id": "normal-evidence-004",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 38,
+            "line_end": 40,
+            "exact_quote": "【頻度】〈8/10〉  \n\n【レジスター/領域】標準。政治、法律、報道で高頻度。特にイギリスや議会制を採る国・地域について用いられ、アメリカ合衆国の連邦議会の通常の固有名は `Congress` である。"
+          },
+          "severity": "blocking",
+          "rationale": "No claim unit or recorded fact supplies the 8/10 scale, comparative frequency in politics/law/news, distribution across parliamentary systems, or the Congress naming contrast. Sense and UK-frame evidence cannot directly support these frequency and regional-distribution assertions.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the frequency/register block until a calibrated corpus or directly applicable register and regional facts are linked, or remove the unsupported quantitative and distributional claims."
+        },
+        {
+          "id": "normal-evidence-005",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 42,
+            "line_end": 42,
+            "exact_quote": "【文法パターン】普通名詞では `a/the + parliament`、`the parliament of 〈国・地域〉` の形を取る。イギリスの国会などを固有の制度として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われることがある。一方、名称を前から限定する `the UK Parliament` や、普通名詞として国を特定する `the French parliament` では定冠詞を用いる。集合名詞としての動詞の単複は、地域差と、機関を一体として見るか構成員を意識するかによって変わり得る。"
+          },
+          "severity": "blocking",
+          "rationale": "C-002/F-002/F-003/F-014 directly establish a capitalized institutional use, countability/plural, and the zero-article in Parliament, before Parliament, and elected to Parliament frames. They do not document the complete parliament of country, the UK Parliament, or the French parliament article patterns, nor regional and notional variation in collective agreement. The target mixes supported and unsupported full-frame claims.",
+          "evidence_link_ids": [
+            "F-002",
+            "F-003",
+            "F-014"
+          ],
+          "suggested_direction": "Retain the directly attested zero-article frames and countability distinction; add construction-level evidence for the remaining article patterns and collective agreement or omit them."
+        },
+        {
+          "id": "normal-evidence-006",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 86,
+            "line_end": 86,
+            "exact_quote": "【語法・注意】`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。"
+          },
+          "severity": "blocking",
+          "rationale": "C-002 routes its capitalization/article evidence (F-002/F-003/F-014) to usage_note:001, but this target instead asserts parliament-government institutional separation, building-name distinctions, and the official or conventional names Diet/National Diet and Congress. None of those claims is contained in the linked facts, so the existing claim-to-target relationship is not applicable.",
+          "evidence_link_ids": [
+            "F-002",
+            "F-003",
+            "F-014"
+          ],
+          "suggested_direction": "Remove usage_note:001 from C-002 and hold these institutional/naming contrasts until directly applicable fixed facts are linked."
+        },
+        {
+          "id": "normal-evidence-007",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 93,
+            "line_end": 93,
+            "exact_quote": "違い: `legislature` は制度名にかかわらず立法機関を機能面から指す一般語である。`parliament` は特定の政治制度・正式名称と結びつき、審議機関やその議員集団としての側面も表しやすい。"
+          },
+          "severity": "blocking",
+          "rationale": "The evidence context contains no lexical-relation claim or fact for legislature. Facts defining parliament itself do not directly establish the asserted contrast in scope, naming, or discourse tendency, and no evidence link exists for the accompanying frequency rating either.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold the legislature comparison and rating until comparative lexical evidence is recorded and linked."
+        },
+        {
+          "id": "normal-evidence-008",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 98,
+            "line_end": 114,
+            "exact_quote": "定義: 代表者が集まる会議または立法機関。特に大文字の `Congress` はアメリカ合衆国の連邦議会を指す。"
+          },
+          "severity": "blocking",
+          "rationale": "No source fact or claim unit in the fixed context defines congress, assembly, or diet or supports their asserted frequencies and contrasts with parliament. The quoted Congress definition is representative of this unsupported lexical-relations block; the same evidence-link absence applies to the assembly and diet rows through line 114.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Remove these lexical-relation rows or add fixed, directly applicable dictionary or official-name facts and separate evidence links for each definition, contrast, and frequency claim."
+        },
+        {
+          "id": "normal-evidence-009",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frequency_register",
+            "line_start": 122,
+            "line_end": 124,
+            "exact_quote": "【頻度】〈5/10〉  \n\n【レジスター/領域】政治・行政の形式的用法。特にイギリスおよび関連する議会制度の説明・報道で用いる。"
+          },
+          "severity": "blocking",
+          "rationale": "C-007/F-013/F-018 establish the election-to-election sense but do not supply a 5/10 frequency measure, characterize it as formal political/administrative usage, or establish its distribution in reporting and related parliamentary systems.",
+          "evidence_link_ids": [
+            "F-013",
+            "F-018"
+          ],
+          "suggested_direction": "Limit the block to the supported election-to-election meaning, or add calibrated frequency and register evidence for the stated scope."
+        },
+        {
+          "id": "normal-evidence-010",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "frames",
+            "line_start": 126,
+            "line_end": 126,
+            "exact_quote": "【文法パターン】可算名詞として `the current/present/next parliament`、`the first/second year of a parliament` の形を取る。イギリスの特定の議会期を制度名として扱うときは `the current Parliament`、`the next Parliament` のように大文字で書かれることもある。"
+          },
+          "severity": "blocking",
+          "rationale": "F-013/F-018 support the period sense and F-014 supports general countability, but no supplied fact documents these complete modifier/article frames or the lowercase-versus-capitalized variants. Semantic compatibility with the sense does not directly evidence the constructions.",
+          "evidence_link_ids": [
+            "F-013",
+            "F-014",
+            "F-018"
+          ],
+          "suggested_direction": "Hold the full frame inventory until construction-level attestations are recorded, or restrict the description to the evidenced countable period sense."
+        },
+        {
+          "id": "normal-evidence-011",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "usage_notes",
+            "line_start": 150,
+            "line_end": 150,
+            "exact_quote": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。"
+          },
+          "severity": "blocking",
+          "rationale": "C-009/F-019 supports division into roughly year-long sessions, and C-010/F-020 supports dissolution ending a Parliament. Neither fact states that prorogation ends a session. The supplied evidence therefore does not directly support the complete three-way Parliament/session/prorogation contrast in the linked target.",
+          "evidence_link_ids": [
+            "F-019",
+            "F-020"
+          ],
+          "suggested_direction": "Remove the prorogation clause or add an official fixed fact directly defining prorogation's relation to a session."
+        },
+        {
+          "id": "normal-evidence-012",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 154,
+            "line_end": 157,
+            "exact_quote": "・legislative term  \n定義: 選挙された立法機関または議員が職務を行う一定の期間。  \n頻度: 〈4/10〉  \n違い: `legislative term` は制度を問わず期間を説明する一般的な句である。`parliament` のこの語義は、特定の議会制度における選挙から次の選挙・解散までの会議体と期間を一語で表せる。"
+          },
+          "severity": "blocking",
+          "rationale": "The fixed evidence defines the election-to-election parliament sense but contains no fact for legislative term, its 4/10 frequency, or the asserted cross-system contrast. The relation cannot be derived as direct evidence from F-013/F-018 alone.",
+          "evidence_link_ids": [],
+          "suggested_direction": "Hold this relation until a directly applicable lexical source and calibrated frequency evidence are recorded and linked."
+        }
+      ],
+      "notes": [
+        "The normalized request and evidence-context schema/reference checks returned no errors. The source inventory digest, source-first audit digest, canonical article-body hash, and rebuilt evidence context all matched the packet values.",
+        "No source exploration, inventory-coverage reassessment, or independent dictionary-correctness review was performed. Findings are limited to whether the fixed source facts and claim-to-target links directly support the article claims."
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_translation"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_sense_structure"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_frame_relation"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_example_attribution"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_qualification"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_pronunciation"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/check_evidence"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

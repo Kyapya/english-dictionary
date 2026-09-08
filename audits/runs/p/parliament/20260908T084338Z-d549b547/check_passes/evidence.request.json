@@ -1,0 +1,1063 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "evidence",
+  "taxonomy_ids": [
+    "evidence_claim_mismatch"
+  ],
+  "specification": "prompts/check_pass_evidence_v6.md",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "input_sections": {
+    "pronunciation": [
+      {
+        "line": 13,
+        "text": "＃発音記号"
+      },
+      {
+        "line": 15,
+        "text": "発音: イギリス英語 /ˈpɑːləmənt/、アメリカ英語 /ˈpɑːrləmənt/。綴りの `lia` を一音ずつ読まず、通常は3音節で発音する。イギリス英語では母音の後の `r` を発音せず、アメリカ英語では発音する。  "
+      }
+    ],
+    "etymology": [
+      {
+        "line": 17,
+        "text": "＃語源"
+      },
+      {
+        "line": 19,
+        "text": "中英語 *parlement* を経て、古フランス語 *parlement*「話し合い、会議」にさかのぼり、その基になった *parler* は「話す」を意味する。もともとの「話し合う場」から、公的事項を審議する会議、さらに立法を担う代表者の機関という意味へ発達した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。  "
+      },
+      {
+        "line": 20,
+        "text": "同語源語には `parley`「交渉、会談」があり、派生語には `parliamentary`「議会の」がある。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 22,
+        "text": "＃語形成"
+      },
+      {
+        "line": 24,
+        "text": "・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  "
+      }
+    ],
+    "core_image": [
+      {
+        "line": 26,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 28,
+        "text": "`parliament` の中心は、「代表者が集まり、公的事項を審議して決定する制度的な会議体」である。そこから、その継続的な立法機関そのものと、一度の選挙によって構成され次の選挙まで活動する特定期の会議体を表す。  "
+      },
+      {
+        "line": 29,
+        "text": "・制度として存在し、法律や政策を審議する代表者の機関 → 「議会、国会」（語義1）  "
+      },
+      {
+        "line": 30,
+        "text": "・ある選挙後に成立し、次の選挙まで存続する具体的な構成・期間 → 「一議会期、特定期の議会」（語義2）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 36,
+        "text": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 120,
+        "text": "【日本語訳・定義】一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。  "
+      }
+    ],
+    "frequency_register": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 38,
+        "text": "【頻度】〈8/10〉  "
+      },
+      {
+        "line": 40,
+        "text": "【レジスター/領域】標準。政治、法律、報道で高頻度。特にイギリスや議会制を採る国・地域について用いられ、アメリカ合衆国の連邦議会の通常の固有名は `Congress` である。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 122,
+        "text": "【頻度】〈5/10〉  "
+      },
+      {
+        "line": 124,
+        "text": "【レジスター/領域】政治・行政の形式的用法。特にイギリスおよび関連する議会制度の説明・報道で用いる。  "
+      }
+    ],
+    "frames": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 42,
+        "text": "【文法パターン】普通名詞では `a/the + parliament`、`the parliament of 〈国・地域〉` の形を取る。イギリスの国会などを固有の制度として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われることがある。一方、名称を前から限定する `the UK Parliament` や、普通名詞として国を特定する `the French parliament` では定冠詞を用いる。集合名詞としての動詞の単複は、地域差と、機関を一体として見るか構成員を意識するかによって変わり得る。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 126,
+        "text": "【文法パターン】可算名詞として `the current/present/next parliament`、`the first/second year of a parliament` の形を取る。イギリスの特定の議会期を制度名として扱うときは `the current Parliament`、`the next Parliament` のように大文字で書かれることもある。  "
+      }
+    ],
+    "collocations_examples": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 44,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 46,
+        "text": "・`a member of parliament`  "
+      },
+      {
+        "line": 47,
+        "text": "用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。  "
+      },
+      {
+        "line": 48,
+        "text": "例: She was elected as a member of parliament for the first time last year.  "
+      },
+      {
+        "line": 49,
+        "text": "訳: 彼女は昨年、初めて国会議員に選出された。  "
+      },
+      {
+        "line": 51,
+        "text": "・`be elected to Parliament`  "
+      },
+      {
+        "line": 52,
+        "text": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+      },
+      {
+        "line": 53,
+        "text": "例: He was elected to Parliament at the age of thirty-two.  "
+      },
+      {
+        "line": 54,
+        "text": "訳: 彼は32歳で国会議員に選出された。  "
+      },
+      {
+        "line": 56,
+        "text": "・`a bill before Parliament`  "
+      },
+      {
+        "line": 57,
+        "text": "用途: 法案が国会に提出され、審議対象となっていることを表す。  "
+      },
+      {
+        "line": 58,
+        "text": "例: The bill currently before Parliament would strengthen consumer protections.  "
+      },
+      {
+        "line": 59,
+        "text": "訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。  "
+      },
+      {
+        "line": 61,
+        "text": "・`Parliament passes 〈a bill/an Act〉`  "
+      },
+      {
+        "line": 62,
+        "text": "用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。  "
+      },
+      {
+        "line": 63,
+        "text": "例: Parliament passed the bill after months of debate.  "
+      },
+      {
+        "line": 64,
+        "text": "訳: 国会は数か月にわたる審議の末、その法案を可決した。  "
+      },
+      {
+        "line": 66,
+        "text": "・`an Act of Parliament`  "
+      },
+      {
+        "line": 67,
+        "text": "用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。  "
+      },
+      {
+        "line": 68,
+        "text": "例: The requirement was introduced by an Act of Parliament.  "
+      },
+      {
+        "line": 69,
+        "text": "訳: その要件は議会制定法によって導入された。  "
+      },
+      {
+        "line": 71,
+        "text": "・`a hung parliament`  "
+      },
+      {
+        "line": 72,
+        "text": "用途: 選挙後、単独で過半数を持つ政党がない議会を指す。主にイギリス英語および議会制の政治報道で用いる。  "
+      },
+      {
+        "line": 73,
+        "text": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+      },
+      {
+        "line": 74,
+        "text": "訳: 選挙の結果、どの政党も単独過半数を持たない議会となり、各党は連立協議を始めた。  "
+      },
+      {
+        "line": 76,
+        "text": "・`dissolve Parliament`  "
+      },
+      {
+        "line": 77,
+        "text": "用途: 選挙などに先立ち、制度上の手続きによって特定期の議会を正式に終了させることを表す。  "
+      },
+      {
+        "line": 78,
+        "text": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+      },
+      {
+        "line": 79,
+        "text": "訳: 首相は国家元首に国会を解散して選挙を実施するよう求めた。  "
+      },
+      {
+        "line": 81,
+        "text": "・`a seat in Parliament`  "
+      },
+      {
+        "line": 82,
+        "text": "用途: 国会での議席、または議員としての地位を表す。  "
+      },
+      {
+        "line": 83,
+        "text": "例: The party won twelve additional seats in Parliament.  "
+      },
+      {
+        "line": 84,
+        "text": "訳: その政党は国会でさらに12議席を獲得した。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 128,
+        "text": "【コロケーション】"
+      },
+      {
+        "line": 130,
+        "text": "・`the current parliament`  "
+      },
+      {
+        "line": 131,
+        "text": "用途: 現在の選挙で構成され、活動中の議会期または議員構成を指す。  "
+      },
+      {
+        "line": 132,
+        "text": "例: The proposal is unlikely to pass during the current parliament.  "
+      },
+      {
+        "line": 133,
+        "text": "訳: その提案が今議会期中に可決される可能性は低い。  "
+      },
+      {
+        "line": 135,
+        "text": "・`the next parliament`  "
+      },
+      {
+        "line": 136,
+        "text": "用途: 次の選挙後に成立する議会期または議員構成を指す。  "
+      },
+      {
+        "line": 137,
+        "text": "例: The committee recommended that the issue be reconsidered in the next parliament.  "
+      },
+      {
+        "line": 138,
+        "text": "訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。  "
+      },
+      {
+        "line": 140,
+        "text": "・`the lifetime of a parliament`  "
+      },
+      {
+        "line": 141,
+        "text": "用途: ある議会が成立してから解散・終了するまでの存続期間を指す。  "
+      },
+      {
+        "line": 142,
+        "text": "例: Major constitutional reform may take the lifetime of a parliament to complete.  "
+      },
+      {
+        "line": 143,
+        "text": "訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。  "
+      },
+      {
+        "line": 145,
+        "text": "・`during this parliament`  "
+      },
+      {
+        "line": 146,
+        "text": "用途: 現在の議会期・議員構成が存続している間に、という期間を表す。  "
+      },
+      {
+        "line": 147,
+        "text": "例: The government promised to introduce the measure during this parliament.  "
+      },
+      {
+        "line": 148,
+        "text": "訳: 政府は今議会期中にその措置を導入すると約束した。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 86,
+        "text": "【語法・注意】`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 150,
+        "text": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。  "
+      }
+    ],
+    "lexical_relations": [
+      {
+        "line": 34,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；議会を構成する議員たち"
+      },
+      {
+        "line": 88,
+        "text": "【類義語】"
+      },
+      {
+        "line": 90,
+        "text": "・legislature  "
+      },
+      {
+        "line": 91,
+        "text": "定義: 法律を制定する権限を持つ機関。  "
+      },
+      {
+        "line": 92,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 93,
+        "text": "違い: `legislature` は制度名にかかわらず立法機関を機能面から指す一般語である。`parliament` は特定の政治制度・正式名称と結びつき、審議機関やその議員集団としての側面も表しやすい。  "
+      },
+      {
+        "line": 94,
+        "text": "例: The state legislature approved the revised budget.  "
+      },
+      {
+        "line": 95,
+        "text": "訳: 州議会は修正予算を承認した。  "
+      },
+      {
+        "line": 97,
+        "text": "・congress  "
+      },
+      {
+        "line": 98,
+        "text": "定義: 代表者が集まる会議または立法機関。特に大文字の `Congress` はアメリカ合衆国の連邦議会を指す。  "
+      },
+      {
+        "line": 99,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 100,
+        "text": "違い: `parliament` と近い立法機関名だが、どちらを使うかは各国・機関の正式名称と制度上の慣用で決まる。任意に置き換えられる一般的な同義語ではない。  "
+      },
+      {
+        "line": 101,
+        "text": "例: Congress approved the spending package late Friday.  "
+      },
+      {
+        "line": 102,
+        "text": "訳: 連邦議会は金曜遅く、その歳出法案一式を承認した。  "
+      },
+      {
+        "line": 104,
+        "text": "・assembly  "
+      },
+      {
+        "line": 105,
+        "text": "定義: 特定の目的のために集まる人々、または名称に `Assembly` を持つ審議・立法機関。  "
+      },
+      {
+        "line": 106,
+        "text": "頻度: 〈7/10〉  "
+      },
+      {
+        "line": 107,
+        "text": "違い: `assembly` は会合一般や地方・国際機関の名称にも使える広い語で、立法権を必ず含まない。`parliament` は政治的な代表制議会を中心に指す。  "
+      },
+      {
+        "line": 108,
+        "text": "例: The regional assembly debated the transport plan.  "
+      },
+      {
+        "line": 109,
+        "text": "訳: 地域議会はその交通計画を審議した。  "
+      },
+      {
+        "line": 111,
+        "text": "・diet  "
+      },
+      {
+        "line": 112,
+        "text": "定義: 日本など一部の国の立法機関を指す伝統的な英語名称。  "
+      },
+      {
+        "line": 113,
+        "text": "頻度: 〈3/10〉  "
+      },
+      {
+        "line": 114,
+        "text": "違い: この意味の `diet` は特定国の機関名に限られる。一般名詞として各国の議会を指す `parliament` より適用範囲が狭く、日本では `the National Diet` が正式な英語名称として使われる。  "
+      },
+      {
+        "line": 115,
+        "text": "例: The bill was submitted to the National Diet.  "
+      },
+      {
+        "line": 116,
+        "text": "訳: その法案は国会に提出された。  "
+      },
+      {
+        "line": 118,
+        "text": "2. 【名詞・可算】一議会期、ある選挙で成立した特定期の議会"
+      },
+      {
+        "line": 152,
+        "text": "【類義語】"
+      },
+      {
+        "line": 154,
+        "text": "・legislative term  "
+      },
+      {
+        "line": 155,
+        "text": "定義: 選挙された立法機関または議員が職務を行う一定の期間。  "
+      },
+      {
+        "line": 156,
+        "text": "頻度: 〈4/10〉  "
+      },
+      {
+        "line": 157,
+        "text": "違い: `legislative term` は制度を問わず期間を説明する一般的な句である。`parliament` のこの語義は、特定の議会制度における選挙から次の選挙・解散までの会議体と期間を一語で表せる。  "
+      },
+      {
+        "line": 158,
+        "text": "例: Several tax reforms were enacted during the legislative term.  "
+      },
+      {
+        "line": 159,
+        "text": "訳: その議会任期中に複数の税制改革が制定された。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "evidence_context": {
+    "schema_version": "evidence_context_v1",
+    "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+    "source_inventory_schema_version": "source_inventory_v2",
+    "source_inventory_sha256": "dc3c06376c1044c0602715080b8ffbe04b0ead2f6dc0aae4572624eae4071348",
+    "source_first_artifact_sha256": "8c3d3e8bc2bb85f93e6c7bd3c0bd855e1fcdc3416d4e6aac306d4c0d2c2683e4",
+    "relevant_sections": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "sources": [
+      {
+        "id": "S-001",
+        "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/parliament",
+        "source_type": "learner_dictionary",
+        "independence_group": "oxford_university_press",
+        "facts": [
+          {
+            "id": "F-001",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "Parliament is a countable noun for the elected group that makes and changes a country's laws.",
+            "source_detail": "Sense 1 gives the elected lawmaking group and examples with German and Scottish parliament."
+          },
+          {
+            "id": "F-002",
+            "form": "Parliament",
+            "kind": "lexical_sense",
+            "statement": "Capitalized Parliament can denote the national parliament of the United Kingdom and certain other countries.",
+            "source_detail": "Sense 2 labels the proper institutional use and gives UK composition context."
+          },
+          {
+            "id": "F-003",
+            "form": "Parliament",
+            "kind": "grammar_frame",
+            "statement": "The UK institutional use occurs without an article in in Parliament, before Parliament, and elected to Parliament.",
+            "source_detail": "Sense 2 examples directly attest these three frames."
+          },
+          {
+            "id": "F-004",
+            "form": "parliament",
+            "kind": "collocation",
+            "statement": "Hung parliament denotes a parliament in which no political party has an overall majority.",
+            "source_detail": "Sense 1 marks the expression as British English and defines the no-majority condition."
+          },
+          {
+            "id": "F-005",
+            "form": "parliament",
+            "kind": "pronunciation",
+            "statement": "Oxford gives British /ˈpɑːləmənt/ and American /ˈpɑːrləmənt/.",
+            "source_detail": "The entry displays separate UK and US IPA forms."
+          },
+          {
+            "id": "F-006",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "Parliament comes through Middle English from Old French parlement, meaning speaking, from parler.",
+            "source_detail": "Oxford's Word Origin gives the Middle English, Old French, and parler lineage."
+          }
+        ]
+      },
+      {
+        "id": "S-002",
+        "locator": "https://www.merriam-webster.com/dictionary/parliament",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-007",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "Parliament can denote a supreme legislative body understood as a continuing institution comprising successive assemblies.",
+            "source_detail": "Sense 3a expressly distinguishes the continuing institution from its individual assemblies."
+          },
+          {
+            "id": "F-009",
+            "form": "parliament",
+            "kind": "pronunciation",
+            "statement": "Merriam-Webster gives /ˈpär-lə-mənt/ and also a variant with /-lyə-/.",
+            "source_detail": "The headword pronunciation gives the ordinary three-syllable form and a less common variant."
+          },
+          {
+            "id": "F-011",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "The internal ia spelling was influenced by the Latinized forms parlamentum or parliamentum.",
+            "source_detail": "The etymology note explains the uncertain but Latin-comparative internal ia spelling."
+          }
+        ]
+      },
+      {
+        "id": "S-003",
+        "locator": "https://www.collinsdictionary.com/dictionary/english/parliament",
+        "source_type": "general_dictionary",
+        "independence_group": "harpercollins",
+        "facts": [
+          {
+            "id": "F-012",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "A parliament is the group that makes or changes a country's laws and decides policy.",
+            "source_detail": "COBUILD sense 1 gives the lawmaking and policy-deciding body."
+          },
+          {
+            "id": "F-013",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "A particular parliament can mean the period in which that parliament works between elections.",
+            "source_detail": "COBUILD sense 3 gives the particular period between elections."
+          },
+          {
+            "id": "F-014",
+            "form": "parliament",
+            "kind": "grammar_frame",
+            "statement": "Parliament is countable in the general and election-period senses and has plural parliaments.",
+            "source_detail": "The entry labels the senses countable and supplies the plural form."
+          },
+          {
+            "id": "F-015",
+            "form": "parliament",
+            "kind": "pronunciation",
+            "statement": "Collins gives British /ˈpɑːləmənt/ and American /ˈpɑːrləmənt/.",
+            "source_detail": "British and American sections display the regional IPA forms."
+          },
+          {
+            "id": "F-016",
+            "form": "parliament",
+            "kind": "lexical_sense",
+            "statement": "A parliament is an assembly of political representatives, often the supreme legislative authority.",
+            "source_detail": "The general British English sense emphasizes representative assembly and legislative authority."
+          }
+        ]
+      },
+      {
+        "id": "S-004",
+        "locator": "https://www.merriam-webster.com/dictionary/parliamentary",
+        "source_type": "general_dictionary",
+        "independence_group": "merriam_webster",
+        "facts": [
+          {
+            "id": "F-017",
+            "form": "parliamentary",
+            "kind": "derived_form",
+            "statement": "Parliamentary is an adjective meaning of or relating to parliament, parliamentary government, or parliamentary procedure.",
+            "source_detail": "The entry separately records parliament-related, government-system, and procedural senses."
+          }
+        ]
+      },
+      {
+        "id": "S-005",
+        "locator": "https://www.gov.uk/government/publications/guide-to-parliamentary-work/guide-to-parliamentary-work-html",
+        "source_type": "government_guidance",
+        "independence_group": "uk_cabinet_office",
+        "facts": [
+          {
+            "id": "F-018",
+            "form": "Parliament",
+            "kind": "specialist_use",
+            "statement": "In UK usage, a Parliament is the period between one general election and the next.",
+            "source_detail": "Parliamentary Calendar paragraph 1 directly defines the election-to-election unit."
+          },
+          {
+            "id": "F-019",
+            "form": "session",
+            "kind": "usage_distinction",
+            "statement": "A UK Parliament is normally divided into sessions lasting roughly a year.",
+            "source_detail": "Parliamentary Calendar paragraph 1 distinguishes Parliament from its sessions."
+          },
+          {
+            "id": "F-020",
+            "form": "dissolution",
+            "kind": "usage_distinction",
+            "statement": "Dissolution separates Parliaments and ends all business in both Houses.",
+            "source_detail": "Paragraphs 3 and 18 explain dissolution as the end of a Parliament and its pending business."
+          }
+        ]
+      },
+      {
+        "id": "S-006",
+        "locator": "https://www.etymonline.com/word/parliament",
+        "source_type": "etymological_reference",
+        "independence_group": "etymonline",
+        "facts": [
+          {
+            "id": "F-022",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "Around 1300, parlement meant consultation, formal conference, or assembly.",
+            "source_detail": "The entry gives the c.1300 English senses."
+          },
+          {
+            "id": "F-023",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "Old French parlement originally meant a speaking or talk and came from parler, to speak.",
+            "source_detail": "The source explicitly supplies the Old French noun and verb."
+          },
+          {
+            "id": "F-024",
+            "form": "parliament",
+            "kind": "etymology",
+            "statement": "The spelling was altered around 1400 under influence from Medieval Latin parliamentum.",
+            "source_detail": "The source directly dates and explains the spelling alteration."
+          }
+        ]
+      }
+    ],
+    "source_union": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-007",
+          "F-012",
+          "F-016"
+        ],
+        "canonical_statement": "Parliament denotes a representative legislative institution or its assembled membership.",
+        "disposition": "included",
+        "rationale": "This is the principal modern sense and anchors sense 1."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-014"
+        ],
+        "canonical_statement": "Parliament has countable common-noun uses and capitalized institutional uses with characteristic zero-article frames.",
+        "disposition": "included",
+        "rationale": "The distinction is essential for article use and capitalization."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-004"
+        ],
+        "canonical_statement": "Hung parliament means a parliament without a party holding an overall majority.",
+        "disposition": "included",
+        "rationale": "This is a frequent and opaque political collocation."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-005",
+          "F-009",
+          "F-015"
+        ],
+        "canonical_statement": "The standard British and American pronunciations are three-syllable forms differing primarily in post-vocalic r.",
+        "disposition": "included",
+        "rationale": "This supports the learner pronunciation note while not denying the recorded /lj/ variant."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-006",
+          "F-022",
+          "F-023"
+        ],
+        "canonical_statement": "Parliament comes from a French word for speaking, consultation, or conference, based on parler.",
+        "disposition": "included",
+        "rationale": "This directly explains the semantic development."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-011",
+          "F-024"
+        ],
+        "canonical_statement": "The modern internal ia spelling reflects Medieval Latin influence.",
+        "disposition": "included",
+        "rationale": "This explains the mismatch between spelling and ordinary pronunciation."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-013",
+          "F-018"
+        ],
+        "canonical_statement": "A particular parliament can denote the election-to-election body and period.",
+        "disposition": "included",
+        "rationale": "This distinct countable sense requires its own sense block."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-017"
+        ],
+        "canonical_statement": "Parliamentary is the adjective for parliament, parliamentary government, and parliamentary procedure.",
+        "disposition": "included",
+        "rationale": "This is the principal productive derivative."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "canonical_statement": "A Parliament can contain multiple shorter sessions.",
+        "disposition": "included",
+        "rationale": "The contrast prevents confusion between Parliament and session."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-020"
+        ],
+        "canonical_statement": "Dissolution ends a particular Parliament, unlike the end of an individual session.",
+        "disposition": "included",
+        "rationale": "This supports the key institutional contrast in sense 2."
+      }
+    ],
+    "claim_units": [
+      {
+        "id": "C-001",
+        "union_ids": [
+          "U-001"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "lexical_sense",
+        "statement": "The main sense is a representative legislative institution or membership.",
+        "article_target_ids": [
+          "definition:001",
+          "core_image:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-001",
+            "support_summary": "Oxford defines the elected lawmaking group."
+          },
+          {
+            "source_fact_id": "F-007",
+            "support_summary": "Merriam-Webster distinguishes the continuing legislative institution."
+          },
+          {
+            "source_fact_id": "F-012",
+            "support_summary": "Collins gives the lawmaking and policy-deciding group."
+          },
+          {
+            "source_fact_id": "F-016",
+            "support_summary": "Collins also gives the representative legislative assembly."
+          }
+        ]
+      },
+      {
+        "id": "C-002",
+        "union_ids": [
+          "U-002"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "grammar_frame",
+        "statement": "Common countable and proper institutional uses differ in capitalization and article behavior.",
+        "article_target_ids": [
+          "grammar_pattern:001",
+          "usage_note:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-002",
+            "support_summary": "Oxford labels the capitalized institutional sense."
+          },
+          {
+            "source_fact_id": "F-003",
+            "support_summary": "Oxford directly attests the zero-article frames."
+          },
+          {
+            "source_fact_id": "F-014",
+            "support_summary": "Collins labels the noun countable and supplies its plural."
+          }
+        ]
+      },
+      {
+        "id": "C-003",
+        "union_ids": [
+          "U-003"
+        ],
+        "subject_form": "hung parliament",
+        "claim_type": "collocation",
+        "statement": "Hung parliament denotes a no-overall-majority result.",
+        "article_target_ids": [
+          "collocation:006"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-004",
+            "support_summary": "Oxford defines the British political collocation and majority condition."
+          }
+        ]
+      },
+      {
+        "id": "C-004",
+        "union_ids": [
+          "U-004"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "pronunciation",
+        "statement": "Standard British and American forms are normally three syllables, with regional r behavior.",
+        "article_target_ids": [
+          "pronunciation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-005",
+            "support_summary": "Oxford prints separate British and American IPA."
+          },
+          {
+            "source_fact_id": "F-009",
+            "support_summary": "Merriam-Webster supports the ordinary three-syllable form and a variant."
+          },
+          {
+            "source_fact_id": "F-015",
+            "support_summary": "Collins independently prints British and American IPA."
+          }
+        ]
+      },
+      {
+        "id": "C-005",
+        "union_ids": [
+          "U-005"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "etymology",
+        "statement": "The word descends from French speaking and conference vocabulary based on parler.",
+        "article_target_ids": [
+          "etymology:001",
+          "etymology:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-006",
+            "support_summary": "Oxford supplies the Old French parler lineage."
+          },
+          {
+            "source_fact_id": "F-022",
+            "support_summary": "Etymonline supplies the early consultation and assembly meanings."
+          },
+          {
+            "source_fact_id": "F-023",
+            "support_summary": "Etymonline expressly connects parlement with parler."
+          }
+        ]
+      },
+      {
+        "id": "C-006",
+        "union_ids": [
+          "U-006"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "etymology",
+        "statement": "Medieval Latin influenced the internal ia spelling.",
+        "article_target_ids": [
+          "etymology:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-011",
+            "support_summary": "Merriam-Webster notes the Latinized forms behind the spelling."
+          },
+          {
+            "source_fact_id": "F-024",
+            "support_summary": "Etymonline dates the Latin-influenced spelling change."
+          }
+        ]
+      },
+      {
+        "id": "C-007",
+        "union_ids": [
+          "U-009"
+        ],
+        "subject_form": "parliament",
+        "claim_type": "lexical_sense",
+        "statement": "A particular parliament is an election-defined body and period.",
+        "article_target_ids": [
+          "definition:002",
+          "core_image:003"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-013",
+            "support_summary": "Collins directly defines the period between elections."
+          },
+          {
+            "source_fact_id": "F-018",
+            "support_summary": "UK government guidance independently defines the same period."
+          }
+        ]
+      },
+      {
+        "id": "C-008",
+        "union_ids": [
+          "U-010"
+        ],
+        "subject_form": "parliamentary",
+        "claim_type": "derived_form",
+        "statement": "Parliamentary is the adjective for parliament and its system or procedure.",
+        "article_target_ids": [
+          "word_formation:001"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-017",
+            "support_summary": "Merriam-Webster lists parliament, government, and procedure senses."
+          }
+        ]
+      },
+      {
+        "id": "C-009",
+        "union_ids": [
+          "U-011"
+        ],
+        "subject_form": "session",
+        "claim_type": "usage_distinction",
+        "statement": "A Parliament can comprise multiple shorter sessions.",
+        "article_target_ids": [
+          "definition:002",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-019",
+            "support_summary": "Official guidance states that Parliament is divided into sessions."
+          }
+        ]
+      },
+      {
+        "id": "C-010",
+        "union_ids": [
+          "U-012"
+        ],
+        "subject_form": "dissolution",
+        "claim_type": "usage_distinction",
+        "statement": "Dissolution ends a particular Parliament and its pending business.",
+        "article_target_ids": [
+          "collocation:007",
+          "usage_note:002"
+        ],
+        "source_supports": [
+          {
+            "source_fact_id": "F-020",
+            "support_summary": "Official guidance describes dissolution and the end of business."
+          }
+        ]
+      }
+    ]
+  },
+  "specification_sha256": "dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d",
+  "source_artifact_sha256": "8c3d3e8bc2bb85f93e6c7bd3c0bd855e1fcdc3416d4e6aac306d4c0d2c2683e4",
+  "normalized_input_sha256": "2d81888d32afdec37c0c9a5b1dcecaf7fe751d4302f3909d4f205ac737a62383"
+}
