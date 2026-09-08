@@ -1,0 +1,24 @@
+{
+  "pass_id": "pronunciation",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "constitute-pronunciation-1",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 16,
+        "line_end": 16,
+        "exact_quote": "三人称単数 constitutes の語尾は /s/ ではなく、直前の /t/ と続いて /ts/ となる。"
+      },
+      "severity": "blocking",
+      "rationale": "constitutes の屈折接辞 -s の発音は /s/ であり、語幹末の /t/ に続くため語全体の末尾が /ts/ になる。「語尾は /s/ ではなく /ts/」という説明は、接辞そのものの発音と、語幹末子音を含む語末連続を混同している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "三人称単数の接辞 -s は /s/ と発音され、語幹末 /t/ と合わせた語末が /ts/ になる、と区別して説明する。"
+    }
+  ]
+}

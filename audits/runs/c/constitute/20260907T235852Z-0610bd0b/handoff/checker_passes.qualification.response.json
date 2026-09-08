@@ -1,0 +1,37 @@
+{
+  "pass_id": "qualification",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "constitute-qualification-1",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 192,
+        "line_end": 192,
+        "exact_quote": "【日本語訳・定義】組織、委員会、裁判所、政府などを、所定の手続き・権限・構成によって正式に作り、活動できる形にする。単に人を集めるだけでなく、公式の組織体として成立させる意味を持つ。設立手続きや法的効果の具体的内容は制度・法域によって異なる。  "
+      },
+      "severity": "blocking",
+      "rationale": "この語義は正式な設置・編成を表し得るが、constitute 自体が常に「所定の手続き・権限・構成」を満たすことや、組織を実際に活動可能にすることまでを必須条件として含意するわけではない。たとえば当事者が government や committee を constitute するという一般的・政治的な文脈では、法的成立要件や運用可能性は別問題になり得る。末尾で法域差に触れていても、冒頭の定義が制度上の成立・効果を語彙的意味へ取り込んでいる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "中心義を「組織・委員会などを正式に形成・設置する」にとどめ、所定手続き、権限、活動可能性は文脈や制度によって伴うことがある条件として分離する。"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 264,
+        "line_end": 264,
+        "exact_quote": "【日本語訳・定義】権限をもつ者・法律・公式文書などが、人を特定の職務・地位・役割に就け、その資格で行動できるようにする。現代の日常英語ではまれで、appoint や designate が普通である。  "
+      },
+      "severity": "blocking",
+      "rationale": "appoint/designate に近いこの古風・法律的用法は、人を役職・法的地位に正式に任命・指定することを表すが、constitute という語だけで有効な資格や権限が付与され、その立場で行動可能になることまで一律に保証しない。権限の有無と範囲は文書、委任、適用法などに依存するため、「その資格で行動できるようにする」は制度上の効果を語彙的意味として過剰に一般化している。また「資格」は免許・専門資格の授与とも読め、通常の専門訳として範囲が広すぎる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「人を特定の役職・地位・役割に正式に任命・指定する」とし、資格・権限の有効性や範囲は該当文書・制度・法域によって決まると明示する。「資格を与える」は一般的な免許・専門資格の取得を意味しないよう限定する。"
+    }
+  ]
+}
