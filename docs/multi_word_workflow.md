@@ -43,8 +43,8 @@ rootには実際のcontrol checkoutを使い、main上で無関係な変更を�
    入力全体を検証し、同一slugの重複依頼は既存jobへ集約する。
 2. 利用可能な独立した **語担当** の数を確認し `--dispatch --max-active N` を使う。
    最初の既定は2。枠が確認できなければ1を使う。受付済みの待機語にはrunもdeadlineも
-   作られず、割当された語だけで従来の60/90分budgetが開始する。開始後のdeadline、
-   失敗回数、研究budgetは変更・一時停止しない。
+   作られず、割当された語だけで60/90分の警告目安の計測が開始する。時間超過では停止せず、開始後のdeadline目安、
+   失敗回数、研究budgetは変更・一時停止しない。時間を理由に新runを作らず同じrunをresumeする。
 3. 出力の `workspace` / `assignment_path` ごとに別の語担当を起動する。
    初期化のclone/fetchは短い直列処理であり、LLM並列実行の証拠とは呼ばない。
    語担当はその作業場所のAGENTS.mdと `run_word.py --resume ...` のnext_stageに従う。
@@ -55,6 +55,8 @@ rootには実際のcontrol checkoutを使い、main上で無関係な変更を�
    実行する。既知の無認証git pushは試さない。
 5. control側は `--status` / `--dispatch` を再度呼び、completedやbudget_exhaustedを
    読み取って空き枠を次へ渡す。語担当の停止は他語の受付・処理を停止する理由にしない。
+   `last_heartbeat_at` と `time_warnings` も表示する。時間目安超過はactiveのままとし、
+   それだけで枠を解放・再dispatchしない。時刻だけで担当の生存状態を断定しない。
    activeのまま応答がない担当を勝手に二重起動しない。
 6. 各語の完了は既存の機械検証・レビュー・PR経路で確認する。PRと共通台帳の統合は
    control担当が順番に行い、最新mainとの競合時には検証せずに上書きしない。

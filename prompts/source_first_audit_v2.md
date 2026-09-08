@@ -36,7 +36,7 @@ source-firstは「ウェブ上の情報を見つからなくなるまで探す�
 
 1 research roundは、未解決coverage軸を明示してから行う一まとまりの資料確認を指す。資料を1件開くたびにroundを増やす意味ではない。
 
-research roundの内部も無制限ではない。`scripts/entry_workflow_guard.py` の全体時間、検索query、候補pageの各上限を常に優先し、採用しなかった検索・候補資料もattempt budgetへ数える。round開始前に予定query数・候補page数を `record-research` へ記録し、終了後にheartbeatで進捗時刻を記録できる（heartbeat間隔に上限はない）。終了コード2ではsource-first側も `stop` し、存在するdraftと未解決coverage軸をcommit・pushして安全停止する。
+research roundの内部も無制限ではない。`scripts/entry_workflow_guard.py` の検索query、候補pageの各上限を常に優先し、採用しなかった検索・候補資料もattempt budgetへ数える。round開始前に予定query数・候補page数を `record-research` へ記録し、終了後にheartbeatで進捗時刻を記録できる（heartbeat間隔に上限はない）。終了コード2ではsource-first側も `stop` し、存在するdraftと未解決coverage軸をcommit・pushして安全停止する。
 
 ## 資料選定と閉包条件
 
@@ -109,13 +109,13 @@ python scripts/source_first_audit_gate.py stop entries/a/apple.md \
 ## 再審査上限
 
 - コールドレビューは固定draftに対して1回だけ行い、採用修正後に同じ目的で全面再実行しない。
-- 採用修正後は `scripts/workflow_revision.py` が意味上の影響範囲checkerだけを失効させる。分類不能、複数section、語義統合・分割、品詞追加削除は全checkerへ倒す。
+- 採用修正後は `scripts/workflow_revision.py` が意味上の影響範囲checkerだけを失効させる。複数sectionの局所修正は依存passの和集合とし、分類不能、語義統合・分割、品詞・語義順序の変更は全checkerへ倒す。
 - `post_cold_rechecks_used` は影響範囲checkerの再検査roundを数え、未変更passの有効な結果再利用を再実行として数えない。
 - 再検査のためにsource、fact、research roundを自動追加しない。根拠対象claimを変更した場合は、同じ既存資料に基づくclaim/source support対応と本文hashを更新して検証する。
 - 最終審査は初回とREJECT後の再審査を合わせて最大2回とする。
 - 上限で問題が残る場合、同じ依頼内で新cycleを自動開始しない。`needs_review`、checked false、blocker付きで停止する。
 - 次の明示的なユーザー依頼で新cycleを開始できる。停止を避けるために合否基準を緩めてはならない。
-- source-firstの資料・fact・round数が上限内でも、entry workflowの時間・query・候補page budgetに達した場合は停止する。選定済み件数が少ないことを、追加探索を無制限に続ける理由にしない。
+- source-firstの資料・fact・round数が上限内でも、entry workflowのquery・候補page budgetに達した場合は停止する。経過時間・draft保存時間の目安超過は警告記録だけとし、停止・新cycle開始の理由にしない。選定済み件数が少ないことを、追加探索を無制限に続ける理由にしない。
 
 ## 移行と合否
 

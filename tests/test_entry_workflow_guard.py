@@ -59,8 +59,9 @@ def confirm_without_git(value: dict, *, at: datetime = START + timedelta(minutes
 
 
 class EntryWorkflowGuardTests(unittest.TestCase):
-    def test_standard_profile_has_hard_runtime_and_attempt_limits(self) -> None:
+    def test_standard_profile_has_advisory_runtime_and_hard_attempt_limits(self) -> None:
         value = manifest()
+        self.assertEqual(value["time_policy"], "advisory_v1")
         self.assertEqual(value["limits"], PROFILES["standard"])
         self.assertEqual(value["status"], "in_progress")
         self.assertEqual(value["stage"], "preflight")
@@ -128,13 +129,13 @@ class EntryWorkflowGuardTests(unittest.TestCase):
         self.assertEqual(value["stop_reason"], "")
         self.assertNotIn("max_heartbeat_gap_minutes", value["limits"])
 
-    def test_late_draft_is_saved_as_terminal_safe_stop(self) -> None:
+    def test_late_draft_is_saved_and_can_continue(self) -> None:
         value = manifest()
         confirm_without_git(value)
         value["last_heartbeat_at"] = (START + timedelta(minutes=19)).isoformat().replace(
             "+00:00", "Z"
         )
-        self.assertFalse(
+        self.assertTrue(
             advance_stage(
                 value,
                 stage="draft_saved",
@@ -143,8 +144,9 @@ class EntryWorkflowGuardTests(unittest.TestCase):
             )
         )
         self.assertEqual(value["stage"], "draft_saved")
-        self.assertEqual(value["status"], "budget_exhausted")
-        self.assertEqual(value["stop_reason"], "draft saved after pre-draft budget expired")
+        self.assertEqual(value["status"], "in_progress")
+        self.assertEqual(value["stop_reason"], "")
+        self.assertIn("pre_draft_target_exceeded", value["time_warnings"])
 
     def test_stage_order_cannot_skip_checkpoint(self) -> None:
         value = manifest()
@@ -368,7 +370,7 @@ class ReviewIngestFailureTests(unittest.TestCase):
         )
         self.assertEqual(value["last_heartbeat_at"], heartbeat)
 
-    def test_elapsed_budget_stops_the_run_even_while_ingestion_keeps_failing(self) -> None:
+    def test_elapsed_target_does_not_replace_ingestion_failure_accounting(self) -> None:
         value = manifest()
         confirm_without_git(value)
         limit = PROFILES["standard"]["max_elapsed_minutes"]
@@ -378,9 +380,10 @@ class ReviewIngestFailureTests(unittest.TestCase):
             error="boom",
             now=START + timedelta(minutes=limit + 1),
         )
-        self.assertFalse(running)
-        self.assertEqual(value["status"], "budget_exhausted")
-        self.assertEqual(value["stop_reason"], "overall elapsed-time budget exhausted")
+        self.assertTrue(running)
+        self.assertEqual(value["status"], "in_progress")
+        self.assertEqual(value["review_ingest_failures"]["count"], 1)
+        self.assertIn("elapsed_target_exceeded", value["time_warnings"])
 
     def test_a_new_stage_and_a_successful_ingestion_reset_the_streak(self) -> None:
         value = manifest()

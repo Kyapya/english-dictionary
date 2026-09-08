@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import argparse
+import copy
 import hashlib
 import json
 import os
@@ -2499,6 +2500,34 @@ def _report_review_failure(
     return 2 if not running else 1
 
 
+def _recover_time_stop(manifest: dict[str, Any], *, repo_root: Path) -> bool:
+    original = manifest
+    manifest = copy.deepcopy(manifest)
+    if not guard.resume_legacy_time_stop(manifest):
+        return False
+    # The old late-draft path saved the draft checkpoint and cost row, then
+    # raised before advancing the orchestrator cursor. Reconcile that exact
+    # partial write without generating the entry again or charging cost twice.
+    if manifest.get("orchestrator_state") is not None:
+        request = next_stage_request(manifest)
+        if (manifest["stage"] == "draft_saved" and request
+                and request["name"] == "generation"):
+            cost = _cost_row(manifest["metrics"], "stages", "generation")
+            if cost.get("completed") is not True:
+                raise ValueError("late-draft recovery requires the saved generation cost record")
+            outputs = request["output_paths"]
+            if any(not (repo_root / path).is_file() for path in outputs):
+                raise ValueError("late-draft recovery requires every saved generation output")
+            state = manifest["orchestrator_state"]
+            state["completed_stages"].append("generation")
+            state["next_stage_index"] += 1
+            state["stage_outputs"]["generation"] = list(outputs)
+            manifest["time_stop_recoveries"][-1]["reconciled_stage"] = "generation"
+    original.clear()
+    original.update(manifest)
+    return True
+
+
 def _resume(
     path: Path,
     *,
@@ -2512,6 +2541,17 @@ def _resume(
     publication = manifest.get("publication", {})
     if publication.get("mode") in {"git", "connector"}:
         publish_checkpoint.select(REPO_ROOT, publication["mode"])
+    if guard.is_legacy_time_stop(manifest):
+        # First finish any outstanding publication; never overwrite its checkpoint.
+        if publication.get("mode") == "connector" and not publish_checkpoint.publish(REPO_ROOT):
+            print(json.dumps({"status": "publication_pending", "run": str(resolved), "action": "publish the existing checkpoint, then resume the same run"}))
+            return 0
+        _recover_time_stop(manifest, repo_root=REPO_ROOT)
+        guard._write(resolved, manifest)
+        _commit_and_push(REPO_ROOT, (resolved,), "Resume clock-stopped workflow without resetting progress")
+        if publication.get("mode") == "connector":
+            print(json.dumps({"status": "publication_pending", "run": str(resolved), "action": "publish time-stop recovery, then resume the same run"}))
+            return 0
     if publication.get("mode") == "connector":
         if not publish_checkpoint.publish(REPO_ROOT):
             print(json.dumps({"status": "publication_pending", "run": str(resolved), "action": "run scripts/publish_checkpoint.js through the GitHub connector"}))
@@ -2635,6 +2675,7 @@ def _resume(
                 "status": manifest["status"],
                 "stage": manifest["stage"],
                 "next_stage": next_request,
+                "time_warnings": manifest.get("time_warnings", {}),
                 "handoff_request": (
                     handoff_path.relative_to(REPO_ROOT).as_posix()
                     if handoff_path is not None

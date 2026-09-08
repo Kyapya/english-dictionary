@@ -68,6 +68,13 @@ checker/final_blind/final_reviewも同じ指定形式を使う。検証は一時
 
 新規runでは `python scripts/run_word.py <headword>` を直接実行しません。`scripts/start_word.py` はremote branch上の同一見出し語のworkflow manifestを先に確認し、`in_progress` があれば既存runの再開を要求します。`budget_exhausted` の後も自動再試行せず、原因確認後に明示的に再実行する場合だけ次を使います。
 
+ただし旧来の時間超過だけで停止したrunは例外です。新runを作らず通常の `--resume` で
+同じrunを復帰し、`time_stop_recoveries` に旧停止理由と時刻を保存します。復帰checkpointも
+通常の公開経路で保存します。旧late-draft停止でdraft checkpointと工程cursorがずれた
+場合も、保存済みの全生成出力・計測値を確認してcursorだけを同期し、生成をやり直しません。
+出力が欠けている場合は復帰を拒否します。検索上限・再審査回数上限・取り込み失敗・理由不明の停止は
+自動解除しません。下記のrestartフラグでも時間切れrunの再作成は許可しません。
+
 ```bash
 python scripts/start_word.py <headword> --restart-after-budget-exhausted
 ```
@@ -126,7 +133,7 @@ checker_passes.evidence.request.md
 
 第2応答は `handoff/checker_passes.frame-relation.stage2.response.json` に保存します。checker段では旧aggregate handoffへのフォールバックを認めません。7個の個別stage-1応答がない場合、またはcanonicalなframe-relation stage-2応答がない場合はfail closedで停止します。第2応答を取り込むとframe-relationを裁定・復元し、7パスを `pass_findings.json` へ機械集約します。第2応答のsubagent/modelがstage 1と違う場合は拒否します。
 
-checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列サブエージェント実行中もbudgetは進行します。heartbeatは監査用の進捗時刻であり、間隔超過だけでは停止しません。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
+checker_passes handoffは以上の意味で **2往復** ですが、最初の往復は7つのcheckerを直列に処理するのではなく7並列です。並列サブエージェント実行中も経過時間を計測しますが、時間超過だけでは停止しません。heartbeatは監査用の進捗時刻であり、間隔超過だけでは停止しません。guardを止めたり、新runを作ってdeadlineを回避したりしません。同じ段の取り込み失敗が3回に達したrunは `budget_exhausted` で停止します。
 
 新規runのorchestrator manifestには `checker_execution_protocol: parallel_subagents_v2` と `checker_subagent_count` を記録します。CIの `scripts/checker_subagent_gate.py` は、このプロトコルを持つcompleted handoff runについて7パスの被覆と `reviewer.agent_id` の一意性を再検証します。モデル名の一意性は要求しません。旧runは過去の監査証跡を改変しないため、この新プロトコルを持たない限り遡及的に失敗させません。
 
@@ -134,9 +141,16 @@ evidence checker requestには、完成済みsource-first正本から対象claim
 
 ## オーケストレータ
 
+全工程60/90分・下書き20/30分は警告目安です。`deadline_at` 等の旧フィールド名・値は
+履歴互換と計測のため保持しますが、どの工程でも時間超過だけでは停止しません。
+`time_warnings` に最初の超過観測時刻・工程・同一run継続の指示を保存します。
+調整役は原因を報告し、未完了工程を続けます。時間のために完了済みのchecker/coldを
+再実行しません。検索・再審査回数上限、不正応答の反復停止、通信・コマンドtimeout、
+CIの実行timeoutは別の安全策として維持します。更新時刻だけで実行停止と断定しません。
+
 オーケストレータはguard開始、生成、機械validator、同一固定draftへの7 checker/cold、pre-blind resolution、一括修正、影響範囲checker再検査、最新版への独立final blind、blind seal、post-blind resolution、final review、status同期、exportの順序を記録します。final-blind修正を採用した場合は、影響pass再検査後に新本文でfinal blindを再実行します。budget、remote checkpoint、段階成果物の存在、blind入力分離、本文hash、seal時系列、status遷移はスクリプトが強制します。
 
-修正影響は `scripts/workflow_revision.py` が意味単位で判定します。pronunciationだけならpronunciation/evidence、例文・訳ならtranslation/example-attribution/frame-relation等を失効させます。spec hash、正規化入力hash、source-first hash、schema、reviewer independence、request bindingがすべて一致し、影響対象外のpassだけ再利用できます。分類不能、複数section、語義統合・分割、品詞追加削除は全7 checkerを再実行します。cold reviewは同じ目的で全面再実行しません。
+修正影響は `scripts/workflow_revision.py` が意味単位で判定します。pronunciationだけならpronunciation/evidence、例文・訳ならtranslation/example-attribution/frame-relation等を失効させます。spec hash、正規化入力hash、source-first hash、schema、reviewer independence、request bindingがすべて一致し、影響対象外のpassだけ再利用できます。複数sectionの局所修正は依存passの和集合を再検査します。分類不能、語義統合・分割、品詞・語義順序の変更は全7 checkerを再実行します。cold reviewは同じ目的で全面再実行しません。
 
 findingゼロだけを理由とする二次cold/example-attribution reviewは新規runでは行いません。必須pass欠落・hash不一致等は機械拒否し、具体的な判断衝突、明示的不確実性、未解決evidenceだけを争点単位の `targeted_adjudication` へ送ります。`insufficient_evidence` はPASSへ変換しません。
 

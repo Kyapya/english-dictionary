@@ -9,6 +9,7 @@ from pathlib import Path
 from typing import Any
 
 from slugify import slugify
+from entry_workflow_guard import is_legacy_time_stop
 
 
 REPO_ROOT = Path(__file__).resolve().parents[1]
@@ -110,6 +111,7 @@ def discover_remote_runs(headword: str) -> list[dict[str, Any]]:
                 "started_at": manifest.get("started_at"),
                 "deadline_at": manifest.get("deadline_at"),
                 "stop_reason": str(manifest.get("stop_reason", "")),
+                "time_stop_resumable": is_legacy_time_stop(manifest),
             }
             previous = found.get(run_id)
             if previous is None or status_rank.get(record["status"], -1) > status_rank.get(
@@ -131,8 +133,8 @@ def blocking_runs(
 
     Incomplete runs older than the newest completed run are historical and do
     not block. A current in-progress run always requires resume. A current
-    budget-exhausted run requires an explicit restart flag so an agent cannot
-    silently reset the deadline/failure counter by creating v2/v3/... runs.
+    clock-stopped run also requires resume. Other budget-exhausted runs require
+    an explicit restart flag; agents must not reset failure/attempt counters.
     """
     completed_times = [
         parsed
@@ -154,7 +156,8 @@ def blocking_runs(
     active = [
         item
         for item in runs
-        if item.get("status") == "in_progress" and current(item)
+        if (item.get("status") == "in_progress"
+            or item.get("time_stop_resumable", is_legacy_time_stop(item))) and current(item)
     ]
     if active:
         return "resume_required", active

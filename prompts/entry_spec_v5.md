@@ -8,9 +8,9 @@ Codexは新規記事の作成または既存記事の再作成を始める前に
 
 この仕様を読む前の調整役preflightで、専用remote branchと `audits/workflow_runs/` のrun JSONが作成・pushされ、`scripts/entry_workflow_guard.py confirm-remote` が終了コード0になっていなければ、外部資料の検索、本文の意味判断、サブエージェント起動を始めない。
 
-通常はstandard profileを使い、開始から全工程60分、draft保存20分、検索query 12件、候補page 18件を上限とする。多義性または専門領域の広さについて具体的理由を記録した場合だけextendedを使え、開始から全工程90分、draft保存30分、検索query 18件、候補page 26件を上限とする。heartbeatは進捗時刻を残す監査情報であり、実行間隔に上限を設けない。個別budget上限を引き上げてはならない。
+通常はstandard profileを使い、全工程60分・draft保存20分は警告目安、検索query 12件・候補page 18件は上限とする。多義性または専門領域の広さについて具体的理由を記録した場合だけextendedを使え、全工程90分・draft保存30分は警告目安、検索query 18件・候補page 26件は上限とする。時間目安を超えても停止・新run作成・完了済み検査のやり直しをせず、原因を記録して同じrunの未完了工程を継続する。heartbeatは進捗時刻を残す監査情報であり、実行間隔に上限を設けない。時間以外のbudget上限を引き上げてはならない。
 
-採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。`heartbeat` は各batchの前後などで進捗時刻を残すために実行できるが、間隔超過を停止条件にしない。終了コード2またはbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。
+採用した資料だけでなく、検索を試みるqueryと開く候補pageを、各外部調査batchの前に `entry_workflow_guard.py record-research` で記録する。`heartbeat` は各batchの前後などで進捗時刻を残すために実行できるが、間隔超過を停止条件にしない。終了コード2または時間以外のbudget到達時は、同じ依頼内で探索・再生成・新cycleを続けず、存在するdraftを `checked: false` のまま保存し、run JSONの `stop_reason` と `open_questions` をcommit・pushして安全停止する。時間不足を理由に合格基準を緩めてはならない。
 
 ChatGPT固有の会話分類、チャットの分割応答、直前応答の参照、Notionへの外部書き込みは記事生成そのものには適用しない。リポジトリでは、長さにかかわらず `entries/` の一つのMarkdownファイルへ完成版を直接保存する。文書品質・内容・順序・固定行数・改行規則を「リポジトリ向けだから」という理由で弱めてはならない。
 
@@ -475,7 +475,7 @@ ChatGPT固有の会話分類、チャットの分割応答、直前応答の参�
 
 ## draft checkpoint後・通常チェック前の必須監査（出力しない）
 
-生成前棚卸しの骨格と主要語義・主要構文の配置先が決まった時点で、次の監査が未完了でも、まず記事を `status: draft`、`checked: false` として保存する。standardでは開始20分以内、extendedでは30分以内に `draft_saved` checkpointを記録し、記事、run JSON、queueのdraft状態をcommit・pushする。draftは完成記事ではなく、通常チェック前の回収可能な途中成果物であり、PR作成やchecked化の根拠にしない。
+生成前棚卸しの骨格と主要語義・主要構文の配置先が決まった時点で、次の監査が未完了でも、まず記事を `status: draft`、`checked: false` として保存する。standardでは開始20分、extendedでは30分を早期保存の目安に `draft_saved` checkpointを記録し（超過しても同じrunを継続する）、記事、run JSON、queueのdraft状態をcommit・pushする。draftは完成記事ではなく、通常チェック前の回収可能な途中成果物であり、PR作成やchecked化の根拠にしない。
 
 draft checkpoint後、通常チェックへ進む前に、次を一項目ずつ確認する。
 
