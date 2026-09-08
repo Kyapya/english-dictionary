@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "pronunciation",
+  "findings": [
+    {
+      "taxonomy_id": "pronunciation_symbol_explanation",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /mæɡˈnɪfəsənt/｜英: /mæɡˈnɪfɪsnt/。4音節で、第2音節に主強勢がある。"
+      },
+      "severity": "blocking",
+      "rationale": "米音 /mæɡˈnɪfəsənt/ には4つの母音核がある一方、英音 /mæɡˈnɪfɪsnt/ に明示されている母音核は /æ, ɪ, ɪ/ の3つだけで、/n/ の音節主音記号もない。この表記のまま両方を一律に「4音節」とする説明は記号と対応しない。また /snt/ は母音が弱く残る表記ではなく母音を記していないため、「母音がさらに弱化した」だけでは /sənt/ との差を正確に説明できない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "4音節とするなら英音の語末を /sənt/ とするか、音節主音なら /sn̩t/ のように明示する。/snt/ を維持するなら、シュワー脱落（および必要なら音節主音化）の変異として説明し、音節数の記述も各表記に合わせる。"
+    }
+  ],
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "recheck-pronunciation-magnificent-20260908"
+  },
+  "learning_delta": []
+}

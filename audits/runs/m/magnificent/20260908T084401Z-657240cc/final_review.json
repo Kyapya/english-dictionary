@@ -1,0 +1,1022 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "final-review-magnificent-20260908"
+  },
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "全42 target、25 relation、11 blind candidate・15 assertion、42 finding、6 evidence、9 source-union、7 checker、5 chronology rowを個別照合し、全件pass。",
+    "source_inventory.input_artifacts=[headword, source_first_spec]。未解決、hold、insufficient_evidence、判断衝突、未確認影響は0件。"
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「米: /mæɡˈnɪfəsənt/｜英: /mæɡˈnɪfɪsənt/。基本形はいずれも4音節で、第2音節に主強勢がある。米語では第3音節の母音を /ə/、英語では /ɪ/ と表記する辞書が多い。語末の `-cent` は強い /sent/ ではなく、基本的に弱い /sənt/ となる。速い発話ではこのシュワーがさらに弱まったり脱落したりすることがあり、辞書によっては語末を /snt/ と表記する。」 判定理由: F002・F011・F017の強勢・母音・弱化記録と一致する。",
+      "target_id": "pronunciation:001"
+    },
+    {
+      "id": "etymology:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「中英語期に古フランス語を経て入り、ラテン語 `magnificus`「偉大なことを行う、壮麗な」にさかのぼる。`magnificus` は `magnus`「大きい、偉大な」と `facere`「作る、行う」に関係する。」 判定理由: F012・F014のフランス語経由・ラテン語形態分析の範囲内である。",
+      "target_id": "etymology:001"
+    },
+    {
+      "id": "word_formation:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`magnificence`（名詞）— 壮麗さ、すばらしさ。`magnificent` に対応する名詞。」 判定理由: F016が対応名詞を直接支える。",
+      "target_id": "word_formation:001"
+    },
+    {
+      "id": "word_formation:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`magnificently`（副詞）— 壮麗に、見事に、すばらしく。`magnificent` に対応する副詞。」 判定理由: F009が派生副詞を直接支える。",
+      "target_id": "word_formation:002"
+    },
+    {
+      "id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「1. 【形容詞・限定／叙述】壮麗な、非常に美しく印象的な」 判定理由: 外観・威容による強い肯定評価としてU001と一致する。",
+      "target_id": "sense_boundary:001"
+    },
+    {
+      "id": "definition:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「建物、景色、部屋、衣装、動物などが、規模、美しさ、豪華さ、威厳によって見る人に強い感銘を与えることを表す。単に大きいだけでなく、目を見張るほど見事だという肯定的評価を含む。」 判定理由: 視覚的感銘を中核とし、単なる大きさへ一般化していない。",
+      "target_id": "definition:001"
+    },
+    {
+      "id": "frequency:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「〈7/10〉」 判定理由: 必須の教育的定性評定であり、測定済みコーパス値を主張しない。",
+      "target_id": "frequency:001"
+    },
+    {
+      "id": "register:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「一般語。外見への強い肯定的評価を表し、やや高揚した響きを持つことがある。」 判定理由: 一般語の強い外観評価としてU001と整合する。",
+      "target_id": "register:001"
+    },
+    {
+      "id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「`a magnificent + 〈建物・景色・物〉`＝壮麗な～」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:001"
+    },
+    {
+      "id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「`〈建物・景色・物〉 + be/look magnificent`＝～が壮麗である・壮麗に見える」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:002"
+    },
+    {
+      "id": "grammar_pattern:003",
+      "status": "pass",
+      "notes": "対象本文全文: 「`〈人〉 + look magnificent in 〈服・色〉`＝〈服・色〉を身につけた人が実に華やかに見える」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:003"
+    },
+    {
+      "id": "grammar_pattern:004",
+      "status": "pass",
+      "notes": "対象本文全文: 「`a magnificent view of 〈場所・景色〉`＝〈場所・景色〉のすばらしい眺め」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:004"
+    },
+    {
+      "id": "collocation:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent building/palace`\n用途: 規模、美しさ、威厳によって強い印象を与える建築物を表す。\n例: The restored palace is a magnificent eighteenth-century building.\n訳: 修復されたその宮殿は、壮麗な18世紀の建築物である。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:001"
+    },
+    {
+      "id": "collocation:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent view of 〈場所・景色〉`\n用途: 広がりや美しさが際立ち、見る人を感動させる眺めを表す。\n例: From the terrace, we had a magnificent view of the snow-covered mountains.\n訳: テラスからは、雪に覆われた山々のすばらしい眺めが広がっていた。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:002"
+    },
+    {
+      "id": "collocation:003",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent 〈animal/bird〉`\n用途: 動物の大きさ、美しさ、威厳のある姿を称賛する。\n例: A magnificent eagle circled above the valley.\n訳: 一羽の堂々たるワシが谷の上空を旋回していた。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:003"
+    },
+    {
+      "id": "collocation:004",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`look magnificent in 〈服・色〉`\n用途: ある服装や色によって、人が非常に美しく堂々として見えることを表す。\n例: She looked magnificent in the deep blue gown.\n訳: 彼女は濃い青のドレスをまとい、実に華やかで堂々として見えた。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:004"
+    },
+    {
+      "id": "collocation:005",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent interior/display`\n用途: 室内装飾や展示が豪華で、視覚的に強い感銘を与えることを表す。\n例: Visitors stopped to admire the cathedral's magnificent interior.\n訳: 来訪者たちは足を止めて、その大聖堂の壮麗な内部に見入った。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:005"
+    },
+    {
+      "id": "usage_note:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「`magnificent` は限定用法にも叙述用法にも使える。外観について使うと、「きれいな」だけでなく、規模、豪華さ、威厳などが生む強い感銘まで表す。人に使う場合、`She looks magnificent.` のように外見を称賛できるが、`a magnificent person` は文脈により語義2の人格・力量への高い評価にもなる。」 判定理由: 外観評価と人物の人格・力量読みを適切に振り分ける。",
+      "target_id": "usage_note:001"
+    },
+    {
+      "id": "synonym:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「・splendid\n定義: 見た目、質、成果などが非常にすばらしく、称賛に値する。\n頻度: 〈7/10〉\n違い: `splendid` は外観にも出来にも広く使える。`magnificent` は特に壮大さ、豪華さ、強い感銘を伴いやすい。\n例: The hall was decorated with splendid tapestries.\n訳: その広間は見事なタペストリーで飾られていた。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:001"
+    },
+    {
+      "id": "synonym:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「・majestic\n定義: 王侯のような威厳や堂々とした壮大さを感じさせる。\n頻度: 〈6/10〉\n違い: `majestic` は威厳と堂々とした姿に焦点を置く。`magnificent` は威厳がなくても豪華さや美しさによる感銘を表せる。\n例: We watched the majestic mountains turn red at sunset.\n訳: 私たちは雄大な山々が夕日に赤く染まるのを眺めた。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:002"
+    },
+    {
+      "id": "synonym:003",
+      "status": "pass",
+      "notes": "対象本文全文: 「・grand\n定義: 規模、設計、外観が大きく立派で、重要さや格式を感じさせる。\n頻度: 〈8/10〉\n違い: `grand` は規模や格式を中心に表し、ときに誇張された大げささも含む。`magnificent` は話者の強い称賛をより直接に示す。\n例: A grand staircase led to the reception rooms.\n訳: 壮大な階段が応接室へと続いていた。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:003"
+    },
+    {
+      "id": "synonym:004",
+      "status": "pass",
+      "notes": "対象本文全文: 「・glorious\n定義: 美しさ、輝かしさ、喜ばしさによって非常にすばらしい。\n頻度: 〈7/10〉\n違い: `glorious` は光、色、天候などの輝かしさや、体験の喜びを表しやすい。`magnificent` は建物や景観の規模・威容にも強く結びつく。\n例: The garden was filled with glorious autumn colors.\n訳: 庭は見事な秋の色彩で満ちていた。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:004"
+    },
+    {
+      "id": "antonym:001",
+      "status": "pass",
+      "notes": "対象本文全文: 「・unimpressive\n定義: 特に感銘を与えず、目立った美点や迫力がない。\n頻度: 〈6/10〉\n違い: 見る人に与える印象の強さという軸で、`magnificent` が非常に強い肯定的な感銘を表すのに対し、`unimpressive` は感銘を与えないことを表す。\n例: The building's plain exterior was rather unimpressive.\n訳: その建物の簡素な外観は、あまり印象的ではなかった。」 判定理由: 同一評価軸上の方向差として限定し、全面的補集合を主張しない。",
+      "target_id": "antonym:001"
+    },
+    {
+      "id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「2. 【形容詞・限定／叙述】すばらしい、見事な、極めて優れた」 判定理由: 外観を必須としない質・価値への称賛としてU002と一致する。",
+      "target_id": "sense_boundary:002"
+    },
+    {
+      "id": "definition:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「成果、演技、仕事、行為、機会、出来事などの質や価値が非常に高く、強く称賛したくなることを表す。外見の壮麗さを必要とせず、能力、出来、効果、経験の満足度などを高く評価する。単独の `Magnificent!` は「見事だ」「すばらしい」という感嘆になる。」 判定理由: 成果・出来・価値への評価を外観語義から区別している。",
+      "target_id": "definition:002"
+    },
+    {
+      "id": "frequency:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「〈7/10〉」 判定理由: 必須の教育的定性評定であり、測定済みコーパス値を主張しない。",
+      "target_id": "frequency:002"
+    },
+    {
+      "id": "register:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「一般語。強く高揚した称賛を表し、日常の小さな事柄に使うと意図的な誇張になることがある。」 判定理由: 強い称賛と意図的誇張としてF018/U009と一致する。",
+      "target_id": "register:002"
+    },
+    {
+      "id": "grammar_pattern:005",
+      "status": "pass",
+      "notes": "対象本文全文: 「`a magnificent + 〈成果・演技・仕事・機会〉`＝すばらしい～」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:005"
+    },
+    {
+      "id": "grammar_pattern:006",
+      "status": "pass",
+      "notes": "対象本文全文: 「`〈成果・演技・仕事〉 + be magnificent`＝～が見事である」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:006"
+    },
+    {
+      "id": "grammar_pattern:007",
+      "status": "pass",
+      "notes": "対象本文全文: 「`Magnificent!`＝見事だ・すばらしい」 判定理由: 品詞、主語・補部スロット、意味範囲が対応用例と一致し、未立証の seem/feel/派生副詞フレームは残らない。",
+      "target_id": "grammar_pattern:007"
+    },
+    {
+      "id": "collocation:006",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent achievement`\n用途: 困難さや規模を踏まえて、成果を非常に高く評価する。\n例: Completing the bridge ahead of schedule was a magnificent achievement.\n訳: 予定より早く橋を完成させたことは、見事な偉業だった。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:006"
+    },
+    {
+      "id": "collocation:007",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent performance`\n用途: 演技、演奏、競技などの出来が極めて優れていることを表す。\n例: The violinist gave a magnificent performance in the final movement.\n訳: そのバイオリニストは最終楽章で見事な演奏を披露した。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:007"
+    },
+    {
+      "id": "collocation:008",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`do a magnificent job`\n用途: 人や組織が仕事を非常にうまく成し遂げたことを称賛する。\n例: The rescue team did a magnificent job under dangerous conditions.\n訳: 救助隊は危険な状況下で実に見事な働きをした。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:008"
+    },
+    {
+      "id": "collocation:009",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`a magnificent opportunity`\n用途: 価値や可能性が非常に大きい機会を強く肯定的に評価する。\n例: The scholarship gave her a magnificent opportunity to study abroad.\n訳: その奨学金は、彼女に留学するすばらしい機会を与えた。」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:009"
+    },
+    {
+      "id": "collocation:010",
+      "status": "pass",
+      "notes": "対象本文全文: 「・`Magnificent!`\n用途: 出来事、成果、演技などに対する強い称賛を単独で表す。\n例: “We finished the repairs.” “Magnificent! We can reopen tomorrow.”\n訳: 「修理が終わりました」「すばらしい！ 明日には再開できる」」 判定理由: 用途・英文・訳で修飾対象、述語、参与者、程度、時制、評価が保存され、所属語義も正しい。",
+      "target_id": "collocation:010"
+    },
+    {
+      "id": "usage_note:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「語義2では、対象の外観ではなく質・出来・価値を評価する。`a magnificent performance` は演技や演奏が非常に優れていたという意味であり、必ずしも豪華な舞台だったという意味ではない。`magnificent` は強い称賛なので、日常の小さな良さに使うと意図的に大げさな響きになることがある。」 判定理由: 質・出来・価値を外観から区別し、誇張を根拠範囲内で述べる。",
+      "target_id": "usage_note:002"
+    },
+    {
+      "id": "synonym:005",
+      "status": "pass",
+      "notes": "対象本文全文: 「・excellent\n定義: 質、能力、出来が非常に高い。\n頻度: 〈9/10〉\n違い: `excellent` は評価基準に照らして質が高いことを比較的中立に述べる。`magnificent` は話者の感動や熱烈な称賛を強く表す。\n例: She submitted an excellent final report.\n訳: 彼女は非常に優れた最終報告書を提出した。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:005"
+    },
+    {
+      "id": "synonym:006",
+      "status": "pass",
+      "notes": "対象本文全文: 「・superb\n定義: 質や出来が最高水準である。\n頻度: 〈7/10〉\n違い: `superb` は洗練された出来や卓越した質に焦点を置く。`magnificent` は質に加えて規模や感銘の大きさを含みやすい。\n例: The chef prepared a superb meal using local ingredients.\n訳: その料理人は地元の食材で最高の料理を用意した。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:006"
+    },
+    {
+      "id": "synonym:007",
+      "status": "pass",
+      "notes": "対象本文全文: 「・outstanding\n定義: 同種のものの中で際立って優れている。\n頻度: 〈8/10〉\n違い: `outstanding` は比較集団の中で抜きん出ていることを示す。`magnificent` は比較対象を明示せず、強い感銘を直接表せる。\n例: Her outstanding leadership kept the project on track.\n訳: 彼女の卓越した指導力によって、プロジェクトは予定どおり進んだ。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:007"
+    },
+    {
+      "id": "synonym:008",
+      "status": "pass",
+      "notes": "対象本文全文: 「・wonderful\n定義: 喜び、満足、感嘆をもたらすほどすばらしい。\n頻度: 〈9/10〉\n違い: `wonderful` は楽しい経験や好ましい人・物に日常的に使う。`magnificent` はより強く、堂々とした、または劇的な称賛を帯びやすい。\n例: We had a wonderful evening with old friends.\n訳: 私たちは旧友たちとすばらしい夜を過ごした。」 判定理由: 類義性と相違軸を明示し、headwordの意味範囲を過度に拡張しない。",
+      "target_id": "synonym:008"
+    },
+    {
+      "id": "antonym:002",
+      "status": "pass",
+      "notes": "対象本文全文: 「・mediocre\n定義: 質や能力が平凡で、特に優れていない。\n頻度: 〈6/10〉\n違い: 質の高さという軸で、`magnificent` が極めて高い評価を表すのに対し、`mediocre` は平均的で期待を満たさない評価を表す。\n例: The sequel received mediocre reviews from critics.\n訳: その続編は批評家から凡庸だという評価を受けた。」 判定理由: 同一評価軸上の方向差として限定し、全面的補集合を主張しない。",
+      "target_id": "antonym:002"
+    },
+    {
+      "id": "antonym:003",
+      "status": "pass",
+      "notes": "対象本文全文: 「・terrible\n定義: 質や出来が非常に悪い。\n頻度: 〈9/10〉\n違い: 質の評価という軸で、`terrible` は非常に低い側、`magnificent` は非常に高い側を表す。\n例: The team gave a terrible performance in the second half.\n訳: そのチームは後半にひどい出来のプレーをした。」 判定理由: 同一評価軸上の方向差として限定し、全面的補集合を主張しない。",
+      "target_id": "antonym:003"
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:001 explicitly contrasts sense 1 with sense 2」 判定理由: 外観・威容と質・価値の語義境界が保たれる。",
+      "relation_id": "risk_sense_pair:001"
+    },
+    {
+      "id": "example_translation:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:001の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:001"
+    },
+    {
+      "id": "example_translation:002",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:002の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:002"
+    },
+    {
+      "id": "example_translation:003",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:003の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:003"
+    },
+    {
+      "id": "example_translation:004",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:004の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:004"
+    },
+    {
+      "id": "example_translation:005",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:005の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:005"
+    },
+    {
+      "id": "example_translation:006",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:006の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:006"
+    },
+    {
+      "id": "example_translation:007",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:007の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:007"
+    },
+    {
+      "id": "example_translation:008",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:008の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:008"
+    },
+    {
+      "id": "example_translation:009",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:009の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:009"
+    },
+    {
+      "id": "example_translation:010",
+      "status": "pass",
+      "notes": "関係記述全文: 「コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。」 判定理由: collocation:010の用途・英文・訳で意味役割と作用範囲が一致する。",
+      "relation_id": "example_translation:010"
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」 判定理由: 見出しの意味範囲と詳細定義が一致する。",
+      "relation_id": "sense_definition_consistency:001"
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」 判定理由: 定義と注意が矛盾せず、注意による後付け補修もない。",
+      "relation_id": "definition_usage_consistency:001"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」 判定理由: 類義差・反意軸が当該語義定義と整合する。",
+      "relation_id": "definition_lexical_relation_consistency:001"
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:001の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:001"
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:002の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:002"
+    },
+    {
+      "id": "pattern_example_coverage:003",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:003の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:003"
+    },
+    {
+      "id": "pattern_example_coverage:004",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:004の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:004"
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "関係記述全文: 「語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。」 判定理由: 見出しの意味範囲と詳細定義が一致する。",
+      "relation_id": "sense_definition_consistency:002"
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "関係記述全文: 「語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。」 判定理由: 定義と注意が矛盾せず、注意による後付け補修もない。",
+      "relation_id": "definition_usage_consistency:002"
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "関係記述全文: 「語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。」 判定理由: 類義差・反意軸が当該語義定義と整合する。",
+      "relation_id": "definition_lexical_relation_consistency:002"
+    },
+    {
+      "id": "pattern_example_coverage:005",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:005の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:005"
+    },
+    {
+      "id": "pattern_example_coverage:006",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:006の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:006"
+    },
+    {
+      "id": "pattern_example_coverage:007",
+      "status": "pass",
+      "notes": "関係記述全文: 「文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。」 判定理由: grammar_pattern:007の統語・意味制約を同語義の用例群が自然に実現する。",
+      "relation_id": "pattern_example_coverage:007"
+    },
+    {
+      "id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "関係記述全文: 「記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。」 判定理由: 二語義、人物用法、performanceの境界が誤一般化を防ぐ。",
+      "relation_id": "article_learning_risk:001"
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "ic-01",
+      "status": "pass",
+      "notes": "magnificent: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-01-sa-01",
+        "ic-01-sa-02"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-01-sa-01",
+          "status": "pass",
+          "notes": "「この用法は対象の外観または知覚される威容を強く肯定的に評価しなければならない。」は scope=visual-impressiveness sense で must_hold 条件に反しない。"
+        },
+        {
+          "id": "ic-01-sa-02",
+          "status": "pass",
+          "notes": "「対象が単に物理的に大きいという事実だけを表してはならない。」は scope=visual-impressiveness sense で must_not_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-02",
+      "status": "pass",
+      "notes": "look magnificent in <clothing/color>: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-02-sa-01",
+        "ic-02-sa-02"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-02-sa-01",
+          "status": "pass",
+          "notes": "「評価は主語である人の知覚可能な外見に作用し、in 句はその外見を成立させる服装または色を示さなければならない。」は scope=human-appearance frame で must_hold 条件に反しない。"
+        },
+        {
+          "id": "ic-02-sa-02",
+          "status": "pass",
+          "notes": "「このフレームを人の人格、技能、道徳的価値への評価として説明してはならない。」は scope=human-appearance frame で must_not_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-03",
+      "status": "pass",
+      "notes": "magnificent: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-03-sa-01",
+        "ic-03-sa-02"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-03-sa-01",
+          "status": "pass",
+          "notes": "「評価の中心は成果物や遂行の質、効果、達成度の非常な高さでなければならない。」は scope=quality-of-performance sense で must_hold 条件に反しない。"
+        },
+        {
+          "id": "ic-03-sa-02",
+          "status": "pass",
+          "notes": "「舞台、会場、外装などの豪華な外観だけを根拠とする意味に限定してはならない。」は scope=quality-of-performance sense で must_not_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-04",
+      "status": "pass",
+      "notes": "a magnificent opportunity: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-04-sa-01",
+        "ic-04-sa-02"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-04-sa-01",
+          "status": "pass",
+          "notes": "「この用法では対象となる機会や経験が非常に価値ある、好ましい、または有望なものとして評価されなければならない。」は scope=opportunity-and-experience frame で must_hold 条件に反しない。"
+        },
+        {
+          "id": "ic-04-sa-02",
+          "status": "pass",
+          "notes": "「対象の視覚的な美しさや物理的規模を必須条件としてはならない。」は scope=opportunity-and-experience frame で must_not_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-05",
+      "status": "pass",
+      "notes": "Magnificent!: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-05-sa-01"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-05-sa-01",
+          "status": "pass",
+          "notes": "「独立発話は直前の知らせ、結果、出来などに対する強い肯定的反応として解釈されなければならない。」は scope=standalone-exclamation frame で must_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-06",
+      "status": "pass",
+      "notes": "a magnificent person: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-06-sa-01",
+        "ic-06-sa-02"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-06-sa-01",
+          "status": "pass",
+          "notes": "「この読みでは評価が人の人格、能力、功績、または総合的な価値に作用しなければならない。」は scope=human-quality frame で must_hold 条件に反しない。"
+        },
+        {
+          "id": "ic-06-sa-02",
+          "status": "pass",
+          "notes": "「人を目的語とするだけで、自動的に外見の意味へ分類してはならない。」は scope=human-quality frame で must_not_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-07",
+      "status": "pass",
+      "notes": "magnificence: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-07-sa-01"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-07-sa-01",
+          "status": "pass",
+          "notes": "「名詞は magnificent が表す壮麗さまたは卓越性という性質を指示しなければならない。」は scope=derivational noun で must_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-08",
+      "status": "pass",
+      "notes": "magnificently: disposition=included は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-08-sa-01"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-08-sa-01",
+          "status": "pass",
+          "notes": "「副詞は動作や状態の様態を、壮麗または極めて優秀だと強く肯定的に評価しなければならない。」は scope=derivational adverb で must_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-09",
+      "status": "pass",
+      "notes": "the Magnificent: disposition=excluded は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-09-sa-01"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-09-sa-01",
+          "status": "pass",
+          "notes": "「この表現を含める場合は、通常の限定用法ではなく、固有名に後置される称号的用法として扱わなければならない。」は scope=titular postpositive use で must_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-10",
+      "status": "pass",
+      "notes": "magnificent: disposition=excluded は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-10-sa-01"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-10-sa-01",
+          "status": "pass",
+          "notes": "「この歴史的用法を含める場合は、単なる優秀さではなく、支出、贈与、振る舞いの豪勢さまたは気前のよさを表さなければならない。」は scope=obsolete lavish-or-munificent sense で must_hold 条件に反しない。"
+        }
+      ]
+    },
+    {
+      "id": "ic-11",
+      "status": "pass",
+      "notes": "the magnificent: disposition=excluded は現行本文の包含・除外と一致する。",
+      "assertion_ids": [
+        "ic-11-sa-01"
+      ],
+      "verified_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+      "assertion_results": [
+        {
+          "id": "ic-11-sa-01",
+          "status": "pass",
+          "notes": "「名詞化として扱う場合も、独立した可算名詞 magnificent が成立すると主張してはならない。」は scope=contextual substantivization で must_not_hold 条件に反しない。"
+        }
+      ]
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-translation-001",
+      "status": "pass",
+      "notes": "resolved/adopted: Replaced it with a magnificent eighteenth-century building and aligned the translation.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-translation-002",
+      "status": "pass",
+      "notes": "resolved/adopted: Changed the translation to 壮麗な内部に見入った.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "status": "pass",
+      "notes": "resolved/adopted: Magnificent now directly modifies building.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-002",
+      "status": "pass",
+      "notes": "resolved/adopted: Added 〈人〉 + look magnificent in 〈服・色〉.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-003",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed do/play/perform magnificently from sense 2 grammar patterns.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-004",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed the feel magnificent collocation and its usage-note claim.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-frame-relation-005",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed the plain antonym block.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "status": "pass",
+      "notes": "resolved/adopted: Replaced it with magnificent directly modifying building.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-qualification-001",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed the feel magnificent item and its categorical explanation.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-001",
+      "status": "pass",
+      "notes": "resolved/adopted: Rewrote the etymology to the French route and magnus/facere analysis only.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-002",
+      "status": "pass",
+      "notes": "resolved/adopted: Limited it to meaning and corresponding-noun status.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-003",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed the perform example and limited the note to corresponding-adverb status.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-004",
+      "status": "pass",
+      "notes": "resolved/rejected: The mandatory 1–10 learner-frequency field is an editorial pedagogic estimate under entry_spec_v5, not a claimed corpus statistic; the article makes no quantitative corpus claim. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-005",
+      "status": "pass",
+      "notes": "resolved/adopted: Simplified the sense 1 register note.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-006",
+      "status": "pass",
+      "notes": "resolved/rejected: As with normal-evidence-004, the required frequency score is a documented editorial learner aid and is not presented as a measured statistic. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-007",
+      "status": "pass",
+      "notes": "resolved/adopted: Simplified the sense 2 register note to those supported properties.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-008",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed seem and added 〈人〉 + look magnificent in 〈服・色〉.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-009",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed seem and the magnificently verb-modification frame.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-010",
+      "status": "pass",
+      "notes": "resolved/rejected: The eagle example is a transparent realization of the independently supported people-or-things appearance sense, not a new lexical sense or constraint requiring a separate union. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-011",
+      "status": "pass",
+      "notes": "resolved/rejected: F010's recorded source detail explicitly includes Oxford's looked magnificent in her wedding dress example, directly supporting the look ... in clothing frame. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-012",
+      "status": "pass",
+      "notes": "resolved/rejected: Interior/display is a transparent noun-slot realization of the sourced splendid-or-impressive-in-appearance sense; the article does not assert an additional lexicalized construction. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-013",
+      "status": "pass",
+      "notes": "resolved/rejected: Achievement is a direct realization of the sourced exceptionally-fine/result sense and the source-first claim explicitly maps achievement to article sense 2. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-014",
+      "status": "pass",
+      "notes": "resolved/rejected: The fixed Dictionary.com/Collins locator directly exemplifies magnificent opportunity and the source union records the exceptionally-fine sense; this is not an unsupported semantic extension. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-015",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed feel magnificent and its example.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-016",
+      "status": "pass",
+      "notes": "resolved/adopted: Deleted the more/most sentence.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-017",
+      "status": "pass",
+      "notes": "resolved/adopted: Deleted the feel magnificent explanation.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-018",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed humorous and emotionally warm alternatives.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-019",
+      "status": "pass",
+      "notes": "resolved/rejected: Splendid is independently listed as a synonym and gloss in Oxford, Collins, and Merriam-Webster; the concise learner contrast explicates that sourced relation rather than adding a magnificent sense. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-020",
+      "status": "pass",
+      "notes": "resolved/rejected: Merriam-Webster's fixed synonym discussion directly distinguishes majestic by solemn grandeur and supports the stated learner contrast. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-021",
+      "status": "pass",
+      "notes": "resolved/rejected: Merriam-Webster's fixed synonym discussion directly characterizes grand by size, handsomeness, and dignity and contrasts it with magnificent. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-022",
+      "status": "pass",
+      "notes": "resolved/rejected: Glorious is recorded as a close synonym by the fixed general sources; the definition and example preserve the visual high-admiration relation without creating a new headword claim. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-023",
+      "status": "pass",
+      "notes": "resolved/rejected: Unimpressive is a direct same-axis negation of the entry's sourced impressive sense; its definition states that transparent opposition and does not require a separate magnificent source union. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-024",
+      "status": "pass",
+      "notes": "resolved/adopted: Removed the plain block.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-025",
+      "status": "pass",
+      "notes": "resolved/rejected: Excellent directly glosses the quality sense in the fixed Collins and Dictionary.com sources; the neutral quality-focused contrast is a standard explication of that source relation. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-026",
+      "status": "pass",
+      "notes": "resolved/rejected: Superb directly glosses magnificent's quality sense in two fixed sources; the entry's concise distinction does not alter the headword's sourced meaning. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-027",
+      "status": "pass",
+      "notes": "resolved/rejected: Outstanding is a standard quality-ranking synonym used to contrast explicit comparative salience with magnificent's direct admiration; no unsupported magnificent constraint is inferred. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-028",
+      "status": "pass",
+      "notes": "resolved/rejected: Wonderful is a general high-positive synonym used only for a learner-facing register contrast and does not constitute an additional source-dependent sense claim. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-029",
+      "status": "pass",
+      "notes": "resolved/rejected: Mediocre is a transparent low-quality contrast on the explicitly stated quality axis; the entry does not claim a lexical complement relation. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "normal-evidence-030",
+      "status": "pass",
+      "notes": "resolved/rejected: Terrible is a transparent very-low-quality opposite to the sourced exceptionally-fine sense and the explanation expressly limits the relation to quality evaluation. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "CR-MAGNIFICENT-001",
+      "status": "pass",
+      "notes": "resolved/adopted: Revised the UK form to /snt/ and explained /sənt/ versus /snt/.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "CR-MAGNIFICENT-002",
+      "status": "pass",
+      "notes": "resolved/adopted: Replaced the sentence and translation with a magnificent eighteenth-century building.。body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "CR-MAGNIFICENT-003",
+      "status": "pass",
+      "notes": "resolved/rejected: entry_spec_v5 mandates the 1–10 pedagogical frequency convention throughout sense and relation blocks; these scores are qualitative editorial aids, not corpus estimates, and the article makes no claim that equal scores prove equal measured frequency. body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    }
+  ],
+  "evidence_checks": [
+    {
+      "id": "EL-001",
+      "status": "pass",
+      "notes": "EL-001 は evidence_link_ids[0] に存在し、research_status=complete、open_questions=[]、coverage=covered。"
+    },
+    {
+      "id": "EL-002",
+      "status": "pass",
+      "notes": "EL-002 は evidence_link_ids[1] に存在し、research_status=complete、open_questions=[]、coverage=covered。"
+    },
+    {
+      "id": "EL-003",
+      "status": "pass",
+      "notes": "EL-003 は evidence_link_ids[2] に存在し、research_status=complete、open_questions=[]、coverage=covered。"
+    },
+    {
+      "id": "EL-004",
+      "status": "pass",
+      "notes": "EL-004 は evidence_link_ids[3] に存在し、research_status=complete、open_questions=[]、coverage=covered。"
+    },
+    {
+      "id": "EL-005",
+      "status": "pass",
+      "notes": "EL-005 は evidence_link_ids[4] に存在し、research_status=complete、open_questions=[]、coverage=covered。"
+    },
+    {
+      "id": "EL-006",
+      "status": "pass",
+      "notes": "EL-006 は evidence_link_ids[5] に存在し、research_status=complete、open_questions=[]、coverage=covered。"
+    }
+  ],
+  "source_inventory_results": [
+    {
+      "id": "U001",
+      "status": "pass",
+      "notes": "「Magnificent has a central adjective sense for visually splendid, grand, beautiful, or impressive people and things.」 disposition=included は本文と一致する。",
+      "union_id": "U001"
+    },
+    {
+      "id": "U002",
+      "status": "pass",
+      "notes": "「Magnificent has a central evaluative adjective sense meaning exceptionally good, excellent, or deserving high praise.」 disposition=included は本文と一致する。",
+      "union_id": "U002"
+    },
+    {
+      "id": "U003",
+      "status": "pass",
+      "notes": "「Current pronunciations place stress on the second syllable; sources record /ɪ/ or a reduced /ə/ in the third syllable, with /ə/ prominent in American transcription.」 disposition=included は本文と一致する。",
+      "union_id": "U003"
+    },
+    {
+      "id": "U004",
+      "status": "pass",
+      "notes": "「Magnificent came through French from Latin material combining the idea of great with doing or making.」 disposition=included は本文と一致する。",
+      "union_id": "U004"
+    },
+    {
+      "id": "U005",
+      "status": "pass",
+      "notes": "「Magnificently is the common adverb and magnificence is the common noun in the word family.」 disposition=included は本文と一致する。",
+      "union_id": "U005"
+    },
+    {
+      "id": "U006",
+      "status": "pass",
+      "notes": "「Magnificent can stand alone as an enthusiastic exclamation of admiration.」 disposition=included は本文と一致する。",
+      "union_id": "U006"
+    },
+    {
+      "id": "U007",
+      "status": "pass",
+      "notes": "「Historical and elevated uses include former-ruler epithets and noble or exalted rank or ideas.」 disposition=excluded は本文と一致する。",
+      "union_id": "U007"
+    },
+    {
+      "id": "U008",
+      "status": "pass",
+      "notes": "「A lavishly munificent or extravagant sense is historically recorded.」 disposition=excluded は本文と一致する。",
+      "union_id": "U008"
+    },
+    {
+      "id": "U009",
+      "status": "pass",
+      "notes": "「Magnificent is strongly admiring and may sound deliberately exaggerated in informal contexts.」 disposition=included は本文と一致する。",
+      "union_id": "U009"
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "translation: reused; schema/independence/request/reuse validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "sense-structure: reused; schema/independence/request/reuse validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "frame-relation: reused; schema/independence/request/reuse validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "example-attribution: reused; schema/independence/request/reuse validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "qualification: reused; schema/independence/request/reuse validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "pronunciation: rechecked; schema/independence/request validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "evidence: rechecked; schema/independence/request validation=true; body=ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d"
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "本文、revision出力、final-blind入力、seal、manifest、post verificationは ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d に一致する。"
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "normal 2026-09-08T09:20:10.802479+00:00 と cold 2026-09-08T09:30:16.716724+00:00 は revision 2026-09-08T10:18:30Z より前である。"
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "revision 2026-09-08T10:18:30Z の出力を final blind 2026-09-08T10:31:54.289841+00:00 が審査した。"
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "final blind 2026-09-08T10:31:54.289841+00:00 は seal 2026-09-08T19:32:48.083214+09:00 より前でhashも封印済み。"
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "final-blind findings=0、post resolutions=0、checker_recheck_completed=true。"
+    }
+  ],
+  "run_id": "blind-magnificent-20260908T084401Z-657240cc",
+  "context_id": "blind-magnificent-context-20260908T084401Z-657240cc",
+  "input_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+  "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "638884c508e724a8c5870554b978eced02f9d9c3bab6389562fe16a4325c06aa",
+  "recorded_at": "2026-09-08T10:50:52.758370+00:00"
+}

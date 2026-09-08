@@ -1,0 +1,38 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "translation-checker-8db7db39-32b7-4ae9-902e-01cb8b89a3c8"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 42,
+        "line_end": 42,
+        "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.  "
+      },
+      "severity": "blocking",
+      "rationale": "この英文では magnificent は palace/building ではなく example を修飾しており、提示されたコロケーション `a magnificent building/palace` の完全フレームを実例化していない。宮殿そのものが magnificent だという語義・構文の用例として学習させると、修飾対象を取り違えさせる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`a magnificent building/palace` をそのまま実例化し、magnificent が建物または宮殿を直接修飾する英文と、それに対応する訳に差し替える。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 63,
+        "line_end": 63,
+        "exact_quote": "訳: 来訪者たちは足を止めて、その大聖堂の壮麗な内部を眺めた。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の admire は対象を称賛・感嘆しながら見るという評価を含むが、訳の「眺めた」は単なる視覚行為に弱まり、その述語の評価的意味が保存されていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「足を止めて、その大聖堂の壮麗な内部に見入った」など、admire の感嘆・称賛を含む述語に直す。"
+    }
+  ]
+}

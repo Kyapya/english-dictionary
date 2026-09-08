@@ -1,0 +1,29 @@
+{
+  "schema_version": "source_attempt_rebinding_proof_v1",
+  "recorded_at": "2026-09-08T10:18:30Z",
+  "original_source_path": "audits/runs/m/magnificent/20260908T084401Z-657240cc/recheck/round1/source_inventory.json",
+  "original_source_sha256": "21416f31293ef634cf8d200437189c4871eb79fa2b992fcaa5103c7633e41f38",
+  "current_source_sha256": "98c706f05eb792eae999611f287bc0a76716551f9b674457400aaae67c383a63",
+  "changed_fields": [
+    "input_body_sha256",
+    "source_first_audit.usage.post_cold_rechecks_used",
+    "source_first_audit.usage.final_attempts_used",
+    "input_artifacts[1]"
+  ],
+  "before": {
+    "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+    "post_cold_rechecks_used": 0,
+    "final_attempts_used": 0
+  },
+  "after": {
+    "input_body_sha256": "ec0e7f3e24fa5bfebd875f1fd29a32e94ecadeaeee08786147cedd6d912b3d6d",
+    "post_cold_rechecks_used": 2,
+    "final_attempts_used": 1,
+    "input_artifacts": [
+      "headword",
+      "source_first_spec"
+    ]
+  },
+  "reason": "Bind the unchanged source facts, claims, unions, and locators to the corrected article body and record the two completed post-cold checker rounds plus the first final-blind attempt before dispatch.",
+  "source_first_artifact_unchanged": true
+}

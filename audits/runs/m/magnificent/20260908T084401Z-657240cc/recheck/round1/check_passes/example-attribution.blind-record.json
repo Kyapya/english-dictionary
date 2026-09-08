@@ -1,0 +1,134 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+  "blind_request_sha256": "2c2911ed030c4c7300e0fd76e55db12e190880e83c4d2ffa48fbc2b8c6ce077d",
+  "recorded_at": "2026-09-08T10:06:13Z",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "recheck-example-magnificent-20260908"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-98cc9eefc985",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "堂々たる"
+      ],
+      "rationale": "The translation renders magnificent itself as 堂々たる, selecting imposing appearance or presence. The competing excellence sense could praise an eagle's ability or quality, but the sentence attributes no performance or achievement to the bird; the adjective instead characterizes how the eagle presents visually."
+    },
+    {
+      "example_id": "ex-c376506fcce9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "cathedral's magnificent interior",
+        "壮麗な内部"
+      ],
+      "rationale": "The phrase cathedral's magnificent interior directly characterizes the cathedral's visible interior, and its rendering 壮麗な marks splendor. The competing excellence sense would require evaluation of work, performance, effectiveness, or another nonvisual quality, none of which is the adjective's relation here."
+    },
+    {
+      "example_id": "ex-a74faaad755a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "magnificent achievement",
+        "予定より早く橋を完成させたこと"
+      ],
+      "rationale": "The phrase magnificent achievement evaluates the exceptional merit of completing a project early. The competing visual-splendor sense cannot naturally characterize the appearance of the abstract accomplishment itself."
+    },
+    {
+      "example_id": "ex-ed5050e7973c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "magnificent eighteenth-century building",
+        "壮麗な18世紀の建築物"
+      ],
+      "rationale": "The phrase magnificent eighteenth-century building characterizes the restored palace as a building of imposing visible splendor. The competing excellence sense could evaluate restoration work or performance, but neither is what the adjective modifies in this sentence."
+    },
+    {
+      "example_id": "ex-635b3b7971ab",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "We finished the repairs",
+        "Magnificent!"
+      ],
+      "rationale": "The exchange We finished the repairs followed by Magnificent! makes the standalone exclamation praise a favorable completion and the resulting ability to reopen. The competing visual-splendor sense is excluded because Magnificent does not describe the appearance of any stated object."
+    },
+    {
+      "example_id": "ex-05f0d84926f4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "did a magnificent job",
+        "見事な働き"
+      ],
+      "rationale": "The construction did a magnificent job makes magnificent evaluate the rescue team's work under difficult conditions. The competing visual-splendor sense cannot naturally supply the adjective's relation to job here because the praised property is execution quality, not appearance."
+    },
+    {
+      "example_id": "ex-8afcc0ffe905",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "view of the snow-covered mountains",
+        "眺めが広がっていた"
+      ],
+      "rationale": "The phrase view of the snow-covered mountains makes magnificent evaluate a visible scene from the terrace, directly invoking scenic beauty and impressiveness. The competing excellence sense could praise the quality of an experience or result, but the adjective here modifies the visual scene itself."
+    },
+    {
+      "example_id": "ex-3290ae8d9e48",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "gave a magnificent performance",
+        "見事な演奏"
+      ],
+      "rationale": "In gave a magnificent performance, the adjective evaluates the quality of the violinist's execution. The competing visual-splendor sense would require the performance's appearance or spectacle to be the asserted property, but the verb-object frame and translation instead praise how well it was performed."
+    },
+    {
+      "example_id": "ex-db1b726380a6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "magnificent opportunity to study abroad",
+        "すばらしい機会"
+      ],
+      "rationale": "The phrase magnificent opportunity to study abroad evaluates the high value of an opportunity. The competing visual-splendor sense is excluded because an opportunity is abstract and the adjective does not attribute any visible appearance to it."
+    },
+    {
+      "example_id": "ex-c496d8815c09",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "looked magnificent in the deep blue gown",
+        "華やかで堂々として見えた"
+      ],
+      "rationale": "The frame looked magnificent in the deep blue gown explicitly predicates impressive appearance of the wearer. The competing excellence sense would evaluate ability, conduct, or results, none of which can account for the look-plus-garment relation in this sentence."
+    }
+  ]
+}

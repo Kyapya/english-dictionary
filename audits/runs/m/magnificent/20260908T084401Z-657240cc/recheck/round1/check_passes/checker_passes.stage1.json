@@ -1,0 +1,363 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-magnificent-20260908T084401Z-657240cc-recheck-round1",
+  "context_id": "normal-magnificent-context-20260908T084401Z-657240cc-recheck-round1",
+  "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs",
+    "recheck_round1_source_inventory"
+  ],
+  "recorded_at": "2026-09-08T10:13:55.968726+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-translation-magnificent-20260908"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-sense-magnificent-20260908"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-frame-magnificent-20260908"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+        "blind_request_sha256": "f19adb0a595ea8958111517db3b991c19ee5dda7233f16cd379a7a67cff85dc9",
+        "recorded_at": "2026-09-08T19:03:30+09:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "recheck-frame-magnificent-20260908",
+          "same_model_as_generation": true
+        },
+        "axes": [
+          {
+            "item_id": "ant-656b417488cf",
+            "axis": "品質",
+            "relation_type": "評価",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-a16b293b479e",
+            "axis": "卓越性",
+            "relation_type": "程度",
+            "reason": ""
+          },
+          {
+            "item_id": "ant-83c51c8dba18",
+            "axis": "印象力",
+            "relation_type": "程度",
+            "reason": ""
+          }
+        ]
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+        "stage2_request_sha256": "0af2d1caef5b7ab61626669a1b6e36b952223c885be2891999347ce7865edb80",
+        "blind_record_sha256": "73cae3ec9c32a91011c6be9bdc89ce9ef2a8881e909f73c2160656804c937a55",
+        "recorded_at": "2026-09-08T19:06:52+09:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "recheck-frame-magnificent-20260908"
+        },
+        "adjudications": [
+          {
+            "item_id": "ant-83c51c8dba18",
+            "flags": [],
+            "rationale": "印象力の軸は、見る人に強い感銘を与えるという当該語義の定義から直接導出でき、強い感銘と感銘の欠如は程度対立として成立する。違い行にも対立の不成立や限定を自認する記述はない。",
+            "suggested_direction": "対立軸修正",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-a16b293b479e",
+            "flags": [],
+            "rationale": "卓越性の軸は、質や価値が非常に高いという当該語義の定義から導出でき、極めて高い評価と平凡な評価は程度対立として成立する。違い行にも対立の不成立や限定を自認する記述はない。",
+            "suggested_direction": "対立軸修正",
+            "f4_severity": null
+          },
+          {
+            "item_id": "ant-656b417488cf",
+            "flags": [],
+            "rationale": "品質の軸は、質や出来を高く評価する当該語義から導出でき、非常に高い側と非常に低い側は評価対立として成立する。違い行にも対立の不成立や限定を自認する記述はない。",
+            "suggested_direction": "対立軸修正",
+            "f4_severity": null
+          }
+        ],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T10:11:43.182500+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-example-magnificent-20260908"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "68b3b3b693abf9d645c8396549c35c9b08f5cea40bed02fa8f93842600193162",
+        "blind_request_sha256": "2c2911ed030c4c7300e0fd76e55db12e190880e83c4d2ffa48fbc2b8c6ce077d",
+        "recorded_at": "2026-09-08T10:06:13Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "recheck-example-magnificent-20260908"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-98cc9eefc985",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "堂々たる"
+            ],
+            "rationale": "The translation renders magnificent itself as 堂々たる, selecting imposing appearance or presence. The competing excellence sense could praise an eagle's ability or quality, but the sentence attributes no performance or achievement to the bird; the adjective instead characterizes how the eagle presents visually."
+          },
+          {
+            "example_id": "ex-c376506fcce9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "cathedral's magnificent interior",
+              "壮麗な内部"
+            ],
+            "rationale": "The phrase cathedral's magnificent interior directly characterizes the cathedral's visible interior, and its rendering 壮麗な marks splendor. The competing excellence sense would require evaluation of work, performance, effectiveness, or another nonvisual quality, none of which is the adjective's relation here."
+          },
+          {
+            "example_id": "ex-a74faaad755a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "magnificent achievement",
+              "予定より早く橋を完成させたこと"
+            ],
+            "rationale": "The phrase magnificent achievement evaluates the exceptional merit of completing a project early. The competing visual-splendor sense cannot naturally characterize the appearance of the abstract accomplishment itself."
+          },
+          {
+            "example_id": "ex-ed5050e7973c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "magnificent eighteenth-century building",
+              "壮麗な18世紀の建築物"
+            ],
+            "rationale": "The phrase magnificent eighteenth-century building characterizes the restored palace as a building of imposing visible splendor. The competing excellence sense could evaluate restoration work or performance, but neither is what the adjective modifies in this sentence."
+          },
+          {
+            "example_id": "ex-635b3b7971ab",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "We finished the repairs",
+              "Magnificent!"
+            ],
+            "rationale": "The exchange We finished the repairs followed by Magnificent! makes the standalone exclamation praise a favorable completion and the resulting ability to reopen. The competing visual-splendor sense is excluded because Magnificent does not describe the appearance of any stated object."
+          },
+          {
+            "example_id": "ex-05f0d84926f4",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "did a magnificent job",
+              "見事な働き"
+            ],
+            "rationale": "The construction did a magnificent job makes magnificent evaluate the rescue team's work under difficult conditions. The competing visual-splendor sense cannot naturally supply the adjective's relation to job here because the praised property is execution quality, not appearance."
+          },
+          {
+            "example_id": "ex-8afcc0ffe905",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "view of the snow-covered mountains",
+              "眺めが広がっていた"
+            ],
+            "rationale": "The phrase view of the snow-covered mountains makes magnificent evaluate a visible scene from the terrace, directly invoking scenic beauty and impressiveness. The competing excellence sense could praise the quality of an experience or result, but the adjective here modifies the visual scene itself."
+          },
+          {
+            "example_id": "ex-3290ae8d9e48",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "gave a magnificent performance",
+              "見事な演奏"
+            ],
+            "rationale": "In gave a magnificent performance, the adjective evaluates the quality of the violinist's execution. The competing visual-splendor sense would require the performance's appearance or spectacle to be the asserted property, but the verb-object frame and translation instead praise how well it was performed."
+          },
+          {
+            "example_id": "ex-db1b726380a6",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "magnificent opportunity to study abroad",
+              "すばらしい機会"
+            ],
+            "rationale": "The phrase magnificent opportunity to study abroad evaluates the high value of an opportunity. The competing visual-splendor sense is excluded because an opportunity is abstract and the adjective does not attribute any visible appearance to it."
+          },
+          {
+            "example_id": "ex-c496d8815c09",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "looked magnificent in the deep blue gown",
+              "華やかで堂々として見えた"
+            ],
+            "rationale": "The frame looked magnificent in the deep blue gown explicitly predicates impressive appearance of the wearer. The competing excellence sense would evaluate ability, conduct, or results, none of which can account for the look-plus-garment relation in this sentence."
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T10:12:06.495099+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "qualification",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-qualification-magnificent-20260908"
+      }
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "findings": [
+        {
+          "taxonomy_id": "pronunciation_symbol_explanation",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "米: /mæɡˈnɪfəsənt/｜英: /mæɡˈnɪfɪsnt/。4音節で、第2音節に主強勢がある。"
+          },
+          "severity": "blocking",
+          "rationale": "米音 /mæɡˈnɪfəsənt/ には4つの母音核がある一方、英音 /mæɡˈnɪfɪsnt/ に明示されている母音核は /æ, ɪ, ɪ/ の3つだけで、/n/ の音節主音記号もない。この表記のまま両方を一律に「4音節」とする説明は記号と対応しない。また /snt/ は母音が弱く残る表記ではなく母音を記していないため、「母音がさらに弱化した」だけでは /sənt/ との差を正確に説明できない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "4音節とするなら英音の語末を /sənt/ とするか、音節主音なら /sn̩t/ のように明示する。/snt/ を維持するなら、シュワー脱落（および必要なら音節主音化）の変異として説明し、音節数の記述も各表記に合わせる。"
+        }
+      ],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-pronunciation-magnificent-20260908"
+      },
+      "learning_delta": []
+    },
+    {
+      "pass_id": "evidence",
+      "findings": [],
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "recheck-evidence-magnificent-20260908"
+      }
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-translation-magnificent-20260908"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-sense-magnificent-20260908"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-frame-magnificent-20260908"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-example-magnificent-20260908"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-qualification-magnificent-20260908"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-pronunciation-magnificent-20260908"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "recheck-evidence-magnificent-20260908"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Seven independent checker rechecks completed; frame-relation used the mandatory same-agent two-stage protocol. One pronunciation finding requires correction."
+}

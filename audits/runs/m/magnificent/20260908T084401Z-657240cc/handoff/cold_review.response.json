@@ -1,0 +1,65 @@
+{
+  "summary": "大筋の語義区分と用例は妥当だが、発音の異音を排除するように読める断定、語義1のコロケーションと例文のずれ、根拠・尺度が本文内で示されない頻度評定の3点が問題候補である。特に最初の二点は、学習者が発音や語義境界を必要以上に固定的に理解するおそれがある。",
+  "findings": [
+    {
+      "id": "CR-MAGNIFICENT-001",
+      "location": "発音記号",
+      "severity": "low",
+      "description": "語末の発音を /sənt/ のみに限定する断定が強すぎ、自然発話で起こりうる母音の脱落や音節主音的な子音を排除するように読める。",
+      "reason": "「語末の `-cent` は /sent/ ではなく弱く /sənt/ と発音する。」は、綴りから強い /sent/ と読まないという注意としては有用だが、実際には話者・発話速度によって schwa が弱化・脱落し、語末が [sn̩t] に近づくこともある。音素表記の代表形と実現上の変異を区別しないまま「/sənt/ と発音する」と言い切ると、/sənt/ 以外は誤りだという過度な一般化を招く。",
+      "suggested_direction": "代表的な辞書表記として /sənt/ を示しつつ、速い発話などでは schwa がさらに弱化・脱落する場合がある、と短く補足する。",
+      "scope_anchors": [
+        {
+          "id": "CR-MAGNIFICENT-001-A1",
+          "exact_quote": "語末の `-cent` は /sent/ ではなく弱く /sənt/ と発音する。",
+          "location_hint": "「＃発音記号」末尾"
+        }
+      ]
+    },
+    {
+      "id": "CR-MAGNIFICENT-002",
+      "location": "語義1のコロケーション「a magnificent building/palace」",
+      "severity": "low",
+      "description": "掲げたコロケーションと例文の構文が一致せず、例文は視覚的な「壮麗な建物」ではなく評価的な「すばらしい一例」とも読めるため、語義1と語義2の境界説明がぼやけている。",
+      "reason": "見出しは「`a magnificent building/palace`」だが、例文は「例: The restored palace is a magnificent example of eighteenth-century architecture.」であり、`magnificent` が直接修飾する語は `palace` ではなく `example` である。そのため、この例は「宮殿自体が壮麗だ」という語義1よりも「18世紀建築の非常に優れた一例だ」という語義2を例示しうる。語義を二分して提示している記事では、このずれが学習者に両義の区別を誤認させる。",
+      "suggested_direction": "`magnificent` が `palace` または `building` を直接修飾し、規模・美しさ・威容を明示する例文に差し替える。`a magnificent example` を残すなら語義2側に移し、その評価対象を説明する。",
+      "scope_anchors": [
+        {
+          "id": "CR-MAGNIFICENT-002-A1",
+          "exact_quote": "・`a magnificent building/palace`",
+          "location_hint": "語義1「コロケーション」の第1項目見出し"
+        },
+        {
+          "id": "CR-MAGNIFICENT-002-A2",
+          "exact_quote": "例: The restored palace is a magnificent example of eighteenth-century architecture.",
+          "location_hint": "語義1「a magnificent building/palace」の例文"
+        }
+      ]
+    },
+    {
+      "id": "CR-MAGNIFICENT-003",
+      "location": "語義1・語義2および類義語・反意語の頻度欄",
+      "severity": "low",
+      "description": "1〜10の頻度評定について尺度・対象・根拠が示されず、語義別頻度と語全体の頻度、類義語間の比較可能性が不明である。",
+      "reason": "語義1と語義2はいずれも「【頻度】〈7/10〉」とされ、類義語・反意語にも数値が付くが、何を10とする尺度か、会話と文章を合算したものか、語全体ではなく個別語義の頻度なのかが説明されていない。このままでは、二つの語義が同程度に用いられる、あるいは `magnificent` と `splendid` が同頻度である、といった本文からは裏づけられない数量的推論を学習者に促す。",
+      "suggested_direction": "頻度尺度の定義、対象コーパス・媒体、評定が語全体か個別語義かを明示する。根拠を提示できない場合は、数値を「比較的よく使う」「日常では great のほうが一般的」など検証可能な定性的記述に置き換える。",
+      "scope_anchors": [
+        {
+          "id": "CR-MAGNIFICENT-003-A1",
+          "exact_quote": "【頻度】〈7/10〉",
+          "location_hint": "語義1の定義直後"
+        },
+        {
+          "id": "CR-MAGNIFICENT-003-A2",
+          "exact_quote": "【頻度】〈7/10〉",
+          "location_hint": "語義2の定義直後"
+        },
+        {
+          "id": "CR-MAGNIFICENT-003-A3",
+          "exact_quote": "頻度: 〈9/10〉",
+          "location_hint": "語義2の類義語 excellent の項目"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,61 @@
+{
+  "schema_version": "checker_metadata_reuse_proof_v1",
+  "reason": "The round-2 article edit changes only pronunciation. The five reused passes have byte-identical normalized semantic packets and unchanged specifications; source-first facts and claims are unchanged, while source metadata differs only in body binding and usage counters fixed before round 2.",
+  "results": [
+    {
+      "pass_id": "translation",
+      "original_request_sha256": "8432313f7c75bb82d4417300e7f08d16f0d1adce6dc84df87765bdd0f644f8ed",
+      "current_request_sha256": "a8741d3d075a39d7bfb0409b70bb985bc57d4a350e94f74c3b938b4b945ba848",
+      "normalized_input_sha256": "614dfb8e4a34d430a580027507c51bc2c4609df4969a8862c6e085e435086854",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "4abfd134960e8c585aa61d8f9ce90520c8d52a58d32625b968c3b7e58689560f"
+    },
+    {
+      "pass_id": "sense-structure",
+      "original_request_sha256": "7cefc02fefb7f701bac5c8422a2d26ead8360ccdfcc03e25febb8d997363840e",
+      "current_request_sha256": "c7fcbdbf189cf801fde5e81ab9d27dabbb2fb6ac13675a55ea10c8e059b9a5ea",
+      "normalized_input_sha256": "555549ff3f640ce43d47596e8fba08a79d9d6a3a542c8a5f2b997ae8d5875015",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "5b8693c9ec0bff243c187e082d2520abda59357c4161ce80d2e355ba2a7d6796"
+    },
+    {
+      "pass_id": "frame-relation",
+      "original_request_sha256": "f19adb0a595ea8958111517db3b991c19ee5dda7233f16cd379a7a67cff85dc9",
+      "current_request_sha256": "9d968a98dc4aa6cc3df52e111981e8dfc91e0df303ce86a385e50176715a1d96",
+      "normalized_input_sha256": "08b794c6183123069f6c9f41e6346b1bd94124f9177f440d2f05300e2345b106",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "20bfc5a19a278c6ea85f7628ed03e549491bd6cca1464a5238855c2daaad2ec8"
+    },
+    {
+      "pass_id": "example-attribution",
+      "original_request_sha256": "2c2911ed030c4c7300e0fd76e55db12e190880e83c4d2ffa48fbc2b8c6ce077d",
+      "current_request_sha256": "d51a40259c027f97e132ebccb05f2adb17bcf4d4e9f8059dd9e1659539f1cde6",
+      "normalized_input_sha256": "ea83fb0a569a6ce19f5434a74c83bff701cfb668fdceb49c07270b9899d3d006",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "48ae08fd644da47e8b73e51ffeda7fa8f18a6aa8be118f9c35514f3050ba8f57"
+    },
+    {
+      "pass_id": "qualification",
+      "original_request_sha256": "e940abce207074548d2b85740a5b5c1129c4b49d4c04d695bd7c572b3a6cb817",
+      "current_request_sha256": "0f3090d58d6228eb7ba32c4503a5d2dc1a4195347222edd8a19d51d8145190d3",
+      "normalized_input_sha256": "0cebd7f654dba9e8daea06f8ac39be02cefad242fe31b4fc140bab6579c0286d",
+      "schema_valid": true,
+      "reviewer_independent": true,
+      "request_binding_valid": true,
+      "reuse_validated": true,
+      "output_sha256": "d6849029a67e0006c8722e44ddf89d32a280e7e0f8eac4c25f1ef2cc417790b8"
+    }
+  ]
+}

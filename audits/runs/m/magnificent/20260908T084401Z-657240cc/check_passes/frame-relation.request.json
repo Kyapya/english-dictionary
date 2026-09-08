@@ -1,0 +1,82 @@
+{
+  "schema_version": "antonym_axis_blind_request_v1",
+  "pass_id": "frame-relation",
+  "taxonomy_ids": [
+    "argument_slot_role_mismatch",
+    "lexical_relation_mislabel"
+  ],
+  "specification": "prompts/check_pass_frame_relation_v7.md",
+  "input_body_sha256": "258c1b3a17708126df77cb8e5db1556a9e738d56dd4183d8ccca00569461cdb7",
+  "input_sections": {
+    "antonym_items": [
+      {
+        "item_id": "ant-2a37f3ed9ae8",
+        "headword": "magnificent",
+        "sense_definition": "【日本語訳・定義】建物、景色、部屋、衣装、動物などが、規模、美しさ、豪華さ、威厳によって見る人に強い感銘を与えることを表す。単に大きいだけでなく、目を見張るほど見事だという肯定的評価を含む。",
+        "antonym": "unimpressive",
+        "antonym_definition": "定義: 特に感銘を与えず、目立った美点や迫力がない。"
+      },
+      {
+        "item_id": "ant-5372ba08044e",
+        "headword": "magnificent",
+        "sense_definition": "【日本語訳・定義】建物、景色、部屋、衣装、動物などが、規模、美しさ、豪華さ、威厳によって見る人に強い感銘を与えることを表す。単に大きいだけでなく、目を見張るほど見事だという肯定的評価を含む。",
+        "antonym": "plain",
+        "antonym_definition": "定義: 装飾や華やかさがなく、簡素な。"
+      },
+      {
+        "item_id": "ant-f61ced8cd873",
+        "headword": "magnificent",
+        "sense_definition": "【日本語訳・定義】成果、演技、仕事、行為、機会、出来事などの質や価値が非常に高く、強く称賛したくなることを表す。外見の壮麗さを必要とせず、能力、出来、効果、経験の満足度などを高く評価する。単独の `Magnificent!` は「見事だ」「すばらしい」という感嘆になる。",
+        "antonym": "mediocre",
+        "antonym_definition": "定義: 質や能力が平凡で、特に優れていない。"
+      },
+      {
+        "item_id": "ant-d110bb7bd5b1",
+        "headword": "magnificent",
+        "sense_definition": "【日本語訳・定義】成果、演技、仕事、行為、機会、出来事などの質や価値が非常に高く、強く称賛したくなることを表す。外見の壮麗さを必要とせず、能力、出来、効果、経験の満足度などを高く評価する。単独の `Magnificent!` は「見事だ」「すばらしい」という感嘆になる。",
+        "antonym": "terrible",
+        "antonym_definition": "定義: 質や出来が非常に悪い。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "difference_line",
+      "frequency_line",
+      "example_line",
+      "translation_line",
+      "synonym_section",
+      "core_image",
+      "other_senses",
+      "document_order"
+    ],
+    "questions": [
+      "name_axis_as_one_noun",
+      "classify_as_補完_程度_方向_評価_状態",
+      "record_unnamable_with_one_sentence_reason"
+    ],
+    "required_output_schema": "antonym_axis_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+  "source_artifact_sha256": "681a574947ead18b804096165079a4800c3edc22edfc1d7189d38bc0e6cafbb6",
+  "normalized_input_sha256": "716a45b56243bc1b2a7688d8b379c379fa5a2c175644bba77969cbf2080e4190"
+}
