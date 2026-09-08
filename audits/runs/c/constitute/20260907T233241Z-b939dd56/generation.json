@@ -1,0 +1,77 @@
+{
+  "schema_version": "generation_v1",
+  "stage": "generation",
+  "headword": "constitute",
+  "entry_path": "entries/c/constitute.md",
+  "input_artifacts": [
+    "headword",
+    "prompts/entry_spec_v5.md",
+    "prompts/process_improvement_learning_delta_v2.md",
+    "audits/runs/c/constitute/20260907T233241Z-b939dd56/process_improvement/generator-generation.snapshot.md"
+  ],
+  "output_body_sha256": "bc5fd320a4e6026bd4209c99c588e7f87029232f85f6c73b9b166ce053d5b6f1",
+  "status": "draft_saved",
+  "recorded_at": "2026-09-07T23:53:13Z",
+  "notes": "Four-sense learner-dictionary draft covering composition, qualification/equivalence, formal establishment, and formal appointment; source-first comparison remains a separate stage.",
+  "candidate_inventory": [
+    {
+      "id": "GEN-01",
+      "surface_form": "parts constitute a whole; a category constitutes a percentage of a whole; a whole is constituted of/from/by parts",
+      "part_of_speech": "transitive verb",
+      "frame": "〈parts/members〉 constitute 〈whole/group〉; 〈group/category〉 constitute 〈percentage〉 of 〈whole〉; 〈whole〉 be constituted of/from/by 〈parts〉",
+      "meaning": "構成する、占める",
+      "disposition": "included",
+      "article_sense": 1
+    },
+    {
+      "id": "GEN-02",
+      "surface_form": "an act or fact constitutes a category, result, offence, threat, or proof",
+      "part_of_speech": "transitive verb with linking-like semantics",
+      "frame": "〈act/fact/situation〉 constitute 〈category/result〉; what constitutes 〈category〉",
+      "meaning": "～に当たる、～を意味する、～となる",
+      "disposition": "included",
+      "article_sense": 2
+    },
+    {
+      "id": "GEN-03",
+      "surface_form": "constitute a committee, court, government, or authority; duly constituted body",
+      "part_of_speech": "transitive verb",
+      "frame": "constitute 〈organization〉; 〈body〉 be constituted under/by 〈law/authority〉; a duly constituted 〈body〉",
+      "meaning": "正式に設立する、組織する",
+      "disposition": "included",
+      "article_sense": 3
+    },
+    {
+      "id": "GEN-04",
+      "surface_form": "constitute someone an officer; constitute someone as an agent; constituted authorities",
+      "part_of_speech": "transitive verb",
+      "frame": "constitute someone 〈office/role〉; constitute someone as 〈agent/representative〉",
+      "meaning": "任命する、資格を与える",
+      "register": "legal, official, and often archaic",
+      "disposition": "included",
+      "article_sense": 4
+    },
+    {
+      "id": "GEN-X01",
+      "surface_form": "archaic constitute meaning set or place physically",
+      "part_of_speech": "transitive verb",
+      "frame": "constitute 〈person/thing〉 in a place",
+      "meaning": "据える、置く",
+      "disposition": "excluded",
+      "rationale": "Obsolete physical-placement sense has very low modern learner value and is not needed to explain current frames."
+    }
+  ],
+  "entry_features": [
+    "part-of-speech:verb",
+    "polysemy:four-senses",
+    "frame:parts-to-whole",
+    "frame:linking-like-transitive",
+    "domain:legal-and-official",
+    "register:formal"
+  ],
+  "learning_delta": {
+    "schema_version": "process_improvement_learning_delta_v2",
+    "reviewed": true,
+    "items": []
+  }
+}

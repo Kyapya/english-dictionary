@@ -1,0 +1,30 @@
+{
+  "schema_version": "pre_blind_revision_v1",
+  "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "output_body_sha256": "4d990864ada94369312c779118f82c92a81c8bb86dcc6edd10a482f9dabd0d0d",
+  "recorded_at": "2026-09-08T03:31:33Z",
+  "changed_units": [
+    "core_image",
+    "frames",
+    "frequency_register",
+    "lexical_relations",
+    "pronunciation",
+    "sense_structure",
+    "usage_notes",
+    "word_formation"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "multiple_semantic_sections_changed"
+  ],
+  "reusable_passes": []
+}

@@ -1,0 +1,456 @@
+{
+  "schema_version": "normal_review_v2",
+  "stage": "normal_review",
+  "run_id": "normal-constitute-20260908T024208Z-fd1caf1b",
+  "context_id": "normal-constitute-context-20260908T024208Z-fd1caf1b",
+  "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+  "input_artifacts": [
+    "router_selected_sections",
+    "checker_pass_specs"
+  ],
+  "recorded_at": "2026-09-08T03:18:09.145725+00:00",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-translation-1"
+      },
+      "findings": [
+        {
+          "id": "normal-translation-001",
+          "taxonomy_id": "example_translation_alignment",
+          "location": {
+            "section": "lexical_relations",
+            "line_start": 107,
+            "line_end": 107,
+            "exact_quote": "違い: 割合の用法では近いが、account for は「全体のうちどれだけを説明・占有するか」に焦点がある。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。  "
+          },
+          "severity": "minor",
+          "rationale": "この割合用法で必要なのは「全体のうちどれだけを占めるか」という数量関係だが、「占有する」は物や権利を所有・占拠する意味に寄り、直後の割合例が示す意味と日本語の述語が局所的にずれる。部分と全体の方向自体は逆転していない。",
+          "evidence_link_ids": [],
+          "suggested_direction": "「全体のうちどれだけを説明できるか・占めるか」のように、数量的な割合を表す「占める」へ直す。"
+        }
+      ]
+    },
+    {
+      "pass_id": "sense-structure",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-sense-structure-1"
+      },
+      "findings": [
+        {
+          "id": "normal-sense-structure-001",
+          "taxonomy_id": "sense_boundary_overlap",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 190,
+            "line_end": 190,
+            "exact_quote": "【日本語訳・定義】組織、委員会、裁判所、政府などを正式に形成・設置し、公式の組織体として成立させることを表す。制度や文脈によって所定の手続きや権限付与を伴うことはあるが、constitute という語だけで法的有効性や実際の活動可能性まで一律に保証するわけではない。  "
+          },
+          "severity": "blocking",
+          "rationale": "語義3の境界が「組織体を設立する」に限定されているため、法的用法の constitute an agreement（契約・合意を所定の形式に整える）に収録先がない。これは単なる対象分野の違いではなく、既存の設立フレームとは目的語の意味タイプと結果状態が異なる使役的な法的形式化であり、現行の定義・文法パターン・コアイメージ第3枝はいずれも agreement を「公式の組織体」として扱えない。",
+          "evidence_link_ids": [
+            "F005"
+          ],
+          "suggested_direction": "語義3を「組織・会議体を正式に成立させる／契約などを所定の法的形式に整える」まで明示的に拡張し、対応する目的語と構文を追加する。両フレームを一つの簡潔な定義で扱えない場合は、法的形式化を独立した語義として分割し、コアイメージにも対応枝を設ける。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-frame-relation-1"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+        "blind_request_sha256": "192e4f92a6860dc8dca03245ec288359519ca4d13d67bd2eac7950bd30c5099e",
+        "recorded_at": "2026-09-08T12:05:04+09:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "constitute-fresh-frame-relation-1"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+        "stage2_request_sha256": "1ebd66dce0dc26cf8fd28ca373151258bb4d356db04b0378b11560e3ed310909",
+        "blind_record_sha256": "24e9387e5773734a49f69fa844589de6d3615534ff559cc50c927ca9eb8dea65",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "constitute-fresh-frame-relation-1"
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T03:18:26.264118+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-example-attribution-1"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+        "blind_request_sha256": "70e21040dce2821a824963110854118f966213806e57e481100140edf2f9e635",
+        "recorded_at": "2026-09-08T03:06:30.391474Z",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "constitute-fresh-example-attribution-1"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-20739e4f6ab2",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitute a breach of the agreement"
+            ],
+            "rationale": "「constitute a breach of the agreement」では、データ共有という行為が契約違反という分類に当たる関係なのでsense:002である。sense:001なら主語が目的語の全体またはその割合を構成する必要があるが、breachは構成される全体・部分量ではない。"
+          },
+          {
+            "example_id": "ex-6580bc19b1b9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "legally constituted officer"
+            ],
+            "rationale": "「legally constituted officer」は人である役職者が法的に任命された結果状態を表すためsense:004である。sense:003は委員会・政府などの組織体の正式設立だが、ここでconstitutedが直接修飾するofficerは組織体ではない。"
+          },
+          {
+            "example_id": "ex-ce5a776418c8",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitute a criminal offence"
+            ],
+            "rationale": "「constitute a criminal offence」では記録改ざんという行為が刑事犯罪の成立条件を満たすかを述べるのでsense:002である。sense:003なら目的語が設立される組織体となるが、criminal offenceは組織ではない。"
+          },
+          {
+            "example_id": "ex-8e811b406263",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a significant part of the annual budget"
+            ],
+            "rationale": "「a significant part of the annual budget」が部分量とその全体を明示し、維持費が予算の一部を占めるsense:001に一意に帰属する。sense:002の分類・評価なら目的語自体がbreachやriskのようなカテゴリーとなるが、このpart of句は部分全体関係を符号化する。"
+          },
+          {
+            "example_id": "ex-3250194bfa48",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Twelve jurors constitute the full jury"
+            ],
+            "rationale": "「Twelve jurors constitute the full jury」では構成員である12人が全体である陪審を形成する能動の部分→全体関係なのでsense:001である。sense:003なら権限主体がjuryという組織を正式に設立する行為となるが、主語のjurorsはここでは設立者ではなく構成員である。"
+          },
+          {
+            "example_id": "ex-fd73f5de867d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "a tribunal to be constituted"
+            ],
+            "rationale": "「a tribunal to be constituted」は紛争時に審判機関を成立させる受動構文でありsense:003である。sense:001の受動的な組成なら通常partsを示すof句などが必要だが、この文は組成要素ではなく設置時点をwhen節で示す。"
+          },
+          {
+            "example_id": "ex-924a4fd85622",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "the majority of the evening staff"
+            ],
+            "rationale": "「the majority of the evening staff」は非常勤職員が夜間スタッフ全体の過半数を占める割合関係を明示するためsense:001である。sense:002ならmajorityを分類・評価として認定する読みになるが、of the evening staffが全体に対する数量部分であることを直接示す。"
+          },
+          {
+            "example_id": "ex-68e8f9d29819",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "constituted him treasurer"
+            ],
+            "rationale": "「constituted him treasurer」は人himを役職treasurerにする目的語＋目的格補語の任命構文なのでsense:004である。sense:003なら目的語そのものが設立対象の組織となるが、この文では人とその就任役職が別々に現れる。"
+          },
+          {
+            "example_id": "ex-7022004a7a23",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "what constitutes acceptable use"
+            ],
+            "rationale": "「what constitutes acceptable use」は何がacceptable useという分類の成立条件を満たすかを問うためsense:002である。sense:001ならwhatが全体を作る部分となる必要があるが、acceptable useは構成物ではなく規範的カテゴリーである。"
+          },
+          {
+            "example_id": "ex-5b909f57236c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:004"
+            ],
+            "discriminating_terms": [
+              "She was constituted guardian"
+            ],
+            "rationale": "「She was constituted guardian」は人Sheが役割guardianに任命される受動の任命構文なのでsense:004である。sense:003は組織体の設立だが、主語は個人でguardianは就く役割であり組織ではない。"
+          },
+          {
+            "example_id": "ex-a5fd77ea3b57",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitutes a serious risk to public safety"
+            ],
+            "rationale": "「constitutes a serious risk to public safety」では損傷した橋という状況を重大な危険と評価・分類するのでsense:002である。sense:001なら橋がriskという全体の構成部分になる関係だが、この文のriskは橋が該当する評価カテゴリーである。"
+          },
+          {
+            "example_id": "ex-4637d54ddbed",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "35 percent of the company's revenue"
+            ],
+            "rationale": "「35 percent of the company's revenue」がオンライン販売の占める割合と全体を明示するのでsense:001である。sense:002の分類認定ではなく、percent ofという数量的な部分全体関係がconstituteの補部に直接現れている。"
+          },
+          {
+            "example_id": "ex-01a49989788b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "commission was constituted under the new environmental law"
+            ],
+            "rationale": "「commission was constituted under the new environmental law」は委員会が法律に基づいて正式に設置された結果を示すためsense:003である。sense:001ならcommissionの構成要素を示す読みになるが、この受動文のunder句は構成部分でなく設立根拠を表す。"
+          },
+          {
+            "example_id": "ex-c3399241dc9b",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "constitutes a significant change"
+            ],
+            "rationale": "「constitutes a significant change」は改訂方針を会社の取り組み方における重大な変化と評価するためsense:002である。sense:001なら方針がchangeという全体を構成する部分でなければならないが、ここでは方針そのものがchangeに当たる。"
+          },
+          {
+            "example_id": "ex-eae1a2d1edd9",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "is constituted of experts"
+            ],
+            "rationale": "「is constituted of experts」は全体panelとその構成要素expertsをof句で結ぶ組成関係なのでsense:001である。sense:003の正式設立ならconstitutedは機関の成立を表すが、このof句は設立権限や根拠ではなく構成員を提示している。"
+          },
+          {
+            "example_id": "ex-3cd3bc2622ea",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "does not constitute proof of fraud"
+            ],
+            "rationale": "「does not constitute proof of fraud」は匿名メッセージが詐欺の証明として成立するかを否定する分類・評価なのでsense:002である。sense:001ならmessageがproofという全体の構成部分になる読みだが、否定と単数目的語proofは証拠資格の不足を判定している。"
+          },
+          {
+            "example_id": "ex-d9ef24b6a41d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "duly constituted board"
+            ],
+            "rationale": "「duly constituted board」は取締役会が適正な手続で正式に成立した結果状態を表すためsense:003である。sense:001の構成関係なら構成員やof句が必要だが、dulyはboardの組成内容ではなく設立の適正性をconstitutedに直接付加する。"
+          },
+          {
+            "example_id": "ex-4bc1c5dc0c02",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "constituted an independent panel"
+            ],
+            "rationale": "「constituted an independent panel」では省が組織体panelを正式に設置する能動構文なのでsense:003である。sense:001なら主語が目的語全体を成す構成要素となるが、ministryはpanelの構成員ではなく設立主体である。"
+          },
+          {
+            "example_id": "ex-3cfeeb6c7589",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:003"
+            ],
+            "discriminating_terms": [
+              "constitute a transitional government"
+            ],
+            "rationale": "「constitute a transitional government」では当事者らが暫定政府という組織体を発足させることに合意しておりsense:003である。sense:001ならpartiesが政府を構成する成員という静的関係になるが、agreed to constituteという意図的行為の不定詞が設立を示す。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T03:18:09.134173+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-qualification-1"
+      },
+      "findings": [
+        {
+          "id": "normal-qualification-001",
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "word_formation",
+            "line_start": 26,
+            "line_end": 26,
+            "exact_quote": "`constituent` — 名詞「構成要素、選挙区民」、形容詞「構成する」。政治の「選挙区民」は constitute の目的語ではなく、代表者を選ぶ constituency の構成員を指す。  "
+          },
+          "severity": "blocking",
+          "rationale": "「選挙区民」は constitute の目的語ではない、という無限定の統語的主張には反例がある。たとえば `These voters constitute the senator's constituents.` では政治義の constituents が constitute の直接目的語になる。ここで説明すべきなのは constituent の語義・名称が『constitute の目的語』という関係から定義されるのではないことだが、現状の文は実際の文中で目的語にできないという禁止にも読め、誤った一般化を生む。",
+          "evidence_link_ids": [],
+          "suggested_direction": "絶対的な構文制約を削除し、「政治義の constituent は『constitute の目的語』を意味する名称ではなく、constituency の構成員を指す」のように語形成上の関係だけへ限定する。"
+        }
+      ]
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-pronunciation-1"
+      },
+      "findings": []
+    },
+    {
+      "pass_id": "evidence",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "constitute-fresh-evidence-1"
+      },
+      "findings": [
+        {
+          "id": "normal-evidence-001",
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "pronunciation",
+            "line_start": 15,
+            "line_end": 15,
+            "exact_quote": "米: /ˈkɑːnstəˌtuːt/｜英: /ˈkɒnstɪˌtjuːt/。3音節で、第1音節に主強勢、第3音節に第二強勢がある。米音では第1音節の母音が /ɑː/、第2音節が弱い /stə/、第3音節の初めが /t/ となる。英音では第1音節が /ɒ/、第2音節が /stɪ/、第3音節が /tjuːt/ となる。"
+          },
+          "severity": "blocking",
+          "rationale": "C001 の F001 は米音の語末について /tuːt/ と /tjuːt/ の両方を記録し、F009 の根拠詳細も英音 /tjuːt/ に対して米音では一般的に /tuːt/ と限定している。本文は米音全般を単一の /tuːt/（第3音節初頭 /t/）として無限定に提示しており、引用根拠が示す米音 /tjuːt/ の変異を反映していない。",
+          "evidence_link_ids": [
+            "C001"
+          ],
+          "suggested_direction": "米音を『一般に /tuːt/』と限定し、/tjuːt/ も米音の変異として認められる旨を添えるか、米音を一つの代表形だけ示す表示だと明示する。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-translation-1"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-sense-structure-1"
+    },
+    "frame-relation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-frame-relation-1"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-example-attribution-1"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-qualification-1"
+    },
+    "pronunciation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-pronunciation-1"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "constitute-fresh-evidence-1"
+    }
+  },
+  "independent_candidates": [],
+  "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+}

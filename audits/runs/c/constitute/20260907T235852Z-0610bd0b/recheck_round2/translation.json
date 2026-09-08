@@ -1,0 +1,51 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-round2-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 94,
+        "line_end": 95,
+        "exact_quote": "例: These streams form the main river.  \n訳: これらの小川が合流して本流を形作る。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文は複数の小川が本流を form するという構成関係だけを明示しているのに、訳文は「合流して」という具体的な過程を追加している。小川が本流を構成することから、それらが一か所で合流することまでは必ずしも導けず、明示内容と文脈推論の境界が変わっている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "明示されていない合流過程を除き、「これらの小川が本流を形作っている」のように構成関係だけを訳す。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 171,
+        "line_end": 172,
+        "exact_quote": "例: The structure qualifies as a protected historic building.  \n訳: その建物は、保護対象の歴史的建造物に該当する。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の主語 structure は building より広い語であり、その構造物が protected historic building という分類条件を満たすかが述べられている。訳文は主語を先に「建物」と呼ぶため、判定対象を判定結果の上位分類にあらかじめ入れてしまい、qualify as が表す分類関係を部分的に先取りしている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "主語の広さを保って「その構造物は、保護対象の歴史的建造物に該当する」のように訳す。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 277,
+        "line_end": 278,
+        "exact_quote": "例: The charter identifies the treasurer as a legally constituted officer of the association.  \n訳: その憲章は、会計役を協会の正式に任命された役職者として定めている。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の主節述語 identifies は、憲章が会計役をそのような役職者として特定・記載しているという関係である。訳文の「定めている」は、憲章自体がその地位を規範的に設定・指定するという作用を表し得るため、識別・記載する側を任命・設定する側へ強めている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "constituted の任命義は残しつつ、主節を「その憲章は、会計役を協会の法的に正式に任命された役職者として明記している」のようにする。"
+    }
+  ],
+  "unrouted_observations": []
+}

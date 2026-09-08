@@ -1,0 +1,50 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "agent_id": "constitute-translation-1",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 61,
+        "line_end": 61,
+        "exact_quote": "訳: 非常勤職員が夜間スタッフの大半を占めている。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の the majority は過半数・多数派であることだけを表し、圧倒的多数までは含意しない。一方「大半」は全体のかなり大きな部分という強い程度を通常表すため、割合の強さが上がっている。同じ項目の用途説明も「過半数」としており、例文の訳だけがその範囲からずれている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「非常勤職員が夜間スタッフの過半数を占めている」など、the majority の下限を過度に強めない訳にする。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 153,
+        "line_end": 153,
+        "exact_quote": "訳: その指針は、何がシステムの許容される使用に当たるかを説明している。  "
+      },
+      "severity": "minor",
+      "rationale": "acceptable use の分類関係は保存されているが、「システムの許容される使用」は連体修飾が不自然で、用法の説明として読み取りにくい。事実関係や意味役割を変えない局所的な日本語調整で解消できる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「その指針は、どのようなシステム利用が許容されるかを説明している」など、what constitutes の分類判断を自然な日本語で表す。"
+    },
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 215,
+        "line_end": 215,
+        "exact_quote": "訳: 各党は暫定政府を発足させることで合意した。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の the parties は合意の当事者を表すだけで、それらが政党であるとは明示していない。「各党」は主体を複数の政党に限定し、文脈推論を明示内容として追加している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「当事者らは暫定政府を発足させることで合意した」など、主体を政党に限定しない訳にする。"
+    }
+  ]
+}

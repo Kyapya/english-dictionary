@@ -22549,7 +22549,7 @@ tags: []
 
 ＃コアイメージ
 
-権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は「行為を実行する」という古くからの抽象名詞用法が犯罪などに固定した歴史的残存義で、現代の「委ねる」という核から導きにくいため個別に参照する。  
+権限、仕事、取引などを正式に誰かへ委ね、その実行を担わせること。委ねられた主体、依頼された仕事、その対価、正式な権限へ焦点が移ることで各語義が生じる。語義5は commit「行う、犯す」に対応する「行為の実行」の意味で、特に犯罪・違反などについて使われる。現代の「委ねる」という核から導きにくいため個別に参照する。  
 
 ・公的な役目を集団へ委ねること → 「委員会、調査委員会、行政委員会」（語義1）  
 ・売買・仲介・取引処理を担う相手へ対価を渡すこと → 「歩合、販売・取扱・仲介手数料」（語義2）  
@@ -22653,7 +22653,7 @@ tags: []
 訳: 彼女はすべての新規契約について10パーセントの歩合を受け取る。  
 
 ・work on commission  
-用途: 固定給の全部または一部ではなく、成果に応じた報酬体系で働く。  
+用途: 報酬の全部または一部が、売上・取引成果に応じて決まる形で働く。  
 例: Most sales staff receive a base salary and work partly on commission.  
 訳: 営業担当者の多くは基本給を受け取り、報酬の一部が歩合となる形で働いている。  
 
@@ -22821,7 +22821,7 @@ tags: []
 例: He was accused of aiding others in the commission of the offence.  
 訳: 彼は他者によるその違反の実行を助けたとして告発された。  
 
-【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。通常は単独で自由に使わず、the commission of の後ろに犯罪・違反・不正行為を置く。  
+【語法・注意】この語義の commission は「委員会」や「手数料」ではなく、commit「行う、犯す」に対応する行為名詞である。特に the commission of a crime/an offence のように、犯罪・違反などの実行を表す形で使う。errors of commission は、誤ったことをしてしまうタイプのミスを指し、犯罪や故意の不正に限らない。  
 
 【類義語】
 
@@ -22870,7 +22870,7 @@ tags: []
 例: Her appointment as ambassador was confirmed by the senate.  
 訳: 彼女の大使任命は上院で承認された。  
 
-7. 【慣用的名詞句】就役中・稼働中／使用不能・任務不能
+7. 【慣用表現】就役中・稼働中／使用不能・任務不能
 
 【日本語訳・定義】in commission は船舶・設備などが正式に就役中、または使用可能な状態にあることを表す。out of commission は就役していない、故障などで使用できない、または人が負傷・病気で一時的に活動できない状態を表す。  
 
@@ -22950,14 +22950,14 @@ tags: []
 ・be commissioned by 〈依頼主〉  
 用途: 作品・調査などを依頼した主体を受動形で示す。  
 例: The survey was commissioned by the city council.  
-訳: その調査は市議会の依頼で実施された。  
+訳: その調査は市議会によって正式に依頼された。  
 
 ・specially commissioned for 〈目的・機会〉  
 用途: 特定の目的や行事のために特別に依頼制作されたことを示す。  
 例: The exhibition features a film specially commissioned for the anniversary.  
 訳: その展覧会では記念日のために特別制作された映画を上映している。  
 
-【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。commission someone for a job は文脈によって不自然になりやすく、正式な制作依頼なら commission someone to do the work とする。  
+【語法・注意】commission someone to do と commission something from someone は視点が異なる。前者は仕事をする人を直接目的語にし、後者は成果物を直接目的語にして制作者を from で示す。  
 
 【類義語】
 
@@ -23082,6 +23082,673 @@ tags: []
 ・decommission  
 定義: 船舶、設備、施設などを正式に運用から外す。  
 頻度: 〈5/10〉  
-違い: commission が正式な運用開始を表すのに対し、decommission は同じ運用状態の軸で正式な使用停止を表す。  
+違い: commission が船舶・設備を就役・運用に入れる意味で使われる場合、decommission はそれらを正式に運用から外すことを表す。  
 例: The operator plans to decommission the old reactor by 2030.  
 訳: 運営事業者は2030年までに古い原子炉を廃止措置へ移す予定だ。
+
+---
+
+# constitute
+
+---
+headword: constitute
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra
+created_at: 2026-09-08
+updated_at: 2026-09-08
+checked: true
+tags: []
+---
+
+＃発音記号
+
+米（一般的な形）: /ˈkɑːnstəˌtuːt/｜英: /ˈkɒnstɪˌtjuːt/。3音節で、第1音節に主強勢、第3音節に第二強勢がある。米音では第1音節の母音が /ɑː/、第2音節が弱い /stə/ となり、第3音節は一般に /tuːt/ だが /tjuːt/ の変異もある。英音では第1音節が /ɒ/、第2音節が /stɪ/、第3音節が /tjuːt/ となる。  
+
+＃語源
+
+中英語を経て、ラテン語 constituere「立てる、据える、設ける、定める」に由来する。これは con- と statuere「立てる、置く」から成り、statuere は「立つ」を表す語根につながる。現在の「全体を構成する」「制度・組織を正式に成立させる」「人を役職に就ける」という用法には、「ある形・位置に据えて成立させる」という歴史的な意味が残っている。  
+同語源・同じ語族の学習語には constitution「構成、体質、憲法」、constitutional「構成上の、憲法上の」、constituent「構成要素、選挙区民；構成する」、statute「制定法」がある。  
+
+＃語形成
+
+`constitution` — 名詞。「構成・体質」のほか、国家・組織の基本原則を定める「憲法・規約」を表す。  
+`constitutional / constitutionally` — 形容詞「構成上の、体質上の、憲法上の」／副詞「体質的に、憲法上」。  
+`constituent` — 名詞「構成要素、選挙区民」、形容詞「構成する」。政治義の constituent は「constitute の目的語」を意味する名称ではなく、代表者を選ぶ constituency の構成員を指す。  
+`reconstitute` — 動詞「再構成する、元の状態に戻す」。乾燥食品・薬剤などに液体を加えて戻す用法もある。  
+
+＃コアイメージ
+
+constitute の共通核は、要素・行為・組織・人を、ある全体・分類・制度・役割として成り立つ位置に据えることである。文脈によって、すでにそうであるという関係を述べる場合と、意図的・正式に成立させる行為を述べる場合がある。  
+・要素を全体として成り立つ位置に据える → 「構成する、占める」（語義1）  
+・行為や事実を分類として成り立つ位置に据える → 「～に当たる、～となる」（語義2）  
+・組織や契約を正式な制度・法的形式として成り立つ位置に据える → 「正式に設立する、所定の形式に整える」（語義3）  
+・人を公的な役割として成り立つ位置に据える → 「正式に任命・指定する」（語義4）  
+
+＃意味・用法・関連表現
+
+1. 【他動詞】構成する、（全体の一定割合を）占める
+
+【日本語訳・定義】一つまたは複数の人・物・部分・期間などが、一つの全体を形作る、またはその全体の一定割合・重要部分を占めることを表す。全体構成の能動構文では主語が構成要素、目的語がそれらによってできる全体である。一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は通常 of 句に現れるが、文脈上明らかな場合は省略できる。意図的に組み立てる行為ではなく、部分と全体の関係を記述することが多い。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】やや硬い標準語。報道、統計、学術、ビジネス、公式説明でよく使う。日常会話では make up や form の方が一般的なことが多い。  
+
+【文法パターン】`〈parts/members〉 constitute 〈whole/group〉`＝部分・構成員が全体・集団を構成する／`〈group/category〉 constitute 〈割合〉 (of 〈whole〉)`＝集団・分類が全体の一定割合を占める（全体が文脈上明らかなら of 句を省略可）／`〈whole〉 be constituted of 〈parts〉`＝全体が部分から構成されている  
+
+【コロケーション】
+
+・`〈parts/members〉 constitute 〈whole/group〉`  
+用途: 複数の部分・構成員が一つの全体や集団を作ることを述べる。  
+例: Twelve jurors constitute the full jury in this court.  
+訳: この裁判所では、12人の陪審員が陪審全体を構成する。  
+
+・`constitute the majority/minority of 〈group〉`  
+用途: ある分類の人・物が、集団の過半数または少数派を占めることを述べる。  
+例: Part-time employees constitute the majority of the evening staff.  
+訳: 非常勤職員が夜間スタッフの過半数を占めている。  
+
+・`constitute 〈percentage〉 of 〈whole〉`  
+用途: 全体に占める割合を、統計的・客観的に示す。  
+例: Online sales now constitute 35 percent of the company's revenue.  
+訳: オンライン販売は現在、その会社の売上高の35パーセントを占めている。  
+
+・`constitute a large/significant part of 〈whole〉`  
+用途: ある要素が全体の大きな部分・重要部分を占めることを示す。  
+例: Maintenance costs constitute a significant part of the annual budget.  
+訳: 維持費は年間予算のかなりの部分を占める。  
+
+・`be constituted of 〈parts/materials〉`  
+用途: 全体を主語にして、その構成要素や材料を示す硬い受動表現。  
+例: The panel is constituted of experts from five different fields.  
+訳: その委員会は5つの異なる分野の専門家で構成されている。  
+
+【語法・注意】能動の `A, B, and C constitute X` では A・B・C が部分、X が全体である。`X consists of A, B, and C` や `X is composed of A, B, and C` では向きが逆になり、X が全体、A・B・C が部分になる。  
+
+`be constituted of` は可能だが硬い。通常は `be composed of` または `consist of` が自然である。`consist` は自動詞なので `X is consisted of A` とはしない。  
+`comprise` は伝統的には `X comprises A, B, and C` のように全体を主語、部分を目的語にするため、能動の constitute とは基本方向が逆である。ただし現代英語では parts comprise a whole や be comprised of も広く使われるので、厳密さが必要な文章では parts/whole の関係が明確な表現を選ぶ。  
+
+【類義語】
+
+・make up  
+定義: 複数の部分・人が集まって全体を構成する。  
+頻度: 〈9/10〉  
+違い: make up は constitute より口語的で幅広い。`A and B make up X` と同じ parts-to-whole の向きで使える。  
+例: Small firms make up most of the local economy.  
+訳: 小規模企業が地域経済の大部分を構成している。  
+
+・form  
+定義: 部分が集まって全体・形・集団を作る。  
+頻度: 〈10/10〉  
+違い: form は中立的で、構成関係にも実際に作る過程にも使える。constitute は硬く、部分と全体の関係を分類・統計として述べることが多い。  
+例: These streams form the main river.  
+訳: これらの小川が本流を形作っている。  
+
+・compose  
+定義: 複数の要素が全体を構成する。  
+頻度: 〈7/10〉  
+違い: compose は構成要素の組み合わせに焦点があり、受動の `be composed of` が特に一般的である。constitute は割合を述べる構文にもよく使う。  
+例: Four short sections compose the final movement.  
+訳: 4つの短い部分が終楽章を構成している。  
+
+・account for  
+定義: 数量・割合・原因などのうち、特定の分を占める。  
+頻度: 〈8/10〉  
+違い: 割合の用法では近いが、account for は「全体のうちどれだけを説明できるか・占めるか」に焦点がある。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。  
+例: Exports account for nearly half of total sales.  
+訳: 輸出が総売上高のほぼ半分を占める。  
+
+2. 【他動詞・連結的用法】～に当たる、～を意味する、～となる
+
+【日本語訳・定義】行為、状況、事実、結果などが、ある分類・評価・状態の定義や成立条件を満たし、そのものと見なせることを表す。目的語には crime、breach、threat、evidence、change、problem などが来る。法律用語だけではなく一般の評価にも使うが、何がその分類に当たるかをやや改まって判断する響きがある。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】やや硬い標準語。報道、法律、規則、倫理、学術、ビジネス上の評価で頻出する。法律文脈では、実際に犯罪・違反などが成立するかは適用法と事実認定によって決まるため、単語自体が法的結論を保証するわけではない。  
+
+【文法パターン】`〈act/fact/situation〉 constitute 〈category/result〉`＝行為・事実・状況が分類・結果に当たる／`constitute a crime/breach/violation`＝犯罪・契約違反・規則違反に当たる／`constitute a threat/risk/problem`＝脅威・危険・問題となる／`what constitutes 〈category〉`＝何がその分類を成り立たせるか  
+
+【コロケーション】
+
+・`constitute a crime/offence`  
+用途: ある行為が法律上の犯罪・違反に当たり得ることを述べる。  
+例: Deliberately altering the records may constitute a criminal offence.  
+訳: 記録を故意に改ざんすることは、刑事犯罪に当たる可能性がある。  
+
+・`constitute a breach/violation of 〈rule/duty〉`  
+用途: 行為・不作為が契約、規則、義務などへの違反に当たると判断する。  
+例: Sharing the data without permission would constitute a breach of the agreement.  
+訳: 許可なくデータを共有すれば、その契約への違反に当たる。  
+
+・`constitute a threat/risk to 〈person/system〉`  
+用途: 状況・存在が人や制度への脅威・危険となることを示す。  
+例: The damaged bridge constitutes a serious risk to public safety.  
+訳: その損傷した橋は公共の安全に対する重大な危険となっている。  
+
+・`constitute evidence/proof of 〈事実〉`  
+用途: ある資料・行為が、事実を裏づける証拠に当たるかを論じる。  
+例: A single anonymous message does not constitute proof of fraud.  
+訳: 匿名のメッセージ一通だけでは、詐欺の証明にはならない。  
+
+・`constitute a significant change/improvement`  
+用途: 出来事や措置が、単なる小差ではなく、意味のある変化・改善に当たると評価する。  
+例: The revised policy constitutes a significant change in the company's approach.  
+訳: 改訂された方針は、その会社の取り組み方の大きな変化に当たる。  
+
+・`what constitutes 〈category/standard〉`  
+用途: 何がある概念・分類・基準に該当するのかを問う・定義する。  
+例: The guidelines explain what constitutes acceptable use of the system.  
+訳: その指針は、どのようなシステム利用が許容されるかを説明している。  
+
+【語法・注意】この語義の constitute は、主語と目的語を同一の分類関係で結ぶが、文法上は目的語を取る動詞であり、通常 `constitute as a threat` のように as を挟まない。`The delay constitutes a problem.` のように直接目的語を置く。  
+
+語義1との区別は、目的語が「主語を部分として含む全体」か、「主語が該当すると判断される分類・評価」かで行う。`Ten members constitute the committee.` は構成、`Their absence constitutes a problem.` は評価・該当である。  
+否定文の `does not constitute proof/consent/approval` は、「証拠・同意・承認として十分ではない」という境界を明示する定型的な用法である。constitute 自体は、事態を引き起こす cause や、証拠によって証明する prove を意味しない。  
+
+【類義語】
+
+・amount to  
+定義: 行為・状況が、実質的にある結果・評価と同じである。  
+頻度: 〈8/10〉  
+違い: amount to は「結局は～に等しい」という実質的帰結を強調する。constitute は定義・基準への該当を、より公式・分析的に述べやすい。  
+例: Ignoring repeated warnings amounts to negligence.  
+訳: 度重なる警告を無視することは、怠慢に等しい。  
+
+・qualify as  
+定義: 必要な条件を満たして、ある分類・資格に該当する。  
+頻度: 〈7/10〉  
+違い: qualify as は明示的な条件を満たす点を強調する。constitute は条件が厳密に列挙されていない一般評価にも使える。  
+例: The structure qualifies as a protected historic building.  
+訳: その構造物は、保護対象の歴史的建造物に該当する。  
+
+・count as  
+定義: 規則・判断・一般的理解の上で、あるものとして数えられる。  
+頻度: 〈8/10〉  
+違い: count as は口語的で、日常的な分類にも使いやすい。constitute はより硬く、公式の基準や重大な評価に合う。  
+例: Does volunteer work count as relevant experience?  
+訳: ボランティア活動は関連経験として認められますか。  
+
+・represent  
+定義: 状況・出来事が、ある意味・変化・危険などを体現する。  
+頻度: 〈9/10〉  
+違い: represent は象徴・典型・意味づけまで広く表す。constitute は主語が実際にその分類・状態に当たるという同一視がより強い。  
+例: The agreement represents an important step toward peace.  
+訳: その合意は、平和に向けた重要な一歩を意味する。  
+
+3. 【他動詞】（組織などを）正式に設立する；（契約などを）所定の法的形式に整える
+
+【日本語訳・定義】組織、委員会、裁判所、政府などを正式に形成・設置し、公式の組織体として成立させることを表す。法律用法では、契約や組織体に所定の法的形式を与えることも表す。制度や文脈によって所定の手続きや権限付与を伴うことはあるが、constitute という語だけで法的有効性や実際の活動可能性まで一律に保証するわけではない。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】非常に硬い公式・行政・法律・組織運営の用法。契約などを所定の法的形式に整える意味も法律文脈に限られる。一般的な会社・団体の設立では establish、form、set up がより広く使われる。  
+
+【文法パターン】`〈authority/institution/parties〉 constitute 〈committee/body/court/government〉`＝権限主体・機関・当事者が委員会・機関・裁判所・政府を正式に設ける／`constitute 〈agreement/body〉`＝契約・組織体に所定の法的形式を与える／`〈body〉 be constituted under/by 〈law/authority〉`＝機関が法律・権限に基づいて設立される／`a properly/legally/duly constituted 〈body/authority〉`＝適切・合法・正式に成立した機関・権限主体  
+
+【コロケーション】
+
+・`constitute a committee/panel`  
+用途: 特定の目的をもつ委員会や審査団を正式に設ける。  
+例: The ministry constituted an independent panel to investigate the accident.  
+訳: 同省は、その事故を調査する独立委員会を正式に設置した。  
+
+・`constitute a court/tribunal`  
+用途: 裁判所・審判機関を正式に設ける。  
+例: The treaty provides for a tribunal to be constituted when a dispute arises.  
+訳: その条約は、紛争が生じた際に審判機関を設置することを定めている。  
+
+・`constitute a government/authority`  
+用途: 政府・公的機関を正式な組織体として成立させる。  
+例: The parties agreed to constitute a transitional government.  
+訳: 当事者らは暫定政府を発足させることで合意した。  
+
+・`be constituted under 〈law/charter〉`  
+用途: 組織が法律・憲章などを根拠として設立されていることを示す。  
+例: The commission was constituted under the new environmental law.  
+訳: その委員会は新しい環境法に基づいて設置された。  
+
+・`a duly/properly constituted 〈body/meeting〉`  
+用途: 機関・会議が必要な手続きや構成要件を満たして正式に成立していることを示す。  
+例: Only a duly constituted board may approve the transaction.  
+訳: 正式に構成された取締役会だけが、その取引を承認できる。  
+
+【語法・注意】語義1の「部分が全体を構成している」は状態的な関係、語義3の「組織を正式に設立する」は意図的・制度的な行為である。`The members constitute the board.` は「構成員が取締役会を構成する」、`The agency constituted a board.` は「機関が取締役会を正式に設置した」となる。  
+
+法律文脈の `constitute an agreement/body` は、契約や組織体に必要な法的形式を与える意味になり得る。組織を新設する意味と、既存の契約・組織体を所定の形式に整える意味は文脈で区別する。  
+
+`be constituted under ...` は通常、設立根拠を示す。`be constituted by ...` の by 句は文脈により、設立主体を示す場合と、語義1で全体を形作る構成要素を示す場合がある。`be constituted of ...` は構成要素を示すため、前置詞だけで語義を機械的に判断しない。  
+`duly/properly/legally constituted` は constituted が過去分詞として名詞を修飾する定着表現で、「正当に権限をもつ・手続き上有効に成立した」という含みを持つ。ただし、その組織の個々の決定まで自動的に適法だと保証する表現ではない。  
+
+【類義語】
+
+・establish  
+定義: 組織・制度・関係などを作り、安定して存在するようにする。  
+頻度: 〈9/10〉  
+違い: establish は設立全般に使える標準的な語である。constitute は、組織体を公式な形で成立させる硬い表現である。  
+例: The university established a new research center.  
+訳: その大学は新しい研究センターを設立した。  
+
+・form  
+定義: 人・組織・要素を集めて、新しい集団・組織を作る。  
+頻度: 〈10/10〉  
+違い: form は日常的で、正式な法的手続きを必ずしも含まない。constitute は公式・制度的な文脈で使われやすい。  
+例: Residents formed a committee to protect the park.  
+訳: 住民たちは公園を守るために委員会を結成した。  
+
+・set up  
+定義: 組織・制度・仕組みなどを作って動かし始める。  
+頻度: 〈9/10〉  
+違い: set up は口語的で、準備・運用開始まで幅広く表す。constitute は設立の公式性・制度性に焦点がある。  
+例: The city set up a task force to address housing shortages.  
+訳: 市は住宅不足に対処する特別チームを立ち上げた。  
+
+4. 【他動詞・公式・法律】（人を役職・地位に）正式に任命・指定する
+
+【日本語訳・定義】権限をもつ者・法律・公式文書などが、人を特定の役職・地位・役割に正式に任命・指定することを表す。任命の法的有効性、付与される権限、その立場で行動できる範囲は、該当する文書・制度・法域によって決まる。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】法律・公文書などの公式文体。`a legally constituted officer` のような表現では、法や制度に基づいて正式に任命された役職者を指す。  
+
+【文法パターン】`〈authority/law/document〉 constitute someone 〈office/role〉`＝権限者・法律・公式文書が人を役職・役割に任命する／`someone be constituted 〈office/role〉`＝人が役職に任命される／`a legally constituted 〈officer/official〉`＝法に基づいて正式に任命された役職者  
+
+【コロケーション】
+
+・`constitute someone 〈office/role〉`  
+用途: 人を特定の役職・職務に就けることを、古風または法律的に述べる。  
+例: The charter constituted him treasurer of the association.  
+訳: その憲章によって、彼は協会の会計役に任命された。  
+
+・`be constituted 〈office/role〉`  
+用途: 人が役職・地位に正式に任命されたことを受動態で示す。  
+例: She was constituted guardian for the limited purpose stated in the order.  
+訳: 彼女は、その命令に記された限定的な目的のための後見人に任命された。  
+
+・`a legally constituted 〈officer/official〉`  
+用途: 法や制度に基づいて正式に任命された役職者を指す。  
+例: The charter identifies the treasurer as a legally constituted officer of the association.  
+訳: その憲章は、会計役を協会において法に基づき正式に任命された役職者として明記している。  
+
+【語法・注意】人を直接目的語にし、役職を目的格補語として置く `constitute someone treasurer` のような形で使う。現代の一般文では非常に硬いため、通常は `appoint someone treasurer` などとする。  
+
+語義3は committee や court などの組織そのものを成立させ、語義4は person を役職・地位に就ける。`constitute a committee` と `constitute someone treasurer` を同じ目的語構造として扱わない。  
+`a legally constituted officer` は「構成された役職者」という逐語訳ではなく、「法に基づいて正式に任命された役職者」を意味する。  
+
+【類義語】
+
+・appoint  
+定義: 人を役職・職務に正式に就ける。  
+頻度: 〈9/10〉  
+違い: appoint は現代英語の標準表現で、constitute より広く自然に使う。constitute は法律・公文書などの硬い公式文体に現れる。  
+例: The board appointed Maya treasurer.  
+訳: 取締役会はマヤを会計責任者に任命した。  
+
+・designate  
+定義: 人を特定の役割・地位の担当者として公式に指定する。  
+頻度: 〈7/10〉  
+違い: designate は役割を割り当て、明示することに焦点がある。constitute は法律・公式文体で、人をその役職・地位に正式に就けることを表す。  
+例: The minister designated Lee as the official spokesperson.  
+訳: 大臣はリーを公式報道官に指定した。  
+
+・name  
+定義: 人を役職・候補・受賞者などとして発表・指定する。  
+頻度: 〈9/10〉  
+違い: name は簡潔で一般的であり、発表・選定に焦点がある。constitute は法律・制度上の役職へ正式に任命する文脈で使われる。  
+例: The council named Rivera chair of the committee.  
+訳: 評議会はリベラを委員会の議長に指名した。
+
+---
+
+# principal
+
+---
+headword: principal
+type: word
+status: checked
+prompt_version: entry_spec_v5
+model: gpt-6-astra
+created_at: 2026-09-08
+updated_at: 2026-09-08
+checked: true
+tags: []
+---
+
+＃発音記号
+
+発音: /ˈprɪnsəpəl/。形容詞と名詞で同じ発音を用いる。  
+
+＃語源
+
+中英語・古フランス語を経て、ラテン語 *principalis*「第一の、主要な」にさかのぼる。その基になった *princeps* は、*primus*「第一の」と *capere*「取る」に関係し、「第一の位置を占める者」という発想を持つ。語源には「第一の、主要な」という意味的なつながりがある。  
+同語源語には `prince`「王子、君主」と `principality`「公国」がある。綴りのよく似た `principle`「原理、原則」も同じラテン語群に由来するが、現代英語では別の単語として使い分ける。  
+
+＃語形成
+
+・principally：`principal` の副詞形。  
+・principalship：`principal` の名詞派生形。  
+・principal-agent relationship：法律上の本人・代理人関係を表す複合表現。  
+
+＃コアイメージ
+
+`principal` の中心は、「重要度・権限・責任・金額の土台として第一に位置する」である。形容詞では主要なものを選び出し、名詞では組織・活動の主要人物や取引の当事者本人、教育機関の長や舞台芸術で確立した主要演者、利息・収益に対する元の金額や信託収益に対する財産本体、法的関係の主要当事者を指す。  
+・重要度で第一に位置するもの → 「主要な、最も重要な」（語義1）  
+・組織・活動・取引で主要な立場にある人、特に教育機関の長 → 「主要人物・当事者、校長、学長」（語義2）  
+・利息・収益に対する基礎額、または信託収益に対する財産本体 → 「元金、元本、信託元本」（語義3）  
+・代理関係で権限の源として第一に位置する当事者 → 「本人、依頼者」（語義4）  
+・舞台芸術で主要な役割を担う人 → 「主要演者、オーケストラの首席奏者」（語義5）  
+・適用法上 `principal` と分類される犯罪関与者 → 「犯罪関与者」（語義6）  
+・債務・保証関係で第一次的責任を負う者 → 「主たる債務者・義務者」（語義7）  
+
+＃意味・用法・関連表現
+
+1. 【形容詞】主要な、最も重要な、第一の
+
+【日本語訳・定義】複数の原因、目的、人物、場所、要素などの中で、重要度・影響力・順位が最も高い、または特に高いものを示す。単に時間的に最初という意味ではなく、重要性や中心性の評価を表す。  
+
+【頻度】〈9/10〉  
+
+【レジスター/領域】標準～やや形式的。報道、ビジネス、学術、行政で広く使う。日常会話では `main` がより普通なことが多い。  
+
+【文法パターン】限定用法で `principal + 〈名詞〉` の形を取り、「主要な～」を表す。  
+
+【コロケーション】
+
+・`the principal reason for ...`  
+用途: 出来事・状況・判断・行動などについて、最も重要な理由を示す。  
+例: The principal reason for the delay was a shortage of parts.  
+訳: 遅延の主な理由は部品不足だった。  
+
+・`the principal cause of ...`  
+用途: 出来事を引き起こした最も重要な原因を示す。  
+例: Investigators identified corrosion as the principal cause of the failure.  
+訳: 調査担当者は、腐食をその故障の主因と特定した。  
+
+・`a principal source of ...`  
+用途: 物・情報・収入などの主要な供給源を示す。  
+例: Tourism is a principal source of income for the island.  
+訳: 観光はその島の主要な収入源の一つである。  
+
+・`one of the principal 〈複数名詞〉`  
+用途: 最重要候補が複数ある中の一つであることを示す。  
+例: She is one of the principal architects of the reform.  
+訳: 彼女はその改革の主要な立案者の一人である。  
+
+・`the principal place of business`  
+用途: 企業の主たる事業所を指す定着した法律・ビジネス表現。該当場所を決める法的基準や効果は、適用される法や法域によって異なる。  
+例: The company moved its principal place of business to Osaka.  
+訳: その会社は主たる事業所を大阪に移した。  
+
+【語法・注意】`principal` と `principle` は綴りも意味も異なる。`principal` には形容詞で「最も重要な」を表す用法があり、別に人や金額などを指す名詞用法もある。一方、`principle` は「原理・原則」を表す名詞である。したがって「基本原則」は `basic principle` であり、`basic principal` ではない。  
+
+【類義語】
+
+・main  
+定義: 複数のものの中で中心的・最重要である。  
+頻度: 〈10/10〉  
+違い: `main` は日常語で範囲が広い。`principal` はより形式的で、順位・重要性・影響力が高いことを意識させる。  
+例: Our main goal is to reduce waiting times.  
+訳: 私たちの主な目標は待ち時間を減らすことだ。  
+
+・primary  
+定義: 第一順位・第一段階である、または最も基本的である。  
+頻度: 〈9/10〉  
+違い: `primary` は重要性に加え、順序・段階・基本性にも焦点を置ける。`principal` は主として相対的な重要度や地位を表す。  
+例: Safety is our primary concern.  
+訳: 安全が私たちの最優先事項である。  
+
+・chief  
+定義: 同種の中で最上位・最重要である。  
+頻度: 〈8/10〉  
+違い: `chief` は役職名や「最大の原因・懸念」によく使われ、最上位性を強く示す。`principal` は文章語として原因・目的・人物・場所などに幅広く使う。  
+例: Cost remains the chief obstacle to expansion.  
+訳: 費用が依然として拡大の最大の障害である。  
+
+・leading  
+定義: ある分野で先頭に立ち、大きな影響力や高い評価を持つ。  
+頻度: 〈9/10〉  
+違い: `leading` は人・企業・研究機関などの実績や影響力を強調しやすい。`principal` は実績評価を必須とせず、対象内での中心性を示す。  
+例: She is a leading expert on marine ecosystems.  
+訳: 彼女は海洋生態系の第一人者である。  
+
+【反意語】
+
+・secondary  
+定義: 第一ではなく、重要度・順位が二次的である。  
+頻度: 〈8/10〉  
+違い: 重要度・順位の軸で `principal` と方向が反対になり、主要なものに対する従属的・補助的なものを表す。  
+例: Price was only a secondary consideration.  
+訳: 価格は二次的な考慮事項にすぎなかった。  
+
+・minor  
+定義: 重要性・規模・影響が比較的小さい。  
+頻度: 〈9/10〉  
+違い: `principal` との程度軸上の対立で、最重要・主要ではない小さな要素を表す。  
+例: The report contains a few minor errors.  
+訳: その報告書には小さな誤りがいくつかある。  
+
+2. 【名詞・可算】主要人物・当事者；特に校長、学長
+
+【日本語訳・定義】組織・事業・交渉などで主導的地位を持つ人、または行為・取引の主要な当事者。権限を持つ人を指すことが多いが、組織を支配することを必須とはしない。特に教育では、学校、カレッジ、その他の教育機関を管理する最高責任者を指す。教育上どの種類の機関を指すかは地域と制度によって異なる。  
+
+【頻度】〈8/10〉  
+
+【レジスター/領域】標準～やや形式的。教育分野では学校・教育機関の長を表し、イングランドではカレッジの長を指す場合がある。  
+
+【文法パターン】可算名詞として、組織・活動の主要人物や取引の当事者を指す。`act as principal` は取引の当事者本人の資格で行動することを表す。教育文脈では学校・カレッジなどの長を表す役職名として用いる。  
+
+【コロケーション】
+
+・`the principal of 〈限定詞を含む学校・教育機関の名詞句〉`  
+用途: どの教育機関の長かを `of` で示す。  
+例: The principal of the college welcomed the new students.  
+訳: そのカレッジの学長は新入生を歓迎した。  
+
+・`a school principal`  
+用途: 学校を管理する責任者を職種として表す。  
+例: The school principal met with parents after the incident.  
+訳: 校長はその出来事の後、保護者と面会した。  
+
+・`a college principal`  
+用途: カレッジを管理する責任者を職種として表す。  
+例: A college principal addressed the graduating class.  
+訳: カレッジの学長が卒業生に向けて話した。  
+
+・`act as principal`  
+用途: 他者の代理人としてだけではなく、取引の当事者本人の資格で行動することを表す。  
+例: In this transaction, the firm acts as principal, buying the goods for its own account rather than as another company's agent.  
+訳: この取引では、その会社は当事者本人として行動し、別会社の代理人としてではなく自己の勘定で商品を購入する。  
+
+【語法・注意】一般の「重要人物」を自由に指す語ではなく、特定の組織・活動・取引で主要な立場にある人や当事者に用いる。取引の `principal` は当事者本人の立場を示し、自分が代理人を任命していることを必須としない。代理人との関係で権限の源となる本人は語義4で詳しく扱う。教育上の役職名は地域や制度によって異なるため、日本語の「校長」を機械的にすべて `principal` としない。  
+
+【類義語】
+
+・head  
+定義: 学校・組織などの長。  
+頻度: 〈9/10〉  
+違い: `head` は組織の長を広く表す。`principal` は権限・主導的地位を持つ人を表し、特に教育機関で役職名として用いられる。  
+例: She is the head of a large secondary school.  
+訳: 彼女は大規模な中等学校の校長である。  
+
+3. 【名詞・金融／信託法】元金、元本、信託財産の元本
+
+【日本語訳・定義】借入・貸付・投資で利息・利益・収益と区別される元の資本額を指す。元金への支払いは債務額を減らす。信託法では、収益と区別される信託財産そのもの、すなわち信託元本・corpusを指す。  
+
+【頻度】〈7/10〉  
+
+【レジスター/領域】金融、融資、投資、会計、信託法。金融義は日常的なローン説明にも現れ、信託義は専門的である。  
+
+【文法パターン】金融では利息・収益の基礎となる金額を、信託法では収益と区別される財産本体を表す名詞として用いる。  
+
+【コロケーション】
+
+・`principal and interest`  
+用途: 借入金の元金と、それに対して発生する利息を対で示す。  
+例: The monthly payment includes both principal and interest.  
+訳: 毎月の返済額には元金と利息の両方が含まれる。  
+
+・`pay down the principal`  
+用途: 返済によって未返済の元金を減らすことを表す。  
+例: Extra payments can help you pay down the principal faster.  
+訳: 追加返済をすれば、元金をより早く減らせる。  
+
+・`protect the principal`  
+用途: 投資で、元本そのものの毀損を避けることを表す。  
+例: The fund aims to protect the principal—the amount originally invested—while generating modest returns.  
+訳: そのファンドは、控えめな収益を生みながら元本、すなわち当初の投資額を保全することを目指している。  
+
+・`repay principal`  
+用途: 利息とは別に借入の元金を返済することを表す。  
+例: The borrower will begin repaying principal next year.  
+訳: 借り手は来年、元金の返済を開始する。  
+
+【語法・注意】`principal` は元の基礎額、`interest` は借入の対価または貸付・投資から生じる追加額であり、反意語ではなく関連する別の金額構成要素である。信託では `principal` が財産本体、`income` がそこから生じる収益を指す。`repay the principal` では `principal` 自体が目的語の名詞になる。日本語の「元利金」は `principal and interest` であり、`principal interest` とはしない。  
+
+【類義語】
+
+・capital  
+定義: 投資・事業に用いられる資金または資産。  
+頻度: 〈9/10〉  
+違い: `capital` は事業資金・生産資産まで広く表す。`principal` は特定の貸付・借入・投資で利息や収益の基礎となる元の額を指す。  
+例: The company raised additional capital from investors.  
+訳: その会社は投資家から追加資金を調達した。  
+
+4. 【名詞・可算・法律／代理関係】本人、依頼者、代理権を与える当事者
+
+【日本語訳・定義】別の人・法人である `agent` に、自分のために行動する権限を与える人または法人。代理人は本人のために行動し、代理関係では `principal` が権限の源となる。米国の一般的な代理法の説明では、代理人は本人のために、かつ本人の支配の下で行動する。具体的な成立要件は適用法によって異なり得る。  
+
+【頻度】〈5/10〉  
+
+【レジスター/領域】法律、保険、不動産、商取引。日常語として人を「依頼主」と呼ぶだけなら `client` が自然な場合も多い。  
+
+【文法パターン】`a principal-agent relationship`＝本人・代理人関係／`act on behalf of the principal`＝本人を代理して行動する  
+
+【コロケーション】
+
+・`a principal-agent relationship`  
+用途: 権限を与える本人と、そのために行動する代理人との関係を表す。  
+例: The contract created a principal-agent relationship between the owner and the broker.  
+訳: その契約は所有者と仲介業者の間に本人・代理人関係を成立させた。  
+
+・`act on behalf of the principal`  
+用途: 代理人が本人を代理して行動することを表す。  
+例: The agent may sign the document on behalf of the principal.  
+訳: 代理人は本人を代理してその書類に署名できる。  
+
+【語法・注意】法律用語の `principal` は「重要人物」という一般義だけでなく、`agent` に対する特定の関係上の役割名である。`client` はサービスを受ける顧客・依頼人を広く指すが、必ずしも代理権を与える法律上の本人ではない。`the principal's agent` は「本人の代理人」であり、「校長の代理人」と決めつけない。  
+
+【類義語】
+
+・mandator  
+定義: 他人に委任・代理の権限を与える者。  
+頻度: 〈2/10〉  
+違い: 特定の法体系や専門文脈で使われる低頻度語である。  
+例: The mandator may revoke the mandate subject to the agreement.  
+訳: 委任者は、契約の定めに従い、委任を撤回できる。  
+
+5. 【名詞・可算】舞台芸術の主要演者、オーケストラの首席奏者
+
+【日本語訳・定義】舞台芸術で主要な役を担う演者、またはオーケストラで一つのセクションを率いる奏者。一般の重要人物ではなく、芸術分野で確立した役割名を指す。  
+
+【頻度】〈3/10〉  
+
+【レジスター/領域】舞台芸術・オーケストラ・音楽の専門語。  
+
+【文法パターン】可算名詞として、舞台芸術・音楽で確立した主要演者や首席奏者の役割を表す。  
+
+【コロケーション】
+
+・`one of the orchestra's principals`  
+用途: オーケストラで各セクションを率いる奏者を名詞で指す。  
+例: As one of the orchestra's principals, she leads the cello section.  
+訳: オーケストラの首席奏者の一人として、彼女はチェロのセクションを率いている。  
+
+【語法・注意】舞台芸術やオーケストラ内で確立した役割名として用い、一般の「重要人物」には広げない。  
+
+【類義語】
+
+・section leader  
+定義: オーケストラで一つのセクションを率いる奏者。  
+頻度: 〈4/10〉  
+違い: 役割を説明する一般的な表現で、`principal` は確立した役職名として用いられる。  
+例: The section leader rehearsed the difficult passage.  
+訳: セクションの首席奏者は難しい楽節を練習した。  
+
+6. 【名詞・可算・刑事法】適用法上 `principal` と分類される犯罪関与者
+
+【日本語訳・定義】刑事法の文脈で、犯罪を実行する者、または適用される分類の下で犯罪への一定の関与により直接の刑事責任を負う者。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】刑事法の専門語。犯罪に関するこの語義は法域によって分類法が異なる。  
+
+【文法パターン】刑事法で可算名詞として用い、犯罪関与者を適用される法的分類に従って指す。  
+
+【コロケーション】
+
+・`a principal in a crime`  
+用途: 犯罪について直接の刑事責任を負う者を指す。  
+例: The court held him directly criminally liable as a principal in the crime, rather than classifying him as an accessory.  
+訳: 裁判所は彼をその犯罪の `accessory` と分類するのではなく、`principal` として直接の刑事責任を負うものとした。  
+
+・`treat someone as a principal`  
+用途: 一定の関与者を適用法上 `principal` として扱うことを表す。  
+例: The statute treats a person who knowingly assists the offense as a principal.  
+訳: その制定法は、情を知って犯罪を援助する者を `principal` として扱う。  
+
+【語法・注意】刑事法の `principal` は適用される法的分類に従う役割名で、`accessory` と対比される。債務・保証関係の第一次的責任者は別の語義7である。  
+
+【類義語】
+
+・perpetrator  
+定義: 犯罪・不正行為を実際に行った者。  
+頻度: 〈6/10〉  
+違い: `perpetrator` は実行者に焦点を置く一般的な法律・報道語。`principal` は適用される法的分類によって、実行者以外の一定の関与者を含む場合がある。  
+例: Police are still trying to identify the perpetrator.  
+訳: 警察は今も犯人の特定を進めている。  
+
+7. 【名詞・可算・債務／保証法】主たる債務者・義務者、第一次的責任者
+
+【日本語訳・定義】債務・保証の文脈で、保証人などの二次的責任者と対比され、義務について第一次的に責任を負う人または法人。  
+
+【頻度】〈2/10〉  
+
+【レジスター/領域】債務法・保証法の専門語。  
+
+【文法パターン】可算名詞として、保証人・`surety`・`guarantor` と対比される第一次的責任者を指す。  
+
+【コロケーション】
+
+・`be liable as principal`  
+用途: 二次的な保証責任ではなく、主たる当事者として第一次的責任を負うことを示す。  
+例: Under the agreement, the company remains liable as principal for the debt, while the guarantor is only secondarily liable.  
+訳: その契約の下で、会社はその債務について主たる当事者として引き続き責任を負い、保証人は二次的にのみ責任を負う。  
+
+・`the obligation of the principal`  
+用途: 主たる当事者が第一次的に負う義務を示す。  
+例: The obligation of the principal is to repay the debt; the guarantor is only secondarily liable.  
+訳: 主たる義務者の義務は債務を返済することであり、保証人は二次的にのみ責任を負う。  
+
+・`the principal and the surety`  
+用途: 第一次的責任を負う当事者と、保証する側を対で示す。  
+例: Under the agreement, the principal and the surety are primarily and secondarily liable for the debt, respectively.  
+訳: その契約の下で、主たる義務者と保証人は、その債務についてそれぞれ第一次的責任と二次的責任を負う。  
+
+【語法・注意】この語義では、`principal` は `be liable as principal` のように人・法人を指す名詞である。`principal debtor` や `principal obligor` では語義1の形容詞が `debtor`・`obligor` を修飾するため、名詞単独の構造と区別する。また、金額を指す語義3の「元金」とも区別する。  
+
+【類義語】
+
+・obligor  
+定義: 契約や法律上の義務を負う者。  
+頻度: 〈3/10〉  
+違い: `obligor` は義務を負う者を広く表す。`principal` は保証人などと対比して、その義務について第一次的に責任を負う側を示す。  
+例: The obligor must perform the duty by the stated date.  
+訳: 義務者は定められた日までに義務を履行しなければならない。  
+
+・debtor  
+定義: 金銭その他の債務を負う者。  
+頻度: 〈6/10〉  
+違い: `debtor` は債務者一般を指す。`principal` は保証関係で第一次的責任を負う当事者という役割を強調する。  
+例: The debtor made the payment on time.  
+訳: 債務者は期限どおりに支払った。

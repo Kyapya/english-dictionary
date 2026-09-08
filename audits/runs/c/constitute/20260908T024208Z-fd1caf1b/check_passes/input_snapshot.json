@@ -1,0 +1,826 @@
+{
+  "source_inventory": {
+    "schema_version": "source_inventory_v2",
+    "stage": "source_inventory",
+    "run_id": "20260908T024208Z-fd1caf1b",
+    "context_id": "source-constitute-20260908T024208Z-fd1caf1b",
+    "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+    "prompt_sha256": "9b098479af4d18acf89543a2b62c81ed21f99aac429743bed1aa2b0c489864dd",
+    "recorded_at": "2026-09-08T02:59:08.052546Z",
+    "input_artifacts": [
+      "headword",
+      "prompts/source_first_audit_v2.md",
+      "audits/runs/c/constitute/20260907T235852Z-0610bd0b/source_inventory.json",
+      "entries/c/constitute.md"
+    ],
+    "headword": "constitute",
+    "source_first_audit": {
+      "version": "source_first_audit_v2",
+      "profile": "extended",
+      "profile_reason": "post-cold recheck budget exhausted after evidence-driven revision; fresh validation required before merge",
+      "limits": {
+        "max_sources": 8,
+        "max_facts": 80,
+        "max_research_rounds": 3,
+        "max_post_cold_rechecks": 2,
+        "max_final_attempts": 2
+      },
+      "usage": {
+        "sources_used": 7,
+        "facts_used": 26,
+        "research_rounds_used": 2,
+        "post_cold_rechecks_used": 0,
+        "final_attempts_used": 0
+      },
+      "research_status": "complete",
+      "stop_reason": "coverage_axes_closed",
+      "open_questions": [],
+      "inventory_completed_before_article_comparison": true,
+      "inventory_completed_at": "2026-09-08T00:12:00Z",
+      "article_comparison_started_at": "2026-09-08T00:12:01Z",
+      "coverage_axes": [
+        {
+          "axis": "lexical_senses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F003",
+            "F004",
+            "F005",
+            "F006",
+            "F007",
+            "F010",
+            "F011",
+            "F012",
+            "F013",
+            "F014",
+            "F015",
+            "F017"
+          ]
+        },
+        {
+          "axis": "part_of_speech_and_frames",
+          "status": "covered",
+          "source_fact_ids": [
+            "F002",
+            "F005",
+            "F006",
+            "F010",
+            "F011",
+            "F012",
+            "F013",
+            "F014"
+          ]
+        },
+        {
+          "axis": "derived_and_related_forms",
+          "status": "covered",
+          "source_fact_ids": [
+            "F002",
+            "F021",
+            "F022",
+            "F023",
+            "F024",
+            "F025",
+            "F026"
+          ]
+        },
+        {
+          "axis": "specialist_and_legal_uses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F005",
+            "F006",
+            "F007",
+            "F012",
+            "F013",
+            "F016"
+          ]
+        },
+        {
+          "axis": "register_region_and_frequency",
+          "status": "covered",
+          "source_fact_ids": [
+            "F010",
+            "F012",
+            "F013",
+            "F015",
+            "F016",
+            "F019"
+          ]
+        },
+        {
+          "axis": "pronunciation_and_etymology",
+          "status": "covered",
+          "source_fact_ids": [
+            "F001",
+            "F008",
+            "F009",
+            "F018",
+            "F020"
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "id": "merriam-webster-constitute",
+          "locator": "https://www.merriam-webster.com/dictionary/constitute",
+          "source_type": "dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "merriam-webster",
+          "facts": [
+            {
+              "id": "F001",
+              "form": "constitute",
+              "kind": "pronunciation",
+              "statement": "American pronunciation has primary stress on the first syllable and permits final /tuːt/ or /tjuːt/.",
+              "source_detail": "Merriam-Webster headword pronunciation line records /ˈkän(t)-stə-ˌtüt/ and /-ˌtyüt/."
+            },
+            {
+              "id": "F002",
+              "form": "constituted",
+              "kind": "derived_form",
+              "statement": "Constituted is the past tense and past participle; constituting is the present participle.",
+              "source_detail": "Merriam-Webster inflection line lists constituted and constituting and labels constitute transitive."
+            },
+            {
+              "id": "F003",
+              "form": "constitute",
+              "kind": "definition",
+              "statement": "Parts or members constitute a whole by making it up, forming it, or composing it.",
+              "source_detail": "Merriam-Webster sense 1 defines constitute as make up, form, compose and gives twelve months constitute a year."
+            },
+            {
+              "id": "F004",
+              "form": "constitute",
+              "kind": "definition",
+              "statement": "Constitute can mean to set up, establish, or found an institution or government.",
+              "source_detail": "Merriam-Webster sense 2 includes set up, establish, and constitute a provisional government."
+            },
+            {
+              "id": "F005",
+              "form": "constitute",
+              "kind": "legal_use",
+              "statement": "In legal use constitute can give an agreement or body due or lawful form.",
+              "source_detail": "Merriam-Webster general and legal definitions record giving due or required legal form."
+            },
+            {
+              "id": "F006",
+              "form": "constitute",
+              "kind": "legal_use",
+              "statement": "Constitute can appoint a person to an office, function, or dignity.",
+              "source_detail": "Merriam-Webster sense 3 and legal sense 1 explicitly record appointment to an office or function."
+            },
+            {
+              "id": "F007",
+              "form": "constitute",
+              "kind": "legal_use",
+              "statement": "An act or document may constitute something by qualifying as it, as when failure to act constitutes negligence.",
+              "source_detail": "Merriam-Webster legal sense 3b defines qualify as and illustrates failure to act may constitute negligence."
+            },
+            {
+              "id": "F008",
+              "form": "constitute",
+              "kind": "etymology",
+              "statement": "Constitute came through Middle English from Latin constitutus, the participle of constituere, from com- plus statuere to set.",
+              "source_detail": "Merriam-Webster Word History gives the Middle English and Latin derivation and links statuere with set."
+            }
+          ]
+        },
+        {
+          "id": "collins-constitute",
+          "locator": "https://www.collinsdictionary.com/dictionary/english/constitute",
+          "source_type": "dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "collins",
+          "facts": [
+            {
+              "id": "F009",
+              "form": "constitute",
+              "kind": "pronunciation",
+              "statement": "British pronunciation uses /ɒ/ and /tjuːt/, while the American form commonly uses /tuːt/.",
+              "source_detail": "Collins COBUILD and British/American pronunciation entries contrast UK /ˈkɒnstɪtjuːt/ with a US ending /tuːt/."
+            },
+            {
+              "id": "F010",
+              "form": "constitute",
+              "kind": "grammar",
+              "statement": "The equivalence sense is a non-continuous linking-like verb followed directly by a noun phrase.",
+              "source_detail": "Collins COBUILD labels the sense link verb, no continuous, with the pattern VERB noun and examples constitute an offence and constitute a victory."
+            },
+            {
+              "id": "F011",
+              "form": "constitute",
+              "kind": "definition",
+              "statement": "People or things constitute a whole when they are the parts or members forming it, including a stated percentage.",
+              "source_detail": "Collins COBUILD sense 2 defines the parts-to-whole relation and illustrates volunteers constituting over 95 percent of a workforce."
+            },
+            {
+              "id": "F012",
+              "form": "constitute",
+              "kind": "definition",
+              "statement": "A committee, government, court, or similar body is constituted when formally established and authorized to operate.",
+              "source_detail": "Collins COBUILD sense 3 and British senses 3-4 record formal establishment and legal form for institutions and courts."
+            },
+            {
+              "id": "F013",
+              "form": "constitute",
+              "kind": "definition",
+              "statement": "Constitute can give a person an office or function, including in passive constituted expressions.",
+              "source_detail": "Collins British and American entries define appointment and give legally constituted officer and he was constituted treasurer."
+            },
+            {
+              "id": "F014",
+              "form": "constituted",
+              "kind": "grammar",
+              "statement": "The passive construction constituted of can identify the materials or parts composing a whole.",
+              "source_detail": "Collins American entry illustrates mortar constituted of lime and sand."
+            },
+            {
+              "id": "F015",
+              "form": "constitute",
+              "kind": "register",
+              "statement": "The physical sense set or place is archaic.",
+              "source_detail": "Collins American sense 6 explicitly labels to set or place archaic."
+            },
+            {
+              "id": "F016",
+              "form": "constituted",
+              "kind": "register",
+              "statement": "The formal-establishment use is formal and is commonly realized in the passive.",
+              "source_detail": "Collins COBUILD labels the body-establishment sense formal and usually passive."
+            }
+          ]
+        },
+        {
+          "id": "etymonline-constitute",
+          "locator": "https://www.etymonline.com/word/constitute",
+          "source_type": "etymology_reference",
+          "source_role": "etymology_reference",
+          "independence_group": "etymonline",
+          "facts": [
+            {
+              "id": "F017",
+              "form": "constitute",
+              "kind": "definition",
+              "statement": "The parts-to-whole formation sense is recorded from the mid-fifteenth century.",
+              "source_detail": "Etymonline dates the formation-as-a-necessary-part sense to the mid-15th century."
+            },
+            {
+              "id": "F018",
+              "form": "constitute",
+              "kind": "etymology",
+              "statement": "Latin constituere covered causing to stand, setting up, fixing, establishing, and forming something new.",
+              "source_detail": "Etymonline lists these meanings for Latin constituere."
+            },
+            {
+              "id": "F019",
+              "form": "constitute",
+              "kind": "register",
+              "statement": "The appoint-to-office sense is historically old and is recorded from around 1400.",
+              "source_detail": "Etymonline dates appoint or elect to an office or position of power to about 1400."
+            },
+            {
+              "id": "F020",
+              "form": "constitute",
+              "kind": "etymology",
+              "statement": "The Latin source combines an assimilated form of com- with statuere to set, ultimately related to the root meaning stand.",
+              "source_detail": "Etymonline analyzes constituere as com- plus statuere and connects statuere to the PIE root meaning stand."
+            }
+          ]
+        },
+        {
+          "id": "merriam-webster-constitution",
+          "locator": "https://www.merriam-webster.com/dictionary/constitution",
+          "source_type": "dictionary",
+          "source_role": "related_form_reference",
+          "independence_group": "merriam-webster",
+          "facts": [
+            {
+              "id": "F021",
+              "form": "constitution",
+              "kind": "derived_form",
+              "statement": "Constitution is a noun for structure or physical makeup and for fundamental governing principles or their written instrument.",
+              "source_detail": "Merriam-Webster constitution senses cover physical makeup, structure, organization, fundamental laws, and the written governing instrument."
+            }
+          ]
+        },
+        {
+          "id": "merriam-webster-constitutional",
+          "locator": "https://www.merriam-webster.com/dictionary/constitutional",
+          "source_type": "dictionary",
+          "source_role": "related_form_reference",
+          "independence_group": "merriam-webster",
+          "facts": [
+            {
+              "id": "F022",
+              "form": "constitutional",
+              "kind": "derived_form",
+              "statement": "Constitutional is an adjective for constitution-related, constitution-authorized, bodily-constitution, or fundamental-makeup senses.",
+              "source_detail": "Merriam-Webster adjective senses cover constitutional law, bodily makeup, and fundamental makeup."
+            },
+            {
+              "id": "F023",
+              "form": "constitutionally",
+              "kind": "derived_form",
+              "statement": "Constitutionally is the adverb derived from constitutional.",
+              "source_detail": "Merriam-Webster records constitutionally as an adverb under constitutional."
+            }
+          ]
+        },
+        {
+          "id": "merriam-webster-constituent",
+          "locator": "https://www.merriam-webster.com/dictionary/constituent",
+          "source_type": "dictionary",
+          "source_role": "related_form_reference",
+          "independence_group": "merriam-webster",
+          "facts": [
+            {
+              "id": "F024",
+              "form": "constituent",
+              "kind": "derived_form",
+              "statement": "Constituent as a noun can mean an essential component or a member of a political constituency.",
+              "source_detail": "Merriam-Webster noun senses distinguish component and constituency-member meanings."
+            },
+            {
+              "id": "F025",
+              "form": "constituent",
+              "kind": "derived_form",
+              "statement": "Constituent as an adjective means serving to form or make up a whole.",
+              "source_detail": "Merriam-Webster adjective sense 1 defines constituent as forming or composing a whole."
+            }
+          ]
+        },
+        {
+          "id": "merriam-webster-reconstitute",
+          "locator": "https://www.merriam-webster.com/dictionary/reconstitute",
+          "source_type": "dictionary",
+          "source_role": "related_form_reference",
+          "independence_group": "merriam-webster",
+          "facts": [
+            {
+              "id": "F026",
+              "form": "reconstitute",
+              "kind": "derived_form",
+              "statement": "Reconstitute means constitute again or anew, especially restore by adding water or another liquid.",
+              "source_detail": "Merriam-Webster defines reconstitute as constitute again or anew and especially restore by adding water."
+            }
+          ]
+        }
+      ],
+      "source_union": [
+        {
+          "id": "U001",
+          "source_fact_ids": [
+            "F001",
+            "F009"
+          ],
+          "canonical_statement": "Constitute has first-syllable primary stress, with UK /ɒ/ and /tjuːt/ and common US /ɑː/ and /tuːt/ realizations.",
+          "disposition": "included",
+          "rationale": "The pronunciation section records the regionally differentiated forms."
+        },
+        {
+          "id": "U002",
+          "source_fact_ids": [
+            "F002"
+          ],
+          "canonical_statement": "Constituted and constituting are listed as inflected forms of the transitive verb constitute.",
+          "disposition": "excluded",
+          "rationale": "The selected locator lists the forms but does not atomically label each grammatical function, so the article omits the bundled inflection claim."
+        },
+        {
+          "id": "U003",
+          "source_fact_ids": [
+            "F003",
+            "F011",
+            "F017"
+          ],
+          "canonical_statement": "Parts, members, or a category constitute a whole or a share of it in the parts-to-whole sense.",
+          "disposition": "included",
+          "rationale": "Sense 1 and its central frames directly express this well-attested relation."
+        },
+        {
+          "id": "U004",
+          "source_fact_ids": [
+            "F007",
+            "F010"
+          ],
+          "canonical_statement": "An act, fact, or situation constitutes a category when it qualifies as or can be regarded as that category.",
+          "disposition": "included",
+          "rationale": "Sense 2 separates this linking-like classification meaning from composition."
+        },
+        {
+          "id": "U005",
+          "source_fact_ids": [
+            "F004",
+            "F012",
+            "F016",
+            "F018"
+          ],
+          "canonical_statement": "Constitute formally establishes and authorizes an institution, committee, government, court, or similar body.",
+          "disposition": "included",
+          "rationale": "Sense 3 covers formal institutional establishment and its passive realization."
+        },
+        {
+          "id": "U006",
+          "source_fact_ids": [
+            "F006",
+            "F013",
+            "F019"
+          ],
+          "canonical_statement": "In formal or legal language constitute can appoint a person to an office or function.",
+          "disposition": "included",
+          "rationale": "Sense 4 includes both direct-complement and as-complement appointment frames and labels their register."
+        },
+        {
+          "id": "U007",
+          "source_fact_ids": [
+            "F005"
+          ],
+          "canonical_statement": "Constitute can give a body or agreement the form required for legal validity.",
+          "disposition": "integrated",
+          "rationale": "The lawful-form aspect is integrated into the formal-establishment sense without asserting universal legal effects."
+        },
+        {
+          "id": "U008",
+          "source_fact_ids": [
+            "F014"
+          ],
+          "canonical_statement": "The passive constituted of construction may identify the components of a whole.",
+          "disposition": "included",
+          "rationale": "Sense 1 teaches this formal passive alongside the active direction contrast."
+        },
+        {
+          "id": "U009",
+          "source_fact_ids": [
+            "F008",
+            "F020"
+          ],
+          "canonical_statement": "Constitute derives through Middle English from Latin constituere, built from com- and statuere and associated with setting or establishing.",
+          "disposition": "included",
+          "rationale": "The etymology section presents the attested source and a restrained semantic bridge."
+        },
+        {
+          "id": "U010",
+          "source_fact_ids": [
+            "F021"
+          ],
+          "canonical_statement": "Constitution is the related noun for makeup or structure and for fundamental governing principles or their document.",
+          "disposition": "included",
+          "rationale": "The word-formation section records these principal learner-relevant senses."
+        },
+        {
+          "id": "U011",
+          "source_fact_ids": [
+            "F022"
+          ],
+          "canonical_statement": "Constitutional is the related adjective for bodily or structural makeup and for a governing constitution.",
+          "disposition": "included",
+          "rationale": "The word-formation section records both broad sense families."
+        },
+        {
+          "id": "U012",
+          "source_fact_ids": [
+            "F023"
+          ],
+          "canonical_statement": "Constitutionally is the adverb derived from constitutional.",
+          "disposition": "included",
+          "rationale": "The word-formation section identifies the adverb and its broad meanings."
+        },
+        {
+          "id": "U013",
+          "source_fact_ids": [
+            "F024",
+            "F025"
+          ],
+          "canonical_statement": "Constituent is a related noun for a component or constituency member and an adjective meaning forming a whole.",
+          "disposition": "included",
+          "rationale": "The word-formation section distinguishes the noun and adjective and warns against confusing the political noun with a verb object."
+        },
+        {
+          "id": "U014",
+          "source_fact_ids": [
+            "F026"
+          ],
+          "canonical_statement": "Reconstitute means constitute anew or restore a material by adding liquid.",
+          "disposition": "included",
+          "rationale": "The word-formation section records both the compositional and specialized restoration meanings."
+        },
+        {
+          "id": "U015",
+          "source_fact_ids": [
+            "F015"
+          ],
+          "canonical_statement": "The physical set-or-place sense of constitute is archaic.",
+          "disposition": "excluded",
+          "rationale": "The generation inventory excludes this obsolete physical-placement sense because it has negligible modern learner value."
+        }
+      ],
+      "claim_units": [
+        {
+          "id": "C001",
+          "union_ids": [
+            "U001"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "pronunciation",
+          "statement": "Constitute has regionally differentiated UK and US pronunciation patterns.",
+          "article_target_ids": [
+            "pronunciation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F001",
+              "support_summary": "Merriam-Webster directly records the American stressed form and /tuːt/ or /tjuːt/ variation."
+            },
+            {
+              "source_fact_id": "F009",
+              "support_summary": "Collins independently contrasts British /ɒ, tjuːt/ with the common American /tuːt/ ending."
+            }
+          ]
+        },
+        {
+          "id": "C003",
+          "union_ids": [
+            "U003"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "sense",
+          "statement": "Parts or members constitute a whole, and a category may constitute a stated share of the whole.",
+          "article_target_ids": [
+            "definition:001",
+            "grammar_pattern:001",
+            "grammar_pattern:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F003",
+              "support_summary": "Merriam-Webster defines the parts-to-whole sense as make up, form, or compose."
+            },
+            {
+              "source_fact_id": "F011",
+              "support_summary": "Collins independently defines members forming a whole and supplies a percentage example."
+            },
+            {
+              "source_fact_id": "F017",
+              "support_summary": "Etymonline confirms that the formation-as-a-part meaning is historically established."
+            }
+          ]
+        },
+        {
+          "id": "C004",
+          "union_ids": [
+            "U004"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "sense",
+          "statement": "A fact or act constitutes a category when it qualifies as or can be regarded as that category.",
+          "article_target_ids": [
+            "definition:002",
+            "grammar_pattern:004",
+            "usage_note:004"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F007",
+              "support_summary": "Merriam-Webster legal usage directly defines constitute as qualify as and illustrates negligence."
+            },
+            {
+              "source_fact_id": "F010",
+              "support_summary": "Collins independently defines the regarded-as sense and specifies the direct VERB-noun pattern."
+            }
+          ]
+        },
+        {
+          "id": "C005",
+          "union_ids": [
+            "U005"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "sense",
+          "statement": "Constitute can formally establish and authorize an institution or public body.",
+          "article_target_ids": [
+            "definition:003",
+            "grammar_pattern:008",
+            "collocation:012",
+            "collocation:013"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F004",
+              "support_summary": "Merriam-Webster directly records set up, establish, found, and provisional-government use."
+            },
+            {
+              "source_fact_id": "F012",
+              "support_summary": "Collins independently defines formal establishment and authorization for committees and governments."
+            },
+            {
+              "source_fact_id": "F016",
+              "support_summary": "Collins marks this institutional-establishment sense formal and commonly passive."
+            },
+            {
+              "source_fact_id": "F018",
+              "support_summary": "Etymonline supplies the Latin establish-and-form semantic history supporting the restrained bridge."
+            }
+          ]
+        },
+        {
+          "id": "C006",
+          "union_ids": [
+            "U006"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "sense",
+          "statement": "Formal or legal constitute can appoint a person to an office or role.",
+          "article_target_ids": [
+            "definition:004",
+            "grammar_pattern:011",
+            "grammar_pattern:012",
+            "register:004"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F006",
+              "support_summary": "Merriam-Webster directly defines appointment to an office, function, or dignity."
+            },
+            {
+              "source_fact_id": "F013",
+              "support_summary": "Collins independently records legally constituted officer and constituted treasurer."
+            },
+            {
+              "source_fact_id": "F019",
+              "support_summary": "Etymonline records the appointment sense as an old use, supporting the register warning."
+            }
+          ]
+        },
+        {
+          "id": "C007",
+          "union_ids": [
+            "U007"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "legal_use",
+          "statement": "Constitute may give a body or agreement the required official or lawful form.",
+          "article_target_ids": [
+            "definition:003",
+            "usage_note:009"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F005",
+              "support_summary": "Merriam-Webster explicitly records giving an agreement or body due or required legal form."
+            }
+          ]
+        },
+        {
+          "id": "C008",
+          "union_ids": [
+            "U008"
+          ],
+          "subject_form": "constituted of",
+          "claim_type": "frame",
+          "statement": "Constituted of may present the whole first and its component materials after of.",
+          "article_target_ids": [
+            "grammar_pattern:003",
+            "collocation:005",
+            "usage_note:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F014",
+              "support_summary": "Collins directly illustrates the passive constituted of construction with material components."
+            }
+          ]
+        },
+        {
+          "id": "C009",
+          "union_ids": [
+            "U009"
+          ],
+          "subject_form": "constitute",
+          "claim_type": "etymology",
+          "statement": "Constitute descends through Middle English from Latin constituere, involving com- and statuere.",
+          "article_target_ids": [
+            "etymology:001",
+            "etymology:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F008",
+              "support_summary": "Merriam-Webster gives the Middle English and Latin participial derivation."
+            },
+            {
+              "source_fact_id": "F020",
+              "support_summary": "Etymonline independently analyzes the com- plus statuere formation and stand root."
+            }
+          ]
+        },
+        {
+          "id": "C010",
+          "union_ids": [
+            "U010"
+          ],
+          "subject_form": "constitution",
+          "claim_type": "derived_form",
+          "statement": "Constitution is the related noun for makeup, structure, or fundamental governing principles.",
+          "article_target_ids": [
+            "word_formation:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F021",
+              "support_summary": "Merriam-Webster directly records structure, physical makeup, governing principles, and document senses."
+            }
+          ]
+        },
+        {
+          "id": "C011",
+          "union_ids": [
+            "U011"
+          ],
+          "subject_form": "constitutional",
+          "claim_type": "derived_form",
+          "statement": "Constitutional is the related adjective for bodily or structural makeup and governing-constitution senses.",
+          "article_target_ids": [
+            "word_formation:003"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F022",
+              "support_summary": "Merriam-Webster directly records constitutional adjective senses for makeup and a governing constitution."
+            }
+          ]
+        },
+        {
+          "id": "C012",
+          "union_ids": [
+            "U012"
+          ],
+          "subject_form": "constitutionally",
+          "claim_type": "derived_form",
+          "statement": "Constitutionally is the adverb derived from constitutional.",
+          "article_target_ids": [
+            "word_formation:003"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F023",
+              "support_summary": "Merriam-Webster explicitly lists constitutionally as the corresponding adverb."
+            }
+          ]
+        },
+        {
+          "id": "C013",
+          "union_ids": [
+            "U013"
+          ],
+          "subject_form": "constituent",
+          "claim_type": "derived_form",
+          "statement": "Constituent can be a component or constituency member noun and a whole-forming adjective.",
+          "article_target_ids": [
+            "word_formation:004"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F024",
+              "support_summary": "Merriam-Webster distinguishes the component and political constituency-member noun senses."
+            },
+            {
+              "source_fact_id": "F025",
+              "support_summary": "Merriam-Webster separately defines the adjective as serving to form or compose a whole."
+            }
+          ]
+        },
+        {
+          "id": "C014",
+          "union_ids": [
+            "U014"
+          ],
+          "subject_form": "reconstitute",
+          "claim_type": "derived_form",
+          "statement": "Reconstitute means constitute anew and can mean restore by adding liquid.",
+          "article_target_ids": [
+            "word_formation:005"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F026",
+              "support_summary": "Merriam-Webster directly defines both constitute anew and restoration by adding water."
+            }
+          ]
+        }
+      ]
+    },
+    "evidence_link_ids": [],
+    "reused_from": "audits/runs/c/constitute/20260907T235852Z-0610bd0b/source_inventory.json"
+  },
+  "input_body_sha256": "341958940f8496856aeb8c0cfff9a4664b95d91d5ad66bc5a5a5e04c11689389",
+  "request_hashes": {
+    "translation": "09579e7f090bbdf93ee6b946f386f160e474dfef04dc9419dea161b6e11072c1",
+    "sense-structure": "dd3341b034540f22526ca39b0986f7f124a82ae26fd6c1f4a38b6e538efa990e",
+    "frame-relation": "192e4f92a6860dc8dca03245ec288359519ca4d13d67bd2eac7950bd30c5099e",
+    "example-attribution": "70e21040dce2821a824963110854118f966213806e57e481100140edf2f9e635",
+    "qualification": "b14aa68ae4dfd655d30b79767a064344d711b23351c485a5efb023898dcdb9ca",
+    "pronunciation": "c2ebab22a8934d941266cba9afb5433e611f6a20cce247561e0e75722925d032",
+    "evidence": "fc4108969e2e1f5b669f3cb48ba9e017612e566bdba5ee79474272272b20d37b"
+  }
+}

@@ -1,0 +1,122 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "agent_id": "constitute-evidence-1",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "辞書や話者によっては英音の /tj/ が融合して /tʃ/ に近く発音される。"
+      },
+      "severity": "blocking",
+      "rationale": "C001 の根拠 F001 と F009 は英米の母音・語末 /tuːt, tjuːt/ および強勢を支持するが、英音の /tj/ が /tʃ/ に融合するという変異は記録していない。提示された locator の支持内容より本文主張の範囲が広い。",
+      "evidence_link_ids": [
+        "F001",
+        "F009"
+      ],
+      "suggested_direction": "融合変異の記述を削るか、その変異を直接記録する根拠へ差し替えて claim unit を限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 16,
+        "line_end": 16,
+        "exact_quote": "三人称単数 constitutes の語尾は /s/ ではなく、直前の /t/ と続いて /ts/ となる。過去形・過去分詞 constituted の -ed は /ɪd/、-ing形 constituting は /ɪŋ/ と発音する。"
+      },
+      "severity": "blocking",
+      "rationale": "C002 が参照する F002 は constituted と constituting を屈折形として列挙するだけで、constitutes の /ts/、constituted の /ɪd/、constituting の /ɪŋ/ という発音を支持していない。屈折形の存在を示す根拠を発音規則の根拠として流用している。",
+      "evidence_link_ids": [
+        "F002"
+      ],
+      "suggested_direction": "各屈折形の発音を直接示す資料に差し替えるか、根拠で確認できる屈折形の列挙だけに限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 25,
+        "line_end": 25,
+        "exact_quote": "`constitutes / constituted / constituting` — 三人称単数現在形・過去形／過去分詞・現在分詞。語末の無音の e を取って constituting とする。"
+      },
+      "severity": "blocking",
+      "rationale": "C002/F002 は constituted と constituting の形と文法機能を支持するが、constitutes の列挙も、constituting を作る際に無音の e を取るという綴り規則も source detail に含まれない。article target 全体に対して support が部分的である。",
+      "evidence_link_ids": [
+        "F002"
+      ],
+      "suggested_direction": "F002 が直接支える constituted/constituting の列挙に主張を狭めるか、constitutes と e 脱落規則を明示する根拠を追加してリンクを分ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 20,
+        "line_end": 20,
+        "exact_quote": "これは con-（ここでは強意、または「共に」）と statuere「立てる、置く」から成り、statuere は「立つ」を表す語根につながる。"
+      },
+      "severity": "blocking",
+      "rationale": "C009 の F008 と F020 は com-/con- と statuere への形態分析および stand 語根との関係を支持するが、この語における接頭辞の機能を「強意、または共に」とする二択の意味分析は支持内容にない。",
+      "evidence_link_ids": [
+        "F008",
+        "F020"
+      ],
+      "suggested_direction": "接頭辞の意味機能を断定せず形態構成だけに限定するか、constitute に適用される接頭辞機能を直接説明する語源資料へ差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 49,
+        "line_end": 49,
+        "exact_quote": "`〈whole〉 be constituted of/from/by 〈parts〉`＝全体が部分から構成されている"
+      },
+      "severity": "blocking",
+      "rationale": "C008 の唯一の根拠 F014 は constituted of と材料要素の例だけを示す。本文ターゲットは同じリンクで constituted from と constituted by まで完全フレームとして提示しており、根拠の適用範囲を超えている。",
+      "evidence_link_ids": [
+        "F014"
+      ],
+      "suggested_direction": "フレームを be constituted of に限定するか、from と by の各構文を直接記録する根拠を別リンクで付ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 270,
+        "line_end": 270,
+        "exact_quote": "`constitute someone as 〈agent/representative〉`＝人を代理人・代表者として任命する"
+      },
+      "severity": "blocking",
+      "rationale": "C006 の F006 は office/function への任命を定義し、F013 は legally constituted officer と constituted treasurer を挙げるが、いずれも constitute someone as agent/representative という as 補部の構文を示していない。一般的な任命義の根拠だけでは、この完全フレームを直接支持しない。",
+      "evidence_link_ids": [
+        "F006",
+        "F013",
+        "F019"
+      ],
+      "suggested_direction": "as 補部を実例・構文情報で直接示す資料に差し替えるか、根拠のある直接目的語＋目的格補語のフレームに限定する。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 264,
+        "line_end": 264,
+        "exact_quote": "現代の日常英語ではまれで、appoint や designate が普通である。"
+      },
+      "severity": "blocking",
+      "rationale": "C006 の F006 と F013 は任命義の存在を支持し、F019 はこの語義が約1400年から記録されることを示す。しかし、歴史的に古いことは現代の日常英語での希少性や appoint/designate との相対頻度を直接立証しない。register:004 に結び付けられた根拠の支持範囲が不足している。",
+      "evidence_link_ids": [
+        "F006",
+        "F013",
+        "F019"
+      ],
+      "suggested_direction": "現代の使用域と比較頻度を明示する辞書・用法資料へ差し替えるか、根拠で確認できる任命義だけに主張を限定する。"
+    }
+  ]
+}

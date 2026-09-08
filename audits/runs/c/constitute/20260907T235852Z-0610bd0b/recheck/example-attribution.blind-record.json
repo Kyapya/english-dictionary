@@ -1,0 +1,224 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-recheck-example-attribution-1"
+  },
+  "input_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0",
+  "blind_request_sha256": "3d6a91f9ae0ed8141e4bb3217866a111f693208ebc1fb165092d990c8e43f0aa",
+  "recorded_at": "2026-09-08T10:33:34+09:00",
+  "attributions": [
+    {
+      "example_id": "ex-cc93cbff7df6",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitute a breach of the agreement"
+      ],
+      "rationale": "In \"constitute a breach of the agreement,\" the act is evaluated as satisfying the classification 'breach,' selecting sense:002. Sense:001 would require the subject to form a whole or occupy a stated share, but this use of constitute expresses neither a component-whole relation nor a proportion."
+    },
+    {
+      "example_id": "ex-332bd7c5d6e4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "legally constituted officer of the association"
+      ],
+      "rationale": "The phrase \"legally constituted officer of the association\" describes a person in the result state of having been formally appointed or authorized as an officer, selecting sense:004. Sense:003 establishes an organization such as a board or commission, whereas the constituted entity here is an individual officeholder, not an organization."
+    },
+    {
+      "example_id": "ex-28492f14436d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitutes a significant change"
+      ],
+      "rationale": "In \"constitutes a significant change,\" the revised policy is classified and evaluated as a change, selecting sense:002. Sense:001 would construe the policy as a component or quantitative share of a whole, but no whole, part relation, or proportion is expressed by this use of constitute."
+    },
+    {
+      "example_id": "ex-b25f670d679d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "The commission was constituted under the new environmental law"
+      ],
+      "rationale": "\"The commission was constituted under the new environmental law\" presents a commission as the organization brought formally into existence, selecting sense:003. Sense:004 concerns appointing a person to a named role, but the passive subject is an organization and there is no person-plus-role complement."
+    },
+    {
+      "example_id": "ex-9ce0fcb21ea4",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "does not constitute proof of fraud"
+      ],
+      "rationale": "In \"does not constitute proof of fraud,\" the message is judged not to meet the standard for the classification 'proof,' selecting sense:002. Sense:001 would require a component-whole or proportion relation, which this negative evidentiary evaluation does not encode."
+    },
+    {
+      "example_id": "ex-cc48e38478f9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "may constitute a criminal offence"
+      ],
+      "rationale": "\"May constitute a criminal offence\" evaluates an act against the conditions for the classification 'criminal offence,' selecting sense:002. Sense:003 would describe formally forming an organization, but here constitute links conduct to a legal classification and has no organizational result object."
+    },
+    {
+      "example_id": "ex-93fcd5b6e300",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "constitute 35 percent of the company's revenue"
+      ],
+      "rationale": "The exact frame \"constitute 35 percent of the company's revenue\" states a quantified share and names the whole in an of-phrase, uniquely selecting the proportion use in sense:001. Sense:002 classifies or evaluates something as a state or category; it does not supply this percentage-of-a-whole relation."
+    },
+    {
+      "example_id": "ex-fb9dc19cfc9d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "is constituted of experts"
+      ],
+      "rationale": "In \"is constituted of experts,\" the of-phrase identifies the experts as the components making up the panel, selecting the composition relation in sense:001. Sense:003 would report the formal establishment of the panel, but this use of constitute specifies its constituent members rather than an establishment event."
+    },
+    {
+      "example_id": "ex-89eaa1f6d464",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "constitute a significant part of the annual budget"
+      ],
+      "rationale": "\"Constitute a significant part of the annual budget\" explicitly relates maintenance costs as a part to the annual budget as its whole, selecting sense:001. Sense:002 would make the object an evaluative category or state, whereas \"part of\" directly encodes the part-whole relation."
+    },
+    {
+      "example_id": "ex-6e7f5aa6e806",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "constituted an independent panel"
+      ],
+      "rationale": "In \"The ministry constituted an independent panel,\" the ministry acts as the institutional agent that formally creates the panel, selecting sense:003. Sense:001 would require the subject to be a component that makes up the object, but the ministry is the creator and is not presented as one of the panel's constituent parts."
+    },
+    {
+      "example_id": "ex-f5e1bb72655e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "constitutes a serious risk to public safety"
+      ],
+      "rationale": "\"Constitutes a serious risk to public safety\" evaluates the damaged bridge as amounting to the state or classification 'serious risk,' selecting sense:002. Sense:001 would express that the bridge forms a whole or a share of one, but no component-whole or proportional relation appears in this use."
+    },
+    {
+      "example_id": "ex-95ee158b60aa",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "constituted him treasurer of the association"
+      ],
+      "rationale": "The object-complement frame \"constituted him treasurer of the association\" assigns a person ('him') the formal role 'treasurer,' uniquely selecting sense:004. Sense:003 takes an organization as the result object of establishment and cannot account for this person-plus-office complement structure."
+    },
+    {
+      "example_id": "ex-f35683b6ae84",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a tribunal to be constituted"
+      ],
+      "rationale": "In \"a tribunal to be constituted,\" the passive infinitive describes bringing a tribunal, an institutional body, into formal existence, selecting sense:003. Sense:004 appoints a person to a role, but the constituted entity here is the tribunal itself and no personal role complement occurs."
+    },
+    {
+      "example_id": "ex-b7f6e979df90",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Twelve jurors constitute the full jury"
+      ],
+      "rationale": "\"Twelve jurors constitute the full jury\" places the constituent persons as subject and the whole they make up as object, exactly selecting sense:001. Sense:003 would require an agent intentionally establishing an organization, but here the jurors are components in a static part-whole relation rather than an establishing agent."
+    },
+    {
+      "example_id": "ex-8dadcc7361d2",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "what constitutes acceptable use of the system"
+      ],
+      "rationale": "The embedded question \"what constitutes acceptable use of the system\" asks which conduct satisfies the definition or conditions of 'acceptable use,' selecting sense:002. Sense:001 would ask which components make up a whole, but 'acceptable use' is an evaluative classification here, not a compositional whole or stated share."
+    },
+    {
+      "example_id": "ex-c2cdf58a11d9",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "agreed to constitute a transitional government"
+      ],
+      "rationale": "In \"agreed to constitute a transitional government,\" intentional agents undertake to bring a government into existence, selecting sense:003. Sense:001 could describe parties as components forming a whole in a stative frame, but the purposive infinitive after \"agreed to\" presents deliberate establishment, not a component-whole relation."
+    },
+    {
+      "example_id": "ex-fa54914fc9ed",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "constitute the majority of the evening staff"
+      ],
+      "rationale": "\"Constitute the majority of the evening staff\" states that part-time employees occupy a majority share of the named whole, selecting sense:001. Sense:002 would classify the employees as a category or state, but the majority-of frame instead directly encodes a proportional part-whole relation."
+    },
+    {
+      "example_id": "ex-86eb4050a7dc",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:004"
+      ],
+      "discriminating_terms": [
+        "She was constituted guardian"
+      ],
+      "rationale": "The passive person-plus-role frame \"She was constituted guardian\" describes her formal appointment to the role of guardian, selecting sense:004. Sense:003 concerns establishing an organization, whereas the constituted participant here is a person and 'guardian' is her appointed office."
+    },
+    {
+      "example_id": "ex-738847b1d118",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:003"
+      ],
+      "discriminating_terms": [
+        "a duly constituted board"
+      ],
+      "rationale": "\"A duly constituted board\" describes a board in the result state of having been formally and properly established, selecting sense:003. Sense:001 can express composition when constituent parts are related to a whole, but this phrase names no components or of-phrase; \"duly\" instead modifies the formal establishment status of the organization."
+    }
+  ]
+}

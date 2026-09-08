@@ -1,0 +1,27 @@
+{
+  "reviewer_agent_id": "constitute-fresh-cold-review-1",
+  "model": "gpt-5",
+  "summary": "記事全体は、主要語義の区分、用例、類義語との差、語源・発音の説明がおおむね正確である。低重大度の問題候補が1件ある。割合構文の説明が、文脈から全体が明らかな場合にも of 句が必須であるかのように読める。",
+  "findings": [
+    {
+      "id": "cold-constitute-001",
+      "location": "語義1「構成する、（全体の一定割合を）占める」の日本語訳・定義／文法パターン",
+      "severity": "low",
+      "description": "割合を表す constitute の構文で、全体を示す of 句が常に明示されるかのように一般化している。",
+      "reason": "「一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は of 句に現れる。」という説明は、完全な形の構造説明としては有用だが、全体が文脈から回収できる場合の省略を扱っていない。たとえば、直前に対象集団が示されていれば `Women constitute 45 percent.` や `Part-time staff constitute the majority.` のように of 句なしでも自然に言える。このままだと、学習者が of 句を必須要素だと誤って一般化する可能性がある。",
+      "suggested_direction": "全体は通常 `of ...` で示すが、文脈上明らかな場合は `constitute 45 percent` や `constitute the majority` のように省略できる、と補足する。文法パターンにも of 句を任意にできる表記または省略例を加える。",
+      "scope_anchors": [
+        {
+          "id": "anchor-constitute-001-a",
+          "exact_quote": "一方、割合・部分量を示す構文では、目的語が割合・部分量となり、全体は of 句に現れる。",
+          "location_hint": "語義1の【日本語訳・定義】第2文"
+        },
+        {
+          "id": "anchor-constitute-001-b",
+          "exact_quote": "`〈group/category〉 constitute 〈割合〉 of 〈whole〉`＝集団・分類が全体の一定割合を占める",
+          "location_hint": "語義1の【文法パターン】中央"
+        }
+      ]
+    }
+  ]
+}

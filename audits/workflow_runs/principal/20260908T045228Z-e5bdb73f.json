@@ -17,12 +17,12 @@
     "research_queries": 0,
     "candidate_pages": 6
   },
-  "status": "in_progress",
-  "stage": "final_review_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-08T04:52:28Z",
   "deadline_at": "2026-09-08T06:22:28Z",
   "pre_draft_deadline_at": "2026-09-08T05:22:28Z",
-  "last_heartbeat_at": "2026-09-08T08:19:10Z",
+  "last_heartbeat_at": "2026-09-08T08:21:48Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T05:01:10Z",
@@ -68,6 +68,11 @@
       "stage": "final_review_complete",
       "recorded_at": "2026-09-08T08:19:10Z",
       "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-08T08:21:48Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -652,8 +657,8 @@
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 4,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 12560.710102,
+    "completed_at": "2026-09-08T08:21:48Z",
     "stages": [
       {
         "id": "guard_start",
@@ -767,10 +772,10 @@
         "id": "export",
         "instruction_bytes": 0,
         "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -839,7 +844,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 12,
+    "next_stage_index": 13,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -852,7 +857,8 @@
       "blind_seal",
       "post_blind_resolution",
       "final_review",
-      "status_update"
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -896,6 +902,10 @@
         "entries/p/principal.md",
         "queue/words.csv",
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   },

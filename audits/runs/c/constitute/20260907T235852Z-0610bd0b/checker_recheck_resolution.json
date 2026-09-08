@@ -1,0 +1,42 @@
+{
+  "schema_version": "checker_recheck_resolution_v1",
+  "input_body_sha256": "73e6d5431e01d7f456008a0ba8fee3c6e1e8f2692b6714d2e53e68ddf71a04d0",
+  "output_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93",
+  "input_checker_recheck_manifest_sha256": "aee2a05820fef23c3335797dc9801510931ecb63c7fb15a4a32a2f292f753a4a",
+  "recorded_at": "2026-09-08T02:01:11.898410Z",
+  "resolutions": [
+    {
+      "id": "recheck-qualification-001",
+      "finding_id": "recheck-qualification-001",
+      "pass_id": "qualification",
+      "status": "resolved",
+      "disposition": "rejected",
+      "rationale": "entry_spec_v5 explicitly requires 【頻度】〈n/10〉 and permits a consistently applied scale when no strict statistical basis exists. The four scores are internally ordered by broad encounter frequency and register, so replacing them with qualitative labels would violate the required format and is not warranted by this finding.",
+      "required_changes": [],
+      "implemented_changes": [],
+      "resolved_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93"
+    },
+    {
+      "id": "recheck-evidence-001",
+      "finding_id": "recheck-evidence-001",
+      "pass_id": "evidence",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "F002 lists constituted and constituting but does not atomically establish the bundled past/past-participle/present-participle labels. The unsupported bundled teaching line is removed rather than extending research.",
+      "required_changes": [
+        "Remove the bundled constituted / constituting grammatical-label claim from the word-formation section.",
+        "Exclude U002 from article integration and remove claim C002 while preserving the existing fact as excluded inventory evidence."
+      ],
+      "implemented_changes": [
+        "Deleted the constituted / constituting line from ＃語形成.",
+        "Changed U002 to excluded and removed C002; no source, fact, or research round was added."
+      ],
+      "resolved_body_sha256": "438440ad672a2ee1a035ade560c75d44d526b4a396bcd3f2706cda02c2ae9d93"
+    }
+  ],
+  "summary": {
+    "adopted": 1,
+    "rejected": 1,
+    "unresolved": 0
+  }
+}
