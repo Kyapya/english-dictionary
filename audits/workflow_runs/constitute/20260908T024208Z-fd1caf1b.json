@@ -18,11 +18,11 @@
     "candidate_pages": 0
   },
   "status": "in_progress",
-  "stage": "cold_review_complete",
+  "stage": "blind_seal_complete",
   "started_at": "2026-09-08T02:42:08Z",
   "deadline_at": "2026-09-08T04:12:08Z",
   "pre_draft_deadline_at": "2026-09-08T03:12:08Z",
-  "last_heartbeat_at": "2026-09-08T03:30:53Z",
+  "last_heartbeat_at": "2026-09-08T04:21:31Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T02:45:21Z",
@@ -58,6 +58,11 @@
       "stage": "cold_review_complete",
       "recorded_at": "2026-09-08T03:25:55Z",
       "notes": "orchestrator completed cold_review"
+    },
+    {
+      "stage": "blind_seal_complete",
+      "recorded_at": "2026-09-08T04:21:19Z",
+      "notes": "orchestrator completed blind_seal"
     }
   ],
   "stop_reason": "",
@@ -573,6 +578,34 @@
         "machine_duration_seconds": 0.001787,
         "additional_llm_calls": 0,
         "stage": "pre_blind_resolution"
+      },
+      {
+        "schema_version": "process_improvement_input_v2",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "recipient": "coordinator",
+        "phase": "post_blind_resolution",
+        "features": [
+          "domain:legal-and-official",
+          "frame:linking-like-transitive",
+          "frame:parts-to-whole",
+          "part-of-speech:verb",
+          "polysemy:four-senses",
+          "register:formal"
+        ],
+        "limits": {
+          "max_items": 8,
+          "max_bytes": 8192
+        },
+        "selected": [],
+        "skipped": [],
+        "input_bytes": 349,
+        "input_sha256": "1512ab0b32a27e42b076070e6d63023cb8e0948f73d7e3c363cd3ead053159a9",
+        "run_id": "20260908T024208Z-fd1caf1b",
+        "created_at": "2026-09-08T04:21:19Z",
+        "snapshot_path": "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/process_improvement/coordinator-post_blind_resolution.snapshot.md",
+        "machine_duration_seconds": 0.001436,
+        "additional_llm_calls": 0,
+        "stage": "post_blind_resolution"
       }
     ],
     "processing": {
@@ -583,6 +616,14 @@
         ],
         "receipt_event_id": "workflow:20260908T024208Z-fd1caf1b:generation:251d10a1a496",
         "recorded_at": "2026-09-08T02:50:19Z"
+      },
+      "pre_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/pre_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260908T024208Z-fd1caf1b:pre_blind_resolution:9fa686c04c5f",
+        "recorded_at": "2026-09-08T03:44:50Z"
       }
     },
     "pending_events": [],
@@ -591,7 +632,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 0,
+    "total_revisions": 1,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -643,38 +684,38 @@
       {
         "id": "pre_blind_resolution",
         "instruction_bytes": 5491,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "input_bytes": 79412,
+        "duration_seconds": 349.0,
+        "defects_detected": 5,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "checker_recheck",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 158251,
+        "duration_seconds": 1180.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_blind",
         "instruction_bytes": 3580,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
-        "defects_detected": 0,
+        "input_bytes": 24210,
+        "duration_seconds": 427.0,
+        "defects_detected": 1,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "blind_seal",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 21901,
+        "duration_seconds": 1.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "post_blind_resolution",
@@ -773,19 +814,23 @@
     ],
     "process_rules": [],
     "process_improvement": {
-      "selection_input_bytes": 684,
-      "machine_duration_seconds": 0.003172,
+      "selection_input_bytes": 1033,
+      "machine_duration_seconds": 0.004608,
       "additional_llm_calls": 0
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 5,
+    "next_stage_index": 9,
     "completed_stages": [
       "guard_start",
       "generation",
       "mechanical_validator",
       "checker_passes",
-      "cold_review"
+      "cold_review",
+      "pre_blind_resolution",
+      "checker_recheck",
+      "final_blind",
+      "blind_seal"
     ],
     "stage_outputs": {
       "generation": [
@@ -802,6 +847,19 @@
       ],
       "cold_review": [
         "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/cold_review.json"
+      ],
+      "pre_blind_resolution": [
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/pre_blind_resolution.json",
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/pre_blind_revision.json"
+      ],
+      "checker_recheck": [
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/checker_recheck_manifest.json"
+      ],
+      "final_blind": [
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/final_blind.json"
+      ],
+      "blind_seal": [
+        "audits/runs/c/constitute/20260908T024208Z-fd1caf1b/blind_seal.json"
       ]
     }
   },
