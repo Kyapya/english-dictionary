@@ -1,0 +1,253 @@
+{
+  "schema_version": "resolutions_v1",
+  "stage": "resolutions",
+  "run_id": "resolution-principal-20260908T045228Z-e5bdb73f",
+  "context_id": "resolution-principal-context-20260908T045228Z-e5bdb73f",
+  "input_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+  "prompt_sha256": "7dfcaa0a828a334dbb84d1d31ed97312d0a9661a7aca70a7815a9f88b31ea2f1",
+  "input_artifacts": [
+    "entry_body",
+    "all_findings"
+  ],
+  "recorded_at": "2026-09-08T08:01:13.797000+00:00",
+  "resolutions": [
+    {
+      "id": "normal-sense-structure-001",
+      "finding_id": "normal-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Fixed union U-002 and fact F-002 directly support a person with controlling authority or a leading position, while the draft confined the person sense to education titles.",
+      "required_changes": [
+        "Give the supported authority or leading-position noun use an explicit home without inventing a new frame."
+      ],
+      "implemented_changes": [
+        "Broadened sense 2's heading and definition to the supported authority or leading-position use while retaining education as its prominent conventional title use."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-sense-structure-002",
+      "finding_id": "normal-sense-structure-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "U-003, F-007, and F-018 support an established leading-performer use beyond orchestral section leaders.",
+      "required_changes": [
+        "Extend sense 3 only to the directly supported performing-arts range."
+      ],
+      "implemented_changes": [
+        "Expanded sense 3's heading, definition, register, grammar note, core-image branch, and usage note to leading performers in the performing arts and orchestral principals."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-sense-structure-003",
+      "finding_id": "normal-sense-structure-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "U-005 and F-025 directly define trust principal as the property or corpus distinct from income.",
+      "required_changes": [
+        "Integrate the supported trust-corpus use without treating all principal as a money amount."
+      ],
+      "implemented_changes": [
+        "Added trust principal to sense 4's heading, definition, domain note, grammar note, usage note, and core-image branch."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "finding_id": "normal-frame-relation-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The generic possessive slot licensed organizations outside the performing-arts role described by the sense.",
+      "required_changes": [
+        "Do not expose an unrestricted organization slot for this specialized noun."
+      ],
+      "implemented_changes": [
+        "Removed the generic possessive construction from the grammar line; the remaining collocation explicitly names an orchestra."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-frame-relation-002",
+      "finding_id": "normal-frame-relation-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The missing-example symptom came from an asserted authorize/appoint frame that the frozen facts did not establish as a complete construction; adding another unevidenced example would compound the issue.",
+      "required_changes": [
+        "Remove the unsupported complete frame rather than manufacture a matching example."
+      ],
+      "implemented_changes": [
+        "Reduced the agency grammar line to the directly grounded principal-agent relationship and on-behalf relationship, and removed the unsupported duty collocation."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-frame-relation-003",
+      "finding_id": "normal-frame-relation-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Principal and interest are related components, not opposites on an accepted lexical opposition axis.",
+      "required_changes": [
+        "Remove interest from the antonym inventory and retain the useful contrast as usage guidance."
+      ],
+      "implemented_changes": [
+        "Deleted the interest antonym block and stated the related-component contrast in the finance usage note."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "finding_id": "normal-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The original liable-as-principal example did not distinguish obligation liability from an agency principal.",
+      "required_changes": [
+        "Add a directly supported surety or guarantor contrast to disambiguate the role."
+      ],
+      "implemented_changes": [
+        "Extended the example and translation with the guarantor's secondary liability, binding it to the obligation-law sense."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-qualification-001",
+      "finding_id": "normal-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The performing-arts noun is a specialized low-frequency use in English overall, so 6/10 overstated its encounter frequency.",
+      "required_changes": [
+        "Lower the English-wide frequency while retaining the established specialist label."
+      ],
+      "implemented_changes": [
+        "Changed sense 3 from 6/10 to 3/10 and retained its performing-arts and orchestral domain qualification."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-001",
+      "finding_id": "normal-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "C-002's education and authority facts did not support the performing-arts definition target.",
+      "required_changes": [
+        "Remove the cross-sense target while preserving C-003's performer support."
+      ],
+      "implemented_changes": [
+        "Removed definition:003 from C-002 and kept performing-arts support exclusively under C-003."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-002",
+      "finding_id": "normal-evidence-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The fixed adjective facts support meaning and attested noun combinations, not the draft's full article, number, and preposition system.",
+      "required_changes": [
+        "Restrict the grammar claim to the supported attributive shape and stop binding definition evidence to the full frame."
+      ],
+      "implemented_changes": [
+        "Simplified sense 1 grammar to attributive principal plus noun and removed grammar_pattern:001 from C-001's source binding."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-003",
+      "finding_id": "normal-evidence-003",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The education facts establish the role but do not establish the complete determiner and of-complement templates as quoted.",
+      "required_changes": [
+        "Replace the unevidenced complete frame with a count-noun role note and narrow its source binding."
+      ],
+      "implemented_changes": [
+        "Replaced the sense 2 grammar templates with a count-noun role description and removed grammar_pattern:002 from C-002."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-004",
+      "finding_id": "normal-evidence-004",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The performer facts establish the specialist role but not an unrestricted possessive-plus-plural frame.",
+      "required_changes": [
+        "Remove the generalized possessive template and narrow its source binding."
+      ],
+      "implemented_changes": [
+        "Replaced the sense 3 grammar template with a specialist count-noun role note and removed grammar_pattern:003 from C-003."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-005",
+      "finding_id": "normal-evidence-005",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The finance facts establish the capital-versus-interest concept and repayment effect, not every article-bearing construction listed in the grammar line.",
+      "required_changes": [
+        "Replace the complete construction list with a meaning-and-countability note grounded in the fixed facts."
+      ],
+      "implemented_changes": [
+        "Replaced sense 4's grammar list with a finance/trust noun-use note and removed grammar_pattern:004 from C-004."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-006",
+      "finding_id": "normal-evidence-006",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The agency facts support authority and acting on behalf but not the full appoint/authorize and owe-a-duty syntax asserted by the draft.",
+      "required_changes": [
+        "Keep only directly grounded relations and remove the grammar target from C-006."
+      ],
+      "implemented_changes": [
+        "Removed the appoint/authorize and duty frames, retained the directly grounded relationship expressions, and removed grammar_pattern:005 from C-006."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-007",
+      "finding_id": "normal-evidence-007",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The criminal-law facts support participant classification and the accessory contrast, but the inventory did not support the historical degree claim or the complete quoted frames.",
+      "required_changes": [
+        "Remove the historical-degree material and narrow the grammar/source binding to the supported classification."
+      ],
+      "implemented_changes": [
+        "Removed the degree statement and example, simplified the grammar note, removed grammar_pattern:006 from C-007, and corrected F-005's support summary to omit historical degrees."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "normal-evidence-008",
+      "finding_id": "normal-evidence-008",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The obligation facts establish primary liability and the surety/guarantor contrast, not each complete phrase in the former grammar list.",
+      "required_changes": [
+        "State the directly supported role contrast without claiming the full constructions are source-attested."
+      ],
+      "implemented_changes": [
+        "Replaced sense 7's grammar list with a count-noun role contrast and removed grammar_pattern:007 from C-008."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    },
+    {
+      "id": "COLD-001",
+      "finding_id": "COLD-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "The core image's generic central-person wording licensed uses broader than either the directly supported authority sense or the draft's established institutional and specialist roles.",
+      "required_changes": [
+        "Tie the core image to the supported authority, education, performing-arts, finance/trust, and legal roles."
+      ],
+      "implemented_changes": [
+        "Rewrote the core summary and branches to name the supported roles and to avoid presenting principal as a free synonym for any important person."
+      ],
+      "resolved_body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9"
+    }
+  ]
+}

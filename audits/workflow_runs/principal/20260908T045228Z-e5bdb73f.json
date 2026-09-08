@@ -630,6 +630,14 @@
         ],
         "receipt_event_id": "workflow:20260908T045228Z-e5bdb73f:pre_blind_resolution:62550a294aa5",
         "recorded_at": "2026-09-08T06:11:17Z"
+      },
+      "post_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260908T045228Z-e5bdb73f:post_blind_resolution:9caa4cb41b81",
+        "recorded_at": "2026-09-08T08:01:13Z"
       }
     },
     "pending_events": [],
@@ -638,7 +646,7 @@
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
-    "total_revisions": 3,
+    "total_revisions": 4,
     "total_duration_seconds": 0.0,
     "completed_at": "",
     "stages": [
@@ -726,11 +734,11 @@
       {
         "id": "post_blind_resolution",
         "instruction_bytes": 5411,
-        "input_bytes": 0,
+        "input_bytes": 42807,
         "duration_seconds": 0.0,
-        "defects_detected": 0,
-        "revision_count": 0,
-        "completed": false
+        "defects_detected": 2,
+        "revision_count": 1,
+        "completed": true
       },
       {
         "id": "final_review",
@@ -826,7 +834,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 9,
+    "next_stage_index": 10,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -836,7 +844,8 @@
       "pre_blind_resolution",
       "checker_recheck",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "post_blind_resolution"
     ],
     "stage_outputs": {
       "generation": [
@@ -866,6 +875,11 @@
       ],
       "blind_seal": [
         "audits/runs/p/principal/20260908T045228Z-e5bdb73f/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_resolution.json",
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/post_blind_verification.json",
+        "audits/runs/p/principal/20260908T045228Z-e5bdb73f/resolutions.json"
       ]
     }
   },
@@ -916,6 +930,16 @@
       "count": 1,
       "last_error": "Round2 helper fan-in invoked once after failed preflight; rejected example-attribution record required empty ambiguous discriminating_terms and exact rationale anchors. No output accepted. Same independent reviewer repaired schema; subsequent sandbox validation passed.",
       "last_failed_at": "2026-09-08T07:25:00Z"
+    }
+  ],
+  "final_blind_repetitions": [
+    {
+      "attempt": 2,
+      "body_sha256": "123827dd106005ebf2c17c3d35574b46f945a65f12b8eb144998b0b911e86de9",
+      "result_path": "audits/runs/p/principal/20260908T045228Z-e5bdb73f/final_attempt2/final_blind.json",
+      "reviewer_agent_id": "/root/finish_principal/finalblind2",
+      "recorded_at": "2026-09-08T07:55:14.679388+00:00",
+      "reason": "Adopted scope findings from first blind; complete latest checker verification before fresh blind."
     }
   ]
 }
