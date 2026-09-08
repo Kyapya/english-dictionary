@@ -1,0 +1,24 @@
+{
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-clean-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 306,
+        "line_end": 306,
+        "exact_quote": "訳: 委任者は、契約に従って委任を撤回できる場合がある。  "
+      },
+      "severity": "blocking",
+      "rationale": "英文の `may revoke ... subject to the agreement` は、契約上の制約に服しつつ撤回できるという許可・権能を述べている。一方、訳文の `撤回できる場合がある` は、撤回可能なのは場合によるという存在的・不確定な可能性に弱めており、法の強さと条件の作用範囲が一致しない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`subject to the agreement` を契約による制約として保ち、`委任者は、契約の定めに従い、委任を撤回できる` など、`may revoke` の許可・権能を直接表す。"
+    }
+  ]
+}

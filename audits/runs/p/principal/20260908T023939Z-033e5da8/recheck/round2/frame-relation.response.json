@@ -1,0 +1,40 @@
+{
+  "schema_version": "antonym_axis_blind_record_v1",
+  "pass_id": "frame-relation",
+  "input_body_sha256": "812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced",
+  "blind_request_sha256": "ed958982b1afefd513da61c10325ee6326688188e386484222d0f1b0629fdc81",
+  "recorded_at": "2026-09-08T13:17:49+09:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "principal-clean-frame-relation-1"
+  },
+  "axes": [
+    {
+      "item_id": "ant-e1f853a2f550",
+      "axis": "責任順位",
+      "relation_type": "補完"
+    },
+    {
+      "item_id": "ant-4d5c558bcc5b",
+      "axis": "重要度",
+      "relation_type": "程度"
+    },
+    {
+      "item_id": "ant-03104497ec86",
+      "axis": "重要度",
+      "relation_type": "程度"
+    },
+    {
+      "item_id": "ant-bf79fd7d2b44",
+      "axis": "金額区分",
+      "relation_type": "補完"
+    },
+    {
+      "item_id": "ant-eb001c3b2959",
+      "axis": "代理関係役割",
+      "relation_type": "補完"
+    }
+  ]
+}

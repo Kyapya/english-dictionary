@@ -1,0 +1,13 @@
+{
+  "schema_version":"checker_recheck_budget_state_v1",
+  "run_id":"20260908T023939Z-033e5da8",
+  "validation_cycle":"fresh_extended_validation",
+  "completed_recheck_rounds":2,
+  "allowed_recheck_rounds":2,
+  "latest_input_body_sha256":"812af2465113a97f27b502f17984e7e043ee862f484964f04a7d118d6f72aced",
+  "revised_body_sha256":"bef5bc3e080249e45970356cb808049daba9970c09685b874ac37c61208b6bbf",
+  "revision_invalidated_passes":["evidence","example-attribution","frame-relation","pronunciation","qualification","sense-structure","translation"],
+  "state_after_publication":"budget_exhausted",
+  "reason":"final allowed post-cold recheck round produced source-grounded revisions that invalidate checker coverage",
+  "required_next_action":"stop this validation cycle after publishing the revision; do not advance to final_blind without a separately authorized fresh validation cycle"
+}
