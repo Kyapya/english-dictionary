@@ -139,4 +139,3 @@ tags: []
 違い: `legislative body` は機関・会議体を指す。語義2の `parliament` が特定回の議会体を指す文脈では対応するが、その存続期間を指す場合には置き換えられない。  
 例: The newly elected legislative body met for the first time.  
 訳: 新たに選ばれた立法機関が初めて開会した。  
-
