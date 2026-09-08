@@ -1,0 +1,26 @@
+{
+  "pass_id": "evidence",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-fresh-evidence-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "米: /ˈkɑːnstəˌtuːt/｜英: /ˈkɒnstɪˌtjuːt/。3音節で、第1音節に主強勢、第3音節に第二強勢がある。米音では第1音節の母音が /ɑː/、第2音節が弱い /stə/、第3音節の初めが /t/ となる。英音では第1音節が /ɒ/、第2音節が /stɪ/、第3音節が /tjuːt/ となる。"
+      },
+      "severity": "blocking",
+      "rationale": "C001 の F001 は米音の語末について /tuːt/ と /tjuːt/ の両方を記録し、F009 の根拠詳細も英音 /tjuːt/ に対して米音では一般的に /tuːt/ と限定している。本文は米音全般を単一の /tuːt/（第3音節初頭 /t/）として無限定に提示しており、引用根拠が示す米音 /tjuːt/ の変異を反映していない。",
+      "evidence_link_ids": [
+        "C001"
+      ],
+      "suggested_direction": "米音を『一般に /tuːt/』と限定し、/tjuːt/ も米音の変異として認められる旨を添えるか、米音を一つの代表形だけ示す表示だと明示する。"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "pass_id": "sense-structure",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-fresh-sense-structure-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 190,
+        "line_end": 190,
+        "exact_quote": "【日本語訳・定義】組織、委員会、裁判所、政府などを正式に形成・設置し、公式の組織体として成立させることを表す。制度や文脈によって所定の手続きや権限付与を伴うことはあるが、constitute という語だけで法的有効性や実際の活動可能性まで一律に保証するわけではない。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義3の境界が「組織体を設立する」に限定されているため、法的用法の constitute an agreement（契約・合意を所定の形式に整える）に収録先がない。これは単なる対象分野の違いではなく、既存の設立フレームとは目的語の意味タイプと結果状態が異なる使役的な法的形式化であり、現行の定義・文法パターン・コアイメージ第3枝はいずれも agreement を「公式の組織体」として扱えない。",
+      "evidence_link_ids": [
+        "F005"
+      ],
+      "suggested_direction": "語義3を「組織・会議体を正式に成立させる／契約などを所定の法的形式に整える」まで明示的に拡張し、対応する目的語と構文を追加する。両フレームを一つの簡潔な定義で扱えない場合は、法的形式化を独立した語義として分割し、コアイメージにも対応枝を設ける。"
+    }
+  ],
+  "unrouted_observations": []
+}

@@ -1,0 +1,25 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "translation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "constitute-fresh-translation-1"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "example_translation_alignment",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 107,
+        "line_end": 107,
+        "exact_quote": "違い: 割合の用法では近いが、account for は「全体のうちどれだけを説明・占有するか」に焦点がある。constitute は割合だけでなく、部分が全体そのものを形作る関係にも使える。  "
+      },
+      "severity": "minor",
+      "rationale": "この割合用法で必要なのは「全体のうちどれだけを占めるか」という数量関係だが、「占有する」は物や権利を所有・占拠する意味に寄り、直後の割合例が示す意味と日本語の述語が局所的にずれる。部分と全体の方向自体は逆転していない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「全体のうちどれだけを説明できるか・占めるか」のように、数量的な割合を表す「占める」へ直す。"
+    }
+  ]
+}
