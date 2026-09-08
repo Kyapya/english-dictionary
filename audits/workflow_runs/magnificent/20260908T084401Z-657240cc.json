@@ -18,12 +18,12 @@
     "research_queries": 4,
     "candidate_pages": 6
   },
-  "status": "in_progress",
-  "stage": "blind_seal_complete",
+  "status": "completed",
+  "stage": "completed",
   "started_at": "2026-09-08T08:44:01Z",
   "deadline_at": "2026-09-08T09:44:01Z",
   "pre_draft_deadline_at": "2026-09-08T09:04:01Z",
-  "last_heartbeat_at": "2026-09-08T10:32:48Z",
+  "last_heartbeat_at": "2026-09-08T10:54:14Z",
   "remote_checkpoint": {
     "confirmed": true,
     "confirmed_at": "2026-09-08T08:47:47Z",
@@ -64,6 +64,16 @@
       "stage": "blind_seal_complete",
       "recorded_at": "2026-09-08T10:32:48Z",
       "notes": "orchestrator completed blind_seal"
+    },
+    {
+      "stage": "final_review_complete",
+      "recorded_at": "2026-09-08T10:51:25Z",
+      "notes": "orchestrator completed final_review"
+    },
+    {
+      "stage": "completed",
+      "recorded_at": "2026-09-08T10:54:14Z",
+      "notes": "orchestrator completed export"
     }
   ],
   "stop_reason": "",
@@ -616,17 +626,35 @@
         ],
         "receipt_event_id": "workflow:20260908T084401Z-657240cc:pre_blind_resolution:7be7b17d9631",
         "recorded_at": "2026-09-08T09:48:33Z"
+      },
+      "post_blind_resolution": {
+        "status": "no_applicable",
+        "source_refs": [
+          "audits/runs/m/magnificent/20260908T084401Z-657240cc/post_blind_resolution.json"
+        ],
+        "receipt_event_id": "workflow:20260908T084401Z-657240cc:post_blind_resolution:7dc2f920057b",
+        "recorded_at": "2026-09-08T10:36:26Z"
       }
     },
-    "pending_events": [],
+    "pending_events": [
+      {
+        "event_id": "pending:20260908T084401Z-657240cc:final_review:bd10d304c80c",
+        "knowledge_epoch": "pi2-2026-09-06",
+        "kind": "review_failure",
+        "stage": "final_review",
+        "fact": "handoff response is missing: /tmp/dictionary-review-check-vb1niehn/audits/runs/m/magnificent/20260908T084401Z-657240cc/handoff/final_review.response.json",
+        "status": "pending",
+        "recorded_at": "2026-09-08T10:43:54Z"
+      }
+    ],
     "selection_errors": []
   },
   "metrics": {
     "schema_version": "workflow_cost_v1",
     "total_cycles": 1,
     "total_revisions": 2,
-    "total_duration_seconds": 0.0,
-    "completed_at": "",
+    "total_duration_seconds": 7813.181722,
+    "completed_at": "2026-09-08T10:54:14Z",
     "stages": [
       {
         "id": "guard_start",
@@ -712,38 +740,38 @@
       {
         "id": "post_blind_resolution",
         "instruction_bytes": 5411,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 5411,
+        "duration_seconds": 120.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "final_review",
         "instruction_bytes": 4597,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 140000,
+        "duration_seconds": 600.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "status_update",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1024,
+        "duration_seconds": 60.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       },
       {
         "id": "export",
         "instruction_bytes": 0,
-        "input_bytes": 0,
-        "duration_seconds": 0.0,
+        "input_bytes": 1024,
+        "duration_seconds": 60.0,
         "defects_detected": 0,
         "revision_count": 0,
-        "completed": false
+        "completed": true
       }
     ],
     "checker_passes": [
@@ -812,7 +840,7 @@
     }
   },
   "orchestrator_state": {
-    "next_stage_index": 9,
+    "next_stage_index": 13,
     "completed_stages": [
       "guard_start",
       "generation",
@@ -822,7 +850,11 @@
       "pre_blind_resolution",
       "checker_recheck",
       "final_blind",
-      "blind_seal"
+      "blind_seal",
+      "post_blind_resolution",
+      "final_review",
+      "status_update",
+      "export"
     ],
     "stage_outputs": {
       "generation": [
@@ -852,6 +884,24 @@
       ],
       "blind_seal": [
         "audits/runs/m/magnificent/20260908T084401Z-657240cc/blind_seal.json"
+      ],
+      "post_blind_resolution": [
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/post_blind_resolution.json",
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/post_blind_verification.json",
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/resolutions.json"
+      ],
+      "final_review": [
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/final_review.json",
+        "audits/m/magnificent.json"
+      ],
+      "status_update": [
+        "entries/m/magnificent.md",
+        "queue/words.csv",
+        "audits/runs/m/magnificent/20260908T084401Z-657240cc/status_update.json"
+      ],
+      "export": [
+        "exports/dictionary_all.md",
+        "exports/dictionary_index.csv"
       ]
     }
   },

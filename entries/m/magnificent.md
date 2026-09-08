@@ -1,12 +1,12 @@
 ---
 headword: magnificent
 type: word
-status: draft
+status: checked
 prompt_version: entry_spec_v5
 model: gpt-6-astra-wm
 created_at: 2026-09-08
 updated_at: 2026-09-08
-checked: false
+checked: true
 tags: []
 ---
 
