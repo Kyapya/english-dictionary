@@ -22,8 +22,6 @@ tags: []
 ＃語形成
 
 ・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  
-・parliamentarian：`parliament` に人を表す接尾辞 `-arian` が付いた名詞。主に「国会議員、議会人」を指し、特にアメリカ英語では「議事手続きの専門家」を指すこともある。  
-・parliamentarism：議会制度、または議会制を重視する考え方を表す形式的な名詞。  
 
 ＃コアイメージ
 
