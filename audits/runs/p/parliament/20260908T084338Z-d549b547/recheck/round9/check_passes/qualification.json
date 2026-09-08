@@ -1,0 +1,38 @@
+{
+  "pass_id": "qualification",
+  "input_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/r9_qualification"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "regional_qualification",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "【日本語訳・定義】総選挙を区切りとして成立する特定回の議会、またはその存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。  "
+      },
+      "severity": "blocking",
+      "rationale": "総選挙を単位とする可算の Parliament と、複数 session から成るという説明は、英語圏のすべての法域・議会制度に無条件で通用する構造ではない。ところが語義2の定義とレジスターには地域・制度上の限定がなく、英国型の用法を parliament 一般の語義として読ませてしまう。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2全体を主にイギリス英語、または同様に選挙間の議会を一単位として数える議会制度の用法だと明示し、定義・レジスター・用例の適用範囲をそろえる。"
+    },
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 132,
+        "line_end": 132,
+        "exact_quote": "`dissolution` はその Parliament 自体を終える。  "
+      },
+      "severity": "blocking",
+      "rationale": "dissolution の法的対象と効果は制度によって異なり、一院だけが解散される制度や、継続する立法機関と選挙期の構成を区別する制度もある。この無限定の断定は、語義上の session との区別を特定制度の法的効果へ拡張している。",
+      "evidence_link_ids": [],
+      "suggested_direction": "英国議会など対象制度を明示して、その制度では dissolution が当該期の Parliament を終える、と限定するか、法的効果の断定を避けて session との語彙上の区別だけを述べる。"
+    }
+  ]
+}

@@ -1,0 +1,42 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/recheck3_frame"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "bdc3cb22935e1d935d7e37298f3652cccc9fd999391de631e94fccc47eeff9f5",
+    "blind_request_sha256": "832eeaa0b2c3d860be5a1a9d32a2633152970e9bc9a04104e482d5e7cfafb25f",
+    "recorded_at": "2026-09-08T20:01:49+09:00",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/recheck3_frame"
+    },
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "bdc3cb22935e1d935d7e37298f3652cccc9fd999391de631e94fccc47eeff9f5",
+    "stage2_request_sha256": "08f12723826d4e11ab4fac78ac6c4b039aed90f7e0b8703eb96b99a7a1513c84",
+    "blind_record_sha256": "bb3729ff7c59855578e37eb04dfecefb0f55c529a325c86928043e570ca9200c",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/recheck3_frame"
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T11:05:37.077397+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

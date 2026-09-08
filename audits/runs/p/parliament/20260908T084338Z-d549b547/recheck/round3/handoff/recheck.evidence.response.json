@@ -1,0 +1,62 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "bdc3cb22935e1d935d7e37298f3652cccc9fd999391de631e94fccc47eeff9f5",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/recheck3_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "古フランス語 *parlement*「話し合い、会議」にさかのぼり"
+      },
+      "severity": "blocking",
+      "rationale": "C-005 の F-006 と F-023 は古フランス語 *parlement* の意味を speaking/talk としており、consultation/formal conference/assembly を述べる F-022 は約1300年の英語側の意味である。したがって、固定根拠は「話し合い、会議」を古フランス語段階の語義として直接支持しない。U-005 の統合もこの言語段階の差を保持していない。",
+      "evidence_link_ids": [
+        "C-005/F-006",
+        "C-005/F-022",
+        "C-005/F-023"
+      ],
+      "suggested_direction": "古フランス語の意味を固定根拠が直接示す speaking/talk 相当に限定し、相談・会議の意味は英語側の初期用法として分ける。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 108,
+        "line_end": 108,
+        "exact_quote": "この表現の `parliament` は制度一般ではなく、その選挙で成立した特定回を指す。"
+      },
+      "severity": "blocking",
+      "rationale": "C-003 の唯一の根拠 F-004 は `hung parliament` の英国用法と「どの政党も単独過半数を持たない」という条件を支持するが、句中の `parliament` を語義2の選挙で成立した特定回に限定し、制度一般の語義を排除する分析までは示していない。リンクされた claim も no-overall-majority result に限られ、本文の語義帰属は根拠範囲を超える。",
+      "evidence_link_ids": [
+        "C-003/F-004"
+      ],
+      "suggested_direction": "根拠で確認できる「単独過半数のない議会」という説明に限定するか、特定回への語義帰属を直接示す根拠へ差し替える。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 112,
+        "line_end": 112,
+        "exact_quote": "`dissolve Parliament`"
+      },
+      "severity": "blocking",
+      "rationale": "C-010 の F-020 は名詞 `dissolution` が特定の Parliament を終える制度上の出来事であることを支持するが、動詞の完全フレーム `dissolve Parliament`、その目的語形、無冠詞・大文字表記を直接例証していない。概念上の支持だけでは、固定仕様が要求する完全フレームの evidence link には足りない。",
+      "evidence_link_ids": [
+        "C-010/F-020"
+      ],
+      "suggested_direction": "`dissolve Parliament` をそのまま用例として直接記録する根拠にリンクするか、このリンクの対象を dissolution の制度的意味に限定する。"
+    }
+  ],
+  "unresolved_issues": [],
+  "notes": "固定された evidence_context_v1 と指定仕様だけを用いて、既存 claim unit と source fact の直接支持範囲を監査した。資料探索、coverage 再評価、fact 追加、他パス出力の参照は行っていない。request、evidence_context、source-first artifact の本文関連 hash は相互に一致し、指定仕様ファイルの SHA-256 も request 記載値と一致した。"
+}

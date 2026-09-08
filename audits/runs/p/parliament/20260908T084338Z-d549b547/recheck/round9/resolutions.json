@@ -1,0 +1,33 @@
+{
+  "schema_version": "recheck_resolution_v1",
+  "stage": "checker_recheck",
+  "round": 9,
+  "input_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566",
+  "output_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "resolutions": [
+    {
+      "id": "round9-example-attribution-001",
+      "finding_id": "round9-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Made the institutional actor explicit as The Scottish Parliament in the passes-the-bill example, following the fixed Oxford institutional example context and distinguishing it from an unnamed particular Parliament.",
+      "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+    },
+    {
+      "id": "round9-qualification-001",
+      "finding_id": "round9-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Scoped sense 2 by system and context rather than making an unsupported comparative regional distribution claim: it applies where particular Parliaments are counted by general-election boundaries.",
+      "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+    },
+    {
+      "id": "round9-qualification-002",
+      "finding_id": "round9-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Qualified the dissolution statement specifically to the United Kingdom, matching fixed fact F-020 and avoiding cross-system overgeneralization.",
+      "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+    }
+  ]
+}

@@ -1,0 +1,4521 @@
+# Independent review handoff
+
+Stage: `final_review`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
+
+## Prompt
+
+# final_review_spec_v2
+
+この仕様は、最新版の記事本文、pre/post-blind resolution、影響範囲checkerの再検査・再利用manifest、固定済みblind inventory、具体的未解決事項だけを入力として、第三者最終審査が合否を判断するための意味基準だけを定める。入力分離、順序、hash、seal、記録、件数網羅、status同期は `scripts/run_word.py`、`scripts/workflow_revision.py`、`scripts/generate_audit_manifest.py` が強制する。
+
+final reviewは新たな全面レビューをもう一巡する段階ではない。本文hash、すべてのfindingの完全な裁定、pass再検査・再利用条件、source union、blind chronology、未解決blockerゼロを照合する。hash、件数、集合、時系列、schemaはコードの結果を使い、内容を長大に復唱しない。
+
+## PASSの意味基準
+
+次をすべて満たす場合だけ `PASS` とする。
+
+1. 記事の事実、語法、発音、例文、訳が正しく、見出し語の意味方向・意味役割・適用範囲を誤学習させない。
+2. 主要な品詞、語義、派生・転換、専門用法、完全な統語フレームが過不足なく扱われ、語義境界、コアイメージ、定義、語法、コロケーション、語彙関係の間に矛盾がない。
+3. 例文と訳で、述語、主語・目的語・補語、行為者・経験者・対象・結果、肯否、比較基準、程度、数量、時制・相・法、条件・因果・目的、修飾範囲、焦点、情報構造、レジスター、話者評価が保存されている。
+4. 地域差、専門・制度用法、頻度、語源、語形成、語義境界、文法制約、絶対表現などの高リスク主張が、当該主張へ適用できる根拠に支えられ、反例・矛盾・適用範囲が確認されている。検索見出し、資料名だけ、別義の用例は根拠にしない。
+5. checker/cold findingはpre-blind、final-blind findingはpost-blindで重複・欠落なく裁定され、採用修正の影響範囲checkerが再検査済みで、再利用passはspec・正規化入力・source artifact・schema・独立性・request bindingがすべて一致している。
+6. blind inventoryの各 `semantic_assertion` を最新版へ適用しても、候補の境界・作用方向・包含/除外関係・一般化範囲に反する記述がない。
+7. final blindがcold reviewおよびpre-blind revisionより後で、pre-blind修正後本文hashに束縛されている。final-blind findingの採用修正がある場合は、影響checker再検査後の新本文を新しい独立final blindが確認している。
+8. `insufficient_evidence`、未検査範囲、無効pass、判断衝突、未確認の修正影響が残っていない。
+
+## REJECTの意味基準
+
+上記のいずれかを満たさない場合は `REJECT` とする。blockerにできるのは、事実・語法・発音の誤り、例文/訳の誤り、主要語義・構文の欠落または過剰収録、根拠と本文の矛盾、内容仕様の必須項目違反、未判定・未解決項目である。各blockerには対象ID、問題、必要な修正を記録する。条件付き合格は使わない。
+
+本文と矛盾しない分類粒度・棚卸し構成の差、より良い表現の提案、任意の改善余地は、それだけを理由に `REJECT` にせず、非blocking noteとして記録する。`REJECT` は審査失敗ではなく、問題を検出して完了した正常な最終判定である。
+
+## 出力
+
+入力に `inventories` / `response_template` がある場合、それが照合対象IDの正本である。IDを作り直さず、ひな形の未判定欄を独立に判定する。未判定は合格ではない。`target_results` / `relation_results` の `notes` には、対応する対象の `text` / 関係の `description` 全文を引用し、その対象固有の判断理由を記載する。入力欠落を空集合と推測しない。
+
+`final_review_v2` JSONとして、全target/relation/normal candidate/blind candidate/finding/evidence/source-unionの個別結果、再検査・再利用manifestの照合結果、`decision` (`pass | reject`)、`blockers`、非blocking `notes` を返す。`PASS` は全個別結果がpass、未解決・hold・`insufficient_evidence`が0件、blockerが0件の場合に限る。本文は変更しない。新しい内容上のblockerを見つけた場合は正常なREJECTとし、修正、影響範囲再検査、final blind再実行へ戻す。
+
+
+## Input packet
+
+```json
+{
+  "stage": "final_review",
+  "entry_body": "\n＃発音記号\n\n発音: イギリス英語 /ˈpɑːləmənt/、アメリカ英語 /ˈpɑːrləmənt/。綴りの `lia` を一音ずつ読まず、通常は3音節で発音する。ここに示した標準的な発音では、イギリス英語形は第1音節の母音後の /r/ を発音せず、アメリカ英語形は発音する。辞書には /-ljə-/ を含む別発音も記録される。  \n\n＃語源\n\n中英語 *parlement* を経て、古フランス語 *parlement*「話すこと」にさかのぼり、その基になった *parler* は「話す」を意味する。英語では1300年ごろに「相談、正式な会議、集会」を表した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。  \n\n＃語形成\n\n・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  \n\n＃コアイメージ\n\n`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。  \n・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）  \n・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）  \n\n＃意味・用法・関連表現\n\n1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\n\n【日本語訳・定義】法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】政治・立法。  \n\n【文法パターン】普通名詞では可算名詞で、単数・複数を区別する。イギリスの国会などを制度名として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われる。  \n\n【コロケーション】\n\n・`a member of parliament`  \n用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。  \n例: She was elected as a member of parliament for the first time last year.  \n訳: 彼女は昨年、初めて国会議員に選出された。  \n\n・`be elected to Parliament`  \n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。  \n例: He was elected to Parliament at the age of thirty-two.  \n訳: 彼は32歳で国会議員に選出された。  \n\n・`a bill before Parliament`  \n用途: 法案が国会に提出され、審議対象となっていることを表す。  \n例: The bill currently before Parliament would strengthen consumer protections.  \n訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。  \n\n・`Parliament passes 〈a bill/an Act〉`  \n用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。  \n例: The Scottish Parliament passed the bill after months of debate.  \n訳: スコットランド議会は数か月にわたる審議の末、その法案を可決した。  \n\n・`an Act of Parliament`  \n用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。  \n例: The requirement was introduced by an Act of Parliament.  \n訳: その要件は議会制定法によって導入された。  \n\n【語法・注意】この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。  \n\n【類義語】\n\n・legislative body  \n定義: 法律を制定する権限を持つ機関。  \n頻度: 〈5/10〉  \n違い: `legislative body` は立法機能を説明する一般的な句である。`parliament` は特定の制度的な会議体を一語で指す。  \n例: The proposal must be approved by the legislative body.  \n訳: その提案は立法機関の承認を受けなければならない。  \n\n・lawmaking body  \n定義: 法律を制定・改正する機関。  \n頻度: 〈4/10〉  \n違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。  \n例: The lawmaking body debated the proposed change.  \n訳: その立法機関は提案された変更を審議した。  \n\n・representative assembly  \n定義: 政治的代表者から成る会議体。  \n頻度: 〈4/10〉  \n違い: `representative assembly` は構成員が代表者である点を前面に出す説明的な句である。`parliament` はその会議体が立法制度として確立していることを示す。  \n例: The representative assembly met to debate the policy.  \n訳: 代表者会議はその政策を審議するために開かれた。  \n\n2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\n\n【日本語訳・定義】総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】政治・議会制度。  \n\n【文法パターン】可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。  \n\n【コロケーション】\n\n・`a hung parliament`  \n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。  \n例: The general election produced a hung parliament.  \n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。  \n\n・`the current parliament`  \n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。  \n例: The proposal is unlikely to pass during the current parliament.  \n訳: その提案が今議会期中に可決される可能性は低い。  \n\n・`the next parliament`  \n用途: 次の総選挙後に成立する特定回の議会またはその期間を指す。  \n例: The committee recommended that the issue be reconsidered in the next parliament.  \n訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。  \n\n・`the lifetime of a parliament`  \n用途: ある特定回の議会が成立してから終了するまでの存続期間を指す。  \n例: Major constitutional reform may take the lifetime of a parliament to complete.  \n訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。  \n\n・`during this parliament`  \n用途: この特定回の議会が存続している間に、という期間を表す。  \n例: The government promised to introduce the measure during this parliament.  \n訳: 政府は今議会期中にその措置を導入すると約束した。  \n\n【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。  \n\n【類義語】\n\n・legislative body  \n定義: 立法機関として見た、特定回の議会体。  \n頻度: 〈5/10〉  \n違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。  \n例: The newly elected legislative body met for the first time.  \n訳: 新たに選ばれた立法機関が初めて開会した。  ",
+  "_output_metadata": {
+    "schema_version": "final_review_v2",
+    "stage": "final_review",
+    "run_id": "blind-parliament-20260908T084338Z-d549b547",
+    "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+    "input_artifacts": [
+      "entry_body",
+      "sealed_final_blind",
+      "pre_blind_resolution",
+      "post_blind_resolution",
+      "checker_recheck_manifest",
+      "targeted_adjudications",
+      "final_review_spec"
+    ],
+    "blind_output_sha256": "c561e70a45b4e48a8025424911712d9a7253d835bcf2547718c460054d778c76"
+  },
+  "pass_findings": {
+    "schema_version": "normal_review_v2",
+    "stage": "normal_review",
+    "run_id": "normal-parliament-20260908T084338Z-d549b547",
+    "context_id": "normal-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+    "prompt_sha256": "5178f5a14a9525317811a34e6cd307108436f4babc1299fcd2eb9031f28ba737",
+    "input_artifacts": [
+      "router_selected_sections",
+      "checker_pass_specs"
+    ],
+    "recorded_at": "2026-09-08T09:30:30.907723+00:00",
+    "pass_outputs": [
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "translation",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_translation"
+        },
+        "findings": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "sense-structure",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_sense_structure"
+        },
+        "findings": [
+          {
+            "id": "normal-sense-structure-001",
+            "taxonomy_id": "sense_boundary_overlap",
+            "location": {
+              "section": "sense_structure",
+              "line_start": 36,
+              "line_end": 36,
+              "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+            },
+            "severity": "blocking",
+            "rationale": "語義1が「構成員全体」を無限定に含む一方、語義2も「その期間に活動する特定の議員構成」を含むため、選挙後の現議員集団という同じ指示対象が両語義に入る。現状では `the current parliament` のような用例を、機関・議員集団としての語義1と、選挙で区切られた構成としての語義2のどちらに置くかを中心意味だけでは判定できず、コアイメージが掲げる二枝も一対一対応になっていない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "語義1の「構成員全体」は、機関を行為主体として表す通常の集合名詞的用法だと限定する。語義2は選挙・解散で制度的に区切られる特定の Parliament（およびその存続期間）に限定し、単に現在の議員たちを指すだけの用法を含めないよう、見出し・定義・`the current parliament` の説明をそろえて境界を明示する。"
+          }
+        ]
+      },
+      {
+        "pass_id": "frame-relation",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_frame_relation"
+        },
+        "antonym_axis_blind_record": {
+          "schema_version": "antonym_axis_blind_record_v1",
+          "pass_id": "frame-relation",
+          "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+          "blind_request_sha256": "d35b886db23447d86da4e3b300d8a531e76d3f79394b170ad98e3af93ac496a5",
+          "recorded_at": "2026-09-08T09:14:51Z",
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-5",
+            "ingested_by": "human",
+            "agent_id": "/root/parliament_word/check_frame_relation"
+          },
+          "axes": []
+        },
+        "antonym_axis_adjudication_record": {
+          "schema_version": "antonym_axis_adjudication_record_v1",
+          "pass_id": "frame-relation",
+          "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+          "stage2_request_sha256": "16739599011556ff190b4d12e0839430fe6ca1e9e2e10759e1a20c5cd3f0f834",
+          "blind_record_sha256": "386a86a3c5027c55851da5762d4910edf883e2f99064f75b5cca399f796418e7",
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-5",
+            "ingested_by": "human",
+            "agent_id": "/root/parliament_word/check_frame_relation"
+          },
+          "adjudications": [],
+          "frame_findings": [
+            {
+              "taxonomy_id": "argument_slot_role_mismatch",
+              "location": {
+                "section": "collocations_examples",
+                "line_start": 76,
+                "line_end": 76,
+                "exact_quote": "・`dissolve Parliament`  "
+              },
+              "severity": "blocking",
+              "rationale": "語義1は選挙を越えて継続する制度的機関またはその構成員全体を中心とするのに対し、このフレームの目的語は解散によって終了する選挙単位の特定期 Parliament である。直後の用途説明も「特定期の議会を正式に終了させる」と明記しており、語義2の項役割を語義1に配置している。",
+              "evidence_link_ids": [],
+              "suggested_direction": "このコロケーションと用途・例文を語義2へ移動し、語義2の文法パターンに `dissolve + Parliament` を完全フレームとして対応させる。"
+            }
+          ],
+          "unrouted_observations": []
+        },
+        "aligned_at": "2026-09-08T09:34:25.640240+00:00",
+        "findings": [
+          {
+            "id": "normal-frame-relation-001",
+            "taxonomy_id": "argument_slot_role_mismatch",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 76,
+              "line_end": 76,
+              "exact_quote": "・`dissolve Parliament`  "
+            },
+            "severity": "blocking",
+            "rationale": "語義1は選挙を越えて継続する制度的機関またはその構成員全体を中心とするのに対し、このフレームの目的語は解散によって終了する選挙単位の特定期 Parliament である。直後の用途説明も「特定期の議会を正式に終了させる」と明記しており、語義2の項役割を語義1に配置している。",
+            "evidence_link_ids": [],
+            "suggested_direction": "このコロケーションと用途・例文を語義2へ移動し、語義2の文法パターンに `dissolve + Parliament` を完全フレームとして対応させる。"
+          }
+        ],
+        "unrouted_observations": []
+      },
+      {
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_example_attribution"
+        },
+        "blind_attribution_record": {
+          "schema_version": "example_attribution_blind_record_v1",
+          "pass_id": "example-attribution",
+          "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+          "blind_request_sha256": "d38049f14d73141c6ec0138cf92773a011274eb92b9da1664b58ee861c3d1831",
+          "recorded_at": "2026-09-08T09:18:47Z",
+          "reviewer": {
+            "mode": "handoff",
+            "declared_model": "gpt-5",
+            "ingested_by": "human",
+            "agent_id": "/root/parliament_word/check_example_attribution"
+          },
+          "attributions": [
+            {
+              "example_id": "ex-b8cd9fdc0171",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "during the current parliament"
+              ],
+              "rationale": "during the current parliament が current parliament 全体を提案可決の時間枠として取るため、選挙から次の選挙・解散までの議会期を表す sense:002 が自然である。競合する sense:001 の制度的機関・議員集団はそのままでは during の時間的補語にならず、current によって区切られた存続期間という同じ用法を説明できない。"
+            },
+            {
+              "example_id": "ex-b146a53dd60b",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "in the next parliament"
+              ],
+              "rationale": "in the next parliament は、next が選挙後に成立する次の制度上の単位を指し、その中で再検討するという時間的枠を作るため sense:002。競合する sense:001 は継続する制度・機関を指し、同じ機関に next という交替順序を付けるこの用法を直接説明しない。"
+            },
+            {
+              "example_id": "ex-601110af9a87",
+              "classification": "ambiguous",
+              "candidate_sense_ids": [
+                "sense:001",
+                "sense:002"
+              ],
+              "discriminating_terms": [],
+              "rationale": "The prime minister asked the head of state to dissolve Parliament and call an election. の dissolve Parliament and call an election は、制度上の議会を解散する sense:001 の通常表現としても、選挙で成立した現議会の構成・存続単位を終了させる sense:002 としても自然である。dissolve と call an election は後者を強く促すが、sense:001 が構成員全体も含む定義であるため、見出し語の項関係から一方を排除できない。"
+            },
+            {
+              "example_id": "ex-9538770a763d",
+              "classification": "ambiguous",
+              "candidate_sense_ids": [
+                "sense:001",
+                "sense:002"
+              ],
+              "discriminating_terms": [],
+              "rationale": "The election resulted in a hung parliament, so the parties began coalition talks. の an election resulted in a hung parliament は、過半数政党のない議会・議員集団という sense:001 と、当該選挙で成立した特定の議員構成という sense:002 の双方に同程度に適合する。hung は構成上の結果を表すが、両定義が構成員全体を含むため、見出し語自体の意味関係から一意に分けられない。"
+            },
+            {
+              "example_id": "ex-c5f33fd7accb",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "elected to Parliament"
+              ],
+              "rationale": "elected to Parliament は選出先となる制度的機関を表し sense:001。競合する sense:002 は選挙で区切られた議会期または特定期の構成を指すが、この例は期間内の出来事や特定期の交替を表さず、個人と機関の構成員関係を表している。"
+            },
+            {
+              "example_id": "ex-0e3c86dc7257",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "a member of parliament"
+              ],
+              "rationale": "a member of parliament は人と議会機関との構成員関係を直接表すため sense:001。競合する sense:002 の一議会期は member の所属先としての中心義ではなく、文中にも特定期・選挙間単位を選ぶ修飾がない。"
+            },
+            {
+              "example_id": "ex-8f5e2ac8d6fa",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "during this parliament"
+              ],
+              "rationale": "during this parliament が this parliament を措置導入の期間として用いるため、選挙間の一議会期を表す sense:002。競合する sense:001 の制度的機関・議員集団はそれ自体ではこの時間的補語を満たさず、this による存続単位の限定も説明しない。"
+            },
+            {
+              "example_id": "ex-4ca26aab1f40",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "the bill currently before Parliament"
+              ],
+              "rationale": "the bill currently before Parliament は法案が審議のため制度的機関の前にあるという関係を表し sense:001。競合する sense:002 は選挙間の期間・特定構成を表すが、before の補語としてここで実現しているのは時間枠ではなく審議主体となる機関である。"
+            },
+            {
+              "example_id": "ex-fa0be8ce5cf8",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "won twelve additional seats in Parliament"
+              ],
+              "rationale": "won twelve additional seats in Parliament は政党が議会機関内で得る議席・構成員枠を表すため sense:001。競合する sense:002 の一議会期は seats の所在・所属先ではなく、特定期を示す current・next 等も文中にない。"
+            },
+            {
+              "example_id": "ex-ba3af3198ddf",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:002"
+              ],
+              "discriminating_terms": [
+                "the lifetime of a parliament"
+              ],
+              "rationale": "the lifetime of a parliament は、その成立から解散・次選挙までの存続期間を直接指すため sense:002。競合する sense:001 の恒常的な制度機関は各選挙ごとに寿命が尽きる対象ではなく、ここで数えられる lifetime を説明できない。"
+            },
+            {
+              "example_id": "ex-90a5a06d1da9",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "an Act of Parliament"
+              ],
+              "rationale": "an Act of Parliament は議会という立法機関が制定する法律という固定した機関関係を表すため sense:001。競合する sense:002 の一議会期・特定期の構成は、Act の制度的制定主体を指すこの of 関係の中心義ではなく、期間限定の修飾もない。"
+            },
+            {
+              "example_id": "ex-afc5f66e3165",
+              "classification": "unique",
+              "candidate_sense_ids": [
+                "sense:001"
+              ],
+              "discriminating_terms": [
+                "Parliament passed the bill"
+              ],
+              "rationale": "Parliament passed the bill では Parliament が可決の行為主体となり、立法機関またはその構成員全体として機能するため sense:001。競合する sense:002 の議会期は法案を可決する主体にはならず、特定の選挙期を選ぶ語句もないため、この文の主語用法を説明しない。"
+            }
+          ]
+        },
+        "aligned_at": "2026-09-08T09:30:30.899991+00:00",
+        "findings": [
+          {
+            "id": "normal-example-attribution-001",
+            "taxonomy_id": "example_sense_attribution_mismatch",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 73,
+              "line_end": 73,
+              "exact_quote": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+            },
+            "severity": "blocking",
+            "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "判別語の追加"
+          },
+          {
+            "id": "normal-example-attribution-002",
+            "taxonomy_id": "example_sense_attribution_mismatch",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 78,
+              "line_end": 78,
+              "exact_quote": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+            },
+            "severity": "blocking",
+            "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+            "evidence_link_ids": [],
+            "suggested_direction": "判別語の追加"
+          }
+        ],
+        "unrouted_observations": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "qualification",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_qualification"
+        },
+        "findings": [
+          {
+            "id": "normal-qualification-001",
+            "taxonomy_id": "absolute_scope_counterexample",
+            "location": {
+              "section": "collocations_examples",
+              "line_start": 52,
+              "line_end": 52,
+              "exact_quote": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+            },
+            "severity": "minor",
+            "rationale": "人が議員に選ばれる意味では `elect someone to Parliament` とするという対比自体は正しいが、`elect Parliament` を無限定に不可とすると、選挙民が議会全体を選出する別の他動詞フレーム（例えば `elect a new parliament` や `a parliament was elected`）が反例になる。直前の「ここでの」によって意図は推測できるものの、不可なのが同じ意味で `to` を落とす場合に限られることを明示した方がよい。",
+            "evidence_link_ids": [],
+            "suggested_direction": "「人を主語にして『議員として選出された』と言うこの意味では、`be elected Parliament` ではなく `be elected to Parliament` とする」と適用範囲を限定し、議会全体を目的語に取る `elect a parliament` は別フレームとして成立することを妨げない書き方にする。"
+          }
+        ]
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "pronunciation",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_pronunciation"
+        },
+        "findings": []
+      },
+      {
+        "schema_version": "check_pass_response_v6",
+        "pass_id": "evidence",
+        "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/check_evidence"
+        },
+        "findings": [
+          {
+            "id": "normal-evidence-001",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "etymology",
+              "line_start": 20,
+              "line_end": 20,
+              "exact_quote": "同語源語には `parley`「交渉、会談」があり、派生語には `parliamentary`「議会の」がある。"
+            },
+            "severity": "blocking",
+            "rationale": "C-005 links etymology:002 to F-006/F-022/F-023, which establish the French parlement/parler lineage of parliament but do not state that parley is cognate or give its meaning. F-017 supports parliamentary elsewhere, but it is not linked to this etymology target and does not repair the parley claim.",
+            "evidence_link_ids": [
+              "F-006",
+              "F-022",
+              "F-023"
+            ],
+            "suggested_direction": "Remove the parley assertion or attach a fixed etymological fact that directly establishes the relationship; map the parliamentary statement to its directly applicable derived-form evidence."
+          },
+          {
+            "id": "normal-evidence-002",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "word_formation",
+              "line_start": 24,
+              "line_end": 24,
+              "exact_quote": "・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。"
+            },
+            "severity": "blocking",
+            "rationale": "C-008/F-017 directly supports the adjective's parliament-related, parliamentary-government, and procedure senses, but the supplied fact does not analyze parliamentary synchronically as parliament plus the suffix -ary. The linked evidence therefore supports the glosses but not the stated word-formation mechanism.",
+            "evidence_link_ids": [
+              "F-017"
+            ],
+            "suggested_direction": "Limit the target to the evidenced adjective meanings, or add a morphology source that directly supports the suffix analysis."
+          },
+          {
+            "id": "normal-evidence-003",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "sense_structure",
+              "line_start": 36,
+              "line_end": 36,
+              "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。"
+            },
+            "severity": "blocking",
+            "rationale": "C-001's F-001/F-007/F-012/F-016 support a representative lawmaking institution or its assembled membership, and F-012 also mentions deciding policy. They do not directly support the added budget-review and government-oversight functions or the full cross-country claims about formal names, composition, powers, and Japanese translation choice. The linked target is broader than the recorded evidence.",
+            "evidence_link_ids": [
+              "F-001",
+              "F-007",
+              "F-012",
+              "F-016"
+            ],
+            "suggested_direction": "Restrict the definition to the evidenced representative legislative body/membership and policy role, or add directly applicable institutional evidence for each additional function and cross-country qualification."
+          },
+          {
+            "id": "normal-evidence-004",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "frequency_register",
+              "line_start": 38,
+              "line_end": 40,
+              "exact_quote": "【頻度】〈8/10〉  \n\n【レジスター/領域】標準。政治、法律、報道で高頻度。特にイギリスや議会制を採る国・地域について用いられ、アメリカ合衆国の連邦議会の通常の固有名は `Congress` である。"
+            },
+            "severity": "blocking",
+            "rationale": "No claim unit or recorded fact supplies the 8/10 scale, comparative frequency in politics/law/news, distribution across parliamentary systems, or the Congress naming contrast. Sense and UK-frame evidence cannot directly support these frequency and regional-distribution assertions.",
+            "evidence_link_ids": [],
+            "suggested_direction": "Hold the frequency/register block until a calibrated corpus or directly applicable register and regional facts are linked, or remove the unsupported quantitative and distributional claims."
+          },
+          {
+            "id": "normal-evidence-005",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 42,
+              "line_end": 42,
+              "exact_quote": "【文法パターン】普通名詞では `a/the + parliament`、`the parliament of 〈国・地域〉` の形を取る。イギリスの国会などを固有の制度として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われることがある。一方、名称を前から限定する `the UK Parliament` や、普通名詞として国を特定する `the French parliament` では定冠詞を用いる。集合名詞としての動詞の単複は、地域差と、機関を一体として見るか構成員を意識するかによって変わり得る。"
+            },
+            "severity": "blocking",
+            "rationale": "C-002/F-002/F-003/F-014 directly establish a capitalized institutional use, countability/plural, and the zero-article in Parliament, before Parliament, and elected to Parliament frames. They do not document the complete parliament of country, the UK Parliament, or the French parliament article patterns, nor regional and notional variation in collective agreement. The target mixes supported and unsupported full-frame claims.",
+            "evidence_link_ids": [
+              "F-002",
+              "F-003",
+              "F-014"
+            ],
+            "suggested_direction": "Retain the directly attested zero-article frames and countability distinction; add construction-level evidence for the remaining article patterns and collective agreement or omit them."
+          },
+          {
+            "id": "normal-evidence-006",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "usage_notes",
+              "line_start": 86,
+              "line_end": 86,
+              "exact_quote": "【語法・注意】`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。"
+            },
+            "severity": "blocking",
+            "rationale": "C-002 routes its capitalization/article evidence (F-002/F-003/F-014) to usage_note:001, but this target instead asserts parliament-government institutional separation, building-name distinctions, and the official or conventional names Diet/National Diet and Congress. None of those claims is contained in the linked facts, so the existing claim-to-target relationship is not applicable.",
+            "evidence_link_ids": [
+              "F-002",
+              "F-003",
+              "F-014"
+            ],
+            "suggested_direction": "Remove usage_note:001 from C-002 and hold these institutional/naming contrasts until directly applicable fixed facts are linked."
+          },
+          {
+            "id": "normal-evidence-007",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "lexical_relations",
+              "line_start": 93,
+              "line_end": 93,
+              "exact_quote": "違い: `legislature` は制度名にかかわらず立法機関を機能面から指す一般語である。`parliament` は特定の政治制度・正式名称と結びつき、審議機関やその議員集団としての側面も表しやすい。"
+            },
+            "severity": "blocking",
+            "rationale": "The evidence context contains no lexical-relation claim or fact for legislature. Facts defining parliament itself do not directly establish the asserted contrast in scope, naming, or discourse tendency, and no evidence link exists for the accompanying frequency rating either.",
+            "evidence_link_ids": [],
+            "suggested_direction": "Hold the legislature comparison and rating until comparative lexical evidence is recorded and linked."
+          },
+          {
+            "id": "normal-evidence-008",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "lexical_relations",
+              "line_start": 98,
+              "line_end": 114,
+              "exact_quote": "定義: 代表者が集まる会議または立法機関。特に大文字の `Congress` はアメリカ合衆国の連邦議会を指す。"
+            },
+            "severity": "blocking",
+            "rationale": "No source fact or claim unit in the fixed context defines congress, assembly, or diet or supports their asserted frequencies and contrasts with parliament. The quoted Congress definition is representative of this unsupported lexical-relations block; the same evidence-link absence applies to the assembly and diet rows through line 114.",
+            "evidence_link_ids": [],
+            "suggested_direction": "Remove these lexical-relation rows or add fixed, directly applicable dictionary or official-name facts and separate evidence links for each definition, contrast, and frequency claim."
+          },
+          {
+            "id": "normal-evidence-009",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "frequency_register",
+              "line_start": 122,
+              "line_end": 124,
+              "exact_quote": "【頻度】〈5/10〉  \n\n【レジスター/領域】政治・行政の形式的用法。特にイギリスおよび関連する議会制度の説明・報道で用いる。"
+            },
+            "severity": "blocking",
+            "rationale": "C-007/F-013/F-018 establish the election-to-election sense but do not supply a 5/10 frequency measure, characterize it as formal political/administrative usage, or establish its distribution in reporting and related parliamentary systems.",
+            "evidence_link_ids": [
+              "F-013",
+              "F-018"
+            ],
+            "suggested_direction": "Limit the block to the supported election-to-election meaning, or add calibrated frequency and register evidence for the stated scope."
+          },
+          {
+            "id": "normal-evidence-010",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "frames",
+              "line_start": 126,
+              "line_end": 126,
+              "exact_quote": "【文法パターン】可算名詞として `the current/present/next parliament`、`the first/second year of a parliament` の形を取る。イギリスの特定の議会期を制度名として扱うときは `the current Parliament`、`the next Parliament` のように大文字で書かれることもある。"
+            },
+            "severity": "blocking",
+            "rationale": "F-013/F-018 support the period sense and F-014 supports general countability, but no supplied fact documents these complete modifier/article frames or the lowercase-versus-capitalized variants. Semantic compatibility with the sense does not directly evidence the constructions.",
+            "evidence_link_ids": [
+              "F-013",
+              "F-014",
+              "F-018"
+            ],
+            "suggested_direction": "Hold the full frame inventory until construction-level attestations are recorded, or restrict the description to the evidenced countable period sense."
+          },
+          {
+            "id": "normal-evidence-011",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "usage_notes",
+              "line_start": 150,
+              "line_end": 150,
+              "exact_quote": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。"
+            },
+            "severity": "blocking",
+            "rationale": "C-009/F-019 supports division into roughly year-long sessions, and C-010/F-020 supports dissolution ending a Parliament. Neither fact states that prorogation ends a session. The supplied evidence therefore does not directly support the complete three-way Parliament/session/prorogation contrast in the linked target.",
+            "evidence_link_ids": [
+              "F-019",
+              "F-020"
+            ],
+            "suggested_direction": "Remove the prorogation clause or add an official fixed fact directly defining prorogation's relation to a session."
+          },
+          {
+            "id": "normal-evidence-012",
+            "taxonomy_id": "evidence_claim_mismatch",
+            "location": {
+              "section": "lexical_relations",
+              "line_start": 154,
+              "line_end": 157,
+              "exact_quote": "・legislative term  \n定義: 選挙された立法機関または議員が職務を行う一定の期間。  \n頻度: 〈4/10〉  \n違い: `legislative term` は制度を問わず期間を説明する一般的な句である。`parliament` のこの語義は、特定の議会制度における選挙から次の選挙・解散までの会議体と期間を一語で表せる。"
+            },
+            "severity": "blocking",
+            "rationale": "The fixed evidence defines the election-to-election parliament sense but contains no fact for legislative term, its 4/10 frequency, or the asserted cross-system contrast. The relation cannot be derived as direct evidence from F-013/F-018 alone.",
+            "evidence_link_ids": [],
+            "suggested_direction": "Hold this relation until a directly applicable lexical source and calibrated frequency evidence are recorded and linked."
+          }
+        ],
+        "notes": [
+          "The normalized request and evidence-context schema/reference checks returned no errors. The source inventory digest, source-first audit digest, canonical article-body hash, and rebuilt evidence context all matched the packet values.",
+          "No source exploration, inventory-coverage reassessment, or independent dictionary-correctness review was performed. Findings are limited to whether the fixed source facts and claim-to-target links directly support the article claims."
+        ]
+      }
+    ],
+    "checker_reviewers": {
+      "translation": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_translation"
+      },
+      "sense-structure": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_sense_structure"
+      },
+      "frame-relation": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_frame_relation"
+      },
+      "example-attribution": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_example_attribution"
+      },
+      "qualification": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_qualification"
+      },
+      "pronunciation": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_pronunciation"
+      },
+      "evidence": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/check_evidence"
+      }
+    },
+    "independent_candidates": [],
+    "summary": "Independent checker passes completed by parallel handoff; frame-relation preserved its serial blind/adjudication dependency."
+  },
+  "cold_review": {
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/cold_review"
+    },
+    "summary": "問題候補あり。発音説明の地域差に関する過度な一般化が1件、語義2の終点と構成員に関する境界の不明確さが2件ある。",
+    "findings": [
+      {
+        "id": "CR-001",
+        "location": "発音記号",
+        "severity": "low",
+        "description": "イギリス英語全体を非R音性的であるかのように扱っており、地域的なR音性アクセントを除外している。",
+        "reason": "「イギリス英語では母音の後の `r` を発音せず、アメリカ英語では発音する。」という対比は、提示された標準的な発音記号の説明としては通じるが、イギリス英語にもスコットランドやイングランド南西部など母音後の /r/ を発音するアクセントがあり、アメリカ英語にも歴史的・地域的に非R音性的なアクセントがある。学習者が国単位の例外なしの規則として一般化するおそれがある。",
+        "suggested_direction": "「ここに示した標準的なイギリス発音では」など適用範囲を限定し、英米とも地域・話者による差があることを短く補う。",
+        "scope_anchors": [
+          {
+            "id": "CR-001-A1",
+            "exact_quote": "イギリス英語では母音の後の `r` を発音せず、アメリカ英語では発音する。",
+            "location_hint": "「＃発音記号」第1段落の末文"
+          }
+        ]
+      },
+      {
+        "id": "CR-002",
+        "location": "コアイメージ／語義2の日本語訳・定義／語義2の語法・注意",
+        "severity": "medium",
+        "description": "語義2の Parliament がいつ終わるかについて、「次の選挙」と「解散」が並列の代替的な終点として示される一方、後段では解散が議会期自体を終えると説明され、境界が一貫していない。",
+        "reason": "「一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。」は、次の選挙と解散のどちらかが Parliament の終点であるように読める。しかし同じ記事は「`dissolution` はその議会期自体を終える」と明記している。少なくとも中心的に扱っているイギリス制度では Parliament は解散によって終了し、その後に総選挙が行われるため、選挙まで存続するという説明は時間的境界をずらし、`session`・`prorogation`・`dissolution` を区別する狙いも弱める。",
+        "suggested_direction": "語義2を「総選挙後の召集から解散まで（または制度に応じた正式な任期終了まで）の特定回の議会」と定義する。次の総選挙は通常その次の Parliament を構成する出来事として説明し、終点そのものとの混同を避ける。",
+        "scope_anchors": [
+          {
+            "id": "CR-002-A1",
+            "exact_quote": "そこから、その継続的な立法機関そのものと、一度の選挙によって構成され次の選挙まで活動する特定期の会議体を表す。",
+            "location_hint": "「＃コアイメージ」第1段落"
+          },
+          {
+            "id": "CR-002-A2",
+            "exact_quote": "一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。",
+            "location_hint": "語義2「【日本語訳・定義】」第1文"
+          },
+          {
+            "id": "CR-002-A3",
+            "exact_quote": "イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。",
+            "location_hint": "語義2「【語法・注意】」第2文"
+          }
+        ]
+      },
+      {
+        "id": "CR-003",
+        "location": "コアイメージ／語義2の日本語訳・定義／語義2のコロケーション",
+        "severity": "medium",
+        "description": "語義2を一度の選挙で確定した「特定の議員構成」と繰り返し説明しており、任期中の議員交代や非選挙の構成員を含む議会に誤って一般化され得る。",
+        "reason": "「現在の選挙で構成され、活動中の議会期または議員構成を指す。」という説明は、まず「現在の選挙」が進行中の選挙のようで不自然であり、さらに Parliament の構成員が一度の選挙で固定されるとの理解を誘う。実際には任期中にも補欠選挙、辞職、離党、任命などで構成は変わり得るうえ、二院制の Parliament では全構成員が同じ総選挙で選ばれるとは限らない。この語義の同一性を支えるのは完全に不変の顔ぶれではなく、特定回としての制度的な存続期間である。",
+        "suggested_direction": "「直近の総選挙を起点として成立した特定回の Parliament／その存続期間」と表現し、議員の顔ぶれが任期中ずっと不変であることや全員が同じ選挙で選ばれることは含意しないと分かるようにする。",
+        "scope_anchors": [
+          {
+            "id": "CR-003-A1",
+            "exact_quote": "・ある選挙後に成立し、次の選挙まで存続する具体的な構成・期間 → 「一議会期、特定期の議会」（語義2）",
+            "location_hint": "「＃コアイメージ」語義2の箇条書き"
+          },
+          {
+            "id": "CR-003-A2",
+            "exact_quote": "一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。",
+            "location_hint": "語義2「【日本語訳・定義】」第1文"
+          },
+          {
+            "id": "CR-003-A3",
+            "exact_quote": "現在の選挙で構成され、活動中の議会期または議員構成を指す。",
+            "location_hint": "語義2「the current parliament」の用途"
+          }
+        ]
+      }
+    ],
+    "schema_version": "cold_review_v1",
+    "stage": "cold_review",
+    "run_id": "cold-parliament-20260908T084338Z-d549b547",
+    "context_id": "cold-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+    "prompt_sha256": "25c298d1a4305746147791bd442cd725a92737c8f0802b992ea88e5c6ff76a5d",
+    "input_artifacts": [
+      "entry_body",
+      "cold_review_prompt"
+    ],
+    "audit_visible": false,
+    "recorded_at": "2026-09-08T09:39:54.824716+00:00"
+  },
+  "final_blind": {
+    "schema_version": "final_blind_v2",
+    "stage": "final_blind",
+    "run_id": "blind-parliament-20260908T084338Z-d549b547",
+    "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/final_blind3"
+    },
+    "recorded_at": "2026-09-08T12:50:31.260925+00:00",
+    "provisional_decision": "pass",
+    "independent_candidates": [
+      {
+        "id": "IC-01",
+        "surface_form": "parliament",
+        "frame": "parliament / a parliament / the parliament = an enduring national or regional legislature",
+        "meaning": "法律制定と政策審議を担う、制度として継続する議会・国会",
+        "disposition": "included",
+        "rationale": "「法律制定と政策審議を担う、制度として継続する議会・国会」は現代語の中心義であり、本文の語義1、コアイメージ、可算名詞の説明で直接かつ十分に扱われている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-01-A1",
+            "statement": "The referent must be an institutional legislature empowered to deliberate on public policy and legislation.",
+            "polarity": "must_hold",
+            "scope": "core institutional sense"
+          },
+          {
+            "id": "IC-01-A2",
+            "statement": "The enduring institution must not be limited to the term produced by one particular general election.",
+            "polarity": "must_not_hold",
+            "scope": "boundary from a particular elected Parliament"
+          }
+        ]
+      },
+      {
+        "id": "IC-02",
+        "surface_form": "Parliament",
+        "frame": "in Parliament / before Parliament = relation to a named legislature used without an article",
+        "meaning": "固有の制度名として無冠詞で用いられる国会・議会",
+        "disposition": "included",
+        "rationale": "「in Parliament / before Parliament = relation to a named legislature used without an article」は、本文の大文字表記と無冠詞用法の説明および法案の用例によって明示されている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-02-A1",
+            "statement": "Capitalized articleless Parliament must function as the proper institutional name of the relevant legislature.",
+            "polarity": "must_hold",
+            "scope": "proper-name and articleless institutional uses"
+          },
+          {
+            "id": "IC-02-A2",
+            "statement": "The preposition before in a bill before Parliament must denote submission for legislative consideration, not merely physical position.",
+            "polarity": "must_hold",
+            "scope": "before Parliament frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-03",
+        "surface_form": "Parliament",
+        "frame": "Parliament passes a bill or Act = the legislature construed as a collective institutional agent",
+        "meaning": "議会を、可決・立法を行う構成員の集合的行為主体として表す用法",
+        "disposition": "included",
+        "rationale": "「Parliament passes a bill or Act = the legislature construed as a collective institutional agent」は、制度を行為主体として構成員の集合も含めるという定義と専用のコロケーションで十分に区別されている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-03-A1",
+            "statement": "Parliament in subject position must attribute the legislative act to the institution acting through its members and procedures.",
+            "polarity": "must_hold",
+            "scope": "collective-agent subject frame"
+          },
+          {
+            "id": "IC-03-A2",
+            "statement": "This collective-agent use must not be reanalysed as the temporal lifespan of one Parliament.",
+            "polarity": "must_not_hold",
+            "scope": "agent-versus-period boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-04",
+        "surface_form": "parliament / Parliament",
+        "frame": "a member of parliament / Member of Parliament / be elected to Parliament",
+        "meaning": "議会への所属、議員という身分、または議員としての選出先を表す用法",
+        "disposition": "included",
+        "rationale": "「a member of parliament / Member of Parliament / be elected to Parliament」は、一般表現、英国の正式表記、選出構文をそれぞれ例文付きで扱い、to が必要であることも明示している。",
+        "semantic_assertions": [
+          {
+            "id": "IC-04-A1",
+            "statement": "The of relation must identify a person as a member of the legislature.",
+            "polarity": "must_hold",
+            "scope": "member of parliament frame"
+          },
+          {
+            "id": "IC-04-A2",
+            "statement": "In the elected frame, Parliament must be introduced by to as the institution to which the person is elected.",
+            "polarity": "must_hold",
+            "scope": "be elected to Parliament frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-05",
+        "surface_form": "Parliament",
+        "frame": "an Act of Parliament",
+        "meaning": "議会の立法手続きを経て成立した制定法を表す定着表現",
+        "disposition": "included",
+        "rationale": "「an Act of Parliament」は独立した定着表現として用途、制度上の意味、例文、訳がそろっており、単なる議会関連物という曖昧な説明にとどまっていない。",
+        "semantic_assertions": [
+          {
+            "id": "IC-05-A1",
+            "statement": "Act of Parliament must denote enacted legislation deriving its status from the parliamentary legislative process.",
+            "polarity": "must_hold",
+            "scope": "Act of Parliament expression"
+          }
+        ]
+      },
+      {
+        "id": "IC-06",
+        "surface_form": "parliament",
+        "frame": "a parliament / the current parliament / the next parliament = the particular legislative body constituted after an election",
+        "meaning": "総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体",
+        "disposition": "included",
+        "rationale": "「総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体」は本文の語義2で明示され、継続的制度との境界も注意欄で正しく示されている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-06-A1",
+            "statement": "The referent must be the particular constituted legislature associated with one electoral cycle in a system that numbers or distinguishes such Parliaments.",
+            "polarity": "must_hold",
+            "scope": "particular elected-body sense"
+          },
+          {
+            "id": "IC-06-A2",
+            "statement": "A particular Parliament must not be equated with the enduring legislature across successive elections.",
+            "polarity": "must_not_hold",
+            "scope": "particular-body versus institution boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-07",
+        "surface_form": "parliament",
+        "frame": "during this parliament / the lifetime of a parliament / during the current parliament",
+        "meaning": "特定回の議会が成立してから終了するまでの存続期間・一議会期",
+        "disposition": "included",
+        "rationale": "「during this parliament / the lifetime of a parliament / during the current parliament」は時間的な意味役割を持つため議会体候補から分離したが、本文は存続期間を明記し、複数の時間フレームで実証している。",
+        "semantic_assertions": [
+          {
+            "id": "IC-07-A1",
+            "statement": "In temporal adjuncts, parliament must denote the lifespan of one particular constituted Parliament.",
+            "polarity": "must_hold",
+            "scope": "temporal-period sense"
+          },
+          {
+            "id": "IC-07-A2",
+            "statement": "The lifespan of a Parliament must not be treated as identical to one session within it.",
+            "polarity": "must_not_hold",
+            "scope": "Parliament-versus-session boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-08",
+        "surface_form": "hung parliament",
+        "frame": "an election produces a hung parliament",
+        "meaning": "選挙後の議会で単独過半数を持つ政党がない状態またはその議会体",
+        "disposition": "included",
+        "rationale": "「an election produces a hung parliament」は選挙結果による特定議会の構成を表す高頻度の政治用語であり、本文は意味、地域差、自然な例文を備えている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-08-A1",
+            "statement": "A hung parliament must be one in which no single political party has an overall majority.",
+            "polarity": "must_hold",
+            "scope": "hung parliament term"
+          },
+          {
+            "id": "IC-08-A2",
+            "statement": "Hung must not be interpreted as physical suspension or as adjournment of Parliament.",
+            "polarity": "must_not_hold",
+            "scope": "idiomatic boundary of hung parliament"
+          }
+        ]
+      },
+      {
+        "id": "IC-09",
+        "surface_form": "parliamentary",
+        "frame": "parliamentary + noun / parliamentary procedure",
+        "meaning": "議会・議会制に関すること、または議事手続きに関することを表す派生形容詞",
+        "disposition": "included",
+        "rationale": "「parliamentary + noun / parliamentary procedure」は主要な派生形容詞と、その一般的な議会関連義および定着した議事手続き義を語形成欄で簡潔に収録している。",
+        "semantic_assertions": [
+          {
+            "id": "IC-09-A1",
+            "statement": "Parliamentary must express a relation to parliament, a parliamentary system, or rules for conducting deliberative business according to context.",
+            "polarity": "must_hold",
+            "scope": "derived adjective"
+          }
+        ]
+      },
+      {
+        "id": "IC-10",
+        "surface_form": "a parliament of owls",
+        "frame": "a parliament of owls",
+        "meaning": "フクロウの群れを表す遊戯的・まれな集合名詞表現",
+        "disposition": "excluded",
+        "rationale": "「a parliament of owls」は辞書的に見かけることのある周辺的な集合名詞句だが、現代の実用的な政治・立法語彙としての主要義ではなく、本文からの除外は妥当である。",
+        "semantic_assertions": [
+          {
+            "id": "IC-10-A1",
+            "statement": "If included, the phrase must denote a group of owls rather than a legislative institution.",
+            "polarity": "must_hold",
+            "scope": "rare collective-noun expression"
+          },
+          {
+            "id": "IC-10-A2",
+            "statement": "This rare playful expression must not be presented as a major modern sense of the headword.",
+            "polarity": "must_not_hold",
+            "scope": "coverage-priority boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-11",
+        "surface_form": "parliament",
+        "frame": "historical parliament = a formal conference, consultation, or assembly",
+        "meaning": "歴史的・廃用的に、相談、正式会議、または集会を表す用法",
+        "disposition": "excluded",
+        "rationale": "「historical parliament = a formal conference, consultation, or assembly」は語源史としては関係するが現代の主要語義ではなく、本文が語源欄で歴史的意味を示すにとどめた判断は適切である。",
+        "semantic_assertions": [
+          {
+            "id": "IC-11-A1",
+            "statement": "If treated as a lexical sense, this use must be marked historical or obsolete and must denote a formal consultation or assembly rather than necessarily a modern legislature.",
+            "polarity": "must_hold",
+            "scope": "historical sense"
+          }
+        ]
+      }
+    ],
+    "article_findings": [],
+    "input_artifacts": [
+      "entry_body",
+      "final_blind_prompt"
+    ],
+    "audit_visible": false
+  },
+  "blind_seal": {
+    "schema_version": "blind_seal_v3",
+    "stage": "blind_seal",
+    "entry_path": "entries/p/parliament.md",
+    "body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "final_blind_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/final_blind.json",
+    "final_blind_sha256": "70c6bcdaf78bc84ff5fd615538fab8d320141e47a677297e71247f80b6c7135e",
+    "blind_output_sha256": "c561e70a45b4e48a8025424911712d9a7253d835bcf2547718c460054d778c76",
+    "sealed_at": "2026-09-08T21:50:31.468711+09:00"
+  },
+  "pre_blind_resolution": {
+    "schema_version": "pre_blind_resolution_v1",
+    "stage": "pre_blind_resolution",
+    "run_id": "20260908T084338Z-d549b547",
+    "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+    "output_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+    "recorded_at": "2026-09-08T09:48:52Z",
+    "resolutions": [
+      {
+        "id": "normal-sense-structure-001",
+        "finding_id": "normal-sense-structure-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The two definitions overlapped on an election-defined membership. Sense 1 now limits the collective reading to the continuing institution as actor, while sense 2 denotes a formally bounded particular Parliament and period.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-frame-relation-001",
+        "finding_id": "normal-frame-relation-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "Dissolution selects a particular terminable Parliament, so the complete collocation, explanation, and example were moved to sense 2 and its frame was added there.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-example-attribution-001",
+        "finding_id": "normal-example-attribution-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The hung-parliament example was moved to sense 2 and now explicitly anchors the result to the newly created term, eliminating ownership overlap with the continuing institution.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-example-attribution-002",
+        "finding_id": "normal-example-attribution-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The dissolution example was moved to sense 2 and now says that dissolution ends the current term, directly selecting the bounded-instance sense.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-qualification-001",
+        "finding_id": "normal-qualification-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The prohibition was overbroad. It is now limited to the construction for a person being elected as a member, leaving elect a parliament available as a different transitive frame.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-001",
+        "finding_id": "normal-evidence-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The unsupported parley cognate statement and the duplicate derivative assertion were removed from etymology; parliamentary remains only in the directly supported derived-form section.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-002",
+        "finding_id": "normal-evidence-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The unsupported suffix analysis was removed, leaving only the adjective senses directly supplied by F-017.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-003",
+        "finding_id": "normal-evidence-003",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The definition was narrowed to a representative lawmaking and policy-deliberating institution and its institution-as-actor collective reading; unsupported budget, oversight, and cross-country generalizations were removed.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-004",
+        "finding_id": "normal-evidence-004",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "The numeric frequency is a required editorial classification under entry_spec_v5, explicitly calibrated even when no corpus statistic exists. The unsupported Congress and parliamentary-system distribution claims were nevertheless removed and the domain label was narrowed.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-005",
+        "finding_id": "normal-evidence-005",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The frame inventory now retains only the directly evidenced countability and zero-article in, before, and elected-to patterns; unsupported country modifiers and collective agreement were removed.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-006",
+        "finding_id": "normal-evidence-006",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The government, building, Diet, and Congress assertions were removed. The replacement note only states the directly evidenced boundary between continuing institution and bounded particular Parliament.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-007",
+        "finding_id": "normal-evidence-007",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "entry_spec_v5 requires a synonym block and comparative learner guidance. The legislature row was retained but narrowed to its essential lexical contrast, without treating its frequency score as a corpus statistic.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-008",
+        "finding_id": "normal-evidence-008",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "entry_spec_v5 requires three to eight synonyms in principle. Congress and assembly were retained only as concise near-synonyms with explicit non-interchangeability; the unsupported Diet row and country-specific official-name assertions were removed.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-009",
+        "finding_id": "normal-evidence-009",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "The 5/10 score is the required entry_spec_v5 editorial encounter-frequency classification, not a sourced corpus statistic. The register prose was narrowed to the political-administrative UK context directly represented by the official source.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-010",
+        "finding_id": "normal-evidence-010",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "Unsupported modifier and capitalization templates were removed. The grammar note now states countability, the bounded unit, and the directly supported dissolve Parliament frame.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-011",
+        "finding_id": "normal-evidence-011",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The unsupported prorogation clause was deleted. The note retains only the supported Parliament-versus-session distinction and dissolution endpoint.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "normal-evidence-012",
+        "finding_id": "normal-evidence-012",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "The synonym block is structurally required by entry_spec_v5. The legislative term comparison was narrowed to the minimal learner distinction and is presented as editorial lexical guidance rather than a claimed sourced statistic.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "CR-001",
+        "finding_id": "CR-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The pronunciation note now limits the rhoticity contrast to the displayed standard forms, identifies the first-syllable location, and explicitly allows regional and speaker variation in both countries.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "CR-002",
+        "finding_id": "CR-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The core image, definition, and usage note now use formal termination or dissolution as the endpoint and treat the next election as the event that forms the next Parliament.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      },
+      {
+        "id": "CR-003",
+        "finding_id": "CR-003",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "Sense 2 now rests on institutional identity and duration rather than fixed membership, expressly notes that individual membership may change, and repairs the current-parliament explanation.",
+        "resolved_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35"
+      }
+    ],
+    "learning_delta": {
+      "schema_version": "process_improvement_learning_delta_v2",
+      "reviewed": true,
+      "items": []
+    }
+  },
+  "pre_blind_revision": {
+    "schema_version": "pre_blind_revision_v1",
+    "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+    "output_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "recorded_at": "2026-09-08T12:45:20Z",
+    "changed_units": [
+      "collocations_examples",
+      "core_image",
+      "etymology",
+      "frames",
+      "frequency_register",
+      "lexical_relations",
+      "pronunciation",
+      "sense_structure",
+      "usage_notes",
+      "word_formation"
+    ],
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "pronunciation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "full_recheck": true,
+    "fallback_reasons": [
+      "sense_or_part_of_speech_topology_changed",
+      "subsequent_evidence_and_relation_revisions",
+      "subsequent_final_blind_resolution_rounds_6_to_10"
+    ]
+  },
+  "checker_recheck_manifest": {
+    "schema_version": "checker_recheck_manifest_v1",
+    "current_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "revision_plan_sha256": "3be27bda9182ec514438a08f405e87d9c92ff359dd3a0a5b4dba4aa7d4880657",
+    "full_recheck": false,
+    "invalidated_passes": [
+      "evidence",
+      "example-attribution",
+      "frame-relation",
+      "qualification",
+      "sense-structure",
+      "translation"
+    ],
+    "pass_results": [
+      {
+        "pass_id": "translation",
+        "mode": "rechecked",
+        "spec_sha256": "d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3",
+        "normalized_input_sha256": "a476a099e10556b9246748ba1af97c1ca21ca6f8652e00b742b05379938a487f",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "afcaebb22986f78d15d764de10563591705e3b6964d6c46e6372bb8f0176a75c",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "/root/parliament_word/r10_translation",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/pass_findings.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "pass_id": "sense-structure",
+        "mode": "rechecked",
+        "spec_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+        "normalized_input_sha256": "a16021aee63d1c7443ea7dba04d05aa7b0f1cb1c7488c3167825c4189d8aede7",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "4b322a5ed34de5a02a54e57266d70df240441c237b50195dccd28858a35db509",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "/root/parliament_word/r10_sense",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/pass_findings.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "pass_id": "frame-relation",
+        "mode": "rechecked",
+        "spec_sha256": "3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef",
+        "normalized_input_sha256": "fcf76b799739b4390b77c92dbad61f4974f578b0fcdeab80f7383cde7c0644c0",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "c27d2abc84ed8adf0611dfd115bd9a140542f3d803373eebc98085c75b36c017",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "/root/parliament_word/r10_frame",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/pass_findings.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "pass_id": "example-attribution",
+        "mode": "rechecked",
+        "spec_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+        "normalized_input_sha256": "d9bb444dca200c618502497e58b036451dda5a96dad421b073b07a11179746c9",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "2692c1a3ea2e7885d050cd5a9b175942af6ec3e22d5c45fe50f6908e9e5e5b9c",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "/root/parliament_word/r10_example",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/pass_findings.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "pass_id": "qualification",
+        "mode": "rechecked",
+        "spec_sha256": "1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2",
+        "normalized_input_sha256": "16e266eec28f7613a474ecd298f3a6e2fe347459fb7d421e1a5088bde32b71e6",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "d7e2ab886442c69a92b471230b878dcb519929beae5802bfcda1d6d801239d6a",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "/root/parliament_word/r10_qualification",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/pass_findings.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "pass_id": "pronunciation",
+        "mode": "reused",
+        "spec_sha256": "7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a",
+        "normalized_input_sha256": "d491f4d58fae69443c6289e4f14d8f2d4eeb81803d5fce5f4f7db6f674ef0184",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "e798738c9ddc5c93ba452e87af8e52887cc0b66cae3e6d9dbcccc9b7c3089e4b",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": true,
+        "reviewer_agent_id": "/root/parliament_word/r7_pronunciation",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round7/pass_findings.json",
+        "reuse_proof_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/reuse_proof.json",
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "pass_id": "evidence",
+        "mode": "rechecked",
+        "spec_sha256": "dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d",
+        "normalized_input_sha256": "920a5a65dba7c4842245ed7c58d78ea51235c0b06f9f0f5dd40ac3d2a9d0f882",
+        "source_artifact_sha256": "16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b",
+        "output_sha256": "3065232b53c3d4fc1c322b5b3d83cb6d0c6731f359d649901b0ee2aefc01b7a2",
+        "schema_valid": true,
+        "reviewer_independent": true,
+        "request_binding_valid": true,
+        "reuse_validated": false,
+        "reviewer_agent_id": "/root/parliament_word/r10_evidence",
+        "output_path": "audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/pass_findings.json",
+        "reuse_proof_path": null,
+        "validated_on_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      }
+    ]
+  },
+  "post_blind_resolution": {
+    "schema_version": "post_blind_resolution_v1",
+    "stage": "post_blind_resolution",
+    "attempt_number": 3,
+    "recorded_at": "2026-09-08T12:51:00.633656+00:00",
+    "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "output_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "resolutions": [],
+    "rationale": "The fresh independent third final blind review found no article defects after all adopted attempt-two and recheck findings were resolved, so no further article change was required.",
+    "learning_delta": {
+      "schema_version": "process_improvement_learning_delta_v2",
+      "reviewed": true,
+      "items": []
+    }
+  },
+  "post_blind_verification": {
+    "schema_version": "post_blind_verification_v1",
+    "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "recorded_at": "2026-09-08T12:51:00.633656+00:00",
+    "checker_recheck_completed": true,
+    "checker_recheck_manifest_sha256": "d1b94f9b320649f5e116ee751b7427c0b8abd4149994d1ea241f7bc8cb84ade2",
+    "final_blind_repeated": true,
+    "final_blind_sha256": "70c6bcdaf78bc84ff5fd615538fab8d320141e47a677297e71247f80b6c7135e",
+    "final_blind_recorded_at": "2026-09-08T12:50:31.260925+00:00",
+    "attempt_number": 3,
+    "status": "complete",
+    "previous_attempt": {
+      "final_blind_path": "final_attempt2/final_blind.json",
+      "final_blind_sha256": "913d485387ff05e25150777301cf2b94ea611b67acd967265a2d2e0ae9dda371",
+      "resolution_path": "final_attempt2/post_blind_resolution.json",
+      "resolution_sha256": "cc9a7c41b2dbd46bfce624822229991593fed959e7a6d57891eb13acfe609b2e"
+    }
+  },
+  "targeted_adjudications": {
+    "schema_version": "targeted_adjudications_v1",
+    "requests": [],
+    "adjudications": []
+  },
+  "source_inventory": {
+    "schema_version": "source_inventory_v2",
+    "stage": "source_inventory",
+    "headword": "parliament",
+    "run_id": "source-parliament-20260908T084338Z-d549b547",
+    "context_id": "source-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "prompt_sha256": "a5172ff43a877d1434d7396c9e545bd40fb15b4af21b0dc74624088e6bca0b45",
+    "input_artifacts": [
+      "headword",
+      "source_first_spec"
+    ],
+    "recorded_at": "2026-09-08T12:33:33Z",
+    "source_first_audit": {
+      "version": "source_first_audit_v2",
+      "profile": "standard",
+      "profile_reason": "bounded default profile",
+      "limits": {
+        "max_sources": 6,
+        "max_facts": 48,
+        "max_research_rounds": 2,
+        "max_post_cold_rechecks": null,
+        "max_final_attempts": 2
+      },
+      "usage": {
+        "sources_used": 6,
+        "facts_used": 24,
+        "research_rounds_used": 2,
+        "post_cold_rechecks_used": 0,
+        "final_attempts_used": 0
+      },
+      "research_status": "complete",
+      "stop_reason": "coverage_axes_closed",
+      "open_questions": [],
+      "inventory_completed_before_article_comparison": true,
+      "inventory_completed_at": "2026-09-08T12:33:31Z",
+      "article_comparison_started_at": "2026-09-08T12:33:32Z",
+      "coverage_axes": [
+        {
+          "axis": "lexical_senses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-001",
+            "F-002",
+            "F-007",
+            "F-008",
+            "F-012",
+            "F-013",
+            "F-016"
+          ],
+          "notes": "Three independent general dictionaries cover the legislative institution, its membership, and the election-defined parliament."
+        },
+        {
+          "axis": "part_of_speech_and_frames",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-001",
+            "F-002",
+            "F-003",
+            "F-007",
+            "F-012",
+            "F-014",
+            "F-015"
+          ],
+          "notes": "Countability, proper-name capitalization, and the main in/before/to and collocational frames are directly represented."
+        },
+        {
+          "axis": "derived_and_related_forms",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-017"
+          ],
+          "notes": "The atomic derived form parliamentary and its procedural use are directly covered."
+        },
+        {
+          "axis": "specialist_and_legal_uses",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-018",
+            "F-019",
+            "F-020",
+            "F-021"
+          ],
+          "notes": "Official UK government guidance covers Parliament, sessions, dissolution, and the maximum term; the last is excluded from the general article as jurisdiction-specific detail."
+        },
+        {
+          "axis": "register_region_and_frequency",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-003",
+            "F-004",
+            "F-010",
+            "F-014",
+            "F-015",
+            "F-018"
+          ],
+          "notes": "Learner dictionaries and official UK guidance establish capitalization, UK institutional frames, and the formal election-to-election period use."
+        },
+        {
+          "axis": "pronunciation_and_etymology",
+          "status": "covered",
+          "source_fact_ids": [
+            "F-005",
+            "F-006",
+            "F-009",
+            "F-011",
+            "F-022",
+            "F-023",
+            "F-024"
+          ],
+          "notes": "Oxford, Merriam-Webster, Collins, and Etymonline converge on pronunciation and the French speaking/conference lineage, including the later ia spelling."
+        }
+      ],
+      "sources": [
+        {
+          "id": "S-001",
+          "title": "Oxford Advanced Learner's Dictionary — parliament",
+          "locator": "https://www.oxfordlearnersdictionaries.com/definition/english/parliament",
+          "source_type": "learner_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "oxford_university_press",
+          "facts": [
+            {
+              "id": "F-001",
+              "form": "parliament",
+              "kind": "lexical_sense",
+              "statement": "Parliament is a countable noun for the elected group that makes and changes a country's laws.",
+              "source_detail": "Sense 1 gives the elected lawmaking group and examples with German and Scottish parliament."
+            },
+            {
+              "id": "F-002",
+              "form": "Parliament",
+              "kind": "lexical_sense",
+              "statement": "Capitalized Parliament can denote the national parliament of the United Kingdom and certain other countries.",
+              "source_detail": "Sense 2 labels the proper institutional use and gives UK composition context."
+            },
+            {
+              "id": "F-003",
+              "form": "Parliament",
+              "kind": "grammar_frame",
+              "statement": "The UK institutional use occurs without an article in in Parliament, before Parliament, and elected to Parliament.",
+              "source_detail": "Sense 2 examples directly attest these three frames."
+            },
+            {
+              "id": "F-004",
+              "form": "parliament",
+              "kind": "collocation",
+              "statement": "Hung parliament denotes a parliament in which no political party has an overall majority.",
+              "source_detail": "Sense 1 marks the expression as British English and defines the no-majority condition."
+            },
+            {
+              "id": "F-005",
+              "form": "parliament",
+              "kind": "pronunciation",
+              "statement": "Oxford gives British /ˈpɑːləmənt/ and American /ˈpɑːrləmənt/.",
+              "source_detail": "The entry displays separate UK and US IPA forms."
+            },
+            {
+              "id": "F-006",
+              "form": "parliament",
+              "kind": "etymology",
+              "statement": "Parliament comes through Middle English from Old French parlement, meaning speaking, from parler.",
+              "source_detail": "Oxford's Word Origin gives the Middle English, Old French, and parler lineage."
+            }
+          ]
+        },
+        {
+          "id": "S-002",
+          "title": "Merriam-Webster — parliament",
+          "locator": "https://www.merriam-webster.com/dictionary/parliament",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "merriam_webster",
+          "facts": [
+            {
+              "id": "F-007",
+              "form": "parliament",
+              "kind": "lexical_sense",
+              "statement": "Parliament can denote a supreme legislative body understood as a continuing institution comprising successive assemblies.",
+              "source_detail": "Sense 3a expressly distinguishes the continuing institution from its individual assemblies."
+            },
+            {
+              "id": "F-008",
+              "form": "parliament",
+              "kind": "lexical_sense",
+              "statement": "Parliament can denote a formal conference for discussing public affairs, especially an early medieval council.",
+              "source_detail": "Sense 1 records the older conference and council use."
+            },
+            {
+              "id": "F-009",
+              "form": "parliament",
+              "kind": "pronunciation",
+              "statement": "Merriam-Webster gives /ˈpär-lə-mənt/ and also a variant with /-lyə-/.",
+              "source_detail": "The headword pronunciation gives the ordinary three-syllable form and a less common variant."
+            },
+            {
+              "id": "F-010",
+              "form": "parliament",
+              "kind": "historical_use",
+              "statement": "Parliament historically also names a principal court of justice in pre-Revolutionary France.",
+              "source_detail": "Sense 4 confines this use to France before 1789."
+            },
+            {
+              "id": "F-011",
+              "form": "parliament",
+              "kind": "etymology",
+              "statement": "The internal ia spelling was influenced by the Latinized forms parlamentum or parliamentum.",
+              "source_detail": "The etymology note explains the uncertain but Latin-comparative internal ia spelling."
+            }
+          ]
+        },
+        {
+          "id": "S-003",
+          "title": "Collins English Dictionary — parliament",
+          "locator": "https://www.collinsdictionary.com/dictionary/english/parliament",
+          "source_type": "general_dictionary",
+          "source_role": "general_lexicon",
+          "independence_group": "harpercollins",
+          "facts": [
+            {
+              "id": "F-012",
+              "form": "parliament",
+              "kind": "lexical_sense",
+              "statement": "A parliament is the group that makes or changes a country's laws and decides policy.",
+              "source_detail": "COBUILD sense 1 gives the lawmaking and policy-deciding body."
+            },
+            {
+              "id": "F-013",
+              "form": "parliament",
+              "kind": "lexical_sense",
+              "statement": "A particular parliament can mean the period in which that parliament works between elections.",
+              "source_detail": "COBUILD sense 3 gives the particular period between elections."
+            },
+            {
+              "id": "F-014",
+              "form": "parliament",
+              "kind": "grammar_frame",
+              "statement": "Parliament is countable in the general and election-period senses and has plural parliaments.",
+              "source_detail": "The entry labels the senses countable and supplies the plural form."
+            },
+            {
+              "id": "F-015",
+              "form": "parliament",
+              "kind": "pronunciation",
+              "statement": "Collins gives British /ˈpɑːləmənt/ and American /ˈpɑːrləmənt/.",
+              "source_detail": "British and American sections display the regional IPA forms."
+            },
+            {
+              "id": "F-016",
+              "form": "parliament",
+              "kind": "lexical_sense",
+              "statement": "A parliament is an assembly of political representatives, often the supreme legislative authority.",
+              "source_detail": "The general British English sense emphasizes representative assembly and legislative authority."
+            }
+          ]
+        },
+        {
+          "id": "S-004",
+          "title": "Merriam-Webster — parliamentary",
+          "locator": "https://www.merriam-webster.com/dictionary/parliamentary",
+          "source_type": "general_dictionary",
+          "source_role": "supporting_lexicon",
+          "independence_group": "merriam_webster",
+          "facts": [
+            {
+              "id": "F-017",
+              "form": "parliamentary",
+              "kind": "derived_form",
+              "statement": "Parliamentary is an adjective meaning of or relating to parliament, parliamentary government, or parliamentary procedure.",
+              "source_detail": "The entry separately records parliament-related, government-system, and procedural senses."
+            }
+          ]
+        },
+        {
+          "id": "S-005",
+          "title": "UK Government — Guide to Parliamentary Work",
+          "locator": "https://www.gov.uk/government/publications/guide-to-parliamentary-work/guide-to-parliamentary-work-html",
+          "source_type": "government_guidance",
+          "source_role": "specialist_reference",
+          "independence_group": "uk_cabinet_office",
+          "facts": [
+            {
+              "id": "F-018",
+              "form": "Parliament",
+              "kind": "specialist_use",
+              "statement": "In UK usage, a Parliament is the period between one general election and the next.",
+              "source_detail": "Parliamentary Calendar paragraph 1 directly defines the election-to-election unit."
+            },
+            {
+              "id": "F-019",
+              "form": "session",
+              "kind": "usage_distinction",
+              "statement": "A UK Parliament is normally divided into sessions lasting roughly a year.",
+              "source_detail": "Parliamentary Calendar paragraph 1 distinguishes Parliament from its sessions."
+            },
+            {
+              "id": "F-020",
+              "form": "dissolution",
+              "kind": "usage_distinction",
+              "statement": "Dissolution separates Parliaments and ends all business in both Houses.",
+              "source_detail": "Paragraphs 3 and 18 explain dissolution as the end of a Parliament and its pending business."
+            },
+            {
+              "id": "F-021",
+              "form": "Parliament",
+              "kind": "specialist_use",
+              "statement": "The maximum UK Parliament term is five years from its first meeting under current guidance.",
+              "source_detail": "General Elections paragraph 17 states the present jurisdiction-specific maximum term."
+            }
+          ]
+        },
+        {
+          "id": "S-006",
+          "title": "Online Etymology Dictionary — parliament",
+          "locator": "https://www.etymonline.com/word/parliament",
+          "source_type": "etymological_reference",
+          "source_role": "etymology_reference",
+          "independence_group": "etymonline",
+          "facts": [
+            {
+              "id": "F-022",
+              "form": "parliament",
+              "kind": "etymology",
+              "statement": "Around 1300, parlement meant consultation, formal conference, or assembly.",
+              "source_detail": "The entry gives the c.1300 English senses."
+            },
+            {
+              "id": "F-023",
+              "form": "parliament",
+              "kind": "etymology",
+              "statement": "Old French parlement originally meant a speaking or talk and came from parler, to speak.",
+              "source_detail": "The source explicitly supplies the Old French noun and verb."
+            },
+            {
+              "id": "F-024",
+              "form": "parliament",
+              "kind": "etymology",
+              "statement": "The spelling was altered around 1400 under influence from Medieval Latin parliamentum.",
+              "source_detail": "The source directly dates and explains the spelling alteration."
+            }
+          ]
+        }
+      ],
+      "source_union": [
+        {
+          "id": "U-001",
+          "source_fact_ids": [
+            "F-001",
+            "F-007",
+            "F-012",
+            "F-016"
+          ],
+          "canonical_statement": "Parliament denotes a representative legislative institution or its assembled membership.",
+          "disposition": "included",
+          "rationale": "This is the principal modern sense and anchors sense 1."
+        },
+        {
+          "id": "U-002",
+          "source_fact_ids": [
+            "F-002",
+            "F-003",
+            "F-014"
+          ],
+          "canonical_statement": "Parliament has countable common-noun uses and capitalized institutional uses with characteristic zero-article frames.",
+          "disposition": "included",
+          "rationale": "The distinction is essential for article use and capitalization."
+        },
+        {
+          "id": "U-003",
+          "source_fact_ids": [
+            "F-004"
+          ],
+          "canonical_statement": "Hung parliament means a parliament without a party holding an overall majority.",
+          "disposition": "included",
+          "rationale": "This is a frequent and opaque political collocation."
+        },
+        {
+          "id": "U-004",
+          "source_fact_ids": [
+            "F-005",
+            "F-009",
+            "F-015"
+          ],
+          "canonical_statement": "The standard British and American pronunciations are three-syllable forms differing primarily in post-vocalic r.",
+          "disposition": "included",
+          "rationale": "This supports the learner pronunciation note while not denying the recorded /lj/ variant."
+        },
+        {
+          "id": "U-005",
+          "source_fact_ids": [
+            "F-006",
+            "F-022",
+            "F-023"
+          ],
+          "canonical_statement": "Parliament comes from a French word for speaking, consultation, or conference, based on parler.",
+          "disposition": "included",
+          "rationale": "This directly explains the semantic development."
+        },
+        {
+          "id": "U-006",
+          "source_fact_ids": [
+            "F-011",
+            "F-024"
+          ],
+          "canonical_statement": "The modern internal ia spelling reflects Medieval Latin influence.",
+          "disposition": "included",
+          "rationale": "This explains the mismatch between spelling and ordinary pronunciation."
+        },
+        {
+          "id": "U-007",
+          "source_fact_ids": [
+            "F-008"
+          ],
+          "canonical_statement": "Parliament has an older formal-conference or medieval-council use.",
+          "disposition": "excluded",
+          "rationale": "The historical source sense is retained in etymology but does not warrant a modern learner sense block."
+        },
+        {
+          "id": "U-008",
+          "source_fact_ids": [
+            "F-010"
+          ],
+          "canonical_statement": "Parliament historically named certain French courts before 1789.",
+          "disposition": "excluded",
+          "rationale": "This obsolete foreign-historical homographic use has little current learner value and is not part of the modern core."
+        },
+        {
+          "id": "U-009",
+          "source_fact_ids": [
+            "F-013",
+            "F-018"
+          ],
+          "canonical_statement": "A particular parliament can denote the election-to-election body and period.",
+          "disposition": "included",
+          "rationale": "This distinct countable sense requires its own sense block."
+        },
+        {
+          "id": "U-010",
+          "source_fact_ids": [
+            "F-017"
+          ],
+          "canonical_statement": "Parliamentary is the adjective for parliament, parliamentary government, and parliamentary procedure.",
+          "disposition": "included",
+          "rationale": "This is the principal productive derivative."
+        },
+        {
+          "id": "U-011",
+          "source_fact_ids": [
+            "F-019"
+          ],
+          "canonical_statement": "A Parliament can contain multiple shorter sessions.",
+          "disposition": "included",
+          "rationale": "The contrast prevents confusion between Parliament and session."
+        },
+        {
+          "id": "U-012",
+          "source_fact_ids": [
+            "F-020"
+          ],
+          "canonical_statement": "Dissolution ends a particular Parliament, unlike the end of an individual session.",
+          "disposition": "included",
+          "rationale": "This supports the key institutional contrast in sense 2."
+        },
+        {
+          "id": "U-013",
+          "source_fact_ids": [
+            "F-021"
+          ],
+          "canonical_statement": "The current UK maximum Parliament term is five years.",
+          "disposition": "excluded",
+          "rationale": "This jurisdiction-specific maximum is not generalized or used as a lexical relation in the article."
+        }
+      ],
+      "claim_units": [
+        {
+          "id": "C-001",
+          "union_ids": [
+            "U-001"
+          ],
+          "subject_form": "parliament",
+          "claim_type": "lexical_sense",
+          "statement": "The main sense is a representative legislative institution or membership.",
+          "article_target_ids": [
+            "definition:001",
+            "core_image:002",
+            "usage_note:001",
+            "synonym:001",
+            "synonym:002",
+            "synonym:003"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-001",
+              "support_summary": "Oxford defines the elected lawmaking group."
+            },
+            {
+              "source_fact_id": "F-007",
+              "support_summary": "Merriam-Webster distinguishes the continuing legislative institution."
+            },
+            {
+              "source_fact_id": "F-012",
+              "support_summary": "Collins gives the lawmaking and policy-deciding group."
+            },
+            {
+              "source_fact_id": "F-016",
+              "support_summary": "Collins also gives the representative legislative assembly."
+            }
+          ]
+        },
+        {
+          "id": "C-002",
+          "union_ids": [
+            "U-002"
+          ],
+          "subject_form": "parliament",
+          "claim_type": "grammar_frame",
+          "statement": "Common countable and proper institutional uses differ in capitalization and article behavior.",
+          "article_target_ids": [
+            "grammar_pattern:001",
+            "usage_note:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-002",
+              "support_summary": "Oxford labels the capitalized institutional sense."
+            },
+            {
+              "source_fact_id": "F-003",
+              "support_summary": "Oxford directly attests the zero-article frames."
+            },
+            {
+              "source_fact_id": "F-014",
+              "support_summary": "Collins labels the noun countable and supplies its plural."
+            }
+          ]
+        },
+        {
+          "id": "C-003",
+          "union_ids": [
+            "U-003"
+          ],
+          "subject_form": "hung parliament",
+          "claim_type": "collocation",
+          "statement": "Hung parliament denotes a no-overall-majority result.",
+          "article_target_ids": [
+            "collocation:006"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-004",
+              "support_summary": "Oxford defines the British political collocation and majority condition."
+            }
+          ]
+        },
+        {
+          "id": "C-004",
+          "union_ids": [
+            "U-004"
+          ],
+          "subject_form": "parliament",
+          "claim_type": "pronunciation",
+          "statement": "Standard British and American forms are normally three syllables, with regional r behavior.",
+          "article_target_ids": [
+            "pronunciation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-005",
+              "support_summary": "Oxford prints separate British and American IPA."
+            },
+            {
+              "source_fact_id": "F-009",
+              "support_summary": "Merriam-Webster supports the ordinary three-syllable form and a variant."
+            },
+            {
+              "source_fact_id": "F-015",
+              "support_summary": "Collins independently prints British and American IPA."
+            }
+          ]
+        },
+        {
+          "id": "C-005",
+          "union_ids": [
+            "U-005"
+          ],
+          "subject_form": "parliament",
+          "claim_type": "etymology",
+          "statement": "The word descends from French speaking and conference vocabulary based on parler.",
+          "article_target_ids": [
+            "etymology:001",
+            "etymology:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-006",
+              "support_summary": "Oxford supplies the Old French parler lineage."
+            },
+            {
+              "source_fact_id": "F-022",
+              "support_summary": "Etymonline supplies the early consultation and assembly meanings."
+            },
+            {
+              "source_fact_id": "F-023",
+              "support_summary": "Etymonline expressly connects parlement with parler."
+            }
+          ]
+        },
+        {
+          "id": "C-006",
+          "union_ids": [
+            "U-006"
+          ],
+          "subject_form": "parliament",
+          "claim_type": "etymology",
+          "statement": "Medieval Latin influenced the internal ia spelling.",
+          "article_target_ids": [
+            "etymology:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-011",
+              "support_summary": "Merriam-Webster notes the Latinized forms behind the spelling."
+            },
+            {
+              "source_fact_id": "F-024",
+              "support_summary": "Etymonline dates the Latin-influenced spelling change."
+            }
+          ]
+        },
+        {
+          "id": "C-007",
+          "union_ids": [
+            "U-009"
+          ],
+          "subject_form": "parliament",
+          "claim_type": "lexical_sense",
+          "statement": "A particular parliament is an election-defined body and period.",
+          "article_target_ids": [
+            "definition:002",
+            "core_image:003",
+            "usage_note:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-013",
+              "support_summary": "Collins directly defines the period between elections."
+            },
+            {
+              "source_fact_id": "F-018",
+              "support_summary": "UK government guidance independently defines the same period."
+            }
+          ]
+        },
+        {
+          "id": "C-008",
+          "union_ids": [
+            "U-010"
+          ],
+          "subject_form": "parliamentary",
+          "claim_type": "derived_form",
+          "statement": "Parliamentary is the adjective for parliament and its system or procedure.",
+          "article_target_ids": [
+            "word_formation:001"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-017",
+              "support_summary": "Merriam-Webster lists parliament, government, and procedure senses."
+            }
+          ]
+        },
+        {
+          "id": "C-009",
+          "union_ids": [
+            "U-011"
+          ],
+          "subject_form": "session",
+          "claim_type": "usage_distinction",
+          "statement": "A Parliament can comprise multiple shorter sessions.",
+          "article_target_ids": [
+            "definition:002",
+            "usage_note:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-019",
+              "support_summary": "Official guidance states that Parliament is divided into sessions."
+            }
+          ]
+        },
+        {
+          "id": "C-010",
+          "union_ids": [
+            "U-012"
+          ],
+          "subject_form": "dissolution",
+          "claim_type": "usage_distinction",
+          "statement": "Dissolution ends a particular Parliament and its pending business.",
+          "article_target_ids": [
+            "usage_note:002"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-020",
+              "support_summary": "Official guidance describes dissolution and the end of business."
+            }
+          ]
+        },
+        {
+          "id": "C-011",
+          "union_ids": [
+            "U-001",
+            "U-009"
+          ],
+          "subject_form": "legislative body",
+          "claim_type": "lexical_relation",
+          "statement": "Legislative body denotes the institutional body, while parliament in its particular-instance sense can also denote the election-to-election period.",
+          "article_target_ids": [
+            "synonym:004"
+          ],
+          "source_supports": [
+            {
+              "source_fact_id": "F-007",
+              "support_summary": "Merriam-Webster directly identifies parliament as a legislative body and distinguishes the continuing institution from individual assemblies."
+            },
+            {
+              "source_fact_id": "F-016",
+              "support_summary": "Collins defines parliament as an assembly and legislative authority."
+            },
+            {
+              "source_fact_id": "F-013",
+              "support_summary": "Collins separately attests that a particular parliament can denote its election-to-election period."
+            },
+            {
+              "source_fact_id": "F-018",
+              "support_summary": "Official UK guidance independently defines a Parliament as the period between general elections."
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "resolutions": {
+    "schema_version": "resolutions_v1",
+    "stage": "resolutions",
+    "run_id": "resolution-parliament-20260908T084338Z-d549b547",
+    "context_id": "resolution-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+    "prompt_sha256": "a9d45b3ce76ce719002bdd08001e84be0fb984119e14376dc1cd2e964c7e3f92",
+    "recorded_at": "2026-09-08T10:17:03Z",
+    "input_artifacts": [
+      "entry_body",
+      "all_findings"
+    ],
+    "resolutions": [
+      {
+        "id": "normal-sense-structure-001",
+        "finding_id": "normal-sense-structure-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The two definitions overlapped on an election-defined membership. Sense 1 now limits the collective reading to the continuing institution as actor, while sense 2 denotes a formally bounded particular Parliament and period.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-frame-relation-001",
+        "finding_id": "normal-frame-relation-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "Dissolution selects a particular terminable Parliament, so the complete collocation, explanation, and example were moved to sense 2 and its frame was added there.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-example-attribution-001",
+        "finding_id": "normal-example-attribution-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The hung-parliament example was moved to sense 2 and now explicitly anchors the result to the newly created term, eliminating ownership overlap with the continuing institution.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-example-attribution-002",
+        "finding_id": "normal-example-attribution-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The dissolution example was moved to sense 2 and now says that dissolution ends the current term, directly selecting the bounded-instance sense.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-qualification-001",
+        "finding_id": "normal-qualification-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The prohibition was overbroad. It is now limited to the construction for a person being elected as a member, leaving elect a parliament available as a different transitive frame.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-001",
+        "finding_id": "normal-evidence-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The unsupported parley cognate statement and the duplicate derivative assertion were removed from etymology; parliamentary remains only in the directly supported derived-form section.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-002",
+        "finding_id": "normal-evidence-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The unsupported suffix analysis was removed, leaving only the adjective senses directly supplied by F-017.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-003",
+        "finding_id": "normal-evidence-003",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The definition was narrowed to a representative lawmaking and policy-deliberating institution and its institution-as-actor collective reading; unsupported budget, oversight, and cross-country generalizations were removed.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-004",
+        "finding_id": "normal-evidence-004",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "The numeric frequency is a required editorial classification under entry_spec_v5, explicitly calibrated even when no corpus statistic exists. The unsupported Congress and parliamentary-system distribution claims were nevertheless removed and the domain label was narrowed.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-005",
+        "finding_id": "normal-evidence-005",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The frame inventory now retains only the directly evidenced countability and zero-article in, before, and elected-to patterns; unsupported country modifiers and collective agreement were removed.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-006",
+        "finding_id": "normal-evidence-006",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The government, building, Diet, and Congress assertions were removed. The replacement note only states the directly evidenced boundary between continuing institution and bounded particular Parliament.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-007",
+        "finding_id": "normal-evidence-007",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "entry_spec_v5 requires a synonym block and comparative learner guidance. The legislature row was retained but narrowed to its essential lexical contrast, without treating its frequency score as a corpus statistic.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-008",
+        "finding_id": "normal-evidence-008",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "entry_spec_v5 requires three to eight synonyms in principle. Congress and assembly were retained only as concise near-synonyms with explicit non-interchangeability; the unsupported Diet row and country-specific official-name assertions were removed.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-009",
+        "finding_id": "normal-evidence-009",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "The 5/10 score is the required entry_spec_v5 editorial encounter-frequency classification, not a sourced corpus statistic. The register prose was narrowed to the political-administrative UK context directly represented by the official source.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-010",
+        "finding_id": "normal-evidence-010",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "Unsupported modifier and capitalization templates were removed. The grammar note now states countability, the bounded unit, and the directly supported dissolve Parliament frame.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-011",
+        "finding_id": "normal-evidence-011",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The unsupported prorogation clause was deleted. The note retains only the supported Parliament-versus-session distinction and dissolution endpoint.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "normal-evidence-012",
+        "finding_id": "normal-evidence-012",
+        "status": "resolved",
+        "disposition": "rejected",
+        "rationale": "The synonym block is structurally required by entry_spec_v5. The legislative term comparison was narrowed to the minimal learner distinction and is presented as editorial lexical guidance rather than a claimed sourced statistic.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "CR-001",
+        "finding_id": "CR-001",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The pronunciation note now limits the rhoticity contrast to the displayed standard forms, identifies the first-syllable location, and explicitly allows regional and speaker variation in both countries.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "CR-002",
+        "finding_id": "CR-002",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "The core image, definition, and usage note now use formal termination or dissolution as the endpoint and treat the next election as the event that forms the next Parliament.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      },
+      {
+        "id": "CR-003",
+        "finding_id": "CR-003",
+        "status": "resolved",
+        "disposition": "adopted",
+        "rationale": "Sense 2 now rests on institutional identity and duration rather than fixed membership, expressly notes that individual membership may change, and repairs the current-parliament explanation.",
+        "resolved_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9"
+      }
+    ],
+    "learning_delta": {
+      "schema_version": "process_improvement_learning_delta_v2",
+      "reviewed": true,
+      "items": []
+    }
+  },
+  "inventories": {
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "kind": "pronunciation",
+        "location": "line:4",
+        "section": "＃発音記号",
+        "sense": "",
+        "text_sha256": "6a0f528a0c2064973f6744009c4a4526f3f0e5c4d63e8e3cc5375a2db35fa08e",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "発音: イギリス英語 /ˈpɑːləmənt/、アメリカ英語 /ˈpɑːrləmənt/。綴りの `lia` を一音ずつ読まず、通常は3音節で発音する。ここに示した標準的な発音では、イギリス英語形は第1音節の母音後の /r/ を発音せず、アメリカ英語形は発音する。辞書には /-ljə-/ を含む別発音も記録される。"
+      },
+      {
+        "id": "etymology:001",
+        "kind": "etymology",
+        "location": "line:8",
+        "section": "＃語源",
+        "sense": "",
+        "text_sha256": "ccf2d0bcdaeedde61ad3b4549da78a808e025ea786dc042659dc77a90d13576f",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "中英語 *parlement* を経て、古フランス語 *parlement*「話すこと」にさかのぼり、その基になった *parler* は「話す」を意味する。英語では1300年ごろに「相談、正式な会議、集会」を表した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。"
+      },
+      {
+        "id": "word_formation:001",
+        "kind": "word_formation",
+        "location": "line:12",
+        "section": "＃語形成",
+        "sense": "",
+        "text_sha256": "ab9e9a9a4fb15cd2e21831809cd81c3addd668256bf42426cc5621ba7a9fee41",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。"
+      },
+      {
+        "id": "core_image:001",
+        "kind": "core_image",
+        "location": "line:16",
+        "section": "＃コアイメージ",
+        "sense": "",
+        "text_sha256": "99a17636fe59472a4c46b447df4606f51fe399962ffa868c25bab8f4f8b7ab2f",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。"
+      },
+      {
+        "id": "core_image:002",
+        "kind": "core_image",
+        "location": "line:17",
+        "section": "＃コアイメージ",
+        "sense": "",
+        "text_sha256": "3b5cc689dc8810c5330127c8f90316f64cd86a6cee7cb2f19a9ce1f49df2ea38",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）"
+      },
+      {
+        "id": "core_image:003",
+        "kind": "core_image",
+        "location": "line:18",
+        "section": "＃コアイメージ",
+        "sense": "",
+        "text_sha256": "576958e30c64decb2494d88ffd8e934027656f1f7a2009d624b2528bed262730",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）"
+      },
+      {
+        "id": "sense_boundary:001",
+        "kind": "sense_boundary",
+        "location": "line:22",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "a6a54bd6e86eca6f6f1a4469cae934b76ecf926c3f8c4a39f53cc6c7a54df795",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団"
+      },
+      {
+        "id": "definition:001",
+        "kind": "definition",
+        "location": "line:24",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "a9ebff27838eac9f3ff62d3133dc35a6218663d6504fea3b5cb4cab45f0b6501",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。"
+      },
+      {
+        "id": "frequency:001",
+        "kind": "frequency",
+        "location": "line:26",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "223f0f3bb105d64687ce0ff83ae044846c2f48c7a55d9d015dbc0ce12503d473",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "〈8/10〉"
+      },
+      {
+        "id": "register:001",
+        "kind": "register",
+        "location": "line:28",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "5910add0764d632ff3f0e6d8a0e389a88cc2cec2452559d77d0b4aacfb990785",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "政治・立法。"
+      },
+      {
+        "id": "grammar_pattern:001",
+        "kind": "grammar_pattern",
+        "location": "line:30",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "9d01b388ef6594d7cead6397a7b9e4e9dd9b747197df22ae6b4f59688a09178c",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "普通名詞では可算名詞で、単数・複数を区別する。イギリスの国会などを制度名として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われる。"
+      },
+      {
+        "id": "collocation:001",
+        "kind": "collocation",
+        "location": "lines:34-37",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "944ef614a37e305c8535beae8bcb642717fc8f505563469156364dad117f6434",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・`a member of parliament`\n用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。\n例: She was elected as a member of parliament for the first time last year.\n訳: 彼女は昨年、初めて国会議員に選出された。"
+      },
+      {
+        "id": "collocation:002",
+        "kind": "collocation",
+        "location": "lines:39-42",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "1dab3fd754a4c75fc36176c685082be8ec6beb28929014b818f738faccb5cd25",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`be elected to Parliament`\n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。\n例: He was elected to Parliament at the age of thirty-two.\n訳: 彼は32歳で国会議員に選出された。"
+      },
+      {
+        "id": "collocation:003",
+        "kind": "collocation",
+        "location": "lines:44-47",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "e87c2a03eefa905c0e0f216e7dcde489d17e88c936a1ac96f921c12a36614dd1",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`a bill before Parliament`\n用途: 法案が国会に提出され、審議対象となっていることを表す。\n例: The bill currently before Parliament would strengthen consumer protections.\n訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。"
+      },
+      {
+        "id": "collocation:004",
+        "kind": "collocation",
+        "location": "lines:49-52",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "33948351d5362e1fb6e3c77190f94d48981a12d17f06def31f0d22958341c19d",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・`Parliament passes 〈a bill/an Act〉`\n用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。\n例: The Scottish Parliament passed the bill after months of debate.\n訳: スコットランド議会は数か月にわたる審議の末、その法案を可決した。"
+      },
+      {
+        "id": "collocation:005",
+        "kind": "collocation",
+        "location": "lines:54-57",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "74928116d11f4e7946c21243cc7808d4ff49919b19dee9405303e46184d5dee8",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`an Act of Parliament`\n用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。\n例: The requirement was introduced by an Act of Parliament.\n訳: その要件は議会制定法によって導入された。"
+      },
+      {
+        "id": "usage_note:001",
+        "kind": "usage_note",
+        "location": "line:59",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "440b5b52ca9024ea787a1e34d7a8de6808768a7c596ac946275b7a72779a2001",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。"
+      },
+      {
+        "id": "synonym:001",
+        "kind": "synonym",
+        "location": "lines:63-68",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "d9b2fcf37ba6fbc50836d3ad42d52711438009f87ffa870746caeded39ce3b34",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・legislative body\n定義: 法律を制定する権限を持つ機関。\n頻度: 〈5/10〉\n違い: `legislative body` は立法機能を説明する一般的な句である。`parliament` は特定の制度的な会議体を一語で指す。\n例: The proposal must be approved by the legislative body.\n訳: その提案は立法機関の承認を受けなければならない。"
+      },
+      {
+        "id": "synonym:002",
+        "kind": "synonym",
+        "location": "lines:70-75",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "57d08c3e0ca9ea8d7ca5a6548fef54506f08eec886fa6855fc44b016e03a5042",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・lawmaking body\n定義: 法律を制定・改正する機関。\n頻度: 〈4/10〉\n違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。\n例: The lawmaking body debated the proposed change.\n訳: その立法機関は提案された変更を審議した。"
+      },
+      {
+        "id": "synonym:003",
+        "kind": "synonym",
+        "location": "lines:77-82",
+        "section": "＃意味・用法・関連表現",
+        "sense": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "text_sha256": "55e52087048da1dc7fa5062058b428a8a8753c315a5eb399d682428f8ecdbb96",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・representative assembly\n定義: 政治的代表者から成る会議体。\n頻度: 〈4/10〉\n違い: `representative assembly` は構成員が代表者である点を前面に出す説明的な句である。`parliament` はその会議体が立法制度として確立していることを示す。\n例: The representative assembly met to debate the policy.\n訳: 代表者会議はその政策を審議するために開かれた。"
+      },
+      {
+        "id": "sense_boundary:002",
+        "kind": "sense_boundary",
+        "location": "line:84",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "6327a937a58fc46ec9f92958867f020b59aefcdb999db0f988be7f2bbb68fc29",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期"
+      },
+      {
+        "id": "definition:002",
+        "kind": "definition",
+        "location": "line:86",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "215bd15ac8b20177c948c4f47c67589c50a0b702f45db6d927f3351817d4277d",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。"
+      },
+      {
+        "id": "frequency:002",
+        "kind": "frequency",
+        "location": "line:88",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "a0e445b4ea32382084179e64d42d17cc5ca8def51850cf67e191301932796344",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "〈3/10〉"
+      },
+      {
+        "id": "register:002",
+        "kind": "register",
+        "location": "line:90",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "e6589dcb21a0e6906111f409ebbac59b456b2aae969871b04d4411d386c1a3a2",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "政治・議会制度。"
+      },
+      {
+        "id": "grammar_pattern:002",
+        "kind": "grammar_pattern",
+        "location": "line:92",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "199452a6aa5fc402693aee6784f6e0ccbe10f23e71570900bf68a6691b5b7cf5",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。"
+      },
+      {
+        "id": "collocation:006",
+        "kind": "collocation",
+        "location": "lines:96-99",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "ba0ea70f93eeaa86bc7a0d5e8ff033a2576c0c90cac3b358294b5ebf8b460cca",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・`a hung parliament`\n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。\n例: The general election produced a hung parliament.\n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。"
+      },
+      {
+        "id": "collocation:007",
+        "kind": "collocation",
+        "location": "lines:101-104",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "f76a58bf8fd918d667efb1a515fd98b76f587e4a53ffb04467e2963618a3c9c1",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`the current parliament`\n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。\n例: The proposal is unlikely to pass during the current parliament.\n訳: その提案が今議会期中に可決される可能性は低い。"
+      },
+      {
+        "id": "collocation:008",
+        "kind": "collocation",
+        "location": "lines:106-109",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "befc933b84420763c0e385ac2b8d5dc0a75418f7a5500e8b0f6910388cf882df",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`the next parliament`\n用途: 次の総選挙後に成立する特定回の議会またはその期間を指す。\n例: The committee recommended that the issue be reconsidered in the next parliament.\n訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。"
+      },
+      {
+        "id": "collocation:009",
+        "kind": "collocation",
+        "location": "lines:111-114",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "c4af33ce6e5129ac44ccb4dfaad91abde2ae4c0e9772c5855e8291a835837e62",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`the lifetime of a parliament`\n用途: ある特定回の議会が成立してから終了するまでの存続期間を指す。\n例: Major constitutional reform may take the lifetime of a parliament to complete.\n訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。"
+      },
+      {
+        "id": "collocation:010",
+        "kind": "collocation",
+        "location": "lines:116-119",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "e1b36e3190c24fdc15a55e1914a774d5862f1d9bf313e272d7972df695a87ca7",
+        "requires_evidence": true,
+        "evidence_policy": "one_source",
+        "text": "・`during this parliament`\n用途: この特定回の議会が存続している間に、という期間を表す。\n例: The government promised to introduce the measure during this parliament.\n訳: 政府は今議会期中にその措置を導入すると約束した。"
+      },
+      {
+        "id": "usage_note:002",
+        "kind": "usage_note",
+        "location": "line:121",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "24993de7475b50f0250a0e03f2c36870d76e14d4fcf43148ddd020ea95b3b704",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。"
+      },
+      {
+        "id": "synonym:004",
+        "kind": "synonym",
+        "location": "lines:125-130",
+        "section": "＃意味・用法・関連表現",
+        "sense": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期",
+        "text_sha256": "9f949db8d45f4e2b1a0d77b41dc962d01197532e01a5a60b0562b0cd57e4baee",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary",
+        "text": "・legislative body\n定義: 立法機関として見た、特定回の議会体。\n頻度: 〈5/10〉\n違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。\n例: The newly elected legislative body met for the first time.\n訳: 新たに選ばれた立法機関が初めて開会した。"
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "risk_sense_pair:001",
+        "kind": "risk_sense_pair",
+        "target_ids": [
+          "sense_boundary:001",
+          "sense_boundary:002"
+        ],
+        "description": "記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:001 explicitly contrasts sense 1 with sense 2; usage_note:002 explicitly contrasts sense 2 with sense 1",
+        "text_sha256": "7cf7aa8c0de128134e72d8a82e8209039351c98fcc04384b946a9bd5c1a6cbe7",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary"
+      },
+      {
+        "id": "example_translation:001",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:001"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "26750269ee9dd5b51b69765498e65b4a87effedbbc0238eb29e302fcc51b1271",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:002",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:002"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "0fddd7231b615b1468c1bb23515fe6ee82ffdf770efff68aeac4dbb2df355152",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:003",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:003"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "ae6f03bfc90aa62807a5306af7169ced4893be7f3fe0c7eef691a27f2c6671be",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:004",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:004"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "b7bd8e4f64f2b5b4416c868f399db21d336bb2525a56cb9582dc575f8de0f7d3",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:005",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:005"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "2c3d879214f4eaf61bfe50841656663a25b4c418dce8fa21d84fb2637c575cf5",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:006",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:006"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "e6b70b6f529d0afd20caa1af0a66c20b2b508c59841b4f32f3ef20f4e775bf02",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:007",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:007"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "70ef911dd4616153972b44f7c6764b22f0d4c69c0f3128250f4e79719f5c37d9",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:008",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:008"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "5f2bc65b94c6a305d15a4a7799b1b5f405b78d66c43ed082ddae23034fa9d638",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:009",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:009"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "0b4b10a1fbf88bacd5150465ea4b231fc56e5e27736eef3449c9f50b98a6fe2e",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "example_translation:010",
+        "kind": "example_translation",
+        "target_ids": [
+          "collocation:010"
+        ],
+        "description": "コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。",
+        "text_sha256": "58d14b97f4826f5fe10d2313973b4228da01f3317e3edc280fd457b43980af45",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "kind": "sense_definition_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001"
+        ],
+        "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+        "text_sha256": "a610295e5ff2f26df8c51c3804bd7d2fb7fd9bef0c6ea2226069e2ad051c2267",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "kind": "definition_usage_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001"
+        ],
+        "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+        "text_sha256": "fce9e9eb0b0e86ca9ca46179914e226d1702b8d93d1ac7cbe7296a1d33593011",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "kind": "definition_lexical_relation_consistency",
+        "target_ids": [
+          "sense_boundary:001",
+          "definition:001",
+          "synonym:001",
+          "synonym:002",
+          "synonym:003"
+        ],
+        "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+        "text_sha256": "e824820962ab49fe1f11e0316065cbf672c36e79e03eadc6350f726edb274d01",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:001",
+          "collocation:001",
+          "collocation:002",
+          "collocation:003",
+          "collocation:004",
+          "collocation:005"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "64266f8218e05b59fa5b328e57c30ff8773bcf7a71d4f83ce958af62d763bcd1",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "kind": "sense_definition_consistency",
+        "target_ids": [
+          "sense_boundary:002",
+          "definition:002"
+        ],
+        "description": "語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。",
+        "text_sha256": "e254f29d0b4af1400fd7482afff3595556e4dd05869cb4266669e3b16e6c794a",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "kind": "definition_usage_consistency",
+        "target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:002"
+        ],
+        "description": "語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。",
+        "text_sha256": "295f3faddf88fe94a54769f3154c01213f59a8ec5ddd08a484c4323874f639ed",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "kind": "definition_lexical_relation_consistency",
+        "target_ids": [
+          "sense_boundary:002",
+          "definition:002",
+          "synonym:004"
+        ],
+        "description": "語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。",
+        "text_sha256": "48cf3c7239913725abffa5ad2e5f3f8d442f6c163563a6964af4412aa0d97fb3",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "kind": "pattern_example_coverage",
+        "target_ids": [
+          "grammar_pattern:002",
+          "collocation:006",
+          "collocation:007",
+          "collocation:008",
+          "collocation:009",
+          "collocation:010"
+        ],
+        "description": "文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。",
+        "text_sha256": "20ed2f90ed75e8fcb1ab50b6bc873707b3e9fea344659f25860f954571768435",
+        "requires_evidence": true,
+        "evidence_policy": "one_source"
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "kind": "core_inventory_consistency",
+        "target_ids": [
+          "core_image:001",
+          "sense_boundary:001",
+          "sense_boundary:002"
+        ],
+        "description": "語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。",
+        "text_sha256": "fdd2c574da03eb68d1befc9095e7604032e8eb5b6686fc2abfde3dbfe31428a6",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary"
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "kind": "core_sense_mapping",
+        "target_ids": [
+          "core_image:002",
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001"
+        ],
+        "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+        "text_sha256": "054a1725501eb1bd6dc5643181c3c50b4308ee7fdc944c1d691456d814e7b7bb",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary"
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "kind": "core_sense_mapping",
+        "target_ids": [
+          "core_image:003",
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:002"
+        ],
+        "description": "コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。",
+        "text_sha256": "dd2d9bcfb68cb20480eef9070be46005e695d52a96014af726ebf91ade9a6e64",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary"
+      },
+      {
+        "id": "article_learning_risk:001",
+        "kind": "article_learning_risk",
+        "target_ids": [
+          "core_image:001",
+          "core_image:002",
+          "core_image:003",
+          "sense_boundary:001",
+          "definition:001",
+          "usage_note:001",
+          "sense_boundary:002",
+          "definition:002",
+          "usage_note:002"
+        ],
+        "description": "記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。",
+        "text_sha256": "1b9397792ef411f6b3b0311b2efdcae11f82796036caba77cc7688f885286374",
+        "requires_evidence": true,
+        "evidence_policy": "two_sources_or_primary"
+      }
+    ],
+    "normal_candidate_results": [],
+    "blind_candidate_results": [
+      {
+        "id": "IC-01",
+        "surface_form": "parliament",
+        "frame": "parliament / a parliament / the parliament = an enduring national or regional legislature",
+        "meaning": "法律制定と政策審議を担う、制度として継続する議会・国会",
+        "disposition": "included",
+        "rationale": "「法律制定と政策審議を担う、制度として継続する議会・国会」は現代語の中心義であり、本文の語義1、コアイメージ、可算名詞の説明で直接かつ十分に扱われている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-01-A1",
+            "statement": "The referent must be an institutional legislature empowered to deliberate on public policy and legislation.",
+            "polarity": "must_hold",
+            "scope": "core institutional sense"
+          },
+          {
+            "id": "IC-01-A2",
+            "statement": "The enduring institution must not be limited to the term produced by one particular general election.",
+            "polarity": "must_not_hold",
+            "scope": "boundary from a particular elected Parliament"
+          }
+        ]
+      },
+      {
+        "id": "IC-02",
+        "surface_form": "Parliament",
+        "frame": "in Parliament / before Parliament = relation to a named legislature used without an article",
+        "meaning": "固有の制度名として無冠詞で用いられる国会・議会",
+        "disposition": "included",
+        "rationale": "「in Parliament / before Parliament = relation to a named legislature used without an article」は、本文の大文字表記と無冠詞用法の説明および法案の用例によって明示されている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-02-A1",
+            "statement": "Capitalized articleless Parliament must function as the proper institutional name of the relevant legislature.",
+            "polarity": "must_hold",
+            "scope": "proper-name and articleless institutional uses"
+          },
+          {
+            "id": "IC-02-A2",
+            "statement": "The preposition before in a bill before Parliament must denote submission for legislative consideration, not merely physical position.",
+            "polarity": "must_hold",
+            "scope": "before Parliament frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-03",
+        "surface_form": "Parliament",
+        "frame": "Parliament passes a bill or Act = the legislature construed as a collective institutional agent",
+        "meaning": "議会を、可決・立法を行う構成員の集合的行為主体として表す用法",
+        "disposition": "included",
+        "rationale": "「Parliament passes a bill or Act = the legislature construed as a collective institutional agent」は、制度を行為主体として構成員の集合も含めるという定義と専用のコロケーションで十分に区別されている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-03-A1",
+            "statement": "Parliament in subject position must attribute the legislative act to the institution acting through its members and procedures.",
+            "polarity": "must_hold",
+            "scope": "collective-agent subject frame"
+          },
+          {
+            "id": "IC-03-A2",
+            "statement": "This collective-agent use must not be reanalysed as the temporal lifespan of one Parliament.",
+            "polarity": "must_not_hold",
+            "scope": "agent-versus-period boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-04",
+        "surface_form": "parliament / Parliament",
+        "frame": "a member of parliament / Member of Parliament / be elected to Parliament",
+        "meaning": "議会への所属、議員という身分、または議員としての選出先を表す用法",
+        "disposition": "included",
+        "rationale": "「a member of parliament / Member of Parliament / be elected to Parliament」は、一般表現、英国の正式表記、選出構文をそれぞれ例文付きで扱い、to が必要であることも明示している。",
+        "semantic_assertions": [
+          {
+            "id": "IC-04-A1",
+            "statement": "The of relation must identify a person as a member of the legislature.",
+            "polarity": "must_hold",
+            "scope": "member of parliament frame"
+          },
+          {
+            "id": "IC-04-A2",
+            "statement": "In the elected frame, Parliament must be introduced by to as the institution to which the person is elected.",
+            "polarity": "must_hold",
+            "scope": "be elected to Parliament frame"
+          }
+        ]
+      },
+      {
+        "id": "IC-05",
+        "surface_form": "Parliament",
+        "frame": "an Act of Parliament",
+        "meaning": "議会の立法手続きを経て成立した制定法を表す定着表現",
+        "disposition": "included",
+        "rationale": "「an Act of Parliament」は独立した定着表現として用途、制度上の意味、例文、訳がそろっており、単なる議会関連物という曖昧な説明にとどまっていない。",
+        "semantic_assertions": [
+          {
+            "id": "IC-05-A1",
+            "statement": "Act of Parliament must denote enacted legislation deriving its status from the parliamentary legislative process.",
+            "polarity": "must_hold",
+            "scope": "Act of Parliament expression"
+          }
+        ]
+      },
+      {
+        "id": "IC-06",
+        "surface_form": "parliament",
+        "frame": "a parliament / the current parliament / the next parliament = the particular legislative body constituted after an election",
+        "meaning": "総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体",
+        "disposition": "included",
+        "rationale": "「総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体」は本文の語義2で明示され、継続的制度との境界も注意欄で正しく示されている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-06-A1",
+            "statement": "The referent must be the particular constituted legislature associated with one electoral cycle in a system that numbers or distinguishes such Parliaments.",
+            "polarity": "must_hold",
+            "scope": "particular elected-body sense"
+          },
+          {
+            "id": "IC-06-A2",
+            "statement": "A particular Parliament must not be equated with the enduring legislature across successive elections.",
+            "polarity": "must_not_hold",
+            "scope": "particular-body versus institution boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-07",
+        "surface_form": "parliament",
+        "frame": "during this parliament / the lifetime of a parliament / during the current parliament",
+        "meaning": "特定回の議会が成立してから終了するまでの存続期間・一議会期",
+        "disposition": "included",
+        "rationale": "「during this parliament / the lifetime of a parliament / during the current parliament」は時間的な意味役割を持つため議会体候補から分離したが、本文は存続期間を明記し、複数の時間フレームで実証している。",
+        "semantic_assertions": [
+          {
+            "id": "IC-07-A1",
+            "statement": "In temporal adjuncts, parliament must denote the lifespan of one particular constituted Parliament.",
+            "polarity": "must_hold",
+            "scope": "temporal-period sense"
+          },
+          {
+            "id": "IC-07-A2",
+            "statement": "The lifespan of a Parliament must not be treated as identical to one session within it.",
+            "polarity": "must_not_hold",
+            "scope": "Parliament-versus-session boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-08",
+        "surface_form": "hung parliament",
+        "frame": "an election produces a hung parliament",
+        "meaning": "選挙後の議会で単独過半数を持つ政党がない状態またはその議会体",
+        "disposition": "included",
+        "rationale": "「an election produces a hung parliament」は選挙結果による特定議会の構成を表す高頻度の政治用語であり、本文は意味、地域差、自然な例文を備えている。",
+        "semantic_assertions": [
+          {
+            "id": "IC-08-A1",
+            "statement": "A hung parliament must be one in which no single political party has an overall majority.",
+            "polarity": "must_hold",
+            "scope": "hung parliament term"
+          },
+          {
+            "id": "IC-08-A2",
+            "statement": "Hung must not be interpreted as physical suspension or as adjournment of Parliament.",
+            "polarity": "must_not_hold",
+            "scope": "idiomatic boundary of hung parliament"
+          }
+        ]
+      },
+      {
+        "id": "IC-09",
+        "surface_form": "parliamentary",
+        "frame": "parliamentary + noun / parliamentary procedure",
+        "meaning": "議会・議会制に関すること、または議事手続きに関することを表す派生形容詞",
+        "disposition": "included",
+        "rationale": "「parliamentary + noun / parliamentary procedure」は主要な派生形容詞と、その一般的な議会関連義および定着した議事手続き義を語形成欄で簡潔に収録している。",
+        "semantic_assertions": [
+          {
+            "id": "IC-09-A1",
+            "statement": "Parliamentary must express a relation to parliament, a parliamentary system, or rules for conducting deliberative business according to context.",
+            "polarity": "must_hold",
+            "scope": "derived adjective"
+          }
+        ]
+      },
+      {
+        "id": "IC-10",
+        "surface_form": "a parliament of owls",
+        "frame": "a parliament of owls",
+        "meaning": "フクロウの群れを表す遊戯的・まれな集合名詞表現",
+        "disposition": "excluded",
+        "rationale": "「a parliament of owls」は辞書的に見かけることのある周辺的な集合名詞句だが、現代の実用的な政治・立法語彙としての主要義ではなく、本文からの除外は妥当である。",
+        "semantic_assertions": [
+          {
+            "id": "IC-10-A1",
+            "statement": "If included, the phrase must denote a group of owls rather than a legislative institution.",
+            "polarity": "must_hold",
+            "scope": "rare collective-noun expression"
+          },
+          {
+            "id": "IC-10-A2",
+            "statement": "This rare playful expression must not be presented as a major modern sense of the headword.",
+            "polarity": "must_not_hold",
+            "scope": "coverage-priority boundary"
+          }
+        ]
+      },
+      {
+        "id": "IC-11",
+        "surface_form": "parliament",
+        "frame": "historical parliament = a formal conference, consultation, or assembly",
+        "meaning": "歴史的・廃用的に、相談、正式会議、または集会を表す用法",
+        "disposition": "excluded",
+        "rationale": "「historical parliament = a formal conference, consultation, or assembly」は語源史としては関係するが現代の主要語義ではなく、本文が語源欄で歴史的意味を示すにとどめた判断は適切である。",
+        "semantic_assertions": [
+          {
+            "id": "IC-11-A1",
+            "statement": "If treated as a lexical sense, this use must be marked historical or obsolete and must denote a formal consultation or assembly rather than necessarily a modern legislature.",
+            "polarity": "must_hold",
+            "scope": "historical sense"
+          }
+        ]
+      }
+    ],
+    "finding_results": [
+      {
+        "id": "normal-sense-structure-001",
+        "taxonomy_id": "sense_boundary_overlap",
+        "location": {
+          "section": "sense_structure",
+          "line_start": 36,
+          "line_end": 36,
+          "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+        },
+        "severity": "blocking",
+        "rationale": "語義1が「構成員全体」を無限定に含む一方、語義2も「その期間に活動する特定の議員構成」を含むため、選挙後の現議員集団という同じ指示対象が両語義に入る。現状では `the current parliament` のような用例を、機関・議員集団としての語義1と、選挙で区切られた構成としての語義2のどちらに置くかを中心意味だけでは判定できず、コアイメージが掲げる二枝も一対一対応になっていない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "語義1の「構成員全体」は、機関を行為主体として表す通常の集合名詞的用法だと限定する。語義2は選挙・解散で制度的に区切られる特定の Parliament（およびその存続期間）に限定し、単に現在の議員たちを指すだけの用法を含めないよう、見出し・定義・`the current parliament` の説明をそろえて境界を明示する。"
+      },
+      {
+        "id": "normal-frame-relation-001",
+        "taxonomy_id": "argument_slot_role_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 76,
+          "line_end": 76,
+          "exact_quote": "・`dissolve Parliament`  "
+        },
+        "severity": "blocking",
+        "rationale": "語義1は選挙を越えて継続する制度的機関またはその構成員全体を中心とするのに対し、このフレームの目的語は解散によって終了する選挙単位の特定期 Parliament である。直後の用途説明も「特定期の議会を正式に終了させる」と明記しており、語義2の項役割を語義1に配置している。",
+        "evidence_link_ids": [],
+        "suggested_direction": "このコロケーションと用途・例文を語義2へ移動し、語義2の文法パターンに `dissolve + Parliament` を完全フレームとして対応させる。"
+      },
+      {
+        "id": "normal-example-attribution-001",
+        "taxonomy_id": "example_sense_attribution_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 73,
+          "line_end": 73,
+          "exact_quote": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+        },
+        "severity": "blocking",
+        "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "判別語の追加"
+      },
+      {
+        "id": "normal-example-attribution-002",
+        "taxonomy_id": "example_sense_attribution_mismatch",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 78,
+          "line_end": 78,
+          "exact_quote": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+        },
+        "severity": "blocking",
+        "rationale": "段階1でsense:001, sense:002が同程度に自然と判定され、例文内に帰属を一意にする判別語がない。",
+        "evidence_link_ids": [],
+        "suggested_direction": "判別語の追加"
+      },
+      {
+        "id": "normal-qualification-001",
+        "taxonomy_id": "absolute_scope_counterexample",
+        "location": {
+          "section": "collocations_examples",
+          "line_start": 52,
+          "line_end": 52,
+          "exact_quote": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+        },
+        "severity": "minor",
+        "rationale": "人が議員に選ばれる意味では `elect someone to Parliament` とするという対比自体は正しいが、`elect Parliament` を無限定に不可とすると、選挙民が議会全体を選出する別の他動詞フレーム（例えば `elect a new parliament` や `a parliament was elected`）が反例になる。直前の「ここでの」によって意図は推測できるものの、不可なのが同じ意味で `to` を落とす場合に限られることを明示した方がよい。",
+        "evidence_link_ids": [],
+        "suggested_direction": "「人を主語にして『議員として選出された』と言うこの意味では、`be elected Parliament` ではなく `be elected to Parliament` とする」と適用範囲を限定し、議会全体を目的語に取る `elect a parliament` は別フレームとして成立することを妨げない書き方にする。"
+      },
+      {
+        "id": "normal-evidence-001",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "etymology",
+          "line_start": 20,
+          "line_end": 20,
+          "exact_quote": "同語源語には `parley`「交渉、会談」があり、派生語には `parliamentary`「議会の」がある。"
+        },
+        "severity": "blocking",
+        "rationale": "C-005 links etymology:002 to F-006/F-022/F-023, which establish the French parlement/parler lineage of parliament but do not state that parley is cognate or give its meaning. F-017 supports parliamentary elsewhere, but it is not linked to this etymology target and does not repair the parley claim.",
+        "evidence_link_ids": [
+          "F-006",
+          "F-022",
+          "F-023"
+        ],
+        "suggested_direction": "Remove the parley assertion or attach a fixed etymological fact that directly establishes the relationship; map the parliamentary statement to its directly applicable derived-form evidence."
+      },
+      {
+        "id": "normal-evidence-002",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "word_formation",
+          "line_start": 24,
+          "line_end": 24,
+          "exact_quote": "・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。"
+        },
+        "severity": "blocking",
+        "rationale": "C-008/F-017 directly supports the adjective's parliament-related, parliamentary-government, and procedure senses, but the supplied fact does not analyze parliamentary synchronically as parliament plus the suffix -ary. The linked evidence therefore supports the glosses but not the stated word-formation mechanism.",
+        "evidence_link_ids": [
+          "F-017"
+        ],
+        "suggested_direction": "Limit the target to the evidenced adjective meanings, or add a morphology source that directly supports the suffix analysis."
+      },
+      {
+        "id": "normal-evidence-003",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "sense_structure",
+          "line_start": 36,
+          "line_end": 36,
+          "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。"
+        },
+        "severity": "blocking",
+        "rationale": "C-001's F-001/F-007/F-012/F-016 support a representative lawmaking institution or its assembled membership, and F-012 also mentions deciding policy. They do not directly support the added budget-review and government-oversight functions or the full cross-country claims about formal names, composition, powers, and Japanese translation choice. The linked target is broader than the recorded evidence.",
+        "evidence_link_ids": [
+          "F-001",
+          "F-007",
+          "F-012",
+          "F-016"
+        ],
+        "suggested_direction": "Restrict the definition to the evidenced representative legislative body/membership and policy role, or add directly applicable institutional evidence for each additional function and cross-country qualification."
+      },
+      {
+        "id": "normal-evidence-004",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "frequency_register",
+          "line_start": 38,
+          "line_end": 40,
+          "exact_quote": "【頻度】〈8/10〉  \n\n【レジスター/領域】標準。政治、法律、報道で高頻度。特にイギリスや議会制を採る国・地域について用いられ、アメリカ合衆国の連邦議会の通常の固有名は `Congress` である。"
+        },
+        "severity": "blocking",
+        "rationale": "No claim unit or recorded fact supplies the 8/10 scale, comparative frequency in politics/law/news, distribution across parliamentary systems, or the Congress naming contrast. Sense and UK-frame evidence cannot directly support these frequency and regional-distribution assertions.",
+        "evidence_link_ids": [],
+        "suggested_direction": "Hold the frequency/register block until a calibrated corpus or directly applicable register and regional facts are linked, or remove the unsupported quantitative and distributional claims."
+      },
+      {
+        "id": "normal-evidence-005",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 42,
+          "line_end": 42,
+          "exact_quote": "【文法パターン】普通名詞では `a/the + parliament`、`the parliament of 〈国・地域〉` の形を取る。イギリスの国会などを固有の制度として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われることがある。一方、名称を前から限定する `the UK Parliament` や、普通名詞として国を特定する `the French parliament` では定冠詞を用いる。集合名詞としての動詞の単複は、地域差と、機関を一体として見るか構成員を意識するかによって変わり得る。"
+        },
+        "severity": "blocking",
+        "rationale": "C-002/F-002/F-003/F-014 directly establish a capitalized institutional use, countability/plural, and the zero-article in Parliament, before Parliament, and elected to Parliament frames. They do not document the complete parliament of country, the UK Parliament, or the French parliament article patterns, nor regional and notional variation in collective agreement. The target mixes supported and unsupported full-frame claims.",
+        "evidence_link_ids": [
+          "F-002",
+          "F-003",
+          "F-014"
+        ],
+        "suggested_direction": "Retain the directly attested zero-article frames and countability distinction; add construction-level evidence for the remaining article patterns and collective agreement or omit them."
+      },
+      {
+        "id": "normal-evidence-006",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "usage_notes",
+          "line_start": 86,
+          "line_end": 86,
+          "exact_quote": "【語法・注意】`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。"
+        },
+        "severity": "blocking",
+        "rationale": "C-002 routes its capitalization/article evidence (F-002/F-003/F-014) to usage_note:001, but this target instead asserts parliament-government institutional separation, building-name distinctions, and the official or conventional names Diet/National Diet and Congress. None of those claims is contained in the linked facts, so the existing claim-to-target relationship is not applicable.",
+        "evidence_link_ids": [
+          "F-002",
+          "F-003",
+          "F-014"
+        ],
+        "suggested_direction": "Remove usage_note:001 from C-002 and hold these institutional/naming contrasts until directly applicable fixed facts are linked."
+      },
+      {
+        "id": "normal-evidence-007",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 93,
+          "line_end": 93,
+          "exact_quote": "違い: `legislature` は制度名にかかわらず立法機関を機能面から指す一般語である。`parliament` は特定の政治制度・正式名称と結びつき、審議機関やその議員集団としての側面も表しやすい。"
+        },
+        "severity": "blocking",
+        "rationale": "The evidence context contains no lexical-relation claim or fact for legislature. Facts defining parliament itself do not directly establish the asserted contrast in scope, naming, or discourse tendency, and no evidence link exists for the accompanying frequency rating either.",
+        "evidence_link_ids": [],
+        "suggested_direction": "Hold the legislature comparison and rating until comparative lexical evidence is recorded and linked."
+      },
+      {
+        "id": "normal-evidence-008",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 98,
+          "line_end": 114,
+          "exact_quote": "定義: 代表者が集まる会議または立法機関。特に大文字の `Congress` はアメリカ合衆国の連邦議会を指す。"
+        },
+        "severity": "blocking",
+        "rationale": "No source fact or claim unit in the fixed context defines congress, assembly, or diet or supports their asserted frequencies and contrasts with parliament. The quoted Congress definition is representative of this unsupported lexical-relations block; the same evidence-link absence applies to the assembly and diet rows through line 114.",
+        "evidence_link_ids": [],
+        "suggested_direction": "Remove these lexical-relation rows or add fixed, directly applicable dictionary or official-name facts and separate evidence links for each definition, contrast, and frequency claim."
+      },
+      {
+        "id": "normal-evidence-009",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "frequency_register",
+          "line_start": 122,
+          "line_end": 124,
+          "exact_quote": "【頻度】〈5/10〉  \n\n【レジスター/領域】政治・行政の形式的用法。特にイギリスおよび関連する議会制度の説明・報道で用いる。"
+        },
+        "severity": "blocking",
+        "rationale": "C-007/F-013/F-018 establish the election-to-election sense but do not supply a 5/10 frequency measure, characterize it as formal political/administrative usage, or establish its distribution in reporting and related parliamentary systems.",
+        "evidence_link_ids": [
+          "F-013",
+          "F-018"
+        ],
+        "suggested_direction": "Limit the block to the supported election-to-election meaning, or add calibrated frequency and register evidence for the stated scope."
+      },
+      {
+        "id": "normal-evidence-010",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "frames",
+          "line_start": 126,
+          "line_end": 126,
+          "exact_quote": "【文法パターン】可算名詞として `the current/present/next parliament`、`the first/second year of a parliament` の形を取る。イギリスの特定の議会期を制度名として扱うときは `the current Parliament`、`the next Parliament` のように大文字で書かれることもある。"
+        },
+        "severity": "blocking",
+        "rationale": "F-013/F-018 support the period sense and F-014 supports general countability, but no supplied fact documents these complete modifier/article frames or the lowercase-versus-capitalized variants. Semantic compatibility with the sense does not directly evidence the constructions.",
+        "evidence_link_ids": [
+          "F-013",
+          "F-014",
+          "F-018"
+        ],
+        "suggested_direction": "Hold the full frame inventory until construction-level attestations are recorded, or restrict the description to the evidenced countable period sense."
+      },
+      {
+        "id": "normal-evidence-011",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "usage_notes",
+          "line_start": 150,
+          "line_end": 150,
+          "exact_quote": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。"
+        },
+        "severity": "blocking",
+        "rationale": "C-009/F-019 supports division into roughly year-long sessions, and C-010/F-020 supports dissolution ending a Parliament. Neither fact states that prorogation ends a session. The supplied evidence therefore does not directly support the complete three-way Parliament/session/prorogation contrast in the linked target.",
+        "evidence_link_ids": [
+          "F-019",
+          "F-020"
+        ],
+        "suggested_direction": "Remove the prorogation clause or add an official fixed fact directly defining prorogation's relation to a session."
+      },
+      {
+        "id": "normal-evidence-012",
+        "taxonomy_id": "evidence_claim_mismatch",
+        "location": {
+          "section": "lexical_relations",
+          "line_start": 154,
+          "line_end": 157,
+          "exact_quote": "・legislative term  \n定義: 選挙された立法機関または議員が職務を行う一定の期間。  \n頻度: 〈4/10〉  \n違い: `legislative term` は制度を問わず期間を説明する一般的な句である。`parliament` のこの語義は、特定の議会制度における選挙から次の選挙・解散までの会議体と期間を一語で表せる。"
+        },
+        "severity": "blocking",
+        "rationale": "The fixed evidence defines the election-to-election parliament sense but contains no fact for legislative term, its 4/10 frequency, or the asserted cross-system contrast. The relation cannot be derived as direct evidence from F-013/F-018 alone.",
+        "evidence_link_ids": [],
+        "suggested_direction": "Hold this relation until a directly applicable lexical source and calibrated frequency evidence are recorded and linked."
+      },
+      {
+        "id": "CR-001",
+        "location": "発音記号",
+        "severity": "low",
+        "description": "イギリス英語全体を非R音性的であるかのように扱っており、地域的なR音性アクセントを除外している。",
+        "reason": "「イギリス英語では母音の後の `r` を発音せず、アメリカ英語では発音する。」という対比は、提示された標準的な発音記号の説明としては通じるが、イギリス英語にもスコットランドやイングランド南西部など母音後の /r/ を発音するアクセントがあり、アメリカ英語にも歴史的・地域的に非R音性的なアクセントがある。学習者が国単位の例外なしの規則として一般化するおそれがある。",
+        "suggested_direction": "「ここに示した標準的なイギリス発音では」など適用範囲を限定し、英米とも地域・話者による差があることを短く補う。",
+        "scope_anchors": [
+          {
+            "id": "CR-001-A1",
+            "exact_quote": "イギリス英語では母音の後の `r` を発音せず、アメリカ英語では発音する。",
+            "location_hint": "「＃発音記号」第1段落の末文"
+          }
+        ]
+      },
+      {
+        "id": "CR-002",
+        "location": "コアイメージ／語義2の日本語訳・定義／語義2の語法・注意",
+        "severity": "medium",
+        "description": "語義2の Parliament がいつ終わるかについて、「次の選挙」と「解散」が並列の代替的な終点として示される一方、後段では解散が議会期自体を終えると説明され、境界が一貫していない。",
+        "reason": "「一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。」は、次の選挙と解散のどちらかが Parliament の終点であるように読める。しかし同じ記事は「`dissolution` はその議会期自体を終える」と明記している。少なくとも中心的に扱っているイギリス制度では Parliament は解散によって終了し、その後に総選挙が行われるため、選挙まで存続するという説明は時間的境界をずらし、`session`・`prorogation`・`dissolution` を区別する狙いも弱める。",
+        "suggested_direction": "語義2を「総選挙後の召集から解散まで（または制度に応じた正式な任期終了まで）の特定回の議会」と定義する。次の総選挙は通常その次の Parliament を構成する出来事として説明し、終点そのものとの混同を避ける。",
+        "scope_anchors": [
+          {
+            "id": "CR-002-A1",
+            "exact_quote": "そこから、その継続的な立法機関そのものと、一度の選挙によって構成され次の選挙まで活動する特定期の会議体を表す。",
+            "location_hint": "「＃コアイメージ」第1段落"
+          },
+          {
+            "id": "CR-002-A2",
+            "exact_quote": "一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。",
+            "location_hint": "語義2「【日本語訳・定義】」第1文"
+          },
+          {
+            "id": "CR-002-A3",
+            "exact_quote": "イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。",
+            "location_hint": "語義2「【語法・注意】」第2文"
+          }
+        ]
+      },
+      {
+        "id": "CR-003",
+        "location": "コアイメージ／語義2の日本語訳・定義／語義2のコロケーション",
+        "severity": "medium",
+        "description": "語義2を一度の選挙で確定した「特定の議員構成」と繰り返し説明しており、任期中の議員交代や非選挙の構成員を含む議会に誤って一般化され得る。",
+        "reason": "「現在の選挙で構成され、活動中の議会期または議員構成を指す。」という説明は、まず「現在の選挙」が進行中の選挙のようで不自然であり、さらに Parliament の構成員が一度の選挙で固定されるとの理解を誘う。実際には任期中にも補欠選挙、辞職、離党、任命などで構成は変わり得るうえ、二院制の Parliament では全構成員が同じ総選挙で選ばれるとは限らない。この語義の同一性を支えるのは完全に不変の顔ぶれではなく、特定回としての制度的な存続期間である。",
+        "suggested_direction": "「直近の総選挙を起点として成立した特定回の Parliament／その存続期間」と表現し、議員の顔ぶれが任期中ずっと不変であることや全員が同じ選挙で選ばれることは含意しないと分かるようにする。",
+        "scope_anchors": [
+          {
+            "id": "CR-003-A1",
+            "exact_quote": "・ある選挙後に成立し、次の選挙まで存続する具体的な構成・期間 → 「一議会期、特定期の議会」（語義2）",
+            "location_hint": "「＃コアイメージ」語義2の箇条書き"
+          },
+          {
+            "id": "CR-003-A2",
+            "exact_quote": "一度の総選挙後に成立した議会が、次の選挙や解散まで同じ制度上の単位として存続する期間、またはその期間に活動する特定の議員構成を指す。",
+            "location_hint": "語義2「【日本語訳・定義】」第1文"
+          },
+          {
+            "id": "CR-003-A3",
+            "exact_quote": "現在の選挙で構成され、活動中の議会期または議員構成を指す。",
+            "location_hint": "語義2「the current parliament」の用途"
+          }
+        ]
+      }
+    ],
+    "evidence_checks": [],
+    "source_inventory_results": [
+      {
+        "id": "U-001",
+        "source_fact_ids": [
+          "F-001",
+          "F-007",
+          "F-012",
+          "F-016"
+        ],
+        "canonical_statement": "Parliament denotes a representative legislative institution or its assembled membership.",
+        "disposition": "included",
+        "rationale": "This is the principal modern sense and anchors sense 1."
+      },
+      {
+        "id": "U-002",
+        "source_fact_ids": [
+          "F-002",
+          "F-003",
+          "F-014"
+        ],
+        "canonical_statement": "Parliament has countable common-noun uses and capitalized institutional uses with characteristic zero-article frames.",
+        "disposition": "included",
+        "rationale": "The distinction is essential for article use and capitalization."
+      },
+      {
+        "id": "U-003",
+        "source_fact_ids": [
+          "F-004"
+        ],
+        "canonical_statement": "Hung parliament means a parliament without a party holding an overall majority.",
+        "disposition": "included",
+        "rationale": "This is a frequent and opaque political collocation."
+      },
+      {
+        "id": "U-004",
+        "source_fact_ids": [
+          "F-005",
+          "F-009",
+          "F-015"
+        ],
+        "canonical_statement": "The standard British and American pronunciations are three-syllable forms differing primarily in post-vocalic r.",
+        "disposition": "included",
+        "rationale": "This supports the learner pronunciation note while not denying the recorded /lj/ variant."
+      },
+      {
+        "id": "U-005",
+        "source_fact_ids": [
+          "F-006",
+          "F-022",
+          "F-023"
+        ],
+        "canonical_statement": "Parliament comes from a French word for speaking, consultation, or conference, based on parler.",
+        "disposition": "included",
+        "rationale": "This directly explains the semantic development."
+      },
+      {
+        "id": "U-006",
+        "source_fact_ids": [
+          "F-011",
+          "F-024"
+        ],
+        "canonical_statement": "The modern internal ia spelling reflects Medieval Latin influence.",
+        "disposition": "included",
+        "rationale": "This explains the mismatch between spelling and ordinary pronunciation."
+      },
+      {
+        "id": "U-007",
+        "source_fact_ids": [
+          "F-008"
+        ],
+        "canonical_statement": "Parliament has an older formal-conference or medieval-council use.",
+        "disposition": "excluded",
+        "rationale": "The historical source sense is retained in etymology but does not warrant a modern learner sense block."
+      },
+      {
+        "id": "U-008",
+        "source_fact_ids": [
+          "F-010"
+        ],
+        "canonical_statement": "Parliament historically named certain French courts before 1789.",
+        "disposition": "excluded",
+        "rationale": "This obsolete foreign-historical homographic use has little current learner value and is not part of the modern core."
+      },
+      {
+        "id": "U-009",
+        "source_fact_ids": [
+          "F-013",
+          "F-018"
+        ],
+        "canonical_statement": "A particular parliament can denote the election-to-election body and period.",
+        "disposition": "included",
+        "rationale": "This distinct countable sense requires its own sense block."
+      },
+      {
+        "id": "U-010",
+        "source_fact_ids": [
+          "F-017"
+        ],
+        "canonical_statement": "Parliamentary is the adjective for parliament, parliamentary government, and parliamentary procedure.",
+        "disposition": "included",
+        "rationale": "This is the principal productive derivative."
+      },
+      {
+        "id": "U-011",
+        "source_fact_ids": [
+          "F-019"
+        ],
+        "canonical_statement": "A Parliament can contain multiple shorter sessions.",
+        "disposition": "included",
+        "rationale": "The contrast prevents confusion between Parliament and session."
+      },
+      {
+        "id": "U-012",
+        "source_fact_ids": [
+          "F-020"
+        ],
+        "canonical_statement": "Dissolution ends a particular Parliament, unlike the end of an individual session.",
+        "disposition": "included",
+        "rationale": "This supports the key institutional contrast in sense 2."
+      },
+      {
+        "id": "U-013",
+        "source_fact_ids": [
+          "F-021"
+        ],
+        "canonical_statement": "The current UK maximum Parliament term is five years.",
+        "disposition": "excluded",
+        "rationale": "This jurisdiction-specific maximum is not generalized or used as a lexical relation in the article."
+      }
+    ]
+  },
+  "response_template": {
+    "decision": null,
+    "blockers": [],
+    "notes": [],
+    "target_results": [
+      {
+        "id": "pronunciation:001",
+        "status": null,
+        "notes": "",
+        "target_id": "pronunciation:001"
+      },
+      {
+        "id": "etymology:001",
+        "status": null,
+        "notes": "",
+        "target_id": "etymology:001"
+      },
+      {
+        "id": "word_formation:001",
+        "status": null,
+        "notes": "",
+        "target_id": "word_formation:001"
+      },
+      {
+        "id": "core_image:001",
+        "status": null,
+        "notes": "",
+        "target_id": "core_image:001"
+      },
+      {
+        "id": "core_image:002",
+        "status": null,
+        "notes": "",
+        "target_id": "core_image:002"
+      },
+      {
+        "id": "core_image:003",
+        "status": null,
+        "notes": "",
+        "target_id": "core_image:003"
+      },
+      {
+        "id": "sense_boundary:001",
+        "status": null,
+        "notes": "",
+        "target_id": "sense_boundary:001"
+      },
+      {
+        "id": "definition:001",
+        "status": null,
+        "notes": "",
+        "target_id": "definition:001"
+      },
+      {
+        "id": "frequency:001",
+        "status": null,
+        "notes": "",
+        "target_id": "frequency:001"
+      },
+      {
+        "id": "register:001",
+        "status": null,
+        "notes": "",
+        "target_id": "register:001"
+      },
+      {
+        "id": "grammar_pattern:001",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:001"
+      },
+      {
+        "id": "collocation:001",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:001"
+      },
+      {
+        "id": "collocation:002",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:002"
+      },
+      {
+        "id": "collocation:003",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:003"
+      },
+      {
+        "id": "collocation:004",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:004"
+      },
+      {
+        "id": "collocation:005",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:005"
+      },
+      {
+        "id": "usage_note:001",
+        "status": null,
+        "notes": "",
+        "target_id": "usage_note:001"
+      },
+      {
+        "id": "synonym:001",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:001"
+      },
+      {
+        "id": "synonym:002",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:002"
+      },
+      {
+        "id": "synonym:003",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:003"
+      },
+      {
+        "id": "sense_boundary:002",
+        "status": null,
+        "notes": "",
+        "target_id": "sense_boundary:002"
+      },
+      {
+        "id": "definition:002",
+        "status": null,
+        "notes": "",
+        "target_id": "definition:002"
+      },
+      {
+        "id": "frequency:002",
+        "status": null,
+        "notes": "",
+        "target_id": "frequency:002"
+      },
+      {
+        "id": "register:002",
+        "status": null,
+        "notes": "",
+        "target_id": "register:002"
+      },
+      {
+        "id": "grammar_pattern:002",
+        "status": null,
+        "notes": "",
+        "target_id": "grammar_pattern:002"
+      },
+      {
+        "id": "collocation:006",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:006"
+      },
+      {
+        "id": "collocation:007",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:007"
+      },
+      {
+        "id": "collocation:008",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:008"
+      },
+      {
+        "id": "collocation:009",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:009"
+      },
+      {
+        "id": "collocation:010",
+        "status": null,
+        "notes": "",
+        "target_id": "collocation:010"
+      },
+      {
+        "id": "usage_note:002",
+        "status": null,
+        "notes": "",
+        "target_id": "usage_note:002"
+      },
+      {
+        "id": "synonym:004",
+        "status": null,
+        "notes": "",
+        "target_id": "synonym:004"
+      }
+    ],
+    "relation_results": [
+      {
+        "id": "risk_sense_pair:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "risk_sense_pair:001"
+      },
+      {
+        "id": "example_translation:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:001"
+      },
+      {
+        "id": "example_translation:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:002"
+      },
+      {
+        "id": "example_translation:003",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:003"
+      },
+      {
+        "id": "example_translation:004",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:004"
+      },
+      {
+        "id": "example_translation:005",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:005"
+      },
+      {
+        "id": "example_translation:006",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:006"
+      },
+      {
+        "id": "example_translation:007",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:007"
+      },
+      {
+        "id": "example_translation:008",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:008"
+      },
+      {
+        "id": "example_translation:009",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:009"
+      },
+      {
+        "id": "example_translation:010",
+        "status": null,
+        "notes": "",
+        "relation_id": "example_translation:010"
+      },
+      {
+        "id": "sense_definition_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "sense_definition_consistency:001"
+      },
+      {
+        "id": "definition_usage_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_usage_consistency:001"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_lexical_relation_consistency:001"
+      },
+      {
+        "id": "pattern_example_coverage:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:001"
+      },
+      {
+        "id": "sense_definition_consistency:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "sense_definition_consistency:002"
+      },
+      {
+        "id": "definition_usage_consistency:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_usage_consistency:002"
+      },
+      {
+        "id": "definition_lexical_relation_consistency:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "definition_lexical_relation_consistency:002"
+      },
+      {
+        "id": "pattern_example_coverage:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "pattern_example_coverage:002"
+      },
+      {
+        "id": "core_inventory_consistency:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "core_inventory_consistency:001"
+      },
+      {
+        "id": "core_sense_mapping:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "core_sense_mapping:001"
+      },
+      {
+        "id": "core_sense_mapping:002",
+        "status": null,
+        "notes": "",
+        "relation_id": "core_sense_mapping:002"
+      },
+      {
+        "id": "article_learning_risk:001",
+        "status": null,
+        "notes": "",
+        "relation_id": "article_learning_risk:001"
+      }
+    ],
+    "normal_candidate_results": [],
+    "blind_candidate_results": [
+      {
+        "id": "IC-01",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-01-A1",
+          "IC-01-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-01-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-01-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-02",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-02-A1",
+          "IC-02-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-02-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-02-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-03",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-03-A1",
+          "IC-03-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-03-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-03-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-04",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-04-A1",
+          "IC-04-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-04-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-04-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-05",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-05-A1"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-05-A1",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-06",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-06-A1",
+          "IC-06-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-06-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-06-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-07",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-07-A1",
+          "IC-07-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-07-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-07-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-08",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-08-A1",
+          "IC-08-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-08-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-08-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-09",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-09-A1"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-09-A1",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-10",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-10-A1",
+          "IC-10-A2"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-10-A1",
+            "status": null,
+            "notes": ""
+          },
+          {
+            "id": "IC-10-A2",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      },
+      {
+        "id": "IC-11",
+        "status": null,
+        "notes": "",
+        "assertion_ids": [
+          "IC-11-A1"
+        ],
+        "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+        "assertion_results": [
+          {
+            "id": "IC-11-A1",
+            "status": null,
+            "notes": ""
+          }
+        ]
+      }
+    ],
+    "finding_results": [
+      {
+        "id": "normal-sense-structure-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-frame-relation-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-example-attribution-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-example-attribution-002",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-qualification-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-002",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-003",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-004",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-005",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-006",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-007",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-008",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-009",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-010",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-011",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "normal-evidence-012",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "CR-001",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "CR-002",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "CR-003",
+        "status": null,
+        "notes": ""
+      }
+    ],
+    "evidence_checks": [],
+    "source_inventory_results": [
+      {
+        "id": "U-001",
+        "status": null,
+        "notes": "",
+        "union_id": "U-001"
+      },
+      {
+        "id": "U-002",
+        "status": null,
+        "notes": "",
+        "union_id": "U-002"
+      },
+      {
+        "id": "U-003",
+        "status": null,
+        "notes": "",
+        "union_id": "U-003"
+      },
+      {
+        "id": "U-004",
+        "status": null,
+        "notes": "",
+        "union_id": "U-004"
+      },
+      {
+        "id": "U-005",
+        "status": null,
+        "notes": "",
+        "union_id": "U-005"
+      },
+      {
+        "id": "U-006",
+        "status": null,
+        "notes": "",
+        "union_id": "U-006"
+      },
+      {
+        "id": "U-007",
+        "status": null,
+        "notes": "",
+        "union_id": "U-007"
+      },
+      {
+        "id": "U-008",
+        "status": null,
+        "notes": "",
+        "union_id": "U-008"
+      },
+      {
+        "id": "U-009",
+        "status": null,
+        "notes": "",
+        "union_id": "U-009"
+      },
+      {
+        "id": "U-010",
+        "status": null,
+        "notes": "",
+        "union_id": "U-010"
+      },
+      {
+        "id": "U-011",
+        "status": null,
+        "notes": "",
+        "union_id": "U-011"
+      },
+      {
+        "id": "U-012",
+        "status": null,
+        "notes": "",
+        "union_id": "U-012"
+      },
+      {
+        "id": "U-013",
+        "status": null,
+        "notes": "",
+        "union_id": "U-013"
+      }
+    ],
+    "checker_recheck_results": [
+      {
+        "id": "translation",
+        "pass_id": "translation",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "sense-structure",
+        "pass_id": "sense-structure",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "frame-relation",
+        "pass_id": "frame-relation",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "example-attribution",
+        "pass_id": "example-attribution",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "qualification",
+        "pass_id": "qualification",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "pronunciation",
+        "pass_id": "pronunciation",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "evidence",
+        "pass_id": "evidence",
+        "status": null,
+        "notes": ""
+      }
+    ],
+    "chronology_results": [
+      {
+        "id": "body_hash_binding",
+        "check_id": "body_hash_binding",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "cold_and_normal_before_revision",
+        "check_id": "cold_and_normal_before_revision",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "revision_before_final_blind",
+        "check_id": "revision_before_final_blind",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "final_blind_before_seal",
+        "check_id": "final_blind_before_seal",
+        "status": null,
+        "notes": ""
+      },
+      {
+        "id": "post_blind_completion",
+        "check_id": "post_blind_completion",
+        "status": null,
+        "notes": ""
+      }
+    ]
+  },
+  "input_bindings": {
+    "pass_findings.json": "1da3a2a7e30419c664069efdfa439c052e2dac4da458f6c8cc4b8fdea63a0881",
+    "cold_review.json": "a15c64ef052ea806a00f2b035b077b48b3079aaee0205f7618b192e2bbf54675",
+    "final_blind.json": "70c6bcdaf78bc84ff5fd615538fab8d320141e47a677297e71247f80b6c7135e",
+    "blind_seal.json": "e324a865efcccdcbb7080084fcff727ed9d424ddaf1dc069525f29bb1a475513",
+    "pre_blind_resolution.json": "3a51f8f23303406ea8b4465eb9b62b535217a3eb3383ea3ad1e240b3b72eafa3",
+    "pre_blind_revision.json": "506989a8747e46d475727aeddb646c4ee847ed414d76532d4d5ca9b66bf2085e",
+    "checker_recheck_manifest.json": "d1b94f9b320649f5e116ee751b7427c0b8abd4149994d1ea241f7bc8cb84ade2",
+    "post_blind_resolution.json": "deee826eaecc0a5487c6d811c14b1e6927d1e4c2ed18ef5467ae5fe76f02c715",
+    "post_blind_verification.json": "f75984bbe6dc83b3c13fb80bacd7c728e05099916457b9b9114b8af9b23ec3fa",
+    "targeted_adjudications.json": "af5af9b139e61078d584a712c70a3ce285f0407cc7fa63836b8195db9ea9f3b6",
+    "source_inventory.json": "086f2c8f78eec2db32a4553a02a467f7f403f31970febe07f5eca16afb8dcfa8",
+    "resolutions.json": "aaec306196eb8e883d453138a5e1448f43218a5565634d7d66fee9447405ba54",
+    "check_passes/checker_passes.stage1.json": "03b5a6654eed5a7cadf1585c49bfbf98dacac715cd9a9c60e5cb361fad1d3261",
+    "check_passes/evidence.json": "58af5e566453800dbf21d54a7776492ffca763c4be86ed1bcd90591168116a47",
+    "check_passes/evidence.request.json": "dd74f9d3490c198d93d06c366a831017065fd080e6488eaba236c2a5f85474c0",
+    "check_passes/example-attribution.alignment-key.json": "32f0fdbf47fee614f225b685f32af429be6d44cba2ff1dd4daa3071e2b83cd8d",
+    "check_passes/example-attribution.blind-record.json": "be1620ccf00eed4718fba96ae4c156e11267d6ddcf125b839613ab0340335f69",
+    "check_passes/example-attribution.json": "91825c54e76e157acc658bfb3b806dcc0fd0213a8cf82522b47d13941f6c7130",
+    "check_passes/example-attribution.request.json": "21447d4b3938ba76b187d9c7327d951ec2e9e931d9876bb3f14f9ec4966518e7",
+    "check_passes/frame-relation.antonym-axis.adjudication-record.json": "05c47eeb5788321c5a9c40f439bcc9d25b5f13340c97be11c619298ecdedbcdf",
+    "check_passes/frame-relation.antonym-axis.alignment-key.json": "b1f888fa2b2f42fadbe7c1c9d29d0ad644efb75a493e73c4907783a822f27788",
+    "check_passes/frame-relation.antonym-axis.blind-record.json": "f41eada4327879a4a2926fef24327408409c29953f31a4ded4a7d8f5e2b45ee3",
+    "check_passes/frame-relation.antonym-axis.stage2.request.json": "599e42a8cd66e0459c5ca79cdfa28b8202f6acf41cfbfe1d2855176506249f0e",
+    "check_passes/frame-relation.request.json": "96a385fb127a1e4660b79e6b16c30b640d89e89c9fa04ae7b8093c8128ac80dc",
+    "check_passes/input_snapshot.json": "13128f2bdc2bc558ed5f2bd4552981c83571f83f536e2a8960e736c450ad5076",
+    "check_passes/pronunciation.json": "38d12edfba3876460c3ddd281d5456e2b190341cac6bf2d02de1d469ad10c25b",
+    "check_passes/pronunciation.request.json": "9ea8af71c6a572c099f7c07379d20004835382a8660d43bccaaa7bd0e09c241a",
+    "check_passes/qualification.json": "a668e0d9f91dcbf31d8b2b5479763eb175087b28ab7ef633cc46f2657bb592b8",
+    "check_passes/qualification.request.json": "8fe796ce26878d9372a6f11799dcc67745f225dec73d6cb99419f2461f502906",
+    "check_passes/sense-structure.json": "52fa49f31f40c0bf1a5b271495e6087df86afb666e739a9d2041847e02d034dd",
+    "check_passes/sense-structure.request.json": "c3c971da2e4292555bef0e3d0c729d39da884580cec805e445de3ca4203adda5",
+    "check_passes/translation.json": "2ea6b55c29f4ce5fb052b8e7dca4ec2b5dd5e4324b06b7f411776f76f0490e80",
+    "check_passes/translation.request.json": "e885e12a0a2907500bd9f16fbe5ebfa327e3005df1236f006a21109d88baf179"
+  },
+  "contract_version": "review_preflight_v1"
+}
+```

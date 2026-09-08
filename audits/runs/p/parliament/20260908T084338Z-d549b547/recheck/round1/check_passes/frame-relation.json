@@ -1,0 +1,42 @@
+{
+  "pass_id": "frame-relation",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/recheck_frame"
+  },
+  "antonym_axis_blind_record": {
+    "schema_version": "antonym_axis_blind_record_v1",
+    "pass_id": "frame-relation",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/recheck_frame"
+    },
+    "recorded_at": "2026-09-08T09:55:21.854554Z",
+    "input_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+    "blind_request_sha256": "e8be22b31db7af0d247daba4f5e6976b275105b1e2fc0545d366d26411be5e0c",
+    "axes": []
+  },
+  "antonym_axis_adjudication_record": {
+    "schema_version": "antonym_axis_adjudication_record_v1",
+    "pass_id": "frame-relation",
+    "input_body_sha256": "797a78c2b4f55cca9e4e29f3aeefe32b4984e7a9a0174ecea012e3b134becb35",
+    "stage2_request_sha256": "a83653b2d0fa24d23052af113332d22855c505f3ef97527018515b8049951110",
+    "blind_record_sha256": "c60aabfb2c8d94f197abb3f602102a82a8a7beb36be691af867f74c06b5dff62",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/recheck_frame"
+    },
+    "adjudications": [],
+    "frame_findings": [],
+    "unrouted_observations": []
+  },
+  "aligned_at": "2026-09-08T09:59:54.897472+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}

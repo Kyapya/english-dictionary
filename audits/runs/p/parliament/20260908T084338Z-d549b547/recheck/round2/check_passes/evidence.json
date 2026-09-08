@@ -1,0 +1,63 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/recheck2_evidence",
+    "declared_model": "gpt-5",
+    "mode": "handoff",
+    "ingested_by": "human"
+  },
+  "input_body_sha256": "6b0819554952c90b2fe65496fac81733c340fd4bd9f43527676c8b964a1d986c",
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "pronunciation",
+        "line_start": 15,
+        "line_end": 15,
+        "exact_quote": "英米とも地域や話者による差がある。"
+      },
+      "severity": "blocking",
+      "rationale": "C-004の根拠F-005とF-015は英米の標準IPAを示し、F-009は別発音 /-lyə-/ も記録するが、その変異をイギリス英語とアメリカ英語の双方に分布する地域差・話者差として位置づけてはいない。したがって「英米とも」という適用範囲は固定された根拠から直接支持されない。",
+      "suggested_direction": "英米双方に及ぶという範囲指定を外し、提示した形が標準形で別発音も記録される、という根拠内の限定に直す。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 19,
+        "line_end": 19,
+        "exact_quote": "もともとの「話し合う場」から、公的事項を審議する会議、さらに立法を担う代表者の機関という意味へ発達した。"
+      },
+      "severity": "blocking",
+      "rationale": "C-005のF-006、F-022、F-023は中英語・古フランス語の系譜と speaking／consultation／conference／assembly の初期義を支持するが、「公的事項を審議する会議」を経て「立法を担う代表者の機関」へ進んだという段階的な意味変化そのものは記述していない。現代語義の資料を含めても、この歴史的経路を直接示す既存のsupportはない。",
+      "suggested_direction": "固定根拠が明示する語源と初期義までに限定するか、段階的な意味発達を直接記述する根拠へリンクする。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 70,
+        "line_end": 70,
+        "exact_quote": "この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。選挙や解散で区切られる特定回の Parliament は語義2で扱う。"
+      },
+      "severity": "blocking",
+      "rationale": "usage_note:001に結び付くC-002のsupport（F-002、F-003、F-014）は大文字の制度用法、無冠詞フレーム、可算性を支持するだけで、継続制度と選挙・解散で区切られる特定回との語義境界を支持しない。F-007やF-013/F-018に相当する内容は固定context内に存在するが、この対象claimへの既存リンクには含まれていない。",
+      "suggested_direction": "usage_note:001を継続制度のF-007と特定回・期間のF-013/F-018に対応するclaimへ結び直す。"
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "個々の議員の顔ぶれが不変だという意味ではない。"
+      },
+      "severity": "blocking",
+      "rationale": "definition:002に結び付くC-007のF-013/F-018は選挙間の議会・期間を、C-009のF-019は複数sessionを含むことを支持するが、同一Parliamentの存続中に構成員が変わり得るという主張は扱っていない。固定されたfactsのどれにもこの否定的境界主張への直接支持がない。",
+      "suggested_direction": "この一文を削るか、議員交代があっても同一Parliamentが存続することを直接説明する根拠へリンクする。"
+    }
+  ],
+  "unresolved_issues": [],
+  "notes": "固定されたevidence_contextだけを用い、source-firstの探索・coverage・fact収集は再実施していない。request内では本文hashがevidence_contextのhashと一致し、source inventoryおよびsource-first artifactのhash参照も存在する。10 claim unitsの既存supportと対象本文の直接対応を監査した。"
+}

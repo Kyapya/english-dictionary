@@ -1,0 +1,25 @@
+{
+  "schema_version": "recheck_resolution_v1",
+  "stage": "checker_recheck",
+  "round": 8,
+  "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+  "output_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566",
+  "resolutions": [
+    {
+      "id": "round8-qualification-001",
+      "finding_id": "round8-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Added normally to both Parliament/session statements, matching fixed F-019 and avoiding the false implication that every Parliament must contain at least two sessions.",
+      "resolved_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566"
+    },
+    {
+      "id": "round8-evidence-001",
+      "finding_id": "round8-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed the unsupported comparative regional distribution qualifier from the definition and register line, retaining only the directly supported political and parliamentary-system domain.",
+      "resolved_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566"
+    }
+  ]
+}

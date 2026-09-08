@@ -1,0 +1,173 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/check_evidence"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "etymology",
+        "line_start": 20,
+        "line_end": 20,
+        "exact_quote": "同語源語には `parley`「交渉、会談」があり、派生語には `parliamentary`「議会の」がある。"
+      },
+      "severity": "blocking",
+      "rationale": "C-005 links etymology:002 to F-006/F-022/F-023, which establish the French parlement/parler lineage of parliament but do not state that parley is cognate or give its meaning. F-017 supports parliamentary elsewhere, but it is not linked to this etymology target and does not repair the parley claim.",
+      "evidence_link_ids": ["F-006", "F-022", "F-023"],
+      "suggested_direction": "Remove the parley assertion or attach a fixed etymological fact that directly establishes the relationship; map the parliamentary statement to its directly applicable derived-form evidence."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "word_formation",
+        "line_start": 24,
+        "line_end": 24,
+        "exact_quote": "・parliamentary：`parliament` に接尾辞 `-ary` が付いた形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。"
+      },
+      "severity": "blocking",
+      "rationale": "C-008/F-017 directly supports the adjective's parliament-related, parliamentary-government, and procedure senses, but the supplied fact does not analyze parliamentary synchronically as parliament plus the suffix -ary. The linked evidence therefore supports the glosses but not the stated word-formation mechanism.",
+      "evidence_link_ids": ["F-017"],
+      "suggested_direction": "Limit the target to the evidenced adjective meanings, or add a morphology source that directly supports the suffix analysis."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 36,
+        "line_end": 36,
+        "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。"
+      },
+      "severity": "blocking",
+      "rationale": "C-001's F-001/F-007/F-012/F-016 support a representative lawmaking institution or its assembled membership, and F-012 also mentions deciding policy. They do not directly support the added budget-review and government-oversight functions or the full cross-country claims about formal names, composition, powers, and Japanese translation choice. The linked target is broader than the recorded evidence.",
+      "evidence_link_ids": ["F-001", "F-007", "F-012", "F-016"],
+      "suggested_direction": "Restrict the definition to the evidenced representative legislative body/membership and policy role, or add directly applicable institutional evidence for each additional function and cross-country qualification."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 38,
+        "line_end": 40,
+        "exact_quote": "【頻度】〈8/10〉  \n\n【レジスター/領域】標準。政治、法律、報道で高頻度。特にイギリスや議会制を採る国・地域について用いられ、アメリカ合衆国の連邦議会の通常の固有名は `Congress` である。"
+      },
+      "severity": "blocking",
+      "rationale": "No claim unit or recorded fact supplies the 8/10 scale, comparative frequency in politics/law/news, distribution across parliamentary systems, or the Congress naming contrast. Sense and UK-frame evidence cannot directly support these frequency and regional-distribution assertions.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the frequency/register block until a calibrated corpus or directly applicable register and regional facts are linked, or remove the unsupported quantitative and distributional claims."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 42,
+        "line_end": 42,
+        "exact_quote": "【文法パターン】普通名詞では `a/the + parliament`、`the parliament of 〈国・地域〉` の形を取る。イギリスの国会などを固有の制度として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われることがある。一方、名称を前から限定する `the UK Parliament` や、普通名詞として国を特定する `the French parliament` では定冠詞を用いる。集合名詞としての動詞の単複は、地域差と、機関を一体として見るか構成員を意識するかによって変わり得る。"
+      },
+      "severity": "blocking",
+      "rationale": "C-002/F-002/F-003/F-014 directly establish a capitalized institutional use, countability/plural, and the zero-article in Parliament, before Parliament, and elected to Parliament frames. They do not document the complete parliament of country, the UK Parliament, or the French parliament article patterns, nor regional and notional variation in collective agreement. The target mixes supported and unsupported full-frame claims.",
+      "evidence_link_ids": ["F-002", "F-003", "F-014"],
+      "suggested_direction": "Retain the directly attested zero-article frames and countability distinction; add construction-level evidence for the remaining article patterns and collective agreement or omit them."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 86,
+        "line_end": 86,
+        "exact_quote": "【語法・注意】`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。"
+      },
+      "severity": "blocking",
+      "rationale": "C-002 routes its capitalization/article evidence (F-002/F-003/F-014) to usage_note:001, but this target instead asserts parliament-government institutional separation, building-name distinctions, and the official or conventional names Diet/National Diet and Congress. None of those claims is contained in the linked facts, so the existing claim-to-target relationship is not applicable.",
+      "evidence_link_ids": ["F-002", "F-003", "F-014"],
+      "suggested_direction": "Remove usage_note:001 from C-002 and hold these institutional/naming contrasts until directly applicable fixed facts are linked."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 93,
+        "line_end": 93,
+        "exact_quote": "違い: `legislature` は制度名にかかわらず立法機関を機能面から指す一般語である。`parliament` は特定の政治制度・正式名称と結びつき、審議機関やその議員集団としての側面も表しやすい。"
+      },
+      "severity": "blocking",
+      "rationale": "The evidence context contains no lexical-relation claim or fact for legislature. Facts defining parliament itself do not directly establish the asserted contrast in scope, naming, or discourse tendency, and no evidence link exists for the accompanying frequency rating either.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold the legislature comparison and rating until comparative lexical evidence is recorded and linked."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 98,
+        "line_end": 114,
+        "exact_quote": "定義: 代表者が集まる会議または立法機関。特に大文字の `Congress` はアメリカ合衆国の連邦議会を指す。"
+      },
+      "severity": "blocking",
+      "rationale": "No source fact or claim unit in the fixed context defines congress, assembly, or diet or supports their asserted frequencies and contrasts with parliament. The quoted Congress definition is representative of this unsupported lexical-relations block; the same evidence-link absence applies to the assembly and diet rows through line 114.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Remove these lexical-relation rows or add fixed, directly applicable dictionary or official-name facts and separate evidence links for each definition, contrast, and frequency claim."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frequency_register",
+        "line_start": 122,
+        "line_end": 124,
+        "exact_quote": "【頻度】〈5/10〉  \n\n【レジスター/領域】政治・行政の形式的用法。特にイギリスおよび関連する議会制度の説明・報道で用いる。"
+      },
+      "severity": "blocking",
+      "rationale": "C-007/F-013/F-018 establish the election-to-election sense but do not supply a 5/10 frequency measure, characterize it as formal political/administrative usage, or establish its distribution in reporting and related parliamentary systems.",
+      "evidence_link_ids": ["F-013", "F-018"],
+      "suggested_direction": "Limit the block to the supported election-to-election meaning, or add calibrated frequency and register evidence for the stated scope."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "frames",
+        "line_start": 126,
+        "line_end": 126,
+        "exact_quote": "【文法パターン】可算名詞として `the current/present/next parliament`、`the first/second year of a parliament` の形を取る。イギリスの特定の議会期を制度名として扱うときは `the current Parliament`、`the next Parliament` のように大文字で書かれることもある。"
+      },
+      "severity": "blocking",
+      "rationale": "F-013/F-018 support the period sense and F-014 supports general countability, but no supplied fact documents these complete modifier/article frames or the lowercase-versus-capitalized variants. Semantic compatibility with the sense does not directly evidence the constructions.",
+      "evidence_link_ids": ["F-013", "F-014", "F-018"],
+      "suggested_direction": "Hold the full frame inventory until construction-level attestations are recorded, or restrict the description to the evidenced countable period sense."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "usage_notes",
+        "line_start": 150,
+        "line_end": 150,
+        "exact_quote": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。"
+      },
+      "severity": "blocking",
+      "rationale": "C-009/F-019 supports division into roughly year-long sessions, and C-010/F-020 supports dissolution ending a Parliament. Neither fact states that prorogation ends a session. The supplied evidence therefore does not directly support the complete three-way Parliament/session/prorogation contrast in the linked target.",
+      "evidence_link_ids": ["F-019", "F-020"],
+      "suggested_direction": "Remove the prorogation clause or add an official fixed fact directly defining prorogation's relation to a session."
+    },
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "lexical_relations",
+        "line_start": 154,
+        "line_end": 157,
+        "exact_quote": "・legislative term  \n定義: 選挙された立法機関または議員が職務を行う一定の期間。  \n頻度: 〈4/10〉  \n違い: `legislative term` は制度を問わず期間を説明する一般的な句である。`parliament` のこの語義は、特定の議会制度における選挙から次の選挙・解散までの会議体と期間を一語で表せる。"
+      },
+      "severity": "blocking",
+      "rationale": "The fixed evidence defines the election-to-election parliament sense but contains no fact for legislative term, its 4/10 frequency, or the asserted cross-system contrast. The relation cannot be derived as direct evidence from F-013/F-018 alone.",
+      "evidence_link_ids": [],
+      "suggested_direction": "Hold this relation until a directly applicable lexical source and calibrated frequency evidence are recorded and linked."
+    }
+  ],
+  "notes": [
+    "The normalized request and evidence-context schema/reference checks returned no errors. The source inventory digest, source-first audit digest, canonical article-body hash, and rebuilt evidence context all matched the packet values.",
+    "No source exploration, inventory-coverage reassessment, or independent dictionary-correctness review was performed. Findings are limited to whether the fixed source facts and claim-to-target links directly support the article claims."
+  ]
+}

@@ -1,0 +1,57 @@
+# Independent review handoff
+
+Stage: `final_blind`
+
+The response must be one JSON object matching the supplied review schema. Create it in a separate model session; do not use the generation session.
+
+## Prompt
+
+# final_blind_prompt_v2
+
+## 目的
+
+修正後の記事だけから、通常チェックや既知findingに誘導されない独立棚卸しと問題探索を行う。入力境界は `scripts/run_word.py` が強制し、この実行には生成文脈、`ACTIVE.md`、queue、監査記録、checker/cold finding、resolutionを渡さない。
+
+## 独立棚卸し
+
+- 見出し語から主要な品詞、語義、派生・転換、専門用法、完全な統語フレームをゼロベースで候補化し、各候補を `included` または `excluded` と判定する。
+- 本文の語義番号や分類を候補集合の出発点にしない。
+- candidate の `frame` は、同じ語義に属することを独立に確認できる粒度にする。表面上同じ見出し語だからという理由だけで、意味中心や主体側／対象側の境界が異なり得る複数フレームを `;` などで一候補へ束ねない。
+- 複数フレームを一candidateにまとめる場合は、それらが同じ中心意味・同じ意味役割・同じ包含／除外境界を共有することを先に確認する。どれか1つでも別語義へ自然に帰属し得るなら、そのフレームだけを独立candidateへ分離する。
+- とくに、同じ語義ブロック内に置かれた文法パターン・コロケーション・定着フレームのうち、別語義の定義にも自然に適合し得るものは高リスク項目として個別に再分類する。候補全体の代表ラベルが正しいことを理由に、内部の1フレームの帰属を自動的に正しいとみなさない。
+- この粒度規則は新しいレビュー段階を追加するものではない。既存のfinal blind棚卸しの中で、語義混入リスクのあるフレームだけを必要な粒度に分ける。
+- 各候補には、正しい意味関係が本文全体で満たすべき境界・作用方向・包含/除外関係・一般化範囲を、1件以上の原子的 `semantic_assertions` として付ける。
+- 記事全体を横断し、事実・語法・発音、例文/訳、語義境界、主要語義/構文の欠落・過剰、内部矛盾、根拠との不整合になり得る問題を `article_findings` に記録する。
+- 同一candidateにまとめた複数フレームのうち1つだけが assertion を満たさない場合も、candidate全体をpassさせず、そのフレームを分離して `article_findings` の対象として扱う。
+
+## 出力
+
+`final_blind_review_v2` JSONとして、`provisional_decision`、`independent_candidates`、`article_findings` を出力する。candidateは `id`、`surface_form`、`frame`、`meaning`、`disposition`、`rationale`、1件以上の `semantic_assertions` を持つ。assertionは `id`、`statement`、`polarity` (`must_hold | must_not_hold`)、`scope` を持つ。findingは `id`、`taxonomy_id`、`location`、`severity`、`rationale` を持つ。
+
+本文側target ID、根拠リンクID、通常側candidate ID、resolution IDは出力しない。暫定合否は、内容上のblocker候補があれば `reject`、なければ `pass` とする。
+
+出力契約: candidateの `rationale` には、そのcandidateの `surface_form`、`frame`、`meaning` のいずれか1つを全文そのまま含め、固有の理由を述べる。findingには本文から抜き出した `scope_anchors`（各要素に `id`、`exact_quote`、`location_hint`）を付け、`rationale` に少なくとも1つの `exact_quote` 全文と、その引用に即した理由を含める。
+
+
+## Input packet
+
+```json
+{
+  "stage": "final_blind",
+  "entry_body": "\n＃発音記号\n\n発音: イギリス英語 /ˈpɑːləmənt/、アメリカ英語 /ˈpɑːrləmənt/。綴りの `lia` を一音ずつ読まず、通常は3音節で発音する。ここに示した標準的な発音では、イギリス英語形は第1音節の母音後の /r/ を発音せず、アメリカ英語形は発音する。辞書には /-ljə-/ を含む別発音も記録される。  \n\n＃語源\n\n中英語 *parlement* を経て、古フランス語 *parlement*「話すこと」にさかのぼり、その基になった *parler* は「話す」を意味する。英語では1300年ごろに「相談、正式な会議、集会」を表した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。  \n\n＃語形成\n\n・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  \n\n＃コアイメージ\n\n`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。  \n・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）  \n・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）  \n\n＃意味・用法・関連表現\n\n1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\n\n【日本語訳・定義】法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。  \n\n【頻度】〈8/10〉  \n\n【レジスター/領域】政治・立法。  \n\n【文法パターン】普通名詞では可算名詞で、単数・複数を区別する。イギリスの国会などを制度名として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われる。  \n\n【コロケーション】\n\n・`a member of parliament`  \n用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。  \n例: She was elected as a member of parliament for the first time last year.  \n訳: 彼女は昨年、初めて国会議員に選出された。  \n\n・`be elected to Parliament`  \n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。  \n例: He was elected to Parliament at the age of thirty-two.  \n訳: 彼は32歳で国会議員に選出された。  \n\n・`a bill before Parliament`  \n用途: 法案が国会に提出され、審議対象となっていることを表す。  \n例: The bill currently before Parliament would strengthen consumer protections.  \n訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。  \n\n・`Parliament passes 〈a bill/an Act〉`  \n用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。  \n例: The Scottish Parliament passed the bill after months of debate.  \n訳: スコットランド議会は数か月にわたる審議の末、その法案を可決した。  \n\n・`an Act of Parliament`  \n用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。  \n例: The requirement was introduced by an Act of Parliament.  \n訳: その要件は議会制定法によって導入された。  \n\n【語法・注意】この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。  \n\n【類義語】\n\n・legislative body  \n定義: 法律を制定する権限を持つ機関。  \n頻度: 〈5/10〉  \n違い: `legislative body` は立法機能を説明する一般的な句である。`parliament` は特定の制度的な会議体を一語で指す。  \n例: The proposal must be approved by the legislative body.  \n訳: その提案は立法機関の承認を受けなければならない。  \n\n・lawmaking body  \n定義: 法律を制定・改正する機関。  \n頻度: 〈4/10〉  \n違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。  \n例: The lawmaking body debated the proposed change.  \n訳: その立法機関は提案された変更を審議した。  \n\n・representative assembly  \n定義: 政治的代表者から成る会議体。  \n頻度: 〈4/10〉  \n違い: `representative assembly` は構成員が代表者である点を前面に出す説明的な句である。`parliament` はその会議体が立法制度として確立していることを示す。  \n例: The representative assembly met to debate the policy.  \n訳: 代表者会議はその政策を審議するために開かれた。  \n\n2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\n\n【日本語訳・定義】総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。  \n\n【頻度】〈3/10〉  \n\n【レジスター/領域】政治・議会制度。  \n\n【文法パターン】可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。  \n\n【コロケーション】\n\n・`a hung parliament`  \n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。  \n例: The general election produced a hung parliament.  \n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。  \n\n・`the current parliament`  \n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。  \n例: The proposal is unlikely to pass during the current parliament.  \n訳: その提案が今議会期中に可決される可能性は低い。  \n\n・`the next parliament`  \n用途: 次の総選挙後に成立する特定回の議会またはその期間を指す。  \n例: The committee recommended that the issue be reconsidered in the next parliament.  \n訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。  \n\n・`the lifetime of a parliament`  \n用途: ある特定回の議会が成立してから終了するまでの存続期間を指す。  \n例: Major constitutional reform may take the lifetime of a parliament to complete.  \n訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。  \n\n・`during this parliament`  \n用途: この特定回の議会が存続している間に、という期間を表す。  \n例: The government promised to introduce the measure during this parliament.  \n訳: 政府は今議会期中にその措置を導入すると約束した。  \n\n【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。  \n\n【類義語】\n\n・legislative body  \n定義: 立法機関として見た、特定回の議会体。  \n頻度: 〈5/10〉  \n違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。  \n例: The newly elected legislative body met for the first time.  \n訳: 新たに選ばれた立法機関が初めて開会した。  ",
+  "_output_metadata": {
+    "schema_version": "final_blind_v2",
+    "stage": "final_blind",
+    "run_id": "blind-parliament-20260908T084338Z-d549b547",
+    "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+    "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+    "input_artifacts": [
+      "entry_body",
+      "final_blind_prompt"
+    ],
+    "audit_visible": false
+  },
+  "contract_version": "review_preflight_v1"
+}
+```

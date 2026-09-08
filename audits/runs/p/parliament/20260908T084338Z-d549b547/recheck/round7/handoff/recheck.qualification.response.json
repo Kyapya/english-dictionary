@@ -1,0 +1,39 @@
+{
+  "pass_id": "qualification",
+  "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/r7_qualification",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "【日本語訳・定義】主にイギリスの用法で、総選挙後に成立し、次の総選挙まで同じ回として存続する特定の議会、またはその期間を指す。一つの `Parliament` は複数の `session` に分かれる。  "
+      },
+      "severity": "blocking",
+      "rationale": "イギリスでは dissolution が Parliament の正式な終了であり、総選挙はその後に行われるため、「次の総選挙まで同じ回として存続する」という無限定の存続境界は制度上の反例を持つ。本文自身も使用上の注意で dissolution が Parliament 自体を終えるとしており、中心定義はその範囲に合わせる必要がある。",
+      "evidence_link_ids": [],
+      "suggested_direction": "特定回の Parliament は総選挙後に成立して dissolution まで存続するとし、期間表現を選挙周期の概略として残す場合も dissolution が厳密な終点であることが中心定義から分かる形に限定する。"
+    },
+    {
+      "taxonomy_id": "technical_terminology_conventionality",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 108,
+        "line_end": 108,
+        "exact_quote": "用途: 総選挙後に成立した特定回の議会で、単独で全体の過半数を持つ政党がないことを表す。主にイギリス英語の政治報道で用いる。  "
+      },
+      "severity": "blocking",
+      "rationale": "イギリスの `hung Parliament` で判定対象になるのは二院を一括した「全体」ではなく、政府の信任に関わる House of Commons の議席である。現状の説明では専門的に重要な院の範囲が欠け、上院を含む Parliament 全体の過半数と誤読できる。",
+      "evidence_link_ids": [],
+      "suggested_direction": "総選挙の結果、単独政党が House of Commons（庶民院）で議席の過半数を得ていない状態、と対象の院を明記する。"
+    }
+  ],
+  "unrouted_observations": []
+}

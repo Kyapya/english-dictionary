@@ -1,0 +1,29 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "evidence",
+  "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/r7_evidence",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "evidence_claim_mismatch",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 108,
+        "line_end": 108,
+        "exact_quote": "主にイギリス英語の政治報道で用いる。"
+      },
+      "severity": "blocking",
+      "rationale": "C-003/F-004 directly supports the British-English label and the no-overall-majority condition, but the supplied fact and source detail do not support the narrower register claim that the expression is used mainly in political reporting.",
+      "evidence_link_ids": [
+        "C-003",
+        "F-004"
+      ],
+      "suggested_direction": "Remove the unsupported restriction to political reporting (for example, retain only the supported British-English label), or bind a source fact that directly establishes that register limitation."
+    }
+  ]
+}

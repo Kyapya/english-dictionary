@@ -1,0 +1,124 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/r9_example"
+  },
+  "recorded_at": "2026-09-08T12:27:35.226810+00:00",
+  "input_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566",
+  "blind_request_sha256": "f0118e7f260a75830fc56332dba39f299c5762e92a878109a3c4a19627ff9422",
+  "attributions": [
+    {
+      "example_id": "ex-447bba879352",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "an Act of Parliament"
+      ],
+      "rationale": "`an Act of Parliament` is the fixed legal-source construction in which parliament names the lawmaking institution. The competing sense:002 reading of one election-bounded parliament or its duration is not selected by this institutional title."
+    },
+    {
+      "example_id": "ex-48d71dd14701",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "in the next parliament"
+      ],
+      "rationale": "`in the next parliament` places reconsideration within the succeeding parliament/term, so the election-bounded instance or period in sense:002 is selected. The continuing institution in sense:001 is not naturally a successive `next` interval."
+    },
+    {
+      "example_id": "ex-7afc9382757c",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "before Parliament"
+      ],
+      "rationale": "`before Parliament` presents Parliament as the institutional forum considering a bill, which fits sense:001. It does not construe parliament as the election-to-election period required for the temporal reading in sense:002."
+    },
+    {
+      "example_id": "ex-9ca26202bf98",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "The general election produced a hung parliament"
+      ],
+      "rationale": "`The general election produced a hung parliament` makes the referent the particular body constituted by that election, uniquely matching sense:002. The continuing institution of sense:001 is not newly produced by a single general election."
+    },
+    {
+      "example_id": "ex-87745f79f55e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "during this parliament"
+      ],
+      "rationale": "`during this parliament` uses parliament as a bounded interval in which the measure is to be introduced, selecting sense:002. Sense:001 denotes the institution rather than an interval licensed by `during this`."
+    },
+    {
+      "example_id": "ex-4789f347c9d0",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "elected to Parliament"
+      ],
+      "rationale": "`elected to Parliament` treats Parliament as the institution to which someone gains membership, selecting sense:001. The sentence does not quantify, date, or otherwise identify the election-bounded body or duration of sense:002."
+    },
+    {
+      "example_id": "ex-4f736d997993",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "during the current parliament"
+      ],
+      "rationale": "`during the current parliament` explicitly supplies a present bounded span for passage of the proposal, so sense:002 is the natural attribution. The continuing institution in sense:001 is not itself a `current` term-length interval."
+    },
+    {
+      "example_id": "ex-48de200c128e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a member of parliament"
+      ],
+      "rationale": "`a member of parliament` is the institutional-membership construction, making parliament the body to which the elected person belongs under sense:001. It does not use parliament for the term or succession unit of sense:002."
+    },
+    {
+      "example_id": "ex-6701ac957a10",
+      "classification": "ambiguous",
+      "candidate_sense_ids": [
+        "sense:001",
+        "sense:002"
+      ],
+      "discriminating_terms": [],
+      "rationale": "`Parliament passed the bill after months of debate.` naturally permits both the institution/collective actor in sense:001 and the particular elected parliamentary body in sense:002. The sentence contains no election, term, deictic, or other expression that forces one reading over the other."
+    },
+    {
+      "example_id": "ex-13c0919b02e5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "the lifetime of a parliament"
+      ],
+      "rationale": "`the lifetime of a parliament` directly measures the finite duration of one parliament, selecting sense:002. The continuing lawmaking institution in sense:001 is not the bounded lifetime unit described here."
+    }
+  ]
+}

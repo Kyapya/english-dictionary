@@ -1,0 +1,27 @@
+{
+  "pass_id": "qualification",
+  "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/r8_qualification"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "一つの `Parliament` は複数の `session` に分かれる。"
+      },
+      "severity": "blocking",
+      "rationale": "`一つの` と `複数` の組み合わせは、すべての Parliament が必ず二つ以上の session を持つという絶対条件になる。しかし、早期の解散などで一つの session だけで終わる Parliament もあり得るため、期間義と session の区別を示す説明として適用範囲が広すぎる。同じ絶対表現は語法欄でも反復されている。",
+      "evidence_link_ids": [],
+      "suggested_direction": "`通常は複数の session に分かれる` など、複数 session が典型であって必須条件ではないことが分かる表現にし、語法欄の反復箇所も同様に限定する。"
+    }
+  ],
+  "unrouted_observations": [],
+  "learning_delta": []
+}

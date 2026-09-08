@@ -1,0 +1,352 @@
+{
+  "schema_version": "checker_pass_fan_in_v2",
+  "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "pass_outputs": [
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "translation",
+      "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r7_translation"
+      },
+      "findings": [],
+      "unrouted_observations": [],
+      "learning_delta": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "sense-structure",
+      "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r7_sense"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "cross_section_internal_contradiction",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 97,
+            "line_end": 97,
+            "exact_quote": "【日本語訳・定義】主にイギリスの用法で、総選挙後に成立し、次の総選挙まで同じ回として存続する特定の議会、またはその期間を指す。一つの `Parliament` は複数の `session` に分かれる。  "
+          },
+          "severity": "blocking",
+          "rationale": "語義2の定義とコアイメージは当該 Parliament が「次の総選挙まで」存続するとしている一方、同じ語義の語法欄は `dissolution` がその Parliament 自体を終えるとしており、期間の終点が一致しない。解散から次の総選挙までの間を現定義が当該 Parliament の期間に含めるのか否かを一貫して説明できず、語義2の中心範囲に関わる矛盾である。",
+          "evidence_link_ids": [],
+          "suggested_direction": "語義2の終点を解散に合わせ、コアイメージ・見出し・定義・語法を、総選挙後に成立して解散まで存続する特定回の議会体／その期間という一貫した範囲へ限定する。"
+        }
+      ],
+      "learning_delta": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r7_frame",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+        "blind_request_sha256": "ddc7b0d5668956db731eb4dd405ba20a20cd7f7da8fb68443abba465afae180b",
+        "recorded_at": "2026-09-08T21:02:50+09:00",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r7_frame",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+        "stage2_request_sha256": "bdcf997a72791da0d58dfb9aa073e763f0f1dc88aba480eda28f448900351ac7",
+        "blind_record_sha256": "92f80273a7777fa2656871f086bcbb7595bc4d8a528441a97d3387a5a50ec112",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r7_frame",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T12:07:18.507675+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r7_example"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+        "blind_request_sha256": "878097f86927ac335e4e31b1a6adfadfff4a6f3629f636865027518c515f8714",
+        "recorded_at": "2026-09-08T21:03:28+09:00",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/r7_example"
+        },
+        "attributions": [
+          {
+            "example_id": "ex-c26c35717722",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "elected to Parliament"
+            ],
+            "rationale": "`elected to Parliament` では Parliament が選出先となる制度的機関を表すため sense:001 が自然である。競合する sense:002 は選挙から選挙までの特定回または期間を表すが、この `to Parliament` という補部には回・期間の限定がなく、その読みを成立させない。"
+          },
+          {
+            "example_id": "ex-e70beb3e708d",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Parliament passed the bill"
+            ],
+            "rationale": "`Parliament passed the bill` は法案を可決する行為主体として議会機関・議員集団を主語にしており sense:001 に属する。sense:002 の期間読みでは法案を可決する主体になれず、特定回を示す限定表現もないため、競合語義はこの主語用法を説明しない。"
+          },
+          {
+            "example_id": "ex-92dcf1e70006",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "an Act of Parliament"
+            ],
+            "rationale": "`an Act of Parliament` は立法機関の権限により制定された法律という制度的関係を表すので sense:001 である。sense:002 の一議会期を表すなら特定回を示す限定が必要であり、ここでの `of Parliament` は期間ではなく制定主体を示している。"
+          },
+          {
+            "example_id": "ex-f1d58211803e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "a member of parliament"
+            ],
+            "rationale": "`a member of parliament` は議会という制度的機関への所属・役職を表し、sense:001 に一意に対応する。sense:002 は特定回やその存続期間を数える語義だが、この無限定の `of parliament` は特定の回への所属ではなく一般的な議員資格を表す。"
+          },
+          {
+            "example_id": "ex-2ff687680774",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "before Parliament"
+            ],
+            "rationale": "`before Parliament` は法案が制度的な審議機関の前に付されていることを示す固定的な場所・審議主体の関係であり sense:001 である。sense:002 の選挙区切りの回・期間なら `during this parliament` のような時間関係が必要で、`before` の目的語としての読みにはならない。"
+          },
+          {
+            "example_id": "ex-39a616b1396a",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "produced a hung parliament"
+            ],
+            "rationale": "`produced a hung parliament` は総選挙の結果として成立した一つの具体的な議会体を結果目的語にしており sense:002 に一意に対応する。sense:001 の継続的な制度機関そのものは選挙によって新たに `produced` される対象ではないため、この結果構文では競合しない。"
+          },
+          {
+            "example_id": "ex-b504873b9616",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during this parliament"
+            ],
+            "rationale": "`during this parliament` は this で特定された議会期を時間範囲として用いるので sense:002 である。sense:001 の恒常的な制度機関は `during` の時間区間にならず、この前置詞句の期間役割が競合語義を排除する。"
+          },
+          {
+            "example_id": "ex-a88d988862d5",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "the lifetime of a parliament"
+            ],
+            "rationale": "`the lifetime of a parliament` は始まりと終わりを持つ一回の議会の存続期間を明示し、sense:002 を選ぶ。sense:001 の継続的制度を指すなら通常このように可算の `a parliament` の lifetime として一議会期を測らないため、制度一般の読みは成立しない。"
+          },
+          {
+            "example_id": "ex-916a197623fd",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during the current parliament"
+            ],
+            "rationale": "`during the current parliament` は current で現行の一回を限定し、その議会期内という時間範囲を示すため sense:002 である。sense:001 の制度機関は current な期間として区切られず、ここでの `during` と組み合わさる期間解釈を担えない。"
+          },
+          {
+            "example_id": "ex-3461f7bc91e3",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "in the next parliament"
+            ],
+            "rationale": "`in the next parliament` は next によって現在の回に続く別の議会期を順序づけているため sense:002 に属する。sense:001 の同一制度機関は次の機関へ交替するものとして数えられず、この `next` と `in` の時間的な読みを説明できない。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T12:06:34.130489+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r7_qualification",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 97,
+            "line_end": 97,
+            "exact_quote": "【日本語訳・定義】主にイギリスの用法で、総選挙後に成立し、次の総選挙まで同じ回として存続する特定の議会、またはその期間を指す。一つの `Parliament` は複数の `session` に分かれる。  "
+          },
+          "severity": "blocking",
+          "rationale": "イギリスでは dissolution が Parliament の正式な終了であり、総選挙はその後に行われるため、「次の総選挙まで同じ回として存続する」という無限定の存続境界は制度上の反例を持つ。本文自身も使用上の注意で dissolution が Parliament 自体を終えるとしており、中心定義はその範囲に合わせる必要がある。",
+          "evidence_link_ids": [],
+          "suggested_direction": "特定回の Parliament は総選挙後に成立して dissolution まで存続するとし、期間表現を選挙周期の概略として残す場合も dissolution が厳密な終点であることが中心定義から分かる形に限定する。"
+        },
+        {
+          "taxonomy_id": "technical_terminology_conventionality",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 108,
+            "line_end": 108,
+            "exact_quote": "用途: 総選挙後に成立した特定回の議会で、単独で全体の過半数を持つ政党がないことを表す。主にイギリス英語の政治報道で用いる。  "
+          },
+          "severity": "blocking",
+          "rationale": "イギリスの `hung Parliament` で判定対象になるのは二院を一括した「全体」ではなく、政府の信任に関わる House of Commons の議席である。現状の説明では専門的に重要な院の範囲が欠け、上院を含む Parliament 全体の過半数と誤読できる。",
+          "evidence_link_ids": [],
+          "suggested_direction": "総選挙の結果、単独政党が House of Commons（庶民院）で議席の過半数を得ていない状態、と対象の院を明記する。"
+        }
+      ],
+      "unrouted_observations": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r7_pronunciation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": [],
+      "learning_delta": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "evidence",
+      "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r7_evidence",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "collocations_examples",
+            "line_start": 108,
+            "line_end": 108,
+            "exact_quote": "主にイギリス英語の政治報道で用いる。"
+          },
+          "severity": "blocking",
+          "rationale": "C-003/F-004 directly supports the British-English label and the no-overall-majority condition, but the supplied fact and source detail do not support the narrower register claim that the expression is used mainly in political reporting.",
+          "evidence_link_ids": [
+            "C-003",
+            "F-004"
+          ],
+          "suggested_direction": "Remove the unsupported restriction to political reporting (for example, retain only the supported British-English label), or bind a source fact that directly establishes that register limitation."
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r7_translation"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r7_sense"
+    },
+    "frame-relation": {
+      "agent_id": "/root/parliament_word/r7_frame",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r7_example"
+    },
+    "qualification": {
+      "agent_id": "/root/parliament_word/r7_qualification",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "pronunciation": {
+      "agent_id": "/root/parliament_word/r7_pronunciation",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "evidence": {
+      "agent_id": "/root/parliament_word/r7_evidence",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    }
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/check_sense_structure"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "sense_boundary_overlap",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 36,
+        "line_end": 36,
+        "exact_quote": "【日本語訳・定義】国または地域の代表者が集まり、法律の制定・改正、政策や予算の審議、政府の監督などを行う制度的な機関、またはその構成員全体を指す。国によって正式名称・構成・権限が異なるため、日本語訳は文脈に応じて「議会」「国会」などとなる。特定国の正式または慣用的な機関名として用いる場合は `Parliament` と大文字で始めることがある。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義1が「構成員全体」を無限定に含む一方、語義2も「その期間に活動する特定の議員構成」を含むため、選挙後の現議員集団という同じ指示対象が両語義に入る。現状では `the current parliament` のような用例を、機関・議員集団としての語義1と、選挙で区切られた構成としての語義2のどちらに置くかを中心意味だけでは判定できず、コアイメージが掲げる二枝も一対一対応になっていない。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義1の「構成員全体」は、機関を行為主体として表す通常の集合名詞的用法だと限定する。語義2は選挙・解散で制度的に区切られる特定の Parliament（およびその存続期間）に限定し、単に現在の議員たちを指すだけの用法を含めないよう、見出し・定義・`the current parliament` の説明をそろえて境界を明示する。"
+    }
+  ]
+}

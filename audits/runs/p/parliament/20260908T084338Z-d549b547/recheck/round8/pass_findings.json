@@ -1,0 +1,332 @@
+{
+  "schema_version": "checker_pass_fan_in_v2",
+  "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+  "pass_outputs": [
+    {
+      "pass_id": "translation",
+      "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+      "findings": [],
+      "unrouted_observations": [],
+      "summary": "The routed definitions, collocation examples, and lexical-relation examples preserve semantic roles, polarity, modality, temporal scope, and sense direction in their Japanese renderings.",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r8_translation"
+      }
+    },
+    {
+      "pass_id": "sense-structure",
+      "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r8_sense"
+      },
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "frame-relation",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r8_frame",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "antonym_axis_blind_record": {
+        "schema_version": "antonym_axis_blind_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+        "blind_request_sha256": "0b5a779779d24c7065500f4485389d827a8d482cfff7b9fedbd12671d8c88ba5",
+        "recorded_at": "2026-09-08T21:15:42+09:00",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r8_frame",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "axes": []
+      },
+      "antonym_axis_adjudication_record": {
+        "schema_version": "antonym_axis_adjudication_record_v1",
+        "pass_id": "frame-relation",
+        "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+        "stage2_request_sha256": "90ebb2f99fe81d635a8816e1f9b015e4e4b8a7c6582226394d26e678804840d8",
+        "blind_record_sha256": "2ba54a9fe11879be430ab59d5f8591499366f57f724e6fdaa43855152b4dd7d5",
+        "reviewer": {
+          "agent_id": "/root/parliament_word/r8_frame",
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human"
+        },
+        "adjudications": [],
+        "frame_findings": [],
+        "unrouted_observations": []
+      },
+      "aligned_at": "2026-09-08T12:20:04.036973+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "example-attribution",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r8_example"
+      },
+      "blind_attribution_record": {
+        "schema_version": "example_attribution_blind_record_v1",
+        "pass_id": "example-attribution",
+        "reviewer": {
+          "mode": "handoff",
+          "declared_model": "gpt-5",
+          "ingested_by": "human",
+          "agent_id": "/root/parliament_word/r8_example"
+        },
+        "recorded_at": "2026-09-08T21:16:09+09:00",
+        "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+        "blind_request_sha256": "c428c2879f87d6c208f5ca71cb98cff3385644e2299d33f6d4009b5d2f0560b9",
+        "attributions": [
+          {
+            "example_id": "ex-8606ff71ae12",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "member of parliament",
+              "elected as a member of parliament"
+            ],
+            "rationale": "`member of parliament` では parliament が所属先である制度的な議会を表し、sense:001 が最も自然である。sense:002 の特定回・存続期間なら、その回を示す限定表現が必要だが、この例の `elected as a member of parliament` は議員という身分への選出を表す。"
+          },
+          {
+            "example_id": "ex-3865830feb03",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "lifetime of a parliament",
+              "take the lifetime of a parliament"
+            ],
+            "rationale": "`take the lifetime of a parliament` は parliament を長さのある存続期間として明示するため sense:002 に帰属する。継続的な制度・行為主体である sense:001 では、不定冠詞付きの `lifetime of a parliament` が表す一議会期という時間区分を説明できない。"
+          },
+          {
+            "example_id": "ex-a2d3e7d53b64",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "in the next parliament",
+              "next parliament"
+            ],
+            "rationale": "`in the next parliament` は現在の回に続く次の議会期という順序づけられた区分を示すので sense:002 である。sense:001 の恒常的な制度そのものには `next parliament` として次回を区別する読みが成立しにくい。"
+          },
+          {
+            "example_id": "ex-7c1dcefdd192",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "general election produced a hung parliament",
+              "produced a hung parliament"
+            ],
+            "rationale": "`general election produced a hung parliament` は一回の総選挙を原因として、単独過半数のない特定の議会体が成立したという結果を表すため sense:002 が自然である。sense:001 の継続的な制度は、この `produced a hung parliament` という選挙結果として新たに生じる対象ではない。"
+          },
+          {
+            "example_id": "ex-988d496f82e0",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "elected to Parliament"
+            ],
+            "rationale": "`elected to Parliament` は Parliament を選出先・所属先となる制度的機関として用いる固定的な構文であり sense:001 に合う。sense:002 の特定回または期間なら、どの回かを限定する語や期間を表す構文が要るが、この例の parliament にはそれがない。"
+          },
+          {
+            "example_id": "ex-6d5504d30c2f",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Act of Parliament",
+              "an Act of Parliament"
+            ],
+            "rationale": "`an Act of Parliament` では Parliament が法律を制定する制度的な立法機関として機能しており sense:001 に帰属する。sense:002 の特定回・期間を指すなら、その回の限定や時間的な関係が必要だが、`Act of Parliament` は制定主体を示す。"
+          },
+          {
+            "example_id": "ex-8395716f785c",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during the current parliament",
+              "current parliament"
+            ],
+            "rationale": "`during the current parliament` は提案の可決可能性を現在の一議会期という時間範囲に置くため sense:002 である。sense:001 の恒常的な機関では、`current parliament` を期間として during の補部にするこの読みを十分に表せない。"
+          },
+          {
+            "example_id": "ex-0d22cb4cb942",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:002"
+            ],
+            "discriminating_terms": [
+              "during this parliament",
+              "this parliament"
+            ],
+            "rationale": "`during this parliament` は政府の約束をこの特定の議会期のうちに実施するという時間枠を表すので sense:002 に限られる。sense:001 の制度・行為主体の読みでは、during が要求する `this parliament` の存続期間という意味が得られない。"
+          },
+          {
+            "example_id": "ex-c1f9a0f50215",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "before Parliament"
+            ],
+            "rationale": "`before Parliament` は法案が審議主体である議会機関に提出されている関係を表すため sense:001 が自然である。sense:002 の特定回・期間なら election-bounded な回を指す限定が必要だが、この例の前置詞句は機関の前での審議を表す。"
+          },
+          {
+            "example_id": "ex-0914c9474e3e",
+            "classification": "unique",
+            "candidate_sense_ids": [
+              "sense:001"
+            ],
+            "discriminating_terms": [
+              "Parliament passed the bill",
+              "passed the bill"
+            ],
+            "rationale": "`Parliament passed the bill` では Parliament が法案可決という行為の主体となる制度・構成員集合を表すため sense:001 に帰属する。sense:002 の一議会期はこの構文で `passed the bill` の直接の行為主体とはならず、特定回を示す限定もない。"
+          }
+        ]
+      },
+      "aligned_at": "2026-09-08T12:20:04.032959+00:00",
+      "findings": [],
+      "unrouted_observations": []
+    },
+    {
+      "pass_id": "qualification",
+      "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r8_qualification"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "absolute_scope_counterexample",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 97,
+            "line_end": 97,
+            "exact_quote": "一つの `Parliament` は複数の `session` に分かれる。"
+          },
+          "severity": "blocking",
+          "rationale": "`一つの` と `複数` の組み合わせは、すべての Parliament が必ず二つ以上の session を持つという絶対条件になる。しかし、早期の解散などで一つの session だけで終わる Parliament もあり得るため、期間義と session の区別を示す説明として適用範囲が広すぎる。同じ絶対表現は語法欄でも反復されている。",
+          "evidence_link_ids": [],
+          "suggested_direction": "`通常は複数の session に分かれる` など、複数 session が典型であって必須条件ではないことが分かる表現にし、語法欄の反復箇所も同様に限定する。"
+        }
+      ],
+      "unrouted_observations": [],
+      "learning_delta": []
+    },
+    {
+      "schema_version": "check_pass_response_v6",
+      "pass_id": "pronunciation",
+      "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+      "reviewer": {
+        "agent_id": "/root/parliament_word/r7_pronunciation",
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human"
+      },
+      "findings": [],
+      "unrouted_observations": [],
+      "learning_delta": []
+    },
+    {
+      "pass_id": "evidence",
+      "input_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+      "reviewer": {
+        "mode": "handoff",
+        "declared_model": "gpt-5",
+        "ingested_by": "human",
+        "agent_id": "/root/parliament_word/r8_evidence"
+      },
+      "findings": [
+        {
+          "taxonomy_id": "evidence_claim_mismatch",
+          "location": {
+            "section": "sense_structure",
+            "line_start": 97,
+            "line_end": 97,
+            "exact_quote": "【日本語訳・定義】主にイギリスの用法で、総選挙を区切りとして成立する特定回の議会、またはその存続期間を指す。一つの `Parliament` は複数の `session` に分かれる。  "
+          },
+          "severity": "blocking",
+          "rationale": "C-007 に結び付けられた F-013 は選挙間の期間という語義を、F-018 は英国でのその定義を支持するが、いずれも他地域との比較や地域ラベルを提示しておらず、『主にイギリスの用法』という分布上の限定を直接支持しない。英国政府資料に当該用法があることだけでは、その用法が主として英国に限られるとは判定できない。期間の語義と session との区別自体は F-013/F-018/F-019 が支持する。",
+          "evidence_link_ids": [
+            "C-007",
+            "F-013",
+            "F-018"
+          ],
+          "suggested_direction": "固定済み根拠の範囲では地域限定を削除し、総選挙間の特定回・期間という直接支持された内容に限定する。地域限定を残すなら、それを明示する既存の固定根拠へリンクを差し替える。"
+        }
+      ]
+    }
+  ],
+  "checker_reviewers": {
+    "translation": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r8_translation"
+    },
+    "sense-structure": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r8_sense"
+    },
+    "frame-relation": {
+      "agent_id": "/root/parliament_word/r8_frame",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "example-attribution": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r8_example"
+    },
+    "qualification": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r8_qualification"
+    },
+    "pronunciation": {
+      "agent_id": "/root/parliament_word/r7_pronunciation",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "evidence": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r8_evidence"
+    }
+  }
+}

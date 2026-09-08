@@ -1,0 +1,10 @@
+{
+  "schema_version": "targeted_adjudication_v1",
+  "issue_id": "frequency-calibration-conflict",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/frequency_adjudicator"
+  },
+  "decision": "resolved_correct",
+  "rationale": "entry_spec_v5 §頻度 requires an English-wide ten-point encounter-frequency rating for every sense and for the relevant sense of every listed synonym or antonym. It expressly instructs editors to keep the calibration criteria consistent when strict statistical evidence is unavailable. The n/10 values are therefore mandated editorial classifications, not assertions that an exact corpus measurement was observed. Because the supplied facts distinguish the principal modern institutional sense from the less frequent election-to-election sense and identify the relation rows as sense-specific descriptive phrases, the absence of exact corpus counts is not, by itself, grounds to remove the retained ratings. A rating could still require change if it conflicted with the scale or available lexical facts, but neither conflicting review identifies such a calibration inconsistency.",
+  "applicable_scope": "Only the frequency values in the supplied excerpt (sense 1: 8/10; legislative body: 5/10; lawmaking body: 4/10; representative assembly: 4/10; sense 2: 5/10; period between elections: 3/10) and the stated objection that they lack exact corpus support. This ruling does not validate unrelated article content or establish that frequency ratings are immune from review for inconsistent calibration."
+}

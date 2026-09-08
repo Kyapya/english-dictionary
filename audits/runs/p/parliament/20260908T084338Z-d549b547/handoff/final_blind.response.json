@@ -1,0 +1,243 @@
+{
+  "schema_version": "final_blind_review_v2",
+  "stage": "final_blind",
+  "run_id": "blind-parliament-20260908T084338Z-d549b547",
+  "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+  "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/final_blind3",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "recorded_at": "2026-09-08T12:47:27Z",
+  "provisional_decision": "pass",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "parliament",
+      "frame": "parliament / a parliament / the parliament = an enduring national or regional legislature",
+      "meaning": "法律制定と政策審議を担う、制度として継続する議会・国会",
+      "disposition": "included",
+      "rationale": "「法律制定と政策審議を担う、制度として継続する議会・国会」は現代語の中心義であり、本文の語義1、コアイメージ、可算名詞の説明で直接かつ十分に扱われている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-01-A1",
+          "statement": "The referent must be an institutional legislature empowered to deliberate on public policy and legislation.",
+          "polarity": "must_hold",
+          "scope": "core institutional sense"
+        },
+        {
+          "id": "IC-01-A2",
+          "statement": "The enduring institution must not be limited to the term produced by one particular general election.",
+          "polarity": "must_not_hold",
+          "scope": "boundary from a particular elected Parliament"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "Parliament",
+      "frame": "in Parliament / before Parliament = relation to a named legislature used without an article",
+      "meaning": "固有の制度名として無冠詞で用いられる国会・議会",
+      "disposition": "included",
+      "rationale": "「in Parliament / before Parliament = relation to a named legislature used without an article」は、本文の大文字表記と無冠詞用法の説明および法案の用例によって明示されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-02-A1",
+          "statement": "Capitalized articleless Parliament must function as the proper institutional name of the relevant legislature.",
+          "polarity": "must_hold",
+          "scope": "proper-name and articleless institutional uses"
+        },
+        {
+          "id": "IC-02-A2",
+          "statement": "The preposition before in a bill before Parliament must denote submission for legislative consideration, not merely physical position.",
+          "polarity": "must_hold",
+          "scope": "before Parliament frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "Parliament",
+      "frame": "Parliament passes a bill or Act = the legislature construed as a collective institutional agent",
+      "meaning": "議会を、可決・立法を行う構成員の集合的行為主体として表す用法",
+      "disposition": "included",
+      "rationale": "「Parliament passes a bill or Act = the legislature construed as a collective institutional agent」は、制度を行為主体として構成員の集合も含めるという定義と専用のコロケーションで十分に区別されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-03-A1",
+          "statement": "Parliament in subject position must attribute the legislative act to the institution acting through its members and procedures.",
+          "polarity": "must_hold",
+          "scope": "collective-agent subject frame"
+        },
+        {
+          "id": "IC-03-A2",
+          "statement": "This collective-agent use must not be reanalysed as the temporal lifespan of one Parliament.",
+          "polarity": "must_not_hold",
+          "scope": "agent-versus-period boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "parliament / Parliament",
+      "frame": "a member of parliament / Member of Parliament / be elected to Parliament",
+      "meaning": "議会への所属、議員という身分、または議員としての選出先を表す用法",
+      "disposition": "included",
+      "rationale": "「a member of parliament / Member of Parliament / be elected to Parliament」は、一般表現、英国の正式表記、選出構文をそれぞれ例文付きで扱い、to が必要であることも明示している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-04-A1",
+          "statement": "The of relation must identify a person as a member of the legislature.",
+          "polarity": "must_hold",
+          "scope": "member of parliament frame"
+        },
+        {
+          "id": "IC-04-A2",
+          "statement": "In the elected frame, Parliament must be introduced by to as the institution to which the person is elected.",
+          "polarity": "must_hold",
+          "scope": "be elected to Parliament frame"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "Parliament",
+      "frame": "an Act of Parliament",
+      "meaning": "議会の立法手続きを経て成立した制定法を表す定着表現",
+      "disposition": "included",
+      "rationale": "「an Act of Parliament」は独立した定着表現として用途、制度上の意味、例文、訳がそろっており、単なる議会関連物という曖昧な説明にとどまっていない。",
+      "semantic_assertions": [
+        {
+          "id": "IC-05-A1",
+          "statement": "Act of Parliament must denote enacted legislation deriving its status from the parliamentary legislative process.",
+          "polarity": "must_hold",
+          "scope": "Act of Parliament expression"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "parliament",
+      "frame": "a parliament / the current parliament / the next parliament = the particular legislative body constituted after an election",
+      "meaning": "総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体",
+      "disposition": "included",
+      "rationale": "「総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体」は本文の語義2で明示され、継続的制度との境界も注意欄で正しく示されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-06-A1",
+          "statement": "The referent must be the particular constituted legislature associated with one electoral cycle in a system that numbers or distinguishes such Parliaments.",
+          "polarity": "must_hold",
+          "scope": "particular elected-body sense"
+        },
+        {
+          "id": "IC-06-A2",
+          "statement": "A particular Parliament must not be equated with the enduring legislature across successive elections.",
+          "polarity": "must_not_hold",
+          "scope": "particular-body versus institution boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "parliament",
+      "frame": "during this parliament / the lifetime of a parliament / during the current parliament",
+      "meaning": "特定回の議会が成立してから終了するまでの存続期間・一議会期",
+      "disposition": "included",
+      "rationale": "「during this parliament / the lifetime of a parliament / during the current parliament」は時間的な意味役割を持つため議会体候補から分離したが、本文は存続期間を明記し、複数の時間フレームで実証している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-07-A1",
+          "statement": "In temporal adjuncts, parliament must denote the lifespan of one particular constituted Parliament.",
+          "polarity": "must_hold",
+          "scope": "temporal-period sense"
+        },
+        {
+          "id": "IC-07-A2",
+          "statement": "The lifespan of a Parliament must not be treated as identical to one session within it.",
+          "polarity": "must_not_hold",
+          "scope": "Parliament-versus-session boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "hung parliament",
+      "frame": "an election produces a hung parliament",
+      "meaning": "選挙後の議会で単独過半数を持つ政党がない状態またはその議会体",
+      "disposition": "included",
+      "rationale": "「an election produces a hung parliament」は選挙結果による特定議会の構成を表す高頻度の政治用語であり、本文は意味、地域差、自然な例文を備えている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-08-A1",
+          "statement": "A hung parliament must be one in which no single political party has an overall majority.",
+          "polarity": "must_hold",
+          "scope": "hung parliament term"
+        },
+        {
+          "id": "IC-08-A2",
+          "statement": "Hung must not be interpreted as physical suspension or as adjournment of Parliament.",
+          "polarity": "must_not_hold",
+          "scope": "idiomatic boundary of hung parliament"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "parliamentary",
+      "frame": "parliamentary + noun / parliamentary procedure",
+      "meaning": "議会・議会制に関すること、または議事手続きに関することを表す派生形容詞",
+      "disposition": "included",
+      "rationale": "「parliamentary + noun / parliamentary procedure」は主要な派生形容詞と、その一般的な議会関連義および定着した議事手続き義を語形成欄で簡潔に収録している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-09-A1",
+          "statement": "Parliamentary must express a relation to parliament, a parliamentary system, or rules for conducting deliberative business according to context.",
+          "polarity": "must_hold",
+          "scope": "derived adjective"
+        }
+      ]
+    },
+    {
+      "id": "IC-10",
+      "surface_form": "a parliament of owls",
+      "frame": "a parliament of owls",
+      "meaning": "フクロウの群れを表す遊戯的・まれな集合名詞表現",
+      "disposition": "excluded",
+      "rationale": "「a parliament of owls」は辞書的に見かけることのある周辺的な集合名詞句だが、現代の実用的な政治・立法語彙としての主要義ではなく、本文からの除外は妥当である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-10-A1",
+          "statement": "If included, the phrase must denote a group of owls rather than a legislative institution.",
+          "polarity": "must_hold",
+          "scope": "rare collective-noun expression"
+        },
+        {
+          "id": "IC-10-A2",
+          "statement": "This rare playful expression must not be presented as a major modern sense of the headword.",
+          "polarity": "must_not_hold",
+          "scope": "coverage-priority boundary"
+        }
+      ]
+    },
+    {
+      "id": "IC-11",
+      "surface_form": "parliament",
+      "frame": "historical parliament = a formal conference, consultation, or assembly",
+      "meaning": "歴史的・廃用的に、相談、正式会議、または集会を表す用法",
+      "disposition": "excluded",
+      "rationale": "「historical parliament = a formal conference, consultation, or assembly」は語源史としては関係するが現代の主要語義ではなく、本文が語源欄で歴史的意味を示すにとどめた判断は適切である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-11-A1",
+          "statement": "If treated as a lexical sense, this use must be marked historical or obsolete and must denote a formal consultation or assembly rather than necessarily a modern legislature.",
+          "polarity": "must_hold",
+          "scope": "historical sense"
+        }
+      ]
+    }
+  ],
+  "article_findings": []
+}

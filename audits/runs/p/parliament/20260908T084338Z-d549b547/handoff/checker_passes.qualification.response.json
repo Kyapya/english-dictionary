@@ -1,0 +1,26 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "qualification",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/check_qualification"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "absolute_scope_counterexample",
+      "location": {
+        "section": "collocations_examples",
+        "line_start": 52,
+        "line_end": 52,
+        "exact_quote": "用途: 議員として国会に選出されることを表す。ここでの `to` は所属先・到達先を示し、`elect Parliament` とはしない。  "
+      },
+      "severity": "minor",
+      "rationale": "人が議員に選ばれる意味では `elect someone to Parliament` とするという対比自体は正しいが、`elect Parliament` を無限定に不可とすると、選挙民が議会全体を選出する別の他動詞フレーム（例えば `elect a new parliament` や `a parliament was elected`）が反例になる。直前の「ここでの」によって意図は推測できるものの、不可なのが同じ意味で `to` を落とす場合に限られることを明示した方がよい。",
+      "evidence_link_ids": [],
+      "suggested_direction": "「人を主語にして『議員として選出された』と言うこの意味では、`be elected Parliament` ではなく `be elected to Parliament` とする」と適用範囲を限定し、議会全体を目的語に取る `elect a parliament` は別フレームとして成立することを妨げない書き方にする。"
+    }
+  ]
+}

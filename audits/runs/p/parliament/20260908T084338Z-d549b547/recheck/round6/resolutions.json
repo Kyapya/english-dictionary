@@ -1,0 +1,33 @@
+{
+  "schema_version": "recheck_resolution_v1",
+  "stage": "checker_recheck",
+  "round": 6,
+  "input_body_sha256": "44cc67d3f0d044800087345aa0a11df0095c9cb529f157f9bc993eeb9507f570",
+  "output_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "resolutions": [
+    {
+      "id": "round6-example-attribution-001",
+      "finding_id": "round6-example-attribution-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Moved hung parliament to the particular-Parliament sense and rewrote its example as an election result, eliminating the prior cross-sense placement ambiguity.",
+      "resolved_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560"
+    },
+    {
+      "id": "round6-qualification-001",
+      "finding_id": "round6-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed the unqualified claim that every parliament consists of representatives and centered the definition on its legislative function.",
+      "resolved_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560"
+    },
+    {
+      "id": "round6-evidence-001",
+      "finding_id": "round6-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed term of Parliament and replaced it with a sense-specific legislative body relation directly bound to fixed facts F-007/F-016 and the sense contrast in F-013/F-018.",
+      "resolved_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560"
+    }
+  ]
+}

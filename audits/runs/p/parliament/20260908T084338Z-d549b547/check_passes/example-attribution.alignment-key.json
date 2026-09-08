@@ -1,0 +1,153 @@
+{
+  "schema_version": "example_attribution_alignment_key_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "blind_request_sha256": "d38049f14d73141c6ec0138cf92773a011274eb92b9da1664b58ee861c3d1831",
+  "shuffle_seed": "20260908T084338Z-d549b547",
+  "examples": [
+    {
+      "example_id": "ex-0e3c86dc7257",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 48,
+        "line_end": 48,
+        "exact_quote": "例: She was elected as a member of parliament for the first time last year.  "
+      },
+      "source_example_id": "example:001"
+    },
+    {
+      "example_id": "ex-c5f33fd7accb",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 53,
+        "line_end": 53,
+        "exact_quote": "例: He was elected to Parliament at the age of thirty-two.  "
+      },
+      "source_example_id": "example:002"
+    },
+    {
+      "example_id": "ex-4ca26aab1f40",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 58,
+        "line_end": 58,
+        "exact_quote": "例: The bill currently before Parliament would strengthen consumer protections.  "
+      },
+      "source_example_id": "example:003"
+    },
+    {
+      "example_id": "ex-afc5f66e3165",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 63,
+        "line_end": 63,
+        "exact_quote": "例: Parliament passed the bill after months of debate.  "
+      },
+      "source_example_id": "example:004"
+    },
+    {
+      "example_id": "ex-90a5a06d1da9",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 68,
+        "line_end": 68,
+        "exact_quote": "例: The requirement was introduced by an Act of Parliament.  "
+      },
+      "source_example_id": "example:005"
+    },
+    {
+      "example_id": "ex-9538770a763d",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 73,
+        "line_end": 73,
+        "exact_quote": "例: The election resulted in a hung parliament, so the parties began coalition talks.  "
+      },
+      "source_example_id": "example:006"
+    },
+    {
+      "example_id": "ex-601110af9a87",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 78,
+        "line_end": 78,
+        "exact_quote": "例: The prime minister asked the head of state to dissolve Parliament and call an election.  "
+      },
+      "source_example_id": "example:007"
+    },
+    {
+      "example_id": "ex-fa0be8ce5cf8",
+      "assigned_sense_id": "sense:001",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 83,
+        "line_end": 83,
+        "exact_quote": "例: The party won twelve additional seats in Parliament.  "
+      },
+      "source_example_id": "example:008"
+    },
+    {
+      "example_id": "ex-b8cd9fdc0171",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 132,
+        "line_end": 132,
+        "exact_quote": "例: The proposal is unlikely to pass during the current parliament.  "
+      },
+      "source_example_id": "example:009"
+    },
+    {
+      "example_id": "ex-b146a53dd60b",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 137,
+        "line_end": 137,
+        "exact_quote": "例: The committee recommended that the issue be reconsidered in the next parliament.  "
+      },
+      "source_example_id": "example:010"
+    },
+    {
+      "example_id": "ex-ba3af3198ddf",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 142,
+        "line_end": 142,
+        "exact_quote": "例: Major constitutional reform may take the lifetime of a parliament to complete.  "
+      },
+      "source_example_id": "example:011"
+    },
+    {
+      "example_id": "ex-8f5e2ac8d6fa",
+      "assigned_sense_id": "sense:002",
+      "anchor": {
+        "section": "collocations_examples",
+        "line_start": 147,
+        "line_end": 147,
+        "exact_quote": "例: The government promised to introduce the measure during this parliament.  "
+      },
+      "source_example_id": "example:012"
+    }
+  ],
+  "sense_usage_notes": [
+    {
+      "sense_id": "sense:001",
+      "line": 86,
+      "text": "`parliament` は第一に立法・審議を行う機関またはその議員集団を指し、`government`「政府・政権」と同じではない。議院内閣制では両者の構成員が重なることがあるが、制度上の役割は区別される。また、建物を明示するなら `parliament building`、イギリスのウェストミンスター宮殿なら `the Houses of Parliament` とするのが明確であり、`parliament` 自体を常に「国会議事堂」と訳してはならない。国名によって正式名称が異なり、日本の国会は通常 `the Diet` または `the National Diet`、アメリカ合衆国の連邦議会は `Congress` と呼ぶ。"
+    },
+    {
+      "sense_id": "sense:002",
+      "line": 150,
+      "text": "語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は選挙ごとに成立する具体的な構成・期間を数える。`parliament` と `session` も同じではない。イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`prorogation` は一つの会期を終えるのに対し、`dissolution` はその議会期自体を終える。"
+    }
+  ]
+}

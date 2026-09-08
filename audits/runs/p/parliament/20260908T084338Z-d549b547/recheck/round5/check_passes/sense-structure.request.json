@@ -1,0 +1,98 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "2e91f7f7ec02932b0cc482d736a6872be0ab32cd48e6a26e54e8abc94bd3a93e",
+  "input_sections": {
+    "core_image": [
+      {
+        "line": 25,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 27,
+        "text": "`parliament` の中心は、「代表者が集まり、公的事項を審議して決定する制度的な会議体」である。そこから、その継続的な立法機関そのものと、総選挙後に成立して解散などの正式な終了まで活動する特定回の会議体を表す。  "
+      },
+      {
+        "line": 28,
+        "text": "・制度として存在し、法律や政策を審議する代表者の機関 → 「議会、国会」（語義1）  "
+      },
+      {
+        "line": 29,
+        "text": "・ある総選挙後に成立し、制度上の区切りまで存続する特定回の会議体・期間 → 「一議会期、特定期の議会」（語義2）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 33,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団"
+      },
+      {
+        "line": 35,
+        "text": "【日本語訳・定義】代表者から成り、法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。  "
+      },
+      {
+        "line": 100,
+        "text": "2. 【名詞・可算】一議会期、総選挙後に成立した特定回の議会"
+      },
+      {
+        "line": 102,
+        "text": "【日本語訳・定義】主にイギリスの用法で、総選挙後に成立し、解散など制度上の正式な終了まで同じ回として存続する特定の議会、またはその期間を指す。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 33,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団"
+      },
+      {
+        "line": 75,
+        "text": "【語法・注意】この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。選挙や解散で区切られる特定回の Parliament は語義2で扱う。  "
+      },
+      {
+        "line": 100,
+        "text": "2. 【名詞・可算】一議会期、総選挙後に成立した特定回の議会"
+      },
+      {
+        "line": 132,
+        "text": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続し得るが、この語義は制度上区切られた特定回とその期間を数える。次の総選挙は通常、次の Parliament を構成する出来事となる。`parliament` と `session` も同じではなく、イギリスでは一つの `Parliament` が通常、複数の約1年単位の `session` に分かれ、`dissolution` はその Parliament 自体を終える。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "99baae80a6fbda533d653e97d813e669c80de339062934216999330488e1a754",
+  "normalized_input_sha256": "3d0d365b2bf07323aa26e06680f77698555bec02b1161501618c08aeb12ea58f"
+}

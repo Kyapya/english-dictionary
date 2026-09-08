@@ -1,0 +1,114 @@
+{
+  "schema_version": "example_attribution_blind_request_v1",
+  "pass_id": "example-attribution",
+  "taxonomy_ids": [
+    "example_sense_attribution_mismatch"
+  ],
+  "specification": "prompts/check_pass_example_attribution_v6.md",
+  "input_body_sha256": "6b0819554952c90b2fe65496fac81733c340fd4bd9f43527676c8b964a1d986c",
+  "input_sections": {
+    "sense_structure": [
+      {
+        "sense_id": "sense:001",
+        "line": 33,
+        "label": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団",
+        "definition": "代表者から成り、法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。"
+      },
+      {
+        "sense_id": "sense:002",
+        "line": 95,
+        "label": "2. 【名詞・可算】一議会期、総選挙後に成立した特定回の議会",
+        "definition": "総選挙後に成立し、解散など制度上の正式な終了まで同じ回として存続する特定の議会、またはその期間を指す。個々の議員の顔ぶれが不変だという意味ではない。個々の会議や一日ごとの開会ではなく、複数の `session` を含み得る、より大きな単位である。"
+      }
+    ],
+    "collocations_examples": [
+      {
+        "example_id": "ex-9dd1c17e59d0",
+        "example": "The bill currently before Parliament would strengthen consumer protections.",
+        "translation": "現在国会で審議中のその法案は、消費者保護を強化するものだ。"
+      },
+      {
+        "example_id": "ex-27285170b288",
+        "example": "She was elected as a member of parliament for the first time last year.",
+        "translation": "彼女は昨年、初めて国会議員に選出された。"
+      },
+      {
+        "example_id": "ex-9e813a686ac5",
+        "example": "He was elected to Parliament at the age of thirty-two.",
+        "translation": "彼は32歳で国会議員に選出された。"
+      },
+      {
+        "example_id": "ex-e9fe6741c620",
+        "example": "The proposal is unlikely to pass during the current parliament.",
+        "translation": "その提案が今議会期中に可決される可能性は低い。"
+      },
+      {
+        "example_id": "ex-9a21c91ca2f9",
+        "example": "The government promised to introduce the measure during this parliament.",
+        "translation": "政府は今議会期中にその措置を導入すると約束した。"
+      },
+      {
+        "example_id": "ex-1c936f7d5221",
+        "example": "The prime minister asked the head of state to dissolve Parliament, ending its current term, and call an election.",
+        "translation": "首相は国家元首に国会を解散して現在の議会期を終え、選挙を実施するよう求めた。"
+      },
+      {
+        "example_id": "ex-a3da1a7d8376",
+        "example": "The requirement was introduced by an Act of Parliament.",
+        "translation": "その要件は議会制定法によって導入された。"
+      },
+      {
+        "example_id": "ex-23c6c5c66884",
+        "example": "The committee recommended that the issue be reconsidered in the next parliament.",
+        "translation": "委員会は、その問題を次の議会期に再検討するよう勧告した。"
+      },
+      {
+        "example_id": "ex-297474be2d7b",
+        "example": "That general election produced a hung parliament for the new term, so the parties began coalition talks.",
+        "translation": "その総選挙の結果、新しい議会期はどの政党も単独過半数を持たない議会となり、各党は連立協議を始めた。"
+      },
+      {
+        "example_id": "ex-baa86e423fc5",
+        "example": "Major constitutional reform may take the lifetime of a parliament to complete.",
+        "translation": "大規模な憲法改革は、一議会期を通じてようやく完了することもある。"
+      },
+      {
+        "example_id": "ex-00ecdf216a41",
+        "example": "Parliament passed the bill after months of debate.",
+        "translation": "国会は数か月にわたる審議の末、その法案を可決した。"
+      }
+    ]
+  },
+  "blind_protocol": {
+    "stage": 1,
+    "withheld_fields": [
+      "assigned_sense_id",
+      "collocation_heading",
+      "usage_line",
+      "example_group_boundary",
+      "document_order"
+    ],
+    "required_output_schema": "example_attribution_blind_record_v1"
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017",
+  "source_artifact_sha256": "8c3d3e8bc2bb85f93e6c7bd3c0bd855e1fcdc3416d4e6aac306d4c0d2c2683e4",
+  "normalized_input_sha256": "95ed83127f8dd84f4cd2234fec002b0b4c7f705e1b078b3525c59e8c4d188a9b"
+}

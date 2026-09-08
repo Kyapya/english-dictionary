@@ -1,0 +1,98 @@
+{
+  "schema_version": "check_pass_request_v6",
+  "pass_id": "sense-structure",
+  "taxonomy_ids": [
+    "sense_boundary_overlap",
+    "cross_section_internal_contradiction",
+    "compound_component_generalization"
+  ],
+  "specification": "prompts/check_pass_sense_structure_v6.md",
+  "input_body_sha256": "a08112f540fd6fce20733499883274ce834321c50b121db1d151a3166d04b566",
+  "input_sections": {
+    "core_image": [
+      {
+        "line": 25,
+        "text": "＃コアイメージ"
+      },
+      {
+        "line": 27,
+        "text": "`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。  "
+      },
+      {
+        "line": 28,
+        "text": "・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）  "
+      },
+      {
+        "line": 29,
+        "text": "・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）  "
+      }
+    ],
+    "sense_structure": [
+      {
+        "line": 33,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団"
+      },
+      {
+        "line": 35,
+        "text": "【日本語訳・定義】法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。  "
+      },
+      {
+        "line": 95,
+        "text": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期"
+      },
+      {
+        "line": 97,
+        "text": "【日本語訳・定義】総選挙を区切りとして成立する特定回の議会、またはその存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。  "
+      }
+    ],
+    "usage_notes": [
+      {
+        "line": 33,
+        "text": "1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団"
+      },
+      {
+        "line": 70,
+        "text": "【語法・注意】この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。  "
+      },
+      {
+        "line": 95,
+        "text": "2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期"
+      },
+      {
+        "line": 132,
+        "text": "【語法・注意】語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。`dissolution` はその Parliament 自体を終える。  "
+      }
+    ],
+    "word_formation": [
+      {
+        "line": 21,
+        "text": "＃語形成"
+      },
+      {
+        "line": 23,
+        "text": "・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。  "
+      }
+    ]
+  },
+  "finding_schema": {
+    "required": [
+      "taxonomy_id",
+      "location",
+      "severity",
+      "rationale"
+    ],
+    "severity": [
+      "blocking",
+      "minor"
+    ],
+    "location_required": [
+      "section",
+      "line_start",
+      "line_end",
+      "exact_quote"
+    ]
+  },
+  "specification_sha256": "a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c",
+  "source_artifact_sha256": "a9f06db72a45944f14aa3214aed42313c975a9c0686a44ee5414c20e3aa8d1aa",
+  "normalized_input_sha256": "0e5bed65312a4e4f60ae857993880f379e249a68cbf26da821635997f93b0d48"
+}

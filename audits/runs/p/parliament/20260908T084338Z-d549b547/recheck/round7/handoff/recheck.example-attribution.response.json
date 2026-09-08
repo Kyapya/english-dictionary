@@ -1,0 +1,125 @@
+{
+  "schema_version": "example_attribution_blind_record_v1",
+  "pass_id": "example-attribution",
+  "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "blind_request_sha256": "878097f86927ac335e4e31b1a6adfadfff4a6f3629f636865027518c515f8714",
+  "recorded_at": "2026-09-08T21:03:28+09:00",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/r7_example"
+  },
+  "attributions": [
+    {
+      "example_id": "ex-c26c35717722",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "elected to Parliament"
+      ],
+      "rationale": "`elected to Parliament` では Parliament が選出先となる制度的機関を表すため sense:001 が自然である。競合する sense:002 は選挙から選挙までの特定回または期間を表すが、この `to Parliament` という補部には回・期間の限定がなく、その読みを成立させない。"
+    },
+    {
+      "example_id": "ex-e70beb3e708d",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "Parliament passed the bill"
+      ],
+      "rationale": "`Parliament passed the bill` は法案を可決する行為主体として議会機関・議員集団を主語にしており sense:001 に属する。sense:002 の期間読みでは法案を可決する主体になれず、特定回を示す限定表現もないため、競合語義はこの主語用法を説明しない。"
+    },
+    {
+      "example_id": "ex-92dcf1e70006",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "an Act of Parliament"
+      ],
+      "rationale": "`an Act of Parliament` は立法機関の権限により制定された法律という制度的関係を表すので sense:001 である。sense:002 の一議会期を表すなら特定回を示す限定が必要であり、ここでの `of Parliament` は期間ではなく制定主体を示している。"
+    },
+    {
+      "example_id": "ex-f1d58211803e",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "a member of parliament"
+      ],
+      "rationale": "`a member of parliament` は議会という制度的機関への所属・役職を表し、sense:001 に一意に対応する。sense:002 は特定回やその存続期間を数える語義だが、この無限定の `of parliament` は特定の回への所属ではなく一般的な議員資格を表す。"
+    },
+    {
+      "example_id": "ex-2ff687680774",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:001"
+      ],
+      "discriminating_terms": [
+        "before Parliament"
+      ],
+      "rationale": "`before Parliament` は法案が制度的な審議機関の前に付されていることを示す固定的な場所・審議主体の関係であり sense:001 である。sense:002 の選挙区切りの回・期間なら `during this parliament` のような時間関係が必要で、`before` の目的語としての読みにはならない。"
+    },
+    {
+      "example_id": "ex-39a616b1396a",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "produced a hung parliament"
+      ],
+      "rationale": "`produced a hung parliament` は総選挙の結果として成立した一つの具体的な議会体を結果目的語にしており sense:002 に一意に対応する。sense:001 の継続的な制度機関そのものは選挙によって新たに `produced` される対象ではないため、この結果構文では競合しない。"
+    },
+    {
+      "example_id": "ex-b504873b9616",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "during this parliament"
+      ],
+      "rationale": "`during this parliament` は this で特定された議会期を時間範囲として用いるので sense:002 である。sense:001 の恒常的な制度機関は `during` の時間区間にならず、この前置詞句の期間役割が競合語義を排除する。"
+    },
+    {
+      "example_id": "ex-a88d988862d5",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "the lifetime of a parliament"
+      ],
+      "rationale": "`the lifetime of a parliament` は始まりと終わりを持つ一回の議会の存続期間を明示し、sense:002 を選ぶ。sense:001 の継続的制度を指すなら通常このように可算の `a parliament` の lifetime として一議会期を測らないため、制度一般の読みは成立しない。"
+    },
+    {
+      "example_id": "ex-916a197623fd",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "during the current parliament"
+      ],
+      "rationale": "`during the current parliament` は current で現行の一回を限定し、その議会期内という時間範囲を示すため sense:002 である。sense:001 の制度機関は current な期間として区切られず、ここでの `during` と組み合わさる期間解釈を担えない。"
+    },
+    {
+      "example_id": "ex-3461f7bc91e3",
+      "classification": "unique",
+      "candidate_sense_ids": [
+        "sense:002"
+      ],
+      "discriminating_terms": [
+        "in the next parliament"
+      ],
+      "rationale": "`in the next parliament` は next によって現在の回に続く別の議会期を順序づけているため sense:002 に属する。sense:001 の同一制度機関は次の機関へ交替するものとして数えられず、この `next` と `in` の時間的な読みを説明できない。"
+    }
+  ]
+}

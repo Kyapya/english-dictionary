@@ -1,0 +1,27 @@
+{
+  "schema_version": "check_pass_response_v6",
+  "pass_id": "sense-structure",
+  "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/r7_sense"
+  },
+  "findings": [
+    {
+      "taxonomy_id": "cross_section_internal_contradiction",
+      "location": {
+        "section": "sense_structure",
+        "line_start": 97,
+        "line_end": 97,
+        "exact_quote": "【日本語訳・定義】主にイギリスの用法で、総選挙後に成立し、次の総選挙まで同じ回として存続する特定の議会、またはその期間を指す。一つの `Parliament` は複数の `session` に分かれる。  "
+      },
+      "severity": "blocking",
+      "rationale": "語義2の定義とコアイメージは当該 Parliament が「次の総選挙まで」存続するとしている一方、同じ語義の語法欄は `dissolution` がその Parliament 自体を終えるとしており、期間の終点が一致しない。解散から次の総選挙までの間を現定義が当該 Parliament の期間に含めるのか否かを一貫して説明できず、語義2の中心範囲に関わる矛盾である。",
+      "evidence_link_ids": [],
+      "suggested_direction": "語義2の終点を解散に合わせ、コアイメージ・見出し・定義・語法を、総選挙後に成立して解散まで存続する特定回の議会体／その期間という一貫した範囲へ限定する。"
+    }
+  ],
+  "learning_delta": []
+}

@@ -1,0 +1,852 @@
+{
+  "schema_version": "final_review_v2",
+  "stage": "final_review",
+  "run_id": "blind-parliament-20260908T084338Z-d549b547",
+  "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+  "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "prompt_sha256": "5fa21ad0e8186e05e00c459e6201d7062a5d550a003831b40e182ba27c7a625a",
+  "input_artifacts": [
+    "entry_body",
+    "sealed_final_blind",
+    "pre_blind_resolution",
+    "post_blind_resolution",
+    "checker_recheck_manifest",
+    "targeted_adjudications",
+    "final_review_spec"
+  ],
+  "blind_output_sha256": "c561e70a45b4e48a8025424911712d9a7253d835bcf2547718c460054d778c76",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/final_review2",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "recorded_at": "2026-09-08T13:31:44.466Z",
+  "decision": "pass",
+  "blockers": [],
+  "notes": [
+    "All 32 targets, 23 relations, 11 blind candidates and 19 assertions, 20 findings, 13 source-union decisions, 7 checker rows, and 5 chronology checks pass on the bound final body.",
+    "The corrected resolutions.input_body_sha256 and every per-finding resolved_body_sha256 equal the canonical final body hash 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9; resolution coverage and status synchronization are complete.",
+    "No hold, insufficient_evidence, invalid pass, judgment conflict, unchecked scope, unresolved blocker, or unverified revision impact remains."
+  ],
+  "target_results": [
+    {
+      "id": "pronunciation:001",
+      "target_id": "pronunciation:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n発音: イギリス英語 /ˈpɑːləmənt/、アメリカ英語 /ˈpɑːrləmənt/。綴りの `lia` を一音ずつ読まず、通常は3音節で発音する。ここに示した標準的な発音では、イギリス英語形は第1音節の母音後の /r/ を発音せず、アメリカ英語形は発音する。辞書には /-ljə-/ を含む別発音も記録される。\nDisposition: pass. Rationale: The independent IPA sources support the displayed forms, Merriam-Webster supports the variant, and the rhoticity wording is limited to the displayed standard forms."
+    },
+    {
+      "id": "etymology:001",
+      "target_id": "etymology:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n中英語 *parlement* を経て、古フランス語 *parlement*「話すこと」にさかのぼり、その基になった *parler* は「話す」を意味する。英語では1300年ごろに「相談、正式な会議、集会」を表した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。\nDisposition: pass. Rationale: Independent sources support the French lineage, early consultation/assembly meanings, and Medieval-Latin-influenced spelling."
+    },
+    {
+      "id": "word_formation:001",
+      "target_id": "word_formation:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。\nDisposition: pass. Rationale: F-017 supports all stated adjective meanings and the unsupported suffix decomposition is absent."
+    },
+    {
+      "id": "core_image:001",
+      "target_id": "core_image:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。\nDisposition: pass. Rationale: This core_image is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "core_image:002",
+      "target_id": "core_image:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）\nDisposition: pass. Rationale: This core_image is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "core_image:003",
+      "target_id": "core_image:003",
+      "status": "pass",
+      "notes": "Exact target quote:\n・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）\nDisposition: pass. Rationale: This core_image is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "sense_boundary:001",
+      "target_id": "sense_boundary:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\nDisposition: pass. Rationale: This sense_boundary is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "definition:001",
+      "target_id": "definition:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\nDisposition: pass. Rationale: This definition is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "frequency:001",
+      "target_id": "frequency:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n〈8/10〉\nDisposition: pass. Rationale: The score is an editorial encounter-frequency classification rather than a claimed corpus statistic; no unsupported distribution claim remains."
+    },
+    {
+      "id": "register:001",
+      "target_id": "register:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n政治・立法。\nDisposition: pass. Rationale: The narrow political-legislative label matches the institutional sense."
+    },
+    {
+      "id": "grammar_pattern:001",
+      "target_id": "grammar_pattern:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n普通名詞では可算名詞で、単数・複数を区別する。イギリスの国会などを制度名として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われる。\nDisposition: pass. Rationale: This grammar_pattern is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "collocation:001",
+      "target_id": "collocation:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`a member of parliament`\n用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。\n例: She was elected as a member of parliament for the first time last year.\n訳: 彼女は昨年、初めて国会議員に選出された。\nDisposition: pass. Rationale: Membership, UK title capitalization, person, timing, and first-time focus are preserved."
+    },
+    {
+      "id": "collocation:002",
+      "target_id": "collocation:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`be elected to Parliament`\n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。\n例: He was elected to Parliament at the age of thirty-two.\n訳: 彼は32歳で国会議員に選出された。\nDisposition: pass. Rationale: The person-elected-as-member frame correctly requires to without excluding elect a parliament."
+    },
+    {
+      "id": "collocation:003",
+      "target_id": "collocation:003",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`a bill before Parliament`\n用途: 法案が国会に提出され、審議対象となっていることを表す。\n例: The bill currently before Parliament would strengthen consumer protections.\n訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。\nDisposition: pass. Rationale: Before denotes legislative consideration; current status, modality, and consumer-protection effect are preserved."
+    },
+    {
+      "id": "collocation:004",
+      "target_id": "collocation:004",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`Parliament passes 〈a bill/an Act〉`\n用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。\n例: The Scottish Parliament passed the bill after months of debate.\n訳: スコットランド議会は数か月にわたる審議の末、その法案を可決した。\nDisposition: pass. Rationale: Parliament is the collective institutional agent; agent, bill, completed passage, and debate duration are preserved."
+    },
+    {
+      "id": "collocation:005",
+      "target_id": "collocation:005",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`an Act of Parliament`\n用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。\n例: The requirement was introduced by an Act of Parliament.\n訳: その要件は議会制定法によって導入された。\nDisposition: pass. Rationale: Act of Parliament denotes enacted legislation; passive introduction, requirement, and legislative instrument are preserved."
+    },
+    {
+      "id": "usage_note:001",
+      "target_id": "usage_note:001",
+      "status": "pass",
+      "notes": "Exact target quote:\nこの語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。\nDisposition: pass. Rationale: The enduring institution or institution-as-actor collective is explicitly separated from the bounded particular Parliament."
+    },
+    {
+      "id": "synonym:001",
+      "target_id": "synonym:001",
+      "status": "pass",
+      "notes": "Exact target quote:\n・legislative body\n定義: 法律を制定する権限を持つ機関。\n頻度: 〈5/10〉\n違い: `legislative body` は立法機能を説明する一般的な句である。`parliament` は特定の制度的な会議体を一語で指す。\n例: The proposal must be approved by the legislative body.\n訳: その提案は立法機関の承認を受けなければならない。\nDisposition: pass. Rationale: The functional phrase and institutionally named body are compared without claiming full interchangeability."
+    },
+    {
+      "id": "synonym:002",
+      "target_id": "synonym:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n・lawmaking body\n定義: 法律を制定・改正する機関。\n頻度: 〈4/10〉\n違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。\n例: The lawmaking body debated the proposed change.\n訳: その立法機関は提案された変更を審議した。\nDisposition: pass. Rationale: The plain lawmaking-role phrase is distinguished from parliament’s policy-deliberation scope."
+    },
+    {
+      "id": "synonym:003",
+      "target_id": "synonym:003",
+      "status": "pass",
+      "notes": "Exact target quote:\n・representative assembly\n定義: 政治的代表者から成る会議体。\n頻度: 〈4/10〉\n違い: `representative assembly` は構成員が代表者である点を前面に出す説明的な句である。`parliament` はその会議体が立法制度として確立していることを示す。\n例: The representative assembly met to debate the policy.\n訳: 代表者会議はその政策を審議するために開かれた。\nDisposition: pass. Rationale: Representative membership is distinguished from an established legislative institution."
+    },
+    {
+      "id": "sense_boundary:002",
+      "target_id": "sense_boundary:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\nDisposition: pass. Rationale: This sense_boundary is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "definition:002",
+      "target_id": "definition:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\nDisposition: pass. Rationale: Institutional identity and lifespan, not immutable membership, define the sense; multiple sessions are correctly distinguished."
+    },
+    {
+      "id": "frequency:002",
+      "target_id": "frequency:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n〈3/10〉\nDisposition: pass. Rationale: The score is an editorial encounter-frequency classification rather than a claimed corpus statistic and is compatible with this specialist sense."
+    },
+    {
+      "id": "register:002",
+      "target_id": "register:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n政治・議会制度。\nDisposition: pass. Rationale: The political/parliamentary-system label matches the specialist use."
+    },
+    {
+      "id": "grammar_pattern:002",
+      "target_id": "grammar_pattern:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。\nDisposition: pass. Rationale: This grammar_pattern is factually and semantically correct within its stated scope, consistent with the source union and final sense inventory, and introduces no learner-risking overgeneralization."
+    },
+    {
+      "id": "collocation:006",
+      "target_id": "collocation:006",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`a hung parliament`\n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。\n例: The general election produced a hung parliament.\n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。\nDisposition: pass. Rationale: The no-single-party-majority condition, election result, and translation align."
+    },
+    {
+      "id": "collocation:007",
+      "target_id": "collocation:007",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`the current parliament`\n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。\n例: The proposal is unlikely to pass during the current parliament.\n訳: その提案が今議会期中に可決される可能性は低い。\nDisposition: pass. Rationale: The latest-election bounded Parliament, low likelihood, passage event, and temporal scope align."
+    },
+    {
+      "id": "collocation:008",
+      "target_id": "collocation:008",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`the next parliament`\n用途: 次の総選挙後に成立する特定回の議会またはその期間を指す。\n例: The committee recommended that the issue be reconsidered in the next parliament.\n訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。\nDisposition: pass. Rationale: The next-election bounded Parliament, recommendation, reconsideration, and temporal scope align."
+    },
+    {
+      "id": "collocation:009",
+      "target_id": "collocation:009",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`the lifetime of a parliament`\n用途: ある特定回の議会が成立してから終了するまでの存続期間を指す。\n例: Major constitutional reform may take the lifetime of a parliament to complete.\n訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。\nDisposition: pass. Rationale: The lifespan reading, possibility, duration, and completion endpoint align."
+    },
+    {
+      "id": "collocation:010",
+      "target_id": "collocation:010",
+      "status": "pass",
+      "notes": "Exact target quote:\n・`during this parliament`\n用途: この特定回の議会が存続している間に、という期間を表す。\n例: The government promised to introduce the measure during this parliament.\n訳: 政府は今議会期中にその措置を導入すると約束した。\nDisposition: pass. Rationale: The promise, government agent, measure, introduction, and temporal scope align."
+    },
+    {
+      "id": "usage_note:002",
+      "target_id": "usage_note:002",
+      "status": "pass",
+      "notes": "Exact target quote:\n語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\nDisposition: pass. Rationale: The bounded Parliament is separated from the enduring institution and from a session; the UK dissolution claim is properly scoped."
+    },
+    {
+      "id": "synonym:004",
+      "target_id": "synonym:004",
+      "status": "pass",
+      "notes": "Exact target quote:\n・legislative body\n定義: 立法機関として見た、特定回の議会体。\n頻度: 〈5/10〉\n違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。\n例: The newly elected legislative body met for the first time.\n訳: 新たに選ばれた立法機関が初めて開会した。\nDisposition: pass. Rationale: Legislative body denotes the body, while sense 2 of parliament may also denote its lifespan."
+    }
+  ],
+  "relation_results": [
+    {
+      "id": "risk_sense_pair:001",
+      "relation_id": "risk_sense_pair:001",
+      "status": "pass",
+      "notes": "Relation description: 記事内の明示的な相互参照が示す混同リスクについて、語義の最小差、境界、重複を確認する。根拠: usage_note:001 explicitly contrasts sense 1 with sense 2; usage_note:002 explicitly contrasts sense 2 with sense 1 Article target text: sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" Disposition: pass. Rationale: the named targets are mutually consistent for this risk_sense_pair check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:001",
+      "relation_id": "example_translation:001",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:001: \"・`a member of parliament`\\n用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。\\n例: She was elected as a member of parliament for the first time last year.\\n訳: 彼女は昨年、初めて国会議員に選出された。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:002",
+      "relation_id": "example_translation:002",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:002: \"・`be elected to Parliament`\\n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。\\n例: He was elected to Parliament at the age of thirty-two.\\n訳: 彼は32歳で国会議員に選出された。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:003",
+      "relation_id": "example_translation:003",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:003: \"・`a bill before Parliament`\\n用途: 法案が国会に提出され、審議対象となっていることを表す。\\n例: The bill currently before Parliament would strengthen consumer protections.\\n訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:004",
+      "relation_id": "example_translation:004",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:004: \"・`Parliament passes 〈a bill/an Act〉`\\n用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。\\n例: The Scottish Parliament passed the bill after months of debate.\\n訳: スコットランド議会は数か月にわたる審議の末、その法案を可決した。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:005",
+      "relation_id": "example_translation:005",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:005: \"・`an Act of Parliament`\\n用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。\\n例: The requirement was introduced by an Act of Parliament.\\n訳: その要件は議会制定法によって導入された。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:006",
+      "relation_id": "example_translation:006",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:006: \"・`a hung parliament`\\n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。\\n例: The general election produced a hung parliament.\\n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:007",
+      "relation_id": "example_translation:007",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:007: \"・`the current parliament`\\n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。\\n例: The proposal is unlikely to pass during the current parliament.\\n訳: その提案が今議会期中に可決される可能性は低い。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:008",
+      "relation_id": "example_translation:008",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:008: \"・`the next parliament`\\n用途: 次の総選挙後に成立する特定回の議会またはその期間を指す。\\n例: The committee recommended that the issue be reconsidered in the next parliament.\\n訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:009",
+      "relation_id": "example_translation:009",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:009: \"・`the lifetime of a parliament`\\n用途: ある特定回の議会が成立してから終了するまでの存続期間を指す。\\n例: Major constitutional reform may take the lifetime of a parliament to complete.\\n訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "example_translation:010",
+      "relation_id": "example_translation:010",
+      "status": "pass",
+      "notes": "Relation description: コロケーションの用途、英文、訳で意味役割、修飾範囲、程度、レジスターが保存されていることを確認する。 Article target text: collocation:010: \"・`during this parliament`\\n用途: この特定回の議会が存続している間に、という期間を表す。\\n例: The government promised to introduce the measure during this parliament.\\n訳: 政府は今議会期中にその措置を導入すると約束した。\" Disposition: pass. Rationale: the named targets are mutually consistent for this example_translation check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "sense_definition_consistency:001",
+      "relation_id": "sense_definition_consistency:001",
+      "status": "pass",
+      "notes": "Relation description: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Article target text: sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\" Disposition: pass. Rationale: the named targets are mutually consistent for this sense_definition_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "definition_usage_consistency:001",
+      "relation_id": "definition_usage_consistency:001",
+      "status": "pass",
+      "notes": "Relation description: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Article target text: sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\" | usage_note:001: \"この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。\" Disposition: pass. Rationale: the named targets are mutually consistent for this definition_usage_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:001",
+      "relation_id": "definition_lexical_relation_consistency:001",
+      "status": "pass",
+      "notes": "Relation description: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Article target text: sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\" | synonym:001: \"・legislative body\\n定義: 法律を制定する権限を持つ機関。\\n頻度: 〈5/10〉\\n違い: `legislative body` は立法機能を説明する一般的な句である。`parliament` は特定の制度的な会議体を一語で指す。\\n例: The proposal must be approved by the legislative body.\\n訳: その提案は立法機関の承認を受けなければならない。\" | synonym:002: \"・lawmaking body\\n定義: 法律を制定・改正する機関。\\n頻度: 〈4/10〉\\n違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。\\n例: The lawmaking body debated the proposed change.\\n訳: その立法機関は提案された変更を審議した。\" | synonym:003: \"・representative assembly\\n定義: 政治的代表者から成る会議体。\\n頻度: 〈4/10〉\\n違い: `representative assembly` は構成員が代表者である点を前面に出す説明的な句である。`parliament` はその会議体が立法制度として確立していることを示す。\\n例: The representative assembly met to debate the policy.\\n訳: 代表者会議はその政策を審議するために開かれた。\" Disposition: pass. Rationale: the named targets are mutually consistent for this definition_lexical_relation_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "pattern_example_coverage:001",
+      "relation_id": "pattern_example_coverage:001",
+      "status": "pass",
+      "notes": "Relation description: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Article target text: grammar_pattern:001: \"普通名詞では可算名詞で、単数・複数を区別する。イギリスの国会などを制度名として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われる。\" | collocation:001: \"・`a member of parliament`\\n用途: ある国・地域の議会の議員を一般的に指す。イギリスの正式な役職表現では `Member of Parliament` と大文字で書き、略して `MP` とする。\\n例: She was elected as a member of parliament for the first time last year.\\n訳: 彼女は昨年、初めて国会議員に選出された。\" | collocation:002: \"・`be elected to Parliament`\\n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。\\n例: He was elected to Parliament at the age of thirty-two.\\n訳: 彼は32歳で国会議員に選出された。\" | collocation:003: \"・`a bill before Parliament`\\n用途: 法案が国会に提出され、審議対象となっていることを表す。\\n例: The bill currently before Parliament would strengthen consumer protections.\\n訳: 現在国会で審議中のその法案は、消費者保護を強化するものだ。\" | collocation:004: \"・`Parliament passes 〈a bill/an Act〉`\\n用途: 国会が法案を可決する、または法律を成立させることを表す。法案が法律になるための具体的手続きは国・制度によって異なる。\\n例: The Scottish Parliament passed the bill after months of debate.\\n訳: スコットランド議会は数か月にわたる審議の末、その法案を可決した。\" | collocation:005: \"・`an Act of Parliament`\\n用途: イギリスなどの文脈で、議会の立法手続きを経て成立した制定法を指す。\\n例: The requirement was introduced by an Act of Parliament.\\n訳: その要件は議会制定法によって導入された。\" Disposition: pass. Rationale: the named targets are mutually consistent for this pattern_example_coverage check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "sense_definition_consistency:002",
+      "relation_id": "sense_definition_consistency:002",
+      "status": "pass",
+      "notes": "Relation description: 語義見出しの訳語・範囲と詳細定義が矛盾せず、見出しだけが定義より広い対象や物理的実体を断定していないことを確認する。 Article target text: sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" Disposition: pass. Rationale: the named targets are mutually consistent for this sense_definition_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "definition_usage_consistency:002",
+      "relation_id": "definition_usage_consistency:002",
+      "status": "pass",
+      "notes": "Relation description: 語義定義と語法・注意が互いに矛盾せず、注意書きで定義上の問題を後付け補修していないことを確認する。 Article target text: sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\" Disposition: pass. Rationale: the named targets are mutually consistent for this definition_usage_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "definition_lexical_relation_consistency:002",
+      "relation_id": "definition_lexical_relation_consistency:002",
+      "status": "pass",
+      "notes": "Relation description: 語義定義と類義語・反意語の上下関係、同義性、対立軸が矛盾せず、「別名」「広い呼称」「一種」などの関係が記事内で一貫することを確認する。 Article target text: sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | synonym:004: \"・legislative body\\n定義: 立法機関として見た、特定回の議会体。\\n頻度: 〈5/10〉\\n違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。\\n例: The newly elected legislative body met for the first time.\\n訳: 新たに選ばれた立法機関が初めて開会した。\" Disposition: pass. Rationale: the named targets are mutually consistent for this definition_lexical_relation_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "pattern_example_coverage:002",
+      "relation_id": "pattern_example_coverage:002",
+      "status": "pass",
+      "notes": "Relation description: 文法パターンの意味・統語制約が同じ語義の用例群と整合し、主要フレームに自然な実例が対応することを確認する。 Article target text: grammar_pattern:002: \"可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。\" | collocation:006: \"・`a hung parliament`\\n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。\\n例: The general election produced a hung parliament.\\n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。\" | collocation:007: \"・`the current parliament`\\n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。\\n例: The proposal is unlikely to pass during the current parliament.\\n訳: その提案が今議会期中に可決される可能性は低い。\" | collocation:008: \"・`the next parliament`\\n用途: 次の総選挙後に成立する特定回の議会またはその期間を指す。\\n例: The committee recommended that the issue be reconsidered in the next parliament.\\n訳: 委員会は、その問題を次の議会期に再検討するよう勧告した。\" | collocation:009: \"・`the lifetime of a parliament`\\n用途: ある特定回の議会が成立してから終了するまでの存続期間を指す。\\n例: Major constitutional reform may take the lifetime of a parliament to complete.\\n訳: 大規模な憲法改革は、一議会期を通じてようやく完了することもある。\" | collocation:010: \"・`during this parliament`\\n用途: この特定回の議会が存続している間に、という期間を表す。\\n例: The government promised to introduce the measure during this parliament.\\n訳: 政府は今議会期中にその措置を導入すると約束した。\" Disposition: pass. Rationale: the named targets are mutually consistent for this pattern_example_coverage check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "core_inventory_consistency:001",
+      "relation_id": "core_inventory_consistency:001",
+      "status": "pass",
+      "notes": "Relation description: 語義番号を限定しない総括的なコアイメージが、記事の語義目録全体を不当に一般化していないことを確認する。 Article target text: core_image:001: \"`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。\" | sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" Disposition: pass. Rationale: the named targets are mutually consistent for this core_inventory_consistency check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "core_sense_mapping:001",
+      "relation_id": "core_sense_mapping:001",
+      "status": "pass",
+      "notes": "Relation description: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Article target text: core_image:002: \"・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）\" | sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\" | usage_note:001: \"この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。\" Disposition: pass. Rationale: the named targets are mutually consistent for this core_sense_mapping check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "core_sense_mapping:002",
+      "relation_id": "core_sense_mapping:002",
+      "status": "pass",
+      "notes": "Relation description: コアイメージの説明が明示された対象語義を過度に単純化せず、歴史的説明と現代の語義説明を混同していないことを確認する。 Article target text: core_image:003: \"・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）\" | sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\" Disposition: pass. Rationale: the named targets are mutually consistent for this core_sense_mapping check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    },
+    {
+      "id": "article_learning_risk:001",
+      "relation_id": "article_learning_risk:001",
+      "status": "pass",
+      "notes": "Relation description: 記事全体の語義構成、対比、訳語、限定表現から学習者が誤った一般化をしないことを横断確認する。 Article target text: core_image:001: \"`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。\" | core_image:002: \"・法律や政策を審議する継続的な制度とその構成員全体 → 「議会、国会」（語義1）\" | core_image:003: \"・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）\" | sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\" | usage_note:001: \"この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。\" | sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\" Disposition: pass. Rationale: the named targets are mutually consistent for this article_learning_risk check; scope, sense roles, syntax, and where applicable English/Japanese proposition structure are preserved."
+    }
+  ],
+  "normal_candidate_results": [],
+  "blind_candidate_results": [
+    {
+      "id": "IC-01",
+      "status": "pass",
+      "notes": "Blind candidate IC-01; frame: \"parliament / a parliament / the parliament = an enduring national or regional legislature\"; meaning: \"法律制定と政策審議を担う、制度として継続する議会・国会\"; recorded disposition: included; assertion IDs: IC-01-A1, IC-01-A2. Disposition: pass. Rationale: 「法律制定と政策審議を担う、制度として継続する議会・国会」は現代語の中心義であり、本文の語義1、コアイメージ、可算名詞の説明で直接かつ十分に扱われている。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-01-A1",
+        "IC-01-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-01-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-01, assertion IC-01-A1: \"The referent must be an institutional legislature empowered to deliberate on public policy and legislation.\" Polarity: must_hold; scope: \"core institutional sense\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-01-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-01, assertion IC-01-A2: \"The enduring institution must not be limited to the term produced by one particular general election.\" Polarity: must_not_hold; scope: \"boundary from a particular elected Parliament\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "status": "pass",
+      "notes": "Blind candidate IC-02; frame: \"in Parliament / before Parliament = relation to a named legislature used without an article\"; meaning: \"固有の制度名として無冠詞で用いられる国会・議会\"; recorded disposition: included; assertion IDs: IC-02-A1, IC-02-A2. Disposition: pass. Rationale: 「in Parliament / before Parliament = relation to a named legislature used without an article」は、本文の大文字表記と無冠詞用法の説明および法案の用例によって明示されている。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-02-A1",
+        "IC-02-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-02-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-02, assertion IC-02-A1: \"Capitalized articleless Parliament must function as the proper institutional name of the relevant legislature.\" Polarity: must_hold; scope: \"proper-name and articleless institutional uses\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-02-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-02, assertion IC-02-A2: \"The preposition before in a bill before Parliament must denote submission for legislative consideration, not merely physical position.\" Polarity: must_hold; scope: \"before Parliament frame\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "status": "pass",
+      "notes": "Blind candidate IC-03; frame: \"Parliament passes a bill or Act = the legislature construed as a collective institutional agent\"; meaning: \"議会を、可決・立法を行う構成員の集合的行為主体として表す用法\"; recorded disposition: included; assertion IDs: IC-03-A1, IC-03-A2. Disposition: pass. Rationale: 「Parliament passes a bill or Act = the legislature construed as a collective institutional agent」は、制度を行為主体として構成員の集合も含めるという定義と専用のコロケーションで十分に区別されている。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-03-A1",
+        "IC-03-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-03-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-03, assertion IC-03-A1: \"Parliament in subject position must attribute the legislative act to the institution acting through its members and procedures.\" Polarity: must_hold; scope: \"collective-agent subject frame\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-03-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-03, assertion IC-03-A2: \"This collective-agent use must not be reanalysed as the temporal lifespan of one Parliament.\" Polarity: must_not_hold; scope: \"agent-versus-period boundary\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "status": "pass",
+      "notes": "Blind candidate IC-04; frame: \"a member of parliament / Member of Parliament / be elected to Parliament\"; meaning: \"議会への所属、議員という身分、または議員としての選出先を表す用法\"; recorded disposition: included; assertion IDs: IC-04-A1, IC-04-A2. Disposition: pass. Rationale: 「a member of parliament / Member of Parliament / be elected to Parliament」は、一般表現、英国の正式表記、選出構文をそれぞれ例文付きで扱い、to が必要であることも明示している。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-04-A1",
+        "IC-04-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-04-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-04, assertion IC-04-A1: \"The of relation must identify a person as a member of the legislature.\" Polarity: must_hold; scope: \"member of parliament frame\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-04-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-04, assertion IC-04-A2: \"In the elected frame, Parliament must be introduced by to as the institution to which the person is elected.\" Polarity: must_hold; scope: \"be elected to Parliament frame\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "status": "pass",
+      "notes": "Blind candidate IC-05; frame: \"an Act of Parliament\"; meaning: \"議会の立法手続きを経て成立した制定法を表す定着表現\"; recorded disposition: included; assertion IDs: IC-05-A1. Disposition: pass. Rationale: 「an Act of Parliament」は独立した定着表現として用途、制度上の意味、例文、訳がそろっており、単なる議会関連物という曖昧な説明にとどまっていない。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-05-A1"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-05-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-05, assertion IC-05-A1: \"Act of Parliament must denote enacted legislation deriving its status from the parliamentary legislative process.\" Polarity: must_hold; scope: \"Act of Parliament expression\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "status": "pass",
+      "notes": "Blind candidate IC-06; frame: \"a parliament / the current parliament / the next parliament = the particular legislative body constituted after an election\"; meaning: \"総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体\"; recorded disposition: included; assertion IDs: IC-06-A1, IC-06-A2. Disposition: pass. Rationale: 「総選挙を区切りとして成立し、他の回と数え分けられる特定回の議会体」は本文の語義2で明示され、継続的制度との境界も注意欄で正しく示されている。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-06-A1",
+        "IC-06-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-06-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-06, assertion IC-06-A1: \"The referent must be the particular constituted legislature associated with one electoral cycle in a system that numbers or distinguishes such Parliaments.\" Polarity: must_hold; scope: \"particular elected-body sense\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-06-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-06, assertion IC-06-A2: \"A particular Parliament must not be equated with the enduring legislature across successive elections.\" Polarity: must_not_hold; scope: \"particular-body versus institution boundary\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "status": "pass",
+      "notes": "Blind candidate IC-07; frame: \"during this parliament / the lifetime of a parliament / during the current parliament\"; meaning: \"特定回の議会が成立してから終了するまでの存続期間・一議会期\"; recorded disposition: included; assertion IDs: IC-07-A1, IC-07-A2. Disposition: pass. Rationale: 「during this parliament / the lifetime of a parliament / during the current parliament」は時間的な意味役割を持つため議会体候補から分離したが、本文は存続期間を明記し、複数の時間フレームで実証している。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-07-A1",
+        "IC-07-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-07-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-07, assertion IC-07-A1: \"In temporal adjuncts, parliament must denote the lifespan of one particular constituted Parliament.\" Polarity: must_hold; scope: \"temporal-period sense\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-07-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-07, assertion IC-07-A2: \"The lifespan of a Parliament must not be treated as identical to one session within it.\" Polarity: must_not_hold; scope: \"Parliament-versus-session boundary\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "status": "pass",
+      "notes": "Blind candidate IC-08; frame: \"an election produces a hung parliament\"; meaning: \"選挙後の議会で単独過半数を持つ政党がない状態またはその議会体\"; recorded disposition: included; assertion IDs: IC-08-A1, IC-08-A2. Disposition: pass. Rationale: 「an election produces a hung parliament」は選挙結果による特定議会の構成を表す高頻度の政治用語であり、本文は意味、地域差、自然な例文を備えている。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-08-A1",
+        "IC-08-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-08-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-08, assertion IC-08-A1: \"A hung parliament must be one in which no single political party has an overall majority.\" Polarity: must_hold; scope: \"hung parliament term\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        },
+        {
+          "id": "IC-08-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-08, assertion IC-08-A2: \"Hung must not be interpreted as physical suspension or as adjournment of Parliament.\" Polarity: must_not_hold; scope: \"idiomatic boundary of hung parliament\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "status": "pass",
+      "notes": "Blind candidate IC-09; frame: \"parliamentary + noun / parliamentary procedure\"; meaning: \"議会・議会制に関すること、または議事手続きに関することを表す派生形容詞\"; recorded disposition: included; assertion IDs: IC-09-A1. Disposition: pass. Rationale: 「parliamentary + noun / parliamentary procedure」は主要な派生形容詞と、その一般的な議会関連義および定着した議事手続き義を語形成欄で簡潔に収録している。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-09-A1"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-09-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-09, assertion IC-09-A1: \"Parliamentary must express a relation to parliament, a parliamentary system, or rules for conducting deliberative business according to context.\" Polarity: must_hold; scope: \"derived adjective\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition included."
+        }
+      ]
+    },
+    {
+      "id": "IC-10",
+      "status": "pass",
+      "notes": "Blind candidate IC-10; frame: \"a parliament of owls\"; meaning: \"フクロウの群れを表す遊戯的・まれな集合名詞表現\"; recorded disposition: excluded; assertion IDs: IC-10-A1, IC-10-A2. Disposition: pass. Rationale: 「a parliament of owls」は辞書的に見かけることのある周辺的な集合名詞句だが、現代の実用的な政治・立法語彙としての主要義ではなく、本文からの除外は妥当である。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-10-A1",
+        "IC-10-A2"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-10-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-10, assertion IC-10-A1: \"If included, the phrase must denote a group of owls rather than a legislative institution.\" Polarity: must_hold; scope: \"rare collective-noun expression\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition excluded."
+        },
+        {
+          "id": "IC-10-A2",
+          "status": "pass",
+          "notes": "Blind candidate IC-10, assertion IC-10-A2: \"This rare playful expression must not be presented as a major modern sense of the headword.\" Polarity: must_not_hold; scope: \"coverage-priority boundary\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition excluded."
+        }
+      ]
+    },
+    {
+      "id": "IC-11",
+      "status": "pass",
+      "notes": "Blind candidate IC-11; frame: \"historical parliament = a formal conference, consultation, or assembly\"; meaning: \"歴史的・廃用的に、相談、正式会議、または集会を表す用法\"; recorded disposition: excluded; assertion IDs: IC-11-A1. Disposition: pass. Rationale: 「historical parliament = a formal conference, consultation, or assembly」は語源史としては関係するが現代の主要語義ではなく、本文が語源欄で歴史的意味を示すにとどめた判断は適切である。 Applying the inventory to the final body reveals no contrary boundary, direction, inclusion, or scope claim.",
+      "assertion_ids": [
+        "IC-11-A1"
+      ],
+      "verified_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+      "assertion_results": [
+        {
+          "id": "IC-11-A1",
+          "status": "pass",
+          "notes": "Blind candidate IC-11, assertion IC-11-A1: \"If treated as a lexical sense, this use must be marked historical or obsolete and must denote a formal consultation or assembly rather than necessarily a modern legislature.\" Polarity: must_hold; scope: \"historical sense\". Disposition: pass. Rationale: the final body satisfies this exact assertion consistently with candidate disposition excluded."
+        }
+      ]
+    }
+  ],
+  "finding_results": [
+    {
+      "id": "normal-sense-structure-001",
+      "status": "pass",
+      "notes": "Finding normal-sense-structure-001; resolution disposition: adopted; resolution status: resolved. Current article target text: sense_boundary:001: \"1. 【名詞・可算／固有名詞的用法】議会、国会；機関を行為主体として表す議員集団\" | definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\" | usage_note:001: \"この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。\" | sense_boundary:002: \"2. 【名詞・可算】総選挙後に成立する特定回の議会；一議会期\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\". Disposition: pass. Rationale: The two definitions overlapped on an election-defined membership. Sense 1 now limits the collective reading to the continuing institution as actor, while sense 2 denotes a formally bounded particular Parliament and period. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-frame-relation-001",
+      "status": "pass",
+      "notes": "Finding normal-frame-relation-001; resolution disposition: adopted; resolution status: resolved. Current article target text: grammar_pattern:002: \"可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\". Disposition: pass. Rationale: Dissolution selects a particular terminable Parliament, so the complete collocation, explanation, and example were moved to sense 2 and its frame was added there. The misplaced dissolve collocation is absent from sense 1; the surviving dissolution statement is correctly in sense 2. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-example-attribution-001",
+      "status": "pass",
+      "notes": "Finding normal-example-attribution-001; resolution disposition: adopted; resolution status: resolved. Current article target text: collocation:006: \"・`a hung parliament`\\n用途: 単独で過半数を持つ政党がない議会を表す。主にイギリス英語で用いる。\\n例: The general election produced a hung parliament.\\n訳: その総選挙の結果、どの政党も単独過半数を持たない議会となった。\". Disposition: pass. Rationale: The hung-parliament example was moved to sense 2 and now explicitly anchors the result to the newly created term, eliminating ownership overlap with the continuing institution. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-example-attribution-002",
+      "status": "pass",
+      "notes": "Finding normal-example-attribution-002; resolution disposition: adopted; resolution status: resolved. Current article target text: usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\". Disposition: pass. Rationale: The dissolution example was moved to sense 2 and now says that dissolution ends the current term, directly selecting the bounded-instance sense. The ambiguous dissolution example is absent; the surviving dissolution statement is unambiguously attached to sense 2. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-qualification-001",
+      "status": "pass",
+      "notes": "Finding normal-qualification-001; resolution disposition: adopted; resolution status: resolved. Current article target text: collocation:002: \"・`be elected to Parliament`\\n用途: 議員として国会に選出されることを表す。人についてこの意味を表すときは、`be elected Parliament` ではなく `be elected to Parliament` とする。\\n例: He was elected to Parliament at the age of thirty-two.\\n訳: 彼は32歳で国会議員に選出された。\". Disposition: pass. Rationale: The prohibition was overbroad. It is now limited to the construction for a person being elected as a member, leaving elect a parliament available as a different transitive frame. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-001",
+      "status": "pass",
+      "notes": "Finding normal-evidence-001; resolution disposition: adopted; resolution status: resolved. Current article target text: etymology:001: \"中英語 *parlement* を経て、古フランス語 *parlement*「話すこと」にさかのぼり、その基になった *parler* は「話す」を意味する。英語では1300年ごろに「相談、正式な会議、集会」を表した。現在の綴りにある `ia` は、中世ラテン語 *parliamentum* に合わせた形の影響を受けている。\". Disposition: pass. Rationale: The unsupported parley cognate statement and the duplicate derivative assertion were removed from etymology; parliamentary remains only in the directly supported derived-form section. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-002",
+      "status": "pass",
+      "notes": "Finding normal-evidence-002; resolution disposition: adopted; resolution status: resolved. Current article target text: word_formation:001: \"・parliamentary：形容詞。「議会の」「議会制の」のほか、`parliamentary procedure` では「議事手続きの」を表す。\". Disposition: pass. Rationale: The unsupported suffix analysis was removed, leaving only the adjective senses directly supplied by F-017. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-003",
+      "status": "pass",
+      "notes": "Finding normal-evidence-003; resolution disposition: adopted; resolution status: resolved. Current article target text: definition:001: \"法律を制定・改正し、政策を審議する制度的な機関を指す。機関を一つの行為主体として述べるときは、その構成員の集合も含めて表す。特定国の制度名として用いる場合は `Parliament` と大文字で始めることがある。\". Disposition: pass. Rationale: The definition was narrowed to a representative lawmaking and policy-deliberating institution and its institution-as-actor collective reading; unsupported budget, oversight, and cross-country generalizations were removed. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-004",
+      "status": "pass",
+      "notes": "Finding normal-evidence-004; resolution disposition: rejected; resolution status: resolved. Current article target text: frequency:001: \"〈8/10〉\" | register:001: \"政治・立法。\". Disposition: pass. Rationale: The numeric frequency is a required editorial classification under entry_spec_v5, explicitly calibrated even when no corpus statistic exists. The unsupported Congress and parliamentary-system distribution claims were nevertheless removed and the domain label was narrowed. Unsupported distribution prose was removed; the score is editorial. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-005",
+      "status": "pass",
+      "notes": "Finding normal-evidence-005; resolution disposition: adopted; resolution status: resolved. Current article target text: grammar_pattern:001: \"普通名詞では可算名詞で、単数・複数を区別する。イギリスの国会などを制度名として指す `Parliament` は、`in Parliament`、`before Parliament`、`elect someone to Parliament` のように無冠詞で使われる。\". Disposition: pass. Rationale: The frame inventory now retains only the directly evidenced countability and zero-article in, before, and elected-to patterns; unsupported country modifiers and collective agreement were removed. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-006",
+      "status": "pass",
+      "notes": "Finding normal-evidence-006; resolution disposition: adopted; resolution status: resolved. Current article target text: usage_note:001: \"この語義は継続する制度、またはその制度を一つの行為主体として述べた集合を表す。総選挙ごとに成立する特定回の議会体と期間は語義2で扱う。\". Disposition: pass. Rationale: The government, building, Diet, and Congress assertions were removed. The replacement note only states the directly evidenced boundary between continuing institution and bounded particular Parliament. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-007",
+      "status": "pass",
+      "notes": "Finding normal-evidence-007; resolution disposition: rejected; resolution status: resolved. Current article target text: synonym:001: \"・legislative body\\n定義: 法律を制定する権限を持つ機関。\\n頻度: 〈5/10〉\\n違い: `legislative body` は立法機能を説明する一般的な句である。`parliament` は特定の制度的な会議体を一語で指す。\\n例: The proposal must be approved by the legislative body.\\n訳: その提案は立法機関の承認を受けなければならない。\". Disposition: pass. Rationale: entry_spec_v5 requires a synonym block and comparative learner guidance. The legislature row was retained but narrowed to its essential lexical contrast, without treating its frequency score as a corpus statistic. The comparison was narrowed and is covered by C-001/U-001. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-008",
+      "status": "pass",
+      "notes": "Finding normal-evidence-008; resolution disposition: rejected; resolution status: resolved. Current article target text: synonym:002: \"・lawmaking body\\n定義: 法律を制定・改正する機関。\\n頻度: 〈4/10〉\\n違い: `lawmaking body` は役割を平易に説明する句である。`parliament` は法律だけでなく政策も審議する機関の名称として用いられる。\\n例: The lawmaking body debated the proposed change.\\n訳: その立法機関は提案された変更を審議した。\" | synonym:003: \"・representative assembly\\n定義: 政治的代表者から成る会議体。\\n頻度: 〈4/10〉\\n違い: `representative assembly` は構成員が代表者である点を前面に出す説明的な句である。`parliament` はその会議体が立法制度として確立していることを示す。\\n例: The representative assembly met to debate the policy.\\n訳: 代表者会議はその政策を審議するために開かれた。\". Disposition: pass. Rationale: entry_spec_v5 requires three to eight synonyms in principle. Congress and assembly were retained only as concise near-synonyms with explicit non-interchangeability; the unsupported Diet row and country-specific official-name assertions were removed. Unsupported Congress/Diet material was removed; replacement descriptive relations are covered by C-001/U-001. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-009",
+      "status": "pass",
+      "notes": "Finding normal-evidence-009; resolution disposition: rejected; resolution status: resolved. Current article target text: frequency:002: \"〈3/10〉\" | register:002: \"政治・議会制度。\". Disposition: pass. Rationale: The 5/10 score is the required entry_spec_v5 editorial encounter-frequency classification, not a sourced corpus statistic. The register prose was narrowed to the political-administrative UK context directly represented by the official source. Unsupported register prose was removed; the score is editorial. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-010",
+      "status": "pass",
+      "notes": "Finding normal-evidence-010; resolution disposition: adopted; resolution status: resolved. Current article target text: grammar_pattern:002: \"可算名詞として、総選挙を区切りとして成立する一つの議会体またはその存続期間を表す。\". Disposition: pass. Rationale: Unsupported modifier and capitalization templates were removed. The grammar note now states countability, the bounded unit, and the directly supported dissolve Parliament frame. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-011",
+      "status": "pass",
+      "notes": "Finding normal-evidence-011; resolution disposition: adopted; resolution status: resolved. Current article target text: usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\". Disposition: pass. Rationale: The unsupported prorogation clause was deleted. The note retains only the supported Parliament-versus-session distinction and dissolution endpoint. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "normal-evidence-012",
+      "status": "pass",
+      "notes": "Finding normal-evidence-012; resolution disposition: rejected; resolution status: resolved. Current article target text: synonym:004: \"・legislative body\\n定義: 立法機関として見た、特定回の議会体。\\n頻度: 〈5/10〉\\n違い: `legislative body` は機関・会議体を指す。語義2の `parliament` は、その特定回の議会体に加え、その存続期間も指す。\\n例: The newly elected legislative body met for the first time.\\n訳: 新たに選ばれた立法機関が初めて開会した。\". Disposition: pass. Rationale: The synonym block is structurally required by entry_spec_v5. The legislative term comparison was narrowed to the minimal learner distinction and is presented as editorial lexical guidance rather than a claimed sourced statistic. The minimal comparison is represented by C-011/U-001/U-009. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "CR-001",
+      "status": "pass",
+      "notes": "Finding CR-001; resolution disposition: adopted; resolution status: resolved. Current article target text: pronunciation:001: \"発音: イギリス英語 /ˈpɑːləmənt/、アメリカ英語 /ˈpɑːrləmənt/。綴りの `lia` を一音ずつ読まず、通常は3音節で発音する。ここに示した標準的な発音では、イギリス英語形は第1音節の母音後の /r/ を発音せず、アメリカ英語形は発音する。辞書には /-ljə-/ を含む別発音も記録される。\". Disposition: pass. Rationale: The pronunciation note now limits the rhoticity contrast to the displayed standard forms, identifies the first-syllable location, and explicitly allows regional and speaker variation in both countries. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "CR-002",
+      "status": "pass",
+      "notes": "Finding CR-002; resolution disposition: adopted; resolution status: resolved. Current article target text: core_image:001: \"`parliament` の中心は、「構成員が集まり、公的事項を審議して決定する制度的な立法機関」である。そこから、継続する制度そのものと、総選挙を区切りとして成立する特定回の議会体・存続期間を表す。\" | core_image:003: \"・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\". Disposition: pass. Rationale: The core image, definition, and usage note now use formal termination or dissolution as the endpoint and treat the next election as the event that forms the next Parliament. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "CR-003",
+      "status": "pass",
+      "notes": "Finding CR-003; resolution disposition: adopted; resolution status: resolved. Current article target text: core_image:003: \"・総選挙を区切りとして成立する特定回の議会体と存続期間 → 「特定期の議会、一議会期」（語義2）\" | definition:002: \"総選挙を区切りとして特定回を数える制度・文脈で、その議会体または存続期間を指す。一つの `Parliament` は通常、複数の `session` に分かれる。\" | collocation:007: \"・`the current parliament`\\n用途: 直近の総選挙後に成立し、現在も活動中の特定回の議会またはその期間を指す。\\n例: The proposal is unlikely to pass during the current parliament.\\n訳: その提案が今議会期中に可決される可能性は低い。\" | usage_note:002: \"語義1の制度としての `parliament` は選挙を越えて継続するが、この語義は総選挙を区切りとして成立する特定回の議会体とその存続期間を表す。`Parliament` と `session` は同じではなく、一つの `Parliament` は通常、複数の `session` に分かれる。英国では、`dissolution` はその Parliament 自体を終える。\". Disposition: pass. Rationale: Sense 2 now rests on institutional identity and duration rather than fixed membership, expressly notes that individual membership may change, and repairs the current-parliament explanation. The resolution and its top-level input are bound to body 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    }
+  ],
+  "evidence_checks": [],
+  "source_inventory_results": [
+    {
+      "id": "U-001",
+      "union_id": "U-001",
+      "status": "pass",
+      "notes": "Source-union statement: \"Parliament denotes a representative legislative institution or its assembled membership.\" Recorded disposition: included. Disposition: pass. Rationale: This is the principal modern sense and anchors sense 1. The final article includes it within scope."
+    },
+    {
+      "id": "U-002",
+      "union_id": "U-002",
+      "status": "pass",
+      "notes": "Source-union statement: \"Parliament has countable common-noun uses and capitalized institutional uses with characteristic zero-article frames.\" Recorded disposition: included. Disposition: pass. Rationale: The distinction is essential for article use and capitalization. The final article includes it within scope."
+    },
+    {
+      "id": "U-003",
+      "union_id": "U-003",
+      "status": "pass",
+      "notes": "Source-union statement: \"Hung parliament means a parliament without a party holding an overall majority.\" Recorded disposition: included. Disposition: pass. Rationale: This is a frequent and opaque political collocation. The final article includes it within scope."
+    },
+    {
+      "id": "U-004",
+      "union_id": "U-004",
+      "status": "pass",
+      "notes": "Source-union statement: \"The standard British and American pronunciations are three-syllable forms differing primarily in post-vocalic r.\" Recorded disposition: included. Disposition: pass. Rationale: This supports the learner pronunciation note while not denying the recorded /lj/ variant. The final article includes it within scope."
+    },
+    {
+      "id": "U-005",
+      "union_id": "U-005",
+      "status": "pass",
+      "notes": "Source-union statement: \"Parliament comes from a French word for speaking, consultation, or conference, based on parler.\" Recorded disposition: included. Disposition: pass. Rationale: This directly explains the semantic development. The final article includes it within scope."
+    },
+    {
+      "id": "U-006",
+      "union_id": "U-006",
+      "status": "pass",
+      "notes": "Source-union statement: \"The modern internal ia spelling reflects Medieval Latin influence.\" Recorded disposition: included. Disposition: pass. Rationale: This explains the mismatch between spelling and ordinary pronunciation. The final article includes it within scope."
+    },
+    {
+      "id": "U-007",
+      "union_id": "U-007",
+      "status": "pass",
+      "notes": "Source-union statement: \"Parliament has an older formal-conference or medieval-council use.\" Recorded disposition: excluded. Disposition: pass. Rationale: The historical source sense is retained in etymology but does not warrant a modern learner sense block. The final article does not promote it into modern learner coverage."
+    },
+    {
+      "id": "U-008",
+      "union_id": "U-008",
+      "status": "pass",
+      "notes": "Source-union statement: \"Parliament historically named certain French courts before 1789.\" Recorded disposition: excluded. Disposition: pass. Rationale: This obsolete foreign-historical homographic use has little current learner value and is not part of the modern core. The final article does not promote it into modern learner coverage."
+    },
+    {
+      "id": "U-009",
+      "union_id": "U-009",
+      "status": "pass",
+      "notes": "Source-union statement: \"A particular parliament can denote the election-to-election body and period.\" Recorded disposition: included. Disposition: pass. Rationale: This distinct countable sense requires its own sense block. The final article includes it within scope."
+    },
+    {
+      "id": "U-010",
+      "union_id": "U-010",
+      "status": "pass",
+      "notes": "Source-union statement: \"Parliamentary is the adjective for parliament, parliamentary government, and parliamentary procedure.\" Recorded disposition: included. Disposition: pass. Rationale: This is the principal productive derivative. The final article includes it within scope."
+    },
+    {
+      "id": "U-011",
+      "union_id": "U-011",
+      "status": "pass",
+      "notes": "Source-union statement: \"A Parliament can contain multiple shorter sessions.\" Recorded disposition: included. Disposition: pass. Rationale: The contrast prevents confusion between Parliament and session. The final article includes it within scope."
+    },
+    {
+      "id": "U-012",
+      "union_id": "U-012",
+      "status": "pass",
+      "notes": "Source-union statement: \"Dissolution ends a particular Parliament, unlike the end of an individual session.\" Recorded disposition: included. Disposition: pass. Rationale: This supports the key institutional contrast in sense 2. The final article includes it within scope."
+    },
+    {
+      "id": "U-013",
+      "union_id": "U-013",
+      "status": "pass",
+      "notes": "Source-union statement: \"The current UK maximum Parliament term is five years.\" Recorded disposition: excluded. Disposition: pass. Rationale: This jurisdiction-specific maximum is not generalized or used as a lexical relation in the article. The final article does not promote it into modern learner coverage."
+    }
+  ],
+  "checker_recheck_results": [
+    {
+      "id": "translation",
+      "pass_id": "translation",
+      "status": "pass",
+      "notes": "Pass translation; mode: rechecked; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=false, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=d09d822f58ea8bcff9aa2890f988ad7aca9a9d3a773b5f9da5427f783ae25bb3, normalized_input_sha256=a476a099e10556b9246748ba1af97c1ca21ca6f8652e00b742b05379938a487f, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=afcaebb22986f78d15d764de10563591705e3b6964d6c46e6372bb8f0176a75c. Fresh recheck; reuse proof is not applicable."
+    },
+    {
+      "id": "sense-structure",
+      "pass_id": "sense-structure",
+      "status": "pass",
+      "notes": "Pass sense-structure; mode: rechecked; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=false, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=a815b90fbc456e2bc194220ee0f3bfa164790bbb6e1f2f740144ac62bb03b87c, normalized_input_sha256=a16021aee63d1c7443ea7dba04d05aa7b0f1cb1c7488c3167825c4189d8aede7, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=4b322a5ed34de5a02a54e57266d70df240441c237b50195dccd28858a35db509. Fresh recheck; reuse proof is not applicable."
+    },
+    {
+      "id": "frame-relation",
+      "pass_id": "frame-relation",
+      "status": "pass",
+      "notes": "Pass frame-relation; mode: rechecked; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=false, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=3598ca81a5784639c6b43a0806d0981a985bf4174f424c744aad1dde787bfcef, normalized_input_sha256=fcf76b799739b4390b77c92dbad61f4974f578b0fcdeab80f7383cde7c0644c0, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=c27d2abc84ed8adf0611dfd115bd9a140542f3d803373eebc98085c75b36c017. Fresh recheck; reuse proof is not applicable."
+    },
+    {
+      "id": "example-attribution",
+      "pass_id": "example-attribution",
+      "status": "pass",
+      "notes": "Pass example-attribution; mode: rechecked; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=false, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=e0bbb032bc0c50bf9bef5ff8f7854188287e635c58e599479891e11e3343a017, normalized_input_sha256=d9bb444dca200c618502497e58b036451dda5a96dad421b073b07a11179746c9, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=2692c1a3ea2e7885d050cd5a9b175942af6ec3e22d5c45fe50f6908e9e5e5b9c. Fresh recheck; reuse proof is not applicable."
+    },
+    {
+      "id": "qualification",
+      "pass_id": "qualification",
+      "status": "pass",
+      "notes": "Pass qualification; mode: rechecked; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=false, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=1cf8a434bbe1213c0ef739f4c47ffb41014ab2cd5156d297471af6df85ae40a2, normalized_input_sha256=16e266eec28f7613a474ecd298f3a6e2fe347459fb7d421e1a5088bde32b71e6, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=d7e2ab886442c69a92b471230b878dcb519929beae5802bfcda1d6d801239d6a. Fresh recheck; reuse proof is not applicable."
+    },
+    {
+      "id": "pronunciation",
+      "pass_id": "pronunciation",
+      "status": "pass",
+      "notes": "Pass pronunciation; mode: reused; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=true, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=7e3e94267ac9f917c901c12580b91e570b5989df7adfbf2a39b833478c766d8a, normalized_input_sha256=d491f4d58fae69443c6289e4f14d8f2d4eeb81803d5fce5f4f7db6f674ef0184, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=e798738c9ddc5c93ba452e87af8e52887cc0b66cae3e6d9dbcccc9b7c3089e4b, reuse_proof_path=audits/runs/p/parliament/20260908T084338Z-d549b547/recheck/round10/reuse_proof.json"
+    },
+    {
+      "id": "evidence",
+      "pass_id": "evidence",
+      "status": "pass",
+      "notes": "Pass evidence; mode: rechecked; disposition: pass. Rationale: schema_valid=true, reviewer_independent=true, request_binding_valid=true, reuse_validated=false, validated_on_body_sha256=2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9, spec_sha256=dc0826565109b0be96c5ef7c13943a01b0e42616fecff87ab25102e5cda4cb8d, normalized_input_sha256=920a5a65dba7c4842245ed7c58d78ea51235c0b06f9f0f5dd40ac3d2a9d0f882, source_artifact_sha256=16878d6e90670c10133427761e4b4aab337f5a821fae8b0960381bfa97f8058b, output_sha256=3065232b53c3d4fc1c322b5b3d83cb6d0c6731f359d649901b0ee2aefc01b7a2. Fresh recheck; reuse proof is not applicable."
+    }
+  ],
+  "chronology_results": [
+    {
+      "id": "body_hash_binding",
+      "check_id": "body_hash_binding",
+      "status": "pass",
+      "notes": "Disposition: pass. Entry body, corrected resolutions top-level input, all per-finding resolutions, final-review input, source inventory, checker manifest, all pass validations, final blind, blind seal, post-blind resolution, and verification bind to 2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9."
+    },
+    {
+      "id": "cold_and_normal_before_revision",
+      "check_id": "cold_and_normal_before_revision",
+      "status": "pass",
+      "notes": "Disposition: pass. Normal and cold reviews precede resolution and the final pre-blind revision at 2026-09-08T12:45:20Z."
+    },
+    {
+      "id": "revision_before_final_blind",
+      "check_id": "revision_before_final_blind",
+      "status": "pass",
+      "notes": "Disposition: pass. Final pre-blind revision at 2026-09-08T12:45:20Z precedes the independent final blind at 2026-09-08T12:50:31.260925+00:00, which binds to the revised body."
+    },
+    {
+      "id": "final_blind_before_seal",
+      "check_id": "final_blind_before_seal",
+      "status": "pass",
+      "notes": "Disposition: pass. Final blind at 2026-09-08T12:50:31.260925+00:00 precedes the seal at 2026-09-08T21:50:31.468711+09:00, with matching blind hashes."
+    },
+    {
+      "id": "post_blind_completion",
+      "check_id": "post_blind_completion",
+      "status": "pass",
+      "notes": "Disposition: pass. Post-blind resolution and verification at 2026-09-08T12:51:00.633656+00:00 report no findings, completed checker recheck, repeated final blind, and complete status."
+    }
+  ]
+}

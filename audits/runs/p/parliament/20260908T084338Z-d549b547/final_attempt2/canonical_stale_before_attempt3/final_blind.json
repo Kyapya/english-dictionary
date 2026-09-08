@@ -1,0 +1,332 @@
+{
+  "schema_version": "final_blind_v2",
+  "stage": "final_blind",
+  "prompt_sha256": "3a481b4b5b1236ff386e148bcacc574570b305e79f5e155e9afcd34091f7785c",
+  "input_artifacts": [
+    "entry_body",
+    "final_blind_prompt"
+  ],
+  "audit_visible": false,
+  "contract_version": "review_preflight_v1",
+  "reviewer": {
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human",
+    "agent_id": "/root/parliament_word/final_blind2"
+  },
+  "provisional_decision": "reject",
+  "independent_candidates": [
+    {
+      "id": "IC-01",
+      "surface_form": "parliament / parliaments",
+      "frame": "a/the parliament; national and regional parliaments; parliament + institutional predicate",
+      "meaning": "代表者から成り、立法と政策審議を担う制度的な議会・国会",
+      "disposition": "included",
+      "rationale": "「代表者から成り、立法と政策審議を担う制度的な議会・国会」は語の中心的な普通名詞用法として語義1に明示され、可算性も説明されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-01-A1",
+          "statement": "指示対象は公的事項を審議する制度化された代表機関でなければならない。",
+          "polarity": "must_hold",
+          "scope": "普通名詞としての単数形・複数形"
+        },
+        {
+          "id": "IC-01-A2",
+          "statement": "単なる一回の会合や建物だけを中心義としてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "制度的機関の中心語義"
+        }
+      ]
+    },
+    {
+      "id": "IC-02",
+      "surface_form": "Parliament",
+      "frame": "in Parliament; before Parliament; Parliament + predicate",
+      "meaning": "特定国の制度名として無冠詞で用いる議会",
+      "disposition": "included",
+      "rationale": "「in Parliament; before Parliament; Parliament + predicate」の無冠詞・大文字表記は語義1の文法説明と複数の用例で扱われている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-02-A1",
+          "statement": "大文字・無冠詞の形は文脈上特定できる制度的議会を固有名詞的に指さなければならない。",
+          "polarity": "must_hold",
+          "scope": "固有名詞的な Parliament"
+        },
+        {
+          "id": "IC-02-A2",
+          "statement": "あらゆる国の普通名詞用法に一律の大文字・無冠詞を要求してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "大小文字と冠詞の一般化範囲"
+        }
+      ]
+    },
+    {
+      "id": "IC-03",
+      "surface_form": "Parliament passes a bill / an Act",
+      "frame": "Parliament + institutional action verb",
+      "meaning": "議会を、その構成員が共同で行為する集合的主体として表す換喩的用法",
+      "disposition": "included",
+      "rationale": "「Parliament + institutional action verb」は、機関とその構成員集合の換喩を語義1の定義および可決のコロケーションで明示している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-03-A1",
+          "statement": "動作主は議会制度の権限・手続きにより共同で行為する議員集合でなければならない。",
+          "polarity": "must_hold",
+          "scope": "議会を主語とする制度的行為"
+        },
+        {
+          "id": "IC-03-A2",
+          "statement": "建物そのものが物理的に行為するという意味に解してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "換喩の作用方向"
+        }
+      ]
+    },
+    {
+      "id": "IC-04",
+      "surface_form": "member of parliament; be elected to Parliament",
+      "frame": "person + membership/selection relation + parliament",
+      "meaning": "人が議会の議員資格・議席を得る、または持つこと",
+      "disposition": "included",
+      "rationale": "「member of parliament; be elected to Parliament」は語義1で独立したコロケーションとして扱われ、必要な前置詞 to も示されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-04-A1",
+          "statement": "人と parliament の関係は、議会への所属または議員としての選出でなければならない。",
+          "polarity": "must_hold",
+          "scope": "member of および elected to のフレーム"
+        },
+        {
+          "id": "IC-04-A2",
+          "statement": "be elected の補語として Parliament を直接目的語にしてはならない。",
+          "polarity": "must_not_hold",
+          "scope": "be elected to Parliament の統語"
+        }
+      ]
+    },
+    {
+      "id": "IC-05",
+      "surface_form": "a bill before Parliament; an Act of Parliament",
+      "frame": "legislative instrument + before/of + Parliament",
+      "meaning": "法案・制定法を議会の審議または立法権限との関係で位置づける用法",
+      "disposition": "included",
+      "rationale": "「a bill before Parliament; an Act of Parliament」は、審議中の法案と議会制定法を区別して語義1の下で説明している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-05-A1",
+          "statement": "before Parliament は法案が議会の審議対象にあるという制度的関係を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "a bill before Parliament"
+        },
+        {
+          "id": "IC-05-A2",
+          "statement": "Act of Parliament は議会の立法過程を経た制定法を指さなければならない。",
+          "polarity": "must_hold",
+          "scope": "an Act of Parliament"
+        }
+      ]
+    },
+    {
+      "id": "IC-06",
+      "surface_form": "a hung parliament",
+      "frame": "hung + parliament resulting from an election",
+      "meaning": "選挙で成立した議員構成において単独過半数政党がない特定回の議会",
+      "disposition": "included",
+      "rationale": "「選挙で成立した議員構成において単独過半数政党がない特定回の議会」という表現自体は収録されているが、継続制度の語義1に置かれ、記事自身が語義2に設定した境界と食い違う。",
+      "semantic_assertions": [
+        {
+          "id": "IC-06-A1",
+          "statement": "hung は選挙後の特定の議員構成に過半数政党がない状態を修飾しなければならない。",
+          "polarity": "must_hold",
+          "scope": "a hung parliament"
+        },
+        {
+          "id": "IC-06-A2",
+          "statement": "選挙を越えて継続する抽象的制度そのものの恒常属性として分類してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "語義1と語義2の境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-07",
+      "surface_form": "the current parliament; the next parliament",
+      "frame": "definite temporal/deictic modifier + parliament",
+      "meaning": "総選挙によって成立し、解散などまで存続する特定回の議会または議員構成",
+      "disposition": "included",
+      "rationale": "「the current parliament; the next parliament」は、選挙で区切られた特定回という独立語義2の中心フレームとして明示されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-07-A1",
+          "statement": "current/next は恒久制度ではなく、選挙などで区切られる特定回を選択しなければならない。",
+          "polarity": "must_hold",
+          "scope": "current/next parliament"
+        },
+        {
+          "id": "IC-07-A2",
+          "statement": "一日単位の会議または単一 session と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "特定回の Parliament の時間的境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-08",
+      "surface_form": "during this parliament; the lifetime of a parliament",
+      "frame": "temporal preposition/lifetime + election-bounded parliament",
+      "meaning": "特定回の議会が成立してから正式終了するまでの存続期間",
+      "disposition": "included",
+      "rationale": "「during this parliament; the lifetime of a parliament」は、特定回の会議体そのものからその存続期間を焦点化するフレームとして語義2に収録されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-08-A1",
+          "statement": "期間は当該 Parliament の成立から解散その他の正式終了までを上限としなければならない。",
+          "polarity": "must_hold",
+          "scope": "期間読み"
+        },
+        {
+          "id": "IC-08-A2",
+          "statement": "一つの session の期間だけに縮小してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "Parliament と session の包含関係"
+        }
+      ]
+    },
+    {
+      "id": "IC-09",
+      "surface_form": "parliamentary",
+      "frame": "parliamentary + institution/system/procedure noun",
+      "meaning": "議会・議会制・議事手続きに関する形容詞",
+      "disposition": "included",
+      "rationale": "「parliamentary」は語形成欄で形容詞とされ、議会・議会制・議事手続きという主要な関係義が簡潔に区別されている。",
+      "semantic_assertions": [
+        {
+          "id": "IC-09-A1",
+          "statement": "形容詞は parliament との制度的関係、議会制、または議事手続きとの関係を表さなければならない。",
+          "polarity": "must_hold",
+          "scope": "派生形 parliamentary"
+        }
+      ]
+    },
+    {
+      "id": "IC-10",
+      "surface_form": "a parliament of owls",
+      "frame": "a parliament of + owls",
+      "meaning": "フクロウの群れをいう戯画的・定着的な集合名詞表現",
+      "disposition": "excluded",
+      "rationale": "「a parliament of owls」は限定的な集合名詞表現で本文にはないが、現代の主要な政治語義を教える記事からの除外は妥当で、blocker級の欠落とはしない。",
+      "semantic_assertions": [
+        {
+          "id": "IC-10-A1",
+          "statement": "この表現を扱う場合、政治制度ではなく owls の集合を表す固定的・戯画的用法に限定しなければならない。",
+          "polarity": "must_hold",
+          "scope": "a parliament of owls"
+        },
+        {
+          "id": "IC-10-A2",
+          "statement": "任意の動物名に生産的に一般化してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "集合名詞表現の一般化範囲"
+        }
+      ]
+    },
+    {
+      "id": "IC-11",
+      "surface_form": "parliament as a building or place",
+      "frame": "at/outside/inside parliament with a purely physical-place reading",
+      "meaning": "議事堂という建物・場所そのもの",
+      "disposition": "excluded",
+      "rationale": "「parliament as a building or place」は制度・活動場所からの文脈的換喩にはなり得るが、本文に独立した主要語義として立てない判断は妥当である。",
+      "semantic_assertions": [
+        {
+          "id": "IC-11-A1",
+          "statement": "独立語義として立てるなら、制度や会議ではなく物理的建物を指す用例が必要である。",
+          "polarity": "must_hold",
+          "scope": "物理的場所読み"
+        },
+        {
+          "id": "IC-11-A2",
+          "statement": "in Parliament の制度参加・議員活動の読みを自動的に建物義へ分類してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "制度義から場所義への換喩境界"
+        }
+      ]
+    },
+    {
+      "id": "IC-12",
+      "surface_form": "a parliamentary session or sitting",
+      "frame": "one session/sitting of Parliament",
+      "meaning": "一つの会期または個別の会議・開会",
+      "disposition": "excluded",
+      "rationale": "「a parliamentary session or sitting」は parliament 自体と同義ではなく、本文は語義2で複数 session を含み得る上位単位だと明確に除外している。",
+      "semantic_assertions": [
+        {
+          "id": "IC-12-A1",
+          "statement": "session は一つの election-bounded Parliament に包含され得る下位の期間単位でなければならない。",
+          "polarity": "must_hold",
+          "scope": "Parliament と session の関係"
+        },
+        {
+          "id": "IC-12-A2",
+          "statement": "一つの session や一日の sitting を語義2の Parliament と同一視してはならない。",
+          "polarity": "must_not_hold",
+          "scope": "時間単位の除外境界"
+        }
+      ]
+    }
+  ],
+  "article_findings": [
+    {
+      "id": "AF-01",
+      "taxonomy_id": "sense_boundary.frame_misclassification",
+      "location": "語義1のコロケーション「a hung parliament」と語義1・語義2の境界説明",
+      "severity": "blocker",
+      "rationale": "「・`a hung parliament`」は、選挙結果として成立した特定の議員構成に単独過半数政党がないことを表すため、記事自身が「選挙や解散で区切られる特定回の Parliament は語義2で扱う。」と定めた語義2に自然に帰属する。これを継続制度の語義1に置くと、コロケーションの意味役割と明示された包含境界が矛盾する。",
+      "scope_anchors": [
+        {
+          "id": "AF-01-S1",
+          "exact_quote": "・`a hung parliament`",
+          "location_hint": "語義1 > コロケーション"
+        },
+        {
+          "id": "AF-01-S2",
+          "exact_quote": "選挙や解散で区切られる特定回の Parliament は語義2で扱う。",
+          "location_hint": "語義1 > 語法・注意"
+        },
+        {
+          "id": "AF-01-S3",
+          "exact_quote": "総選挙後に成立し、解散など制度上の正式な終了まで同じ回として存続する特定の議会、またはその期間を指す。",
+          "location_hint": "語義2 > 日本語訳・定義"
+        }
+      ]
+    },
+    {
+      "id": "AF-02",
+      "taxonomy_id": "usage.collocation_naturalness",
+      "location": "語義2の類義語「Parliament term」",
+      "severity": "blocker",
+      "rationale": "「・Parliament term」は標準的な一般表現として不自然で、学習者向けの類義語見出しとしては `parliamentary term` または `term of Parliament` が必要である。例文「Several reforms were completed during the Parliament term.」も同じ不自然な名詞連接と大文字表記を反復しており、語法情報としてそのまま提示できない。",
+      "scope_anchors": [
+        {
+          "id": "AF-02-S1",
+          "exact_quote": "・Parliament term",
+          "location_hint": "語義2 > 類義語"
+        },
+        {
+          "id": "AF-02-S2",
+          "exact_quote": "Several reforms were completed during the Parliament term.",
+          "location_hint": "語義2 > 類義語 > Parliament term > 例"
+        }
+      ]
+    }
+  ],
+  "unresolved_issues": [],
+  "learning_delta": [
+    "同一語義欄のコロケーションもフレーム単位で再分類すると、hung parliament が恒久的制度ではなく選挙で成立した特定回の構成を指すことが明確になった。",
+    "期間義の類義表現では headword の意味対応だけでなく、実際の英語の形容詞形・of 構文・大小文字まで独立に検証する必要がある。"
+  ],
+  "run_id": "blind-parliament-20260908T084338Z-d549b547",
+  "context_id": "blind-parliament-context-20260908T084338Z-d549b547",
+  "input_body_sha256": "2e91f7f7ec02932b0cc482d736a6872be0ab32cd48e6a26e54e8abc94bd3a93e",
+  "recorded_at": "2026-09-08T11:36:07.098989+00:00"
+}

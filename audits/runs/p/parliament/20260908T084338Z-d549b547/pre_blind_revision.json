@@ -1,0 +1,33 @@
+{
+  "schema_version": "pre_blind_revision_v1",
+  "input_body_sha256": "a79a267d48a57dc1c95b4c79fa1496950e4ca751f098fd6d46c4a89b6afdfcd2",
+  "output_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+  "recorded_at": "2026-09-08T12:45:20Z",
+  "changed_units": [
+    "collocations_examples",
+    "core_image",
+    "etymology",
+    "frames",
+    "frequency_register",
+    "lexical_relations",
+    "pronunciation",
+    "sense_structure",
+    "usage_notes",
+    "word_formation"
+  ],
+  "invalidated_passes": [
+    "evidence",
+    "example-attribution",
+    "frame-relation",
+    "pronunciation",
+    "qualification",
+    "sense-structure",
+    "translation"
+  ],
+  "full_recheck": true,
+  "fallback_reasons": [
+    "sense_or_part_of_speech_topology_changed",
+    "subsequent_evidence_and_relation_revisions",
+    "subsequent_final_blind_resolution_rounds_6_to_10"
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "schema_version": "recheck_resolution_v1",
+  "stage": "checker_recheck",
+  "round": 7,
+  "input_body_sha256": "6e3debfd60d1c48011c72ee1d4bf89ce406db6a8c03ea93b6e17d0b491214560",
+  "output_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c",
+  "resolutions": [
+    {
+      "id": "round7-sense-structure-001",
+      "finding_id": "round7-sense-structure-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Generalized the strict next-general-election endpoint in the core image and sense definition to an election-bounded particular Parliament and its lifespan, while retaining the fixed F-020 dissolution endpoint in the usage note.",
+      "resolved_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c"
+    },
+    {
+      "id": "round7-qualification-001",
+      "finding_id": "round7-qualification-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Resolved together with the sense-structure finding by removing the absolute next-election persistence claim and leaving dissolution as the explicit formal endpoint.",
+      "resolved_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c"
+    },
+    {
+      "id": "round7-qualification-002",
+      "finding_id": "round7-qualification-002",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Removed the potentially misleading whole-Parliament scope and specific-election attribution from the hung parliament usage line, retaining only the source-supported no-party-majority meaning and British-English qualification.",
+      "resolved_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c"
+    },
+    {
+      "id": "round7-evidence-001",
+      "finding_id": "round7-evidence-001",
+      "status": "resolved",
+      "disposition": "adopted",
+      "rationale": "Deleted the unsupported restriction to political reporting; the usage note now stays within F-004's British-English and no-overall-majority support.",
+      "resolved_body_sha256": "a7226fb6edada8c0687f2bd845f926a1785458142f0e948bcd27f749e7265b4c"
+    }
+  ]
+}

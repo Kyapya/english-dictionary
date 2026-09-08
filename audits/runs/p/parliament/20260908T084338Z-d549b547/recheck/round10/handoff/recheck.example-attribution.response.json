@@ -1,0 +1,125 @@
+{
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "reviewer": {
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human",
+      "agent_id": "/root/parliament_word/r10_example"
+    },
+    "recorded_at": "2026-09-08T12:37:55Z",
+    "input_body_sha256": "2fd51ef3ffbf4a8ef4b16a3f6ff473a56a33ec010e487cb7eaca66e6e55365f9",
+    "blind_request_sha256": "728189aa82149f5660da1970bd579dbfbb516ae87c272ffcf7fa398f393ca6e0",
+    "attributions": [
+      {
+        "example_id": "ex-f688a23d16e0",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "the next parliament"
+        ],
+        "rationale": "The phrase \"the next parliament\" orders parliament as the next countable election-bounded instance, so sense:002 is natural. Sense:001 denotes the continuing institution and does not itself supply the succession implied by \"next\"."
+      },
+      {
+        "example_id": "ex-2588ba464714",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during this parliament"
+        ],
+        "rationale": "In \"during this parliament\", the preposition \"during\" and demonstrative \"this\" make parliament the bounded interval within which the measure will be introduced, selecting sense:002. Sense:001 is a standing institution, not the delimited span picked out here."
+      },
+      {
+        "example_id": "ex-4d5ccb51363f",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "the lifetime of a parliament"
+        ],
+        "rationale": "The construction \"the lifetime of a parliament\" assigns a finite lifespan to one countable parliament, directly selecting sense:002. The continuing institution in sense:001 may persist across elections and therefore is not the entity whose lifetime measures completion here."
+      },
+      {
+        "example_id": "ex-e44f6ab90bfd",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "member of parliament"
+        ],
+        "rationale": "The zero-article institutional complement in \"member of parliament\" names the body in which she holds elected membership, selecting sense:001. A particular election-bounded instance under sense:002 would require language that identifies that instance or its term, which this membership formula lacks."
+      },
+      {
+        "example_id": "ex-efa333c75700",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "The Scottish Parliament passed the bill"
+        ],
+        "rationale": "In \"The Scottish Parliament passed the bill\", the official institutional name is the collective legislative agent performing enactment, which selects sense:001. Nothing in parliament's use numbers an elected iteration or measures an election-to-election period, so sense:002 is not licensed by the headword phrase."
+      },
+      {
+        "example_id": "ex-59ebfcabca74",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "before Parliament"
+        ],
+        "rationale": "The complement \"before Parliament\" treats Parliament as the institutional forum considering the bill, selecting sense:001. Sense:002 would require a particular elected parliament or its bounded duration to be the relevant referent, but neither is expressed in this headword construction."
+      },
+      {
+        "example_id": "ex-cb549620d2a2",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during the current parliament"
+        ],
+        "rationale": "The phrase \"during the current parliament\" locates passage within the presently running, bounded parliamentary term, so sense:002 is selected. The continuing institution in sense:001 is not made \"current\" in contrast with a preceding or following iteration."
+      },
+      {
+        "example_id": "ex-7feac96674ae",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "elected to Parliament"
+        ],
+        "rationale": "The fixed institutional-destination frame \"elected to Parliament\" describes entry into the legislature and thus selects sense:001. Sense:002 would make the election result a particular iteration or term, whereas the zero-article proper-name complement here denotes the institution joined."
+      },
+      {
+        "example_id": "ex-f10dcc848633",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "an Act of Parliament"
+        ],
+        "rationale": "The formal expression \"an Act of Parliament\" identifies Parliament as the institutional legislative source of the Act, selecting sense:001. It does not identify the lifetime or numbered elected body required for sense:002."
+      },
+      {
+        "example_id": "ex-5f6c1595fb6d",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "The general election produced a hung parliament"
+        ],
+        "rationale": "In \"The general election produced a hung parliament\", parliament is the new countable body resulting from that election, directly selecting sense:002. Sense:001 is the continuing institution and is not itself produced anew by the stated general election."
+      }
+    ]
+}

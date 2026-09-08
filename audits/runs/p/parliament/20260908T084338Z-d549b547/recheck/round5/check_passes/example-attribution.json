@@ -1,0 +1,137 @@
+{
+  "pass_id": "example-attribution",
+  "reviewer": {
+    "agent_id": "/root/parliament_word/r5_example",
+    "mode": "handoff",
+    "declared_model": "gpt-5",
+    "ingested_by": "human"
+  },
+  "blind_attribution_record": {
+    "schema_version": "example_attribution_blind_record_v1",
+    "pass_id": "example-attribution",
+    "input_body_sha256": "2e91f7f7ec02932b0cc482d736a6872be0ab32cd48e6a26e54e8abc94bd3a93e",
+    "blind_request_sha256": "2ce9d8ce27a76e6ff1a73cc0354c136cd618807c75977091b2a33644f2d32ada",
+    "recorded_at": "2026-09-08T20:21:47+09:00",
+    "reviewer": {
+      "agent_id": "/root/parliament_word/r5_example",
+      "mode": "handoff",
+      "declared_model": "gpt-5",
+      "ingested_by": "human"
+    },
+    "attributions": [
+      {
+        "example_id": "ex-12a0195ce027",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "hung parliament"
+        ],
+        "rationale": "The phrase hung parliament classifies the legislature by the distribution of seats among its members, so the headword denotes the representative body in sense:001. Sense:002 is a parliament's term or duration; the sentence neither measures a period nor locates an event within one, so that competitor does not fit the headword's meaning here."
+      },
+      {
+        "example_id": "ex-4c4873a72ff5",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during the current parliament"
+        ],
+        "rationale": "The temporal frame during the current parliament makes the headword the bounded term within which passage might occur, which is sense:002. Sense:001 denotes the institution or its members as a body, but that reading does not supply the time span selected by during."
+      },
+      {
+        "example_id": "ex-7852d6c8987c",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "elected to Parliament"
+        ],
+        "rationale": "In elected to Parliament, Parliament is the institution to which a person gains elected membership, so sense:001 is selected. Sense:002 denotes the duration or particular term of a parliament and cannot serve as the institutional destination of this election construction."
+      },
+      {
+        "example_id": "ex-c24002f2357e",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Parliament passed the bill"
+        ],
+        "rationale": "In Parliament passed the bill, the headword is the institutional agent whose members enact legislation, directly matching sense:001. Sense:002 is a term or period and cannot itself function as the deliberating agent that passes a bill."
+      },
+      {
+        "example_id": "ex-5f1415a23b20",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "before Parliament"
+        ],
+        "rationale": "The construction before Parliament presents Parliament as the institutional body formally considering the bill, selecting sense:001. Sense:002 denotes the parliament's term or duration and is not the forum before which a bill is pending."
+      },
+      {
+        "example_id": "ex-bb57aabf8d18",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "member of parliament"
+        ],
+        "rationale": "The expression member of parliament names a person who belongs to the legislative body, so the headword has sense:001. Sense:002 denotes a parliamentary term or its duration, and a person is not a member of a time span."
+      },
+      {
+        "example_id": "ex-f2a7c22be4ee",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:001"
+        ],
+        "discriminating_terms": [
+          "Act of Parliament"
+        ],
+        "rationale": "Act of Parliament identifies legislation enacted by the institutional legislature, selecting sense:001. Sense:002 is the legislature's term or duration; a statute's source in this fixed construction is the lawmaking body, not the period for which it exists."
+      },
+      {
+        "example_id": "ex-6832635613e4",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "during this parliament"
+        ],
+        "rationale": "The phrase during this parliament sets a bounded period for introducing the measure, which selects the parliamentary term in sense:002. Sense:001 is the legislature as an institution or collective agent, but it does not provide the temporal interval required by during."
+      },
+      {
+        "example_id": "ex-1171b9fb29f6",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "in the next parliament"
+        ],
+        "rationale": "In in the next parliament, next distinguishes a subsequent constituted parliamentary term in which reconsideration is to occur, selecting sense:002. Sense:001 denotes the continuing institution or its members collectively and does not by itself express the successor time-bounded term marked by next."
+      },
+      {
+        "example_id": "ex-48a039829f62",
+        "classification": "unique",
+        "candidate_sense_ids": [
+          "sense:002"
+        ],
+        "discriminating_terms": [
+          "lifetime of a parliament"
+        ],
+        "rationale": "The expression lifetime of a parliament explicitly measures how long one constituted parliament endures, so the headword has sense:002. Sense:001 denotes the legislative institution or member body, whereas the completion interval here is the formal lifespan of a particular term."
+      }
+    ]
+  },
+  "aligned_at": "2026-09-08T11:25:04.628632+00:00",
+  "findings": [],
+  "unrouted_observations": []
+}
